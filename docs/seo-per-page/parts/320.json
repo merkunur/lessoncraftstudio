@@ -2,595 +2,763 @@
  "part": 320,
  "locale": "no",
  "classes": [
-  "alphabet-train::letter-hint",
-  "big-small::findBig"
+  "code-addition::secret-word",
+  "find-objects::find-odd"
  ],
  "splitOf": null,
- "count": 73,
+ "count": 94,
  "pages": [
   {
-   "slug": "alfabettoget-bokstavhint-4-juli-f495",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "4th_of_july",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-4-juli-f495"
+   "slug": "kodeaddisjon-hemmelig-ord-aktiviteter-0b13",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "activities",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-aktiviteter-0b13"
   },
   {
-   "slug": "alfabettoget-bokstavhint-aktiviteter-4934",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "kodeaddisjon-hemmelig-ord-bakeri-0a6e",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "bakery",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-bakeri-0a6e"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-blomster-bcd2",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "flowers",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-blomster-bcd2"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-camping-f839",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "camping",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-camping-f839"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-desserter-og-godteri-6218",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "desserts_and_sweets",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-desserter-og-godteri-6218"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-dinosaurer-bac1",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "dinosaurs",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-dinosaurer-bac1"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-dyr-0ab6",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "animals",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-dyr-0ab6"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-dyrehagedyr-95a7",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "zoo_animals",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-dyrehagedyr-95a7"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-farger-434f",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "colors",
+   "level": "2-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-farger-434f"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-folelser-385b",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "emotions",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-folelser-385b"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-former-a3ef",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "shapes",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-former-a3ef"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-frokost-dd0e",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "breakfast",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-frokost-dd0e"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-frukter-a221",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "fruits",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-frukter-a221"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-fugler-2fb4",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "birds",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-fugler-2fb4"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-gardsdyr-7702",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "farm_animals",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-gardsdyr-7702"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-gronnsaker-660a",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "vegetables",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-gronnsaker-660a"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-havliv-77cd",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "ocean_life",
+   "level": "2-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-havliv-77cd"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-i-supermarkedet-7958",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "at_the_supermarket",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-i-supermarkedet-7958"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-insekter-og-kryp-ce94",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "insects_and_bugs",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-insekter-og-kryp-ce94"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-jul-0547",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "christmas",
+   "level": "2-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-jul-0547"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-kjaeledyr-4391",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "pets",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-kjaeledyr-4391"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-kjokkenredskaper-d21d",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "kitchen_tools",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-kjokkenredskaper-d21d"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-kjoretoy-5a54",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "vehicles",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-kjoretoy-5a54"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-klaer-63db",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "clothing",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-klaer-63db"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-klasserom-5bbd",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "classroom",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-klasserom-5bbd"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-kroppsdeler-8f3c",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "body_parts",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-kroppsdeler-8f3c"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-leker-d519",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "toys",
+   "level": "2-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-leker-d519"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-mobler-4b42",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "furniture",
+   "level": "2-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-mobler-4b42"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-musikk-e864",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "music",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-musikk-e864"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-paske-4440",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "easter",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-paske-4440"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-postkontor-fb80",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "post_office",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-postkontor-fb80"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-reptiler-og-amfibier-c453",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-reptiler-og-amfibier-c453"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-rundt-i-huset-83fc",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "around_the_house",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-rundt-i-huset-83fc"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-skogsdyr-0228",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "forest_creatures",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-skogsdyr-0228"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-sommer-296a",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "summer",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-sommer-296a"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-strand-0b60",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "beach",
+   "level": "2-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-strand-0b60"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-sykehus-5e89",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "hospital",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-sykehus-5e89"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-thanksgiving-c09f",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "thanksgivinng",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-thanksgiving-c09f"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-tilbehor-d83e",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "accessories",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-tilbehor-d83e"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-ting-som-flyr-d886",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "things_that_fly",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-ting-som-flyr-d886"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-traer-ea88",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "tree",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-traer-ea88"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-vaer-ad0e",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "weather",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-vaer-ad0e"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-var-5698",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "spring",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-var-5698"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-verdensrommet-9e87",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "space",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-verdensrommet-9e87"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-verktoy-01fd",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "tools",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-verktoy-01fd"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-vinter-ae73",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "winter",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-vinter-ae73"
+  },
+  {
+   "slug": "kodeaddisjon-hemmelig-ord-yrker-74bc",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "occupations",
+   "level": "3-trinn",
+   "deck": "kodeaddisjon-hemmelig-ord-yrker-74bc"
+  },
+  {
+   "slug": "finn-objektene-finn-den-som-er-ulik-aktiviteter-8951",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "activities",
    "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-aktiviteter-4934"
+   "deck": "finn-objektene-finn-den-som-er-ulik-aktiviteter-8951"
   },
   {
-   "slug": "alfabettoget-bokstavhint-bakeri-e285",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "finn-objektene-finn-den-som-er-ulik-bakeri-c855",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "bakery",
    "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-bakeri-e285"
+   "deck": "finn-objektene-finn-den-som-er-ulik-bakeri-c855"
   },
   {
-   "slug": "alfabettoget-bokstavhint-blomster-b4f7",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "finn-objektene-finn-den-som-er-ulik-blomster-85c5",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "flowers",
    "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-blomster-b4f7"
+   "deck": "finn-objektene-finn-den-som-er-ulik-blomster-85c5"
   },
   {
-   "slug": "alfabettoget-bokstavhint-camping-4e48",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "finn-objektene-finn-den-som-er-ulik-camping-aca4",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "camping",
    "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-camping-4e48"
+   "deck": "finn-objektene-finn-den-som-er-ulik-camping-aca4"
   },
   {
-   "slug": "alfabettoget-bokstavhint-dinosaurer-593e",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "dinosaurs",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-dinosaurer-593e"
-  },
-  {
-   "slug": "alfabettoget-bokstavhint-dyr-42ed",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "animals",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-dyr-42ed"
-  },
-  {
-   "slug": "alfabettoget-bokstavhint-dyrehagedyr-4620",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "zoo_animals",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-dyrehagedyr-4620"
-  },
-  {
-   "slug": "alfabettoget-bokstavhint-frokost-ab33",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "breakfast",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-frokost-ab33"
-  },
-  {
-   "slug": "alfabettoget-bokstavhint-frukter-c166",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "fruits",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-frukter-c166"
-  },
-  {
-   "slug": "alfabettoget-bokstavhint-fugler-2-41a6",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "birds_2",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-fugler-2-41a6"
-  },
-  {
-   "slug": "alfabettoget-bokstavhint-gardsdyr-1a17",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "farm_animals",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-gardsdyr-1a17"
-  },
-  {
-   "slug": "alfabettoget-bokstavhint-gronnsaker-3d7f",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "vegetables",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-gronnsaker-3d7f"
-  },
-  {
-   "slug": "alfabettoget-bokstavhint-havliv-8b50",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "ocean_life",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-havliv-8b50"
-  },
-  {
-   "slug": "alfabettoget-bokstavhint-i-supermarkedet-3b3d",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "at_the_supermarket",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-i-supermarkedet-3b3d"
-  },
-  {
-   "slug": "alfabettoget-bokstavhint-jul-1d88",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "christmas",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-jul-1d88"
-  },
-  {
-   "slug": "alfabettoget-bokstavhint-kjaeledyr-28f9",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "pets",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-kjaeledyr-28f9"
-  },
-  {
-   "slug": "alfabettoget-bokstavhint-kjokkenredskaper-9dda",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "kitchen_tools",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-kjokkenredskaper-9dda"
-  },
-  {
-   "slug": "alfabettoget-bokstavhint-kjoretoy-ad77",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "vehicles",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-kjoretoy-ad77"
-  },
-  {
-   "slug": "alfabettoget-bokstavhint-klaer-7e55",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "clothing",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-klaer-7e55"
-  },
-  {
-   "slug": "alfabettoget-bokstavhint-klasserom-2721",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "classroom",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-klasserom-2721"
-  },
-  {
-   "slug": "alfabettoget-bokstavhint-kroppsdeler-c70a",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "body_parts",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-kroppsdeler-c70a"
-  },
-  {
-   "slug": "alfabettoget-bokstavhint-leker-16fa",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "toys",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-leker-16fa"
-  },
-  {
-   "slug": "alfabettoget-bokstavhint-paske-9e14",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "easter",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-paske-9e14"
-  },
-  {
-   "slug": "alfabettoget-bokstavhint-rundt-i-huset-8e8a",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "around_the_house",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-rundt-i-huset-8e8a"
-  },
-  {
-   "slug": "alfabettoget-bokstavhint-skogsdyr-86ca",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "forest_creatures",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-skogsdyr-86ca"
-  },
-  {
-   "slug": "alfabettoget-bokstavhint-sommer-8f43",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "summer",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-sommer-8f43"
-  },
-  {
-   "slug": "alfabettoget-bokstavhint-strand-a832",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "beach",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-strand-a832"
-  },
-  {
-   "slug": "alfabettoget-bokstavhint-sykehus-52a8",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "hospital",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-sykehus-52a8"
-  },
-  {
-   "slug": "alfabettoget-bokstavhint-thanksgiving-f7a9",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "thanksgivinng",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-thanksgiving-f7a9"
-  },
-  {
-   "slug": "alfabettoget-bokstavhint-tilbehor-5661",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "accessories",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-tilbehor-5661"
-  },
-  {
-   "slug": "alfabettoget-bokstavhint-ting-som-flyr-05ef",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "things_that_fly",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-ting-som-flyr-05ef"
-  },
-  {
-   "slug": "alfabettoget-bokstavhint-traer-a9f0",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "tree",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-traer-a9f0"
-  },
-  {
-   "slug": "alfabettoget-bokstavhint-var-7a6b",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "spring",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-var-7a6b"
-  },
-  {
-   "slug": "alfabettoget-bokstavhint-verdensrommet-dae0",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "space",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-verdensrommet-dae0"
-  },
-  {
-   "slug": "alfabettoget-bokstavhint-vinter-0b25",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "winter",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-vinter-0b25"
-  },
-  {
-   "slug": "alfabettoget-bokstavhint-yrker-3f0a",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "occupations",
-   "level": "1-trinn",
-   "deck": "alfabettoget-bokstavhint-yrker-3f0a"
-  },
-  {
-   "slug": "stor-liten-finn-den-store-bakeri-f96e",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "bakery",
-   "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-bakeri-f96e"
-  },
-  {
-   "slug": "stor-liten-finn-den-store-blomster-4129",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "flowers",
-   "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-blomster-4129"
-  },
-  {
-   "slug": "stor-liten-finn-den-store-camping-8398",
-   "type": "big-small",
-   "mode": "findBig",
-   "theme": "camping",
-   "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-camping-8398"
-  },
-  {
-   "slug": "stor-liten-finn-den-store-desserter-og-godteri-b1aa",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-desserter-og-godteri-11ad",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "desserts_and_sweets",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-desserter-og-godteri-b1aa"
+   "deck": "finn-objektene-finn-den-som-er-ulik-desserter-og-godteri-11ad"
   },
   {
-   "slug": "stor-liten-finn-den-store-dinosaurer-af75",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-dinosaurer-f0aa",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "dinosaurs",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-dinosaurer-af75"
+   "deck": "finn-objektene-finn-den-som-er-ulik-dinosaurer-f0aa"
   },
   {
-   "slug": "stor-liten-finn-den-store-dyr-b37e",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-dyr-bc75",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "animals",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-dyr-b37e"
+   "deck": "finn-objektene-finn-den-som-er-ulik-dyr-bc75"
   },
   {
-   "slug": "stor-liten-finn-den-store-dyrehagedyr-d679",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-dyrehagedyr-51b7",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "zoo_animals",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-dyrehagedyr-d679"
+   "deck": "finn-objektene-finn-den-som-er-ulik-dyrehagedyr-51b7"
   },
   {
-   "slug": "stor-liten-finn-den-store-former-cf0a",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-farger-c174",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "colors",
+   "level": "1-trinn",
+   "deck": "finn-objektene-finn-den-som-er-ulik-farger-c174"
+  },
+  {
+   "slug": "finn-objektene-finn-den-som-er-ulik-folelser-6cea",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "emotions",
+   "level": "1-trinn",
+   "deck": "finn-objektene-finn-den-som-er-ulik-folelser-6cea"
+  },
+  {
+   "slug": "finn-objektene-finn-den-som-er-ulik-former-4082",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "shapes",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-former-cf0a"
+   "deck": "finn-objektene-finn-den-som-er-ulik-former-4082"
   },
   {
-   "slug": "stor-liten-finn-den-store-frokost-85a9",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-frokost-2557",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "breakfast",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-frokost-85a9"
+   "deck": "finn-objektene-finn-den-som-er-ulik-frokost-2557"
   },
   {
-   "slug": "stor-liten-finn-den-store-frukter-5c87",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-frukter-cac4",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "fruits",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-frukter-5c87"
+   "deck": "finn-objektene-finn-den-som-er-ulik-frukter-cac4"
   },
   {
-   "slug": "stor-liten-finn-den-store-fugler-2-79e7",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-fugler-2-810a",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "birds_2",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-fugler-2-79e7"
+   "deck": "finn-objektene-finn-den-som-er-ulik-fugler-2-810a"
   },
   {
-   "slug": "stor-liten-finn-den-store-gardsdyr-b747",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-gardsdyr-5cc9",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "farm_animals",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-gardsdyr-b747"
+   "deck": "finn-objektene-finn-den-som-er-ulik-gardsdyr-5cc9"
   },
   {
-   "slug": "stor-liten-finn-den-store-gronnsaker-3a02",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-gronnsaker-7a5e",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "vegetables",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-gronnsaker-3a02"
+   "deck": "finn-objektene-finn-den-som-er-ulik-gronnsaker-7a5e"
   },
   {
-   "slug": "stor-liten-finn-den-store-havliv-d08e",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-havliv-999a",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "ocean_life",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-havliv-d08e"
+   "deck": "finn-objektene-finn-den-som-er-ulik-havliv-999a"
   },
   {
-   "slug": "stor-liten-finn-den-store-i-supermarkedet-9810",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-i-supermarkedet-be1a",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "at_the_supermarket",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-i-supermarkedet-9810"
+   "deck": "finn-objektene-finn-den-som-er-ulik-i-supermarkedet-be1a"
   },
   {
-   "slug": "stor-liten-finn-den-store-jul-3419",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-insekter-og-kryp-5b02",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "insects_and_bugs",
+   "level": "1-trinn",
+   "deck": "finn-objektene-finn-den-som-er-ulik-insekter-og-kryp-5b02"
+  },
+  {
+   "slug": "finn-objektene-finn-den-som-er-ulik-jul-474d",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "christmas",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-jul-3419"
+   "deck": "finn-objektene-finn-den-som-er-ulik-jul-474d"
   },
   {
-   "slug": "stor-liten-finn-den-store-kjaeledyr-36fc",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-kjaeledyr-d524",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "pets",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-kjaeledyr-36fc"
+   "deck": "finn-objektene-finn-den-som-er-ulik-kjaeledyr-d524"
   },
   {
-   "slug": "stor-liten-finn-den-store-kjokkenredskaper-dfaf",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-kjokkenredskaper-8b37",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "kitchen_tools",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-kjokkenredskaper-dfaf"
+   "deck": "finn-objektene-finn-den-som-er-ulik-kjokkenredskaper-8b37"
   },
   {
-   "slug": "stor-liten-finn-den-store-kjoretoy-5dc3",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-kjoretoy-4a97",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "vehicles",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-kjoretoy-5dc3"
+   "deck": "finn-objektene-finn-den-som-er-ulik-kjoretoy-4a97"
   },
   {
-   "slug": "stor-liten-finn-den-store-klaer-c7fc",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-klaer-2437",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "clothing",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-klaer-c7fc"
+   "deck": "finn-objektene-finn-den-som-er-ulik-klaer-2437"
   },
   {
-   "slug": "stor-liten-finn-den-store-klasserom-c247",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-klasserom-36b9",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "classroom",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-klasserom-c247"
+   "deck": "finn-objektene-finn-den-som-er-ulik-klasserom-36b9"
   },
   {
-   "slug": "stor-liten-finn-den-store-kroppsdeler-d257",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-kroppsdeler-894d",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "body_parts",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-kroppsdeler-d257"
+   "deck": "finn-objektene-finn-den-som-er-ulik-kroppsdeler-894d"
   },
   {
-   "slug": "stor-liten-finn-den-store-leker-c48e",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-leker-32f9",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "toys",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-leker-c48e"
+   "deck": "finn-objektene-finn-den-som-er-ulik-leker-32f9"
   },
   {
-   "slug": "stor-liten-finn-den-store-mobler-708f",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-mobler-da3b",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "furniture",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-mobler-708f"
+   "deck": "finn-objektene-finn-den-som-er-ulik-mobler-da3b"
   },
   {
-   "slug": "stor-liten-finn-den-store-musikk-e5ad",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-musikk-f8f2",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "music",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-musikk-e5ad"
+   "deck": "finn-objektene-finn-den-som-er-ulik-musikk-f8f2"
   },
   {
-   "slug": "stor-liten-finn-den-store-paske-4c6c",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-paske-bb22",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "easter",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-paske-4c6c"
+   "deck": "finn-objektene-finn-den-som-er-ulik-paske-bb22"
   },
   {
-   "slug": "stor-liten-finn-den-store-rundt-i-huset-5c60",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-postkontor-adf4",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "post_office",
+   "level": "1-trinn",
+   "deck": "finn-objektene-finn-den-som-er-ulik-postkontor-adf4"
+  },
+  {
+   "slug": "finn-objektene-finn-den-som-er-ulik-reptiler-og-amfibier-019e",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-trinn",
+   "deck": "finn-objektene-finn-den-som-er-ulik-reptiler-og-amfibier-019e"
+  },
+  {
+   "slug": "finn-objektene-finn-den-som-er-ulik-rundt-i-huset-b677",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "around_the_house",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-rundt-i-huset-5c60"
+   "deck": "finn-objektene-finn-den-som-er-ulik-rundt-i-huset-b677"
   },
   {
-   "slug": "stor-liten-finn-den-store-skogsdyr-fab8",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-skogsdyr-cf33",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "forest_creatures",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-skogsdyr-fab8"
+   "deck": "finn-objektene-finn-den-som-er-ulik-skogsdyr-cf33"
   },
   {
-   "slug": "stor-liten-finn-den-store-strand-c6bc",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-sommer-fe04",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "summer",
+   "level": "1-trinn",
+   "deck": "finn-objektene-finn-den-som-er-ulik-sommer-fe04"
+  },
+  {
+   "slug": "finn-objektene-finn-den-som-er-ulik-strand-fff0",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "beach",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-strand-c6bc"
+   "deck": "finn-objektene-finn-den-som-er-ulik-strand-fff0"
   },
   {
-   "slug": "stor-liten-finn-den-store-sykehus-d5a8",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-sykehus-f0f1",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "hospital",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-sykehus-d5a8"
+   "deck": "finn-objektene-finn-den-som-er-ulik-sykehus-f0f1"
   },
   {
-   "slug": "stor-liten-finn-den-store-tilbehor-4ff9",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-thanksgiving-2e66",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "thanksgivinng",
+   "level": "1-trinn",
+   "deck": "finn-objektene-finn-den-som-er-ulik-thanksgiving-2e66"
+  },
+  {
+   "slug": "finn-objektene-finn-den-som-er-ulik-tilbehor-7da9",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "accessories",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-tilbehor-4ff9"
+   "deck": "finn-objektene-finn-den-som-er-ulik-tilbehor-7da9"
   },
   {
-   "slug": "stor-liten-finn-den-store-ting-som-flyr-814c",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-ting-som-flyr-5885",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "things_that_fly",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-ting-som-flyr-814c"
+   "deck": "finn-objektene-finn-den-som-er-ulik-ting-som-flyr-5885"
   },
   {
-   "slug": "stor-liten-finn-den-store-traer-4bdf",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-traer-9d71",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "tree",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-traer-4bdf"
+   "deck": "finn-objektene-finn-den-som-er-ulik-traer-9d71"
   },
   {
-   "slug": "stor-liten-finn-den-store-verdensrommet-1fe3",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-vaer-3aeb",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "weather",
+   "level": "1-trinn",
+   "deck": "finn-objektene-finn-den-som-er-ulik-vaer-3aeb"
+  },
+  {
+   "slug": "finn-objektene-finn-den-som-er-ulik-var-0461",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "spring",
+   "level": "1-trinn",
+   "deck": "finn-objektene-finn-den-som-er-ulik-var-0461"
+  },
+  {
+   "slug": "finn-objektene-finn-den-som-er-ulik-verdensrommet-9061",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "space",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-verdensrommet-1fe3"
+   "deck": "finn-objektene-finn-den-som-er-ulik-verdensrommet-9061"
   },
   {
-   "slug": "stor-liten-finn-den-store-verktoy-bad3",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-verktoy-259b",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "tools",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-verktoy-bad3"
+   "deck": "finn-objektene-finn-den-som-er-ulik-verktoy-259b"
   },
   {
-   "slug": "stor-liten-finn-den-store-yrker-fe32",
-   "type": "big-small",
-   "mode": "findBig",
+   "slug": "finn-objektene-finn-den-som-er-ulik-vinter-a883",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "winter",
+   "level": "1-trinn",
+   "deck": "finn-objektene-finn-den-som-er-ulik-vinter-a883"
+  },
+  {
+   "slug": "finn-objektene-finn-den-som-er-ulik-yrker-4d23",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "occupations",
    "level": "1-trinn",
-   "deck": "stor-liten-finn-den-store-yrker-fe32"
+   "deck": "finn-objektene-finn-den-som-er-ulik-yrker-4d23"
   }
  ]
 }

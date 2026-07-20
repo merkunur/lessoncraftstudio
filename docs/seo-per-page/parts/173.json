@@ -2,795 +2,690 @@
  "part": 173,
  "locale": "it",
  "classes": [
-  "pattern-train::null",
-  "prepositions::fillin"
+  "crossword::null"
  ],
  "splitOf": null,
- "count": 98,
+ "count": 85,
  "pages": [
   {
-   "slug": "treno-dei-modelli-abbigliamento-0682",
-   "type": "pattern-train",
+   "slug": "cruciverba-abbigliamento-384d",
+   "type": "crossword",
    "mode": null,
    "theme": "clothing",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-abbigliamento-0682"
+   "level": "classe-seconda",
+   "deck": "cruciverba-abbigliamento-384d"
   },
   {
-   "slug": "treno-dei-modelli-accessori-e4cc",
-   "type": "pattern-train",
+   "slug": "cruciverba-accessori-d07b",
+   "type": "crossword",
    "mode": null,
    "theme": "accessories",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-accessori-e4cc"
+   "level": "classe-seconda",
+   "deck": "cruciverba-accessori-d07b"
   },
   {
-   "slug": "treno-dei-modelli-al-supermercato-cf7c",
-   "type": "pattern-train",
+   "slug": "cruciverba-al-supermercato-e068",
+   "type": "crossword",
    "mode": null,
    "theme": "at_the_supermarket",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-al-supermercato-cf7c"
+   "level": "classe-seconda",
+   "deck": "cruciverba-al-supermercato-e068"
   },
   {
-   "slug": "treno-dei-modelli-alberi-a307",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "tree",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-alberi-a307"
-  },
-  {
-   "slug": "treno-dei-modelli-animali-della-fattoria-8b9b",
-   "type": "pattern-train",
+   "slug": "cruciverba-animali-della-fattoria-b3f9",
+   "type": "crossword",
    "mode": null,
    "theme": "farm_animals",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-animali-della-fattoria-8b9b"
+   "level": "classe-seconda",
+   "deck": "cruciverba-animali-della-fattoria-b3f9"
   },
   {
-   "slug": "treno-dei-modelli-animali-dello-zoo-2d67",
-   "type": "pattern-train",
+   "slug": "cruciverba-animali-dello-zoo-7c03",
+   "type": "crossword",
    "mode": null,
    "theme": "zoo_animals",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-animali-dello-zoo-2d67"
+   "level": "classe-seconda",
+   "deck": "cruciverba-animali-dello-zoo-7c03"
   },
   {
-   "slug": "treno-dei-modelli-animali-domestici-686b",
-   "type": "pattern-train",
+   "slug": "cruciverba-animali-domestici-b8b6",
+   "type": "crossword",
    "mode": null,
    "theme": "pets",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-animali-domestici-686b"
+   "level": "classe-seconda",
+   "deck": "cruciverba-animali-domestici-b8b6"
   },
   {
-   "slug": "treno-dei-modelli-animali-ffd0",
-   "type": "pattern-train",
+   "slug": "cruciverba-animali-f184",
+   "type": "crossword",
    "mode": null,
    "theme": "animals",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-animali-ffd0"
+   "level": "classe-seconda",
+   "deck": "cruciverba-animali-f184"
   },
   {
-   "slug": "treno-dei-modelli-attivita-3029",
-   "type": "pattern-train",
+   "slug": "cruciverba-attivita-0d4a",
+   "type": "crossword",
    "mode": null,
    "theme": "activities",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-attivita-3029"
+   "level": "classe-seconda",
+   "deck": "cruciverba-attivita-0d4a"
   },
   {
-   "slug": "treno-dei-modelli-attrezzi-12a1",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "tools",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-attrezzi-12a1"
-  },
-  {
-   "slug": "treno-dei-modelli-aula-bc00",
-   "type": "pattern-train",
+   "slug": "cruciverba-aula-7e70",
+   "type": "crossword",
    "mode": null,
    "theme": "classroom",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-aula-bc00"
+   "level": "classe-seconda",
+   "deck": "cruciverba-aula-7e70"
   },
   {
-   "slug": "treno-dei-modelli-campeggio-84fb",
-   "type": "pattern-train",
+   "slug": "cruciverba-campeggio-db22",
+   "type": "crossword",
    "mode": null,
    "theme": "camping",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-campeggio-84fb"
+   "level": "classe-seconda",
+   "deck": "cruciverba-campeggio-db22"
   },
   {
-   "slug": "treno-dei-modelli-colazione-f085",
-   "type": "pattern-train",
+   "slug": "cruciverba-colazione-3b49",
+   "type": "crossword",
    "mode": null,
    "theme": "breakfast",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-colazione-f085"
+   "level": "classe-seconda",
+   "deck": "cruciverba-colazione-3b49"
   },
   {
-   "slug": "treno-dei-modelli-colori-275d",
-   "type": "pattern-train",
+   "slug": "cruciverba-colori-753f",
+   "type": "crossword",
    "mode": null,
    "theme": "colors",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-colori-275d"
+   "level": "classe-seconda",
+   "deck": "cruciverba-colori-753f"
   },
   {
-   "slug": "treno-dei-modelli-cose-che-volano-cabb",
-   "type": "pattern-train",
+   "slug": "cruciverba-cose-che-volano-ed99",
+   "type": "crossword",
    "mode": null,
    "theme": "things_that_fly",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-cose-che-volano-cabb"
+   "level": "classe-seconda",
+   "deck": "cruciverba-cose-che-volano-ed99"
   },
   {
-   "slug": "treno-dei-modelli-creature-della-foresta-4ead",
-   "type": "pattern-train",
+   "slug": "cruciverba-creature-della-foresta-11b5",
+   "type": "crossword",
    "mode": null,
    "theme": "forest_creatures",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-creature-della-foresta-4ead"
+   "level": "classe-seconda",
+   "deck": "cruciverba-creature-della-foresta-11b5"
   },
   {
-   "slug": "treno-dei-modelli-dinosauri-a0b4",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "dinosaurs",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-dinosauri-a0b4"
-  },
-  {
-   "slug": "treno-dei-modelli-dolci-e-dolciumi-2c9c",
-   "type": "pattern-train",
+   "slug": "cruciverba-dolci-e-dolciumi-b7e7",
+   "type": "crossword",
    "mode": null,
    "theme": "desserts_and_sweets",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-dolci-e-dolciumi-2c9c"
+   "level": "classe-seconda",
+   "deck": "cruciverba-dolci-e-dolciumi-b7e7"
   },
   {
-   "slug": "treno-dei-modelli-emozioni-1a21",
-   "type": "pattern-train",
+   "slug": "cruciverba-emozioni-a23b",
+   "type": "crossword",
    "mode": null,
    "theme": "emotions",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-emozioni-1a21"
+   "level": "classe-seconda",
+   "deck": "cruciverba-emozioni-a23b"
   },
   {
-   "slug": "treno-dei-modelli-estate-3a24",
-   "type": "pattern-train",
+   "slug": "cruciverba-estate-8039",
+   "type": "crossword",
    "mode": null,
    "theme": "summer",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-estate-3a24"
+   "level": "classe-seconda",
+   "deck": "cruciverba-estate-8039"
   },
   {
-   "slug": "treno-dei-modelli-fiori-d68d",
-   "type": "pattern-train",
+   "slug": "cruciverba-fiori-e3df",
+   "type": "crossword",
    "mode": null,
    "theme": "flowers",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-fiori-d68d"
+   "level": "classe-seconda",
+   "deck": "cruciverba-fiori-e3df"
   },
   {
-   "slug": "treno-dei-modelli-forme-f10a",
-   "type": "pattern-train",
+   "slug": "cruciverba-forme-accc",
+   "type": "crossword",
    "mode": null,
    "theme": "shapes",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-forme-f10a"
+   "level": "classe-seconda",
+   "deck": "cruciverba-forme-accc"
   },
   {
-   "slug": "treno-dei-modelli-frutta-166f",
-   "type": "pattern-train",
+   "slug": "cruciverba-frutta-b220",
+   "type": "crossword",
    "mode": null,
    "theme": "fruits",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-frutta-166f"
+   "level": "classe-seconda",
+   "deck": "cruciverba-frutta-b220"
   },
   {
-   "slug": "treno-dei-modelli-giocattoli-201c",
-   "type": "pattern-train",
+   "slug": "cruciverba-giocattoli-c58e",
+   "type": "crossword",
    "mode": null,
    "theme": "toys",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-giocattoli-201c"
+   "level": "classe-seconda",
+   "deck": "cruciverba-giocattoli-c58e"
   },
   {
-   "slug": "treno-dei-modelli-giorno-del-ringraziamento-3b05",
-   "type": "pattern-train",
+   "slug": "cruciverba-giorno-del-ringraziamento-e185",
+   "type": "crossword",
    "mode": null,
    "theme": "thanksgivinng",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-giorno-del-ringraziamento-3b05"
+   "level": "classe-seconda",
+   "deck": "cruciverba-giorno-del-ringraziamento-e185"
   },
   {
-   "slug": "treno-dei-modelli-in-giro-per-casa-0eb9",
-   "type": "pattern-train",
+   "slug": "cruciverba-in-giro-per-casa-e5f8",
+   "type": "crossword",
    "mode": null,
    "theme": "around_the_house",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-in-giro-per-casa-0eb9"
+   "level": "classe-seconda",
+   "deck": "cruciverba-in-giro-per-casa-e5f8"
   },
   {
-   "slug": "treno-dei-modelli-insetti-e-scarafaggi-5571",
-   "type": "pattern-train",
+   "slug": "cruciverba-insetti-e-scarafaggi-87e5",
+   "type": "crossword",
    "mode": null,
    "theme": "insects_and_bugs",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-insetti-e-scarafaggi-5571"
+   "level": "classe-seconda",
+   "deck": "cruciverba-insetti-e-scarafaggi-87e5"
   },
   {
-   "slug": "treno-dei-modelli-inverno-9427",
-   "type": "pattern-train",
+   "slug": "cruciverba-inverno-6be7",
+   "type": "crossword",
    "mode": null,
    "theme": "winter",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-inverno-9427"
+   "level": "classe-seconda",
+   "deck": "cruciverba-inverno-6be7"
   },
   {
-   "slug": "treno-dei-modelli-meteo-7e9c",
-   "type": "pattern-train",
+   "slug": "cruciverba-meteo-7435",
+   "type": "crossword",
    "mode": null,
    "theme": "weather",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-meteo-7e9c"
+   "level": "classe-seconda",
+   "deck": "cruciverba-meteo-7435"
   },
   {
-   "slug": "treno-dei-modelli-mobili-a630",
-   "type": "pattern-train",
+   "slug": "cruciverba-mobili-6206",
+   "type": "crossword",
    "mode": null,
    "theme": "furniture",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-mobili-a630"
+   "level": "classe-seconda",
+   "deck": "cruciverba-mobili-6206"
   },
   {
-   "slug": "treno-dei-modelli-musica-dd6a",
-   "type": "pattern-train",
+   "slug": "cruciverba-musica-5e97",
+   "type": "crossword",
    "mode": null,
    "theme": "music",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-musica-dd6a"
+   "level": "classe-seconda",
+   "deck": "cruciverba-musica-5e97"
   },
   {
-   "slug": "treno-dei-modelli-natale-cd78",
-   "type": "pattern-train",
+   "slug": "cruciverba-natale-746a",
+   "type": "crossword",
    "mode": null,
    "theme": "christmas",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-natale-cd78"
+   "level": "classe-seconda",
+   "deck": "cruciverba-natale-746a"
   },
   {
-   "slug": "treno-dei-modelli-ospedale-ee78",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "hospital",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-ospedale-ee78"
-  },
-  {
-   "slug": "treno-dei-modelli-panetteria-ea77",
-   "type": "pattern-train",
+   "slug": "cruciverba-panetteria-6cfc",
+   "type": "crossword",
    "mode": null,
    "theme": "bakery",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-panetteria-ea77"
+   "level": "classe-seconda",
+   "deck": "cruciverba-panetteria-6cfc"
   },
   {
-   "slug": "treno-dei-modelli-parti-del-corpo-0e5e",
-   "type": "pattern-train",
+   "slug": "cruciverba-parti-del-corpo-eee9",
+   "type": "crossword",
    "mode": null,
    "theme": "body_parts",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-parti-del-corpo-0e5e"
+   "level": "classe-seconda",
+   "deck": "cruciverba-parti-del-corpo-eee9"
   },
   {
-   "slug": "treno-dei-modelli-pasqua-58f9",
-   "type": "pattern-train",
+   "slug": "cruciverba-pasqua-699e",
+   "type": "crossword",
    "mode": null,
    "theme": "easter",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-pasqua-58f9"
+   "level": "classe-seconda",
+   "deck": "cruciverba-pasqua-699e"
   },
   {
-   "slug": "treno-dei-modelli-primavera-b76a",
-   "type": "pattern-train",
+   "slug": "cruciverba-primavera-2a27",
+   "type": "crossword",
    "mode": null,
    "theme": "spring",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-primavera-b76a"
+   "level": "classe-seconda",
+   "deck": "cruciverba-primavera-2a27"
   },
   {
-   "slug": "treno-dei-modelli-professioni-19d9",
-   "type": "pattern-train",
+   "slug": "cruciverba-professioni-c0ba",
+   "type": "crossword",
    "mode": null,
    "theme": "occupations",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-professioni-19d9"
+   "level": "classe-seconda",
+   "deck": "cruciverba-professioni-c0ba"
   },
   {
-   "slug": "treno-dei-modelli-rettili-e-anfibi-ee93",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "reptiles_and_amphibians",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-rettili-e-anfibi-ee93"
-  },
-  {
-   "slug": "treno-dei-modelli-spazio-151b",
-   "type": "pattern-train",
+   "slug": "cruciverba-spazio-b6be",
+   "type": "crossword",
    "mode": null,
    "theme": "space",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-spazio-151b"
+   "level": "classe-seconda",
+   "deck": "cruciverba-spazio-b6be"
   },
   {
-   "slug": "treno-dei-modelli-spiaggia-9615",
-   "type": "pattern-train",
+   "slug": "cruciverba-spiaggia-ef12",
+   "type": "crossword",
    "mode": null,
    "theme": "beach",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-spiaggia-9615"
+   "level": "classe-seconda",
+   "deck": "cruciverba-spiaggia-ef12"
   },
   {
-   "slug": "treno-dei-modelli-uccelli-2-5732",
-   "type": "pattern-train",
+   "slug": "cruciverba-uccelli-2-499b",
+   "type": "crossword",
    "mode": null,
    "theme": "birds_2",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-uccelli-2-5732"
+   "level": "classe-seconda",
+   "deck": "cruciverba-uccelli-2-499b"
   },
   {
-   "slug": "treno-dei-modelli-uccelli-da4d",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "birds",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-uccelli-da4d"
-  },
-  {
-   "slug": "treno-dei-modelli-ufficio-postale-b583",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "post_office",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-ufficio-postale-b583"
-  },
-  {
-   "slug": "treno-dei-modelli-utensili-da-cucina-1ff1",
-   "type": "pattern-train",
+   "slug": "cruciverba-utensili-da-cucina-ae69",
+   "type": "crossword",
    "mode": null,
    "theme": "kitchen_tools",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-utensili-da-cucina-1ff1"
+   "level": "classe-seconda",
+   "deck": "cruciverba-utensili-da-cucina-ae69"
   },
   {
-   "slug": "treno-dei-modelli-varie-5b8d",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "miscellaneous",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-varie-5b8d"
-  },
-  {
-   "slug": "treno-dei-modelli-veicoli-e9e8",
-   "type": "pattern-train",
+   "slug": "cruciverba-veicoli-f7e0",
+   "type": "crossword",
    "mode": null,
    "theme": "vehicles",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-veicoli-e9e8"
+   "level": "classe-seconda",
+   "deck": "cruciverba-veicoli-f7e0"
   },
   {
-   "slug": "treno-dei-modelli-verdure-b597",
-   "type": "pattern-train",
+   "slug": "cruciverba-verdure-181f",
+   "type": "crossword",
    "mode": null,
    "theme": "vegetables",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-verdure-b597"
+   "level": "classe-seconda",
+   "deck": "cruciverba-verdure-181f"
   },
   {
-   "slug": "treno-dei-modelli-vita-oceanica-7803",
-   "type": "pattern-train",
+   "slug": "cruciverba-vita-oceanica-ca2a",
+   "type": "crossword",
    "mode": null,
    "theme": "ocean_life",
-   "level": "infanzia",
-   "deck": "treno-dei-modelli-vita-oceanica-7803"
+   "level": "classe-seconda",
+   "deck": "cruciverba-vita-oceanica-ca2a"
   },
   {
-   "slug": "preposizioni-riempi-abbigliamento-bb5a",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-abbigliamento-96ce",
+   "type": "crossword",
+   "mode": null,
    "theme": "clothing",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-abbigliamento-bb5a"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-abbigliamento-96ce"
   },
   {
-   "slug": "preposizioni-riempi-accessori-caf2",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-accessori-0fa6",
+   "type": "crossword",
+   "mode": null,
    "theme": "accessories",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-accessori-caf2"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-accessori-0fa6"
   },
   {
-   "slug": "preposizioni-riempi-al-supermercato-aae9",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-al-supermercato-e37d",
+   "type": "crossword",
+   "mode": null,
    "theme": "at_the_supermarket",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-al-supermercato-aae9"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-al-supermercato-e37d"
   },
   {
-   "slug": "preposizioni-riempi-alberi-a9d8",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "tree",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-alberi-a9d8"
-  },
-  {
-   "slug": "preposizioni-riempi-animali-a5b7",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-animali-0684",
+   "type": "crossword",
+   "mode": null,
    "theme": "animals",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-animali-a5b7"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-animali-0684"
   },
   {
-   "slug": "preposizioni-riempi-animali-della-fattoria-9b6a",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-animali-della-fattoria-a9b4",
+   "type": "crossword",
+   "mode": null,
    "theme": "farm_animals",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-animali-della-fattoria-9b6a"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-animali-della-fattoria-a9b4"
   },
   {
-   "slug": "preposizioni-riempi-animali-dello-zoo-bd31",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-animali-dello-zoo-eaa2",
+   "type": "crossword",
+   "mode": null,
    "theme": "zoo_animals",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-animali-dello-zoo-bd31"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-animali-dello-zoo-eaa2"
   },
   {
-   "slug": "preposizioni-riempi-animali-domestici-2947",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-animali-domestici-f065",
+   "type": "crossword",
+   "mode": null,
    "theme": "pets",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-animali-domestici-2947"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-animali-domestici-f065"
   },
   {
-   "slug": "preposizioni-riempi-attivita-281b",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-attivita-699d",
+   "type": "crossword",
+   "mode": null,
    "theme": "activities",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-attivita-281b"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-attivita-699d"
   },
   {
-   "slug": "preposizioni-riempi-attrezzi-0a48",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-attrezzi-66d0",
+   "type": "crossword",
+   "mode": null,
    "theme": "tools",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-attrezzi-0a48"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-attrezzi-66d0"
   },
   {
-   "slug": "preposizioni-riempi-aula-e514",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-aula-a8c2",
+   "type": "crossword",
+   "mode": null,
    "theme": "classroom",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-aula-e514"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-aula-a8c2"
   },
   {
-   "slug": "preposizioni-riempi-campeggio-547d",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-campeggio-00f0",
+   "type": "crossword",
+   "mode": null,
    "theme": "camping",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-campeggio-547d"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-campeggio-00f0"
   },
   {
-   "slug": "preposizioni-riempi-colazione-9859",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-colazione-c1fe",
+   "type": "crossword",
+   "mode": null,
    "theme": "breakfast",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-colazione-9859"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-colazione-c1fe"
   },
   {
-   "slug": "preposizioni-riempi-colori-14b6",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-colori-59b6",
+   "type": "crossword",
+   "mode": null,
    "theme": "colors",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-colori-14b6"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-colori-59b6"
   },
   {
-   "slug": "preposizioni-riempi-cose-che-volano-67b2",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-cose-che-volano-c87b",
+   "type": "crossword",
+   "mode": null,
    "theme": "things_that_fly",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-cose-che-volano-67b2"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-cose-che-volano-c87b"
   },
   {
-   "slug": "preposizioni-riempi-creature-della-foresta-ed9b",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-creature-della-foresta-a5e7",
+   "type": "crossword",
+   "mode": null,
    "theme": "forest_creatures",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-creature-della-foresta-ed9b"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-creature-della-foresta-a5e7"
   },
   {
-   "slug": "preposizioni-riempi-dinosauri-ee33",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "dinosaurs",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-dinosauri-ee33"
-  },
-  {
-   "slug": "preposizioni-riempi-dolci-e-dolciumi-562e",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "desserts_and_sweets",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-dolci-e-dolciumi-562e"
-  },
-  {
-   "slug": "preposizioni-riempi-emozioni-55c8",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-emozioni-77c6",
+   "type": "crossword",
+   "mode": null,
    "theme": "emotions",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-emozioni-55c8"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-emozioni-77c6"
   },
   {
-   "slug": "preposizioni-riempi-estate-6124",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-estate-5a37",
+   "type": "crossword",
+   "mode": null,
    "theme": "summer",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-estate-6124"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-estate-5a37"
   },
   {
-   "slug": "preposizioni-riempi-fiori-ffad",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-fiori-e710",
+   "type": "crossword",
+   "mode": null,
    "theme": "flowers",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-fiori-ffad"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-fiori-e710"
   },
   {
-   "slug": "preposizioni-riempi-forme-bb5b",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-forme-10c7",
+   "type": "crossword",
+   "mode": null,
    "theme": "shapes",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-forme-bb5b"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-forme-10c7"
   },
   {
-   "slug": "preposizioni-riempi-frutta-af61",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-frutta-b991",
+   "type": "crossword",
+   "mode": null,
    "theme": "fruits",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-frutta-af61"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-frutta-b991"
   },
   {
-   "slug": "preposizioni-riempi-giocattoli-9ce7",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-giocattoli-6738",
+   "type": "crossword",
+   "mode": null,
    "theme": "toys",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-giocattoli-9ce7"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-giocattoli-6738"
   },
   {
-   "slug": "preposizioni-riempi-giorno-del-ringraziamento-a4d0",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-giorno-del-ringraziamento-a567",
+   "type": "crossword",
+   "mode": null,
    "theme": "thanksgivinng",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-giorno-del-ringraziamento-a4d0"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-giorno-del-ringraziamento-a567"
   },
   {
-   "slug": "preposizioni-riempi-in-giro-per-casa-d32e",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-in-giro-per-casa-c427",
+   "type": "crossword",
+   "mode": null,
    "theme": "around_the_house",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-in-giro-per-casa-d32e"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-in-giro-per-casa-c427"
   },
   {
-   "slug": "preposizioni-riempi-insetti-e-scarafaggi-4868",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-insetti-e-scarafaggi-81ab",
+   "type": "crossword",
+   "mode": null,
    "theme": "insects_and_bugs",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-insetti-e-scarafaggi-4868"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-insetti-e-scarafaggi-81ab"
   },
   {
-   "slug": "preposizioni-riempi-inverno-2139",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-inverno-3992",
+   "type": "crossword",
+   "mode": null,
    "theme": "winter",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-inverno-2139"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-inverno-3992"
   },
   {
-   "slug": "preposizioni-riempi-meteo-776f",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-meteo-c2a5",
+   "type": "crossword",
+   "mode": null,
    "theme": "weather",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-meteo-776f"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-meteo-c2a5"
   },
   {
-   "slug": "preposizioni-riempi-mobili-9164",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-mobili-5888",
+   "type": "crossword",
+   "mode": null,
    "theme": "furniture",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-mobili-9164"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-mobili-5888"
   },
   {
-   "slug": "preposizioni-riempi-musica-b13d",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-musica-4033",
+   "type": "crossword",
+   "mode": null,
    "theme": "music",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-musica-b13d"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-musica-4033"
   },
   {
-   "slug": "preposizioni-riempi-natale-fe16",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-natale-8b24",
+   "type": "crossword",
+   "mode": null,
    "theme": "christmas",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-natale-fe16"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-natale-8b24"
   },
   {
-   "slug": "preposizioni-riempi-ospedale-dc75",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-ospedale-8c72",
+   "type": "crossword",
+   "mode": null,
    "theme": "hospital",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-ospedale-dc75"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-ospedale-8c72"
   },
   {
-   "slug": "preposizioni-riempi-panetteria-1e8e",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-panetteria-3309",
+   "type": "crossword",
+   "mode": null,
    "theme": "bakery",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-panetteria-1e8e"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-panetteria-3309"
   },
   {
-   "slug": "preposizioni-riempi-parti-del-corpo-f5d0",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-parti-del-corpo-06fa",
+   "type": "crossword",
+   "mode": null,
    "theme": "body_parts",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-parti-del-corpo-f5d0"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-parti-del-corpo-06fa"
   },
   {
-   "slug": "preposizioni-riempi-pasqua-19c0",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-pasqua-3288",
+   "type": "crossword",
+   "mode": null,
    "theme": "easter",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-pasqua-19c0"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-pasqua-3288"
   },
   {
-   "slug": "preposizioni-riempi-primavera-7795",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-primavera-897e",
+   "type": "crossword",
+   "mode": null,
    "theme": "spring",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-primavera-7795"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-primavera-897e"
   },
   {
-   "slug": "preposizioni-riempi-professioni-a925",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-professioni-7366",
+   "type": "crossword",
+   "mode": null,
    "theme": "occupations",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-professioni-a925"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-professioni-7366"
   },
   {
-   "slug": "preposizioni-riempi-rettili-e-anfibi-b4ea",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-rettili-e-anfibi-f20a",
+   "type": "crossword",
+   "mode": null,
    "theme": "reptiles_and_amphibians",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-rettili-e-anfibi-b4ea"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-rettili-e-anfibi-f20a"
   },
   {
-   "slug": "preposizioni-riempi-spazio-e0da",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-spazio-0a49",
+   "type": "crossword",
+   "mode": null,
    "theme": "space",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-spazio-e0da"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-spazio-0a49"
   },
   {
-   "slug": "preposizioni-riempi-spiaggia-1849",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-spiaggia-15e0",
+   "type": "crossword",
+   "mode": null,
    "theme": "beach",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-spiaggia-1849"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-spiaggia-15e0"
   },
   {
-   "slug": "preposizioni-riempi-uccelli-2-a86f",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-uccelli-2-6ad7",
+   "type": "crossword",
+   "mode": null,
    "theme": "birds_2",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-uccelli-2-a86f"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-uccelli-2-6ad7"
   },
   {
-   "slug": "preposizioni-riempi-uccelli-bb78",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-uccelli-5b55",
+   "type": "crossword",
+   "mode": null,
    "theme": "birds",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-uccelli-bb78"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-uccelli-5b55"
   },
   {
-   "slug": "preposizioni-riempi-ufficio-postale-2c54",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-ufficio-postale-af48",
+   "type": "crossword",
+   "mode": null,
    "theme": "post_office",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-ufficio-postale-2c54"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-ufficio-postale-af48"
   },
   {
-   "slug": "preposizioni-riempi-utensili-da-cucina-ddf6",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "kitchen_tools",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-utensili-da-cucina-ddf6"
-  },
-  {
-   "slug": "preposizioni-riempi-varie-5d18",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "miscellaneous",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-varie-5d18"
-  },
-  {
-   "slug": "preposizioni-riempi-veicoli-be53",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-veicoli-9851",
+   "type": "crossword",
+   "mode": null,
    "theme": "vehicles",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-veicoli-be53"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-veicoli-9851"
   },
   {
-   "slug": "preposizioni-riempi-verdure-a3b6",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-verdure-6817",
+   "type": "crossword",
+   "mode": null,
    "theme": "vegetables",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-verdure-a3b6"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-verdure-6817"
   },
   {
-   "slug": "preposizioni-riempi-vita-oceanica-4ae3",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "inglese-cruciverba-vita-oceanica-271b",
+   "type": "crossword",
+   "mode": null,
    "theme": "ocean_life",
-   "level": "classe-prima",
-   "deck": "preposizioni-riempi-vita-oceanica-4ae3"
+   "level": "language-beginner",
+   "deck": "inglese-cruciverba-vita-oceanica-271b"
   }
  ]
 }

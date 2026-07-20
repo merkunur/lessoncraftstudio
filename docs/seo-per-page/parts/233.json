@@ -2,779 +2,779 @@
  "part": 233,
  "locale": "sv",
  "classes": [
-  "pattern-train::null",
-  "pattern-worksheet::null"
+  "treasure-hunt::cardinal-arrows",
+  "treasure-hunt::compass"
  ],
  "splitOf": null,
  "count": 96,
  "pages": [
   {
-   "slug": "monstertaget-aktiviteter-5c8e",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-aktiviteter-60aa",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "activities",
    "level": "forskola",
-   "deck": "monstertaget-aktiviteter-5c8e"
+   "deck": "skattjakt-upp-ner-vanster-hoger-aktiviteter-60aa"
   },
   {
-   "slug": "monstertaget-bageri-b254",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-bageri-1e63",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "bakery",
    "level": "forskola",
-   "deck": "monstertaget-bageri-b254"
+   "deck": "skattjakt-upp-ner-vanster-hoger-bageri-1e63"
   },
   {
-   "slug": "monstertaget-blommor-7dcd",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-blommor-12b6",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "flowers",
    "level": "forskola",
-   "deck": "monstertaget-blommor-7dcd"
+   "deck": "skattjakt-upp-ner-vanster-hoger-blommor-12b6"
   },
   {
-   "slug": "monstertaget-bondgardsdjur-91a4",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-bondgardsdjur-5a68",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "farm_animals",
    "level": "forskola",
-   "deck": "monstertaget-bondgardsdjur-91a4"
+   "deck": "skattjakt-upp-ner-vanster-hoger-bondgardsdjur-5a68"
   },
   {
-   "slug": "monstertaget-camping-e856",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-camping-bcd0",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "camping",
    "level": "forskola",
-   "deck": "monstertaget-camping-e856"
+   "deck": "skattjakt-upp-ner-vanster-hoger-camping-bcd0"
   },
   {
-   "slug": "monstertaget-dinosaurier-4061",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-dinosaurier-9d68",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "dinosaurs",
    "level": "forskola",
-   "deck": "monstertaget-dinosaurier-4061"
+   "deck": "skattjakt-upp-ner-vanster-hoger-dinosaurier-9d68"
   },
   {
-   "slug": "monstertaget-djur-26f0",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-djur",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "animals",
    "level": "forskola",
-   "deck": "monstertaget-djur-26f0"
+   "deck": "skattjakt-upp-ner-vanster-hoger-djur"
   },
   {
-   "slug": "monstertaget-djurparksdjur-89ec",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-djurparksdjur-861f",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "zoo_animals",
    "level": "forskola",
-   "deck": "monstertaget-djurparksdjur-89ec"
+   "deck": "skattjakt-upp-ner-vanster-hoger-djurparksdjur-861f"
   },
   {
-   "slug": "monstertaget-efterratter-och-godis-3ba1",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-efterratter-och-godis-a081",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "desserts_and_sweets",
    "level": "forskola",
-   "deck": "monstertaget-efterratter-och-godis-3ba1"
+   "deck": "skattjakt-upp-ner-vanster-hoger-efterratter-och-godis-a081"
   },
   {
-   "slug": "monstertaget-faglar-2-6a88",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "forskola",
-   "deck": "monstertaget-faglar-2-6a88"
-  },
-  {
-   "slug": "monstertaget-faglar-f5db",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-faglar-061c",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "birds",
    "level": "forskola",
-   "deck": "monstertaget-faglar-f5db"
+   "deck": "skattjakt-upp-ner-vanster-hoger-faglar-061c"
   },
   {
-   "slug": "monstertaget-farger-5c25",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-faglar-2-2a5d",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "birds_2",
+   "level": "forskola",
+   "deck": "skattjakt-upp-ner-vanster-hoger-faglar-2-2a5d"
+  },
+  {
+   "slug": "skattjakt-upp-ner-vanster-hoger-farger-18e3",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "colors",
    "level": "forskola",
-   "deck": "monstertaget-farger-5c25"
+   "deck": "skattjakt-upp-ner-vanster-hoger-farger-18e3"
   },
   {
-   "slug": "monstertaget-fordon-601f",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-fordon-7164",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "vehicles",
    "level": "forskola",
-   "deck": "monstertaget-fordon-601f"
+   "deck": "skattjakt-upp-ner-vanster-hoger-fordon-7164"
   },
   {
-   "slug": "monstertaget-former-61ea",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-former-689a",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "shapes",
    "level": "forskola",
-   "deck": "monstertaget-former-61ea"
+   "deck": "skattjakt-upp-ner-vanster-hoger-former-689a"
   },
   {
-   "slug": "monstertaget-frukost-bf2c",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-frukost-a074",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "breakfast",
    "level": "forskola",
-   "deck": "monstertaget-frukost-bf2c"
+   "deck": "skattjakt-upp-ner-vanster-hoger-frukost-a074"
   },
   {
-   "slug": "monstertaget-frukter-14d5",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-frukter-2f80",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "fruits",
    "level": "forskola",
-   "deck": "monstertaget-frukter-14d5"
+   "deck": "skattjakt-upp-ner-vanster-hoger-frukter-2f80"
   },
   {
-   "slug": "monstertaget-gronsaker-4c19",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-gronsaker-8d35",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "vegetables",
    "level": "forskola",
-   "deck": "monstertaget-gronsaker-4c19"
+   "deck": "skattjakt-upp-ner-vanster-hoger-gronsaker-8d35"
   },
   {
-   "slug": "monstertaget-havsliv-0548",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-havsliv-6e27",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "ocean_life",
    "level": "forskola",
-   "deck": "monstertaget-havsliv-0548"
+   "deck": "skattjakt-upp-ner-vanster-hoger-havsliv-6e27"
   },
   {
-   "slug": "monstertaget-husdjur-0c8d",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-husdjur-aed9",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "pets",
    "level": "forskola",
-   "deck": "monstertaget-husdjur-0c8d"
+   "deck": "skattjakt-upp-ner-vanster-hoger-husdjur-aed9"
   },
   {
-   "slug": "monstertaget-i-snabbkopet-7446",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-i-snabbkopet-f8b6",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "at_the_supermarket",
    "level": "forskola",
-   "deck": "monstertaget-i-snabbkopet-7446"
+   "deck": "skattjakt-upp-ner-vanster-hoger-i-snabbkopet-f8b6"
   },
   {
-   "slug": "monstertaget-insekter-och-kryp-d92e",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-insekter-och-kryp-c962",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "insects_and_bugs",
    "level": "forskola",
-   "deck": "monstertaget-insekter-och-kryp-d92e"
+   "deck": "skattjakt-upp-ner-vanster-hoger-insekter-och-kryp-c962"
   },
   {
-   "slug": "monstertaget-jul-b13b",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-jul-87f2",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "christmas",
    "level": "forskola",
-   "deck": "monstertaget-jul-b13b"
+   "deck": "skattjakt-upp-ner-vanster-hoger-jul-87f2"
   },
   {
-   "slug": "monstertaget-kanslor-6f05",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-kanslor-a994",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "emotions",
    "level": "forskola",
-   "deck": "monstertaget-kanslor-6f05"
+   "deck": "skattjakt-upp-ner-vanster-hoger-kanslor-a994"
   },
   {
-   "slug": "monstertaget-klader-6e2f",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-klader-e127",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "clothing",
    "level": "forskola",
-   "deck": "monstertaget-klader-6e2f"
+   "deck": "skattjakt-upp-ner-vanster-hoger-klader-e127"
   },
   {
-   "slug": "monstertaget-klassrum-2a0c",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-klassrum-441e",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "classroom",
    "level": "forskola",
-   "deck": "monstertaget-klassrum-2a0c"
+   "deck": "skattjakt-upp-ner-vanster-hoger-klassrum-441e"
   },
   {
-   "slug": "monstertaget-koksredskap-ddf1",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-koksredskap-a069",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "kitchen_tools",
    "level": "forskola",
-   "deck": "monstertaget-koksredskap-ddf1"
+   "deck": "skattjakt-upp-ner-vanster-hoger-koksredskap-a069"
   },
   {
-   "slug": "monstertaget-kroppsdelar-4bc3",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-kroppsdelar-7506",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "body_parts",
    "level": "forskola",
-   "deck": "monstertaget-kroppsdelar-4bc3"
+   "deck": "skattjakt-upp-ner-vanster-hoger-kroppsdelar-7506"
   },
   {
-   "slug": "monstertaget-leksaker-0d6d",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-leksaker-ca45",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "toys",
    "level": "forskola",
-   "deck": "monstertaget-leksaker-0d6d"
+   "deck": "skattjakt-upp-ner-vanster-hoger-leksaker-ca45"
   },
   {
-   "slug": "monstertaget-mobler-bd5a",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-mobler-12f3",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "furniture",
    "level": "forskola",
-   "deck": "monstertaget-mobler-bd5a"
+   "deck": "skattjakt-upp-ner-vanster-hoger-mobler-12f3"
   },
   {
-   "slug": "monstertaget-musik-3801",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-musik-1920",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "music",
    "level": "forskola",
-   "deck": "monstertaget-musik-3801"
+   "deck": "skattjakt-upp-ner-vanster-hoger-musik-1920"
   },
   {
-   "slug": "monstertaget-pask-2bcc",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-pask-d392",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "easter",
    "level": "forskola",
-   "deck": "monstertaget-pask-2bcc"
+   "deck": "skattjakt-upp-ner-vanster-hoger-pask-d392"
   },
   {
-   "slug": "monstertaget-postkontor-f1ac",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-postkontor-fe73",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "post_office",
    "level": "forskola",
-   "deck": "monstertaget-postkontor-f1ac"
+   "deck": "skattjakt-upp-ner-vanster-hoger-postkontor-fe73"
   },
   {
-   "slug": "monstertaget-reptiler-och-groddjur-b013",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-reptiler-och-groddjur-0615",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "reptiles_and_amphibians",
    "level": "forskola",
-   "deck": "monstertaget-reptiler-och-groddjur-b013"
+   "deck": "skattjakt-upp-ner-vanster-hoger-reptiler-och-groddjur-0615"
   },
   {
-   "slug": "monstertaget-runt-huset-17da",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-runt-huset-b3bc",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "around_the_house",
    "level": "forskola",
-   "deck": "monstertaget-runt-huset-17da"
+   "deck": "skattjakt-upp-ner-vanster-hoger-runt-huset-b3bc"
   },
   {
-   "slug": "monstertaget-rymden-fd38",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-rymden-e454",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "space",
    "level": "forskola",
-   "deck": "monstertaget-rymden-fd38"
+   "deck": "skattjakt-upp-ner-vanster-hoger-rymden-e454"
   },
   {
-   "slug": "monstertaget-saker-som-flyger-81a1",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-saker-som-flyger-fb3b",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "things_that_fly",
    "level": "forskola",
-   "deck": "monstertaget-saker-som-flyger-81a1"
+   "deck": "skattjakt-upp-ner-vanster-hoger-saker-som-flyger-fb3b"
   },
   {
-   "slug": "monstertaget-sjukhus-475c",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-sjukhus-9864",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "hospital",
    "level": "forskola",
-   "deck": "monstertaget-sjukhus-475c"
+   "deck": "skattjakt-upp-ner-vanster-hoger-sjukhus-9864"
   },
   {
-   "slug": "monstertaget-skogsdjur-2072",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-skogsdjur-26d2",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "forest_creatures",
    "level": "forskola",
-   "deck": "monstertaget-skogsdjur-2072"
+   "deck": "skattjakt-upp-ner-vanster-hoger-skogsdjur-26d2"
   },
   {
-   "slug": "monstertaget-sommar-6333",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-sommar-4253",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "summer",
    "level": "forskola",
-   "deck": "monstertaget-sommar-6333"
+   "deck": "skattjakt-upp-ner-vanster-hoger-sommar-4253"
   },
   {
-   "slug": "monstertaget-strand-055c",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-strand-70e5",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "beach",
    "level": "forskola",
-   "deck": "monstertaget-strand-055c"
+   "deck": "skattjakt-upp-ner-vanster-hoger-strand-70e5"
   },
   {
-   "slug": "monstertaget-thanksgiving-1003",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-thanksgiving-1a9e",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "thanksgivinng",
    "level": "forskola",
-   "deck": "monstertaget-thanksgiving-1003"
+   "deck": "skattjakt-upp-ner-vanster-hoger-thanksgiving-1a9e"
   },
   {
-   "slug": "monstertaget-tillbehor-ae66",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-tillbehor-90e4",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "accessories",
    "level": "forskola",
-   "deck": "monstertaget-tillbehor-ae66"
+   "deck": "skattjakt-upp-ner-vanster-hoger-tillbehor-90e4"
   },
   {
-   "slug": "monstertaget-trad-5acb",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-trad-2b34",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "tree",
    "level": "forskola",
-   "deck": "monstertaget-trad-5acb"
+   "deck": "skattjakt-upp-ner-vanster-hoger-trad-2b34"
   },
   {
-   "slug": "monstertaget-vader-1a51",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-vader-63f5",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "weather",
    "level": "forskola",
-   "deck": "monstertaget-vader-1a51"
+   "deck": "skattjakt-upp-ner-vanster-hoger-vader-63f5"
   },
   {
-   "slug": "monstertaget-var-6882",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-var-195f",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "spring",
    "level": "forskola",
-   "deck": "monstertaget-var-6882"
+   "deck": "skattjakt-upp-ner-vanster-hoger-var-195f"
   },
   {
-   "slug": "monstertaget-verktyg-4b9a",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-verktyg-559a",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "tools",
    "level": "forskola",
-   "deck": "monstertaget-verktyg-4b9a"
+   "deck": "skattjakt-upp-ner-vanster-hoger-verktyg-559a"
   },
   {
-   "slug": "monstertaget-vinter-695d",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-vinter-f1ab",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "winter",
    "level": "forskola",
-   "deck": "monstertaget-vinter-695d"
+   "deck": "skattjakt-upp-ner-vanster-hoger-vinter-f1ab"
   },
   {
-   "slug": "monstertaget-yrken-f3cb",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "skattjakt-upp-ner-vanster-hoger-yrken-e076",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "occupations",
    "level": "forskola",
-   "deck": "monstertaget-yrken-f3cb"
+   "deck": "skattjakt-upp-ner-vanster-hoger-yrken-e076"
   },
   {
-   "slug": "monsterblad-aktiviteter-8c26",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-aktiviteter-4fcd",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "activities",
    "level": "forskola",
-   "deck": "monsterblad-aktiviteter-8c26"
+   "deck": "skattjakt-vaderstreck-aktiviteter-4fcd"
   },
   {
-   "slug": "monsterblad-bageri-eefd",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-bageri-cc0d",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "bakery",
    "level": "forskola",
-   "deck": "monsterblad-bageri-eefd"
+   "deck": "skattjakt-vaderstreck-bageri-cc0d"
   },
   {
-   "slug": "monsterblad-blommor-3ea1",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-blommor-aca8",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "flowers",
    "level": "forskola",
-   "deck": "monsterblad-blommor-3ea1"
+   "deck": "skattjakt-vaderstreck-blommor-aca8"
   },
   {
-   "slug": "monsterblad-bondgardsdjur-9586",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-bondgardsdjur-aac6",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "farm_animals",
    "level": "forskola",
-   "deck": "monsterblad-bondgardsdjur-9586"
+   "deck": "skattjakt-vaderstreck-bondgardsdjur-aac6"
   },
   {
-   "slug": "monsterblad-camping-de5e",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-camping-af02",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "camping",
    "level": "forskola",
-   "deck": "monsterblad-camping-de5e"
+   "deck": "skattjakt-vaderstreck-camping-af02"
   },
   {
-   "slug": "monsterblad-dinosaurier-32de",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-dinosaurier-8c56",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "dinosaurs",
    "level": "forskola",
-   "deck": "monsterblad-dinosaurier-32de"
+   "deck": "skattjakt-vaderstreck-dinosaurier-8c56"
   },
   {
-   "slug": "monsterblad-djur-145b",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-djur-f3a5",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "animals",
    "level": "forskola",
-   "deck": "monsterblad-djur-145b"
+   "deck": "skattjakt-vaderstreck-djur-f3a5"
   },
   {
-   "slug": "monsterblad-djurparksdjur-bacb",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-djurparksdjur-b006",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "zoo_animals",
    "level": "forskola",
-   "deck": "monsterblad-djurparksdjur-bacb"
+   "deck": "skattjakt-vaderstreck-djurparksdjur-b006"
   },
   {
-   "slug": "monsterblad-efterratter-och-godis-8649",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-efterratter-och-godis-670f",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "desserts_and_sweets",
    "level": "forskola",
-   "deck": "monsterblad-efterratter-och-godis-8649"
+   "deck": "skattjakt-vaderstreck-efterratter-och-godis-670f"
   },
   {
-   "slug": "monsterblad-faglar-2-9d80",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-faglar-2-f1f5",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "birds_2",
    "level": "forskola",
-   "deck": "monsterblad-faglar-2-9d80"
+   "deck": "skattjakt-vaderstreck-faglar-2-f1f5"
   },
   {
-   "slug": "monsterblad-faglar-6f96",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-faglar-a956",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "birds",
    "level": "forskola",
-   "deck": "monsterblad-faglar-6f96"
+   "deck": "skattjakt-vaderstreck-faglar-a956"
   },
   {
-   "slug": "monsterblad-farger-5712",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-farger-1bcf",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "colors",
    "level": "forskola",
-   "deck": "monsterblad-farger-5712"
+   "deck": "skattjakt-vaderstreck-farger-1bcf"
   },
   {
-   "slug": "monsterblad-fordon-5d2e",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-fordon-6341",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "vehicles",
    "level": "forskola",
-   "deck": "monsterblad-fordon-5d2e"
+   "deck": "skattjakt-vaderstreck-fordon-6341"
   },
   {
-   "slug": "monsterblad-former-1b1c",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-former-928f",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "shapes",
    "level": "forskola",
-   "deck": "monsterblad-former-1b1c"
+   "deck": "skattjakt-vaderstreck-former-928f"
   },
   {
-   "slug": "monsterblad-frukost-5160",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-frukost-fd1e",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "breakfast",
    "level": "forskola",
-   "deck": "monsterblad-frukost-5160"
+   "deck": "skattjakt-vaderstreck-frukost-fd1e"
   },
   {
-   "slug": "monsterblad-frukter-50e5",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-frukter-8500",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "fruits",
    "level": "forskola",
-   "deck": "monsterblad-frukter-50e5"
+   "deck": "skattjakt-vaderstreck-frukter-8500"
   },
   {
-   "slug": "monsterblad-gronsaker-9135",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-gronsaker-928a",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "vegetables",
    "level": "forskola",
-   "deck": "monsterblad-gronsaker-9135"
+   "deck": "skattjakt-vaderstreck-gronsaker-928a"
   },
   {
-   "slug": "monsterblad-havsliv-a903",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-havsliv-a5b7",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "ocean_life",
    "level": "forskola",
-   "deck": "monsterblad-havsliv-a903"
+   "deck": "skattjakt-vaderstreck-havsliv-a5b7"
   },
   {
-   "slug": "monsterblad-husdjur-428d",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-husdjur-a339",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "pets",
    "level": "forskola",
-   "deck": "monsterblad-husdjur-428d"
+   "deck": "skattjakt-vaderstreck-husdjur-a339"
   },
   {
-   "slug": "monsterblad-i-snabbkopet-5c2e",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-i-snabbkopet-9b9d",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "at_the_supermarket",
    "level": "forskola",
-   "deck": "monsterblad-i-snabbkopet-5c2e"
+   "deck": "skattjakt-vaderstreck-i-snabbkopet-9b9d"
   },
   {
-   "slug": "monsterblad-insekter-och-kryp-8392",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-insekter-och-kryp-fb22",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "insects_and_bugs",
    "level": "forskola",
-   "deck": "monsterblad-insekter-och-kryp-8392"
+   "deck": "skattjakt-vaderstreck-insekter-och-kryp-fb22"
   },
   {
-   "slug": "monsterblad-jul-f95a",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-jul-b38a",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "christmas",
    "level": "forskola",
-   "deck": "monsterblad-jul-f95a"
+   "deck": "skattjakt-vaderstreck-jul-b38a"
   },
   {
-   "slug": "monsterblad-kanslor-66bc",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-kanslor-e899",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "emotions",
    "level": "forskola",
-   "deck": "monsterblad-kanslor-66bc"
+   "deck": "skattjakt-vaderstreck-kanslor-e899"
   },
   {
-   "slug": "monsterblad-klader-d108",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-klader-a95c",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "clothing",
    "level": "forskola",
-   "deck": "monsterblad-klader-d108"
+   "deck": "skattjakt-vaderstreck-klader-a95c"
   },
   {
-   "slug": "monsterblad-klassrum-6309",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-klassrum-90c5",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "classroom",
    "level": "forskola",
-   "deck": "monsterblad-klassrum-6309"
+   "deck": "skattjakt-vaderstreck-klassrum-90c5"
   },
   {
-   "slug": "monsterblad-koksredskap-0e71",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-koksredskap-87c4",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "kitchen_tools",
    "level": "forskola",
-   "deck": "monsterblad-koksredskap-0e71"
+   "deck": "skattjakt-vaderstreck-koksredskap-87c4"
   },
   {
-   "slug": "monsterblad-kroppsdelar-7b30",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-kroppsdelar-57d0",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "body_parts",
    "level": "forskola",
-   "deck": "monsterblad-kroppsdelar-7b30"
+   "deck": "skattjakt-vaderstreck-kroppsdelar-57d0"
   },
   {
-   "slug": "monsterblad-leksaker-70b7",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-leksaker-a31d",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "toys",
    "level": "forskola",
-   "deck": "monsterblad-leksaker-70b7"
+   "deck": "skattjakt-vaderstreck-leksaker-a31d"
   },
   {
-   "slug": "monsterblad-mobler-90e6",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-mobler-cb01",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "furniture",
    "level": "forskola",
-   "deck": "monsterblad-mobler-90e6"
+   "deck": "skattjakt-vaderstreck-mobler-cb01"
   },
   {
-   "slug": "monsterblad-musik-64f4",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-musik-cb0c",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "music",
    "level": "forskola",
-   "deck": "monsterblad-musik-64f4"
+   "deck": "skattjakt-vaderstreck-musik-cb0c"
   },
   {
-   "slug": "monsterblad-pask-f4ff",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-pask-403a",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "easter",
    "level": "forskola",
-   "deck": "monsterblad-pask-f4ff"
+   "deck": "skattjakt-vaderstreck-pask-403a"
   },
   {
-   "slug": "monsterblad-postkontor-2807",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-postkontor-4903",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "post_office",
    "level": "forskola",
-   "deck": "monsterblad-postkontor-2807"
+   "deck": "skattjakt-vaderstreck-postkontor-4903"
   },
   {
-   "slug": "monsterblad-reptiler-och-groddjur-cecc",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-reptiler-och-groddjur-b1d3",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "reptiles_and_amphibians",
    "level": "forskola",
-   "deck": "monsterblad-reptiler-och-groddjur-cecc"
+   "deck": "skattjakt-vaderstreck-reptiler-och-groddjur-b1d3"
   },
   {
-   "slug": "monsterblad-runt-huset-ae1d",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-runt-huset-0353",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "around_the_house",
    "level": "forskola",
-   "deck": "monsterblad-runt-huset-ae1d"
+   "deck": "skattjakt-vaderstreck-runt-huset-0353"
   },
   {
-   "slug": "monsterblad-rymden-5b81",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-rymden-7e86",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "space",
    "level": "forskola",
-   "deck": "monsterblad-rymden-5b81"
+   "deck": "skattjakt-vaderstreck-rymden-7e86"
   },
   {
-   "slug": "monsterblad-saker-som-flyger-1d79",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-saker-som-flyger-82f2",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "things_that_fly",
    "level": "forskola",
-   "deck": "monsterblad-saker-som-flyger-1d79"
+   "deck": "skattjakt-vaderstreck-saker-som-flyger-82f2"
   },
   {
-   "slug": "monsterblad-sjukhus-bfce",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-sjukhus-0480",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "hospital",
    "level": "forskola",
-   "deck": "monsterblad-sjukhus-bfce"
+   "deck": "skattjakt-vaderstreck-sjukhus-0480"
   },
   {
-   "slug": "monsterblad-skogsdjur-6915",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-skogsdjur-c723",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "forest_creatures",
    "level": "forskola",
-   "deck": "monsterblad-skogsdjur-6915"
+   "deck": "skattjakt-vaderstreck-skogsdjur-c723"
   },
   {
-   "slug": "monsterblad-sommar-ce15",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-sommar-73b4",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "summer",
    "level": "forskola",
-   "deck": "monsterblad-sommar-ce15"
+   "deck": "skattjakt-vaderstreck-sommar-73b4"
   },
   {
-   "slug": "monsterblad-strand-853e",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-strand-2aad",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "beach",
    "level": "forskola",
-   "deck": "monsterblad-strand-853e"
+   "deck": "skattjakt-vaderstreck-strand-2aad"
   },
   {
-   "slug": "monsterblad-thanksgiving-2478",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-thanksgiving-a370",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "thanksgivinng",
    "level": "forskola",
-   "deck": "monsterblad-thanksgiving-2478"
+   "deck": "skattjakt-vaderstreck-thanksgiving-a370"
   },
   {
-   "slug": "monsterblad-tillbehor-5f8a",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-tillbehor-82d8",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "accessories",
    "level": "forskola",
-   "deck": "monsterblad-tillbehor-5f8a"
+   "deck": "skattjakt-vaderstreck-tillbehor-82d8"
   },
   {
-   "slug": "monsterblad-trad-92cd",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-trad-89e2",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "tree",
    "level": "forskola",
-   "deck": "monsterblad-trad-92cd"
+   "deck": "skattjakt-vaderstreck-trad-89e2"
   },
   {
-   "slug": "monsterblad-vader-c4a9",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-vader-ba8d",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "weather",
    "level": "forskola",
-   "deck": "monsterblad-vader-c4a9"
+   "deck": "skattjakt-vaderstreck-vader-ba8d"
   },
   {
-   "slug": "monsterblad-var-d54c",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-var-ca23",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "spring",
    "level": "forskola",
-   "deck": "monsterblad-var-d54c"
+   "deck": "skattjakt-vaderstreck-var-ca23"
   },
   {
-   "slug": "monsterblad-verktyg-d7ae",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-verktyg-1347",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "tools",
    "level": "forskola",
-   "deck": "monsterblad-verktyg-d7ae"
+   "deck": "skattjakt-vaderstreck-verktyg-1347"
   },
   {
-   "slug": "monsterblad-vinter-54e6",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-vinter-17d8",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "winter",
    "level": "forskola",
-   "deck": "monsterblad-vinter-54e6"
+   "deck": "skattjakt-vaderstreck-vinter-17d8"
   },
   {
-   "slug": "monsterblad-yrken-a137",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "skattjakt-vaderstreck-yrken-c680",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "occupations",
    "level": "forskola",
-   "deck": "monsterblad-yrken-a137"
+   "deck": "skattjakt-vaderstreck-yrken-c680"
   }
  ]
 }

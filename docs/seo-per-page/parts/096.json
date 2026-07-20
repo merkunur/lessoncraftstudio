@@ -2,747 +2,491 @@
  "part": 96,
  "locale": "es",
  "classes": [
-  "treasure-hunt::cardinal-arrows",
-  "word-guess::normal"
+  "measurement::measure-and-compare-length",
+  "measurement::volume-and-temperature",
+  "telling-time::hour-half-hour",
+  "telling-time::to-five-minutes",
+  "telling-time::to-the-minute",
+  "number-charts::hundreds-chart-skip-count",
+  "number-charts::number-patterns",
+  "number-charts::numbers-to-20",
+  "number-charts::skip-count-and-100-more-less",
+  "addition::find-addend"
  ],
  "splitOf": null,
- "count": 92,
+ "count": 59,
  "pages": [
   {
-   "slug": "busqueda-del-tesoro-4-de-julio",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "4th_of_july",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-7671"
+   "slug": "medir-comparar-longitudes-segundo-grado",
+   "type": "measurement",
+   "mode": "measure-and-compare-length",
+   "theme": "",
+   "level": "segundo-grado",
+   "deck": "medicion-formas-g2235"
   },
   {
-   "slug": "busqueda-del-tesoro-accesorios",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "accessories",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-f473"
+   "slug": "temperatura-volumen-comparar-tercer-grado",
+   "type": "measurement",
+   "mode": "volume-and-temperature",
+   "theme": "",
+   "level": "tercer-grado",
+   "deck": "medicion-g3345"
   },
   {
-   "slug": "busqueda-del-tesoro-actividades",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "activities",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-9dd5"
+   "slug": "leer-el-reloj-primer-grado",
+   "type": "telling-time",
+   "mode": "hour-half-hour",
+   "theme": "",
+   "level": "primer-grado",
+   "deck": "aprender-la-hora-g1148"
   },
   {
-   "slug": "busqueda-del-tesoro-alrededor-de-la-casa",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "around_the_house",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-22bd"
+   "slug": "la-hora-segundo-grado",
+   "type": "telling-time",
+   "mode": "to-five-minutes",
+   "theme": "",
+   "level": "segundo-grado",
+   "deck": "aprender-la-hora-g2249"
   },
   {
-   "slug": "busqueda-del-tesoro-animales-de-granja",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "farm_animals",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-90f0"
+   "slug": "decir-la-hora-tercer-grado",
+   "type": "telling-time",
+   "mode": "to-the-minute",
+   "theme": "",
+   "level": "tercer-grado",
+   "deck": "aprender-la-hora-g3344"
   },
   {
-   "slug": "busqueda-del-tesoro-animales-del-zoologico",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "zoo_animals",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-e61b"
+   "slug": "tabla-del-100-primer-grado",
+   "type": "number-charts",
+   "mode": "hundreds-chart-skip-count",
+   "theme": "",
+   "level": "primer-grado",
+   "deck": "tabla-del-100-g1130"
   },
   {
-   "slug": "busqueda-del-tesoro-arboles",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "tree",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-74d0"
+   "slug": "sucesiones-y-maquinas-de-numeros-tercer-grado",
+   "type": "number-charts",
+   "mode": "number-patterns",
+   "theme": "",
+   "level": "tercer-grado",
+   "deck": "tabla-del-100-g3328"
   },
   {
-   "slug": "busqueda-del-tesoro-aves",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "birds",
+   "slug": "numeros-que-faltan-preescolar",
+   "type": "number-charts",
+   "mode": "numbers-to-20",
+   "theme": "",
    "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-0fac"
+   "deck": "tabla-del-100-k021"
   },
   {
-   "slug": "busqueda-del-tesoro-campamento",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "camping",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-8f99"
+   "slug": "contar-de-3-en-3-segundo-grado",
+   "type": "number-charts",
+   "mode": "skip-count-and-100-more-less",
+   "theme": "",
+   "level": "segundo-grado",
+   "deck": "tabla-del-100-g2218"
   },
   {
-   "slug": "busqueda-del-tesoro-clima",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "weather",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-dfa5"
-  },
-  {
-   "slug": "busqueda-del-tesoro-colores",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "colors",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-2a74"
-  },
-  {
-   "slug": "busqueda-del-tesoro-cosas-que-vuelan",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "things_that_fly",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-ee57"
-  },
-  {
-   "slug": "busqueda-del-tesoro-criaturas-del-bosque",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "forest_creatures",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-29ae"
-  },
-  {
-   "slug": "busqueda-del-tesoro-desayuno",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "breakfast",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-1065"
-  },
-  {
-   "slug": "busqueda-del-tesoro-dia-de-accion-de-gracias",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "thanksgivinng",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-0615"
-  },
-  {
-   "slug": "busqueda-del-tesoro-dinosaurios",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "dinosaurs",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-990f"
-  },
-  {
-   "slug": "busqueda-del-tesoro-emociones",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "emotions",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-c831"
-  },
-  {
-   "slug": "busqueda-del-tesoro-en-el-supermercado",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "at_the_supermarket",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-d195"
-  },
-  {
-   "slug": "busqueda-del-tesoro-espacio",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "space",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-29de"
-  },
-  {
-   "slug": "busqueda-del-tesoro-flores",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "flowers",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-e57c"
-  },
-  {
-   "slug": "busqueda-del-tesoro-formas",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "shapes",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-6e80"
-  },
-  {
-   "slug": "busqueda-del-tesoro-frutas",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "fruits",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-ffd9"
-  },
-  {
-   "slug": "busqueda-del-tesoro-herramientas",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "tools",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-2d82"
-  },
-  {
-   "slug": "busqueda-del-tesoro-hospital",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "hospital",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-d411"
-  },
-  {
-   "slug": "busqueda-del-tesoro-insectos-y-bichos",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "insects_and_bugs",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-f7eb"
-  },
-  {
-   "slug": "busqueda-del-tesoro-invierno",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "winter",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-bbac"
-  },
-  {
-   "slug": "busqueda-del-tesoro-juguetes",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "toys",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-0735"
-  },
-  {
-   "slug": "busqueda-del-tesoro-mascotas",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "pets",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-56b6"
-  },
-  {
-   "slug": "busqueda-del-tesoro-miscelaneo",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "miscellaneous",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-5160"
-  },
-  {
-   "slug": "busqueda-del-tesoro-muebles",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "furniture",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-8bb9"
-  },
-  {
-   "slug": "busqueda-del-tesoro-musica",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "music",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-f120"
-  },
-  {
-   "slug": "busqueda-del-tesoro-navidad",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "christmas",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-e244"
-  },
-  {
-   "slug": "busqueda-del-tesoro-ocupaciones",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "occupations",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-9336"
-  },
-  {
-   "slug": "busqueda-del-tesoro-oficina-de-correos",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "post_office",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-995d"
-  },
-  {
-   "slug": "busqueda-del-tesoro-partes-del-cuerpo",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "body_parts",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-353e"
-  },
-  {
-   "slug": "busqueda-del-tesoro-pascua",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "easter",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-puntos-cardinales-accesorios-ed71"
-  },
-  {
-   "slug": "busqueda-del-tesoro-playa",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "beach",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-33b1"
-  },
-  {
-   "slug": "busqueda-del-tesoro-postres-y-dulces",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "desserts_and_sweets",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-73b9"
-  },
-  {
-   "slug": "busqueda-del-tesoro-primavera",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "spring",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-puntos-cardinales-accesorios-4d46"
-  },
-  {
-   "slug": "busqueda-del-tesoro-ropa",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "clothing",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-f15a"
-  },
-  {
-   "slug": "busqueda-del-tesoro-salon-de-clases",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "classroom",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-21b1"
-  },
-  {
-   "slug": "busqueda-del-tesoro-utensilios-de-cocina",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "kitchen_tools",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-ab2c"
-  },
-  {
-   "slug": "busqueda-del-tesoro-vehiculos",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "vehicles",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-f08e"
-  },
-  {
-   "slug": "busqueda-del-tesoro-verano",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "summer",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-6c6c"
-  },
-  {
-   "slug": "busqueda-del-tesoro-verduras",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "vegetables",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-2b5e"
-  },
-  {
-   "slug": "busqueda-del-tesoro-vida-marina",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "ocean_life",
-   "level": "preescolar",
-   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-0ea0"
-  },
-  {
-   "slug": "adivina-la-palabra-normal-4-de-julio-a37e",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-4-de-julio-16c6",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "4th_of_july",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-4-de-julio-a37e"
+   "deck": "suma-buscar-sumando-4-de-julio-16c6"
   },
   {
-   "slug": "adivina-la-palabra-normal-accesorios-77fc",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-accesorios-156c",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "accessories",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-accesorios-77fc"
+   "deck": "suma-buscar-sumando-accesorios-156c"
   },
   {
-   "slug": "adivina-la-palabra-normal-actividades-2530",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-actividades-bd59",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "activities",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-actividades-2530"
+   "deck": "suma-buscar-sumando-actividades-bd59"
   },
   {
-   "slug": "adivina-la-palabra-normal-alrededor-de-la-casa-7a27",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-alrededor-de-la-casa-745e",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "around_the_house",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-alrededor-de-la-casa-7a27"
+   "deck": "suma-buscar-sumando-alrededor-de-la-casa-745e"
   },
   {
-   "slug": "adivina-la-palabra-normal-animales-6e3a",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-animales-0178",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "animals",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-animales-6e3a"
+   "deck": "suma-buscar-sumando-animales-0178"
   },
   {
-   "slug": "adivina-la-palabra-normal-animales-de-granja-8e17",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-animales-de-granja-c37f",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "farm_animals",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-animales-de-granja-8e17"
+   "deck": "suma-buscar-sumando-animales-de-granja-c37f"
   },
   {
-   "slug": "adivina-la-palabra-normal-animales-del-zoologico-8e76",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-animales-del-zoologico-fd60",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "zoo_animals",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-animales-del-zoologico-8e76"
+   "deck": "suma-buscar-sumando-animales-del-zoologico-fd60"
   },
   {
-   "slug": "adivina-la-palabra-normal-arboles-8764",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-arboles-2b3c",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "tree",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-arboles-8764"
+   "deck": "suma-buscar-sumando-arboles-2b3c"
   },
   {
-   "slug": "adivina-la-palabra-normal-aves-2-b4ed",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-aves-2-057a",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "birds_2",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-aves-2-b4ed"
+   "deck": "suma-buscar-sumando-aves-2-057a"
   },
   {
-   "slug": "adivina-la-palabra-normal-aves-98c5",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-aves-71f4",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "birds",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-aves-98c5"
+   "deck": "suma-buscar-sumando-aves-71f4"
   },
   {
-   "slug": "adivina-la-palabra-normal-campamento-4188",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-campamento-fded",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "camping",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-campamento-4188"
+   "deck": "suma-buscar-sumando-campamento-fded"
   },
   {
-   "slug": "adivina-la-palabra-normal-clima-f7fe",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-clima-35a7",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "weather",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-clima-f7fe"
+   "deck": "suma-buscar-sumando-clima-35a7"
   },
   {
-   "slug": "adivina-la-palabra-normal-colores-1be6",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-colores-2e39",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "colors",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-colores-1be6"
+   "deck": "suma-buscar-sumando-colores-2e39"
   },
   {
-   "slug": "adivina-la-palabra-normal-cosas-que-vuelan-2751",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-cosas-que-vuelan-1236",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "things_that_fly",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-cosas-que-vuelan-2751"
+   "deck": "suma-buscar-sumando-cosas-que-vuelan-1236"
   },
   {
-   "slug": "adivina-la-palabra-normal-criaturas-del-bosque-3d48",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-criaturas-del-bosque-07a2",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "forest_creatures",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-criaturas-del-bosque-3d48"
+   "deck": "suma-buscar-sumando-criaturas-del-bosque-07a2"
   },
   {
-   "slug": "adivina-la-palabra-normal-desayuno-d3df",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-desayuno-38b3",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "breakfast",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-desayuno-d3df"
+   "deck": "suma-buscar-sumando-desayuno-38b3"
   },
   {
-   "slug": "adivina-la-palabra-normal-dia-de-accion-de-gracias-2c58",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-dia-de-accion-de-gracias-b94e",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "thanksgivinng",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-dia-de-accion-de-gracias-2c58"
+   "deck": "suma-buscar-sumando-dia-de-accion-de-gracias-b94e"
   },
   {
-   "slug": "adivina-la-palabra-normal-emociones-3b36",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-dinosaurios-167a",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "dinosaurs",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-dinosaurios-167a"
+  },
+  {
+   "slug": "suma-buscar-sumando-emociones-eb1b",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "emotions",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-emociones-3b36"
+   "deck": "suma-buscar-sumando-emociones-eb1b"
   },
   {
-   "slug": "adivina-la-palabra-normal-en-el-supermercado-d5a3",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-en-el-supermercado-870c",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "at_the_supermarket",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-en-el-supermercado-d5a3"
+   "deck": "suma-buscar-sumando-en-el-supermercado-870c"
   },
   {
-   "slug": "adivina-la-palabra-normal-espacio-c4cb",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-espacio-02f9",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "space",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-espacio-c4cb"
+   "deck": "suma-buscar-sumando-espacio-02f9"
   },
   {
-   "slug": "adivina-la-palabra-normal-flores-c0b8",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-flores-be00",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "flowers",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-flores-c0b8"
+   "deck": "suma-buscar-sumando-flores-be00"
   },
   {
-   "slug": "adivina-la-palabra-normal-herramientas-c804",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-formas-4169",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "shapes",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-formas-4169"
+  },
+  {
+   "slug": "suma-buscar-sumando-frutas-e4ca",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "fruits",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-frutas-e4ca"
+  },
+  {
+   "slug": "suma-buscar-sumando-herramientas-496e",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "tools",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-herramientas-c804"
+   "deck": "suma-buscar-sumando-herramientas-496e"
   },
   {
-   "slug": "adivina-la-palabra-normal-hospital-6001",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-hospital-b6fb",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "hospital",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-hospital-6001"
+   "deck": "suma-buscar-sumando-hospital-b6fb"
   },
   {
-   "slug": "adivina-la-palabra-normal-insectos-y-bichos-da29",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-insectos-y-bichos-f59a",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "insects_and_bugs",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-insectos-y-bichos-da29"
+   "deck": "suma-buscar-sumando-insectos-y-bichos-f59a"
   },
   {
-   "slug": "adivina-la-palabra-normal-invierno-bcde",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-invierno-91ad",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "winter",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-invierno-bcde"
+   "deck": "suma-buscar-sumando-invierno-91ad"
   },
   {
-   "slug": "adivina-la-palabra-normal-juguetes-a81f",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-juguetes-2e3e",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "toys",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-juguetes-a81f"
+   "deck": "suma-buscar-sumando-juguetes-2e3e"
   },
   {
-   "slug": "adivina-la-palabra-normal-mascotas-c69b",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-mascotas-7003",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "pets",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-mascotas-c69b"
+   "deck": "suma-buscar-sumando-mascotas-7003"
   },
   {
-   "slug": "adivina-la-palabra-normal-miscelaneo-a18e",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-miscelaneo-8941",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "miscellaneous",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-miscelaneo-a18e"
+   "deck": "suma-buscar-sumando-miscelaneo-8941"
   },
   {
-   "slug": "adivina-la-palabra-normal-muebles-fbb3",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-muebles-9a21",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "furniture",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-muebles-fbb3"
+   "deck": "suma-buscar-sumando-muebles-9a21"
   },
   {
-   "slug": "adivina-la-palabra-normal-musica-021c",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-musica-aca6",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "music",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-musica-021c"
+   "deck": "suma-buscar-sumando-musica-aca6"
   },
   {
-   "slug": "adivina-la-palabra-normal-navidad-234e",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-navidad-cdd5",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "christmas",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-navidad-234e"
+   "deck": "suma-buscar-sumando-navidad-cdd5"
   },
   {
-   "slug": "adivina-la-palabra-normal-ocupaciones-c6b9",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-ocupaciones-5f9c",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "occupations",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-ocupaciones-c6b9"
+   "deck": "suma-buscar-sumando-ocupaciones-5f9c"
   },
   {
-   "slug": "adivina-la-palabra-normal-panaderia-d7d7",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-oficina-de-correos-6064",
+   "type": "addition",
+   "mode": "find-addend",
+   "theme": "post_office",
+   "level": "primer-grado",
+   "deck": "suma-buscar-sumando-oficina-de-correos-6064"
+  },
+  {
+   "slug": "suma-buscar-sumando-panaderia-d21d",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "bakery",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-panaderia-d7d7"
+   "deck": "suma-buscar-sumando-panaderia-d21d"
   },
   {
-   "slug": "adivina-la-palabra-normal-partes-del-cuerpo-da7c",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-partes-del-cuerpo-07ee",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "body_parts",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-partes-del-cuerpo-da7c"
+   "deck": "suma-buscar-sumando-partes-del-cuerpo-07ee"
   },
   {
-   "slug": "adivina-la-palabra-normal-pascua-8cb4",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-pascua-7269",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "easter",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-pascua-8cb4"
+   "deck": "suma-buscar-sumando-pascua-7269"
   },
   {
-   "slug": "adivina-la-palabra-normal-playa-2a31",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-playa-5472",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "beach",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-playa-2a31"
+   "deck": "suma-buscar-sumando-playa-5472"
   },
   {
-   "slug": "adivina-la-palabra-normal-postres-y-dulces-9309",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-postres-y-dulces-6344",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "desserts_and_sweets",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-postres-y-dulces-9309"
+   "deck": "suma-buscar-sumando-postres-y-dulces-6344"
   },
   {
-   "slug": "adivina-la-palabra-normal-primavera-f5aa",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-primavera-f0b8",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "spring",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-primavera-f5aa"
+   "deck": "suma-buscar-sumando-primavera-f0b8"
   },
   {
-   "slug": "adivina-la-palabra-normal-reptiles-y-anfibios-c34e",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-reptiles-y-anfibios-eaa9",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "reptiles_and_amphibians",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-reptiles-y-anfibios-c34e"
+   "deck": "suma-buscar-sumando-reptiles-y-anfibios-eaa9"
   },
   {
-   "slug": "adivina-la-palabra-normal-ropa-58aa",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-ropa-098f",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "clothing",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-ropa-58aa"
+   "deck": "suma-buscar-sumando-ropa-098f"
   },
   {
-   "slug": "adivina-la-palabra-normal-salon-de-clases-752a",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-salon-de-clases-d7e0",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "classroom",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-salon-de-clases-752a"
+   "deck": "suma-buscar-sumando-salon-de-clases-d7e0"
   },
   {
-   "slug": "adivina-la-palabra-normal-utensilios-de-cocina-bd9e",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-utensilios-de-cocina-d44c",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "kitchen_tools",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-utensilios-de-cocina-bd9e"
+   "deck": "suma-buscar-sumando-utensilios-de-cocina-d44c"
   },
   {
-   "slug": "adivina-la-palabra-normal-vehiculos-cbbc",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-vehiculos-c068",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "vehicles",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-vehiculos-cbbc"
+   "deck": "suma-buscar-sumando-vehiculos-c068"
   },
   {
-   "slug": "adivina-la-palabra-normal-verano-149b",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-verano-271f",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "summer",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-verano-149b"
+   "deck": "suma-buscar-sumando-verano-271f"
   },
   {
-   "slug": "adivina-la-palabra-normal-verduras-7da6",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-verduras-dcfb",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "vegetables",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-verduras-7da6"
+   "deck": "suma-buscar-sumando-verduras-dcfb"
   },
   {
-   "slug": "adivina-la-palabra-normal-vida-marina-4602",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "suma-buscar-sumando-vida-marina-dbcd",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "ocean_life",
    "level": "primer-grado",
-   "deck": "adivina-la-palabra-normal-vida-marina-4602"
+   "deck": "suma-buscar-sumando-vida-marina-dbcd"
   }
  ]
 }

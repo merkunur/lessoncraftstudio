@@ -1,796 +1,652 @@
 {
  "part": 327,
- "locale": "fi",
+ "locale": "no",
  "classes": [
-  "code-addition::null",
-  "prepositions::fillin"
+  "more-less::check-cross",
+  "more-less::image-image"
  ],
  "splitOf": null,
- "count": 98,
+ "count": 80,
  "pages": [
   {
-   "slug": "koodattu-yhteenlasku-aamiainen-3e7d",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "breakfast",
-   "level": "2-luokka",
-   "deck": "koodattu-yhteenlasku-aamiainen-3e7d"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-ajoneuvot-2651",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "vehicles",
-   "level": "1-luokka",
-   "deck": "koodattu-yhteenlasku-ajoneuvot-2651"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-aktiviteetit-d85b",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "activities",
-   "level": "1-luokka",
-   "deck": "koodattu-yhteenlasku-aktiviteetit-d85b"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-ammatit-2d15",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "occupations",
-   "level": "2-luokka",
-   "deck": "koodattu-yhteenlasku-ammatit-2d15"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-asusteet-99b8",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "accessories",
-   "level": "1-luokka",
-   "deck": "koodattu-yhteenlasku-asusteet-99b8"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-avaruus-46f8",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "space",
-   "level": "2-luokka",
-   "deck": "koodattu-yhteenlasku-avaruus-46f8"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-dinosaurukset-f2bb",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "dinosaurs",
-   "level": "1-luokka",
-   "deck": "koodattu-yhteenlasku-dinosaurukset-f2bb"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-elaimet-b74f",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "animals",
-   "level": "2-luokka",
-   "deck": "koodattu-yhteenlasku-elaimet-b74f"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-elaintarhan-elaimet-3b34",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "zoo_animals",
-   "level": "1-luokka",
-   "deck": "koodattu-yhteenlasku-elaintarhan-elaimet-3b34"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-hedelmat-ac2c",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "fruits",
-   "level": "2-luokka",
-   "deck": "koodattu-yhteenlasku-hedelmat-ac2c"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-huonekalut-da8c",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "furniture",
-   "level": "2-luokka",
-   "deck": "koodattu-yhteenlasku-huonekalut-da8c"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-hyonteiset-ja-otokat-2786",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "1-luokka",
-   "deck": "koodattu-yhteenlasku-hyonteiset-ja-otokat-2786"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-jalkiruoat-ja-makeiset-bab8",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "1-luokka",
-   "deck": "koodattu-yhteenlasku-jalkiruoat-ja-makeiset-bab8"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-joulu-3942",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "christmas",
-   "level": "2-luokka",
-   "deck": "koodattu-yhteenlasku-joulu-3942"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-keittiovalineet-975a",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "2-luokka",
-   "deck": "koodattu-yhteenlasku-keittiovalineet-975a"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-kesa-fc4a",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "summer",
-   "level": "2-luokka",
-   "deck": "koodattu-yhteenlasku-kesa-fc4a"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-kevat-e6df",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "spring",
-   "level": "1-luokka",
-   "deck": "koodattu-yhteenlasku-kevat-e6df"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-kiitospaiva-042d",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "thanksgivinng",
-   "level": "2-luokka",
-   "deck": "koodattu-yhteenlasku-kiitospaiva-042d"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-kodin-ymparilla-0362",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "around_the_house",
-   "level": "1-luokka",
-   "deck": "koodattu-yhteenlasku-kodin-ymparilla-0362"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-kukat-7719",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "flowers",
-   "level": "1-luokka",
-   "deck": "koodattu-yhteenlasku-kukat-7719"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-leipomo-04f9",
-   "type": "code-addition",
-   "mode": null,
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-bakeri-0941",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "bakery",
-   "level": "1-luokka",
-   "deck": "koodattu-yhteenlasku-leipomo-04f9"
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-bakeri-0941"
   },
   {
-   "slug": "koodattu-yhteenlasku-leirielama-2922",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "camping",
-   "level": "1-luokka",
-   "deck": "koodattu-yhteenlasku-leirielama-2922"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-lelut-2870",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "toys",
-   "level": "1-luokka",
-   "deck": "koodattu-yhteenlasku-lelut-2870"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-lemmikit-3b47",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "pets",
-   "level": "2-luokka",
-   "deck": "koodattu-yhteenlasku-lemmikit-3b47"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-lentavat-asiat-ff0d",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "things_that_fly",
-   "level": "1-luokka",
-   "deck": "koodattu-yhteenlasku-lentavat-asiat-ff0d"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-linnut-12eb",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "birds",
-   "level": "1-luokka",
-   "deck": "koodattu-yhteenlasku-linnut-12eb"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-linnut-2-cf9a",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "2-luokka",
-   "deck": "koodattu-yhteenlasku-linnut-2-cf9a"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-luokkahuone-aba4",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "classroom",
-   "level": "1-luokka",
-   "deck": "koodattu-yhteenlasku-luokkahuone-aba4"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-maatilan-elaimet-a938",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "farm_animals",
-   "level": "1-luokka",
-   "deck": "koodattu-yhteenlasku-maatilan-elaimet-a938"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-matelijat-ja-sammakkoelaimet-7618",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "reptiles_and_amphibians",
-   "level": "2-luokka",
-   "deck": "koodattu-yhteenlasku-matelijat-ja-sammakkoelaimet-7618"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-merielama-58c3",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "ocean_life",
-   "level": "2-luokka",
-   "deck": "koodattu-yhteenlasku-merielama-58c3"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-metsan-elaimet-474a",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "forest_creatures",
-   "level": "1-luokka",
-   "deck": "koodattu-yhteenlasku-metsan-elaimet-474a"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-muodot-11f0",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "shapes",
-   "level": "2-luokka",
-   "deck": "koodattu-yhteenlasku-muodot-11f0"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-musiikki-8152",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "music",
-   "level": "1-luokka",
-   "deck": "koodattu-yhteenlasku-musiikki-8152"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-paasiainen-6778",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "easter",
-   "level": "1-luokka",
-   "deck": "koodattu-yhteenlasku-paasiainen-6778"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-postitoimisto-f540",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "post_office",
-   "level": "1-luokka",
-   "deck": "koodattu-yhteenlasku-postitoimisto-f540"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-puut-d10a",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "tree",
-   "level": "1-luokka",
-   "deck": "koodattu-yhteenlasku-puut-d10a"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-ranta-dc0b",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "beach",
-   "level": "1-luokka",
-   "deck": "koodattu-yhteenlasku-ranta-dc0b"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-ruokakaupassa-1b3f",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "1-luokka",
-   "deck": "koodattu-yhteenlasku-ruokakaupassa-1b3f"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-ruumiinosat-d16a",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "1-luokka",
-   "deck": "koodattu-yhteenlasku-ruumiinosat-d16a"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-saa-305b",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "weather",
-   "level": "1-luokka",
-   "deck": "koodattu-yhteenlasku-saa-305b"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-sairaala-d75e",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "hospital",
-   "level": "2-luokka",
-   "deck": "koodattu-yhteenlasku-sairaala-d75e"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-sekalaista-ec0a",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "miscellaneous",
-   "level": "2-luokka",
-   "deck": "koodattu-yhteenlasku-sekalaista-ec0a"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-talvi-8f07",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "winter",
-   "level": "2-luokka",
-   "deck": "koodattu-yhteenlasku-talvi-8f07"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-tunteet-87de",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "emotions",
-   "level": "1-luokka",
-   "deck": "koodattu-yhteenlasku-tunteet-87de"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-tyokalut-e243",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "tools",
-   "level": "2-luokka",
-   "deck": "koodattu-yhteenlasku-tyokalut-e243"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-vaatteet-14c8",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "clothing",
-   "level": "1-luokka",
-   "deck": "koodattu-yhteenlasku-vaatteet-14c8"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-varit-a325",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "colors",
-   "level": "1-luokka",
-   "deck": "koodattu-yhteenlasku-varit-a325"
-  },
-  {
-   "slug": "koodattu-yhteenlasku-vihannekset-40d7",
-   "type": "code-addition",
-   "mode": null,
-   "theme": "vegetables",
-   "level": "1-luokka",
-   "deck": "koodattu-yhteenlasku-vihannekset-40d7"
-  },
-  {
-   "slug": "prepositiot-tayta-aamiainen-732c",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "breakfast",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-aamiainen-732c"
-  },
-  {
-   "slug": "prepositiot-tayta-ajoneuvot-48f7",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "vehicles",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-ajoneuvot-48f7"
-  },
-  {
-   "slug": "prepositiot-tayta-aktiviteetit-675e",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "activities",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-aktiviteetit-675e"
-  },
-  {
-   "slug": "prepositiot-tayta-ammatit-2d37",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "occupations",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-ammatit-2d37"
-  },
-  {
-   "slug": "prepositiot-tayta-asusteet-13b0",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "accessories",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-asusteet-13b0"
-  },
-  {
-   "slug": "prepositiot-tayta-avaruus-d9c5",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "space",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-avaruus-d9c5"
-  },
-  {
-   "slug": "prepositiot-tayta-dinosaurukset-55f9",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "dinosaurs",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-dinosaurukset-55f9"
-  },
-  {
-   "slug": "prepositiot-tayta-elaimet-e7c2",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "animals",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-elaimet-e7c2"
-  },
-  {
-   "slug": "prepositiot-tayta-elaintarhan-elaimet-4c89",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "zoo_animals",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-elaintarhan-elaimet-4c89"
-  },
-  {
-   "slug": "prepositiot-tayta-hedelmat-f8eb",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "fruits",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-hedelmat-f8eb"
-  },
-  {
-   "slug": "prepositiot-tayta-huonekalut-2763",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "furniture",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-huonekalut-2763"
-  },
-  {
-   "slug": "prepositiot-tayta-hyonteiset-ja-otokat-58a1",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "insects_and_bugs",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-hyonteiset-ja-otokat-58a1"
-  },
-  {
-   "slug": "prepositiot-tayta-jalkiruoat-ja-makeiset-be94",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "desserts_and_sweets",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-jalkiruoat-ja-makeiset-be94"
-  },
-  {
-   "slug": "prepositiot-tayta-joulu-7273",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "christmas",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-joulu-7273"
-  },
-  {
-   "slug": "prepositiot-tayta-keittiovalineet-ac23",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "kitchen_tools",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-keittiovalineet-ac23"
-  },
-  {
-   "slug": "prepositiot-tayta-kesa-df4d",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "summer",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-kesa-df4d"
-  },
-  {
-   "slug": "prepositiot-tayta-kevat-6294",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "spring",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-kevat-6294"
-  },
-  {
-   "slug": "prepositiot-tayta-kiitospaiva-10db",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "thanksgivinng",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-kiitospaiva-10db"
-  },
-  {
-   "slug": "prepositiot-tayta-kodin-ymparilla-7ac9",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "around_the_house",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-kodin-ymparilla-7ac9"
-  },
-  {
-   "slug": "prepositiot-tayta-kukat-378d",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-blomster-7092",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "flowers",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-kukat-378d"
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-blomster-7092"
   },
   {
-   "slug": "prepositiot-tayta-leipomo-9783",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "bakery",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-leipomo-9783"
-  },
-  {
-   "slug": "prepositiot-tayta-leirielama-1069",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-camping-28bf",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "camping",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-leirielama-1069"
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-camping-28bf"
   },
   {
-   "slug": "prepositiot-tayta-lelut-dabf",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "toys",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-lelut-dabf"
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-desserter-og-godteri-8c02",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "desserts_and_sweets",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-desserter-og-godteri-8c02"
   },
   {
-   "slug": "prepositiot-tayta-lemmikit-d8b4",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "pets",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-lemmikit-d8b4"
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-dinosaurer-4d8f",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "dinosaurs",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-dinosaurer-4d8f"
   },
   {
-   "slug": "prepositiot-tayta-lentavat-asiat-1e26",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "things_that_fly",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-lentavat-asiat-1e26"
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-dyr-1248",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "animals",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-dyr-1248"
   },
   {
-   "slug": "prepositiot-tayta-linnut-2-745e",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "birds_2",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-linnut-2-745e"
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-dyrehagedyr-d18f",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "zoo_animals",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-dyrehagedyr-d18f"
   },
   {
-   "slug": "prepositiot-tayta-linnut-6d65",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "birds",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-linnut-6d65"
-  },
-  {
-   "slug": "prepositiot-tayta-luokkahuone-3a38",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "classroom",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-luokkahuone-3a38"
-  },
-  {
-   "slug": "prepositiot-tayta-maatilan-elaimet-b36a",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "farm_animals",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-maatilan-elaimet-b36a"
-  },
-  {
-   "slug": "prepositiot-tayta-matelijat-ja-sammakkoelaimet-e83f",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "reptiles_and_amphibians",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-matelijat-ja-sammakkoelaimet-e83f"
-  },
-  {
-   "slug": "prepositiot-tayta-merielama-4e9f",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "ocean_life",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-merielama-4e9f"
-  },
-  {
-   "slug": "prepositiot-tayta-metsan-elaimet-cc9a",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "forest_creatures",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-metsan-elaimet-cc9a"
-  },
-  {
-   "slug": "prepositiot-tayta-muodot-4130",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-former-5fa6",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "shapes",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-muodot-4130"
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-former-5fa6"
   },
   {
-   "slug": "prepositiot-tayta-musiikki-64a5",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "music",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-musiikki-64a5"
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-frokost-44e1",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "breakfast",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-frokost-44e1"
   },
   {
-   "slug": "prepositiot-tayta-paasiainen-5be7",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "easter",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-paasiainen-5be7"
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-frukter-33f2",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "fruits",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-frukter-33f2"
   },
   {
-   "slug": "prepositiot-tayta-postitoimisto-5928",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "post_office",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-postitoimisto-5928"
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-fugler-2-5e64",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "birds_2",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-fugler-2-5e64"
   },
   {
-   "slug": "prepositiot-tayta-puut-3f14",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "tree",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-puut-3f14"
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-fugler-5da3",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "birds",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-fugler-5da3"
   },
   {
-   "slug": "prepositiot-tayta-ranta-c1df",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "beach",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-ranta-c1df"
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-gardsdyr-2da9",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "farm_animals",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-gardsdyr-2da9"
   },
   {
-   "slug": "prepositiot-tayta-ruokakaupassa-ddb9",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "at_the_supermarket",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-ruokakaupassa-ddb9"
-  },
-  {
-   "slug": "prepositiot-tayta-ruumiinosat-44ed",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "body_parts",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-ruumiinosat-44ed"
-  },
-  {
-   "slug": "prepositiot-tayta-saa-2d3c",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "weather",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-saa-2d3c"
-  },
-  {
-   "slug": "prepositiot-tayta-sairaala-cefd",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "hospital",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-sairaala-cefd"
-  },
-  {
-   "slug": "prepositiot-tayta-sekalaista-e8b1",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "miscellaneous",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-sekalaista-e8b1"
-  },
-  {
-   "slug": "prepositiot-tayta-talvi-00b4",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "winter",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-talvi-00b4"
-  },
-  {
-   "slug": "prepositiot-tayta-tunteet-8cc0",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "emotions",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-tunteet-8cc0"
-  },
-  {
-   "slug": "prepositiot-tayta-tyokalut-4961",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "tools",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-tyokalut-4961"
-  },
-  {
-   "slug": "prepositiot-tayta-vaatteet-b4b7",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "clothing",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-vaatteet-b4b7"
-  },
-  {
-   "slug": "prepositiot-tayta-varit-4d4d",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "colors",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-varit-4d4d"
-  },
-  {
-   "slug": "prepositiot-tayta-vihannekset-39fc",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-gronnsaker-0078",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "vegetables",
-   "level": "1-luokka",
-   "deck": "prepositiot-tayta-vihannekset-39fc"
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-gronnsaker-0078"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-havliv-76ea",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "ocean_life",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-havliv-76ea"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-i-supermarkedet-5422",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "at_the_supermarket",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-i-supermarkedet-5422"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-insekter-og-kryp-a263",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "insects_and_bugs",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-insekter-og-kryp-a263"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-jul-ba0c",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "christmas",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-jul-ba0c"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-kjaeledyr-f80a",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "pets",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-kjaeledyr-f80a"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-kjokkenredskaper-ace2",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "kitchen_tools",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-kjokkenredskaper-ace2"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-kjoretoy-55f5",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "vehicles",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-kjoretoy-55f5"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-klaer-7c7f",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "clothing",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-klaer-7c7f"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-klasserom-fd5b",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "classroom",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-klasserom-fd5b"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-leker-297d",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "toys",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-leker-297d"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-mobler-faca",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "furniture",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-mobler-faca"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-musikk-3032",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "music",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-musikk-3032"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-paske-16b5",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "easter",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-paske-16b5"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-postkontor-fad5",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "post_office",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-postkontor-fad5"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-reptiler-og-amfibier-0563",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-reptiler-og-amfibier-0563"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-rundt-i-huset-4a2d",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "around_the_house",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-rundt-i-huset-4a2d"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-skogsdyr-eea9",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "forest_creatures",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-skogsdyr-eea9"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-strand-45de",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "beach",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-strand-45de"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-sykehus-033b",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "hospital",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-sykehus-033b"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-thanksgiving-f7aa",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "thanksgivinng",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-thanksgiving-f7aa"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-tilbehor-bd64",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "accessories",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-tilbehor-bd64"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-ting-som-flyr-d1c9",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "things_that_fly",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-ting-som-flyr-d1c9"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-traer-83e5",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "tree",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-traer-83e5"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-verdensrommet-3745",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "space",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-verdensrommet-3745"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-verktoy-27dd",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "tools",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-verktoy-27dd"
+  },
+  {
+   "slug": "mer-mindre-kryss-av-og-strek-over-grupper-yrker-8c5e",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "occupations",
+   "level": "1-trinn",
+   "deck": "mer-mindre-kryss-av-og-strek-over-grupper-yrker-8c5e"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-bakeri-3818",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "bakery",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-bakeri-3818"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-blomster-bc24",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "flowers",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-blomster-bc24"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-camping-b968",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "camping",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-camping-b968"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-desserter-og-godteri-31f5",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "desserts_and_sweets",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-desserter-og-godteri-31f5"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-dinosaurer-8f53",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "dinosaurs",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-dinosaurer-8f53"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-dyr-0094",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "animals",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-dyr-0094"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-dyrehagedyr-faf2",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "zoo_animals",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-dyrehagedyr-faf2"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-former-ae6b",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "shapes",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-former-ae6b"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-frokost-e30f",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "breakfast",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-frokost-e30f"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-frukter-0424",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "fruits",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-frukter-0424"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-fugler-2-9bc9",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "birds_2",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-fugler-2-9bc9"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-fugler-3fcd",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "birds",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-fugler-3fcd"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-gardsdyr-68b6",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "farm_animals",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-gardsdyr-68b6"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-gronnsaker-5798",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "vegetables",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-gronnsaker-5798"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-havliv-356c",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "ocean_life",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-havliv-356c"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-i-supermarkedet-5a29",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "at_the_supermarket",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-i-supermarkedet-5a29"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-insekter-og-kryp-eda9",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "insects_and_bugs",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-insekter-og-kryp-eda9"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-jul-0c68",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "christmas",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-jul-0c68"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-kjaeledyr-c74e",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "pets",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-kjaeledyr-c74e"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-kjokkenredskaper-faeb",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "kitchen_tools",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-kjokkenredskaper-faeb"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-kjoretoy-cfdd",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "vehicles",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-kjoretoy-cfdd"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-klaer-f593",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "clothing",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-klaer-f593"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-klasserom-8775",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "classroom",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-klasserom-8775"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-leker-1d70",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "toys",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-leker-1d70"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-mobler-00d3",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "furniture",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-mobler-00d3"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-musikk-1e54",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "music",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-musikk-1e54"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-paske-f52f",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "easter",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-paske-f52f"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-postkontor-ad24",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "post_office",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-postkontor-ad24"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-reptiler-og-amfibier-8e8e",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-reptiler-og-amfibier-8e8e"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-rundt-i-huset-f3b8",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "around_the_house",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-rundt-i-huset-f3b8"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-skogsdyr-9d75",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "forest_creatures",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-skogsdyr-9d75"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-strand-de7e",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "beach",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-strand-de7e"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-sykehus-d3d0",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "hospital",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-sykehus-d3d0"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-thanksgiving-d679",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "thanksgivinng",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-thanksgiving-d679"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-tilbehor-be78",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "accessories",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-tilbehor-be78"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-ting-som-flyr-c310",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "things_that_fly",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-ting-som-flyr-c310"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-traer-1e8a",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "tree",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-traer-1e8a"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-verdensrommet-92c9",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "space",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-verdensrommet-92c9"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-verktoy-c5e6",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "tools",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-verktoy-c5e6"
+  },
+  {
+   "slug": "mer-mindre-bilde-bilde-yrker-e3a4",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "occupations",
+   "level": "1-trinn",
+   "deck": "mer-mindre-bilde-bilde-yrker-e3a4"
   }
  ]
 }

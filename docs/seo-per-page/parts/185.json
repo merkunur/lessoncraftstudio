@@ -2,691 +2,778 @@
  "part": 185,
  "locale": "it",
  "classes": [
-  "find-and-count::letter-spotting",
-  "big-small::orderAsc"
+  "wordsearch::null"
  ],
  "splitOf": null,
- "count": 85,
+ "count": 96,
  "pages": [
   {
-   "slug": "trova-e-conta-trova-lettere-abbigliamento-9608",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "cerca-parole-abbigliamento-be08",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "clothing",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-abbigliamento-9608"
+   "level": "classe-prima",
+   "deck": "cerca-parole-abbigliamento-be08"
   },
   {
-   "slug": "trova-e-conta-trova-lettere-accessori-8070",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "cerca-parole-accessori-4e76",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "accessories",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-accessori-8070"
+   "level": "classe-prima",
+   "deck": "cerca-parole-accessori-4e76"
   },
   {
-   "slug": "trova-e-conta-trova-lettere-al-supermercato-81e5",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "cerca-parole-al-supermercato-675f",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "at_the_supermarket",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-al-supermercato-81e5"
+   "level": "classe-prima",
+   "deck": "cerca-parole-al-supermercato-675f"
   },
   {
-   "slug": "trova-e-conta-trova-lettere-animali-della-fattoria-b052",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "farm_animals",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-animali-della-fattoria-b052"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-animali-dello-zoo-218e",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "zoo_animals",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-animali-dello-zoo-218e"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-animali-domestici-4e35",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "pets",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-animali-domestici-4e35"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-animali-f91f",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "animals",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-animali-f91f"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-attivita-32f9",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "activities",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-attivita-32f9"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-attrezzi-c4d2",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "tools",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-attrezzi-c4d2"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-aula-4740",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "classroom",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-aula-4740"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-campeggio-ce01",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "camping",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-campeggio-ce01"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-colazione-6c58",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "breakfast",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-colazione-6c58"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-cose-che-volano-9072",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "things_that_fly",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-cose-che-volano-9072"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-creature-della-foresta-ec07",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "forest_creatures",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-creature-della-foresta-ec07"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-dolci-e-dolciumi-622d",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "desserts_and_sweets",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-dolci-e-dolciumi-622d"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-emozioni-014d",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "emotions",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-emozioni-014d"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-estate-7817",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "summer",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-estate-7817"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-fiori-6994",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "flowers",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-fiori-6994"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-forme-6b3a",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "shapes",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-forme-6b3a"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-frutta-6e00",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "fruits",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-frutta-6e00"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-giocattoli-2d84",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "toys",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-giocattoli-2d84"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-giorno-del-ringraziamento-19b7",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "thanksgivinng",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-giorno-del-ringraziamento-19b7"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-in-giro-per-casa-f59c",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "around_the_house",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-in-giro-per-casa-f59c"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-insetti-e-scarafaggi-00dc",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "insects_and_bugs",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-insetti-e-scarafaggi-00dc"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-inverno-1a9c",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "winter",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-inverno-1a9c"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-meteo-0f7d",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "weather",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-meteo-0f7d"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-mobili-fe48",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "furniture",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-mobili-fe48"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-musica-b1ae",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "music",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-musica-b1ae"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-natale-322e",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "christmas",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-natale-322e"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-ospedale-8d68",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "hospital",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-ospedale-8d68"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-panetteria-73cc",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "bakery",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-panetteria-73cc"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-parti-del-corpo-311e",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "body_parts",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-parti-del-corpo-311e"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-pasqua-0728",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "easter",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-pasqua-0728"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-primavera-299d",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "spring",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-primavera-299d"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-professioni-ff09",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "occupations",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-professioni-ff09"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-spazio-8386",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "space",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-spazio-8386"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-spiaggia-fd3a",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "beach",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-spiaggia-fd3a"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-uccelli-2-accb",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "birds_2",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-uccelli-2-accb"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-ufficio-postale-f7a3",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "post_office",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-ufficio-postale-f7a3"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-utensili-da-cucina-1a8d",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "kitchen_tools",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-utensili-da-cucina-1a8d"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-veicoli-725f",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "vehicles",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-veicoli-725f"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-verdure-7b3e",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "vegetables",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-verdure-7b3e"
-  },
-  {
-   "slug": "trova-e-conta-trova-lettere-vita-oceanica-6f4e",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "ocean_life",
-   "level": "infanzia",
-   "deck": "trova-e-conta-trova-lettere-vita-oceanica-6f4e"
-  },
-  {
-   "slug": "grande-piccolo-ordine-crescente-abbigliamento-59da",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "clothing",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-abbigliamento-59da"
-  },
-  {
-   "slug": "grande-piccolo-ordine-crescente-accessori-7caf",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "accessories",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-accessori-7caf"
-  },
-  {
-   "slug": "grande-piccolo-ordine-crescente-al-supermercato-258f",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "at_the_supermarket",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-al-supermercato-258f"
-  },
-  {
-   "slug": "grande-piccolo-ordine-crescente-alberi-ff2b",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-alberi-13f4",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "tree",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-alberi-ff2b"
+   "level": "classe-prima",
+   "deck": "cerca-parole-alberi-13f4"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-animali-725c",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-animali-9872",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "animals",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-animali-725c"
+   "level": "classe-prima",
+   "deck": "cerca-parole-animali-9872"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-animali-della-fattoria-65a2",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-animali-della-fattoria-3b52",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "farm_animals",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-animali-della-fattoria-65a2"
+   "level": "classe-prima",
+   "deck": "cerca-parole-animali-della-fattoria-3b52"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-animali-dello-zoo-7670",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-animali-dello-zoo-234f",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "zoo_animals",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-animali-dello-zoo-7670"
+   "level": "classe-prima",
+   "deck": "cerca-parole-animali-dello-zoo-234f"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-animali-domestici-87f9",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-animali-domestici-ae4b",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "pets",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-animali-domestici-87f9"
+   "level": "classe-prima",
+   "deck": "cerca-parole-animali-domestici-ae4b"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-attrezzi-1f81",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-attivita-d09c",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "activities",
+   "level": "classe-prima",
+   "deck": "cerca-parole-attivita-d09c"
+  },
+  {
+   "slug": "cerca-parole-attrezzi-bbf4",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "tools",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-attrezzi-1f81"
+   "level": "classe-prima",
+   "deck": "cerca-parole-attrezzi-bbf4"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-aula-bb74",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-aula-f9b9",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "classroom",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-aula-bb74"
+   "level": "classe-prima",
+   "deck": "cerca-parole-aula-f9b9"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-campeggio-1790",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-campeggio-59b4",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "camping",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-campeggio-1790"
+   "level": "classe-prima",
+   "deck": "cerca-parole-campeggio-59b4"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-colazione-fd67",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-colazione-1854",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "breakfast",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-colazione-fd67"
+   "level": "classe-prima",
+   "deck": "cerca-parole-colazione-1854"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-cose-che-volano-ea7d",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-colori-84c4",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "colors",
+   "level": "classe-prima",
+   "deck": "cerca-parole-colori-84c4"
+  },
+  {
+   "slug": "cerca-parole-cose-che-volano-5faa",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "things_that_fly",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-cose-che-volano-ea7d"
+   "level": "classe-prima",
+   "deck": "cerca-parole-cose-che-volano-5faa"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-creature-della-foresta-9a92",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-creature-della-foresta-7e1c",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "forest_creatures",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-creature-della-foresta-9a92"
+   "level": "classe-prima",
+   "deck": "cerca-parole-creature-della-foresta-7e1c"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-dinosauri-c763",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "dinosaurs",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-dinosauri-c763"
-  },
-  {
-   "slug": "grande-piccolo-ordine-crescente-dolci-e-dolciumi-98a6",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-dolci-e-dolciumi-6515",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "desserts_and_sweets",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-dolci-e-dolciumi-98a6"
+   "level": "classe-prima",
+   "deck": "cerca-parole-dolci-e-dolciumi-6515"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-fiori-225e",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-emozioni-c69a",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "emotions",
+   "level": "classe-prima",
+   "deck": "cerca-parole-emozioni-c69a"
+  },
+  {
+   "slug": "cerca-parole-estate-d547",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "summer",
+   "level": "classe-prima",
+   "deck": "cerca-parole-estate-d547"
+  },
+  {
+   "slug": "cerca-parole-fiori-707e",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "flowers",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-fiori-225e"
+   "level": "classe-prima",
+   "deck": "cerca-parole-fiori-707e"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-forme-9262",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-forme-5e4f",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "shapes",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-forme-9262"
+   "level": "classe-prima",
+   "deck": "cerca-parole-forme-5e4f"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-frutta-90ad",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-frutta-d78a",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "fruits",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-frutta-90ad"
+   "level": "classe-prima",
+   "deck": "cerca-parole-frutta-d78a"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-giocattoli-e01d",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-giocattoli-08c9",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "toys",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-giocattoli-e01d"
+   "level": "classe-prima",
+   "deck": "cerca-parole-giocattoli-08c9"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-giorno-del-ringraziamento-1f49",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-giorno-del-ringraziamento-eb1f",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "thanksgivinng",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-giorno-del-ringraziamento-1f49"
+   "level": "classe-prima",
+   "deck": "cerca-parole-giorno-del-ringraziamento-eb1f"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-in-giro-per-casa-c1ee",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-in-giro-per-casa-33b0",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "around_the_house",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-in-giro-per-casa-c1ee"
+   "level": "classe-prima",
+   "deck": "cerca-parole-in-giro-per-casa-33b0"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-insetti-e-scarafaggi-d8c0",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-insetti-e-scarafaggi-84a4",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "insects_and_bugs",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-insetti-e-scarafaggi-d8c0"
+   "level": "classe-prima",
+   "deck": "cerca-parole-insetti-e-scarafaggi-84a4"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-mobili-acb6",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-inverno-d6c4",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "winter",
+   "level": "classe-prima",
+   "deck": "cerca-parole-inverno-d6c4"
+  },
+  {
+   "slug": "cerca-parole-meteo-8d93",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "weather",
+   "level": "classe-prima",
+   "deck": "cerca-parole-meteo-8d93"
+  },
+  {
+   "slug": "cerca-parole-mobili-60c5",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "furniture",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-mobili-acb6"
+   "level": "classe-prima",
+   "deck": "cerca-parole-mobili-60c5"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-musica-3d58",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-musica-0d52",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "music",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-musica-3d58"
+   "level": "classe-prima",
+   "deck": "cerca-parole-musica-0d52"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-natale-41dd",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-natale-cad3",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "christmas",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-natale-41dd"
+   "level": "classe-prima",
+   "deck": "cerca-parole-natale-cad3"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-ospedale-e538",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-ospedale-245d",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "hospital",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-ospedale-e538"
+   "level": "classe-prima",
+   "deck": "cerca-parole-ospedale-245d"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-panetteria-0075",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-panetteria-a33a",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "bakery",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-panetteria-0075"
+   "level": "classe-prima",
+   "deck": "cerca-parole-panetteria-a33a"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-parti-del-corpo-77b7",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-parti-del-corpo-4e00",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "body_parts",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-parti-del-corpo-77b7"
+   "level": "classe-prima",
+   "deck": "cerca-parole-parti-del-corpo-4e00"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-pasqua-3eb7",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-pasqua-60f9",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "easter",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-pasqua-3eb7"
+   "level": "classe-prima",
+   "deck": "cerca-parole-pasqua-60f9"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-professioni-6a42",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-primavera-e385",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "spring",
+   "level": "classe-prima",
+   "deck": "cerca-parole-primavera-e385"
+  },
+  {
+   "slug": "cerca-parole-professioni-f8fd",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "occupations",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-professioni-6a42"
+   "level": "classe-prima",
+   "deck": "cerca-parole-professioni-f8fd"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-rettili-e-anfibi-27bd",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-rettili-e-anfibi-ca08",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "reptiles_and_amphibians",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-rettili-e-anfibi-27bd"
+   "level": "classe-prima",
+   "deck": "cerca-parole-rettili-e-anfibi-ca08"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-spazio-8500",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-spazio-d75a",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "space",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-spazio-8500"
+   "level": "classe-prima",
+   "deck": "cerca-parole-spazio-d75a"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-spiaggia-7590",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-spiaggia-1a88",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "beach",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-spiaggia-7590"
+   "level": "classe-prima",
+   "deck": "cerca-parole-spiaggia-1a88"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-uccelli-2-3bc3",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-uccelli-2-a5ea",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "birds_2",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-uccelli-2-3bc3"
+   "level": "classe-prima",
+   "deck": "cerca-parole-uccelli-2-a5ea"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-uccelli-831d",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-uccelli-8045",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "birds",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-uccelli-831d"
+   "level": "classe-prima",
+   "deck": "cerca-parole-uccelli-8045"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-ufficio-postale-89a8",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-ufficio-postale-c373",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "post_office",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-ufficio-postale-89a8"
+   "level": "classe-prima",
+   "deck": "cerca-parole-ufficio-postale-c373"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-utensili-da-cucina-2c2c",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-utensili-da-cucina-ef16",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "kitchen_tools",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-utensili-da-cucina-2c2c"
+   "level": "classe-prima",
+   "deck": "cerca-parole-utensili-da-cucina-ef16"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-varie-207e",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-varie-c8fd",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "miscellaneous",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-varie-207e"
+   "level": "classe-prima",
+   "deck": "cerca-parole-varie-c8fd"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-veicoli-e76d",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-veicoli-dc69",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "vehicles",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-veicoli-e76d"
+   "level": "classe-prima",
+   "deck": "cerca-parole-veicoli-dc69"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-verdure-3be9",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-verdure-35f9",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "vegetables",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-verdure-3be9"
+   "level": "classe-prima",
+   "deck": "cerca-parole-verdure-35f9"
   },
   {
-   "slug": "grande-piccolo-ordine-crescente-vita-oceanica-21e4",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "cerca-parole-vita-oceanica-875e",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "ocean_life",
-   "level": "infanzia",
-   "deck": "grande-piccolo-ordine-crescente-vita-oceanica-21e4"
+   "level": "classe-prima",
+   "deck": "cerca-parole-vita-oceanica-875e"
+  },
+  {
+   "slug": "inglese-cerca-parole-abbigliamento-1711",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "clothing",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-abbigliamento-1711"
+  },
+  {
+   "slug": "inglese-cerca-parole-accessori-f33e",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "accessories",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-accessori-f33e"
+  },
+  {
+   "slug": "inglese-cerca-parole-al-supermercato-c2d3",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-al-supermercato-c2d3"
+  },
+  {
+   "slug": "inglese-cerca-parole-alberi-34a3",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "tree",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-alberi-34a3"
+  },
+  {
+   "slug": "inglese-cerca-parole-animali-b9fb",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "animals",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-animali-b9fb"
+  },
+  {
+   "slug": "inglese-cerca-parole-animali-della-fattoria-1bc2",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-animali-della-fattoria-1bc2"
+  },
+  {
+   "slug": "inglese-cerca-parole-animali-dello-zoo-5b83",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-animali-dello-zoo-5b83"
+  },
+  {
+   "slug": "inglese-cerca-parole-animali-domestici-0ca0",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "pets",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-animali-domestici-0ca0"
+  },
+  {
+   "slug": "inglese-cerca-parole-attivita-5cda",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "activities",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-attivita-5cda"
+  },
+  {
+   "slug": "inglese-cerca-parole-attrezzi-15a6",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "tools",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-attrezzi-15a6"
+  },
+  {
+   "slug": "inglese-cerca-parole-aula-c39c",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "classroom",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-aula-c39c"
+  },
+  {
+   "slug": "inglese-cerca-parole-campeggio-3b49",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "camping",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-campeggio-3b49"
+  },
+  {
+   "slug": "inglese-cerca-parole-colazione-06d7",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-colazione-06d7"
+  },
+  {
+   "slug": "inglese-cerca-parole-colori-e1b9",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "colors",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-colori-e1b9"
+  },
+  {
+   "slug": "inglese-cerca-parole-cose-che-volano-7eb7",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-cose-che-volano-7eb7"
+  },
+  {
+   "slug": "inglese-cerca-parole-creature-della-foresta-ba00",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-creature-della-foresta-ba00"
+  },
+  {
+   "slug": "inglese-cerca-parole-dolci-e-dolciumi-9ed2",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-dolci-e-dolciumi-9ed2"
+  },
+  {
+   "slug": "inglese-cerca-parole-emozioni-5b87",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "emotions",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-emozioni-5b87"
+  },
+  {
+   "slug": "inglese-cerca-parole-estate-2753",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "summer",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-estate-2753"
+  },
+  {
+   "slug": "inglese-cerca-parole-fiori-4735",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "flowers",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-fiori-4735"
+  },
+  {
+   "slug": "inglese-cerca-parole-forme-c940",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "shapes",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-forme-c940"
+  },
+  {
+   "slug": "inglese-cerca-parole-frutta-b533",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "fruits",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-frutta-b533"
+  },
+  {
+   "slug": "inglese-cerca-parole-giocattoli-aec8",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "toys",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-giocattoli-aec8"
+  },
+  {
+   "slug": "inglese-cerca-parole-giorno-del-ringraziamento-6e7c",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-giorno-del-ringraziamento-6e7c"
+  },
+  {
+   "slug": "inglese-cerca-parole-in-giro-per-casa-9536",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-in-giro-per-casa-9536"
+  },
+  {
+   "slug": "inglese-cerca-parole-insetti-e-scarafaggi-6637",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-insetti-e-scarafaggi-6637"
+  },
+  {
+   "slug": "inglese-cerca-parole-inverno-ca1b",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "winter",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-inverno-ca1b"
+  },
+  {
+   "slug": "inglese-cerca-parole-meteo-da95",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "weather",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-meteo-da95"
+  },
+  {
+   "slug": "inglese-cerca-parole-mobili-b1a8",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "furniture",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-mobili-b1a8"
+  },
+  {
+   "slug": "inglese-cerca-parole-musica-75f4",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "music",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-musica-75f4"
+  },
+  {
+   "slug": "inglese-cerca-parole-natale-432c",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "christmas",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-natale-432c"
+  },
+  {
+   "slug": "inglese-cerca-parole-ospedale-7973",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "hospital",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-ospedale-7973"
+  },
+  {
+   "slug": "inglese-cerca-parole-panetteria-b825",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "bakery",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-panetteria-b825"
+  },
+  {
+   "slug": "inglese-cerca-parole-parti-del-corpo-a850",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-parti-del-corpo-a850"
+  },
+  {
+   "slug": "inglese-cerca-parole-pasqua-59d3",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "easter",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-pasqua-59d3"
+  },
+  {
+   "slug": "inglese-cerca-parole-primavera-5892",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "spring",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-primavera-5892"
+  },
+  {
+   "slug": "inglese-cerca-parole-professioni-f3c1",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "occupations",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-professioni-f3c1"
+  },
+  {
+   "slug": "inglese-cerca-parole-rettili-e-anfibi-3485",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-rettili-e-anfibi-3485"
+  },
+  {
+   "slug": "inglese-cerca-parole-spazio-e9e8",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "space",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-spazio-e9e8"
+  },
+  {
+   "slug": "inglese-cerca-parole-spiaggia-d976",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "beach",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-spiaggia-d976"
+  },
+  {
+   "slug": "inglese-cerca-parole-uccelli-2-efd8",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-uccelli-2-efd8"
+  },
+  {
+   "slug": "inglese-cerca-parole-uccelli-f515",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "birds",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-uccelli-f515"
+  },
+  {
+   "slug": "inglese-cerca-parole-ufficio-postale-9452",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "post_office",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-ufficio-postale-9452"
+  },
+  {
+   "slug": "inglese-cerca-parole-utensili-da-cucina-010d",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-utensili-da-cucina-010d"
+  },
+  {
+   "slug": "inglese-cerca-parole-varie-8636",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "miscellaneous",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-varie-8636"
+  },
+  {
+   "slug": "inglese-cerca-parole-veicoli-ad09",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-veicoli-ad09"
+  },
+  {
+   "slug": "inglese-cerca-parole-verdure-980d",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-verdure-980d"
+  },
+  {
+   "slug": "inglese-cerca-parole-vita-oceanica-fa48",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "language-beginner",
+   "deck": "inglese-cerca-parole-vita-oceanica-fa48"
   }
  ]
 }

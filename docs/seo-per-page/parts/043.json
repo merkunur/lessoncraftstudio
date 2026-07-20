@@ -2,755 +2,787 @@
  "part": 43,
  "locale": "en",
  "classes": [
-  "word-scramble::easy",
-  "find-objects::i-spy"
+  "word-guess::easy",
+  "sudoku::medium"
  ],
  "splitOf": null,
- "count": 93,
+ "count": 97,
  "pages": [
   {
-   "slug": "word-scramble-4th-of-july",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-4th-of-july",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "4th_of_july",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-4th-of-july"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-4th-of-july"
   },
   {
-   "slug": "word-scramble-accessories",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-accessories",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "accessories",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-accessories"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-accessories"
   },
   {
-   "slug": "word-scramble-activities",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-activities",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "activities",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-activities"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-activities"
   },
   {
-   "slug": "word-scramble-animals",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-animals",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "animals",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-animals"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-animals"
   },
   {
-   "slug": "word-scramble-around-the-house",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-around-the-house",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "around_the_house",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-around-the-house"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-around-the-house"
   },
   {
-   "slug": "word-scramble-at-the-supermarket",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-at-the-supermarket",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "at_the_supermarket",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-at-the-supermarket"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-at-the-supermarket"
   },
   {
-   "slug": "word-scramble-bakery",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-bakery",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "bakery",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-bakery"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-bakery"
   },
   {
-   "slug": "word-scramble-beach",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-beach",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "beach",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-beach"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-beach"
   },
   {
-   "slug": "word-scramble-birds",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-birds",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "birds",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-birds"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-birds"
   },
   {
-   "slug": "word-scramble-body-parts",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-body-parts",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "body_parts",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-body-parts"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-body-parts"
   },
   {
-   "slug": "word-scramble-breakfast",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-breakfast",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "breakfast",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-breakfast"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-breakfast"
   },
   {
-   "slug": "word-scramble-camping",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-camping",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "camping",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-camping"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-camping"
   },
   {
-   "slug": "word-scramble-christmas",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-christmas",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "christmas",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-christmas"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-christmas"
   },
   {
-   "slug": "word-scramble-classroom",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-classroom",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "classroom",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-classroom"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-classroom"
   },
   {
-   "slug": "word-scramble-clothing",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-clothing",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "clothing",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-clothing"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-clothing"
   },
   {
-   "slug": "word-scramble-colors",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-colors",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "colors",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-colors"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-colors"
   },
   {
-   "slug": "word-scramble-desserts-and-sweets",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-desserts-and-sweets",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "desserts_and_sweets",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-desserts-and-sweets"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-desserts-and-sweets"
   },
   {
-   "slug": "word-scramble-easter",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-easter",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "easter",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-easter"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-easter"
   },
   {
-   "slug": "word-scramble-emotions",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-emotions",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "emotions",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-emotions"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-emotions"
   },
   {
-   "slug": "word-scramble-farm-animals",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-farm-animals",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "farm_animals",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-farm-animals"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-farm-animals"
   },
   {
-   "slug": "word-scramble-flowers",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-flowers",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "flowers",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-flowers"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-flowers"
   },
   {
-   "slug": "word-scramble-forest-creatures",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-forest-creatures",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "forest_creatures",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-forest-creatures"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-forest-creatures"
   },
   {
-   "slug": "word-scramble-fruits",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-fruits",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "fruits",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-fruits"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-fruits"
   },
   {
-   "slug": "word-scramble-furniture",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-furniture",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "furniture",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-furniture"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-furniture"
   },
   {
-   "slug": "word-scramble-hospital",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-hospital",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "hospital",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-hospital"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-hospital"
   },
   {
-   "slug": "word-scramble-insects-and-bugs",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-insects-and-bugs",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "insects_and_bugs",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-insects-and-bugs"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-insects-and-bugs"
   },
   {
-   "slug": "word-scramble-kitchen-tools",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-kitchen-tools",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "kitchen_tools",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-kitchen-tools"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-kitchen-tools"
   },
   {
-   "slug": "word-scramble-music",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-music",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "music",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-music"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-music"
   },
   {
-   "slug": "word-scramble-occupations",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-occupations",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "occupations",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-occupations"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-occupations"
   },
   {
-   "slug": "word-scramble-ocean-life",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-ocean-life",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "ocean_life",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-ocean-life"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-ocean-life"
   },
   {
-   "slug": "word-scramble-pets",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-pets",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "pets",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-pets"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-pets"
   },
   {
-   "slug": "word-scramble-post-office",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-post-office",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "post_office",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-post-office"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-post-office"
   },
   {
-   "slug": "word-scramble-reptiles-and-amphibians",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-reptiles-and-amphibians",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "reptiles_and_amphibians",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-reptiles-and-amphibians"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-reptiles-and-amphibians"
   },
   {
-   "slug": "word-scramble-shapes",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-shapes",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "shapes",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-shapes"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-shapes"
   },
   {
-   "slug": "word-scramble-space",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-space",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "space",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-space"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-space"
   },
   {
-   "slug": "word-scramble-spring",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-spring",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "spring",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-spring"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-spring"
   },
   {
-   "slug": "word-scramble-summer",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-summer",
+   "type": "word-guess",
    "mode": "easy",
    "theme": "summer",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-summer"
+   "level": "kindergarten",
+   "deck": "word-guess-easy-summer"
   },
   {
-   "slug": "word-scramble-thanksgiving",
-   "type": "word-scramble",
+   "slug": "word-guess-easy-thanksgiving",
+   "type": "word-guess",
    "mode": "easy",
-   "theme": "thanksgiving",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-thanksgiving"
-  },
-  {
-   "slug": "word-scramble-things-that-fly",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "things_that_fly",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-things-that-fly"
-  },
-  {
-   "slug": "word-scramble-tools",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "tools",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-tools"
-  },
-  {
-   "slug": "word-scramble-toys",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "toys",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-toys"
-  },
-  {
-   "slug": "word-scramble-trees",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "tree",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-tree"
-  },
-  {
-   "slug": "word-scramble-vegetables",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "vegetables",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-vegetables"
-  },
-  {
-   "slug": "word-scramble-vehicles",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "vehicles",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-vehicles"
-  },
-  {
-   "slug": "word-scramble-weather",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "weather",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-weather"
-  },
-  {
-   "slug": "word-scramble-winter",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "winter",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-winter"
-  },
-  {
-   "slug": "word-scramble-zoo-animals",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "zoo_animals",
-   "level": "grade-1",
-   "deck": "word-scramble-easy-zoo-animals"
-  },
-  {
-   "slug": "find-objects-i-spy-4th-of-july-a825",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "4th_of_july",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-4th-of-july-a825"
-  },
-  {
-   "slug": "find-objects-i-spy-accessories-39c9",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "accessories",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-accessories-39c9"
-  },
-  {
-   "slug": "find-objects-i-spy-activities-38b1",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "activities",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-activities-38b1"
-  },
-  {
-   "slug": "find-objects-i-spy-animals-ea31",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "animals",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-animals-ea31"
-  },
-  {
-   "slug": "find-objects-i-spy-at-the-supermarket-0b16",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "at_the_supermarket",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-at-the-supermarket-0b16"
-  },
-  {
-   "slug": "find-objects-i-spy-bakery-1571",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "bakery",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-bakery-1571"
-  },
-  {
-   "slug": "find-objects-i-spy-beach-9e03",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "beach",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-beach-9e03"
-  },
-  {
-   "slug": "find-objects-i-spy-birds-11cb",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "birds",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-birds-11cb"
-  },
-  {
-   "slug": "find-objects-i-spy-birds-2-5a42",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "birds_2",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-birds-2-5a42"
-  },
-  {
-   "slug": "find-objects-i-spy-body-parts-0745",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "body_parts",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-body-parts-0745"
-  },
-  {
-   "slug": "find-objects-i-spy-breakfast-63b6",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "breakfast",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-breakfast-63b6"
-  },
-  {
-   "slug": "find-objects-i-spy-camping-bf2a",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "camping",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-camping-bf2a"
-  },
-  {
-   "slug": "find-objects-i-spy-christmas-7a10",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "christmas",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-christmas-7a10"
-  },
-  {
-   "slug": "find-objects-i-spy-classroom-344b",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "classroom",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-classroom-344b"
-  },
-  {
-   "slug": "find-objects-i-spy-clothing-eb13",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "clothing",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-clothing-eb13"
-  },
-  {
-   "slug": "find-objects-i-spy-desserts-and-sweets-95b8",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "desserts_and_sweets",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-desserts-and-sweets-95b8"
-  },
-  {
-   "slug": "find-objects-i-spy-dinosaurs-2e73",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "dinosaurs",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-dinosaurs-2e73"
-  },
-  {
-   "slug": "find-objects-i-spy-easter-d7ea",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "easter",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-easter-d7ea"
-  },
-  {
-   "slug": "find-objects-i-spy-emotions-c297",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "emotions",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-emotions-c297"
-  },
-  {
-   "slug": "find-objects-i-spy-farm-animals-8ae7",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "farm_animals",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-farm-animals-8ae7"
-  },
-  {
-   "slug": "find-objects-i-spy-flowers-a763",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "flowers",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-flowers-a763"
-  },
-  {
-   "slug": "find-objects-i-spy-forest-creatures-3075",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "forest_creatures",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-forest-creatures-3075"
-  },
-  {
-   "slug": "find-objects-i-spy-fruits-7e6d",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "fruits",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-fruits-7e6d"
-  },
-  {
-   "slug": "find-objects-i-spy-furniture-468c",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "furniture",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-furniture-468c"
-  },
-  {
-   "slug": "find-objects-i-spy-hospital-cdaf",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "hospital",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-hospital-cdaf"
-  },
-  {
-   "slug": "find-objects-i-spy-insects-and-bugs-3532",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "insects_and_bugs",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-insects-and-bugs-3532"
-  },
-  {
-   "slug": "find-objects-i-spy-kitchen-tools-2a96",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "kitchen_tools",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-kitchen-tools-2a96"
-  },
-  {
-   "slug": "find-objects-i-spy-music-dcc8",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "music",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-music-dcc8"
-  },
-  {
-   "slug": "find-objects-i-spy-occupations-cfa6",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "occupations",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-occupations-cfa6"
-  },
-  {
-   "slug": "find-objects-i-spy-ocean-life-14ea",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "ocean_life",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-ocean-life-14ea"
-  },
-  {
-   "slug": "find-objects-i-spy-pets-7161",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "pets",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-pets-7161"
-  },
-  {
-   "slug": "find-objects-i-spy-post-office-b512",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "post_office",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-post-office-b512"
-  },
-  {
-   "slug": "find-objects-i-spy-reptiles-and-amphibians-a9b9",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "reptiles_and_amphibians",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-reptiles-and-amphibians-a9b9"
-  },
-  {
-   "slug": "find-objects-i-spy-shapes-bf03",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "shapes",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-shapes-bf03"
-  },
-  {
-   "slug": "find-objects-i-spy-space-79f1",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "space",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-space-79f1"
-  },
-  {
-   "slug": "find-objects-i-spy-spring-c3b0",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "spring",
-   "level": "kindergarten",
-   "deck": "find-objects-i-spy-spring-c3b0"
-  },
-  {
-   "slug": "find-objects-i-spy-thanksgiving-b548",
-   "type": "find-objects",
-   "mode": "i-spy",
    "theme": "thanksgivinng",
    "level": "kindergarten",
-   "deck": "find-objects-i-spy-thanksgiving-b548"
+   "deck": "word-guess-easy-thanksgiving"
   },
   {
-   "slug": "find-objects-i-spy-things-that-fly-4d1c",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "word-guess-easy-things-that-fly",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "things_that_fly",
    "level": "kindergarten",
-   "deck": "find-objects-i-spy-things-that-fly-4d1c"
+   "deck": "word-guess-easy-things-that-fly"
   },
   {
-   "slug": "find-objects-i-spy-tools-b4f9",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "word-guess-easy-tools",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "tools",
    "level": "kindergarten",
-   "deck": "find-objects-i-spy-tools-b4f9"
+   "deck": "word-guess-easy-tools"
   },
   {
-   "slug": "find-objects-i-spy-toys-0b06",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "word-guess-easy-toys",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "toys",
    "level": "kindergarten",
-   "deck": "find-objects-i-spy-toys-0b06"
+   "deck": "word-guess-easy-toys"
   },
   {
-   "slug": "find-objects-i-spy-trees-7630",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "word-guess-easy-tree",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "tree",
    "level": "kindergarten",
-   "deck": "find-objects-i-spy-trees-7630"
+   "deck": "word-guess-easy-tree"
   },
   {
-   "slug": "find-objects-i-spy-vegetables-f576",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "word-guess-easy-vegetables",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "vegetables",
    "level": "kindergarten",
-   "deck": "find-objects-i-spy-vegetables-f576"
+   "deck": "word-guess-easy-vegetables"
   },
   {
-   "slug": "find-objects-i-spy-vehicles-6dca",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "word-guess-easy-vehicles-kindergarten",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "vehicles",
    "level": "kindergarten",
-   "deck": "find-objects-i-spy-vehicles-6dca"
+   "deck": "word-guess-easy-vehicles"
   },
   {
-   "slug": "find-objects-i-spy-weather-e938",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "word-guess-easy-weather",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "weather",
    "level": "kindergarten",
-   "deck": "find-objects-i-spy-weather-e938"
+   "deck": "word-guess-easy-weather"
   },
   {
-   "slug": "find-objects-i-spy-winter-fdc5",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "word-guess-easy-winter",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "winter",
    "level": "kindergarten",
-   "deck": "find-objects-i-spy-winter-fdc5"
+   "deck": "word-guess-easy-winter"
   },
   {
-   "slug": "find-objects-i-spy-zoo-animals-193a",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "word-guess-easy-zoo-animals",
+   "type": "word-guess",
+   "mode": "easy",
    "theme": "zoo_animals",
    "level": "kindergarten",
-   "deck": "find-objects-i-spy-zoo-animals-193a"
+   "deck": "word-guess-easy-zoo-animals"
+  },
+  {
+   "slug": "sudoku-medium-4th-of-july",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "4th_of_july",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-4th-of-july"
+  },
+  {
+   "slug": "sudoku-medium-accessories",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "accessories",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-accessories"
+  },
+  {
+   "slug": "sudoku-medium-activities",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "activities",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-activities"
+  },
+  {
+   "slug": "sudoku-medium-animals",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-animals"
+  },
+  {
+   "slug": "sudoku-medium-around-the-house",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "around_the_house",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-around-the-house"
+  },
+  {
+   "slug": "sudoku-medium-at-the-supermarket",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-at-the-supermarket"
+  },
+  {
+   "slug": "sudoku-medium-bakery",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "bakery",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-bakery"
+  },
+  {
+   "slug": "sudoku-medium-beach",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "beach",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-beach"
+  },
+  {
+   "slug": "sudoku-medium-birds",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "birds",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-birds"
+  },
+  {
+   "slug": "sudoku-medium-birds-2",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "birds_2",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-birds-2"
+  },
+  {
+   "slug": "sudoku-medium-body-parts",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "body_parts",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-body-parts"
+  },
+  {
+   "slug": "sudoku-medium-breakfast",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "breakfast",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-breakfast"
+  },
+  {
+   "slug": "sudoku-medium-camping",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "camping",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-camping"
+  },
+  {
+   "slug": "sudoku-medium-christmas",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "christmas",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-christmas"
+  },
+  {
+   "slug": "sudoku-medium-classroom",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "classroom",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-classroom"
+  },
+  {
+   "slug": "sudoku-medium-clothing",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "clothing",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-clothing"
+  },
+  {
+   "slug": "sudoku-medium-colors",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "colors",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-colors"
+  },
+  {
+   "slug": "sudoku-medium-desserts-and-sweets",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "desserts_and_sweets",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-desserts-and-sweets"
+  },
+  {
+   "slug": "sudoku-medium-dinosaurs",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "dinosaurs",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-dinosaurs"
+  },
+  {
+   "slug": "sudoku-medium-easter",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "easter",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-easter"
+  },
+  {
+   "slug": "sudoku-medium-emotions",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "emotions",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-emotions"
+  },
+  {
+   "slug": "sudoku-medium-farm-animals",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-farm-animals"
+  },
+  {
+   "slug": "sudoku-medium-flowers",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "flowers",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-flowers"
+  },
+  {
+   "slug": "sudoku-medium-forest-creatures",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-forest-creatures"
+  },
+  {
+   "slug": "sudoku-medium-fruits",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "fruits",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-fruits"
+  },
+  {
+   "slug": "sudoku-medium-furniture",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "furniture",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-furniture"
+  },
+  {
+   "slug": "sudoku-medium-hospital",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "hospital",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-hospital"
+  },
+  {
+   "slug": "sudoku-medium-insects-and-bugs",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "insects_and_bugs",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-insects-and-bugs"
+  },
+  {
+   "slug": "sudoku-medium-kitchen-tools",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "kitchen_tools",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-kitchen-tools"
+  },
+  {
+   "slug": "sudoku-medium-miscellaneous",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "miscellaneous",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-miscellaneous"
+  },
+  {
+   "slug": "sudoku-medium-music",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "music",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-music"
+  },
+  {
+   "slug": "sudoku-medium-occupations",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "occupations",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-occupations"
+  },
+  {
+   "slug": "sudoku-medium-ocean-life",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "ocean_life",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-ocean-life"
+  },
+  {
+   "slug": "sudoku-medium-pets",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "pets",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-pets"
+  },
+  {
+   "slug": "sudoku-medium-post-office",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "post_office",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-post-office"
+  },
+  {
+   "slug": "sudoku-medium-reptiles-and-amphibians",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "reptiles_and_amphibians",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-reptiles-and-amphibians"
+  },
+  {
+   "slug": "sudoku-medium-shapes",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "shapes",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-shapes"
+  },
+  {
+   "slug": "sudoku-medium-space",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "space",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-space"
+  },
+  {
+   "slug": "sudoku-medium-spring",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "spring",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-spring"
+  },
+  {
+   "slug": "sudoku-medium-summer",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "summer",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-summer"
+  },
+  {
+   "slug": "sudoku-medium-thanksgiving",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "thanksgivinng",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-thanksgiving"
+  },
+  {
+   "slug": "sudoku-medium-things-that-fly",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "things_that_fly",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-things-that-fly"
+  },
+  {
+   "slug": "sudoku-medium-tools",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "tools",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-tools"
+  },
+  {
+   "slug": "sudoku-medium-toys",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "toys",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-toys"
+  },
+  {
+   "slug": "sudoku-medium-tree",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "tree",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-tree"
+  },
+  {
+   "slug": "sudoku-medium-vegetables",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "vegetables",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-vegetables"
+  },
+  {
+   "slug": "sudoku-medium-vehicles",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "vehicles",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-vehicles"
+  },
+  {
+   "slug": "sudoku-medium-weather",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "weather",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-weather"
+  },
+  {
+   "slug": "sudoku-medium-winter",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "winter",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-winter"
+  },
+  {
+   "slug": "sudoku-medium-zoo-animals",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "zoo_animals",
+   "level": "kindergarten",
+   "deck": "sudoku-medium-zoo-animals"
   }
  ]
 }

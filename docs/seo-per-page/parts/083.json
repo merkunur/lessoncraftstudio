@@ -2,811 +2,803 @@
  "part": 83,
  "locale": "es",
  "classes": [
-  "addition::mixed",
-  "big-small::orderAsc"
+  "subtraction::mixed",
+  "pattern-train::abb"
  ],
  "splitOf": null,
- "count": 100,
+ "count": 99,
  "pages": [
   {
-   "slug": "suma-mixto-4-de-julio-eda1",
-   "type": "addition",
+   "slug": "resta-mixto-4-de-julio-7aac",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "4th_of_july",
    "level": "primer-grado",
-   "deck": "suma-mixto-4-de-julio-eda1"
+   "deck": "resta-mixto-4-de-julio-7aac"
   },
   {
-   "slug": "suma-mixto-accesorios-72d1",
-   "type": "addition",
+   "slug": "resta-mixto-accesorios-e60e",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "accessories",
    "level": "primer-grado",
-   "deck": "suma-mixto-accesorios-72d1"
+   "deck": "resta-mixto-accesorios-e60e"
   },
   {
-   "slug": "suma-mixto-actividades-3ad1",
-   "type": "addition",
+   "slug": "resta-mixto-actividades-980c",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "activities",
    "level": "primer-grado",
-   "deck": "suma-mixto-actividades-3ad1"
+   "deck": "resta-mixto-actividades-980c"
   },
   {
-   "slug": "suma-mixto-alrededor-de-la-casa-fa70",
-   "type": "addition",
+   "slug": "resta-mixto-alrededor-de-la-casa-b987",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "around_the_house",
    "level": "primer-grado",
-   "deck": "suma-mixto-alrededor-de-la-casa-fa70"
+   "deck": "resta-mixto-alrededor-de-la-casa-b987"
   },
   {
-   "slug": "suma-mixto-animales-834f",
-   "type": "addition",
+   "slug": "resta-mixto-animales-d918",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "animals",
    "level": "primer-grado",
-   "deck": "suma-mixto-animales-834f"
+   "deck": "resta-mixto-animales-d918"
   },
   {
-   "slug": "suma-mixto-animales-de-granja-9775",
-   "type": "addition",
+   "slug": "resta-mixto-animales-de-granja-6899",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "farm_animals",
    "level": "primer-grado",
-   "deck": "suma-mixto-animales-de-granja-9775"
+   "deck": "resta-mixto-animales-de-granja-6899"
   },
   {
-   "slug": "suma-mixto-animales-del-zoologico-d478",
-   "type": "addition",
+   "slug": "resta-mixto-animales-del-zoologico-4ce4",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "zoo_animals",
    "level": "primer-grado",
-   "deck": "suma-mixto-animales-del-zoologico-d478"
+   "deck": "resta-mixto-animales-del-zoologico-4ce4"
   },
   {
-   "slug": "suma-mixto-arboles-24b0",
-   "type": "addition",
+   "slug": "resta-mixto-arboles-edb9",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "tree",
    "level": "primer-grado",
-   "deck": "suma-mixto-arboles-24b0"
+   "deck": "resta-mixto-arboles-edb9"
   },
   {
-   "slug": "suma-mixto-aves-2-1cd8",
-   "type": "addition",
+   "slug": "resta-mixto-aves-2-b317",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "birds_2",
    "level": "primer-grado",
-   "deck": "suma-mixto-aves-2-1cd8"
+   "deck": "resta-mixto-aves-2-b317"
   },
   {
-   "slug": "suma-mixto-aves-de84",
-   "type": "addition",
+   "slug": "resta-mixto-aves-f010",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "birds",
    "level": "primer-grado",
-   "deck": "suma-mixto-aves-de84"
+   "deck": "resta-mixto-aves-f010"
   },
   {
-   "slug": "suma-mixto-campamento-fa3a",
-   "type": "addition",
+   "slug": "resta-mixto-campamento-d5a2",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "camping",
    "level": "primer-grado",
-   "deck": "suma-mixto-campamento-fa3a"
+   "deck": "resta-mixto-campamento-d5a2"
   },
   {
-   "slug": "suma-mixto-clima-5e0d",
-   "type": "addition",
+   "slug": "resta-mixto-clima-2da2",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "weather",
    "level": "primer-grado",
-   "deck": "suma-mixto-clima-5e0d"
+   "deck": "resta-mixto-clima-2da2"
   },
   {
-   "slug": "suma-mixto-colores-5407",
-   "type": "addition",
+   "slug": "resta-mixto-colores-c01b",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "colors",
    "level": "primer-grado",
-   "deck": "suma-mixto-colores-5407"
+   "deck": "resta-mixto-colores-c01b"
   },
   {
-   "slug": "suma-mixto-cosas-que-vuelan-1487",
-   "type": "addition",
+   "slug": "resta-mixto-cosas-que-vuelan-b8f4",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "things_that_fly",
    "level": "primer-grado",
-   "deck": "suma-mixto-cosas-que-vuelan-1487"
+   "deck": "resta-mixto-cosas-que-vuelan-b8f4"
   },
   {
-   "slug": "suma-mixto-criaturas-del-bosque-a039",
-   "type": "addition",
+   "slug": "resta-mixto-criaturas-del-bosque-4aee",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "forest_creatures",
    "level": "primer-grado",
-   "deck": "suma-mixto-criaturas-del-bosque-a039"
+   "deck": "resta-mixto-criaturas-del-bosque-4aee"
   },
   {
-   "slug": "suma-mixto-desayuno-ef38",
-   "type": "addition",
+   "slug": "resta-mixto-desayuno-971a",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "breakfast",
    "level": "primer-grado",
-   "deck": "suma-mixto-desayuno-ef38"
+   "deck": "resta-mixto-desayuno-971a"
   },
   {
-   "slug": "suma-mixto-dia-de-accion-de-gracias-e979",
-   "type": "addition",
+   "slug": "resta-mixto-dia-de-accion-de-gracias-ff3b",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "thanksgivinng",
    "level": "primer-grado",
-   "deck": "suma-mixto-dia-de-accion-de-gracias-e979"
+   "deck": "resta-mixto-dia-de-accion-de-gracias-ff3b"
   },
   {
-   "slug": "suma-mixto-dinosaurios-cce7",
-   "type": "addition",
+   "slug": "resta-mixto-dinosaurios-fef4",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "dinosaurs",
    "level": "primer-grado",
-   "deck": "suma-mixto-dinosaurios-cce7"
+   "deck": "resta-mixto-dinosaurios-fef4"
   },
   {
-   "slug": "suma-mixto-emociones-4d70",
-   "type": "addition",
+   "slug": "resta-mixto-emociones-a2a8",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "emotions",
    "level": "primer-grado",
-   "deck": "suma-mixto-emociones-4d70"
+   "deck": "resta-mixto-emociones-a2a8"
   },
   {
-   "slug": "suma-mixto-en-el-supermercado-87ff",
-   "type": "addition",
+   "slug": "resta-mixto-en-el-supermercado-a6a5",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "at_the_supermarket",
    "level": "primer-grado",
-   "deck": "suma-mixto-en-el-supermercado-87ff"
+   "deck": "resta-mixto-en-el-supermercado-a6a5"
   },
   {
-   "slug": "suma-mixto-espacio-b4e1",
-   "type": "addition",
+   "slug": "resta-mixto-espacio-856c",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "space",
    "level": "primer-grado",
-   "deck": "suma-mixto-espacio-b4e1"
+   "deck": "resta-mixto-espacio-856c"
   },
   {
-   "slug": "suma-mixto-flores-1c31",
-   "type": "addition",
+   "slug": "resta-mixto-flores-64e3",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "flowers",
    "level": "primer-grado",
-   "deck": "suma-mixto-flores-1c31"
+   "deck": "resta-mixto-flores-64e3"
   },
   {
-   "slug": "suma-mixto-formas-920c",
-   "type": "addition",
+   "slug": "resta-mixto-formas-ff4b",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "shapes",
    "level": "primer-grado",
-   "deck": "suma-mixto-formas-920c"
+   "deck": "resta-mixto-formas-ff4b"
   },
   {
-   "slug": "suma-mixto-frutas-055f",
-   "type": "addition",
+   "slug": "resta-mixto-frutas-7ac7",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "fruits",
    "level": "primer-grado",
-   "deck": "suma-mixto-frutas-055f"
+   "deck": "resta-mixto-frutas-7ac7"
   },
   {
-   "slug": "suma-mixto-herramientas-a45b",
-   "type": "addition",
+   "slug": "resta-mixto-herramientas-e491",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "tools",
    "level": "primer-grado",
-   "deck": "suma-mixto-herramientas-a45b"
+   "deck": "resta-mixto-herramientas-e491"
   },
   {
-   "slug": "suma-mixto-hospital-1777",
-   "type": "addition",
+   "slug": "resta-mixto-hospital-eff1",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "hospital",
    "level": "primer-grado",
-   "deck": "suma-mixto-hospital-1777"
+   "deck": "resta-mixto-hospital-eff1"
   },
   {
-   "slug": "suma-mixto-insectos-y-bichos-1a8d",
-   "type": "addition",
+   "slug": "resta-mixto-insectos-y-bichos-c70f",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "insects_and_bugs",
    "level": "primer-grado",
-   "deck": "suma-mixto-insectos-y-bichos-1a8d"
+   "deck": "resta-mixto-insectos-y-bichos-c70f"
   },
   {
-   "slug": "suma-mixto-invierno-7b0e",
-   "type": "addition",
+   "slug": "resta-mixto-invierno-80c2",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "winter",
    "level": "primer-grado",
-   "deck": "suma-mixto-invierno-7b0e"
+   "deck": "resta-mixto-invierno-80c2"
   },
   {
-   "slug": "suma-mixto-juguetes-c8f4",
-   "type": "addition",
+   "slug": "resta-mixto-juguetes-6888",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "toys",
    "level": "primer-grado",
-   "deck": "suma-mixto-juguetes-c8f4"
+   "deck": "resta-mixto-juguetes-6888"
   },
   {
-   "slug": "suma-mixto-mascotas-f374",
-   "type": "addition",
+   "slug": "resta-mixto-mascotas-8b22",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "pets",
    "level": "primer-grado",
-   "deck": "suma-mixto-mascotas-f374"
+   "deck": "resta-mixto-mascotas-8b22"
   },
   {
-   "slug": "suma-mixto-miscelaneo-ebe9",
-   "type": "addition",
+   "slug": "resta-mixto-miscelaneo-6523",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "miscellaneous",
    "level": "primer-grado",
-   "deck": "suma-mixto-miscelaneo-ebe9"
+   "deck": "resta-mixto-miscelaneo-6523"
   },
   {
-   "slug": "suma-mixto-muebles-ed4f",
-   "type": "addition",
+   "slug": "resta-mixto-muebles-91d1",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "furniture",
    "level": "primer-grado",
-   "deck": "suma-mixto-muebles-ed4f"
+   "deck": "resta-mixto-muebles-91d1"
   },
   {
-   "slug": "suma-mixto-musica-e08d",
-   "type": "addition",
+   "slug": "resta-mixto-musica-6279",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "music",
    "level": "primer-grado",
-   "deck": "suma-mixto-musica-e08d"
+   "deck": "resta-mixto-musica-6279"
   },
   {
-   "slug": "suma-mixto-navidad-043b",
-   "type": "addition",
+   "slug": "resta-mixto-navidad-bdf1",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "christmas",
    "level": "primer-grado",
-   "deck": "suma-mixto-navidad-043b"
+   "deck": "resta-mixto-navidad-bdf1"
   },
   {
-   "slug": "suma-mixto-ocupaciones-6948",
-   "type": "addition",
+   "slug": "resta-mixto-ocupaciones-c63c",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "occupations",
    "level": "primer-grado",
-   "deck": "suma-mixto-ocupaciones-6948"
+   "deck": "resta-mixto-ocupaciones-c63c"
   },
   {
-   "slug": "suma-mixto-oficina-de-correos-8289",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "post_office",
-   "level": "primer-grado",
-   "deck": "suma-mixto-oficina-de-correos-8289"
-  },
-  {
-   "slug": "suma-mixto-panaderia-fc70",
-   "type": "addition",
+   "slug": "resta-mixto-panaderia-f206",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "bakery",
    "level": "primer-grado",
-   "deck": "suma-mixto-panaderia-fc70"
+   "deck": "resta-mixto-panaderia-f206"
   },
   {
-   "slug": "suma-mixto-partes-del-cuerpo-a849",
-   "type": "addition",
+   "slug": "resta-mixto-partes-del-cuerpo-0c18",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "body_parts",
    "level": "primer-grado",
-   "deck": "suma-mixto-partes-del-cuerpo-a849"
+   "deck": "resta-mixto-partes-del-cuerpo-0c18"
   },
   {
-   "slug": "suma-mixto-pascua-05ed",
-   "type": "addition",
+   "slug": "resta-mixto-pascua-974a",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "easter",
    "level": "primer-grado",
-   "deck": "suma-mixto-pascua-05ed"
+   "deck": "resta-mixto-pascua-974a"
   },
   {
-   "slug": "suma-mixto-playa-8fd5",
-   "type": "addition",
+   "slug": "resta-mixto-playa-0bfd",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "beach",
    "level": "primer-grado",
-   "deck": "suma-mixto-playa-8fd5"
+   "deck": "resta-mixto-playa-0bfd"
   },
   {
-   "slug": "suma-mixto-postres-y-dulces-5b4d",
-   "type": "addition",
+   "slug": "resta-mixto-postres-y-dulces-8952",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "desserts_and_sweets",
    "level": "primer-grado",
-   "deck": "suma-mixto-postres-y-dulces-5b4d"
+   "deck": "resta-mixto-postres-y-dulces-8952"
   },
   {
-   "slug": "suma-mixto-primavera-bb7b",
-   "type": "addition",
+   "slug": "resta-mixto-primavera-1d35",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "spring",
    "level": "primer-grado",
-   "deck": "suma-mixto-primavera-bb7b"
+   "deck": "resta-mixto-primavera-1d35"
   },
   {
-   "slug": "suma-mixto-reptiles-y-anfibios-4398",
-   "type": "addition",
+   "slug": "resta-mixto-reptiles-y-anfibios-36cc",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "reptiles_and_amphibians",
    "level": "primer-grado",
-   "deck": "suma-mixto-reptiles-y-anfibios-4398"
+   "deck": "resta-mixto-reptiles-y-anfibios-36cc"
   },
   {
-   "slug": "suma-mixto-ropa-99c6",
-   "type": "addition",
+   "slug": "resta-mixto-ropa-9a09",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "clothing",
    "level": "primer-grado",
-   "deck": "suma-mixto-ropa-99c6"
+   "deck": "resta-mixto-ropa-9a09"
   },
   {
-   "slug": "suma-mixto-salon-de-clases-4028",
-   "type": "addition",
+   "slug": "resta-mixto-salon-de-clases-2869",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "classroom",
    "level": "primer-grado",
-   "deck": "suma-mixto-salon-de-clases-4028"
+   "deck": "resta-mixto-salon-de-clases-2869"
   },
   {
-   "slug": "suma-mixto-utensilios-de-cocina-e84a",
-   "type": "addition",
+   "slug": "resta-mixto-utensilios-de-cocina-77a6",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "kitchen_tools",
    "level": "primer-grado",
-   "deck": "suma-mixto-utensilios-de-cocina-e84a"
+   "deck": "resta-mixto-utensilios-de-cocina-77a6"
   },
   {
-   "slug": "suma-mixto-vehiculos-e4ba",
-   "type": "addition",
+   "slug": "resta-mixto-vehiculos-4173",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "vehicles",
    "level": "primer-grado",
-   "deck": "suma-mixto-vehiculos-e4ba"
+   "deck": "resta-mixto-vehiculos-4173"
   },
   {
-   "slug": "suma-mixto-verano-9969",
-   "type": "addition",
+   "slug": "resta-mixto-verano-c837",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "summer",
    "level": "primer-grado",
-   "deck": "suma-mixto-verano-9969"
+   "deck": "resta-mixto-verano-c837"
   },
   {
-   "slug": "suma-mixto-verduras-c7b1",
-   "type": "addition",
+   "slug": "resta-mixto-verduras-0baf",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "vegetables",
    "level": "primer-grado",
-   "deck": "suma-mixto-verduras-c7b1"
+   "deck": "resta-mixto-verduras-0baf"
   },
   {
-   "slug": "suma-mixto-vida-marina-73b1",
-   "type": "addition",
+   "slug": "resta-mixto-vida-marina-1507",
+   "type": "subtraction",
    "mode": "mixed",
    "theme": "ocean_life",
    "level": "primer-grado",
-   "deck": "suma-mixto-vida-marina-73b1"
+   "deck": "resta-mixto-vida-marina-1507"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-4-de-julio-c3ea",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-4-de-julio-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "4th_of_july",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-4-de-julio-c3ea"
+   "deck": "tren-de-patrones-abb-4-de-julio-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-accesorios-6a68",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-accesorios-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "accessories",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-accesorios-6a68"
+   "deck": "tren-de-patrones-abb-accesorios-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-actividades-6435",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-actividades-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "activities",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-actividades-6435"
+   "deck": "tren-de-patrones-abb-actividades-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-alrededor-de-la-casa-da60",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-alrededor-de-la-casa-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "around_the_house",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-alrededor-de-la-casa-da60"
+   "deck": "tren-de-patrones-abb-alrededor-de-la-casa-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-animales-d93a",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "animals",
-   "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-animales-d93a"
-  },
-  {
-   "slug": "grande-pequeno-orden-ascendente-animales-de-granja-ca7f",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-animales-de-granja-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "farm_animals",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-animales-de-granja-ca7f"
+   "deck": "tren-de-patrones-abb-animales-de-granja-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-animales-del-zoologico-0801",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-animales-del-zoologico-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "zoo_animals",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-animales-del-zoologico-0801"
+   "deck": "tren-de-patrones-abb-animales-del-zoologico-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-arboles-a13c",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-animales-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "animals",
+   "level": "preescolar",
+   "deck": "tren-de-patrones-abb-animales-fe63"
+  },
+  {
+   "slug": "tren-de-patrones-abb-arboles-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "tree",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-arboles-a13c"
+   "deck": "tren-de-patrones-abb-arboles-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-aves-2-7c76",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-aves-2-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "birds_2",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-aves-2-7c76"
+   "deck": "tren-de-patrones-abb-aves-2-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-aves-8bf9",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-aves-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "birds",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-aves-8bf9"
+   "deck": "tren-de-patrones-abb-aves-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-campamento-18d3",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-campamento-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "camping",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-campamento-18d3"
+   "deck": "tren-de-patrones-abb-campamento-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-clima-4691",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-clima-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "weather",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-clima-4691"
+   "deck": "tren-de-patrones-abb-clima-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-colores-8167",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-colores-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "colors",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-colores-8167"
+   "deck": "tren-de-patrones-abb-colores-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-cosas-que-vuelan-4a28",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-cosas-que-vuelan-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "things_that_fly",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-cosas-que-vuelan-4a28"
+   "deck": "tren-de-patrones-abb-cosas-que-vuelan-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-criaturas-del-bosque-1099",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-criaturas-del-bosque-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "forest_creatures",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-criaturas-del-bosque-1099"
+   "deck": "tren-de-patrones-abb-criaturas-del-bosque-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-desayuno-7816",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-desayuno-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "breakfast",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-desayuno-7816"
+   "deck": "tren-de-patrones-abb-desayuno-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-dia-de-accion-de-gracias-5540",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-dia-de-accion-de-gracias-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "thanksgivinng",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-dia-de-accion-de-gracias-5540"
+   "deck": "tren-de-patrones-abb-dia-de-accion-de-gracias-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-dinosaurios-44ba",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-dinosaurios-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "dinosaurs",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-dinosaurios-44ba"
+   "deck": "tren-de-patrones-abb-dinosaurios-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-emociones-23aa",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-emociones-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "emotions",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-emociones-23aa"
+   "deck": "tren-de-patrones-abb-emociones-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-en-el-supermercado-8881",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-en-el-supermercado-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "at_the_supermarket",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-en-el-supermercado-8881"
+   "deck": "tren-de-patrones-abb-en-el-supermercado-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-espacio-e05e",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-espacio-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "space",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-espacio-e05e"
+   "deck": "tren-de-patrones-abb-espacio-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-flores-e302",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-flores-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "flowers",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-flores-e302"
+   "deck": "tren-de-patrones-abb-flores-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-formas-4557",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-formas-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "shapes",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-formas-4557"
+   "deck": "tren-de-patrones-abb-formas-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-frutas-85e8",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-frutas-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "fruits",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-frutas-85e8"
+   "deck": "tren-de-patrones-abb-frutas-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-herramientas-b1b1",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-herramientas-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "tools",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-herramientas-b1b1"
+   "deck": "tren-de-patrones-abb-herramientas-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-hospital-a444",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-hospital-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "hospital",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-hospital-a444"
+   "deck": "tren-de-patrones-abb-hospital-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-insectos-y-bichos-ad1d",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-insectos-y-bichos-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "insects_and_bugs",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-insectos-y-bichos-ad1d"
+   "deck": "tren-de-patrones-abb-insectos-y-bichos-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-invierno-20dd",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-invierno-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "winter",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-invierno-20dd"
+   "deck": "tren-de-patrones-abb-invierno-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-juguetes-430a",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-juguetes-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "toys",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-juguetes-430a"
+   "deck": "tren-de-patrones-abb-juguetes-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-mascotas-73bd",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-mascotas-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "pets",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-mascotas-73bd"
+   "deck": "tren-de-patrones-abb-mascotas-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-miscelaneo-2b05",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-miscelaneo-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "miscellaneous",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-miscelaneo-2b05"
+   "deck": "tren-de-patrones-abb-miscelaneo-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-muebles-a6e9",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-muebles-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "furniture",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-muebles-a6e9"
+   "deck": "tren-de-patrones-abb-muebles-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-musica-ebcf",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-musica-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "music",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-musica-ebcf"
+   "deck": "tren-de-patrones-abb-musica-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-navidad-4bc4",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-navidad-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "christmas",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-navidad-4bc4"
+   "deck": "tren-de-patrones-abb-navidad-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-ocupaciones-d01c",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-ocupaciones-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "occupations",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-ocupaciones-d01c"
+   "deck": "tren-de-patrones-abb-ocupaciones-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-oficina-de-correos-6370",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-oficina-de-correos-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "post_office",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-oficina-de-correos-6370"
+   "deck": "tren-de-patrones-abb-oficina-de-correos-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-panaderia-3329",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-panaderia-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "bakery",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-panaderia-3329"
+   "deck": "tren-de-patrones-abb-panaderia-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-partes-del-cuerpo-2e9c",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-partes-del-cuerpo-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "body_parts",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-partes-del-cuerpo-2e9c"
+   "deck": "tren-de-patrones-abb-partes-del-cuerpo-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-pascua-c4f9",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-pascua-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "easter",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-pascua-c4f9"
+   "deck": "tren-de-patrones-abb-pascua-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-playa-3b7f",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-playa-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "beach",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-playa-3b7f"
+   "deck": "tren-de-patrones-abb-playa-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-postres-y-dulces-0efa",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-postres-y-dulces-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "desserts_and_sweets",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-postres-y-dulces-0efa"
+   "deck": "tren-de-patrones-abb-postres-y-dulces-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-primavera-55ab",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-primavera-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "spring",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-primavera-55ab"
+   "deck": "tren-de-patrones-abb-primavera-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-reptiles-y-anfibios-3db8",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-reptiles-y-anfibios-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "reptiles_and_amphibians",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-reptiles-y-anfibios-3db8"
+   "deck": "tren-de-patrones-abb-reptiles-y-anfibios-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-ropa-2062",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-ropa-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "clothing",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-ropa-2062"
+   "deck": "tren-de-patrones-abb-ropa-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-salon-de-clases-59e3",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-salon-de-clases-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "classroom",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-salon-de-clases-59e3"
+   "deck": "tren-de-patrones-abb-salon-de-clases-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-utensilios-de-cocina-1878",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-utensilios-de-cocina-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "kitchen_tools",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-utensilios-de-cocina-1878"
+   "deck": "tren-de-patrones-abb-utensilios-de-cocina-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-vehiculos-1a76",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-vehiculos-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "vehicles",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-vehiculos-1a76"
+   "deck": "tren-de-patrones-abb-vehiculos-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-verano-3e08",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-verano-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "summer",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-verano-3e08"
+   "deck": "tren-de-patrones-abb-verano-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-verduras-153f",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-verduras-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "vegetables",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-verduras-153f"
+   "deck": "tren-de-patrones-abb-verduras-fe63"
   },
   {
-   "slug": "grande-pequeno-orden-ascendente-vida-marina-b6b0",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "tren-de-patrones-abb-vida-marina-fe63",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "ocean_life",
    "level": "preescolar",
-   "deck": "grande-pequeno-orden-ascendente-vida-marina-b6b0"
+   "deck": "tren-de-patrones-abb-vida-marina-fe63"
   }
  ]
 }

@@ -2,763 +2,779 @@
  "part": 58,
  "locale": "de",
  "classes": [
-  "shadow-match::make-whole",
-  "sudoku::easy"
+  "pattern-train::abc",
+  "pattern-train::null"
  ],
  "splitOf": null,
- "count": 94,
+ "count": 96,
  "pages": [
   {
-   "slug": "schatten-zuordnen-ganz-machen-accessoires-4437",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "muster-zug-abc-accessoires-6c94",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "accessories",
    "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-accessoires-4437"
+   "deck": "muster-zug-abc-accessoires-6c94"
   },
   {
-   "slug": "schatten-zuordnen-ganz-machen-aktivitaten-9110",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "muster-zug-abc-aktivitaten-92c3",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "activities",
    "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-aktivitaten-9110"
+   "deck": "muster-zug-abc-aktivitaten-92c3"
   },
   {
-   "slug": "schatten-zuordnen-ganz-machen-backerei-49d2",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "muster-zug-abc-backerei-5daf",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "bakery",
    "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-backerei-49d2"
+   "deck": "muster-zug-abc-backerei-5daf"
   },
   {
-   "slug": "schatten-zuordnen-ganz-machen-bauernhoftiere-8577",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "muster-zug-abc-bauernhoftiere-bf6d",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "farm_animals",
    "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-bauernhoftiere-8577"
+   "deck": "muster-zug-abc-bauernhoftiere-bf6d"
   },
   {
-   "slug": "schatten-zuordnen-ganz-machen-baume-7106",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "muster-zug-abc-baume-0b72",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "tree",
    "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-baume-7106"
+   "deck": "muster-zug-abc-baume-0b72"
   },
   {
-   "slug": "schatten-zuordnen-ganz-machen-berufe-c0ba",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "muster-zug-abc-berufe-3852",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "occupations",
    "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-berufe-c0ba"
+   "deck": "muster-zug-abc-berufe-3852"
   },
   {
-   "slug": "schatten-zuordnen-ganz-machen-blumen-7585",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "muster-zug-abc-blumen-ed7c",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "flowers",
    "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-blumen-7585"
+   "deck": "muster-zug-abc-blumen-ed7c"
   },
   {
-   "slug": "schatten-zuordnen-ganz-machen-camping-7628",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "muster-zug-abc-camping-e12d",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "camping",
    "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-camping-7628"
+   "deck": "muster-zug-abc-camping-e12d"
   },
   {
-   "slug": "schatten-zuordnen-ganz-machen-desserts-und-sussigkeiten-2e99",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "muster-zug-abc-desserts-und-sussigkeiten-9500",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "desserts_and_sweets",
    "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-desserts-und-sussigkeiten-2e99"
+   "deck": "muster-zug-abc-desserts-und-sussigkeiten-9500"
   },
   {
-   "slug": "schatten-zuordnen-ganz-machen-dinge-die-fliegen-73a9",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "muster-zug-abc-dinge-die-fliegen-9091",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "things_that_fly",
    "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-dinge-die-fliegen-73a9"
+   "deck": "muster-zug-abc-dinge-die-fliegen-9091"
   },
   {
-   "slug": "schatten-zuordnen-ganz-machen-dinosaurier-b787",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "muster-zug-abc-dinosaurier-d526",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "dinosaurs",
    "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-dinosaurier-b787"
+   "deck": "muster-zug-abc-dinosaurier-d526"
   },
   {
-   "slug": "schatten-zuordnen-ganz-machen-emotionen-a018",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "muster-zug-abc-emotionen-133a",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "emotions",
    "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-emotionen-a018"
+   "deck": "muster-zug-abc-emotionen-133a"
   },
   {
-   "slug": "schatten-zuordnen-ganz-machen-erntedankfest-3f1a",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "muster-zug-abc-erntedankfest-1536",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "thanksgivinng",
    "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-erntedankfest-3f1a"
+   "deck": "muster-zug-abc-erntedankfest-1536"
   },
   {
-   "slug": "schatten-zuordnen-ganz-machen-fahrzeuge-c26b",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "muster-zug-abc-fahrzeuge-b208",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "vehicles",
    "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-fahrzeuge-c26b"
+   "deck": "muster-zug-abc-fahrzeuge-b208"
   },
   {
-   "slug": "schatten-zuordnen-ganz-machen-formen-7455",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "shapes",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-formen-7455"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-fruchte-396e",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "fruits",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-fruchte-396e"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-fruhling-6eb5",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "spring",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-fruhling-6eb5"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-fruhstuck-123b",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "breakfast",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-fruhstuck-123b"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-gemuse-2fae",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "vegetables",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-gemuse-2fae"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-haustiere-c811",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "pets",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-haustiere-c811"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-im-supermarkt-4a93",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "at_the_supermarket",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-im-supermarkt-4a93"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-insekten-und-kafer-15e0",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "insects_and_bugs",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-insekten-und-kafer-15e0"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-klassenzimmer-d725",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "classroom",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-klassenzimmer-d725"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-kleidung-7497",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "clothing",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-kleidung-7497"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-korperteile-ca69",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "body_parts",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-korperteile-ca69"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-krankenhaus-66f0",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "hospital",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-krankenhaus-66f0"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-kuchenwerkzeuge-bfcb",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "kitchen_tools",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-kuchenwerkzeuge-bfcb"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-meeresleben-7a02",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "ocean_life",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-meeresleben-7a02"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-mobel-9e43",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "furniture",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-mobel-9e43"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-musik-b6a3",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "music",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-musik-b6a3"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-ostern-84db",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "easter",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-ostern-84db"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-postamt-fda8",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "post_office",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-postamt-fda8"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-reptilien-und-amphibien-5890",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "reptiles_and_amphibians",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-reptilien-und-amphibien-5890"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-rund-ums-haus-0b22",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "around_the_house",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-rund-ums-haus-0b22"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-sommer-d2b8",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "summer",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-sommer-d2b8"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-spielzeug-99f4",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "toys",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-spielzeug-99f4"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-strand-cf45",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "beach",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-strand-cf45"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-tiere-77a3",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "animals",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-tiere-77a3"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-vogel-2-96c0",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "birds_2",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-vogel-2-96c0"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-vogel-3818",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "birds",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-vogel-3818"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-waldtiere-c415",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "forest_creatures",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-waldtiere-c415"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-weihnachten-f1b3",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "christmas",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-weihnachten-f1b3"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-weltraum-5a2f",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "space",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-weltraum-5a2f"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-werkzeuge-4a71",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "tools",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-werkzeuge-4a71"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-wetter-bafb",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "weather",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-wetter-bafb"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-winter-e25a",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "winter",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-winter-e25a"
-  },
-  {
-   "slug": "schatten-zuordnen-ganz-machen-zootiere-5fa6",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "zoo_animals",
-   "level": "vorschule",
-   "deck": "schatten-zuordnen-ganz-machen-zootiere-5fa6"
-  },
-  {
-   "slug": "bilder-sudoku-leicht-accessoires-94dd",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "accessories",
-   "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-accessoires-94dd"
-  },
-  {
-   "slug": "bilder-sudoku-leicht-aktivitaten-0eeb",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "activities",
-   "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-aktivitaten-0eeb"
-  },
-  {
-   "slug": "bilder-sudoku-leicht-backerei-951b",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "bakery",
-   "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-backerei-951b"
-  },
-  {
-   "slug": "bilder-sudoku-leicht-bauernhoftiere-134a",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "farm_animals",
-   "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-bauernhoftiere-134a"
-  },
-  {
-   "slug": "bilder-sudoku-leicht-baume-5889",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "tree",
-   "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-baume-5889"
-  },
-  {
-   "slug": "bilder-sudoku-leicht-berufe-b0bf",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "occupations",
-   "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-berufe-b0bf"
-  },
-  {
-   "slug": "bilder-sudoku-leicht-blumen-fdda",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "flowers",
-   "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-blumen-fdda"
-  },
-  {
-   "slug": "bilder-sudoku-leicht-camping-f083",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "camping",
-   "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-camping-f083"
-  },
-  {
-   "slug": "bilder-sudoku-leicht-desserts-und-sussigkeiten-f762",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "desserts_and_sweets",
-   "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-desserts-und-sussigkeiten-f762"
-  },
-  {
-   "slug": "bilder-sudoku-leicht-dinge-die-fliegen-d1a7",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "things_that_fly",
-   "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-dinge-die-fliegen-d1a7"
-  },
-  {
-   "slug": "bilder-sudoku-leicht-dinosaurier-4eb9",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "dinosaurs",
-   "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-dinosaurier-4eb9"
-  },
-  {
-   "slug": "bilder-sudoku-leicht-emotionen-2e9e",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "emotions",
-   "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-emotionen-2e9e"
-  },
-  {
-   "slug": "bilder-sudoku-leicht-erntedankfest-7c84",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "thanksgivinng",
-   "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-erntedankfest-7c84"
-  },
-  {
-   "slug": "bilder-sudoku-leicht-fahrzeuge-03d6",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "vehicles",
-   "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-fahrzeuge-03d6"
-  },
-  {
-   "slug": "bilder-sudoku-leicht-farben-85c8",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-farben-e656",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "colors",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-farben-85c8"
+   "deck": "muster-zug-abc-farben-e656"
   },
   {
-   "slug": "bilder-sudoku-leicht-formen-4957",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-formen-82f6",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "shapes",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-formen-4957"
+   "deck": "muster-zug-abc-formen-82f6"
   },
   {
-   "slug": "bilder-sudoku-leicht-fruchte-fbad",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-fruchte-ff90",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "fruits",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-fruchte-fbad"
+   "deck": "muster-zug-abc-fruchte-ff90"
   },
   {
-   "slug": "bilder-sudoku-leicht-fruhling-a50e",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-fruhling-8072",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "spring",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-fruhling-a50e"
+   "deck": "muster-zug-abc-fruhling-8072"
   },
   {
-   "slug": "bilder-sudoku-leicht-fruhstuck-6f7b",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-fruhstuck-5e90",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "breakfast",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-fruhstuck-6f7b"
+   "deck": "muster-zug-abc-fruhstuck-5e90"
   },
   {
-   "slug": "bilder-sudoku-leicht-gemuse-cae6",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-gemuse-05ab",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "vegetables",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-gemuse-cae6"
+   "deck": "muster-zug-abc-gemuse-05ab"
   },
   {
-   "slug": "bilder-sudoku-leicht-haustiere-dde1",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-haustiere-cbfb",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "pets",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-haustiere-dde1"
+   "deck": "muster-zug-abc-haustiere-cbfb"
   },
   {
-   "slug": "bilder-sudoku-leicht-im-supermarkt-22e5",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-im-supermarkt-2f1e",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "at_the_supermarket",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-im-supermarkt-22e5"
+   "deck": "muster-zug-abc-im-supermarkt-2f1e"
   },
   {
-   "slug": "bilder-sudoku-leicht-insekten-und-kafer-dd59",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-insekten-und-kafer-d8bd",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "insects_and_bugs",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-insekten-und-kafer-dd59"
+   "deck": "muster-zug-abc-insekten-und-kafer-d8bd"
   },
   {
-   "slug": "bilder-sudoku-leicht-klassenzimmer-6b64",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-klassenzimmer-dd78",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "classroom",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-klassenzimmer-6b64"
+   "deck": "muster-zug-abc-klassenzimmer-dd78"
   },
   {
-   "slug": "bilder-sudoku-leicht-kleidung-980a",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-kleidung-c49b",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "clothing",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-kleidung-980a"
+   "deck": "muster-zug-abc-kleidung-c49b"
   },
   {
-   "slug": "bilder-sudoku-leicht-korperteile-4c53",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-korperteile-bf2d",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "body_parts",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-korperteile-4c53"
+   "deck": "muster-zug-abc-korperteile-bf2d"
   },
   {
-   "slug": "bilder-sudoku-leicht-krankenhaus-802e",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-krankenhaus-5c97",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "hospital",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-krankenhaus-802e"
+   "deck": "muster-zug-abc-krankenhaus-5c97"
   },
   {
-   "slug": "bilder-sudoku-leicht-kuchenwerkzeuge-74d1",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-kuchenwerkzeuge-059d",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "kitchen_tools",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-kuchenwerkzeuge-74d1"
+   "deck": "muster-zug-abc-kuchenwerkzeuge-059d"
   },
   {
-   "slug": "bilder-sudoku-leicht-meeresleben-a9a9",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-meeresleben-a564",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "ocean_life",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-meeresleben-a9a9"
+   "deck": "muster-zug-abc-meeresleben-a564"
   },
   {
-   "slug": "bilder-sudoku-leicht-mobel-6681",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-mobel-ce05",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "furniture",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-mobel-6681"
+   "deck": "muster-zug-abc-mobel-ce05"
   },
   {
-   "slug": "bilder-sudoku-leicht-musik-31f2",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-musik-08c7",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "music",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-musik-31f2"
+   "deck": "muster-zug-abc-musik-08c7"
   },
   {
-   "slug": "bilder-sudoku-leicht-ostern-f87b",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-ostern-535e",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "easter",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-ostern-f87b"
+   "deck": "muster-zug-abc-ostern-535e"
   },
   {
-   "slug": "bilder-sudoku-leicht-postamt-a5fc",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-postamt-c2c7",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "post_office",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-postamt-a5fc"
+   "deck": "muster-zug-abc-postamt-c2c7"
   },
   {
-   "slug": "bilder-sudoku-leicht-rund-ums-haus-c393",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-reptilien-und-amphibien-f970",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "reptiles_and_amphibians",
+   "level": "vorschule",
+   "deck": "muster-zug-abc-reptilien-und-amphibien-f970"
+  },
+  {
+   "slug": "muster-zug-abc-rund-ums-haus-be62",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "around_the_house",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-rund-ums-haus-c393"
+   "deck": "muster-zug-abc-rund-ums-haus-be62"
   },
   {
-   "slug": "bilder-sudoku-leicht-sommer-dc2f",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-sommer-d44f",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "summer",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-sommer-dc2f"
+   "deck": "muster-zug-abc-sommer-d44f"
   },
   {
-   "slug": "bilder-sudoku-leicht-spielzeug-1ae2",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-spielzeug-7c18",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "toys",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-spielzeug-1ae2"
+   "deck": "muster-zug-abc-spielzeug-7c18"
   },
   {
-   "slug": "bilder-sudoku-leicht-strand-a288",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-strand-4d70",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "beach",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-strand-a288"
+   "deck": "muster-zug-abc-strand-4d70"
   },
   {
-   "slug": "bilder-sudoku-leicht-tiere-16ae",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-tiere-d93d",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "animals",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-tiere-16ae"
+   "deck": "muster-zug-abc-tiere-d93d"
   },
   {
-   "slug": "bilder-sudoku-leicht-vogel-2-fcd6",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-vogel-2-f9c8",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "birds_2",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-vogel-2-fcd6"
+   "deck": "muster-zug-abc-vogel-2-f9c8"
   },
   {
-   "slug": "bilder-sudoku-leicht-vogel-5aff",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-vogel-7ea2",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "birds",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-vogel-5aff"
+   "deck": "muster-zug-abc-vogel-7ea2"
   },
   {
-   "slug": "bilder-sudoku-leicht-waldtiere-bc39",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-waldtiere-fa9b",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "forest_creatures",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-waldtiere-bc39"
+   "deck": "muster-zug-abc-waldtiere-fa9b"
   },
   {
-   "slug": "bilder-sudoku-leicht-weihnachten-8463",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-weihnachten-ce5f",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "christmas",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-weihnachten-8463"
+   "deck": "muster-zug-abc-weihnachten-ce5f"
   },
   {
-   "slug": "bilder-sudoku-leicht-weltraum-bc9f",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-weltraum-c9fe",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "space",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-weltraum-bc9f"
+   "deck": "muster-zug-abc-weltraum-c9fe"
   },
   {
-   "slug": "bilder-sudoku-leicht-werkzeuge-b46b",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-werkzeuge-ab4b",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "tools",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-werkzeuge-b46b"
+   "deck": "muster-zug-abc-werkzeuge-ab4b"
   },
   {
-   "slug": "bilder-sudoku-leicht-wetter-f192",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-wetter-a922",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "weather",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-wetter-f192"
+   "deck": "muster-zug-abc-wetter-a922"
   },
   {
-   "slug": "bilder-sudoku-leicht-winter-d176",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-winter-e30e",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "winter",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-winter-d176"
+   "deck": "muster-zug-abc-winter-e30e"
   },
   {
-   "slug": "bilder-sudoku-leicht-zootiere-b423",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "muster-zug-abc-zootiere-e752",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "zoo_animals",
    "level": "vorschule",
-   "deck": "bilder-sudoku-leicht-zootiere-b423"
+   "deck": "muster-zug-abc-zootiere-e752"
+  },
+  {
+   "slug": "muster-zug-accessoires-43c3",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "accessories",
+   "level": "vorschule",
+   "deck": "muster-zug-accessoires-43c3"
+  },
+  {
+   "slug": "muster-zug-aktivitaten-5a69",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "activities",
+   "level": "vorschule",
+   "deck": "muster-zug-aktivitaten-5a69"
+  },
+  {
+   "slug": "muster-zug-backerei-f835",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "bakery",
+   "level": "vorschule",
+   "deck": "muster-zug-backerei-f835"
+  },
+  {
+   "slug": "muster-zug-bauernhoftiere-79d5",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "vorschule",
+   "deck": "muster-zug-bauernhoftiere-79d5"
+  },
+  {
+   "slug": "muster-zug-baume-05b6",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "tree",
+   "level": "vorschule",
+   "deck": "muster-zug-baume-05b6"
+  },
+  {
+   "slug": "muster-zug-berufe-d015",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "occupations",
+   "level": "vorschule",
+   "deck": "muster-zug-berufe-d015"
+  },
+  {
+   "slug": "muster-zug-blumen-0d34",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "flowers",
+   "level": "vorschule",
+   "deck": "muster-zug-blumen-0d34"
+  },
+  {
+   "slug": "muster-zug-camping-8a3d",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "camping",
+   "level": "vorschule",
+   "deck": "muster-zug-camping-8a3d"
+  },
+  {
+   "slug": "muster-zug-desserts-und-sussigkeiten-a902",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "vorschule",
+   "deck": "muster-zug-desserts-und-sussigkeiten-a902"
+  },
+  {
+   "slug": "muster-zug-dinge-die-fliegen-3671",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "vorschule",
+   "deck": "muster-zug-dinge-die-fliegen-3671"
+  },
+  {
+   "slug": "muster-zug-dinosaurier-d6e5",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "vorschule",
+   "deck": "muster-zug-dinosaurier-d6e5"
+  },
+  {
+   "slug": "muster-zug-emotionen-91c6",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "emotions",
+   "level": "vorschule",
+   "deck": "muster-zug-emotionen-91c6"
+  },
+  {
+   "slug": "muster-zug-erntedankfest-5832",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "vorschule",
+   "deck": "muster-zug-erntedankfest-5832"
+  },
+  {
+   "slug": "muster-zug-fahrzeuge-712f",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "vorschule",
+   "deck": "muster-zug-fahrzeuge-712f"
+  },
+  {
+   "slug": "muster-zug-farben-e331",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "colors",
+   "level": "vorschule",
+   "deck": "muster-zug-farben-e331"
+  },
+  {
+   "slug": "muster-zug-formen-c3d6",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "shapes",
+   "level": "vorschule",
+   "deck": "muster-zug-formen-c3d6"
+  },
+  {
+   "slug": "muster-zug-fruchte-916e",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "fruits",
+   "level": "vorschule",
+   "deck": "muster-zug-fruchte-916e"
+  },
+  {
+   "slug": "muster-zug-fruhling-e819",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "spring",
+   "level": "vorschule",
+   "deck": "muster-zug-fruhling-e819"
+  },
+  {
+   "slug": "muster-zug-fruhstuck-d85d",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "vorschule",
+   "deck": "muster-zug-fruhstuck-d85d"
+  },
+  {
+   "slug": "muster-zug-gemuse-155b",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "vorschule",
+   "deck": "muster-zug-gemuse-155b"
+  },
+  {
+   "slug": "muster-zug-haustiere-8f27",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "pets",
+   "level": "vorschule",
+   "deck": "muster-zug-haustiere-8f27"
+  },
+  {
+   "slug": "muster-zug-im-supermarkt-3287",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "vorschule",
+   "deck": "muster-zug-im-supermarkt-3287"
+  },
+  {
+   "slug": "muster-zug-insekten-und-kafer-4540",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "vorschule",
+   "deck": "muster-zug-insekten-und-kafer-4540"
+  },
+  {
+   "slug": "muster-zug-klassenzimmer-50a2",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "classroom",
+   "level": "vorschule",
+   "deck": "muster-zug-klassenzimmer-50a2"
+  },
+  {
+   "slug": "muster-zug-kleidung-b746",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "clothing",
+   "level": "vorschule",
+   "deck": "muster-zug-kleidung-b746"
+  },
+  {
+   "slug": "muster-zug-korperteile-77cf",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "vorschule",
+   "deck": "muster-zug-korperteile-77cf"
+  },
+  {
+   "slug": "muster-zug-krankenhaus-97a4",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "hospital",
+   "level": "vorschule",
+   "deck": "muster-zug-krankenhaus-97a4"
+  },
+  {
+   "slug": "muster-zug-kuchenwerkzeuge-095b",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "vorschule",
+   "deck": "muster-zug-kuchenwerkzeuge-095b"
+  },
+  {
+   "slug": "muster-zug-meeresleben-f64b",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "vorschule",
+   "deck": "muster-zug-meeresleben-f64b"
+  },
+  {
+   "slug": "muster-zug-mobel-4e82",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "furniture",
+   "level": "vorschule",
+   "deck": "muster-zug-mobel-4e82"
+  },
+  {
+   "slug": "muster-zug-musik-40bb",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "music",
+   "level": "vorschule",
+   "deck": "muster-zug-musik-40bb"
+  },
+  {
+   "slug": "muster-zug-ostern-6582",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "easter",
+   "level": "vorschule",
+   "deck": "muster-zug-ostern-6582"
+  },
+  {
+   "slug": "muster-zug-postamt-bed9",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "post_office",
+   "level": "vorschule",
+   "deck": "muster-zug-postamt-bed9"
+  },
+  {
+   "slug": "muster-zug-reptilien-und-amphibien-57c9",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "vorschule",
+   "deck": "muster-zug-reptilien-und-amphibien-57c9"
+  },
+  {
+   "slug": "muster-zug-rund-ums-haus-690a",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "vorschule",
+   "deck": "muster-zug-rund-ums-haus-690a"
+  },
+  {
+   "slug": "muster-zug-sommer-e5ed",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "summer",
+   "level": "vorschule",
+   "deck": "muster-zug-sommer-e5ed"
+  },
+  {
+   "slug": "muster-zug-spielzeug-1ee0",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "toys",
+   "level": "vorschule",
+   "deck": "muster-zug-spielzeug-1ee0"
+  },
+  {
+   "slug": "muster-zug-strand-ae3d",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "beach",
+   "level": "vorschule",
+   "deck": "muster-zug-strand-ae3d"
+  },
+  {
+   "slug": "muster-zug-tiere-9387",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "animals",
+   "level": "vorschule",
+   "deck": "muster-zug-tiere-9387"
+  },
+  {
+   "slug": "muster-zug-vogel-2-5187",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "vorschule",
+   "deck": "muster-zug-vogel-2-5187"
+  },
+  {
+   "slug": "muster-zug-vogel-6900",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "birds",
+   "level": "vorschule",
+   "deck": "muster-zug-vogel-6900"
+  },
+  {
+   "slug": "muster-zug-waldtiere-a32e",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "vorschule",
+   "deck": "muster-zug-waldtiere-a32e"
+  },
+  {
+   "slug": "muster-zug-weihnachten-2cc5",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "christmas",
+   "level": "vorschule",
+   "deck": "muster-zug-weihnachten-2cc5"
+  },
+  {
+   "slug": "muster-zug-weltraum-5aa1",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "space",
+   "level": "vorschule",
+   "deck": "muster-zug-weltraum-5aa1"
+  },
+  {
+   "slug": "muster-zug-werkzeuge-75ea",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "tools",
+   "level": "vorschule",
+   "deck": "muster-zug-werkzeuge-75ea"
+  },
+  {
+   "slug": "muster-zug-wetter-953a",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "weather",
+   "level": "vorschule",
+   "deck": "muster-zug-wetter-953a"
+  },
+  {
+   "slug": "muster-zug-winter-bba3",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "winter",
+   "level": "vorschule",
+   "deck": "muster-zug-winter-bba3"
+  },
+  {
+   "slug": "muster-zug-zootiere-cfc1",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "vorschule",
+   "deck": "muster-zug-zootiere-cfc1"
   }
  ]
 }

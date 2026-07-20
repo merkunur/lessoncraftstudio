@@ -1,780 +1,768 @@
 {
  "part": 329,
- "locale": "fi",
+ "locale": "no",
  "classes": [
-  "pattern-train::aab",
-  "pattern-train::aabb"
+  "math-puzzle::mixed",
+  "picture-path::classic-maze",
+  "odd-one-out::cross-theme",
+  "arrays-multiplication::arrays-repeated-addition",
+  "arrays-multiplication::multiply-and-divide",
+  "fractions::name-and-compare",
+  "fractions::partition-and-share",
+  "graphing-data::graphs-and-line-plots",
+  "graphing-data::read-picture-bar-graphs",
+  "graphing-data::scaled-graphs",
+  "number-charts::hundreds-chart-skip-count",
+  "number-charts::number-patterns",
+  "number-charts::numbers-to-20",
+  "number-charts::skip-count-and-100-more-less"
  ],
  "splitOf": null,
- "count": 96,
+ "count": 93,
  "pages": [
   {
-   "slug": "kuviojuna-aab-aamiainen-170f",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "breakfast",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-aamiainen-170f"
-  },
-  {
-   "slug": "kuviojuna-aab-ajoneuvot-486c",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "vehicles",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-ajoneuvot-486c"
-  },
-  {
-   "slug": "kuviojuna-aab-aktiviteetit-f1c4",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "activities",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-aktiviteetit-f1c4"
-  },
-  {
-   "slug": "kuviojuna-aab-ammatit-2d06",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "occupations",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-ammatit-2d06"
-  },
-  {
-   "slug": "kuviojuna-aab-asusteet-15dc",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "accessories",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-asusteet-15dc"
-  },
-  {
-   "slug": "kuviojuna-aab-avaruus-51b6",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "space",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-avaruus-51b6"
-  },
-  {
-   "slug": "kuviojuna-aab-dinosaurukset-952f",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "dinosaurs",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-dinosaurukset-952f"
-  },
-  {
-   "slug": "kuviojuna-aab-elaimet-9c1b",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "animals",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-elaimet-9c1b"
-  },
-  {
-   "slug": "kuviojuna-aab-elaintarhan-elaimet-13c4",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "zoo_animals",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-elaintarhan-elaimet-13c4"
-  },
-  {
-   "slug": "kuviojuna-aab-hedelmat-e047",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "fruits",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-hedelmat-e047"
-  },
-  {
-   "slug": "kuviojuna-aab-huonekalut-0cd9",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "furniture",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-huonekalut-0cd9"
-  },
-  {
-   "slug": "kuviojuna-aab-hyonteiset-ja-otokat-217a",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "insects_and_bugs",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-hyonteiset-ja-otokat-217a"
-  },
-  {
-   "slug": "kuviojuna-aab-jalkiruoat-ja-makeiset-63ae",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "desserts_and_sweets",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-jalkiruoat-ja-makeiset-63ae"
-  },
-  {
-   "slug": "kuviojuna-aab-joulu-6eab",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "christmas",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-joulu-6eab"
-  },
-  {
-   "slug": "kuviojuna-aab-keittiovalineet-5c08",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "kitchen_tools",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-keittiovalineet-5c08"
-  },
-  {
-   "slug": "kuviojuna-aab-kesa-676c",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "summer",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-kesa-676c"
-  },
-  {
-   "slug": "kuviojuna-aab-kevat-047a",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "spring",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-kevat-047a"
-  },
-  {
-   "slug": "kuviojuna-aab-kiitospaiva-0676",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "thanksgivinng",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-kiitospaiva-0676"
-  },
-  {
-   "slug": "kuviojuna-aab-kodin-ymparilla-eebb",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "around_the_house",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-kodin-ymparilla-eebb"
-  },
-  {
-   "slug": "kuviojuna-aab-kukat-9d76",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "flowers",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-kukat-9d76"
-  },
-  {
-   "slug": "kuviojuna-aab-leipomo-4b00",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "mattepuslespill-blandet-bakeri-0c7b",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "bakery",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-leipomo-4b00"
+   "level": "3-trinn",
+   "deck": "mattepuslespill-blandet-bakeri-0c7b"
   },
   {
-   "slug": "kuviojuna-aab-leirielama-81fc",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "camping",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-leirielama-81fc"
-  },
-  {
-   "slug": "kuviojuna-aab-lelut-58cd",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "toys",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-lelut-58cd"
-  },
-  {
-   "slug": "kuviojuna-aab-lemmikit-f509",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "pets",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-lemmikit-f509"
-  },
-  {
-   "slug": "kuviojuna-aab-lentavat-asiat-97eb",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "things_that_fly",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-lentavat-asiat-97eb"
-  },
-  {
-   "slug": "kuviojuna-aab-linnut-2-02a0",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "birds_2",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-linnut-2-02a0"
-  },
-  {
-   "slug": "kuviojuna-aab-linnut-7eb8",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "birds",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-linnut-7eb8"
-  },
-  {
-   "slug": "kuviojuna-aab-luokkahuone-44ee",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "classroom",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-luokkahuone-44ee"
-  },
-  {
-   "slug": "kuviojuna-aab-maatilan-elaimet-c83e",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "farm_animals",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-maatilan-elaimet-c83e"
-  },
-  {
-   "slug": "kuviojuna-aab-matelijat-ja-sammakkoelaimet-6eec",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "reptiles_and_amphibians",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-matelijat-ja-sammakkoelaimet-6eec"
-  },
-  {
-   "slug": "kuviojuna-aab-merielama-76ff",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "ocean_life",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-merielama-76ff"
-  },
-  {
-   "slug": "kuviojuna-aab-metsan-elaimet-d5d1",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "forest_creatures",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-metsan-elaimet-d5d1"
-  },
-  {
-   "slug": "kuviojuna-aab-muodot-d8b9",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "shapes",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-muodot-d8b9"
-  },
-  {
-   "slug": "kuviojuna-aab-musiikki-2501",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "music",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-musiikki-2501"
-  },
-  {
-   "slug": "kuviojuna-aab-paasiainen-25c8",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "easter",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-paasiainen-25c8"
-  },
-  {
-   "slug": "kuviojuna-aab-postitoimisto-0252",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "post_office",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-postitoimisto-0252"
-  },
-  {
-   "slug": "kuviojuna-aab-puut-5598",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "tree",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-puut-5598"
-  },
-  {
-   "slug": "kuviojuna-aab-ranta-c01f",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "beach",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-ranta-c01f"
-  },
-  {
-   "slug": "kuviojuna-aab-ruokakaupassa-abbd",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "at_the_supermarket",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-ruokakaupassa-abbd"
-  },
-  {
-   "slug": "kuviojuna-aab-ruumiinosat-b43f",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "body_parts",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-ruumiinosat-b43f"
-  },
-  {
-   "slug": "kuviojuna-aab-saa-31f1",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "weather",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-saa-31f1"
-  },
-  {
-   "slug": "kuviojuna-aab-sairaala-5103",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "hospital",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-sairaala-5103"
-  },
-  {
-   "slug": "kuviojuna-aab-talvi-3c82",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "winter",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-talvi-3c82"
-  },
-  {
-   "slug": "kuviojuna-aab-tunteet-3bc5",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "emotions",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-tunteet-3bc5"
-  },
-  {
-   "slug": "kuviojuna-aab-tyokalut-1e0b",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "tools",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-tyokalut-1e0b"
-  },
-  {
-   "slug": "kuviojuna-aab-vaatteet-6a6e",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "clothing",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-vaatteet-6a6e"
-  },
-  {
-   "slug": "kuviojuna-aab-varit-3421",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "colors",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-varit-3421"
-  },
-  {
-   "slug": "kuviojuna-aab-vihannekset-5c00",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "vegetables",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aab-vihannekset-5c00"
-  },
-  {
-   "slug": "kuviojuna-aabb-aamiainen-27f2",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "breakfast",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-aamiainen-27f2"
-  },
-  {
-   "slug": "kuviojuna-aabb-ajoneuvot-cd9e",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "vehicles",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-ajoneuvot-cd9e"
-  },
-  {
-   "slug": "kuviojuna-aabb-aktiviteetit-9c41",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "activities",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-aktiviteetit-9c41"
-  },
-  {
-   "slug": "kuviojuna-aabb-ammatit-3621",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "occupations",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-ammatit-3621"
-  },
-  {
-   "slug": "kuviojuna-aabb-asusteet-c6e9",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "accessories",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-asusteet-c6e9"
-  },
-  {
-   "slug": "kuviojuna-aabb-avaruus-69ec",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "space",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-avaruus-69ec"
-  },
-  {
-   "slug": "kuviojuna-aabb-dinosaurukset-2ca6",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "dinosaurs",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-dinosaurukset-2ca6"
-  },
-  {
-   "slug": "kuviojuna-aabb-elaimet-d437",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "animals",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-elaimet-d437"
-  },
-  {
-   "slug": "kuviojuna-aabb-elaintarhan-elaimet-d6ed",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "zoo_animals",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-elaintarhan-elaimet-d6ed"
-  },
-  {
-   "slug": "kuviojuna-aabb-hedelmat-49d3",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "fruits",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-hedelmat-49d3"
-  },
-  {
-   "slug": "kuviojuna-aabb-huonekalut-4adf",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "furniture",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-huonekalut-4adf"
-  },
-  {
-   "slug": "kuviojuna-aabb-hyonteiset-ja-otokat-3ea3",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "insects_and_bugs",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-hyonteiset-ja-otokat-3ea3"
-  },
-  {
-   "slug": "kuviojuna-aabb-jalkiruoat-ja-makeiset-c82e",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "desserts_and_sweets",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-jalkiruoat-ja-makeiset-c82e"
-  },
-  {
-   "slug": "kuviojuna-aabb-joulu-1173",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "christmas",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-joulu-1173"
-  },
-  {
-   "slug": "kuviojuna-aabb-keittiovalineet-4836",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "kitchen_tools",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-keittiovalineet-4836"
-  },
-  {
-   "slug": "kuviojuna-aabb-kesa-0db5",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "summer",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-kesa-0db5"
-  },
-  {
-   "slug": "kuviojuna-aabb-kevat-cca0",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "spring",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-kevat-cca0"
-  },
-  {
-   "slug": "kuviojuna-aabb-kiitospaiva-8e2d",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "thanksgivinng",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-kiitospaiva-8e2d"
-  },
-  {
-   "slug": "kuviojuna-aabb-kodin-ymparilla-ae1d",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "around_the_house",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-kodin-ymparilla-ae1d"
-  },
-  {
-   "slug": "kuviojuna-aabb-kukat-6917",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mattepuslespill-blandet-blomster-1f65",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "flowers",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-kukat-6917"
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-blomster-1f65"
   },
   {
-   "slug": "kuviojuna-aabb-leipomo-b7dc",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "bakery",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-leipomo-b7dc"
-  },
-  {
-   "slug": "kuviojuna-aabb-leirielama-5ac7",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mattepuslespill-blandet-camping-a8d0",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "camping",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-leirielama-5ac7"
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-camping-a8d0"
   },
   {
-   "slug": "kuviojuna-aabb-lelut-c512",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "toys",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-lelut-c512"
+   "slug": "mattepuslespill-blandet-desserter-og-godteri-624e",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-desserter-og-godteri-624e"
   },
   {
-   "slug": "kuviojuna-aabb-lemmikit-a92b",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "pets",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-lemmikit-a92b"
+   "slug": "mattepuslespill-blandet-dinosaurer-7df0",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-dinosaurer-7df0"
   },
   {
-   "slug": "kuviojuna-aabb-lentavat-asiat-ecf5",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "things_that_fly",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-lentavat-asiat-ecf5"
+   "slug": "mattepuslespill-blandet-dyr-7ef2",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-blandet-dyr-7ef2"
   },
   {
-   "slug": "kuviojuna-aabb-linnut-2-1b43",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "birds_2",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-linnut-2-1b43"
+   "slug": "mattepuslespill-blandet-dyrehagedyr-7a69",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-dyrehagedyr-7a69"
   },
   {
-   "slug": "kuviojuna-aabb-linnut-e3f9",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "birds",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-linnut-e3f9"
-  },
-  {
-   "slug": "kuviojuna-aabb-luokkahuone-80ab",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "classroom",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-luokkahuone-80ab"
-  },
-  {
-   "slug": "kuviojuna-aabb-maatilan-elaimet-bef5",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "farm_animals",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-maatilan-elaimet-bef5"
-  },
-  {
-   "slug": "kuviojuna-aabb-matelijat-ja-sammakkoelaimet-9fc1",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "reptiles_and_amphibians",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-matelijat-ja-sammakkoelaimet-9fc1"
-  },
-  {
-   "slug": "kuviojuna-aabb-merielama-5e76",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "ocean_life",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-merielama-5e76"
-  },
-  {
-   "slug": "kuviojuna-aabb-metsan-elaimet-ed35",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "forest_creatures",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-metsan-elaimet-ed35"
-  },
-  {
-   "slug": "kuviojuna-aabb-muodot-6053",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mattepuslespill-blandet-former-d806",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "shapes",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-muodot-6053"
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-former-d806"
   },
   {
-   "slug": "kuviojuna-aabb-musiikki-2fe8",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "music",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-musiikki-2fe8"
+   "slug": "mattepuslespill-blandet-frokost-2ca0",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-frokost-2ca0"
   },
   {
-   "slug": "kuviojuna-aabb-paasiainen-ee10",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "easter",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-paasiainen-ee10"
+   "slug": "mattepuslespill-blandet-frukter-c102",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-blandet-frukter-c102"
   },
   {
-   "slug": "kuviojuna-aabb-postitoimisto-afd3",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "post_office",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-postitoimisto-afd3"
+   "slug": "mattepuslespill-blandet-fugler-1945",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-blandet-fugler-1945"
   },
   {
-   "slug": "kuviojuna-aabb-puut-07eb",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "tree",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-puut-07eb"
+   "slug": "mattepuslespill-blandet-fugler-2-88c2",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-fugler-2-88c2"
   },
   {
-   "slug": "kuviojuna-aabb-ranta-4add",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "beach",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-ranta-4add"
+   "slug": "mattepuslespill-blandet-gardsdyr-6c88",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-gardsdyr-6c88"
   },
   {
-   "slug": "kuviojuna-aabb-ruokakaupassa-3b8f",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "at_the_supermarket",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-ruokakaupassa-3b8f"
-  },
-  {
-   "slug": "kuviojuna-aabb-ruumiinosat-aa28",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "body_parts",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-ruumiinosat-aa28"
-  },
-  {
-   "slug": "kuviojuna-aabb-saa-339e",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "weather",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-saa-339e"
-  },
-  {
-   "slug": "kuviojuna-aabb-sairaala-1ca7",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "hospital",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-sairaala-1ca7"
-  },
-  {
-   "slug": "kuviojuna-aabb-talvi-dda8",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "winter",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-talvi-dda8"
-  },
-  {
-   "slug": "kuviojuna-aabb-tunteet-6972",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "emotions",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-tunteet-6972"
-  },
-  {
-   "slug": "kuviojuna-aabb-tyokalut-3c7e",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "tools",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-tyokalut-3c7e"
-  },
-  {
-   "slug": "kuviojuna-aabb-vaatteet-4d6b",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "clothing",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-vaatteet-4d6b"
-  },
-  {
-   "slug": "kuviojuna-aabb-varit-6ec8",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "colors",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-varit-6ec8"
-  },
-  {
-   "slug": "kuviojuna-aabb-vihannekset-4964",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "mattepuslespill-blandet-gronnsaker-27a4",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "vegetables",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aabb-vihannekset-4964"
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-gronnsaker-27a4"
+  },
+  {
+   "slug": "mattepuslespill-blandet-havliv-33b5",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-havliv-33b5"
+  },
+  {
+   "slug": "mattepuslespill-blandet-i-supermarkedet-9c40",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-i-supermarkedet-9c40"
+  },
+  {
+   "slug": "mattepuslespill-blandet-insekter-og-kryp-6269",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-blandet-insekter-og-kryp-6269"
+  },
+  {
+   "slug": "mattepuslespill-blandet-jul-d4d7",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-jul-d4d7"
+  },
+  {
+   "slug": "mattepuslespill-blandet-kjaeledyr-b2c4",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-blandet-kjaeledyr-b2c4"
+  },
+  {
+   "slug": "mattepuslespill-blandet-kjokkenredskaper-c60a",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-kjokkenredskaper-c60a"
+  },
+  {
+   "slug": "mattepuslespill-blandet-kjoretoy-0d78",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-kjoretoy-0d78"
+  },
+  {
+   "slug": "mattepuslespill-blandet-klasserom-9b8c",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-klasserom-9b8c"
+  },
+  {
+   "slug": "mattepuslespill-blandet-leker-ad8f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-leker-ad8f"
+  },
+  {
+   "slug": "mattepuslespill-blandet-mobler-f49c",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-mobler-f49c"
+  },
+  {
+   "slug": "mattepuslespill-blandet-musikk-18aa",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-musikk-18aa"
+  },
+  {
+   "slug": "mattepuslespill-blandet-paske-1df8",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-paske-1df8"
+  },
+  {
+   "slug": "mattepuslespill-blandet-postkontor-bd8f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-postkontor-bd8f"
+  },
+  {
+   "slug": "mattepuslespill-blandet-reptiler-og-amfibier-d770",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-reptiler-og-amfibier-d770"
+  },
+  {
+   "slug": "mattepuslespill-blandet-rundt-i-huset-7dc6",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-rundt-i-huset-7dc6"
+  },
+  {
+   "slug": "mattepuslespill-blandet-skogsdyr-aa9d",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-blandet-skogsdyr-aa9d"
+  },
+  {
+   "slug": "mattepuslespill-blandet-strand-c992",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-strand-c992"
+  },
+  {
+   "slug": "mattepuslespill-blandet-sykehus-84a9",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-blandet-sykehus-84a9"
+  },
+  {
+   "slug": "mattepuslespill-blandet-thanksgiving-9dc8",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "3-trinn",
+   "deck": "mattepuslespill-blandet-thanksgiving-9dc8"
+  },
+  {
+   "slug": "mattepuslespill-blandet-tilbehor-fb83",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-tilbehor-fb83"
+  },
+  {
+   "slug": "mattepuslespill-blandet-ting-som-flyr-bc0b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-ting-som-flyr-bc0b"
+  },
+  {
+   "slug": "mattepuslespill-blandet-traer-a229",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-traer-a229"
+  },
+  {
+   "slug": "mattepuslespill-blandet-verdensrommet-fb26",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-verdensrommet-fb26"
+  },
+  {
+   "slug": "mattepuslespill-blandet-verktoy-2054",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-verktoy-2054"
+  },
+  {
+   "slug": "mattepuslespill-blandet-yrker-1139",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "2-trinn",
+   "deck": "mattepuslespill-blandet-yrker-1139"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-aktiviteter-3b70",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "activities",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-aktiviteter-3b70"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-bakeri-2f2d",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "bakery",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-bakeri-2f2d"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-blomster-10a3",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "flowers",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-blomster-10a3"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-camping-921b",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "camping",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-camping-921b"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-desserter-og-godteri-1b82",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "desserts_and_sweets",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-desserter-og-godteri-1b82"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-dinosaurer-47f1",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "dinosaurs",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-dinosaurer-47f1"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-farger-6d6d",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "colors",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-farger-6d6d"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-folelser-556c",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "emotions",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-folelser-556c"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-former-51ed",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "shapes",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-former-51ed"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-frokost-b739",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "breakfast",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-frokost-b739"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-frukter-9449",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "fruits",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-frukter-9449"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-gronnsaker-1d7c",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "vegetables",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-gronnsaker-1d7c"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-i-supermarkedet-1c18",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "at_the_supermarket",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-i-supermarkedet-1c18"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-insekter-og-kryp-3586",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "insects_and_bugs",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-insekter-og-kryp-3586"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-jul-503e",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "christmas",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-jul-503e"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-kjokkenredskaper-28c2",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "kitchen_tools",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-kjokkenredskaper-28c2"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-kjoretoy-5d49",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "vehicles",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-kjoretoy-5d49"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-klaer-aed5",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "clothing",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-klaer-aed5"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-klasserom-eb84",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "classroom",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-klasserom-eb84"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-kroppsdeler-02ba",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "body_parts",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-kroppsdeler-02ba"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-leker-221d",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "toys",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-leker-221d"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-mobler-1d4c",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "furniture",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-mobler-1d4c"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-musikk-969d",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "music",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-musikk-969d"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-paske-7057",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "easter",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-paske-7057"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-postkontor-419d",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "post_office",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-postkontor-419d"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-rundt-i-huset-02f4",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "around_the_house",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-rundt-i-huset-02f4"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-sommer-b56c",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "summer",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-sommer-b56c"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-strand-809f",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "beach",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-strand-809f"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-sykehus-eba1",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "hospital",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-sykehus-eba1"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-thanksgiving-7a50",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "thanksgivinng",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-thanksgiving-7a50"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-tilbehor-2ed5",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "accessories",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-tilbehor-2ed5"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-ting-som-flyr-facf",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "things_that_fly",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-ting-som-flyr-facf"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-traer-5c7d",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "tree",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-traer-5c7d"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-vaer-9755",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "weather",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-vaer-9755"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-var-404c",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "spring",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-var-404c"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-verdensrommet-f1a0",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "space",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-verdensrommet-f1a0"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-verktoy-4bbd",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "tools",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-verktoy-4bbd"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-vinter-7c4f",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "winter",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-vinter-7c4f"
+  },
+  {
+   "slug": "bildevei-klassisk-labyrint-yrker-9615",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "occupations",
+   "level": "1-trinn",
+   "deck": "bildevei-klassisk-labyrint-yrker-9615"
+  },
+  {
+   "slug": "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-999c",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "bakery",
+   "level": "1-trinn",
+   "deck": "hvilken-passer-ikke-pa-tvers-av-temaer-bakeri-999c"
+  },
+  {
+   "slug": "hvilken-passer-ikke-pa-tvers-av-temaer-blomster-8013",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "flowers",
+   "level": "1-trinn",
+   "deck": "hvilken-passer-ikke-pa-tvers-av-temaer-blomster-8013"
+  },
+  {
+   "slug": "hvilken-passer-ikke-pa-tvers-av-temaer-dinosaurer-92c9",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "dinosaurs",
+   "level": "1-trinn",
+   "deck": "hvilken-passer-ikke-pa-tvers-av-temaer-dinosaurer-92c9"
+  },
+  {
+   "slug": "hvilken-passer-ikke-pa-tvers-av-temaer-dyr-4949",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "animals",
+   "level": "1-trinn",
+   "deck": "hvilken-passer-ikke-pa-tvers-av-temaer-dyr-4949"
+  },
+  {
+   "slug": "rader-og-kolonner-3-trinn",
+   "type": "arrays-multiplication",
+   "mode": "arrays-repeated-addition",
+   "theme": "",
+   "level": "3-trinn",
+   "deck": "ganging-med-rader-dyr-g2209"
+  },
+  {
+   "slug": "gangetabellen-rader-kolonner-4-trinn",
+   "type": "arrays-multiplication",
+   "mode": "multiply-and-divide",
+   "theme": "",
+   "level": "4-trinn",
+   "deck": "ganging-med-rader-g3313"
+  },
+  {
+   "slug": "brok-tallinje-4-trinn",
+   "type": "fractions",
+   "mode": "name-and-compare",
+   "theme": "",
+   "level": "4-trinn",
+   "deck": "brok-g3315"
+  },
+  {
+   "slug": "brok-like-deler-3-trinn",
+   "type": "fractions",
+   "mode": "partition-and-share",
+   "theme": "",
+   "level": "3-trinn",
+   "deck": "brok-g2228"
+  },
+  {
+   "slug": "diagram-3-trinn",
+   "type": "graphing-data",
+   "mode": "graphs-and-line-plots",
+   "theme": "",
+   "level": "3-trinn",
+   "deck": "diagram-og-data-dyr-g2237"
+  },
+  {
+   "slug": "diagram-2-trinn",
+   "type": "graphing-data",
+   "mode": "read-picture-bar-graphs",
+   "theme": "",
+   "level": "2-trinn",
+   "deck": "diagram-og-data-dyr-g1144"
+  },
+  {
+   "slug": "diagram-4-trinn",
+   "type": "graphing-data",
+   "mode": "scaled-graphs",
+   "theme": "",
+   "level": "4-trinn",
+   "deck": "diagram-og-data-dyr-g3335"
+  },
+  {
+   "slug": "hundrerutenett-2-trinn",
+   "type": "number-charts",
+   "mode": "hundreds-chart-skip-count",
+   "theme": "",
+   "level": "2-trinn",
+   "deck": "hundrerute-g1130"
+  },
+  {
+   "slug": "tallmaskiner-4-trinn",
+   "type": "number-charts",
+   "mode": "number-patterns",
+   "theme": "",
+   "level": "4-trinn",
+   "deck": "hundrerute-g3328"
+  },
+  {
+   "slug": "tall-som-mangler-1-trinn",
+   "type": "number-charts",
+   "mode": "numbers-to-20",
+   "theme": "",
+   "level": "1-trinn",
+   "deck": "hundrerute-k021"
+  },
+  {
+   "slug": "tallfolger-3-trinn",
+   "type": "number-charts",
+   "mode": "skip-count-and-100-more-less",
+   "theme": "",
+   "level": "3-trinn",
+   "deck": "hundrerute-g2218"
   }
  ]
 }

@@ -1,512 +1,748 @@
 {
  "part": 323,
- "locale": "fi",
+ "locale": "no",
  "classes": [
-  "picture-sort::null"
+  "find-objects::i-spy",
+  "missing-pieces::two-missing"
  ],
- "splitOf": {
-  "class": "picture-sort::null",
-  "total": 125,
-  "chunk": 2,
-  "chunks": 2
- },
- "count": 62,
+ "splitOf": null,
+ "count": 92,
  "pages": [
   {
-   "slug": "lajittele-kuvat-furniture-vs-animals-0927",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "furniture-vs-animals",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-furniture-vs-animals-0927"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-aktiviteter-23ce",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "activities",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-aktiviteter-23ce"
   },
   {
-   "slug": "lajittele-kuvat-furniture-vs-dinosaurs-9c47",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "furniture-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-furniture-vs-dinosaurs-9c47"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-bakeri-48c0",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "bakery",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-bakeri-48c0"
   },
   {
-   "slug": "lajittele-kuvat-furniture-vs-vehicles-f1a0",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "furniture-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-furniture-vs-vehicles-f1a0"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-blomster-b9fb",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "flowers",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-blomster-b9fb"
   },
   {
-   "slug": "lajittele-kuvat-hospital-vs-dinosaurs-9c5b",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "hospital-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-hospital-vs-dinosaurs-9c5b"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-camping-70d1",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "camping",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-camping-70d1"
   },
   {
-   "slug": "lajittele-kuvat-hospital-vs-vehicles-d74d",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "hospital-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-hospital-vs-vehicles-d74d"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-desserter-og-godteri-14ab",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "desserts_and_sweets",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-desserter-og-godteri-14ab"
   },
   {
-   "slug": "lajittele-kuvat-insects-and-bugs-vs-dinosaurs-313e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "insects_and_bugs-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-insects-and-bugs-vs-dinosaurs-313e"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-dinosaurer-52b5",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "dinosaurs",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-dinosaurer-52b5"
   },
   {
-   "slug": "lajittele-kuvat-kitchen-tools-vs-animals-d86e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "kitchen_tools-vs-animals",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-kitchen-tools-vs-animals-d86e"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-dyr-7f70",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "animals",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-dyr-7f70"
   },
   {
-   "slug": "lajittele-kuvat-kitchen-tools-vs-dinosaurs-6e8b",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "kitchen_tools-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-kitchen-tools-vs-dinosaurs-6e8b"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-dyrehagedyr-7ba0",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "zoo_animals",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-dyrehagedyr-7ba0"
   },
   {
-   "slug": "lajittele-kuvat-kitchen-tools-vs-vehicles-3542",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "kitchen_tools-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-kitchen-tools-vs-vehicles-3542"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-farger-8c60",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "colors",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-farger-8c60"
   },
   {
-   "slug": "lajittele-kuvat-music-vs-animals-493e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "music-vs-animals",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-music-vs-animals-493e"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-folelser-9311",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "emotions",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-folelser-9311"
   },
   {
-   "slug": "lajittele-kuvat-music-vs-dinosaurs-fff5",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "music-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-music-vs-dinosaurs-fff5"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-former-d700",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "shapes",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-former-d700"
   },
   {
-   "slug": "lajittele-kuvat-music-vs-vehicles-2b3a",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "music-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-music-vs-vehicles-2b3a"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-frokost-adbc",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "breakfast",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-frokost-adbc"
   },
   {
-   "slug": "lajittele-kuvat-occupations-vs-animals-0dd9",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "occupations-vs-animals",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-occupations-vs-animals-0dd9"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-frukter-bf9d",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "fruits",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-frukter-bf9d"
   },
   {
-   "slug": "lajittele-kuvat-occupations-vs-dinosaurs-87fc",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "occupations-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-occupations-vs-dinosaurs-87fc"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-fugler-2-43cf",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "birds_2",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-fugler-2-43cf"
   },
   {
-   "slug": "lajittele-kuvat-occupations-vs-flowers-cfc5",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "occupations-vs-flowers",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-occupations-vs-flowers-cfc5"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-gardsdyr-eaaf",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "farm_animals",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-gardsdyr-eaaf"
   },
   {
-   "slug": "lajittele-kuvat-ocean-life-vs-dinosaurs-cf48",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "ocean_life-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-ocean-life-vs-dinosaurs-cf48"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-gronnsaker-fb92",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "vegetables",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-gronnsaker-fb92"
   },
   {
-   "slug": "lajittele-kuvat-ocean-life-vs-vehicles-bb31",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "ocean_life-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-ocean-life-vs-vehicles-bb31"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-havliv-159a",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "ocean_life",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-havliv-159a"
   },
   {
-   "slug": "lajittele-kuvat-pets-vs-dinosaurs-0434",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "pets-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-pets-vs-dinosaurs-0434"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-i-supermarkedet-04db",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "at_the_supermarket",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-i-supermarkedet-04db"
   },
   {
-   "slug": "lajittele-kuvat-pets-vs-vehicles-fbef",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "pets-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-pets-vs-vehicles-fbef"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-insekter-og-kryp-294b",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "insects_and_bugs",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-insekter-og-kryp-294b"
   },
   {
-   "slug": "lajittele-kuvat-post-office-vs-animals-411e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "post_office-vs-animals",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-post-office-vs-animals-411e"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-jul-3175",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "christmas",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-jul-3175"
   },
   {
-   "slug": "lajittele-kuvat-post-office-vs-dinosaurs-4ab2",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "post_office-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-post-office-vs-dinosaurs-4ab2"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-kjaeledyr-734d",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "pets",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-kjaeledyr-734d"
   },
   {
-   "slug": "lajittele-kuvat-post-office-vs-vehicles-9566",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "post_office-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-post-office-vs-vehicles-9566"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-kjokkenredskaper-a091",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "kitchen_tools",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-kjokkenredskaper-a091"
   },
   {
-   "slug": "lajittele-kuvat-shapes-vs-animals-87db",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "shapes-vs-animals",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-shapes-vs-animals-87db"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-kjoretoy-af06",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "vehicles",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-kjoretoy-af06"
   },
   {
-   "slug": "lajittele-kuvat-shapes-vs-dinosaurs-4552",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "shapes-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-shapes-vs-dinosaurs-4552"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-klaer-8377",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "clothing",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-klaer-8377"
   },
   {
-   "slug": "lajittele-kuvat-shapes-vs-vehicles-42a2",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "shapes-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-shapes-vs-vehicles-42a2"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-klasserom-63cb",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "classroom",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-klasserom-63cb"
   },
   {
-   "slug": "lajittele-kuvat-space-vs-animals-81fd",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "space-vs-animals",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-space-vs-animals-81fd"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-kroppsdeler-6754",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "body_parts",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-kroppsdeler-6754"
   },
   {
-   "slug": "lajittele-kuvat-space-vs-dinosaurs-9759",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "space-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-space-vs-dinosaurs-9759"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-leker-5c93",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "toys",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-leker-5c93"
   },
   {
-   "slug": "lajittele-kuvat-space-vs-flowers-0a36",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "space-vs-flowers",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-space-vs-flowers-0a36"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-mobler-a5fa",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "furniture",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-mobler-a5fa"
   },
   {
-   "slug": "lajittele-kuvat-space-vs-vehicles-bc12",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "space-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-space-vs-vehicles-bc12"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-musikk-d052",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "music",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-musikk-d052"
   },
   {
-   "slug": "lajittele-kuvat-spring-vs-animals-4d63",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "spring-vs-animals",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-spring-vs-animals-4d63"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-paske-84b7",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "easter",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-paske-84b7"
   },
   {
-   "slug": "lajittele-kuvat-spring-vs-dinosaurs-a62d",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "spring-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-spring-vs-dinosaurs-a62d"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-postkontor-d1b9",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "post_office",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-postkontor-d1b9"
   },
   {
-   "slug": "lajittele-kuvat-spring-vs-vehicles-819f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "spring-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-spring-vs-vehicles-819f"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-reptiler-og-amfibier-cb96",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-reptiler-og-amfibier-cb96"
   },
   {
-   "slug": "lajittele-kuvat-summer-vs-animals-9b2c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "summer-vs-animals",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-summer-vs-animals-9b2c"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-skogsdyr-60bb",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "forest_creatures",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-skogsdyr-60bb"
   },
   {
-   "slug": "lajittele-kuvat-summer-vs-dinosaurs-6ff0",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "summer-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-summer-vs-dinosaurs-6ff0"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-sommer-dd35",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "summer",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-sommer-dd35"
   },
   {
-   "slug": "lajittele-kuvat-summer-vs-flowers-2fc5",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "summer-vs-flowers",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-summer-vs-flowers-2fc5"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-strand-34ad",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "beach",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-strand-34ad"
   },
   {
-   "slug": "lajittele-kuvat-summer-vs-vehicles-2411",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "summer-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-summer-vs-vehicles-2411"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-sykehus-12e4",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "hospital",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-sykehus-12e4"
   },
   {
-   "slug": "lajittele-kuvat-thanksgivinng-vs-animals-c964",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "thanksgivinng-vs-animals",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-thanksgivinng-vs-animals-c964"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-thanksgiving-4850",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "thanksgivinng",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-thanksgiving-4850"
   },
   {
-   "slug": "lajittele-kuvat-thanksgivinng-vs-dinosaurs-8ba8",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "thanksgivinng-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-thanksgivinng-vs-dinosaurs-8ba8"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-tilbehor-27a1",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "accessories",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-tilbehor-27a1"
   },
   {
-   "slug": "lajittele-kuvat-thanksgivinng-vs-vehicles-c09f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "thanksgivinng-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-thanksgivinng-vs-vehicles-c09f"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-ting-som-flyr-7f81",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "things_that_fly",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-ting-som-flyr-7f81"
   },
   {
-   "slug": "lajittele-kuvat-things-that-fly-vs-dinosaurs-0644",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "things_that_fly-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-things-that-fly-vs-dinosaurs-0644"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-traer-b90a",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "tree",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-traer-b90a"
   },
   {
-   "slug": "lajittele-kuvat-things-that-fly-vs-vehicles-f31e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "things_that_fly-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-things-that-fly-vs-vehicles-f31e"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-vaer-7977",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "weather",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-vaer-7977"
   },
   {
-   "slug": "lajittele-kuvat-tools-vs-dinosaurs-e6d1",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tools-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-tools-vs-dinosaurs-e6d1"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-var-1425",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "spring",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-var-1425"
   },
   {
-   "slug": "lajittele-kuvat-tools-vs-vehicles-9a06",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tools-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-tools-vs-vehicles-9a06"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-verdensrommet-fda5",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "space",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-verdensrommet-fda5"
   },
   {
-   "slug": "lajittele-kuvat-toys-vs-animals-426d",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "toys-vs-animals",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-toys-vs-animals-426d"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-verktoy-fbe2",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "tools",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-verktoy-fbe2"
   },
   {
-   "slug": "lajittele-kuvat-toys-vs-dinosaurs-68aa",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "toys-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-toys-vs-dinosaurs-68aa"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-vinter-6d0e",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "winter",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-vinter-6d0e"
   },
   {
-   "slug": "lajittele-kuvat-toys-vs-vehicles-51d5",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "toys-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-toys-vs-vehicles-51d5"
+   "slug": "finn-objektene-jeg-ser-jeg-ser-yrker-cf97",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "occupations",
+   "level": "1-trinn",
+   "deck": "finn-objektene-jeg-ser-jeg-ser-yrker-cf97"
   },
   {
-   "slug": "lajittele-kuvat-tree-vs-animals-c6a7",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-animals",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-tree-vs-animals-c6a7"
+   "slug": "manglende-brikker-2-manglende-brikker-aktiviteter-63b7",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "activities",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-aktiviteter-63b7"
   },
   {
-   "slug": "lajittele-kuvat-tree-vs-dinosaurs-b2ac",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-tree-vs-dinosaurs-b2ac"
+   "slug": "manglende-brikker-2-manglende-brikker-bakeri-765c",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "bakery",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-bakeri-765c"
   },
   {
-   "slug": "lajittele-kuvat-tree-vs-vehicles-63ec",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-tree-vs-vehicles-63ec"
+   "slug": "manglende-brikker-2-manglende-brikker-blomster-bf7d",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "flowers",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-blomster-bf7d"
   },
   {
-   "slug": "lajittele-kuvat-vegetables-vs-dinosaurs-e4dc",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "vegetables-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-vegetables-vs-dinosaurs-e4dc"
+   "slug": "manglende-brikker-2-manglende-brikker-camping-1461",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "camping",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-camping-1461"
   },
   {
-   "slug": "lajittele-kuvat-vegetables-vs-vehicles-9f09",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "vegetables-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-vegetables-vs-vehicles-9f09"
+   "slug": "manglende-brikker-2-manglende-brikker-desserter-og-godteri-46e4",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "desserts_and_sweets",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-desserter-og-godteri-46e4"
   },
   {
-   "slug": "lajittele-kuvat-vehicles-vs-animals-6de9",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "vehicles-vs-animals",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-vehicles-vs-animals-6de9"
+   "slug": "manglende-brikker-2-manglende-brikker-dinosaurer-bf9c",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "dinosaurs",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-dinosaurer-bf9c"
   },
   {
-   "slug": "lajittele-kuvat-vehicles-vs-breakfast-4119",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "vehicles-vs-breakfast",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-vehicles-vs-breakfast-4119"
+   "slug": "manglende-brikker-2-manglende-brikker-dyr-f67e",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "animals",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-dyr-f67e"
   },
   {
-   "slug": "lajittele-kuvat-vehicles-vs-dinosaurs-dee9",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "vehicles-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-vehicles-vs-dinosaurs-dee9"
+   "slug": "manglende-brikker-2-manglende-brikker-dyrehagedyr-e31f",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "zoo_animals",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-dyrehagedyr-e31f"
   },
   {
-   "slug": "lajittele-kuvat-vehicles-vs-flowers-99e6",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "vehicles-vs-flowers",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-vehicles-vs-flowers-99e6"
+   "slug": "manglende-brikker-2-manglende-brikker-folelser-fa22",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "emotions",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-folelser-fa22"
   },
   {
-   "slug": "lajittele-kuvat-weather-vs-dinosaurs-aade",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "weather-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-weather-vs-dinosaurs-aade"
+   "slug": "manglende-brikker-2-manglende-brikker-frokost-f0ca",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "breakfast",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-frokost-f0ca"
   },
   {
-   "slug": "lajittele-kuvat-weather-vs-vehicles-e8a6",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "weather-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-weather-vs-vehicles-e8a6"
+   "slug": "manglende-brikker-2-manglende-brikker-frukter-2be6",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "fruits",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-frukter-2be6"
   },
   {
-   "slug": "lajittele-kuvat-winter-vs-dinosaurs-6494",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "winter-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-winter-vs-dinosaurs-6494"
+   "slug": "manglende-brikker-2-manglende-brikker-fugler-2-e044",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "birds_2",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-fugler-2-e044"
   },
   {
-   "slug": "lajittele-kuvat-winter-vs-vehicles-ffef",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "winter-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-winter-vs-vehicles-ffef"
+   "slug": "manglende-brikker-2-manglende-brikker-fugler-6252",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "birds",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-fugler-6252"
   },
   {
-   "slug": "lajittele-kuvat-zoo-animals-vs-dinosaurs-58e1",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "zoo_animals-vs-dinosaurs",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-zoo-animals-vs-dinosaurs-58e1"
+   "slug": "manglende-brikker-2-manglende-brikker-gardsdyr-3d6c",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "farm_animals",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-gardsdyr-3d6c"
   },
   {
-   "slug": "lajittele-kuvat-zoo-animals-vs-flowers-e4bf",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "zoo_animals-vs-flowers",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-zoo-animals-vs-flowers-e4bf"
+   "slug": "manglende-brikker-2-manglende-brikker-gronnsaker-6def",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "vegetables",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-gronnsaker-6def"
   },
   {
-   "slug": "lajittele-kuvat-zoo-animals-vs-vehicles-de1f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "zoo_animals-vs-vehicles",
-   "level": "esikoulu",
-   "deck": "lajittele-kuvat-zoo-animals-vs-vehicles-de1f"
+   "slug": "manglende-brikker-2-manglende-brikker-havliv-e46f",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "ocean_life",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-havliv-e46f"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-i-supermarkedet-5337",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "at_the_supermarket",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-i-supermarkedet-5337"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-insekter-og-kryp-0701",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "insects_and_bugs",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-insekter-og-kryp-0701"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-jul-61a6",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "christmas",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-jul-61a6"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-kjaeledyr-870e",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "pets",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-kjaeledyr-870e"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-kjokkenredskaper-800f",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "kitchen_tools",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-kjokkenredskaper-800f"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-kjoretoy-9b10",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "vehicles",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-kjoretoy-9b10"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-klaer-fdf3",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "clothing",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-klaer-fdf3"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-klasserom-fec8",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "classroom",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-klasserom-fec8"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-kroppsdeler-8c39",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "body_parts",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-kroppsdeler-8c39"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-leker-ef6b",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "toys",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-leker-ef6b"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-mobler-0501",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "furniture",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-mobler-0501"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-musikk-f94f",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "music",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-musikk-f94f"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-paske-a4c1",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "easter",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-paske-a4c1"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-postkontor-1205",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "post_office",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-postkontor-1205"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-reptiler-og-amfibier-031c",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-reptiler-og-amfibier-031c"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-rundt-i-huset-b5aa",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "around_the_house",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-rundt-i-huset-b5aa"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-skogsdyr-dbdd",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "forest_creatures",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-skogsdyr-dbdd"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-sommer-1593",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "summer",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-sommer-1593"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-strand-86da",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "beach",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-strand-86da"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-sykehus-46b5",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "hospital",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-sykehus-46b5"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-thanksgiving-b7c1",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "thanksgivinng",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-thanksgiving-b7c1"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-tilbehor-d7c1",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "accessories",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-tilbehor-d7c1"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-ting-som-flyr-d4fa",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "things_that_fly",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-ting-som-flyr-d4fa"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-traer-5e6c",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "tree",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-traer-5e6c"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-vaer-e38b",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "weather",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-vaer-e38b"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-var-a6d4",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "spring",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-var-a6d4"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-verdensrommet-fe70",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "space",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-verdensrommet-fe70"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-verktoy-965a",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "tools",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-verktoy-965a"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-vinter-caf7",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "winter",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-vinter-caf7"
+  },
+  {
+   "slug": "manglende-brikker-2-manglende-brikker-yrker-83c4",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "occupations",
+   "level": "1-trinn",
+   "deck": "manglende-brikker-2-manglende-brikker-yrker-83c4"
   }
  ]
 }

@@ -2,763 +2,738 @@
  "part": 209,
  "locale": "nl",
  "classes": [
-  "word-guess::easy",
-  "word-scramble::easy"
+  "crossword::null"
  ],
  "splitOf": null,
- "count": 94,
+ "count": 91,
  "pages": [
   {
-   "slug": "woord-raden-makkelijk-accessoires-e75d",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-4-juli-00d8",
+   "type": "crossword",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-4-juli-00d8"
+  },
+  {
+   "slug": "engels-kruiswoordraadsel-accessoires-98ab",
+   "type": "crossword",
+   "mode": null,
    "theme": "accessories",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-accessoires-e75d"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-accessoires-98ab"
   },
   {
-   "slug": "woord-raden-makkelijk-activiteiten-e3c7",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-activiteiten-8634",
+   "type": "crossword",
+   "mode": null,
    "theme": "activities",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-activiteiten-e3c7"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-activiteiten-8634"
   },
   {
-   "slug": "woord-raden-makkelijk-bakkerij-f2eb",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-bakkerij-0cf9",
+   "type": "crossword",
+   "mode": null,
    "theme": "bakery",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-bakkerij-f2eb"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-bakkerij-0cf9"
   },
   {
-   "slug": "woord-raden-makkelijk-beroepen-5713",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-beroepen-8a00",
+   "type": "crossword",
+   "mode": null,
    "theme": "occupations",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-beroepen-5713"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-beroepen-8a00"
   },
   {
-   "slug": "woord-raden-makkelijk-bloemen-dd2b",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-bloemen-8d31",
+   "type": "crossword",
+   "mode": null,
    "theme": "flowers",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-bloemen-dd2b"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-bloemen-8d31"
   },
   {
-   "slug": "woord-raden-makkelijk-boerderijdieren-626a",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-boerderijdieren-ee3d",
+   "type": "crossword",
+   "mode": null,
    "theme": "farm_animals",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-boerderijdieren-626a"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-boerderijdieren-ee3d"
   },
   {
-   "slug": "woord-raden-makkelijk-bomen-172d",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "tree",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-bomen-172d"
-  },
-  {
-   "slug": "woord-raden-makkelijk-boswezens-99fc",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-boswezens-6898",
+   "type": "crossword",
+   "mode": null,
    "theme": "forest_creatures",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-boswezens-99fc"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-boswezens-6898"
   },
   {
-   "slug": "woord-raden-makkelijk-desserts-en-snoep-98cd",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-desserts-en-snoep-7c94",
+   "type": "crossword",
+   "mode": null,
    "theme": "desserts_and_sweets",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-desserts-en-snoep-98cd"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-desserts-en-snoep-7c94"
   },
   {
-   "slug": "woord-raden-makkelijk-dieren-3718",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-dieren-7b20",
+   "type": "crossword",
+   "mode": null,
    "theme": "animals",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-dieren-3718"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-dieren-7b20"
   },
   {
-   "slug": "woord-raden-makkelijk-dierentuindieren-161d",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-dierentuindieren-1d96",
+   "type": "crossword",
+   "mode": null,
    "theme": "zoo_animals",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-dierentuindieren-161d"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-dierentuindieren-1d96"
   },
   {
-   "slug": "woord-raden-makkelijk-dingen-die-vliegen-e634",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-dingen-die-vliegen-1bb6",
+   "type": "crossword",
+   "mode": null,
    "theme": "things_that_fly",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-dingen-die-vliegen-e634"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-dingen-die-vliegen-1bb6"
   },
   {
-   "slug": "woord-raden-makkelijk-emoties-f52f",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-emoties-77c6",
+   "type": "crossword",
+   "mode": null,
    "theme": "emotions",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-emoties-f52f"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-emoties-77c6"
   },
   {
-   "slug": "woord-raden-makkelijk-fruit-49c8",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-fruit-e6ab",
+   "type": "crossword",
+   "mode": null,
    "theme": "fruits",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-fruit-49c8"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-fruit-e6ab"
   },
   {
-   "slug": "woord-raden-makkelijk-gereedschap-ff3b",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-gereedschap-66d4",
+   "type": "crossword",
+   "mode": null,
    "theme": "tools",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-gereedschap-ff3b"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-gereedschap-66d4"
   },
   {
-   "slug": "woord-raden-makkelijk-groenten-36db",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-groenten-0c32",
+   "type": "crossword",
+   "mode": null,
    "theme": "vegetables",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-groenten-36db"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-groenten-0c32"
   },
   {
-   "slug": "woord-raden-makkelijk-huisdieren-878f",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-huisdieren-6857",
+   "type": "crossword",
+   "mode": null,
    "theme": "pets",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-huisdieren-878f"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-huisdieren-6857"
   },
   {
-   "slug": "woord-raden-makkelijk-in-de-supermarkt-52d4",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-in-de-supermarkt-4583",
+   "type": "crossword",
+   "mode": null,
    "theme": "at_the_supermarket",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-in-de-supermarkt-52d4"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-in-de-supermarkt-4583"
   },
   {
-   "slug": "woord-raden-makkelijk-insecten-en-beestjes-1b34",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-insecten-en-beestjes-ac81",
+   "type": "crossword",
+   "mode": null,
    "theme": "insects_and_bugs",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-insecten-en-beestjes-1b34"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-insecten-en-beestjes-ac81"
   },
   {
-   "slug": "woord-raden-makkelijk-kamperen-5f1e",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-kamperen-bf8b",
+   "type": "crossword",
+   "mode": null,
    "theme": "camping",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-kamperen-5f1e"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-kamperen-bf8b"
   },
   {
-   "slug": "woord-raden-makkelijk-kerstmis-5e85",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-kerstmis-0ca7",
+   "type": "crossword",
+   "mode": null,
    "theme": "christmas",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-kerstmis-5e85"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-kerstmis-0ca7"
   },
   {
-   "slug": "woord-raden-makkelijk-keukengerei-a054",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-keukengerei-4631",
+   "type": "crossword",
+   "mode": null,
    "theme": "kitchen_tools",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-keukengerei-a054"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-keukengerei-4631"
   },
   {
-   "slug": "woord-raden-makkelijk-klaslokaal-941b",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-klaslokaal-c4ea",
+   "type": "crossword",
+   "mode": null,
    "theme": "classroom",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-klaslokaal-941b"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-klaslokaal-c4ea"
   },
   {
-   "slug": "woord-raden-makkelijk-kleding-adaf",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-kleding-8deb",
+   "type": "crossword",
+   "mode": null,
    "theme": "clothing",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-kleding-adaf"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-kleding-8deb"
   },
   {
-   "slug": "woord-raden-makkelijk-kleuren-4e26",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-kleuren-4958",
+   "type": "crossword",
+   "mode": null,
    "theme": "colors",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-kleuren-4e26"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-kleuren-4958"
   },
   {
-   "slug": "woord-raden-makkelijk-lente-36ed",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-lente-2a83",
+   "type": "crossword",
+   "mode": null,
    "theme": "spring",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-lente-36ed"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-lente-2a83"
   },
   {
-   "slug": "woord-raden-makkelijk-lichaamsdelen-fe4b",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-lichaamsdelen-1ca9",
+   "type": "crossword",
+   "mode": null,
    "theme": "body_parts",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-lichaamsdelen-fe4b"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-lichaamsdelen-1ca9"
   },
   {
-   "slug": "woord-raden-makkelijk-meubels-838d",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-meubels-32f0",
+   "type": "crossword",
+   "mode": null,
    "theme": "furniture",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-meubels-838d"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-meubels-32f0"
   },
   {
-   "slug": "woord-raden-makkelijk-muziek-e9b3",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-muziek-3a1b",
+   "type": "crossword",
+   "mode": null,
    "theme": "music",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-muziek-e9b3"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-muziek-3a1b"
   },
   {
-   "slug": "woord-raden-makkelijk-oceaanleven-a42c",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-oceaanleven-1599",
+   "type": "crossword",
+   "mode": null,
    "theme": "ocean_life",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-oceaanleven-a42c"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-oceaanleven-1599"
   },
   {
-   "slug": "woord-raden-makkelijk-ontbijt-ab97",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-ontbijt-1ddc",
+   "type": "crossword",
+   "mode": null,
    "theme": "breakfast",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-ontbijt-ab97"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-ontbijt-1ddc"
   },
   {
-   "slug": "woord-raden-makkelijk-pasen-f13c",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-pasen-2136",
+   "type": "crossword",
+   "mode": null,
    "theme": "easter",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-pasen-f13c"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-pasen-2136"
   },
   {
-   "slug": "woord-raden-makkelijk-postkantoor-ed9f",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-postkantoor-7d62",
+   "type": "crossword",
+   "mode": null,
    "theme": "post_office",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-postkantoor-ed9f"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-postkantoor-7d62"
   },
   {
-   "slug": "woord-raden-makkelijk-reptielen-en-amfibieen-26dc",
-   "type": "word-guess",
-   "mode": "easy",
-   "theme": "reptiles_and_amphibians",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-reptielen-en-amfibieen-26dc"
-  },
-  {
-   "slug": "woord-raden-makkelijk-rond-het-huis-274e",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-rond-het-huis-a41b",
+   "type": "crossword",
+   "mode": null,
    "theme": "around_the_house",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-rond-het-huis-274e"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-rond-het-huis-a41b"
   },
   {
-   "slug": "woord-raden-makkelijk-ruimte-9569",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-ruimte-34a0",
+   "type": "crossword",
+   "mode": null,
    "theme": "space",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-ruimte-9569"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-ruimte-34a0"
   },
   {
-   "slug": "woord-raden-makkelijk-speelgoed-3434",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-speelgoed-d934",
+   "type": "crossword",
+   "mode": null,
    "theme": "toys",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-speelgoed-3434"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-speelgoed-d934"
   },
   {
-   "slug": "woord-raden-makkelijk-strand-8e63",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-strand-6dbc",
+   "type": "crossword",
+   "mode": null,
    "theme": "beach",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-strand-8e63"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-strand-6dbc"
   },
   {
-   "slug": "woord-raden-makkelijk-thanksgiving-f5ae",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-thanksgiving-a567",
+   "type": "crossword",
+   "mode": null,
    "theme": "thanksgivinng",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-thanksgiving-f5ae"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-thanksgiving-a567"
   },
   {
-   "slug": "woord-raden-makkelijk-voertuigen-4f94",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-voertuigen-fd5b",
+   "type": "crossword",
+   "mode": null,
    "theme": "vehicles",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-voertuigen-4f94"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-voertuigen-fd5b"
   },
   {
-   "slug": "woord-raden-makkelijk-vogels-2-593a",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-vogels-2-73de",
+   "type": "crossword",
+   "mode": null,
    "theme": "birds_2",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-vogels-2-593a"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-vogels-2-73de"
   },
   {
-   "slug": "woord-raden-makkelijk-vogels-2854",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-vogels-f525",
+   "type": "crossword",
+   "mode": null,
    "theme": "birds",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-vogels-2854"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-vogels-f525"
   },
   {
-   "slug": "woord-raden-makkelijk-vormen-d5e2",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-vormen-bc95",
+   "type": "crossword",
+   "mode": null,
    "theme": "shapes",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-vormen-d5e2"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-vormen-bc95"
   },
   {
-   "slug": "woord-raden-makkelijk-weer-2b16",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-weer-a997",
+   "type": "crossword",
+   "mode": null,
    "theme": "weather",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-weer-2b16"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-weer-a997"
   },
   {
-   "slug": "woord-raden-makkelijk-winter-2174",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-winter-c64d",
+   "type": "crossword",
+   "mode": null,
    "theme": "winter",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-winter-2174"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-winter-c64d"
   },
   {
-   "slug": "woord-raden-makkelijk-ziekenhuis-0a9b",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-ziekenhuis-00c0",
+   "type": "crossword",
+   "mode": null,
    "theme": "hospital",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-ziekenhuis-0a9b"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-ziekenhuis-00c0"
   },
   {
-   "slug": "woord-raden-makkelijk-zomer-137b",
-   "type": "word-guess",
-   "mode": "easy",
+   "slug": "engels-kruiswoordraadsel-zomer-4167",
+   "type": "crossword",
+   "mode": null,
    "theme": "summer",
-   "level": "groep-3",
-   "deck": "woord-raden-makkelijk-zomer-137b"
+   "level": "language-beginner",
+   "deck": "engels-kruiswoordraadsel-zomer-4167"
   },
   {
-   "slug": "woordpuzzel-makkelijk-accessoires-fc30",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-accessoires-adfc",
+   "type": "crossword",
+   "mode": null,
    "theme": "accessories",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-accessoires-fc30"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-accessoires-adfc"
   },
   {
-   "slug": "woordpuzzel-makkelijk-activiteiten-7936",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-activiteiten-155e",
+   "type": "crossword",
+   "mode": null,
    "theme": "activities",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-activiteiten-7936"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-activiteiten-155e"
   },
   {
-   "slug": "woordpuzzel-makkelijk-bakkerij-76ed",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-bakkerij-97dc",
+   "type": "crossword",
+   "mode": null,
    "theme": "bakery",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-bakkerij-76ed"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-bakkerij-97dc"
   },
   {
-   "slug": "woordpuzzel-makkelijk-beroepen-1499",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-beroepen-56d7",
+   "type": "crossword",
+   "mode": null,
    "theme": "occupations",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-beroepen-1499"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-beroepen-56d7"
   },
   {
-   "slug": "woordpuzzel-makkelijk-bloemen-d38f",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-bloemen-4441",
+   "type": "crossword",
+   "mode": null,
    "theme": "flowers",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-bloemen-d38f"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-bloemen-4441"
   },
   {
-   "slug": "woordpuzzel-makkelijk-boerderijdieren-75dc",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-boerderijdieren-c3a6",
+   "type": "crossword",
+   "mode": null,
    "theme": "farm_animals",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-boerderijdieren-75dc"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-boerderijdieren-c3a6"
   },
   {
-   "slug": "woordpuzzel-makkelijk-bomen-5023",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "tree",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-bomen-5023"
-  },
-  {
-   "slug": "woordpuzzel-makkelijk-boswezens-2bbb",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-boswezens-e689",
+   "type": "crossword",
+   "mode": null,
    "theme": "forest_creatures",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-boswezens-2bbb"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-boswezens-e689"
   },
   {
-   "slug": "woordpuzzel-makkelijk-desserts-en-snoep-73d7",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-desserts-en-snoep-fd52",
+   "type": "crossword",
+   "mode": null,
    "theme": "desserts_and_sweets",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-desserts-en-snoep-73d7"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-desserts-en-snoep-fd52"
   },
   {
-   "slug": "woordpuzzel-makkelijk-dieren-dd1b",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-dieren-cc73",
+   "type": "crossword",
+   "mode": null,
    "theme": "animals",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-dieren-dd1b"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-dieren-cc73"
   },
   {
-   "slug": "woordpuzzel-makkelijk-dierentuindieren-83ad",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-dierentuindieren-fd0e",
+   "type": "crossword",
+   "mode": null,
    "theme": "zoo_animals",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-dierentuindieren-83ad"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-dierentuindieren-fd0e"
   },
   {
-   "slug": "woordpuzzel-makkelijk-dingen-die-vliegen-c5e3",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-dingen-die-vliegen-bf52",
+   "type": "crossword",
+   "mode": null,
    "theme": "things_that_fly",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-dingen-die-vliegen-c5e3"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-dingen-die-vliegen-bf52"
   },
   {
-   "slug": "woordpuzzel-makkelijk-emoties-dd27",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-emoties-410a",
+   "type": "crossword",
+   "mode": null,
    "theme": "emotions",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-emoties-dd27"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-emoties-410a"
   },
   {
-   "slug": "woordpuzzel-makkelijk-fruit-85f4",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-fruit-d2ad",
+   "type": "crossword",
+   "mode": null,
    "theme": "fruits",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-fruit-85f4"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-fruit-d2ad"
   },
   {
-   "slug": "woordpuzzel-makkelijk-gereedschap-4735",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-gereedschap-ec00",
+   "type": "crossword",
+   "mode": null,
    "theme": "tools",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-gereedschap-4735"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-gereedschap-ec00"
   },
   {
-   "slug": "woordpuzzel-makkelijk-groenten-8f9d",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-groenten-7dd0",
+   "type": "crossword",
+   "mode": null,
    "theme": "vegetables",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-groenten-8f9d"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-groenten-7dd0"
   },
   {
-   "slug": "woordpuzzel-makkelijk-huisdieren-4ce1",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-huisdieren-9a13",
+   "type": "crossword",
+   "mode": null,
    "theme": "pets",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-huisdieren-4ce1"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-huisdieren-9a13"
   },
   {
-   "slug": "woordpuzzel-makkelijk-in-de-supermarkt-0ff8",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-in-de-supermarkt-49b0",
+   "type": "crossword",
+   "mode": null,
    "theme": "at_the_supermarket",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-in-de-supermarkt-0ff8"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-in-de-supermarkt-49b0"
   },
   {
-   "slug": "woordpuzzel-makkelijk-insecten-en-beestjes-98ba",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-insecten-en-beestjes-fbf9",
+   "type": "crossword",
+   "mode": null,
    "theme": "insects_and_bugs",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-insecten-en-beestjes-98ba"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-insecten-en-beestjes-fbf9"
   },
   {
-   "slug": "woordpuzzel-makkelijk-kamperen-3d93",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-kamperen-1fd9",
+   "type": "crossword",
+   "mode": null,
    "theme": "camping",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-kamperen-3d93"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-kamperen-1fd9"
   },
   {
-   "slug": "woordpuzzel-makkelijk-kerstmis-b107",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-kerstmis-c825",
+   "type": "crossword",
+   "mode": null,
    "theme": "christmas",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-kerstmis-b107"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-kerstmis-c825"
   },
   {
-   "slug": "woordpuzzel-makkelijk-keukengerei-928e",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-keukengerei-e10a",
+   "type": "crossword",
+   "mode": null,
    "theme": "kitchen_tools",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-keukengerei-928e"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-keukengerei-e10a"
   },
   {
-   "slug": "woordpuzzel-makkelijk-klaslokaal-5d4f",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-klaslokaal-5941",
+   "type": "crossword",
+   "mode": null,
    "theme": "classroom",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-klaslokaal-5d4f"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-klaslokaal-5941"
   },
   {
-   "slug": "woordpuzzel-makkelijk-kleding-7ba9",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-kleding-de56",
+   "type": "crossword",
+   "mode": null,
    "theme": "clothing",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-kleding-7ba9"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-kleding-de56"
   },
   {
-   "slug": "woordpuzzel-makkelijk-kleuren-75f8",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-kleuren-dc6f",
+   "type": "crossword",
+   "mode": null,
    "theme": "colors",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-kleuren-75f8"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-kleuren-dc6f"
   },
   {
-   "slug": "woordpuzzel-makkelijk-lente-3f3a",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-lente-5789",
+   "type": "crossword",
+   "mode": null,
    "theme": "spring",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-lente-3f3a"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-lente-5789"
   },
   {
-   "slug": "woordpuzzel-makkelijk-lichaamsdelen-eabd",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-lichaamsdelen-bbb1",
+   "type": "crossword",
+   "mode": null,
    "theme": "body_parts",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-lichaamsdelen-eabd"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-lichaamsdelen-bbb1"
   },
   {
-   "slug": "woordpuzzel-makkelijk-meubels-ef30",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-meubels-6b34",
+   "type": "crossword",
+   "mode": null,
    "theme": "furniture",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-meubels-ef30"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-meubels-6b34"
   },
   {
-   "slug": "woordpuzzel-makkelijk-muziek-2657",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-muziek-a8d0",
+   "type": "crossword",
+   "mode": null,
    "theme": "music",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-muziek-2657"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-muziek-a8d0"
   },
   {
-   "slug": "woordpuzzel-makkelijk-oceaanleven-dcbe",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-oceaanleven-9758",
+   "type": "crossword",
+   "mode": null,
    "theme": "ocean_life",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-oceaanleven-dcbe"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-oceaanleven-9758"
   },
   {
-   "slug": "woordpuzzel-makkelijk-ontbijt-a220",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-ontbijt-38af",
+   "type": "crossword",
+   "mode": null,
    "theme": "breakfast",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-ontbijt-a220"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-ontbijt-38af"
   },
   {
-   "slug": "woordpuzzel-makkelijk-pasen-128e",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-pasen-6b1a",
+   "type": "crossword",
+   "mode": null,
    "theme": "easter",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-pasen-128e"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-pasen-6b1a"
   },
   {
-   "slug": "woordpuzzel-makkelijk-postkantoor-930a",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-postkantoor-9e0e",
+   "type": "crossword",
+   "mode": null,
    "theme": "post_office",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-postkantoor-930a"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-postkantoor-9e0e"
   },
   {
-   "slug": "woordpuzzel-makkelijk-reptielen-en-amfibieen-8d9d",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "reptiles_and_amphibians",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-reptielen-en-amfibieen-8d9d"
-  },
-  {
-   "slug": "woordpuzzel-makkelijk-rond-het-huis-dea6",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-rond-het-huis-d923",
+   "type": "crossword",
+   "mode": null,
    "theme": "around_the_house",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-rond-het-huis-dea6"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-rond-het-huis-d923"
   },
   {
-   "slug": "woordpuzzel-makkelijk-ruimte-ea9b",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-ruimte-9390",
+   "type": "crossword",
+   "mode": null,
    "theme": "space",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-ruimte-ea9b"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-ruimte-9390"
   },
   {
-   "slug": "woordpuzzel-makkelijk-speelgoed-b77b",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-speelgoed-2166",
+   "type": "crossword",
+   "mode": null,
    "theme": "toys",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-speelgoed-b77b"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-speelgoed-2166"
   },
   {
-   "slug": "woordpuzzel-makkelijk-strand-8bb6",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-strand-f9bd",
+   "type": "crossword",
+   "mode": null,
    "theme": "beach",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-strand-8bb6"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-strand-f9bd"
   },
   {
-   "slug": "woordpuzzel-makkelijk-thanksgiving-7392",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-thanksgiving-6e3c",
+   "type": "crossword",
+   "mode": null,
    "theme": "thanksgivinng",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-thanksgiving-7392"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-thanksgiving-6e3c"
   },
   {
-   "slug": "woordpuzzel-makkelijk-voertuigen-e283",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-voertuigen-16f0",
+   "type": "crossword",
+   "mode": null,
    "theme": "vehicles",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-voertuigen-e283"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-voertuigen-16f0"
   },
   {
-   "slug": "woordpuzzel-makkelijk-vogels-2-6d6a",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-vogels-2-c8c2",
+   "type": "crossword",
+   "mode": null,
    "theme": "birds_2",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-vogels-2-6d6a"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-vogels-2-c8c2"
   },
   {
-   "slug": "woordpuzzel-makkelijk-vogels-72f8",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-vogels-a534",
+   "type": "crossword",
+   "mode": null,
    "theme": "birds",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-vogels-72f8"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-vogels-a534"
   },
   {
-   "slug": "woordpuzzel-makkelijk-vormen-e6df",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-vormen-b1dd",
+   "type": "crossword",
+   "mode": null,
    "theme": "shapes",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-vormen-e6df"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-vormen-b1dd"
   },
   {
-   "slug": "woordpuzzel-makkelijk-weer-39c1",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-weer-5ca0",
+   "type": "crossword",
+   "mode": null,
    "theme": "weather",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-weer-39c1"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-weer-5ca0"
   },
   {
-   "slug": "woordpuzzel-makkelijk-winter-e129",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-winter-397a",
+   "type": "crossword",
+   "mode": null,
    "theme": "winter",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-winter-e129"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-winter-397a"
   },
   {
-   "slug": "woordpuzzel-makkelijk-ziekenhuis-afc3",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-ziekenhuis-48fd",
+   "type": "crossword",
+   "mode": null,
    "theme": "hospital",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-ziekenhuis-afc3"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-ziekenhuis-48fd"
   },
   {
-   "slug": "woordpuzzel-makkelijk-zomer-2c7d",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "kruiswoordraadsel-zomer-b024",
+   "type": "crossword",
+   "mode": null,
    "theme": "summer",
-   "level": "groep-3",
-   "deck": "woordpuzzel-makkelijk-zomer-2c7d"
+   "level": "groep-4",
+   "deck": "kruiswoordraadsel-zomer-b024"
   }
  ]
 }

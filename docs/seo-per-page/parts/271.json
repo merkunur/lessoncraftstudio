@@ -2,763 +2,707 @@
  "part": 271,
  "locale": "da",
  "classes": [
-  "pattern-train::abc",
-  "shadow-match::make-whole"
+  "subtraction::image-number",
+  "prepositions::fillin"
  ],
  "splitOf": null,
- "count": 94,
+ "count": 87,
  "pages": [
   {
-   "slug": "monstertoget-abc-aktiviteter-4f41",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "activities",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-aktiviteter-4f41"
-  },
-  {
-   "slug": "monstertoget-abc-bageri-fc66",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "subtraktion-billede-tal-bageri-c87a",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "bakery",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-bageri-fc66"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-bageri-c87a"
   },
   {
-   "slug": "monstertoget-abc-blomster-bc10",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "subtraktion-billede-tal-blomster-affc",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "flowers",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-blomster-bc10"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-blomster-affc"
   },
   {
-   "slug": "monstertoget-abc-bondegardsdyr-7e60",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "subtraktion-billede-tal-bondegardsdyr-bb0b",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "farm_animals",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-bondegardsdyr-7e60"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-bondegardsdyr-bb0b"
   },
   {
-   "slug": "monstertoget-abc-camping-ee35",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "subtraktion-billede-tal-camping-271d",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "camping",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-camping-ee35"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-camping-271d"
   },
   {
-   "slug": "monstertoget-abc-desserter-og-slik-58dc",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "desserts_and_sweets",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-desserter-og-slik-58dc"
-  },
-  {
-   "slug": "monstertoget-abc-dinosaurer-35d5",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "subtraktion-billede-tal-dinosaurer-1e7a",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-dinosaurer-35d5"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-dinosaurer-1e7a"
   },
   {
-   "slug": "monstertoget-abc-dyr-f8e9",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "subtraktion-billede-tal-dyr-2284",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "animals",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-dyr-f8e9"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-dyr-2284"
   },
   {
-   "slug": "monstertoget-abc-erhverv-264f",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "subtraktion-billede-tal-erhverv-00fa",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "occupations",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-erhverv-264f"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-erhverv-00fa"
   },
   {
-   "slug": "monstertoget-abc-farver-9817",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "colors",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-farver-9817"
-  },
-  {
-   "slug": "monstertoget-abc-folelser-dce8",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "emotions",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-folelser-dce8"
-  },
-  {
-   "slug": "monstertoget-abc-forar-c796",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "spring",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-forar-c796"
-  },
-  {
-   "slug": "monstertoget-abc-former-e03b",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "subtraktion-billede-tal-former-55db",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "shapes",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-former-e03b"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-former-55db"
   },
   {
-   "slug": "monstertoget-abc-frugter-7a58",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "subtraktion-billede-tal-frugter-e5b8",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "fruits",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-frugter-7a58"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-frugter-e5b8"
   },
   {
-   "slug": "monstertoget-abc-fugle-2-960d",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "birds_2",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-fugle-2-960d"
-  },
-  {
-   "slug": "monstertoget-abc-fugle-5858",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "subtraktion-billede-tal-fugle-08f7",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "birds",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-fugle-5858"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-fugle-08f7"
   },
   {
-   "slug": "monstertoget-abc-grontsager-7d7f",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "vegetables",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-grontsager-7d7f"
-  },
-  {
-   "slug": "monstertoget-abc-havliv-74d1",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "ocean_life",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-havliv-74d1"
-  },
-  {
-   "slug": "monstertoget-abc-hospital-4f9b",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "hospital",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-hospital-4f9b"
-  },
-  {
-   "slug": "monstertoget-abc-i-supermarkedet-77c4",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "at_the_supermarket",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-i-supermarkedet-77c4"
-  },
-  {
-   "slug": "monstertoget-abc-insekter-og-kryb-67b1",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "insects_and_bugs",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-insekter-og-kryb-67b1"
-  },
-  {
-   "slug": "monstertoget-abc-jul-a539",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "christmas",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-jul-a539"
-  },
-  {
-   "slug": "monstertoget-abc-kaeledyr-f2f9",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "pets",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-kaeledyr-f2f9"
-  },
-  {
-   "slug": "monstertoget-abc-klassevaerelse-b84a",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "classroom",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-klassevaerelse-b84a"
-  },
-  {
-   "slug": "monstertoget-abc-kokkenredskaber-c136",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "kitchen_tools",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-kokkenredskaber-c136"
-  },
-  {
-   "slug": "monstertoget-abc-koretojer-f474",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "vehicles",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-koretojer-f474"
-  },
-  {
-   "slug": "monstertoget-abc-kropsdele-36b1",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "body_parts",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-kropsdele-36b1"
-  },
-  {
-   "slug": "monstertoget-abc-krybdyr-og-padder-be84",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "reptiles_and_amphibians",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-krybdyr-og-padder-be84"
-  },
-  {
-   "slug": "monstertoget-abc-legetoj-3f84",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "toys",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-legetoj-3f84"
-  },
-  {
-   "slug": "monstertoget-abc-mobler-26c2",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "furniture",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-mobler-26c2"
-  },
-  {
-   "slug": "monstertoget-abc-morgenmad-de21",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "breakfast",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-morgenmad-de21"
-  },
-  {
-   "slug": "monstertoget-abc-musik-f0cb",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "music",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-musik-f0cb"
-  },
-  {
-   "slug": "monstertoget-abc-paske-44c1",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "easter",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-paske-44c1"
-  },
-  {
-   "slug": "monstertoget-abc-postkontor-133d",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "post_office",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-postkontor-133d"
-  },
-  {
-   "slug": "monstertoget-abc-rummet-b23c",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "space",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-rummet-b23c"
-  },
-  {
-   "slug": "monstertoget-abc-rundt-i-huset-b6b3",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "around_the_house",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-rundt-i-huset-b6b3"
-  },
-  {
-   "slug": "monstertoget-abc-skovdyr-6314",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "forest_creatures",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-skovdyr-6314"
-  },
-  {
-   "slug": "monstertoget-abc-sommer-b41d",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "summer",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-sommer-b41d"
-  },
-  {
-   "slug": "monstertoget-abc-strand-9963",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "beach",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-strand-9963"
-  },
-  {
-   "slug": "monstertoget-abc-thanksgiving-676f",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "thanksgivinng",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-thanksgiving-676f"
-  },
-  {
-   "slug": "monstertoget-abc-tilbehor-387d",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "accessories",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-tilbehor-387d"
-  },
-  {
-   "slug": "monstertoget-abc-ting-der-flyver-2587",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "things_that_fly",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-ting-der-flyver-2587"
-  },
-  {
-   "slug": "monstertoget-abc-toj-0012",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "clothing",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-toj-0012"
-  },
-  {
-   "slug": "monstertoget-abc-traeer-a764",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "tree",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-traeer-a764"
-  },
-  {
-   "slug": "monstertoget-abc-vejr-5452",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "weather",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-vejr-5452"
-  },
-  {
-   "slug": "monstertoget-abc-vinter-71bc",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "winter",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-vinter-71bc"
-  },
-  {
-   "slug": "monstertoget-abc-zoodyr-d1d1",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "zoo_animals",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abc-zoodyr-d1d1"
-  },
-  {
-   "slug": "match-skygger-gor-hel-aktiviteter-ab3b",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "activities",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-aktiviteter-ab3b"
-  },
-  {
-   "slug": "match-skygger-gor-hel-bageri-80ee",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "bakery",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-bageri-80ee"
-  },
-  {
-   "slug": "match-skygger-gor-hel-blomster-657c",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "flowers",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-blomster-657c"
-  },
-  {
-   "slug": "match-skygger-gor-hel-bondegardsdyr-d557",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "farm_animals",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-bondegardsdyr-d557"
-  },
-  {
-   "slug": "match-skygger-gor-hel-camping-e6eb",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "camping",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-camping-e6eb"
-  },
-  {
-   "slug": "match-skygger-gor-hel-desserter-og-slik-9f19",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "desserts_and_sweets",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-desserter-og-slik-9f19"
-  },
-  {
-   "slug": "match-skygger-gor-hel-dinosaurer-01bf",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-dinosaurer-01bf"
-  },
-  {
-   "slug": "match-skygger-gor-hel-dyr-ea73",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "animals",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-dyr-ea73"
-  },
-  {
-   "slug": "match-skygger-gor-hel-erhverv-e710",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "occupations",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-erhverv-e710"
-  },
-  {
-   "slug": "match-skygger-gor-hel-folelser-8aac",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "emotions",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-folelser-8aac"
-  },
-  {
-   "slug": "match-skygger-gor-hel-forar-7e63",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "spring",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-forar-7e63"
-  },
-  {
-   "slug": "match-skygger-gor-hel-former-239f",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "shapes",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-former-239f"
-  },
-  {
-   "slug": "match-skygger-gor-hel-frugter-06ca",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "fruits",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-frugter-06ca"
-  },
-  {
-   "slug": "match-skygger-gor-hel-fugle-2-d4df",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "subtraktion-billede-tal-fugle-2-dc1e",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "birds_2",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-fugle-2-d4df"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-fugle-2-dc1e"
   },
   {
-   "slug": "match-skygger-gor-hel-fugle-8452",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "birds",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-fugle-8452"
-  },
-  {
-   "slug": "match-skygger-gor-hel-grontsager-fc8e",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "subtraktion-billede-tal-grontsager-7fa8",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "vegetables",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-grontsager-fc8e"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-grontsager-7fa8"
   },
   {
-   "slug": "match-skygger-gor-hel-havliv-924f",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "subtraktion-billede-tal-havliv-2e93",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "ocean_life",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-havliv-924f"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-havliv-2e93"
   },
   {
-   "slug": "match-skygger-gor-hel-hospital-f8ec",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "subtraktion-billede-tal-hospital-2eb0",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "hospital",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-hospital-f8ec"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-hospital-2eb0"
   },
   {
-   "slug": "match-skygger-gor-hel-i-supermarkedet-e400",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "subtraktion-billede-tal-i-supermarkedet-668f",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "at_the_supermarket",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-i-supermarkedet-e400"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-i-supermarkedet-668f"
   },
   {
-   "slug": "match-skygger-gor-hel-insekter-og-kryb-71b8",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "subtraktion-billede-tal-insekter-og-kryb-ebbe",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "insects_and_bugs",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-insekter-og-kryb-71b8"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-insekter-og-kryb-ebbe"
   },
   {
-   "slug": "match-skygger-gor-hel-jul-1a7b",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "subtraktion-billede-tal-jul-3179",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "christmas",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-jul-1a7b"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-jul-3179"
   },
   {
-   "slug": "match-skygger-gor-hel-kaeledyr-8feb",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "subtraktion-billede-tal-kaeledyr-d01d",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "pets",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-kaeledyr-8feb"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-kaeledyr-d01d"
   },
   {
-   "slug": "match-skygger-gor-hel-klassevaerelse-a2a7",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "subtraktion-billede-tal-klassevaerelse-4fac",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "classroom",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-klassevaerelse-a2a7"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-klassevaerelse-4fac"
   },
   {
-   "slug": "match-skygger-gor-hel-kokkenredskaber-edca",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "subtraktion-billede-tal-kokkenredskaber-8cb7",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "kitchen_tools",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-kokkenredskaber-edca"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-kokkenredskaber-8cb7"
   },
   {
-   "slug": "match-skygger-gor-hel-koretojer-ea4a",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "subtraktion-billede-tal-koretojer-1ea0",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "vehicles",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-koretojer-ea4a"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-koretojer-1ea0"
   },
   {
-   "slug": "match-skygger-gor-hel-kropsdele-d41f",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "body_parts",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-kropsdele-d41f"
-  },
-  {
-   "slug": "match-skygger-gor-hel-krybdyr-og-padder-0f96",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "subtraktion-billede-tal-krybdyr-og-padder-6aa8",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "reptiles_and_amphibians",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-krybdyr-og-padder-0f96"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-krybdyr-og-padder-6aa8"
   },
   {
-   "slug": "match-skygger-gor-hel-legetoj-1f8c",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "subtraktion-billede-tal-legetoj-812d",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "toys",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-legetoj-1f8c"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-legetoj-812d"
   },
   {
-   "slug": "match-skygger-gor-hel-mobler-08bc",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "subtraktion-billede-tal-mobler-d5f3",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "furniture",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-mobler-08bc"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-mobler-d5f3"
   },
   {
-   "slug": "match-skygger-gor-hel-morgenmad-db38",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "subtraktion-billede-tal-morgenmad-a278",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "breakfast",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-morgenmad-db38"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-morgenmad-a278"
   },
   {
-   "slug": "match-skygger-gor-hel-musik-f81b",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "subtraktion-billede-tal-musik-53e9",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "music",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-musik-f81b"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-musik-53e9"
   },
   {
-   "slug": "match-skygger-gor-hel-paske-aa47",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "subtraktion-billede-tal-paske-de63",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "easter",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-paske-aa47"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-paske-de63"
   },
   {
-   "slug": "match-skygger-gor-hel-postkontor-0518",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "subtraktion-billede-tal-postkontor-ba85",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "post_office",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-postkontor-0518"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-postkontor-ba85"
   },
   {
-   "slug": "match-skygger-gor-hel-rummet-1ad4",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "subtraktion-billede-tal-rummet-ef3f",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "space",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-rummet-1ad4"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-rummet-ef3f"
   },
   {
-   "slug": "match-skygger-gor-hel-rundt-i-huset-0407",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "subtraktion-billede-tal-rundt-i-huset-5227",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "around_the_house",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-rundt-i-huset-0407"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-rundt-i-huset-5227"
   },
   {
-   "slug": "match-skygger-gor-hel-skovdyr-3ca2",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "subtraktion-billede-tal-skovdyr-8e52",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "forest_creatures",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-skovdyr-3ca2"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-skovdyr-8e52"
   },
   {
-   "slug": "match-skygger-gor-hel-sommer-1f9c",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "summer",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-sommer-1f9c"
-  },
-  {
-   "slug": "match-skygger-gor-hel-strand-ba39",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "subtraktion-billede-tal-strand-2e12",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "beach",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-strand-ba39"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-strand-2e12"
   },
   {
-   "slug": "match-skygger-gor-hel-thanksgiving-4e00",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "subtraktion-billede-tal-thanksgiving-4c8c",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "thanksgivinng",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-thanksgiving-4e00"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-thanksgiving-4c8c"
   },
   {
-   "slug": "match-skygger-gor-hel-tilbehor-bcdd",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "subtraktion-billede-tal-tilbehor-48fd",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "accessories",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-tilbehor-bcdd"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-tilbehor-48fd"
   },
   {
-   "slug": "match-skygger-gor-hel-ting-der-flyver-80a4",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "subtraktion-billede-tal-ting-der-flyver-8a0f",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "things_that_fly",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-ting-der-flyver-80a4"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-ting-der-flyver-8a0f"
   },
   {
-   "slug": "match-skygger-gor-hel-toj-e439",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "subtraktion-billede-tal-toj-e8ec",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "clothing",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-toj-e439"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-toj-e8ec"
   },
   {
-   "slug": "match-skygger-gor-hel-traeer-7046",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "subtraktion-billede-tal-traeer-d581",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "tree",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-traeer-7046"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-traeer-d581"
   },
   {
-   "slug": "match-skygger-gor-hel-vaerktoj-5f1d",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "subtraktion-billede-tal-vaerktoj-bb7c",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "tools",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-vaerktoj-5f1d"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-vaerktoj-bb7c"
   },
   {
-   "slug": "match-skygger-gor-hel-vejr-6900",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "weather",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-vejr-6900"
-  },
-  {
-   "slug": "match-skygger-gor-hel-vinter-f0d2",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "winter",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-vinter-f0d2"
-  },
-  {
-   "slug": "match-skygger-gor-hel-zoodyr-9fc3",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "subtraktion-billede-tal-zoodyr-be9b",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "zoo_animals",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-gor-hel-zoodyr-9fc3"
+   "level": "1-klasse",
+   "deck": "subtraktion-billede-tal-zoodyr-be9b"
+  },
+  {
+   "slug": "praepositioner-udfyld-aktiviteter-b24a",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "activities",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-aktiviteter-b24a"
+  },
+  {
+   "slug": "praepositioner-udfyld-bageri-ad15",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "bakery",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-bageri-ad15"
+  },
+  {
+   "slug": "praepositioner-udfyld-blomster-db4c",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "flowers",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-blomster-db4c"
+  },
+  {
+   "slug": "praepositioner-udfyld-bondegardsdyr-4dcc",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "farm_animals",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-bondegardsdyr-4dcc"
+  },
+  {
+   "slug": "praepositioner-udfyld-camping-bb0d",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "camping",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-camping-bb0d"
+  },
+  {
+   "slug": "praepositioner-udfyld-desserter-og-slik-e21d",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "desserts_and_sweets",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-desserter-og-slik-e21d"
+  },
+  {
+   "slug": "praepositioner-udfyld-dinosaurer-6845",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "dinosaurs",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-dinosaurer-6845"
+  },
+  {
+   "slug": "praepositioner-udfyld-dyr-8f9f",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "animals",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-dyr-8f9f"
+  },
+  {
+   "slug": "praepositioner-udfyld-erhverv-017a",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "occupations",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-erhverv-017a"
+  },
+  {
+   "slug": "praepositioner-udfyld-farver-345d",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "colors",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-farver-345d"
+  },
+  {
+   "slug": "praepositioner-udfyld-folelser-997e",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "emotions",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-folelser-997e"
+  },
+  {
+   "slug": "praepositioner-udfyld-forar-4095",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "spring",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-forar-4095"
+  },
+  {
+   "slug": "praepositioner-udfyld-former-a125",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "shapes",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-former-a125"
+  },
+  {
+   "slug": "praepositioner-udfyld-frugter-ae62",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "fruits",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-frugter-ae62"
+  },
+  {
+   "slug": "praepositioner-udfyld-fugle-2-2d6c",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "birds_2",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-fugle-2-2d6c"
+  },
+  {
+   "slug": "praepositioner-udfyld-fugle-256f",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "birds",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-fugle-256f"
+  },
+  {
+   "slug": "praepositioner-udfyld-grontsager-0877",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "vegetables",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-grontsager-0877"
+  },
+  {
+   "slug": "praepositioner-udfyld-havliv-116c",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "ocean_life",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-havliv-116c"
+  },
+  {
+   "slug": "praepositioner-udfyld-hospital-cc48",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "hospital",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-hospital-cc48"
+  },
+  {
+   "slug": "praepositioner-udfyld-i-supermarkedet-2f41",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "at_the_supermarket",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-i-supermarkedet-2f41"
+  },
+  {
+   "slug": "praepositioner-udfyld-insekter-og-kryb-77da",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "insects_and_bugs",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-insekter-og-kryb-77da"
+  },
+  {
+   "slug": "praepositioner-udfyld-jul-b8e2",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "christmas",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-jul-b8e2"
+  },
+  {
+   "slug": "praepositioner-udfyld-kaeledyr-e87c",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "pets",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-kaeledyr-e87c"
+  },
+  {
+   "slug": "praepositioner-udfyld-klassevaerelse-a07a",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "classroom",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-klassevaerelse-a07a"
+  },
+  {
+   "slug": "praepositioner-udfyld-kokkenredskaber-9423",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "kitchen_tools",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-kokkenredskaber-9423"
+  },
+  {
+   "slug": "praepositioner-udfyld-koretojer-6af6",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "vehicles",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-koretojer-6af6"
+  },
+  {
+   "slug": "praepositioner-udfyld-kropsdele-93ad",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "body_parts",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-kropsdele-93ad"
+  },
+  {
+   "slug": "praepositioner-udfyld-krybdyr-og-padder-46fe",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-krybdyr-og-padder-46fe"
+  },
+  {
+   "slug": "praepositioner-udfyld-legetoj-20bf",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "toys",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-legetoj-20bf"
+  },
+  {
+   "slug": "praepositioner-udfyld-mobler-8f33",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "furniture",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-mobler-8f33"
+  },
+  {
+   "slug": "praepositioner-udfyld-morgenmad-41e3",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "breakfast",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-morgenmad-41e3"
+  },
+  {
+   "slug": "praepositioner-udfyld-musik-cf73",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "music",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-musik-cf73"
+  },
+  {
+   "slug": "praepositioner-udfyld-paske-e74a",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "easter",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-paske-e74a"
+  },
+  {
+   "slug": "praepositioner-udfyld-postkontor-9fb7",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "post_office",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-postkontor-9fb7"
+  },
+  {
+   "slug": "praepositioner-udfyld-rummet-e18d",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "space",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-rummet-e18d"
+  },
+  {
+   "slug": "praepositioner-udfyld-rundt-i-huset-93d5",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "around_the_house",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-rundt-i-huset-93d5"
+  },
+  {
+   "slug": "praepositioner-udfyld-skovdyr-642e",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "forest_creatures",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-skovdyr-642e"
+  },
+  {
+   "slug": "praepositioner-udfyld-sommer-5305",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "summer",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-sommer-5305"
+  },
+  {
+   "slug": "praepositioner-udfyld-strand-f1a5",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "beach",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-strand-f1a5"
+  },
+  {
+   "slug": "praepositioner-udfyld-thanksgiving-6ad2",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "thanksgivinng",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-thanksgiving-6ad2"
+  },
+  {
+   "slug": "praepositioner-udfyld-tilbehor-6ce5",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "accessories",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-tilbehor-6ce5"
+  },
+  {
+   "slug": "praepositioner-udfyld-ting-der-flyver-38e4",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "things_that_fly",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-ting-der-flyver-38e4"
+  },
+  {
+   "slug": "praepositioner-udfyld-toj-f3d8",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "clothing",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-toj-f3d8"
+  },
+  {
+   "slug": "praepositioner-udfyld-traeer-d637",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "tree",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-traeer-d637"
+  },
+  {
+   "slug": "praepositioner-udfyld-vaerktoj-ae14",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "tools",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-vaerktoj-ae14"
+  },
+  {
+   "slug": "praepositioner-udfyld-vejr-5073",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "weather",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-vejr-5073"
+  },
+  {
+   "slug": "praepositioner-udfyld-vinter-4a7f",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "winter",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-vinter-4a7f"
+  },
+  {
+   "slug": "praepositioner-udfyld-zoodyr-2160",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "zoo_animals",
+   "level": "2-klasse",
+   "deck": "praepositioner-udfyld-zoodyr-2160"
   }
  ]
 }

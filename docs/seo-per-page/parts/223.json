@@ -2,619 +2,763 @@
  "part": 223,
  "locale": "nl",
  "classes": [
-  "alphabet-train::null",
-  "bingo::null"
+  "missing-pieces::two-missing",
+  "picture-path::choose-path"
  ],
  "splitOf": null,
- "count": 76,
+ "count": 94,
  "pages": [
   {
-   "slug": "alfabettrein-accessoires-8436",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-accessoires-9a01",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "accessories",
    "level": "kleuters",
-   "deck": "alfabettrein-accessoires-8436"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-accessoires-9a01"
   },
   {
-   "slug": "alfabettrein-activiteiten-01ed",
-   "type": "alphabet-train",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-activiteiten-a343",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "activities",
    "level": "kleuters",
-   "deck": "alfabettrein-activiteiten-01ed"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-activiteiten-a343"
   },
   {
-   "slug": "alfabettrein-beroepen-fdb3",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "occupations",
-   "level": "kleuters",
-   "deck": "alfabettrein-beroepen-fdb3"
-  },
-  {
-   "slug": "alfabettrein-boerderijdieren-7955",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "farm_animals",
-   "level": "kleuters",
-   "deck": "alfabettrein-boerderijdieren-7955"
-  },
-  {
-   "slug": "alfabettrein-boswezens-8dc0",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "forest_creatures",
-   "level": "kleuters",
-   "deck": "alfabettrein-boswezens-8dc0"
-  },
-  {
-   "slug": "alfabettrein-desserts-en-snoep-91f7",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "kleuters",
-   "deck": "alfabettrein-desserts-en-snoep-91f7"
-  },
-  {
-   "slug": "alfabettrein-dieren",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "animals",
-   "level": "kleuters",
-   "deck": "alfabettrein-dieren"
-  },
-  {
-   "slug": "alfabettrein-dierentuindieren-5f11",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "zoo_animals",
-   "level": "kleuters",
-   "deck": "alfabettrein-dierentuindieren-5f11"
-  },
-  {
-   "slug": "alfabettrein-dingen-die-vliegen-87c1",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "things_that_fly",
-   "level": "kleuters",
-   "deck": "alfabettrein-dingen-die-vliegen-87c1"
-  },
-  {
-   "slug": "alfabettrein-fruit-786f",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "fruits",
-   "level": "kleuters",
-   "deck": "alfabettrein-fruit-786f"
-  },
-  {
-   "slug": "alfabettrein-gereedschap-1c06",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "tools",
-   "level": "kleuters",
-   "deck": "alfabettrein-gereedschap-1c06"
-  },
-  {
-   "slug": "alfabettrein-groenten-3b03",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "vegetables",
-   "level": "kleuters",
-   "deck": "alfabettrein-groenten-3b03"
-  },
-  {
-   "slug": "alfabettrein-in-de-supermarkt-16e5",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "kleuters",
-   "deck": "alfabettrein-in-de-supermarkt-16e5"
-  },
-  {
-   "slug": "alfabettrein-kamperen-842e",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "camping",
-   "level": "kleuters",
-   "deck": "alfabettrein-kamperen-842e"
-  },
-  {
-   "slug": "alfabettrein-kerstmis-ff87",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "christmas",
-   "level": "kleuters",
-   "deck": "alfabettrein-kerstmis-ff87"
-  },
-  {
-   "slug": "alfabettrein-keukengerei-bbdd",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "kleuters",
-   "deck": "alfabettrein-keukengerei-bbdd"
-  },
-  {
-   "slug": "alfabettrein-klaslokaal-aa8c",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "classroom",
-   "level": "kleuters",
-   "deck": "alfabettrein-klaslokaal-aa8c"
-  },
-  {
-   "slug": "alfabettrein-kleding-b384",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "clothing",
-   "level": "kleuters",
-   "deck": "alfabettrein-kleding-b384"
-  },
-  {
-   "slug": "alfabettrein-kleuren-b132",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "colors",
-   "level": "kleuters",
-   "deck": "alfabettrein-kleuren-b132"
-  },
-  {
-   "slug": "alfabettrein-lente-bbc6",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "spring",
-   "level": "kleuters",
-   "deck": "alfabettrein-lente-bbc6"
-  },
-  {
-   "slug": "alfabettrein-lichaamsdelen-68f8",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "kleuters",
-   "deck": "alfabettrein-lichaamsdelen-68f8"
-  },
-  {
-   "slug": "alfabettrein-meubels-f704",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "furniture",
-   "level": "kleuters",
-   "deck": "alfabettrein-meubels-f704"
-  },
-  {
-   "slug": "alfabettrein-muziek-4e01",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "music",
-   "level": "kleuters",
-   "deck": "alfabettrein-muziek-4e01"
-  },
-  {
-   "slug": "alfabettrein-oceaanleven-72d9",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "ocean_life",
-   "level": "kleuters",
-   "deck": "alfabettrein-oceaanleven-72d9"
-  },
-  {
-   "slug": "alfabettrein-ontbijt-e079",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "breakfast",
-   "level": "kleuters",
-   "deck": "alfabettrein-ontbijt-e079"
-  },
-  {
-   "slug": "alfabettrein-pasen-a7e2",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "easter",
-   "level": "kleuters",
-   "deck": "alfabettrein-pasen-a7e2"
-  },
-  {
-   "slug": "alfabettrein-rond-het-huis-7287",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "around_the_house",
-   "level": "kleuters",
-   "deck": "alfabettrein-rond-het-huis-7287"
-  },
-  {
-   "slug": "alfabettrein-ruimte-f8a2",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "space",
-   "level": "kleuters",
-   "deck": "alfabettrein-ruimte-f8a2"
-  },
-  {
-   "slug": "alfabettrein-speelgoed-8a92",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "toys",
-   "level": "kleuters",
-   "deck": "alfabettrein-speelgoed-8a92"
-  },
-  {
-   "slug": "alfabettrein-strand-326f",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "beach",
-   "level": "kleuters",
-   "deck": "alfabettrein-strand-326f"
-  },
-  {
-   "slug": "alfabettrein-thanksgiving-4c49",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "thanksgivinng",
-   "level": "kleuters",
-   "deck": "alfabettrein-thanksgiving-4c49"
-  },
-  {
-   "slug": "alfabettrein-voertuigen-d4b6",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "vehicles",
-   "level": "kleuters",
-   "deck": "alfabettrein-voertuigen-d4b6"
-  },
-  {
-   "slug": "alfabettrein-vogels-2-e125",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "kleuters",
-   "deck": "alfabettrein-vogels-2-e125"
-  },
-  {
-   "slug": "alfabettrein-vormen-6d56",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "shapes",
-   "level": "kleuters",
-   "deck": "alfabettrein-vormen-6d56"
-  },
-  {
-   "slug": "alfabettrein-weer-2eb0",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "weather",
-   "level": "kleuters",
-   "deck": "alfabettrein-weer-2eb0"
-  },
-  {
-   "slug": "alfabettrein-winter-0068",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "winter",
-   "level": "kleuters",
-   "deck": "alfabettrein-winter-0068"
-  },
-  {
-   "slug": "alfabettrein-ziekenhuis-5c13",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "hospital",
-   "level": "kleuters",
-   "deck": "alfabettrein-ziekenhuis-5c13"
-  },
-  {
-   "slug": "alfabettrein-zomer-935f",
-   "type": "alphabet-train",
-   "mode": null,
-   "theme": "summer",
-   "level": "kleuters",
-   "deck": "alfabettrein-zomer-935f"
-  },
-  {
-   "slug": "bingo-accessoires-795e",
-   "type": "bingo",
-   "mode": null,
-   "theme": "accessories",
-   "level": "kleuters",
-   "deck": "bingo-accessoires-795e"
-  },
-  {
-   "slug": "bingo-activiteiten-35c3",
-   "type": "bingo",
-   "mode": null,
-   "theme": "activities",
-   "level": "kleuters",
-   "deck": "bingo-activiteiten-35c3"
-  },
-  {
-   "slug": "bingo-bakkerij-43d1",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-bakkerij-58af",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "bakery",
    "level": "kleuters",
-   "deck": "bingo-bakkerij-43d1"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-bakkerij-58af"
   },
   {
-   "slug": "bingo-beroepen-fa16",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-beroepen-df9a",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "occupations",
    "level": "kleuters",
-   "deck": "bingo-beroepen-fa16"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-beroepen-df9a"
   },
   {
-   "slug": "bingo-bloemen-3857",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-bloemen-bc8a",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "flowers",
    "level": "kleuters",
-   "deck": "bingo-bloemen-3857"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-bloemen-bc8a"
   },
   {
-   "slug": "bingo-boerderijdieren-8590",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-boerderijdieren-966b",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "farm_animals",
    "level": "kleuters",
-   "deck": "bingo-boerderijdieren-8590"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-boerderijdieren-966b"
   },
   {
-   "slug": "bingo-boswezens-3305",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-bomen-32d0",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "tree",
+   "level": "kleuters",
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-bomen-32d0"
+  },
+  {
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-boswezens-2eb0",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "forest_creatures",
    "level": "kleuters",
-   "deck": "bingo-boswezens-3305"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-boswezens-2eb0"
   },
   {
-   "slug": "bingo-desserts-en-snoep-f21c",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-desserts-en-snoep-4198",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "desserts_and_sweets",
    "level": "kleuters",
-   "deck": "bingo-desserts-en-snoep-f21c"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-desserts-en-snoep-4198"
   },
   {
-   "slug": "bingo-dieren",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-dieren-29bf",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "animals",
    "level": "kleuters",
-   "deck": "bingo-dieren"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-dieren-29bf"
   },
   {
-   "slug": "bingo-dierentuindieren-fcbc",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-dierentuindieren-b12b",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "zoo_animals",
    "level": "kleuters",
-   "deck": "bingo-dierentuindieren-fcbc"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-dierentuindieren-b12b"
   },
   {
-   "slug": "bingo-dingen-die-vliegen-a71c",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-dingen-die-vliegen-336a",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "things_that_fly",
    "level": "kleuters",
-   "deck": "bingo-dingen-die-vliegen-a71c"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-dingen-die-vliegen-336a"
   },
   {
-   "slug": "bingo-fruit-5d26",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-dinosaurussen-a75f",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "dinosaurs",
+   "level": "kleuters",
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-dinosaurussen-a75f"
+  },
+  {
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-diversen-a700",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "miscellaneous",
+   "level": "kleuters",
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-diversen-a700"
+  },
+  {
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-emoties-4323",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "emotions",
+   "level": "kleuters",
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-emoties-4323"
+  },
+  {
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-fruit-972b",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "fruits",
    "level": "kleuters",
-   "deck": "bingo-fruit-5d26"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-fruit-972b"
   },
   {
-   "slug": "bingo-groenten-7a73",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-gereedschap-8263",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "tools",
+   "level": "kleuters",
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-gereedschap-8263"
+  },
+  {
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-groenten-fa0e",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "vegetables",
    "level": "kleuters",
-   "deck": "bingo-groenten-7a73"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-groenten-fa0e"
   },
   {
-   "slug": "bingo-huisdieren-d1bd",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-huisdieren-b516",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "pets",
    "level": "kleuters",
-   "deck": "bingo-huisdieren-d1bd"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-huisdieren-b516"
   },
   {
-   "slug": "bingo-in-de-supermarkt-f148",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-in-de-supermarkt-6685",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "at_the_supermarket",
    "level": "kleuters",
-   "deck": "bingo-in-de-supermarkt-f148"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-in-de-supermarkt-6685"
   },
   {
-   "slug": "bingo-kamperen-f739",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-insecten-en-beestjes-d177",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "insects_and_bugs",
+   "level": "kleuters",
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-insecten-en-beestjes-d177"
+  },
+  {
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-kamperen-fb65",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "camping",
    "level": "kleuters",
-   "deck": "bingo-kamperen-f739"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-kamperen-fb65"
   },
   {
-   "slug": "bingo-kerstmis-9942",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-kerstmis-e75a",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "christmas",
    "level": "kleuters",
-   "deck": "bingo-kerstmis-9942"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-kerstmis-e75a"
   },
   {
-   "slug": "bingo-keukengerei-d18c",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-keukengerei-54fc",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "kitchen_tools",
    "level": "kleuters",
-   "deck": "bingo-keukengerei-d18c"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-keukengerei-54fc"
   },
   {
-   "slug": "bingo-klaslokaal-2940",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-klaslokaal-c3c9",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "classroom",
    "level": "kleuters",
-   "deck": "bingo-klaslokaal-2940"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-klaslokaal-c3c9"
   },
   {
-   "slug": "bingo-kleding-7d9e",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-kleding-140b",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "clothing",
    "level": "kleuters",
-   "deck": "bingo-kleding-7d9e"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-kleding-140b"
   },
   {
-   "slug": "bingo-kleuren-a47f",
-   "type": "bingo",
-   "mode": null,
-   "theme": "colors",
-   "level": "kleuters",
-   "deck": "bingo-kleuren-a47f"
-  },
-  {
-   "slug": "bingo-lente-e7f3",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-lente-d68b",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "spring",
    "level": "kleuters",
-   "deck": "bingo-lente-e7f3"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-lente-d68b"
   },
   {
-   "slug": "bingo-lichaamsdelen-3657",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-lichaamsdelen-45ed",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "body_parts",
    "level": "kleuters",
-   "deck": "bingo-lichaamsdelen-3657"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-lichaamsdelen-45ed"
   },
   {
-   "slug": "bingo-meubels-e9aa",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-meubels-6744",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "furniture",
    "level": "kleuters",
-   "deck": "bingo-meubels-e9aa"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-meubels-6744"
   },
   {
-   "slug": "bingo-oceaanleven-bf35",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-muziek-b7be",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "music",
+   "level": "kleuters",
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-muziek-b7be"
+  },
+  {
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-oceaanleven-dde6",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "ocean_life",
    "level": "kleuters",
-   "deck": "bingo-oceaanleven-bf35"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-oceaanleven-dde6"
   },
   {
-   "slug": "bingo-ontbijt-d6e0",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-ontbijt-7bfd",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "breakfast",
    "level": "kleuters",
-   "deck": "bingo-ontbijt-d6e0"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-ontbijt-7bfd"
   },
   {
-   "slug": "bingo-pasen-3978",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-pasen-66a1",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "easter",
    "level": "kleuters",
-   "deck": "bingo-pasen-3978"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-pasen-66a1"
   },
   {
-   "slug": "bingo-rond-het-huis-9e71",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-postkantoor-8c7d",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "post_office",
+   "level": "kleuters",
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-postkantoor-8c7d"
+  },
+  {
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-reptielen-en-amfibieen-10c2",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "reptiles_and_amphibians",
+   "level": "kleuters",
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-reptielen-en-amfibieen-10c2"
+  },
+  {
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-rond-het-huis-555d",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "around_the_house",
    "level": "kleuters",
-   "deck": "bingo-rond-het-huis-9e71"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-rond-het-huis-555d"
   },
   {
-   "slug": "bingo-ruimte-8834",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-ruimte-c1ea",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "space",
    "level": "kleuters",
-   "deck": "bingo-ruimte-8834"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-ruimte-c1ea"
   },
   {
-   "slug": "bingo-speelgoed-26db",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-speelgoed-088b",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "toys",
    "level": "kleuters",
-   "deck": "bingo-speelgoed-26db"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-speelgoed-088b"
   },
   {
-   "slug": "bingo-strand-8c2a",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-strand-cb2c",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "beach",
    "level": "kleuters",
-   "deck": "bingo-strand-8c2a"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-strand-cb2c"
   },
   {
-   "slug": "bingo-voertuigen-97c7",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-thanksgiving-c327",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "thanksgivinng",
+   "level": "kleuters",
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-thanksgiving-c327"
+  },
+  {
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-voertuigen-6c65",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "vehicles",
    "level": "kleuters",
-   "deck": "bingo-voertuigen-97c7"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-voertuigen-6c65"
   },
   {
-   "slug": "bingo-vogels-2-e87d",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-vogels-2-a703",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "birds_2",
    "level": "kleuters",
-   "deck": "bingo-vogels-2-e87d"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-vogels-2-a703"
   },
   {
-   "slug": "bingo-vormen-b9e6",
-   "type": "bingo",
-   "mode": null,
-   "theme": "shapes",
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-vogels-d34e",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "birds",
    "level": "kleuters",
-   "deck": "bingo-vormen-b9e6"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-vogels-d34e"
   },
   {
-   "slug": "bingo-weer-d052",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-weer-5583",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "weather",
    "level": "kleuters",
-   "deck": "bingo-weer-d052"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-weer-5583"
   },
   {
-   "slug": "bingo-winter-b652",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-winter-a2b1",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "winter",
    "level": "kleuters",
-   "deck": "bingo-winter-b652"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-winter-a2b1"
   },
   {
-   "slug": "bingo-ziekenhuis-3120",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-ziekenhuis-4ab6",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "hospital",
    "level": "kleuters",
-   "deck": "bingo-ziekenhuis-3120"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-ziekenhuis-4ab6"
   },
   {
-   "slug": "bingo-zomer-3d3d",
-   "type": "bingo",
-   "mode": null,
+   "slug": "ontbrekende-stukken-2-ontbrekende-stukjes-zomer-15c1",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "summer",
    "level": "kleuters",
-   "deck": "bingo-zomer-3d3d"
+   "deck": "ontbrekende-stukken-2-ontbrekende-stukjes-zomer-15c1"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-accessoires-7ced",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "accessories",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-accessoires-7ced"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-activiteiten-5aea",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "activities",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-activiteiten-5aea"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-bakkerij-6a9f",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "bakery",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-bakkerij-6a9f"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-beroepen-15fb",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "occupations",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-beroepen-15fb"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-bloemen-5697",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "flowers",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-bloemen-5697"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-boerderijdieren-ca11",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "farm_animals",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-boerderijdieren-ca11"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-bomen-7ad0",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "tree",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-bomen-7ad0"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-boswezens-0b65",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "forest_creatures",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-boswezens-0b65"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-desserts-en-snoep-5ac8",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "desserts_and_sweets",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-desserts-en-snoep-5ac8"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-dieren-2665",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "animals",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-dieren-2665"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-dierentuindieren-8973",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "zoo_animals",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-dierentuindieren-8973"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-dingen-die-vliegen-84f5",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "things_that_fly",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-dingen-die-vliegen-84f5"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-dinosaurussen-87f9",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "dinosaurs",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-dinosaurussen-87f9"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-emoties-e376",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "emotions",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-emoties-e376"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-fruit-015d",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "fruits",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-fruit-015d"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-gereedschap-b27e",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "tools",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-gereedschap-b27e"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-groenten-d836",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "vegetables",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-groenten-d836"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-huisdieren-f98b",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "pets",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-huisdieren-f98b"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-in-de-supermarkt-fe29",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "at_the_supermarket",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-in-de-supermarkt-fe29"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-insecten-en-beestjes-9d6a",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "insects_and_bugs",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-insecten-en-beestjes-9d6a"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-kamperen-f06d",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "camping",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-kamperen-f06d"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-kerstmis-7677",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "christmas",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-kerstmis-7677"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-keukengerei-1a07",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "kitchen_tools",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-keukengerei-1a07"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-klaslokaal-1fb6",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "classroom",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-klaslokaal-1fb6"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-kleding-10b3",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "clothing",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-kleding-10b3"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-kleuren-be9d",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "colors",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-kleuren-be9d"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-lente-8035",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "spring",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-lente-8035"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-lichaamsdelen-9517",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "body_parts",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-lichaamsdelen-9517"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-meubels-172b",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "furniture",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-meubels-172b"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-muziek-fd50",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "music",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-muziek-fd50"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-oceaanleven-175f",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "ocean_life",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-oceaanleven-175f"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-ontbijt-30c4",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "breakfast",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-ontbijt-30c4"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-pasen-9e28",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "easter",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-pasen-9e28"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-postkantoor-1b4b",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "post_office",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-postkantoor-1b4b"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-rond-het-huis-908a",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "around_the_house",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-rond-het-huis-908a"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-ruimte-ed0e",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "space",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-ruimte-ed0e"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-speelgoed-85d1",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "toys",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-speelgoed-85d1"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-strand-25f5",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "beach",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-strand-25f5"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-thanksgiving-58d0",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "thanksgivinng",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-thanksgiving-58d0"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-voertuigen-6761",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "vehicles",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-voertuigen-6761"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-vogels-2-9d03",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "birds_2",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-vogels-2-9d03"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-vogels-2b80",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "birds",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-vogels-2b80"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-vormen-3977",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "shapes",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-vormen-3977"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-weer-372e",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "weather",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-weer-372e"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-winter-8b3f",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "winter",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-winter-8b3f"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-ziekenhuis-06dc",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "hospital",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-ziekenhuis-06dc"
+  },
+  {
+   "slug": "beeldpad-kies-het-juiste-pad-zomer-6118",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "summer",
+   "level": "kleuters",
+   "deck": "beeldpad-kies-het-juiste-pad-zomer-6118"
   }
  ]
 }

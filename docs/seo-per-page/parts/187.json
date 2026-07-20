@@ -2,667 +2,755 @@
  "part": 187,
  "locale": "it",
  "classes": [
-  "addition::image-number",
-  "addition::mixed"
+  "matching::name",
+  "odd-one-out::same-theme"
  ],
  "splitOf": null,
- "count": 82,
+ "count": 93,
  "pages": [
   {
-   "slug": "addizione-immagine-numero-abbigliamento-e457",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-abbigliamento-9f03",
+   "type": "matching",
+   "mode": "name",
    "theme": "clothing",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-abbigliamento-e457"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-abbigliamento-9f03"
   },
   {
-   "slug": "addizione-immagine-numero-accessori-e1a7",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-accessori-7997",
+   "type": "matching",
+   "mode": "name",
    "theme": "accessories",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-accessori-e1a7"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-accessori-7997"
   },
   {
-   "slug": "addizione-immagine-numero-al-supermercato-43f1",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-al-supermercato-9205",
+   "type": "matching",
+   "mode": "name",
    "theme": "at_the_supermarket",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-al-supermercato-43f1"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-al-supermercato-9205"
   },
   {
-   "slug": "addizione-immagine-numero-alberi-bd85",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "tree",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-alberi-bd85"
-  },
-  {
-   "slug": "addizione-immagine-numero-animali-8c14",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "animals",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-animali-8c14"
-  },
-  {
-   "slug": "addizione-immagine-numero-animali-della-fattoria-73b1",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-animali-della-fattoria-30de",
+   "type": "matching",
+   "mode": "name",
    "theme": "farm_animals",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-animali-della-fattoria-73b1"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-animali-della-fattoria-30de"
   },
   {
-   "slug": "addizione-immagine-numero-animali-dello-zoo-af2d",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-animali-dello-zoo-e34c",
+   "type": "matching",
+   "mode": "name",
    "theme": "zoo_animals",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-animali-dello-zoo-af2d"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-animali-dello-zoo-e34c"
   },
   {
-   "slug": "addizione-immagine-numero-animali-domestici-45b6",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-animali-domestici-d360",
+   "type": "matching",
+   "mode": "name",
    "theme": "pets",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-animali-domestici-45b6"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-animali-domestici-d360"
   },
   {
-   "slug": "addizione-immagine-numero-attrezzi-1074",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-animali-f2d9",
+   "type": "matching",
+   "mode": "name",
+   "theme": "animals",
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-animali-f2d9"
+  },
+  {
+   "slug": "inglese-abbinamento-nomi-attivita-7544",
+   "type": "matching",
+   "mode": "name",
+   "theme": "activities",
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-attivita-7544"
+  },
+  {
+   "slug": "inglese-abbinamento-nomi-attrezzi-1f2d",
+   "type": "matching",
+   "mode": "name",
    "theme": "tools",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-attrezzi-1074"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-attrezzi-1f2d"
   },
   {
-   "slug": "addizione-immagine-numero-aula-4782",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-aula-8a92",
+   "type": "matching",
+   "mode": "name",
    "theme": "classroom",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-aula-4782"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-aula-8a92"
   },
   {
-   "slug": "addizione-immagine-numero-campeggio-afcb",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-campeggio-7090",
+   "type": "matching",
+   "mode": "name",
    "theme": "camping",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-campeggio-afcb"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-campeggio-7090"
   },
   {
-   "slug": "addizione-immagine-numero-colazione-f7db",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-colazione-f380",
+   "type": "matching",
+   "mode": "name",
    "theme": "breakfast",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-colazione-f7db"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-colazione-f380"
   },
   {
-   "slug": "addizione-immagine-numero-cose-che-volano-ef76",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-colori-148a",
+   "type": "matching",
+   "mode": "name",
+   "theme": "colors",
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-colori-148a"
+  },
+  {
+   "slug": "inglese-abbinamento-nomi-cose-che-volano-4eed",
+   "type": "matching",
+   "mode": "name",
    "theme": "things_that_fly",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-cose-che-volano-ef76"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-cose-che-volano-4eed"
   },
   {
-   "slug": "addizione-immagine-numero-creature-della-foresta-7222",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-creature-della-foresta-f3fa",
+   "type": "matching",
+   "mode": "name",
    "theme": "forest_creatures",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-creature-della-foresta-7222"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-creature-della-foresta-f3fa"
   },
   {
-   "slug": "addizione-immagine-numero-dinosauri-7ec2",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "dinosaurs",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-dinosauri-7ec2"
-  },
-  {
-   "slug": "addizione-immagine-numero-dolci-e-dolciumi-f1fe",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-dolci-e-dolciumi-98ce",
+   "type": "matching",
+   "mode": "name",
    "theme": "desserts_and_sweets",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-dolci-e-dolciumi-f1fe"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-dolci-e-dolciumi-98ce"
   },
   {
-   "slug": "addizione-immagine-numero-fiori-c982",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-emozioni-5efc",
+   "type": "matching",
+   "mode": "name",
+   "theme": "emotions",
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-emozioni-5efc"
+  },
+  {
+   "slug": "inglese-abbinamento-nomi-estate-5a79",
+   "type": "matching",
+   "mode": "name",
+   "theme": "summer",
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-estate-5a79"
+  },
+  {
+   "slug": "inglese-abbinamento-nomi-fiori-740e",
+   "type": "matching",
+   "mode": "name",
    "theme": "flowers",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-fiori-c982"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-fiori-740e"
   },
   {
-   "slug": "addizione-immagine-numero-forme-8493",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-forme-cc1f",
+   "type": "matching",
+   "mode": "name",
    "theme": "shapes",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-forme-8493"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-forme-cc1f"
   },
   {
-   "slug": "addizione-immagine-numero-frutta-f9fc",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-frutta-1797",
+   "type": "matching",
+   "mode": "name",
    "theme": "fruits",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-frutta-f9fc"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-frutta-1797"
   },
   {
-   "slug": "addizione-immagine-numero-giocattoli-d34d",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-giocattoli-b6b3",
+   "type": "matching",
+   "mode": "name",
    "theme": "toys",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-giocattoli-d34d"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-giocattoli-b6b3"
   },
   {
-   "slug": "addizione-immagine-numero-giorno-del-ringraziamento-c038",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-giorno-del-ringraziamento-d5f8",
+   "type": "matching",
+   "mode": "name",
    "theme": "thanksgivinng",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-giorno-del-ringraziamento-c038"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-giorno-del-ringraziamento-d5f8"
   },
   {
-   "slug": "addizione-immagine-numero-in-giro-per-casa-b191",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-in-giro-per-casa-2e3a",
+   "type": "matching",
+   "mode": "name",
    "theme": "around_the_house",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-in-giro-per-casa-b191"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-in-giro-per-casa-2e3a"
   },
   {
-   "slug": "addizione-immagine-numero-insetti-e-scarafaggi-5c73",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-insetti-e-scarafaggi-c655",
+   "type": "matching",
+   "mode": "name",
    "theme": "insects_and_bugs",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-insetti-e-scarafaggi-5c73"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-insetti-e-scarafaggi-c655"
   },
   {
-   "slug": "addizione-immagine-numero-mobili-d4d1",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-inverno-8804",
+   "type": "matching",
+   "mode": "name",
+   "theme": "winter",
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-inverno-8804"
+  },
+  {
+   "slug": "inglese-abbinamento-nomi-meteo-3aab",
+   "type": "matching",
+   "mode": "name",
+   "theme": "weather",
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-meteo-3aab"
+  },
+  {
+   "slug": "inglese-abbinamento-nomi-mobili-4b2a",
+   "type": "matching",
+   "mode": "name",
    "theme": "furniture",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-mobili-d4d1"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-mobili-4b2a"
   },
   {
-   "slug": "addizione-immagine-numero-musica-5141",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-musica-29e3",
+   "type": "matching",
+   "mode": "name",
    "theme": "music",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-musica-5141"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-musica-29e3"
   },
   {
-   "slug": "addizione-immagine-numero-natale-246e",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-natale-7d75",
+   "type": "matching",
+   "mode": "name",
    "theme": "christmas",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-natale-246e"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-natale-7d75"
   },
   {
-   "slug": "addizione-immagine-numero-ospedale-31c2",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-ospedale-52e8",
+   "type": "matching",
+   "mode": "name",
    "theme": "hospital",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-ospedale-31c2"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-ospedale-52e8"
   },
   {
-   "slug": "addizione-immagine-numero-panetteria-f3d3",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-panetteria-e9b0",
+   "type": "matching",
+   "mode": "name",
    "theme": "bakery",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-panetteria-f3d3"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-panetteria-e9b0"
   },
   {
-   "slug": "addizione-immagine-numero-pasqua-e69d",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-parti-del-corpo-2ea5",
+   "type": "matching",
+   "mode": "name",
+   "theme": "body_parts",
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-parti-del-corpo-2ea5"
+  },
+  {
+   "slug": "inglese-abbinamento-nomi-pasqua-9390",
+   "type": "matching",
+   "mode": "name",
    "theme": "easter",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-pasqua-e69d"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-pasqua-9390"
   },
   {
-   "slug": "addizione-immagine-numero-professioni-b3b6",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-primavera-43f5",
+   "type": "matching",
+   "mode": "name",
+   "theme": "spring",
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-primavera-43f5"
+  },
+  {
+   "slug": "inglese-abbinamento-nomi-professioni-3dc1",
+   "type": "matching",
+   "mode": "name",
    "theme": "occupations",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-professioni-b3b6"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-professioni-3dc1"
   },
   {
-   "slug": "addizione-immagine-numero-rettili-e-anfibi-f88d",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-rettili-e-anfibi-7399",
+   "type": "matching",
+   "mode": "name",
    "theme": "reptiles_and_amphibians",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-rettili-e-anfibi-f88d"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-rettili-e-anfibi-7399"
   },
   {
-   "slug": "addizione-immagine-numero-spazio-cb51",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-spazio-5b2b",
+   "type": "matching",
+   "mode": "name",
    "theme": "space",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-spazio-cb51"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-spazio-5b2b"
   },
   {
-   "slug": "addizione-immagine-numero-spiaggia-aef3",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-spiaggia-9062",
+   "type": "matching",
+   "mode": "name",
    "theme": "beach",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-spiaggia-aef3"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-spiaggia-9062"
   },
   {
-   "slug": "addizione-immagine-numero-uccelli-2-8df7",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-uccelli-2-2b67",
+   "type": "matching",
+   "mode": "name",
    "theme": "birds_2",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-uccelli-2-8df7"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-uccelli-2-2b67"
   },
   {
-   "slug": "addizione-immagine-numero-uccelli-bb47",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-uccelli-f3fd",
+   "type": "matching",
+   "mode": "name",
    "theme": "birds",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-uccelli-bb47"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-uccelli-f3fd"
   },
   {
-   "slug": "addizione-immagine-numero-ufficio-postale-c5a2",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-ufficio-postale-f1fd",
+   "type": "matching",
+   "mode": "name",
    "theme": "post_office",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-ufficio-postale-c5a2"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-ufficio-postale-f1fd"
   },
   {
-   "slug": "addizione-immagine-numero-utensili-da-cucina-46f5",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-utensili-da-cucina-fc40",
+   "type": "matching",
+   "mode": "name",
    "theme": "kitchen_tools",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-utensili-da-cucina-46f5"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-utensili-da-cucina-fc40"
   },
   {
-   "slug": "addizione-immagine-numero-varie-b480",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "miscellaneous",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-varie-b480"
-  },
-  {
-   "slug": "addizione-immagine-numero-veicoli-d889",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-veicoli-9aa8",
+   "type": "matching",
+   "mode": "name",
    "theme": "vehicles",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-veicoli-d889"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-veicoli-9aa8"
   },
   {
-   "slug": "addizione-immagine-numero-verdure-c952",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-verdure-5985",
+   "type": "matching",
+   "mode": "name",
    "theme": "vegetables",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-verdure-c952"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-verdure-5985"
   },
   {
-   "slug": "addizione-immagine-numero-vita-oceanica-9ce7",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "inglese-abbinamento-nomi-vita-oceanica-edbf",
+   "type": "matching",
+   "mode": "name",
    "theme": "ocean_life",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-numero-vita-oceanica-9ce7"
+   "level": "language-beginner",
+   "deck": "inglese-abbinamento-nomi-vita-oceanica-edbf"
   },
   {
-   "slug": "addizione-misto-abbigliamento-35ef",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-abbigliamento-8b5f",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "clothing",
-   "level": "classe-prima",
-   "deck": "addizione-misto-abbigliamento-35ef"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-abbigliamento-8b5f"
   },
   {
-   "slug": "addizione-misto-accessori-c2fc",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-accessori-f5c4",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "accessories",
-   "level": "classe-prima",
-   "deck": "addizione-misto-accessori-c2fc"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-accessori-f5c4"
   },
   {
-   "slug": "addizione-misto-al-supermercato-dbb1",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-al-supermercato-64c9",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "at_the_supermarket",
-   "level": "classe-prima",
-   "deck": "addizione-misto-al-supermercato-dbb1"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-al-supermercato-64c9"
   },
   {
-   "slug": "addizione-misto-alberi-a7d5",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-alberi-4c38",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "tree",
-   "level": "classe-prima",
-   "deck": "addizione-misto-alberi-a7d5"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-alberi-4c38"
   },
   {
-   "slug": "addizione-misto-animali-1164",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-animali",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "animals",
-   "level": "classe-prima",
-   "deck": "addizione-misto-animali-1164"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-animali"
   },
   {
-   "slug": "addizione-misto-animali-della-fattoria-8b2a",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-animali-della-fattoria-2f39",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "farm_animals",
-   "level": "classe-prima",
-   "deck": "addizione-misto-animali-della-fattoria-8b2a"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-animali-della-fattoria-2f39"
   },
   {
-   "slug": "addizione-misto-animali-dello-zoo-d074",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-animali-dello-zoo-dfad",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "zoo_animals",
-   "level": "classe-prima",
-   "deck": "addizione-misto-animali-dello-zoo-d074"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-animali-dello-zoo-dfad"
   },
   {
-   "slug": "addizione-misto-animali-domestici-7313",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-animali-domestici-67a6",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "pets",
-   "level": "classe-prima",
-   "deck": "addizione-misto-animali-domestici-7313"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-animali-domestici-67a6"
   },
   {
-   "slug": "addizione-misto-attrezzi-c378",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-attivita-6217",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "activities",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-attivita-6217"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-attrezzi-b05b",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "tools",
-   "level": "classe-prima",
-   "deck": "addizione-misto-attrezzi-c378"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-attrezzi-b05b"
   },
   {
-   "slug": "addizione-misto-aula-60ad",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-aula-9c8f",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "classroom",
-   "level": "classe-prima",
-   "deck": "addizione-misto-aula-60ad"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-aula-9c8f"
   },
   {
-   "slug": "addizione-misto-campeggio-ed06",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-campeggio-fda2",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "camping",
-   "level": "classe-prima",
-   "deck": "addizione-misto-campeggio-ed06"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-campeggio-fda2"
   },
   {
-   "slug": "addizione-misto-colazione-0d73",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-colazione-69da",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "breakfast",
-   "level": "classe-prima",
-   "deck": "addizione-misto-colazione-0d73"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-colazione-69da"
   },
   {
-   "slug": "addizione-misto-cose-che-volano-b00b",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-colori-68c7",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "colors",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-colori-68c7"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-cose-che-volano-5656",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "things_that_fly",
-   "level": "classe-prima",
-   "deck": "addizione-misto-cose-che-volano-b00b"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-cose-che-volano-5656"
   },
   {
-   "slug": "addizione-misto-creature-della-foresta-7813",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-creature-della-foresta-56e4",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "forest_creatures",
-   "level": "classe-prima",
-   "deck": "addizione-misto-creature-della-foresta-7813"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-creature-della-foresta-56e4"
   },
   {
-   "slug": "addizione-misto-dinosauri-1dd8",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-dinosauri-ba82",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "dinosaurs",
-   "level": "classe-prima",
-   "deck": "addizione-misto-dinosauri-1dd8"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-dinosauri-ba82"
   },
   {
-   "slug": "addizione-misto-dolci-e-dolciumi-1efc",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-dolci-e-dolciumi-9f91",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "desserts_and_sweets",
-   "level": "classe-prima",
-   "deck": "addizione-misto-dolci-e-dolciumi-1efc"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-dolci-e-dolciumi-9f91"
   },
   {
-   "slug": "addizione-misto-fiori-1acc",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-emozioni-bd74",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "emotions",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-emozioni-bd74"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-estate-e96f",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "summer",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-estate-e96f"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-fiori-187b",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "flowers",
-   "level": "classe-prima",
-   "deck": "addizione-misto-fiori-1acc"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-fiori-187b"
   },
   {
-   "slug": "addizione-misto-forme-1f7b",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-forme-7321",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "shapes",
-   "level": "classe-prima",
-   "deck": "addizione-misto-forme-1f7b"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-forme-7321"
   },
   {
-   "slug": "addizione-misto-frutta-58a2",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-frutta-123c",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "fruits",
-   "level": "classe-prima",
-   "deck": "addizione-misto-frutta-58a2"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-frutta-123c"
   },
   {
-   "slug": "addizione-misto-giocattoli-2be7",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-giocattoli-9122",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "toys",
-   "level": "classe-prima",
-   "deck": "addizione-misto-giocattoli-2be7"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-giocattoli-9122"
   },
   {
-   "slug": "addizione-misto-giorno-del-ringraziamento-796d",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-giorno-del-ringraziamento-1f9b",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "thanksgivinng",
-   "level": "classe-prima",
-   "deck": "addizione-misto-giorno-del-ringraziamento-796d"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-giorno-del-ringraziamento-1f9b"
   },
   {
-   "slug": "addizione-misto-in-giro-per-casa-9f5d",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-in-giro-per-casa-3163",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "around_the_house",
-   "level": "classe-prima",
-   "deck": "addizione-misto-in-giro-per-casa-9f5d"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-in-giro-per-casa-3163"
   },
   {
-   "slug": "addizione-misto-insetti-e-scarafaggi-c97c",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-insetti-e-scarafaggi-6446",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "insects_and_bugs",
-   "level": "classe-prima",
-   "deck": "addizione-misto-insetti-e-scarafaggi-c97c"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-insetti-e-scarafaggi-6446"
   },
   {
-   "slug": "addizione-misto-mobili-6e80",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-inverno-9955",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "winter",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-inverno-9955"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-meteo-dd19",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "weather",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-meteo-dd19"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-mobili-cee7",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "furniture",
-   "level": "classe-prima",
-   "deck": "addizione-misto-mobili-6e80"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-mobili-cee7"
   },
   {
-   "slug": "addizione-misto-musica-2f53",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-musica-71ff",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "music",
-   "level": "classe-prima",
-   "deck": "addizione-misto-musica-2f53"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-musica-71ff"
   },
   {
-   "slug": "addizione-misto-natale-720b",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-natale-3eb6",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "christmas",
-   "level": "classe-prima",
-   "deck": "addizione-misto-natale-720b"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-natale-3eb6"
   },
   {
-   "slug": "addizione-misto-ospedale-5281",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-ospedale-e30d",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "hospital",
-   "level": "classe-prima",
-   "deck": "addizione-misto-ospedale-5281"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-ospedale-e30d"
   },
   {
-   "slug": "addizione-misto-panetteria-42d8",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-panetteria-0d7a",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "bakery",
-   "level": "classe-prima",
-   "deck": "addizione-misto-panetteria-42d8"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-panetteria-0d7a"
   },
   {
-   "slug": "addizione-misto-pasqua-b79c",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-parti-del-corpo-5010",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "body_parts",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-parti-del-corpo-5010"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-pasqua-9ca1",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "easter",
-   "level": "classe-prima",
-   "deck": "addizione-misto-pasqua-b79c"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-pasqua-9ca1"
   },
   {
-   "slug": "addizione-misto-professioni-3629",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-primavera-db00",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "spring",
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-primavera-db00"
+  },
+  {
+   "slug": "l-intruso-stesso-tema-professioni-eccc",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "occupations",
-   "level": "classe-prima",
-   "deck": "addizione-misto-professioni-3629"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-professioni-eccc"
   },
   {
-   "slug": "addizione-misto-rettili-e-anfibi-b5cf",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-rettili-e-anfibi-215f",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "reptiles_and_amphibians",
-   "level": "classe-prima",
-   "deck": "addizione-misto-rettili-e-anfibi-b5cf"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-rettili-e-anfibi-215f"
   },
   {
-   "slug": "addizione-misto-spazio-4b49",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-spazio-e6dd",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "space",
-   "level": "classe-prima",
-   "deck": "addizione-misto-spazio-4b49"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-spazio-e6dd"
   },
   {
-   "slug": "addizione-misto-spiaggia-6468",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-spiaggia-f47d",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "beach",
-   "level": "classe-prima",
-   "deck": "addizione-misto-spiaggia-6468"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-spiaggia-f47d"
   },
   {
-   "slug": "addizione-misto-uccelli-2-c788",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-uccelli-2-c143",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "birds_2",
-   "level": "classe-prima",
-   "deck": "addizione-misto-uccelli-2-c788"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-uccelli-2-c143"
   },
   {
-   "slug": "addizione-misto-uccelli-9cda",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-uccelli-f652",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "birds",
-   "level": "classe-prima",
-   "deck": "addizione-misto-uccelli-9cda"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-uccelli-f652"
   },
   {
-   "slug": "addizione-misto-ufficio-postale-f497",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-ufficio-postale-92e5",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "post_office",
-   "level": "classe-prima",
-   "deck": "addizione-misto-ufficio-postale-f497"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-ufficio-postale-92e5"
   },
   {
-   "slug": "addizione-misto-utensili-da-cucina-eca4",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-utensili-da-cucina-042d",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "kitchen_tools",
-   "level": "classe-prima",
-   "deck": "addizione-misto-utensili-da-cucina-eca4"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-utensili-da-cucina-042d"
   },
   {
-   "slug": "addizione-misto-varie-0c59",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "miscellaneous",
-   "level": "classe-prima",
-   "deck": "addizione-misto-varie-0c59"
-  },
-  {
-   "slug": "addizione-misto-veicoli-462f",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-veicoli-8f9d",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "vehicles",
-   "level": "classe-prima",
-   "deck": "addizione-misto-veicoli-462f"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-veicoli-8f9d"
   },
   {
-   "slug": "addizione-misto-verdure-de2f",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "l-intruso-stesso-tema-verdure-82c7",
+   "type": "odd-one-out",
+   "mode": "same-theme",
    "theme": "vegetables",
-   "level": "classe-prima",
-   "deck": "addizione-misto-verdure-de2f"
-  },
-  {
-   "slug": "addizione-misto-vita-oceanica-df32",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "ocean_life",
-   "level": "classe-prima",
-   "deck": "addizione-misto-vita-oceanica-df32"
+   "level": "infanzia",
+   "deck": "l-intruso-stesso-tema-verdure-82c7"
   }
  ]
 }

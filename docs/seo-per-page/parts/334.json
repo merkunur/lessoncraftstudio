@@ -2,763 +2,511 @@
  "part": 334,
  "locale": "fi",
  "classes": [
-  "math-worksheet::three-symbols-add-sub",
-  "pattern-worksheet::null"
+  "picture-sort::null"
  ],
- "splitOf": null,
- "count": 94,
+ "splitOf": {
+  "class": "picture-sort::null",
+  "total": 125,
+  "chunk": 2,
+  "chunks": 2
+ },
+ "count": 62,
  "pages": [
   {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-aamiainen-9df1",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "breakfast",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-aamiainen-9df1"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-ajoneuvot-df12",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "vehicles",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-ajoneuvot-df12"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-aktiviteetit-75d1",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "activities",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-aktiviteetit-75d1"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-ammatit-7630",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "occupations",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-ammatit-7630"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-asusteet-d033",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "accessories",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-asusteet-d033"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-avaruus-0d5d",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "space",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-avaruus-0d5d"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-dinosaurukset-37de",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "dinosaurs",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-dinosaurukset-37de"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-elaimet-c417",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "animals",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-elaimet-c417"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-elaintarhan-elaimet-c7fd",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "zoo_animals",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-elaintarhan-elaimet-c7fd"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-hedelmat-928f",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "fruits",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-hedelmat-928f"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-huonekalut-4297",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "furniture",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-huonekalut-4297"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-hyonteiset-ja-otokat-7739",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "insects_and_bugs",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-hyonteiset-ja-otokat-7739"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-jalkiruoat-ja-makeiset-2060",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "desserts_and_sweets",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-jalkiruoat-ja-makeiset-2060"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-joulu-cb62",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "christmas",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-joulu-cb62"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-keittiovalineet-01d8",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "kitchen_tools",
-   "level": "2-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-keittiovalineet-01d8"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-kesa-aeb9",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "summer",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-kesa-aeb9"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-kevat-3007",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "spring",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-kevat-3007"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-kiitospaiva-4806",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "thanksgivinng",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-kiitospaiva-4806"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-kodin-ymparilla-bd3d",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "around_the_house",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-kodin-ymparilla-bd3d"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-kukat-95e1",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "flowers",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-kukat-95e1"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-leipomo-e89e",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "bakery",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-leipomo-e89e"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-leirielama-bcd7",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "camping",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-leirielama-bcd7"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-lelut-58e4",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "toys",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-lelut-58e4"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-lemmikit-a258",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "pets",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-lemmikit-a258"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-lentavat-asiat-bffc",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "things_that_fly",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-lentavat-asiat-bffc"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-linnut-2-c0fc",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "birds_2",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-linnut-2-c0fc"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-linnut-f1be",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "birds",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-linnut-f1be"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-luokkahuone-d1f7",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "classroom",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-luokkahuone-d1f7"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-maatilan-elaimet-e69f",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "farm_animals",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-maatilan-elaimet-e69f"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-matelijat-ja-sammakkoelaimet-54ae",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "reptiles_and_amphibians",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-matelijat-ja-sammakkoelaimet-54ae"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-merielama-8abc",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "ocean_life",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-merielama-8abc"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-metsan-elaimet-85f8",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "forest_creatures",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-metsan-elaimet-85f8"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-muodot-f075",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "shapes",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-muodot-f075"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-musiikki-7129",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "music",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-musiikki-7129"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-paasiainen-a13b",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "easter",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-paasiainen-a13b"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-postitoimisto-e175",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "post_office",
-   "level": "2-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-postitoimisto-e175"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-puut-c165",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "tree",
-   "level": "2-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-puut-c165"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-ranta-0515",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "beach",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-ranta-0515"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-ruumiinosat-dc1e",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "body_parts",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-ruumiinosat-dc1e"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-saa-230c",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "weather",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-saa-230c"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-sairaala-133e",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "hospital",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-sairaala-133e"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-talvi-5ae3",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "winter",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-talvi-5ae3"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-tunteet-b62d",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "emotions",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-tunteet-b62d"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-tyokalut-1ddd",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "tools",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-tyokalut-1ddd"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-vaatteet-962a",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "clothing",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-vaatteet-962a"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-varit-0139",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "colors",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-varit-0139"
-  },
-  {
-   "slug": "matematiikkatehtava-3-symbolia-yht-vahen-vihannekset-d44e",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "vegetables",
-   "level": "1-luokka",
-   "deck": "matematiikkatehtava-3-symbolia-yht-vahen-vihannekset-d44e"
-  },
-  {
-   "slug": "kuviotehtava-aamiainen-7e05",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-furniture-vs-animals-0927",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "breakfast",
+   "theme": "furniture-vs-animals",
    "level": "esikoulu",
-   "deck": "kuviotehtava-aamiainen-7e05"
+   "deck": "lajittele-kuvat-furniture-vs-animals-0927"
   },
   {
-   "slug": "kuviotehtava-ajoneuvot-5d3a",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-furniture-vs-dinosaurs-9c47",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "vehicles",
+   "theme": "furniture-vs-dinosaurs",
    "level": "esikoulu",
-   "deck": "kuviotehtava-ajoneuvot-5d3a"
+   "deck": "lajittele-kuvat-furniture-vs-dinosaurs-9c47"
   },
   {
-   "slug": "kuviotehtava-aktiviteetit-4d48",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-furniture-vs-vehicles-f1a0",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "activities",
+   "theme": "furniture-vs-vehicles",
    "level": "esikoulu",
-   "deck": "kuviotehtava-aktiviteetit-4d48"
+   "deck": "lajittele-kuvat-furniture-vs-vehicles-f1a0"
   },
   {
-   "slug": "kuviotehtava-ammatit-8290",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-hospital-vs-dinosaurs-9c5b",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "occupations",
+   "theme": "hospital-vs-dinosaurs",
    "level": "esikoulu",
-   "deck": "kuviotehtava-ammatit-8290"
+   "deck": "lajittele-kuvat-hospital-vs-dinosaurs-9c5b"
   },
   {
-   "slug": "kuviotehtava-asusteet-46ef",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-hospital-vs-vehicles-d74d",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "accessories",
+   "theme": "hospital-vs-vehicles",
    "level": "esikoulu",
-   "deck": "kuviotehtava-asusteet-46ef"
+   "deck": "lajittele-kuvat-hospital-vs-vehicles-d74d"
   },
   {
-   "slug": "kuviotehtava-avaruus-21c9",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-insects-and-bugs-vs-dinosaurs-313e",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "space",
+   "theme": "insects_and_bugs-vs-dinosaurs",
    "level": "esikoulu",
-   "deck": "kuviotehtava-avaruus-21c9"
+   "deck": "lajittele-kuvat-insects-and-bugs-vs-dinosaurs-313e"
   },
   {
-   "slug": "kuviotehtava-dinosaurukset-c860",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-kitchen-tools-vs-animals-d86e",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "dinosaurs",
+   "theme": "kitchen_tools-vs-animals",
    "level": "esikoulu",
-   "deck": "kuviotehtava-dinosaurukset-c860"
+   "deck": "lajittele-kuvat-kitchen-tools-vs-animals-d86e"
   },
   {
-   "slug": "kuviotehtava-elaimet-077e",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-kitchen-tools-vs-dinosaurs-6e8b",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "animals",
+   "theme": "kitchen_tools-vs-dinosaurs",
    "level": "esikoulu",
-   "deck": "kuviotehtava-elaimet-077e"
+   "deck": "lajittele-kuvat-kitchen-tools-vs-dinosaurs-6e8b"
   },
   {
-   "slug": "kuviotehtava-elaintarhan-elaimet-314b",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-kitchen-tools-vs-vehicles-3542",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "zoo_animals",
+   "theme": "kitchen_tools-vs-vehicles",
    "level": "esikoulu",
-   "deck": "kuviotehtava-elaintarhan-elaimet-314b"
+   "deck": "lajittele-kuvat-kitchen-tools-vs-vehicles-3542"
   },
   {
-   "slug": "kuviotehtava-hedelmat-3722",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-music-vs-animals-493e",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "fruits",
+   "theme": "music-vs-animals",
    "level": "esikoulu",
-   "deck": "kuviotehtava-hedelmat-3722"
+   "deck": "lajittele-kuvat-music-vs-animals-493e"
   },
   {
-   "slug": "kuviotehtava-huonekalut-332a",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-music-vs-dinosaurs-fff5",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "furniture",
+   "theme": "music-vs-dinosaurs",
    "level": "esikoulu",
-   "deck": "kuviotehtava-huonekalut-332a"
+   "deck": "lajittele-kuvat-music-vs-dinosaurs-fff5"
   },
   {
-   "slug": "kuviotehtava-hyonteiset-ja-otokat-62e9",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-music-vs-vehicles-2b3a",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "insects_and_bugs",
+   "theme": "music-vs-vehicles",
    "level": "esikoulu",
-   "deck": "kuviotehtava-hyonteiset-ja-otokat-62e9"
+   "deck": "lajittele-kuvat-music-vs-vehicles-2b3a"
   },
   {
-   "slug": "kuviotehtava-jalkiruoat-ja-makeiset-21b8",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-occupations-vs-animals-0dd9",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "desserts_and_sweets",
+   "theme": "occupations-vs-animals",
    "level": "esikoulu",
-   "deck": "kuviotehtava-jalkiruoat-ja-makeiset-21b8"
+   "deck": "lajittele-kuvat-occupations-vs-animals-0dd9"
   },
   {
-   "slug": "kuviotehtava-joulu-a00e",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-occupations-vs-dinosaurs-87fc",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "christmas",
+   "theme": "occupations-vs-dinosaurs",
    "level": "esikoulu",
-   "deck": "kuviotehtava-joulu-a00e"
+   "deck": "lajittele-kuvat-occupations-vs-dinosaurs-87fc"
   },
   {
-   "slug": "kuviotehtava-keittiovalineet-efb5",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-occupations-vs-flowers-cfc5",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "kitchen_tools",
+   "theme": "occupations-vs-flowers",
    "level": "esikoulu",
-   "deck": "kuviotehtava-keittiovalineet-efb5"
+   "deck": "lajittele-kuvat-occupations-vs-flowers-cfc5"
   },
   {
-   "slug": "kuviotehtava-kesa-68f9",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-ocean-life-vs-dinosaurs-cf48",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "summer",
+   "theme": "ocean_life-vs-dinosaurs",
    "level": "esikoulu",
-   "deck": "kuviotehtava-kesa-68f9"
+   "deck": "lajittele-kuvat-ocean-life-vs-dinosaurs-cf48"
   },
   {
-   "slug": "kuviotehtava-kevat-6b8e",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-ocean-life-vs-vehicles-bb31",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "spring",
+   "theme": "ocean_life-vs-vehicles",
    "level": "esikoulu",
-   "deck": "kuviotehtava-kevat-6b8e"
+   "deck": "lajittele-kuvat-ocean-life-vs-vehicles-bb31"
   },
   {
-   "slug": "kuviotehtava-kiitospaiva-9fb3",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-pets-vs-dinosaurs-0434",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "thanksgivinng",
+   "theme": "pets-vs-dinosaurs",
    "level": "esikoulu",
-   "deck": "kuviotehtava-kiitospaiva-9fb3"
+   "deck": "lajittele-kuvat-pets-vs-dinosaurs-0434"
   },
   {
-   "slug": "kuviotehtava-kodin-ymparilla-7761",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-pets-vs-vehicles-fbef",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "around_the_house",
+   "theme": "pets-vs-vehicles",
    "level": "esikoulu",
-   "deck": "kuviotehtava-kodin-ymparilla-7761"
+   "deck": "lajittele-kuvat-pets-vs-vehicles-fbef"
   },
   {
-   "slug": "kuviotehtava-kukat-98ba",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-post-office-vs-animals-411e",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "flowers",
+   "theme": "post_office-vs-animals",
    "level": "esikoulu",
-   "deck": "kuviotehtava-kukat-98ba"
+   "deck": "lajittele-kuvat-post-office-vs-animals-411e"
   },
   {
-   "slug": "kuviotehtava-leipomo-780b",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-post-office-vs-dinosaurs-4ab2",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "bakery",
+   "theme": "post_office-vs-dinosaurs",
    "level": "esikoulu",
-   "deck": "kuviotehtava-leipomo-780b"
+   "deck": "lajittele-kuvat-post-office-vs-dinosaurs-4ab2"
   },
   {
-   "slug": "kuviotehtava-leirielama-cdec",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-post-office-vs-vehicles-9566",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "camping",
+   "theme": "post_office-vs-vehicles",
    "level": "esikoulu",
-   "deck": "kuviotehtava-leirielama-cdec"
+   "deck": "lajittele-kuvat-post-office-vs-vehicles-9566"
   },
   {
-   "slug": "kuviotehtava-lelut-8710",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-shapes-vs-animals-87db",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "toys",
+   "theme": "shapes-vs-animals",
    "level": "esikoulu",
-   "deck": "kuviotehtava-lelut-8710"
+   "deck": "lajittele-kuvat-shapes-vs-animals-87db"
   },
   {
-   "slug": "kuviotehtava-lemmikit-7b2f",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-shapes-vs-dinosaurs-4552",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "pets",
+   "theme": "shapes-vs-dinosaurs",
    "level": "esikoulu",
-   "deck": "kuviotehtava-lemmikit-7b2f"
+   "deck": "lajittele-kuvat-shapes-vs-dinosaurs-4552"
   },
   {
-   "slug": "kuviotehtava-lentavat-asiat-0c72",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-shapes-vs-vehicles-42a2",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "things_that_fly",
+   "theme": "shapes-vs-vehicles",
    "level": "esikoulu",
-   "deck": "kuviotehtava-lentavat-asiat-0c72"
+   "deck": "lajittele-kuvat-shapes-vs-vehicles-42a2"
   },
   {
-   "slug": "kuviotehtava-linnut-2-336d",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-space-vs-animals-81fd",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "birds_2",
+   "theme": "space-vs-animals",
    "level": "esikoulu",
-   "deck": "kuviotehtava-linnut-2-336d"
+   "deck": "lajittele-kuvat-space-vs-animals-81fd"
   },
   {
-   "slug": "kuviotehtava-luokkahuone-4317",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-space-vs-dinosaurs-9759",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "classroom",
+   "theme": "space-vs-dinosaurs",
    "level": "esikoulu",
-   "deck": "kuviotehtava-luokkahuone-4317"
+   "deck": "lajittele-kuvat-space-vs-dinosaurs-9759"
   },
   {
-   "slug": "kuviotehtava-maatilan-elaimet-f73f",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-space-vs-flowers-0a36",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "farm_animals",
+   "theme": "space-vs-flowers",
    "level": "esikoulu",
-   "deck": "kuviotehtava-maatilan-elaimet-f73f"
+   "deck": "lajittele-kuvat-space-vs-flowers-0a36"
   },
   {
-   "slug": "kuviotehtava-matelijat-ja-sammakkoelaimet-42df",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-space-vs-vehicles-bc12",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "reptiles_and_amphibians",
+   "theme": "space-vs-vehicles",
    "level": "esikoulu",
-   "deck": "kuviotehtava-matelijat-ja-sammakkoelaimet-42df"
+   "deck": "lajittele-kuvat-space-vs-vehicles-bc12"
   },
   {
-   "slug": "kuviotehtava-merielama-7bdc",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-spring-vs-animals-4d63",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "ocean_life",
+   "theme": "spring-vs-animals",
    "level": "esikoulu",
-   "deck": "kuviotehtava-merielama-7bdc"
+   "deck": "lajittele-kuvat-spring-vs-animals-4d63"
   },
   {
-   "slug": "kuviotehtava-metsan-elaimet-1a36",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-spring-vs-dinosaurs-a62d",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "forest_creatures",
+   "theme": "spring-vs-dinosaurs",
    "level": "esikoulu",
-   "deck": "kuviotehtava-metsan-elaimet-1a36"
+   "deck": "lajittele-kuvat-spring-vs-dinosaurs-a62d"
   },
   {
-   "slug": "kuviotehtava-muodot-7a1c",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-spring-vs-vehicles-819f",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "shapes",
+   "theme": "spring-vs-vehicles",
    "level": "esikoulu",
-   "deck": "kuviotehtava-muodot-7a1c"
+   "deck": "lajittele-kuvat-spring-vs-vehicles-819f"
   },
   {
-   "slug": "kuviotehtava-musiikki-34ab",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-summer-vs-animals-9b2c",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "music",
+   "theme": "summer-vs-animals",
    "level": "esikoulu",
-   "deck": "kuviotehtava-musiikki-34ab"
+   "deck": "lajittele-kuvat-summer-vs-animals-9b2c"
   },
   {
-   "slug": "kuviotehtava-paasiainen-b5f5",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-summer-vs-dinosaurs-6ff0",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "easter",
+   "theme": "summer-vs-dinosaurs",
    "level": "esikoulu",
-   "deck": "kuviotehtava-paasiainen-b5f5"
+   "deck": "lajittele-kuvat-summer-vs-dinosaurs-6ff0"
   },
   {
-   "slug": "kuviotehtava-postitoimisto-d675",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-summer-vs-flowers-2fc5",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "post_office",
+   "theme": "summer-vs-flowers",
    "level": "esikoulu",
-   "deck": "kuviotehtava-postitoimisto-d675"
+   "deck": "lajittele-kuvat-summer-vs-flowers-2fc5"
   },
   {
-   "slug": "kuviotehtava-puut-9f70",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-summer-vs-vehicles-2411",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "tree",
+   "theme": "summer-vs-vehicles",
    "level": "esikoulu",
-   "deck": "kuviotehtava-puut-9f70"
+   "deck": "lajittele-kuvat-summer-vs-vehicles-2411"
   },
   {
-   "slug": "kuviotehtava-ranta-c1ea",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-thanksgivinng-vs-animals-c964",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "beach",
+   "theme": "thanksgivinng-vs-animals",
    "level": "esikoulu",
-   "deck": "kuviotehtava-ranta-c1ea"
+   "deck": "lajittele-kuvat-thanksgivinng-vs-animals-c964"
   },
   {
-   "slug": "kuviotehtava-ruokakaupassa-aea5",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-thanksgivinng-vs-dinosaurs-8ba8",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "at_the_supermarket",
+   "theme": "thanksgivinng-vs-dinosaurs",
    "level": "esikoulu",
-   "deck": "kuviotehtava-ruokakaupassa-aea5"
+   "deck": "lajittele-kuvat-thanksgivinng-vs-dinosaurs-8ba8"
   },
   {
-   "slug": "kuviotehtava-ruumiinosat-0321",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-thanksgivinng-vs-vehicles-c09f",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "body_parts",
+   "theme": "thanksgivinng-vs-vehicles",
    "level": "esikoulu",
-   "deck": "kuviotehtava-ruumiinosat-0321"
+   "deck": "lajittele-kuvat-thanksgivinng-vs-vehicles-c09f"
   },
   {
-   "slug": "kuviotehtava-saa-2a08",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-things-that-fly-vs-dinosaurs-0644",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "weather",
+   "theme": "things_that_fly-vs-dinosaurs",
    "level": "esikoulu",
-   "deck": "kuviotehtava-saa-2a08"
+   "deck": "lajittele-kuvat-things-that-fly-vs-dinosaurs-0644"
   },
   {
-   "slug": "kuviotehtava-sairaala-3fb1",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-things-that-fly-vs-vehicles-f31e",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "hospital",
+   "theme": "things_that_fly-vs-vehicles",
    "level": "esikoulu",
-   "deck": "kuviotehtava-sairaala-3fb1"
+   "deck": "lajittele-kuvat-things-that-fly-vs-vehicles-f31e"
   },
   {
-   "slug": "kuviotehtava-talvi-a91a",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-tools-vs-dinosaurs-e6d1",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "winter",
+   "theme": "tools-vs-dinosaurs",
    "level": "esikoulu",
-   "deck": "kuviotehtava-talvi-a91a"
+   "deck": "lajittele-kuvat-tools-vs-dinosaurs-e6d1"
   },
   {
-   "slug": "kuviotehtava-tunteet-b401",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-tools-vs-vehicles-9a06",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "emotions",
+   "theme": "tools-vs-vehicles",
    "level": "esikoulu",
-   "deck": "kuviotehtava-tunteet-b401"
+   "deck": "lajittele-kuvat-tools-vs-vehicles-9a06"
   },
   {
-   "slug": "kuviotehtava-tyokalut-8cfd",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-toys-vs-animals-426d",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "tools",
+   "theme": "toys-vs-animals",
    "level": "esikoulu",
-   "deck": "kuviotehtava-tyokalut-8cfd"
+   "deck": "lajittele-kuvat-toys-vs-animals-426d"
   },
   {
-   "slug": "kuviotehtava-vaatteet-43d2",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-toys-vs-dinosaurs-68aa",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "clothing",
+   "theme": "toys-vs-dinosaurs",
    "level": "esikoulu",
-   "deck": "kuviotehtava-vaatteet-43d2"
+   "deck": "lajittele-kuvat-toys-vs-dinosaurs-68aa"
   },
   {
-   "slug": "kuviotehtava-varit-7f93",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-toys-vs-vehicles-51d5",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "colors",
+   "theme": "toys-vs-vehicles",
    "level": "esikoulu",
-   "deck": "kuviotehtava-varit-7f93"
+   "deck": "lajittele-kuvat-toys-vs-vehicles-51d5"
   },
   {
-   "slug": "kuviotehtava-vihannekset-c93c",
-   "type": "pattern-worksheet",
+   "slug": "lajittele-kuvat-tree-vs-animals-c6a7",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "vegetables",
+   "theme": "tree-vs-animals",
    "level": "esikoulu",
-   "deck": "kuviotehtava-vihannekset-c93c"
+   "deck": "lajittele-kuvat-tree-vs-animals-c6a7"
+  },
+  {
+   "slug": "lajittele-kuvat-tree-vs-dinosaurs-b2ac",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "tree-vs-dinosaurs",
+   "level": "esikoulu",
+   "deck": "lajittele-kuvat-tree-vs-dinosaurs-b2ac"
+  },
+  {
+   "slug": "lajittele-kuvat-tree-vs-vehicles-63ec",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "tree-vs-vehicles",
+   "level": "esikoulu",
+   "deck": "lajittele-kuvat-tree-vs-vehicles-63ec"
+  },
+  {
+   "slug": "lajittele-kuvat-vegetables-vs-dinosaurs-e4dc",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "vegetables-vs-dinosaurs",
+   "level": "esikoulu",
+   "deck": "lajittele-kuvat-vegetables-vs-dinosaurs-e4dc"
+  },
+  {
+   "slug": "lajittele-kuvat-vegetables-vs-vehicles-9f09",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "vegetables-vs-vehicles",
+   "level": "esikoulu",
+   "deck": "lajittele-kuvat-vegetables-vs-vehicles-9f09"
+  },
+  {
+   "slug": "lajittele-kuvat-vehicles-vs-animals-6de9",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "vehicles-vs-animals",
+   "level": "esikoulu",
+   "deck": "lajittele-kuvat-vehicles-vs-animals-6de9"
+  },
+  {
+   "slug": "lajittele-kuvat-vehicles-vs-breakfast-4119",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "vehicles-vs-breakfast",
+   "level": "esikoulu",
+   "deck": "lajittele-kuvat-vehicles-vs-breakfast-4119"
+  },
+  {
+   "slug": "lajittele-kuvat-vehicles-vs-dinosaurs-dee9",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "vehicles-vs-dinosaurs",
+   "level": "esikoulu",
+   "deck": "lajittele-kuvat-vehicles-vs-dinosaurs-dee9"
+  },
+  {
+   "slug": "lajittele-kuvat-vehicles-vs-flowers-99e6",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "vehicles-vs-flowers",
+   "level": "esikoulu",
+   "deck": "lajittele-kuvat-vehicles-vs-flowers-99e6"
+  },
+  {
+   "slug": "lajittele-kuvat-weather-vs-dinosaurs-aade",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "weather-vs-dinosaurs",
+   "level": "esikoulu",
+   "deck": "lajittele-kuvat-weather-vs-dinosaurs-aade"
+  },
+  {
+   "slug": "lajittele-kuvat-weather-vs-vehicles-e8a6",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "weather-vs-vehicles",
+   "level": "esikoulu",
+   "deck": "lajittele-kuvat-weather-vs-vehicles-e8a6"
+  },
+  {
+   "slug": "lajittele-kuvat-winter-vs-dinosaurs-6494",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "winter-vs-dinosaurs",
+   "level": "esikoulu",
+   "deck": "lajittele-kuvat-winter-vs-dinosaurs-6494"
+  },
+  {
+   "slug": "lajittele-kuvat-winter-vs-vehicles-ffef",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "winter-vs-vehicles",
+   "level": "esikoulu",
+   "deck": "lajittele-kuvat-winter-vs-vehicles-ffef"
+  },
+  {
+   "slug": "lajittele-kuvat-zoo-animals-vs-dinosaurs-58e1",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "zoo_animals-vs-dinosaurs",
+   "level": "esikoulu",
+   "deck": "lajittele-kuvat-zoo-animals-vs-dinosaurs-58e1"
+  },
+  {
+   "slug": "lajittele-kuvat-zoo-animals-vs-flowers-e4bf",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "zoo_animals-vs-flowers",
+   "level": "esikoulu",
+   "deck": "lajittele-kuvat-zoo-animals-vs-flowers-e4bf"
+  },
+  {
+   "slug": "lajittele-kuvat-zoo-animals-vs-vehicles-de1f",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "zoo_animals-vs-vehicles",
+   "level": "esikoulu",
+   "deck": "lajittele-kuvat-zoo-animals-vs-vehicles-de1f"
   }
  ]
 }

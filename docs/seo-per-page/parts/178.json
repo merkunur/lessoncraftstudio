@@ -2,763 +2,667 @@
  "part": 178,
  "locale": "it",
  "classes": [
-  "code-addition::secret-word",
-  "odd-one-out::same-theme"
+  "subtraction::image-number",
+  "subtraction::mixed"
  ],
  "splitOf": null,
- "count": 94,
+ "count": 82,
  "pages": [
   {
-   "slug": "addizione-codificata-parola-segreta-abbigliamento-9ac2",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-abbigliamento-4ea7",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "clothing",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-abbigliamento-9ac2"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-abbigliamento-4ea7"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-accessori-ef05",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-accessori-7010",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "accessories",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-accessori-ef05"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-accessori-7010"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-al-supermercato-4ad1",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-al-supermercato-24c5",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "at_the_supermarket",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-al-supermercato-4ad1"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-al-supermercato-24c5"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-alberi-54d7",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-alberi-02bd",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "tree",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-alberi-54d7"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-alberi-02bd"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-animali-5d73",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-animali-634f",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "animals",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-animali-5d73"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-animali-634f"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-animali-della-fattoria-a60b",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-animali-della-fattoria-853c",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "farm_animals",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-animali-della-fattoria-a60b"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-animali-della-fattoria-853c"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-animali-dello-zoo-4a33",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-animali-dello-zoo-04e7",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "zoo_animals",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-animali-dello-zoo-4a33"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-animali-dello-zoo-04e7"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-animali-domestici-2342",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-animali-domestici-902b",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "pets",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-animali-domestici-2342"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-animali-domestici-902b"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-attivita-a287",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "activities",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-attivita-a287"
-  },
-  {
-   "slug": "addizione-codificata-parola-segreta-attrezzi-ab82",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-attrezzi-629a",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "tools",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-attrezzi-ab82"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-attrezzi-629a"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-aula-be6c",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-aula-7b67",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "classroom",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-aula-be6c"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-aula-7b67"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-campeggio-cbe3",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-campeggio-c6e1",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "camping",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-campeggio-cbe3"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-campeggio-c6e1"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-colazione-0697",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-colazione-e6be",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "breakfast",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-colazione-0697"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-colazione-e6be"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-colori-c5a7",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "colors",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-colori-c5a7"
-  },
-  {
-   "slug": "addizione-codificata-parola-segreta-cose-che-volano-b359",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-cose-che-volano-2dbc",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "things_that_fly",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-cose-che-volano-b359"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-cose-che-volano-2dbc"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-creature-della-foresta-67ee",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-creature-della-foresta-1d4c",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "forest_creatures",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-creature-della-foresta-67ee"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-creature-della-foresta-1d4c"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-dinosauri-2ea6",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-dinosauri-86e9",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "dinosaurs",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-dinosauri-2ea6"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-dinosauri-86e9"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-dolci-e-dolciumi-1fef",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-dolci-e-dolciumi-4a4d",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "desserts_and_sweets",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-dolci-e-dolciumi-1fef"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-dolci-e-dolciumi-4a4d"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-emozioni-3b0c",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "emotions",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-emozioni-3b0c"
-  },
-  {
-   "slug": "addizione-codificata-parola-segreta-estate-7e6d",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "summer",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-estate-7e6d"
-  },
-  {
-   "slug": "addizione-codificata-parola-segreta-fiori-3593",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-fiori-374c",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "flowers",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-fiori-3593"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-fiori-374c"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-forme-a194",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-forme-35bf",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "shapes",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-forme-a194"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-forme-35bf"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-frutta-6561",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-frutta-aca0",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "fruits",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-frutta-6561"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-frutta-aca0"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-giocattoli-29b9",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-giocattoli-e5c1",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "toys",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-giocattoli-29b9"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-giocattoli-e5c1"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-giorno-del-ringraziamento-9d77",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-giorno-del-ringraziamento-fd52",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "thanksgivinng",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-giorno-del-ringraziamento-9d77"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-giorno-del-ringraziamento-fd52"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-in-giro-per-casa-f475",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-in-giro-per-casa-4ccc",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "around_the_house",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-in-giro-per-casa-f475"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-in-giro-per-casa-4ccc"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-insetti-e-scarafaggi-26c2",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-insetti-e-scarafaggi-88bd",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "insects_and_bugs",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-insetti-e-scarafaggi-26c2"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-insetti-e-scarafaggi-88bd"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-inverno-b245",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "winter",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-inverno-b245"
-  },
-  {
-   "slug": "addizione-codificata-parola-segreta-meteo-0764",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "weather",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-meteo-0764"
-  },
-  {
-   "slug": "addizione-codificata-parola-segreta-mobili-da45",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-mobili-d7ac",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "furniture",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-mobili-da45"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-mobili-d7ac"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-musica-acdd",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-musica-45a1",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "music",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-musica-acdd"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-musica-45a1"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-natale-2fe3",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-natale-56f2",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "christmas",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-natale-2fe3"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-natale-56f2"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-ospedale-611e",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-ospedale-a4a5",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "hospital",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-ospedale-611e"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-ospedale-a4a5"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-panetteria-c14f",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-panetteria-6c3a",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "bakery",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-panetteria-c14f"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-panetteria-6c3a"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-parti-del-corpo-85c5",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "body_parts",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-parti-del-corpo-85c5"
-  },
-  {
-   "slug": "addizione-codificata-parola-segreta-pasqua-a471",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-pasqua-1c8b",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "easter",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-pasqua-a471"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-pasqua-1c8b"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-primavera-58a1",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "spring",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-primavera-58a1"
-  },
-  {
-   "slug": "addizione-codificata-parola-segreta-professioni-bc01",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-professioni-37b8",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "occupations",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-professioni-bc01"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-professioni-37b8"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-rettili-e-anfibi-4b49",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-rettili-e-anfibi-14f1",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "reptiles_and_amphibians",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-rettili-e-anfibi-4b49"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-rettili-e-anfibi-14f1"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-spazio-345b",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-spazio-5f83",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "space",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-spazio-345b"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-spazio-5f83"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-spiaggia-c178",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "sottrazione-immagine-numero-spiaggia-d4ed",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "beach",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-spiaggia-c178"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-spiaggia-d4ed"
   },
   {
-   "slug": "addizione-codificata-parola-segreta-uccelli-1f2a",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "birds",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-uccelli-1f2a"
-  },
-  {
-   "slug": "addizione-codificata-parola-segreta-ufficio-postale-ace9",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "post_office",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-ufficio-postale-ace9"
-  },
-  {
-   "slug": "addizione-codificata-parola-segreta-utensili-da-cucina-583f",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "kitchen_tools",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-utensili-da-cucina-583f"
-  },
-  {
-   "slug": "addizione-codificata-parola-segreta-veicoli-0979",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "vehicles",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-veicoli-0979"
-  },
-  {
-   "slug": "addizione-codificata-parola-segreta-verdure-1a17",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "vegetables",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-verdure-1a17"
-  },
-  {
-   "slug": "addizione-codificata-parola-segreta-vita-oceanica-0a93",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "ocean_life",
-   "level": "classe-seconda",
-   "deck": "addizione-codificata-parola-segreta-vita-oceanica-0a93"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-abbigliamento-8b5f",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "clothing",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-abbigliamento-8b5f"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-accessori-f5c4",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "accessories",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-accessori-f5c4"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-al-supermercato-64c9",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "at_the_supermarket",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-al-supermercato-64c9"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-alberi-4c38",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "tree",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-alberi-4c38"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-animali",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "animals",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-animali"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-animali-della-fattoria-2f39",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "farm_animals",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-animali-della-fattoria-2f39"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-animali-dello-zoo-dfad",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "zoo_animals",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-animali-dello-zoo-dfad"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-animali-domestici-67a6",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "pets",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-animali-domestici-67a6"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-attivita-6217",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "activities",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-attivita-6217"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-attrezzi-b05b",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "tools",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-attrezzi-b05b"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-aula-9c8f",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "classroom",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-aula-9c8f"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-campeggio-fda2",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "camping",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-campeggio-fda2"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-colazione-69da",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "breakfast",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-colazione-69da"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-colori-68c7",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "colors",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-colori-68c7"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-cose-che-volano-5656",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "things_that_fly",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-cose-che-volano-5656"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-creature-della-foresta-56e4",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "forest_creatures",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-creature-della-foresta-56e4"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-dinosauri-ba82",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "dinosaurs",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-dinosauri-ba82"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-dolci-e-dolciumi-9f91",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "desserts_and_sweets",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-dolci-e-dolciumi-9f91"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-emozioni-bd74",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "emotions",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-emozioni-bd74"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-estate-e96f",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "summer",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-estate-e96f"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-fiori-187b",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "flowers",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-fiori-187b"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-forme-7321",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "shapes",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-forme-7321"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-frutta-123c",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "fruits",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-frutta-123c"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-giocattoli-9122",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "toys",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-giocattoli-9122"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-giorno-del-ringraziamento-1f9b",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "thanksgivinng",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-giorno-del-ringraziamento-1f9b"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-in-giro-per-casa-3163",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "around_the_house",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-in-giro-per-casa-3163"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-insetti-e-scarafaggi-6446",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "insects_and_bugs",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-insetti-e-scarafaggi-6446"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-inverno-9955",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "winter",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-inverno-9955"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-meteo-dd19",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "weather",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-meteo-dd19"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-mobili-cee7",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "furniture",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-mobili-cee7"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-musica-71ff",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "music",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-musica-71ff"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-natale-3eb6",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "christmas",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-natale-3eb6"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-ospedale-e30d",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "hospital",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-ospedale-e30d"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-panetteria-0d7a",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "bakery",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-panetteria-0d7a"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-parti-del-corpo-5010",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "body_parts",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-parti-del-corpo-5010"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-pasqua-9ca1",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "easter",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-pasqua-9ca1"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-primavera-db00",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "spring",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-primavera-db00"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-professioni-eccc",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "occupations",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-professioni-eccc"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-rettili-e-anfibi-215f",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "reptiles_and_amphibians",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-rettili-e-anfibi-215f"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-spazio-e6dd",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "space",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-spazio-e6dd"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-spiaggia-f47d",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "beach",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-spiaggia-f47d"
-  },
-  {
-   "slug": "l-intruso-stesso-tema-uccelli-2-c143",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "sottrazione-immagine-numero-uccelli-2-4930",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "birds_2",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-uccelli-2-c143"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-uccelli-2-4930"
   },
   {
-   "slug": "l-intruso-stesso-tema-uccelli-f652",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "sottrazione-immagine-numero-uccelli-6c4e",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "birds",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-uccelli-f652"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-uccelli-6c4e"
   },
   {
-   "slug": "l-intruso-stesso-tema-ufficio-postale-92e5",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "sottrazione-immagine-numero-ufficio-postale-c7ee",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "post_office",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-ufficio-postale-92e5"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-ufficio-postale-c7ee"
   },
   {
-   "slug": "l-intruso-stesso-tema-utensili-da-cucina-042d",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "sottrazione-immagine-numero-utensili-da-cucina-d44f",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "kitchen_tools",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-utensili-da-cucina-042d"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-utensili-da-cucina-d44f"
   },
   {
-   "slug": "l-intruso-stesso-tema-veicoli-8f9d",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "sottrazione-immagine-numero-varie-806f",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "miscellaneous",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-varie-806f"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-veicoli-5a6c",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "vehicles",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-veicoli-8f9d"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-veicoli-5a6c"
   },
   {
-   "slug": "l-intruso-stesso-tema-verdure-82c7",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "sottrazione-immagine-numero-verdure-4718",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "vegetables",
-   "level": "infanzia",
-   "deck": "l-intruso-stesso-tema-verdure-82c7"
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-verdure-4718"
+  },
+  {
+   "slug": "sottrazione-immagine-numero-vita-oceanica-0299",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "ocean_life",
+   "level": "classe-prima",
+   "deck": "sottrazione-immagine-numero-vita-oceanica-0299"
+  },
+  {
+   "slug": "sottrazione-misto-abbigliamento-0da0",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-abbigliamento-0da0"
+  },
+  {
+   "slug": "sottrazione-misto-accessori-0033",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-accessori-0033"
+  },
+  {
+   "slug": "sottrazione-misto-al-supermercato-1823",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-al-supermercato-1823"
+  },
+  {
+   "slug": "sottrazione-misto-alberi-dcf5",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-alberi-dcf5"
+  },
+  {
+   "slug": "sottrazione-misto-animali-c4c5",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-animali-c4c5"
+  },
+  {
+   "slug": "sottrazione-misto-animali-della-fattoria-5144",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-animali-della-fattoria-5144"
+  },
+  {
+   "slug": "sottrazione-misto-animali-dello-zoo-fe1f",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-animali-dello-zoo-fe1f"
+  },
+  {
+   "slug": "sottrazione-misto-animali-domestici-dda1",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-animali-domestici-dda1"
+  },
+  {
+   "slug": "sottrazione-misto-attrezzi-e545",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-attrezzi-e545"
+  },
+  {
+   "slug": "sottrazione-misto-aula-77f3",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-aula-77f3"
+  },
+  {
+   "slug": "sottrazione-misto-campeggio-c58a",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-campeggio-c58a"
+  },
+  {
+   "slug": "sottrazione-misto-colazione-d797",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-colazione-d797"
+  },
+  {
+   "slug": "sottrazione-misto-cose-che-volano-81fb",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-cose-che-volano-81fb"
+  },
+  {
+   "slug": "sottrazione-misto-creature-della-foresta-e05c",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-creature-della-foresta-e05c"
+  },
+  {
+   "slug": "sottrazione-misto-dinosauri-f912",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-dinosauri-f912"
+  },
+  {
+   "slug": "sottrazione-misto-dolci-e-dolciumi-0589",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-dolci-e-dolciumi-0589"
+  },
+  {
+   "slug": "sottrazione-misto-fiori-a213",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-fiori-a213"
+  },
+  {
+   "slug": "sottrazione-misto-forme-e67b",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-forme-e67b"
+  },
+  {
+   "slug": "sottrazione-misto-frutta-f0d1",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-frutta-f0d1"
+  },
+  {
+   "slug": "sottrazione-misto-giocattoli-4c15",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-giocattoli-4c15"
+  },
+  {
+   "slug": "sottrazione-misto-giorno-del-ringraziamento-eddb",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-giorno-del-ringraziamento-eddb"
+  },
+  {
+   "slug": "sottrazione-misto-in-giro-per-casa-df81",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-in-giro-per-casa-df81"
+  },
+  {
+   "slug": "sottrazione-misto-insetti-e-scarafaggi-36e8",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-insetti-e-scarafaggi-36e8"
+  },
+  {
+   "slug": "sottrazione-misto-mobili-606b",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-mobili-606b"
+  },
+  {
+   "slug": "sottrazione-misto-musica-31b6",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-musica-31b6"
+  },
+  {
+   "slug": "sottrazione-misto-natale-6713",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-natale-6713"
+  },
+  {
+   "slug": "sottrazione-misto-ospedale-5d17",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-ospedale-5d17"
+  },
+  {
+   "slug": "sottrazione-misto-panetteria-a45f",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-panetteria-a45f"
+  },
+  {
+   "slug": "sottrazione-misto-pasqua-2213",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-pasqua-2213"
+  },
+  {
+   "slug": "sottrazione-misto-professioni-6eac",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-professioni-6eac"
+  },
+  {
+   "slug": "sottrazione-misto-rettili-e-anfibi-37b4",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-rettili-e-anfibi-37b4"
+  },
+  {
+   "slug": "sottrazione-misto-spazio-0ae9",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-spazio-0ae9"
+  },
+  {
+   "slug": "sottrazione-misto-spiaggia-6159",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-spiaggia-6159"
+  },
+  {
+   "slug": "sottrazione-misto-uccelli-2-8597",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-uccelli-2-8597"
+  },
+  {
+   "slug": "sottrazione-misto-uccelli-d892",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-uccelli-d892"
+  },
+  {
+   "slug": "sottrazione-misto-ufficio-postale-4581",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-ufficio-postale-4581"
+  },
+  {
+   "slug": "sottrazione-misto-utensili-da-cucina-c467",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-utensili-da-cucina-c467"
+  },
+  {
+   "slug": "sottrazione-misto-varie-d670",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "miscellaneous",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-varie-d670"
+  },
+  {
+   "slug": "sottrazione-misto-veicoli-cf69",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-veicoli-cf69"
+  },
+  {
+   "slug": "sottrazione-misto-verdure-f4ea",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-verdure-f4ea"
+  },
+  {
+   "slug": "sottrazione-misto-vita-oceanica-1b49",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "classe-prima",
+   "deck": "sottrazione-misto-vita-oceanica-1b49"
   }
  ]
 }

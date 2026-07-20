@@ -2,779 +2,651 @@
  "part": 234,
  "locale": "sv",
  "classes": [
-  "picture-path::choose-path",
-  "sudoku::easy"
+  "addition::find-addend",
+  "addition::image-image"
  ],
  "splitOf": null,
- "count": 96,
+ "count": 80,
  "pages": [
   {
-   "slug": "bildvag-valj-ratt-vag-aktiviteter-9bd8",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "activities",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-aktiviteter-9bd8"
-  },
-  {
-   "slug": "bildvag-valj-ratt-vag-bageri-0d28",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-bageri-f3de",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "bakery",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-bageri-0d28"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-bageri-f3de"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-blommor-6f5e",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-blommor-b338",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "flowers",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-blommor-6f5e"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-blommor-b338"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-bondgardsdjur-b9a4",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-bondgardsdjur-0f3f",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "farm_animals",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-bondgardsdjur-b9a4"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-bondgardsdjur-0f3f"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-camping-6811",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-camping-66d3",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "camping",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-camping-6811"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-camping-66d3"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-dinosaurier-2c61",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-dinosaurier-900b",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "dinosaurs",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-dinosaurier-2c61"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-dinosaurier-900b"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-djur-19b6",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-djur-105b",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "animals",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-djur-19b6"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-djur-105b"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-djurparksdjur-9a81",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-djurparksdjur-0974",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "zoo_animals",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-djurparksdjur-9a81"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-djurparksdjur-0974"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-efterratter-och-godis-1b5d",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-efterratter-och-godis-81ae",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "desserts_and_sweets",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-efterratter-och-godis-1b5d"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-efterratter-och-godis-81ae"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-faglar-2-e7dc",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-faglar-2-dee0",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "birds_2",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-faglar-2-e7dc"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-faglar-2-dee0"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-faglar-884a",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-faglar-6367",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "birds",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-faglar-884a"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-faglar-6367"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-farger-0f26",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "colors",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-farger-0f26"
-  },
-  {
-   "slug": "bildvag-valj-ratt-vag-fordon-cf44",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-fordon-6de6",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "vehicles",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-fordon-cf44"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-fordon-6de6"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-former-3a7f",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-former-afe9",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "shapes",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-former-3a7f"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-former-afe9"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-frukost-fe3c",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-frukost-38d3",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "breakfast",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-frukost-fe3c"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-frukost-38d3"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-frukter-4ca8",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-frukter-82be",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "fruits",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-frukter-4ca8"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-frukter-82be"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-gronsaker-0fcd",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-gronsaker-a71b",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "vegetables",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-gronsaker-0fcd"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-gronsaker-a71b"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-havsliv-237f",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-havsliv-a5b2",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "ocean_life",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-havsliv-237f"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-havsliv-a5b2"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-husdjur-9ddd",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-husdjur-3b4a",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "pets",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-husdjur-9ddd"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-husdjur-3b4a"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-i-snabbkopet-1e88",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-i-snabbkopet-8662",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "at_the_supermarket",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-i-snabbkopet-1e88"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-i-snabbkopet-8662"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-insekter-och-kryp-3208",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-insekter-och-kryp-a36a",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "insects_and_bugs",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-insekter-och-kryp-3208"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-insekter-och-kryp-a36a"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-jul-b33a",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-jul-73f6",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "christmas",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-jul-b33a"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-jul-73f6"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-kanslor-2f2d",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "emotions",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-kanslor-2f2d"
-  },
-  {
-   "slug": "bildvag-valj-ratt-vag-klader-e3fd",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-klader-5096",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "clothing",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-klader-e3fd"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-klader-5096"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-klassrum-9301",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-klassrum-ddc5",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "classroom",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-klassrum-9301"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-klassrum-ddc5"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-koksredskap-a598",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-koksredskap-14ba",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "kitchen_tools",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-koksredskap-a598"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-koksredskap-14ba"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-kroppsdelar-8fd1",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "body_parts",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-kroppsdelar-8fd1"
-  },
-  {
-   "slug": "bildvag-valj-ratt-vag-leksaker-21da",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-leksaker-6d66",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "toys",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-leksaker-21da"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-leksaker-6d66"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-mobler-b52e",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-mobler-789d",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "furniture",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-mobler-b52e"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-mobler-789d"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-musik-6c0d",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-musik-cbfd",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "music",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-musik-6c0d"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-musik-cbfd"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-pask-4b58",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-pask-5377",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "easter",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-pask-4b58"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-pask-5377"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-postkontor-80ec",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-postkontor-aba3",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "post_office",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-postkontor-80ec"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-postkontor-aba3"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-reptiler-och-groddjur-66d2",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-reptiler-och-groddjur-5437",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "reptiles_and_amphibians",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-reptiler-och-groddjur-66d2"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-reptiler-och-groddjur-5437"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-runt-huset-bd3a",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-runt-huset-80ca",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "around_the_house",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-runt-huset-bd3a"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-runt-huset-80ca"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-rymden-3ffb",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-rymden-676a",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "space",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-rymden-3ffb"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-rymden-676a"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-saker-som-flyger-2b90",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-saker-som-flyger-94d6",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "things_that_fly",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-saker-som-flyger-2b90"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-saker-som-flyger-94d6"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-sjukhus-2c52",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-sjukhus-68af",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "hospital",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-sjukhus-2c52"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-sjukhus-68af"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-skogsdjur-234a",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-skogsdjur-e33f",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "forest_creatures",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-skogsdjur-234a"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-skogsdjur-e33f"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-sommar-9383",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "summer",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-sommar-9383"
-  },
-  {
-   "slug": "bildvag-valj-ratt-vag-strand-285f",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-strand-c792",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "beach",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-strand-285f"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-strand-c792"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-thanksgiving-725c",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-thanksgiving-df2f",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "thanksgivinng",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-thanksgiving-725c"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-thanksgiving-df2f"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-tillbehor-7a19",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-tillbehor-846c",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "accessories",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-tillbehor-7a19"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-tillbehor-846c"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-trad-c82e",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-trad-14a3",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "tree",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-trad-c82e"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-trad-14a3"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-vader-4089",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "weather",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-vader-4089"
-  },
-  {
-   "slug": "bildvag-valj-ratt-vag-var-7a50",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "spring",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-var-7a50"
-  },
-  {
-   "slug": "bildvag-valj-ratt-vag-verktyg-e081",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-verktyg-702a",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "tools",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-verktyg-e081"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-verktyg-702a"
   },
   {
-   "slug": "bildvag-valj-ratt-vag-vinter-f30d",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "winter",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-vinter-f30d"
-  },
-  {
-   "slug": "bildvag-valj-ratt-vag-yrken-86b4",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "addition-hitta-termen-yrken-1439",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "occupations",
-   "level": "forskola",
-   "deck": "bildvag-valj-ratt-vag-yrken-86b4"
+   "level": "ak-1",
+   "deck": "addition-hitta-termen-yrken-1439"
   },
   {
-   "slug": "bildsudoku-latt-aktiviteter-7f45",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "activities",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-aktiviteter-7f45"
-  },
-  {
-   "slug": "bildsudoku-latt-bageri-8238",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-bageri-e2d9",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "bakery",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-bageri-8238"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-bageri-e2d9"
   },
   {
-   "slug": "bildsudoku-latt-blommor-71fd",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-blommor-eb73",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "flowers",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-blommor-71fd"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-blommor-eb73"
   },
   {
-   "slug": "bildsudoku-latt-bondgardsdjur-eb54",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-bondgardsdjur-52bc",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "farm_animals",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-bondgardsdjur-eb54"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-bondgardsdjur-52bc"
   },
   {
-   "slug": "bildsudoku-latt-camping-836f",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-camping-75a5",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "camping",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-camping-836f"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-camping-75a5"
   },
   {
-   "slug": "bildsudoku-latt-dinosaurier-acf8",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-dinosaurier-aa85",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "dinosaurs",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-dinosaurier-acf8"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-dinosaurier-aa85"
   },
   {
-   "slug": "bildsudoku-latt-djur-148d",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-djur",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "animals",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-djur-148d"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-djur"
   },
   {
-   "slug": "bildsudoku-latt-djurparksdjur-f3ec",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-djurparksdjur-0e24",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "zoo_animals",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-djurparksdjur-f3ec"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-djurparksdjur-0e24"
   },
   {
-   "slug": "bildsudoku-latt-efterratter-och-godis-ed37",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-efterratter-och-godis-4d05",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "desserts_and_sweets",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-efterratter-och-godis-ed37"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-efterratter-och-godis-4d05"
   },
   {
-   "slug": "bildsudoku-latt-faglar-2-883f",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-faglar-2-fe12",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "birds_2",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-faglar-2-883f"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-faglar-2-fe12"
   },
   {
-   "slug": "bildsudoku-latt-faglar-22da",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-faglar-db19",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "birds",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-faglar-22da"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-faglar-db19"
   },
   {
-   "slug": "bildsudoku-latt-farger-b603",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "colors",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-farger-b603"
-  },
-  {
-   "slug": "bildsudoku-latt-fordon-ccd7",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-fordon-ec0d",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "vehicles",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-fordon-ccd7"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-fordon-ec0d"
   },
   {
-   "slug": "bildsudoku-latt-former-8383",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-former-6eb5",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "shapes",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-former-8383"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-former-6eb5"
   },
   {
-   "slug": "bildsudoku-latt-frukost-ccab",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-frukost-f0c8",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "breakfast",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-frukost-ccab"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-frukost-f0c8"
   },
   {
-   "slug": "bildsudoku-latt-frukter-6302",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-frukter-2df6",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "fruits",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-frukter-6302"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-frukter-2df6"
   },
   {
-   "slug": "bildsudoku-latt-gronsaker-8098",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-gronsaker-d9e4",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "vegetables",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-gronsaker-8098"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-gronsaker-d9e4"
   },
   {
-   "slug": "bildsudoku-latt-havsliv-9b5e",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-havsliv-167f",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "ocean_life",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-havsliv-9b5e"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-havsliv-167f"
   },
   {
-   "slug": "bildsudoku-latt-husdjur-7ac2",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-husdjur-4e6c",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "pets",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-husdjur-7ac2"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-husdjur-4e6c"
   },
   {
-   "slug": "bildsudoku-latt-i-snabbkopet-9ae1",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-i-snabbkopet-c339",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "at_the_supermarket",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-i-snabbkopet-9ae1"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-i-snabbkopet-c339"
   },
   {
-   "slug": "bildsudoku-latt-insekter-och-kryp-815b",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-insekter-och-kryp-21d1",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "insects_and_bugs",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-insekter-och-kryp-815b"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-insekter-och-kryp-21d1"
   },
   {
-   "slug": "bildsudoku-latt-jul-3742",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-jul-2c69",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "christmas",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-jul-3742"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-jul-2c69"
   },
   {
-   "slug": "bildsudoku-latt-kanslor-f783",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "emotions",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-kanslor-f783"
-  },
-  {
-   "slug": "bildsudoku-latt-klader-82b1",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-klader-7e2d",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "clothing",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-klader-82b1"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-klader-7e2d"
   },
   {
-   "slug": "bildsudoku-latt-klassrum-dd2e",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-klassrum-766d",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "classroom",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-klassrum-dd2e"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-klassrum-766d"
   },
   {
-   "slug": "bildsudoku-latt-koksredskap-a71b",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-koksredskap-f748",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "kitchen_tools",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-koksredskap-a71b"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-koksredskap-f748"
   },
   {
-   "slug": "bildsudoku-latt-kroppsdelar-2c5c",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "body_parts",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-kroppsdelar-2c5c"
-  },
-  {
-   "slug": "bildsudoku-latt-leksaker-4da8",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-leksaker-fc64",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "toys",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-leksaker-4da8"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-leksaker-fc64"
   },
   {
-   "slug": "bildsudoku-latt-mobler-d697",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-mobler-89e7",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "furniture",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-mobler-d697"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-mobler-89e7"
   },
   {
-   "slug": "bildsudoku-latt-musik-76b8",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-musik-39b4",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "music",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-musik-76b8"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-musik-39b4"
   },
   {
-   "slug": "bildsudoku-latt-pask-b307",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-pask-c04c",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "easter",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-pask-b307"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-pask-c04c"
   },
   {
-   "slug": "bildsudoku-latt-postkontor-6492",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-postkontor-ed0c",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "post_office",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-postkontor-6492"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-postkontor-ed0c"
   },
   {
-   "slug": "bildsudoku-latt-reptiler-och-groddjur-700e",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-reptiler-och-groddjur-5ad8",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "reptiles_and_amphibians",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-reptiler-och-groddjur-700e"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-reptiler-och-groddjur-5ad8"
   },
   {
-   "slug": "bildsudoku-latt-runt-huset-6e37",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-runt-huset-1755",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "around_the_house",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-runt-huset-6e37"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-runt-huset-1755"
   },
   {
-   "slug": "bildsudoku-latt-rymden-aad9",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-rymden-052a",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "space",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-rymden-aad9"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-rymden-052a"
   },
   {
-   "slug": "bildsudoku-latt-saker-som-flyger-7e3f",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-saker-som-flyger-66d6",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "things_that_fly",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-saker-som-flyger-7e3f"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-saker-som-flyger-66d6"
   },
   {
-   "slug": "bildsudoku-latt-sjukhus-07f5",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-sjukhus-cbbb",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "hospital",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-sjukhus-07f5"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-sjukhus-cbbb"
   },
   {
-   "slug": "bildsudoku-latt-skogsdjur-97f3",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-skogsdjur-8ec4",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "forest_creatures",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-skogsdjur-97f3"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-skogsdjur-8ec4"
   },
   {
-   "slug": "bildsudoku-latt-sommar-7895",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "summer",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-sommar-7895"
-  },
-  {
-   "slug": "bildsudoku-latt-strand-a65b",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-strand-90f2",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "beach",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-strand-a65b"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-strand-90f2"
   },
   {
-   "slug": "bildsudoku-latt-thanksgiving-d870",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-thanksgiving-f428",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "thanksgivinng",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-thanksgiving-d870"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-thanksgiving-f428"
   },
   {
-   "slug": "bildsudoku-latt-tillbehor-75d2",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-tillbehor-9f47",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "accessories",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-tillbehor-75d2"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-tillbehor-9f47"
   },
   {
-   "slug": "bildsudoku-latt-trad-6746",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-trad-e39b",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "tree",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-trad-6746"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-trad-e39b"
   },
   {
-   "slug": "bildsudoku-latt-vader-8757",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "weather",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-vader-8757"
-  },
-  {
-   "slug": "bildsudoku-latt-var-ff6c",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "spring",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-var-ff6c"
-  },
-  {
-   "slug": "bildsudoku-latt-verktyg-a467",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-verktyg-f52f",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "tools",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-verktyg-a467"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-verktyg-f52f"
   },
   {
-   "slug": "bildsudoku-latt-vinter-fd06",
-   "type": "sudoku",
-   "mode": "easy",
-   "theme": "winter",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-vinter-fd06"
-  },
-  {
-   "slug": "bildsudoku-latt-yrken-438b",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "addition-bild-bild-yrken-fdcb",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "occupations",
-   "level": "forskola",
-   "deck": "bildsudoku-latt-yrken-438b"
+   "level": "ak-1",
+   "deck": "addition-bild-bild-yrken-fdcb"
   }
  ]
 }

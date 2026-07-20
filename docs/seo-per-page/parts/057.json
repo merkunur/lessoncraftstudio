@@ -2,763 +2,779 @@
  "part": 57,
  "locale": "de",
  "classes": [
-  "missing-pieces::one-missing",
-  "picture-path::choose-path"
+  "pattern-train::aab",
+  "pattern-train::abb"
  ],
  "splitOf": null,
- "count": 94,
+ "count": 96,
  "pages": [
   {
-   "slug": "was-fehlt-1-fehlendes-teil-accessoires-9a55",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "muster-zug-aab-accessoires-0a14",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "accessories",
    "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-accessoires-9a55"
+   "deck": "muster-zug-aab-accessoires-0a14"
   },
   {
-   "slug": "was-fehlt-1-fehlendes-teil-aktivitaten-52f1",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "muster-zug-aab-aktivitaten-8803",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "activities",
    "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-aktivitaten-52f1"
+   "deck": "muster-zug-aab-aktivitaten-8803"
   },
   {
-   "slug": "was-fehlt-1-fehlendes-teil-backerei-e326",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "muster-zug-aab-backerei-345e",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "bakery",
    "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-backerei-e326"
+   "deck": "muster-zug-aab-backerei-345e"
   },
   {
-   "slug": "was-fehlt-1-fehlendes-teil-bauernhoftiere-b08c",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "muster-zug-aab-bauernhoftiere-0d3a",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "farm_animals",
    "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-bauernhoftiere-b08c"
+   "deck": "muster-zug-aab-bauernhoftiere-0d3a"
   },
   {
-   "slug": "was-fehlt-1-fehlendes-teil-baume-16b6",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "muster-zug-aab-baume-3881",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "tree",
    "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-baume-16b6"
+   "deck": "muster-zug-aab-baume-3881"
   },
   {
-   "slug": "was-fehlt-1-fehlendes-teil-berufe-e932",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "muster-zug-aab-berufe-c9be",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "occupations",
    "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-berufe-e932"
+   "deck": "muster-zug-aab-berufe-c9be"
   },
   {
-   "slug": "was-fehlt-1-fehlendes-teil-blumen-f2c1",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "muster-zug-aab-blumen-ab86",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "flowers",
    "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-blumen-f2c1"
+   "deck": "muster-zug-aab-blumen-ab86"
   },
   {
-   "slug": "was-fehlt-1-fehlendes-teil-camping-7bb0",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "muster-zug-aab-camping-5462",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "camping",
    "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-camping-7bb0"
+   "deck": "muster-zug-aab-camping-5462"
   },
   {
-   "slug": "was-fehlt-1-fehlendes-teil-desserts-und-sussigkeiten-4807",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "muster-zug-aab-desserts-und-sussigkeiten-66cc",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "desserts_and_sweets",
    "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-desserts-und-sussigkeiten-4807"
+   "deck": "muster-zug-aab-desserts-und-sussigkeiten-66cc"
   },
   {
-   "slug": "was-fehlt-1-fehlendes-teil-dinge-die-fliegen-c92a",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "muster-zug-aab-dinge-die-fliegen-d8c2",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "things_that_fly",
    "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-dinge-die-fliegen-c92a"
+   "deck": "muster-zug-aab-dinge-die-fliegen-d8c2"
   },
   {
-   "slug": "was-fehlt-1-fehlendes-teil-dinosaurier-234c",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "muster-zug-aab-dinosaurier-9f02",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "dinosaurs",
    "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-dinosaurier-234c"
+   "deck": "muster-zug-aab-dinosaurier-9f02"
   },
   {
-   "slug": "was-fehlt-1-fehlendes-teil-emotionen-2827",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "muster-zug-aab-emotionen-c1d8",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "emotions",
    "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-emotionen-2827"
+   "deck": "muster-zug-aab-emotionen-c1d8"
   },
   {
-   "slug": "was-fehlt-1-fehlendes-teil-erntedankfest-e3c5",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "muster-zug-aab-erntedankfest-226c",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "thanksgivinng",
    "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-erntedankfest-e3c5"
+   "deck": "muster-zug-aab-erntedankfest-226c"
   },
   {
-   "slug": "was-fehlt-1-fehlendes-teil-fahrzeuge-46c0",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "muster-zug-aab-fahrzeuge-ec0e",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "vehicles",
    "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-fahrzeuge-46c0"
+   "deck": "muster-zug-aab-fahrzeuge-ec0e"
   },
   {
-   "slug": "was-fehlt-1-fehlendes-teil-fruchte-2da2",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "fruits",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-fruchte-2da2"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-fruhling-25b2",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "spring",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-fruhling-25b2"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-fruhstuck-5259",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "breakfast",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-fruhstuck-5259"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-gemuse-ee75",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "vegetables",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-gemuse-ee75"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-haustiere-2423",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "pets",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-haustiere-2423"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-im-supermarkt-9d16",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "at_the_supermarket",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-im-supermarkt-9d16"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-insekten-und-kafer-7d0b",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "insects_and_bugs",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-insekten-und-kafer-7d0b"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-klassenzimmer-b0ff",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "classroom",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-klassenzimmer-b0ff"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-kleidung-8766",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "clothing",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-kleidung-8766"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-korperteile-de74",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "body_parts",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-korperteile-de74"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-krankenhaus-d384",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "hospital",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-krankenhaus-d384"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-kuchenwerkzeuge-f778",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "kitchen_tools",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-kuchenwerkzeuge-f778"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-meeresleben-168d",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "ocean_life",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-meeresleben-168d"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-mobel-8ab5",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "furniture",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-mobel-8ab5"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-musik-231b",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "music",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-musik-231b"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-ostern-f62e",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "easter",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-ostern-f62e"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-postamt-8662",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "post_office",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-postamt-8662"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-reptilien-und-amphibien-6be6",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "reptiles_and_amphibians",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-reptilien-und-amphibien-6be6"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-rund-ums-haus-5ca8",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "around_the_house",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-rund-ums-haus-5ca8"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-sommer-983f",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "summer",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-sommer-983f"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-spielzeug-622e",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "toys",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-spielzeug-622e"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-strand-f859",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "beach",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-strand-f859"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-tiere",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "animals",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-tiere"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-verschiedenes-10a7",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "miscellaneous",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-verschiedenes-10a7"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-vogel-2-e100",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "birds_2",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-vogel-2-e100"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-vogel-2caa",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "birds",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-vogel-2caa"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-waldtiere-6201",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "forest_creatures",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-waldtiere-6201"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-weihnachten-3675",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "christmas",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-weihnachten-3675"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-weltraum-5d4f",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "space",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-weltraum-5d4f"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-werkzeuge-a0f7",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "tools",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-werkzeuge-a0f7"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-wetter-fe15",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "weather",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-wetter-fe15"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-winter-44ed",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "winter",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-winter-44ed"
-  },
-  {
-   "slug": "was-fehlt-1-fehlendes-teil-zootiere-438d",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "zoo_animals",
-   "level": "vorschule",
-   "deck": "was-fehlt-1-fehlendes-teil-zootiere-438d"
-  },
-  {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-accessoires-d1b5",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "accessories",
-   "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-accessoires-d1b5"
-  },
-  {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-aktivitaten-4403",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "activities",
-   "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-aktivitaten-4403"
-  },
-  {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-backerei-f692",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "bakery",
-   "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-backerei-f692"
-  },
-  {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-bauernhoftiere-b6a7",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "farm_animals",
-   "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-bauernhoftiere-b6a7"
-  },
-  {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-baume-cbdb",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "tree",
-   "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-baume-cbdb"
-  },
-  {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-berufe-bba5",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "occupations",
-   "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-berufe-bba5"
-  },
-  {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-blumen-7bc2",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "flowers",
-   "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-blumen-7bc2"
-  },
-  {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-camping-d811",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "camping",
-   "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-camping-d811"
-  },
-  {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-desserts-und-sussigkeiten-315b",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "desserts_and_sweets",
-   "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-desserts-und-sussigkeiten-315b"
-  },
-  {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-dinge-die-fliegen-8ad9",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "things_that_fly",
-   "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-dinge-die-fliegen-8ad9"
-  },
-  {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-dinosaurier-fb9c",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "dinosaurs",
-   "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-dinosaurier-fb9c"
-  },
-  {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-emotionen-366c",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "emotions",
-   "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-emotionen-366c"
-  },
-  {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-erntedankfest-88ac",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "thanksgivinng",
-   "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-erntedankfest-88ac"
-  },
-  {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-fahrzeuge-9142",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "vehicles",
-   "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-fahrzeuge-9142"
-  },
-  {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-farben-b4a8",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-farben-365a",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "colors",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-farben-b4a8"
+   "deck": "muster-zug-aab-farben-365a"
   },
   {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-formen-671d",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-formen-c41b",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "shapes",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-formen-671d"
+   "deck": "muster-zug-aab-formen-c41b"
   },
   {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-fruchte-7bb0",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-fruchte-e5dc",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "fruits",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-fruchte-7bb0"
+   "deck": "muster-zug-aab-fruchte-e5dc"
   },
   {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-fruhling-e131",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-fruhling-1c34",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "spring",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-fruhling-e131"
+   "deck": "muster-zug-aab-fruhling-1c34"
   },
   {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-fruhstuck-6def",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-fruhstuck-55c2",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "breakfast",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-fruhstuck-6def"
+   "deck": "muster-zug-aab-fruhstuck-55c2"
   },
   {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-gemuse-1ea0",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-gemuse-1dbd",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "vegetables",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-gemuse-1ea0"
+   "deck": "muster-zug-aab-gemuse-1dbd"
   },
   {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-haustiere-7b76",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-haustiere-09bd",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "pets",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-haustiere-7b76"
+   "deck": "muster-zug-aab-haustiere-09bd"
   },
   {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-im-supermarkt-8088",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-im-supermarkt-1bf2",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "at_the_supermarket",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-im-supermarkt-8088"
+   "deck": "muster-zug-aab-im-supermarkt-1bf2"
   },
   {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-insekten-und-kafer-671b",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-insekten-und-kafer-c98c",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "insects_and_bugs",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-insekten-und-kafer-671b"
+   "deck": "muster-zug-aab-insekten-und-kafer-c98c"
   },
   {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-klassenzimmer-0c6d",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-klassenzimmer-9e40",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "classroom",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-klassenzimmer-0c6d"
+   "deck": "muster-zug-aab-klassenzimmer-9e40"
   },
   {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-kleidung-9d1d",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-kleidung-53e5",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "clothing",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-kleidung-9d1d"
+   "deck": "muster-zug-aab-kleidung-53e5"
   },
   {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-korperteile-4952",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-korperteile-931a",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "body_parts",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-korperteile-4952"
+   "deck": "muster-zug-aab-korperteile-931a"
   },
   {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-krankenhaus-1f95",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-krankenhaus-b63e",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "hospital",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-krankenhaus-1f95"
+   "deck": "muster-zug-aab-krankenhaus-b63e"
   },
   {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-kuchenwerkzeuge-adb4",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-kuchenwerkzeuge-cc4e",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "kitchen_tools",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-kuchenwerkzeuge-adb4"
+   "deck": "muster-zug-aab-kuchenwerkzeuge-cc4e"
   },
   {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-meeresleben-0b0b",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-meeresleben-6dc1",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "ocean_life",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-meeresleben-0b0b"
+   "deck": "muster-zug-aab-meeresleben-6dc1"
   },
   {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-mobel-c5f5",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-mobel-ab22",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "furniture",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-mobel-c5f5"
+   "deck": "muster-zug-aab-mobel-ab22"
   },
   {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-musik-d66e",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-musik-04a5",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "music",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-musik-d66e"
+   "deck": "muster-zug-aab-musik-04a5"
   },
   {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-ostern-56ff",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-ostern-d737",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "easter",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-ostern-56ff"
+   "deck": "muster-zug-aab-ostern-d737"
   },
   {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-postamt-c412",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-postamt-0607",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "post_office",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-postamt-c412"
+   "deck": "muster-zug-aab-postamt-0607"
   },
   {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-rund-ums-haus-6391",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-reptilien-und-amphibien-026d",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "reptiles_and_amphibians",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-reptilien-und-amphibien-026d"
+  },
+  {
+   "slug": "muster-zug-aab-rund-ums-haus-7b2d",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "around_the_house",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-rund-ums-haus-6391"
+   "deck": "muster-zug-aab-rund-ums-haus-7b2d"
   },
   {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-sommer-57b9",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-sommer-6940",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "summer",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-sommer-57b9"
+   "deck": "muster-zug-aab-sommer-6940"
   },
   {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-spielzeug-2ea1",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-spielzeug-53f0",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "toys",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-spielzeug-2ea1"
+   "deck": "muster-zug-aab-spielzeug-53f0"
   },
   {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-strand-1106",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-strand-b0d0",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "beach",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-strand-1106"
+   "deck": "muster-zug-aab-strand-b0d0"
   },
   {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-tiere-8e7d",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-tiere-2a6c",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "animals",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-tiere-8e7d"
+   "deck": "muster-zug-aab-tiere-2a6c"
   },
   {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-vogel-2-5c64",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "birds_2",
-   "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-vogel-2-5c64"
-  },
-  {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-vogel-5694",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-vogel-0a59",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "birds",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-vogel-5694"
+   "deck": "muster-zug-aab-vogel-0a59"
   },
   {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-waldtiere-363d",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-vogel-2-7a79",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "birds_2",
+   "level": "vorschule",
+   "deck": "muster-zug-aab-vogel-2-7a79"
+  },
+  {
+   "slug": "muster-zug-aab-waldtiere-8def",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "forest_creatures",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-waldtiere-363d"
+   "deck": "muster-zug-aab-waldtiere-8def"
   },
   {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-weihnachten-0f56",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-weihnachten-5bb6",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "christmas",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-weihnachten-0f56"
+   "deck": "muster-zug-aab-weihnachten-5bb6"
   },
   {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-weltraum-a3a9",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-weltraum-228a",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "space",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-weltraum-a3a9"
+   "deck": "muster-zug-aab-weltraum-228a"
   },
   {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-werkzeuge-3313",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-werkzeuge-290d",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "tools",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-werkzeuge-3313"
+   "deck": "muster-zug-aab-werkzeuge-290d"
   },
   {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-wetter-191f",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-wetter-3c92",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "weather",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-wetter-191f"
+   "deck": "muster-zug-aab-wetter-3c92"
   },
   {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-winter-65c5",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-winter-2527",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "winter",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-winter-65c5"
+   "deck": "muster-zug-aab-winter-2527"
   },
   {
-   "slug": "bildpfad-den-richtigen-weg-wahlen-zootiere-c05f",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "muster-zug-aab-zootiere-56f7",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "zoo_animals",
    "level": "vorschule",
-   "deck": "bildpfad-den-richtigen-weg-wahlen-zootiere-c05f"
+   "deck": "muster-zug-aab-zootiere-56f7"
+  },
+  {
+   "slug": "muster-zug-abb-accessoires-8e4d",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "accessories",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-accessoires-8e4d"
+  },
+  {
+   "slug": "muster-zug-abb-aktivitaten-02cb",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "activities",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-aktivitaten-02cb"
+  },
+  {
+   "slug": "muster-zug-abb-backerei-e319",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "bakery",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-backerei-e319"
+  },
+  {
+   "slug": "muster-zug-abb-bauernhoftiere-abe7",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "farm_animals",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-bauernhoftiere-abe7"
+  },
+  {
+   "slug": "muster-zug-abb-baume-4fcf",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "tree",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-baume-4fcf"
+  },
+  {
+   "slug": "muster-zug-abb-berufe-1b4c",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "occupations",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-berufe-1b4c"
+  },
+  {
+   "slug": "muster-zug-abb-blumen-8407",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "flowers",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-blumen-8407"
+  },
+  {
+   "slug": "muster-zug-abb-camping-2694",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "camping",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-camping-2694"
+  },
+  {
+   "slug": "muster-zug-abb-desserts-und-sussigkeiten-b53d",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "desserts_and_sweets",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-desserts-und-sussigkeiten-b53d"
+  },
+  {
+   "slug": "muster-zug-abb-dinge-die-fliegen-ce3b",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "things_that_fly",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-dinge-die-fliegen-ce3b"
+  },
+  {
+   "slug": "muster-zug-abb-dinosaurier-7f6e",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "dinosaurs",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-dinosaurier-7f6e"
+  },
+  {
+   "slug": "muster-zug-abb-emotionen-5e51",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "emotions",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-emotionen-5e51"
+  },
+  {
+   "slug": "muster-zug-abb-erntedankfest-25f3",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "thanksgivinng",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-erntedankfest-25f3"
+  },
+  {
+   "slug": "muster-zug-abb-fahrzeuge-eea9",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "vehicles",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-fahrzeuge-eea9"
+  },
+  {
+   "slug": "muster-zug-abb-farben-1d6c",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "colors",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-farben-1d6c"
+  },
+  {
+   "slug": "muster-zug-abb-formen-5d40",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "shapes",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-formen-5d40"
+  },
+  {
+   "slug": "muster-zug-abb-fruchte-df8c",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "fruits",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-fruchte-df8c"
+  },
+  {
+   "slug": "muster-zug-abb-fruhling-4c3b",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "spring",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-fruhling-4c3b"
+  },
+  {
+   "slug": "muster-zug-abb-fruhstuck-306d",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "breakfast",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-fruhstuck-306d"
+  },
+  {
+   "slug": "muster-zug-abb-gemuse-6984",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "vegetables",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-gemuse-6984"
+  },
+  {
+   "slug": "muster-zug-abb-haustiere-fa8b",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "pets",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-haustiere-fa8b"
+  },
+  {
+   "slug": "muster-zug-abb-im-supermarkt-345b",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "at_the_supermarket",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-im-supermarkt-345b"
+  },
+  {
+   "slug": "muster-zug-abb-insekten-und-kafer-982c",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "insects_and_bugs",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-insekten-und-kafer-982c"
+  },
+  {
+   "slug": "muster-zug-abb-klassenzimmer-f7bf",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "classroom",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-klassenzimmer-f7bf"
+  },
+  {
+   "slug": "muster-zug-abb-kleidung-77db",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "clothing",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-kleidung-77db"
+  },
+  {
+   "slug": "muster-zug-abb-korperteile-d7f0",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "body_parts",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-korperteile-d7f0"
+  },
+  {
+   "slug": "muster-zug-abb-krankenhaus-f65e",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "hospital",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-krankenhaus-f65e"
+  },
+  {
+   "slug": "muster-zug-abb-kuchenwerkzeuge-74ab",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "kitchen_tools",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-kuchenwerkzeuge-74ab"
+  },
+  {
+   "slug": "muster-zug-abb-meeresleben-e73c",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "ocean_life",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-meeresleben-e73c"
+  },
+  {
+   "slug": "muster-zug-abb-mobel-c819",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "furniture",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-mobel-c819"
+  },
+  {
+   "slug": "muster-zug-abb-musik-5d20",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "music",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-musik-5d20"
+  },
+  {
+   "slug": "muster-zug-abb-ostern-310f",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "easter",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-ostern-310f"
+  },
+  {
+   "slug": "muster-zug-abb-postamt-ed59",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "post_office",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-postamt-ed59"
+  },
+  {
+   "slug": "muster-zug-abb-reptilien-und-amphibien-7a1f",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "reptiles_and_amphibians",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-reptilien-und-amphibien-7a1f"
+  },
+  {
+   "slug": "muster-zug-abb-rund-ums-haus-ec09",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "around_the_house",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-rund-ums-haus-ec09"
+  },
+  {
+   "slug": "muster-zug-abb-sommer-806d",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "summer",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-sommer-806d"
+  },
+  {
+   "slug": "muster-zug-abb-spielzeug-0a52",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "toys",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-spielzeug-0a52"
+  },
+  {
+   "slug": "muster-zug-abb-strand-1bea",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "beach",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-strand-1bea"
+  },
+  {
+   "slug": "muster-zug-abb-tiere-978f",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "animals",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-tiere-978f"
+  },
+  {
+   "slug": "muster-zug-abb-vogel-2-e34b",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "birds_2",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-vogel-2-e34b"
+  },
+  {
+   "slug": "muster-zug-abb-vogel-c9f1",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "birds",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-vogel-c9f1"
+  },
+  {
+   "slug": "muster-zug-abb-waldtiere-7018",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "forest_creatures",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-waldtiere-7018"
+  },
+  {
+   "slug": "muster-zug-abb-weihnachten-fe32",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "christmas",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-weihnachten-fe32"
+  },
+  {
+   "slug": "muster-zug-abb-weltraum-ef3f",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "space",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-weltraum-ef3f"
+  },
+  {
+   "slug": "muster-zug-abb-werkzeuge-2b54",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "tools",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-werkzeuge-2b54"
+  },
+  {
+   "slug": "muster-zug-abb-wetter-951f",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "weather",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-wetter-951f"
+  },
+  {
+   "slug": "muster-zug-abb-winter-9e95",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "winter",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-winter-9e95"
+  },
+  {
+   "slug": "muster-zug-abb-zootiere-8328",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "zoo_animals",
+   "level": "vorschule",
+   "deck": "muster-zug-abb-zootiere-8328"
   }
  ]
 }

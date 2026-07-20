@@ -2,738 +2,731 @@
  "part": 50,
  "locale": "de",
  "classes": [
-  "crossword::null"
+  "math-worksheet::three-symbols-add-sub",
+  "alphabet-train::letter-hint"
  ],
  "splitOf": null,
- "count": 91,
+ "count": 90,
  "pages": [
   {
-   "slug": "englisch-kreuzwortraetsel-4-juli-cc4a",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-4-juli",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "4th_of_july",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-4-juli-cc4a"
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-4-juli-2755"
   },
   {
-   "slug": "englisch-kreuzwortraetsel-accessoires-9b98",
-   "type": "crossword",
-   "mode": null,
-   "theme": "accessories",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-accessoires-9b98"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-aktivitaten-293e",
-   "type": "crossword",
-   "mode": null,
-   "theme": "activities",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-aktivitaten-293e"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-backerei-5be0",
-   "type": "crossword",
-   "mode": null,
-   "theme": "bakery",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-backerei-5be0"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-bauernhoftiere-ca8e",
-   "type": "crossword",
-   "mode": null,
-   "theme": "farm_animals",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-bauernhoftiere-ca8e"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-berufe-959c",
-   "type": "crossword",
-   "mode": null,
-   "theme": "occupations",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-berufe-959c"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-blumen-77b8",
-   "type": "crossword",
-   "mode": null,
-   "theme": "flowers",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-blumen-77b8"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-camping-ed1b",
-   "type": "crossword",
-   "mode": null,
-   "theme": "camping",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-camping-ed1b"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-desserts-und-sussigkeiten-d2b6",
-   "type": "crossword",
-   "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-desserts-und-sussigkeiten-d2b6"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-dinge-die-fliegen-2b0f",
-   "type": "crossword",
-   "mode": null,
-   "theme": "things_that_fly",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-dinge-die-fliegen-2b0f"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-emotionen-be4b",
-   "type": "crossword",
-   "mode": null,
-   "theme": "emotions",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-emotionen-be4b"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-erntedankfest-548f",
-   "type": "crossword",
-   "mode": null,
-   "theme": "thanksgivinng",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-erntedankfest-548f"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-fahrzeuge-e1ef",
-   "type": "crossword",
-   "mode": null,
-   "theme": "vehicles",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-fahrzeuge-e1ef"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-farben-4730",
-   "type": "crossword",
-   "mode": null,
-   "theme": "colors",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-farben-4730"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-formen-a758",
-   "type": "crossword",
-   "mode": null,
-   "theme": "shapes",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-formen-a758"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-fruchte-d7c3",
-   "type": "crossword",
-   "mode": null,
-   "theme": "fruits",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-fruchte-d7c3"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-fruhling-bf15",
-   "type": "crossword",
-   "mode": null,
-   "theme": "spring",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-fruhling-bf15"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-fruhstuck-42c7",
-   "type": "crossword",
-   "mode": null,
-   "theme": "breakfast",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-fruhstuck-42c7"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-gemuse-6bb9",
-   "type": "crossword",
-   "mode": null,
-   "theme": "vegetables",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-gemuse-6bb9"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-haustiere-7256",
-   "type": "crossword",
-   "mode": null,
-   "theme": "pets",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-haustiere-7256"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-im-supermarkt-f075",
-   "type": "crossword",
-   "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-im-supermarkt-f075"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-insekten-und-kafer-4030",
-   "type": "crossword",
-   "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-insekten-und-kafer-4030"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-klassenzimmer-1f23",
-   "type": "crossword",
-   "mode": null,
-   "theme": "classroom",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-klassenzimmer-1f23"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-kleidung-b16a",
-   "type": "crossword",
-   "mode": null,
-   "theme": "clothing",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-kleidung-b16a"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-korperteile-8f33",
-   "type": "crossword",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-korperteile-8f33"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-krankenhaus-4e02",
-   "type": "crossword",
-   "mode": null,
-   "theme": "hospital",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-krankenhaus-4e02"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-kuchenwerkzeuge-1264",
-   "type": "crossword",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-kuchenwerkzeuge-1264"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-meeresleben-4dc0",
-   "type": "crossword",
-   "mode": null,
-   "theme": "ocean_life",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-meeresleben-4dc0"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-mobel-9a7f",
-   "type": "crossword",
-   "mode": null,
-   "theme": "furniture",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-mobel-9a7f"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-musik-3230",
-   "type": "crossword",
-   "mode": null,
-   "theme": "music",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-musik-3230"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-ostern-d0c8",
-   "type": "crossword",
-   "mode": null,
-   "theme": "easter",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-ostern-d0c8"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-postamt-2257",
-   "type": "crossword",
-   "mode": null,
-   "theme": "post_office",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-postamt-2257"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-rund-ums-haus-ba8a",
-   "type": "crossword",
-   "mode": null,
-   "theme": "around_the_house",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-rund-ums-haus-ba8a"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-sommer-26ec",
-   "type": "crossword",
-   "mode": null,
-   "theme": "summer",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-sommer-26ec"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-spielzeug-d539",
-   "type": "crossword",
-   "mode": null,
-   "theme": "toys",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-spielzeug-d539"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-strand-b738",
-   "type": "crossword",
-   "mode": null,
-   "theme": "beach",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-strand-b738"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-tiere-3207",
-   "type": "crossword",
-   "mode": null,
-   "theme": "animals",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-tiere-3207"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-vogel-07b3",
-   "type": "crossword",
-   "mode": null,
-   "theme": "birds",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-vogel-07b3"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-vogel-2-162c",
-   "type": "crossword",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-vogel-2-162c"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-waldtiere-611b",
-   "type": "crossword",
-   "mode": null,
-   "theme": "forest_creatures",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-waldtiere-611b"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-weihnachten-0315",
-   "type": "crossword",
-   "mode": null,
-   "theme": "christmas",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-weihnachten-0315"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-weltraum-1473",
-   "type": "crossword",
-   "mode": null,
-   "theme": "space",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-weltraum-1473"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-werkzeuge-9ca1",
-   "type": "crossword",
-   "mode": null,
-   "theme": "tools",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-werkzeuge-9ca1"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-wetter-7eef",
-   "type": "crossword",
-   "mode": null,
-   "theme": "weather",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-wetter-7eef"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-winter-6370",
-   "type": "crossword",
-   "mode": null,
-   "theme": "winter",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-winter-6370"
-  },
-  {
-   "slug": "englisch-kreuzwortraetsel-zootiere-af70",
-   "type": "crossword",
-   "mode": null,
-   "theme": "zoo_animals",
-   "level": "language-beginner",
-   "deck": "englisch-kreuzwortraetsel-zootiere-af70"
-  },
-  {
-   "slug": "kreuzwortraetsel-accessoires-2245",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-accessoires",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "accessories",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-accessoires-2245"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-accessoires-c8e2"
   },
   {
-   "slug": "kreuzwortraetsel-aktivitaten-3099",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-aktivitaten",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "activities",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-aktivitaten-3099"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-aktivitaten-92d3"
   },
   {
-   "slug": "kreuzwortraetsel-backerei-d5b6",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-backerei",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "bakery",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-backerei-d5b6"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-backerei-f0e2"
   },
   {
-   "slug": "kreuzwortraetsel-bauernhoftiere-0ca9",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-bauernhoftiere",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "farm_animals",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-bauernhoftiere-0ca9"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-bauernhoftiere-795f"
   },
   {
-   "slug": "kreuzwortraetsel-berufe-a3aa",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-baume",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "tree",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-baume-e5ab"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-berufe",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "occupations",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-berufe-a3aa"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-berufe-4522"
   },
   {
-   "slug": "kreuzwortraetsel-blumen-724f",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-blumen",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "flowers",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-blumen-724f"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-blumen-10c8"
   },
   {
-   "slug": "kreuzwortraetsel-camping-cd65",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-camping",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "camping",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-camping-cd65"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-camping-23aa"
   },
   {
-   "slug": "kreuzwortraetsel-desserts-und-sussigkeiten-9bdf",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-desserts-und-sussigkeiten",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "desserts_and_sweets",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-desserts-und-sussigkeiten-9bdf"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-desserts-und-sussigkeiten-78e4"
   },
   {
-   "slug": "kreuzwortraetsel-dinge-die-fliegen-1413",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-dinge-die-fliegen",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "things_that_fly",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-dinge-die-fliegen-1413"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-dinge-die-fliegen-971e"
   },
   {
-   "slug": "kreuzwortraetsel-emotionen-0ec4",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-dinosaurier",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "dinosaurs",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-dinosaurier-09a8"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-emotionen",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "emotions",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-emotionen-0ec4"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-emotionen-b36c"
   },
   {
-   "slug": "kreuzwortraetsel-erntedankfest-8473",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-erntedankfest",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "thanksgivinng",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-erntedankfest-8473"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-erntedankfest-e728"
   },
   {
-   "slug": "kreuzwortraetsel-fahrzeuge-b033",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-fahrzeuge",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "vehicles",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-fahrzeuge-b033"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-fahrzeuge-4504"
   },
   {
-   "slug": "kreuzwortraetsel-farben-e526",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-farben",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "colors",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-farben-e526"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-farben-6972"
   },
   {
-   "slug": "kreuzwortraetsel-formen-4573",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-formen",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "shapes",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-formen-4573"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-formen-42c0"
   },
   {
-   "slug": "kreuzwortraetsel-fruchte-dedd",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-fruchte",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "fruits",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-fruchte-dedd"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-fruchte-6340"
   },
   {
-   "slug": "kreuzwortraetsel-fruhling-a545",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-fruhling",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "spring",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-fruhling-a545"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-fruhling-ddc9"
   },
   {
-   "slug": "kreuzwortraetsel-fruhstuck-0765",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-fruhstuck",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "breakfast",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-fruhstuck-0765"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-fruhstuck-f125"
   },
   {
-   "slug": "kreuzwortraetsel-gemuse-ff67",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-gemuse",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "vegetables",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-gemuse-ff67"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-gemuse-aa26"
   },
   {
-   "slug": "kreuzwortraetsel-haustiere-82ff",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-haustiere",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "pets",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-haustiere-82ff"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-haustiere-272f"
   },
   {
-   "slug": "kreuzwortraetsel-im-supermarkt-321b",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-im-supermarkt",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "at_the_supermarket",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-im-supermarkt-321b"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-im-supermarkt-f400"
   },
   {
-   "slug": "kreuzwortraetsel-insekten-und-kafer-1ad7",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-insekten-und-kafer",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "insects_and_bugs",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-insekten-und-kafer-1ad7"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-insekten-und-kafer-95bd"
   },
   {
-   "slug": "kreuzwortraetsel-klassenzimmer-9b33",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-klassenzimmer",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "classroom",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-klassenzimmer-9b33"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-klassenzimmer-ec21"
   },
   {
-   "slug": "kreuzwortraetsel-kleidung-02d3",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-kleidung",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "clothing",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-kleidung-02d3"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-kleidung-3d7a"
   },
   {
-   "slug": "kreuzwortraetsel-korperteile-ee02",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-korperteile",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "body_parts",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-korperteile-ee02"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-korperteile-6afc"
   },
   {
-   "slug": "kreuzwortraetsel-krankenhaus-96cd",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-krankenhaus",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "hospital",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-krankenhaus-96cd"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-krankenhaus-f9bc"
   },
   {
-   "slug": "kreuzwortraetsel-kuchenwerkzeuge-3a01",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-kuchenwerkzeuge",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "kitchen_tools",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-kuchenwerkzeuge-3a01"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-kuchenwerkzeuge-0d69"
   },
   {
-   "slug": "kreuzwortraetsel-meeresleben-c394",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-meeresleben",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "ocean_life",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-meeresleben-c394"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-meeresleben-1eea"
   },
   {
-   "slug": "kreuzwortraetsel-mobel-ea85",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-mobel",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "furniture",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-mobel-ea85"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-mobel-4d03"
   },
   {
-   "slug": "kreuzwortraetsel-musik-346f",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-musik",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "music",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-musik-346f"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-musik-06b5"
   },
   {
-   "slug": "kreuzwortraetsel-ostern-a998",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-ostern",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "easter",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-ostern-a998"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-ostern-7e8a"
   },
   {
-   "slug": "kreuzwortraetsel-postamt-ee97",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-postamt",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "post_office",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-postamt-ee97"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-postamt-5b7c"
   },
   {
-   "slug": "kreuzwortraetsel-rund-ums-haus-d1d4",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-reptilien-und-amphibien",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-reptilien-und-amphibien-78a1"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-rund-ums-haus",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "around_the_house",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-rund-ums-haus-d1d4"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-rund-ums-haus-15ca"
   },
   {
-   "slug": "kreuzwortraetsel-sommer-07e3",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-sommer",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "summer",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-sommer-07e3"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-sommer-25cd"
   },
   {
-   "slug": "kreuzwortraetsel-spielzeug-e043",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-spielzeug",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "toys",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-spielzeug-e043"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-spielzeug-f7cc"
   },
   {
-   "slug": "kreuzwortraetsel-strand-fa41",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-strand",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "beach",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-strand-fa41"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-strand-a062"
   },
   {
-   "slug": "kreuzwortraetsel-tiere-8fda",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-tiere",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "animals",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-tiere-8fda"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-tiere-a051"
   },
   {
-   "slug": "kreuzwortraetsel-vogel-2-ee46",
-   "type": "crossword",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "2-klasse",
-   "deck": "kreuzwortraetsel-vogel-2-ee46"
-  },
-  {
-   "slug": "kreuzwortraetsel-vogel-f6a2",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-vogel",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "birds",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-vogel-f6a2"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-vogel-060d"
   },
   {
-   "slug": "kreuzwortraetsel-waldtiere-77f7",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-vogel-2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "birds_2",
+   "level": "2-klasse",
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-vogel-2-9180"
+  },
+  {
+   "slug": "mathe-arbeitsblatt-waldtiere",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "forest_creatures",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-waldtiere-77f7"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-waldtiere-ce88"
   },
   {
-   "slug": "kreuzwortraetsel-weihnachten-39f5",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-weihnachten",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "christmas",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-weihnachten-39f5"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-weihnachten-16ac"
   },
   {
-   "slug": "kreuzwortraetsel-weltraum-2d35",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-weltraum",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "space",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-weltraum-2d35"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-weltraum-195d"
   },
   {
-   "slug": "kreuzwortraetsel-werkzeuge-9866",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-werkzeuge",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "tools",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-werkzeuge-9866"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-werkzeuge-7df3"
   },
   {
-   "slug": "kreuzwortraetsel-wetter-c7b2",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-wetter",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "weather",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-wetter-c7b2"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-wetter-0411"
   },
   {
-   "slug": "kreuzwortraetsel-winter-e8aa",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-winter",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "winter",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-winter-e8aa"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-winter-5f20"
   },
   {
-   "slug": "kreuzwortraetsel-zootiere-6a95",
-   "type": "crossword",
-   "mode": null,
+   "slug": "mathe-arbeitsblatt-zootiere",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "zoo_animals",
    "level": "2-klasse",
-   "deck": "kreuzwortraetsel-zootiere-6a95"
+   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-zootiere-af84"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-accessoires-8499",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "accessories",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-accessoires-8499"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-aktivitaten-b4d1",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "activities",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-aktivitaten-b4d1"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-bauernhoftiere-52e0",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "farm_animals",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-bauernhoftiere-52e0"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-baume-826c",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "tree",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-baume-826c"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-berufe-de40",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "occupations",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-berufe-de40"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-blumen-077d",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "flowers",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-blumen-077d"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-camping-005f",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "camping",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-camping-005f"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-desserts-und-sussigkeiten-138f",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "desserts_and_sweets",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-desserts-und-sussigkeiten-138f"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-dinge-die-fliegen-1af0",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "things_that_fly",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-dinge-die-fliegen-1af0"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-dinosaurier-fef7",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "dinosaurs",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-dinosaurier-fef7"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-emotionen-5270",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "emotions",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-emotionen-5270"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-erntedankfest-8b6e",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "thanksgivinng",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-erntedankfest-8b6e"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-fahrzeuge-59b9",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "vehicles",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-fahrzeuge-59b9"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-farben-9cdd",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "colors",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-farben-9cdd"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-formen-1b80",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "shapes",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-formen-1b80"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-fruchte-9998",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "fruits",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-fruchte-9998"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-fruhling-b1a5",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "spring",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-fruhling-b1a5"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-fruhstuck-9c8c",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "breakfast",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-fruhstuck-9c8c"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-gemuse-25d7",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "vegetables",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-gemuse-25d7"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-haustiere-272c",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "pets",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-haustiere-272c"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-im-supermarkt-56b1",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "at_the_supermarket",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-im-supermarkt-56b1"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-klassenzimmer-d66e",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "classroom",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-klassenzimmer-d66e"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-kleidung-b583",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "clothing",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-kleidung-b583"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-korperteile-ae39",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "body_parts",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-korperteile-ae39"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-krankenhaus-223d",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "hospital",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-krankenhaus-223d"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-kuchenwerkzeuge-c9ff",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "kitchen_tools",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-kuchenwerkzeuge-c9ff"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-meeresleben-4d83",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "ocean_life",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-meeresleben-4d83"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-musik-6fba",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "music",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-musik-6fba"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-ostern-459a",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "easter",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-ostern-459a"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-rund-ums-haus-16ce",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "around_the_house",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-rund-ums-haus-16ce"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-sommer-5d92",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "summer",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-sommer-5d92"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-spielzeug-b336",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "toys",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-spielzeug-b336"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-strand-0343",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "beach",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-strand-0343"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-tiere-d196",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "animals",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-tiere-d196"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-vogel-2-62ae",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "birds_2",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-vogel-2-62ae"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-waldtiere-8d45",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "forest_creatures",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-waldtiere-8d45"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-weihnachten-d4a0",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "christmas",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-weihnachten-d4a0"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-weltraum-94e2",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "space",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-weltraum-94e2"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-werkzeuge-d332",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "tools",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-werkzeuge-d332"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-winter-4f7b",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "winter",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-winter-4f7b"
+  },
+  {
+   "slug": "buchstabenzug-buchstaben-hilfe-zootiere-0406",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "zoo_animals",
+   "level": "vorschule",
+   "deck": "buchstabenzug-buchstaben-hilfe-zootiere-0406"
   }
  ]
 }

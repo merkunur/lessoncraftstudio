@@ -2,543 +2,583 @@
  "part": 22,
  "locale": "en",
  "classes": [
-  "find-and-count::letter-spotting"
+  "crossword::null"
  ],
  "splitOf": {
-  "class": "find-and-count::letter-spotting",
-  "total": 330,
-  "chunk": 1,
-  "chunks": 5
+  "class": "crossword::null",
+  "total": 497,
+  "chunk": 3,
+  "chunks": 7
  },
- "count": 66,
+ "count": 71,
  "pages": [
   {
-   "slug": "beginning-sounds-4th-of-july-b",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "finnish-crossword-at-the-supermarket-035e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-at-the-supermarket-035e"
+  },
+  {
+   "slug": "finnish-crossword-bakery-9c66",
+   "type": "crossword",
+   "mode": null,
+   "theme": "bakery",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-bakery-9c66"
+  },
+  {
+   "slug": "finnish-crossword-beach-b3e3",
+   "type": "crossword",
+   "mode": null,
+   "theme": "beach",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-beach-b3e3"
+  },
+  {
+   "slug": "finnish-crossword-birds-2-d56a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-birds-2-d56a"
+  },
+  {
+   "slug": "finnish-crossword-birds-4a10",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-birds-4a10"
+  },
+  {
+   "slug": "finnish-crossword-body-parts-dc8a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-body-parts-dc8a"
+  },
+  {
+   "slug": "finnish-crossword-breakfast-8e53",
+   "type": "crossword",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-breakfast-8e53"
+  },
+  {
+   "slug": "finnish-crossword-camping-28a3",
+   "type": "crossword",
+   "mode": null,
+   "theme": "camping",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-camping-28a3"
+  },
+  {
+   "slug": "finnish-crossword-christmas-075a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "christmas",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-christmas-075a"
+  },
+  {
+   "slug": "finnish-crossword-classroom-faad",
+   "type": "crossword",
+   "mode": null,
+   "theme": "classroom",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-classroom-faad"
+  },
+  {
+   "slug": "finnish-crossword-clothing-df8a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "clothing",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-clothing-df8a"
+  },
+  {
+   "slug": "finnish-crossword-colors-df38",
+   "type": "crossword",
+   "mode": null,
+   "theme": "colors",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-colors-df38"
+  },
+  {
+   "slug": "finnish-crossword-desserts-and-sweets-b689",
+   "type": "crossword",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-desserts-and-sweets-b689"
+  },
+  {
+   "slug": "finnish-crossword-easter-6185",
+   "type": "crossword",
+   "mode": null,
+   "theme": "easter",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-easter-6185"
+  },
+  {
+   "slug": "finnish-crossword-emotions-a799",
+   "type": "crossword",
+   "mode": null,
+   "theme": "emotions",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-emotions-a799"
+  },
+  {
+   "slug": "finnish-crossword-farm-animals-2fa8",
+   "type": "crossword",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-farm-animals-2fa8"
+  },
+  {
+   "slug": "finnish-crossword-flowers-241c",
+   "type": "crossword",
+   "mode": null,
+   "theme": "flowers",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-flowers-241c"
+  },
+  {
+   "slug": "finnish-crossword-forest-creatures-c5d1",
+   "type": "crossword",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-forest-creatures-c5d1"
+  },
+  {
+   "slug": "finnish-crossword-fruits-75de",
+   "type": "crossword",
+   "mode": null,
+   "theme": "fruits",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-fruits-75de"
+  },
+  {
+   "slug": "finnish-crossword-furniture-3018",
+   "type": "crossword",
+   "mode": null,
+   "theme": "furniture",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-furniture-3018"
+  },
+  {
+   "slug": "finnish-crossword-hospital-e7d8",
+   "type": "crossword",
+   "mode": null,
+   "theme": "hospital",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-hospital-e7d8"
+  },
+  {
+   "slug": "finnish-crossword-kitchen-tools-62a2",
+   "type": "crossword",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-kitchen-tools-62a2"
+  },
+  {
+   "slug": "finnish-crossword-music-d1c4",
+   "type": "crossword",
+   "mode": null,
+   "theme": "music",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-music-d1c4"
+  },
+  {
+   "slug": "finnish-crossword-occupations-206b",
+   "type": "crossword",
+   "mode": null,
+   "theme": "occupations",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-occupations-206b"
+  },
+  {
+   "slug": "finnish-crossword-ocean-life-65e5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-ocean-life-65e5"
+  },
+  {
+   "slug": "finnish-crossword-pets-a38e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "pets",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-pets-a38e"
+  },
+  {
+   "slug": "finnish-crossword-post-office-31b8",
+   "type": "crossword",
+   "mode": null,
+   "theme": "post_office",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-post-office-31b8"
+  },
+  {
+   "slug": "finnish-crossword-shapes-33ae",
+   "type": "crossword",
+   "mode": null,
+   "theme": "shapes",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-shapes-33ae"
+  },
+  {
+   "slug": "finnish-crossword-space-a97f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "space",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-space-a97f"
+  },
+  {
+   "slug": "finnish-crossword-spring-608d",
+   "type": "crossword",
+   "mode": null,
+   "theme": "spring",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-spring-608d"
+  },
+  {
+   "slug": "finnish-crossword-summer-1aa2",
+   "type": "crossword",
+   "mode": null,
+   "theme": "summer",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-summer-1aa2"
+  },
+  {
+   "slug": "finnish-crossword-thanksgiving-e1fc",
+   "type": "crossword",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-thanksgiving-e1fc"
+  },
+  {
+   "slug": "finnish-crossword-things-that-fly-a06d",
+   "type": "crossword",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-things-that-fly-a06d"
+  },
+  {
+   "slug": "finnish-crossword-tools-7a98",
+   "type": "crossword",
+   "mode": null,
+   "theme": "tools",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-tools-7a98"
+  },
+  {
+   "slug": "finnish-crossword-toys-e74b",
+   "type": "crossword",
+   "mode": null,
+   "theme": "toys",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-toys-e74b"
+  },
+  {
+   "slug": "finnish-crossword-vegetables-4db0",
+   "type": "crossword",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-vegetables-4db0"
+  },
+  {
+   "slug": "finnish-crossword-vehicles-49df",
+   "type": "crossword",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-vehicles-49df"
+  },
+  {
+   "slug": "finnish-crossword-weather-2c03",
+   "type": "crossword",
+   "mode": null,
+   "theme": "weather",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-weather-2c03"
+  },
+  {
+   "slug": "finnish-crossword-winter-ad69",
+   "type": "crossword",
+   "mode": null,
+   "theme": "winter",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-winter-ad69"
+  },
+  {
+   "slug": "finnish-crossword-zoo-animals-d841",
+   "type": "crossword",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-zoo-animals-d841"
+  },
+  {
+   "slug": "french-crossword-4th-of-july-4006",
+   "type": "crossword",
+   "mode": null,
    "theme": "4th_of_july",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-4th-of-july"
+   "level": "language-beginner",
+   "deck": "french-crossword-4th-of-july-4006"
   },
   {
-   "slug": "beginning-sounds-4th-of-july-c",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "4th_of_july",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-4th-of-july-2"
-  },
-  {
-   "slug": "beginning-sounds-4th-of-july-e",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "4th_of_july",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-4th-of-july-3"
-  },
-  {
-   "slug": "beginning-sounds-4th-of-july-f",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "4th_of_july",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-4th-of-july-5"
-  },
-  {
-   "slug": "beginning-sounds-4th-of-july-g",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "4th_of_july",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-4th-of-july-6"
-  },
-  {
-   "slug": "beginning-sounds-4th-of-july-h",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "4th_of_july",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-4th-of-july-7"
-  },
-  {
-   "slug": "beginning-sounds-4th-of-july-i",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "4th_of_july",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-4th-of-july-8"
-  },
-  {
-   "slug": "beginning-sounds-4th-of-july-u",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "4th_of_july",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-4th-of-july-9"
-  },
-  {
-   "slug": "beginning-sounds-4th-of-july-w",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "4th_of_july",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-4th-of-july-10"
-  },
-  {
-   "slug": "beginning-sounds-accessories-a",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "french-crossword-accessories-584f",
+   "type": "crossword",
+   "mode": null,
    "theme": "accessories",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-accessories"
+   "level": "language-beginner",
+   "deck": "french-crossword-accessories-584f"
   },
   {
-   "slug": "beginning-sounds-accessories-b",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "accessories",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-accessories-2"
-  },
-  {
-   "slug": "beginning-sounds-accessories-c",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "accessories",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-accessories-3"
-  },
-  {
-   "slug": "beginning-sounds-accessories-e",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "accessories",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-accessories-4"
-  },
-  {
-   "slug": "beginning-sounds-accessories-g",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "accessories",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-accessories-5"
-  },
-  {
-   "slug": "beginning-sounds-accessories-h",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "accessories",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-accessories-6"
-  },
-  {
-   "slug": "beginning-sounds-accessories-m",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "accessories",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-accessories-7"
-  },
-  {
-   "slug": "beginning-sounds-accessories-n",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "accessories",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-accessories-8"
-  },
-  {
-   "slug": "beginning-sounds-accessories-p",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "accessories",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-accessories-9"
-  },
-  {
-   "slug": "beginning-sounds-accessories-r",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "accessories",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-accessories-10"
-  },
-  {
-   "slug": "beginning-sounds-accessories-s",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "accessories",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-accessories-11"
-  },
-  {
-   "slug": "beginning-sounds-accessories-t",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "accessories",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-accessories-12"
-  },
-  {
-   "slug": "beginning-sounds-accessories-u",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "accessories",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-accessories-13"
-  },
-  {
-   "slug": "beginning-sounds-accessories-v",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "accessories",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-accessories-14"
-  },
-  {
-   "slug": "beginning-sounds-accessories-w",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "accessories",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-accessories-15"
-  },
-  {
-   "slug": "beginning-sounds-activities-b",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "french-crossword-activities-26f4",
+   "type": "crossword",
+   "mode": null,
    "theme": "activities",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-activities"
+   "level": "language-beginner",
+   "deck": "french-crossword-activities-26f4"
   },
   {
-   "slug": "beginning-sounds-activities-c",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "activities",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-activities-2"
-  },
-  {
-   "slug": "beginning-sounds-activities-d",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "activities",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-activities-3"
-  },
-  {
-   "slug": "beginning-sounds-activities-f",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "activities",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-activities-4"
-  },
-  {
-   "slug": "beginning-sounds-activities-g",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "activities",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-activities-5"
-  },
-  {
-   "slug": "beginning-sounds-activities-h",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "activities",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-activities-6"
-  },
-  {
-   "slug": "beginning-sounds-activities-j",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "activities",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-activities-7"
-  },
-  {
-   "slug": "beginning-sounds-activities-k",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "activities",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-activities-8"
-  },
-  {
-   "slug": "beginning-sounds-activities-p",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "activities",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-activities-9"
-  },
-  {
-   "slug": "beginning-sounds-activities-r",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "activities",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-activities-10"
-  },
-  {
-   "slug": "beginning-sounds-activities-s",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "activities",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-activities-11"
-  },
-  {
-   "slug": "beginning-sounds-activities-t",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "activities",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-activities-12"
-  },
-  {
-   "slug": "beginning-sounds-activities-v",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "activities",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-activities-13"
-  },
-  {
-   "slug": "beginning-sounds-activities-w",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "activities",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-activities-14"
-  },
-  {
-   "slug": "beginning-sounds-animals-a",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "french-crossword-animals-c70c",
+   "type": "crossword",
+   "mode": null,
    "theme": "animals",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-animals"
+   "level": "language-beginner",
+   "deck": "french-crossword-animals-c70c"
   },
   {
-   "slug": "beginning-sounds-animals-b",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "animals",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-animals-2"
-  },
-  {
-   "slug": "beginning-sounds-animals-c",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "animals",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-animals-3"
-  },
-  {
-   "slug": "beginning-sounds-animals-d",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "animals",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-animals-4"
-  },
-  {
-   "slug": "beginning-sounds-animals-e",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "animals",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-animals-5"
-  },
-  {
-   "slug": "beginning-sounds-animals-f",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "animals",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-animals-6"
-  },
-  {
-   "slug": "beginning-sounds-animals-g",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "animals",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-animals-7"
-  },
-  {
-   "slug": "beginning-sounds-animals-h",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "animals",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-animals-8"
-  },
-  {
-   "slug": "beginning-sounds-animals-i",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "animals",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-animals-9"
-  },
-  {
-   "slug": "beginning-sounds-animals-j",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "animals",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-animals-10"
-  },
-  {
-   "slug": "beginning-sounds-animals-k",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "animals",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-animals-11"
-  },
-  {
-   "slug": "beginning-sounds-animals-l",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "animals",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-animals-12"
-  },
-  {
-   "slug": "beginning-sounds-animals-m",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "animals",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-animals-13"
-  },
-  {
-   "slug": "beginning-sounds-animals-o",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "animals",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-animals-14"
-  },
-  {
-   "slug": "beginning-sounds-animals-p",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "animals",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-animals-15"
-  },
-  {
-   "slug": "beginning-sounds-animals-r",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "animals",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-animals-16"
-  },
-  {
-   "slug": "beginning-sounds-animals-s",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "animals",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-animals-17"
-  },
-  {
-   "slug": "beginning-sounds-animals-t",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "animals",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-animals-18"
-  },
-  {
-   "slug": "beginning-sounds-animals-v",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "animals",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-animals-19"
-  },
-  {
-   "slug": "beginning-sounds-animals-w",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "animals",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-animals-20"
-  },
-  {
-   "slug": "beginning-sounds-animals-z",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "animals",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-animals-21"
-  },
-  {
-   "slug": "beginning-sounds-around-the-house-a",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "french-crossword-around-the-house-ab6e",
+   "type": "crossword",
+   "mode": null,
    "theme": "around_the_house",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-around-the-house"
+   "level": "language-beginner",
+   "deck": "french-crossword-around-the-house-ab6e"
   },
   {
-   "slug": "beginning-sounds-around-the-house-b",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "around_the_house",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-around-the-house-2"
+   "slug": "french-crossword-at-the-supermarket-576d",
+   "type": "crossword",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "language-beginner",
+   "deck": "french-crossword-at-the-supermarket-576d"
   },
   {
-   "slug": "beginning-sounds-around-the-house-c",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "around_the_house",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-around-the-house-3"
+   "slug": "french-crossword-bakery-b3c8",
+   "type": "crossword",
+   "mode": null,
+   "theme": "bakery",
+   "level": "language-beginner",
+   "deck": "french-crossword-bakery-b3c8"
   },
   {
-   "slug": "beginning-sounds-around-the-house-d",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "around_the_house",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-around-the-house-4"
+   "slug": "french-crossword-beach-e571",
+   "type": "crossword",
+   "mode": null,
+   "theme": "beach",
+   "level": "language-beginner",
+   "deck": "french-crossword-beach-e571"
   },
   {
-   "slug": "beginning-sounds-around-the-house-f",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "around_the_house",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-around-the-house-5"
+   "slug": "french-crossword-birds-2-500e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "language-beginner",
+   "deck": "french-crossword-birds-2-500e"
   },
   {
-   "slug": "beginning-sounds-around-the-house-g",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "around_the_house",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-around-the-house-6"
+   "slug": "french-crossword-birds-dd0e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds",
+   "level": "language-beginner",
+   "deck": "french-crossword-birds-dd0e"
   },
   {
-   "slug": "beginning-sounds-around-the-house-h",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "around_the_house",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-around-the-house-7"
+   "slug": "french-crossword-body-parts-38c2",
+   "type": "crossword",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "language-beginner",
+   "deck": "french-crossword-body-parts-38c2"
+  },
+  {
+   "slug": "french-crossword-breakfast-0105",
+   "type": "crossword",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "language-beginner",
+   "deck": "french-crossword-breakfast-0105"
+  },
+  {
+   "slug": "french-crossword-camping-0b1e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "camping",
+   "level": "language-beginner",
+   "deck": "french-crossword-camping-0b1e"
+  },
+  {
+   "slug": "french-crossword-christmas-e095",
+   "type": "crossword",
+   "mode": null,
+   "theme": "christmas",
+   "level": "language-beginner",
+   "deck": "french-crossword-christmas-e095"
+  },
+  {
+   "slug": "french-crossword-classroom-53f2",
+   "type": "crossword",
+   "mode": null,
+   "theme": "classroom",
+   "level": "language-beginner",
+   "deck": "french-crossword-classroom-53f2"
+  },
+  {
+   "slug": "french-crossword-clothing-e522",
+   "type": "crossword",
+   "mode": null,
+   "theme": "clothing",
+   "level": "language-beginner",
+   "deck": "french-crossword-clothing-e522"
+  },
+  {
+   "slug": "french-crossword-colors-0694",
+   "type": "crossword",
+   "mode": null,
+   "theme": "colors",
+   "level": "language-beginner",
+   "deck": "french-crossword-colors-0694"
+  },
+  {
+   "slug": "french-crossword-desserts-and-sweets-5ab8",
+   "type": "crossword",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "language-beginner",
+   "deck": "french-crossword-desserts-and-sweets-5ab8"
+  },
+  {
+   "slug": "french-crossword-easter-f461",
+   "type": "crossword",
+   "mode": null,
+   "theme": "easter",
+   "level": "language-beginner",
+   "deck": "french-crossword-easter-f461"
+  },
+  {
+   "slug": "french-crossword-emotions-6a33",
+   "type": "crossword",
+   "mode": null,
+   "theme": "emotions",
+   "level": "language-beginner",
+   "deck": "french-crossword-emotions-6a33"
+  },
+  {
+   "slug": "french-crossword-farm-animals-6b93",
+   "type": "crossword",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "language-beginner",
+   "deck": "french-crossword-farm-animals-6b93"
+  },
+  {
+   "slug": "french-crossword-flowers-a26b",
+   "type": "crossword",
+   "mode": null,
+   "theme": "flowers",
+   "level": "language-beginner",
+   "deck": "french-crossword-flowers-a26b"
+  },
+  {
+   "slug": "french-crossword-forest-creatures-f20b",
+   "type": "crossword",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "language-beginner",
+   "deck": "french-crossword-forest-creatures-f20b"
+  },
+  {
+   "slug": "french-crossword-fruits-6802",
+   "type": "crossword",
+   "mode": null,
+   "theme": "fruits",
+   "level": "language-beginner",
+   "deck": "french-crossword-fruits-6802"
+  },
+  {
+   "slug": "french-crossword-furniture-b296",
+   "type": "crossword",
+   "mode": null,
+   "theme": "furniture",
+   "level": "language-beginner",
+   "deck": "french-crossword-furniture-b296"
+  },
+  {
+   "slug": "french-crossword-hospital-1300",
+   "type": "crossword",
+   "mode": null,
+   "theme": "hospital",
+   "level": "language-beginner",
+   "deck": "french-crossword-hospital-1300"
+  },
+  {
+   "slug": "french-crossword-kitchen-tools-27c9",
+   "type": "crossword",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "language-beginner",
+   "deck": "french-crossword-kitchen-tools-27c9"
+  },
+  {
+   "slug": "french-crossword-music-cc59",
+   "type": "crossword",
+   "mode": null,
+   "theme": "music",
+   "level": "language-beginner",
+   "deck": "french-crossword-music-cc59"
+  },
+  {
+   "slug": "french-crossword-occupations-640c",
+   "type": "crossword",
+   "mode": null,
+   "theme": "occupations",
+   "level": "language-beginner",
+   "deck": "french-crossword-occupations-640c"
+  },
+  {
+   "slug": "french-crossword-ocean-life-5336",
+   "type": "crossword",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "language-beginner",
+   "deck": "french-crossword-ocean-life-5336"
+  },
+  {
+   "slug": "french-crossword-pets-6393",
+   "type": "crossword",
+   "mode": null,
+   "theme": "pets",
+   "level": "language-beginner",
+   "deck": "french-crossword-pets-6393"
   }
  ]
 }

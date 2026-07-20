@@ -2,619 +2,578 @@
  "part": 192,
  "locale": "it",
  "classes": [
-  "addition::find-addend",
-  "bingo::null"
+  "picture-sort::null"
  ],
  "splitOf": null,
- "count": 76,
+ "count": 71,
  "pages": [
   {
-   "slug": "addizione-trova-l-addendo-abbigliamento-2ed9",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "clothing",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-abbigliamento-2ed9"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-accessori-bb86",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "accessories",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-accessori-bb86"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-al-supermercato-d09e",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "at_the_supermarket",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-al-supermercato-d09e"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-alberi-6d30",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "tree",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-alberi-6d30"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-animali-9bba",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "animals",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-animali-9bba"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-animali-della-fattoria-f8d7",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "farm_animals",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-animali-della-fattoria-f8d7"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-animali-dello-zoo-ed21",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "zoo_animals",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-animali-dello-zoo-ed21"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-animali-domestici-bb8d",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "pets",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-animali-domestici-bb8d"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-attrezzi-a080",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "tools",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-attrezzi-a080"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-aula-b360",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "classroom",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-aula-b360"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-campeggio-c57a",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "camping",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-campeggio-c57a"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-colazione-b771",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "breakfast",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-colazione-b771"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-cose-che-volano-7eaa",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "things_that_fly",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-cose-che-volano-7eaa"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-creature-della-foresta-18e6",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "forest_creatures",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-creature-della-foresta-18e6"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-dinosauri-8e37",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "dinosaurs",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-dinosauri-8e37"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-fiori-e27a",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "flowers",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-fiori-e27a"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-forme-89d3",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "shapes",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-forme-89d3"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-frutta-ee07",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "fruits",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-frutta-ee07"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-giocattoli-cf89",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "toys",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-giocattoli-cf89"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-giorno-del-ringraziamento-0f29",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "thanksgivinng",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-giorno-del-ringraziamento-0f29"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-in-giro-per-casa-2048",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "around_the_house",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-in-giro-per-casa-2048"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-insetti-e-scarafaggi-6c40",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "insects_and_bugs",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-insetti-e-scarafaggi-6c40"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-mobili-3647",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "furniture",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-mobili-3647"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-musica-73b6",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "music",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-musica-73b6"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-natale-f330",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "christmas",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-natale-f330"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-ospedale-f887",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "hospital",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-ospedale-f887"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-panetteria-a217",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "bakery",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-panetteria-a217"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-pasqua-d3ec",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "easter",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-pasqua-d3ec"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-professioni-0c15",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "occupations",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-professioni-0c15"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-rettili-e-anfibi-fa01",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "reptiles_and_amphibians",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-rettili-e-anfibi-fa01"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-spazio-24f9",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "space",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-spazio-24f9"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-spiaggia-1058",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "beach",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-spiaggia-1058"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-uccelli-2-6000",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "birds_2",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-uccelli-2-6000"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-uccelli-d110",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "birds",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-uccelli-d110"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-ufficio-postale-bb72",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "post_office",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-ufficio-postale-bb72"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-utensili-da-cucina-a66a",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "kitchen_tools",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-utensili-da-cucina-a66a"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-varie-def4",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "miscellaneous",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-varie-def4"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-verdure-d0bb",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "vegetables",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-verdure-d0bb"
-  },
-  {
-   "slug": "addizione-trova-l-addendo-vita-oceanica-9cec",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "ocean_life",
-   "level": "infanzia",
-   "deck": "addizione-trova-l-addendo-vita-oceanica-9cec"
-  },
-  {
-   "slug": "bingo-abbigliamento-8683",
-   "type": "bingo",
+   "slug": "ordina-immagini-accessories-vs-animals-51ad",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "clothing",
+   "theme": "accessories-vs-animals",
    "level": "infanzia",
-   "deck": "bingo-abbigliamento-8683"
+   "deck": "ordina-immagini-accessories-vs-animals-51ad"
   },
   {
-   "slug": "bingo-accessori-7c7f",
-   "type": "bingo",
+   "slug": "ordina-immagini-accessories-vs-farm-animals-3254",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "accessories",
+   "theme": "accessories-vs-farm_animals",
    "level": "infanzia",
-   "deck": "bingo-accessori-7c7f"
+   "deck": "ordina-immagini-accessories-vs-farm-animals-3254"
   },
   {
-   "slug": "bingo-al-supermercato-f2aa",
-   "type": "bingo",
+   "slug": "ordina-immagini-accessories-vs-furniture-aa92",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "at_the_supermarket",
+   "theme": "accessories-vs-furniture",
    "level": "infanzia",
-   "deck": "bingo-al-supermercato-f2aa"
+   "deck": "ordina-immagini-accessories-vs-furniture-aa92"
   },
   {
-   "slug": "bingo-animali",
-   "type": "bingo",
+   "slug": "ordina-immagini-accessories-vs-hospital-12c5",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "animals",
+   "theme": "accessories-vs-hospital",
    "level": "infanzia",
-   "deck": "bingo-animali"
+   "deck": "ordina-immagini-accessories-vs-hospital-12c5"
   },
   {
-   "slug": "bingo-animali-della-fattoria-88ce",
-   "type": "bingo",
+   "slug": "ordina-immagini-accessories-vs-music-2cf1",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "farm_animals",
+   "theme": "accessories-vs-music",
    "level": "infanzia",
-   "deck": "bingo-animali-della-fattoria-88ce"
+   "deck": "ordina-immagini-accessories-vs-music-2cf1"
   },
   {
-   "slug": "bingo-animali-dello-zoo-a068",
-   "type": "bingo",
+   "slug": "ordina-immagini-accessories-vs-pets-af4b",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "zoo_animals",
+   "theme": "accessories-vs-pets",
    "level": "infanzia",
-   "deck": "bingo-animali-dello-zoo-a068"
+   "deck": "ordina-immagini-accessories-vs-pets-af4b"
   },
   {
-   "slug": "bingo-animali-domestici-93bc",
-   "type": "bingo",
+   "slug": "ordina-immagini-accessories-vs-space-0574",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "pets",
+   "theme": "accessories-vs-space",
    "level": "infanzia",
-   "deck": "bingo-animali-domestici-93bc"
+   "deck": "ordina-immagini-accessories-vs-space-0574"
   },
   {
-   "slug": "bingo-attivita-5bd7",
-   "type": "bingo",
+   "slug": "ordina-immagini-accessories-vs-tree-7b92",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "activities",
+   "theme": "accessories-vs-tree",
    "level": "infanzia",
-   "deck": "bingo-attivita-5bd7"
+   "deck": "ordina-immagini-accessories-vs-tree-7b92"
   },
   {
-   "slug": "bingo-aula-4d5b",
-   "type": "bingo",
+   "slug": "ordina-immagini-accessories-vs-vegetables-222e",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "classroom",
+   "theme": "accessories-vs-vegetables",
    "level": "infanzia",
-   "deck": "bingo-aula-4d5b"
+   "deck": "ordina-immagini-accessories-vs-vegetables-222e"
   },
   {
-   "slug": "bingo-campeggio-77b0",
-   "type": "bingo",
+   "slug": "ordina-immagini-accessories-vs-zoo-animals-f54b",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "camping",
+   "theme": "accessories-vs-zoo_animals",
    "level": "infanzia",
-   "deck": "bingo-campeggio-77b0"
+   "deck": "ordina-immagini-accessories-vs-zoo-animals-f54b"
   },
   {
-   "slug": "bingo-colazione-0154",
-   "type": "bingo",
+   "slug": "ordina-immagini-activities-vs-around-the-house-0d17",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "breakfast",
+   "theme": "activities-vs-around_the_house",
    "level": "infanzia",
-   "deck": "bingo-colazione-0154"
+   "deck": "ordina-immagini-activities-vs-around-the-house-0d17"
   },
   {
-   "slug": "bingo-colori-b21b",
-   "type": "bingo",
+   "slug": "ordina-immagini-activities-vs-breakfast-001c",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "colors",
+   "theme": "activities-vs-breakfast",
    "level": "infanzia",
-   "deck": "bingo-colori-b21b"
+   "deck": "ordina-immagini-activities-vs-breakfast-001c"
   },
   {
-   "slug": "bingo-cose-che-volano-f3d0",
-   "type": "bingo",
+   "slug": "ordina-immagini-activities-vs-camping-88a7",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "things_that_fly",
+   "theme": "activities-vs-camping",
    "level": "infanzia",
-   "deck": "bingo-cose-che-volano-f3d0"
+   "deck": "ordina-immagini-activities-vs-camping-88a7"
   },
   {
-   "slug": "bingo-creature-della-foresta-5032",
-   "type": "bingo",
+   "slug": "ordina-immagini-activities-vs-classroom-1b68",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "forest_creatures",
+   "theme": "activities-vs-classroom",
    "level": "infanzia",
-   "deck": "bingo-creature-della-foresta-5032"
+   "deck": "ordina-immagini-activities-vs-classroom-1b68"
   },
   {
-   "slug": "bingo-dolci-e-dolciumi-2eba",
-   "type": "bingo",
+   "slug": "ordina-immagini-activities-vs-summer-171c",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "desserts_and_sweets",
+   "theme": "activities-vs-summer",
    "level": "infanzia",
-   "deck": "bingo-dolci-e-dolciumi-2eba"
+   "deck": "ordina-immagini-activities-vs-summer-171c"
   },
   {
-   "slug": "bingo-estate-9453",
-   "type": "bingo",
+   "slug": "ordina-immagini-activities-vs-things-that-fly-5e01",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "summer",
+   "theme": "activities-vs-things_that_fly",
    "level": "infanzia",
-   "deck": "bingo-estate-9453"
+   "deck": "ordina-immagini-activities-vs-things-that-fly-5e01"
   },
   {
-   "slug": "bingo-fiori-07b7",
-   "type": "bingo",
+   "slug": "ordina-immagini-activities-vs-tools-6e29",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "flowers",
+   "theme": "activities-vs-tools",
    "level": "infanzia",
-   "deck": "bingo-fiori-07b7"
+   "deck": "ordina-immagini-activities-vs-tools-6e29"
   },
   {
-   "slug": "bingo-forme-607b",
-   "type": "bingo",
+   "slug": "ordina-immagini-animals-vs-desserts-and-sweets-d26f",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "shapes",
+   "theme": "animals-vs-desserts_and_sweets",
    "level": "infanzia",
-   "deck": "bingo-forme-607b"
+   "deck": "ordina-immagini-animals-vs-desserts-and-sweets-d26f"
   },
   {
-   "slug": "bingo-frutta-85c2",
-   "type": "bingo",
+   "slug": "ordina-immagini-animals-vs-dinosaurs-adad",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "fruits",
+   "theme": "animals-vs-dinosaurs",
    "level": "infanzia",
-   "deck": "bingo-frutta-85c2"
+   "deck": "ordina-immagini-animals-vs-dinosaurs-adad"
   },
   {
-   "slug": "bingo-giocattoli-1622",
-   "type": "bingo",
+   "slug": "ordina-immagini-animals-vs-flowers-5160",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "toys",
+   "theme": "animals-vs-flowers",
    "level": "infanzia",
-   "deck": "bingo-giocattoli-1622"
+   "deck": "ordina-immagini-animals-vs-flowers-5160"
   },
   {
-   "slug": "bingo-in-giro-per-casa-3305",
-   "type": "bingo",
+   "slug": "ordina-immagini-animals-vs-summer-6864",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "around_the_house",
+   "theme": "animals-vs-summer",
    "level": "infanzia",
-   "deck": "bingo-in-giro-per-casa-3305"
+   "deck": "ordina-immagini-animals-vs-summer-6864"
   },
   {
-   "slug": "bingo-inverno-2d08",
-   "type": "bingo",
+   "slug": "ordina-immagini-at-the-supermarket-vs-beach-649e",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "winter",
+   "theme": "at_the_supermarket-vs-beach",
    "level": "infanzia",
-   "deck": "bingo-inverno-2d08"
+   "deck": "ordina-immagini-at-the-supermarket-vs-beach-649e"
   },
   {
-   "slug": "bingo-meteo-0b56",
-   "type": "bingo",
+   "slug": "ordina-immagini-at-the-supermarket-vs-birds-963b",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "weather",
+   "theme": "at_the_supermarket-vs-birds",
    "level": "infanzia",
-   "deck": "bingo-meteo-0b56"
+   "deck": "ordina-immagini-at-the-supermarket-vs-birds-963b"
   },
   {
-   "slug": "bingo-mobili-986e",
-   "type": "bingo",
+   "slug": "ordina-immagini-at-the-supermarket-vs-christmas-916e",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "furniture",
+   "theme": "at_the_supermarket-vs-christmas",
    "level": "infanzia",
-   "deck": "bingo-mobili-986e"
+   "deck": "ordina-immagini-at-the-supermarket-vs-christmas-916e"
   },
   {
-   "slug": "bingo-natale-9760",
-   "type": "bingo",
+   "slug": "ordina-immagini-at-the-supermarket-vs-music-2293",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "christmas",
+   "theme": "at_the_supermarket-vs-music",
    "level": "infanzia",
-   "deck": "bingo-natale-9760"
+   "deck": "ordina-immagini-at-the-supermarket-vs-music-2293"
   },
   {
-   "slug": "bingo-ospedale-cb52",
-   "type": "bingo",
+   "slug": "ordina-immagini-at-the-supermarket-vs-ocean-life-7d77",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "hospital",
+   "theme": "at_the_supermarket-vs-ocean_life",
    "level": "infanzia",
-   "deck": "bingo-ospedale-cb52"
+   "deck": "ordina-immagini-at-the-supermarket-vs-ocean-life-7d77"
   },
   {
-   "slug": "bingo-panetteria-75c4",
-   "type": "bingo",
+   "slug": "ordina-immagini-at-the-supermarket-vs-vehicles-0b77",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "bakery",
+   "theme": "at_the_supermarket-vs-vehicles",
    "level": "infanzia",
-   "deck": "bingo-panetteria-75c4"
+   "deck": "ordina-immagini-at-the-supermarket-vs-vehicles-0b77"
   },
   {
-   "slug": "bingo-parti-del-corpo-c904",
-   "type": "bingo",
+   "slug": "ordina-immagini-camping-vs-around-the-house-c3e9",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "body_parts",
+   "theme": "camping-vs-around_the_house",
    "level": "infanzia",
-   "deck": "bingo-parti-del-corpo-c904"
+   "deck": "ordina-immagini-camping-vs-around-the-house-c3e9"
   },
   {
-   "slug": "bingo-pasqua-2e37",
-   "type": "bingo",
+   "slug": "ordina-immagini-camping-vs-beach-dc4f",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "easter",
+   "theme": "camping-vs-beach",
    "level": "infanzia",
-   "deck": "bingo-pasqua-2e37"
+   "deck": "ordina-immagini-camping-vs-beach-dc4f"
   },
   {
-   "slug": "bingo-primavera-2834",
-   "type": "bingo",
+   "slug": "ordina-immagini-camping-vs-birds-a9da",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "spring",
+   "theme": "camping-vs-birds",
    "level": "infanzia",
-   "deck": "bingo-primavera-2834"
+   "deck": "ordina-immagini-camping-vs-birds-a9da"
   },
   {
-   "slug": "bingo-spazio-8e2c",
-   "type": "bingo",
+   "slug": "ordina-immagini-camping-vs-christmas-e0f7",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "space",
+   "theme": "camping-vs-christmas",
    "level": "infanzia",
-   "deck": "bingo-spazio-8e2c"
+   "deck": "ordina-immagini-camping-vs-christmas-e0f7"
   },
   {
-   "slug": "bingo-spiaggia-dd1a",
-   "type": "bingo",
+   "slug": "ordina-immagini-camping-vs-flowers-a5dd",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "beach",
+   "theme": "camping-vs-flowers",
    "level": "infanzia",
-   "deck": "bingo-spiaggia-dd1a"
+   "deck": "ordina-immagini-camping-vs-flowers-a5dd"
   },
   {
-   "slug": "bingo-uccelli-2-0728",
-   "type": "bingo",
+   "slug": "ordina-immagini-camping-vs-fruits-418e",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "birds_2",
+   "theme": "camping-vs-fruits",
    "level": "infanzia",
-   "deck": "bingo-uccelli-2-0728"
+   "deck": "ordina-immagini-camping-vs-fruits-418e"
   },
   {
-   "slug": "bingo-utensili-da-cucina-5356",
-   "type": "bingo",
+   "slug": "ordina-immagini-camping-vs-insects-and-bugs-7c0e",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "kitchen_tools",
+   "theme": "camping-vs-insects_and_bugs",
    "level": "infanzia",
-   "deck": "bingo-utensili-da-cucina-5356"
+   "deck": "ordina-immagini-camping-vs-insects-and-bugs-7c0e"
   },
   {
-   "slug": "bingo-veicoli-c242",
-   "type": "bingo",
+   "slug": "ordina-immagini-camping-vs-toys-3079",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "vehicles",
+   "theme": "camping-vs-toys",
    "level": "infanzia",
-   "deck": "bingo-veicoli-c242"
+   "deck": "ordina-immagini-camping-vs-toys-3079"
   },
   {
-   "slug": "bingo-verdure-338c",
-   "type": "bingo",
+   "slug": "ordina-immagini-camping-vs-vegetables-36a4",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "vegetables",
+   "theme": "camping-vs-vegetables",
    "level": "infanzia",
-   "deck": "bingo-verdure-338c"
+   "deck": "ordina-immagini-camping-vs-vegetables-36a4"
   },
   {
-   "slug": "bingo-vita-oceanica-4c5e",
-   "type": "bingo",
+   "slug": "ordina-immagini-classroom-vs-breakfast-c780",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "ocean_life",
+   "theme": "classroom-vs-breakfast",
    "level": "infanzia",
-   "deck": "bingo-vita-oceanica-4c5e"
+   "deck": "ordina-immagini-classroom-vs-breakfast-c780"
+  },
+  {
+   "slug": "ordina-immagini-classroom-vs-camping-5586",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "classroom-vs-camping",
+   "level": "infanzia",
+   "deck": "ordina-immagini-classroom-vs-camping-5586"
+  },
+  {
+   "slug": "ordina-immagini-classroom-vs-desserts-and-sweets-0e11",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "classroom-vs-desserts_and_sweets",
+   "level": "infanzia",
+   "deck": "ordina-immagini-classroom-vs-desserts-and-sweets-0e11"
+  },
+  {
+   "slug": "ordina-immagini-clothing-vs-accessories-e66e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "clothing-vs-accessories",
+   "level": "infanzia",
+   "deck": "ordina-immagini-clothing-vs-accessories-e66e"
+  },
+  {
+   "slug": "ordina-immagini-clothing-vs-activities-9643",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "clothing-vs-activities",
+   "level": "infanzia",
+   "deck": "ordina-immagini-clothing-vs-activities-9643"
+  },
+  {
+   "slug": "ordina-immagini-clothing-vs-animals-5975",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "clothing-vs-animals",
+   "level": "infanzia",
+   "deck": "ordina-immagini-clothing-vs-animals-5975"
+  },
+  {
+   "slug": "ordina-immagini-clothing-vs-breakfast-4d43",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "clothing-vs-breakfast",
+   "level": "infanzia",
+   "deck": "ordina-immagini-clothing-vs-breakfast-4d43"
+  },
+  {
+   "slug": "ordina-immagini-clothing-vs-camping-4a63",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "clothing-vs-camping",
+   "level": "infanzia",
+   "deck": "ordina-immagini-clothing-vs-camping-4a63"
+  },
+  {
+   "slug": "ordina-immagini-clothing-vs-classroom-e5e4",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "clothing-vs-classroom",
+   "level": "infanzia",
+   "deck": "ordina-immagini-clothing-vs-classroom-e5e4"
+  },
+  {
+   "slug": "ordina-immagini-clothing-vs-desserts-and-sweets-09bd",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "clothing-vs-desserts_and_sweets",
+   "level": "infanzia",
+   "deck": "ordina-immagini-clothing-vs-desserts-and-sweets-09bd"
+  },
+  {
+   "slug": "ordina-immagini-clothing-vs-farm-animals-18ce",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "clothing-vs-farm_animals",
+   "level": "infanzia",
+   "deck": "ordina-immagini-clothing-vs-farm-animals-18ce"
+  },
+  {
+   "slug": "ordina-immagini-clothing-vs-forest-creatures-b558",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "clothing-vs-forest_creatures",
+   "level": "infanzia",
+   "deck": "ordina-immagini-clothing-vs-forest-creatures-b558"
+  },
+  {
+   "slug": "ordina-immagini-clothing-vs-pets-0955",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "clothing-vs-pets",
+   "level": "infanzia",
+   "deck": "ordina-immagini-clothing-vs-pets-0955"
+  },
+  {
+   "slug": "ordina-immagini-clothing-vs-things-that-fly-e0c6",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "clothing-vs-things_that_fly",
+   "level": "infanzia",
+   "deck": "ordina-immagini-clothing-vs-things-that-fly-e0c6"
+  },
+  {
+   "slug": "ordina-immagini-clothing-vs-tools-939d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "clothing-vs-tools",
+   "level": "infanzia",
+   "deck": "ordina-immagini-clothing-vs-tools-939d"
+  },
+  {
+   "slug": "ordina-immagini-clothing-vs-tree-066e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "clothing-vs-tree",
+   "level": "infanzia",
+   "deck": "ordina-immagini-clothing-vs-tree-066e"
+  },
+  {
+   "slug": "ordina-immagini-clothing-vs-zoo-animals-860c",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "clothing-vs-zoo_animals",
+   "level": "infanzia",
+   "deck": "ordina-immagini-clothing-vs-zoo-animals-860c"
+  },
+  {
+   "slug": "ordina-immagini-flowers-vs-christmas-373a",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "flowers-vs-christmas",
+   "level": "infanzia",
+   "deck": "ordina-immagini-flowers-vs-christmas-373a"
+  },
+  {
+   "slug": "ordina-immagini-flowers-vs-easter-93c9",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "flowers-vs-easter",
+   "level": "infanzia",
+   "deck": "ordina-immagini-flowers-vs-easter-93c9"
+  },
+  {
+   "slug": "ordina-immagini-flowers-vs-furniture-460e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "flowers-vs-furniture",
+   "level": "infanzia",
+   "deck": "ordina-immagini-flowers-vs-furniture-460e"
+  },
+  {
+   "slug": "ordina-immagini-flowers-vs-hospital-5c0b",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "flowers-vs-hospital",
+   "level": "infanzia",
+   "deck": "ordina-immagini-flowers-vs-hospital-5c0b"
+  },
+  {
+   "slug": "ordina-immagini-flowers-vs-insects-and-bugs-08ad",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "flowers-vs-insects_and_bugs",
+   "level": "infanzia",
+   "deck": "ordina-immagini-flowers-vs-insects-and-bugs-08ad"
+  },
+  {
+   "slug": "ordina-immagini-flowers-vs-music-2d01",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "flowers-vs-music",
+   "level": "infanzia",
+   "deck": "ordina-immagini-flowers-vs-music-2d01"
+  },
+  {
+   "slug": "ordina-immagini-flowers-vs-toys-9f06",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "flowers-vs-toys",
+   "level": "infanzia",
+   "deck": "ordina-immagini-flowers-vs-toys-9f06"
+  },
+  {
+   "slug": "ordina-immagini-flowers-vs-weather-f1fc",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "flowers-vs-weather",
+   "level": "infanzia",
+   "deck": "ordina-immagini-flowers-vs-weather-f1fc"
+  },
+  {
+   "slug": "ordina-immagini-summer-vs-birds-2-bdce",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "summer-vs-birds_2",
+   "level": "infanzia",
+   "deck": "ordina-immagini-summer-vs-birds-2-bdce"
+  },
+  {
+   "slug": "ordina-immagini-summer-vs-occupations-6693",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "summer-vs-occupations",
+   "level": "infanzia",
+   "deck": "ordina-immagini-summer-vs-occupations-6693"
+  },
+  {
+   "slug": "ordina-immagini-summer-vs-vegetables-9a55",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "summer-vs-vegetables",
+   "level": "infanzia",
+   "deck": "ordina-immagini-summer-vs-vegetables-9a55"
+  },
+  {
+   "slug": "ordina-immagini-summer-vs-vehicles-628b",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "summer-vs-vehicles",
+   "level": "infanzia",
+   "deck": "ordina-immagini-summer-vs-vehicles-628b"
+  },
+  {
+   "slug": "ordina-immagini-tree-vs-flowers-311f",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "tree-vs-flowers",
+   "level": "infanzia",
+   "deck": "ordina-immagini-tree-vs-flowers-311f"
+  },
+  {
+   "slug": "ordina-immagini-tree-vs-furniture-27ff",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "tree-vs-furniture",
+   "level": "infanzia",
+   "deck": "ordina-immagini-tree-vs-furniture-27ff"
+  },
+  {
+   "slug": "ordina-immagini-tree-vs-insects-and-bugs-bd44",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "tree-vs-insects_and_bugs",
+   "level": "infanzia",
+   "deck": "ordina-immagini-tree-vs-insects-and-bugs-bd44"
+  },
+  {
+   "slug": "ordina-immagini-tree-vs-music-e27f",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "tree-vs-music",
+   "level": "infanzia",
+   "deck": "ordina-immagini-tree-vs-music-e27f"
+  },
+  {
+   "slug": "ordina-immagini-tree-vs-toys-35bb",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "tree-vs-toys",
+   "level": "infanzia",
+   "deck": "ordina-immagini-tree-vs-toys-35bb"
+  },
+  {
+   "slug": "ordina-immagini-tree-vs-weather-71a1",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "tree-vs-weather",
+   "level": "infanzia",
+   "deck": "ordina-immagini-tree-vs-weather-71a1"
   }
  ]
 }

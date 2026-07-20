@@ -2,779 +2,643 @@
  "part": 300,
  "locale": "no",
  "classes": [
-  "picture-path::choose-path",
-  "prepositions::multiplechoice"
+  "subtraction::find-subtrahend",
+  "addition::image-image"
  ],
  "splitOf": null,
- "count": 96,
+ "count": 79,
  "pages": [
   {
-   "slug": "bildevei-velg-riktig-vei-aktiviteter-c2d5",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "activities",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-aktiviteter-c2d5"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-bakeri-666f",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "bakery",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-bakeri-666f"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-blomster-69ee",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "flowers",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-blomster-69ee"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-camping-bcab",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "camping",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-camping-bcab"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-desserter-og-godteri-20e7",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "desserts_and_sweets",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-desserter-og-godteri-20e7"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-dinosaurer-9950",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "dinosaurs",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-dinosaurer-9950"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-dyr-d5b1",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "animals",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-dyr-d5b1"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-dyrehagedyr-9333",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "zoo_animals",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-dyrehagedyr-9333"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-farger-41ba",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "colors",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-farger-41ba"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-folelser-0542",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "emotions",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-folelser-0542"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-former-481e",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "shapes",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-former-481e"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-frokost-7773",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "breakfast",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-frokost-7773"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-frukter-9d9d",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "fruits",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-frukter-9d9d"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-fugler-2-136f",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "birds_2",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-fugler-2-136f"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-fugler-5ee4",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "birds",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-fugler-5ee4"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-gardsdyr-8da7",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "farm_animals",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-gardsdyr-8da7"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-gronnsaker-7164",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "vegetables",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-gronnsaker-7164"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-havliv-08d2",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "ocean_life",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-havliv-08d2"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-i-supermarkedet-b033",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "at_the_supermarket",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-i-supermarkedet-b033"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-insekter-og-kryp-0fcc",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "insects_and_bugs",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-insekter-og-kryp-0fcc"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-jul-7dfc",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "christmas",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-jul-7dfc"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-kjaeledyr-f456",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "pets",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-kjaeledyr-f456"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-kjokkenredskaper-36c8",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "kitchen_tools",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-kjokkenredskaper-36c8"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-kjoretoy-8ae4",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "vehicles",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-kjoretoy-8ae4"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-klaer-aae9",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "clothing",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-klaer-aae9"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-klasserom-6a84",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "classroom",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-klasserom-6a84"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-kroppsdeler-02df",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "body_parts",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-kroppsdeler-02df"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-leker-1a7d",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "toys",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-leker-1a7d"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-mobler-a432",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "furniture",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-mobler-a432"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-musikk-90bf",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "music",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-musikk-90bf"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-paske-6df3",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "easter",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-paske-6df3"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-postkontor-0192",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "post_office",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-postkontor-0192"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-reptiler-og-amfibier-8883",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "reptiles_and_amphibians",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-reptiler-og-amfibier-8883"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-rundt-i-huset-1425",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "around_the_house",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-rundt-i-huset-1425"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-skogsdyr-daf6",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "forest_creatures",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-skogsdyr-daf6"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-sommer-2732",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "summer",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-sommer-2732"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-strand-163e",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "beach",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-strand-163e"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-sykehus-1bcc",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "hospital",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-sykehus-1bcc"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-thanksgiving-6ae0",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "thanksgivinng",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-thanksgiving-6ae0"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-tilbehor-e927",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "accessories",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-tilbehor-e927"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-ting-som-flyr-42d4",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "things_that_fly",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-ting-som-flyr-42d4"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-traer-6963",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "tree",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-traer-6963"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-vaer-aa32",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "weather",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-vaer-aa32"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-var-2e7b",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "spring",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-var-2e7b"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-verdensrommet-ac65",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "space",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-verdensrommet-ac65"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-verktoy-c0a0",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "tools",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-verktoy-c0a0"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-vinter-f23c",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "winter",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-vinter-f23c"
-  },
-  {
-   "slug": "bildevei-velg-riktig-vei-yrker-0944",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "occupations",
-   "level": "1-trinn",
-   "deck": "bildevei-velg-riktig-vei-yrker-0944"
-  },
-  {
-   "slug": "preposisjoner-flervalg-aktiviteter-4dc9",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "activities",
-   "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-aktiviteter-4dc9"
-  },
-  {
-   "slug": "preposisjoner-flervalg-bakeri-af9f",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-bakeri-b073",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "bakery",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-bakeri-af9f"
+   "deck": "subtraksjon-finn-subtrahend-bakeri-b073"
   },
   {
-   "slug": "preposisjoner-flervalg-blomster-872f",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-blomster-b052",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "flowers",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-blomster-872f"
+   "deck": "subtraksjon-finn-subtrahend-blomster-b052"
   },
   {
-   "slug": "preposisjoner-flervalg-camping-788f",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-camping-886d",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "camping",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-camping-788f"
+   "deck": "subtraksjon-finn-subtrahend-camping-886d"
   },
   {
-   "slug": "preposisjoner-flervalg-desserter-og-godteri-9ee7",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-desserter-og-godteri-99d7",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "desserts_and_sweets",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-desserter-og-godteri-9ee7"
+   "deck": "subtraksjon-finn-subtrahend-desserter-og-godteri-99d7"
   },
   {
-   "slug": "preposisjoner-flervalg-dinosaurer-6b1b",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-dinosaurer-f31e",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "dinosaurs",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-dinosaurer-6b1b"
+   "deck": "subtraksjon-finn-subtrahend-dinosaurer-f31e"
   },
   {
-   "slug": "preposisjoner-flervalg-dyr-3d27",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-dyr-1359",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "animals",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-dyr-3d27"
+   "deck": "subtraksjon-finn-subtrahend-dyr-1359"
   },
   {
-   "slug": "preposisjoner-flervalg-dyrehagedyr-4a6c",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-dyrehagedyr-00eb",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "zoo_animals",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-dyrehagedyr-4a6c"
+   "deck": "subtraksjon-finn-subtrahend-dyrehagedyr-00eb"
   },
   {
-   "slug": "preposisjoner-flervalg-farger-1352",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "colors",
-   "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-farger-1352"
-  },
-  {
-   "slug": "preposisjoner-flervalg-folelser-778e",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "emotions",
-   "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-folelser-778e"
-  },
-  {
-   "slug": "preposisjoner-flervalg-former-a7fc",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-former-88b5",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "shapes",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-former-a7fc"
+   "deck": "subtraksjon-finn-subtrahend-former-88b5"
   },
   {
-   "slug": "preposisjoner-flervalg-frokost-adc5",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-frokost-d9d1",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "breakfast",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-frokost-adc5"
+   "deck": "subtraksjon-finn-subtrahend-frokost-d9d1"
   },
   {
-   "slug": "preposisjoner-flervalg-frukter-cc98",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-frukter-5e41",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "fruits",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-frukter-cc98"
+   "deck": "subtraksjon-finn-subtrahend-frukter-5e41"
   },
   {
-   "slug": "preposisjoner-flervalg-fugler-2-1cf7",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-fugler-2-b067",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "birds_2",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-fugler-2-1cf7"
+   "deck": "subtraksjon-finn-subtrahend-fugler-2-b067"
   },
   {
-   "slug": "preposisjoner-flervalg-fugler-3578",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-fugler-c76a",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "birds",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-fugler-3578"
+   "deck": "subtraksjon-finn-subtrahend-fugler-c76a"
   },
   {
-   "slug": "preposisjoner-flervalg-gardsdyr-875f",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-gardsdyr-7c93",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "farm_animals",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-gardsdyr-875f"
+   "deck": "subtraksjon-finn-subtrahend-gardsdyr-7c93"
   },
   {
-   "slug": "preposisjoner-flervalg-gronnsaker-00bf",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-gronnsaker-107f",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "vegetables",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-gronnsaker-00bf"
+   "deck": "subtraksjon-finn-subtrahend-gronnsaker-107f"
   },
   {
-   "slug": "preposisjoner-flervalg-havliv-c628",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-havliv-01dd",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "ocean_life",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-havliv-c628"
+   "deck": "subtraksjon-finn-subtrahend-havliv-01dd"
   },
   {
-   "slug": "preposisjoner-flervalg-i-supermarkedet-daa4",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-i-supermarkedet-9188",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "at_the_supermarket",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-i-supermarkedet-daa4"
+   "deck": "subtraksjon-finn-subtrahend-i-supermarkedet-9188"
   },
   {
-   "slug": "preposisjoner-flervalg-insekter-og-kryp-5766",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-insekter-og-kryp-0ff2",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "insects_and_bugs",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-insekter-og-kryp-5766"
+   "deck": "subtraksjon-finn-subtrahend-insekter-og-kryp-0ff2"
   },
   {
-   "slug": "preposisjoner-flervalg-jul-0109",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-jul-1a09",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "christmas",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-jul-0109"
+   "deck": "subtraksjon-finn-subtrahend-jul-1a09"
   },
   {
-   "slug": "preposisjoner-flervalg-kjaeledyr-d6b8",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-kjaeledyr-b156",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "pets",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-kjaeledyr-d6b8"
+   "deck": "subtraksjon-finn-subtrahend-kjaeledyr-b156"
   },
   {
-   "slug": "preposisjoner-flervalg-kjokkenredskaper-457d",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-kjokkenredskaper-9495",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "kitchen_tools",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-kjokkenredskaper-457d"
+   "deck": "subtraksjon-finn-subtrahend-kjokkenredskaper-9495"
   },
   {
-   "slug": "preposisjoner-flervalg-kjoretoy-0ae7",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-kjoretoy-981a",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "vehicles",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-kjoretoy-0ae7"
+   "deck": "subtraksjon-finn-subtrahend-kjoretoy-981a"
   },
   {
-   "slug": "preposisjoner-flervalg-klaer-edef",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-klaer-7c77",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "clothing",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-klaer-edef"
+   "deck": "subtraksjon-finn-subtrahend-klaer-7c77"
   },
   {
-   "slug": "preposisjoner-flervalg-klasserom-9e12",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-klasserom-9a5a",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "classroom",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-klasserom-9e12"
+   "deck": "subtraksjon-finn-subtrahend-klasserom-9a5a"
   },
   {
-   "slug": "preposisjoner-flervalg-kroppsdeler-136f",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "body_parts",
-   "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-kroppsdeler-136f"
-  },
-  {
-   "slug": "preposisjoner-flervalg-leker-24d2",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-leker-7f75",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "toys",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-leker-24d2"
+   "deck": "subtraksjon-finn-subtrahend-leker-7f75"
   },
   {
-   "slug": "preposisjoner-flervalg-mobler-2c18",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-mobler-05b7",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "furniture",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-mobler-2c18"
+   "deck": "subtraksjon-finn-subtrahend-mobler-05b7"
   },
   {
-   "slug": "preposisjoner-flervalg-musikk-dd5d",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-musikk-5f3c",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "music",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-musikk-dd5d"
+   "deck": "subtraksjon-finn-subtrahend-musikk-5f3c"
   },
   {
-   "slug": "preposisjoner-flervalg-paske-1d6e",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-paske-2a6e",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "easter",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-paske-1d6e"
+   "deck": "subtraksjon-finn-subtrahend-paske-2a6e"
   },
   {
-   "slug": "preposisjoner-flervalg-postkontor-808e",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-postkontor-5057",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "post_office",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-postkontor-808e"
+   "deck": "subtraksjon-finn-subtrahend-postkontor-5057"
   },
   {
-   "slug": "preposisjoner-flervalg-reptiler-og-amfibier-0ca5",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-reptiler-og-amfibier-2fd4",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "reptiles_and_amphibians",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-reptiler-og-amfibier-0ca5"
+   "deck": "subtraksjon-finn-subtrahend-reptiler-og-amfibier-2fd4"
   },
   {
-   "slug": "preposisjoner-flervalg-rundt-i-huset-db47",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-rundt-i-huset-d4e2",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "around_the_house",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-rundt-i-huset-db47"
+   "deck": "subtraksjon-finn-subtrahend-rundt-i-huset-d4e2"
   },
   {
-   "slug": "preposisjoner-flervalg-skogsdyr-99d8",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-skogsdyr-8c51",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "forest_creatures",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-skogsdyr-99d8"
+   "deck": "subtraksjon-finn-subtrahend-skogsdyr-8c51"
   },
   {
-   "slug": "preposisjoner-flervalg-sommer-b5a7",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "summer",
-   "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-sommer-b5a7"
-  },
-  {
-   "slug": "preposisjoner-flervalg-strand-0375",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-strand-3a96",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "beach",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-strand-0375"
+   "deck": "subtraksjon-finn-subtrahend-strand-3a96"
   },
   {
-   "slug": "preposisjoner-flervalg-sykehus-c8ea",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-sykehus-09f2",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "hospital",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-sykehus-c8ea"
+   "deck": "subtraksjon-finn-subtrahend-sykehus-09f2"
   },
   {
-   "slug": "preposisjoner-flervalg-thanksgiving-a45d",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-thanksgiving-f0f5",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "thanksgivinng",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-thanksgiving-a45d"
+   "deck": "subtraksjon-finn-subtrahend-thanksgiving-f0f5"
   },
   {
-   "slug": "preposisjoner-flervalg-tilbehor-a1ce",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-tilbehor-b69e",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "accessories",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-tilbehor-a1ce"
+   "deck": "subtraksjon-finn-subtrahend-tilbehor-b69e"
   },
   {
-   "slug": "preposisjoner-flervalg-ting-som-flyr-3cef",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-ting-som-flyr-ab88",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "things_that_fly",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-ting-som-flyr-3cef"
+   "deck": "subtraksjon-finn-subtrahend-ting-som-flyr-ab88"
   },
   {
-   "slug": "preposisjoner-flervalg-traer-2539",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-traer-53fd",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "tree",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-traer-2539"
+   "deck": "subtraksjon-finn-subtrahend-traer-53fd"
   },
   {
-   "slug": "preposisjoner-flervalg-vaer-6ac6",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "weather",
-   "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-vaer-6ac6"
-  },
-  {
-   "slug": "preposisjoner-flervalg-var-3596",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "spring",
-   "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-var-3596"
-  },
-  {
-   "slug": "preposisjoner-flervalg-verdensrommet-bc34",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-verdensrommet-e121",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "space",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-verdensrommet-bc34"
+   "deck": "subtraksjon-finn-subtrahend-verdensrommet-e121"
   },
   {
-   "slug": "preposisjoner-flervalg-verktoy-43d7",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-verktoy-b96f",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "tools",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-verktoy-43d7"
+   "deck": "subtraksjon-finn-subtrahend-verktoy-b96f"
   },
   {
-   "slug": "preposisjoner-flervalg-vinter-cbc9",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "winter",
-   "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-vinter-cbc9"
-  },
-  {
-   "slug": "preposisjoner-flervalg-yrker-caaa",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "subtraksjon-finn-subtrahend-yrker-b3fc",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "occupations",
    "level": "2-trinn",
-   "deck": "preposisjoner-flervalg-yrker-caaa"
+   "deck": "subtraksjon-finn-subtrahend-yrker-b3fc"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-bakeri-c687",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "bakery",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-bakeri-c687"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-blomster-8498",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "flowers",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-blomster-8498"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-camping-d959",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "camping",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-camping-d959"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-desserter-og-godteri-d8c0",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "desserts_and_sweets",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-desserter-og-godteri-d8c0"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-dinosaurer-cf1a",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "dinosaurs",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-dinosaurer-cf1a"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-dyr-45a8",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "animals",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-dyr-45a8"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-dyrehagedyr-cb9a",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "zoo_animals",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-dyrehagedyr-cb9a"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-former-fa9d",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "shapes",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-former-fa9d"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-frokost-f5ee",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "breakfast",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-frokost-f5ee"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-frukter-2a19",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "fruits",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-frukter-2a19"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-fugler-2-91a6",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "birds_2",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-fugler-2-91a6"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-fugler-80c6",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "birds",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-fugler-80c6"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-gronnsaker-ebd8",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "vegetables",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-gronnsaker-ebd8"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-havliv-7ab0",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "ocean_life",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-havliv-7ab0"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-i-supermarkedet-ec61",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "at_the_supermarket",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-i-supermarkedet-ec61"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-insekter-og-kryp-3d0f",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "insects_and_bugs",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-insekter-og-kryp-3d0f"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-jul-c915",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "christmas",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-jul-c915"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-kjaeledyr-bdca",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "pets",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-kjaeledyr-bdca"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-kjokkenredskaper-d05b",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "kitchen_tools",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-kjokkenredskaper-d05b"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-kjoretoy-368e",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "vehicles",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-kjoretoy-368e"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-klaer-351b",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "clothing",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-klaer-351b"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-klasserom-9d7c",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "classroom",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-klasserom-9d7c"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-leker-6160",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "toys",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-leker-6160"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-mobler-c490",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "furniture",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-mobler-c490"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-musikk-f3cf",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "music",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-musikk-f3cf"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-paske-c7de",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "easter",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-paske-c7de"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-postkontor-12c1",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "post_office",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-postkontor-12c1"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-reptiler-og-amfibier-2a82",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-reptiler-og-amfibier-2a82"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-rundt-i-huset-f447",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "around_the_house",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-rundt-i-huset-f447"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-skogsdyr-e26c",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "forest_creatures",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-skogsdyr-e26c"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-strand-0662",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "beach",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-strand-0662"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-sykehus-db72",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "hospital",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-sykehus-db72"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-thanksgiving-233c",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "thanksgivinng",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-thanksgiving-233c"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-tilbehor-ce0e",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "accessories",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-tilbehor-ce0e"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-ting-som-flyr-256e",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "things_that_fly",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-ting-som-flyr-256e"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-traer-0a34",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "tree",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-traer-0a34"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-verdensrommet-3b34",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "space",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-verdensrommet-3b34"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-verktoy-5f61",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "tools",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-verktoy-5f61"
+  },
+  {
+   "slug": "addisjon-bilde-bilde-yrker-957b",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "occupations",
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-bilde-yrker-957b"
   }
  ]
 }

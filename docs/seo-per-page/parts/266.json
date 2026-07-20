@@ -2,779 +2,779 @@
  "part": 266,
  "locale": "da",
  "classes": [
-  "picture-path::choose-path",
-  "prepositions::fillin"
+  "treasure-hunt::cardinal-arrows",
+  "treasure-hunt::compass"
  ],
  "splitOf": null,
  "count": 96,
  "pages": [
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-aktiviteter-0f15",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-aktiviteter-6497",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "activities",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-aktiviteter-0f15"
+   "deck": "skattejagt-op-ned-venstre-hojre-aktiviteter-6497"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-bageri-c57f",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-bageri-02de",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "bakery",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-bageri-c57f"
+   "deck": "skattejagt-op-ned-venstre-hojre-bageri-02de"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-blomster-bf92",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-blomster-e8c1",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "flowers",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-blomster-bf92"
+   "deck": "skattejagt-op-ned-venstre-hojre-blomster-e8c1"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-bondegardsdyr-40c3",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-bondegardsdyr-8e53",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "farm_animals",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-bondegardsdyr-40c3"
+   "deck": "skattejagt-op-ned-venstre-hojre-bondegardsdyr-8e53"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-camping-6c3e",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-camping-6ffc",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "camping",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-camping-6c3e"
+   "deck": "skattejagt-op-ned-venstre-hojre-camping-6ffc"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-desserter-og-slik-542e",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-desserter-og-slik-17a1",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "desserts_and_sweets",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-desserter-og-slik-542e"
+   "deck": "skattejagt-op-ned-venstre-hojre-desserter-og-slik-17a1"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-dinosaurer-c67e",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-dinosaurer-0a25",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "dinosaurs",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-dinosaurer-c67e"
+   "deck": "skattejagt-op-ned-venstre-hojre-dinosaurer-0a25"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-dyr-2995",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-dyr",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "animals",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-dyr-2995"
+   "deck": "skattejagt-op-ned-venstre-hojre-dyr"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-erhverv-2362",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-erhverv-cf43",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "occupations",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-erhverv-2362"
+   "deck": "skattejagt-op-ned-venstre-hojre-erhverv-cf43"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-farver-97ad",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-farver-c2e5",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "colors",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-farver-97ad"
+   "deck": "skattejagt-op-ned-venstre-hojre-farver-c2e5"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-folelser-087d",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-folelser-9f96",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "emotions",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-folelser-087d"
+   "deck": "skattejagt-op-ned-venstre-hojre-folelser-9f96"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-forar-b799",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-forar-a68a",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "spring",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-forar-b799"
+   "deck": "skattejagt-op-ned-venstre-hojre-forar-a68a"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-former-240d",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-former-ac20",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "shapes",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-former-240d"
+   "deck": "skattejagt-op-ned-venstre-hojre-former-ac20"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-frugter-740f",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-frugter-e697",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "fruits",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-frugter-740f"
+   "deck": "skattejagt-op-ned-venstre-hojre-frugter-e697"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-fugle-2-c055",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-fugle-2-3ba9",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "birds_2",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-fugle-2-c055"
+   "deck": "skattejagt-op-ned-venstre-hojre-fugle-2-3ba9"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-fugle-250c",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-fugle-f8ec",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "birds",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-fugle-250c"
+   "deck": "skattejagt-op-ned-venstre-hojre-fugle-f8ec"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-grontsager-d78e",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-grontsager-f451",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "vegetables",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-grontsager-d78e"
+   "deck": "skattejagt-op-ned-venstre-hojre-grontsager-f451"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-havliv-81a4",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-havliv-5506",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "ocean_life",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-havliv-81a4"
+   "deck": "skattejagt-op-ned-venstre-hojre-havliv-5506"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-hospital-7b96",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-hospital-9836",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "hospital",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-hospital-7b96"
+   "deck": "skattejagt-op-ned-venstre-hojre-hospital-9836"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-i-supermarkedet-b6d8",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-i-supermarkedet-8d44",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "at_the_supermarket",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-i-supermarkedet-b6d8"
+   "deck": "skattejagt-op-ned-venstre-hojre-i-supermarkedet-8d44"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-insekter-og-kryb-c5c7",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-insekter-og-kryb-ec11",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "insects_and_bugs",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-insekter-og-kryb-c5c7"
+   "deck": "skattejagt-op-ned-venstre-hojre-insekter-og-kryb-ec11"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-jul-3956",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-jul-3f41",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "christmas",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-jul-3956"
+   "deck": "skattejagt-op-ned-venstre-hojre-jul-3f41"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-kaeledyr-29dd",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-kaeledyr-c57f",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "pets",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-kaeledyr-29dd"
+   "deck": "skattejagt-op-ned-venstre-hojre-kaeledyr-c57f"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-klassevaerelse-0b15",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-klassevaerelse-33c6",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "classroom",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-klassevaerelse-0b15"
+   "deck": "skattejagt-op-ned-venstre-hojre-klassevaerelse-33c6"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-kokkenredskaber-844e",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-kokkenredskaber-20af",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "kitchen_tools",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-kokkenredskaber-844e"
+   "deck": "skattejagt-op-ned-venstre-hojre-kokkenredskaber-20af"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-koretojer-2ae8",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-koretojer-af1c",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "vehicles",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-koretojer-2ae8"
+   "deck": "skattejagt-op-ned-venstre-hojre-koretojer-af1c"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-kropsdele-1391",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-kropsdele-b2a7",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "body_parts",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-kropsdele-1391"
+   "deck": "skattejagt-op-ned-venstre-hojre-kropsdele-b2a7"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-krybdyr-og-padder-9f94",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-krybdyr-og-padder-8155",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "reptiles_and_amphibians",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-krybdyr-og-padder-9f94"
+   "deck": "skattejagt-op-ned-venstre-hojre-krybdyr-og-padder-8155"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-legetoj-a3fe",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-legetoj-d234",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "toys",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-legetoj-a3fe"
+   "deck": "skattejagt-op-ned-venstre-hojre-legetoj-d234"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-mobler-42ff",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-mobler-8379",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "furniture",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-mobler-42ff"
+   "deck": "skattejagt-op-ned-venstre-hojre-mobler-8379"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-morgenmad-b411",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-morgenmad-d057",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "breakfast",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-morgenmad-b411"
+   "deck": "skattejagt-op-ned-venstre-hojre-morgenmad-d057"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-musik-0cdf",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-musik-00de",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "music",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-musik-0cdf"
+   "deck": "skattejagt-op-ned-venstre-hojre-musik-00de"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-paske-3e6e",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-paske-1675",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "easter",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-paske-3e6e"
+   "deck": "skattejagt-op-ned-venstre-hojre-paske-1675"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-postkontor-f4c3",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-postkontor-62cf",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "post_office",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-postkontor-f4c3"
+   "deck": "skattejagt-op-ned-venstre-hojre-postkontor-62cf"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-rummet-3026",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-rummet-59b5",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "space",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-rummet-3026"
+   "deck": "skattejagt-op-ned-venstre-hojre-rummet-59b5"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-rundt-i-huset-b774",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-rundt-i-huset-be55",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "around_the_house",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-rundt-i-huset-b774"
+   "deck": "skattejagt-op-ned-venstre-hojre-rundt-i-huset-be55"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-skovdyr-b085",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-skovdyr-7cd8",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "forest_creatures",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-skovdyr-b085"
+   "deck": "skattejagt-op-ned-venstre-hojre-skovdyr-7cd8"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-sommer-891f",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-sommer-6740",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "summer",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-sommer-891f"
+   "deck": "skattejagt-op-ned-venstre-hojre-sommer-6740"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-strand-3b51",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-strand-aa1b",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "beach",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-strand-3b51"
+   "deck": "skattejagt-op-ned-venstre-hojre-strand-aa1b"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-thanksgiving-90a5",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-thanksgiving-011e",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "thanksgivinng",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-thanksgiving-90a5"
+   "deck": "skattejagt-op-ned-venstre-hojre-thanksgiving-011e"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-tilbehor-adce",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-tilbehor-53a8",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "accessories",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-tilbehor-adce"
+   "deck": "skattejagt-op-ned-venstre-hojre-tilbehor-53a8"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-ting-der-flyver-9e10",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-ting-der-flyver-56c9",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "things_that_fly",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-ting-der-flyver-9e10"
+   "deck": "skattejagt-op-ned-venstre-hojre-ting-der-flyver-56c9"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-toj-d99f",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-toj-392c",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "clothing",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-toj-d99f"
+   "deck": "skattejagt-op-ned-venstre-hojre-toj-392c"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-traeer-6e25",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-traeer-2b34",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "tree",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-traeer-6e25"
+   "deck": "skattejagt-op-ned-venstre-hojre-traeer-2b34"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-vaerktoj-9fb2",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-vaerktoj-9ced",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "tools",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-vaerktoj-9fb2"
+   "deck": "skattejagt-op-ned-venstre-hojre-vaerktoj-9ced"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-vejr-deb9",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-vejr-add6",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "weather",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-vejr-deb9"
+   "deck": "skattejagt-op-ned-venstre-hojre-vejr-add6"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-vinter-ef0e",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-vinter-826f",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "winter",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-vinter-ef0e"
+   "deck": "skattejagt-op-ned-venstre-hojre-vinter-826f"
   },
   {
-   "slug": "billedvej-vaelg-den-rigtige-vej-zoodyr-eea4",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "skattejagt-op-ned-venstre-hojre-zoodyr-66b5",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "zoo_animals",
    "level": "boernehaveklasse",
-   "deck": "billedvej-vaelg-den-rigtige-vej-zoodyr-eea4"
+   "deck": "skattejagt-op-ned-venstre-hojre-zoodyr-66b5"
   },
   {
-   "slug": "praepositioner-udfyld-aktiviteter-b24a",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-aktiviteter-a9ad",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "activities",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-aktiviteter-b24a"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-aktiviteter-a9ad"
   },
   {
-   "slug": "praepositioner-udfyld-bageri-ad15",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-bageri-1d9a",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "bakery",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-bageri-ad15"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-bageri-1d9a"
   },
   {
-   "slug": "praepositioner-udfyld-blomster-db4c",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-blomster-9d2b",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "flowers",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-blomster-db4c"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-blomster-9d2b"
   },
   {
-   "slug": "praepositioner-udfyld-bondegardsdyr-4dcc",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-bondegardsdyr-8e2a",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "farm_animals",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-bondegardsdyr-4dcc"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-bondegardsdyr-8e2a"
   },
   {
-   "slug": "praepositioner-udfyld-camping-bb0d",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-camping-a03b",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "camping",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-camping-bb0d"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-camping-a03b"
   },
   {
-   "slug": "praepositioner-udfyld-desserter-og-slik-e21d",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-desserter-og-slik-11b9",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "desserts_and_sweets",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-desserter-og-slik-e21d"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-desserter-og-slik-11b9"
   },
   {
-   "slug": "praepositioner-udfyld-dinosaurer-6845",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-dinosaurer-84e1",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "dinosaurs",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-dinosaurer-6845"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-dinosaurer-84e1"
   },
   {
-   "slug": "praepositioner-udfyld-dyr-8f9f",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-dyr-f7c7",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "animals",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-dyr-8f9f"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-dyr-f7c7"
   },
   {
-   "slug": "praepositioner-udfyld-erhverv-017a",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-erhverv-236a",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "occupations",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-erhverv-017a"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-erhverv-236a"
   },
   {
-   "slug": "praepositioner-udfyld-farver-345d",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-farver-7508",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "colors",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-farver-345d"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-farver-7508"
   },
   {
-   "slug": "praepositioner-udfyld-folelser-997e",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-folelser-7551",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "emotions",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-folelser-997e"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-folelser-7551"
   },
   {
-   "slug": "praepositioner-udfyld-forar-4095",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-forar-522a",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "spring",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-forar-4095"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-forar-522a"
   },
   {
-   "slug": "praepositioner-udfyld-former-a125",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-former-8d0f",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "shapes",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-former-a125"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-former-8d0f"
   },
   {
-   "slug": "praepositioner-udfyld-frugter-ae62",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-frugter-ad9f",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "fruits",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-frugter-ae62"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-frugter-ad9f"
   },
   {
-   "slug": "praepositioner-udfyld-fugle-2-2d6c",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-fugle-2-aac6",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "birds_2",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-fugle-2-2d6c"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-fugle-2-aac6"
   },
   {
-   "slug": "praepositioner-udfyld-fugle-256f",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-fugle-53b2",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "birds",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-fugle-256f"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-fugle-53b2"
   },
   {
-   "slug": "praepositioner-udfyld-grontsager-0877",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-grontsager-7e8f",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "vegetables",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-grontsager-0877"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-grontsager-7e8f"
   },
   {
-   "slug": "praepositioner-udfyld-havliv-116c",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-havliv-ea84",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "ocean_life",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-havliv-116c"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-havliv-ea84"
   },
   {
-   "slug": "praepositioner-udfyld-hospital-cc48",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-hospital-090f",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "hospital",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-hospital-cc48"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-hospital-090f"
   },
   {
-   "slug": "praepositioner-udfyld-i-supermarkedet-2f41",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-i-supermarkedet-1df1",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "at_the_supermarket",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-i-supermarkedet-2f41"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-i-supermarkedet-1df1"
   },
   {
-   "slug": "praepositioner-udfyld-insekter-og-kryb-77da",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-insekter-og-kryb-664c",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "insects_and_bugs",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-insekter-og-kryb-77da"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-insekter-og-kryb-664c"
   },
   {
-   "slug": "praepositioner-udfyld-jul-b8e2",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-jul-4d74",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "christmas",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-jul-b8e2"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-jul-4d74"
   },
   {
-   "slug": "praepositioner-udfyld-kaeledyr-e87c",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-kaeledyr-5116",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "pets",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-kaeledyr-e87c"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-kaeledyr-5116"
   },
   {
-   "slug": "praepositioner-udfyld-klassevaerelse-a07a",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-klassevaerelse-980d",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "classroom",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-klassevaerelse-a07a"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-klassevaerelse-980d"
   },
   {
-   "slug": "praepositioner-udfyld-kokkenredskaber-9423",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-kokkenredskaber-f289",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "kitchen_tools",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-kokkenredskaber-9423"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-kokkenredskaber-f289"
   },
   {
-   "slug": "praepositioner-udfyld-koretojer-6af6",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-koretojer-317d",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "vehicles",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-koretojer-6af6"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-koretojer-317d"
   },
   {
-   "slug": "praepositioner-udfyld-kropsdele-93ad",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-kropsdele-bde3",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "body_parts",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-kropsdele-93ad"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-kropsdele-bde3"
   },
   {
-   "slug": "praepositioner-udfyld-krybdyr-og-padder-46fe",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-krybdyr-og-padder-1fcc",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "reptiles_and_amphibians",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-krybdyr-og-padder-46fe"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-krybdyr-og-padder-1fcc"
   },
   {
-   "slug": "praepositioner-udfyld-legetoj-20bf",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-legetoj-16b2",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "toys",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-legetoj-20bf"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-legetoj-16b2"
   },
   {
-   "slug": "praepositioner-udfyld-mobler-8f33",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-mobler-87d7",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "furniture",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-mobler-8f33"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-mobler-87d7"
   },
   {
-   "slug": "praepositioner-udfyld-morgenmad-41e3",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-morgenmad-651b",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "breakfast",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-morgenmad-41e3"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-morgenmad-651b"
   },
   {
-   "slug": "praepositioner-udfyld-musik-cf73",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-musik-2f99",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "music",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-musik-cf73"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-musik-2f99"
   },
   {
-   "slug": "praepositioner-udfyld-paske-e74a",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-paske-5120",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "easter",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-paske-e74a"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-paske-5120"
   },
   {
-   "slug": "praepositioner-udfyld-postkontor-9fb7",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-postkontor-6783",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "post_office",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-postkontor-9fb7"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-postkontor-6783"
   },
   {
-   "slug": "praepositioner-udfyld-rummet-e18d",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-rummet-63a8",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "space",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-rummet-e18d"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-rummet-63a8"
   },
   {
-   "slug": "praepositioner-udfyld-rundt-i-huset-93d5",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-rundt-i-huset-24f5",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "around_the_house",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-rundt-i-huset-93d5"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-rundt-i-huset-24f5"
   },
   {
-   "slug": "praepositioner-udfyld-skovdyr-642e",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-skovdyr-f29e",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "forest_creatures",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-skovdyr-642e"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-skovdyr-f29e"
   },
   {
-   "slug": "praepositioner-udfyld-sommer-5305",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-sommer-be79",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "summer",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-sommer-5305"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-sommer-be79"
   },
   {
-   "slug": "praepositioner-udfyld-strand-f1a5",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-strand-c747",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "beach",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-strand-f1a5"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-strand-c747"
   },
   {
-   "slug": "praepositioner-udfyld-thanksgiving-6ad2",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-thanksgiving-30f8",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "thanksgivinng",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-thanksgiving-6ad2"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-thanksgiving-30f8"
   },
   {
-   "slug": "praepositioner-udfyld-tilbehor-6ce5",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-tilbehor-5038",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "accessories",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-tilbehor-6ce5"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-tilbehor-5038"
   },
   {
-   "slug": "praepositioner-udfyld-ting-der-flyver-38e4",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-ting-der-flyver-8e98",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "things_that_fly",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-ting-der-flyver-38e4"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-ting-der-flyver-8e98"
   },
   {
-   "slug": "praepositioner-udfyld-toj-f3d8",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-toj-811f",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "clothing",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-toj-f3d8"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-toj-811f"
   },
   {
-   "slug": "praepositioner-udfyld-traeer-d637",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-traeer-5c35",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "tree",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-traeer-d637"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-traeer-5c35"
   },
   {
-   "slug": "praepositioner-udfyld-vaerktoj-ae14",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-vaerktoj-e5eb",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "tools",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-vaerktoj-ae14"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-vaerktoj-e5eb"
   },
   {
-   "slug": "praepositioner-udfyld-vejr-5073",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-vejr-a40e",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "weather",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-vejr-5073"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-vejr-a40e"
   },
   {
-   "slug": "praepositioner-udfyld-vinter-4a7f",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-vinter-b7ef",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "winter",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-vinter-4a7f"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-vinter-b7ef"
   },
   {
-   "slug": "praepositioner-udfyld-zoodyr-2160",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "skattejagt-verdenshjorner-zoodyr-3bbb",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "zoo_animals",
-   "level": "2-klasse",
-   "deck": "praepositioner-udfyld-zoodyr-2160"
+   "level": "boernehaveklasse",
+   "deck": "skattejagt-verdenshjorner-zoodyr-3bbb"
   }
  ]
 }

@@ -2,811 +2,699 @@
  "part": 34,
  "locale": "en",
  "classes": [
-  "sudoku::medium",
-  "sudoku::null"
+  "subtraction::mixed",
+  "subtraction::find-subtrahend"
  ],
  "splitOf": null,
- "count": 100,
+ "count": 86,
  "pages": [
   {
-   "slug": "sudoku-medium-4th-of-july",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-4th-of-july",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "4th_of_july",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-4th-of-july"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-4th-of-july"
   },
   {
-   "slug": "sudoku-medium-accessories",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-accessories",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "accessories",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-accessories"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-accessories"
   },
   {
-   "slug": "sudoku-medium-activities",
-   "type": "sudoku",
-   "mode": "medium",
-   "theme": "activities",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-activities"
-  },
-  {
-   "slug": "sudoku-medium-animals",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-animals",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "animals",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-animals"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-animals"
   },
   {
-   "slug": "sudoku-medium-around-the-house",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-around-the-house",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "around_the_house",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-around-the-house"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-around-the-house"
   },
   {
-   "slug": "sudoku-medium-at-the-supermarket",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-at-the-supermarket",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "at_the_supermarket",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-at-the-supermarket"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-at-the-supermarket"
   },
   {
-   "slug": "sudoku-medium-bakery",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-bakery",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "bakery",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-bakery"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-bakery"
   },
   {
-   "slug": "sudoku-medium-beach",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-beach",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "beach",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-beach"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-beach"
   },
   {
-   "slug": "sudoku-medium-birds",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-birds",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "birds",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-birds"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-birds"
   },
   {
-   "slug": "sudoku-medium-birds-2",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-birds-2",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "birds_2",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-birds-2"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-birds-2"
   },
   {
-   "slug": "sudoku-medium-body-parts",
-   "type": "sudoku",
-   "mode": "medium",
-   "theme": "body_parts",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-body-parts"
-  },
-  {
-   "slug": "sudoku-medium-breakfast",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-breakfast",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "breakfast",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-breakfast"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-breakfast"
   },
   {
-   "slug": "sudoku-medium-camping",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-camping",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "camping",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-camping"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-camping"
   },
   {
-   "slug": "sudoku-medium-christmas",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-christmas",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "christmas",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-christmas"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-christmas"
   },
   {
-   "slug": "sudoku-medium-classroom",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-classroom",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "classroom",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-classroom"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-classroom"
   },
   {
-   "slug": "sudoku-medium-clothing",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-clothing",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "clothing",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-clothing"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-clothing"
   },
   {
-   "slug": "sudoku-medium-colors",
-   "type": "sudoku",
-   "mode": "medium",
-   "theme": "colors",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-colors"
-  },
-  {
-   "slug": "sudoku-medium-desserts-and-sweets",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-desserts-and-sweets",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "desserts_and_sweets",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-desserts-and-sweets"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-desserts-and-sweets"
   },
   {
-   "slug": "sudoku-medium-dinosaurs",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-dinosaurs",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "dinosaurs",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-dinosaurs"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-dinosaurs"
   },
   {
-   "slug": "sudoku-medium-easter",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-easter",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "easter",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-easter"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-easter"
   },
   {
-   "slug": "sudoku-medium-emotions",
-   "type": "sudoku",
-   "mode": "medium",
-   "theme": "emotions",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-emotions"
+   "slug": "subtraction-mixed-faces-bw",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "faces_bw",
+   "level": "grade-1",
+   "deck": "subtraction-mixed-faces-bw"
   },
   {
-   "slug": "sudoku-medium-farm-animals",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-farm-animals",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "farm_animals",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-farm-animals"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-farm-animals"
   },
   {
-   "slug": "sudoku-medium-flowers",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-flowers",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "flowers",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-flowers"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-flowers"
   },
   {
-   "slug": "sudoku-medium-forest-creatures",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-forest-creatures",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "forest_creatures",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-forest-creatures"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-forest-creatures"
   },
   {
-   "slug": "sudoku-medium-fruits",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-fruits",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "fruits",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-fruits"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-fruits"
   },
   {
-   "slug": "sudoku-medium-furniture",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-furniture",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "furniture",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-furniture"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-furniture"
   },
   {
-   "slug": "sudoku-medium-hospital",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-hospital",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "hospital",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-hospital"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-hospital"
   },
   {
-   "slug": "sudoku-medium-insects-and-bugs",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-insects-and-bugs",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "insects_and_bugs",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-insects-and-bugs"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-insects-and-bugs"
   },
   {
-   "slug": "sudoku-medium-kitchen-tools",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-kitchen-tools",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "kitchen_tools",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-kitchen-tools"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-kitchen-tools"
   },
   {
-   "slug": "sudoku-medium-miscellaneous",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-miscellaneous",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "miscellaneous",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-miscellaneous"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-miscellaneous"
   },
   {
-   "slug": "sudoku-medium-music",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-music",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "music",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-music"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-music"
   },
   {
-   "slug": "sudoku-medium-occupations",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-occupations",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "occupations",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-occupations"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-occupations"
   },
   {
-   "slug": "sudoku-medium-ocean-life",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-ocean-life",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "ocean_life",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-ocean-life"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-ocean-life"
   },
   {
-   "slug": "sudoku-medium-pets",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-pets",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "pets",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-pets"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-pets"
   },
   {
-   "slug": "sudoku-medium-post-office",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-post-office",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "post_office",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-post-office"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-post-office"
   },
   {
-   "slug": "sudoku-medium-reptiles-and-amphibians",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-reptiles-and-amphibians",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "reptiles_and_amphibians",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-reptiles-and-amphibians"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-reptiles-and-amphibians"
   },
   {
-   "slug": "sudoku-medium-shapes",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-shapes",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "shapes",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-shapes"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-shapes"
   },
   {
-   "slug": "sudoku-medium-space",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-space",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "space",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-space"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-space"
   },
   {
-   "slug": "sudoku-medium-spring",
-   "type": "sudoku",
-   "mode": "medium",
-   "theme": "spring",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-spring"
+   "slug": "subtraction-mixed-sports-bw",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "sports_bw",
+   "level": "grade-1",
+   "deck": "subtraction-mixed-sports-bw"
   },
   {
-   "slug": "sudoku-medium-summer",
-   "type": "sudoku",
-   "mode": "medium",
-   "theme": "summer",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-summer"
-  },
-  {
-   "slug": "sudoku-medium-thanksgiving",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-thanksgiving",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "thanksgivinng",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-thanksgiving"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-thanksgiving"
   },
   {
-   "slug": "sudoku-medium-things-that-fly",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-things-that-fly",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "things_that_fly",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-things-that-fly"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-things-that-fly"
   },
   {
-   "slug": "sudoku-medium-tools",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-tools",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "tools",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-tools"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-tools"
   },
   {
-   "slug": "sudoku-medium-toys",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-toys",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "toys",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-toys"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-toys"
   },
   {
-   "slug": "sudoku-medium-tree",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-tree",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "tree",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-tree"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-tree"
   },
   {
-   "slug": "sudoku-medium-vegetables",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-valentine-bw",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "valentine_bw",
+   "level": "grade-1",
+   "deck": "subtraction-mixed-valentine-bw"
+  },
+  {
+   "slug": "subtraction-mixed-vegetables",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "vegetables",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-vegetables"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-vegetables"
   },
   {
-   "slug": "sudoku-medium-vehicles",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-vehicles",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "vehicles",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-vehicles"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-vehicles"
   },
   {
-   "slug": "sudoku-medium-weather",
-   "type": "sudoku",
-   "mode": "medium",
-   "theme": "weather",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-weather"
-  },
-  {
-   "slug": "sudoku-medium-winter",
-   "type": "sudoku",
-   "mode": "medium",
-   "theme": "winter",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-winter"
-  },
-  {
-   "slug": "sudoku-medium-zoo-animals",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "subtraction-mixed-zoo-animals",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "zoo_animals",
-   "level": "kindergarten",
-   "deck": "sudoku-medium-zoo-animals"
+   "level": "grade-1",
+   "deck": "subtraction-mixed-zoo-animals"
   },
   {
-   "slug": "sudoku-4th-of-july",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-4th-of-july",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "4th_of_july",
-   "level": "kindergarten",
-   "deck": "sudoku-4th-of-july"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-4th-of-july"
   },
   {
-   "slug": "sudoku-accessories",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-accessories",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "accessories",
-   "level": "kindergarten",
-   "deck": "sudoku-accessories"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-accessories"
   },
   {
-   "slug": "sudoku-activities",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "activities",
-   "level": "kindergarten",
-   "deck": "sudoku-activities"
-  },
-  {
-   "slug": "sudoku-animals",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-animals",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "animals",
-   "level": "kindergarten",
-   "deck": "sudoku-animals"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-animals"
   },
   {
-   "slug": "sudoku-around-the-house",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-around-the-house",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "around_the_house",
-   "level": "kindergarten",
-   "deck": "sudoku-around-the-house"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-around-the-house"
   },
   {
-   "slug": "sudoku-at-the-supermarket",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-at-the-supermarket",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "at_the_supermarket",
-   "level": "kindergarten",
-   "deck": "sudoku-at-the-supermarket"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-at-the-supermarket"
   },
   {
-   "slug": "sudoku-bakery",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-bakery",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "bakery",
-   "level": "kindergarten",
-   "deck": "sudoku-bakery"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-bakery"
   },
   {
-   "slug": "sudoku-beach",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-beach",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "beach",
-   "level": "kindergarten",
-   "deck": "sudoku-beach"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-beach"
   },
   {
-   "slug": "sudoku-birds",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-birds",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "birds",
-   "level": "kindergarten",
-   "deck": "sudoku-birds"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-birds"
   },
   {
-   "slug": "sudoku-birds-2",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-birds-2",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "birds_2",
-   "level": "kindergarten",
-   "deck": "sudoku-birds-2"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-birds-2"
   },
   {
-   "slug": "sudoku-body-parts",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "kindergarten",
-   "deck": "sudoku-body-parts"
-  },
-  {
-   "slug": "sudoku-breakfast",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-breakfast",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "breakfast",
-   "level": "kindergarten",
-   "deck": "sudoku-breakfast"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-breakfast"
   },
   {
-   "slug": "sudoku-camping",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-camping",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "camping",
-   "level": "kindergarten",
-   "deck": "sudoku-camping"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-camping"
   },
   {
-   "slug": "sudoku-christmas",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-christmas",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "christmas",
-   "level": "kindergarten",
-   "deck": "sudoku-christmas"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-christmas"
   },
   {
-   "slug": "sudoku-classroom",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-classroom",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "classroom",
-   "level": "kindergarten",
-   "deck": "sudoku-classroom"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-classroom"
   },
   {
-   "slug": "sudoku-clothing",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-clothing",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "clothing",
-   "level": "kindergarten",
-   "deck": "sudoku-clothing"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-clothing"
   },
   {
-   "slug": "sudoku-colors",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "colors",
-   "level": "kindergarten",
-   "deck": "sudoku-colors"
-  },
-  {
-   "slug": "sudoku-desserts-and-sweets",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-desserts-and-sweets",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "desserts_and_sweets",
-   "level": "kindergarten",
-   "deck": "sudoku-desserts-and-sweets"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-desserts-and-sweets"
   },
   {
-   "slug": "sudoku-dinosaurs",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-dinosaurs",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "dinosaurs",
-   "level": "kindergarten",
-   "deck": "sudoku-dinosaurs"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-dinosaurs"
   },
   {
-   "slug": "sudoku-easter",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-easter",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "easter",
-   "level": "kindergarten",
-   "deck": "sudoku-easter"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-easter"
   },
   {
-   "slug": "sudoku-emotions",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "emotions",
-   "level": "kindergarten",
-   "deck": "sudoku-emotions"
-  },
-  {
-   "slug": "sudoku-farm-animals",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "farm_animals",
-   "level": "kindergarten",
-   "deck": "sudoku-farm-animals"
-  },
-  {
-   "slug": "sudoku-flowers",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "flowers",
-   "level": "kindergarten",
-   "deck": "sudoku-flowers"
-  },
-  {
-   "slug": "sudoku-forest-creatures",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-forest-creatures",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "forest_creatures",
-   "level": "kindergarten",
-   "deck": "sudoku-forest-creatures"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-forest-creatures"
   },
   {
-   "slug": "sudoku-fruits",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-fruits",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "fruits",
-   "level": "kindergarten",
-   "deck": "sudoku-fruits"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-fruits"
   },
   {
-   "slug": "sudoku-furniture",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-furniture",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "furniture",
-   "level": "kindergarten",
-   "deck": "sudoku-furniture"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-furniture"
   },
   {
-   "slug": "sudoku-hospital",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-hospital",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "hospital",
-   "level": "kindergarten",
-   "deck": "sudoku-hospital"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-hospital"
   },
   {
-   "slug": "sudoku-insects-and-bugs",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-insects-and-bugs",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "insects_and_bugs",
-   "level": "kindergarten",
-   "deck": "sudoku-insects-and-bugs"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-insects-and-bugs"
   },
   {
-   "slug": "sudoku-kitchen-tools",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-kitchen-tools",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "kitchen_tools",
-   "level": "kindergarten",
-   "deck": "sudoku-kitchen-tools"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-kitchen-tools"
   },
   {
-   "slug": "sudoku-miscellaneous",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-miscellaneous",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "miscellaneous",
-   "level": "kindergarten",
-   "deck": "sudoku-miscellaneous"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-miscellaneous"
   },
   {
-   "slug": "sudoku-music",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-music",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "music",
-   "level": "kindergarten",
-   "deck": "sudoku-music"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-music"
   },
   {
-   "slug": "sudoku-occupations",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-occupations",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "occupations",
-   "level": "kindergarten",
-   "deck": "sudoku-occupations"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-occupations"
   },
   {
-   "slug": "sudoku-ocean-life",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-ocean-life",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "ocean_life",
-   "level": "kindergarten",
-   "deck": "sudoku-ocean-life"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-ocean-life"
   },
   {
-   "slug": "sudoku-pets",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-pets",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "pets",
-   "level": "kindergarten",
-   "deck": "sudoku-pets"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-pets"
   },
   {
-   "slug": "sudoku-post-office",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-post-office",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "post_office",
-   "level": "kindergarten",
-   "deck": "sudoku-post-office"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-post-office"
   },
   {
-   "slug": "sudoku-reptiles-and-amphibians",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-reptiles-and-amphibians",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "reptiles_and_amphibians",
-   "level": "kindergarten",
-   "deck": "sudoku-reptiles-and-amphibians"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-reptiles-and-amphibians"
   },
   {
-   "slug": "sudoku-shapes",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-shapes",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "shapes",
-   "level": "kindergarten",
-   "deck": "sudoku-shapes"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-shapes"
   },
   {
-   "slug": "sudoku-space",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-space",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "space",
-   "level": "kindergarten",
-   "deck": "sudoku-space"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-space"
   },
   {
-   "slug": "sudoku-spring",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "spring",
-   "level": "kindergarten",
-   "deck": "sudoku-spring"
-  },
-  {
-   "slug": "sudoku-summer",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "summer",
-   "level": "kindergarten",
-   "deck": "sudoku-summer"
-  },
-  {
-   "slug": "sudoku-thanksgiving",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-thanksgiving",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "thanksgivinng",
-   "level": "kindergarten",
-   "deck": "sudoku-thanksgiving"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-thanksgiving"
   },
   {
-   "slug": "sudoku-things-that-fly",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-things-that-fly",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "things_that_fly",
-   "level": "kindergarten",
-   "deck": "sudoku-things-that-fly"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-things-that-fly"
   },
   {
-   "slug": "sudoku-tools",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-tools",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "tools",
-   "level": "kindergarten",
-   "deck": "sudoku-tools"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-tools"
   },
   {
-   "slug": "sudoku-toys",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-toys",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "toys",
-   "level": "kindergarten",
-   "deck": "sudoku-toys"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-toys"
   },
   {
-   "slug": "sudoku-tree",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-tree",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "tree",
-   "level": "kindergarten",
-   "deck": "sudoku-tree"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-tree"
   },
   {
-   "slug": "sudoku-vegetables",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-valentine-bw",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "valentine_bw",
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-valentine-bw"
+  },
+  {
+   "slug": "subtraction-find-subtrahend-vegetables",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "vegetables",
-   "level": "kindergarten",
-   "deck": "sudoku-vegetables"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-vegetables"
   },
   {
-   "slug": "sudoku-vehicles",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-vehicles",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "vehicles",
-   "level": "kindergarten",
-   "deck": "sudoku-vehicles"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-vehicles"
   },
   {
-   "slug": "sudoku-weather",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "weather",
-   "level": "kindergarten",
-   "deck": "sudoku-weather"
-  },
-  {
-   "slug": "sudoku-winter",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "winter",
-   "level": "kindergarten",
-   "deck": "sudoku-winter"
-  },
-  {
-   "slug": "sudoku-zoo-animals",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "subtraction-find-subtrahend-zoo-animals",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "zoo_animals",
-   "level": "kindergarten",
-   "deck": "sudoku-zoo-animals"
+   "level": "grade-1",
+   "deck": "subtraction-find-subtrahend-zoo-animals"
   }
  ]
 }

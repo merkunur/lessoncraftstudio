@@ -2,731 +2,419 @@
  "part": 44,
  "locale": "en",
  "classes": [
-  "math-puzzle::mixed",
-  "subtraction::image-number"
+  "sudoku::null",
+  "addition::find-addend"
  ],
  "splitOf": null,
- "count": 90,
+ "count": 51,
  "pages": [
   {
-   "slug": "math-puzzle-4th-of-july-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-4th-of-july",
+   "type": "sudoku",
+   "mode": null,
    "theme": "4th_of_july",
-   "level": "grade-2",
-   "deck": "math-puzzle-4th-of-july"
+   "level": "kindergarten",
+   "deck": "sudoku-4th-of-july"
   },
   {
-   "slug": "math-puzzle-accessories-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-accessories",
+   "type": "sudoku",
+   "mode": null,
    "theme": "accessories",
-   "level": "grade-2",
-   "deck": "math-puzzle-accessories"
+   "level": "kindergarten",
+   "deck": "sudoku-accessories"
   },
   {
-   "slug": "math-puzzle-animals-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-activities",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "activities",
+   "level": "kindergarten",
+   "deck": "sudoku-activities"
+  },
+  {
+   "slug": "sudoku-animals",
+   "type": "sudoku",
+   "mode": null,
    "theme": "animals",
-   "level": "grade-2",
-   "deck": "math-puzzle"
+   "level": "kindergarten",
+   "deck": "sudoku-animals"
   },
   {
-   "slug": "math-puzzle-around-the-house-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-around-the-house",
+   "type": "sudoku",
+   "mode": null,
    "theme": "around_the_house",
-   "level": "grade-2",
-   "deck": "math-puzzle-around-the-house"
+   "level": "kindergarten",
+   "deck": "sudoku-around-the-house"
   },
   {
-   "slug": "math-puzzle-at-the-supermarket-grade-1",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-at-the-supermarket",
+   "type": "sudoku",
+   "mode": null,
    "theme": "at_the_supermarket",
-   "level": "grade-1",
-   "deck": "math-puzzle-at-the-supermarket"
+   "level": "kindergarten",
+   "deck": "sudoku-at-the-supermarket"
   },
   {
-   "slug": "math-puzzle-bakery-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-bakery",
+   "type": "sudoku",
+   "mode": null,
    "theme": "bakery",
-   "level": "grade-2",
-   "deck": "math-puzzle-bakery"
+   "level": "kindergarten",
+   "deck": "sudoku-bakery"
   },
   {
-   "slug": "math-puzzle-beach-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-beach",
+   "type": "sudoku",
+   "mode": null,
    "theme": "beach",
-   "level": "grade-2",
-   "deck": "math-puzzle-beach"
+   "level": "kindergarten",
+   "deck": "sudoku-beach"
   },
   {
-   "slug": "math-puzzle-birds-2-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "birds_2",
-   "level": "grade-2",
-   "deck": "math-puzzle-birds-2"
-  },
-  {
-   "slug": "math-puzzle-birds-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-birds",
+   "type": "sudoku",
+   "mode": null,
    "theme": "birds",
-   "level": "grade-2",
-   "deck": "math-puzzle-birds"
+   "level": "kindergarten",
+   "deck": "sudoku-birds"
   },
   {
-   "slug": "math-puzzle-body-parts-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-birds-2",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "kindergarten",
+   "deck": "sudoku-birds-2"
+  },
+  {
+   "slug": "sudoku-body-parts",
+   "type": "sudoku",
+   "mode": null,
    "theme": "body_parts",
-   "level": "grade-2",
-   "deck": "math-puzzle-body-parts"
+   "level": "kindergarten",
+   "deck": "sudoku-body-parts"
   },
   {
-   "slug": "math-puzzle-breakfast-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-breakfast",
+   "type": "sudoku",
+   "mode": null,
    "theme": "breakfast",
-   "level": "grade-2",
-   "deck": "math-puzzle-breakfast"
+   "level": "kindergarten",
+   "deck": "sudoku-breakfast"
   },
   {
-   "slug": "math-puzzle-camping-grade-1",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-camping",
+   "type": "sudoku",
+   "mode": null,
    "theme": "camping",
-   "level": "grade-1",
-   "deck": "math-puzzle-camping"
+   "level": "kindergarten",
+   "deck": "sudoku-camping"
   },
   {
-   "slug": "math-puzzle-christmas-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-christmas",
+   "type": "sudoku",
+   "mode": null,
    "theme": "christmas",
-   "level": "grade-2",
-   "deck": "math-puzzle-christmas"
+   "level": "kindergarten",
+   "deck": "sudoku-christmas"
   },
   {
-   "slug": "math-puzzle-classroom-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-classroom",
+   "type": "sudoku",
+   "mode": null,
    "theme": "classroom",
-   "level": "grade-2",
-   "deck": "math-puzzle-classroom"
+   "level": "kindergarten",
+   "deck": "sudoku-classroom"
   },
   {
-   "slug": "math-puzzle-clothing-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-clothing",
+   "type": "sudoku",
+   "mode": null,
    "theme": "clothing",
-   "level": "grade-2",
-   "deck": "math-puzzle-clothing"
+   "level": "kindergarten",
+   "deck": "sudoku-clothing"
   },
   {
-   "slug": "math-puzzle-desserts-and-sweets-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-colors",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "colors",
+   "level": "kindergarten",
+   "deck": "sudoku-colors"
+  },
+  {
+   "slug": "sudoku-desserts-and-sweets",
+   "type": "sudoku",
+   "mode": null,
    "theme": "desserts_and_sweets",
-   "level": "grade-2",
-   "deck": "math-puzzle-desserts-and-sweets"
+   "level": "kindergarten",
+   "deck": "sudoku-desserts-and-sweets"
   },
   {
-   "slug": "math-puzzle-dinosaurs-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-dinosaurs",
+   "type": "sudoku",
+   "mode": null,
    "theme": "dinosaurs",
-   "level": "grade-2",
-   "deck": "math-puzzle-dinosaurs"
+   "level": "kindergarten",
+   "deck": "sudoku-dinosaurs"
   },
   {
-   "slug": "math-puzzle-easter-grade-1",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-easter",
+   "type": "sudoku",
+   "mode": null,
    "theme": "easter",
-   "level": "grade-1",
-   "deck": "math-puzzle-easter"
+   "level": "kindergarten",
+   "deck": "sudoku-easter"
   },
   {
-   "slug": "math-puzzle-emotions-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-emotions",
+   "type": "sudoku",
+   "mode": null,
    "theme": "emotions",
-   "level": "grade-2",
-   "deck": "math-puzzle-emotions"
+   "level": "kindergarten",
+   "deck": "sudoku-emotions"
   },
   {
-   "slug": "math-puzzle-farm-animals-grade-1",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-farm-animals",
+   "type": "sudoku",
+   "mode": null,
    "theme": "farm_animals",
-   "level": "grade-1",
-   "deck": "math-puzzle-farm-animals"
+   "level": "kindergarten",
+   "deck": "sudoku-farm-animals"
   },
   {
-   "slug": "math-puzzle-flowers-grade-1",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-flowers",
+   "type": "sudoku",
+   "mode": null,
    "theme": "flowers",
-   "level": "grade-1",
-   "deck": "math-puzzle-flowers"
+   "level": "kindergarten",
+   "deck": "sudoku-flowers"
   },
   {
-   "slug": "math-puzzle-forest-creatures-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-forest-creatures",
+   "type": "sudoku",
+   "mode": null,
    "theme": "forest_creatures",
-   "level": "grade-2",
-   "deck": "math-puzzle-forest-creatures"
+   "level": "kindergarten",
+   "deck": "sudoku-forest-creatures"
   },
   {
-   "slug": "math-puzzle-fruits-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-fruits",
+   "type": "sudoku",
+   "mode": null,
    "theme": "fruits",
-   "level": "grade-2",
-   "deck": "math-puzzle-fruits"
+   "level": "kindergarten",
+   "deck": "sudoku-fruits"
   },
   {
-   "slug": "math-puzzle-furniture-grade-1",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-furniture",
+   "type": "sudoku",
+   "mode": null,
    "theme": "furniture",
-   "level": "grade-1",
-   "deck": "math-puzzle-furniture"
+   "level": "kindergarten",
+   "deck": "sudoku-furniture"
   },
   {
-   "slug": "math-puzzle-hospital-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-hospital",
+   "type": "sudoku",
+   "mode": null,
    "theme": "hospital",
-   "level": "grade-2",
-   "deck": "math-puzzle-hospital"
+   "level": "kindergarten",
+   "deck": "sudoku-hospital"
   },
   {
-   "slug": "math-puzzle-insects-and-bugs-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-insects-and-bugs",
+   "type": "sudoku",
+   "mode": null,
    "theme": "insects_and_bugs",
-   "level": "grade-2",
-   "deck": "math-puzzle-insects-and-bugs"
+   "level": "kindergarten",
+   "deck": "sudoku-insects-and-bugs"
   },
   {
-   "slug": "math-puzzle-kitchen-tools-grade-1",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-kitchen-tools",
+   "type": "sudoku",
+   "mode": null,
    "theme": "kitchen_tools",
-   "level": "grade-1",
-   "deck": "math-puzzle-kitchen-tools"
+   "level": "kindergarten",
+   "deck": "sudoku-kitchen-tools"
   },
   {
-   "slug": "math-puzzle-miscellaneous-grade-1",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-miscellaneous",
+   "type": "sudoku",
+   "mode": null,
    "theme": "miscellaneous",
-   "level": "grade-1",
-   "deck": "math-puzzle-miscellaneous"
+   "level": "kindergarten",
+   "deck": "sudoku-miscellaneous"
   },
   {
-   "slug": "math-puzzle-music-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-music",
+   "type": "sudoku",
+   "mode": null,
    "theme": "music",
-   "level": "grade-2",
-   "deck": "math-puzzle-music"
+   "level": "kindergarten",
+   "deck": "sudoku-music"
   },
   {
-   "slug": "math-puzzle-occupations-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-occupations",
+   "type": "sudoku",
+   "mode": null,
    "theme": "occupations",
-   "level": "grade-2",
-   "deck": "math-puzzle-occupations"
+   "level": "kindergarten",
+   "deck": "sudoku-occupations"
   },
   {
-   "slug": "math-puzzle-ocean-life-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-ocean-life",
+   "type": "sudoku",
+   "mode": null,
    "theme": "ocean_life",
-   "level": "grade-2",
-   "deck": "math-puzzle-ocean-life"
+   "level": "kindergarten",
+   "deck": "sudoku-ocean-life"
   },
   {
-   "slug": "math-puzzle-pets-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-pets",
+   "type": "sudoku",
+   "mode": null,
    "theme": "pets",
-   "level": "grade-2",
-   "deck": "math-puzzle-pets"
+   "level": "kindergarten",
+   "deck": "sudoku-pets"
   },
   {
-   "slug": "math-puzzle-post-office-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-post-office",
+   "type": "sudoku",
+   "mode": null,
    "theme": "post_office",
-   "level": "grade-2",
-   "deck": "math-puzzle-post-office"
+   "level": "kindergarten",
+   "deck": "sudoku-post-office"
   },
   {
-   "slug": "math-puzzle-reptiles-and-amphibians-grade-1",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-reptiles-and-amphibians",
+   "type": "sudoku",
+   "mode": null,
    "theme": "reptiles_and_amphibians",
-   "level": "grade-1",
-   "deck": "math-puzzle-reptiles-and-amphibians"
+   "level": "kindergarten",
+   "deck": "sudoku-reptiles-and-amphibians"
   },
   {
-   "slug": "math-puzzle-shapes-grade-1",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-shapes",
+   "type": "sudoku",
+   "mode": null,
    "theme": "shapes",
-   "level": "grade-1",
-   "deck": "math-puzzle-shapes"
+   "level": "kindergarten",
+   "deck": "sudoku-shapes"
   },
   {
-   "slug": "math-puzzle-space-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-space",
+   "type": "sudoku",
+   "mode": null,
    "theme": "space",
-   "level": "grade-2",
-   "deck": "math-puzzle-space"
+   "level": "kindergarten",
+   "deck": "sudoku-space"
   },
   {
-   "slug": "math-puzzle-thanksgivinng-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-spring",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "spring",
+   "level": "kindergarten",
+   "deck": "sudoku-spring"
+  },
+  {
+   "slug": "sudoku-summer",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "summer",
+   "level": "kindergarten",
+   "deck": "sudoku-summer"
+  },
+  {
+   "slug": "sudoku-thanksgiving",
+   "type": "sudoku",
+   "mode": null,
    "theme": "thanksgivinng",
-   "level": "grade-2",
-   "deck": "math-puzzle-thanksgiving"
+   "level": "kindergarten",
+   "deck": "sudoku-thanksgiving"
   },
   {
-   "slug": "math-puzzle-things-that-fly-grade-1",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-things-that-fly",
+   "type": "sudoku",
+   "mode": null,
    "theme": "things_that_fly",
-   "level": "grade-1",
-   "deck": "math-puzzle-things-that-fly"
+   "level": "kindergarten",
+   "deck": "sudoku-things-that-fly"
   },
   {
-   "slug": "math-puzzle-tools-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-tools",
+   "type": "sudoku",
+   "mode": null,
    "theme": "tools",
-   "level": "grade-2",
-   "deck": "math-puzzle-tools"
+   "level": "kindergarten",
+   "deck": "sudoku-tools"
   },
   {
-   "slug": "math-puzzle-toys-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-toys",
+   "type": "sudoku",
+   "mode": null,
    "theme": "toys",
-   "level": "grade-2",
-   "deck": "math-puzzle-toys"
+   "level": "kindergarten",
+   "deck": "sudoku-toys"
   },
   {
-   "slug": "math-puzzle-tree-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-tree",
+   "type": "sudoku",
+   "mode": null,
    "theme": "tree",
-   "level": "grade-2",
-   "deck": "math-puzzle-tree"
+   "level": "kindergarten",
+   "deck": "sudoku-tree"
   },
   {
-   "slug": "math-puzzle-vegetables-grade-1",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-vegetables",
+   "type": "sudoku",
+   "mode": null,
    "theme": "vegetables",
-   "level": "grade-1",
-   "deck": "math-puzzle-vegetables"
+   "level": "kindergarten",
+   "deck": "sudoku-vegetables"
   },
   {
-   "slug": "math-puzzle-vehicles-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-vehicles",
+   "type": "sudoku",
+   "mode": null,
    "theme": "vehicles",
-   "level": "grade-2",
-   "deck": "math-puzzle-vehicles"
+   "level": "kindergarten",
+   "deck": "sudoku-vehicles"
   },
   {
-   "slug": "math-puzzle-winter-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-weather",
+   "type": "sudoku",
+   "mode": null,
+   "theme": "weather",
+   "level": "kindergarten",
+   "deck": "sudoku-weather"
+  },
+  {
+   "slug": "sudoku-winter",
+   "type": "sudoku",
+   "mode": null,
    "theme": "winter",
-   "level": "grade-2",
-   "deck": "math-puzzle-winter"
+   "level": "kindergarten",
+   "deck": "sudoku-winter"
   },
   {
-   "slug": "math-puzzle-zoo-animals-grade-2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "sudoku-zoo-animals",
+   "type": "sudoku",
+   "mode": null,
    "theme": "zoo_animals",
-   "level": "grade-2",
-   "deck": "math-puzzle-zoo-animals"
-  },
-  {
-   "slug": "subtraction-image-number-4th-of-july",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "4th_of_july",
    "level": "kindergarten",
-   "deck": "subtraction-image-number-4th-of-july"
+   "deck": "sudoku-zoo-animals"
   },
   {
-   "slug": "subtraction-image-number-accessories",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "accessories",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-accessories"
-  },
-  {
-   "slug": "subtraction-image-number-animals",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "addition-find-addend-animals",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "animals",
    "level": "kindergarten",
-   "deck": "subtraction-image-number-animals"
-  },
-  {
-   "slug": "subtraction-image-number-around-the-house",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "around_the_house",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-around-the-house"
-  },
-  {
-   "slug": "subtraction-image-number-at-the-supermarket",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "at_the_supermarket",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-at-the-supermarket"
-  },
-  {
-   "slug": "subtraction-image-number-bakery",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "bakery",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-bakery"
-  },
-  {
-   "slug": "subtraction-image-number-beach",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "beach",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-beach"
-  },
-  {
-   "slug": "subtraction-image-number-birds",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "birds",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-birds"
-  },
-  {
-   "slug": "subtraction-image-number-birds-2",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "birds_2",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-birds-2"
-  },
-  {
-   "slug": "subtraction-image-number-breakfast",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "breakfast",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-breakfast"
-  },
-  {
-   "slug": "subtraction-image-number-camping",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "camping",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-camping"
-  },
-  {
-   "slug": "subtraction-image-number-christmas",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "christmas",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-christmas"
-  },
-  {
-   "slug": "subtraction-image-number-classroom",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "classroom",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-classroom"
-  },
-  {
-   "slug": "subtraction-image-number-clothing",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "clothing",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-clothing"
-  },
-  {
-   "slug": "subtraction-image-number-desserts-and-sweets",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "desserts_and_sweets",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-desserts-and-sweets"
-  },
-  {
-   "slug": "subtraction-image-number-dinosaurs",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "dinosaurs",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-dinosaurs"
-  },
-  {
-   "slug": "subtraction-image-number-easter",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "easter",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-easter"
-  },
-  {
-   "slug": "subtraction-image-number-easter-bw",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "easter_bw",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-easter-bw"
-  },
-  {
-   "slug": "subtraction-image-number-faces-bw",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "faces_bw",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-faces-bw"
-  },
-  {
-   "slug": "subtraction-image-number-farm-animals",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "farm_animals",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-farm-animals"
-  },
-  {
-   "slug": "subtraction-image-number-flowers",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "flowers",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-flowers"
-  },
-  {
-   "slug": "subtraction-image-number-forest-creatures",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "forest_creatures",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-forest-creatures"
-  },
-  {
-   "slug": "subtraction-image-number-fruits",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "fruits",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-fruits"
-  },
-  {
-   "slug": "subtraction-image-number-furniture",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "furniture",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-furniture"
-  },
-  {
-   "slug": "subtraction-image-number-hospital",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "hospital",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-hospital"
-  },
-  {
-   "slug": "subtraction-image-number-insects-and-bugs",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "insects_and_bugs",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-insects-and-bugs"
-  },
-  {
-   "slug": "subtraction-image-number-kitchen-tools",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "kitchen_tools",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-kitchen-tools"
-  },
-  {
-   "slug": "subtraction-image-number-miscellaneous",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "miscellaneous",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-miscellaneous"
-  },
-  {
-   "slug": "subtraction-image-number-music",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "music",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-music"
-  },
-  {
-   "slug": "subtraction-image-number-occupations",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "occupations",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-occupations"
-  },
-  {
-   "slug": "subtraction-image-number-ocean-life",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "ocean_life",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-ocean-life"
-  },
-  {
-   "slug": "subtraction-image-number-pets",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "pets",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-pets"
-  },
-  {
-   "slug": "subtraction-image-number-post-office",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "post_office",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-post-office"
-  },
-  {
-   "slug": "subtraction-image-number-reptiles-and-amphibians",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "reptiles_and_amphibians",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-reptiles-and-amphibians"
-  },
-  {
-   "slug": "subtraction-image-number-shapes",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "shapes",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-shapes"
-  },
-  {
-   "slug": "subtraction-image-number-space",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "space",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-space"
-  },
-  {
-   "slug": "subtraction-image-number-thanksgiving",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "thanksgivinng",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-thanksgiving"
-  },
-  {
-   "slug": "subtraction-image-number-things-that-fly",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "things_that_fly",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-things-that-fly"
-  },
-  {
-   "slug": "subtraction-image-number-tools",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "tools",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-tools"
-  },
-  {
-   "slug": "subtraction-image-number-toys",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "toys",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-toys"
-  },
-  {
-   "slug": "subtraction-image-number-tree",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "tree",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-tree"
-  },
-  {
-   "slug": "subtraction-image-number-valentine-bw",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "valentine_bw",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-valentine-bw"
-  },
-  {
-   "slug": "subtraction-image-number-vegetables",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "vegetables",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-vegetables"
-  },
-  {
-   "slug": "subtraction-image-number-vehicles",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "vehicles",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-vehicles"
-  },
-  {
-   "slug": "subtraction-image-number-zoo-animals",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "zoo_animals",
-   "level": "kindergarten",
-   "deck": "subtraction-image-number-zoo-animals"
+   "deck": "addition-find-addend-animals"
   }
  ]
 }

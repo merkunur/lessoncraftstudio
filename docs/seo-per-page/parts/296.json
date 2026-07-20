@@ -1,780 +1,398 @@
 {
  "part": 296,
- "locale": "no",
+ "locale": "da",
  "classes": [
-  "math-worksheet::two-symbols-add-sub",
-  "odd-one-out::same-theme"
+  "alphabet-train::null",
+  "odd-one-out::cross-theme",
+  "arrays-multiplication::arrays-repeated-addition",
+  "arrays-multiplication::multiply-and-divide",
+  "graphing-data::graphs-and-line-plots",
+  "graphing-data::read-picture-bar-graphs",
+  "graphing-data::scaled-graphs",
+  "number-charts::hundreds-chart-skip-count",
+  "number-charts::number-patterns",
+  "number-charts::numbers-to-20",
+  "number-charts::skip-count-and-100-more-less",
+  "word-guess::null"
  ],
  "splitOf": null,
- "count": 96,
+ "count": 47,
  "pages": [
   {
-   "slug": "matteark-2-symboler-add-sub-aktiviteter-1c6b",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "alfabettoget-aktiviteter-2084",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "activities",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-aktiviteter-1c6b"
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-aktiviteter-2084"
   },
   {
-   "slug": "matteark-2-symboler-add-sub-bakeri-5c91",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "alfabettoget-bageri-c2fb",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "bakery",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-bakeri-5c91"
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-bageri-c2fb"
   },
   {
-   "slug": "matteark-2-symboler-add-sub-blomster-2d2b",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "flowers",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-blomster-2d2b"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-camping-db0f",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "camping",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-camping-db0f"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-desserter-og-godteri-ddc6",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "desserts_and_sweets",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-desserter-og-godteri-ddc6"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-dinosaurer-baf2",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "dinosaurs",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-dinosaurer-baf2"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-dyr-4c95",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "animals",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-dyr-4c95"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-dyrehagedyr-21c0",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "zoo_animals",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-dyrehagedyr-21c0"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-farger-60c5",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "colors",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-farger-60c5"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-folelser-daca",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "emotions",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-folelser-daca"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-former-8026",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "shapes",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-former-8026"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-frokost-ee51",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "breakfast",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-frokost-ee51"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-frukter-2b93",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "fruits",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-frukter-2b93"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-fugler-2-7d15",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "birds_2",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-fugler-2-7d15"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-fugler-d7df",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "birds",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-fugler-d7df"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-gardsdyr-c8ae",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "alfabettoget-bondegardsdyr-acf6",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "farm_animals",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-gardsdyr-c8ae"
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-bondegardsdyr-acf6"
   },
   {
-   "slug": "matteark-2-symboler-add-sub-gronnsaker-e7a1",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "vegetables",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-gronnsaker-e7a1"
+   "slug": "alfabettoget-camping-11b0",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "camping",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-camping-11b0"
   },
   {
-   "slug": "matteark-2-symboler-add-sub-havliv-243a",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "ocean_life",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-havliv-243a"
+   "slug": "alfabettoget-desserter-og-slik-9145",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-desserter-og-slik-9145"
   },
   {
-   "slug": "matteark-2-symboler-add-sub-i-supermarkedet-1573",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "at_the_supermarket",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-i-supermarkedet-1573"
+   "slug": "alfabettoget-dyr",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "animals",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-dyr"
   },
   {
-   "slug": "matteark-2-symboler-add-sub-insekter-og-kryp-a93e",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "insects_and_bugs",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-insekter-og-kryp-a93e"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-jul-3316",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "christmas",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-jul-3316"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-kjaeledyr-2fd0",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "pets",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-kjaeledyr-2fd0"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-kjokkenredskaper-a680",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "kitchen_tools",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-kjokkenredskaper-a680"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-kjoretoy-a2fb",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "vehicles",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-kjoretoy-a2fb"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-klaer-b451",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "clothing",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-klaer-b451"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-klasserom-e1fd",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "classroom",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-klasserom-e1fd"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-kroppsdeler-3a05",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "body_parts",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-kroppsdeler-3a05"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-leker-5a8b",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "toys",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-leker-5a8b"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-mobler-c8e2",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "furniture",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-mobler-c8e2"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-musikk-426b",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "music",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-musikk-426b"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-paske-75b4",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "easter",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-paske-75b4"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-postkontor-584e",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "post_office",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-postkontor-584e"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-reptiler-og-amfibier-452f",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "reptiles_and_amphibians",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-reptiler-og-amfibier-452f"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-rundt-i-huset-d5e5",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "around_the_house",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-rundt-i-huset-d5e5"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-skogsdyr-16bb",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "forest_creatures",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-skogsdyr-16bb"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-sommer-e4c1",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "summer",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-sommer-e4c1"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-strand-aab7",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "beach",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-strand-aab7"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-sykehus-2f7c",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "hospital",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-sykehus-2f7c"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-thanksgiving-7b54",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "thanksgivinng",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-thanksgiving-7b54"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-tilbehor-266e",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "accessories",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-tilbehor-266e"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-ting-som-flyr-00f5",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "things_that_fly",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-ting-som-flyr-00f5"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-traer-961c",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "tree",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-traer-961c"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-vaer-7ed8",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "weather",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-vaer-7ed8"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-var-fc00",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "spring",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-var-fc00"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-verdensrommet-301d",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "space",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-verdensrommet-301d"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-verktoy-eadb",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "tools",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-verktoy-eadb"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-vinter-4065",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "winter",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-vinter-4065"
-  },
-  {
-   "slug": "matteark-2-symboler-add-sub-yrker-ee43",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "alfabettoget-erhverv-1bce",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "occupations",
-   "level": "2-trinn",
-   "deck": "matteark-2-symboler-add-sub-yrker-ee43"
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-erhverv-1bce"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-aktiviteter-4311",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "activities",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-aktiviteter-4311"
+   "slug": "alfabettoget-farver-7d11",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "colors",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-farver-7d11"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-bakeri-2374",
+   "slug": "alfabettoget-forar-4b5a",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "spring",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-forar-4b5a"
+  },
+  {
+   "slug": "alfabettoget-frugter-70f5",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "fruits",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-frugter-70f5"
+  },
+  {
+   "slug": "alfabettoget-fugle-2-e10f",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-fugle-2-e10f"
+  },
+  {
+   "slug": "alfabettoget-grontsager-0ec8",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-grontsager-0ec8"
+  },
+  {
+   "slug": "alfabettoget-havliv-15bc",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-havliv-15bc"
+  },
+  {
+   "slug": "alfabettoget-hospital-450e",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "hospital",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-hospital-450e"
+  },
+  {
+   "slug": "alfabettoget-i-supermarkedet-58d4",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-i-supermarkedet-58d4"
+  },
+  {
+   "slug": "alfabettoget-jul-06ea",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "christmas",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-jul-06ea"
+  },
+  {
+   "slug": "alfabettoget-kaeledyr-1e46",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "pets",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-kaeledyr-1e46"
+  },
+  {
+   "slug": "alfabettoget-klassevaerelse-fbb1",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "classroom",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-klassevaerelse-fbb1"
+  },
+  {
+   "slug": "alfabettoget-kokkenredskaber-e065",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-kokkenredskaber-e065"
+  },
+  {
+   "slug": "alfabettoget-koretojer-48e8",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-koretojer-48e8"
+  },
+  {
+   "slug": "alfabettoget-kropsdele-5b12",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-kropsdele-5b12"
+  },
+  {
+   "slug": "alfabettoget-legetoj-715d",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "toys",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-legetoj-715d"
+  },
+  {
+   "slug": "alfabettoget-morgenmad-c1f9",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-morgenmad-c1f9"
+  },
+  {
+   "slug": "alfabettoget-paske-b33e",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "easter",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-paske-b33e"
+  },
+  {
+   "slug": "alfabettoget-rummet-d9a4",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "space",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-rummet-d9a4"
+  },
+  {
+   "slug": "alfabettoget-rundt-i-huset-4f6c",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-rundt-i-huset-4f6c"
+  },
+  {
+   "slug": "alfabettoget-skovdyr-5161",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-skovdyr-5161"
+  },
+  {
+   "slug": "alfabettoget-sommer-7d5f",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "summer",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-sommer-7d5f"
+  },
+  {
+   "slug": "alfabettoget-strand-358f",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "beach",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-strand-358f"
+  },
+  {
+   "slug": "alfabettoget-thanksgiving-2b82",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-thanksgiving-2b82"
+  },
+  {
+   "slug": "alfabettoget-tilbehor-7545",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "accessories",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-tilbehor-7545"
+  },
+  {
+   "slug": "alfabettoget-ting-der-flyver-505e",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-ting-der-flyver-505e"
+  },
+  {
+   "slug": "alfabettoget-toj-a050",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "clothing",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-toj-a050"
+  },
+  {
+   "slug": "alfabettoget-zoodyr-9571",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "boernehaveklasse",
+   "deck": "alfabettoget-zoodyr-9571"
+  },
+  {
+   "slug": "hvilken-passer-ikke-pa-tvaers-af-temaer-bageri-ba46",
    "type": "odd-one-out",
-   "mode": "same-theme",
+   "mode": "cross-theme",
    "theme": "bakery",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-bakeri-2374"
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-pa-tvaers-af-temaer-bageri-ba46"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-blomster-3199",
+   "slug": "hvilken-passer-ikke-pa-tvaers-af-temaer-blomster-1901",
    "type": "odd-one-out",
-   "mode": "same-theme",
+   "mode": "cross-theme",
    "theme": "flowers",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-blomster-3199"
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-pa-tvaers-af-temaer-blomster-1901"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-camping-3d7d",
+   "slug": "hvilken-passer-ikke-pa-tvaers-af-temaer-dyr-bded",
    "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "camping",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-camping-3d7d"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-desserter-og-godteri-0c85",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "desserts_and_sweets",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-desserter-og-godteri-0c85"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-dinosaurer-ee19",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "dinosaurs",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-dinosaurer-ee19"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-dyr-36b5",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "mode": "cross-theme",
    "theme": "animals",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-dyr-36b5"
+   "level": "boernehaveklasse",
+   "deck": "hvilken-passer-ikke-pa-tvaers-af-temaer-dyr-bded"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-dyrehagedyr-8d1e",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "zoo_animals",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-dyrehagedyr-8d1e"
+   "slug": "raekker-og-soejler-2-klasse",
+   "type": "arrays-multiplication",
+   "mode": "arrays-repeated-addition",
+   "theme": "",
+   "level": "2-klasse",
+   "deck": "gange-tabel-dyr-g2209"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-farger-7eda",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "colors",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-farger-7eda"
+   "slug": "gangetabel-3-klasse",
+   "type": "arrays-multiplication",
+   "mode": "multiply-and-divide",
+   "theme": "",
+   "level": "3-klasse",
+   "deck": "gange-tabel-g3313"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-folelser-0eff",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "emotions",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-folelser-0eff"
+   "slug": "diagrammer-2-klasse",
+   "type": "graphing-data",
+   "mode": "graphs-and-line-plots",
+   "theme": "",
+   "level": "2-klasse",
+   "deck": "diagrammer-dyr-g2237"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-former-aaeb",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "shapes",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-former-aaeb"
+   "slug": "diagrammer-1-klasse",
+   "type": "graphing-data",
+   "mode": "read-picture-bar-graphs",
+   "theme": "",
+   "level": "1-klasse",
+   "deck": "diagrammer-dyr-g1144"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-frokost-f6c2",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "breakfast",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-frokost-f6c2"
+   "slug": "diagrammer-3-klasse",
+   "type": "graphing-data",
+   "mode": "scaled-graphs",
+   "theme": "",
+   "level": "3-klasse",
+   "deck": "diagrammer-dyr-g3335"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-frukter-e3df",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "fruits",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-frukter-e3df"
+   "slug": "hundredfelt-1-klasse",
+   "type": "number-charts",
+   "mode": "hundreds-chart-skip-count",
+   "theme": "",
+   "level": "1-klasse",
+   "deck": "hundredfelt-g1130"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-fugler-2-7932",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "birds_2",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-fugler-2-7932"
+   "slug": "talfoelger-3-klasse",
+   "type": "number-charts",
+   "mode": "number-patterns",
+   "theme": "",
+   "level": "3-klasse",
+   "deck": "hundredfelt-g3328"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-fugler-b1ff",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "birds",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-fugler-b1ff"
+   "slug": "tal-der-mangler-boernehaveklasse",
+   "type": "number-charts",
+   "mode": "numbers-to-20",
+   "theme": "",
+   "level": "boernehaveklasse",
+   "deck": "hundredfelt-k021"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-gardsdyr-9962",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "farm_animals",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-gardsdyr-9962"
+   "slug": "talfoelger-2-klasse",
+   "type": "number-charts",
+   "mode": "skip-count-and-100-more-less",
+   "theme": "",
+   "level": "2-klasse",
+   "deck": "hundredfelt-g2218"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-gronnsaker-6bbd",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "vegetables",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-gronnsaker-6bbd"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-havliv-034f",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "ocean_life",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-havliv-034f"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-i-supermarkedet-84bd",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "at_the_supermarket",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-i-supermarkedet-84bd"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-insekter-og-kryp-963e",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "insects_and_bugs",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-insekter-og-kryp-963e"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-jul-68cf",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "christmas",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-jul-68cf"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-kjaeledyr-300f",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "pets",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-kjaeledyr-300f"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-kjokkenredskaper-123d",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "kitchen_tools",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-kjokkenredskaper-123d"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-kjoretoy-bf96",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "vehicles",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-kjoretoy-bf96"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-klaer-a2d3",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "clothing",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-klaer-a2d3"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-klasserom-9d12",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "classroom",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-klasserom-9d12"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-kroppsdeler-e774",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "body_parts",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-kroppsdeler-e774"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-leker-920c",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "toys",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-leker-920c"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-mobler-32bc",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "furniture",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-mobler-32bc"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-musikk-a9a3",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "music",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-musikk-a9a3"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-paske-f8b5",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "easter",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-paske-f8b5"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-postkontor-c898",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "post_office",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-postkontor-c898"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-reptiler-og-amfibier-327d",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "reptiles_and_amphibians",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-reptiler-og-amfibier-327d"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-rundt-i-huset-35e7",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "around_the_house",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-rundt-i-huset-35e7"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-skogsdyr-2560",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "forest_creatures",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-skogsdyr-2560"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-sommer-9451",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "summer",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-sommer-9451"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-strand-0140",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "beach",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-strand-0140"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-sykehus-367d",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "hospital",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-sykehus-367d"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-thanksgiving-1609",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "thanksgivinng",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-thanksgiving-1609"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-tilbehor-e32a",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "accessories",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-tilbehor-e32a"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-ting-som-flyr-c302",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "things_that_fly",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-ting-som-flyr-c302"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-traer-1c9c",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "tree",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-traer-1c9c"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-vaer-f0dc",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "weather",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-vaer-f0dc"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-var-3f4a",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "spring",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-var-3f4a"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-verdensrommet-7306",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "space",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-verdensrommet-7306"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-verktoy-e13e",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "tools",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-verktoy-e13e"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-vinter-bdad",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "winter",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-vinter-bdad"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-yrker-a578",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "occupations",
-   "level": "1-trinn",
-   "deck": "hvilken-passer-ikke-samme-tema-yrker-a578"
+   "slug": "gaet-ordet-dyr",
+   "type": "word-guess",
+   "mode": null,
+   "theme": "animals",
+   "level": "1-klasse",
+   "deck": "gaet-ordet-dyr"
   }
  ]
 }

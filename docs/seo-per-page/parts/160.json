@@ -2,651 +2,815 @@
  "part": 160,
  "locale": "fr",
  "classes": [
-  "addition::mixed",
-  "math-puzzle::mixed"
+  "picture-path::classic-maze",
+  "telling-time::hour-half-hour",
+  "telling-time::to-five-minutes",
+  "telling-time::to-the-minute",
+  "alphabet-train::letter-hint",
+  "alphabet-train::null"
  ],
  "splitOf": null,
- "count": 80,
+ "count": 100,
  "pages": [
   {
-   "slug": "addition-mixte-accessoires-a4ce",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "parcours-illustre-labyrinthe-classique-accessoires-6fb6",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "accessories",
-   "level": "cp",
-   "deck": "addition-mixte-accessoires-a4ce"
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-accessoires-6fb6"
   },
   {
-   "slug": "addition-mixte-action-de-grace-ed68",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "parcours-illustre-labyrinthe-classique-action-de-grace-5505",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "thanksgivinng",
-   "level": "cp",
-   "deck": "addition-mixte-action-de-grace-ed68"
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-action-de-grace-5505"
   },
   {
-   "slug": "addition-mixte-animaux-a961",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "animals",
-   "level": "cp",
-   "deck": "addition-mixte-animaux-a961"
+   "slug": "parcours-illustre-labyrinthe-classique-activites-bc0e",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "activities",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-activites-bc0e"
   },
   {
-   "slug": "addition-mixte-animaux-de-compagnie-4bad",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "pets",
-   "level": "cp",
-   "deck": "addition-mixte-animaux-de-compagnie-4bad"
-  },
-  {
-   "slug": "addition-mixte-animaux-de-la-ferme-6f2a",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "farm_animals",
-   "level": "cp",
-   "deck": "addition-mixte-animaux-de-la-ferme-6f2a"
-  },
-  {
-   "slug": "addition-mixte-animaux-du-zoo-f93d",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "zoo_animals",
-   "level": "cp",
-   "deck": "addition-mixte-animaux-du-zoo-f93d"
-  },
-  {
-   "slug": "addition-mixte-arbres-3243",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "parcours-illustre-labyrinthe-classique-arbres-09e1",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "tree",
-   "level": "cp",
-   "deck": "addition-mixte-arbres-3243"
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-arbres-09e1"
   },
   {
-   "slug": "addition-mixte-au-supermarche-fa6e",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "parcours-illustre-labyrinthe-classique-au-supermarche-4fea",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "at_the_supermarket",
-   "level": "cp",
-   "deck": "addition-mixte-au-supermarche-fa6e"
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-au-supermarche-4fea"
   },
   {
-   "slug": "addition-mixte-autour-de-la-maison-0986",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "parcours-illustre-labyrinthe-classique-autour-de-la-maison-fbe7",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "around_the_house",
-   "level": "cp",
-   "deck": "addition-mixte-autour-de-la-maison-0986"
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-autour-de-la-maison-fbe7"
   },
   {
-   "slug": "addition-mixte-boulangerie-5dd0",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "parcours-illustre-labyrinthe-classique-boulangerie-a6b7",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "bakery",
-   "level": "cp",
-   "deck": "addition-mixte-boulangerie-5dd0"
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-boulangerie-a6b7"
   },
   {
-   "slug": "addition-mixte-bureau-de-poste-6ea9",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "parcours-illustre-labyrinthe-classique-bureau-de-poste-b9d2",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "post_office",
-   "level": "cp",
-   "deck": "addition-mixte-bureau-de-poste-6ea9"
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-bureau-de-poste-b9d2"
   },
   {
-   "slug": "addition-mixte-camping-b540",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "camping",
-   "level": "cp",
-   "deck": "addition-mixte-camping-b540"
-  },
-  {
-   "slug": "addition-mixte-choses-qui-volent-7345",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "parcours-illustre-labyrinthe-classique-choses-qui-volent-2372",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "things_that_fly",
-   "level": "cp",
-   "deck": "addition-mixte-choses-qui-volent-7345"
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-choses-qui-volent-2372"
   },
   {
-   "slug": "addition-mixte-creatures-de-la-foret-bae1",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "forest_creatures",
-   "level": "cp",
-   "deck": "addition-mixte-creatures-de-la-foret-bae1"
+   "slug": "parcours-illustre-labyrinthe-classique-couleurs-17ab",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "colors",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-couleurs-17ab"
   },
   {
-   "slug": "addition-mixte-desserts-et-sucreries-79ff",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "parcours-illustre-labyrinthe-classique-desserts-et-sucreries-6df3",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "desserts_and_sweets",
-   "level": "cp",
-   "deck": "addition-mixte-desserts-et-sucreries-79ff"
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-desserts-et-sucreries-6df3"
   },
   {
-   "slug": "addition-mixte-dinosaures-a80c",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "parcours-illustre-labyrinthe-classique-dinosaures-ee0a",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "dinosaurs",
-   "level": "cp",
-   "deck": "addition-mixte-dinosaures-a80c"
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-dinosaures-ee0a"
   },
   {
-   "slug": "addition-mixte-espace-fa64",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "parcours-illustre-labyrinthe-classique-emotions-73d5",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "emotions",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-emotions-73d5"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-espace-b68f",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "space",
-   "level": "cp",
-   "deck": "addition-mixte-espace-fa64"
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-espace-b68f"
   },
   {
-   "slug": "addition-mixte-fleurs-984f",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "parcours-illustre-labyrinthe-classique-ete-281b",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "summer",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-ete-281b"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-fleurs-efea",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "flowers",
-   "level": "cp",
-   "deck": "addition-mixte-fleurs-984f"
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-fleurs-efea"
   },
   {
-   "slug": "addition-mixte-formes-550f",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "parcours-illustre-labyrinthe-classique-formes-67cb",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "shapes",
-   "level": "cp",
-   "deck": "addition-mixte-formes-550f"
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-formes-67cb"
   },
   {
-   "slug": "addition-mixte-fruits-b3aa",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "parcours-illustre-labyrinthe-classique-fruits-a92c",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "fruits",
-   "level": "cp",
-   "deck": "addition-mixte-fruits-b3aa"
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-fruits-a92c"
   },
   {
-   "slug": "addition-mixte-hopital-8f36",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "parcours-illustre-labyrinthe-classique-hiver-24aa",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "winter",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-hiver-24aa"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-hopital-6308",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "hospital",
-   "level": "cp",
-   "deck": "addition-mixte-hopital-8f36"
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-hopital-6308"
   },
   {
-   "slug": "addition-mixte-insectes-et-bestioles-e2a8",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "insects_and_bugs",
-   "level": "cp",
-   "deck": "addition-mixte-insectes-et-bestioles-e2a8"
-  },
-  {
-   "slug": "addition-mixte-jouets-4698",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "parcours-illustre-labyrinthe-classique-jouets-44ac",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "toys",
-   "level": "cp",
-   "deck": "addition-mixte-jouets-4698"
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-jouets-44ac"
   },
   {
-   "slug": "addition-mixte-legumes-37b8",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "vegetables",
-   "level": "cp",
-   "deck": "addition-mixte-legumes-37b8"
+   "slug": "parcours-illustre-labyrinthe-classique-meteo-7bb6",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "weather",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-meteo-7bb6"
   },
   {
-   "slug": "addition-mixte-metiers-08e0",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "parcours-illustre-labyrinthe-classique-metiers-3773",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "occupations",
-   "level": "cp",
-   "deck": "addition-mixte-metiers-08e0"
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-metiers-3773"
   },
   {
-   "slug": "addition-mixte-meubles-e394",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "parcours-illustre-labyrinthe-classique-meubles-3f00",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "furniture",
-   "level": "cp",
-   "deck": "addition-mixte-meubles-e394"
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-meubles-3f00"
   },
   {
-   "slug": "addition-mixte-musique-27da",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "parcours-illustre-labyrinthe-classique-musique-f295",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "music",
-   "level": "cp",
-   "deck": "addition-mixte-musique-27da"
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-musique-f295"
   },
   {
-   "slug": "addition-mixte-noel-d925",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "parcours-illustre-labyrinthe-classique-noel-f8ac",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "christmas",
-   "level": "cp",
-   "deck": "addition-mixte-noel-d925"
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-noel-f8ac"
   },
   {
-   "slug": "addition-mixte-oiseaux-2-ba4d",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "birds_2",
-   "level": "cp",
-   "deck": "addition-mixte-oiseaux-2-ba4d"
-  },
-  {
-   "slug": "addition-mixte-oiseaux-4069",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "birds",
-   "level": "cp",
-   "deck": "addition-mixte-oiseaux-4069"
-  },
-  {
-   "slug": "addition-mixte-outils-8081",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "parcours-illustre-labyrinthe-classique-outils-78ce",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "tools",
-   "level": "cp",
-   "deck": "addition-mixte-outils-8081"
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-outils-78ce"
   },
   {
-   "slug": "addition-mixte-paques-cfa6",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "parcours-illustre-labyrinthe-classique-paques-827d",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "easter",
-   "level": "cp",
-   "deck": "addition-mixte-paques-cfa6"
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-paques-827d"
   },
   {
-   "slug": "addition-mixte-petit-dejeuner-1174",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "parcours-illustre-labyrinthe-classique-parties-du-corps-7429",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "body_parts",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-parties-du-corps-7429"
+  },
+  {
+   "slug": "parcours-illustre-labyrinthe-classique-petit-dejeuner-664d",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "breakfast",
-   "level": "cp",
-   "deck": "addition-mixte-petit-dejeuner-1174"
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-petit-dejeuner-664d"
   },
   {
-   "slug": "addition-mixte-plage-f5ec",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "parcours-illustre-labyrinthe-classique-plage-4c93",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "beach",
-   "level": "cp",
-   "deck": "addition-mixte-plage-f5ec"
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-plage-4c93"
   },
   {
-   "slug": "addition-mixte-reptiles-et-amphibiens-17c9",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "reptiles_and_amphibians",
-   "level": "cp",
-   "deck": "addition-mixte-reptiles-et-amphibiens-17c9"
+   "slug": "parcours-illustre-labyrinthe-classique-printemps-12bc",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "spring",
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-printemps-12bc"
   },
   {
-   "slug": "addition-mixte-salle-de-classe-b3ef",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "parcours-illustre-labyrinthe-classique-salle-de-classe-2664",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "classroom",
-   "level": "cp",
-   "deck": "addition-mixte-salle-de-classe-b3ef"
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-salle-de-classe-2664"
   },
   {
-   "slug": "addition-mixte-ustensiles-de-cuisine-373e",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "parcours-illustre-labyrinthe-classique-ustensiles-de-cuisine-755c",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "kitchen_tools",
-   "level": "cp",
-   "deck": "addition-mixte-ustensiles-de-cuisine-373e"
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-ustensiles-de-cuisine-755c"
   },
   {
-   "slug": "addition-mixte-vehicules-6d40",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "parcours-illustre-labyrinthe-classique-vehicules-15bb",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "vehicles",
-   "level": "cp",
-   "deck": "addition-mixte-vehicules-6d40"
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-vehicules-15bb"
   },
   {
-   "slug": "addition-mixte-vetements-b606",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "parcours-illustre-labyrinthe-classique-vetements-017b",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "clothing",
-   "level": "cp",
-   "deck": "addition-mixte-vetements-b606"
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-vetements-017b"
   },
   {
-   "slug": "addition-mixte-vie-oceanique-cb32",
-   "type": "addition",
-   "mode": "mixed",
+   "slug": "parcours-illustre-labyrinthe-classique-vie-oceanique-12fc",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "ocean_life",
-   "level": "cp",
-   "deck": "addition-mixte-vie-oceanique-cb32"
+   "level": "maternelle",
+   "deck": "parcours-illustre-labyrinthe-classique-vie-oceanique-12fc"
   },
   {
-   "slug": "puzzle-mathematique-mixte-accessoires-0a3d",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "lire-l-heure-cp",
+   "type": "telling-time",
+   "mode": "hour-half-hour",
+   "theme": "",
+   "level": "cp",
+   "deck": "lire-l-heure-g1148"
+  },
+  {
+   "slug": "lire-l-heure-ce1",
+   "type": "telling-time",
+   "mode": "to-five-minutes",
+   "theme": "",
+   "level": "ce1",
+   "deck": "lire-l-heure-g2249"
+  },
+  {
+   "slug": "lire-l-heure-ce2",
+   "type": "telling-time",
+   "mode": "to-the-minute",
+   "theme": "",
+   "level": "ce2",
+   "deck": "lire-l-heure-g3344"
+  },
+  {
+   "slug": "train-de-l-alphabet-indice-de-lettre-accessoires-6d18",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "accessories",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-accessoires-0a3d"
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-indice-de-lettre-accessoires-6d18"
   },
   {
-   "slug": "puzzle-mathematique-mixte-action-de-grace-2fd6",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "thanksgivinng",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-action-de-grace-2fd6"
+   "slug": "train-de-l-alphabet-indice-de-lettre-activites-9f0a",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "activities",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-indice-de-lettre-activites-9f0a"
   },
   {
-   "slug": "puzzle-mathematique-mixte-animaux",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "train-de-l-alphabet-indice-de-lettre-animaux-01da",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "animals",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-animaux"
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-indice-de-lettre-animaux-01da"
   },
   {
-   "slug": "puzzle-mathematique-mixte-animaux-de-compagnie-27be",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "pets",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-animaux-de-compagnie-27be"
-  },
-  {
-   "slug": "puzzle-mathematique-mixte-animaux-de-la-ferme-e8ce",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "train-de-l-alphabet-indice-de-lettre-animaux-de-la-ferme-0c25",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "farm_animals",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-animaux-de-la-ferme-e8ce"
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-indice-de-lettre-animaux-de-la-ferme-0c25"
   },
   {
-   "slug": "puzzle-mathematique-mixte-animaux-du-zoo-090c",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "train-de-l-alphabet-indice-de-lettre-animaux-du-zoo-b0ab",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "zoo_animals",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-animaux-du-zoo-090c"
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-indice-de-lettre-animaux-du-zoo-b0ab"
   },
   {
-   "slug": "puzzle-mathematique-mixte-arbres-29ad",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "tree",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-arbres-29ad"
-  },
-  {
-   "slug": "puzzle-mathematique-mixte-au-supermarche-9bc1",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "train-de-l-alphabet-indice-de-lettre-au-supermarche-4b74",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "at_the_supermarket",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-au-supermarche-9bc1"
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-indice-de-lettre-au-supermarche-4b74"
   },
   {
-   "slug": "puzzle-mathematique-mixte-autour-de-la-maison-e9be",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "train-de-l-alphabet-indice-de-lettre-autour-de-la-maison-6c0c",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "around_the_house",
-   "level": "ce1",
-   "deck": "puzzle-mathematique-mixte-autour-de-la-maison-e9be"
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-indice-de-lettre-autour-de-la-maison-6c0c"
   },
   {
-   "slug": "puzzle-mathematique-mixte-boulangerie-166d",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "bakery",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-boulangerie-166d"
-  },
-  {
-   "slug": "puzzle-mathematique-mixte-bureau-de-poste-f580",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "post_office",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-bureau-de-poste-f580"
-  },
-  {
-   "slug": "puzzle-mathematique-mixte-camping-e485",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "train-de-l-alphabet-indice-de-lettre-camping-d9e2",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "camping",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-camping-e485"
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-indice-de-lettre-camping-d9e2"
   },
   {
-   "slug": "puzzle-mathematique-mixte-choses-qui-volent-713f",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "train-de-l-alphabet-indice-de-lettre-choses-qui-volent-dc4a",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "things_that_fly",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-choses-qui-volent-713f"
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-indice-de-lettre-choses-qui-volent-dc4a"
   },
   {
-   "slug": "puzzle-mathematique-mixte-creatures-de-la-foret-dddb",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "train-de-l-alphabet-indice-de-lettre-couleurs-1795",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "colors",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-indice-de-lettre-couleurs-1795"
+  },
+  {
+   "slug": "train-de-l-alphabet-indice-de-lettre-creatures-de-la-foret-7989",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "forest_creatures",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-creatures-de-la-foret-dddb"
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-indice-de-lettre-creatures-de-la-foret-7989"
   },
   {
-   "slug": "puzzle-mathematique-mixte-desserts-et-sucreries-fc4e",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "desserts_and_sweets",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-desserts-et-sucreries-fc4e"
-  },
-  {
-   "slug": "puzzle-mathematique-mixte-dinosaures-3ba5",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "train-de-l-alphabet-indice-de-lettre-dinosaures-e0a5",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "dinosaurs",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-dinosaures-3ba5"
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-indice-de-lettre-dinosaures-e0a5"
   },
   {
-   "slug": "puzzle-mathematique-mixte-divers-d24c",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "miscellaneous",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-divers-d24c"
-  },
-  {
-   "slug": "puzzle-mathematique-mixte-espace-e85e",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "train-de-l-alphabet-indice-de-lettre-espace-7cb1",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "space",
-   "level": "ce1",
-   "deck": "puzzle-mathematique-mixte-espace-e85e"
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-indice-de-lettre-espace-7cb1"
   },
   {
-   "slug": "puzzle-mathematique-mixte-fleurs-c6d4",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "train-de-l-alphabet-indice-de-lettre-ete-20dc",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "summer",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-indice-de-lettre-ete-20dc"
+  },
+  {
+   "slug": "train-de-l-alphabet-indice-de-lettre-fleurs-7448",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "flowers",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-fleurs-c6d4"
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-indice-de-lettre-fleurs-7448"
   },
   {
-   "slug": "puzzle-mathematique-mixte-formes-0968",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "shapes",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-formes-0968"
+   "slug": "train-de-l-alphabet-indice-de-lettre-hiver-bbf8",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "winter",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-indice-de-lettre-hiver-bbf8"
   },
   {
-   "slug": "puzzle-mathematique-mixte-fruits-945e",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "fruits",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-fruits-945e"
+   "slug": "train-de-l-alphabet-indice-de-lettre-hopital-b2c5",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "hospital",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-indice-de-lettre-hopital-b2c5"
   },
   {
-   "slug": "puzzle-mathematique-mixte-insectes-et-bestioles-e9ec",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "insects_and_bugs",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-insectes-et-bestioles-e9ec"
-  },
-  {
-   "slug": "puzzle-mathematique-mixte-jouets-ed18",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "train-de-l-alphabet-indice-de-lettre-jouets-383d",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "toys",
-   "level": "ce1",
-   "deck": "puzzle-mathematique-mixte-jouets-ed18"
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-indice-de-lettre-jouets-383d"
   },
   {
-   "slug": "puzzle-mathematique-mixte-legumes-d074",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "train-de-l-alphabet-indice-de-lettre-legumes-7b1c",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "vegetables",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-legumes-d074"
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-indice-de-lettre-legumes-7b1c"
   },
   {
-   "slug": "puzzle-mathematique-mixte-metiers-d774",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "train-de-l-alphabet-indice-de-lettre-meteo-bc02",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "weather",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-indice-de-lettre-meteo-bc02"
+  },
+  {
+   "slug": "train-de-l-alphabet-indice-de-lettre-metiers-71dc",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "occupations",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-metiers-d774"
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-indice-de-lettre-metiers-71dc"
   },
   {
-   "slug": "puzzle-mathematique-mixte-meubles-1dc9",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "furniture",
-   "level": "ce1",
-   "deck": "puzzle-mathematique-mixte-meubles-1dc9"
-  },
-  {
-   "slug": "puzzle-mathematique-mixte-musique-6db2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "train-de-l-alphabet-indice-de-lettre-musique-d526",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "music",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-musique-6db2"
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-indice-de-lettre-musique-d526"
   },
   {
-   "slug": "puzzle-mathematique-mixte-noel-89bc",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "christmas",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-noel-89bc"
-  },
-  {
-   "slug": "puzzle-mathematique-mixte-oiseaux-2-3a5d",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "train-de-l-alphabet-indice-de-lettre-oiseaux-2-f5a4",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "birds_2",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-oiseaux-2-3a5d"
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-indice-de-lettre-oiseaux-2-f5a4"
   },
   {
-   "slug": "puzzle-mathematique-mixte-oiseaux-81a2",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "birds",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-oiseaux-81a2"
-  },
-  {
-   "slug": "puzzle-mathematique-mixte-outils-6599",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "tools",
-   "level": "ce1",
-   "deck": "puzzle-mathematique-mixte-outils-6599"
-  },
-  {
-   "slug": "puzzle-mathematique-mixte-paques-8395",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "easter",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-paques-8395"
-  },
-  {
-   "slug": "puzzle-mathematique-mixte-petit-dejeuner-9552",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "train-de-l-alphabet-indice-de-lettre-petit-dejeuner-ce42",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "breakfast",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-petit-dejeuner-9552"
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-indice-de-lettre-petit-dejeuner-ce42"
   },
   {
-   "slug": "puzzle-mathematique-mixte-plage-6e65",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "train-de-l-alphabet-indice-de-lettre-plage-3900",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "beach",
-   "level": "ce1",
-   "deck": "puzzle-mathematique-mixte-plage-6e65"
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-indice-de-lettre-plage-3900"
   },
   {
-   "slug": "puzzle-mathematique-mixte-reptiles-et-amphibiens-313c",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "reptiles_and_amphibians",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-reptiles-et-amphibiens-313c"
+   "slug": "train-de-l-alphabet-indice-de-lettre-printemps-d80d",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "spring",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-indice-de-lettre-printemps-d80d"
   },
   {
-   "slug": "puzzle-mathematique-mixte-salle-de-classe-f878",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "train-de-l-alphabet-indice-de-lettre-salle-de-classe-a490",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "classroom",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-salle-de-classe-f878"
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-indice-de-lettre-salle-de-classe-a490"
   },
   {
-   "slug": "puzzle-mathematique-mixte-ustensiles-de-cuisine-9306",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "train-de-l-alphabet-indice-de-lettre-ustensiles-de-cuisine-8e08",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "kitchen_tools",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-ustensiles-de-cuisine-9306"
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-indice-de-lettre-ustensiles-de-cuisine-8e08"
   },
   {
-   "slug": "puzzle-mathematique-mixte-vehicules-22f8",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "train-de-l-alphabet-indice-de-lettre-vehicules-5b8a",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "vehicles",
-   "level": "ce1",
-   "deck": "puzzle-mathematique-mixte-vehicules-22f8"
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-indice-de-lettre-vehicules-5b8a"
   },
   {
-   "slug": "puzzle-mathematique-mixte-vetements-7810",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "train-de-l-alphabet-indice-de-lettre-vetements-9b15",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "clothing",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-vetements-7810"
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-indice-de-lettre-vetements-9b15"
   },
   {
-   "slug": "puzzle-mathematique-mixte-vie-oceanique-558a",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "train-de-l-alphabet-indice-de-lettre-vie-oceanique-0a9a",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "ocean_life",
-   "level": "cp",
-   "deck": "puzzle-mathematique-mixte-vie-oceanique-558a"
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-indice-de-lettre-vie-oceanique-0a9a"
+  },
+  {
+   "slug": "train-de-l-alphabet-accessoires-d5f2",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "accessories",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-accessoires-d5f2"
+  },
+  {
+   "slug": "train-de-l-alphabet-activites-0ae5",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "activities",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-activites-0ae5"
+  },
+  {
+   "slug": "train-de-l-alphabet-animaux",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "animals",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-animaux"
+  },
+  {
+   "slug": "train-de-l-alphabet-animaux-du-zoo-ef2f",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-animaux-du-zoo-ef2f"
+  },
+  {
+   "slug": "train-de-l-alphabet-au-supermarche-b267",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-au-supermarche-b267"
+  },
+  {
+   "slug": "train-de-l-alphabet-autour-de-la-maison-438d",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-autour-de-la-maison-438d"
+  },
+  {
+   "slug": "train-de-l-alphabet-camping-1c25",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "camping",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-camping-1c25"
+  },
+  {
+   "slug": "train-de-l-alphabet-choses-qui-volent-ca12",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-choses-qui-volent-ca12"
+  },
+  {
+   "slug": "train-de-l-alphabet-couleurs-df0e",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "colors",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-couleurs-df0e"
+  },
+  {
+   "slug": "train-de-l-alphabet-creatures-de-la-foret-a59a",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-creatures-de-la-foret-a59a"
+  },
+  {
+   "slug": "train-de-l-alphabet-espace-3ac1",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "space",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-espace-3ac1"
+  },
+  {
+   "slug": "train-de-l-alphabet-ete-38b4",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "summer",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-ete-38b4"
+  },
+  {
+   "slug": "train-de-l-alphabet-hiver-eea9",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "winter",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-hiver-eea9"
+  },
+  {
+   "slug": "train-de-l-alphabet-hopital-9db3",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "hospital",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-hopital-9db3"
+  },
+  {
+   "slug": "train-de-l-alphabet-jouets-c0be",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "toys",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-jouets-c0be"
+  },
+  {
+   "slug": "train-de-l-alphabet-legumes-5215",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-legumes-5215"
+  },
+  {
+   "slug": "train-de-l-alphabet-meteo-0fda",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "weather",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-meteo-0fda"
+  },
+  {
+   "slug": "train-de-l-alphabet-metiers-36ef",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "occupations",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-metiers-36ef"
+  },
+  {
+   "slug": "train-de-l-alphabet-musique-5988",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "music",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-musique-5988"
+  },
+  {
+   "slug": "train-de-l-alphabet-oiseaux-2-55d7",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-oiseaux-2-55d7"
+  },
+  {
+   "slug": "train-de-l-alphabet-parties-du-corps-1c76",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-parties-du-corps-1c76"
+  },
+  {
+   "slug": "train-de-l-alphabet-petit-dejeuner-8c41",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-petit-dejeuner-8c41"
+  },
+  {
+   "slug": "train-de-l-alphabet-plage-9522",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "beach",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-plage-9522"
+  },
+  {
+   "slug": "train-de-l-alphabet-printemps-0e9d",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "spring",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-printemps-0e9d"
+  },
+  {
+   "slug": "train-de-l-alphabet-salle-de-classe-f0d7",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "classroom",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-salle-de-classe-f0d7"
+  },
+  {
+   "slug": "train-de-l-alphabet-ustensiles-de-cuisine-6fb2",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-ustensiles-de-cuisine-6fb2"
+  },
+  {
+   "slug": "train-de-l-alphabet-vehicules-84d5",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-vehicules-84d5"
+  },
+  {
+   "slug": "train-de-l-alphabet-vetements-fdb0",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "clothing",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-vetements-fdb0"
+  },
+  {
+   "slug": "train-de-l-alphabet-vie-oceanique-9f22",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "maternelle",
+   "deck": "train-de-l-alphabet-vie-oceanique-9f22"
   }
  ]
 }

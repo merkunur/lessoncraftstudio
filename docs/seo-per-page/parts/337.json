@@ -2,747 +2,715 @@
  "part": 337,
  "locale": "fi",
  "classes": [
-  "find-and-count::hidden-object",
-  "find-objects::i-spy"
+  "subtraction::mixed",
+  "pattern-train::aab"
  ],
  "splitOf": null,
- "count": 92,
+ "count": 88,
  "pages": [
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-aamiainen-4ad5",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-aamiainen-6bea",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "breakfast",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-aamiainen-4ad5"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-aamiainen-6bea"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-ajoneuvot-531f",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-ajoneuvot-0714",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "vehicles",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-ajoneuvot-531f"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-ajoneuvot-0714"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-aktiviteetit-a58b",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "activities",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-aktiviteetit-a58b"
-  },
-  {
-   "slug": "etsi-ja-laske-piilotetut-esineet-ammatit-d941",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-ammatit-e719",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "occupations",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-ammatit-d941"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-ammatit-e719"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-asusteet-a6e9",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-asusteet-a6e2",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "accessories",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-asusteet-a6e9"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-asusteet-a6e2"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-avaruus-bc7d",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-avaruus-ab59",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "space",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-avaruus-bc7d"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-avaruus-ab59"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-elaimet-e955",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-dinosaurukset-5924",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-dinosaurukset-5924"
+  },
+  {
+   "slug": "vahennyslasku-sekoitettu-elaimet-4af1",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "animals",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-elaimet-e955"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-elaimet-4af1"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-elaintarhan-elaimet-65b6",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-elaintarhan-elaimet-bfa5",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "zoo_animals",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-elaintarhan-elaimet-65b6"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-elaintarhan-elaimet-bfa5"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-hedelmat-56bf",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-hedelmat-f259",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "fruits",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-hedelmat-56bf"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-hedelmat-f259"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-huonekalut-5bb8",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-huonekalut-62c6",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "furniture",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-huonekalut-5bb8"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-huonekalut-62c6"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-hyonteiset-ja-otokat-17be",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-hyonteiset-ja-otokat-ddf3",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "insects_and_bugs",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-hyonteiset-ja-otokat-17be"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-hyonteiset-ja-otokat-ddf3"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-jalkiruoat-ja-makeiset-5fc3",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-jalkiruoat-ja-makeiset-be61",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "desserts_and_sweets",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-jalkiruoat-ja-makeiset-5fc3"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-jalkiruoat-ja-makeiset-be61"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-joulu-70db",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-joulu-d9bf",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "christmas",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-joulu-70db"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-joulu-d9bf"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-keittiovalineet-2903",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-keittiovalineet-cd62",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "kitchen_tools",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-keittiovalineet-2903"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-keittiovalineet-cd62"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-kesa-67d8",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "summer",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-kesa-67d8"
-  },
-  {
-   "slug": "etsi-ja-laske-piilotetut-esineet-kevat-440a",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "spring",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-kevat-440a"
-  },
-  {
-   "slug": "etsi-ja-laske-piilotetut-esineet-kiitospaiva-4f49",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-kiitospaiva-9d04",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "thanksgivinng",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-kiitospaiva-4f49"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-kiitospaiva-9d04"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-kodin-ymparilla-8529",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-kodin-ymparilla-1edc",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "around_the_house",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-kodin-ymparilla-8529"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-kodin-ymparilla-1edc"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-kukat-21b5",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-kukat-aa79",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "flowers",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-kukat-21b5"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-kukat-aa79"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-leipomo-7fa6",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-leipomo-21e8",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "bakery",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-leipomo-7fa6"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-leipomo-21e8"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-leirielama-11ac",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-leirielama-3dc1",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "camping",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-leirielama-11ac"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-leirielama-3dc1"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-lelut-1bd8",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-lelut-791d",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "toys",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-lelut-1bd8"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-lelut-791d"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-lemmikit-a2a5",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-lemmikit-e637",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "pets",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-lemmikit-a2a5"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-lemmikit-e637"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-lentavat-asiat-b116",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-lentavat-asiat-b34e",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "things_that_fly",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-lentavat-asiat-b116"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-lentavat-asiat-b34e"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-linnut-2-56bf",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-linnut-2-cd32",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "birds_2",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-linnut-2-56bf"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-linnut-2-cd32"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-luokkahuone-03d9",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-linnut-6274",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-linnut-6274"
+  },
+  {
+   "slug": "vahennyslasku-sekoitettu-luokkahuone-4d5b",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "classroom",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-luokkahuone-03d9"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-luokkahuone-4d5b"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-maatilan-elaimet-cbb2",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-maatilan-elaimet-19e5",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "farm_animals",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-maatilan-elaimet-cbb2"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-maatilan-elaimet-19e5"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-matelijat-ja-sammakkoelaimet-82ee",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-matelijat-ja-sammakkoelaimet-89ae",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "reptiles_and_amphibians",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-matelijat-ja-sammakkoelaimet-82ee"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-matelijat-ja-sammakkoelaimet-89ae"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-merielama-860a",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-merielama-e501",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "ocean_life",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-merielama-860a"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-merielama-e501"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-metsan-elaimet-10d4",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-metsan-elaimet-8af4",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "forest_creatures",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-metsan-elaimet-10d4"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-metsan-elaimet-8af4"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-muodot-37ef",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-muodot-a844",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "shapes",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-muodot-37ef"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-muodot-a844"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-musiikki-d508",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-musiikki-73e5",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "music",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-musiikki-d508"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-musiikki-73e5"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-paasiainen-cd34",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-paasiainen-2de0",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "easter",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-paasiainen-cd34"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-paasiainen-2de0"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-postitoimisto-3e2f",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-postitoimisto-9699",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "post_office",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-postitoimisto-3e2f"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-postitoimisto-9699"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-puut-cba2",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-puut-e6d9",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "tree",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-puut-cba2"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-puut-e6d9"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-ranta-a723",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-ranta-a02f",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "beach",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-ranta-a723"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-ranta-a02f"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-ruokakaupassa-24ba",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-ruokakaupassa-4fd9",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "at_the_supermarket",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-ruokakaupassa-24ba"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-ruokakaupassa-4fd9"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-ruumiinosat-5db2",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "body_parts",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-ruumiinosat-5db2"
-  },
-  {
-   "slug": "etsi-ja-laske-piilotetut-esineet-saa-fec1",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "weather",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-saa-fec1"
-  },
-  {
-   "slug": "etsi-ja-laske-piilotetut-esineet-sairaala-d882",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-sairaala-01ba",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "hospital",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-sairaala-d882"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-sairaala-01ba"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-talvi-94fb",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "winter",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-talvi-94fb"
-  },
-  {
-   "slug": "etsi-ja-laske-piilotetut-esineet-tunteet-c485",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "emotions",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-tunteet-c485"
-  },
-  {
-   "slug": "etsi-ja-laske-piilotetut-esineet-tyokalut-18c6",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-tyokalut-607a",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "tools",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-tyokalut-18c6"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-tyokalut-607a"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-vaatteet-e404",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-vaatteet-aa62",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "clothing",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-vaatteet-e404"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-vaatteet-aa62"
   },
   {
-   "slug": "etsi-ja-laske-piilotetut-esineet-varit-7b3f",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "colors",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-varit-7b3f"
-  },
-  {
-   "slug": "etsi-ja-laske-piilotetut-esineet-vihannekset-7e2f",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "vahennyslasku-sekoitettu-vihannekset-c58d",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "vegetables",
-   "level": "esikoulu",
-   "deck": "etsi-ja-laske-piilotetut-esineet-vihannekset-7e2f"
+   "level": "1-luokka",
+   "deck": "vahennyslasku-sekoitettu-vihannekset-c58d"
   },
   {
-   "slug": "etsi-esineet-naen-naen-aamiainen-1749",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-aamiainen-170f",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "breakfast",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-aamiainen-1749"
+   "deck": "kuviojuna-aab-aamiainen-170f"
   },
   {
-   "slug": "etsi-esineet-naen-naen-ajoneuvot-53c4",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-ajoneuvot-486c",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "vehicles",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-ajoneuvot-53c4"
+   "deck": "kuviojuna-aab-ajoneuvot-486c"
   },
   {
-   "slug": "etsi-esineet-naen-naen-aktiviteetit-4eb5",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-aktiviteetit-f1c4",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "activities",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-aktiviteetit-4eb5"
+   "deck": "kuviojuna-aab-aktiviteetit-f1c4"
   },
   {
-   "slug": "etsi-esineet-naen-naen-ammatit-b4a2",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-ammatit-2d06",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "occupations",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-ammatit-b4a2"
+   "deck": "kuviojuna-aab-ammatit-2d06"
   },
   {
-   "slug": "etsi-esineet-naen-naen-asusteet-a379",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-asusteet-15dc",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "accessories",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-asusteet-a379"
+   "deck": "kuviojuna-aab-asusteet-15dc"
   },
   {
-   "slug": "etsi-esineet-naen-naen-avaruus-0228",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-avaruus-51b6",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "space",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-avaruus-0228"
+   "deck": "kuviojuna-aab-avaruus-51b6"
   },
   {
-   "slug": "etsi-esineet-naen-naen-dinosaurukset-ab58",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-dinosaurukset-952f",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "dinosaurs",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-dinosaurukset-ab58"
+   "deck": "kuviojuna-aab-dinosaurukset-952f"
   },
   {
-   "slug": "etsi-esineet-naen-naen-elaimet-6bda",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-elaimet-9c1b",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "animals",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-elaimet-6bda"
+   "deck": "kuviojuna-aab-elaimet-9c1b"
   },
   {
-   "slug": "etsi-esineet-naen-naen-elaintarhan-elaimet-dfdd",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-elaintarhan-elaimet-13c4",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "zoo_animals",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-elaintarhan-elaimet-dfdd"
+   "deck": "kuviojuna-aab-elaintarhan-elaimet-13c4"
   },
   {
-   "slug": "etsi-esineet-naen-naen-hedelmat-dc4e",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-hedelmat-e047",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "fruits",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-hedelmat-dc4e"
+   "deck": "kuviojuna-aab-hedelmat-e047"
   },
   {
-   "slug": "etsi-esineet-naen-naen-huonekalut-2cc8",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-huonekalut-0cd9",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "furniture",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-huonekalut-2cc8"
+   "deck": "kuviojuna-aab-huonekalut-0cd9"
   },
   {
-   "slug": "etsi-esineet-naen-naen-hyonteiset-ja-otokat-a353",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-hyonteiset-ja-otokat-217a",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "insects_and_bugs",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-hyonteiset-ja-otokat-a353"
+   "deck": "kuviojuna-aab-hyonteiset-ja-otokat-217a"
   },
   {
-   "slug": "etsi-esineet-naen-naen-jalkiruoat-ja-makeiset-d098",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-jalkiruoat-ja-makeiset-63ae",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "desserts_and_sweets",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-jalkiruoat-ja-makeiset-d098"
+   "deck": "kuviojuna-aab-jalkiruoat-ja-makeiset-63ae"
   },
   {
-   "slug": "etsi-esineet-naen-naen-joulu-9c48",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-joulu-6eab",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "christmas",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-joulu-9c48"
+   "deck": "kuviojuna-aab-joulu-6eab"
   },
   {
-   "slug": "etsi-esineet-naen-naen-keittiovalineet-a254",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-keittiovalineet-5c08",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "kitchen_tools",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-keittiovalineet-a254"
+   "deck": "kuviojuna-aab-keittiovalineet-5c08"
   },
   {
-   "slug": "etsi-esineet-naen-naen-kesa-dd5d",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-kesa-676c",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "summer",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-kesa-dd5d"
+   "deck": "kuviojuna-aab-kesa-676c"
   },
   {
-   "slug": "etsi-esineet-naen-naen-kevat-8587",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-kevat-047a",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "spring",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-kevat-8587"
+   "deck": "kuviojuna-aab-kevat-047a"
   },
   {
-   "slug": "etsi-esineet-naen-naen-kiitospaiva-d543",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-kiitospaiva-0676",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "thanksgivinng",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-kiitospaiva-d543"
+   "deck": "kuviojuna-aab-kiitospaiva-0676"
   },
   {
-   "slug": "etsi-esineet-naen-naen-kukat-9e3e",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-kodin-ymparilla-eebb",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "around_the_house",
+   "level": "esikoulu",
+   "deck": "kuviojuna-aab-kodin-ymparilla-eebb"
+  },
+  {
+   "slug": "kuviojuna-aab-kukat-9d76",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "flowers",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-kukat-9e3e"
+   "deck": "kuviojuna-aab-kukat-9d76"
   },
   {
-   "slug": "etsi-esineet-naen-naen-leipomo-8402",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-leipomo-4b00",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "bakery",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-leipomo-8402"
+   "deck": "kuviojuna-aab-leipomo-4b00"
   },
   {
-   "slug": "etsi-esineet-naen-naen-leirielama-9894",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-leirielama-81fc",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "camping",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-leirielama-9894"
+   "deck": "kuviojuna-aab-leirielama-81fc"
   },
   {
-   "slug": "etsi-esineet-naen-naen-lelut-2276",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-lelut-58cd",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "toys",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-lelut-2276"
+   "deck": "kuviojuna-aab-lelut-58cd"
   },
   {
-   "slug": "etsi-esineet-naen-naen-lemmikit-58d0",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-lemmikit-f509",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "pets",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-lemmikit-58d0"
+   "deck": "kuviojuna-aab-lemmikit-f509"
   },
   {
-   "slug": "etsi-esineet-naen-naen-lentavat-asiat-5be1",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-lentavat-asiat-97eb",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "things_that_fly",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-lentavat-asiat-5be1"
+   "deck": "kuviojuna-aab-lentavat-asiat-97eb"
   },
   {
-   "slug": "etsi-esineet-naen-naen-linnut-2-cc7c",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-linnut-2-02a0",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "birds_2",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-linnut-2-cc7c"
+   "deck": "kuviojuna-aab-linnut-2-02a0"
   },
   {
-   "slug": "etsi-esineet-naen-naen-luokkahuone-4b50",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-linnut-7eb8",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "birds",
+   "level": "esikoulu",
+   "deck": "kuviojuna-aab-linnut-7eb8"
+  },
+  {
+   "slug": "kuviojuna-aab-luokkahuone-44ee",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "classroom",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-luokkahuone-4b50"
+   "deck": "kuviojuna-aab-luokkahuone-44ee"
   },
   {
-   "slug": "etsi-esineet-naen-naen-maatilan-elaimet-0884",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-maatilan-elaimet-c83e",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "farm_animals",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-maatilan-elaimet-0884"
+   "deck": "kuviojuna-aab-maatilan-elaimet-c83e"
   },
   {
-   "slug": "etsi-esineet-naen-naen-matelijat-ja-sammakkoelaimet-85f3",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-matelijat-ja-sammakkoelaimet-6eec",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "reptiles_and_amphibians",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-matelijat-ja-sammakkoelaimet-85f3"
+   "deck": "kuviojuna-aab-matelijat-ja-sammakkoelaimet-6eec"
   },
   {
-   "slug": "etsi-esineet-naen-naen-merielama-fc4c",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-merielama-76ff",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "ocean_life",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-merielama-fc4c"
+   "deck": "kuviojuna-aab-merielama-76ff"
   },
   {
-   "slug": "etsi-esineet-naen-naen-metsan-elaimet-63b0",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-metsan-elaimet-d5d1",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "forest_creatures",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-metsan-elaimet-63b0"
+   "deck": "kuviojuna-aab-metsan-elaimet-d5d1"
   },
   {
-   "slug": "etsi-esineet-naen-naen-muodot-395f",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-muodot-d8b9",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "shapes",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-muodot-395f"
+   "deck": "kuviojuna-aab-muodot-d8b9"
   },
   {
-   "slug": "etsi-esineet-naen-naen-musiikki-b9ed",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-musiikki-2501",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "music",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-musiikki-b9ed"
+   "deck": "kuviojuna-aab-musiikki-2501"
   },
   {
-   "slug": "etsi-esineet-naen-naen-paasiainen-133f",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-paasiainen-25c8",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "easter",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-paasiainen-133f"
+   "deck": "kuviojuna-aab-paasiainen-25c8"
   },
   {
-   "slug": "etsi-esineet-naen-naen-postitoimisto-a185",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-postitoimisto-0252",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "post_office",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-postitoimisto-a185"
+   "deck": "kuviojuna-aab-postitoimisto-0252"
   },
   {
-   "slug": "etsi-esineet-naen-naen-puut-d3b3",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-puut-5598",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "tree",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-puut-d3b3"
+   "deck": "kuviojuna-aab-puut-5598"
   },
   {
-   "slug": "etsi-esineet-naen-naen-ranta-89a2",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-ranta-c01f",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "beach",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-ranta-89a2"
+   "deck": "kuviojuna-aab-ranta-c01f"
   },
   {
-   "slug": "etsi-esineet-naen-naen-ruokakaupassa-0baf",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-ruokakaupassa-abbd",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "at_the_supermarket",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-ruokakaupassa-0baf"
+   "deck": "kuviojuna-aab-ruokakaupassa-abbd"
   },
   {
-   "slug": "etsi-esineet-naen-naen-ruumiinosat-761f",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-ruumiinosat-b43f",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "body_parts",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-ruumiinosat-761f"
+   "deck": "kuviojuna-aab-ruumiinosat-b43f"
   },
   {
-   "slug": "etsi-esineet-naen-naen-saa-bea6",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-saa-31f1",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "weather",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-saa-bea6"
+   "deck": "kuviojuna-aab-saa-31f1"
   },
   {
-   "slug": "etsi-esineet-naen-naen-sairaala-d1e1",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-sairaala-5103",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "hospital",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-sairaala-d1e1"
+   "deck": "kuviojuna-aab-sairaala-5103"
   },
   {
-   "slug": "etsi-esineet-naen-naen-talvi-c8b7",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-talvi-3c82",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "winter",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-talvi-c8b7"
+   "deck": "kuviojuna-aab-talvi-3c82"
   },
   {
-   "slug": "etsi-esineet-naen-naen-tunteet-3c73",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-tunteet-3bc5",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "emotions",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-tunteet-3c73"
+   "deck": "kuviojuna-aab-tunteet-3bc5"
   },
   {
-   "slug": "etsi-esineet-naen-naen-tyokalut-b7b6",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-tyokalut-1e0b",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "tools",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-tyokalut-b7b6"
+   "deck": "kuviojuna-aab-tyokalut-1e0b"
   },
   {
-   "slug": "etsi-esineet-naen-naen-vaatteet-20e5",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-vaatteet-6a6e",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "clothing",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-vaatteet-20e5"
+   "deck": "kuviojuna-aab-vaatteet-6a6e"
   },
   {
-   "slug": "etsi-esineet-naen-naen-varit-7b46",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-varit-3421",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "colors",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-varit-7b46"
+   "deck": "kuviojuna-aab-varit-3421"
   },
   {
-   "slug": "etsi-esineet-naen-naen-vihannekset-6288",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "kuviojuna-aab-vihannekset-5c00",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "vegetables",
    "level": "esikoulu",
-   "deck": "etsi-esineet-naen-naen-vihannekset-6288"
+   "deck": "kuviojuna-aab-vihannekset-5c00"
   }
  ]
 }

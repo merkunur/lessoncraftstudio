@@ -1,568 +1,724 @@
 {
  "part": 258,
- "locale": "da",
+ "locale": "sv",
  "classes": [
-  "picture-sort::null"
+  "find-and-count::hidden-object",
+  "shadow-match::find-shadow"
  ],
- "splitOf": {
-  "class": "picture-sort::null",
-  "total": 211,
-  "chunk": 3,
-  "chunks": 3
- },
- "count": 69,
+ "splitOf": null,
+ "count": 89,
  "pages": [
   {
-   "slug": "sorter-billeder-reptiles-and-amphibians-vs-bakery-d9f2",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "reptiles_and_amphibians-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-reptiles-and-amphibians-vs-bakery-d9f2"
-  },
-  {
-   "slug": "sorter-billeder-reptiles-and-amphibians-vs-dinosaurs-b86e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "reptiles_and_amphibians-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-reptiles-and-amphibians-vs-dinosaurs-b86e"
-  },
-  {
-   "slug": "sorter-billeder-reptiles-and-amphibians-vs-flowers-4295",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "reptiles_and_amphibians-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-reptiles-and-amphibians-vs-flowers-4295"
-  },
-  {
-   "slug": "sorter-billeder-reptiles-and-amphibians-vs-vehicles-2617",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "reptiles_and_amphibians-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-reptiles-and-amphibians-vs-vehicles-2617"
-  },
-  {
-   "slug": "sorter-billeder-shapes-vs-animals-3808",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "shapes-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-shapes-vs-animals-3808"
-  },
-  {
-   "slug": "sorter-billeder-shapes-vs-bakery-6f37",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "shapes-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-shapes-vs-bakery-6f37"
-  },
-  {
-   "slug": "sorter-billeder-shapes-vs-dinosaurs-635d",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "shapes-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-shapes-vs-dinosaurs-635d"
-  },
-  {
-   "slug": "sorter-billeder-shapes-vs-flowers-29a4",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "shapes-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-shapes-vs-flowers-29a4"
-  },
-  {
-   "slug": "sorter-billeder-shapes-vs-vehicles-cc04",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "shapes-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-shapes-vs-vehicles-cc04"
-  },
-  {
-   "slug": "sorter-billeder-space-vs-animals-3e05",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "space-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-space-vs-animals-3e05"
-  },
-  {
-   "slug": "sorter-billeder-space-vs-bakery-ae7b",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "space-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-space-vs-bakery-ae7b"
-  },
-  {
-   "slug": "sorter-billeder-space-vs-beach-d201",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "space-vs-beach",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-space-vs-beach-d201"
-  },
-  {
-   "slug": "sorter-billeder-space-vs-dinosaurs-bde7",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "space-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-space-vs-dinosaurs-bde7"
+   "slug": "hitta-och-rakna-gomda-foremal-aktiviteter-c8b1",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "activities",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-aktiviteter-c8b1"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-bageri-b77d",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "bakery",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-bageri-b77d"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-blommor-06c5",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "flowers",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-blommor-06c5"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-bondgardsdjur-90f5",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "farm_animals",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-bondgardsdjur-90f5"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-camping-fa73",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "camping",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-camping-fa73"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-djur-8877",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "animals",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-djur-8877"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-djurparksdjur-f2d6",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "zoo_animals",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-djurparksdjur-f2d6"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-efterratter-och-godis-e87f",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "desserts_and_sweets",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-efterratter-och-godis-e87f"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-faglar-2-a06e",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "birds_2",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-faglar-2-a06e"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-farger-039e",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "colors",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-farger-039e"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-fordon-31f0",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "vehicles",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-fordon-31f0"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-former-590c",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "shapes",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-former-590c"
+  },
+  {
+   "slug": "hitta-och-rakna-gomda-foremal-frukost-daef",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "breakfast",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-frukost-daef"
   },
   {
-   "slug": "sorter-billeder-space-vs-flowers-1176",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "space-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-space-vs-flowers-1176"
+   "slug": "hitta-och-rakna-gomda-foremal-frukter-f54a",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "fruits",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-frukter-f54a"
   },
   {
-   "slug": "sorter-billeder-space-vs-vehicles-766a",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "space-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-space-vs-vehicles-766a"
+   "slug": "hitta-och-rakna-gomda-foremal-gronsaker-965c",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "vegetables",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-gronsaker-965c"
   },
   {
-   "slug": "sorter-billeder-spring-vs-bakery-f714",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "spring-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-spring-vs-bakery-f714"
+   "slug": "hitta-och-rakna-gomda-foremal-havsliv-aa29",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "ocean_life",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-havsliv-aa29"
   },
   {
-   "slug": "sorter-billeder-spring-vs-dinosaurs-3aef",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "spring-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-spring-vs-dinosaurs-3aef"
+   "slug": "hitta-och-rakna-gomda-foremal-husdjur-0b4a",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "pets",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-husdjur-0b4a"
   },
   {
-   "slug": "sorter-billeder-spring-vs-flowers-278c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "spring-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-spring-vs-flowers-278c"
+   "slug": "hitta-och-rakna-gomda-foremal-i-snabbkopet-4dc6",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "at_the_supermarket",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-i-snabbkopet-4dc6"
   },
   {
-   "slug": "sorter-billeder-spring-vs-vehicles-6065",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "spring-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-spring-vs-vehicles-6065"
+   "slug": "hitta-och-rakna-gomda-foremal-insekter-och-kryp-695e",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "insects_and_bugs",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-insekter-och-kryp-695e"
   },
   {
-   "slug": "sorter-billeder-summer-vs-animals-fcfc",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "summer-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-summer-vs-animals-fcfc"
+   "slug": "hitta-och-rakna-gomda-foremal-jul-c281",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "christmas",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-jul-c281"
   },
   {
-   "slug": "sorter-billeder-summer-vs-bakery-64de",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "summer-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-summer-vs-bakery-64de"
+   "slug": "hitta-och-rakna-gomda-foremal-kanslor-82d4",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "emotions",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-kanslor-82d4"
   },
   {
-   "slug": "sorter-billeder-summer-vs-dinosaurs-9b3d",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "summer-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-summer-vs-dinosaurs-9b3d"
+   "slug": "hitta-och-rakna-gomda-foremal-klader-1e28",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "clothing",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-klader-1e28"
   },
   {
-   "slug": "sorter-billeder-summer-vs-flowers-d35e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "summer-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-summer-vs-flowers-d35e"
+   "slug": "hitta-och-rakna-gomda-foremal-klassrum-dc60",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "classroom",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-klassrum-dc60"
   },
   {
-   "slug": "sorter-billeder-summer-vs-vehicles-e7e4",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "summer-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-summer-vs-vehicles-e7e4"
+   "slug": "hitta-och-rakna-gomda-foremal-koksredskap-2e3d",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "kitchen_tools",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-koksredskap-2e3d"
   },
   {
-   "slug": "sorter-billeder-thanksgivinng-vs-animals-8a32",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "thanksgivinng-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-thanksgivinng-vs-animals-8a32"
+   "slug": "hitta-och-rakna-gomda-foremal-kroppsdelar-bc83",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "body_parts",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-kroppsdelar-bc83"
   },
   {
-   "slug": "sorter-billeder-thanksgivinng-vs-bakery-4909",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "thanksgivinng-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-thanksgivinng-vs-bakery-4909"
+   "slug": "hitta-och-rakna-gomda-foremal-leksaker-3866",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "toys",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-leksaker-3866"
   },
   {
-   "slug": "sorter-billeder-thanksgivinng-vs-dinosaurs-2d00",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "thanksgivinng-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-thanksgivinng-vs-dinosaurs-2d00"
+   "slug": "hitta-och-rakna-gomda-foremal-mobler-0842",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "furniture",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-mobler-0842"
   },
   {
-   "slug": "sorter-billeder-thanksgivinng-vs-flowers-3951",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "thanksgivinng-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-thanksgivinng-vs-flowers-3951"
+   "slug": "hitta-och-rakna-gomda-foremal-musik-e385",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "music",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-musik-e385"
   },
   {
-   "slug": "sorter-billeder-thanksgivinng-vs-vehicles-dd20",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "thanksgivinng-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-thanksgivinng-vs-vehicles-dd20"
+   "slug": "hitta-och-rakna-gomda-foremal-pask-d215",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "easter",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-pask-d215"
   },
   {
-   "slug": "sorter-billeder-things-that-fly-vs-bakery-d354",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "things_that_fly-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-things-that-fly-vs-bakery-d354"
+   "slug": "hitta-och-rakna-gomda-foremal-postkontor-8915",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "post_office",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-postkontor-8915"
   },
   {
-   "slug": "sorter-billeder-things-that-fly-vs-dinosaurs-5ffa",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "things_that_fly-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-things-that-fly-vs-dinosaurs-5ffa"
+   "slug": "hitta-och-rakna-gomda-foremal-runt-huset-b57d",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "around_the_house",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-runt-huset-b57d"
   },
   {
-   "slug": "sorter-billeder-tools-vs-animals-249e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tools-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-tools-vs-animals-249e"
+   "slug": "hitta-och-rakna-gomda-foremal-rymden-122e",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "space",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-rymden-122e"
   },
   {
-   "slug": "sorter-billeder-tools-vs-bakery-addc",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tools-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-tools-vs-bakery-addc"
+   "slug": "hitta-och-rakna-gomda-foremal-saker-som-flyger-7bb1",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "things_that_fly",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-saker-som-flyger-7bb1"
   },
   {
-   "slug": "sorter-billeder-tools-vs-dinosaurs-c934",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tools-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-tools-vs-dinosaurs-c934"
+   "slug": "hitta-och-rakna-gomda-foremal-sjukhus-6c32",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "hospital",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-sjukhus-6c32"
   },
   {
-   "slug": "sorter-billeder-tools-vs-flowers-54c6",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tools-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-tools-vs-flowers-54c6"
+   "slug": "hitta-och-rakna-gomda-foremal-skogsdjur-ecfb",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "forest_creatures",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-skogsdjur-ecfb"
   },
   {
-   "slug": "sorter-billeder-tools-vs-vehicles-4ecf",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tools-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-tools-vs-vehicles-4ecf"
+   "slug": "hitta-och-rakna-gomda-foremal-sommar-b67e",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "summer",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-sommar-b67e"
   },
   {
-   "slug": "sorter-billeder-toys-vs-animals-311e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "toys-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-toys-vs-animals-311e"
+   "slug": "hitta-och-rakna-gomda-foremal-strand-71f1",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "beach",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-strand-71f1"
   },
   {
-   "slug": "sorter-billeder-toys-vs-bakery-8fd5",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "toys-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-toys-vs-bakery-8fd5"
+   "slug": "hitta-och-rakna-gomda-foremal-thanksgiving-6266",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "thanksgivinng",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-thanksgiving-6266"
   },
   {
-   "slug": "sorter-billeder-toys-vs-dinosaurs-8790",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "toys-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-toys-vs-dinosaurs-8790"
+   "slug": "hitta-och-rakna-gomda-foremal-tillbehor-3a27",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "accessories",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-tillbehor-3a27"
   },
   {
-   "slug": "sorter-billeder-toys-vs-flowers-2c55",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "toys-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-toys-vs-flowers-2c55"
+   "slug": "hitta-och-rakna-gomda-foremal-trad-9543",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "tree",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-trad-9543"
   },
   {
-   "slug": "sorter-billeder-toys-vs-vehicles-d138",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "toys-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-toys-vs-vehicles-d138"
+   "slug": "hitta-och-rakna-gomda-foremal-vader-4544",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "weather",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-vader-4544"
   },
   {
-   "slug": "sorter-billeder-tree-vs-animals-ce22",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-tree-vs-animals-ce22"
+   "slug": "hitta-och-rakna-gomda-foremal-var-d430",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "spring",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-var-d430"
   },
   {
-   "slug": "sorter-billeder-tree-vs-bakery-2683",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-tree-vs-bakery-2683"
+   "slug": "hitta-och-rakna-gomda-foremal-verktyg-4a63",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "tools",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-verktyg-4a63"
   },
   {
-   "slug": "sorter-billeder-tree-vs-dinosaurs-270a",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-tree-vs-dinosaurs-270a"
+   "slug": "hitta-och-rakna-gomda-foremal-vinter-176a",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "winter",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-vinter-176a"
   },
   {
-   "slug": "sorter-billeder-tree-vs-flowers-494f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-tree-vs-flowers-494f"
+   "slug": "hitta-och-rakna-gomda-foremal-yrken-60f0",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "occupations",
+   "level": "forskola",
+   "deck": "hitta-och-rakna-gomda-foremal-yrken-60f0"
   },
   {
-   "slug": "sorter-billeder-tree-vs-vehicles-60f5",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-tree-vs-vehicles-60f5"
+   "slug": "matcha-skuggor-para-skuggan-aktiviteter-9daf",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "activities",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-aktiviteter-9daf"
   },
   {
-   "slug": "sorter-billeder-vegetables-vs-animals-98fb",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "vegetables-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-vegetables-vs-animals-98fb"
+   "slug": "matcha-skuggor-para-skuggan-bageri-3ad7",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "bakery",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-bageri-3ad7"
   },
   {
-   "slug": "sorter-billeder-vegetables-vs-bakery-9d5b",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "vegetables-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-vegetables-vs-bakery-9d5b"
+   "slug": "matcha-skuggor-para-skuggan-blommor-9c57",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "flowers",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-blommor-9c57"
   },
   {
-   "slug": "sorter-billeder-vegetables-vs-dinosaurs-10c8",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "vegetables-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-vegetables-vs-dinosaurs-10c8"
+   "slug": "matcha-skuggor-para-skuggan-bondgardsdjur-8738",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "farm_animals",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-bondgardsdjur-8738"
   },
   {
-   "slug": "sorter-billeder-vegetables-vs-flowers-5c48",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "vegetables-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-vegetables-vs-flowers-5c48"
+   "slug": "matcha-skuggor-para-skuggan-camping-8215",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "camping",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-camping-8215"
   },
   {
-   "slug": "sorter-billeder-vegetables-vs-vehicles-6e0c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "vegetables-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-vegetables-vs-vehicles-6e0c"
+   "slug": "matcha-skuggor-para-skuggan-dinosaurier-b116",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "dinosaurs",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-dinosaurier-b116"
   },
   {
-   "slug": "sorter-billeder-vehicles-vs-animals-aee9",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "vehicles-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-vehicles-vs-animals-aee9"
+   "slug": "matcha-skuggor-para-skuggan-djur",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "animals",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-djur"
   },
   {
-   "slug": "sorter-billeder-vehicles-vs-bakery-afab",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "vehicles-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-vehicles-vs-bakery-afab"
+   "slug": "matcha-skuggor-para-skuggan-djurparksdjur-88a4",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "zoo_animals",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-djurparksdjur-88a4"
   },
   {
-   "slug": "sorter-billeder-vehicles-vs-dinosaurs-d0b0",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "vehicles-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-vehicles-vs-dinosaurs-d0b0"
+   "slug": "matcha-skuggor-para-skuggan-efterratter-och-godis-1370",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "desserts_and_sweets",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-efterratter-och-godis-1370"
   },
   {
-   "slug": "sorter-billeder-vehicles-vs-flowers-91db",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "vehicles-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-vehicles-vs-flowers-91db"
+   "slug": "matcha-skuggor-para-skuggan-faglar-03b9",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "birds",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-faglar-03b9"
   },
   {
-   "slug": "sorter-billeder-weather-vs-animals-2e5a",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "weather-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-weather-vs-animals-2e5a"
+   "slug": "matcha-skuggor-para-skuggan-faglar-2-d113",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "birds_2",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-faglar-2-d113"
   },
   {
-   "slug": "sorter-billeder-weather-vs-bakery-d49c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "weather-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-weather-vs-bakery-d49c"
-  },
-  {
-   "slug": "sorter-billeder-weather-vs-dinosaurs-16ac",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "weather-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-weather-vs-dinosaurs-16ac"
-  },
-  {
-   "slug": "sorter-billeder-weather-vs-flowers-cc1b",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "weather-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-weather-vs-flowers-cc1b"
-  },
-  {
-   "slug": "sorter-billeder-weather-vs-vehicles-2ccd",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "weather-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-weather-vs-vehicles-2ccd"
-  },
-  {
-   "slug": "sorter-billeder-winter-vs-animals-e761",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "winter-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-winter-vs-animals-e761"
-  },
-  {
-   "slug": "sorter-billeder-winter-vs-bakery-b028",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "winter-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-winter-vs-bakery-b028"
-  },
-  {
-   "slug": "sorter-billeder-winter-vs-dinosaurs-812e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "winter-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-winter-vs-dinosaurs-812e"
-  },
-  {
-   "slug": "sorter-billeder-winter-vs-flowers-9d42",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "winter-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-winter-vs-flowers-9d42"
-  },
-  {
-   "slug": "sorter-billeder-winter-vs-vehicles-82b3",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "winter-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-winter-vs-vehicles-82b3"
-  },
-  {
-   "slug": "sorter-billeder-zoo-animals-vs-bakery-6746",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "zoo_animals-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-zoo-animals-vs-bakery-6746"
-  },
-  {
-   "slug": "sorter-billeder-zoo-animals-vs-dinosaurs-73d8",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "zoo_animals-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-zoo-animals-vs-dinosaurs-73d8"
-  },
-  {
-   "slug": "sorter-billeder-zoo-animals-vs-flowers-66a3",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "zoo_animals-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-zoo-animals-vs-flowers-66a3"
-  },
-  {
-   "slug": "sorter-billeder-zoo-animals-vs-vehicles-5b51",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "zoo_animals-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-zoo-animals-vs-vehicles-5b51"
+   "slug": "matcha-skuggor-para-skuggan-fordon-8db6",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "vehicles",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-fordon-8db6"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-frukost-9d73",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "breakfast",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-frukost-9d73"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-gronsaker-df2b",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "vegetables",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-gronsaker-df2b"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-havsliv-916b",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "ocean_life",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-havsliv-916b"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-husdjur-215d",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "pets",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-husdjur-215d"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-i-snabbkopet-76dc",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "at_the_supermarket",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-i-snabbkopet-76dc"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-insekter-och-kryp-b85d",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "insects_and_bugs",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-insekter-och-kryp-b85d"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-jul-9ed7",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "christmas",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-jul-9ed7"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-klader-6cda",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "clothing",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-klader-6cda"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-klassrum-3ca2",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "classroom",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-klassrum-3ca2"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-koksredskap-5775",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "kitchen_tools",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-koksredskap-5775"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-kroppsdelar-1078",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "body_parts",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-kroppsdelar-1078"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-leksaker-5962",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "toys",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-leksaker-5962"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-mobler-617f",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "furniture",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-mobler-617f"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-musik-a814",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "music",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-musik-a814"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-pask-0ca4",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "easter",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-pask-0ca4"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-postkontor-7926",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "post_office",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-postkontor-7926"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-reptiler-och-groddjur-2969",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "reptiles_and_amphibians",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-reptiler-och-groddjur-2969"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-runt-huset-a7c1",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "around_the_house",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-runt-huset-a7c1"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-rymden-ce86",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "space",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-rymden-ce86"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-saker-som-flyger-8420",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "things_that_fly",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-saker-som-flyger-8420"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-sjukhus-d215",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "hospital",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-sjukhus-d215"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-skogsdjur-622b",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "forest_creatures",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-skogsdjur-622b"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-sommar-ca19",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "summer",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-sommar-ca19"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-strand-ab32",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "beach",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-strand-ab32"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-thanksgiving-9249",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "thanksgivinng",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-thanksgiving-9249"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-tillbehor-416e",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "accessories",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-tillbehor-416e"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-trad-3a73",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "tree",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-trad-3a73"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-vader-245b",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "weather",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-vader-245b"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-var-1f35",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "spring",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-var-1f35"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-verktyg-7acc",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "tools",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-verktyg-7acc"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-vinter-ad06",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "winter",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-vinter-ad06"
+  },
+  {
+   "slug": "matcha-skuggor-para-skuggan-yrken-978b",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "occupations",
+   "level": "forskola",
+   "deck": "matcha-skuggor-para-skuggan-yrken-978b"
   }
  ]
 }

@@ -2,12 +2,396 @@
  "part": 183,
  "locale": "it",
  "classes": [
-  "word-scramble::easy",
-  "word-scramble::normal"
+  "pattern-worksheet::null",
+  "word-scramble::easy"
  ],
  "splitOf": null,
- "count": 92,
+ "count": 94,
  "pages": [
+  {
+   "slug": "scheda-di-modelli-abbigliamento-9b75",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "clothing",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-abbigliamento-9b75"
+  },
+  {
+   "slug": "scheda-di-modelli-accessori-02f6",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "accessories",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-accessori-02f6"
+  },
+  {
+   "slug": "scheda-di-modelli-al-supermercato-437d",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-al-supermercato-437d"
+  },
+  {
+   "slug": "scheda-di-modelli-alberi-b9c4",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "tree",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-alberi-b9c4"
+  },
+  {
+   "slug": "scheda-di-modelli-animali-924c",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "animals",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-animali-924c"
+  },
+  {
+   "slug": "scheda-di-modelli-animali-della-fattoria-62b2",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-animali-della-fattoria-62b2"
+  },
+  {
+   "slug": "scheda-di-modelli-animali-dello-zoo-c323",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-animali-dello-zoo-c323"
+  },
+  {
+   "slug": "scheda-di-modelli-animali-domestici-c6ac",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "pets",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-animali-domestici-c6ac"
+  },
+  {
+   "slug": "scheda-di-modelli-attivita-6194",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "activities",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-attivita-6194"
+  },
+  {
+   "slug": "scheda-di-modelli-attrezzi-e670",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "tools",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-attrezzi-e670"
+  },
+  {
+   "slug": "scheda-di-modelli-aula-730f",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "classroom",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-aula-730f"
+  },
+  {
+   "slug": "scheda-di-modelli-campeggio-f954",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "camping",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-campeggio-f954"
+  },
+  {
+   "slug": "scheda-di-modelli-colazione-36f3",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-colazione-36f3"
+  },
+  {
+   "slug": "scheda-di-modelli-colori-293d",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "colors",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-colori-293d"
+  },
+  {
+   "slug": "scheda-di-modelli-cose-che-volano-180a",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-cose-che-volano-180a"
+  },
+  {
+   "slug": "scheda-di-modelli-creature-della-foresta-6353",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-creature-della-foresta-6353"
+  },
+  {
+   "slug": "scheda-di-modelli-dinosauri-b5ee",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-dinosauri-b5ee"
+  },
+  {
+   "slug": "scheda-di-modelli-dolci-e-dolciumi-b6ce",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-dolci-e-dolciumi-b6ce"
+  },
+  {
+   "slug": "scheda-di-modelli-emozioni-0086",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "emotions",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-emozioni-0086"
+  },
+  {
+   "slug": "scheda-di-modelli-estate-278a",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "summer",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-estate-278a"
+  },
+  {
+   "slug": "scheda-di-modelli-fiori-8458",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "flowers",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-fiori-8458"
+  },
+  {
+   "slug": "scheda-di-modelli-forme-4112",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "shapes",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-forme-4112"
+  },
+  {
+   "slug": "scheda-di-modelli-frutta-4143",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "fruits",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-frutta-4143"
+  },
+  {
+   "slug": "scheda-di-modelli-giocattoli-d9a4",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "toys",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-giocattoli-d9a4"
+  },
+  {
+   "slug": "scheda-di-modelli-giorno-del-ringraziamento-dd46",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-giorno-del-ringraziamento-dd46"
+  },
+  {
+   "slug": "scheda-di-modelli-in-giro-per-casa-2e67",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-in-giro-per-casa-2e67"
+  },
+  {
+   "slug": "scheda-di-modelli-insetti-e-scarafaggi-17d1",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-insetti-e-scarafaggi-17d1"
+  },
+  {
+   "slug": "scheda-di-modelli-inverno-c478",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "winter",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-inverno-c478"
+  },
+  {
+   "slug": "scheda-di-modelli-meteo-e46a",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "weather",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-meteo-e46a"
+  },
+  {
+   "slug": "scheda-di-modelli-mobili-37c2",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "furniture",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-mobili-37c2"
+  },
+  {
+   "slug": "scheda-di-modelli-musica-aeae",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "music",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-musica-aeae"
+  },
+  {
+   "slug": "scheda-di-modelli-natale-fb9f",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "christmas",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-natale-fb9f"
+  },
+  {
+   "slug": "scheda-di-modelli-ospedale-5836",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "hospital",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-ospedale-5836"
+  },
+  {
+   "slug": "scheda-di-modelli-panetteria-8fde",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "bakery",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-panetteria-8fde"
+  },
+  {
+   "slug": "scheda-di-modelli-parti-del-corpo-2c5c",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-parti-del-corpo-2c5c"
+  },
+  {
+   "slug": "scheda-di-modelli-pasqua-6e11",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "easter",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-pasqua-6e11"
+  },
+  {
+   "slug": "scheda-di-modelli-primavera-5e62",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "spring",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-primavera-5e62"
+  },
+  {
+   "slug": "scheda-di-modelli-professioni-7e81",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "occupations",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-professioni-7e81"
+  },
+  {
+   "slug": "scheda-di-modelli-rettili-e-anfibi-7408",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-rettili-e-anfibi-7408"
+  },
+  {
+   "slug": "scheda-di-modelli-spazio-7a6a",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "space",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-spazio-7a6a"
+  },
+  {
+   "slug": "scheda-di-modelli-spiaggia-4dd7",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "beach",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-spiaggia-4dd7"
+  },
+  {
+   "slug": "scheda-di-modelli-uccelli-2-a962",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-uccelli-2-a962"
+  },
+  {
+   "slug": "scheda-di-modelli-uccelli-b93d",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "birds",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-uccelli-b93d"
+  },
+  {
+   "slug": "scheda-di-modelli-ufficio-postale-b58f",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "post_office",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-ufficio-postale-b58f"
+  },
+  {
+   "slug": "scheda-di-modelli-utensili-da-cucina-b18f",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-utensili-da-cucina-b18f"
+  },
+  {
+   "slug": "scheda-di-modelli-veicoli-b66b",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-veicoli-b66b"
+  },
+  {
+   "slug": "scheda-di-modelli-verdure-3203",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-verdure-3203"
+  },
+  {
+   "slug": "scheda-di-modelli-vita-oceanica-8e4c",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "infanzia",
+   "deck": "scheda-di-modelli-vita-oceanica-8e4c"
+  },
   {
    "slug": "anagrammi-facile-abbigliamento-8188",
    "type": "word-scramble",
@@ -375,374 +759,6 @@
    "theme": "ocean_life",
    "level": "classe-prima",
    "deck": "anagrammi-facile-vita-oceanica-b821"
-  },
-  {
-   "slug": "anagrammi-normale-abbigliamento-6c57",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "clothing",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-abbigliamento-6c57"
-  },
-  {
-   "slug": "anagrammi-normale-accessori-6d82",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "accessories",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-accessori-6d82"
-  },
-  {
-   "slug": "anagrammi-normale-al-supermercato-f8e1",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "at_the_supermarket",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-al-supermercato-f8e1"
-  },
-  {
-   "slug": "anagrammi-normale-alberi-a314",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "tree",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-alberi-a314"
-  },
-  {
-   "slug": "anagrammi-normale-animali-5b88",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "animals",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-animali-5b88"
-  },
-  {
-   "slug": "anagrammi-normale-animali-della-fattoria-b7c1",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "farm_animals",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-animali-della-fattoria-b7c1"
-  },
-  {
-   "slug": "anagrammi-normale-animali-dello-zoo-7fa7",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "zoo_animals",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-animali-dello-zoo-7fa7"
-  },
-  {
-   "slug": "anagrammi-normale-animali-domestici-ba3c",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "pets",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-animali-domestici-ba3c"
-  },
-  {
-   "slug": "anagrammi-normale-attivita-c629",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "activities",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-attivita-c629"
-  },
-  {
-   "slug": "anagrammi-normale-aula-dffa",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "classroom",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-aula-dffa"
-  },
-  {
-   "slug": "anagrammi-normale-campeggio-011e",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "camping",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-campeggio-011e"
-  },
-  {
-   "slug": "anagrammi-normale-colazione-1fba",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "breakfast",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-colazione-1fba"
-  },
-  {
-   "slug": "anagrammi-normale-colori-3f29",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "colors",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-colori-3f29"
-  },
-  {
-   "slug": "anagrammi-normale-cose-che-volano-385f",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "things_that_fly",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-cose-che-volano-385f"
-  },
-  {
-   "slug": "anagrammi-normale-creature-della-foresta-267f",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "forest_creatures",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-creature-della-foresta-267f"
-  },
-  {
-   "slug": "anagrammi-normale-dolci-e-dolciumi-00d6",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "desserts_and_sweets",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-dolci-e-dolciumi-00d6"
-  },
-  {
-   "slug": "anagrammi-normale-emozioni-e834",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "emotions",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-emozioni-e834"
-  },
-  {
-   "slug": "anagrammi-normale-estate-c8e6",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "summer",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-estate-c8e6"
-  },
-  {
-   "slug": "anagrammi-normale-fiori-7c15",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "flowers",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-fiori-7c15"
-  },
-  {
-   "slug": "anagrammi-normale-forme-f754",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "shapes",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-forme-f754"
-  },
-  {
-   "slug": "anagrammi-normale-frutta-df74",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "fruits",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-frutta-df74"
-  },
-  {
-   "slug": "anagrammi-normale-giocattoli-1bb6",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "toys",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-giocattoli-1bb6"
-  },
-  {
-   "slug": "anagrammi-normale-giorno-del-ringraziamento-d386",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "thanksgivinng",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-giorno-del-ringraziamento-d386"
-  },
-  {
-   "slug": "anagrammi-normale-in-giro-per-casa-97cd",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "around_the_house",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-in-giro-per-casa-97cd"
-  },
-  {
-   "slug": "anagrammi-normale-insetti-e-scarafaggi-e282",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "insects_and_bugs",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-insetti-e-scarafaggi-e282"
-  },
-  {
-   "slug": "anagrammi-normale-inverno-585e",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "winter",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-inverno-585e"
-  },
-  {
-   "slug": "anagrammi-normale-meteo-495a",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "weather",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-meteo-495a"
-  },
-  {
-   "slug": "anagrammi-normale-mobili-5519",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "furniture",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-mobili-5519"
-  },
-  {
-   "slug": "anagrammi-normale-musica-d2a0",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "music",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-musica-d2a0"
-  },
-  {
-   "slug": "anagrammi-normale-natale-45c5",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "christmas",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-natale-45c5"
-  },
-  {
-   "slug": "anagrammi-normale-ospedale-6bb5",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "hospital",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-ospedale-6bb5"
-  },
-  {
-   "slug": "anagrammi-normale-panetteria-00f4",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "bakery",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-panetteria-00f4"
-  },
-  {
-   "slug": "anagrammi-normale-parti-del-corpo-7710",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "body_parts",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-parti-del-corpo-7710"
-  },
-  {
-   "slug": "anagrammi-normale-pasqua-cf6c",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "easter",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-pasqua-cf6c"
-  },
-  {
-   "slug": "anagrammi-normale-primavera-a85b",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "spring",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-primavera-a85b"
-  },
-  {
-   "slug": "anagrammi-normale-professioni-8e31",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "occupations",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-professioni-8e31"
-  },
-  {
-   "slug": "anagrammi-normale-rettili-e-anfibi-fe11",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "reptiles_and_amphibians",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-rettili-e-anfibi-fe11"
-  },
-  {
-   "slug": "anagrammi-normale-spazio-a507",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "space",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-spazio-a507"
-  },
-  {
-   "slug": "anagrammi-normale-spiaggia-b471",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "beach",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-spiaggia-b471"
-  },
-  {
-   "slug": "anagrammi-normale-uccelli-2-f2d1",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "birds_2",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-uccelli-2-f2d1"
-  },
-  {
-   "slug": "anagrammi-normale-uccelli-4662",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "birds",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-uccelli-4662"
-  },
-  {
-   "slug": "anagrammi-normale-utensili-da-cucina-bfb7",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "kitchen_tools",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-utensili-da-cucina-bfb7"
-  },
-  {
-   "slug": "anagrammi-normale-varie-b086",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "miscellaneous",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-varie-b086"
-  },
-  {
-   "slug": "anagrammi-normale-veicoli-e1a9",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "vehicles",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-veicoli-e1a9"
-  },
-  {
-   "slug": "anagrammi-normale-verdure-5b20",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "vegetables",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-verdure-5b20"
-  },
-  {
-   "slug": "anagrammi-normale-vita-oceanica-0842",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "ocean_life",
-   "level": "classe-prima",
-   "deck": "anagrammi-normale-vita-oceanica-0842"
   }
  ]
 }

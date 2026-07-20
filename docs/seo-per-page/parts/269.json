@@ -2,771 +2,643 @@
  "part": 269,
  "locale": "da",
  "classes": [
-  "treasure-hunt::compass",
-  "find-objects::find-odd"
+  "addition::image-number",
+  "subtraction::cross-out"
  ],
  "splitOf": null,
- "count": 95,
+ "count": 79,
  "pages": [
   {
-   "slug": "skattejagt-verdenshjorner-aktiviteter-a9ad",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "activities",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-aktiviteter-a9ad"
-  },
-  {
-   "slug": "skattejagt-verdenshjorner-bageri-1d9a",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-bageri-65d8",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "bakery",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-bageri-1d9a"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-bageri-65d8"
   },
   {
-   "slug": "skattejagt-verdenshjorner-blomster-9d2b",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-blomster-a291",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "flowers",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-blomster-9d2b"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-blomster-a291"
   },
   {
-   "slug": "skattejagt-verdenshjorner-bondegardsdyr-8e2a",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-bondegardsdyr-d2e5",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "farm_animals",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-bondegardsdyr-8e2a"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-bondegardsdyr-d2e5"
   },
   {
-   "slug": "skattejagt-verdenshjorner-camping-a03b",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-camping-5c7f",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "camping",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-camping-a03b"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-camping-5c7f"
   },
   {
-   "slug": "skattejagt-verdenshjorner-desserter-og-slik-11b9",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "desserts_and_sweets",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-desserter-og-slik-11b9"
-  },
-  {
-   "slug": "skattejagt-verdenshjorner-dinosaurer-84e1",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-dinosaurer-7284",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-dinosaurer-84e1"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-dinosaurer-7284"
   },
   {
-   "slug": "skattejagt-verdenshjorner-dyr-f7c7",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-dyr-ce70",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "animals",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-dyr-f7c7"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-dyr-ce70"
   },
   {
-   "slug": "skattejagt-verdenshjorner-erhverv-236a",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-erhverv-cb9f",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "occupations",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-erhverv-236a"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-erhverv-cb9f"
   },
   {
-   "slug": "skattejagt-verdenshjorner-farver-7508",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "colors",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-farver-7508"
-  },
-  {
-   "slug": "skattejagt-verdenshjorner-folelser-7551",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "emotions",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-folelser-7551"
-  },
-  {
-   "slug": "skattejagt-verdenshjorner-forar-522a",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "spring",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-forar-522a"
-  },
-  {
-   "slug": "skattejagt-verdenshjorner-former-8d0f",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-former-f738",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "shapes",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-former-8d0f"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-former-f738"
   },
   {
-   "slug": "skattejagt-verdenshjorner-frugter-ad9f",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-frugter-1fdb",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "fruits",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-frugter-ad9f"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-frugter-1fdb"
   },
   {
-   "slug": "skattejagt-verdenshjorner-fugle-2-aac6",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-fugle-2-e6a8",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "birds_2",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-fugle-2-aac6"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-fugle-2-e6a8"
   },
   {
-   "slug": "skattejagt-verdenshjorner-fugle-53b2",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-fugle-7f60",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "birds",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-fugle-53b2"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-fugle-7f60"
   },
   {
-   "slug": "skattejagt-verdenshjorner-grontsager-7e8f",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-grontsager-7ad4",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "vegetables",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-grontsager-7e8f"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-grontsager-7ad4"
   },
   {
-   "slug": "skattejagt-verdenshjorner-havliv-ea84",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-havliv-2563",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "ocean_life",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-havliv-ea84"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-havliv-2563"
   },
   {
-   "slug": "skattejagt-verdenshjorner-hospital-090f",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-hospital-b96b",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "hospital",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-hospital-090f"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-hospital-b96b"
   },
   {
-   "slug": "skattejagt-verdenshjorner-i-supermarkedet-1df1",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-i-supermarkedet-ae6e",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "at_the_supermarket",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-i-supermarkedet-1df1"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-i-supermarkedet-ae6e"
   },
   {
-   "slug": "skattejagt-verdenshjorner-insekter-og-kryb-664c",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-insekter-og-kryb-5c74",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "insects_and_bugs",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-insekter-og-kryb-664c"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-insekter-og-kryb-5c74"
   },
   {
-   "slug": "skattejagt-verdenshjorner-jul-4d74",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-jul-2fb8",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "christmas",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-jul-4d74"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-jul-2fb8"
   },
   {
-   "slug": "skattejagt-verdenshjorner-kaeledyr-5116",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-kaeledyr-6a80",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "pets",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-kaeledyr-5116"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-kaeledyr-6a80"
   },
   {
-   "slug": "skattejagt-verdenshjorner-klassevaerelse-980d",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-klassevaerelse-a3fa",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "classroom",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-klassevaerelse-980d"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-klassevaerelse-a3fa"
   },
   {
-   "slug": "skattejagt-verdenshjorner-kokkenredskaber-f289",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-kokkenredskaber-3cce",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "kitchen_tools",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-kokkenredskaber-f289"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-kokkenredskaber-3cce"
   },
   {
-   "slug": "skattejagt-verdenshjorner-koretojer-317d",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-koretojer-2fc0",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "vehicles",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-koretojer-317d"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-koretojer-2fc0"
   },
   {
-   "slug": "skattejagt-verdenshjorner-kropsdele-bde3",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "body_parts",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-kropsdele-bde3"
-  },
-  {
-   "slug": "skattejagt-verdenshjorner-krybdyr-og-padder-1fcc",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-krybdyr-og-padder-ec8d",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "reptiles_and_amphibians",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-krybdyr-og-padder-1fcc"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-krybdyr-og-padder-ec8d"
   },
   {
-   "slug": "skattejagt-verdenshjorner-legetoj-16b2",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-legetoj-21f1",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "toys",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-legetoj-16b2"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-legetoj-21f1"
   },
   {
-   "slug": "skattejagt-verdenshjorner-mobler-87d7",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-mobler-4235",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "furniture",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-mobler-87d7"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-mobler-4235"
   },
   {
-   "slug": "skattejagt-verdenshjorner-morgenmad-651b",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-morgenmad-690c",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "breakfast",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-morgenmad-651b"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-morgenmad-690c"
   },
   {
-   "slug": "skattejagt-verdenshjorner-musik-2f99",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-musik-1479",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "music",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-musik-2f99"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-musik-1479"
   },
   {
-   "slug": "skattejagt-verdenshjorner-paske-5120",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-paske-9854",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "easter",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-paske-5120"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-paske-9854"
   },
   {
-   "slug": "skattejagt-verdenshjorner-postkontor-6783",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-postkontor-8fa6",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "post_office",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-postkontor-6783"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-postkontor-8fa6"
   },
   {
-   "slug": "skattejagt-verdenshjorner-rummet-63a8",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-rummet-8a50",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "space",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-rummet-63a8"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-rummet-8a50"
   },
   {
-   "slug": "skattejagt-verdenshjorner-rundt-i-huset-24f5",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-rundt-i-huset-a29e",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "around_the_house",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-rundt-i-huset-24f5"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-rundt-i-huset-a29e"
   },
   {
-   "slug": "skattejagt-verdenshjorner-skovdyr-f29e",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-skovdyr-ace0",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "forest_creatures",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-skovdyr-f29e"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-skovdyr-ace0"
   },
   {
-   "slug": "skattejagt-verdenshjorner-sommer-be79",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "summer",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-sommer-be79"
-  },
-  {
-   "slug": "skattejagt-verdenshjorner-strand-c747",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-strand-8558",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "beach",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-strand-c747"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-strand-8558"
   },
   {
-   "slug": "skattejagt-verdenshjorner-thanksgiving-30f8",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-thanksgiving-60cf",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "thanksgivinng",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-thanksgiving-30f8"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-thanksgiving-60cf"
   },
   {
-   "slug": "skattejagt-verdenshjorner-tilbehor-5038",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-tilbehor-5a7d",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "accessories",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-tilbehor-5038"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-tilbehor-5a7d"
   },
   {
-   "slug": "skattejagt-verdenshjorner-ting-der-flyver-8e98",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-ting-der-flyver-f141",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "things_that_fly",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-ting-der-flyver-8e98"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-ting-der-flyver-f141"
   },
   {
-   "slug": "skattejagt-verdenshjorner-toj-811f",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-toj-47fe",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "clothing",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-toj-811f"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-toj-47fe"
   },
   {
-   "slug": "skattejagt-verdenshjorner-traeer-5c35",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-traeer-c8ac",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "tree",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-traeer-5c35"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-traeer-c8ac"
   },
   {
-   "slug": "skattejagt-verdenshjorner-vaerktoj-e5eb",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-vaerktoj-8f33",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "tools",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-vaerktoj-e5eb"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-vaerktoj-8f33"
   },
   {
-   "slug": "skattejagt-verdenshjorner-vejr-a40e",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "weather",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-vejr-a40e"
-  },
-  {
-   "slug": "skattejagt-verdenshjorner-vinter-b7ef",
-   "type": "treasure-hunt",
-   "mode": "compass",
-   "theme": "winter",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-vinter-b7ef"
-  },
-  {
-   "slug": "skattejagt-verdenshjorner-zoodyr-3bbb",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "addition-billede-tal-zoodyr-a8b1",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "zoo_animals",
-   "level": "boernehaveklasse",
-   "deck": "skattejagt-verdenshjorner-zoodyr-3bbb"
+   "level": "1-klasse",
+   "deck": "addition-billede-tal-zoodyr-a8b1"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-aktiviteter-5b9e",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "activities",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-aktiviteter-5b9e"
-  },
-  {
-   "slug": "find-genstandene-find-den-anderledes-bageri-5c28",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-bageri-339a",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "bakery",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-bageri-5c28"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-bageri-339a"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-blomster-b928",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-blomster-b084",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "flowers",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-blomster-b928"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-blomster-b084"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-bondegardsdyr-e67d",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-bondegardsdyr-0945",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "farm_animals",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-bondegardsdyr-e67d"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-bondegardsdyr-0945"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-camping-bb42",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-camping-5006",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "camping",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-camping-bb42"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-camping-5006"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-desserter-og-slik-b5a3",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-desserter-og-slik-c875",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "desserts_and_sweets",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-desserter-og-slik-b5a3"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-desserter-og-slik-c875"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-dinosaurer-e244",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-dinosaurer-7400",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-dinosaurer-e244"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-dinosaurer-7400"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-dyr-a59b",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-dyr",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "animals",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-dyr-a59b"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-dyr"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-erhverv-dea7",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-erhverv-285d",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "occupations",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-erhverv-dea7"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-erhverv-285d"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-farver-bfa7",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "colors",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-farver-bfa7"
-  },
-  {
-   "slug": "find-genstandene-find-den-anderledes-folelser-76f9",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "emotions",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-folelser-76f9"
-  },
-  {
-   "slug": "find-genstandene-find-den-anderledes-forar-96a2",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "spring",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-forar-96a2"
-  },
-  {
-   "slug": "find-genstandene-find-den-anderledes-former-35e7",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-former-c821",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "shapes",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-former-35e7"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-former-c821"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-frugter-17b7",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-frugter-2995",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "fruits",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-frugter-17b7"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-frugter-2995"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-fugle-2-6d28",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-fugle-2-50a1",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "birds_2",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-fugle-2-6d28"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-fugle-2-50a1"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-grontsager-333f",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-fugle-2096",
+   "type": "subtraction",
+   "mode": "cross-out",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-fugle-2096"
+  },
+  {
+   "slug": "subtraktion-streg-over-grontsager-d3eb",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "vegetables",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-grontsager-333f"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-grontsager-d3eb"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-havliv-4ef6",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-havliv-6b6d",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "ocean_life",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-havliv-4ef6"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-havliv-6b6d"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-hospital-30fd",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-hospital-0859",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "hospital",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-hospital-30fd"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-hospital-0859"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-i-supermarkedet-7256",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-i-supermarkedet-bf5f",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "at_the_supermarket",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-i-supermarkedet-7256"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-i-supermarkedet-bf5f"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-insekter-og-kryb-d6ee",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-insekter-og-kryb-9537",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "insects_and_bugs",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-insekter-og-kryb-d6ee"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-insekter-og-kryb-9537"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-jul-bc17",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-jul-224c",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "christmas",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-jul-bc17"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-jul-224c"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-kaeledyr-7213",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-kaeledyr-0656",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "pets",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-kaeledyr-7213"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-kaeledyr-0656"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-klassevaerelse-6e72",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-klassevaerelse-a276",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "classroom",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-klassevaerelse-6e72"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-klassevaerelse-a276"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-kokkenredskaber-32ef",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-kokkenredskaber-27ce",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "kitchen_tools",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-kokkenredskaber-32ef"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-kokkenredskaber-27ce"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-koretojer-cc7a",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-koretojer-0522",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "vehicles",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-koretojer-cc7a"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-koretojer-0522"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-kropsdele-76fd",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "body_parts",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-kropsdele-76fd"
-  },
-  {
-   "slug": "find-genstandene-find-den-anderledes-krybdyr-og-padder-e3e4",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-krybdyr-og-padder-3216",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "reptiles_and_amphibians",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-krybdyr-og-padder-e3e4"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-krybdyr-og-padder-3216"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-legetoj-5b4f",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-legetoj-b31a",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "toys",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-legetoj-5b4f"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-legetoj-b31a"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-mobler-a596",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-mobler-4e4b",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "furniture",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-mobler-a596"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-mobler-4e4b"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-morgenmad-151b",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-morgenmad-558f",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "breakfast",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-morgenmad-151b"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-morgenmad-558f"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-musik-35b2",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-musik-bc38",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "music",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-musik-35b2"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-musik-bc38"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-paske-ae72",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-paske-58af",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "easter",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-paske-ae72"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-paske-58af"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-postkontor-9d44",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-postkontor-d38b",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "post_office",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-postkontor-9d44"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-postkontor-d38b"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-rummet-9a80",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-rummet-ed2f",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "space",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-rummet-9a80"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-rummet-ed2f"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-rundt-i-huset-2c10",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-rundt-i-huset-c48f",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "around_the_house",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-rundt-i-huset-2c10"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-rundt-i-huset-c48f"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-skovdyr-b277",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-skovdyr-be1b",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "forest_creatures",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-skovdyr-b277"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-skovdyr-be1b"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-sommer-fe67",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "summer",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-sommer-fe67"
-  },
-  {
-   "slug": "find-genstandene-find-den-anderledes-strand-8ae5",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-strand-c946",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "beach",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-strand-8ae5"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-strand-c946"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-thanksgiving-5f2b",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-thanksgiving-6f3c",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "thanksgivinng",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-thanksgiving-5f2b"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-thanksgiving-6f3c"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-tilbehor-480b",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-tilbehor-41ce",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "accessories",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-tilbehor-480b"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-tilbehor-41ce"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-ting-der-flyver-cddd",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-ting-der-flyver-dd3d",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "things_that_fly",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-ting-der-flyver-cddd"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-ting-der-flyver-dd3d"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-toj-d23d",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-toj-24d5",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "clothing",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-toj-d23d"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-toj-24d5"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-traeer-4d58",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-traeer-4f8f",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "tree",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-traeer-4d58"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-traeer-4f8f"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-vaerktoj-18de",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-vaerktoj-0d3a",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "tools",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-vaerktoj-18de"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-vaerktoj-0d3a"
   },
   {
-   "slug": "find-genstandene-find-den-anderledes-vejr-54e6",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "weather",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-vejr-54e6"
-  },
-  {
-   "slug": "find-genstandene-find-den-anderledes-vinter-24e1",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "winter",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-vinter-24e1"
-  },
-  {
-   "slug": "find-genstandene-find-den-anderledes-zoodyr-876c",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "subtraktion-streg-over-zoodyr-c343",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "zoo_animals",
-   "level": "boernehaveklasse",
-   "deck": "find-genstandene-find-den-anderledes-zoodyr-876c"
+   "level": "1-klasse",
+   "deck": "subtraktion-streg-over-zoodyr-c343"
   }
  ]
 }

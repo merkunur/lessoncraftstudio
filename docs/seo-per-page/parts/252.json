@@ -2,635 +2,779 @@
  "part": 252,
  "locale": "sv",
  "classes": [
-  "more-less::image-image",
-  "more-less::image-number"
+  "pattern-train::null",
+  "pattern-worksheet::null"
  ],
  "splitOf": null,
- "count": 78,
+ "count": 96,
  "pages": [
   {
-   "slug": "mer-mindre-bild-bild-bageri-726a",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-aktiviteter-5c8e",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "activities",
+   "level": "forskola",
+   "deck": "monstertaget-aktiviteter-5c8e"
+  },
+  {
+   "slug": "monstertaget-bageri-b254",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "bakery",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-bageri-726a"
+   "deck": "monstertaget-bageri-b254"
   },
   {
-   "slug": "mer-mindre-bild-bild-blommor-9a55",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-blommor-7dcd",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "flowers",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-blommor-9a55"
+   "deck": "monstertaget-blommor-7dcd"
   },
   {
-   "slug": "mer-mindre-bild-bild-bondgardsdjur-1df3",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-bondgardsdjur-91a4",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "farm_animals",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-bondgardsdjur-1df3"
+   "deck": "monstertaget-bondgardsdjur-91a4"
   },
   {
-   "slug": "mer-mindre-bild-bild-camping-62ce",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-camping-e856",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "camping",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-camping-62ce"
+   "deck": "monstertaget-camping-e856"
   },
   {
-   "slug": "mer-mindre-bild-bild-dinosaurier-97a8",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-dinosaurier-4061",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "dinosaurs",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-dinosaurier-97a8"
+   "deck": "monstertaget-dinosaurier-4061"
   },
   {
-   "slug": "mer-mindre-bild-bild-djur-d347",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-djur-26f0",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "animals",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-djur-d347"
+   "deck": "monstertaget-djur-26f0"
   },
   {
-   "slug": "mer-mindre-bild-bild-djurparksdjur-b35b",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-djurparksdjur-89ec",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "zoo_animals",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-djurparksdjur-b35b"
+   "deck": "monstertaget-djurparksdjur-89ec"
   },
   {
-   "slug": "mer-mindre-bild-bild-efterratter-och-godis-664b",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-efterratter-och-godis-3ba1",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "desserts_and_sweets",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-efterratter-och-godis-664b"
+   "deck": "monstertaget-efterratter-och-godis-3ba1"
   },
   {
-   "slug": "mer-mindre-bild-bild-faglar-2-41e3",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-faglar-2-6a88",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "birds_2",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-faglar-2-41e3"
+   "deck": "monstertaget-faglar-2-6a88"
   },
   {
-   "slug": "mer-mindre-bild-bild-faglar-c9e5",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-faglar-f5db",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "birds",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-faglar-c9e5"
+   "deck": "monstertaget-faglar-f5db"
   },
   {
-   "slug": "mer-mindre-bild-bild-fordon-ff53",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-farger-5c25",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "colors",
+   "level": "forskola",
+   "deck": "monstertaget-farger-5c25"
+  },
+  {
+   "slug": "monstertaget-fordon-601f",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "vehicles",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-fordon-ff53"
+   "deck": "monstertaget-fordon-601f"
   },
   {
-   "slug": "mer-mindre-bild-bild-former-7f3e",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-former-61ea",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "shapes",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-former-7f3e"
+   "deck": "monstertaget-former-61ea"
   },
   {
-   "slug": "mer-mindre-bild-bild-frukost-8555",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-frukost-bf2c",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "breakfast",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-frukost-8555"
+   "deck": "monstertaget-frukost-bf2c"
   },
   {
-   "slug": "mer-mindre-bild-bild-frukter-42ad",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-frukter-14d5",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "fruits",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-frukter-42ad"
+   "deck": "monstertaget-frukter-14d5"
   },
   {
-   "slug": "mer-mindre-bild-bild-gronsaker-1cc0",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-gronsaker-4c19",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "vegetables",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-gronsaker-1cc0"
+   "deck": "monstertaget-gronsaker-4c19"
   },
   {
-   "slug": "mer-mindre-bild-bild-havsliv-9f58",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-havsliv-0548",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "ocean_life",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-havsliv-9f58"
+   "deck": "monstertaget-havsliv-0548"
   },
   {
-   "slug": "mer-mindre-bild-bild-husdjur-4257",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-husdjur-0c8d",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "pets",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-husdjur-4257"
+   "deck": "monstertaget-husdjur-0c8d"
   },
   {
-   "slug": "mer-mindre-bild-bild-i-snabbkopet-50a1",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-i-snabbkopet-7446",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "at_the_supermarket",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-i-snabbkopet-50a1"
+   "deck": "monstertaget-i-snabbkopet-7446"
   },
   {
-   "slug": "mer-mindre-bild-bild-insekter-och-kryp-160d",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-insekter-och-kryp-d92e",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "insects_and_bugs",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-insekter-och-kryp-160d"
+   "deck": "monstertaget-insekter-och-kryp-d92e"
   },
   {
-   "slug": "mer-mindre-bild-bild-jul-d812",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-jul-b13b",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "christmas",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-jul-d812"
+   "deck": "monstertaget-jul-b13b"
   },
   {
-   "slug": "mer-mindre-bild-bild-klader-817e",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-kanslor-6f05",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "emotions",
+   "level": "forskola",
+   "deck": "monstertaget-kanslor-6f05"
+  },
+  {
+   "slug": "monstertaget-klader-6e2f",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "clothing",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-klader-817e"
+   "deck": "monstertaget-klader-6e2f"
   },
   {
-   "slug": "mer-mindre-bild-bild-klassrum-bf1a",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-klassrum-2a0c",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "classroom",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-klassrum-bf1a"
+   "deck": "monstertaget-klassrum-2a0c"
   },
   {
-   "slug": "mer-mindre-bild-bild-koksredskap-d467",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-koksredskap-ddf1",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "kitchen_tools",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-koksredskap-d467"
+   "deck": "monstertaget-koksredskap-ddf1"
   },
   {
-   "slug": "mer-mindre-bild-bild-leksaker-d8a5",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-kroppsdelar-4bc3",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "forskola",
+   "deck": "monstertaget-kroppsdelar-4bc3"
+  },
+  {
+   "slug": "monstertaget-leksaker-0d6d",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "toys",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-leksaker-d8a5"
+   "deck": "monstertaget-leksaker-0d6d"
   },
   {
-   "slug": "mer-mindre-bild-bild-mobler-ac0f",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-mobler-bd5a",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "furniture",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-mobler-ac0f"
+   "deck": "monstertaget-mobler-bd5a"
   },
   {
-   "slug": "mer-mindre-bild-bild-musik-106b",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-musik-3801",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "music",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-musik-106b"
+   "deck": "monstertaget-musik-3801"
   },
   {
-   "slug": "mer-mindre-bild-bild-pask-839a",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-pask-2bcc",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "easter",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-pask-839a"
+   "deck": "monstertaget-pask-2bcc"
   },
   {
-   "slug": "mer-mindre-bild-bild-postkontor-f512",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-postkontor-f1ac",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "post_office",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-postkontor-f512"
+   "deck": "monstertaget-postkontor-f1ac"
   },
   {
-   "slug": "mer-mindre-bild-bild-runt-huset-39bf",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-reptiler-och-groddjur-b013",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "forskola",
+   "deck": "monstertaget-reptiler-och-groddjur-b013"
+  },
+  {
+   "slug": "monstertaget-runt-huset-17da",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "around_the_house",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-runt-huset-39bf"
+   "deck": "monstertaget-runt-huset-17da"
   },
   {
-   "slug": "mer-mindre-bild-bild-rymden-1a72",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-rymden-fd38",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "space",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-rymden-1a72"
+   "deck": "monstertaget-rymden-fd38"
   },
   {
-   "slug": "mer-mindre-bild-bild-saker-som-flyger-e0e3",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-saker-som-flyger-81a1",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "things_that_fly",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-saker-som-flyger-e0e3"
+   "deck": "monstertaget-saker-som-flyger-81a1"
   },
   {
-   "slug": "mer-mindre-bild-bild-sjukhus-fc91",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-sjukhus-475c",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "hospital",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-sjukhus-fc91"
+   "deck": "monstertaget-sjukhus-475c"
   },
   {
-   "slug": "mer-mindre-bild-bild-skogsdjur-1915",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-skogsdjur-2072",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "forest_creatures",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-skogsdjur-1915"
+   "deck": "monstertaget-skogsdjur-2072"
   },
   {
-   "slug": "mer-mindre-bild-bild-strand-47fc",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-sommar-6333",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "summer",
+   "level": "forskola",
+   "deck": "monstertaget-sommar-6333"
+  },
+  {
+   "slug": "monstertaget-strand-055c",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "beach",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-strand-47fc"
+   "deck": "monstertaget-strand-055c"
   },
   {
-   "slug": "mer-mindre-bild-bild-thanksgiving-9f0f",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-thanksgiving-1003",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "thanksgivinng",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-thanksgiving-9f0f"
+   "deck": "monstertaget-thanksgiving-1003"
   },
   {
-   "slug": "mer-mindre-bild-bild-tillbehor-1036",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-tillbehor-ae66",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "accessories",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-tillbehor-1036"
+   "deck": "monstertaget-tillbehor-ae66"
   },
   {
-   "slug": "mer-mindre-bild-bild-trad-4202",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-trad-5acb",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "tree",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-trad-4202"
+   "deck": "monstertaget-trad-5acb"
   },
   {
-   "slug": "mer-mindre-bild-bild-verktyg-97a2",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-vader-1a51",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "weather",
+   "level": "forskola",
+   "deck": "monstertaget-vader-1a51"
+  },
+  {
+   "slug": "monstertaget-var-6882",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "spring",
+   "level": "forskola",
+   "deck": "monstertaget-var-6882"
+  },
+  {
+   "slug": "monstertaget-verktyg-4b9a",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "tools",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-verktyg-97a2"
+   "deck": "monstertaget-verktyg-4b9a"
   },
   {
-   "slug": "mer-mindre-bild-bild-yrken-6a5a",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "monstertaget-vinter-695d",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "winter",
+   "level": "forskola",
+   "deck": "monstertaget-vinter-695d"
+  },
+  {
+   "slug": "monstertaget-yrken-f3cb",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "occupations",
    "level": "forskola",
-   "deck": "mer-mindre-bild-bild-yrken-6a5a"
+   "deck": "monstertaget-yrken-f3cb"
   },
   {
-   "slug": "mer-mindre-bild-nummer-bageri-a45d",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-aktiviteter-8c26",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "activities",
+   "level": "forskola",
+   "deck": "monsterblad-aktiviteter-8c26"
+  },
+  {
+   "slug": "monsterblad-bageri-eefd",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "bakery",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-bageri-a45d"
+   "deck": "monsterblad-bageri-eefd"
   },
   {
-   "slug": "mer-mindre-bild-nummer-blommor-2f5c",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-blommor-3ea1",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "flowers",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-blommor-2f5c"
+   "deck": "monsterblad-blommor-3ea1"
   },
   {
-   "slug": "mer-mindre-bild-nummer-bondgardsdjur-13f5",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-bondgardsdjur-9586",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "farm_animals",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-bondgardsdjur-13f5"
+   "deck": "monsterblad-bondgardsdjur-9586"
   },
   {
-   "slug": "mer-mindre-bild-nummer-camping-0d8d",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-camping-de5e",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "camping",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-camping-0d8d"
+   "deck": "monsterblad-camping-de5e"
   },
   {
-   "slug": "mer-mindre-bild-nummer-dinosaurier-3470",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-dinosaurier-32de",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "dinosaurs",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-dinosaurier-3470"
+   "deck": "monsterblad-dinosaurier-32de"
   },
   {
-   "slug": "mer-mindre-bild-nummer-djur-9b40",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-djur-145b",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "animals",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-djur-9b40"
+   "deck": "monsterblad-djur-145b"
   },
   {
-   "slug": "mer-mindre-bild-nummer-djurparksdjur-df95",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-djurparksdjur-bacb",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "zoo_animals",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-djurparksdjur-df95"
+   "deck": "monsterblad-djurparksdjur-bacb"
   },
   {
-   "slug": "mer-mindre-bild-nummer-efterratter-och-godis-0630",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-efterratter-och-godis-8649",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "desserts_and_sweets",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-efterratter-och-godis-0630"
+   "deck": "monsterblad-efterratter-och-godis-8649"
   },
   {
-   "slug": "mer-mindre-bild-nummer-faglar-2-7ac8",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-faglar-2-9d80",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "birds_2",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-faglar-2-7ac8"
+   "deck": "monsterblad-faglar-2-9d80"
   },
   {
-   "slug": "mer-mindre-bild-nummer-faglar-9e96",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-faglar-6f96",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "birds",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-faglar-9e96"
+   "deck": "monsterblad-faglar-6f96"
   },
   {
-   "slug": "mer-mindre-bild-nummer-fordon-9c10",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-farger-5712",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "colors",
+   "level": "forskola",
+   "deck": "monsterblad-farger-5712"
+  },
+  {
+   "slug": "monsterblad-fordon-5d2e",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "vehicles",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-fordon-9c10"
+   "deck": "monsterblad-fordon-5d2e"
   },
   {
-   "slug": "mer-mindre-bild-nummer-former-f7a4",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-former-1b1c",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "shapes",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-former-f7a4"
+   "deck": "monsterblad-former-1b1c"
   },
   {
-   "slug": "mer-mindre-bild-nummer-frukost-9919",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-frukost-5160",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "breakfast",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-frukost-9919"
+   "deck": "monsterblad-frukost-5160"
   },
   {
-   "slug": "mer-mindre-bild-nummer-frukter-5cba",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-frukter-50e5",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "fruits",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-frukter-5cba"
+   "deck": "monsterblad-frukter-50e5"
   },
   {
-   "slug": "mer-mindre-bild-nummer-gronsaker-df83",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-gronsaker-9135",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "vegetables",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-gronsaker-df83"
+   "deck": "monsterblad-gronsaker-9135"
   },
   {
-   "slug": "mer-mindre-bild-nummer-havsliv-f20b",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-havsliv-a903",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "ocean_life",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-havsliv-f20b"
+   "deck": "monsterblad-havsliv-a903"
   },
   {
-   "slug": "mer-mindre-bild-nummer-husdjur-ba77",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-husdjur-428d",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "pets",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-husdjur-ba77"
+   "deck": "monsterblad-husdjur-428d"
   },
   {
-   "slug": "mer-mindre-bild-nummer-i-snabbkopet-4484",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-i-snabbkopet-5c2e",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "at_the_supermarket",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-i-snabbkopet-4484"
+   "deck": "monsterblad-i-snabbkopet-5c2e"
   },
   {
-   "slug": "mer-mindre-bild-nummer-insekter-och-kryp-0be2",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-insekter-och-kryp-8392",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "insects_and_bugs",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-insekter-och-kryp-0be2"
+   "deck": "monsterblad-insekter-och-kryp-8392"
   },
   {
-   "slug": "mer-mindre-bild-nummer-jul-49bd",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-jul-f95a",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "christmas",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-jul-49bd"
+   "deck": "monsterblad-jul-f95a"
   },
   {
-   "slug": "mer-mindre-bild-nummer-klader-ca10",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-kanslor-66bc",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "emotions",
+   "level": "forskola",
+   "deck": "monsterblad-kanslor-66bc"
+  },
+  {
+   "slug": "monsterblad-klader-d108",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "clothing",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-klader-ca10"
+   "deck": "monsterblad-klader-d108"
   },
   {
-   "slug": "mer-mindre-bild-nummer-klassrum-a894",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-klassrum-6309",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "classroom",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-klassrum-a894"
+   "deck": "monsterblad-klassrum-6309"
   },
   {
-   "slug": "mer-mindre-bild-nummer-koksredskap-ada5",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-koksredskap-0e71",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "kitchen_tools",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-koksredskap-ada5"
+   "deck": "monsterblad-koksredskap-0e71"
   },
   {
-   "slug": "mer-mindre-bild-nummer-leksaker-5292",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-kroppsdelar-7b30",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "forskola",
+   "deck": "monsterblad-kroppsdelar-7b30"
+  },
+  {
+   "slug": "monsterblad-leksaker-70b7",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "toys",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-leksaker-5292"
+   "deck": "monsterblad-leksaker-70b7"
   },
   {
-   "slug": "mer-mindre-bild-nummer-mobler-b584",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-mobler-90e6",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "furniture",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-mobler-b584"
+   "deck": "monsterblad-mobler-90e6"
   },
   {
-   "slug": "mer-mindre-bild-nummer-musik-df5b",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-musik-64f4",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "music",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-musik-df5b"
+   "deck": "monsterblad-musik-64f4"
   },
   {
-   "slug": "mer-mindre-bild-nummer-pask-ed4c",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-pask-f4ff",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "easter",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-pask-ed4c"
+   "deck": "monsterblad-pask-f4ff"
   },
   {
-   "slug": "mer-mindre-bild-nummer-postkontor-f0b6",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-postkontor-2807",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "post_office",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-postkontor-f0b6"
+   "deck": "monsterblad-postkontor-2807"
   },
   {
-   "slug": "mer-mindre-bild-nummer-runt-huset-3763",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-reptiler-och-groddjur-cecc",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "forskola",
+   "deck": "monsterblad-reptiler-och-groddjur-cecc"
+  },
+  {
+   "slug": "monsterblad-runt-huset-ae1d",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "around_the_house",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-runt-huset-3763"
+   "deck": "monsterblad-runt-huset-ae1d"
   },
   {
-   "slug": "mer-mindre-bild-nummer-rymden-e783",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-rymden-5b81",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "space",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-rymden-e783"
+   "deck": "monsterblad-rymden-5b81"
   },
   {
-   "slug": "mer-mindre-bild-nummer-saker-som-flyger-4b99",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-saker-som-flyger-1d79",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "things_that_fly",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-saker-som-flyger-4b99"
+   "deck": "monsterblad-saker-som-flyger-1d79"
   },
   {
-   "slug": "mer-mindre-bild-nummer-sjukhus-47e2",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-sjukhus-bfce",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "hospital",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-sjukhus-47e2"
+   "deck": "monsterblad-sjukhus-bfce"
   },
   {
-   "slug": "mer-mindre-bild-nummer-skogsdjur-2e93",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-skogsdjur-6915",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "forest_creatures",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-skogsdjur-2e93"
+   "deck": "monsterblad-skogsdjur-6915"
   },
   {
-   "slug": "mer-mindre-bild-nummer-strand-59eb",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-sommar-ce15",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "summer",
+   "level": "forskola",
+   "deck": "monsterblad-sommar-ce15"
+  },
+  {
+   "slug": "monsterblad-strand-853e",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "beach",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-strand-59eb"
+   "deck": "monsterblad-strand-853e"
   },
   {
-   "slug": "mer-mindre-bild-nummer-thanksgiving-9141",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-thanksgiving-2478",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "thanksgivinng",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-thanksgiving-9141"
+   "deck": "monsterblad-thanksgiving-2478"
   },
   {
-   "slug": "mer-mindre-bild-nummer-tillbehor-0bc9",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-tillbehor-5f8a",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "accessories",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-tillbehor-0bc9"
+   "deck": "monsterblad-tillbehor-5f8a"
   },
   {
-   "slug": "mer-mindre-bild-nummer-trad-fac5",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-trad-92cd",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "tree",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-trad-fac5"
+   "deck": "monsterblad-trad-92cd"
   },
   {
-   "slug": "mer-mindre-bild-nummer-verktyg-a82e",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-vader-c4a9",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "weather",
+   "level": "forskola",
+   "deck": "monsterblad-vader-c4a9"
+  },
+  {
+   "slug": "monsterblad-var-d54c",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "spring",
+   "level": "forskola",
+   "deck": "monsterblad-var-d54c"
+  },
+  {
+   "slug": "monsterblad-verktyg-d7ae",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "tools",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-verktyg-a82e"
+   "deck": "monsterblad-verktyg-d7ae"
   },
   {
-   "slug": "mer-mindre-bild-nummer-yrken-223d",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "monsterblad-vinter-54e6",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "winter",
+   "level": "forskola",
+   "deck": "monsterblad-vinter-54e6"
+  },
+  {
+   "slug": "monsterblad-yrken-a137",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "occupations",
    "level": "forskola",
-   "deck": "mer-mindre-bild-nummer-yrken-223d"
+   "deck": "monsterblad-yrken-a137"
   }
  ]
 }

@@ -7,578 +7,578 @@
  "splitOf": {
   "class": "crossword::null",
   "total": 497,
-  "chunk": 6,
+  "chunk": 1,
   "chunks": 7
  },
  "count": 71,
  "pages": [
   {
-   "slug": "norwegian-crossword-thanksgiving-c609",
+   "slug": "crossword-4th-of-july",
+   "type": "crossword",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "grade-2",
+   "deck": "crossword-4th-of-july"
+  },
+  {
+   "slug": "crossword-accessories",
+   "type": "crossword",
+   "mode": null,
+   "theme": "accessories",
+   "level": "grade-2",
+   "deck": "crossword-accessories"
+  },
+  {
+   "slug": "crossword-activities",
+   "type": "crossword",
+   "mode": null,
+   "theme": "activities",
+   "level": "grade-2",
+   "deck": "crossword-activities"
+  },
+  {
+   "slug": "crossword-animals",
+   "type": "crossword",
+   "mode": null,
+   "theme": "animals",
+   "level": "grade-2",
+   "deck": "crossword-animals"
+  },
+  {
+   "slug": "crossword-around-the-house",
+   "type": "crossword",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "grade-2",
+   "deck": "crossword-around-the-house"
+  },
+  {
+   "slug": "crossword-at-the-supermarket",
+   "type": "crossword",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "grade-2",
+   "deck": "crossword-at-the-supermarket"
+  },
+  {
+   "slug": "crossword-bakery",
+   "type": "crossword",
+   "mode": null,
+   "theme": "bakery",
+   "level": "grade-2",
+   "deck": "crossword-bakery"
+  },
+  {
+   "slug": "crossword-beach",
+   "type": "crossword",
+   "mode": null,
+   "theme": "beach",
+   "level": "grade-2",
+   "deck": "crossword-beach"
+  },
+  {
+   "slug": "crossword-body-parts",
+   "type": "crossword",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "grade-2",
+   "deck": "crossword-body-parts"
+  },
+  {
+   "slug": "crossword-breakfast",
+   "type": "crossword",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "grade-2",
+   "deck": "crossword-breakfast"
+  },
+  {
+   "slug": "crossword-camping",
+   "type": "crossword",
+   "mode": null,
+   "theme": "camping",
+   "level": "grade-2",
+   "deck": "crossword-camping"
+  },
+  {
+   "slug": "crossword-christmas",
+   "type": "crossword",
+   "mode": null,
+   "theme": "christmas",
+   "level": "grade-2",
+   "deck": "crossword-christmas"
+  },
+  {
+   "slug": "crossword-classroom",
+   "type": "crossword",
+   "mode": null,
+   "theme": "classroom",
+   "level": "grade-2",
+   "deck": "crossword-classroom"
+  },
+  {
+   "slug": "crossword-clothing",
+   "type": "crossword",
+   "mode": null,
+   "theme": "clothing",
+   "level": "grade-2",
+   "deck": "crossword-clothing"
+  },
+  {
+   "slug": "crossword-colors",
+   "type": "crossword",
+   "mode": null,
+   "theme": "colors",
+   "level": "grade-2",
+   "deck": "crossword-colors"
+  },
+  {
+   "slug": "crossword-desserts-and-sweets",
+   "type": "crossword",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "grade-2",
+   "deck": "crossword-desserts-and-sweets"
+  },
+  {
+   "slug": "crossword-easter",
+   "type": "crossword",
+   "mode": null,
+   "theme": "easter",
+   "level": "grade-2",
+   "deck": "crossword-easter"
+  },
+  {
+   "slug": "crossword-emotions",
+   "type": "crossword",
+   "mode": null,
+   "theme": "emotions",
+   "level": "grade-2",
+   "deck": "crossword-emotions"
+  },
+  {
+   "slug": "crossword-farm-animals",
+   "type": "crossword",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "grade-2",
+   "deck": "crossword-farm-animals"
+  },
+  {
+   "slug": "crossword-forest-creatures",
+   "type": "crossword",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "grade-2",
+   "deck": "crossword-forest-creatures"
+  },
+  {
+   "slug": "crossword-fruits",
+   "type": "crossword",
+   "mode": null,
+   "theme": "fruits",
+   "level": "grade-2",
+   "deck": "crossword-fruits"
+  },
+  {
+   "slug": "crossword-furniture",
+   "type": "crossword",
+   "mode": null,
+   "theme": "furniture",
+   "level": "grade-2",
+   "deck": "crossword-furniture"
+  },
+  {
+   "slug": "crossword-hospital",
+   "type": "crossword",
+   "mode": null,
+   "theme": "hospital",
+   "level": "grade-2",
+   "deck": "crossword-hospital"
+  },
+  {
+   "slug": "crossword-insects-and-bugs",
+   "type": "crossword",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "grade-2",
+   "deck": "crossword-insects-and-bugs"
+  },
+  {
+   "slug": "crossword-kitchen-tools",
+   "type": "crossword",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "grade-2",
+   "deck": "crossword-kitchen-tools"
+  },
+  {
+   "slug": "crossword-music",
+   "type": "crossword",
+   "mode": null,
+   "theme": "music",
+   "level": "grade-2",
+   "deck": "crossword-music"
+  },
+  {
+   "slug": "crossword-occupations",
+   "type": "crossword",
+   "mode": null,
+   "theme": "occupations",
+   "level": "grade-2",
+   "deck": "crossword-occupations"
+  },
+  {
+   "slug": "crossword-ocean-life",
+   "type": "crossword",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "grade-2",
+   "deck": "crossword-ocean-life"
+  },
+  {
+   "slug": "crossword-pets",
+   "type": "crossword",
+   "mode": null,
+   "theme": "pets",
+   "level": "grade-2",
+   "deck": "crossword-pets"
+  },
+  {
+   "slug": "crossword-post-office",
+   "type": "crossword",
+   "mode": null,
+   "theme": "post_office",
+   "level": "grade-2",
+   "deck": "crossword-post-office"
+  },
+  {
+   "slug": "crossword-reptiles-and-amphibians",
+   "type": "crossword",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "grade-2",
+   "deck": "crossword-reptiles-and-amphibians"
+  },
+  {
+   "slug": "crossword-shapes",
+   "type": "crossword",
+   "mode": null,
+   "theme": "shapes",
+   "level": "grade-2",
+   "deck": "crossword-shapes"
+  },
+  {
+   "slug": "crossword-space",
+   "type": "crossword",
+   "mode": null,
+   "theme": "space",
+   "level": "grade-2",
+   "deck": "crossword-space"
+  },
+  {
+   "slug": "crossword-spring",
+   "type": "crossword",
+   "mode": null,
+   "theme": "spring",
+   "level": "grade-2",
+   "deck": "crossword-spring"
+  },
+  {
+   "slug": "crossword-summer",
+   "type": "crossword",
+   "mode": null,
+   "theme": "summer",
+   "level": "grade-2",
+   "deck": "crossword-summer"
+  },
+  {
+   "slug": "crossword-thanksgiving",
    "type": "crossword",
    "mode": null,
    "theme": "thanksgivinng",
-   "level": "language-beginner",
-   "deck": "norwegian-crossword-thanksgiving-c609"
+   "level": "grade-2",
+   "deck": "crossword-thanksgiving"
   },
   {
-   "slug": "norwegian-crossword-things-that-fly-837e",
+   "slug": "crossword-things-that-fly",
    "type": "crossword",
    "mode": null,
    "theme": "things_that_fly",
-   "level": "language-beginner",
-   "deck": "norwegian-crossword-things-that-fly-837e"
+   "level": "grade-2",
+   "deck": "crossword-things-that-fly"
   },
   {
-   "slug": "norwegian-crossword-tools-ea16",
+   "slug": "crossword-tools",
    "type": "crossword",
    "mode": null,
    "theme": "tools",
-   "level": "language-beginner",
-   "deck": "norwegian-crossword-tools-ea16"
+   "level": "grade-2",
+   "deck": "crossword-tools"
   },
   {
-   "slug": "norwegian-crossword-toys-de90",
+   "slug": "crossword-toys",
    "type": "crossword",
    "mode": null,
    "theme": "toys",
-   "level": "language-beginner",
-   "deck": "norwegian-crossword-toys-de90"
+   "level": "grade-2",
+   "deck": "crossword-toys"
   },
   {
-   "slug": "norwegian-crossword-vegetables-24ff",
+   "slug": "crossword-vegetables",
    "type": "crossword",
    "mode": null,
    "theme": "vegetables",
-   "level": "language-beginner",
-   "deck": "norwegian-crossword-vegetables-24ff"
+   "level": "grade-2",
+   "deck": "crossword-vegetables"
   },
   {
-   "slug": "norwegian-crossword-vehicles-f49a",
+   "slug": "crossword-vehicles",
    "type": "crossword",
    "mode": null,
    "theme": "vehicles",
-   "level": "language-beginner",
-   "deck": "norwegian-crossword-vehicles-f49a"
+   "level": "grade-2",
+   "deck": "crossword-vehicles"
   },
   {
-   "slug": "norwegian-crossword-weather-7557",
+   "slug": "crossword-weather",
    "type": "crossword",
    "mode": null,
    "theme": "weather",
-   "level": "language-beginner",
-   "deck": "norwegian-crossword-weather-7557"
+   "level": "grade-2",
+   "deck": "crossword-weather"
   },
   {
-   "slug": "norwegian-crossword-winter-f9db",
+   "slug": "crossword-winter",
    "type": "crossword",
    "mode": null,
    "theme": "winter",
-   "level": "language-beginner",
-   "deck": "norwegian-crossword-winter-f9db"
+   "level": "grade-2",
+   "deck": "crossword-winter"
   },
   {
-   "slug": "norwegian-crossword-zoo-animals-8329",
+   "slug": "crossword-zoo-animals",
    "type": "crossword",
    "mode": null,
    "theme": "zoo_animals",
-   "level": "language-beginner",
-   "deck": "norwegian-crossword-zoo-animals-8329"
+   "level": "grade-2",
+   "deck": "crossword-zoo-animals"
   },
   {
-   "slug": "portuguese-crossword-4th-of-july-52a6",
+   "slug": "danish-crossword-4th-of-july-4c02",
    "type": "crossword",
    "mode": null,
    "theme": "4th_of_july",
    "level": "language-beginner",
-   "deck": "portuguese-crossword-4th-of-july-52a6"
+   "deck": "danish-crossword-4th-of-july-4c02"
   },
   {
-   "slug": "portuguese-crossword-accessories-306c",
+   "slug": "danish-crossword-accessories-de0c",
    "type": "crossword",
    "mode": null,
    "theme": "accessories",
    "level": "language-beginner",
-   "deck": "portuguese-crossword-accessories-306c"
+   "deck": "danish-crossword-accessories-de0c"
   },
   {
-   "slug": "portuguese-crossword-activities-8da4",
+   "slug": "danish-crossword-activities-ba92",
    "type": "crossword",
    "mode": null,
    "theme": "activities",
    "level": "language-beginner",
-   "deck": "portuguese-crossword-activities-8da4"
+   "deck": "danish-crossword-activities-ba92"
   },
   {
-   "slug": "portuguese-crossword-animals-386f",
+   "slug": "danish-crossword-animals-eda8",
    "type": "crossword",
    "mode": null,
    "theme": "animals",
    "level": "language-beginner",
-   "deck": "portuguese-crossword-animals-386f"
+   "deck": "danish-crossword-animals-eda8"
   },
   {
-   "slug": "portuguese-crossword-around-the-house-48b7",
+   "slug": "danish-crossword-around-the-house-829d",
    "type": "crossword",
    "mode": null,
    "theme": "around_the_house",
    "level": "language-beginner",
-   "deck": "portuguese-crossword-around-the-house-48b7"
+   "deck": "danish-crossword-around-the-house-829d"
   },
   {
-   "slug": "portuguese-crossword-at-the-supermarket-bf5a",
+   "slug": "danish-crossword-at-the-supermarket-44ed",
    "type": "crossword",
    "mode": null,
    "theme": "at_the_supermarket",
    "level": "language-beginner",
-   "deck": "portuguese-crossword-at-the-supermarket-bf5a"
+   "deck": "danish-crossword-at-the-supermarket-44ed"
   },
   {
-   "slug": "portuguese-crossword-bakery-eee0",
+   "slug": "danish-crossword-bakery-da2b",
    "type": "crossword",
    "mode": null,
    "theme": "bakery",
    "level": "language-beginner",
-   "deck": "portuguese-crossword-bakery-eee0"
+   "deck": "danish-crossword-bakery-da2b"
   },
   {
-   "slug": "portuguese-crossword-beach-a10f",
+   "slug": "danish-crossword-beach-95e3",
    "type": "crossword",
    "mode": null,
    "theme": "beach",
    "level": "language-beginner",
-   "deck": "portuguese-crossword-beach-a10f"
+   "deck": "danish-crossword-beach-95e3"
   },
   {
-   "slug": "portuguese-crossword-birds-19c7",
+   "slug": "danish-crossword-birds-2-8840",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "language-beginner",
+   "deck": "danish-crossword-birds-2-8840"
+  },
+  {
+   "slug": "danish-crossword-birds-dafa",
    "type": "crossword",
    "mode": null,
    "theme": "birds",
    "level": "language-beginner",
-   "deck": "portuguese-crossword-birds-19c7"
+   "deck": "danish-crossword-birds-dafa"
   },
   {
-   "slug": "portuguese-crossword-birds-2-8aa5",
-   "type": "crossword",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "language-beginner",
-   "deck": "portuguese-crossword-birds-2-8aa5"
-  },
-  {
-   "slug": "portuguese-crossword-body-parts-7820",
+   "slug": "danish-crossword-body-parts-cc61",
    "type": "crossword",
    "mode": null,
    "theme": "body_parts",
    "level": "language-beginner",
-   "deck": "portuguese-crossword-body-parts-7820"
+   "deck": "danish-crossword-body-parts-cc61"
   },
   {
-   "slug": "portuguese-crossword-breakfast-48b7",
+   "slug": "danish-crossword-breakfast-8123",
    "type": "crossword",
    "mode": null,
    "theme": "breakfast",
    "level": "language-beginner",
-   "deck": "portuguese-crossword-breakfast-48b7"
+   "deck": "danish-crossword-breakfast-8123"
   },
   {
-   "slug": "portuguese-crossword-camping-bad0",
+   "slug": "danish-crossword-camping-6eee",
    "type": "crossword",
    "mode": null,
    "theme": "camping",
    "level": "language-beginner",
-   "deck": "portuguese-crossword-camping-bad0"
+   "deck": "danish-crossword-camping-6eee"
   },
   {
-   "slug": "portuguese-crossword-christmas-b8a3",
+   "slug": "danish-crossword-christmas-e1c6",
    "type": "crossword",
    "mode": null,
    "theme": "christmas",
    "level": "language-beginner",
-   "deck": "portuguese-crossword-christmas-b8a3"
+   "deck": "danish-crossword-christmas-e1c6"
   },
   {
-   "slug": "portuguese-crossword-classroom-046a",
+   "slug": "danish-crossword-classroom-962b",
    "type": "crossword",
    "mode": null,
    "theme": "classroom",
    "level": "language-beginner",
-   "deck": "portuguese-crossword-classroom-046a"
+   "deck": "danish-crossword-classroom-962b"
   },
   {
-   "slug": "portuguese-crossword-clothing-15a8",
+   "slug": "danish-crossword-clothing-613b",
    "type": "crossword",
    "mode": null,
    "theme": "clothing",
    "level": "language-beginner",
-   "deck": "portuguese-crossword-clothing-15a8"
+   "deck": "danish-crossword-clothing-613b"
   },
   {
-   "slug": "portuguese-crossword-colors-eb80",
+   "slug": "danish-crossword-colors-f944",
    "type": "crossword",
    "mode": null,
    "theme": "colors",
    "level": "language-beginner",
-   "deck": "portuguese-crossword-colors-eb80"
+   "deck": "danish-crossword-colors-f944"
   },
   {
-   "slug": "portuguese-crossword-desserts-and-sweets-c38a",
+   "slug": "danish-crossword-desserts-and-sweets-9cb9",
    "type": "crossword",
    "mode": null,
    "theme": "desserts_and_sweets",
    "level": "language-beginner",
-   "deck": "portuguese-crossword-desserts-and-sweets-c38a"
+   "deck": "danish-crossword-desserts-and-sweets-9cb9"
   },
   {
-   "slug": "portuguese-crossword-easter-4d5d",
+   "slug": "danish-crossword-easter-8c0d",
    "type": "crossword",
    "mode": null,
    "theme": "easter",
    "level": "language-beginner",
-   "deck": "portuguese-crossword-easter-4d5d"
+   "deck": "danish-crossword-easter-8c0d"
   },
   {
-   "slug": "portuguese-crossword-emotions-a3a1",
+   "slug": "danish-crossword-emotions-cf35",
    "type": "crossword",
    "mode": null,
    "theme": "emotions",
    "level": "language-beginner",
-   "deck": "portuguese-crossword-emotions-a3a1"
+   "deck": "danish-crossword-emotions-cf35"
   },
   {
-   "slug": "portuguese-crossword-farm-animals-48da",
+   "slug": "danish-crossword-farm-animals-80d7",
    "type": "crossword",
    "mode": null,
    "theme": "farm_animals",
    "level": "language-beginner",
-   "deck": "portuguese-crossword-farm-animals-48da"
+   "deck": "danish-crossword-farm-animals-80d7"
   },
   {
-   "slug": "portuguese-crossword-flowers-86a5",
+   "slug": "danish-crossword-flowers-9567",
    "type": "crossword",
    "mode": null,
    "theme": "flowers",
    "level": "language-beginner",
-   "deck": "portuguese-crossword-flowers-86a5"
+   "deck": "danish-crossword-flowers-9567"
   },
   {
-   "slug": "portuguese-crossword-forest-creatures-f633",
+   "slug": "danish-crossword-forest-creatures-5b9d",
    "type": "crossword",
    "mode": null,
    "theme": "forest_creatures",
    "level": "language-beginner",
-   "deck": "portuguese-crossword-forest-creatures-f633"
+   "deck": "danish-crossword-forest-creatures-5b9d"
   },
   {
-   "slug": "portuguese-crossword-fruits-07fb",
+   "slug": "danish-crossword-fruits-461c",
    "type": "crossword",
    "mode": null,
    "theme": "fruits",
    "level": "language-beginner",
-   "deck": "portuguese-crossword-fruits-07fb"
+   "deck": "danish-crossword-fruits-461c"
   },
   {
-   "slug": "portuguese-crossword-furniture-4677",
+   "slug": "danish-crossword-furniture-6a27",
    "type": "crossword",
    "mode": null,
    "theme": "furniture",
    "level": "language-beginner",
-   "deck": "portuguese-crossword-furniture-4677"
+   "deck": "danish-crossword-furniture-6a27"
   },
   {
-   "slug": "portuguese-crossword-hospital-b9a0",
+   "slug": "danish-crossword-hospital-daf8",
    "type": "crossword",
    "mode": null,
    "theme": "hospital",
    "level": "language-beginner",
-   "deck": "portuguese-crossword-hospital-b9a0"
+   "deck": "danish-crossword-hospital-daf8"
   },
   {
-   "slug": "portuguese-crossword-insects-and-bugs-c4a7",
+   "slug": "danish-crossword-insects-and-bugs-6985",
    "type": "crossword",
    "mode": null,
    "theme": "insects_and_bugs",
    "level": "language-beginner",
-   "deck": "portuguese-crossword-insects-and-bugs-c4a7"
-  },
-  {
-   "slug": "portuguese-crossword-kitchen-tools-0369",
-   "type": "crossword",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "language-beginner",
-   "deck": "portuguese-crossword-kitchen-tools-0369"
-  },
-  {
-   "slug": "portuguese-crossword-music-a9b1",
-   "type": "crossword",
-   "mode": null,
-   "theme": "music",
-   "level": "language-beginner",
-   "deck": "portuguese-crossword-music-a9b1"
-  },
-  {
-   "slug": "portuguese-crossword-occupations-e1c9",
-   "type": "crossword",
-   "mode": null,
-   "theme": "occupations",
-   "level": "language-beginner",
-   "deck": "portuguese-crossword-occupations-e1c9"
-  },
-  {
-   "slug": "portuguese-crossword-ocean-life-9ae1",
-   "type": "crossword",
-   "mode": null,
-   "theme": "ocean_life",
-   "level": "language-beginner",
-   "deck": "portuguese-crossword-ocean-life-9ae1"
-  },
-  {
-   "slug": "portuguese-crossword-shapes-e318",
-   "type": "crossword",
-   "mode": null,
-   "theme": "shapes",
-   "level": "language-beginner",
-   "deck": "portuguese-crossword-shapes-e318"
-  },
-  {
-   "slug": "portuguese-crossword-space-4fd5",
-   "type": "crossword",
-   "mode": null,
-   "theme": "space",
-   "level": "language-beginner",
-   "deck": "portuguese-crossword-space-4fd5"
-  },
-  {
-   "slug": "portuguese-crossword-spring-e93a",
-   "type": "crossword",
-   "mode": null,
-   "theme": "spring",
-   "level": "language-beginner",
-   "deck": "portuguese-crossword-spring-e93a"
-  },
-  {
-   "slug": "portuguese-crossword-summer-fb47",
-   "type": "crossword",
-   "mode": null,
-   "theme": "summer",
-   "level": "language-beginner",
-   "deck": "portuguese-crossword-summer-fb47"
-  },
-  {
-   "slug": "portuguese-crossword-thanksgiving-81a6",
-   "type": "crossword",
-   "mode": null,
-   "theme": "thanksgivinng",
-   "level": "language-beginner",
-   "deck": "portuguese-crossword-thanksgiving-81a6"
-  },
-  {
-   "slug": "portuguese-crossword-things-that-fly-9c33",
-   "type": "crossword",
-   "mode": null,
-   "theme": "things_that_fly",
-   "level": "language-beginner",
-   "deck": "portuguese-crossword-things-that-fly-9c33"
-  },
-  {
-   "slug": "portuguese-crossword-tools-3ca7",
-   "type": "crossword",
-   "mode": null,
-   "theme": "tools",
-   "level": "language-beginner",
-   "deck": "portuguese-crossword-tools-3ca7"
-  },
-  {
-   "slug": "portuguese-crossword-toys-80ef",
-   "type": "crossword",
-   "mode": null,
-   "theme": "toys",
-   "level": "language-beginner",
-   "deck": "portuguese-crossword-toys-80ef"
-  },
-  {
-   "slug": "portuguese-crossword-vegetables-12aa",
-   "type": "crossword",
-   "mode": null,
-   "theme": "vegetables",
-   "level": "language-beginner",
-   "deck": "portuguese-crossword-vegetables-12aa"
-  },
-  {
-   "slug": "portuguese-crossword-vehicles-0652",
-   "type": "crossword",
-   "mode": null,
-   "theme": "vehicles",
-   "level": "language-beginner",
-   "deck": "portuguese-crossword-vehicles-0652"
-  },
-  {
-   "slug": "portuguese-crossword-weather-22e6",
-   "type": "crossword",
-   "mode": null,
-   "theme": "weather",
-   "level": "language-beginner",
-   "deck": "portuguese-crossword-weather-22e6"
-  },
-  {
-   "slug": "portuguese-crossword-winter-72c5",
-   "type": "crossword",
-   "mode": null,
-   "theme": "winter",
-   "level": "language-beginner",
-   "deck": "portuguese-crossword-winter-72c5"
-  },
-  {
-   "slug": "portuguese-crossword-zoo-animals-f6c4",
-   "type": "crossword",
-   "mode": null,
-   "theme": "zoo_animals",
-   "level": "language-beginner",
-   "deck": "portuguese-crossword-zoo-animals-f6c4"
-  },
-  {
-   "slug": "spanish-crossword-4th-of-july-7835",
-   "type": "crossword",
-   "mode": null,
-   "theme": "4th_of_july",
-   "level": "language-beginner",
-   "deck": "spanish-crossword-4th-of-july-7835"
-  },
-  {
-   "slug": "spanish-crossword-accessories-8a57",
-   "type": "crossword",
-   "mode": null,
-   "theme": "accessories",
-   "level": "language-beginner",
-   "deck": "spanish-crossword-accessories-8a57"
-  },
-  {
-   "slug": "spanish-crossword-activities-d190",
-   "type": "crossword",
-   "mode": null,
-   "theme": "activities",
-   "level": "language-beginner",
-   "deck": "spanish-crossword-activities-d190"
-  },
-  {
-   "slug": "spanish-crossword-animals-f17b",
-   "type": "crossword",
-   "mode": null,
-   "theme": "animals",
-   "level": "language-beginner",
-   "deck": "spanish-crossword-animals-f17b"
-  },
-  {
-   "slug": "spanish-crossword-around-the-house-4298",
-   "type": "crossword",
-   "mode": null,
-   "theme": "around_the_house",
-   "level": "language-beginner",
-   "deck": "spanish-crossword-around-the-house-4298"
-  },
-  {
-   "slug": "spanish-crossword-at-the-supermarket-75ed",
-   "type": "crossword",
-   "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "language-beginner",
-   "deck": "spanish-crossword-at-the-supermarket-75ed"
-  },
-  {
-   "slug": "spanish-crossword-bakery-31d1",
-   "type": "crossword",
-   "mode": null,
-   "theme": "bakery",
-   "level": "language-beginner",
-   "deck": "spanish-crossword-bakery-31d1"
-  },
-  {
-   "slug": "spanish-crossword-beach-5f63",
-   "type": "crossword",
-   "mode": null,
-   "theme": "beach",
-   "level": "language-beginner",
-   "deck": "spanish-crossword-beach-5f63"
-  },
-  {
-   "slug": "spanish-crossword-birds-2-6455",
-   "type": "crossword",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "language-beginner",
-   "deck": "spanish-crossword-birds-2-6455"
-  },
-  {
-   "slug": "spanish-crossword-body-parts-160c",
-   "type": "crossword",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "language-beginner",
-   "deck": "spanish-crossword-body-parts-160c"
-  },
-  {
-   "slug": "spanish-crossword-breakfast-8d71",
-   "type": "crossword",
-   "mode": null,
-   "theme": "breakfast",
-   "level": "language-beginner",
-   "deck": "spanish-crossword-breakfast-8d71"
-  },
-  {
-   "slug": "spanish-crossword-camping-4e0d",
-   "type": "crossword",
-   "mode": null,
-   "theme": "camping",
-   "level": "language-beginner",
-   "deck": "spanish-crossword-camping-4e0d"
-  },
-  {
-   "slug": "spanish-crossword-christmas-4652",
-   "type": "crossword",
-   "mode": null,
-   "theme": "christmas",
-   "level": "language-beginner",
-   "deck": "spanish-crossword-christmas-4652"
-  },
-  {
-   "slug": "spanish-crossword-classroom-369b",
-   "type": "crossword",
-   "mode": null,
-   "theme": "classroom",
-   "level": "language-beginner",
-   "deck": "spanish-crossword-classroom-369b"
-  },
-  {
-   "slug": "spanish-crossword-clothing-4f28",
-   "type": "crossword",
-   "mode": null,
-   "theme": "clothing",
-   "level": "language-beginner",
-   "deck": "spanish-crossword-clothing-4f28"
-  },
-  {
-   "slug": "spanish-crossword-colors-4ba9",
-   "type": "crossword",
-   "mode": null,
-   "theme": "colors",
-   "level": "language-beginner",
-   "deck": "spanish-crossword-colors-4ba9"
-  },
-  {
-   "slug": "spanish-crossword-desserts-and-sweets-a042",
-   "type": "crossword",
-   "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "language-beginner",
-   "deck": "spanish-crossword-desserts-and-sweets-a042"
-  },
-  {
-   "slug": "spanish-crossword-easter-82fd",
-   "type": "crossword",
-   "mode": null,
-   "theme": "easter",
-   "level": "language-beginner",
-   "deck": "spanish-crossword-easter-82fd"
+   "deck": "danish-crossword-insects-and-bugs-6985"
   }
  ]
 }

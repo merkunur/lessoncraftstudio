@@ -2,731 +2,635 @@
  "part": 310,
  "locale": "no",
  "classes": [
-  "missing-pieces::one-missing",
-  "shadow-match::find-shadow"
+  "big-small::orderAsc",
+  "alphabet-train::letter-hint"
  ],
  "splitOf": null,
- "count": 90,
+ "count": 78,
  "pages": [
   {
-   "slug": "manglende-brikker-1-manglende-brikke-aktiviteter-ed47",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "activities",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-aktiviteter-ed47"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-bakeri-ecf6",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "stor-liten-stigende-rekkefolge-bakeri-e1d3",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "bakery",
    "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-bakeri-ecf6"
+   "deck": "stor-liten-stigende-rekkefolge-bakeri-e1d3"
   },
   {
-   "slug": "manglende-brikker-1-manglende-brikke-blomster-71fe",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "stor-liten-stigende-rekkefolge-blomster-9b4b",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "flowers",
    "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-blomster-71fe"
+   "deck": "stor-liten-stigende-rekkefolge-blomster-9b4b"
   },
   {
-   "slug": "manglende-brikker-1-manglende-brikke-camping-9d1d",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "stor-liten-stigende-rekkefolge-camping-2b47",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "camping",
    "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-camping-9d1d"
+   "deck": "stor-liten-stigende-rekkefolge-camping-2b47"
   },
   {
-   "slug": "manglende-brikker-1-manglende-brikke-desserter-og-godteri-5347",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "stor-liten-stigende-rekkefolge-desserter-og-godteri-3e41",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "desserts_and_sweets",
    "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-desserter-og-godteri-5347"
+   "deck": "stor-liten-stigende-rekkefolge-desserter-og-godteri-3e41"
   },
   {
-   "slug": "manglende-brikker-1-manglende-brikke-dinosaurer-d01a",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "stor-liten-stigende-rekkefolge-dinosaurer-e107",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "dinosaurs",
    "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-dinosaurer-d01a"
+   "deck": "stor-liten-stigende-rekkefolge-dinosaurer-e107"
   },
   {
-   "slug": "manglende-brikker-1-manglende-brikke-dyr-fc47",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "stor-liten-stigende-rekkefolge-dyr-a43f",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "animals",
    "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-dyr-fc47"
+   "deck": "stor-liten-stigende-rekkefolge-dyr-a43f"
   },
   {
-   "slug": "manglende-brikker-1-manglende-brikke-dyrehagedyr-a257",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "stor-liten-stigende-rekkefolge-dyrehagedyr-15b8",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "zoo_animals",
    "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-dyrehagedyr-a257"
+   "deck": "stor-liten-stigende-rekkefolge-dyrehagedyr-15b8"
   },
   {
-   "slug": "manglende-brikker-1-manglende-brikke-folelser-47b1",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "emotions",
+   "slug": "stor-liten-stigende-rekkefolge-former-51fc",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "shapes",
    "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-folelser-47b1"
+   "deck": "stor-liten-stigende-rekkefolge-former-51fc"
   },
   {
-   "slug": "manglende-brikker-1-manglende-brikke-frokost-bd96",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "stor-liten-stigende-rekkefolge-frokost-3b48",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "breakfast",
    "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-frokost-bd96"
+   "deck": "stor-liten-stigende-rekkefolge-frokost-3b48"
   },
   {
-   "slug": "manglende-brikker-1-manglende-brikke-fugler-2-210c",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "birds_2",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-fugler-2-210c"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-fugler-37b4",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "birds",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-fugler-37b4"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-gardsdyr-f921",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "farm_animals",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-gardsdyr-f921"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-gronnsaker-5689",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "vegetables",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-gronnsaker-5689"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-havliv-90f6",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "ocean_life",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-havliv-90f6"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-i-supermarkedet-dbfb",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "at_the_supermarket",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-i-supermarkedet-dbfb"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-insekter-og-kryp-47ec",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "insects_and_bugs",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-insekter-og-kryp-47ec"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-jul-2504",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "christmas",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-jul-2504"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-kjaeledyr-74b4",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "pets",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-kjaeledyr-74b4"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-kjokkenredskaper-f5cb",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "kitchen_tools",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-kjokkenredskaper-f5cb"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-kjoretoy-16b0",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "vehicles",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-kjoretoy-16b0"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-klaer-0f9a",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "clothing",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-klaer-0f9a"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-klasserom-8bcd",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "classroom",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-klasserom-8bcd"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-kroppsdeler-194b",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "body_parts",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-kroppsdeler-194b"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-leker-4de0",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "toys",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-leker-4de0"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-mobler-eee3",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "furniture",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-mobler-eee3"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-musikk-5c3f",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "music",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-musikk-5c3f"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-paske-2915",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "easter",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-paske-2915"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-postkontor-e741",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "post_office",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-postkontor-e741"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-reptiler-og-amfibier-7680",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "reptiles_and_amphibians",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-reptiler-og-amfibier-7680"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-rundt-i-huset-1403",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "around_the_house",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-rundt-i-huset-1403"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-skogsdyr-8e91",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "forest_creatures",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-skogsdyr-8e91"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-sommer-71ef",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "summer",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-sommer-71ef"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-strand-0846",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "beach",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-strand-0846"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-sykehus-8d8b",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "hospital",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-sykehus-8d8b"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-thanksgiving-3ef9",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "thanksgivinng",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-thanksgiving-3ef9"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-tilbehor-cb45",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "accessories",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-tilbehor-cb45"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-ting-som-flyr-b6d4",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "things_that_fly",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-ting-som-flyr-b6d4"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-traer-cd12",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "tree",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-traer-cd12"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-vaer-14c9",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "weather",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-vaer-14c9"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-var-0422",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "spring",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-var-0422"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-verdensrommet-eed6",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "space",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-verdensrommet-eed6"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-verktoy-125b",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "tools",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-verktoy-125b"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-vinter-ec36",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "winter",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-vinter-ec36"
-  },
-  {
-   "slug": "manglende-brikker-1-manglende-brikke-yrker-8cd5",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "occupations",
-   "level": "1-trinn",
-   "deck": "manglende-brikker-1-manglende-brikke-yrker-8cd5"
-  },
-  {
-   "slug": "match-skygger-match-skyggen-aktiviteter-d800",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "activities",
-   "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-aktiviteter-d800"
-  },
-  {
-   "slug": "match-skygger-match-skyggen-bakeri-7944",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "bakery",
-   "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-bakeri-7944"
-  },
-  {
-   "slug": "match-skygger-match-skyggen-blomster-64cf",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "flowers",
-   "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-blomster-64cf"
-  },
-  {
-   "slug": "match-skygger-match-skyggen-camping-c87d",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "camping",
-   "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-camping-c87d"
-  },
-  {
-   "slug": "match-skygger-match-skyggen-desserter-og-godteri-902b",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "desserts_and_sweets",
-   "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-desserter-og-godteri-902b"
-  },
-  {
-   "slug": "match-skygger-match-skyggen-dinosaurer-0876",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "dinosaurs",
-   "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-dinosaurer-0876"
-  },
-  {
-   "slug": "match-skygger-match-skyggen-dyr-4340",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "animals",
-   "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-dyr-4340"
-  },
-  {
-   "slug": "match-skygger-match-skyggen-dyrehagedyr-3894",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "zoo_animals",
-   "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-dyrehagedyr-3894"
-  },
-  {
-   "slug": "match-skygger-match-skyggen-frokost-1d01",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "breakfast",
-   "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-frokost-1d01"
-  },
-  {
-   "slug": "match-skygger-match-skyggen-frukter-156d",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-frukter-e7ae",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "fruits",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-frukter-156d"
+   "deck": "stor-liten-stigende-rekkefolge-frukter-e7ae"
   },
   {
-   "slug": "match-skygger-match-skyggen-fugler-2-d85a",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-fugler-2-16e7",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "birds_2",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-fugler-2-d85a"
+   "deck": "stor-liten-stigende-rekkefolge-fugler-2-16e7"
   },
   {
-   "slug": "match-skygger-match-skyggen-fugler-4410",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-fugler-b91c",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "birds",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-fugler-4410"
+   "deck": "stor-liten-stigende-rekkefolge-fugler-b91c"
   },
   {
-   "slug": "match-skygger-match-skyggen-gardsdyr-739f",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-gardsdyr-d3fe",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "farm_animals",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-gardsdyr-739f"
+   "deck": "stor-liten-stigende-rekkefolge-gardsdyr-d3fe"
   },
   {
-   "slug": "match-skygger-match-skyggen-gronnsaker-84d3",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-gronnsaker-2740",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "vegetables",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-gronnsaker-84d3"
+   "deck": "stor-liten-stigende-rekkefolge-gronnsaker-2740"
   },
   {
-   "slug": "match-skygger-match-skyggen-havliv-8e58",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-havliv-fc91",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "ocean_life",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-havliv-8e58"
+   "deck": "stor-liten-stigende-rekkefolge-havliv-fc91"
   },
   {
-   "slug": "match-skygger-match-skyggen-i-supermarkedet-f53b",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-i-supermarkedet-a503",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "at_the_supermarket",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-i-supermarkedet-f53b"
+   "deck": "stor-liten-stigende-rekkefolge-i-supermarkedet-a503"
   },
   {
-   "slug": "match-skygger-match-skyggen-insekter-og-kryp-07bb",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-insekter-og-kryp-81c0",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "insects_and_bugs",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-insekter-og-kryp-07bb"
+   "deck": "stor-liten-stigende-rekkefolge-insekter-og-kryp-81c0"
   },
   {
-   "slug": "match-skygger-match-skyggen-jul-2330",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-jul-6731",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "christmas",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-jul-2330"
+   "deck": "stor-liten-stigende-rekkefolge-jul-6731"
   },
   {
-   "slug": "match-skygger-match-skyggen-kjaeledyr-f621",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-kjaeledyr-b524",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "pets",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-kjaeledyr-f621"
+   "deck": "stor-liten-stigende-rekkefolge-kjaeledyr-b524"
   },
   {
-   "slug": "match-skygger-match-skyggen-kjokkenredskaper-1708",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-kjokkenredskaper-5634",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "kitchen_tools",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-kjokkenredskaper-1708"
+   "deck": "stor-liten-stigende-rekkefolge-kjokkenredskaper-5634"
   },
   {
-   "slug": "match-skygger-match-skyggen-kjoretoy-4a7a",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-kjoretoy-d325",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "vehicles",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-kjoretoy-4a7a"
+   "deck": "stor-liten-stigende-rekkefolge-kjoretoy-d325"
   },
   {
-   "slug": "match-skygger-match-skyggen-klaer-d36c",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-klaer-cbf4",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "clothing",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-klaer-d36c"
+   "deck": "stor-liten-stigende-rekkefolge-klaer-cbf4"
   },
   {
-   "slug": "match-skygger-match-skyggen-klasserom-86c2",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-klasserom-803b",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "classroom",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-klasserom-86c2"
+   "deck": "stor-liten-stigende-rekkefolge-klasserom-803b"
   },
   {
-   "slug": "match-skygger-match-skyggen-kroppsdeler-e97b",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-kroppsdeler-76df",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "body_parts",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-kroppsdeler-e97b"
+   "deck": "stor-liten-stigende-rekkefolge-kroppsdeler-76df"
   },
   {
-   "slug": "match-skygger-match-skyggen-leker-6836",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-leker-2a2f",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "toys",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-leker-6836"
+   "deck": "stor-liten-stigende-rekkefolge-leker-2a2f"
   },
   {
-   "slug": "match-skygger-match-skyggen-mobler-6feb",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-mobler-3caf",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "furniture",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-mobler-6feb"
+   "deck": "stor-liten-stigende-rekkefolge-mobler-3caf"
   },
   {
-   "slug": "match-skygger-match-skyggen-musikk-90e9",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-musikk-e104",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "music",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-musikk-90e9"
+   "deck": "stor-liten-stigende-rekkefolge-musikk-e104"
   },
   {
-   "slug": "match-skygger-match-skyggen-paske-c8c4",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-paske-cde8",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "easter",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-paske-c8c4"
+   "deck": "stor-liten-stigende-rekkefolge-paske-cde8"
   },
   {
-   "slug": "match-skygger-match-skyggen-postkontor-d21f",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-postkontor-ba32",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "post_office",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-postkontor-d21f"
+   "deck": "stor-liten-stigende-rekkefolge-postkontor-ba32"
   },
   {
-   "slug": "match-skygger-match-skyggen-reptiler-og-amfibier-a4c4",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-reptiler-og-amfibier-dcfc",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "reptiles_and_amphibians",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-reptiler-og-amfibier-a4c4"
+   "deck": "stor-liten-stigende-rekkefolge-reptiler-og-amfibier-dcfc"
   },
   {
-   "slug": "match-skygger-match-skyggen-rundt-i-huset-6504",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-rundt-i-huset-431c",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "around_the_house",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-rundt-i-huset-6504"
+   "deck": "stor-liten-stigende-rekkefolge-rundt-i-huset-431c"
   },
   {
-   "slug": "match-skygger-match-skyggen-skogsdyr-a1c8",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-skogsdyr-2c1e",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "forest_creatures",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-skogsdyr-a1c8"
+   "deck": "stor-liten-stigende-rekkefolge-skogsdyr-2c1e"
   },
   {
-   "slug": "match-skygger-match-skyggen-sommer-9de8",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "summer",
-   "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-sommer-9de8"
-  },
-  {
-   "slug": "match-skygger-match-skyggen-strand-58fb",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-strand-aa60",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "beach",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-strand-58fb"
+   "deck": "stor-liten-stigende-rekkefolge-strand-aa60"
   },
   {
-   "slug": "match-skygger-match-skyggen-sykehus-a4be",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-sykehus-dbfe",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "hospital",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-sykehus-a4be"
+   "deck": "stor-liten-stigende-rekkefolge-sykehus-dbfe"
   },
   {
-   "slug": "match-skygger-match-skyggen-thanksgiving-aa97",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-thanksgiving-4717",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "thanksgivinng",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-thanksgiving-aa97"
+   "deck": "stor-liten-stigende-rekkefolge-thanksgiving-4717"
   },
   {
-   "slug": "match-skygger-match-skyggen-tilbehor-6b52",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-tilbehor-b557",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "accessories",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-tilbehor-6b52"
+   "deck": "stor-liten-stigende-rekkefolge-tilbehor-b557"
   },
   {
-   "slug": "match-skygger-match-skyggen-ting-som-flyr-3b0e",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-ting-som-flyr-47b0",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "things_that_fly",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-ting-som-flyr-3b0e"
+   "deck": "stor-liten-stigende-rekkefolge-ting-som-flyr-47b0"
   },
   {
-   "slug": "match-skygger-match-skyggen-traer-62a4",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-traer-823a",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "tree",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-traer-62a4"
+   "deck": "stor-liten-stigende-rekkefolge-traer-823a"
   },
   {
-   "slug": "match-skygger-match-skyggen-vaer-6538",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "weather",
-   "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-vaer-6538"
-  },
-  {
-   "slug": "match-skygger-match-skyggen-var-9a8e",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "spring",
-   "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-var-9a8e"
-  },
-  {
-   "slug": "match-skygger-match-skyggen-verdensrommet-7324",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-verdensrommet-1375",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "space",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-verdensrommet-7324"
+   "deck": "stor-liten-stigende-rekkefolge-verdensrommet-1375"
   },
   {
-   "slug": "match-skygger-match-skyggen-verktoy-8488",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-verktoy-f07d",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "tools",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-verktoy-8488"
+   "deck": "stor-liten-stigende-rekkefolge-verktoy-f07d"
   },
   {
-   "slug": "match-skygger-match-skyggen-vinter-82f3",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "winter",
-   "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-vinter-82f3"
-  },
-  {
-   "slug": "match-skygger-match-skyggen-yrker-1360",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "stor-liten-stigende-rekkefolge-yrker-46e4",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "occupations",
    "level": "1-trinn",
-   "deck": "match-skygger-match-skyggen-yrker-1360"
+   "deck": "stor-liten-stigende-rekkefolge-yrker-46e4"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-4-juli-f495",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "4th_of_july",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-4-juli-f495"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-aktiviteter-4934",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "activities",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-aktiviteter-4934"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-bakeri-e285",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "bakery",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-bakeri-e285"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-blomster-b4f7",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "flowers",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-blomster-b4f7"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-camping-4e48",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "camping",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-camping-4e48"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-dinosaurer-593e",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "dinosaurs",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-dinosaurer-593e"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-dyr-42ed",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "animals",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-dyr-42ed"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-dyrehagedyr-4620",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "zoo_animals",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-dyrehagedyr-4620"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-frokost-ab33",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "breakfast",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-frokost-ab33"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-frukter-c166",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "fruits",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-frukter-c166"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-fugler-2-41a6",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "birds_2",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-fugler-2-41a6"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-gardsdyr-1a17",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "farm_animals",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-gardsdyr-1a17"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-gronnsaker-3d7f",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "vegetables",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-gronnsaker-3d7f"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-havliv-8b50",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "ocean_life",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-havliv-8b50"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-i-supermarkedet-3b3d",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "at_the_supermarket",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-i-supermarkedet-3b3d"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-jul-1d88",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "christmas",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-jul-1d88"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-kjaeledyr-28f9",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "pets",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-kjaeledyr-28f9"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-kjokkenredskaper-9dda",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "kitchen_tools",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-kjokkenredskaper-9dda"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-kjoretoy-ad77",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "vehicles",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-kjoretoy-ad77"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-klaer-7e55",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "clothing",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-klaer-7e55"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-klasserom-2721",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "classroom",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-klasserom-2721"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-kroppsdeler-c70a",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "body_parts",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-kroppsdeler-c70a"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-leker-16fa",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "toys",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-leker-16fa"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-paske-9e14",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "easter",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-paske-9e14"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-rundt-i-huset-8e8a",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "around_the_house",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-rundt-i-huset-8e8a"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-skogsdyr-86ca",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "forest_creatures",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-skogsdyr-86ca"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-sommer-8f43",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "summer",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-sommer-8f43"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-strand-a832",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "beach",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-strand-a832"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-sykehus-52a8",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "hospital",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-sykehus-52a8"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-thanksgiving-f7a9",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "thanksgivinng",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-thanksgiving-f7a9"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-tilbehor-5661",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "accessories",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-tilbehor-5661"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-ting-som-flyr-05ef",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "things_that_fly",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-ting-som-flyr-05ef"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-traer-a9f0",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "tree",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-traer-a9f0"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-var-7a6b",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "spring",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-var-7a6b"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-verdensrommet-dae0",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "space",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-verdensrommet-dae0"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-vinter-0b25",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "winter",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-vinter-0b25"
+  },
+  {
+   "slug": "alfabettoget-bokstavhint-yrker-3f0a",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "occupations",
+   "level": "1-trinn",
+   "deck": "alfabettoget-bokstavhint-yrker-3f0a"
   }
  ]
 }

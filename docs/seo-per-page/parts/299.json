@@ -2,779 +2,651 @@
  "part": 299,
  "locale": "no",
  "classes": [
-  "pattern-train::null",
-  "pattern-worksheet::null"
+  "addition::image-number",
+  "addition::mixed"
  ],
  "splitOf": null,
- "count": 96,
+ "count": 80,
  "pages": [
   {
-   "slug": "monstertoget-aktiviteter-9a7d",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "activities",
-   "level": "1-trinn",
-   "deck": "monstertoget-aktiviteter-9a7d"
-  },
-  {
-   "slug": "monstertoget-bakeri-86be",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-bakeri-02f6",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "bakery",
-   "level": "1-trinn",
-   "deck": "monstertoget-bakeri-86be"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-bakeri-02f6"
   },
   {
-   "slug": "monstertoget-blomster-9222",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-blomster-a2b2",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "flowers",
-   "level": "1-trinn",
-   "deck": "monstertoget-blomster-9222"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-blomster-a2b2"
   },
   {
-   "slug": "monstertoget-camping-3ae3",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-camping-0e76",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "camping",
-   "level": "1-trinn",
-   "deck": "monstertoget-camping-3ae3"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-camping-0e76"
   },
   {
-   "slug": "monstertoget-desserter-og-godteri-a680",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-desserter-og-godteri-28fa",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "desserts_and_sweets",
-   "level": "1-trinn",
-   "deck": "monstertoget-desserter-og-godteri-a680"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-desserter-og-godteri-28fa"
   },
   {
-   "slug": "monstertoget-dinosaurer-46ab",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-dinosaurer-24cb",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "dinosaurs",
-   "level": "1-trinn",
-   "deck": "monstertoget-dinosaurer-46ab"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-dinosaurer-24cb"
   },
   {
-   "slug": "monstertoget-dyr-9869",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-dyr-db63",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "animals",
-   "level": "1-trinn",
-   "deck": "monstertoget-dyr-9869"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-dyr-db63"
   },
   {
-   "slug": "monstertoget-dyrehagedyr-c1c7",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-dyrehagedyr-c222",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "zoo_animals",
-   "level": "1-trinn",
-   "deck": "monstertoget-dyrehagedyr-c1c7"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-dyrehagedyr-c222"
   },
   {
-   "slug": "monstertoget-farger-dfa8",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "colors",
-   "level": "1-trinn",
-   "deck": "monstertoget-farger-dfa8"
-  },
-  {
-   "slug": "monstertoget-folelser-b3ab",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "emotions",
-   "level": "1-trinn",
-   "deck": "monstertoget-folelser-b3ab"
-  },
-  {
-   "slug": "monstertoget-former-41f3",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-former-4cc7",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "shapes",
-   "level": "1-trinn",
-   "deck": "monstertoget-former-41f3"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-former-4cc7"
   },
   {
-   "slug": "monstertoget-frokost-5be3",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-frokost-4d84",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "breakfast",
-   "level": "1-trinn",
-   "deck": "monstertoget-frokost-5be3"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-frokost-4d84"
   },
   {
-   "slug": "monstertoget-frukter-5a3d",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-frukter-035a",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "fruits",
-   "level": "1-trinn",
-   "deck": "monstertoget-frukter-5a3d"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-frukter-035a"
   },
   {
-   "slug": "monstertoget-fugler-2-7df7",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-fugler-2-7336",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "birds_2",
-   "level": "1-trinn",
-   "deck": "monstertoget-fugler-2-7df7"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-fugler-2-7336"
   },
   {
-   "slug": "monstertoget-fugler-49cd",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-fugler-e8a9",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "birds",
-   "level": "1-trinn",
-   "deck": "monstertoget-fugler-49cd"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-fugler-e8a9"
   },
   {
-   "slug": "monstertoget-gardsdyr-210f",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-gardsdyr-0203",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "farm_animals",
-   "level": "1-trinn",
-   "deck": "monstertoget-gardsdyr-210f"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-gardsdyr-0203"
   },
   {
-   "slug": "monstertoget-gronnsaker-f5bd",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-gronnsaker-302f",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "vegetables",
-   "level": "1-trinn",
-   "deck": "monstertoget-gronnsaker-f5bd"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-gronnsaker-302f"
   },
   {
-   "slug": "monstertoget-havliv-f1f1",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-havliv-9e04",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "ocean_life",
-   "level": "1-trinn",
-   "deck": "monstertoget-havliv-f1f1"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-havliv-9e04"
   },
   {
-   "slug": "monstertoget-i-supermarkedet-c261",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-i-supermarkedet-92cb",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "at_the_supermarket",
-   "level": "1-trinn",
-   "deck": "monstertoget-i-supermarkedet-c261"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-i-supermarkedet-92cb"
   },
   {
-   "slug": "monstertoget-insekter-og-kryp-4ca5",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-insekter-og-kryp-f8f8",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "insects_and_bugs",
-   "level": "1-trinn",
-   "deck": "monstertoget-insekter-og-kryp-4ca5"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-insekter-og-kryp-f8f8"
   },
   {
-   "slug": "monstertoget-jul-467b",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-jul-63d6",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "christmas",
-   "level": "1-trinn",
-   "deck": "monstertoget-jul-467b"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-jul-63d6"
   },
   {
-   "slug": "monstertoget-kjaeledyr-93d0",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-kjaeledyr-5b83",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "pets",
-   "level": "1-trinn",
-   "deck": "monstertoget-kjaeledyr-93d0"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-kjaeledyr-5b83"
   },
   {
-   "slug": "monstertoget-kjokkenredskaper-593b",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-kjokkenredskaper-9221",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "kitchen_tools",
-   "level": "1-trinn",
-   "deck": "monstertoget-kjokkenredskaper-593b"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-kjokkenredskaper-9221"
   },
   {
-   "slug": "monstertoget-kjoretoy-870f",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-kjoretoy-c3a1",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "vehicles",
-   "level": "1-trinn",
-   "deck": "monstertoget-kjoretoy-870f"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-kjoretoy-c3a1"
   },
   {
-   "slug": "monstertoget-klaer-91cc",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-klaer-6c25",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "clothing",
-   "level": "1-trinn",
-   "deck": "monstertoget-klaer-91cc"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-klaer-6c25"
   },
   {
-   "slug": "monstertoget-klasserom-0a11",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-klasserom-4141",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "classroom",
-   "level": "1-trinn",
-   "deck": "monstertoget-klasserom-0a11"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-klasserom-4141"
   },
   {
-   "slug": "monstertoget-kroppsdeler-7e0d",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "1-trinn",
-   "deck": "monstertoget-kroppsdeler-7e0d"
-  },
-  {
-   "slug": "monstertoget-leker-15a8",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-leker-3bea",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "toys",
-   "level": "1-trinn",
-   "deck": "monstertoget-leker-15a8"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-leker-3bea"
   },
   {
-   "slug": "monstertoget-mobler-7426",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-mobler-aee8",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "furniture",
-   "level": "1-trinn",
-   "deck": "monstertoget-mobler-7426"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-mobler-aee8"
   },
   {
-   "slug": "monstertoget-musikk-a5b2",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-musikk-e439",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "music",
-   "level": "1-trinn",
-   "deck": "monstertoget-musikk-a5b2"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-musikk-e439"
   },
   {
-   "slug": "monstertoget-paske-ccc7",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-paske-ebad",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "easter",
-   "level": "1-trinn",
-   "deck": "monstertoget-paske-ccc7"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-paske-ebad"
   },
   {
-   "slug": "monstertoget-postkontor-0e6b",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-postkontor-d5b2",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "post_office",
-   "level": "1-trinn",
-   "deck": "monstertoget-postkontor-0e6b"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-postkontor-d5b2"
   },
   {
-   "slug": "monstertoget-reptiler-og-amfibier-c3d1",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-reptiler-og-amfibier-09e9",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "reptiles_and_amphibians",
-   "level": "1-trinn",
-   "deck": "monstertoget-reptiler-og-amfibier-c3d1"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-reptiler-og-amfibier-09e9"
   },
   {
-   "slug": "monstertoget-rundt-i-huset-ed6e",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-rundt-i-huset-6953",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "around_the_house",
-   "level": "1-trinn",
-   "deck": "monstertoget-rundt-i-huset-ed6e"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-rundt-i-huset-6953"
   },
   {
-   "slug": "monstertoget-skogsdyr-a5fd",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-skogsdyr-b46c",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "forest_creatures",
-   "level": "1-trinn",
-   "deck": "monstertoget-skogsdyr-a5fd"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-skogsdyr-b46c"
   },
   {
-   "slug": "monstertoget-sommer-360b",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "summer",
-   "level": "1-trinn",
-   "deck": "monstertoget-sommer-360b"
-  },
-  {
-   "slug": "monstertoget-strand-a526",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-strand-30d0",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "beach",
-   "level": "1-trinn",
-   "deck": "monstertoget-strand-a526"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-strand-30d0"
   },
   {
-   "slug": "monstertoget-sykehus-0930",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-sykehus-85b5",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "hospital",
-   "level": "1-trinn",
-   "deck": "monstertoget-sykehus-0930"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-sykehus-85b5"
   },
   {
-   "slug": "monstertoget-thanksgiving-3254",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-thanksgiving-5719",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "thanksgivinng",
-   "level": "1-trinn",
-   "deck": "monstertoget-thanksgiving-3254"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-thanksgiving-5719"
   },
   {
-   "slug": "monstertoget-tilbehor-cc25",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-tilbehor-e87b",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "accessories",
-   "level": "1-trinn",
-   "deck": "monstertoget-tilbehor-cc25"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-tilbehor-e87b"
   },
   {
-   "slug": "monstertoget-ting-som-flyr-cd0e",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-ting-som-flyr-50d6",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "things_that_fly",
-   "level": "1-trinn",
-   "deck": "monstertoget-ting-som-flyr-cd0e"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-ting-som-flyr-50d6"
   },
   {
-   "slug": "monstertoget-traer-ce31",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-traer-f448",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "tree",
-   "level": "1-trinn",
-   "deck": "monstertoget-traer-ce31"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-traer-f448"
   },
   {
-   "slug": "monstertoget-vaer-f7d0",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "weather",
-   "level": "1-trinn",
-   "deck": "monstertoget-vaer-f7d0"
-  },
-  {
-   "slug": "monstertoget-var-18c6",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "spring",
-   "level": "1-trinn",
-   "deck": "monstertoget-var-18c6"
-  },
-  {
-   "slug": "monstertoget-verdensrommet-df69",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-verdensrommet-dfc3",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "space",
-   "level": "1-trinn",
-   "deck": "monstertoget-verdensrommet-df69"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-verdensrommet-dfc3"
   },
   {
-   "slug": "monstertoget-verktoy-bb95",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-verktoy-75f8",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "tools",
-   "level": "1-trinn",
-   "deck": "monstertoget-verktoy-bb95"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-verktoy-75f8"
   },
   {
-   "slug": "monstertoget-vinter-374c",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "winter",
-   "level": "1-trinn",
-   "deck": "monstertoget-vinter-374c"
-  },
-  {
-   "slug": "monstertoget-yrker-54f3",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "addisjon-bilde-tall-yrker-884e",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "occupations",
-   "level": "1-trinn",
-   "deck": "monstertoget-yrker-54f3"
+   "level": "2-trinn",
+   "deck": "addisjon-bilde-tall-yrker-884e"
   },
   {
-   "slug": "monsterark-aktiviteter-25a5",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "activities",
-   "level": "1-trinn",
-   "deck": "monsterark-aktiviteter-25a5"
-  },
-  {
-   "slug": "monsterark-bakeri-1b75",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-bakeri-633e",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "bakery",
-   "level": "1-trinn",
-   "deck": "monsterark-bakeri-1b75"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-bakeri-633e"
   },
   {
-   "slug": "monsterark-blomster-d611",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-blomster-d356",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "flowers",
-   "level": "1-trinn",
-   "deck": "monsterark-blomster-d611"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-blomster-d356"
   },
   {
-   "slug": "monsterark-camping-452d",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-camping-cffb",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "camping",
-   "level": "1-trinn",
-   "deck": "monsterark-camping-452d"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-camping-cffb"
   },
   {
-   "slug": "monsterark-desserter-og-godteri-82ef",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-desserter-og-godteri-ae1c",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "desserts_and_sweets",
-   "level": "1-trinn",
-   "deck": "monsterark-desserter-og-godteri-82ef"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-desserter-og-godteri-ae1c"
   },
   {
-   "slug": "monsterark-dinosaurer-8574",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-dinosaurer-7294",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "dinosaurs",
-   "level": "1-trinn",
-   "deck": "monsterark-dinosaurer-8574"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-dinosaurer-7294"
   },
   {
-   "slug": "monsterark-dyr-5e1d",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-dyr-016b",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "animals",
-   "level": "1-trinn",
-   "deck": "monsterark-dyr-5e1d"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-dyr-016b"
   },
   {
-   "slug": "monsterark-dyrehagedyr-7041",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-dyrehagedyr-5ab6",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "zoo_animals",
-   "level": "1-trinn",
-   "deck": "monsterark-dyrehagedyr-7041"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-dyrehagedyr-5ab6"
   },
   {
-   "slug": "monsterark-farger-c569",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "colors",
-   "level": "1-trinn",
-   "deck": "monsterark-farger-c569"
-  },
-  {
-   "slug": "monsterark-folelser-9e4a",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "emotions",
-   "level": "1-trinn",
-   "deck": "monsterark-folelser-9e4a"
-  },
-  {
-   "slug": "monsterark-former-8ec8",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-former-26b4",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "shapes",
-   "level": "1-trinn",
-   "deck": "monsterark-former-8ec8"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-former-26b4"
   },
   {
-   "slug": "monsterark-frokost-2d92",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-frokost-d639",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "breakfast",
-   "level": "1-trinn",
-   "deck": "monsterark-frokost-2d92"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-frokost-d639"
   },
   {
-   "slug": "monsterark-frukter-cdd2",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-frukter-0a79",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "fruits",
-   "level": "1-trinn",
-   "deck": "monsterark-frukter-cdd2"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-frukter-0a79"
   },
   {
-   "slug": "monsterark-fugler-2-f72e",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-fugler-2-6b9d",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "birds_2",
-   "level": "1-trinn",
-   "deck": "monsterark-fugler-2-f72e"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-fugler-2-6b9d"
   },
   {
-   "slug": "monsterark-fugler-3720",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-fugler-fb19",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "birds",
-   "level": "1-trinn",
-   "deck": "monsterark-fugler-3720"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-fugler-fb19"
   },
   {
-   "slug": "monsterark-gardsdyr-075b",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-gardsdyr-c2fa",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "farm_animals",
-   "level": "1-trinn",
-   "deck": "monsterark-gardsdyr-075b"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-gardsdyr-c2fa"
   },
   {
-   "slug": "monsterark-gronnsaker-78c7",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-gronnsaker-aa6b",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "vegetables",
-   "level": "1-trinn",
-   "deck": "monsterark-gronnsaker-78c7"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-gronnsaker-aa6b"
   },
   {
-   "slug": "monsterark-havliv-942d",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-havliv-2f44",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "ocean_life",
-   "level": "1-trinn",
-   "deck": "monsterark-havliv-942d"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-havliv-2f44"
   },
   {
-   "slug": "monsterark-i-supermarkedet-68f3",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-i-supermarkedet-3741",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "at_the_supermarket",
-   "level": "1-trinn",
-   "deck": "monsterark-i-supermarkedet-68f3"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-i-supermarkedet-3741"
   },
   {
-   "slug": "monsterark-insekter-og-kryp-2f25",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-insekter-og-kryp-fc5c",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "insects_and_bugs",
-   "level": "1-trinn",
-   "deck": "monsterark-insekter-og-kryp-2f25"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-insekter-og-kryp-fc5c"
   },
   {
-   "slug": "monsterark-jul-1e8b",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-jul-b889",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "christmas",
-   "level": "1-trinn",
-   "deck": "monsterark-jul-1e8b"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-jul-b889"
   },
   {
-   "slug": "monsterark-kjaeledyr-ffa9",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-kjaeledyr-86ac",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "pets",
-   "level": "1-trinn",
-   "deck": "monsterark-kjaeledyr-ffa9"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-kjaeledyr-86ac"
   },
   {
-   "slug": "monsterark-kjokkenredskaper-4c5d",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-kjokkenredskaper-85e6",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "kitchen_tools",
-   "level": "1-trinn",
-   "deck": "monsterark-kjokkenredskaper-4c5d"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-kjokkenredskaper-85e6"
   },
   {
-   "slug": "monsterark-kjoretoy-ee43",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-kjoretoy-2afa",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "vehicles",
-   "level": "1-trinn",
-   "deck": "monsterark-kjoretoy-ee43"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-kjoretoy-2afa"
   },
   {
-   "slug": "monsterark-klaer-9282",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-klaer-cb99",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "clothing",
-   "level": "1-trinn",
-   "deck": "monsterark-klaer-9282"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-klaer-cb99"
   },
   {
-   "slug": "monsterark-klasserom-07cb",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-klasserom-a204",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "classroom",
-   "level": "1-trinn",
-   "deck": "monsterark-klasserom-07cb"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-klasserom-a204"
   },
   {
-   "slug": "monsterark-kroppsdeler-76e3",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "1-trinn",
-   "deck": "monsterark-kroppsdeler-76e3"
-  },
-  {
-   "slug": "monsterark-leker-7089",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-leker-33d7",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "toys",
-   "level": "1-trinn",
-   "deck": "monsterark-leker-7089"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-leker-33d7"
   },
   {
-   "slug": "monsterark-mobler-3a5a",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-mobler-aa8f",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "furniture",
-   "level": "1-trinn",
-   "deck": "monsterark-mobler-3a5a"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-mobler-aa8f"
   },
   {
-   "slug": "monsterark-musikk-123c",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-musikk-7d58",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "music",
-   "level": "1-trinn",
-   "deck": "monsterark-musikk-123c"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-musikk-7d58"
   },
   {
-   "slug": "monsterark-paske-cbe7",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-paske-4324",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "easter",
-   "level": "1-trinn",
-   "deck": "monsterark-paske-cbe7"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-paske-4324"
   },
   {
-   "slug": "monsterark-postkontor-c9f2",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-postkontor-c53c",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "post_office",
-   "level": "1-trinn",
-   "deck": "monsterark-postkontor-c9f2"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-postkontor-c53c"
   },
   {
-   "slug": "monsterark-reptiler-og-amfibier-e909",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-reptiler-og-amfibier-94cc",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "reptiles_and_amphibians",
-   "level": "1-trinn",
-   "deck": "monsterark-reptiler-og-amfibier-e909"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-reptiler-og-amfibier-94cc"
   },
   {
-   "slug": "monsterark-rundt-i-huset-13ee",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-rundt-i-huset-37f9",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "around_the_house",
-   "level": "1-trinn",
-   "deck": "monsterark-rundt-i-huset-13ee"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-rundt-i-huset-37f9"
   },
   {
-   "slug": "monsterark-skogsdyr-7471",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-skogsdyr-f941",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "forest_creatures",
-   "level": "1-trinn",
-   "deck": "monsterark-skogsdyr-7471"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-skogsdyr-f941"
   },
   {
-   "slug": "monsterark-sommer-84cb",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "summer",
-   "level": "1-trinn",
-   "deck": "monsterark-sommer-84cb"
-  },
-  {
-   "slug": "monsterark-strand-ca54",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-strand-d9ac",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "beach",
-   "level": "1-trinn",
-   "deck": "monsterark-strand-ca54"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-strand-d9ac"
   },
   {
-   "slug": "monsterark-sykehus-0551",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-sykehus-0194",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "hospital",
-   "level": "1-trinn",
-   "deck": "monsterark-sykehus-0551"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-sykehus-0194"
   },
   {
-   "slug": "monsterark-thanksgiving-7e0a",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-thanksgiving-e141",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "thanksgivinng",
-   "level": "1-trinn",
-   "deck": "monsterark-thanksgiving-7e0a"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-thanksgiving-e141"
   },
   {
-   "slug": "monsterark-tilbehor-573c",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-tilbehor-2036",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "accessories",
-   "level": "1-trinn",
-   "deck": "monsterark-tilbehor-573c"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-tilbehor-2036"
   },
   {
-   "slug": "monsterark-ting-som-flyr-bd47",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-ting-som-flyr-1003",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "things_that_fly",
-   "level": "1-trinn",
-   "deck": "monsterark-ting-som-flyr-bd47"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-ting-som-flyr-1003"
   },
   {
-   "slug": "monsterark-traer-14a1",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-traer-6efc",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "tree",
-   "level": "1-trinn",
-   "deck": "monsterark-traer-14a1"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-traer-6efc"
   },
   {
-   "slug": "monsterark-vaer-57cb",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "weather",
-   "level": "1-trinn",
-   "deck": "monsterark-vaer-57cb"
-  },
-  {
-   "slug": "monsterark-var-189e",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "spring",
-   "level": "1-trinn",
-   "deck": "monsterark-var-189e"
-  },
-  {
-   "slug": "monsterark-verdensrommet-27d5",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-verdensrommet-04ae",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "space",
-   "level": "1-trinn",
-   "deck": "monsterark-verdensrommet-27d5"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-verdensrommet-04ae"
   },
   {
-   "slug": "monsterark-verktoy-1fd4",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-verktoy-fb63",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "tools",
-   "level": "1-trinn",
-   "deck": "monsterark-verktoy-1fd4"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-verktoy-fb63"
   },
   {
-   "slug": "monsterark-vinter-5080",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "winter",
-   "level": "1-trinn",
-   "deck": "monsterark-vinter-5080"
-  },
-  {
-   "slug": "monsterark-yrker-f801",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "addisjon-blandet-yrker-c22e",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "occupations",
-   "level": "1-trinn",
-   "deck": "monsterark-yrker-f801"
+   "level": "2-trinn",
+   "deck": "addisjon-blandet-yrker-c22e"
   }
  ]
 }

@@ -2,795 +2,659 @@
  "part": 112,
  "locale": "pt",
  "classes": [
-  "pattern-train::abc",
-  "pattern-train::null"
+  "addition::image-number",
+  "addition::mixed"
  ],
  "splitOf": null,
- "count": 98,
+ "count": 81,
  "pages": [
   {
-   "slug": "trem-de-padroes-abc-acampamento-181a",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-acampamento-9a35",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "camping",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-acampamento-181a"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-acampamento-9a35"
   },
   {
-   "slug": "trem-de-padroes-abc-acessorios-5cea",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-acessorios-2d5a",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "accessories",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-acessorios-5cea"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-acessorios-2d5a"
   },
   {
-   "slug": "trem-de-padroes-abc-animais-da-fazenda-9c19",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "farm_animals",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-animais-da-fazenda-9c19"
-  },
-  {
-   "slug": "trem-de-padroes-abc-animais-da2c",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-animais-a26e",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "animals",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-animais-da2c"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-animais-a26e"
   },
   {
-   "slug": "trem-de-padroes-abc-animais-de-estimacao-a1ac",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-animais-da-fazenda-5102",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "farm_animals",
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-animais-da-fazenda-5102"
+  },
+  {
+   "slug": "adicao-imagem-numero-animais-de-estimacao-b715",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "pets",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-animais-de-estimacao-a1ac"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-animais-de-estimacao-b715"
   },
   {
-   "slug": "trem-de-padroes-abc-animais-do-zoologico-7727",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-animais-do-zoologico-b315",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "zoo_animals",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-animais-do-zoologico-7727"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-animais-do-zoologico-b315"
   },
   {
-   "slug": "trem-de-padroes-abc-arvores-e450",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-arvores-dfea",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "tree",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-arvores-e450"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-arvores-dfea"
   },
   {
-   "slug": "trem-de-padroes-abc-atividades-97b0",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "activities",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-atividades-97b0"
-  },
-  {
-   "slug": "trem-de-padroes-abc-brinquedos-6dc9",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-brinquedos-97ec",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "toys",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-brinquedos-6dc9"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-brinquedos-97ec"
   },
   {
-   "slug": "trem-de-padroes-abc-cafe-da-manha-39a5",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-cafe-da-manha-a3b6",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "breakfast",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-cafe-da-manha-39a5"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-cafe-da-manha-a3b6"
   },
   {
-   "slug": "trem-de-padroes-abc-clima-4187",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "weather",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-clima-4187"
-  },
-  {
-   "slug": "trem-de-padroes-abc-coisas-que-voam-ba6f",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-coisas-que-voam-fd6f",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "things_that_fly",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-coisas-que-voam-ba6f"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-coisas-que-voam-fd6f"
   },
   {
-   "slug": "trem-de-padroes-abc-cores-c077",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "colors",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-cores-c077"
-  },
-  {
-   "slug": "trem-de-padroes-abc-correios-3e84",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-correios-b469",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "post_office",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-correios-3e84"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-correios-b469"
   },
   {
-   "slug": "trem-de-padroes-abc-criaturas-da-floresta-2133",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-criaturas-da-floresta-3d98",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "forest_creatures",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-criaturas-da-floresta-2133"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-criaturas-da-floresta-3d98"
   },
   {
-   "slug": "trem-de-padroes-abc-dia-de-acao-de-gracas-dc71",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-dia-de-acao-de-gracas-ce25",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "thanksgivinng",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-dia-de-acao-de-gracas-dc71"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-dia-de-acao-de-gracas-ce25"
   },
   {
-   "slug": "trem-de-padroes-abc-dinossauros-532c",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-dinossauros-b04e",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "dinosaurs",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-dinossauros-532c"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-dinossauros-b04e"
   },
   {
-   "slug": "trem-de-padroes-abc-diversos-8078",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-diversos-1d99",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "miscellaneous",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-diversos-8078"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-diversos-1d99"
   },
   {
-   "slug": "trem-de-padroes-abc-emocoes-c0ef",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "emotions",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-emocoes-c0ef"
-  },
-  {
-   "slug": "trem-de-padroes-abc-espaco-5baa",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-espaco-fde1",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "space",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-espaco-5baa"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-espaco-fde1"
   },
   {
-   "slug": "trem-de-padroes-abc-ferramentas-0121",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-ferramentas-3c14",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "tools",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-ferramentas-0121"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-ferramentas-3c14"
   },
   {
-   "slug": "trem-de-padroes-abc-flores-286b",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-flores-8323",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "flowers",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-flores-286b"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-flores-8323"
   },
   {
-   "slug": "trem-de-padroes-abc-formas-9475",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-formas-1bf0",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "shapes",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-formas-9475"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-formas-1bf0"
   },
   {
-   "slug": "trem-de-padroes-abc-frutas-674b",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-frutas-96e0",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "fruits",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-frutas-674b"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-frutas-96e0"
   },
   {
-   "slug": "trem-de-padroes-abc-hospital-ebd5",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-hospital-21a3",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "hospital",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-hospital-ebd5"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-hospital-21a3"
   },
   {
-   "slug": "trem-de-padroes-abc-insetos-e-bichos-7cf9",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-insetos-e-bichos-2377",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "insects_and_bugs",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-insetos-e-bichos-7cf9"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-insetos-e-bichos-2377"
   },
   {
-   "slug": "trem-de-padroes-abc-inverno-eae3",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "winter",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-inverno-eae3"
-  },
-  {
-   "slug": "trem-de-padroes-abc-moveis-6208",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-moveis-b432",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "furniture",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-moveis-6208"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-moveis-b432"
   },
   {
-   "slug": "trem-de-padroes-abc-musica-1c75",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-musica-0d0d",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "music",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-musica-1c75"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-musica-0d0d"
   },
   {
-   "slug": "trem-de-padroes-abc-natal-1dda",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-natal-384e",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "christmas",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-natal-1dda"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-natal-384e"
   },
   {
-   "slug": "trem-de-padroes-abc-no-supermercado-4bff",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-no-supermercado-0442",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "at_the_supermarket",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-no-supermercado-4bff"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-no-supermercado-0442"
   },
   {
-   "slug": "trem-de-padroes-abc-padaria-3b22",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-padaria-63b5",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "bakery",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-padaria-3b22"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-padaria-63b5"
   },
   {
-   "slug": "trem-de-padroes-abc-partes-do-corpo-6b66",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "body_parts",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-partes-do-corpo-6b66"
-  },
-  {
-   "slug": "trem-de-padroes-abc-pascoa-4138",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-pascoa-5be3",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "easter",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-pascoa-4138"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-pascoa-5be3"
   },
   {
-   "slug": "trem-de-padroes-abc-passaros-2-8d19",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-passaros-2-3ff7",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "birds_2",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-passaros-2-8d19"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-passaros-2-3ff7"
   },
   {
-   "slug": "trem-de-padroes-abc-passaros-e03e",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-passaros-33a7",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "birds",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-passaros-e03e"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-passaros-33a7"
   },
   {
-   "slug": "trem-de-padroes-abc-pela-casa-0a11",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-pela-casa-f9d2",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "around_the_house",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-pela-casa-0a11"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-pela-casa-f9d2"
   },
   {
-   "slug": "trem-de-padroes-abc-praia-072d",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-praia-fe53",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "beach",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-praia-072d"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-praia-fe53"
   },
   {
-   "slug": "trem-de-padroes-abc-primavera-9944",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "spring",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-primavera-9944"
-  },
-  {
-   "slug": "trem-de-padroes-abc-profissoes-6285",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-profissoes-d9d9",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "occupations",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-profissoes-6285"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-profissoes-d9d9"
   },
   {
-   "slug": "trem-de-padroes-abc-repteis-e-anfibios-f6eb",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-repteis-e-anfibios-fa49",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "reptiles_and_amphibians",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-repteis-e-anfibios-f6eb"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-repteis-e-anfibios-fa49"
   },
   {
-   "slug": "trem-de-padroes-abc-roupas-e3d3",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-roupas-5a98",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "clothing",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-roupas-e3d3"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-roupas-5a98"
   },
   {
-   "slug": "trem-de-padroes-abc-sala-de-aula-11cb",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-sala-de-aula-03c3",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "classroom",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-sala-de-aula-11cb"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-sala-de-aula-03c3"
   },
   {
-   "slug": "trem-de-padroes-abc-sobremesas-e-doces-f370",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-sobremesas-e-doces-1cef",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "desserts_and_sweets",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-sobremesas-e-doces-f370"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-sobremesas-e-doces-1cef"
   },
   {
-   "slug": "trem-de-padroes-abc-utensilios-de-cozinha-0ab8",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-utensilios-de-cozinha-accc",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "kitchen_tools",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-utensilios-de-cozinha-0ab8"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-utensilios-de-cozinha-accc"
   },
   {
-   "slug": "trem-de-padroes-abc-vegetais-e76d",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-vegetais-019a",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "vegetables",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-vegetais-e76d"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-vegetais-019a"
   },
   {
-   "slug": "trem-de-padroes-abc-veiculos-e48f",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-veiculos-348d",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "vehicles",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-veiculos-e48f"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-veiculos-348d"
   },
   {
-   "slug": "trem-de-padroes-abc-verao-cdfe",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "summer",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-verao-cdfe"
-  },
-  {
-   "slug": "trem-de-padroes-abc-vida-marinha-24a8",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "adicao-imagem-numero-vida-marinha-93ce",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "ocean_life",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abc-vida-marinha-24a8"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-numero-vida-marinha-93ce"
   },
   {
-   "slug": "trem-de-padroes-acampamento-2e90",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-acampamento-0473",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "camping",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-acampamento-2e90"
+   "level": "1o-ano",
+   "deck": "adicao-misto-acampamento-0473"
   },
   {
-   "slug": "trem-de-padroes-acessorios-015b",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-acessorios-563b",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "accessories",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-acessorios-015b"
+   "level": "1o-ano",
+   "deck": "adicao-misto-acessorios-563b"
   },
   {
-   "slug": "trem-de-padroes-animais-020c",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-animais-9d4c",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "animals",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-animais-020c"
+   "level": "1o-ano",
+   "deck": "adicao-misto-animais-9d4c"
   },
   {
-   "slug": "trem-de-padroes-animais-da-fazenda-4374",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-animais-da-fazenda-e76e",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "farm_animals",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-animais-da-fazenda-4374"
+   "level": "1o-ano",
+   "deck": "adicao-misto-animais-da-fazenda-e76e"
   },
   {
-   "slug": "trem-de-padroes-animais-de-estimacao-d613",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-animais-de-estimacao-ec12",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "pets",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-animais-de-estimacao-d613"
+   "level": "1o-ano",
+   "deck": "adicao-misto-animais-de-estimacao-ec12"
   },
   {
-   "slug": "trem-de-padroes-animais-do-zoologico-74f4",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-animais-do-zoologico-7081",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "zoo_animals",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-animais-do-zoologico-74f4"
+   "level": "1o-ano",
+   "deck": "adicao-misto-animais-do-zoologico-7081"
   },
   {
-   "slug": "trem-de-padroes-arvores-2723",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-arvores-4ffd",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "tree",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-arvores-2723"
+   "level": "1o-ano",
+   "deck": "adicao-misto-arvores-4ffd"
   },
   {
-   "slug": "trem-de-padroes-atividades-c637",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "activities",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-atividades-c637"
-  },
-  {
-   "slug": "trem-de-padroes-brinquedos-8822",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-brinquedos-f3f2",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "toys",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-brinquedos-8822"
+   "level": "1o-ano",
+   "deck": "adicao-misto-brinquedos-f3f2"
   },
   {
-   "slug": "trem-de-padroes-cafe-da-manha-f203",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-cafe-da-manha-f0cf",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "breakfast",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-cafe-da-manha-f203"
+   "level": "1o-ano",
+   "deck": "adicao-misto-cafe-da-manha-f0cf"
   },
   {
-   "slug": "trem-de-padroes-clima-1adb",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "weather",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-clima-1adb"
-  },
-  {
-   "slug": "trem-de-padroes-coisas-que-voam-8f68",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-coisas-que-voam-fbf8",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "things_that_fly",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-coisas-que-voam-8f68"
+   "level": "1o-ano",
+   "deck": "adicao-misto-coisas-que-voam-fbf8"
   },
   {
-   "slug": "trem-de-padroes-cores-995a",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "colors",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-cores-995a"
-  },
-  {
-   "slug": "trem-de-padroes-correios-bbb4",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-correios-cb8d",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "post_office",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-correios-bbb4"
+   "level": "1o-ano",
+   "deck": "adicao-misto-correios-cb8d"
   },
   {
-   "slug": "trem-de-padroes-criaturas-da-floresta-5300",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-criaturas-da-floresta-8164",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "forest_creatures",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-criaturas-da-floresta-5300"
+   "level": "1o-ano",
+   "deck": "adicao-misto-criaturas-da-floresta-8164"
   },
   {
-   "slug": "trem-de-padroes-dia-de-acao-de-gracas-bf20",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-dia-de-acao-de-gracas-6d68",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "thanksgivinng",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-dia-de-acao-de-gracas-bf20"
+   "level": "1o-ano",
+   "deck": "adicao-misto-dia-de-acao-de-gracas-6d68"
   },
   {
-   "slug": "trem-de-padroes-dinossauros-be2d",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-dinossauros-e24e",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "dinosaurs",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-dinossauros-be2d"
+   "level": "1o-ano",
+   "deck": "adicao-misto-dinossauros-e24e"
   },
   {
-   "slug": "trem-de-padroes-diversos-5479",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-diversos-6eef",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "miscellaneous",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-diversos-5479"
+   "level": "1o-ano",
+   "deck": "adicao-misto-diversos-6eef"
   },
   {
-   "slug": "trem-de-padroes-emocoes-868d",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "emotions",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-emocoes-868d"
-  },
-  {
-   "slug": "trem-de-padroes-espaco-815f",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-espaco-5ff3",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "space",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-espaco-815f"
+   "level": "1o-ano",
+   "deck": "adicao-misto-espaco-5ff3"
   },
   {
-   "slug": "trem-de-padroes-ferramentas-141a",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-ferramentas-3ea9",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "tools",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-ferramentas-141a"
+   "level": "1o-ano",
+   "deck": "adicao-misto-ferramentas-3ea9"
   },
   {
-   "slug": "trem-de-padroes-flores-0e81",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-flores-a646",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "flowers",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-flores-0e81"
+   "level": "1o-ano",
+   "deck": "adicao-misto-flores-a646"
   },
   {
-   "slug": "trem-de-padroes-formas-a0c9",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-formas-8a49",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "shapes",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-formas-a0c9"
+   "level": "1o-ano",
+   "deck": "adicao-misto-formas-8a49"
   },
   {
-   "slug": "trem-de-padroes-frutas-2976",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-frutas-f59a",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "fruits",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-frutas-2976"
+   "level": "1o-ano",
+   "deck": "adicao-misto-frutas-f59a"
   },
   {
-   "slug": "trem-de-padroes-hospital-8610",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-hospital-9763",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "hospital",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-hospital-8610"
+   "level": "1o-ano",
+   "deck": "adicao-misto-hospital-9763"
   },
   {
-   "slug": "trem-de-padroes-insetos-e-bichos-f076",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-insetos-e-bichos-27c7",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "insects_and_bugs",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-insetos-e-bichos-f076"
+   "level": "1o-ano",
+   "deck": "adicao-misto-insetos-e-bichos-27c7"
   },
   {
-   "slug": "trem-de-padroes-inverno-133d",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "winter",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-inverno-133d"
-  },
-  {
-   "slug": "trem-de-padroes-moveis-d7a6",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-moveis-860e",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "furniture",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-moveis-d7a6"
+   "level": "1o-ano",
+   "deck": "adicao-misto-moveis-860e"
   },
   {
-   "slug": "trem-de-padroes-musica-4278",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-musica-2d93",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "music",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-musica-4278"
+   "level": "1o-ano",
+   "deck": "adicao-misto-musica-2d93"
   },
   {
-   "slug": "trem-de-padroes-natal-0535",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-natal-58fa",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "christmas",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-natal-0535"
+   "level": "1o-ano",
+   "deck": "adicao-misto-natal-58fa"
   },
   {
-   "slug": "trem-de-padroes-no-supermercado-b294",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-no-supermercado-ff0b",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "at_the_supermarket",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-no-supermercado-b294"
+   "level": "1o-ano",
+   "deck": "adicao-misto-no-supermercado-ff0b"
   },
   {
-   "slug": "trem-de-padroes-padaria-33fe",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-padaria-4b71",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "bakery",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-padaria-33fe"
+   "level": "1o-ano",
+   "deck": "adicao-misto-padaria-4b71"
   },
   {
-   "slug": "trem-de-padroes-partes-do-corpo-9af2",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-partes-do-corpo-9af2"
-  },
-  {
-   "slug": "trem-de-padroes-pascoa-5976",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-pascoa-2f36",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "easter",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-pascoa-5976"
+   "level": "1o-ano",
+   "deck": "adicao-misto-pascoa-2f36"
   },
   {
-   "slug": "trem-de-padroes-passaros-2-0727",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-passaros-2-636b",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "birds_2",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-passaros-2-0727"
+   "level": "1o-ano",
+   "deck": "adicao-misto-passaros-2-636b"
   },
   {
-   "slug": "trem-de-padroes-passaros-4730",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-passaros-2094",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "birds",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-passaros-4730"
+   "level": "1o-ano",
+   "deck": "adicao-misto-passaros-2094"
   },
   {
-   "slug": "trem-de-padroes-pela-casa-4e9f",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-pela-casa-f58b",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "around_the_house",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-pela-casa-4e9f"
+   "level": "1o-ano",
+   "deck": "adicao-misto-pela-casa-f58b"
   },
   {
-   "slug": "trem-de-padroes-praia-925f",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-praia-4963",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "beach",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-praia-925f"
+   "level": "1o-ano",
+   "deck": "adicao-misto-praia-4963"
   },
   {
-   "slug": "trem-de-padroes-primavera-6b21",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "spring",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-primavera-6b21"
-  },
-  {
-   "slug": "trem-de-padroes-profissoes-1856",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-profissoes-6400",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "occupations",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-profissoes-1856"
+   "level": "1o-ano",
+   "deck": "adicao-misto-profissoes-6400"
   },
   {
-   "slug": "trem-de-padroes-repteis-e-anfibios-23ce",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-repteis-e-anfibios-0bcc",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "reptiles_and_amphibians",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-repteis-e-anfibios-23ce"
+   "level": "1o-ano",
+   "deck": "adicao-misto-repteis-e-anfibios-0bcc"
   },
   {
-   "slug": "trem-de-padroes-roupas-5182",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-roupas-f65f",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "clothing",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-roupas-5182"
+   "level": "1o-ano",
+   "deck": "adicao-misto-roupas-f65f"
   },
   {
-   "slug": "trem-de-padroes-sala-de-aula-4a4d",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-sala-de-aula-aea8",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "classroom",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-sala-de-aula-4a4d"
+   "level": "1o-ano",
+   "deck": "adicao-misto-sala-de-aula-aea8"
   },
   {
-   "slug": "trem-de-padroes-sobremesas-e-doces-534c",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-sobremesas-e-doces-ab98",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "desserts_and_sweets",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-sobremesas-e-doces-534c"
+   "level": "1o-ano",
+   "deck": "adicao-misto-sobremesas-e-doces-ab98"
   },
   {
-   "slug": "trem-de-padroes-utensilios-de-cozinha-41ed",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-utensilios-de-cozinha-41ed"
-  },
-  {
-   "slug": "trem-de-padroes-vegetais-f652",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-vegetais-ab8b",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "vegetables",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-vegetais-f652"
+   "level": "1o-ano",
+   "deck": "adicao-misto-vegetais-ab8b"
   },
   {
-   "slug": "trem-de-padroes-veiculos-0813",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-veiculos-192a",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "vehicles",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-veiculos-0813"
+   "level": "1o-ano",
+   "deck": "adicao-misto-veiculos-192a"
   },
   {
-   "slug": "trem-de-padroes-verao-e442",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "summer",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-verao-e442"
-  },
-  {
-   "slug": "trem-de-padroes-vida-marinha-5a90",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "adicao-misto-vida-marinha-4ff3",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "ocean_life",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-vida-marinha-5a90"
+   "level": "1o-ano",
+   "deck": "adicao-misto-vida-marinha-4ff3"
   }
  ]
 }

@@ -2,779 +2,747 @@
  "part": 38,
  "locale": "en",
  "classes": [
-  "picture-trail::pathway",
-  "shadow-match::find-shadow"
+  "math-worksheet::three-symbols-add-sub",
+  "picture-sort::null"
  ],
  "splitOf": null,
- "count": 96,
+ "count": 92,
  "pages": [
   {
-   "slug": "picture-trail-4th-of-july-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-4th-of-july",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "4th_of_july",
-   "level": "kindergarten",
-   "deck": "picture-trail-4th-of-july-001"
+   "level": "grade-2",
+   "deck": "math-worksheet-4th-of-july-001"
   },
   {
-   "slug": "picture-trail-accessories",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-accessories",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "accessories",
-   "level": "kindergarten",
-   "deck": "picture-trail-accessories"
+   "level": "grade-2",
+   "deck": "math-worksheet-accessories-001"
   },
   {
-   "slug": "picture-trail-activities-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-activities",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "activities",
-   "level": "kindergarten",
-   "deck": "picture-trail-activities-001"
+   "level": "grade-2",
+   "deck": "math-worksheet-activities-001"
   },
   {
-   "slug": "picture-trail-animals-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-animals",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "animals",
-   "level": "kindergarten",
-   "deck": "picture-trail-animals-001"
+   "level": "grade-2",
+   "deck": "math-worksheet-animals-001"
   },
   {
-   "slug": "picture-trail-around-the-house-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-around-the-house",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "around_the_house",
-   "level": "kindergarten",
-   "deck": "picture-trail-around-the-house-001"
+   "level": "grade-2",
+   "deck": "math-worksheet-around-the-house-001"
   },
   {
-   "slug": "picture-trail-at-the-supermarket-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-at-the-supermarket",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "at_the_supermarket",
-   "level": "kindergarten",
-   "deck": "picture-trail-at-the-supermarket-001"
+   "level": "grade-2",
+   "deck": "math-worksheet-at-the-supermarket-001"
   },
   {
-   "slug": "picture-trail-bakery-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-bakery",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "bakery",
-   "level": "kindergarten",
-   "deck": "picture-trail-bakery-001"
+   "level": "grade-2",
+   "deck": "math-worksheet-bakery-001"
   },
   {
-   "slug": "picture-trail-beach-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-beach",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "beach",
-   "level": "kindergarten",
-   "deck": "picture-trail-beach-001"
+   "level": "grade-2",
+   "deck": "math-worksheet-beach-001"
   },
   {
-   "slug": "picture-trail-birds-2-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
-   "theme": "birds_2",
-   "level": "kindergarten",
-   "deck": "picture-trail-birds-2-001"
-  },
-  {
-   "slug": "picture-trail-birds-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-birds",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "birds",
-   "level": "kindergarten",
-   "deck": "picture-trail-birds-001"
+   "level": "grade-2",
+   "deck": "math-worksheet-birds-001"
   },
   {
-   "slug": "picture-trail-body-parts-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-birds-2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "birds_2",
+   "level": "grade-2",
+   "deck": "math-worksheet-birds-2-001"
+  },
+  {
+   "slug": "math-worksheet-body-parts",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "body_parts",
-   "level": "kindergarten",
-   "deck": "picture-trail-body-parts-001"
+   "level": "grade-2",
+   "deck": "math-worksheet-body-parts-001"
   },
   {
-   "slug": "picture-trail-breakfast-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-breakfast",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "breakfast",
-   "level": "kindergarten",
-   "deck": "picture-trail-breakfast-001"
+   "level": "grade-2",
+   "deck": "math-worksheet-breakfast-001"
   },
   {
-   "slug": "picture-trail-camping-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-camping",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "camping",
-   "level": "kindergarten",
-   "deck": "picture-trail-camping-001"
+   "level": "grade-2",
+   "deck": "math-worksheet-camping-001"
   },
   {
-   "slug": "picture-trail-christmas-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-christmas",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "christmas",
-   "level": "kindergarten",
-   "deck": "picture-trail-christmas-001"
+   "level": "grade-2",
+   "deck": "math-worksheet-christmas-001"
   },
   {
-   "slug": "picture-trail-classroom-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-classroom",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "classroom",
-   "level": "kindergarten",
-   "deck": "picture-trail-classroom-001"
+   "level": "grade-2",
+   "deck": "math-worksheet-classroom-001"
   },
   {
-   "slug": "picture-trail-clothing",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-clothing",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "clothing",
-   "level": "kindergarten",
-   "deck": "picture-trail-clothing"
+   "level": "grade-2",
+   "deck": "math-worksheet-clothing-001"
   },
   {
-   "slug": "picture-trail-desserts-and-sweets",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-colors",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "colors",
+   "level": "grade-2",
+   "deck": "math-worksheet-colors-001"
+  },
+  {
+   "slug": "math-worksheet-desserts-and-sweets",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "desserts_and_sweets",
-   "level": "kindergarten",
-   "deck": "picture-trail-desserts-and-sweets"
+   "level": "grade-2",
+   "deck": "math-worksheet-desserts-and-sweets-001"
   },
   {
-   "slug": "picture-trail-dinosaurs-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-dinosaurs",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "dinosaurs",
-   "level": "kindergarten",
-   "deck": "picture-trail-dinosaurs-001"
+   "level": "grade-2",
+   "deck": "math-worksheet-dinosaurs-001"
   },
   {
-   "slug": "picture-trail-easter-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-easter",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "easter",
-   "level": "kindergarten",
-   "deck": "picture-trail-easter-001"
+   "level": "grade-2",
+   "deck": "math-worksheet-easter-001"
   },
   {
-   "slug": "picture-trail-emotions-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-emotions",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "emotions",
-   "level": "kindergarten",
-   "deck": "picture-trail-emotions-001"
+   "level": "grade-2",
+   "deck": "math-worksheet-emotions-001"
   },
   {
-   "slug": "picture-trail-farm-animals-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-faces-bw",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "faces_bw",
+   "level": "grade-2",
+   "deck": "math-worksheet-faces-bw-001"
+  },
+  {
+   "slug": "math-worksheet-farm-animals",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "farm_animals",
-   "level": "kindergarten",
-   "deck": "picture-trail-farm-animals-001"
+   "level": "grade-2",
+   "deck": "math-worksheet-farm-animals-001"
   },
   {
-   "slug": "picture-trail-flowers-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-flowers",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "flowers",
-   "level": "kindergarten",
-   "deck": "picture-trail-flowers-001"
+   "level": "grade-2",
+   "deck": "math-worksheet-flowers-001"
   },
   {
-   "slug": "picture-trail-forest-creatures-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-forest-creatures",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "forest_creatures",
-   "level": "kindergarten",
-   "deck": "picture-trail-forest-creatures-001"
+   "level": "grade-2",
+   "deck": "math-worksheet-forest-creatures-001"
   },
   {
-   "slug": "picture-trail-fruits-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-fruits",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "fruits",
-   "level": "kindergarten",
-   "deck": "picture-trail-fruits-001"
+   "level": "grade-2",
+   "deck": "math-worksheet-fruits-001"
   },
   {
-   "slug": "picture-trail-furniture-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-furniture",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "furniture",
-   "level": "kindergarten",
-   "deck": "picture-trail-furniture-001"
+   "level": "grade-2",
+   "deck": "math-worksheet-furniture-001"
   },
   {
-   "slug": "picture-trail-hospital-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-hospital",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "hospital",
-   "level": "kindergarten",
-   "deck": "picture-trail-hospital-001"
+   "level": "grade-2",
+   "deck": "math-worksheet-hospital-001"
   },
   {
-   "slug": "picture-trail-insects-and-bugs",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-insects-and-bugs",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "insects_and_bugs",
-   "level": "kindergarten",
-   "deck": "picture-trail-insects-and-bugs"
+   "level": "grade-2",
+   "deck": "math-worksheet-insects-and-bugs-001"
   },
   {
-   "slug": "picture-trail-kitchen-tools-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-kitchen-tools",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "kitchen_tools",
-   "level": "kindergarten",
-   "deck": "picture-trail-kitchen-tools-001"
+   "level": "grade-2",
+   "deck": "math-worksheet-kitchen-tools-001"
   },
   {
-   "slug": "picture-trail-miscellaneous-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-miscellaneous",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "miscellaneous",
-   "level": "kindergarten",
-   "deck": "picture-trail-miscellaneous-001"
+   "level": "grade-2",
+   "deck": "math-worksheet-miscellaneous-001"
   },
   {
-   "slug": "picture-trail-music-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-music",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "music",
-   "level": "kindergarten",
-   "deck": "picture-trail-music-001"
+   "level": "grade-2",
+   "deck": "math-worksheet-music-001"
   },
   {
-   "slug": "picture-trail-occupations-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-occupations",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "occupations",
-   "level": "kindergarten",
-   "deck": "picture-trail-occupations-001"
+   "level": "grade-2",
+   "deck": "math-worksheet-occupations-001"
   },
   {
-   "slug": "picture-trail-ocean-life-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-ocean-life",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "ocean_life",
-   "level": "kindergarten",
-   "deck": "picture-trail-ocean-life-001"
+   "level": "grade-2",
+   "deck": "math-worksheet-ocean-life-001"
   },
   {
-   "slug": "picture-trail-pets-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-pets",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "pets",
-   "level": "kindergarten",
-   "deck": "picture-trail-pets-001"
+   "level": "grade-2",
+   "deck": "math-worksheet-pets-001"
   },
   {
-   "slug": "picture-trail-post-office",
-   "type": "picture-trail",
-   "mode": "pathway",
+   "slug": "math-worksheet-post-office",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "post_office",
-   "level": "kindergarten",
-   "deck": "picture-trail-post-office"
+   "level": "grade-2",
+   "deck": "math-worksheet-post-office-001"
   },
   {
-   "slug": "picture-trail-shapes-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
-   "theme": "shapes",
-   "level": "kindergarten",
-   "deck": "picture-trail-shapes-001"
-  },
-  {
-   "slug": "picture-trail-space-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
-   "theme": "space",
-   "level": "kindergarten",
-   "deck": "picture-trail-space-001"
-  },
-  {
-   "slug": "picture-trail-spring-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
-   "theme": "spring",
-   "level": "kindergarten",
-   "deck": "picture-trail-spring-001"
-  },
-  {
-   "slug": "picture-trail-summer-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
-   "theme": "summer",
-   "level": "kindergarten",
-   "deck": "picture-trail-summer-001"
-  },
-  {
-   "slug": "picture-trail-thanksgivinng-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
-   "theme": "thanksgivinng",
-   "level": "kindergarten",
-   "deck": "picture-trail-thanksgiving-001"
-  },
-  {
-   "slug": "picture-trail-things-that-fly",
-   "type": "picture-trail",
-   "mode": "pathway",
-   "theme": "things_that_fly",
-   "level": "kindergarten",
-   "deck": "picture-trail-things-that-fly"
-  },
-  {
-   "slug": "picture-trail-tools-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
-   "theme": "tools",
-   "level": "kindergarten",
-   "deck": "picture-trail-tools-001"
-  },
-  {
-   "slug": "picture-trail-toys-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
-   "theme": "toys",
-   "level": "kindergarten",
-   "deck": "picture-trail-toys-001"
-  },
-  {
-   "slug": "picture-trail-tree-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
-   "theme": "tree",
-   "level": "kindergarten",
-   "deck": "picture-trail-tree-001"
-  },
-  {
-   "slug": "picture-trail-vegetables-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
-   "theme": "vegetables",
-   "level": "kindergarten",
-   "deck": "picture-trail-vegetables-001"
-  },
-  {
-   "slug": "picture-trail-vehicles-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
-   "theme": "vehicles",
-   "level": "kindergarten",
-   "deck": "picture-trail-vehicles-001"
-  },
-  {
-   "slug": "picture-trail-weather-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
-   "theme": "weather",
-   "level": "kindergarten",
-   "deck": "picture-trail-weather-001"
-  },
-  {
-   "slug": "picture-trail-winter-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
-   "theme": "winter",
-   "level": "kindergarten",
-   "deck": "picture-trail-winter-001"
-  },
-  {
-   "slug": "picture-trail-zoo-animals-kindergarten",
-   "type": "picture-trail",
-   "mode": "pathway",
-   "theme": "zoo_animals",
-   "level": "kindergarten",
-   "deck": "picture-trail-zoo-animals-001"
-  },
-  {
-   "slug": "shadow-match-4th-of-july-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "4th_of_july",
-   "level": "kindergarten",
-   "deck": "shadow-match-4th-of-july"
-  },
-  {
-   "slug": "shadow-match-accessories-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "accessories",
-   "level": "kindergarten",
-   "deck": "shadow-match-accessories"
-  },
-  {
-   "slug": "shadow-match-activities-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "activities",
-   "level": "kindergarten",
-   "deck": "shadow-match-activities"
-  },
-  {
-   "slug": "shadow-match-animals-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "animals",
-   "level": "kindergarten",
-   "deck": "shadow-match"
-  },
-  {
-   "slug": "shadow-match-around-the-house-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "around_the_house",
-   "level": "kindergarten",
-   "deck": "shadow-match-around-the-house"
-  },
-  {
-   "slug": "shadow-match-at-the-supermarket-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "at_the_supermarket",
-   "level": "kindergarten",
-   "deck": "shadow-match-at-the-supermarket"
-  },
-  {
-   "slug": "shadow-match-bakery-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "bakery",
-   "level": "kindergarten",
-   "deck": "shadow-match-bakery"
-  },
-  {
-   "slug": "shadow-match-beach-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "beach",
-   "level": "kindergarten",
-   "deck": "shadow-match-beach"
-  },
-  {
-   "slug": "shadow-match-birds-2-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "birds_2",
-   "level": "kindergarten",
-   "deck": "shadow-match-birds-2"
-  },
-  {
-   "slug": "shadow-match-birds-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "birds",
-   "level": "kindergarten",
-   "deck": "shadow-match-birds"
-  },
-  {
-   "slug": "shadow-match-body-parts-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "body_parts",
-   "level": "kindergarten",
-   "deck": "shadow-match-body-parts"
-  },
-  {
-   "slug": "shadow-match-breakfast-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "breakfast",
-   "level": "kindergarten",
-   "deck": "shadow-match-breakfast"
-  },
-  {
-   "slug": "shadow-match-camping-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "camping",
-   "level": "kindergarten",
-   "deck": "shadow-match-camping"
-  },
-  {
-   "slug": "shadow-match-christmas-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "christmas",
-   "level": "kindergarten",
-   "deck": "shadow-match-christmas"
-  },
-  {
-   "slug": "shadow-match-classroom-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "classroom",
-   "level": "kindergarten",
-   "deck": "shadow-match-classroom"
-  },
-  {
-   "slug": "shadow-match-clothing-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "clothing",
-   "level": "kindergarten",
-   "deck": "shadow-match-clothing"
-  },
-  {
-   "slug": "shadow-match-desserts-and-sweets-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "desserts_and_sweets",
-   "level": "kindergarten",
-   "deck": "shadow-match-desserts-and-sweets"
-  },
-  {
-   "slug": "shadow-match-dinosaurs-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "dinosaurs",
-   "level": "kindergarten",
-   "deck": "shadow-match-dinosaurs"
-  },
-  {
-   "slug": "shadow-match-easter-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "easter",
-   "level": "kindergarten",
-   "deck": "shadow-match-easter"
-  },
-  {
-   "slug": "shadow-match-farm-animals-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "farm_animals",
-   "level": "kindergarten",
-   "deck": "shadow-match-farm-animals"
-  },
-  {
-   "slug": "shadow-match-flowers-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "flowers",
-   "level": "kindergarten",
-   "deck": "shadow-match-flowers"
-  },
-  {
-   "slug": "shadow-match-forest-creatures-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "forest_creatures",
-   "level": "kindergarten",
-   "deck": "shadow-match-forest-creatures"
-  },
-  {
-   "slug": "shadow-match-fruits-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "fruits",
-   "level": "kindergarten",
-   "deck": "shadow-match-fruits"
-  },
-  {
-   "slug": "shadow-match-furniture-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "furniture",
-   "level": "kindergarten",
-   "deck": "shadow-match-furniture"
-  },
-  {
-   "slug": "shadow-match-hospital-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "hospital",
-   "level": "kindergarten",
-   "deck": "shadow-match-hospital"
-  },
-  {
-   "slug": "shadow-match-insects-and-bugs-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "insects_and_bugs",
-   "level": "kindergarten",
-   "deck": "shadow-match-insects-and-bugs"
-  },
-  {
-   "slug": "shadow-match-kitchen-tools-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "kitchen_tools",
-   "level": "kindergarten",
-   "deck": "shadow-match-kitchen-tools"
-  },
-  {
-   "slug": "shadow-match-miscellaneous-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "miscellaneous",
-   "level": "kindergarten",
-   "deck": "shadow-match-miscellaneous"
-  },
-  {
-   "slug": "shadow-match-music-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "music",
-   "level": "kindergarten",
-   "deck": "shadow-match-music"
-  },
-  {
-   "slug": "shadow-match-occupations-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "occupations",
-   "level": "kindergarten",
-   "deck": "shadow-match-occupations"
-  },
-  {
-   "slug": "shadow-match-ocean-life-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "ocean_life",
-   "level": "kindergarten",
-   "deck": "shadow-match-ocean-life"
-  },
-  {
-   "slug": "shadow-match-pets-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "pets",
-   "level": "kindergarten",
-   "deck": "shadow-match-pets"
-  },
-  {
-   "slug": "shadow-match-post-office-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "post_office",
-   "level": "kindergarten",
-   "deck": "shadow-match-post-office"
-  },
-  {
-   "slug": "shadow-match-reptiles-and-amphibians-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "math-worksheet-reptiles-and-amphibians",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "reptiles_and_amphibians",
-   "level": "kindergarten",
-   "deck": "shadow-match-reptiles-and-amphibians"
+   "level": "grade-2",
+   "deck": "math-worksheet-reptiles-and-amphibians-001"
   },
   {
-   "slug": "shadow-match-shapes-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "math-worksheet-shapes",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "shapes",
-   "level": "kindergarten",
-   "deck": "shadow-match-shapes"
+   "level": "grade-2",
+   "deck": "math-worksheet-shapes-001"
   },
   {
-   "slug": "shadow-match-space-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "math-worksheet-space",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "space",
-   "level": "kindergarten",
-   "deck": "shadow-match-space"
+   "level": "grade-2",
+   "deck": "math-worksheet-space-001"
   },
   {
-   "slug": "shadow-match-spring-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "math-worksheet-spring",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "spring",
-   "level": "kindergarten",
-   "deck": "shadow-match-spring"
+   "level": "grade-2",
+   "deck": "math-worksheet-spring-001"
   },
   {
-   "slug": "shadow-match-summer-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "math-worksheet-summer",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "summer",
-   "level": "kindergarten",
-   "deck": "shadow-match-summer"
+   "level": "grade-2",
+   "deck": "math-worksheet-summer-001"
   },
   {
-   "slug": "shadow-match-thanksgivinng-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "thanksgivinng",
-   "level": "kindergarten",
-   "deck": "shadow-match-thanksgiving"
+   "slug": "math-worksheet-thanksgiving",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "thanksgiving",
+   "level": "grade-2",
+   "deck": "math-worksheet-thanksgiving-001"
   },
   {
-   "slug": "shadow-match-things-that-fly-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "math-worksheet-things-that-fly",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "things_that_fly",
-   "level": "kindergarten",
-   "deck": "shadow-match-things-that-fly"
+   "level": "grade-2",
+   "deck": "math-worksheet-things-that-fly-001"
   },
   {
-   "slug": "shadow-match-tools-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "math-worksheet-tools",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "tools",
-   "level": "kindergarten",
-   "deck": "shadow-match-tools"
+   "level": "grade-2",
+   "deck": "math-worksheet-tools-001"
   },
   {
-   "slug": "shadow-match-toys-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "math-worksheet-toys",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "toys",
-   "level": "kindergarten",
-   "deck": "shadow-match-toys"
+   "level": "grade-2",
+   "deck": "math-worksheet-toys-001"
   },
   {
-   "slug": "shadow-match-tree-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "math-worksheet-trees",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "tree",
-   "level": "kindergarten",
-   "deck": "shadow-match-tree"
+   "level": "grade-2",
+   "deck": "math-worksheet-tree-001"
   },
   {
-   "slug": "shadow-match-vegetables-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "math-worksheet-valentine-bw",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "valentine_bw",
+   "level": "grade-2",
+   "deck": "math-worksheet-valentine-bw-001"
+  },
+  {
+   "slug": "math-worksheet-vegetables",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "vegetables",
-   "level": "kindergarten",
-   "deck": "shadow-match-vegetables"
+   "level": "grade-2",
+   "deck": "math-worksheet-vegetables-001"
   },
   {
-   "slug": "shadow-match-vehicles-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "math-worksheet-vehicles",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "vehicles",
-   "level": "kindergarten",
-   "deck": "shadow-match-vehicles"
+   "level": "grade-2",
+   "deck": "math-worksheet-vehicles-001"
   },
   {
-   "slug": "shadow-match-weather-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "math-worksheet-weather",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "weather",
-   "level": "kindergarten",
-   "deck": "shadow-match-weather"
+   "level": "grade-2",
+   "deck": "math-worksheet-weather-001"
   },
   {
-   "slug": "shadow-match-winter-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "math-worksheet-winter",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "winter",
-   "level": "kindergarten",
-   "deck": "shadow-match-winter"
+   "level": "grade-2",
+   "deck": "math-worksheet-winter-001"
   },
   {
-   "slug": "shadow-match-zoo-animals-kindergarten",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "math-worksheet-zoo-animals",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "zoo_animals",
+   "level": "grade-2",
+   "deck": "math-worksheet-zoo-animals-001"
+  },
+  {
+   "slug": "picture-sort-animals-vs-birds",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-birds",
    "level": "kindergarten",
-   "deck": "shadow-match-zoo-animals"
+   "deck": "picture-sort-animals-vs-birds"
+  },
+  {
+   "slug": "picture-sort-animals-vs-body-parts",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-body_parts",
+   "level": "kindergarten",
+   "deck": "picture-sort-animals-vs-body-parts"
+  },
+  {
+   "slug": "picture-sort-animals-vs-breakfast",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-breakfast",
+   "level": "kindergarten",
+   "deck": "picture-sort-animals-vs-breakfast"
+  },
+  {
+   "slug": "picture-sort-animals-vs-clothing",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-clothing",
+   "level": "kindergarten",
+   "deck": "picture-sort-animals-vs-clothing"
+  },
+  {
+   "slug": "picture-sort-animals-vs-desserts-and-sweets",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-desserts_and_sweets",
+   "level": "kindergarten",
+   "deck": "picture-sort-animals-vs-desserts-and-sweets"
+  },
+  {
+   "slug": "picture-sort-animals-vs-dinosaurs",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-dinosaurs",
+   "level": "kindergarten",
+   "deck": "picture-sort-animals-vs-dinosaurs"
+  },
+  {
+   "slug": "picture-sort-animals-vs-flowers",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-flowers",
+   "level": "kindergarten",
+   "deck": "picture-sort-animals-vs-flowers"
+  },
+  {
+   "slug": "picture-sort-animals-vs-fruits",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-fruits",
+   "level": "kindergarten",
+   "deck": "picture-sort-animals-vs-fruits"
+  },
+  {
+   "slug": "picture-sort-animals-vs-furniture",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-furniture",
+   "level": "kindergarten",
+   "deck": "picture-sort-animals-vs-furniture"
+  },
+  {
+   "slug": "picture-sort-animals-vs-kitchen-tools",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-kitchen_tools",
+   "level": "kindergarten",
+   "deck": "picture-sort-animals-vs-kitchen-tools"
+  },
+  {
+   "slug": "picture-sort-animals-vs-music",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-music",
+   "level": "kindergarten",
+   "deck": "picture-sort-animals-vs-music"
+  },
+  {
+   "slug": "picture-sort-animals-vs-ocean-life",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-ocean_life",
+   "level": "kindergarten",
+   "deck": "picture-sort-animals-vs-ocean-life"
+  },
+  {
+   "slug": "picture-sort-animals-vs-shapes",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-shapes",
+   "level": "kindergarten",
+   "deck": "picture-sort-animals-vs-shapes"
+  },
+  {
+   "slug": "picture-sort-animals-vs-space",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-space",
+   "level": "kindergarten",
+   "deck": "picture-sort-animals-vs-space"
+  },
+  {
+   "slug": "picture-sort-animals-vs-tools",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-tools",
+   "level": "kindergarten",
+   "deck": "picture-sort-animals-vs-tools"
+  },
+  {
+   "slug": "picture-sort-animals-vs-toys",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-toys",
+   "level": "kindergarten",
+   "deck": "picture-sort-animals-vs-toys"
+  },
+  {
+   "slug": "picture-sort-animals-vs-tree",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-tree",
+   "level": "kindergarten",
+   "deck": "picture-sort-animals-vs-tree"
+  },
+  {
+   "slug": "picture-sort-animals-vs-vegetables",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-vegetables",
+   "level": "kindergarten",
+   "deck": "picture-sort-animals-vs-vegetables"
+  },
+  {
+   "slug": "picture-sort-animals-vs-vehicles",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-vehicles",
+   "level": "kindergarten",
+   "deck": "picture-sort-animals-vs-vehicles"
+  },
+  {
+   "slug": "picture-sort-at-the-supermarket-vs-birds",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-birds",
+   "level": "kindergarten",
+   "deck": "picture-sort-at-the-supermarket-vs-birds"
+  },
+  {
+   "slug": "picture-sort-at-the-supermarket-vs-clothing",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-clothing",
+   "level": "kindergarten",
+   "deck": "picture-sort-at-the-supermarket-vs-clothing"
+  },
+  {
+   "slug": "picture-sort-at-the-supermarket-vs-dinosaurs",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-dinosaurs",
+   "level": "kindergarten",
+   "deck": "picture-sort-at-the-supermarket-vs-dinosaurs"
+  },
+  {
+   "slug": "picture-sort-at-the-supermarket-vs-farm-animals",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-farm_animals",
+   "level": "kindergarten",
+   "deck": "picture-sort-at-the-supermarket-vs-farm-animals"
+  },
+  {
+   "slug": "picture-sort-at-the-supermarket-vs-flowers",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-flowers",
+   "level": "kindergarten",
+   "deck": "picture-sort-at-the-supermarket-vs-flowers"
+  },
+  {
+   "slug": "picture-sort-at-the-supermarket-vs-forest-creatures",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-forest_creatures",
+   "level": "kindergarten",
+   "deck": "picture-sort-at-the-supermarket-vs-forest-creatures"
+  },
+  {
+   "slug": "picture-sort-at-the-supermarket-vs-furniture",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-furniture",
+   "level": "kindergarten",
+   "deck": "picture-sort-at-the-supermarket-vs-furniture"
+  },
+  {
+   "slug": "picture-sort-at-the-supermarket-vs-insects-and-bugs",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-insects_and_bugs",
+   "level": "kindergarten",
+   "deck": "picture-sort-at-the-supermarket-vs-insects-and-bugs"
+  },
+  {
+   "slug": "picture-sort-at-the-supermarket-vs-music",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-music",
+   "level": "kindergarten",
+   "deck": "picture-sort-at-the-supermarket-vs-music"
+  },
+  {
+   "slug": "picture-sort-at-the-supermarket-vs-ocean-life",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-ocean_life",
+   "level": "kindergarten",
+   "deck": "picture-sort-at-the-supermarket-vs-ocean-life"
+  },
+  {
+   "slug": "picture-sort-at-the-supermarket-vs-pets",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-pets",
+   "level": "kindergarten",
+   "deck": "picture-sort-at-the-supermarket-vs-pets"
+  },
+  {
+   "slug": "picture-sort-at-the-supermarket-vs-reptiles-and-amphibians",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-reptiles_and_amphibians",
+   "level": "kindergarten",
+   "deck": "picture-sort-at-the-supermarket-vs-reptiles-and-amphibians"
+  },
+  {
+   "slug": "picture-sort-at-the-supermarket-vs-shapes",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-shapes",
+   "level": "kindergarten",
+   "deck": "picture-sort-at-the-supermarket-vs-shapes"
+  },
+  {
+   "slug": "picture-sort-at-the-supermarket-vs-space",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-space",
+   "level": "kindergarten",
+   "deck": "picture-sort-at-the-supermarket-vs-space"
+  },
+  {
+   "slug": "picture-sort-at-the-supermarket-vs-things-that-fly",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-things_that_fly",
+   "level": "kindergarten",
+   "deck": "picture-sort-at-the-supermarket-vs-things-that-fly"
+  },
+  {
+   "slug": "picture-sort-at-the-supermarket-vs-tools",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-tools",
+   "level": "kindergarten",
+   "deck": "picture-sort-at-the-supermarket-vs-tools"
+  },
+  {
+   "slug": "picture-sort-at-the-supermarket-vs-toys",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-toys",
+   "level": "kindergarten",
+   "deck": "picture-sort-at-the-supermarket-vs-toys"
+  },
+  {
+   "slug": "picture-sort-at-the-supermarket-vs-tree",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-tree",
+   "level": "kindergarten",
+   "deck": "picture-sort-at-the-supermarket-vs-tree"
+  },
+  {
+   "slug": "picture-sort-at-the-supermarket-vs-vehicles",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-vehicles",
+   "level": "kindergarten",
+   "deck": "picture-sort-at-the-supermarket-vs-vehicles"
+  },
+  {
+   "slug": "picture-sort-at-the-supermarket-vs-zoo-animals",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-zoo_animals",
+   "level": "kindergarten",
+   "deck": "picture-sort-at-the-supermarket-vs-zoo-animals"
+  },
+  {
+   "slug": "picture-sort-bakery-vs-birds",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-birds",
+   "level": "kindergarten",
+   "deck": "picture-sort-bakery-vs-birds"
   }
  ]
 }

@@ -2,667 +2,583 @@
  "part": 278,
  "locale": "da",
  "classes": [
-  "big-small::orderAsc",
-  "chart-count::null"
+  "picture-sort::null"
  ],
- "splitOf": null,
- "count": 82,
+ "splitOf": {
+  "class": "picture-sort::null",
+  "total": 211,
+  "chunk": 2,
+  "chunks": 3
+ },
+ "count": 71,
  "pages": [
   {
-   "slug": "stor-lille-stigende-raekkefolge-bageri-b40b",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "bakery",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-bageri-b40b"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-blomster-c548",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "flowers",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-blomster-c548"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-bondegardsdyr-5a5a",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "farm_animals",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-bondegardsdyr-5a5a"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-camping-7a01",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "camping",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-camping-7a01"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-desserter-og-slik-9053",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "desserts_and_sweets",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-desserter-og-slik-9053"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-dinosaurer-51cd",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-dinosaurer-51cd"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-dyr-c723",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "animals",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-dyr-c723"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-erhverv-0508",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "occupations",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-erhverv-0508"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-former-1ea6",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "shapes",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-former-1ea6"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-frugter-1539",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "fruits",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-frugter-1539"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-fugle-1118",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "birds",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-fugle-1118"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-fugle-2-9cf8",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "birds_2",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-fugle-2-9cf8"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-grontsager-1623",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "vegetables",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-grontsager-1623"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-havliv-f23f",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "ocean_life",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-havliv-f23f"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-hospital-8dbe",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "hospital",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-hospital-8dbe"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-i-supermarkedet-d718",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "at_the_supermarket",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-i-supermarkedet-d718"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-insekter-og-kryb-02c3",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "insects_and_bugs",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-insekter-og-kryb-02c3"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-jul-b0c8",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "christmas",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-jul-b0c8"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-kaeledyr-4023",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "pets",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-kaeledyr-4023"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-klassevaerelse-3e00",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "classroom",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-klassevaerelse-3e00"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-kokkenredskaber-95d5",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "kitchen_tools",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-kokkenredskaber-95d5"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-koretojer-6583",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "vehicles",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-koretojer-6583"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-kropsdele-6294",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "body_parts",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-kropsdele-6294"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-krybdyr-og-padder-d8f5",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "reptiles_and_amphibians",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-krybdyr-og-padder-d8f5"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-legetoj-1a48",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "toys",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-legetoj-1a48"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-mobler-3a37",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "furniture",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-mobler-3a37"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-morgenmad-bf8e",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "breakfast",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-morgenmad-bf8e"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-musik-4336",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "music",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-musik-4336"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-paske-c73f",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "easter",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-paske-c73f"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-postkontor-068c",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "post_office",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-postkontor-068c"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-rummet-0148",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "space",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-rummet-0148"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-rundt-i-huset-d5a6",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "around_the_house",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-rundt-i-huset-d5a6"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-skovdyr-f3dc",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "forest_creatures",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-skovdyr-f3dc"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-strand-e937",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "beach",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-strand-e937"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-thanksgiving-3a1a",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "thanksgivinng",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-thanksgiving-3a1a"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-tilbehor-ec43",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "accessories",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-tilbehor-ec43"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-ting-der-flyver-6c7c",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "things_that_fly",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-ting-der-flyver-6c7c"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-toj-7f5d",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "clothing",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-toj-7f5d"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-traeer-8040",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "tree",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-traeer-8040"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-vaerktoj-f3a5",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "tools",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-vaerktoj-f3a5"
-  },
-  {
-   "slug": "stor-lille-stigende-raekkefolge-zoodyr-ad3b",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "zoo_animals",
-   "level": "boernehaveklasse",
-   "deck": "stor-lille-stigende-raekkefolge-zoodyr-ad3b"
-  },
-  {
-   "slug": "tael-i-diagram-bageri-8236",
-   "type": "chart-count",
+   "slug": "sorter-billeder-colors-vs-dinosaurs-e45d",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "bakery",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-bageri-8236"
+   "theme": "colors-vs-dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-colors-vs-dinosaurs-e45d"
   },
   {
-   "slug": "tael-i-diagram-blomster-2a8e",
-   "type": "chart-count",
+   "slug": "sorter-billeder-colors-vs-flowers-4859",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "flowers",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-blomster-2a8e"
+   "theme": "colors-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-colors-vs-flowers-4859"
   },
   {
-   "slug": "tael-i-diagram-bondegardsdyr-7649",
-   "type": "chart-count",
+   "slug": "sorter-billeder-colors-vs-vehicles-be14",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "farm_animals",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-bondegardsdyr-7649"
+   "theme": "colors-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-colors-vs-vehicles-be14"
   },
   {
-   "slug": "tael-i-diagram-camping-527f",
-   "type": "chart-count",
+   "slug": "sorter-billeder-desserts-and-sweets-vs-flowers-7bd9",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "camping",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-camping-527f"
+   "theme": "desserts_and_sweets-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-desserts-and-sweets-vs-flowers-7bd9"
   },
   {
-   "slug": "tael-i-diagram-desserter-og-slik-1033",
-   "type": "chart-count",
+   "slug": "sorter-billeder-dinosaurs-vs-bakery-f40a",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-desserter-og-slik-1033"
+   "theme": "dinosaurs-vs-bakery",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-dinosaurs-vs-bakery-f40a"
   },
   {
-   "slug": "tael-i-diagram-dinosaurer-5816",
-   "type": "chart-count",
+   "slug": "sorter-billeder-dinosaurs-vs-flowers-4f87",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "dinosaurs",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-dinosaurer-5816"
+   "theme": "dinosaurs-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-dinosaurs-vs-flowers-4f87"
   },
   {
-   "slug": "tael-i-diagram-dyr-16c1",
-   "type": "chart-count",
+   "slug": "sorter-billeder-dinosaurs-vs-vehicles-3ca5",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "animals",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-dyr-16c1"
+   "theme": "dinosaurs-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-dinosaurs-vs-vehicles-3ca5"
   },
   {
-   "slug": "tael-i-diagram-erhverv-c42e",
-   "type": "chart-count",
+   "slug": "sorter-billeder-easter-vs-bakery-c753",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "occupations",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-erhverv-c42e"
+   "theme": "easter-vs-bakery",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-easter-vs-bakery-c753"
   },
   {
-   "slug": "tael-i-diagram-farver-10f3",
-   "type": "chart-count",
+   "slug": "sorter-billeder-easter-vs-dinosaurs-10de",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "colors",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-farver-10f3"
+   "theme": "easter-vs-dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-easter-vs-dinosaurs-10de"
   },
   {
-   "slug": "tael-i-diagram-former-4ee7",
-   "type": "chart-count",
+   "slug": "sorter-billeder-easter-vs-vehicles-eb2c",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "shapes",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-former-4ee7"
+   "theme": "easter-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-easter-vs-vehicles-eb2c"
   },
   {
-   "slug": "tael-i-diagram-frugter-5777",
-   "type": "chart-count",
+   "slug": "sorter-billeder-emotions-vs-animals-2017",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "fruits",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-frugter-5777"
+   "theme": "emotions-vs-animals",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-emotions-vs-animals-2017"
   },
   {
-   "slug": "tael-i-diagram-fugle-2-5d14",
-   "type": "chart-count",
+   "slug": "sorter-billeder-emotions-vs-bakery-9402",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "birds_2",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-fugle-2-5d14"
+   "theme": "emotions-vs-bakery",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-emotions-vs-bakery-9402"
   },
   {
-   "slug": "tael-i-diagram-fugle-503c",
-   "type": "chart-count",
+   "slug": "sorter-billeder-emotions-vs-dinosaurs-17f0",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "birds",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-fugle-503c"
+   "theme": "emotions-vs-dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-emotions-vs-dinosaurs-17f0"
   },
   {
-   "slug": "tael-i-diagram-grontsager-289d",
-   "type": "chart-count",
+   "slug": "sorter-billeder-emotions-vs-flowers-66e2",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "vegetables",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-grontsager-289d"
+   "theme": "emotions-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-emotions-vs-flowers-66e2"
   },
   {
-   "slug": "tael-i-diagram-havliv-b0b2",
-   "type": "chart-count",
+   "slug": "sorter-billeder-emotions-vs-vehicles-93ad",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "ocean_life",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-havliv-b0b2"
+   "theme": "emotions-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-emotions-vs-vehicles-93ad"
   },
   {
-   "slug": "tael-i-diagram-hospital-9940",
-   "type": "chart-count",
+   "slug": "sorter-billeder-farm-animals-vs-dinosaurs-73a7",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "hospital",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-hospital-9940"
+   "theme": "farm_animals-vs-dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-farm-animals-vs-dinosaurs-73a7"
   },
   {
-   "slug": "tael-i-diagram-i-supermarkedet-4327",
-   "type": "chart-count",
+   "slug": "sorter-billeder-farm-animals-vs-flowers-66a2",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-i-supermarkedet-4327"
+   "theme": "farm_animals-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-farm-animals-vs-flowers-66a2"
   },
   {
-   "slug": "tael-i-diagram-insekter-og-kryb-1df7",
-   "type": "chart-count",
+   "slug": "sorter-billeder-farm-animals-vs-vehicles-ed0f",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-insekter-og-kryb-1df7"
+   "theme": "farm_animals-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-farm-animals-vs-vehicles-ed0f"
   },
   {
-   "slug": "tael-i-diagram-jul-063e",
-   "type": "chart-count",
+   "slug": "sorter-billeder-flowers-vs-animals-50ad",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "christmas",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-jul-063e"
+   "theme": "flowers-vs-animals",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-flowers-vs-animals-50ad"
   },
   {
-   "slug": "tael-i-diagram-kaeledyr-ad04",
-   "type": "chart-count",
+   "slug": "sorter-billeder-flowers-vs-bakery-48ee",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "pets",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-kaeledyr-ad04"
+   "theme": "flowers-vs-bakery",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-flowers-vs-bakery-48ee"
   },
   {
-   "slug": "tael-i-diagram-klassevaerelse-8cfe",
-   "type": "chart-count",
+   "slug": "sorter-billeder-flowers-vs-dinosaurs-65e0",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "classroom",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-klassevaerelse-8cfe"
+   "theme": "flowers-vs-dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-flowers-vs-dinosaurs-65e0"
   },
   {
-   "slug": "tael-i-diagram-kokkenredskaber-fad7",
-   "type": "chart-count",
+   "slug": "sorter-billeder-flowers-vs-vehicles-bb6a",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "kitchen_tools",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-kokkenredskaber-fad7"
+   "theme": "flowers-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-flowers-vs-vehicles-bb6a"
   },
   {
-   "slug": "tael-i-diagram-koretojer-571b",
-   "type": "chart-count",
+   "slug": "sorter-billeder-forest-creatures-vs-bakery-486e",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "vehicles",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-koretojer-571b"
+   "theme": "forest_creatures-vs-bakery",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-forest-creatures-vs-bakery-486e"
   },
   {
-   "slug": "tael-i-diagram-krybdyr-og-padder-c256",
-   "type": "chart-count",
+   "slug": "sorter-billeder-forest-creatures-vs-flowers-329e",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "reptiles_and_amphibians",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-krybdyr-og-padder-c256"
+   "theme": "forest_creatures-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-forest-creatures-vs-flowers-329e"
   },
   {
-   "slug": "tael-i-diagram-legetoj-8c1c",
-   "type": "chart-count",
+   "slug": "sorter-billeder-forest-creatures-vs-vehicles-ad4e",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "toys",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-legetoj-8c1c"
+   "theme": "forest_creatures-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-forest-creatures-vs-vehicles-ad4e"
   },
   {
-   "slug": "tael-i-diagram-mobler-c54f",
-   "type": "chart-count",
+   "slug": "sorter-billeder-fruits-vs-animals-2029",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "furniture",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-mobler-c54f"
+   "theme": "fruits-vs-animals",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-fruits-vs-animals-2029"
   },
   {
-   "slug": "tael-i-diagram-morgenmad-8e32",
-   "type": "chart-count",
+   "slug": "sorter-billeder-fruits-vs-bakery-e5ac",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "breakfast",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-morgenmad-8e32"
+   "theme": "fruits-vs-bakery",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-fruits-vs-bakery-e5ac"
   },
   {
-   "slug": "tael-i-diagram-musik-6fe3",
-   "type": "chart-count",
+   "slug": "sorter-billeder-fruits-vs-dinosaurs-b6c5",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "music",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-musik-6fe3"
+   "theme": "fruits-vs-dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-fruits-vs-dinosaurs-b6c5"
   },
   {
-   "slug": "tael-i-diagram-paske-bc07",
-   "type": "chart-count",
+   "slug": "sorter-billeder-fruits-vs-flowers-04a4",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "easter",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-paske-bc07"
+   "theme": "fruits-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-fruits-vs-flowers-04a4"
   },
   {
-   "slug": "tael-i-diagram-postkontor-2c1e",
-   "type": "chart-count",
+   "slug": "sorter-billeder-fruits-vs-vehicles-5c74",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "post_office",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-postkontor-2c1e"
+   "theme": "fruits-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-fruits-vs-vehicles-5c74"
   },
   {
-   "slug": "tael-i-diagram-rummet-2c80",
-   "type": "chart-count",
+   "slug": "sorter-billeder-furniture-vs-animals-33ce",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "space",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-rummet-2c80"
+   "theme": "furniture-vs-animals",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-furniture-vs-animals-33ce"
   },
   {
-   "slug": "tael-i-diagram-rundt-i-huset-f796",
-   "type": "chart-count",
+   "slug": "sorter-billeder-furniture-vs-bakery-aa98",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "around_the_house",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-rundt-i-huset-f796"
+   "theme": "furniture-vs-bakery",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-furniture-vs-bakery-aa98"
   },
   {
-   "slug": "tael-i-diagram-skovdyr-087a",
-   "type": "chart-count",
+   "slug": "sorter-billeder-furniture-vs-dinosaurs-a2d3",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "forest_creatures",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-skovdyr-087a"
+   "theme": "furniture-vs-dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-furniture-vs-dinosaurs-a2d3"
   },
   {
-   "slug": "tael-i-diagram-strand-d40a",
-   "type": "chart-count",
+   "slug": "sorter-billeder-furniture-vs-flowers-fea6",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "beach",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-strand-d40a"
+   "theme": "furniture-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-furniture-vs-flowers-fea6"
   },
   {
-   "slug": "tael-i-diagram-thanksgiving-4193",
-   "type": "chart-count",
+   "slug": "sorter-billeder-furniture-vs-vehicles-e692",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "thanksgivinng",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-thanksgiving-4193"
+   "theme": "furniture-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-furniture-vs-vehicles-e692"
   },
   {
-   "slug": "tael-i-diagram-tilbehor-58e6",
-   "type": "chart-count",
+   "slug": "sorter-billeder-hospital-vs-animals-f06b",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "accessories",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-tilbehor-58e6"
+   "theme": "hospital-vs-animals",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-hospital-vs-animals-f06b"
   },
   {
-   "slug": "tael-i-diagram-ting-der-flyver-6462",
-   "type": "chart-count",
+   "slug": "sorter-billeder-hospital-vs-bakery-d6dd",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "things_that_fly",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-ting-der-flyver-6462"
+   "theme": "hospital-vs-bakery",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-hospital-vs-bakery-d6dd"
   },
   {
-   "slug": "tael-i-diagram-toj-7d64",
-   "type": "chart-count",
+   "slug": "sorter-billeder-hospital-vs-dinosaurs-6206",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "clothing",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-toj-7d64"
+   "theme": "hospital-vs-dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-hospital-vs-dinosaurs-6206"
   },
   {
-   "slug": "tael-i-diagram-traeer-bae6",
-   "type": "chart-count",
+   "slug": "sorter-billeder-hospital-vs-flowers-ab41",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "tree",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-traeer-bae6"
+   "theme": "hospital-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-hospital-vs-flowers-ab41"
   },
   {
-   "slug": "tael-i-diagram-vaerktoj-aace",
-   "type": "chart-count",
+   "slug": "sorter-billeder-hospital-vs-vehicles-faea",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "tools",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-vaerktoj-aace"
+   "theme": "hospital-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-hospital-vs-vehicles-faea"
   },
   {
-   "slug": "tael-i-diagram-zoodyr-ae48",
-   "type": "chart-count",
+   "slug": "sorter-billeder-insects-and-bugs-vs-bakery-134e",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "zoo_animals",
-   "level": "1-klasse",
-   "deck": "tael-i-diagram-zoodyr-ae48"
+   "theme": "insects_and_bugs-vs-bakery",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-insects-and-bugs-vs-bakery-134e"
+  },
+  {
+   "slug": "sorter-billeder-insects-and-bugs-vs-dinosaurs-f3ce",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "insects_and_bugs-vs-dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-insects-and-bugs-vs-dinosaurs-f3ce"
+  },
+  {
+   "slug": "sorter-billeder-insects-and-bugs-vs-flowers-7555",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "insects_and_bugs-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-insects-and-bugs-vs-flowers-7555"
+  },
+  {
+   "slug": "sorter-billeder-insects-and-bugs-vs-vehicles-f3e6",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "insects_and_bugs-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-insects-and-bugs-vs-vehicles-f3e6"
+  },
+  {
+   "slug": "sorter-billeder-kitchen-tools-vs-animals-d731",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "kitchen_tools-vs-animals",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-kitchen-tools-vs-animals-d731"
+  },
+  {
+   "slug": "sorter-billeder-kitchen-tools-vs-bakery-e2fa",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "kitchen_tools-vs-bakery",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-kitchen-tools-vs-bakery-e2fa"
+  },
+  {
+   "slug": "sorter-billeder-kitchen-tools-vs-dinosaurs-5ea8",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "kitchen_tools-vs-dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-kitchen-tools-vs-dinosaurs-5ea8"
+  },
+  {
+   "slug": "sorter-billeder-kitchen-tools-vs-flowers-8975",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "kitchen_tools-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-kitchen-tools-vs-flowers-8975"
+  },
+  {
+   "slug": "sorter-billeder-music-vs-animals-4f4c",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "music-vs-animals",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-music-vs-animals-4f4c"
+  },
+  {
+   "slug": "sorter-billeder-music-vs-bakery-a74c",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "music-vs-bakery",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-music-vs-bakery-a74c"
+  },
+  {
+   "slug": "sorter-billeder-music-vs-dinosaurs-46a8",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "music-vs-dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-music-vs-dinosaurs-46a8"
+  },
+  {
+   "slug": "sorter-billeder-music-vs-flowers-4eac",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "music-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-music-vs-flowers-4eac"
+  },
+  {
+   "slug": "sorter-billeder-music-vs-vehicles-477d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "music-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-music-vs-vehicles-477d"
+  },
+  {
+   "slug": "sorter-billeder-occupations-vs-animals-fc6c",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "occupations-vs-animals",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-occupations-vs-animals-fc6c"
+  },
+  {
+   "slug": "sorter-billeder-occupations-vs-bakery-297c",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "occupations-vs-bakery",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-occupations-vs-bakery-297c"
+  },
+  {
+   "slug": "sorter-billeder-occupations-vs-dinosaurs-caea",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "occupations-vs-dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-occupations-vs-dinosaurs-caea"
+  },
+  {
+   "slug": "sorter-billeder-occupations-vs-flowers-a84b",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "occupations-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-occupations-vs-flowers-a84b"
+  },
+  {
+   "slug": "sorter-billeder-occupations-vs-vehicles-84cf",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "occupations-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-occupations-vs-vehicles-84cf"
+  },
+  {
+   "slug": "sorter-billeder-ocean-life-vs-bakery-4d49",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "ocean_life-vs-bakery",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-ocean-life-vs-bakery-4d49"
+  },
+  {
+   "slug": "sorter-billeder-ocean-life-vs-dinosaurs-f34d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "ocean_life-vs-dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-ocean-life-vs-dinosaurs-f34d"
+  },
+  {
+   "slug": "sorter-billeder-ocean-life-vs-flowers-eb48",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "ocean_life-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-ocean-life-vs-flowers-eb48"
+  },
+  {
+   "slug": "sorter-billeder-ocean-life-vs-vehicles-9b2e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "ocean_life-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-ocean-life-vs-vehicles-9b2e"
+  },
+  {
+   "slug": "sorter-billeder-pets-vs-bakery-1eee",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "pets-vs-bakery",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-pets-vs-bakery-1eee"
+  },
+  {
+   "slug": "sorter-billeder-pets-vs-dinosaurs-e31f",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "pets-vs-dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-pets-vs-dinosaurs-e31f"
+  },
+  {
+   "slug": "sorter-billeder-pets-vs-flowers-c3c2",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "pets-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-pets-vs-flowers-c3c2"
+  },
+  {
+   "slug": "sorter-billeder-pets-vs-vehicles-6300",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "pets-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-pets-vs-vehicles-6300"
+  },
+  {
+   "slug": "sorter-billeder-post-office-vs-animals-e521",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "post_office-vs-animals",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-post-office-vs-animals-e521"
+  },
+  {
+   "slug": "sorter-billeder-post-office-vs-bakery-a64c",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "post_office-vs-bakery",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-post-office-vs-bakery-a64c"
+  },
+  {
+   "slug": "sorter-billeder-post-office-vs-dinosaurs-5f34",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "post_office-vs-dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-post-office-vs-dinosaurs-5f34"
+  },
+  {
+   "slug": "sorter-billeder-post-office-vs-flowers-0459",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "post_office-vs-flowers",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-post-office-vs-flowers-0459"
+  },
+  {
+   "slug": "sorter-billeder-post-office-vs-vehicles-63c7",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "post_office-vs-vehicles",
+   "level": "boernehaveklasse",
+   "deck": "sorter-billeder-post-office-vs-vehicles-63c7"
   }
  ]
 }

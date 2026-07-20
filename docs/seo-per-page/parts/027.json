@@ -2,426 +2,811 @@
  "part": 27,
  "locale": "en",
  "classes": [
-  "math-worksheet::three-symbols-add-sub"
+  "addition::image-number",
+  "addition::mixed"
  ],
  "splitOf": null,
- "count": 52,
+ "count": 100,
  "pages": [
   {
-   "slug": "math-worksheet-4th-of-july",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-4th-of-july",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "4th_of_july",
-   "level": "grade-2",
-   "deck": "math-worksheet-4th-of-july-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-4th-of-july"
   },
   {
-   "slug": "math-worksheet-accessories",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-accessories",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "accessories",
-   "level": "grade-2",
-   "deck": "math-worksheet-accessories-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-accessories"
   },
   {
-   "slug": "math-worksheet-activities",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "activities",
-   "level": "grade-2",
-   "deck": "math-worksheet-activities-001"
-  },
-  {
-   "slug": "math-worksheet-animals",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-animals",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "animals",
-   "level": "grade-2",
-   "deck": "math-worksheet-animals-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-animals"
   },
   {
-   "slug": "math-worksheet-around-the-house",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-around-the-house",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "around_the_house",
-   "level": "grade-2",
-   "deck": "math-worksheet-around-the-house-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-around-the-house"
   },
   {
-   "slug": "math-worksheet-at-the-supermarket",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-at-the-supermarket",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "at_the_supermarket",
-   "level": "grade-2",
-   "deck": "math-worksheet-at-the-supermarket-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-at-the-supermarket"
   },
   {
-   "slug": "math-worksheet-bakery",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-bakery",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "bakery",
-   "level": "grade-2",
-   "deck": "math-worksheet-bakery-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-bakery"
   },
   {
-   "slug": "math-worksheet-beach",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-beach",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "beach",
-   "level": "grade-2",
-   "deck": "math-worksheet-beach-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-beach"
   },
   {
-   "slug": "math-worksheet-birds",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-birds",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "birds",
-   "level": "grade-2",
-   "deck": "math-worksheet-birds-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-birds"
   },
   {
-   "slug": "math-worksheet-birds-2",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "birds_2",
-   "level": "grade-2",
-   "deck": "math-worksheet-birds-2-001"
-  },
-  {
-   "slug": "math-worksheet-body-parts",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "body_parts",
-   "level": "grade-2",
-   "deck": "math-worksheet-body-parts-001"
-  },
-  {
-   "slug": "math-worksheet-breakfast",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-breakfast",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "breakfast",
-   "level": "grade-2",
-   "deck": "math-worksheet-breakfast-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-breakfast"
   },
   {
-   "slug": "math-worksheet-camping",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-camping",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "camping",
-   "level": "grade-2",
-   "deck": "math-worksheet-camping-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-camping"
   },
   {
-   "slug": "math-worksheet-christmas",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-christmas",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "christmas",
-   "level": "grade-2",
-   "deck": "math-worksheet-christmas-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-christmas"
   },
   {
-   "slug": "math-worksheet-classroom",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-classroom",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "classroom",
-   "level": "grade-2",
-   "deck": "math-worksheet-classroom-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-classroom"
   },
   {
-   "slug": "math-worksheet-clothing",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-clothing",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "clothing",
-   "level": "grade-2",
-   "deck": "math-worksheet-clothing-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-clothing"
   },
   {
-   "slug": "math-worksheet-colors",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "colors",
-   "level": "grade-2",
-   "deck": "math-worksheet-colors-001"
-  },
-  {
-   "slug": "math-worksheet-desserts-and-sweets",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-desserts-and-sweets",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "desserts_and_sweets",
-   "level": "grade-2",
-   "deck": "math-worksheet-desserts-and-sweets-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-desserts-and-sweets"
   },
   {
-   "slug": "math-worksheet-dinosaurs",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-dinosaurs",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "dinosaurs",
-   "level": "grade-2",
-   "deck": "math-worksheet-dinosaurs-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-dinosaurs"
   },
   {
-   "slug": "math-worksheet-easter",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-easter",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "easter",
-   "level": "grade-2",
-   "deck": "math-worksheet-easter-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-easter"
   },
   {
-   "slug": "math-worksheet-emotions",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "emotions",
-   "level": "grade-2",
-   "deck": "math-worksheet-emotions-001"
-  },
-  {
-   "slug": "math-worksheet-faces-bw",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-faces-bw",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "faces_bw",
-   "level": "grade-2",
-   "deck": "math-worksheet-faces-bw-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-faces-bw"
   },
   {
-   "slug": "math-worksheet-farm-animals",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-farm-animals",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "farm_animals",
-   "level": "grade-2",
-   "deck": "math-worksheet-farm-animals-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-farm-animals"
   },
   {
-   "slug": "math-worksheet-flowers",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-flowers",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "flowers",
-   "level": "grade-2",
-   "deck": "math-worksheet-flowers-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-flowers"
   },
   {
-   "slug": "math-worksheet-forest-creatures",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-forest-creatures",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "forest_creatures",
-   "level": "grade-2",
-   "deck": "math-worksheet-forest-creatures-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-forest-creatures"
   },
   {
-   "slug": "math-worksheet-fruits",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-fruits",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "fruits",
-   "level": "grade-2",
-   "deck": "math-worksheet-fruits-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-fruits"
   },
   {
-   "slug": "math-worksheet-furniture",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-furniture",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "furniture",
-   "level": "grade-2",
-   "deck": "math-worksheet-furniture-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-furniture"
   },
   {
-   "slug": "math-worksheet-hospital",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-hospital",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "hospital",
-   "level": "grade-2",
-   "deck": "math-worksheet-hospital-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-hospital"
   },
   {
-   "slug": "math-worksheet-insects-and-bugs",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-household-bw",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "household_bw",
+   "level": "kindergarten",
+   "deck": "addition-image-number-household-bw"
+  },
+  {
+   "slug": "addition-image-number-insects-and-bugs",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "insects_and_bugs",
-   "level": "grade-2",
-   "deck": "math-worksheet-insects-and-bugs-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-insects-and-bugs"
   },
   {
-   "slug": "math-worksheet-kitchen-tools",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-kitchen-bw",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "kitchen_bw",
+   "level": "kindergarten",
+   "deck": "addition-image-number-kitchen-bw"
+  },
+  {
+   "slug": "addition-image-number-kitchen-tools",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "kitchen_tools",
-   "level": "grade-2",
-   "deck": "math-worksheet-kitchen-tools-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-kitchen-tools"
   },
   {
-   "slug": "math-worksheet-miscellaneous",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-miscellaneous",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "miscellaneous",
-   "level": "grade-2",
-   "deck": "math-worksheet-miscellaneous-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-miscellaneous"
   },
   {
-   "slug": "math-worksheet-music",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-music",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "music",
-   "level": "grade-2",
-   "deck": "math-worksheet-music-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-music"
   },
   {
-   "slug": "math-worksheet-occupations",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-nature-bw",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "nature_bw",
+   "level": "kindergarten",
+   "deck": "addition-image-number-nature-bw"
+  },
+  {
+   "slug": "addition-image-number-objects-bw",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "objects_bw",
+   "level": "kindergarten",
+   "deck": "addition-image-number-objects-bw"
+  },
+  {
+   "slug": "addition-image-number-occupations",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "occupations",
-   "level": "grade-2",
-   "deck": "math-worksheet-occupations-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-occupations"
   },
   {
-   "slug": "math-worksheet-ocean-life",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-ocean-life",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "ocean_life",
-   "level": "grade-2",
-   "deck": "math-worksheet-ocean-life-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-ocean-life"
   },
   {
-   "slug": "math-worksheet-pets",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-pets",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "pets",
-   "level": "grade-2",
-   "deck": "math-worksheet-pets-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-pets"
   },
   {
-   "slug": "math-worksheet-post-office",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-post-office",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "post_office",
-   "level": "grade-2",
-   "deck": "math-worksheet-post-office-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-post-office"
   },
   {
-   "slug": "math-worksheet-reptiles-and-amphibians",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-reptiles-and-amphibians",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "reptiles_and_amphibians",
-   "level": "grade-2",
-   "deck": "math-worksheet-reptiles-and-amphibians-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-reptiles-and-amphibians"
   },
   {
-   "slug": "math-worksheet-shapes",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-sea-life-bw",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "sea_life_bw",
+   "level": "kindergarten",
+   "deck": "addition-image-number-sea-life-bw"
+  },
+  {
+   "slug": "addition-image-number-shapes",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "shapes",
-   "level": "grade-2",
-   "deck": "math-worksheet-shapes-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-shapes"
   },
   {
-   "slug": "math-worksheet-space",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-space",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "space",
-   "level": "grade-2",
-   "deck": "math-worksheet-space-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-space"
   },
   {
-   "slug": "math-worksheet-spring",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "spring",
-   "level": "grade-2",
-   "deck": "math-worksheet-spring-001"
+   "slug": "addition-image-number-sports-bw",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "sports_bw",
+   "level": "kindergarten",
+   "deck": "addition-image-number-sports-bw"
   },
   {
-   "slug": "math-worksheet-summer",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "summer",
-   "level": "grade-2",
-   "deck": "math-worksheet-summer-001"
+   "slug": "addition-image-number-thanksgiving",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "thanksgivinng",
+   "level": "kindergarten",
+   "deck": "addition-image-number-thanksgiving"
   },
   {
-   "slug": "math-worksheet-thanksgiving",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "thanksgiving",
-   "level": "grade-2",
-   "deck": "math-worksheet-thanksgiving-001"
-  },
-  {
-   "slug": "math-worksheet-things-that-fly",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-things-that-fly",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "things_that_fly",
-   "level": "grade-2",
-   "deck": "math-worksheet-things-that-fly-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-things-that-fly"
   },
   {
-   "slug": "math-worksheet-tools",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-tools",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "tools",
-   "level": "grade-2",
-   "deck": "math-worksheet-tools-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-tools"
   },
   {
-   "slug": "math-worksheet-toys",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-toys",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "toys",
-   "level": "grade-2",
-   "deck": "math-worksheet-toys-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-toys"
   },
   {
-   "slug": "math-worksheet-trees",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-travel-and-holiday-bw",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "travel_and_holiday_bw",
+   "level": "kindergarten",
+   "deck": "addition-image-number-travel-and-holiday-bw"
+  },
+  {
+   "slug": "addition-image-number-tree",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "tree",
-   "level": "grade-2",
-   "deck": "math-worksheet-tree-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-tree"
   },
   {
-   "slug": "math-worksheet-valentine-bw",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-valentine-bw",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "valentine_bw",
-   "level": "grade-2",
-   "deck": "math-worksheet-valentine-bw-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-valentine-bw"
   },
   {
-   "slug": "math-worksheet-vegetables",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-vegetables",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "vegetables",
-   "level": "grade-2",
-   "deck": "math-worksheet-vegetables-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-vegetables"
   },
   {
-   "slug": "math-worksheet-vehicles",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-vehicles",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "vehicles",
-   "level": "grade-2",
-   "deck": "math-worksheet-vehicles-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-vehicles"
   },
   {
-   "slug": "math-worksheet-weather",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "weather",
-   "level": "grade-2",
-   "deck": "math-worksheet-weather-001"
-  },
-  {
-   "slug": "math-worksheet-winter",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "winter",
-   "level": "grade-2",
-   "deck": "math-worksheet-winter-001"
-  },
-  {
-   "slug": "math-worksheet-zoo-animals",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "addition-image-number-zoo-animals",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "zoo_animals",
-   "level": "grade-2",
-   "deck": "math-worksheet-zoo-animals-001"
+   "level": "kindergarten",
+   "deck": "addition-image-number-zoo-animals"
+  },
+  {
+   "slug": "addition-mixed-4th-of-july",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "4th_of_july",
+   "level": "kindergarten",
+   "deck": "addition-mixed-4th-of-july"
+  },
+  {
+   "slug": "addition-mixed-accessories",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "kindergarten",
+   "deck": "addition-mixed-accessories"
+  },
+  {
+   "slug": "addition-mixed-animals",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "addition-mixed-animals"
+  },
+  {
+   "slug": "addition-mixed-apparel-bw",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "apparel_bw",
+   "level": "kindergarten",
+   "deck": "addition-mixed-apparel-bw"
+  },
+  {
+   "slug": "addition-mixed-around-the-house",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "kindergarten",
+   "deck": "addition-mixed-around-the-house"
+  },
+  {
+   "slug": "addition-mixed-at-the-supermarket",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "addition-mixed-at-the-supermarket"
+  },
+  {
+   "slug": "addition-mixed-bakery",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "kindergarten",
+   "deck": "addition-mixed-bakery"
+  },
+  {
+   "slug": "addition-mixed-beach",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "kindergarten",
+   "deck": "addition-mixed-beach"
+  },
+  {
+   "slug": "addition-mixed-birds-kindergarten",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "kindergarten",
+   "deck": "addition-mixed-birds"
+  },
+  {
+   "slug": "addition-mixed-breakfast",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "kindergarten",
+   "deck": "addition-mixed-breakfast"
+  },
+  {
+   "slug": "addition-mixed-christmas",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "kindergarten",
+   "deck": "addition-mixed-christmas"
+  },
+  {
+   "slug": "addition-mixed-classroom",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "kindergarten",
+   "deck": "addition-mixed-classroom"
+  },
+  {
+   "slug": "addition-mixed-clothing",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "kindergarten",
+   "deck": "addition-mixed-clothing"
+  },
+  {
+   "slug": "addition-mixed-desserts-and-sweets",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "kindergarten",
+   "deck": "addition-mixed-desserts-and-sweets"
+  },
+  {
+   "slug": "addition-mixed-dinosaurs",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "kindergarten",
+   "deck": "addition-mixed-dinosaurs"
+  },
+  {
+   "slug": "addition-mixed-easter",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "kindergarten",
+   "deck": "addition-mixed-easter"
+  },
+  {
+   "slug": "addition-mixed-education-bw",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "education_bw",
+   "level": "kindergarten",
+   "deck": "addition-mixed-education-bw"
+  },
+  {
+   "slug": "addition-mixed-faces-bw",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "faces_bw",
+   "level": "kindergarten",
+   "deck": "addition-mixed-faces-bw"
+  },
+  {
+   "slug": "addition-mixed-farm-animals",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "addition-mixed-farm-animals"
+  },
+  {
+   "slug": "addition-mixed-farm-bw",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "farm_bw",
+   "level": "kindergarten",
+   "deck": "addition-mixed-farm-bw"
+  },
+  {
+   "slug": "addition-mixed-flowers",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "kindergarten",
+   "deck": "addition-mixed-flowers"
+  },
+  {
+   "slug": "addition-mixed-forest-creatures",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "addition-mixed-forest-creatures"
+  },
+  {
+   "slug": "addition-mixed-fruits",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "kindergarten",
+   "deck": "addition-mixed-fruits"
+  },
+  {
+   "slug": "addition-mixed-furniture",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "kindergarten",
+   "deck": "addition-mixed-furniture"
+  },
+  {
+   "slug": "addition-mixed-home-bw",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "home_bw",
+   "level": "kindergarten",
+   "deck": "addition-mixed-home-bw"
+  },
+  {
+   "slug": "addition-mixed-hospital",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "kindergarten",
+   "deck": "addition-mixed-hospital"
+  },
+  {
+   "slug": "addition-mixed-household-bw",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "household_bw",
+   "level": "kindergarten",
+   "deck": "addition-mixed-household-bw"
+  },
+  {
+   "slug": "addition-mixed-insects-and-bugs",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "kindergarten",
+   "deck": "addition-mixed-insects-and-bugs"
+  },
+  {
+   "slug": "addition-mixed-kitchen-tools",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "kindergarten",
+   "deck": "addition-mixed-kitchen-tools"
+  },
+  {
+   "slug": "addition-mixed-miscellaneous",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "miscellaneous",
+   "level": "kindergarten",
+   "deck": "addition-mixed-miscellaneous"
+  },
+  {
+   "slug": "addition-mixed-music",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "kindergarten",
+   "deck": "addition-mixed-music"
+  },
+  {
+   "slug": "addition-mixed-nature-bw",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "nature_bw",
+   "level": "kindergarten",
+   "deck": "addition-mixed-nature-bw"
+  },
+  {
+   "slug": "addition-mixed-objects-bw",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "objects_bw",
+   "level": "kindergarten",
+   "deck": "addition-mixed-objects-bw"
+  },
+  {
+   "slug": "addition-mixed-occupations",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "kindergarten",
+   "deck": "addition-mixed-occupations"
+  },
+  {
+   "slug": "addition-mixed-ocean-life",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "kindergarten",
+   "deck": "addition-mixed-ocean-life"
+  },
+  {
+   "slug": "addition-mixed-pets",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "kindergarten",
+   "deck": "addition-mixed-pets"
+  },
+  {
+   "slug": "addition-mixed-post-office",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "kindergarten",
+   "deck": "addition-mixed-post-office"
+  },
+  {
+   "slug": "addition-mixed-reptiles-and-amphibians",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "kindergarten",
+   "deck": "addition-mixed-reptiles-and-amphibians"
+  },
+  {
+   "slug": "addition-mixed-sea-life-bw",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "sea_life_bw",
+   "level": "kindergarten",
+   "deck": "addition-mixed-sea-life-bw"
+  },
+  {
+   "slug": "addition-mixed-shapes",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "kindergarten",
+   "deck": "addition-mixed-shapes"
+  },
+  {
+   "slug": "addition-mixed-space",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "kindergarten",
+   "deck": "addition-mixed-space"
+  },
+  {
+   "slug": "addition-mixed-thanksgiving",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "kindergarten",
+   "deck": "addition-mixed-thanksgiving"
+  },
+  {
+   "slug": "addition-mixed-things-that-fly",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "kindergarten",
+   "deck": "addition-mixed-things-that-fly"
+  },
+  {
+   "slug": "addition-mixed-tools",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "kindergarten",
+   "deck": "addition-mixed-tools"
+  },
+  {
+   "slug": "addition-mixed-toys",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "kindergarten",
+   "deck": "addition-mixed-toys"
+  },
+  {
+   "slug": "addition-mixed-tree",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "kindergarten",
+   "deck": "addition-mixed-tree"
+  },
+  {
+   "slug": "addition-mixed-valentine-bw",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "valentine_bw",
+   "level": "kindergarten",
+   "deck": "addition-mixed-valentine-bw"
+  },
+  {
+   "slug": "addition-mixed-vegetables",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "kindergarten",
+   "deck": "addition-mixed-vegetables"
+  },
+  {
+   "slug": "addition-mixed-vehicles",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "kindergarten",
+   "deck": "addition-mixed-vehicles"
+  },
+  {
+   "slug": "addition-mixed-zoo-animals",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "kindergarten",
+   "deck": "addition-mixed-zoo-animals"
   }
  ]
 }

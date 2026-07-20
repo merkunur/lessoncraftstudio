@@ -2,747 +2,659 @@
  "part": 211,
  "locale": "nl",
  "classes": [
-  "word-guess::normal",
-  "word-scramble::normal"
+  "math-puzzle::subtraction",
+  "math-puzzle::addition"
  ],
  "splitOf": null,
- "count": 92,
+ "count": 81,
  "pages": [
   {
-   "slug": "woord-raden-normaal-accessoires-4a2f",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-accessoires-607e",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "accessories",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-accessoires-4a2f"
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-accessoires-607e"
   },
   {
-   "slug": "woord-raden-normaal-activiteiten-2fae",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "activities",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-activiteiten-2fae"
-  },
-  {
-   "slug": "woord-raden-normaal-bakkerij-d5fd",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-bakkerij-fa85",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "bakery",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-bakkerij-d5fd"
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-bakkerij-fa85"
   },
   {
-   "slug": "woord-raden-normaal-beroepen-bab4",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-beroepen-6bca",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "occupations",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-beroepen-bab4"
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-beroepen-6bca"
   },
   {
-   "slug": "woord-raden-normaal-boerderijdieren-cbc9",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "farm_animals",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-boerderijdieren-cbc9"
-  },
-  {
-   "slug": "woord-raden-normaal-bomen-6645",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "tree",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-bomen-6645"
-  },
-  {
-   "slug": "woord-raden-normaal-boswezens-5237",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "forest_creatures",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-boswezens-5237"
-  },
-  {
-   "slug": "woord-raden-normaal-desserts-en-snoep-cc2c",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "desserts_and_sweets",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-desserts-en-snoep-cc2c"
-  },
-  {
-   "slug": "woord-raden-normaal-dieren-bb8f",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "animals",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-dieren-bb8f"
-  },
-  {
-   "slug": "woord-raden-normaal-dierentuindieren-2aa9",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "zoo_animals",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-dierentuindieren-2aa9"
-  },
-  {
-   "slug": "woord-raden-normaal-dingen-die-vliegen-7877",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "things_that_fly",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-dingen-die-vliegen-7877"
-  },
-  {
-   "slug": "woord-raden-normaal-emoties-ce6d",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "emotions",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-emoties-ce6d"
-  },
-  {
-   "slug": "woord-raden-normaal-fruit-995d",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "fruits",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-fruit-995d"
-  },
-  {
-   "slug": "woord-raden-normaal-gereedschap-0189",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "tools",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-gereedschap-0189"
-  },
-  {
-   "slug": "woord-raden-normaal-groenten-3933",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "vegetables",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-groenten-3933"
-  },
-  {
-   "slug": "woord-raden-normaal-huisdieren-af7e",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "pets",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-huisdieren-af7e"
-  },
-  {
-   "slug": "woord-raden-normaal-in-de-supermarkt-a8e8",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "at_the_supermarket",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-in-de-supermarkt-a8e8"
-  },
-  {
-   "slug": "woord-raden-normaal-insecten-en-beestjes-6077",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "insects_and_bugs",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-insecten-en-beestjes-6077"
-  },
-  {
-   "slug": "woord-raden-normaal-kamperen-5f5f",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "camping",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-kamperen-5f5f"
-  },
-  {
-   "slug": "woord-raden-normaal-kerstmis-6843",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "christmas",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-kerstmis-6843"
-  },
-  {
-   "slug": "woord-raden-normaal-keukengerei-49fc",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "kitchen_tools",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-keukengerei-49fc"
-  },
-  {
-   "slug": "woord-raden-normaal-klaslokaal-ffb6",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "classroom",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-klaslokaal-ffb6"
-  },
-  {
-   "slug": "woord-raden-normaal-kleding-1ef1",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "clothing",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-kleding-1ef1"
-  },
-  {
-   "slug": "woord-raden-normaal-kleuren-71a9",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "colors",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-kleuren-71a9"
-  },
-  {
-   "slug": "woord-raden-normaal-lente-83f2",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "spring",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-lente-83f2"
-  },
-  {
-   "slug": "woord-raden-normaal-lichaamsdelen-4971",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "body_parts",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-lichaamsdelen-4971"
-  },
-  {
-   "slug": "woord-raden-normaal-meubels-80ab",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "furniture",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-meubels-80ab"
-  },
-  {
-   "slug": "woord-raden-normaal-muziek-8fe8",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "music",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-muziek-8fe8"
-  },
-  {
-   "slug": "woord-raden-normaal-oceaanleven-56ce",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "ocean_life",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-oceaanleven-56ce"
-  },
-  {
-   "slug": "woord-raden-normaal-ontbijt-7cf8",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "breakfast",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-ontbijt-7cf8"
-  },
-  {
-   "slug": "woord-raden-normaal-pasen-6bae",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "easter",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-pasen-6bae"
-  },
-  {
-   "slug": "woord-raden-normaal-postkantoor-9a22",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "post_office",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-postkantoor-9a22"
-  },
-  {
-   "slug": "woord-raden-normaal-reptielen-en-amfibieen-faa3",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "reptiles_and_amphibians",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-reptielen-en-amfibieen-faa3"
-  },
-  {
-   "slug": "woord-raden-normaal-rond-het-huis-952c",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "around_the_house",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-rond-het-huis-952c"
-  },
-  {
-   "slug": "woord-raden-normaal-ruimte-2975",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "space",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-ruimte-2975"
-  },
-  {
-   "slug": "woord-raden-normaal-speelgoed-f549",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "toys",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-speelgoed-f549"
-  },
-  {
-   "slug": "woord-raden-normaal-strand-12d6",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "beach",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-strand-12d6"
-  },
-  {
-   "slug": "woord-raden-normaal-thanksgiving-6f1d",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "thanksgivinng",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-thanksgiving-6f1d"
-  },
-  {
-   "slug": "woord-raden-normaal-voertuigen-fe6c",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "vehicles",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-voertuigen-fe6c"
-  },
-  {
-   "slug": "woord-raden-normaal-vogels-148d",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "birds",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-vogels-148d"
-  },
-  {
-   "slug": "woord-raden-normaal-vogels-2-a492",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "birds_2",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-vogels-2-a492"
-  },
-  {
-   "slug": "woord-raden-normaal-vormen-bc51",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "shapes",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-vormen-bc51"
-  },
-  {
-   "slug": "woord-raden-normaal-weer-84e4",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "weather",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-weer-84e4"
-  },
-  {
-   "slug": "woord-raden-normaal-winter-bdd9",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "winter",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-winter-bdd9"
-  },
-  {
-   "slug": "woord-raden-normaal-ziekenhuis-3133",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "hospital",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-ziekenhuis-3133"
-  },
-  {
-   "slug": "woord-raden-normaal-zomer-10d2",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "summer",
-   "level": "groep-4",
-   "deck": "woord-raden-normaal-zomer-10d2"
-  },
-  {
-   "slug": "woordpuzzel-normaal-accessoires-9616",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "accessories",
-   "level": "groep-4",
-   "deck": "woordpuzzel-normaal-accessoires-9616"
-  },
-  {
-   "slug": "woordpuzzel-normaal-activiteiten-f710",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "activities",
-   "level": "groep-4",
-   "deck": "woordpuzzel-normaal-activiteiten-f710"
-  },
-  {
-   "slug": "woordpuzzel-normaal-bakkerij-0177",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "bakery",
-   "level": "groep-4",
-   "deck": "woordpuzzel-normaal-bakkerij-0177"
-  },
-  {
-   "slug": "woordpuzzel-normaal-beroepen-4f76",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "occupations",
-   "level": "groep-4",
-   "deck": "woordpuzzel-normaal-beroepen-4f76"
-  },
-  {
-   "slug": "woordpuzzel-normaal-bloemen-702b",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-bloemen-0b6f",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "flowers",
-   "level": "groep-4",
-   "deck": "woordpuzzel-normaal-bloemen-702b"
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-bloemen-0b6f"
   },
   {
-   "slug": "woordpuzzel-normaal-boerderijdieren-a75a",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-boerderijdieren-0748",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "farm_animals",
    "level": "groep-4",
-   "deck": "woordpuzzel-normaal-boerderijdieren-a75a"
+   "deck": "rekenpuzzel-aftrekken-boerderijdieren-0748"
   },
   {
-   "slug": "woordpuzzel-normaal-boswezens-fbed",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-bomen-50ea",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "tree",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-bomen-50ea"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-boswezens-1d13",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "forest_creatures",
    "level": "groep-4",
-   "deck": "woordpuzzel-normaal-boswezens-fbed"
+   "deck": "rekenpuzzel-aftrekken-boswezens-1d13"
   },
   {
-   "slug": "woordpuzzel-normaal-desserts-en-snoep-b69b",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-desserts-en-snoep-702d",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "desserts_and_sweets",
-   "level": "groep-4",
-   "deck": "woordpuzzel-normaal-desserts-en-snoep-b69b"
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-desserts-en-snoep-702d"
   },
   {
-   "slug": "woordpuzzel-normaal-dieren-64e1",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-dieren-a03a",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "animals",
    "level": "groep-4",
-   "deck": "woordpuzzel-normaal-dieren-64e1"
+   "deck": "rekenpuzzel-aftrekken-dieren-a03a"
   },
   {
-   "slug": "woordpuzzel-normaal-dierentuindieren-c308",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-dierentuindieren-5d18",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "zoo_animals",
    "level": "groep-4",
-   "deck": "woordpuzzel-normaal-dierentuindieren-c308"
+   "deck": "rekenpuzzel-aftrekken-dierentuindieren-5d18"
   },
   {
-   "slug": "woordpuzzel-normaal-dingen-die-vliegen-71b3",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-dingen-die-vliegen-6f21",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "things_that_fly",
    "level": "groep-4",
-   "deck": "woordpuzzel-normaal-dingen-die-vliegen-71b3"
+   "deck": "rekenpuzzel-aftrekken-dingen-die-vliegen-6f21"
   },
   {
-   "slug": "woordpuzzel-normaal-emoties-504e",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "emotions",
+   "slug": "rekenpuzzel-aftrekken-dinosaurussen-5155",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "dinosaurs",
    "level": "groep-4",
-   "deck": "woordpuzzel-normaal-emoties-504e"
+   "deck": "rekenpuzzel-aftrekken-dinosaurussen-5155"
   },
   {
-   "slug": "woordpuzzel-normaal-fruit-e0bb",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-diversen-d6af",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "miscellaneous",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-diversen-d6af"
+  },
+  {
+   "slug": "rekenpuzzel-aftrekken-fruit-aa55",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "fruits",
-   "level": "groep-4",
-   "deck": "woordpuzzel-normaal-fruit-e0bb"
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-fruit-aa55"
   },
   {
-   "slug": "woordpuzzel-normaal-gereedschap-0f25",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-gereedschap-3add",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "tools",
    "level": "groep-4",
-   "deck": "woordpuzzel-normaal-gereedschap-0f25"
+   "deck": "rekenpuzzel-aftrekken-gereedschap-3add"
   },
   {
-   "slug": "woordpuzzel-normaal-groenten-73fc",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-groenten-b73b",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "vegetables",
-   "level": "groep-4",
-   "deck": "woordpuzzel-normaal-groenten-73fc"
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-groenten-b73b"
   },
   {
-   "slug": "woordpuzzel-normaal-huisdieren-c56f",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-huisdieren-b9a9",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "pets",
-   "level": "groep-4",
-   "deck": "woordpuzzel-normaal-huisdieren-c56f"
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-huisdieren-b9a9"
   },
   {
-   "slug": "woordpuzzel-normaal-in-de-supermarkt-3930",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-in-de-supermarkt-1983",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "at_the_supermarket",
-   "level": "groep-4",
-   "deck": "woordpuzzel-normaal-in-de-supermarkt-3930"
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-in-de-supermarkt-1983"
   },
   {
-   "slug": "woordpuzzel-normaal-insecten-en-beestjes-2b87",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-insecten-en-beestjes-1446",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "insects_and_bugs",
    "level": "groep-4",
-   "deck": "woordpuzzel-normaal-insecten-en-beestjes-2b87"
+   "deck": "rekenpuzzel-aftrekken-insecten-en-beestjes-1446"
   },
   {
-   "slug": "woordpuzzel-normaal-kamperen-5170",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-kamperen-26a2",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "camping",
-   "level": "groep-4",
-   "deck": "woordpuzzel-normaal-kamperen-5170"
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-kamperen-26a2"
   },
   {
-   "slug": "woordpuzzel-normaal-kerstmis-f3f7",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-kerstmis-9600",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "christmas",
    "level": "groep-4",
-   "deck": "woordpuzzel-normaal-kerstmis-f3f7"
+   "deck": "rekenpuzzel-aftrekken-kerstmis-9600"
   },
   {
-   "slug": "woordpuzzel-normaal-keukengerei-59a3",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-keukengerei-7c68",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "kitchen_tools",
    "level": "groep-4",
-   "deck": "woordpuzzel-normaal-keukengerei-59a3"
+   "deck": "rekenpuzzel-aftrekken-keukengerei-7c68"
   },
   {
-   "slug": "woordpuzzel-normaal-klaslokaal-c91f",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-klaslokaal-8464",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "classroom",
-   "level": "groep-4",
-   "deck": "woordpuzzel-normaal-klaslokaal-c91f"
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-klaslokaal-8464"
   },
   {
-   "slug": "woordpuzzel-normaal-kleding-2832",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-kleding-1b5c",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "clothing",
    "level": "groep-4",
-   "deck": "woordpuzzel-normaal-kleding-2832"
+   "deck": "rekenpuzzel-aftrekken-kleding-1b5c"
   },
   {
-   "slug": "woordpuzzel-normaal-kleuren-afe5",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "colors",
-   "level": "groep-4",
-   "deck": "woordpuzzel-normaal-kleuren-afe5"
-  },
-  {
-   "slug": "woordpuzzel-normaal-lente-4760",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "spring",
-   "level": "groep-4",
-   "deck": "woordpuzzel-normaal-lente-4760"
-  },
-  {
-   "slug": "woordpuzzel-normaal-lichaamsdelen-fb57",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "body_parts",
-   "level": "groep-4",
-   "deck": "woordpuzzel-normaal-lichaamsdelen-fb57"
-  },
-  {
-   "slug": "woordpuzzel-normaal-meubels-8c1b",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-meubels-f769",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "furniture",
-   "level": "groep-4",
-   "deck": "woordpuzzel-normaal-meubels-8c1b"
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-meubels-f769"
   },
   {
-   "slug": "woordpuzzel-normaal-muziek-f22b",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-muziek-a2c1",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "music",
    "level": "groep-4",
-   "deck": "woordpuzzel-normaal-muziek-f22b"
+   "deck": "rekenpuzzel-aftrekken-muziek-a2c1"
   },
   {
-   "slug": "woordpuzzel-normaal-oceaanleven-fd4d",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-oceaanleven-bddc",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "ocean_life",
-   "level": "groep-4",
-   "deck": "woordpuzzel-normaal-oceaanleven-fd4d"
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-oceaanleven-bddc"
   },
   {
-   "slug": "woordpuzzel-normaal-ontbijt-2f17",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-ontbijt-a90d",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "breakfast",
    "level": "groep-4",
-   "deck": "woordpuzzel-normaal-ontbijt-2f17"
+   "deck": "rekenpuzzel-aftrekken-ontbijt-a90d"
   },
   {
-   "slug": "woordpuzzel-normaal-pasen-c222",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-pasen-9a12",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "easter",
-   "level": "groep-4",
-   "deck": "woordpuzzel-normaal-pasen-c222"
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-pasen-9a12"
   },
   {
-   "slug": "woordpuzzel-normaal-postkantoor-69af",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-postkantoor-24ef",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "post_office",
-   "level": "groep-4",
-   "deck": "woordpuzzel-normaal-postkantoor-69af"
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-postkantoor-24ef"
   },
   {
-   "slug": "woordpuzzel-normaal-reptielen-en-amfibieen-de16",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-reptielen-en-amfibieen-378f",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "reptiles_and_amphibians",
-   "level": "groep-4",
-   "deck": "woordpuzzel-normaal-reptielen-en-amfibieen-de16"
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-reptielen-en-amfibieen-378f"
   },
   {
-   "slug": "woordpuzzel-normaal-rond-het-huis-d9d7",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-rond-het-huis-07a5",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "around_the_house",
-   "level": "groep-4",
-   "deck": "woordpuzzel-normaal-rond-het-huis-d9d7"
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-rond-het-huis-07a5"
   },
   {
-   "slug": "woordpuzzel-normaal-ruimte-b3a2",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-ruimte-b5b2",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "space",
    "level": "groep-4",
-   "deck": "woordpuzzel-normaal-ruimte-b3a2"
+   "deck": "rekenpuzzel-aftrekken-ruimte-b5b2"
   },
   {
-   "slug": "woordpuzzel-normaal-speelgoed-3aca",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-speelgoed-cae6",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "toys",
-   "level": "groep-4",
-   "deck": "woordpuzzel-normaal-speelgoed-3aca"
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-speelgoed-cae6"
   },
   {
-   "slug": "woordpuzzel-normaal-strand-c6c1",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-strand-53c0",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "beach",
-   "level": "groep-4",
-   "deck": "woordpuzzel-normaal-strand-c6c1"
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-strand-53c0"
   },
   {
-   "slug": "woordpuzzel-normaal-thanksgiving-5555",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-thanksgiving-8d9e",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "thanksgivinng",
-   "level": "groep-4",
-   "deck": "woordpuzzel-normaal-thanksgiving-5555"
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-thanksgiving-8d9e"
   },
   {
-   "slug": "woordpuzzel-normaal-voertuigen-fed9",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-voertuigen-2136",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "vehicles",
-   "level": "groep-4",
-   "deck": "woordpuzzel-normaal-voertuigen-fed9"
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-voertuigen-2136"
   },
   {
-   "slug": "woordpuzzel-normaal-vogels-2-78f4",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-vogels-2-2db5",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "birds_2",
    "level": "groep-4",
-   "deck": "woordpuzzel-normaal-vogels-2-78f4"
+   "deck": "rekenpuzzel-aftrekken-vogels-2-2db5"
   },
   {
-   "slug": "woordpuzzel-normaal-vogels-2e9d",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-vogels-ae13",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "birds",
    "level": "groep-4",
-   "deck": "woordpuzzel-normaal-vogels-2e9d"
+   "deck": "rekenpuzzel-aftrekken-vogels-ae13"
   },
   {
-   "slug": "woordpuzzel-normaal-vormen-ced5",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-vormen-c9f8",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "shapes",
    "level": "groep-4",
-   "deck": "woordpuzzel-normaal-vormen-ced5"
+   "deck": "rekenpuzzel-aftrekken-vormen-c9f8"
   },
   {
-   "slug": "woordpuzzel-normaal-weer-4951",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "weather",
-   "level": "groep-4",
-   "deck": "woordpuzzel-normaal-weer-4951"
-  },
-  {
-   "slug": "woordpuzzel-normaal-winter-d00b",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "winter",
-   "level": "groep-4",
-   "deck": "woordpuzzel-normaal-winter-d00b"
-  },
-  {
-   "slug": "woordpuzzel-normaal-ziekenhuis-1df3",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "rekenpuzzel-aftrekken-ziekenhuis-c8ea",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "hospital",
-   "level": "groep-4",
-   "deck": "woordpuzzel-normaal-ziekenhuis-1df3"
+   "level": "groep-3",
+   "deck": "rekenpuzzel-aftrekken-ziekenhuis-c8ea"
   },
   {
-   "slug": "woordpuzzel-normaal-zomer-49b0",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "summer",
-   "level": "groep-4",
-   "deck": "woordpuzzel-normaal-zomer-49b0"
+   "slug": "rekenpuzzel-optellen-accessoires-b7e3",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "accessories",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-accessoires-b7e3"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-bakkerij-2d66",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "bakery",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-bakkerij-2d66"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-beroepen-0d25",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "occupations",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-beroepen-0d25"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-bloemen-b78a",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "flowers",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-bloemen-b78a"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-boerderijdieren-ac30",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "farm_animals",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-boerderijdieren-ac30"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-bomen-2e68",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "tree",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-bomen-2e68"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-boswezens-007f",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "forest_creatures",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-boswezens-007f"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-desserts-en-snoep-6d4a",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "desserts_and_sweets",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-desserts-en-snoep-6d4a"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-dieren-89e2",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "animals",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-dieren-89e2"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-dierentuindieren-24b5",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "zoo_animals",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-dierentuindieren-24b5"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-dingen-die-vliegen-2bb6",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "things_that_fly",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-dingen-die-vliegen-2bb6"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-dinosaurussen-cd7e",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "dinosaurs",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-dinosaurussen-cd7e"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-fruit-8728",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "fruits",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-fruit-8728"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-gereedschap-573a",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "tools",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-gereedschap-573a"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-groenten-8102",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "vegetables",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-groenten-8102"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-huisdieren-64e6",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "pets",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-huisdieren-64e6"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-in-de-supermarkt-2ba1",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "at_the_supermarket",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-in-de-supermarkt-2ba1"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-insecten-en-beestjes-154b",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "insects_and_bugs",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-insecten-en-beestjes-154b"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-kamperen-2e58",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "camping",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-kamperen-2e58"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-kerstmis-802a",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "christmas",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-kerstmis-802a"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-keukengerei-9e65",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "kitchen_tools",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-keukengerei-9e65"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-klaslokaal-81f2",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "classroom",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-klaslokaal-81f2"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-kleding-f1e4",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "clothing",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-kleding-f1e4"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-meubels-f48d",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "furniture",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-meubels-f48d"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-muziek-5723",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "music",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-muziek-5723"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-oceaanleven-a909",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "ocean_life",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-oceaanleven-a909"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-ontbijt-7e83",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "breakfast",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-ontbijt-7e83"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-pasen-9005",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "easter",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-pasen-9005"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-postkantoor-6131",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "post_office",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-postkantoor-6131"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-reptielen-en-amfibieen-d90e",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "reptiles_and_amphibians",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-reptielen-en-amfibieen-d90e"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-rond-het-huis-cb72",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "around_the_house",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-rond-het-huis-cb72"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-ruimte-030f",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "space",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-ruimte-030f"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-speelgoed-2186",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "toys",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-speelgoed-2186"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-strand-1a23",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "beach",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-strand-1a23"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-thanksgiving-5902",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "thanksgivinng",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-thanksgiving-5902"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-voertuigen-29f2",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "vehicles",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-voertuigen-29f2"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-vogels-2-9d5f",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "birds_2",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-vogels-2-9d5f"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-vogels-af85",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "birds",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-vogels-af85"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-vormen-559f",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "shapes",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-vormen-559f"
+  },
+  {
+   "slug": "rekenpuzzel-optellen-ziekenhuis-8ef2",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "hospital",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-optellen-ziekenhuis-8ef2"
   }
  ]
 }

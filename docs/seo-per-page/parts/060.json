@@ -2,755 +2,739 @@
  "part": 60,
  "locale": "de",
  "classes": [
-  "word-guess::normal",
-  "find-objects::find-odd"
+  "matching::name",
+  "matching::letter"
  ],
  "splitOf": null,
- "count": 93,
+ "count": 91,
  "pages": [
   {
-   "slug": "wort-raten-normal-accessoires-874b",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "englisch-zuordnung-namen-4-juli-017b",
+   "type": "matching",
+   "mode": "name",
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-4-juli-017b"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-accessoires-5a65",
+   "type": "matching",
+   "mode": "name",
+   "theme": "accessories",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-accessoires-5a65"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-aktivitaten-0a08",
+   "type": "matching",
+   "mode": "name",
+   "theme": "activities",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-aktivitaten-0a08"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-backerei-d770",
+   "type": "matching",
+   "mode": "name",
+   "theme": "bakery",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-backerei-d770"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-bauernhoftiere-5198",
+   "type": "matching",
+   "mode": "name",
+   "theme": "farm_animals",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-bauernhoftiere-5198"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-berufe-470d",
+   "type": "matching",
+   "mode": "name",
+   "theme": "occupations",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-berufe-470d"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-blumen-3ea8",
+   "type": "matching",
+   "mode": "name",
+   "theme": "flowers",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-blumen-3ea8"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-camping-7dd9",
+   "type": "matching",
+   "mode": "name",
+   "theme": "camping",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-camping-7dd9"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-desserts-und-sussigkeiten-e5a3",
+   "type": "matching",
+   "mode": "name",
+   "theme": "desserts_and_sweets",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-desserts-und-sussigkeiten-e5a3"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-dinge-die-fliegen-b452",
+   "type": "matching",
+   "mode": "name",
+   "theme": "things_that_fly",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-dinge-die-fliegen-b452"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-emotionen-d7e9",
+   "type": "matching",
+   "mode": "name",
+   "theme": "emotions",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-emotionen-d7e9"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-erntedankfest-0806",
+   "type": "matching",
+   "mode": "name",
+   "theme": "thanksgivinng",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-erntedankfest-0806"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-fahrzeuge-7a3f",
+   "type": "matching",
+   "mode": "name",
+   "theme": "vehicles",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-fahrzeuge-7a3f"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-farben-c3ad",
+   "type": "matching",
+   "mode": "name",
+   "theme": "colors",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-farben-c3ad"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-formen-35f2",
+   "type": "matching",
+   "mode": "name",
+   "theme": "shapes",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-formen-35f2"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-fruchte-bfee",
+   "type": "matching",
+   "mode": "name",
+   "theme": "fruits",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-fruchte-bfee"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-fruhling-93a6",
+   "type": "matching",
+   "mode": "name",
+   "theme": "spring",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-fruhling-93a6"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-fruhstuck-c00b",
+   "type": "matching",
+   "mode": "name",
+   "theme": "breakfast",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-fruhstuck-c00b"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-gemuse-0423",
+   "type": "matching",
+   "mode": "name",
+   "theme": "vegetables",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-gemuse-0423"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-haustiere-2f34",
+   "type": "matching",
+   "mode": "name",
+   "theme": "pets",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-haustiere-2f34"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-im-supermarkt-a1a5",
+   "type": "matching",
+   "mode": "name",
+   "theme": "at_the_supermarket",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-im-supermarkt-a1a5"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-insekten-und-kafer-3009",
+   "type": "matching",
+   "mode": "name",
+   "theme": "insects_and_bugs",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-insekten-und-kafer-3009"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-klassenzimmer-39b3",
+   "type": "matching",
+   "mode": "name",
+   "theme": "classroom",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-klassenzimmer-39b3"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-kleidung-c3a1",
+   "type": "matching",
+   "mode": "name",
+   "theme": "clothing",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-kleidung-c3a1"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-korperteile-97ca",
+   "type": "matching",
+   "mode": "name",
+   "theme": "body_parts",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-korperteile-97ca"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-krankenhaus-a0c3",
+   "type": "matching",
+   "mode": "name",
+   "theme": "hospital",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-krankenhaus-a0c3"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-kuchenwerkzeuge-5c8e",
+   "type": "matching",
+   "mode": "name",
+   "theme": "kitchen_tools",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-kuchenwerkzeuge-5c8e"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-meeresleben-e40e",
+   "type": "matching",
+   "mode": "name",
+   "theme": "ocean_life",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-meeresleben-e40e"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-mobel-0551",
+   "type": "matching",
+   "mode": "name",
+   "theme": "furniture",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-mobel-0551"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-musik-1803",
+   "type": "matching",
+   "mode": "name",
+   "theme": "music",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-musik-1803"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-ostern-5b85",
+   "type": "matching",
+   "mode": "name",
+   "theme": "easter",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-ostern-5b85"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-postamt-005f",
+   "type": "matching",
+   "mode": "name",
+   "theme": "post_office",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-postamt-005f"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-reptilien-und-amphibien-8b33",
+   "type": "matching",
+   "mode": "name",
+   "theme": "reptiles_and_amphibians",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-reptilien-und-amphibien-8b33"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-rund-ums-haus-1b74",
+   "type": "matching",
+   "mode": "name",
+   "theme": "around_the_house",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-rund-ums-haus-1b74"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-sommer-9467",
+   "type": "matching",
+   "mode": "name",
+   "theme": "summer",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-sommer-9467"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-spielzeug-1eaf",
+   "type": "matching",
+   "mode": "name",
+   "theme": "toys",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-spielzeug-1eaf"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-strand-0dd4",
+   "type": "matching",
+   "mode": "name",
+   "theme": "beach",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-strand-0dd4"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-tiere-038e",
+   "type": "matching",
+   "mode": "name",
+   "theme": "animals",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-tiere-038e"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-vogel-2-1df2",
+   "type": "matching",
+   "mode": "name",
+   "theme": "birds_2",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-vogel-2-1df2"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-vogel-e028",
+   "type": "matching",
+   "mode": "name",
+   "theme": "birds",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-vogel-e028"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-waldtiere-cdda",
+   "type": "matching",
+   "mode": "name",
+   "theme": "forest_creatures",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-waldtiere-cdda"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-weihnachten-c41e",
+   "type": "matching",
+   "mode": "name",
+   "theme": "christmas",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-weihnachten-c41e"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-weltraum-cd54",
+   "type": "matching",
+   "mode": "name",
+   "theme": "space",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-weltraum-cd54"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-werkzeuge-918b",
+   "type": "matching",
+   "mode": "name",
+   "theme": "tools",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-werkzeuge-918b"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-wetter-6872",
+   "type": "matching",
+   "mode": "name",
+   "theme": "weather",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-wetter-6872"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-winter-5292",
+   "type": "matching",
+   "mode": "name",
+   "theme": "winter",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-winter-5292"
+  },
+  {
+   "slug": "englisch-zuordnung-namen-zootiere-412a",
+   "type": "matching",
+   "mode": "name",
+   "theme": "zoo_animals",
+   "level": "language-beginner",
+   "deck": "englisch-zuordnung-namen-zootiere-412a"
+  },
+  {
+   "slug": "zuordnung-buchstaben-accessoires-e173",
+   "type": "matching",
+   "mode": "letter",
    "theme": "accessories",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-accessoires-874b"
+   "deck": "zuordnung-buchstaben-accessoires-e173"
   },
   {
-   "slug": "wort-raten-normal-aktivitaten-f161",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-aktivitaten-f211",
+   "type": "matching",
+   "mode": "letter",
    "theme": "activities",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-aktivitaten-f161"
+   "deck": "zuordnung-buchstaben-aktivitaten-f211"
   },
   {
-   "slug": "wort-raten-normal-backerei-c4fe",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-backerei-ad9b",
+   "type": "matching",
+   "mode": "letter",
    "theme": "bakery",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-backerei-c4fe"
+   "deck": "zuordnung-buchstaben-backerei-ad9b"
   },
   {
-   "slug": "wort-raten-normal-bauernhoftiere-226e",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-bauernhoftiere-b6d6",
+   "type": "matching",
+   "mode": "letter",
    "theme": "farm_animals",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-bauernhoftiere-226e"
+   "deck": "zuordnung-buchstaben-bauernhoftiere-b6d6"
   },
   {
-   "slug": "wort-raten-normal-baume-59a1",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "tree",
-   "level": "1-klasse",
-   "deck": "wort-raten-normal-baume-59a1"
-  },
-  {
-   "slug": "wort-raten-normal-berufe-1f22",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-berufe-ad67",
+   "type": "matching",
+   "mode": "letter",
    "theme": "occupations",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-berufe-1f22"
+   "deck": "zuordnung-buchstaben-berufe-ad67"
   },
   {
-   "slug": "wort-raten-normal-blumen-799f",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "flowers",
-   "level": "1-klasse",
-   "deck": "wort-raten-normal-blumen-799f"
-  },
-  {
-   "slug": "wort-raten-normal-camping-25b8",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-camping-6717",
+   "type": "matching",
+   "mode": "letter",
    "theme": "camping",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-camping-25b8"
+   "deck": "zuordnung-buchstaben-camping-6717"
   },
   {
-   "slug": "wort-raten-normal-desserts-und-sussigkeiten-d5b8",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-desserts-und-sussigkeiten-d966",
+   "type": "matching",
+   "mode": "letter",
    "theme": "desserts_and_sweets",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-desserts-und-sussigkeiten-d5b8"
+   "deck": "zuordnung-buchstaben-desserts-und-sussigkeiten-d966"
   },
   {
-   "slug": "wort-raten-normal-dinge-die-fliegen-c09e",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-dinge-die-fliegen-db06",
+   "type": "matching",
+   "mode": "letter",
    "theme": "things_that_fly",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-dinge-die-fliegen-c09e"
+   "deck": "zuordnung-buchstaben-dinge-die-fliegen-db06"
   },
   {
-   "slug": "wort-raten-normal-emotionen-4932",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-emotionen-f949",
+   "type": "matching",
+   "mode": "letter",
    "theme": "emotions",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-emotionen-4932"
+   "deck": "zuordnung-buchstaben-emotionen-f949"
   },
   {
-   "slug": "wort-raten-normal-erntedankfest-da05",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-erntedankfest-4d60",
+   "type": "matching",
+   "mode": "letter",
    "theme": "thanksgivinng",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-erntedankfest-da05"
+   "deck": "zuordnung-buchstaben-erntedankfest-4d60"
   },
   {
-   "slug": "wort-raten-normal-fahrzeuge-0f17",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-fahrzeuge-a63f",
+   "type": "matching",
+   "mode": "letter",
    "theme": "vehicles",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-fahrzeuge-0f17"
+   "deck": "zuordnung-buchstaben-fahrzeuge-a63f"
   },
   {
-   "slug": "wort-raten-normal-farben-2200",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-farben-8496",
+   "type": "matching",
+   "mode": "letter",
    "theme": "colors",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-farben-2200"
+   "deck": "zuordnung-buchstaben-farben-8496"
   },
   {
-   "slug": "wort-raten-normal-formen-00bc",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-formen-bebe",
+   "type": "matching",
+   "mode": "letter",
    "theme": "shapes",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-formen-00bc"
+   "deck": "zuordnung-buchstaben-formen-bebe"
   },
   {
-   "slug": "wort-raten-normal-fruchte-0fb6",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-fruchte-6a45",
+   "type": "matching",
+   "mode": "letter",
    "theme": "fruits",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-fruchte-0fb6"
+   "deck": "zuordnung-buchstaben-fruchte-6a45"
   },
   {
-   "slug": "wort-raten-normal-fruhling-483f",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-fruhling-b9c0",
+   "type": "matching",
+   "mode": "letter",
    "theme": "spring",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-fruhling-483f"
+   "deck": "zuordnung-buchstaben-fruhling-b9c0"
   },
   {
-   "slug": "wort-raten-normal-fruhstuck-ebaf",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-fruhstuck-1415",
+   "type": "matching",
+   "mode": "letter",
    "theme": "breakfast",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-fruhstuck-ebaf"
+   "deck": "zuordnung-buchstaben-fruhstuck-1415"
   },
   {
-   "slug": "wort-raten-normal-gemuse-f059",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-gemuse-01a1",
+   "type": "matching",
+   "mode": "letter",
    "theme": "vegetables",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-gemuse-f059"
+   "deck": "zuordnung-buchstaben-gemuse-01a1"
   },
   {
-   "slug": "wort-raten-normal-haustiere-bf0a",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-haustiere-c6d3",
+   "type": "matching",
+   "mode": "letter",
    "theme": "pets",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-haustiere-bf0a"
+   "deck": "zuordnung-buchstaben-haustiere-c6d3"
   },
   {
-   "slug": "wort-raten-normal-im-supermarkt-880e",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-im-supermarkt-3649",
+   "type": "matching",
+   "mode": "letter",
    "theme": "at_the_supermarket",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-im-supermarkt-880e"
+   "deck": "zuordnung-buchstaben-im-supermarkt-3649"
   },
   {
-   "slug": "wort-raten-normal-insekten-und-kafer-58ff",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-insekten-und-kafer-ec03",
+   "type": "matching",
+   "mode": "letter",
    "theme": "insects_and_bugs",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-insekten-und-kafer-58ff"
+   "deck": "zuordnung-buchstaben-insekten-und-kafer-ec03"
   },
   {
-   "slug": "wort-raten-normal-klassenzimmer-ab55",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-klassenzimmer-d29b",
+   "type": "matching",
+   "mode": "letter",
    "theme": "classroom",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-klassenzimmer-ab55"
+   "deck": "zuordnung-buchstaben-klassenzimmer-d29b"
   },
   {
-   "slug": "wort-raten-normal-kleidung-df5c",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-kleidung-6da7",
+   "type": "matching",
+   "mode": "letter",
    "theme": "clothing",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-kleidung-df5c"
+   "deck": "zuordnung-buchstaben-kleidung-6da7"
   },
   {
-   "slug": "wort-raten-normal-korperteile-5d9f",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-korperteile-cb93",
+   "type": "matching",
+   "mode": "letter",
    "theme": "body_parts",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-korperteile-5d9f"
+   "deck": "zuordnung-buchstaben-korperteile-cb93"
   },
   {
-   "slug": "wort-raten-normal-krankenhaus-9237",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-krankenhaus-7d44",
+   "type": "matching",
+   "mode": "letter",
    "theme": "hospital",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-krankenhaus-9237"
+   "deck": "zuordnung-buchstaben-krankenhaus-7d44"
   },
   {
-   "slug": "wort-raten-normal-kuchenwerkzeuge-7491",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-kuchenwerkzeuge-50fa",
+   "type": "matching",
+   "mode": "letter",
    "theme": "kitchen_tools",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-kuchenwerkzeuge-7491"
+   "deck": "zuordnung-buchstaben-kuchenwerkzeuge-50fa"
   },
   {
-   "slug": "wort-raten-normal-meeresleben-d899",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-meeresleben-bb34",
+   "type": "matching",
+   "mode": "letter",
    "theme": "ocean_life",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-meeresleben-d899"
+   "deck": "zuordnung-buchstaben-meeresleben-bb34"
   },
   {
-   "slug": "wort-raten-normal-mobel-f9f4",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-mobel-defc",
+   "type": "matching",
+   "mode": "letter",
    "theme": "furniture",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-mobel-f9f4"
+   "deck": "zuordnung-buchstaben-mobel-defc"
   },
   {
-   "slug": "wort-raten-normal-musik-cc9a",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-musik-84f3",
+   "type": "matching",
+   "mode": "letter",
    "theme": "music",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-musik-cc9a"
+   "deck": "zuordnung-buchstaben-musik-84f3"
   },
   {
-   "slug": "wort-raten-normal-ostern-312e",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-ostern-666c",
+   "type": "matching",
+   "mode": "letter",
    "theme": "easter",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-ostern-312e"
+   "deck": "zuordnung-buchstaben-ostern-666c"
   },
   {
-   "slug": "wort-raten-normal-postamt-ece9",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-postamt-14ee",
+   "type": "matching",
+   "mode": "letter",
    "theme": "post_office",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-postamt-ece9"
+   "deck": "zuordnung-buchstaben-postamt-14ee"
   },
   {
-   "slug": "wort-raten-normal-reptilien-und-amphibien-6a5e",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "reptiles_and_amphibians",
-   "level": "1-klasse",
-   "deck": "wort-raten-normal-reptilien-und-amphibien-6a5e"
-  },
-  {
-   "slug": "wort-raten-normal-rund-ums-haus-a5d0",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-rund-ums-haus-e1d1",
+   "type": "matching",
+   "mode": "letter",
    "theme": "around_the_house",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-rund-ums-haus-a5d0"
+   "deck": "zuordnung-buchstaben-rund-ums-haus-e1d1"
   },
   {
-   "slug": "wort-raten-normal-sommer-3f8b",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-sommer-1ee9",
+   "type": "matching",
+   "mode": "letter",
    "theme": "summer",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-sommer-3f8b"
+   "deck": "zuordnung-buchstaben-sommer-1ee9"
   },
   {
-   "slug": "wort-raten-normal-spielzeug-9070",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-spielzeug-3a6a",
+   "type": "matching",
+   "mode": "letter",
    "theme": "toys",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-spielzeug-9070"
+   "deck": "zuordnung-buchstaben-spielzeug-3a6a"
   },
   {
-   "slug": "wort-raten-normal-strand-396e",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-strand-8c02",
+   "type": "matching",
+   "mode": "letter",
    "theme": "beach",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-strand-396e"
+   "deck": "zuordnung-buchstaben-strand-8c02"
   },
   {
-   "slug": "wort-raten-normal-tiere-99d4",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-tiere-aa36",
+   "type": "matching",
+   "mode": "letter",
    "theme": "animals",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-tiere-99d4"
+   "deck": "zuordnung-buchstaben-tiere-aa36"
   },
   {
-   "slug": "wort-raten-normal-vogel-2-823f",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "birds_2",
-   "level": "1-klasse",
-   "deck": "wort-raten-normal-vogel-2-823f"
-  },
-  {
-   "slug": "wort-raten-normal-vogel-7e25",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "zuordnung-buchstaben-vogel-06a8",
+   "type": "matching",
+   "mode": "letter",
    "theme": "birds",
    "level": "1-klasse",
-   "deck": "wort-raten-normal-vogel-7e25"
+   "deck": "zuordnung-buchstaben-vogel-06a8"
   },
   {
-   "slug": "wort-raten-normal-waldtiere-426f",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "forest_creatures",
-   "level": "1-klasse",
-   "deck": "wort-raten-normal-waldtiere-426f"
-  },
-  {
-   "slug": "wort-raten-normal-weihnachten-acb4",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "christmas",
-   "level": "1-klasse",
-   "deck": "wort-raten-normal-weihnachten-acb4"
-  },
-  {
-   "slug": "wort-raten-normal-weltraum-1798",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "space",
-   "level": "1-klasse",
-   "deck": "wort-raten-normal-weltraum-1798"
-  },
-  {
-   "slug": "wort-raten-normal-werkzeuge-965f",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "tools",
-   "level": "1-klasse",
-   "deck": "wort-raten-normal-werkzeuge-965f"
-  },
-  {
-   "slug": "wort-raten-normal-wetter-7cc5",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "weather",
-   "level": "1-klasse",
-   "deck": "wort-raten-normal-wetter-7cc5"
-  },
-  {
-   "slug": "wort-raten-normal-winter-5a00",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "winter",
-   "level": "1-klasse",
-   "deck": "wort-raten-normal-winter-5a00"
-  },
-  {
-   "slug": "wort-raten-normal-zootiere-bae5",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "zoo_animals",
-   "level": "1-klasse",
-   "deck": "wort-raten-normal-zootiere-bae5"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-accessoires-8cbc",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "accessories",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-accessoires-8cbc"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-aktivitaten-3bcd",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "activities",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-aktivitaten-3bcd"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-backerei-55bb",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "bakery",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-backerei-55bb"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-bauernhoftiere-9218",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "farm_animals",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-bauernhoftiere-9218"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-baume-d862",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "tree",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-baume-d862"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-berufe-58f4",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "occupations",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-berufe-58f4"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-blumen-b2c4",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "flowers",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-blumen-b2c4"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-camping-a63b",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "camping",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-camping-a63b"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-desserts-und-sussigkeiten-717e",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "desserts_and_sweets",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-desserts-und-sussigkeiten-717e"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-dinge-die-fliegen-1502",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "things_that_fly",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-dinge-die-fliegen-1502"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-dinosaurier-d81f",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "dinosaurs",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-dinosaurier-d81f"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-emotionen-8cbe",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "emotions",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-emotionen-8cbe"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-erntedankfest-c53a",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "thanksgivinng",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-erntedankfest-c53a"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-fahrzeuge-f274",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "vehicles",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-fahrzeuge-f274"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-farben-d6a8",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "colors",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-farben-d6a8"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-formen-ffa7",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "shapes",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-formen-ffa7"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-fruchte-ca84",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "fruits",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-fruchte-ca84"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-fruhling-55e5",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "spring",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-fruhling-55e5"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-fruhstuck-d1a5",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "breakfast",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-fruhstuck-d1a5"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-gemuse-947b",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "vegetables",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-gemuse-947b"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-haustiere-f6ba",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "pets",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-haustiere-f6ba"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-im-supermarkt-8bbd",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "at_the_supermarket",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-im-supermarkt-8bbd"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-insekten-und-kafer-ffad",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "insects_and_bugs",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-insekten-und-kafer-ffad"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-klassenzimmer-132a",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "classroom",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-klassenzimmer-132a"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-kleidung-481f",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "clothing",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-kleidung-481f"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-korperteile-51ed",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "body_parts",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-korperteile-51ed"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-krankenhaus-d12b",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "hospital",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-krankenhaus-d12b"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-kuchenwerkzeuge-d5aa",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "kitchen_tools",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-kuchenwerkzeuge-d5aa"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-meeresleben-03a2",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "ocean_life",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-meeresleben-03a2"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-mobel-f6a6",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "furniture",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-mobel-f6a6"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-musik-f05a",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "music",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-musik-f05a"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-ostern-f7a2",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "easter",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-ostern-f7a2"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-postamt-8b97",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "post_office",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-postamt-8b97"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-rund-ums-haus-b391",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "around_the_house",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-rund-ums-haus-b391"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-sommer-455e",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "summer",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-sommer-455e"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-spielzeug-8f02",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "toys",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-spielzeug-8f02"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-strand-08b8",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "beach",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-strand-08b8"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-tiere-f1df",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "animals",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-tiere-f1df"
-  },
-  {
-   "slug": "objekte-finden-anders-finden-vogel-2-1c47",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "zuordnung-buchstaben-vogel-2-7810",
+   "type": "matching",
+   "mode": "letter",
    "theme": "birds_2",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-vogel-2-1c47"
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-vogel-2-7810"
   },
   {
-   "slug": "objekte-finden-anders-finden-waldtiere-cc5c",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "zuordnung-buchstaben-waldtiere-3a07",
+   "type": "matching",
+   "mode": "letter",
    "theme": "forest_creatures",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-waldtiere-cc5c"
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-waldtiere-3a07"
   },
   {
-   "slug": "objekte-finden-anders-finden-weihnachten-d32d",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "zuordnung-buchstaben-weihnachten-a966",
+   "type": "matching",
+   "mode": "letter",
    "theme": "christmas",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-weihnachten-d32d"
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-weihnachten-a966"
   },
   {
-   "slug": "objekte-finden-anders-finden-weltraum-2701",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "zuordnung-buchstaben-weltraum-cfa3",
+   "type": "matching",
+   "mode": "letter",
    "theme": "space",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-weltraum-2701"
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-weltraum-cfa3"
   },
   {
-   "slug": "objekte-finden-anders-finden-werkzeuge-7f81",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "zuordnung-buchstaben-werkzeuge-2021",
+   "type": "matching",
+   "mode": "letter",
    "theme": "tools",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-werkzeuge-7f81"
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-werkzeuge-2021"
   },
   {
-   "slug": "objekte-finden-anders-finden-wetter-8636",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "zuordnung-buchstaben-wetter-2705",
+   "type": "matching",
+   "mode": "letter",
    "theme": "weather",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-wetter-8636"
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-wetter-2705"
   },
   {
-   "slug": "objekte-finden-anders-finden-winter-78c2",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "zuordnung-buchstaben-winter-8a91",
+   "type": "matching",
+   "mode": "letter",
    "theme": "winter",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-winter-78c2"
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-winter-8a91"
   },
   {
-   "slug": "objekte-finden-anders-finden-zootiere-ad8d",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "zuordnung-buchstaben-zootiere-8d5b",
+   "type": "matching",
+   "mode": "letter",
    "theme": "zoo_animals",
-   "level": "vorschule",
-   "deck": "objekte-finden-anders-finden-zootiere-ad8d"
+   "level": "1-klasse",
+   "deck": "zuordnung-buchstaben-zootiere-8d5b"
   }
  ]
 }

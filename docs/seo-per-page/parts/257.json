@@ -1,584 +1,748 @@
 {
  "part": 257,
- "locale": "da",
+ "locale": "sv",
  "classes": [
-  "picture-sort::null"
+  "code-addition::secret-word",
+  "missing-pieces::two-missing"
  ],
- "splitOf": {
-  "class": "picture-sort::null",
-  "total": 211,
-  "chunk": 2,
-  "chunks": 3
- },
- "count": 71,
+ "splitOf": null,
+ "count": 92,
  "pages": [
   {
-   "slug": "sorter-billeder-colors-vs-dinosaurs-e45d",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "colors-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-colors-vs-dinosaurs-e45d"
-  },
-  {
-   "slug": "sorter-billeder-colors-vs-flowers-4859",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "colors-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-colors-vs-flowers-4859"
-  },
-  {
-   "slug": "sorter-billeder-colors-vs-vehicles-be14",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "colors-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-colors-vs-vehicles-be14"
-  },
-  {
-   "slug": "sorter-billeder-desserts-and-sweets-vs-flowers-7bd9",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "desserts_and_sweets-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-desserts-and-sweets-vs-flowers-7bd9"
-  },
-  {
-   "slug": "sorter-billeder-dinosaurs-vs-bakery-f40a",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "dinosaurs-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-dinosaurs-vs-bakery-f40a"
-  },
-  {
-   "slug": "sorter-billeder-dinosaurs-vs-flowers-4f87",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "dinosaurs-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-dinosaurs-vs-flowers-4f87"
-  },
-  {
-   "slug": "sorter-billeder-dinosaurs-vs-vehicles-3ca5",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "dinosaurs-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-dinosaurs-vs-vehicles-3ca5"
-  },
-  {
-   "slug": "sorter-billeder-easter-vs-bakery-c753",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "easter-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-easter-vs-bakery-c753"
-  },
-  {
-   "slug": "sorter-billeder-easter-vs-dinosaurs-10de",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "easter-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-easter-vs-dinosaurs-10de"
-  },
-  {
-   "slug": "sorter-billeder-easter-vs-vehicles-eb2c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "easter-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-easter-vs-vehicles-eb2c"
-  },
-  {
-   "slug": "sorter-billeder-emotions-vs-animals-2017",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "emotions-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-emotions-vs-animals-2017"
-  },
-  {
-   "slug": "sorter-billeder-emotions-vs-bakery-9402",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "emotions-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-emotions-vs-bakery-9402"
-  },
-  {
-   "slug": "sorter-billeder-emotions-vs-dinosaurs-17f0",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "emotions-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-emotions-vs-dinosaurs-17f0"
+   "slug": "kodaddition-hemligt-ord-aktiviteter-ee32",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "activities",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-aktiviteter-ee32"
+  },
+  {
+   "slug": "kodaddition-hemligt-ord-bageri-53ee",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "bakery",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-bageri-53ee"
+  },
+  {
+   "slug": "kodaddition-hemligt-ord-blommor-317a",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "flowers",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-blommor-317a"
+  },
+  {
+   "slug": "kodaddition-hemligt-ord-bondgardsdjur-e6ef",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "farm_animals",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-bondgardsdjur-e6ef"
+  },
+  {
+   "slug": "kodaddition-hemligt-ord-camping-f253",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "camping",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-camping-f253"
+  },
+  {
+   "slug": "kodaddition-hemligt-ord-dinosaurier-10c7",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "dinosaurs",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-dinosaurier-10c7"
+  },
+  {
+   "slug": "kodaddition-hemligt-ord-djur-3326",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "animals",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-djur-3326"
+  },
+  {
+   "slug": "kodaddition-hemligt-ord-djurparksdjur-1ffb",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "zoo_animals",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-djurparksdjur-1ffb"
+  },
+  {
+   "slug": "kodaddition-hemligt-ord-efterratter-och-godis-0d5d",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "desserts_and_sweets",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-efterratter-och-godis-0d5d"
+  },
+  {
+   "slug": "kodaddition-hemligt-ord-faglar-2-c993",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "birds_2",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-faglar-2-c993"
+  },
+  {
+   "slug": "kodaddition-hemligt-ord-faglar-a3ac",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "birds",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-faglar-a3ac"
+  },
+  {
+   "slug": "kodaddition-hemligt-ord-farger-b479",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "colors",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-farger-b479"
+  },
+  {
+   "slug": "kodaddition-hemligt-ord-fordon-13ec",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "vehicles",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-fordon-13ec"
   },
   {
-   "slug": "sorter-billeder-emotions-vs-flowers-66e2",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "emotions-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-emotions-vs-flowers-66e2"
+   "slug": "kodaddition-hemligt-ord-former-d05f",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "shapes",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-former-d05f"
   },
   {
-   "slug": "sorter-billeder-emotions-vs-vehicles-93ad",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "emotions-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-emotions-vs-vehicles-93ad"
+   "slug": "kodaddition-hemligt-ord-frukost-843d",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "breakfast",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-frukost-843d"
   },
   {
-   "slug": "sorter-billeder-farm-animals-vs-dinosaurs-73a7",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "farm_animals-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-farm-animals-vs-dinosaurs-73a7"
+   "slug": "kodaddition-hemligt-ord-frukter-2b74",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "fruits",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-frukter-2b74"
   },
   {
-   "slug": "sorter-billeder-farm-animals-vs-flowers-66a2",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "farm_animals-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-farm-animals-vs-flowers-66a2"
+   "slug": "kodaddition-hemligt-ord-gronsaker-4476",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "vegetables",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-gronsaker-4476"
   },
   {
-   "slug": "sorter-billeder-farm-animals-vs-vehicles-ed0f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "farm_animals-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-farm-animals-vs-vehicles-ed0f"
+   "slug": "kodaddition-hemligt-ord-havsliv-38ef",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "ocean_life",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-havsliv-38ef"
   },
   {
-   "slug": "sorter-billeder-flowers-vs-animals-50ad",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-flowers-vs-animals-50ad"
+   "slug": "kodaddition-hemligt-ord-husdjur-2606",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "pets",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-husdjur-2606"
   },
   {
-   "slug": "sorter-billeder-flowers-vs-bakery-48ee",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-flowers-vs-bakery-48ee"
+   "slug": "kodaddition-hemligt-ord-i-snabbkopet-3de2",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "at_the_supermarket",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-i-snabbkopet-3de2"
   },
   {
-   "slug": "sorter-billeder-flowers-vs-dinosaurs-65e0",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-flowers-vs-dinosaurs-65e0"
+   "slug": "kodaddition-hemligt-ord-insekter-och-kryp-a015",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "insects_and_bugs",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-insekter-och-kryp-a015"
   },
   {
-   "slug": "sorter-billeder-flowers-vs-vehicles-bb6a",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-flowers-vs-vehicles-bb6a"
+   "slug": "kodaddition-hemligt-ord-jul-6f59",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "christmas",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-jul-6f59"
   },
   {
-   "slug": "sorter-billeder-forest-creatures-vs-bakery-486e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "forest_creatures-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-forest-creatures-vs-bakery-486e"
+   "slug": "kodaddition-hemligt-ord-kanslor-8a54",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "emotions",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-kanslor-8a54"
   },
   {
-   "slug": "sorter-billeder-forest-creatures-vs-flowers-329e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "forest_creatures-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-forest-creatures-vs-flowers-329e"
+   "slug": "kodaddition-hemligt-ord-klader-51c4",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "clothing",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-klader-51c4"
   },
   {
-   "slug": "sorter-billeder-forest-creatures-vs-vehicles-ad4e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "forest_creatures-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-forest-creatures-vs-vehicles-ad4e"
+   "slug": "kodaddition-hemligt-ord-koksredskap-130a",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "kitchen_tools",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-koksredskap-130a"
   },
   {
-   "slug": "sorter-billeder-fruits-vs-animals-2029",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "fruits-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-fruits-vs-animals-2029"
+   "slug": "kodaddition-hemligt-ord-kroppsdelar-b267",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "body_parts",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-kroppsdelar-b267"
   },
   {
-   "slug": "sorter-billeder-fruits-vs-bakery-e5ac",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "fruits-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-fruits-vs-bakery-e5ac"
+   "slug": "kodaddition-hemligt-ord-leksaker-e028",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "toys",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-leksaker-e028"
   },
   {
-   "slug": "sorter-billeder-fruits-vs-dinosaurs-b6c5",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "fruits-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-fruits-vs-dinosaurs-b6c5"
+   "slug": "kodaddition-hemligt-ord-mobler-78b7",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "furniture",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-mobler-78b7"
   },
   {
-   "slug": "sorter-billeder-fruits-vs-flowers-04a4",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "fruits-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-fruits-vs-flowers-04a4"
+   "slug": "kodaddition-hemligt-ord-musik-1bdc",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "music",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-musik-1bdc"
   },
   {
-   "slug": "sorter-billeder-fruits-vs-vehicles-5c74",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "fruits-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-fruits-vs-vehicles-5c74"
+   "slug": "kodaddition-hemligt-ord-pask-d6ec",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "easter",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-pask-d6ec"
   },
   {
-   "slug": "sorter-billeder-furniture-vs-animals-33ce",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "furniture-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-furniture-vs-animals-33ce"
+   "slug": "kodaddition-hemligt-ord-postkontor-2934",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "post_office",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-postkontor-2934"
   },
   {
-   "slug": "sorter-billeder-furniture-vs-bakery-aa98",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "furniture-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-furniture-vs-bakery-aa98"
+   "slug": "kodaddition-hemligt-ord-runt-huset-5291",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "around_the_house",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-runt-huset-5291"
   },
   {
-   "slug": "sorter-billeder-furniture-vs-dinosaurs-a2d3",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "furniture-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-furniture-vs-dinosaurs-a2d3"
+   "slug": "kodaddition-hemligt-ord-rymden-cc83",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "space",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-rymden-cc83"
   },
   {
-   "slug": "sorter-billeder-furniture-vs-flowers-fea6",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "furniture-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-furniture-vs-flowers-fea6"
+   "slug": "kodaddition-hemligt-ord-saker-som-flyger-7e18",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "things_that_fly",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-saker-som-flyger-7e18"
   },
   {
-   "slug": "sorter-billeder-furniture-vs-vehicles-e692",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "furniture-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-furniture-vs-vehicles-e692"
+   "slug": "kodaddition-hemligt-ord-sjukhus-a47f",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "hospital",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-sjukhus-a47f"
   },
   {
-   "slug": "sorter-billeder-hospital-vs-animals-f06b",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "hospital-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-hospital-vs-animals-f06b"
+   "slug": "kodaddition-hemligt-ord-skogsdjur-e40f",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "forest_creatures",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-skogsdjur-e40f"
   },
   {
-   "slug": "sorter-billeder-hospital-vs-bakery-d6dd",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "hospital-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-hospital-vs-bakery-d6dd"
+   "slug": "kodaddition-hemligt-ord-sommar-d0b1",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "summer",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-sommar-d0b1"
   },
   {
-   "slug": "sorter-billeder-hospital-vs-dinosaurs-6206",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "hospital-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-hospital-vs-dinosaurs-6206"
+   "slug": "kodaddition-hemligt-ord-strand-4439",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "beach",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-strand-4439"
   },
   {
-   "slug": "sorter-billeder-hospital-vs-flowers-ab41",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "hospital-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-hospital-vs-flowers-ab41"
+   "slug": "kodaddition-hemligt-ord-thanksgiving-f7d8",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "thanksgivinng",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-thanksgiving-f7d8"
   },
   {
-   "slug": "sorter-billeder-hospital-vs-vehicles-faea",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "hospital-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-hospital-vs-vehicles-faea"
+   "slug": "kodaddition-hemligt-ord-tillbehor-f100",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "accessories",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-tillbehor-f100"
   },
   {
-   "slug": "sorter-billeder-insects-and-bugs-vs-bakery-134e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "insects_and_bugs-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-insects-and-bugs-vs-bakery-134e"
+   "slug": "kodaddition-hemligt-ord-trad-7a76",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "tree",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-trad-7a76"
   },
   {
-   "slug": "sorter-billeder-insects-and-bugs-vs-dinosaurs-f3ce",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "insects_and_bugs-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-insects-and-bugs-vs-dinosaurs-f3ce"
+   "slug": "kodaddition-hemligt-ord-vader-1e94",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "weather",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-vader-1e94"
   },
   {
-   "slug": "sorter-billeder-insects-and-bugs-vs-flowers-7555",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "insects_and_bugs-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-insects-and-bugs-vs-flowers-7555"
+   "slug": "kodaddition-hemligt-ord-var-8d5c",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "spring",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-var-8d5c"
   },
   {
-   "slug": "sorter-billeder-insects-and-bugs-vs-vehicles-f3e6",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "insects_and_bugs-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-insects-and-bugs-vs-vehicles-f3e6"
+   "slug": "kodaddition-hemligt-ord-verktyg-4e01",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "tools",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-verktyg-4e01"
   },
   {
-   "slug": "sorter-billeder-kitchen-tools-vs-animals-d731",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "kitchen_tools-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-kitchen-tools-vs-animals-d731"
+   "slug": "kodaddition-hemligt-ord-vinter-f1fe",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "winter",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-vinter-f1fe"
   },
   {
-   "slug": "sorter-billeder-kitchen-tools-vs-bakery-e2fa",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "kitchen_tools-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-kitchen-tools-vs-bakery-e2fa"
+   "slug": "kodaddition-hemligt-ord-yrken-702e",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "occupations",
+   "level": "ak-1",
+   "deck": "kodaddition-hemligt-ord-yrken-702e"
   },
   {
-   "slug": "sorter-billeder-kitchen-tools-vs-dinosaurs-5ea8",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "kitchen_tools-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-kitchen-tools-vs-dinosaurs-5ea8"
+   "slug": "saknade-bitar-2-saknade-bitar-aktiviteter-8e3e",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "activities",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-aktiviteter-8e3e"
   },
   {
-   "slug": "sorter-billeder-kitchen-tools-vs-flowers-8975",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "kitchen_tools-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-kitchen-tools-vs-flowers-8975"
+   "slug": "saknade-bitar-2-saknade-bitar-bageri-bb81",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "bakery",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-bageri-bb81"
   },
   {
-   "slug": "sorter-billeder-music-vs-animals-4f4c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "music-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-music-vs-animals-4f4c"
+   "slug": "saknade-bitar-2-saknade-bitar-blommor-0d36",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "flowers",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-blommor-0d36"
   },
   {
-   "slug": "sorter-billeder-music-vs-bakery-a74c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "music-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-music-vs-bakery-a74c"
+   "slug": "saknade-bitar-2-saknade-bitar-bondgardsdjur-e73f",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "farm_animals",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-bondgardsdjur-e73f"
   },
   {
-   "slug": "sorter-billeder-music-vs-dinosaurs-46a8",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "music-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-music-vs-dinosaurs-46a8"
+   "slug": "saknade-bitar-2-saknade-bitar-camping-6744",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "camping",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-camping-6744"
   },
   {
-   "slug": "sorter-billeder-music-vs-flowers-4eac",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "music-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-music-vs-flowers-4eac"
+   "slug": "saknade-bitar-2-saknade-bitar-dinosaurier-66f1",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "dinosaurs",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-dinosaurier-66f1"
   },
   {
-   "slug": "sorter-billeder-music-vs-vehicles-477d",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "music-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-music-vs-vehicles-477d"
+   "slug": "saknade-bitar-2-saknade-bitar-djur-6a43",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "animals",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-djur-6a43"
   },
   {
-   "slug": "sorter-billeder-occupations-vs-animals-fc6c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "occupations-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-occupations-vs-animals-fc6c"
+   "slug": "saknade-bitar-2-saknade-bitar-djurparksdjur-50a4",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "zoo_animals",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-djurparksdjur-50a4"
   },
   {
-   "slug": "sorter-billeder-occupations-vs-bakery-297c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "occupations-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-occupations-vs-bakery-297c"
+   "slug": "saknade-bitar-2-saknade-bitar-efterratter-och-godis-554e",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "desserts_and_sweets",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-efterratter-och-godis-554e"
   },
   {
-   "slug": "sorter-billeder-occupations-vs-dinosaurs-caea",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "occupations-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-occupations-vs-dinosaurs-caea"
+   "slug": "saknade-bitar-2-saknade-bitar-faglar-2-ff7c",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "birds_2",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-faglar-2-ff7c"
   },
   {
-   "slug": "sorter-billeder-occupations-vs-flowers-a84b",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "occupations-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-occupations-vs-flowers-a84b"
+   "slug": "saknade-bitar-2-saknade-bitar-faglar-a58d",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "birds",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-faglar-a58d"
   },
   {
-   "slug": "sorter-billeder-occupations-vs-vehicles-84cf",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "occupations-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-occupations-vs-vehicles-84cf"
+   "slug": "saknade-bitar-2-saknade-bitar-fordon-b0f5",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "vehicles",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-fordon-b0f5"
   },
   {
-   "slug": "sorter-billeder-ocean-life-vs-bakery-4d49",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "ocean_life-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-ocean-life-vs-bakery-4d49"
-  },
-  {
-   "slug": "sorter-billeder-ocean-life-vs-dinosaurs-f34d",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "ocean_life-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-ocean-life-vs-dinosaurs-f34d"
-  },
-  {
-   "slug": "sorter-billeder-ocean-life-vs-flowers-eb48",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "ocean_life-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-ocean-life-vs-flowers-eb48"
-  },
-  {
-   "slug": "sorter-billeder-ocean-life-vs-vehicles-9b2e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "ocean_life-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-ocean-life-vs-vehicles-9b2e"
-  },
-  {
-   "slug": "sorter-billeder-pets-vs-bakery-1eee",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "pets-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-pets-vs-bakery-1eee"
-  },
-  {
-   "slug": "sorter-billeder-pets-vs-dinosaurs-e31f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "pets-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-pets-vs-dinosaurs-e31f"
-  },
-  {
-   "slug": "sorter-billeder-pets-vs-flowers-c3c2",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "pets-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-pets-vs-flowers-c3c2"
-  },
-  {
-   "slug": "sorter-billeder-pets-vs-vehicles-6300",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "pets-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-pets-vs-vehicles-6300"
-  },
-  {
-   "slug": "sorter-billeder-post-office-vs-animals-e521",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "post_office-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-post-office-vs-animals-e521"
-  },
-  {
-   "slug": "sorter-billeder-post-office-vs-bakery-a64c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "post_office-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-post-office-vs-bakery-a64c"
-  },
-  {
-   "slug": "sorter-billeder-post-office-vs-dinosaurs-5f34",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "post_office-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-post-office-vs-dinosaurs-5f34"
-  },
-  {
-   "slug": "sorter-billeder-post-office-vs-flowers-0459",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "post_office-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-post-office-vs-flowers-0459"
-  },
-  {
-   "slug": "sorter-billeder-post-office-vs-vehicles-63c7",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "post_office-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-post-office-vs-vehicles-63c7"
+   "slug": "saknade-bitar-2-saknade-bitar-frukost-12ec",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "breakfast",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-frukost-12ec"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-frukter-65bd",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "fruits",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-frukter-65bd"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-gronsaker-ebe5",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "vegetables",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-gronsaker-ebe5"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-havsliv-0bbd",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "ocean_life",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-havsliv-0bbd"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-husdjur-6d58",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "pets",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-husdjur-6d58"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-i-snabbkopet-4b22",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "at_the_supermarket",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-i-snabbkopet-4b22"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-insekter-och-kryp-aca3",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "insects_and_bugs",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-insekter-och-kryp-aca3"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-jul-994c",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "christmas",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-jul-994c"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-kanslor-3240",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "emotions",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-kanslor-3240"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-klader-046c",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "clothing",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-klader-046c"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-klassrum-477e",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "classroom",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-klassrum-477e"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-koksredskap-b317",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "kitchen_tools",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-koksredskap-b317"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-kroppsdelar-71a2",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "body_parts",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-kroppsdelar-71a2"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-leksaker-7fb8",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "toys",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-leksaker-7fb8"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-mobler-18ce",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "furniture",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-mobler-18ce"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-musik-8126",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "music",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-musik-8126"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-pask-0638",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "easter",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-pask-0638"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-postkontor-7421",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "post_office",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-postkontor-7421"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-reptiler-och-groddjur-3675",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "reptiles_and_amphibians",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-reptiler-och-groddjur-3675"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-runt-huset-50ff",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "around_the_house",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-runt-huset-50ff"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-rymden-d5e2",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "space",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-rymden-d5e2"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-saker-som-flyger-71c1",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "things_that_fly",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-saker-som-flyger-71c1"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-sjukhus-e04f",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "hospital",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-sjukhus-e04f"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-skogsdjur-def1",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "forest_creatures",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-skogsdjur-def1"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-sommar-26b6",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "summer",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-sommar-26b6"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-strand-a0d2",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "beach",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-strand-a0d2"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-thanksgiving-0c14",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "thanksgivinng",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-thanksgiving-0c14"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-tillbehor-2c3f",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "accessories",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-tillbehor-2c3f"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-trad-aeb1",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "tree",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-trad-aeb1"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-vader-6b2c",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "weather",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-vader-6b2c"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-var-4797",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "spring",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-var-4797"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-verktyg-445d",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "tools",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-verktyg-445d"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-vinter-df49",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "winter",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-vinter-df49"
+  },
+  {
+   "slug": "saknade-bitar-2-saknade-bitar-yrken-722f",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "occupations",
+   "level": "forskola",
+   "deck": "saknade-bitar-2-saknade-bitar-yrken-722f"
   }
  ]
 }

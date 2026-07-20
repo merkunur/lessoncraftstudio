@@ -2,715 +2,811 @@
  "part": 97,
  "locale": "es",
  "classes": [
-  "subtraction::cross-out",
-  "chart-count::null"
+  "addition::image-number",
+  "addition::mixed"
  ],
  "splitOf": null,
- "count": 88,
+ "count": 100,
  "pages": [
   {
-   "slug": "resta-tachar-4-de-julio-551b",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "suma-imagen-numero-4-de-julio-7fca",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "4th_of_july",
    "level": "primer-grado",
-   "deck": "resta-tachar-4-de-julio-551b"
+   "deck": "suma-imagen-numero-4-de-julio-7fca"
   },
   {
-   "slug": "resta-tachar-accesorios-a38e",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "suma-imagen-numero-accesorios-f7de",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "accessories",
    "level": "primer-grado",
-   "deck": "resta-tachar-accesorios-a38e"
+   "deck": "suma-imagen-numero-accesorios-f7de"
   },
   {
-   "slug": "resta-tachar-actividades-204d",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "suma-imagen-numero-actividades-0324",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "activities",
    "level": "primer-grado",
-   "deck": "resta-tachar-actividades-204d"
+   "deck": "suma-imagen-numero-actividades-0324"
   },
   {
-   "slug": "resta-tachar-animales-dec7",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "animals",
-   "level": "primer-grado",
-   "deck": "resta-tachar-animales-dec7"
-  },
-  {
-   "slug": "resta-tachar-arboles-4281",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "tree",
-   "level": "primer-grado",
-   "deck": "resta-tachar-arboles-4281"
-  },
-  {
-   "slug": "resta-tachar-aves-2-4026",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "birds_2",
-   "level": "primer-grado",
-   "deck": "resta-tachar-aves-2-4026"
-  },
-  {
-   "slug": "resta-tachar-aves-e2e3",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "birds",
-   "level": "primer-grado",
-   "deck": "resta-tachar-aves-e2e3"
-  },
-  {
-   "slug": "resta-tachar-campamento-c259",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "camping",
-   "level": "primer-grado",
-   "deck": "resta-tachar-campamento-c259"
-  },
-  {
-   "slug": "resta-tachar-clima-27ad",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "weather",
-   "level": "primer-grado",
-   "deck": "resta-tachar-clima-27ad"
-  },
-  {
-   "slug": "resta-tachar-colores-d02c",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "colors",
-   "level": "primer-grado",
-   "deck": "resta-tachar-colores-d02c"
-  },
-  {
-   "slug": "resta-tachar-cosas-que-vuelan-98b3",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "things_that_fly",
-   "level": "primer-grado",
-   "deck": "resta-tachar-cosas-que-vuelan-98b3"
-  },
-  {
-   "slug": "resta-tachar-criaturas-del-bosque-37b0",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "forest_creatures",
-   "level": "primer-grado",
-   "deck": "resta-tachar-criaturas-del-bosque-37b0"
-  },
-  {
-   "slug": "resta-tachar-criaturas-del-bosque-8cd4",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "forest_creatures",
-   "level": "primer-grado",
-   "deck": "resta-tachar-criaturas-del-bosque-8cd4"
-  },
-  {
-   "slug": "resta-tachar-desayuno-923a",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "breakfast",
-   "level": "primer-grado",
-   "deck": "resta-tachar-desayuno-923a"
-  },
-  {
-   "slug": "resta-tachar-dia-de-accion-de-gracias-c0f5",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "thanksgivinng",
-   "level": "primer-grado",
-   "deck": "resta-tachar-dia-de-accion-de-gracias-c0f5"
-  },
-  {
-   "slug": "resta-tachar-dinosaurios-d619",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "dinosaurs",
-   "level": "primer-grado",
-   "deck": "resta-tachar-dinosaurios-d619"
-  },
-  {
-   "slug": "resta-tachar-emociones-7c11",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "emotions",
-   "level": "primer-grado",
-   "deck": "resta-tachar-emociones-7c11"
-  },
-  {
-   "slug": "resta-tachar-en-el-supermercado-4ba9",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "at_the_supermarket",
-   "level": "primer-grado",
-   "deck": "resta-tachar-en-el-supermercado-4ba9"
-  },
-  {
-   "slug": "resta-tachar-espacio-cb27",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "space",
-   "level": "primer-grado",
-   "deck": "resta-tachar-espacio-cb27"
-  },
-  {
-   "slug": "resta-tachar-flores-ca69",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "flowers",
-   "level": "primer-grado",
-   "deck": "resta-tachar-flores-ca69"
-  },
-  {
-   "slug": "resta-tachar-formas-c087",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "shapes",
-   "level": "primer-grado",
-   "deck": "resta-tachar-formas-c087"
-  },
-  {
-   "slug": "resta-tachar-frutas-0c7c",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "fruits",
-   "level": "primer-grado",
-   "deck": "resta-tachar-frutas-0c7c"
-  },
-  {
-   "slug": "resta-tachar-herramientas-1813",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "tools",
-   "level": "primer-grado",
-   "deck": "resta-tachar-herramientas-1813"
-  },
-  {
-   "slug": "resta-tachar-hospital-8411",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "hospital",
-   "level": "primer-grado",
-   "deck": "resta-tachar-hospital-8411"
-  },
-  {
-   "slug": "resta-tachar-invierno-716d",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "winter",
-   "level": "primer-grado",
-   "deck": "resta-tachar-invierno-716d"
-  },
-  {
-   "slug": "resta-tachar-juguetes-009e",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "toys",
-   "level": "primer-grado",
-   "deck": "resta-tachar-juguetes-009e"
-  },
-  {
-   "slug": "resta-tachar-mascotas-9ceb",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "pets",
-   "level": "primer-grado",
-   "deck": "resta-tachar-mascotas-9ceb"
-  },
-  {
-   "slug": "resta-tachar-miscelaneo-f89a",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "miscellaneous",
-   "level": "primer-grado",
-   "deck": "resta-tachar-miscelaneo-f89a"
-  },
-  {
-   "slug": "resta-tachar-muebles-a6d4",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "furniture",
-   "level": "primer-grado",
-   "deck": "resta-tachar-muebles-a6d4"
-  },
-  {
-   "slug": "resta-tachar-musica-2adb",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "music",
-   "level": "primer-grado",
-   "deck": "resta-tachar-musica-2adb"
-  },
-  {
-   "slug": "resta-tachar-navidad-413a",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "christmas",
-   "level": "primer-grado",
-   "deck": "resta-tachar-navidad-413a"
-  },
-  {
-   "slug": "resta-tachar-ocupaciones-dbf0",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "occupations",
-   "level": "primer-grado",
-   "deck": "resta-tachar-ocupaciones-dbf0"
-  },
-  {
-   "slug": "resta-tachar-oficina-de-correos-273b",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "post_office",
-   "level": "primer-grado",
-   "deck": "resta-tachar-oficina-de-correos-273b"
-  },
-  {
-   "slug": "resta-tachar-panaderia-fd3c",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "bakery",
-   "level": "primer-grado",
-   "deck": "resta-tachar-panaderia-fd3c"
-  },
-  {
-   "slug": "resta-tachar-partes-del-cuerpo-afc9",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "body_parts",
-   "level": "primer-grado",
-   "deck": "resta-tachar-partes-del-cuerpo-afc9"
-  },
-  {
-   "slug": "resta-tachar-pascua-7995",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "easter",
-   "level": "primer-grado",
-   "deck": "resta-tachar-pascua-7995"
-  },
-  {
-   "slug": "resta-tachar-playa-d4cc",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "beach",
-   "level": "primer-grado",
-   "deck": "resta-tachar-playa-d4cc"
-  },
-  {
-   "slug": "resta-tachar-postres-y-dulces-103d",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "desserts_and_sweets",
-   "level": "primer-grado",
-   "deck": "resta-tachar-postres-y-dulces-103d"
-  },
-  {
-   "slug": "resta-tachar-ropa-e18b",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "clothing",
-   "level": "primer-grado",
-   "deck": "resta-tachar-ropa-e18b"
-  },
-  {
-   "slug": "resta-tachar-salon-de-clases-b09e",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "classroom",
-   "level": "primer-grado",
-   "deck": "resta-tachar-salon-de-clases-b09e"
-  },
-  {
-   "slug": "resta-tachar-utensilios-de-cocina-d874",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "kitchen_tools",
-   "level": "primer-grado",
-   "deck": "resta-tachar-utensilios-de-cocina-d874"
-  },
-  {
-   "slug": "resta-tachar-vehiculos-ecbf",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "vehicles",
-   "level": "primer-grado",
-   "deck": "resta-tachar-vehiculos-ecbf"
-  },
-  {
-   "slug": "resta-tachar-verano-0739",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "summer",
-   "level": "primer-grado",
-   "deck": "resta-tachar-verano-0739"
-  },
-  {
-   "slug": "resta-tachar-verduras-b222",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "vegetables",
-   "level": "primer-grado",
-   "deck": "resta-tachar-verduras-b222"
-  },
-  {
-   "slug": "resta-tachar-vida-marina-9916",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "ocean_life",
-   "level": "primer-grado",
-   "deck": "resta-tachar-vida-marina-9916"
-  },
-  {
-   "slug": "contar-en-grafico-4-de-julio",
-   "type": "chart-count",
-   "mode": null,
-   "theme": "4th_of_july",
-   "level": "primer-grado",
-   "deck": "contar-en-grafico-4-de-julio"
-  },
-  {
-   "slug": "contar-en-grafico-accesorios",
-   "type": "chart-count",
-   "mode": null,
-   "theme": "accessories",
-   "level": "primer-grado",
-   "deck": "contar-en-grafico-accesorios"
-  },
-  {
-   "slug": "contar-en-grafico-alrededor-de-la-casa",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-alrededor-de-la-casa-5be4",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "around_the_house",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-alrededor-de-la-casa"
+   "deck": "suma-imagen-numero-alrededor-de-la-casa-5be4"
   },
   {
-   "slug": "contar-en-grafico-animales",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-animales-a9ea",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "animals",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-animales"
+   "deck": "suma-imagen-numero-animales-a9ea"
   },
   {
-   "slug": "contar-en-grafico-animales-de-granja",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-animales-de-granja-0aa2",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "farm_animals",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-animales-de-granja"
+   "deck": "suma-imagen-numero-animales-de-granja-0aa2"
   },
   {
-   "slug": "contar-en-grafico-animales-del-zoologico",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-animales-del-zoologico-db13",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "zoo_animals",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-animales-del-zoologico"
+   "deck": "suma-imagen-numero-animales-del-zoologico-db13"
   },
   {
-   "slug": "contar-en-grafico-arboles",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-arboles-b4c8",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "tree",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-arboles"
+   "deck": "suma-imagen-numero-arboles-b4c8"
   },
   {
-   "slug": "contar-en-grafico-aves",
-   "type": "chart-count",
-   "mode": null,
-   "theme": "birds",
-   "level": "primer-grado",
-   "deck": "contar-en-grafico-aves"
-  },
-  {
-   "slug": "contar-en-grafico-aves-2",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-aves-2-7954",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "birds_2",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-aves-2"
+   "deck": "suma-imagen-numero-aves-2-7954"
   },
   {
-   "slug": "contar-en-grafico-campamento",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-aves-e13e",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "birds",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-aves-e13e"
+  },
+  {
+   "slug": "suma-imagen-numero-campamento-d27d",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "camping",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-campamento"
+   "deck": "suma-imagen-numero-campamento-d27d"
   },
   {
-   "slug": "contar-en-grafico-colores",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-clima-abfd",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "weather",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-clima-abfd"
+  },
+  {
+   "slug": "suma-imagen-numero-colores-a0cf",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "colors",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-colores"
+   "deck": "suma-imagen-numero-colores-a0cf"
   },
   {
-   "slug": "contar-en-grafico-cosas-que-vuelan",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-cosas-que-vuelan-de11",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "things_that_fly",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-cosas-que-vuelan"
+   "deck": "suma-imagen-numero-cosas-que-vuelan-de11"
   },
   {
-   "slug": "contar-en-grafico-criaturas-del-bosque",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-criaturas-del-bosque-b93e",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "forest_creatures",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-criaturas-del-bosque"
+   "deck": "suma-imagen-numero-criaturas-del-bosque-b93e"
   },
   {
-   "slug": "contar-en-grafico-desayuno",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-desayuno-fb21",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "breakfast",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-desayuno"
+   "deck": "suma-imagen-numero-desayuno-fb21"
   },
   {
-   "slug": "contar-en-grafico-dia-de-accion-de-gracias",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-dia-de-accion-de-gracias-9583",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "thanksgivinng",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-dia-de-accion-de-gracias"
+   "deck": "suma-imagen-numero-dia-de-accion-de-gracias-9583"
   },
   {
-   "slug": "contar-en-grafico-dinosaurios",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-dinosaurios-fab1",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "dinosaurs",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-dinosaurios"
+   "deck": "suma-imagen-numero-dinosaurios-fab1"
   },
   {
-   "slug": "contar-en-grafico-en-el-supermercado",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-emociones-8174",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "emotions",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-emociones-8174"
+  },
+  {
+   "slug": "suma-imagen-numero-en-el-supermercado-77e1",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "at_the_supermarket",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-en-el-supermercado"
+   "deck": "suma-imagen-numero-en-el-supermercado-77e1"
   },
   {
-   "slug": "contar-en-grafico-espacio",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-espacio-1495",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "space",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-espacio"
+   "deck": "suma-imagen-numero-espacio-1495"
   },
   {
-   "slug": "contar-en-grafico-flores",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-flores-c746",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "flowers",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-flores"
+   "deck": "suma-imagen-numero-flores-c746"
   },
   {
-   "slug": "contar-en-grafico-formas",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-formas-25bb",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "shapes",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-formas"
+   "deck": "suma-imagen-numero-formas-25bb"
   },
   {
-   "slug": "contar-en-grafico-frutas",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-frutas-db89",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "fruits",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-frutas"
+   "deck": "suma-imagen-numero-frutas-db89"
   },
   {
-   "slug": "contar-en-grafico-herramientas",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-herramientas-be48",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "tools",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-herramientas"
+   "deck": "suma-imagen-numero-herramientas-be48"
   },
   {
-   "slug": "contar-en-grafico-hospital",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-hospital-adf0",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "hospital",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-hospital"
+   "deck": "suma-imagen-numero-hospital-adf0"
   },
   {
-   "slug": "contar-en-grafico-insectos-y-bichos",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-insectos-y-bichos-c16e",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "insects_and_bugs",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-insectos-y-bichos"
+   "deck": "suma-imagen-numero-insectos-y-bichos-c16e"
   },
   {
-   "slug": "contar-en-grafico-juguetes",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-invierno-abcf",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "winter",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-invierno-abcf"
+  },
+  {
+   "slug": "suma-imagen-numero-juguetes-c21d",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "toys",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-juguetes"
+   "deck": "suma-imagen-numero-juguetes-c21d"
   },
   {
-   "slug": "contar-en-grafico-mascotas",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-mascotas-36d4",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "pets",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-mascotas"
+   "deck": "suma-imagen-numero-mascotas-36d4"
   },
   {
-   "slug": "contar-en-grafico-miscelaneo",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-miscelaneo-bb02",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "miscellaneous",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-miscelaneo"
+   "deck": "suma-imagen-numero-miscelaneo-bb02"
   },
   {
-   "slug": "contar-en-grafico-muebles",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-muebles-60e3",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "furniture",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-muebles"
+   "deck": "suma-imagen-numero-muebles-60e3"
   },
   {
-   "slug": "contar-en-grafico-musica",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-musica-f62d",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "music",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-musica"
+   "deck": "suma-imagen-numero-musica-f62d"
   },
   {
-   "slug": "contar-en-grafico-navidad",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-navidad-ceb8",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "christmas",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-navidad"
+   "deck": "suma-imagen-numero-navidad-ceb8"
   },
   {
-   "slug": "contar-en-grafico-ocupaciones",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-ocupaciones-afbf",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "occupations",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-ocupaciones"
+   "deck": "suma-imagen-numero-ocupaciones-afbf"
   },
   {
-   "slug": "contar-en-grafico-oficina-de-correos",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-oficina-de-correos-66a3",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "post_office",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-oficina-de-correos"
+   "deck": "suma-imagen-numero-oficina-de-correos-66a3"
   },
   {
-   "slug": "contar-en-grafico-panaderia",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-panaderia-26fb",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "bakery",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-panaderia"
+   "deck": "suma-imagen-numero-panaderia-26fb"
   },
   {
-   "slug": "contar-en-grafico-pascua",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-partes-del-cuerpo-c2d6",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "body_parts",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-partes-del-cuerpo-c2d6"
+  },
+  {
+   "slug": "suma-imagen-numero-pascua-1a61",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "easter",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-pascua"
+   "deck": "suma-imagen-numero-pascua-1a61"
   },
   {
-   "slug": "contar-en-grafico-playa",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-playa-e77a",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "beach",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-playa"
+   "deck": "suma-imagen-numero-playa-e77a"
   },
   {
-   "slug": "contar-en-grafico-postres-y-dulces",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-postres-y-dulces-c116",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "desserts_and_sweets",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-postres-y-dulces"
+   "deck": "suma-imagen-numero-postres-y-dulces-c116"
   },
   {
-   "slug": "contar-en-grafico-reptiles-y-anfibios",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-primavera-f377",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "spring",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-primavera-f377"
+  },
+  {
+   "slug": "suma-imagen-numero-reptiles-y-anfibios-4e12",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "reptiles_and_amphibians",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-reptiles-y-anfibios"
+   "deck": "suma-imagen-numero-reptiles-y-anfibios-4e12"
   },
   {
-   "slug": "contar-en-grafico-ropa",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-ropa-57f6",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "clothing",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-ropa"
+   "deck": "suma-imagen-numero-ropa-57f6"
   },
   {
-   "slug": "contar-en-grafico-salon-de-clases",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-salon-de-clases-b46d",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "classroom",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-salon-de-clases"
+   "deck": "suma-imagen-numero-salon-de-clases-b46d"
   },
   {
-   "slug": "contar-en-grafico-utensilios-de-cocina",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-utensilios-de-cocina-4022",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "kitchen_tools",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-utensilios-de-cocina"
+   "deck": "suma-imagen-numero-utensilios-de-cocina-4022"
   },
   {
-   "slug": "contar-en-grafico-vehiculos",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-vehiculos-c8b9",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "vehicles",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-vehiculos"
+   "deck": "suma-imagen-numero-vehiculos-c8b9"
   },
   {
-   "slug": "contar-en-grafico-verduras",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-verano-2656",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "summer",
+   "level": "primer-grado",
+   "deck": "suma-imagen-numero-verano-2656"
+  },
+  {
+   "slug": "suma-imagen-numero-verduras-64fc",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "vegetables",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-verduras"
+   "deck": "suma-imagen-numero-verduras-64fc"
   },
   {
-   "slug": "contar-en-grafico-vida-marina",
-   "type": "chart-count",
-   "mode": null,
+   "slug": "suma-imagen-numero-vida-marina-b680",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "ocean_life",
    "level": "primer-grado",
-   "deck": "contar-en-grafico-vida-marina"
+   "deck": "suma-imagen-numero-vida-marina-b680"
+  },
+  {
+   "slug": "suma-mixto-4-de-julio-eda1",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "4th_of_july",
+   "level": "primer-grado",
+   "deck": "suma-mixto-4-de-julio-eda1"
+  },
+  {
+   "slug": "suma-mixto-accesorios-72d1",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "primer-grado",
+   "deck": "suma-mixto-accesorios-72d1"
+  },
+  {
+   "slug": "suma-mixto-actividades-3ad1",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "activities",
+   "level": "primer-grado",
+   "deck": "suma-mixto-actividades-3ad1"
+  },
+  {
+   "slug": "suma-mixto-alrededor-de-la-casa-fa70",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "primer-grado",
+   "deck": "suma-mixto-alrededor-de-la-casa-fa70"
+  },
+  {
+   "slug": "suma-mixto-animales-834f",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "primer-grado",
+   "deck": "suma-mixto-animales-834f"
+  },
+  {
+   "slug": "suma-mixto-animales-de-granja-9775",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "primer-grado",
+   "deck": "suma-mixto-animales-de-granja-9775"
+  },
+  {
+   "slug": "suma-mixto-animales-del-zoologico-d478",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "primer-grado",
+   "deck": "suma-mixto-animales-del-zoologico-d478"
+  },
+  {
+   "slug": "suma-mixto-arboles-24b0",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "primer-grado",
+   "deck": "suma-mixto-arboles-24b0"
+  },
+  {
+   "slug": "suma-mixto-aves-2-1cd8",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "primer-grado",
+   "deck": "suma-mixto-aves-2-1cd8"
+  },
+  {
+   "slug": "suma-mixto-aves-de84",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "primer-grado",
+   "deck": "suma-mixto-aves-de84"
+  },
+  {
+   "slug": "suma-mixto-campamento-fa3a",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "primer-grado",
+   "deck": "suma-mixto-campamento-fa3a"
+  },
+  {
+   "slug": "suma-mixto-clima-5e0d",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "weather",
+   "level": "primer-grado",
+   "deck": "suma-mixto-clima-5e0d"
+  },
+  {
+   "slug": "suma-mixto-colores-5407",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "colors",
+   "level": "primer-grado",
+   "deck": "suma-mixto-colores-5407"
+  },
+  {
+   "slug": "suma-mixto-cosas-que-vuelan-1487",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "primer-grado",
+   "deck": "suma-mixto-cosas-que-vuelan-1487"
+  },
+  {
+   "slug": "suma-mixto-criaturas-del-bosque-a039",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "primer-grado",
+   "deck": "suma-mixto-criaturas-del-bosque-a039"
+  },
+  {
+   "slug": "suma-mixto-desayuno-ef38",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "primer-grado",
+   "deck": "suma-mixto-desayuno-ef38"
+  },
+  {
+   "slug": "suma-mixto-dia-de-accion-de-gracias-e979",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "primer-grado",
+   "deck": "suma-mixto-dia-de-accion-de-gracias-e979"
+  },
+  {
+   "slug": "suma-mixto-dinosaurios-cce7",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "primer-grado",
+   "deck": "suma-mixto-dinosaurios-cce7"
+  },
+  {
+   "slug": "suma-mixto-emociones-4d70",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "emotions",
+   "level": "primer-grado",
+   "deck": "suma-mixto-emociones-4d70"
+  },
+  {
+   "slug": "suma-mixto-en-el-supermercado-87ff",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "primer-grado",
+   "deck": "suma-mixto-en-el-supermercado-87ff"
+  },
+  {
+   "slug": "suma-mixto-espacio-b4e1",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "primer-grado",
+   "deck": "suma-mixto-espacio-b4e1"
+  },
+  {
+   "slug": "suma-mixto-flores-1c31",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "primer-grado",
+   "deck": "suma-mixto-flores-1c31"
+  },
+  {
+   "slug": "suma-mixto-formas-920c",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "primer-grado",
+   "deck": "suma-mixto-formas-920c"
+  },
+  {
+   "slug": "suma-mixto-frutas-055f",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "primer-grado",
+   "deck": "suma-mixto-frutas-055f"
+  },
+  {
+   "slug": "suma-mixto-herramientas-a45b",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "primer-grado",
+   "deck": "suma-mixto-herramientas-a45b"
+  },
+  {
+   "slug": "suma-mixto-hospital-1777",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "primer-grado",
+   "deck": "suma-mixto-hospital-1777"
+  },
+  {
+   "slug": "suma-mixto-insectos-y-bichos-1a8d",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "primer-grado",
+   "deck": "suma-mixto-insectos-y-bichos-1a8d"
+  },
+  {
+   "slug": "suma-mixto-invierno-7b0e",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "winter",
+   "level": "primer-grado",
+   "deck": "suma-mixto-invierno-7b0e"
+  },
+  {
+   "slug": "suma-mixto-juguetes-c8f4",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "primer-grado",
+   "deck": "suma-mixto-juguetes-c8f4"
+  },
+  {
+   "slug": "suma-mixto-mascotas-f374",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "primer-grado",
+   "deck": "suma-mixto-mascotas-f374"
+  },
+  {
+   "slug": "suma-mixto-miscelaneo-ebe9",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "miscellaneous",
+   "level": "primer-grado",
+   "deck": "suma-mixto-miscelaneo-ebe9"
+  },
+  {
+   "slug": "suma-mixto-muebles-ed4f",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "primer-grado",
+   "deck": "suma-mixto-muebles-ed4f"
+  },
+  {
+   "slug": "suma-mixto-musica-e08d",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "primer-grado",
+   "deck": "suma-mixto-musica-e08d"
+  },
+  {
+   "slug": "suma-mixto-navidad-043b",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "primer-grado",
+   "deck": "suma-mixto-navidad-043b"
+  },
+  {
+   "slug": "suma-mixto-ocupaciones-6948",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "primer-grado",
+   "deck": "suma-mixto-ocupaciones-6948"
+  },
+  {
+   "slug": "suma-mixto-oficina-de-correos-8289",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "primer-grado",
+   "deck": "suma-mixto-oficina-de-correos-8289"
+  },
+  {
+   "slug": "suma-mixto-panaderia-fc70",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "primer-grado",
+   "deck": "suma-mixto-panaderia-fc70"
+  },
+  {
+   "slug": "suma-mixto-partes-del-cuerpo-a849",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "body_parts",
+   "level": "primer-grado",
+   "deck": "suma-mixto-partes-del-cuerpo-a849"
+  },
+  {
+   "slug": "suma-mixto-pascua-05ed",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "primer-grado",
+   "deck": "suma-mixto-pascua-05ed"
+  },
+  {
+   "slug": "suma-mixto-playa-8fd5",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "primer-grado",
+   "deck": "suma-mixto-playa-8fd5"
+  },
+  {
+   "slug": "suma-mixto-postres-y-dulces-5b4d",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "primer-grado",
+   "deck": "suma-mixto-postres-y-dulces-5b4d"
+  },
+  {
+   "slug": "suma-mixto-primavera-bb7b",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "spring",
+   "level": "primer-grado",
+   "deck": "suma-mixto-primavera-bb7b"
+  },
+  {
+   "slug": "suma-mixto-reptiles-y-anfibios-4398",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "primer-grado",
+   "deck": "suma-mixto-reptiles-y-anfibios-4398"
+  },
+  {
+   "slug": "suma-mixto-ropa-99c6",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "primer-grado",
+   "deck": "suma-mixto-ropa-99c6"
+  },
+  {
+   "slug": "suma-mixto-salon-de-clases-4028",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "primer-grado",
+   "deck": "suma-mixto-salon-de-clases-4028"
+  },
+  {
+   "slug": "suma-mixto-utensilios-de-cocina-e84a",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "primer-grado",
+   "deck": "suma-mixto-utensilios-de-cocina-e84a"
+  },
+  {
+   "slug": "suma-mixto-vehiculos-e4ba",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "primer-grado",
+   "deck": "suma-mixto-vehiculos-e4ba"
+  },
+  {
+   "slug": "suma-mixto-verano-9969",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "summer",
+   "level": "primer-grado",
+   "deck": "suma-mixto-verano-9969"
+  },
+  {
+   "slug": "suma-mixto-verduras-c7b1",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "primer-grado",
+   "deck": "suma-mixto-verduras-c7b1"
+  },
+  {
+   "slug": "suma-mixto-vida-marina-73b1",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "primer-grado",
+   "deck": "suma-mixto-vida-marina-73b1"
   }
  ]
 }

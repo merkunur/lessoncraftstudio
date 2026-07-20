@@ -2,627 +2,503 @@
  "part": 133,
  "locale": "pt",
  "classes": [
-  "subtraction::find-subtrahend",
-  "bingo::null"
+  "picture-sort::null"
  ],
- "splitOf": null,
- "count": 77,
+ "splitOf": {
+  "class": "picture-sort::null",
+  "total": 122,
+  "chunk": 2,
+  "chunks": 2
+ },
+ "count": 61,
  "pages": [
   {
-   "slug": "subtracao-encontre-o-subtraendo-acampamento-d03e",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "camping",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-acampamento-d03e"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-acessorios-77bc",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "accessories",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-acessorios-77bc"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-animais-de-estimacao-7873",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "pets",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-animais-de-estimacao-7873"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-animais-do-zoologico-1051",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "zoo_animals",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-animais-do-zoologico-1051"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-animais-ef37",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "animals",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-animais-ef37"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-arvores-c484",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "tree",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-arvores-c484"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-brinquedos-3039",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "toys",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-brinquedos-3039"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-cafe-da-manha-d927",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "breakfast",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-cafe-da-manha-d927"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-coisas-que-voam-7dde",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "things_that_fly",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-coisas-que-voam-7dde"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-correios-ffaa",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "post_office",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-correios-ffaa"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-dia-de-acao-de-gracas-d211",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "thanksgivinng",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-dia-de-acao-de-gracas-d211"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-dinossauros-8c90",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "dinosaurs",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-dinossauros-8c90"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-diversos-b3bb",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "miscellaneous",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-diversos-b3bb"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-espaco-e941",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "space",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-espaco-e941"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-ferramentas-443a",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "tools",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-ferramentas-443a"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-flores-8c48",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "flowers",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-flores-8c48"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-formas-6712",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "shapes",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-formas-6712"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-frutas-3078",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "fruits",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-frutas-3078"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-hospital-b66b",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "hospital",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-hospital-b66b"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-insetos-e-bichos-1e86",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "insects_and_bugs",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-insetos-e-bichos-1e86"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-moveis-1942",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "furniture",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-moveis-1942"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-musica-28ce",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "music",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-musica-28ce"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-natal-652c",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "christmas",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-natal-652c"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-no-supermercado-c3f6",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "at_the_supermarket",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-no-supermercado-c3f6"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-padaria-140b",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "bakery",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-padaria-140b"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-pascoa-9bad",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "easter",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-pascoa-9bad"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-passaros-2-c99f",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "birds_2",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-passaros-2-c99f"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-passaros-a067",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "birds",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-passaros-a067"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-pela-casa-9dc9",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "around_the_house",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-pela-casa-9dc9"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-praia-4176",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "beach",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-praia-4176"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-profissoes-92ae",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "occupations",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-profissoes-92ae"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-repteis-e-anfibios-5666",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "reptiles_and_amphibians",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-repteis-e-anfibios-5666"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-roupas-9615",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "clothing",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-roupas-9615"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-sala-de-aula-8502",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "classroom",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-sala-de-aula-8502"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-sobremesas-e-doces-a5fb",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "desserts_and_sweets",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-sobremesas-e-doces-a5fb"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-utensilios-de-cozinha-e3b0",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "kitchen_tools",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-utensilios-de-cozinha-e3b0"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-vegetais-5a32",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "vegetables",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-vegetais-5a32"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-veiculos-fd6b",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "vehicles",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-veiculos-fd6b"
-  },
-  {
-   "slug": "subtracao-encontre-o-subtraendo-vida-marinha-04a0",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "ocean_life",
-   "level": "1o-ano",
-   "deck": "subtracao-encontre-o-subtraendo-vida-marinha-04a0"
-  },
-  {
-   "slug": "bingo-acampamento-4b37",
-   "type": "bingo",
+   "slug": "ordenar-imagens-animals-vs-furniture-4c62",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "camping",
+   "theme": "animals-vs-furniture",
    "level": "educacao-infantil",
-   "deck": "bingo-acampamento-4b37"
+   "deck": "ordenar-imagens-animals-vs-furniture-4c62"
   },
   {
-   "slug": "bingo-acessorios-098e",
-   "type": "bingo",
+   "slug": "ordenar-imagens-animals-vs-hospital-4df8",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "accessories",
+   "theme": "animals-vs-hospital",
    "level": "educacao-infantil",
-   "deck": "bingo-acessorios-098e"
+   "deck": "ordenar-imagens-animals-vs-hospital-4df8"
   },
   {
-   "slug": "bingo-animais",
-   "type": "bingo",
+   "slug": "ordenar-imagens-animals-vs-kitchen-tools-c9bc",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "animals",
+   "theme": "animals-vs-kitchen_tools",
    "level": "educacao-infantil",
-   "deck": "bingo-animais"
+   "deck": "ordenar-imagens-animals-vs-kitchen-tools-c9bc"
   },
   {
-   "slug": "bingo-animais-da-fazenda-68ac",
-   "type": "bingo",
+   "slug": "ordenar-imagens-animals-vs-occupations-8245",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "farm_animals",
+   "theme": "animals-vs-occupations",
    "level": "educacao-infantil",
-   "deck": "bingo-animais-da-fazenda-68ac"
+   "deck": "ordenar-imagens-animals-vs-occupations-8245"
   },
   {
-   "slug": "bingo-animais-de-estimacao-f449",
-   "type": "bingo",
+   "slug": "ordenar-imagens-animals-vs-post-office-cf24",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "pets",
+   "theme": "animals-vs-post_office",
    "level": "educacao-infantil",
-   "deck": "bingo-animais-de-estimacao-f449"
+   "deck": "ordenar-imagens-animals-vs-post-office-cf24"
   },
   {
-   "slug": "bingo-animais-do-zoologico-1aed",
-   "type": "bingo",
+   "slug": "ordenar-imagens-animals-vs-shapes-a146",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "zoo_animals",
+   "theme": "animals-vs-shapes",
    "level": "educacao-infantil",
-   "deck": "bingo-animais-do-zoologico-1aed"
+   "deck": "ordenar-imagens-animals-vs-shapes-a146"
   },
   {
-   "slug": "bingo-atividades-fde1",
-   "type": "bingo",
+   "slug": "ordenar-imagens-animals-vs-space-b48b",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "activities",
+   "theme": "animals-vs-space",
    "level": "educacao-infantil",
-   "deck": "bingo-atividades-fde1"
+   "deck": "ordenar-imagens-animals-vs-space-b48b"
   },
   {
-   "slug": "bingo-brinquedos-f7c3",
-   "type": "bingo",
+   "slug": "ordenar-imagens-animals-vs-spring-48d1",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "toys",
+   "theme": "animals-vs-spring",
    "level": "educacao-infantil",
-   "deck": "bingo-brinquedos-f7c3"
+   "deck": "ordenar-imagens-animals-vs-spring-48d1"
   },
   {
-   "slug": "bingo-cafe-da-manha-b795",
-   "type": "bingo",
+   "slug": "ordenar-imagens-animals-vs-summer-d77f",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "breakfast",
+   "theme": "animals-vs-summer",
    "level": "educacao-infantil",
-   "deck": "bingo-cafe-da-manha-b795"
+   "deck": "ordenar-imagens-animals-vs-summer-d77f"
   },
   {
-   "slug": "bingo-clima-0ac6",
-   "type": "bingo",
+   "slug": "ordenar-imagens-animals-vs-thanksgiving-11c5",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "weather",
+   "theme": "animals-vs-thanksgivinng",
    "level": "educacao-infantil",
-   "deck": "bingo-clima-0ac6"
+   "deck": "ordenar-imagens-animals-vs-thanksgiving-11c5"
   },
   {
-   "slug": "bingo-coisas-que-voam-0f13",
-   "type": "bingo",
+   "slug": "ordenar-imagens-animals-vs-tools-e3d4",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "things_that_fly",
+   "theme": "animals-vs-tools",
    "level": "educacao-infantil",
-   "deck": "bingo-coisas-que-voam-0f13"
+   "deck": "ordenar-imagens-animals-vs-tools-e3d4"
   },
   {
-   "slug": "bingo-cores-5b34",
-   "type": "bingo",
+   "slug": "ordenar-imagens-animals-vs-toys-a360",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "colors",
+   "theme": "animals-vs-toys",
    "level": "educacao-infantil",
-   "deck": "bingo-cores-5b34"
+   "deck": "ordenar-imagens-animals-vs-toys-a360"
   },
   {
-   "slug": "bingo-criaturas-da-floresta-0575",
-   "type": "bingo",
+   "slug": "ordenar-imagens-animals-vs-tree-4455",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "forest_creatures",
+   "theme": "animals-vs-tree",
    "level": "educacao-infantil",
-   "deck": "bingo-criaturas-da-floresta-0575"
+   "deck": "ordenar-imagens-animals-vs-tree-4455"
   },
   {
-   "slug": "bingo-espaco-74e4",
-   "type": "bingo",
+   "slug": "ordenar-imagens-animals-vs-vegetables-c16f",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "space",
+   "theme": "animals-vs-vegetables",
    "level": "educacao-infantil",
-   "deck": "bingo-espaco-74e4"
+   "deck": "ordenar-imagens-animals-vs-vegetables-c16f"
   },
   {
-   "slug": "bingo-flores-69ce",
-   "type": "bingo",
+   "slug": "ordenar-imagens-animals-vs-vehicles-b595",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "flowers",
+   "theme": "animals-vs-vehicles",
    "level": "educacao-infantil",
-   "deck": "bingo-flores-69ce"
+   "deck": "ordenar-imagens-animals-vs-vehicles-b595"
   },
   {
-   "slug": "bingo-formas-abbd",
-   "type": "bingo",
+   "slug": "ordenar-imagens-animals-vs-weather-dccd",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "shapes",
+   "theme": "animals-vs-weather",
    "level": "educacao-infantil",
-   "deck": "bingo-formas-abbd"
+   "deck": "ordenar-imagens-animals-vs-weather-dccd"
   },
   {
-   "slug": "bingo-frutas-259e",
-   "type": "bingo",
+   "slug": "ordenar-imagens-camping-vs-accessories-ecce",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "fruits",
+   "theme": "camping-vs-accessories",
    "level": "educacao-infantil",
-   "deck": "bingo-frutas-259e"
+   "deck": "ordenar-imagens-camping-vs-accessories-ecce"
   },
   {
-   "slug": "bingo-hospital-62ee",
-   "type": "bingo",
+   "slug": "ordenar-imagens-camping-vs-activities-0026",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "hospital",
+   "theme": "camping-vs-activities",
    "level": "educacao-infantil",
-   "deck": "bingo-hospital-62ee"
+   "deck": "ordenar-imagens-camping-vs-activities-0026"
   },
   {
-   "slug": "bingo-inverno-8760",
-   "type": "bingo",
+   "slug": "ordenar-imagens-camping-vs-animals-6524",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "winter",
+   "theme": "camping-vs-animals",
    "level": "educacao-infantil",
-   "deck": "bingo-inverno-8760"
+   "deck": "ordenar-imagens-camping-vs-animals-6524"
   },
   {
-   "slug": "bingo-moveis-120d",
-   "type": "bingo",
+   "slug": "ordenar-imagens-camping-vs-around-the-house-f17e",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "furniture",
+   "theme": "camping-vs-around_the_house",
    "level": "educacao-infantil",
-   "deck": "bingo-moveis-120d"
+   "deck": "ordenar-imagens-camping-vs-around-the-house-f17e"
   },
   {
-   "slug": "bingo-natal-b2a8",
-   "type": "bingo",
+   "slug": "ordenar-imagens-camping-vs-at-the-supermarket-4a90",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "christmas",
+   "theme": "camping-vs-at_the_supermarket",
    "level": "educacao-infantil",
-   "deck": "bingo-natal-b2a8"
+   "deck": "ordenar-imagens-camping-vs-at-the-supermarket-4a90"
   },
   {
-   "slug": "bingo-no-supermercado-5277",
-   "type": "bingo",
+   "slug": "ordenar-imagens-camping-vs-bakery-8499",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "at_the_supermarket",
+   "theme": "camping-vs-bakery",
    "level": "educacao-infantil",
-   "deck": "bingo-no-supermercado-5277"
+   "deck": "ordenar-imagens-camping-vs-bakery-8499"
   },
   {
-   "slug": "bingo-padaria-d39a",
-   "type": "bingo",
+   "slug": "ordenar-imagens-camping-vs-beach-ab54",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "bakery",
+   "theme": "camping-vs-beach",
    "level": "educacao-infantil",
-   "deck": "bingo-padaria-d39a"
+   "deck": "ordenar-imagens-camping-vs-beach-ab54"
   },
   {
-   "slug": "bingo-partes-do-corpo-15b9",
-   "type": "bingo",
+   "slug": "ordenar-imagens-camping-vs-birds-2-6a0e",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "body_parts",
+   "theme": "camping-vs-birds_2",
    "level": "educacao-infantil",
-   "deck": "bingo-partes-do-corpo-15b9"
+   "deck": "ordenar-imagens-camping-vs-birds-2-6a0e"
   },
   {
-   "slug": "bingo-pascoa-a0a0",
-   "type": "bingo",
+   "slug": "ordenar-imagens-camping-vs-birds-dc8d",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "easter",
+   "theme": "camping-vs-birds",
    "level": "educacao-infantil",
-   "deck": "bingo-pascoa-a0a0"
+   "deck": "ordenar-imagens-camping-vs-birds-dc8d"
   },
   {
-   "slug": "bingo-passaros-2-925e",
-   "type": "bingo",
+   "slug": "ordenar-imagens-camping-vs-body-parts-5d2f",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "birds_2",
+   "theme": "camping-vs-body_parts",
    "level": "educacao-infantil",
-   "deck": "bingo-passaros-2-925e"
+   "deck": "ordenar-imagens-camping-vs-body-parts-5d2f"
   },
   {
-   "slug": "bingo-pela-casa-d174",
-   "type": "bingo",
+   "slug": "ordenar-imagens-camping-vs-breakfast-a87f",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "around_the_house",
+   "theme": "camping-vs-breakfast",
    "level": "educacao-infantil",
-   "deck": "bingo-pela-casa-d174"
+   "deck": "ordenar-imagens-camping-vs-breakfast-a87f"
   },
   {
-   "slug": "bingo-praia-c465",
-   "type": "bingo",
+   "slug": "ordenar-imagens-camping-vs-christmas-0cc7",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "beach",
+   "theme": "camping-vs-christmas",
    "level": "educacao-infantil",
-   "deck": "bingo-praia-c465"
+   "deck": "ordenar-imagens-camping-vs-christmas-0cc7"
   },
   {
-   "slug": "bingo-primavera-ce94",
-   "type": "bingo",
+   "slug": "ordenar-imagens-camping-vs-classroom-2445",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "spring",
+   "theme": "camping-vs-classroom",
    "level": "educacao-infantil",
-   "deck": "bingo-primavera-ce94"
+   "deck": "ordenar-imagens-camping-vs-classroom-2445"
   },
   {
-   "slug": "bingo-profissoes-f864",
-   "type": "bingo",
+   "slug": "ordenar-imagens-camping-vs-clothing-b1e7",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "occupations",
+   "theme": "camping-vs-clothing",
    "level": "educacao-infantil",
-   "deck": "bingo-profissoes-f864"
+   "deck": "ordenar-imagens-camping-vs-clothing-b1e7"
   },
   {
-   "slug": "bingo-roupas-2923",
-   "type": "bingo",
+   "slug": "ordenar-imagens-camping-vs-colors-61f5",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "clothing",
+   "theme": "camping-vs-colors",
    "level": "educacao-infantil",
-   "deck": "bingo-roupas-2923"
+   "deck": "ordenar-imagens-camping-vs-colors-61f5"
   },
   {
-   "slug": "bingo-sala-de-aula-7ca6",
-   "type": "bingo",
+   "slug": "ordenar-imagens-camping-vs-desserts-and-sweets-eb01",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "classroom",
+   "theme": "camping-vs-desserts_and_sweets",
    "level": "educacao-infantil",
-   "deck": "bingo-sala-de-aula-7ca6"
+   "deck": "ordenar-imagens-camping-vs-desserts-and-sweets-eb01"
   },
   {
-   "slug": "bingo-sobremesas-e-doces-482c",
-   "type": "bingo",
+   "slug": "ordenar-imagens-camping-vs-dinosaurs-e0b3",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "desserts_and_sweets",
+   "theme": "camping-vs-dinosaurs",
    "level": "educacao-infantil",
-   "deck": "bingo-sobremesas-e-doces-482c"
+   "deck": "ordenar-imagens-camping-vs-dinosaurs-e0b3"
   },
   {
-   "slug": "bingo-utensilios-de-cozinha-a35b",
-   "type": "bingo",
+   "slug": "ordenar-imagens-camping-vs-easter-501f",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "kitchen_tools",
+   "theme": "camping-vs-easter",
    "level": "educacao-infantil",
-   "deck": "bingo-utensilios-de-cozinha-a35b"
+   "deck": "ordenar-imagens-camping-vs-easter-501f"
   },
   {
-   "slug": "bingo-vegetais-5db5",
-   "type": "bingo",
+   "slug": "ordenar-imagens-camping-vs-emotions-d9d8",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "vegetables",
+   "theme": "camping-vs-emotions",
    "level": "educacao-infantil",
-   "deck": "bingo-vegetais-5db5"
+   "deck": "ordenar-imagens-camping-vs-emotions-d9d8"
   },
   {
-   "slug": "bingo-veiculos-ded6",
-   "type": "bingo",
+   "slug": "ordenar-imagens-camping-vs-farm-animals-c949",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "vehicles",
+   "theme": "camping-vs-farm_animals",
    "level": "educacao-infantil",
-   "deck": "bingo-veiculos-ded6"
+   "deck": "ordenar-imagens-camping-vs-farm-animals-c949"
   },
   {
-   "slug": "bingo-verao-5b80",
-   "type": "bingo",
+   "slug": "ordenar-imagens-camping-vs-flowers-3601",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "summer",
+   "theme": "camping-vs-flowers",
    "level": "educacao-infantil",
-   "deck": "bingo-verao-5b80"
+   "deck": "ordenar-imagens-camping-vs-flowers-3601"
   },
   {
-   "slug": "bingo-vida-marinha-a00a",
-   "type": "bingo",
+   "slug": "ordenar-imagens-camping-vs-forest-creatures-23b0",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "ocean_life",
+   "theme": "camping-vs-forest_creatures",
    "level": "educacao-infantil",
-   "deck": "bingo-vida-marinha-a00a"
+   "deck": "ordenar-imagens-camping-vs-forest-creatures-23b0"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-fruits-a790",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-fruits",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-fruits-a790"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-furniture-5904",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-furniture",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-furniture-5904"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-hospital-5ad6",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-hospital",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-hospital-5ad6"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-insects-and-bugs-67e8",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-insects_and_bugs",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-insects-and-bugs-67e8"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-kitchen-tools-7731",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-kitchen_tools",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-kitchen-tools-7731"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-music-ffad",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-music",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-music-ffad"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-occupations-e1d5",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-occupations",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-occupations-e1d5"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-ocean-life-dba4",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-ocean_life",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-ocean-life-dba4"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-pets-e585",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-pets",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-pets-e585"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-post-office-1a0e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-post_office",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-post-office-1a0e"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-reptiles-and-amphibians-4698",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-reptiles_and_amphibians",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-reptiles-and-amphibians-4698"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-shapes-d76d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-shapes",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-shapes-d76d"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-space-82d4",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-space",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-space-82d4"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-thanksgiving-0bcf",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-thanksgivinng",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-thanksgiving-0bcf"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-things-that-fly-8e72",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-things_that_fly",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-things-that-fly-8e72"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-tools-47cb",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-tools",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-tools-47cb"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-toys-1a82",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-toys",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-toys-1a82"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-tree-5e5d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-tree",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-tree-5e5d"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-vegetables-8903",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-vegetables",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-vegetables-8903"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-vehicles-12ec",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-vehicles",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-vehicles-12ec"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-weather-ee70",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-weather",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-weather-ee70"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-winter-7bd0",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-winter",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-winter-7bd0"
+  },
+  {
+   "slug": "ordenar-imagens-camping-vs-zoo-animals-004c",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-zoo_animals",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-camping-vs-zoo-animals-004c"
   }
  ]
 }

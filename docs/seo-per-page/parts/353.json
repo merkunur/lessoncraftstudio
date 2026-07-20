@@ -2,189 +2,771 @@
  "part": 353,
  "locale": "fi",
  "classes": [
-  "fractions::name-and-compare",
-  "fractions::partition-and-share",
-  "geometry::count-and-sort-shapes",
-  "geometry::quadrilaterals-and-area",
-  "geometry::shape-attributes",
-  "graphing-data::graphs-and-line-plots",
-  "graphing-data::read-picture-bar-graphs",
-  "graphing-data::scaled-graphs",
-  "measurement::compare-weight",
-  "measurement::length-units",
-  "measurement::measure-and-compare-length",
-  "measurement::volume-and-temperature",
-  "number-charts::hundreds-chart-skip-count",
-  "number-charts::number-patterns",
-  "number-charts::numbers-to-20",
-  "number-charts::skip-count-and-100-more-less",
-  "odd-one-out::cross-theme",
-  "telling-time::hour-half-hour",
-  "telling-time::to-five-minutes",
-  "telling-time::to-the-minute"
+  "sudoku::medium",
+  "code-addition::secret-word"
  ],
  "splitOf": null,
- "count": 20,
+ "count": 95,
  "pages": [
   {
-   "slug": "murtoluvut-lukusuora-3-luokka",
-   "type": "fractions",
-   "mode": "name-and-compare",
-   "theme": "",
-   "level": "3-luokka",
-   "deck": "murtoluvut-g3315"
-  },
-  {
-   "slug": "murtoluvut-yhta-suuret-osat-2-luokka",
-   "type": "fractions",
-   "mode": "partition-and-share",
-   "theme": "",
-   "level": "2-luokka",
-   "deck": "murtoluvut-g2228"
-  },
-  {
-   "slug": "geometria-muodot-esikoulu",
-   "type": "geometry",
-   "mode": "count-and-sort-shapes",
-   "theme": "",
+   "slug": "kuvasudoku-keskitaso-aamiainen-7125",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "breakfast",
    "level": "esikoulu",
-   "deck": "geometria-k075"
+   "deck": "kuvasudoku-keskitaso-aamiainen-7125"
   },
   {
-   "slug": "geometria-piiri-ja-pinta-ala-3-luokka",
-   "type": "geometry",
-   "mode": "quadrilaterals-and-area",
-   "theme": "",
-   "level": "3-luokka",
-   "deck": "geometria-g3337"
-  },
-  {
-   "slug": "geometria-kappaleet-2-luokka",
-   "type": "geometry",
-   "mode": "shape-attributes",
-   "theme": "",
-   "level": "2-luokka",
-   "deck": "geometria-g2241"
-  },
-  {
-   "slug": "diagrammit-tehtavat-2-luokka",
-   "type": "graphing-data",
-   "mode": "graphs-and-line-plots",
-   "theme": "",
-   "level": "2-luokka",
-   "deck": "kaaviot-lelut-g2239"
-  },
-  {
-   "slug": "diagrammit-tehtavat-1-luokka",
-   "type": "graphing-data",
-   "mode": "read-picture-bar-graphs",
-   "theme": "",
-   "level": "1-luokka",
-   "deck": "kaaviot-lelut-g1142"
-  },
-  {
-   "slug": "diagrammit-tehtavat-3-luokka",
-   "type": "graphing-data",
-   "mode": "scaled-graphs",
-   "theme": "",
-   "level": "3-luokka",
-   "deck": "kaaviot-lelut-g3333"
-  },
-  {
-   "slug": "vertaa-painoa-raskas-vai-kevyt-esikoulu",
-   "type": "measurement",
-   "mode": "compare-weight",
-   "theme": "",
-   "level": "esikoulu",
-   "deck": "mittaaminen-elaimet-k038"
-  },
-  {
-   "slug": "mittaa-pituutta-yksikoilla-1-luokka",
-   "type": "measurement",
-   "mode": "length-units",
-   "theme": "",
-   "level": "1-luokka",
-   "deck": "mittaaminen-muodot-g1139"
-  },
-  {
-   "slug": "mittaa-viivaimella-2-luokka",
-   "type": "measurement",
-   "mode": "measure-and-compare-length",
-   "theme": "",
-   "level": "2-luokka",
-   "deck": "mittaaminen-lelut-g2235"
-  },
-  {
-   "slug": "lampotila-ja-tilavuus-3-luokka",
-   "type": "measurement",
-   "mode": "volume-and-temperature",
-   "theme": "",
-   "level": "3-luokka",
-   "deck": "mittaaminen-g3345"
-  },
-  {
-   "slug": "lukutaulu-100-1-luokka",
-   "type": "number-charts",
-   "mode": "hundreds-chart-skip-count",
-   "theme": "",
-   "level": "1-luokka",
-   "deck": "lukutaulu-g1130"
-  },
-  {
-   "slug": "lukujonot-lukukoneet-3-luokka",
-   "type": "number-charts",
-   "mode": "number-patterns",
-   "theme": "",
-   "level": "3-luokka",
-   "deck": "lukutaulu-g3328"
-  },
-  {
-   "slug": "puuttuvat-luvut-esikoulu",
-   "type": "number-charts",
-   "mode": "numbers-to-20",
-   "theme": "",
-   "level": "esikoulu",
-   "deck": "lukutaulu-k021"
-  },
-  {
-   "slug": "lukujonot-2-luokka",
-   "type": "number-charts",
-   "mode": "skip-count-and-100-more-less",
-   "theme": "",
-   "level": "2-luokka",
-   "deck": "lukutaulu-g2218"
-  },
-  {
-   "slug": "mika-ei-kuulu-aiheiden-valilla-ajoneuvot-1b37",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "kuvasudoku-keskitaso-ajoneuvot-7701",
+   "type": "sudoku",
+   "mode": "medium",
    "theme": "vehicles",
    "level": "esikoulu",
-   "deck": "mika-ei-kuulu-aiheiden-valilla-ajoneuvot-1b37"
+   "deck": "kuvasudoku-keskitaso-ajoneuvot-7701"
   },
   {
-   "slug": "kellonajat-tehtavat-1-luokka",
-   "type": "telling-time",
-   "mode": "hour-half-hour",
-   "theme": "",
-   "level": "1-luokka",
-   "deck": "kellonajat-g1148"
+   "slug": "kuvasudoku-keskitaso-aktiviteetit-7c63",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "activities",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-aktiviteetit-7c63"
   },
   {
-   "slug": "kellonajat-viisi-minuuttia-2-luokka",
-   "type": "telling-time",
-   "mode": "to-five-minutes",
-   "theme": "",
+   "slug": "kuvasudoku-keskitaso-ammatit-a7f4",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "occupations",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-ammatit-a7f4"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-asusteet-912c",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "accessories",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-asusteet-912c"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-avaruus-2b23",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "space",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-avaruus-2b23"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-dinosaurukset-b070",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "dinosaurs",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-dinosaurukset-b070"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-elaimet-894b",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "animals",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-elaimet-894b"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-elaintarhan-elaimet-802a",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "zoo_animals",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-elaintarhan-elaimet-802a"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-hedelmat-0c07",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "fruits",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-hedelmat-0c07"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-huonekalut-a376",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "furniture",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-huonekalut-a376"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-hyonteiset-ja-otokat-2ec2",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "insects_and_bugs",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-hyonteiset-ja-otokat-2ec2"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-jalkiruoat-ja-makeiset-c486",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "desserts_and_sweets",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-jalkiruoat-ja-makeiset-c486"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-joulu-1543",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "christmas",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-joulu-1543"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-keittiovalineet-486e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "kitchen_tools",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-keittiovalineet-486e"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-kesa-7685",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "summer",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-kesa-7685"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-kevat-e54e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "spring",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-kevat-e54e"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-kiitospaiva-8495",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "thanksgivinng",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-kiitospaiva-8495"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-kodin-ymparilla-f26d",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "around_the_house",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-kodin-ymparilla-f26d"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-kukat-fdb9",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "flowers",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-kukat-fdb9"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-leipomo-f447",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "bakery",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-leipomo-f447"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-leirielama-1f17",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "camping",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-leirielama-1f17"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-lelut-c75f",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "toys",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-lelut-c75f"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-lemmikit-2804",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "pets",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-lemmikit-2804"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-lentavat-asiat-831f",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "things_that_fly",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-lentavat-asiat-831f"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-linnut-2-f1c3",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "birds_2",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-linnut-2-f1c3"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-linnut-4f9a",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "birds",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-linnut-4f9a"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-luokkahuone-f716",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "classroom",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-luokkahuone-f716"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-maatilan-elaimet-2759",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "farm_animals",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-maatilan-elaimet-2759"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-matelijat-ja-sammakkoelaimet-861a",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "reptiles_and_amphibians",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-matelijat-ja-sammakkoelaimet-861a"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-merielama-416e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "ocean_life",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-merielama-416e"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-metsan-elaimet-932a",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "forest_creatures",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-metsan-elaimet-932a"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-muodot-7a33",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "shapes",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-muodot-7a33"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-musiikki-7975",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "music",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-musiikki-7975"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-paasiainen-168e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "easter",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-paasiainen-168e"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-postitoimisto-c105",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "post_office",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-postitoimisto-c105"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-puut-20ec",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "tree",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-puut-20ec"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-ranta-a017",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "beach",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-ranta-a017"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-ruokakaupassa-e002",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "at_the_supermarket",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-ruokakaupassa-e002"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-ruumiinosat-cb4e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "body_parts",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-ruumiinosat-cb4e"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-saa-f5c8",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "weather",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-saa-f5c8"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-sairaala-9317",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "hospital",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-sairaala-9317"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-talvi-c247",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "winter",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-talvi-c247"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-tunteet-3cbe",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "emotions",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-tunteet-3cbe"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-tyokalut-0e96",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "tools",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-tyokalut-0e96"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-vaatteet-c166",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "clothing",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-vaatteet-c166"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-varit-6e2e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "colors",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-varit-6e2e"
+  },
+  {
+   "slug": "kuvasudoku-keskitaso-vihannekset-8616",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "vegetables",
+   "level": "esikoulu",
+   "deck": "kuvasudoku-keskitaso-vihannekset-8616"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-aamiainen-8238",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "breakfast",
    "level": "2-luokka",
-   "deck": "kellonajat-g2249"
+   "deck": "koodattu-yhteenlasku-salasana-aamiainen-8238"
   },
   {
-   "slug": "kellonajat-aikavali-3-luokka",
-   "type": "telling-time",
-   "mode": "to-the-minute",
-   "theme": "",
-   "level": "3-luokka",
-   "deck": "kellonajat-g3344"
+   "slug": "koodattu-yhteenlasku-salasana-ajoneuvot-fec3",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "vehicles",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-ajoneuvot-fec3"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-aktiviteetit-2253",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "activities",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-aktiviteetit-2253"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-ammatit-8bdc",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "occupations",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-ammatit-8bdc"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-asusteet-81d6",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "accessories",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-asusteet-81d6"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-avaruus-1019",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "space",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-avaruus-1019"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-dinosaurukset-6be1",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "dinosaurs",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-dinosaurukset-6be1"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-elaimet-521c",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "animals",
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-elaimet-521c"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-elaintarhan-elaimet-df6b",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "zoo_animals",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-elaintarhan-elaimet-df6b"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-hedelmat-afab",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "fruits",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-hedelmat-afab"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-huonekalut-bee6",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "furniture",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-huonekalut-bee6"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-hyonteiset-ja-otokat-7f79",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "insects_and_bugs",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-hyonteiset-ja-otokat-7f79"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-jalkiruoat-ja-makeiset-fd2a",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "desserts_and_sweets",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-jalkiruoat-ja-makeiset-fd2a"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-joulu-0cd2",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "christmas",
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-joulu-0cd2"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-keittiovalineet-8d60",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "kitchen_tools",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-keittiovalineet-8d60"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-kesa-3669",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "summer",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-kesa-3669"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-kevat-2dee",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "spring",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-kevat-2dee"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-kodin-ymparilla-f1e2",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "around_the_house",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-kodin-ymparilla-f1e2"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-kukat-b1fe",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "flowers",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-kukat-b1fe"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-leipomo-c78a",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "bakery",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-leipomo-c78a"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-leirielama-faf6",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "camping",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-leirielama-faf6"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-lelut-8b4d",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "toys",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-lelut-8b4d"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-lemmikit-2c2d",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "pets",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-lemmikit-2c2d"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-lentavat-asiat-7881",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "things_that_fly",
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-lentavat-asiat-7881"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-linnut-2-76a2",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "birds_2",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-linnut-2-76a2"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-linnut-aad4",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "birds",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-linnut-aad4"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-luokkahuone-408d",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "classroom",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-luokkahuone-408d"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-maatilan-elaimet-62d3",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "farm_animals",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-maatilan-elaimet-62d3"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-matelijat-ja-sammakkoelaimet-5e79",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "reptiles_and_amphibians",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-matelijat-ja-sammakkoelaimet-5e79"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-merielama-4021",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "ocean_life",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-merielama-4021"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-metsan-elaimet-1fa6",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "forest_creatures",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-metsan-elaimet-1fa6"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-muodot-5d8f",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "shapes",
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-muodot-5d8f"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-musiikki-d9ca",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "music",
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-musiikki-d9ca"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-paasiainen-8471",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "easter",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-paasiainen-8471"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-postitoimisto-ec89",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "post_office",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-postitoimisto-ec89"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-puut-53a6",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "tree",
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-puut-53a6"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-ranta-673a",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "beach",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-ranta-673a"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-ruokakaupassa-86e5",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "at_the_supermarket",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-ruokakaupassa-86e5"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-ruumiinosat-1fa3",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "body_parts",
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-ruumiinosat-1fa3"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-saa-1409",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "weather",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-saa-1409"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-sairaala-0725",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "hospital",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-sairaala-0725"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-talvi-eada",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "winter",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-talvi-eada"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-tunteet-5e7c",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "emotions",
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-tunteet-5e7c"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-tyokalut-14aa",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "tools",
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-tyokalut-14aa"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-vaatteet-bcba",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "clothing",
+   "level": "2-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-vaatteet-bcba"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-varit-9c0d",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "colors",
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-varit-9c0d"
+  },
+  {
+   "slug": "koodattu-yhteenlasku-salasana-vihannekset-c889",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "vegetables",
+   "level": "1-luokka",
+   "deck": "koodattu-yhteenlasku-salasana-vihannekset-c889"
   }
  ]
 }

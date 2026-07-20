@@ -2,403 +2,299 @@
  "part": 51,
  "locale": "de",
  "classes": [
-  "math-worksheet::three-symbols-add-sub",
+  "alphabet-train::null",
   "code-addition::null"
  ],
  "splitOf": null,
- "count": 97,
+ "count": 84,
  "pages": [
   {
-   "slug": "mathe-arbeitsblatt-4-juli",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "4th_of_july",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-4-juli-2755"
-  },
-  {
-   "slug": "mathe-arbeitsblatt-accessoires",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-accessoires-134d",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "accessories",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-accessoires-c8e2"
+   "level": "vorschule",
+   "deck": "buchstabenzug-accessoires-134d"
   },
   {
-   "slug": "mathe-arbeitsblatt-aktivitaten",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-aktivitaten-f298",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "activities",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-aktivitaten-92d3"
+   "level": "vorschule",
+   "deck": "buchstabenzug-aktivitaten-f298"
   },
   {
-   "slug": "mathe-arbeitsblatt-backerei",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "bakery",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-backerei-f0e2"
-  },
-  {
-   "slug": "mathe-arbeitsblatt-bauernhoftiere",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-bauernhoftiere-68fc",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "farm_animals",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-bauernhoftiere-795f"
+   "level": "vorschule",
+   "deck": "buchstabenzug-bauernhoftiere-68fc"
   },
   {
-   "slug": "mathe-arbeitsblatt-baume",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "tree",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-baume-e5ab"
-  },
-  {
-   "slug": "mathe-arbeitsblatt-berufe",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-berufe-c650",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "occupations",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-berufe-4522"
+   "level": "vorschule",
+   "deck": "buchstabenzug-berufe-c650"
   },
   {
-   "slug": "mathe-arbeitsblatt-blumen",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "flowers",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-blumen-10c8"
-  },
-  {
-   "slug": "mathe-arbeitsblatt-camping",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-camping-41c0",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "camping",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-camping-23aa"
+   "level": "vorschule",
+   "deck": "buchstabenzug-camping-41c0"
   },
   {
-   "slug": "mathe-arbeitsblatt-desserts-und-sussigkeiten",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-desserts-und-sussigkeiten-98f3",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "desserts_and_sweets",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-desserts-und-sussigkeiten-78e4"
+   "level": "vorschule",
+   "deck": "buchstabenzug-desserts-und-sussigkeiten-98f3"
   },
   {
-   "slug": "mathe-arbeitsblatt-dinge-die-fliegen",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-dinge-die-fliegen-fcf8",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "things_that_fly",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-dinge-die-fliegen-971e"
+   "level": "vorschule",
+   "deck": "buchstabenzug-dinge-die-fliegen-fcf8"
   },
   {
-   "slug": "mathe-arbeitsblatt-dinosaurier",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "dinosaurs",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-dinosaurier-09a8"
-  },
-  {
-   "slug": "mathe-arbeitsblatt-emotionen",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-emotionen-b7bb",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "emotions",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-emotionen-b36c"
+   "level": "vorschule",
+   "deck": "buchstabenzug-emotionen-b7bb"
   },
   {
-   "slug": "mathe-arbeitsblatt-erntedankfest",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-erntedankfest-bbdf",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "thanksgivinng",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-erntedankfest-e728"
+   "level": "vorschule",
+   "deck": "buchstabenzug-erntedankfest-bbdf"
   },
   {
-   "slug": "mathe-arbeitsblatt-fahrzeuge",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-fahrzeuge-6730",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "vehicles",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-fahrzeuge-4504"
+   "level": "vorschule",
+   "deck": "buchstabenzug-fahrzeuge-6730"
   },
   {
-   "slug": "mathe-arbeitsblatt-farben",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "colors",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-farben-6972"
-  },
-  {
-   "slug": "mathe-arbeitsblatt-formen",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-formen-bd91",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "shapes",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-formen-42c0"
+   "level": "vorschule",
+   "deck": "buchstabenzug-formen-bd91"
   },
   {
-   "slug": "mathe-arbeitsblatt-fruchte",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-fruchte-0964",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "fruits",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-fruchte-6340"
+   "level": "vorschule",
+   "deck": "buchstabenzug-fruchte-0964"
   },
   {
-   "slug": "mathe-arbeitsblatt-fruhling",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-fruhling-65cd",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "spring",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-fruhling-ddc9"
+   "level": "vorschule",
+   "deck": "buchstabenzug-fruhling-65cd"
   },
   {
-   "slug": "mathe-arbeitsblatt-fruhstuck",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-fruhstuck-75e3",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "breakfast",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-fruhstuck-f125"
+   "level": "vorschule",
+   "deck": "buchstabenzug-fruhstuck-75e3"
   },
   {
-   "slug": "mathe-arbeitsblatt-gemuse",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-gemuse-2ddf",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "vegetables",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-gemuse-aa26"
+   "level": "vorschule",
+   "deck": "buchstabenzug-gemuse-2ddf"
   },
   {
-   "slug": "mathe-arbeitsblatt-haustiere",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-haustiere-f77b",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "pets",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-haustiere-272f"
+   "level": "vorschule",
+   "deck": "buchstabenzug-haustiere-f77b"
   },
   {
-   "slug": "mathe-arbeitsblatt-im-supermarkt",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-im-supermarkt-e16f",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "at_the_supermarket",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-im-supermarkt-f400"
+   "level": "vorschule",
+   "deck": "buchstabenzug-im-supermarkt-e16f"
   },
   {
-   "slug": "mathe-arbeitsblatt-insekten-und-kafer",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "insects_and_bugs",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-insekten-und-kafer-95bd"
-  },
-  {
-   "slug": "mathe-arbeitsblatt-klassenzimmer",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-klassenzimmer-cfa2",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "classroom",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-klassenzimmer-ec21"
+   "level": "vorschule",
+   "deck": "buchstabenzug-klassenzimmer-cfa2"
   },
   {
-   "slug": "mathe-arbeitsblatt-kleidung",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-kleidung-1871",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "clothing",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-kleidung-3d7a"
+   "level": "vorschule",
+   "deck": "buchstabenzug-kleidung-1871"
   },
   {
-   "slug": "mathe-arbeitsblatt-korperteile",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-korperteile-13c1",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "body_parts",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-korperteile-6afc"
+   "level": "vorschule",
+   "deck": "buchstabenzug-korperteile-13c1"
   },
   {
-   "slug": "mathe-arbeitsblatt-krankenhaus",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-krankenhaus-52e9",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "hospital",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-krankenhaus-f9bc"
+   "level": "vorschule",
+   "deck": "buchstabenzug-krankenhaus-52e9"
   },
   {
-   "slug": "mathe-arbeitsblatt-kuchenwerkzeuge",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-kuchenwerkzeuge-02e4",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "kitchen_tools",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-kuchenwerkzeuge-0d69"
+   "level": "vorschule",
+   "deck": "buchstabenzug-kuchenwerkzeuge-02e4"
   },
   {
-   "slug": "mathe-arbeitsblatt-meeresleben",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-meeresleben-cfd3",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "ocean_life",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-meeresleben-1eea"
+   "level": "vorschule",
+   "deck": "buchstabenzug-meeresleben-cfd3"
   },
   {
-   "slug": "mathe-arbeitsblatt-mobel",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "furniture",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-mobel-4d03"
-  },
-  {
-   "slug": "mathe-arbeitsblatt-musik",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-musik-593b",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "music",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-musik-06b5"
+   "level": "vorschule",
+   "deck": "buchstabenzug-musik-593b"
   },
   {
-   "slug": "mathe-arbeitsblatt-ostern",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-ostern-46e2",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "easter",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-ostern-7e8a"
+   "level": "vorschule",
+   "deck": "buchstabenzug-ostern-46e2"
   },
   {
-   "slug": "mathe-arbeitsblatt-postamt",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "post_office",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-postamt-5b7c"
-  },
-  {
-   "slug": "mathe-arbeitsblatt-reptilien-und-amphibien",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "reptiles_and_amphibians",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-reptilien-und-amphibien-78a1"
-  },
-  {
-   "slug": "mathe-arbeitsblatt-rund-ums-haus",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-rund-ums-haus-938b",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "around_the_house",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-rund-ums-haus-15ca"
+   "level": "vorschule",
+   "deck": "buchstabenzug-rund-ums-haus-938b"
   },
   {
-   "slug": "mathe-arbeitsblatt-sommer",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-sommer-a903",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "summer",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-sommer-25cd"
+   "level": "vorschule",
+   "deck": "buchstabenzug-sommer-a903"
   },
   {
-   "slug": "mathe-arbeitsblatt-spielzeug",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-spielzeug-3d6d",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "toys",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-spielzeug-f7cc"
+   "level": "vorschule",
+   "deck": "buchstabenzug-spielzeug-3d6d"
   },
   {
-   "slug": "mathe-arbeitsblatt-strand",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-strand-a14d",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "beach",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-strand-a062"
+   "level": "vorschule",
+   "deck": "buchstabenzug-strand-a14d"
   },
   {
-   "slug": "mathe-arbeitsblatt-tiere",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-tiere",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "animals",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-tiere-a051"
+   "level": "vorschule",
+   "deck": "buchstabenzug-tiere"
   },
   {
-   "slug": "mathe-arbeitsblatt-vogel",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "birds",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-vogel-060d"
-  },
-  {
-   "slug": "mathe-arbeitsblatt-vogel-2",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-vogel-2-31cb",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "birds_2",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-vogel-2-9180"
+   "level": "vorschule",
+   "deck": "buchstabenzug-vogel-2-31cb"
   },
   {
-   "slug": "mathe-arbeitsblatt-waldtiere",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-waldtiere-3fa9",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "forest_creatures",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-waldtiere-ce88"
+   "level": "vorschule",
+   "deck": "buchstabenzug-waldtiere-3fa9"
   },
   {
-   "slug": "mathe-arbeitsblatt-weihnachten",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-weihnachten-a411",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "christmas",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-weihnachten-16ac"
+   "level": "vorschule",
+   "deck": "buchstabenzug-weihnachten-a411"
   },
   {
-   "slug": "mathe-arbeitsblatt-weltraum",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "space",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-weltraum-195d"
-  },
-  {
-   "slug": "mathe-arbeitsblatt-werkzeuge",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-werkzeuge-0bad",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "tools",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-werkzeuge-7df3"
+   "level": "vorschule",
+   "deck": "buchstabenzug-werkzeuge-0bad"
   },
   {
-   "slug": "mathe-arbeitsblatt-wetter",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "weather",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-wetter-0411"
-  },
-  {
-   "slug": "mathe-arbeitsblatt-winter",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-winter-49f0",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "winter",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-winter-5f20"
+   "level": "vorschule",
+   "deck": "buchstabenzug-winter-49f0"
   },
   {
-   "slug": "mathe-arbeitsblatt-zootiere",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "buchstabenzug-zootiere-902c",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "zoo_animals",
-   "level": "2-klasse",
-   "deck": "mathe-arbeitsblatt-3-symbole-add-sub-zootiere-af84"
+   "level": "vorschule",
+   "deck": "buchstabenzug-zootiere-902c"
   },
   {
    "slug": "code-addition-accessoires-9e6c",

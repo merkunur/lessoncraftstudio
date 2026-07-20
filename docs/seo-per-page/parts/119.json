@@ -2,739 +2,787 @@
  "part": 119,
  "locale": "pt",
  "classes": [
-  "word-scramble::normal",
-  "matching::letter"
+  "pattern-worksheet::null",
+  "prepositions::fillin"
  ],
  "splitOf": null,
- "count": 91,
+ "count": 97,
  "pages": [
   {
-   "slug": "letras-embaralhadas-normal-acampamento-c519",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "atividade-de-padroes-acampamento-fc8c",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "camping",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-acampamento-fc8c"
+  },
+  {
+   "slug": "atividade-de-padroes-acessorios-1de0",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "accessories",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-acessorios-1de0"
+  },
+  {
+   "slug": "atividade-de-padroes-animais-da-fazenda-ae4d",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-animais-da-fazenda-ae4d"
+  },
+  {
+   "slug": "atividade-de-padroes-animais-de-estimacao-f0de",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "pets",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-animais-de-estimacao-f0de"
+  },
+  {
+   "slug": "atividade-de-padroes-animais-do-zoologico-c6a4",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-animais-do-zoologico-c6a4"
+  },
+  {
+   "slug": "atividade-de-padroes-animais-febb",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "animals",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-animais-febb"
+  },
+  {
+   "slug": "atividade-de-padroes-arvores-70fe",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "tree",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-arvores-70fe"
+  },
+  {
+   "slug": "atividade-de-padroes-atividades-ebea",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "activities",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-atividades-ebea"
+  },
+  {
+   "slug": "atividade-de-padroes-brinquedos-50f4",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "toys",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-brinquedos-50f4"
+  },
+  {
+   "slug": "atividade-de-padroes-cafe-da-manha-de50",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-cafe-da-manha-de50"
+  },
+  {
+   "slug": "atividade-de-padroes-clima-07f3",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "weather",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-clima-07f3"
+  },
+  {
+   "slug": "atividade-de-padroes-coisas-que-voam-0c5c",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-coisas-que-voam-0c5c"
+  },
+  {
+   "slug": "atividade-de-padroes-cores-fdb6",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "colors",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-cores-fdb6"
+  },
+  {
+   "slug": "atividade-de-padroes-correios-23ac",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "post_office",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-correios-23ac"
+  },
+  {
+   "slug": "atividade-de-padroes-criaturas-da-floresta-2ced",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-criaturas-da-floresta-2ced"
+  },
+  {
+   "slug": "atividade-de-padroes-dia-de-acao-de-gracas-1fa8",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-dia-de-acao-de-gracas-1fa8"
+  },
+  {
+   "slug": "atividade-de-padroes-dinossauros-88e7",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-dinossauros-88e7"
+  },
+  {
+   "slug": "atividade-de-padroes-emocoes-fb20",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "emotions",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-emocoes-fb20"
+  },
+  {
+   "slug": "atividade-de-padroes-espaco-1f81",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "space",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-espaco-1f81"
+  },
+  {
+   "slug": "atividade-de-padroes-ferramentas-ccec",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "tools",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-ferramentas-ccec"
+  },
+  {
+   "slug": "atividade-de-padroes-flores-7810",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "flowers",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-flores-7810"
+  },
+  {
+   "slug": "atividade-de-padroes-formas-0748",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "shapes",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-formas-0748"
+  },
+  {
+   "slug": "atividade-de-padroes-frutas-62b9",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "fruits",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-frutas-62b9"
+  },
+  {
+   "slug": "atividade-de-padroes-hospital-6d29",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "hospital",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-hospital-6d29"
+  },
+  {
+   "slug": "atividade-de-padroes-insetos-e-bichos-511b",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-insetos-e-bichos-511b"
+  },
+  {
+   "slug": "atividade-de-padroes-inverno-770b",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "winter",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-inverno-770b"
+  },
+  {
+   "slug": "atividade-de-padroes-moveis-3a5d",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "furniture",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-moveis-3a5d"
+  },
+  {
+   "slug": "atividade-de-padroes-musica-c076",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "music",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-musica-c076"
+  },
+  {
+   "slug": "atividade-de-padroes-natal-c593",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "christmas",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-natal-c593"
+  },
+  {
+   "slug": "atividade-de-padroes-no-supermercado-5b55",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-no-supermercado-5b55"
+  },
+  {
+   "slug": "atividade-de-padroes-padaria-7866",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "bakery",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-padaria-7866"
+  },
+  {
+   "slug": "atividade-de-padroes-partes-do-corpo-f0f6",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-partes-do-corpo-f0f6"
+  },
+  {
+   "slug": "atividade-de-padroes-pascoa-2890",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "easter",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-pascoa-2890"
+  },
+  {
+   "slug": "atividade-de-padroes-passaros-2-34c9",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-passaros-2-34c9"
+  },
+  {
+   "slug": "atividade-de-padroes-passaros-6cb7",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "birds",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-passaros-6cb7"
+  },
+  {
+   "slug": "atividade-de-padroes-pela-casa-282b",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-pela-casa-282b"
+  },
+  {
+   "slug": "atividade-de-padroes-praia-c163",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "beach",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-praia-c163"
+  },
+  {
+   "slug": "atividade-de-padroes-primavera-8dcf",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "spring",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-primavera-8dcf"
+  },
+  {
+   "slug": "atividade-de-padroes-profissoes-6d9c",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "occupations",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-profissoes-6d9c"
+  },
+  {
+   "slug": "atividade-de-padroes-repteis-e-anfibios-167d",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-repteis-e-anfibios-167d"
+  },
+  {
+   "slug": "atividade-de-padroes-roupas-d1c4",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "clothing",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-roupas-d1c4"
+  },
+  {
+   "slug": "atividade-de-padroes-sala-de-aula-250a",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "classroom",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-sala-de-aula-250a"
+  },
+  {
+   "slug": "atividade-de-padroes-sobremesas-e-doces-05ce",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-sobremesas-e-doces-05ce"
+  },
+  {
+   "slug": "atividade-de-padroes-utensilios-de-cozinha-fcf6",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-utensilios-de-cozinha-fcf6"
+  },
+  {
+   "slug": "atividade-de-padroes-vegetais-0c50",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-vegetais-0c50"
+  },
+  {
+   "slug": "atividade-de-padroes-veiculos-4e19",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-veiculos-4e19"
+  },
+  {
+   "slug": "atividade-de-padroes-verao-d88c",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "summer",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-verao-d88c"
+  },
+  {
+   "slug": "atividade-de-padroes-vida-marinha-c6df",
+   "type": "pattern-worksheet",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "educacao-infantil",
+   "deck": "atividade-de-padroes-vida-marinha-c6df"
+  },
+  {
+   "slug": "preposicoes-complete-acampamento-71b4",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "camping",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-acampamento-c519"
+   "deck": "preposicoes-complete-acampamento-71b4"
   },
   {
-   "slug": "letras-embaralhadas-normal-acessorios-b18a",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-acessorios-ef96",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "accessories",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-acessorios-b18a"
+   "deck": "preposicoes-complete-acessorios-ef96"
   },
   {
-   "slug": "letras-embaralhadas-normal-animais-1eab",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-animais-2a2c",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "animals",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-animais-1eab"
+   "deck": "preposicoes-complete-animais-2a2c"
   },
   {
-   "slug": "letras-embaralhadas-normal-animais-da-fazenda-6380",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-animais-da-fazenda-9aab",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "farm_animals",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-animais-da-fazenda-6380"
+   "deck": "preposicoes-complete-animais-da-fazenda-9aab"
   },
   {
-   "slug": "letras-embaralhadas-normal-animais-de-estimacao-a096",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-animais-de-estimacao-cff0",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "pets",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-animais-de-estimacao-a096"
+   "deck": "preposicoes-complete-animais-de-estimacao-cff0"
   },
   {
-   "slug": "letras-embaralhadas-normal-animais-do-zoologico-bcdc",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-animais-do-zoologico-9ce6",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "zoo_animals",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-animais-do-zoologico-bcdc"
+   "deck": "preposicoes-complete-animais-do-zoologico-9ce6"
   },
   {
-   "slug": "letras-embaralhadas-normal-atividades-a700",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-arvores-7e8c",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "tree",
+   "level": "1o-ano",
+   "deck": "preposicoes-complete-arvores-7e8c"
+  },
+  {
+   "slug": "preposicoes-complete-atividades-eff5",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "activities",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-atividades-a700"
+   "deck": "preposicoes-complete-atividades-eff5"
   },
   {
-   "slug": "letras-embaralhadas-normal-brinquedos-5e9b",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-brinquedos-42c1",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "toys",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-brinquedos-5e9b"
+   "deck": "preposicoes-complete-brinquedos-42c1"
   },
   {
-   "slug": "letras-embaralhadas-normal-cafe-da-manha-0268",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-cafe-da-manha-6d65",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "breakfast",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-cafe-da-manha-0268"
+   "deck": "preposicoes-complete-cafe-da-manha-6d65"
   },
   {
-   "slug": "letras-embaralhadas-normal-clima-3ad3",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-clima-84cc",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "weather",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-clima-3ad3"
+   "deck": "preposicoes-complete-clima-84cc"
   },
   {
-   "slug": "letras-embaralhadas-normal-coisas-que-voam-6a7a",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-coisas-que-voam-0904",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "things_that_fly",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-coisas-que-voam-6a7a"
+   "deck": "preposicoes-complete-coisas-que-voam-0904"
   },
   {
-   "slug": "letras-embaralhadas-normal-cores-472c",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-cores-2bb9",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "colors",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-cores-472c"
+   "deck": "preposicoes-complete-cores-2bb9"
   },
   {
-   "slug": "letras-embaralhadas-normal-correios-876c",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-correios-3a79",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "post_office",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-correios-876c"
+   "deck": "preposicoes-complete-correios-3a79"
   },
   {
-   "slug": "letras-embaralhadas-normal-criaturas-da-floresta-19c0",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-criaturas-da-floresta-2a1f",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "forest_creatures",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-criaturas-da-floresta-19c0"
+   "deck": "preposicoes-complete-criaturas-da-floresta-2a1f"
   },
   {
-   "slug": "letras-embaralhadas-normal-dia-de-acao-de-gracas-855b",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-dia-de-acao-de-gracas-9290",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "thanksgivinng",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-dia-de-acao-de-gracas-855b"
+   "deck": "preposicoes-complete-dia-de-acao-de-gracas-9290"
   },
   {
-   "slug": "letras-embaralhadas-normal-emocoes-000b",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-dinossauros-3243",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "dinosaurs",
+   "level": "1o-ano",
+   "deck": "preposicoes-complete-dinossauros-3243"
+  },
+  {
+   "slug": "preposicoes-complete-diversos-e503",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "miscellaneous",
+   "level": "1o-ano",
+   "deck": "preposicoes-complete-diversos-e503"
+  },
+  {
+   "slug": "preposicoes-complete-emocoes-e6de",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "emotions",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-emocoes-000b"
+   "deck": "preposicoes-complete-emocoes-e6de"
   },
   {
-   "slug": "letras-embaralhadas-normal-espaco-b2db",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-espaco-0d6e",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "space",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-espaco-b2db"
+   "deck": "preposicoes-complete-espaco-0d6e"
   },
   {
-   "slug": "letras-embaralhadas-normal-ferramentas-4f23",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-ferramentas-b7af",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "tools",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-ferramentas-4f23"
+   "deck": "preposicoes-complete-ferramentas-b7af"
   },
   {
-   "slug": "letras-embaralhadas-normal-flores-2b6d",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-flores-4a32",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "flowers",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-flores-2b6d"
+   "deck": "preposicoes-complete-flores-4a32"
   },
   {
-   "slug": "letras-embaralhadas-normal-formas-c02e",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-formas-2e09",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "shapes",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-formas-c02e"
+   "deck": "preposicoes-complete-formas-2e09"
   },
   {
-   "slug": "letras-embaralhadas-normal-frutas-ab87",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-frutas-870e",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "fruits",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-frutas-ab87"
+   "deck": "preposicoes-complete-frutas-870e"
   },
   {
-   "slug": "letras-embaralhadas-normal-hospital-7370",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-hospital-764b",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "hospital",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-hospital-7370"
+   "deck": "preposicoes-complete-hospital-764b"
   },
   {
-   "slug": "letras-embaralhadas-normal-insetos-e-bichos-b2ae",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-insetos-e-bichos-05e7",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "insects_and_bugs",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-insetos-e-bichos-b2ae"
+   "deck": "preposicoes-complete-insetos-e-bichos-05e7"
   },
   {
-   "slug": "letras-embaralhadas-normal-inverno-a95f",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-inverno-d652",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "winter",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-inverno-a95f"
+   "deck": "preposicoes-complete-inverno-d652"
   },
   {
-   "slug": "letras-embaralhadas-normal-moveis-7bd4",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-moveis-6603",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "furniture",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-moveis-7bd4"
+   "deck": "preposicoes-complete-moveis-6603"
   },
   {
-   "slug": "letras-embaralhadas-normal-musica-bf2c",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-musica-e13c",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "music",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-musica-bf2c"
+   "deck": "preposicoes-complete-musica-e13c"
   },
   {
-   "slug": "letras-embaralhadas-normal-natal-6984",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-natal-e290",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "christmas",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-natal-6984"
+   "deck": "preposicoes-complete-natal-e290"
   },
   {
-   "slug": "letras-embaralhadas-normal-no-supermercado-9e8f",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-no-supermercado-53c7",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "at_the_supermarket",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-no-supermercado-9e8f"
+   "deck": "preposicoes-complete-no-supermercado-53c7"
   },
   {
-   "slug": "letras-embaralhadas-normal-padaria-50ff",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-padaria-029e",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "bakery",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-padaria-50ff"
+   "deck": "preposicoes-complete-padaria-029e"
   },
   {
-   "slug": "letras-embaralhadas-normal-partes-do-corpo-cba1",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-partes-do-corpo-4df5",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "body_parts",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-partes-do-corpo-cba1"
+   "deck": "preposicoes-complete-partes-do-corpo-4df5"
   },
   {
-   "slug": "letras-embaralhadas-normal-pascoa-c406",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-pascoa-b337",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "easter",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-pascoa-c406"
+   "deck": "preposicoes-complete-pascoa-b337"
   },
   {
-   "slug": "letras-embaralhadas-normal-passaros-2-66b3",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-passaros-2-b74e",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "birds_2",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-passaros-2-66b3"
+   "deck": "preposicoes-complete-passaros-2-b74e"
   },
   {
-   "slug": "letras-embaralhadas-normal-passaros-3a6a",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-passaros-652b",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "birds",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-passaros-3a6a"
+   "deck": "preposicoes-complete-passaros-652b"
   },
   {
-   "slug": "letras-embaralhadas-normal-pela-casa-ad31",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-pela-casa-0fd9",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "around_the_house",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-pela-casa-ad31"
+   "deck": "preposicoes-complete-pela-casa-0fd9"
   },
   {
-   "slug": "letras-embaralhadas-normal-praia-7131",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-praia-a844",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "beach",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-praia-7131"
+   "deck": "preposicoes-complete-praia-a844"
   },
   {
-   "slug": "letras-embaralhadas-normal-primavera-1b5c",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-primavera-24d1",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "spring",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-primavera-1b5c"
+   "deck": "preposicoes-complete-primavera-24d1"
   },
   {
-   "slug": "letras-embaralhadas-normal-profissoes-6279",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-profissoes-d429",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "occupations",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-profissoes-6279"
+   "deck": "preposicoes-complete-profissoes-d429"
   },
   {
-   "slug": "letras-embaralhadas-normal-repteis-e-anfibios-de62",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-repteis-e-anfibios-76f8",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "reptiles_and_amphibians",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-repteis-e-anfibios-de62"
+   "deck": "preposicoes-complete-repteis-e-anfibios-76f8"
   },
   {
-   "slug": "letras-embaralhadas-normal-roupas-4db7",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-roupas-36b4",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "clothing",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-roupas-4db7"
+   "deck": "preposicoes-complete-roupas-36b4"
   },
   {
-   "slug": "letras-embaralhadas-normal-sala-de-aula-b6f9",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-sala-de-aula-b40d",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "classroom",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-sala-de-aula-b6f9"
+   "deck": "preposicoes-complete-sala-de-aula-b40d"
   },
   {
-   "slug": "letras-embaralhadas-normal-sobremesas-e-doces-a75f",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-sobremesas-e-doces-fcd3",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "desserts_and_sweets",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-sobremesas-e-doces-a75f"
+   "deck": "preposicoes-complete-sobremesas-e-doces-fcd3"
   },
   {
-   "slug": "letras-embaralhadas-normal-utensilios-de-cozinha-5541",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-utensilios-de-cozinha-785d",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "kitchen_tools",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-utensilios-de-cozinha-5541"
+   "deck": "preposicoes-complete-utensilios-de-cozinha-785d"
   },
   {
-   "slug": "letras-embaralhadas-normal-vegetais-045f",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-vegetais-e8d4",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "vegetables",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-vegetais-045f"
+   "deck": "preposicoes-complete-vegetais-e8d4"
   },
   {
-   "slug": "letras-embaralhadas-normal-veiculos-df70",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-veiculos-2875",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "vehicles",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-veiculos-df70"
+   "deck": "preposicoes-complete-veiculos-2875"
   },
   {
-   "slug": "letras-embaralhadas-normal-verao-9eff",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-verao-5394",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "summer",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-verao-9eff"
+   "deck": "preposicoes-complete-verao-5394"
   },
   {
-   "slug": "letras-embaralhadas-normal-vida-marinha-319e",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "preposicoes-complete-vida-marinha-4f19",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "ocean_life",
    "level": "1o-ano",
-   "deck": "letras-embaralhadas-normal-vida-marinha-319e"
-  },
-  {
-   "slug": "pareamento-letra-acampamento-fb12",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "camping",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-acampamento-fb12"
-  },
-  {
-   "slug": "pareamento-letra-acessorios-0684",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "accessories",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-acessorios-0684"
-  },
-  {
-   "slug": "pareamento-letra-animais-c16f",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "animals",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-animais-c16f"
-  },
-  {
-   "slug": "pareamento-letra-animais-da-fazenda-3136",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "farm_animals",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-animais-da-fazenda-3136"
-  },
-  {
-   "slug": "pareamento-letra-animais-de-estimacao-95bb",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "pets",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-animais-de-estimacao-95bb"
-  },
-  {
-   "slug": "pareamento-letra-animais-do-zoologico-f08f",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "zoo_animals",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-animais-do-zoologico-f08f"
-  },
-  {
-   "slug": "pareamento-letra-atividades-337e",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "activities",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-atividades-337e"
-  },
-  {
-   "slug": "pareamento-letra-brinquedos-e317",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "toys",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-brinquedos-e317"
-  },
-  {
-   "slug": "pareamento-letra-cafe-da-manha-e291",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "breakfast",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-cafe-da-manha-e291"
-  },
-  {
-   "slug": "pareamento-letra-clima-8e94",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "weather",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-clima-8e94"
-  },
-  {
-   "slug": "pareamento-letra-coisas-que-voam-f6e7",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "things_that_fly",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-coisas-que-voam-f6e7"
-  },
-  {
-   "slug": "pareamento-letra-cores-1a76",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "colors",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-cores-1a76"
-  },
-  {
-   "slug": "pareamento-letra-correios-142b",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "post_office",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-correios-142b"
-  },
-  {
-   "slug": "pareamento-letra-criaturas-da-floresta-ed1e",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "forest_creatures",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-criaturas-da-floresta-ed1e"
-  },
-  {
-   "slug": "pareamento-letra-dia-de-acao-de-gracas-e897",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "thanksgivinng",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-dia-de-acao-de-gracas-e897"
-  },
-  {
-   "slug": "pareamento-letra-emocoes-486b",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "emotions",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-emocoes-486b"
-  },
-  {
-   "slug": "pareamento-letra-espaco-6910",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "space",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-espaco-6910"
-  },
-  {
-   "slug": "pareamento-letra-ferramentas-dabc",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "tools",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-ferramentas-dabc"
-  },
-  {
-   "slug": "pareamento-letra-formas-08cf",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "shapes",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-formas-08cf"
-  },
-  {
-   "slug": "pareamento-letra-frutas-4a74",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "fruits",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-frutas-4a74"
-  },
-  {
-   "slug": "pareamento-letra-hospital-d8c2",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "hospital",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-hospital-d8c2"
-  },
-  {
-   "slug": "pareamento-letra-insetos-e-bichos-5af9",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "insects_and_bugs",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-insetos-e-bichos-5af9"
-  },
-  {
-   "slug": "pareamento-letra-inverno-5f0f",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "winter",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-inverno-5f0f"
-  },
-  {
-   "slug": "pareamento-letra-moveis-1b77",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "furniture",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-moveis-1b77"
-  },
-  {
-   "slug": "pareamento-letra-musica-68d6",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "music",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-musica-68d6"
-  },
-  {
-   "slug": "pareamento-letra-natal-8473",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "christmas",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-natal-8473"
-  },
-  {
-   "slug": "pareamento-letra-no-supermercado-2439",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "at_the_supermarket",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-no-supermercado-2439"
-  },
-  {
-   "slug": "pareamento-letra-padaria-c876",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "bakery",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-padaria-c876"
-  },
-  {
-   "slug": "pareamento-letra-partes-do-corpo-6c4a",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "body_parts",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-partes-do-corpo-6c4a"
-  },
-  {
-   "slug": "pareamento-letra-pascoa-e1c4",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "easter",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-pascoa-e1c4"
-  },
-  {
-   "slug": "pareamento-letra-passaros-2-56e9",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "birds_2",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-passaros-2-56e9"
-  },
-  {
-   "slug": "pareamento-letra-passaros-c288",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "birds",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-passaros-c288"
-  },
-  {
-   "slug": "pareamento-letra-pela-casa-07f7",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "around_the_house",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-pela-casa-07f7"
-  },
-  {
-   "slug": "pareamento-letra-praia-02dc",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "beach",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-praia-02dc"
-  },
-  {
-   "slug": "pareamento-letra-primavera-1ba8",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "spring",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-primavera-1ba8"
-  },
-  {
-   "slug": "pareamento-letra-profissoes-e662",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "occupations",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-profissoes-e662"
-  },
-  {
-   "slug": "pareamento-letra-repteis-e-anfibios-5089",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "reptiles_and_amphibians",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-repteis-e-anfibios-5089"
-  },
-  {
-   "slug": "pareamento-letra-roupas-c9f0",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "clothing",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-roupas-c9f0"
-  },
-  {
-   "slug": "pareamento-letra-sala-de-aula-419b",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "classroom",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-sala-de-aula-419b"
-  },
-  {
-   "slug": "pareamento-letra-sobremesas-e-doces-f593",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "desserts_and_sweets",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-sobremesas-e-doces-f593"
-  },
-  {
-   "slug": "pareamento-letra-utensilios-de-cozinha-b29a",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "kitchen_tools",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-utensilios-de-cozinha-b29a"
-  },
-  {
-   "slug": "pareamento-letra-vegetais-582b",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "vegetables",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-vegetais-582b"
-  },
-  {
-   "slug": "pareamento-letra-veiculos-ae5c",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "vehicles",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-veiculos-ae5c"
-  },
-  {
-   "slug": "pareamento-letra-verao-a5f5",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "summer",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-verao-a5f5"
-  },
-  {
-   "slug": "pareamento-letra-vida-marinha-4cb0",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "ocean_life",
-   "level": "educacao-infantil",
-   "deck": "pareamento-letra-vida-marinha-4cb0"
+   "deck": "preposicoes-complete-vida-marinha-4f19"
   }
  ]
 }

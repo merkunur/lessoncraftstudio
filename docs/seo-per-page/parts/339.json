@@ -2,747 +2,779 @@
  "part": 339,
  "locale": "fi",
  "classes": [
-  "prepositions::multiplechoice",
-  "word-guess::normal"
+  "pattern-train::abc",
+  "pattern-train::null"
  ],
  "splitOf": null,
- "count": 92,
+ "count": 96,
  "pages": [
   {
-   "slug": "prepositiot-monivalinta-aamiainen-acce",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "kuviojuna-abc-aamiainen-d4d8",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "breakfast",
    "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-aamiainen-acce"
+   "deck": "kuviojuna-abc-aamiainen-d4d8"
   },
   {
-   "slug": "prepositiot-monivalinta-ajoneuvot-136e",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "kuviojuna-abc-ajoneuvot-9f62",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "vehicles",
    "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-ajoneuvot-136e"
+   "deck": "kuviojuna-abc-ajoneuvot-9f62"
   },
   {
-   "slug": "prepositiot-monivalinta-aktiviteetit-fe9c",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "kuviojuna-abc-aktiviteetit-115a",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "activities",
    "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-aktiviteetit-fe9c"
+   "deck": "kuviojuna-abc-aktiviteetit-115a"
   },
   {
-   "slug": "prepositiot-monivalinta-ammatit-8af1",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "kuviojuna-abc-ammatit-4927",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "occupations",
    "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-ammatit-8af1"
+   "deck": "kuviojuna-abc-ammatit-4927"
   },
   {
-   "slug": "prepositiot-monivalinta-asusteet-2dab",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "kuviojuna-abc-asusteet-c89f",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "accessories",
    "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-asusteet-2dab"
+   "deck": "kuviojuna-abc-asusteet-c89f"
   },
   {
-   "slug": "prepositiot-monivalinta-avaruus-c494",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "kuviojuna-abc-avaruus-05d9",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "space",
    "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-avaruus-c494"
+   "deck": "kuviojuna-abc-avaruus-05d9"
   },
   {
-   "slug": "prepositiot-monivalinta-dinosaurukset-9e86",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "kuviojuna-abc-dinosaurukset-694b",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "dinosaurs",
    "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-dinosaurukset-9e86"
+   "deck": "kuviojuna-abc-dinosaurukset-694b"
   },
   {
-   "slug": "prepositiot-monivalinta-elaimet-60fd",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "kuviojuna-abc-elaimet-6293",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "animals",
    "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-elaimet-60fd"
+   "deck": "kuviojuna-abc-elaimet-6293"
   },
   {
-   "slug": "prepositiot-monivalinta-elaintarhan-elaimet-d6fc",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "kuviojuna-abc-elaintarhan-elaimet-cff6",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "zoo_animals",
    "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-elaintarhan-elaimet-d6fc"
+   "deck": "kuviojuna-abc-elaintarhan-elaimet-cff6"
   },
   {
-   "slug": "prepositiot-monivalinta-hedelmat-0035",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "kuviojuna-abc-hedelmat-46bb",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "fruits",
    "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-hedelmat-0035"
+   "deck": "kuviojuna-abc-hedelmat-46bb"
   },
   {
-   "slug": "prepositiot-monivalinta-huonekalut-99f1",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "kuviojuna-abc-huonekalut-1646",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "furniture",
    "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-huonekalut-99f1"
+   "deck": "kuviojuna-abc-huonekalut-1646"
   },
   {
-   "slug": "prepositiot-monivalinta-hyonteiset-ja-otokat-e3b2",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "kuviojuna-abc-hyonteiset-ja-otokat-0b94",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "insects_and_bugs",
    "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-hyonteiset-ja-otokat-e3b2"
+   "deck": "kuviojuna-abc-hyonteiset-ja-otokat-0b94"
   },
   {
-   "slug": "prepositiot-monivalinta-jalkiruoat-ja-makeiset-1d51",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "kuviojuna-abc-jalkiruoat-ja-makeiset-cb96",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "desserts_and_sweets",
    "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-jalkiruoat-ja-makeiset-1d51"
+   "deck": "kuviojuna-abc-jalkiruoat-ja-makeiset-cb96"
   },
   {
-   "slug": "prepositiot-monivalinta-joulu-8505",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "kuviojuna-abc-joulu-f460",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "christmas",
    "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-joulu-8505"
+   "deck": "kuviojuna-abc-joulu-f460"
   },
   {
-   "slug": "prepositiot-monivalinta-keittiovalineet-cd11",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "kuviojuna-abc-keittiovalineet-42a1",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "kitchen_tools",
    "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-keittiovalineet-cd11"
+   "deck": "kuviojuna-abc-keittiovalineet-42a1"
   },
   {
-   "slug": "prepositiot-monivalinta-kesa-5fe2",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "kuviojuna-abc-kesa-c019",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "summer",
    "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-kesa-5fe2"
+   "deck": "kuviojuna-abc-kesa-c019"
   },
   {
-   "slug": "prepositiot-monivalinta-kevat-b46f",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "kuviojuna-abc-kevat-6bed",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "spring",
    "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-kevat-b46f"
+   "deck": "kuviojuna-abc-kevat-6bed"
   },
   {
-   "slug": "prepositiot-monivalinta-kiitospaiva-2519",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "kuviojuna-abc-kiitospaiva-1434",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "thanksgivinng",
    "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-kiitospaiva-2519"
+   "deck": "kuviojuna-abc-kiitospaiva-1434"
   },
   {
-   "slug": "prepositiot-monivalinta-kodin-ymparilla-ca32",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "kuviojuna-abc-kodin-ymparilla-7264",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "around_the_house",
    "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-kodin-ymparilla-ca32"
+   "deck": "kuviojuna-abc-kodin-ymparilla-7264"
   },
   {
-   "slug": "prepositiot-monivalinta-kukat-fa32",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "kuviojuna-abc-kukat-bc57",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "flowers",
    "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-kukat-fa32"
+   "deck": "kuviojuna-abc-kukat-bc57"
   },
   {
-   "slug": "prepositiot-monivalinta-leipomo-dca8",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "kuviojuna-abc-leipomo-62c9",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "bakery",
    "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-leipomo-dca8"
+   "deck": "kuviojuna-abc-leipomo-62c9"
   },
   {
-   "slug": "prepositiot-monivalinta-leirielama-1df4",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "kuviojuna-abc-leirielama-6af4",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "camping",
    "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-leirielama-1df4"
+   "deck": "kuviojuna-abc-leirielama-6af4"
   },
   {
-   "slug": "prepositiot-monivalinta-lelut-f085",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "kuviojuna-abc-lelut-2e20",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "toys",
    "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-lelut-f085"
+   "deck": "kuviojuna-abc-lelut-2e20"
   },
   {
-   "slug": "prepositiot-monivalinta-lemmikit-51fe",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "kuviojuna-abc-lemmikit-d74a",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "pets",
    "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-lemmikit-51fe"
+   "deck": "kuviojuna-abc-lemmikit-d74a"
   },
   {
-   "slug": "prepositiot-monivalinta-lentavat-asiat-f851",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "kuviojuna-abc-lentavat-asiat-de99",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "things_that_fly",
    "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-lentavat-asiat-f851"
+   "deck": "kuviojuna-abc-lentavat-asiat-de99"
   },
   {
-   "slug": "prepositiot-monivalinta-linnut-2-6b06",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "kuviojuna-abc-linnut-2-ac05",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "birds_2",
    "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-linnut-2-6b06"
+   "deck": "kuviojuna-abc-linnut-2-ac05"
   },
   {
-   "slug": "prepositiot-monivalinta-luokkahuone-9992",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "classroom",
-   "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-luokkahuone-9992"
-  },
-  {
-   "slug": "prepositiot-monivalinta-matelijat-ja-sammakkoelaimet-5ffd",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "reptiles_and_amphibians",
-   "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-matelijat-ja-sammakkoelaimet-5ffd"
-  },
-  {
-   "slug": "prepositiot-monivalinta-merielama-ab5b",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "ocean_life",
-   "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-merielama-ab5b"
-  },
-  {
-   "slug": "prepositiot-monivalinta-metsan-elaimet-e612",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "forest_creatures",
-   "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-metsan-elaimet-e612"
-  },
-  {
-   "slug": "prepositiot-monivalinta-muodot-ad25",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "shapes",
-   "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-muodot-ad25"
-  },
-  {
-   "slug": "prepositiot-monivalinta-musiikki-f53f",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "music",
-   "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-musiikki-f53f"
-  },
-  {
-   "slug": "prepositiot-monivalinta-paasiainen-2744",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "easter",
-   "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-paasiainen-2744"
-  },
-  {
-   "slug": "prepositiot-monivalinta-postitoimisto-5167",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "post_office",
-   "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-postitoimisto-5167"
-  },
-  {
-   "slug": "prepositiot-monivalinta-puut-9bb8",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "tree",
-   "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-puut-9bb8"
-  },
-  {
-   "slug": "prepositiot-monivalinta-ranta-e137",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "beach",
-   "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-ranta-e137"
-  },
-  {
-   "slug": "prepositiot-monivalinta-ruokakaupassa-61c6",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "at_the_supermarket",
-   "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-ruokakaupassa-61c6"
-  },
-  {
-   "slug": "prepositiot-monivalinta-ruumiinosat-0594",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "body_parts",
-   "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-ruumiinosat-0594"
-  },
-  {
-   "slug": "prepositiot-monivalinta-saa-9974",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "weather",
-   "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-saa-9974"
-  },
-  {
-   "slug": "prepositiot-monivalinta-sairaala-3e51",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "hospital",
-   "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-sairaala-3e51"
-  },
-  {
-   "slug": "prepositiot-monivalinta-talvi-2a4f",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "winter",
-   "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-talvi-2a4f"
-  },
-  {
-   "slug": "prepositiot-monivalinta-tunteet-64dd",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "emotions",
-   "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-tunteet-64dd"
-  },
-  {
-   "slug": "prepositiot-monivalinta-tyokalut-c2e3",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "tools",
-   "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-tyokalut-c2e3"
-  },
-  {
-   "slug": "prepositiot-monivalinta-vaatteet-a327",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "clothing",
-   "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-vaatteet-a327"
-  },
-  {
-   "slug": "prepositiot-monivalinta-varit-2871",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "colors",
-   "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-varit-2871"
-  },
-  {
-   "slug": "prepositiot-monivalinta-vihannekset-cf37",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "vegetables",
-   "level": "esikoulu",
-   "deck": "prepositiot-monivalinta-vihannekset-cf37"
-  },
-  {
-   "slug": "arvaa-sana-normaali-aamiainen-284d",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "breakfast",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-aamiainen-284d"
-  },
-  {
-   "slug": "arvaa-sana-normaali-ajoneuvot-3fdb",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "vehicles",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-ajoneuvot-3fdb"
-  },
-  {
-   "slug": "arvaa-sana-normaali-aktiviteetit-7d8d",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "activities",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-aktiviteetit-7d8d"
-  },
-  {
-   "slug": "arvaa-sana-normaali-ammatit-869b",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "occupations",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-ammatit-869b"
-  },
-  {
-   "slug": "arvaa-sana-normaali-asusteet-79e1",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "accessories",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-asusteet-79e1"
-  },
-  {
-   "slug": "arvaa-sana-normaali-avaruus-e39f",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "space",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-avaruus-e39f"
-  },
-  {
-   "slug": "arvaa-sana-normaali-elaimet-3e3f",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "animals",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-elaimet-3e3f"
-  },
-  {
-   "slug": "arvaa-sana-normaali-elaintarhan-elaimet-a998",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "zoo_animals",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-elaintarhan-elaimet-a998"
-  },
-  {
-   "slug": "arvaa-sana-normaali-hedelmat-9765",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "fruits",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-hedelmat-9765"
-  },
-  {
-   "slug": "arvaa-sana-normaali-huonekalut-b9b6",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "furniture",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-huonekalut-b9b6"
-  },
-  {
-   "slug": "arvaa-sana-normaali-hyonteiset-ja-otokat-7433",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "insects_and_bugs",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-hyonteiset-ja-otokat-7433"
-  },
-  {
-   "slug": "arvaa-sana-normaali-jalkiruoat-ja-makeiset-887b",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "desserts_and_sweets",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-jalkiruoat-ja-makeiset-887b"
-  },
-  {
-   "slug": "arvaa-sana-normaali-joulu-d3f0",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "christmas",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-joulu-d3f0"
-  },
-  {
-   "slug": "arvaa-sana-normaali-keittiovalineet-6e59",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "kitchen_tools",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-keittiovalineet-6e59"
-  },
-  {
-   "slug": "arvaa-sana-normaali-kesa-3f03",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "summer",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-kesa-3f03"
-  },
-  {
-   "slug": "arvaa-sana-normaali-kevat-49cd",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "spring",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-kevat-49cd"
-  },
-  {
-   "slug": "arvaa-sana-normaali-kiitospaiva-bf95",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "thanksgivinng",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-kiitospaiva-bf95"
-  },
-  {
-   "slug": "arvaa-sana-normaali-kodin-ymparilla-0003",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "around_the_house",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-kodin-ymparilla-0003"
-  },
-  {
-   "slug": "arvaa-sana-normaali-kukat-7927",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "flowers",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-kukat-7927"
-  },
-  {
-   "slug": "arvaa-sana-normaali-leipomo-dadc",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "bakery",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-leipomo-dadc"
-  },
-  {
-   "slug": "arvaa-sana-normaali-leirielama-a8da",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "camping",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-leirielama-a8da"
-  },
-  {
-   "slug": "arvaa-sana-normaali-lelut-dff4",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "toys",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-lelut-dff4"
-  },
-  {
-   "slug": "arvaa-sana-normaali-lemmikit-b24c",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "pets",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-lemmikit-b24c"
-  },
-  {
-   "slug": "arvaa-sana-normaali-lentavat-asiat-30e8",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "things_that_fly",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-lentavat-asiat-30e8"
-  },
-  {
-   "slug": "arvaa-sana-normaali-linnut-821c",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "kuviojuna-abc-linnut-3f67",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "birds",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-linnut-821c"
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-linnut-3f67"
   },
   {
-   "slug": "arvaa-sana-normaali-luokkahuone-1fe1",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "kuviojuna-abc-luokkahuone-d4a9",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "classroom",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-luokkahuone-1fe1"
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-luokkahuone-d4a9"
   },
   {
-   "slug": "arvaa-sana-normaali-maatilan-elaimet-ccd8",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "kuviojuna-abc-maatilan-elaimet-5779",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "farm_animals",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-maatilan-elaimet-ccd8"
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-maatilan-elaimet-5779"
   },
   {
-   "slug": "arvaa-sana-normaali-matelijat-ja-sammakkoelaimet-3846",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "kuviojuna-abc-matelijat-ja-sammakkoelaimet-028c",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "reptiles_and_amphibians",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-matelijat-ja-sammakkoelaimet-3846"
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-matelijat-ja-sammakkoelaimet-028c"
   },
   {
-   "slug": "arvaa-sana-normaali-merielama-2465",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "kuviojuna-abc-merielama-8098",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "ocean_life",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-merielama-2465"
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-merielama-8098"
   },
   {
-   "slug": "arvaa-sana-normaali-metsan-elaimet-5ffe",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "kuviojuna-abc-metsan-elaimet-a054",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "forest_creatures",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-metsan-elaimet-5ffe"
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-metsan-elaimet-a054"
   },
   {
-   "slug": "arvaa-sana-normaali-muodot-2f2c",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "kuviojuna-abc-muodot-49ca",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "shapes",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-muodot-2f2c"
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-muodot-49ca"
   },
   {
-   "slug": "arvaa-sana-normaali-musiikki-4d30",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "kuviojuna-abc-musiikki-76cb",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "music",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-musiikki-4d30"
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-musiikki-76cb"
   },
   {
-   "slug": "arvaa-sana-normaali-paasiainen-aed1",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "kuviojuna-abc-paasiainen-50b4",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "easter",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-paasiainen-aed1"
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-paasiainen-50b4"
   },
   {
-   "slug": "arvaa-sana-normaali-postitoimisto-d08e",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "kuviojuna-abc-postitoimisto-3ae0",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "post_office",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-postitoimisto-d08e"
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-postitoimisto-3ae0"
   },
   {
-   "slug": "arvaa-sana-normaali-puut-c7f4",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "kuviojuna-abc-puut-4e55",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "tree",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-puut-c7f4"
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-puut-4e55"
   },
   {
-   "slug": "arvaa-sana-normaali-ranta-6a16",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "kuviojuna-abc-ranta-b15d",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "beach",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-ranta-6a16"
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-ranta-b15d"
   },
   {
-   "slug": "arvaa-sana-normaali-ruokakaupassa-9041",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "kuviojuna-abc-ruokakaupassa-7183",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "at_the_supermarket",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-ruokakaupassa-9041"
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-ruokakaupassa-7183"
   },
   {
-   "slug": "arvaa-sana-normaali-ruumiinosat-5846",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "kuviojuna-abc-ruumiinosat-1b45",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "body_parts",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-ruumiinosat-5846"
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-ruumiinosat-1b45"
   },
   {
-   "slug": "arvaa-sana-normaali-saa-a936",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "kuviojuna-abc-saa-d29f",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "weather",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-saa-a936"
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-saa-d29f"
   },
   {
-   "slug": "arvaa-sana-normaali-sairaala-f545",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "kuviojuna-abc-sairaala-77d2",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "hospital",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-sairaala-f545"
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-sairaala-77d2"
   },
   {
-   "slug": "arvaa-sana-normaali-talvi-5892",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "kuviojuna-abc-talvi-ba04",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "winter",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-talvi-5892"
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-talvi-ba04"
   },
   {
-   "slug": "arvaa-sana-normaali-tunteet-8286",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "kuviojuna-abc-tunteet-db29",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "emotions",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-tunteet-8286"
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-tunteet-db29"
   },
   {
-   "slug": "arvaa-sana-normaali-tyokalut-7547",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "kuviojuna-abc-tyokalut-8bb7",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "tools",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-tyokalut-7547"
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-tyokalut-8bb7"
   },
   {
-   "slug": "arvaa-sana-normaali-vaatteet-c533",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "kuviojuna-abc-vaatteet-c056",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "clothing",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-vaatteet-c533"
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-vaatteet-c056"
   },
   {
-   "slug": "arvaa-sana-normaali-varit-644a",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "kuviojuna-abc-varit-6843",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "colors",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-varit-644a"
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-varit-6843"
   },
   {
-   "slug": "arvaa-sana-normaali-vihannekset-c340",
-   "type": "word-guess",
-   "mode": "normal",
+   "slug": "kuviojuna-abc-vihannekset-042f",
+   "type": "pattern-train",
+   "mode": "abc",
    "theme": "vegetables",
-   "level": "1-luokka",
-   "deck": "arvaa-sana-normaali-vihannekset-c340"
+   "level": "esikoulu",
+   "deck": "kuviojuna-abc-vihannekset-042f"
+  },
+  {
+   "slug": "kuviojuna-aamiainen-009f",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "esikoulu",
+   "deck": "kuviojuna-aamiainen-009f"
+  },
+  {
+   "slug": "kuviojuna-ajoneuvot-94b6",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "esikoulu",
+   "deck": "kuviojuna-ajoneuvot-94b6"
+  },
+  {
+   "slug": "kuviojuna-aktiviteetit-39dc",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "activities",
+   "level": "esikoulu",
+   "deck": "kuviojuna-aktiviteetit-39dc"
+  },
+  {
+   "slug": "kuviojuna-ammatit-71aa",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "occupations",
+   "level": "esikoulu",
+   "deck": "kuviojuna-ammatit-71aa"
+  },
+  {
+   "slug": "kuviojuna-asusteet-9fe4",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "accessories",
+   "level": "esikoulu",
+   "deck": "kuviojuna-asusteet-9fe4"
+  },
+  {
+   "slug": "kuviojuna-avaruus-a15c",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "space",
+   "level": "esikoulu",
+   "deck": "kuviojuna-avaruus-a15c"
+  },
+  {
+   "slug": "kuviojuna-dinosaurukset-bc0a",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "esikoulu",
+   "deck": "kuviojuna-dinosaurukset-bc0a"
+  },
+  {
+   "slug": "kuviojuna-elaimet-759b",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "animals",
+   "level": "esikoulu",
+   "deck": "kuviojuna-elaimet-759b"
+  },
+  {
+   "slug": "kuviojuna-elaintarhan-elaimet-7613",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "esikoulu",
+   "deck": "kuviojuna-elaintarhan-elaimet-7613"
+  },
+  {
+   "slug": "kuviojuna-hedelmat-39f5",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "fruits",
+   "level": "esikoulu",
+   "deck": "kuviojuna-hedelmat-39f5"
+  },
+  {
+   "slug": "kuviojuna-huonekalut-60f8",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "furniture",
+   "level": "esikoulu",
+   "deck": "kuviojuna-huonekalut-60f8"
+  },
+  {
+   "slug": "kuviojuna-hyonteiset-ja-otokat-006e",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "esikoulu",
+   "deck": "kuviojuna-hyonteiset-ja-otokat-006e"
+  },
+  {
+   "slug": "kuviojuna-jalkiruoat-ja-makeiset-28aa",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "esikoulu",
+   "deck": "kuviojuna-jalkiruoat-ja-makeiset-28aa"
+  },
+  {
+   "slug": "kuviojuna-joulu-7a9d",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "christmas",
+   "level": "esikoulu",
+   "deck": "kuviojuna-joulu-7a9d"
+  },
+  {
+   "slug": "kuviojuna-keittiovalineet-5171",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "esikoulu",
+   "deck": "kuviojuna-keittiovalineet-5171"
+  },
+  {
+   "slug": "kuviojuna-kesa-ae3e",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "summer",
+   "level": "esikoulu",
+   "deck": "kuviojuna-kesa-ae3e"
+  },
+  {
+   "slug": "kuviojuna-kevat-0418",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "spring",
+   "level": "esikoulu",
+   "deck": "kuviojuna-kevat-0418"
+  },
+  {
+   "slug": "kuviojuna-kiitospaiva-cba0",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "esikoulu",
+   "deck": "kuviojuna-kiitospaiva-cba0"
+  },
+  {
+   "slug": "kuviojuna-kodin-ymparilla-c989",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "esikoulu",
+   "deck": "kuviojuna-kodin-ymparilla-c989"
+  },
+  {
+   "slug": "kuviojuna-kukat-f1e7",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "flowers",
+   "level": "esikoulu",
+   "deck": "kuviojuna-kukat-f1e7"
+  },
+  {
+   "slug": "kuviojuna-leipomo-de1b",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "bakery",
+   "level": "esikoulu",
+   "deck": "kuviojuna-leipomo-de1b"
+  },
+  {
+   "slug": "kuviojuna-leirielama-6e4a",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "camping",
+   "level": "esikoulu",
+   "deck": "kuviojuna-leirielama-6e4a"
+  },
+  {
+   "slug": "kuviojuna-lelut-4df9",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "toys",
+   "level": "esikoulu",
+   "deck": "kuviojuna-lelut-4df9"
+  },
+  {
+   "slug": "kuviojuna-lemmikit-f8a8",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "pets",
+   "level": "esikoulu",
+   "deck": "kuviojuna-lemmikit-f8a8"
+  },
+  {
+   "slug": "kuviojuna-lentavat-asiat-9f2c",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "esikoulu",
+   "deck": "kuviojuna-lentavat-asiat-9f2c"
+  },
+  {
+   "slug": "kuviojuna-linnut-2-3889",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "esikoulu",
+   "deck": "kuviojuna-linnut-2-3889"
+  },
+  {
+   "slug": "kuviojuna-linnut-2074",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "birds",
+   "level": "esikoulu",
+   "deck": "kuviojuna-linnut-2074"
+  },
+  {
+   "slug": "kuviojuna-luokkahuone-01ae",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "classroom",
+   "level": "esikoulu",
+   "deck": "kuviojuna-luokkahuone-01ae"
+  },
+  {
+   "slug": "kuviojuna-maatilan-elaimet-1a2e",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "esikoulu",
+   "deck": "kuviojuna-maatilan-elaimet-1a2e"
+  },
+  {
+   "slug": "kuviojuna-matelijat-ja-sammakkoelaimet-215a",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "esikoulu",
+   "deck": "kuviojuna-matelijat-ja-sammakkoelaimet-215a"
+  },
+  {
+   "slug": "kuviojuna-merielama-da63",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "esikoulu",
+   "deck": "kuviojuna-merielama-da63"
+  },
+  {
+   "slug": "kuviojuna-metsan-elaimet-728e",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "esikoulu",
+   "deck": "kuviojuna-metsan-elaimet-728e"
+  },
+  {
+   "slug": "kuviojuna-muodot-a968",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "shapes",
+   "level": "esikoulu",
+   "deck": "kuviojuna-muodot-a968"
+  },
+  {
+   "slug": "kuviojuna-musiikki-a92c",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "music",
+   "level": "esikoulu",
+   "deck": "kuviojuna-musiikki-a92c"
+  },
+  {
+   "slug": "kuviojuna-paasiainen-1f13",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "easter",
+   "level": "esikoulu",
+   "deck": "kuviojuna-paasiainen-1f13"
+  },
+  {
+   "slug": "kuviojuna-postitoimisto-ffaf",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "post_office",
+   "level": "esikoulu",
+   "deck": "kuviojuna-postitoimisto-ffaf"
+  },
+  {
+   "slug": "kuviojuna-puut-66c2",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "tree",
+   "level": "esikoulu",
+   "deck": "kuviojuna-puut-66c2"
+  },
+  {
+   "slug": "kuviojuna-ranta-e378",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "beach",
+   "level": "esikoulu",
+   "deck": "kuviojuna-ranta-e378"
+  },
+  {
+   "slug": "kuviojuna-ruokakaupassa-8993",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "esikoulu",
+   "deck": "kuviojuna-ruokakaupassa-8993"
+  },
+  {
+   "slug": "kuviojuna-ruumiinosat-d9d6",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "esikoulu",
+   "deck": "kuviojuna-ruumiinosat-d9d6"
+  },
+  {
+   "slug": "kuviojuna-saa-a80e",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "weather",
+   "level": "esikoulu",
+   "deck": "kuviojuna-saa-a80e"
+  },
+  {
+   "slug": "kuviojuna-sairaala-5a41",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "hospital",
+   "level": "esikoulu",
+   "deck": "kuviojuna-sairaala-5a41"
+  },
+  {
+   "slug": "kuviojuna-talvi-8d5a",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "winter",
+   "level": "esikoulu",
+   "deck": "kuviojuna-talvi-8d5a"
+  },
+  {
+   "slug": "kuviojuna-tunteet-06f5",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "emotions",
+   "level": "esikoulu",
+   "deck": "kuviojuna-tunteet-06f5"
+  },
+  {
+   "slug": "kuviojuna-tyokalut-b762",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "tools",
+   "level": "esikoulu",
+   "deck": "kuviojuna-tyokalut-b762"
+  },
+  {
+   "slug": "kuviojuna-vaatteet-a6ae",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "clothing",
+   "level": "esikoulu",
+   "deck": "kuviojuna-vaatteet-a6ae"
+  },
+  {
+   "slug": "kuviojuna-varit-bbcc",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "colors",
+   "level": "esikoulu",
+   "deck": "kuviojuna-varit-bbcc"
+  },
+  {
+   "slug": "kuviojuna-vihannekset-bee4",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "esikoulu",
+   "deck": "kuviojuna-vihannekset-bee4"
   }
  ]
 }

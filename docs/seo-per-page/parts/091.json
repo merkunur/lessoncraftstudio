@@ -2,779 +2,803 @@
  "part": 91,
  "locale": "es",
  "classes": [
-  "matching::letter",
-  "missing-pieces::null"
+  "big-small::orderAsc",
+  "big-small::findBig"
  ],
  "splitOf": null,
- "count": 96,
+ "count": 99,
  "pages": [
   {
-   "slug": "emparejar-letras-4-de-julio-98be",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "4th_of_july",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-4-de-julio-98be"
-  },
-  {
-   "slug": "emparejar-letras-accesorios-b62c",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "accessories",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-accesorios-b62c"
-  },
-  {
-   "slug": "emparejar-letras-actividades-0bd1",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "activities",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-actividades-0bd1"
-  },
-  {
-   "slug": "emparejar-letras-alrededor-de-la-casa-6b1e",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "around_the_house",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-alrededor-de-la-casa-6b1e"
-  },
-  {
-   "slug": "emparejar-letras-animales-43fb",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "animals",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-animales-43fb"
-  },
-  {
-   "slug": "emparejar-letras-animales-de-granja-cd02",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "farm_animals",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-animales-de-granja-cd02"
-  },
-  {
-   "slug": "emparejar-letras-animales-del-zoologico-0f69",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "zoo_animals",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-animales-del-zoologico-0f69"
-  },
-  {
-   "slug": "emparejar-letras-aves-2-e943",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "birds_2",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-aves-2-e943"
-  },
-  {
-   "slug": "emparejar-letras-aves-e60e",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "birds",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-aves-e60e"
-  },
-  {
-   "slug": "emparejar-letras-campamento-5c1a",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "camping",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-campamento-5c1a"
-  },
-  {
-   "slug": "emparejar-letras-clima-df9d",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "weather",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-clima-df9d"
-  },
-  {
-   "slug": "emparejar-letras-colores-4143",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "colors",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-colores-4143"
-  },
-  {
-   "slug": "emparejar-letras-cosas-que-vuelan-c51d",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "things_that_fly",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-cosas-que-vuelan-c51d"
-  },
-  {
-   "slug": "emparejar-letras-criaturas-del-bosque-0ecb",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "forest_creatures",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-criaturas-del-bosque-0ecb"
-  },
-  {
-   "slug": "emparejar-letras-desayuno-a599",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "breakfast",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-desayuno-a599"
-  },
-  {
-   "slug": "emparejar-letras-dia-de-accion-de-gracias-fb00",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "thanksgivinng",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-dia-de-accion-de-gracias-fb00"
-  },
-  {
-   "slug": "emparejar-letras-emociones-ffa8",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "emotions",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-emociones-ffa8"
-  },
-  {
-   "slug": "emparejar-letras-en-el-supermercado-61f4",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "at_the_supermarket",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-en-el-supermercado-61f4"
-  },
-  {
-   "slug": "emparejar-letras-espacio-2a41",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "space",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-espacio-2a41"
-  },
-  {
-   "slug": "emparejar-letras-flores-f85f",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "flowers",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-flores-f85f"
-  },
-  {
-   "slug": "emparejar-letras-formas-5d2b",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "shapes",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-formas-5d2b"
-  },
-  {
-   "slug": "emparejar-letras-frutas-54ad",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "fruits",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-frutas-54ad"
-  },
-  {
-   "slug": "emparejar-letras-herramientas-a213",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "tools",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-herramientas-a213"
-  },
-  {
-   "slug": "emparejar-letras-hospital-9dbb",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "hospital",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-hospital-9dbb"
-  },
-  {
-   "slug": "emparejar-letras-insectos-y-bichos-d5fe",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "insects_and_bugs",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-insectos-y-bichos-d5fe"
-  },
-  {
-   "slug": "emparejar-letras-invierno-e2f5",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "winter",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-invierno-e2f5"
-  },
-  {
-   "slug": "emparejar-letras-juguetes-96b4",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "toys",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-juguetes-96b4"
-  },
-  {
-   "slug": "emparejar-letras-mascotas-7d8b",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "pets",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-mascotas-7d8b"
-  },
-  {
-   "slug": "emparejar-letras-miscelaneo-d06c",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "miscellaneous",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-miscelaneo-d06c"
-  },
-  {
-   "slug": "emparejar-letras-muebles-3f62",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "furniture",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-muebles-3f62"
-  },
-  {
-   "slug": "emparejar-letras-musica-b4de",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "music",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-musica-b4de"
-  },
-  {
-   "slug": "emparejar-letras-navidad-ff7c",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "christmas",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-navidad-ff7c"
-  },
-  {
-   "slug": "emparejar-letras-ocupaciones-37e5",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "occupations",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-ocupaciones-37e5"
-  },
-  {
-   "slug": "emparejar-letras-oficina-de-correos-5bb8",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "post_office",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-oficina-de-correos-5bb8"
-  },
-  {
-   "slug": "emparejar-letras-panaderia-0f3c",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "bakery",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-panaderia-0f3c"
-  },
-  {
-   "slug": "emparejar-letras-partes-del-cuerpo-105f",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "body_parts",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-partes-del-cuerpo-105f"
-  },
-  {
-   "slug": "emparejar-letras-pascua-7fd4",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "easter",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-pascua-7fd4"
-  },
-  {
-   "slug": "emparejar-letras-playa-d91f",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "beach",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-playa-d91f"
-  },
-  {
-   "slug": "emparejar-letras-postres-y-dulces-45fa",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "desserts_and_sweets",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-postres-y-dulces-45fa"
-  },
-  {
-   "slug": "emparejar-letras-primavera-a706",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "spring",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-primavera-a706"
-  },
-  {
-   "slug": "emparejar-letras-reptiles-y-anfibios-4798",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "reptiles_and_amphibians",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-reptiles-y-anfibios-4798"
-  },
-  {
-   "slug": "emparejar-letras-ropa-a055",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "clothing",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-ropa-a055"
-  },
-  {
-   "slug": "emparejar-letras-salon-de-clases-29aa",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "classroom",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-salon-de-clases-29aa"
-  },
-  {
-   "slug": "emparejar-letras-utensilios-de-cocina-a778",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "kitchen_tools",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-utensilios-de-cocina-a778"
-  },
-  {
-   "slug": "emparejar-letras-vehiculos-bde8",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "vehicles",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-vehiculos-bde8"
-  },
-  {
-   "slug": "emparejar-letras-verano-0743",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "summer",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-verano-0743"
-  },
-  {
-   "slug": "emparejar-letras-verduras-d117",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "vegetables",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-verduras-d117"
-  },
-  {
-   "slug": "emparejar-letras-vida-marina-f59f",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "ocean_life",
-   "level": "primer-grado",
-   "deck": "emparejar-letras-vida-marina-f59f"
-  },
-  {
-   "slug": "piezas-faltantes-4-de-julio-7d6e",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-4-de-julio-c3ea",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "4th_of_july",
    "level": "preescolar",
-   "deck": "piezas-faltantes-4-de-julio-7d6e"
+   "deck": "grande-pequeno-orden-ascendente-4-de-julio-c3ea"
   },
   {
-   "slug": "piezas-faltantes-accesorios-08c2",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-accesorios-6a68",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "accessories",
    "level": "preescolar",
-   "deck": "piezas-faltantes-accesorios-08c2"
+   "deck": "grande-pequeno-orden-ascendente-accesorios-6a68"
   },
   {
-   "slug": "piezas-faltantes-actividades-2c4c",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-actividades-6435",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "activities",
    "level": "preescolar",
-   "deck": "piezas-faltantes-actividades-2c4c"
+   "deck": "grande-pequeno-orden-ascendente-actividades-6435"
   },
   {
-   "slug": "piezas-faltantes-alrededor-de-la-casa-9ff1",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-alrededor-de-la-casa-da60",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "around_the_house",
    "level": "preescolar",
-   "deck": "piezas-faltantes-alrededor-de-la-casa-9ff1"
+   "deck": "grande-pequeno-orden-ascendente-alrededor-de-la-casa-da60"
   },
   {
-   "slug": "piezas-faltantes-animales-4243",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-animales-d93a",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "animals",
    "level": "preescolar",
-   "deck": "piezas-faltantes-animales-4243"
+   "deck": "grande-pequeno-orden-ascendente-animales-d93a"
   },
   {
-   "slug": "piezas-faltantes-animales-de-granja-cd60",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-animales-de-granja-ca7f",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "farm_animals",
    "level": "preescolar",
-   "deck": "piezas-faltantes-animales-de-granja-cd60"
+   "deck": "grande-pequeno-orden-ascendente-animales-de-granja-ca7f"
   },
   {
-   "slug": "piezas-faltantes-animales-del-zoologico-a93f",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-animales-del-zoologico-0801",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "zoo_animals",
    "level": "preescolar",
-   "deck": "piezas-faltantes-animales-del-zoologico-a93f"
+   "deck": "grande-pequeno-orden-ascendente-animales-del-zoologico-0801"
   },
   {
-   "slug": "piezas-faltantes-arboles-0c53",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-arboles-a13c",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "tree",
    "level": "preescolar",
-   "deck": "piezas-faltantes-arboles-0c53"
+   "deck": "grande-pequeno-orden-ascendente-arboles-a13c"
   },
   {
-   "slug": "piezas-faltantes-aves-2-3479",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-aves-2-7c76",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "birds_2",
    "level": "preescolar",
-   "deck": "piezas-faltantes-aves-2-3479"
+   "deck": "grande-pequeno-orden-ascendente-aves-2-7c76"
   },
   {
-   "slug": "piezas-faltantes-aves-ac04",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-aves-8bf9",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "birds",
    "level": "preescolar",
-   "deck": "piezas-faltantes-aves-ac04"
+   "deck": "grande-pequeno-orden-ascendente-aves-8bf9"
   },
   {
-   "slug": "piezas-faltantes-campamento-6a18",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-campamento-18d3",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "camping",
    "level": "preescolar",
-   "deck": "piezas-faltantes-campamento-6a18"
+   "deck": "grande-pequeno-orden-ascendente-campamento-18d3"
   },
   {
-   "slug": "piezas-faltantes-clima-bcbf",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-clima-4691",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "weather",
    "level": "preescolar",
-   "deck": "piezas-faltantes-clima-bcbf"
+   "deck": "grande-pequeno-orden-ascendente-clima-4691"
   },
   {
-   "slug": "piezas-faltantes-cosas-que-vuelan-12c9",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-colores-8167",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "colors",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-colores-8167"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-cosas-que-vuelan-4a28",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "things_that_fly",
    "level": "preescolar",
-   "deck": "piezas-faltantes-cosas-que-vuelan-12c9"
+   "deck": "grande-pequeno-orden-ascendente-cosas-que-vuelan-4a28"
   },
   {
-   "slug": "piezas-faltantes-criaturas-del-bosque-043a",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-criaturas-del-bosque-1099",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "forest_creatures",
    "level": "preescolar",
-   "deck": "piezas-faltantes-criaturas-del-bosque-043a"
+   "deck": "grande-pequeno-orden-ascendente-criaturas-del-bosque-1099"
   },
   {
-   "slug": "piezas-faltantes-desayuno-7517",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-desayuno-7816",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "breakfast",
    "level": "preescolar",
-   "deck": "piezas-faltantes-desayuno-7517"
+   "deck": "grande-pequeno-orden-ascendente-desayuno-7816"
   },
   {
-   "slug": "piezas-faltantes-dia-de-accion-de-gracias-8426",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-dia-de-accion-de-gracias-5540",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "thanksgivinng",
    "level": "preescolar",
-   "deck": "piezas-faltantes-dia-de-accion-de-gracias-8426"
+   "deck": "grande-pequeno-orden-ascendente-dia-de-accion-de-gracias-5540"
   },
   {
-   "slug": "piezas-faltantes-dinosaurios-d21f",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-dinosaurios-44ba",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "dinosaurs",
    "level": "preescolar",
-   "deck": "piezas-faltantes-dinosaurios-d21f"
+   "deck": "grande-pequeno-orden-ascendente-dinosaurios-44ba"
   },
   {
-   "slug": "piezas-faltantes-emociones-7066",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-emociones-23aa",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "emotions",
    "level": "preescolar",
-   "deck": "piezas-faltantes-emociones-7066"
+   "deck": "grande-pequeno-orden-ascendente-emociones-23aa"
   },
   {
-   "slug": "piezas-faltantes-en-el-supermercado-42fd",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-en-el-supermercado-8881",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "at_the_supermarket",
    "level": "preescolar",
-   "deck": "piezas-faltantes-en-el-supermercado-42fd"
+   "deck": "grande-pequeno-orden-ascendente-en-el-supermercado-8881"
   },
   {
-   "slug": "piezas-faltantes-espacio-09c9",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-espacio-e05e",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "space",
    "level": "preescolar",
-   "deck": "piezas-faltantes-espacio-09c9"
+   "deck": "grande-pequeno-orden-ascendente-espacio-e05e"
   },
   {
-   "slug": "piezas-faltantes-flores-1c93",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-flores-e302",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "flowers",
    "level": "preescolar",
-   "deck": "piezas-faltantes-flores-1c93"
+   "deck": "grande-pequeno-orden-ascendente-flores-e302"
   },
   {
-   "slug": "piezas-faltantes-frutas-58f7",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-formas-4557",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "shapes",
+   "level": "preescolar",
+   "deck": "grande-pequeno-orden-ascendente-formas-4557"
+  },
+  {
+   "slug": "grande-pequeno-orden-ascendente-frutas-85e8",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "fruits",
    "level": "preescolar",
-   "deck": "piezas-faltantes-frutas-58f7"
+   "deck": "grande-pequeno-orden-ascendente-frutas-85e8"
   },
   {
-   "slug": "piezas-faltantes-herramientas-24b6",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-herramientas-b1b1",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "tools",
    "level": "preescolar",
-   "deck": "piezas-faltantes-herramientas-24b6"
+   "deck": "grande-pequeno-orden-ascendente-herramientas-b1b1"
   },
   {
-   "slug": "piezas-faltantes-hospital-78c0",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-hospital-a444",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "hospital",
    "level": "preescolar",
-   "deck": "piezas-faltantes-hospital-78c0"
+   "deck": "grande-pequeno-orden-ascendente-hospital-a444"
   },
   {
-   "slug": "piezas-faltantes-insectos-y-bichos-a50c",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-insectos-y-bichos-ad1d",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "insects_and_bugs",
    "level": "preescolar",
-   "deck": "piezas-faltantes-insectos-y-bichos-a50c"
+   "deck": "grande-pequeno-orden-ascendente-insectos-y-bichos-ad1d"
   },
   {
-   "slug": "piezas-faltantes-invierno-4c6a",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-invierno-20dd",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "winter",
    "level": "preescolar",
-   "deck": "piezas-faltantes-invierno-4c6a"
+   "deck": "grande-pequeno-orden-ascendente-invierno-20dd"
   },
   {
-   "slug": "piezas-faltantes-juguetes-8c53",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-juguetes-430a",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "toys",
    "level": "preescolar",
-   "deck": "piezas-faltantes-juguetes-8c53"
+   "deck": "grande-pequeno-orden-ascendente-juguetes-430a"
   },
   {
-   "slug": "piezas-faltantes-mascotas-7e00",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-mascotas-73bd",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "pets",
    "level": "preescolar",
-   "deck": "piezas-faltantes-mascotas-7e00"
+   "deck": "grande-pequeno-orden-ascendente-mascotas-73bd"
   },
   {
-   "slug": "piezas-faltantes-miscelaneo-77fa",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-miscelaneo-2b05",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "miscellaneous",
    "level": "preescolar",
-   "deck": "piezas-faltantes-miscelaneo-77fa"
+   "deck": "grande-pequeno-orden-ascendente-miscelaneo-2b05"
   },
   {
-   "slug": "piezas-faltantes-muebles-1e36",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-muebles-a6e9",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "furniture",
    "level": "preescolar",
-   "deck": "piezas-faltantes-muebles-1e36"
+   "deck": "grande-pequeno-orden-ascendente-muebles-a6e9"
   },
   {
-   "slug": "piezas-faltantes-musica-4211",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-musica-ebcf",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "music",
    "level": "preescolar",
-   "deck": "piezas-faltantes-musica-4211"
+   "deck": "grande-pequeno-orden-ascendente-musica-ebcf"
   },
   {
-   "slug": "piezas-faltantes-navidad-9dbd",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-navidad-4bc4",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "christmas",
    "level": "preescolar",
-   "deck": "piezas-faltantes-navidad-9dbd"
+   "deck": "grande-pequeno-orden-ascendente-navidad-4bc4"
   },
   {
-   "slug": "piezas-faltantes-ocupaciones-bb68",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-ocupaciones-d01c",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "occupations",
    "level": "preescolar",
-   "deck": "piezas-faltantes-ocupaciones-bb68"
+   "deck": "grande-pequeno-orden-ascendente-ocupaciones-d01c"
   },
   {
-   "slug": "piezas-faltantes-oficina-de-correos-ceea",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-oficina-de-correos-6370",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "post_office",
    "level": "preescolar",
-   "deck": "piezas-faltantes-oficina-de-correos-ceea"
+   "deck": "grande-pequeno-orden-ascendente-oficina-de-correos-6370"
   },
   {
-   "slug": "piezas-faltantes-panaderia-b28c",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-panaderia-3329",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "bakery",
    "level": "preescolar",
-   "deck": "piezas-faltantes-panaderia-b28c"
+   "deck": "grande-pequeno-orden-ascendente-panaderia-3329"
   },
   {
-   "slug": "piezas-faltantes-partes-del-cuerpo-1e31",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-partes-del-cuerpo-2e9c",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "body_parts",
    "level": "preescolar",
-   "deck": "piezas-faltantes-partes-del-cuerpo-1e31"
+   "deck": "grande-pequeno-orden-ascendente-partes-del-cuerpo-2e9c"
   },
   {
-   "slug": "piezas-faltantes-pascua-0e9f",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-pascua-c4f9",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "easter",
    "level": "preescolar",
-   "deck": "piezas-faltantes-pascua-0e9f"
+   "deck": "grande-pequeno-orden-ascendente-pascua-c4f9"
   },
   {
-   "slug": "piezas-faltantes-playa-81c5",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-playa-3b7f",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "beach",
    "level": "preescolar",
-   "deck": "piezas-faltantes-playa-81c5"
+   "deck": "grande-pequeno-orden-ascendente-playa-3b7f"
   },
   {
-   "slug": "piezas-faltantes-postres-y-dulces-1c42",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-postres-y-dulces-0efa",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "desserts_and_sweets",
    "level": "preescolar",
-   "deck": "piezas-faltantes-postres-y-dulces-1c42"
+   "deck": "grande-pequeno-orden-ascendente-postres-y-dulces-0efa"
   },
   {
-   "slug": "piezas-faltantes-primavera-4b01",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-primavera-55ab",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "spring",
    "level": "preescolar",
-   "deck": "piezas-faltantes-primavera-4b01"
+   "deck": "grande-pequeno-orden-ascendente-primavera-55ab"
   },
   {
-   "slug": "piezas-faltantes-reptiles-y-anfibios-5ee6",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-reptiles-y-anfibios-3db8",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "reptiles_and_amphibians",
    "level": "preescolar",
-   "deck": "piezas-faltantes-reptiles-y-anfibios-5ee6"
+   "deck": "grande-pequeno-orden-ascendente-reptiles-y-anfibios-3db8"
   },
   {
-   "slug": "piezas-faltantes-ropa-3ea4",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-ropa-2062",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "clothing",
    "level": "preescolar",
-   "deck": "piezas-faltantes-ropa-3ea4"
+   "deck": "grande-pequeno-orden-ascendente-ropa-2062"
   },
   {
-   "slug": "piezas-faltantes-salon-de-clases-e1ca",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-salon-de-clases-59e3",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "classroom",
    "level": "preescolar",
-   "deck": "piezas-faltantes-salon-de-clases-e1ca"
+   "deck": "grande-pequeno-orden-ascendente-salon-de-clases-59e3"
   },
   {
-   "slug": "piezas-faltantes-utensilios-de-cocina-f42f",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-utensilios-de-cocina-1878",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "kitchen_tools",
    "level": "preescolar",
-   "deck": "piezas-faltantes-utensilios-de-cocina-f42f"
+   "deck": "grande-pequeno-orden-ascendente-utensilios-de-cocina-1878"
   },
   {
-   "slug": "piezas-faltantes-vehiculos-6f32",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-vehiculos-1a76",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "vehicles",
    "level": "preescolar",
-   "deck": "piezas-faltantes-vehiculos-6f32"
+   "deck": "grande-pequeno-orden-ascendente-vehiculos-1a76"
   },
   {
-   "slug": "piezas-faltantes-verano-2043",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-verano-3e08",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "summer",
    "level": "preescolar",
-   "deck": "piezas-faltantes-verano-2043"
+   "deck": "grande-pequeno-orden-ascendente-verano-3e08"
   },
   {
-   "slug": "piezas-faltantes-verduras-43db",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-verduras-153f",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "vegetables",
    "level": "preescolar",
-   "deck": "piezas-faltantes-verduras-43db"
+   "deck": "grande-pequeno-orden-ascendente-verduras-153f"
   },
   {
-   "slug": "piezas-faltantes-vida-marina-285b",
-   "type": "missing-pieces",
-   "mode": null,
+   "slug": "grande-pequeno-orden-ascendente-vida-marina-b6b0",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "ocean_life",
    "level": "preescolar",
-   "deck": "piezas-faltantes-vida-marina-285b"
+   "deck": "grande-pequeno-orden-ascendente-vida-marina-b6b0"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "summer",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-4-de-julio-1b4d",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "4th_of_july",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-4-de-julio-1b4d"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-accesorios-2765",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "accessories",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-accesorios-2765"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-actividades-1ab3",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "activities",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-actividades-1ab3"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-alrededor-de-la-casa-b566",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "around_the_house",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-alrededor-de-la-casa-b566"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-animales-520d",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "animals",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-animales-520d"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-animales-de-granja-43f9",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "farm_animals",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-animales-de-granja-43f9"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-animales-del-zoologico-3c4e",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "zoo_animals",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-animales-del-zoologico-3c4e"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-arboles-3b52",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "tree",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-arboles-3b52"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-aves-2-3785",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "birds_2",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-aves-2-3785"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-aves-ade4",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "birds",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-aves-ade4"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-campamento-3239",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "camping",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-campamento-3239"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-clima-7cf8",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "weather",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-clima-7cf8"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-colores-7d30",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "colors",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-colores-7d30"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-cosas-que-vuelan-5624",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "things_that_fly",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-cosas-que-vuelan-5624"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-criaturas-del-bosque-d75b",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "forest_creatures",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-criaturas-del-bosque-d75b"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-desayuno-31e9",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "breakfast",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-desayuno-31e9"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-dia-de-accion-de-gracias-b46d",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "thanksgivinng",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-dia-de-accion-de-gracias-b46d"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-dinosaurios-a927",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "dinosaurs",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-dinosaurios-a927"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-emociones-f090",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "emotions",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-emociones-f090"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-en-el-supermercado-682b",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "at_the_supermarket",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-en-el-supermercado-682b"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-espacio-9e5f",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "space",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-espacio-9e5f"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-flores-1620",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "flowers",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-flores-1620"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-formas-2da9",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "shapes",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-formas-2da9"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-frutas-1db8",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "fruits",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-frutas-1db8"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-herramientas-1a2c",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "tools",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-herramientas-1a2c"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-hospital-2af1",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "hospital",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-hospital-2af1"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-insectos-y-bichos-0499",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "insects_and_bugs",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-insectos-y-bichos-0499"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-invierno-b3f2",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "winter",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-invierno-b3f2"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-juguetes-9f3f",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "toys",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-juguetes-9f3f"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-mascotas-2279",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "pets",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-mascotas-2279"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-miscelaneo-4e21",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "miscellaneous",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-miscelaneo-4e21"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-muebles-390a",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "furniture",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-muebles-390a"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-musica-43c2",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "music",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-musica-43c2"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-navidad-9494",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "christmas",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-navidad-9494"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-ocupaciones-0807",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "occupations",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-ocupaciones-0807"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-oficina-de-correos-385d",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "post_office",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-oficina-de-correos-385d"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-panaderia-6d02",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "bakery",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-panaderia-6d02"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-partes-del-cuerpo-48d7",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "body_parts",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-partes-del-cuerpo-48d7"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-pascua-4a40",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "easter",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-pascua-4a40"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-playa-221f",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "beach",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-playa-221f"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-postres-y-dulces-4ddb",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "desserts_and_sweets",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-postres-y-dulces-4ddb"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-primavera-f225",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "spring",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-primavera-f225"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-ropa-4aad",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "clothing",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-ropa-4aad"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-salon-de-clases-a696",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "classroom",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-salon-de-clases-a696"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-utensilios-de-cocina-22f4",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "kitchen_tools",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-utensilios-de-cocina-22f4"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-vehiculos-1543",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "vehicles",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-vehiculos-1543"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-verduras-1738",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "vegetables",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-verduras-1738"
+  },
+  {
+   "slug": "grande-pequeno-encontrar-el-grande-vida-marina-91d2",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "ocean_life",
+   "level": "preescolar",
+   "deck": "grande-pequeno-encontrar-el-grande-vida-marina-91d2"
   }
  ]
 }

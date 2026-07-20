@@ -2,771 +2,651 @@
  "part": 55,
  "locale": "de",
  "classes": [
-  "word-scramble::easy",
-  "code-addition::secret-word"
+  "subtraction::image-number",
+  "subtraction::mixed"
  ],
  "splitOf": null,
- "count": 95,
+ "count": 80,
  "pages": [
   {
-   "slug": "buchstabensalat-4-juli",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "4th_of_july",
-   "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-4-juli-13e1"
-  },
-  {
-   "slug": "buchstabensalat-accessoires",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-accessoires-44f4",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "accessories",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-accessoires-8ee3"
+   "deck": "subtraktion-bild-zahl-accessoires-44f4"
   },
   {
-   "slug": "buchstabensalat-aktivitaten",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "activities",
-   "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-aktivitaten-daa3"
-  },
-  {
-   "slug": "buchstabensalat-backerei",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-backerei-4ee2",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "bakery",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-backerei-cd9e"
+   "deck": "subtraktion-bild-zahl-backerei-4ee2"
   },
   {
-   "slug": "buchstabensalat-bauernhoftiere",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-bauernhoftiere-5265",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "farm_animals",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-bauernhoftiere-e682"
+   "deck": "subtraktion-bild-zahl-bauernhoftiere-5265"
   },
   {
-   "slug": "buchstabensalat-baume",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-baume-eac5",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "tree",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-baume-5d24"
+   "deck": "subtraktion-bild-zahl-baume-eac5"
   },
   {
-   "slug": "buchstabensalat-berufe",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-berufe-59a7",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "occupations",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-berufe-6763"
+   "deck": "subtraktion-bild-zahl-berufe-59a7"
   },
   {
-   "slug": "buchstabensalat-blumen",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-blumen-088d",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "flowers",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-blumen-66b8"
+   "deck": "subtraktion-bild-zahl-blumen-088d"
   },
   {
-   "slug": "buchstabensalat-camping",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-camping-71da",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "camping",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-camping-e717"
+   "deck": "subtraktion-bild-zahl-camping-71da"
   },
   {
-   "slug": "buchstabensalat-desserts-und-sussigkeiten",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-desserts-und-sussigkeiten-6808",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "desserts_and_sweets",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-desserts-und-sussigkeiten-f91e"
+   "deck": "subtraktion-bild-zahl-desserts-und-sussigkeiten-6808"
   },
   {
-   "slug": "buchstabensalat-dinge-die-fliegen",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-dinge-die-fliegen-d920",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "things_that_fly",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-dinge-die-fliegen-95ea"
+   "deck": "subtraktion-bild-zahl-dinge-die-fliegen-d920"
   },
   {
-   "slug": "buchstabensalat-emotionen",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "emotions",
+   "slug": "subtraktion-bild-zahl-dinosaurier-714b",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "dinosaurs",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-emotionen-d786"
+   "deck": "subtraktion-bild-zahl-dinosaurier-714b"
   },
   {
-   "slug": "buchstabensalat-erntedankfest",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-erntedankfest-5c26",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "thanksgivinng",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-erntedankfest-1b36"
+   "deck": "subtraktion-bild-zahl-erntedankfest-5c26"
   },
   {
-   "slug": "buchstabensalat-fahrzeuge",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-fahrzeuge-f659",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "vehicles",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-fahrzeuge-0b0d"
+   "deck": "subtraktion-bild-zahl-fahrzeuge-f659"
   },
   {
-   "slug": "buchstabensalat-farben",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "colors",
-   "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-farben-f54e"
-  },
-  {
-   "slug": "buchstabensalat-formen",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-formen-ef1f",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "shapes",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-formen-fcbc"
+   "deck": "subtraktion-bild-zahl-formen-ef1f"
   },
   {
-   "slug": "buchstabensalat-fruchte",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-fruchte-c0d5",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "fruits",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-fruchte-92c6"
+   "deck": "subtraktion-bild-zahl-fruchte-c0d5"
   },
   {
-   "slug": "buchstabensalat-fruhling",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "spring",
-   "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-fruhling-d2ce"
-  },
-  {
-   "slug": "buchstabensalat-fruhstuck",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-fruhstuck-6397",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "breakfast",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-fruhstuck-56da"
+   "deck": "subtraktion-bild-zahl-fruhstuck-6397"
   },
   {
-   "slug": "buchstabensalat-gemuse",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-gemuse-5916",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "vegetables",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-gemuse-2a35"
+   "deck": "subtraktion-bild-zahl-gemuse-5916"
   },
   {
-   "slug": "buchstabensalat-haustiere",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-haustiere-d25a",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "pets",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-haustiere-b10a"
+   "deck": "subtraktion-bild-zahl-haustiere-d25a"
   },
   {
-   "slug": "buchstabensalat-im-supermarkt",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-im-supermarkt-4472",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "at_the_supermarket",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-im-supermarkt-a5ec"
+   "deck": "subtraktion-bild-zahl-im-supermarkt-4472"
   },
   {
-   "slug": "buchstabensalat-insekten-und-kafer",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-insekten-und-kafer-0a63",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "insects_and_bugs",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-insekten-und-kafer-ca46"
+   "deck": "subtraktion-bild-zahl-insekten-und-kafer-0a63"
   },
   {
-   "slug": "buchstabensalat-klassenzimmer",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-klassenzimmer-3a1e",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "classroom",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-klassenzimmer-06d5"
+   "deck": "subtraktion-bild-zahl-klassenzimmer-3a1e"
   },
   {
-   "slug": "buchstabensalat-kleidung",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-kleidung-c812",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "clothing",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-kleidung-a5d4"
+   "deck": "subtraktion-bild-zahl-kleidung-c812"
   },
   {
-   "slug": "buchstabensalat-korperteile",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "body_parts",
-   "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-korperteile-b870"
-  },
-  {
-   "slug": "buchstabensalat-krankenhaus",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-krankenhaus-f75c",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "hospital",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-krankenhaus-54cd"
+   "deck": "subtraktion-bild-zahl-krankenhaus-f75c"
   },
   {
-   "slug": "buchstabensalat-kuchenwerkzeuge",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-kuchenwerkzeuge-c4d7",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "kitchen_tools",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-kuchenwerkzeuge-5203"
+   "deck": "subtraktion-bild-zahl-kuchenwerkzeuge-c4d7"
   },
   {
-   "slug": "buchstabensalat-meeresleben",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-meeresleben-9b65",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "ocean_life",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-meeresleben-5e14"
+   "deck": "subtraktion-bild-zahl-meeresleben-9b65"
   },
   {
-   "slug": "buchstabensalat-mobel",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-mobel-fc35",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "furniture",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-mobel-2c06"
+   "deck": "subtraktion-bild-zahl-mobel-fc35"
   },
   {
-   "slug": "buchstabensalat-musik",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-musik-b2e1",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "music",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-musik-047c"
+   "deck": "subtraktion-bild-zahl-musik-b2e1"
   },
   {
-   "slug": "buchstabensalat-ostern",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-ostern-5e02",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "easter",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-ostern-fdb9"
+   "deck": "subtraktion-bild-zahl-ostern-5e02"
   },
   {
-   "slug": "buchstabensalat-postamt",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-postamt-ce71",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "post_office",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-postamt-639c"
+   "deck": "subtraktion-bild-zahl-postamt-ce71"
   },
   {
-   "slug": "buchstabensalat-reptilien-und-amphibien",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-reptilien-und-amphibien-105a",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "reptiles_and_amphibians",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-reptilien-und-amphibien-2aa9"
+   "deck": "subtraktion-bild-zahl-reptilien-und-amphibien-105a"
   },
   {
-   "slug": "buchstabensalat-rund-ums-haus",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-rund-ums-haus-f122",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "around_the_house",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-rund-ums-haus-43d6"
+   "deck": "subtraktion-bild-zahl-rund-ums-haus-f122"
   },
   {
-   "slug": "buchstabensalat-sommer",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "summer",
-   "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-sommer-9086"
-  },
-  {
-   "slug": "buchstabensalat-spielzeug",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-spielzeug-d879",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "toys",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-spielzeug-e480"
+   "deck": "subtraktion-bild-zahl-spielzeug-d879"
   },
   {
-   "slug": "buchstabensalat-strand",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-strand-1129",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "beach",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-strand-54c0"
+   "deck": "subtraktion-bild-zahl-strand-1129"
   },
   {
-   "slug": "buchstabensalat-tiere",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-tiere-0b42",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "animals",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-tiere-cba6"
+   "deck": "subtraktion-bild-zahl-tiere-0b42"
   },
   {
-   "slug": "buchstabensalat-vogel",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "birds",
-   "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-vogel-6217"
-  },
-  {
-   "slug": "buchstabensalat-vogel-2",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-vogel-2-72e5",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "birds_2",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-vogel-2-8621"
+   "deck": "subtraktion-bild-zahl-vogel-2-72e5"
   },
   {
-   "slug": "buchstabensalat-waldtiere",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-vogel-80c9",
+   "type": "subtraction",
+   "mode": "image-number",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "subtraktion-bild-zahl-vogel-80c9"
+  },
+  {
+   "slug": "subtraktion-bild-zahl-waldtiere-f08e",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "forest_creatures",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-waldtiere-a857"
+   "deck": "subtraktion-bild-zahl-waldtiere-f08e"
   },
   {
-   "slug": "buchstabensalat-weihnachten",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-weihnachten-fc81",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "christmas",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-weihnachten-ad2f"
+   "deck": "subtraktion-bild-zahl-weihnachten-fc81"
   },
   {
-   "slug": "buchstabensalat-weltraum",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-weltraum-fd85",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "space",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-weltraum-47c6"
+   "deck": "subtraktion-bild-zahl-weltraum-fd85"
   },
   {
-   "slug": "buchstabensalat-werkzeuge",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-werkzeuge-0fc3",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "tools",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-werkzeuge-7995"
+   "deck": "subtraktion-bild-zahl-werkzeuge-0fc3"
   },
   {
-   "slug": "buchstabensalat-wetter",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "weather",
-   "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-wetter-c82a"
-  },
-  {
-   "slug": "buchstabensalat-winter",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "winter",
-   "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-winter-b1ff"
-  },
-  {
-   "slug": "buchstabensalat-zootiere",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "subtraktion-bild-zahl-zootiere-30c2",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "zoo_animals",
    "level": "1-klasse",
-   "deck": "buchstabensalat-leicht-zootiere-1678"
+   "deck": "subtraktion-bild-zahl-zootiere-30c2"
   },
   {
-   "slug": "code-addition-geheimwort-accessoires-8303",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-accessoires-7401",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "accessories",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-accessoires-8303"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-accessoires-7401"
   },
   {
-   "slug": "code-addition-geheimwort-aktivitaten-90ef",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "activities",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-aktivitaten-90ef"
-  },
-  {
-   "slug": "code-addition-geheimwort-backerei-15a4",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-backerei-79ac",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "bakery",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-backerei-15a4"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-backerei-79ac"
   },
   {
-   "slug": "code-addition-geheimwort-bauernhoftiere-2788",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-bauernhoftiere-90bd",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "farm_animals",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-bauernhoftiere-2788"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-bauernhoftiere-90bd"
   },
   {
-   "slug": "code-addition-geheimwort-baume-afed",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-baume-f3db",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "tree",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-baume-afed"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-baume-f3db"
   },
   {
-   "slug": "code-addition-geheimwort-berufe-e3f6",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-berufe-5a8a",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "occupations",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-berufe-e3f6"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-berufe-5a8a"
   },
   {
-   "slug": "code-addition-geheimwort-blumen-3f09",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-blumen-d92c",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "flowers",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-blumen-3f09"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-blumen-d92c"
   },
   {
-   "slug": "code-addition-geheimwort-camping-4ab1",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-camping-dff7",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "camping",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-camping-4ab1"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-camping-dff7"
   },
   {
-   "slug": "code-addition-geheimwort-desserts-und-sussigkeiten-a784",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-desserts-und-sussigkeiten-bc86",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "desserts_and_sweets",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-desserts-und-sussigkeiten-a784"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-desserts-und-sussigkeiten-bc86"
   },
   {
-   "slug": "code-addition-geheimwort-dinge-die-fliegen-827a",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-dinge-die-fliegen-c318",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "things_that_fly",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-dinge-die-fliegen-827a"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-dinge-die-fliegen-c318"
   },
   {
-   "slug": "code-addition-geheimwort-dinosaurier-c6cf",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-dinosaurier-a102",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "dinosaurs",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-dinosaurier-c6cf"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-dinosaurier-a102"
   },
   {
-   "slug": "code-addition-geheimwort-emotionen-2d2f",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "emotions",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-emotionen-2d2f"
-  },
-  {
-   "slug": "code-addition-geheimwort-erntedankfest-597b",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-erntedankfest-8d7d",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "thanksgivinng",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-erntedankfest-597b"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-erntedankfest-8d7d"
   },
   {
-   "slug": "code-addition-geheimwort-fahrzeuge-0bdb",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-fahrzeuge-0669",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "vehicles",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-fahrzeuge-0bdb"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-fahrzeuge-0669"
   },
   {
-   "slug": "code-addition-geheimwort-farben-5a93",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "colors",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-farben-5a93"
-  },
-  {
-   "slug": "code-addition-geheimwort-formen-bc0f",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-formen-d7e5",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "shapes",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-formen-bc0f"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-formen-d7e5"
   },
   {
-   "slug": "code-addition-geheimwort-fruchte-2cd9",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-fruchte-7770",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "fruits",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-fruchte-2cd9"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-fruchte-7770"
   },
   {
-   "slug": "code-addition-geheimwort-fruhling-f833",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "spring",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-fruhling-f833"
-  },
-  {
-   "slug": "code-addition-geheimwort-fruhstuck-33a2",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-fruhstuck-fee5",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "breakfast",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-fruhstuck-33a2"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-fruhstuck-fee5"
   },
   {
-   "slug": "code-addition-geheimwort-gemuse-2df6",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-gemuse-030c",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "vegetables",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-gemuse-2df6"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-gemuse-030c"
   },
   {
-   "slug": "code-addition-geheimwort-haustiere-90c0",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-haustiere-589d",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "pets",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-haustiere-90c0"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-haustiere-589d"
   },
   {
-   "slug": "code-addition-geheimwort-im-supermarkt-762d",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-im-supermarkt-acd7",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "at_the_supermarket",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-im-supermarkt-762d"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-im-supermarkt-acd7"
   },
   {
-   "slug": "code-addition-geheimwort-insekten-und-kafer-89e4",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-insekten-und-kafer-e7fd",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "insects_and_bugs",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-insekten-und-kafer-89e4"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-insekten-und-kafer-e7fd"
   },
   {
-   "slug": "code-addition-geheimwort-klassenzimmer-40d4",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-klassenzimmer-53f6",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "classroom",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-klassenzimmer-40d4"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-klassenzimmer-53f6"
   },
   {
-   "slug": "code-addition-geheimwort-kleidung-eed0",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-kleidung-51e2",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "clothing",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-kleidung-eed0"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-kleidung-51e2"
   },
   {
-   "slug": "code-addition-geheimwort-korperteile-83e7",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "body_parts",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-korperteile-83e7"
-  },
-  {
-   "slug": "code-addition-geheimwort-krankenhaus-4f27",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-krankenhaus-7413",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "hospital",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-krankenhaus-4f27"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-krankenhaus-7413"
   },
   {
-   "slug": "code-addition-geheimwort-kuchenwerkzeuge-9005",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-kuchenwerkzeuge-7ed1",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "kitchen_tools",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-kuchenwerkzeuge-9005"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-kuchenwerkzeuge-7ed1"
   },
   {
-   "slug": "code-addition-geheimwort-meeresleben-b8d6",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-meeresleben-d605",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "ocean_life",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-meeresleben-b8d6"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-meeresleben-d605"
   },
   {
-   "slug": "code-addition-geheimwort-musik-a3f4",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-mobel-43be",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-mobel-43be"
+  },
+  {
+   "slug": "subtraktion-gemischt-musik-d3a5",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "music",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-musik-a3f4"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-musik-d3a5"
   },
   {
-   "slug": "code-addition-geheimwort-ostern-2985",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-ostern-77cd",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "easter",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-ostern-2985"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-ostern-77cd"
   },
   {
-   "slug": "code-addition-geheimwort-postamt-fb1a",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-postamt-b3f1",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "post_office",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-postamt-fb1a"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-postamt-b3f1"
   },
   {
-   "slug": "code-addition-geheimwort-reptilien-und-amphibien-f179",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-reptilien-und-amphibien-fed4",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "reptiles_and_amphibians",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-reptilien-und-amphibien-f179"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-reptilien-und-amphibien-fed4"
   },
   {
-   "slug": "code-addition-geheimwort-rund-ums-haus-4c4f",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-rund-ums-haus-54dd",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "around_the_house",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-rund-ums-haus-4c4f"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-rund-ums-haus-54dd"
   },
   {
-   "slug": "code-addition-geheimwort-sommer-c94c",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "summer",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-sommer-c94c"
-  },
-  {
-   "slug": "code-addition-geheimwort-spielzeug-b53d",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-spielzeug-9a99",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "toys",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-spielzeug-b53d"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-spielzeug-9a99"
   },
   {
-   "slug": "code-addition-geheimwort-strand-2e63",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-strand-d611",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "beach",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-strand-2e63"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-strand-d611"
   },
   {
-   "slug": "code-addition-geheimwort-tiere-b428",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-tiere-d30a",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "animals",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-tiere-b428"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-tiere-d30a"
   },
   {
-   "slug": "code-addition-geheimwort-vogel-2-a6ba",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "birds_2",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-vogel-2-a6ba"
-  },
-  {
-   "slug": "code-addition-geheimwort-vogel-b5c6",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-vogel-193d",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "birds",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-vogel-b5c6"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-vogel-193d"
   },
   {
-   "slug": "code-addition-geheimwort-waldtiere-1b38",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-vogel-2-aec0",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-vogel-2-aec0"
+  },
+  {
+   "slug": "subtraktion-gemischt-waldtiere-c0ec",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "forest_creatures",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-waldtiere-1b38"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-waldtiere-c0ec"
   },
   {
-   "slug": "code-addition-geheimwort-weihnachten-d591",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-weihnachten-7188",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "christmas",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-weihnachten-d591"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-weihnachten-7188"
   },
   {
-   "slug": "code-addition-geheimwort-weltraum-2479",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-weltraum-937e",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "space",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-weltraum-2479"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-weltraum-937e"
   },
   {
-   "slug": "code-addition-geheimwort-werkzeuge-bd96",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-werkzeuge-0c4d",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "tools",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-werkzeuge-bd96"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-werkzeuge-0c4d"
   },
   {
-   "slug": "code-addition-geheimwort-wetter-5a3c",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "weather",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-wetter-5a3c"
-  },
-  {
-   "slug": "code-addition-geheimwort-winter-e6bc",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "winter",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-winter-e6bc"
-  },
-  {
-   "slug": "code-addition-geheimwort-zootiere-475b",
-   "type": "code-addition",
-   "mode": "secret-word",
+   "slug": "subtraktion-gemischt-zootiere-c973",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "zoo_animals",
-   "level": "2-klasse",
-   "deck": "code-addition-geheimwort-zootiere-475b"
+   "level": "1-klasse",
+   "deck": "subtraktion-gemischt-zootiere-c973"
   }
  ]
 }

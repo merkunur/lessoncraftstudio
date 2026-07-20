@@ -2,607 +2,543 @@
  "part": 11,
  "locale": "en",
  "classes": [
-  "matching::name"
+  "find-and-count::letter-spotting"
  ],
  "splitOf": {
-  "class": "matching::name",
-  "total": 512,
+  "class": "find-and-count::letter-spotting",
+  "total": 330,
   "chunk": 4,
-  "chunks": 7
+  "chunks": 5
  },
- "count": 74,
+ "count": 66,
  "pages": [
   {
-   "slug": "german-matching-name-space-aed8",
-   "type": "matching",
-   "mode": "name",
-   "theme": "space",
-   "level": "language-beginner",
-   "deck": "german-matching-name-space-aed8"
-  },
-  {
-   "slug": "german-matching-name-spring-98ad",
-   "type": "matching",
-   "mode": "name",
-   "theme": "spring",
-   "level": "language-beginner",
-   "deck": "german-matching-name-spring-98ad"
-  },
-  {
-   "slug": "german-matching-name-summer-4d72",
-   "type": "matching",
-   "mode": "name",
-   "theme": "summer",
-   "level": "language-beginner",
-   "deck": "german-matching-name-summer-4d72"
-  },
-  {
-   "slug": "german-matching-name-thanksgiving-494b",
-   "type": "matching",
-   "mode": "name",
-   "theme": "thanksgivinng",
-   "level": "language-beginner",
-   "deck": "german-matching-name-thanksgiving-494b"
-  },
-  {
-   "slug": "german-matching-name-things-that-fly-4a67",
-   "type": "matching",
-   "mode": "name",
-   "theme": "things_that_fly",
-   "level": "language-beginner",
-   "deck": "german-matching-name-things-that-fly-4a67"
-  },
-  {
-   "slug": "german-matching-name-tools-3f3e",
-   "type": "matching",
-   "mode": "name",
-   "theme": "tools",
-   "level": "language-beginner",
-   "deck": "german-matching-name-tools-3f3e"
-  },
-  {
-   "slug": "german-matching-name-toys-1687",
-   "type": "matching",
-   "mode": "name",
-   "theme": "toys",
-   "level": "language-beginner",
-   "deck": "german-matching-name-toys-1687"
-  },
-  {
-   "slug": "german-matching-name-vegetables-b1e3",
-   "type": "matching",
-   "mode": "name",
-   "theme": "vegetables",
-   "level": "language-beginner",
-   "deck": "german-matching-name-vegetables-b1e3"
-  },
-  {
-   "slug": "german-matching-name-vehicles-2cbe",
-   "type": "matching",
-   "mode": "name",
-   "theme": "vehicles",
-   "level": "language-beginner",
-   "deck": "german-matching-name-vehicles-2cbe"
-  },
-  {
-   "slug": "german-matching-name-weather-1144",
-   "type": "matching",
-   "mode": "name",
-   "theme": "weather",
-   "level": "language-beginner",
-   "deck": "german-matching-name-weather-1144"
-  },
-  {
-   "slug": "german-matching-name-winter-0fec",
-   "type": "matching",
-   "mode": "name",
-   "theme": "winter",
-   "level": "language-beginner",
-   "deck": "german-matching-name-winter-0fec"
-  },
-  {
-   "slug": "german-matching-name-zoo-animals-58de",
-   "type": "matching",
-   "mode": "name",
-   "theme": "zoo_animals",
-   "level": "language-beginner",
-   "deck": "german-matching-name-zoo-animals-58de"
-  },
-  {
-   "slug": "italian-matching-name-4th-of-july-4ea5",
-   "type": "matching",
-   "mode": "name",
-   "theme": "4th_of_july",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-4th-of-july-4ea5"
-  },
-  {
-   "slug": "italian-matching-name-accessories-067c",
-   "type": "matching",
-   "mode": "name",
-   "theme": "accessories",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-accessories-067c"
-  },
-  {
-   "slug": "italian-matching-name-animals-46b6",
-   "type": "matching",
-   "mode": "name",
-   "theme": "animals",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-animals-46b6"
-  },
-  {
-   "slug": "italian-matching-name-around-the-house-0a54",
-   "type": "matching",
-   "mode": "name",
-   "theme": "around_the_house",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-around-the-house-0a54"
-  },
-  {
-   "slug": "italian-matching-name-at-the-supermarket-2953",
-   "type": "matching",
-   "mode": "name",
-   "theme": "at_the_supermarket",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-at-the-supermarket-2953"
-  },
-  {
-   "slug": "italian-matching-name-bakery-c0cb",
-   "type": "matching",
-   "mode": "name",
-   "theme": "bakery",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-bakery-c0cb"
-  },
-  {
-   "slug": "italian-matching-name-beach-00a4",
-   "type": "matching",
-   "mode": "name",
-   "theme": "beach",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-beach-00a4"
-  },
-  {
-   "slug": "italian-matching-name-birds-2-c26d",
-   "type": "matching",
-   "mode": "name",
-   "theme": "birds_2",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-birds-2-c26d"
-  },
-  {
-   "slug": "italian-matching-name-birds-8e2f",
-   "type": "matching",
-   "mode": "name",
-   "theme": "birds",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-birds-8e2f"
-  },
-  {
-   "slug": "italian-matching-name-body-parts-dda5",
-   "type": "matching",
-   "mode": "name",
-   "theme": "body_parts",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-body-parts-dda5"
-  },
-  {
-   "slug": "italian-matching-name-breakfast-d34d",
-   "type": "matching",
-   "mode": "name",
-   "theme": "breakfast",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-breakfast-d34d"
-  },
-  {
-   "slug": "italian-matching-name-camping-b628",
-   "type": "matching",
-   "mode": "name",
-   "theme": "camping",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-camping-b628"
-  },
-  {
-   "slug": "italian-matching-name-christmas-1556",
-   "type": "matching",
-   "mode": "name",
-   "theme": "christmas",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-christmas-1556"
-  },
-  {
-   "slug": "italian-matching-name-classroom-edc4",
-   "type": "matching",
-   "mode": "name",
-   "theme": "classroom",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-classroom-edc4"
-  },
-  {
-   "slug": "italian-matching-name-clothing-67eb",
-   "type": "matching",
-   "mode": "name",
+   "slug": "beginning-sounds-clothing-m",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "clothing",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-clothing-67eb"
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-clothing-10"
   },
   {
-   "slug": "italian-matching-name-colors-4047",
-   "type": "matching",
-   "mode": "name",
-   "theme": "colors",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-colors-4047"
+   "slug": "beginning-sounds-clothing-o",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "clothing",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-clothing-11"
   },
   {
-   "slug": "italian-matching-name-desserts-and-sweets-464f",
-   "type": "matching",
-   "mode": "name",
+   "slug": "beginning-sounds-clothing-p",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "clothing",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-clothing-12"
+  },
+  {
+   "slug": "beginning-sounds-clothing-r",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "clothing",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-clothing-13"
+  },
+  {
+   "slug": "beginning-sounds-clothing-s",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "clothing",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-clothing-14"
+  },
+  {
+   "slug": "beginning-sounds-clothing-t",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "clothing",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-clothing-15"
+  },
+  {
+   "slug": "beginning-sounds-clothing-u",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "clothing",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-clothing-16"
+  },
+  {
+   "slug": "beginning-sounds-clothing-v",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "clothing",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-clothing-17"
+  },
+  {
+   "slug": "beginning-sounds-desserts-and-sweets-c",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "desserts_and_sweets",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-desserts-and-sweets-464f"
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-desserts-and-sweets"
   },
   {
-   "slug": "italian-matching-name-easter-afdb",
-   "type": "matching",
-   "mode": "name",
+   "slug": "beginning-sounds-desserts-and-sweets-d",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "desserts_and_sweets",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-desserts-and-sweets-2"
+  },
+  {
+   "slug": "beginning-sounds-desserts-and-sweets-g",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "desserts_and_sweets",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-desserts-and-sweets-3"
+  },
+  {
+   "slug": "beginning-sounds-desserts-and-sweets-i",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "desserts_and_sweets",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-desserts-and-sweets-4"
+  },
+  {
+   "slug": "beginning-sounds-desserts-and-sweets-l",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "desserts_and_sweets",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-desserts-and-sweets-5"
+  },
+  {
+   "slug": "beginning-sounds-desserts-and-sweets-m",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "desserts_and_sweets",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-desserts-and-sweets-6"
+  },
+  {
+   "slug": "beginning-sounds-desserts-and-sweets-t",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "desserts_and_sweets",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-desserts-and-sweets-7"
+  },
+  {
+   "slug": "beginning-sounds-desserts-and-sweets-w",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "desserts_and_sweets",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-desserts-and-sweets-8"
+  },
+  {
+   "slug": "beginning-sounds-easter-b",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "easter",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-easter-afdb"
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-easter"
   },
   {
-   "slug": "italian-matching-name-emotions-7c2f",
-   "type": "matching",
-   "mode": "name",
-   "theme": "emotions",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-emotions-7c2f"
+   "slug": "beginning-sounds-easter-c",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "easter",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-easter-2"
   },
   {
-   "slug": "italian-matching-name-farm-animals-b767",
-   "type": "matching",
-   "mode": "name",
+   "slug": "beginning-sounds-easter-e",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "easter",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-easter-3"
+  },
+  {
+   "slug": "beginning-sounds-easter-f",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "easter",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-easter-4"
+  },
+  {
+   "slug": "beginning-sounds-easter-l",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "easter",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-easter-5"
+  },
+  {
+   "slug": "beginning-sounds-easter-r",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "easter",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-easter-6"
+  },
+  {
+   "slug": "beginning-sounds-easter-t",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "easter",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-easter-7"
+  },
+  {
+   "slug": "beginning-sounds-farm-animals-b",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "farm_animals",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-farm-animals-b767"
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-farm-animals"
   },
   {
-   "slug": "italian-matching-name-flowers-dcb6",
-   "type": "matching",
-   "mode": "name",
-   "theme": "flowers",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-flowers-dcb6"
+   "slug": "beginning-sounds-farm-animals-c",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-farm-animals-2"
   },
   {
-   "slug": "italian-matching-name-forest-creatures-8dcb",
-   "type": "matching",
-   "mode": "name",
+   "slug": "beginning-sounds-farm-animals-d",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-farm-animals-3"
+  },
+  {
+   "slug": "beginning-sounds-farm-animals-f",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-farm-animals-4"
+  },
+  {
+   "slug": "beginning-sounds-farm-animals-g",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-farm-animals-5"
+  },
+  {
+   "slug": "beginning-sounds-farm-animals-h",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-farm-animals-6"
+  },
+  {
+   "slug": "beginning-sounds-farm-animals-l",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-farm-animals-7"
+  },
+  {
+   "slug": "beginning-sounds-farm-animals-o",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-farm-animals-8"
+  },
+  {
+   "slug": "beginning-sounds-farm-animals-p",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-farm-animals-9"
+  },
+  {
+   "slug": "beginning-sounds-farm-animals-r",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-farm-animals-10"
+  },
+  {
+   "slug": "beginning-sounds-farm-animals-s",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-farm-animals-11"
+  },
+  {
+   "slug": "beginning-sounds-farm-animals-t",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-farm-animals-12"
+  },
+  {
+   "slug": "beginning-sounds-forest-creatures-a",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "forest_creatures",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-forest-creatures-8dcb"
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures"
   },
   {
-   "slug": "italian-matching-name-fruits-2316",
-   "type": "matching",
-   "mode": "name",
+   "slug": "beginning-sounds-forest-creatures-b",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures-2"
+  },
+  {
+   "slug": "beginning-sounds-forest-creatures-c",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures-3"
+  },
+  {
+   "slug": "beginning-sounds-forest-creatures-d",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures-4"
+  },
+  {
+   "slug": "beginning-sounds-forest-creatures-e",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures-5"
+  },
+  {
+   "slug": "beginning-sounds-forest-creatures-f",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures-6"
+  },
+  {
+   "slug": "beginning-sounds-forest-creatures-g",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures-7"
+  },
+  {
+   "slug": "beginning-sounds-forest-creatures-h",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures-8"
+  },
+  {
+   "slug": "beginning-sounds-forest-creatures-l",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures-9"
+  },
+  {
+   "slug": "beginning-sounds-forest-creatures-m",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures-10"
+  },
+  {
+   "slug": "beginning-sounds-forest-creatures-o",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures-11"
+  },
+  {
+   "slug": "beginning-sounds-forest-creatures-p",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures-12"
+  },
+  {
+   "slug": "beginning-sounds-forest-creatures-r",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures-13"
+  },
+  {
+   "slug": "beginning-sounds-forest-creatures-s",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures-14"
+  },
+  {
+   "slug": "beginning-sounds-forest-creatures-t",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures-15"
+  },
+  {
+   "slug": "beginning-sounds-forest-creatures-w",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-forest-creatures-16"
+  },
+  {
+   "slug": "beginning-sounds-fruits-a",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "fruits",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-fruits-2316"
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-fruits"
   },
   {
-   "slug": "italian-matching-name-furniture-8688",
-   "type": "matching",
-   "mode": "name",
+   "slug": "beginning-sounds-fruits-b",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "fruits",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-fruits-2"
+  },
+  {
+   "slug": "beginning-sounds-fruits-c",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "fruits",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-fruits-3"
+  },
+  {
+   "slug": "beginning-sounds-fruits-d",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "fruits",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-fruits-4"
+  },
+  {
+   "slug": "beginning-sounds-fruits-f",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "fruits",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-fruits-5"
+  },
+  {
+   "slug": "beginning-sounds-fruits-g",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "fruits",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-fruits-6"
+  },
+  {
+   "slug": "beginning-sounds-fruits-k",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "fruits",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-fruits-7"
+  },
+  {
+   "slug": "beginning-sounds-fruits-l",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "fruits",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-fruits-8"
+  },
+  {
+   "slug": "beginning-sounds-fruits-m",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "fruits",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-fruits-9"
+  },
+  {
+   "slug": "beginning-sounds-fruits-o",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "fruits",
+   "level": "kindergarten",
+   "deck": "find-and-count-letter-spotting-fruits-10"
+  },
+  {
+   "slug": "beginning-sounds-furniture-a",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "furniture",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-furniture-8688"
-  },
-  {
-   "slug": "italian-matching-name-hospital-ca46",
-   "type": "matching",
-   "mode": "name",
-   "theme": "hospital",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-hospital-ca46"
-  },
-  {
-   "slug": "italian-matching-name-insects-and-bugs-581e",
-   "type": "matching",
-   "mode": "name",
-   "theme": "insects_and_bugs",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-insects-and-bugs-581e"
-  },
-  {
-   "slug": "italian-matching-name-kitchen-tools-4c57",
-   "type": "matching",
-   "mode": "name",
-   "theme": "kitchen_tools",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-kitchen-tools-4c57"
-  },
-  {
-   "slug": "italian-matching-name-music-ba2a",
-   "type": "matching",
-   "mode": "name",
-   "theme": "music",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-music-ba2a"
-  },
-  {
-   "slug": "italian-matching-name-occupations-7a96",
-   "type": "matching",
-   "mode": "name",
-   "theme": "occupations",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-occupations-7a96"
-  },
-  {
-   "slug": "italian-matching-name-ocean-life-5318",
-   "type": "matching",
-   "mode": "name",
-   "theme": "ocean_life",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-ocean-life-5318"
-  },
-  {
-   "slug": "italian-matching-name-pets-8209",
-   "type": "matching",
-   "mode": "name",
-   "theme": "pets",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-pets-8209"
-  },
-  {
-   "slug": "italian-matching-name-post-office-9168",
-   "type": "matching",
-   "mode": "name",
-   "theme": "post_office",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-post-office-9168"
-  },
-  {
-   "slug": "italian-matching-name-reptiles-and-amphibians-664c",
-   "type": "matching",
-   "mode": "name",
-   "theme": "reptiles_and_amphibians",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-reptiles-and-amphibians-664c"
-  },
-  {
-   "slug": "italian-matching-name-shapes-8205",
-   "type": "matching",
-   "mode": "name",
-   "theme": "shapes",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-shapes-8205"
-  },
-  {
-   "slug": "italian-matching-name-space-7a49",
-   "type": "matching",
-   "mode": "name",
-   "theme": "space",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-space-7a49"
-  },
-  {
-   "slug": "italian-matching-name-spring-df8c",
-   "type": "matching",
-   "mode": "name",
-   "theme": "spring",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-spring-df8c"
-  },
-  {
-   "slug": "italian-matching-name-summer-1a04",
-   "type": "matching",
-   "mode": "name",
-   "theme": "summer",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-summer-1a04"
-  },
-  {
-   "slug": "italian-matching-name-thanksgiving-0df7",
-   "type": "matching",
-   "mode": "name",
-   "theme": "thanksgivinng",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-thanksgiving-0df7"
-  },
-  {
-   "slug": "italian-matching-name-things-that-fly-1507",
-   "type": "matching",
-   "mode": "name",
-   "theme": "things_that_fly",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-things-that-fly-1507"
-  },
-  {
-   "slug": "italian-matching-name-tools-6107",
-   "type": "matching",
-   "mode": "name",
-   "theme": "tools",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-tools-6107"
-  },
-  {
-   "slug": "italian-matching-name-toys-5a17",
-   "type": "matching",
-   "mode": "name",
-   "theme": "toys",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-toys-5a17"
-  },
-  {
-   "slug": "italian-matching-name-vegetables-8655",
-   "type": "matching",
-   "mode": "name",
-   "theme": "vegetables",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-vegetables-8655"
-  },
-  {
-   "slug": "italian-matching-name-vehicles-db60",
-   "type": "matching",
-   "mode": "name",
-   "theme": "vehicles",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-vehicles-db60"
-  },
-  {
-   "slug": "italian-matching-name-weather-1c8b",
-   "type": "matching",
-   "mode": "name",
-   "theme": "weather",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-weather-1c8b"
-  },
-  {
-   "slug": "italian-matching-name-winter-3890",
-   "type": "matching",
-   "mode": "name",
-   "theme": "winter",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-winter-3890"
-  },
-  {
-   "slug": "italian-matching-name-zoo-animals-8de0",
-   "type": "matching",
-   "mode": "name",
-   "theme": "zoo_animals",
-   "level": "language-beginner",
-   "deck": "italian-matching-name-zoo-animals-8de0"
-  },
-  {
-   "slug": "matching-name-4th-of-july",
-   "type": "matching",
-   "mode": "name",
-   "theme": "4th_of_july",
    "level": "kindergarten",
-   "deck": "matching-name-4th-of-july"
+   "deck": "find-and-count-letter-spotting-furniture"
   },
   {
-   "slug": "matching-name-accessories",
-   "type": "matching",
-   "mode": "name",
-   "theme": "accessories",
+   "slug": "beginning-sounds-furniture-b",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "furniture",
    "level": "kindergarten",
-   "deck": "matching-name-accessories"
+   "deck": "find-and-count-letter-spotting-furniture-2"
   },
   {
-   "slug": "matching-name-activities",
-   "type": "matching",
-   "mode": "name",
-   "theme": "activities",
+   "slug": "beginning-sounds-furniture-c",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "furniture",
    "level": "kindergarten",
-   "deck": "matching-name-activities"
+   "deck": "find-and-count-letter-spotting-furniture-3"
   },
   {
-   "slug": "matching-name-animals",
-   "type": "matching",
-   "mode": "name",
-   "theme": "animals",
+   "slug": "beginning-sounds-furniture-d",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "furniture",
    "level": "kindergarten",
-   "deck": "matching-name-animals"
+   "deck": "find-and-count-letter-spotting-furniture-4"
   },
   {
-   "slug": "matching-name-around-the-house",
-   "type": "matching",
-   "mode": "name",
-   "theme": "around_the_house",
+   "slug": "beginning-sounds-furniture-l",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "furniture",
    "level": "kindergarten",
-   "deck": "matching-name-around-the-house"
-  },
-  {
-   "slug": "matching-name-at-the-supermarket",
-   "type": "matching",
-   "mode": "name",
-   "theme": "at_the_supermarket",
-   "level": "kindergarten",
-   "deck": "matching-name-at-the-supermarket"
-  },
-  {
-   "slug": "matching-name-bakery",
-   "type": "matching",
-   "mode": "name",
-   "theme": "bakery",
-   "level": "kindergarten",
-   "deck": "matching-name-bakery"
-  },
-  {
-   "slug": "matching-name-beach",
-   "type": "matching",
-   "mode": "name",
-   "theme": "beach",
-   "level": "kindergarten",
-   "deck": "matching-name-beach"
-  },
-  {
-   "slug": "matching-name-birds",
-   "type": "matching",
-   "mode": "name",
-   "theme": "birds",
-   "level": "kindergarten",
-   "deck": "matching-name-birds"
-  },
-  {
-   "slug": "matching-name-body-parts",
-   "type": "matching",
-   "mode": "name",
-   "theme": "body_parts",
-   "level": "kindergarten",
-   "deck": "matching-name-body-parts"
-  },
-  {
-   "slug": "matching-name-breakfast",
-   "type": "matching",
-   "mode": "name",
-   "theme": "breakfast",
-   "level": "kindergarten",
-   "deck": "matching-name-breakfast"
-  },
-  {
-   "slug": "matching-name-camping",
-   "type": "matching",
-   "mode": "name",
-   "theme": "camping",
-   "level": "kindergarten",
-   "deck": "matching-name-camping"
-  },
-  {
-   "slug": "matching-name-christmas",
-   "type": "matching",
-   "mode": "name",
-   "theme": "christmas",
-   "level": "kindergarten",
-   "deck": "matching-name-christmas"
-  },
-  {
-   "slug": "matching-name-classroom",
-   "type": "matching",
-   "mode": "name",
-   "theme": "classroom",
-   "level": "kindergarten",
-   "deck": "matching-name-classroom"
-  },
-  {
-   "slug": "matching-name-clothing",
-   "type": "matching",
-   "mode": "name",
-   "theme": "clothing",
-   "level": "kindergarten",
-   "deck": "matching-name-clothing"
-  },
-  {
-   "slug": "matching-name-colors",
-   "type": "matching",
-   "mode": "name",
-   "theme": "colors",
-   "level": "kindergarten",
-   "deck": "matching-name-colors"
+   "deck": "find-and-count-letter-spotting-furniture-5"
   }
  ]
 }

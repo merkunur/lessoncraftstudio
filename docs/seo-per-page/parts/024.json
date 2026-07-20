@@ -2,543 +2,583 @@
  "part": 24,
  "locale": "en",
  "classes": [
-  "find-and-count::letter-spotting"
+  "crossword::null"
  ],
  "splitOf": {
-  "class": "find-and-count::letter-spotting",
-  "total": 330,
-  "chunk": 3,
-  "chunks": 5
+  "class": "crossword::null",
+  "total": 497,
+  "chunk": 5,
+  "chunks": 7
  },
- "count": 66,
+ "count": 71,
  "pages": [
   {
-   "slug": "beginning-sounds-body-parts-t",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "italian-crossword-body-parts-61d8",
+   "type": "crossword",
+   "mode": null,
    "theme": "body_parts",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-body-parts-12"
+   "level": "language-beginner",
+   "deck": "italian-crossword-body-parts-61d8"
   },
   {
-   "slug": "beginning-sounds-body-parts-w",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "italian-crossword-breakfast-29b2",
+   "type": "crossword",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "language-beginner",
+   "deck": "italian-crossword-breakfast-29b2"
+  },
+  {
+   "slug": "italian-crossword-camping-045e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "camping",
+   "level": "language-beginner",
+   "deck": "italian-crossword-camping-045e"
+  },
+  {
+   "slug": "italian-crossword-christmas-ceb4",
+   "type": "crossword",
+   "mode": null,
+   "theme": "christmas",
+   "level": "language-beginner",
+   "deck": "italian-crossword-christmas-ceb4"
+  },
+  {
+   "slug": "italian-crossword-classroom-2d9f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "classroom",
+   "level": "language-beginner",
+   "deck": "italian-crossword-classroom-2d9f"
+  },
+  {
+   "slug": "italian-crossword-clothing-2fac",
+   "type": "crossword",
+   "mode": null,
+   "theme": "clothing",
+   "level": "language-beginner",
+   "deck": "italian-crossword-clothing-2fac"
+  },
+  {
+   "slug": "italian-crossword-colors-90a5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "colors",
+   "level": "language-beginner",
+   "deck": "italian-crossword-colors-90a5"
+  },
+  {
+   "slug": "italian-crossword-desserts-and-sweets-f8fe",
+   "type": "crossword",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "language-beginner",
+   "deck": "italian-crossword-desserts-and-sweets-f8fe"
+  },
+  {
+   "slug": "italian-crossword-easter-bc45",
+   "type": "crossword",
+   "mode": null,
+   "theme": "easter",
+   "level": "language-beginner",
+   "deck": "italian-crossword-easter-bc45"
+  },
+  {
+   "slug": "italian-crossword-farm-animals-762e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "language-beginner",
+   "deck": "italian-crossword-farm-animals-762e"
+  },
+  {
+   "slug": "italian-crossword-flowers-3435",
+   "type": "crossword",
+   "mode": null,
+   "theme": "flowers",
+   "level": "language-beginner",
+   "deck": "italian-crossword-flowers-3435"
+  },
+  {
+   "slug": "italian-crossword-forest-creatures-0297",
+   "type": "crossword",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "language-beginner",
+   "deck": "italian-crossword-forest-creatures-0297"
+  },
+  {
+   "slug": "italian-crossword-fruits-5e1f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "fruits",
+   "level": "language-beginner",
+   "deck": "italian-crossword-fruits-5e1f"
+  },
+  {
+   "slug": "italian-crossword-furniture-6bdd",
+   "type": "crossword",
+   "mode": null,
+   "theme": "furniture",
+   "level": "language-beginner",
+   "deck": "italian-crossword-furniture-6bdd"
+  },
+  {
+   "slug": "italian-crossword-hospital-0370",
+   "type": "crossword",
+   "mode": null,
+   "theme": "hospital",
+   "level": "language-beginner",
+   "deck": "italian-crossword-hospital-0370"
+  },
+  {
+   "slug": "italian-crossword-insects-and-bugs-ee38",
+   "type": "crossword",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "language-beginner",
+   "deck": "italian-crossword-insects-and-bugs-ee38"
+  },
+  {
+   "slug": "italian-crossword-kitchen-tools-8f47",
+   "type": "crossword",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "language-beginner",
+   "deck": "italian-crossword-kitchen-tools-8f47"
+  },
+  {
+   "slug": "italian-crossword-music-7bb5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "music",
+   "level": "language-beginner",
+   "deck": "italian-crossword-music-7bb5"
+  },
+  {
+   "slug": "italian-crossword-occupations-6dcc",
+   "type": "crossword",
+   "mode": null,
+   "theme": "occupations",
+   "level": "language-beginner",
+   "deck": "italian-crossword-occupations-6dcc"
+  },
+  {
+   "slug": "italian-crossword-ocean-life-25ae",
+   "type": "crossword",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "language-beginner",
+   "deck": "italian-crossword-ocean-life-25ae"
+  },
+  {
+   "slug": "italian-crossword-pets-aee3",
+   "type": "crossword",
+   "mode": null,
+   "theme": "pets",
+   "level": "language-beginner",
+   "deck": "italian-crossword-pets-aee3"
+  },
+  {
+   "slug": "italian-crossword-post-office-bbbc",
+   "type": "crossword",
+   "mode": null,
+   "theme": "post_office",
+   "level": "language-beginner",
+   "deck": "italian-crossword-post-office-bbbc"
+  },
+  {
+   "slug": "italian-crossword-shapes-2f82",
+   "type": "crossword",
+   "mode": null,
+   "theme": "shapes",
+   "level": "language-beginner",
+   "deck": "italian-crossword-shapes-2f82"
+  },
+  {
+   "slug": "italian-crossword-space-4ee2",
+   "type": "crossword",
+   "mode": null,
+   "theme": "space",
+   "level": "language-beginner",
+   "deck": "italian-crossword-space-4ee2"
+  },
+  {
+   "slug": "italian-crossword-spring-5f80",
+   "type": "crossword",
+   "mode": null,
+   "theme": "spring",
+   "level": "language-beginner",
+   "deck": "italian-crossword-spring-5f80"
+  },
+  {
+   "slug": "italian-crossword-summer-b842",
+   "type": "crossword",
+   "mode": null,
+   "theme": "summer",
+   "level": "language-beginner",
+   "deck": "italian-crossword-summer-b842"
+  },
+  {
+   "slug": "italian-crossword-thanksgiving-e699",
+   "type": "crossword",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "language-beginner",
+   "deck": "italian-crossword-thanksgiving-e699"
+  },
+  {
+   "slug": "italian-crossword-things-that-fly-d374",
+   "type": "crossword",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "language-beginner",
+   "deck": "italian-crossword-things-that-fly-d374"
+  },
+  {
+   "slug": "italian-crossword-tools-b222",
+   "type": "crossword",
+   "mode": null,
+   "theme": "tools",
+   "level": "language-beginner",
+   "deck": "italian-crossword-tools-b222"
+  },
+  {
+   "slug": "italian-crossword-vehicles-783d",
+   "type": "crossword",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "language-beginner",
+   "deck": "italian-crossword-vehicles-783d"
+  },
+  {
+   "slug": "italian-crossword-weather-903b",
+   "type": "crossword",
+   "mode": null,
+   "theme": "weather",
+   "level": "language-beginner",
+   "deck": "italian-crossword-weather-903b"
+  },
+  {
+   "slug": "italian-crossword-winter-9a66",
+   "type": "crossword",
+   "mode": null,
+   "theme": "winter",
+   "level": "language-beginner",
+   "deck": "italian-crossword-winter-9a66"
+  },
+  {
+   "slug": "italian-crossword-zoo-animals-81af",
+   "type": "crossword",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "language-beginner",
+   "deck": "italian-crossword-zoo-animals-81af"
+  },
+  {
+   "slug": "norwegian-crossword-4th-of-july-2c9c",
+   "type": "crossword",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-4th-of-july-2c9c"
+  },
+  {
+   "slug": "norwegian-crossword-accessories-d97e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "accessories",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-accessories-d97e"
+  },
+  {
+   "slug": "norwegian-crossword-activities-230b",
+   "type": "crossword",
+   "mode": null,
+   "theme": "activities",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-activities-230b"
+  },
+  {
+   "slug": "norwegian-crossword-animals-6f4a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "animals",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-animals-6f4a"
+  },
+  {
+   "slug": "norwegian-crossword-around-the-house-4469",
+   "type": "crossword",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-around-the-house-4469"
+  },
+  {
+   "slug": "norwegian-crossword-at-the-supermarket-47c8",
+   "type": "crossword",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-at-the-supermarket-47c8"
+  },
+  {
+   "slug": "norwegian-crossword-bakery-e5de",
+   "type": "crossword",
+   "mode": null,
+   "theme": "bakery",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-bakery-e5de"
+  },
+  {
+   "slug": "norwegian-crossword-beach-3e2e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "beach",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-beach-3e2e"
+  },
+  {
+   "slug": "norwegian-crossword-birds-2-4801",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-birds-2-4801"
+  },
+  {
+   "slug": "norwegian-crossword-birds-2c83",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-birds-2c83"
+  },
+  {
+   "slug": "norwegian-crossword-body-parts-e620",
+   "type": "crossword",
+   "mode": null,
    "theme": "body_parts",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-body-parts-13"
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-body-parts-e620"
   },
   {
-   "slug": "beginning-sounds-breakfast-a",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "norwegian-crossword-breakfast-38d3",
+   "type": "crossword",
+   "mode": null,
    "theme": "breakfast",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-breakfast"
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-breakfast-38d3"
   },
   {
-   "slug": "beginning-sounds-breakfast-b",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "breakfast",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-breakfast-2"
-  },
-  {
-   "slug": "beginning-sounds-breakfast-c",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "breakfast",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-breakfast-3"
-  },
-  {
-   "slug": "beginning-sounds-breakfast-d",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "breakfast",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-breakfast-4"
-  },
-  {
-   "slug": "beginning-sounds-breakfast-g",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "breakfast",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-breakfast-5"
-  },
-  {
-   "slug": "beginning-sounds-breakfast-h",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "breakfast",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-breakfast-6"
-  },
-  {
-   "slug": "beginning-sounds-breakfast-j",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "breakfast",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-breakfast-7"
-  },
-  {
-   "slug": "beginning-sounds-breakfast-m",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "breakfast",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-breakfast-8"
-  },
-  {
-   "slug": "beginning-sounds-breakfast-o",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "breakfast",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-breakfast-9"
-  },
-  {
-   "slug": "beginning-sounds-breakfast-p",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "breakfast",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-breakfast-10"
-  },
-  {
-   "slug": "beginning-sounds-breakfast-r",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "breakfast",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-breakfast-11"
-  },
-  {
-   "slug": "beginning-sounds-breakfast-s",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "breakfast",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-breakfast-12"
-  },
-  {
-   "slug": "beginning-sounds-breakfast-y",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "breakfast",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-breakfast-13"
-  },
-  {
-   "slug": "beginning-sounds-camping-b",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "norwegian-crossword-camping-729a",
+   "type": "crossword",
+   "mode": null,
    "theme": "camping",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-camping"
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-camping-729a"
   },
   {
-   "slug": "beginning-sounds-camping-c",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "camping",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-camping-2"
-  },
-  {
-   "slug": "beginning-sounds-camping-d",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "camping",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-camping-3"
-  },
-  {
-   "slug": "beginning-sounds-camping-f",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "camping",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-camping-4"
-  },
-  {
-   "slug": "beginning-sounds-camping-g",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "camping",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-camping-5"
-  },
-  {
-   "slug": "beginning-sounds-camping-h",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "camping",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-camping-6"
-  },
-  {
-   "slug": "beginning-sounds-camping-k",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "camping",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-camping-7"
-  },
-  {
-   "slug": "beginning-sounds-camping-l",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "camping",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-camping-8"
-  },
-  {
-   "slug": "beginning-sounds-camping-m",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "camping",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-camping-9"
-  },
-  {
-   "slug": "beginning-sounds-camping-o",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "camping",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-camping-10"
-  },
-  {
-   "slug": "beginning-sounds-camping-p",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "camping",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-camping-11"
-  },
-  {
-   "slug": "beginning-sounds-camping-r",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "camping",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-camping-12"
-  },
-  {
-   "slug": "beginning-sounds-camping-s",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "camping",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-camping-13"
-  },
-  {
-   "slug": "beginning-sounds-camping-t",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "camping",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-camping-14"
-  },
-  {
-   "slug": "beginning-sounds-camping-v",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "camping",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-camping-15"
-  },
-  {
-   "slug": "beginning-sounds-camping-w",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "camping",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-camping-16"
-  },
-  {
-   "slug": "beginning-sounds-christmas-a",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "norwegian-crossword-christmas-2e70",
+   "type": "crossword",
+   "mode": null,
    "theme": "christmas",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-christmas"
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-christmas-2e70"
   },
   {
-   "slug": "beginning-sounds-christmas-b",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "christmas",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-christmas-2"
-  },
-  {
-   "slug": "beginning-sounds-christmas-c",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "christmas",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-christmas-3"
-  },
-  {
-   "slug": "beginning-sounds-christmas-e",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "christmas",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-christmas-4"
-  },
-  {
-   "slug": "beginning-sounds-christmas-g",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "christmas",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-christmas-5"
-  },
-  {
-   "slug": "beginning-sounds-christmas-l",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "christmas",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-christmas-6"
-  },
-  {
-   "slug": "beginning-sounds-christmas-n",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "christmas",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-christmas-7"
-  },
-  {
-   "slug": "beginning-sounds-christmas-o",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "christmas",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-christmas-8"
-  },
-  {
-   "slug": "beginning-sounds-christmas-p",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "christmas",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-christmas-9"
-  },
-  {
-   "slug": "beginning-sounds-christmas-r",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "christmas",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-christmas-10"
-  },
-  {
-   "slug": "beginning-sounds-christmas-s",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "christmas",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-christmas-11"
-  },
-  {
-   "slug": "beginning-sounds-christmas-t",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "christmas",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-christmas-12"
-  },
-  {
-   "slug": "beginning-sounds-christmas-w",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "christmas",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-christmas-13"
-  },
-  {
-   "slug": "beginning-sounds-classroom-b",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "norwegian-crossword-classroom-210a",
+   "type": "crossword",
+   "mode": null,
    "theme": "classroom",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-classroom"
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-classroom-210a"
   },
   {
-   "slug": "beginning-sounds-classroom-c",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "classroom",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-classroom-2"
-  },
-  {
-   "slug": "beginning-sounds-classroom-d",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "classroom",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-classroom-3"
-  },
-  {
-   "slug": "beginning-sounds-classroom-e",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "classroom",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-classroom-4"
-  },
-  {
-   "slug": "beginning-sounds-classroom-f",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "classroom",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-classroom-5"
-  },
-  {
-   "slug": "beginning-sounds-classroom-g",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "classroom",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-classroom-6"
-  },
-  {
-   "slug": "beginning-sounds-classroom-l",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "classroom",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-classroom-7"
-  },
-  {
-   "slug": "beginning-sounds-classroom-m",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "classroom",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-classroom-8"
-  },
-  {
-   "slug": "beginning-sounds-classroom-n",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "classroom",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-classroom-9"
-  },
-  {
-   "slug": "beginning-sounds-classroom-p",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "classroom",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-classroom-10"
-  },
-  {
-   "slug": "beginning-sounds-classroom-r",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "classroom",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-classroom-11"
-  },
-  {
-   "slug": "beginning-sounds-classroom-s",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "classroom",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-classroom-12"
-  },
-  {
-   "slug": "beginning-sounds-classroom-t",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "classroom",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-classroom-13"
-  },
-  {
-   "slug": "beginning-sounds-clothing-a",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "norwegian-crossword-clothing-97d9",
+   "type": "crossword",
+   "mode": null,
    "theme": "clothing",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-clothing"
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-clothing-97d9"
   },
   {
-   "slug": "beginning-sounds-clothing-b",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "clothing",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-clothing-2"
+   "slug": "norwegian-crossword-colors-67e2",
+   "type": "crossword",
+   "mode": null,
+   "theme": "colors",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-colors-67e2"
   },
   {
-   "slug": "beginning-sounds-clothing-c",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "clothing",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-clothing-3"
+   "slug": "norwegian-crossword-desserts-and-sweets-a649",
+   "type": "crossword",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-desserts-and-sweets-a649"
   },
   {
-   "slug": "beginning-sounds-clothing-d",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "clothing",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-clothing-4"
+   "slug": "norwegian-crossword-easter-7448",
+   "type": "crossword",
+   "mode": null,
+   "theme": "easter",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-easter-7448"
   },
   {
-   "slug": "beginning-sounds-clothing-f",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "clothing",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-clothing-5"
+   "slug": "norwegian-crossword-emotions-753e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "emotions",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-emotions-753e"
   },
   {
-   "slug": "beginning-sounds-clothing-g",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "clothing",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-clothing-6"
+   "slug": "norwegian-crossword-farm-animals-45e0",
+   "type": "crossword",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-farm-animals-45e0"
   },
   {
-   "slug": "beginning-sounds-clothing-h",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "clothing",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-clothing-7"
+   "slug": "norwegian-crossword-flowers-9690",
+   "type": "crossword",
+   "mode": null,
+   "theme": "flowers",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-flowers-9690"
   },
   {
-   "slug": "beginning-sounds-clothing-j",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "clothing",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-clothing-8"
+   "slug": "norwegian-crossword-forest-creatures-ec51",
+   "type": "crossword",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-forest-creatures-ec51"
   },
   {
-   "slug": "beginning-sounds-clothing-l",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "clothing",
-   "level": "kindergarten",
-   "deck": "find-and-count-letter-spotting-clothing-9"
+   "slug": "norwegian-crossword-fruits-6bae",
+   "type": "crossword",
+   "mode": null,
+   "theme": "fruits",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-fruits-6bae"
+  },
+  {
+   "slug": "norwegian-crossword-furniture-e091",
+   "type": "crossword",
+   "mode": null,
+   "theme": "furniture",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-furniture-e091"
+  },
+  {
+   "slug": "norwegian-crossword-hospital-fcb5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "hospital",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-hospital-fcb5"
+  },
+  {
+   "slug": "norwegian-crossword-insects-and-bugs-2c34",
+   "type": "crossword",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-insects-and-bugs-2c34"
+  },
+  {
+   "slug": "norwegian-crossword-kitchen-tools-eb82",
+   "type": "crossword",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-kitchen-tools-eb82"
+  },
+  {
+   "slug": "norwegian-crossword-music-4d88",
+   "type": "crossword",
+   "mode": null,
+   "theme": "music",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-music-4d88"
+  },
+  {
+   "slug": "norwegian-crossword-occupations-75a6",
+   "type": "crossword",
+   "mode": null,
+   "theme": "occupations",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-occupations-75a6"
+  },
+  {
+   "slug": "norwegian-crossword-ocean-life-17fe",
+   "type": "crossword",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-ocean-life-17fe"
+  },
+  {
+   "slug": "norwegian-crossword-pets-1ad4",
+   "type": "crossword",
+   "mode": null,
+   "theme": "pets",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-pets-1ad4"
+  },
+  {
+   "slug": "norwegian-crossword-post-office-be95",
+   "type": "crossword",
+   "mode": null,
+   "theme": "post_office",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-post-office-be95"
+  },
+  {
+   "slug": "norwegian-crossword-reptiles-and-amphibians-cada",
+   "type": "crossword",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-reptiles-and-amphibians-cada"
+  },
+  {
+   "slug": "norwegian-crossword-shapes-dc33",
+   "type": "crossword",
+   "mode": null,
+   "theme": "shapes",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-shapes-dc33"
+  },
+  {
+   "slug": "norwegian-crossword-space-766f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "space",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-space-766f"
+  },
+  {
+   "slug": "norwegian-crossword-spring-76cd",
+   "type": "crossword",
+   "mode": null,
+   "theme": "spring",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-spring-76cd"
+  },
+  {
+   "slug": "norwegian-crossword-summer-54bb",
+   "type": "crossword",
+   "mode": null,
+   "theme": "summer",
+   "level": "language-beginner",
+   "deck": "norwegian-crossword-summer-54bb"
   }
  ]
 }

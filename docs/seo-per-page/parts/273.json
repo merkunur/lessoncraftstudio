@@ -2,763 +2,619 @@
  "part": 273,
  "locale": "da",
  "classes": [
-  "word-scramble::easy",
-  "word-scramble::normal"
+  "math-puzzle::mixed",
+  "math-puzzle::addition"
  ],
  "splitOf": null,
- "count": 94,
+ "count": 76,
  "pages": [
   {
-   "slug": "bogstavpuslespil-let-aktiviteter-e353",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "activities",
-   "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-aktiviteter-e353"
-  },
-  {
-   "slug": "bogstavpuslespil-let-bageri-b00a",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-bageri-6c6f",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "bakery",
    "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-bageri-b00a"
+   "deck": "matematikpuslespil-blandet-bageri-6c6f"
   },
   {
-   "slug": "bogstavpuslespil-let-blomster-7937",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-blomster-71e1",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "flowers",
    "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-blomster-7937"
+   "deck": "matematikpuslespil-blandet-blomster-71e1"
   },
   {
-   "slug": "bogstavpuslespil-let-bondegardsdyr-c078",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-bondegardsdyr-b009",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "farm_animals",
    "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-bondegardsdyr-c078"
+   "deck": "matematikpuslespil-blandet-bondegardsdyr-b009"
   },
   {
-   "slug": "bogstavpuslespil-let-camping-f7f8",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-camping-0603",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "camping",
    "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-camping-f7f8"
+   "deck": "matematikpuslespil-blandet-camping-0603"
   },
   {
-   "slug": "bogstavpuslespil-let-desserter-og-slik-aab0",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "desserts_and_sweets",
+   "slug": "matematikpuslespil-blandet-dinosaurer-bbf7",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "dinosaurs",
    "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-desserter-og-slik-aab0"
+   "deck": "matematikpuslespil-blandet-dinosaurer-bbf7"
   },
   {
-   "slug": "bogstavpuslespil-let-dyr-7f04",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-dyr",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "animals",
    "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-dyr-7f04"
+   "deck": "matematikpuslespil-blandet-dyr"
   },
   {
-   "slug": "bogstavpuslespil-let-erhverv-2c53",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-erhverv-a753",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "occupations",
    "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-erhverv-2c53"
+   "deck": "matematikpuslespil-blandet-erhverv-a753"
   },
   {
-   "slug": "bogstavpuslespil-let-farver-c36b",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "colors",
-   "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-farver-c36b"
-  },
-  {
-   "slug": "bogstavpuslespil-let-folelser-88e9",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "emotions",
-   "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-folelser-88e9"
-  },
-  {
-   "slug": "bogstavpuslespil-let-forar-3f85",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "spring",
-   "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-forar-3f85"
-  },
-  {
-   "slug": "bogstavpuslespil-let-former-2f8f",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-former-cc92",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "shapes",
    "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-former-2f8f"
+   "deck": "matematikpuslespil-blandet-former-cc92"
   },
   {
-   "slug": "bogstavpuslespil-let-frugter-fd7b",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-frugter-4691",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "fruits",
    "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-frugter-fd7b"
+   "deck": "matematikpuslespil-blandet-frugter-4691"
   },
   {
-   "slug": "bogstavpuslespil-let-fugle-2-8da5",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-fugle-2-51a7",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "birds_2",
    "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-fugle-2-8da5"
+   "deck": "matematikpuslespil-blandet-fugle-2-51a7"
   },
   {
-   "slug": "bogstavpuslespil-let-fugle-28f7",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-fugle-a521",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "birds",
-   "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-fugle-28f7"
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-blandet-fugle-a521"
   },
   {
-   "slug": "bogstavpuslespil-let-grontsager-3b93",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-grontsager-ab0b",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "vegetables",
-   "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-grontsager-3b93"
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-blandet-grontsager-ab0b"
   },
   {
-   "slug": "bogstavpuslespil-let-havliv-c757",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-havliv-71de",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "ocean_life",
-   "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-havliv-c757"
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-blandet-havliv-71de"
   },
   {
-   "slug": "bogstavpuslespil-let-hospital-9607",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-hospital-5bda",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "hospital",
-   "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-hospital-9607"
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-blandet-hospital-5bda"
   },
   {
-   "slug": "bogstavpuslespil-let-i-supermarkedet-238d",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-i-supermarkedet-e812",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "at_the_supermarket",
    "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-i-supermarkedet-238d"
+   "deck": "matematikpuslespil-blandet-i-supermarkedet-e812"
   },
   {
-   "slug": "bogstavpuslespil-let-insekter-og-kryb-0251",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-insekter-og-kryb-27b2",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "insects_and_bugs",
-   "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-insekter-og-kryb-0251"
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-blandet-insekter-og-kryb-27b2"
   },
   {
-   "slug": "bogstavpuslespil-let-jul-ea80",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-jul-da65",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "christmas",
    "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-jul-ea80"
+   "deck": "matematikpuslespil-blandet-jul-da65"
   },
   {
-   "slug": "bogstavpuslespil-let-kaeledyr-15a6",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-kaeledyr-1c29",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "pets",
    "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-kaeledyr-15a6"
+   "deck": "matematikpuslespil-blandet-kaeledyr-1c29"
   },
   {
-   "slug": "bogstavpuslespil-let-klassevaerelse-0421",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-klassevaerelse-b3fd",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "classroom",
-   "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-klassevaerelse-0421"
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-blandet-klassevaerelse-b3fd"
   },
   {
-   "slug": "bogstavpuslespil-let-kokkenredskaber-4324",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-kokkenredskaber-296f",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "kitchen_tools",
    "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-kokkenredskaber-4324"
+   "deck": "matematikpuslespil-blandet-kokkenredskaber-296f"
   },
   {
-   "slug": "bogstavpuslespil-let-koretojer-085f",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-koretojer-181d",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "vehicles",
    "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-koretojer-085f"
+   "deck": "matematikpuslespil-blandet-koretojer-181d"
   },
   {
-   "slug": "bogstavpuslespil-let-kropsdele-a0d8",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "body_parts",
-   "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-kropsdele-a0d8"
-  },
-  {
-   "slug": "bogstavpuslespil-let-krybdyr-og-padder-a8a0",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-krybdyr-og-padder-9d3d",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "reptiles_and_amphibians",
    "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-krybdyr-og-padder-a8a0"
+   "deck": "matematikpuslespil-blandet-krybdyr-og-padder-9d3d"
   },
   {
-   "slug": "bogstavpuslespil-let-legetoj-b458",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-legetoj-5c17",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "toys",
    "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-legetoj-b458"
+   "deck": "matematikpuslespil-blandet-legetoj-5c17"
   },
   {
-   "slug": "bogstavpuslespil-let-mobler-0f6d",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-mobler-4bde",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "furniture",
    "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-mobler-0f6d"
+   "deck": "matematikpuslespil-blandet-mobler-4bde"
   },
   {
-   "slug": "bogstavpuslespil-let-morgenmad-54fd",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-morgenmad-a4cf",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "breakfast",
    "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-morgenmad-54fd"
+   "deck": "matematikpuslespil-blandet-morgenmad-a4cf"
   },
   {
-   "slug": "bogstavpuslespil-let-musik-00e2",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-musik-5320",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "music",
-   "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-musik-00e2"
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-blandet-musik-5320"
   },
   {
-   "slug": "bogstavpuslespil-let-paske-07bc",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-paske-43b4",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "easter",
    "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-paske-07bc"
+   "deck": "matematikpuslespil-blandet-paske-43b4"
   },
   {
-   "slug": "bogstavpuslespil-let-postkontor-b79f",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-postkontor-c4ee",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "post_office",
-   "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-postkontor-b79f"
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-blandet-postkontor-c4ee"
   },
   {
-   "slug": "bogstavpuslespil-let-rummet-24c6",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-rummet-c46a",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "space",
    "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-rummet-24c6"
+   "deck": "matematikpuslespil-blandet-rummet-c46a"
   },
   {
-   "slug": "bogstavpuslespil-let-rundt-i-huset-2a87",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-rundt-i-huset-22b3",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "around_the_house",
    "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-rundt-i-huset-2a87"
+   "deck": "matematikpuslespil-blandet-rundt-i-huset-22b3"
   },
   {
-   "slug": "bogstavpuslespil-let-skovdyr-ffe3",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-skovdyr-1969",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "forest_creatures",
    "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-skovdyr-ffe3"
+   "deck": "matematikpuslespil-blandet-skovdyr-1969"
   },
   {
-   "slug": "bogstavpuslespil-let-sommer-c8d0",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "summer",
-   "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-sommer-c8d0"
-  },
-  {
-   "slug": "bogstavpuslespil-let-strand-032c",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-strand-1e1f",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "beach",
    "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-strand-032c"
+   "deck": "matematikpuslespil-blandet-strand-1e1f"
   },
   {
-   "slug": "bogstavpuslespil-let-thanksgiving-834d",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-thanksgiving-666d",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "thanksgivinng",
    "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-thanksgiving-834d"
+   "deck": "matematikpuslespil-blandet-thanksgiving-666d"
   },
   {
-   "slug": "bogstavpuslespil-let-tilbehor-17ed",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-tilbehor-fedf",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "accessories",
    "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-tilbehor-17ed"
+   "deck": "matematikpuslespil-blandet-tilbehor-fedf"
   },
   {
-   "slug": "bogstavpuslespil-let-ting-der-flyver-e219",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-ting-der-flyver-2e78",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "things_that_fly",
-   "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-ting-der-flyver-e219"
+   "level": "2-klasse",
+   "deck": "matematikpuslespil-blandet-ting-der-flyver-2e78"
   },
   {
-   "slug": "bogstavpuslespil-let-toj-9251",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-toj-b379",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "clothing",
    "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-toj-9251"
+   "deck": "matematikpuslespil-blandet-toj-b379"
   },
   {
-   "slug": "bogstavpuslespil-let-traeer-9d0a",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-traeer-2dac",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "tree",
    "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-traeer-9d0a"
+   "deck": "matematikpuslespil-blandet-traeer-2dac"
   },
   {
-   "slug": "bogstavpuslespil-let-vaerktoj-4b38",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-vaerktoj-fd5d",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "tools",
    "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-vaerktoj-4b38"
+   "deck": "matematikpuslespil-blandet-vaerktoj-fd5d"
   },
   {
-   "slug": "bogstavpuslespil-let-vejr-5433",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "weather",
-   "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-vejr-5433"
-  },
-  {
-   "slug": "bogstavpuslespil-let-vinter-adc3",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "winter",
-   "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-vinter-adc3"
-  },
-  {
-   "slug": "bogstavpuslespil-let-zoodyr-d593",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "matematikpuslespil-blandet-zoodyr-3041",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "zoo_animals",
    "level": "1-klasse",
-   "deck": "bogstavpuslespil-let-zoodyr-d593"
+   "deck": "matematikpuslespil-blandet-zoodyr-3041"
   },
   {
-   "slug": "bogstavpuslespil-normal-aktiviteter-f848",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "activities",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-aktiviteter-f848"
-  },
-  {
-   "slug": "bogstavpuslespil-normal-bageri-da33",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-bageri-8470",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "bakery",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-bageri-da33"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-bageri-8470"
   },
   {
-   "slug": "bogstavpuslespil-normal-blomster-e243",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-blomster-8631",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "flowers",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-blomster-e243"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-blomster-8631"
   },
   {
-   "slug": "bogstavpuslespil-normal-bondegardsdyr-f3e7",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-bondegardsdyr-bf70",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "farm_animals",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-bondegardsdyr-f3e7"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-bondegardsdyr-bf70"
   },
   {
-   "slug": "bogstavpuslespil-normal-camping-d3c7",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-camping-0f12",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "camping",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-camping-d3c7"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-camping-0f12"
   },
   {
-   "slug": "bogstavpuslespil-normal-desserter-og-slik-a9ee",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "desserts_and_sweets",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-desserter-og-slik-a9ee"
+   "slug": "matematikpuslespil-addition-dinosaurer-bde7",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "dinosaurs",
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-dinosaurer-bde7"
   },
   {
-   "slug": "bogstavpuslespil-normal-dyr-265c",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-dyr-0f9a",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "animals",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-dyr-265c"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-dyr-0f9a"
   },
   {
-   "slug": "bogstavpuslespil-normal-erhverv-59ad",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-erhverv-dd4c",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "occupations",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-erhverv-59ad"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-erhverv-dd4c"
   },
   {
-   "slug": "bogstavpuslespil-normal-farver-35e2",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "colors",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-farver-35e2"
-  },
-  {
-   "slug": "bogstavpuslespil-normal-folelser-9521",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "emotions",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-folelser-9521"
-  },
-  {
-   "slug": "bogstavpuslespil-normal-forar-4794",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "spring",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-forar-4794"
-  },
-  {
-   "slug": "bogstavpuslespil-normal-former-5e03",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "shapes",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-former-5e03"
-  },
-  {
-   "slug": "bogstavpuslespil-normal-frugter-37b0",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "fruits",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-frugter-37b0"
-  },
-  {
-   "slug": "bogstavpuslespil-normal-fugle-2-3ed1",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-fugle-2-a176",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "birds_2",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-fugle-2-3ed1"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-fugle-2-a176"
   },
   {
-   "slug": "bogstavpuslespil-normal-fugle-2a4e",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-fugle-438f",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "birds",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-fugle-2a4e"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-fugle-438f"
   },
   {
-   "slug": "bogstavpuslespil-normal-grontsager-d19c",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-grontsager-04a8",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "vegetables",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-grontsager-d19c"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-grontsager-04a8"
   },
   {
-   "slug": "bogstavpuslespil-normal-havliv-b8a7",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-havliv-b12d",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "ocean_life",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-havliv-b8a7"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-havliv-b12d"
   },
   {
-   "slug": "bogstavpuslespil-normal-hospital-ff35",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-hospital-acca",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "hospital",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-hospital-ff35"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-hospital-acca"
   },
   {
-   "slug": "bogstavpuslespil-normal-i-supermarkedet-6424",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-i-supermarkedet-8934",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "at_the_supermarket",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-i-supermarkedet-6424"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-i-supermarkedet-8934"
   },
   {
-   "slug": "bogstavpuslespil-normal-insekter-og-kryb-ca8d",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-insekter-og-kryb-d73f",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "insects_and_bugs",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-insekter-og-kryb-ca8d"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-insekter-og-kryb-d73f"
   },
   {
-   "slug": "bogstavpuslespil-normal-jul-7f77",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-jul-570e",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "christmas",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-jul-7f77"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-jul-570e"
   },
   {
-   "slug": "bogstavpuslespil-normal-kaeledyr-dcce",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-kaeledyr-6b0b",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "pets",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-kaeledyr-dcce"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-kaeledyr-6b0b"
   },
   {
-   "slug": "bogstavpuslespil-normal-klassevaerelse-8a28",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-klassevaerelse-abb0",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "classroom",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-klassevaerelse-8a28"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-klassevaerelse-abb0"
   },
   {
-   "slug": "bogstavpuslespil-normal-kokkenredskaber-28d9",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-kokkenredskaber-e183",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "kitchen_tools",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-kokkenredskaber-28d9"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-kokkenredskaber-e183"
   },
   {
-   "slug": "bogstavpuslespil-normal-koretojer-09de",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-koretojer-81ca",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "vehicles",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-koretojer-09de"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-koretojer-81ca"
   },
   {
-   "slug": "bogstavpuslespil-normal-kropsdele-6215",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "body_parts",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-kropsdele-6215"
-  },
-  {
-   "slug": "bogstavpuslespil-normal-krybdyr-og-padder-9894",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-krybdyr-og-padder-24d7",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "reptiles_and_amphibians",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-krybdyr-og-padder-9894"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-krybdyr-og-padder-24d7"
   },
   {
-   "slug": "bogstavpuslespil-normal-legetoj-cd79",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-legetoj-893f",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "toys",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-legetoj-cd79"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-legetoj-893f"
   },
   {
-   "slug": "bogstavpuslespil-normal-mobler-1148",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-mobler-733e",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "furniture",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-mobler-1148"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-mobler-733e"
   },
   {
-   "slug": "bogstavpuslespil-normal-morgenmad-ea2f",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-morgenmad-b667",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "breakfast",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-morgenmad-ea2f"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-morgenmad-b667"
   },
   {
-   "slug": "bogstavpuslespil-normal-musik-6e13",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-musik-d6ac",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "music",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-musik-6e13"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-musik-d6ac"
   },
   {
-   "slug": "bogstavpuslespil-normal-paske-1654",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-paske-9f92",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "easter",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-paske-1654"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-paske-9f92"
   },
   {
-   "slug": "bogstavpuslespil-normal-postkontor-f136",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-postkontor-19f9",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "post_office",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-postkontor-f136"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-postkontor-19f9"
   },
   {
-   "slug": "bogstavpuslespil-normal-rummet-fc01",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-rummet-3034",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "space",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-rummet-fc01"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-rummet-3034"
   },
   {
-   "slug": "bogstavpuslespil-normal-rundt-i-huset-13fa",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-rundt-i-huset-7b59",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "around_the_house",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-rundt-i-huset-13fa"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-rundt-i-huset-7b59"
   },
   {
-   "slug": "bogstavpuslespil-normal-skovdyr-a67b",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-skovdyr-ad39",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "forest_creatures",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-skovdyr-a67b"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-skovdyr-ad39"
   },
   {
-   "slug": "bogstavpuslespil-normal-sommer-8d0d",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "summer",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-sommer-8d0d"
-  },
-  {
-   "slug": "bogstavpuslespil-normal-strand-d334",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-strand-d278",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "beach",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-strand-d334"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-strand-d278"
   },
   {
-   "slug": "bogstavpuslespil-normal-thanksgiving-056e",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-thanksgiving-8c8c",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "thanksgivinng",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-thanksgiving-056e"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-thanksgiving-8c8c"
   },
   {
-   "slug": "bogstavpuslespil-normal-tilbehor-ac3b",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-tilbehor-3d57",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "accessories",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-tilbehor-ac3b"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-tilbehor-3d57"
   },
   {
-   "slug": "bogstavpuslespil-normal-ting-der-flyver-72d1",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-ting-der-flyver-db30",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "things_that_fly",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-ting-der-flyver-72d1"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-ting-der-flyver-db30"
   },
   {
-   "slug": "bogstavpuslespil-normal-toj-8906",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-toj-c402",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "clothing",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-toj-8906"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-toj-c402"
   },
   {
-   "slug": "bogstavpuslespil-normal-traeer-c48c",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-traeer-002a",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "tree",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-traeer-c48c"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-traeer-002a"
   },
   {
-   "slug": "bogstavpuslespil-normal-vaerktoj-2660",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-vaerktoj-d05b",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "tools",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-vaerktoj-2660"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-vaerktoj-d05b"
   },
   {
-   "slug": "bogstavpuslespil-normal-vejr-b885",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "weather",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-vejr-b885"
-  },
-  {
-   "slug": "bogstavpuslespil-normal-vinter-45d1",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "winter",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-vinter-45d1"
-  },
-  {
-   "slug": "bogstavpuslespil-normal-zoodyr-8a0b",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "matematikpuslespil-addition-zoodyr-75a9",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "zoo_animals",
-   "level": "2-klasse",
-   "deck": "bogstavpuslespil-normal-zoodyr-8a0b"
+   "level": "1-klasse",
+   "deck": "matematikpuslespil-addition-zoodyr-75a9"
   }
  ]
 }

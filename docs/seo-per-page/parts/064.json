@@ -2,691 +2,394 @@
  "part": 64,
  "locale": "de",
  "classes": [
-  "matching::letter",
-  "addition::image-number"
+  "word-scramble::easy"
  ],
  "splitOf": null,
- "count": 85,
+ "count": 48,
  "pages": [
   {
-   "slug": "zuordnung-buchstaben-accessoires-e173",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "accessories",
+   "slug": "buchstabensalat-4-juli",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "4th_of_july",
    "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-accessoires-e173"
+   "deck": "buchstabensalat-leicht-4-juli-13e1"
   },
   {
-   "slug": "zuordnung-buchstaben-aktivitaten-f211",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "buchstabensalat-accessoires",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "accessories",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-accessoires-8ee3"
+  },
+  {
+   "slug": "buchstabensalat-aktivitaten",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "activities",
    "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-aktivitaten-f211"
+   "deck": "buchstabensalat-leicht-aktivitaten-daa3"
   },
   {
-   "slug": "zuordnung-buchstaben-backerei-ad9b",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "buchstabensalat-backerei",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "bakery",
    "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-backerei-ad9b"
+   "deck": "buchstabensalat-leicht-backerei-cd9e"
   },
   {
-   "slug": "zuordnung-buchstaben-bauernhoftiere-b6d6",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "buchstabensalat-bauernhoftiere",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "farm_animals",
    "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-bauernhoftiere-b6d6"
+   "deck": "buchstabensalat-leicht-bauernhoftiere-e682"
   },
   {
-   "slug": "zuordnung-buchstaben-berufe-ad67",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "occupations",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-berufe-ad67"
-  },
-  {
-   "slug": "zuordnung-buchstaben-camping-6717",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "camping",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-camping-6717"
-  },
-  {
-   "slug": "zuordnung-buchstaben-desserts-und-sussigkeiten-d966",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "desserts_and_sweets",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-desserts-und-sussigkeiten-d966"
-  },
-  {
-   "slug": "zuordnung-buchstaben-dinge-die-fliegen-db06",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "things_that_fly",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-dinge-die-fliegen-db06"
-  },
-  {
-   "slug": "zuordnung-buchstaben-emotionen-f949",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "emotions",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-emotionen-f949"
-  },
-  {
-   "slug": "zuordnung-buchstaben-erntedankfest-4d60",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "thanksgivinng",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-erntedankfest-4d60"
-  },
-  {
-   "slug": "zuordnung-buchstaben-fahrzeuge-a63f",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "vehicles",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-fahrzeuge-a63f"
-  },
-  {
-   "slug": "zuordnung-buchstaben-farben-8496",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "colors",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-farben-8496"
-  },
-  {
-   "slug": "zuordnung-buchstaben-formen-bebe",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "shapes",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-formen-bebe"
-  },
-  {
-   "slug": "zuordnung-buchstaben-fruchte-6a45",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "fruits",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-fruchte-6a45"
-  },
-  {
-   "slug": "zuordnung-buchstaben-fruhling-b9c0",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "spring",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-fruhling-b9c0"
-  },
-  {
-   "slug": "zuordnung-buchstaben-fruhstuck-1415",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "breakfast",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-fruhstuck-1415"
-  },
-  {
-   "slug": "zuordnung-buchstaben-gemuse-01a1",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "vegetables",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-gemuse-01a1"
-  },
-  {
-   "slug": "zuordnung-buchstaben-haustiere-c6d3",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "pets",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-haustiere-c6d3"
-  },
-  {
-   "slug": "zuordnung-buchstaben-im-supermarkt-3649",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "at_the_supermarket",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-im-supermarkt-3649"
-  },
-  {
-   "slug": "zuordnung-buchstaben-insekten-und-kafer-ec03",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "insects_and_bugs",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-insekten-und-kafer-ec03"
-  },
-  {
-   "slug": "zuordnung-buchstaben-klassenzimmer-d29b",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "classroom",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-klassenzimmer-d29b"
-  },
-  {
-   "slug": "zuordnung-buchstaben-kleidung-6da7",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "clothing",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-kleidung-6da7"
-  },
-  {
-   "slug": "zuordnung-buchstaben-korperteile-cb93",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "body_parts",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-korperteile-cb93"
-  },
-  {
-   "slug": "zuordnung-buchstaben-krankenhaus-7d44",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "hospital",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-krankenhaus-7d44"
-  },
-  {
-   "slug": "zuordnung-buchstaben-kuchenwerkzeuge-50fa",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "kitchen_tools",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-kuchenwerkzeuge-50fa"
-  },
-  {
-   "slug": "zuordnung-buchstaben-meeresleben-bb34",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "ocean_life",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-meeresleben-bb34"
-  },
-  {
-   "slug": "zuordnung-buchstaben-mobel-defc",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "furniture",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-mobel-defc"
-  },
-  {
-   "slug": "zuordnung-buchstaben-musik-84f3",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "music",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-musik-84f3"
-  },
-  {
-   "slug": "zuordnung-buchstaben-ostern-666c",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "easter",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-ostern-666c"
-  },
-  {
-   "slug": "zuordnung-buchstaben-postamt-14ee",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "post_office",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-postamt-14ee"
-  },
-  {
-   "slug": "zuordnung-buchstaben-rund-ums-haus-e1d1",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "around_the_house",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-rund-ums-haus-e1d1"
-  },
-  {
-   "slug": "zuordnung-buchstaben-sommer-1ee9",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "summer",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-sommer-1ee9"
-  },
-  {
-   "slug": "zuordnung-buchstaben-spielzeug-3a6a",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "toys",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-spielzeug-3a6a"
-  },
-  {
-   "slug": "zuordnung-buchstaben-strand-8c02",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "beach",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-strand-8c02"
-  },
-  {
-   "slug": "zuordnung-buchstaben-tiere-aa36",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "animals",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-tiere-aa36"
-  },
-  {
-   "slug": "zuordnung-buchstaben-vogel-06a8",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "birds",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-vogel-06a8"
-  },
-  {
-   "slug": "zuordnung-buchstaben-vogel-2-7810",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "birds_2",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-vogel-2-7810"
-  },
-  {
-   "slug": "zuordnung-buchstaben-waldtiere-3a07",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "forest_creatures",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-waldtiere-3a07"
-  },
-  {
-   "slug": "zuordnung-buchstaben-weihnachten-a966",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "christmas",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-weihnachten-a966"
-  },
-  {
-   "slug": "zuordnung-buchstaben-weltraum-cfa3",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "space",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-weltraum-cfa3"
-  },
-  {
-   "slug": "zuordnung-buchstaben-werkzeuge-2021",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "tools",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-werkzeuge-2021"
-  },
-  {
-   "slug": "zuordnung-buchstaben-wetter-2705",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "weather",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-wetter-2705"
-  },
-  {
-   "slug": "zuordnung-buchstaben-winter-8a91",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "winter",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-winter-8a91"
-  },
-  {
-   "slug": "zuordnung-buchstaben-zootiere-8d5b",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "zoo_animals",
-   "level": "1-klasse",
-   "deck": "zuordnung-buchstaben-zootiere-8d5b"
-  },
-  {
-   "slug": "addition-bild-zahl-accessoires-bec3",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "accessories",
-   "level": "1-klasse",
-   "deck": "addition-bild-zahl-accessoires-bec3"
-  },
-  {
-   "slug": "addition-bild-zahl-backerei-3aa9",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "bakery",
-   "level": "1-klasse",
-   "deck": "addition-bild-zahl-backerei-3aa9"
-  },
-  {
-   "slug": "addition-bild-zahl-bauernhoftiere-f029",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "farm_animals",
-   "level": "1-klasse",
-   "deck": "addition-bild-zahl-bauernhoftiere-f029"
-  },
-  {
-   "slug": "addition-bild-zahl-baume-69b6",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-baume",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "tree",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-baume-69b6"
+   "deck": "buchstabensalat-leicht-baume-5d24"
   },
   {
-   "slug": "addition-bild-zahl-berufe-d876",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-berufe",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "occupations",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-berufe-d876"
+   "deck": "buchstabensalat-leicht-berufe-6763"
   },
   {
-   "slug": "addition-bild-zahl-blumen-cb07",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-blumen",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "flowers",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-blumen-cb07"
+   "deck": "buchstabensalat-leicht-blumen-66b8"
   },
   {
-   "slug": "addition-bild-zahl-camping-a14a",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-camping",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "camping",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-camping-a14a"
+   "deck": "buchstabensalat-leicht-camping-e717"
   },
   {
-   "slug": "addition-bild-zahl-desserts-und-sussigkeiten-145e",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-desserts-und-sussigkeiten",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "desserts_and_sweets",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-desserts-und-sussigkeiten-145e"
+   "deck": "buchstabensalat-leicht-desserts-und-sussigkeiten-f91e"
   },
   {
-   "slug": "addition-bild-zahl-dinge-die-fliegen-0062",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-dinge-die-fliegen",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "things_that_fly",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-dinge-die-fliegen-0062"
+   "deck": "buchstabensalat-leicht-dinge-die-fliegen-95ea"
   },
   {
-   "slug": "addition-bild-zahl-dinosaurier-214b",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "dinosaurs",
+   "slug": "buchstabensalat-emotionen",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "emotions",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-dinosaurier-214b"
+   "deck": "buchstabensalat-leicht-emotionen-d786"
   },
   {
-   "slug": "addition-bild-zahl-erntedankfest-6267",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-erntedankfest",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "thanksgivinng",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-erntedankfest-6267"
+   "deck": "buchstabensalat-leicht-erntedankfest-1b36"
   },
   {
-   "slug": "addition-bild-zahl-fahrzeuge-f670",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-fahrzeuge",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "vehicles",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-fahrzeuge-f670"
+   "deck": "buchstabensalat-leicht-fahrzeuge-0b0d"
   },
   {
-   "slug": "addition-bild-zahl-formen-0fe3",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-farben",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "colors",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-farben-f54e"
+  },
+  {
+   "slug": "buchstabensalat-formen",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "shapes",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-formen-0fe3"
+   "deck": "buchstabensalat-leicht-formen-fcbc"
   },
   {
-   "slug": "addition-bild-zahl-fruchte-d6fa",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-fruchte",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "fruits",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-fruchte-d6fa"
+   "deck": "buchstabensalat-leicht-fruchte-92c6"
   },
   {
-   "slug": "addition-bild-zahl-fruhstuck-f2e3",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-fruhling",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "spring",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-fruhling-d2ce"
+  },
+  {
+   "slug": "buchstabensalat-fruhstuck",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "breakfast",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-fruhstuck-f2e3"
+   "deck": "buchstabensalat-leicht-fruhstuck-56da"
   },
   {
-   "slug": "addition-bild-zahl-gemuse-24db",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-gemuse",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "vegetables",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-gemuse-24db"
+   "deck": "buchstabensalat-leicht-gemuse-2a35"
   },
   {
-   "slug": "addition-bild-zahl-haustiere-7610",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-haustiere",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "pets",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-haustiere-7610"
+   "deck": "buchstabensalat-leicht-haustiere-b10a"
   },
   {
-   "slug": "addition-bild-zahl-im-supermarkt-0327",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-im-supermarkt",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "at_the_supermarket",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-im-supermarkt-0327"
+   "deck": "buchstabensalat-leicht-im-supermarkt-a5ec"
   },
   {
-   "slug": "addition-bild-zahl-insekten-und-kafer-e821",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-insekten-und-kafer",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "insects_and_bugs",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-insekten-und-kafer-e821"
+   "deck": "buchstabensalat-leicht-insekten-und-kafer-ca46"
   },
   {
-   "slug": "addition-bild-zahl-klassenzimmer-c60b",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-klassenzimmer",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "classroom",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-klassenzimmer-c60b"
+   "deck": "buchstabensalat-leicht-klassenzimmer-06d5"
   },
   {
-   "slug": "addition-bild-zahl-kleidung-b845",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-kleidung",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "clothing",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-kleidung-b845"
+   "deck": "buchstabensalat-leicht-kleidung-a5d4"
   },
   {
-   "slug": "addition-bild-zahl-krankenhaus-c89f",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-korperteile",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "body_parts",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-korperteile-b870"
+  },
+  {
+   "slug": "buchstabensalat-krankenhaus",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "hospital",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-krankenhaus-c89f"
+   "deck": "buchstabensalat-leicht-krankenhaus-54cd"
   },
   {
-   "slug": "addition-bild-zahl-kuchenwerkzeuge-90cb",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-kuchenwerkzeuge",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "kitchen_tools",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-kuchenwerkzeuge-90cb"
+   "deck": "buchstabensalat-leicht-kuchenwerkzeuge-5203"
   },
   {
-   "slug": "addition-bild-zahl-meeresleben-2175",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-meeresleben",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "ocean_life",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-meeresleben-2175"
+   "deck": "buchstabensalat-leicht-meeresleben-5e14"
   },
   {
-   "slug": "addition-bild-zahl-mobel-6e35",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-mobel",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "furniture",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-mobel-6e35"
+   "deck": "buchstabensalat-leicht-mobel-2c06"
   },
   {
-   "slug": "addition-bild-zahl-musik-23f2",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-musik",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "music",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-musik-23f2"
+   "deck": "buchstabensalat-leicht-musik-047c"
   },
   {
-   "slug": "addition-bild-zahl-ostern-8217",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-ostern",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "easter",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-ostern-8217"
+   "deck": "buchstabensalat-leicht-ostern-fdb9"
   },
   {
-   "slug": "addition-bild-zahl-postamt-5ba3",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-postamt",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "post_office",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-postamt-5ba3"
+   "deck": "buchstabensalat-leicht-postamt-639c"
   },
   {
-   "slug": "addition-bild-zahl-reptilien-und-amphibien-4236",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-reptilien-und-amphibien",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "reptiles_and_amphibians",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-reptilien-und-amphibien-4236"
+   "deck": "buchstabensalat-leicht-reptilien-und-amphibien-2aa9"
   },
   {
-   "slug": "addition-bild-zahl-rund-ums-haus-8517",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-rund-ums-haus",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "around_the_house",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-rund-ums-haus-8517"
+   "deck": "buchstabensalat-leicht-rund-ums-haus-43d6"
   },
   {
-   "slug": "addition-bild-zahl-spielzeug-6abe",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-sommer",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "summer",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-sommer-9086"
+  },
+  {
+   "slug": "buchstabensalat-spielzeug",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "toys",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-spielzeug-6abe"
+   "deck": "buchstabensalat-leicht-spielzeug-e480"
   },
   {
-   "slug": "addition-bild-zahl-strand-08e7",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-strand",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "beach",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-strand-08e7"
+   "deck": "buchstabensalat-leicht-strand-54c0"
   },
   {
-   "slug": "addition-bild-zahl-tiere-716a",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-tiere",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "animals",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-tiere-716a"
+   "deck": "buchstabensalat-leicht-tiere-cba6"
   },
   {
-   "slug": "addition-bild-zahl-verschiedenes-dff6",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "miscellaneous",
-   "level": "1-klasse",
-   "deck": "addition-bild-zahl-verschiedenes-dff6"
-  },
-  {
-   "slug": "addition-bild-zahl-vogel-2-684f",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "birds_2",
-   "level": "1-klasse",
-   "deck": "addition-bild-zahl-vogel-2-684f"
-  },
-  {
-   "slug": "addition-bild-zahl-vogel-3c06",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-vogel",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "birds",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-vogel-3c06"
+   "deck": "buchstabensalat-leicht-vogel-6217"
   },
   {
-   "slug": "addition-bild-zahl-waldtiere-261c",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-vogel-2",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-vogel-2-8621"
+  },
+  {
+   "slug": "buchstabensalat-waldtiere",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "forest_creatures",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-waldtiere-261c"
+   "deck": "buchstabensalat-leicht-waldtiere-a857"
   },
   {
-   "slug": "addition-bild-zahl-weihnachten-7579",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-weihnachten",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "christmas",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-weihnachten-7579"
+   "deck": "buchstabensalat-leicht-weihnachten-ad2f"
   },
   {
-   "slug": "addition-bild-zahl-weltraum-2146",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-weltraum",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "space",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-weltraum-2146"
+   "deck": "buchstabensalat-leicht-weltraum-47c6"
   },
   {
-   "slug": "addition-bild-zahl-werkzeuge-f50b",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-werkzeuge",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "tools",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-werkzeuge-f50b"
+   "deck": "buchstabensalat-leicht-werkzeuge-7995"
   },
   {
-   "slug": "addition-bild-zahl-zootiere-0797",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "buchstabensalat-wetter",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "weather",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-wetter-c82a"
+  },
+  {
+   "slug": "buchstabensalat-winter",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "winter",
+   "level": "1-klasse",
+   "deck": "buchstabensalat-leicht-winter-b1ff"
+  },
+  {
+   "slug": "buchstabensalat-zootiere",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "zoo_animals",
    "level": "1-klasse",
-   "deck": "addition-bild-zahl-zootiere-0797"
+   "deck": "buchstabensalat-leicht-zootiere-1678"
   }
  ]
 }

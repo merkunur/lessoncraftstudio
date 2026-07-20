@@ -2,747 +2,763 @@
  "part": 340,
  "locale": "fi",
  "classes": [
-  "word-scramble::easy",
-  "word-scramble::normal"
+  "treasure-hunt::cardinal-arrows",
+  "treasure-hunt::compass"
  ],
  "splitOf": null,
- "count": 92,
+ "count": 94,
  "pages": [
   {
-   "slug": "kirjainsekoitus-helppo-aamiainen-6cfb",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-aamiainen-1581",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "breakfast",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-aamiainen-6cfb"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-aamiainen-1581"
   },
   {
-   "slug": "kirjainsekoitus-helppo-ajoneuvot-e994",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-ajoneuvot-9457",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "vehicles",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-ajoneuvot-e994"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-ajoneuvot-9457"
   },
   {
-   "slug": "kirjainsekoitus-helppo-aktiviteetit-3563",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-aktiviteetit-9ec1",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "activities",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-aktiviteetit-3563"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-aktiviteetit-9ec1"
   },
   {
-   "slug": "kirjainsekoitus-helppo-ammatit-4275",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-ammatit-28f6",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "occupations",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-ammatit-4275"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-ammatit-28f6"
   },
   {
-   "slug": "kirjainsekoitus-helppo-asusteet-b5a5",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-asusteet-cbfd",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "accessories",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-asusteet-b5a5"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-asusteet-cbfd"
   },
   {
-   "slug": "kirjainsekoitus-helppo-avaruus-8160",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-avaruus-3502",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "space",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-avaruus-8160"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-avaruus-3502"
   },
   {
-   "slug": "kirjainsekoitus-helppo-elaimet-8154",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-dinosaurukset-3c99",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "dinosaurs",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-dinosaurukset-3c99"
+  },
+  {
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-elaimet",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "animals",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-elaimet-8154"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-elaimet"
   },
   {
-   "slug": "kirjainsekoitus-helppo-elaintarhan-elaimet-6560",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-elaintarhan-elaimet-6bf5",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "zoo_animals",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-elaintarhan-elaimet-6560"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-elaintarhan-elaimet-6bf5"
   },
   {
-   "slug": "kirjainsekoitus-helppo-hedelmat-20e9",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-hedelmat-b7af",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "fruits",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-hedelmat-20e9"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-hedelmat-b7af"
   },
   {
-   "slug": "kirjainsekoitus-helppo-huonekalut-1ef0",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-huonekalut-d934",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "furniture",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-huonekalut-1ef0"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-huonekalut-d934"
   },
   {
-   "slug": "kirjainsekoitus-helppo-hyonteiset-ja-otokat-f05d",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-hyonteiset-ja-otokat-e0ed",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "insects_and_bugs",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-hyonteiset-ja-otokat-f05d"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-hyonteiset-ja-otokat-e0ed"
   },
   {
-   "slug": "kirjainsekoitus-helppo-jalkiruoat-ja-makeiset-ae48",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-jalkiruoat-ja-makeiset-1d20",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "desserts_and_sweets",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-jalkiruoat-ja-makeiset-ae48"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-jalkiruoat-ja-makeiset-1d20"
   },
   {
-   "slug": "kirjainsekoitus-helppo-joulu-d8b4",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-joulu-a99a",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "christmas",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-joulu-d8b4"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-joulu-a99a"
   },
   {
-   "slug": "kirjainsekoitus-helppo-keittiovalineet-e2f7",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-keittiovalineet-1867",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "kitchen_tools",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-keittiovalineet-e2f7"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-keittiovalineet-1867"
   },
   {
-   "slug": "kirjainsekoitus-helppo-kesa-7aff",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-kesa-6a0c",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "summer",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-kesa-7aff"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-kesa-6a0c"
   },
   {
-   "slug": "kirjainsekoitus-helppo-kevat-e661",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-kevat-e976",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "spring",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-kevat-e661"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-kevat-e976"
   },
   {
-   "slug": "kirjainsekoitus-helppo-kiitospaiva-2401",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-kiitospaiva-3f42",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "thanksgivinng",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-kiitospaiva-2401"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-kiitospaiva-3f42"
   },
   {
-   "slug": "kirjainsekoitus-helppo-kodin-ymparilla-baa3",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-kodin-ymparilla-04d1",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "around_the_house",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-kodin-ymparilla-baa3"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-kodin-ymparilla-04d1"
   },
   {
-   "slug": "kirjainsekoitus-helppo-kukat-6da3",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-kukat-f957",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "flowers",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-kukat-6da3"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-kukat-f957"
   },
   {
-   "slug": "kirjainsekoitus-helppo-leipomo-0641",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-leipomo-14a2",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "bakery",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-leipomo-0641"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-leipomo-14a2"
   },
   {
-   "slug": "kirjainsekoitus-helppo-leirielama-4e5d",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-leirielama-c175",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "camping",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-leirielama-4e5d"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-leirielama-c175"
   },
   {
-   "slug": "kirjainsekoitus-helppo-lelut-a7d6",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-lelut-fa0b",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "toys",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-lelut-a7d6"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-lelut-fa0b"
   },
   {
-   "slug": "kirjainsekoitus-helppo-lemmikit-0000",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-lemmikit-c0c0",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "pets",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-lemmikit-0000"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-lemmikit-c0c0"
   },
   {
-   "slug": "kirjainsekoitus-helppo-lentavat-asiat-78ad",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-lentavat-asiat-eb6e",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "things_that_fly",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-lentavat-asiat-78ad"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-lentavat-asiat-eb6e"
   },
   {
-   "slug": "kirjainsekoitus-helppo-linnut-ee23",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "birds",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-linnut-ee23"
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-linnut-2-a609",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "birds_2",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-linnut-2-a609"
   },
   {
-   "slug": "kirjainsekoitus-helppo-luokkahuone-02b0",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-luokkahuone-d419",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "classroom",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-luokkahuone-02b0"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-luokkahuone-d419"
   },
   {
-   "slug": "kirjainsekoitus-helppo-maatilan-elaimet-b80e",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-maatilan-elaimet-00ab",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "farm_animals",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-maatilan-elaimet-b80e"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-maatilan-elaimet-00ab"
   },
   {
-   "slug": "kirjainsekoitus-helppo-matelijat-ja-sammakkoelaimet-0939",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-matelijat-ja-sammakkoelaimet-912e",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "reptiles_and_amphibians",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-matelijat-ja-sammakkoelaimet-0939"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-matelijat-ja-sammakkoelaimet-912e"
   },
   {
-   "slug": "kirjainsekoitus-helppo-merielama-7159",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-merielama-cec3",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "ocean_life",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-merielama-7159"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-merielama-cec3"
   },
   {
-   "slug": "kirjainsekoitus-helppo-metsan-elaimet-e4a9",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-metsan-elaimet-2c81",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "forest_creatures",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-metsan-elaimet-e4a9"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-metsan-elaimet-2c81"
   },
   {
-   "slug": "kirjainsekoitus-helppo-muodot-97bf",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-muodot-b2d4",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "shapes",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-muodot-97bf"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-muodot-b2d4"
   },
   {
-   "slug": "kirjainsekoitus-helppo-musiikki-332a",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-musiikki-eee9",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "music",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-musiikki-332a"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-musiikki-eee9"
   },
   {
-   "slug": "kirjainsekoitus-helppo-paasiainen-9a27",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-paasiainen-dd45",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "easter",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-paasiainen-9a27"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-paasiainen-dd45"
   },
   {
-   "slug": "kirjainsekoitus-helppo-postitoimisto-0990",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-postitoimisto-7afe",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "post_office",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-postitoimisto-0990"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-postitoimisto-7afe"
   },
   {
-   "slug": "kirjainsekoitus-helppo-puut-31c0",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-puut-0213",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "tree",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-puut-31c0"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-puut-0213"
   },
   {
-   "slug": "kirjainsekoitus-helppo-ranta-fbbf",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-ranta-7f13",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "beach",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-ranta-fbbf"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-ranta-7f13"
   },
   {
-   "slug": "kirjainsekoitus-helppo-ruokakaupassa-0c7d",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-ruokakaupassa-b24e",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "at_the_supermarket",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-ruokakaupassa-0c7d"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-ruokakaupassa-b24e"
   },
   {
-   "slug": "kirjainsekoitus-helppo-ruumiinosat-010e",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-ruumiinosat-ed61",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "body_parts",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-ruumiinosat-010e"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-ruumiinosat-ed61"
   },
   {
-   "slug": "kirjainsekoitus-helppo-saa-c8a4",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-saa-9018",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "weather",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-saa-c8a4"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-saa-9018"
   },
   {
-   "slug": "kirjainsekoitus-helppo-sairaala-8019",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-sairaala-9cfe",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "hospital",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-sairaala-8019"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-sairaala-9cfe"
   },
   {
-   "slug": "kirjainsekoitus-helppo-talvi-098a",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-talvi-fdfe",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "winter",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-talvi-098a"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-talvi-fdfe"
   },
   {
-   "slug": "kirjainsekoitus-helppo-tunteet-a4e1",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-tunteet-5f6a",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "emotions",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-tunteet-a4e1"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-tunteet-5f6a"
   },
   {
-   "slug": "kirjainsekoitus-helppo-tyokalut-c81a",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-tyokalut-12b3",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "tools",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-tyokalut-c81a"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-tyokalut-12b3"
   },
   {
-   "slug": "kirjainsekoitus-helppo-vaatteet-abfc",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-vaatteet-6c6b",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "clothing",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-vaatteet-abfc"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-vaatteet-6c6b"
   },
   {
-   "slug": "kirjainsekoitus-helppo-varit-814f",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-varit-2b25",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "colors",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-varit-814f"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-varit-2b25"
   },
   {
-   "slug": "kirjainsekoitus-helppo-vihannekset-1e78",
-   "type": "word-scramble",
-   "mode": "easy",
+   "slug": "aarteenetsinta-ylos-alas-vasen-oikea-vihannekset-7828",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "vegetables",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-helppo-vihannekset-1e78"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ylos-alas-vasen-oikea-vihannekset-7828"
   },
   {
-   "slug": "kirjainsekoitus-normaali-aamiainen-87d7",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-aamiainen-d1e1",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "breakfast",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-aamiainen-87d7"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-aamiainen-d1e1"
   },
   {
-   "slug": "kirjainsekoitus-normaali-ajoneuvot-074f",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-ajoneuvot-b3a8",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "vehicles",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-ajoneuvot-074f"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-ajoneuvot-b3a8"
   },
   {
-   "slug": "kirjainsekoitus-normaali-aktiviteetit-135a",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-aktiviteetit-c1e3",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "activities",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-aktiviteetit-135a"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-aktiviteetit-c1e3"
   },
   {
-   "slug": "kirjainsekoitus-normaali-ammatit-3a16",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-ammatit-46ac",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "occupations",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-ammatit-3a16"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-ammatit-46ac"
   },
   {
-   "slug": "kirjainsekoitus-normaali-asusteet-a397",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-asusteet-2290",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "accessories",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-asusteet-a397"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-asusteet-2290"
   },
   {
-   "slug": "kirjainsekoitus-normaali-avaruus-72c9",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-avaruus-cfbb",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "space",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-avaruus-72c9"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-avaruus-cfbb"
   },
   {
-   "slug": "kirjainsekoitus-normaali-elaimet-826f",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-dinosaurukset-7865",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "dinosaurs",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-dinosaurukset-7865"
+  },
+  {
+   "slug": "aarteenetsinta-ilmansuunnat-elaimet-ff9d",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "animals",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-elaimet-826f"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-elaimet-ff9d"
   },
   {
-   "slug": "kirjainsekoitus-normaali-elaintarhan-elaimet-a32e",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-elaintarhan-elaimet-7102",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "zoo_animals",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-elaintarhan-elaimet-a32e"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-elaintarhan-elaimet-7102"
   },
   {
-   "slug": "kirjainsekoitus-normaali-hedelmat-6d52",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-hedelmat-5083",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "fruits",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-hedelmat-6d52"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-hedelmat-5083"
   },
   {
-   "slug": "kirjainsekoitus-normaali-huonekalut-5b5e",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-huonekalut-edd9",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "furniture",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-huonekalut-5b5e"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-huonekalut-edd9"
   },
   {
-   "slug": "kirjainsekoitus-normaali-hyonteiset-ja-otokat-b786",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-hyonteiset-ja-otokat-5ede",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "insects_and_bugs",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-hyonteiset-ja-otokat-b786"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-hyonteiset-ja-otokat-5ede"
   },
   {
-   "slug": "kirjainsekoitus-normaali-jalkiruoat-ja-makeiset-7605",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-jalkiruoat-ja-makeiset-294d",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "desserts_and_sweets",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-jalkiruoat-ja-makeiset-7605"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-jalkiruoat-ja-makeiset-294d"
   },
   {
-   "slug": "kirjainsekoitus-normaali-joulu-b490",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-joulu-eb7f",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "christmas",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-joulu-b490"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-joulu-eb7f"
   },
   {
-   "slug": "kirjainsekoitus-normaali-keittiovalineet-00b7",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-keittiovalineet-fa81",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "kitchen_tools",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-keittiovalineet-00b7"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-keittiovalineet-fa81"
   },
   {
-   "slug": "kirjainsekoitus-normaali-kesa-fb31",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-kesa-ddb3",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "summer",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-kesa-fb31"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-kesa-ddb3"
   },
   {
-   "slug": "kirjainsekoitus-normaali-kevat-6cbc",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-kevat-a03b",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "spring",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-kevat-6cbc"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-kevat-a03b"
   },
   {
-   "slug": "kirjainsekoitus-normaali-kiitospaiva-a37c",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-kiitospaiva-c3fb",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "thanksgivinng",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-kiitospaiva-a37c"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-kiitospaiva-c3fb"
   },
   {
-   "slug": "kirjainsekoitus-normaali-kodin-ymparilla-5be9",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-kodin-ymparilla-9453",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "around_the_house",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-kodin-ymparilla-5be9"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-kodin-ymparilla-9453"
   },
   {
-   "slug": "kirjainsekoitus-normaali-kukat-547c",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-kukat-c095",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "flowers",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-kukat-547c"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-kukat-c095"
   },
   {
-   "slug": "kirjainsekoitus-normaali-leipomo-f0f1",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-leipomo-916a",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "bakery",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-leipomo-f0f1"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-leipomo-916a"
   },
   {
-   "slug": "kirjainsekoitus-normaali-leirielama-ec49",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-leirielama-987d",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "camping",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-leirielama-ec49"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-leirielama-987d"
   },
   {
-   "slug": "kirjainsekoitus-normaali-lelut-e6c6",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-lelut-e1d6",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "toys",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-lelut-e6c6"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-lelut-e1d6"
   },
   {
-   "slug": "kirjainsekoitus-normaali-lemmikit-c237",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-lemmikit-b15e",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "pets",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-lemmikit-c237"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-lemmikit-b15e"
   },
   {
-   "slug": "kirjainsekoitus-normaali-lentavat-asiat-a5e1",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-lentavat-asiat-0ac2",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "things_that_fly",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-lentavat-asiat-a5e1"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-lentavat-asiat-0ac2"
   },
   {
-   "slug": "kirjainsekoitus-normaali-linnut-0cc0",
-   "type": "word-scramble",
-   "mode": "normal",
-   "theme": "birds",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-linnut-0cc0"
+   "slug": "aarteenetsinta-ilmansuunnat-linnut-2-e8b4",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "birds_2",
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-linnut-2-e8b4"
   },
   {
-   "slug": "kirjainsekoitus-normaali-luokkahuone-e07d",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-luokkahuone-d53c",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "classroom",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-luokkahuone-e07d"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-luokkahuone-d53c"
   },
   {
-   "slug": "kirjainsekoitus-normaali-maatilan-elaimet-ec31",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-maatilan-elaimet-4002",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "farm_animals",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-maatilan-elaimet-ec31"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-maatilan-elaimet-4002"
   },
   {
-   "slug": "kirjainsekoitus-normaali-matelijat-ja-sammakkoelaimet-02ea",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-matelijat-ja-sammakkoelaimet-8127",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "reptiles_and_amphibians",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-matelijat-ja-sammakkoelaimet-02ea"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-matelijat-ja-sammakkoelaimet-8127"
   },
   {
-   "slug": "kirjainsekoitus-normaali-merielama-1e87",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-merielama-d200",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "ocean_life",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-merielama-1e87"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-merielama-d200"
   },
   {
-   "slug": "kirjainsekoitus-normaali-metsan-elaimet-839b",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-metsan-elaimet-395b",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "forest_creatures",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-metsan-elaimet-839b"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-metsan-elaimet-395b"
   },
   {
-   "slug": "kirjainsekoitus-normaali-muodot-40e0",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-muodot-9788",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "shapes",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-muodot-40e0"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-muodot-9788"
   },
   {
-   "slug": "kirjainsekoitus-normaali-musiikki-6300",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-musiikki-7196",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "music",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-musiikki-6300"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-musiikki-7196"
   },
   {
-   "slug": "kirjainsekoitus-normaali-paasiainen-fa30",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-paasiainen-cd2b",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "easter",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-paasiainen-fa30"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-paasiainen-cd2b"
   },
   {
-   "slug": "kirjainsekoitus-normaali-postitoimisto-4e9a",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-postitoimisto-4f61",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "post_office",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-postitoimisto-4e9a"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-postitoimisto-4f61"
   },
   {
-   "slug": "kirjainsekoitus-normaali-puut-34c5",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-puut-512a",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "tree",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-puut-34c5"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-puut-512a"
   },
   {
-   "slug": "kirjainsekoitus-normaali-ranta-31ca",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-ranta-978e",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "beach",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-ranta-31ca"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-ranta-978e"
   },
   {
-   "slug": "kirjainsekoitus-normaali-ruokakaupassa-d8c3",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-ruokakaupassa-d5f0",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "at_the_supermarket",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-ruokakaupassa-d8c3"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-ruokakaupassa-d5f0"
   },
   {
-   "slug": "kirjainsekoitus-normaali-ruumiinosat-db4e",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-ruumiinosat-30f3",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "body_parts",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-ruumiinosat-db4e"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-ruumiinosat-30f3"
   },
   {
-   "slug": "kirjainsekoitus-normaali-saa-43dd",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-saa-23b9",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "weather",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-saa-43dd"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-saa-23b9"
   },
   {
-   "slug": "kirjainsekoitus-normaali-sairaala-ba58",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-sairaala-0f40",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "hospital",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-sairaala-ba58"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-sairaala-0f40"
   },
   {
-   "slug": "kirjainsekoitus-normaali-talvi-dae4",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-talvi-0d7f",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "winter",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-talvi-dae4"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-talvi-0d7f"
   },
   {
-   "slug": "kirjainsekoitus-normaali-tunteet-b40a",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-tunteet-72e5",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "emotions",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-tunteet-b40a"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-tunteet-72e5"
   },
   {
-   "slug": "kirjainsekoitus-normaali-tyokalut-8073",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-tyokalut-2238",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "tools",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-tyokalut-8073"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-tyokalut-2238"
   },
   {
-   "slug": "kirjainsekoitus-normaali-vaatteet-97af",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-vaatteet-5aa7",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "clothing",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-vaatteet-97af"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-vaatteet-5aa7"
   },
   {
-   "slug": "kirjainsekoitus-normaali-varit-e5c2",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-varit-7eff",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "colors",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-varit-e5c2"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-varit-7eff"
   },
   {
-   "slug": "kirjainsekoitus-normaali-vihannekset-cb28",
-   "type": "word-scramble",
-   "mode": "normal",
+   "slug": "aarteenetsinta-ilmansuunnat-vihannekset-5161",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "vegetables",
-   "level": "1-luokka",
-   "deck": "kirjainsekoitus-normaali-vihannekset-cb28"
+   "level": "esikoulu",
+   "deck": "aarteenetsinta-ilmansuunnat-vihannekset-5161"
   }
  ]
 }

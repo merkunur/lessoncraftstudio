@@ -2,667 +2,778 @@
  "part": 65,
  "locale": "de",
  "classes": [
-  "alphabet-train::letter-hint",
-  "big-small::orderAsc"
+  "wordsearch::null"
  ],
  "splitOf": null,
- "count": 82,
+ "count": 96,
  "pages": [
   {
-   "slug": "buchstabenzug-buchstaben-hilfe-accessoires-8499",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "accessories",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-accessoires-8499"
+   "slug": "englisch-wortsuche-4-juli-e956",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-4-juli-e956"
   },
   {
-   "slug": "buchstabenzug-buchstaben-hilfe-aktivitaten-b4d1",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "englisch-wortsuche-accessoires-1954",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "accessories",
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-accessoires-1954"
+  },
+  {
+   "slug": "englisch-wortsuche-aktivitaten-9413",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "activities",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-aktivitaten-b4d1"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-aktivitaten-9413"
   },
   {
-   "slug": "buchstabenzug-buchstaben-hilfe-bauernhoftiere-52e0",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "farm_animals",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-bauernhoftiere-52e0"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-baume-826c",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "tree",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-baume-826c"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-berufe-de40",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "occupations",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-berufe-de40"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-blumen-077d",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "flowers",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-blumen-077d"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-camping-005f",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "camping",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-camping-005f"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-desserts-und-sussigkeiten-138f",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "desserts_and_sweets",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-desserts-und-sussigkeiten-138f"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-dinge-die-fliegen-1af0",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "things_that_fly",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-dinge-die-fliegen-1af0"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-dinosaurier-fef7",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "dinosaurs",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-dinosaurier-fef7"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-emotionen-5270",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "emotions",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-emotionen-5270"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-erntedankfest-8b6e",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "thanksgivinng",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-erntedankfest-8b6e"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-fahrzeuge-59b9",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "vehicles",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-fahrzeuge-59b9"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-farben-9cdd",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "colors",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-farben-9cdd"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-formen-1b80",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "shapes",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-formen-1b80"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-fruchte-9998",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "fruits",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-fruchte-9998"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-fruhling-b1a5",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "spring",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-fruhling-b1a5"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-fruhstuck-9c8c",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "breakfast",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-fruhstuck-9c8c"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-gemuse-25d7",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "vegetables",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-gemuse-25d7"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-haustiere-272c",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "pets",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-haustiere-272c"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-im-supermarkt-56b1",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "at_the_supermarket",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-im-supermarkt-56b1"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-klassenzimmer-d66e",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "classroom",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-klassenzimmer-d66e"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-kleidung-b583",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "clothing",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-kleidung-b583"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-korperteile-ae39",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "body_parts",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-korperteile-ae39"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-krankenhaus-223d",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "hospital",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-krankenhaus-223d"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-kuchenwerkzeuge-c9ff",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "kitchen_tools",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-kuchenwerkzeuge-c9ff"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-meeresleben-4d83",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "ocean_life",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-meeresleben-4d83"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-musik-6fba",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "music",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-musik-6fba"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-ostern-459a",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "easter",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-ostern-459a"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-rund-ums-haus-16ce",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "around_the_house",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-rund-ums-haus-16ce"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-sommer-5d92",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "summer",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-sommer-5d92"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-spielzeug-b336",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "toys",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-spielzeug-b336"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-strand-0343",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "beach",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-strand-0343"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-tiere-d196",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "animals",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-tiere-d196"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-vogel-2-62ae",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "birds_2",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-vogel-2-62ae"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-waldtiere-8d45",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "forest_creatures",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-waldtiere-8d45"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-weihnachten-d4a0",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "christmas",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-weihnachten-d4a0"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-weltraum-94e2",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "space",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-weltraum-94e2"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-werkzeuge-d332",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "tools",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-werkzeuge-d332"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-winter-4f7b",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "winter",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-winter-4f7b"
-  },
-  {
-   "slug": "buchstabenzug-buchstaben-hilfe-zootiere-0406",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "zoo_animals",
-   "level": "vorschule",
-   "deck": "buchstabenzug-buchstaben-hilfe-zootiere-0406"
-  },
-  {
-   "slug": "gross-klein-aufsteigend-ordnen-accessoires-5d6d",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "accessories",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-accessoires-5d6d"
-  },
-  {
-   "slug": "gross-klein-aufsteigend-ordnen-backerei-9a3b",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-backerei-3b7a",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "bakery",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-backerei-9a3b"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-backerei-3b7a"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-bauernhoftiere-3718",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-bauernhoftiere-229e",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "farm_animals",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-bauernhoftiere-3718"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-bauernhoftiere-229e"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-baume-9808",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-baume-ce7d",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "tree",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-baume-9808"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-baume-ce7d"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-berufe-a7d6",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-berufe-de18",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "occupations",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-berufe-a7d6"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-berufe-de18"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-blumen-ee46",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-blumen-27ee",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "flowers",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-blumen-ee46"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-blumen-27ee"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-camping-a78c",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-camping-9164",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "camping",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-camping-a78c"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-camping-9164"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-desserts-und-sussigkeiten-313e",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-desserts-und-sussigkeiten-c68e",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "desserts_and_sweets",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-desserts-und-sussigkeiten-313e"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-desserts-und-sussigkeiten-c68e"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-dinge-die-fliegen-ef19",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-dinge-die-fliegen-44a0",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "things_that_fly",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-dinge-die-fliegen-ef19"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-dinge-die-fliegen-44a0"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-dinosaurier-d77b",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "dinosaurs",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-dinosaurier-d77b"
+   "slug": "englisch-wortsuche-emotionen-19fe",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "emotions",
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-emotionen-19fe"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-erntedankfest-6351",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-erntedankfest-2e39",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "thanksgivinng",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-erntedankfest-6351"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-erntedankfest-2e39"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-fahrzeuge-dc51",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-fahrzeuge-1042",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "vehicles",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-fahrzeuge-dc51"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-fahrzeuge-1042"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-formen-d247",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-farben-abad",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "colors",
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-farben-abad"
+  },
+  {
+   "slug": "englisch-wortsuche-formen-a8c4",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "shapes",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-formen-d247"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-formen-a8c4"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-fruchte-1790",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-fruchte-f319",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "fruits",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-fruchte-1790"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-fruchte-f319"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-fruhstuck-046f",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-fruhling-6465",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "spring",
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-fruhling-6465"
+  },
+  {
+   "slug": "englisch-wortsuche-fruhstuck-7fb6",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "breakfast",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-fruhstuck-046f"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-fruhstuck-7fb6"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-gemuse-8938",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-gemuse-1fd4",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "vegetables",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-gemuse-8938"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-gemuse-1fd4"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-haustiere-eb45",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-haustiere-0587",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "pets",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-haustiere-eb45"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-haustiere-0587"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-im-supermarkt-2fdb",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-im-supermarkt-ec95",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "at_the_supermarket",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-im-supermarkt-2fdb"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-im-supermarkt-ec95"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-insekten-und-kafer-11d9",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-insekten-und-kafer-ca25",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "insects_and_bugs",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-insekten-und-kafer-11d9"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-insekten-und-kafer-ca25"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-klassenzimmer-a877",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-klassenzimmer-1e8d",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "classroom",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-klassenzimmer-a877"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-klassenzimmer-1e8d"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-kleidung-80d7",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-kleidung-00fa",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "clothing",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-kleidung-80d7"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-kleidung-00fa"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-korperteile-6729",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-korperteile-af31",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "body_parts",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-korperteile-6729"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-korperteile-af31"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-krankenhaus-f831",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-krankenhaus-df88",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "hospital",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-krankenhaus-f831"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-krankenhaus-df88"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-kuchenwerkzeuge-c68f",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-kuchenwerkzeuge-57ba",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "kitchen_tools",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-kuchenwerkzeuge-c68f"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-kuchenwerkzeuge-57ba"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-meeresleben-cd62",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-meeresleben-f04e",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "ocean_life",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-meeresleben-cd62"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-meeresleben-f04e"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-mobel-d63c",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-mobel-d814",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "furniture",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-mobel-d63c"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-mobel-d814"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-musik-ff1d",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-musik-f35b",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "music",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-musik-ff1d"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-musik-f35b"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-ostern-5503",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-ostern-2f2d",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "easter",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-ostern-5503"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-ostern-2f2d"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-postamt-03c2",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-postamt-0a46",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "post_office",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-postamt-03c2"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-postamt-0a46"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-reptilien-und-amphibien-bc42",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-reptilien-und-amphibien-1ee2",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "reptiles_and_amphibians",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-reptilien-und-amphibien-bc42"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-reptilien-und-amphibien-1ee2"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-rund-ums-haus-2e2b",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-rund-ums-haus-1399",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "around_the_house",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-rund-ums-haus-2e2b"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-rund-ums-haus-1399"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-spielzeug-6aa7",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-sommer-87d0",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "summer",
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-sommer-87d0"
+  },
+  {
+   "slug": "englisch-wortsuche-spielzeug-17e5",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "toys",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-spielzeug-6aa7"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-spielzeug-17e5"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-strand-8eef",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-strand-e2d4",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "beach",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-strand-8eef"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-strand-e2d4"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-tiere-9e4e",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-tiere-b6d3",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "animals",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-tiere-9e4e"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-tiere-b6d3"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-vogel-2-012d",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-vogel-2-3626",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "birds_2",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-vogel-2-012d"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-vogel-2-3626"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-vogel-df47",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-vogel-c7d8",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "birds",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-vogel-df47"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-vogel-c7d8"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-waldtiere-8ff3",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-waldtiere-3f4f",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "forest_creatures",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-waldtiere-8ff3"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-waldtiere-3f4f"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-weihnachten-e93e",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-weihnachten-6960",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "christmas",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-weihnachten-e93e"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-weihnachten-6960"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-weltraum-fcc1",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-weltraum-9593",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "space",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-weltraum-fcc1"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-weltraum-9593"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-werkzeuge-bdcc",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-werkzeuge-6a9f",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "tools",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-werkzeuge-bdcc"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-werkzeuge-6a9f"
   },
   {
-   "slug": "gross-klein-aufsteigend-ordnen-zootiere-4f33",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "englisch-wortsuche-wetter-8523",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "weather",
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-wetter-8523"
+  },
+  {
+   "slug": "englisch-wortsuche-winter-59a4",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "winter",
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-winter-59a4"
+  },
+  {
+   "slug": "englisch-wortsuche-zootiere-b324",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "zoo_animals",
-   "level": "vorschule",
-   "deck": "gross-klein-aufsteigend-ordnen-zootiere-4f33"
+   "level": "language-beginner",
+   "deck": "englisch-wortsuche-zootiere-b324"
+  },
+  {
+   "slug": "wortsuche-4-juli",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "1-klasse",
+   "deck": "wortsuche-4-juli-3419"
+  },
+  {
+   "slug": "wortsuche-accessoires",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "accessories",
+   "level": "1-klasse",
+   "deck": "wortsuche-accessoires-18b0"
+  },
+  {
+   "slug": "wortsuche-aktivitaten",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "activities",
+   "level": "1-klasse",
+   "deck": "wortsuche-aktivitaten-06e9"
+  },
+  {
+   "slug": "wortsuche-backerei",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "bakery",
+   "level": "1-klasse",
+   "deck": "wortsuche-backerei-9657"
+  },
+  {
+   "slug": "wortsuche-bauernhoftiere",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "1-klasse",
+   "deck": "wortsuche-bauernhoftiere-6485"
+  },
+  {
+   "slug": "wortsuche-baume",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "tree",
+   "level": "1-klasse",
+   "deck": "wortsuche-baume-5a0e"
+  },
+  {
+   "slug": "wortsuche-berufe",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "occupations",
+   "level": "1-klasse",
+   "deck": "wortsuche-berufe-5061"
+  },
+  {
+   "slug": "wortsuche-blumen",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "flowers",
+   "level": "1-klasse",
+   "deck": "wortsuche-blumen-c526"
+  },
+  {
+   "slug": "wortsuche-camping",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "camping",
+   "level": "1-klasse",
+   "deck": "wortsuche-camping-e557"
+  },
+  {
+   "slug": "wortsuche-desserts-und-sussigkeiten",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "1-klasse",
+   "deck": "wortsuche-desserts-und-sussigkeiten-60f3"
+  },
+  {
+   "slug": "wortsuche-dinge-die-fliegen",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "1-klasse",
+   "deck": "wortsuche-dinge-die-fliegen-b6fd"
+  },
+  {
+   "slug": "wortsuche-emotionen",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "emotions",
+   "level": "1-klasse",
+   "deck": "wortsuche-emotionen-16f0"
+  },
+  {
+   "slug": "wortsuche-erntedankfest",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "1-klasse",
+   "deck": "wortsuche-erntedankfest-9f1d"
+  },
+  {
+   "slug": "wortsuche-fahrzeuge",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "1-klasse",
+   "deck": "wortsuche-fahrzeuge-9e6e"
+  },
+  {
+   "slug": "wortsuche-farben",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "colors",
+   "level": "1-klasse",
+   "deck": "wortsuche-farben-8b8a"
+  },
+  {
+   "slug": "wortsuche-formen",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "shapes",
+   "level": "1-klasse",
+   "deck": "wortsuche-formen-bcf4"
+  },
+  {
+   "slug": "wortsuche-fruchte",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "fruits",
+   "level": "1-klasse",
+   "deck": "wortsuche-fruchte-c3f6"
+  },
+  {
+   "slug": "wortsuche-fruhling",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "spring",
+   "level": "1-klasse",
+   "deck": "wortsuche-fruhling-b0b3"
+  },
+  {
+   "slug": "wortsuche-fruhstuck",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "1-klasse",
+   "deck": "wortsuche-fruhstuck-dfd4"
+  },
+  {
+   "slug": "wortsuche-gemuse",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "1-klasse",
+   "deck": "wortsuche-gemuse-8aa3"
+  },
+  {
+   "slug": "wortsuche-haustiere",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "pets",
+   "level": "1-klasse",
+   "deck": "wortsuche-haustiere-c51a"
+  },
+  {
+   "slug": "wortsuche-im-supermarkt",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "1-klasse",
+   "deck": "wortsuche-im-supermarkt-d690"
+  },
+  {
+   "slug": "wortsuche-insekten-und-kafer",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "wortsuche-insekten-und-kafer-1a66"
+  },
+  {
+   "slug": "wortsuche-klassenzimmer",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "classroom",
+   "level": "1-klasse",
+   "deck": "wortsuche-klassenzimmer-4a34"
+  },
+  {
+   "slug": "wortsuche-kleidung",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "clothing",
+   "level": "1-klasse",
+   "deck": "wortsuche-kleidung-8e23"
+  },
+  {
+   "slug": "wortsuche-korperteile",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "1-klasse",
+   "deck": "wortsuche-korperteile-870e"
+  },
+  {
+   "slug": "wortsuche-krankenhaus",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "hospital",
+   "level": "1-klasse",
+   "deck": "wortsuche-krankenhaus-bc2d"
+  },
+  {
+   "slug": "wortsuche-kuchenwerkzeuge",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "1-klasse",
+   "deck": "wortsuche-kuchenwerkzeuge-b794"
+  },
+  {
+   "slug": "wortsuche-meeresleben",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "1-klasse",
+   "deck": "wortsuche-meeresleben-d08f"
+  },
+  {
+   "slug": "wortsuche-mobel",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "wortsuche-mobel-b60f"
+  },
+  {
+   "slug": "wortsuche-musik",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "music",
+   "level": "1-klasse",
+   "deck": "wortsuche-musik-bc0e"
+  },
+  {
+   "slug": "wortsuche-ostern",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "easter",
+   "level": "1-klasse",
+   "deck": "wortsuche-ostern-cec9"
+  },
+  {
+   "slug": "wortsuche-postamt",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "post_office",
+   "level": "1-klasse",
+   "deck": "wortsuche-postamt-56d3"
+  },
+  {
+   "slug": "wortsuche-reptilien-und-amphibien",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "1-klasse",
+   "deck": "wortsuche-reptilien-und-amphibien-a09b"
+  },
+  {
+   "slug": "wortsuche-rund-ums-haus",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "1-klasse",
+   "deck": "wortsuche-rund-ums-haus-5f6c"
+  },
+  {
+   "slug": "wortsuche-sommer",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "summer",
+   "level": "1-klasse",
+   "deck": "wortsuche-sommer-2ca7"
+  },
+  {
+   "slug": "wortsuche-spielzeug",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "toys",
+   "level": "1-klasse",
+   "deck": "wortsuche-spielzeug-b918"
+  },
+  {
+   "slug": "wortsuche-strand",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "beach",
+   "level": "1-klasse",
+   "deck": "wortsuche-strand-f37a"
+  },
+  {
+   "slug": "wortsuche-tiere",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "animals",
+   "level": "1-klasse",
+   "deck": "wortsuche-tiere-d73e"
+  },
+  {
+   "slug": "wortsuche-vogel",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "wortsuche-vogel-5aa8"
+  },
+  {
+   "slug": "wortsuche-vogel-2",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "wortsuche-vogel-2-77db"
+  },
+  {
+   "slug": "wortsuche-waldtiere",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "1-klasse",
+   "deck": "wortsuche-waldtiere-640c"
+  },
+  {
+   "slug": "wortsuche-weihnachten",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "christmas",
+   "level": "1-klasse",
+   "deck": "wortsuche-weihnachten-588d"
+  },
+  {
+   "slug": "wortsuche-weltraum",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "space",
+   "level": "1-klasse",
+   "deck": "wortsuche-weltraum-01fb"
+  },
+  {
+   "slug": "wortsuche-werkzeuge",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "tools",
+   "level": "1-klasse",
+   "deck": "wortsuche-werkzeuge-fc5b"
+  },
+  {
+   "slug": "wortsuche-wetter",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "weather",
+   "level": "1-klasse",
+   "deck": "wortsuche-wetter-6cd2"
+  },
+  {
+   "slug": "wortsuche-winter",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "winter",
+   "level": "1-klasse",
+   "deck": "wortsuche-winter-288c"
+  },
+  {
+   "slug": "wortsuche-zootiere",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "wortsuche-zootiere-ebdd"
   }
  ]
 }

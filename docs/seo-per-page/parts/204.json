@@ -2,779 +2,779 @@
  "part": 204,
  "locale": "nl",
  "classes": [
-  "treasure-hunt::cardinal-arrows",
-  "treasure-hunt::compass"
+  "pattern-train::null",
+  "pattern-worksheet::null"
  ],
  "splitOf": null,
  "count": 96,
  "pages": [
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-accessoires-2551",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-accessoires-a16c",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "accessories",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-accessoires-2551"
+   "deck": "patroontrein-accessoires-a16c"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-activiteiten-8aaf",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-activiteiten-48ae",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "activities",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-activiteiten-8aaf"
+   "deck": "patroontrein-activiteiten-48ae"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-bakkerij-5530",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-bakkerij-0380",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "bakery",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-bakkerij-5530"
+   "deck": "patroontrein-bakkerij-0380"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-beroepen-3055",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-beroepen-0989",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "occupations",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-beroepen-3055"
+   "deck": "patroontrein-beroepen-0989"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-bloemen-fd3c",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-bloemen-e784",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "flowers",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-bloemen-fd3c"
+   "deck": "patroontrein-bloemen-e784"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-boerderijdieren-8774",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-boerderijdieren-2e57",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "farm_animals",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-boerderijdieren-8774"
+   "deck": "patroontrein-boerderijdieren-2e57"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-bomen-7576",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-bomen-54e5",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "tree",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-bomen-7576"
+   "deck": "patroontrein-bomen-54e5"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-boswezens-a18c",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-boswezens-302a",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "forest_creatures",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-boswezens-a18c"
+   "deck": "patroontrein-boswezens-302a"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-desserts-en-snoep-e890",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-desserts-en-snoep-5fbd",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "desserts_and_sweets",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-desserts-en-snoep-e890"
+   "deck": "patroontrein-desserts-en-snoep-5fbd"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-dieren",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-dieren-51c0",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "animals",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-dieren"
+   "deck": "patroontrein-dieren-51c0"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-dierentuindieren-1d16",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-dierentuindieren-0d26",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "zoo_animals",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-dierentuindieren-1d16"
+   "deck": "patroontrein-dierentuindieren-0d26"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-dingen-die-vliegen-b770",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-dingen-die-vliegen-c52d",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "things_that_fly",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-dingen-die-vliegen-b770"
+   "deck": "patroontrein-dingen-die-vliegen-c52d"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-dinosaurussen-9ec5",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-dinosaurussen-6353",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "dinosaurs",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-dinosaurussen-9ec5"
+   "deck": "patroontrein-dinosaurussen-6353"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-emoties-b771",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-emoties-6613",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "emotions",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-emoties-b771"
+   "deck": "patroontrein-emoties-6613"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-fruit-9d6e",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-fruit-d4f6",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "fruits",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-fruit-9d6e"
+   "deck": "patroontrein-fruit-d4f6"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-gereedschap-d601",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-gereedschap-be6c",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "tools",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-gereedschap-d601"
+   "deck": "patroontrein-gereedschap-be6c"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-groenten-7402",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-groenten-86f4",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "vegetables",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-groenten-7402"
+   "deck": "patroontrein-groenten-86f4"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-huisdieren-e66d",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-huisdieren-b72d",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "pets",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-huisdieren-e66d"
+   "deck": "patroontrein-huisdieren-b72d"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-in-de-supermarkt-9832",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-in-de-supermarkt-60e9",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "at_the_supermarket",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-in-de-supermarkt-9832"
+   "deck": "patroontrein-in-de-supermarkt-60e9"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-insecten-en-beestjes-fb0b",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-insecten-en-beestjes-167e",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "insects_and_bugs",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-insecten-en-beestjes-fb0b"
+   "deck": "patroontrein-insecten-en-beestjes-167e"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-kamperen-70b3",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-kamperen-4898",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "camping",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-kamperen-70b3"
+   "deck": "patroontrein-kamperen-4898"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-kerstmis-075e",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-kerstmis-a105",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "christmas",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-kerstmis-075e"
+   "deck": "patroontrein-kerstmis-a105"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-keukengerei-d7b7",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-keukengerei-effb",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "kitchen_tools",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-keukengerei-d7b7"
+   "deck": "patroontrein-keukengerei-effb"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-klaslokaal-2cca",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-klaslokaal-a0b7",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "classroom",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-klaslokaal-2cca"
+   "deck": "patroontrein-klaslokaal-a0b7"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-kleding-2a37",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-kleding-d44d",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "clothing",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-kleding-2a37"
+   "deck": "patroontrein-kleding-d44d"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-kleuren-a2d6",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-kleuren-0927",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "colors",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-kleuren-a2d6"
+   "deck": "patroontrein-kleuren-0927"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-lente-c792",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-lente-fe35",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "spring",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-lente-c792"
+   "deck": "patroontrein-lente-fe35"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-lichaamsdelen-fd10",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-lichaamsdelen-4d92",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "body_parts",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-lichaamsdelen-fd10"
+   "deck": "patroontrein-lichaamsdelen-4d92"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-meubels-aee9",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-meubels-7285",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "furniture",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-meubels-aee9"
+   "deck": "patroontrein-meubels-7285"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-muziek-3de7",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-muziek-4cbf",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "music",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-muziek-3de7"
+   "deck": "patroontrein-muziek-4cbf"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-oceaanleven-3519",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-oceaanleven-42d2",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "ocean_life",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-oceaanleven-3519"
+   "deck": "patroontrein-oceaanleven-42d2"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-ontbijt-d934",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-ontbijt-562a",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "breakfast",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-ontbijt-d934"
+   "deck": "patroontrein-ontbijt-562a"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-pasen-5014",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-pasen-2bc9",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "easter",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-pasen-5014"
+   "deck": "patroontrein-pasen-2bc9"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-postkantoor-40f6",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-postkantoor-6743",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "post_office",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-postkantoor-40f6"
+   "deck": "patroontrein-postkantoor-6743"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-reptielen-en-amfibieen-e145",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-reptielen-en-amfibieen-f00c",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "reptiles_and_amphibians",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-reptielen-en-amfibieen-e145"
+   "deck": "patroontrein-reptielen-en-amfibieen-f00c"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-rond-het-huis-6c7e",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-rond-het-huis-f1e7",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "around_the_house",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-rond-het-huis-6c7e"
+   "deck": "patroontrein-rond-het-huis-f1e7"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-ruimte-a149",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-ruimte-43a3",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "space",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-ruimte-a149"
+   "deck": "patroontrein-ruimte-43a3"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-speelgoed-8de3",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-speelgoed-03cc",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "toys",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-speelgoed-8de3"
+   "deck": "patroontrein-speelgoed-03cc"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-strand-6465",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-strand-f300",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "beach",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-strand-6465"
+   "deck": "patroontrein-strand-f300"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-thanksgiving-a3fd",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-thanksgiving-2f3e",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "thanksgivinng",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-thanksgiving-a3fd"
+   "deck": "patroontrein-thanksgiving-2f3e"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-voertuigen-c265",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-voertuigen-bc14",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "vehicles",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-voertuigen-c265"
+   "deck": "patroontrein-voertuigen-bc14"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-vogels-14dd",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "birds",
-   "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-vogels-14dd"
-  },
-  {
-   "slug": "schatzoektocht-op-neer-links-rechts-vogels-2-6ff7",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-vogels-2-078a",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "birds_2",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-vogels-2-6ff7"
+   "deck": "patroontrein-vogels-2-078a"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-vormen-4b3b",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-vogels-d28f",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "birds",
+   "level": "kleuters",
+   "deck": "patroontrein-vogels-d28f"
+  },
+  {
+   "slug": "patroontrein-vormen-433c",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "shapes",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-vormen-4b3b"
+   "deck": "patroontrein-vormen-433c"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-weer-f4a1",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-weer-4b37",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "weather",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-weer-f4a1"
+   "deck": "patroontrein-weer-4b37"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-winter-d2fa",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-winter-9f9b",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "winter",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-winter-d2fa"
+   "deck": "patroontrein-winter-9f9b"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-ziekenhuis-158f",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-ziekenhuis-3d58",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "hospital",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-ziekenhuis-158f"
+   "deck": "patroontrein-ziekenhuis-3d58"
   },
   {
-   "slug": "schatzoektocht-op-neer-links-rechts-zomer-547f",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "patroontrein-zomer-39b6",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "summer",
    "level": "kleuters",
-   "deck": "schatzoektocht-op-neer-links-rechts-zomer-547f"
+   "deck": "patroontrein-zomer-39b6"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-accessoires-7351",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-accessoires-604e",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "accessories",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-accessoires-7351"
+   "deck": "patroon-werkblad-accessoires-604e"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-activiteiten-e41d",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-activiteiten-6ba9",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "activities",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-activiteiten-e41d"
+   "deck": "patroon-werkblad-activiteiten-6ba9"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-bakkerij-56fa",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-bakkerij-144f",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "bakery",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-bakkerij-56fa"
+   "deck": "patroon-werkblad-bakkerij-144f"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-beroepen-3ea8",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-beroepen-066d",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "occupations",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-beroepen-3ea8"
+   "deck": "patroon-werkblad-beroepen-066d"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-bloemen-e288",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-bloemen-d59a",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "flowers",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-bloemen-e288"
+   "deck": "patroon-werkblad-bloemen-d59a"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-boerderijdieren-2526",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-boerderijdieren-fdad",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "farm_animals",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-boerderijdieren-2526"
+   "deck": "patroon-werkblad-boerderijdieren-fdad"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-bomen-8d47",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-bomen-f75b",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "tree",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-bomen-8d47"
+   "deck": "patroon-werkblad-bomen-f75b"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-boswezens-a887",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-boswezens-03a9",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "forest_creatures",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-boswezens-a887"
+   "deck": "patroon-werkblad-boswezens-03a9"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-desserts-en-snoep-316e",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-desserts-en-snoep-05b7",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "desserts_and_sweets",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-desserts-en-snoep-316e"
+   "deck": "patroon-werkblad-desserts-en-snoep-05b7"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-dieren-91f3",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-dieren-4d1f",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "animals",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-dieren-91f3"
+   "deck": "patroon-werkblad-dieren-4d1f"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-dierentuindieren-9770",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-dierentuindieren-9ea0",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "zoo_animals",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-dierentuindieren-9770"
+   "deck": "patroon-werkblad-dierentuindieren-9ea0"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-dingen-die-vliegen-4dc8",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-dingen-die-vliegen-7556",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "things_that_fly",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-dingen-die-vliegen-4dc8"
+   "deck": "patroon-werkblad-dingen-die-vliegen-7556"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-dinosaurussen-8540",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-dinosaurussen-018f",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "dinosaurs",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-dinosaurussen-8540"
+   "deck": "patroon-werkblad-dinosaurussen-018f"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-emoties-1def",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-emoties-a13d",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "emotions",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-emoties-1def"
+   "deck": "patroon-werkblad-emoties-a13d"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-fruit-6431",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-fruit-f9ee",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "fruits",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-fruit-6431"
+   "deck": "patroon-werkblad-fruit-f9ee"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-gereedschap-7b35",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-gereedschap-375e",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "tools",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-gereedschap-7b35"
+   "deck": "patroon-werkblad-gereedschap-375e"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-groenten-4d93",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-groenten-7b6a",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "vegetables",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-groenten-4d93"
+   "deck": "patroon-werkblad-groenten-7b6a"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-huisdieren-8ae2",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-huisdieren-ae29",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "pets",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-huisdieren-8ae2"
+   "deck": "patroon-werkblad-huisdieren-ae29"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-in-de-supermarkt-2547",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-in-de-supermarkt-f1e8",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "at_the_supermarket",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-in-de-supermarkt-2547"
+   "deck": "patroon-werkblad-in-de-supermarkt-f1e8"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-insecten-en-beestjes-aae6",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-insecten-en-beestjes-c5a1",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "insects_and_bugs",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-insecten-en-beestjes-aae6"
+   "deck": "patroon-werkblad-insecten-en-beestjes-c5a1"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-kamperen-f171",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-kamperen-b0e8",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "camping",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-kamperen-f171"
+   "deck": "patroon-werkblad-kamperen-b0e8"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-kerstmis-a6f3",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-kerstmis-f6f0",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "christmas",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-kerstmis-a6f3"
+   "deck": "patroon-werkblad-kerstmis-f6f0"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-keukengerei-8831",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-keukengerei-f7af",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "kitchen_tools",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-keukengerei-8831"
+   "deck": "patroon-werkblad-keukengerei-f7af"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-klaslokaal-55af",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-klaslokaal-4b5c",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "classroom",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-klaslokaal-55af"
+   "deck": "patroon-werkblad-klaslokaal-4b5c"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-kleding-85c2",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-kleding-dd28",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "clothing",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-kleding-85c2"
+   "deck": "patroon-werkblad-kleding-dd28"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-kleuren-7d40",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-kleuren-d9f1",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "colors",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-kleuren-7d40"
+   "deck": "patroon-werkblad-kleuren-d9f1"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-lente-15ae",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-lente-d3f2",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "spring",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-lente-15ae"
+   "deck": "patroon-werkblad-lente-d3f2"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-lichaamsdelen-112c",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-lichaamsdelen-dadd",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "body_parts",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-lichaamsdelen-112c"
+   "deck": "patroon-werkblad-lichaamsdelen-dadd"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-meubels-8de0",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-meubels-58f4",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "furniture",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-meubels-8de0"
+   "deck": "patroon-werkblad-meubels-58f4"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-muziek-2ee6",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-muziek-98ab",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "music",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-muziek-2ee6"
+   "deck": "patroon-werkblad-muziek-98ab"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-oceaanleven-9af3",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-oceaanleven-1c08",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "ocean_life",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-oceaanleven-9af3"
+   "deck": "patroon-werkblad-oceaanleven-1c08"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-ontbijt-8a4c",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-ontbijt-5f8b",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "breakfast",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-ontbijt-8a4c"
+   "deck": "patroon-werkblad-ontbijt-5f8b"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-pasen-1fda",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-pasen-4f7d",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "easter",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-pasen-1fda"
+   "deck": "patroon-werkblad-pasen-4f7d"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-postkantoor-9c98",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-postkantoor-a920",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "post_office",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-postkantoor-9c98"
+   "deck": "patroon-werkblad-postkantoor-a920"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-reptielen-en-amfibieen-ca9e",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-reptielen-en-amfibieen-655e",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "reptiles_and_amphibians",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-reptielen-en-amfibieen-ca9e"
+   "deck": "patroon-werkblad-reptielen-en-amfibieen-655e"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-rond-het-huis-031c",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-rond-het-huis-0d80",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "around_the_house",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-rond-het-huis-031c"
+   "deck": "patroon-werkblad-rond-het-huis-0d80"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-ruimte-9ec4",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-ruimte-77fa",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "space",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-ruimte-9ec4"
+   "deck": "patroon-werkblad-ruimte-77fa"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-speelgoed-63fc",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-speelgoed-4330",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "toys",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-speelgoed-63fc"
+   "deck": "patroon-werkblad-speelgoed-4330"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-strand-66d0",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-strand-a70d",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "beach",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-strand-66d0"
+   "deck": "patroon-werkblad-strand-a70d"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-thanksgiving-b960",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-thanksgiving-21bd",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "thanksgivinng",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-thanksgiving-b960"
+   "deck": "patroon-werkblad-thanksgiving-21bd"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-voertuigen-3dfc",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-voertuigen-5cb8",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "vehicles",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-voertuigen-3dfc"
+   "deck": "patroon-werkblad-voertuigen-5cb8"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-vogels-2-b47c",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-vogels-2-6108",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "birds_2",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-vogels-2-b47c"
+   "deck": "patroon-werkblad-vogels-2-6108"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-vogels-aed9",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-vogels-4041",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "birds",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-vogels-aed9"
+   "deck": "patroon-werkblad-vogels-4041"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-vormen-cc69",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-vormen-1ad1",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "shapes",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-vormen-cc69"
+   "deck": "patroon-werkblad-vormen-1ad1"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-weer-c48b",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-weer-6b4a",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "weather",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-weer-c48b"
+   "deck": "patroon-werkblad-weer-6b4a"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-winter-1942",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-winter-4cd7",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "winter",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-winter-1942"
+   "deck": "patroon-werkblad-winter-4cd7"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-ziekenhuis-fca6",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-ziekenhuis-f9f6",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "hospital",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-ziekenhuis-fca6"
+   "deck": "patroon-werkblad-ziekenhuis-f9f6"
   },
   {
-   "slug": "schatzoektocht-windrichtingen-zomer-52cd",
-   "type": "treasure-hunt",
-   "mode": "compass",
+   "slug": "patroon-werkblad-zomer-fb34",
+   "type": "pattern-worksheet",
+   "mode": null,
    "theme": "summer",
    "level": "kleuters",
-   "deck": "schatzoektocht-windrichtingen-zomer-52cd"
+   "deck": "patroon-werkblad-zomer-fb34"
   }
  ]
 }

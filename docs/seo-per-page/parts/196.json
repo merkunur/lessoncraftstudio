@@ -1,568 +1,756 @@
 {
  "part": 196,
- "locale": "nl",
+ "locale": "it",
  "classes": [
-  "picture-sort::null"
+  "code-addition::secret-word",
+  "missing-pieces::one-missing"
  ],
- "splitOf": {
-  "class": "picture-sort::null",
-  "total": 139,
-  "chunk": 2,
-  "chunks": 2
- },
- "count": 69,
+ "splitOf": null,
+ "count": 93,
  "pages": [
   {
-   "slug": "beelden-sorteren-bakery-vs-occupations-aca8",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-occupations",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-bakery-vs-occupations-aca8"
-  },
-  {
-   "slug": "beelden-sorteren-bakery-vs-ocean-life-ea27",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-ocean_life",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-bakery-vs-ocean-life-ea27"
-  },
-  {
-   "slug": "beelden-sorteren-bakery-vs-pets-9e1e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-pets",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-bakery-vs-pets-9e1e"
-  },
-  {
-   "slug": "beelden-sorteren-bakery-vs-post-office-66f1",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-post_office",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-bakery-vs-post-office-66f1"
-  },
-  {
-   "slug": "beelden-sorteren-bakery-vs-spring-a086",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-spring",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-bakery-vs-spring-a086"
-  },
-  {
-   "slug": "beelden-sorteren-bakery-vs-things-that-fly-d5cf",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-things_that_fly",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-bakery-vs-things-that-fly-d5cf"
-  },
-  {
-   "slug": "beelden-sorteren-bakery-vs-tools-6b63",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-tools",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-bakery-vs-tools-6b63"
-  },
-  {
-   "slug": "beelden-sorteren-bakery-vs-tree-06f0",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-tree",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-bakery-vs-tree-06f0"
-  },
-  {
-   "slug": "beelden-sorteren-bakery-vs-vegetables-3b07",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-vegetables",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-bakery-vs-vegetables-3b07"
-  },
-  {
-   "slug": "beelden-sorteren-flowers-vs-animals-9c9a",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-animals",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-flowers-vs-animals-9c9a"
-  },
-  {
-   "slug": "beelden-sorteren-flowers-vs-at-the-supermarket-8f12",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-at_the_supermarket",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-flowers-vs-at-the-supermarket-8f12"
-  },
-  {
-   "slug": "beelden-sorteren-flowers-vs-beach-2040",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-beach",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-flowers-vs-beach-2040"
-  },
-  {
-   "slug": "beelden-sorteren-flowers-vs-birds-46e2",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-birds",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-flowers-vs-birds-46e2"
+   "slug": "addizione-codificata-parola-segreta-abbigliamento-9ac2",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "clothing",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-abbigliamento-9ac2"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-accessori-ef05",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "accessories",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-accessori-ef05"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-al-supermercato-4ad1",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "at_the_supermarket",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-al-supermercato-4ad1"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-alberi-54d7",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "tree",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-alberi-54d7"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-animali-5d73",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "animals",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-animali-5d73"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-animali-della-fattoria-a60b",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "farm_animals",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-animali-della-fattoria-a60b"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-animali-dello-zoo-4a33",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "zoo_animals",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-animali-dello-zoo-4a33"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-animali-domestici-2342",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "pets",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-animali-domestici-2342"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-attivita-a287",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "activities",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-attivita-a287"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-attrezzi-ab82",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "tools",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-attrezzi-ab82"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-aula-be6c",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "classroom",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-aula-be6c"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-campeggio-cbe3",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "camping",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-campeggio-cbe3"
+  },
+  {
+   "slug": "addizione-codificata-parola-segreta-colazione-0697",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "breakfast",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-colazione-0697"
   },
   {
-   "slug": "beelden-sorteren-flowers-vs-body-parts-8f10",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-body_parts",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-flowers-vs-body-parts-8f10"
+   "slug": "addizione-codificata-parola-segreta-colori-c5a7",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "colors",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-colori-c5a7"
   },
   {
-   "slug": "beelden-sorteren-flowers-vs-christmas-e03f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-christmas",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-flowers-vs-christmas-e03f"
+   "slug": "addizione-codificata-parola-segreta-cose-che-volano-b359",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "things_that_fly",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-cose-che-volano-b359"
   },
   {
-   "slug": "beelden-sorteren-flowers-vs-classroom-d1d2",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-classroom",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-flowers-vs-classroom-d1d2"
+   "slug": "addizione-codificata-parola-segreta-creature-della-foresta-67ee",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "forest_creatures",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-creature-della-foresta-67ee"
   },
   {
-   "slug": "beelden-sorteren-flowers-vs-clothing-d112",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-clothing",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-flowers-vs-clothing-d112"
+   "slug": "addizione-codificata-parola-segreta-dinosauri-2ea6",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "dinosaurs",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-dinosauri-2ea6"
   },
   {
-   "slug": "beelden-sorteren-flowers-vs-desserts-and-sweets-ce1d",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-desserts_and_sweets",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-flowers-vs-desserts-and-sweets-ce1d"
+   "slug": "addizione-codificata-parola-segreta-dolci-e-dolciumi-1fef",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "desserts_and_sweets",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-dolci-e-dolciumi-1fef"
   },
   {
-   "slug": "beelden-sorteren-flowers-vs-dinosaurs-d6cd",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-dinosaurs",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-flowers-vs-dinosaurs-d6cd"
+   "slug": "addizione-codificata-parola-segreta-emozioni-3b0c",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "emotions",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-emozioni-3b0c"
   },
   {
-   "slug": "beelden-sorteren-flowers-vs-farm-animals-c4b7",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-farm_animals",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-flowers-vs-farm-animals-c4b7"
+   "slug": "addizione-codificata-parola-segreta-estate-7e6d",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "summer",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-estate-7e6d"
   },
   {
-   "slug": "beelden-sorteren-flowers-vs-forest-creatures-fd13",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-forest_creatures",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-flowers-vs-forest-creatures-fd13"
+   "slug": "addizione-codificata-parola-segreta-fiori-3593",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "flowers",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-fiori-3593"
   },
   {
-   "slug": "beelden-sorteren-flowers-vs-fruits-4b29",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-fruits",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-flowers-vs-fruits-4b29"
+   "slug": "addizione-codificata-parola-segreta-forme-a194",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "shapes",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-forme-a194"
   },
   {
-   "slug": "beelden-sorteren-flowers-vs-furniture-023d",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-furniture",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-flowers-vs-furniture-023d"
+   "slug": "addizione-codificata-parola-segreta-frutta-6561",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "fruits",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-frutta-6561"
   },
   {
-   "slug": "beelden-sorteren-flowers-vs-insects-and-bugs-7807",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-insects_and_bugs",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-flowers-vs-insects-and-bugs-7807"
+   "slug": "addizione-codificata-parola-segreta-giocattoli-29b9",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "toys",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-giocattoli-29b9"
   },
   {
-   "slug": "beelden-sorteren-flowers-vs-kitchen-tools-510f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-kitchen_tools",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-flowers-vs-kitchen-tools-510f"
+   "slug": "addizione-codificata-parola-segreta-giorno-del-ringraziamento-9d77",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "thanksgivinng",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-giorno-del-ringraziamento-9d77"
   },
   {
-   "slug": "beelden-sorteren-flowers-vs-music-92e0",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-music",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-flowers-vs-music-92e0"
+   "slug": "addizione-codificata-parola-segreta-in-giro-per-casa-f475",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "around_the_house",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-in-giro-per-casa-f475"
   },
   {
-   "slug": "beelden-sorteren-flowers-vs-ocean-life-9a19",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-ocean_life",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-flowers-vs-ocean-life-9a19"
+   "slug": "addizione-codificata-parola-segreta-insetti-e-scarafaggi-26c2",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "insects_and_bugs",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-insetti-e-scarafaggi-26c2"
   },
   {
-   "slug": "beelden-sorteren-flowers-vs-pets-524c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-pets",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-flowers-vs-pets-524c"
+   "slug": "addizione-codificata-parola-segreta-inverno-b245",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "winter",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-inverno-b245"
   },
   {
-   "slug": "beelden-sorteren-flowers-vs-thanksgivinng-ec8b",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-thanksgivinng",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-flowers-vs-thanksgivinng-ec8b"
+   "slug": "addizione-codificata-parola-segreta-meteo-0764",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "weather",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-meteo-0764"
   },
   {
-   "slug": "beelden-sorteren-flowers-vs-things-that-fly-aa4f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-things_that_fly",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-flowers-vs-things-that-fly-aa4f"
+   "slug": "addizione-codificata-parola-segreta-mobili-da45",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "furniture",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-mobili-da45"
   },
   {
-   "slug": "beelden-sorteren-flowers-vs-tools-5f95",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-tools",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-flowers-vs-tools-5f95"
+   "slug": "addizione-codificata-parola-segreta-musica-acdd",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "music",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-musica-acdd"
   },
   {
-   "slug": "beelden-sorteren-flowers-vs-toys-e6fc",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-toys",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-flowers-vs-toys-e6fc"
+   "slug": "addizione-codificata-parola-segreta-natale-2fe3",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "christmas",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-natale-2fe3"
   },
   {
-   "slug": "beelden-sorteren-flowers-vs-tree-2087",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-tree",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-flowers-vs-tree-2087"
+   "slug": "addizione-codificata-parola-segreta-ospedale-611e",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "hospital",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-ospedale-611e"
   },
   {
-   "slug": "beelden-sorteren-flowers-vs-vegetables-e2f8",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-vegetables",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-flowers-vs-vegetables-e2f8"
+   "slug": "addizione-codificata-parola-segreta-panetteria-c14f",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "bakery",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-panetteria-c14f"
   },
   {
-   "slug": "beelden-sorteren-flowers-vs-zoo-animals-63f3",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-zoo_animals",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-flowers-vs-zoo-animals-63f3"
+   "slug": "addizione-codificata-parola-segreta-parti-del-corpo-85c5",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "body_parts",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-parti-del-corpo-85c5"
   },
   {
-   "slug": "beelden-sorteren-tree-vs-animals-8cd5",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-animals",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-animals-8cd5"
+   "slug": "addizione-codificata-parola-segreta-pasqua-a471",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "easter",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-pasqua-a471"
   },
   {
-   "slug": "beelden-sorteren-tree-vs-around-the-house-ba72",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-around_the_house",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-around-the-house-ba72"
+   "slug": "addizione-codificata-parola-segreta-primavera-58a1",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "spring",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-primavera-58a1"
   },
   {
-   "slug": "beelden-sorteren-tree-vs-at-the-supermarket-b56a",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-at_the_supermarket",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-at-the-supermarket-b56a"
+   "slug": "addizione-codificata-parola-segreta-professioni-bc01",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "occupations",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-professioni-bc01"
   },
   {
-   "slug": "beelden-sorteren-tree-vs-beach-fca8",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-beach",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-beach-fca8"
+   "slug": "addizione-codificata-parola-segreta-rettili-e-anfibi-4b49",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "reptiles_and_amphibians",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-rettili-e-anfibi-4b49"
   },
   {
-   "slug": "beelden-sorteren-tree-vs-birds-d6fd",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-birds",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-birds-d6fd"
+   "slug": "addizione-codificata-parola-segreta-spazio-345b",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "space",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-spazio-345b"
   },
   {
-   "slug": "beelden-sorteren-tree-vs-body-parts-aa3e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-body_parts",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-body-parts-aa3e"
+   "slug": "addizione-codificata-parola-segreta-spiaggia-c178",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "beach",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-spiaggia-c178"
   },
   {
-   "slug": "beelden-sorteren-tree-vs-breakfast-cd43",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-breakfast",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-breakfast-cd43"
+   "slug": "addizione-codificata-parola-segreta-uccelli-1f2a",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "birds",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-uccelli-1f2a"
   },
   {
-   "slug": "beelden-sorteren-tree-vs-christmas-e06c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-christmas",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-christmas-e06c"
+   "slug": "addizione-codificata-parola-segreta-ufficio-postale-ace9",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "post_office",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-ufficio-postale-ace9"
   },
   {
-   "slug": "beelden-sorteren-tree-vs-classroom-b09e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-classroom",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-classroom-b09e"
+   "slug": "addizione-codificata-parola-segreta-utensili-da-cucina-583f",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "kitchen_tools",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-utensili-da-cucina-583f"
   },
   {
-   "slug": "beelden-sorteren-tree-vs-clothing-aa79",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-clothing",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-clothing-aa79"
+   "slug": "addizione-codificata-parola-segreta-veicoli-0979",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "vehicles",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-veicoli-0979"
   },
   {
-   "slug": "beelden-sorteren-tree-vs-desserts-and-sweets-0314",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-desserts_and_sweets",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-desserts-and-sweets-0314"
+   "slug": "addizione-codificata-parola-segreta-verdure-1a17",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "vegetables",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-verdure-1a17"
   },
   {
-   "slug": "beelden-sorteren-tree-vs-dinosaurs-b0d7",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-dinosaurs",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-dinosaurs-b0d7"
+   "slug": "addizione-codificata-parola-segreta-vita-oceanica-0a93",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "ocean_life",
+   "level": "classe-seconda",
+   "deck": "addizione-codificata-parola-segreta-vita-oceanica-0a93"
   },
   {
-   "slug": "beelden-sorteren-tree-vs-easter-3236",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-easter",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-easter-3236"
+   "slug": "pezzi-mancanti-1-pezzo-mancante-abbigliamento-3423",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "clothing",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-abbigliamento-3423"
   },
   {
-   "slug": "beelden-sorteren-tree-vs-forest-creatures-3960",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-forest_creatures",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-forest-creatures-3960"
+   "slug": "pezzi-mancanti-1-pezzo-mancante-accessori-9129",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "accessories",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-accessori-9129"
   },
   {
-   "slug": "beelden-sorteren-tree-vs-fruits-330d",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-fruits",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-fruits-330d"
+   "slug": "pezzi-mancanti-1-pezzo-mancante-al-supermercato-db0c",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "at_the_supermarket",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-al-supermercato-db0c"
   },
   {
-   "slug": "beelden-sorteren-tree-vs-furniture-c23d",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-furniture",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-furniture-c23d"
+   "slug": "pezzi-mancanti-1-pezzo-mancante-alberi-d3de",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "tree",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-alberi-d3de"
   },
   {
-   "slug": "beelden-sorteren-tree-vs-hospital-b3d0",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-hospital",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-hospital-b3d0"
+   "slug": "pezzi-mancanti-1-pezzo-mancante-animali-5b59",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "animals",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-animali-5b59"
   },
   {
-   "slug": "beelden-sorteren-tree-vs-insects-and-bugs-770e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-insects_and_bugs",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-insects-and-bugs-770e"
+   "slug": "pezzi-mancanti-1-pezzo-mancante-animali-della-fattoria-4b89",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "farm_animals",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-animali-della-fattoria-4b89"
   },
   {
-   "slug": "beelden-sorteren-tree-vs-kitchen-tools-bd49",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-kitchen_tools",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-kitchen-tools-bd49"
+   "slug": "pezzi-mancanti-1-pezzo-mancante-animali-dello-zoo-106f",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "zoo_animals",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-animali-dello-zoo-106f"
   },
   {
-   "slug": "beelden-sorteren-tree-vs-music-bee7",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-music",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-music-bee7"
+   "slug": "pezzi-mancanti-1-pezzo-mancante-animali-domestici-5b1b",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "pets",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-animali-domestici-5b1b"
   },
   {
-   "slug": "beelden-sorteren-tree-vs-ocean-life-9e20",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-ocean_life",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-ocean-life-9e20"
+   "slug": "pezzi-mancanti-1-pezzo-mancante-attivita-3ecd",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "activities",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-attivita-3ecd"
   },
   {
-   "slug": "beelden-sorteren-tree-vs-pets-d73c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-pets",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-pets-d73c"
-  },
-  {
-   "slug": "beelden-sorteren-tree-vs-post-office-d026",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-post_office",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-post-office-d026"
-  },
-  {
-   "slug": "beelden-sorteren-tree-vs-shapes-4169",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-shapes",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-shapes-4169"
-  },
-  {
-   "slug": "beelden-sorteren-tree-vs-space-9214",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-space",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-space-9214"
-  },
-  {
-   "slug": "beelden-sorteren-tree-vs-spring-5e43",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-spring",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-spring-5e43"
-  },
-  {
-   "slug": "beelden-sorteren-tree-vs-summer-3b79",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-summer",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-summer-3b79"
-  },
-  {
-   "slug": "beelden-sorteren-tree-vs-thanksgivinng-aeb3",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-thanksgivinng",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-thanksgivinng-aeb3"
-  },
-  {
-   "slug": "beelden-sorteren-tree-vs-things-that-fly-c290",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-things_that_fly",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-things-that-fly-c290"
-  },
-  {
-   "slug": "beelden-sorteren-tree-vs-tools-4b84",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-tools",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-tools-4b84"
-  },
-  {
-   "slug": "beelden-sorteren-tree-vs-vegetables-2cfd",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-vegetables",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-vegetables-2cfd"
-  },
-  {
-   "slug": "beelden-sorteren-tree-vs-weather-925f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-weather",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-weather-925f"
-  },
-  {
-   "slug": "beelden-sorteren-tree-vs-winter-42e2",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-winter",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-winter-42e2"
-  },
-  {
-   "slug": "beelden-sorteren-tree-vs-zoo-animals-b870",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "tree-vs-zoo_animals",
-   "level": "kleuters",
-   "deck": "beelden-sorteren-tree-vs-zoo-animals-b870"
+   "slug": "pezzi-mancanti-1-pezzo-mancante-attrezzi-fcf3",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "tools",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-attrezzi-fcf3"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-aula-c05b",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "classroom",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-aula-c05b"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-campeggio-1798",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "camping",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-campeggio-1798"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-colazione-0515",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "breakfast",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-colazione-0515"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-cose-che-volano-ed23",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "things_that_fly",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-cose-che-volano-ed23"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-creature-della-foresta-ec87",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "forest_creatures",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-creature-della-foresta-ec87"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-dinosauri-3a8a",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "dinosaurs",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-dinosauri-3a8a"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-emozioni-09bc",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "emotions",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-emozioni-09bc"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-estate-055a",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "summer",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-estate-055a"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-fiori-9423",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "flowers",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-fiori-9423"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-frutta-c864",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "fruits",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-frutta-c864"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-giocattoli-32a1",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "toys",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-giocattoli-32a1"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-giorno-del-ringraziamento-34d7",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "thanksgivinng",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-giorno-del-ringraziamento-34d7"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-in-giro-per-casa-c88d",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "around_the_house",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-in-giro-per-casa-c88d"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-insetti-e-scarafaggi-fb41",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "insects_and_bugs",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-insetti-e-scarafaggi-fb41"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-inverno-d0da",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "winter",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-inverno-d0da"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-meteo-bb0b",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "weather",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-meteo-bb0b"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-mobili-a8dc",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "furniture",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-mobili-a8dc"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-musica-135b",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "music",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-musica-135b"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-natale-85ce",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "christmas",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-natale-85ce"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-ospedale-4187",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "hospital",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-ospedale-4187"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-panetteria-09ee",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "bakery",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-panetteria-09ee"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-parti-del-corpo-02ea",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "body_parts",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-parti-del-corpo-02ea"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-pasqua-ce2c",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "easter",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-pasqua-ce2c"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-primavera-9201",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "spring",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-primavera-9201"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-professioni-2194",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "occupations",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-professioni-2194"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-rettili-e-anfibi-eb23",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "reptiles_and_amphibians",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-rettili-e-anfibi-eb23"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-spazio-9745",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "space",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-spazio-9745"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-spiaggia-8dea",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "beach",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-spiaggia-8dea"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-uccelli-2-5283",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "birds_2",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-uccelli-2-5283"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-uccelli-f56b",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "birds",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-uccelli-f56b"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-ufficio-postale-0b7d",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "post_office",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-ufficio-postale-0b7d"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-utensili-da-cucina-ceb5",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "kitchen_tools",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-utensili-da-cucina-ceb5"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-varie-19e8",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "miscellaneous",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-varie-19e8"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-veicoli-dabd",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "vehicles",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-veicoli-dabd"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-verdure-5ca3",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "vegetables",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-verdure-5ca3"
+  },
+  {
+   "slug": "pezzi-mancanti-1-pezzo-mancante-vita-oceanica-14b2",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "ocean_life",
+   "level": "infanzia",
+   "deck": "pezzi-mancanti-1-pezzo-mancante-vita-oceanica-14b2"
   }
  ]
 }

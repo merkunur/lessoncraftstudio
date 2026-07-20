@@ -1,779 +1,748 @@
 {
  "part": 167,
- "locale": "it",
+ "locale": "fr",
  "classes": [
-  "wordsearch::null"
+  "code-addition::secret-word",
+  "missing-pieces::one-missing"
  ],
  "splitOf": null,
- "count": 96,
+ "count": 92,
  "pages": [
   {
-   "slug": "cerca-parole-abbigliamento-be08",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "clothing",
-   "level": "classe-prima",
-   "deck": "cerca-parole-abbigliamento-be08"
-  },
-  {
-   "slug": "cerca-parole-accessori-4e76",
-   "type": "wordsearch",
-   "mode": null,
+   "slug": "addition-codee-mot-secret-accessoires-3b75",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "accessories",
-   "level": "classe-prima",
-   "deck": "cerca-parole-accessori-4e76"
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-accessoires-3b75"
   },
   {
-   "slug": "cerca-parole-al-supermercato-675f",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "classe-prima",
-   "deck": "cerca-parole-al-supermercato-675f"
-  },
-  {
-   "slug": "cerca-parole-alberi-13f4",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "tree",
-   "level": "classe-prima",
-   "deck": "cerca-parole-alberi-13f4"
-  },
-  {
-   "slug": "cerca-parole-animali-9872",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "animals",
-   "level": "classe-prima",
-   "deck": "cerca-parole-animali-9872"
-  },
-  {
-   "slug": "cerca-parole-animali-della-fattoria-3b52",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "farm_animals",
-   "level": "classe-prima",
-   "deck": "cerca-parole-animali-della-fattoria-3b52"
-  },
-  {
-   "slug": "cerca-parole-animali-dello-zoo-234f",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "zoo_animals",
-   "level": "classe-prima",
-   "deck": "cerca-parole-animali-dello-zoo-234f"
-  },
-  {
-   "slug": "cerca-parole-animali-domestici-ae4b",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "pets",
-   "level": "classe-prima",
-   "deck": "cerca-parole-animali-domestici-ae4b"
-  },
-  {
-   "slug": "cerca-parole-attivita-d09c",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "activities",
-   "level": "classe-prima",
-   "deck": "cerca-parole-attivita-d09c"
-  },
-  {
-   "slug": "cerca-parole-attrezzi-bbf4",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "tools",
-   "level": "classe-prima",
-   "deck": "cerca-parole-attrezzi-bbf4"
-  },
-  {
-   "slug": "cerca-parole-aula-f9b9",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "classroom",
-   "level": "classe-prima",
-   "deck": "cerca-parole-aula-f9b9"
-  },
-  {
-   "slug": "cerca-parole-campeggio-59b4",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "camping",
-   "level": "classe-prima",
-   "deck": "cerca-parole-campeggio-59b4"
-  },
-  {
-   "slug": "cerca-parole-colazione-1854",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "breakfast",
-   "level": "classe-prima",
-   "deck": "cerca-parole-colazione-1854"
-  },
-  {
-   "slug": "cerca-parole-colori-84c4",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "colors",
-   "level": "classe-prima",
-   "deck": "cerca-parole-colori-84c4"
-  },
-  {
-   "slug": "cerca-parole-cose-che-volano-5faa",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "things_that_fly",
-   "level": "classe-prima",
-   "deck": "cerca-parole-cose-che-volano-5faa"
-  },
-  {
-   "slug": "cerca-parole-creature-della-foresta-7e1c",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "forest_creatures",
-   "level": "classe-prima",
-   "deck": "cerca-parole-creature-della-foresta-7e1c"
-  },
-  {
-   "slug": "cerca-parole-dolci-e-dolciumi-6515",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "classe-prima",
-   "deck": "cerca-parole-dolci-e-dolciumi-6515"
-  },
-  {
-   "slug": "cerca-parole-emozioni-c69a",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "emotions",
-   "level": "classe-prima",
-   "deck": "cerca-parole-emozioni-c69a"
-  },
-  {
-   "slug": "cerca-parole-estate-d547",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "summer",
-   "level": "classe-prima",
-   "deck": "cerca-parole-estate-d547"
-  },
-  {
-   "slug": "cerca-parole-fiori-707e",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "flowers",
-   "level": "classe-prima",
-   "deck": "cerca-parole-fiori-707e"
-  },
-  {
-   "slug": "cerca-parole-forme-5e4f",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "shapes",
-   "level": "classe-prima",
-   "deck": "cerca-parole-forme-5e4f"
-  },
-  {
-   "slug": "cerca-parole-frutta-d78a",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "fruits",
-   "level": "classe-prima",
-   "deck": "cerca-parole-frutta-d78a"
-  },
-  {
-   "slug": "cerca-parole-giocattoli-08c9",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "toys",
-   "level": "classe-prima",
-   "deck": "cerca-parole-giocattoli-08c9"
-  },
-  {
-   "slug": "cerca-parole-giorno-del-ringraziamento-eb1f",
-   "type": "wordsearch",
-   "mode": null,
+   "slug": "addition-codee-mot-secret-action-de-grace-17c2",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "thanksgivinng",
-   "level": "classe-prima",
-   "deck": "cerca-parole-giorno-del-ringraziamento-eb1f"
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-action-de-grace-17c2"
   },
   {
-   "slug": "cerca-parole-in-giro-per-casa-33b0",
-   "type": "wordsearch",
-   "mode": null,
+   "slug": "addition-codee-mot-secret-activites-bbd2",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "activities",
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-activites-bbd2"
+  },
+  {
+   "slug": "addition-codee-mot-secret-animaux-bd25",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "animals",
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-animaux-bd25"
+  },
+  {
+   "slug": "addition-codee-mot-secret-animaux-de-compagnie-235e",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "pets",
+   "level": "cp",
+   "deck": "addition-codee-mot-secret-animaux-de-compagnie-235e"
+  },
+  {
+   "slug": "addition-codee-mot-secret-animaux-de-la-ferme-15a1",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "farm_animals",
+   "level": "cp",
+   "deck": "addition-codee-mot-secret-animaux-de-la-ferme-15a1"
+  },
+  {
+   "slug": "addition-codee-mot-secret-animaux-du-zoo-277b",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "zoo_animals",
+   "level": "cp",
+   "deck": "addition-codee-mot-secret-animaux-du-zoo-277b"
+  },
+  {
+   "slug": "addition-codee-mot-secret-arbres-f87b",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "tree",
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-arbres-f87b"
+  },
+  {
+   "slug": "addition-codee-mot-secret-au-supermarche-eb96",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "at_the_supermarket",
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-au-supermarche-eb96"
+  },
+  {
+   "slug": "addition-codee-mot-secret-autour-de-la-maison-7c16",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "around_the_house",
-   "level": "classe-prima",
-   "deck": "cerca-parole-in-giro-per-casa-33b0"
+   "level": "cp",
+   "deck": "addition-codee-mot-secret-autour-de-la-maison-7c16"
   },
   {
-   "slug": "cerca-parole-insetti-e-scarafaggi-84a4",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "classe-prima",
-   "deck": "cerca-parole-insetti-e-scarafaggi-84a4"
-  },
-  {
-   "slug": "cerca-parole-inverno-d6c4",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "winter",
-   "level": "classe-prima",
-   "deck": "cerca-parole-inverno-d6c4"
-  },
-  {
-   "slug": "cerca-parole-meteo-8d93",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "weather",
-   "level": "classe-prima",
-   "deck": "cerca-parole-meteo-8d93"
-  },
-  {
-   "slug": "cerca-parole-mobili-60c5",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "furniture",
-   "level": "classe-prima",
-   "deck": "cerca-parole-mobili-60c5"
-  },
-  {
-   "slug": "cerca-parole-musica-0d52",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "music",
-   "level": "classe-prima",
-   "deck": "cerca-parole-musica-0d52"
-  },
-  {
-   "slug": "cerca-parole-natale-cad3",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "christmas",
-   "level": "classe-prima",
-   "deck": "cerca-parole-natale-cad3"
-  },
-  {
-   "slug": "cerca-parole-ospedale-245d",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "hospital",
-   "level": "classe-prima",
-   "deck": "cerca-parole-ospedale-245d"
-  },
-  {
-   "slug": "cerca-parole-panetteria-a33a",
-   "type": "wordsearch",
-   "mode": null,
+   "slug": "addition-codee-mot-secret-boulangerie-0281",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "bakery",
-   "level": "classe-prima",
-   "deck": "cerca-parole-panetteria-a33a"
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-boulangerie-0281"
   },
   {
-   "slug": "cerca-parole-parti-del-corpo-4e00",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "classe-prima",
-   "deck": "cerca-parole-parti-del-corpo-4e00"
-  },
-  {
-   "slug": "cerca-parole-pasqua-60f9",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "easter",
-   "level": "classe-prima",
-   "deck": "cerca-parole-pasqua-60f9"
-  },
-  {
-   "slug": "cerca-parole-primavera-e385",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "spring",
-   "level": "classe-prima",
-   "deck": "cerca-parole-primavera-e385"
-  },
-  {
-   "slug": "cerca-parole-professioni-f8fd",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "occupations",
-   "level": "classe-prima",
-   "deck": "cerca-parole-professioni-f8fd"
-  },
-  {
-   "slug": "cerca-parole-rettili-e-anfibi-ca08",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "reptiles_and_amphibians",
-   "level": "classe-prima",
-   "deck": "cerca-parole-rettili-e-anfibi-ca08"
-  },
-  {
-   "slug": "cerca-parole-spazio-d75a",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "space",
-   "level": "classe-prima",
-   "deck": "cerca-parole-spazio-d75a"
-  },
-  {
-   "slug": "cerca-parole-spiaggia-1a88",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "beach",
-   "level": "classe-prima",
-   "deck": "cerca-parole-spiaggia-1a88"
-  },
-  {
-   "slug": "cerca-parole-uccelli-2-a5ea",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "classe-prima",
-   "deck": "cerca-parole-uccelli-2-a5ea"
-  },
-  {
-   "slug": "cerca-parole-uccelli-8045",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "birds",
-   "level": "classe-prima",
-   "deck": "cerca-parole-uccelli-8045"
-  },
-  {
-   "slug": "cerca-parole-ufficio-postale-c373",
-   "type": "wordsearch",
-   "mode": null,
+   "slug": "addition-codee-mot-secret-bureau-de-poste-c029",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "post_office",
-   "level": "classe-prima",
-   "deck": "cerca-parole-ufficio-postale-c373"
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-bureau-de-poste-c029"
   },
   {
-   "slug": "cerca-parole-utensili-da-cucina-ef16",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "classe-prima",
-   "deck": "cerca-parole-utensili-da-cucina-ef16"
+   "slug": "addition-codee-mot-secret-camping-03ed",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "camping",
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-camping-03ed"
   },
   {
-   "slug": "cerca-parole-varie-c8fd",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "miscellaneous",
-   "level": "classe-prima",
-   "deck": "cerca-parole-varie-c8fd"
+   "slug": "addition-codee-mot-secret-choses-qui-volent-95c1",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "things_that_fly",
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-choses-qui-volent-95c1"
   },
   {
-   "slug": "cerca-parole-veicoli-dc69",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "vehicles",
-   "level": "classe-prima",
-   "deck": "cerca-parole-veicoli-dc69"
+   "slug": "addition-codee-mot-secret-couleurs-5b63",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "colors",
+   "level": "cp",
+   "deck": "addition-codee-mot-secret-couleurs-5b63"
   },
   {
-   "slug": "cerca-parole-verdure-35f9",
-   "type": "wordsearch",
-   "mode": null,
+   "slug": "addition-codee-mot-secret-creatures-de-la-foret-5d1b",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "forest_creatures",
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-creatures-de-la-foret-5d1b"
+  },
+  {
+   "slug": "addition-codee-mot-secret-desserts-et-sucreries-591b",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "desserts_and_sweets",
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-desserts-et-sucreries-591b"
+  },
+  {
+   "slug": "addition-codee-mot-secret-dinosaures-087a",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "dinosaurs",
+   "level": "cp",
+   "deck": "addition-codee-mot-secret-dinosaures-087a"
+  },
+  {
+   "slug": "addition-codee-mot-secret-emotions-ae3a",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "emotions",
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-emotions-ae3a"
+  },
+  {
+   "slug": "addition-codee-mot-secret-espace-9d77",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "space",
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-espace-9d77"
+  },
+  {
+   "slug": "addition-codee-mot-secret-ete-b91e",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "summer",
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-ete-b91e"
+  },
+  {
+   "slug": "addition-codee-mot-secret-fleurs-0def",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "flowers",
+   "level": "cp",
+   "deck": "addition-codee-mot-secret-fleurs-0def"
+  },
+  {
+   "slug": "addition-codee-mot-secret-formes-17cc",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "shapes",
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-formes-17cc"
+  },
+  {
+   "slug": "addition-codee-mot-secret-fruits-b893",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "fruits",
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-fruits-b893"
+  },
+  {
+   "slug": "addition-codee-mot-secret-hiver-63cf",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "winter",
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-hiver-63cf"
+  },
+  {
+   "slug": "addition-codee-mot-secret-hopital-eac9",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "hospital",
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-hopital-eac9"
+  },
+  {
+   "slug": "addition-codee-mot-secret-jouets-1300",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "toys",
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-jouets-1300"
+  },
+  {
+   "slug": "addition-codee-mot-secret-legumes-ad0e",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "vegetables",
-   "level": "classe-prima",
-   "deck": "cerca-parole-verdure-35f9"
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-legumes-ad0e"
   },
   {
-   "slug": "cerca-parole-vita-oceanica-875e",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "ocean_life",
-   "level": "classe-prima",
-   "deck": "cerca-parole-vita-oceanica-875e"
+   "slug": "addition-codee-mot-secret-meteo-71ba",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "weather",
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-meteo-71ba"
   },
   {
-   "slug": "inglese-cerca-parole-abbigliamento-1711",
-   "type": "wordsearch",
-   "mode": null,
+   "slug": "addition-codee-mot-secret-metiers-3fe1",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "occupations",
+   "level": "cp",
+   "deck": "addition-codee-mot-secret-metiers-3fe1"
+  },
+  {
+   "slug": "addition-codee-mot-secret-meubles-fd93",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "furniture",
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-meubles-fd93"
+  },
+  {
+   "slug": "addition-codee-mot-secret-musique-c6a3",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "music",
+   "level": "cp",
+   "deck": "addition-codee-mot-secret-musique-c6a3"
+  },
+  {
+   "slug": "addition-codee-mot-secret-noel-ffad",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "christmas",
+   "level": "cp",
+   "deck": "addition-codee-mot-secret-noel-ffad"
+  },
+  {
+   "slug": "addition-codee-mot-secret-oiseaux-2-7c88",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "birds_2",
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-oiseaux-2-7c88"
+  },
+  {
+   "slug": "addition-codee-mot-secret-oiseaux-8cf4",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "birds",
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-oiseaux-8cf4"
+  },
+  {
+   "slug": "addition-codee-mot-secret-outils-c3f3",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "tools",
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-outils-c3f3"
+  },
+  {
+   "slug": "addition-codee-mot-secret-paques-80ce",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "easter",
+   "level": "cp",
+   "deck": "addition-codee-mot-secret-paques-80ce"
+  },
+  {
+   "slug": "addition-codee-mot-secret-parties-du-corps-768f",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "body_parts",
+   "level": "cp",
+   "deck": "addition-codee-mot-secret-parties-du-corps-768f"
+  },
+  {
+   "slug": "addition-codee-mot-secret-petit-dejeuner-d49a",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "breakfast",
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-petit-dejeuner-d49a"
+  },
+  {
+   "slug": "addition-codee-mot-secret-plage-3cb4",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "beach",
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-plage-3cb4"
+  },
+  {
+   "slug": "addition-codee-mot-secret-printemps-895f",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "spring",
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-printemps-895f"
+  },
+  {
+   "slug": "addition-codee-mot-secret-salle-de-classe-cf12",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "classroom",
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-salle-de-classe-cf12"
+  },
+  {
+   "slug": "addition-codee-mot-secret-ustensiles-de-cuisine-d8c8",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "kitchen_tools",
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-ustensiles-de-cuisine-d8c8"
+  },
+  {
+   "slug": "addition-codee-mot-secret-vehicules-7cb3",
+   "type": "code-addition",
+   "mode": "secret-word",
+   "theme": "vehicles",
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-vehicules-7cb3"
+  },
+  {
+   "slug": "addition-codee-mot-secret-vetements-df63",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "clothing",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-abbigliamento-1711"
+   "level": "cp",
+   "deck": "addition-codee-mot-secret-vetements-df63"
   },
   {
-   "slug": "inglese-cerca-parole-accessori-f33e",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "accessories",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-accessori-f33e"
-  },
-  {
-   "slug": "inglese-cerca-parole-al-supermercato-c2d3",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-al-supermercato-c2d3"
-  },
-  {
-   "slug": "inglese-cerca-parole-alberi-34a3",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "tree",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-alberi-34a3"
-  },
-  {
-   "slug": "inglese-cerca-parole-animali-b9fb",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "animals",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-animali-b9fb"
-  },
-  {
-   "slug": "inglese-cerca-parole-animali-della-fattoria-1bc2",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "farm_animals",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-animali-della-fattoria-1bc2"
-  },
-  {
-   "slug": "inglese-cerca-parole-animali-dello-zoo-5b83",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "zoo_animals",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-animali-dello-zoo-5b83"
-  },
-  {
-   "slug": "inglese-cerca-parole-animali-domestici-0ca0",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "pets",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-animali-domestici-0ca0"
-  },
-  {
-   "slug": "inglese-cerca-parole-attivita-5cda",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "activities",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-attivita-5cda"
-  },
-  {
-   "slug": "inglese-cerca-parole-attrezzi-15a6",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "tools",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-attrezzi-15a6"
-  },
-  {
-   "slug": "inglese-cerca-parole-aula-c39c",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "classroom",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-aula-c39c"
-  },
-  {
-   "slug": "inglese-cerca-parole-campeggio-3b49",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "camping",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-campeggio-3b49"
-  },
-  {
-   "slug": "inglese-cerca-parole-colazione-06d7",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "breakfast",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-colazione-06d7"
-  },
-  {
-   "slug": "inglese-cerca-parole-colori-e1b9",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "colors",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-colori-e1b9"
-  },
-  {
-   "slug": "inglese-cerca-parole-cose-che-volano-7eb7",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "things_that_fly",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-cose-che-volano-7eb7"
-  },
-  {
-   "slug": "inglese-cerca-parole-creature-della-foresta-ba00",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "forest_creatures",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-creature-della-foresta-ba00"
-  },
-  {
-   "slug": "inglese-cerca-parole-dolci-e-dolciumi-9ed2",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-dolci-e-dolciumi-9ed2"
-  },
-  {
-   "slug": "inglese-cerca-parole-emozioni-5b87",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "emotions",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-emozioni-5b87"
-  },
-  {
-   "slug": "inglese-cerca-parole-estate-2753",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "summer",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-estate-2753"
-  },
-  {
-   "slug": "inglese-cerca-parole-fiori-4735",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "flowers",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-fiori-4735"
-  },
-  {
-   "slug": "inglese-cerca-parole-forme-c940",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "shapes",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-forme-c940"
-  },
-  {
-   "slug": "inglese-cerca-parole-frutta-b533",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "fruits",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-frutta-b533"
-  },
-  {
-   "slug": "inglese-cerca-parole-giocattoli-aec8",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "toys",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-giocattoli-aec8"
-  },
-  {
-   "slug": "inglese-cerca-parole-giorno-del-ringraziamento-6e7c",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "thanksgivinng",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-giorno-del-ringraziamento-6e7c"
-  },
-  {
-   "slug": "inglese-cerca-parole-in-giro-per-casa-9536",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "around_the_house",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-in-giro-per-casa-9536"
-  },
-  {
-   "slug": "inglese-cerca-parole-insetti-e-scarafaggi-6637",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-insetti-e-scarafaggi-6637"
-  },
-  {
-   "slug": "inglese-cerca-parole-inverno-ca1b",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "winter",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-inverno-ca1b"
-  },
-  {
-   "slug": "inglese-cerca-parole-meteo-da95",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "weather",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-meteo-da95"
-  },
-  {
-   "slug": "inglese-cerca-parole-mobili-b1a8",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "furniture",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-mobili-b1a8"
-  },
-  {
-   "slug": "inglese-cerca-parole-musica-75f4",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "music",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-musica-75f4"
-  },
-  {
-   "slug": "inglese-cerca-parole-natale-432c",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "christmas",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-natale-432c"
-  },
-  {
-   "slug": "inglese-cerca-parole-ospedale-7973",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "hospital",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-ospedale-7973"
-  },
-  {
-   "slug": "inglese-cerca-parole-panetteria-b825",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "bakery",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-panetteria-b825"
-  },
-  {
-   "slug": "inglese-cerca-parole-parti-del-corpo-a850",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-parti-del-corpo-a850"
-  },
-  {
-   "slug": "inglese-cerca-parole-pasqua-59d3",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "easter",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-pasqua-59d3"
-  },
-  {
-   "slug": "inglese-cerca-parole-primavera-5892",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "spring",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-primavera-5892"
-  },
-  {
-   "slug": "inglese-cerca-parole-professioni-f3c1",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "occupations",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-professioni-f3c1"
-  },
-  {
-   "slug": "inglese-cerca-parole-rettili-e-anfibi-3485",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "reptiles_and_amphibians",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-rettili-e-anfibi-3485"
-  },
-  {
-   "slug": "inglese-cerca-parole-spazio-e9e8",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "space",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-spazio-e9e8"
-  },
-  {
-   "slug": "inglese-cerca-parole-spiaggia-d976",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "beach",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-spiaggia-d976"
-  },
-  {
-   "slug": "inglese-cerca-parole-uccelli-2-efd8",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-uccelli-2-efd8"
-  },
-  {
-   "slug": "inglese-cerca-parole-uccelli-f515",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "birds",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-uccelli-f515"
-  },
-  {
-   "slug": "inglese-cerca-parole-ufficio-postale-9452",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "post_office",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-ufficio-postale-9452"
-  },
-  {
-   "slug": "inglese-cerca-parole-utensili-da-cucina-010d",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-utensili-da-cucina-010d"
-  },
-  {
-   "slug": "inglese-cerca-parole-varie-8636",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "miscellaneous",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-varie-8636"
-  },
-  {
-   "slug": "inglese-cerca-parole-veicoli-ad09",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "vehicles",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-veicoli-ad09"
-  },
-  {
-   "slug": "inglese-cerca-parole-verdure-980d",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "vegetables",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-verdure-980d"
-  },
-  {
-   "slug": "inglese-cerca-parole-vita-oceanica-fa48",
-   "type": "wordsearch",
-   "mode": null,
+   "slug": "addition-codee-mot-secret-vie-oceanique-5803",
+   "type": "code-addition",
+   "mode": "secret-word",
    "theme": "ocean_life",
-   "level": "language-beginner",
-   "deck": "inglese-cerca-parole-vita-oceanica-fa48"
+   "level": "ce1",
+   "deck": "addition-codee-mot-secret-vie-oceanique-5803"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-accessoires-0f13",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "accessories",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-accessoires-0f13"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-action-de-grace-cd45",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "thanksgivinng",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-action-de-grace-cd45"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-activites-0020",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "activities",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-activites-0020"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-animaux",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "animals",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-animaux"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-animaux-de-compagnie-48c7",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "pets",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-animaux-de-compagnie-48c7"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-animaux-de-la-ferme-8132",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "farm_animals",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-animaux-de-la-ferme-8132"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-animaux-du-zoo-e6d3",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "zoo_animals",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-animaux-du-zoo-e6d3"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-arbres-4216",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "tree",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-arbres-4216"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-au-supermarche-d832",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "at_the_supermarket",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-au-supermarche-d832"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-autour-de-la-maison-bfc0",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "around_the_house",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-autour-de-la-maison-bfc0"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-boulangerie-612b",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "bakery",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-boulangerie-612b"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-bureau-de-poste-4d38",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "post_office",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-bureau-de-poste-4d38"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-camping-0bc5",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "camping",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-camping-0bc5"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-choses-qui-volent-b0fa",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "things_that_fly",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-choses-qui-volent-b0fa"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-creatures-de-la-foret-5806",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "forest_creatures",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-creatures-de-la-foret-5806"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-desserts-et-sucreries-9198",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "desserts_and_sweets",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-desserts-et-sucreries-9198"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-dinosaures-0397",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "dinosaurs",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-dinosaures-0397"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-emotions-4abb",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "emotions",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-emotions-4abb"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-espace-19fd",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "space",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-espace-19fd"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-ete-0219",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "summer",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-ete-0219"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-fleurs-da6c",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "flowers",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-fleurs-da6c"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-fruits-8718",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "fruits",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-fruits-8718"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-hiver-46d5",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "winter",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-hiver-46d5"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-hopital-bb74",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "hospital",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-hopital-bb74"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-insectes-et-bestioles-9a7f",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "insects_and_bugs",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-insectes-et-bestioles-9a7f"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-jouets-906e",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "toys",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-jouets-906e"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-legumes-710d",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "vegetables",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-legumes-710d"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-meteo-d189",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "weather",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-meteo-d189"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-metiers-1865",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "occupations",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-metiers-1865"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-meubles-8b46",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "furniture",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-meubles-8b46"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-musique-0de0",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "music",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-musique-0de0"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-noel-4c30",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "christmas",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-noel-4c30"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-oiseaux-2-5dc4",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "birds_2",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-oiseaux-2-5dc4"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-oiseaux-233f",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "birds",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-oiseaux-233f"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-outils-6880",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "tools",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-outils-6880"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-paques-36b2",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "easter",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-paques-36b2"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-parties-du-corps-8a1f",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "body_parts",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-parties-du-corps-8a1f"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-petit-dejeuner-ee06",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "breakfast",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-petit-dejeuner-ee06"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-plage-ac2f",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "beach",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-plage-ac2f"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-printemps-e9ee",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "spring",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-printemps-e9ee"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-reptiles-et-amphibiens-28cb",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "reptiles_and_amphibians",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-reptiles-et-amphibiens-28cb"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-salle-de-classe-aa3f",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "classroom",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-salle-de-classe-aa3f"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-ustensiles-de-cuisine-347a",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "kitchen_tools",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-ustensiles-de-cuisine-347a"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-vehicules-8a70",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "vehicles",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-vehicules-8a70"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-vetements-d5d7",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "clothing",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-vetements-d5d7"
+  },
+  {
+   "slug": "pieces-manquantes-1-piece-manquante-vie-oceanique-b55f",
+   "type": "missing-pieces",
+   "mode": "one-missing",
+   "theme": "ocean_life",
+   "level": "maternelle",
+   "deck": "pieces-manquantes-1-piece-manquante-vie-oceanique-b55f"
   }
  ]
 }

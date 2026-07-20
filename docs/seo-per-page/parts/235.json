@@ -2,779 +2,651 @@
  "part": 235,
  "locale": "sv",
  "classes": [
-  "sudoku::medium",
-  "treasure-hunt::cardinal-arrows"
+  "addition::image-number",
+  "addition::mixed"
  ],
  "splitOf": null,
- "count": 96,
+ "count": 80,
  "pages": [
   {
-   "slug": "bildsudoku-medel-aktiviteter-7fd9",
-   "type": "sudoku",
-   "mode": "medium",
-   "theme": "activities",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-aktiviteter-7fd9"
-  },
-  {
-   "slug": "bildsudoku-medel-bageri-02ca",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-bageri-7dfd",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "bakery",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-bageri-02ca"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-bageri-7dfd"
   },
   {
-   "slug": "bildsudoku-medel-blommor-0d56",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-blommor-265c",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "flowers",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-blommor-0d56"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-blommor-265c"
   },
   {
-   "slug": "bildsudoku-medel-bondgardsdjur-e593",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-bondgardsdjur-bdb4",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "farm_animals",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-bondgardsdjur-e593"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-bondgardsdjur-bdb4"
   },
   {
-   "slug": "bildsudoku-medel-camping-7c95",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-camping-8900",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "camping",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-camping-7c95"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-camping-8900"
   },
   {
-   "slug": "bildsudoku-medel-dinosaurier-1ccf",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-dinosaurier-c237",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "dinosaurs",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-dinosaurier-1ccf"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-dinosaurier-c237"
   },
   {
-   "slug": "bildsudoku-medel-djur-0074",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-djur-7cd1",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "animals",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-djur-0074"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-djur-7cd1"
   },
   {
-   "slug": "bildsudoku-medel-djurparksdjur-ca0d",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-djurparksdjur-4dd4",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "zoo_animals",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-djurparksdjur-ca0d"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-djurparksdjur-4dd4"
   },
   {
-   "slug": "bildsudoku-medel-efterratter-och-godis-4833",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-efterratter-och-godis-3b1c",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "desserts_and_sweets",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-efterratter-och-godis-4833"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-efterratter-och-godis-3b1c"
   },
   {
-   "slug": "bildsudoku-medel-faglar-2-44a6",
-   "type": "sudoku",
-   "mode": "medium",
-   "theme": "birds_2",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-faglar-2-44a6"
-  },
-  {
-   "slug": "bildsudoku-medel-faglar-9df5",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-faglar-14e3",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "birds",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-faglar-9df5"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-faglar-14e3"
   },
   {
-   "slug": "bildsudoku-medel-farger-41c3",
-   "type": "sudoku",
-   "mode": "medium",
-   "theme": "colors",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-farger-41c3"
+   "slug": "addition-bild-nummer-faglar-2-5b59",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "birds_2",
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-faglar-2-5b59"
   },
   {
-   "slug": "bildsudoku-medel-fordon-48c3",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-fordon-6cb1",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "vehicles",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-fordon-48c3"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-fordon-6cb1"
   },
   {
-   "slug": "bildsudoku-medel-former-3094",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-former-5b5f",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "shapes",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-former-3094"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-former-5b5f"
   },
   {
-   "slug": "bildsudoku-medel-frukost-2e83",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-frukost-2081",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "breakfast",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-frukost-2e83"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-frukost-2081"
   },
   {
-   "slug": "bildsudoku-medel-frukter-5769",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-frukter-58ce",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "fruits",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-frukter-5769"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-frukter-58ce"
   },
   {
-   "slug": "bildsudoku-medel-gronsaker-f5e9",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-gronsaker-2b46",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "vegetables",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-gronsaker-f5e9"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-gronsaker-2b46"
   },
   {
-   "slug": "bildsudoku-medel-havsliv-0db1",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-havsliv-bdd5",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "ocean_life",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-havsliv-0db1"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-havsliv-bdd5"
   },
   {
-   "slug": "bildsudoku-medel-husdjur-e575",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-husdjur-f8b5",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "pets",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-husdjur-e575"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-husdjur-f8b5"
   },
   {
-   "slug": "bildsudoku-medel-i-snabbkopet-232d",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-i-snabbkopet-3340",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "at_the_supermarket",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-i-snabbkopet-232d"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-i-snabbkopet-3340"
   },
   {
-   "slug": "bildsudoku-medel-insekter-och-kryp-ecb1",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-insekter-och-kryp-0d44",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "insects_and_bugs",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-insekter-och-kryp-ecb1"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-insekter-och-kryp-0d44"
   },
   {
-   "slug": "bildsudoku-medel-jul-f3c2",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-jul-9ff9",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "christmas",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-jul-f3c2"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-jul-9ff9"
   },
   {
-   "slug": "bildsudoku-medel-kanslor-ae87",
-   "type": "sudoku",
-   "mode": "medium",
-   "theme": "emotions",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-kanslor-ae87"
-  },
-  {
-   "slug": "bildsudoku-medel-klader-d83c",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-klader-a1e2",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "clothing",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-klader-d83c"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-klader-a1e2"
   },
   {
-   "slug": "bildsudoku-medel-klassrum-708d",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-klassrum-0720",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "classroom",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-klassrum-708d"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-klassrum-0720"
   },
   {
-   "slug": "bildsudoku-medel-koksredskap-0ef8",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-koksredskap-7eee",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "kitchen_tools",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-koksredskap-0ef8"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-koksredskap-7eee"
   },
   {
-   "slug": "bildsudoku-medel-kroppsdelar-9212",
-   "type": "sudoku",
-   "mode": "medium",
-   "theme": "body_parts",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-kroppsdelar-9212"
-  },
-  {
-   "slug": "bildsudoku-medel-leksaker-91a4",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-leksaker-6c14",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "toys",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-leksaker-91a4"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-leksaker-6c14"
   },
   {
-   "slug": "bildsudoku-medel-mobler-9405",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-mobler-4ed5",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "furniture",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-mobler-9405"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-mobler-4ed5"
   },
   {
-   "slug": "bildsudoku-medel-musik-2050",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-musik-366a",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "music",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-musik-2050"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-musik-366a"
   },
   {
-   "slug": "bildsudoku-medel-pask-7c07",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-pask-a32b",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "easter",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-pask-7c07"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-pask-a32b"
   },
   {
-   "slug": "bildsudoku-medel-postkontor-536c",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-postkontor-19e0",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "post_office",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-postkontor-536c"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-postkontor-19e0"
   },
   {
-   "slug": "bildsudoku-medel-reptiler-och-groddjur-1ee1",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-reptiler-och-groddjur-5fb7",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "reptiles_and_amphibians",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-reptiler-och-groddjur-1ee1"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-reptiler-och-groddjur-5fb7"
   },
   {
-   "slug": "bildsudoku-medel-runt-huset-c30c",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-runt-huset-55bb",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "around_the_house",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-runt-huset-c30c"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-runt-huset-55bb"
   },
   {
-   "slug": "bildsudoku-medel-rymden-4a79",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-rymden-bbb7",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "space",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-rymden-4a79"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-rymden-bbb7"
   },
   {
-   "slug": "bildsudoku-medel-saker-som-flyger-563f",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-saker-som-flyger-78d5",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "things_that_fly",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-saker-som-flyger-563f"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-saker-som-flyger-78d5"
   },
   {
-   "slug": "bildsudoku-medel-sjukhus-1a87",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-sjukhus-963a",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "hospital",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-sjukhus-1a87"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-sjukhus-963a"
   },
   {
-   "slug": "bildsudoku-medel-skogsdjur-2cb0",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-skogsdjur-8345",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "forest_creatures",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-skogsdjur-2cb0"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-skogsdjur-8345"
   },
   {
-   "slug": "bildsudoku-medel-sommar-bfac",
-   "type": "sudoku",
-   "mode": "medium",
-   "theme": "summer",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-sommar-bfac"
-  },
-  {
-   "slug": "bildsudoku-medel-strand-760a",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-strand-ac63",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "beach",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-strand-760a"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-strand-ac63"
   },
   {
-   "slug": "bildsudoku-medel-thanksgiving-72f2",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-thanksgiving-006c",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "thanksgivinng",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-thanksgiving-72f2"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-thanksgiving-006c"
   },
   {
-   "slug": "bildsudoku-medel-tillbehor-8ae0",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-tillbehor-35b0",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "accessories",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-tillbehor-8ae0"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-tillbehor-35b0"
   },
   {
-   "slug": "bildsudoku-medel-trad-c575",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-trad-8313",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "tree",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-trad-c575"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-trad-8313"
   },
   {
-   "slug": "bildsudoku-medel-vader-d041",
-   "type": "sudoku",
-   "mode": "medium",
-   "theme": "weather",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-vader-d041"
-  },
-  {
-   "slug": "bildsudoku-medel-var-c2a5",
-   "type": "sudoku",
-   "mode": "medium",
-   "theme": "spring",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-var-c2a5"
-  },
-  {
-   "slug": "bildsudoku-medel-verktyg-5a5a",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-verktyg-b505",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "tools",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-verktyg-5a5a"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-verktyg-b505"
   },
   {
-   "slug": "bildsudoku-medel-vinter-0b16",
-   "type": "sudoku",
-   "mode": "medium",
-   "theme": "winter",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-vinter-0b16"
-  },
-  {
-   "slug": "bildsudoku-medel-yrken-217e",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "addition-bild-nummer-yrken-f15c",
+   "type": "addition",
+   "mode": "image-number",
    "theme": "occupations",
-   "level": "forskola",
-   "deck": "bildsudoku-medel-yrken-217e"
+   "level": "ak-1",
+   "deck": "addition-bild-nummer-yrken-f15c"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-aktiviteter-60aa",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "activities",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-aktiviteter-60aa"
-  },
-  {
-   "slug": "skattjakt-upp-ner-vanster-hoger-bageri-1e63",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-bageri-901c",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "bakery",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-bageri-1e63"
+   "level": "ak-1",
+   "deck": "addition-blandat-bageri-901c"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-blommor-12b6",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-blommor-a8db",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "flowers",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-blommor-12b6"
+   "level": "ak-1",
+   "deck": "addition-blandat-blommor-a8db"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-bondgardsdjur-5a68",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-bondgardsdjur-92f9",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "farm_animals",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-bondgardsdjur-5a68"
+   "level": "ak-1",
+   "deck": "addition-blandat-bondgardsdjur-92f9"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-camping-bcd0",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-camping-f4c8",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "camping",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-camping-bcd0"
+   "level": "ak-1",
+   "deck": "addition-blandat-camping-f4c8"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-dinosaurier-9d68",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-dinosaurier-faf0",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "dinosaurs",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-dinosaurier-9d68"
+   "level": "ak-1",
+   "deck": "addition-blandat-dinosaurier-faf0"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-djur",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-djur-ce20",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "animals",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-djur"
+   "level": "ak-1",
+   "deck": "addition-blandat-djur-ce20"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-djurparksdjur-861f",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-djurparksdjur-98bf",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "zoo_animals",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-djurparksdjur-861f"
+   "level": "ak-1",
+   "deck": "addition-blandat-djurparksdjur-98bf"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-efterratter-och-godis-a081",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-efterratter-och-godis-f48a",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "desserts_and_sweets",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-efterratter-och-godis-a081"
+   "level": "ak-1",
+   "deck": "addition-blandat-efterratter-och-godis-f48a"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-faglar-061c",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "birds",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-faglar-061c"
-  },
-  {
-   "slug": "skattjakt-upp-ner-vanster-hoger-faglar-2-2a5d",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-faglar-2-f6e9",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "birds_2",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-faglar-2-2a5d"
+   "level": "ak-1",
+   "deck": "addition-blandat-faglar-2-f6e9"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-farger-18e3",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "colors",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-farger-18e3"
+   "slug": "addition-blandat-faglar-3abc",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "ak-1",
+   "deck": "addition-blandat-faglar-3abc"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-fordon-7164",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-fordon-2821",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "vehicles",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-fordon-7164"
+   "level": "ak-1",
+   "deck": "addition-blandat-fordon-2821"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-former-689a",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-former-c711",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "shapes",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-former-689a"
+   "level": "ak-1",
+   "deck": "addition-blandat-former-c711"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-frukost-a074",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-frukost-92bb",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "breakfast",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-frukost-a074"
+   "level": "ak-1",
+   "deck": "addition-blandat-frukost-92bb"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-frukter-2f80",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-frukter-9779",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "fruits",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-frukter-2f80"
+   "level": "ak-1",
+   "deck": "addition-blandat-frukter-9779"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-gronsaker-8d35",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-gronsaker-dda9",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "vegetables",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-gronsaker-8d35"
+   "level": "ak-1",
+   "deck": "addition-blandat-gronsaker-dda9"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-havsliv-6e27",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-havsliv-a46e",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "ocean_life",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-havsliv-6e27"
+   "level": "ak-1",
+   "deck": "addition-blandat-havsliv-a46e"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-husdjur-aed9",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-husdjur-ab7f",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "pets",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-husdjur-aed9"
+   "level": "ak-1",
+   "deck": "addition-blandat-husdjur-ab7f"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-i-snabbkopet-f8b6",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-i-snabbkopet-1a8f",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "at_the_supermarket",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-i-snabbkopet-f8b6"
+   "level": "ak-1",
+   "deck": "addition-blandat-i-snabbkopet-1a8f"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-insekter-och-kryp-c962",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-insekter-och-kryp-e13a",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "insects_and_bugs",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-insekter-och-kryp-c962"
+   "level": "ak-1",
+   "deck": "addition-blandat-insekter-och-kryp-e13a"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-jul-87f2",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-jul-451f",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "christmas",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-jul-87f2"
+   "level": "ak-1",
+   "deck": "addition-blandat-jul-451f"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-kanslor-a994",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "emotions",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-kanslor-a994"
-  },
-  {
-   "slug": "skattjakt-upp-ner-vanster-hoger-klader-e127",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-klader-6c68",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "clothing",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-klader-e127"
+   "level": "ak-1",
+   "deck": "addition-blandat-klader-6c68"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-klassrum-441e",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-klassrum-eacf",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "classroom",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-klassrum-441e"
+   "level": "ak-1",
+   "deck": "addition-blandat-klassrum-eacf"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-koksredskap-a069",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-koksredskap-7ea9",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "kitchen_tools",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-koksredskap-a069"
+   "level": "ak-1",
+   "deck": "addition-blandat-koksredskap-7ea9"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-kroppsdelar-7506",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "body_parts",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-kroppsdelar-7506"
-  },
-  {
-   "slug": "skattjakt-upp-ner-vanster-hoger-leksaker-ca45",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-leksaker-0706",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "toys",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-leksaker-ca45"
+   "level": "ak-1",
+   "deck": "addition-blandat-leksaker-0706"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-mobler-12f3",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-mobler-3327",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "furniture",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-mobler-12f3"
+   "level": "ak-1",
+   "deck": "addition-blandat-mobler-3327"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-musik-1920",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-musik-8fc3",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "music",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-musik-1920"
+   "level": "ak-1",
+   "deck": "addition-blandat-musik-8fc3"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-pask-d392",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-pask-0c39",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "easter",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-pask-d392"
+   "level": "ak-1",
+   "deck": "addition-blandat-pask-0c39"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-postkontor-fe73",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-postkontor-811b",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "post_office",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-postkontor-fe73"
+   "level": "ak-1",
+   "deck": "addition-blandat-postkontor-811b"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-reptiler-och-groddjur-0615",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-reptiler-och-groddjur-8f47",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "reptiles_and_amphibians",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-reptiler-och-groddjur-0615"
+   "level": "ak-1",
+   "deck": "addition-blandat-reptiler-och-groddjur-8f47"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-runt-huset-b3bc",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-runt-huset-d348",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "around_the_house",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-runt-huset-b3bc"
+   "level": "ak-1",
+   "deck": "addition-blandat-runt-huset-d348"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-rymden-e454",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-rymden-175b",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "space",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-rymden-e454"
+   "level": "ak-1",
+   "deck": "addition-blandat-rymden-175b"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-saker-som-flyger-fb3b",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-saker-som-flyger-7dd6",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "things_that_fly",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-saker-som-flyger-fb3b"
+   "level": "ak-1",
+   "deck": "addition-blandat-saker-som-flyger-7dd6"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-sjukhus-9864",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-sjukhus-8ef1",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "hospital",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-sjukhus-9864"
+   "level": "ak-1",
+   "deck": "addition-blandat-sjukhus-8ef1"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-skogsdjur-26d2",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-skogsdjur-d0a5",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "forest_creatures",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-skogsdjur-26d2"
+   "level": "ak-1",
+   "deck": "addition-blandat-skogsdjur-d0a5"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-sommar-4253",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "summer",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-sommar-4253"
-  },
-  {
-   "slug": "skattjakt-upp-ner-vanster-hoger-strand-70e5",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-strand-abe2",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "beach",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-strand-70e5"
+   "level": "ak-1",
+   "deck": "addition-blandat-strand-abe2"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-thanksgiving-1a9e",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-thanksgiving-b66b",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "thanksgivinng",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-thanksgiving-1a9e"
+   "level": "ak-1",
+   "deck": "addition-blandat-thanksgiving-b66b"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-tillbehor-90e4",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-tillbehor-3144",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "accessories",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-tillbehor-90e4"
+   "level": "ak-1",
+   "deck": "addition-blandat-tillbehor-3144"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-trad-2b34",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-trad-f1da",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "tree",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-trad-2b34"
+   "level": "ak-1",
+   "deck": "addition-blandat-trad-f1da"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-vader-63f5",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "weather",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-vader-63f5"
-  },
-  {
-   "slug": "skattjakt-upp-ner-vanster-hoger-var-195f",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "spring",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-var-195f"
-  },
-  {
-   "slug": "skattjakt-upp-ner-vanster-hoger-verktyg-559a",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-verktyg-5337",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "tools",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-verktyg-559a"
+   "level": "ak-1",
+   "deck": "addition-blandat-verktyg-5337"
   },
   {
-   "slug": "skattjakt-upp-ner-vanster-hoger-vinter-f1ab",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "winter",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-vinter-f1ab"
-  },
-  {
-   "slug": "skattjakt-upp-ner-vanster-hoger-yrken-e076",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "addition-blandat-yrken-fd5b",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "occupations",
-   "level": "forskola",
-   "deck": "skattjakt-upp-ner-vanster-hoger-yrken-e076"
+   "level": "ak-1",
+   "deck": "addition-blandat-yrken-fd5b"
   }
  ]
 }

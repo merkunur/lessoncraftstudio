@@ -2,747 +2,643 @@
  "part": 61,
  "locale": "de",
  "classes": [
-  "missing-pieces::two-missing",
-  "odd-one-out::same-theme"
+  "math-puzzle::subtraction",
+  "bingo::null"
  ],
  "splitOf": null,
- "count": 92,
+ "count": 79,
  "pages": [
   {
-   "slug": "was-fehlt-2-fehlende-teile-accessoires-1f81",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-accessoires-bdaf",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "accessories",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-accessoires-1f81"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-subtraktion-accessoires-bdaf"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-aktivitaten-3646",
-   "type": "missing-pieces",
-   "mode": "two-missing",
-   "theme": "activities",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-aktivitaten-3646"
-  },
-  {
-   "slug": "was-fehlt-2-fehlende-teile-backerei-07aa",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-backerei-6020",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "bakery",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-backerei-07aa"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-subtraktion-backerei-6020"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-bauernhoftiere-a635",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-bauernhoftiere-d53d",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "farm_animals",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-bauernhoftiere-a635"
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-subtraktion-bauernhoftiere-d53d"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-baume-d2ab",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-baume-582b",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "tree",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-baume-d2ab"
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-subtraktion-baume-582b"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-berufe-b37f",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-berufe-011e",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "occupations",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-berufe-b37f"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-subtraktion-berufe-011e"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-blumen-ea9d",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-blumen-46ce",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "flowers",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-blumen-ea9d"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-subtraktion-blumen-46ce"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-camping-7fa4",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-camping-24fa",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "camping",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-camping-7fa4"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-subtraktion-camping-24fa"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-desserts-und-sussigkeiten-c8f9",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-desserts-und-sussigkeiten-3714",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "desserts_and_sweets",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-desserts-und-sussigkeiten-c8f9"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-subtraktion-desserts-und-sussigkeiten-3714"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-dinge-die-fliegen-27a0",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-dinge-die-fliegen-af9a",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "things_that_fly",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-dinge-die-fliegen-27a0"
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-subtraktion-dinge-die-fliegen-af9a"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-dinosaurier-163f",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-dinosaurier-ffe1",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "dinosaurs",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-dinosaurier-163f"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-subtraktion-dinosaurier-ffe1"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-emotionen-51aa",
-   "type": "missing-pieces",
-   "mode": "two-missing",
-   "theme": "emotions",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-emotionen-51aa"
-  },
-  {
-   "slug": "was-fehlt-2-fehlende-teile-erntedankfest-2e92",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-erntedankfest-8d47",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "thanksgivinng",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-erntedankfest-2e92"
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-subtraktion-erntedankfest-8d47"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-fahrzeuge-c5f0",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-fahrzeuge-8356",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "vehicles",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-fahrzeuge-c5f0"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-subtraktion-fahrzeuge-8356"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-fruchte-b844",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-formen-d643",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "shapes",
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-subtraktion-formen-d643"
+  },
+  {
+   "slug": "mathe-raetsel-subtraktion-fruchte-0914",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "fruits",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-fruchte-b844"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-subtraktion-fruchte-0914"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-fruhling-637d",
-   "type": "missing-pieces",
-   "mode": "two-missing",
-   "theme": "spring",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-fruhling-637d"
-  },
-  {
-   "slug": "was-fehlt-2-fehlende-teile-fruhstuck-bb2d",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-fruhstuck-1af0",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "breakfast",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-fruhstuck-bb2d"
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-subtraktion-fruhstuck-1af0"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-gemuse-c7cd",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-gemuse-f1a8",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "vegetables",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-gemuse-c7cd"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-subtraktion-gemuse-f1a8"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-haustiere-ab79",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-haustiere-755f",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "pets",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-haustiere-ab79"
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-subtraktion-haustiere-755f"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-im-supermarkt-1941",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-im-supermarkt-6ca0",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "at_the_supermarket",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-im-supermarkt-1941"
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-subtraktion-im-supermarkt-6ca0"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-insekten-und-kafer-27ae",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-insekten-und-kafer-4de0",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "insects_and_bugs",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-insekten-und-kafer-27ae"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-subtraktion-insekten-und-kafer-4de0"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-klassenzimmer-1b2b",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-klassenzimmer-21ec",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "classroom",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-klassenzimmer-1b2b"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-subtraktion-klassenzimmer-21ec"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-kleidung-1431",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-kleidung-e10a",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "clothing",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-kleidung-1431"
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-subtraktion-kleidung-e10a"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-korperteile-f04b",
-   "type": "missing-pieces",
-   "mode": "two-missing",
-   "theme": "body_parts",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-korperteile-f04b"
-  },
-  {
-   "slug": "was-fehlt-2-fehlende-teile-krankenhaus-ad1e",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-krankenhaus-0435",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "hospital",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-krankenhaus-ad1e"
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-subtraktion-krankenhaus-0435"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-kuchenwerkzeuge-f5e2",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-kuchenwerkzeuge-3b7d",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "kitchen_tools",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-kuchenwerkzeuge-f5e2"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-subtraktion-kuchenwerkzeuge-3b7d"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-meeresleben-c307",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-meeresleben-81cc",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "ocean_life",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-meeresleben-c307"
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-subtraktion-meeresleben-81cc"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-mobel-6ffa",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-mobel-dd69",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "furniture",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-mobel-6ffa"
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-subtraktion-mobel-dd69"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-musik-f220",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-musik-e5f0",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "music",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-musik-f220"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-subtraktion-musik-e5f0"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-ostern-1f28",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-ostern-e36a",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "easter",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-ostern-1f28"
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-subtraktion-ostern-e36a"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-postamt-4141",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-postamt-ba93",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "post_office",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-postamt-4141"
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-subtraktion-postamt-ba93"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-reptilien-und-amphibien-a453",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-reptilien-und-amphibien-ce6f",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "reptiles_and_amphibians",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-reptilien-und-amphibien-a453"
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-subtraktion-reptilien-und-amphibien-ce6f"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-rund-ums-haus-941c",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-rund-ums-haus-d030",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "around_the_house",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-rund-ums-haus-941c"
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-subtraktion-rund-ums-haus-d030"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-sommer-e89f",
-   "type": "missing-pieces",
-   "mode": "two-missing",
-   "theme": "summer",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-sommer-e89f"
-  },
-  {
-   "slug": "was-fehlt-2-fehlende-teile-spielzeug-e43a",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-spielzeug-f29c",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "toys",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-spielzeug-e43a"
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-subtraktion-spielzeug-f29c"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-strand-774b",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-strand-ecab",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "beach",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-strand-774b"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-subtraktion-strand-ecab"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-tiere-22e4",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-tiere-fa03",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "animals",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-tiere-22e4"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-subtraktion-tiere-fa03"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-vogel-2-bac7",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-verschiedenes-cd8d",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "miscellaneous",
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-subtraktion-verschiedenes-cd8d"
+  },
+  {
+   "slug": "mathe-raetsel-subtraktion-vogel-2-00f3",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "birds_2",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-vogel-2-bac7"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-subtraktion-vogel-2-00f3"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-vogel-966a",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-vogel-386d",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "birds",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-vogel-966a"
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-subtraktion-vogel-386d"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-waldtiere-5809",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-waldtiere-c55a",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "forest_creatures",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-waldtiere-5809"
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-subtraktion-waldtiere-c55a"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-weihnachten-7a4f",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-weihnachten-78f4",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "christmas",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-weihnachten-7a4f"
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-subtraktion-weihnachten-78f4"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-weltraum-fc2a",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-weltraum-9fdc",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "space",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-weltraum-fc2a"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-subtraktion-weltraum-9fdc"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-werkzeuge-49e4",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-werkzeuge-ec77",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "tools",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-werkzeuge-49e4"
+   "level": "1-klasse",
+   "deck": "mathe-raetsel-subtraktion-werkzeuge-ec77"
   },
   {
-   "slug": "was-fehlt-2-fehlende-teile-wetter-3136",
-   "type": "missing-pieces",
-   "mode": "two-missing",
-   "theme": "weather",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-wetter-3136"
-  },
-  {
-   "slug": "was-fehlt-2-fehlende-teile-winter-8179",
-   "type": "missing-pieces",
-   "mode": "two-missing",
-   "theme": "winter",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-winter-8179"
-  },
-  {
-   "slug": "was-fehlt-2-fehlende-teile-zootiere-eb58",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "mathe-raetsel-subtraktion-zootiere-ea8a",
+   "type": "math-puzzle",
+   "mode": "subtraction",
    "theme": "zoo_animals",
-   "level": "vorschule",
-   "deck": "was-fehlt-2-fehlende-teile-zootiere-eb58"
+   "level": "2-klasse",
+   "deck": "mathe-raetsel-subtraktion-zootiere-ea8a"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-accessoires-a649",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-accessoires-1952",
+   "type": "bingo",
+   "mode": null,
    "theme": "accessories",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-accessoires-a649"
+   "deck": "bingo-accessoires-1952"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-aktivitaten-4537",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-aktivitaten-b576",
+   "type": "bingo",
+   "mode": null,
    "theme": "activities",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-aktivitaten-4537"
+   "deck": "bingo-aktivitaten-b576"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-backerei-cc72",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-backerei-ad6a",
+   "type": "bingo",
+   "mode": null,
    "theme": "bakery",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-backerei-cc72"
+   "deck": "bingo-backerei-ad6a"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-bauernhoftiere-9414",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-bauernhoftiere-8f91",
+   "type": "bingo",
+   "mode": null,
    "theme": "farm_animals",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-bauernhoftiere-9414"
+   "deck": "bingo-bauernhoftiere-8f91"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-baume-7707",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "tree",
-   "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-baume-7707"
-  },
-  {
-   "slug": "was-passt-nicht-gleiches-thema-berufe-f622",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-berufe-5417",
+   "type": "bingo",
+   "mode": null,
    "theme": "occupations",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-berufe-f622"
+   "deck": "bingo-berufe-5417"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-blumen-854d",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-blumen-520b",
+   "type": "bingo",
+   "mode": null,
    "theme": "flowers",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-blumen-854d"
+   "deck": "bingo-blumen-520b"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-camping-3916",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-camping-b7d5",
+   "type": "bingo",
+   "mode": null,
    "theme": "camping",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-camping-3916"
+   "deck": "bingo-camping-b7d5"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-desserts-und-sussigkeiten-0ea8",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-desserts-und-sussigkeiten-44ab",
+   "type": "bingo",
+   "mode": null,
    "theme": "desserts_and_sweets",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-desserts-und-sussigkeiten-0ea8"
+   "deck": "bingo-desserts-und-sussigkeiten-44ab"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-dinge-die-fliegen-a762",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-dinge-die-fliegen-164f",
+   "type": "bingo",
+   "mode": null,
    "theme": "things_that_fly",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-dinge-die-fliegen-a762"
+   "deck": "bingo-dinge-die-fliegen-164f"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-dinosaurier-a7e0",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "dinosaurs",
-   "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-dinosaurier-a7e0"
-  },
-  {
-   "slug": "was-passt-nicht-gleiches-thema-emotionen-af25",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "emotions",
-   "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-emotionen-af25"
-  },
-  {
-   "slug": "was-passt-nicht-gleiches-thema-erntedankfest-b3ee",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "thanksgivinng",
-   "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-erntedankfest-b3ee"
-  },
-  {
-   "slug": "was-passt-nicht-gleiches-thema-fahrzeuge-d80a",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-fahrzeuge-c612",
+   "type": "bingo",
+   "mode": null,
    "theme": "vehicles",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-fahrzeuge-d80a"
+   "deck": "bingo-fahrzeuge-c612"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-farben-e20e",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-farben-a288",
+   "type": "bingo",
+   "mode": null,
    "theme": "colors",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-farben-e20e"
+   "deck": "bingo-farben-a288"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-formen-49f4",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-formen-a752",
+   "type": "bingo",
+   "mode": null,
    "theme": "shapes",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-formen-49f4"
+   "deck": "bingo-formen-a752"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-fruchte-1614",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-fruchte-ec24",
+   "type": "bingo",
+   "mode": null,
    "theme": "fruits",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-fruchte-1614"
+   "deck": "bingo-fruchte-ec24"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-fruhling-f9d8",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-fruhling-7b37",
+   "type": "bingo",
+   "mode": null,
    "theme": "spring",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-fruhling-f9d8"
+   "deck": "bingo-fruhling-7b37"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-fruhstuck-7d75",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-fruhstuck-b454",
+   "type": "bingo",
+   "mode": null,
    "theme": "breakfast",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-fruhstuck-7d75"
+   "deck": "bingo-fruhstuck-b454"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-gemuse-42ef",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-gemuse-afa3",
+   "type": "bingo",
+   "mode": null,
    "theme": "vegetables",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-gemuse-42ef"
+   "deck": "bingo-gemuse-afa3"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-haustiere-cb98",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-haustiere-6b89",
+   "type": "bingo",
+   "mode": null,
    "theme": "pets",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-haustiere-cb98"
+   "deck": "bingo-haustiere-6b89"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-im-supermarkt-d7b8",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-im-supermarkt-e6dc",
+   "type": "bingo",
+   "mode": null,
    "theme": "at_the_supermarket",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-im-supermarkt-d7b8"
+   "deck": "bingo-im-supermarkt-e6dc"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-insekten-und-kafer-a5f6",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "insects_and_bugs",
-   "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-insekten-und-kafer-a5f6"
-  },
-  {
-   "slug": "was-passt-nicht-gleiches-thema-klassenzimmer-0d01",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-klassenzimmer-f2d0",
+   "type": "bingo",
+   "mode": null,
    "theme": "classroom",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-klassenzimmer-0d01"
+   "deck": "bingo-klassenzimmer-f2d0"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-kleidung-8cc8",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-kleidung-1924",
+   "type": "bingo",
+   "mode": null,
    "theme": "clothing",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-kleidung-8cc8"
+   "deck": "bingo-kleidung-1924"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-korperteile-f338",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-korperteile-eb35",
+   "type": "bingo",
+   "mode": null,
    "theme": "body_parts",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-korperteile-f338"
+   "deck": "bingo-korperteile-eb35"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-krankenhaus-7edc",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-krankenhaus-ad30",
+   "type": "bingo",
+   "mode": null,
    "theme": "hospital",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-krankenhaus-7edc"
+   "deck": "bingo-krankenhaus-ad30"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-kuchenwerkzeuge-626d",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-kuchenwerkzeuge-cec6",
+   "type": "bingo",
+   "mode": null,
    "theme": "kitchen_tools",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-kuchenwerkzeuge-626d"
+   "deck": "bingo-kuchenwerkzeuge-cec6"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-meeresleben-ed3e",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-meeresleben-e4f5",
+   "type": "bingo",
+   "mode": null,
    "theme": "ocean_life",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-meeresleben-ed3e"
+   "deck": "bingo-meeresleben-e4f5"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-mobel-188a",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-mobel-08f3",
+   "type": "bingo",
+   "mode": null,
    "theme": "furniture",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-mobel-188a"
+   "deck": "bingo-mobel-08f3"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-musik-1100",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "music",
-   "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-musik-1100"
-  },
-  {
-   "slug": "was-passt-nicht-gleiches-thema-ostern-0fc9",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-ostern-0147",
+   "type": "bingo",
+   "mode": null,
    "theme": "easter",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-ostern-0fc9"
+   "deck": "bingo-ostern-0147"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-postamt-3ab4",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "post_office",
-   "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-postamt-3ab4"
-  },
-  {
-   "slug": "was-passt-nicht-gleiches-thema-rund-ums-haus-61aa",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-rund-ums-haus-e331",
+   "type": "bingo",
+   "mode": null,
    "theme": "around_the_house",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-rund-ums-haus-61aa"
+   "deck": "bingo-rund-ums-haus-e331"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-sommer-7105",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-sommer-71c2",
+   "type": "bingo",
+   "mode": null,
    "theme": "summer",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-sommer-7105"
+   "deck": "bingo-sommer-71c2"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-spielzeug-bb93",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-spielzeug-79e4",
+   "type": "bingo",
+   "mode": null,
    "theme": "toys",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-spielzeug-bb93"
+   "deck": "bingo-spielzeug-79e4"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-strand-a32e",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-strand-6329",
+   "type": "bingo",
+   "mode": null,
    "theme": "beach",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-strand-a32e"
+   "deck": "bingo-strand-6329"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-tiere",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-tiere-de6f",
+   "type": "bingo",
+   "mode": null,
    "theme": "animals",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-tiere"
+   "deck": "bingo-tiere-de6f"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-vogel-2-8562",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-vogel-2-11a9",
+   "type": "bingo",
+   "mode": null,
    "theme": "birds_2",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-vogel-2-8562"
+   "deck": "bingo-vogel-2-11a9"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-vogel-2caa",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "birds",
-   "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-vogel-2caa"
-  },
-  {
-   "slug": "was-passt-nicht-gleiches-thema-waldtiere-3f7f",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-waldtiere-67c8",
+   "type": "bingo",
+   "mode": null,
    "theme": "forest_creatures",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-waldtiere-3f7f"
+   "deck": "bingo-waldtiere-67c8"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-weihnachten-bae4",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-weihnachten-46b0",
+   "type": "bingo",
+   "mode": null,
    "theme": "christmas",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-weihnachten-bae4"
+   "deck": "bingo-weihnachten-46b0"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-weltraum-584e",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-weltraum-71db",
+   "type": "bingo",
+   "mode": null,
    "theme": "space",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-weltraum-584e"
+   "deck": "bingo-weltraum-71db"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-werkzeuge-3bf5",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "tools",
-   "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-werkzeuge-3bf5"
-  },
-  {
-   "slug": "was-passt-nicht-gleiches-thema-wetter-c622",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-wetter-4e33",
+   "type": "bingo",
+   "mode": null,
    "theme": "weather",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-wetter-c622"
+   "deck": "bingo-wetter-4e33"
   },
   {
-   "slug": "was-passt-nicht-gleiches-thema-zootiere-a24e",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "bingo-winter-0734",
+   "type": "bingo",
+   "mode": null,
+   "theme": "winter",
+   "level": "vorschule",
+   "deck": "bingo-winter-0734"
+  },
+  {
+   "slug": "bingo-zootiere-6e03",
+   "type": "bingo",
+   "mode": null,
    "theme": "zoo_animals",
    "level": "vorschule",
-   "deck": "was-passt-nicht-gleiches-thema-zootiere-a24e"
+   "deck": "bingo-zootiere-6e03"
   }
  ]
 }

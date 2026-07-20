@@ -7,578 +7,578 @@
  "splitOf": {
   "class": "crossword::null",
   "total": 497,
-  "chunk": 7,
+  "chunk": 2,
   "chunks": 7
  },
  "count": 71,
  "pages": [
   {
-   "slug": "spanish-crossword-emotions-8a89",
-   "type": "crossword",
-   "mode": null,
-   "theme": "emotions",
-   "level": "language-beginner",
-   "deck": "spanish-crossword-emotions-8a89"
-  },
-  {
-   "slug": "spanish-crossword-farm-animals-7742",
-   "type": "crossword",
-   "mode": null,
-   "theme": "farm_animals",
-   "level": "language-beginner",
-   "deck": "spanish-crossword-farm-animals-7742"
-  },
-  {
-   "slug": "spanish-crossword-flowers-ea7e",
-   "type": "crossword",
-   "mode": null,
-   "theme": "flowers",
-   "level": "language-beginner",
-   "deck": "spanish-crossword-flowers-ea7e"
-  },
-  {
-   "slug": "spanish-crossword-forest-creatures-d6e0",
-   "type": "crossword",
-   "mode": null,
-   "theme": "forest_creatures",
-   "level": "language-beginner",
-   "deck": "spanish-crossword-forest-creatures-d6e0"
-  },
-  {
-   "slug": "spanish-crossword-fruits-0caa",
-   "type": "crossword",
-   "mode": null,
-   "theme": "fruits",
-   "level": "language-beginner",
-   "deck": "spanish-crossword-fruits-0caa"
-  },
-  {
-   "slug": "spanish-crossword-furniture-520d",
-   "type": "crossword",
-   "mode": null,
-   "theme": "furniture",
-   "level": "language-beginner",
-   "deck": "spanish-crossword-furniture-520d"
-  },
-  {
-   "slug": "spanish-crossword-hospital-2c17",
-   "type": "crossword",
-   "mode": null,
-   "theme": "hospital",
-   "level": "language-beginner",
-   "deck": "spanish-crossword-hospital-2c17"
-  },
-  {
-   "slug": "spanish-crossword-insects-and-bugs-5d82",
-   "type": "crossword",
-   "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "language-beginner",
-   "deck": "spanish-crossword-insects-and-bugs-5d82"
-  },
-  {
-   "slug": "spanish-crossword-kitchen-tools-7d19",
+   "slug": "danish-crossword-kitchen-tools-d496",
    "type": "crossword",
    "mode": null,
    "theme": "kitchen_tools",
    "level": "language-beginner",
-   "deck": "spanish-crossword-kitchen-tools-7d19"
+   "deck": "danish-crossword-kitchen-tools-d496"
   },
   {
-   "slug": "spanish-crossword-music-eff7",
+   "slug": "danish-crossword-music-84e5",
    "type": "crossword",
    "mode": null,
    "theme": "music",
    "level": "language-beginner",
-   "deck": "spanish-crossword-music-eff7"
+   "deck": "danish-crossword-music-84e5"
   },
   {
-   "slug": "spanish-crossword-occupations-7274",
+   "slug": "danish-crossword-occupations-a3f0",
    "type": "crossword",
    "mode": null,
    "theme": "occupations",
    "level": "language-beginner",
-   "deck": "spanish-crossword-occupations-7274"
+   "deck": "danish-crossword-occupations-a3f0"
   },
   {
-   "slug": "spanish-crossword-ocean-life-1861",
+   "slug": "danish-crossword-ocean-life-7c1d",
    "type": "crossword",
    "mode": null,
    "theme": "ocean_life",
    "level": "language-beginner",
-   "deck": "spanish-crossword-ocean-life-1861"
+   "deck": "danish-crossword-ocean-life-7c1d"
   },
   {
-   "slug": "spanish-crossword-pets-56d0",
+   "slug": "danish-crossword-pets-aa31",
    "type": "crossword",
    "mode": null,
    "theme": "pets",
    "level": "language-beginner",
-   "deck": "spanish-crossword-pets-56d0"
+   "deck": "danish-crossword-pets-aa31"
   },
   {
-   "slug": "spanish-crossword-post-office-0b97",
+   "slug": "danish-crossword-post-office-e314",
    "type": "crossword",
    "mode": null,
    "theme": "post_office",
    "level": "language-beginner",
-   "deck": "spanish-crossword-post-office-0b97"
+   "deck": "danish-crossword-post-office-e314"
   },
   {
-   "slug": "spanish-crossword-shapes-2011",
+   "slug": "danish-crossword-reptiles-and-amphibians-fe68",
+   "type": "crossword",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "language-beginner",
+   "deck": "danish-crossword-reptiles-and-amphibians-fe68"
+  },
+  {
+   "slug": "danish-crossword-shapes-9318",
    "type": "crossword",
    "mode": null,
    "theme": "shapes",
    "level": "language-beginner",
-   "deck": "spanish-crossword-shapes-2011"
+   "deck": "danish-crossword-shapes-9318"
   },
   {
-   "slug": "spanish-crossword-space-281d",
+   "slug": "danish-crossword-space-2058",
    "type": "crossword",
    "mode": null,
    "theme": "space",
    "level": "language-beginner",
-   "deck": "spanish-crossword-space-281d"
+   "deck": "danish-crossword-space-2058"
   },
   {
-   "slug": "spanish-crossword-spring-7168",
+   "slug": "danish-crossword-spring-68ab",
    "type": "crossword",
    "mode": null,
    "theme": "spring",
    "level": "language-beginner",
-   "deck": "spanish-crossword-spring-7168"
+   "deck": "danish-crossword-spring-68ab"
   },
   {
-   "slug": "spanish-crossword-summer-0289",
+   "slug": "danish-crossword-summer-0992",
    "type": "crossword",
    "mode": null,
    "theme": "summer",
    "level": "language-beginner",
-   "deck": "spanish-crossword-summer-0289"
+   "deck": "danish-crossword-summer-0992"
   },
   {
-   "slug": "spanish-crossword-thanksgiving-405a",
+   "slug": "danish-crossword-thanksgiving-fdb0",
    "type": "crossword",
    "mode": null,
    "theme": "thanksgivinng",
    "level": "language-beginner",
-   "deck": "spanish-crossword-thanksgiving-405a"
+   "deck": "danish-crossword-thanksgiving-fdb0"
   },
   {
-   "slug": "spanish-crossword-things-that-fly-0c50",
+   "slug": "danish-crossword-things-that-fly-a6ab",
    "type": "crossword",
    "mode": null,
    "theme": "things_that_fly",
    "level": "language-beginner",
-   "deck": "spanish-crossword-things-that-fly-0c50"
+   "deck": "danish-crossword-things-that-fly-a6ab"
   },
   {
-   "slug": "spanish-crossword-tools-4cf3",
+   "slug": "danish-crossword-tools-e8d5",
    "type": "crossword",
    "mode": null,
    "theme": "tools",
    "level": "language-beginner",
-   "deck": "spanish-crossword-tools-4cf3"
+   "deck": "danish-crossword-tools-e8d5"
   },
   {
-   "slug": "spanish-crossword-toys-2d4c",
+   "slug": "danish-crossword-toys-25ed",
    "type": "crossword",
    "mode": null,
    "theme": "toys",
    "level": "language-beginner",
-   "deck": "spanish-crossword-toys-2d4c"
+   "deck": "danish-crossword-toys-25ed"
   },
   {
-   "slug": "spanish-crossword-vegetables-1bb4",
+   "slug": "danish-crossword-vegetables-45d8",
    "type": "crossword",
    "mode": null,
    "theme": "vegetables",
    "level": "language-beginner",
-   "deck": "spanish-crossword-vegetables-1bb4"
+   "deck": "danish-crossword-vegetables-45d8"
   },
   {
-   "slug": "spanish-crossword-vehicles-b131",
+   "slug": "danish-crossword-vehicles-54d1",
    "type": "crossword",
    "mode": null,
    "theme": "vehicles",
    "level": "language-beginner",
-   "deck": "spanish-crossword-vehicles-b131"
+   "deck": "danish-crossword-vehicles-54d1"
   },
   {
-   "slug": "spanish-crossword-weather-051b",
+   "slug": "danish-crossword-weather-39a8",
    "type": "crossword",
    "mode": null,
    "theme": "weather",
    "level": "language-beginner",
-   "deck": "spanish-crossword-weather-051b"
+   "deck": "danish-crossword-weather-39a8"
   },
   {
-   "slug": "spanish-crossword-winter-d450",
+   "slug": "danish-crossword-winter-f063",
    "type": "crossword",
    "mode": null,
    "theme": "winter",
    "level": "language-beginner",
-   "deck": "spanish-crossword-winter-d450"
+   "deck": "danish-crossword-winter-f063"
   },
   {
-   "slug": "spanish-crossword-zoo-animals-0029",
+   "slug": "danish-crossword-zoo-animals-c499",
    "type": "crossword",
    "mode": null,
    "theme": "zoo_animals",
    "level": "language-beginner",
-   "deck": "spanish-crossword-zoo-animals-0029"
+   "deck": "danish-crossword-zoo-animals-c499"
   },
   {
-   "slug": "swedish-crossword-4th-of-july-e1b5",
+   "slug": "dutch-crossword-4th-of-july-cb8b",
    "type": "crossword",
    "mode": null,
    "theme": "4th_of_july",
    "level": "language-beginner",
-   "deck": "swedish-crossword-4th-of-july-e1b5"
+   "deck": "dutch-crossword-4th-of-july-cb8b"
   },
   {
-   "slug": "swedish-crossword-accessories-e568",
+   "slug": "dutch-crossword-accessories-22db",
    "type": "crossword",
    "mode": null,
    "theme": "accessories",
    "level": "language-beginner",
-   "deck": "swedish-crossword-accessories-e568"
+   "deck": "dutch-crossword-accessories-22db"
   },
   {
-   "slug": "swedish-crossword-activities-b64c",
+   "slug": "dutch-crossword-activities-f37d",
    "type": "crossword",
    "mode": null,
    "theme": "activities",
    "level": "language-beginner",
-   "deck": "swedish-crossword-activities-b64c"
+   "deck": "dutch-crossword-activities-f37d"
   },
   {
-   "slug": "swedish-crossword-animals-ebb5",
+   "slug": "dutch-crossword-animals-d0fc",
    "type": "crossword",
    "mode": null,
    "theme": "animals",
    "level": "language-beginner",
-   "deck": "swedish-crossword-animals-ebb5"
+   "deck": "dutch-crossword-animals-d0fc"
   },
   {
-   "slug": "swedish-crossword-around-the-house-a887",
+   "slug": "dutch-crossword-around-the-house-8779",
    "type": "crossword",
    "mode": null,
    "theme": "around_the_house",
    "level": "language-beginner",
-   "deck": "swedish-crossword-around-the-house-a887"
+   "deck": "dutch-crossword-around-the-house-8779"
   },
   {
-   "slug": "swedish-crossword-at-the-supermarket-c22e",
+   "slug": "dutch-crossword-at-the-supermarket-a88f",
    "type": "crossword",
    "mode": null,
    "theme": "at_the_supermarket",
    "level": "language-beginner",
-   "deck": "swedish-crossword-at-the-supermarket-c22e"
+   "deck": "dutch-crossword-at-the-supermarket-a88f"
   },
   {
-   "slug": "swedish-crossword-bakery-db4f",
+   "slug": "dutch-crossword-bakery-721c",
    "type": "crossword",
    "mode": null,
    "theme": "bakery",
    "level": "language-beginner",
-   "deck": "swedish-crossword-bakery-db4f"
+   "deck": "dutch-crossword-bakery-721c"
   },
   {
-   "slug": "swedish-crossword-beach-8faf",
+   "slug": "dutch-crossword-beach-b40a",
    "type": "crossword",
    "mode": null,
    "theme": "beach",
    "level": "language-beginner",
-   "deck": "swedish-crossword-beach-8faf"
+   "deck": "dutch-crossword-beach-b40a"
   },
   {
-   "slug": "swedish-crossword-birds-2-5c9a",
+   "slug": "dutch-crossword-birds-2-f1f4",
    "type": "crossword",
    "mode": null,
    "theme": "birds_2",
    "level": "language-beginner",
-   "deck": "swedish-crossword-birds-2-5c9a"
+   "deck": "dutch-crossword-birds-2-f1f4"
   },
   {
-   "slug": "swedish-crossword-body-parts-cba8",
+   "slug": "dutch-crossword-body-parts-a118",
    "type": "crossword",
    "mode": null,
    "theme": "body_parts",
    "level": "language-beginner",
-   "deck": "swedish-crossword-body-parts-cba8"
+   "deck": "dutch-crossword-body-parts-a118"
   },
   {
-   "slug": "swedish-crossword-breakfast-bf4a",
+   "slug": "dutch-crossword-breakfast-fc12",
    "type": "crossword",
    "mode": null,
    "theme": "breakfast",
    "level": "language-beginner",
-   "deck": "swedish-crossword-breakfast-bf4a"
+   "deck": "dutch-crossword-breakfast-fc12"
   },
   {
-   "slug": "swedish-crossword-camping-93b8",
+   "slug": "dutch-crossword-camping-afa4",
    "type": "crossword",
    "mode": null,
    "theme": "camping",
    "level": "language-beginner",
-   "deck": "swedish-crossword-camping-93b8"
+   "deck": "dutch-crossword-camping-afa4"
   },
   {
-   "slug": "swedish-crossword-christmas-b90f",
+   "slug": "dutch-crossword-christmas-ad37",
    "type": "crossword",
    "mode": null,
    "theme": "christmas",
    "level": "language-beginner",
-   "deck": "swedish-crossword-christmas-b90f"
+   "deck": "dutch-crossword-christmas-ad37"
   },
   {
-   "slug": "swedish-crossword-classroom-d588",
+   "slug": "dutch-crossword-classroom-232f",
    "type": "crossword",
    "mode": null,
    "theme": "classroom",
    "level": "language-beginner",
-   "deck": "swedish-crossword-classroom-d588"
+   "deck": "dutch-crossword-classroom-232f"
   },
   {
-   "slug": "swedish-crossword-clothing-fb3a",
+   "slug": "dutch-crossword-clothing-c591",
    "type": "crossword",
    "mode": null,
    "theme": "clothing",
    "level": "language-beginner",
-   "deck": "swedish-crossword-clothing-fb3a"
+   "deck": "dutch-crossword-clothing-c591"
   },
   {
-   "slug": "swedish-crossword-colors-4d7f",
+   "slug": "dutch-crossword-colors-c4ff",
    "type": "crossword",
    "mode": null,
    "theme": "colors",
    "level": "language-beginner",
-   "deck": "swedish-crossword-colors-4d7f"
+   "deck": "dutch-crossword-colors-c4ff"
   },
   {
-   "slug": "swedish-crossword-desserts-and-sweets-72e3",
+   "slug": "dutch-crossword-desserts-and-sweets-b70e",
    "type": "crossword",
    "mode": null,
    "theme": "desserts_and_sweets",
    "level": "language-beginner",
-   "deck": "swedish-crossword-desserts-and-sweets-72e3"
+   "deck": "dutch-crossword-desserts-and-sweets-b70e"
   },
   {
-   "slug": "swedish-crossword-easter-dccb",
+   "slug": "dutch-crossword-easter-89ac",
    "type": "crossword",
    "mode": null,
    "theme": "easter",
    "level": "language-beginner",
-   "deck": "swedish-crossword-easter-dccb"
+   "deck": "dutch-crossword-easter-89ac"
   },
   {
-   "slug": "swedish-crossword-emotions-66b0",
+   "slug": "dutch-crossword-emotions-fd76",
    "type": "crossword",
    "mode": null,
    "theme": "emotions",
    "level": "language-beginner",
-   "deck": "swedish-crossword-emotions-66b0"
+   "deck": "dutch-crossword-emotions-fd76"
   },
   {
-   "slug": "swedish-crossword-farm-animals-9c8e",
+   "slug": "dutch-crossword-farm-animals-3634",
    "type": "crossword",
    "mode": null,
    "theme": "farm_animals",
    "level": "language-beginner",
-   "deck": "swedish-crossword-farm-animals-9c8e"
+   "deck": "dutch-crossword-farm-animals-3634"
   },
   {
-   "slug": "swedish-crossword-flowers-c587",
+   "slug": "dutch-crossword-flowers-c563",
    "type": "crossword",
    "mode": null,
    "theme": "flowers",
    "level": "language-beginner",
-   "deck": "swedish-crossword-flowers-c587"
+   "deck": "dutch-crossword-flowers-c563"
   },
   {
-   "slug": "swedish-crossword-forest-creatures-f4ab",
+   "slug": "dutch-crossword-forest-creatures-810a",
    "type": "crossword",
    "mode": null,
    "theme": "forest_creatures",
    "level": "language-beginner",
-   "deck": "swedish-crossword-forest-creatures-f4ab"
+   "deck": "dutch-crossword-forest-creatures-810a"
   },
   {
-   "slug": "swedish-crossword-fruits-0a10",
+   "slug": "dutch-crossword-fruits-e291",
    "type": "crossword",
    "mode": null,
    "theme": "fruits",
    "level": "language-beginner",
-   "deck": "swedish-crossword-fruits-0a10"
+   "deck": "dutch-crossword-fruits-e291"
   },
   {
-   "slug": "swedish-crossword-furniture-44f2",
+   "slug": "dutch-crossword-furniture-2a98",
    "type": "crossword",
    "mode": null,
    "theme": "furniture",
    "level": "language-beginner",
-   "deck": "swedish-crossword-furniture-44f2"
+   "deck": "dutch-crossword-furniture-2a98"
   },
   {
-   "slug": "swedish-crossword-hospital-741c",
+   "slug": "dutch-crossword-hospital-e1d6",
    "type": "crossword",
    "mode": null,
    "theme": "hospital",
    "level": "language-beginner",
-   "deck": "swedish-crossword-hospital-741c"
+   "deck": "dutch-crossword-hospital-e1d6"
   },
   {
-   "slug": "swedish-crossword-insects-and-bugs-8fca",
+   "slug": "dutch-crossword-insects-and-bugs-c9bd",
    "type": "crossword",
    "mode": null,
    "theme": "insects_and_bugs",
    "level": "language-beginner",
-   "deck": "swedish-crossword-insects-and-bugs-8fca"
+   "deck": "dutch-crossword-insects-and-bugs-c9bd"
   },
   {
-   "slug": "swedish-crossword-kitchen-tools-1383",
+   "slug": "dutch-crossword-kitchen-tools-4758",
    "type": "crossword",
    "mode": null,
    "theme": "kitchen_tools",
    "level": "language-beginner",
-   "deck": "swedish-crossword-kitchen-tools-1383"
+   "deck": "dutch-crossword-kitchen-tools-4758"
   },
   {
-   "slug": "swedish-crossword-music-5471",
+   "slug": "dutch-crossword-music-8194",
    "type": "crossword",
    "mode": null,
    "theme": "music",
    "level": "language-beginner",
-   "deck": "swedish-crossword-music-5471"
+   "deck": "dutch-crossword-music-8194"
   },
   {
-   "slug": "swedish-crossword-occupations-f4d5",
+   "slug": "dutch-crossword-occupations-9f99",
    "type": "crossword",
    "mode": null,
    "theme": "occupations",
    "level": "language-beginner",
-   "deck": "swedish-crossword-occupations-f4d5"
+   "deck": "dutch-crossword-occupations-9f99"
   },
   {
-   "slug": "swedish-crossword-ocean-life-67f2",
+   "slug": "dutch-crossword-ocean-life-7e83",
    "type": "crossword",
    "mode": null,
    "theme": "ocean_life",
    "level": "language-beginner",
-   "deck": "swedish-crossword-ocean-life-67f2"
+   "deck": "dutch-crossword-ocean-life-7e83"
   },
   {
-   "slug": "swedish-crossword-pets-11fe",
+   "slug": "dutch-crossword-pets-cd8a",
    "type": "crossword",
    "mode": null,
    "theme": "pets",
    "level": "language-beginner",
-   "deck": "swedish-crossword-pets-11fe"
+   "deck": "dutch-crossword-pets-cd8a"
   },
   {
-   "slug": "swedish-crossword-post-office-b030",
+   "slug": "dutch-crossword-post-office-93e7",
    "type": "crossword",
    "mode": null,
    "theme": "post_office",
    "level": "language-beginner",
-   "deck": "swedish-crossword-post-office-b030"
+   "deck": "dutch-crossword-post-office-93e7"
   },
   {
-   "slug": "swedish-crossword-shapes-de04",
+   "slug": "dutch-crossword-reptiles-and-amphibians-c854",
+   "type": "crossword",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "language-beginner",
+   "deck": "dutch-crossword-reptiles-and-amphibians-c854"
+  },
+  {
+   "slug": "dutch-crossword-shapes-521b",
    "type": "crossword",
    "mode": null,
    "theme": "shapes",
    "level": "language-beginner",
-   "deck": "swedish-crossword-shapes-de04"
+   "deck": "dutch-crossword-shapes-521b"
   },
   {
-   "slug": "swedish-crossword-space-b1b6",
+   "slug": "dutch-crossword-space-9b22",
    "type": "crossword",
    "mode": null,
    "theme": "space",
    "level": "language-beginner",
-   "deck": "swedish-crossword-space-b1b6"
+   "deck": "dutch-crossword-space-9b22"
   },
   {
-   "slug": "swedish-crossword-spring-3193",
+   "slug": "dutch-crossword-spring-ea8b",
    "type": "crossword",
    "mode": null,
    "theme": "spring",
    "level": "language-beginner",
-   "deck": "swedish-crossword-spring-3193"
+   "deck": "dutch-crossword-spring-ea8b"
   },
   {
-   "slug": "swedish-crossword-summer-b988",
+   "slug": "dutch-crossword-summer-72f5",
    "type": "crossword",
    "mode": null,
    "theme": "summer",
    "level": "language-beginner",
-   "deck": "swedish-crossword-summer-b988"
+   "deck": "dutch-crossword-summer-72f5"
   },
   {
-   "slug": "swedish-crossword-thanksgiving-f84a",
+   "slug": "dutch-crossword-thanksgiving-81b9",
    "type": "crossword",
    "mode": null,
    "theme": "thanksgivinng",
    "level": "language-beginner",
-   "deck": "swedish-crossword-thanksgiving-f84a"
+   "deck": "dutch-crossword-thanksgiving-81b9"
   },
   {
-   "slug": "swedish-crossword-things-that-fly-9060",
+   "slug": "dutch-crossword-things-that-fly-a1d6",
    "type": "crossword",
    "mode": null,
    "theme": "things_that_fly",
    "level": "language-beginner",
-   "deck": "swedish-crossword-things-that-fly-9060"
+   "deck": "dutch-crossword-things-that-fly-a1d6"
   },
   {
-   "slug": "swedish-crossword-tools-422f",
+   "slug": "dutch-crossword-tools-04cc",
    "type": "crossword",
    "mode": null,
    "theme": "tools",
    "level": "language-beginner",
-   "deck": "swedish-crossword-tools-422f"
+   "deck": "dutch-crossword-tools-04cc"
   },
   {
-   "slug": "swedish-crossword-toys-ecc0",
+   "slug": "dutch-crossword-toys-8053",
    "type": "crossword",
    "mode": null,
    "theme": "toys",
    "level": "language-beginner",
-   "deck": "swedish-crossword-toys-ecc0"
+   "deck": "dutch-crossword-toys-8053"
   },
   {
-   "slug": "swedish-crossword-vegetables-a520",
+   "slug": "dutch-crossword-vegetables-5199",
    "type": "crossword",
    "mode": null,
    "theme": "vegetables",
    "level": "language-beginner",
-   "deck": "swedish-crossword-vegetables-a520"
+   "deck": "dutch-crossword-vegetables-5199"
   },
   {
-   "slug": "swedish-crossword-vehicles-935d",
+   "slug": "dutch-crossword-vehicles-ab3d",
    "type": "crossword",
    "mode": null,
    "theme": "vehicles",
    "level": "language-beginner",
-   "deck": "swedish-crossword-vehicles-935d"
+   "deck": "dutch-crossword-vehicles-ab3d"
   },
   {
-   "slug": "swedish-crossword-winter-ca3e",
+   "slug": "dutch-crossword-weather-934f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "weather",
+   "level": "language-beginner",
+   "deck": "dutch-crossword-weather-934f"
+  },
+  {
+   "slug": "dutch-crossword-winter-e4c1",
    "type": "crossword",
    "mode": null,
    "theme": "winter",
    "level": "language-beginner",
-   "deck": "swedish-crossword-winter-ca3e"
+   "deck": "dutch-crossword-winter-e4c1"
   },
   {
-   "slug": "swedish-crossword-zoo-animals-5d64",
+   "slug": "dutch-crossword-zoo-animals-0897",
    "type": "crossword",
    "mode": null,
    "theme": "zoo_animals",
    "level": "language-beginner",
-   "deck": "swedish-crossword-zoo-animals-5d64"
+   "deck": "dutch-crossword-zoo-animals-0897"
+  },
+  {
+   "slug": "finnish-crossword-4th-of-july-3f43",
+   "type": "crossword",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-4th-of-july-3f43"
+  },
+  {
+   "slug": "finnish-crossword-accessories-e82a",
+   "type": "crossword",
+   "mode": null,
+   "theme": "accessories",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-accessories-e82a"
+  },
+  {
+   "slug": "finnish-crossword-activities-b799",
+   "type": "crossword",
+   "mode": null,
+   "theme": "activities",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-activities-b799"
+  },
+  {
+   "slug": "finnish-crossword-animals-e67f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "animals",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-animals-e67f"
+  },
+  {
+   "slug": "finnish-crossword-around-the-house-d121",
+   "type": "crossword",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "language-beginner",
+   "deck": "finnish-crossword-around-the-house-d121"
   }
  ]
 }

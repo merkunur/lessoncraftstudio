@@ -2,675 +2,747 @@
  "part": 186,
  "locale": "it",
  "classes": [
-  "odd-one-out::cross-theme",
-  "addition::image-image"
+  "find-objects::find-odd",
+  "matching::letter"
  ],
  "splitOf": null,
- "count": 83,
+ "count": 92,
  "pages": [
   {
-   "slug": "l-intruso-multi-tema-abbigliamento-62e5",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-abbigliamento-b3cd",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "clothing",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-abbigliamento-62e5"
+   "deck": "trova-gli-oggetti-trova-il-diverso-abbigliamento-b3cd"
   },
   {
-   "slug": "l-intruso-multi-tema-accessori-2a94",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-accessori-cd12",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "accessories",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-accessori-2a94"
+   "deck": "trova-gli-oggetti-trova-il-diverso-accessori-cd12"
   },
   {
-   "slug": "l-intruso-multi-tema-animali-c336",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-al-supermercato-e849",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "at_the_supermarket",
+   "level": "infanzia",
+   "deck": "trova-gli-oggetti-trova-il-diverso-al-supermercato-e849"
+  },
+  {
+   "slug": "trova-gli-oggetti-trova-il-diverso-alberi-f01e",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "tree",
+   "level": "infanzia",
+   "deck": "trova-gli-oggetti-trova-il-diverso-alberi-f01e"
+  },
+  {
+   "slug": "trova-gli-oggetti-trova-il-diverso-animali-b2f3",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "animals",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-animali-c336"
+   "deck": "trova-gli-oggetti-trova-il-diverso-animali-b2f3"
   },
   {
-   "slug": "l-intruso-multi-tema-animali-della-fattoria-02a9",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-animali-della-fattoria-dbc6",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "farm_animals",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-animali-della-fattoria-02a9"
+   "deck": "trova-gli-oggetti-trova-il-diverso-animali-della-fattoria-dbc6"
   },
   {
-   "slug": "l-intruso-multi-tema-animali-dello-zoo-e6b6",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-animali-dello-zoo-356b",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "zoo_animals",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-animali-dello-zoo-e6b6"
+   "deck": "trova-gli-oggetti-trova-il-diverso-animali-dello-zoo-356b"
   },
   {
-   "slug": "l-intruso-multi-tema-animali-domestici-8bdb",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-animali-domestici-e1ed",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "pets",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-animali-domestici-8bdb"
+   "deck": "trova-gli-oggetti-trova-il-diverso-animali-domestici-e1ed"
   },
   {
-   "slug": "l-intruso-multi-tema-attivita-1741",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-attivita-5bbd",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "activities",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-attivita-1741"
+   "deck": "trova-gli-oggetti-trova-il-diverso-attivita-5bbd"
   },
   {
-   "slug": "l-intruso-multi-tema-attrezzi-596d",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-attrezzi-d4e5",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "tools",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-attrezzi-596d"
+   "deck": "trova-gli-oggetti-trova-il-diverso-attrezzi-d4e5"
   },
   {
-   "slug": "l-intruso-multi-tema-aula-eb5f",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-aula-474a",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "classroom",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-aula-eb5f"
+   "deck": "trova-gli-oggetti-trova-il-diverso-aula-474a"
   },
   {
-   "slug": "l-intruso-multi-tema-colazione-72b7",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-campeggio-3d0d",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "camping",
+   "level": "infanzia",
+   "deck": "trova-gli-oggetti-trova-il-diverso-campeggio-3d0d"
+  },
+  {
+   "slug": "trova-gli-oggetti-trova-il-diverso-colazione-caec",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "breakfast",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-colazione-72b7"
+   "deck": "trova-gli-oggetti-trova-il-diverso-colazione-caec"
   },
   {
-   "slug": "l-intruso-multi-tema-dinosauri-57d2",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-colori-cedf",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "colors",
+   "level": "infanzia",
+   "deck": "trova-gli-oggetti-trova-il-diverso-colori-cedf"
+  },
+  {
+   "slug": "trova-gli-oggetti-trova-il-diverso-cose-che-volano-8a60",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "things_that_fly",
+   "level": "infanzia",
+   "deck": "trova-gli-oggetti-trova-il-diverso-cose-che-volano-8a60"
+  },
+  {
+   "slug": "trova-gli-oggetti-trova-il-diverso-creature-della-foresta-4690",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "forest_creatures",
+   "level": "infanzia",
+   "deck": "trova-gli-oggetti-trova-il-diverso-creature-della-foresta-4690"
+  },
+  {
+   "slug": "trova-gli-oggetti-trova-il-diverso-dinosauri-84b9",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "dinosaurs",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-dinosauri-57d2"
+   "deck": "trova-gli-oggetti-trova-il-diverso-dinosauri-84b9"
   },
   {
-   "slug": "l-intruso-multi-tema-dolci-e-dolciumi-100e",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-dolci-e-dolciumi-3978",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "desserts_and_sweets",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-dolci-e-dolciumi-100e"
+   "deck": "trova-gli-oggetti-trova-il-diverso-dolci-e-dolciumi-3978"
   },
   {
-   "slug": "l-intruso-multi-tema-emozioni-39ec",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-emozioni-3241",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "emotions",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-emozioni-39ec"
+   "deck": "trova-gli-oggetti-trova-il-diverso-emozioni-3241"
   },
   {
-   "slug": "l-intruso-multi-tema-estate-17ac",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-estate-0648",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "summer",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-estate-17ac"
+   "deck": "trova-gli-oggetti-trova-il-diverso-estate-0648"
   },
   {
-   "slug": "l-intruso-multi-tema-fiori-520b",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-fiori-e842",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "flowers",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-fiori-520b"
+   "deck": "trova-gli-oggetti-trova-il-diverso-fiori-e842"
   },
   {
-   "slug": "l-intruso-multi-tema-forme-84e5",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-forme-c7fd",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "shapes",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-forme-84e5"
+   "deck": "trova-gli-oggetti-trova-il-diverso-forme-c7fd"
   },
   {
-   "slug": "l-intruso-multi-tema-frutta-28f9",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-frutta-171b",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "fruits",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-frutta-28f9"
+   "deck": "trova-gli-oggetti-trova-il-diverso-frutta-171b"
   },
   {
-   "slug": "l-intruso-multi-tema-giocattoli-ee76",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-giocattoli-c7bf",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "toys",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-giocattoli-ee76"
+   "deck": "trova-gli-oggetti-trova-il-diverso-giocattoli-c7bf"
   },
   {
-   "slug": "l-intruso-multi-tema-giorno-del-ringraziamento-3866",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-giorno-del-ringraziamento-cd05",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "thanksgivinng",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-giorno-del-ringraziamento-3866"
+   "deck": "trova-gli-oggetti-trova-il-diverso-giorno-del-ringraziamento-cd05"
   },
   {
-   "slug": "l-intruso-multi-tema-in-giro-per-casa-6ce6",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-in-giro-per-casa-1357",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "around_the_house",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-in-giro-per-casa-6ce6"
+   "deck": "trova-gli-oggetti-trova-il-diverso-in-giro-per-casa-1357"
   },
   {
-   "slug": "l-intruso-multi-tema-insetti-e-scarafaggi-8f2e",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-insetti-e-scarafaggi-d713",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "insects_and_bugs",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-insetti-e-scarafaggi-8f2e"
+   "deck": "trova-gli-oggetti-trova-il-diverso-insetti-e-scarafaggi-d713"
   },
   {
-   "slug": "l-intruso-multi-tema-inverno-23f4",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-inverno-61e8",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "winter",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-inverno-23f4"
+   "deck": "trova-gli-oggetti-trova-il-diverso-inverno-61e8"
   },
   {
-   "slug": "l-intruso-multi-tema-meteo-ec60",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-meteo-93be",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "weather",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-meteo-ec60"
+   "deck": "trova-gli-oggetti-trova-il-diverso-meteo-93be"
   },
   {
-   "slug": "l-intruso-multi-tema-mobili-cc17",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-mobili-e22c",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "furniture",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-mobili-cc17"
+   "deck": "trova-gli-oggetti-trova-il-diverso-mobili-e22c"
   },
   {
-   "slug": "l-intruso-multi-tema-musica-6551",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-musica-1e4f",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "music",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-musica-6551"
+   "deck": "trova-gli-oggetti-trova-il-diverso-musica-1e4f"
   },
   {
-   "slug": "l-intruso-multi-tema-natale-b0e2",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-natale-5e35",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "christmas",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-natale-b0e2"
+   "deck": "trova-gli-oggetti-trova-il-diverso-natale-5e35"
   },
   {
-   "slug": "l-intruso-multi-tema-ospedale-045a",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-ospedale-e93e",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "hospital",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-ospedale-045a"
+   "deck": "trova-gli-oggetti-trova-il-diverso-ospedale-e93e"
   },
   {
-   "slug": "l-intruso-multi-tema-panetteria-f382",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-panetteria-b676",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "bakery",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-panetteria-f382"
+   "deck": "trova-gli-oggetti-trova-il-diverso-panetteria-b676"
   },
   {
-   "slug": "l-intruso-multi-tema-parti-del-corpo-2ef8",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-parti-del-corpo-cd48",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "body_parts",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-parti-del-corpo-2ef8"
+   "deck": "trova-gli-oggetti-trova-il-diverso-parti-del-corpo-cd48"
   },
   {
-   "slug": "l-intruso-multi-tema-pasqua-1d37",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-pasqua-6558",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "easter",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-pasqua-1d37"
+   "deck": "trova-gli-oggetti-trova-il-diverso-pasqua-6558"
   },
   {
-   "slug": "l-intruso-multi-tema-primavera-9054",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-primavera-1b7f",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "spring",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-primavera-9054"
+   "deck": "trova-gli-oggetti-trova-il-diverso-primavera-1b7f"
   },
   {
-   "slug": "l-intruso-multi-tema-professioni-2971",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-professioni-c896",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "occupations",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-professioni-2971"
+   "deck": "trova-gli-oggetti-trova-il-diverso-professioni-c896"
   },
   {
-   "slug": "l-intruso-multi-tema-rettili-e-anfibi-e485",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
-   "theme": "reptiles_and_amphibians",
-   "level": "infanzia",
-   "deck": "l-intruso-multi-tema-rettili-e-anfibi-e485"
-  },
-  {
-   "slug": "l-intruso-multi-tema-spazio-8054",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-spazio-553d",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "space",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-spazio-8054"
+   "deck": "trova-gli-oggetti-trova-il-diverso-spazio-553d"
   },
   {
-   "slug": "l-intruso-multi-tema-spiaggia-9df0",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-spiaggia-da8f",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "beach",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-spiaggia-9df0"
+   "deck": "trova-gli-oggetti-trova-il-diverso-spiaggia-da8f"
   },
   {
-   "slug": "l-intruso-multi-tema-uccelli-2-d2f0",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-uccelli-2-219a",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "birds_2",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-uccelli-2-d2f0"
+   "deck": "trova-gli-oggetti-trova-il-diverso-uccelli-2-219a"
   },
   {
-   "slug": "l-intruso-multi-tema-uccelli-b309",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
-   "theme": "birds",
-   "level": "infanzia",
-   "deck": "l-intruso-multi-tema-uccelli-b309"
-  },
-  {
-   "slug": "l-intruso-multi-tema-ufficio-postale-4a21",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-ufficio-postale-222e",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "post_office",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-ufficio-postale-4a21"
+   "deck": "trova-gli-oggetti-trova-il-diverso-ufficio-postale-222e"
   },
   {
-   "slug": "l-intruso-multi-tema-utensili-da-cucina-b657",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-utensili-da-cucina-18bc",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "kitchen_tools",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-utensili-da-cucina-b657"
+   "deck": "trova-gli-oggetti-trova-il-diverso-utensili-da-cucina-18bc"
   },
   {
-   "slug": "l-intruso-multi-tema-veicoli-b51d",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-veicoli-acfe",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "vehicles",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-veicoli-b51d"
+   "deck": "trova-gli-oggetti-trova-il-diverso-veicoli-acfe"
   },
   {
-   "slug": "l-intruso-multi-tema-verdure-75be",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-verdure-977f",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "vegetables",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-verdure-75be"
+   "deck": "trova-gli-oggetti-trova-il-diverso-verdure-977f"
   },
   {
-   "slug": "l-intruso-multi-tema-vita-oceanica-ce79",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "trova-gli-oggetti-trova-il-diverso-vita-oceanica-cd90",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "ocean_life",
    "level": "infanzia",
-   "deck": "l-intruso-multi-tema-vita-oceanica-ce79"
+   "deck": "trova-gli-oggetti-trova-il-diverso-vita-oceanica-cd90"
   },
   {
-   "slug": "addizione-immagine-immagine-abbigliamento-d8c7",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-abbigliamento-b56a",
+   "type": "matching",
+   "mode": "letter",
    "theme": "clothing",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-abbigliamento-d8c7"
+   "deck": "abbinamento-lettera-abbigliamento-b56a"
   },
   {
-   "slug": "addizione-immagine-immagine-accessori-b739",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-accessori-a0d3",
+   "type": "matching",
+   "mode": "letter",
    "theme": "accessories",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-accessori-b739"
+   "deck": "abbinamento-lettera-accessori-a0d3"
   },
   {
-   "slug": "addizione-immagine-immagine-al-supermercato-81ae",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-al-supermercato-c57e",
+   "type": "matching",
+   "mode": "letter",
    "theme": "at_the_supermarket",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-al-supermercato-81ae"
+   "deck": "abbinamento-lettera-al-supermercato-c57e"
   },
   {
-   "slug": "addizione-immagine-immagine-alberi-1377",
-   "type": "addition",
-   "mode": "image-image",
-   "theme": "tree",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-alberi-1377"
-  },
-  {
-   "slug": "addizione-immagine-immagine-animali",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-animali-a730",
+   "type": "matching",
+   "mode": "letter",
    "theme": "animals",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-animali"
+   "deck": "abbinamento-lettera-animali-a730"
   },
   {
-   "slug": "addizione-immagine-immagine-animali-della-fattoria-e852",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-animali-della-fattoria-fb44",
+   "type": "matching",
+   "mode": "letter",
    "theme": "farm_animals",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-animali-della-fattoria-e852"
+   "deck": "abbinamento-lettera-animali-della-fattoria-fb44"
   },
   {
-   "slug": "addizione-immagine-immagine-animali-dello-zoo-0878",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-animali-dello-zoo-7e76",
+   "type": "matching",
+   "mode": "letter",
    "theme": "zoo_animals",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-animali-dello-zoo-0878"
+   "deck": "abbinamento-lettera-animali-dello-zoo-7e76"
   },
   {
-   "slug": "addizione-immagine-immagine-animali-domestici-9625",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-animali-domestici-f665",
+   "type": "matching",
+   "mode": "letter",
    "theme": "pets",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-animali-domestici-9625"
+   "deck": "abbinamento-lettera-animali-domestici-f665"
   },
   {
-   "slug": "addizione-immagine-immagine-attrezzi-76af",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-attivita-a0e1",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "activities",
+   "level": "classe-prima",
+   "deck": "abbinamento-lettera-attivita-a0e1"
+  },
+  {
+   "slug": "abbinamento-lettera-attrezzi-f2b7",
+   "type": "matching",
+   "mode": "letter",
    "theme": "tools",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-attrezzi-76af"
+   "deck": "abbinamento-lettera-attrezzi-f2b7"
   },
   {
-   "slug": "addizione-immagine-immagine-aula-2e21",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-aula-bb10",
+   "type": "matching",
+   "mode": "letter",
    "theme": "classroom",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-aula-2e21"
+   "deck": "abbinamento-lettera-aula-bb10"
   },
   {
-   "slug": "addizione-immagine-immagine-campeggio-0587",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-campeggio-5443",
+   "type": "matching",
+   "mode": "letter",
    "theme": "camping",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-campeggio-0587"
+   "deck": "abbinamento-lettera-campeggio-5443"
   },
   {
-   "slug": "addizione-immagine-immagine-colazione-61c0",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-colazione-68a2",
+   "type": "matching",
+   "mode": "letter",
    "theme": "breakfast",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-colazione-61c0"
+   "deck": "abbinamento-lettera-colazione-68a2"
   },
   {
-   "slug": "addizione-immagine-immagine-cose-che-volano-26bf",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-colori-18be",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "colors",
+   "level": "classe-prima",
+   "deck": "abbinamento-lettera-colori-18be"
+  },
+  {
+   "slug": "abbinamento-lettera-cose-che-volano-dbd7",
+   "type": "matching",
+   "mode": "letter",
    "theme": "things_that_fly",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-cose-che-volano-26bf"
+   "deck": "abbinamento-lettera-cose-che-volano-dbd7"
   },
   {
-   "slug": "addizione-immagine-immagine-creature-della-foresta-16a2",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-creature-della-foresta-844f",
+   "type": "matching",
+   "mode": "letter",
    "theme": "forest_creatures",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-creature-della-foresta-16a2"
+   "deck": "abbinamento-lettera-creature-della-foresta-844f"
   },
   {
-   "slug": "addizione-immagine-immagine-dinosauri-ec28",
-   "type": "addition",
-   "mode": "image-image",
-   "theme": "dinosaurs",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-dinosauri-ec28"
-  },
-  {
-   "slug": "addizione-immagine-immagine-dolci-e-dolciumi-8aac",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-dolci-e-dolciumi-22e3",
+   "type": "matching",
+   "mode": "letter",
    "theme": "desserts_and_sweets",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-dolci-e-dolciumi-8aac"
+   "deck": "abbinamento-lettera-dolci-e-dolciumi-22e3"
   },
   {
-   "slug": "addizione-immagine-immagine-fiori-0d41",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-emozioni-cb7a",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "emotions",
+   "level": "classe-prima",
+   "deck": "abbinamento-lettera-emozioni-cb7a"
+  },
+  {
+   "slug": "abbinamento-lettera-estate-762f",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "summer",
+   "level": "classe-prima",
+   "deck": "abbinamento-lettera-estate-762f"
+  },
+  {
+   "slug": "abbinamento-lettera-fiori-9014",
+   "type": "matching",
+   "mode": "letter",
    "theme": "flowers",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-fiori-0d41"
+   "deck": "abbinamento-lettera-fiori-9014"
   },
   {
-   "slug": "addizione-immagine-immagine-forme-5289",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-forme-6a98",
+   "type": "matching",
+   "mode": "letter",
    "theme": "shapes",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-forme-5289"
+   "deck": "abbinamento-lettera-forme-6a98"
   },
   {
-   "slug": "addizione-immagine-immagine-frutta-c6f4",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-frutta-ed2a",
+   "type": "matching",
+   "mode": "letter",
    "theme": "fruits",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-frutta-c6f4"
+   "deck": "abbinamento-lettera-frutta-ed2a"
   },
   {
-   "slug": "addizione-immagine-immagine-giocattoli-1663",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-giocattoli-d34c",
+   "type": "matching",
+   "mode": "letter",
    "theme": "toys",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-giocattoli-1663"
+   "deck": "abbinamento-lettera-giocattoli-d34c"
   },
   {
-   "slug": "addizione-immagine-immagine-giorno-del-ringraziamento-b12c",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-giorno-del-ringraziamento-7e05",
+   "type": "matching",
+   "mode": "letter",
    "theme": "thanksgivinng",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-giorno-del-ringraziamento-b12c"
+   "deck": "abbinamento-lettera-giorno-del-ringraziamento-7e05"
   },
   {
-   "slug": "addizione-immagine-immagine-in-giro-per-casa-26a0",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-in-giro-per-casa-0ee8",
+   "type": "matching",
+   "mode": "letter",
    "theme": "around_the_house",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-in-giro-per-casa-26a0"
+   "deck": "abbinamento-lettera-in-giro-per-casa-0ee8"
   },
   {
-   "slug": "addizione-immagine-immagine-insetti-e-scarafaggi-e9b9",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-insetti-e-scarafaggi-2e7e",
+   "type": "matching",
+   "mode": "letter",
    "theme": "insects_and_bugs",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-insetti-e-scarafaggi-e9b9"
+   "deck": "abbinamento-lettera-insetti-e-scarafaggi-2e7e"
   },
   {
-   "slug": "addizione-immagine-immagine-mobili-15d7",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-inverno-383b",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "winter",
+   "level": "classe-prima",
+   "deck": "abbinamento-lettera-inverno-383b"
+  },
+  {
+   "slug": "abbinamento-lettera-meteo-1b40",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "weather",
+   "level": "classe-prima",
+   "deck": "abbinamento-lettera-meteo-1b40"
+  },
+  {
+   "slug": "abbinamento-lettera-mobili-6777",
+   "type": "matching",
+   "mode": "letter",
    "theme": "furniture",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-mobili-15d7"
+   "deck": "abbinamento-lettera-mobili-6777"
   },
   {
-   "slug": "addizione-immagine-immagine-musica-b33e",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-musica-a5fb",
+   "type": "matching",
+   "mode": "letter",
    "theme": "music",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-musica-b33e"
+   "deck": "abbinamento-lettera-musica-a5fb"
   },
   {
-   "slug": "addizione-immagine-immagine-natale-77ca",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-natale-11c2",
+   "type": "matching",
+   "mode": "letter",
    "theme": "christmas",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-natale-77ca"
+   "deck": "abbinamento-lettera-natale-11c2"
   },
   {
-   "slug": "addizione-immagine-immagine-ospedale-40c4",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-ospedale-9e33",
+   "type": "matching",
+   "mode": "letter",
    "theme": "hospital",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-ospedale-40c4"
+   "deck": "abbinamento-lettera-ospedale-9e33"
   },
   {
-   "slug": "addizione-immagine-immagine-panetteria-d178",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-panetteria-b812",
+   "type": "matching",
+   "mode": "letter",
    "theme": "bakery",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-panetteria-d178"
+   "deck": "abbinamento-lettera-panetteria-b812"
   },
   {
-   "slug": "addizione-immagine-immagine-pasqua-213b",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-parti-del-corpo-a023",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "body_parts",
+   "level": "classe-prima",
+   "deck": "abbinamento-lettera-parti-del-corpo-a023"
+  },
+  {
+   "slug": "abbinamento-lettera-pasqua-d8c0",
+   "type": "matching",
+   "mode": "letter",
    "theme": "easter",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-pasqua-213b"
+   "deck": "abbinamento-lettera-pasqua-d8c0"
   },
   {
-   "slug": "addizione-immagine-immagine-professioni-37fe",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-primavera-c011",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "spring",
+   "level": "classe-prima",
+   "deck": "abbinamento-lettera-primavera-c011"
+  },
+  {
+   "slug": "abbinamento-lettera-professioni-9aa7",
+   "type": "matching",
+   "mode": "letter",
    "theme": "occupations",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-professioni-37fe"
+   "deck": "abbinamento-lettera-professioni-9aa7"
   },
   {
-   "slug": "addizione-immagine-immagine-rettili-e-anfibi-833f",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-rettili-e-anfibi-95ea",
+   "type": "matching",
+   "mode": "letter",
    "theme": "reptiles_and_amphibians",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-rettili-e-anfibi-833f"
+   "deck": "abbinamento-lettera-rettili-e-anfibi-95ea"
   },
   {
-   "slug": "addizione-immagine-immagine-spazio-f191",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-spazio-f20e",
+   "type": "matching",
+   "mode": "letter",
    "theme": "space",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-spazio-f191"
+   "deck": "abbinamento-lettera-spazio-f20e"
   },
   {
-   "slug": "addizione-immagine-immagine-spiaggia-db94",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-spiaggia-e5cd",
+   "type": "matching",
+   "mode": "letter",
    "theme": "beach",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-spiaggia-db94"
+   "deck": "abbinamento-lettera-spiaggia-e5cd"
   },
   {
-   "slug": "addizione-immagine-immagine-uccelli-1e54",
-   "type": "addition",
-   "mode": "image-image",
-   "theme": "birds",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-uccelli-1e54"
-  },
-  {
-   "slug": "addizione-immagine-immagine-uccelli-2-62ab",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-uccelli-2-ee0c",
+   "type": "matching",
+   "mode": "letter",
    "theme": "birds_2",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-uccelli-2-62ab"
+   "deck": "abbinamento-lettera-uccelli-2-ee0c"
   },
   {
-   "slug": "addizione-immagine-immagine-ufficio-postale-dde6",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-uccelli-32ee",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "birds",
+   "level": "classe-prima",
+   "deck": "abbinamento-lettera-uccelli-32ee"
+  },
+  {
+   "slug": "abbinamento-lettera-ufficio-postale-af06",
+   "type": "matching",
+   "mode": "letter",
    "theme": "post_office",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-ufficio-postale-dde6"
+   "deck": "abbinamento-lettera-ufficio-postale-af06"
   },
   {
-   "slug": "addizione-immagine-immagine-utensili-da-cucina-d617",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-utensili-da-cucina-f865",
+   "type": "matching",
+   "mode": "letter",
    "theme": "kitchen_tools",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-utensili-da-cucina-d617"
+   "deck": "abbinamento-lettera-utensili-da-cucina-f865"
   },
   {
-   "slug": "addizione-immagine-immagine-varie-2ab8",
-   "type": "addition",
-   "mode": "image-image",
-   "theme": "miscellaneous",
-   "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-varie-2ab8"
-  },
-  {
-   "slug": "addizione-immagine-immagine-veicoli-9407",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-veicoli-6f84",
+   "type": "matching",
+   "mode": "letter",
    "theme": "vehicles",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-veicoli-9407"
+   "deck": "abbinamento-lettera-veicoli-6f84"
   },
   {
-   "slug": "addizione-immagine-immagine-verdure-6e0a",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-verdure-7d02",
+   "type": "matching",
+   "mode": "letter",
    "theme": "vegetables",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-verdure-6e0a"
+   "deck": "abbinamento-lettera-verdure-7d02"
   },
   {
-   "slug": "addizione-immagine-immagine-vita-oceanica-9e42",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "abbinamento-lettera-vita-oceanica-5d19",
+   "type": "matching",
+   "mode": "letter",
    "theme": "ocean_life",
    "level": "classe-prima",
-   "deck": "addizione-immagine-immagine-vita-oceanica-9e42"
+   "deck": "abbinamento-lettera-vita-oceanica-5d19"
   }
  ]
 }

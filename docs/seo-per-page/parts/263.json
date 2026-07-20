@@ -1,780 +1,336 @@
 {
  "part": 263,
- "locale": "da",
+ "locale": "sv",
  "classes": [
-  "math-worksheet::three-symbols-add-sub",
-  "pattern-train::aab"
+  "picture-path::classic-maze",
+  "odd-one-out::cross-theme",
+  "arrays-multiplication::arrays-repeated-addition",
+  "arrays-multiplication::multiply-and-divide",
+  "fractions::name-and-compare",
+  "fractions::partition-and-share"
  ],
  "splitOf": null,
- "count": 96,
+ "count": 40,
  "pages": [
   {
-   "slug": "matematikark-3-symboler-add-sub-aktiviteter-b1ff",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "bildvag-klassisk-labyrint-aktiviteter-49f3",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "activities",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-aktiviteter-b1ff"
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-aktiviteter-49f3"
   },
   {
-   "slug": "matematikark-3-symboler-add-sub-bageri-77cd",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "bildvag-klassisk-labyrint-bageri-4006",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "bakery",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-bageri-77cd"
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-bageri-4006"
   },
   {
-   "slug": "matematikark-3-symboler-add-sub-blomster-8ae7",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "bildvag-klassisk-labyrint-blommor-1808",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "flowers",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-blomster-8ae7"
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-blommor-1808"
   },
   {
-   "slug": "matematikark-3-symboler-add-sub-bondegardsdyr-08f7",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "farm_animals",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-bondegardsdyr-08f7"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-camping-fa14",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "bildvag-klassisk-labyrint-camping-465c",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "camping",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-camping-fa14"
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-camping-465c"
   },
   {
-   "slug": "matematikark-3-symboler-add-sub-desserter-og-slik-7d6b",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "bildvag-klassisk-labyrint-efterratter-och-godis-8db7",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "desserts_and_sweets",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-desserter-og-slik-7d6b"
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-efterratter-och-godis-8db7"
   },
   {
-   "slug": "matematikark-3-symboler-add-sub-dinosaurer-09cc",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "dinosaurs",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-dinosaurer-09cc"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-dyr-4244",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "animals",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-dyr-4244"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-erhverv-80e2",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "occupations",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-erhverv-80e2"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-farver-08fc",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "colors",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-farver-08fc"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-folelser-ddbd",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "emotions",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-folelser-ddbd"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-forar-0062",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "spring",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-forar-0062"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-former-86de",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "shapes",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-former-86de"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-frugter-cdb8",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "fruits",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-frugter-cdb8"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-fugle-0600",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "birds",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-fugle-0600"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-fugle-2-59f2",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "birds_2",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-fugle-2-59f2"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-grontsager-798d",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "vegetables",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-grontsager-798d"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-havliv-0a5b",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "ocean_life",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-havliv-0a5b"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-hospital-195f",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "hospital",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-hospital-195f"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-i-supermarkedet-cf65",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "at_the_supermarket",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-i-supermarkedet-cf65"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-insekter-og-kryb-2be7",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "insects_and_bugs",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-insekter-og-kryb-2be7"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-jul-b38e",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "christmas",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-jul-b38e"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-kaeledyr-778e",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "pets",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-kaeledyr-778e"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-klassevaerelse-46fc",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "classroom",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-klassevaerelse-46fc"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-kokkenredskaber-65f8",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "kitchen_tools",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-kokkenredskaber-65f8"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-koretojer-8848",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "bildvag-klassisk-labyrint-fordon-57bb",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "vehicles",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-koretojer-8848"
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-fordon-57bb"
   },
   {
-   "slug": "matematikark-3-symboler-add-sub-kropsdele-cd1e",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "body_parts",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-kropsdele-cd1e"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-krybdyr-og-padder-45c5",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "reptiles_and_amphibians",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-krybdyr-og-padder-45c5"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-legetoj-21c2",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "toys",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-legetoj-21c2"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-mobler-c5a6",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "furniture",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-mobler-c5a6"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-morgenmad-98c2",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "bildvag-klassisk-labyrint-frukost-6507",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "breakfast",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-morgenmad-98c2"
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-frukost-6507"
   },
   {
-   "slug": "matematikark-3-symboler-add-sub-musik-9652",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "music",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-musik-9652"
+   "slug": "bildvag-klassisk-labyrint-frukter-1c9f",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "fruits",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-frukter-1c9f"
   },
   {
-   "slug": "matematikark-3-symboler-add-sub-paske-39ff",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "easter",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-paske-39ff"
+   "slug": "bildvag-klassisk-labyrint-gronsaker-e607",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "vegetables",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-gronsaker-e607"
   },
   {
-   "slug": "matematikark-3-symboler-add-sub-postkontor-b682",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "post_office",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-postkontor-b682"
+   "slug": "bildvag-klassisk-labyrint-i-snabbkopet-de84",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "at_the_supermarket",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-i-snabbkopet-de84"
   },
   {
-   "slug": "matematikark-3-symboler-add-sub-rummet-e893",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "space",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-rummet-e893"
+   "slug": "bildvag-klassisk-labyrint-jul-a393",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "christmas",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-jul-a393"
   },
   {
-   "slug": "matematikark-3-symboler-add-sub-rundt-i-huset-e5c2",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "around_the_house",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-rundt-i-huset-e5c2"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-skovdyr-376f",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "forest_creatures",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-skovdyr-376f"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-sommer-c6e8",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "summer",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-sommer-c6e8"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-strand-1a83",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "beach",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-strand-1a83"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-thanksgiving-4007",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "thanksgivinng",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-thanksgiving-4007"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-tilbehor-3875",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "accessories",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-tilbehor-3875"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-ting-der-flyver-87c6",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "things_that_fly",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-ting-der-flyver-87c6"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-toj-cf64",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "bildvag-klassisk-labyrint-klader-c7c9",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "clothing",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-toj-cf64"
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-klader-c7c9"
   },
   {
-   "slug": "matematikark-3-symboler-add-sub-traeer-e991",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "bildvag-klassisk-labyrint-klassrum-ab17",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "classroom",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-klassrum-ab17"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-koksredskap-d23a",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "kitchen_tools",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-koksredskap-d23a"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-kroppsdelar-c316",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "body_parts",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-kroppsdelar-c316"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-leksaker-b12a",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "toys",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-leksaker-b12a"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-mobler-93ad",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "furniture",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-mobler-93ad"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-musik-ed47",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "music",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-musik-ed47"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-pask-8642",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "easter",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-pask-8642"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-postkontor-fd59",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "post_office",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-postkontor-fd59"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-runt-huset-da31",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "around_the_house",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-runt-huset-da31"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-rymden-71ee",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "space",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-rymden-71ee"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-saker-som-flyger-6ed1",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "things_that_fly",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-saker-som-flyger-6ed1"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-sjukhus-45c0",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "hospital",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-sjukhus-45c0"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-sommar-1ac3",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "summer",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-sommar-1ac3"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-strand-790d",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "beach",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-strand-790d"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-thanksgiving-96d8",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "thanksgivinng",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-thanksgiving-96d8"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-tillbehor-d5cc",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "accessories",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-tillbehor-d5cc"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-trad-3eb1",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "tree",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-traeer-e991"
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-trad-3eb1"
   },
   {
-   "slug": "matematikark-3-symboler-add-sub-vaerktoj-b184",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "tools",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-vaerktoj-b184"
-  },
-  {
-   "slug": "matematikark-3-symboler-add-sub-vejr-ed84",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "bildvag-klassisk-labyrint-vader-6d38",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "weather",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-vejr-ed84"
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-vader-6d38"
   },
   {
-   "slug": "matematikark-3-symboler-add-sub-vinter-901f",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "bildvag-klassisk-labyrint-var-dc10",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "spring",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-var-dc10"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-verktyg-91a7",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "tools",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-verktyg-91a7"
+  },
+  {
+   "slug": "bildvag-klassisk-labyrint-vinter-ea0f",
+   "type": "picture-path",
+   "mode": "classic-maze",
    "theme": "winter",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-vinter-901f"
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-vinter-ea0f"
   },
   {
-   "slug": "matematikark-3-symboler-add-sub-zoodyr-6a50",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "zoo_animals",
-   "level": "1-klasse",
-   "deck": "matematikark-3-symboler-add-sub-zoodyr-6a50"
+   "slug": "bildvag-klassisk-labyrint-yrken-ed1f",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "occupations",
+   "level": "forskola",
+   "deck": "bildvag-klassisk-labyrint-yrken-ed1f"
   },
   {
-   "slug": "monstertoget-aab-aktiviteter-af5e",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "activities",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-aktiviteter-af5e"
-  },
-  {
-   "slug": "monstertoget-aab-bageri-8d0e",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "vilken-passar-inte-tvartema-bageri-d297",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "bakery",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-bageri-8d0e"
+   "level": "forskola",
+   "deck": "vilken-passar-inte-tvartema-bageri-d297"
   },
   {
-   "slug": "monstertoget-aab-blomster-0b7e",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "flowers",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-blomster-0b7e"
-  },
-  {
-   "slug": "monstertoget-aab-bondegardsdyr-7314",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "farm_animals",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-bondegardsdyr-7314"
-  },
-  {
-   "slug": "monstertoget-aab-camping-3641",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "camping",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-camping-3641"
-  },
-  {
-   "slug": "monstertoget-aab-desserter-og-slik-c965",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "desserts_and_sweets",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-desserter-og-slik-c965"
-  },
-  {
-   "slug": "monstertoget-aab-dinosaurer-4a7c",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-dinosaurer-4a7c"
-  },
-  {
-   "slug": "monstertoget-aab-dyr-a0ac",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "vilken-passar-inte-tvartema-djur-78ef",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
    "theme": "animals",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-dyr-a0ac"
+   "level": "forskola",
+   "deck": "vilken-passar-inte-tvartema-djur-78ef"
   },
   {
-   "slug": "monstertoget-aab-erhverv-4686",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "occupations",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-erhverv-4686"
+   "slug": "rader-och-kolumner-lika-grupper-ak-2",
+   "type": "arrays-multiplication",
+   "mode": "arrays-repeated-addition",
+   "theme": "",
+   "level": "ak-2",
+   "deck": "multiplikation-bilder-djur-g2209"
   },
   {
-   "slug": "monstertoget-aab-farver-ae2d",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "colors",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-farver-ae2d"
+   "slug": "multiplikationstabellen-rader-kolumner-ak-3",
+   "type": "arrays-multiplication",
+   "mode": "multiply-and-divide",
+   "theme": "",
+   "level": "ak-3",
+   "deck": "multiplikation-bilder-g3313"
   },
   {
-   "slug": "monstertoget-aab-folelser-4663",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "emotions",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-folelser-4663"
+   "slug": "brak-tallinjen-ak-3",
+   "type": "fractions",
+   "mode": "name-and-compare",
+   "theme": "",
+   "level": "ak-3",
+   "deck": "brak-g3315"
   },
   {
-   "slug": "monstertoget-aab-forar-88cf",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "spring",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-forar-88cf"
-  },
-  {
-   "slug": "monstertoget-aab-former-a13d",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "shapes",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-former-a13d"
-  },
-  {
-   "slug": "monstertoget-aab-frugter-3566",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "fruits",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-frugter-3566"
-  },
-  {
-   "slug": "monstertoget-aab-fugle-2-23af",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "birds_2",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-fugle-2-23af"
-  },
-  {
-   "slug": "monstertoget-aab-fugle-c388",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "birds",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-fugle-c388"
-  },
-  {
-   "slug": "monstertoget-aab-grontsager-ab2a",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "vegetables",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-grontsager-ab2a"
-  },
-  {
-   "slug": "monstertoget-aab-havliv-9b75",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "ocean_life",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-havliv-9b75"
-  },
-  {
-   "slug": "monstertoget-aab-hospital-7496",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "hospital",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-hospital-7496"
-  },
-  {
-   "slug": "monstertoget-aab-i-supermarkedet-20ad",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "at_the_supermarket",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-i-supermarkedet-20ad"
-  },
-  {
-   "slug": "monstertoget-aab-insekter-og-kryb-c221",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "insects_and_bugs",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-insekter-og-kryb-c221"
-  },
-  {
-   "slug": "monstertoget-aab-jul-58eb",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "christmas",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-jul-58eb"
-  },
-  {
-   "slug": "monstertoget-aab-kaeledyr-7ad5",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "pets",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-kaeledyr-7ad5"
-  },
-  {
-   "slug": "monstertoget-aab-klassevaerelse-c260",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "classroom",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-klassevaerelse-c260"
-  },
-  {
-   "slug": "monstertoget-aab-kokkenredskaber-18b9",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "kitchen_tools",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-kokkenredskaber-18b9"
-  },
-  {
-   "slug": "monstertoget-aab-koretojer-b21c",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "vehicles",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-koretojer-b21c"
-  },
-  {
-   "slug": "monstertoget-aab-kropsdele-9712",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "body_parts",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-kropsdele-9712"
-  },
-  {
-   "slug": "monstertoget-aab-krybdyr-og-padder-6426",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "reptiles_and_amphibians",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-krybdyr-og-padder-6426"
-  },
-  {
-   "slug": "monstertoget-aab-legetoj-d351",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "toys",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-legetoj-d351"
-  },
-  {
-   "slug": "monstertoget-aab-mobler-be9e",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "furniture",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-mobler-be9e"
-  },
-  {
-   "slug": "monstertoget-aab-morgenmad-7410",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "breakfast",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-morgenmad-7410"
-  },
-  {
-   "slug": "monstertoget-aab-musik-969f",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "music",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-musik-969f"
-  },
-  {
-   "slug": "monstertoget-aab-paske-47cb",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "easter",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-paske-47cb"
-  },
-  {
-   "slug": "monstertoget-aab-postkontor-a5a5",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "post_office",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-postkontor-a5a5"
-  },
-  {
-   "slug": "monstertoget-aab-rummet-8682",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "space",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-rummet-8682"
-  },
-  {
-   "slug": "monstertoget-aab-rundt-i-huset-e2cf",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "around_the_house",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-rundt-i-huset-e2cf"
-  },
-  {
-   "slug": "monstertoget-aab-skovdyr-a063",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "forest_creatures",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-skovdyr-a063"
-  },
-  {
-   "slug": "monstertoget-aab-sommer-018a",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "summer",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-sommer-018a"
-  },
-  {
-   "slug": "monstertoget-aab-strand-978e",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "beach",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-strand-978e"
-  },
-  {
-   "slug": "monstertoget-aab-thanksgiving-1dd6",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "thanksgivinng",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-thanksgiving-1dd6"
-  },
-  {
-   "slug": "monstertoget-aab-tilbehor-8ace",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "accessories",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-tilbehor-8ace"
-  },
-  {
-   "slug": "monstertoget-aab-ting-der-flyver-5b94",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "things_that_fly",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-ting-der-flyver-5b94"
-  },
-  {
-   "slug": "monstertoget-aab-toj-3728",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "clothing",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-toj-3728"
-  },
-  {
-   "slug": "monstertoget-aab-traeer-aa61",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "tree",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-traeer-aa61"
-  },
-  {
-   "slug": "monstertoget-aab-vaerktoj-0b14",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "tools",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-vaerktoj-0b14"
-  },
-  {
-   "slug": "monstertoget-aab-vejr-9545",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "weather",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-vejr-9545"
-  },
-  {
-   "slug": "monstertoget-aab-vinter-0dee",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "winter",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-vinter-0dee"
-  },
-  {
-   "slug": "monstertoget-aab-zoodyr-f4ae",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "zoo_animals",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aab-zoodyr-f4ae"
+   "slug": "brak-lika-delar-ak-2",
+   "type": "fractions",
+   "mode": "partition-and-share",
+   "theme": "",
+   "level": "ak-2",
+   "deck": "brak-g2228"
   }
  ]
 }

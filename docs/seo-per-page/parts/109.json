@@ -2,795 +2,551 @@
  "part": 109,
  "locale": "pt",
  "classes": [
-  "math-worksheet::three-symbols-add-sub",
-  "math-worksheet::two-symbols-add-sub"
+  "crossword::null"
  ],
- "splitOf": null,
- "count": 98,
+ "splitOf": {
+  "class": "crossword::null",
+  "total": 133,
+  "chunk": 1,
+  "chunks": 2
+ },
+ "count": 67,
  "pages": [
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-acampamento-9a06",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-acampamento-2822",
+   "type": "crossword",
+   "mode": null,
    "theme": "camping",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-acampamento-9a06"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-acampamento-2822"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-acessorios-3271",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-acessorios-395d",
+   "type": "crossword",
+   "mode": null,
    "theme": "accessories",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-acessorios-3271"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-acessorios-395d"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-animais-0c86",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-animais-b3f4",
+   "type": "crossword",
+   "mode": null,
    "theme": "animals",
-   "level": "2o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-animais-0c86"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-animais-b3f4"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-animais-da-fazenda-c026",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-animais-da-fazenda-9631",
+   "type": "crossword",
+   "mode": null,
    "theme": "farm_animals",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-animais-da-fazenda-c026"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-animais-da-fazenda-9631"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-animais-de-estimacao-eda4",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "pets",
-   "level": "2o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-animais-de-estimacao-eda4"
-  },
-  {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-animais-do-zoologico-bea7",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-animais-do-zoologico-afcf",
+   "type": "crossword",
+   "mode": null,
    "theme": "zoo_animals",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-animais-do-zoologico-bea7"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-animais-do-zoologico-afcf"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-arvores-6a60",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "tree",
-   "level": "2o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-arvores-6a60"
-  },
-  {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-atividades-61f8",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-atividades-425c",
+   "type": "crossword",
+   "mode": null,
    "theme": "activities",
-   "level": "2o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-atividades-61f8"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-atividades-425c"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-brinquedos-1ab5",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-brinquedos-aae0",
+   "type": "crossword",
+   "mode": null,
    "theme": "toys",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-brinquedos-1ab5"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-brinquedos-aae0"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-cafe-da-manha-5489",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-cafe-da-manha-3fd9",
+   "type": "crossword",
+   "mode": null,
    "theme": "breakfast",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-cafe-da-manha-5489"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-cafe-da-manha-3fd9"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-clima-23b4",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-clima-e86b",
+   "type": "crossword",
+   "mode": null,
    "theme": "weather",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-clima-23b4"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-clima-e86b"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-coisas-que-voam-be4d",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-coisas-que-voam-ff64",
+   "type": "crossword",
+   "mode": null,
    "theme": "things_that_fly",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-coisas-que-voam-be4d"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-coisas-que-voam-ff64"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-cores-2baf",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-cores-c916",
+   "type": "crossword",
+   "mode": null,
    "theme": "colors",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-cores-2baf"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-cores-c916"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-correios-8486",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-correios-3ba7",
+   "type": "crossword",
+   "mode": null,
    "theme": "post_office",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-correios-8486"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-correios-3ba7"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-criaturas-da-floresta-341c",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-criaturas-da-floresta-58b1",
+   "type": "crossword",
+   "mode": null,
    "theme": "forest_creatures",
-   "level": "2o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-criaturas-da-floresta-341c"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-criaturas-da-floresta-58b1"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-dia-de-acao-de-gracas-1c7b",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-dia-de-acao-de-gracas-a044",
+   "type": "crossword",
+   "mode": null,
    "theme": "thanksgivinng",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-dia-de-acao-de-gracas-1c7b"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-dia-de-acao-de-gracas-a044"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-dinossauros-78b6",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "dinosaurs",
-   "level": "2o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-dinossauros-78b6"
-  },
-  {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-diversos-5252",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "miscellaneous",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-diversos-5252"
-  },
-  {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-emocoes-aae4",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-emocoes-0ecf",
+   "type": "crossword",
+   "mode": null,
    "theme": "emotions",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-emocoes-aae4"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-emocoes-0ecf"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-espaco-4cea",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-espaco-79d5",
+   "type": "crossword",
+   "mode": null,
    "theme": "space",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-espaco-4cea"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-espaco-79d5"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-ferramentas-ed1e",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-ferramentas-86c3",
+   "type": "crossword",
+   "mode": null,
    "theme": "tools",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-ferramentas-ed1e"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-ferramentas-86c3"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-flores-1a03",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-flores-ff2a",
+   "type": "crossword",
+   "mode": null,
    "theme": "flowers",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-flores-1a03"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-flores-ff2a"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-formas-e1db",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-formas-f091",
+   "type": "crossword",
+   "mode": null,
    "theme": "shapes",
-   "level": "2o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-formas-e1db"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-formas-f091"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-frutas-cf24",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-frutas-460e",
+   "type": "crossword",
+   "mode": null,
    "theme": "fruits",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-frutas-cf24"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-frutas-460e"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-hospital-ee5f",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-hospital-b090",
+   "type": "crossword",
+   "mode": null,
    "theme": "hospital",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-hospital-ee5f"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-hospital-b090"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-insetos-e-bichos-6037",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-insetos-e-bichos-4188",
+   "type": "crossword",
+   "mode": null,
    "theme": "insects_and_bugs",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-insetos-e-bichos-6037"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-insetos-e-bichos-4188"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-inverno-0b5f",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-inverno-7b97",
+   "type": "crossword",
+   "mode": null,
    "theme": "winter",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-inverno-0b5f"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-inverno-7b97"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-moveis-1a30",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-moveis-a5f2",
+   "type": "crossword",
+   "mode": null,
    "theme": "furniture",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-moveis-1a30"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-moveis-a5f2"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-musica-550c",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-musica-2955",
+   "type": "crossword",
+   "mode": null,
    "theme": "music",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-musica-550c"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-musica-2955"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-natal-a491",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-natal-cc30",
+   "type": "crossword",
+   "mode": null,
    "theme": "christmas",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-natal-a491"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-natal-cc30"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-no-supermercado-fbb9",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-no-supermercado-b598",
+   "type": "crossword",
+   "mode": null,
    "theme": "at_the_supermarket",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-no-supermercado-fbb9"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-no-supermercado-b598"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-padaria-1aa6",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "bakery",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-padaria-1aa6"
-  },
-  {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-partes-do-corpo-e92f",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-partes-do-corpo-9a89",
+   "type": "crossword",
+   "mode": null,
    "theme": "body_parts",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-partes-do-corpo-e92f"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-partes-do-corpo-9a89"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-pascoa-e7e6",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-pascoa-8f87",
+   "type": "crossword",
+   "mode": null,
    "theme": "easter",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-pascoa-e7e6"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-pascoa-8f87"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-passaros-2-0b3c",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-passaros-2-2f60",
+   "type": "crossword",
+   "mode": null,
    "theme": "birds_2",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-passaros-2-0b3c"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-passaros-2-2f60"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-passaros-4c09",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "birds",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-passaros-4c09"
-  },
-  {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-pela-casa-eb0f",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-pela-casa-528a",
+   "type": "crossword",
+   "mode": null,
    "theme": "around_the_house",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-pela-casa-eb0f"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-pela-casa-528a"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-praia-1731",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-praia-24d3",
+   "type": "crossword",
+   "mode": null,
    "theme": "beach",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-praia-1731"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-praia-24d3"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-primavera-d02b",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-primavera-754d",
+   "type": "crossword",
+   "mode": null,
    "theme": "spring",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-primavera-d02b"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-primavera-754d"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-profissoes-3a75",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-profissoes-eade",
+   "type": "crossword",
+   "mode": null,
    "theme": "occupations",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-profissoes-3a75"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-profissoes-eade"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-repteis-e-anfibios-f3f4",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "reptiles_and_amphibians",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-repteis-e-anfibios-f3f4"
-  },
-  {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-roupas-ba66",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-roupas-29c5",
+   "type": "crossword",
+   "mode": null,
    "theme": "clothing",
-   "level": "2o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-roupas-ba66"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-roupas-29c5"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-sala-de-aula-36e4",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-sala-de-aula-2e3b",
+   "type": "crossword",
+   "mode": null,
    "theme": "classroom",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-sala-de-aula-36e4"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-sala-de-aula-2e3b"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-sobremesas-e-doces-e259",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-sobremesas-e-doces-1181",
+   "type": "crossword",
+   "mode": null,
    "theme": "desserts_and_sweets",
-   "level": "2o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-sobremesas-e-doces-e259"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-sobremesas-e-doces-1181"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-utensilios-de-cozinha-50a8",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "kitchen_tools",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-utensilios-de-cozinha-50a8"
-  },
-  {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-vegetais-5977",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-vegetais-9feb",
+   "type": "crossword",
+   "mode": null,
    "theme": "vegetables",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-vegetais-5977"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-vegetais-9feb"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-veiculos-d4ce",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-veiculos-1441",
+   "type": "crossword",
+   "mode": null,
    "theme": "vehicles",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-veiculos-d4ce"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-veiculos-1441"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-verao-75c8",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-verao-42d6",
+   "type": "crossword",
+   "mode": null,
    "theme": "summer",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-verao-75c8"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-verao-42d6"
   },
   {
-   "slug": "atividade-de-matematica-3-simbolos-soma-sub-vida-marinha-e9cb",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "espanhol-palavras-cruzadas-vida-marinha-c142",
+   "type": "crossword",
+   "mode": null,
    "theme": "ocean_life",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-3-simbolos-soma-sub-vida-marinha-e9cb"
+   "level": "language-beginner",
+   "deck": "espanhol-palavras-cruzadas-vida-marinha-c142"
   },
   {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-acampamento-9807",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "ingles-palavras-cruzadas-acampamento-972e",
+   "type": "crossword",
+   "mode": null,
    "theme": "camping",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-acampamento-9807"
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-acampamento-972e"
   },
   {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-acessorios-5fdc",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "ingles-palavras-cruzadas-acessorios-fbbb",
+   "type": "crossword",
+   "mode": null,
    "theme": "accessories",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-acessorios-5fdc"
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-acessorios-fbbb"
   },
   {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-animais-2be1",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "animals",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-animais-2be1"
-  },
-  {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-animais-da-fazenda-e49a",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "ingles-palavras-cruzadas-animais-da-fazenda-5f0f",
+   "type": "crossword",
+   "mode": null,
    "theme": "farm_animals",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-animais-da-fazenda-e49a"
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-animais-da-fazenda-5f0f"
   },
   {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-animais-de-estimacao-d5a4",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "ingles-palavras-cruzadas-animais-de-estimacao-e9ab",
+   "type": "crossword",
+   "mode": null,
    "theme": "pets",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-animais-de-estimacao-d5a4"
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-animais-de-estimacao-e9ab"
   },
   {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-animais-do-zoologico-fec5",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "ingles-palavras-cruzadas-animais-do-zoologico-652f",
+   "type": "crossword",
+   "mode": null,
    "theme": "zoo_animals",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-animais-do-zoologico-fec5"
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-animais-do-zoologico-652f"
   },
   {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-arvores-88f7",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "ingles-palavras-cruzadas-animais-fd83",
+   "type": "crossword",
+   "mode": null,
+   "theme": "animals",
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-animais-fd83"
+  },
+  {
+   "slug": "ingles-palavras-cruzadas-arvores-6a82",
+   "type": "crossword",
+   "mode": null,
    "theme": "tree",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-arvores-88f7"
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-arvores-6a82"
   },
   {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-atividades-055e",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "ingles-palavras-cruzadas-atividades-2510",
+   "type": "crossword",
+   "mode": null,
    "theme": "activities",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-atividades-055e"
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-atividades-2510"
   },
   {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-brinquedos-916c",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "toys",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-brinquedos-916c"
-  },
-  {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-cafe-da-manha-c663",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "ingles-palavras-cruzadas-cafe-da-manha-894f",
+   "type": "crossword",
+   "mode": null,
    "theme": "breakfast",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-cafe-da-manha-c663"
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-cafe-da-manha-894f"
   },
   {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-clima-3575",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "ingles-palavras-cruzadas-clima-b97e",
+   "type": "crossword",
+   "mode": null,
    "theme": "weather",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-clima-3575"
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-clima-b97e"
   },
   {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-coisas-que-voam-a704",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "ingles-palavras-cruzadas-coisas-que-voam-8d08",
+   "type": "crossword",
+   "mode": null,
    "theme": "things_that_fly",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-coisas-que-voam-a704"
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-coisas-que-voam-8d08"
   },
   {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-cores-f71d",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "ingles-palavras-cruzadas-cores-4972",
+   "type": "crossword",
+   "mode": null,
    "theme": "colors",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-cores-f71d"
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-cores-4972"
   },
   {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-correios-7db7",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "ingles-palavras-cruzadas-correios-f974",
+   "type": "crossword",
+   "mode": null,
    "theme": "post_office",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-correios-7db7"
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-correios-f974"
   },
   {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-criaturas-da-floresta-9e83",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "ingles-palavras-cruzadas-criaturas-da-floresta-7c64",
+   "type": "crossword",
+   "mode": null,
    "theme": "forest_creatures",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-criaturas-da-floresta-9e83"
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-criaturas-da-floresta-7c64"
   },
   {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-dia-de-acao-de-gracas-58b6",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "ingles-palavras-cruzadas-dia-de-acao-de-gracas-61e3",
+   "type": "crossword",
+   "mode": null,
    "theme": "thanksgivinng",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-dia-de-acao-de-gracas-58b6"
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-dia-de-acao-de-gracas-61e3"
   },
   {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-dinossauros-447b",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "dinosaurs",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-dinossauros-447b"
-  },
-  {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-diversos-b237",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "miscellaneous",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-diversos-b237"
-  },
-  {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-emocoes-2aae",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "ingles-palavras-cruzadas-emocoes-be4b",
+   "type": "crossword",
+   "mode": null,
    "theme": "emotions",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-emocoes-2aae"
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-emocoes-be4b"
   },
   {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-espaco-c2d6",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "ingles-palavras-cruzadas-espaco-518e",
+   "type": "crossword",
+   "mode": null,
    "theme": "space",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-espaco-c2d6"
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-espaco-518e"
   },
   {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-ferramentas-cd6b",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "ingles-palavras-cruzadas-ferramentas-cb0c",
+   "type": "crossword",
+   "mode": null,
    "theme": "tools",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-ferramentas-cd6b"
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-ferramentas-cb0c"
   },
   {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-flores-72e1",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "ingles-palavras-cruzadas-flores-f985",
+   "type": "crossword",
+   "mode": null,
    "theme": "flowers",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-flores-72e1"
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-flores-f985"
   },
   {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-formas-8c6c",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "ingles-palavras-cruzadas-formas-50c3",
+   "type": "crossword",
+   "mode": null,
    "theme": "shapes",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-formas-8c6c"
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-formas-50c3"
   },
   {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-frutas-8075",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "ingles-palavras-cruzadas-frutas-6801",
+   "type": "crossword",
+   "mode": null,
    "theme": "fruits",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-frutas-8075"
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-frutas-6801"
   },
   {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-hospital-2eaf",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "ingles-palavras-cruzadas-hospital-98c8",
+   "type": "crossword",
+   "mode": null,
    "theme": "hospital",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-hospital-2eaf"
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-hospital-98c8"
   },
   {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-insetos-e-bichos-65d6",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "ingles-palavras-cruzadas-insetos-e-bichos-3cb6",
+   "type": "crossword",
+   "mode": null,
    "theme": "insects_and_bugs",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-insetos-e-bichos-65d6"
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-insetos-e-bichos-3cb6"
   },
   {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-inverno-7ee9",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "ingles-palavras-cruzadas-inverno-8060",
+   "type": "crossword",
+   "mode": null,
    "theme": "winter",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-inverno-7ee9"
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-inverno-8060"
   },
   {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-moveis-1d0d",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "ingles-palavras-cruzadas-moveis-c733",
+   "type": "crossword",
+   "mode": null,
    "theme": "furniture",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-moveis-1d0d"
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-moveis-c733"
   },
   {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-musica-a16b",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
+   "slug": "ingles-palavras-cruzadas-musica-3a1b",
+   "type": "crossword",
+   "mode": null,
    "theme": "music",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-musica-a16b"
-  },
-  {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-natal-c1ec",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "christmas",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-natal-c1ec"
-  },
-  {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-no-supermercado-e0cf",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "at_the_supermarket",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-no-supermercado-e0cf"
-  },
-  {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-padaria-c7b6",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "bakery",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-padaria-c7b6"
-  },
-  {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-partes-do-corpo-f946",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "body_parts",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-partes-do-corpo-f946"
-  },
-  {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-pascoa-7ffe",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "easter",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-pascoa-7ffe"
-  },
-  {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-passaros-146f",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "birds",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-passaros-146f"
-  },
-  {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-passaros-2-4ada",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "birds_2",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-passaros-2-4ada"
-  },
-  {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-pela-casa-c22f",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "around_the_house",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-pela-casa-c22f"
-  },
-  {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-praia-69d3",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "beach",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-praia-69d3"
-  },
-  {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-primavera-7339",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "spring",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-primavera-7339"
-  },
-  {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-profissoes-2b65",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "occupations",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-profissoes-2b65"
-  },
-  {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-repteis-e-anfibios-b406",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "reptiles_and_amphibians",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-repteis-e-anfibios-b406"
-  },
-  {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-roupas-255c",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "clothing",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-roupas-255c"
-  },
-  {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-sala-de-aula-0960",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "classroom",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-sala-de-aula-0960"
-  },
-  {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-sobremesas-e-doces-8c7c",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "desserts_and_sweets",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-sobremesas-e-doces-8c7c"
-  },
-  {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-utensilios-de-cozinha-a40c",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "kitchen_tools",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-utensilios-de-cozinha-a40c"
-  },
-  {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-vegetais-0731",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "vegetables",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-vegetais-0731"
-  },
-  {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-veiculos-c3db",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "vehicles",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-veiculos-c3db"
-  },
-  {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-verao-c149",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "summer",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-verao-c149"
-  },
-  {
-   "slug": "atividade-de-matematica-2-simbolos-soma-sub-vida-marinha-ac78",
-   "type": "math-worksheet",
-   "mode": "two-symbols-add-sub",
-   "theme": "ocean_life",
-   "level": "1o-ano",
-   "deck": "atividade-de-matematica-2-simbolos-soma-sub-vida-marinha-ac78"
+   "level": "language-beginner",
+   "deck": "ingles-palavras-cruzadas-musica-3a1b"
   }
  ]
 }

@@ -2,795 +2,795 @@
  "part": 88,
  "locale": "es",
  "classes": [
-  "pattern-train::aabb",
-  "pattern-worksheet::null"
+  "math-worksheet::three-symbols-add-sub",
+  "matching::letter"
  ],
  "splitOf": null,
  "count": 98,
  "pages": [
   {
-   "slug": "tren-de-patrones-aabb-4-de-julio-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "ficha-matematica-3-simbolos-suma-resta-4-de-julio-237f",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "4th_of_july",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-4-de-julio-fe63"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-4-de-julio-237f"
   },
   {
-   "slug": "tren-de-patrones-aabb-accesorios-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "ficha-matematica-3-simbolos-suma-resta-accesorios-61f9",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "accessories",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-accesorios-fe63"
+   "level": "primer-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-accesorios-61f9"
   },
   {
-   "slug": "tren-de-patrones-aabb-actividades-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "ficha-matematica-3-simbolos-suma-resta-actividades-393b",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "activities",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-actividades-fe63"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-actividades-393b"
   },
   {
-   "slug": "tren-de-patrones-aabb-alrededor-de-la-casa-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "ficha-matematica-3-simbolos-suma-resta-alrededor-de-la-casa-0106",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "around_the_house",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-alrededor-de-la-casa-fe63"
+   "level": "primer-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-alrededor-de-la-casa-0106"
   },
   {
-   "slug": "tren-de-patrones-aabb-animales-de-granja-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "farm_animals",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-animales-de-granja-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-animales-del-zoologico-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "zoo_animals",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-animales-del-zoologico-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-animales-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "ficha-matematica-3-simbolos-suma-resta-animales-3dba",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "animals",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-animales-fe63"
+   "level": "primer-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-animales-3dba"
   },
   {
-   "slug": "tren-de-patrones-aabb-arboles-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "tree",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-arboles-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-aves-2-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "birds_2",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-aves-2-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-aves-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "birds",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-aves-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-campamento-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "camping",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-campamento-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-clima-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "weather",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-clima-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-colores-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "colors",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-colores-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-cosas-que-vuelan-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "things_that_fly",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-cosas-que-vuelan-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-desayuno-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "breakfast",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-desayuno-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-dia-de-accion-de-gracias-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "thanksgivinng",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-dia-de-accion-de-gracias-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-dinosaurios-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "dinosaurs",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-dinosaurios-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-emociones-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "emotions",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-emociones-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-en-el-supermercado-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "at_the_supermarket",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-en-el-supermercado-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-espacio-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "space",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-espacio-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-flores-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "flowers",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-flores-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-formas-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "shapes",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-formas-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-frutas-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "fruits",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-frutas-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-herramientas-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "tools",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-herramientas-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-hospital-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "hospital",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-hospital-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-insectos-y-bichos-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "insects_and_bugs",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-insectos-y-bichos-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-invierno-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "winter",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-invierno-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-juguetes-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "toys",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-juguetes-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-mascotas-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "pets",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-mascotas-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-miscelaneo-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "miscellaneous",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-miscelaneo-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-muebles-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "furniture",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-muebles-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-musica-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "music",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-musica-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-navidad-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "christmas",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-navidad-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-ocupaciones-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "occupations",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-ocupaciones-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-oficina-de-correos-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "post_office",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-oficina-de-correos-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-panaderia-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "bakery",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-panaderia-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-partes-del-cuerpo-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "body_parts",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-partes-del-cuerpo-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-pascua-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "easter",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-pascua-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-playa-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "beach",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-playa-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-postres-y-dulces-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "desserts_and_sweets",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-postres-y-dulces-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-primavera-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "spring",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-primavera-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-reptiles-y-anfibios-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "reptiles_and_amphibians",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-reptiles-y-anfibios-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-ropa-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "clothing",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-ropa-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-salon-de-clases-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "classroom",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-salon-de-clases-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-utensilios-de-cocina-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "kitchen_tools",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-utensilios-de-cocina-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-vehiculos-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "vehicles",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-vehiculos-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-verano-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "summer",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-verano-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-verduras-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "vegetables",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-verduras-fe63"
-  },
-  {
-   "slug": "tren-de-patrones-aabb-vida-marina-fe63",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "ocean_life",
-   "level": "preescolar",
-   "deck": "tren-de-patrones-aabb-vida-marina-fe63"
-  },
-  {
-   "slug": "ficha-de-patrones",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "ocean_life",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones"
-  },
-  {
-   "slug": "ficha-de-patrones-4-de-julio-1587",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "4th_of_july",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-4-de-julio-1587"
-  },
-  {
-   "slug": "ficha-de-patrones-accesorios-fd73",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "accessories",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-accesorios-fd73"
-  },
-  {
-   "slug": "ficha-de-patrones-actividades-6c66",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "activities",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-actividades-6c66"
-  },
-  {
-   "slug": "ficha-de-patrones-alrededor-de-la-casa-1adb",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "around_the_house",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-alrededor-de-la-casa-1adb"
-  },
-  {
-   "slug": "ficha-de-patrones-animales-de-granja-178d",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-animales-de-granja-9510",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "farm_animals",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-animales-de-granja-178d"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-animales-de-granja-9510"
   },
   {
-   "slug": "ficha-de-patrones-animales-del-zoologico-f116",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-animales-del-zoologico-0f9a",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "zoo_animals",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-animales-del-zoologico-f116"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-animales-del-zoologico-0f9a"
   },
   {
-   "slug": "ficha-de-patrones-arboles-9775",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-arboles-87e3",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "tree",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-arboles-9775"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-arboles-87e3"
   },
   {
-   "slug": "ficha-de-patrones-aves-2-aab9",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-aves-2-aab9"
-  },
-  {
-   "slug": "ficha-de-patrones-aves-5a08",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-aves-1499",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "birds",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-aves-5a08"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-aves-1499"
   },
   {
-   "slug": "ficha-de-patrones-campamento-9abb",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-aves-2-2dc6",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "birds_2",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-aves-2-2dc6"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-campamento-41f5",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "camping",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-campamento-9abb"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-campamento-41f5"
   },
   {
-   "slug": "ficha-de-patrones-clima-10dd",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-clima-706d",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "weather",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-clima-10dd"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-clima-706d"
   },
   {
-   "slug": "ficha-de-patrones-colores-c2dc",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-colores-04c2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "colors",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-colores-c2dc"
+   "level": "primer-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-colores-04c2"
   },
   {
-   "slug": "ficha-de-patrones-cosas-que-vuelan-111f",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-cosas-que-vuelan-2fcc",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "things_that_fly",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-cosas-que-vuelan-111f"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-cosas-que-vuelan-2fcc"
   },
   {
-   "slug": "ficha-de-patrones-criaturas-del-bosque-02f1",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-criaturas-del-bosque-4b7b",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "forest_creatures",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-criaturas-del-bosque-02f1"
+   "level": "primer-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-criaturas-del-bosque-4b7b"
   },
   {
-   "slug": "ficha-de-patrones-desayuno-b46c",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-desayuno-1979",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "breakfast",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-desayuno-b46c"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-desayuno-1979"
   },
   {
-   "slug": "ficha-de-patrones-dia-de-accion-de-gracias-2042",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-dia-de-accion-de-gracias-6ea8",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "thanksgivinng",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-dia-de-accion-de-gracias-2042"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-dia-de-accion-de-gracias-6ea8"
   },
   {
-   "slug": "ficha-de-patrones-dinosaurios-2569",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-dinosaurios-16df",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "dinosaurs",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-dinosaurios-2569"
+   "level": "primer-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-dinosaurios-16df"
   },
   {
-   "slug": "ficha-de-patrones-emociones-c879",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-emociones-2f7e",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "emotions",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-emociones-c879"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-emociones-2f7e"
   },
   {
-   "slug": "ficha-de-patrones-en-el-supermercado-5ed2",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-en-el-supermercado-17bb",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "at_the_supermarket",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-en-el-supermercado-5ed2"
+   "level": "primer-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-en-el-supermercado-17bb"
   },
   {
-   "slug": "ficha-de-patrones-espacio-853f",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-espacio-3dca",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "space",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-espacio-853f"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-espacio-3dca"
   },
   {
-   "slug": "ficha-de-patrones-flores-7540",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-flores-16db",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "flowers",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-flores-7540"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-flores-16db"
   },
   {
-   "slug": "ficha-de-patrones-formas-7e6e",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-formas-28b7",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "shapes",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-formas-7e6e"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-formas-28b7"
   },
   {
-   "slug": "ficha-de-patrones-frutas-b64c",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-frutas-33b8",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "fruits",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-frutas-b64c"
+   "level": "primer-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-frutas-33b8"
   },
   {
-   "slug": "ficha-de-patrones-herramientas-fb72",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-herramientas-3d1a",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "tools",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-herramientas-fb72"
+   "level": "primer-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-herramientas-3d1a"
   },
   {
-   "slug": "ficha-de-patrones-hospital-e595",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-hospital-81ac",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "hospital",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-hospital-e595"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-hospital-81ac"
   },
   {
-   "slug": "ficha-de-patrones-insectos-y-bichos-2639",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-insectos-y-bichos-13d2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "insects_and_bugs",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-insectos-y-bichos-2639"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-insectos-y-bichos-13d2"
   },
   {
-   "slug": "ficha-de-patrones-invierno-bb26",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-invierno-0ea2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "winter",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-invierno-bb26"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-invierno-0ea2"
   },
   {
-   "slug": "ficha-de-patrones-juguetes-7917",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-juguetes-32b2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "toys",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-juguetes-7917"
+   "level": "primer-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-juguetes-32b2"
   },
   {
-   "slug": "ficha-de-patrones-mascotas-19ed",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-mascotas-4ff3",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "pets",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-mascotas-19ed"
+   "level": "primer-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-mascotas-4ff3"
   },
   {
-   "slug": "ficha-de-patrones-miscelaneo-4d57",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-miscelaneo-0ad4",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "miscellaneous",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-miscelaneo-4d57"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-miscelaneo-0ad4"
   },
   {
-   "slug": "ficha-de-patrones-muebles-2739",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-muebles-07aa",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "furniture",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-muebles-2739"
+   "level": "primer-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-muebles-07aa"
   },
   {
-   "slug": "ficha-de-patrones-musica-2f9e",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-musica-2cee",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "music",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-musica-2f9e"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-musica-2cee"
   },
   {
-   "slug": "ficha-de-patrones-navidad-002a",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-navidad-66db",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "christmas",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-navidad-002a"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-navidad-66db"
   },
   {
-   "slug": "ficha-de-patrones-ocupaciones-e770",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-ocupaciones-20c5",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "occupations",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-ocupaciones-e770"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-ocupaciones-20c5"
   },
   {
-   "slug": "ficha-de-patrones-oficina-de-correos-b7f3",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-oficina-de-correos-0036",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "post_office",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-oficina-de-correos-b7f3"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-oficina-de-correos-0036"
   },
   {
-   "slug": "ficha-de-patrones-panaderia-7161",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-panaderia-32f2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "bakery",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-panaderia-7161"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-panaderia-32f2"
   },
   {
-   "slug": "ficha-de-patrones-partes-del-cuerpo-4c88",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-partes-del-cuerpo-0164",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "body_parts",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-partes-del-cuerpo-4c88"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-partes-del-cuerpo-0164"
   },
   {
-   "slug": "ficha-de-patrones-pascua-53b4",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-pascua-061a",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "easter",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-pascua-53b4"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-pascua-061a"
   },
   {
-   "slug": "ficha-de-patrones-playa-6f62",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-playa-5449",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "beach",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-playa-6f62"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-playa-5449"
   },
   {
-   "slug": "ficha-de-patrones-postres-y-dulces-542e",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-postres-y-dulces-0125",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "desserts_and_sweets",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-postres-y-dulces-542e"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-postres-y-dulces-0125"
   },
   {
-   "slug": "ficha-de-patrones-primavera-4db2",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-primavera-31d4",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "spring",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-primavera-4db2"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-primavera-31d4"
   },
   {
-   "slug": "ficha-de-patrones-reptiles-y-anfibios-820f",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-reptiles-y-anfibios-1ca8",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "reptiles_and_amphibians",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-reptiles-y-anfibios-820f"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-reptiles-y-anfibios-1ca8"
   },
   {
-   "slug": "ficha-de-patrones-ropa-68c4",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-ropa-13db",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "clothing",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-ropa-68c4"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-ropa-13db"
   },
   {
-   "slug": "ficha-de-patrones-salon-de-clases-6267",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-salon-de-clases-78c4",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "classroom",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-salon-de-clases-6267"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-salon-de-clases-78c4"
   },
   {
-   "slug": "ficha-de-patrones-utensilios-de-cocina-1230",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-utensilios-de-cocina-21fb",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "kitchen_tools",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-utensilios-de-cocina-1230"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-utensilios-de-cocina-21fb"
   },
   {
-   "slug": "ficha-de-patrones-vehiculos-7522",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-vehiculos-2039",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "vehicles",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-vehiculos-7522"
+   "level": "primer-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-vehiculos-2039"
   },
   {
-   "slug": "ficha-de-patrones-verano-1463",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-verano-1264",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "summer",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-verano-1463"
+   "level": "primer-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-verano-1264"
   },
   {
-   "slug": "ficha-de-patrones-verduras-98df",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "ficha-matematica-3-simbolos-suma-resta-verduras-1b17",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "vegetables",
-   "level": "preescolar",
-   "deck": "ficha-de-patrones-verduras-98df"
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-verduras-1b17"
+  },
+  {
+   "slug": "ficha-matematica-3-simbolos-suma-resta-vida-marina-22ec",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "ocean_life",
+   "level": "segundo-grado",
+   "deck": "ficha-matematica-3-simbolos-suma-resta-vida-marina-22ec"
+  },
+  {
+   "slug": "emparejar-letras-4-de-julio-98be",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "4th_of_july",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-4-de-julio-98be"
+  },
+  {
+   "slug": "emparejar-letras-accesorios-b62c",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "accessories",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-accesorios-b62c"
+  },
+  {
+   "slug": "emparejar-letras-actividades-0bd1",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "activities",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-actividades-0bd1"
+  },
+  {
+   "slug": "emparejar-letras-alrededor-de-la-casa-6b1e",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "around_the_house",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-alrededor-de-la-casa-6b1e"
+  },
+  {
+   "slug": "emparejar-letras-animales-43fb",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "animals",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-animales-43fb"
+  },
+  {
+   "slug": "emparejar-letras-animales-de-granja-cd02",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "farm_animals",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-animales-de-granja-cd02"
+  },
+  {
+   "slug": "emparejar-letras-animales-del-zoologico-0f69",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "zoo_animals",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-animales-del-zoologico-0f69"
+  },
+  {
+   "slug": "emparejar-letras-aves-2-e943",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "birds_2",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-aves-2-e943"
+  },
+  {
+   "slug": "emparejar-letras-aves-e60e",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "birds",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-aves-e60e"
+  },
+  {
+   "slug": "emparejar-letras-campamento-5c1a",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "camping",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-campamento-5c1a"
+  },
+  {
+   "slug": "emparejar-letras-clima-df9d",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "weather",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-clima-df9d"
+  },
+  {
+   "slug": "emparejar-letras-colores-4143",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "colors",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-colores-4143"
+  },
+  {
+   "slug": "emparejar-letras-cosas-que-vuelan-c51d",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "things_that_fly",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-cosas-que-vuelan-c51d"
+  },
+  {
+   "slug": "emparejar-letras-criaturas-del-bosque-0ecb",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "forest_creatures",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-criaturas-del-bosque-0ecb"
+  },
+  {
+   "slug": "emparejar-letras-desayuno-a599",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "breakfast",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-desayuno-a599"
+  },
+  {
+   "slug": "emparejar-letras-dia-de-accion-de-gracias-fb00",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "thanksgivinng",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-dia-de-accion-de-gracias-fb00"
+  },
+  {
+   "slug": "emparejar-letras-emociones-ffa8",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "emotions",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-emociones-ffa8"
+  },
+  {
+   "slug": "emparejar-letras-en-el-supermercado-61f4",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "at_the_supermarket",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-en-el-supermercado-61f4"
+  },
+  {
+   "slug": "emparejar-letras-espacio-2a41",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "space",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-espacio-2a41"
+  },
+  {
+   "slug": "emparejar-letras-flores-f85f",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "flowers",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-flores-f85f"
+  },
+  {
+   "slug": "emparejar-letras-formas-5d2b",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "shapes",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-formas-5d2b"
+  },
+  {
+   "slug": "emparejar-letras-frutas-54ad",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "fruits",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-frutas-54ad"
+  },
+  {
+   "slug": "emparejar-letras-herramientas-a213",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "tools",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-herramientas-a213"
+  },
+  {
+   "slug": "emparejar-letras-hospital-9dbb",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "hospital",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-hospital-9dbb"
+  },
+  {
+   "slug": "emparejar-letras-insectos-y-bichos-d5fe",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "insects_and_bugs",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-insectos-y-bichos-d5fe"
+  },
+  {
+   "slug": "emparejar-letras-invierno-e2f5",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "winter",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-invierno-e2f5"
+  },
+  {
+   "slug": "emparejar-letras-juguetes-96b4",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "toys",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-juguetes-96b4"
+  },
+  {
+   "slug": "emparejar-letras-mascotas-7d8b",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "pets",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-mascotas-7d8b"
+  },
+  {
+   "slug": "emparejar-letras-miscelaneo-d06c",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "miscellaneous",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-miscelaneo-d06c"
+  },
+  {
+   "slug": "emparejar-letras-muebles-3f62",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "furniture",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-muebles-3f62"
+  },
+  {
+   "slug": "emparejar-letras-musica-b4de",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "music",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-musica-b4de"
+  },
+  {
+   "slug": "emparejar-letras-navidad-ff7c",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "christmas",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-navidad-ff7c"
+  },
+  {
+   "slug": "emparejar-letras-ocupaciones-37e5",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "occupations",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-ocupaciones-37e5"
+  },
+  {
+   "slug": "emparejar-letras-oficina-de-correos-5bb8",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "post_office",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-oficina-de-correos-5bb8"
+  },
+  {
+   "slug": "emparejar-letras-panaderia-0f3c",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "bakery",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-panaderia-0f3c"
+  },
+  {
+   "slug": "emparejar-letras-partes-del-cuerpo-105f",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "body_parts",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-partes-del-cuerpo-105f"
+  },
+  {
+   "slug": "emparejar-letras-pascua-7fd4",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "easter",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-pascua-7fd4"
+  },
+  {
+   "slug": "emparejar-letras-playa-d91f",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "beach",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-playa-d91f"
+  },
+  {
+   "slug": "emparejar-letras-postres-y-dulces-45fa",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "desserts_and_sweets",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-postres-y-dulces-45fa"
+  },
+  {
+   "slug": "emparejar-letras-primavera-a706",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "spring",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-primavera-a706"
+  },
+  {
+   "slug": "emparejar-letras-reptiles-y-anfibios-4798",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "reptiles_and_amphibians",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-reptiles-y-anfibios-4798"
+  },
+  {
+   "slug": "emparejar-letras-ropa-a055",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "clothing",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-ropa-a055"
+  },
+  {
+   "slug": "emparejar-letras-salon-de-clases-29aa",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "classroom",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-salon-de-clases-29aa"
+  },
+  {
+   "slug": "emparejar-letras-utensilios-de-cocina-a778",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "kitchen_tools",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-utensilios-de-cocina-a778"
+  },
+  {
+   "slug": "emparejar-letras-vehiculos-bde8",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "vehicles",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-vehiculos-bde8"
+  },
+  {
+   "slug": "emparejar-letras-verano-0743",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "summer",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-verano-0743"
+  },
+  {
+   "slug": "emparejar-letras-verduras-d117",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "vegetables",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-verduras-d117"
+  },
+  {
+   "slug": "emparejar-letras-vida-marina-f59f",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "ocean_life",
+   "level": "primer-grado",
+   "deck": "emparejar-letras-vida-marina-f59f"
   }
  ]
 }

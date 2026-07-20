@@ -2,667 +2,826 @@
  "part": 130,
  "locale": "pt",
  "classes": [
-  "subtraction::image-number",
-  "subtraction::mixed"
+  "find-and-count::letter-spotting",
+  "find-and-count::hidden-object",
+  "geometry::count-and-sort-shapes",
+  "geometry::quadrilaterals-and-area",
+  "geometry::shape-attributes",
+  "arrays-multiplication::arrays-repeated-addition",
+  "arrays-multiplication::multiply-and-divide",
+  "fractions::name-and-compare",
+  "fractions::partition-and-share",
+  "measurement::compare-weight",
+  "measurement::length-units",
+  "measurement::measure-and-compare-length",
+  "measurement::volume-and-temperature",
+  "number-charts::hundreds-chart-skip-count",
+  "number-charts::number-patterns",
+  "number-charts::numbers-to-20",
+  "number-charts::skip-count-and-100-more-less"
  ],
  "splitOf": null,
- "count": 82,
+ "count": 100,
  "pages": [
   {
-   "slug": "subtracao-imagem-numero-acampamento-38ac",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-acampamento-3ec5",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "camping",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-acampamento-38ac"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-acampamento-3ec5"
   },
   {
-   "slug": "subtracao-imagem-numero-acessorios-5327",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-acessorios-aaf8",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "accessories",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-acessorios-5327"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-acessorios-aaf8"
   },
   {
-   "slug": "subtracao-imagem-numero-animais-4a99",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-animais",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "animals",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-animais-4a99"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-animais"
   },
   {
-   "slug": "subtracao-imagem-numero-animais-da-fazenda-bbb4",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-animais-da-fazenda-23d0",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "farm_animals",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-animais-da-fazenda-bbb4"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-animais-da-fazenda-23d0"
   },
   {
-   "slug": "subtracao-imagem-numero-animais-de-estimacao-1730",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-animais-de-estimacao-5bfa",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "pets",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-animais-de-estimacao-1730"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-animais-de-estimacao-5bfa"
   },
   {
-   "slug": "subtracao-imagem-numero-animais-do-zoologico-b924",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-animais-do-zoologico-256e",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "zoo_animals",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-animais-do-zoologico-b924"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-animais-do-zoologico-256e"
   },
   {
-   "slug": "subtracao-imagem-numero-arvores-fa46",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "tree",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-arvores-fa46"
+   "slug": "encontre-e-conte-procurar-letras-atividades-c3ae",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "activities",
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-atividades-c3ae"
   },
   {
-   "slug": "subtracao-imagem-numero-brinquedos-90b1",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-brinquedos-ab87",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "toys",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-brinquedos-90b1"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-brinquedos-ab87"
   },
   {
-   "slug": "subtracao-imagem-numero-cafe-da-manha-f364",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-cafe-da-manha-a158",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "breakfast",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-cafe-da-manha-f364"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-cafe-da-manha-a158"
   },
   {
-   "slug": "subtracao-imagem-numero-coisas-que-voam-5160",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-clima-38a8",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "weather",
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-clima-38a8"
+  },
+  {
+   "slug": "encontre-e-conte-procurar-letras-coisas-que-voam-4579",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "things_that_fly",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-coisas-que-voam-5160"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-coisas-que-voam-4579"
   },
   {
-   "slug": "subtracao-imagem-numero-correios-e5fd",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-correios-ebc2",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "post_office",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-correios-e5fd"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-correios-ebc2"
   },
   {
-   "slug": "subtracao-imagem-numero-criaturas-da-floresta-516f",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-criaturas-da-floresta-63de",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "forest_creatures",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-criaturas-da-floresta-516f"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-criaturas-da-floresta-63de"
   },
   {
-   "slug": "subtracao-imagem-numero-dia-de-acao-de-gracas-ddbf",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-dia-de-acao-de-gracas-477f",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "thanksgivinng",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-dia-de-acao-de-gracas-ddbf"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-dia-de-acao-de-gracas-477f"
   },
   {
-   "slug": "subtracao-imagem-numero-dinossauros-9daf",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "dinosaurs",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-dinossauros-9daf"
+   "slug": "encontre-e-conte-procurar-letras-emocoes-f05c",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "emotions",
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-emocoes-f05c"
   },
   {
-   "slug": "subtracao-imagem-numero-diversos-653f",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "miscellaneous",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-diversos-653f"
-  },
-  {
-   "slug": "subtracao-imagem-numero-espaco-1061",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-espaco-738e",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "space",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-espaco-1061"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-espaco-738e"
   },
   {
-   "slug": "subtracao-imagem-numero-ferramentas-e57d",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-ferramentas-9da2",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "tools",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-ferramentas-e57d"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-ferramentas-9da2"
   },
   {
-   "slug": "subtracao-imagem-numero-flores-4f87",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "flowers",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-flores-4f87"
-  },
-  {
-   "slug": "subtracao-imagem-numero-formas-0e0c",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-formas-7a73",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "shapes",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-formas-0e0c"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-formas-7a73"
   },
   {
-   "slug": "subtracao-imagem-numero-frutas-e433",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-frutas-3e21",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "fruits",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-frutas-e433"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-frutas-3e21"
   },
   {
-   "slug": "subtracao-imagem-numero-hospital-7813",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-hospital-aade",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "hospital",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-hospital-7813"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-hospital-aade"
   },
   {
-   "slug": "subtracao-imagem-numero-insetos-e-bichos-85f9",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-insetos-e-bichos-04fe",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "insects_and_bugs",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-insetos-e-bichos-85f9"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-insetos-e-bichos-04fe"
   },
   {
-   "slug": "subtracao-imagem-numero-moveis-4d40",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-inverno-7449",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "winter",
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-inverno-7449"
+  },
+  {
+   "slug": "encontre-e-conte-procurar-letras-moveis-9ad6",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "furniture",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-moveis-4d40"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-moveis-9ad6"
   },
   {
-   "slug": "subtracao-imagem-numero-musica-dc13",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-musica-eab6",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "music",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-musica-dc13"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-musica-eab6"
   },
   {
-   "slug": "subtracao-imagem-numero-natal-68a7",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-natal-bf32",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "christmas",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-natal-68a7"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-natal-bf32"
   },
   {
-   "slug": "subtracao-imagem-numero-no-supermercado-6b0f",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-no-supermercado-c20c",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "at_the_supermarket",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-no-supermercado-6b0f"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-no-supermercado-c20c"
   },
   {
-   "slug": "subtracao-imagem-numero-padaria-850f",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-padaria-a3a2",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "bakery",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-padaria-850f"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-padaria-a3a2"
   },
   {
-   "slug": "subtracao-imagem-numero-pascoa-d481",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-partes-do-corpo-6f36",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "body_parts",
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-partes-do-corpo-6f36"
+  },
+  {
+   "slug": "encontre-e-conte-procurar-letras-pascoa-6eff",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "easter",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-pascoa-d481"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-pascoa-6eff"
   },
   {
-   "slug": "subtracao-imagem-numero-passaros-2-913e",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-passaros-2-9ba9",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "birds_2",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-passaros-2-913e"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-passaros-2-9ba9"
   },
   {
-   "slug": "subtracao-imagem-numero-passaros-7d7d",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "birds",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-passaros-7d7d"
-  },
-  {
-   "slug": "subtracao-imagem-numero-pela-casa-668b",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-pela-casa-0cf4",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "around_the_house",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-pela-casa-668b"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-pela-casa-0cf4"
   },
   {
-   "slug": "subtracao-imagem-numero-praia-234c",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-praia-ef71",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "beach",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-praia-234c"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-praia-ef71"
   },
   {
-   "slug": "subtracao-imagem-numero-profissoes-bf6e",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-primavera-ba20",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "spring",
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-primavera-ba20"
+  },
+  {
+   "slug": "encontre-e-conte-procurar-letras-profissoes-3f17",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "occupations",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-profissoes-bf6e"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-profissoes-3f17"
   },
   {
-   "slug": "subtracao-imagem-numero-repteis-e-anfibios-36b3",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-repteis-e-anfibios-5da8",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "reptiles_and_amphibians",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-repteis-e-anfibios-36b3"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-repteis-e-anfibios-5da8"
   },
   {
-   "slug": "subtracao-imagem-numero-roupas-a30b",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-roupas-1847",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "clothing",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-roupas-a30b"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-roupas-1847"
   },
   {
-   "slug": "subtracao-imagem-numero-sala-de-aula-680e",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-sala-de-aula-d108",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "classroom",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-sala-de-aula-680e"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-sala-de-aula-d108"
   },
   {
-   "slug": "subtracao-imagem-numero-sobremesas-e-doces-3825",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-sobremesas-e-doces-728d",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "desserts_and_sweets",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-sobremesas-e-doces-3825"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-sobremesas-e-doces-728d"
   },
   {
-   "slug": "subtracao-imagem-numero-utensilios-de-cozinha-2629",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-utensilios-de-cozinha-1ece",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "kitchen_tools",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-utensilios-de-cozinha-2629"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-utensilios-de-cozinha-1ece"
   },
   {
-   "slug": "subtracao-imagem-numero-vegetais-c436",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-vegetais-70dd",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "vegetables",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-vegetais-c436"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-vegetais-70dd"
   },
   {
-   "slug": "subtracao-imagem-numero-veiculos-9dff",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-veiculos-4af7",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "vehicles",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-veiculos-9dff"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-veiculos-4af7"
   },
   {
-   "slug": "subtracao-imagem-numero-vida-marinha-e5c8",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "encontre-e-conte-procurar-letras-verao-962b",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "summer",
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-verao-962b"
+  },
+  {
+   "slug": "encontre-e-conte-procurar-letras-vida-marinha-067d",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "ocean_life",
-   "level": "1o-ano",
-   "deck": "subtracao-imagem-numero-vida-marinha-e5c8"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-procurar-letras-vida-marinha-067d"
   },
   {
-   "slug": "subtracao-misto-acampamento-bac9",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-acampamento-0275",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "camping",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-acampamento-bac9"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-acampamento-0275"
   },
   {
-   "slug": "subtracao-misto-acessorios-06d5",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-acessorios-a321",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "accessories",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-acessorios-06d5"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-acessorios-a321"
   },
   {
-   "slug": "subtracao-misto-animais-6ccf",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-animais-bdd6",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "animals",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-animais-6ccf"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-animais-bdd6"
   },
   {
-   "slug": "subtracao-misto-animais-da-fazenda-6c52",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-animais-da-fazenda-adf7",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "farm_animals",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-animais-da-fazenda-6c52"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-animais-da-fazenda-adf7"
   },
   {
-   "slug": "subtracao-misto-animais-de-estimacao-88cc",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-animais-de-estimacao-1e73",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "pets",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-animais-de-estimacao-88cc"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-animais-de-estimacao-1e73"
   },
   {
-   "slug": "subtracao-misto-animais-do-zoologico-4109",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-animais-do-zoologico-5a21",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "zoo_animals",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-animais-do-zoologico-4109"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-animais-do-zoologico-5a21"
   },
   {
-   "slug": "subtracao-misto-arvores-a625",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "tree",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-arvores-a625"
+   "slug": "encontre-e-conte-objetos-escondidos-atividades-cd01",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "activities",
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-atividades-cd01"
   },
   {
-   "slug": "subtracao-misto-brinquedos-76c1",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-brinquedos-30c5",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "toys",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-brinquedos-76c1"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-brinquedos-30c5"
   },
   {
-   "slug": "subtracao-misto-cafe-da-manha-33f4",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-cafe-da-manha-c299",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "breakfast",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-cafe-da-manha-33f4"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-cafe-da-manha-c299"
   },
   {
-   "slug": "subtracao-misto-coisas-que-voam-1e00",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-clima-93a2",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "weather",
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-clima-93a2"
+  },
+  {
+   "slug": "encontre-e-conte-objetos-escondidos-coisas-que-voam-0c2a",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "things_that_fly",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-coisas-que-voam-1e00"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-coisas-que-voam-0c2a"
   },
   {
-   "slug": "subtracao-misto-correios-d557",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-cores-f049",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "colors",
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-cores-f049"
+  },
+  {
+   "slug": "encontre-e-conte-objetos-escondidos-correios-3f5f",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "post_office",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-correios-d557"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-correios-3f5f"
   },
   {
-   "slug": "subtracao-misto-criaturas-da-floresta-9960",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-criaturas-da-floresta-c124",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "forest_creatures",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-criaturas-da-floresta-9960"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-criaturas-da-floresta-c124"
   },
   {
-   "slug": "subtracao-misto-dia-de-acao-de-gracas-ec79",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-dia-de-acao-de-gracas-8b45",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "thanksgivinng",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-dia-de-acao-de-gracas-ec79"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-dia-de-acao-de-gracas-8b45"
   },
   {
-   "slug": "subtracao-misto-dinossauros-6329",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "dinosaurs",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-dinossauros-6329"
+   "slug": "encontre-e-conte-objetos-escondidos-emocoes-c336",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "emotions",
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-emocoes-c336"
   },
   {
-   "slug": "subtracao-misto-diversos-3950",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "miscellaneous",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-diversos-3950"
-  },
-  {
-   "slug": "subtracao-misto-espaco-e7bd",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-espaco-a0b7",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "space",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-espaco-e7bd"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-espaco-a0b7"
   },
   {
-   "slug": "subtracao-misto-ferramentas-6efa",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-ferramentas-4d0b",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "tools",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-ferramentas-6efa"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-ferramentas-4d0b"
   },
   {
-   "slug": "subtracao-misto-flores-d551",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "flowers",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-flores-d551"
-  },
-  {
-   "slug": "subtracao-misto-formas-32e9",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-formas-3845",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "shapes",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-formas-32e9"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-formas-3845"
   },
   {
-   "slug": "subtracao-misto-frutas-ba5b",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-frutas-3818",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "fruits",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-frutas-ba5b"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-frutas-3818"
   },
   {
-   "slug": "subtracao-misto-hospital-792d",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-hospital-37e2",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "hospital",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-hospital-792d"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-hospital-37e2"
   },
   {
-   "slug": "subtracao-misto-insetos-e-bichos-5661",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "insects_and_bugs",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-insetos-e-bichos-5661"
+   "slug": "encontre-e-conte-objetos-escondidos-inverno-7e5c",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "winter",
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-inverno-7e5c"
   },
   {
-   "slug": "subtracao-misto-moveis-7a47",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-moveis-e9ca",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "furniture",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-moveis-7a47"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-moveis-e9ca"
   },
   {
-   "slug": "subtracao-misto-musica-605e",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-musica-c5d4",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "music",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-musica-605e"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-musica-c5d4"
   },
   {
-   "slug": "subtracao-misto-natal-3a8a",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-natal-69f4",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "christmas",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-natal-3a8a"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-natal-69f4"
   },
   {
-   "slug": "subtracao-misto-no-supermercado-ab3e",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-no-supermercado-c7d0",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "at_the_supermarket",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-no-supermercado-ab3e"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-no-supermercado-c7d0"
   },
   {
-   "slug": "subtracao-misto-padaria-b282",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-padaria-7390",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "bakery",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-padaria-b282"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-padaria-7390"
   },
   {
-   "slug": "subtracao-misto-pascoa-1eb4",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-partes-do-corpo-e577",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "body_parts",
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-partes-do-corpo-e577"
+  },
+  {
+   "slug": "encontre-e-conte-objetos-escondidos-pascoa-2247",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "easter",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-pascoa-1eb4"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-pascoa-2247"
   },
   {
-   "slug": "subtracao-misto-passaros-2-360c",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-passaros-2-7b73",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "birds_2",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-passaros-2-360c"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-passaros-2-7b73"
   },
   {
-   "slug": "subtracao-misto-passaros-8c81",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "birds",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-passaros-8c81"
-  },
-  {
-   "slug": "subtracao-misto-pela-casa-c68a",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-pela-casa-7cfb",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "around_the_house",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-pela-casa-c68a"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-pela-casa-7cfb"
   },
   {
-   "slug": "subtracao-misto-praia-903f",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-praia-0841",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "beach",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-praia-903f"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-praia-0841"
   },
   {
-   "slug": "subtracao-misto-profissoes-08ff",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-primavera-3b34",
+   "type": "find-and-count",
+   "mode": "hidden-object",
+   "theme": "spring",
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-primavera-3b34"
+  },
+  {
+   "slug": "encontre-e-conte-objetos-escondidos-profissoes-403f",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "occupations",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-profissoes-08ff"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-profissoes-403f"
   },
   {
-   "slug": "subtracao-misto-repteis-e-anfibios-00a6",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-repteis-e-anfibios-033c",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "reptiles_and_amphibians",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-repteis-e-anfibios-00a6"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-repteis-e-anfibios-033c"
   },
   {
-   "slug": "subtracao-misto-roupas-0dc4",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-roupas-720c",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "clothing",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-roupas-0dc4"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-roupas-720c"
   },
   {
-   "slug": "subtracao-misto-sala-de-aula-0a99",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-sala-de-aula-d88a",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "classroom",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-sala-de-aula-0a99"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-sala-de-aula-d88a"
   },
   {
-   "slug": "subtracao-misto-sobremesas-e-doces-d083",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-sobremesas-e-doces-0345",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "desserts_and_sweets",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-sobremesas-e-doces-d083"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-sobremesas-e-doces-0345"
   },
   {
-   "slug": "subtracao-misto-utensilios-de-cozinha-0873",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-utensilios-de-cozinha-d6d9",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "kitchen_tools",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-utensilios-de-cozinha-0873"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-utensilios-de-cozinha-d6d9"
   },
   {
-   "slug": "subtracao-misto-vegetais-03bc",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-vegetais-0c82",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "vegetables",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-vegetais-03bc"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-vegetais-0c82"
   },
   {
-   "slug": "subtracao-misto-veiculos-5136",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-veiculos-f890",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "vehicles",
-   "level": "1o-ano",
-   "deck": "subtracao-misto-veiculos-5136"
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-veiculos-f890"
   },
   {
-   "slug": "subtracao-misto-vida-marinha-e86c",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "encontre-e-conte-objetos-escondidos-vida-marinha-6e00",
+   "type": "find-and-count",
+   "mode": "hidden-object",
    "theme": "ocean_life",
+   "level": "educacao-infantil",
+   "deck": "encontre-e-conte-objetos-escondidos-vida-marinha-6e00"
+  },
+  {
+   "slug": "formas-geometricas-educacao-infantil",
+   "type": "geometry",
+   "mode": "count-and-sort-shapes",
+   "theme": "",
+   "level": "educacao-infantil",
+   "deck": "geometria-k075"
+  },
+  {
+   "slug": "quadrilateros-perimetro-area-3-ano",
+   "type": "geometry",
+   "mode": "quadrilaterals-and-area",
+   "theme": "",
+   "level": "3o-ano",
+   "deck": "geometria-g3337"
+  },
+  {
+   "slug": "solidos-geometricos-2-ano",
+   "type": "geometry",
+   "mode": "shape-attributes",
+   "theme": "",
+   "level": "2o-ano",
+   "deck": "geometria-g2241"
+  },
+  {
+   "slug": "disposicao-retangular-2-ano",
+   "type": "arrays-multiplication",
+   "mode": "arrays-repeated-addition",
+   "theme": "",
+   "level": "2o-ano",
+   "deck": "multiplicacao-formas-g2209"
+  },
+  {
+   "slug": "tabuada-disposicao-retangular-3-ano",
+   "type": "arrays-multiplication",
+   "mode": "multiply-and-divide",
+   "theme": "",
+   "level": "3o-ano",
+   "deck": "multiplicacao-g3313"
+  },
+  {
+   "slug": "fracoes-equivalentes-3-ano",
+   "type": "fractions",
+   "mode": "name-and-compare",
+   "theme": "",
+   "level": "3o-ano",
+   "deck": "fracoes-g3315"
+  },
+  {
+   "slug": "fracoes-partes-iguais-2-ano",
+   "type": "fractions",
+   "mode": "partition-and-share",
+   "theme": "",
+   "level": "2o-ano",
+   "deck": "fracoes-g2228"
+  },
+  {
+   "slug": "comparar-peso-educacao-infantil",
+   "type": "measurement",
+   "mode": "compare-weight",
+   "theme": "",
+   "level": "educacao-infantil",
+   "deck": "medidas-frutas-k038"
+  },
+  {
+   "slug": "medir-comprimento-1-ano",
+   "type": "measurement",
+   "mode": "length-units",
+   "theme": "",
    "level": "1o-ano",
-   "deck": "subtracao-misto-vida-marinha-e86c"
+   "deck": "medidas-formas-g1139"
+  },
+  {
+   "slug": "medir-comprimento-regua-2-ano",
+   "type": "measurement",
+   "mode": "measure-and-compare-length",
+   "theme": "",
+   "level": "2o-ano",
+   "deck": "medidas-formas-g2235"
+  },
+  {
+   "slug": "temperatura-volume-3-ano",
+   "type": "measurement",
+   "mode": "volume-and-temperature",
+   "theme": "",
+   "level": "3o-ano",
+   "deck": "medidas-g3345"
+  },
+  {
+   "slug": "atividades-quadro-numerico-1-ano",
+   "type": "number-charts",
+   "mode": "hundreds-chart-skip-count",
+   "theme": "",
+   "level": "1o-ano",
+   "deck": "quadro-numerico-g1130"
+  },
+  {
+   "slug": "atividades-quadro-numerico-3-ano",
+   "type": "number-charts",
+   "mode": "number-patterns",
+   "theme": "",
+   "level": "3o-ano",
+   "deck": "quadro-numerico-g3328"
+  },
+  {
+   "slug": "atividades-quadro-numerico-educacao-infantil",
+   "type": "number-charts",
+   "mode": "numbers-to-20",
+   "theme": "",
+   "level": "educacao-infantil",
+   "deck": "quadro-numerico-k021"
+  },
+  {
+   "slug": "atividades-quadro-numerico-2-ano",
+   "type": "number-charts",
+   "mode": "skip-count-and-100-more-less",
+   "theme": "",
+   "level": "2o-ano",
+   "deck": "quadro-numerico-g2218"
   }
  ]
 }

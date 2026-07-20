@@ -2,779 +2,755 @@
  "part": 145,
  "locale": "fr",
  "classes": [
-  "sudoku::easy",
-  "sudoku::medium"
+  "treasure-hunt::cardinal-arrows",
+  "treasure-hunt::compass"
  ],
  "splitOf": null,
- "count": 96,
+ "count": 93,
  "pages": [
   {
-   "slug": "sudoku-illustre-facile-accessoires-f3d2",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-accessoires-db57",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "accessories",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-accessoires-f3d2"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-accessoires-db57"
   },
   {
-   "slug": "sudoku-illustre-facile-action-de-grace-ab0b",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-action-de-grace-f3b1",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "thanksgivinng",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-action-de-grace-ab0b"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-action-de-grace-f3b1"
   },
   {
-   "slug": "sudoku-illustre-facile-activites-0be3",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-activites-73fe",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "activities",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-activites-0be3"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-activites-73fe"
   },
   {
-   "slug": "sudoku-illustre-facile-animaux-9534",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-animaux",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "animals",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-animaux-9534"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-animaux"
   },
   {
-   "slug": "sudoku-illustre-facile-animaux-de-compagnie-e341",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-animaux-de-compagnie-ae5d",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "pets",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-animaux-de-compagnie-e341"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-animaux-de-compagnie-ae5d"
   },
   {
-   "slug": "sudoku-illustre-facile-animaux-de-la-ferme-0b28",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-animaux-de-la-ferme-d0ed",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "farm_animals",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-animaux-de-la-ferme-0b28"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-animaux-de-la-ferme-d0ed"
   },
   {
-   "slug": "sudoku-illustre-facile-animaux-du-zoo-6632",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-animaux-du-zoo-f1f5",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "zoo_animals",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-animaux-du-zoo-6632"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-animaux-du-zoo-f1f5"
   },
   {
-   "slug": "sudoku-illustre-facile-arbres-c047",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-arbres-13ea",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "tree",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-arbres-c047"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-arbres-13ea"
   },
   {
-   "slug": "sudoku-illustre-facile-au-supermarche-169d",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-au-supermarche-2e61",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "at_the_supermarket",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-au-supermarche-169d"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-au-supermarche-2e61"
   },
   {
-   "slug": "sudoku-illustre-facile-autour-de-la-maison-1d82",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-autour-de-la-maison-65f3",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "around_the_house",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-autour-de-la-maison-1d82"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-autour-de-la-maison-65f3"
   },
   {
-   "slug": "sudoku-illustre-facile-boulangerie-1416",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-boulangerie-fe4e",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "bakery",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-boulangerie-1416"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-boulangerie-fe4e"
   },
   {
-   "slug": "sudoku-illustre-facile-bureau-de-poste-659f",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-bureau-de-poste-63bf",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "post_office",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-bureau-de-poste-659f"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-bureau-de-poste-63bf"
   },
   {
-   "slug": "sudoku-illustre-facile-camping-7906",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-camping-9d11",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "camping",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-camping-7906"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-camping-9d11"
   },
   {
-   "slug": "sudoku-illustre-facile-choses-qui-volent-ec2e",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-choses-qui-volent-fa05",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "things_that_fly",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-choses-qui-volent-ec2e"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-choses-qui-volent-fa05"
   },
   {
-   "slug": "sudoku-illustre-facile-couleurs-bb63",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-couleurs-5d79",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "colors",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-couleurs-bb63"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-couleurs-5d79"
   },
   {
-   "slug": "sudoku-illustre-facile-creatures-de-la-foret-7195",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-creatures-de-la-foret-86a3",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "forest_creatures",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-creatures-de-la-foret-7195"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-creatures-de-la-foret-86a3"
   },
   {
-   "slug": "sudoku-illustre-facile-desserts-et-sucreries-b15e",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-desserts-et-sucreries-42de",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "desserts_and_sweets",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-desserts-et-sucreries-b15e"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-desserts-et-sucreries-42de"
   },
   {
-   "slug": "sudoku-illustre-facile-dinosaures-7b6d",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-dinosaures-0879",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "dinosaurs",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-dinosaures-7b6d"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-dinosaures-0879"
   },
   {
-   "slug": "sudoku-illustre-facile-emotions-2319",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-emotions-0d1a",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "emotions",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-emotions-2319"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-emotions-0d1a"
   },
   {
-   "slug": "sudoku-illustre-facile-espace-7e43",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-espace-fcbd",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "space",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-espace-7e43"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-espace-fcbd"
   },
   {
-   "slug": "sudoku-illustre-facile-ete-24d3",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-ete-cf2e",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "summer",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-ete-24d3"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-ete-cf2e"
   },
   {
-   "slug": "sudoku-illustre-facile-fleurs-6d26",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-fleurs-d952",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "flowers",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-fleurs-6d26"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-fleurs-d952"
   },
   {
-   "slug": "sudoku-illustre-facile-formes-314a",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-formes-1a00",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "shapes",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-formes-314a"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-formes-1a00"
   },
   {
-   "slug": "sudoku-illustre-facile-fruits-6f2a",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-fruits-9225",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "fruits",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-fruits-6f2a"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-fruits-9225"
   },
   {
-   "slug": "sudoku-illustre-facile-hiver-2479",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-hiver-a02c",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "winter",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-hiver-2479"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-hiver-a02c"
   },
   {
-   "slug": "sudoku-illustre-facile-hopital-9c61",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-hopital-c718",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "hospital",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-hopital-9c61"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-hopital-c718"
   },
   {
-   "slug": "sudoku-illustre-facile-insectes-et-bestioles-a0d7",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-insectes-et-bestioles-f308",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "insects_and_bugs",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-insectes-et-bestioles-a0d7"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-insectes-et-bestioles-f308"
   },
   {
-   "slug": "sudoku-illustre-facile-jouets-4e52",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-jouets-bfe7",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "toys",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-jouets-4e52"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-jouets-bfe7"
   },
   {
-   "slug": "sudoku-illustre-facile-legumes-d77a",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-legumes-ee41",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "vegetables",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-legumes-d77a"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-legumes-ee41"
   },
   {
-   "slug": "sudoku-illustre-facile-meteo-bd5b",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-meteo-ce94",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "weather",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-meteo-bd5b"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-meteo-ce94"
   },
   {
-   "slug": "sudoku-illustre-facile-metiers-7998",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-metiers-04c1",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "occupations",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-metiers-7998"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-metiers-04c1"
   },
   {
-   "slug": "sudoku-illustre-facile-meubles-7908",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-meubles-4b2a",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "furniture",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-meubles-7908"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-meubles-4b2a"
   },
   {
-   "slug": "sudoku-illustre-facile-musique-544e",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-musique-3c7e",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "music",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-musique-544e"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-musique-3c7e"
   },
   {
-   "slug": "sudoku-illustre-facile-noel-e1fa",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-noel-3417",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "christmas",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-noel-e1fa"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-noel-3417"
   },
   {
-   "slug": "sudoku-illustre-facile-oiseaux-2-3792",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-oiseaux-2-1074",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "birds_2",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-oiseaux-2-3792"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-oiseaux-2-1074"
   },
   {
-   "slug": "sudoku-illustre-facile-oiseaux-8330",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-oiseaux-c2a6",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "birds",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-oiseaux-8330"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-oiseaux-c2a6"
   },
   {
-   "slug": "sudoku-illustre-facile-outils-1ccf",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-outils-7c1e",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "tools",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-outils-1ccf"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-outils-7c1e"
   },
   {
-   "slug": "sudoku-illustre-facile-paques-91fc",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-paques-fafe",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "easter",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-paques-91fc"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-paques-fafe"
   },
   {
-   "slug": "sudoku-illustre-facile-parties-du-corps-e4f3",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-parties-du-corps-872b",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "body_parts",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-parties-du-corps-e4f3"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-parties-du-corps-872b"
   },
   {
-   "slug": "sudoku-illustre-facile-petit-dejeuner-a44e",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-petit-dejeuner-50fa",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "breakfast",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-petit-dejeuner-a44e"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-petit-dejeuner-50fa"
   },
   {
-   "slug": "sudoku-illustre-facile-plage-a279",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-plage-0d98",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "beach",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-plage-a279"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-plage-0d98"
   },
   {
-   "slug": "sudoku-illustre-facile-printemps-d067",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-printemps-c9e6",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "spring",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-printemps-d067"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-printemps-c9e6"
   },
   {
-   "slug": "sudoku-illustre-facile-reptiles-et-amphibiens-8bd9",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-reptiles-et-amphibiens-347e",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "reptiles_and_amphibians",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-reptiles-et-amphibiens-8bd9"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-reptiles-et-amphibiens-347e"
   },
   {
-   "slug": "sudoku-illustre-facile-salle-de-classe-34c3",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-salle-de-classe-031c",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "classroom",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-salle-de-classe-34c3"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-salle-de-classe-031c"
   },
   {
-   "slug": "sudoku-illustre-facile-ustensiles-de-cuisine-4f8f",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-ustensiles-de-cuisine-c21d",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "kitchen_tools",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-ustensiles-de-cuisine-4f8f"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-ustensiles-de-cuisine-c21d"
   },
   {
-   "slug": "sudoku-illustre-facile-vehicules-fc61",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-vehicules-7c74",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "vehicles",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-vehicules-fc61"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-vehicules-7c74"
   },
   {
-   "slug": "sudoku-illustre-facile-vetements-243a",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-vetements-5cbf",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "clothing",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-vetements-243a"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-vetements-5cbf"
   },
   {
-   "slug": "sudoku-illustre-facile-vie-oceanique-f2eb",
-   "type": "sudoku",
-   "mode": "easy",
+   "slug": "chasse-au-tresor-haut-bas-gauche-droite-vie-oceanique-472c",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "ocean_life",
    "level": "maternelle",
-   "deck": "sudoku-illustre-facile-vie-oceanique-f2eb"
+   "deck": "chasse-au-tresor-haut-bas-gauche-droite-vie-oceanique-472c"
   },
   {
-   "slug": "sudoku-illustre-moyen-accessoires-f8d8",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-accessoires-c718",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "accessories",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-accessoires-f8d8"
+   "deck": "chasse-au-tresor-points-cardinaux-accessoires-c718"
   },
   {
-   "slug": "sudoku-illustre-moyen-action-de-grace-ad28",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-action-de-grace-87b9",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "thanksgivinng",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-action-de-grace-ad28"
+   "deck": "chasse-au-tresor-points-cardinaux-action-de-grace-87b9"
   },
   {
-   "slug": "sudoku-illustre-moyen-activites-912e",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-activites-ec2e",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "activities",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-activites-912e"
+   "deck": "chasse-au-tresor-points-cardinaux-activites-ec2e"
   },
   {
-   "slug": "sudoku-illustre-moyen-animaux-a8ef",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-animaux-281e",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "animals",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-animaux-a8ef"
+   "deck": "chasse-au-tresor-points-cardinaux-animaux-281e"
   },
   {
-   "slug": "sudoku-illustre-moyen-animaux-de-compagnie-4d3d",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-animaux-de-compagnie-4478",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "pets",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-animaux-de-compagnie-4d3d"
+   "deck": "chasse-au-tresor-points-cardinaux-animaux-de-compagnie-4478"
   },
   {
-   "slug": "sudoku-illustre-moyen-animaux-de-la-ferme-e77d",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-animaux-de-la-ferme-7b47",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "farm_animals",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-animaux-de-la-ferme-e77d"
+   "deck": "chasse-au-tresor-points-cardinaux-animaux-de-la-ferme-7b47"
   },
   {
-   "slug": "sudoku-illustre-moyen-animaux-du-zoo-09fa",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-animaux-du-zoo-f79c",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "zoo_animals",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-animaux-du-zoo-09fa"
+   "deck": "chasse-au-tresor-points-cardinaux-animaux-du-zoo-f79c"
   },
   {
-   "slug": "sudoku-illustre-moyen-arbres-3610",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-arbres-6c7e",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "tree",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-arbres-3610"
+   "deck": "chasse-au-tresor-points-cardinaux-arbres-6c7e"
   },
   {
-   "slug": "sudoku-illustre-moyen-au-supermarche-f9d9",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-au-supermarche-81af",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "at_the_supermarket",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-au-supermarche-f9d9"
+   "deck": "chasse-au-tresor-points-cardinaux-au-supermarche-81af"
   },
   {
-   "slug": "sudoku-illustre-moyen-autour-de-la-maison-ccc8",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-autour-de-la-maison-fa8c",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "around_the_house",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-autour-de-la-maison-ccc8"
+   "deck": "chasse-au-tresor-points-cardinaux-autour-de-la-maison-fa8c"
   },
   {
-   "slug": "sudoku-illustre-moyen-boulangerie-bf66",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-boulangerie-44e0",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "bakery",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-boulangerie-bf66"
+   "deck": "chasse-au-tresor-points-cardinaux-boulangerie-44e0"
   },
   {
-   "slug": "sudoku-illustre-moyen-bureau-de-poste-fa47",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-bureau-de-poste-89b1",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "post_office",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-bureau-de-poste-fa47"
+   "deck": "chasse-au-tresor-points-cardinaux-bureau-de-poste-89b1"
   },
   {
-   "slug": "sudoku-illustre-moyen-camping-f374",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-camping-9a8a",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "camping",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-camping-f374"
+   "deck": "chasse-au-tresor-points-cardinaux-camping-9a8a"
   },
   {
-   "slug": "sudoku-illustre-moyen-choses-qui-volent-7e87",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-choses-qui-volent-712e",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "things_that_fly",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-choses-qui-volent-7e87"
+   "deck": "chasse-au-tresor-points-cardinaux-choses-qui-volent-712e"
   },
   {
-   "slug": "sudoku-illustre-moyen-couleurs-e1b8",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-couleurs-b085",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "colors",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-couleurs-e1b8"
+   "deck": "chasse-au-tresor-points-cardinaux-couleurs-b085"
   },
   {
-   "slug": "sudoku-illustre-moyen-creatures-de-la-foret-3b72",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-creatures-de-la-foret-de1f",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "forest_creatures",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-creatures-de-la-foret-3b72"
+   "deck": "chasse-au-tresor-points-cardinaux-creatures-de-la-foret-de1f"
   },
   {
-   "slug": "sudoku-illustre-moyen-desserts-et-sucreries-0e04",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-desserts-et-sucreries-8a3c",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "desserts_and_sweets",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-desserts-et-sucreries-0e04"
+   "deck": "chasse-au-tresor-points-cardinaux-desserts-et-sucreries-8a3c"
   },
   {
-   "slug": "sudoku-illustre-moyen-dinosaures-150b",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-dinosaures-a451",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "dinosaurs",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-dinosaures-150b"
+   "deck": "chasse-au-tresor-points-cardinaux-dinosaures-a451"
   },
   {
-   "slug": "sudoku-illustre-moyen-emotions-de16",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-emotions-851c",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "emotions",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-emotions-de16"
+   "deck": "chasse-au-tresor-points-cardinaux-emotions-851c"
   },
   {
-   "slug": "sudoku-illustre-moyen-espace-888c",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-espace-1a38",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "space",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-espace-888c"
+   "deck": "chasse-au-tresor-points-cardinaux-espace-1a38"
   },
   {
-   "slug": "sudoku-illustre-moyen-ete-08e1",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-ete-c6d0",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "summer",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-ete-08e1"
+   "deck": "chasse-au-tresor-points-cardinaux-ete-c6d0"
   },
   {
-   "slug": "sudoku-illustre-moyen-fleurs-1d71",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-fleurs-50ba",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "flowers",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-fleurs-1d71"
+   "deck": "chasse-au-tresor-points-cardinaux-fleurs-50ba"
   },
   {
-   "slug": "sudoku-illustre-moyen-formes-65c6",
-   "type": "sudoku",
-   "mode": "medium",
-   "theme": "shapes",
-   "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-formes-65c6"
-  },
-  {
-   "slug": "sudoku-illustre-moyen-fruits-e52a",
-   "type": "sudoku",
-   "mode": "medium",
-   "theme": "fruits",
-   "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-fruits-e52a"
-  },
-  {
-   "slug": "sudoku-illustre-moyen-hiver-7f4a",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-hiver-c5b7",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "winter",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-hiver-7f4a"
+   "deck": "chasse-au-tresor-points-cardinaux-hiver-c5b7"
   },
   {
-   "slug": "sudoku-illustre-moyen-hopital-ddbc",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-hopital-a3f0",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "hospital",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-hopital-ddbc"
+   "deck": "chasse-au-tresor-points-cardinaux-hopital-a3f0"
   },
   {
-   "slug": "sudoku-illustre-moyen-insectes-et-bestioles-ba61",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-insectes-et-bestioles-363a",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "insects_and_bugs",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-insectes-et-bestioles-ba61"
+   "deck": "chasse-au-tresor-points-cardinaux-insectes-et-bestioles-363a"
   },
   {
-   "slug": "sudoku-illustre-moyen-jouets-fff8",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-jouets-39cc",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "toys",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-jouets-fff8"
+   "deck": "chasse-au-tresor-points-cardinaux-jouets-39cc"
   },
   {
-   "slug": "sudoku-illustre-moyen-legumes-c303",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-legumes-bd41",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "vegetables",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-legumes-c303"
+   "deck": "chasse-au-tresor-points-cardinaux-legumes-bd41"
   },
   {
-   "slug": "sudoku-illustre-moyen-meteo-9773",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-meteo-b45d",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "weather",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-meteo-9773"
+   "deck": "chasse-au-tresor-points-cardinaux-meteo-b45d"
   },
   {
-   "slug": "sudoku-illustre-moyen-metiers-b97d",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-metiers-4143",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "occupations",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-metiers-b97d"
+   "deck": "chasse-au-tresor-points-cardinaux-metiers-4143"
   },
   {
-   "slug": "sudoku-illustre-moyen-meubles-c1b2",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-meubles-16c2",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "furniture",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-meubles-c1b2"
+   "deck": "chasse-au-tresor-points-cardinaux-meubles-16c2"
   },
   {
-   "slug": "sudoku-illustre-moyen-musique-2a00",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-musique-49e5",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "music",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-musique-2a00"
+   "deck": "chasse-au-tresor-points-cardinaux-musique-49e5"
   },
   {
-   "slug": "sudoku-illustre-moyen-noel-ed9f",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-noel-847d",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "christmas",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-noel-ed9f"
+   "deck": "chasse-au-tresor-points-cardinaux-noel-847d"
   },
   {
-   "slug": "sudoku-illustre-moyen-oiseaux-2-ec36",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-oiseaux-2-5ebe",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "birds_2",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-oiseaux-2-ec36"
+   "deck": "chasse-au-tresor-points-cardinaux-oiseaux-2-5ebe"
   },
   {
-   "slug": "sudoku-illustre-moyen-oiseaux-651b",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-oiseaux-b3dc",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "birds",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-oiseaux-651b"
+   "deck": "chasse-au-tresor-points-cardinaux-oiseaux-b3dc"
   },
   {
-   "slug": "sudoku-illustre-moyen-outils-8863",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-outils-8c0e",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "tools",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-outils-8863"
+   "deck": "chasse-au-tresor-points-cardinaux-outils-8c0e"
   },
   {
-   "slug": "sudoku-illustre-moyen-paques-7f40",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-paques-622f",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "easter",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-paques-7f40"
+   "deck": "chasse-au-tresor-points-cardinaux-paques-622f"
   },
   {
-   "slug": "sudoku-illustre-moyen-parties-du-corps-9906",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-parties-du-corps-93f9",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "body_parts",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-parties-du-corps-9906"
+   "deck": "chasse-au-tresor-points-cardinaux-parties-du-corps-93f9"
   },
   {
-   "slug": "sudoku-illustre-moyen-petit-dejeuner-f2ef",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-petit-dejeuner-ec41",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "breakfast",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-petit-dejeuner-f2ef"
+   "deck": "chasse-au-tresor-points-cardinaux-petit-dejeuner-ec41"
   },
   {
-   "slug": "sudoku-illustre-moyen-plage-a022",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-plage-e985",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "beach",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-plage-a022"
+   "deck": "chasse-au-tresor-points-cardinaux-plage-e985"
   },
   {
-   "slug": "sudoku-illustre-moyen-printemps-ebe9",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-printemps-17d9",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "spring",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-printemps-ebe9"
+   "deck": "chasse-au-tresor-points-cardinaux-printemps-17d9"
   },
   {
-   "slug": "sudoku-illustre-moyen-reptiles-et-amphibiens-05e0",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-reptiles-et-amphibiens-2d17",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "reptiles_and_amphibians",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-reptiles-et-amphibiens-05e0"
+   "deck": "chasse-au-tresor-points-cardinaux-reptiles-et-amphibiens-2d17"
   },
   {
-   "slug": "sudoku-illustre-moyen-salle-de-classe-99d6",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-salle-de-classe-b2a9",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "classroom",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-salle-de-classe-99d6"
+   "deck": "chasse-au-tresor-points-cardinaux-salle-de-classe-b2a9"
   },
   {
-   "slug": "sudoku-illustre-moyen-ustensiles-de-cuisine-c25d",
-   "type": "sudoku",
-   "mode": "medium",
-   "theme": "kitchen_tools",
-   "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-ustensiles-de-cuisine-c25d"
-  },
-  {
-   "slug": "sudoku-illustre-moyen-vehicules-0bc9",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-vehicules-c88a",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "vehicles",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-vehicules-0bc9"
+   "deck": "chasse-au-tresor-points-cardinaux-vehicules-c88a"
   },
   {
-   "slug": "sudoku-illustre-moyen-vetements-624e",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-vetements-b9de",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "clothing",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-vetements-624e"
+   "deck": "chasse-au-tresor-points-cardinaux-vetements-b9de"
   },
   {
-   "slug": "sudoku-illustre-moyen-vie-oceanique-9222",
-   "type": "sudoku",
-   "mode": "medium",
+   "slug": "chasse-au-tresor-points-cardinaux-vie-oceanique-6276",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "ocean_life",
    "level": "maternelle",
-   "deck": "sudoku-illustre-moyen-vie-oceanique-9222"
+   "deck": "chasse-au-tresor-points-cardinaux-vie-oceanique-6276"
   }
  ]
 }

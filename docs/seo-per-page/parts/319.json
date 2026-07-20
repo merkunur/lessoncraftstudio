@@ -2,635 +2,779 @@
  "part": 319,
  "locale": "no",
  "classes": [
-  "subtraction::image-number",
-  "subtraction::mixed"
+  "pattern-train::null",
+  "picture-path::choose-path"
  ],
  "splitOf": null,
- "count": 78,
+ "count": 96,
  "pages": [
   {
-   "slug": "subtraksjon-bilde-tall-bakeri-58ca",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "monstertoget-aktiviteter-9a7d",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "activities",
+   "level": "1-trinn",
+   "deck": "monstertoget-aktiviteter-9a7d"
+  },
+  {
+   "slug": "monstertoget-bakeri-86be",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "bakery",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-bakeri-58ca"
+   "level": "1-trinn",
+   "deck": "monstertoget-bakeri-86be"
   },
   {
-   "slug": "subtraksjon-bilde-tall-blomster-d188",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "monstertoget-blomster-9222",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "flowers",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-blomster-d188"
+   "level": "1-trinn",
+   "deck": "monstertoget-blomster-9222"
   },
   {
-   "slug": "subtraksjon-bilde-tall-camping-6d6b",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "monstertoget-camping-3ae3",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "camping",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-camping-6d6b"
+   "level": "1-trinn",
+   "deck": "monstertoget-camping-3ae3"
   },
   {
-   "slug": "subtraksjon-bilde-tall-desserter-og-godteri-9f33",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "monstertoget-desserter-og-godteri-a680",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "desserts_and_sweets",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-desserter-og-godteri-9f33"
+   "level": "1-trinn",
+   "deck": "monstertoget-desserter-og-godteri-a680"
   },
   {
-   "slug": "subtraksjon-bilde-tall-dinosaurer-a3d9",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "monstertoget-dinosaurer-46ab",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "dinosaurs",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-dinosaurer-a3d9"
+   "level": "1-trinn",
+   "deck": "monstertoget-dinosaurer-46ab"
   },
   {
-   "slug": "subtraksjon-bilde-tall-dyr-0fbe",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "monstertoget-dyr-9869",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "animals",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-dyr-0fbe"
+   "level": "1-trinn",
+   "deck": "monstertoget-dyr-9869"
   },
   {
-   "slug": "subtraksjon-bilde-tall-dyrehagedyr-29bb",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "monstertoget-dyrehagedyr-c1c7",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "zoo_animals",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-dyrehagedyr-29bb"
+   "level": "1-trinn",
+   "deck": "monstertoget-dyrehagedyr-c1c7"
   },
   {
-   "slug": "subtraksjon-bilde-tall-former-4e65",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "monstertoget-farger-dfa8",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "colors",
+   "level": "1-trinn",
+   "deck": "monstertoget-farger-dfa8"
+  },
+  {
+   "slug": "monstertoget-folelser-b3ab",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "emotions",
+   "level": "1-trinn",
+   "deck": "monstertoget-folelser-b3ab"
+  },
+  {
+   "slug": "monstertoget-former-41f3",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "shapes",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-former-4e65"
+   "level": "1-trinn",
+   "deck": "monstertoget-former-41f3"
   },
   {
-   "slug": "subtraksjon-bilde-tall-frokost-031d",
-   "type": "subtraction",
-   "mode": "image-number",
+   "slug": "monstertoget-frokost-5be3",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "breakfast",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-frokost-031d"
+   "level": "1-trinn",
+   "deck": "monstertoget-frokost-5be3"
   },
   {
-   "slug": "subtraksjon-bilde-tall-fugler-2-921b",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "birds_2",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-fugler-2-921b"
-  },
-  {
-   "slug": "subtraksjon-bilde-tall-fugler-7107",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "birds",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-fugler-7107"
-  },
-  {
-   "slug": "subtraksjon-bilde-tall-gardsdyr-e7f8",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "farm_animals",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-gardsdyr-e7f8"
-  },
-  {
-   "slug": "subtraksjon-bilde-tall-gronnsaker-4bea",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "vegetables",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-gronnsaker-4bea"
-  },
-  {
-   "slug": "subtraksjon-bilde-tall-havliv-6f97",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "ocean_life",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-havliv-6f97"
-  },
-  {
-   "slug": "subtraksjon-bilde-tall-i-supermarkedet-ca1b",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "at_the_supermarket",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-i-supermarkedet-ca1b"
-  },
-  {
-   "slug": "subtraksjon-bilde-tall-insekter-og-kryp-9734",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "insects_and_bugs",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-insekter-og-kryp-9734"
-  },
-  {
-   "slug": "subtraksjon-bilde-tall-jul-deef",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "christmas",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-jul-deef"
-  },
-  {
-   "slug": "subtraksjon-bilde-tall-kjaeledyr-2bf7",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "pets",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-kjaeledyr-2bf7"
-  },
-  {
-   "slug": "subtraksjon-bilde-tall-kjokkenredskaper-9c3b",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "kitchen_tools",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-kjokkenredskaper-9c3b"
-  },
-  {
-   "slug": "subtraksjon-bilde-tall-kjoretoy-45e1",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "vehicles",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-kjoretoy-45e1"
-  },
-  {
-   "slug": "subtraksjon-bilde-tall-klaer-def5",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "clothing",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-klaer-def5"
-  },
-  {
-   "slug": "subtraksjon-bilde-tall-klasserom-63e7",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "classroom",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-klasserom-63e7"
-  },
-  {
-   "slug": "subtraksjon-bilde-tall-leker-6057",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "toys",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-leker-6057"
-  },
-  {
-   "slug": "subtraksjon-bilde-tall-mobler-5ce8",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "furniture",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-mobler-5ce8"
-  },
-  {
-   "slug": "subtraksjon-bilde-tall-musikk-5fb7",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "music",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-musikk-5fb7"
-  },
-  {
-   "slug": "subtraksjon-bilde-tall-paske-8589",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "easter",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-paske-8589"
-  },
-  {
-   "slug": "subtraksjon-bilde-tall-postkontor-3057",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "post_office",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-postkontor-3057"
-  },
-  {
-   "slug": "subtraksjon-bilde-tall-reptiler-og-amfibier-d319",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "reptiles_and_amphibians",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-reptiler-og-amfibier-d319"
-  },
-  {
-   "slug": "subtraksjon-bilde-tall-rundt-i-huset-a869",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "around_the_house",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-rundt-i-huset-a869"
-  },
-  {
-   "slug": "subtraksjon-bilde-tall-skogsdyr-37c3",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "forest_creatures",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-skogsdyr-37c3"
-  },
-  {
-   "slug": "subtraksjon-bilde-tall-strand-ff10",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "beach",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-strand-ff10"
-  },
-  {
-   "slug": "subtraksjon-bilde-tall-sykehus-fb1e",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "hospital",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-sykehus-fb1e"
-  },
-  {
-   "slug": "subtraksjon-bilde-tall-thanksgiving-b6ad",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "thanksgivinng",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-thanksgiving-b6ad"
-  },
-  {
-   "slug": "subtraksjon-bilde-tall-tilbehor-7701",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "accessories",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-tilbehor-7701"
-  },
-  {
-   "slug": "subtraksjon-bilde-tall-ting-som-flyr-b345",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "things_that_fly",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-ting-som-flyr-b345"
-  },
-  {
-   "slug": "subtraksjon-bilde-tall-traer-99d0",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "tree",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-traer-99d0"
-  },
-  {
-   "slug": "subtraksjon-bilde-tall-verdensrommet-ac1a",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "space",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-verdensrommet-ac1a"
-  },
-  {
-   "slug": "subtraksjon-bilde-tall-verktoy-6510",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "tools",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-verktoy-6510"
-  },
-  {
-   "slug": "subtraksjon-bilde-tall-yrker-8e08",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "occupations",
-   "level": "2-trinn",
-   "deck": "subtraksjon-bilde-tall-yrker-8e08"
-  },
-  {
-   "slug": "subtraksjon-blandet-bakeri-eb05",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "bakery",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-bakeri-eb05"
-  },
-  {
-   "slug": "subtraksjon-blandet-blomster-240f",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "flowers",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-blomster-240f"
-  },
-  {
-   "slug": "subtraksjon-blandet-camping-73e8",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "camping",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-camping-73e8"
-  },
-  {
-   "slug": "subtraksjon-blandet-desserter-og-godteri-70bf",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "desserts_and_sweets",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-desserter-og-godteri-70bf"
-  },
-  {
-   "slug": "subtraksjon-blandet-dinosaurer-018c",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "dinosaurs",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-dinosaurer-018c"
-  },
-  {
-   "slug": "subtraksjon-blandet-dyr-d22c",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "animals",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-dyr-d22c"
-  },
-  {
-   "slug": "subtraksjon-blandet-dyrehagedyr-e230",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "zoo_animals",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-dyrehagedyr-e230"
-  },
-  {
-   "slug": "subtraksjon-blandet-former-28d7",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "shapes",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-former-28d7"
-  },
-  {
-   "slug": "subtraksjon-blandet-frokost-412f",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "breakfast",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-frokost-412f"
-  },
-  {
-   "slug": "subtraksjon-blandet-frukter-66ca",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "monstertoget-frukter-5a3d",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "fruits",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-frukter-66ca"
+   "level": "1-trinn",
+   "deck": "monstertoget-frukter-5a3d"
   },
   {
-   "slug": "subtraksjon-blandet-fugler-2-103d",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "monstertoget-fugler-2-7df7",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "birds_2",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-fugler-2-103d"
+   "level": "1-trinn",
+   "deck": "monstertoget-fugler-2-7df7"
   },
   {
-   "slug": "subtraksjon-blandet-fugler-4565",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "monstertoget-fugler-49cd",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "birds",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-fugler-4565"
+   "level": "1-trinn",
+   "deck": "monstertoget-fugler-49cd"
   },
   {
-   "slug": "subtraksjon-blandet-gardsdyr-1c47",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "monstertoget-gardsdyr-210f",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "farm_animals",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-gardsdyr-1c47"
+   "level": "1-trinn",
+   "deck": "monstertoget-gardsdyr-210f"
   },
   {
-   "slug": "subtraksjon-blandet-gronnsaker-2d0d",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "monstertoget-gronnsaker-f5bd",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "vegetables",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-gronnsaker-2d0d"
+   "level": "1-trinn",
+   "deck": "monstertoget-gronnsaker-f5bd"
   },
   {
-   "slug": "subtraksjon-blandet-havliv-3647",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "monstertoget-havliv-f1f1",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "ocean_life",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-havliv-3647"
+   "level": "1-trinn",
+   "deck": "monstertoget-havliv-f1f1"
   },
   {
-   "slug": "subtraksjon-blandet-i-supermarkedet-a95b",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "monstertoget-i-supermarkedet-c261",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "at_the_supermarket",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-i-supermarkedet-a95b"
+   "level": "1-trinn",
+   "deck": "monstertoget-i-supermarkedet-c261"
   },
   {
-   "slug": "subtraksjon-blandet-insekter-og-kryp-0239",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "monstertoget-insekter-og-kryp-4ca5",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "insects_and_bugs",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-insekter-og-kryp-0239"
+   "level": "1-trinn",
+   "deck": "monstertoget-insekter-og-kryp-4ca5"
   },
   {
-   "slug": "subtraksjon-blandet-jul-62d3",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "monstertoget-jul-467b",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "christmas",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-jul-62d3"
+   "level": "1-trinn",
+   "deck": "monstertoget-jul-467b"
   },
   {
-   "slug": "subtraksjon-blandet-kjaeledyr-7761",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "monstertoget-kjaeledyr-93d0",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "pets",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-kjaeledyr-7761"
+   "level": "1-trinn",
+   "deck": "monstertoget-kjaeledyr-93d0"
   },
   {
-   "slug": "subtraksjon-blandet-kjokkenredskaper-9514",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "monstertoget-kjokkenredskaper-593b",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "kitchen_tools",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-kjokkenredskaper-9514"
+   "level": "1-trinn",
+   "deck": "monstertoget-kjokkenredskaper-593b"
   },
   {
-   "slug": "subtraksjon-blandet-kjoretoy-2dbc",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "monstertoget-kjoretoy-870f",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "vehicles",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-kjoretoy-2dbc"
+   "level": "1-trinn",
+   "deck": "monstertoget-kjoretoy-870f"
   },
   {
-   "slug": "subtraksjon-blandet-klaer-9db4",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "monstertoget-klaer-91cc",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "clothing",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-klaer-9db4"
+   "level": "1-trinn",
+   "deck": "monstertoget-klaer-91cc"
   },
   {
-   "slug": "subtraksjon-blandet-klasserom-bf63",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "monstertoget-klasserom-0a11",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "classroom",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-klasserom-bf63"
+   "level": "1-trinn",
+   "deck": "monstertoget-klasserom-0a11"
   },
   {
-   "slug": "subtraksjon-blandet-leker-9e22",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "monstertoget-kroppsdeler-7e0d",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "1-trinn",
+   "deck": "monstertoget-kroppsdeler-7e0d"
+  },
+  {
+   "slug": "monstertoget-leker-15a8",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "toys",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-leker-9e22"
+   "level": "1-trinn",
+   "deck": "monstertoget-leker-15a8"
   },
   {
-   "slug": "subtraksjon-blandet-mobler-129b",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "monstertoget-mobler-7426",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "furniture",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-mobler-129b"
+   "level": "1-trinn",
+   "deck": "monstertoget-mobler-7426"
   },
   {
-   "slug": "subtraksjon-blandet-musikk-dd15",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "monstertoget-musikk-a5b2",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "music",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-musikk-dd15"
+   "level": "1-trinn",
+   "deck": "monstertoget-musikk-a5b2"
   },
   {
-   "slug": "subtraksjon-blandet-paske-05bf",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "monstertoget-paske-ccc7",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "easter",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-paske-05bf"
+   "level": "1-trinn",
+   "deck": "monstertoget-paske-ccc7"
   },
   {
-   "slug": "subtraksjon-blandet-postkontor-e09b",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "monstertoget-postkontor-0e6b",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "post_office",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-postkontor-e09b"
+   "level": "1-trinn",
+   "deck": "monstertoget-postkontor-0e6b"
   },
   {
-   "slug": "subtraksjon-blandet-reptiler-og-amfibier-a85b",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "monstertoget-reptiler-og-amfibier-c3d1",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "reptiles_and_amphibians",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-reptiler-og-amfibier-a85b"
+   "level": "1-trinn",
+   "deck": "monstertoget-reptiler-og-amfibier-c3d1"
   },
   {
-   "slug": "subtraksjon-blandet-rundt-i-huset-19ab",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "monstertoget-rundt-i-huset-ed6e",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "around_the_house",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-rundt-i-huset-19ab"
+   "level": "1-trinn",
+   "deck": "monstertoget-rundt-i-huset-ed6e"
   },
   {
-   "slug": "subtraksjon-blandet-skogsdyr-ae93",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "monstertoget-skogsdyr-a5fd",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "forest_creatures",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-skogsdyr-ae93"
+   "level": "1-trinn",
+   "deck": "monstertoget-skogsdyr-a5fd"
   },
   {
-   "slug": "subtraksjon-blandet-strand-285c",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "monstertoget-sommer-360b",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "summer",
+   "level": "1-trinn",
+   "deck": "monstertoget-sommer-360b"
+  },
+  {
+   "slug": "monstertoget-strand-a526",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "beach",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-strand-285c"
+   "level": "1-trinn",
+   "deck": "monstertoget-strand-a526"
   },
   {
-   "slug": "subtraksjon-blandet-sykehus-557f",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "monstertoget-sykehus-0930",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "hospital",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-sykehus-557f"
+   "level": "1-trinn",
+   "deck": "monstertoget-sykehus-0930"
   },
   {
-   "slug": "subtraksjon-blandet-thanksgiving-9633",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "monstertoget-thanksgiving-3254",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "thanksgivinng",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-thanksgiving-9633"
+   "level": "1-trinn",
+   "deck": "monstertoget-thanksgiving-3254"
   },
   {
-   "slug": "subtraksjon-blandet-tilbehor-f584",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "monstertoget-tilbehor-cc25",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "accessories",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-tilbehor-f584"
+   "level": "1-trinn",
+   "deck": "monstertoget-tilbehor-cc25"
   },
   {
-   "slug": "subtraksjon-blandet-traer-5439",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "monstertoget-ting-som-flyr-cd0e",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "1-trinn",
+   "deck": "monstertoget-ting-som-flyr-cd0e"
+  },
+  {
+   "slug": "monstertoget-traer-ce31",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "tree",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-traer-5439"
+   "level": "1-trinn",
+   "deck": "monstertoget-traer-ce31"
   },
   {
-   "slug": "subtraksjon-blandet-verdensrommet-ffeb",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "monstertoget-vaer-f7d0",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "weather",
+   "level": "1-trinn",
+   "deck": "monstertoget-vaer-f7d0"
+  },
+  {
+   "slug": "monstertoget-var-18c6",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "spring",
+   "level": "1-trinn",
+   "deck": "monstertoget-var-18c6"
+  },
+  {
+   "slug": "monstertoget-verdensrommet-df69",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "space",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-verdensrommet-ffeb"
+   "level": "1-trinn",
+   "deck": "monstertoget-verdensrommet-df69"
   },
   {
-   "slug": "subtraksjon-blandet-verktoy-ff96",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "monstertoget-verktoy-bb95",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "tools",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-verktoy-ff96"
+   "level": "1-trinn",
+   "deck": "monstertoget-verktoy-bb95"
   },
   {
-   "slug": "subtraksjon-blandet-yrker-c8e6",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "monstertoget-vinter-374c",
+   "type": "pattern-train",
+   "mode": null,
+   "theme": "winter",
+   "level": "1-trinn",
+   "deck": "monstertoget-vinter-374c"
+  },
+  {
+   "slug": "monstertoget-yrker-54f3",
+   "type": "pattern-train",
+   "mode": null,
    "theme": "occupations",
-   "level": "2-trinn",
-   "deck": "subtraksjon-blandet-yrker-c8e6"
+   "level": "1-trinn",
+   "deck": "monstertoget-yrker-54f3"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-aktiviteter-c2d5",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "activities",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-aktiviteter-c2d5"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-bakeri-666f",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "bakery",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-bakeri-666f"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-blomster-69ee",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "flowers",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-blomster-69ee"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-camping-bcab",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "camping",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-camping-bcab"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-desserter-og-godteri-20e7",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "desserts_and_sweets",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-desserter-og-godteri-20e7"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-dinosaurer-9950",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "dinosaurs",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-dinosaurer-9950"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-dyr-d5b1",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "animals",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-dyr-d5b1"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-dyrehagedyr-9333",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "zoo_animals",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-dyrehagedyr-9333"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-farger-41ba",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "colors",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-farger-41ba"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-folelser-0542",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "emotions",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-folelser-0542"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-former-481e",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "shapes",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-former-481e"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-frokost-7773",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "breakfast",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-frokost-7773"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-frukter-9d9d",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "fruits",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-frukter-9d9d"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-fugler-2-136f",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "birds_2",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-fugler-2-136f"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-fugler-5ee4",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "birds",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-fugler-5ee4"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-gardsdyr-8da7",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "farm_animals",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-gardsdyr-8da7"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-gronnsaker-7164",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "vegetables",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-gronnsaker-7164"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-havliv-08d2",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "ocean_life",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-havliv-08d2"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-i-supermarkedet-b033",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "at_the_supermarket",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-i-supermarkedet-b033"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-insekter-og-kryp-0fcc",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "insects_and_bugs",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-insekter-og-kryp-0fcc"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-jul-7dfc",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "christmas",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-jul-7dfc"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-kjaeledyr-f456",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "pets",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-kjaeledyr-f456"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-kjokkenredskaper-36c8",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "kitchen_tools",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-kjokkenredskaper-36c8"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-kjoretoy-8ae4",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "vehicles",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-kjoretoy-8ae4"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-klaer-aae9",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "clothing",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-klaer-aae9"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-klasserom-6a84",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "classroom",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-klasserom-6a84"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-kroppsdeler-02df",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "body_parts",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-kroppsdeler-02df"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-leker-1a7d",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "toys",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-leker-1a7d"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-mobler-a432",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "furniture",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-mobler-a432"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-musikk-90bf",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "music",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-musikk-90bf"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-paske-6df3",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "easter",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-paske-6df3"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-postkontor-0192",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "post_office",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-postkontor-0192"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-reptiler-og-amfibier-8883",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-reptiler-og-amfibier-8883"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-rundt-i-huset-1425",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "around_the_house",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-rundt-i-huset-1425"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-skogsdyr-daf6",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "forest_creatures",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-skogsdyr-daf6"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-sommer-2732",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "summer",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-sommer-2732"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-strand-163e",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "beach",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-strand-163e"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-sykehus-1bcc",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "hospital",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-sykehus-1bcc"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-thanksgiving-6ae0",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "thanksgivinng",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-thanksgiving-6ae0"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-tilbehor-e927",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "accessories",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-tilbehor-e927"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-ting-som-flyr-42d4",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "things_that_fly",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-ting-som-flyr-42d4"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-traer-6963",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "tree",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-traer-6963"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-vaer-aa32",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "weather",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-vaer-aa32"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-var-2e7b",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "spring",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-var-2e7b"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-verdensrommet-ac65",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "space",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-verdensrommet-ac65"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-verktoy-c0a0",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "tools",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-verktoy-c0a0"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-vinter-f23c",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "winter",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-vinter-f23c"
+  },
+  {
+   "slug": "bildevei-velg-riktig-vei-yrker-0944",
+   "type": "picture-path",
+   "mode": "choose-path",
+   "theme": "occupations",
+   "level": "1-trinn",
+   "deck": "bildevei-velg-riktig-vei-yrker-0944"
   }
  ]
 }

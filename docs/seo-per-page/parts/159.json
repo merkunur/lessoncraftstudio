@@ -2,651 +2,683 @@
  "part": 159,
  "locale": "fr",
  "classes": [
-  "addition::image-image",
-  "addition::image-number"
+  "find-objects::i-spy",
+  "bingo::null"
  ],
  "splitOf": null,
- "count": 80,
+ "count": 84,
  "pages": [
   {
-   "slug": "addition-image-image-accessoires-d076",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-accessoires-f268",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "accessories",
-   "level": "cp",
-   "deck": "addition-image-image-accessoires-d076"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-accessoires-f268"
   },
   {
-   "slug": "addition-image-image-action-de-grace-1b5e",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-action-de-grace-6bf1",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "thanksgivinng",
-   "level": "cp",
-   "deck": "addition-image-image-action-de-grace-1b5e"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-action-de-grace-6bf1"
   },
   {
-   "slug": "addition-image-image-animaux",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-activites-b6cd",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "activities",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-activites-b6cd"
+  },
+  {
+   "slug": "trouve-les-objets-je-vois-je-vois-animaux-c7d6",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "animals",
-   "level": "cp",
-   "deck": "addition-image-image-animaux"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-animaux-c7d6"
   },
   {
-   "slug": "addition-image-image-animaux-de-compagnie-e862",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-animaux-de-compagnie-bd5d",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "pets",
-   "level": "cp",
-   "deck": "addition-image-image-animaux-de-compagnie-e862"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-animaux-de-compagnie-bd5d"
   },
   {
-   "slug": "addition-image-image-animaux-de-la-ferme-08f5",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-animaux-de-la-ferme-2139",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "farm_animals",
-   "level": "cp",
-   "deck": "addition-image-image-animaux-de-la-ferme-08f5"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-animaux-de-la-ferme-2139"
   },
   {
-   "slug": "addition-image-image-animaux-du-zoo-5b08",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-animaux-du-zoo-ac64",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "zoo_animals",
-   "level": "cp",
-   "deck": "addition-image-image-animaux-du-zoo-5b08"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-animaux-du-zoo-ac64"
   },
   {
-   "slug": "addition-image-image-arbres-8bf1",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-arbres-7815",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "tree",
-   "level": "cp",
-   "deck": "addition-image-image-arbres-8bf1"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-arbres-7815"
   },
   {
-   "slug": "addition-image-image-au-supermarche-5ad3",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-au-supermarche-49a0",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "at_the_supermarket",
-   "level": "cp",
-   "deck": "addition-image-image-au-supermarche-5ad3"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-au-supermarche-49a0"
   },
   {
-   "slug": "addition-image-image-autour-de-la-maison-f976",
-   "type": "addition",
-   "mode": "image-image",
-   "theme": "around_the_house",
-   "level": "cp",
-   "deck": "addition-image-image-autour-de-la-maison-f976"
-  },
-  {
-   "slug": "addition-image-image-boulangerie-e68d",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-boulangerie-3aa9",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "bakery",
-   "level": "cp",
-   "deck": "addition-image-image-boulangerie-e68d"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-boulangerie-3aa9"
   },
   {
-   "slug": "addition-image-image-bureau-de-poste-1c34",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-bureau-de-poste-aa65",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "post_office",
-   "level": "cp",
-   "deck": "addition-image-image-bureau-de-poste-1c34"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-bureau-de-poste-aa65"
   },
   {
-   "slug": "addition-image-image-camping-45c4",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-camping-b5e3",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "camping",
-   "level": "cp",
-   "deck": "addition-image-image-camping-45c4"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-camping-b5e3"
   },
   {
-   "slug": "addition-image-image-choses-qui-volent-9f30",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-choses-qui-volent-931c",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "things_that_fly",
-   "level": "cp",
-   "deck": "addition-image-image-choses-qui-volent-9f30"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-choses-qui-volent-931c"
   },
   {
-   "slug": "addition-image-image-creatures-de-la-foret-888b",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-couleurs-b352",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "colors",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-couleurs-b352"
+  },
+  {
+   "slug": "trouve-les-objets-je-vois-je-vois-creatures-de-la-foret-f4c0",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "forest_creatures",
-   "level": "cp",
-   "deck": "addition-image-image-creatures-de-la-foret-888b"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-creatures-de-la-foret-f4c0"
   },
   {
-   "slug": "addition-image-image-desserts-et-sucreries-50ea",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-desserts-et-sucreries-2ef8",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "desserts_and_sweets",
-   "level": "cp",
-   "deck": "addition-image-image-desserts-et-sucreries-50ea"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-desserts-et-sucreries-2ef8"
   },
   {
-   "slug": "addition-image-image-dinosaures-21f5",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-dinosaures-4961",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "dinosaurs",
-   "level": "cp",
-   "deck": "addition-image-image-dinosaures-21f5"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-dinosaures-4961"
   },
   {
-   "slug": "addition-image-image-espace-fdda",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-emotions-92f1",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "emotions",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-emotions-92f1"
+  },
+  {
+   "slug": "trouve-les-objets-je-vois-je-vois-espace-f394",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "space",
-   "level": "cp",
-   "deck": "addition-image-image-espace-fdda"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-espace-f394"
   },
   {
-   "slug": "addition-image-image-fleurs-5809",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-ete-143f",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "summer",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-ete-143f"
+  },
+  {
+   "slug": "trouve-les-objets-je-vois-je-vois-fleurs-7db6",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "flowers",
-   "level": "cp",
-   "deck": "addition-image-image-fleurs-5809"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-fleurs-7db6"
   },
   {
-   "slug": "addition-image-image-formes-3e84",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-formes-59e3",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "shapes",
-   "level": "cp",
-   "deck": "addition-image-image-formes-3e84"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-formes-59e3"
   },
   {
-   "slug": "addition-image-image-fruits-f954",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-fruits-423f",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "fruits",
-   "level": "cp",
-   "deck": "addition-image-image-fruits-f954"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-fruits-423f"
   },
   {
-   "slug": "addition-image-image-hopital-9821",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-hiver-8958",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "winter",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-hiver-8958"
+  },
+  {
+   "slug": "trouve-les-objets-je-vois-je-vois-hopital-6c6c",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "hospital",
-   "level": "cp",
-   "deck": "addition-image-image-hopital-9821"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-hopital-6c6c"
   },
   {
-   "slug": "addition-image-image-insectes-et-bestioles-c3d7",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-insectes-et-bestioles-7279",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "insects_and_bugs",
-   "level": "cp",
-   "deck": "addition-image-image-insectes-et-bestioles-c3d7"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-insectes-et-bestioles-7279"
   },
   {
-   "slug": "addition-image-image-jouets-a2ae",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-jouets-6c8c",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "toys",
-   "level": "cp",
-   "deck": "addition-image-image-jouets-a2ae"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-jouets-6c8c"
   },
   {
-   "slug": "addition-image-image-legumes-4481",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-legumes-5da3",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "vegetables",
-   "level": "cp",
-   "deck": "addition-image-image-legumes-4481"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-legumes-5da3"
   },
   {
-   "slug": "addition-image-image-metiers-1a71",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-meteo-553b",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "weather",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-meteo-553b"
+  },
+  {
+   "slug": "trouve-les-objets-je-vois-je-vois-metiers-ea0d",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "occupations",
-   "level": "cp",
-   "deck": "addition-image-image-metiers-1a71"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-metiers-ea0d"
   },
   {
-   "slug": "addition-image-image-meubles-beee",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-meubles-5ff5",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "furniture",
-   "level": "cp",
-   "deck": "addition-image-image-meubles-beee"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-meubles-5ff5"
   },
   {
-   "slug": "addition-image-image-musique-efb7",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-musique-6bd3",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "music",
-   "level": "cp",
-   "deck": "addition-image-image-musique-efb7"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-musique-6bd3"
   },
   {
-   "slug": "addition-image-image-noel-555e",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-noel-e05c",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "christmas",
-   "level": "cp",
-   "deck": "addition-image-image-noel-555e"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-noel-e05c"
   },
   {
-   "slug": "addition-image-image-oiseaux-2-a07c",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-oiseaux-2-4d1a",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "birds_2",
-   "level": "cp",
-   "deck": "addition-image-image-oiseaux-2-a07c"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-oiseaux-2-4d1a"
   },
   {
-   "slug": "addition-image-image-oiseaux-3f41",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-oiseaux-af19",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "birds",
-   "level": "cp",
-   "deck": "addition-image-image-oiseaux-3f41"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-oiseaux-af19"
   },
   {
-   "slug": "addition-image-image-outils-1c0c",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-outils-3736",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "tools",
-   "level": "cp",
-   "deck": "addition-image-image-outils-1c0c"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-outils-3736"
   },
   {
-   "slug": "addition-image-image-paques-0017",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-paques-2eae",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "easter",
-   "level": "cp",
-   "deck": "addition-image-image-paques-0017"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-paques-2eae"
   },
   {
-   "slug": "addition-image-image-petit-dejeuner-620c",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-parties-du-corps-ff78",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "body_parts",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-parties-du-corps-ff78"
+  },
+  {
+   "slug": "trouve-les-objets-je-vois-je-vois-petit-dejeuner-29ba",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "breakfast",
-   "level": "cp",
-   "deck": "addition-image-image-petit-dejeuner-620c"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-petit-dejeuner-29ba"
   },
   {
-   "slug": "addition-image-image-plage-0b14",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-plage-dd55",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "beach",
-   "level": "cp",
-   "deck": "addition-image-image-plage-0b14"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-plage-dd55"
   },
   {
-   "slug": "addition-image-image-reptiles-et-amphibiens-25f3",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-printemps-71f3",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "spring",
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-printemps-71f3"
+  },
+  {
+   "slug": "trouve-les-objets-je-vois-je-vois-reptiles-et-amphibiens-f0cf",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "reptiles_and_amphibians",
-   "level": "cp",
-   "deck": "addition-image-image-reptiles-et-amphibiens-25f3"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-reptiles-et-amphibiens-f0cf"
   },
   {
-   "slug": "addition-image-image-salle-de-classe-a84c",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-salle-de-classe-22fb",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "classroom",
-   "level": "cp",
-   "deck": "addition-image-image-salle-de-classe-a84c"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-salle-de-classe-22fb"
   },
   {
-   "slug": "addition-image-image-ustensiles-de-cuisine-34d1",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-ustensiles-de-cuisine-e67e",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "kitchen_tools",
-   "level": "cp",
-   "deck": "addition-image-image-ustensiles-de-cuisine-34d1"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-ustensiles-de-cuisine-e67e"
   },
   {
-   "slug": "addition-image-image-vehicules-4095",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-vehicules-1cf8",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "vehicles",
-   "level": "cp",
-   "deck": "addition-image-image-vehicules-4095"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-vehicules-1cf8"
   },
   {
-   "slug": "addition-image-image-vetements-436f",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-vetements-a658",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "clothing",
-   "level": "cp",
-   "deck": "addition-image-image-vetements-436f"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-vetements-a658"
   },
   {
-   "slug": "addition-image-image-vie-oceanique-553e",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "trouve-les-objets-je-vois-je-vois-vie-oceanique-e97e",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "ocean_life",
-   "level": "cp",
-   "deck": "addition-image-image-vie-oceanique-553e"
+   "level": "maternelle",
+   "deck": "trouve-les-objets-je-vois-je-vois-vie-oceanique-e97e"
   },
   {
-   "slug": "addition-image-nombre-accessoires-0855",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "loto-accessoires-36f8",
+   "type": "bingo",
+   "mode": null,
    "theme": "accessories",
-   "level": "cp",
-   "deck": "addition-image-nombre-accessoires-0855"
+   "level": "maternelle",
+   "deck": "loto-accessoires-36f8"
   },
   {
-   "slug": "addition-image-nombre-action-de-grace-5e6b",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "thanksgivinng",
-   "level": "cp",
-   "deck": "addition-image-nombre-action-de-grace-5e6b"
+   "slug": "loto-activites-38d5",
+   "type": "bingo",
+   "mode": null,
+   "theme": "activities",
+   "level": "maternelle",
+   "deck": "loto-activites-38d5"
   },
   {
-   "slug": "addition-image-nombre-animaux-b1d9",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "loto-animaux",
+   "type": "bingo",
+   "mode": null,
    "theme": "animals",
-   "level": "cp",
-   "deck": "addition-image-nombre-animaux-b1d9"
+   "level": "maternelle",
+   "deck": "loto-animaux"
   },
   {
-   "slug": "addition-image-nombre-animaux-de-compagnie-86d9",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "loto-animaux-de-compagnie-0890",
+   "type": "bingo",
+   "mode": null,
    "theme": "pets",
-   "level": "cp",
-   "deck": "addition-image-nombre-animaux-de-compagnie-86d9"
+   "level": "maternelle",
+   "deck": "loto-animaux-de-compagnie-0890"
   },
   {
-   "slug": "addition-image-nombre-animaux-de-la-ferme-9cfa",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "loto-animaux-de-la-ferme-e42b",
+   "type": "bingo",
+   "mode": null,
    "theme": "farm_animals",
-   "level": "cp",
-   "deck": "addition-image-nombre-animaux-de-la-ferme-9cfa"
+   "level": "maternelle",
+   "deck": "loto-animaux-de-la-ferme-e42b"
   },
   {
-   "slug": "addition-image-nombre-animaux-du-zoo-8d4f",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "loto-animaux-du-zoo-2fa9",
+   "type": "bingo",
+   "mode": null,
    "theme": "zoo_animals",
-   "level": "cp",
-   "deck": "addition-image-nombre-animaux-du-zoo-8d4f"
+   "level": "maternelle",
+   "deck": "loto-animaux-du-zoo-2fa9"
   },
   {
-   "slug": "addition-image-nombre-arbres-79e2",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "tree",
-   "level": "cp",
-   "deck": "addition-image-nombre-arbres-79e2"
-  },
-  {
-   "slug": "addition-image-nombre-au-supermarche-db1e",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "loto-au-supermarche-c8ef",
+   "type": "bingo",
+   "mode": null,
    "theme": "at_the_supermarket",
-   "level": "cp",
-   "deck": "addition-image-nombre-au-supermarche-db1e"
+   "level": "maternelle",
+   "deck": "loto-au-supermarche-c8ef"
   },
   {
-   "slug": "addition-image-nombre-autour-de-la-maison-5d10",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "loto-autour-de-la-maison-ac7a",
+   "type": "bingo",
+   "mode": null,
    "theme": "around_the_house",
-   "level": "cp",
-   "deck": "addition-image-nombre-autour-de-la-maison-5d10"
+   "level": "maternelle",
+   "deck": "loto-autour-de-la-maison-ac7a"
   },
   {
-   "slug": "addition-image-nombre-boulangerie-0aa3",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "loto-boulangerie-1ef2",
+   "type": "bingo",
+   "mode": null,
    "theme": "bakery",
-   "level": "cp",
-   "deck": "addition-image-nombre-boulangerie-0aa3"
+   "level": "maternelle",
+   "deck": "loto-boulangerie-1ef2"
   },
   {
-   "slug": "addition-image-nombre-bureau-de-poste-06dc",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "post_office",
-   "level": "cp",
-   "deck": "addition-image-nombre-bureau-de-poste-06dc"
-  },
-  {
-   "slug": "addition-image-nombre-camping-8cf3",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "loto-camping-6a93",
+   "type": "bingo",
+   "mode": null,
    "theme": "camping",
-   "level": "cp",
-   "deck": "addition-image-nombre-camping-8cf3"
+   "level": "maternelle",
+   "deck": "loto-camping-6a93"
   },
   {
-   "slug": "addition-image-nombre-choses-qui-volent-7ac2",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "loto-choses-qui-volent-e2e4",
+   "type": "bingo",
+   "mode": null,
    "theme": "things_that_fly",
-   "level": "cp",
-   "deck": "addition-image-nombre-choses-qui-volent-7ac2"
+   "level": "maternelle",
+   "deck": "loto-choses-qui-volent-e2e4"
   },
   {
-   "slug": "addition-image-nombre-creatures-de-la-foret-e91a",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "loto-couleurs-443a",
+   "type": "bingo",
+   "mode": null,
+   "theme": "colors",
+   "level": "maternelle",
+   "deck": "loto-couleurs-443a"
+  },
+  {
+   "slug": "loto-creatures-de-la-foret-b569",
+   "type": "bingo",
+   "mode": null,
    "theme": "forest_creatures",
-   "level": "cp",
-   "deck": "addition-image-nombre-creatures-de-la-foret-e91a"
+   "level": "maternelle",
+   "deck": "loto-creatures-de-la-foret-b569"
   },
   {
-   "slug": "addition-image-nombre-desserts-et-sucreries-f122",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "loto-desserts-et-sucreries-8746",
+   "type": "bingo",
+   "mode": null,
    "theme": "desserts_and_sweets",
-   "level": "cp",
-   "deck": "addition-image-nombre-desserts-et-sucreries-f122"
+   "level": "maternelle",
+   "deck": "loto-desserts-et-sucreries-8746"
   },
   {
-   "slug": "addition-image-nombre-dinosaures-df0e",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "dinosaurs",
-   "level": "cp",
-   "deck": "addition-image-nombre-dinosaures-df0e"
-  },
-  {
-   "slug": "addition-image-nombre-espace-c329",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "loto-espace-70bf",
+   "type": "bingo",
+   "mode": null,
    "theme": "space",
-   "level": "cp",
-   "deck": "addition-image-nombre-espace-c329"
+   "level": "maternelle",
+   "deck": "loto-espace-70bf"
   },
   {
-   "slug": "addition-image-nombre-fleurs-2329",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "flowers",
-   "level": "cp",
-   "deck": "addition-image-nombre-fleurs-2329"
+   "slug": "loto-ete-e1cc",
+   "type": "bingo",
+   "mode": null,
+   "theme": "summer",
+   "level": "maternelle",
+   "deck": "loto-ete-e1cc"
   },
   {
-   "slug": "addition-image-nombre-formes-f294",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "loto-formes-f506",
+   "type": "bingo",
+   "mode": null,
    "theme": "shapes",
-   "level": "cp",
-   "deck": "addition-image-nombre-formes-f294"
+   "level": "maternelle",
+   "deck": "loto-formes-f506"
   },
   {
-   "slug": "addition-image-nombre-fruits-474e",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "loto-fruits-8078",
+   "type": "bingo",
+   "mode": null,
    "theme": "fruits",
-   "level": "cp",
-   "deck": "addition-image-nombre-fruits-474e"
+   "level": "maternelle",
+   "deck": "loto-fruits-8078"
   },
   {
-   "slug": "addition-image-nombre-hopital-c150",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "loto-hiver-35b9",
+   "type": "bingo",
+   "mode": null,
+   "theme": "winter",
+   "level": "maternelle",
+   "deck": "loto-hiver-35b9"
+  },
+  {
+   "slug": "loto-hopital-0431",
+   "type": "bingo",
+   "mode": null,
    "theme": "hospital",
-   "level": "cp",
-   "deck": "addition-image-nombre-hopital-c150"
+   "level": "maternelle",
+   "deck": "loto-hopital-0431"
   },
   {
-   "slug": "addition-image-nombre-insectes-et-bestioles-17ff",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "insects_and_bugs",
-   "level": "cp",
-   "deck": "addition-image-nombre-insectes-et-bestioles-17ff"
-  },
-  {
-   "slug": "addition-image-nombre-jouets-d314",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "loto-jouets-aa38",
+   "type": "bingo",
+   "mode": null,
    "theme": "toys",
-   "level": "cp",
-   "deck": "addition-image-nombre-jouets-d314"
+   "level": "maternelle",
+   "deck": "loto-jouets-aa38"
   },
   {
-   "slug": "addition-image-nombre-legumes-a2c0",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "loto-legumes-31b4",
+   "type": "bingo",
+   "mode": null,
    "theme": "vegetables",
-   "level": "cp",
-   "deck": "addition-image-nombre-legumes-a2c0"
+   "level": "maternelle",
+   "deck": "loto-legumes-31b4"
   },
   {
-   "slug": "addition-image-nombre-metiers-ff61",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "loto-meteo-b52c",
+   "type": "bingo",
+   "mode": null,
+   "theme": "weather",
+   "level": "maternelle",
+   "deck": "loto-meteo-b52c"
+  },
+  {
+   "slug": "loto-metiers-bd51",
+   "type": "bingo",
+   "mode": null,
    "theme": "occupations",
-   "level": "cp",
-   "deck": "addition-image-nombre-metiers-ff61"
+   "level": "maternelle",
+   "deck": "loto-metiers-bd51"
   },
   {
-   "slug": "addition-image-nombre-meubles-9ae2",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "loto-meubles-580d",
+   "type": "bingo",
+   "mode": null,
    "theme": "furniture",
-   "level": "cp",
-   "deck": "addition-image-nombre-meubles-9ae2"
+   "level": "maternelle",
+   "deck": "loto-meubles-580d"
   },
   {
-   "slug": "addition-image-nombre-musique-0bfc",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "music",
-   "level": "cp",
-   "deck": "addition-image-nombre-musique-0bfc"
-  },
-  {
-   "slug": "addition-image-nombre-noel-e562",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "loto-noel-486b",
+   "type": "bingo",
+   "mode": null,
    "theme": "christmas",
-   "level": "cp",
-   "deck": "addition-image-nombre-noel-e562"
+   "level": "maternelle",
+   "deck": "loto-noel-486b"
   },
   {
-   "slug": "addition-image-nombre-oiseaux-2-32aa",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "loto-oiseaux-2-e493",
+   "type": "bingo",
+   "mode": null,
    "theme": "birds_2",
-   "level": "cp",
-   "deck": "addition-image-nombre-oiseaux-2-32aa"
+   "level": "maternelle",
+   "deck": "loto-oiseaux-2-e493"
   },
   {
-   "slug": "addition-image-nombre-oiseaux-b692",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "birds",
-   "level": "cp",
-   "deck": "addition-image-nombre-oiseaux-b692"
-  },
-  {
-   "slug": "addition-image-nombre-outils-275d",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "tools",
-   "level": "cp",
-   "deck": "addition-image-nombre-outils-275d"
-  },
-  {
-   "slug": "addition-image-nombre-paques-27d5",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "loto-paques-fb42",
+   "type": "bingo",
+   "mode": null,
    "theme": "easter",
-   "level": "cp",
-   "deck": "addition-image-nombre-paques-27d5"
+   "level": "maternelle",
+   "deck": "loto-paques-fb42"
   },
   {
-   "slug": "addition-image-nombre-petit-dejeuner-6c83",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "loto-parties-du-corps-839a",
+   "type": "bingo",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "maternelle",
+   "deck": "loto-parties-du-corps-839a"
+  },
+  {
+   "slug": "loto-petit-dejeuner-59aa",
+   "type": "bingo",
+   "mode": null,
    "theme": "breakfast",
-   "level": "cp",
-   "deck": "addition-image-nombre-petit-dejeuner-6c83"
+   "level": "maternelle",
+   "deck": "loto-petit-dejeuner-59aa"
   },
   {
-   "slug": "addition-image-nombre-plage-f94d",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "loto-plage-26c4",
+   "type": "bingo",
+   "mode": null,
    "theme": "beach",
-   "level": "cp",
-   "deck": "addition-image-nombre-plage-f94d"
+   "level": "maternelle",
+   "deck": "loto-plage-26c4"
   },
   {
-   "slug": "addition-image-nombre-reptiles-et-amphibiens-4d97",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "reptiles_and_amphibians",
-   "level": "cp",
-   "deck": "addition-image-nombre-reptiles-et-amphibiens-4d97"
+   "slug": "loto-printemps-1373",
+   "type": "bingo",
+   "mode": null,
+   "theme": "spring",
+   "level": "maternelle",
+   "deck": "loto-printemps-1373"
   },
   {
-   "slug": "addition-image-nombre-salle-de-classe-1797",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "loto-salle-de-classe-95b4",
+   "type": "bingo",
+   "mode": null,
    "theme": "classroom",
-   "level": "cp",
-   "deck": "addition-image-nombre-salle-de-classe-1797"
+   "level": "maternelle",
+   "deck": "loto-salle-de-classe-95b4"
   },
   {
-   "slug": "addition-image-nombre-ustensiles-de-cuisine-f563",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "loto-ustensiles-de-cuisine-c894",
+   "type": "bingo",
+   "mode": null,
    "theme": "kitchen_tools",
-   "level": "cp",
-   "deck": "addition-image-nombre-ustensiles-de-cuisine-f563"
+   "level": "maternelle",
+   "deck": "loto-ustensiles-de-cuisine-c894"
   },
   {
-   "slug": "addition-image-nombre-vehicules-0651",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "loto-vehicules-d81f",
+   "type": "bingo",
+   "mode": null,
    "theme": "vehicles",
-   "level": "cp",
-   "deck": "addition-image-nombre-vehicules-0651"
+   "level": "maternelle",
+   "deck": "loto-vehicules-d81f"
   },
   {
-   "slug": "addition-image-nombre-vetements-324c",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "loto-vetements-dca1",
+   "type": "bingo",
+   "mode": null,
    "theme": "clothing",
-   "level": "cp",
-   "deck": "addition-image-nombre-vetements-324c"
+   "level": "maternelle",
+   "deck": "loto-vetements-dca1"
   },
   {
-   "slug": "addition-image-nombre-vie-oceanique-c74c",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "loto-vie-oceanique-0bae",
+   "type": "bingo",
+   "mode": null,
    "theme": "ocean_life",
-   "level": "cp",
-   "deck": "addition-image-nombre-vie-oceanique-c74c"
+   "level": "maternelle",
+   "deck": "loto-vie-oceanique-0bae"
   }
  ]
 }

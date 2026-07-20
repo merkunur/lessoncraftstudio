@@ -2,627 +2,779 @@
  "part": 285,
  "locale": "da",
  "classes": [
-  "subtraction::image-number",
-  "alphabet-train::letter-hint"
+  "sudoku::easy",
+  "sudoku::medium"
  ],
  "splitOf": null,
- "count": 77,
+ "count": 96,
  "pages": [
   {
-   "slug": "subtraktion-billede-tal-bageri-c87a",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "bakery",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-bageri-c87a"
-  },
-  {
-   "slug": "subtraktion-billede-tal-blomster-affc",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "flowers",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-blomster-affc"
-  },
-  {
-   "slug": "subtraktion-billede-tal-bondegardsdyr-bb0b",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "farm_animals",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-bondegardsdyr-bb0b"
-  },
-  {
-   "slug": "subtraktion-billede-tal-camping-271d",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "camping",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-camping-271d"
-  },
-  {
-   "slug": "subtraktion-billede-tal-dinosaurer-1e7a",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "dinosaurs",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-dinosaurer-1e7a"
-  },
-  {
-   "slug": "subtraktion-billede-tal-dyr-2284",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "animals",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-dyr-2284"
-  },
-  {
-   "slug": "subtraktion-billede-tal-erhverv-00fa",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "occupations",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-erhverv-00fa"
-  },
-  {
-   "slug": "subtraktion-billede-tal-former-55db",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "shapes",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-former-55db"
-  },
-  {
-   "slug": "subtraktion-billede-tal-frugter-e5b8",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "fruits",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-frugter-e5b8"
-  },
-  {
-   "slug": "subtraktion-billede-tal-fugle-08f7",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "birds",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-fugle-08f7"
-  },
-  {
-   "slug": "subtraktion-billede-tal-fugle-2-dc1e",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "birds_2",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-fugle-2-dc1e"
-  },
-  {
-   "slug": "subtraktion-billede-tal-grontsager-7fa8",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "vegetables",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-grontsager-7fa8"
-  },
-  {
-   "slug": "subtraktion-billede-tal-havliv-2e93",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "ocean_life",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-havliv-2e93"
-  },
-  {
-   "slug": "subtraktion-billede-tal-hospital-2eb0",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "hospital",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-hospital-2eb0"
-  },
-  {
-   "slug": "subtraktion-billede-tal-i-supermarkedet-668f",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "at_the_supermarket",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-i-supermarkedet-668f"
-  },
-  {
-   "slug": "subtraktion-billede-tal-insekter-og-kryb-ebbe",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "insects_and_bugs",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-insekter-og-kryb-ebbe"
-  },
-  {
-   "slug": "subtraktion-billede-tal-jul-3179",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "christmas",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-jul-3179"
-  },
-  {
-   "slug": "subtraktion-billede-tal-kaeledyr-d01d",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "pets",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-kaeledyr-d01d"
-  },
-  {
-   "slug": "subtraktion-billede-tal-klassevaerelse-4fac",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "classroom",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-klassevaerelse-4fac"
-  },
-  {
-   "slug": "subtraktion-billede-tal-kokkenredskaber-8cb7",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "kitchen_tools",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-kokkenredskaber-8cb7"
-  },
-  {
-   "slug": "subtraktion-billede-tal-koretojer-1ea0",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "vehicles",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-koretojer-1ea0"
-  },
-  {
-   "slug": "subtraktion-billede-tal-krybdyr-og-padder-6aa8",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "reptiles_and_amphibians",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-krybdyr-og-padder-6aa8"
-  },
-  {
-   "slug": "subtraktion-billede-tal-legetoj-812d",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "toys",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-legetoj-812d"
-  },
-  {
-   "slug": "subtraktion-billede-tal-mobler-d5f3",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "furniture",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-mobler-d5f3"
-  },
-  {
-   "slug": "subtraktion-billede-tal-morgenmad-a278",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "breakfast",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-morgenmad-a278"
-  },
-  {
-   "slug": "subtraktion-billede-tal-musik-53e9",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "music",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-musik-53e9"
-  },
-  {
-   "slug": "subtraktion-billede-tal-paske-de63",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "easter",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-paske-de63"
-  },
-  {
-   "slug": "subtraktion-billede-tal-postkontor-ba85",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "post_office",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-postkontor-ba85"
-  },
-  {
-   "slug": "subtraktion-billede-tal-rummet-ef3f",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "space",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-rummet-ef3f"
-  },
-  {
-   "slug": "subtraktion-billede-tal-rundt-i-huset-5227",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "around_the_house",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-rundt-i-huset-5227"
-  },
-  {
-   "slug": "subtraktion-billede-tal-skovdyr-8e52",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "forest_creatures",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-skovdyr-8e52"
-  },
-  {
-   "slug": "subtraktion-billede-tal-strand-2e12",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "beach",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-strand-2e12"
-  },
-  {
-   "slug": "subtraktion-billede-tal-thanksgiving-4c8c",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "thanksgivinng",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-thanksgiving-4c8c"
-  },
-  {
-   "slug": "subtraktion-billede-tal-tilbehor-48fd",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "accessories",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-tilbehor-48fd"
-  },
-  {
-   "slug": "subtraktion-billede-tal-ting-der-flyver-8a0f",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "things_that_fly",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-ting-der-flyver-8a0f"
-  },
-  {
-   "slug": "subtraktion-billede-tal-toj-e8ec",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "clothing",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-toj-e8ec"
-  },
-  {
-   "slug": "subtraktion-billede-tal-traeer-d581",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "tree",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-traeer-d581"
-  },
-  {
-   "slug": "subtraktion-billede-tal-vaerktoj-bb7c",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "tools",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-vaerktoj-bb7c"
-  },
-  {
-   "slug": "subtraktion-billede-tal-zoodyr-be9b",
-   "type": "subtraction",
-   "mode": "image-number",
-   "theme": "zoo_animals",
-   "level": "1-klasse",
-   "deck": "subtraktion-billede-tal-zoodyr-be9b"
-  },
-  {
-   "slug": "alfabettoget-bogstavhjaelp-4-juli-6344",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
-   "theme": "4th_of_july",
-   "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-4-juli-6344"
-  },
-  {
-   "slug": "alfabettoget-bogstavhjaelp-aktiviteter-26a9",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-aktiviteter-920a",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "activities",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-aktiviteter-26a9"
+   "deck": "billedsudoku-let-aktiviteter-920a"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-bageri-1552",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-bageri-d426",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "bakery",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-bageri-1552"
+   "deck": "billedsudoku-let-bageri-d426"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-blomster-8e05",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-blomster-ddf2",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "flowers",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-blomster-8e05"
+   "deck": "billedsudoku-let-blomster-ddf2"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-bondegardsdyr-c20a",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-bondegardsdyr-b548",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "farm_animals",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-bondegardsdyr-c20a"
+   "deck": "billedsudoku-let-bondegardsdyr-b548"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-camping-bb26",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-camping-c48c",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "camping",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-camping-bb26"
+   "deck": "billedsudoku-let-camping-c48c"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-desserter-og-slik-fc8d",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-desserter-og-slik-cbc4",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "desserts_and_sweets",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-desserter-og-slik-fc8d"
+   "deck": "billedsudoku-let-desserter-og-slik-cbc4"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-dinosaurer-d6d3",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-dinosaurer-6546",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "dinosaurs",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-dinosaurer-d6d3"
+   "deck": "billedsudoku-let-dinosaurer-6546"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-dyr-f8ea",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-dyr-85cb",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "animals",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-dyr-f8ea"
+   "deck": "billedsudoku-let-dyr-85cb"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-erhverv-5152",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-erhverv-bf0a",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "occupations",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-erhverv-5152"
+   "deck": "billedsudoku-let-erhverv-bf0a"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-farver-7a02",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-farver-6d63",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "colors",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-farver-7a02"
+   "deck": "billedsudoku-let-farver-6d63"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-forar-a914",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-folelser-52a3",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "emotions",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-folelser-52a3"
+  },
+  {
+   "slug": "billedsudoku-let-forar-8c45",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "spring",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-forar-a914"
+   "deck": "billedsudoku-let-forar-8c45"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-frugter-8fb2",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-former-ad09",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "shapes",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-former-ad09"
+  },
+  {
+   "slug": "billedsudoku-let-frugter-b364",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "fruits",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-frugter-8fb2"
+   "deck": "billedsudoku-let-frugter-b364"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-fugle-2-2899",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-fugle-2-ae35",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "birds_2",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-fugle-2-2899"
+   "deck": "billedsudoku-let-fugle-2-ae35"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-grontsager-0bcb",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-fugle-4313",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "birds",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-fugle-4313"
+  },
+  {
+   "slug": "billedsudoku-let-grontsager-1706",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "vegetables",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-grontsager-0bcb"
+   "deck": "billedsudoku-let-grontsager-1706"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-havliv-1ade",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-havliv-2b32",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "ocean_life",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-havliv-1ade"
+   "deck": "billedsudoku-let-havliv-2b32"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-hospital-d1a4",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-hospital-5cbd",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "hospital",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-hospital-d1a4"
+   "deck": "billedsudoku-let-hospital-5cbd"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-i-supermarkedet-7670",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-i-supermarkedet-e443",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "at_the_supermarket",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-i-supermarkedet-7670"
+   "deck": "billedsudoku-let-i-supermarkedet-e443"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-jul-afa0",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-insekter-og-kryb-ba75",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "insects_and_bugs",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-insekter-og-kryb-ba75"
+  },
+  {
+   "slug": "billedsudoku-let-jul-e534",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "christmas",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-jul-afa0"
+   "deck": "billedsudoku-let-jul-e534"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-kaeledyr-cd9b",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-kaeledyr-329f",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "pets",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-kaeledyr-cd9b"
+   "deck": "billedsudoku-let-kaeledyr-329f"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-klassevaerelse-08dc",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-klassevaerelse-6bf2",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "classroom",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-klassevaerelse-08dc"
+   "deck": "billedsudoku-let-klassevaerelse-6bf2"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-kokkenredskaber-8748",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-kokkenredskaber-4f32",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "kitchen_tools",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-kokkenredskaber-8748"
+   "deck": "billedsudoku-let-kokkenredskaber-4f32"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-koretojer-6ef3",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-koretojer-f33a",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "vehicles",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-koretojer-6ef3"
+   "deck": "billedsudoku-let-koretojer-f33a"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-kropsdele-f906",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-kropsdele-fe4b",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "body_parts",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-kropsdele-f906"
+   "deck": "billedsudoku-let-kropsdele-fe4b"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-legetoj-2b45",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-krybdyr-og-padder-820a",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "reptiles_and_amphibians",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-krybdyr-og-padder-820a"
+  },
+  {
+   "slug": "billedsudoku-let-legetoj-3ae9",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "toys",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-legetoj-2b45"
+   "deck": "billedsudoku-let-legetoj-3ae9"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-morgenmad-48bd",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-mobler-7198",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "furniture",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-mobler-7198"
+  },
+  {
+   "slug": "billedsudoku-let-morgenmad-68bb",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "breakfast",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-morgenmad-48bd"
+   "deck": "billedsudoku-let-morgenmad-68bb"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-paske-ca0c",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-musik-617c",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "music",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-musik-617c"
+  },
+  {
+   "slug": "billedsudoku-let-paske-eeb3",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "easter",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-paske-ca0c"
+   "deck": "billedsudoku-let-paske-eeb3"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-rummet-0b2a",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-postkontor-96b2",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "post_office",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-postkontor-96b2"
+  },
+  {
+   "slug": "billedsudoku-let-rummet-3467",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "space",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-rummet-0b2a"
+   "deck": "billedsudoku-let-rummet-3467"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-rundt-i-huset-6160",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-rundt-i-huset-573a",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "around_the_house",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-rundt-i-huset-6160"
+   "deck": "billedsudoku-let-rundt-i-huset-573a"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-skovdyr-f61d",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-skovdyr-ea66",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "forest_creatures",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-skovdyr-f61d"
+   "deck": "billedsudoku-let-skovdyr-ea66"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-sommer-cdfb",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-sommer-11c7",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "summer",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-sommer-cdfb"
+   "deck": "billedsudoku-let-sommer-11c7"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-strand-2ad3",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-strand-4129",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "beach",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-strand-2ad3"
+   "deck": "billedsudoku-let-strand-4129"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-thanksgiving-a07a",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-thanksgiving-9b1d",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "thanksgivinng",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-thanksgiving-a07a"
+   "deck": "billedsudoku-let-thanksgiving-9b1d"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-tilbehor-2643",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-tilbehor-13a1",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "accessories",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-tilbehor-2643"
+   "deck": "billedsudoku-let-tilbehor-13a1"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-ting-der-flyver-c844",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-ting-der-flyver-ce8e",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "things_that_fly",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-ting-der-flyver-c844"
+   "deck": "billedsudoku-let-ting-der-flyver-ce8e"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-toj-51c9",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-toj-fd47",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "clothing",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-toj-51c9"
+   "deck": "billedsudoku-let-toj-fd47"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-traeer-1e09",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-traeer-6526",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "tree",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-traeer-1e09"
+   "deck": "billedsudoku-let-traeer-6526"
   },
   {
-   "slug": "alfabettoget-bogstavhjaelp-zoodyr-b007",
-   "type": "alphabet-train",
-   "mode": "letter-hint",
+   "slug": "billedsudoku-let-vaerktoj-521d",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "tools",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-vaerktoj-521d"
+  },
+  {
+   "slug": "billedsudoku-let-vejr-7489",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "weather",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-vejr-7489"
+  },
+  {
+   "slug": "billedsudoku-let-vinter-6932",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "winter",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-let-vinter-6932"
+  },
+  {
+   "slug": "billedsudoku-let-zoodyr-20f6",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "zoo_animals",
    "level": "boernehaveklasse",
-   "deck": "alfabettoget-bogstavhjaelp-zoodyr-b007"
+   "deck": "billedsudoku-let-zoodyr-20f6"
+  },
+  {
+   "slug": "billedsudoku-mellem-aktiviteter-b7dd",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "activities",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-aktiviteter-b7dd"
+  },
+  {
+   "slug": "billedsudoku-mellem-bageri-6293",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "bakery",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-bageri-6293"
+  },
+  {
+   "slug": "billedsudoku-mellem-blomster-8987",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "flowers",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-blomster-8987"
+  },
+  {
+   "slug": "billedsudoku-mellem-bondegardsdyr-8564",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "farm_animals",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-bondegardsdyr-8564"
+  },
+  {
+   "slug": "billedsudoku-mellem-camping-9bbf",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "camping",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-camping-9bbf"
+  },
+  {
+   "slug": "billedsudoku-mellem-desserter-og-slik-8fe2",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "desserts_and_sweets",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-desserter-og-slik-8fe2"
+  },
+  {
+   "slug": "billedsudoku-mellem-dinosaurer-ab3c",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-dinosaurer-ab3c"
+  },
+  {
+   "slug": "billedsudoku-mellem-dyr-3141",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "animals",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-dyr-3141"
+  },
+  {
+   "slug": "billedsudoku-mellem-erhverv-7383",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "occupations",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-erhverv-7383"
+  },
+  {
+   "slug": "billedsudoku-mellem-farver-cbd3",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "colors",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-farver-cbd3"
+  },
+  {
+   "slug": "billedsudoku-mellem-folelser-a62c",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "emotions",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-folelser-a62c"
+  },
+  {
+   "slug": "billedsudoku-mellem-forar-7f7b",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "spring",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-forar-7f7b"
+  },
+  {
+   "slug": "billedsudoku-mellem-former-5ba7",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "shapes",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-former-5ba7"
+  },
+  {
+   "slug": "billedsudoku-mellem-frugter-0302",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "fruits",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-frugter-0302"
+  },
+  {
+   "slug": "billedsudoku-mellem-fugle-2-1751",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "birds_2",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-fugle-2-1751"
+  },
+  {
+   "slug": "billedsudoku-mellem-fugle-56ae",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "birds",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-fugle-56ae"
+  },
+  {
+   "slug": "billedsudoku-mellem-grontsager-4483",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "vegetables",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-grontsager-4483"
+  },
+  {
+   "slug": "billedsudoku-mellem-havliv-8d8c",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "ocean_life",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-havliv-8d8c"
+  },
+  {
+   "slug": "billedsudoku-mellem-hospital-4d18",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "hospital",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-hospital-4d18"
+  },
+  {
+   "slug": "billedsudoku-mellem-i-supermarkedet-48ef",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "at_the_supermarket",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-i-supermarkedet-48ef"
+  },
+  {
+   "slug": "billedsudoku-mellem-insekter-og-kryb-420b",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "insects_and_bugs",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-insekter-og-kryb-420b"
+  },
+  {
+   "slug": "billedsudoku-mellem-jul-2e15",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "christmas",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-jul-2e15"
+  },
+  {
+   "slug": "billedsudoku-mellem-kaeledyr-dfec",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "pets",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-kaeledyr-dfec"
+  },
+  {
+   "slug": "billedsudoku-mellem-klassevaerelse-2af0",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "classroom",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-klassevaerelse-2af0"
+  },
+  {
+   "slug": "billedsudoku-mellem-kokkenredskaber-06e3",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "kitchen_tools",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-kokkenredskaber-06e3"
+  },
+  {
+   "slug": "billedsudoku-mellem-koretojer-efb2",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "vehicles",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-koretojer-efb2"
+  },
+  {
+   "slug": "billedsudoku-mellem-kropsdele-2993",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "body_parts",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-kropsdele-2993"
+  },
+  {
+   "slug": "billedsudoku-mellem-krybdyr-og-padder-88fd",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "reptiles_and_amphibians",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-krybdyr-og-padder-88fd"
+  },
+  {
+   "slug": "billedsudoku-mellem-legetoj-8217",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "toys",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-legetoj-8217"
+  },
+  {
+   "slug": "billedsudoku-mellem-mobler-e668",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "furniture",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-mobler-e668"
+  },
+  {
+   "slug": "billedsudoku-mellem-morgenmad-39f4",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "breakfast",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-morgenmad-39f4"
+  },
+  {
+   "slug": "billedsudoku-mellem-musik-66f5",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "music",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-musik-66f5"
+  },
+  {
+   "slug": "billedsudoku-mellem-paske-8249",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "easter",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-paske-8249"
+  },
+  {
+   "slug": "billedsudoku-mellem-postkontor-45c4",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "post_office",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-postkontor-45c4"
+  },
+  {
+   "slug": "billedsudoku-mellem-rummet-444b",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "space",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-rummet-444b"
+  },
+  {
+   "slug": "billedsudoku-mellem-rundt-i-huset-f146",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "around_the_house",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-rundt-i-huset-f146"
+  },
+  {
+   "slug": "billedsudoku-mellem-skovdyr-4627",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "forest_creatures",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-skovdyr-4627"
+  },
+  {
+   "slug": "billedsudoku-mellem-sommer-e02a",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "summer",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-sommer-e02a"
+  },
+  {
+   "slug": "billedsudoku-mellem-strand-a9c5",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "beach",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-strand-a9c5"
+  },
+  {
+   "slug": "billedsudoku-mellem-thanksgiving-3379",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "thanksgivinng",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-thanksgiving-3379"
+  },
+  {
+   "slug": "billedsudoku-mellem-tilbehor-8c28",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "accessories",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-tilbehor-8c28"
+  },
+  {
+   "slug": "billedsudoku-mellem-ting-der-flyver-d0b0",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "things_that_fly",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-ting-der-flyver-d0b0"
+  },
+  {
+   "slug": "billedsudoku-mellem-toj-aaaf",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "clothing",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-toj-aaaf"
+  },
+  {
+   "slug": "billedsudoku-mellem-traeer-941f",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "tree",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-traeer-941f"
+  },
+  {
+   "slug": "billedsudoku-mellem-vaerktoj-da4a",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "tools",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-vaerktoj-da4a"
+  },
+  {
+   "slug": "billedsudoku-mellem-vejr-1e4e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "weather",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-vejr-1e4e"
+  },
+  {
+   "slug": "billedsudoku-mellem-vinter-c5f6",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "winter",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-vinter-c5f6"
+  },
+  {
+   "slug": "billedsudoku-mellem-zoodyr-4179",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "zoo_animals",
+   "level": "boernehaveklasse",
+   "deck": "billedsudoku-mellem-zoodyr-4179"
   }
  ]
 }

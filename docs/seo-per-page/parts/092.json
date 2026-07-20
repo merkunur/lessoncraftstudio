@@ -2,779 +2,779 @@
  "part": 92,
  "locale": "es",
  "classes": [
-  "picture-path::null",
-  "shadow-match::find-shadow"
+  "more-less::image-image",
+  "treasure-hunt::cardinal-arrows"
  ],
  "splitOf": null,
  "count": 96,
  "pages": [
   {
-   "slug": "sendero-de-imagenes-4-de-julio-02e0",
-   "type": "picture-path",
-   "mode": null,
+   "slug": "mas-o-menos-imagen-imagen-4-de-julio-74a5",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "4th_of_july",
    "level": "preescolar",
-   "deck": "sendero-de-imagenes-4-de-julio-02e0"
+   "deck": "mas-o-menos-imagen-imagen-4-de-julio-74a5"
   },
   {
-   "slug": "sendero-de-imagenes-accesorios-257e",
-   "type": "picture-path",
-   "mode": null,
+   "slug": "mas-o-menos-imagen-imagen-accesorios-54bc",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "accessories",
    "level": "preescolar",
-   "deck": "sendero-de-imagenes-accesorios-257e"
+   "deck": "mas-o-menos-imagen-imagen-accesorios-54bc"
   },
   {
-   "slug": "sendero-de-imagenes-actividades-273d",
-   "type": "picture-path",
-   "mode": null,
+   "slug": "mas-o-menos-imagen-imagen-actividades-4904",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "activities",
    "level": "preescolar",
-   "deck": "sendero-de-imagenes-actividades-273d"
+   "deck": "mas-o-menos-imagen-imagen-actividades-4904"
   },
   {
-   "slug": "sendero-de-imagenes-alrededor-de-la-casa-2e6e",
-   "type": "picture-path",
-   "mode": null,
+   "slug": "mas-o-menos-imagen-imagen-alrededor-de-la-casa-4038",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "around_the_house",
    "level": "preescolar",
-   "deck": "sendero-de-imagenes-alrededor-de-la-casa-2e6e"
+   "deck": "mas-o-menos-imagen-imagen-alrededor-de-la-casa-4038"
   },
   {
-   "slug": "sendero-de-imagenes-animales-98be",
-   "type": "picture-path",
-   "mode": null,
+   "slug": "mas-o-menos-imagen-imagen-animales-836f",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "animals",
    "level": "preescolar",
-   "deck": "sendero-de-imagenes-animales-98be"
+   "deck": "mas-o-menos-imagen-imagen-animales-836f"
   },
   {
-   "slug": "sendero-de-imagenes-animales-de-granja-98be",
-   "type": "picture-path",
-   "mode": null,
+   "slug": "mas-o-menos-imagen-imagen-animales-de-granja-38ef",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "farm_animals",
    "level": "preescolar",
-   "deck": "sendero-de-imagenes-animales-de-granja-98be"
+   "deck": "mas-o-menos-imagen-imagen-animales-de-granja-38ef"
   },
   {
-   "slug": "sendero-de-imagenes-animales-del-zoologico-98be",
-   "type": "picture-path",
-   "mode": null,
+   "slug": "mas-o-menos-imagen-imagen-animales-del-zoologico-0d48",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "zoo_animals",
    "level": "preescolar",
-   "deck": "sendero-de-imagenes-animales-del-zoologico-98be"
+   "deck": "mas-o-menos-imagen-imagen-animales-del-zoologico-0d48"
   },
   {
-   "slug": "sendero-de-imagenes-arboles-8c29",
-   "type": "picture-path",
-   "mode": null,
+   "slug": "mas-o-menos-imagen-imagen-arboles-51dc",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "tree",
    "level": "preescolar",
-   "deck": "sendero-de-imagenes-arboles-8c29"
+   "deck": "mas-o-menos-imagen-imagen-arboles-51dc"
   },
   {
-   "slug": "sendero-de-imagenes-aves-2-6084",
-   "type": "picture-path",
-   "mode": null,
+   "slug": "mas-o-menos-imagen-imagen-aves-2-1c70",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "birds_2",
    "level": "preescolar",
-   "deck": "sendero-de-imagenes-aves-2-6084"
+   "deck": "mas-o-menos-imagen-imagen-aves-2-1c70"
   },
   {
-   "slug": "sendero-de-imagenes-aves-5526",
-   "type": "picture-path",
-   "mode": null,
+   "slug": "mas-o-menos-imagen-imagen-aves-4586",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "birds",
    "level": "preescolar",
-   "deck": "sendero-de-imagenes-aves-5526"
+   "deck": "mas-o-menos-imagen-imagen-aves-4586"
   },
   {
-   "slug": "sendero-de-imagenes-campamento-03f0",
-   "type": "picture-path",
-   "mode": null,
+   "slug": "mas-o-menos-imagen-imagen-campamento-273b",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "camping",
    "level": "preescolar",
-   "deck": "sendero-de-imagenes-campamento-03f0"
+   "deck": "mas-o-menos-imagen-imagen-campamento-273b"
   },
   {
-   "slug": "sendero-de-imagenes-clima-98be",
-   "type": "picture-path",
-   "mode": null,
+   "slug": "mas-o-menos-imagen-imagen-clima-544f",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "weather",
    "level": "preescolar",
-   "deck": "sendero-de-imagenes-clima-98be"
+   "deck": "mas-o-menos-imagen-imagen-clima-544f"
   },
   {
-   "slug": "sendero-de-imagenes-colores-98be",
-   "type": "picture-path",
-   "mode": null,
+   "slug": "mas-o-menos-imagen-imagen-colores-7661",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "colors",
    "level": "preescolar",
-   "deck": "sendero-de-imagenes-colores-98be"
+   "deck": "mas-o-menos-imagen-imagen-colores-7661"
   },
   {
-   "slug": "sendero-de-imagenes-cosas-que-vuelan-98be",
-   "type": "picture-path",
-   "mode": null,
+   "slug": "mas-o-menos-imagen-imagen-cosas-que-vuelan-861a",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "things_that_fly",
    "level": "preescolar",
-   "deck": "sendero-de-imagenes-cosas-que-vuelan-98be"
+   "deck": "mas-o-menos-imagen-imagen-cosas-que-vuelan-861a"
   },
   {
-   "slug": "sendero-de-imagenes-criaturas-del-bosque-98be",
-   "type": "picture-path",
-   "mode": null,
+   "slug": "mas-o-menos-imagen-imagen-criaturas-del-bosque-573f",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "forest_creatures",
    "level": "preescolar",
-   "deck": "sendero-de-imagenes-criaturas-del-bosque-98be"
+   "deck": "mas-o-menos-imagen-imagen-criaturas-del-bosque-573f"
   },
   {
-   "slug": "sendero-de-imagenes-desayuno-7410",
-   "type": "picture-path",
-   "mode": null,
+   "slug": "mas-o-menos-imagen-imagen-desayuno-6d4e",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "breakfast",
    "level": "preescolar",
-   "deck": "sendero-de-imagenes-desayuno-7410"
+   "deck": "mas-o-menos-imagen-imagen-desayuno-6d4e"
   },
   {
-   "slug": "sendero-de-imagenes-dia-de-accion-de-gracias-98be",
-   "type": "picture-path",
-   "mode": null,
+   "slug": "mas-o-menos-imagen-imagen-dia-de-accion-de-gracias-cc49",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "thanksgivinng",
    "level": "preescolar",
-   "deck": "sendero-de-imagenes-dia-de-accion-de-gracias-98be"
+   "deck": "mas-o-menos-imagen-imagen-dia-de-accion-de-gracias-cc49"
   },
   {
-   "slug": "sendero-de-imagenes-dinosaurios-98be",
-   "type": "picture-path",
-   "mode": null,
+   "slug": "mas-o-menos-imagen-imagen-dinosaurios-86f1",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "dinosaurs",
    "level": "preescolar",
-   "deck": "sendero-de-imagenes-dinosaurios-98be"
+   "deck": "mas-o-menos-imagen-imagen-dinosaurios-86f1"
   },
   {
-   "slug": "sendero-de-imagenes-emociones-36f7",
-   "type": "picture-path",
-   "mode": null,
+   "slug": "mas-o-menos-imagen-imagen-emociones-0fde",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "emotions",
    "level": "preescolar",
-   "deck": "sendero-de-imagenes-emociones-36f7"
+   "deck": "mas-o-menos-imagen-imagen-emociones-0fde"
   },
   {
-   "slug": "sendero-de-imagenes-en-el-supermercado-98be",
-   "type": "picture-path",
-   "mode": null,
+   "slug": "mas-o-menos-imagen-imagen-en-el-supermercado-8743",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "at_the_supermarket",
    "level": "preescolar",
-   "deck": "sendero-de-imagenes-en-el-supermercado-98be"
+   "deck": "mas-o-menos-imagen-imagen-en-el-supermercado-8743"
   },
   {
-   "slug": "sendero-de-imagenes-espacio-138a",
-   "type": "picture-path",
-   "mode": null,
+   "slug": "mas-o-menos-imagen-imagen-espacio-3fc6",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "space",
    "level": "preescolar",
-   "deck": "sendero-de-imagenes-espacio-138a"
+   "deck": "mas-o-menos-imagen-imagen-espacio-3fc6"
   },
   {
-   "slug": "sendero-de-imagenes-flores-2fe6",
-   "type": "picture-path",
-   "mode": null,
+   "slug": "mas-o-menos-imagen-imagen-flores-9925",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "flowers",
    "level": "preescolar",
-   "deck": "sendero-de-imagenes-flores-2fe6"
+   "deck": "mas-o-menos-imagen-imagen-flores-9925"
   },
   {
-   "slug": "sendero-de-imagenes-formas-98be",
-   "type": "picture-path",
-   "mode": null,
+   "slug": "mas-o-menos-imagen-imagen-formas-9956",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "shapes",
    "level": "preescolar",
-   "deck": "sendero-de-imagenes-formas-98be"
+   "deck": "mas-o-menos-imagen-imagen-formas-9956"
   },
   {
-   "slug": "sendero-de-imagenes-frutas-98be",
-   "type": "picture-path",
-   "mode": null,
+   "slug": "mas-o-menos-imagen-imagen-frutas-c8b8",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "fruits",
    "level": "preescolar",
-   "deck": "sendero-de-imagenes-frutas-98be"
+   "deck": "mas-o-menos-imagen-imagen-frutas-c8b8"
   },
   {
-   "slug": "sendero-de-imagenes-herramientas-98be",
-   "type": "picture-path",
-   "mode": null,
+   "slug": "mas-o-menos-imagen-imagen-herramientas-2e7c",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "tools",
    "level": "preescolar",
-   "deck": "sendero-de-imagenes-herramientas-98be"
+   "deck": "mas-o-menos-imagen-imagen-herramientas-2e7c"
   },
   {
-   "slug": "sendero-de-imagenes-hospital-7887",
-   "type": "picture-path",
-   "mode": null,
+   "slug": "mas-o-menos-imagen-imagen-hospital-5188",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "hospital",
    "level": "preescolar",
-   "deck": "sendero-de-imagenes-hospital-7887"
+   "deck": "mas-o-menos-imagen-imagen-hospital-5188"
   },
   {
-   "slug": "sendero-de-imagenes-invierno-98be",
-   "type": "picture-path",
-   "mode": null,
-   "theme": "winter",
-   "level": "preescolar",
-   "deck": "sendero-de-imagenes-invierno-98be"
-  },
-  {
-   "slug": "sendero-de-imagenes-juguetes-98be",
-   "type": "picture-path",
-   "mode": null,
-   "theme": "toys",
-   "level": "preescolar",
-   "deck": "sendero-de-imagenes-juguetes-98be"
-  },
-  {
-   "slug": "sendero-de-imagenes-mascotas-98be",
-   "type": "picture-path",
-   "mode": null,
-   "theme": "pets",
-   "level": "preescolar",
-   "deck": "sendero-de-imagenes-mascotas-98be"
-  },
-  {
-   "slug": "sendero-de-imagenes-miscelaneo-98be",
-   "type": "picture-path",
-   "mode": null,
-   "theme": "miscellaneous",
-   "level": "preescolar",
-   "deck": "sendero-de-imagenes-miscelaneo-98be"
-  },
-  {
-   "slug": "sendero-de-imagenes-muebles-6792",
-   "type": "picture-path",
-   "mode": null,
-   "theme": "furniture",
-   "level": "preescolar",
-   "deck": "sendero-de-imagenes-muebles-6792"
-  },
-  {
-   "slug": "sendero-de-imagenes-musica-98be",
-   "type": "picture-path",
-   "mode": null,
-   "theme": "music",
-   "level": "preescolar",
-   "deck": "sendero-de-imagenes-musica-98be"
-  },
-  {
-   "slug": "sendero-de-imagenes-navidad-1929",
-   "type": "picture-path",
-   "mode": null,
-   "theme": "christmas",
-   "level": "preescolar",
-   "deck": "sendero-de-imagenes-navidad-1929"
-  },
-  {
-   "slug": "sendero-de-imagenes-ocupaciones-6abf",
-   "type": "picture-path",
-   "mode": null,
-   "theme": "occupations",
-   "level": "preescolar",
-   "deck": "sendero-de-imagenes-ocupaciones-6abf"
-  },
-  {
-   "slug": "sendero-de-imagenes-oficina-de-correos-98be",
-   "type": "picture-path",
-   "mode": null,
-   "theme": "post_office",
-   "level": "preescolar",
-   "deck": "sendero-de-imagenes-oficina-de-correos-98be"
-  },
-  {
-   "slug": "sendero-de-imagenes-panaderia-98be",
-   "type": "picture-path",
-   "mode": null,
-   "theme": "bakery",
-   "level": "preescolar",
-   "deck": "sendero-de-imagenes-panaderia-98be"
-  },
-  {
-   "slug": "sendero-de-imagenes-partes-del-cuerpo-3d9a",
-   "type": "picture-path",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "preescolar",
-   "deck": "sendero-de-imagenes-partes-del-cuerpo-3d9a"
-  },
-  {
-   "slug": "sendero-de-imagenes-pascua-319c",
-   "type": "picture-path",
-   "mode": null,
-   "theme": "easter",
-   "level": "preescolar",
-   "deck": "sendero-de-imagenes-pascua-319c"
-  },
-  {
-   "slug": "sendero-de-imagenes-playa-98be",
-   "type": "picture-path",
-   "mode": null,
-   "theme": "beach",
-   "level": "preescolar",
-   "deck": "sendero-de-imagenes-playa-98be"
-  },
-  {
-   "slug": "sendero-de-imagenes-postres-y-dulces-98be",
-   "type": "picture-path",
-   "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "preescolar",
-   "deck": "sendero-de-imagenes-postres-y-dulces-98be"
-  },
-  {
-   "slug": "sendero-de-imagenes-primavera-98be",
-   "type": "picture-path",
-   "mode": null,
-   "theme": "spring",
-   "level": "preescolar",
-   "deck": "sendero-de-imagenes-primavera-98be"
-  },
-  {
-   "slug": "sendero-de-imagenes-ropa-98be",
-   "type": "picture-path",
-   "mode": null,
-   "theme": "clothing",
-   "level": "preescolar",
-   "deck": "sendero-de-imagenes-ropa-98be"
-  },
-  {
-   "slug": "sendero-de-imagenes-salon-de-clases-98be",
-   "type": "picture-path",
-   "mode": null,
-   "theme": "classroom",
-   "level": "preescolar",
-   "deck": "sendero-de-imagenes-salon-de-clases-98be"
-  },
-  {
-   "slug": "sendero-de-imagenes-utensilios-de-cocina-98be",
-   "type": "picture-path",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "preescolar",
-   "deck": "sendero-de-imagenes-utensilios-de-cocina-98be"
-  },
-  {
-   "slug": "sendero-de-imagenes-vehiculos-9779",
-   "type": "picture-path",
-   "mode": null,
-   "theme": "vehicles",
-   "level": "preescolar",
-   "deck": "sendero-de-imagenes-vehiculos-9779"
-  },
-  {
-   "slug": "sendero-de-imagenes-verano-98be",
-   "type": "picture-path",
-   "mode": null,
-   "theme": "summer",
-   "level": "preescolar",
-   "deck": "sendero-de-imagenes-verano-98be"
-  },
-  {
-   "slug": "sendero-de-imagenes-verduras-98be",
-   "type": "picture-path",
-   "mode": null,
-   "theme": "vegetables",
-   "level": "preescolar",
-   "deck": "sendero-de-imagenes-verduras-98be"
-  },
-  {
-   "slug": "sendero-de-imagenes-vida-marina-1d09",
-   "type": "picture-path",
-   "mode": null,
-   "theme": "ocean_life",
-   "level": "preescolar",
-   "deck": "sendero-de-imagenes-vida-marina-1d09"
-  },
-  {
-   "slug": "empareja-sombras-emparejar-la-sombra-4-de-julio-1fd631",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "4th_of_july",
-   "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-4-de-julio-1fd631"
-  },
-  {
-   "slug": "empareja-sombras-emparejar-la-sombra-accesorios-98be",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "accessories",
-   "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-accesorios-98be"
-  },
-  {
-   "slug": "empareja-sombras-emparejar-la-sombra-actividades-98be",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "activities",
-   "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-actividades-98be"
-  },
-  {
-   "slug": "empareja-sombras-emparejar-la-sombra-alrededor-de-la-casa-720288",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "around_the_house",
-   "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-alrededor-de-la-casa-720288"
-  },
-  {
-   "slug": "empareja-sombras-emparejar-la-sombra-animales",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "animals",
-   "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-animales"
-  },
-  {
-   "slug": "empareja-sombras-emparejar-la-sombra-animales-de-granja-70f08f",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "farm_animals",
-   "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-animales-de-granja-70f08f"
-  },
-  {
-   "slug": "empareja-sombras-emparejar-la-sombra-animales-del-zoologico-98be",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "zoo_animals",
-   "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-animales-del-zoologico-98be"
-  },
-  {
-   "slug": "empareja-sombras-emparejar-la-sombra-arboles-98be",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "tree",
-   "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-arboles-98be"
-  },
-  {
-   "slug": "empareja-sombras-emparejar-la-sombra-aves-2-98be",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "birds_2",
-   "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-aves-2-98be"
-  },
-  {
-   "slug": "empareja-sombras-emparejar-la-sombra-aves-98be",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "birds",
-   "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-aves-98be"
-  },
-  {
-   "slug": "empareja-sombras-emparejar-la-sombra-campamento-98be",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "camping",
-   "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-campamento-98be"
-  },
-  {
-   "slug": "empareja-sombras-emparejar-la-sombra-clima-98be",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "weather",
-   "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-clima-98be"
-  },
-  {
-   "slug": "empareja-sombras-emparejar-la-sombra-cosas-que-vuelan-4b5507",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "things_that_fly",
-   "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-cosas-que-vuelan-4b5507"
-  },
-  {
-   "slug": "empareja-sombras-emparejar-la-sombra-criaturas-del-bosque-98be",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "forest_creatures",
-   "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-criaturas-del-bosque-98be"
-  },
-  {
-   "slug": "empareja-sombras-emparejar-la-sombra-desayuno-98be",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "breakfast",
-   "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-desayuno-98be"
-  },
-  {
-   "slug": "empareja-sombras-emparejar-la-sombra-dia-de-accion-de-gracias-0f9a68",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "thanksgivinng",
-   "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-dia-de-accion-de-gracias-0f9a68"
-  },
-  {
-   "slug": "empareja-sombras-emparejar-la-sombra-dinosaurios-98be",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "dinosaurs",
-   "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-dinosaurios-98be"
-  },
-  {
-   "slug": "empareja-sombras-emparejar-la-sombra-emociones-98be",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "emotions",
-   "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-emociones-98be"
-  },
-  {
-   "slug": "empareja-sombras-emparejar-la-sombra-en-el-supermercado-15e3b9",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "at_the_supermarket",
-   "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-en-el-supermercado-15e3b9"
-  },
-  {
-   "slug": "empareja-sombras-emparejar-la-sombra-espacio-0b24f8",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "space",
-   "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-espacio-0b24f8"
-  },
-  {
-   "slug": "empareja-sombras-emparejar-la-sombra-flores-98be",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "flowers",
-   "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-flores-98be"
-  },
-  {
-   "slug": "empareja-sombras-emparejar-la-sombra-formas-6cb5c2",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "shapes",
-   "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-formas-6cb5c2"
-  },
-  {
-   "slug": "empareja-sombras-emparejar-la-sombra-frutas-651283",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "fruits",
-   "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-frutas-651283"
-  },
-  {
-   "slug": "empareja-sombras-emparejar-la-sombra-herramientas-2997fe",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "tools",
-   "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-herramientas-2997fe"
-  },
-  {
-   "slug": "empareja-sombras-emparejar-la-sombra-hospital-98be",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "hospital",
-   "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-hospital-98be"
-  },
-  {
-   "slug": "empareja-sombras-emparejar-la-sombra-insectos-y-bichos-22dfc8",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mas-o-menos-imagen-imagen-insectos-y-bichos-845d",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "insects_and_bugs",
    "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-insectos-y-bichos-22dfc8"
+   "deck": "mas-o-menos-imagen-imagen-insectos-y-bichos-845d"
   },
   {
-   "slug": "empareja-sombras-emparejar-la-sombra-invierno-98be",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mas-o-menos-imagen-imagen-invierno-dc71",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "winter",
    "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-invierno-98be"
+   "deck": "mas-o-menos-imagen-imagen-invierno-dc71"
   },
   {
-   "slug": "empareja-sombras-emparejar-la-sombra-juguetes-47c0f6",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mas-o-menos-imagen-imagen-juguetes-27c2",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "toys",
    "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-juguetes-47c0f6"
+   "deck": "mas-o-menos-imagen-imagen-juguetes-27c2"
   },
   {
-   "slug": "empareja-sombras-emparejar-la-sombra-mascotas-21bdb0",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mas-o-menos-imagen-imagen-mascotas-68d6",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "pets",
    "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-mascotas-21bdb0"
+   "deck": "mas-o-menos-imagen-imagen-mascotas-68d6"
   },
   {
-   "slug": "empareja-sombras-emparejar-la-sombra-miscelaneo-98be",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mas-o-menos-imagen-imagen-miscelaneo-2945",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "miscellaneous",
    "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-miscelaneo-98be"
+   "deck": "mas-o-menos-imagen-imagen-miscelaneo-2945"
   },
   {
-   "slug": "empareja-sombras-emparejar-la-sombra-muebles-98be",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mas-o-menos-imagen-imagen-muebles-3144",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "furniture",
    "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-muebles-98be"
+   "deck": "mas-o-menos-imagen-imagen-muebles-3144"
   },
   {
-   "slug": "empareja-sombras-emparejar-la-sombra-musica-0f7f8e",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mas-o-menos-imagen-imagen-musica-6f6c",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "music",
    "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-musica-0f7f8e"
+   "deck": "mas-o-menos-imagen-imagen-musica-6f6c"
   },
   {
-   "slug": "empareja-sombras-emparejar-la-sombra-navidad-98be",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mas-o-menos-imagen-imagen-navidad-582d",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "christmas",
    "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-navidad-98be"
+   "deck": "mas-o-menos-imagen-imagen-navidad-582d"
   },
   {
-   "slug": "empareja-sombras-emparejar-la-sombra-ocupaciones-3757ea",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mas-o-menos-imagen-imagen-ocupaciones-529b",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "occupations",
    "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-ocupaciones-3757ea"
+   "deck": "mas-o-menos-imagen-imagen-ocupaciones-529b"
   },
   {
-   "slug": "empareja-sombras-emparejar-la-sombra-oficina-de-correos-24a656",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mas-o-menos-imagen-imagen-oficina-de-correos-71be",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "post_office",
    "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-oficina-de-correos-24a656"
+   "deck": "mas-o-menos-imagen-imagen-oficina-de-correos-71be"
   },
   {
-   "slug": "empareja-sombras-emparejar-la-sombra-panaderia-98be",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mas-o-menos-imagen-imagen-panaderia-29b0",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "bakery",
    "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-panaderia-98be"
+   "deck": "mas-o-menos-imagen-imagen-panaderia-29b0"
   },
   {
-   "slug": "empareja-sombras-emparejar-la-sombra-partes-del-cuerpo-1901af",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mas-o-menos-imagen-imagen-partes-del-cuerpo-446e",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "body_parts",
    "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-partes-del-cuerpo-1901af"
+   "deck": "mas-o-menos-imagen-imagen-partes-del-cuerpo-446e"
   },
   {
-   "slug": "empareja-sombras-emparejar-la-sombra-pascua-98be",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mas-o-menos-imagen-imagen-pascua-11df",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "easter",
    "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-pascua-98be"
+   "deck": "mas-o-menos-imagen-imagen-pascua-11df"
   },
   {
-   "slug": "empareja-sombras-emparejar-la-sombra-playa-02382a",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mas-o-menos-imagen-imagen-playa-8809",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "beach",
    "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-playa-02382a"
+   "deck": "mas-o-menos-imagen-imagen-playa-8809"
   },
   {
-   "slug": "empareja-sombras-emparejar-la-sombra-postres-y-dulces-98be",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mas-o-menos-imagen-imagen-postres-y-dulces-7a33",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "desserts_and_sweets",
    "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-postres-y-dulces-98be"
+   "deck": "mas-o-menos-imagen-imagen-postres-y-dulces-7a33"
   },
   {
-   "slug": "empareja-sombras-emparejar-la-sombra-primavera-98be",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mas-o-menos-imagen-imagen-primavera-1a26",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "spring",
    "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-primavera-98be"
+   "deck": "mas-o-menos-imagen-imagen-primavera-1a26"
   },
   {
-   "slug": "empareja-sombras-emparejar-la-sombra-reptiles-y-anfibios-98be",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mas-o-menos-imagen-imagen-reptiles-y-anfibios-9e8b",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "reptiles_and_amphibians",
    "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-reptiles-y-anfibios-98be"
+   "deck": "mas-o-menos-imagen-imagen-reptiles-y-anfibios-9e8b"
   },
   {
-   "slug": "empareja-sombras-emparejar-la-sombra-salon-de-clases-98be",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mas-o-menos-imagen-imagen-ropa-46b2",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "clothing",
+   "level": "preescolar",
+   "deck": "mas-o-menos-imagen-imagen-ropa-46b2"
+  },
+  {
+   "slug": "mas-o-menos-imagen-imagen-salon-de-clases-a6c8",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "classroom",
    "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-salon-de-clases-98be"
+   "deck": "mas-o-menos-imagen-imagen-salon-de-clases-a6c8"
   },
   {
-   "slug": "empareja-sombras-emparejar-la-sombra-utensilios-de-cocina-98be",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mas-o-menos-imagen-imagen-utensilios-de-cocina-63e7",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "kitchen_tools",
    "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-utensilios-de-cocina-98be"
+   "deck": "mas-o-menos-imagen-imagen-utensilios-de-cocina-63e7"
   },
   {
-   "slug": "empareja-sombras-emparejar-la-sombra-vehiculos-98be",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mas-o-menos-imagen-imagen-vehiculos-6ed3",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "vehicles",
    "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-vehiculos-98be"
+   "deck": "mas-o-menos-imagen-imagen-vehiculos-6ed3"
   },
   {
-   "slug": "empareja-sombras-emparejar-la-sombra-verano-98be",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mas-o-menos-imagen-imagen-verano-270f",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "summer",
    "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-verano-98be"
+   "deck": "mas-o-menos-imagen-imagen-verano-270f"
   },
   {
-   "slug": "empareja-sombras-emparejar-la-sombra-verduras-2e05a9",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mas-o-menos-imagen-imagen-verduras-29c4",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "vegetables",
    "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-verduras-2e05a9"
+   "deck": "mas-o-menos-imagen-imagen-verduras-29c4"
   },
   {
-   "slug": "empareja-sombras-emparejar-la-sombra-vida-marina-98be",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mas-o-menos-imagen-imagen-vida-marina-0338",
+   "type": "more-less",
+   "mode": "image-image",
    "theme": "ocean_life",
    "level": "preescolar",
-   "deck": "empareja-sombras-emparejar-la-sombra-vida-marina-98be"
+   "deck": "mas-o-menos-imagen-imagen-vida-marina-0338"
+  },
+  {
+   "slug": "busqueda-del-tesoro-4-de-julio",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "4th_of_july",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-7671"
+  },
+  {
+   "slug": "busqueda-del-tesoro-accesorios",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "accessories",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-f473"
+  },
+  {
+   "slug": "busqueda-del-tesoro-actividades",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "activities",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-9dd5"
+  },
+  {
+   "slug": "busqueda-del-tesoro-alrededor-de-la-casa",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "around_the_house",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-22bd"
+  },
+  {
+   "slug": "busqueda-del-tesoro-animales-de-granja",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "farm_animals",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-90f0"
+  },
+  {
+   "slug": "busqueda-del-tesoro-animales-del-zoologico",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "zoo_animals",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-e61b"
+  },
+  {
+   "slug": "busqueda-del-tesoro-arboles",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "tree",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-74d0"
+  },
+  {
+   "slug": "busqueda-del-tesoro-aves",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "birds",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-0fac"
+  },
+  {
+   "slug": "busqueda-del-tesoro-campamento",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "camping",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-8f99"
+  },
+  {
+   "slug": "busqueda-del-tesoro-clima",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "weather",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-dfa5"
+  },
+  {
+   "slug": "busqueda-del-tesoro-colores",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "colors",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-2a74"
+  },
+  {
+   "slug": "busqueda-del-tesoro-cosas-que-vuelan",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "things_that_fly",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-ee57"
+  },
+  {
+   "slug": "busqueda-del-tesoro-criaturas-del-bosque",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "forest_creatures",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-29ae"
+  },
+  {
+   "slug": "busqueda-del-tesoro-desayuno",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "breakfast",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-1065"
+  },
+  {
+   "slug": "busqueda-del-tesoro-dia-de-accion-de-gracias",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "thanksgivinng",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-0615"
+  },
+  {
+   "slug": "busqueda-del-tesoro-dinosaurios",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "dinosaurs",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-990f"
+  },
+  {
+   "slug": "busqueda-del-tesoro-emociones",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "emotions",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-c831"
+  },
+  {
+   "slug": "busqueda-del-tesoro-en-el-supermercado",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "at_the_supermarket",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-d195"
+  },
+  {
+   "slug": "busqueda-del-tesoro-espacio",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "space",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-29de"
+  },
+  {
+   "slug": "busqueda-del-tesoro-flores",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "flowers",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-e57c"
+  },
+  {
+   "slug": "busqueda-del-tesoro-formas",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "shapes",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-6e80"
+  },
+  {
+   "slug": "busqueda-del-tesoro-frutas",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "fruits",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-ffd9"
+  },
+  {
+   "slug": "busqueda-del-tesoro-herramientas",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "tools",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-2d82"
+  },
+  {
+   "slug": "busqueda-del-tesoro-hospital",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "hospital",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-d411"
+  },
+  {
+   "slug": "busqueda-del-tesoro-insectos-y-bichos",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "insects_and_bugs",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-f7eb"
+  },
+  {
+   "slug": "busqueda-del-tesoro-invierno",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "winter",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-bbac"
+  },
+  {
+   "slug": "busqueda-del-tesoro-juguetes",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "toys",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-0735"
+  },
+  {
+   "slug": "busqueda-del-tesoro-mascotas",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "pets",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-56b6"
+  },
+  {
+   "slug": "busqueda-del-tesoro-miscelaneo",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "miscellaneous",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-5160"
+  },
+  {
+   "slug": "busqueda-del-tesoro-muebles",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "furniture",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-8bb9"
+  },
+  {
+   "slug": "busqueda-del-tesoro-musica",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "music",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-f120"
+  },
+  {
+   "slug": "busqueda-del-tesoro-navidad",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "christmas",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-e244"
+  },
+  {
+   "slug": "busqueda-del-tesoro-ocupaciones",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "occupations",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-9336"
+  },
+  {
+   "slug": "busqueda-del-tesoro-oficina-de-correos",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "post_office",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-995d"
+  },
+  {
+   "slug": "busqueda-del-tesoro-partes-del-cuerpo",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "body_parts",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-353e"
+  },
+  {
+   "slug": "busqueda-del-tesoro-pascua",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "easter",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-puntos-cardinales-accesorios-ed71"
+  },
+  {
+   "slug": "busqueda-del-tesoro-playa",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "beach",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-33b1"
+  },
+  {
+   "slug": "busqueda-del-tesoro-postres-y-dulces",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "desserts_and_sweets",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-73b9"
+  },
+  {
+   "slug": "busqueda-del-tesoro-primavera",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "spring",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-puntos-cardinales-accesorios-4d46"
+  },
+  {
+   "slug": "busqueda-del-tesoro-ropa",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "clothing",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-f15a"
+  },
+  {
+   "slug": "busqueda-del-tesoro-salon-de-clases",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "classroom",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-21b1"
+  },
+  {
+   "slug": "busqueda-del-tesoro-utensilios-de-cocina",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "kitchen_tools",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-ab2c"
+  },
+  {
+   "slug": "busqueda-del-tesoro-vehiculos",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "vehicles",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-f08e"
+  },
+  {
+   "slug": "busqueda-del-tesoro-verano",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "summer",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-6c6c"
+  },
+  {
+   "slug": "busqueda-del-tesoro-verduras",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "vegetables",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-2b5e"
+  },
+  {
+   "slug": "busqueda-del-tesoro-vida-marina",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "ocean_life",
+   "level": "preescolar",
+   "deck": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-0ea0"
   }
  ]
 }

@@ -2,707 +2,651 @@
  "part": 155,
  "locale": "fr",
  "classes": [
-  "matching::letter",
-  "find-and-count::hidden-object"
+  "math-puzzle::mixed",
+  "math-puzzle::subtraction"
  ],
  "splitOf": null,
- "count": 87,
+ "count": 80,
  "pages": [
   {
-   "slug": "appariement-lettre-accessoires-037c",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "puzzle-mathematique-mixte-accessoires-0a3d",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "accessories",
-   "level": "maternelle",
-   "deck": "appariement-lettre-accessoires-037c"
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-accessoires-0a3d"
   },
   {
-   "slug": "appariement-lettre-action-de-grace-746c",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "puzzle-mathematique-mixte-action-de-grace-2fd6",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "thanksgivinng",
-   "level": "maternelle",
-   "deck": "appariement-lettre-action-de-grace-746c"
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-action-de-grace-2fd6"
   },
   {
-   "slug": "appariement-lettre-activites-bee2",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "activities",
-   "level": "maternelle",
-   "deck": "appariement-lettre-activites-bee2"
-  },
-  {
-   "slug": "appariement-lettre-animaux-d80c",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "puzzle-mathematique-mixte-animaux",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "animals",
-   "level": "maternelle",
-   "deck": "appariement-lettre-animaux-d80c"
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-animaux"
   },
   {
-   "slug": "appariement-lettre-animaux-de-compagnie-775b",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "puzzle-mathematique-mixte-animaux-de-compagnie-27be",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "pets",
-   "level": "maternelle",
-   "deck": "appariement-lettre-animaux-de-compagnie-775b"
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-animaux-de-compagnie-27be"
   },
   {
-   "slug": "appariement-lettre-animaux-de-la-ferme-028b",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "puzzle-mathematique-mixte-animaux-de-la-ferme-e8ce",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "farm_animals",
-   "level": "maternelle",
-   "deck": "appariement-lettre-animaux-de-la-ferme-028b"
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-animaux-de-la-ferme-e8ce"
   },
   {
-   "slug": "appariement-lettre-animaux-du-zoo-7cf5",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "puzzle-mathematique-mixte-animaux-du-zoo-090c",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "zoo_animals",
-   "level": "maternelle",
-   "deck": "appariement-lettre-animaux-du-zoo-7cf5"
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-animaux-du-zoo-090c"
   },
   {
-   "slug": "appariement-lettre-au-supermarche-d6ba",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "puzzle-mathematique-mixte-arbres-29ad",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-arbres-29ad"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-au-supermarche-9bc1",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "at_the_supermarket",
-   "level": "maternelle",
-   "deck": "appariement-lettre-au-supermarche-d6ba"
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-au-supermarche-9bc1"
   },
   {
-   "slug": "appariement-lettre-autour-de-la-maison-5e48",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "puzzle-mathematique-mixte-autour-de-la-maison-e9be",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "around_the_house",
-   "level": "maternelle",
-   "deck": "appariement-lettre-autour-de-la-maison-5e48"
+   "level": "ce1",
+   "deck": "puzzle-mathematique-mixte-autour-de-la-maison-e9be"
   },
   {
-   "slug": "appariement-lettre-boulangerie-faad",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "puzzle-mathematique-mixte-boulangerie-166d",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "bakery",
-   "level": "maternelle",
-   "deck": "appariement-lettre-boulangerie-faad"
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-boulangerie-166d"
   },
   {
-   "slug": "appariement-lettre-bureau-de-poste-c493",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "puzzle-mathematique-mixte-bureau-de-poste-f580",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "post_office",
-   "level": "maternelle",
-   "deck": "appariement-lettre-bureau-de-poste-c493"
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-bureau-de-poste-f580"
   },
   {
-   "slug": "appariement-lettre-camping-c7b1",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "puzzle-mathematique-mixte-camping-e485",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "camping",
-   "level": "maternelle",
-   "deck": "appariement-lettre-camping-c7b1"
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-camping-e485"
   },
   {
-   "slug": "appariement-lettre-choses-qui-volent-b036",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "puzzle-mathematique-mixte-choses-qui-volent-713f",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "things_that_fly",
-   "level": "maternelle",
-   "deck": "appariement-lettre-choses-qui-volent-b036"
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-choses-qui-volent-713f"
   },
   {
-   "slug": "appariement-lettre-couleurs-b580",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "colors",
-   "level": "maternelle",
-   "deck": "appariement-lettre-couleurs-b580"
-  },
-  {
-   "slug": "appariement-lettre-creatures-de-la-foret-51b4",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "puzzle-mathematique-mixte-creatures-de-la-foret-dddb",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "forest_creatures",
-   "level": "maternelle",
-   "deck": "appariement-lettre-creatures-de-la-foret-51b4"
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-creatures-de-la-foret-dddb"
   },
   {
-   "slug": "appariement-lettre-desserts-et-sucreries-1963",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "puzzle-mathematique-mixte-desserts-et-sucreries-fc4e",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "desserts_and_sweets",
-   "level": "maternelle",
-   "deck": "appariement-lettre-desserts-et-sucreries-1963"
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-desserts-et-sucreries-fc4e"
   },
   {
-   "slug": "appariement-lettre-emotions-93e4",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "emotions",
-   "level": "maternelle",
-   "deck": "appariement-lettre-emotions-93e4"
+   "slug": "puzzle-mathematique-mixte-dinosaures-3ba5",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-dinosaures-3ba5"
   },
   {
-   "slug": "appariement-lettre-espace-ba62",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "puzzle-mathematique-mixte-divers-d24c",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "miscellaneous",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-divers-d24c"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-espace-e85e",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "space",
-   "level": "maternelle",
-   "deck": "appariement-lettre-espace-ba62"
+   "level": "ce1",
+   "deck": "puzzle-mathematique-mixte-espace-e85e"
   },
   {
-   "slug": "appariement-lettre-ete-5512",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "summer",
-   "level": "maternelle",
-   "deck": "appariement-lettre-ete-5512"
-  },
-  {
-   "slug": "appariement-lettre-formes-8139",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "shapes",
-   "level": "maternelle",
-   "deck": "appariement-lettre-formes-8139"
-  },
-  {
-   "slug": "appariement-lettre-fruits-1634",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "fruits",
-   "level": "maternelle",
-   "deck": "appariement-lettre-fruits-1634"
-  },
-  {
-   "slug": "appariement-lettre-hiver-f01f",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "winter",
-   "level": "maternelle",
-   "deck": "appariement-lettre-hiver-f01f"
-  },
-  {
-   "slug": "appariement-lettre-hopital-2289",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "hospital",
-   "level": "maternelle",
-   "deck": "appariement-lettre-hopital-2289"
-  },
-  {
-   "slug": "appariement-lettre-insectes-et-bestioles-f6d4",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "insects_and_bugs",
-   "level": "maternelle",
-   "deck": "appariement-lettre-insectes-et-bestioles-f6d4"
-  },
-  {
-   "slug": "appariement-lettre-jouets-693e",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "toys",
-   "level": "maternelle",
-   "deck": "appariement-lettre-jouets-693e"
-  },
-  {
-   "slug": "appariement-lettre-legumes-b3e6",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "vegetables",
-   "level": "maternelle",
-   "deck": "appariement-lettre-legumes-b3e6"
-  },
-  {
-   "slug": "appariement-lettre-meteo-1357",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "weather",
-   "level": "maternelle",
-   "deck": "appariement-lettre-meteo-1357"
-  },
-  {
-   "slug": "appariement-lettre-metiers-ced2",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "occupations",
-   "level": "maternelle",
-   "deck": "appariement-lettre-metiers-ced2"
-  },
-  {
-   "slug": "appariement-lettre-meubles-0516",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "furniture",
-   "level": "maternelle",
-   "deck": "appariement-lettre-meubles-0516"
-  },
-  {
-   "slug": "appariement-lettre-musique-af13",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "music",
-   "level": "maternelle",
-   "deck": "appariement-lettre-musique-af13"
-  },
-  {
-   "slug": "appariement-lettre-noel-15f7",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "christmas",
-   "level": "maternelle",
-   "deck": "appariement-lettre-noel-15f7"
-  },
-  {
-   "slug": "appariement-lettre-oiseaux-2-589c",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "birds_2",
-   "level": "maternelle",
-   "deck": "appariement-lettre-oiseaux-2-589c"
-  },
-  {
-   "slug": "appariement-lettre-oiseaux-9ada",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "birds",
-   "level": "maternelle",
-   "deck": "appariement-lettre-oiseaux-9ada"
-  },
-  {
-   "slug": "appariement-lettre-outils-ce18",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "tools",
-   "level": "maternelle",
-   "deck": "appariement-lettre-outils-ce18"
-  },
-  {
-   "slug": "appariement-lettre-paques-ca86",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "easter",
-   "level": "maternelle",
-   "deck": "appariement-lettre-paques-ca86"
-  },
-  {
-   "slug": "appariement-lettre-parties-du-corps-d639",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "body_parts",
-   "level": "maternelle",
-   "deck": "appariement-lettre-parties-du-corps-d639"
-  },
-  {
-   "slug": "appariement-lettre-petit-dejeuner-dc58",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "breakfast",
-   "level": "maternelle",
-   "deck": "appariement-lettre-petit-dejeuner-dc58"
-  },
-  {
-   "slug": "appariement-lettre-plage-0332",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "beach",
-   "level": "maternelle",
-   "deck": "appariement-lettre-plage-0332"
-  },
-  {
-   "slug": "appariement-lettre-printemps-1c02",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "spring",
-   "level": "maternelle",
-   "deck": "appariement-lettre-printemps-1c02"
-  },
-  {
-   "slug": "appariement-lettre-salle-de-classe-4654",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "classroom",
-   "level": "maternelle",
-   "deck": "appariement-lettre-salle-de-classe-4654"
-  },
-  {
-   "slug": "appariement-lettre-ustensiles-de-cuisine-eb62",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "kitchen_tools",
-   "level": "maternelle",
-   "deck": "appariement-lettre-ustensiles-de-cuisine-eb62"
-  },
-  {
-   "slug": "appariement-lettre-vehicules-500a",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "vehicles",
-   "level": "maternelle",
-   "deck": "appariement-lettre-vehicules-500a"
-  },
-  {
-   "slug": "appariement-lettre-vetements-67d1",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "clothing",
-   "level": "maternelle",
-   "deck": "appariement-lettre-vetements-67d1"
-  },
-  {
-   "slug": "appariement-lettre-vie-oceanique-f5d3",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "ocean_life",
-   "level": "maternelle",
-   "deck": "appariement-lettre-vie-oceanique-f5d3"
-  },
-  {
-   "slug": "trouve-et-compte-objets-caches-accessoires-0633",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "accessories",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-accessoires-0633"
-  },
-  {
-   "slug": "trouve-et-compte-objets-caches-action-de-grace-e0ff",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "thanksgivinng",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-action-de-grace-e0ff"
-  },
-  {
-   "slug": "trouve-et-compte-objets-caches-activites-3f20",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "activities",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-activites-3f20"
-  },
-  {
-   "slug": "trouve-et-compte-objets-caches-animaux-b6ed",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "animals",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-animaux-b6ed"
-  },
-  {
-   "slug": "trouve-et-compte-objets-caches-animaux-de-compagnie-00bb",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "pets",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-animaux-de-compagnie-00bb"
-  },
-  {
-   "slug": "trouve-et-compte-objets-caches-animaux-de-la-ferme-f58d",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "farm_animals",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-animaux-de-la-ferme-f58d"
-  },
-  {
-   "slug": "trouve-et-compte-objets-caches-animaux-du-zoo-28eb",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "zoo_animals",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-animaux-du-zoo-28eb"
-  },
-  {
-   "slug": "trouve-et-compte-objets-caches-au-supermarche-5b2b",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "at_the_supermarket",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-au-supermarche-5b2b"
-  },
-  {
-   "slug": "trouve-et-compte-objets-caches-autour-de-la-maison-68d9",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "around_the_house",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-autour-de-la-maison-68d9"
-  },
-  {
-   "slug": "trouve-et-compte-objets-caches-boulangerie-4983",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "bakery",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-boulangerie-4983"
-  },
-  {
-   "slug": "trouve-et-compte-objets-caches-bureau-de-poste-7678",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "post_office",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-bureau-de-poste-7678"
-  },
-  {
-   "slug": "trouve-et-compte-objets-caches-camping-0572",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "camping",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-camping-0572"
-  },
-  {
-   "slug": "trouve-et-compte-objets-caches-choses-qui-volent-e08a",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "things_that_fly",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-choses-qui-volent-e08a"
-  },
-  {
-   "slug": "trouve-et-compte-objets-caches-couleurs-edb0",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "colors",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-couleurs-edb0"
-  },
-  {
-   "slug": "trouve-et-compte-objets-caches-creatures-de-la-foret-e590",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "forest_creatures",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-creatures-de-la-foret-e590"
-  },
-  {
-   "slug": "trouve-et-compte-objets-caches-desserts-et-sucreries-d4e4",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "desserts_and_sweets",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-desserts-et-sucreries-d4e4"
-  },
-  {
-   "slug": "trouve-et-compte-objets-caches-emotions-4898",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "emotions",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-emotions-4898"
-  },
-  {
-   "slug": "trouve-et-compte-objets-caches-espace-2f81",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "space",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-espace-2f81"
-  },
-  {
-   "slug": "trouve-et-compte-objets-caches-ete-37f7",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "summer",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-ete-37f7"
-  },
-  {
-   "slug": "trouve-et-compte-objets-caches-fleurs-fe22",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "puzzle-mathematique-mixte-fleurs-c6d4",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "flowers",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-fleurs-fe22"
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-fleurs-c6d4"
   },
   {
-   "slug": "trouve-et-compte-objets-caches-formes-0d9e",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "puzzle-mathematique-mixte-formes-0968",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "shapes",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-formes-0d9e"
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-formes-0968"
   },
   {
-   "slug": "trouve-et-compte-objets-caches-fruits-c8f0",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "puzzle-mathematique-mixte-fruits-945e",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "fruits",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-fruits-c8f0"
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-fruits-945e"
   },
   {
-   "slug": "trouve-et-compte-objets-caches-hiver-b815",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "winter",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-hiver-b815"
-  },
-  {
-   "slug": "trouve-et-compte-objets-caches-hopital-7fce",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "hospital",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-hopital-7fce"
-  },
-  {
-   "slug": "trouve-et-compte-objets-caches-insectes-et-bestioles-921a",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "puzzle-mathematique-mixte-insectes-et-bestioles-e9ec",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "insects_and_bugs",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-insectes-et-bestioles-921a"
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-insectes-et-bestioles-e9ec"
   },
   {
-   "slug": "trouve-et-compte-objets-caches-jouets-7718",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "puzzle-mathematique-mixte-jouets-ed18",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "toys",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-jouets-7718"
+   "level": "ce1",
+   "deck": "puzzle-mathematique-mixte-jouets-ed18"
   },
   {
-   "slug": "trouve-et-compte-objets-caches-legumes-c102",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "puzzle-mathematique-mixte-legumes-d074",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "vegetables",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-legumes-c102"
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-legumes-d074"
   },
   {
-   "slug": "trouve-et-compte-objets-caches-meteo-ee89",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "weather",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-meteo-ee89"
-  },
-  {
-   "slug": "trouve-et-compte-objets-caches-metiers-1971",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "puzzle-mathematique-mixte-metiers-d774",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "occupations",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-metiers-1971"
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-metiers-d774"
   },
   {
-   "slug": "trouve-et-compte-objets-caches-meubles-2e70",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "puzzle-mathematique-mixte-meubles-1dc9",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "furniture",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-meubles-2e70"
+   "level": "ce1",
+   "deck": "puzzle-mathematique-mixte-meubles-1dc9"
   },
   {
-   "slug": "trouve-et-compte-objets-caches-musique-141a",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "puzzle-mathematique-mixte-musique-6db2",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "music",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-musique-141a"
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-musique-6db2"
   },
   {
-   "slug": "trouve-et-compte-objets-caches-noel-1bba",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "puzzle-mathematique-mixte-noel-89bc",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "christmas",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-noel-1bba"
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-noel-89bc"
   },
   {
-   "slug": "trouve-et-compte-objets-caches-oiseaux-2-420c",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "puzzle-mathematique-mixte-oiseaux-2-3a5d",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "birds_2",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-oiseaux-2-420c"
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-oiseaux-2-3a5d"
   },
   {
-   "slug": "trouve-et-compte-objets-caches-outils-448d",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "puzzle-mathematique-mixte-oiseaux-81a2",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-oiseaux-81a2"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-outils-6599",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "tools",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-outils-448d"
+   "level": "ce1",
+   "deck": "puzzle-mathematique-mixte-outils-6599"
   },
   {
-   "slug": "trouve-et-compte-objets-caches-paques-5a88",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "puzzle-mathematique-mixte-paques-8395",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "easter",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-paques-5a88"
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-paques-8395"
   },
   {
-   "slug": "trouve-et-compte-objets-caches-parties-du-corps-8989",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "body_parts",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-parties-du-corps-8989"
-  },
-  {
-   "slug": "trouve-et-compte-objets-caches-petit-dejeuner-2a44",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "puzzle-mathematique-mixte-petit-dejeuner-9552",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "breakfast",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-petit-dejeuner-2a44"
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-petit-dejeuner-9552"
   },
   {
-   "slug": "trouve-et-compte-objets-caches-plage-4ad4",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "puzzle-mathematique-mixte-plage-6e65",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "beach",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-plage-4ad4"
+   "level": "ce1",
+   "deck": "puzzle-mathematique-mixte-plage-6e65"
   },
   {
-   "slug": "trouve-et-compte-objets-caches-printemps-a30b",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "spring",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-printemps-a30b"
+   "slug": "puzzle-mathematique-mixte-reptiles-et-amphibiens-313c",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-reptiles-et-amphibiens-313c"
   },
   {
-   "slug": "trouve-et-compte-objets-caches-salle-de-classe-9b60",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "puzzle-mathematique-mixte-salle-de-classe-f878",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "classroom",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-salle-de-classe-9b60"
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-salle-de-classe-f878"
   },
   {
-   "slug": "trouve-et-compte-objets-caches-vehicules-50a7",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "puzzle-mathematique-mixte-ustensiles-de-cuisine-9306",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-ustensiles-de-cuisine-9306"
+  },
+  {
+   "slug": "puzzle-mathematique-mixte-vehicules-22f8",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "vehicles",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-vehicules-50a7"
+   "level": "ce1",
+   "deck": "puzzle-mathematique-mixte-vehicules-22f8"
   },
   {
-   "slug": "trouve-et-compte-objets-caches-vetements-9369",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "puzzle-mathematique-mixte-vetements-7810",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "clothing",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-vetements-9369"
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-vetements-7810"
   },
   {
-   "slug": "trouve-et-compte-objets-caches-vie-oceanique-8574",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "puzzle-mathematique-mixte-vie-oceanique-558a",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "ocean_life",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-objets-caches-vie-oceanique-8574"
+   "level": "cp",
+   "deck": "puzzle-mathematique-mixte-vie-oceanique-558a"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-accessoires-f6ae",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "accessories",
+   "level": "cp",
+   "deck": "puzzle-mathematique-soustraction-accessoires-f6ae"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-action-de-grace-68fb",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "thanksgivinng",
+   "level": "ce1",
+   "deck": "puzzle-mathematique-soustraction-action-de-grace-68fb"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-animaux-de-compagnie-8da1",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "pets",
+   "level": "cp",
+   "deck": "puzzle-mathematique-soustraction-animaux-de-compagnie-8da1"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-animaux-de-la-ferme-ea9c",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "farm_animals",
+   "level": "ce1",
+   "deck": "puzzle-mathematique-soustraction-animaux-de-la-ferme-ea9c"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-animaux-du-zoo-371b",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "zoo_animals",
+   "level": "ce1",
+   "deck": "puzzle-mathematique-soustraction-animaux-du-zoo-371b"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-animaux-e863",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "animals",
+   "level": "cp",
+   "deck": "puzzle-mathematique-soustraction-animaux-e863"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-arbres-cf62",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "tree",
+   "level": "cp",
+   "deck": "puzzle-mathematique-soustraction-arbres-cf62"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-au-supermarche-cbe6",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "at_the_supermarket",
+   "level": "cp",
+   "deck": "puzzle-mathematique-soustraction-au-supermarche-cbe6"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-autour-de-la-maison-012d",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "around_the_house",
+   "level": "ce1",
+   "deck": "puzzle-mathematique-soustraction-autour-de-la-maison-012d"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-boulangerie-1b4c",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "bakery",
+   "level": "ce1",
+   "deck": "puzzle-mathematique-soustraction-boulangerie-1b4c"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-bureau-de-poste-06af",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "post_office",
+   "level": "ce1",
+   "deck": "puzzle-mathematique-soustraction-bureau-de-poste-06af"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-camping-1e49",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "camping",
+   "level": "cp",
+   "deck": "puzzle-mathematique-soustraction-camping-1e49"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-choses-qui-volent-3575",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "things_that_fly",
+   "level": "ce1",
+   "deck": "puzzle-mathematique-soustraction-choses-qui-volent-3575"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-creatures-de-la-foret-591b",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "forest_creatures",
+   "level": "ce1",
+   "deck": "puzzle-mathematique-soustraction-creatures-de-la-foret-591b"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-desserts-et-sucreries-38a6",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "desserts_and_sweets",
+   "level": "ce1",
+   "deck": "puzzle-mathematique-soustraction-desserts-et-sucreries-38a6"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-dinosaures-7e63",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "dinosaurs",
+   "level": "cp",
+   "deck": "puzzle-mathematique-soustraction-dinosaures-7e63"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-divers-4954",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "miscellaneous",
+   "level": "cp",
+   "deck": "puzzle-mathematique-soustraction-divers-4954"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-espace-d907",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "space",
+   "level": "cp",
+   "deck": "puzzle-mathematique-soustraction-espace-d907"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-formes-1976",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "shapes",
+   "level": "cp",
+   "deck": "puzzle-mathematique-soustraction-formes-1976"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-fruits-679b",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "fruits",
+   "level": "cp",
+   "deck": "puzzle-mathematique-soustraction-fruits-679b"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-hopital-b577",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "hospital",
+   "level": "cp",
+   "deck": "puzzle-mathematique-soustraction-hopital-b577"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-insectes-et-bestioles-836e",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "insects_and_bugs",
+   "level": "cp",
+   "deck": "puzzle-mathematique-soustraction-insectes-et-bestioles-836e"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-jouets-5fb9",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "toys",
+   "level": "cp",
+   "deck": "puzzle-mathematique-soustraction-jouets-5fb9"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-legumes-8571",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "vegetables",
+   "level": "cp",
+   "deck": "puzzle-mathematique-soustraction-legumes-8571"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-metiers-2215",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "occupations",
+   "level": "cp",
+   "deck": "puzzle-mathematique-soustraction-metiers-2215"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-meubles-d1c0",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "furniture",
+   "level": "ce1",
+   "deck": "puzzle-mathematique-soustraction-meubles-d1c0"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-musique-6e90",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "music",
+   "level": "ce1",
+   "deck": "puzzle-mathematique-soustraction-musique-6e90"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-noel-4028",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "christmas",
+   "level": "cp",
+   "deck": "puzzle-mathematique-soustraction-noel-4028"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-oiseaux-2-0035",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "birds_2",
+   "level": "cp",
+   "deck": "puzzle-mathematique-soustraction-oiseaux-2-0035"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-oiseaux-f9ca",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "birds",
+   "level": "cp",
+   "deck": "puzzle-mathematique-soustraction-oiseaux-f9ca"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-outils-ec19",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "tools",
+   "level": "cp",
+   "deck": "puzzle-mathematique-soustraction-outils-ec19"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-paques-e59a",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "easter",
+   "level": "cp",
+   "deck": "puzzle-mathematique-soustraction-paques-e59a"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-petit-dejeuner-905f",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "breakfast",
+   "level": "ce1",
+   "deck": "puzzle-mathematique-soustraction-petit-dejeuner-905f"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-plage-8895",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "beach",
+   "level": "ce1",
+   "deck": "puzzle-mathematique-soustraction-plage-8895"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-reptiles-et-amphibiens-4176",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "reptiles_and_amphibians",
+   "level": "ce1",
+   "deck": "puzzle-mathematique-soustraction-reptiles-et-amphibiens-4176"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-salle-de-classe-9fcb",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "classroom",
+   "level": "ce1",
+   "deck": "puzzle-mathematique-soustraction-salle-de-classe-9fcb"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-ustensiles-de-cuisine-a316",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "kitchen_tools",
+   "level": "cp",
+   "deck": "puzzle-mathematique-soustraction-ustensiles-de-cuisine-a316"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-vehicules-d54b",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "vehicles",
+   "level": "ce1",
+   "deck": "puzzle-mathematique-soustraction-vehicules-d54b"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-vetements-2ad6",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "clothing",
+   "level": "cp",
+   "deck": "puzzle-mathematique-soustraction-vetements-2ad6"
+  },
+  {
+   "slug": "puzzle-mathematique-soustraction-vie-oceanique-4fe9",
+   "type": "math-puzzle",
+   "mode": "subtraction",
+   "theme": "ocean_life",
+   "level": "ce1",
+   "deck": "puzzle-mathematique-soustraction-vie-oceanique-4fe9"
   }
  ]
 }

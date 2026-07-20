@@ -2,779 +2,778 @@
  "part": 201,
  "locale": "nl",
  "classes": [
-  "pattern-train::aab",
-  "pattern-train::aabb"
+  "wordsearch::null"
  ],
  "splitOf": null,
  "count": 96,
  "pages": [
   {
-   "slug": "patroontrein-aab-accessoires-5db1",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-4-juli-599a",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-4-juli-599a"
+  },
+  {
+   "slug": "engels-woordzoeker-accessoires-2723",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "accessories",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-accessoires-5db1"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-accessoires-2723"
   },
   {
-   "slug": "patroontrein-aab-activiteiten-b0d2",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-activiteiten-4092",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "activities",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-activiteiten-b0d2"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-activiteiten-4092"
   },
   {
-   "slug": "patroontrein-aab-bakkerij-f149",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-bakkerij-9861",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "bakery",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-bakkerij-f149"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-bakkerij-9861"
   },
   {
-   "slug": "patroontrein-aab-beroepen-97b3",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-beroepen-700e",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "occupations",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-beroepen-97b3"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-beroepen-700e"
   },
   {
-   "slug": "patroontrein-aab-bloemen-f652",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-bloemen-18e5",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "flowers",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-bloemen-f652"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-bloemen-18e5"
   },
   {
-   "slug": "patroontrein-aab-boerderijdieren-7e1c",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-boerderijdieren-93ce",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "farm_animals",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-boerderijdieren-7e1c"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-boerderijdieren-93ce"
   },
   {
-   "slug": "patroontrein-aab-bomen-a665",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-bomen-54d5",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "tree",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-bomen-a665"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-bomen-54d5"
   },
   {
-   "slug": "patroontrein-aab-boswezens-4341",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-boswezens-bef0",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "forest_creatures",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-boswezens-4341"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-boswezens-bef0"
   },
   {
-   "slug": "patroontrein-aab-desserts-en-snoep-429a",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-desserts-en-snoep-ee13",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "desserts_and_sweets",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-desserts-en-snoep-429a"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-desserts-en-snoep-ee13"
   },
   {
-   "slug": "patroontrein-aab-dieren-1d8d",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-dieren-8554",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "animals",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-dieren-1d8d"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-dieren-8554"
   },
   {
-   "slug": "patroontrein-aab-dierentuindieren-7907",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-dierentuindieren-bb41",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "zoo_animals",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-dierentuindieren-7907"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-dierentuindieren-bb41"
   },
   {
-   "slug": "patroontrein-aab-dingen-die-vliegen-b51a",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-dingen-die-vliegen-4fa6",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "things_that_fly",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-dingen-die-vliegen-b51a"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-dingen-die-vliegen-4fa6"
   },
   {
-   "slug": "patroontrein-aab-dinosaurussen-8330",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "dinosaurs",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-dinosaurussen-8330"
-  },
-  {
-   "slug": "patroontrein-aab-emoties-2351",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-emoties-f026",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "emotions",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-emoties-2351"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-emoties-f026"
   },
   {
-   "slug": "patroontrein-aab-fruit-95e3",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-fruit-fada",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "fruits",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-fruit-95e3"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-fruit-fada"
   },
   {
-   "slug": "patroontrein-aab-gereedschap-7cad",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-gereedschap-bccf",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "tools",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-gereedschap-7cad"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-gereedschap-bccf"
   },
   {
-   "slug": "patroontrein-aab-groenten-c864",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-groenten-3919",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "vegetables",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-groenten-c864"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-groenten-3919"
   },
   {
-   "slug": "patroontrein-aab-huisdieren-0591",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-huisdieren-d89a",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "pets",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-huisdieren-0591"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-huisdieren-d89a"
   },
   {
-   "slug": "patroontrein-aab-in-de-supermarkt-8b78",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-in-de-supermarkt-90ff",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "at_the_supermarket",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-in-de-supermarkt-8b78"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-in-de-supermarkt-90ff"
   },
   {
-   "slug": "patroontrein-aab-insecten-en-beestjes-4a4c",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-insecten-en-beestjes-35fb",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "insects_and_bugs",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-insecten-en-beestjes-4a4c"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-insecten-en-beestjes-35fb"
   },
   {
-   "slug": "patroontrein-aab-kamperen-187d",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-kamperen-1a8c",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "camping",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-kamperen-187d"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-kamperen-1a8c"
   },
   {
-   "slug": "patroontrein-aab-kerstmis-90bf",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-kerstmis-0a89",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "christmas",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-kerstmis-90bf"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-kerstmis-0a89"
   },
   {
-   "slug": "patroontrein-aab-keukengerei-d32b",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-keukengerei-8636",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "kitchen_tools",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-keukengerei-d32b"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-keukengerei-8636"
   },
   {
-   "slug": "patroontrein-aab-klaslokaal-ddb4",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-klaslokaal-fb93",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "classroom",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-klaslokaal-ddb4"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-klaslokaal-fb93"
   },
   {
-   "slug": "patroontrein-aab-kleding-11a4",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-kleding-57d6",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "clothing",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-kleding-11a4"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-kleding-57d6"
   },
   {
-   "slug": "patroontrein-aab-kleuren-6200",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-kleuren-20e5",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "colors",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-kleuren-6200"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-kleuren-20e5"
   },
   {
-   "slug": "patroontrein-aab-lente-ec03",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-lente-1b62",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "spring",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-lente-ec03"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-lente-1b62"
   },
   {
-   "slug": "patroontrein-aab-lichaamsdelen-edc9",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-lichaamsdelen-f3ef",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "body_parts",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-lichaamsdelen-edc9"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-lichaamsdelen-f3ef"
   },
   {
-   "slug": "patroontrein-aab-meubels-67fc",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-meubels-9781",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "furniture",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-meubels-67fc"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-meubels-9781"
   },
   {
-   "slug": "patroontrein-aab-muziek-032d",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-muziek-5fd9",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "music",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-muziek-032d"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-muziek-5fd9"
   },
   {
-   "slug": "patroontrein-aab-oceaanleven-600c",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-oceaanleven-e92a",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "ocean_life",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-oceaanleven-600c"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-oceaanleven-e92a"
   },
   {
-   "slug": "patroontrein-aab-ontbijt-33ad",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-ontbijt-1f41",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "breakfast",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-ontbijt-33ad"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-ontbijt-1f41"
   },
   {
-   "slug": "patroontrein-aab-pasen-0ab7",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-pasen-d981",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "easter",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-pasen-0ab7"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-pasen-d981"
   },
   {
-   "slug": "patroontrein-aab-postkantoor-a552",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-postkantoor-9ae5",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "post_office",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-postkantoor-a552"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-postkantoor-9ae5"
   },
   {
-   "slug": "patroontrein-aab-reptielen-en-amfibieen-f2f2",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-reptielen-en-amfibieen-70c9",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "reptiles_and_amphibians",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-reptielen-en-amfibieen-f2f2"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-reptielen-en-amfibieen-70c9"
   },
   {
-   "slug": "patroontrein-aab-rond-het-huis-0209",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-rond-het-huis-a362",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "around_the_house",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-rond-het-huis-0209"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-rond-het-huis-a362"
   },
   {
-   "slug": "patroontrein-aab-ruimte-7dc3",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-ruimte-22a3",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "space",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-ruimte-7dc3"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-ruimte-22a3"
   },
   {
-   "slug": "patroontrein-aab-speelgoed-5aa1",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-speelgoed-437d",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "toys",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-speelgoed-5aa1"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-speelgoed-437d"
   },
   {
-   "slug": "patroontrein-aab-strand-7ae5",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-strand-e3cb",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "beach",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-strand-7ae5"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-strand-e3cb"
   },
   {
-   "slug": "patroontrein-aab-thanksgiving-9fe4",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-thanksgiving-77e7",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "thanksgivinng",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-thanksgiving-9fe4"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-thanksgiving-77e7"
   },
   {
-   "slug": "patroontrein-aab-voertuigen-13d9",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-voertuigen-43dc",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "vehicles",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-voertuigen-13d9"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-voertuigen-43dc"
   },
   {
-   "slug": "patroontrein-aab-vogels-2-86fe",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-vogels-2-3e64",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "birds_2",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-vogels-2-86fe"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-vogels-2-3e64"
   },
   {
-   "slug": "patroontrein-aab-vogels-500a",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-vogels-2bef",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "birds",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-vogels-500a"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-vogels-2bef"
   },
   {
-   "slug": "patroontrein-aab-vormen-c728",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-vormen-e054",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "shapes",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-vormen-c728"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-vormen-e054"
   },
   {
-   "slug": "patroontrein-aab-weer-d240",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-weer-d412",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "weather",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-weer-d240"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-weer-d412"
   },
   {
-   "slug": "patroontrein-aab-winter-2036",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-winter-f8f3",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "winter",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-winter-2036"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-winter-f8f3"
   },
   {
-   "slug": "patroontrein-aab-ziekenhuis-cd15",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-ziekenhuis-abe4",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "hospital",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-ziekenhuis-cd15"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-ziekenhuis-abe4"
   },
   {
-   "slug": "patroontrein-aab-zomer-7a4f",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engels-woordzoeker-zomer-af12",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "summer",
-   "level": "kleuters",
-   "deck": "patroontrein-aab-zomer-7a4f"
+   "level": "language-beginner",
+   "deck": "engels-woordzoeker-zomer-af12"
   },
   {
-   "slug": "patroontrein-aabb-accessoires-67b1",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-accessoires-ca81",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "accessories",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-accessoires-67b1"
+   "level": "groep-3",
+   "deck": "woordzoeker-accessoires-ca81"
   },
   {
-   "slug": "patroontrein-aabb-activiteiten-bb60",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-activiteiten-2643",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "activities",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-activiteiten-bb60"
+   "level": "groep-3",
+   "deck": "woordzoeker-activiteiten-2643"
   },
   {
-   "slug": "patroontrein-aabb-bakkerij-b910",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-bakkerij-83f4",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "bakery",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-bakkerij-b910"
+   "level": "groep-3",
+   "deck": "woordzoeker-bakkerij-83f4"
   },
   {
-   "slug": "patroontrein-aabb-beroepen-90f1",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-beroepen-54ed",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "occupations",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-beroepen-90f1"
+   "level": "groep-3",
+   "deck": "woordzoeker-beroepen-54ed"
   },
   {
-   "slug": "patroontrein-aabb-bloemen-2dcf",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-bloemen-9ad8",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "flowers",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-bloemen-2dcf"
+   "level": "groep-3",
+   "deck": "woordzoeker-bloemen-9ad8"
   },
   {
-   "slug": "patroontrein-aabb-boerderijdieren-d473",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-boerderijdieren-1669",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "farm_animals",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-boerderijdieren-d473"
+   "level": "groep-3",
+   "deck": "woordzoeker-boerderijdieren-1669"
   },
   {
-   "slug": "patroontrein-aabb-bomen-d9ae",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-bomen-7cc0",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "tree",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-bomen-d9ae"
+   "level": "groep-3",
+   "deck": "woordzoeker-bomen-7cc0"
   },
   {
-   "slug": "patroontrein-aabb-boswezens-997c",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-boswezens-7ed9",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "forest_creatures",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-boswezens-997c"
+   "level": "groep-3",
+   "deck": "woordzoeker-boswezens-7ed9"
   },
   {
-   "slug": "patroontrein-aabb-desserts-en-snoep-dee5",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-desserts-en-snoep-a851",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "desserts_and_sweets",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-desserts-en-snoep-dee5"
+   "level": "groep-3",
+   "deck": "woordzoeker-desserts-en-snoep-a851"
   },
   {
-   "slug": "patroontrein-aabb-dieren-dff3",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-dieren-c8ae",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "animals",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-dieren-dff3"
+   "level": "groep-3",
+   "deck": "woordzoeker-dieren-c8ae"
   },
   {
-   "slug": "patroontrein-aabb-dierentuindieren-92f6",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-dierentuindieren-55bf",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "zoo_animals",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-dierentuindieren-92f6"
+   "level": "groep-3",
+   "deck": "woordzoeker-dierentuindieren-55bf"
   },
   {
-   "slug": "patroontrein-aabb-dingen-die-vliegen-6697",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-dingen-die-vliegen-46e9",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "things_that_fly",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-dingen-die-vliegen-6697"
+   "level": "groep-3",
+   "deck": "woordzoeker-dingen-die-vliegen-46e9"
   },
   {
-   "slug": "patroontrein-aabb-dinosaurussen-ec84",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-dinosaurussen-8e7d",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "dinosaurs",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-dinosaurussen-ec84"
+   "level": "groep-3",
+   "deck": "woordzoeker-dinosaurussen-8e7d"
   },
   {
-   "slug": "patroontrein-aabb-emoties-267a",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-emoties-1974",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "emotions",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-emoties-267a"
+   "level": "groep-3",
+   "deck": "woordzoeker-emoties-1974"
   },
   {
-   "slug": "patroontrein-aabb-fruit-1f59",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-fruit-c973",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "fruits",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-fruit-1f59"
+   "level": "groep-3",
+   "deck": "woordzoeker-fruit-c973"
   },
   {
-   "slug": "patroontrein-aabb-gereedschap-bdbf",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-gereedschap-5098",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "tools",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-gereedschap-bdbf"
+   "level": "groep-3",
+   "deck": "woordzoeker-gereedschap-5098"
   },
   {
-   "slug": "patroontrein-aabb-groenten-9bae",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-groenten-2f62",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "vegetables",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-groenten-9bae"
+   "level": "groep-3",
+   "deck": "woordzoeker-groenten-2f62"
   },
   {
-   "slug": "patroontrein-aabb-huisdieren-9b6c",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-huisdieren-d5e3",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "pets",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-huisdieren-9b6c"
+   "level": "groep-3",
+   "deck": "woordzoeker-huisdieren-d5e3"
   },
   {
-   "slug": "patroontrein-aabb-in-de-supermarkt-7c3c",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-in-de-supermarkt-41e0",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "at_the_supermarket",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-in-de-supermarkt-7c3c"
+   "level": "groep-3",
+   "deck": "woordzoeker-in-de-supermarkt-41e0"
   },
   {
-   "slug": "patroontrein-aabb-insecten-en-beestjes-fdec",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-insecten-en-beestjes-e31e",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "insects_and_bugs",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-insecten-en-beestjes-fdec"
+   "level": "groep-3",
+   "deck": "woordzoeker-insecten-en-beestjes-e31e"
   },
   {
-   "slug": "patroontrein-aabb-kamperen-4efc",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-kamperen-b6c9",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "camping",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-kamperen-4efc"
+   "level": "groep-3",
+   "deck": "woordzoeker-kamperen-b6c9"
   },
   {
-   "slug": "patroontrein-aabb-kerstmis-5b7a",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-kerstmis-1e96",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "christmas",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-kerstmis-5b7a"
+   "level": "groep-3",
+   "deck": "woordzoeker-kerstmis-1e96"
   },
   {
-   "slug": "patroontrein-aabb-keukengerei-71ca",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-keukengerei-4310",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "kitchen_tools",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-keukengerei-71ca"
+   "level": "groep-3",
+   "deck": "woordzoeker-keukengerei-4310"
   },
   {
-   "slug": "patroontrein-aabb-klaslokaal-0a87",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-klaslokaal-1183",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "classroom",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-klaslokaal-0a87"
+   "level": "groep-3",
+   "deck": "woordzoeker-klaslokaal-1183"
   },
   {
-   "slug": "patroontrein-aabb-kleding-a639",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-kleding-40f0",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "clothing",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-kleding-a639"
+   "level": "groep-3",
+   "deck": "woordzoeker-kleding-40f0"
   },
   {
-   "slug": "patroontrein-aabb-kleuren-0021",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-kleuren-453a",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "colors",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-kleuren-0021"
+   "level": "groep-3",
+   "deck": "woordzoeker-kleuren-453a"
   },
   {
-   "slug": "patroontrein-aabb-lente-5fcb",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-lente-28c0",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "spring",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-lente-5fcb"
+   "level": "groep-3",
+   "deck": "woordzoeker-lente-28c0"
   },
   {
-   "slug": "patroontrein-aabb-lichaamsdelen-e64b",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-lichaamsdelen-5b42",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "body_parts",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-lichaamsdelen-e64b"
+   "level": "groep-3",
+   "deck": "woordzoeker-lichaamsdelen-5b42"
   },
   {
-   "slug": "patroontrein-aabb-meubels-808a",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-meubels-2923",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "furniture",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-meubels-808a"
+   "level": "groep-3",
+   "deck": "woordzoeker-meubels-2923"
   },
   {
-   "slug": "patroontrein-aabb-muziek-51b9",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-muziek-fe97",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "music",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-muziek-51b9"
+   "level": "groep-3",
+   "deck": "woordzoeker-muziek-fe97"
   },
   {
-   "slug": "patroontrein-aabb-oceaanleven-857b",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-oceaanleven-3739",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "ocean_life",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-oceaanleven-857b"
+   "level": "groep-3",
+   "deck": "woordzoeker-oceaanleven-3739"
   },
   {
-   "slug": "patroontrein-aabb-ontbijt-c6ae",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-ontbijt-97d4",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "breakfast",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-ontbijt-c6ae"
+   "level": "groep-3",
+   "deck": "woordzoeker-ontbijt-97d4"
   },
   {
-   "slug": "patroontrein-aabb-pasen-24db",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-pasen-f951",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "easter",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-pasen-24db"
+   "level": "groep-3",
+   "deck": "woordzoeker-pasen-f951"
   },
   {
-   "slug": "patroontrein-aabb-postkantoor-ed8b",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-postkantoor-728b",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "post_office",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-postkantoor-ed8b"
+   "level": "groep-3",
+   "deck": "woordzoeker-postkantoor-728b"
   },
   {
-   "slug": "patroontrein-aabb-reptielen-en-amfibieen-f114",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-reptielen-en-amfibieen-0933",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "reptiles_and_amphibians",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-reptielen-en-amfibieen-f114"
+   "level": "groep-3",
+   "deck": "woordzoeker-reptielen-en-amfibieen-0933"
   },
   {
-   "slug": "patroontrein-aabb-rond-het-huis-7848",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-rond-het-huis-51c1",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "around_the_house",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-rond-het-huis-7848"
+   "level": "groep-3",
+   "deck": "woordzoeker-rond-het-huis-51c1"
   },
   {
-   "slug": "patroontrein-aabb-ruimte-c91c",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-ruimte-125e",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "space",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-ruimte-c91c"
+   "level": "groep-3",
+   "deck": "woordzoeker-ruimte-125e"
   },
   {
-   "slug": "patroontrein-aabb-speelgoed-4321",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-speelgoed-8ef4",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "toys",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-speelgoed-4321"
+   "level": "groep-3",
+   "deck": "woordzoeker-speelgoed-8ef4"
   },
   {
-   "slug": "patroontrein-aabb-strand-d1af",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-strand-7879",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "beach",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-strand-d1af"
+   "level": "groep-3",
+   "deck": "woordzoeker-strand-7879"
   },
   {
-   "slug": "patroontrein-aabb-thanksgiving-3986",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-thanksgiving-723d",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "thanksgivinng",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-thanksgiving-3986"
+   "level": "groep-3",
+   "deck": "woordzoeker-thanksgiving-723d"
   },
   {
-   "slug": "patroontrein-aabb-voertuigen-c6b4",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-voertuigen-a379",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "vehicles",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-voertuigen-c6b4"
+   "level": "groep-3",
+   "deck": "woordzoeker-voertuigen-a379"
   },
   {
-   "slug": "patroontrein-aabb-vogels-2-9f4b",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-vogels-2-43d8",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "birds_2",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-vogels-2-9f4b"
+   "level": "groep-3",
+   "deck": "woordzoeker-vogels-2-43d8"
   },
   {
-   "slug": "patroontrein-aabb-vogels-7259",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-vogels-8a5e",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "birds",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-vogels-7259"
+   "level": "groep-3",
+   "deck": "woordzoeker-vogels-8a5e"
   },
   {
-   "slug": "patroontrein-aabb-vormen-f75c",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-vormen-5ebd",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "shapes",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-vormen-f75c"
+   "level": "groep-3",
+   "deck": "woordzoeker-vormen-5ebd"
   },
   {
-   "slug": "patroontrein-aabb-weer-6eb6",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-weer-64c7",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "weather",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-weer-6eb6"
+   "level": "groep-3",
+   "deck": "woordzoeker-weer-64c7"
   },
   {
-   "slug": "patroontrein-aabb-winter-73ff",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-winter-d932",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "winter",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-winter-73ff"
+   "level": "groep-3",
+   "deck": "woordzoeker-winter-d932"
   },
   {
-   "slug": "patroontrein-aabb-ziekenhuis-7052",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-ziekenhuis-b0a5",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "hospital",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-ziekenhuis-7052"
+   "level": "groep-3",
+   "deck": "woordzoeker-ziekenhuis-b0a5"
   },
   {
-   "slug": "patroontrein-aabb-zomer-c4a1",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "woordzoeker-zomer-53d6",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "summer",
-   "level": "kleuters",
-   "deck": "patroontrein-aabb-zomer-c4a1"
+   "level": "groep-3",
+   "deck": "woordzoeker-zomer-53d6"
   }
  ]
 }

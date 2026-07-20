@@ -2,635 +2,779 @@
  "part": 164,
  "locale": "fr",
  "classes": [
-  "more-less::image-image",
-  "subtraction::mixed"
+  "code-addition::null",
+  "sudoku::easy"
  ],
  "splitOf": null,
- "count": 78,
+ "count": 96,
  "pages": [
   {
-   "slug": "plus-ou-moins-image-image-accessoires-1a70",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "addition-codee-accessoires-bdfb",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "accessories",
+   "level": "cp",
+   "deck": "addition-codee-accessoires-bdfb"
+  },
+  {
+   "slug": "addition-codee-action-de-grace-6a4b",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "ce1",
+   "deck": "addition-codee-action-de-grace-6a4b"
+  },
+  {
+   "slug": "addition-codee-activites-d28c",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "activities",
+   "level": "cp",
+   "deck": "addition-codee-activites-d28c"
+  },
+  {
+   "slug": "addition-codee-animaux-9114",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "animals",
+   "level": "cp",
+   "deck": "addition-codee-animaux-9114"
+  },
+  {
+   "slug": "addition-codee-animaux-de-compagnie-eb69",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "pets",
+   "level": "cp",
+   "deck": "addition-codee-animaux-de-compagnie-eb69"
+  },
+  {
+   "slug": "addition-codee-animaux-de-la-ferme-a5f3",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "ce1",
+   "deck": "addition-codee-animaux-de-la-ferme-a5f3"
+  },
+  {
+   "slug": "addition-codee-animaux-du-zoo-ddc2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "cp",
+   "deck": "addition-codee-animaux-du-zoo-ddc2"
+  },
+  {
+   "slug": "addition-codee-arbres-75f1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "tree",
+   "level": "ce1",
+   "deck": "addition-codee-arbres-75f1"
+  },
+  {
+   "slug": "addition-codee-au-supermarche-724c",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "ce1",
+   "deck": "addition-codee-au-supermarche-724c"
+  },
+  {
+   "slug": "addition-codee-autour-de-la-maison-e9d5",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "ce1",
+   "deck": "addition-codee-autour-de-la-maison-e9d5"
+  },
+  {
+   "slug": "addition-codee-boulangerie-7b38",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "bakery",
+   "level": "cp",
+   "deck": "addition-codee-boulangerie-7b38"
+  },
+  {
+   "slug": "addition-codee-bureau-de-poste-9c4b",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "post_office",
+   "level": "cp",
+   "deck": "addition-codee-bureau-de-poste-9c4b"
+  },
+  {
+   "slug": "addition-codee-camping-7b9e",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "camping",
+   "level": "cp",
+   "deck": "addition-codee-camping-7b9e"
+  },
+  {
+   "slug": "addition-codee-choses-qui-volent-f863",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "cp",
+   "deck": "addition-codee-choses-qui-volent-f863"
+  },
+  {
+   "slug": "addition-codee-couleurs-f6e1",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "colors",
+   "level": "ce1",
+   "deck": "addition-codee-couleurs-f6e1"
+  },
+  {
+   "slug": "addition-codee-creatures-de-la-foret-386c",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "ce1",
+   "deck": "addition-codee-creatures-de-la-foret-386c"
+  },
+  {
+   "slug": "addition-codee-desserts-et-sucreries-3fee",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "cp",
+   "deck": "addition-codee-desserts-et-sucreries-3fee"
+  },
+  {
+   "slug": "addition-codee-dinosaures-7756",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "cp",
+   "deck": "addition-codee-dinosaures-7756"
+  },
+  {
+   "slug": "addition-codee-emotions-7382",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "emotions",
+   "level": "cp",
+   "deck": "addition-codee-emotions-7382"
+  },
+  {
+   "slug": "addition-codee-espace-6bea",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "space",
+   "level": "ce1",
+   "deck": "addition-codee-espace-6bea"
+  },
+  {
+   "slug": "addition-codee-ete-2645",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "summer",
+   "level": "ce1",
+   "deck": "addition-codee-ete-2645"
+  },
+  {
+   "slug": "addition-codee-fleurs-2f98",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "flowers",
+   "level": "cp",
+   "deck": "addition-codee-fleurs-2f98"
+  },
+  {
+   "slug": "addition-codee-formes-da40",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "shapes",
+   "level": "ce1",
+   "deck": "addition-codee-formes-da40"
+  },
+  {
+   "slug": "addition-codee-fruits-b03d",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "fruits",
+   "level": "ce1",
+   "deck": "addition-codee-fruits-b03d"
+  },
+  {
+   "slug": "addition-codee-hiver-781b",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "winter",
+   "level": "cp",
+   "deck": "addition-codee-hiver-781b"
+  },
+  {
+   "slug": "addition-codee-hopital-826b",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "hospital",
+   "level": "ce1",
+   "deck": "addition-codee-hopital-826b"
+  },
+  {
+   "slug": "addition-codee-insectes-et-bestioles-0d29",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "cp",
+   "deck": "addition-codee-insectes-et-bestioles-0d29"
+  },
+  {
+   "slug": "addition-codee-jouets-2d36",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "toys",
+   "level": "cp",
+   "deck": "addition-codee-jouets-2d36"
+  },
+  {
+   "slug": "addition-codee-legumes-d7ba",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "cp",
+   "deck": "addition-codee-legumes-d7ba"
+  },
+  {
+   "slug": "addition-codee-meteo-bc95",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "weather",
+   "level": "cp",
+   "deck": "addition-codee-meteo-bc95"
+  },
+  {
+   "slug": "addition-codee-metiers-cc3e",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "occupations",
+   "level": "cp",
+   "deck": "addition-codee-metiers-cc3e"
+  },
+  {
+   "slug": "addition-codee-meubles-010f",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "furniture",
+   "level": "ce1",
+   "deck": "addition-codee-meubles-010f"
+  },
+  {
+   "slug": "addition-codee-musique-1d55",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "music",
+   "level": "ce1",
+   "deck": "addition-codee-musique-1d55"
+  },
+  {
+   "slug": "addition-codee-noel-b74a",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "christmas",
+   "level": "cp",
+   "deck": "addition-codee-noel-b74a"
+  },
+  {
+   "slug": "addition-codee-oiseaux-2-f5f9",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "ce1",
+   "deck": "addition-codee-oiseaux-2-f5f9"
+  },
+  {
+   "slug": "addition-codee-oiseaux-6560",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "birds",
+   "level": "cp",
+   "deck": "addition-codee-oiseaux-6560"
+  },
+  {
+   "slug": "addition-codee-outils-4825",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "tools",
+   "level": "ce1",
+   "deck": "addition-codee-outils-4825"
+  },
+  {
+   "slug": "addition-codee-paques-4567",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "easter",
+   "level": "cp",
+   "deck": "addition-codee-paques-4567"
+  },
+  {
+   "slug": "addition-codee-parties-du-corps-c7cf",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "ce1",
+   "deck": "addition-codee-parties-du-corps-c7cf"
+  },
+  {
+   "slug": "addition-codee-petit-dejeuner-8614",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "ce1",
+   "deck": "addition-codee-petit-dejeuner-8614"
+  },
+  {
+   "slug": "addition-codee-plage-b64d",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "beach",
+   "level": "ce1",
+   "deck": "addition-codee-plage-b64d"
+  },
+  {
+   "slug": "addition-codee-printemps-8a4b",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "spring",
+   "level": "ce1",
+   "deck": "addition-codee-printemps-8a4b"
+  },
+  {
+   "slug": "addition-codee-reptiles-et-amphibiens-3fdd",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "ce1",
+   "deck": "addition-codee-reptiles-et-amphibiens-3fdd"
+  },
+  {
+   "slug": "addition-codee-salle-de-classe-24fe",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "classroom",
+   "level": "cp",
+   "deck": "addition-codee-salle-de-classe-24fe"
+  },
+  {
+   "slug": "addition-codee-ustensiles-de-cuisine-75e0",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "cp",
+   "deck": "addition-codee-ustensiles-de-cuisine-75e0"
+  },
+  {
+   "slug": "addition-codee-vehicules-7269",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "ce1",
+   "deck": "addition-codee-vehicules-7269"
+  },
+  {
+   "slug": "addition-codee-vetements-ce00",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "clothing",
+   "level": "ce1",
+   "deck": "addition-codee-vetements-ce00"
+  },
+  {
+   "slug": "addition-codee-vie-oceanique-31cd",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "cp",
+   "deck": "addition-codee-vie-oceanique-31cd"
+  },
+  {
+   "slug": "sudoku-illustre-facile-accessoires-f3d2",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "accessories",
    "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-accessoires-1a70"
+   "deck": "sudoku-illustre-facile-accessoires-f3d2"
   },
   {
-   "slug": "plus-ou-moins-image-image-action-de-grace-c674",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "sudoku-illustre-facile-action-de-grace-ab0b",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "thanksgivinng",
    "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-action-de-grace-c674"
+   "deck": "sudoku-illustre-facile-action-de-grace-ab0b"
   },
   {
-   "slug": "plus-ou-moins-image-image-animaux-28f4",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "sudoku-illustre-facile-activites-0be3",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "activities",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-activites-0be3"
+  },
+  {
+   "slug": "sudoku-illustre-facile-animaux-9534",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "animals",
    "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-animaux-28f4"
+   "deck": "sudoku-illustre-facile-animaux-9534"
   },
   {
-   "slug": "plus-ou-moins-image-image-animaux-de-compagnie-3fa9",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "sudoku-illustre-facile-animaux-de-compagnie-e341",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "pets",
    "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-animaux-de-compagnie-3fa9"
+   "deck": "sudoku-illustre-facile-animaux-de-compagnie-e341"
   },
   {
-   "slug": "plus-ou-moins-image-image-animaux-de-la-ferme-ef3d",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "sudoku-illustre-facile-animaux-de-la-ferme-0b28",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "farm_animals",
    "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-animaux-de-la-ferme-ef3d"
+   "deck": "sudoku-illustre-facile-animaux-de-la-ferme-0b28"
   },
   {
-   "slug": "plus-ou-moins-image-image-animaux-du-zoo-6e1d",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "sudoku-illustre-facile-animaux-du-zoo-6632",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "zoo_animals",
    "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-animaux-du-zoo-6e1d"
+   "deck": "sudoku-illustre-facile-animaux-du-zoo-6632"
   },
   {
-   "slug": "plus-ou-moins-image-image-arbres-417d",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "sudoku-illustre-facile-arbres-c047",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "tree",
    "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-arbres-417d"
+   "deck": "sudoku-illustre-facile-arbres-c047"
   },
   {
-   "slug": "plus-ou-moins-image-image-au-supermarche-3667",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "sudoku-illustre-facile-au-supermarche-169d",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "at_the_supermarket",
    "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-au-supermarche-3667"
+   "deck": "sudoku-illustre-facile-au-supermarche-169d"
   },
   {
-   "slug": "plus-ou-moins-image-image-autour-de-la-maison-6d17",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "sudoku-illustre-facile-autour-de-la-maison-1d82",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "around_the_house",
    "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-autour-de-la-maison-6d17"
+   "deck": "sudoku-illustre-facile-autour-de-la-maison-1d82"
   },
   {
-   "slug": "plus-ou-moins-image-image-boulangerie-f573",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "sudoku-illustre-facile-boulangerie-1416",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "bakery",
    "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-boulangerie-f573"
+   "deck": "sudoku-illustre-facile-boulangerie-1416"
   },
   {
-   "slug": "plus-ou-moins-image-image-bureau-de-poste-dda7",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "sudoku-illustre-facile-bureau-de-poste-659f",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "post_office",
    "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-bureau-de-poste-dda7"
+   "deck": "sudoku-illustre-facile-bureau-de-poste-659f"
   },
   {
-   "slug": "plus-ou-moins-image-image-camping-e796",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "sudoku-illustre-facile-camping-7906",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "camping",
    "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-camping-e796"
+   "deck": "sudoku-illustre-facile-camping-7906"
   },
   {
-   "slug": "plus-ou-moins-image-image-choses-qui-volent-1ec5",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "sudoku-illustre-facile-choses-qui-volent-ec2e",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "things_that_fly",
    "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-choses-qui-volent-1ec5"
+   "deck": "sudoku-illustre-facile-choses-qui-volent-ec2e"
   },
   {
-   "slug": "plus-ou-moins-image-image-creatures-de-la-foret-7d3b",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "sudoku-illustre-facile-couleurs-bb63",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "colors",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-couleurs-bb63"
+  },
+  {
+   "slug": "sudoku-illustre-facile-creatures-de-la-foret-7195",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "forest_creatures",
    "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-creatures-de-la-foret-7d3b"
+   "deck": "sudoku-illustre-facile-creatures-de-la-foret-7195"
   },
   {
-   "slug": "plus-ou-moins-image-image-desserts-et-sucreries-0507",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "sudoku-illustre-facile-desserts-et-sucreries-b15e",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "desserts_and_sweets",
    "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-desserts-et-sucreries-0507"
+   "deck": "sudoku-illustre-facile-desserts-et-sucreries-b15e"
   },
   {
-   "slug": "plus-ou-moins-image-image-dinosaures-ed7b",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "sudoku-illustre-facile-dinosaures-7b6d",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "dinosaurs",
    "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-dinosaures-ed7b"
+   "deck": "sudoku-illustre-facile-dinosaures-7b6d"
   },
   {
-   "slug": "plus-ou-moins-image-image-espace-1b6b",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "sudoku-illustre-facile-emotions-2319",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "emotions",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-emotions-2319"
+  },
+  {
+   "slug": "sudoku-illustre-facile-espace-7e43",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "space",
    "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-espace-1b6b"
+   "deck": "sudoku-illustre-facile-espace-7e43"
   },
   {
-   "slug": "plus-ou-moins-image-image-fleurs-eee8",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "sudoku-illustre-facile-ete-24d3",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "summer",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-ete-24d3"
+  },
+  {
+   "slug": "sudoku-illustre-facile-fleurs-6d26",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "flowers",
    "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-fleurs-eee8"
+   "deck": "sudoku-illustre-facile-fleurs-6d26"
   },
   {
-   "slug": "plus-ou-moins-image-image-formes-a6a9",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "sudoku-illustre-facile-formes-314a",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "shapes",
    "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-formes-a6a9"
+   "deck": "sudoku-illustre-facile-formes-314a"
   },
   {
-   "slug": "plus-ou-moins-image-image-fruits-f1d4",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "sudoku-illustre-facile-fruits-6f2a",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "fruits",
    "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-fruits-f1d4"
+   "deck": "sudoku-illustre-facile-fruits-6f2a"
   },
   {
-   "slug": "plus-ou-moins-image-image-hopital-77f4",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "sudoku-illustre-facile-hiver-2479",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "winter",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-hiver-2479"
+  },
+  {
+   "slug": "sudoku-illustre-facile-hopital-9c61",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "hospital",
    "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-hopital-77f4"
+   "deck": "sudoku-illustre-facile-hopital-9c61"
   },
   {
-   "slug": "plus-ou-moins-image-image-insectes-et-bestioles-9587",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "sudoku-illustre-facile-insectes-et-bestioles-a0d7",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "insects_and_bugs",
    "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-insectes-et-bestioles-9587"
+   "deck": "sudoku-illustre-facile-insectes-et-bestioles-a0d7"
   },
   {
-   "slug": "plus-ou-moins-image-image-jouets-bef2",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "sudoku-illustre-facile-jouets-4e52",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "toys",
    "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-jouets-bef2"
+   "deck": "sudoku-illustre-facile-jouets-4e52"
   },
   {
-   "slug": "plus-ou-moins-image-image-legumes-0852",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "sudoku-illustre-facile-legumes-d77a",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "vegetables",
    "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-legumes-0852"
+   "deck": "sudoku-illustre-facile-legumes-d77a"
   },
   {
-   "slug": "plus-ou-moins-image-image-metiers-c1dc",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "sudoku-illustre-facile-meteo-bd5b",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "weather",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-meteo-bd5b"
+  },
+  {
+   "slug": "sudoku-illustre-facile-metiers-7998",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "occupations",
    "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-metiers-c1dc"
+   "deck": "sudoku-illustre-facile-metiers-7998"
   },
   {
-   "slug": "plus-ou-moins-image-image-musique-4e80",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "music",
-   "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-musique-4e80"
-  },
-  {
-   "slug": "plus-ou-moins-image-image-noel-23c7",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "christmas",
-   "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-noel-23c7"
-  },
-  {
-   "slug": "plus-ou-moins-image-image-oiseaux-2-107b",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "birds_2",
-   "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-oiseaux-2-107b"
-  },
-  {
-   "slug": "plus-ou-moins-image-image-oiseaux-c219",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "birds",
-   "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-oiseaux-c219"
-  },
-  {
-   "slug": "plus-ou-moins-image-image-outils-3342",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "tools",
-   "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-outils-3342"
-  },
-  {
-   "slug": "plus-ou-moins-image-image-paques-6825",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "easter",
-   "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-paques-6825"
-  },
-  {
-   "slug": "plus-ou-moins-image-image-petit-dejeuner-ec7e",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "breakfast",
-   "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-petit-dejeuner-ec7e"
-  },
-  {
-   "slug": "plus-ou-moins-image-image-plage-b953",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "beach",
-   "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-plage-b953"
-  },
-  {
-   "slug": "plus-ou-moins-image-image-reptiles-et-amphibiens-1d1f",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "reptiles_and_amphibians",
-   "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-reptiles-et-amphibiens-1d1f"
-  },
-  {
-   "slug": "plus-ou-moins-image-image-salle-de-classe-fd22",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "classroom",
-   "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-salle-de-classe-fd22"
-  },
-  {
-   "slug": "plus-ou-moins-image-image-ustensiles-de-cuisine-4f6c",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "kitchen_tools",
-   "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-ustensiles-de-cuisine-4f6c"
-  },
-  {
-   "slug": "plus-ou-moins-image-image-vehicules-0cc6",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "vehicles",
-   "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-vehicules-0cc6"
-  },
-  {
-   "slug": "plus-ou-moins-image-image-vetements-700d",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "clothing",
-   "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-vetements-700d"
-  },
-  {
-   "slug": "plus-ou-moins-image-image-vie-oceanique-6976",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "ocean_life",
-   "level": "maternelle",
-   "deck": "plus-ou-moins-image-image-vie-oceanique-6976"
-  },
-  {
-   "slug": "soustraction-mixte-accessoires-bdf9",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "accessories",
-   "level": "cp",
-   "deck": "soustraction-mixte-accessoires-bdf9"
-  },
-  {
-   "slug": "soustraction-mixte-action-de-grace-789d",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "thanksgivinng",
-   "level": "cp",
-   "deck": "soustraction-mixte-action-de-grace-789d"
-  },
-  {
-   "slug": "soustraction-mixte-animaux-de-compagnie-7bb6",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "pets",
-   "level": "cp",
-   "deck": "soustraction-mixte-animaux-de-compagnie-7bb6"
-  },
-  {
-   "slug": "soustraction-mixte-animaux-de-la-ferme-68bd",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "farm_animals",
-   "level": "cp",
-   "deck": "soustraction-mixte-animaux-de-la-ferme-68bd"
-  },
-  {
-   "slug": "soustraction-mixte-animaux-du-zoo-79ec",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "zoo_animals",
-   "level": "cp",
-   "deck": "soustraction-mixte-animaux-du-zoo-79ec"
-  },
-  {
-   "slug": "soustraction-mixte-animaux-f7e0",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "animals",
-   "level": "cp",
-   "deck": "soustraction-mixte-animaux-f7e0"
-  },
-  {
-   "slug": "soustraction-mixte-arbres-8702",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "tree",
-   "level": "cp",
-   "deck": "soustraction-mixte-arbres-8702"
-  },
-  {
-   "slug": "soustraction-mixte-au-supermarche-e4f0",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "at_the_supermarket",
-   "level": "cp",
-   "deck": "soustraction-mixte-au-supermarche-e4f0"
-  },
-  {
-   "slug": "soustraction-mixte-autour-de-la-maison-5213",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "around_the_house",
-   "level": "cp",
-   "deck": "soustraction-mixte-autour-de-la-maison-5213"
-  },
-  {
-   "slug": "soustraction-mixte-boulangerie-d587",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "bakery",
-   "level": "cp",
-   "deck": "soustraction-mixte-boulangerie-d587"
-  },
-  {
-   "slug": "soustraction-mixte-bureau-de-poste-1709",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "post_office",
-   "level": "cp",
-   "deck": "soustraction-mixte-bureau-de-poste-1709"
-  },
-  {
-   "slug": "soustraction-mixte-choses-qui-volent-59f5",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "things_that_fly",
-   "level": "cp",
-   "deck": "soustraction-mixte-choses-qui-volent-59f5"
-  },
-  {
-   "slug": "soustraction-mixte-creatures-de-la-foret-1ecb",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "forest_creatures",
-   "level": "cp",
-   "deck": "soustraction-mixte-creatures-de-la-foret-1ecb"
-  },
-  {
-   "slug": "soustraction-mixte-desserts-et-sucreries-1285",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "desserts_and_sweets",
-   "level": "cp",
-   "deck": "soustraction-mixte-desserts-et-sucreries-1285"
-  },
-  {
-   "slug": "soustraction-mixte-dinosaures-5123",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "dinosaurs",
-   "level": "cp",
-   "deck": "soustraction-mixte-dinosaures-5123"
-  },
-  {
-   "slug": "soustraction-mixte-espace-09db",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "space",
-   "level": "cp",
-   "deck": "soustraction-mixte-espace-09db"
-  },
-  {
-   "slug": "soustraction-mixte-fleurs-9650",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "flowers",
-   "level": "cp",
-   "deck": "soustraction-mixte-fleurs-9650"
-  },
-  {
-   "slug": "soustraction-mixte-formes-a282",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "shapes",
-   "level": "cp",
-   "deck": "soustraction-mixte-formes-a282"
-  },
-  {
-   "slug": "soustraction-mixte-fruits-9975",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "fruits",
-   "level": "cp",
-   "deck": "soustraction-mixte-fruits-9975"
-  },
-  {
-   "slug": "soustraction-mixte-hopital-9123",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "hospital",
-   "level": "cp",
-   "deck": "soustraction-mixte-hopital-9123"
-  },
-  {
-   "slug": "soustraction-mixte-insectes-et-bestioles-176d",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "insects_and_bugs",
-   "level": "cp",
-   "deck": "soustraction-mixte-insectes-et-bestioles-176d"
-  },
-  {
-   "slug": "soustraction-mixte-jouets-e233",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "toys",
-   "level": "cp",
-   "deck": "soustraction-mixte-jouets-e233"
-  },
-  {
-   "slug": "soustraction-mixte-legumes-30c8",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "vegetables",
-   "level": "cp",
-   "deck": "soustraction-mixte-legumes-30c8"
-  },
-  {
-   "slug": "soustraction-mixte-metiers-36cb",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "occupations",
-   "level": "cp",
-   "deck": "soustraction-mixte-metiers-36cb"
-  },
-  {
-   "slug": "soustraction-mixte-meubles-9874",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "sudoku-illustre-facile-meubles-7908",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "furniture",
-   "level": "cp",
-   "deck": "soustraction-mixte-meubles-9874"
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-meubles-7908"
   },
   {
-   "slug": "soustraction-mixte-musique-6786",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "sudoku-illustre-facile-musique-544e",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "music",
-   "level": "cp",
-   "deck": "soustraction-mixte-musique-6786"
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-musique-544e"
   },
   {
-   "slug": "soustraction-mixte-noel-8e4f",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "sudoku-illustre-facile-noel-e1fa",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "christmas",
-   "level": "cp",
-   "deck": "soustraction-mixte-noel-8e4f"
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-noel-e1fa"
   },
   {
-   "slug": "soustraction-mixte-oiseaux-2-3d09",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "sudoku-illustre-facile-oiseaux-2-3792",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "birds_2",
-   "level": "cp",
-   "deck": "soustraction-mixte-oiseaux-2-3d09"
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-oiseaux-2-3792"
   },
   {
-   "slug": "soustraction-mixte-oiseaux-9eb7",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "sudoku-illustre-facile-oiseaux-8330",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "birds",
-   "level": "cp",
-   "deck": "soustraction-mixte-oiseaux-9eb7"
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-oiseaux-8330"
   },
   {
-   "slug": "soustraction-mixte-outils-95a1",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "sudoku-illustre-facile-outils-1ccf",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "tools",
-   "level": "cp",
-   "deck": "soustraction-mixte-outils-95a1"
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-outils-1ccf"
   },
   {
-   "slug": "soustraction-mixte-paques-c9ab",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "sudoku-illustre-facile-paques-91fc",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "easter",
-   "level": "cp",
-   "deck": "soustraction-mixte-paques-c9ab"
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-paques-91fc"
   },
   {
-   "slug": "soustraction-mixte-petit-dejeuner-8bdd",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "sudoku-illustre-facile-parties-du-corps-e4f3",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "body_parts",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-parties-du-corps-e4f3"
+  },
+  {
+   "slug": "sudoku-illustre-facile-petit-dejeuner-a44e",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "breakfast",
-   "level": "cp",
-   "deck": "soustraction-mixte-petit-dejeuner-8bdd"
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-petit-dejeuner-a44e"
   },
   {
-   "slug": "soustraction-mixte-plage-be3d",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "sudoku-illustre-facile-plage-a279",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "beach",
-   "level": "cp",
-   "deck": "soustraction-mixte-plage-be3d"
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-plage-a279"
   },
   {
-   "slug": "soustraction-mixte-reptiles-et-amphibiens-ec52",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "sudoku-illustre-facile-printemps-d067",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "spring",
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-printemps-d067"
+  },
+  {
+   "slug": "sudoku-illustre-facile-reptiles-et-amphibiens-8bd9",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "reptiles_and_amphibians",
-   "level": "cp",
-   "deck": "soustraction-mixte-reptiles-et-amphibiens-ec52"
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-reptiles-et-amphibiens-8bd9"
   },
   {
-   "slug": "soustraction-mixte-salle-de-classe-947d",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "sudoku-illustre-facile-salle-de-classe-34c3",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "classroom",
-   "level": "cp",
-   "deck": "soustraction-mixte-salle-de-classe-947d"
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-salle-de-classe-34c3"
   },
   {
-   "slug": "soustraction-mixte-ustensiles-de-cuisine-cd4a",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "sudoku-illustre-facile-ustensiles-de-cuisine-4f8f",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "kitchen_tools",
-   "level": "cp",
-   "deck": "soustraction-mixte-ustensiles-de-cuisine-cd4a"
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-ustensiles-de-cuisine-4f8f"
   },
   {
-   "slug": "soustraction-mixte-vehicules-57cc",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "sudoku-illustre-facile-vehicules-fc61",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "vehicles",
-   "level": "cp",
-   "deck": "soustraction-mixte-vehicules-57cc"
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-vehicules-fc61"
   },
   {
-   "slug": "soustraction-mixte-vetements-2c0f",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "sudoku-illustre-facile-vetements-243a",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "clothing",
-   "level": "cp",
-   "deck": "soustraction-mixte-vetements-2c0f"
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-vetements-243a"
   },
   {
-   "slug": "soustraction-mixte-vie-oceanique-f2d3",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "sudoku-illustre-facile-vie-oceanique-f2eb",
+   "type": "sudoku",
+   "mode": "easy",
    "theme": "ocean_life",
-   "level": "cp",
-   "deck": "soustraction-mixte-vie-oceanique-f2d3"
+   "level": "maternelle",
+   "deck": "sudoku-illustre-facile-vie-oceanique-f2eb"
   }
  ]
 }

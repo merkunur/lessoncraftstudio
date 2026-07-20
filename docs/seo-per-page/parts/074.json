@@ -1,584 +1,670 @@
 {
  "part": 74,
- "locale": "es",
+ "locale": "de",
  "classes": [
-  "math-puzzle::mixed"
+  "word-guess::normal",
+  "find-and-count::letter-spotting",
+  "arrays-multiplication::arrays-repeated-addition",
+  "arrays-multiplication::multiply-and-divide"
  ],
- "splitOf": {
-  "class": "math-puzzle::mixed",
-  "total": 142,
-  "chunk": 1,
-  "chunks": 2
- },
- "count": 71,
+ "splitOf": null,
+ "count": 82,
  "pages": [
   {
-   "slug": "rompecabezas-matematico-mixto-4-de-julio-108f",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "4th_of_july",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-4-de-julio-108f"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-4-de-julio-6de5",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "4th_of_july",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-4-de-julio-6de5"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-4-de-julio-f46c",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "4th_of_july",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-4-de-julio-f46c"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-accesorios-06b2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "wort-raten-normal-accessoires-874b",
+   "type": "word-guess",
+   "mode": "normal",
    "theme": "accessories",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-accesorios-06b2"
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-accessoires-874b"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-accesorios-3689",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "accessories",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-accesorios-3689"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-accesorios-c424",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "accessories",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-accesorios-c424"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-actividades-0805",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "wort-raten-normal-aktivitaten-f161",
+   "type": "word-guess",
+   "mode": "normal",
    "theme": "activities",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-actividades-0805"
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-aktivitaten-f161"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-actividades-3af9",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "activities",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-actividades-3af9"
+   "slug": "wort-raten-normal-backerei-c4fe",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "bakery",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-backerei-c4fe"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-actividades-e42d",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "activities",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-actividades-e42d"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-alrededor-de-la-casa-0254",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "around_the_house",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-alrededor-de-la-casa-0254"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-alrededor-de-la-casa-7906",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "around_the_house",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-alrededor-de-la-casa-7906"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-alrededor-de-la-casa-b571",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "around_the_house",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-alrededor-de-la-casa-b571"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-animales-350d",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "animals",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-animales-350d"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-animales-36bd",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "animals",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-animales-36bd"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-animales-7d10",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "animals",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-animales-7d10"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-animales-de-granja-37d7",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "wort-raten-normal-bauernhoftiere-226e",
+   "type": "word-guess",
+   "mode": "normal",
    "theme": "farm_animals",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-animales-de-granja-37d7"
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-bauernhoftiere-226e"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-animales-de-granja-75d6",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "farm_animals",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-animales-de-granja-75d6"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-animales-de-granja-8740",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "farm_animals",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-animales-de-granja-8740"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-animales-del-zoologico-5eb4",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "zoo_animals",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-animales-del-zoologico-5eb4"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-animales-del-zoologico-dec2",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "zoo_animals",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-animales-del-zoologico-dec2"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-animales-del-zoologico-deca",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "zoo_animals",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-animales-del-zoologico-deca"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-arboles-5d10",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "wort-raten-normal-baume-59a1",
+   "type": "word-guess",
+   "mode": "normal",
    "theme": "tree",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-arboles-5d10"
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-baume-59a1"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-arboles-a611",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "tree",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-arboles-a611"
+   "slug": "wort-raten-normal-berufe-1f22",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "occupations",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-berufe-1f22"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-arboles-c9f6",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "tree",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-arboles-c9f6"
+   "slug": "wort-raten-normal-blumen-799f",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "flowers",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-blumen-799f"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-aves-0a6e",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "birds",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-aves-0a6e"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-aves-2-a4eb",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "birds_2",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-aves-2-a4eb"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-aves-2-c6c0",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "birds_2",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-aves-2-c6c0"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-aves-2-f942",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "birds_2",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-aves-2-f942"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-aves-2db5",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "birds",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-aves-2db5"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-aves-3810",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "birds",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-aves-3810"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-campamento-677c",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "wort-raten-normal-camping-25b8",
+   "type": "word-guess",
+   "mode": "normal",
    "theme": "camping",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-campamento-677c"
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-camping-25b8"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-campamento-8ce6",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "camping",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-campamento-8ce6"
+   "slug": "wort-raten-normal-desserts-und-sussigkeiten-d5b8",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "desserts_and_sweets",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-desserts-und-sussigkeiten-d5b8"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-campamento-c420",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "camping",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-campamento-c420"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-clima-9818",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "weather",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-clima-9818"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-clima-a656",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "weather",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-clima-a656"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-clima-f356",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "weather",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-clima-f356"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-cosas-que-vuelan-544d",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "wort-raten-normal-dinge-die-fliegen-c09e",
+   "type": "word-guess",
+   "mode": "normal",
    "theme": "things_that_fly",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-cosas-que-vuelan-544d"
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-dinge-die-fliegen-c09e"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-cosas-que-vuelan-8e27",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "things_that_fly",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-cosas-que-vuelan-8e27"
+   "slug": "wort-raten-normal-emotionen-4932",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "emotions",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-emotionen-4932"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-cosas-que-vuelan-a367",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "things_that_fly",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-cosas-que-vuelan-a367"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-criaturas-del-bosque-78dc",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "forest_creatures",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-criaturas-del-bosque-78dc"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-criaturas-del-bosque-b0ad",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "forest_creatures",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-criaturas-del-bosque-b0ad"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-criaturas-del-bosque-de97",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "forest_creatures",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-criaturas-del-bosque-de97"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-desayuno-96de",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "breakfast",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-desayuno-96de"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-desayuno-c0b4",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "breakfast",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-desayuno-c0b4"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-dia-de-accion-de-gracias-7fff",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "wort-raten-normal-erntedankfest-da05",
+   "type": "word-guess",
+   "mode": "normal",
    "theme": "thanksgivinng",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-dia-de-accion-de-gracias-7fff"
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-erntedankfest-da05"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-dinosaurios-171f",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "dinosaurs",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-dinosaurios-171f"
+   "slug": "wort-raten-normal-fahrzeuge-0f17",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "vehicles",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-fahrzeuge-0f17"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-dinosaurios-2200",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "dinosaurs",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-dinosaurios-2200"
+   "slug": "wort-raten-normal-farben-2200",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "colors",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-farben-2200"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-dinosaurios-777e",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "dinosaurs",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-dinosaurios-777e"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-emociones-1423",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "emotions",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-emociones-1423"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-emociones-53c7",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "emotions",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-emociones-53c7"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-emociones-76ca",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "emotions",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-emociones-76ca"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-en-el-supermercado-7730",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "at_the_supermarket",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-en-el-supermercado-7730"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-en-el-supermercado-b374",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "at_the_supermarket",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-en-el-supermercado-b374"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-en-el-supermercado-c382",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "at_the_supermarket",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-en-el-supermercado-c382"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-espacio-2ba3",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "space",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-espacio-2ba3"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-espacio-68e4",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "space",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-espacio-68e4"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-espacio-d8e7",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "space",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-espacio-d8e7"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-flores-1c8f",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "flowers",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-flores-1c8f"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-flores-5e00",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "flowers",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-flores-5e00"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-flores-f0cd",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "flowers",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-flores-f0cd"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-formas-6a58",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "wort-raten-normal-formen-00bc",
+   "type": "word-guess",
+   "mode": "normal",
    "theme": "shapes",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-formas-6a58"
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-formen-00bc"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-formas-856f",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "shapes",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-formas-856f"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-formas-91bf",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "shapes",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-formas-91bf"
-  },
-  {
-   "slug": "rompecabezas-matematico-mixto-frutas-27bf",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "wort-raten-normal-fruchte-0fb6",
+   "type": "word-guess",
+   "mode": "normal",
    "theme": "fruits",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-frutas-27bf"
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-fruchte-0fb6"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-frutas-ab9a",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "fruits",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-frutas-ab9a"
+   "slug": "wort-raten-normal-fruhling-483f",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "spring",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-fruhling-483f"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-frutas-e060",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "fruits",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-frutas-e060"
+   "slug": "wort-raten-normal-fruhstuck-ebaf",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "breakfast",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-fruhstuck-ebaf"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-herramientas-7823",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "tools",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-herramientas-7823"
+   "slug": "wort-raten-normal-gemuse-f059",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "vegetables",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-gemuse-f059"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-herramientas-800f",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "tools",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-herramientas-800f"
+   "slug": "wort-raten-normal-haustiere-bf0a",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "pets",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-haustiere-bf0a"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-herramientas-83ea",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "tools",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-herramientas-83ea"
+   "slug": "wort-raten-normal-im-supermarkt-880e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "at_the_supermarket",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-im-supermarkt-880e"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-hospital-1a67",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "wort-raten-normal-insekten-und-kafer-58ff",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "insects_and_bugs",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-insekten-und-kafer-58ff"
+  },
+  {
+   "slug": "wort-raten-normal-klassenzimmer-ab55",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "classroom",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-klassenzimmer-ab55"
+  },
+  {
+   "slug": "wort-raten-normal-kleidung-df5c",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "clothing",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-kleidung-df5c"
+  },
+  {
+   "slug": "wort-raten-normal-korperteile-5d9f",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "body_parts",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-korperteile-5d9f"
+  },
+  {
+   "slug": "wort-raten-normal-krankenhaus-9237",
+   "type": "word-guess",
+   "mode": "normal",
    "theme": "hospital",
-   "level": "segundo-grado",
-   "deck": "rompecabezas-matematico-mixto-hospital-1a67"
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-krankenhaus-9237"
   },
   {
-   "slug": "rompecabezas-matematico-mixto-hospital-2753",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "wort-raten-normal-kuchenwerkzeuge-7491",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "kitchen_tools",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-kuchenwerkzeuge-7491"
+  },
+  {
+   "slug": "wort-raten-normal-meeresleben-d899",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "ocean_life",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-meeresleben-d899"
+  },
+  {
+   "slug": "wort-raten-normal-mobel-f9f4",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "furniture",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-mobel-f9f4"
+  },
+  {
+   "slug": "wort-raten-normal-musik-cc9a",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "music",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-musik-cc9a"
+  },
+  {
+   "slug": "wort-raten-normal-ostern-312e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "easter",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-ostern-312e"
+  },
+  {
+   "slug": "wort-raten-normal-postamt-ece9",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "post_office",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-postamt-ece9"
+  },
+  {
+   "slug": "wort-raten-normal-reptilien-und-amphibien-6a5e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "reptiles_and_amphibians",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-reptilien-und-amphibien-6a5e"
+  },
+  {
+   "slug": "wort-raten-normal-rund-ums-haus-a5d0",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "around_the_house",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-rund-ums-haus-a5d0"
+  },
+  {
+   "slug": "wort-raten-normal-sommer-3f8b",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "summer",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-sommer-3f8b"
+  },
+  {
+   "slug": "wort-raten-normal-spielzeug-9070",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "toys",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-spielzeug-9070"
+  },
+  {
+   "slug": "wort-raten-normal-strand-396e",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "beach",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-strand-396e"
+  },
+  {
+   "slug": "wort-raten-normal-tiere-99d4",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "animals",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-tiere-99d4"
+  },
+  {
+   "slug": "wort-raten-normal-vogel-2-823f",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-vogel-2-823f"
+  },
+  {
+   "slug": "wort-raten-normal-vogel-7e25",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "birds",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-vogel-7e25"
+  },
+  {
+   "slug": "wort-raten-normal-waldtiere-426f",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "forest_creatures",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-waldtiere-426f"
+  },
+  {
+   "slug": "wort-raten-normal-weihnachten-acb4",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "christmas",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-weihnachten-acb4"
+  },
+  {
+   "slug": "wort-raten-normal-weltraum-1798",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "space",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-weltraum-1798"
+  },
+  {
+   "slug": "wort-raten-normal-werkzeuge-965f",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "tools",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-werkzeuge-965f"
+  },
+  {
+   "slug": "wort-raten-normal-wetter-7cc5",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "weather",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-wetter-7cc5"
+  },
+  {
+   "slug": "wort-raten-normal-winter-5a00",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "winter",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-winter-5a00"
+  },
+  {
+   "slug": "wort-raten-normal-zootiere-bae5",
+   "type": "word-guess",
+   "mode": "normal",
+   "theme": "zoo_animals",
+   "level": "1-klasse",
+   "deck": "wort-raten-normal-zootiere-bae5"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-aktivitaten-51d6",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "activities",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-aktivitaten-51d6"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-backerei-056c",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "bakery",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-backerei-056c"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-bauernhoftiere-01fc",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "farm_animals",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-bauernhoftiere-01fc"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-berufe-3e6b",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "occupations",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-berufe-3e6b"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-camping-068f",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "camping",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-camping-068f"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-desserts-und-sussigkeiten-d0ba",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "desserts_and_sweets",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-desserts-und-sussigkeiten-d0ba"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-dinge-die-fliegen-5deb",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "things_that_fly",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-dinge-die-fliegen-5deb"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-erntedankfest-d4ae",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "thanksgivinng",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-erntedankfest-d4ae"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-fahrzeuge-b444",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "vehicles",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-fahrzeuge-b444"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-fruchte-513d",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "fruits",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-fruchte-513d"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-fruhstuck-04c8",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "breakfast",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-fruhstuck-04c8"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-gemuse-9ee2",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "vegetables",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-gemuse-9ee2"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-haustiere-12da",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "pets",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-haustiere-12da"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-im-supermarkt-24fe",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "at_the_supermarket",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-im-supermarkt-24fe"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-klassenzimmer-6b2b",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "classroom",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-klassenzimmer-6b2b"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-kleidung-1d54",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "clothing",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-kleidung-1d54"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-korperteile-9fc1",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "body_parts",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-korperteile-9fc1"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-krankenhaus-9908",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
    "theme": "hospital",
-   "level": "primer-grado",
-   "deck": "rompecabezas-matematico-mixto-hospital-2753"
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-krankenhaus-9908"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-kuchenwerkzeuge-b412",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "kitchen_tools",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-kuchenwerkzeuge-b412"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-meeresleben-52ca",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "ocean_life",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-meeresleben-52ca"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-mobel-bd02",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "furniture",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-mobel-bd02"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-musik-6b06",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "music",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-musik-6b06"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-ostern-564d",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "easter",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-ostern-564d"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-postamt-8552",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "post_office",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-postamt-8552"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-rund-ums-haus-3fbf",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "around_the_house",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-rund-ums-haus-3fbf"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-spielzeug-2dc3",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "toys",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-spielzeug-2dc3"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-strand-1657",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "beach",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-strand-1657"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-tiere",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "animals",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-tiere"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-vogel-2-1d0f",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "birds_2",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-vogel-2-1d0f"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-waldtiere-6e6d",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-waldtiere-6e6d"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-weltraum-754b",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "space",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-weltraum-754b"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-werkzeuge-5fa6",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "tools",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-werkzeuge-5fa6"
+  },
+  {
+   "slug": "suchen-und-zaehlen-buchstaben-suchen-zootiere-1bb9",
+   "type": "find-and-count",
+   "mode": "letter-spotting",
+   "theme": "zoo_animals",
+   "level": "vorschule",
+   "deck": "suchen-und-zaehlen-buchstaben-suchen-zootiere-1bb9"
+  },
+  {
+   "slug": "malfeld-einmaleins-klasse-2",
+   "type": "arrays-multiplication",
+   "mode": "arrays-repeated-addition",
+   "theme": "",
+   "level": "2-klasse",
+   "deck": "einmaleins-tiere-g2209"
+  },
+  {
+   "slug": "einmaleins-malnehmen-teilen-klasse-3",
+   "type": "arrays-multiplication",
+   "mode": "multiply-and-divide",
+   "theme": "",
+   "level": "3-klasse",
+   "deck": "einmaleins-g3313"
   }
  ]
 }

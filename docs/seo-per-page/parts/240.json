@@ -2,763 +2,623 @@
  "part": 240,
  "locale": "sv",
  "classes": [
-  "word-guess::normal",
-  "word-scramble::easy"
+  "picture-sort::null"
  ],
- "splitOf": null,
- "count": 94,
+ "splitOf": {
+  "class": "picture-sort::null",
+  "total": 151,
+  "chunk": 1,
+  "chunks": 2
+ },
+ "count": 76,
  "pages": [
   {
-   "slug": "gissa-ordet-normal-aktiviteter-cb16",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "activities",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-aktiviteter-cb16"
-  },
-  {
-   "slug": "gissa-ordet-normal-bageri-8a09",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "bakery",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-bageri-8a09"
-  },
-  {
-   "slug": "gissa-ordet-normal-blommor-3e66",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "flowers",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-blommor-3e66"
-  },
-  {
-   "slug": "gissa-ordet-normal-bondgardsdjur-7626",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "farm_animals",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-bondgardsdjur-7626"
-  },
-  {
-   "slug": "gissa-ordet-normal-camping-838d",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "camping",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-camping-838d"
-  },
-  {
-   "slug": "gissa-ordet-normal-djur-8d1d",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "animals",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-djur-8d1d"
-  },
-  {
-   "slug": "gissa-ordet-normal-djurparksdjur-db3d",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "zoo_animals",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-djurparksdjur-db3d"
-  },
-  {
-   "slug": "gissa-ordet-normal-efterratter-och-godis-570d",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "desserts_and_sweets",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-efterratter-och-godis-570d"
-  },
-  {
-   "slug": "gissa-ordet-normal-faglar-1e2c",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "birds",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-faglar-1e2c"
-  },
-  {
-   "slug": "gissa-ordet-normal-faglar-2-f309",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "birds_2",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-faglar-2-f309"
-  },
-  {
-   "slug": "gissa-ordet-normal-farger-3854",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "colors",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-farger-3854"
-  },
-  {
-   "slug": "gissa-ordet-normal-fordon-743c",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "vehicles",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-fordon-743c"
-  },
-  {
-   "slug": "gissa-ordet-normal-former-64a8",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "shapes",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-former-64a8"
+   "slug": "sortera-bilder-4th-of-july-vs-animals-d3ba",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "4th_of_july-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-4th-of-july-vs-animals-d3ba"
+  },
+  {
+   "slug": "sortera-bilder-4th-of-july-vs-tree-5f9d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "4th_of_july-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-4th-of-july-vs-tree-5f9d"
+  },
+  {
+   "slug": "sortera-bilder-accessories-vs-animals-e2c6",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-accessories-vs-animals-e2c6"
+  },
+  {
+   "slug": "sortera-bilder-accessories-vs-flowers-cf10",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-accessories-vs-flowers-cf10"
+  },
+  {
+   "slug": "sortera-bilder-accessories-vs-tree-563c",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-accessories-vs-tree-563c"
+  },
+  {
+   "slug": "sortera-bilder-activities-vs-animals-8cb5",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "activities-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-activities-vs-animals-8cb5"
+  },
+  {
+   "slug": "sortera-bilder-activities-vs-flowers-974c",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "activities-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-activities-vs-flowers-974c"
+  },
+  {
+   "slug": "sortera-bilder-activities-vs-tree-700e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "activities-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-activities-vs-tree-700e"
+  },
+  {
+   "slug": "sortera-bilder-animals-vs-flowers-4c83",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-animals-vs-flowers-4c83"
+  },
+  {
+   "slug": "sortera-bilder-animals-vs-tree-ea5b",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-animals-vs-tree-ea5b"
+  },
+  {
+   "slug": "sortera-bilder-around-the-house-vs-animals-7cd7",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "around_the_house-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-around-the-house-vs-animals-7cd7"
+  },
+  {
+   "slug": "sortera-bilder-around-the-house-vs-flowers-b981",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "around_the_house-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-around-the-house-vs-flowers-b981"
+  },
+  {
+   "slug": "sortera-bilder-around-the-house-vs-tree-fc8a",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "around_the_house-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-around-the-house-vs-tree-fc8a"
   },
   {
-   "slug": "gissa-ordet-normal-frukost-c4ef",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "breakfast",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-frukost-c4ef"
+   "slug": "sortera-bilder-at-the-supermarket-vs-animals-a868",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-at-the-supermarket-vs-animals-a868"
   },
   {
-   "slug": "gissa-ordet-normal-frukter-2d73",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "fruits",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-frukter-2d73"
+   "slug": "sortera-bilder-at-the-supermarket-vs-flowers-8699",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-at-the-supermarket-vs-flowers-8699"
   },
   {
-   "slug": "gissa-ordet-normal-gronsaker-cd29",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "vegetables",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-gronsaker-cd29"
+   "slug": "sortera-bilder-at-the-supermarket-vs-tree-03f7",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "at_the_supermarket-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-at-the-supermarket-vs-tree-03f7"
   },
   {
-   "slug": "gissa-ordet-normal-havsliv-9e6d",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "ocean_life",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-havsliv-9e6d"
+   "slug": "sortera-bilder-bakery-vs-4th-of-july-2e45",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-4th_of_july",
+   "level": "forskola",
+   "deck": "sortera-bilder-bakery-vs-4th-of-july-2e45"
   },
   {
-   "slug": "gissa-ordet-normal-husdjur-1f6b",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "pets",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-husdjur-1f6b"
+   "slug": "sortera-bilder-bakery-vs-activities-1b86",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-activities",
+   "level": "forskola",
+   "deck": "sortera-bilder-bakery-vs-activities-1b86"
   },
   {
-   "slug": "gissa-ordet-normal-i-snabbkopet-0644",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "at_the_supermarket",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-i-snabbkopet-0644"
+   "slug": "sortera-bilder-bakery-vs-animals-df48",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-bakery-vs-animals-df48"
   },
   {
-   "slug": "gissa-ordet-normal-insekter-och-kryp-2117",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "insects_and_bugs",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-insekter-och-kryp-2117"
+   "slug": "sortera-bilder-bakery-vs-birds-2-1fd2",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-birds_2",
+   "level": "forskola",
+   "deck": "sortera-bilder-bakery-vs-birds-2-1fd2"
   },
   {
-   "slug": "gissa-ordet-normal-jul-63d9",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "christmas",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-jul-63d9"
+   "slug": "sortera-bilder-bakery-vs-birds-4e8e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-birds",
+   "level": "forskola",
+   "deck": "sortera-bilder-bakery-vs-birds-4e8e"
   },
   {
-   "slug": "gissa-ordet-normal-kanslor-c058",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "emotions",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-kanslor-c058"
+   "slug": "sortera-bilder-bakery-vs-body-parts-2950",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-body_parts",
+   "level": "forskola",
+   "deck": "sortera-bilder-bakery-vs-body-parts-2950"
   },
   {
-   "slug": "gissa-ordet-normal-klader-3db1",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "clothing",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-klader-3db1"
+   "slug": "sortera-bilder-bakery-vs-breakfast-30f0",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-breakfast",
+   "level": "forskola",
+   "deck": "sortera-bilder-bakery-vs-breakfast-30f0"
   },
   {
-   "slug": "gissa-ordet-normal-klassrum-87c0",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "classroom",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-klassrum-87c0"
+   "slug": "sortera-bilder-bakery-vs-camping-f46e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-camping",
+   "level": "forskola",
+   "deck": "sortera-bilder-bakery-vs-camping-f46e"
   },
   {
-   "slug": "gissa-ordet-normal-koksredskap-1f73",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "kitchen_tools",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-koksredskap-1f73"
+   "slug": "sortera-bilder-bakery-vs-christmas-025d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-christmas",
+   "level": "forskola",
+   "deck": "sortera-bilder-bakery-vs-christmas-025d"
   },
   {
-   "slug": "gissa-ordet-normal-kroppsdelar-c45c",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "body_parts",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-kroppsdelar-c45c"
+   "slug": "sortera-bilder-bakery-vs-classroom-2bd4",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-classroom",
+   "level": "forskola",
+   "deck": "sortera-bilder-bakery-vs-classroom-2bd4"
   },
   {
-   "slug": "gissa-ordet-normal-leksaker-9467",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "toys",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-leksaker-9467"
+   "slug": "sortera-bilder-bakery-vs-clothing-1e26",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-clothing",
+   "level": "forskola",
+   "deck": "sortera-bilder-bakery-vs-clothing-1e26"
   },
   {
-   "slug": "gissa-ordet-normal-mobler-f6ed",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "furniture",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-mobler-f6ed"
+   "slug": "sortera-bilder-bakery-vs-colors-d5a7",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-colors",
+   "level": "forskola",
+   "deck": "sortera-bilder-bakery-vs-colors-d5a7"
   },
   {
-   "slug": "gissa-ordet-normal-musik-7eae",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "music",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-musik-7eae"
+   "slug": "sortera-bilder-bakery-vs-dinosaurs-1de9",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-dinosaurs",
+   "level": "forskola",
+   "deck": "sortera-bilder-bakery-vs-dinosaurs-1de9"
   },
   {
-   "slug": "gissa-ordet-normal-pask-6ee1",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "easter",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-pask-6ee1"
+   "slug": "sortera-bilder-bakery-vs-emotions-3f64",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-emotions",
+   "level": "forskola",
+   "deck": "sortera-bilder-bakery-vs-emotions-3f64"
   },
   {
-   "slug": "gissa-ordet-normal-postkontor-7585",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "post_office",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-postkontor-7585"
+   "slug": "sortera-bilder-bakery-vs-farm-animals-ee7a",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-farm_animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-bakery-vs-farm-animals-ee7a"
   },
   {
-   "slug": "gissa-ordet-normal-reptiler-och-groddjur-0854",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "reptiles_and_amphibians",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-reptiler-och-groddjur-0854"
+   "slug": "sortera-bilder-bakery-vs-flowers-35d0",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-bakery-vs-flowers-35d0"
   },
   {
-   "slug": "gissa-ordet-normal-runt-huset-aa33",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "around_the_house",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-runt-huset-aa33"
+   "slug": "sortera-bilder-bakery-vs-fruits-4580",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-fruits",
+   "level": "forskola",
+   "deck": "sortera-bilder-bakery-vs-fruits-4580"
   },
   {
-   "slug": "gissa-ordet-normal-rymden-be8d",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "space",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-rymden-be8d"
+   "slug": "sortera-bilder-bakery-vs-furniture-3f12",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-furniture",
+   "level": "forskola",
+   "deck": "sortera-bilder-bakery-vs-furniture-3f12"
   },
   {
-   "slug": "gissa-ordet-normal-saker-som-flyger-48e2",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "things_that_fly",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-saker-som-flyger-48e2"
+   "slug": "sortera-bilder-bakery-vs-kitchen-tools-eb15",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-kitchen_tools",
+   "level": "forskola",
+   "deck": "sortera-bilder-bakery-vs-kitchen-tools-eb15"
   },
   {
-   "slug": "gissa-ordet-normal-sjukhus-a6b0",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "hospital",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-sjukhus-a6b0"
+   "slug": "sortera-bilder-bakery-vs-music-95b3",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-music",
+   "level": "forskola",
+   "deck": "sortera-bilder-bakery-vs-music-95b3"
   },
   {
-   "slug": "gissa-ordet-normal-skogsdjur-9fe2",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "forest_creatures",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-skogsdjur-9fe2"
+   "slug": "sortera-bilder-bakery-vs-ocean-life-31c8",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-ocean_life",
+   "level": "forskola",
+   "deck": "sortera-bilder-bakery-vs-ocean-life-31c8"
   },
   {
-   "slug": "gissa-ordet-normal-sommar-4428",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "summer",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-sommar-4428"
+   "slug": "sortera-bilder-bakery-vs-pets-5bfb",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-pets",
+   "level": "forskola",
+   "deck": "sortera-bilder-bakery-vs-pets-5bfb"
   },
   {
-   "slug": "gissa-ordet-normal-strand-c1fc",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "beach",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-strand-c1fc"
+   "slug": "sortera-bilder-bakery-vs-post-office-c921",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-post_office",
+   "level": "forskola",
+   "deck": "sortera-bilder-bakery-vs-post-office-c921"
   },
   {
-   "slug": "gissa-ordet-normal-thanksgiving-ec24",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "thanksgivinng",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-thanksgiving-ec24"
+   "slug": "sortera-bilder-bakery-vs-shapes-f357",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-shapes",
+   "level": "forskola",
+   "deck": "sortera-bilder-bakery-vs-shapes-f357"
   },
   {
-   "slug": "gissa-ordet-normal-tillbehor-37f0",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "accessories",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-tillbehor-37f0"
+   "slug": "sortera-bilder-bakery-vs-toys-bbd8",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-toys",
+   "level": "forskola",
+   "deck": "sortera-bilder-bakery-vs-toys-bbd8"
   },
   {
-   "slug": "gissa-ordet-normal-trad-1454",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "tree",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-trad-1454"
+   "slug": "sortera-bilder-bakery-vs-tree-3eb7",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-bakery-vs-tree-3eb7"
   },
   {
-   "slug": "gissa-ordet-normal-vader-1170",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "weather",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-vader-1170"
+   "slug": "sortera-bilder-bakery-vs-vegetables-06d9",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-vegetables",
+   "level": "forskola",
+   "deck": "sortera-bilder-bakery-vs-vegetables-06d9"
   },
   {
-   "slug": "gissa-ordet-normal-var-d06e",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "spring",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-var-d06e"
+   "slug": "sortera-bilder-bakery-vs-vehicles-2964",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-vehicles",
+   "level": "forskola",
+   "deck": "sortera-bilder-bakery-vs-vehicles-2964"
   },
   {
-   "slug": "gissa-ordet-normal-verktyg-0cfb",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "tools",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-verktyg-0cfb"
+   "slug": "sortera-bilder-bakery-vs-zoo-animals-ee80",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "bakery-vs-zoo_animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-bakery-vs-zoo-animals-ee80"
   },
   {
-   "slug": "gissa-ordet-normal-vinter-4577",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "winter",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-vinter-4577"
+   "slug": "sortera-bilder-beach-vs-flowers-c7d3",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "beach-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-beach-vs-flowers-c7d3"
   },
   {
-   "slug": "gissa-ordet-normal-yrken-e15b",
-   "type": "word-guess",
-   "mode": "normal",
-   "theme": "occupations",
-   "level": "ak-1",
-   "deck": "gissa-ordet-normal-yrken-e15b"
+   "slug": "sortera-bilder-beach-vs-tree-f548",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "beach-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-beach-vs-tree-f548"
   },
   {
-   "slug": "bokstavspussel-latt-aktiviteter-aef2",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "activities",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-aktiviteter-aef2"
+   "slug": "sortera-bilder-birds-2-vs-flowers-09e5",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "birds_2-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-birds-2-vs-flowers-09e5"
   },
   {
-   "slug": "bokstavspussel-latt-bageri-4e27",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "bakery",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-bageri-4e27"
+   "slug": "sortera-bilder-birds-2-vs-tree-291d",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "birds_2-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-birds-2-vs-tree-291d"
   },
   {
-   "slug": "bokstavspussel-latt-blommor-048d",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "flowers",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-blommor-048d"
+   "slug": "sortera-bilder-birds-vs-tree-8c83",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "birds-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-birds-vs-tree-8c83"
   },
   {
-   "slug": "bokstavspussel-latt-bondgardsdjur-4cac",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "farm_animals",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-bondgardsdjur-4cac"
+   "slug": "sortera-bilder-body-parts-vs-animals-3802",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "body_parts-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-body-parts-vs-animals-3802"
   },
   {
-   "slug": "bokstavspussel-latt-camping-bf9e",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "camping",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-camping-bf9e"
+   "slug": "sortera-bilder-body-parts-vs-flowers-3902",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "body_parts-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-body-parts-vs-flowers-3902"
   },
   {
-   "slug": "bokstavspussel-latt-djur-36b3",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "animals",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-djur-36b3"
+   "slug": "sortera-bilder-body-parts-vs-tree-2add",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "body_parts-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-body-parts-vs-tree-2add"
   },
   {
-   "slug": "bokstavspussel-latt-djurparksdjur-cf90",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "zoo_animals",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-djurparksdjur-cf90"
+   "slug": "sortera-bilder-breakfast-vs-animals-88de",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "breakfast-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-breakfast-vs-animals-88de"
   },
   {
-   "slug": "bokstavspussel-latt-efterratter-och-godis-10ff",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "desserts_and_sweets",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-efterratter-och-godis-10ff"
+   "slug": "sortera-bilder-breakfast-vs-flowers-61ea",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "breakfast-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-breakfast-vs-flowers-61ea"
   },
   {
-   "slug": "bokstavspussel-latt-faglar-2-de3e",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "birds_2",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-faglar-2-de3e"
+   "slug": "sortera-bilder-breakfast-vs-tree-ca60",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "breakfast-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-breakfast-vs-tree-ca60"
   },
   {
-   "slug": "bokstavspussel-latt-faglar-e31b",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "birds",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-faglar-e31b"
+   "slug": "sortera-bilder-camping-vs-flowers-d679",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-camping-vs-flowers-d679"
   },
   {
-   "slug": "bokstavspussel-latt-farger-a15c",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "colors",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-farger-a15c"
+   "slug": "sortera-bilder-camping-vs-tree-f6a8",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "camping-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-camping-vs-tree-f6a8"
   },
   {
-   "slug": "bokstavspussel-latt-fordon-7655",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "vehicles",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-fordon-7655"
+   "slug": "sortera-bilder-christmas-vs-animals-04f4",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "christmas-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-christmas-vs-animals-04f4"
   },
   {
-   "slug": "bokstavspussel-latt-former-2b4a",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "shapes",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-former-2b4a"
+   "slug": "sortera-bilder-christmas-vs-flowers-8cb2",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "christmas-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-christmas-vs-flowers-8cb2"
   },
   {
-   "slug": "bokstavspussel-latt-frukost-637b",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "breakfast",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-frukost-637b"
+   "slug": "sortera-bilder-christmas-vs-tree-6163",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "christmas-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-christmas-vs-tree-6163"
   },
   {
-   "slug": "bokstavspussel-latt-frukter-4ba5",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "fruits",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-frukter-4ba5"
+   "slug": "sortera-bilder-classroom-vs-animals-b533",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "classroom-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-classroom-vs-animals-b533"
   },
   {
-   "slug": "bokstavspussel-latt-gronsaker-ebbc",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "vegetables",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-gronsaker-ebbc"
+   "slug": "sortera-bilder-classroom-vs-flowers-9bb5",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "classroom-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-classroom-vs-flowers-9bb5"
   },
   {
-   "slug": "bokstavspussel-latt-havsliv-5759",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "ocean_life",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-havsliv-5759"
-  },
-  {
-   "slug": "bokstavspussel-latt-husdjur-edb7",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "pets",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-husdjur-edb7"
-  },
-  {
-   "slug": "bokstavspussel-latt-i-snabbkopet-f925",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "at_the_supermarket",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-i-snabbkopet-f925"
-  },
-  {
-   "slug": "bokstavspussel-latt-insekter-och-kryp-a0a1",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "insects_and_bugs",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-insekter-och-kryp-a0a1"
-  },
-  {
-   "slug": "bokstavspussel-latt-jul-af81",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "christmas",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-jul-af81"
-  },
-  {
-   "slug": "bokstavspussel-latt-kanslor-c4db",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "emotions",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-kanslor-c4db"
-  },
-  {
-   "slug": "bokstavspussel-latt-klader-9ae7",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "clothing",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-klader-9ae7"
-  },
-  {
-   "slug": "bokstavspussel-latt-klassrum-aea4",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "classroom",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-klassrum-aea4"
-  },
-  {
-   "slug": "bokstavspussel-latt-koksredskap-812a",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "kitchen_tools",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-koksredskap-812a"
-  },
-  {
-   "slug": "bokstavspussel-latt-kroppsdelar-714d",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "body_parts",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-kroppsdelar-714d"
-  },
-  {
-   "slug": "bokstavspussel-latt-leksaker-fb41",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "toys",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-leksaker-fb41"
-  },
-  {
-   "slug": "bokstavspussel-latt-mobler-b54a",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "furniture",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-mobler-b54a"
-  },
-  {
-   "slug": "bokstavspussel-latt-musik-98b8",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "music",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-musik-98b8"
-  },
-  {
-   "slug": "bokstavspussel-latt-pask-8391",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "easter",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-pask-8391"
-  },
-  {
-   "slug": "bokstavspussel-latt-postkontor-1b1d",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "post_office",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-postkontor-1b1d"
-  },
-  {
-   "slug": "bokstavspussel-latt-reptiler-och-groddjur-e59a",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "reptiles_and_amphibians",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-reptiler-och-groddjur-e59a"
-  },
-  {
-   "slug": "bokstavspussel-latt-runt-huset-d114",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "around_the_house",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-runt-huset-d114"
-  },
-  {
-   "slug": "bokstavspussel-latt-rymden-5832",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "space",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-rymden-5832"
-  },
-  {
-   "slug": "bokstavspussel-latt-saker-som-flyger-e872",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "things_that_fly",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-saker-som-flyger-e872"
-  },
-  {
-   "slug": "bokstavspussel-latt-sjukhus-fc76",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "hospital",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-sjukhus-fc76"
-  },
-  {
-   "slug": "bokstavspussel-latt-skogsdjur-d209",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "forest_creatures",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-skogsdjur-d209"
-  },
-  {
-   "slug": "bokstavspussel-latt-sommar-89ab",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "summer",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-sommar-89ab"
-  },
-  {
-   "slug": "bokstavspussel-latt-strand-4d75",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "beach",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-strand-4d75"
-  },
-  {
-   "slug": "bokstavspussel-latt-thanksgiving-0d4f",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "thanksgivinng",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-thanksgiving-0d4f"
-  },
-  {
-   "slug": "bokstavspussel-latt-tillbehor-22ab",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "accessories",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-tillbehor-22ab"
-  },
-  {
-   "slug": "bokstavspussel-latt-trad-4d32",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "tree",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-trad-4d32"
-  },
-  {
-   "slug": "bokstavspussel-latt-vader-2d3f",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "weather",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-vader-2d3f"
-  },
-  {
-   "slug": "bokstavspussel-latt-var-92aa",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "spring",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-var-92aa"
-  },
-  {
-   "slug": "bokstavspussel-latt-verktyg-f1ab",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "tools",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-verktyg-f1ab"
-  },
-  {
-   "slug": "bokstavspussel-latt-vinter-feb4",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "winter",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-vinter-feb4"
-  },
-  {
-   "slug": "bokstavspussel-latt-yrken-c0f4",
-   "type": "word-scramble",
-   "mode": "easy",
-   "theme": "occupations",
-   "level": "ak-1",
-   "deck": "bokstavspussel-latt-yrken-c0f4"
+   "slug": "sortera-bilder-classroom-vs-tree-13c9",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "classroom-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-classroom-vs-tree-13c9"
+  },
+  {
+   "slug": "sortera-bilder-clothing-vs-animals-0b36",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "clothing-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-clothing-vs-animals-0b36"
+  },
+  {
+   "slug": "sortera-bilder-clothing-vs-flowers-77b3",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "clothing-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-clothing-vs-flowers-77b3"
+  },
+  {
+   "slug": "sortera-bilder-clothing-vs-tree-f86e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "clothing-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-clothing-vs-tree-f86e"
+  },
+  {
+   "slug": "sortera-bilder-colors-vs-animals-c4a5",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "colors-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-colors-vs-animals-c4a5"
+  },
+  {
+   "slug": "sortera-bilder-colors-vs-flowers-cf78",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "colors-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-colors-vs-flowers-cf78"
+  },
+  {
+   "slug": "sortera-bilder-colors-vs-tree-0e9f",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "colors-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-colors-vs-tree-0e9f"
+  },
+  {
+   "slug": "sortera-bilder-desserts-and-sweets-vs-animals-dd7e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "desserts_and_sweets-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-desserts-and-sweets-vs-animals-dd7e"
+  },
+  {
+   "slug": "sortera-bilder-desserts-and-sweets-vs-flowers-d751",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "desserts_and_sweets-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-desserts-and-sweets-vs-flowers-d751"
+  },
+  {
+   "slug": "sortera-bilder-desserts-and-sweets-vs-tree-4779",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "desserts_and_sweets-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-desserts-and-sweets-vs-tree-4779"
+  },
+  {
+   "slug": "sortera-bilder-dinosaurs-vs-animals-f206",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "dinosaurs-vs-animals",
+   "level": "forskola",
+   "deck": "sortera-bilder-dinosaurs-vs-animals-f206"
+  },
+  {
+   "slug": "sortera-bilder-dinosaurs-vs-flowers-2c03",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "dinosaurs-vs-flowers",
+   "level": "forskola",
+   "deck": "sortera-bilder-dinosaurs-vs-flowers-2c03"
+  },
+  {
+   "slug": "sortera-bilder-dinosaurs-vs-tree-d589",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "dinosaurs-vs-tree",
+   "level": "forskola",
+   "deck": "sortera-bilder-dinosaurs-vs-tree-d589"
   }
  ]
 }

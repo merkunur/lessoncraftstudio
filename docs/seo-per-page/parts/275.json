@@ -2,739 +2,651 @@
  "part": 275,
  "locale": "da",
  "classes": [
-  "odd-one-out::same-theme",
-  "find-and-count::hidden-object"
+  "more-less::check-cross",
+  "more-less::image-image"
  ],
  "splitOf": null,
- "count": 91,
+ "count": 80,
  "pages": [
   {
-   "slug": "hvilken-passer-ikke-samme-tema-aktiviteter-22a3",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "activities",
-   "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-aktiviteter-22a3"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-bageri-0c2e",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-bageri-3fe1",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "bakery",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-bageri-0c2e"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-bageri-3fe1"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-blomster-c3a7",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-blomster-1cd2",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "flowers",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-blomster-c3a7"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-blomster-1cd2"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-bondegardsdyr-28ef",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-bondegardsdyr-9da4",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "farm_animals",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-bondegardsdyr-28ef"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-bondegardsdyr-9da4"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-camping-f72c",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-camping-3f71",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "camping",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-camping-f72c"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-camping-3f71"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-desserter-og-slik-3f53",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-desserter-og-slik-d5f5",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "desserts_and_sweets",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-desserter-og-slik-3f53"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-desserter-og-slik-d5f5"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-dinosaurer-c3c1",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-dinosaurer-8c1e",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "dinosaurs",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-dinosaurer-c3c1"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-dinosaurer-8c1e"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-dyr",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-dyr-1234",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "animals",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-dyr"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-dyr-1234"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-erhverv-99c4",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-erhverv-6d65",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "occupations",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-erhverv-99c4"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-erhverv-6d65"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-farver-b426",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "colors",
-   "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-farver-b426"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-folelser-0477",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "emotions",
-   "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-folelser-0477"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-forar-887f",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "spring",
-   "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-forar-887f"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-former-0670",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-former-a243",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "shapes",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-former-0670"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-former-a243"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-frugter-62cd",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-frugter-f679",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "fruits",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-frugter-62cd"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-frugter-f679"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-fugle-2-a897",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-fugle-2-694c",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "birds_2",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-fugle-2-a897"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-fugle-2-694c"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-fugle-7d21",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-fugle-63a6",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "birds",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-fugle-7d21"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-fugle-63a6"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-grontsager-8625",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-grontsager-a734",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "vegetables",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-grontsager-8625"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-grontsager-a734"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-havliv-7179",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-havliv-4ee1",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "ocean_life",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-havliv-7179"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-havliv-4ee1"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-hospital-01a2",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-hospital-666f",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "hospital",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-hospital-01a2"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-hospital-666f"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-i-supermarkedet-a320",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-i-supermarkedet-c395",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "at_the_supermarket",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-i-supermarkedet-a320"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-i-supermarkedet-c395"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-insekter-og-kryb-b3b5",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-insekter-og-kryb-e5e4",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "insects_and_bugs",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-insekter-og-kryb-b3b5"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-insekter-og-kryb-e5e4"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-jul-c0a7",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-jul-9bbe",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "christmas",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-jul-c0a7"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-jul-9bbe"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-kaeledyr-0615",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-kaeledyr-963a",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "pets",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-kaeledyr-0615"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-kaeledyr-963a"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-klassevaerelse-b820",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-klassevaerelse-f941",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "classroom",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-klassevaerelse-b820"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-klassevaerelse-f941"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-kokkenredskaber-31fa",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-kokkenredskaber-1175",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "kitchen_tools",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-kokkenredskaber-31fa"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-kokkenredskaber-1175"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-koretojer-f53d",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-koretojer-a951",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "vehicles",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-koretojer-f53d"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-koretojer-a951"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-kropsdele-5f68",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "body_parts",
-   "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-kropsdele-5f68"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-krybdyr-og-padder-46c9",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-krybdyr-og-padder-8d64",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "reptiles_and_amphibians",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-krybdyr-og-padder-46c9"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-krybdyr-og-padder-8d64"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-legetoj-5668",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-legetoj-5656",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "toys",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-legetoj-5668"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-legetoj-5656"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-mobler-9fbb",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-mobler-ec5a",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "furniture",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-mobler-9fbb"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-mobler-ec5a"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-morgenmad-ee7e",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-morgenmad-3a6a",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "breakfast",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-morgenmad-ee7e"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-morgenmad-3a6a"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-musik-8542",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-musik-0253",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "music",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-musik-8542"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-musik-0253"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-paske-75f6",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-paske-1bcc",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "easter",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-paske-75f6"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-paske-1bcc"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-postkontor-a431",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-postkontor-6c75",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "post_office",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-postkontor-a431"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-postkontor-6c75"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-rummet-8bf1",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-rummet-09c3",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "space",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-rummet-8bf1"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-rummet-09c3"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-rundt-i-huset-89ab",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-rundt-i-huset-2be2",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "around_the_house",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-rundt-i-huset-89ab"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-rundt-i-huset-2be2"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-skovdyr-802e",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-skovdyr-c3e0",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "forest_creatures",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-skovdyr-802e"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-skovdyr-c3e0"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-sommer-4858",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "summer",
-   "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-sommer-4858"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-strand-05fe",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-strand-ddbe",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "beach",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-strand-05fe"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-strand-ddbe"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-thanksgiving-e958",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-thanksgiving-5e04",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "thanksgivinng",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-thanksgiving-e958"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-thanksgiving-5e04"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-tilbehor-42a3",
-   "type": "odd-one-out",
-   "mode": "same-theme",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-tilbehor-401c",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "accessories",
    "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-tilbehor-42a3"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-tilbehor-401c"
   },
   {
-   "slug": "hvilken-passer-ikke-samme-tema-toj-9240",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "clothing",
-   "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-toj-9240"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-vaerktoj-9193",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "tools",
-   "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-vaerktoj-9193"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-vejr-ea77",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "weather",
-   "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-vejr-ea77"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-vinter-a00d",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "winter",
-   "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-vinter-a00d"
-  },
-  {
-   "slug": "hvilken-passer-ikke-samme-tema-zoodyr-8c70",
-   "type": "odd-one-out",
-   "mode": "same-theme",
-   "theme": "zoo_animals",
-   "level": "boernehaveklasse",
-   "deck": "hvilken-passer-ikke-samme-tema-zoodyr-8c70"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-aktiviteter-15d7",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "activities",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-aktiviteter-15d7"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-bageri-73a6",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "bakery",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-bageri-73a6"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-blomster-b36a",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "flowers",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-blomster-b36a"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-bondegardsdyr-f726",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "farm_animals",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-bondegardsdyr-f726"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-camping-aefa",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "camping",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-camping-aefa"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-dyr-dc04",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "animals",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-dyr-dc04"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-erhverv-25c7",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "occupations",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-erhverv-25c7"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-farver-7d67",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "colors",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-farver-7d67"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-folelser-9a8c",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "emotions",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-folelser-9a8c"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-forar-5f29",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "spring",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-forar-5f29"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-former-5d81",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "shapes",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-former-5d81"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-frugter-3ab3",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "fruits",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-frugter-3ab3"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-fugle-2-e508",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "birds_2",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-fugle-2-e508"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-grontsager-0147",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "vegetables",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-grontsager-0147"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-havliv-8682",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "ocean_life",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-havliv-8682"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-hospital-706d",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "hospital",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-hospital-706d"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-i-supermarkedet-7f97",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "at_the_supermarket",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-i-supermarkedet-7f97"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-insekter-og-kryb-2225",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "insects_and_bugs",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-insekter-og-kryb-2225"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-jul-6903",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "christmas",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-jul-6903"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-kaeledyr-66a6",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "pets",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-kaeledyr-66a6"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-klassevaerelse-20c7",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "classroom",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-klassevaerelse-20c7"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-kokkenredskaber-e8a8",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "kitchen_tools",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-kokkenredskaber-e8a8"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-koretojer-945b",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "vehicles",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-koretojer-945b"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-kropsdele-d822",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "body_parts",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-kropsdele-d822"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-krybdyr-og-padder-d182",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "reptiles_and_amphibians",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-krybdyr-og-padder-d182"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-legetoj-0e3a",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "toys",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-legetoj-0e3a"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-mobler-a025",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "furniture",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-mobler-a025"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-morgenmad-5dfc",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "breakfast",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-morgenmad-5dfc"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-musik-8dbe",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "music",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-musik-8dbe"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-paske-fc9f",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "easter",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-paske-fc9f"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-postkontor-6031",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "post_office",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-postkontor-6031"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-rummet-d281",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "space",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-rummet-d281"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-rundt-i-huset-45c0",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "around_the_house",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-rundt-i-huset-45c0"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-skovdyr-a95d",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "forest_creatures",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-skovdyr-a95d"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-sommer-e2df",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "summer",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-sommer-e2df"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-strand-90ac",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "beach",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-strand-90ac"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-thanksgiving-93e8",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "thanksgivinng",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-thanksgiving-93e8"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-tilbehor-71b8",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "accessories",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-tilbehor-71b8"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-ting-der-flyver-12b1",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-ting-der-flyver-140f",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "things_that_fly",
    "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-ting-der-flyver-12b1"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-ting-der-flyver-140f"
   },
   {
-   "slug": "find-og-tael-skjulte-genstande-toj-c8e4",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-toj-27e7",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "clothing",
    "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-toj-c8e4"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-toj-27e7"
   },
   {
-   "slug": "find-og-tael-skjulte-genstande-traeer-8b34",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-traeer-a1af",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "tree",
    "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-traeer-8b34"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-traeer-a1af"
   },
   {
-   "slug": "find-og-tael-skjulte-genstande-vaerktoj-991f",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-vaerktoj-ddeb",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "tools",
    "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-vaerktoj-991f"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-vaerktoj-ddeb"
   },
   {
-   "slug": "find-og-tael-skjulte-genstande-vejr-faed",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "weather",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-vejr-faed"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-vinter-d710",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "winter",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-vinter-d710"
-  },
-  {
-   "slug": "find-og-tael-skjulte-genstande-zoodyr-1b1f",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "mere-mindre-saet-kryds-og-streg-over-grupper-zoodyr-94ed",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "zoo_animals",
    "level": "boernehaveklasse",
-   "deck": "find-og-tael-skjulte-genstande-zoodyr-1b1f"
+   "deck": "mere-mindre-saet-kryds-og-streg-over-grupper-zoodyr-94ed"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-bageri-f425",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "bakery",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-bageri-f425"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-blomster-295b",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "flowers",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-blomster-295b"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-bondegardsdyr-0b94",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "farm_animals",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-bondegardsdyr-0b94"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-camping-8a54",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "camping",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-camping-8a54"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-desserter-og-slik-60bb",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "desserts_and_sweets",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-desserter-og-slik-60bb"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-dinosaurer-82f5",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-dinosaurer-82f5"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-dyr-89b3",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "animals",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-dyr-89b3"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-erhverv-3f81",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "occupations",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-erhverv-3f81"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-former-bcbf",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "shapes",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-former-bcbf"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-frugter-e085",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "fruits",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-frugter-e085"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-fugle-2-c7b2",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "birds_2",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-fugle-2-c7b2"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-fugle-a67c",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "birds",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-fugle-a67c"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-grontsager-4649",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "vegetables",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-grontsager-4649"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-havliv-68ee",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "ocean_life",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-havliv-68ee"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-hospital-49d9",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "hospital",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-hospital-49d9"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-i-supermarkedet-e366",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "at_the_supermarket",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-i-supermarkedet-e366"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-insekter-og-kryb-f0e6",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "insects_and_bugs",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-insekter-og-kryb-f0e6"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-jul-e866",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "christmas",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-jul-e866"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-kaeledyr-5d8a",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "pets",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-kaeledyr-5d8a"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-klassevaerelse-55f5",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "classroom",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-klassevaerelse-55f5"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-kokkenredskaber-2040",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "kitchen_tools",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-kokkenredskaber-2040"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-koretojer-a512",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "vehicles",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-koretojer-a512"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-krybdyr-og-padder-ec68",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "reptiles_and_amphibians",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-krybdyr-og-padder-ec68"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-legetoj-9f90",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "toys",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-legetoj-9f90"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-mobler-611d",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "furniture",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-mobler-611d"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-morgenmad-03b1",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "breakfast",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-morgenmad-03b1"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-musik-f5c4",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "music",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-musik-f5c4"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-paske-6ee8",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "easter",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-paske-6ee8"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-postkontor-1d81",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "post_office",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-postkontor-1d81"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-rummet-0563",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "space",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-rummet-0563"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-rundt-i-huset-b434",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "around_the_house",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-rundt-i-huset-b434"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-skovdyr-1ac2",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "forest_creatures",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-skovdyr-1ac2"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-strand-0f79",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "beach",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-strand-0f79"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-thanksgiving-c277",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "thanksgivinng",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-thanksgiving-c277"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-tilbehor-4b22",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "accessories",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-tilbehor-4b22"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-ting-der-flyver-6f0e",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "things_that_fly",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-ting-der-flyver-6f0e"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-toj-5533",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "clothing",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-toj-5533"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-traeer-eccb",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "tree",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-traeer-eccb"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-vaerktoj-638e",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "tools",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-vaerktoj-638e"
+  },
+  {
+   "slug": "mere-mindre-billede-billede-zoodyr-c4d6",
+   "type": "more-less",
+   "mode": "image-image",
+   "theme": "zoo_animals",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-billede-zoodyr-c4d6"
   }
  ]
 }

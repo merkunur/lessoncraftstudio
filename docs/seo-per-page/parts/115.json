@@ -2,779 +2,675 @@
  "part": 115,
  "locale": "pt",
  "classes": [
-  "find-objects::find-odd",
-  "grid-match::null"
+  "bingo::null",
+  "treasure-hunt::cardinal-arrows"
  ],
  "splitOf": null,
- "count": 96,
+ "count": 83,
  "pages": [
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-acampamento-7446",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-acampamento-4b37",
+   "type": "bingo",
+   "mode": null,
    "theme": "camping",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-acampamento-7446"
+   "deck": "bingo-acampamento-4b37"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-acessorios-b0fe",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-acessorios-098e",
+   "type": "bingo",
+   "mode": null,
    "theme": "accessories",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-acessorios-b0fe"
+   "deck": "bingo-acessorios-098e"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-animais-6c44",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-animais",
+   "type": "bingo",
+   "mode": null,
    "theme": "animals",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-animais-6c44"
+   "deck": "bingo-animais"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-animais-da-fazenda-8f99",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-animais-da-fazenda-68ac",
+   "type": "bingo",
+   "mode": null,
    "theme": "farm_animals",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-animais-da-fazenda-8f99"
+   "deck": "bingo-animais-da-fazenda-68ac"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-animais-de-estimacao-912a",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-animais-de-estimacao-f449",
+   "type": "bingo",
+   "mode": null,
    "theme": "pets",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-animais-de-estimacao-912a"
+   "deck": "bingo-animais-de-estimacao-f449"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-animais-do-zoologico-d88b",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-animais-do-zoologico-1aed",
+   "type": "bingo",
+   "mode": null,
    "theme": "zoo_animals",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-animais-do-zoologico-d88b"
+   "deck": "bingo-animais-do-zoologico-1aed"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-arvores-abb0",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "tree",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-arvores-abb0"
-  },
-  {
-   "slug": "encontre-os-objetos-encontre-o-diferente-atividades-9e8f",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-atividades-fde1",
+   "type": "bingo",
+   "mode": null,
    "theme": "activities",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-atividades-9e8f"
+   "deck": "bingo-atividades-fde1"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-brinquedos-099c",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-brinquedos-f7c3",
+   "type": "bingo",
+   "mode": null,
    "theme": "toys",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-brinquedos-099c"
+   "deck": "bingo-brinquedos-f7c3"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-cafe-da-manha-48c7",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-cafe-da-manha-b795",
+   "type": "bingo",
+   "mode": null,
    "theme": "breakfast",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-cafe-da-manha-48c7"
+   "deck": "bingo-cafe-da-manha-b795"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-clima-7bd3",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-clima-0ac6",
+   "type": "bingo",
+   "mode": null,
    "theme": "weather",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-clima-7bd3"
+   "deck": "bingo-clima-0ac6"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-coisas-que-voam-18a3",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-coisas-que-voam-0f13",
+   "type": "bingo",
+   "mode": null,
    "theme": "things_that_fly",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-coisas-que-voam-18a3"
+   "deck": "bingo-coisas-que-voam-0f13"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-cores-aee3",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-cores-5b34",
+   "type": "bingo",
+   "mode": null,
    "theme": "colors",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-cores-aee3"
+   "deck": "bingo-cores-5b34"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-correios-a125",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "post_office",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-correios-a125"
-  },
-  {
-   "slug": "encontre-os-objetos-encontre-o-diferente-criaturas-da-floresta-7e31",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-criaturas-da-floresta-0575",
+   "type": "bingo",
+   "mode": null,
    "theme": "forest_creatures",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-criaturas-da-floresta-7e31"
+   "deck": "bingo-criaturas-da-floresta-0575"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-dia-de-acao-de-gracas-8799",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "thanksgivinng",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-dia-de-acao-de-gracas-8799"
-  },
-  {
-   "slug": "encontre-os-objetos-encontre-o-diferente-dinossauros-e13f",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "dinosaurs",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-dinossauros-e13f"
-  },
-  {
-   "slug": "encontre-os-objetos-encontre-o-diferente-diversos-5351",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "miscellaneous",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-diversos-5351"
-  },
-  {
-   "slug": "encontre-os-objetos-encontre-o-diferente-emocoes-1efa",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "emotions",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-emocoes-1efa"
-  },
-  {
-   "slug": "encontre-os-objetos-encontre-o-diferente-espaco-e3e7",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-espaco-74e4",
+   "type": "bingo",
+   "mode": null,
    "theme": "space",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-espaco-e3e7"
+   "deck": "bingo-espaco-74e4"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-ferramentas-d7f9",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "tools",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-ferramentas-d7f9"
-  },
-  {
-   "slug": "encontre-os-objetos-encontre-o-diferente-flores-85ca",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-flores-69ce",
+   "type": "bingo",
+   "mode": null,
    "theme": "flowers",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-flores-85ca"
+   "deck": "bingo-flores-69ce"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-formas-7883",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-formas-abbd",
+   "type": "bingo",
+   "mode": null,
    "theme": "shapes",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-formas-7883"
+   "deck": "bingo-formas-abbd"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-frutas-5155",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-frutas-259e",
+   "type": "bingo",
+   "mode": null,
    "theme": "fruits",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-frutas-5155"
+   "deck": "bingo-frutas-259e"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-hospital-5db1",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-hospital-62ee",
+   "type": "bingo",
+   "mode": null,
    "theme": "hospital",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-hospital-5db1"
+   "deck": "bingo-hospital-62ee"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-insetos-e-bichos-5862",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "insects_and_bugs",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-insetos-e-bichos-5862"
-  },
-  {
-   "slug": "encontre-os-objetos-encontre-o-diferente-inverno-7116",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-inverno-8760",
+   "type": "bingo",
+   "mode": null,
    "theme": "winter",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-inverno-7116"
+   "deck": "bingo-inverno-8760"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-moveis-2f86",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-moveis-120d",
+   "type": "bingo",
+   "mode": null,
    "theme": "furniture",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-moveis-2f86"
+   "deck": "bingo-moveis-120d"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-musica-eb97",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "music",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-musica-eb97"
-  },
-  {
-   "slug": "encontre-os-objetos-encontre-o-diferente-natal-e690",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-natal-b2a8",
+   "type": "bingo",
+   "mode": null,
    "theme": "christmas",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-natal-e690"
+   "deck": "bingo-natal-b2a8"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-no-supermercado-0f12",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-no-supermercado-5277",
+   "type": "bingo",
+   "mode": null,
    "theme": "at_the_supermarket",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-no-supermercado-0f12"
+   "deck": "bingo-no-supermercado-5277"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-padaria-7f9c",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-padaria-d39a",
+   "type": "bingo",
+   "mode": null,
    "theme": "bakery",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-padaria-7f9c"
+   "deck": "bingo-padaria-d39a"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-partes-do-corpo-16da",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-partes-do-corpo-15b9",
+   "type": "bingo",
+   "mode": null,
    "theme": "body_parts",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-partes-do-corpo-16da"
+   "deck": "bingo-partes-do-corpo-15b9"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-pascoa-1d9a",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-pascoa-a0a0",
+   "type": "bingo",
+   "mode": null,
    "theme": "easter",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-pascoa-1d9a"
+   "deck": "bingo-pascoa-a0a0"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-passaros-2-88fd",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-passaros-2-925e",
+   "type": "bingo",
+   "mode": null,
    "theme": "birds_2",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-passaros-2-88fd"
+   "deck": "bingo-passaros-2-925e"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-pela-casa-8af5",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-pela-casa-d174",
+   "type": "bingo",
+   "mode": null,
    "theme": "around_the_house",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-pela-casa-8af5"
+   "deck": "bingo-pela-casa-d174"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-praia-b03f",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-praia-c465",
+   "type": "bingo",
+   "mode": null,
    "theme": "beach",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-praia-b03f"
+   "deck": "bingo-praia-c465"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-primavera-84b1",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-primavera-ce94",
+   "type": "bingo",
+   "mode": null,
    "theme": "spring",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-primavera-84b1"
+   "deck": "bingo-primavera-ce94"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-profissoes-257e",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-profissoes-f864",
+   "type": "bingo",
+   "mode": null,
    "theme": "occupations",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-profissoes-257e"
+   "deck": "bingo-profissoes-f864"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-repteis-e-anfibios-1c3e",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "reptiles_and_amphibians",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-repteis-e-anfibios-1c3e"
-  },
-  {
-   "slug": "encontre-os-objetos-encontre-o-diferente-roupas-15d4",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-roupas-2923",
+   "type": "bingo",
+   "mode": null,
    "theme": "clothing",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-roupas-15d4"
+   "deck": "bingo-roupas-2923"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-sala-de-aula-74e4",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-sala-de-aula-7ca6",
+   "type": "bingo",
+   "mode": null,
    "theme": "classroom",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-sala-de-aula-74e4"
+   "deck": "bingo-sala-de-aula-7ca6"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-sobremesas-e-doces-b738",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-sobremesas-e-doces-482c",
+   "type": "bingo",
+   "mode": null,
    "theme": "desserts_and_sweets",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-sobremesas-e-doces-b738"
+   "deck": "bingo-sobremesas-e-doces-482c"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-utensilios-de-cozinha-b5f6",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-utensilios-de-cozinha-a35b",
+   "type": "bingo",
+   "mode": null,
    "theme": "kitchen_tools",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-utensilios-de-cozinha-b5f6"
+   "deck": "bingo-utensilios-de-cozinha-a35b"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-vegetais-8c8d",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-vegetais-5db5",
+   "type": "bingo",
+   "mode": null,
    "theme": "vegetables",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-vegetais-8c8d"
+   "deck": "bingo-vegetais-5db5"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-veiculos-949d",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-veiculos-ded6",
+   "type": "bingo",
+   "mode": null,
    "theme": "vehicles",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-veiculos-949d"
+   "deck": "bingo-veiculos-ded6"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-verao-b13e",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-verao-5b80",
+   "type": "bingo",
+   "mode": null,
    "theme": "summer",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-verao-b13e"
+   "deck": "bingo-verao-5b80"
   },
   {
-   "slug": "encontre-os-objetos-encontre-o-diferente-vida-marinha-fac9",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "bingo-vida-marinha-a00a",
+   "type": "bingo",
+   "mode": null,
    "theme": "ocean_life",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-encontre-o-diferente-vida-marinha-fac9"
+   "deck": "bingo-vida-marinha-a00a"
   },
   {
-   "slug": "pareamento-em-grade-acampamento-82a2",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "camping",
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-0aa6",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "vehicles",
    "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-acampamento-82a2"
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-0aa6"
   },
   {
-   "slug": "pareamento-em-grade-acessorios-bb8f",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "accessories",
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-17d6",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "emotions",
    "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-acessorios-bb8f"
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-17d6"
   },
   {
-   "slug": "pareamento-em-grade-animais-aab5",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "animals",
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-1b05",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "colors",
    "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-animais-aab5"
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-1b05"
   },
   {
-   "slug": "pareamento-em-grade-animais-da-fazenda-4a00",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "farm_animals",
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-23d6",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "summer",
    "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-animais-da-fazenda-4a00"
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-23d6"
   },
   {
-   "slug": "pareamento-em-grade-animais-de-estimacao-f582",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "pets",
-   "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-animais-de-estimacao-f582"
-  },
-  {
-   "slug": "pareamento-em-grade-animais-do-zoologico-1e45",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "zoo_animals",
-   "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-animais-do-zoologico-1e45"
-  },
-  {
-   "slug": "pareamento-em-grade-arvores-e441",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-25ae",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "tree",
    "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-arvores-e441"
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-25ae"
   },
   {
-   "slug": "pareamento-em-grade-atividades-2080",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "activities",
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-2cff",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "accessories",
    "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-atividades-2080"
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-2cff"
   },
   {
-   "slug": "pareamento-em-grade-brinquedos-cc1f",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "toys",
-   "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-brinquedos-cc1f"
-  },
-  {
-   "slug": "pareamento-em-grade-cafe-da-manha-4937",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "breakfast",
-   "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-cafe-da-manha-4937"
-  },
-  {
-   "slug": "pareamento-em-grade-clima-33a3",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "weather",
-   "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-clima-33a3"
-  },
-  {
-   "slug": "pareamento-em-grade-coisas-que-voam-13b9",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "things_that_fly",
-   "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-coisas-que-voam-13b9"
-  },
-  {
-   "slug": "pareamento-em-grade-correios-8c36",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "post_office",
-   "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-correios-8c36"
-  },
-  {
-   "slug": "pareamento-em-grade-criaturas-da-floresta-cd87",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "forest_creatures",
-   "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-criaturas-da-floresta-cd87"
-  },
-  {
-   "slug": "pareamento-em-grade-dia-de-acao-de-gracas-a64b",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "thanksgivinng",
-   "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-dia-de-acao-de-gracas-a64b"
-  },
-  {
-   "slug": "pareamento-em-grade-dinossauros-ba09",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "dinosaurs",
-   "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-dinossauros-ba09"
-  },
-  {
-   "slug": "pareamento-em-grade-diversos-f9e4",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "miscellaneous",
-   "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-diversos-f9e4"
-  },
-  {
-   "slug": "pareamento-em-grade-emocoes-dbac",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "emotions",
-   "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-emocoes-dbac"
-  },
-  {
-   "slug": "pareamento-em-grade-espaco-bfca",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "space",
-   "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-espaco-bfca"
-  },
-  {
-   "slug": "pareamento-em-grade-ferramentas-fd8a",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "tools",
-   "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-ferramentas-fd8a"
-  },
-  {
-   "slug": "pareamento-em-grade-flores-2ef0",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "flowers",
-   "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-flores-2ef0"
-  },
-  {
-   "slug": "pareamento-em-grade-formas-76bf",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "shapes",
-   "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-formas-76bf"
-  },
-  {
-   "slug": "pareamento-em-grade-frutas-fef5",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "fruits",
-   "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-frutas-fef5"
-  },
-  {
-   "slug": "pareamento-em-grade-hospital-e0d8",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "hospital",
-   "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-hospital-e0d8"
-  },
-  {
-   "slug": "pareamento-em-grade-insetos-e-bichos-db59",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-insetos-e-bichos-db59"
-  },
-  {
-   "slug": "pareamento-em-grade-inverno-deb9",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "winter",
-   "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-inverno-deb9"
-  },
-  {
-   "slug": "pareamento-em-grade-moveis-ff8f",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "furniture",
-   "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-moveis-ff8f"
-  },
-  {
-   "slug": "pareamento-em-grade-musica-9047",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "music",
-   "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-musica-9047"
-  },
-  {
-   "slug": "pareamento-em-grade-natal-d6dd",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "christmas",
-   "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-natal-d6dd"
-  },
-  {
-   "slug": "pareamento-em-grade-no-supermercado-1361",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-no-supermercado-1361"
-  },
-  {
-   "slug": "pareamento-em-grade-padaria-4ebd",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "bakery",
-   "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-padaria-4ebd"
-  },
-  {
-   "slug": "pareamento-em-grade-partes-do-corpo-e201",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-partes-do-corpo-e201"
-  },
-  {
-   "slug": "pareamento-em-grade-pascoa-b3be",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-2e03",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "easter",
    "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-pascoa-b3be"
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-2e03"
   },
   {
-   "slug": "pareamento-em-grade-passaros-2-a4ae",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "birds_2",
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-34d4",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "camping",
    "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-passaros-2-a4ae"
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-34d4"
   },
   {
-   "slug": "pareamento-em-grade-passaros-d49d",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-4306",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "birds",
    "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-passaros-d49d"
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-4306"
   },
   {
-   "slug": "pareamento-em-grade-pela-casa-f4af",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "around_the_house",
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-43d6",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "space",
    "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-pela-casa-f4af"
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-43d6"
   },
   {
-   "slug": "pareamento-em-grade-praia-d78c",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-46a5",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "farm_animals",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-46a5"
+  },
+  {
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-4ca7",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "beach",
    "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-praia-d78c"
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-4ca7"
   },
   {
-   "slug": "pareamento-em-grade-primavera-e7be",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "spring",
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-4d25",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "toys",
    "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-primavera-e7be"
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-4d25"
   },
   {
-   "slug": "pareamento-em-grade-profissoes-4d55",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "occupations",
-   "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-profissoes-4d55"
-  },
-  {
-   "slug": "pareamento-em-grade-repteis-e-anfibios-6ad8",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "reptiles_and_amphibians",
-   "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-repteis-e-anfibios-6ad8"
-  },
-  {
-   "slug": "pareamento-em-grade-roupas-b2d0",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "clothing",
-   "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-roupas-b2d0"
-  },
-  {
-   "slug": "pareamento-em-grade-sala-de-aula-ae7b",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-5234",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "classroom",
    "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-sala-de-aula-ae7b"
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-5234"
   },
   {
-   "slug": "pareamento-em-grade-sobremesas-e-doces-35b5",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "desserts_and_sweets",
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-53cf",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "fruits",
    "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-sobremesas-e-doces-35b5"
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-53cf"
   },
   {
-   "slug": "pareamento-em-grade-utensilios-de-cozinha-7260",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "kitchen_tools",
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-5e29",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "furniture",
    "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-utensilios-de-cozinha-7260"
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-5e29"
   },
   {
-   "slug": "pareamento-em-grade-vegetais-c084",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "vegetables",
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-5e3d",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "clothing",
    "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-vegetais-c084"
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-5e3d"
   },
   {
-   "slug": "pareamento-em-grade-veiculos-77ec",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "vehicles",
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-6cad",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "winter",
    "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-veiculos-77ec"
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-6cad"
   },
   {
-   "slug": "pareamento-em-grade-verao-903e",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "summer",
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-77df",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "around_the_house",
    "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-verao-903e"
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-77df"
   },
   {
-   "slug": "pareamento-em-grade-vida-marinha-ca9e",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-7cc8",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "insects_and_bugs",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-7cc8"
+  },
+  {
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-848d",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
    "theme": "ocean_life",
    "level": "educacao-infantil",
-   "deck": "pareamento-em-grade-vida-marinha-ca9e"
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-848d"
+  },
+  {
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-8809",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "animals",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-8809"
+  },
+  {
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-8ee3",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "vegetables",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-8ee3"
+  },
+  {
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-908b",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "occupations",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-908b"
+  },
+  {
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-9108",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "bakery",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-9108"
+  },
+  {
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-9395",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "hospital",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-9395"
+  },
+  {
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-95d5",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "christmas",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-95d5"
+  },
+  {
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-98ab",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "shapes",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-98ab"
+  },
+  {
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-a515",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "tools",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-a515"
+  },
+  {
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-ab04",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "things_that_fly",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-ab04"
+  },
+  {
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-ac6d",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "thanksgivinng",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-ac6d"
+  },
+  {
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-b03c",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "breakfast",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-b03c"
+  },
+  {
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-b30e",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "desserts_and_sweets",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-b30e"
+  },
+  {
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-b352",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "flowers",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-b352"
+  },
+  {
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-c962",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "music",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-c962"
+  },
+  {
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-cf31",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "miscellaneous",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-cf31"
+  },
+  {
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-d608",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "pets",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-d608"
+  },
+  {
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-d60e",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "kitchen_tools",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-d60e"
+  },
+  {
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-e81d",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "zoo_animals",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-e81d"
+  },
+  {
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-ec2a",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "activities",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-ec2a"
+  },
+  {
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-f48b",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "post_office",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-f48b"
+  },
+  {
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-f4af",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "body_parts",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-f4af"
+  },
+  {
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-fa8c",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "at_the_supermarket",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-fa8c"
+  },
+  {
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-fbdb",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "dinosaurs",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-fbdb"
+  },
+  {
+   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-animais",
+   "type": "treasure-hunt",
+   "mode": "cardinal-arrows",
+   "theme": "forest_creatures",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-animais"
   }
  ]
 }

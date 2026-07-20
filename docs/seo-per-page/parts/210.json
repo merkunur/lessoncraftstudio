@@ -2,747 +2,643 @@
  "part": 210,
  "locale": "nl",
  "classes": [
-  "missing-pieces::one-missing",
-  "prepositions::multiplechoice"
+  "addition::image-image",
+  "math-puzzle::mixed"
  ],
  "splitOf": null,
- "count": 92,
+ "count": 79,
  "pages": [
   {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-accessoires-5d77",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "accessories",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-accessoires-5d77"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-activiteiten-2e86",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "activities",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-activiteiten-2e86"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-bakkerij-b17a",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "bakery",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-bakkerij-b17a"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-beroepen-52f2",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "occupations",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-beroepen-52f2"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-bloemen-fdb6",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "flowers",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-bloemen-fdb6"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-boerderijdieren-e40b",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "farm_animals",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-boerderijdieren-e40b"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-bomen-5b6e",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "tree",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-bomen-5b6e"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-boswezens-6d79",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "forest_creatures",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-boswezens-6d79"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-desserts-en-snoep-0006",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "desserts_and_sweets",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-desserts-en-snoep-0006"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-dieren",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "animals",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-dieren"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-dierentuindieren-f7c9",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "zoo_animals",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-dierentuindieren-f7c9"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-dingen-die-vliegen-e118",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "things_that_fly",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-dingen-die-vliegen-e118"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-dinosaurussen-dac7",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "dinosaurs",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-dinosaurussen-dac7"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-diversen-3c86",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "miscellaneous",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-diversen-3c86"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-emoties-1da6",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "emotions",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-emoties-1da6"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-fruit-7eb9",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "fruits",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-fruit-7eb9"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-gereedschap-2557",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "tools",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-gereedschap-2557"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-groenten-cecb",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "vegetables",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-groenten-cecb"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-huisdieren-a79d",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "pets",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-huisdieren-a79d"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-in-de-supermarkt-e077",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "at_the_supermarket",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-in-de-supermarkt-e077"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-insecten-en-beestjes-fb24",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "insects_and_bugs",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-insecten-en-beestjes-fb24"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-kamperen-3a53",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "camping",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-kamperen-3a53"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-kerstmis-d4d4",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "christmas",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-kerstmis-d4d4"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-keukengerei-7630",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "kitchen_tools",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-keukengerei-7630"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-klaslokaal-ff0d",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "classroom",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-klaslokaal-ff0d"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-kleding-b83c",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "clothing",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-kleding-b83c"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-lente-056c",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "spring",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-lente-056c"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-lichaamsdelen-123c",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "body_parts",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-lichaamsdelen-123c"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-muziek-3218",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "music",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-muziek-3218"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-oceaanleven-c72a",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "ocean_life",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-oceaanleven-c72a"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-ontbijt-0747",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "breakfast",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-ontbijt-0747"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-pasen-a6a0",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "easter",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-pasen-a6a0"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-postkantoor-913e",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "post_office",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-postkantoor-913e"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-reptielen-en-amfibieen-28e7",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "reptiles_and_amphibians",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-reptielen-en-amfibieen-28e7"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-rond-het-huis-a45c",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "around_the_house",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-rond-het-huis-a45c"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-ruimte-d359",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "space",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-ruimte-d359"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-speelgoed-6575",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "toys",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-speelgoed-6575"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-strand-e442",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "beach",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-strand-e442"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-thanksgiving-d28d",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "thanksgivinng",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-thanksgiving-d28d"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-voertuigen-faf7",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "vehicles",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-voertuigen-faf7"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-vogels-1e4e",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "birds",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-vogels-1e4e"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-vogels-2-ee10",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "birds_2",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-vogels-2-ee10"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-weer-c1cb",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "weather",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-weer-c1cb"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-winter-7523",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "winter",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-winter-7523"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-ziekenhuis-836f",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "hospital",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-ziekenhuis-836f"
-  },
-  {
-   "slug": "ontbrekende-stukken-1-ontbrekend-stukje-zomer-782a",
-   "type": "missing-pieces",
-   "mode": "one-missing",
-   "theme": "summer",
-   "level": "kleuters",
-   "deck": "ontbrekende-stukken-1-ontbrekend-stukje-zomer-782a"
-  },
-  {
-   "slug": "voorzetsels-meerkeuze-accessoires-8afb",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-accessoires-7bc0",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "accessories",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-accessoires-8afb"
+   "deck": "optellen-beeld-beeld-accessoires-7bc0"
   },
   {
-   "slug": "voorzetsels-meerkeuze-activiteiten-5243",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "activities",
-   "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-activiteiten-5243"
-  },
-  {
-   "slug": "voorzetsels-meerkeuze-bakkerij-f6fe",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-bakkerij-28ba",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "bakery",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-bakkerij-f6fe"
+   "deck": "optellen-beeld-beeld-bakkerij-28ba"
   },
   {
-   "slug": "voorzetsels-meerkeuze-beroepen-8d16",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-beroepen-fe0f",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "occupations",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-beroepen-8d16"
+   "deck": "optellen-beeld-beeld-beroepen-fe0f"
   },
   {
-   "slug": "voorzetsels-meerkeuze-bloemen-77c1",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-bloemen-676b",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "flowers",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-bloemen-77c1"
+   "deck": "optellen-beeld-beeld-bloemen-676b"
   },
   {
-   "slug": "voorzetsels-meerkeuze-boerderijdieren-62d2",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-boerderijdieren-9cd4",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "farm_animals",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-boerderijdieren-62d2"
+   "deck": "optellen-beeld-beeld-boerderijdieren-9cd4"
   },
   {
-   "slug": "voorzetsels-meerkeuze-bomen-20f4",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-bomen-3a4f",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "tree",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-bomen-20f4"
+   "deck": "optellen-beeld-beeld-bomen-3a4f"
   },
   {
-   "slug": "voorzetsels-meerkeuze-boswezens-625b",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-boswezens-bf5f",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "forest_creatures",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-boswezens-625b"
+   "deck": "optellen-beeld-beeld-boswezens-bf5f"
   },
   {
-   "slug": "voorzetsels-meerkeuze-desserts-en-snoep-5b71",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "desserts_and_sweets",
-   "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-desserts-en-snoep-5b71"
-  },
-  {
-   "slug": "voorzetsels-meerkeuze-dieren-aad9",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-dieren",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "animals",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-dieren-aad9"
+   "deck": "optellen-beeld-beeld-dieren"
   },
   {
-   "slug": "voorzetsels-meerkeuze-dierentuindieren-9b7c",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-dierentuindieren-b6d6",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "zoo_animals",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-dierentuindieren-9b7c"
+   "deck": "optellen-beeld-beeld-dierentuindieren-b6d6"
   },
   {
-   "slug": "voorzetsels-meerkeuze-dingen-die-vliegen-f812",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-dingen-die-vliegen-a879",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "things_that_fly",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-dingen-die-vliegen-f812"
+   "deck": "optellen-beeld-beeld-dingen-die-vliegen-a879"
   },
   {
-   "slug": "voorzetsels-meerkeuze-dinosaurussen-2ce6",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-dinosaurussen-06dc",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "dinosaurs",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-dinosaurussen-2ce6"
+   "deck": "optellen-beeld-beeld-dinosaurussen-06dc"
   },
   {
-   "slug": "voorzetsels-meerkeuze-emoties-3cad",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "emotions",
-   "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-emoties-3cad"
-  },
-  {
-   "slug": "voorzetsels-meerkeuze-fruit-b67f",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-fruit-5292",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "fruits",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-fruit-b67f"
+   "deck": "optellen-beeld-beeld-fruit-5292"
   },
   {
-   "slug": "voorzetsels-meerkeuze-gereedschap-e206",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-gereedschap-58c2",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "tools",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-gereedschap-e206"
+   "deck": "optellen-beeld-beeld-gereedschap-58c2"
   },
   {
-   "slug": "voorzetsels-meerkeuze-groenten-7a94",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-groenten-7039",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "vegetables",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-groenten-7a94"
+   "deck": "optellen-beeld-beeld-groenten-7039"
   },
   {
-   "slug": "voorzetsels-meerkeuze-huisdieren-695e",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-huisdieren-e507",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "pets",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-huisdieren-695e"
+   "deck": "optellen-beeld-beeld-huisdieren-e507"
   },
   {
-   "slug": "voorzetsels-meerkeuze-in-de-supermarkt-531f",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-in-de-supermarkt-8a9e",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "at_the_supermarket",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-in-de-supermarkt-531f"
+   "deck": "optellen-beeld-beeld-in-de-supermarkt-8a9e"
   },
   {
-   "slug": "voorzetsels-meerkeuze-insecten-en-beestjes-8f90",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-insecten-en-beestjes-8498",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "insects_and_bugs",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-insecten-en-beestjes-8f90"
+   "deck": "optellen-beeld-beeld-insecten-en-beestjes-8498"
   },
   {
-   "slug": "voorzetsels-meerkeuze-kamperen-4f10",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-kamperen-0d50",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "camping",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-kamperen-4f10"
+   "deck": "optellen-beeld-beeld-kamperen-0d50"
   },
   {
-   "slug": "voorzetsels-meerkeuze-kerstmis-3f35",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-kerstmis-61c5",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "christmas",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-kerstmis-3f35"
+   "deck": "optellen-beeld-beeld-kerstmis-61c5"
   },
   {
-   "slug": "voorzetsels-meerkeuze-keukengerei-8de2",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-keukengerei-b0a8",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "kitchen_tools",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-keukengerei-8de2"
+   "deck": "optellen-beeld-beeld-keukengerei-b0a8"
   },
   {
-   "slug": "voorzetsels-meerkeuze-klaslokaal-49ee",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-klaslokaal-5760",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "classroom",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-klaslokaal-49ee"
+   "deck": "optellen-beeld-beeld-klaslokaal-5760"
   },
   {
-   "slug": "voorzetsels-meerkeuze-kleding-50c6",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-kleding-8852",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "clothing",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-kleding-50c6"
+   "deck": "optellen-beeld-beeld-kleding-8852"
   },
   {
-   "slug": "voorzetsels-meerkeuze-kleuren-16b3",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "colors",
-   "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-kleuren-16b3"
-  },
-  {
-   "slug": "voorzetsels-meerkeuze-lente-c695",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "spring",
-   "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-lente-c695"
-  },
-  {
-   "slug": "voorzetsels-meerkeuze-lichaamsdelen-7928",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "body_parts",
-   "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-lichaamsdelen-7928"
-  },
-  {
-   "slug": "voorzetsels-meerkeuze-meubels-6067",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-meubels-2a66",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "furniture",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-meubels-6067"
+   "deck": "optellen-beeld-beeld-meubels-2a66"
   },
   {
-   "slug": "voorzetsels-meerkeuze-muziek-75cf",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-muziek-dd10",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "music",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-muziek-75cf"
+   "deck": "optellen-beeld-beeld-muziek-dd10"
   },
   {
-   "slug": "voorzetsels-meerkeuze-oceaanleven-bff3",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "ocean_life",
-   "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-oceaanleven-bff3"
-  },
-  {
-   "slug": "voorzetsels-meerkeuze-ontbijt-dec3",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-ontbijt-8076",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "breakfast",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-ontbijt-dec3"
+   "deck": "optellen-beeld-beeld-ontbijt-8076"
   },
   {
-   "slug": "voorzetsels-meerkeuze-pasen-bb37",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-pasen-019a",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "easter",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-pasen-bb37"
+   "deck": "optellen-beeld-beeld-pasen-019a"
   },
   {
-   "slug": "voorzetsels-meerkeuze-postkantoor-34b8",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-postkantoor-17aa",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "post_office",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-postkantoor-34b8"
+   "deck": "optellen-beeld-beeld-postkantoor-17aa"
   },
   {
-   "slug": "voorzetsels-meerkeuze-rond-het-huis-f333",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-reptielen-en-amfibieen-dcb6",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "reptiles_and_amphibians",
+   "level": "groep-3",
+   "deck": "optellen-beeld-beeld-reptielen-en-amfibieen-dcb6"
+  },
+  {
+   "slug": "optellen-beeld-beeld-rond-het-huis-3a13",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "around_the_house",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-rond-het-huis-f333"
+   "deck": "optellen-beeld-beeld-rond-het-huis-3a13"
   },
   {
-   "slug": "voorzetsels-meerkeuze-ruimte-c9ce",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-ruimte-ed96",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "space",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-ruimte-c9ce"
+   "deck": "optellen-beeld-beeld-ruimte-ed96"
   },
   {
-   "slug": "voorzetsels-meerkeuze-speelgoed-f4e4",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-speelgoed-bc03",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "toys",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-speelgoed-f4e4"
+   "deck": "optellen-beeld-beeld-speelgoed-bc03"
   },
   {
-   "slug": "voorzetsels-meerkeuze-strand-72a8",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-strand-b6ea",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "beach",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-strand-72a8"
+   "deck": "optellen-beeld-beeld-strand-b6ea"
   },
   {
-   "slug": "voorzetsels-meerkeuze-thanksgiving-d98e",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-thanksgiving-01ec",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "thanksgivinng",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-thanksgiving-d98e"
+   "deck": "optellen-beeld-beeld-thanksgiving-01ec"
   },
   {
-   "slug": "voorzetsels-meerkeuze-voertuigen-9b41",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-voertuigen-61bf",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "vehicles",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-voertuigen-9b41"
+   "deck": "optellen-beeld-beeld-voertuigen-61bf"
   },
   {
-   "slug": "voorzetsels-meerkeuze-vogels-2-a8c1",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-vogels-2-dff6",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "birds_2",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-vogels-2-a8c1"
+   "deck": "optellen-beeld-beeld-vogels-2-dff6"
   },
   {
-   "slug": "voorzetsels-meerkeuze-vormen-d0c4",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-vogels-40e3",
+   "type": "addition",
+   "mode": "image-image",
+   "theme": "birds",
+   "level": "groep-3",
+   "deck": "optellen-beeld-beeld-vogels-40e3"
+  },
+  {
+   "slug": "optellen-beeld-beeld-vormen-d0ed",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "shapes",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-vormen-d0c4"
+   "deck": "optellen-beeld-beeld-vormen-d0ed"
   },
   {
-   "slug": "voorzetsels-meerkeuze-weer-f60b",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "weather",
-   "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-weer-f60b"
-  },
-  {
-   "slug": "voorzetsels-meerkeuze-winter-b27b",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "winter",
-   "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-winter-b27b"
-  },
-  {
-   "slug": "voorzetsels-meerkeuze-ziekenhuis-4b01",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "optellen-beeld-beeld-ziekenhuis-831d",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "hospital",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-ziekenhuis-4b01"
+   "deck": "optellen-beeld-beeld-ziekenhuis-831d"
   },
   {
-   "slug": "voorzetsels-meerkeuze-zomer-cfd1",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "summer",
+   "slug": "rekenpuzzel-gemengd-accessoires-a5d1",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "accessories",
    "level": "groep-3",
-   "deck": "voorzetsels-meerkeuze-zomer-cfd1"
+   "deck": "rekenpuzzel-gemengd-accessoires-a5d1"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-bakkerij-fe5d",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-bakkerij-fe5d"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-beroepen-d303",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "occupations",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-beroepen-d303"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-bloemen-1877",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "flowers",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-bloemen-1877"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-boerderijdieren-7af3",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-boerderijdieren-7af3"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-bomen-073e",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tree",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-bomen-073e"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-boswezens-2d2e",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-boswezens-2d2e"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-desserts-en-snoep-fda4",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-desserts-en-snoep-fda4"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-dieren",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-dieren"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-dierentuindieren-2845",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-dierentuindieren-2845"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-dingen-die-vliegen-8242",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-dingen-die-vliegen-8242"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-dinosaurussen-d29f",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-dinosaurussen-d29f"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-diversen-0532",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "miscellaneous",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-diversen-0532"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-fruit-4754",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "fruits",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-fruit-4754"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-gereedschap-0b66",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "tools",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-gereedschap-0b66"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-groenten-e5e9",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vegetables",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-groenten-e5e9"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-huisdieren-c32a",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "pets",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-huisdieren-c32a"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-in-de-supermarkt-9565",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-in-de-supermarkt-9565"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-insecten-en-beestjes-048b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-insecten-en-beestjes-048b"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-kamperen-7bff",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "camping",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-kamperen-7bff"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-kerstmis-03a1",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "christmas",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-kerstmis-03a1"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-keukengerei-437b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-keukengerei-437b"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-klaslokaal-519b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "classroom",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-klaslokaal-519b"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-kleding-4653",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "clothing",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-kleding-4653"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-meubels-f984",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "furniture",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-meubels-f984"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-muziek-78d6",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "music",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-muziek-78d6"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-oceaanleven-d43a",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-oceaanleven-d43a"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-ontbijt-162c",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "breakfast",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-ontbijt-162c"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-pasen-0157",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "easter",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-pasen-0157"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-postkantoor-b893",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "post_office",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-postkantoor-b893"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-reptielen-en-amfibieen-e8bc",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-reptielen-en-amfibieen-e8bc"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-rond-het-huis-7a63",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-rond-het-huis-7a63"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-ruimte-33e4",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "space",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-ruimte-33e4"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-speelgoed-fed6",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "toys",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-speelgoed-fed6"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-strand-4e7e",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-strand-4e7e"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-thanksgiving-05ee",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-thanksgiving-05ee"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-voertuigen-5755",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "vehicles",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-voertuigen-5755"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-vogels-2-dc77",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-vogels-2-dc77"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-vogels-eb2b",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-vogels-eb2b"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-vormen-448d",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "shapes",
+   "level": "groep-4",
+   "deck": "rekenpuzzel-gemengd-vormen-448d"
+  },
+  {
+   "slug": "rekenpuzzel-gemengd-ziekenhuis-e8e8",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "hospital",
+   "level": "groep-3",
+   "deck": "rekenpuzzel-gemengd-ziekenhuis-e8e8"
   }
  ]
 }

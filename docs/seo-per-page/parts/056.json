@@ -2,763 +2,635 @@
  "part": 56,
  "locale": "de",
  "classes": [
-  "grid-match::null",
-  "matching::name"
+  "subtraction::cross-out",
+  "subtraction::find-subtrahend"
  ],
  "splitOf": null,
- "count": 94,
+ "count": 78,
  "pages": [
   {
-   "slug": "gitter-zuordnung-accessoires-3026",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-accessoires-a950",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "accessories",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-accessoires-3026"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-accessoires-a950"
   },
   {
-   "slug": "gitter-zuordnung-aktivitaten-9095",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "activities",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-aktivitaten-9095"
-  },
-  {
-   "slug": "gitter-zuordnung-backerei-1545",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-backerei-eaf8",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "bakery",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-backerei-1545"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-backerei-eaf8"
   },
   {
-   "slug": "gitter-zuordnung-bauernhoftiere-9368",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-bauernhoftiere-2de5",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "farm_animals",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-bauernhoftiere-9368"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-bauernhoftiere-2de5"
   },
   {
-   "slug": "gitter-zuordnung-baume-0f87",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-baume-6043",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "tree",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-baume-0f87"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-baume-6043"
   },
   {
-   "slug": "gitter-zuordnung-berufe-584f",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-berufe-a31b",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "occupations",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-berufe-584f"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-berufe-a31b"
   },
   {
-   "slug": "gitter-zuordnung-blumen-0126",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-blumen-b93c",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "flowers",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-blumen-0126"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-blumen-b93c"
   },
   {
-   "slug": "gitter-zuordnung-camping-077d",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-camping-9abc",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "camping",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-camping-077d"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-camping-9abc"
   },
   {
-   "slug": "gitter-zuordnung-desserts-und-sussigkeiten-421d",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-desserts-und-sussigkeiten-a641",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "desserts_and_sweets",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-desserts-und-sussigkeiten-421d"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-desserts-und-sussigkeiten-a641"
   },
   {
-   "slug": "gitter-zuordnung-dinge-die-fliegen-69c2",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-dinge-die-fliegen-943c",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "things_that_fly",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-dinge-die-fliegen-69c2"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-dinge-die-fliegen-943c"
   },
   {
-   "slug": "gitter-zuordnung-dinosaurier-c33c",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-dinosaurier-15f8",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "dinosaurs",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-dinosaurier-c33c"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-dinosaurier-15f8"
   },
   {
-   "slug": "gitter-zuordnung-emotionen-aa7d",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "emotions",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-emotionen-aa7d"
-  },
-  {
-   "slug": "gitter-zuordnung-erntedankfest-c02b",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-erntedankfest-07d8",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "thanksgivinng",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-erntedankfest-c02b"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-erntedankfest-07d8"
   },
   {
-   "slug": "gitter-zuordnung-fahrzeuge-a99d",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-fahrzeuge-11bc",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "vehicles",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-fahrzeuge-a99d"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-fahrzeuge-11bc"
   },
   {
-   "slug": "gitter-zuordnung-formen-f443",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-formen-7cac",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "shapes",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-formen-f443"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-formen-7cac"
   },
   {
-   "slug": "gitter-zuordnung-fruchte-007c",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-fruchte-26d6",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "fruits",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-fruchte-007c"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-fruchte-26d6"
   },
   {
-   "slug": "gitter-zuordnung-fruhling-2a6b",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "spring",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-fruhling-2a6b"
-  },
-  {
-   "slug": "gitter-zuordnung-fruhstuck-a498",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-fruhstuck-93f1",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "breakfast",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-fruhstuck-a498"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-fruhstuck-93f1"
   },
   {
-   "slug": "gitter-zuordnung-gemuse-d88c",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-gemuse-1dc4",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "vegetables",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-gemuse-d88c"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-gemuse-1dc4"
   },
   {
-   "slug": "gitter-zuordnung-haustiere-fcb9",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-haustiere-c152",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "pets",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-haustiere-fcb9"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-haustiere-c152"
   },
   {
-   "slug": "gitter-zuordnung-im-supermarkt-1dcf",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-im-supermarkt-4271",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "at_the_supermarket",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-im-supermarkt-1dcf"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-im-supermarkt-4271"
   },
   {
-   "slug": "gitter-zuordnung-insekten-und-kafer-b96d",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-insekten-und-kafer-8017",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "insects_and_bugs",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-insekten-und-kafer-b96d"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-insekten-und-kafer-8017"
   },
   {
-   "slug": "gitter-zuordnung-klassenzimmer-91cd",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-klassenzimmer-aa1f",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "classroom",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-klassenzimmer-91cd"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-klassenzimmer-aa1f"
   },
   {
-   "slug": "gitter-zuordnung-kleidung-8d9f",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-kleidung-eeee",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "clothing",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-kleidung-8d9f"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-kleidung-eeee"
   },
   {
-   "slug": "gitter-zuordnung-korperteile-2c7b",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-korperteile-2c7b"
-  },
-  {
-   "slug": "gitter-zuordnung-krankenhaus-1b1a",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-krankenhaus-c93b",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "hospital",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-krankenhaus-1b1a"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-krankenhaus-c93b"
   },
   {
-   "slug": "gitter-zuordnung-kuchenwerkzeuge-40a7",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-kuchenwerkzeuge-3c8e",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "kitchen_tools",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-kuchenwerkzeuge-40a7"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-kuchenwerkzeuge-3c8e"
   },
   {
-   "slug": "gitter-zuordnung-meeresleben-18aa",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-meeresleben-55ad",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "ocean_life",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-meeresleben-18aa"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-meeresleben-55ad"
   },
   {
-   "slug": "gitter-zuordnung-mobel-ef6e",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-mobel-c269",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "furniture",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-mobel-ef6e"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-mobel-c269"
   },
   {
-   "slug": "gitter-zuordnung-musik-ea48",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-musik-3b33",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "music",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-musik-ea48"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-musik-3b33"
   },
   {
-   "slug": "gitter-zuordnung-ostern-20ee",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-ostern-5ce4",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "easter",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-ostern-20ee"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-ostern-5ce4"
   },
   {
-   "slug": "gitter-zuordnung-postamt-ccd4",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-postamt-33fb",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "post_office",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-postamt-ccd4"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-postamt-33fb"
   },
   {
-   "slug": "gitter-zuordnung-reptilien-und-amphibien-9bf0",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-reptilien-und-amphibien-2a7d",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "reptiles_and_amphibians",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-reptilien-und-amphibien-9bf0"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-reptilien-und-amphibien-2a7d"
   },
   {
-   "slug": "gitter-zuordnung-rund-ums-haus-3014",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-rund-ums-haus-c485",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "around_the_house",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-rund-ums-haus-3014"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-rund-ums-haus-c485"
   },
   {
-   "slug": "gitter-zuordnung-sommer-0634",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "summer",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-sommer-0634"
-  },
-  {
-   "slug": "gitter-zuordnung-spielzeug-e77f",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-spielzeug-9b8b",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "toys",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-spielzeug-e77f"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-spielzeug-9b8b"
   },
   {
-   "slug": "gitter-zuordnung-strand-de05",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-strand-5b60",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "beach",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-strand-de05"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-strand-5b60"
   },
   {
-   "slug": "gitter-zuordnung-tiere",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-tiere",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "animals",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-tiere"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-tiere"
   },
   {
-   "slug": "gitter-zuordnung-vogel-2-265d",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-vogel-2-585c",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "birds_2",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-vogel-2-265d"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-vogel-2-585c"
   },
   {
-   "slug": "gitter-zuordnung-vogel-2ab2",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-vogel-3cb8",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "birds",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-vogel-2ab2"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-vogel-3cb8"
   },
   {
-   "slug": "gitter-zuordnung-waldtiere-b066",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-waldtiere-3049",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "forest_creatures",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-waldtiere-b066"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-waldtiere-3049"
   },
   {
-   "slug": "gitter-zuordnung-weihnachten-76ca",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-weihnachten-9717",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "christmas",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-weihnachten-76ca"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-weihnachten-9717"
   },
   {
-   "slug": "gitter-zuordnung-weltraum-ff76",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-weltraum-207e",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "space",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-weltraum-ff76"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-weltraum-207e"
   },
   {
-   "slug": "gitter-zuordnung-werkzeuge-aac9",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "tools",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-werkzeuge-aac9"
-  },
-  {
-   "slug": "gitter-zuordnung-wetter-86ff",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "weather",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-wetter-86ff"
-  },
-  {
-   "slug": "gitter-zuordnung-winter-af35",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "winter",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-winter-af35"
-  },
-  {
-   "slug": "gitter-zuordnung-zootiere-da0a",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "subtraktion-durchstreichen-zootiere-fa91",
+   "type": "subtraction",
+   "mode": "cross-out",
    "theme": "zoo_animals",
-   "level": "vorschule",
-   "deck": "gitter-zuordnung-zootiere-da0a"
+   "level": "1-klasse",
+   "deck": "subtraktion-durchstreichen-zootiere-fa91"
   },
   {
-   "slug": "englisch-zuordnung-namen-4-juli-017b",
-   "type": "matching",
-   "mode": "name",
-   "theme": "4th_of_july",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-4-juli-017b"
-  },
-  {
-   "slug": "englisch-zuordnung-namen-accessoires-5a65",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-accessoires-8969",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "accessories",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-accessoires-5a65"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-accessoires-8969"
   },
   {
-   "slug": "englisch-zuordnung-namen-aktivitaten-0a08",
-   "type": "matching",
-   "mode": "name",
-   "theme": "activities",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-aktivitaten-0a08"
-  },
-  {
-   "slug": "englisch-zuordnung-namen-backerei-d770",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-backerei-b015",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "bakery",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-backerei-d770"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-backerei-b015"
   },
   {
-   "slug": "englisch-zuordnung-namen-bauernhoftiere-5198",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-bauernhoftiere-3a60",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "farm_animals",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-bauernhoftiere-5198"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-bauernhoftiere-3a60"
   },
   {
-   "slug": "englisch-zuordnung-namen-berufe-470d",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-baume-3f77",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "tree",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-baume-3f77"
+  },
+  {
+   "slug": "subtraktion-subtrahend-finden-berufe-113f",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "occupations",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-berufe-470d"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-berufe-113f"
   },
   {
-   "slug": "englisch-zuordnung-namen-blumen-3ea8",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-blumen-2cf5",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "flowers",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-blumen-3ea8"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-blumen-2cf5"
   },
   {
-   "slug": "englisch-zuordnung-namen-camping-7dd9",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-camping-45e5",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "camping",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-camping-7dd9"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-camping-45e5"
   },
   {
-   "slug": "englisch-zuordnung-namen-desserts-und-sussigkeiten-e5a3",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-desserts-und-sussigkeiten-66eb",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "desserts_and_sweets",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-desserts-und-sussigkeiten-e5a3"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-desserts-und-sussigkeiten-66eb"
   },
   {
-   "slug": "englisch-zuordnung-namen-dinge-die-fliegen-b452",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-dinge-die-fliegen-e6e0",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "things_that_fly",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-dinge-die-fliegen-b452"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-dinge-die-fliegen-e6e0"
   },
   {
-   "slug": "englisch-zuordnung-namen-emotionen-d7e9",
-   "type": "matching",
-   "mode": "name",
-   "theme": "emotions",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-emotionen-d7e9"
+   "slug": "subtraktion-subtrahend-finden-dinosaurier-c19a",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
+   "theme": "dinosaurs",
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-dinosaurier-c19a"
   },
   {
-   "slug": "englisch-zuordnung-namen-erntedankfest-0806",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-erntedankfest-3e34",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "thanksgivinng",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-erntedankfest-0806"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-erntedankfest-3e34"
   },
   {
-   "slug": "englisch-zuordnung-namen-fahrzeuge-7a3f",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-fahrzeuge-0f7d",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "vehicles",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-fahrzeuge-7a3f"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-fahrzeuge-0f7d"
   },
   {
-   "slug": "englisch-zuordnung-namen-farben-c3ad",
-   "type": "matching",
-   "mode": "name",
-   "theme": "colors",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-farben-c3ad"
-  },
-  {
-   "slug": "englisch-zuordnung-namen-formen-35f2",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-formen-0814",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "shapes",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-formen-35f2"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-formen-0814"
   },
   {
-   "slug": "englisch-zuordnung-namen-fruchte-bfee",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-fruchte-5b09",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "fruits",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-fruchte-bfee"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-fruchte-5b09"
   },
   {
-   "slug": "englisch-zuordnung-namen-fruhling-93a6",
-   "type": "matching",
-   "mode": "name",
-   "theme": "spring",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-fruhling-93a6"
-  },
-  {
-   "slug": "englisch-zuordnung-namen-fruhstuck-c00b",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-fruhstuck-d0ab",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "breakfast",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-fruhstuck-c00b"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-fruhstuck-d0ab"
   },
   {
-   "slug": "englisch-zuordnung-namen-gemuse-0423",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-gemuse-433e",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "vegetables",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-gemuse-0423"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-gemuse-433e"
   },
   {
-   "slug": "englisch-zuordnung-namen-haustiere-2f34",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-haustiere-4b20",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "pets",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-haustiere-2f34"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-haustiere-4b20"
   },
   {
-   "slug": "englisch-zuordnung-namen-im-supermarkt-a1a5",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-im-supermarkt-928f",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "at_the_supermarket",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-im-supermarkt-a1a5"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-im-supermarkt-928f"
   },
   {
-   "slug": "englisch-zuordnung-namen-insekten-und-kafer-3009",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-insekten-und-kafer-1a5c",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "insects_and_bugs",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-insekten-und-kafer-3009"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-insekten-und-kafer-1a5c"
   },
   {
-   "slug": "englisch-zuordnung-namen-klassenzimmer-39b3",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-klassenzimmer-b3fb",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "classroom",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-klassenzimmer-39b3"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-klassenzimmer-b3fb"
   },
   {
-   "slug": "englisch-zuordnung-namen-kleidung-c3a1",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-kleidung-d3e7",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "clothing",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-kleidung-c3a1"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-kleidung-d3e7"
   },
   {
-   "slug": "englisch-zuordnung-namen-korperteile-97ca",
-   "type": "matching",
-   "mode": "name",
-   "theme": "body_parts",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-korperteile-97ca"
-  },
-  {
-   "slug": "englisch-zuordnung-namen-krankenhaus-a0c3",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-krankenhaus-ad77",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "hospital",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-krankenhaus-a0c3"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-krankenhaus-ad77"
   },
   {
-   "slug": "englisch-zuordnung-namen-kuchenwerkzeuge-5c8e",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-kuchenwerkzeuge-555c",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "kitchen_tools",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-kuchenwerkzeuge-5c8e"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-kuchenwerkzeuge-555c"
   },
   {
-   "slug": "englisch-zuordnung-namen-meeresleben-e40e",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-meeresleben-f169",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "ocean_life",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-meeresleben-e40e"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-meeresleben-f169"
   },
   {
-   "slug": "englisch-zuordnung-namen-mobel-0551",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-mobel-fb2f",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "furniture",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-mobel-0551"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-mobel-fb2f"
   },
   {
-   "slug": "englisch-zuordnung-namen-musik-1803",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-musik-6df8",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "music",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-musik-1803"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-musik-6df8"
   },
   {
-   "slug": "englisch-zuordnung-namen-ostern-5b85",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-ostern-74f5",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "easter",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-ostern-5b85"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-ostern-74f5"
   },
   {
-   "slug": "englisch-zuordnung-namen-postamt-005f",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-postamt-88e3",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "post_office",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-postamt-005f"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-postamt-88e3"
   },
   {
-   "slug": "englisch-zuordnung-namen-reptilien-und-amphibien-8b33",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-reptilien-und-amphibien-7ab1",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "reptiles_and_amphibians",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-reptilien-und-amphibien-8b33"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-reptilien-und-amphibien-7ab1"
   },
   {
-   "slug": "englisch-zuordnung-namen-rund-ums-haus-1b74",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-rund-ums-haus-0dd1",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "around_the_house",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-rund-ums-haus-1b74"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-rund-ums-haus-0dd1"
   },
   {
-   "slug": "englisch-zuordnung-namen-sommer-9467",
-   "type": "matching",
-   "mode": "name",
-   "theme": "summer",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-sommer-9467"
-  },
-  {
-   "slug": "englisch-zuordnung-namen-spielzeug-1eaf",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-spielzeug-f6c9",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "toys",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-spielzeug-1eaf"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-spielzeug-f6c9"
   },
   {
-   "slug": "englisch-zuordnung-namen-strand-0dd4",
-   "type": "matching",
-   "mode": "name",
-   "theme": "beach",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-strand-0dd4"
-  },
-  {
-   "slug": "englisch-zuordnung-namen-tiere-038e",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-tiere-806b",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "animals",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-tiere-038e"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-tiere-806b"
   },
   {
-   "slug": "englisch-zuordnung-namen-vogel-2-1df2",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-vogel-2-01c2",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "birds_2",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-vogel-2-1df2"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-vogel-2-01c2"
   },
   {
-   "slug": "englisch-zuordnung-namen-vogel-e028",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-vogel-9777",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "birds",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-vogel-e028"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-vogel-9777"
   },
   {
-   "slug": "englisch-zuordnung-namen-waldtiere-cdda",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-waldtiere-206a",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "forest_creatures",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-waldtiere-cdda"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-waldtiere-206a"
   },
   {
-   "slug": "englisch-zuordnung-namen-weihnachten-c41e",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-weihnachten-c8ec",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "christmas",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-weihnachten-c41e"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-weihnachten-c8ec"
   },
   {
-   "slug": "englisch-zuordnung-namen-weltraum-cd54",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-weltraum-adde",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "space",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-weltraum-cd54"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-weltraum-adde"
   },
   {
-   "slug": "englisch-zuordnung-namen-werkzeuge-918b",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-werkzeuge-7acd",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "tools",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-werkzeuge-918b"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-werkzeuge-7acd"
   },
   {
-   "slug": "englisch-zuordnung-namen-wetter-6872",
-   "type": "matching",
-   "mode": "name",
-   "theme": "weather",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-wetter-6872"
-  },
-  {
-   "slug": "englisch-zuordnung-namen-winter-5292",
-   "type": "matching",
-   "mode": "name",
-   "theme": "winter",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-winter-5292"
-  },
-  {
-   "slug": "englisch-zuordnung-namen-zootiere-412a",
-   "type": "matching",
-   "mode": "name",
+   "slug": "subtraktion-subtrahend-finden-zootiere-fe80",
+   "type": "subtraction",
+   "mode": "find-subtrahend",
    "theme": "zoo_animals",
-   "level": "language-beginner",
-   "deck": "englisch-zuordnung-namen-zootiere-412a"
+   "level": "1-klasse",
+   "deck": "subtraktion-subtrahend-finden-zootiere-fe80"
   }
  ]
 }

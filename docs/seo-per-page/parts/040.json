@@ -2,763 +2,523 @@
  "part": 40,
  "locale": "en",
  "classes": [
-  "code-addition::secret-word",
-  "find-and-count::spot-and-count"
+  "find-objects::i-spy",
+  "bingo::null"
  ],
  "splitOf": null,
- "count": 94,
+ "count": 64,
  "pages": [
   {
-   "slug": "code-addition-secret-word-4th-of-july",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "4th_of_july",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-4th-of-july"
-  },
-  {
-   "slug": "code-addition-secret-word-accessories",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "accessories",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-accessories"
-  },
-  {
-   "slug": "code-addition-secret-word-animals",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "animals",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-animals"
-  },
-  {
-   "slug": "code-addition-secret-word-around-the-house",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "around_the_house",
-   "level": "grade-1",
-   "deck": "code-addition-secret-word-around-the-house"
-  },
-  {
-   "slug": "code-addition-secret-word-at-the-supermarket",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "at_the_supermarket",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-at-the-supermarket"
-  },
-  {
-   "slug": "code-addition-secret-word-bakery",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "bakery",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-bakery"
-  },
-  {
-   "slug": "code-addition-secret-word-beach",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "beach",
-   "level": "grade-1",
-   "deck": "code-addition-secret-word-beach"
-  },
-  {
-   "slug": "code-addition-secret-word-birds",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "birds",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-birds"
-  },
-  {
-   "slug": "code-addition-secret-word-birds-2",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "birds_2",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-birds-2"
-  },
-  {
-   "slug": "code-addition-secret-word-body-parts",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "body_parts",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-body-parts"
-  },
-  {
-   "slug": "code-addition-secret-word-breakfast",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "breakfast",
-   "level": "grade-1",
-   "deck": "code-addition-secret-word-breakfast"
-  },
-  {
-   "slug": "code-addition-secret-word-camping",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "camping",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-camping"
-  },
-  {
-   "slug": "code-addition-secret-word-christmas",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "christmas",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-christmas"
-  },
-  {
-   "slug": "code-addition-secret-word-classroom",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "classroom",
-   "level": "grade-1",
-   "deck": "code-addition-secret-word-classroom"
-  },
-  {
-   "slug": "code-addition-secret-word-clothing",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "clothing",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-clothing"
-  },
-  {
-   "slug": "code-addition-secret-word-colors",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "colors",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-colors"
-  },
-  {
-   "slug": "code-addition-secret-word-desserts-and-sweets",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "desserts_and_sweets",
-   "level": "grade-1",
-   "deck": "code-addition-secret-word-desserts-and-sweets"
-  },
-  {
-   "slug": "code-addition-secret-word-dinosaurs",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "dinosaurs",
-   "level": "grade-1",
-   "deck": "code-addition-secret-word-dinosaurs"
-  },
-  {
-   "slug": "code-addition-secret-word-easter",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "easter",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-easter"
-  },
-  {
-   "slug": "code-addition-secret-word-emotions",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "emotions",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-emotions"
-  },
-  {
-   "slug": "code-addition-secret-word-flowers",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "flowers",
-   "level": "grade-1",
-   "deck": "code-addition-secret-word-flowers"
-  },
-  {
-   "slug": "code-addition-secret-word-forest-creatures",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "forest_creatures",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-forest-creatures"
-  },
-  {
-   "slug": "code-addition-secret-word-fruits",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "fruits",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-fruits"
-  },
-  {
-   "slug": "code-addition-secret-word-furniture",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "furniture",
-   "level": "grade-1",
-   "deck": "code-addition-secret-word-furniture"
-  },
-  {
-   "slug": "code-addition-secret-word-hospital",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "hospital",
-   "level": "grade-1",
-   "deck": "code-addition-secret-word-hospital"
-  },
-  {
-   "slug": "code-addition-secret-word-insects-and-bugs",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "insects_and_bugs",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-insects-and-bugs"
-  },
-  {
-   "slug": "code-addition-secret-word-kitchen-tools",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "kitchen_tools",
-   "level": "grade-1",
-   "deck": "code-addition-secret-word-kitchen-tools"
-  },
-  {
-   "slug": "code-addition-secret-word-miscellaneous",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "miscellaneous",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-miscellaneous"
-  },
-  {
-   "slug": "code-addition-secret-word-music",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "music",
-   "level": "grade-1",
-   "deck": "code-addition-secret-word-music"
-  },
-  {
-   "slug": "code-addition-secret-word-occupations",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "occupations",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-occupations"
-  },
-  {
-   "slug": "code-addition-secret-word-ocean-life",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "ocean_life",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-ocean-life"
-  },
-  {
-   "slug": "code-addition-secret-word-pets",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "pets",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-pets"
-  },
-  {
-   "slug": "code-addition-secret-word-post-office",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "post_office",
-   "level": "grade-1",
-   "deck": "code-addition-secret-word-post-office"
-  },
-  {
-   "slug": "code-addition-secret-word-reptiles-and-amphibians",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "reptiles_and_amphibians",
-   "level": "grade-1",
-   "deck": "code-addition-secret-word-reptiles-and-amphibians"
-  },
-  {
-   "slug": "code-addition-secret-word-shapes",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "shapes",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-shapes"
-  },
-  {
-   "slug": "code-addition-secret-word-space",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "space",
-   "level": "grade-1",
-   "deck": "code-addition-secret-word-space"
-  },
-  {
-   "slug": "code-addition-secret-word-summer",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "summer",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-summer"
-  },
-  {
-   "slug": "code-addition-secret-word-thanksgiving",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "thanksgivinng",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-thanksgiving"
-  },
-  {
-   "slug": "code-addition-secret-word-things-that-fly",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "things_that_fly",
-   "level": "grade-1",
-   "deck": "code-addition-secret-word-things-that-fly"
-  },
-  {
-   "slug": "code-addition-secret-word-tools",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "tools",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-tools"
-  },
-  {
-   "slug": "code-addition-secret-word-toys",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "toys",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-toys"
-  },
-  {
-   "slug": "code-addition-secret-word-tree",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "tree",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-tree"
-  },
-  {
-   "slug": "code-addition-secret-word-vegetables",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "vegetables",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-vegetables"
-  },
-  {
-   "slug": "code-addition-secret-word-vehicles",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "vehicles",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-vehicles"
-  },
-  {
-   "slug": "code-addition-secret-word-weather",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "weather",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-weather"
-  },
-  {
-   "slug": "code-addition-secret-word-winter",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "winter",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-winter"
-  },
-  {
-   "slug": "code-addition-secret-word-zoo-animals",
-   "type": "code-addition",
-   "mode": "secret-word",
-   "theme": "zoo_animals",
-   "level": "grade-2",
-   "deck": "code-addition-secret-word-zoo-animals"
-  },
-  {
-   "slug": "find-and-count-4th-of-july-kindergarten",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-4th-of-july-a825",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "4th_of_july",
    "level": "kindergarten",
-   "deck": "find-and-count-4th-of-july"
+   "deck": "find-objects-i-spy-4th-of-july-a825"
   },
   {
-   "slug": "find-and-count-accessories-kindergarten",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-accessories-39c9",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "accessories",
    "level": "kindergarten",
-   "deck": "find-and-count-accessories"
+   "deck": "find-objects-i-spy-accessories-39c9"
   },
   {
-   "slug": "find-and-count-activities-kindergarten",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-activities-38b1",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "activities",
    "level": "kindergarten",
-   "deck": "find-and-count-activities"
+   "deck": "find-objects-i-spy-activities-38b1"
   },
   {
-   "slug": "find-and-count-animals-kindergarten",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-animals-ea31",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "animals",
    "level": "kindergarten",
-   "deck": "find-and-count-animals"
+   "deck": "find-objects-i-spy-animals-ea31"
   },
   {
-   "slug": "find-and-count-around-the-house-kindergarten",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
-   "theme": "around_the_house",
-   "level": "kindergarten",
-   "deck": "find-and-count-around-the-house"
-  },
-  {
-   "slug": "find-and-count-at-the-supermarket-kindergarten",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-at-the-supermarket-0b16",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "at_the_supermarket",
    "level": "kindergarten",
-   "deck": "find-and-count-at-the-supermarket"
+   "deck": "find-objects-i-spy-at-the-supermarket-0b16"
   },
   {
-   "slug": "find-and-count-bakery-kindergarten",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-bakery-1571",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "bakery",
    "level": "kindergarten",
-   "deck": "find-and-count-bakery"
+   "deck": "find-objects-i-spy-bakery-1571"
   },
   {
-   "slug": "find-and-count-beach-kindergarten",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-beach-9e03",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "beach",
    "level": "kindergarten",
-   "deck": "find-and-count-beach"
+   "deck": "find-objects-i-spy-beach-9e03"
   },
   {
-   "slug": "find-and-count-birds",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-birds-11cb",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "birds",
    "level": "kindergarten",
-   "deck": "find-and-count-birds"
+   "deck": "find-objects-i-spy-birds-11cb"
   },
   {
-   "slug": "find-and-count-birds-2",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-birds-2-5a42",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "birds_2",
    "level": "kindergarten",
-   "deck": "find-and-count-birds-2"
+   "deck": "find-objects-i-spy-birds-2-5a42"
   },
   {
-   "slug": "find-and-count-body-parts-kindergarten",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-body-parts-0745",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "body_parts",
    "level": "kindergarten",
-   "deck": "find-and-count-body-parts"
+   "deck": "find-objects-i-spy-body-parts-0745"
   },
   {
-   "slug": "find-and-count-breakfast-kindergarten",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-breakfast-63b6",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "breakfast",
    "level": "kindergarten",
-   "deck": "find-and-count-breakfast"
+   "deck": "find-objects-i-spy-breakfast-63b6"
   },
   {
-   "slug": "find-and-count-camping-kindergarten",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-camping-bf2a",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "camping",
    "level": "kindergarten",
-   "deck": "find-and-count-camping"
+   "deck": "find-objects-i-spy-camping-bf2a"
   },
   {
-   "slug": "find-and-count-christmas-kindergarten",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-christmas-7a10",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "christmas",
    "level": "kindergarten",
-   "deck": "find-and-count-christmas"
+   "deck": "find-objects-i-spy-christmas-7a10"
   },
   {
-   "slug": "find-and-count-classroom-kindergarten",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-classroom-344b",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "classroom",
    "level": "kindergarten",
-   "deck": "find-and-count-classroom"
+   "deck": "find-objects-i-spy-classroom-344b"
   },
   {
-   "slug": "find-and-count-clothing-kindergarten",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-clothing-eb13",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "clothing",
    "level": "kindergarten",
-   "deck": "find-and-count-clothing"
+   "deck": "find-objects-i-spy-clothing-eb13"
   },
   {
-   "slug": "find-and-count-desserts-and-sweets-kindergarten",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-desserts-and-sweets-95b8",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "desserts_and_sweets",
    "level": "kindergarten",
-   "deck": "find-and-count-desserts-and-sweets"
+   "deck": "find-objects-i-spy-desserts-and-sweets-95b8"
   },
   {
-   "slug": "find-and-count-dinosaurs",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-dinosaurs-2e73",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "dinosaurs",
    "level": "kindergarten",
-   "deck": "find-and-count-dinosaurs"
+   "deck": "find-objects-i-spy-dinosaurs-2e73"
   },
   {
-   "slug": "find-and-count-easter-kindergarten",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-easter-d7ea",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "easter",
    "level": "kindergarten",
-   "deck": "find-and-count-easter"
+   "deck": "find-objects-i-spy-easter-d7ea"
   },
   {
-   "slug": "find-and-count-emotions",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-emotions-c297",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "emotions",
    "level": "kindergarten",
-   "deck": "find-and-count-emotions"
+   "deck": "find-objects-i-spy-emotions-c297"
   },
   {
-   "slug": "find-and-count-farm-animals-kindergarten",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-farm-animals-8ae7",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "farm_animals",
    "level": "kindergarten",
-   "deck": "find-and-count-farm-animals"
+   "deck": "find-objects-i-spy-farm-animals-8ae7"
   },
   {
-   "slug": "find-and-count-forest-creatures-kindergarten",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-flowers-a763",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "flowers",
+   "level": "kindergarten",
+   "deck": "find-objects-i-spy-flowers-a763"
+  },
+  {
+   "slug": "find-objects-i-spy-forest-creatures-3075",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "forest_creatures",
    "level": "kindergarten",
-   "deck": "find-and-count-forest-creatures"
+   "deck": "find-objects-i-spy-forest-creatures-3075"
   },
   {
-   "slug": "find-and-count-fruits-kindergarten",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-fruits-7e6d",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "fruits",
    "level": "kindergarten",
-   "deck": "find-and-count-fruits"
+   "deck": "find-objects-i-spy-fruits-7e6d"
   },
   {
-   "slug": "find-and-count-furniture-kindergarten",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-furniture-468c",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "furniture",
    "level": "kindergarten",
-   "deck": "find-and-count-furniture"
+   "deck": "find-objects-i-spy-furniture-468c"
   },
   {
-   "slug": "find-and-count-hospital-kindergarten",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-hospital-cdaf",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "hospital",
    "level": "kindergarten",
-   "deck": "find-and-count-hospital"
+   "deck": "find-objects-i-spy-hospital-cdaf"
   },
   {
-   "slug": "find-and-count-insects-and-bugs-kindergarten",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-insects-and-bugs-3532",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "insects_and_bugs",
    "level": "kindergarten",
-   "deck": "find-and-count-insects-and-bugs"
+   "deck": "find-objects-i-spy-insects-and-bugs-3532"
   },
   {
-   "slug": "find-and-count-kitchen-tools-kindergarten",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-kitchen-tools-2a96",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "kitchen_tools",
    "level": "kindergarten",
-   "deck": "find-and-count-kitchen-tools"
+   "deck": "find-objects-i-spy-kitchen-tools-2a96"
   },
   {
-   "slug": "find-and-count-miscellaneous",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
-   "theme": "miscellaneous",
-   "level": "kindergarten",
-   "deck": "find-and-count-miscellaneous"
-  },
-  {
-   "slug": "find-and-count-music-kindergarten",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-music-dcc8",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "music",
    "level": "kindergarten",
-   "deck": "find-and-count-music"
+   "deck": "find-objects-i-spy-music-dcc8"
   },
   {
-   "slug": "find-and-count-occupations",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-occupations-cfa6",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "occupations",
    "level": "kindergarten",
-   "deck": "find-and-count-occupations"
+   "deck": "find-objects-i-spy-occupations-cfa6"
   },
   {
-   "slug": "find-and-count-ocean-life",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-ocean-life-14ea",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "ocean_life",
    "level": "kindergarten",
-   "deck": "find-and-count-ocean-life"
+   "deck": "find-objects-i-spy-ocean-life-14ea"
   },
   {
-   "slug": "find-and-count-pets",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-pets-7161",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "pets",
    "level": "kindergarten",
-   "deck": "find-and-count-pets"
+   "deck": "find-objects-i-spy-pets-7161"
   },
   {
-   "slug": "find-and-count-post-office",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-post-office-b512",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "post_office",
    "level": "kindergarten",
-   "deck": "find-and-count-post-office"
+   "deck": "find-objects-i-spy-post-office-b512"
   },
   {
-   "slug": "find-and-count-reptiles-and-amphibians",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-reptiles-and-amphibians-a9b9",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "reptiles_and_amphibians",
    "level": "kindergarten",
-   "deck": "find-and-count-reptiles-and-amphibians"
+   "deck": "find-objects-i-spy-reptiles-and-amphibians-a9b9"
   },
   {
-   "slug": "find-and-count-shapes",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-shapes-bf03",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "shapes",
    "level": "kindergarten",
-   "deck": "find-and-count-shapes"
+   "deck": "find-objects-i-spy-shapes-bf03"
   },
   {
-   "slug": "find-and-count-space",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-space-79f1",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "space",
    "level": "kindergarten",
-   "deck": "find-and-count-space"
+   "deck": "find-objects-i-spy-space-79f1"
   },
   {
-   "slug": "find-and-count-spring",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-spring-c3b0",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "spring",
    "level": "kindergarten",
-   "deck": "find-and-count-spring"
+   "deck": "find-objects-i-spy-spring-c3b0"
   },
   {
-   "slug": "find-and-count-summer",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
-   "theme": "summer",
-   "level": "kindergarten",
-   "deck": "find-and-count-summer"
-  },
-  {
-   "slug": "find-and-count-thanksgiving",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-thanksgiving-b548",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "thanksgivinng",
    "level": "kindergarten",
-   "deck": "find-and-count-thanksgivinng"
+   "deck": "find-objects-i-spy-thanksgiving-b548"
   },
   {
-   "slug": "find-and-count-tools",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-things-that-fly-4d1c",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "things_that_fly",
+   "level": "kindergarten",
+   "deck": "find-objects-i-spy-things-that-fly-4d1c"
+  },
+  {
+   "slug": "find-objects-i-spy-tools-b4f9",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "tools",
    "level": "kindergarten",
-   "deck": "find-and-count-tools"
+   "deck": "find-objects-i-spy-tools-b4f9"
   },
   {
-   "slug": "find-and-count-toys",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-toys-0b06",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "toys",
    "level": "kindergarten",
-   "deck": "find-and-count-toys"
+   "deck": "find-objects-i-spy-toys-0b06"
   },
   {
-   "slug": "find-and-count-tree",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-trees-7630",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "tree",
    "level": "kindergarten",
-   "deck": "find-and-count-tree"
+   "deck": "find-objects-i-spy-trees-7630"
   },
   {
-   "slug": "find-and-count-vegetables",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-vegetables-f576",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "vegetables",
    "level": "kindergarten",
-   "deck": "find-and-count-vegetables"
+   "deck": "find-objects-i-spy-vegetables-f576"
   },
   {
-   "slug": "find-and-count-vehicles-kindergarten",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-vehicles-6dca",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "vehicles",
    "level": "kindergarten",
-   "deck": "find-and-count-vehicles"
+   "deck": "find-objects-i-spy-vehicles-6dca"
   },
   {
-   "slug": "find-and-count-weather",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-weather-e938",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "weather",
    "level": "kindergarten",
-   "deck": "find-and-count-weather"
+   "deck": "find-objects-i-spy-weather-e938"
   },
   {
-   "slug": "find-and-count-winter-kindergarten",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-winter-fdc5",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "winter",
    "level": "kindergarten",
-   "deck": "find-and-count-winter"
+   "deck": "find-objects-i-spy-winter-fdc5"
   },
   {
-   "slug": "find-and-count-zoo-animals-kindergarten",
-   "type": "find-and-count",
-   "mode": "spot-and-count",
+   "slug": "find-objects-i-spy-zoo-animals-193a",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "zoo_animals",
    "level": "kindergarten",
-   "deck": "find-and-count-zoo-animals"
+   "deck": "find-objects-i-spy-zoo-animals-193a"
+  },
+  {
+   "slug": "bingo-accessories-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "accessories",
+   "level": "kindergarten",
+   "deck": "bingo-accessories"
+  },
+  {
+   "slug": "bingo-activities-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "activities",
+   "level": "kindergarten",
+   "deck": "bingo-activities"
+  },
+  {
+   "slug": "bingo-animals-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "animals",
+   "level": "kindergarten",
+   "deck": "bingo"
+  },
+  {
+   "slug": "bingo-around-the-house-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "kindergarten",
+   "deck": "bingo-around-the-house"
+  },
+  {
+   "slug": "bingo-at-the-supermarket",
+   "type": "bingo",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "bingo-at-the-supermarket"
+  },
+  {
+   "slug": "bingo-beach-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "beach",
+   "level": "kindergarten",
+   "deck": "bingo-beach"
+  },
+  {
+   "slug": "bingo-body-parts-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "kindergarten",
+   "deck": "bingo-body-parts"
+  },
+  {
+   "slug": "bingo-camping-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "camping",
+   "level": "kindergarten",
+   "deck": "bingo-camping"
+  },
+  {
+   "slug": "bingo-classroom-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "classroom",
+   "level": "kindergarten",
+   "deck": "bingo-classroom"
+  },
+  {
+   "slug": "bingo-clothing-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "clothing",
+   "level": "kindergarten",
+   "deck": "bingo-clothing"
+  },
+  {
+   "slug": "bingo-forest-creatures-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "bingo-forest-creatures"
+  },
+  {
+   "slug": "bingo-kitchen-tools-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "kindergarten",
+   "deck": "bingo-kitchen-tools"
+  },
+  {
+   "slug": "bingo-occupations-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "occupations",
+   "level": "kindergarten",
+   "deck": "bingo-occupations"
+  },
+  {
+   "slug": "bingo-spring-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "spring",
+   "level": "kindergarten",
+   "deck": "bingo-spring"
+  },
+  {
+   "slug": "bingo-summer-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "summer",
+   "level": "kindergarten",
+   "deck": "bingo-summer"
+  },
+  {
+   "slug": "bingo-toys-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "toys",
+   "level": "kindergarten",
+   "deck": "bingo-toys"
+  },
+  {
+   "slug": "bingo-vehicles-kindergarten",
+   "type": "bingo",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "kindergarten",
+   "deck": "bingo-vehicles"
+  },
+  {
+   "slug": "bingo-zoo-animals",
+   "type": "bingo",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "kindergarten",
+   "deck": "bingo-zoo-animals"
   }
  ]
 }

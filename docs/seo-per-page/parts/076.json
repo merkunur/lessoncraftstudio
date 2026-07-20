@@ -2,583 +2,575 @@
  "part": 76,
  "locale": "es",
  "classes": [
-  "matching::name"
+  "wordsearch::null"
  ],
  "splitOf": {
-  "class": "matching::name",
+  "class": "wordsearch::null",
   "total": 141,
-  "chunk": 1,
+  "chunk": 2,
   "chunks": 2
  },
- "count": 71,
+ "count": 70,
  "pages": [
   {
-   "slug": "emparejar-nombres-4-de-julio-98be",
-   "type": "matching",
-   "mode": "name",
-   "theme": "4th_of_july",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-4-de-julio-98be"
-  },
-  {
-   "slug": "emparejar-nombres-accesorios-0c61",
-   "type": "matching",
-   "mode": "name",
-   "theme": "accessories",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-accesorios-0c61"
-  },
-  {
-   "slug": "emparejar-nombres-actividades-6a7e",
-   "type": "matching",
-   "mode": "name",
-   "theme": "activities",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-actividades-6a7e"
-  },
-  {
-   "slug": "emparejar-nombres-alrededor-de-la-casa-c2a2",
-   "type": "matching",
-   "mode": "name",
-   "theme": "around_the_house",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-alrededor-de-la-casa-c2a2"
-  },
-  {
-   "slug": "emparejar-nombres-animales-84ef",
-   "type": "matching",
-   "mode": "name",
-   "theme": "animals",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-animales-84ef"
-  },
-  {
-   "slug": "emparejar-nombres-animales-de-granja-e984",
-   "type": "matching",
-   "mode": "name",
-   "theme": "farm_animals",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-animales-de-granja-e984"
-  },
-  {
-   "slug": "emparejar-nombres-animales-del-zoologico-0007",
-   "type": "matching",
-   "mode": "name",
-   "theme": "zoo_animals",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-animales-del-zoologico-0007"
-  },
-  {
-   "slug": "emparejar-nombres-aves-2-63f7",
-   "type": "matching",
-   "mode": "name",
-   "theme": "birds_2",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-aves-2-63f7"
-  },
-  {
-   "slug": "emparejar-nombres-aves-6a1e",
-   "type": "matching",
-   "mode": "name",
-   "theme": "birds",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-aves-6a1e"
-  },
-  {
-   "slug": "emparejar-nombres-campamento-e81a",
-   "type": "matching",
-   "mode": "name",
-   "theme": "camping",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-campamento-e81a"
-  },
-  {
-   "slug": "emparejar-nombres-clima-bb27",
-   "type": "matching",
-   "mode": "name",
-   "theme": "weather",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-clima-bb27"
-  },
-  {
-   "slug": "emparejar-nombres-colores-2fb5",
-   "type": "matching",
-   "mode": "name",
-   "theme": "colors",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-colores-2fb5"
-  },
-  {
-   "slug": "emparejar-nombres-cosas-que-vuelan-bc61",
-   "type": "matching",
-   "mode": "name",
-   "theme": "things_that_fly",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-cosas-que-vuelan-bc61"
-  },
-  {
-   "slug": "emparejar-nombres-criaturas-del-bosque-5bed",
-   "type": "matching",
-   "mode": "name",
-   "theme": "forest_creatures",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-criaturas-del-bosque-5bed"
-  },
-  {
-   "slug": "emparejar-nombres-desayuno-df75",
-   "type": "matching",
-   "mode": "name",
-   "theme": "breakfast",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-desayuno-df75"
-  },
-  {
-   "slug": "emparejar-nombres-dia-de-accion-de-gracias-78f4",
-   "type": "matching",
-   "mode": "name",
-   "theme": "thanksgivinng",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-dia-de-accion-de-gracias-78f4"
-  },
-  {
-   "slug": "emparejar-nombres-emociones-59a1",
-   "type": "matching",
-   "mode": "name",
-   "theme": "emotions",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-emociones-59a1"
-  },
-  {
-   "slug": "emparejar-nombres-en-el-supermercado-d053",
-   "type": "matching",
-   "mode": "name",
-   "theme": "at_the_supermarket",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-en-el-supermercado-d053"
-  },
-  {
-   "slug": "emparejar-nombres-espacio-79a5",
-   "type": "matching",
-   "mode": "name",
-   "theme": "space",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-espacio-79a5"
-  },
-  {
-   "slug": "emparejar-nombres-flores-da92",
-   "type": "matching",
-   "mode": "name",
-   "theme": "flowers",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-flores-da92"
-  },
-  {
-   "slug": "emparejar-nombres-formas-192a",
-   "type": "matching",
-   "mode": "name",
-   "theme": "shapes",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-formas-192a"
-  },
-  {
-   "slug": "emparejar-nombres-frutas-0daa",
-   "type": "matching",
-   "mode": "name",
-   "theme": "fruits",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-frutas-0daa"
-  },
-  {
-   "slug": "emparejar-nombres-herramientas-7989",
-   "type": "matching",
-   "mode": "name",
-   "theme": "tools",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-herramientas-7989"
-  },
-  {
-   "slug": "emparejar-nombres-hospital-6143",
-   "type": "matching",
-   "mode": "name",
-   "theme": "hospital",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-hospital-6143"
-  },
-  {
-   "slug": "emparejar-nombres-insectos-y-bichos-0907",
-   "type": "matching",
-   "mode": "name",
+   "slug": "portugues-sopa-de-letras-insectos-y-bichos-0252",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "insects_and_bugs",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-insectos-y-bichos-0907"
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-insectos-y-bichos-0252"
   },
   {
-   "slug": "emparejar-nombres-invierno-17b9",
-   "type": "matching",
-   "mode": "name",
+   "slug": "portugues-sopa-de-letras-invierno-d0d9",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "winter",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-invierno-17b9"
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-invierno-d0d9"
   },
   {
-   "slug": "emparejar-nombres-juguetes-c470",
-   "type": "matching",
-   "mode": "name",
+   "slug": "portugues-sopa-de-letras-juguetes-de52",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "toys",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-juguetes-c470"
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-juguetes-de52"
   },
   {
-   "slug": "emparejar-nombres-mascotas-5f3d",
-   "type": "matching",
-   "mode": "name",
+   "slug": "portugues-sopa-de-letras-mascotas-7f82",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "pets",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-mascotas-5f3d"
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-mascotas-7f82"
   },
   {
-   "slug": "emparejar-nombres-miscelaneo-7259",
-   "type": "matching",
-   "mode": "name",
-   "theme": "miscellaneous",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-miscelaneo-7259"
-  },
-  {
-   "slug": "emparejar-nombres-muebles-4898",
-   "type": "matching",
-   "mode": "name",
+   "slug": "portugues-sopa-de-letras-muebles-2f63",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "furniture",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-muebles-4898"
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-muebles-2f63"
   },
   {
-   "slug": "emparejar-nombres-musica-da12",
-   "type": "matching",
-   "mode": "name",
+   "slug": "portugues-sopa-de-letras-musica-325d",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "music",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-musica-da12"
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-musica-325d"
   },
   {
-   "slug": "emparejar-nombres-navidad-fa38",
-   "type": "matching",
-   "mode": "name",
+   "slug": "portugues-sopa-de-letras-navidad-5877",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "christmas",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-navidad-fa38"
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-navidad-5877"
   },
   {
-   "slug": "emparejar-nombres-ocupaciones-ab08",
-   "type": "matching",
-   "mode": "name",
+   "slug": "portugues-sopa-de-letras-ocupaciones-b3ef",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "occupations",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-ocupaciones-ab08"
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-ocupaciones-b3ef"
   },
   {
-   "slug": "emparejar-nombres-oficina-de-correos-522e",
-   "type": "matching",
-   "mode": "name",
+   "slug": "portugues-sopa-de-letras-oficina-de-correos-9f44",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "post_office",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-oficina-de-correos-522e"
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-oficina-de-correos-9f44"
   },
   {
-   "slug": "emparejar-nombres-panaderia-77c7",
-   "type": "matching",
-   "mode": "name",
+   "slug": "portugues-sopa-de-letras-panaderia-5fb1",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "bakery",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-panaderia-77c7"
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-panaderia-5fb1"
   },
   {
-   "slug": "emparejar-nombres-partes-del-cuerpo-0069",
-   "type": "matching",
-   "mode": "name",
+   "slug": "portugues-sopa-de-letras-partes-del-cuerpo-eb46",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "body_parts",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-partes-del-cuerpo-0069"
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-partes-del-cuerpo-eb46"
   },
   {
-   "slug": "emparejar-nombres-pascua-6eee",
-   "type": "matching",
-   "mode": "name",
+   "slug": "portugues-sopa-de-letras-pascua-1c33",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "easter",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-pascua-6eee"
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-pascua-1c33"
   },
   {
-   "slug": "emparejar-nombres-playa-ed16",
-   "type": "matching",
-   "mode": "name",
+   "slug": "portugues-sopa-de-letras-playa-8807",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "beach",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-playa-ed16"
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-playa-8807"
   },
   {
-   "slug": "emparejar-nombres-postres-y-dulces-4512",
-   "type": "matching",
-   "mode": "name",
+   "slug": "portugues-sopa-de-letras-postres-y-dulces-ca41",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "desserts_and_sweets",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-postres-y-dulces-4512"
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-postres-y-dulces-ca41"
   },
   {
-   "slug": "emparejar-nombres-ropa-d200",
-   "type": "matching",
-   "mode": "name",
+   "slug": "portugues-sopa-de-letras-primavera-c092",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "spring",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-primavera-c092"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-reptiles-y-anfibios-085f",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-reptiles-y-anfibios-085f"
+  },
+  {
+   "slug": "portugues-sopa-de-letras-ropa-139e",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "clothing",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-ropa-d200"
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-ropa-139e"
   },
   {
-   "slug": "emparejar-nombres-salon-de-clases-1889",
-   "type": "matching",
-   "mode": "name",
+   "slug": "portugues-sopa-de-letras-salon-de-clases-3a4a",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "classroom",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-salon-de-clases-1889"
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-salon-de-clases-3a4a"
   },
   {
-   "slug": "emparejar-nombres-utensilios-de-cocina-8fcd",
-   "type": "matching",
-   "mode": "name",
+   "slug": "portugues-sopa-de-letras-utensilios-de-cocina-5e91",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "kitchen_tools",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-utensilios-de-cocina-8fcd"
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-utensilios-de-cocina-5e91"
   },
   {
-   "slug": "emparejar-nombres-vehiculos-63df",
-   "type": "matching",
-   "mode": "name",
+   "slug": "portugues-sopa-de-letras-vehiculos-63df",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "vehicles",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-vehiculos-63df"
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-vehiculos-63df"
   },
   {
-   "slug": "emparejar-nombres-verano-7faa",
-   "type": "matching",
-   "mode": "name",
+   "slug": "portugues-sopa-de-letras-verano-3e24",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "summer",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-verano-7faa"
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-verano-3e24"
   },
   {
-   "slug": "emparejar-nombres-verduras-0100",
-   "type": "matching",
-   "mode": "name",
+   "slug": "portugues-sopa-de-letras-verduras-c2dd",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "vegetables",
-   "level": "primer-grado",
-   "deck": "emparejar-nombres-verduras-0100"
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-verduras-c2dd"
   },
   {
-   "slug": "emparejar-nombres-vida-marina-c0c2",
-   "type": "matching",
-   "mode": "name",
+   "slug": "portugues-sopa-de-letras-vida-marina-21d3",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "language-beginner",
+   "deck": "portugues-sopa-de-letras-vida-marina-21d3"
+  },
+  {
+   "slug": "sopa-de-letras",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "ocean_life",
    "level": "primer-grado",
-   "deck": "emparejar-nombres-vida-marina-c0c2"
+   "deck": "sopa-de-letras"
   },
   {
-   "slug": "ingles-emparejar-nombres-4-de-julio-5164",
-   "type": "matching",
-   "mode": "name",
+   "slug": "sopa-de-letras-4-de-julio-6b8d",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "4th_of_july",
-   "level": "language-beginner",
-   "deck": "ingles-emparejar-nombres-4-de-julio-5164"
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-4-de-julio-6b8d"
   },
   {
-   "slug": "ingles-emparejar-nombres-accesorios-c1f0",
-   "type": "matching",
-   "mode": "name",
+   "slug": "sopa-de-letras-accesorios-74dc",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "accessories",
-   "level": "language-beginner",
-   "deck": "ingles-emparejar-nombres-accesorios-c1f0"
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-accesorios-74dc"
   },
   {
-   "slug": "ingles-emparejar-nombres-actividades-59d9",
-   "type": "matching",
-   "mode": "name",
+   "slug": "sopa-de-letras-actividades-200f",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "activities",
-   "level": "language-beginner",
-   "deck": "ingles-emparejar-nombres-actividades-59d9"
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-actividades-200f"
   },
   {
-   "slug": "ingles-emparejar-nombres-alrededor-de-la-casa-720b",
-   "type": "matching",
-   "mode": "name",
-   "theme": "around_the_house",
-   "level": "language-beginner",
-   "deck": "ingles-emparejar-nombres-alrededor-de-la-casa-720b"
-  },
-  {
-   "slug": "ingles-emparejar-nombres-animales-de-granja-dbdc",
-   "type": "matching",
-   "mode": "name",
-   "theme": "farm_animals",
-   "level": "language-beginner",
-   "deck": "ingles-emparejar-nombres-animales-de-granja-dbdc"
-  },
-  {
-   "slug": "ingles-emparejar-nombres-animales-del-zoologico-6d13",
-   "type": "matching",
-   "mode": "name",
-   "theme": "zoo_animals",
-   "level": "language-beginner",
-   "deck": "ingles-emparejar-nombres-animales-del-zoologico-6d13"
-  },
-  {
-   "slug": "ingles-emparejar-nombres-animales-eb73",
-   "type": "matching",
-   "mode": "name",
+   "slug": "sopa-de-letras-animales-766e",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "animals",
-   "level": "language-beginner",
-   "deck": "ingles-emparejar-nombres-animales-eb73"
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-animales-766e"
   },
   {
-   "slug": "ingles-emparejar-nombres-aves-2-d6c0",
-   "type": "matching",
-   "mode": "name",
-   "theme": "birds_2",
-   "level": "language-beginner",
-   "deck": "ingles-emparejar-nombres-aves-2-d6c0"
+   "slug": "sopa-de-letras-animales-de-granja-d206",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-animales-de-granja-d206"
   },
   {
-   "slug": "ingles-emparejar-nombres-aves-d40f",
-   "type": "matching",
-   "mode": "name",
+   "slug": "sopa-de-letras-animales-del-zoologico-a929",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-animales-del-zoologico-a929"
+  },
+  {
+   "slug": "sopa-de-letras-arboles-b64b",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "tree",
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-arboles-b64b"
+  },
+  {
+   "slug": "sopa-de-letras-aves-f097",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "birds",
-   "level": "language-beginner",
-   "deck": "ingles-emparejar-nombres-aves-d40f"
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-aves-f097"
   },
   {
-   "slug": "ingles-emparejar-nombres-campamento-8ca7",
-   "type": "matching",
-   "mode": "name",
+   "slug": "sopa-de-letras-campamento-11f0",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "camping",
-   "level": "language-beginner",
-   "deck": "ingles-emparejar-nombres-campamento-8ca7"
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-campamento-11f0"
   },
   {
-   "slug": "ingles-emparejar-nombres-clima-1be3",
-   "type": "matching",
-   "mode": "name",
+   "slug": "sopa-de-letras-clima-7263",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "weather",
-   "level": "language-beginner",
-   "deck": "ingles-emparejar-nombres-clima-1be3"
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-clima-7263"
   },
   {
-   "slug": "ingles-emparejar-nombres-colores-2cd4",
-   "type": "matching",
-   "mode": "name",
+   "slug": "sopa-de-letras-colores-caf0",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "colors",
-   "level": "language-beginner",
-   "deck": "ingles-emparejar-nombres-colores-2cd4"
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-colores-caf0"
   },
   {
-   "slug": "ingles-emparejar-nombres-cosas-que-vuelan-2f6d",
-   "type": "matching",
-   "mode": "name",
+   "slug": "sopa-de-letras-cosas-que-vuelan-2d2f",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "things_that_fly",
-   "level": "language-beginner",
-   "deck": "ingles-emparejar-nombres-cosas-que-vuelan-2f6d"
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-cosas-que-vuelan-2d2f"
   },
   {
-   "slug": "ingles-emparejar-nombres-criaturas-del-bosque-4315",
-   "type": "matching",
-   "mode": "name",
+   "slug": "sopa-de-letras-criaturas-del-bosque-4b60",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "forest_creatures",
-   "level": "language-beginner",
-   "deck": "ingles-emparejar-nombres-criaturas-del-bosque-4315"
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-criaturas-del-bosque-4b60"
   },
   {
-   "slug": "ingles-emparejar-nombres-desayuno-5e39",
-   "type": "matching",
-   "mode": "name",
+   "slug": "sopa-de-letras-desayuno-ea70",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "breakfast",
-   "level": "language-beginner",
-   "deck": "ingles-emparejar-nombres-desayuno-5e39"
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-desayuno-ea70"
   },
   {
-   "slug": "ingles-emparejar-nombres-dia-de-accion-de-gracias-9f9a",
-   "type": "matching",
-   "mode": "name",
+   "slug": "sopa-de-letras-dia-de-accion-de-gracias-3c2b",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "thanksgivinng",
-   "level": "language-beginner",
-   "deck": "ingles-emparejar-nombres-dia-de-accion-de-gracias-9f9a"
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-dia-de-accion-de-gracias-3c2b"
   },
   {
-   "slug": "ingles-emparejar-nombres-emociones-f2bc",
-   "type": "matching",
-   "mode": "name",
+   "slug": "sopa-de-letras-emociones-08e3",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "emotions",
-   "level": "language-beginner",
-   "deck": "ingles-emparejar-nombres-emociones-f2bc"
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-emociones-08e3"
   },
   {
-   "slug": "ingles-emparejar-nombres-en-el-supermercado-5330",
-   "type": "matching",
-   "mode": "name",
+   "slug": "sopa-de-letras-en-el-supermercado-8c13",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "at_the_supermarket",
-   "level": "language-beginner",
-   "deck": "ingles-emparejar-nombres-en-el-supermercado-5330"
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-en-el-supermercado-8c13"
   },
   {
-   "slug": "ingles-emparejar-nombres-espacio-9b6b",
-   "type": "matching",
-   "mode": "name",
+   "slug": "sopa-de-letras-espacio-1f17",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "space",
-   "level": "language-beginner",
-   "deck": "ingles-emparejar-nombres-espacio-9b6b"
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-espacio-1f17"
   },
   {
-   "slug": "ingles-emparejar-nombres-flores-bca3",
-   "type": "matching",
-   "mode": "name",
+   "slug": "sopa-de-letras-flores-2101",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "flowers",
-   "level": "language-beginner",
-   "deck": "ingles-emparejar-nombres-flores-bca3"
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-flores-2101"
   },
   {
-   "slug": "ingles-emparejar-nombres-formas-2c79",
-   "type": "matching",
-   "mode": "name",
+   "slug": "sopa-de-letras-formas-6712",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "shapes",
-   "level": "language-beginner",
-   "deck": "ingles-emparejar-nombres-formas-2c79"
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-formas-6712"
   },
   {
-   "slug": "ingles-emparejar-nombres-frutas-f8d7",
-   "type": "matching",
-   "mode": "name",
+   "slug": "sopa-de-letras-frutas-e5ba",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "fruits",
-   "level": "language-beginner",
-   "deck": "ingles-emparejar-nombres-frutas-f8d7"
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-frutas-e5ba"
   },
   {
-   "slug": "ingles-emparejar-nombres-herramientas-542f",
-   "type": "matching",
-   "mode": "name",
+   "slug": "sopa-de-letras-herramientas-a8f8",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "tools",
-   "level": "language-beginner",
-   "deck": "ingles-emparejar-nombres-herramientas-542f"
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-herramientas-a8f8"
   },
   {
-   "slug": "ingles-emparejar-nombres-hospital-6c9a",
-   "type": "matching",
-   "mode": "name",
+   "slug": "sopa-de-letras-hospital-3136",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "hospital",
-   "level": "language-beginner",
-   "deck": "ingles-emparejar-nombres-hospital-6c9a"
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-hospital-3136"
   },
   {
-   "slug": "ingles-emparejar-nombres-insectos-y-bichos-4662",
-   "type": "matching",
-   "mode": "name",
+   "slug": "sopa-de-letras-insectos-y-bichos-0064",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "insects_and_bugs",
-   "level": "language-beginner",
-   "deck": "ingles-emparejar-nombres-insectos-y-bichos-4662"
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-insectos-y-bichos-0064"
+  },
+  {
+   "slug": "sopa-de-letras-invierno-9dea",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "winter",
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-invierno-9dea"
+  },
+  {
+   "slug": "sopa-de-letras-juguetes-fdfb",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "toys",
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-juguetes-fdfb"
+  },
+  {
+   "slug": "sopa-de-letras-mascotas-cc0c",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "pets",
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-mascotas-cc0c"
+  },
+  {
+   "slug": "sopa-de-letras-miscelaneo-3593",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "miscellaneous",
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-miscelaneo-3593"
+  },
+  {
+   "slug": "sopa-de-letras-muebles-86d3",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "furniture",
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-muebles-86d3"
+  },
+  {
+   "slug": "sopa-de-letras-musica-ed09",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "music",
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-musica-ed09"
+  },
+  {
+   "slug": "sopa-de-letras-navidad-e828",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "christmas",
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-navidad-e828"
+  },
+  {
+   "slug": "sopa-de-letras-ocupaciones-4338",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "occupations",
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-ocupaciones-4338"
+  },
+  {
+   "slug": "sopa-de-letras-oficina-de-correos-2985",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "post_office",
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-oficina-de-correos-2985"
+  },
+  {
+   "slug": "sopa-de-letras-panaderia-7dc5",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "bakery",
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-panaderia-7dc5"
+  },
+  {
+   "slug": "sopa-de-letras-partes-del-cuerpo-52a5",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-partes-del-cuerpo-52a5"
+  },
+  {
+   "slug": "sopa-de-letras-pascua-e35a",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "easter",
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-pascua-e35a"
+  },
+  {
+   "slug": "sopa-de-letras-playa-f07b",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "beach",
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-playa-f07b"
+  },
+  {
+   "slug": "sopa-de-letras-postres-y-dulces-89c6",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-postres-y-dulces-89c6"
+  },
+  {
+   "slug": "sopa-de-letras-primavera-6b9c",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "spring",
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-primavera-6b9c"
+  },
+  {
+   "slug": "sopa-de-letras-reptiles-y-anfibios-733f",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-reptiles-y-anfibios-733f"
+  },
+  {
+   "slug": "sopa-de-letras-ropa-92b3",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "clothing",
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-ropa-92b3"
+  },
+  {
+   "slug": "sopa-de-letras-salon-de-clases-1dce",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "classroom",
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-salon-de-clases-1dce"
+  },
+  {
+   "slug": "sopa-de-letras-utensilios-de-cocina-2119",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-utensilios-de-cocina-2119"
+  },
+  {
+   "slug": "sopa-de-letras-vehiculos-f5ef",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-vehiculos-f5ef"
+  },
+  {
+   "slug": "sopa-de-letras-verano-79a9",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "summer",
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-verano-79a9"
+  },
+  {
+   "slug": "sopa-de-letras-verduras-07d6",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "primer-grado",
+   "deck": "sopa-de-letras-verduras-07d6"
   }
  ]
 }

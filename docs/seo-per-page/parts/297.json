@@ -2,779 +2,746 @@
  "part": 297,
  "locale": "no",
  "classes": [
-  "pattern-train::aab",
-  "pattern-train::aabb"
+  "matching::name"
  ],
  "splitOf": null,
- "count": 96,
+ "count": 92,
  "pages": [
   {
-   "slug": "monstertoget-aab-aktiviteter-0493",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-4-juli-5869",
+   "type": "matching",
+   "mode": "name",
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-4-juli-5869"
+  },
+  {
+   "slug": "engelsk-matching-navn-aktiviteter-0eae",
+   "type": "matching",
+   "mode": "name",
    "theme": "activities",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-aktiviteter-0493"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-aktiviteter-0eae"
   },
   {
-   "slug": "monstertoget-aab-bakeri-aee6",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-bakeri-019a",
+   "type": "matching",
+   "mode": "name",
    "theme": "bakery",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-bakeri-aee6"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-bakeri-019a"
   },
   {
-   "slug": "monstertoget-aab-blomster-9344",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-blomster-43b3",
+   "type": "matching",
+   "mode": "name",
    "theme": "flowers",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-blomster-9344"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-blomster-43b3"
   },
   {
-   "slug": "monstertoget-aab-camping-9b8a",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-camping-a900",
+   "type": "matching",
+   "mode": "name",
    "theme": "camping",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-camping-9b8a"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-camping-a900"
   },
   {
-   "slug": "monstertoget-aab-desserter-og-godteri-d836",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-desserter-og-godteri-ee44",
+   "type": "matching",
+   "mode": "name",
    "theme": "desserts_and_sweets",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-desserter-og-godteri-d836"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-desserter-og-godteri-ee44"
   },
   {
-   "slug": "monstertoget-aab-dinosaurer-6798",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "dinosaurs",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-dinosaurer-6798"
-  },
-  {
-   "slug": "monstertoget-aab-dyr-0de8",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-dyr-33a7",
+   "type": "matching",
+   "mode": "name",
    "theme": "animals",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-dyr-0de8"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-dyr-33a7"
   },
   {
-   "slug": "monstertoget-aab-dyrehagedyr-77c4",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-dyrehagedyr-c486",
+   "type": "matching",
+   "mode": "name",
    "theme": "zoo_animals",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-dyrehagedyr-77c4"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-dyrehagedyr-c486"
   },
   {
-   "slug": "monstertoget-aab-farger-44b4",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-farger-33db",
+   "type": "matching",
+   "mode": "name",
    "theme": "colors",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-farger-44b4"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-farger-33db"
   },
   {
-   "slug": "monstertoget-aab-folelser-942a",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-folelser-4ed4",
+   "type": "matching",
+   "mode": "name",
    "theme": "emotions",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-folelser-942a"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-folelser-4ed4"
   },
   {
-   "slug": "monstertoget-aab-former-6b90",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-former-4fc2",
+   "type": "matching",
+   "mode": "name",
    "theme": "shapes",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-former-6b90"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-former-4fc2"
   },
   {
-   "slug": "monstertoget-aab-frokost-b92c",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-frokost-3178",
+   "type": "matching",
+   "mode": "name",
    "theme": "breakfast",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-frokost-b92c"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-frokost-3178"
   },
   {
-   "slug": "monstertoget-aab-frukter-7cb9",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-frukter-baa2",
+   "type": "matching",
+   "mode": "name",
    "theme": "fruits",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-frukter-7cb9"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-frukter-baa2"
   },
   {
-   "slug": "monstertoget-aab-fugler-08fb",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "birds",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-fugler-08fb"
-  },
-  {
-   "slug": "monstertoget-aab-fugler-2-00f2",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-fugler-2-bc13",
+   "type": "matching",
+   "mode": "name",
    "theme": "birds_2",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-fugler-2-00f2"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-fugler-2-bc13"
   },
   {
-   "slug": "monstertoget-aab-gardsdyr-a669",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-fugler-22d8",
+   "type": "matching",
+   "mode": "name",
+   "theme": "birds",
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-fugler-22d8"
+  },
+  {
+   "slug": "engelsk-matching-navn-gardsdyr-e7be",
+   "type": "matching",
+   "mode": "name",
    "theme": "farm_animals",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-gardsdyr-a669"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-gardsdyr-e7be"
   },
   {
-   "slug": "monstertoget-aab-gronnsaker-9e8e",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-gronnsaker-21f8",
+   "type": "matching",
+   "mode": "name",
    "theme": "vegetables",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-gronnsaker-9e8e"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-gronnsaker-21f8"
   },
   {
-   "slug": "monstertoget-aab-havliv-bb68",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-havliv-7ff4",
+   "type": "matching",
+   "mode": "name",
    "theme": "ocean_life",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-havliv-bb68"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-havliv-7ff4"
   },
   {
-   "slug": "monstertoget-aab-i-supermarkedet-4e8b",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-i-supermarkedet-8231",
+   "type": "matching",
+   "mode": "name",
    "theme": "at_the_supermarket",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-i-supermarkedet-4e8b"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-i-supermarkedet-8231"
   },
   {
-   "slug": "monstertoget-aab-insekter-og-kryp-1f6a",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-insekter-og-kryp-cdad",
+   "type": "matching",
+   "mode": "name",
    "theme": "insects_and_bugs",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-insekter-og-kryp-1f6a"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-insekter-og-kryp-cdad"
   },
   {
-   "slug": "monstertoget-aab-jul-87cf",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-jul-cb87",
+   "type": "matching",
+   "mode": "name",
    "theme": "christmas",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-jul-87cf"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-jul-cb87"
   },
   {
-   "slug": "monstertoget-aab-kjaeledyr-f578",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-kjaeledyr-2db0",
+   "type": "matching",
+   "mode": "name",
    "theme": "pets",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-kjaeledyr-f578"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-kjaeledyr-2db0"
   },
   {
-   "slug": "monstertoget-aab-kjokkenredskaper-1159",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-kjokkenredskaper-ebdd",
+   "type": "matching",
+   "mode": "name",
    "theme": "kitchen_tools",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-kjokkenredskaper-1159"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-kjokkenredskaper-ebdd"
   },
   {
-   "slug": "monstertoget-aab-kjoretoy-68be",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-kjoretoy-f8e3",
+   "type": "matching",
+   "mode": "name",
    "theme": "vehicles",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-kjoretoy-68be"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-kjoretoy-f8e3"
   },
   {
-   "slug": "monstertoget-aab-klaer-c971",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-klaer-e6ee",
+   "type": "matching",
+   "mode": "name",
    "theme": "clothing",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-klaer-c971"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-klaer-e6ee"
   },
   {
-   "slug": "monstertoget-aab-klasserom-dbe0",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-klasserom-df82",
+   "type": "matching",
+   "mode": "name",
    "theme": "classroom",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-klasserom-dbe0"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-klasserom-df82"
   },
   {
-   "slug": "monstertoget-aab-kroppsdeler-a586",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-kroppsdeler-310a",
+   "type": "matching",
+   "mode": "name",
    "theme": "body_parts",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-kroppsdeler-a586"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-kroppsdeler-310a"
   },
   {
-   "slug": "monstertoget-aab-leker-0f99",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-leker-1a43",
+   "type": "matching",
+   "mode": "name",
    "theme": "toys",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-leker-0f99"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-leker-1a43"
   },
   {
-   "slug": "monstertoget-aab-mobler-26d8",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-mobler-46be",
+   "type": "matching",
+   "mode": "name",
    "theme": "furniture",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-mobler-26d8"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-mobler-46be"
   },
   {
-   "slug": "monstertoget-aab-musikk-769d",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-musikk-09a8",
+   "type": "matching",
+   "mode": "name",
    "theme": "music",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-musikk-769d"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-musikk-09a8"
   },
   {
-   "slug": "monstertoget-aab-paske-a1fa",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-paske-0912",
+   "type": "matching",
+   "mode": "name",
    "theme": "easter",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-paske-a1fa"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-paske-0912"
   },
   {
-   "slug": "monstertoget-aab-postkontor-e01f",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-postkontor-026c",
+   "type": "matching",
+   "mode": "name",
    "theme": "post_office",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-postkontor-e01f"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-postkontor-026c"
   },
   {
-   "slug": "monstertoget-aab-reptiler-og-amfibier-e7ba",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-reptiler-og-amfibier-c78c",
+   "type": "matching",
+   "mode": "name",
    "theme": "reptiles_and_amphibians",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-reptiler-og-amfibier-e7ba"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-reptiler-og-amfibier-c78c"
   },
   {
-   "slug": "monstertoget-aab-rundt-i-huset-55ed",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-rundt-i-huset-3a00",
+   "type": "matching",
+   "mode": "name",
    "theme": "around_the_house",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-rundt-i-huset-55ed"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-rundt-i-huset-3a00"
   },
   {
-   "slug": "monstertoget-aab-skogsdyr-2faa",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-skogsdyr-0b19",
+   "type": "matching",
+   "mode": "name",
    "theme": "forest_creatures",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-skogsdyr-2faa"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-skogsdyr-0b19"
   },
   {
-   "slug": "monstertoget-aab-sommer-d920",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-sommer-7f2b",
+   "type": "matching",
+   "mode": "name",
    "theme": "summer",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-sommer-d920"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-sommer-7f2b"
   },
   {
-   "slug": "monstertoget-aab-strand-0f97",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-strand-ae1f",
+   "type": "matching",
+   "mode": "name",
    "theme": "beach",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-strand-0f97"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-strand-ae1f"
   },
   {
-   "slug": "monstertoget-aab-sykehus-20ee",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-sykehus-835d",
+   "type": "matching",
+   "mode": "name",
    "theme": "hospital",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-sykehus-20ee"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-sykehus-835d"
   },
   {
-   "slug": "monstertoget-aab-thanksgiving-2577",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-thanksgiving-362b",
+   "type": "matching",
+   "mode": "name",
    "theme": "thanksgivinng",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-thanksgiving-2577"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-thanksgiving-362b"
   },
   {
-   "slug": "monstertoget-aab-tilbehor-27a4",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-tilbehor-d092",
+   "type": "matching",
+   "mode": "name",
    "theme": "accessories",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-tilbehor-27a4"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-tilbehor-d092"
   },
   {
-   "slug": "monstertoget-aab-ting-som-flyr-2ddb",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-ting-som-flyr-17b7",
+   "type": "matching",
+   "mode": "name",
    "theme": "things_that_fly",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-ting-som-flyr-2ddb"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-ting-som-flyr-17b7"
   },
   {
-   "slug": "monstertoget-aab-traer-4598",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "tree",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-traer-4598"
-  },
-  {
-   "slug": "monstertoget-aab-vaer-78dc",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-vaer-21a7",
+   "type": "matching",
+   "mode": "name",
    "theme": "weather",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-vaer-78dc"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-vaer-21a7"
   },
   {
-   "slug": "monstertoget-aab-var-e3dc",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-var-7d8c",
+   "type": "matching",
+   "mode": "name",
    "theme": "spring",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-var-e3dc"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-var-7d8c"
   },
   {
-   "slug": "monstertoget-aab-verdensrommet-a8b2",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-verdensrommet-a707",
+   "type": "matching",
+   "mode": "name",
    "theme": "space",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-verdensrommet-a8b2"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-verdensrommet-a707"
   },
   {
-   "slug": "monstertoget-aab-verktoy-8022",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-verktoy-af1c",
+   "type": "matching",
+   "mode": "name",
    "theme": "tools",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-verktoy-8022"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-verktoy-af1c"
   },
   {
-   "slug": "monstertoget-aab-vinter-4cb7",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-vinter-68e5",
+   "type": "matching",
+   "mode": "name",
    "theme": "winter",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-vinter-4cb7"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-vinter-68e5"
   },
   {
-   "slug": "monstertoget-aab-yrker-4e24",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "engelsk-matching-navn-yrker-ae3c",
+   "type": "matching",
+   "mode": "name",
    "theme": "occupations",
-   "level": "1-trinn",
-   "deck": "monstertoget-aab-yrker-4e24"
+   "level": "language-beginner",
+   "deck": "engelsk-matching-navn-yrker-ae3c"
   },
   {
-   "slug": "monstertoget-aabb-aktiviteter-79eb",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-aktiviteter-0366",
+   "type": "matching",
+   "mode": "name",
    "theme": "activities",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-aktiviteter-79eb"
+   "level": "2-trinn",
+   "deck": "matching-navn-aktiviteter-0366"
   },
   {
-   "slug": "monstertoget-aabb-bakeri-1521",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-bakeri-ff7b",
+   "type": "matching",
+   "mode": "name",
    "theme": "bakery",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-bakeri-1521"
+   "level": "2-trinn",
+   "deck": "matching-navn-bakeri-ff7b"
   },
   {
-   "slug": "monstertoget-aabb-blomster-2074",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-blomster-ceb5",
+   "type": "matching",
+   "mode": "name",
    "theme": "flowers",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-blomster-2074"
+   "level": "2-trinn",
+   "deck": "matching-navn-blomster-ceb5"
   },
   {
-   "slug": "monstertoget-aabb-camping-dc4e",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-camping-205a",
+   "type": "matching",
+   "mode": "name",
    "theme": "camping",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-camping-dc4e"
+   "level": "2-trinn",
+   "deck": "matching-navn-camping-205a"
   },
   {
-   "slug": "monstertoget-aabb-desserter-og-godteri-e062",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-desserter-og-godteri-9499",
+   "type": "matching",
+   "mode": "name",
    "theme": "desserts_and_sweets",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-desserter-og-godteri-e062"
+   "level": "2-trinn",
+   "deck": "matching-navn-desserter-og-godteri-9499"
   },
   {
-   "slug": "monstertoget-aabb-dinosaurer-2de5",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "dinosaurs",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-dinosaurer-2de5"
-  },
-  {
-   "slug": "monstertoget-aabb-dyr-9f02",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-dyr-252c",
+   "type": "matching",
+   "mode": "name",
    "theme": "animals",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-dyr-9f02"
+   "level": "2-trinn",
+   "deck": "matching-navn-dyr-252c"
   },
   {
-   "slug": "monstertoget-aabb-dyrehagedyr-b95f",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-dyrehagedyr-0bbe",
+   "type": "matching",
+   "mode": "name",
    "theme": "zoo_animals",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-dyrehagedyr-b95f"
+   "level": "2-trinn",
+   "deck": "matching-navn-dyrehagedyr-0bbe"
   },
   {
-   "slug": "monstertoget-aabb-farger-839c",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-farger-ff5e",
+   "type": "matching",
+   "mode": "name",
    "theme": "colors",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-farger-839c"
+   "level": "2-trinn",
+   "deck": "matching-navn-farger-ff5e"
   },
   {
-   "slug": "monstertoget-aabb-folelser-20ba",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-folelser-3734",
+   "type": "matching",
+   "mode": "name",
    "theme": "emotions",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-folelser-20ba"
+   "level": "2-trinn",
+   "deck": "matching-navn-folelser-3734"
   },
   {
-   "slug": "monstertoget-aabb-former-2b15",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-former-02f8",
+   "type": "matching",
+   "mode": "name",
    "theme": "shapes",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-former-2b15"
+   "level": "2-trinn",
+   "deck": "matching-navn-former-02f8"
   },
   {
-   "slug": "monstertoget-aabb-frokost-c155",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-frokost-92b6",
+   "type": "matching",
+   "mode": "name",
    "theme": "breakfast",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-frokost-c155"
+   "level": "2-trinn",
+   "deck": "matching-navn-frokost-92b6"
   },
   {
-   "slug": "monstertoget-aabb-frukter-fe14",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-frukter-f3c3",
+   "type": "matching",
+   "mode": "name",
    "theme": "fruits",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-frukter-fe14"
+   "level": "2-trinn",
+   "deck": "matching-navn-frukter-f3c3"
   },
   {
-   "slug": "monstertoget-aabb-fugler-2-53dc",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-fugler-2-3632",
+   "type": "matching",
+   "mode": "name",
    "theme": "birds_2",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-fugler-2-53dc"
+   "level": "2-trinn",
+   "deck": "matching-navn-fugler-2-3632"
   },
   {
-   "slug": "monstertoget-aabb-fugler-e075",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-fugler-f710",
+   "type": "matching",
+   "mode": "name",
    "theme": "birds",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-fugler-e075"
+   "level": "2-trinn",
+   "deck": "matching-navn-fugler-f710"
   },
   {
-   "slug": "monstertoget-aabb-gardsdyr-4002",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-gardsdyr-b7b4",
+   "type": "matching",
+   "mode": "name",
    "theme": "farm_animals",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-gardsdyr-4002"
+   "level": "2-trinn",
+   "deck": "matching-navn-gardsdyr-b7b4"
   },
   {
-   "slug": "monstertoget-aabb-gronnsaker-81ed",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-gronnsaker-88a6",
+   "type": "matching",
+   "mode": "name",
    "theme": "vegetables",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-gronnsaker-81ed"
+   "level": "2-trinn",
+   "deck": "matching-navn-gronnsaker-88a6"
   },
   {
-   "slug": "monstertoget-aabb-havliv-22d7",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-havliv-ea3c",
+   "type": "matching",
+   "mode": "name",
    "theme": "ocean_life",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-havliv-22d7"
+   "level": "2-trinn",
+   "deck": "matching-navn-havliv-ea3c"
   },
   {
-   "slug": "monstertoget-aabb-i-supermarkedet-2655",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-i-supermarkedet-036c",
+   "type": "matching",
+   "mode": "name",
    "theme": "at_the_supermarket",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-i-supermarkedet-2655"
+   "level": "2-trinn",
+   "deck": "matching-navn-i-supermarkedet-036c"
   },
   {
-   "slug": "monstertoget-aabb-insekter-og-kryp-c5ab",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-insekter-og-kryp-2162",
+   "type": "matching",
+   "mode": "name",
    "theme": "insects_and_bugs",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-insekter-og-kryp-c5ab"
+   "level": "2-trinn",
+   "deck": "matching-navn-insekter-og-kryp-2162"
   },
   {
-   "slug": "monstertoget-aabb-jul-e1a6",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-jul-b275",
+   "type": "matching",
+   "mode": "name",
    "theme": "christmas",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-jul-e1a6"
+   "level": "2-trinn",
+   "deck": "matching-navn-jul-b275"
   },
   {
-   "slug": "monstertoget-aabb-kjaeledyr-f891",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-kjaeledyr-2cc5",
+   "type": "matching",
+   "mode": "name",
    "theme": "pets",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-kjaeledyr-f891"
+   "level": "2-trinn",
+   "deck": "matching-navn-kjaeledyr-2cc5"
   },
   {
-   "slug": "monstertoget-aabb-kjokkenredskaper-624e",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "kitchen_tools",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-kjokkenredskaper-624e"
-  },
-  {
-   "slug": "monstertoget-aabb-kjoretoy-b78d",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "vehicles",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-kjoretoy-b78d"
-  },
-  {
-   "slug": "monstertoget-aabb-klaer-4799",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-klaer-5c3e",
+   "type": "matching",
+   "mode": "name",
    "theme": "clothing",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-klaer-4799"
+   "level": "2-trinn",
+   "deck": "matching-navn-klaer-5c3e"
   },
   {
-   "slug": "monstertoget-aabb-klasserom-37e8",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-klasserom-b655",
+   "type": "matching",
+   "mode": "name",
    "theme": "classroom",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-klasserom-37e8"
+   "level": "2-trinn",
+   "deck": "matching-navn-klasserom-b655"
   },
   {
-   "slug": "monstertoget-aabb-kroppsdeler-081e",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-kroppsdeler-e713",
+   "type": "matching",
+   "mode": "name",
    "theme": "body_parts",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-kroppsdeler-081e"
+   "level": "2-trinn",
+   "deck": "matching-navn-kroppsdeler-e713"
   },
   {
-   "slug": "monstertoget-aabb-leker-6ea7",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-leker-ee1c",
+   "type": "matching",
+   "mode": "name",
    "theme": "toys",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-leker-6ea7"
+   "level": "2-trinn",
+   "deck": "matching-navn-leker-ee1c"
   },
   {
-   "slug": "monstertoget-aabb-mobler-56f3",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-mobler-cbb3",
+   "type": "matching",
+   "mode": "name",
    "theme": "furniture",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-mobler-56f3"
+   "level": "2-trinn",
+   "deck": "matching-navn-mobler-cbb3"
   },
   {
-   "slug": "monstertoget-aabb-musikk-a8e1",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-musikk-c83f",
+   "type": "matching",
+   "mode": "name",
    "theme": "music",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-musikk-a8e1"
+   "level": "2-trinn",
+   "deck": "matching-navn-musikk-c83f"
   },
   {
-   "slug": "monstertoget-aabb-paske-9186",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-paske-d6e4",
+   "type": "matching",
+   "mode": "name",
    "theme": "easter",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-paske-9186"
+   "level": "2-trinn",
+   "deck": "matching-navn-paske-d6e4"
   },
   {
-   "slug": "monstertoget-aabb-postkontor-07f9",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-postkontor-d5f3",
+   "type": "matching",
+   "mode": "name",
    "theme": "post_office",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-postkontor-07f9"
+   "level": "2-trinn",
+   "deck": "matching-navn-postkontor-d5f3"
   },
   {
-   "slug": "monstertoget-aabb-reptiler-og-amfibier-f745",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-reptiler-og-amfibier-65e4",
+   "type": "matching",
+   "mode": "name",
    "theme": "reptiles_and_amphibians",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-reptiler-og-amfibier-f745"
+   "level": "2-trinn",
+   "deck": "matching-navn-reptiler-og-amfibier-65e4"
   },
   {
-   "slug": "monstertoget-aabb-rundt-i-huset-1de0",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-rundt-i-huset-be12",
+   "type": "matching",
+   "mode": "name",
    "theme": "around_the_house",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-rundt-i-huset-1de0"
+   "level": "2-trinn",
+   "deck": "matching-navn-rundt-i-huset-be12"
   },
   {
-   "slug": "monstertoget-aabb-skogsdyr-8e8a",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-skogsdyr-2b05",
+   "type": "matching",
+   "mode": "name",
    "theme": "forest_creatures",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-skogsdyr-8e8a"
+   "level": "2-trinn",
+   "deck": "matching-navn-skogsdyr-2b05"
   },
   {
-   "slug": "monstertoget-aabb-sommer-c2bf",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-sommer-14e2",
+   "type": "matching",
+   "mode": "name",
    "theme": "summer",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-sommer-c2bf"
+   "level": "2-trinn",
+   "deck": "matching-navn-sommer-14e2"
   },
   {
-   "slug": "monstertoget-aabb-strand-72e2",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-strand-80df",
+   "type": "matching",
+   "mode": "name",
    "theme": "beach",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-strand-72e2"
+   "level": "2-trinn",
+   "deck": "matching-navn-strand-80df"
   },
   {
-   "slug": "monstertoget-aabb-sykehus-2aa8",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-sykehus-e533",
+   "type": "matching",
+   "mode": "name",
    "theme": "hospital",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-sykehus-2aa8"
+   "level": "2-trinn",
+   "deck": "matching-navn-sykehus-e533"
   },
   {
-   "slug": "monstertoget-aabb-thanksgiving-813c",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-thanksgiving-d3af",
+   "type": "matching",
+   "mode": "name",
    "theme": "thanksgivinng",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-thanksgiving-813c"
+   "level": "2-trinn",
+   "deck": "matching-navn-thanksgiving-d3af"
   },
   {
-   "slug": "monstertoget-aabb-tilbehor-4839",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-tilbehor-8e18",
+   "type": "matching",
+   "mode": "name",
    "theme": "accessories",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-tilbehor-4839"
+   "level": "2-trinn",
+   "deck": "matching-navn-tilbehor-8e18"
   },
   {
-   "slug": "monstertoget-aabb-ting-som-flyr-bc31",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-ting-som-flyr-cd8d",
+   "type": "matching",
+   "mode": "name",
    "theme": "things_that_fly",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-ting-som-flyr-bc31"
+   "level": "2-trinn",
+   "deck": "matching-navn-ting-som-flyr-cd8d"
   },
   {
-   "slug": "monstertoget-aabb-traer-a3f2",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-traer-4fec",
+   "type": "matching",
+   "mode": "name",
    "theme": "tree",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-traer-a3f2"
+   "level": "2-trinn",
+   "deck": "matching-navn-traer-4fec"
   },
   {
-   "slug": "monstertoget-aabb-vaer-0470",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-vaer-0dc3",
+   "type": "matching",
+   "mode": "name",
    "theme": "weather",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-vaer-0470"
+   "level": "2-trinn",
+   "deck": "matching-navn-vaer-0dc3"
   },
   {
-   "slug": "monstertoget-aabb-var-e076",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-var-2d39",
+   "type": "matching",
+   "mode": "name",
    "theme": "spring",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-var-e076"
+   "level": "2-trinn",
+   "deck": "matching-navn-var-2d39"
   },
   {
-   "slug": "monstertoget-aabb-verdensrommet-bede",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-verdensrommet-da4b",
+   "type": "matching",
+   "mode": "name",
    "theme": "space",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-verdensrommet-bede"
+   "level": "2-trinn",
+   "deck": "matching-navn-verdensrommet-da4b"
   },
   {
-   "slug": "monstertoget-aabb-verktoy-cc29",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-verktoy-81ec",
+   "type": "matching",
+   "mode": "name",
    "theme": "tools",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-verktoy-cc29"
+   "level": "2-trinn",
+   "deck": "matching-navn-verktoy-81ec"
   },
   {
-   "slug": "monstertoget-aabb-vinter-8934",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-vinter-32cb",
+   "type": "matching",
+   "mode": "name",
    "theme": "winter",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-vinter-8934"
+   "level": "2-trinn",
+   "deck": "matching-navn-vinter-32cb"
   },
   {
-   "slug": "monstertoget-aabb-yrker-216d",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matching-navn-yrker-82a5",
+   "type": "matching",
+   "mode": "name",
    "theme": "occupations",
-   "level": "1-trinn",
-   "deck": "monstertoget-aabb-yrker-216d"
+   "level": "2-trinn",
+   "deck": "matching-navn-yrker-82a5"
   }
  ]
 }

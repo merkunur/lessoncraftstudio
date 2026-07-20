@@ -2,763 +2,779 @@
  "part": 147,
  "locale": "fr",
  "classes": [
-  "grid-match::null",
-  "pattern-train::abb"
+  "pattern-train::aab",
+  "pattern-train::abc"
  ],
  "splitOf": null,
- "count": 94,
+ "count": 96,
  "pages": [
   {
-   "slug": "appariement-en-grille-accessoires-519b",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "train-de-modeles-aab-accessoires-0de6",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "accessories",
    "level": "maternelle",
-   "deck": "appariement-en-grille-accessoires-519b"
+   "deck": "train-de-modeles-aab-accessoires-0de6"
   },
   {
-   "slug": "appariement-en-grille-action-de-grace-a7ef",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "train-de-modeles-aab-action-de-grace-4d22",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "thanksgivinng",
    "level": "maternelle",
-   "deck": "appariement-en-grille-action-de-grace-a7ef"
+   "deck": "train-de-modeles-aab-action-de-grace-4d22"
   },
   {
-   "slug": "appariement-en-grille-activites-0e8e",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "train-de-modeles-aab-activites-c688",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "activities",
    "level": "maternelle",
-   "deck": "appariement-en-grille-activites-0e8e"
+   "deck": "train-de-modeles-aab-activites-c688"
   },
   {
-   "slug": "appariement-en-grille-animaux",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "train-de-modeles-aab-animaux-1667",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "animals",
    "level": "maternelle",
-   "deck": "appariement-en-grille-animaux"
+   "deck": "train-de-modeles-aab-animaux-1667"
   },
   {
-   "slug": "appariement-en-grille-animaux-de-compagnie-54ab",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "train-de-modeles-aab-animaux-de-compagnie-41cd",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "pets",
    "level": "maternelle",
-   "deck": "appariement-en-grille-animaux-de-compagnie-54ab"
+   "deck": "train-de-modeles-aab-animaux-de-compagnie-41cd"
   },
   {
-   "slug": "appariement-en-grille-animaux-de-la-ferme-43a8",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "train-de-modeles-aab-animaux-de-la-ferme-fee3",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "farm_animals",
    "level": "maternelle",
-   "deck": "appariement-en-grille-animaux-de-la-ferme-43a8"
+   "deck": "train-de-modeles-aab-animaux-de-la-ferme-fee3"
   },
   {
-   "slug": "appariement-en-grille-animaux-du-zoo-eb0a",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "train-de-modeles-aab-animaux-du-zoo-b06e",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "zoo_animals",
    "level": "maternelle",
-   "deck": "appariement-en-grille-animaux-du-zoo-eb0a"
+   "deck": "train-de-modeles-aab-animaux-du-zoo-b06e"
   },
   {
-   "slug": "appariement-en-grille-arbres-b6c6",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "train-de-modeles-aab-arbres-ccbf",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "tree",
    "level": "maternelle",
-   "deck": "appariement-en-grille-arbres-b6c6"
+   "deck": "train-de-modeles-aab-arbres-ccbf"
   },
   {
-   "slug": "appariement-en-grille-au-supermarche-99f2",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "train-de-modeles-aab-au-supermarche-ce6e",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "at_the_supermarket",
    "level": "maternelle",
-   "deck": "appariement-en-grille-au-supermarche-99f2"
+   "deck": "train-de-modeles-aab-au-supermarche-ce6e"
   },
   {
-   "slug": "appariement-en-grille-autour-de-la-maison-182e",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "train-de-modeles-aab-autour-de-la-maison-6e14",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "around_the_house",
    "level": "maternelle",
-   "deck": "appariement-en-grille-autour-de-la-maison-182e"
+   "deck": "train-de-modeles-aab-autour-de-la-maison-6e14"
   },
   {
-   "slug": "appariement-en-grille-boulangerie-b741",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "train-de-modeles-aab-boulangerie-f3dd",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "bakery",
    "level": "maternelle",
-   "deck": "appariement-en-grille-boulangerie-b741"
+   "deck": "train-de-modeles-aab-boulangerie-f3dd"
   },
   {
-   "slug": "appariement-en-grille-bureau-de-poste-6d65",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "train-de-modeles-aab-bureau-de-poste-7592",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "post_office",
    "level": "maternelle",
-   "deck": "appariement-en-grille-bureau-de-poste-6d65"
+   "deck": "train-de-modeles-aab-bureau-de-poste-7592"
   },
   {
-   "slug": "appariement-en-grille-camping-6cac",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "train-de-modeles-aab-camping-4b3b",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "camping",
    "level": "maternelle",
-   "deck": "appariement-en-grille-camping-6cac"
+   "deck": "train-de-modeles-aab-camping-4b3b"
   },
   {
-   "slug": "appariement-en-grille-choses-qui-volent-9209",
-   "type": "grid-match",
-   "mode": null,
+   "slug": "train-de-modeles-aab-choses-qui-volent-8472",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "things_that_fly",
    "level": "maternelle",
-   "deck": "appariement-en-grille-choses-qui-volent-9209"
+   "deck": "train-de-modeles-aab-choses-qui-volent-8472"
   },
   {
-   "slug": "appariement-en-grille-creatures-de-la-foret-0e15",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "forest_creatures",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-creatures-de-la-foret-0e15"
-  },
-  {
-   "slug": "appariement-en-grille-desserts-et-sucreries-be98",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-desserts-et-sucreries-be98"
-  },
-  {
-   "slug": "appariement-en-grille-dinosaures-1f5c",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "dinosaurs",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-dinosaures-1f5c"
-  },
-  {
-   "slug": "appariement-en-grille-emotions-f580",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "emotions",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-emotions-f580"
-  },
-  {
-   "slug": "appariement-en-grille-espace-cc43",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "space",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-espace-cc43"
-  },
-  {
-   "slug": "appariement-en-grille-ete-cc62",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "summer",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-ete-cc62"
-  },
-  {
-   "slug": "appariement-en-grille-fleurs-d3ad",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "flowers",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-fleurs-d3ad"
-  },
-  {
-   "slug": "appariement-en-grille-formes-0280",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "shapes",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-formes-0280"
-  },
-  {
-   "slug": "appariement-en-grille-fruits-3af9",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "fruits",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-fruits-3af9"
-  },
-  {
-   "slug": "appariement-en-grille-hiver-2f8d",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "winter",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-hiver-2f8d"
-  },
-  {
-   "slug": "appariement-en-grille-hopital-8c6c",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "hospital",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-hopital-8c6c"
-  },
-  {
-   "slug": "appariement-en-grille-insectes-et-bestioles-bcaa",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-insectes-et-bestioles-bcaa"
-  },
-  {
-   "slug": "appariement-en-grille-jouets-f751",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "toys",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-jouets-f751"
-  },
-  {
-   "slug": "appariement-en-grille-legumes-40f2",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "vegetables",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-legumes-40f2"
-  },
-  {
-   "slug": "appariement-en-grille-meteo-cbd8",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "weather",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-meteo-cbd8"
-  },
-  {
-   "slug": "appariement-en-grille-metiers-f711",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "occupations",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-metiers-f711"
-  },
-  {
-   "slug": "appariement-en-grille-meubles-fcf5",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "furniture",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-meubles-fcf5"
-  },
-  {
-   "slug": "appariement-en-grille-musique-762f",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "music",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-musique-762f"
-  },
-  {
-   "slug": "appariement-en-grille-noel-040c",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "christmas",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-noel-040c"
-  },
-  {
-   "slug": "appariement-en-grille-oiseaux-2-14d1",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-oiseaux-2-14d1"
-  },
-  {
-   "slug": "appariement-en-grille-oiseaux-35b6",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "birds",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-oiseaux-35b6"
-  },
-  {
-   "slug": "appariement-en-grille-outils-3cdb",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "tools",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-outils-3cdb"
-  },
-  {
-   "slug": "appariement-en-grille-paques-5451",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "easter",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-paques-5451"
-  },
-  {
-   "slug": "appariement-en-grille-parties-du-corps-6382",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-parties-du-corps-6382"
-  },
-  {
-   "slug": "appariement-en-grille-petit-dejeuner-50de",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "breakfast",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-petit-dejeuner-50de"
-  },
-  {
-   "slug": "appariement-en-grille-plage-a83b",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "beach",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-plage-a83b"
-  },
-  {
-   "slug": "appariement-en-grille-printemps-9734",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "spring",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-printemps-9734"
-  },
-  {
-   "slug": "appariement-en-grille-reptiles-et-amphibiens-5a20",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "reptiles_and_amphibians",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-reptiles-et-amphibiens-5a20"
-  },
-  {
-   "slug": "appariement-en-grille-salle-de-classe-ab46",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "classroom",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-salle-de-classe-ab46"
-  },
-  {
-   "slug": "appariement-en-grille-ustensiles-de-cuisine-3e99",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-ustensiles-de-cuisine-3e99"
-  },
-  {
-   "slug": "appariement-en-grille-vehicules-b03b",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "vehicles",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-vehicules-b03b"
-  },
-  {
-   "slug": "appariement-en-grille-vetements-495a",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "clothing",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-vetements-495a"
-  },
-  {
-   "slug": "appariement-en-grille-vie-oceanique-e2f9",
-   "type": "grid-match",
-   "mode": null,
-   "theme": "ocean_life",
-   "level": "maternelle",
-   "deck": "appariement-en-grille-vie-oceanique-e2f9"
-  },
-  {
-   "slug": "train-de-modeles-abb-accessoires-c667",
+   "slug": "train-de-modeles-aab-couleurs-b0fe",
    "type": "pattern-train",
-   "mode": "abb",
-   "theme": "accessories",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abb-accessoires-c667"
-  },
-  {
-   "slug": "train-de-modeles-abb-action-de-grace-6979",
-   "type": "pattern-train",
-   "mode": "abb",
-   "theme": "thanksgivinng",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abb-action-de-grace-6979"
-  },
-  {
-   "slug": "train-de-modeles-abb-activites-adb9",
-   "type": "pattern-train",
-   "mode": "abb",
-   "theme": "activities",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abb-activites-adb9"
-  },
-  {
-   "slug": "train-de-modeles-abb-animaux-c4ef",
-   "type": "pattern-train",
-   "mode": "abb",
-   "theme": "animals",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abb-animaux-c4ef"
-  },
-  {
-   "slug": "train-de-modeles-abb-animaux-de-compagnie-c3f4",
-   "type": "pattern-train",
-   "mode": "abb",
-   "theme": "pets",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abb-animaux-de-compagnie-c3f4"
-  },
-  {
-   "slug": "train-de-modeles-abb-animaux-de-la-ferme-3fda",
-   "type": "pattern-train",
-   "mode": "abb",
-   "theme": "farm_animals",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abb-animaux-de-la-ferme-3fda"
-  },
-  {
-   "slug": "train-de-modeles-abb-animaux-du-zoo-5e26",
-   "type": "pattern-train",
-   "mode": "abb",
-   "theme": "zoo_animals",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abb-animaux-du-zoo-5e26"
-  },
-  {
-   "slug": "train-de-modeles-abb-arbres-05b3",
-   "type": "pattern-train",
-   "mode": "abb",
-   "theme": "tree",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abb-arbres-05b3"
-  },
-  {
-   "slug": "train-de-modeles-abb-au-supermarche-4a03",
-   "type": "pattern-train",
-   "mode": "abb",
-   "theme": "at_the_supermarket",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abb-au-supermarche-4a03"
-  },
-  {
-   "slug": "train-de-modeles-abb-autour-de-la-maison-28d9",
-   "type": "pattern-train",
-   "mode": "abb",
-   "theme": "around_the_house",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abb-autour-de-la-maison-28d9"
-  },
-  {
-   "slug": "train-de-modeles-abb-boulangerie-3746",
-   "type": "pattern-train",
-   "mode": "abb",
-   "theme": "bakery",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abb-boulangerie-3746"
-  },
-  {
-   "slug": "train-de-modeles-abb-bureau-de-poste-6787",
-   "type": "pattern-train",
-   "mode": "abb",
-   "theme": "post_office",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abb-bureau-de-poste-6787"
-  },
-  {
-   "slug": "train-de-modeles-abb-camping-1b49",
-   "type": "pattern-train",
-   "mode": "abb",
-   "theme": "camping",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abb-camping-1b49"
-  },
-  {
-   "slug": "train-de-modeles-abb-choses-qui-volent-e9cf",
-   "type": "pattern-train",
-   "mode": "abb",
-   "theme": "things_that_fly",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abb-choses-qui-volent-e9cf"
-  },
-  {
-   "slug": "train-de-modeles-abb-couleurs-0dde",
-   "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "colors",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-couleurs-0dde"
+   "deck": "train-de-modeles-aab-couleurs-b0fe"
   },
   {
-   "slug": "train-de-modeles-abb-creatures-de-la-foret-9444",
+   "slug": "train-de-modeles-aab-creatures-de-la-foret-3511",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "forest_creatures",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-creatures-de-la-foret-9444"
+   "deck": "train-de-modeles-aab-creatures-de-la-foret-3511"
   },
   {
-   "slug": "train-de-modeles-abb-desserts-et-sucreries-cbe9",
+   "slug": "train-de-modeles-aab-desserts-et-sucreries-ad56",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "desserts_and_sweets",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-desserts-et-sucreries-cbe9"
+   "deck": "train-de-modeles-aab-desserts-et-sucreries-ad56"
   },
   {
-   "slug": "train-de-modeles-abb-dinosaures-b103",
+   "slug": "train-de-modeles-aab-dinosaures-546e",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "dinosaurs",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-dinosaures-b103"
+   "deck": "train-de-modeles-aab-dinosaures-546e"
   },
   {
-   "slug": "train-de-modeles-abb-emotions-2891",
+   "slug": "train-de-modeles-aab-emotions-056d",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "emotions",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-emotions-2891"
+   "deck": "train-de-modeles-aab-emotions-056d"
   },
   {
-   "slug": "train-de-modeles-abb-espace-e045",
+   "slug": "train-de-modeles-aab-espace-3a24",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "space",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-espace-e045"
+   "deck": "train-de-modeles-aab-espace-3a24"
   },
   {
-   "slug": "train-de-modeles-abb-ete-eea0",
+   "slug": "train-de-modeles-aab-ete-76b9",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "summer",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-ete-eea0"
+   "deck": "train-de-modeles-aab-ete-76b9"
   },
   {
-   "slug": "train-de-modeles-abb-fleurs-3039",
+   "slug": "train-de-modeles-aab-fleurs-3bae",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "flowers",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-fleurs-3039"
+   "deck": "train-de-modeles-aab-fleurs-3bae"
   },
   {
-   "slug": "train-de-modeles-abb-formes-4ac5",
+   "slug": "train-de-modeles-aab-formes-c308",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "shapes",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-formes-4ac5"
+   "deck": "train-de-modeles-aab-formes-c308"
   },
   {
-   "slug": "train-de-modeles-abb-fruits-2ad5",
+   "slug": "train-de-modeles-aab-fruits-24b3",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "fruits",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-fruits-2ad5"
+   "deck": "train-de-modeles-aab-fruits-24b3"
   },
   {
-   "slug": "train-de-modeles-abb-hiver-a64a",
+   "slug": "train-de-modeles-aab-hiver-6bba",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "winter",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-hiver-a64a"
+   "deck": "train-de-modeles-aab-hiver-6bba"
   },
   {
-   "slug": "train-de-modeles-abb-insectes-et-bestioles-9c82",
+   "slug": "train-de-modeles-aab-hopital-4524",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
+   "theme": "hospital",
+   "level": "maternelle",
+   "deck": "train-de-modeles-aab-hopital-4524"
+  },
+  {
+   "slug": "train-de-modeles-aab-insectes-et-bestioles-18ec",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "insects_and_bugs",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-insectes-et-bestioles-9c82"
+   "deck": "train-de-modeles-aab-insectes-et-bestioles-18ec"
   },
   {
-   "slug": "train-de-modeles-abb-jouets-b1fd",
+   "slug": "train-de-modeles-aab-jouets-8877",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "toys",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-jouets-b1fd"
+   "deck": "train-de-modeles-aab-jouets-8877"
   },
   {
-   "slug": "train-de-modeles-abb-legumes-9f46",
+   "slug": "train-de-modeles-aab-legumes-3cf9",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "vegetables",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-legumes-9f46"
+   "deck": "train-de-modeles-aab-legumes-3cf9"
   },
   {
-   "slug": "train-de-modeles-abb-meteo-4f4b",
+   "slug": "train-de-modeles-aab-meteo-49ef",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "weather",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-meteo-4f4b"
+   "deck": "train-de-modeles-aab-meteo-49ef"
   },
   {
-   "slug": "train-de-modeles-abb-metiers-1635",
+   "slug": "train-de-modeles-aab-metiers-14ac",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "occupations",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-metiers-1635"
+   "deck": "train-de-modeles-aab-metiers-14ac"
   },
   {
-   "slug": "train-de-modeles-abb-meubles-ee1e",
+   "slug": "train-de-modeles-aab-meubles-e17b",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "furniture",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-meubles-ee1e"
+   "deck": "train-de-modeles-aab-meubles-e17b"
   },
   {
-   "slug": "train-de-modeles-abb-musique-17db",
+   "slug": "train-de-modeles-aab-musique-c5e4",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "music",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-musique-17db"
+   "deck": "train-de-modeles-aab-musique-c5e4"
   },
   {
-   "slug": "train-de-modeles-abb-noel-a46e",
+   "slug": "train-de-modeles-aab-noel-d005",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "christmas",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-noel-a46e"
+   "deck": "train-de-modeles-aab-noel-d005"
   },
   {
-   "slug": "train-de-modeles-abb-oiseaux-2-75a8",
+   "slug": "train-de-modeles-aab-oiseaux-2-c2c6",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "birds_2",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-oiseaux-2-75a8"
+   "deck": "train-de-modeles-aab-oiseaux-2-c2c6"
   },
   {
-   "slug": "train-de-modeles-abb-oiseaux-eb71",
+   "slug": "train-de-modeles-aab-oiseaux-db8b",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "birds",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-oiseaux-eb71"
+   "deck": "train-de-modeles-aab-oiseaux-db8b"
   },
   {
-   "slug": "train-de-modeles-abb-outils-12ff",
+   "slug": "train-de-modeles-aab-outils-1dc6",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "tools",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-outils-12ff"
+   "deck": "train-de-modeles-aab-outils-1dc6"
   },
   {
-   "slug": "train-de-modeles-abb-paques-d87b",
+   "slug": "train-de-modeles-aab-paques-d462",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "easter",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-paques-d87b"
+   "deck": "train-de-modeles-aab-paques-d462"
   },
   {
-   "slug": "train-de-modeles-abb-parties-du-corps-b5f3",
+   "slug": "train-de-modeles-aab-parties-du-corps-f1ee",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "body_parts",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-parties-du-corps-b5f3"
+   "deck": "train-de-modeles-aab-parties-du-corps-f1ee"
   },
   {
-   "slug": "train-de-modeles-abb-petit-dejeuner-f60b",
+   "slug": "train-de-modeles-aab-petit-dejeuner-bbbb",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "breakfast",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-petit-dejeuner-f60b"
+   "deck": "train-de-modeles-aab-petit-dejeuner-bbbb"
   },
   {
-   "slug": "train-de-modeles-abb-plage-a278",
+   "slug": "train-de-modeles-aab-plage-829f",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "beach",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-plage-a278"
+   "deck": "train-de-modeles-aab-plage-829f"
   },
   {
-   "slug": "train-de-modeles-abb-printemps-3c5c",
+   "slug": "train-de-modeles-aab-printemps-55b6",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "spring",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-printemps-3c5c"
+   "deck": "train-de-modeles-aab-printemps-55b6"
   },
   {
-   "slug": "train-de-modeles-abb-reptiles-et-amphibiens-9b74",
+   "slug": "train-de-modeles-aab-reptiles-et-amphibiens-e86c",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "reptiles_and_amphibians",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-reptiles-et-amphibiens-9b74"
+   "deck": "train-de-modeles-aab-reptiles-et-amphibiens-e86c"
   },
   {
-   "slug": "train-de-modeles-abb-salle-de-classe-94d2",
+   "slug": "train-de-modeles-aab-salle-de-classe-8f37",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "classroom",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-salle-de-classe-94d2"
+   "deck": "train-de-modeles-aab-salle-de-classe-8f37"
   },
   {
-   "slug": "train-de-modeles-abb-ustensiles-de-cuisine-60ac",
+   "slug": "train-de-modeles-aab-ustensiles-de-cuisine-60d5",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "kitchen_tools",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-ustensiles-de-cuisine-60ac"
+   "deck": "train-de-modeles-aab-ustensiles-de-cuisine-60d5"
   },
   {
-   "slug": "train-de-modeles-abb-vehicules-b293",
+   "slug": "train-de-modeles-aab-vehicules-ba34",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "vehicles",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-vehicules-b293"
+   "deck": "train-de-modeles-aab-vehicules-ba34"
   },
   {
-   "slug": "train-de-modeles-abb-vetements-72ff",
+   "slug": "train-de-modeles-aab-vetements-58de",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "clothing",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-vetements-72ff"
+   "deck": "train-de-modeles-aab-vetements-58de"
   },
   {
-   "slug": "train-de-modeles-abb-vie-oceanique-a499",
+   "slug": "train-de-modeles-aab-vie-oceanique-2286",
    "type": "pattern-train",
-   "mode": "abb",
+   "mode": "aab",
    "theme": "ocean_life",
    "level": "maternelle",
-   "deck": "train-de-modeles-abb-vie-oceanique-a499"
+   "deck": "train-de-modeles-aab-vie-oceanique-2286"
+  },
+  {
+   "slug": "train-de-modeles-abc-accessoires-ad54",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "accessories",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-accessoires-ad54"
+  },
+  {
+   "slug": "train-de-modeles-abc-action-de-grace-159f",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "thanksgivinng",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-action-de-grace-159f"
+  },
+  {
+   "slug": "train-de-modeles-abc-activites-2fae",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "activities",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-activites-2fae"
+  },
+  {
+   "slug": "train-de-modeles-abc-animaux-7a7b",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "animals",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-animaux-7a7b"
+  },
+  {
+   "slug": "train-de-modeles-abc-animaux-de-compagnie-1559",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "pets",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-animaux-de-compagnie-1559"
+  },
+  {
+   "slug": "train-de-modeles-abc-animaux-de-la-ferme-1d22",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "farm_animals",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-animaux-de-la-ferme-1d22"
+  },
+  {
+   "slug": "train-de-modeles-abc-animaux-du-zoo-61af",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "zoo_animals",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-animaux-du-zoo-61af"
+  },
+  {
+   "slug": "train-de-modeles-abc-arbres-233d",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "tree",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-arbres-233d"
+  },
+  {
+   "slug": "train-de-modeles-abc-au-supermarche-2508",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "at_the_supermarket",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-au-supermarche-2508"
+  },
+  {
+   "slug": "train-de-modeles-abc-autour-de-la-maison-9c72",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "around_the_house",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-autour-de-la-maison-9c72"
+  },
+  {
+   "slug": "train-de-modeles-abc-boulangerie-aee3",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "bakery",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-boulangerie-aee3"
+  },
+  {
+   "slug": "train-de-modeles-abc-bureau-de-poste-aea2",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "post_office",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-bureau-de-poste-aea2"
+  },
+  {
+   "slug": "train-de-modeles-abc-camping-4483",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "camping",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-camping-4483"
+  },
+  {
+   "slug": "train-de-modeles-abc-choses-qui-volent-2b41",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "things_that_fly",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-choses-qui-volent-2b41"
+  },
+  {
+   "slug": "train-de-modeles-abc-couleurs-0c66",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "colors",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-couleurs-0c66"
+  },
+  {
+   "slug": "train-de-modeles-abc-creatures-de-la-foret-e0bf",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "forest_creatures",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-creatures-de-la-foret-e0bf"
+  },
+  {
+   "slug": "train-de-modeles-abc-desserts-et-sucreries-1066",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "desserts_and_sweets",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-desserts-et-sucreries-1066"
+  },
+  {
+   "slug": "train-de-modeles-abc-dinosaures-c435",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "dinosaurs",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-dinosaures-c435"
+  },
+  {
+   "slug": "train-de-modeles-abc-emotions-1bce",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "emotions",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-emotions-1bce"
+  },
+  {
+   "slug": "train-de-modeles-abc-espace-570a",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "space",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-espace-570a"
+  },
+  {
+   "slug": "train-de-modeles-abc-ete-9aad",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "summer",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-ete-9aad"
+  },
+  {
+   "slug": "train-de-modeles-abc-fleurs-6849",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "flowers",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-fleurs-6849"
+  },
+  {
+   "slug": "train-de-modeles-abc-formes-2656",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "shapes",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-formes-2656"
+  },
+  {
+   "slug": "train-de-modeles-abc-fruits-4bb3",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "fruits",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-fruits-4bb3"
+  },
+  {
+   "slug": "train-de-modeles-abc-hiver-6ade",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "winter",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-hiver-6ade"
+  },
+  {
+   "slug": "train-de-modeles-abc-hopital-3529",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "hospital",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-hopital-3529"
+  },
+  {
+   "slug": "train-de-modeles-abc-insectes-et-bestioles-d2b3",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "insects_and_bugs",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-insectes-et-bestioles-d2b3"
+  },
+  {
+   "slug": "train-de-modeles-abc-jouets-0d6e",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "toys",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-jouets-0d6e"
+  },
+  {
+   "slug": "train-de-modeles-abc-legumes-0cc2",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "vegetables",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-legumes-0cc2"
+  },
+  {
+   "slug": "train-de-modeles-abc-meteo-ab1b",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "weather",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-meteo-ab1b"
+  },
+  {
+   "slug": "train-de-modeles-abc-metiers-f843",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "occupations",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-metiers-f843"
+  },
+  {
+   "slug": "train-de-modeles-abc-meubles-620a",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "furniture",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-meubles-620a"
+  },
+  {
+   "slug": "train-de-modeles-abc-musique-cf3b",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "music",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-musique-cf3b"
+  },
+  {
+   "slug": "train-de-modeles-abc-noel-398a",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "christmas",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-noel-398a"
+  },
+  {
+   "slug": "train-de-modeles-abc-oiseaux-2-1fe3",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "birds_2",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-oiseaux-2-1fe3"
+  },
+  {
+   "slug": "train-de-modeles-abc-oiseaux-a1d4",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "birds",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-oiseaux-a1d4"
+  },
+  {
+   "slug": "train-de-modeles-abc-outils-a20b",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "tools",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-outils-a20b"
+  },
+  {
+   "slug": "train-de-modeles-abc-paques-387e",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "easter",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-paques-387e"
+  },
+  {
+   "slug": "train-de-modeles-abc-parties-du-corps-acb7",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "body_parts",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-parties-du-corps-acb7"
+  },
+  {
+   "slug": "train-de-modeles-abc-petit-dejeuner-f216",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "breakfast",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-petit-dejeuner-f216"
+  },
+  {
+   "slug": "train-de-modeles-abc-plage-b626",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "beach",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-plage-b626"
+  },
+  {
+   "slug": "train-de-modeles-abc-printemps-4a61",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "spring",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-printemps-4a61"
+  },
+  {
+   "slug": "train-de-modeles-abc-reptiles-et-amphibiens-5c78",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "reptiles_and_amphibians",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-reptiles-et-amphibiens-5c78"
+  },
+  {
+   "slug": "train-de-modeles-abc-salle-de-classe-8bd4",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "classroom",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-salle-de-classe-8bd4"
+  },
+  {
+   "slug": "train-de-modeles-abc-ustensiles-de-cuisine-e33e",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "kitchen_tools",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-ustensiles-de-cuisine-e33e"
+  },
+  {
+   "slug": "train-de-modeles-abc-vehicules-377f",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "vehicles",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-vehicules-377f"
+  },
+  {
+   "slug": "train-de-modeles-abc-vetements-18f7",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "clothing",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-vetements-18f7"
+  },
+  {
+   "slug": "train-de-modeles-abc-vie-oceanique-fd45",
+   "type": "pattern-train",
+   "mode": "abc",
+   "theme": "ocean_life",
+   "level": "maternelle",
+   "deck": "train-de-modeles-abc-vie-oceanique-fd45"
   }
  ]
 }

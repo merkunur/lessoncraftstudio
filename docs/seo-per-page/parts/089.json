@@ -2,795 +2,723 @@
  "part": 89,
  "locale": "es",
  "classes": [
-  "subtraction::mixed",
-  "sudoku::null"
+  "bingo::null",
+  "prepositions::fillin"
  ],
  "splitOf": null,
- "count": 98,
+ "count": 89,
  "pages": [
   {
-   "slug": "resta-mixto-4-de-julio-7aac",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "bingo-accesorios-4f99",
+   "type": "bingo",
+   "mode": null,
+   "theme": "accessories",
+   "level": "preescolar",
+   "deck": "bingo-accesorios-4f99"
+  },
+  {
+   "slug": "bingo-actividades-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "activities",
+   "level": "preescolar",
+   "deck": "bingo-actividades-98be"
+  },
+  {
+   "slug": "bingo-alrededor-de-la-casa-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "preescolar",
+   "deck": "bingo-alrededor-de-la-casa-98be"
+  },
+  {
+   "slug": "bingo-animales",
+   "type": "bingo",
+   "mode": null,
+   "theme": "animals",
+   "level": "preescolar",
+   "deck": "bingo-animales"
+  },
+  {
+   "slug": "bingo-animales-de-granja-646b",
+   "type": "bingo",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "preescolar",
+   "deck": "bingo-animales-de-granja-646b"
+  },
+  {
+   "slug": "bingo-animales-del-zoologico-01cd",
+   "type": "bingo",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "preescolar",
+   "deck": "bingo-animales-del-zoologico-01cd"
+  },
+  {
+   "slug": "bingo-arboles-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "tree",
+   "level": "preescolar",
+   "deck": "bingo-arboles-98be"
+  },
+  {
+   "slug": "bingo-aves-2-58fc",
+   "type": "bingo",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "preescolar",
+   "deck": "bingo-aves-2-58fc"
+  },
+  {
+   "slug": "bingo-campamento-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "camping",
+   "level": "preescolar",
+   "deck": "bingo-campamento-98be"
+  },
+  {
+   "slug": "bingo-clima-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "weather",
+   "level": "preescolar",
+   "deck": "bingo-clima-98be"
+  },
+  {
+   "slug": "bingo-colores-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "colors",
+   "level": "preescolar",
+   "deck": "bingo-colores-98be"
+  },
+  {
+   "slug": "bingo-cosas-que-vuelan-3368",
+   "type": "bingo",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "preescolar",
+   "deck": "bingo-cosas-que-vuelan-3368"
+  },
+  {
+   "slug": "bingo-criaturas-del-bosque-40d8",
+   "type": "bingo",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "preescolar",
+   "deck": "bingo-criaturas-del-bosque-40d8"
+  },
+  {
+   "slug": "bingo-desayuno-680f",
+   "type": "bingo",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "preescolar",
+   "deck": "bingo-desayuno-680f"
+  },
+  {
+   "slug": "bingo-en-el-supermercado-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "preescolar",
+   "deck": "bingo-en-el-supermercado-98be"
+  },
+  {
+   "slug": "bingo-espacio-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "space",
+   "level": "preescolar",
+   "deck": "bingo-espacio-98be"
+  },
+  {
+   "slug": "bingo-flores-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "flowers",
+   "level": "preescolar",
+   "deck": "bingo-flores-98be"
+  },
+  {
+   "slug": "bingo-formas-3ede",
+   "type": "bingo",
+   "mode": null,
+   "theme": "shapes",
+   "level": "preescolar",
+   "deck": "bingo-formas-3ede"
+  },
+  {
+   "slug": "bingo-frutas-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "fruits",
+   "level": "preescolar",
+   "deck": "bingo-frutas-98be"
+  },
+  {
+   "slug": "bingo-hospital-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "hospital",
+   "level": "preescolar",
+   "deck": "bingo-hospital-98be"
+  },
+  {
+   "slug": "bingo-invierno-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "winter",
+   "level": "preescolar",
+   "deck": "bingo-invierno-98be"
+  },
+  {
+   "slug": "bingo-juguetes-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "toys",
+   "level": "preescolar",
+   "deck": "bingo-juguetes-98be"
+  },
+  {
+   "slug": "bingo-mascotas-63b2",
+   "type": "bingo",
+   "mode": null,
+   "theme": "pets",
+   "level": "preescolar",
+   "deck": "bingo-mascotas-63b2"
+  },
+  {
+   "slug": "bingo-muebles-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "furniture",
+   "level": "preescolar",
+   "deck": "bingo-muebles-98be"
+  },
+  {
+   "slug": "bingo-navidad-89d6",
+   "type": "bingo",
+   "mode": null,
+   "theme": "christmas",
+   "level": "preescolar",
+   "deck": "bingo-navidad-89d6"
+  },
+  {
+   "slug": "bingo-ocupaciones-6b78",
+   "type": "bingo",
+   "mode": null,
+   "theme": "occupations",
+   "level": "preescolar",
+   "deck": "bingo-ocupaciones-6b78"
+  },
+  {
+   "slug": "bingo-panaderia-3c41",
+   "type": "bingo",
+   "mode": null,
+   "theme": "bakery",
+   "level": "preescolar",
+   "deck": "bingo-panaderia-3c41"
+  },
+  {
+   "slug": "bingo-partes-del-cuerpo-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "preescolar",
+   "deck": "bingo-partes-del-cuerpo-98be"
+  },
+  {
+   "slug": "bingo-pascua-49e8",
+   "type": "bingo",
+   "mode": null,
+   "theme": "easter",
+   "level": "preescolar",
+   "deck": "bingo-pascua-49e8"
+  },
+  {
+   "slug": "bingo-playa-09d5",
+   "type": "bingo",
+   "mode": null,
+   "theme": "beach",
+   "level": "preescolar",
+   "deck": "bingo-playa-09d5"
+  },
+  {
+   "slug": "bingo-postres-y-dulces-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "preescolar",
+   "deck": "bingo-postres-y-dulces-98be"
+  },
+  {
+   "slug": "bingo-primavera-69f3",
+   "type": "bingo",
+   "mode": null,
+   "theme": "spring",
+   "level": "preescolar",
+   "deck": "bingo-primavera-69f3"
+  },
+  {
+   "slug": "bingo-ropa-1a48",
+   "type": "bingo",
+   "mode": null,
+   "theme": "clothing",
+   "level": "preescolar",
+   "deck": "bingo-ropa-1a48"
+  },
+  {
+   "slug": "bingo-salon-de-clases-6032",
+   "type": "bingo",
+   "mode": null,
+   "theme": "classroom",
+   "level": "preescolar",
+   "deck": "bingo-salon-de-clases-6032"
+  },
+  {
+   "slug": "bingo-utensilios-de-cocina-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "preescolar",
+   "deck": "bingo-utensilios-de-cocina-98be"
+  },
+  {
+   "slug": "bingo-vehiculos-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "preescolar",
+   "deck": "bingo-vehiculos-98be"
+  },
+  {
+   "slug": "bingo-verano-319c",
+   "type": "bingo",
+   "mode": null,
+   "theme": "summer",
+   "level": "preescolar",
+   "deck": "bingo-verano-319c"
+  },
+  {
+   "slug": "bingo-verduras-98be",
+   "type": "bingo",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "preescolar",
+   "deck": "bingo-verduras-98be"
+  },
+  {
+   "slug": "bingo-vida-marina-8045",
+   "type": "bingo",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "preescolar",
+   "deck": "bingo-vida-marina-8045"
+  },
+  {
+   "slug": "preposiciones-completar",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "summer",
+   "level": "primer-grado",
+   "deck": "preposiciones-completar"
+  },
+  {
+   "slug": "preposiciones-completar-4-de-julio-a8c1",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "4th_of_july",
    "level": "primer-grado",
-   "deck": "resta-mixto-4-de-julio-7aac"
+   "deck": "preposiciones-completar-4-de-julio-a8c1"
   },
   {
-   "slug": "resta-mixto-accesorios-e60e",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-accesorios-f198",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "accessories",
    "level": "primer-grado",
-   "deck": "resta-mixto-accesorios-e60e"
+   "deck": "preposiciones-completar-accesorios-f198"
   },
   {
-   "slug": "resta-mixto-actividades-980c",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-actividades-415d",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "activities",
    "level": "primer-grado",
-   "deck": "resta-mixto-actividades-980c"
+   "deck": "preposiciones-completar-actividades-415d"
   },
   {
-   "slug": "resta-mixto-alrededor-de-la-casa-b987",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-alrededor-de-la-casa-2eae",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "around_the_house",
    "level": "primer-grado",
-   "deck": "resta-mixto-alrededor-de-la-casa-b987"
+   "deck": "preposiciones-completar-alrededor-de-la-casa-2eae"
   },
   {
-   "slug": "resta-mixto-animales-d918",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-animales-81f7",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "animals",
    "level": "primer-grado",
-   "deck": "resta-mixto-animales-d918"
+   "deck": "preposiciones-completar-animales-81f7"
   },
   {
-   "slug": "resta-mixto-animales-de-granja-6899",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-animales-de-granja-7588",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "farm_animals",
    "level": "primer-grado",
-   "deck": "resta-mixto-animales-de-granja-6899"
+   "deck": "preposiciones-completar-animales-de-granja-7588"
   },
   {
-   "slug": "resta-mixto-animales-del-zoologico-4ce4",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-animales-del-zoologico-ef3f",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "zoo_animals",
    "level": "primer-grado",
-   "deck": "resta-mixto-animales-del-zoologico-4ce4"
+   "deck": "preposiciones-completar-animales-del-zoologico-ef3f"
   },
   {
-   "slug": "resta-mixto-arboles-edb9",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-arboles-15d7",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "tree",
    "level": "primer-grado",
-   "deck": "resta-mixto-arboles-edb9"
+   "deck": "preposiciones-completar-arboles-15d7"
   },
   {
-   "slug": "resta-mixto-aves-2-b317",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-aves-2-8ce0",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "birds_2",
    "level": "primer-grado",
-   "deck": "resta-mixto-aves-2-b317"
+   "deck": "preposiciones-completar-aves-2-8ce0"
   },
   {
-   "slug": "resta-mixto-aves-f010",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-aves-fd34",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "birds",
    "level": "primer-grado",
-   "deck": "resta-mixto-aves-f010"
+   "deck": "preposiciones-completar-aves-fd34"
   },
   {
-   "slug": "resta-mixto-campamento-d5a2",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-campamento-2dd2",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "camping",
    "level": "primer-grado",
-   "deck": "resta-mixto-campamento-d5a2"
+   "deck": "preposiciones-completar-campamento-2dd2"
   },
   {
-   "slug": "resta-mixto-clima-2da2",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-clima-7ba5",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "weather",
    "level": "primer-grado",
-   "deck": "resta-mixto-clima-2da2"
+   "deck": "preposiciones-completar-clima-7ba5"
   },
   {
-   "slug": "resta-mixto-colores-c01b",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-colores-3243",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "colors",
    "level": "primer-grado",
-   "deck": "resta-mixto-colores-c01b"
+   "deck": "preposiciones-completar-colores-3243"
   },
   {
-   "slug": "resta-mixto-cosas-que-vuelan-b8f4",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-cosas-que-vuelan-4937",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "things_that_fly",
    "level": "primer-grado",
-   "deck": "resta-mixto-cosas-que-vuelan-b8f4"
+   "deck": "preposiciones-completar-cosas-que-vuelan-4937"
   },
   {
-   "slug": "resta-mixto-criaturas-del-bosque-4aee",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-criaturas-del-bosque-63cf",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "forest_creatures",
    "level": "primer-grado",
-   "deck": "resta-mixto-criaturas-del-bosque-4aee"
+   "deck": "preposiciones-completar-criaturas-del-bosque-63cf"
   },
   {
-   "slug": "resta-mixto-desayuno-971a",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-desayuno-6194",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "breakfast",
    "level": "primer-grado",
-   "deck": "resta-mixto-desayuno-971a"
+   "deck": "preposiciones-completar-desayuno-6194"
   },
   {
-   "slug": "resta-mixto-dia-de-accion-de-gracias-ff3b",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-dia-de-accion-de-gracias-2147",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "thanksgivinng",
    "level": "primer-grado",
-   "deck": "resta-mixto-dia-de-accion-de-gracias-ff3b"
+   "deck": "preposiciones-completar-dia-de-accion-de-gracias-2147"
   },
   {
-   "slug": "resta-mixto-dinosaurios-fef4",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-dinosaurios-240d",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "dinosaurs",
    "level": "primer-grado",
-   "deck": "resta-mixto-dinosaurios-fef4"
+   "deck": "preposiciones-completar-dinosaurios-240d"
   },
   {
-   "slug": "resta-mixto-emociones-a2a8",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-emociones-ec1a",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "emotions",
    "level": "primer-grado",
-   "deck": "resta-mixto-emociones-a2a8"
+   "deck": "preposiciones-completar-emociones-ec1a"
   },
   {
-   "slug": "resta-mixto-en-el-supermercado-a6a5",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-en-el-supermercado-2ddf",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "at_the_supermarket",
    "level": "primer-grado",
-   "deck": "resta-mixto-en-el-supermercado-a6a5"
+   "deck": "preposiciones-completar-en-el-supermercado-2ddf"
   },
   {
-   "slug": "resta-mixto-espacio-856c",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-espacio-a61f",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "space",
    "level": "primer-grado",
-   "deck": "resta-mixto-espacio-856c"
+   "deck": "preposiciones-completar-espacio-a61f"
   },
   {
-   "slug": "resta-mixto-flores-64e3",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-flores-1772",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "flowers",
    "level": "primer-grado",
-   "deck": "resta-mixto-flores-64e3"
+   "deck": "preposiciones-completar-flores-1772"
   },
   {
-   "slug": "resta-mixto-formas-ff4b",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-formas-65f9",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "shapes",
    "level": "primer-grado",
-   "deck": "resta-mixto-formas-ff4b"
+   "deck": "preposiciones-completar-formas-65f9"
   },
   {
-   "slug": "resta-mixto-frutas-7ac7",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-frutas-3344",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "fruits",
    "level": "primer-grado",
-   "deck": "resta-mixto-frutas-7ac7"
+   "deck": "preposiciones-completar-frutas-3344"
   },
   {
-   "slug": "resta-mixto-herramientas-e491",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-herramientas-a2bd",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "tools",
    "level": "primer-grado",
-   "deck": "resta-mixto-herramientas-e491"
+   "deck": "preposiciones-completar-herramientas-a2bd"
   },
   {
-   "slug": "resta-mixto-hospital-eff1",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-hospital-457b",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "hospital",
    "level": "primer-grado",
-   "deck": "resta-mixto-hospital-eff1"
+   "deck": "preposiciones-completar-hospital-457b"
   },
   {
-   "slug": "resta-mixto-insectos-y-bichos-c70f",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-insectos-y-bichos-6cd4",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "insects_and_bugs",
    "level": "primer-grado",
-   "deck": "resta-mixto-insectos-y-bichos-c70f"
+   "deck": "preposiciones-completar-insectos-y-bichos-6cd4"
   },
   {
-   "slug": "resta-mixto-invierno-80c2",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-invierno-9093",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "winter",
    "level": "primer-grado",
-   "deck": "resta-mixto-invierno-80c2"
+   "deck": "preposiciones-completar-invierno-9093"
   },
   {
-   "slug": "resta-mixto-juguetes-6888",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-juguetes-c038",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "toys",
    "level": "primer-grado",
-   "deck": "resta-mixto-juguetes-6888"
+   "deck": "preposiciones-completar-juguetes-c038"
   },
   {
-   "slug": "resta-mixto-mascotas-8b22",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-mascotas-f2b6",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "pets",
    "level": "primer-grado",
-   "deck": "resta-mixto-mascotas-8b22"
+   "deck": "preposiciones-completar-mascotas-f2b6"
   },
   {
-   "slug": "resta-mixto-miscelaneo-6523",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-miscelaneo-300d",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "miscellaneous",
    "level": "primer-grado",
-   "deck": "resta-mixto-miscelaneo-6523"
+   "deck": "preposiciones-completar-miscelaneo-300d"
   },
   {
-   "slug": "resta-mixto-muebles-91d1",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-muebles-9c7a",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "furniture",
    "level": "primer-grado",
-   "deck": "resta-mixto-muebles-91d1"
+   "deck": "preposiciones-completar-muebles-9c7a"
   },
   {
-   "slug": "resta-mixto-musica-6279",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-musica-a313",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "music",
    "level": "primer-grado",
-   "deck": "resta-mixto-musica-6279"
+   "deck": "preposiciones-completar-musica-a313"
   },
   {
-   "slug": "resta-mixto-navidad-bdf1",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-navidad-1ac3",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "christmas",
    "level": "primer-grado",
-   "deck": "resta-mixto-navidad-bdf1"
+   "deck": "preposiciones-completar-navidad-1ac3"
   },
   {
-   "slug": "resta-mixto-ocupaciones-c63c",
-   "type": "subtraction",
-   "mode": "mixed",
+   "slug": "preposiciones-completar-ocupaciones-9d03",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "occupations",
    "level": "primer-grado",
-   "deck": "resta-mixto-ocupaciones-c63c"
+   "deck": "preposiciones-completar-ocupaciones-9d03"
   },
   {
-   "slug": "resta-mixto-panaderia-f206",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "bakery",
-   "level": "primer-grado",
-   "deck": "resta-mixto-panaderia-f206"
-  },
-  {
-   "slug": "resta-mixto-partes-del-cuerpo-0c18",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "body_parts",
-   "level": "primer-grado",
-   "deck": "resta-mixto-partes-del-cuerpo-0c18"
-  },
-  {
-   "slug": "resta-mixto-pascua-974a",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "easter",
-   "level": "primer-grado",
-   "deck": "resta-mixto-pascua-974a"
-  },
-  {
-   "slug": "resta-mixto-playa-0bfd",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "beach",
-   "level": "primer-grado",
-   "deck": "resta-mixto-playa-0bfd"
-  },
-  {
-   "slug": "resta-mixto-postres-y-dulces-8952",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "desserts_and_sweets",
-   "level": "primer-grado",
-   "deck": "resta-mixto-postres-y-dulces-8952"
-  },
-  {
-   "slug": "resta-mixto-primavera-1d35",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "spring",
-   "level": "primer-grado",
-   "deck": "resta-mixto-primavera-1d35"
-  },
-  {
-   "slug": "resta-mixto-reptiles-y-anfibios-36cc",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "reptiles_and_amphibians",
-   "level": "primer-grado",
-   "deck": "resta-mixto-reptiles-y-anfibios-36cc"
-  },
-  {
-   "slug": "resta-mixto-ropa-9a09",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "clothing",
-   "level": "primer-grado",
-   "deck": "resta-mixto-ropa-9a09"
-  },
-  {
-   "slug": "resta-mixto-salon-de-clases-2869",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "classroom",
-   "level": "primer-grado",
-   "deck": "resta-mixto-salon-de-clases-2869"
-  },
-  {
-   "slug": "resta-mixto-utensilios-de-cocina-77a6",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "kitchen_tools",
-   "level": "primer-grado",
-   "deck": "resta-mixto-utensilios-de-cocina-77a6"
-  },
-  {
-   "slug": "resta-mixto-vehiculos-4173",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "vehicles",
-   "level": "primer-grado",
-   "deck": "resta-mixto-vehiculos-4173"
-  },
-  {
-   "slug": "resta-mixto-verano-c837",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "summer",
-   "level": "primer-grado",
-   "deck": "resta-mixto-verano-c837"
-  },
-  {
-   "slug": "resta-mixto-verduras-0baf",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "vegetables",
-   "level": "primer-grado",
-   "deck": "resta-mixto-verduras-0baf"
-  },
-  {
-   "slug": "resta-mixto-vida-marina-1507",
-   "type": "subtraction",
-   "mode": "mixed",
-   "theme": "ocean_life",
-   "level": "primer-grado",
-   "deck": "resta-mixto-vida-marina-1507"
-  },
-  {
-   "slug": "sudoku-de-imagenes",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "vegetables",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes"
-  },
-  {
-   "slug": "sudoku-de-imagenes-4-de-julio-68ac",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "4th_of_july",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-4-de-julio-68ac"
-  },
-  {
-   "slug": "sudoku-de-imagenes-accesorios-dc30",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "accessories",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-accesorios-dc30"
-  },
-  {
-   "slug": "sudoku-de-imagenes-actividades-080b",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "activities",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-actividades-080b"
-  },
-  {
-   "slug": "sudoku-de-imagenes-animales-98c1",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "animals",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-animales-98c1"
-  },
-  {
-   "slug": "sudoku-de-imagenes-animales-de-granja-e8f1",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "farm_animals",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-animales-de-granja-e8f1"
-  },
-  {
-   "slug": "sudoku-de-imagenes-animales-del-zoologico-5c37",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "zoo_animals",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-animales-del-zoologico-5c37"
-  },
-  {
-   "slug": "sudoku-de-imagenes-arboles-02e6",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "tree",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-arboles-02e6"
-  },
-  {
-   "slug": "sudoku-de-imagenes-aves-2-63b6",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-aves-2-63b6"
-  },
-  {
-   "slug": "sudoku-de-imagenes-aves-3ef8",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "birds",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-aves-3ef8"
-  },
-  {
-   "slug": "sudoku-de-imagenes-campamento-088a",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "camping",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-campamento-088a"
-  },
-  {
-   "slug": "sudoku-de-imagenes-clima-235f",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "weather",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-clima-235f"
-  },
-  {
-   "slug": "sudoku-de-imagenes-colores-fcb0",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "colors",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-colores-fcb0"
-  },
-  {
-   "slug": "sudoku-de-imagenes-cosas-que-vuelan-011c",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "things_that_fly",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-cosas-que-vuelan-011c"
-  },
-  {
-   "slug": "sudoku-de-imagenes-criaturas-del-bosque-6395",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "forest_creatures",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-criaturas-del-bosque-6395"
-  },
-  {
-   "slug": "sudoku-de-imagenes-desayuno-e589",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "breakfast",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-desayuno-e589"
-  },
-  {
-   "slug": "sudoku-de-imagenes-dia-de-accion-de-gracias-acff",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "thanksgivinng",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-dia-de-accion-de-gracias-acff"
-  },
-  {
-   "slug": "sudoku-de-imagenes-dinosaurios-f547",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "dinosaurs",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-dinosaurios-f547"
-  },
-  {
-   "slug": "sudoku-de-imagenes-emociones-4e56",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "emotions",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-emociones-4e56"
-  },
-  {
-   "slug": "sudoku-de-imagenes-en-el-supermercado-84c9",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-en-el-supermercado-84c9"
-  },
-  {
-   "slug": "sudoku-de-imagenes-espacio-d357",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "space",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-espacio-d357"
-  },
-  {
-   "slug": "sudoku-de-imagenes-flores-d76d",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "flowers",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-flores-d76d"
-  },
-  {
-   "slug": "sudoku-de-imagenes-formas-36a8",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "shapes",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-formas-36a8"
-  },
-  {
-   "slug": "sudoku-de-imagenes-frutas-029b",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "fruits",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-frutas-029b"
-  },
-  {
-   "slug": "sudoku-de-imagenes-herramientas-25d6",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "tools",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-herramientas-25d6"
-  },
-  {
-   "slug": "sudoku-de-imagenes-hospital-d802",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "hospital",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-hospital-d802"
-  },
-  {
-   "slug": "sudoku-de-imagenes-insectos-y-bichos-1fb9",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-insectos-y-bichos-1fb9"
-  },
-  {
-   "slug": "sudoku-de-imagenes-invierno-8539",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "winter",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-invierno-8539"
-  },
-  {
-   "slug": "sudoku-de-imagenes-juguetes-58ed",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "toys",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-juguetes-58ed"
-  },
-  {
-   "slug": "sudoku-de-imagenes-mascotas-d530",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "pets",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-mascotas-d530"
-  },
-  {
-   "slug": "sudoku-de-imagenes-miscelaneo-4a83",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "miscellaneous",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-miscelaneo-4a83"
-  },
-  {
-   "slug": "sudoku-de-imagenes-muebles-79dd",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "furniture",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-muebles-79dd"
-  },
-  {
-   "slug": "sudoku-de-imagenes-musica-7650",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "music",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-musica-7650"
-  },
-  {
-   "slug": "sudoku-de-imagenes-navidad-74e1",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "christmas",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-navidad-74e1"
-  },
-  {
-   "slug": "sudoku-de-imagenes-ocupaciones-d817",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "occupations",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-ocupaciones-d817"
-  },
-  {
-   "slug": "sudoku-de-imagenes-oficina-de-correos-1b43",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "preposiciones-completar-oficina-de-correos-bd34",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "post_office",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-oficina-de-correos-1b43"
+   "level": "primer-grado",
+   "deck": "preposiciones-completar-oficina-de-correos-bd34"
   },
   {
-   "slug": "sudoku-de-imagenes-panaderia-e6b6",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "preposiciones-completar-panaderia-9508",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "bakery",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-panaderia-e6b6"
+   "level": "primer-grado",
+   "deck": "preposiciones-completar-panaderia-9508"
   },
   {
-   "slug": "sudoku-de-imagenes-partes-del-cuerpo-16f4",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "preposiciones-completar-partes-del-cuerpo-dca0",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "body_parts",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-partes-del-cuerpo-16f4"
+   "level": "primer-grado",
+   "deck": "preposiciones-completar-partes-del-cuerpo-dca0"
   },
   {
-   "slug": "sudoku-de-imagenes-pascua-752f",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "preposiciones-completar-pascua-7f06",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "easter",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-pascua-752f"
+   "level": "primer-grado",
+   "deck": "preposiciones-completar-pascua-7f06"
   },
   {
-   "slug": "sudoku-de-imagenes-playa-47d6",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "preposiciones-completar-playa-538b",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "beach",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-playa-47d6"
+   "level": "primer-grado",
+   "deck": "preposiciones-completar-playa-538b"
   },
   {
-   "slug": "sudoku-de-imagenes-postres-y-dulces-4efe",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "preposiciones-completar-postres-y-dulces-b318",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "desserts_and_sweets",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-postres-y-dulces-4efe"
+   "level": "primer-grado",
+   "deck": "preposiciones-completar-postres-y-dulces-b318"
   },
   {
-   "slug": "sudoku-de-imagenes-primavera-78a0",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "preposiciones-completar-primavera-a156",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "spring",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-primavera-78a0"
+   "level": "primer-grado",
+   "deck": "preposiciones-completar-primavera-a156"
   },
   {
-   "slug": "sudoku-de-imagenes-reptiles-y-anfibios-439c",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "preposiciones-completar-reptiles-y-anfibios-59b2",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "reptiles_and_amphibians",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-reptiles-y-anfibios-439c"
+   "level": "primer-grado",
+   "deck": "preposiciones-completar-reptiles-y-anfibios-59b2"
   },
   {
-   "slug": "sudoku-de-imagenes-ropa-7139",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "preposiciones-completar-ropa-4cca",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "clothing",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-ropa-7139"
+   "level": "primer-grado",
+   "deck": "preposiciones-completar-ropa-4cca"
   },
   {
-   "slug": "sudoku-de-imagenes-salon-de-clases-4b67",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "preposiciones-completar-salon-de-clases-d9b3",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "classroom",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-salon-de-clases-4b67"
+   "level": "primer-grado",
+   "deck": "preposiciones-completar-salon-de-clases-d9b3"
   },
   {
-   "slug": "sudoku-de-imagenes-utensilios-de-cocina-7928",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "preposiciones-completar-utensilios-de-cocina-08ed",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "kitchen_tools",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-utensilios-de-cocina-7928"
+   "level": "primer-grado",
+   "deck": "preposiciones-completar-utensilios-de-cocina-08ed"
   },
   {
-   "slug": "sudoku-de-imagenes-vehiculos-ad6c",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "preposiciones-completar-vehiculos-53ab",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "vehicles",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-vehiculos-ad6c"
+   "level": "primer-grado",
+   "deck": "preposiciones-completar-vehiculos-53ab"
   },
   {
-   "slug": "sudoku-de-imagenes-verano-1ad7",
-   "type": "sudoku",
-   "mode": null,
-   "theme": "summer",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-verano-1ad7"
+   "slug": "preposiciones-completar-verduras-ee9a",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "vegetables",
+   "level": "primer-grado",
+   "deck": "preposiciones-completar-verduras-ee9a"
   },
   {
-   "slug": "sudoku-de-imagenes-vida-marina-a4cc",
-   "type": "sudoku",
-   "mode": null,
+   "slug": "preposiciones-completar-vida-marina-a2aa",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "ocean_life",
-   "level": "preescolar",
-   "deck": "sudoku-de-imagenes-vida-marina-a4cc"
+   "level": "primer-grado",
+   "deck": "preposiciones-completar-vida-marina-a2aa"
   }
  ]
 }

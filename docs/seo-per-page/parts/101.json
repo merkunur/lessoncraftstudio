@@ -1,584 +1,310 @@
 {
  "part": 101,
- "locale": "pt",
+ "locale": "es",
  "classes": [
-  "wordsearch::null"
+  "picture-sort::null",
+  "graphing-data::graphs-and-line-plots",
+  "graphing-data::read-picture-bar-graphs",
+  "graphing-data::scaled-graphs"
  ],
- "splitOf": {
-  "class": "wordsearch::null",
-  "total": 142,
-  "chunk": 2,
-  "chunks": 2
- },
- "count": 71,
+ "splitOf": null,
+ "count": 37,
  "pages": [
   {
-   "slug": "espanhol-caca-palavras-insetos-e-bichos-e327",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-accessories-vs-animals-f238",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-insetos-e-bichos-e327"
+   "theme": "accessories-vs-animals",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-accessories-vs-animals-f238"
   },
   {
-   "slug": "espanhol-caca-palavras-inverno-ea58",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-activities-vs-animals-ff66",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "winter",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-inverno-ea58"
+   "theme": "activities-vs-animals",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-activities-vs-animals-ff66"
   },
   {
-   "slug": "espanhol-caca-palavras-moveis-2ade",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-animals-vs-at-the-supermarket-1d73",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "furniture",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-moveis-2ade"
+   "theme": "animals-vs-at_the_supermarket",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-animals-vs-at-the-supermarket-1d73"
   },
   {
-   "slug": "espanhol-caca-palavras-musica-b9b3",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-animals-vs-bakery-f867",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "music",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-musica-b9b3"
+   "theme": "animals-vs-bakery",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-animals-vs-bakery-f867"
   },
   {
-   "slug": "espanhol-caca-palavras-natal-48a8",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-animals-vs-beach-4dd1",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "christmas",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-natal-48a8"
+   "theme": "animals-vs-beach",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-animals-vs-beach-4dd1"
   },
   {
-   "slug": "espanhol-caca-palavras-no-supermercado-be62",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-animals-vs-birds-e49d",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-no-supermercado-be62"
+   "theme": "animals-vs-birds",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-animals-vs-birds-e49d"
   },
   {
-   "slug": "espanhol-caca-palavras-padaria-c0df",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-animals-vs-body-parts-6ea8",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "bakery",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-padaria-c0df"
+   "theme": "animals-vs-body_parts",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-animals-vs-body-parts-6ea8"
   },
   {
-   "slug": "espanhol-caca-palavras-partes-do-corpo-58b4",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-animals-vs-breakfast-c226",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "body_parts",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-partes-do-corpo-58b4"
+   "theme": "animals-vs-breakfast",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-animals-vs-breakfast-c226"
   },
   {
-   "slug": "espanhol-caca-palavras-pascoa-6302",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-animals-vs-christmas-31bb",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "easter",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-pascoa-6302"
+   "theme": "animals-vs-christmas",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-animals-vs-christmas-31bb"
   },
   {
-   "slug": "espanhol-caca-palavras-passaros-2-3399",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-animals-vs-classroom-a07b",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "birds_2",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-passaros-2-3399"
+   "theme": "animals-vs-classroom",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-animals-vs-classroom-a07b"
   },
   {
-   "slug": "espanhol-caca-palavras-passaros-8591",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-animals-vs-clothing-ffaa",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "birds",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-passaros-8591"
+   "theme": "animals-vs-clothing",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-animals-vs-clothing-ffaa"
   },
   {
-   "slug": "espanhol-caca-palavras-pela-casa-fd08",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-animals-vs-desserts-and-sweets-4fbb",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "around_the_house",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-pela-casa-fd08"
+   "theme": "animals-vs-desserts_and_sweets",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-animals-vs-desserts-and-sweets-4fbb"
   },
   {
-   "slug": "espanhol-caca-palavras-praia-23d0",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-animals-vs-dinosaurs-e02f",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "beach",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-praia-23d0"
+   "theme": "animals-vs-dinosaurs",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-animals-vs-dinosaurs-e02f"
   },
   {
-   "slug": "espanhol-caca-palavras-primavera-0c87",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-animals-vs-easter-ac0e",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "spring",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-primavera-0c87"
+   "theme": "animals-vs-easter",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-animals-vs-easter-ac0e"
   },
   {
-   "slug": "espanhol-caca-palavras-profissoes-6acc",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-animals-vs-emotions-306e",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "occupations",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-profissoes-6acc"
+   "theme": "animals-vs-emotions",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-animals-vs-emotions-306e"
   },
   {
-   "slug": "espanhol-caca-palavras-repteis-e-anfibios-d0b5",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-animals-vs-flowers-b23d",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "reptiles_and_amphibians",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-repteis-e-anfibios-d0b5"
+   "theme": "animals-vs-flowers",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-animals-vs-flowers-b23d"
   },
   {
-   "slug": "espanhol-caca-palavras-roupas-4765",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-animals-vs-fruits-d77d",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "clothing",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-roupas-4765"
+   "theme": "animals-vs-fruits",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-animals-vs-fruits-d77d"
   },
   {
-   "slug": "espanhol-caca-palavras-sala-de-aula-e809",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-animals-vs-furniture-b9b1",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "classroom",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-sala-de-aula-e809"
+   "theme": "animals-vs-furniture",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-animals-vs-furniture-b9b1"
   },
   {
-   "slug": "espanhol-caca-palavras-sobremesas-e-doces-403e",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-animals-vs-hospital-8f3a",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-sobremesas-e-doces-403e"
+   "theme": "animals-vs-hospital",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-animals-vs-hospital-8f3a"
   },
   {
-   "slug": "espanhol-caca-palavras-utensilios-de-cozinha-693a",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-animals-vs-kitchen-tools-76fd",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "kitchen_tools",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-utensilios-de-cozinha-693a"
+   "theme": "animals-vs-kitchen_tools",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-animals-vs-kitchen-tools-76fd"
   },
   {
-   "slug": "espanhol-caca-palavras-vegetais-73aa",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-animals-vs-music-3a91",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "vegetables",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-vegetais-73aa"
+   "theme": "animals-vs-music",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-animals-vs-music-3a91"
   },
   {
-   "slug": "espanhol-caca-palavras-veiculos-8d50",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-animals-vs-occupations-03ba",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "vehicles",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-veiculos-8d50"
+   "theme": "animals-vs-occupations",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-animals-vs-occupations-03ba"
   },
   {
-   "slug": "espanhol-caca-palavras-verao-796d",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-animals-vs-post-office-3c85",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "summer",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-verao-796d"
+   "theme": "animals-vs-post_office",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-animals-vs-post-office-3c85"
   },
   {
-   "slug": "espanhol-caca-palavras-vida-marinha-50b2",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-animals-vs-shapes-2f8a",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "ocean_life",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-vida-marinha-50b2"
+   "theme": "animals-vs-shapes",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-animals-vs-shapes-2f8a"
   },
   {
-   "slug": "ingles-caca-palavras-acampamento-c610",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-animals-vs-space-ed50",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "camping",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-acampamento-c610"
+   "theme": "animals-vs-space",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-animals-vs-space-ed50"
   },
   {
-   "slug": "ingles-caca-palavras-acessorios-d25d",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-animals-vs-summer-cdb9",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "accessories",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-acessorios-d25d"
+   "theme": "animals-vs-summer",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-animals-vs-summer-cdb9"
   },
   {
-   "slug": "ingles-caca-palavras-animais-bd29",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-animals-vs-thanksgiving-96b3",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "animals",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-animais-bd29"
+   "theme": "animals-vs-thanksgivinng",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-animals-vs-thanksgiving-96b3"
   },
   {
-   "slug": "ingles-caca-palavras-animais-da-fazenda-99a4",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-animals-vs-tools-895a",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "farm_animals",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-animais-da-fazenda-99a4"
+   "theme": "animals-vs-tools",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-animals-vs-tools-895a"
   },
   {
-   "slug": "ingles-caca-palavras-animais-de-estimacao-3acd",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-animals-vs-toys-6b6d",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "pets",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-animais-de-estimacao-3acd"
+   "theme": "animals-vs-toys",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-animals-vs-toys-6b6d"
   },
   {
-   "slug": "ingles-caca-palavras-animais-do-zoologico-ecd1",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-animals-vs-tree-98be",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "zoo_animals",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-animais-do-zoologico-ecd1"
+   "theme": "animals-vs-tree",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-animals-vs-tree-98be"
   },
   {
-   "slug": "ingles-caca-palavras-arvores-9056",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-animals-vs-vegetables-86ab",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "tree",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-arvores-9056"
+   "theme": "animals-vs-vegetables",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-animals-vs-vegetables-86ab"
   },
   {
-   "slug": "ingles-caca-palavras-atividades-090b",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-animals-vs-vehicles-3f91",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "activities",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-atividades-090b"
+   "theme": "animals-vs-vehicles",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-animals-vs-vehicles-3f91"
   },
   {
-   "slug": "ingles-caca-palavras-brinquedos-949a",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-animals-vs-weather-fb18",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "toys",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-brinquedos-949a"
+   "theme": "animals-vs-weather",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-animals-vs-weather-fb18"
   },
   {
-   "slug": "ingles-caca-palavras-cafe-da-manha-e5fc",
-   "type": "wordsearch",
+   "slug": "clasificar-imagenes-around-the-house-vs-animals-98be",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "breakfast",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-cafe-da-manha-e5fc"
+   "theme": "around_the_house-vs-animals",
+   "level": "preescolar",
+   "deck": "clasificar-imagenes-around-the-house-vs-animals-98be"
   },
   {
-   "slug": "ingles-caca-palavras-clima-6e87",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "weather",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-clima-6e87"
-  },
-  {
-   "slug": "ingles-caca-palavras-coisas-que-voam-dc22",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "things_that_fly",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-coisas-que-voam-dc22"
-  },
-  {
-   "slug": "ingles-caca-palavras-cores-f7d2",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "colors",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-cores-f7d2"
-  },
-  {
-   "slug": "ingles-caca-palavras-correios-42f3",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "post_office",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-correios-42f3"
-  },
-  {
-   "slug": "ingles-caca-palavras-criaturas-da-floresta-40e3",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "forest_creatures",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-criaturas-da-floresta-40e3"
-  },
-  {
-   "slug": "ingles-caca-palavras-dia-de-acao-de-gracas-1711",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "thanksgivinng",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-dia-de-acao-de-gracas-1711"
-  },
-  {
-   "slug": "ingles-caca-palavras-emocoes-2aaa",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "emotions",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-emocoes-2aaa"
-  },
-  {
-   "slug": "ingles-caca-palavras-espaco-4d66",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "space",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-espaco-4d66"
-  },
-  {
-   "slug": "ingles-caca-palavras-ferramentas-c0c4",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "tools",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-ferramentas-c0c4"
-  },
-  {
-   "slug": "ingles-caca-palavras-flores-130e",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "flowers",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-flores-130e"
-  },
-  {
-   "slug": "ingles-caca-palavras-formas-69e1",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "shapes",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-formas-69e1"
-  },
-  {
-   "slug": "ingles-caca-palavras-frutas-8913",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "fruits",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-frutas-8913"
-  },
-  {
-   "slug": "ingles-caca-palavras-hospital-c614",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "hospital",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-hospital-c614"
-  },
-  {
-   "slug": "ingles-caca-palavras-insetos-e-bichos-6502",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-insetos-e-bichos-6502"
-  },
-  {
-   "slug": "ingles-caca-palavras-inverno-cc93",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "winter",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-inverno-cc93"
-  },
-  {
-   "slug": "ingles-caca-palavras-moveis-0f1c",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "furniture",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-moveis-0f1c"
-  },
-  {
-   "slug": "ingles-caca-palavras-musica-2a91",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "music",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-musica-2a91"
-  },
-  {
-   "slug": "ingles-caca-palavras-natal-1132",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "christmas",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-natal-1132"
+   "slug": "graficas-de-barras-segundo-grado",
+   "type": "graphing-data",
+   "mode": "graphs-and-line-plots",
+   "theme": "",
+   "level": "segundo-grado",
+   "deck": "graficos-y-datos-formas-g2240"
   },
   {
-   "slug": "ingles-caca-palavras-no-supermercado-b3af",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-no-supermercado-b3af"
-  },
-  {
-   "slug": "ingles-caca-palavras-padaria-8982",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "bakery",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-padaria-8982"
-  },
-  {
-   "slug": "ingles-caca-palavras-partes-do-corpo-de75",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-partes-do-corpo-de75"
-  },
-  {
-   "slug": "ingles-caca-palavras-pascoa-904e",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "easter",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-pascoa-904e"
-  },
-  {
-   "slug": "ingles-caca-palavras-passaros-0545",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "birds",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-passaros-0545"
-  },
-  {
-   "slug": "ingles-caca-palavras-passaros-2-5e68",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-passaros-2-5e68"
-  },
-  {
-   "slug": "ingles-caca-palavras-pela-casa-e1cc",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "around_the_house",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-pela-casa-e1cc"
-  },
-  {
-   "slug": "ingles-caca-palavras-praia-d741",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "beach",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-praia-d741"
-  },
-  {
-   "slug": "ingles-caca-palavras-primavera-6038",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "spring",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-primavera-6038"
-  },
-  {
-   "slug": "ingles-caca-palavras-profissoes-fc69",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "occupations",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-profissoes-fc69"
-  },
-  {
-   "slug": "ingles-caca-palavras-repteis-e-anfibios-333f",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "reptiles_and_amphibians",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-repteis-e-anfibios-333f"
-  },
-  {
-   "slug": "ingles-caca-palavras-roupas-f377",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "clothing",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-roupas-f377"
-  },
-  {
-   "slug": "ingles-caca-palavras-sala-de-aula-6a38",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "classroom",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-sala-de-aula-6a38"
-  },
-  {
-   "slug": "ingles-caca-palavras-sobremesas-e-doces-892f",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-sobremesas-e-doces-892f"
-  },
-  {
-   "slug": "ingles-caca-palavras-utensilios-de-cozinha-16c3",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-utensilios-de-cozinha-16c3"
-  },
-  {
-   "slug": "ingles-caca-palavras-vegetais-82e0",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "vegetables",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-vegetais-82e0"
+   "slug": "graficas-pictogramas-primer-grado",
+   "type": "graphing-data",
+   "mode": "read-picture-bar-graphs",
+   "theme": "",
+   "level": "primer-grado",
+   "deck": "graficos-y-datos-formas-g1143"
   },
   {
-   "slug": "ingles-caca-palavras-veiculos-a0b8",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "vehicles",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-veiculos-a0b8"
-  },
-  {
-   "slug": "ingles-caca-palavras-verao-f9db",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "summer",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-verao-f9db"
-  },
-  {
-   "slug": "ingles-caca-palavras-vida-marinha-bfc9",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "ocean_life",
-   "level": "language-beginner",
-   "deck": "ingles-caca-palavras-vida-marinha-bfc9"
+   "slug": "graficas-de-barras-con-escala-tercer-grado",
+   "type": "graphing-data",
+   "mode": "scaled-graphs",
+   "theme": "",
+   "level": "tercer-grado",
+   "deck": "graficos-y-datos-formas-g3334"
   }
  ]
 }

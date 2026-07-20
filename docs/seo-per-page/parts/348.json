@@ -2,651 +2,779 @@
  "part": 348,
  "locale": "fi",
  "classes": [
-  "more-less::image-image",
-  "subtraction::find-subtrahend"
+  "prepositions::fillin",
+  "find-objects::find-odd"
  ],
  "splitOf": null,
- "count": 80,
+ "count": 96,
  "pages": [
   {
-   "slug": "enemman-vahemman-kuva-kuva-aamiainen-2c8f",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "breakfast",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-aamiainen-2c8f"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-ajoneuvot-9ba9",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "vehicles",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-ajoneuvot-9ba9"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-ammatit-86be",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "occupations",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-ammatit-86be"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-asusteet-a67f",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "accessories",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-asusteet-a67f"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-avaruus-8c9b",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "space",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-avaruus-8c9b"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-dinosaurukset-a125",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "dinosaurs",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-dinosaurukset-a125"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-elaimet-3b3b",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "animals",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-elaimet-3b3b"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-elaintarhan-elaimet-e838",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "zoo_animals",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-elaintarhan-elaimet-e838"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-hedelmat-0b7c",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "fruits",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-hedelmat-0b7c"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-huonekalut-23df",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "furniture",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-huonekalut-23df"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-hyonteiset-ja-otokat-0475",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "insects_and_bugs",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-hyonteiset-ja-otokat-0475"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-jalkiruoat-ja-makeiset-1a85",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "desserts_and_sweets",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-jalkiruoat-ja-makeiset-1a85"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-joulu-770a",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "christmas",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-joulu-770a"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-keittiovalineet-ea1a",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "kitchen_tools",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-keittiovalineet-ea1a"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-kiitospaiva-c9f3",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "thanksgivinng",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-kiitospaiva-c9f3"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-kodin-ymparilla-57a6",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "around_the_house",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-kodin-ymparilla-57a6"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-kukat-8e46",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "flowers",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-kukat-8e46"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-leipomo-25b8",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "bakery",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-leipomo-25b8"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-leirielama-2709",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "camping",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-leirielama-2709"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-lelut-864f",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "toys",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-lelut-864f"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-lemmikit-1203",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "pets",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-lemmikit-1203"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-lentavat-asiat-9b58",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "things_that_fly",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-lentavat-asiat-9b58"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-linnut-2-3a88",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "birds_2",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-linnut-2-3a88"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-linnut-275b",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "birds",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-linnut-275b"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-luokkahuone-34e7",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "classroom",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-luokkahuone-34e7"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-maatilan-elaimet-930b",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "farm_animals",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-maatilan-elaimet-930b"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-matelijat-ja-sammakkoelaimet-a9ed",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "reptiles_and_amphibians",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-matelijat-ja-sammakkoelaimet-a9ed"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-merielama-c6f2",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "ocean_life",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-merielama-c6f2"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-metsan-elaimet-4460",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "forest_creatures",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-metsan-elaimet-4460"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-muodot-9d9e",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "shapes",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-muodot-9d9e"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-musiikki-4157",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "music",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-musiikki-4157"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-paasiainen-6e99",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "easter",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-paasiainen-6e99"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-postitoimisto-a486",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "post_office",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-postitoimisto-a486"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-puut-fa42",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "tree",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-puut-fa42"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-ranta-ecd0",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "beach",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-ranta-ecd0"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-ruokakaupassa-e764",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "at_the_supermarket",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-ruokakaupassa-e764"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-sairaala-050c",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "hospital",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-sairaala-050c"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-tyokalut-52b5",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "tools",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-tyokalut-52b5"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-vaatteet-65c5",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "clothing",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-vaatteet-65c5"
-  },
-  {
-   "slug": "enemman-vahemman-kuva-kuva-vihannekset-335f",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "vegetables",
-   "level": "esikoulu",
-   "deck": "enemman-vahemman-kuva-kuva-vihannekset-335f"
-  },
-  {
-   "slug": "vahennyslasku-etsi-vahentaja-aamiainen-0e9a",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-aamiainen-732c",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "breakfast",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-aamiainen-0e9a"
+   "deck": "prepositiot-tayta-aamiainen-732c"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-ajoneuvot-ce14",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-ajoneuvot-48f7",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "vehicles",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-ajoneuvot-ce14"
+   "deck": "prepositiot-tayta-ajoneuvot-48f7"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-ammatit-26e4",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-aktiviteetit-675e",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "activities",
+   "level": "1-luokka",
+   "deck": "prepositiot-tayta-aktiviteetit-675e"
+  },
+  {
+   "slug": "prepositiot-tayta-ammatit-2d37",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "occupations",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-ammatit-26e4"
+   "deck": "prepositiot-tayta-ammatit-2d37"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-asusteet-b05d",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-asusteet-13b0",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "accessories",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-asusteet-b05d"
+   "deck": "prepositiot-tayta-asusteet-13b0"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-avaruus-d3d5",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-avaruus-d9c5",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "space",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-avaruus-d3d5"
+   "deck": "prepositiot-tayta-avaruus-d9c5"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-dinosaurukset-064e",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-dinosaurukset-55f9",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "dinosaurs",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-dinosaurukset-064e"
+   "deck": "prepositiot-tayta-dinosaurukset-55f9"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-elaimet-8615",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-elaimet-e7c2",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "animals",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-elaimet-8615"
+   "deck": "prepositiot-tayta-elaimet-e7c2"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-elaintarhan-elaimet-d776",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-elaintarhan-elaimet-4c89",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "zoo_animals",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-elaintarhan-elaimet-d776"
+   "deck": "prepositiot-tayta-elaintarhan-elaimet-4c89"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-hedelmat-b079",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-hedelmat-f8eb",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "fruits",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-hedelmat-b079"
+   "deck": "prepositiot-tayta-hedelmat-f8eb"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-huonekalut-5bdf",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-huonekalut-2763",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "furniture",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-huonekalut-5bdf"
+   "deck": "prepositiot-tayta-huonekalut-2763"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-hyonteiset-ja-otokat-a199",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-hyonteiset-ja-otokat-58a1",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "insects_and_bugs",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-hyonteiset-ja-otokat-a199"
+   "deck": "prepositiot-tayta-hyonteiset-ja-otokat-58a1"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-jalkiruoat-ja-makeiset-ec37",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-jalkiruoat-ja-makeiset-be94",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "desserts_and_sweets",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-jalkiruoat-ja-makeiset-ec37"
+   "deck": "prepositiot-tayta-jalkiruoat-ja-makeiset-be94"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-joulu-7792",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-joulu-7273",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "christmas",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-joulu-7792"
+   "deck": "prepositiot-tayta-joulu-7273"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-keittiovalineet-f4a0",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-keittiovalineet-ac23",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "kitchen_tools",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-keittiovalineet-f4a0"
+   "deck": "prepositiot-tayta-keittiovalineet-ac23"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-kiitospaiva-1e95",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-kesa-df4d",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "summer",
+   "level": "1-luokka",
+   "deck": "prepositiot-tayta-kesa-df4d"
+  },
+  {
+   "slug": "prepositiot-tayta-kevat-6294",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "spring",
+   "level": "1-luokka",
+   "deck": "prepositiot-tayta-kevat-6294"
+  },
+  {
+   "slug": "prepositiot-tayta-kiitospaiva-10db",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "thanksgivinng",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-kiitospaiva-1e95"
+   "deck": "prepositiot-tayta-kiitospaiva-10db"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-kodin-ymparilla-4107",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-kodin-ymparilla-7ac9",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "around_the_house",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-kodin-ymparilla-4107"
+   "deck": "prepositiot-tayta-kodin-ymparilla-7ac9"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-kukat-cfa6",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-kukat-378d",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "flowers",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-kukat-cfa6"
+   "deck": "prepositiot-tayta-kukat-378d"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-leipomo-c52c",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-leipomo-9783",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "bakery",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-leipomo-c52c"
+   "deck": "prepositiot-tayta-leipomo-9783"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-leirielama-58b5",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-leirielama-1069",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "camping",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-leirielama-58b5"
+   "deck": "prepositiot-tayta-leirielama-1069"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-lelut-5af1",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-lelut-dabf",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "toys",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-lelut-5af1"
+   "deck": "prepositiot-tayta-lelut-dabf"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-lemmikit-4ec0",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-lemmikit-d8b4",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "pets",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-lemmikit-4ec0"
+   "deck": "prepositiot-tayta-lemmikit-d8b4"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-lentavat-asiat-3c0e",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-lentavat-asiat-1e26",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "things_that_fly",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-lentavat-asiat-3c0e"
+   "deck": "prepositiot-tayta-lentavat-asiat-1e26"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-linnut-2-027e",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-linnut-2-745e",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "birds_2",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-linnut-2-027e"
+   "deck": "prepositiot-tayta-linnut-2-745e"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-linnut-3c0d",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-linnut-6d65",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "birds",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-linnut-3c0d"
+   "deck": "prepositiot-tayta-linnut-6d65"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-luokkahuone-a4f6",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-luokkahuone-3a38",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "classroom",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-luokkahuone-a4f6"
+   "deck": "prepositiot-tayta-luokkahuone-3a38"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-maatilan-elaimet-59ad",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-maatilan-elaimet-b36a",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "farm_animals",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-maatilan-elaimet-59ad"
+   "deck": "prepositiot-tayta-maatilan-elaimet-b36a"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-matelijat-ja-sammakkoelaimet-b8dc",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-matelijat-ja-sammakkoelaimet-e83f",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "reptiles_and_amphibians",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-matelijat-ja-sammakkoelaimet-b8dc"
+   "deck": "prepositiot-tayta-matelijat-ja-sammakkoelaimet-e83f"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-merielama-8593",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-merielama-4e9f",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "ocean_life",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-merielama-8593"
+   "deck": "prepositiot-tayta-merielama-4e9f"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-metsan-elaimet-e00b",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-metsan-elaimet-cc9a",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "forest_creatures",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-metsan-elaimet-e00b"
+   "deck": "prepositiot-tayta-metsan-elaimet-cc9a"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-muodot-a46f",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-muodot-4130",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "shapes",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-muodot-a46f"
+   "deck": "prepositiot-tayta-muodot-4130"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-musiikki-c712",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-musiikki-64a5",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "music",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-musiikki-c712"
+   "deck": "prepositiot-tayta-musiikki-64a5"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-paasiainen-80c3",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-paasiainen-5be7",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "easter",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-paasiainen-80c3"
+   "deck": "prepositiot-tayta-paasiainen-5be7"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-postitoimisto-b71a",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-postitoimisto-5928",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "post_office",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-postitoimisto-b71a"
+   "deck": "prepositiot-tayta-postitoimisto-5928"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-puut-563f",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-puut-3f14",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "tree",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-puut-563f"
+   "deck": "prepositiot-tayta-puut-3f14"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-ranta-9315",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-ranta-c1df",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "beach",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-ranta-9315"
+   "deck": "prepositiot-tayta-ranta-c1df"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-ruokakaupassa-bfa0",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-ruokakaupassa-ddb9",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "at_the_supermarket",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-ruokakaupassa-bfa0"
+   "deck": "prepositiot-tayta-ruokakaupassa-ddb9"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-sairaala-160c",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-ruumiinosat-44ed",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "body_parts",
+   "level": "1-luokka",
+   "deck": "prepositiot-tayta-ruumiinosat-44ed"
+  },
+  {
+   "slug": "prepositiot-tayta-saa-2d3c",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "weather",
+   "level": "1-luokka",
+   "deck": "prepositiot-tayta-saa-2d3c"
+  },
+  {
+   "slug": "prepositiot-tayta-sairaala-cefd",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "hospital",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-sairaala-160c"
+   "deck": "prepositiot-tayta-sairaala-cefd"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-tyokalut-7ba9",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-sekalaista-e8b1",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "miscellaneous",
+   "level": "1-luokka",
+   "deck": "prepositiot-tayta-sekalaista-e8b1"
+  },
+  {
+   "slug": "prepositiot-tayta-talvi-00b4",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "winter",
+   "level": "1-luokka",
+   "deck": "prepositiot-tayta-talvi-00b4"
+  },
+  {
+   "slug": "prepositiot-tayta-tunteet-8cc0",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "emotions",
+   "level": "1-luokka",
+   "deck": "prepositiot-tayta-tunteet-8cc0"
+  },
+  {
+   "slug": "prepositiot-tayta-tyokalut-4961",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "tools",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-tyokalut-7ba9"
+   "deck": "prepositiot-tayta-tyokalut-4961"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-vaatteet-77ca",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-vaatteet-b4b7",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "clothing",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-vaatteet-77ca"
+   "deck": "prepositiot-tayta-vaatteet-b4b7"
   },
   {
-   "slug": "vahennyslasku-etsi-vahentaja-vihannekset-1356",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "prepositiot-tayta-varit-4d4d",
+   "type": "prepositions",
+   "mode": "fillin",
+   "theme": "colors",
+   "level": "1-luokka",
+   "deck": "prepositiot-tayta-varit-4d4d"
+  },
+  {
+   "slug": "prepositiot-tayta-vihannekset-39fc",
+   "type": "prepositions",
+   "mode": "fillin",
    "theme": "vegetables",
    "level": "1-luokka",
-   "deck": "vahennyslasku-etsi-vahentaja-vihannekset-1356"
+   "deck": "prepositiot-tayta-vihannekset-39fc"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-aamiainen-705a",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "breakfast",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-aamiainen-705a"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-ajoneuvot-5082",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "vehicles",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-ajoneuvot-5082"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-aktiviteetit-0dd6",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "activities",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-aktiviteetit-0dd6"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-ammatit-a35c",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "occupations",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-ammatit-a35c"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-asusteet-8ea8",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "accessories",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-asusteet-8ea8"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-avaruus-a4f1",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "space",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-avaruus-a4f1"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-dinosaurukset-043a",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "dinosaurs",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-dinosaurukset-043a"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-elaimet-601c",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "animals",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-elaimet-601c"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-elaintarhan-elaimet-9ed9",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "zoo_animals",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-elaintarhan-elaimet-9ed9"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-hedelmat-5fe6",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "fruits",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-hedelmat-5fe6"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-huonekalut-1be1",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "furniture",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-huonekalut-1be1"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-hyonteiset-ja-otokat-962b",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "insects_and_bugs",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-hyonteiset-ja-otokat-962b"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-jalkiruoat-ja-makeiset-69bd",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "desserts_and_sweets",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-jalkiruoat-ja-makeiset-69bd"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-joulu-e555",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "christmas",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-joulu-e555"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-keittiovalineet-9250",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "kitchen_tools",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-keittiovalineet-9250"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-kesa-62c5",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "summer",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-kesa-62c5"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-kevat-6564",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "spring",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-kevat-6564"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-kiitospaiva-f816",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "thanksgivinng",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-kiitospaiva-f816"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-kodin-ymparilla-dd75",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "around_the_house",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-kodin-ymparilla-dd75"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-kukat-6e3e",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "flowers",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-kukat-6e3e"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-leipomo-b4c6",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "bakery",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-leipomo-b4c6"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-leirielama-ecd7",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "camping",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-leirielama-ecd7"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-lelut-16af",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "toys",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-lelut-16af"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-lemmikit-cc13",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "pets",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-lemmikit-cc13"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-lentavat-asiat-262b",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "things_that_fly",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-lentavat-asiat-262b"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-linnut-2-8595",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "birds_2",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-linnut-2-8595"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-luokkahuone-fc25",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "classroom",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-luokkahuone-fc25"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-maatilan-elaimet-df6e",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "farm_animals",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-maatilan-elaimet-df6e"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-matelijat-ja-sammakkoelaimet-5d0a",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "reptiles_and_amphibians",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-matelijat-ja-sammakkoelaimet-5d0a"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-merielama-c23d",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "ocean_life",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-merielama-c23d"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-metsan-elaimet-dd12",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "forest_creatures",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-metsan-elaimet-dd12"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-muodot-f58d",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "shapes",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-muodot-f58d"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-musiikki-29a7",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "music",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-musiikki-29a7"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-paasiainen-f220",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "easter",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-paasiainen-f220"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-postitoimisto-0853",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "post_office",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-postitoimisto-0853"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-puut-f544",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "tree",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-puut-f544"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-ranta-3c5a",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "beach",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-ranta-3c5a"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-ruokakaupassa-90eb",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "at_the_supermarket",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-ruokakaupassa-90eb"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-ruumiinosat-a492",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "body_parts",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-ruumiinosat-a492"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-saa-c587",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "weather",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-saa-c587"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-sairaala-f5c1",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "hospital",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-sairaala-f5c1"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-talvi-3cb5",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "winter",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-talvi-3cb5"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-tunteet-e17b",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "emotions",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-tunteet-e17b"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-tyokalut-b831",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "tools",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-tyokalut-b831"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-vaatteet-8ee9",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "clothing",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-vaatteet-8ee9"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-varit-26cf",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "colors",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-varit-26cf"
+  },
+  {
+   "slug": "etsi-esineet-etsi-erilainen-vihannekset-c72c",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "vegetables",
+   "level": "esikoulu",
+   "deck": "etsi-esineet-etsi-erilainen-vihannekset-c72c"
   }
  ]
 }

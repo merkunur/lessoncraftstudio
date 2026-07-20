@@ -2,771 +2,787 @@
  "part": 146,
  "locale": "fr",
  "classes": [
-  "treasure-hunt::cardinal-arrows",
-  "find-objects::i-spy"
+  "math-worksheet::two-symbols-add-sub",
+  "math-worksheet::three-symbols-add-sub"
  ],
  "splitOf": null,
- "count": 95,
+ "count": 97,
  "pages": [
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-accessoires-db57",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-accessoires-1149",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "accessories",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-accessoires-db57"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-accessoires-1149"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-action-de-grace-f3b1",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-action-de-grace-625a",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "thanksgivinng",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-action-de-grace-f3b1"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-action-de-grace-625a"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-activites-73fe",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-activites-338e",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "activities",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-activites-73fe"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-activites-338e"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-animaux",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-animaux-1df3",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "animals",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-animaux"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-animaux-1df3"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-animaux-de-compagnie-ae5d",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-animaux-de-compagnie-777d",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "pets",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-animaux-de-compagnie-ae5d"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-animaux-de-compagnie-777d"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-animaux-de-la-ferme-d0ed",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-animaux-de-la-ferme-34eb",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "farm_animals",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-animaux-de-la-ferme-d0ed"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-animaux-de-la-ferme-34eb"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-animaux-du-zoo-f1f5",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-animaux-du-zoo-eb6a",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "zoo_animals",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-animaux-du-zoo-f1f5"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-animaux-du-zoo-eb6a"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-arbres-13ea",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-arbres-cd62",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "tree",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-arbres-13ea"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-arbres-cd62"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-au-supermarche-2e61",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-au-supermarche-5fa0",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "at_the_supermarket",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-au-supermarche-2e61"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-au-supermarche-5fa0"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-autour-de-la-maison-65f3",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-autour-de-la-maison-242f",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "around_the_house",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-autour-de-la-maison-65f3"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-autour-de-la-maison-242f"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-boulangerie-fe4e",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-boulangerie-6061",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "bakery",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-boulangerie-fe4e"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-boulangerie-6061"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-bureau-de-poste-63bf",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-bureau-de-poste-5518",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "post_office",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-bureau-de-poste-63bf"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-bureau-de-poste-5518"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-camping-9d11",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-camping-12a4",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "camping",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-camping-9d11"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-camping-12a4"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-choses-qui-volent-fa05",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-choses-qui-volent-e6de",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "things_that_fly",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-choses-qui-volent-fa05"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-choses-qui-volent-e6de"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-couleurs-5d79",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-couleurs-c506",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "colors",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-couleurs-5d79"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-couleurs-c506"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-creatures-de-la-foret-86a3",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-creatures-de-la-foret-5d6d",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "forest_creatures",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-creatures-de-la-foret-86a3"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-creatures-de-la-foret-5d6d"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-desserts-et-sucreries-42de",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-desserts-et-sucreries-5a88",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "desserts_and_sweets",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-desserts-et-sucreries-42de"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-desserts-et-sucreries-5a88"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-dinosaures-0879",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-dinosaures-da87",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "dinosaurs",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-dinosaures-0879"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-dinosaures-da87"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-emotions-0d1a",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-divers-b761",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
+   "theme": "miscellaneous",
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-divers-b761"
+  },
+  {
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-emotions-0f3e",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "emotions",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-emotions-0d1a"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-emotions-0f3e"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-espace-fcbd",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-espace-463d",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "space",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-espace-fcbd"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-espace-463d"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-ete-cf2e",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-ete-6f32",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "summer",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-ete-cf2e"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-ete-6f32"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-fleurs-d952",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-fleurs-7cc1",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "flowers",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-fleurs-d952"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-fleurs-7cc1"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-formes-1a00",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-formes-c6a5",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "shapes",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-formes-1a00"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-formes-c6a5"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-fruits-9225",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-fruits-f3ad",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "fruits",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-fruits-9225"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-fruits-f3ad"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-hiver-a02c",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-hiver-fe37",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "winter",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-hiver-a02c"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-hiver-fe37"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-hopital-c718",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-hopital-723a",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "hospital",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-hopital-c718"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-hopital-723a"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-insectes-et-bestioles-f308",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-insectes-et-bestioles-3c6a",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "insects_and_bugs",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-insectes-et-bestioles-f308"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-insectes-et-bestioles-3c6a"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-jouets-bfe7",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-jouets-6352",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "toys",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-jouets-bfe7"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-jouets-6352"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-legumes-ee41",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-legumes-bbae",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "vegetables",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-legumes-ee41"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-legumes-bbae"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-meteo-ce94",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-meteo-c526",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "weather",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-meteo-ce94"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-meteo-c526"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-metiers-04c1",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-metiers-10c0",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "occupations",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-metiers-04c1"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-metiers-10c0"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-meubles-4b2a",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-meubles-c5e0",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "furniture",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-meubles-4b2a"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-meubles-c5e0"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-musique-3c7e",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-musique-6d43",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "music",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-musique-3c7e"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-musique-6d43"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-noel-3417",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-noel-928a",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "christmas",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-noel-3417"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-noel-928a"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-oiseaux-2-1074",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-oiseaux-2-b3a4",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "birds_2",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-oiseaux-2-1074"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-oiseaux-2-b3a4"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-oiseaux-c2a6",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-oiseaux-ebe3",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "birds",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-oiseaux-c2a6"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-oiseaux-ebe3"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-outils-7c1e",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-outils-742d",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "tools",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-outils-7c1e"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-outils-742d"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-paques-fafe",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-paques-a1a4",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "easter",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-paques-fafe"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-paques-a1a4"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-parties-du-corps-872b",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-parties-du-corps-be06",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "body_parts",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-parties-du-corps-872b"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-parties-du-corps-be06"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-petit-dejeuner-50fa",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-petit-dejeuner-3648",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "breakfast",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-petit-dejeuner-50fa"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-petit-dejeuner-3648"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-plage-0d98",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-plage-2abd",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "beach",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-plage-0d98"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-plage-2abd"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-printemps-c9e6",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-printemps-4b4e",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "spring",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-printemps-c9e6"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-printemps-4b4e"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-reptiles-et-amphibiens-347e",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-reptiles-et-amphibiens-b4f2",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "reptiles_and_amphibians",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-reptiles-et-amphibiens-347e"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-reptiles-et-amphibiens-b4f2"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-salle-de-classe-031c",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-salle-de-classe-a530",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "classroom",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-salle-de-classe-031c"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-salle-de-classe-a530"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-ustensiles-de-cuisine-c21d",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-ustensiles-de-cuisine-29d5",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "kitchen_tools",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-ustensiles-de-cuisine-c21d"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-ustensiles-de-cuisine-29d5"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-vehicules-7c74",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-vehicules-dee8",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "vehicles",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-vehicules-7c74"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-vehicules-dee8"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-vetements-5cbf",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-vetements-a094",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "clothing",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-vetements-5cbf"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-vetements-a094"
   },
   {
-   "slug": "chasse-au-tresor-haut-bas-gauche-droite-vie-oceanique-472c",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "fiche-de-mathematiques-2-symboles-add-sous-vie-oceanique-529a",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "ocean_life",
-   "level": "maternelle",
-   "deck": "chasse-au-tresor-haut-bas-gauche-droite-vie-oceanique-472c"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-2-symboles-add-sous-vie-oceanique-529a"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-accessoires-f268",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-accessoires-d3f9",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "accessories",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-accessoires-f268"
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-accessoires-d3f9"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-action-de-grace-6bf1",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-action-de-grace-baf1",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "thanksgivinng",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-action-de-grace-6bf1"
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-action-de-grace-baf1"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-activites-b6cd",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-activites-34c1",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "activities",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-activites-b6cd"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-activites-34c1"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-animaux-c7d6",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-animaux-b57d",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "animals",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-animaux-c7d6"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-animaux-b57d"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-animaux-de-compagnie-bd5d",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-animaux-de-compagnie-7899",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "pets",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-animaux-de-compagnie-bd5d"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-animaux-de-compagnie-7899"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-animaux-de-la-ferme-2139",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-animaux-de-la-ferme-a66c",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "farm_animals",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-animaux-de-la-ferme-2139"
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-animaux-de-la-ferme-a66c"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-animaux-du-zoo-ac64",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-animaux-du-zoo-dc29",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "zoo_animals",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-animaux-du-zoo-ac64"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-animaux-du-zoo-dc29"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-arbres-7815",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-arbres-715b",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "tree",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-arbres-7815"
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-arbres-715b"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-au-supermarche-49a0",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-au-supermarche-710a",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "at_the_supermarket",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-au-supermarche-49a0"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-au-supermarche-710a"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-boulangerie-3aa9",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-autour-de-la-maison-102e",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "around_the_house",
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-autour-de-la-maison-102e"
+  },
+  {
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-boulangerie-3d34",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "bakery",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-boulangerie-3aa9"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-boulangerie-3d34"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-bureau-de-poste-aa65",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-bureau-de-poste-1a25",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "post_office",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-bureau-de-poste-aa65"
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-bureau-de-poste-1a25"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-camping-b5e3",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-camping-1eef",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "camping",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-camping-b5e3"
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-camping-1eef"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-choses-qui-volent-931c",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-choses-qui-volent-45d4",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "things_that_fly",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-choses-qui-volent-931c"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-choses-qui-volent-45d4"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-couleurs-b352",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-couleurs-44ff",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "colors",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-couleurs-b352"
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-couleurs-44ff"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-creatures-de-la-foret-f4c0",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-creatures-de-la-foret-f349",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "forest_creatures",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-creatures-de-la-foret-f4c0"
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-creatures-de-la-foret-f349"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-desserts-et-sucreries-2ef8",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-desserts-et-sucreries-e4c2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "desserts_and_sweets",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-desserts-et-sucreries-2ef8"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-desserts-et-sucreries-e4c2"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-dinosaures-4961",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-dinosaures-9de6",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "dinosaurs",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-dinosaures-4961"
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-dinosaures-9de6"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-emotions-92f1",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-emotions-7d7f",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "emotions",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-emotions-92f1"
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-emotions-7d7f"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-espace-f394",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-espace-9b58",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "space",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-espace-f394"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-espace-9b58"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-ete-143f",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-ete-e38a",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "summer",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-ete-143f"
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-ete-e38a"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-fleurs-7db6",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-fleurs-3ae5",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "flowers",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-fleurs-7db6"
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-fleurs-3ae5"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-formes-59e3",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-formes-26e2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "shapes",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-formes-59e3"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-formes-26e2"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-fruits-423f",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-fruits-2c08",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "fruits",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-fruits-423f"
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-fruits-2c08"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-hiver-8958",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-hiver-61de",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "winter",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-hiver-8958"
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-hiver-61de"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-hopital-6c6c",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-hopital-e694",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "hospital",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-hopital-6c6c"
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-hopital-e694"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-insectes-et-bestioles-7279",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-insectes-et-bestioles-407e",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "insects_and_bugs",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-insectes-et-bestioles-7279"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-insectes-et-bestioles-407e"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-jouets-6c8c",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-jouets-273e",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "toys",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-jouets-6c8c"
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-jouets-273e"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-legumes-5da3",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-legumes-9a98",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "vegetables",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-legumes-5da3"
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-legumes-9a98"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-meteo-553b",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-meteo-bcad",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "weather",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-meteo-553b"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-meteo-bcad"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-metiers-ea0d",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-metiers-e20e",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "occupations",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-metiers-ea0d"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-metiers-e20e"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-meubles-5ff5",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-meubles-ddd3",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "furniture",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-meubles-5ff5"
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-meubles-ddd3"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-musique-6bd3",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-musique-b163",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "music",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-musique-6bd3"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-musique-b163"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-noel-e05c",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-noel-b75b",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "christmas",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-noel-e05c"
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-noel-b75b"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-oiseaux-2-4d1a",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-oiseaux-2-5d48",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "birds_2",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-oiseaux-2-4d1a"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-oiseaux-2-5d48"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-oiseaux-af19",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-oiseaux-53f1",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "birds",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-oiseaux-af19"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-oiseaux-53f1"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-outils-3736",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-outils-52d3",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "tools",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-outils-3736"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-outils-52d3"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-paques-2eae",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-paques-5921",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "easter",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-paques-2eae"
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-paques-5921"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-parties-du-corps-ff78",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-parties-du-corps-9ee0",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "body_parts",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-parties-du-corps-ff78"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-parties-du-corps-9ee0"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-petit-dejeuner-29ba",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-petit-dejeuner-f2d7",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "breakfast",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-petit-dejeuner-29ba"
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-petit-dejeuner-f2d7"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-plage-dd55",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-plage-5c7a",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "beach",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-plage-dd55"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-plage-5c7a"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-printemps-71f3",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-printemps-06eb",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "spring",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-printemps-71f3"
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-printemps-06eb"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-reptiles-et-amphibiens-f0cf",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-reptiles-et-amphibiens-d7f9",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "reptiles_and_amphibians",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-reptiles-et-amphibiens-f0cf"
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-reptiles-et-amphibiens-d7f9"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-salle-de-classe-22fb",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-salle-de-classe-e15e",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "classroom",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-salle-de-classe-22fb"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-salle-de-classe-e15e"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-ustensiles-de-cuisine-e67e",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-ustensiles-de-cuisine-1b84",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "kitchen_tools",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-ustensiles-de-cuisine-e67e"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-ustensiles-de-cuisine-1b84"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-vehicules-1cf8",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-vehicules-a1e2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "vehicles",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-vehicules-1cf8"
+   "level": "cp",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-vehicules-a1e2"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-vetements-a658",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-vetements-4bc3",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "clothing",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-vetements-a658"
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-vetements-4bc3"
   },
   {
-   "slug": "trouve-les-objets-je-vois-je-vois-vie-oceanique-e97e",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "fiche-de-mathematiques-3-symboles-add-sous-vie-oceanique-8f78",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "ocean_life",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-je-vois-je-vois-vie-oceanique-e97e"
+   "level": "ce1",
+   "deck": "fiche-de-mathematiques-3-symboles-add-sous-vie-oceanique-8f78"
   }
  ]
 }

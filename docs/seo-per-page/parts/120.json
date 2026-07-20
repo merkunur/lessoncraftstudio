@@ -2,731 +2,731 @@
  "part": 120,
  "locale": "pt",
  "classes": [
-  "shadow-match::find-shadow",
-  "treasure-hunt::cardinal-arrows"
+  "prepositions::multiplechoice",
+  "math-puzzle::addition"
  ],
  "splitOf": null,
  "count": 90,
  "pages": [
   {
-   "slug": "pareamento-de-sombras-combine-a-sombra-acampamento-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "preposicoes-multipla-escolha-acampamento-cb3a",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "camping",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-acampamento-e7bd"
+   "deck": "preposicoes-multipla-escolha-acampamento-cb3a"
   },
   {
-   "slug": "pareamento-de-sombras-combine-a-sombra-acessorios-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "preposicoes-multipla-escolha-acessorios-d808",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "accessories",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-acessorios-e7bd"
+   "deck": "preposicoes-multipla-escolha-acessorios-d808"
   },
   {
-   "slug": "pareamento-de-sombras-combine-a-sombra-animais",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "preposicoes-multipla-escolha-animais-a1df",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "animals",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-animais"
+   "deck": "preposicoes-multipla-escolha-animais-a1df"
   },
   {
-   "slug": "pareamento-de-sombras-combine-a-sombra-animais-da-fazenda-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "preposicoes-multipla-escolha-animais-da-fazenda-ce50",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "farm_animals",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-animais-da-fazenda-e7bd"
+   "deck": "preposicoes-multipla-escolha-animais-da-fazenda-ce50"
   },
   {
-   "slug": "pareamento-de-sombras-combine-a-sombra-animais-de-estimacao-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "preposicoes-multipla-escolha-animais-de-estimacao-7bf6",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "pets",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-animais-de-estimacao-e7bd"
+   "deck": "preposicoes-multipla-escolha-animais-de-estimacao-7bf6"
   },
   {
-   "slug": "pareamento-de-sombras-combine-a-sombra-animais-do-zoologico-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "preposicoes-multipla-escolha-animais-do-zoologico-42aa",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "zoo_animals",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-animais-do-zoologico-e7bd"
+   "deck": "preposicoes-multipla-escolha-animais-do-zoologico-42aa"
   },
   {
-   "slug": "pareamento-de-sombras-combine-a-sombra-arvores-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "preposicoes-multipla-escolha-arvores-44b6",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "tree",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-arvores-e7bd"
+   "deck": "preposicoes-multipla-escolha-arvores-44b6"
   },
   {
-   "slug": "pareamento-de-sombras-combine-a-sombra-atividades-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "preposicoes-multipla-escolha-atividades-02e8",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "activities",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-atividades-e7bd"
+   "deck": "preposicoes-multipla-escolha-atividades-02e8"
   },
   {
-   "slug": "pareamento-de-sombras-combine-a-sombra-brinquedos-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "preposicoes-multipla-escolha-brinquedos-c376",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "toys",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-brinquedos-e7bd"
+   "deck": "preposicoes-multipla-escolha-brinquedos-c376"
   },
   {
-   "slug": "pareamento-de-sombras-combine-a-sombra-cafe-da-manha-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "preposicoes-multipla-escolha-cafe-da-manha-79f0",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "breakfast",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-cafe-da-manha-e7bd"
+   "deck": "preposicoes-multipla-escolha-cafe-da-manha-79f0"
   },
   {
-   "slug": "pareamento-de-sombras-combine-a-sombra-clima-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "preposicoes-multipla-escolha-clima-56f3",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "weather",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-clima-e7bd"
+   "deck": "preposicoes-multipla-escolha-clima-56f3"
   },
   {
-   "slug": "pareamento-de-sombras-combine-a-sombra-coisas-que-voam-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "preposicoes-multipla-escolha-coisas-que-voam-8c18",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "things_that_fly",
    "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-coisas-que-voam-e7bd"
+   "deck": "preposicoes-multipla-escolha-coisas-que-voam-8c18"
   },
   {
-   "slug": "pareamento-de-sombras-combine-a-sombra-correios-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "post_office",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-correios-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-criaturas-da-floresta-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "forest_creatures",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-criaturas-da-floresta-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-dia-de-acao-de-gracas-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "thanksgivinng",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-dia-de-acao-de-gracas-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-dinossauros-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "dinosaurs",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-dinossauros-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-diversos-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "miscellaneous",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-diversos-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-espaco-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "space",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-espaco-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-ferramentas-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "tools",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-ferramentas-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-flores-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "flowers",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-flores-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-frutas-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "fruits",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-frutas-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-hospital-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "hospital",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-hospital-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-insetos-e-bichos-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "insects_and_bugs",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-insetos-e-bichos-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-inverno-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "winter",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-inverno-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-moveis-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "furniture",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-moveis-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-musica-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "music",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-musica-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-natal-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "christmas",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-natal-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-no-supermercado-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "at_the_supermarket",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-no-supermercado-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-padaria-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "bakery",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-padaria-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-partes-do-corpo-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "body_parts",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-partes-do-corpo-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-pascoa-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "easter",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-pascoa-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-passaros-2-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "birds_2",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-passaros-2-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-passaros-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "birds",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-passaros-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-pela-casa-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "around_the_house",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-pela-casa-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-praia-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "beach",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-praia-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-primavera-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "spring",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-primavera-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-profissoes-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "occupations",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-profissoes-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-repteis-e-anfibios-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "reptiles_and_amphibians",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-repteis-e-anfibios-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-roupas-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "clothing",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-roupas-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-sala-de-aula-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "classroom",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-sala-de-aula-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-utensilios-de-cozinha-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "kitchen_tools",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-utensilios-de-cozinha-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-vegetais-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "vegetables",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-vegetais-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-veiculos-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "vehicles",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-veiculos-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-verao-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "summer",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-verao-e7bd"
-  },
-  {
-   "slug": "pareamento-de-sombras-combine-a-sombra-vida-marinha-e7bd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "ocean_life",
-   "level": "educacao-infantil",
-   "deck": "pareamento-de-sombras-combine-a-sombra-vida-marinha-e7bd"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-0aa6",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "vehicles",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-0aa6"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-17d6",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "emotions",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-17d6"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-1b05",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "preposicoes-multipla-escolha-cores-aeb6",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "colors",
    "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-1b05"
+   "deck": "preposicoes-multipla-escolha-cores-aeb6"
   },
   {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-23d6",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "summer",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-23d6"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-25ae",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "tree",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-25ae"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-2cff",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "accessories",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-2cff"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-2e03",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "easter",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-2e03"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-34d4",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "camping",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-34d4"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-4306",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "birds",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-4306"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-43d6",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "space",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-43d6"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-46a5",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "farm_animals",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-46a5"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-4ca7",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "beach",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-4ca7"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-4d25",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "toys",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-4d25"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-5234",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "classroom",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-5234"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-53cf",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "fruits",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-53cf"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-5e29",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "furniture",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-5e29"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-5e3d",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "clothing",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-5e3d"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-6cad",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "winter",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-6cad"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-77df",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "around_the_house",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-77df"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-7cc8",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "insects_and_bugs",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-7cc8"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-848d",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "ocean_life",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-848d"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-8809",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "animals",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-8809"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-8ee3",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "vegetables",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-8ee3"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-908b",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "occupations",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-908b"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-9108",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "bakery",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-9108"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-9395",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "hospital",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-9395"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-95d5",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "christmas",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-95d5"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-98ab",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "shapes",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-98ab"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-a515",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "tools",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-a515"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-ab04",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "things_that_fly",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-ab04"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-ac6d",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "thanksgivinng",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-ac6d"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-b03c",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "breakfast",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-b03c"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-b30e",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "desserts_and_sweets",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-b30e"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-b352",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "flowers",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-b352"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-c962",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "music",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-c962"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-cf31",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "miscellaneous",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-cf31"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-d608",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "pets",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-d608"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-d60e",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "kitchen_tools",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-d60e"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-e81d",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "zoo_animals",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-e81d"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-ec2a",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "activities",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-ec2a"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-f48b",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "preposicoes-multipla-escolha-correios-e8b7",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "post_office",
    "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-f48b"
+   "deck": "preposicoes-multipla-escolha-correios-e8b7"
   },
   {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-f4af",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "body_parts",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-f4af"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-fa8c",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "at_the_supermarket",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-fa8c"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-fbdb",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
-   "theme": "dinosaurs",
-   "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-fbdb"
-  },
-  {
-   "slug": "caca-ao-tesouro-cima-baixo-esq-dir-animais",
-   "type": "treasure-hunt",
-   "mode": "cardinal-arrows",
+   "slug": "preposicoes-multipla-escolha-criaturas-da-floresta-d8eb",
+   "type": "prepositions",
+   "mode": "multiplechoice",
    "theme": "forest_creatures",
    "level": "educacao-infantil",
-   "deck": "caca-ao-tesouro-cima-baixo-esq-dir-animais"
+   "deck": "preposicoes-multipla-escolha-criaturas-da-floresta-d8eb"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-dia-de-acao-de-gracas-0540",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "thanksgivinng",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-dia-de-acao-de-gracas-0540"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-dinossauros-2c76",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "dinosaurs",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-dinossauros-2c76"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-diversos-6a19",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "miscellaneous",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-diversos-6a19"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-emocoes-8ab2",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "emotions",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-emocoes-8ab2"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-espaco-2dbf",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "space",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-espaco-2dbf"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-ferramentas-e99b",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "tools",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-ferramentas-e99b"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-flores-995c",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "flowers",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-flores-995c"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-formas-eb6a",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "shapes",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-formas-eb6a"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-frutas-7a3a",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "fruits",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-frutas-7a3a"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-hospital-3a67",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "hospital",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-hospital-3a67"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-insetos-e-bichos-bcc3",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "insects_and_bugs",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-insetos-e-bichos-bcc3"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-inverno-0d28",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "winter",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-inverno-0d28"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-moveis-8a2f",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "furniture",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-moveis-8a2f"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-musica-ac03",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "music",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-musica-ac03"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-natal-0d99",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "christmas",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-natal-0d99"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-no-supermercado-fd62",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "at_the_supermarket",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-no-supermercado-fd62"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-padaria-71c0",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "bakery",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-padaria-71c0"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-partes-do-corpo-a76b",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "body_parts",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-partes-do-corpo-a76b"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-pascoa-baec",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "easter",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-pascoa-baec"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-passaros-2-e6f2",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "birds_2",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-passaros-2-e6f2"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-passaros-295c",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "birds",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-passaros-295c"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-pela-casa-3ba7",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "around_the_house",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-pela-casa-3ba7"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-praia-3597",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "beach",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-praia-3597"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-primavera-dcf0",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "spring",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-primavera-dcf0"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-profissoes-b98c",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "occupations",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-profissoes-b98c"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-repteis-e-anfibios-314d",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "reptiles_and_amphibians",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-repteis-e-anfibios-314d"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-roupas-0868",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "clothing",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-roupas-0868"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-sala-de-aula-63e8",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "classroom",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-sala-de-aula-63e8"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-sobremesas-e-doces-fe18",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "desserts_and_sweets",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-sobremesas-e-doces-fe18"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-utensilios-de-cozinha-29ca",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "kitchen_tools",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-utensilios-de-cozinha-29ca"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-vegetais-d3e4",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "vegetables",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-vegetais-d3e4"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-veiculos-2863",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "vehicles",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-veiculos-2863"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-verao-a16e",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "summer",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-verao-a16e"
+  },
+  {
+   "slug": "preposicoes-multipla-escolha-vida-marinha-9fa6",
+   "type": "prepositions",
+   "mode": "multiplechoice",
+   "theme": "ocean_life",
+   "level": "educacao-infantil",
+   "deck": "preposicoes-multipla-escolha-vida-marinha-9fa6"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-acampamento-61ef",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "camping",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-acampamento-61ef"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-acessorios-bc54",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "accessories",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-acessorios-bc54"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-animais-86cd",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "animals",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-animais-86cd"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-animais-da-fazenda-6906",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "farm_animals",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-animais-da-fazenda-6906"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-animais-de-estimacao-f69a",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "pets",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-animais-de-estimacao-f69a"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-animais-do-zoologico-dec7",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "zoo_animals",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-animais-do-zoologico-dec7"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-arvores-e4f6",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "tree",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-arvores-e4f6"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-brinquedos-0b13",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "toys",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-brinquedos-0b13"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-cafe-da-manha-9d87",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "breakfast",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-cafe-da-manha-9d87"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-coisas-que-voam-a1fd",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "things_that_fly",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-coisas-que-voam-a1fd"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-correios-6070",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "post_office",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-correios-6070"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-criaturas-da-floresta-5ff4",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "forest_creatures",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-criaturas-da-floresta-5ff4"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-dia-de-acao-de-gracas-cffc",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "thanksgivinng",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-dia-de-acao-de-gracas-cffc"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-dinossauros-9772",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "dinosaurs",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-dinossauros-9772"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-diversos-18b8",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "miscellaneous",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-diversos-18b8"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-espaco-c77b",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "space",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-espaco-c77b"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-ferramentas-ef6a",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "tools",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-ferramentas-ef6a"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-flores-ab41",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "flowers",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-flores-ab41"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-formas-6886",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "shapes",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-formas-6886"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-frutas-1b9f",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "fruits",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-frutas-1b9f"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-hospital-e819",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "hospital",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-hospital-e819"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-insetos-e-bichos-88ed",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "insects_and_bugs",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-insetos-e-bichos-88ed"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-moveis-3987",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "furniture",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-moveis-3987"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-musica-8369",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "music",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-musica-8369"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-natal-c265",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "christmas",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-natal-c265"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-no-supermercado-9162",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "at_the_supermarket",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-no-supermercado-9162"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-padaria-8d3b",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "bakery",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-padaria-8d3b"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-pascoa-f85b",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "easter",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-pascoa-f85b"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-passaros-2-8f81",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "birds_2",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-passaros-2-8f81"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-passaros-add4",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "birds",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-passaros-add4"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-pela-casa-b068",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "around_the_house",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-pela-casa-b068"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-praia-60ac",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "beach",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-praia-60ac"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-profissoes-ed5c",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "occupations",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-profissoes-ed5c"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-repteis-e-anfibios-2228",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "reptiles_and_amphibians",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-repteis-e-anfibios-2228"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-roupas-319f",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "clothing",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-roupas-319f"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-sala-de-aula-fc95",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "classroom",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-sala-de-aula-fc95"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-sobremesas-e-doces-2152",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "desserts_and_sweets",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-sobremesas-e-doces-2152"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-utensilios-de-cozinha-dbe3",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "kitchen_tools",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-utensilios-de-cozinha-dbe3"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-vegetais-c4f1",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "vegetables",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-vegetais-c4f1"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-veiculos-d733",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "vehicles",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-veiculos-d733"
+  },
+  {
+   "slug": "quebra-cabeca-matematico-soma-vida-marinha-a967",
+   "type": "math-puzzle",
+   "mode": "addition",
+   "theme": "ocean_life",
+   "level": "1o-ano",
+   "deck": "quebra-cabeca-matematico-soma-vida-marinha-a967"
   }
  ]
 }

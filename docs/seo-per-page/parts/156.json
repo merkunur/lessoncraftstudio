@@ -2,691 +2,739 @@
  "part": 156,
  "locale": "fr",
  "classes": [
-  "prepositions::multiplechoice",
-  "find-and-count::letter-spotting"
+  "matching::letter",
+  "word-scramble::normal"
  ],
  "splitOf": null,
- "count": 85,
+ "count": 91,
  "pages": [
   {
-   "slug": "prepositions-choix-multiple-accessoires-bcb4",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "appariement-lettre-accessoires-037c",
+   "type": "matching",
+   "mode": "letter",
    "theme": "accessories",
    "level": "maternelle",
-   "deck": "prepositions-choix-multiple-accessoires-bcb4"
+   "deck": "appariement-lettre-accessoires-037c"
   },
   {
-   "slug": "prepositions-choix-multiple-action-de-grace-4fe0",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "appariement-lettre-action-de-grace-746c",
+   "type": "matching",
+   "mode": "letter",
    "theme": "thanksgivinng",
    "level": "maternelle",
-   "deck": "prepositions-choix-multiple-action-de-grace-4fe0"
+   "deck": "appariement-lettre-action-de-grace-746c"
   },
   {
-   "slug": "prepositions-choix-multiple-activites-ee5e",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "appariement-lettre-activites-bee2",
+   "type": "matching",
+   "mode": "letter",
    "theme": "activities",
    "level": "maternelle",
-   "deck": "prepositions-choix-multiple-activites-ee5e"
+   "deck": "appariement-lettre-activites-bee2"
   },
   {
-   "slug": "prepositions-choix-multiple-animaux-666b",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "appariement-lettre-animaux-d80c",
+   "type": "matching",
+   "mode": "letter",
    "theme": "animals",
    "level": "maternelle",
-   "deck": "prepositions-choix-multiple-animaux-666b"
+   "deck": "appariement-lettre-animaux-d80c"
   },
   {
-   "slug": "prepositions-choix-multiple-animaux-de-compagnie-3727",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "appariement-lettre-animaux-de-compagnie-775b",
+   "type": "matching",
+   "mode": "letter",
    "theme": "pets",
    "level": "maternelle",
-   "deck": "prepositions-choix-multiple-animaux-de-compagnie-3727"
+   "deck": "appariement-lettre-animaux-de-compagnie-775b"
   },
   {
-   "slug": "prepositions-choix-multiple-animaux-de-la-ferme-8a6a",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "appariement-lettre-animaux-de-la-ferme-028b",
+   "type": "matching",
+   "mode": "letter",
    "theme": "farm_animals",
    "level": "maternelle",
-   "deck": "prepositions-choix-multiple-animaux-de-la-ferme-8a6a"
+   "deck": "appariement-lettre-animaux-de-la-ferme-028b"
   },
   {
-   "slug": "prepositions-choix-multiple-animaux-du-zoo-b32f",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "appariement-lettre-animaux-du-zoo-7cf5",
+   "type": "matching",
+   "mode": "letter",
    "theme": "zoo_animals",
    "level": "maternelle",
-   "deck": "prepositions-choix-multiple-animaux-du-zoo-b32f"
+   "deck": "appariement-lettre-animaux-du-zoo-7cf5"
   },
   {
-   "slug": "prepositions-choix-multiple-arbres-40a2",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "tree",
-   "level": "maternelle",
-   "deck": "prepositions-choix-multiple-arbres-40a2"
-  },
-  {
-   "slug": "prepositions-choix-multiple-au-supermarche-c434",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "appariement-lettre-au-supermarche-d6ba",
+   "type": "matching",
+   "mode": "letter",
    "theme": "at_the_supermarket",
    "level": "maternelle",
-   "deck": "prepositions-choix-multiple-au-supermarche-c434"
+   "deck": "appariement-lettre-au-supermarche-d6ba"
   },
   {
-   "slug": "prepositions-choix-multiple-autour-de-la-maison-4f8b",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "appariement-lettre-autour-de-la-maison-5e48",
+   "type": "matching",
+   "mode": "letter",
    "theme": "around_the_house",
    "level": "maternelle",
-   "deck": "prepositions-choix-multiple-autour-de-la-maison-4f8b"
+   "deck": "appariement-lettre-autour-de-la-maison-5e48"
   },
   {
-   "slug": "prepositions-choix-multiple-boulangerie-8dac",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "appariement-lettre-boulangerie-faad",
+   "type": "matching",
+   "mode": "letter",
    "theme": "bakery",
    "level": "maternelle",
-   "deck": "prepositions-choix-multiple-boulangerie-8dac"
+   "deck": "appariement-lettre-boulangerie-faad"
   },
   {
-   "slug": "prepositions-choix-multiple-bureau-de-poste-ea32",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "appariement-lettre-bureau-de-poste-c493",
+   "type": "matching",
+   "mode": "letter",
    "theme": "post_office",
    "level": "maternelle",
-   "deck": "prepositions-choix-multiple-bureau-de-poste-ea32"
+   "deck": "appariement-lettre-bureau-de-poste-c493"
   },
   {
-   "slug": "prepositions-choix-multiple-camping-0724",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "appariement-lettre-camping-c7b1",
+   "type": "matching",
+   "mode": "letter",
    "theme": "camping",
    "level": "maternelle",
-   "deck": "prepositions-choix-multiple-camping-0724"
+   "deck": "appariement-lettre-camping-c7b1"
   },
   {
-   "slug": "prepositions-choix-multiple-choses-qui-volent-6b6e",
-   "type": "prepositions",
-   "mode": "multiplechoice",
+   "slug": "appariement-lettre-choses-qui-volent-b036",
+   "type": "matching",
+   "mode": "letter",
    "theme": "things_that_fly",
    "level": "maternelle",
-   "deck": "prepositions-choix-multiple-choses-qui-volent-6b6e"
+   "deck": "appariement-lettre-choses-qui-volent-b036"
   },
   {
-   "slug": "prepositions-choix-multiple-desserts-et-sucreries-97cc",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "desserts_and_sweets",
-   "level": "maternelle",
-   "deck": "prepositions-choix-multiple-desserts-et-sucreries-97cc"
-  },
-  {
-   "slug": "prepositions-choix-multiple-dinosaures-470c",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "dinosaurs",
-   "level": "maternelle",
-   "deck": "prepositions-choix-multiple-dinosaures-470c"
-  },
-  {
-   "slug": "prepositions-choix-multiple-emotions-eacc",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "emotions",
-   "level": "maternelle",
-   "deck": "prepositions-choix-multiple-emotions-eacc"
-  },
-  {
-   "slug": "prepositions-choix-multiple-espace-ddb9",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "space",
-   "level": "maternelle",
-   "deck": "prepositions-choix-multiple-espace-ddb9"
-  },
-  {
-   "slug": "prepositions-choix-multiple-ete-de79",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "summer",
-   "level": "maternelle",
-   "deck": "prepositions-choix-multiple-ete-de79"
-  },
-  {
-   "slug": "prepositions-choix-multiple-fleurs-37e5",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "flowers",
-   "level": "maternelle",
-   "deck": "prepositions-choix-multiple-fleurs-37e5"
-  },
-  {
-   "slug": "prepositions-choix-multiple-fruits-83bc",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "fruits",
-   "level": "maternelle",
-   "deck": "prepositions-choix-multiple-fruits-83bc"
-  },
-  {
-   "slug": "prepositions-choix-multiple-hiver-68b5",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "winter",
-   "level": "maternelle",
-   "deck": "prepositions-choix-multiple-hiver-68b5"
-  },
-  {
-   "slug": "prepositions-choix-multiple-hopital-ccdf",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "hospital",
-   "level": "maternelle",
-   "deck": "prepositions-choix-multiple-hopital-ccdf"
-  },
-  {
-   "slug": "prepositions-choix-multiple-insectes-et-bestioles-b436",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "insects_and_bugs",
-   "level": "maternelle",
-   "deck": "prepositions-choix-multiple-insectes-et-bestioles-b436"
-  },
-  {
-   "slug": "prepositions-choix-multiple-jouets-40b1",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "toys",
-   "level": "maternelle",
-   "deck": "prepositions-choix-multiple-jouets-40b1"
-  },
-  {
-   "slug": "prepositions-choix-multiple-legumes-0133",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "vegetables",
-   "level": "maternelle",
-   "deck": "prepositions-choix-multiple-legumes-0133"
-  },
-  {
-   "slug": "prepositions-choix-multiple-meteo-ef7d",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "weather",
-   "level": "maternelle",
-   "deck": "prepositions-choix-multiple-meteo-ef7d"
-  },
-  {
-   "slug": "prepositions-choix-multiple-metiers-7b57",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "occupations",
-   "level": "maternelle",
-   "deck": "prepositions-choix-multiple-metiers-7b57"
-  },
-  {
-   "slug": "prepositions-choix-multiple-meubles-03d3",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "furniture",
-   "level": "maternelle",
-   "deck": "prepositions-choix-multiple-meubles-03d3"
-  },
-  {
-   "slug": "prepositions-choix-multiple-musique-5712",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "music",
-   "level": "maternelle",
-   "deck": "prepositions-choix-multiple-musique-5712"
-  },
-  {
-   "slug": "prepositions-choix-multiple-noel-917f",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "christmas",
-   "level": "maternelle",
-   "deck": "prepositions-choix-multiple-noel-917f"
-  },
-  {
-   "slug": "prepositions-choix-multiple-oiseaux-2-e638",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "birds_2",
-   "level": "maternelle",
-   "deck": "prepositions-choix-multiple-oiseaux-2-e638"
-  },
-  {
-   "slug": "prepositions-choix-multiple-oiseaux-88c5",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "birds",
-   "level": "maternelle",
-   "deck": "prepositions-choix-multiple-oiseaux-88c5"
-  },
-  {
-   "slug": "prepositions-choix-multiple-outils-f2ba",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "tools",
-   "level": "maternelle",
-   "deck": "prepositions-choix-multiple-outils-f2ba"
-  },
-  {
-   "slug": "prepositions-choix-multiple-paques-6760",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "easter",
-   "level": "maternelle",
-   "deck": "prepositions-choix-multiple-paques-6760"
-  },
-  {
-   "slug": "prepositions-choix-multiple-parties-du-corps-2e4b",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "body_parts",
-   "level": "maternelle",
-   "deck": "prepositions-choix-multiple-parties-du-corps-2e4b"
-  },
-  {
-   "slug": "prepositions-choix-multiple-plage-1cba",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "beach",
-   "level": "maternelle",
-   "deck": "prepositions-choix-multiple-plage-1cba"
-  },
-  {
-   "slug": "prepositions-choix-multiple-printemps-0c82",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "spring",
-   "level": "maternelle",
-   "deck": "prepositions-choix-multiple-printemps-0c82"
-  },
-  {
-   "slug": "prepositions-choix-multiple-salle-de-classe-8763",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "classroom",
-   "level": "maternelle",
-   "deck": "prepositions-choix-multiple-salle-de-classe-8763"
-  },
-  {
-   "slug": "prepositions-choix-multiple-ustensiles-de-cuisine-013e",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "kitchen_tools",
-   "level": "maternelle",
-   "deck": "prepositions-choix-multiple-ustensiles-de-cuisine-013e"
-  },
-  {
-   "slug": "prepositions-choix-multiple-vehicules-5690",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "vehicles",
-   "level": "maternelle",
-   "deck": "prepositions-choix-multiple-vehicules-5690"
-  },
-  {
-   "slug": "prepositions-choix-multiple-vetements-879c",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "clothing",
-   "level": "maternelle",
-   "deck": "prepositions-choix-multiple-vetements-879c"
-  },
-  {
-   "slug": "prepositions-choix-multiple-vie-oceanique-5602",
-   "type": "prepositions",
-   "mode": "multiplechoice",
-   "theme": "ocean_life",
-   "level": "maternelle",
-   "deck": "prepositions-choix-multiple-vie-oceanique-5602"
-  },
-  {
-   "slug": "trouve-et-compte-cherche-les-lettres-accessoires-0d8f",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "accessories",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-accessoires-0d8f"
-  },
-  {
-   "slug": "trouve-et-compte-cherche-les-lettres-action-de-grace-48f5",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "thanksgivinng",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-action-de-grace-48f5"
-  },
-  {
-   "slug": "trouve-et-compte-cherche-les-lettres-activites-36f8",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "activities",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-activites-36f8"
-  },
-  {
-   "slug": "trouve-et-compte-cherche-les-lettres-animaux",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "animals",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-animaux"
-  },
-  {
-   "slug": "trouve-et-compte-cherche-les-lettres-animaux-de-compagnie-fac1",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "pets",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-animaux-de-compagnie-fac1"
-  },
-  {
-   "slug": "trouve-et-compte-cherche-les-lettres-animaux-de-la-ferme-a814",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "farm_animals",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-animaux-de-la-ferme-a814"
-  },
-  {
-   "slug": "trouve-et-compte-cherche-les-lettres-animaux-du-zoo-f6bc",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "zoo_animals",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-animaux-du-zoo-f6bc"
-  },
-  {
-   "slug": "trouve-et-compte-cherche-les-lettres-au-supermarche-1f85",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "at_the_supermarket",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-au-supermarche-1f85"
-  },
-  {
-   "slug": "trouve-et-compte-cherche-les-lettres-autour-de-la-maison-01f7",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "around_the_house",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-autour-de-la-maison-01f7"
-  },
-  {
-   "slug": "trouve-et-compte-cherche-les-lettres-boulangerie-bfbe",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "bakery",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-boulangerie-bfbe"
-  },
-  {
-   "slug": "trouve-et-compte-cherche-les-lettres-bureau-de-poste-7a52",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "post_office",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-bureau-de-poste-7a52"
-  },
-  {
-   "slug": "trouve-et-compte-cherche-les-lettres-camping-9ef0",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "camping",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-camping-9ef0"
-  },
-  {
-   "slug": "trouve-et-compte-cherche-les-lettres-choses-qui-volent-bfa9",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "things_that_fly",
-   "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-choses-qui-volent-bfa9"
-  },
-  {
-   "slug": "trouve-et-compte-cherche-les-lettres-couleurs-657f",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "appariement-lettre-couleurs-b580",
+   "type": "matching",
+   "mode": "letter",
    "theme": "colors",
    "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-couleurs-657f"
+   "deck": "appariement-lettre-couleurs-b580"
   },
   {
-   "slug": "trouve-et-compte-cherche-les-lettres-creatures-de-la-foret-8aaa",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "appariement-lettre-creatures-de-la-foret-51b4",
+   "type": "matching",
+   "mode": "letter",
    "theme": "forest_creatures",
    "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-creatures-de-la-foret-8aaa"
+   "deck": "appariement-lettre-creatures-de-la-foret-51b4"
   },
   {
-   "slug": "trouve-et-compte-cherche-les-lettres-desserts-et-sucreries-aefd",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "appariement-lettre-desserts-et-sucreries-1963",
+   "type": "matching",
+   "mode": "letter",
    "theme": "desserts_and_sweets",
    "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-desserts-et-sucreries-aefd"
+   "deck": "appariement-lettre-desserts-et-sucreries-1963"
   },
   {
-   "slug": "trouve-et-compte-cherche-les-lettres-emotions-8889",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "appariement-lettre-emotions-93e4",
+   "type": "matching",
+   "mode": "letter",
    "theme": "emotions",
    "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-emotions-8889"
+   "deck": "appariement-lettre-emotions-93e4"
   },
   {
-   "slug": "trouve-et-compte-cherche-les-lettres-espace-d5d6",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "appariement-lettre-espace-ba62",
+   "type": "matching",
+   "mode": "letter",
    "theme": "space",
    "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-espace-d5d6"
+   "deck": "appariement-lettre-espace-ba62"
   },
   {
-   "slug": "trouve-et-compte-cherche-les-lettres-ete-03c4",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "appariement-lettre-ete-5512",
+   "type": "matching",
+   "mode": "letter",
    "theme": "summer",
    "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-ete-03c4"
+   "deck": "appariement-lettre-ete-5512"
   },
   {
-   "slug": "trouve-et-compte-cherche-les-lettres-formes-b4f9",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "appariement-lettre-formes-8139",
+   "type": "matching",
+   "mode": "letter",
    "theme": "shapes",
    "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-formes-b4f9"
+   "deck": "appariement-lettre-formes-8139"
   },
   {
-   "slug": "trouve-et-compte-cherche-les-lettres-fruits-36f6",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "appariement-lettre-fruits-1634",
+   "type": "matching",
+   "mode": "letter",
    "theme": "fruits",
    "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-fruits-36f6"
+   "deck": "appariement-lettre-fruits-1634"
   },
   {
-   "slug": "trouve-et-compte-cherche-les-lettres-hiver-a763",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "appariement-lettre-hiver-f01f",
+   "type": "matching",
+   "mode": "letter",
    "theme": "winter",
    "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-hiver-a763"
+   "deck": "appariement-lettre-hiver-f01f"
   },
   {
-   "slug": "trouve-et-compte-cherche-les-lettres-insectes-et-bestioles-191e",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "appariement-lettre-hopital-2289",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "hospital",
+   "level": "maternelle",
+   "deck": "appariement-lettre-hopital-2289"
+  },
+  {
+   "slug": "appariement-lettre-insectes-et-bestioles-f6d4",
+   "type": "matching",
+   "mode": "letter",
    "theme": "insects_and_bugs",
    "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-insectes-et-bestioles-191e"
+   "deck": "appariement-lettre-insectes-et-bestioles-f6d4"
   },
   {
-   "slug": "trouve-et-compte-cherche-les-lettres-jouets-1b6a",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "appariement-lettre-jouets-693e",
+   "type": "matching",
+   "mode": "letter",
    "theme": "toys",
    "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-jouets-1b6a"
+   "deck": "appariement-lettre-jouets-693e"
   },
   {
-   "slug": "trouve-et-compte-cherche-les-lettres-legumes-1d3f",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "appariement-lettre-legumes-b3e6",
+   "type": "matching",
+   "mode": "letter",
    "theme": "vegetables",
    "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-legumes-1d3f"
+   "deck": "appariement-lettre-legumes-b3e6"
   },
   {
-   "slug": "trouve-et-compte-cherche-les-lettres-meteo-245a",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "appariement-lettre-meteo-1357",
+   "type": "matching",
+   "mode": "letter",
    "theme": "weather",
    "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-meteo-245a"
+   "deck": "appariement-lettre-meteo-1357"
   },
   {
-   "slug": "trouve-et-compte-cherche-les-lettres-metiers-7316",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "appariement-lettre-metiers-ced2",
+   "type": "matching",
+   "mode": "letter",
    "theme": "occupations",
    "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-metiers-7316"
+   "deck": "appariement-lettre-metiers-ced2"
   },
   {
-   "slug": "trouve-et-compte-cherche-les-lettres-meubles-5cb9",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "appariement-lettre-meubles-0516",
+   "type": "matching",
+   "mode": "letter",
    "theme": "furniture",
    "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-meubles-5cb9"
+   "deck": "appariement-lettre-meubles-0516"
   },
   {
-   "slug": "trouve-et-compte-cherche-les-lettres-musique-f3a3",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "appariement-lettre-musique-af13",
+   "type": "matching",
+   "mode": "letter",
    "theme": "music",
    "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-musique-f3a3"
+   "deck": "appariement-lettre-musique-af13"
   },
   {
-   "slug": "trouve-et-compte-cherche-les-lettres-noel-148a",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "appariement-lettre-noel-15f7",
+   "type": "matching",
+   "mode": "letter",
    "theme": "christmas",
    "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-noel-148a"
+   "deck": "appariement-lettre-noel-15f7"
   },
   {
-   "slug": "trouve-et-compte-cherche-les-lettres-oiseaux-2-be29",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "appariement-lettre-oiseaux-2-589c",
+   "type": "matching",
+   "mode": "letter",
    "theme": "birds_2",
    "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-oiseaux-2-be29"
+   "deck": "appariement-lettre-oiseaux-2-589c"
   },
   {
-   "slug": "trouve-et-compte-cherche-les-lettres-outils-351d",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "appariement-lettre-oiseaux-9ada",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "birds",
+   "level": "maternelle",
+   "deck": "appariement-lettre-oiseaux-9ada"
+  },
+  {
+   "slug": "appariement-lettre-outils-ce18",
+   "type": "matching",
+   "mode": "letter",
    "theme": "tools",
    "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-outils-351d"
+   "deck": "appariement-lettre-outils-ce18"
   },
   {
-   "slug": "trouve-et-compte-cherche-les-lettres-paques-d1f9",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "appariement-lettre-paques-ca86",
+   "type": "matching",
+   "mode": "letter",
    "theme": "easter",
    "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-paques-d1f9"
+   "deck": "appariement-lettre-paques-ca86"
   },
   {
-   "slug": "trouve-et-compte-cherche-les-lettres-parties-du-corps-b833",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "appariement-lettre-parties-du-corps-d639",
+   "type": "matching",
+   "mode": "letter",
    "theme": "body_parts",
    "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-parties-du-corps-b833"
+   "deck": "appariement-lettre-parties-du-corps-d639"
   },
   {
-   "slug": "trouve-et-compte-cherche-les-lettres-petit-dejeuner-3585",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "appariement-lettre-petit-dejeuner-dc58",
+   "type": "matching",
+   "mode": "letter",
    "theme": "breakfast",
    "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-petit-dejeuner-3585"
+   "deck": "appariement-lettre-petit-dejeuner-dc58"
   },
   {
-   "slug": "trouve-et-compte-cherche-les-lettres-plage-5376",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "appariement-lettre-plage-0332",
+   "type": "matching",
+   "mode": "letter",
    "theme": "beach",
    "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-plage-5376"
+   "deck": "appariement-lettre-plage-0332"
   },
   {
-   "slug": "trouve-et-compte-cherche-les-lettres-printemps-b77a",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "appariement-lettre-printemps-1c02",
+   "type": "matching",
+   "mode": "letter",
    "theme": "spring",
    "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-printemps-b77a"
+   "deck": "appariement-lettre-printemps-1c02"
   },
   {
-   "slug": "trouve-et-compte-cherche-les-lettres-salle-de-classe-e89f",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "appariement-lettre-salle-de-classe-4654",
+   "type": "matching",
+   "mode": "letter",
    "theme": "classroom",
    "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-salle-de-classe-e89f"
+   "deck": "appariement-lettre-salle-de-classe-4654"
   },
   {
-   "slug": "trouve-et-compte-cherche-les-lettres-ustensiles-de-cuisine-6303",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "appariement-lettre-ustensiles-de-cuisine-eb62",
+   "type": "matching",
+   "mode": "letter",
    "theme": "kitchen_tools",
    "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-ustensiles-de-cuisine-6303"
+   "deck": "appariement-lettre-ustensiles-de-cuisine-eb62"
   },
   {
-   "slug": "trouve-et-compte-cherche-les-lettres-vehicules-2756",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "appariement-lettre-vehicules-500a",
+   "type": "matching",
+   "mode": "letter",
    "theme": "vehicles",
    "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-vehicules-2756"
+   "deck": "appariement-lettre-vehicules-500a"
   },
   {
-   "slug": "trouve-et-compte-cherche-les-lettres-vetements-dcea",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "appariement-lettre-vetements-67d1",
+   "type": "matching",
+   "mode": "letter",
    "theme": "clothing",
    "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-vetements-dcea"
+   "deck": "appariement-lettre-vetements-67d1"
   },
   {
-   "slug": "trouve-et-compte-cherche-les-lettres-vie-oceanique-5d00",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "appariement-lettre-vie-oceanique-f5d3",
+   "type": "matching",
+   "mode": "letter",
    "theme": "ocean_life",
    "level": "maternelle",
-   "deck": "trouve-et-compte-cherche-les-lettres-vie-oceanique-5d00"
+   "deck": "appariement-lettre-vie-oceanique-f5d3"
+  },
+  {
+   "slug": "lettres-melangees-normal-accessoires-b995",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "accessories",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-accessoires-b995"
+  },
+  {
+   "slug": "lettres-melangees-normal-action-de-grace-023d",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "thanksgivinng",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-action-de-grace-023d"
+  },
+  {
+   "slug": "lettres-melangees-normal-activites-29ac",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "activities",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-activites-29ac"
+  },
+  {
+   "slug": "lettres-melangees-normal-animaux-31f5",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "animals",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-animaux-31f5"
+  },
+  {
+   "slug": "lettres-melangees-normal-animaux-de-compagnie-55f8",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "pets",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-animaux-de-compagnie-55f8"
+  },
+  {
+   "slug": "lettres-melangees-normal-animaux-de-la-ferme-7838",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "farm_animals",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-animaux-de-la-ferme-7838"
+  },
+  {
+   "slug": "lettres-melangees-normal-animaux-du-zoo-67c1",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "zoo_animals",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-animaux-du-zoo-67c1"
+  },
+  {
+   "slug": "lettres-melangees-normal-arbres-7a6e",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "tree",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-arbres-7a6e"
+  },
+  {
+   "slug": "lettres-melangees-normal-au-supermarche-8cae",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "at_the_supermarket",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-au-supermarche-8cae"
+  },
+  {
+   "slug": "lettres-melangees-normal-autour-de-la-maison-ec4d",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "around_the_house",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-autour-de-la-maison-ec4d"
+  },
+  {
+   "slug": "lettres-melangees-normal-boulangerie-ca85",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "bakery",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-boulangerie-ca85"
+  },
+  {
+   "slug": "lettres-melangees-normal-bureau-de-poste-190c",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "post_office",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-bureau-de-poste-190c"
+  },
+  {
+   "slug": "lettres-melangees-normal-camping-bd89",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "camping",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-camping-bd89"
+  },
+  {
+   "slug": "lettres-melangees-normal-choses-qui-volent-13f8",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "things_that_fly",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-choses-qui-volent-13f8"
+  },
+  {
+   "slug": "lettres-melangees-normal-couleurs-e63e",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "colors",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-couleurs-e63e"
+  },
+  {
+   "slug": "lettres-melangees-normal-creatures-de-la-foret-422a",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "forest_creatures",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-creatures-de-la-foret-422a"
+  },
+  {
+   "slug": "lettres-melangees-normal-desserts-et-sucreries-db7a",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "desserts_and_sweets",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-desserts-et-sucreries-db7a"
+  },
+  {
+   "slug": "lettres-melangees-normal-emotions-92f5",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "emotions",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-emotions-92f5"
+  },
+  {
+   "slug": "lettres-melangees-normal-espace-d249",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "space",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-espace-d249"
+  },
+  {
+   "slug": "lettres-melangees-normal-ete-7480",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "summer",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-ete-7480"
+  },
+  {
+   "slug": "lettres-melangees-normal-fleurs-8485",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "flowers",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-fleurs-8485"
+  },
+  {
+   "slug": "lettres-melangees-normal-formes-22fd",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "shapes",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-formes-22fd"
+  },
+  {
+   "slug": "lettres-melangees-normal-fruits-4aae",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "fruits",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-fruits-4aae"
+  },
+  {
+   "slug": "lettres-melangees-normal-hiver-f581",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "winter",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-hiver-f581"
+  },
+  {
+   "slug": "lettres-melangees-normal-hopital-f481",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "hospital",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-hopital-f481"
+  },
+  {
+   "slug": "lettres-melangees-normal-insectes-et-bestioles-547c",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "insects_and_bugs",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-insectes-et-bestioles-547c"
+  },
+  {
+   "slug": "lettres-melangees-normal-jouets-aec2",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "toys",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-jouets-aec2"
+  },
+  {
+   "slug": "lettres-melangees-normal-legumes-3497",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "vegetables",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-legumes-3497"
+  },
+  {
+   "slug": "lettres-melangees-normal-meteo-8c4d",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "weather",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-meteo-8c4d"
+  },
+  {
+   "slug": "lettres-melangees-normal-metiers-178c",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "occupations",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-metiers-178c"
+  },
+  {
+   "slug": "lettres-melangees-normal-meubles-81ff",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "furniture",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-meubles-81ff"
+  },
+  {
+   "slug": "lettres-melangees-normal-musique-1282",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "music",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-musique-1282"
+  },
+  {
+   "slug": "lettres-melangees-normal-noel-ec76",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "christmas",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-noel-ec76"
+  },
+  {
+   "slug": "lettres-melangees-normal-oiseaux-2-745b",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "birds_2",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-oiseaux-2-745b"
+  },
+  {
+   "slug": "lettres-melangees-normal-oiseaux-5555",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "birds",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-oiseaux-5555"
+  },
+  {
+   "slug": "lettres-melangees-normal-outils-9179",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "tools",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-outils-9179"
+  },
+  {
+   "slug": "lettres-melangees-normal-paques-5ea2",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "easter",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-paques-5ea2"
+  },
+  {
+   "slug": "lettres-melangees-normal-parties-du-corps-748d",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "body_parts",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-parties-du-corps-748d"
+  },
+  {
+   "slug": "lettres-melangees-normal-petit-dejeuner-b201",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "breakfast",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-petit-dejeuner-b201"
+  },
+  {
+   "slug": "lettres-melangees-normal-plage-823f",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "beach",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-plage-823f"
+  },
+  {
+   "slug": "lettres-melangees-normal-printemps-57da",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "spring",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-printemps-57da"
+  },
+  {
+   "slug": "lettres-melangees-normal-reptiles-et-amphibiens-a30c",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "reptiles_and_amphibians",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-reptiles-et-amphibiens-a30c"
+  },
+  {
+   "slug": "lettres-melangees-normal-salle-de-classe-cfdc",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "classroom",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-salle-de-classe-cfdc"
+  },
+  {
+   "slug": "lettres-melangees-normal-ustensiles-de-cuisine-ee19",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "kitchen_tools",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-ustensiles-de-cuisine-ee19"
+  },
+  {
+   "slug": "lettres-melangees-normal-vehicules-5200",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "vehicles",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-vehicules-5200"
+  },
+  {
+   "slug": "lettres-melangees-normal-vetements-90cc",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "clothing",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-vetements-90cc"
+  },
+  {
+   "slug": "lettres-melangees-normal-vie-oceanique-163a",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "ocean_life",
+   "level": "cp",
+   "deck": "lettres-melangees-normal-vie-oceanique-163a"
   }
  ]
 }

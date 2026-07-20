@@ -2,651 +2,775 @@
  "part": 219,
  "locale": "nl",
  "classes": [
-  "more-less::image-number",
-  "subtraction::cross-out"
+  "alphabet-train::letter-hint",
+  "alphabet-train::null",
+  "geometry::count-and-sort-shapes",
+  "geometry::quadrilaterals-and-area",
+  "geometry::shape-attributes",
+  "arrays-multiplication::arrays-repeated-addition",
+  "arrays-multiplication::multiply-and-divide",
+  "fractions::name-and-compare",
+  "fractions::partition-and-share",
+  "number-charts::hundreds-chart-skip-count",
+  "number-charts::number-patterns",
+  "number-charts::numbers-to-20",
+  "number-charts::skip-count-and-100-more-less",
+  "odd-one-out::cross-theme"
  ],
  "splitOf": null,
- "count": 80,
+ "count": 94,
  "pages": [
   {
-   "slug": "meer-minder-beeld-getal-accessoires-9b30",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-4-juli-2f2a",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "4th_of_july",
+   "level": "kleuters",
+   "deck": "alfabettrein-letterhint-4-juli-2f2a"
+  },
+  {
+   "slug": "alfabettrein-letterhint-accessoires-bf65",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "accessories",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-accessoires-9b30"
+   "deck": "alfabettrein-letterhint-accessoires-bf65"
   },
   {
-   "slug": "meer-minder-beeld-getal-bakkerij-616e",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "bakery",
+   "slug": "alfabettrein-letterhint-activiteiten-8861",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "activities",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-bakkerij-616e"
+   "deck": "alfabettrein-letterhint-activiteiten-8861"
   },
   {
-   "slug": "meer-minder-beeld-getal-beroepen-3e36",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-beroepen-1c7c",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "occupations",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-beroepen-3e36"
+   "deck": "alfabettrein-letterhint-beroepen-1c7c"
   },
   {
-   "slug": "meer-minder-beeld-getal-bloemen-2b08",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-bloemen-39f8",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "flowers",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-bloemen-2b08"
+   "deck": "alfabettrein-letterhint-bloemen-39f8"
   },
   {
-   "slug": "meer-minder-beeld-getal-boerderijdieren-c1d8",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-boerderijdieren-d4bf",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "farm_animals",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-boerderijdieren-c1d8"
+   "deck": "alfabettrein-letterhint-boerderijdieren-d4bf"
   },
   {
-   "slug": "meer-minder-beeld-getal-bomen-bbe5",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-bomen-433e",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "tree",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-bomen-bbe5"
+   "deck": "alfabettrein-letterhint-bomen-433e"
   },
   {
-   "slug": "meer-minder-beeld-getal-boswezens-a61d",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-boswezens-5779",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "forest_creatures",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-boswezens-a61d"
+   "deck": "alfabettrein-letterhint-boswezens-5779"
   },
   {
-   "slug": "meer-minder-beeld-getal-desserts-en-snoep-c136",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-desserts-en-snoep-864d",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "desserts_and_sweets",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-desserts-en-snoep-c136"
+   "deck": "alfabettrein-letterhint-desserts-en-snoep-864d"
   },
   {
-   "slug": "meer-minder-beeld-getal-dieren-467d",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-dieren-f125",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "animals",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-dieren-467d"
+   "deck": "alfabettrein-letterhint-dieren-f125"
   },
   {
-   "slug": "meer-minder-beeld-getal-dierentuindieren-ca0b",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-dierentuindieren-e7a4",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "zoo_animals",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-dierentuindieren-ca0b"
+   "deck": "alfabettrein-letterhint-dierentuindieren-e7a4"
   },
   {
-   "slug": "meer-minder-beeld-getal-dingen-die-vliegen-1009",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-dingen-die-vliegen-724e",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "things_that_fly",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-dingen-die-vliegen-1009"
+   "deck": "alfabettrein-letterhint-dingen-die-vliegen-724e"
   },
   {
-   "slug": "meer-minder-beeld-getal-dinosaurussen-40c3",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-dinosaurussen-9f6d",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "dinosaurs",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-dinosaurussen-40c3"
+   "deck": "alfabettrein-letterhint-dinosaurussen-9f6d"
   },
   {
-   "slug": "meer-minder-beeld-getal-fruit-5c35",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-fruit-23ed",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "fruits",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-fruit-5c35"
+   "deck": "alfabettrein-letterhint-fruit-23ed"
   },
   {
-   "slug": "meer-minder-beeld-getal-gereedschap-df04",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-gereedschap-02b2",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "tools",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-gereedschap-df04"
+   "deck": "alfabettrein-letterhint-gereedschap-02b2"
   },
   {
-   "slug": "meer-minder-beeld-getal-groenten-f154",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-groenten-906f",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "vegetables",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-groenten-f154"
+   "deck": "alfabettrein-letterhint-groenten-906f"
   },
   {
-   "slug": "meer-minder-beeld-getal-huisdieren-e922",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "pets",
-   "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-huisdieren-e922"
-  },
-  {
-   "slug": "meer-minder-beeld-getal-in-de-supermarkt-1ce1",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-in-de-supermarkt-1dc7",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "at_the_supermarket",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-in-de-supermarkt-1ce1"
+   "deck": "alfabettrein-letterhint-in-de-supermarkt-1dc7"
   },
   {
-   "slug": "meer-minder-beeld-getal-insecten-en-beestjes-5fcd",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "insects_and_bugs",
-   "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-insecten-en-beestjes-5fcd"
-  },
-  {
-   "slug": "meer-minder-beeld-getal-kamperen-36c7",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-kamperen-3104",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "camping",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-kamperen-36c7"
+   "deck": "alfabettrein-letterhint-kamperen-3104"
   },
   {
-   "slug": "meer-minder-beeld-getal-kerstmis-7c85",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-kerstmis-42b6",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "christmas",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-kerstmis-7c85"
+   "deck": "alfabettrein-letterhint-kerstmis-42b6"
   },
   {
-   "slug": "meer-minder-beeld-getal-keukengerei-69fe",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-keukengerei-a25f",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "kitchen_tools",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-keukengerei-69fe"
+   "deck": "alfabettrein-letterhint-keukengerei-a25f"
   },
   {
-   "slug": "meer-minder-beeld-getal-klaslokaal-f908",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-klaslokaal-5285",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "classroom",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-klaslokaal-f908"
+   "deck": "alfabettrein-letterhint-klaslokaal-5285"
   },
   {
-   "slug": "meer-minder-beeld-getal-kleding-58e3",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-kleding-ab00",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "clothing",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-kleding-58e3"
+   "deck": "alfabettrein-letterhint-kleding-ab00"
   },
   {
-   "slug": "meer-minder-beeld-getal-meubels-ca0f",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-kleuren-a177",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "colors",
+   "level": "kleuters",
+   "deck": "alfabettrein-letterhint-kleuren-a177"
+  },
+  {
+   "slug": "alfabettrein-letterhint-lente-289e",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "spring",
+   "level": "kleuters",
+   "deck": "alfabettrein-letterhint-lente-289e"
+  },
+  {
+   "slug": "alfabettrein-letterhint-lichaamsdelen-b94a",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "body_parts",
+   "level": "kleuters",
+   "deck": "alfabettrein-letterhint-lichaamsdelen-b94a"
+  },
+  {
+   "slug": "alfabettrein-letterhint-meubels-22a5",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "furniture",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-meubels-ca0f"
+   "deck": "alfabettrein-letterhint-meubels-22a5"
   },
   {
-   "slug": "meer-minder-beeld-getal-muziek-0187",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-muziek-f053",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "music",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-muziek-0187"
+   "deck": "alfabettrein-letterhint-muziek-f053"
   },
   {
-   "slug": "meer-minder-beeld-getal-oceaanleven-63ab",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-oceaanleven-de5e",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "ocean_life",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-oceaanleven-63ab"
+   "deck": "alfabettrein-letterhint-oceaanleven-de5e"
   },
   {
-   "slug": "meer-minder-beeld-getal-ontbijt-12f3",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-ontbijt-a838",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "breakfast",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-ontbijt-12f3"
+   "deck": "alfabettrein-letterhint-ontbijt-a838"
   },
   {
-   "slug": "meer-minder-beeld-getal-pasen-fabf",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-pasen-d785",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "easter",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-pasen-fabf"
+   "deck": "alfabettrein-letterhint-pasen-d785"
   },
   {
-   "slug": "meer-minder-beeld-getal-postkantoor-5502",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "post_office",
-   "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-postkantoor-5502"
-  },
-  {
-   "slug": "meer-minder-beeld-getal-reptielen-en-amfibieen-9eff",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "reptiles_and_amphibians",
-   "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-reptielen-en-amfibieen-9eff"
-  },
-  {
-   "slug": "meer-minder-beeld-getal-rond-het-huis-b99b",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-rond-het-huis-9d6f",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "around_the_house",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-rond-het-huis-b99b"
+   "deck": "alfabettrein-letterhint-rond-het-huis-9d6f"
   },
   {
-   "slug": "meer-minder-beeld-getal-ruimte-c2de",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-ruimte-ddc2",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "space",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-ruimte-c2de"
+   "deck": "alfabettrein-letterhint-ruimte-ddc2"
   },
   {
-   "slug": "meer-minder-beeld-getal-speelgoed-2072",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-speelgoed-5883",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "toys",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-speelgoed-2072"
+   "deck": "alfabettrein-letterhint-speelgoed-5883"
   },
   {
-   "slug": "meer-minder-beeld-getal-strand-2cc8",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-strand-ef2c",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "beach",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-strand-2cc8"
+   "deck": "alfabettrein-letterhint-strand-ef2c"
   },
   {
-   "slug": "meer-minder-beeld-getal-thanksgiving-8338",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-thanksgiving-b8e9",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "thanksgivinng",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-thanksgiving-8338"
+   "deck": "alfabettrein-letterhint-thanksgiving-b8e9"
   },
   {
-   "slug": "meer-minder-beeld-getal-voertuigen-5bb5",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-voertuigen-62f0",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "vehicles",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-voertuigen-5bb5"
+   "deck": "alfabettrein-letterhint-voertuigen-62f0"
   },
   {
-   "slug": "meer-minder-beeld-getal-vogels-146a",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "birds",
-   "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-vogels-146a"
-  },
-  {
-   "slug": "meer-minder-beeld-getal-vogels-2-8ee9",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-vogels-2-91f9",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "birds_2",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-vogels-2-8ee9"
+   "deck": "alfabettrein-letterhint-vogels-2-91f9"
   },
   {
-   "slug": "meer-minder-beeld-getal-vormen-25b3",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-vormen-b179",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "shapes",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-vormen-25b3"
+   "deck": "alfabettrein-letterhint-vormen-b179"
   },
   {
-   "slug": "meer-minder-beeld-getal-ziekenhuis-5484",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "alfabettrein-letterhint-weer-3fa7",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "weather",
+   "level": "kleuters",
+   "deck": "alfabettrein-letterhint-weer-3fa7"
+  },
+  {
+   "slug": "alfabettrein-letterhint-winter-89e3",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "winter",
+   "level": "kleuters",
+   "deck": "alfabettrein-letterhint-winter-89e3"
+  },
+  {
+   "slug": "alfabettrein-letterhint-ziekenhuis-0213",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "hospital",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-getal-ziekenhuis-5484"
+   "deck": "alfabettrein-letterhint-ziekenhuis-0213"
   },
   {
-   "slug": "aftrekken-doorstrepen-accessoires-3c61",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "alfabettrein-letterhint-zomer-55d4",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "summer",
+   "level": "kleuters",
+   "deck": "alfabettrein-letterhint-zomer-55d4"
+  },
+  {
+   "slug": "alfabettrein-accessoires-8436",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "accessories",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-accessoires-3c61"
+   "level": "kleuters",
+   "deck": "alfabettrein-accessoires-8436"
   },
   {
-   "slug": "aftrekken-doorstrepen-bakkerij-ba9a",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "bakery",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-bakkerij-ba9a"
+   "slug": "alfabettrein-activiteiten-01ed",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "activities",
+   "level": "kleuters",
+   "deck": "alfabettrein-activiteiten-01ed"
   },
   {
-   "slug": "aftrekken-doorstrepen-beroepen-232b",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "alfabettrein-beroepen-fdb3",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "occupations",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-beroepen-232b"
+   "level": "kleuters",
+   "deck": "alfabettrein-beroepen-fdb3"
   },
   {
-   "slug": "aftrekken-doorstrepen-bloemen-b4b0",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "flowers",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-bloemen-b4b0"
-  },
-  {
-   "slug": "aftrekken-doorstrepen-boerderijdieren-707e",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "alfabettrein-boerderijdieren-7955",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "farm_animals",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-boerderijdieren-707e"
+   "level": "kleuters",
+   "deck": "alfabettrein-boerderijdieren-7955"
   },
   {
-   "slug": "aftrekken-doorstrepen-bomen-93c8",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "tree",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-bomen-93c8"
-  },
-  {
-   "slug": "aftrekken-doorstrepen-boswezens-5573",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "alfabettrein-boswezens-8dc0",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "forest_creatures",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-boswezens-5573"
+   "level": "kleuters",
+   "deck": "alfabettrein-boswezens-8dc0"
   },
   {
-   "slug": "aftrekken-doorstrepen-desserts-en-snoep-7652",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "alfabettrein-desserts-en-snoep-91f7",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "desserts_and_sweets",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-desserts-en-snoep-7652"
+   "level": "kleuters",
+   "deck": "alfabettrein-desserts-en-snoep-91f7"
   },
   {
-   "slug": "aftrekken-doorstrepen-dieren",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "alfabettrein-dieren",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "animals",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-dieren"
+   "level": "kleuters",
+   "deck": "alfabettrein-dieren"
   },
   {
-   "slug": "aftrekken-doorstrepen-dierentuindieren-7c9d",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "alfabettrein-dierentuindieren-5f11",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "zoo_animals",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-dierentuindieren-7c9d"
+   "level": "kleuters",
+   "deck": "alfabettrein-dierentuindieren-5f11"
   },
   {
-   "slug": "aftrekken-doorstrepen-dingen-die-vliegen-984d",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "alfabettrein-dingen-die-vliegen-87c1",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "things_that_fly",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-dingen-die-vliegen-984d"
+   "level": "kleuters",
+   "deck": "alfabettrein-dingen-die-vliegen-87c1"
   },
   {
-   "slug": "aftrekken-doorstrepen-dinosaurussen-c517",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "dinosaurs",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-dinosaurussen-c517"
-  },
-  {
-   "slug": "aftrekken-doorstrepen-fruit-adb4",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "alfabettrein-fruit-786f",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "fruits",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-fruit-adb4"
+   "level": "kleuters",
+   "deck": "alfabettrein-fruit-786f"
   },
   {
-   "slug": "aftrekken-doorstrepen-gereedschap-9697",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "alfabettrein-gereedschap-1c06",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "tools",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-gereedschap-9697"
+   "level": "kleuters",
+   "deck": "alfabettrein-gereedschap-1c06"
   },
   {
-   "slug": "aftrekken-doorstrepen-groenten-4b3d",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "alfabettrein-groenten-3b03",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "vegetables",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-groenten-4b3d"
+   "level": "kleuters",
+   "deck": "alfabettrein-groenten-3b03"
   },
   {
-   "slug": "aftrekken-doorstrepen-huisdieren-3974",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "pets",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-huisdieren-3974"
-  },
-  {
-   "slug": "aftrekken-doorstrepen-in-de-supermarkt-fc8d",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "alfabettrein-in-de-supermarkt-16e5",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "at_the_supermarket",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-in-de-supermarkt-fc8d"
+   "level": "kleuters",
+   "deck": "alfabettrein-in-de-supermarkt-16e5"
   },
   {
-   "slug": "aftrekken-doorstrepen-insecten-en-beestjes-824d",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "insects_and_bugs",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-insecten-en-beestjes-824d"
-  },
-  {
-   "slug": "aftrekken-doorstrepen-kamperen-e814",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "alfabettrein-kamperen-842e",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "camping",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-kamperen-e814"
+   "level": "kleuters",
+   "deck": "alfabettrein-kamperen-842e"
   },
   {
-   "slug": "aftrekken-doorstrepen-kerstmis-dfcf",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "alfabettrein-kerstmis-ff87",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "christmas",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-kerstmis-dfcf"
+   "level": "kleuters",
+   "deck": "alfabettrein-kerstmis-ff87"
   },
   {
-   "slug": "aftrekken-doorstrepen-keukengerei-939e",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "alfabettrein-keukengerei-bbdd",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "kitchen_tools",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-keukengerei-939e"
+   "level": "kleuters",
+   "deck": "alfabettrein-keukengerei-bbdd"
   },
   {
-   "slug": "aftrekken-doorstrepen-klaslokaal-c7ed",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "alfabettrein-klaslokaal-aa8c",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "classroom",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-klaslokaal-c7ed"
+   "level": "kleuters",
+   "deck": "alfabettrein-klaslokaal-aa8c"
   },
   {
-   "slug": "aftrekken-doorstrepen-kleding-4d4b",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "alfabettrein-kleding-b384",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "clothing",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-kleding-4d4b"
+   "level": "kleuters",
+   "deck": "alfabettrein-kleding-b384"
   },
   {
-   "slug": "aftrekken-doorstrepen-meubels-b257",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "alfabettrein-kleuren-b132",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "colors",
+   "level": "kleuters",
+   "deck": "alfabettrein-kleuren-b132"
+  },
+  {
+   "slug": "alfabettrein-lente-bbc6",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "spring",
+   "level": "kleuters",
+   "deck": "alfabettrein-lente-bbc6"
+  },
+  {
+   "slug": "alfabettrein-lichaamsdelen-68f8",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "kleuters",
+   "deck": "alfabettrein-lichaamsdelen-68f8"
+  },
+  {
+   "slug": "alfabettrein-meubels-f704",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "furniture",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-meubels-b257"
+   "level": "kleuters",
+   "deck": "alfabettrein-meubels-f704"
   },
   {
-   "slug": "aftrekken-doorstrepen-muziek-029a",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "alfabettrein-muziek-4e01",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "music",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-muziek-029a"
+   "level": "kleuters",
+   "deck": "alfabettrein-muziek-4e01"
   },
   {
-   "slug": "aftrekken-doorstrepen-oceaanleven-6ca4",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "alfabettrein-oceaanleven-72d9",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "ocean_life",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-oceaanleven-6ca4"
+   "level": "kleuters",
+   "deck": "alfabettrein-oceaanleven-72d9"
   },
   {
-   "slug": "aftrekken-doorstrepen-ontbijt-de04",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "alfabettrein-ontbijt-e079",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "breakfast",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-ontbijt-de04"
+   "level": "kleuters",
+   "deck": "alfabettrein-ontbijt-e079"
   },
   {
-   "slug": "aftrekken-doorstrepen-pasen-4e81",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "alfabettrein-pasen-a7e2",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "easter",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-pasen-4e81"
+   "level": "kleuters",
+   "deck": "alfabettrein-pasen-a7e2"
   },
   {
-   "slug": "aftrekken-doorstrepen-postkantoor-ba99",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "post_office",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-postkantoor-ba99"
-  },
-  {
-   "slug": "aftrekken-doorstrepen-reptielen-en-amfibieen-b271",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "reptiles_and_amphibians",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-reptielen-en-amfibieen-b271"
-  },
-  {
-   "slug": "aftrekken-doorstrepen-rond-het-huis-ca36",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "alfabettrein-rond-het-huis-7287",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "around_the_house",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-rond-het-huis-ca36"
+   "level": "kleuters",
+   "deck": "alfabettrein-rond-het-huis-7287"
   },
   {
-   "slug": "aftrekken-doorstrepen-ruimte-a427",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "alfabettrein-ruimte-f8a2",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "space",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-ruimte-a427"
+   "level": "kleuters",
+   "deck": "alfabettrein-ruimte-f8a2"
   },
   {
-   "slug": "aftrekken-doorstrepen-speelgoed-0c41",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "alfabettrein-speelgoed-8a92",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "toys",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-speelgoed-0c41"
+   "level": "kleuters",
+   "deck": "alfabettrein-speelgoed-8a92"
   },
   {
-   "slug": "aftrekken-doorstrepen-strand-941f",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "alfabettrein-strand-326f",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "beach",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-strand-941f"
+   "level": "kleuters",
+   "deck": "alfabettrein-strand-326f"
   },
   {
-   "slug": "aftrekken-doorstrepen-thanksgiving-748b",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "alfabettrein-thanksgiving-4c49",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "thanksgivinng",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-thanksgiving-748b"
+   "level": "kleuters",
+   "deck": "alfabettrein-thanksgiving-4c49"
   },
   {
-   "slug": "aftrekken-doorstrepen-voertuigen-6fef",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "alfabettrein-voertuigen-d4b6",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "vehicles",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-voertuigen-6fef"
+   "level": "kleuters",
+   "deck": "alfabettrein-voertuigen-d4b6"
   },
   {
-   "slug": "aftrekken-doorstrepen-vogels-2-1e52",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "alfabettrein-vogels-2-e125",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "birds_2",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-vogels-2-1e52"
+   "level": "kleuters",
+   "deck": "alfabettrein-vogels-2-e125"
   },
   {
-   "slug": "aftrekken-doorstrepen-vogels-856b",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "birds",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-vogels-856b"
-  },
-  {
-   "slug": "aftrekken-doorstrepen-vormen-217d",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "alfabettrein-vormen-6d56",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "shapes",
-   "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-vormen-217d"
+   "level": "kleuters",
+   "deck": "alfabettrein-vormen-6d56"
   },
   {
-   "slug": "aftrekken-doorstrepen-ziekenhuis-1297",
-   "type": "subtraction",
-   "mode": "cross-out",
+   "slug": "alfabettrein-weer-2eb0",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "weather",
+   "level": "kleuters",
+   "deck": "alfabettrein-weer-2eb0"
+  },
+  {
+   "slug": "alfabettrein-winter-0068",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "winter",
+   "level": "kleuters",
+   "deck": "alfabettrein-winter-0068"
+  },
+  {
+   "slug": "alfabettrein-ziekenhuis-5c13",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "hospital",
+   "level": "kleuters",
+   "deck": "alfabettrein-ziekenhuis-5c13"
+  },
+  {
+   "slug": "alfabettrein-zomer-935f",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "summer",
+   "level": "kleuters",
+   "deck": "alfabettrein-zomer-935f"
+  },
+  {
+   "slug": "vormen-kleuters",
+   "type": "geometry",
+   "mode": "count-and-sort-shapes",
+   "theme": "",
+   "level": "kleuters",
+   "deck": "meetkunde-k075"
+  },
+  {
+   "slug": "meetkunde-groep-5",
+   "type": "geometry",
+   "mode": "quadrilaterals-and-area",
+   "theme": "",
+   "level": "groep-5",
+   "deck": "meetkunde-g3337"
+  },
+  {
+   "slug": "meetkunde-groep-4",
+   "type": "geometry",
+   "mode": "shape-attributes",
+   "theme": "",
+   "level": "groep-4",
+   "deck": "meetkunde-g2241"
+  },
+  {
+   "slug": "keersommen-met-roosters-groep-4",
+   "type": "arrays-multiplication",
+   "mode": "arrays-repeated-addition",
+   "theme": "",
+   "level": "groep-4",
+   "deck": "keersommen-fruit-g2210"
+  },
+  {
+   "slug": "tafels-groep-5",
+   "type": "arrays-multiplication",
+   "mode": "multiply-and-divide",
+   "theme": "",
+   "level": "groep-5",
+   "deck": "keersommen-g3313"
+  },
+  {
+   "slug": "breuken-groep-5",
+   "type": "fractions",
+   "mode": "name-and-compare",
+   "theme": "",
+   "level": "groep-5",
+   "deck": "breuken-g3315"
+  },
+  {
+   "slug": "gelijke-delen-groep-4",
+   "type": "fractions",
+   "mode": "partition-and-share",
+   "theme": "",
+   "level": "groep-4",
+   "deck": "breuken-g2228"
+  },
+  {
+   "slug": "honderdveld-groep-3",
+   "type": "number-charts",
+   "mode": "hundreds-chart-skip-count",
+   "theme": "",
    "level": "groep-3",
-   "deck": "aftrekken-doorstrepen-ziekenhuis-1297"
+   "deck": "honderdveld-g1130"
+  },
+  {
+   "slug": "getalpatronen-groep-5",
+   "type": "number-charts",
+   "mode": "number-patterns",
+   "theme": "",
+   "level": "groep-5",
+   "deck": "honderdveld-g3328"
+  },
+  {
+   "slug": "getallen-invullen-kleuters",
+   "type": "number-charts",
+   "mode": "numbers-to-20",
+   "theme": "",
+   "level": "kleuters",
+   "deck": "honderdveld-k021"
+  },
+  {
+   "slug": "sprongen-tellen-groep-4",
+   "type": "number-charts",
+   "mode": "skip-count-and-100-more-less",
+   "theme": "",
+   "level": "groep-4",
+   "deck": "honderdveld-g2218"
+  },
+  {
+   "slug": "welke-hoort-niet-thuis-themaoverstijgend-bloemen-ccde",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "flowers",
+   "level": "kleuters",
+   "deck": "welke-hoort-niet-thuis-themaoverstijgend-bloemen-ccde"
+  },
+  {
+   "slug": "welke-hoort-niet-thuis-themaoverstijgend-bomen-e9d4",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "tree",
+   "level": "kleuters",
+   "deck": "welke-hoort-niet-thuis-themaoverstijgend-bomen-e9d4"
+  },
+  {
+   "slug": "welke-hoort-niet-thuis-themaoverstijgend-dieren-bc32",
+   "type": "odd-one-out",
+   "mode": "cross-theme",
+   "theme": "animals",
+   "level": "kleuters",
+   "deck": "welke-hoort-niet-thuis-themaoverstijgend-dieren-bc32"
   }
  ]
 }

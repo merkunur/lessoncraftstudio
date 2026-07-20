@@ -2,771 +2,747 @@
  "part": 116,
  "locale": "pt",
  "classes": [
-  "pattern-worksheet::null",
-  "find-objects::i-spy"
+  "treasure-hunt::compass",
+  "pattern-train::aab"
  ],
  "splitOf": null,
- "count": 95,
+ "count": 92,
  "pages": [
   {
-   "slug": "atividade-de-padroes-acampamento-fc8c",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "camping",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-acampamento-fc8c"
-  },
-  {
-   "slug": "atividade-de-padroes-acessorios-1de0",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "accessories",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-acessorios-1de0"
-  },
-  {
-   "slug": "atividade-de-padroes-animais-da-fazenda-ae4d",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "farm_animals",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-animais-da-fazenda-ae4d"
-  },
-  {
-   "slug": "atividade-de-padroes-animais-de-estimacao-f0de",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "pets",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-animais-de-estimacao-f0de"
-  },
-  {
-   "slug": "atividade-de-padroes-animais-do-zoologico-c6a4",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "zoo_animals",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-animais-do-zoologico-c6a4"
-  },
-  {
-   "slug": "atividade-de-padroes-animais-febb",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "animals",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-animais-febb"
-  },
-  {
-   "slug": "atividade-de-padroes-arvores-70fe",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "tree",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-arvores-70fe"
-  },
-  {
-   "slug": "atividade-de-padroes-atividades-ebea",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "activities",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-atividades-ebea"
-  },
-  {
-   "slug": "atividade-de-padroes-brinquedos-50f4",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "toys",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-brinquedos-50f4"
-  },
-  {
-   "slug": "atividade-de-padroes-cafe-da-manha-de50",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "breakfast",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-cafe-da-manha-de50"
-  },
-  {
-   "slug": "atividade-de-padroes-clima-07f3",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "weather",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-clima-07f3"
-  },
-  {
-   "slug": "atividade-de-padroes-coisas-que-voam-0c5c",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "things_that_fly",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-coisas-que-voam-0c5c"
-  },
-  {
-   "slug": "atividade-de-padroes-cores-fdb6",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "colors",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-cores-fdb6"
-  },
-  {
-   "slug": "atividade-de-padroes-correios-23ac",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "post_office",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-correios-23ac"
-  },
-  {
-   "slug": "atividade-de-padroes-criaturas-da-floresta-2ced",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "forest_creatures",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-criaturas-da-floresta-2ced"
-  },
-  {
-   "slug": "atividade-de-padroes-dia-de-acao-de-gracas-1fa8",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "thanksgivinng",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-dia-de-acao-de-gracas-1fa8"
-  },
-  {
-   "slug": "atividade-de-padroes-dinossauros-88e7",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "dinosaurs",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-dinossauros-88e7"
-  },
-  {
-   "slug": "atividade-de-padroes-emocoes-fb20",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "emotions",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-emocoes-fb20"
-  },
-  {
-   "slug": "atividade-de-padroes-espaco-1f81",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "space",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-espaco-1f81"
-  },
-  {
-   "slug": "atividade-de-padroes-ferramentas-ccec",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "tools",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-ferramentas-ccec"
-  },
-  {
-   "slug": "atividade-de-padroes-flores-7810",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "flowers",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-flores-7810"
-  },
-  {
-   "slug": "atividade-de-padroes-formas-0748",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "shapes",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-formas-0748"
-  },
-  {
-   "slug": "atividade-de-padroes-frutas-62b9",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-021b",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "fruits",
    "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-frutas-62b9"
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-021b"
   },
   {
-   "slug": "atividade-de-padroes-hospital-6d29",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "hospital",
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-0775",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "flowers",
    "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-hospital-6d29"
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-0775"
   },
   {
-   "slug": "atividade-de-padroes-insetos-e-bichos-511b",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-0e58",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "insects_and_bugs",
    "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-insetos-e-bichos-511b"
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-0e58"
   },
   {
-   "slug": "atividade-de-padroes-inverno-770b",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "winter",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-inverno-770b"
-  },
-  {
-   "slug": "atividade-de-padroes-moveis-3a5d",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "furniture",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-moveis-3a5d"
-  },
-  {
-   "slug": "atividade-de-padroes-musica-c076",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "music",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-musica-c076"
-  },
-  {
-   "slug": "atividade-de-padroes-natal-c593",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "christmas",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-natal-c593"
-  },
-  {
-   "slug": "atividade-de-padroes-no-supermercado-5b55",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-no-supermercado-5b55"
-  },
-  {
-   "slug": "atividade-de-padroes-padaria-7866",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "bakery",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-padaria-7866"
-  },
-  {
-   "slug": "atividade-de-padroes-partes-do-corpo-f0f6",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-partes-do-corpo-f0f6"
-  },
-  {
-   "slug": "atividade-de-padroes-pascoa-2890",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "easter",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-pascoa-2890"
-  },
-  {
-   "slug": "atividade-de-padroes-passaros-2-34c9",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-passaros-2-34c9"
-  },
-  {
-   "slug": "atividade-de-padroes-passaros-6cb7",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "birds",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-passaros-6cb7"
-  },
-  {
-   "slug": "atividade-de-padroes-pela-casa-282b",
-   "type": "pattern-worksheet",
-   "mode": null,
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-0e66",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "around_the_house",
    "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-pela-casa-282b"
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-0e66"
   },
   {
-   "slug": "atividade-de-padroes-praia-c163",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "beach",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-praia-c163"
-  },
-  {
-   "slug": "atividade-de-padroes-primavera-8dcf",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "spring",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-primavera-8dcf"
-  },
-  {
-   "slug": "atividade-de-padroes-profissoes-6d9c",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "occupations",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-profissoes-6d9c"
-  },
-  {
-   "slug": "atividade-de-padroes-repteis-e-anfibios-167d",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "reptiles_and_amphibians",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-repteis-e-anfibios-167d"
-  },
-  {
-   "slug": "atividade-de-padroes-roupas-d1c4",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "clothing",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-roupas-d1c4"
-  },
-  {
-   "slug": "atividade-de-padroes-sala-de-aula-250a",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "classroom",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-sala-de-aula-250a"
-  },
-  {
-   "slug": "atividade-de-padroes-sobremesas-e-doces-05ce",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-sobremesas-e-doces-05ce"
-  },
-  {
-   "slug": "atividade-de-padroes-utensilios-de-cozinha-fcf6",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-utensilios-de-cozinha-fcf6"
-  },
-  {
-   "slug": "atividade-de-padroes-vegetais-0c50",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "vegetables",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-vegetais-0c50"
-  },
-  {
-   "slug": "atividade-de-padroes-veiculos-4e19",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "vehicles",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-veiculos-4e19"
-  },
-  {
-   "slug": "atividade-de-padroes-verao-d88c",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "summer",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-verao-d88c"
-  },
-  {
-   "slug": "atividade-de-padroes-vida-marinha-c6df",
-   "type": "pattern-worksheet",
-   "mode": null,
-   "theme": "ocean_life",
-   "level": "educacao-infantil",
-   "deck": "atividade-de-padroes-vida-marinha-c6df"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-acampamento-b6c1",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "camping",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-acampamento-b6c1"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-acessorios-1f63",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "accessories",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-acessorios-1f63"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-animais-5aa1",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "animals",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-animais-5aa1"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-animais-da-fazenda-81ca",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-1bd8",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "farm_animals",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-animais-da-fazenda-81ca"
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-1bd8"
   },
   {
-   "slug": "encontre-os-objetos-vejo-vejo-animais-de-estimacao-6e25",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "pets",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-animais-de-estimacao-6e25"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-animais-do-zoologico-1500",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "zoo_animals",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-animais-do-zoologico-1500"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-arvores-ddbd",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "tree",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-arvores-ddbd"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-atividades-2a8a",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-1fc1",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "activities",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-atividades-2a8a"
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-1fc1"
   },
   {
-   "slug": "encontre-os-objetos-vejo-vejo-brinquedos-18d0",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "toys",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-brinquedos-18d0"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-cafe-da-manha-743f",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "breakfast",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-cafe-da-manha-743f"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-clima-4aee",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "weather",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-clima-4aee"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-coisas-que-voam-a332",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "things_that_fly",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-coisas-que-voam-a332"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-cores-62bd",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "colors",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-cores-62bd"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-correios-7599",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "post_office",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-correios-7599"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-criaturas-da-floresta-21b9",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "forest_creatures",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-criaturas-da-floresta-21b9"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-dia-de-acao-de-gracas-9b26",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "thanksgivinng",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-dia-de-acao-de-gracas-9b26"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-dinossauros-4d6b",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "dinosaurs",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-dinossauros-4d6b"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-emocoes-1702",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "emotions",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-emocoes-1702"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-espaco-a9d1",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "space",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-espaco-a9d1"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-ferramentas-37b4",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "tools",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-ferramentas-37b4"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-flores-f6e7",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "flowers",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-flores-f6e7"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-formas-b49e",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "shapes",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-formas-b49e"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-frutas-a802",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "fruits",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-frutas-a802"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-hospital-25d6",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "hospital",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-hospital-25d6"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-insetos-e-bichos-dee0",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "insects_and_bugs",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-insetos-e-bichos-dee0"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-inverno-425c",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "winter",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-inverno-425c"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-moveis-5315",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "furniture",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-moveis-5315"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-musica-736d",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "music",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-musica-736d"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-natal-3274",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "christmas",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-natal-3274"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-no-supermercado-1bd5",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "at_the_supermarket",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-no-supermercado-1bd5"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-padaria-847b",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "bakery",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-padaria-847b"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-partes-do-corpo-d2d0",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "body_parts",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-partes-do-corpo-d2d0"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-pascoa-2d78",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "easter",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-pascoa-2d78"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-passaros-2-36a4",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "birds_2",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-passaros-2-36a4"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-passaros-51c4",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "birds",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-passaros-51c4"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-praia-299c",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "beach",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-praia-299c"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-primavera-7303",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "spring",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-primavera-7303"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-profissoes-1e1c",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "occupations",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-profissoes-1e1c"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-repteis-e-anfibios-46bf",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "reptiles_and_amphibians",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-repteis-e-anfibios-46bf"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-roupas-4b4a",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-2248",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "clothing",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-roupas-4b4a"
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-2248"
   },
   {
-   "slug": "encontre-os-objetos-vejo-vejo-sala-de-aula-9f52",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "classroom",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-sala-de-aula-9f52"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-sobremesas-e-doces-bacd",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "desserts_and_sweets",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-sobremesas-e-doces-bacd"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-utensilios-de-cozinha-e50a",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "kitchen_tools",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-utensilios-de-cozinha-e50a"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-vegetais-fdc9",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "vegetables",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-vegetais-fdc9"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-veiculos-3c81",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "vehicles",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-veiculos-3c81"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-verao-e2ba",
-   "type": "find-objects",
-   "mode": "i-spy",
-   "theme": "summer",
-   "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-verao-e2ba"
-  },
-  {
-   "slug": "encontre-os-objetos-vejo-vejo-vida-marinha-dadc",
-   "type": "find-objects",
-   "mode": "i-spy",
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-259b",
+   "type": "treasure-hunt",
+   "mode": "compass",
    "theme": "ocean_life",
    "level": "educacao-infantil",
-   "deck": "encontre-os-objetos-vejo-vejo-vida-marinha-dadc"
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-259b"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-2d65",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "spring",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-2d65"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-37c4",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "winter",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-37c4"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-387e",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "thanksgivinng",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-387e"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-38cf",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "tree",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-38cf"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-4090",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "furniture",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-4090"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-4ab0",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "vegetables",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-4ab0"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-59f1",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "music",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-59f1"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-6408",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "hospital",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-6408"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-6d5f",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "breakfast",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-6d5f"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-7584",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "christmas",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-7584"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-7f5b",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "shapes",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-7f5b"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-7fc6",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "bakery",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-7fc6"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-8293",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "things_that_fly",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-8293"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-8858",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "classroom",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-8858"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-95b5",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "camping",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-95b5"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-a4c3",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "dinosaurs",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-a4c3"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-a517",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "pets",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-a517"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-b6e5",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "weather",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-b6e5"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-b91e",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "colors",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-b91e"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-ba90",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "desserts_and_sweets",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-ba90"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-bbda",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "space",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-bbda"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-be94",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "toys",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-be94"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-bf74",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "emotions",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-bf74"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-c60d",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "miscellaneous",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-c60d"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-cb3f",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "post_office",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-cb3f"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-d5f7",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "kitchen_tools",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-d5f7"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-d60f",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "accessories",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-d60f"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-d824",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "tools",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-d824"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-d957",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "zoo_animals",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-d957"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-da63",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "reptiles_and_amphibians",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-da63"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-dac0",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "vehicles",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-dac0"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-e38e",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "summer",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-e38e"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-e831",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "birds",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-e831"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-fe69",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "easter",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-fe69"
+  },
+  {
+   "slug": "caca-ao-tesouro-pontos-cardeais-4-de-julho-ff94",
+   "type": "treasure-hunt",
+   "mode": "compass",
+   "theme": "forest_creatures",
+   "level": "educacao-infantil",
+   "deck": "caca-ao-tesouro-pontos-cardeais-4-de-julho-ff94"
+  },
+  {
+   "slug": "trem-de-padroes-aab-acampamento-7b7b",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "camping",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-acampamento-7b7b"
+  },
+  {
+   "slug": "trem-de-padroes-aab-acessorios-d51d",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "accessories",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-acessorios-d51d"
+  },
+  {
+   "slug": "trem-de-padroes-aab-animais-0fea",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "animals",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-animais-0fea"
+  },
+  {
+   "slug": "trem-de-padroes-aab-animais-da-fazenda-844d",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "farm_animals",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-animais-da-fazenda-844d"
+  },
+  {
+   "slug": "trem-de-padroes-aab-animais-de-estimacao-129f",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "pets",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-animais-de-estimacao-129f"
+  },
+  {
+   "slug": "trem-de-padroes-aab-animais-do-zoologico-bb32",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "zoo_animals",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-animais-do-zoologico-bb32"
+  },
+  {
+   "slug": "trem-de-padroes-aab-arvores-be65",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "tree",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-arvores-be65"
+  },
+  {
+   "slug": "trem-de-padroes-aab-atividades-2090",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "activities",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-atividades-2090"
+  },
+  {
+   "slug": "trem-de-padroes-aab-brinquedos-9a1b",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "toys",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-brinquedos-9a1b"
+  },
+  {
+   "slug": "trem-de-padroes-aab-cafe-da-manha-5d55",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "breakfast",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-cafe-da-manha-5d55"
+  },
+  {
+   "slug": "trem-de-padroes-aab-clima-1190",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "weather",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-clima-1190"
+  },
+  {
+   "slug": "trem-de-padroes-aab-coisas-que-voam-8d00",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "things_that_fly",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-coisas-que-voam-8d00"
+  },
+  {
+   "slug": "trem-de-padroes-aab-cores-296c",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "colors",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-cores-296c"
+  },
+  {
+   "slug": "trem-de-padroes-aab-correios-1b8b",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "post_office",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-correios-1b8b"
+  },
+  {
+   "slug": "trem-de-padroes-aab-criaturas-da-floresta-d3b7",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "forest_creatures",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-criaturas-da-floresta-d3b7"
+  },
+  {
+   "slug": "trem-de-padroes-aab-dia-de-acao-de-gracas-b231",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "thanksgivinng",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-dia-de-acao-de-gracas-b231"
+  },
+  {
+   "slug": "trem-de-padroes-aab-dinossauros-f918",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "dinosaurs",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-dinossauros-f918"
+  },
+  {
+   "slug": "trem-de-padroes-aab-diversos-e6b2",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "miscellaneous",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-diversos-e6b2"
+  },
+  {
+   "slug": "trem-de-padroes-aab-emocoes-874b",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "emotions",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-emocoes-874b"
+  },
+  {
+   "slug": "trem-de-padroes-aab-espaco-7353",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "space",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-espaco-7353"
+  },
+  {
+   "slug": "trem-de-padroes-aab-ferramentas-42ce",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "tools",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-ferramentas-42ce"
+  },
+  {
+   "slug": "trem-de-padroes-aab-flores-e5ad",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "flowers",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-flores-e5ad"
+  },
+  {
+   "slug": "trem-de-padroes-aab-formas-7018",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "shapes",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-formas-7018"
+  },
+  {
+   "slug": "trem-de-padroes-aab-frutas-b9a1",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "fruits",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-frutas-b9a1"
+  },
+  {
+   "slug": "trem-de-padroes-aab-hospital-510c",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "hospital",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-hospital-510c"
+  },
+  {
+   "slug": "trem-de-padroes-aab-insetos-e-bichos-3092",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "insects_and_bugs",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-insetos-e-bichos-3092"
+  },
+  {
+   "slug": "trem-de-padroes-aab-inverno-f9b8",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "winter",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-inverno-f9b8"
+  },
+  {
+   "slug": "trem-de-padroes-aab-moveis-7305",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "furniture",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-moveis-7305"
+  },
+  {
+   "slug": "trem-de-padroes-aab-musica-5878",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "music",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-musica-5878"
+  },
+  {
+   "slug": "trem-de-padroes-aab-natal-626a",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "christmas",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-natal-626a"
+  },
+  {
+   "slug": "trem-de-padroes-aab-no-supermercado-2fdf",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "at_the_supermarket",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-no-supermercado-2fdf"
+  },
+  {
+   "slug": "trem-de-padroes-aab-padaria-da17",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "bakery",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-padaria-da17"
+  },
+  {
+   "slug": "trem-de-padroes-aab-partes-do-corpo-f3c2",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "body_parts",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-partes-do-corpo-f3c2"
+  },
+  {
+   "slug": "trem-de-padroes-aab-pascoa-58a3",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "easter",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-pascoa-58a3"
+  },
+  {
+   "slug": "trem-de-padroes-aab-passaros-2-474d",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "birds_2",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-passaros-2-474d"
+  },
+  {
+   "slug": "trem-de-padroes-aab-passaros-d0c6",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "birds",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-passaros-d0c6"
+  },
+  {
+   "slug": "trem-de-padroes-aab-pela-casa-9d56",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "around_the_house",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-pela-casa-9d56"
+  },
+  {
+   "slug": "trem-de-padroes-aab-praia-2a74",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "beach",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-praia-2a74"
+  },
+  {
+   "slug": "trem-de-padroes-aab-primavera-12de",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "spring",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-primavera-12de"
+  },
+  {
+   "slug": "trem-de-padroes-aab-profissoes-4d5d",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "occupations",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-profissoes-4d5d"
+  },
+  {
+   "slug": "trem-de-padroes-aab-repteis-e-anfibios-d5cc",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "reptiles_and_amphibians",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-repteis-e-anfibios-d5cc"
+  },
+  {
+   "slug": "trem-de-padroes-aab-roupas-b68a",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "clothing",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-roupas-b68a"
+  },
+  {
+   "slug": "trem-de-padroes-aab-sala-de-aula-7766",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "classroom",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-sala-de-aula-7766"
+  },
+  {
+   "slug": "trem-de-padroes-aab-sobremesas-e-doces-af14",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "desserts_and_sweets",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-sobremesas-e-doces-af14"
+  },
+  {
+   "slug": "trem-de-padroes-aab-utensilios-de-cozinha-c07d",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "kitchen_tools",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-utensilios-de-cozinha-c07d"
+  },
+  {
+   "slug": "trem-de-padroes-aab-vegetais-15ca",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "vegetables",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-vegetais-15ca"
+  },
+  {
+   "slug": "trem-de-padroes-aab-veiculos-1123",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "vehicles",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-veiculos-1123"
+  },
+  {
+   "slug": "trem-de-padroes-aab-verao-e4de",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "summer",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-verao-e4de"
+  },
+  {
+   "slug": "trem-de-padroes-aab-vida-marinha-6126",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "ocean_life",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aab-vida-marinha-6126"
   }
  ]
 }

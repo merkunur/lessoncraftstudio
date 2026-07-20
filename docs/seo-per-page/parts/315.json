@@ -2,651 +2,746 @@
  "part": 315,
  "locale": "no",
  "classes": [
-  "more-less::image-number",
-  "subtraction::find-subtrahend"
+  "crossword::null"
  ],
  "splitOf": null,
- "count": 80,
+ "count": 92,
  "pages": [
   {
-   "slug": "mer-mindre-bilde-tall-bakeri-adc7",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-4-juli-3ee6",
+   "type": "crossword",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-4-juli-3ee6"
+  },
+  {
+   "slug": "engelsk-kryssord-aktiviteter-d1f8",
+   "type": "crossword",
+   "mode": null,
+   "theme": "activities",
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-aktiviteter-d1f8"
+  },
+  {
+   "slug": "engelsk-kryssord-bakeri-2ab4",
+   "type": "crossword",
+   "mode": null,
    "theme": "bakery",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-bakeri-adc7"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-bakeri-2ab4"
   },
   {
-   "slug": "mer-mindre-bilde-tall-blomster-1f6b",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-blomster-f31b",
+   "type": "crossword",
+   "mode": null,
    "theme": "flowers",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-blomster-1f6b"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-blomster-f31b"
   },
   {
-   "slug": "mer-mindre-bilde-tall-camping-a05f",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-camping-27ca",
+   "type": "crossword",
+   "mode": null,
    "theme": "camping",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-camping-a05f"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-camping-27ca"
   },
   {
-   "slug": "mer-mindre-bilde-tall-desserter-og-godteri-72af",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-desserter-og-godteri-37f2",
+   "type": "crossword",
+   "mode": null,
    "theme": "desserts_and_sweets",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-desserter-og-godteri-72af"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-desserter-og-godteri-37f2"
   },
   {
-   "slug": "mer-mindre-bilde-tall-dinosaurer-454e",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "dinosaurs",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-dinosaurer-454e"
-  },
-  {
-   "slug": "mer-mindre-bilde-tall-dyr-1611",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-dyr-ba47",
+   "type": "crossword",
+   "mode": null,
    "theme": "animals",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-dyr-1611"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-dyr-ba47"
   },
   {
-   "slug": "mer-mindre-bilde-tall-dyrehagedyr-0db0",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-dyrehagedyr-84fe",
+   "type": "crossword",
+   "mode": null,
    "theme": "zoo_animals",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-dyrehagedyr-0db0"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-dyrehagedyr-84fe"
   },
   {
-   "slug": "mer-mindre-bilde-tall-former-013f",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-farger-8e75",
+   "type": "crossword",
+   "mode": null,
+   "theme": "colors",
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-farger-8e75"
+  },
+  {
+   "slug": "engelsk-kryssord-folelser-be4b",
+   "type": "crossword",
+   "mode": null,
+   "theme": "emotions",
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-folelser-be4b"
+  },
+  {
+   "slug": "engelsk-kryssord-former-3aaa",
+   "type": "crossword",
+   "mode": null,
    "theme": "shapes",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-former-013f"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-former-3aaa"
   },
   {
-   "slug": "mer-mindre-bilde-tall-frokost-27b1",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-frokost-263a",
+   "type": "crossword",
+   "mode": null,
    "theme": "breakfast",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-frokost-27b1"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-frokost-263a"
   },
   {
-   "slug": "mer-mindre-bilde-tall-frukter-1d89",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-frukter-6a26",
+   "type": "crossword",
+   "mode": null,
    "theme": "fruits",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-frukter-1d89"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-frukter-6a26"
   },
   {
-   "slug": "mer-mindre-bilde-tall-fugler-0c0c",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "birds",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-fugler-0c0c"
-  },
-  {
-   "slug": "mer-mindre-bilde-tall-fugler-2-ce53",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-fugler-2-cbb8",
+   "type": "crossword",
+   "mode": null,
    "theme": "birds_2",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-fugler-2-ce53"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-fugler-2-cbb8"
   },
   {
-   "slug": "mer-mindre-bilde-tall-gardsdyr-0ebf",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-fugler-23d9",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds",
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-fugler-23d9"
+  },
+  {
+   "slug": "engelsk-kryssord-gardsdyr-bae5",
+   "type": "crossword",
+   "mode": null,
    "theme": "farm_animals",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-gardsdyr-0ebf"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-gardsdyr-bae5"
   },
   {
-   "slug": "mer-mindre-bilde-tall-gronnsaker-a27f",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-gronnsaker-adc0",
+   "type": "crossword",
+   "mode": null,
    "theme": "vegetables",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-gronnsaker-a27f"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-gronnsaker-adc0"
   },
   {
-   "slug": "mer-mindre-bilde-tall-havliv-2f06",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-havliv-c16d",
+   "type": "crossword",
+   "mode": null,
    "theme": "ocean_life",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-havliv-2f06"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-havliv-c16d"
   },
   {
-   "slug": "mer-mindre-bilde-tall-i-supermarkedet-4a55",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-i-supermarkedet-bbf6",
+   "type": "crossword",
+   "mode": null,
    "theme": "at_the_supermarket",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-i-supermarkedet-4a55"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-i-supermarkedet-bbf6"
   },
   {
-   "slug": "mer-mindre-bilde-tall-insekter-og-kryp-fb28",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-insekter-og-kryp-6fb9",
+   "type": "crossword",
+   "mode": null,
    "theme": "insects_and_bugs",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-insekter-og-kryp-fb28"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-insekter-og-kryp-6fb9"
   },
   {
-   "slug": "mer-mindre-bilde-tall-jul-1930",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-jul-1441",
+   "type": "crossword",
+   "mode": null,
    "theme": "christmas",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-jul-1930"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-jul-1441"
   },
   {
-   "slug": "mer-mindre-bilde-tall-kjaeledyr-9fa3",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-kjaeledyr-1bd2",
+   "type": "crossword",
+   "mode": null,
    "theme": "pets",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-kjaeledyr-9fa3"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-kjaeledyr-1bd2"
   },
   {
-   "slug": "mer-mindre-bilde-tall-kjokkenredskaper-eca4",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-kjokkenredskaper-bf50",
+   "type": "crossword",
+   "mode": null,
    "theme": "kitchen_tools",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-kjokkenredskaper-eca4"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-kjokkenredskaper-bf50"
   },
   {
-   "slug": "mer-mindre-bilde-tall-kjoretoy-3074",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-kjoretoy-6209",
+   "type": "crossword",
+   "mode": null,
    "theme": "vehicles",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-kjoretoy-3074"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-kjoretoy-6209"
   },
   {
-   "slug": "mer-mindre-bilde-tall-klaer-0838",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-klaer-f700",
+   "type": "crossword",
+   "mode": null,
    "theme": "clothing",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-klaer-0838"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-klaer-f700"
   },
   {
-   "slug": "mer-mindre-bilde-tall-klasserom-eab3",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-klasserom-6140",
+   "type": "crossword",
+   "mode": null,
    "theme": "classroom",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-klasserom-eab3"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-klasserom-6140"
   },
   {
-   "slug": "mer-mindre-bilde-tall-leker-ae35",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-kroppsdeler-6174",
+   "type": "crossword",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-kroppsdeler-6174"
+  },
+  {
+   "slug": "engelsk-kryssord-leker-b304",
+   "type": "crossword",
+   "mode": null,
    "theme": "toys",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-leker-ae35"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-leker-b304"
   },
   {
-   "slug": "mer-mindre-bilde-tall-mobler-a67c",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-mobler-73b4",
+   "type": "crossword",
+   "mode": null,
    "theme": "furniture",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-mobler-a67c"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-mobler-73b4"
   },
   {
-   "slug": "mer-mindre-bilde-tall-musikk-288e",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-musikk-760a",
+   "type": "crossword",
+   "mode": null,
    "theme": "music",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-musikk-288e"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-musikk-760a"
   },
   {
-   "slug": "mer-mindre-bilde-tall-paske-26b3",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-paske-b249",
+   "type": "crossword",
+   "mode": null,
    "theme": "easter",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-paske-26b3"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-paske-b249"
   },
   {
-   "slug": "mer-mindre-bilde-tall-postkontor-9f9f",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-postkontor-0946",
+   "type": "crossword",
+   "mode": null,
    "theme": "post_office",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-postkontor-9f9f"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-postkontor-0946"
   },
   {
-   "slug": "mer-mindre-bilde-tall-reptiler-og-amfibier-63a3",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "reptiles_and_amphibians",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-reptiler-og-amfibier-63a3"
-  },
-  {
-   "slug": "mer-mindre-bilde-tall-rundt-i-huset-1ed2",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-rundt-i-huset-acf8",
+   "type": "crossword",
+   "mode": null,
    "theme": "around_the_house",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-rundt-i-huset-1ed2"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-rundt-i-huset-acf8"
   },
   {
-   "slug": "mer-mindre-bilde-tall-skogsdyr-d7ad",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-skogsdyr-37cc",
+   "type": "crossword",
+   "mode": null,
    "theme": "forest_creatures",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-skogsdyr-d7ad"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-skogsdyr-37cc"
   },
   {
-   "slug": "mer-mindre-bilde-tall-strand-639f",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-sommer-24a0",
+   "type": "crossword",
+   "mode": null,
+   "theme": "summer",
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-sommer-24a0"
+  },
+  {
+   "slug": "engelsk-kryssord-strand-551e",
+   "type": "crossword",
+   "mode": null,
    "theme": "beach",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-strand-639f"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-strand-551e"
   },
   {
-   "slug": "mer-mindre-bilde-tall-sykehus-5882",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-sykehus-a8bc",
+   "type": "crossword",
+   "mode": null,
    "theme": "hospital",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-sykehus-5882"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-sykehus-a8bc"
   },
   {
-   "slug": "mer-mindre-bilde-tall-thanksgiving-5982",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-thanksgiving-a567",
+   "type": "crossword",
+   "mode": null,
    "theme": "thanksgivinng",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-thanksgiving-5982"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-thanksgiving-a567"
   },
   {
-   "slug": "mer-mindre-bilde-tall-tilbehor-0f28",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-tilbehor-c85a",
+   "type": "crossword",
+   "mode": null,
    "theme": "accessories",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-tilbehor-0f28"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-tilbehor-c85a"
   },
   {
-   "slug": "mer-mindre-bilde-tall-ting-som-flyr-6806",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "things_that_fly",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-ting-som-flyr-6806"
+   "slug": "engelsk-kryssord-vaer-c323",
+   "type": "crossword",
+   "mode": null,
+   "theme": "weather",
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-vaer-c323"
   },
   {
-   "slug": "mer-mindre-bilde-tall-traer-03c8",
-   "type": "more-less",
-   "mode": "image-number",
-   "theme": "tree",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-traer-03c8"
+   "slug": "engelsk-kryssord-var-0483",
+   "type": "crossword",
+   "mode": null,
+   "theme": "spring",
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-var-0483"
   },
   {
-   "slug": "mer-mindre-bilde-tall-verdensrommet-1480",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-verdensrommet-52a7",
+   "type": "crossword",
+   "mode": null,
    "theme": "space",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-verdensrommet-1480"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-verdensrommet-52a7"
   },
   {
-   "slug": "mer-mindre-bilde-tall-verktoy-55b1",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-verktoy-d628",
+   "type": "crossword",
+   "mode": null,
    "theme": "tools",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-verktoy-55b1"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-verktoy-d628"
   },
   {
-   "slug": "mer-mindre-bilde-tall-yrker-96de",
-   "type": "more-less",
-   "mode": "image-number",
+   "slug": "engelsk-kryssord-vinter-1a1c",
+   "type": "crossword",
+   "mode": null,
+   "theme": "winter",
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-vinter-1a1c"
+  },
+  {
+   "slug": "engelsk-kryssord-yrker-07d3",
+   "type": "crossword",
+   "mode": null,
    "theme": "occupations",
-   "level": "1-trinn",
-   "deck": "mer-mindre-bilde-tall-yrker-96de"
+   "level": "language-beginner",
+   "deck": "engelsk-kryssord-yrker-07d3"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-bakeri-b073",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-aktiviteter-fa8c",
+   "type": "crossword",
+   "mode": null,
+   "theme": "activities",
+   "level": "3-trinn",
+   "deck": "kryssord-aktiviteter-fa8c"
+  },
+  {
+   "slug": "kryssord-bakeri-59b9",
+   "type": "crossword",
+   "mode": null,
    "theme": "bakery",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-bakeri-b073"
+   "level": "3-trinn",
+   "deck": "kryssord-bakeri-59b9"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-blomster-b052",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-blomster-ab01",
+   "type": "crossword",
+   "mode": null,
    "theme": "flowers",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-blomster-b052"
+   "level": "3-trinn",
+   "deck": "kryssord-blomster-ab01"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-camping-886d",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-camping-5e61",
+   "type": "crossword",
+   "mode": null,
    "theme": "camping",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-camping-886d"
+   "level": "3-trinn",
+   "deck": "kryssord-camping-5e61"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-desserter-og-godteri-99d7",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-desserter-og-godteri-3d36",
+   "type": "crossword",
+   "mode": null,
    "theme": "desserts_and_sweets",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-desserter-og-godteri-99d7"
+   "level": "3-trinn",
+   "deck": "kryssord-desserter-og-godteri-3d36"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-dinosaurer-f31e",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
-   "theme": "dinosaurs",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-dinosaurer-f31e"
-  },
-  {
-   "slug": "subtraksjon-finn-subtrahend-dyr-1359",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-dyr-89ee",
+   "type": "crossword",
+   "mode": null,
    "theme": "animals",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-dyr-1359"
+   "level": "3-trinn",
+   "deck": "kryssord-dyr-89ee"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-dyrehagedyr-00eb",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-dyrehagedyr-0e85",
+   "type": "crossword",
+   "mode": null,
    "theme": "zoo_animals",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-dyrehagedyr-00eb"
+   "level": "3-trinn",
+   "deck": "kryssord-dyrehagedyr-0e85"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-former-88b5",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-farger-1c44",
+   "type": "crossword",
+   "mode": null,
+   "theme": "colors",
+   "level": "3-trinn",
+   "deck": "kryssord-farger-1c44"
+  },
+  {
+   "slug": "kryssord-folelser-3e72",
+   "type": "crossword",
+   "mode": null,
+   "theme": "emotions",
+   "level": "3-trinn",
+   "deck": "kryssord-folelser-3e72"
+  },
+  {
+   "slug": "kryssord-former-76d0",
+   "type": "crossword",
+   "mode": null,
    "theme": "shapes",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-former-88b5"
+   "level": "3-trinn",
+   "deck": "kryssord-former-76d0"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-frokost-d9d1",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-frokost-5419",
+   "type": "crossword",
+   "mode": null,
    "theme": "breakfast",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-frokost-d9d1"
+   "level": "3-trinn",
+   "deck": "kryssord-frokost-5419"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-frukter-5e41",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-frukter-01ee",
+   "type": "crossword",
+   "mode": null,
    "theme": "fruits",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-frukter-5e41"
+   "level": "3-trinn",
+   "deck": "kryssord-frukter-01ee"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-fugler-2-b067",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-fugler-2-ccfa",
+   "type": "crossword",
+   "mode": null,
    "theme": "birds_2",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-fugler-2-b067"
+   "level": "3-trinn",
+   "deck": "kryssord-fugler-2-ccfa"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-fugler-c76a",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-fugler-223d",
+   "type": "crossword",
+   "mode": null,
    "theme": "birds",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-fugler-c76a"
+   "level": "3-trinn",
+   "deck": "kryssord-fugler-223d"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-gardsdyr-7c93",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-gardsdyr-a0bd",
+   "type": "crossword",
+   "mode": null,
    "theme": "farm_animals",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-gardsdyr-7c93"
+   "level": "3-trinn",
+   "deck": "kryssord-gardsdyr-a0bd"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-gronnsaker-107f",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-gronnsaker-8820",
+   "type": "crossword",
+   "mode": null,
    "theme": "vegetables",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-gronnsaker-107f"
+   "level": "3-trinn",
+   "deck": "kryssord-gronnsaker-8820"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-havliv-01dd",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-havliv-b8cb",
+   "type": "crossword",
+   "mode": null,
    "theme": "ocean_life",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-havliv-01dd"
+   "level": "3-trinn",
+   "deck": "kryssord-havliv-b8cb"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-i-supermarkedet-9188",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-i-supermarkedet-6d48",
+   "type": "crossword",
+   "mode": null,
    "theme": "at_the_supermarket",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-i-supermarkedet-9188"
+   "level": "3-trinn",
+   "deck": "kryssord-i-supermarkedet-6d48"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-insekter-og-kryp-0ff2",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-insekter-og-kryp-bbec",
+   "type": "crossword",
+   "mode": null,
    "theme": "insects_and_bugs",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-insekter-og-kryp-0ff2"
+   "level": "3-trinn",
+   "deck": "kryssord-insekter-og-kryp-bbec"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-jul-1a09",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-jul-7db2",
+   "type": "crossword",
+   "mode": null,
    "theme": "christmas",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-jul-1a09"
+   "level": "3-trinn",
+   "deck": "kryssord-jul-7db2"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-kjaeledyr-b156",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-kjaeledyr-6a61",
+   "type": "crossword",
+   "mode": null,
    "theme": "pets",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-kjaeledyr-b156"
+   "level": "3-trinn",
+   "deck": "kryssord-kjaeledyr-6a61"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-kjokkenredskaper-9495",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-kjokkenredskaper-3922",
+   "type": "crossword",
+   "mode": null,
    "theme": "kitchen_tools",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-kjokkenredskaper-9495"
+   "level": "3-trinn",
+   "deck": "kryssord-kjokkenredskaper-3922"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-kjoretoy-981a",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-kjoretoy-0e9d",
+   "type": "crossword",
+   "mode": null,
    "theme": "vehicles",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-kjoretoy-981a"
+   "level": "3-trinn",
+   "deck": "kryssord-kjoretoy-0e9d"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-klaer-7c77",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-klaer-f263",
+   "type": "crossword",
+   "mode": null,
    "theme": "clothing",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-klaer-7c77"
+   "level": "3-trinn",
+   "deck": "kryssord-klaer-f263"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-klasserom-9a5a",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-klasserom-180d",
+   "type": "crossword",
+   "mode": null,
    "theme": "classroom",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-klasserom-9a5a"
+   "level": "3-trinn",
+   "deck": "kryssord-klasserom-180d"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-leker-7f75",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-kroppsdeler-21b5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "3-trinn",
+   "deck": "kryssord-kroppsdeler-21b5"
+  },
+  {
+   "slug": "kryssord-leker-dbb3",
+   "type": "crossword",
+   "mode": null,
    "theme": "toys",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-leker-7f75"
+   "level": "3-trinn",
+   "deck": "kryssord-leker-dbb3"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-mobler-05b7",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-mobler-aa98",
+   "type": "crossword",
+   "mode": null,
    "theme": "furniture",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-mobler-05b7"
+   "level": "3-trinn",
+   "deck": "kryssord-mobler-aa98"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-musikk-5f3c",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-musikk-d299",
+   "type": "crossword",
+   "mode": null,
    "theme": "music",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-musikk-5f3c"
+   "level": "3-trinn",
+   "deck": "kryssord-musikk-d299"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-paske-2a6e",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-paske-c1e8",
+   "type": "crossword",
+   "mode": null,
    "theme": "easter",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-paske-2a6e"
+   "level": "3-trinn",
+   "deck": "kryssord-paske-c1e8"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-postkontor-5057",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-postkontor-9fef",
+   "type": "crossword",
+   "mode": null,
    "theme": "post_office",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-postkontor-5057"
+   "level": "3-trinn",
+   "deck": "kryssord-postkontor-9fef"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-reptiler-og-amfibier-2fd4",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-reptiler-og-amfibier-cada",
+   "type": "crossword",
+   "mode": null,
    "theme": "reptiles_and_amphibians",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-reptiler-og-amfibier-2fd4"
+   "level": "3-trinn",
+   "deck": "kryssord-reptiler-og-amfibier-cada"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-rundt-i-huset-d4e2",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-rundt-i-huset-3150",
+   "type": "crossword",
+   "mode": null,
    "theme": "around_the_house",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-rundt-i-huset-d4e2"
+   "level": "3-trinn",
+   "deck": "kryssord-rundt-i-huset-3150"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-skogsdyr-8c51",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-skogsdyr-ce50",
+   "type": "crossword",
+   "mode": null,
    "theme": "forest_creatures",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-skogsdyr-8c51"
+   "level": "3-trinn",
+   "deck": "kryssord-skogsdyr-ce50"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-strand-3a96",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-sommer-e858",
+   "type": "crossword",
+   "mode": null,
+   "theme": "summer",
+   "level": "3-trinn",
+   "deck": "kryssord-sommer-e858"
+  },
+  {
+   "slug": "kryssord-strand-33de",
+   "type": "crossword",
+   "mode": null,
    "theme": "beach",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-strand-3a96"
+   "level": "3-trinn",
+   "deck": "kryssord-strand-33de"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-sykehus-09f2",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-sykehus-e3c4",
+   "type": "crossword",
+   "mode": null,
    "theme": "hospital",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-sykehus-09f2"
+   "level": "3-trinn",
+   "deck": "kryssord-sykehus-e3c4"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-thanksgiving-f0f5",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-thanksgiving-4666",
+   "type": "crossword",
+   "mode": null,
    "theme": "thanksgivinng",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-thanksgiving-f0f5"
+   "level": "3-trinn",
+   "deck": "kryssord-thanksgiving-4666"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-tilbehor-b69e",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-tilbehor-c1b3",
+   "type": "crossword",
+   "mode": null,
    "theme": "accessories",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-tilbehor-b69e"
+   "level": "3-trinn",
+   "deck": "kryssord-tilbehor-c1b3"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-ting-som-flyr-ab88",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-ting-som-flyr-7edb",
+   "type": "crossword",
+   "mode": null,
    "theme": "things_that_fly",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-ting-som-flyr-ab88"
+   "level": "3-trinn",
+   "deck": "kryssord-ting-som-flyr-7edb"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-traer-53fd",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-traer-5252",
+   "type": "crossword",
+   "mode": null,
    "theme": "tree",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-traer-53fd"
+   "level": "3-trinn",
+   "deck": "kryssord-traer-5252"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-verdensrommet-e121",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-vaer-b897",
+   "type": "crossword",
+   "mode": null,
+   "theme": "weather",
+   "level": "3-trinn",
+   "deck": "kryssord-vaer-b897"
+  },
+  {
+   "slug": "kryssord-var-f3bc",
+   "type": "crossword",
+   "mode": null,
+   "theme": "spring",
+   "level": "3-trinn",
+   "deck": "kryssord-var-f3bc"
+  },
+  {
+   "slug": "kryssord-verdensrommet-574d",
+   "type": "crossword",
+   "mode": null,
    "theme": "space",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-verdensrommet-e121"
+   "level": "3-trinn",
+   "deck": "kryssord-verdensrommet-574d"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-verktoy-b96f",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-verktoy-9fdc",
+   "type": "crossword",
+   "mode": null,
    "theme": "tools",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-verktoy-b96f"
+   "level": "3-trinn",
+   "deck": "kryssord-verktoy-9fdc"
   },
   {
-   "slug": "subtraksjon-finn-subtrahend-yrker-b3fc",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kryssord-vinter-4ad8",
+   "type": "crossword",
+   "mode": null,
+   "theme": "winter",
+   "level": "3-trinn",
+   "deck": "kryssord-vinter-4ad8"
+  },
+  {
+   "slug": "kryssord-yrker-86c2",
+   "type": "crossword",
+   "mode": null,
    "theme": "occupations",
-   "level": "2-trinn",
-   "deck": "subtraksjon-finn-subtrahend-yrker-b3fc"
+   "level": "3-trinn",
+   "deck": "kryssord-yrker-86c2"
   }
  ]
 }

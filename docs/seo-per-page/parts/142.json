@@ -2,779 +2,770 @@
  "part": 142,
  "locale": "fr",
  "classes": [
-  "find-objects::find-odd",
-  "math-worksheet::three-symbols-add-sub"
+  "wordsearch::null"
  ],
  "splitOf": null,
- "count": 96,
+ "count": 95,
  "pages": [
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-accessoires-8deb",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-4-juillet-e5cf",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-4-juillet-e5cf"
+  },
+  {
+   "slug": "anglais-mots-meles-accessoires-0644",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "accessories",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-accessoires-8deb"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-accessoires-0644"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-action-de-grace-6b1d",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-action-de-grace-b7f2",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "thanksgivinng",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-action-de-grace-6b1d"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-action-de-grace-b7f2"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-activites-c34c",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-activites-1212",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "activities",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-activites-c34c"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-activites-1212"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-animaux-1ff1",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-animaux-6561",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "animals",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-animaux-1ff1"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-animaux-6561"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-animaux-de-compagnie-c172",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-animaux-de-compagnie-a2c6",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "pets",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-animaux-de-compagnie-c172"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-animaux-de-compagnie-a2c6"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-animaux-de-la-ferme-bd04",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-animaux-de-la-ferme-a27e",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "farm_animals",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-animaux-de-la-ferme-bd04"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-animaux-de-la-ferme-a27e"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-animaux-du-zoo-8b66",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-animaux-du-zoo-8700",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "zoo_animals",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-animaux-du-zoo-8b66"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-animaux-du-zoo-8700"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-arbres-d057",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-arbres-e7f7",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "tree",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-arbres-d057"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-arbres-e7f7"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-au-supermarche-21ed",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-au-supermarche-1dfc",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "at_the_supermarket",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-au-supermarche-21ed"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-au-supermarche-1dfc"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-autour-de-la-maison-879a",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-autour-de-la-maison-1d19",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "around_the_house",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-autour-de-la-maison-879a"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-autour-de-la-maison-1d19"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-boulangerie-d7c6",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-boulangerie-45ee",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "bakery",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-boulangerie-d7c6"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-boulangerie-45ee"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-bureau-de-poste-a7d5",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-bureau-de-poste-b120",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "post_office",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-bureau-de-poste-a7d5"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-bureau-de-poste-b120"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-camping-3468",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-camping-eac6",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "camping",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-camping-3468"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-camping-eac6"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-choses-qui-volent-5aa7",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-choses-qui-volent-72ba",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "things_that_fly",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-choses-qui-volent-5aa7"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-choses-qui-volent-72ba"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-couleurs-0ddb",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-couleurs-70d3",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "colors",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-couleurs-0ddb"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-couleurs-70d3"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-creatures-de-la-foret-c15c",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-creatures-de-la-foret-ca60",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "forest_creatures",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-creatures-de-la-foret-c15c"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-creatures-de-la-foret-ca60"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-desserts-et-sucreries-ba8e",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-desserts-et-sucreries-08a8",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "desserts_and_sweets",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-desserts-et-sucreries-ba8e"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-desserts-et-sucreries-08a8"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-dinosaures-75c5",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "dinosaurs",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-dinosaures-75c5"
-  },
-  {
-   "slug": "trouve-les-objets-trouve-l-intrus-emotions-9cb9",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-emotions-0d4e",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "emotions",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-emotions-9cb9"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-emotions-0d4e"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-espace-5a33",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-espace-8495",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "space",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-espace-5a33"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-espace-8495"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-ete-a99b",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-ete-1676",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "summer",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-ete-a99b"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-ete-1676"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-fleurs-8559",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-fleurs-77a9",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "flowers",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-fleurs-8559"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-fleurs-77a9"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-formes-982d",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-formes-bd7d",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "shapes",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-formes-982d"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-formes-bd7d"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-fruits-f74d",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-fruits-5630",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "fruits",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-fruits-f74d"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-fruits-5630"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-hiver-ffb5",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-hiver-739c",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "winter",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-hiver-ffb5"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-hiver-739c"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-hopital-46f6",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-hopital-d078",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "hospital",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-hopital-46f6"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-hopital-d078"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-insectes-et-bestioles-a489",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-insectes-et-bestioles-d59f",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "insects_and_bugs",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-insectes-et-bestioles-a489"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-insectes-et-bestioles-d59f"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-jouets-088b",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-jouets-6e55",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "toys",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-jouets-088b"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-jouets-6e55"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-legumes-e962",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-legumes-95de",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "vegetables",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-legumes-e962"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-legumes-95de"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-meteo-5ba8",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-meteo-9b95",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "weather",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-meteo-5ba8"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-meteo-9b95"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-metiers-7f42",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-metiers-e80c",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "occupations",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-metiers-7f42"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-metiers-e80c"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-meubles-984f",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-meubles-4cd4",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "furniture",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-meubles-984f"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-meubles-4cd4"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-musique-3ae0",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-musique-88cd",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "music",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-musique-3ae0"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-musique-88cd"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-noel-07b2",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-noel-0fbe",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "christmas",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-noel-07b2"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-noel-0fbe"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-oiseaux-0a98",
-   "type": "find-objects",
-   "mode": "find-odd",
-   "theme": "birds",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-oiseaux-0a98"
-  },
-  {
-   "slug": "trouve-les-objets-trouve-l-intrus-oiseaux-2-c8ea",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-oiseaux-2-33f2",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "birds_2",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-oiseaux-2-c8ea"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-oiseaux-2-33f2"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-outils-a762",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-oiseaux-e852",
+   "type": "wordsearch",
+   "mode": null,
+   "theme": "birds",
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-oiseaux-e852"
+  },
+  {
+   "slug": "anglais-mots-meles-outils-15b3",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "tools",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-outils-a762"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-outils-15b3"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-paques-71a2",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-paques-d5b6",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "easter",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-paques-71a2"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-paques-d5b6"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-parties-du-corps-5412",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-parties-du-corps-6272",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "body_parts",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-parties-du-corps-5412"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-parties-du-corps-6272"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-petit-dejeuner-9212",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-petit-dejeuner-1a6e",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "breakfast",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-petit-dejeuner-9212"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-petit-dejeuner-1a6e"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-plage-642a",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-plage-e381",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "beach",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-plage-642a"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-plage-e381"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-printemps-7700",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-printemps-0381",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "spring",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-printemps-7700"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-printemps-0381"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-reptiles-et-amphibiens-064e",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-reptiles-et-amphibiens-5e67",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "reptiles_and_amphibians",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-reptiles-et-amphibiens-064e"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-reptiles-et-amphibiens-5e67"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-salle-de-classe-057c",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-salle-de-classe-8df2",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "classroom",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-salle-de-classe-057c"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-salle-de-classe-8df2"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-ustensiles-de-cuisine-8e8b",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-ustensiles-de-cuisine-9ffd",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "kitchen_tools",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-ustensiles-de-cuisine-8e8b"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-ustensiles-de-cuisine-9ffd"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-vehicules-0aba",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-vehicules-d1b2",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "vehicles",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-vehicules-0aba"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-vehicules-d1b2"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-vetements-b8c3",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-vetements-deaf",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "clothing",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-vetements-b8c3"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-vetements-deaf"
   },
   {
-   "slug": "trouve-les-objets-trouve-l-intrus-vie-oceanique-54c6",
-   "type": "find-objects",
-   "mode": "find-odd",
+   "slug": "anglais-mots-meles-vie-oceanique-7b1a",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "ocean_life",
-   "level": "maternelle",
-   "deck": "trouve-les-objets-trouve-l-intrus-vie-oceanique-54c6"
+   "level": "language-beginner",
+   "deck": "anglais-mots-meles-vie-oceanique-7b1a"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-accessoires-d3f9",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-accessoires-aebf",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "accessories",
-   "level": "ce1",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-accessoires-d3f9"
+   "level": "cp",
+   "deck": "mots-meles-accessoires-aebf"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-action-de-grace-baf1",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-action-de-grace-0517",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "thanksgivinng",
-   "level": "ce1",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-action-de-grace-baf1"
+   "level": "cp",
+   "deck": "mots-meles-action-de-grace-0517"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-activites-34c1",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-activites-80af",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "activities",
    "level": "cp",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-activites-34c1"
+   "deck": "mots-meles-activites-80af"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-animaux-b57d",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-animaux-3654",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "animals",
    "level": "cp",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-animaux-b57d"
+   "deck": "mots-meles-animaux-3654"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-animaux-de-compagnie-7899",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-animaux-de-compagnie-644b",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "pets",
    "level": "cp",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-animaux-de-compagnie-7899"
+   "deck": "mots-meles-animaux-de-compagnie-644b"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-animaux-de-la-ferme-a66c",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-animaux-de-la-ferme-2f25",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "farm_animals",
-   "level": "ce1",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-animaux-de-la-ferme-a66c"
+   "level": "cp",
+   "deck": "mots-meles-animaux-de-la-ferme-2f25"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-animaux-du-zoo-dc29",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-animaux-du-zoo-91b0",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "zoo_animals",
    "level": "cp",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-animaux-du-zoo-dc29"
+   "deck": "mots-meles-animaux-du-zoo-91b0"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-arbres-715b",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-arbres-9e41",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "tree",
-   "level": "ce1",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-arbres-715b"
+   "level": "cp",
+   "deck": "mots-meles-arbres-9e41"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-au-supermarche-710a",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-au-supermarche-1cc6",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "at_the_supermarket",
    "level": "cp",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-au-supermarche-710a"
+   "deck": "mots-meles-au-supermarche-1cc6"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-autour-de-la-maison-102e",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-autour-de-la-maison-84c4",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "around_the_house",
-   "level": "ce1",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-autour-de-la-maison-102e"
+   "level": "cp",
+   "deck": "mots-meles-autour-de-la-maison-84c4"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-boulangerie-3d34",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-boulangerie-3419",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "bakery",
    "level": "cp",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-boulangerie-3d34"
+   "deck": "mots-meles-boulangerie-3419"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-bureau-de-poste-1a25",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-bureau-de-poste-6721",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "post_office",
-   "level": "ce1",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-bureau-de-poste-1a25"
+   "level": "cp",
+   "deck": "mots-meles-bureau-de-poste-6721"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-camping-1eef",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-camping-a1de",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "camping",
-   "level": "ce1",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-camping-1eef"
+   "level": "cp",
+   "deck": "mots-meles-camping-a1de"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-choses-qui-volent-45d4",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-choses-qui-volent-47f1",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "things_that_fly",
    "level": "cp",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-choses-qui-volent-45d4"
+   "deck": "mots-meles-choses-qui-volent-47f1"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-couleurs-44ff",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-couleurs-80a8",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "colors",
-   "level": "ce1",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-couleurs-44ff"
+   "level": "cp",
+   "deck": "mots-meles-couleurs-80a8"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-creatures-de-la-foret-f349",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-creatures-de-la-foret-9840",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "forest_creatures",
-   "level": "ce1",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-creatures-de-la-foret-f349"
+   "level": "cp",
+   "deck": "mots-meles-creatures-de-la-foret-9840"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-desserts-et-sucreries-e4c2",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-desserts-et-sucreries-4501",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "desserts_and_sweets",
    "level": "cp",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-desserts-et-sucreries-e4c2"
+   "deck": "mots-meles-desserts-et-sucreries-4501"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-dinosaures-9de6",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
-   "theme": "dinosaurs",
-   "level": "ce1",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-dinosaures-9de6"
-  },
-  {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-emotions-7d7f",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-emotions-87e1",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "emotions",
-   "level": "ce1",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-emotions-7d7f"
+   "level": "cp",
+   "deck": "mots-meles-emotions-87e1"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-espace-9b58",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-espace-3a40",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "space",
    "level": "cp",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-espace-9b58"
+   "deck": "mots-meles-espace-3a40"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-ete-e38a",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-ete-2d8b",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "summer",
-   "level": "ce1",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-ete-e38a"
+   "level": "cp",
+   "deck": "mots-meles-ete-2d8b"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-fleurs-3ae5",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-fleurs-2501",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "flowers",
-   "level": "ce1",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-fleurs-3ae5"
+   "level": "cp",
+   "deck": "mots-meles-fleurs-2501"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-formes-26e2",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-formes-4ce0",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "shapes",
    "level": "cp",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-formes-26e2"
+   "deck": "mots-meles-formes-4ce0"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-fruits-2c08",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-fruits-0d8a",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "fruits",
-   "level": "ce1",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-fruits-2c08"
+   "level": "cp",
+   "deck": "mots-meles-fruits-0d8a"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-hiver-61de",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-hiver-076a",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "winter",
-   "level": "ce1",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-hiver-61de"
+   "level": "cp",
+   "deck": "mots-meles-hiver-076a"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-hopital-e694",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-hopital-b2b8",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "hospital",
-   "level": "ce1",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-hopital-e694"
+   "level": "cp",
+   "deck": "mots-meles-hopital-b2b8"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-insectes-et-bestioles-407e",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-insectes-et-bestioles-4d25",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "insects_and_bugs",
    "level": "cp",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-insectes-et-bestioles-407e"
+   "deck": "mots-meles-insectes-et-bestioles-4d25"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-jouets-273e",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-jouets-5288",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "toys",
-   "level": "ce1",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-jouets-273e"
+   "level": "cp",
+   "deck": "mots-meles-jouets-5288"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-legumes-9a98",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-legumes-bedd",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "vegetables",
-   "level": "ce1",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-legumes-9a98"
+   "level": "cp",
+   "deck": "mots-meles-legumes-bedd"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-meteo-bcad",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-meteo-54a5",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "weather",
    "level": "cp",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-meteo-bcad"
+   "deck": "mots-meles-meteo-54a5"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-metiers-e20e",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-metiers-3ad2",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "occupations",
    "level": "cp",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-metiers-e20e"
+   "deck": "mots-meles-metiers-3ad2"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-meubles-ddd3",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-meubles-28b5",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "furniture",
-   "level": "ce1",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-meubles-ddd3"
+   "level": "cp",
+   "deck": "mots-meles-meubles-28b5"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-musique-b163",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-musique-7b9b",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "music",
    "level": "cp",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-musique-b163"
+   "deck": "mots-meles-musique-7b9b"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-noel-b75b",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-noel-75a1",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "christmas",
-   "level": "ce1",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-noel-b75b"
+   "level": "cp",
+   "deck": "mots-meles-noel-75a1"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-oiseaux-2-5d48",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-oiseaux-2-9a4d",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "birds_2",
    "level": "cp",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-oiseaux-2-5d48"
+   "deck": "mots-meles-oiseaux-2-9a4d"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-oiseaux-53f1",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-oiseaux-f09b",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "birds",
    "level": "cp",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-oiseaux-53f1"
+   "deck": "mots-meles-oiseaux-f09b"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-outils-52d3",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-outils-8648",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "tools",
    "level": "cp",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-outils-52d3"
+   "deck": "mots-meles-outils-8648"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-paques-5921",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-paques-1353",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "easter",
-   "level": "ce1",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-paques-5921"
+   "level": "cp",
+   "deck": "mots-meles-paques-1353"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-parties-du-corps-9ee0",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-parties-du-corps-761d",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "body_parts",
    "level": "cp",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-parties-du-corps-9ee0"
+   "deck": "mots-meles-parties-du-corps-761d"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-petit-dejeuner-f2d7",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-petit-dejeuner-ecf4",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "breakfast",
-   "level": "ce1",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-petit-dejeuner-f2d7"
+   "level": "cp",
+   "deck": "mots-meles-petit-dejeuner-ecf4"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-plage-5c7a",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-plage-4518",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "beach",
    "level": "cp",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-plage-5c7a"
+   "deck": "mots-meles-plage-4518"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-printemps-06eb",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-printemps-2cbc",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "spring",
-   "level": "ce1",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-printemps-06eb"
+   "level": "cp",
+   "deck": "mots-meles-printemps-2cbc"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-reptiles-et-amphibiens-d7f9",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-reptiles-et-amphibiens-8f98",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "reptiles_and_amphibians",
-   "level": "ce1",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-reptiles-et-amphibiens-d7f9"
+   "level": "cp",
+   "deck": "mots-meles-reptiles-et-amphibiens-8f98"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-salle-de-classe-e15e",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-salle-de-classe-b196",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "classroom",
    "level": "cp",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-salle-de-classe-e15e"
+   "deck": "mots-meles-salle-de-classe-b196"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-ustensiles-de-cuisine-1b84",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-ustensiles-de-cuisine-57dd",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "kitchen_tools",
    "level": "cp",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-ustensiles-de-cuisine-1b84"
+   "deck": "mots-meles-ustensiles-de-cuisine-57dd"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-vehicules-a1e2",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-vehicules-b4d6",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "vehicles",
    "level": "cp",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-vehicules-a1e2"
+   "deck": "mots-meles-vehicules-b4d6"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-vetements-4bc3",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-vetements-26c1",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "clothing",
-   "level": "ce1",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-vetements-4bc3"
+   "level": "cp",
+   "deck": "mots-meles-vetements-26c1"
   },
   {
-   "slug": "fiche-de-mathematiques-3-symboles-add-sous-vie-oceanique-8f78",
-   "type": "math-worksheet",
-   "mode": "three-symbols-add-sub",
+   "slug": "mots-meles-vie-oceanique-7d44",
+   "type": "wordsearch",
+   "mode": null,
    "theme": "ocean_life",
-   "level": "ce1",
-   "deck": "fiche-de-mathematiques-3-symboles-add-sous-vie-oceanique-8f78"
+   "level": "cp",
+   "deck": "mots-meles-vie-oceanique-7d44"
   }
  ]
 }

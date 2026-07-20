@@ -2,651 +2,435 @@
  "part": 247,
  "locale": "sv",
  "classes": [
-  "addition::image-image",
-  "addition::image-number"
+  "alphabet-train::null",
+  "telling-time::hour-half-hour",
+  "telling-time::to-five-minutes",
+  "telling-time::to-the-minute",
+  "geometry::count-and-sort-shapes",
+  "geometry::quadrilaterals-and-area",
+  "geometry::shape-attributes",
+  "graphing-data::graphs-and-line-plots",
+  "graphing-data::read-picture-bar-graphs",
+  "graphing-data::scaled-graphs",
+  "measurement::compare-weight",
+  "measurement::length-units",
+  "measurement::measure-and-compare-length",
+  "measurement::volume-and-temperature",
+  "number-charts::hundreds-chart-skip-count",
+  "number-charts::number-patterns",
+  "number-charts::numbers-to-20",
+  "number-charts::skip-count-and-100-more-less"
  ],
  "splitOf": null,
- "count": 80,
+ "count": 51,
  "pages": [
   {
-   "slug": "addition-bild-bild-bageri-e2d9",
-   "type": "addition",
-   "mode": "image-image",
-   "theme": "bakery",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-bageri-e2d9"
+   "slug": "alfabetstaget-aktiviteter-6a95",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "activities",
+   "level": "forskola",
+   "deck": "alfabetstaget-aktiviteter-6a95"
   },
   {
-   "slug": "addition-bild-bild-blommor-eb73",
-   "type": "addition",
-   "mode": "image-image",
-   "theme": "flowers",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-blommor-eb73"
-  },
-  {
-   "slug": "addition-bild-bild-bondgardsdjur-52bc",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "alfabetstaget-bondgardsdjur-81a1",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "farm_animals",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-bondgardsdjur-52bc"
+   "level": "forskola",
+   "deck": "alfabetstaget-bondgardsdjur-81a1"
   },
   {
-   "slug": "addition-bild-bild-camping-75a5",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "alfabetstaget-camping-3282",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "camping",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-camping-75a5"
+   "level": "forskola",
+   "deck": "alfabetstaget-camping-3282"
   },
   {
-   "slug": "addition-bild-bild-dinosaurier-aa85",
-   "type": "addition",
-   "mode": "image-image",
-   "theme": "dinosaurs",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-dinosaurier-aa85"
-  },
-  {
-   "slug": "addition-bild-bild-djur",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "alfabetstaget-djur",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "animals",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-djur"
+   "level": "forskola",
+   "deck": "alfabetstaget-djur"
   },
   {
-   "slug": "addition-bild-bild-djurparksdjur-0e24",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "alfabetstaget-djurparksdjur-053a",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "zoo_animals",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-djurparksdjur-0e24"
+   "level": "forskola",
+   "deck": "alfabetstaget-djurparksdjur-053a"
   },
   {
-   "slug": "addition-bild-bild-efterratter-och-godis-4d05",
-   "type": "addition",
-   "mode": "image-image",
-   "theme": "desserts_and_sweets",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-efterratter-och-godis-4d05"
-  },
-  {
-   "slug": "addition-bild-bild-faglar-2-fe12",
-   "type": "addition",
-   "mode": "image-image",
-   "theme": "birds_2",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-faglar-2-fe12"
-  },
-  {
-   "slug": "addition-bild-bild-faglar-db19",
-   "type": "addition",
-   "mode": "image-image",
-   "theme": "birds",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-faglar-db19"
-  },
-  {
-   "slug": "addition-bild-bild-fordon-ec0d",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "alfabetstaget-fordon-4ec7",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "vehicles",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-fordon-ec0d"
+   "level": "forskola",
+   "deck": "alfabetstaget-fordon-4ec7"
   },
   {
-   "slug": "addition-bild-bild-former-6eb5",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "alfabetstaget-former-bf83",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "shapes",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-former-6eb5"
+   "level": "forskola",
+   "deck": "alfabetstaget-former-bf83"
   },
   {
-   "slug": "addition-bild-bild-frukost-f0c8",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "alfabetstaget-frukost-95e1",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "breakfast",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-frukost-f0c8"
+   "level": "forskola",
+   "deck": "alfabetstaget-frukost-95e1"
   },
   {
-   "slug": "addition-bild-bild-frukter-2df6",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "alfabetstaget-frukter-dac7",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "fruits",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-frukter-2df6"
+   "level": "forskola",
+   "deck": "alfabetstaget-frukter-dac7"
   },
   {
-   "slug": "addition-bild-bild-gronsaker-d9e4",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "alfabetstaget-gronsaker-32ce",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "vegetables",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-gronsaker-d9e4"
+   "level": "forskola",
+   "deck": "alfabetstaget-gronsaker-32ce"
   },
   {
-   "slug": "addition-bild-bild-havsliv-167f",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "alfabetstaget-havsliv-6be9",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "ocean_life",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-havsliv-167f"
+   "level": "forskola",
+   "deck": "alfabetstaget-havsliv-6be9"
   },
   {
-   "slug": "addition-bild-bild-husdjur-4e6c",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "alfabetstaget-husdjur-0984",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "pets",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-husdjur-4e6c"
+   "level": "forskola",
+   "deck": "alfabetstaget-husdjur-0984"
   },
   {
-   "slug": "addition-bild-bild-i-snabbkopet-c339",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "alfabetstaget-i-snabbkopet-c935",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "at_the_supermarket",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-i-snabbkopet-c339"
+   "level": "forskola",
+   "deck": "alfabetstaget-i-snabbkopet-c935"
   },
   {
-   "slug": "addition-bild-bild-insekter-och-kryp-21d1",
-   "type": "addition",
-   "mode": "image-image",
-   "theme": "insects_and_bugs",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-insekter-och-kryp-21d1"
-  },
-  {
-   "slug": "addition-bild-bild-jul-2c69",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "alfabetstaget-jul-2e81",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "christmas",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-jul-2c69"
+   "level": "forskola",
+   "deck": "alfabetstaget-jul-2e81"
   },
   {
-   "slug": "addition-bild-bild-klader-7e2d",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "alfabetstaget-kanslor-b74b",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "emotions",
+   "level": "forskola",
+   "deck": "alfabetstaget-kanslor-b74b"
+  },
+  {
+   "slug": "alfabetstaget-klader-2852",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "clothing",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-klader-7e2d"
+   "level": "forskola",
+   "deck": "alfabetstaget-klader-2852"
   },
   {
-   "slug": "addition-bild-bild-klassrum-766d",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "alfabetstaget-klassrum-ead5",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "classroom",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-klassrum-766d"
+   "level": "forskola",
+   "deck": "alfabetstaget-klassrum-ead5"
   },
   {
-   "slug": "addition-bild-bild-koksredskap-f748",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "alfabetstaget-koksredskap-bb7d",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "kitchen_tools",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-koksredskap-f748"
+   "level": "forskola",
+   "deck": "alfabetstaget-koksredskap-bb7d"
   },
   {
-   "slug": "addition-bild-bild-leksaker-fc64",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "alfabetstaget-kroppsdelar-d1b2",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "forskola",
+   "deck": "alfabetstaget-kroppsdelar-d1b2"
+  },
+  {
+   "slug": "alfabetstaget-leksaker-8109",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "toys",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-leksaker-fc64"
+   "level": "forskola",
+   "deck": "alfabetstaget-leksaker-8109"
   },
   {
-   "slug": "addition-bild-bild-mobler-89e7",
-   "type": "addition",
-   "mode": "image-image",
-   "theme": "furniture",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-mobler-89e7"
-  },
-  {
-   "slug": "addition-bild-bild-musik-39b4",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "alfabetstaget-musik-a436",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "music",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-musik-39b4"
+   "level": "forskola",
+   "deck": "alfabetstaget-musik-a436"
   },
   {
-   "slug": "addition-bild-bild-pask-c04c",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "alfabetstaget-pask-ba52",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "easter",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-pask-c04c"
+   "level": "forskola",
+   "deck": "alfabetstaget-pask-ba52"
   },
   {
-   "slug": "addition-bild-bild-postkontor-ed0c",
-   "type": "addition",
-   "mode": "image-image",
-   "theme": "post_office",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-postkontor-ed0c"
-  },
-  {
-   "slug": "addition-bild-bild-reptiler-och-groddjur-5ad8",
-   "type": "addition",
-   "mode": "image-image",
-   "theme": "reptiles_and_amphibians",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-reptiler-och-groddjur-5ad8"
-  },
-  {
-   "slug": "addition-bild-bild-runt-huset-1755",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "alfabetstaget-runt-huset-7ad3",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "around_the_house",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-runt-huset-1755"
+   "level": "forskola",
+   "deck": "alfabetstaget-runt-huset-7ad3"
   },
   {
-   "slug": "addition-bild-bild-rymden-052a",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "alfabetstaget-rymden-0510",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "space",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-rymden-052a"
+   "level": "forskola",
+   "deck": "alfabetstaget-rymden-0510"
   },
   {
-   "slug": "addition-bild-bild-saker-som-flyger-66d6",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "alfabetstaget-saker-som-flyger-b833",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "things_that_fly",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-saker-som-flyger-66d6"
+   "level": "forskola",
+   "deck": "alfabetstaget-saker-som-flyger-b833"
   },
   {
-   "slug": "addition-bild-bild-sjukhus-cbbb",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "alfabetstaget-sjukhus-b0ec",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "hospital",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-sjukhus-cbbb"
+   "level": "forskola",
+   "deck": "alfabetstaget-sjukhus-b0ec"
   },
   {
-   "slug": "addition-bild-bild-skogsdjur-8ec4",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "alfabetstaget-skogsdjur-3f93",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "forest_creatures",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-skogsdjur-8ec4"
+   "level": "forskola",
+   "deck": "alfabetstaget-skogsdjur-3f93"
   },
   {
-   "slug": "addition-bild-bild-strand-90f2",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "alfabetstaget-sommar-1917",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "summer",
+   "level": "forskola",
+   "deck": "alfabetstaget-sommar-1917"
+  },
+  {
+   "slug": "alfabetstaget-strand-1a78",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "beach",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-strand-90f2"
+   "level": "forskola",
+   "deck": "alfabetstaget-strand-1a78"
   },
   {
-   "slug": "addition-bild-bild-thanksgiving-f428",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "alfabetstaget-thanksgiving-47f8",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "thanksgivinng",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-thanksgiving-f428"
+   "level": "forskola",
+   "deck": "alfabetstaget-thanksgiving-47f8"
   },
   {
-   "slug": "addition-bild-bild-tillbehor-9f47",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "alfabetstaget-tillbehor-b64e",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "accessories",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-tillbehor-9f47"
+   "level": "forskola",
+   "deck": "alfabetstaget-tillbehor-b64e"
   },
   {
-   "slug": "addition-bild-bild-trad-e39b",
-   "type": "addition",
-   "mode": "image-image",
-   "theme": "tree",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-trad-e39b"
+   "slug": "alfabetstaget-vader-6519",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "weather",
+   "level": "forskola",
+   "deck": "alfabetstaget-vader-6519"
   },
   {
-   "slug": "addition-bild-bild-verktyg-f52f",
-   "type": "addition",
-   "mode": "image-image",
-   "theme": "tools",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-verktyg-f52f"
+   "slug": "alfabetstaget-var-dbc8",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "spring",
+   "level": "forskola",
+   "deck": "alfabetstaget-var-dbc8"
   },
   {
-   "slug": "addition-bild-bild-yrken-fdcb",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "alfabetstaget-yrken-a007",
+   "type": "alphabet-train",
+   "mode": null,
    "theme": "occupations",
-   "level": "ak-1",
-   "deck": "addition-bild-bild-yrken-fdcb"
+   "level": "forskola",
+   "deck": "alfabetstaget-yrken-a007"
   },
   {
-   "slug": "addition-bild-nummer-bageri-7dfd",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "bakery",
+   "slug": "klockan-arbetsblad-ak-1",
+   "type": "telling-time",
+   "mode": "hour-half-hour",
+   "theme": "",
    "level": "ak-1",
-   "deck": "addition-bild-nummer-bageri-7dfd"
+   "deck": "klockan-g1148"
   },
   {
-   "slug": "addition-bild-nummer-blommor-265c",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "flowers",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-blommor-265c"
+   "slug": "klockan-fem-minuter-ak-2",
+   "type": "telling-time",
+   "mode": "to-five-minutes",
+   "theme": "",
+   "level": "ak-2",
+   "deck": "klockan-g2249"
   },
   {
-   "slug": "addition-bild-nummer-bondgardsdjur-bdb4",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "farm_animals",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-bondgardsdjur-bdb4"
+   "slug": "klockan-tidsskillnad-ak-3",
+   "type": "telling-time",
+   "mode": "to-the-minute",
+   "theme": "",
+   "level": "ak-3",
+   "deck": "klockan-g3344"
   },
   {
-   "slug": "addition-bild-nummer-camping-8900",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "camping",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-camping-8900"
+   "slug": "geometri-former-forskola",
+   "type": "geometry",
+   "mode": "count-and-sort-shapes",
+   "theme": "",
+   "level": "forskola",
+   "deck": "geometri-k075"
   },
   {
-   "slug": "addition-bild-nummer-dinosaurier-c237",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "dinosaurs",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-dinosaurier-c237"
+   "slug": "geometri-omkrets-area-ak-3",
+   "type": "geometry",
+   "mode": "quadrilaterals-and-area",
+   "theme": "",
+   "level": "ak-3",
+   "deck": "geometri-g3337"
   },
   {
-   "slug": "addition-bild-nummer-djur-7cd1",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "animals",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-djur-7cd1"
+   "slug": "geometri-kroppar-ak-2",
+   "type": "geometry",
+   "mode": "shape-attributes",
+   "theme": "",
+   "level": "ak-2",
+   "deck": "geometri-g2241"
   },
   {
-   "slug": "addition-bild-nummer-djurparksdjur-4dd4",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "zoo_animals",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-djurparksdjur-4dd4"
+   "slug": "diagram-ak-2",
+   "type": "graphing-data",
+   "mode": "graphs-and-line-plots",
+   "theme": "",
+   "level": "ak-2",
+   "deck": "diagram-djur-g2237"
   },
   {
-   "slug": "addition-bild-nummer-efterratter-och-godis-3b1c",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "desserts_and_sweets",
+   "slug": "diagram-ak-1",
+   "type": "graphing-data",
+   "mode": "read-picture-bar-graphs",
+   "theme": "",
    "level": "ak-1",
-   "deck": "addition-bild-nummer-efterratter-och-godis-3b1c"
+   "deck": "diagram-djur-g1144"
   },
   {
-   "slug": "addition-bild-nummer-faglar-14e3",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "birds",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-faglar-14e3"
+   "slug": "diagram-ak-3",
+   "type": "graphing-data",
+   "mode": "scaled-graphs",
+   "theme": "",
+   "level": "ak-3",
+   "deck": "diagram-djur-g3335"
   },
   {
-   "slug": "addition-bild-nummer-faglar-2-5b59",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "birds_2",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-faglar-2-5b59"
+   "slug": "jamfora-vikt-tung-eller-latt-forskola",
+   "type": "measurement",
+   "mode": "compare-weight",
+   "theme": "",
+   "level": "forskola",
+   "deck": "matning-djur-k038"
   },
   {
-   "slug": "addition-bild-nummer-fordon-6cb1",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "vehicles",
+   "slug": "mata-langd-med-enheter-ak-1",
+   "type": "measurement",
+   "mode": "length-units",
+   "theme": "",
    "level": "ak-1",
-   "deck": "addition-bild-nummer-fordon-6cb1"
+   "deck": "matning-djur-g1139"
   },
   {
-   "slug": "addition-bild-nummer-former-5b5f",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "shapes",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-former-5b5f"
+   "slug": "mata-med-linjal-jamfora-langder-ak-2",
+   "type": "measurement",
+   "mode": "measure-and-compare-length",
+   "theme": "",
+   "level": "ak-2",
+   "deck": "matning-fordon-g2236"
   },
   {
-   "slug": "addition-bild-nummer-frukost-2081",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "breakfast",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-frukost-2081"
+   "slug": "temperatur-och-volym-jamfora-ak-3",
+   "type": "measurement",
+   "mode": "volume-and-temperature",
+   "theme": "",
+   "level": "ak-3",
+   "deck": "matning-g3345"
   },
   {
-   "slug": "addition-bild-nummer-frukter-58ce",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "fruits",
+   "slug": "hundraruta-ak-1",
+   "type": "number-charts",
+   "mode": "hundreds-chart-skip-count",
+   "theme": "",
    "level": "ak-1",
-   "deck": "addition-bild-nummer-frukter-58ce"
+   "deck": "hundraruta-g1130"
   },
   {
-   "slug": "addition-bild-nummer-gronsaker-2b46",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "vegetables",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-gronsaker-2b46"
+   "slug": "talfoljder-ak-3",
+   "type": "number-charts",
+   "mode": "number-patterns",
+   "theme": "",
+   "level": "ak-3",
+   "deck": "hundraruta-g3328"
   },
   {
-   "slug": "addition-bild-nummer-havsliv-bdd5",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "ocean_life",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-havsliv-bdd5"
+   "slug": "tal-som-saknas-forskola",
+   "type": "number-charts",
+   "mode": "numbers-to-20",
+   "theme": "",
+   "level": "forskola",
+   "deck": "hundraruta-k021"
   },
   {
-   "slug": "addition-bild-nummer-husdjur-f8b5",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "pets",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-husdjur-f8b5"
-  },
-  {
-   "slug": "addition-bild-nummer-i-snabbkopet-3340",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "at_the_supermarket",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-i-snabbkopet-3340"
-  },
-  {
-   "slug": "addition-bild-nummer-insekter-och-kryp-0d44",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "insects_and_bugs",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-insekter-och-kryp-0d44"
-  },
-  {
-   "slug": "addition-bild-nummer-jul-9ff9",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "christmas",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-jul-9ff9"
-  },
-  {
-   "slug": "addition-bild-nummer-klader-a1e2",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "clothing",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-klader-a1e2"
-  },
-  {
-   "slug": "addition-bild-nummer-klassrum-0720",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "classroom",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-klassrum-0720"
-  },
-  {
-   "slug": "addition-bild-nummer-koksredskap-7eee",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "kitchen_tools",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-koksredskap-7eee"
-  },
-  {
-   "slug": "addition-bild-nummer-leksaker-6c14",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "toys",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-leksaker-6c14"
-  },
-  {
-   "slug": "addition-bild-nummer-mobler-4ed5",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "furniture",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-mobler-4ed5"
-  },
-  {
-   "slug": "addition-bild-nummer-musik-366a",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "music",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-musik-366a"
-  },
-  {
-   "slug": "addition-bild-nummer-pask-a32b",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "easter",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-pask-a32b"
-  },
-  {
-   "slug": "addition-bild-nummer-postkontor-19e0",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "post_office",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-postkontor-19e0"
-  },
-  {
-   "slug": "addition-bild-nummer-reptiler-och-groddjur-5fb7",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "reptiles_and_amphibians",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-reptiler-och-groddjur-5fb7"
-  },
-  {
-   "slug": "addition-bild-nummer-runt-huset-55bb",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "around_the_house",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-runt-huset-55bb"
-  },
-  {
-   "slug": "addition-bild-nummer-rymden-bbb7",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "space",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-rymden-bbb7"
-  },
-  {
-   "slug": "addition-bild-nummer-saker-som-flyger-78d5",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "things_that_fly",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-saker-som-flyger-78d5"
-  },
-  {
-   "slug": "addition-bild-nummer-sjukhus-963a",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "hospital",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-sjukhus-963a"
-  },
-  {
-   "slug": "addition-bild-nummer-skogsdjur-8345",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "forest_creatures",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-skogsdjur-8345"
-  },
-  {
-   "slug": "addition-bild-nummer-strand-ac63",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "beach",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-strand-ac63"
-  },
-  {
-   "slug": "addition-bild-nummer-thanksgiving-006c",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "thanksgivinng",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-thanksgiving-006c"
-  },
-  {
-   "slug": "addition-bild-nummer-tillbehor-35b0",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "accessories",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-tillbehor-35b0"
-  },
-  {
-   "slug": "addition-bild-nummer-trad-8313",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "tree",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-trad-8313"
-  },
-  {
-   "slug": "addition-bild-nummer-verktyg-b505",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "tools",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-verktyg-b505"
-  },
-  {
-   "slug": "addition-bild-nummer-yrken-f15c",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "occupations",
-   "level": "ak-1",
-   "deck": "addition-bild-nummer-yrken-f15c"
+   "slug": "hundraruta-ak-2",
+   "type": "number-charts",
+   "mode": "skip-count-and-100-more-less",
+   "theme": "",
+   "level": "ak-2",
+   "deck": "hundraruta-g2218"
   }
  ]
 }

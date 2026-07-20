@@ -1,584 +1,764 @@
 {
  "part": 256,
- "locale": "da",
+ "locale": "sv",
  "classes": [
-  "picture-sort::null"
+  "odd-one-out::same-theme",
+  "shadow-match::make-whole"
  ],
- "splitOf": {
-  "class": "picture-sort::null",
-  "total": 211,
-  "chunk": 1,
-  "chunks": 3
- },
- "count": 71,
+ "splitOf": null,
+ "count": 94,
  "pages": [
   {
-   "slug": "sorter-billeder-4th-of-july-vs-animals-16cd",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "4th_of_july-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-4th-of-july-vs-animals-16cd"
-  },
-  {
-   "slug": "sorter-billeder-4th-of-july-vs-bakery-d903",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "4th_of_july-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-4th-of-july-vs-bakery-d903"
-  },
-  {
-   "slug": "sorter-billeder-4th-of-july-vs-dinosaurs-247f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "4th_of_july-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-4th-of-july-vs-dinosaurs-247f"
-  },
-  {
-   "slug": "sorter-billeder-4th-of-july-vs-flowers-18ff",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "4th_of_july-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-4th-of-july-vs-flowers-18ff"
-  },
-  {
-   "slug": "sorter-billeder-4th-of-july-vs-vehicles-a4cb",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "4th_of_july-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-4th-of-july-vs-vehicles-a4cb"
-  },
-  {
-   "slug": "sorter-billeder-accessories-vs-animals-b588",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-accessories-vs-animals-b588"
-  },
-  {
-   "slug": "sorter-billeder-accessories-vs-bakery-6d23",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-accessories-vs-bakery-6d23"
-  },
-  {
-   "slug": "sorter-billeder-accessories-vs-dinosaurs-1f40",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-accessories-vs-dinosaurs-1f40"
-  },
-  {
-   "slug": "sorter-billeder-accessories-vs-flowers-c8b4",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-accessories-vs-flowers-c8b4"
-  },
-  {
-   "slug": "sorter-billeder-accessories-vs-vehicles-1bc6",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-accessories-vs-vehicles-1bc6"
-  },
-  {
-   "slug": "sorter-billeder-activities-vs-animals-40d3",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "activities-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-activities-vs-animals-40d3"
-  },
-  {
-   "slug": "sorter-billeder-activities-vs-bakery-97cd",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "activities-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-activities-vs-bakery-97cd"
-  },
-  {
-   "slug": "sorter-billeder-activities-vs-dinosaurs-2ec9",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "activities-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-activities-vs-dinosaurs-2ec9"
+   "slug": "vilken-passar-inte-samma-tema-aktiviteter-41a4",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "activities",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-aktiviteter-41a4"
+  },
+  {
+   "slug": "vilken-passar-inte-samma-tema-bageri-a179",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "bakery",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-bageri-a179"
+  },
+  {
+   "slug": "vilken-passar-inte-samma-tema-blommor-0ad3",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "flowers",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-blommor-0ad3"
+  },
+  {
+   "slug": "vilken-passar-inte-samma-tema-bondgardsdjur-8751",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "farm_animals",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-bondgardsdjur-8751"
+  },
+  {
+   "slug": "vilken-passar-inte-samma-tema-camping-c976",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "camping",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-camping-c976"
+  },
+  {
+   "slug": "vilken-passar-inte-samma-tema-dinosaurier-c40b",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "dinosaurs",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-dinosaurier-c40b"
+  },
+  {
+   "slug": "vilken-passar-inte-samma-tema-djur",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "animals",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-djur"
+  },
+  {
+   "slug": "vilken-passar-inte-samma-tema-djurparksdjur-cfe2",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "zoo_animals",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-djurparksdjur-cfe2"
+  },
+  {
+   "slug": "vilken-passar-inte-samma-tema-efterratter-och-godis-c90b",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "desserts_and_sweets",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-efterratter-och-godis-c90b"
+  },
+  {
+   "slug": "vilken-passar-inte-samma-tema-faglar-2-8720",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "birds_2",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-faglar-2-8720"
+  },
+  {
+   "slug": "vilken-passar-inte-samma-tema-faglar-f11d",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "birds",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-faglar-f11d"
+  },
+  {
+   "slug": "vilken-passar-inte-samma-tema-farger-7d94",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "colors",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-farger-7d94"
+  },
+  {
+   "slug": "vilken-passar-inte-samma-tema-fordon-f84b",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "vehicles",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-fordon-f84b"
   },
   {
-   "slug": "sorter-billeder-activities-vs-flowers-b512",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "activities-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-activities-vs-flowers-b512"
+   "slug": "vilken-passar-inte-samma-tema-former-7b5b",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "shapes",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-former-7b5b"
   },
   {
-   "slug": "sorter-billeder-activities-vs-vehicles-4b11",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "activities-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-activities-vs-vehicles-4b11"
+   "slug": "vilken-passar-inte-samma-tema-frukost-c09a",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "breakfast",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-frukost-c09a"
   },
   {
-   "slug": "sorter-billeder-animals-vs-bakery-cdc6",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-animals-vs-bakery-cdc6"
+   "slug": "vilken-passar-inte-samma-tema-frukter-5482",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "fruits",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-frukter-5482"
   },
   {
-   "slug": "sorter-billeder-animals-vs-dinosaurs-5bf6",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-animals-vs-dinosaurs-5bf6"
+   "slug": "vilken-passar-inte-samma-tema-gronsaker-b213",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "vegetables",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-gronsaker-b213"
   },
   {
-   "slug": "sorter-billeder-animals-vs-flowers-387e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-animals-vs-flowers-387e"
+   "slug": "vilken-passar-inte-samma-tema-havsliv-51fe",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "ocean_life",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-havsliv-51fe"
   },
   {
-   "slug": "sorter-billeder-animals-vs-vehicles-39c3",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-animals-vs-vehicles-39c3"
+   "slug": "vilken-passar-inte-samma-tema-husdjur-8824",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "pets",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-husdjur-8824"
   },
   {
-   "slug": "sorter-billeder-around-the-house-vs-animals-8405",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "around_the_house-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-around-the-house-vs-animals-8405"
+   "slug": "vilken-passar-inte-samma-tema-i-snabbkopet-e01b",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "at_the_supermarket",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-i-snabbkopet-e01b"
   },
   {
-   "slug": "sorter-billeder-around-the-house-vs-bakery-7150",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "around_the_house-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-around-the-house-vs-bakery-7150"
+   "slug": "vilken-passar-inte-samma-tema-insekter-och-kryp-36ef",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "insects_and_bugs",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-insekter-och-kryp-36ef"
   },
   {
-   "slug": "sorter-billeder-around-the-house-vs-flowers-cb4e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "around_the_house-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-around-the-house-vs-flowers-cb4e"
+   "slug": "vilken-passar-inte-samma-tema-jul-e1d7",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "christmas",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-jul-e1d7"
   },
   {
-   "slug": "sorter-billeder-at-the-supermarket-vs-animals-834c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "at_the_supermarket-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-at-the-supermarket-vs-animals-834c"
+   "slug": "vilken-passar-inte-samma-tema-kanslor-2ae0",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "emotions",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-kanslor-2ae0"
   },
   {
-   "slug": "sorter-billeder-at-the-supermarket-vs-bakery-1617",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "at_the_supermarket-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-at-the-supermarket-vs-bakery-1617"
+   "slug": "vilken-passar-inte-samma-tema-klader-bc53",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "clothing",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-klader-bc53"
   },
   {
-   "slug": "sorter-billeder-at-the-supermarket-vs-dinosaurs-1a48",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "at_the_supermarket-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-at-the-supermarket-vs-dinosaurs-1a48"
+   "slug": "vilken-passar-inte-samma-tema-klassrum-b6b2",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "classroom",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-klassrum-b6b2"
   },
   {
-   "slug": "sorter-billeder-at-the-supermarket-vs-flowers-8a48",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "at_the_supermarket-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-at-the-supermarket-vs-flowers-8a48"
+   "slug": "vilken-passar-inte-samma-tema-koksredskap-2c4d",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "kitchen_tools",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-koksredskap-2c4d"
   },
   {
-   "slug": "sorter-billeder-at-the-supermarket-vs-vehicles-8d71",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "at_the_supermarket-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-at-the-supermarket-vs-vehicles-8d71"
+   "slug": "vilken-passar-inte-samma-tema-kroppsdelar-32fd",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "body_parts",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-kroppsdelar-32fd"
   },
   {
-   "slug": "sorter-billeder-bakery-vs-animals-89c0",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-bakery-vs-animals-89c0"
+   "slug": "vilken-passar-inte-samma-tema-leksaker-97d9",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "toys",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-leksaker-97d9"
   },
   {
-   "slug": "sorter-billeder-bakery-vs-dinosaurs-6080",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-bakery-vs-dinosaurs-6080"
+   "slug": "vilken-passar-inte-samma-tema-mobler-971b",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "furniture",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-mobler-971b"
   },
   {
-   "slug": "sorter-billeder-bakery-vs-flowers-b0d3",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-bakery-vs-flowers-b0d3"
+   "slug": "vilken-passar-inte-samma-tema-musik-df88",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "music",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-musik-df88"
   },
   {
-   "slug": "sorter-billeder-bakery-vs-vehicles-74ab",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "bakery-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-bakery-vs-vehicles-74ab"
+   "slug": "vilken-passar-inte-samma-tema-pask-e8dc",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "easter",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-pask-e8dc"
   },
   {
-   "slug": "sorter-billeder-beach-vs-animals-ad45",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "beach-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-beach-vs-animals-ad45"
+   "slug": "vilken-passar-inte-samma-tema-postkontor-b636",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "post_office",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-postkontor-b636"
   },
   {
-   "slug": "sorter-billeder-beach-vs-bakery-9b0e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "beach-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-beach-vs-bakery-9b0e"
+   "slug": "vilken-passar-inte-samma-tema-runt-huset-f0b2",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "around_the_house",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-runt-huset-f0b2"
   },
   {
-   "slug": "sorter-billeder-beach-vs-dinosaurs-5b6c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "beach-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-beach-vs-dinosaurs-5b6c"
+   "slug": "vilken-passar-inte-samma-tema-rymden-63f8",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "space",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-rymden-63f8"
   },
   {
-   "slug": "sorter-billeder-beach-vs-flowers-d956",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "beach-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-beach-vs-flowers-d956"
+   "slug": "vilken-passar-inte-samma-tema-saker-som-flyger-e263",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "things_that_fly",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-saker-som-flyger-e263"
   },
   {
-   "slug": "sorter-billeder-beach-vs-vehicles-412a",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "beach-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-beach-vs-vehicles-412a"
+   "slug": "vilken-passar-inte-samma-tema-sjukhus-88a7",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "hospital",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-sjukhus-88a7"
   },
   {
-   "slug": "sorter-billeder-birds-2-vs-bakery-2c74",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "birds_2-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-birds-2-vs-bakery-2c74"
+   "slug": "vilken-passar-inte-samma-tema-skogsdjur-9195",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "forest_creatures",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-skogsdjur-9195"
   },
   {
-   "slug": "sorter-billeder-birds-2-vs-flowers-8c40",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "birds_2-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-birds-2-vs-flowers-8c40"
+   "slug": "vilken-passar-inte-samma-tema-sommar-4af6",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "summer",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-sommar-4af6"
   },
   {
-   "slug": "sorter-billeder-birds-vs-bakery-8a46",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "birds-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-birds-vs-bakery-8a46"
+   "slug": "vilken-passar-inte-samma-tema-strand-ea97",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "beach",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-strand-ea97"
   },
   {
-   "slug": "sorter-billeder-birds-vs-dinosaurs-280b",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "birds-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-birds-vs-dinosaurs-280b"
+   "slug": "vilken-passar-inte-samma-tema-thanksgiving-0da4",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "thanksgivinng",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-thanksgiving-0da4"
   },
   {
-   "slug": "sorter-billeder-birds-vs-flowers-5d7f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "birds-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-birds-vs-flowers-5d7f"
+   "slug": "vilken-passar-inte-samma-tema-tillbehor-77ae",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "accessories",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-tillbehor-77ae"
   },
   {
-   "slug": "sorter-billeder-birds-vs-vehicles-ced6",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "birds-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-birds-vs-vehicles-ced6"
+   "slug": "vilken-passar-inte-samma-tema-trad-08d5",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "tree",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-trad-08d5"
   },
   {
-   "slug": "sorter-billeder-body-parts-vs-animals-e291",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "body_parts-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-body-parts-vs-animals-e291"
+   "slug": "vilken-passar-inte-samma-tema-vader-5e03",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "weather",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-vader-5e03"
   },
   {
-   "slug": "sorter-billeder-body-parts-vs-bakery-9ae3",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "body_parts-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-body-parts-vs-bakery-9ae3"
+   "slug": "vilken-passar-inte-samma-tema-var-f141",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "spring",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-var-f141"
   },
   {
-   "slug": "sorter-billeder-body-parts-vs-dinosaurs-7ccd",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "body_parts-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-body-parts-vs-dinosaurs-7ccd"
+   "slug": "vilken-passar-inte-samma-tema-verktyg-af58",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "tools",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-verktyg-af58"
   },
   {
-   "slug": "sorter-billeder-body-parts-vs-flowers-822c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "body_parts-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-body-parts-vs-flowers-822c"
+   "slug": "vilken-passar-inte-samma-tema-vinter-1fdc",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "winter",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-vinter-1fdc"
   },
   {
-   "slug": "sorter-billeder-body-parts-vs-vehicles-173a",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "body_parts-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-body-parts-vs-vehicles-173a"
+   "slug": "vilken-passar-inte-samma-tema-yrken-e213",
+   "type": "odd-one-out",
+   "mode": "same-theme",
+   "theme": "occupations",
+   "level": "forskola",
+   "deck": "vilken-passar-inte-samma-tema-yrken-e213"
   },
   {
-   "slug": "sorter-billeder-breakfast-vs-animals-1f97",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "breakfast-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-breakfast-vs-animals-1f97"
+   "slug": "matcha-skuggor-gor-hel-aktiviteter-f728",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "activities",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-aktiviteter-f728"
   },
   {
-   "slug": "sorter-billeder-breakfast-vs-dinosaurs-8302",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "breakfast-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-breakfast-vs-dinosaurs-8302"
+   "slug": "matcha-skuggor-gor-hel-bageri-091a",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "bakery",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-bageri-091a"
   },
   {
-   "slug": "sorter-billeder-breakfast-vs-flowers-9020",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "breakfast-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-breakfast-vs-flowers-9020"
+   "slug": "matcha-skuggor-gor-hel-blommor-6a84",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "flowers",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-blommor-6a84"
   },
   {
-   "slug": "sorter-billeder-breakfast-vs-vehicles-bb04",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "breakfast-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-breakfast-vs-vehicles-bb04"
+   "slug": "matcha-skuggor-gor-hel-bondgardsdjur-1d57",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "farm_animals",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-bondgardsdjur-1d57"
   },
   {
-   "slug": "sorter-billeder-camping-vs-bakery-a3f4",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-camping-vs-bakery-a3f4"
+   "slug": "matcha-skuggor-gor-hel-camping-682a",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "camping",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-camping-682a"
   },
   {
-   "slug": "sorter-billeder-camping-vs-dinosaurs-2701",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-camping-vs-dinosaurs-2701"
+   "slug": "matcha-skuggor-gor-hel-dinosaurier-b04c",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "dinosaurs",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-dinosaurier-b04c"
   },
   {
-   "slug": "sorter-billeder-camping-vs-flowers-fb08",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-camping-vs-flowers-fb08"
+   "slug": "matcha-skuggor-gor-hel-djur-4ea4",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "animals",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-djur-4ea4"
   },
   {
-   "slug": "sorter-billeder-camping-vs-vehicles-39d6",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "camping-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-camping-vs-vehicles-39d6"
+   "slug": "matcha-skuggor-gor-hel-djurparksdjur-3837",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "zoo_animals",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-djurparksdjur-3837"
   },
   {
-   "slug": "sorter-billeder-christmas-vs-animals-3b3a",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "christmas-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-christmas-vs-animals-3b3a"
+   "slug": "matcha-skuggor-gor-hel-efterratter-och-godis-10da",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "desserts_and_sweets",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-efterratter-och-godis-10da"
   },
   {
-   "slug": "sorter-billeder-christmas-vs-bakery-1a15",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "christmas-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-christmas-vs-bakery-1a15"
+   "slug": "matcha-skuggor-gor-hel-faglar-2-a242",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "birds_2",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-faglar-2-a242"
   },
   {
-   "slug": "sorter-billeder-christmas-vs-dinosaurs-d352",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "christmas-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-christmas-vs-dinosaurs-d352"
+   "slug": "matcha-skuggor-gor-hel-faglar-a161",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "birds",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-faglar-a161"
   },
   {
-   "slug": "sorter-billeder-christmas-vs-flowers-b7f4",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "christmas-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-christmas-vs-flowers-b7f4"
-  },
-  {
-   "slug": "sorter-billeder-christmas-vs-vehicles-883c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "christmas-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-christmas-vs-vehicles-883c"
-  },
-  {
-   "slug": "sorter-billeder-classroom-vs-animals-3eb3",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "classroom-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-classroom-vs-animals-3eb3"
-  },
-  {
-   "slug": "sorter-billeder-classroom-vs-bakery-cd69",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "classroom-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-classroom-vs-bakery-cd69"
-  },
-  {
-   "slug": "sorter-billeder-classroom-vs-dinosaurs-eb9b",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "classroom-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-classroom-vs-dinosaurs-eb9b"
-  },
-  {
-   "slug": "sorter-billeder-classroom-vs-flowers-bf98",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "classroom-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-classroom-vs-flowers-bf98"
-  },
-  {
-   "slug": "sorter-billeder-classroom-vs-vehicles-1dec",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "classroom-vs-vehicles",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-classroom-vs-vehicles-1dec"
-  },
-  {
-   "slug": "sorter-billeder-clothing-vs-animals-20d0",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "clothing-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-clothing-vs-animals-20d0"
-  },
-  {
-   "slug": "sorter-billeder-clothing-vs-bakery-49ce",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "clothing-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-clothing-vs-bakery-49ce"
-  },
-  {
-   "slug": "sorter-billeder-clothing-vs-dinosaurs-259f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "clothing-vs-dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-clothing-vs-dinosaurs-259f"
-  },
-  {
-   "slug": "sorter-billeder-clothing-vs-flowers-b640",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "clothing-vs-flowers",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-clothing-vs-flowers-b640"
-  },
-  {
-   "slug": "sorter-billeder-colors-vs-animals-5291",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "colors-vs-animals",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-colors-vs-animals-5291"
-  },
-  {
-   "slug": "sorter-billeder-colors-vs-bakery-84ba",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "colors-vs-bakery",
-   "level": "boernehaveklasse",
-   "deck": "sorter-billeder-colors-vs-bakery-84ba"
+   "slug": "matcha-skuggor-gor-hel-fordon-39e5",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "vehicles",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-fordon-39e5"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-former-84c3",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "shapes",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-former-84c3"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-frukost-45d9",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "breakfast",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-frukost-45d9"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-frukter-6955",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "fruits",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-frukter-6955"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-gronsaker-8fd7",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "vegetables",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-gronsaker-8fd7"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-havsliv-d745",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "ocean_life",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-havsliv-d745"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-husdjur-f69e",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "pets",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-husdjur-f69e"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-i-snabbkopet-29e0",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "at_the_supermarket",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-i-snabbkopet-29e0"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-insekter-och-kryp-38a1",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "insects_and_bugs",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-insekter-och-kryp-38a1"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-jul-1302",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "christmas",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-jul-1302"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-kanslor-e568",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "emotions",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-kanslor-e568"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-klader-494b",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "clothing",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-klader-494b"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-klassrum-51ca",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "classroom",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-klassrum-51ca"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-koksredskap-4377",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "kitchen_tools",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-koksredskap-4377"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-kroppsdelar-52b7",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "body_parts",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-kroppsdelar-52b7"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-leksaker-bd76",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "toys",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-leksaker-bd76"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-mobler-b90a",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "furniture",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-mobler-b90a"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-musik-dc68",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "music",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-musik-dc68"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-pask-b0f5",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "easter",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-pask-b0f5"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-postkontor-09ca",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "post_office",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-postkontor-09ca"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-reptiler-och-groddjur-e02e",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "reptiles_and_amphibians",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-reptiler-och-groddjur-e02e"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-runt-huset-73d5",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "around_the_house",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-runt-huset-73d5"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-rymden-2f83",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "space",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-rymden-2f83"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-saker-som-flyger-fd78",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "things_that_fly",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-saker-som-flyger-fd78"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-sjukhus-242c",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "hospital",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-sjukhus-242c"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-skogsdjur-27a7",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "forest_creatures",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-skogsdjur-27a7"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-sommar-e86c",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "summer",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-sommar-e86c"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-strand-2b56",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "beach",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-strand-2b56"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-thanksgiving-295d",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "thanksgivinng",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-thanksgiving-295d"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-tillbehor-5972",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "accessories",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-tillbehor-5972"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-trad-fac0",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "tree",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-trad-fac0"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-vader-cd69",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "weather",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-vader-cd69"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-var-bec9",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "spring",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-var-bec9"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-verktyg-6f8e",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "tools",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-verktyg-6f8e"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-vinter-ab69",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "winter",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-vinter-ab69"
+  },
+  {
+   "slug": "matcha-skuggor-gor-hel-yrken-61b3",
+   "type": "shadow-match",
+   "mode": "make-whole",
+   "theme": "occupations",
+   "level": "forskola",
+   "deck": "matcha-skuggor-gor-hel-yrken-61b3"
   }
  ]
 }

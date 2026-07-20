@@ -2,651 +2,771 @@
  "part": 218,
  "locale": "nl",
  "classes": [
-  "big-small::orderAsc",
-  "math-puzzle::addition"
+  "find-objects::find-odd",
+  "find-objects::i-spy"
  ],
  "splitOf": null,
- "count": 80,
+ "count": 95,
  "pages": [
   {
-   "slug": "groot-klein-oplopende-volgorde-accessoires-473a",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-accessoires-57da",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "accessories",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-accessoires-473a"
+   "deck": "objecten-zoeken-vind-de-andere-accessoires-57da"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-bakkerij-2f54",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-activiteiten-54f5",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "activities",
+   "level": "kleuters",
+   "deck": "objecten-zoeken-vind-de-andere-activiteiten-54f5"
+  },
+  {
+   "slug": "objecten-zoeken-vind-de-andere-bakkerij-4aee",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "bakery",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-bakkerij-2f54"
+   "deck": "objecten-zoeken-vind-de-andere-bakkerij-4aee"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-beroepen-5bb0",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-beroepen-7368",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "occupations",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-beroepen-5bb0"
+   "deck": "objecten-zoeken-vind-de-andere-beroepen-7368"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-bloemen-2430",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-bloemen-858b",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "flowers",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-bloemen-2430"
+   "deck": "objecten-zoeken-vind-de-andere-bloemen-858b"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-boerderijdieren-8024",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-boerderijdieren-82b7",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "farm_animals",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-boerderijdieren-8024"
+   "deck": "objecten-zoeken-vind-de-andere-boerderijdieren-82b7"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-bomen-5778",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-bomen-5384",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "tree",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-bomen-5778"
+   "deck": "objecten-zoeken-vind-de-andere-bomen-5384"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-boswezens-7282",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-boswezens-adb3",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "forest_creatures",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-boswezens-7282"
+   "deck": "objecten-zoeken-vind-de-andere-boswezens-adb3"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-desserts-en-snoep-6a45",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-desserts-en-snoep-04d7",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "desserts_and_sweets",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-desserts-en-snoep-6a45"
+   "deck": "objecten-zoeken-vind-de-andere-desserts-en-snoep-04d7"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-dieren-8de3",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-dieren-bfe3",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "animals",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-dieren-8de3"
+   "deck": "objecten-zoeken-vind-de-andere-dieren-bfe3"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-dierentuindieren-f7de",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-dierentuindieren-b060",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "zoo_animals",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-dierentuindieren-f7de"
+   "deck": "objecten-zoeken-vind-de-andere-dierentuindieren-b060"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-dingen-die-vliegen-07a7",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-dingen-die-vliegen-168d",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "things_that_fly",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-dingen-die-vliegen-07a7"
+   "deck": "objecten-zoeken-vind-de-andere-dingen-die-vliegen-168d"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-dinosaurussen-6681",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-dinosaurussen-bfe5",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "dinosaurs",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-dinosaurussen-6681"
+   "deck": "objecten-zoeken-vind-de-andere-dinosaurussen-bfe5"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-fruit-76c8",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-emoties-faee",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "emotions",
+   "level": "kleuters",
+   "deck": "objecten-zoeken-vind-de-andere-emoties-faee"
+  },
+  {
+   "slug": "objecten-zoeken-vind-de-andere-fruit-5744",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "fruits",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-fruit-76c8"
+   "deck": "objecten-zoeken-vind-de-andere-fruit-5744"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-gereedschap-9cef",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-gereedschap-3294",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "tools",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-gereedschap-9cef"
+   "deck": "objecten-zoeken-vind-de-andere-gereedschap-3294"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-groenten-f64b",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-groenten-c92a",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "vegetables",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-groenten-f64b"
+   "deck": "objecten-zoeken-vind-de-andere-groenten-c92a"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-huisdieren-b94a",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-huisdieren-83a2",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "pets",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-huisdieren-b94a"
+   "deck": "objecten-zoeken-vind-de-andere-huisdieren-83a2"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-in-de-supermarkt-3714",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-in-de-supermarkt-61e8",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "at_the_supermarket",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-in-de-supermarkt-3714"
+   "deck": "objecten-zoeken-vind-de-andere-in-de-supermarkt-61e8"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-insecten-en-beestjes-9363",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-insecten-en-beestjes-03da",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "insects_and_bugs",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-insecten-en-beestjes-9363"
+   "deck": "objecten-zoeken-vind-de-andere-insecten-en-beestjes-03da"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-kamperen-5b38",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-kamperen-1e1b",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "camping",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-kamperen-5b38"
+   "deck": "objecten-zoeken-vind-de-andere-kamperen-1e1b"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-kerstmis-b209",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-kerstmis-2922",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "christmas",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-kerstmis-b209"
+   "deck": "objecten-zoeken-vind-de-andere-kerstmis-2922"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-keukengerei-e3e9",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-keukengerei-826d",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "kitchen_tools",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-keukengerei-e3e9"
+   "deck": "objecten-zoeken-vind-de-andere-keukengerei-826d"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-kleding-36e8",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-klaslokaal-265f",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "classroom",
+   "level": "kleuters",
+   "deck": "objecten-zoeken-vind-de-andere-klaslokaal-265f"
+  },
+  {
+   "slug": "objecten-zoeken-vind-de-andere-kleding-12c6",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "clothing",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-kleding-36e8"
+   "deck": "objecten-zoeken-vind-de-andere-kleding-12c6"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-lichaamsdelen-4363",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-kleuren-e4b4",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "colors",
+   "level": "kleuters",
+   "deck": "objecten-zoeken-vind-de-andere-kleuren-e4b4"
+  },
+  {
+   "slug": "objecten-zoeken-vind-de-andere-lente-b049",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "spring",
+   "level": "kleuters",
+   "deck": "objecten-zoeken-vind-de-andere-lente-b049"
+  },
+  {
+   "slug": "objecten-zoeken-vind-de-andere-lichaamsdelen-ebe8",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "body_parts",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-lichaamsdelen-4363"
+   "deck": "objecten-zoeken-vind-de-andere-lichaamsdelen-ebe8"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-meubels-7243",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-meubels-f590",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "furniture",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-meubels-7243"
+   "deck": "objecten-zoeken-vind-de-andere-meubels-f590"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-muziek-c6ef",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-muziek-8aef",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "music",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-muziek-c6ef"
+   "deck": "objecten-zoeken-vind-de-andere-muziek-8aef"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-oceaanleven-40d0",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-oceaanleven-b833",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "ocean_life",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-oceaanleven-40d0"
+   "deck": "objecten-zoeken-vind-de-andere-oceaanleven-b833"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-ontbijt-305c",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-ontbijt-1cbe",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "breakfast",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-ontbijt-305c"
+   "deck": "objecten-zoeken-vind-de-andere-ontbijt-1cbe"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-pasen-0e9f",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-pasen-bf33",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "easter",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-pasen-0e9f"
+   "deck": "objecten-zoeken-vind-de-andere-pasen-bf33"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-postkantoor-cc00",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-postkantoor-6f27",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "post_office",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-postkantoor-cc00"
+   "deck": "objecten-zoeken-vind-de-andere-postkantoor-6f27"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-reptielen-en-amfibieen-9264",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-reptielen-en-amfibieen-d788",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "reptiles_and_amphibians",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-reptielen-en-amfibieen-9264"
+   "deck": "objecten-zoeken-vind-de-andere-reptielen-en-amfibieen-d788"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-rond-het-huis-40a7",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-rond-het-huis-4bac",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "around_the_house",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-rond-het-huis-40a7"
+   "deck": "objecten-zoeken-vind-de-andere-rond-het-huis-4bac"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-ruimte-0fea",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-ruimte-86e7",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "space",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-ruimte-0fea"
+   "deck": "objecten-zoeken-vind-de-andere-ruimte-86e7"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-speelgoed-ae96",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-speelgoed-425f",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "toys",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-speelgoed-ae96"
+   "deck": "objecten-zoeken-vind-de-andere-speelgoed-425f"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-strand-926b",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-strand-f556",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "beach",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-strand-926b"
+   "deck": "objecten-zoeken-vind-de-andere-strand-f556"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-thanksgiving-5f97",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-thanksgiving-7477",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "thanksgivinng",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-thanksgiving-5f97"
+   "deck": "objecten-zoeken-vind-de-andere-thanksgiving-7477"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-voertuigen-2cf9",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-voertuigen-0669",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "vehicles",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-voertuigen-2cf9"
+   "deck": "objecten-zoeken-vind-de-andere-voertuigen-0669"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-vogels-2-6152",
-   "type": "big-small",
-   "mode": "orderAsc",
-   "theme": "birds_2",
-   "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-vogels-2-6152"
-  },
-  {
-   "slug": "groot-klein-oplopende-volgorde-vogels-5ea9",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-vogels-0a18",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "birds",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-vogels-5ea9"
+   "deck": "objecten-zoeken-vind-de-andere-vogels-0a18"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-vormen-53a9",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-vogels-2-c8f0",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "birds_2",
+   "level": "kleuters",
+   "deck": "objecten-zoeken-vind-de-andere-vogels-2-c8f0"
+  },
+  {
+   "slug": "objecten-zoeken-vind-de-andere-vormen-9aed",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "shapes",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-vormen-53a9"
+   "deck": "objecten-zoeken-vind-de-andere-vormen-9aed"
   },
   {
-   "slug": "groot-klein-oplopende-volgorde-ziekenhuis-de71",
-   "type": "big-small",
-   "mode": "orderAsc",
+   "slug": "objecten-zoeken-vind-de-andere-weer-f714",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "weather",
+   "level": "kleuters",
+   "deck": "objecten-zoeken-vind-de-andere-weer-f714"
+  },
+  {
+   "slug": "objecten-zoeken-vind-de-andere-winter-b68a",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "winter",
+   "level": "kleuters",
+   "deck": "objecten-zoeken-vind-de-andere-winter-b68a"
+  },
+  {
+   "slug": "objecten-zoeken-vind-de-andere-ziekenhuis-65dc",
+   "type": "find-objects",
+   "mode": "find-odd",
    "theme": "hospital",
    "level": "kleuters",
-   "deck": "groot-klein-oplopende-volgorde-ziekenhuis-de71"
+   "deck": "objecten-zoeken-vind-de-andere-ziekenhuis-65dc"
   },
   {
-   "slug": "rekenpuzzel-optellen-accessoires-b7e3",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-vind-de-andere-zomer-6bd3",
+   "type": "find-objects",
+   "mode": "find-odd",
+   "theme": "summer",
+   "level": "kleuters",
+   "deck": "objecten-zoeken-vind-de-andere-zomer-6bd3"
+  },
+  {
+   "slug": "objecten-zoeken-ik-zie-ik-zie-accessoires-a01f",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "accessories",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-accessoires-b7e3"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-accessoires-a01f"
   },
   {
-   "slug": "rekenpuzzel-optellen-bakkerij-2d66",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-activiteiten-1238",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "activities",
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-activiteiten-1238"
+  },
+  {
+   "slug": "objecten-zoeken-ik-zie-ik-zie-bakkerij-259b",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "bakery",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-bakkerij-2d66"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-bakkerij-259b"
   },
   {
-   "slug": "rekenpuzzel-optellen-beroepen-0d25",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-beroepen-ab64",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "occupations",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-beroepen-0d25"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-beroepen-ab64"
   },
   {
-   "slug": "rekenpuzzel-optellen-bloemen-b78a",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-bloemen-f95b",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "flowers",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-bloemen-b78a"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-bloemen-f95b"
   },
   {
-   "slug": "rekenpuzzel-optellen-boerderijdieren-ac30",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-boerderijdieren-057a",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "farm_animals",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-boerderijdieren-ac30"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-boerderijdieren-057a"
   },
   {
-   "slug": "rekenpuzzel-optellen-bomen-2e68",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-bomen-edea",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "tree",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-bomen-2e68"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-bomen-edea"
   },
   {
-   "slug": "rekenpuzzel-optellen-boswezens-007f",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-boswezens-a437",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "forest_creatures",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-boswezens-007f"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-boswezens-a437"
   },
   {
-   "slug": "rekenpuzzel-optellen-desserts-en-snoep-6d4a",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-desserts-en-snoep-c581",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "desserts_and_sweets",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-desserts-en-snoep-6d4a"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-desserts-en-snoep-c581"
   },
   {
-   "slug": "rekenpuzzel-optellen-dieren-89e2",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-dieren-2fc0",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "animals",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-dieren-89e2"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-dieren-2fc0"
   },
   {
-   "slug": "rekenpuzzel-optellen-dierentuindieren-24b5",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-dierentuindieren-42d6",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "zoo_animals",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-dierentuindieren-24b5"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-dierentuindieren-42d6"
   },
   {
-   "slug": "rekenpuzzel-optellen-dingen-die-vliegen-2bb6",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-dingen-die-vliegen-0619",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "things_that_fly",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-dingen-die-vliegen-2bb6"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-dingen-die-vliegen-0619"
   },
   {
-   "slug": "rekenpuzzel-optellen-dinosaurussen-cd7e",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-dinosaurussen-629b",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "dinosaurs",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-dinosaurussen-cd7e"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-dinosaurussen-629b"
   },
   {
-   "slug": "rekenpuzzel-optellen-fruit-8728",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-emoties-4bd3",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "emotions",
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-emoties-4bd3"
+  },
+  {
+   "slug": "objecten-zoeken-ik-zie-ik-zie-fruit-d70b",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "fruits",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-fruit-8728"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-fruit-d70b"
   },
   {
-   "slug": "rekenpuzzel-optellen-gereedschap-573a",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-gereedschap-97aa",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "tools",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-gereedschap-573a"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-gereedschap-97aa"
   },
   {
-   "slug": "rekenpuzzel-optellen-groenten-8102",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-groenten-1f15",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "vegetables",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-groenten-8102"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-groenten-1f15"
   },
   {
-   "slug": "rekenpuzzel-optellen-huisdieren-64e6",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-huisdieren-0071",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "pets",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-huisdieren-64e6"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-huisdieren-0071"
   },
   {
-   "slug": "rekenpuzzel-optellen-in-de-supermarkt-2ba1",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-in-de-supermarkt-f3cf",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "at_the_supermarket",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-in-de-supermarkt-2ba1"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-in-de-supermarkt-f3cf"
   },
   {
-   "slug": "rekenpuzzel-optellen-insecten-en-beestjes-154b",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-insecten-en-beestjes-5056",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "insects_and_bugs",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-insecten-en-beestjes-154b"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-insecten-en-beestjes-5056"
   },
   {
-   "slug": "rekenpuzzel-optellen-kamperen-2e58",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-kamperen-aecb",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "camping",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-kamperen-2e58"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-kamperen-aecb"
   },
   {
-   "slug": "rekenpuzzel-optellen-kerstmis-802a",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-kerstmis-93a1",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "christmas",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-kerstmis-802a"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-kerstmis-93a1"
   },
   {
-   "slug": "rekenpuzzel-optellen-keukengerei-9e65",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-keukengerei-105a",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "kitchen_tools",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-keukengerei-9e65"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-keukengerei-105a"
   },
   {
-   "slug": "rekenpuzzel-optellen-klaslokaal-81f2",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-klaslokaal-a009",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "classroom",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-klaslokaal-81f2"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-klaslokaal-a009"
   },
   {
-   "slug": "rekenpuzzel-optellen-kleding-f1e4",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-kleding-c90a",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "clothing",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-kleding-f1e4"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-kleding-c90a"
   },
   {
-   "slug": "rekenpuzzel-optellen-meubels-f48d",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-kleuren-2745",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "colors",
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-kleuren-2745"
+  },
+  {
+   "slug": "objecten-zoeken-ik-zie-ik-zie-lente-8418",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "spring",
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-lente-8418"
+  },
+  {
+   "slug": "objecten-zoeken-ik-zie-ik-zie-lichaamsdelen-b131",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "body_parts",
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-lichaamsdelen-b131"
+  },
+  {
+   "slug": "objecten-zoeken-ik-zie-ik-zie-meubels-f29d",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "furniture",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-meubels-f48d"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-meubels-f29d"
   },
   {
-   "slug": "rekenpuzzel-optellen-muziek-5723",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-muziek-6ead",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "music",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-muziek-5723"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-muziek-6ead"
   },
   {
-   "slug": "rekenpuzzel-optellen-oceaanleven-a909",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-oceaanleven-52c2",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "ocean_life",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-oceaanleven-a909"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-oceaanleven-52c2"
   },
   {
-   "slug": "rekenpuzzel-optellen-ontbijt-7e83",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-ontbijt-eca9",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "breakfast",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-ontbijt-7e83"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-ontbijt-eca9"
   },
   {
-   "slug": "rekenpuzzel-optellen-pasen-9005",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-pasen-5173",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "easter",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-pasen-9005"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-pasen-5173"
   },
   {
-   "slug": "rekenpuzzel-optellen-postkantoor-6131",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-postkantoor-fd6d",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "post_office",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-postkantoor-6131"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-postkantoor-fd6d"
   },
   {
-   "slug": "rekenpuzzel-optellen-reptielen-en-amfibieen-d90e",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-reptielen-en-amfibieen-f3e7",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "reptiles_and_amphibians",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-reptielen-en-amfibieen-d90e"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-reptielen-en-amfibieen-f3e7"
   },
   {
-   "slug": "rekenpuzzel-optellen-rond-het-huis-cb72",
-   "type": "math-puzzle",
-   "mode": "addition",
-   "theme": "around_the_house",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-rond-het-huis-cb72"
-  },
-  {
-   "slug": "rekenpuzzel-optellen-ruimte-030f",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-ruimte-334f",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "space",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-ruimte-030f"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-ruimte-334f"
   },
   {
-   "slug": "rekenpuzzel-optellen-speelgoed-2186",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-speelgoed-9bdc",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "toys",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-speelgoed-2186"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-speelgoed-9bdc"
   },
   {
-   "slug": "rekenpuzzel-optellen-strand-1a23",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-strand-b799",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "beach",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-strand-1a23"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-strand-b799"
   },
   {
-   "slug": "rekenpuzzel-optellen-thanksgiving-5902",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-thanksgiving-20e2",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "thanksgivinng",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-thanksgiving-5902"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-thanksgiving-20e2"
   },
   {
-   "slug": "rekenpuzzel-optellen-voertuigen-29f2",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-voertuigen-64f5",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "vehicles",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-voertuigen-29f2"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-voertuigen-64f5"
   },
   {
-   "slug": "rekenpuzzel-optellen-vogels-2-9d5f",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-vogels-2-b7ae",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "birds_2",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-vogels-2-9d5f"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-vogels-2-b7ae"
   },
   {
-   "slug": "rekenpuzzel-optellen-vogels-af85",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-vogels-ec3f",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "birds",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-vogels-af85"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-vogels-ec3f"
   },
   {
-   "slug": "rekenpuzzel-optellen-vormen-559f",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-vormen-b8aa",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "shapes",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-vormen-559f"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-vormen-b8aa"
   },
   {
-   "slug": "rekenpuzzel-optellen-ziekenhuis-8ef2",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "objecten-zoeken-ik-zie-ik-zie-weer-9917",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "weather",
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-weer-9917"
+  },
+  {
+   "slug": "objecten-zoeken-ik-zie-ik-zie-winter-d0d8",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "winter",
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-winter-d0d8"
+  },
+  {
+   "slug": "objecten-zoeken-ik-zie-ik-zie-ziekenhuis-9f78",
+   "type": "find-objects",
+   "mode": "i-spy",
    "theme": "hospital",
-   "level": "groep-3",
-   "deck": "rekenpuzzel-optellen-ziekenhuis-8ef2"
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-ziekenhuis-9f78"
+  },
+  {
+   "slug": "objecten-zoeken-ik-zie-ik-zie-zomer-f6ee",
+   "type": "find-objects",
+   "mode": "i-spy",
+   "theme": "summer",
+   "level": "kleuters",
+   "deck": "objecten-zoeken-ik-zie-ik-zie-zomer-f6ee"
   }
  ]
 }

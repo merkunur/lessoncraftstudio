@@ -2,659 +2,682 @@
  "part": 217,
  "locale": "nl",
  "classes": [
-  "more-less::image-image",
-  "addition::image-number"
+  "big-small::orderAsc",
+  "big-small::findBig",
+  "measurement::compare-weight",
+  "measurement::length-units",
+  "measurement::measure-and-compare-length",
+  "measurement::volume-and-temperature",
+  "telling-time::hour-half-hour",
+  "telling-time::to-five-minutes",
+  "telling-time::to-the-minute"
  ],
  "splitOf": null,
- "count": 81,
+ "count": 83,
  "pages": [
   {
-   "slug": "meer-minder-beeld-beeld-accessoires-693d",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-accessoires-473a",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "accessories",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-accessoires-693d"
+   "deck": "groot-klein-oplopende-volgorde-accessoires-473a"
   },
   {
-   "slug": "meer-minder-beeld-beeld-bakkerij-5b66",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-bakkerij-2f54",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "bakery",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-bakkerij-5b66"
+   "deck": "groot-klein-oplopende-volgorde-bakkerij-2f54"
   },
   {
-   "slug": "meer-minder-beeld-beeld-beroepen-3762",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-beroepen-5bb0",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "occupations",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-beroepen-3762"
+   "deck": "groot-klein-oplopende-volgorde-beroepen-5bb0"
   },
   {
-   "slug": "meer-minder-beeld-beeld-bloemen-7974",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-bloemen-2430",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "flowers",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-bloemen-7974"
+   "deck": "groot-klein-oplopende-volgorde-bloemen-2430"
   },
   {
-   "slug": "meer-minder-beeld-beeld-boerderijdieren-2d60",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-boerderijdieren-8024",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "farm_animals",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-boerderijdieren-2d60"
+   "deck": "groot-klein-oplopende-volgorde-boerderijdieren-8024"
   },
   {
-   "slug": "meer-minder-beeld-beeld-bomen-a868",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-bomen-5778",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "tree",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-bomen-a868"
+   "deck": "groot-klein-oplopende-volgorde-bomen-5778"
   },
   {
-   "slug": "meer-minder-beeld-beeld-boswezens-7c78",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-boswezens-7282",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "forest_creatures",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-boswezens-7c78"
+   "deck": "groot-klein-oplopende-volgorde-boswezens-7282"
   },
   {
-   "slug": "meer-minder-beeld-beeld-desserts-en-snoep-d61a",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-desserts-en-snoep-6a45",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "desserts_and_sweets",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-desserts-en-snoep-d61a"
+   "deck": "groot-klein-oplopende-volgorde-desserts-en-snoep-6a45"
   },
   {
-   "slug": "meer-minder-beeld-beeld-dieren-4602",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-dieren-8de3",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "animals",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-dieren-4602"
+   "deck": "groot-klein-oplopende-volgorde-dieren-8de3"
   },
   {
-   "slug": "meer-minder-beeld-beeld-dierentuindieren-c6d5",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-dierentuindieren-f7de",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "zoo_animals",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-dierentuindieren-c6d5"
+   "deck": "groot-klein-oplopende-volgorde-dierentuindieren-f7de"
   },
   {
-   "slug": "meer-minder-beeld-beeld-dingen-die-vliegen-53c0",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-dingen-die-vliegen-07a7",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "things_that_fly",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-dingen-die-vliegen-53c0"
+   "deck": "groot-klein-oplopende-volgorde-dingen-die-vliegen-07a7"
   },
   {
-   "slug": "meer-minder-beeld-beeld-dinosaurussen-3ade",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-dinosaurussen-6681",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "dinosaurs",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-dinosaurussen-3ade"
+   "deck": "groot-klein-oplopende-volgorde-dinosaurussen-6681"
   },
   {
-   "slug": "meer-minder-beeld-beeld-diversen-3b90",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "miscellaneous",
-   "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-diversen-3b90"
-  },
-  {
-   "slug": "meer-minder-beeld-beeld-fruit-1bf6",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-fruit-76c8",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "fruits",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-fruit-1bf6"
+   "deck": "groot-klein-oplopende-volgorde-fruit-76c8"
   },
   {
-   "slug": "meer-minder-beeld-beeld-gereedschap-cb04",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-gereedschap-9cef",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "tools",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-gereedschap-cb04"
+   "deck": "groot-klein-oplopende-volgorde-gereedschap-9cef"
   },
   {
-   "slug": "meer-minder-beeld-beeld-groenten-77ae",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-groenten-f64b",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "vegetables",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-groenten-77ae"
+   "deck": "groot-klein-oplopende-volgorde-groenten-f64b"
   },
   {
-   "slug": "meer-minder-beeld-beeld-huisdieren-1b26",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-huisdieren-b94a",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "pets",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-huisdieren-1b26"
+   "deck": "groot-klein-oplopende-volgorde-huisdieren-b94a"
   },
   {
-   "slug": "meer-minder-beeld-beeld-in-de-supermarkt-eab6",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-in-de-supermarkt-3714",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "at_the_supermarket",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-in-de-supermarkt-eab6"
+   "deck": "groot-klein-oplopende-volgorde-in-de-supermarkt-3714"
   },
   {
-   "slug": "meer-minder-beeld-beeld-insecten-en-beestjes-3ba2",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-insecten-en-beestjes-9363",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "insects_and_bugs",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-insecten-en-beestjes-3ba2"
+   "deck": "groot-klein-oplopende-volgorde-insecten-en-beestjes-9363"
   },
   {
-   "slug": "meer-minder-beeld-beeld-kamperen-90f2",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-kamperen-5b38",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "camping",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-kamperen-90f2"
+   "deck": "groot-klein-oplopende-volgorde-kamperen-5b38"
   },
   {
-   "slug": "meer-minder-beeld-beeld-kerstmis-c5d4",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-kerstmis-b209",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "christmas",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-kerstmis-c5d4"
+   "deck": "groot-klein-oplopende-volgorde-kerstmis-b209"
   },
   {
-   "slug": "meer-minder-beeld-beeld-keukengerei-188c",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-keukengerei-e3e9",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "kitchen_tools",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-keukengerei-188c"
+   "deck": "groot-klein-oplopende-volgorde-keukengerei-e3e9"
   },
   {
-   "slug": "meer-minder-beeld-beeld-klaslokaal-592b",
-   "type": "more-less",
-   "mode": "image-image",
-   "theme": "classroom",
-   "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-klaslokaal-592b"
-  },
-  {
-   "slug": "meer-minder-beeld-beeld-kleding-17ef",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-kleding-36e8",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "clothing",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-kleding-17ef"
+   "deck": "groot-klein-oplopende-volgorde-kleding-36e8"
   },
   {
-   "slug": "meer-minder-beeld-beeld-meubels-56c1",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-lichaamsdelen-4363",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "body_parts",
+   "level": "kleuters",
+   "deck": "groot-klein-oplopende-volgorde-lichaamsdelen-4363"
+  },
+  {
+   "slug": "groot-klein-oplopende-volgorde-meubels-7243",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "furniture",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-meubels-56c1"
+   "deck": "groot-klein-oplopende-volgorde-meubels-7243"
   },
   {
-   "slug": "meer-minder-beeld-beeld-muziek-766e",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-muziek-c6ef",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "music",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-muziek-766e"
+   "deck": "groot-klein-oplopende-volgorde-muziek-c6ef"
   },
   {
-   "slug": "meer-minder-beeld-beeld-oceaanleven-1ff5",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-oceaanleven-40d0",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "ocean_life",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-oceaanleven-1ff5"
+   "deck": "groot-klein-oplopende-volgorde-oceaanleven-40d0"
   },
   {
-   "slug": "meer-minder-beeld-beeld-ontbijt-f549",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-ontbijt-305c",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "breakfast",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-ontbijt-f549"
+   "deck": "groot-klein-oplopende-volgorde-ontbijt-305c"
   },
   {
-   "slug": "meer-minder-beeld-beeld-pasen-a4d1",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-pasen-0e9f",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "easter",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-pasen-a4d1"
+   "deck": "groot-klein-oplopende-volgorde-pasen-0e9f"
   },
   {
-   "slug": "meer-minder-beeld-beeld-postkantoor-6e2a",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-postkantoor-cc00",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "post_office",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-postkantoor-6e2a"
+   "deck": "groot-klein-oplopende-volgorde-postkantoor-cc00"
   },
   {
-   "slug": "meer-minder-beeld-beeld-reptielen-en-amfibieen-5638",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-reptielen-en-amfibieen-9264",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "reptiles_and_amphibians",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-reptielen-en-amfibieen-5638"
+   "deck": "groot-klein-oplopende-volgorde-reptielen-en-amfibieen-9264"
   },
   {
-   "slug": "meer-minder-beeld-beeld-rond-het-huis-dec0",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-rond-het-huis-40a7",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "around_the_house",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-rond-het-huis-dec0"
+   "deck": "groot-klein-oplopende-volgorde-rond-het-huis-40a7"
   },
   {
-   "slug": "meer-minder-beeld-beeld-ruimte-8aba",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-ruimte-0fea",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "space",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-ruimte-8aba"
+   "deck": "groot-klein-oplopende-volgorde-ruimte-0fea"
   },
   {
-   "slug": "meer-minder-beeld-beeld-speelgoed-b57f",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-speelgoed-ae96",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "toys",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-speelgoed-b57f"
+   "deck": "groot-klein-oplopende-volgorde-speelgoed-ae96"
   },
   {
-   "slug": "meer-minder-beeld-beeld-strand-5fa4",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-strand-926b",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "beach",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-strand-5fa4"
+   "deck": "groot-klein-oplopende-volgorde-strand-926b"
   },
   {
-   "slug": "meer-minder-beeld-beeld-thanksgiving-7dd2",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-thanksgiving-5f97",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "thanksgivinng",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-thanksgiving-7dd2"
+   "deck": "groot-klein-oplopende-volgorde-thanksgiving-5f97"
   },
   {
-   "slug": "meer-minder-beeld-beeld-voertuigen-b7b4",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-voertuigen-2cf9",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "vehicles",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-voertuigen-b7b4"
+   "deck": "groot-klein-oplopende-volgorde-voertuigen-2cf9"
   },
   {
-   "slug": "meer-minder-beeld-beeld-vogels-2-1c13",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-vogels-2-6152",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "birds_2",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-vogels-2-1c13"
+   "deck": "groot-klein-oplopende-volgorde-vogels-2-6152"
   },
   {
-   "slug": "meer-minder-beeld-beeld-vogels-8af7",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-vogels-5ea9",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "birds",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-vogels-8af7"
+   "deck": "groot-klein-oplopende-volgorde-vogels-5ea9"
   },
   {
-   "slug": "meer-minder-beeld-beeld-vormen-44c3",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-vormen-53a9",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "shapes",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-vormen-44c3"
+   "deck": "groot-klein-oplopende-volgorde-vormen-53a9"
   },
   {
-   "slug": "meer-minder-beeld-beeld-ziekenhuis-3c43",
-   "type": "more-less",
-   "mode": "image-image",
+   "slug": "groot-klein-oplopende-volgorde-ziekenhuis-de71",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "hospital",
    "level": "kleuters",
-   "deck": "meer-minder-beeld-beeld-ziekenhuis-3c43"
+   "deck": "groot-klein-oplopende-volgorde-ziekenhuis-de71"
   },
   {
-   "slug": "optellen-beeld-getal-accessoires-b3e3",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-accessoires-21b4",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "accessories",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-accessoires-b3e3"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-accessoires-21b4"
   },
   {
-   "slug": "optellen-beeld-getal-bakkerij-f7a0",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-bakkerij-8e30",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "bakery",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-bakkerij-f7a0"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-bakkerij-8e30"
   },
   {
-   "slug": "optellen-beeld-getal-beroepen-ba8d",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-beroepen-f42f",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "occupations",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-beroepen-ba8d"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-beroepen-f42f"
   },
   {
-   "slug": "optellen-beeld-getal-bloemen-9982",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-bloemen-b7c2",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "flowers",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-bloemen-9982"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-bloemen-b7c2"
   },
   {
-   "slug": "optellen-beeld-getal-boerderijdieren-e890",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-boerderijdieren-1faa",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "farm_animals",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-boerderijdieren-e890"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-boerderijdieren-1faa"
   },
   {
-   "slug": "optellen-beeld-getal-bomen-543f",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-bomen-6e31",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "tree",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-bomen-543f"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-bomen-6e31"
   },
   {
-   "slug": "optellen-beeld-getal-boswezens-5f75",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-boswezens-6c62",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "forest_creatures",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-boswezens-5f75"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-boswezens-6c62"
   },
   {
-   "slug": "optellen-beeld-getal-desserts-en-snoep-35d3",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-desserts-en-snoep-07ba",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "desserts_and_sweets",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-desserts-en-snoep-35d3"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-desserts-en-snoep-07ba"
   },
   {
-   "slug": "optellen-beeld-getal-dieren-cc01",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-dieren-23b3",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "animals",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-dieren-cc01"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-dieren-23b3"
   },
   {
-   "slug": "optellen-beeld-getal-dierentuindieren-cf54",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-dierentuindieren-8ea2",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "zoo_animals",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-dierentuindieren-cf54"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-dierentuindieren-8ea2"
   },
   {
-   "slug": "optellen-beeld-getal-dingen-die-vliegen-8a61",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-dingen-die-vliegen-75f0",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "things_that_fly",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-dingen-die-vliegen-8a61"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-dingen-die-vliegen-75f0"
   },
   {
-   "slug": "optellen-beeld-getal-dinosaurussen-8e5e",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-dinosaurussen-41a7",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "dinosaurs",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-dinosaurussen-8e5e"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-dinosaurussen-41a7"
   },
   {
-   "slug": "optellen-beeld-getal-fruit-8957",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-fruit-6ca8",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "fruits",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-fruit-8957"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-fruit-6ca8"
   },
   {
-   "slug": "optellen-beeld-getal-gereedschap-3e0f",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-gereedschap-304f",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "tools",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-gereedschap-3e0f"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-gereedschap-304f"
   },
   {
-   "slug": "optellen-beeld-getal-groenten-7153",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-groenten-bb13",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "vegetables",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-groenten-7153"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-groenten-bb13"
   },
   {
-   "slug": "optellen-beeld-getal-huisdieren-e9fa",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-huisdieren-eb44",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "pets",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-huisdieren-e9fa"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-huisdieren-eb44"
   },
   {
-   "slug": "optellen-beeld-getal-in-de-supermarkt-0ab9",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-in-de-supermarkt-27e2",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "at_the_supermarket",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-in-de-supermarkt-0ab9"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-in-de-supermarkt-27e2"
   },
   {
-   "slug": "optellen-beeld-getal-insecten-en-beestjes-a8b7",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "insects_and_bugs",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-insecten-en-beestjes-a8b7"
-  },
-  {
-   "slug": "optellen-beeld-getal-kamperen-233f",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-kamperen-16a3",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "camping",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-kamperen-233f"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-kamperen-16a3"
   },
   {
-   "slug": "optellen-beeld-getal-kerstmis-39b4",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-kerstmis-5edf",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "christmas",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-kerstmis-39b4"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-kerstmis-5edf"
   },
   {
-   "slug": "optellen-beeld-getal-keukengerei-b278",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-keukengerei-4cf4",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "kitchen_tools",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-keukengerei-b278"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-keukengerei-4cf4"
   },
   {
-   "slug": "optellen-beeld-getal-klaslokaal-08a9",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-klaslokaal-0d2a",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "classroom",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-klaslokaal-08a9"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-klaslokaal-0d2a"
   },
   {
-   "slug": "optellen-beeld-getal-kleding-3999",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-kleding-db0f",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "clothing",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-kleding-3999"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-kleding-db0f"
   },
   {
-   "slug": "optellen-beeld-getal-meubels-d368",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-lichaamsdelen-5ad8",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "body_parts",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-lichaamsdelen-5ad8"
+  },
+  {
+   "slug": "groot-klein-vind-de-grote-meubels-e666",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "furniture",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-meubels-d368"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-meubels-e666"
   },
   {
-   "slug": "optellen-beeld-getal-muziek-329c",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-muziek-fc16",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "music",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-muziek-329c"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-muziek-fc16"
   },
   {
-   "slug": "optellen-beeld-getal-oceaanleven-b56c",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-oceaanleven-0273",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "ocean_life",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-oceaanleven-b56c"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-oceaanleven-0273"
   },
   {
-   "slug": "optellen-beeld-getal-ontbijt-bea3",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-ontbijt-c86c",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "breakfast",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-ontbijt-bea3"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-ontbijt-c86c"
   },
   {
-   "slug": "optellen-beeld-getal-pasen-53c8",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-pasen-1c24",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "easter",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-pasen-53c8"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-pasen-1c24"
   },
   {
-   "slug": "optellen-beeld-getal-postkantoor-47b4",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "post_office",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-postkantoor-47b4"
-  },
-  {
-   "slug": "optellen-beeld-getal-reptielen-en-amfibieen-998d",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "reptiles_and_amphibians",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-reptielen-en-amfibieen-998d"
-  },
-  {
-   "slug": "optellen-beeld-getal-rond-het-huis-cba4",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-rond-het-huis-8b74",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "around_the_house",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-rond-het-huis-cba4"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-rond-het-huis-8b74"
   },
   {
-   "slug": "optellen-beeld-getal-ruimte-9f29",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-ruimte-9821",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "space",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-ruimte-9f29"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-ruimte-9821"
   },
   {
-   "slug": "optellen-beeld-getal-speelgoed-c636",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-speelgoed-41dc",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "toys",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-speelgoed-c636"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-speelgoed-41dc"
   },
   {
-   "slug": "optellen-beeld-getal-strand-7976",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-strand-19bc",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "beach",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-strand-7976"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-strand-19bc"
   },
   {
-   "slug": "optellen-beeld-getal-thanksgiving-7e38",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "thanksgivinng",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-thanksgiving-7e38"
-  },
-  {
-   "slug": "optellen-beeld-getal-voertuigen-ee00",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-voertuigen-bb2b",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "vehicles",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-voertuigen-ee00"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-voertuigen-bb2b"
   },
   {
-   "slug": "optellen-beeld-getal-vogels-2-7199",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-vogels-2-a0d9",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "birds_2",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-vogels-2-7199"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-vogels-2-a0d9"
   },
   {
-   "slug": "optellen-beeld-getal-vogels-2909",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "birds",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-vogels-2909"
-  },
-  {
-   "slug": "optellen-beeld-getal-vormen-0d8b",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-vormen-018c",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "shapes",
-   "level": "groep-3",
-   "deck": "optellen-beeld-getal-vormen-0d8b"
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-vormen-018c"
   },
   {
-   "slug": "optellen-beeld-getal-ziekenhuis-a361",
-   "type": "addition",
-   "mode": "image-number",
+   "slug": "groot-klein-vind-de-grote-ziekenhuis-d8c6",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "hospital",
+   "level": "kleuters",
+   "deck": "groot-klein-vind-de-grote-ziekenhuis-d8c6"
+  },
+  {
+   "slug": "zwaar-of-licht-kleuters",
+   "type": "measurement",
+   "mode": "compare-weight",
+   "theme": "",
+   "level": "kleuters",
+   "deck": "meten-fruit-k038"
+  },
+  {
+   "slug": "lengte-meten-groep-3",
+   "type": "measurement",
+   "mode": "length-units",
+   "theme": "",
    "level": "groep-3",
-   "deck": "optellen-beeld-getal-ziekenhuis-a361"
+   "deck": "meten-fruit-g1140"
+  },
+  {
+   "slug": "meten-met-liniaal-groep-4",
+   "type": "measurement",
+   "mode": "measure-and-compare-length",
+   "theme": "",
+   "level": "groep-4",
+   "deck": "meten-vormen-g2235"
+  },
+  {
+   "slug": "temperatuur-en-inhoud-groep-5",
+   "type": "measurement",
+   "mode": "volume-and-temperature",
+   "theme": "",
+   "level": "groep-5",
+   "deck": "meten-g3345"
+  },
+  {
+   "slug": "klokkijken-groep-3",
+   "type": "telling-time",
+   "mode": "hour-half-hour",
+   "theme": "",
+   "level": "groep-3",
+   "deck": "klokkijken-g1148"
+  },
+  {
+   "slug": "klokkijken-groep-4",
+   "type": "telling-time",
+   "mode": "to-five-minutes",
+   "theme": "",
+   "level": "groep-4",
+   "deck": "klokkijken-g2249"
+  },
+  {
+   "slug": "klokkijken-groep-5",
+   "type": "telling-time",
+   "mode": "to-the-minute",
+   "theme": "",
+   "level": "groep-5",
+   "deck": "klokkijken-g3344"
   }
  ]
 }

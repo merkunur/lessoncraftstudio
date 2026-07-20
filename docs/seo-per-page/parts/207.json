@@ -2,763 +2,659 @@
  "part": 207,
  "locale": "nl",
  "classes": [
-  "prepositions::fillin",
-  "shadow-match::make-whole"
+  "addition::mixed",
+  "addition::image-number"
  ],
  "splitOf": null,
- "count": 94,
+ "count": 81,
  "pages": [
   {
-   "slug": "voorzetsels-invullen-accessoires-a8a5",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "optellen-gemengd-accessoires-bace",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "accessories",
    "level": "groep-3",
-   "deck": "voorzetsels-invullen-accessoires-a8a5"
+   "deck": "optellen-gemengd-accessoires-bace"
   },
   {
-   "slug": "voorzetsels-invullen-activiteiten-0936",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "activities",
-   "level": "groep-3",
-   "deck": "voorzetsels-invullen-activiteiten-0936"
-  },
-  {
-   "slug": "voorzetsels-invullen-bakkerij-01c0",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "optellen-gemengd-bakkerij-15df",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "bakery",
    "level": "groep-3",
-   "deck": "voorzetsels-invullen-bakkerij-01c0"
+   "deck": "optellen-gemengd-bakkerij-15df"
   },
   {
-   "slug": "voorzetsels-invullen-beroepen-f275",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "optellen-gemengd-beroepen-394b",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "occupations",
    "level": "groep-3",
-   "deck": "voorzetsels-invullen-beroepen-f275"
+   "deck": "optellen-gemengd-beroepen-394b"
   },
   {
-   "slug": "voorzetsels-invullen-bloemen-661e",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "optellen-gemengd-bloemen-699e",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "flowers",
    "level": "groep-3",
-   "deck": "voorzetsels-invullen-bloemen-661e"
+   "deck": "optellen-gemengd-bloemen-699e"
   },
   {
-   "slug": "voorzetsels-invullen-boerderijdieren-e0e9",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "optellen-gemengd-boerderijdieren-6a92",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "farm_animals",
    "level": "groep-3",
-   "deck": "voorzetsels-invullen-boerderijdieren-e0e9"
+   "deck": "optellen-gemengd-boerderijdieren-6a92"
   },
   {
-   "slug": "voorzetsels-invullen-bomen-6c86",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "optellen-gemengd-bomen-63f9",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "tree",
    "level": "groep-3",
-   "deck": "voorzetsels-invullen-bomen-6c86"
+   "deck": "optellen-gemengd-bomen-63f9"
   },
   {
-   "slug": "voorzetsels-invullen-boswezens-adce",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "optellen-gemengd-boswezens-19fc",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "forest_creatures",
    "level": "groep-3",
-   "deck": "voorzetsels-invullen-boswezens-adce"
+   "deck": "optellen-gemengd-boswezens-19fc"
   },
   {
-   "slug": "voorzetsels-invullen-desserts-en-snoep-742c",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "optellen-gemengd-desserts-en-snoep-2c17",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "desserts_and_sweets",
    "level": "groep-3",
-   "deck": "voorzetsels-invullen-desserts-en-snoep-742c"
+   "deck": "optellen-gemengd-desserts-en-snoep-2c17"
   },
   {
-   "slug": "voorzetsels-invullen-dieren-ffeb",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "optellen-gemengd-dieren-d464",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "animals",
    "level": "groep-3",
-   "deck": "voorzetsels-invullen-dieren-ffeb"
+   "deck": "optellen-gemengd-dieren-d464"
   },
   {
-   "slug": "voorzetsels-invullen-dierentuindieren-423e",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "optellen-gemengd-dierentuindieren-8180",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "zoo_animals",
    "level": "groep-3",
-   "deck": "voorzetsels-invullen-dierentuindieren-423e"
+   "deck": "optellen-gemengd-dierentuindieren-8180"
   },
   {
-   "slug": "voorzetsels-invullen-dingen-die-vliegen-73ac",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "optellen-gemengd-dingen-die-vliegen-df49",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "things_that_fly",
    "level": "groep-3",
-   "deck": "voorzetsels-invullen-dingen-die-vliegen-73ac"
+   "deck": "optellen-gemengd-dingen-die-vliegen-df49"
   },
   {
-   "slug": "voorzetsels-invullen-dinosaurussen-7144",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "optellen-gemengd-dinosaurussen-c41c",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "dinosaurs",
    "level": "groep-3",
-   "deck": "voorzetsels-invullen-dinosaurussen-7144"
+   "deck": "optellen-gemengd-dinosaurussen-c41c"
   },
   {
-   "slug": "voorzetsels-invullen-emoties-6a33",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "emotions",
+   "slug": "optellen-gemengd-diversen-5afe",
+   "type": "addition",
+   "mode": "mixed",
+   "theme": "miscellaneous",
    "level": "groep-3",
-   "deck": "voorzetsels-invullen-emoties-6a33"
+   "deck": "optellen-gemengd-diversen-5afe"
   },
   {
-   "slug": "voorzetsels-invullen-fruit-c6ec",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "optellen-gemengd-fruit-facf",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "fruits",
    "level": "groep-3",
-   "deck": "voorzetsels-invullen-fruit-c6ec"
+   "deck": "optellen-gemengd-fruit-facf"
   },
   {
-   "slug": "voorzetsels-invullen-gereedschap-5e48",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "optellen-gemengd-gereedschap-b814",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "tools",
    "level": "groep-3",
-   "deck": "voorzetsels-invullen-gereedschap-5e48"
+   "deck": "optellen-gemengd-gereedschap-b814"
   },
   {
-   "slug": "voorzetsels-invullen-groenten-b0bd",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "optellen-gemengd-groenten-a4c9",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "vegetables",
    "level": "groep-3",
-   "deck": "voorzetsels-invullen-groenten-b0bd"
+   "deck": "optellen-gemengd-groenten-a4c9"
   },
   {
-   "slug": "voorzetsels-invullen-huisdieren-cac0",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "optellen-gemengd-huisdieren-93e0",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "pets",
    "level": "groep-3",
-   "deck": "voorzetsels-invullen-huisdieren-cac0"
+   "deck": "optellen-gemengd-huisdieren-93e0"
   },
   {
-   "slug": "voorzetsels-invullen-in-de-supermarkt-f2ab",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "optellen-gemengd-in-de-supermarkt-01e9",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "at_the_supermarket",
    "level": "groep-3",
-   "deck": "voorzetsels-invullen-in-de-supermarkt-f2ab"
+   "deck": "optellen-gemengd-in-de-supermarkt-01e9"
   },
   {
-   "slug": "voorzetsels-invullen-insecten-en-beestjes-de08",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "optellen-gemengd-insecten-en-beestjes-95de",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "insects_and_bugs",
    "level": "groep-3",
-   "deck": "voorzetsels-invullen-insecten-en-beestjes-de08"
+   "deck": "optellen-gemengd-insecten-en-beestjes-95de"
   },
   {
-   "slug": "voorzetsels-invullen-kamperen-e146",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "optellen-gemengd-kamperen-946c",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "camping",
    "level": "groep-3",
-   "deck": "voorzetsels-invullen-kamperen-e146"
+   "deck": "optellen-gemengd-kamperen-946c"
   },
   {
-   "slug": "voorzetsels-invullen-kerstmis-4c62",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "optellen-gemengd-kerstmis-4f85",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "christmas",
    "level": "groep-3",
-   "deck": "voorzetsels-invullen-kerstmis-4c62"
+   "deck": "optellen-gemengd-kerstmis-4f85"
   },
   {
-   "slug": "voorzetsels-invullen-keukengerei-f458",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "optellen-gemengd-keukengerei-e57c",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "kitchen_tools",
    "level": "groep-3",
-   "deck": "voorzetsels-invullen-keukengerei-f458"
+   "deck": "optellen-gemengd-keukengerei-e57c"
   },
   {
-   "slug": "voorzetsels-invullen-klaslokaal-05d6",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "optellen-gemengd-klaslokaal-07b5",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "classroom",
    "level": "groep-3",
-   "deck": "voorzetsels-invullen-klaslokaal-05d6"
+   "deck": "optellen-gemengd-klaslokaal-07b5"
   },
   {
-   "slug": "voorzetsels-invullen-kleding-45df",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "optellen-gemengd-kleding-2bda",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "clothing",
    "level": "groep-3",
-   "deck": "voorzetsels-invullen-kleding-45df"
+   "deck": "optellen-gemengd-kleding-2bda"
   },
   {
-   "slug": "voorzetsels-invullen-kleuren-c5bf",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "colors",
-   "level": "groep-3",
-   "deck": "voorzetsels-invullen-kleuren-c5bf"
-  },
-  {
-   "slug": "voorzetsels-invullen-lente-f4e0",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "spring",
-   "level": "groep-3",
-   "deck": "voorzetsels-invullen-lente-f4e0"
-  },
-  {
-   "slug": "voorzetsels-invullen-lichaamsdelen-4222",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "body_parts",
-   "level": "groep-3",
-   "deck": "voorzetsels-invullen-lichaamsdelen-4222"
-  },
-  {
-   "slug": "voorzetsels-invullen-meubels-0e0f",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "optellen-gemengd-meubels-68b7",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "furniture",
    "level": "groep-3",
-   "deck": "voorzetsels-invullen-meubels-0e0f"
+   "deck": "optellen-gemengd-meubels-68b7"
   },
   {
-   "slug": "voorzetsels-invullen-muziek-07bf",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "optellen-gemengd-muziek-b070",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "music",
    "level": "groep-3",
-   "deck": "voorzetsels-invullen-muziek-07bf"
+   "deck": "optellen-gemengd-muziek-b070"
   },
   {
-   "slug": "voorzetsels-invullen-oceaanleven-9849",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "optellen-gemengd-oceaanleven-0389",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "ocean_life",
    "level": "groep-3",
-   "deck": "voorzetsels-invullen-oceaanleven-9849"
+   "deck": "optellen-gemengd-oceaanleven-0389"
   },
   {
-   "slug": "voorzetsels-invullen-ontbijt-514d",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "optellen-gemengd-ontbijt-9860",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "breakfast",
    "level": "groep-3",
-   "deck": "voorzetsels-invullen-ontbijt-514d"
+   "deck": "optellen-gemengd-ontbijt-9860"
   },
   {
-   "slug": "voorzetsels-invullen-pasen-dd63",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "optellen-gemengd-pasen-af01",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "easter",
    "level": "groep-3",
-   "deck": "voorzetsels-invullen-pasen-dd63"
+   "deck": "optellen-gemengd-pasen-af01"
   },
   {
-   "slug": "voorzetsels-invullen-postkantoor-8ef5",
-   "type": "prepositions",
-   "mode": "fillin",
+   "slug": "optellen-gemengd-postkantoor-8c8d",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "post_office",
    "level": "groep-3",
-   "deck": "voorzetsels-invullen-postkantoor-8ef5"
+   "deck": "optellen-gemengd-postkantoor-8c8d"
   },
   {
-   "slug": "voorzetsels-invullen-rond-het-huis-8d82",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "around_the_house",
-   "level": "groep-3",
-   "deck": "voorzetsels-invullen-rond-het-huis-8d82"
-  },
-  {
-   "slug": "voorzetsels-invullen-ruimte-4262",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "space",
-   "level": "groep-3",
-   "deck": "voorzetsels-invullen-ruimte-4262"
-  },
-  {
-   "slug": "voorzetsels-invullen-speelgoed-fbd7",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "toys",
-   "level": "groep-3",
-   "deck": "voorzetsels-invullen-speelgoed-fbd7"
-  },
-  {
-   "slug": "voorzetsels-invullen-strand-97bc",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "beach",
-   "level": "groep-3",
-   "deck": "voorzetsels-invullen-strand-97bc"
-  },
-  {
-   "slug": "voorzetsels-invullen-thanksgiving-857e",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "thanksgivinng",
-   "level": "groep-3",
-   "deck": "voorzetsels-invullen-thanksgiving-857e"
-  },
-  {
-   "slug": "voorzetsels-invullen-voertuigen-bbcb",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "vehicles",
-   "level": "groep-3",
-   "deck": "voorzetsels-invullen-voertuigen-bbcb"
-  },
-  {
-   "slug": "voorzetsels-invullen-vogels-2-92f8",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "birds_2",
-   "level": "groep-3",
-   "deck": "voorzetsels-invullen-vogels-2-92f8"
-  },
-  {
-   "slug": "voorzetsels-invullen-vogels-4ec4",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "birds",
-   "level": "groep-3",
-   "deck": "voorzetsels-invullen-vogels-4ec4"
-  },
-  {
-   "slug": "voorzetsels-invullen-vormen-9feb",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "shapes",
-   "level": "groep-3",
-   "deck": "voorzetsels-invullen-vormen-9feb"
-  },
-  {
-   "slug": "voorzetsels-invullen-weer-66b9",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "weather",
-   "level": "groep-3",
-   "deck": "voorzetsels-invullen-weer-66b9"
-  },
-  {
-   "slug": "voorzetsels-invullen-winter-0846",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "winter",
-   "level": "groep-3",
-   "deck": "voorzetsels-invullen-winter-0846"
-  },
-  {
-   "slug": "voorzetsels-invullen-ziekenhuis-4d2e",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "hospital",
-   "level": "groep-3",
-   "deck": "voorzetsels-invullen-ziekenhuis-4d2e"
-  },
-  {
-   "slug": "voorzetsels-invullen-zomer-6b15",
-   "type": "prepositions",
-   "mode": "fillin",
-   "theme": "summer",
-   "level": "groep-3",
-   "deck": "voorzetsels-invullen-zomer-6b15"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-accessoires-f654",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "accessories",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-accessoires-f654"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-activiteiten-f04f",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "activities",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-activiteiten-f04f"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-bakkerij-3cb7",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "bakery",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-bakkerij-3cb7"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-beroepen-1155",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "occupations",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-beroepen-1155"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-bloemen-7294",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "flowers",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-bloemen-7294"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-boerderijdieren-d030",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "farm_animals",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-boerderijdieren-d030"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-bomen-8130",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "tree",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-bomen-8130"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-boswezens-d9c4",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "forest_creatures",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-boswezens-d9c4"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-desserts-en-snoep-7215",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "desserts_and_sweets",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-desserts-en-snoep-7215"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-dieren-a660",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "animals",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-dieren-a660"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-dierentuindieren-ed65",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "zoo_animals",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-dierentuindieren-ed65"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-dingen-die-vliegen-a59e",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "things_that_fly",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-dingen-die-vliegen-a59e"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-dinosaurussen-8ef0",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "dinosaurs",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-dinosaurussen-8ef0"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-emoties-f4c6",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "emotions",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-emoties-f4c6"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-fruit-e6b6",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "fruits",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-fruit-e6b6"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-gereedschap-7e3e",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "tools",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-gereedschap-7e3e"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-groenten-1403",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "vegetables",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-groenten-1403"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-huisdieren-08a4",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "pets",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-huisdieren-08a4"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-in-de-supermarkt-400a",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "at_the_supermarket",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-in-de-supermarkt-400a"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-insecten-en-beestjes-a3f8",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "insects_and_bugs",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-insecten-en-beestjes-a3f8"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-kamperen-92f3",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "camping",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-kamperen-92f3"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-kerstmis-d482",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "christmas",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-kerstmis-d482"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-keukengerei-4bdc",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "kitchen_tools",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-keukengerei-4bdc"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-klaslokaal-34cd",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "classroom",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-klaslokaal-34cd"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-kleding-4421",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "clothing",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-kleding-4421"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-lente-cdf4",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "spring",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-lente-cdf4"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-lichaamsdelen-cc98",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "body_parts",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-lichaamsdelen-cc98"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-meubels-6ac3",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "furniture",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-meubels-6ac3"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-muziek-875d",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "music",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-muziek-875d"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-oceaanleven-e661",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "ocean_life",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-oceaanleven-e661"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-ontbijt-f9c1",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "breakfast",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-ontbijt-f9c1"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-pasen-11ab",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "easter",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-pasen-11ab"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-postkantoor-3f05",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "post_office",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-postkantoor-3f05"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-reptielen-en-amfibieen-ea0d",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "optellen-gemengd-reptielen-en-amfibieen-3850",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "reptiles_and_amphibians",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-reptielen-en-amfibieen-ea0d"
+   "level": "groep-3",
+   "deck": "optellen-gemengd-reptielen-en-amfibieen-3850"
   },
   {
-   "slug": "schaduw-koppelen-maak-het-heel-rond-het-huis-f24f",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "optellen-gemengd-rond-het-huis-898a",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "around_the_house",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-rond-het-huis-f24f"
+   "level": "groep-3",
+   "deck": "optellen-gemengd-rond-het-huis-898a"
   },
   {
-   "slug": "schaduw-koppelen-maak-het-heel-ruimte-5b6b",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "optellen-gemengd-ruimte-1fa2",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "space",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-ruimte-5b6b"
+   "level": "groep-3",
+   "deck": "optellen-gemengd-ruimte-1fa2"
   },
   {
-   "slug": "schaduw-koppelen-maak-het-heel-speelgoed-2568",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "optellen-gemengd-speelgoed-e1f0",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "toys",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-speelgoed-2568"
+   "level": "groep-3",
+   "deck": "optellen-gemengd-speelgoed-e1f0"
   },
   {
-   "slug": "schaduw-koppelen-maak-het-heel-strand-9d14",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "optellen-gemengd-strand-31ad",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "beach",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-strand-9d14"
+   "level": "groep-3",
+   "deck": "optellen-gemengd-strand-31ad"
   },
   {
-   "slug": "schaduw-koppelen-maak-het-heel-thanksgiving-83df",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "optellen-gemengd-thanksgiving-b905",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "thanksgivinng",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-thanksgiving-83df"
+   "level": "groep-3",
+   "deck": "optellen-gemengd-thanksgiving-b905"
   },
   {
-   "slug": "schaduw-koppelen-maak-het-heel-voertuigen-bf1e",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "optellen-gemengd-voertuigen-ed10",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "vehicles",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-voertuigen-bf1e"
+   "level": "groep-3",
+   "deck": "optellen-gemengd-voertuigen-ed10"
   },
   {
-   "slug": "schaduw-koppelen-maak-het-heel-vogels-2-f87c",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "optellen-gemengd-vogels-2-f24b",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "birds_2",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-vogels-2-f87c"
+   "level": "groep-3",
+   "deck": "optellen-gemengd-vogels-2-f24b"
   },
   {
-   "slug": "schaduw-koppelen-maak-het-heel-vogels-7e51",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "optellen-gemengd-vogels-4150",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "birds",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-vogels-7e51"
+   "level": "groep-3",
+   "deck": "optellen-gemengd-vogels-4150"
   },
   {
-   "slug": "schaduw-koppelen-maak-het-heel-vormen-a6e8",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "optellen-gemengd-vormen-c525",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "shapes",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-vormen-a6e8"
+   "level": "groep-3",
+   "deck": "optellen-gemengd-vormen-c525"
   },
   {
-   "slug": "schaduw-koppelen-maak-het-heel-weer-6f10",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "weather",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-weer-6f10"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-winter-5d0e",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "winter",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-winter-5d0e"
-  },
-  {
-   "slug": "schaduw-koppelen-maak-het-heel-ziekenhuis-1b78",
-   "type": "shadow-match",
-   "mode": "make-whole",
+   "slug": "optellen-gemengd-ziekenhuis-2717",
+   "type": "addition",
+   "mode": "mixed",
    "theme": "hospital",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-ziekenhuis-1b78"
+   "level": "groep-3",
+   "deck": "optellen-gemengd-ziekenhuis-2717"
   },
   {
-   "slug": "schaduw-koppelen-maak-het-heel-zomer-5d17",
-   "type": "shadow-match",
-   "mode": "make-whole",
-   "theme": "summer",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-maak-het-heel-zomer-5d17"
+   "slug": "optellen-beeld-getal-accessoires-b3e3",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "accessories",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-accessoires-b3e3"
+  },
+  {
+   "slug": "optellen-beeld-getal-bakkerij-f7a0",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "bakery",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-bakkerij-f7a0"
+  },
+  {
+   "slug": "optellen-beeld-getal-beroepen-ba8d",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "occupations",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-beroepen-ba8d"
+  },
+  {
+   "slug": "optellen-beeld-getal-bloemen-9982",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "flowers",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-bloemen-9982"
+  },
+  {
+   "slug": "optellen-beeld-getal-boerderijdieren-e890",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "farm_animals",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-boerderijdieren-e890"
+  },
+  {
+   "slug": "optellen-beeld-getal-bomen-543f",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "tree",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-bomen-543f"
+  },
+  {
+   "slug": "optellen-beeld-getal-boswezens-5f75",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "forest_creatures",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-boswezens-5f75"
+  },
+  {
+   "slug": "optellen-beeld-getal-desserts-en-snoep-35d3",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "desserts_and_sweets",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-desserts-en-snoep-35d3"
+  },
+  {
+   "slug": "optellen-beeld-getal-dieren-cc01",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "animals",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-dieren-cc01"
+  },
+  {
+   "slug": "optellen-beeld-getal-dierentuindieren-cf54",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "zoo_animals",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-dierentuindieren-cf54"
+  },
+  {
+   "slug": "optellen-beeld-getal-dingen-die-vliegen-8a61",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "things_that_fly",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-dingen-die-vliegen-8a61"
+  },
+  {
+   "slug": "optellen-beeld-getal-dinosaurussen-8e5e",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "dinosaurs",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-dinosaurussen-8e5e"
+  },
+  {
+   "slug": "optellen-beeld-getal-fruit-8957",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "fruits",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-fruit-8957"
+  },
+  {
+   "slug": "optellen-beeld-getal-gereedschap-3e0f",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "tools",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-gereedschap-3e0f"
+  },
+  {
+   "slug": "optellen-beeld-getal-groenten-7153",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "vegetables",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-groenten-7153"
+  },
+  {
+   "slug": "optellen-beeld-getal-huisdieren-e9fa",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "pets",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-huisdieren-e9fa"
+  },
+  {
+   "slug": "optellen-beeld-getal-in-de-supermarkt-0ab9",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "at_the_supermarket",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-in-de-supermarkt-0ab9"
+  },
+  {
+   "slug": "optellen-beeld-getal-insecten-en-beestjes-a8b7",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "insects_and_bugs",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-insecten-en-beestjes-a8b7"
+  },
+  {
+   "slug": "optellen-beeld-getal-kamperen-233f",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "camping",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-kamperen-233f"
+  },
+  {
+   "slug": "optellen-beeld-getal-kerstmis-39b4",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "christmas",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-kerstmis-39b4"
+  },
+  {
+   "slug": "optellen-beeld-getal-keukengerei-b278",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "kitchen_tools",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-keukengerei-b278"
+  },
+  {
+   "slug": "optellen-beeld-getal-klaslokaal-08a9",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "classroom",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-klaslokaal-08a9"
+  },
+  {
+   "slug": "optellen-beeld-getal-kleding-3999",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "clothing",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-kleding-3999"
+  },
+  {
+   "slug": "optellen-beeld-getal-meubels-d368",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "furniture",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-meubels-d368"
+  },
+  {
+   "slug": "optellen-beeld-getal-muziek-329c",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "music",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-muziek-329c"
+  },
+  {
+   "slug": "optellen-beeld-getal-oceaanleven-b56c",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "ocean_life",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-oceaanleven-b56c"
+  },
+  {
+   "slug": "optellen-beeld-getal-ontbijt-bea3",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "breakfast",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-ontbijt-bea3"
+  },
+  {
+   "slug": "optellen-beeld-getal-pasen-53c8",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "easter",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-pasen-53c8"
+  },
+  {
+   "slug": "optellen-beeld-getal-postkantoor-47b4",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "post_office",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-postkantoor-47b4"
+  },
+  {
+   "slug": "optellen-beeld-getal-reptielen-en-amfibieen-998d",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "reptiles_and_amphibians",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-reptielen-en-amfibieen-998d"
+  },
+  {
+   "slug": "optellen-beeld-getal-rond-het-huis-cba4",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "around_the_house",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-rond-het-huis-cba4"
+  },
+  {
+   "slug": "optellen-beeld-getal-ruimte-9f29",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "space",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-ruimte-9f29"
+  },
+  {
+   "slug": "optellen-beeld-getal-speelgoed-c636",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "toys",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-speelgoed-c636"
+  },
+  {
+   "slug": "optellen-beeld-getal-strand-7976",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "beach",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-strand-7976"
+  },
+  {
+   "slug": "optellen-beeld-getal-thanksgiving-7e38",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "thanksgivinng",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-thanksgiving-7e38"
+  },
+  {
+   "slug": "optellen-beeld-getal-voertuigen-ee00",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "vehicles",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-voertuigen-ee00"
+  },
+  {
+   "slug": "optellen-beeld-getal-vogels-2-7199",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "birds_2",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-vogels-2-7199"
+  },
+  {
+   "slug": "optellen-beeld-getal-vogels-2909",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "birds",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-vogels-2909"
+  },
+  {
+   "slug": "optellen-beeld-getal-vormen-0d8b",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "shapes",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-vormen-0d8b"
+  },
+  {
+   "slug": "optellen-beeld-getal-ziekenhuis-a361",
+   "type": "addition",
+   "mode": "image-number",
+   "theme": "hospital",
+   "level": "groep-3",
+   "deck": "optellen-beeld-getal-ziekenhuis-a361"
   }
  ]
 }

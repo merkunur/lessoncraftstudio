@@ -2,643 +2,503 @@
  "part": 132,
  "locale": "pt",
  "classes": [
-  "picture-path::classic-maze",
-  "chart-count::null"
+  "picture-sort::null"
  ],
- "splitOf": null,
- "count": 79,
+ "splitOf": {
+  "class": "picture-sort::null",
+  "total": 122,
+  "chunk": 1,
+  "chunks": 2
+ },
+ "count": 61,
  "pages": [
   {
-   "slug": "caminho-ilustrado-labirinto-classico-acampamento-01a5",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "camping",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-acampamento-01a5"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-acessorios-af1b",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "accessories",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-acessorios-af1b"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-arvores-ee3f",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "tree",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-arvores-ee3f"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-atividades-f69b",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "activities",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-atividades-f69b"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-brinquedos-adcf",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "toys",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-brinquedos-adcf"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-cafe-da-manha-04ba",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "breakfast",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-cafe-da-manha-04ba"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-clima-b9d5",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "weather",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-clima-b9d5"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-cores-3e1a",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "colors",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-cores-3e1a"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-correios-7b81",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "post_office",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-correios-7b81"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-dinossauros-289f",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "dinosaurs",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-dinossauros-289f"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-diversos-4ee5",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "miscellaneous",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-diversos-4ee5"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-emocoes-bbd4",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "emotions",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-emocoes-bbd4"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-espaco-b362",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "space",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-espaco-b362"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-ferramentas-d685",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "tools",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-ferramentas-d685"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-flores-1d5b",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "flowers",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-flores-1d5b"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-formas-e69f",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "shapes",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-formas-e69f"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-frutas-9f63",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "fruits",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-frutas-9f63"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-hospital-8567",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "hospital",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-hospital-8567"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-insetos-e-bichos-3f87",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "insects_and_bugs",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-insetos-e-bichos-3f87"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-inverno-e8ab",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "winter",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-inverno-e8ab"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-moveis-2a21",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "furniture",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-moveis-2a21"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-musica-4e40",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "music",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-musica-4e40"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-natal-90bc",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "christmas",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-natal-90bc"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-no-supermercado-b1d0",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "at_the_supermarket",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-no-supermercado-b1d0"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-padaria-6b3a",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "bakery",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-padaria-6b3a"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-pascoa-2161",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "easter",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-pascoa-2161"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-passaros-be31",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "birds",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-passaros-be31"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-pela-casa-493e",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "around_the_house",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-pela-casa-493e"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-praia-cf41",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "beach",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-praia-cf41"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-primavera-e29b",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "spring",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-primavera-e29b"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-profissoes-1a27",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "occupations",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-profissoes-1a27"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-repteis-e-anfibios-cff7",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "reptiles_and_amphibians",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-repteis-e-anfibios-cff7"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-roupas-ec82",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "clothing",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-roupas-ec82"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-sala-de-aula-7ab6",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "classroom",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-sala-de-aula-7ab6"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-sobremesas-e-doces-0dc8",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "desserts_and_sweets",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-sobremesas-e-doces-0dc8"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-utensilios-de-cozinha-c7b1",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "kitchen_tools",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-utensilios-de-cozinha-c7b1"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-vegetais-39fd",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "vegetables",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-vegetais-39fd"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-veiculos-bc4c",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "vehicles",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-veiculos-bc4c"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-verao-019a",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "summer",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-verao-019a"
-  },
-  {
-   "slug": "caminho-ilustrado-labirinto-classico-vida-marinha-7ba0",
-   "type": "picture-path",
-   "mode": "classic-maze",
-   "theme": "ocean_life",
-   "level": "educacao-infantil",
-   "deck": "caminho-ilustrado-labirinto-classico-vida-marinha-7ba0"
-  },
-  {
-   "slug": "contagem-em-grafico-acampamento",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-activities-b089",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "camping",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-acampamento"
+   "theme": "accessories-vs-activities",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-activities-b089"
   },
   {
-   "slug": "contagem-em-grafico-acessorios",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-animals-08c9",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "accessories",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-acessorios"
+   "theme": "accessories-vs-animals",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-animals-08c9"
   },
   {
-   "slug": "contagem-em-grafico-animais",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-around-the-house-c391",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "animals",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-animais"
+   "theme": "accessories-vs-around_the_house",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-around-the-house-c391"
   },
   {
-   "slug": "contagem-em-grafico-animais-da-fazenda",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-at-the-supermarket-c046",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "farm_animals",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-animais-da-fazenda"
+   "theme": "accessories-vs-at_the_supermarket",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-at-the-supermarket-c046"
   },
   {
-   "slug": "contagem-em-grafico-animais-de-estimacao",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-bakery-ac64",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "pets",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-animais-de-estimacao"
+   "theme": "accessories-vs-bakery",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-bakery-ac64"
   },
   {
-   "slug": "contagem-em-grafico-animais-do-zoologico",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-beach-4461",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "zoo_animals",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-animais-do-zoologico"
+   "theme": "accessories-vs-beach",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-beach-4461"
   },
   {
-   "slug": "contagem-em-grafico-arvores",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-birds-efc1",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "tree",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-arvores"
+   "theme": "accessories-vs-birds",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-birds-efc1"
   },
   {
-   "slug": "contagem-em-grafico-brinquedos",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-body-parts-7d3d",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "toys",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-brinquedos"
+   "theme": "accessories-vs-body_parts",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-body-parts-7d3d"
   },
   {
-   "slug": "contagem-em-grafico-cafe-da-manha",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-breakfast-905c",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "breakfast",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-cafe-da-manha"
+   "theme": "accessories-vs-breakfast",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-breakfast-905c"
   },
   {
-   "slug": "contagem-em-grafico-coisas-que-voam",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-christmas-0043",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "things_that_fly",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-coisas-que-voam"
+   "theme": "accessories-vs-christmas",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-christmas-0043"
   },
   {
-   "slug": "contagem-em-grafico-cores",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-classroom-f12b",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "colors",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-cores"
+   "theme": "accessories-vs-classroom",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-classroom-f12b"
   },
   {
-   "slug": "contagem-em-grafico-correios",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-clothing-542f",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "post_office",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-correios"
+   "theme": "accessories-vs-clothing",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-clothing-542f"
   },
   {
-   "slug": "contagem-em-grafico-criaturas-da-floresta",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-colors-4d55",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "forest_creatures",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-criaturas-da-floresta"
+   "theme": "accessories-vs-colors",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-colors-4d55"
   },
   {
-   "slug": "contagem-em-grafico-dia-de-acao-de-gracas",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-desserts-and-sweets-2c0e",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "thanksgivinng",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-dia-de-acao-de-gracas"
+   "theme": "accessories-vs-desserts_and_sweets",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-desserts-and-sweets-2c0e"
   },
   {
-   "slug": "contagem-em-grafico-dinossauros",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-dinosaurs-d6bd",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "dinosaurs",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-dinossauros"
+   "theme": "accessories-vs-dinosaurs",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-dinosaurs-d6bd"
   },
   {
-   "slug": "contagem-em-grafico-espaco",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-easter-f0f1",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "space",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-espaco"
+   "theme": "accessories-vs-easter",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-easter-f0f1"
   },
   {
-   "slug": "contagem-em-grafico-ferramentas",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-emotions-c336",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "tools",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-ferramentas"
+   "theme": "accessories-vs-emotions",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-emotions-c336"
   },
   {
-   "slug": "contagem-em-grafico-flores",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-farm-animals-797e",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "flowers",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-flores"
+   "theme": "accessories-vs-farm_animals",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-farm-animals-797e"
   },
   {
-   "slug": "contagem-em-grafico-formas",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-flowers-d2d2",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "shapes",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-formas"
+   "theme": "accessories-vs-flowers",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-flowers-d2d2"
   },
   {
-   "slug": "contagem-em-grafico-frutas",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-forest-creatures-6784",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "fruits",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-frutas"
+   "theme": "accessories-vs-forest_creatures",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-forest-creatures-6784"
   },
   {
-   "slug": "contagem-em-grafico-hospital",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-fruits-fc1c",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "hospital",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-hospital"
+   "theme": "accessories-vs-fruits",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-fruits-fc1c"
   },
   {
-   "slug": "contagem-em-grafico-insetos-e-bichos",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-furniture-7f21",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-insetos-e-bichos"
+   "theme": "accessories-vs-furniture",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-furniture-7f21"
   },
   {
-   "slug": "contagem-em-grafico-moveis",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-hospital-fd56",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "furniture",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-moveis"
+   "theme": "accessories-vs-hospital",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-hospital-fd56"
   },
   {
-   "slug": "contagem-em-grafico-natal",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-insects-and-bugs-f696",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "christmas",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-natal"
+   "theme": "accessories-vs-insects_and_bugs",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-insects-and-bugs-f696"
   },
   {
-   "slug": "contagem-em-grafico-no-supermercado",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-kitchen-tools-80f9",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-no-supermercado"
+   "theme": "accessories-vs-kitchen_tools",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-kitchen-tools-80f9"
   },
   {
-   "slug": "contagem-em-grafico-padaria",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-music-0427",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "bakery",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-padaria"
+   "theme": "accessories-vs-music",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-music-0427"
   },
   {
-   "slug": "contagem-em-grafico-pascoa",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-occupations-6206",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "easter",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-pascoa"
+   "theme": "accessories-vs-occupations",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-occupations-6206"
   },
   {
-   "slug": "contagem-em-grafico-passaros",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-ocean-life-de19",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "birds",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-passaros"
+   "theme": "accessories-vs-ocean_life",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-ocean-life-de19"
   },
   {
-   "slug": "contagem-em-grafico-passaros-2",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-pets-b706",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "birds_2",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-passaros-2"
+   "theme": "accessories-vs-pets",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-pets-b706"
   },
   {
-   "slug": "contagem-em-grafico-pela-casa",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-post-office-315d",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "around_the_house",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-pela-casa"
+   "theme": "accessories-vs-post_office",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-post-office-315d"
   },
   {
-   "slug": "contagem-em-grafico-praia",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-reptiles-and-amphibians-cfc2",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "beach",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-praia"
+   "theme": "accessories-vs-reptiles_and_amphibians",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-reptiles-and-amphibians-cfc2"
   },
   {
-   "slug": "contagem-em-grafico-profissoes",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-shapes-4ebc",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "occupations",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-profissoes"
+   "theme": "accessories-vs-shapes",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-shapes-4ebc"
   },
   {
-   "slug": "contagem-em-grafico-repteis-e-anfibios",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-space-01eb",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "reptiles_and_amphibians",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-repteis-e-anfibios"
+   "theme": "accessories-vs-space",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-space-01eb"
   },
   {
-   "slug": "contagem-em-grafico-roupas",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-spring-12d1",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "clothing",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-roupas"
+   "theme": "accessories-vs-spring",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-spring-12d1"
   },
   {
-   "slug": "contagem-em-grafico-sala-de-aula",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-summer-3b6a",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "classroom",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-sala-de-aula"
+   "theme": "accessories-vs-summer",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-summer-3b6a"
   },
   {
-   "slug": "contagem-em-grafico-sobremesas-e-doces",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-thanksgiving-5a2d",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-sobremesas-e-doces"
+   "theme": "accessories-vs-thanksgivinng",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-thanksgiving-5a2d"
   },
   {
-   "slug": "contagem-em-grafico-vegetais",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-things-that-fly-5de5",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "vegetables",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-vegetais"
+   "theme": "accessories-vs-things_that_fly",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-things-that-fly-5de5"
   },
   {
-   "slug": "contagem-em-grafico-veiculos",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-tools-f1ca",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "vehicles",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-veiculos"
+   "theme": "accessories-vs-tools",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-tools-f1ca"
   },
   {
-   "slug": "contagem-em-grafico-vida-marinha",
-   "type": "chart-count",
+   "slug": "ordenar-imagens-accessories-vs-toys-2fad",
+   "type": "picture-sort",
    "mode": null,
-   "theme": "ocean_life",
-   "level": "1o-ano",
-   "deck": "contagem-em-grafico-vida-marinha"
+   "theme": "accessories-vs-toys",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-toys-2fad"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-tree-18d6",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-tree",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-tree-18d6"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-vegetables-b107",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-vegetables",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-vegetables-b107"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-vehicles-0723",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-vehicles",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-vehicles-0723"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-weather-6f05",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-weather",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-weather-6f05"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-winter-47ea",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-winter",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-winter-47ea"
+  },
+  {
+   "slug": "ordenar-imagens-accessories-vs-zoo-animals-fd8a",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "accessories-vs-zoo_animals",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-accessories-vs-zoo-animals-fd8a"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-activities-efac",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-activities",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-activities-efac"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-around-the-house-77c8",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-around_the_house",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-around-the-house-77c8"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-at-the-supermarket-f0f1",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-at_the_supermarket",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-at-the-supermarket-f0f1"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-bakery-054c",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-bakery",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-bakery-054c"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-beach-5ebf",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-beach",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-beach-5ebf"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-body-parts-bae1",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-body_parts",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-body-parts-bae1"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-breakfast-aa7e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-breakfast",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-breakfast-aa7e"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-christmas-cb36",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-christmas",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-christmas-cb36"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-classroom-9206",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-classroom",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-classroom-9206"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-clothing-f180",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-clothing",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-clothing-f180"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-desserts-and-sweets-55eb",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-desserts_and_sweets",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-desserts-and-sweets-55eb"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-dinosaurs-e87e",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-dinosaurs",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-dinosaurs-e87e"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-easter-66dd",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-easter",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-easter-66dd"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-emotions-ab78",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-emotions",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-emotions-ab78"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-flowers-463a",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-flowers",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-flowers-463a"
+  },
+  {
+   "slug": "ordenar-imagens-animals-vs-fruits-0e95",
+   "type": "picture-sort",
+   "mode": null,
+   "theme": "animals-vs-fruits",
+   "level": "educacao-infantil",
+   "deck": "ordenar-imagens-animals-vs-fruits-0e95"
   }
  ]
 }

@@ -2,731 +2,727 @@
  "part": 276,
  "locale": "da",
  "classes": [
-  "find-and-count::letter-spotting",
-  "shadow-match::find-shadow"
+  "more-less::image-number",
+  "picture-path::classic-maze",
+  "fractions::name-and-compare",
+  "fractions::partition-and-share",
+  "measurement::compare-weight",
+  "measurement::length-units",
+  "measurement::measure-and-compare-length",
+  "measurement::volume-and-temperature",
+  "geometry::count-and-sort-shapes",
+  "geometry::quadrilaterals-and-area",
+  "geometry::shape-attributes",
+  "telling-time::hour-half-hour",
+  "telling-time::to-five-minutes",
+  "telling-time::to-the-minute"
  ],
  "splitOf": null,
- "count": 90,
+ "count": 88,
  "pages": [
   {
-   "slug": "find-og-tael-find-bogstaver-aktiviteter-f5a5",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "activities",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-aktiviteter-f5a5"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-bageri-a4f1",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "mere-mindre-billede-tal-bageri-d6f6",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "bakery",
    "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-bageri-a4f1"
+   "deck": "mere-mindre-billede-tal-bageri-d6f6"
   },
   {
-   "slug": "find-og-tael-find-bogstaver-blomster-ffc2",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "mere-mindre-billede-tal-blomster-47f6",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "flowers",
    "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-blomster-ffc2"
+   "deck": "mere-mindre-billede-tal-blomster-47f6"
   },
   {
-   "slug": "find-og-tael-find-bogstaver-bondegardsdyr-2088",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "mere-mindre-billede-tal-bondegardsdyr-f375",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "farm_animals",
    "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-bondegardsdyr-2088"
+   "deck": "mere-mindre-billede-tal-bondegardsdyr-f375"
   },
   {
-   "slug": "find-og-tael-find-bogstaver-camping-abac",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
+   "slug": "mere-mindre-billede-tal-camping-9682",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "camping",
    "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-camping-abac"
+   "deck": "mere-mindre-billede-tal-camping-9682"
   },
   {
-   "slug": "find-og-tael-find-bogstaver-dyr",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "animals",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-dyr"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-erhverv-b82a",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "occupations",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-erhverv-b82a"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-farver-d9a0",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "colors",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-farver-d9a0"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-folelser-845b",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "emotions",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-folelser-845b"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-forar-c4ed",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "spring",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-forar-c4ed"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-former-903e",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "shapes",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-former-903e"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-frugter-f945",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "fruits",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-frugter-f945"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-fugle-2-d25f",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "birds_2",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-fugle-2-d25f"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-grontsager-ce15",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "vegetables",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-grontsager-ce15"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-havliv-5353",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "ocean_life",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-havliv-5353"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-hospital-6fda",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "hospital",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-hospital-6fda"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-i-supermarkedet-f0fb",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "at_the_supermarket",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-i-supermarkedet-f0fb"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-insekter-og-kryb-44ff",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "insects_and_bugs",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-insekter-og-kryb-44ff"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-jul-8112",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "christmas",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-jul-8112"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-kaeledyr-bdaa",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "pets",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-kaeledyr-bdaa"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-klassevaerelse-5e45",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "classroom",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-klassevaerelse-5e45"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-kokkenredskaber-9095",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "kitchen_tools",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-kokkenredskaber-9095"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-koretojer-8f4a",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "vehicles",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-koretojer-8f4a"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-kropsdele-3b4e",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "body_parts",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-kropsdele-3b4e"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-krybdyr-og-padder-b061",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "reptiles_and_amphibians",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-krybdyr-og-padder-b061"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-legetoj-8ee9",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "toys",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-legetoj-8ee9"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-mobler-f83d",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "furniture",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-mobler-f83d"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-morgenmad-9d04",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "breakfast",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-morgenmad-9d04"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-musik-eb65",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "music",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-musik-eb65"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-paske-f8af",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "easter",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-paske-f8af"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-postkontor-1405",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "post_office",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-postkontor-1405"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-rummet-17e6",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "space",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-rummet-17e6"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-rundt-i-huset-0b6c",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "around_the_house",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-rundt-i-huset-0b6c"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-skovdyr-de5a",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "forest_creatures",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-skovdyr-de5a"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-sommer-7697",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "summer",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-sommer-7697"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-strand-c1be",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "beach",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-strand-c1be"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-thanksgiving-995e",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "thanksgivinng",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-thanksgiving-995e"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-tilbehor-8db6",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "accessories",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-tilbehor-8db6"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-ting-der-flyver-31a0",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "things_that_fly",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-ting-der-flyver-31a0"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-toj-3437",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "clothing",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-toj-3437"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-traeer-fcc0",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "tree",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-traeer-fcc0"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-vaerktoj-579f",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "tools",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-vaerktoj-579f"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-vejr-4d95",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "weather",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-vejr-4d95"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-vinter-0d9a",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "winter",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-vinter-0d9a"
-  },
-  {
-   "slug": "find-og-tael-find-bogstaver-zoodyr-130d",
-   "type": "find-and-count",
-   "mode": "letter-spotting",
-   "theme": "zoo_animals",
-   "level": "boernehaveklasse",
-   "deck": "find-og-tael-find-bogstaver-zoodyr-130d"
-  },
-  {
-   "slug": "match-skygger-match-skyggen-aktiviteter-bbb6",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "activities",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-aktiviteter-bbb6"
-  },
-  {
-   "slug": "match-skygger-match-skyggen-bageri-38d4",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "bakery",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-bageri-38d4"
-  },
-  {
-   "slug": "match-skygger-match-skyggen-blomster-4d86",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "flowers",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-blomster-4d86"
-  },
-  {
-   "slug": "match-skygger-match-skyggen-bondegardsdyr-4ca4",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "farm_animals",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-bondegardsdyr-4ca4"
-  },
-  {
-   "slug": "match-skygger-match-skyggen-camping-fe7c",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "camping",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-camping-fe7c"
-  },
-  {
-   "slug": "match-skygger-match-skyggen-desserter-og-slik-a6c0",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "desserts_and_sweets",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-desserter-og-slik-a6c0"
-  },
-  {
-   "slug": "match-skygger-match-skyggen-dinosaurer-6ae9",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-dinosaurer-8abe",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "dinosaurs",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-dinosaurer-6ae9"
+   "deck": "mere-mindre-billede-tal-dinosaurer-8abe"
   },
   {
-   "slug": "match-skygger-match-skyggen-dyr",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-dyr-7cbb",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "animals",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-dyr"
+   "deck": "mere-mindre-billede-tal-dyr-7cbb"
   },
   {
-   "slug": "match-skygger-match-skyggen-erhverv-ae1e",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-erhverv-5e7a",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "occupations",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-erhverv-ae1e"
+   "deck": "mere-mindre-billede-tal-erhverv-5e7a"
   },
   {
-   "slug": "match-skygger-match-skyggen-forar-d924",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "spring",
+   "slug": "mere-mindre-billede-tal-former-09e1",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "shapes",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-forar-d924"
+   "deck": "mere-mindre-billede-tal-former-09e1"
   },
   {
-   "slug": "match-skygger-match-skyggen-frugter-46c5",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-frugter-d0c7",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "fruits",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-frugter-46c5"
+   "deck": "mere-mindre-billede-tal-frugter-d0c7"
   },
   {
-   "slug": "match-skygger-match-skyggen-fugle-2-a200",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "birds_2",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-fugle-2-a200"
-  },
-  {
-   "slug": "match-skygger-match-skyggen-fugle-b79b",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-fugle-17a0",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "birds",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-fugle-b79b"
+   "deck": "mere-mindre-billede-tal-fugle-17a0"
   },
   {
-   "slug": "match-skygger-match-skyggen-grontsager-a4bc",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-fugle-2-e8ba",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "birds_2",
+   "level": "boernehaveklasse",
+   "deck": "mere-mindre-billede-tal-fugle-2-e8ba"
+  },
+  {
+   "slug": "mere-mindre-billede-tal-grontsager-8d33",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "vegetables",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-grontsager-a4bc"
+   "deck": "mere-mindre-billede-tal-grontsager-8d33"
   },
   {
-   "slug": "match-skygger-match-skyggen-havliv-dcf7",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-havliv-9ab3",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "ocean_life",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-havliv-dcf7"
+   "deck": "mere-mindre-billede-tal-havliv-9ab3"
   },
   {
-   "slug": "match-skygger-match-skyggen-hospital-271f",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-hospital-e8bb",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "hospital",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-hospital-271f"
+   "deck": "mere-mindre-billede-tal-hospital-e8bb"
   },
   {
-   "slug": "match-skygger-match-skyggen-i-supermarkedet-4d96",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-i-supermarkedet-1620",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "at_the_supermarket",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-i-supermarkedet-4d96"
+   "deck": "mere-mindre-billede-tal-i-supermarkedet-1620"
   },
   {
-   "slug": "match-skygger-match-skyggen-insekter-og-kryb-c108",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-insekter-og-kryb-505a",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "insects_and_bugs",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-insekter-og-kryb-c108"
+   "deck": "mere-mindre-billede-tal-insekter-og-kryb-505a"
   },
   {
-   "slug": "match-skygger-match-skyggen-jul-0e5c",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-jul-fe5b",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "christmas",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-jul-0e5c"
+   "deck": "mere-mindre-billede-tal-jul-fe5b"
   },
   {
-   "slug": "match-skygger-match-skyggen-kaeledyr-db41",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-kaeledyr-0dcc",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "pets",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-kaeledyr-db41"
+   "deck": "mere-mindre-billede-tal-kaeledyr-0dcc"
   },
   {
-   "slug": "match-skygger-match-skyggen-klassevaerelse-bb73",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-klassevaerelse-acff",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "classroom",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-klassevaerelse-bb73"
+   "deck": "mere-mindre-billede-tal-klassevaerelse-acff"
   },
   {
-   "slug": "match-skygger-match-skyggen-kokkenredskaber-33cd",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-kokkenredskaber-9a59",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "kitchen_tools",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-kokkenredskaber-33cd"
+   "deck": "mere-mindre-billede-tal-kokkenredskaber-9a59"
   },
   {
-   "slug": "match-skygger-match-skyggen-koretojer-a667",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-koretojer-60c9",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "vehicles",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-koretojer-a667"
+   "deck": "mere-mindre-billede-tal-koretojer-60c9"
   },
   {
-   "slug": "match-skygger-match-skyggen-kropsdele-3fd8",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "body_parts",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-kropsdele-3fd8"
-  },
-  {
-   "slug": "match-skygger-match-skyggen-krybdyr-og-padder-0d14",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-krybdyr-og-padder-8f26",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "reptiles_and_amphibians",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-krybdyr-og-padder-0d14"
+   "deck": "mere-mindre-billede-tal-krybdyr-og-padder-8f26"
   },
   {
-   "slug": "match-skygger-match-skyggen-legetoj-f239",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-legetoj-c59b",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "toys",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-legetoj-f239"
+   "deck": "mere-mindre-billede-tal-legetoj-c59b"
   },
   {
-   "slug": "match-skygger-match-skyggen-mobler-b349",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-mobler-3f69",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "furniture",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-mobler-b349"
+   "deck": "mere-mindre-billede-tal-mobler-3f69"
   },
   {
-   "slug": "match-skygger-match-skyggen-morgenmad-6cdc",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-morgenmad-43de",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "breakfast",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-morgenmad-6cdc"
+   "deck": "mere-mindre-billede-tal-morgenmad-43de"
   },
   {
-   "slug": "match-skygger-match-skyggen-musik-b9d2",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-musik-f3d5",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "music",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-musik-b9d2"
+   "deck": "mere-mindre-billede-tal-musik-f3d5"
   },
   {
-   "slug": "match-skygger-match-skyggen-paske-0cce",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-paske-9765",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "easter",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-paske-0cce"
+   "deck": "mere-mindre-billede-tal-paske-9765"
   },
   {
-   "slug": "match-skygger-match-skyggen-postkontor-66b2",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-postkontor-c503",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "post_office",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-postkontor-66b2"
+   "deck": "mere-mindre-billede-tal-postkontor-c503"
   },
   {
-   "slug": "match-skygger-match-skyggen-rummet-501a",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-rummet-f011",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "space",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-rummet-501a"
+   "deck": "mere-mindre-billede-tal-rummet-f011"
   },
   {
-   "slug": "match-skygger-match-skyggen-rundt-i-huset-0f8c",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-rundt-i-huset-4ae6",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "around_the_house",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-rundt-i-huset-0f8c"
+   "deck": "mere-mindre-billede-tal-rundt-i-huset-4ae6"
   },
   {
-   "slug": "match-skygger-match-skyggen-skovdyr-5b3f",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-skovdyr-fabc",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "forest_creatures",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-skovdyr-5b3f"
+   "deck": "mere-mindre-billede-tal-skovdyr-fabc"
   },
   {
-   "slug": "match-skygger-match-skyggen-sommer-096b",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "summer",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-sommer-096b"
-  },
-  {
-   "slug": "match-skygger-match-skyggen-strand-e0ab",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-strand-47d0",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "beach",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-strand-e0ab"
+   "deck": "mere-mindre-billede-tal-strand-47d0"
   },
   {
-   "slug": "match-skygger-match-skyggen-thanksgiving-1623",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-thanksgiving-70aa",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "thanksgivinng",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-thanksgiving-1623"
+   "deck": "mere-mindre-billede-tal-thanksgiving-70aa"
   },
   {
-   "slug": "match-skygger-match-skyggen-tilbehor-a1f1",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-tilbehor-b32c",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "accessories",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-tilbehor-a1f1"
+   "deck": "mere-mindre-billede-tal-tilbehor-b32c"
   },
   {
-   "slug": "match-skygger-match-skyggen-ting-der-flyver-f80d",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-ting-der-flyver-ebfb",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "things_that_fly",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-ting-der-flyver-f80d"
+   "deck": "mere-mindre-billede-tal-ting-der-flyver-ebfb"
   },
   {
-   "slug": "match-skygger-match-skyggen-toj-fd3e",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-toj-3bd0",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "clothing",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-toj-fd3e"
+   "deck": "mere-mindre-billede-tal-toj-3bd0"
   },
   {
-   "slug": "match-skygger-match-skyggen-traeer-c543",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-traeer-7702",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "tree",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-traeer-c543"
+   "deck": "mere-mindre-billede-tal-traeer-7702"
   },
   {
-   "slug": "match-skygger-match-skyggen-vaerktoj-7614",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-vaerktoj-dc17",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "tools",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-vaerktoj-7614"
+   "deck": "mere-mindre-billede-tal-vaerktoj-dc17"
   },
   {
-   "slug": "match-skygger-match-skyggen-vejr-c2de",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "weather",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-vejr-c2de"
-  },
-  {
-   "slug": "match-skygger-match-skyggen-vinter-f385",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "winter",
-   "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-vinter-f385"
-  },
-  {
-   "slug": "match-skygger-match-skyggen-zoodyr-90a9",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "mere-mindre-billede-tal-zoodyr-1073",
+   "type": "more-less",
+   "mode": "image-number",
    "theme": "zoo_animals",
    "level": "boernehaveklasse",
-   "deck": "match-skygger-match-skyggen-zoodyr-90a9"
+   "deck": "mere-mindre-billede-tal-zoodyr-1073"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-aktiviteter-4d5a",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "activities",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-aktiviteter-4d5a"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-bageri-cc5f",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "bakery",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-bageri-cc5f"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-blomster-d8e6",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "flowers",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-blomster-d8e6"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-camping-fd42",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "camping",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-camping-fd42"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-desserter-og-slik-8a83",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "desserts_and_sweets",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-desserter-og-slik-8a83"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-dinosaurer-6999",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "dinosaurs",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-dinosaurer-6999"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-erhverv-78e1",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "occupations",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-erhverv-78e1"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-farver-00ac",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "colors",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-farver-00ac"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-folelser-540f",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "emotions",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-folelser-540f"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-former-055e",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "shapes",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-former-055e"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-frugter-99d1",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "fruits",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-frugter-99d1"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-grontsager-0fa0",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "vegetables",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-grontsager-0fa0"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-hospital-b350",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "hospital",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-hospital-b350"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-i-supermarkedet-4faa",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "at_the_supermarket",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-i-supermarkedet-4faa"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-jul-5df9",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "christmas",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-jul-5df9"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-klassevaerelse-b471",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "classroom",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-klassevaerelse-b471"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-kokkenredskaber-d787",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "kitchen_tools",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-kokkenredskaber-d787"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-koretojer-bf27",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "vehicles",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-koretojer-bf27"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-kropsdele-37b5",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "body_parts",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-kropsdele-37b5"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-legetoj-c13d",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "toys",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-legetoj-c13d"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-mobler-4781",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "furniture",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-mobler-4781"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-morgenmad-0646",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "breakfast",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-morgenmad-0646"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-musik-1849",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "music",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-musik-1849"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-paske-1e94",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "easter",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-paske-1e94"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-postkontor-e439",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "post_office",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-postkontor-e439"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-rummet-0b4b",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "space",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-rummet-0b4b"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-rundt-i-huset-7768",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "around_the_house",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-rundt-i-huset-7768"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-sommer-bd3a",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "summer",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-sommer-bd3a"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-strand-5e7c",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "beach",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-strand-5e7c"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-thanksgiving-f2bd",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "thanksgivinng",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-thanksgiving-f2bd"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-tilbehor-487a",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "accessories",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-tilbehor-487a"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-ting-der-flyver-32b9",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "things_that_fly",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-ting-der-flyver-32b9"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-toj-53d4",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "clothing",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-toj-53d4"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-traeer-be9f",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "tree",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-traeer-be9f"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-vaerktoj-7962",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "tools",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-vaerktoj-7962"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-vejr-6713",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "weather",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-vejr-6713"
+  },
+  {
+   "slug": "billedvej-klassisk-labyrint-vinter-2479",
+   "type": "picture-path",
+   "mode": "classic-maze",
+   "theme": "winter",
+   "level": "boernehaveklasse",
+   "deck": "billedvej-klassisk-labyrint-vinter-2479"
+  },
+  {
+   "slug": "broeker-tallinje-3-klasse",
+   "type": "fractions",
+   "mode": "name-and-compare",
+   "theme": "",
+   "level": "3-klasse",
+   "deck": "broeker-g3315"
+  },
+  {
+   "slug": "broeker-lige-dele-2-klasse",
+   "type": "fractions",
+   "mode": "partition-and-share",
+   "theme": "",
+   "level": "2-klasse",
+   "deck": "broeker-g2228"
+  },
+  {
+   "slug": "maaling-tung-eller-let-boernehaveklasse",
+   "type": "measurement",
+   "mode": "compare-weight",
+   "theme": "",
+   "level": "boernehaveklasse",
+   "deck": "maaling-dyr-k038"
+  },
+  {
+   "slug": "maale-laengde-med-enheder-1-klasse",
+   "type": "measurement",
+   "mode": "length-units",
+   "theme": "",
+   "level": "1-klasse",
+   "deck": "maaling-dyr-g1139"
+  },
+  {
+   "slug": "maale-med-lineal-2-klasse",
+   "type": "measurement",
+   "mode": "measure-and-compare-length",
+   "theme": "",
+   "level": "2-klasse",
+   "deck": "maaling-former-g2235"
+  },
+  {
+   "slug": "temperatur-og-rumfang-3-klasse",
+   "type": "measurement",
+   "mode": "volume-and-temperature",
+   "theme": "",
+   "level": "3-klasse",
+   "deck": "maaling-g3345"
+  },
+  {
+   "slug": "geometri-former-boernehaveklasse",
+   "type": "geometry",
+   "mode": "count-and-sort-shapes",
+   "theme": "",
+   "level": "boernehaveklasse",
+   "deck": "geometri-k075"
+  },
+  {
+   "slug": "geometri-omkreds-areal-3-klasse",
+   "type": "geometry",
+   "mode": "quadrilaterals-and-area",
+   "theme": "",
+   "level": "3-klasse",
+   "deck": "geometri-g3337"
+  },
+  {
+   "slug": "geometri-rumlige-figurer-2-klasse",
+   "type": "geometry",
+   "mode": "shape-attributes",
+   "theme": "",
+   "level": "2-klasse",
+   "deck": "geometri-g2241"
+  },
+  {
+   "slug": "klokken-arbejdsark-1-klasse",
+   "type": "telling-time",
+   "mode": "hour-half-hour",
+   "theme": "",
+   "level": "1-klasse",
+   "deck": "klokken-g1148"
+  },
+  {
+   "slug": "klokken-fem-minutter-2-klasse",
+   "type": "telling-time",
+   "mode": "to-five-minutes",
+   "theme": "",
+   "level": "2-klasse",
+   "deck": "klokken-g2249"
+  },
+  {
+   "slug": "klokken-paa-minuttet-3-klasse",
+   "type": "telling-time",
+   "mode": "to-the-minute",
+   "theme": "",
+   "level": "3-klasse",
+   "deck": "klokken-g3344"
   }
  ]
 }

@@ -2,779 +2,771 @@
  "part": 264,
  "locale": "da",
  "classes": [
-  "pattern-train::aabb",
-  "pattern-train::abb"
+  "math-worksheet::three-symbols-add-sub",
+  "math-worksheet::two-symbols-add-sub"
  ],
  "splitOf": null,
- "count": 96,
+ "count": 95,
  "pages": [
   {
-   "slug": "monstertoget-aabb-aktiviteter-77f8",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-aktiviteter-b1ff",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "activities",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-aktiviteter-77f8"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-aktiviteter-b1ff"
   },
   {
-   "slug": "monstertoget-aabb-bageri-388f",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-bageri-77cd",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "bakery",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-bageri-388f"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-bageri-77cd"
   },
   {
-   "slug": "monstertoget-aabb-blomster-0c61",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-blomster-8ae7",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "flowers",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-blomster-0c61"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-blomster-8ae7"
   },
   {
-   "slug": "monstertoget-aabb-bondegardsdyr-72e7",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-bondegardsdyr-08f7",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "farm_animals",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-bondegardsdyr-72e7"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-bondegardsdyr-08f7"
   },
   {
-   "slug": "monstertoget-aabb-camping-e304",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-camping-fa14",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "camping",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-camping-e304"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-camping-fa14"
   },
   {
-   "slug": "monstertoget-aabb-desserter-og-slik-1f14",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-desserter-og-slik-7d6b",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "desserts_and_sweets",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-desserter-og-slik-1f14"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-desserter-og-slik-7d6b"
   },
   {
-   "slug": "monstertoget-aabb-dinosaurer-7ac7",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-dinosaurer-09cc",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-dinosaurer-7ac7"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-dinosaurer-09cc"
   },
   {
-   "slug": "monstertoget-aabb-dyr-da3f",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-dyr-4244",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "animals",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-dyr-da3f"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-dyr-4244"
   },
   {
-   "slug": "monstertoget-aabb-erhverv-9fb0",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-erhverv-80e2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "occupations",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-erhverv-9fb0"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-erhverv-80e2"
   },
   {
-   "slug": "monstertoget-aabb-farver-0ee0",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-farver-08fc",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "colors",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-farver-0ee0"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-farver-08fc"
   },
   {
-   "slug": "monstertoget-aabb-folelser-1e1d",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-folelser-ddbd",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "emotions",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-folelser-1e1d"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-folelser-ddbd"
   },
   {
-   "slug": "monstertoget-aabb-forar-f886",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-forar-0062",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "spring",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-forar-f886"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-forar-0062"
   },
   {
-   "slug": "monstertoget-aabb-former-d86d",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-former-86de",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "shapes",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-former-d86d"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-former-86de"
   },
   {
-   "slug": "monstertoget-aabb-frugter-d16d",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-frugter-cdb8",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "fruits",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-frugter-d16d"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-frugter-cdb8"
   },
   {
-   "slug": "monstertoget-aabb-fugle-2-b746",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "birds_2",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-fugle-2-b746"
-  },
-  {
-   "slug": "monstertoget-aabb-fugle-9da5",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-fugle-0600",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "birds",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-fugle-9da5"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-fugle-0600"
   },
   {
-   "slug": "monstertoget-aabb-grontsager-895f",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-fugle-2-59f2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
+   "theme": "birds_2",
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-fugle-2-59f2"
+  },
+  {
+   "slug": "matematikark-3-symboler-add-sub-grontsager-798d",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "vegetables",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-grontsager-895f"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-grontsager-798d"
   },
   {
-   "slug": "monstertoget-aabb-havliv-42e9",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-havliv-0a5b",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "ocean_life",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-havliv-42e9"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-havliv-0a5b"
   },
   {
-   "slug": "monstertoget-aabb-hospital-1a26",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-hospital-195f",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "hospital",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-hospital-1a26"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-hospital-195f"
   },
   {
-   "slug": "monstertoget-aabb-i-supermarkedet-52c8",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-i-supermarkedet-cf65",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "at_the_supermarket",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-i-supermarkedet-52c8"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-i-supermarkedet-cf65"
   },
   {
-   "slug": "monstertoget-aabb-insekter-og-kryb-92d7",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-insekter-og-kryb-2be7",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "insects_and_bugs",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-insekter-og-kryb-92d7"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-insekter-og-kryb-2be7"
   },
   {
-   "slug": "monstertoget-aabb-jul-4272",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-jul-b38e",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "christmas",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-jul-4272"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-jul-b38e"
   },
   {
-   "slug": "monstertoget-aabb-kaeledyr-5aaf",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-kaeledyr-778e",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "pets",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-kaeledyr-5aaf"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-kaeledyr-778e"
   },
   {
-   "slug": "monstertoget-aabb-klassevaerelse-760c",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-klassevaerelse-46fc",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "classroom",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-klassevaerelse-760c"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-klassevaerelse-46fc"
   },
   {
-   "slug": "monstertoget-aabb-kokkenredskaber-581d",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-kokkenredskaber-65f8",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "kitchen_tools",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-kokkenredskaber-581d"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-kokkenredskaber-65f8"
   },
   {
-   "slug": "monstertoget-aabb-koretojer-68ad",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-koretojer-8848",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "vehicles",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-koretojer-68ad"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-koretojer-8848"
   },
   {
-   "slug": "monstertoget-aabb-kropsdele-a62c",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-kropsdele-cd1e",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "body_parts",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-kropsdele-a62c"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-kropsdele-cd1e"
   },
   {
-   "slug": "monstertoget-aabb-krybdyr-og-padder-013e",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-krybdyr-og-padder-45c5",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "reptiles_and_amphibians",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-krybdyr-og-padder-013e"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-krybdyr-og-padder-45c5"
   },
   {
-   "slug": "monstertoget-aabb-legetoj-ec52",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-legetoj-21c2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "toys",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-legetoj-ec52"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-legetoj-21c2"
   },
   {
-   "slug": "monstertoget-aabb-mobler-6445",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-mobler-c5a6",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "furniture",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-mobler-6445"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-mobler-c5a6"
   },
   {
-   "slug": "monstertoget-aabb-morgenmad-2dc5",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-morgenmad-98c2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "breakfast",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-morgenmad-2dc5"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-morgenmad-98c2"
   },
   {
-   "slug": "monstertoget-aabb-musik-0ae3",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-musik-9652",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "music",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-musik-0ae3"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-musik-9652"
   },
   {
-   "slug": "monstertoget-aabb-paske-e350",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-paske-39ff",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "easter",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-paske-e350"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-paske-39ff"
   },
   {
-   "slug": "monstertoget-aabb-postkontor-79e9",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-postkontor-b682",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "post_office",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-postkontor-79e9"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-postkontor-b682"
   },
   {
-   "slug": "monstertoget-aabb-rummet-9d5c",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-rummet-e893",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "space",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-rummet-9d5c"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-rummet-e893"
   },
   {
-   "slug": "monstertoget-aabb-rundt-i-huset-cb2a",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-rundt-i-huset-e5c2",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "around_the_house",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-rundt-i-huset-cb2a"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-rundt-i-huset-e5c2"
   },
   {
-   "slug": "monstertoget-aabb-skovdyr-3a6b",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-skovdyr-376f",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "forest_creatures",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-skovdyr-3a6b"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-skovdyr-376f"
   },
   {
-   "slug": "monstertoget-aabb-sommer-4fa8",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-sommer-c6e8",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "summer",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-sommer-4fa8"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-sommer-c6e8"
   },
   {
-   "slug": "monstertoget-aabb-strand-d452",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-strand-1a83",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "beach",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-strand-d452"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-strand-1a83"
   },
   {
-   "slug": "monstertoget-aabb-thanksgiving-3626",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-thanksgiving-4007",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "thanksgivinng",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-thanksgiving-3626"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-thanksgiving-4007"
   },
   {
-   "slug": "monstertoget-aabb-tilbehor-654b",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-tilbehor-3875",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "accessories",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-tilbehor-654b"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-tilbehor-3875"
   },
   {
-   "slug": "monstertoget-aabb-ting-der-flyver-acf3",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-ting-der-flyver-87c6",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "things_that_fly",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-ting-der-flyver-acf3"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-ting-der-flyver-87c6"
   },
   {
-   "slug": "monstertoget-aabb-toj-1bff",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-toj-cf64",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "clothing",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-toj-1bff"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-toj-cf64"
   },
   {
-   "slug": "monstertoget-aabb-traeer-8a3b",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-traeer-e991",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "tree",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-traeer-8a3b"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-traeer-e991"
   },
   {
-   "slug": "monstertoget-aabb-vaerktoj-01a1",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-vaerktoj-b184",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "tools",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-vaerktoj-01a1"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-vaerktoj-b184"
   },
   {
-   "slug": "monstertoget-aabb-vejr-1ce9",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-vejr-ed84",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "weather",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-vejr-1ce9"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-vejr-ed84"
   },
   {
-   "slug": "monstertoget-aabb-vinter-dbb6",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-vinter-901f",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "winter",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-vinter-dbb6"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-vinter-901f"
   },
   {
-   "slug": "monstertoget-aabb-zoodyr-00d1",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "matematikark-3-symboler-add-sub-zoodyr-6a50",
+   "type": "math-worksheet",
+   "mode": "three-symbols-add-sub",
    "theme": "zoo_animals",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-aabb-zoodyr-00d1"
+   "level": "1-klasse",
+   "deck": "matematikark-3-symboler-add-sub-zoodyr-6a50"
   },
   {
-   "slug": "monstertoget-abb-aktiviteter-72e0",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-aktiviteter-f7d0",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "activities",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-aktiviteter-72e0"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-aktiviteter-f7d0"
   },
   {
-   "slug": "monstertoget-abb-bageri-9011",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-bageri-bec4",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "bakery",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-bageri-9011"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-bageri-bec4"
   },
   {
-   "slug": "monstertoget-abb-blomster-2fec",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-blomster-01e0",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "flowers",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-blomster-2fec"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-blomster-01e0"
   },
   {
-   "slug": "monstertoget-abb-bondegardsdyr-01d5",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-bondegardsdyr-0b16",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "farm_animals",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-bondegardsdyr-01d5"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-bondegardsdyr-0b16"
   },
   {
-   "slug": "monstertoget-abb-camping-7756",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-camping-9855",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "camping",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-camping-7756"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-camping-9855"
   },
   {
-   "slug": "monstertoget-abb-desserter-og-slik-09e1",
-   "type": "pattern-train",
-   "mode": "abb",
-   "theme": "desserts_and_sweets",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-desserter-og-slik-09e1"
-  },
-  {
-   "slug": "monstertoget-abb-dinosaurer-256e",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-dinosaurer-622d",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "dinosaurs",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-dinosaurer-256e"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-dinosaurer-622d"
   },
   {
-   "slug": "monstertoget-abb-dyr-d804",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-dyr-6091",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "animals",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-dyr-d804"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-dyr-6091"
   },
   {
-   "slug": "monstertoget-abb-erhverv-2e44",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-erhverv-e26b",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "occupations",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-erhverv-2e44"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-erhverv-e26b"
   },
   {
-   "slug": "monstertoget-abb-farver-5e3a",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-farver-c9c2",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "colors",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-farver-5e3a"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-farver-c9c2"
   },
   {
-   "slug": "monstertoget-abb-folelser-9696",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-folelser-8fed",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "emotions",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-folelser-9696"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-folelser-8fed"
   },
   {
-   "slug": "monstertoget-abb-forar-90c8",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-forar-79a1",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "spring",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-forar-90c8"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-forar-79a1"
   },
   {
-   "slug": "monstertoget-abb-former-aa16",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-former-f9b6",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "shapes",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-former-aa16"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-former-f9b6"
   },
   {
-   "slug": "monstertoget-abb-frugter-8d0a",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-frugter-1a85",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "fruits",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-frugter-8d0a"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-frugter-1a85"
   },
   {
-   "slug": "monstertoget-abb-fugle-2-a789",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-fugle-2-eb68",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "birds_2",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-fugle-2-a789"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-fugle-2-eb68"
   },
   {
-   "slug": "monstertoget-abb-fugle-dfc4",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-fugle-7671",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "birds",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-fugle-dfc4"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-fugle-7671"
   },
   {
-   "slug": "monstertoget-abb-grontsager-42aa",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-grontsager-5b6d",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "vegetables",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-grontsager-42aa"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-grontsager-5b6d"
   },
   {
-   "slug": "monstertoget-abb-havliv-dcc2",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-havliv-eb46",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "ocean_life",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-havliv-dcc2"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-havliv-eb46"
   },
   {
-   "slug": "monstertoget-abb-hospital-e31b",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-hospital-5270",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "hospital",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-hospital-e31b"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-hospital-5270"
   },
   {
-   "slug": "monstertoget-abb-i-supermarkedet-f2a6",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-i-supermarkedet-421e",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "at_the_supermarket",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-i-supermarkedet-f2a6"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-i-supermarkedet-421e"
   },
   {
-   "slug": "monstertoget-abb-insekter-og-kryb-0b89",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-insekter-og-kryb-f2f3",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "insects_and_bugs",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-insekter-og-kryb-0b89"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-insekter-og-kryb-f2f3"
   },
   {
-   "slug": "monstertoget-abb-jul-8d06",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-jul-4095",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "christmas",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-jul-8d06"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-jul-4095"
   },
   {
-   "slug": "monstertoget-abb-kaeledyr-941a",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-kaeledyr-cef2",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "pets",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-kaeledyr-941a"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-kaeledyr-cef2"
   },
   {
-   "slug": "monstertoget-abb-klassevaerelse-0050",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-klassevaerelse-6ce8",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "classroom",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-klassevaerelse-0050"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-klassevaerelse-6ce8"
   },
   {
-   "slug": "monstertoget-abb-kokkenredskaber-8ca1",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-kokkenredskaber-e7ff",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "kitchen_tools",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-kokkenredskaber-8ca1"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-kokkenredskaber-e7ff"
   },
   {
-   "slug": "monstertoget-abb-koretojer-1331",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-koretojer-0801",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "vehicles",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-koretojer-1331"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-koretojer-0801"
   },
   {
-   "slug": "monstertoget-abb-kropsdele-ac79",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-kropsdele-9868",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "body_parts",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-kropsdele-ac79"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-kropsdele-9868"
   },
   {
-   "slug": "monstertoget-abb-krybdyr-og-padder-2885",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-krybdyr-og-padder-e0ed",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "reptiles_and_amphibians",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-krybdyr-og-padder-2885"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-krybdyr-og-padder-e0ed"
   },
   {
-   "slug": "monstertoget-abb-legetoj-0b39",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-legetoj-2165",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "toys",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-legetoj-0b39"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-legetoj-2165"
   },
   {
-   "slug": "monstertoget-abb-mobler-2be4",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-mobler-4831",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "furniture",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-mobler-2be4"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-mobler-4831"
   },
   {
-   "slug": "monstertoget-abb-morgenmad-9067",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-morgenmad-0800",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "breakfast",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-morgenmad-9067"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-morgenmad-0800"
   },
   {
-   "slug": "monstertoget-abb-musik-23c0",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-musik-b35d",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "music",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-musik-23c0"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-musik-b35d"
   },
   {
-   "slug": "monstertoget-abb-paske-be89",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-paske-3009",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "easter",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-paske-be89"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-paske-3009"
   },
   {
-   "slug": "monstertoget-abb-postkontor-5a31",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-postkontor-210b",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "post_office",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-postkontor-5a31"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-postkontor-210b"
   },
   {
-   "slug": "monstertoget-abb-rummet-bba6",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-rummet-e9a9",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "space",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-rummet-bba6"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-rummet-e9a9"
   },
   {
-   "slug": "monstertoget-abb-rundt-i-huset-368b",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-rundt-i-huset-bf7f",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "around_the_house",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-rundt-i-huset-368b"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-rundt-i-huset-bf7f"
   },
   {
-   "slug": "monstertoget-abb-skovdyr-3cc8",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-skovdyr-defa",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "forest_creatures",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-skovdyr-3cc8"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-skovdyr-defa"
   },
   {
-   "slug": "monstertoget-abb-sommer-a096",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-sommer-55e4",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "summer",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-sommer-a096"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-sommer-55e4"
   },
   {
-   "slug": "monstertoget-abb-strand-e9a6",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-strand-e1c1",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "beach",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-strand-e9a6"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-strand-e1c1"
   },
   {
-   "slug": "monstertoget-abb-thanksgiving-b93a",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-thanksgiving-980b",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "thanksgivinng",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-thanksgiving-b93a"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-thanksgiving-980b"
   },
   {
-   "slug": "monstertoget-abb-tilbehor-9993",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-tilbehor-8c66",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "accessories",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-tilbehor-9993"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-tilbehor-8c66"
   },
   {
-   "slug": "monstertoget-abb-ting-der-flyver-aeeb",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-ting-der-flyver-70f7",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "things_that_fly",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-ting-der-flyver-aeeb"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-ting-der-flyver-70f7"
   },
   {
-   "slug": "monstertoget-abb-toj-6f42",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-toj-b88f",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "clothing",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-toj-6f42"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-toj-b88f"
   },
   {
-   "slug": "monstertoget-abb-traeer-6014",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-traeer-a50b",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "tree",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-traeer-6014"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-traeer-a50b"
   },
   {
-   "slug": "monstertoget-abb-vaerktoj-b2bb",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-vaerktoj-2f6b",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "tools",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-vaerktoj-b2bb"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-vaerktoj-2f6b"
   },
   {
-   "slug": "monstertoget-abb-vejr-3ce6",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-vejr-9364",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "weather",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-vejr-3ce6"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-vejr-9364"
   },
   {
-   "slug": "monstertoget-abb-vinter-5896",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-vinter-7c91",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "winter",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-vinter-5896"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-vinter-7c91"
   },
   {
-   "slug": "monstertoget-abb-zoodyr-6894",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "matematikark-2-symboler-add-sub-zoodyr-2c7d",
+   "type": "math-worksheet",
+   "mode": "two-symbols-add-sub",
    "theme": "zoo_animals",
-   "level": "boernehaveklasse",
-   "deck": "monstertoget-abb-zoodyr-6894"
+   "level": "1-klasse",
+   "deck": "matematikark-2-symboler-add-sub-zoodyr-2c7d"
   }
  ]
 }

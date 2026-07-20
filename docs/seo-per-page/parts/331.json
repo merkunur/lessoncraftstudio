@@ -2,779 +2,651 @@
  "part": 331,
  "locale": "fi",
  "classes": [
-  "pattern-train::null",
-  "picture-path::choose-path"
+  "math-puzzle::addition",
+  "math-puzzle::mixed"
  ],
  "splitOf": null,
- "count": 96,
+ "count": 80,
  "pages": [
   {
-   "slug": "kuviojuna-aamiainen-009f",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-aamiainen-7530",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "breakfast",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aamiainen-009f"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-aamiainen-7530"
   },
   {
-   "slug": "kuviojuna-ajoneuvot-94b6",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-ajoneuvot-54f4",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "vehicles",
-   "level": "esikoulu",
-   "deck": "kuviojuna-ajoneuvot-94b6"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-ajoneuvot-54f4"
   },
   {
-   "slug": "kuviojuna-aktiviteetit-39dc",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "activities",
-   "level": "esikoulu",
-   "deck": "kuviojuna-aktiviteetit-39dc"
-  },
-  {
-   "slug": "kuviojuna-ammatit-71aa",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-ammatit-6828",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "occupations",
-   "level": "esikoulu",
-   "deck": "kuviojuna-ammatit-71aa"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-ammatit-6828"
   },
   {
-   "slug": "kuviojuna-asusteet-9fe4",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-asusteet-d7cc",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "accessories",
-   "level": "esikoulu",
-   "deck": "kuviojuna-asusteet-9fe4"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-asusteet-d7cc"
   },
   {
-   "slug": "kuviojuna-avaruus-a15c",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-avaruus-1586",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "space",
-   "level": "esikoulu",
-   "deck": "kuviojuna-avaruus-a15c"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-avaruus-1586"
   },
   {
-   "slug": "kuviojuna-dinosaurukset-bc0a",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-dinosaurukset-5124",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "dinosaurs",
-   "level": "esikoulu",
-   "deck": "kuviojuna-dinosaurukset-bc0a"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-dinosaurukset-5124"
   },
   {
-   "slug": "kuviojuna-elaimet-759b",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-elaimet-8de5",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "animals",
-   "level": "esikoulu",
-   "deck": "kuviojuna-elaimet-759b"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-elaimet-8de5"
   },
   {
-   "slug": "kuviojuna-elaintarhan-elaimet-7613",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-elaintarhan-elaimet-a87a",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "zoo_animals",
-   "level": "esikoulu",
-   "deck": "kuviojuna-elaintarhan-elaimet-7613"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-elaintarhan-elaimet-a87a"
   },
   {
-   "slug": "kuviojuna-hedelmat-39f5",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-hedelmat-48bd",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "fruits",
-   "level": "esikoulu",
-   "deck": "kuviojuna-hedelmat-39f5"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-hedelmat-48bd"
   },
   {
-   "slug": "kuviojuna-huonekalut-60f8",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-huonekalut-9c22",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "furniture",
-   "level": "esikoulu",
-   "deck": "kuviojuna-huonekalut-60f8"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-huonekalut-9c22"
   },
   {
-   "slug": "kuviojuna-hyonteiset-ja-otokat-006e",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-hyonteiset-ja-otokat-ef2a",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "insects_and_bugs",
-   "level": "esikoulu",
-   "deck": "kuviojuna-hyonteiset-ja-otokat-006e"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-hyonteiset-ja-otokat-ef2a"
   },
   {
-   "slug": "kuviojuna-jalkiruoat-ja-makeiset-28aa",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-jalkiruoat-ja-makeiset-e28b",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "desserts_and_sweets",
-   "level": "esikoulu",
-   "deck": "kuviojuna-jalkiruoat-ja-makeiset-28aa"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-jalkiruoat-ja-makeiset-e28b"
   },
   {
-   "slug": "kuviojuna-joulu-7a9d",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-joulu-f041",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "christmas",
-   "level": "esikoulu",
-   "deck": "kuviojuna-joulu-7a9d"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-joulu-f041"
   },
   {
-   "slug": "kuviojuna-keittiovalineet-5171",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-keittiovalineet-79d4",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "kitchen_tools",
-   "level": "esikoulu",
-   "deck": "kuviojuna-keittiovalineet-5171"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-keittiovalineet-79d4"
   },
   {
-   "slug": "kuviojuna-kesa-ae3e",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "summer",
-   "level": "esikoulu",
-   "deck": "kuviojuna-kesa-ae3e"
-  },
-  {
-   "slug": "kuviojuna-kevat-0418",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "spring",
-   "level": "esikoulu",
-   "deck": "kuviojuna-kevat-0418"
-  },
-  {
-   "slug": "kuviojuna-kiitospaiva-cba0",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-kiitospaiva-d45a",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "thanksgivinng",
-   "level": "esikoulu",
-   "deck": "kuviojuna-kiitospaiva-cba0"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-kiitospaiva-d45a"
   },
   {
-   "slug": "kuviojuna-kodin-ymparilla-c989",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-kodin-ymparilla-67b5",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "around_the_house",
-   "level": "esikoulu",
-   "deck": "kuviojuna-kodin-ymparilla-c989"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-kodin-ymparilla-67b5"
   },
   {
-   "slug": "kuviojuna-kukat-f1e7",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-kukat-9d25",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "flowers",
-   "level": "esikoulu",
-   "deck": "kuviojuna-kukat-f1e7"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-kukat-9d25"
   },
   {
-   "slug": "kuviojuna-leipomo-de1b",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-leipomo-19c3",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "bakery",
-   "level": "esikoulu",
-   "deck": "kuviojuna-leipomo-de1b"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-leipomo-19c3"
   },
   {
-   "slug": "kuviojuna-leirielama-6e4a",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-leirielama-6c41",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "camping",
-   "level": "esikoulu",
-   "deck": "kuviojuna-leirielama-6e4a"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-leirielama-6c41"
   },
   {
-   "slug": "kuviojuna-lelut-4df9",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-lelut-4801",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "toys",
-   "level": "esikoulu",
-   "deck": "kuviojuna-lelut-4df9"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-lelut-4801"
   },
   {
-   "slug": "kuviojuna-lemmikit-f8a8",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-lemmikit-2f35",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "pets",
-   "level": "esikoulu",
-   "deck": "kuviojuna-lemmikit-f8a8"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-lemmikit-2f35"
   },
   {
-   "slug": "kuviojuna-lentavat-asiat-9f2c",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-lentavat-asiat-1282",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "things_that_fly",
-   "level": "esikoulu",
-   "deck": "kuviojuna-lentavat-asiat-9f2c"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-lentavat-asiat-1282"
   },
   {
-   "slug": "kuviojuna-linnut-2-3889",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-linnut-2-3aec",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "birds_2",
-   "level": "esikoulu",
-   "deck": "kuviojuna-linnut-2-3889"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-linnut-2-3aec"
   },
   {
-   "slug": "kuviojuna-linnut-2074",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-linnut-9cfc",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "birds",
-   "level": "esikoulu",
-   "deck": "kuviojuna-linnut-2074"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-linnut-9cfc"
   },
   {
-   "slug": "kuviojuna-luokkahuone-01ae",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-luokkahuone-27f8",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "classroom",
-   "level": "esikoulu",
-   "deck": "kuviojuna-luokkahuone-01ae"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-luokkahuone-27f8"
   },
   {
-   "slug": "kuviojuna-maatilan-elaimet-1a2e",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-maatilan-elaimet-a962",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "farm_animals",
-   "level": "esikoulu",
-   "deck": "kuviojuna-maatilan-elaimet-1a2e"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-maatilan-elaimet-a962"
   },
   {
-   "slug": "kuviojuna-matelijat-ja-sammakkoelaimet-215a",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-matelijat-ja-sammakkoelaimet-65de",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "reptiles_and_amphibians",
-   "level": "esikoulu",
-   "deck": "kuviojuna-matelijat-ja-sammakkoelaimet-215a"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-matelijat-ja-sammakkoelaimet-65de"
   },
   {
-   "slug": "kuviojuna-merielama-da63",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-merielama-43ea",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "ocean_life",
-   "level": "esikoulu",
-   "deck": "kuviojuna-merielama-da63"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-merielama-43ea"
   },
   {
-   "slug": "kuviojuna-metsan-elaimet-728e",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-metsan-elaimet-2a54",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "forest_creatures",
-   "level": "esikoulu",
-   "deck": "kuviojuna-metsan-elaimet-728e"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-metsan-elaimet-2a54"
   },
   {
-   "slug": "kuviojuna-muodot-a968",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-muodot-c182",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "shapes",
-   "level": "esikoulu",
-   "deck": "kuviojuna-muodot-a968"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-muodot-c182"
   },
   {
-   "slug": "kuviojuna-musiikki-a92c",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-musiikki-55ac",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "music",
-   "level": "esikoulu",
-   "deck": "kuviojuna-musiikki-a92c"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-musiikki-55ac"
   },
   {
-   "slug": "kuviojuna-paasiainen-1f13",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-paasiainen-16c8",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "easter",
-   "level": "esikoulu",
-   "deck": "kuviojuna-paasiainen-1f13"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-paasiainen-16c8"
   },
   {
-   "slug": "kuviojuna-postitoimisto-ffaf",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-postitoimisto-975d",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "post_office",
-   "level": "esikoulu",
-   "deck": "kuviojuna-postitoimisto-ffaf"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-postitoimisto-975d"
   },
   {
-   "slug": "kuviojuna-puut-66c2",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-puut-3266",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "tree",
-   "level": "esikoulu",
-   "deck": "kuviojuna-puut-66c2"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-puut-3266"
   },
   {
-   "slug": "kuviojuna-ranta-e378",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-ranta-0060",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "beach",
-   "level": "esikoulu",
-   "deck": "kuviojuna-ranta-e378"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-ranta-0060"
   },
   {
-   "slug": "kuviojuna-ruokakaupassa-8993",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-ruokakaupassa-70b5",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "at_the_supermarket",
-   "level": "esikoulu",
-   "deck": "kuviojuna-ruokakaupassa-8993"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-ruokakaupassa-70b5"
   },
   {
-   "slug": "kuviojuna-ruumiinosat-d9d6",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "esikoulu",
-   "deck": "kuviojuna-ruumiinosat-d9d6"
-  },
-  {
-   "slug": "kuviojuna-saa-a80e",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "weather",
-   "level": "esikoulu",
-   "deck": "kuviojuna-saa-a80e"
-  },
-  {
-   "slug": "kuviojuna-sairaala-5a41",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-sairaala-ac40",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "hospital",
-   "level": "esikoulu",
-   "deck": "kuviojuna-sairaala-5a41"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-sairaala-ac40"
   },
   {
-   "slug": "kuviojuna-talvi-8d5a",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "winter",
-   "level": "esikoulu",
-   "deck": "kuviojuna-talvi-8d5a"
-  },
-  {
-   "slug": "kuviojuna-tunteet-06f5",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "emotions",
-   "level": "esikoulu",
-   "deck": "kuviojuna-tunteet-06f5"
-  },
-  {
-   "slug": "kuviojuna-tyokalut-b762",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-tyokalut-fc88",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "tools",
-   "level": "esikoulu",
-   "deck": "kuviojuna-tyokalut-b762"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-tyokalut-fc88"
   },
   {
-   "slug": "kuviojuna-vaatteet-a6ae",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-vaatteet-7b56",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "clothing",
-   "level": "esikoulu",
-   "deck": "kuviojuna-vaatteet-a6ae"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-vaatteet-7b56"
   },
   {
-   "slug": "kuviojuna-varit-bbcc",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "colors",
-   "level": "esikoulu",
-   "deck": "kuviojuna-varit-bbcc"
-  },
-  {
-   "slug": "kuviojuna-vihannekset-bee4",
-   "type": "pattern-train",
-   "mode": null,
+   "slug": "matematiikkapulma-yhteenlasku-vihannekset-f68a",
+   "type": "math-puzzle",
+   "mode": "addition",
    "theme": "vegetables",
-   "level": "esikoulu",
-   "deck": "kuviojuna-vihannekset-bee4"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-yhteenlasku-vihannekset-f68a"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-aamiainen-516d",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-aamiainen-2f60",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "breakfast",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-aamiainen-516d"
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-sekoitettu-aamiainen-2f60"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-ajoneuvot-d899",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-ajoneuvot-9a43",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "vehicles",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-ajoneuvot-d899"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-ajoneuvot-9a43"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-aktiviteetit-2c3b",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "activities",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-aktiviteetit-2c3b"
-  },
-  {
-   "slug": "kuvapolku-valitse-oikea-polku-ammatit-2868",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-ammatit-df11",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "occupations",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-ammatit-2868"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-ammatit-df11"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-asusteet-d383",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-asusteet-7549",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "accessories",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-asusteet-d383"
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-sekoitettu-asusteet-7549"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-avaruus-5a14",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-avaruus-a41d",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "space",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-avaruus-5a14"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-avaruus-a41d"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-dinosaurukset-59a7",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-dinosaurukset-b8a5",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "dinosaurs",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-dinosaurukset-59a7"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-dinosaurukset-b8a5"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-elaimet-2ed3",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-elaimet",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "animals",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-elaimet-2ed3"
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-sekoitettu-elaimet"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-elaintarhan-elaimet-a65c",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-elaintarhan-elaimet-2e02",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "zoo_animals",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-elaintarhan-elaimet-a65c"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-elaintarhan-elaimet-2e02"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-hedelmat-48cd",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-hedelmat-81b4",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "fruits",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-hedelmat-48cd"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-hedelmat-81b4"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-huonekalut-2249",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-huonekalut-c045",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "furniture",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-huonekalut-2249"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-huonekalut-c045"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-hyonteiset-ja-otokat-ec22",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-hyonteiset-ja-otokat-3592",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "insects_and_bugs",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-hyonteiset-ja-otokat-ec22"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-hyonteiset-ja-otokat-3592"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-jalkiruoat-ja-makeiset-0ce9",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-jalkiruoat-ja-makeiset-3d91",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "desserts_and_sweets",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-jalkiruoat-ja-makeiset-0ce9"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-jalkiruoat-ja-makeiset-3d91"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-joulu-67c4",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-joulu-15f6",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "christmas",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-joulu-67c4"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-joulu-15f6"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-keittiovalineet-f9ac",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-keittiovalineet-ade1",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "kitchen_tools",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-keittiovalineet-f9ac"
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-sekoitettu-keittiovalineet-ade1"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-kesa-0d71",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "summer",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-kesa-0d71"
-  },
-  {
-   "slug": "kuvapolku-valitse-oikea-polku-kevat-fd10",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "spring",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-kevat-fd10"
-  },
-  {
-   "slug": "kuvapolku-valitse-oikea-polku-kiitospaiva-6841",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-kiitospaiva-9805",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "thanksgivinng",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-kiitospaiva-6841"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-kiitospaiva-9805"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-kodin-ymparilla-ff51",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-kodin-ymparilla-6b11",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "around_the_house",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-kodin-ymparilla-ff51"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-kodin-ymparilla-6b11"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-kukat-0c08",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-kukat-0d9c",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "flowers",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-kukat-0c08"
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-sekoitettu-kukat-0d9c"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-leipomo-15a3",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-leipomo-80d5",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "bakery",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-leipomo-15a3"
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-sekoitettu-leipomo-80d5"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-leirielama-ca98",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-leirielama-2a83",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "camping",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-leirielama-ca98"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-leirielama-2a83"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-lelut-8aa7",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-lelut-3fee",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "toys",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-lelut-8aa7"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-lelut-3fee"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-lemmikit-e483",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-lemmikit-b2d7",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "pets",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-lemmikit-e483"
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-sekoitettu-lemmikit-b2d7"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-lentavat-asiat-b611",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-lentavat-asiat-0f63",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "things_that_fly",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-lentavat-asiat-b611"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-lentavat-asiat-0f63"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-linnut-2-431e",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-linnut-2-a6e5",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "birds_2",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-linnut-2-431e"
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-sekoitettu-linnut-2-a6e5"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-linnut-ec44",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-linnut-a060",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "birds",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-linnut-ec44"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-linnut-a060"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-luokkahuone-3d59",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-luokkahuone-b7b4",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "classroom",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-luokkahuone-3d59"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-luokkahuone-b7b4"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-maatilan-elaimet-7023",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-maatilan-elaimet-e329",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "farm_animals",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-maatilan-elaimet-7023"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-maatilan-elaimet-e329"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-matelijat-ja-sammakkoelaimet-b5aa",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-matelijat-ja-sammakkoelaimet-27a7",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "reptiles_and_amphibians",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-matelijat-ja-sammakkoelaimet-b5aa"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-matelijat-ja-sammakkoelaimet-27a7"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-merielama-560c",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-merielama-4b19",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "ocean_life",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-merielama-560c"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-merielama-4b19"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-metsan-elaimet-8629",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-metsan-elaimet-10f5",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "forest_creatures",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-metsan-elaimet-8629"
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-sekoitettu-metsan-elaimet-10f5"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-muodot-b541",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-muodot-b4bc",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "shapes",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-muodot-b541"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-muodot-b4bc"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-musiikki-8413",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-musiikki-3e03",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "music",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-musiikki-8413"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-musiikki-3e03"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-paasiainen-547f",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-paasiainen-05bc",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "easter",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-paasiainen-547f"
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-sekoitettu-paasiainen-05bc"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-postitoimisto-0089",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-postitoimisto-ad32",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "post_office",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-postitoimisto-0089"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-postitoimisto-ad32"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-puut-c847",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-puut-2986",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "tree",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-puut-c847"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-puut-2986"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-ranta-5136",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-ranta-405a",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "beach",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-ranta-5136"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-ranta-405a"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-ruokakaupassa-cb40",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-ruokakaupassa-c476",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "at_the_supermarket",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-ruokakaupassa-cb40"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-ruokakaupassa-c476"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-ruumiinosat-9b24",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "body_parts",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-ruumiinosat-9b24"
-  },
-  {
-   "slug": "kuvapolku-valitse-oikea-polku-saa-79bd",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "weather",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-saa-79bd"
-  },
-  {
-   "slug": "kuvapolku-valitse-oikea-polku-sairaala-8f4a",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-sairaala-fe34",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "hospital",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-sairaala-8f4a"
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-sekoitettu-sairaala-fe34"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-talvi-db84",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "winter",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-talvi-db84"
-  },
-  {
-   "slug": "kuvapolku-valitse-oikea-polku-tunteet-07d2",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "emotions",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-tunteet-07d2"
-  },
-  {
-   "slug": "kuvapolku-valitse-oikea-polku-tyokalut-f29e",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-tyokalut-f60f",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "tools",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-tyokalut-f29e"
+   "level": "2-luokka",
+   "deck": "matematiikkapulma-sekoitettu-tyokalut-f60f"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-vaatteet-0445",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-vaatteet-9872",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "clothing",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-vaatteet-0445"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-vaatteet-9872"
   },
   {
-   "slug": "kuvapolku-valitse-oikea-polku-varit-5328",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "colors",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-varit-5328"
-  },
-  {
-   "slug": "kuvapolku-valitse-oikea-polku-vihannekset-ae9f",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "matematiikkapulma-sekoitettu-vihannekset-4b02",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "vegetables",
-   "level": "esikoulu",
-   "deck": "kuvapolku-valitse-oikea-polku-vihannekset-ae9f"
+   "level": "1-luokka",
+   "deck": "matematiikkapulma-sekoitettu-vihannekset-4b02"
   }
  ]
 }

@@ -2,795 +2,667 @@
  "part": 111,
  "locale": "pt",
  "classes": [
-  "pattern-train::aabb",
-  "pattern-train::abb"
+  "addition::find-addend",
+  "addition::image-image"
  ],
  "splitOf": null,
- "count": 98,
+ "count": 82,
  "pages": [
   {
-   "slug": "trem-de-padroes-aabb-acampamento-1d22",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-acampamento-9bc3",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "camping",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-acampamento-1d22"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-acampamento-9bc3"
   },
   {
-   "slug": "trem-de-padroes-aabb-acessorios-7127",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-acessorios-6b9a",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "accessories",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-acessorios-7127"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-acessorios-6b9a"
   },
   {
-   "slug": "trem-de-padroes-aabb-animais-750f",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-animais-6165",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "animals",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-animais-750f"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-animais-6165"
   },
   {
-   "slug": "trem-de-padroes-aabb-animais-da-fazenda-9dda",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-animais-da-fazenda-a793",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "farm_animals",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-animais-da-fazenda-9dda"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-animais-da-fazenda-a793"
   },
   {
-   "slug": "trem-de-padroes-aabb-animais-de-estimacao-dc89",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-animais-de-estimacao-6f94",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "pets",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-animais-de-estimacao-dc89"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-animais-de-estimacao-6f94"
   },
   {
-   "slug": "trem-de-padroes-aabb-animais-do-zoologico-3ea9",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-animais-do-zoologico-6ba9",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "zoo_animals",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-animais-do-zoologico-3ea9"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-animais-do-zoologico-6ba9"
   },
   {
-   "slug": "trem-de-padroes-aabb-arvores-0b10",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-arvores-6567",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "tree",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-arvores-0b10"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-arvores-6567"
   },
   {
-   "slug": "trem-de-padroes-aabb-atividades-5ae3",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "activities",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-atividades-5ae3"
-  },
-  {
-   "slug": "trem-de-padroes-aabb-brinquedos-7af6",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-brinquedos-6201",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "toys",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-brinquedos-7af6"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-brinquedos-6201"
   },
   {
-   "slug": "trem-de-padroes-aabb-cafe-da-manha-5e61",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-cafe-da-manha-c4aa",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "breakfast",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-cafe-da-manha-5e61"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-cafe-da-manha-c4aa"
   },
   {
-   "slug": "trem-de-padroes-aabb-clima-b238",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "weather",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-clima-b238"
-  },
-  {
-   "slug": "trem-de-padroes-aabb-coisas-que-voam-025a",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-coisas-que-voam-764d",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "things_that_fly",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-coisas-que-voam-025a"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-coisas-que-voam-764d"
   },
   {
-   "slug": "trem-de-padroes-aabb-cores-927d",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "colors",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-cores-927d"
-  },
-  {
-   "slug": "trem-de-padroes-aabb-correios-89f1",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-correios-2a80",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "post_office",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-correios-89f1"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-correios-2a80"
   },
   {
-   "slug": "trem-de-padroes-aabb-criaturas-da-floresta-d9b2",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-criaturas-da-floresta-99a3",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "forest_creatures",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-criaturas-da-floresta-d9b2"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-criaturas-da-floresta-99a3"
   },
   {
-   "slug": "trem-de-padroes-aabb-dia-de-acao-de-gracas-ebe8",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-dia-de-acao-de-gracas-36b1",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "thanksgivinng",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-dia-de-acao-de-gracas-ebe8"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-dia-de-acao-de-gracas-36b1"
   },
   {
-   "slug": "trem-de-padroes-aabb-dinossauros-bead",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-dinossauros-61f4",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "dinosaurs",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-dinossauros-bead"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-dinossauros-61f4"
   },
   {
-   "slug": "trem-de-padroes-aabb-diversos-f8f4",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-diversos-1588",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "miscellaneous",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-diversos-f8f4"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-diversos-1588"
   },
   {
-   "slug": "trem-de-padroes-aabb-emocoes-6f5f",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "emotions",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-emocoes-6f5f"
-  },
-  {
-   "slug": "trem-de-padroes-aabb-espaco-3a3a",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-espaco-25f0",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "space",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-espaco-3a3a"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-espaco-25f0"
   },
   {
-   "slug": "trem-de-padroes-aabb-ferramentas-6086",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-ferramentas-4828",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "tools",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-ferramentas-6086"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-ferramentas-4828"
   },
   {
-   "slug": "trem-de-padroes-aabb-flores-e90e",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-flores-ebae",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "flowers",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-flores-e90e"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-flores-ebae"
   },
   {
-   "slug": "trem-de-padroes-aabb-formas-defa",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-formas-464d",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "shapes",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-formas-defa"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-formas-464d"
   },
   {
-   "slug": "trem-de-padroes-aabb-frutas-0393",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-frutas-abf2",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "fruits",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-frutas-0393"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-frutas-abf2"
   },
   {
-   "slug": "trem-de-padroes-aabb-hospital-ac54",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-hospital-2b69",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "hospital",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-hospital-ac54"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-hospital-2b69"
   },
   {
-   "slug": "trem-de-padroes-aabb-insetos-e-bichos-dc51",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-insetos-e-bichos-3b97",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "insects_and_bugs",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-insetos-e-bichos-dc51"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-insetos-e-bichos-3b97"
   },
   {
-   "slug": "trem-de-padroes-aabb-inverno-c408",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "winter",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-inverno-c408"
-  },
-  {
-   "slug": "trem-de-padroes-aabb-moveis-2792",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-moveis-93c2",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "furniture",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-moveis-2792"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-moveis-93c2"
   },
   {
-   "slug": "trem-de-padroes-aabb-musica-c695",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-musica-d70c",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "music",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-musica-c695"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-musica-d70c"
   },
   {
-   "slug": "trem-de-padroes-aabb-natal-0fd6",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-natal-26ac",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "christmas",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-natal-0fd6"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-natal-26ac"
   },
   {
-   "slug": "trem-de-padroes-aabb-no-supermercado-fae0",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-no-supermercado-bdd9",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "at_the_supermarket",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-no-supermercado-fae0"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-no-supermercado-bdd9"
   },
   {
-   "slug": "trem-de-padroes-aabb-padaria-e819",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-padaria-9eaf",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "bakery",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-padaria-e819"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-padaria-9eaf"
   },
   {
-   "slug": "trem-de-padroes-aabb-partes-do-corpo-3ad0",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "body_parts",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-partes-do-corpo-3ad0"
-  },
-  {
-   "slug": "trem-de-padroes-aabb-pascoa-c2a6",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-pascoa-f52e",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "easter",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-pascoa-c2a6"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-pascoa-f52e"
   },
   {
-   "slug": "trem-de-padroes-aabb-passaros-2-2bc8",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-passaros-2-08f9",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "birds_2",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-passaros-2-2bc8"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-passaros-2-08f9"
   },
   {
-   "slug": "trem-de-padroes-aabb-passaros-b299",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-passaros-9ab5",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "birds",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-passaros-b299"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-passaros-9ab5"
   },
   {
-   "slug": "trem-de-padroes-aabb-pela-casa-a908",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-pela-casa-6fad",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "around_the_house",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-pela-casa-a908"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-pela-casa-6fad"
   },
   {
-   "slug": "trem-de-padroes-aabb-praia-bea0",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-praia-d7de",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "beach",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-praia-bea0"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-praia-d7de"
   },
   {
-   "slug": "trem-de-padroes-aabb-primavera-c0bc",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "spring",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-primavera-c0bc"
-  },
-  {
-   "slug": "trem-de-padroes-aabb-profissoes-d767",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-profissoes-9fb3",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "occupations",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-profissoes-d767"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-profissoes-9fb3"
   },
   {
-   "slug": "trem-de-padroes-aabb-repteis-e-anfibios-e4c9",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-repteis-e-anfibios-b877",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "reptiles_and_amphibians",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-repteis-e-anfibios-e4c9"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-repteis-e-anfibios-b877"
   },
   {
-   "slug": "trem-de-padroes-aabb-roupas-195c",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-roupas-8443",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "clothing",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-roupas-195c"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-roupas-8443"
   },
   {
-   "slug": "trem-de-padroes-aabb-sala-de-aula-b3d6",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-sala-de-aula-670c",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "classroom",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-sala-de-aula-b3d6"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-sala-de-aula-670c"
   },
   {
-   "slug": "trem-de-padroes-aabb-sobremesas-e-doces-48c1",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-sobremesas-e-doces-c49e",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "desserts_and_sweets",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-sobremesas-e-doces-48c1"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-sobremesas-e-doces-c49e"
   },
   {
-   "slug": "trem-de-padroes-aabb-utensilios-de-cozinha-1475",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-utensilios-de-cozinha-b53e",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "kitchen_tools",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-utensilios-de-cozinha-1475"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-utensilios-de-cozinha-b53e"
   },
   {
-   "slug": "trem-de-padroes-aabb-vegetais-de82",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-vegetais-a0e9",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "vegetables",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-vegetais-de82"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-vegetais-a0e9"
   },
   {
-   "slug": "trem-de-padroes-aabb-veiculos-7b98",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-veiculos-b606",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "vehicles",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-veiculos-7b98"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-veiculos-b606"
   },
   {
-   "slug": "trem-de-padroes-aabb-verao-acba",
-   "type": "pattern-train",
-   "mode": "aabb",
-   "theme": "summer",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-verao-acba"
-  },
-  {
-   "slug": "trem-de-padroes-aabb-vida-marinha-3b64",
-   "type": "pattern-train",
-   "mode": "aabb",
+   "slug": "adicao-encontre-o-termo-vida-marinha-0957",
+   "type": "addition",
+   "mode": "find-addend",
    "theme": "ocean_life",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-aabb-vida-marinha-3b64"
+   "level": "1o-ano",
+   "deck": "adicao-encontre-o-termo-vida-marinha-0957"
   },
   {
-   "slug": "trem-de-padroes-abb-acampamento-9ca1",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-acampamento-2cb8",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "camping",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-acampamento-9ca1"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-acampamento-2cb8"
   },
   {
-   "slug": "trem-de-padroes-abb-acessorios-dc8a",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-acessorios-43bd",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "accessories",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-acessorios-dc8a"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-acessorios-43bd"
   },
   {
-   "slug": "trem-de-padroes-abb-animais-9a9a",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-animais",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "animals",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-animais-9a9a"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-animais"
   },
   {
-   "slug": "trem-de-padroes-abb-animais-da-fazenda-5563",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-animais-da-fazenda-0f10",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "farm_animals",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-animais-da-fazenda-5563"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-animais-da-fazenda-0f10"
   },
   {
-   "slug": "trem-de-padroes-abb-animais-de-estimacao-307d",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-animais-de-estimacao-baf8",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "pets",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-animais-de-estimacao-307d"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-animais-de-estimacao-baf8"
   },
   {
-   "slug": "trem-de-padroes-abb-animais-do-zoologico-d30c",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-animais-do-zoologico-24d8",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "zoo_animals",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-animais-do-zoologico-d30c"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-animais-do-zoologico-24d8"
   },
   {
-   "slug": "trem-de-padroes-abb-arvores-7497",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-arvores-24a9",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "tree",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-arvores-7497"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-arvores-24a9"
   },
   {
-   "slug": "trem-de-padroes-abb-atividades-92c3",
-   "type": "pattern-train",
-   "mode": "abb",
-   "theme": "activities",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-atividades-92c3"
-  },
-  {
-   "slug": "trem-de-padroes-abb-brinquedos-1f19",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-brinquedos-6677",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "toys",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-brinquedos-1f19"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-brinquedos-6677"
   },
   {
-   "slug": "trem-de-padroes-abb-cafe-da-manha-eb12",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-cafe-da-manha-7a1d",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "breakfast",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-cafe-da-manha-eb12"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-cafe-da-manha-7a1d"
   },
   {
-   "slug": "trem-de-padroes-abb-clima-4fdd",
-   "type": "pattern-train",
-   "mode": "abb",
-   "theme": "weather",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-clima-4fdd"
-  },
-  {
-   "slug": "trem-de-padroes-abb-coisas-que-voam-a4b0",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-coisas-que-voam-6e05",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "things_that_fly",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-coisas-que-voam-a4b0"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-coisas-que-voam-6e05"
   },
   {
-   "slug": "trem-de-padroes-abb-cores-ee63",
-   "type": "pattern-train",
-   "mode": "abb",
-   "theme": "colors",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-cores-ee63"
-  },
-  {
-   "slug": "trem-de-padroes-abb-correios-7958",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-correios-11a9",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "post_office",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-correios-7958"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-correios-11a9"
   },
   {
-   "slug": "trem-de-padroes-abb-criaturas-da-floresta-1d6a",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-criaturas-da-floresta-0cc0",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "forest_creatures",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-criaturas-da-floresta-1d6a"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-criaturas-da-floresta-0cc0"
   },
   {
-   "slug": "trem-de-padroes-abb-dia-de-acao-de-gracas-e7fc",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-dia-de-acao-de-gracas-1207",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "thanksgivinng",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-dia-de-acao-de-gracas-e7fc"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-dia-de-acao-de-gracas-1207"
   },
   {
-   "slug": "trem-de-padroes-abb-dinossauros-a146",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-dinossauros-4ae9",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "dinosaurs",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-dinossauros-a146"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-dinossauros-4ae9"
   },
   {
-   "slug": "trem-de-padroes-abb-diversos-54fd",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-diversos-fa3f",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "miscellaneous",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-diversos-54fd"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-diversos-fa3f"
   },
   {
-   "slug": "trem-de-padroes-abb-emocoes-3955",
-   "type": "pattern-train",
-   "mode": "abb",
-   "theme": "emotions",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-emocoes-3955"
-  },
-  {
-   "slug": "trem-de-padroes-abb-espaco-42f2",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-espaco-6049",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "space",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-espaco-42f2"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-espaco-6049"
   },
   {
-   "slug": "trem-de-padroes-abb-ferramentas-8eb7",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-ferramentas-1dff",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "tools",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-ferramentas-8eb7"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-ferramentas-1dff"
   },
   {
-   "slug": "trem-de-padroes-abb-flores-0104",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-flores-a7d3",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "flowers",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-flores-0104"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-flores-a7d3"
   },
   {
-   "slug": "trem-de-padroes-abb-formas-721c",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-formas-d91e",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "shapes",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-formas-721c"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-formas-d91e"
   },
   {
-   "slug": "trem-de-padroes-abb-frutas-b20c",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-frutas-8fca",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "fruits",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-frutas-b20c"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-frutas-8fca"
   },
   {
-   "slug": "trem-de-padroes-abb-hospital-9009",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-hospital-dc77",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "hospital",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-hospital-9009"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-hospital-dc77"
   },
   {
-   "slug": "trem-de-padroes-abb-insetos-e-bichos-226e",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-insetos-e-bichos-203b",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "insects_and_bugs",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-insetos-e-bichos-226e"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-insetos-e-bichos-203b"
   },
   {
-   "slug": "trem-de-padroes-abb-inverno-7085",
-   "type": "pattern-train",
-   "mode": "abb",
-   "theme": "winter",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-inverno-7085"
-  },
-  {
-   "slug": "trem-de-padroes-abb-moveis-4f84",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-moveis-5eb1",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "furniture",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-moveis-4f84"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-moveis-5eb1"
   },
   {
-   "slug": "trem-de-padroes-abb-musica-5c1f",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-musica-e2c1",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "music",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-musica-5c1f"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-musica-e2c1"
   },
   {
-   "slug": "trem-de-padroes-abb-natal-7ec0",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-natal-c5ae",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "christmas",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-natal-7ec0"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-natal-c5ae"
   },
   {
-   "slug": "trem-de-padroes-abb-no-supermercado-afde",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-no-supermercado-6074",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "at_the_supermarket",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-no-supermercado-afde"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-no-supermercado-6074"
   },
   {
-   "slug": "trem-de-padroes-abb-padaria-ee69",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-padaria-e24e",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "bakery",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-padaria-ee69"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-padaria-e24e"
   },
   {
-   "slug": "trem-de-padroes-abb-partes-do-corpo-adc7",
-   "type": "pattern-train",
-   "mode": "abb",
-   "theme": "body_parts",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-partes-do-corpo-adc7"
-  },
-  {
-   "slug": "trem-de-padroes-abb-pascoa-2720",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-pascoa-049b",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "easter",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-pascoa-2720"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-pascoa-049b"
   },
   {
-   "slug": "trem-de-padroes-abb-passaros-2-cb96",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-passaros-2-ef30",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "birds_2",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-passaros-2-cb96"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-passaros-2-ef30"
   },
   {
-   "slug": "trem-de-padroes-abb-passaros-4f1c",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-passaros-9f3b",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "birds",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-passaros-4f1c"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-passaros-9f3b"
   },
   {
-   "slug": "trem-de-padroes-abb-pela-casa-5357",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-pela-casa-0bd6",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "around_the_house",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-pela-casa-5357"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-pela-casa-0bd6"
   },
   {
-   "slug": "trem-de-padroes-abb-praia-cdc5",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-praia-6196",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "beach",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-praia-cdc5"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-praia-6196"
   },
   {
-   "slug": "trem-de-padroes-abb-primavera-ce3b",
-   "type": "pattern-train",
-   "mode": "abb",
-   "theme": "spring",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-primavera-ce3b"
-  },
-  {
-   "slug": "trem-de-padroes-abb-profissoes-0992",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-profissoes-460c",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "occupations",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-profissoes-0992"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-profissoes-460c"
   },
   {
-   "slug": "trem-de-padroes-abb-repteis-e-anfibios-7da7",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-repteis-e-anfibios-2339",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "reptiles_and_amphibians",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-repteis-e-anfibios-7da7"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-repteis-e-anfibios-2339"
   },
   {
-   "slug": "trem-de-padroes-abb-roupas-fe29",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-roupas-2ebf",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "clothing",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-roupas-fe29"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-roupas-2ebf"
   },
   {
-   "slug": "trem-de-padroes-abb-sala-de-aula-166a",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-sala-de-aula-57f3",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "classroom",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-sala-de-aula-166a"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-sala-de-aula-57f3"
   },
   {
-   "slug": "trem-de-padroes-abb-sobremesas-e-doces-f5b0",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-sobremesas-e-doces-1c3d",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "desserts_and_sweets",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-sobremesas-e-doces-f5b0"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-sobremesas-e-doces-1c3d"
   },
   {
-   "slug": "trem-de-padroes-abb-utensilios-de-cozinha-e2bb",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-utensilios-de-cozinha-18e9",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "kitchen_tools",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-utensilios-de-cozinha-e2bb"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-utensilios-de-cozinha-18e9"
   },
   {
-   "slug": "trem-de-padroes-abb-vegetais-7132",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-vegetais-475a",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "vegetables",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-vegetais-7132"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-vegetais-475a"
   },
   {
-   "slug": "trem-de-padroes-abb-veiculos-63bc",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-veiculos-0efc",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "vehicles",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-veiculos-63bc"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-veiculos-0efc"
   },
   {
-   "slug": "trem-de-padroes-abb-verao-ec90",
-   "type": "pattern-train",
-   "mode": "abb",
-   "theme": "summer",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-verao-ec90"
-  },
-  {
-   "slug": "trem-de-padroes-abb-vida-marinha-df6b",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "adicao-imagem-imagem-vida-marinha-e438",
+   "type": "addition",
+   "mode": "image-image",
    "theme": "ocean_life",
-   "level": "educacao-infantil",
-   "deck": "trem-de-padroes-abb-vida-marinha-df6b"
+   "level": "1o-ano",
+   "deck": "adicao-imagem-imagem-vida-marinha-e438"
   }
  ]
 }

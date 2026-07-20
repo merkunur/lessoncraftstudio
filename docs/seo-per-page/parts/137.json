@@ -1,568 +1,660 @@
 {
  "part": 137,
- "locale": "fr",
+ "locale": "pt",
  "classes": [
-  "picture-sort::null"
+  "sudoku::medium",
+  "chart-count::null"
  ],
- "splitOf": {
-  "class": "picture-sort::null",
-  "total": 138,
-  "chunk": 2,
-  "chunks": 2
- },
- "count": 69,
+ "splitOf": null,
+ "count": 81,
  "pages": [
   {
-   "slug": "trier-les-images-flowers-vs-bakery-2c21",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-bakery",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-bakery-2c21"
+   "slug": "sudoku-ilustrado-medio-0406",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "miscellaneous",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-0406"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-0423",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "space",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-0423"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-0905",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "weather",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-0905"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-1889",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "winter",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-1889"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-18fb",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "vegetables",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-18fb"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-199e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "toys",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-199e"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-2750",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "beach",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-2750"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-2c1e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "animals",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-2c1e"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-3a68",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "christmas",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-3a68"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-3d22",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "dinosaurs",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-3d22"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-415d",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "post_office",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-415d"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-46a8",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "ocean_life",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-46a8"
+  },
+  {
+   "slug": "sudoku-ilustrado-medio-4ca8",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "colors",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-4ca8"
   },
   {
-   "slug": "trier-les-images-flowers-vs-beach-8467",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-beach",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-beach-8467"
+   "slug": "sudoku-ilustrado-medio-5c81",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "activities",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-5c81"
   },
   {
-   "slug": "trier-les-images-flowers-vs-birds-68d6",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-birds",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-birds-68d6"
+   "slug": "sudoku-ilustrado-medio-5f13",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "birds",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-5f13"
   },
   {
-   "slug": "trier-les-images-flowers-vs-breakfast-ff57",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-breakfast",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-breakfast-ff57"
+   "slug": "sudoku-ilustrado-medio-6590",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "flowers",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-6590"
   },
   {
-   "slug": "trier-les-images-flowers-vs-camping-f05a",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-camping",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-camping-f05a"
+   "slug": "sudoku-ilustrado-medio-6723",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "body_parts",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-6723"
   },
   {
-   "slug": "trier-les-images-flowers-vs-christmas-2cda",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-christmas",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-christmas-2cda"
+   "slug": "sudoku-ilustrado-medio-67ae",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "furniture",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-67ae"
   },
   {
-   "slug": "trier-les-images-flowers-vs-classroom-c213",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-classroom",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-classroom-c213"
+   "slug": "sudoku-ilustrado-medio-6a81",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "hospital",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-6a81"
   },
   {
-   "slug": "trier-les-images-flowers-vs-clothing-ebf3",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-clothing",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-clothing-ebf3"
+   "slug": "sudoku-ilustrado-medio-7fff",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "spring",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-7fff"
   },
   {
-   "slug": "trier-les-images-flowers-vs-desserts-and-sweets-6c27",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-desserts_and_sweets",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-desserts-and-sweets-6c27"
+   "slug": "sudoku-ilustrado-medio-825e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "insects_and_bugs",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-825e"
   },
   {
-   "slug": "trier-les-images-flowers-vs-dinosaurs-9731",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-dinosaurs",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-dinosaurs-9731"
+   "slug": "sudoku-ilustrado-medio-83a2",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "tools",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-83a2"
   },
   {
-   "slug": "trier-les-images-flowers-vs-easter-727c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-easter",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-easter-727c"
+   "slug": "sudoku-ilustrado-medio-8e04",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "shapes",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-8e04"
   },
   {
-   "slug": "trier-les-images-flowers-vs-farm-animals-4aaf",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-farm_animals",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-farm-animals-4aaf"
+   "slug": "sudoku-ilustrado-medio-902b",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "easter",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-902b"
   },
   {
-   "slug": "trier-les-images-flowers-vs-fruits-38de",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-fruits",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-fruits-38de"
+   "slug": "sudoku-ilustrado-medio-97b5",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "accessories",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-97b5"
   },
   {
-   "slug": "trier-les-images-flowers-vs-furniture-877c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-furniture",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-furniture-877c"
+   "slug": "sudoku-ilustrado-medio-9a0a",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "thanksgivinng",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-9a0a"
   },
   {
-   "slug": "trier-les-images-flowers-vs-hospital-f9b8",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-hospital",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-hospital-f9b8"
+   "slug": "sudoku-ilustrado-medio-9c1a",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "classroom",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-9c1a"
   },
   {
-   "slug": "trier-les-images-flowers-vs-insects-and-bugs-5f3c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-insects_and_bugs",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-insects-and-bugs-5f3c"
+   "slug": "sudoku-ilustrado-medio-a287",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "pets",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-a287"
   },
   {
-   "slug": "trier-les-images-flowers-vs-kitchen-tools-1497",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-kitchen_tools",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-kitchen-tools-1497"
+   "slug": "sudoku-ilustrado-medio-a952",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "things_that_fly",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-a952"
   },
   {
-   "slug": "trier-les-images-flowers-vs-music-5d23",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-music",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-music-5d23"
+   "slug": "sudoku-ilustrado-medio-ae83",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "camping",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-ae83"
   },
   {
-   "slug": "trier-les-images-flowers-vs-occupations-6b92",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-occupations",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-occupations-6b92"
+   "slug": "sudoku-ilustrado-medio-af08",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "around_the_house",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-af08"
   },
   {
-   "slug": "trier-les-images-flowers-vs-ocean-life-01d9",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-ocean_life",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-ocean-life-01d9"
+   "slug": "sudoku-ilustrado-medio-afc1",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "kitchen_tools",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-afc1"
   },
   {
-   "slug": "trier-les-images-flowers-vs-pets-af24",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-pets",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-pets-af24"
+   "slug": "sudoku-ilustrado-medio-b635",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "desserts_and_sweets",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-b635"
   },
   {
-   "slug": "trier-les-images-flowers-vs-post-office-755b",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-post_office",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-post-office-755b"
+   "slug": "sudoku-ilustrado-medio-b92a",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "reptiles_and_amphibians",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-b92a"
   },
   {
-   "slug": "trier-les-images-flowers-vs-reptiles-and-amphibians-064c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-reptiles_and_amphibians",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-reptiles-and-amphibians-064c"
+   "slug": "sudoku-ilustrado-medio-b9ea",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "tree",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-b9ea"
   },
   {
-   "slug": "trier-les-images-flowers-vs-spring-e06c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-spring",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-spring-e06c"
+   "slug": "sudoku-ilustrado-medio-c593",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "emotions",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-c593"
   },
   {
-   "slug": "trier-les-images-flowers-vs-summer-246d",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-summer",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-summer-246d"
+   "slug": "sudoku-ilustrado-medio-e41b",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "zoo_animals",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-e41b"
   },
   {
-   "slug": "trier-les-images-flowers-vs-things-that-fly-adc0",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-things_that_fly",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-things-that-fly-adc0"
+   "slug": "sudoku-ilustrado-medio-e704",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "breakfast",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-e704"
   },
   {
-   "slug": "trier-les-images-flowers-vs-tools-f21f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-tools",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-tools-f21f"
+   "slug": "sudoku-ilustrado-medio-ea5e",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "birds_2",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-ea5e"
   },
   {
-   "slug": "trier-les-images-flowers-vs-toys-7b93",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-toys",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-toys-7b93"
+   "slug": "sudoku-ilustrado-medio-eaa7",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "clothing",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-eaa7"
   },
   {
-   "slug": "trier-les-images-flowers-vs-tree-beaa",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-tree",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-tree-beaa"
+   "slug": "sudoku-ilustrado-medio-f10d",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "fruits",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-f10d"
   },
   {
-   "slug": "trier-les-images-flowers-vs-vegetables-f84c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-vegetables",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-vegetables-f84c"
+   "slug": "sudoku-ilustrado-medio-f637",
+   "type": "sudoku",
+   "mode": "medium",
+   "theme": "music",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-medio-f637"
   },
   {
-   "slug": "trier-les-images-flowers-vs-vehicles-76f9",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-acampamento",
+   "type": "chart-count",
    "mode": null,
-   "theme": "flowers-vs-vehicles",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-vehicles-76f9"
+   "theme": "camping",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-acampamento"
   },
   {
-   "slug": "trier-les-images-flowers-vs-weather-65b9",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-acessorios",
+   "type": "chart-count",
    "mode": null,
-   "theme": "flowers-vs-weather",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-weather-65b9"
+   "theme": "accessories",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-acessorios"
   },
   {
-   "slug": "trier-les-images-flowers-vs-winter-83df",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-animais",
+   "type": "chart-count",
    "mode": null,
-   "theme": "flowers-vs-winter",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-winter-83df"
+   "theme": "animals",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-animais"
   },
   {
-   "slug": "trier-les-images-flowers-vs-zoo-animals-7544",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-animais-da-fazenda",
+   "type": "chart-count",
    "mode": null,
-   "theme": "flowers-vs-zoo_animals",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-zoo-animals-7544"
+   "theme": "farm_animals",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-animais-da-fazenda"
   },
   {
-   "slug": "trier-les-images-tree-vs-around-the-house-3a6b",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-animais-de-estimacao",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-around_the_house",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-around-the-house-3a6b"
+   "theme": "pets",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-animais-de-estimacao"
   },
   {
-   "slug": "trier-les-images-tree-vs-at-the-supermarket-9569",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-animais-do-zoologico",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-at_the_supermarket",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-at-the-supermarket-9569"
+   "theme": "zoo_animals",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-animais-do-zoologico"
   },
   {
-   "slug": "trier-les-images-tree-vs-bakery-4d56",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-arvores",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-bakery",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-bakery-4d56"
+   "theme": "tree",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-arvores"
   },
   {
-   "slug": "trier-les-images-tree-vs-beach-4401",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-brinquedos",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-beach",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-beach-4401"
+   "theme": "toys",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-brinquedos"
   },
   {
-   "slug": "trier-les-images-tree-vs-birds-68e6",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-cafe-da-manha",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-birds",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-birds-68e6"
+   "theme": "breakfast",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-cafe-da-manha"
   },
   {
-   "slug": "trier-les-images-tree-vs-body-parts-f1ef",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-coisas-que-voam",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-body_parts",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-body-parts-f1ef"
+   "theme": "things_that_fly",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-coisas-que-voam"
   },
   {
-   "slug": "trier-les-images-tree-vs-breakfast-b5a8",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-cores",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-breakfast",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-breakfast-b5a8"
+   "theme": "colors",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-cores"
   },
   {
-   "slug": "trier-les-images-tree-vs-camping-f569",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-correios",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-camping",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-camping-f569"
+   "theme": "post_office",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-correios"
   },
   {
-   "slug": "trier-les-images-tree-vs-christmas-8a22",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-criaturas-da-floresta",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-christmas",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-christmas-8a22"
+   "theme": "forest_creatures",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-criaturas-da-floresta"
   },
   {
-   "slug": "trier-les-images-tree-vs-classroom-97bb",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-dia-de-acao-de-gracas",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-classroom",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-classroom-97bb"
+   "theme": "thanksgivinng",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-dia-de-acao-de-gracas"
   },
   {
-   "slug": "trier-les-images-tree-vs-clothing-adf8",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-dinossauros",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-clothing",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-clothing-adf8"
+   "theme": "dinosaurs",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-dinossauros"
   },
   {
-   "slug": "trier-les-images-tree-vs-desserts-and-sweets-e0cf",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-espaco",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-desserts_and_sweets",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-desserts-and-sweets-e0cf"
+   "theme": "space",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-espaco"
   },
   {
-   "slug": "trier-les-images-tree-vs-dinosaurs-21db",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-ferramentas",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-dinosaurs",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-dinosaurs-21db"
+   "theme": "tools",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-ferramentas"
   },
   {
-   "slug": "trier-les-images-tree-vs-easter-41a6",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-flores",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-easter",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-easter-41a6"
+   "theme": "flowers",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-flores"
   },
   {
-   "slug": "trier-les-images-tree-vs-flowers-4a5b",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-formas",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-flowers",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-flowers-4a5b"
+   "theme": "shapes",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-formas"
   },
   {
-   "slug": "trier-les-images-tree-vs-forest-creatures-26d2",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-frutas",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-forest_creatures",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-forest-creatures-26d2"
+   "theme": "fruits",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-frutas"
   },
   {
-   "slug": "trier-les-images-tree-vs-fruits-3870",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-hospital",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-fruits",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-fruits-3870"
+   "theme": "hospital",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-hospital"
   },
   {
-   "slug": "trier-les-images-tree-vs-furniture-755a",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-insetos-e-bichos",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-furniture",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-furniture-755a"
+   "theme": "insects_and_bugs",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-insetos-e-bichos"
   },
   {
-   "slug": "trier-les-images-tree-vs-hospital-3567",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-moveis",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-hospital",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-hospital-3567"
+   "theme": "furniture",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-moveis"
   },
   {
-   "slug": "trier-les-images-tree-vs-insects-and-bugs-5b68",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-natal",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-insects_and_bugs",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-insects-and-bugs-5b68"
+   "theme": "christmas",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-natal"
   },
   {
-   "slug": "trier-les-images-tree-vs-kitchen-tools-5f77",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-no-supermercado",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-kitchen_tools",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-kitchen-tools-5f77"
+   "theme": "at_the_supermarket",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-no-supermercado"
   },
   {
-   "slug": "trier-les-images-tree-vs-music-6490",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-padaria",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-music",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-music-6490"
+   "theme": "bakery",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-padaria"
   },
   {
-   "slug": "trier-les-images-tree-vs-occupations-9d39",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-pascoa",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-occupations",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-occupations-9d39"
+   "theme": "easter",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-pascoa"
   },
   {
-   "slug": "trier-les-images-tree-vs-ocean-life-e749",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-passaros",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-ocean_life",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-ocean-life-e749"
+   "theme": "birds",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-passaros"
   },
   {
-   "slug": "trier-les-images-tree-vs-post-office-964c",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-passaros-2",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-post_office",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-post-office-964c"
+   "theme": "birds_2",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-passaros-2"
   },
   {
-   "slug": "trier-les-images-tree-vs-reptiles-and-amphibians-cd47",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-pela-casa",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-reptiles_and_amphibians",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-reptiles-and-amphibians-cd47"
+   "theme": "around_the_house",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-pela-casa"
   },
   {
-   "slug": "trier-les-images-tree-vs-spring-c25f",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-praia",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-spring",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-spring-c25f"
+   "theme": "beach",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-praia"
   },
   {
-   "slug": "trier-les-images-tree-vs-summer-0db1",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-profissoes",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-summer",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-summer-0db1"
+   "theme": "occupations",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-profissoes"
   },
   {
-   "slug": "trier-les-images-tree-vs-things-that-fly-f8ed",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-repteis-e-anfibios",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-things_that_fly",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-things-that-fly-f8ed"
+   "theme": "reptiles_and_amphibians",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-repteis-e-anfibios"
   },
   {
-   "slug": "trier-les-images-tree-vs-tools-1db9",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-roupas",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-tools",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-tools-1db9"
+   "theme": "clothing",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-roupas"
   },
   {
-   "slug": "trier-les-images-tree-vs-toys-3c24",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-sala-de-aula",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-toys",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-toys-3c24"
+   "theme": "classroom",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-sala-de-aula"
   },
   {
-   "slug": "trier-les-images-tree-vs-vegetables-6105",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-sobremesas-e-doces",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-vegetables",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-vegetables-6105"
+   "theme": "desserts_and_sweets",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-sobremesas-e-doces"
   },
   {
-   "slug": "trier-les-images-tree-vs-vehicles-1d13",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-vegetais",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-vehicles",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-vehicles-1d13"
+   "theme": "vegetables",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-vegetais"
   },
   {
-   "slug": "trier-les-images-tree-vs-weather-745c",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-veiculos",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-weather",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-weather-745c"
+   "theme": "vehicles",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-veiculos"
   },
   {
-   "slug": "trier-les-images-tree-vs-winter-5e30",
-   "type": "picture-sort",
+   "slug": "contagem-em-grafico-vida-marinha",
+   "type": "chart-count",
    "mode": null,
-   "theme": "tree-vs-winter",
-   "level": "maternelle",
-   "deck": "trier-les-images-tree-vs-winter-5e30"
+   "theme": "ocean_life",
+   "level": "1o-ano",
+   "deck": "contagem-em-grafico-vida-marinha"
   }
  ]
 }

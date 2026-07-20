@@ -2,779 +2,746 @@
  "part": 232,
  "locale": "sv",
  "classes": [
-  "pattern-train::abb",
-  "pattern-train::abc"
+  "crossword::null"
  ],
  "splitOf": null,
- "count": 96,
+ "count": 92,
  "pages": [
   {
-   "slug": "monstertaget-abb-aktiviteter-8f6b",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-4-juli-8797",
+   "type": "crossword",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-4-juli-8797"
+  },
+  {
+   "slug": "engelska-korsord-aktiviteter-2829",
+   "type": "crossword",
+   "mode": null,
    "theme": "activities",
-   "level": "forskola",
-   "deck": "monstertaget-abb-aktiviteter-8f6b"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-aktiviteter-2829"
   },
   {
-   "slug": "monstertaget-abb-bageri-a5fe",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-bageri-6c05",
+   "type": "crossword",
+   "mode": null,
    "theme": "bakery",
-   "level": "forskola",
-   "deck": "monstertaget-abb-bageri-a5fe"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-bageri-6c05"
   },
   {
-   "slug": "monstertaget-abb-blommor-2f15",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-blommor-858c",
+   "type": "crossword",
+   "mode": null,
    "theme": "flowers",
-   "level": "forskola",
-   "deck": "monstertaget-abb-blommor-2f15"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-blommor-858c"
   },
   {
-   "slug": "monstertaget-abb-bondgardsdjur-eddf",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-bondgardsdjur-bd3a",
+   "type": "crossword",
+   "mode": null,
    "theme": "farm_animals",
-   "level": "forskola",
-   "deck": "monstertaget-abb-bondgardsdjur-eddf"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-bondgardsdjur-bd3a"
   },
   {
-   "slug": "monstertaget-abb-camping-e72e",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-camping-06ec",
+   "type": "crossword",
+   "mode": null,
    "theme": "camping",
-   "level": "forskola",
-   "deck": "monstertaget-abb-camping-e72e"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-camping-06ec"
   },
   {
-   "slug": "monstertaget-abb-dinosaurier-1028",
-   "type": "pattern-train",
-   "mode": "abb",
-   "theme": "dinosaurs",
-   "level": "forskola",
-   "deck": "monstertaget-abb-dinosaurier-1028"
-  },
-  {
-   "slug": "monstertaget-abb-djur-b8c1",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-djur-123e",
+   "type": "crossword",
+   "mode": null,
    "theme": "animals",
-   "level": "forskola",
-   "deck": "monstertaget-abb-djur-b8c1"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-djur-123e"
   },
   {
-   "slug": "monstertaget-abb-djurparksdjur-570a",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-djurparksdjur-62c4",
+   "type": "crossword",
+   "mode": null,
    "theme": "zoo_animals",
-   "level": "forskola",
-   "deck": "monstertaget-abb-djurparksdjur-570a"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-djurparksdjur-62c4"
   },
   {
-   "slug": "monstertaget-abb-efterratter-och-godis-6340",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-efterratter-och-godis-408f",
+   "type": "crossword",
+   "mode": null,
    "theme": "desserts_and_sweets",
-   "level": "forskola",
-   "deck": "monstertaget-abb-efterratter-och-godis-6340"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-efterratter-och-godis-408f"
   },
   {
-   "slug": "monstertaget-abb-faglar-1269",
-   "type": "pattern-train",
-   "mode": "abb",
-   "theme": "birds",
-   "level": "forskola",
-   "deck": "monstertaget-abb-faglar-1269"
-  },
-  {
-   "slug": "monstertaget-abb-faglar-2-06a9",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-faglar-2-5913",
+   "type": "crossword",
+   "mode": null,
    "theme": "birds_2",
-   "level": "forskola",
-   "deck": "monstertaget-abb-faglar-2-06a9"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-faglar-2-5913"
   },
   {
-   "slug": "monstertaget-abb-farger-10cb",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-faglar-c349",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds",
+   "level": "language-beginner",
+   "deck": "engelska-korsord-faglar-c349"
+  },
+  {
+   "slug": "engelska-korsord-farger-0db0",
+   "type": "crossword",
+   "mode": null,
    "theme": "colors",
-   "level": "forskola",
-   "deck": "monstertaget-abb-farger-10cb"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-farger-0db0"
   },
   {
-   "slug": "monstertaget-abb-fordon-5076",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-fordon-c336",
+   "type": "crossword",
+   "mode": null,
    "theme": "vehicles",
-   "level": "forskola",
-   "deck": "monstertaget-abb-fordon-5076"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-fordon-c336"
   },
   {
-   "slug": "monstertaget-abb-former-6661",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-former-0755",
+   "type": "crossword",
+   "mode": null,
    "theme": "shapes",
-   "level": "forskola",
-   "deck": "monstertaget-abb-former-6661"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-former-0755"
   },
   {
-   "slug": "monstertaget-abb-frukost-99b4",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-frukost-2538",
+   "type": "crossword",
+   "mode": null,
    "theme": "breakfast",
-   "level": "forskola",
-   "deck": "monstertaget-abb-frukost-99b4"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-frukost-2538"
   },
   {
-   "slug": "monstertaget-abb-frukter-38f6",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-frukter-c735",
+   "type": "crossword",
+   "mode": null,
    "theme": "fruits",
-   "level": "forskola",
-   "deck": "monstertaget-abb-frukter-38f6"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-frukter-c735"
   },
   {
-   "slug": "monstertaget-abb-gronsaker-6442",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-gronsaker-e31b",
+   "type": "crossword",
+   "mode": null,
    "theme": "vegetables",
-   "level": "forskola",
-   "deck": "monstertaget-abb-gronsaker-6442"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-gronsaker-e31b"
   },
   {
-   "slug": "monstertaget-abb-havsliv-0358",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-havsliv-85cb",
+   "type": "crossword",
+   "mode": null,
    "theme": "ocean_life",
-   "level": "forskola",
-   "deck": "monstertaget-abb-havsliv-0358"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-havsliv-85cb"
   },
   {
-   "slug": "monstertaget-abb-husdjur-06bb",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-husdjur-5320",
+   "type": "crossword",
+   "mode": null,
    "theme": "pets",
-   "level": "forskola",
-   "deck": "monstertaget-abb-husdjur-06bb"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-husdjur-5320"
   },
   {
-   "slug": "monstertaget-abb-i-snabbkopet-e5c8",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-i-snabbkopet-8ebc",
+   "type": "crossword",
+   "mode": null,
    "theme": "at_the_supermarket",
-   "level": "forskola",
-   "deck": "monstertaget-abb-i-snabbkopet-e5c8"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-i-snabbkopet-8ebc"
   },
   {
-   "slug": "monstertaget-abb-insekter-och-kryp-1180",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-insekter-och-kryp-9bff",
+   "type": "crossword",
+   "mode": null,
    "theme": "insects_and_bugs",
-   "level": "forskola",
-   "deck": "monstertaget-abb-insekter-och-kryp-1180"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-insekter-och-kryp-9bff"
   },
   {
-   "slug": "monstertaget-abb-jul-460b",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-jul-9b2e",
+   "type": "crossword",
+   "mode": null,
    "theme": "christmas",
-   "level": "forskola",
-   "deck": "monstertaget-abb-jul-460b"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-jul-9b2e"
   },
   {
-   "slug": "monstertaget-abb-kanslor-6f38",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-kanslor-13fd",
+   "type": "crossword",
+   "mode": null,
    "theme": "emotions",
-   "level": "forskola",
-   "deck": "monstertaget-abb-kanslor-6f38"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-kanslor-13fd"
   },
   {
-   "slug": "monstertaget-abb-klader-8d4d",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-klader-1844",
+   "type": "crossword",
+   "mode": null,
    "theme": "clothing",
-   "level": "forskola",
-   "deck": "monstertaget-abb-klader-8d4d"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-klader-1844"
   },
   {
-   "slug": "monstertaget-abb-klassrum-5ee0",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-klassrum-b7fe",
+   "type": "crossword",
+   "mode": null,
    "theme": "classroom",
-   "level": "forskola",
-   "deck": "monstertaget-abb-klassrum-5ee0"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-klassrum-b7fe"
   },
   {
-   "slug": "monstertaget-abb-koksredskap-acca",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-koksredskap-6611",
+   "type": "crossword",
+   "mode": null,
    "theme": "kitchen_tools",
-   "level": "forskola",
-   "deck": "monstertaget-abb-koksredskap-acca"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-koksredskap-6611"
   },
   {
-   "slug": "monstertaget-abb-kroppsdelar-8009",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-kroppsdelar-8526",
+   "type": "crossword",
+   "mode": null,
    "theme": "body_parts",
-   "level": "forskola",
-   "deck": "monstertaget-abb-kroppsdelar-8009"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-kroppsdelar-8526"
   },
   {
-   "slug": "monstertaget-abb-leksaker-3c2f",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-leksaker-73a9",
+   "type": "crossword",
+   "mode": null,
    "theme": "toys",
-   "level": "forskola",
-   "deck": "monstertaget-abb-leksaker-3c2f"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-leksaker-73a9"
   },
   {
-   "slug": "monstertaget-abb-mobler-fd01",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-mobler-ac13",
+   "type": "crossword",
+   "mode": null,
    "theme": "furniture",
-   "level": "forskola",
-   "deck": "monstertaget-abb-mobler-fd01"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-mobler-ac13"
   },
   {
-   "slug": "monstertaget-abb-musik-90e0",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-musik-0d62",
+   "type": "crossword",
+   "mode": null,
    "theme": "music",
-   "level": "forskola",
-   "deck": "monstertaget-abb-musik-90e0"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-musik-0d62"
   },
   {
-   "slug": "monstertaget-abb-pask-94ce",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-pask-833a",
+   "type": "crossword",
+   "mode": null,
    "theme": "easter",
-   "level": "forskola",
-   "deck": "monstertaget-abb-pask-94ce"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-pask-833a"
   },
   {
-   "slug": "monstertaget-abb-postkontor-247f",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-postkontor-1e7d",
+   "type": "crossword",
+   "mode": null,
    "theme": "post_office",
-   "level": "forskola",
-   "deck": "monstertaget-abb-postkontor-247f"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-postkontor-1e7d"
   },
   {
-   "slug": "monstertaget-abb-reptiler-och-groddjur-8885",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-reptiler-och-groddjur-773c",
+   "type": "crossword",
+   "mode": null,
    "theme": "reptiles_and_amphibians",
-   "level": "forskola",
-   "deck": "monstertaget-abb-reptiler-och-groddjur-8885"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-reptiler-och-groddjur-773c"
   },
   {
-   "slug": "monstertaget-abb-runt-huset-c9f6",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-runt-huset-f10e",
+   "type": "crossword",
+   "mode": null,
    "theme": "around_the_house",
-   "level": "forskola",
-   "deck": "monstertaget-abb-runt-huset-c9f6"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-runt-huset-f10e"
   },
   {
-   "slug": "monstertaget-abb-rymden-c944",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-rymden-882f",
+   "type": "crossword",
+   "mode": null,
    "theme": "space",
-   "level": "forskola",
-   "deck": "monstertaget-abb-rymden-c944"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-rymden-882f"
   },
   {
-   "slug": "monstertaget-abb-saker-som-flyger-2bb1",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-saker-som-flyger-f9ca",
+   "type": "crossword",
+   "mode": null,
    "theme": "things_that_fly",
-   "level": "forskola",
-   "deck": "monstertaget-abb-saker-som-flyger-2bb1"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-saker-som-flyger-f9ca"
   },
   {
-   "slug": "monstertaget-abb-sjukhus-0361",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-sjukhus-c0df",
+   "type": "crossword",
+   "mode": null,
    "theme": "hospital",
-   "level": "forskola",
-   "deck": "monstertaget-abb-sjukhus-0361"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-sjukhus-c0df"
   },
   {
-   "slug": "monstertaget-abb-skogsdjur-ca14",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-skogsdjur-ffda",
+   "type": "crossword",
+   "mode": null,
    "theme": "forest_creatures",
-   "level": "forskola",
-   "deck": "monstertaget-abb-skogsdjur-ca14"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-skogsdjur-ffda"
   },
   {
-   "slug": "monstertaget-abb-sommar-77f0",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-sommar-420a",
+   "type": "crossword",
+   "mode": null,
    "theme": "summer",
-   "level": "forskola",
-   "deck": "monstertaget-abb-sommar-77f0"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-sommar-420a"
   },
   {
-   "slug": "monstertaget-abb-strand-5cb0",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-strand-ca2c",
+   "type": "crossword",
+   "mode": null,
    "theme": "beach",
-   "level": "forskola",
-   "deck": "monstertaget-abb-strand-5cb0"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-strand-ca2c"
   },
   {
-   "slug": "monstertaget-abb-thanksgiving-9bdf",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-thanksgiving-a567",
+   "type": "crossword",
+   "mode": null,
    "theme": "thanksgivinng",
-   "level": "forskola",
-   "deck": "monstertaget-abb-thanksgiving-9bdf"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-thanksgiving-a567"
   },
   {
-   "slug": "monstertaget-abb-tillbehor-b87e",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-tillbehor-ba03",
+   "type": "crossword",
+   "mode": null,
    "theme": "accessories",
-   "level": "forskola",
-   "deck": "monstertaget-abb-tillbehor-b87e"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-tillbehor-ba03"
   },
   {
-   "slug": "monstertaget-abb-trad-dc17",
-   "type": "pattern-train",
-   "mode": "abb",
-   "theme": "tree",
-   "level": "forskola",
-   "deck": "monstertaget-abb-trad-dc17"
-  },
-  {
-   "slug": "monstertaget-abb-vader-7f07",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-vader-2139",
+   "type": "crossword",
+   "mode": null,
    "theme": "weather",
-   "level": "forskola",
-   "deck": "monstertaget-abb-vader-7f07"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-vader-2139"
   },
   {
-   "slug": "monstertaget-abb-var-c3a1",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-var-6c15",
+   "type": "crossword",
+   "mode": null,
    "theme": "spring",
-   "level": "forskola",
-   "deck": "monstertaget-abb-var-c3a1"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-var-6c15"
   },
   {
-   "slug": "monstertaget-abb-verktyg-5e04",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-verktyg-0dd1",
+   "type": "crossword",
+   "mode": null,
    "theme": "tools",
-   "level": "forskola",
-   "deck": "monstertaget-abb-verktyg-5e04"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-verktyg-0dd1"
   },
   {
-   "slug": "monstertaget-abb-vinter-2fbe",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-vinter-acbc",
+   "type": "crossword",
+   "mode": null,
    "theme": "winter",
-   "level": "forskola",
-   "deck": "monstertaget-abb-vinter-2fbe"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-vinter-acbc"
   },
   {
-   "slug": "monstertaget-abb-yrken-afad",
-   "type": "pattern-train",
-   "mode": "abb",
+   "slug": "engelska-korsord-yrken-967c",
+   "type": "crossword",
+   "mode": null,
    "theme": "occupations",
-   "level": "forskola",
-   "deck": "monstertaget-abb-yrken-afad"
+   "level": "language-beginner",
+   "deck": "engelska-korsord-yrken-967c"
   },
   {
-   "slug": "monstertaget-abc-aktiviteter-6d11",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-aktiviteter-d0b5",
+   "type": "crossword",
+   "mode": null,
    "theme": "activities",
-   "level": "forskola",
-   "deck": "monstertaget-abc-aktiviteter-6d11"
+   "level": "ak-2",
+   "deck": "korsord-aktiviteter-d0b5"
   },
   {
-   "slug": "monstertaget-abc-bageri-4ef0",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-bageri-2dc0",
+   "type": "crossword",
+   "mode": null,
    "theme": "bakery",
-   "level": "forskola",
-   "deck": "monstertaget-abc-bageri-4ef0"
+   "level": "ak-2",
+   "deck": "korsord-bageri-2dc0"
   },
   {
-   "slug": "monstertaget-abc-blommor-cc95",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-blommor-51d5",
+   "type": "crossword",
+   "mode": null,
    "theme": "flowers",
-   "level": "forskola",
-   "deck": "monstertaget-abc-blommor-cc95"
+   "level": "ak-2",
+   "deck": "korsord-blommor-51d5"
   },
   {
-   "slug": "monstertaget-abc-bondgardsdjur-c71f",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-bondgardsdjur-dc15",
+   "type": "crossword",
+   "mode": null,
    "theme": "farm_animals",
-   "level": "forskola",
-   "deck": "monstertaget-abc-bondgardsdjur-c71f"
+   "level": "ak-2",
+   "deck": "korsord-bondgardsdjur-dc15"
   },
   {
-   "slug": "monstertaget-abc-camping-0d64",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-camping-acef",
+   "type": "crossword",
+   "mode": null,
    "theme": "camping",
-   "level": "forskola",
-   "deck": "monstertaget-abc-camping-0d64"
+   "level": "ak-2",
+   "deck": "korsord-camping-acef"
   },
   {
-   "slug": "monstertaget-abc-dinosaurier-8550",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "dinosaurs",
-   "level": "forskola",
-   "deck": "monstertaget-abc-dinosaurier-8550"
-  },
-  {
-   "slug": "monstertaget-abc-djur-65c3",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-djur-2d18",
+   "type": "crossword",
+   "mode": null,
    "theme": "animals",
-   "level": "forskola",
-   "deck": "monstertaget-abc-djur-65c3"
+   "level": "ak-2",
+   "deck": "korsord-djur-2d18"
   },
   {
-   "slug": "monstertaget-abc-djurparksdjur-d18c",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-djurparksdjur-a809",
+   "type": "crossword",
+   "mode": null,
    "theme": "zoo_animals",
-   "level": "forskola",
-   "deck": "monstertaget-abc-djurparksdjur-d18c"
+   "level": "ak-2",
+   "deck": "korsord-djurparksdjur-a809"
   },
   {
-   "slug": "monstertaget-abc-efterratter-och-godis-4139",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-efterratter-och-godis-b23e",
+   "type": "crossword",
+   "mode": null,
    "theme": "desserts_and_sweets",
-   "level": "forskola",
-   "deck": "monstertaget-abc-efterratter-och-godis-4139"
+   "level": "ak-2",
+   "deck": "korsord-efterratter-och-godis-b23e"
   },
   {
-   "slug": "monstertaget-abc-faglar-2-a693",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-faglar-2-7309",
+   "type": "crossword",
+   "mode": null,
    "theme": "birds_2",
-   "level": "forskola",
-   "deck": "monstertaget-abc-faglar-2-a693"
+   "level": "ak-2",
+   "deck": "korsord-faglar-2-7309"
   },
   {
-   "slug": "monstertaget-abc-faglar-879f",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-faglar-572d",
+   "type": "crossword",
+   "mode": null,
    "theme": "birds",
-   "level": "forskola",
-   "deck": "monstertaget-abc-faglar-879f"
+   "level": "ak-2",
+   "deck": "korsord-faglar-572d"
   },
   {
-   "slug": "monstertaget-abc-farger-a69d",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-farger-017d",
+   "type": "crossword",
+   "mode": null,
    "theme": "colors",
-   "level": "forskola",
-   "deck": "monstertaget-abc-farger-a69d"
+   "level": "ak-2",
+   "deck": "korsord-farger-017d"
   },
   {
-   "slug": "monstertaget-abc-fordon-6507",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-fordon-8735",
+   "type": "crossword",
+   "mode": null,
    "theme": "vehicles",
-   "level": "forskola",
-   "deck": "monstertaget-abc-fordon-6507"
+   "level": "ak-2",
+   "deck": "korsord-fordon-8735"
   },
   {
-   "slug": "monstertaget-abc-former-e417",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-former-13f1",
+   "type": "crossword",
+   "mode": null,
    "theme": "shapes",
-   "level": "forskola",
-   "deck": "monstertaget-abc-former-e417"
+   "level": "ak-2",
+   "deck": "korsord-former-13f1"
   },
   {
-   "slug": "monstertaget-abc-frukost-4cb6",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-frukost-2785",
+   "type": "crossword",
+   "mode": null,
    "theme": "breakfast",
-   "level": "forskola",
-   "deck": "monstertaget-abc-frukost-4cb6"
+   "level": "ak-2",
+   "deck": "korsord-frukost-2785"
   },
   {
-   "slug": "monstertaget-abc-frukter-c26c",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "fruits",
-   "level": "forskola",
-   "deck": "monstertaget-abc-frukter-c26c"
-  },
-  {
-   "slug": "monstertaget-abc-gronsaker-dbf7",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-gronsaker-9ee6",
+   "type": "crossword",
+   "mode": null,
    "theme": "vegetables",
-   "level": "forskola",
-   "deck": "monstertaget-abc-gronsaker-dbf7"
+   "level": "ak-2",
+   "deck": "korsord-gronsaker-9ee6"
   },
   {
-   "slug": "monstertaget-abc-havsliv-2907",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-havsliv-bda0",
+   "type": "crossword",
+   "mode": null,
    "theme": "ocean_life",
-   "level": "forskola",
-   "deck": "monstertaget-abc-havsliv-2907"
+   "level": "ak-2",
+   "deck": "korsord-havsliv-bda0"
   },
   {
-   "slug": "monstertaget-abc-husdjur-13ea",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-husdjur-22e9",
+   "type": "crossword",
+   "mode": null,
    "theme": "pets",
-   "level": "forskola",
-   "deck": "monstertaget-abc-husdjur-13ea"
+   "level": "ak-2",
+   "deck": "korsord-husdjur-22e9"
   },
   {
-   "slug": "monstertaget-abc-i-snabbkopet-a415",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-i-snabbkopet-73f5",
+   "type": "crossword",
+   "mode": null,
    "theme": "at_the_supermarket",
-   "level": "forskola",
-   "deck": "monstertaget-abc-i-snabbkopet-a415"
+   "level": "ak-2",
+   "deck": "korsord-i-snabbkopet-73f5"
   },
   {
-   "slug": "monstertaget-abc-insekter-och-kryp-9e77",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-insekter-och-kryp-8b26",
+   "type": "crossword",
+   "mode": null,
    "theme": "insects_and_bugs",
-   "level": "forskola",
-   "deck": "monstertaget-abc-insekter-och-kryp-9e77"
+   "level": "ak-2",
+   "deck": "korsord-insekter-och-kryp-8b26"
   },
   {
-   "slug": "monstertaget-abc-jul-9c96",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-jul-495e",
+   "type": "crossword",
+   "mode": null,
    "theme": "christmas",
-   "level": "forskola",
-   "deck": "monstertaget-abc-jul-9c96"
+   "level": "ak-2",
+   "deck": "korsord-jul-495e"
   },
   {
-   "slug": "monstertaget-abc-kanslor-9295",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-kanslor-1afc",
+   "type": "crossword",
+   "mode": null,
    "theme": "emotions",
-   "level": "forskola",
-   "deck": "monstertaget-abc-kanslor-9295"
+   "level": "ak-2",
+   "deck": "korsord-kanslor-1afc"
   },
   {
-   "slug": "monstertaget-abc-klader-870c",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-klader-d043",
+   "type": "crossword",
+   "mode": null,
    "theme": "clothing",
-   "level": "forskola",
-   "deck": "monstertaget-abc-klader-870c"
+   "level": "ak-2",
+   "deck": "korsord-klader-d043"
   },
   {
-   "slug": "monstertaget-abc-klassrum-1720",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-klassrum-c21f",
+   "type": "crossword",
+   "mode": null,
    "theme": "classroom",
-   "level": "forskola",
-   "deck": "monstertaget-abc-klassrum-1720"
+   "level": "ak-2",
+   "deck": "korsord-klassrum-c21f"
   },
   {
-   "slug": "monstertaget-abc-koksredskap-44dd",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-koksredskap-36c6",
+   "type": "crossword",
+   "mode": null,
    "theme": "kitchen_tools",
-   "level": "forskola",
-   "deck": "monstertaget-abc-koksredskap-44dd"
+   "level": "ak-2",
+   "deck": "korsord-koksredskap-36c6"
   },
   {
-   "slug": "monstertaget-abc-kroppsdelar-5ae5",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-kroppsdelar-85be",
+   "type": "crossword",
+   "mode": null,
    "theme": "body_parts",
-   "level": "forskola",
-   "deck": "monstertaget-abc-kroppsdelar-5ae5"
+   "level": "ak-2",
+   "deck": "korsord-kroppsdelar-85be"
   },
   {
-   "slug": "monstertaget-abc-leksaker-8a06",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-leksaker-28b8",
+   "type": "crossword",
+   "mode": null,
    "theme": "toys",
-   "level": "forskola",
-   "deck": "monstertaget-abc-leksaker-8a06"
+   "level": "ak-2",
+   "deck": "korsord-leksaker-28b8"
   },
   {
-   "slug": "monstertaget-abc-mobler-7eee",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-mobler-6fff",
+   "type": "crossword",
+   "mode": null,
    "theme": "furniture",
-   "level": "forskola",
-   "deck": "monstertaget-abc-mobler-7eee"
+   "level": "ak-2",
+   "deck": "korsord-mobler-6fff"
   },
   {
-   "slug": "monstertaget-abc-musik-5c2e",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-musik-e019",
+   "type": "crossword",
+   "mode": null,
    "theme": "music",
-   "level": "forskola",
-   "deck": "monstertaget-abc-musik-5c2e"
+   "level": "ak-2",
+   "deck": "korsord-musik-e019"
   },
   {
-   "slug": "monstertaget-abc-pask-03b5",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-pask-7028",
+   "type": "crossword",
+   "mode": null,
    "theme": "easter",
-   "level": "forskola",
-   "deck": "monstertaget-abc-pask-03b5"
+   "level": "ak-2",
+   "deck": "korsord-pask-7028"
   },
   {
-   "slug": "monstertaget-abc-postkontor-23bd",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-postkontor-f3be",
+   "type": "crossword",
+   "mode": null,
    "theme": "post_office",
-   "level": "forskola",
-   "deck": "monstertaget-abc-postkontor-23bd"
+   "level": "ak-2",
+   "deck": "korsord-postkontor-f3be"
   },
   {
-   "slug": "monstertaget-abc-reptiler-och-groddjur-be30",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "reptiles_and_amphibians",
-   "level": "forskola",
-   "deck": "monstertaget-abc-reptiler-och-groddjur-be30"
-  },
-  {
-   "slug": "monstertaget-abc-runt-huset-44a6",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-runt-huset-4328",
+   "type": "crossword",
+   "mode": null,
    "theme": "around_the_house",
-   "level": "forskola",
-   "deck": "monstertaget-abc-runt-huset-44a6"
+   "level": "ak-2",
+   "deck": "korsord-runt-huset-4328"
   },
   {
-   "slug": "monstertaget-abc-rymden-8fc9",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-rymden-e18d",
+   "type": "crossword",
+   "mode": null,
    "theme": "space",
-   "level": "forskola",
-   "deck": "monstertaget-abc-rymden-8fc9"
+   "level": "ak-2",
+   "deck": "korsord-rymden-e18d"
   },
   {
-   "slug": "monstertaget-abc-saker-som-flyger-5aec",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-saker-som-flyger-10e6",
+   "type": "crossword",
+   "mode": null,
    "theme": "things_that_fly",
-   "level": "forskola",
-   "deck": "monstertaget-abc-saker-som-flyger-5aec"
+   "level": "ak-2",
+   "deck": "korsord-saker-som-flyger-10e6"
   },
   {
-   "slug": "monstertaget-abc-sjukhus-7bdb",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-sjukhus-71e2",
+   "type": "crossword",
+   "mode": null,
    "theme": "hospital",
-   "level": "forskola",
-   "deck": "monstertaget-abc-sjukhus-7bdb"
+   "level": "ak-2",
+   "deck": "korsord-sjukhus-71e2"
   },
   {
-   "slug": "monstertaget-abc-skogsdjur-4858",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-skogsdjur-e097",
+   "type": "crossword",
+   "mode": null,
    "theme": "forest_creatures",
-   "level": "forskola",
-   "deck": "monstertaget-abc-skogsdjur-4858"
+   "level": "ak-2",
+   "deck": "korsord-skogsdjur-e097"
   },
   {
-   "slug": "monstertaget-abc-sommar-5885",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-sommar-3fd1",
+   "type": "crossword",
+   "mode": null,
    "theme": "summer",
-   "level": "forskola",
-   "deck": "monstertaget-abc-sommar-5885"
+   "level": "ak-2",
+   "deck": "korsord-sommar-3fd1"
   },
   {
-   "slug": "monstertaget-abc-strand-9ef4",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-strand-43fa",
+   "type": "crossword",
+   "mode": null,
    "theme": "beach",
-   "level": "forskola",
-   "deck": "monstertaget-abc-strand-9ef4"
+   "level": "ak-2",
+   "deck": "korsord-strand-43fa"
   },
   {
-   "slug": "monstertaget-abc-thanksgiving-9646",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-thanksgiving-f9e5",
+   "type": "crossword",
+   "mode": null,
    "theme": "thanksgivinng",
-   "level": "forskola",
-   "deck": "monstertaget-abc-thanksgiving-9646"
+   "level": "ak-2",
+   "deck": "korsord-thanksgiving-f9e5"
   },
   {
-   "slug": "monstertaget-abc-tillbehor-3a91",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-tillbehor-12d1",
+   "type": "crossword",
+   "mode": null,
    "theme": "accessories",
-   "level": "forskola",
-   "deck": "monstertaget-abc-tillbehor-3a91"
+   "level": "ak-2",
+   "deck": "korsord-tillbehor-12d1"
   },
   {
-   "slug": "monstertaget-abc-trad-22b2",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-trad-f513",
+   "type": "crossword",
+   "mode": null,
    "theme": "tree",
-   "level": "forskola",
-   "deck": "monstertaget-abc-trad-22b2"
+   "level": "ak-2",
+   "deck": "korsord-trad-f513"
   },
   {
-   "slug": "monstertaget-abc-vader-7cef",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-vader-d94f",
+   "type": "crossword",
+   "mode": null,
    "theme": "weather",
-   "level": "forskola",
-   "deck": "monstertaget-abc-vader-7cef"
+   "level": "ak-2",
+   "deck": "korsord-vader-d94f"
   },
   {
-   "slug": "monstertaget-abc-var-570e",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-var-15eb",
+   "type": "crossword",
+   "mode": null,
    "theme": "spring",
-   "level": "forskola",
-   "deck": "monstertaget-abc-var-570e"
+   "level": "ak-2",
+   "deck": "korsord-var-15eb"
   },
   {
-   "slug": "monstertaget-abc-verktyg-b01d",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-verktyg-83f3",
+   "type": "crossword",
+   "mode": null,
    "theme": "tools",
-   "level": "forskola",
-   "deck": "monstertaget-abc-verktyg-b01d"
+   "level": "ak-2",
+   "deck": "korsord-verktyg-83f3"
   },
   {
-   "slug": "monstertaget-abc-vinter-f581",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-vinter-9b0c",
+   "type": "crossword",
+   "mode": null,
    "theme": "winter",
-   "level": "forskola",
-   "deck": "monstertaget-abc-vinter-f581"
+   "level": "ak-2",
+   "deck": "korsord-vinter-9b0c"
   },
   {
-   "slug": "monstertaget-abc-yrken-cc70",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "korsord-yrken-987d",
+   "type": "crossword",
+   "mode": null,
    "theme": "occupations",
-   "level": "forskola",
-   "deck": "monstertaget-abc-yrken-cc70"
+   "level": "ak-2",
+   "deck": "korsord-yrken-987d"
   }
  ]
 }

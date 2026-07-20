@@ -2,651 +2,752 @@
  "part": 191,
  "locale": "it",
  "classes": [
-  "math-puzzle::mixed",
-  "math-puzzle::subtraction"
+  "big-small::orderAsc",
+  "fractions::name-and-compare",
+  "fractions::partition-and-share",
+  "big-small::findBig",
+  "number-charts::hundreds-chart-skip-count",
+  "number-charts::number-patterns",
+  "number-charts::numbers-to-20",
+  "number-charts::skip-count-and-100-more-less",
+  "measurement::compare-weight",
+  "measurement::length-units",
+  "measurement::measure-and-compare-length",
+  "measurement::volume-and-temperature",
+  "telling-time::hour-half-hour",
+  "telling-time::to-five-minutes",
+  "telling-time::to-the-minute"
  ],
  "splitOf": null,
- "count": 80,
+ "count": 91,
  "pages": [
   {
-   "slug": "puzzle-matematico-misto-abbigliamento-0850",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-abbigliamento-59da",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "clothing",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-misto-abbigliamento-0850"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-abbigliamento-59da"
   },
   {
-   "slug": "puzzle-matematico-misto-accessori-baff",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-accessori-7caf",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "accessories",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-misto-accessori-baff"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-accessori-7caf"
   },
   {
-   "slug": "puzzle-matematico-misto-al-supermercato-94ba",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-al-supermercato-258f",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "at_the_supermarket",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-misto-al-supermercato-94ba"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-al-supermercato-258f"
   },
   {
-   "slug": "puzzle-matematico-misto-alberi-1941",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-alberi-ff2b",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "tree",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-misto-alberi-1941"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-alberi-ff2b"
   },
   {
-   "slug": "puzzle-matematico-misto-animali-107f",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-animali-725c",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "animals",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-misto-animali-107f"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-animali-725c"
   },
   {
-   "slug": "puzzle-matematico-misto-animali-della-fattoria-b4f7",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-animali-della-fattoria-65a2",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "farm_animals",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-misto-animali-della-fattoria-b4f7"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-animali-della-fattoria-65a2"
   },
   {
-   "slug": "puzzle-matematico-misto-animali-dello-zoo-b335",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-animali-dello-zoo-7670",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "zoo_animals",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-misto-animali-dello-zoo-b335"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-animali-dello-zoo-7670"
   },
   {
-   "slug": "puzzle-matematico-misto-animali-domestici-49ba",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-animali-domestici-87f9",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "pets",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-misto-animali-domestici-49ba"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-animali-domestici-87f9"
   },
   {
-   "slug": "puzzle-matematico-misto-attrezzi-7629",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-attrezzi-1f81",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "tools",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-misto-attrezzi-7629"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-attrezzi-1f81"
   },
   {
-   "slug": "puzzle-matematico-misto-aula-db84",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-aula-bb74",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "classroom",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-misto-aula-db84"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-aula-bb74"
   },
   {
-   "slug": "puzzle-matematico-misto-campeggio-a4a8",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-campeggio-1790",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "camping",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-misto-campeggio-a4a8"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-campeggio-1790"
   },
   {
-   "slug": "puzzle-matematico-misto-colazione-623f",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-colazione-fd67",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "breakfast",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-misto-colazione-623f"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-colazione-fd67"
   },
   {
-   "slug": "puzzle-matematico-misto-cose-che-volano-fbcf",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-cose-che-volano-ea7d",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "things_that_fly",
-   "level": "classe-seconda",
-   "deck": "puzzle-matematico-misto-cose-che-volano-fbcf"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-cose-che-volano-ea7d"
   },
   {
-   "slug": "puzzle-matematico-misto-creature-della-foresta-5809",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-creature-della-foresta-9a92",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "forest_creatures",
-   "level": "classe-seconda",
-   "deck": "puzzle-matematico-misto-creature-della-foresta-5809"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-creature-della-foresta-9a92"
   },
   {
-   "slug": "puzzle-matematico-misto-dinosauri-4469",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-dinosauri-c763",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "dinosaurs",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-misto-dinosauri-4469"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-dinosauri-c763"
   },
   {
-   "slug": "puzzle-matematico-misto-dolci-e-dolciumi-a4b4",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-dolci-e-dolciumi-98a6",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "desserts_and_sweets",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-misto-dolci-e-dolciumi-a4b4"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-dolci-e-dolciumi-98a6"
   },
   {
-   "slug": "puzzle-matematico-misto-fiori-c135",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-fiori-225e",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "flowers",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-misto-fiori-c135"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-fiori-225e"
   },
   {
-   "slug": "puzzle-matematico-misto-frutta-6b81",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-forme-9262",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "shapes",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-forme-9262"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-frutta-90ad",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "fruits",
-   "level": "classe-seconda",
-   "deck": "puzzle-matematico-misto-frutta-6b81"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-frutta-90ad"
   },
   {
-   "slug": "puzzle-matematico-misto-giocattoli-ce76",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-giocattoli-e01d",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "toys",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-misto-giocattoli-ce76"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-giocattoli-e01d"
   },
   {
-   "slug": "puzzle-matematico-misto-giorno-del-ringraziamento-df8d",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-giorno-del-ringraziamento-1f49",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "thanksgivinng",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-misto-giorno-del-ringraziamento-df8d"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-giorno-del-ringraziamento-1f49"
   },
   {
-   "slug": "puzzle-matematico-misto-in-giro-per-casa-f241",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-in-giro-per-casa-c1ee",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "around_the_house",
-   "level": "classe-seconda",
-   "deck": "puzzle-matematico-misto-in-giro-per-casa-f241"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-in-giro-per-casa-c1ee"
   },
   {
-   "slug": "puzzle-matematico-misto-insetti-e-scarafaggi-049e",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-insetti-e-scarafaggi-d8c0",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "insects_and_bugs",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-misto-insetti-e-scarafaggi-049e"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-insetti-e-scarafaggi-d8c0"
   },
   {
-   "slug": "puzzle-matematico-misto-mobili-ff64",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-mobili-acb6",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "furniture",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-misto-mobili-ff64"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-mobili-acb6"
   },
   {
-   "slug": "puzzle-matematico-misto-musica-178f",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-musica-3d58",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "music",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-misto-musica-178f"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-musica-3d58"
   },
   {
-   "slug": "puzzle-matematico-misto-natale-463e",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-natale-41dd",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "christmas",
-   "level": "classe-seconda",
-   "deck": "puzzle-matematico-misto-natale-463e"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-natale-41dd"
   },
   {
-   "slug": "puzzle-matematico-misto-ospedale-0aeb",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-ospedale-e538",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "hospital",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-misto-ospedale-0aeb"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-ospedale-e538"
   },
   {
-   "slug": "puzzle-matematico-misto-panetteria-a47e",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-panetteria-0075",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "bakery",
-   "level": "classe-seconda",
-   "deck": "puzzle-matematico-misto-panetteria-a47e"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-panetteria-0075"
   },
   {
-   "slug": "puzzle-matematico-misto-pasqua-52eb",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-parti-del-corpo-77b7",
+   "type": "big-small",
+   "mode": "orderAsc",
+   "theme": "body_parts",
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-parti-del-corpo-77b7"
+  },
+  {
+   "slug": "grande-piccolo-ordine-crescente-pasqua-3eb7",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "easter",
-   "level": "classe-seconda",
-   "deck": "puzzle-matematico-misto-pasqua-52eb"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-pasqua-3eb7"
   },
   {
-   "slug": "puzzle-matematico-misto-professioni-b54e",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-professioni-6a42",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "occupations",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-misto-professioni-b54e"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-professioni-6a42"
   },
   {
-   "slug": "puzzle-matematico-misto-rettili-e-anfibi-1750",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-rettili-e-anfibi-27bd",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "reptiles_and_amphibians",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-misto-rettili-e-anfibi-1750"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-rettili-e-anfibi-27bd"
   },
   {
-   "slug": "puzzle-matematico-misto-spazio-e8a3",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-spazio-8500",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "space",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-misto-spazio-e8a3"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-spazio-8500"
   },
   {
-   "slug": "puzzle-matematico-misto-spiaggia-dfc3",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-spiaggia-7590",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "beach",
-   "level": "classe-seconda",
-   "deck": "puzzle-matematico-misto-spiaggia-dfc3"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-spiaggia-7590"
   },
   {
-   "slug": "puzzle-matematico-misto-uccelli-2-50c0",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-uccelli-2-3bc3",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "birds_2",
-   "level": "classe-seconda",
-   "deck": "puzzle-matematico-misto-uccelli-2-50c0"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-uccelli-2-3bc3"
   },
   {
-   "slug": "puzzle-matematico-misto-uccelli-d468",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-uccelli-831d",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "birds",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-misto-uccelli-d468"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-uccelli-831d"
   },
   {
-   "slug": "puzzle-matematico-misto-ufficio-postale-b76e",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-ufficio-postale-89a8",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "post_office",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-misto-ufficio-postale-b76e"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-ufficio-postale-89a8"
   },
   {
-   "slug": "puzzle-matematico-misto-utensili-da-cucina-ca10",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-utensili-da-cucina-2c2c",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "kitchen_tools",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-misto-utensili-da-cucina-ca10"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-utensili-da-cucina-2c2c"
   },
   {
-   "slug": "puzzle-matematico-misto-varie-ee21",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-varie-207e",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "miscellaneous",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-misto-varie-ee21"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-varie-207e"
   },
   {
-   "slug": "puzzle-matematico-misto-veicoli-5dfc",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-veicoli-e76d",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "vehicles",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-misto-veicoli-5dfc"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-veicoli-e76d"
   },
   {
-   "slug": "puzzle-matematico-misto-verdure-2e3c",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-verdure-3be9",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "vegetables",
-   "level": "classe-seconda",
-   "deck": "puzzle-matematico-misto-verdure-2e3c"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-verdure-3be9"
   },
   {
-   "slug": "puzzle-matematico-misto-vita-oceanica-0ba9",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "grande-piccolo-ordine-crescente-vita-oceanica-21e4",
+   "type": "big-small",
+   "mode": "orderAsc",
    "theme": "ocean_life",
-   "level": "classe-seconda",
-   "deck": "puzzle-matematico-misto-vita-oceanica-0ba9"
+   "level": "infanzia",
+   "deck": "grande-piccolo-ordine-crescente-vita-oceanica-21e4"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-abbigliamento-0cb2",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "frazioni-classe-terza",
+   "type": "fractions",
+   "mode": "name-and-compare",
+   "theme": "",
+   "level": "classe-terza",
+   "deck": "frazioni-g3315"
+  },
+  {
+   "slug": "frazioni-parti-uguali-classe-seconda",
+   "type": "fractions",
+   "mode": "partition-and-share",
+   "theme": "",
+   "level": "classe-seconda",
+   "deck": "frazioni-g2228"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-abbigliamento-987b",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "clothing",
-   "level": "classe-seconda",
-   "deck": "puzzle-matematico-sottrazione-abbigliamento-0cb2"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-abbigliamento-987b"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-accessori-36c2",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-accessori-17be",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "accessories",
-   "level": "classe-seconda",
-   "deck": "puzzle-matematico-sottrazione-accessori-36c2"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-accessori-17be"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-al-supermercato-7d21",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-al-supermercato-1780",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "at_the_supermarket",
-   "level": "classe-seconda",
-   "deck": "puzzle-matematico-sottrazione-al-supermercato-7d21"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-al-supermercato-1780"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-alberi-8fef",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-alberi-0d26",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "tree",
-   "level": "classe-seconda",
-   "deck": "puzzle-matematico-sottrazione-alberi-8fef"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-alberi-0d26"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-animali-c4d5",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-animali-d54d",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "animals",
-   "level": "classe-seconda",
-   "deck": "puzzle-matematico-sottrazione-animali-c4d5"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-animali-d54d"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-animali-della-fattoria-411d",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-animali-della-fattoria-d14f",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "farm_animals",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-sottrazione-animali-della-fattoria-411d"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-animali-della-fattoria-d14f"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-animali-dello-zoo-4dda",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-animali-dello-zoo-d95e",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "zoo_animals",
-   "level": "classe-seconda",
-   "deck": "puzzle-matematico-sottrazione-animali-dello-zoo-4dda"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-animali-dello-zoo-d95e"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-animali-domestici-47be",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-animali-domestici-671e",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "pets",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-sottrazione-animali-domestici-47be"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-animali-domestici-671e"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-attrezzi-dd9a",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-attrezzi-9c3e",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "tools",
-   "level": "classe-seconda",
-   "deck": "puzzle-matematico-sottrazione-attrezzi-dd9a"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-attrezzi-9c3e"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-aula-efa7",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-aula-e22d",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "classroom",
-   "level": "classe-seconda",
-   "deck": "puzzle-matematico-sottrazione-aula-efa7"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-aula-e22d"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-campeggio-9aec",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-campeggio-ba49",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "camping",
-   "level": "classe-seconda",
-   "deck": "puzzle-matematico-sottrazione-campeggio-9aec"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-campeggio-ba49"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-colazione-c503",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-colazione-e5ac",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "breakfast",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-sottrazione-colazione-c503"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-colazione-e5ac"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-cose-che-volano-9c01",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-cose-che-volano-9a66",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "things_that_fly",
-   "level": "classe-seconda",
-   "deck": "puzzle-matematico-sottrazione-cose-che-volano-9c01"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-cose-che-volano-9a66"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-creature-della-foresta-6ed9",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-creature-della-foresta-ba80",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "forest_creatures",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-sottrazione-creature-della-foresta-6ed9"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-creature-della-foresta-ba80"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-dinosauri-5377",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-dinosauri-5c10",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "dinosaurs",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-sottrazione-dinosauri-5377"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-dinosauri-5c10"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-dolci-e-dolciumi-19b3",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-dolci-e-dolciumi-7e35",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "desserts_and_sweets",
-   "level": "classe-seconda",
-   "deck": "puzzle-matematico-sottrazione-dolci-e-dolciumi-19b3"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-dolci-e-dolciumi-7e35"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-fiori-e287",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-fiori-c90e",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "flowers",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-sottrazione-fiori-e287"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-fiori-c90e"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-frutta-09fe",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-forme-8fef",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "shapes",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-forme-8fef"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-frutta-ff14",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "fruits",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-sottrazione-frutta-09fe"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-frutta-ff14"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-giocattoli-cb5a",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-giocattoli-9177",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "toys",
-   "level": "classe-seconda",
-   "deck": "puzzle-matematico-sottrazione-giocattoli-cb5a"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-giocattoli-9177"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-giorno-del-ringraziamento-df9c",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "thanksgivinng",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-sottrazione-giorno-del-ringraziamento-df9c"
-  },
-  {
-   "slug": "puzzle-matematico-sottrazione-in-giro-per-casa-150b",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-in-giro-per-casa-5fd1",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "around_the_house",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-sottrazione-in-giro-per-casa-150b"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-in-giro-per-casa-5fd1"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-insetti-e-scarafaggi-1988",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "insects_and_bugs",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-sottrazione-insetti-e-scarafaggi-1988"
-  },
-  {
-   "slug": "puzzle-matematico-sottrazione-mobili-4914",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-mobili-57fc",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "furniture",
-   "level": "classe-seconda",
-   "deck": "puzzle-matematico-sottrazione-mobili-4914"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-mobili-57fc"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-musica-adce",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-musica-25c3",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "music",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-sottrazione-musica-adce"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-musica-25c3"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-natale-ba4d",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-natale-7a54",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "christmas",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-sottrazione-natale-ba4d"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-natale-7a54"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-ospedale-b924",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-ospedale-682c",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "hospital",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-sottrazione-ospedale-b924"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-ospedale-682c"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-panetteria-8f51",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-panetteria-0f55",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "bakery",
-   "level": "classe-seconda",
-   "deck": "puzzle-matematico-sottrazione-panetteria-8f51"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-panetteria-0f55"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-pasqua-b4c7",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-parti-del-corpo-0f8b",
+   "type": "big-small",
+   "mode": "findBig",
+   "theme": "body_parts",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-parti-del-corpo-0f8b"
+  },
+  {
+   "slug": "grande-piccolo-trova-il-grande-pasqua-4721",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "easter",
-   "level": "classe-seconda",
-   "deck": "puzzle-matematico-sottrazione-pasqua-b4c7"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-pasqua-4721"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-professioni-5151",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-professioni-4cf2",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "occupations",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-sottrazione-professioni-5151"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-professioni-4cf2"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-rettili-e-anfibi-d7cd",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "reptiles_and_amphibians",
-   "level": "classe-seconda",
-   "deck": "puzzle-matematico-sottrazione-rettili-e-anfibi-d7cd"
-  },
-  {
-   "slug": "puzzle-matematico-sottrazione-spazio-5b50",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-spazio-adc5",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "space",
-   "level": "classe-seconda",
-   "deck": "puzzle-matematico-sottrazione-spazio-5b50"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-spazio-adc5"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-spiaggia-b92d",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-spiaggia-7cc4",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "beach",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-sottrazione-spiaggia-b92d"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-spiaggia-7cc4"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-uccelli-2-d714",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-uccelli-2-1230",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "birds_2",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-sottrazione-uccelli-2-d714"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-uccelli-2-1230"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-uccelli-f84b",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "birds",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-sottrazione-uccelli-f84b"
-  },
-  {
-   "slug": "puzzle-matematico-sottrazione-ufficio-postale-7a40",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "post_office",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-sottrazione-ufficio-postale-7a40"
-  },
-  {
-   "slug": "puzzle-matematico-sottrazione-utensili-da-cucina-f945",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-utensili-da-cucina-fb35",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "kitchen_tools",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-sottrazione-utensili-da-cucina-f945"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-utensili-da-cucina-fb35"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-varie-216e",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "miscellaneous",
-   "level": "classe-seconda",
-   "deck": "puzzle-matematico-sottrazione-varie-216e"
-  },
-  {
-   "slug": "puzzle-matematico-sottrazione-veicoli-a81b",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-veicoli-e6ca",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "vehicles",
-   "level": "classe-prima",
-   "deck": "puzzle-matematico-sottrazione-veicoli-a81b"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-veicoli-e6ca"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-verdure-eb1b",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-verdure-09e6",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "vegetables",
-   "level": "classe-seconda",
-   "deck": "puzzle-matematico-sottrazione-verdure-eb1b"
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-verdure-09e6"
   },
   {
-   "slug": "puzzle-matematico-sottrazione-vita-oceanica-7972",
-   "type": "math-puzzle",
-   "mode": "subtraction",
+   "slug": "grande-piccolo-trova-il-grande-vita-oceanica-0a09",
+   "type": "big-small",
+   "mode": "findBig",
    "theme": "ocean_life",
+   "level": "infanzia",
+   "deck": "grande-piccolo-trova-il-grande-vita-oceanica-0a09"
+  },
+  {
+   "slug": "tabella-dei-numeri-classe-prima",
+   "type": "number-charts",
+   "mode": "hundreds-chart-skip-count",
+   "theme": "",
+   "level": "classe-prima",
+   "deck": "tabella-dei-numeri-g1130"
+  },
+  {
+   "slug": "successioni-numeriche-classe-terza",
+   "type": "number-charts",
+   "mode": "number-patterns",
+   "theme": "",
+   "level": "classe-terza",
+   "deck": "tabella-dei-numeri-g3328"
+  },
+  {
+   "slug": "tabella-dei-numeri-infanzia",
+   "type": "number-charts",
+   "mode": "numbers-to-20",
+   "theme": "",
+   "level": "infanzia",
+   "deck": "tabella-dei-numeri-k021"
+  },
+  {
+   "slug": "tabella-dei-numeri-classe-seconda",
+   "type": "number-charts",
+   "mode": "skip-count-and-100-more-less",
+   "theme": "",
    "level": "classe-seconda",
-   "deck": "puzzle-matematico-sottrazione-vita-oceanica-7972"
+   "deck": "tabella-dei-numeri-g2218"
+  },
+  {
+   "slug": "schede-pesante-leggero-infanzia",
+   "type": "measurement",
+   "mode": "compare-weight",
+   "theme": "",
+   "level": "infanzia",
+   "deck": "misurazione-frutta-k038"
+  },
+  {
+   "slug": "schede-misurare-lunghezze-classe-prima",
+   "type": "measurement",
+   "mode": "length-units",
+   "theme": "",
+   "level": "classe-prima",
+   "deck": "misurazione-forme-g1139"
+  },
+  {
+   "slug": "schede-misurare-righello-classe-seconda",
+   "type": "measurement",
+   "mode": "measure-and-compare-length",
+   "theme": "",
+   "level": "classe-seconda",
+   "deck": "misurazione-forme-g2235"
+  },
+  {
+   "slug": "schede-temperatura-volume-classe-terza",
+   "type": "measurement",
+   "mode": "volume-and-temperature",
+   "theme": "",
+   "level": "classe-terza",
+   "deck": "misurazione-g3345"
+  },
+  {
+   "slug": "leggere-l-ora-classe-prima",
+   "type": "telling-time",
+   "mode": "hour-half-hour",
+   "theme": "",
+   "level": "classe-prima",
+   "deck": "leggere-l-orologio-g1148"
+  },
+  {
+   "slug": "leggere-l-ora-classe-seconda",
+   "type": "telling-time",
+   "mode": "to-five-minutes",
+   "theme": "",
+   "level": "classe-seconda",
+   "deck": "leggere-l-orologio-g2249"
+  },
+  {
+   "slug": "leggere-l-ora-classe-terza",
+   "type": "telling-time",
+   "mode": "to-the-minute",
+   "theme": "",
+   "level": "classe-terza",
+   "deck": "leggere-l-orologio-g3344"
   }
  ]
 }

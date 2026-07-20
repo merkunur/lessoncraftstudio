@@ -2,795 +2,603 @@
  "part": 36,
  "locale": "en",
  "classes": [
-  "pattern-train::null",
-  "subtraction::cross-out"
+  "alphabet-train::letter-hint",
+  "alphabet-train::null"
  ],
  "splitOf": null,
- "count": 98,
+ "count": 74,
  "pages": [
   {
-   "slug": "pattern-train-4th-of-july",
-   "type": "pattern-train",
+   "slug": "alphabet-train-letter-hint-4th-of-july",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "4th_of_july",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-4th-of-july-d61f"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-accessories",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "accessories",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-accessories-dc6a"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-activities",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "activities",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-activities-fc36"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-animals",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "animals",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-animals-761c"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-around-the-house",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "around_the_house",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-around-the-house-c6f1"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-at-the-supermarket",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "at_the_supermarket",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-at-the-supermarket-b083"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-beach",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "beach",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-beach-635a"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-birds-2",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "birds_2",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-birds-2-7cd7"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-body-parts",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "body_parts",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-body-parts-a88a"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-breakfast",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "breakfast",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-breakfast-2152"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-camping",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "camping",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-camping-d2da"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-christmas",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "christmas",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-christmas-7442"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-classroom",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "classroom",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-classroom-b311"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-clothing",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "clothing",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-clothing-f32c"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-colors",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "colors",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-colors-90b6"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-desserts-and-sweets",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "desserts_and_sweets",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-desserts-and-sweets-c1f4"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-farm-animals",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "farm_animals",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-farm-animals-86b5"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-flowers",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "flowers",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-flowers-b5b6"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-forest-creatures",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "forest_creatures",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-forest-creatures-a07c"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-fruits",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "fruits",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-fruits-63ac"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-furniture",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "furniture",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-furniture-843e"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-hospital",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "hospital",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-hospital-fc88"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-kitchen-tools",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "kitchen_tools",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-kitchen-tools-675d"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-music",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "music",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-music-1d0d"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-occupations",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "occupations",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-occupations-018e"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-ocean-life",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "ocean_life",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-ocean-life-d3bb"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-pets",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "pets",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-pets-7dbc"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-space",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "space",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-space-b2a9"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-spring",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "spring",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-spring-c9a4"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-summer",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "summer",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-summer-af79"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-things-that-fly",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "things_that_fly",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-things-that-fly-7c93"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-tools",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "tools",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-tools-71ca"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-toys",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "toys",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-toys-84a8"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-vegetables",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "vegetables",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-vegetables-eeb5"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-vehicles",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "vehicles",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-vehicles-bfc4"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-winter",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "winter",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-winter-441a"
+  },
+  {
+   "slug": "alphabet-train-letter-hint-zoo-animals",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "zoo_animals",
+   "level": "preschool",
+   "deck": "alphabet-train-letter-hint-zoo-animals-7bed"
+  },
+  {
+   "slug": "alphabet-train-4th-of-july",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "4th_of_july",
-   "level": "kindergarten",
-   "deck": "pattern-train-4th-of-july"
+   "level": "preschool",
+   "deck": "alphabet-train-4th-of-july"
   },
   {
-   "slug": "pattern-train-accessories",
-   "type": "pattern-train",
+   "slug": "alphabet-train-accessories",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "accessories",
-   "level": "kindergarten",
-   "deck": "pattern-train-accessories"
+   "level": "preschool",
+   "deck": "alphabet-train-accessories"
   },
   {
-   "slug": "pattern-train-activities",
-   "type": "pattern-train",
+   "slug": "alphabet-train-activities",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "activities",
-   "level": "kindergarten",
-   "deck": "pattern-train-activities"
+   "level": "preschool",
+   "deck": "alphabet-train-activities"
   },
   {
-   "slug": "pattern-train-animals",
-   "type": "pattern-train",
+   "slug": "alphabet-train-animals-preschool",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "animals",
-   "level": "kindergarten",
-   "deck": "pattern-train-animals"
+   "level": "preschool",
+   "deck": "alphabet-train"
   },
   {
-   "slug": "pattern-train-around-the-house",
-   "type": "pattern-train",
+   "slug": "alphabet-train-around-the-house",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "around_the_house",
-   "level": "kindergarten",
-   "deck": "pattern-train-around-the-house"
+   "level": "preschool",
+   "deck": "alphabet-train-around-the-house"
   },
   {
-   "slug": "pattern-train-at-the-supermarket",
-   "type": "pattern-train",
+   "slug": "alphabet-train-at-the-supermarket",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "at_the_supermarket",
-   "level": "kindergarten",
-   "deck": "pattern-train-at-the-supermarket"
+   "level": "preschool",
+   "deck": "alphabet-train-at-the-supermarket"
   },
   {
-   "slug": "pattern-train-bakery",
-   "type": "pattern-train",
+   "slug": "alphabet-train-beach",
+   "type": "alphabet-train",
    "mode": null,
-   "theme": "bakery",
-   "level": "kindergarten",
-   "deck": "pattern-train-bakery"
+   "theme": "beach",
+   "level": "preschool",
+   "deck": "alphabet-train-beach"
   },
   {
-   "slug": "pattern-train-birds",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "birds",
-   "level": "kindergarten",
-   "deck": "pattern-train-birds"
-  },
-  {
-   "slug": "pattern-train-birds-2",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "kindergarten",
-   "deck": "pattern-train-birds-2"
-  },
-  {
-   "slug": "pattern-train-body-parts",
-   "type": "pattern-train",
+   "slug": "alphabet-train-body-parts",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "body_parts",
-   "level": "kindergarten",
-   "deck": "pattern-train-body-parts"
+   "level": "preschool",
+   "deck": "alphabet-train-body-parts"
   },
   {
-   "slug": "pattern-train-breakfast",
-   "type": "pattern-train",
+   "slug": "alphabet-train-breakfast",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "breakfast",
-   "level": "kindergarten",
-   "deck": "pattern-train-breakfast"
+   "level": "preschool",
+   "deck": "alphabet-train-breakfast"
   },
   {
-   "slug": "pattern-train-camping",
-   "type": "pattern-train",
+   "slug": "alphabet-train-camping",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "camping",
-   "level": "kindergarten",
-   "deck": "pattern-train-camping"
+   "level": "preschool",
+   "deck": "alphabet-train-camping"
   },
   {
-   "slug": "pattern-train-christmas",
-   "type": "pattern-train",
+   "slug": "alphabet-train-christmas",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "christmas",
-   "level": "kindergarten",
-   "deck": "pattern-train-christmas"
+   "level": "preschool",
+   "deck": "alphabet-train-christmas"
   },
   {
-   "slug": "pattern-train-classroom",
-   "type": "pattern-train",
+   "slug": "alphabet-train-classroom",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "classroom",
-   "level": "kindergarten",
-   "deck": "pattern-train-classroom"
+   "level": "preschool",
+   "deck": "alphabet-train-classroom"
   },
   {
-   "slug": "pattern-train-clothing",
-   "type": "pattern-train",
+   "slug": "alphabet-train-clothing",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "clothing",
-   "level": "kindergarten",
-   "deck": "pattern-train-clothing"
+   "level": "preschool",
+   "deck": "alphabet-train-clothing"
   },
   {
-   "slug": "pattern-train-colors",
-   "type": "pattern-train",
+   "slug": "alphabet-train-colors",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "colors",
-   "level": "kindergarten",
-   "deck": "pattern-train-colors"
+   "level": "preschool",
+   "deck": "alphabet-train-colors"
   },
   {
-   "slug": "pattern-train-desserts-and-sweets",
-   "type": "pattern-train",
+   "slug": "alphabet-train-desserts-and-sweets",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "desserts_and_sweets",
-   "level": "kindergarten",
-   "deck": "pattern-train-desserts-and-sweets"
+   "level": "preschool",
+   "deck": "alphabet-train-desserts-and-sweets"
   },
   {
-   "slug": "pattern-train-dinosaurs",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "dinosaurs",
-   "level": "kindergarten",
-   "deck": "pattern-train-dinosaurs"
-  },
-  {
-   "slug": "pattern-train-easter",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "easter",
-   "level": "kindergarten",
-   "deck": "pattern-train-easter"
-  },
-  {
-   "slug": "pattern-train-emotions",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "emotions",
-   "level": "kindergarten",
-   "deck": "pattern-train-emotions"
-  },
-  {
-   "slug": "pattern-train-farm-animals",
-   "type": "pattern-train",
+   "slug": "alphabet-train-farm-animals",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "farm_animals",
-   "level": "kindergarten",
-   "deck": "pattern-train-farm-animals"
+   "level": "preschool",
+   "deck": "alphabet-train-farm-animals"
   },
   {
-   "slug": "pattern-train-flowers",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "flowers",
-   "level": "kindergarten",
-   "deck": "pattern-train-flowers"
-  },
-  {
-   "slug": "pattern-train-forest-creatures",
-   "type": "pattern-train",
+   "slug": "alphabet-train-forest-creatures",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "forest_creatures",
-   "level": "kindergarten",
-   "deck": "pattern-train-forest-creatures"
+   "level": "preschool",
+   "deck": "alphabet-train-forest-creatures"
   },
   {
-   "slug": "pattern-train-fruits",
-   "type": "pattern-train",
+   "slug": "alphabet-train-fruits",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "fruits",
-   "level": "kindergarten",
-   "deck": "pattern-train-fruits"
+   "level": "preschool",
+   "deck": "alphabet-train-fruits"
   },
   {
-   "slug": "pattern-train-furniture",
-   "type": "pattern-train",
+   "slug": "alphabet-train-furniture",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "furniture",
-   "level": "kindergarten",
-   "deck": "pattern-train-furniture"
+   "level": "preschool",
+   "deck": "alphabet-train-furniture"
   },
   {
-   "slug": "pattern-train-hospital",
-   "type": "pattern-train",
+   "slug": "alphabet-train-hospital",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "hospital",
-   "level": "kindergarten",
-   "deck": "pattern-train-hospital"
+   "level": "preschool",
+   "deck": "alphabet-train-hospital"
   },
   {
-   "slug": "pattern-train-insects-and-bugs",
-   "type": "pattern-train",
+   "slug": "alphabet-train-household-bw",
+   "type": "alphabet-train",
    "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "kindergarten",
-   "deck": "pattern-train-insects-and-bugs"
+   "theme": "household_bw",
+   "level": "preschool",
+   "deck": "alphabet-train-household-bw"
   },
   {
-   "slug": "pattern-train-kitchen-tools",
-   "type": "pattern-train",
+   "slug": "alphabet-train-kitchen-tools",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "kitchen_tools",
-   "level": "kindergarten",
-   "deck": "pattern-train-kitchen-tools"
+   "level": "preschool",
+   "deck": "alphabet-train-kitchen-tools"
   },
   {
-   "slug": "pattern-train-miscellaneous",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "miscellaneous",
-   "level": "kindergarten",
-   "deck": "pattern-train-miscellaneous"
-  },
-  {
-   "slug": "pattern-train-music",
-   "type": "pattern-train",
+   "slug": "alphabet-train-music",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "music",
-   "level": "kindergarten",
-   "deck": "pattern-train-music"
+   "level": "preschool",
+   "deck": "alphabet-train-music"
   },
   {
-   "slug": "pattern-train-occupations",
-   "type": "pattern-train",
+   "slug": "alphabet-train-nature-bw",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "nature_bw",
+   "level": "preschool",
+   "deck": "alphabet-train-nature-bw"
+  },
+  {
+   "slug": "alphabet-train-objects-bw",
+   "type": "alphabet-train",
+   "mode": null,
+   "theme": "objects_bw",
+   "level": "preschool",
+   "deck": "alphabet-train-objects-bw"
+  },
+  {
+   "slug": "alphabet-train-occupations",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "occupations",
-   "level": "kindergarten",
-   "deck": "pattern-train-occupations"
+   "level": "preschool",
+   "deck": "alphabet-train-occupations"
   },
   {
-   "slug": "pattern-train-ocean-life",
-   "type": "pattern-train",
+   "slug": "alphabet-train-ocean-life",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "ocean_life",
-   "level": "kindergarten",
-   "deck": "pattern-train-ocean-life"
+   "level": "preschool",
+   "deck": "alphabet-train-ocean-life"
   },
   {
-   "slug": "pattern-train-pets",
-   "type": "pattern-train",
+   "slug": "alphabet-train-pets",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "pets",
-   "level": "kindergarten",
-   "deck": "pattern-train-pets"
+   "level": "preschool",
+   "deck": "alphabet-train-pets"
   },
   {
-   "slug": "pattern-train-post-office",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "post_office",
-   "level": "kindergarten",
-   "deck": "pattern-train-post-office"
-  },
-  {
-   "slug": "pattern-train-reptiles-and-amphibians",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "reptiles_and_amphibians",
-   "level": "kindergarten",
-   "deck": "pattern-train-reptiles-and-amphibians"
-  },
-  {
-   "slug": "pattern-train-shapes",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "shapes",
-   "level": "kindergarten",
-   "deck": "pattern-train-shapes"
-  },
-  {
-   "slug": "pattern-train-space",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "space",
-   "level": "kindergarten",
-   "deck": "pattern-train-space"
-  },
-  {
-   "slug": "pattern-train-spring",
-   "type": "pattern-train",
+   "slug": "alphabet-train-spring",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "spring",
-   "level": "kindergarten",
-   "deck": "pattern-train-spring"
+   "level": "preschool",
+   "deck": "alphabet-train-spring"
   },
   {
-   "slug": "pattern-train-summer",
-   "type": "pattern-train",
+   "slug": "alphabet-train-summer",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "summer",
-   "level": "kindergarten",
-   "deck": "pattern-train-summer"
+   "level": "preschool",
+   "deck": "alphabet-train-summer"
   },
   {
-   "slug": "pattern-train-thanksgiving",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "thanksgivinng",
-   "level": "kindergarten",
-   "deck": "pattern-train-thanksgiving"
-  },
-  {
-   "slug": "pattern-train-things-that-fly",
-   "type": "pattern-train",
+   "slug": "alphabet-train-things-that-fly",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "things_that_fly",
-   "level": "kindergarten",
-   "deck": "pattern-train-things-that-fly"
+   "level": "preschool",
+   "deck": "alphabet-train-things-that-fly"
   },
   {
-   "slug": "pattern-train-tools",
-   "type": "pattern-train",
+   "slug": "alphabet-train-tools",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "tools",
-   "level": "kindergarten",
-   "deck": "pattern-train-tools"
+   "level": "preschool",
+   "deck": "alphabet-train-tools"
   },
   {
-   "slug": "pattern-train-toys",
-   "type": "pattern-train",
+   "slug": "alphabet-train-toys",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "toys",
-   "level": "kindergarten",
-   "deck": "pattern-train-toys"
+   "level": "preschool",
+   "deck": "alphabet-train-toys"
   },
   {
-   "slug": "pattern-train-tree",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "tree",
-   "level": "kindergarten",
-   "deck": "pattern-train-tree"
-  },
-  {
-   "slug": "pattern-train-vegetables",
-   "type": "pattern-train",
+   "slug": "alphabet-train-vegetables",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "vegetables",
-   "level": "kindergarten",
-   "deck": "pattern-train-vegetables"
+   "level": "preschool",
+   "deck": "alphabet-train-vegetables"
   },
   {
-   "slug": "pattern-train-vehicles",
-   "type": "pattern-train",
+   "slug": "alphabet-train-vehicles",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "vehicles",
-   "level": "kindergarten",
-   "deck": "pattern-train-vehicles"
+   "level": "preschool",
+   "deck": "alphabet-train-vehicles"
   },
   {
-   "slug": "pattern-train-weather",
-   "type": "pattern-train",
-   "mode": null,
-   "theme": "weather",
-   "level": "kindergarten",
-   "deck": "pattern-train-weather"
-  },
-  {
-   "slug": "pattern-train-winter",
-   "type": "pattern-train",
+   "slug": "alphabet-train-winter",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "winter",
-   "level": "kindergarten",
-   "deck": "pattern-train-winter"
+   "level": "preschool",
+   "deck": "alphabet-train-winter"
   },
   {
-   "slug": "pattern-train-zoo-animals",
-   "type": "pattern-train",
+   "slug": "alphabet-train-zoo-animals",
+   "type": "alphabet-train",
    "mode": null,
    "theme": "zoo_animals",
-   "level": "kindergarten",
-   "deck": "pattern-train-zoo-animals"
-  },
-  {
-   "slug": "subtraction-cross-out-4th-of-july",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "4th_of_july",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-4th-of-july"
-  },
-  {
-   "slug": "subtraction-cross-out-accessories",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "accessories",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-accessories"
-  },
-  {
-   "slug": "subtraction-cross-out-animals-kindergarten",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "animals",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out"
-  },
-  {
-   "slug": "subtraction-cross-out-around-the-house",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "around_the_house",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-around-the-house"
-  },
-  {
-   "slug": "subtraction-cross-out-at-the-supermarket",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "at_the_supermarket",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-at-the-supermarket"
-  },
-  {
-   "slug": "subtraction-cross-out-bakery",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "bakery",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-bakery"
-  },
-  {
-   "slug": "subtraction-cross-out-beach",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "beach",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-beach"
-  },
-  {
-   "slug": "subtraction-cross-out-birds",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "birds",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-birds"
-  },
-  {
-   "slug": "subtraction-cross-out-birds-2",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "birds_2",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-birds-2"
-  },
-  {
-   "slug": "subtraction-cross-out-breakfast",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "breakfast",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-breakfast"
-  },
-  {
-   "slug": "subtraction-cross-out-camping",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "camping",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-camping"
-  },
-  {
-   "slug": "subtraction-cross-out-christmas",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "christmas",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-christmas"
-  },
-  {
-   "slug": "subtraction-cross-out-classroom",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "classroom",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-classroom"
-  },
-  {
-   "slug": "subtraction-cross-out-clothing",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "clothing",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-clothing"
-  },
-  {
-   "slug": "subtraction-cross-out-desserts-and-sweets",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "desserts_and_sweets",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-desserts-and-sweets"
-  },
-  {
-   "slug": "subtraction-cross-out-dinosaurs",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "dinosaurs",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-dinosaurs"
-  },
-  {
-   "slug": "subtraction-cross-out-easter",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "easter",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-easter"
-  },
-  {
-   "slug": "subtraction-cross-out-faces-bw",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "faces_bw",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-faces-bw"
-  },
-  {
-   "slug": "subtraction-cross-out-farm-animals",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "farm_animals",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-farm-animals"
-  },
-  {
-   "slug": "subtraction-cross-out-flowers",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "flowers",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-flowers"
-  },
-  {
-   "slug": "subtraction-cross-out-forest-creatures",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "forest_creatures",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-forest-creatures"
-  },
-  {
-   "slug": "subtraction-cross-out-fruits",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "fruits",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-fruits"
-  },
-  {
-   "slug": "subtraction-cross-out-furniture",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "furniture",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-furniture"
-  },
-  {
-   "slug": "subtraction-cross-out-home-bw",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "home_bw",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-home-bw"
-  },
-  {
-   "slug": "subtraction-cross-out-hospital",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "hospital",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-hospital"
-  },
-  {
-   "slug": "subtraction-cross-out-household-bw",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "household_bw",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-household-bw"
-  },
-  {
-   "slug": "subtraction-cross-out-insects-and-bugs",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "insects_and_bugs",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-insects-and-bugs"
-  },
-  {
-   "slug": "subtraction-cross-out-kitchen-tools",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "kitchen_tools",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-kitchen-tools"
-  },
-  {
-   "slug": "subtraction-cross-out-miscellaneous",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "miscellaneous",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-miscellaneous"
-  },
-  {
-   "slug": "subtraction-cross-out-music",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "music",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-music"
-  },
-  {
-   "slug": "subtraction-cross-out-nature-bw",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "nature_bw",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-nature-bw"
-  },
-  {
-   "slug": "subtraction-cross-out-objects-bw",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "objects_bw",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-objects-bw"
-  },
-  {
-   "slug": "subtraction-cross-out-occupations",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "occupations",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-occupations"
-  },
-  {
-   "slug": "subtraction-cross-out-ocean-life",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "ocean_life",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-ocean-life"
-  },
-  {
-   "slug": "subtraction-cross-out-pets",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "pets",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-pets"
-  },
-  {
-   "slug": "subtraction-cross-out-post-office",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "post_office",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-post-office"
-  },
-  {
-   "slug": "subtraction-cross-out-reptiles-and-amphibians",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "reptiles_and_amphibians",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-reptiles-and-amphibians"
-  },
-  {
-   "slug": "subtraction-cross-out-shapes",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "shapes",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-shapes"
-  },
-  {
-   "slug": "subtraction-cross-out-space",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "space",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-space"
-  },
-  {
-   "slug": "subtraction-cross-out-sports-bw",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "sports_bw",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-sports-bw"
-  },
-  {
-   "slug": "subtraction-cross-out-thanksgiving",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "thanksgivinng",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-thanksgiving"
-  },
-  {
-   "slug": "subtraction-cross-out-things-that-fly",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "things_that_fly",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-things-that-fly"
-  },
-  {
-   "slug": "subtraction-cross-out-tools",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "tools",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-tools"
-  },
-  {
-   "slug": "subtraction-cross-out-toys",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "toys",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-toys"
-  },
-  {
-   "slug": "subtraction-cross-out-tree",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "tree",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-tree"
-  },
-  {
-   "slug": "subtraction-cross-out-valentine-bw",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "valentine_bw",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-valentine-bw"
-  },
-  {
-   "slug": "subtraction-cross-out-vegetables",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "vegetables",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-vegetables"
-  },
-  {
-   "slug": "subtraction-cross-out-vehicles",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "vehicles",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-vehicles"
-  },
-  {
-   "slug": "subtraction-cross-out-zoo-animals",
-   "type": "subtraction",
-   "mode": "cross-out",
-   "theme": "zoo_animals",
-   "level": "kindergarten",
-   "deck": "subtraction-cross-out-zoo-animals"
+   "level": "preschool",
+   "deck": "alphabet-train-zoo-animals"
   }
  ]
 }

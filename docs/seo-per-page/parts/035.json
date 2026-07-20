@@ -2,795 +2,747 @@
  "part": 35,
  "locale": "en",
  "classes": [
-  "odd-one-out::cross-theme",
-  "pattern-train::aab"
+  "matching::letter",
+  "math-puzzle::mixed"
  ],
  "splitOf": null,
- "count": 98,
+ "count": 92,
  "pages": [
   {
-   "slug": "odd-one-out-cross-theme-4th-of-july",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "matching-letter-4th-of-july",
+   "type": "matching",
+   "mode": "letter",
    "theme": "4th_of_july",
    "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-4th-of-july"
+   "deck": "matching-letter-4th-of-july"
   },
   {
-   "slug": "odd-one-out-cross-theme-accessories",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "matching-letter-accessories",
+   "type": "matching",
+   "mode": "letter",
    "theme": "accessories",
    "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-accessories"
+   "deck": "matching-letter-accessories"
   },
   {
-   "slug": "odd-one-out-cross-theme-activities",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "matching-letter-activities",
+   "type": "matching",
+   "mode": "letter",
    "theme": "activities",
    "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-activities"
+   "deck": "matching-letter-activities"
   },
   {
-   "slug": "odd-one-out-cross-theme-animals",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "matching-letter-animals",
+   "type": "matching",
+   "mode": "letter",
    "theme": "animals",
    "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-animals"
+   "deck": "matching-letter-animals"
   },
   {
-   "slug": "odd-one-out-cross-theme-around-the-house",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "matching-letter-around-the-house",
+   "type": "matching",
+   "mode": "letter",
    "theme": "around_the_house",
    "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-around-the-house"
+   "deck": "matching-letter-around-the-house"
   },
   {
-   "slug": "odd-one-out-cross-theme-at-the-supermarket",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "matching-letter-at-the-supermarket",
+   "type": "matching",
+   "mode": "letter",
    "theme": "at_the_supermarket",
    "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-at-the-supermarket"
+   "deck": "matching-letter-at-the-supermarket"
   },
   {
-   "slug": "odd-one-out-cross-theme-bakery",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "matching-letter-bakery",
+   "type": "matching",
+   "mode": "letter",
    "theme": "bakery",
    "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-bakery"
+   "deck": "matching-letter-bakery"
   },
   {
-   "slug": "odd-one-out-cross-theme-beach",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "matching-letter-beach",
+   "type": "matching",
+   "mode": "letter",
    "theme": "beach",
    "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-beach"
+   "deck": "matching-letter-beach"
   },
   {
-   "slug": "odd-one-out-cross-theme-birds",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "matching-letter-birds",
+   "type": "matching",
+   "mode": "letter",
    "theme": "birds",
    "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-birds"
+   "deck": "matching-letter-birds"
   },
   {
-   "slug": "odd-one-out-cross-theme-birds-2",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
-   "theme": "birds_2",
+   "slug": "matching-letter-breakfast",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "breakfast",
    "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-birds-2"
+   "deck": "matching-letter-breakfast"
   },
   {
-   "slug": "odd-one-out-cross-theme-body-parts",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "matching-letter-camping",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "camping",
+   "level": "kindergarten",
+   "deck": "matching-letter-camping"
+  },
+  {
+   "slug": "matching-letter-christmas",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "christmas",
+   "level": "kindergarten",
+   "deck": "matching-letter-christmas"
+  },
+  {
+   "slug": "matching-letter-classroom",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "classroom",
+   "level": "kindergarten",
+   "deck": "matching-letter-classroom"
+  },
+  {
+   "slug": "matching-letter-clothing",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "clothing",
+   "level": "kindergarten",
+   "deck": "matching-letter-clothing"
+  },
+  {
+   "slug": "matching-letter-colors",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "colors",
+   "level": "kindergarten",
+   "deck": "matching-letter-colors"
+  },
+  {
+   "slug": "matching-letter-desserts-and-sweets",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "desserts_and_sweets",
+   "level": "kindergarten",
+   "deck": "matching-letter-desserts-and-sweets"
+  },
+  {
+   "slug": "matching-letter-dinosaurs",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "dinosaurs",
+   "level": "kindergarten",
+   "deck": "matching-letter-dinosaurs"
+  },
+  {
+   "slug": "matching-letter-easter",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "easter",
+   "level": "kindergarten",
+   "deck": "matching-letter-easter"
+  },
+  {
+   "slug": "matching-letter-emotions",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "emotions",
+   "level": "kindergarten",
+   "deck": "matching-letter-emotions"
+  },
+  {
+   "slug": "matching-letter-farm-animals",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "matching-letter-farm-animals"
+  },
+  {
+   "slug": "matching-letter-flowers",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "flowers",
+   "level": "kindergarten",
+   "deck": "matching-letter-flowers"
+  },
+  {
+   "slug": "matching-letter-forest-creatures",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "matching-letter-forest-creatures"
+  },
+  {
+   "slug": "matching-letter-fruits",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "fruits",
+   "level": "kindergarten",
+   "deck": "matching-letter-fruits"
+  },
+  {
+   "slug": "matching-letter-furniture",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "furniture",
+   "level": "kindergarten",
+   "deck": "matching-letter-furniture"
+  },
+  {
+   "slug": "matching-letter-hospital",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "hospital",
+   "level": "kindergarten",
+   "deck": "matching-letter-hospital"
+  },
+  {
+   "slug": "matching-letter-insects-and-bugs",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "insects_and_bugs",
+   "level": "kindergarten",
+   "deck": "matching-letter-insects-and-bugs"
+  },
+  {
+   "slug": "matching-letter-kitchen-tools",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "kitchen_tools",
+   "level": "kindergarten",
+   "deck": "matching-letter-kitchen-tools"
+  },
+  {
+   "slug": "matching-letter-music",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "music",
+   "level": "kindergarten",
+   "deck": "matching-letter-music"
+  },
+  {
+   "slug": "matching-letter-occupations",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "occupations",
+   "level": "kindergarten",
+   "deck": "matching-letter-occupations"
+  },
+  {
+   "slug": "matching-letter-ocean-life",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "ocean_life",
+   "level": "kindergarten",
+   "deck": "matching-letter-ocean-life"
+  },
+  {
+   "slug": "matching-letter-pets",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "pets",
+   "level": "kindergarten",
+   "deck": "matching-letter-pets"
+  },
+  {
+   "slug": "matching-letter-post-office",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "post_office",
+   "level": "kindergarten",
+   "deck": "matching-letter-post-office"
+  },
+  {
+   "slug": "matching-letter-reptiles-and-amphibians",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "reptiles_and_amphibians",
+   "level": "kindergarten",
+   "deck": "matching-letter-reptiles-and-amphibians"
+  },
+  {
+   "slug": "matching-letter-shapes",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "shapes",
+   "level": "kindergarten",
+   "deck": "matching-letter-shapes"
+  },
+  {
+   "slug": "matching-letter-space",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "space",
+   "level": "kindergarten",
+   "deck": "matching-letter-space"
+  },
+  {
+   "slug": "matching-letter-spring",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "spring",
+   "level": "kindergarten",
+   "deck": "matching-letter-spring"
+  },
+  {
+   "slug": "matching-letter-summer",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "summer",
+   "level": "kindergarten",
+   "deck": "matching-letter-summer"
+  },
+  {
+   "slug": "matching-letter-thanksgiving",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "thanksgivinng",
+   "level": "kindergarten",
+   "deck": "matching-letter-thanksgiving"
+  },
+  {
+   "slug": "matching-letter-things-that-fly",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "things_that_fly",
+   "level": "kindergarten",
+   "deck": "matching-letter-things-that-fly"
+  },
+  {
+   "slug": "matching-letter-tools",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "tools",
+   "level": "kindergarten",
+   "deck": "matching-letter-tools"
+  },
+  {
+   "slug": "matching-letter-toys",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "toys",
+   "level": "kindergarten",
+   "deck": "matching-letter-toys"
+  },
+  {
+   "slug": "matching-letter-tree",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "tree",
+   "level": "kindergarten",
+   "deck": "matching-letter-tree"
+  },
+  {
+   "slug": "matching-letter-vegetables",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "vegetables",
+   "level": "kindergarten",
+   "deck": "matching-letter-vegetables"
+  },
+  {
+   "slug": "matching-letter-vehicles",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "vehicles",
+   "level": "kindergarten",
+   "deck": "matching-letter-vehicles"
+  },
+  {
+   "slug": "matching-letter-weather",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "weather",
+   "level": "kindergarten",
+   "deck": "matching-letter-weather"
+  },
+  {
+   "slug": "matching-letter-winter",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "winter",
+   "level": "kindergarten",
+   "deck": "matching-letter-winter"
+  },
+  {
+   "slug": "matching-letter-zoo-animals",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "zoo_animals",
+   "level": "kindergarten",
+   "deck": "matching-letter-zoo-animals"
+  },
+  {
+   "slug": "math-puzzle-4th-of-july-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "4th_of_july",
+   "level": "grade-2",
+   "deck": "math-puzzle-4th-of-july"
+  },
+  {
+   "slug": "math-puzzle-accessories-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "accessories",
+   "level": "grade-2",
+   "deck": "math-puzzle-accessories"
+  },
+  {
+   "slug": "math-puzzle-animals-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "grade-2",
+   "deck": "math-puzzle"
+  },
+  {
+   "slug": "math-puzzle-around-the-house-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "level": "grade-2",
+   "deck": "math-puzzle-around-the-house"
+  },
+  {
+   "slug": "math-puzzle-at-the-supermarket-grade-1",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "level": "grade-1",
+   "deck": "math-puzzle-at-the-supermarket"
+  },
+  {
+   "slug": "math-puzzle-bakery-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "bakery",
+   "level": "grade-2",
+   "deck": "math-puzzle-bakery"
+  },
+  {
+   "slug": "math-puzzle-beach-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "beach",
+   "level": "grade-2",
+   "deck": "math-puzzle-beach"
+  },
+  {
+   "slug": "math-puzzle-birds-2-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds_2",
+   "level": "grade-2",
+   "deck": "math-puzzle-birds-2"
+  },
+  {
+   "slug": "math-puzzle-birds-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
+   "theme": "birds",
+   "level": "grade-2",
+   "deck": "math-puzzle-birds"
+  },
+  {
+   "slug": "math-puzzle-body-parts-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "body_parts",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-body-parts"
+   "level": "grade-2",
+   "deck": "math-puzzle-body-parts"
   },
   {
-   "slug": "odd-one-out-cross-theme-breakfast",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "math-puzzle-breakfast-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "breakfast",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-breakfast"
+   "level": "grade-2",
+   "deck": "math-puzzle-breakfast"
   },
   {
-   "slug": "odd-one-out-cross-theme-camping",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "math-puzzle-camping-grade-1",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "camping",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-camping"
+   "level": "grade-1",
+   "deck": "math-puzzle-camping"
   },
   {
-   "slug": "odd-one-out-cross-theme-christmas",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "math-puzzle-christmas-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "christmas",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-christmas"
+   "level": "grade-2",
+   "deck": "math-puzzle-christmas"
   },
   {
-   "slug": "odd-one-out-cross-theme-classroom",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "math-puzzle-classroom-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "classroom",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-classroom"
+   "level": "grade-2",
+   "deck": "math-puzzle-classroom"
   },
   {
-   "slug": "odd-one-out-cross-theme-clothing",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "math-puzzle-clothing-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "clothing",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-clothing"
+   "level": "grade-2",
+   "deck": "math-puzzle-clothing"
   },
   {
-   "slug": "odd-one-out-cross-theme-colors",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
-   "theme": "colors",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-colors"
-  },
-  {
-   "slug": "odd-one-out-cross-theme-desserts-and-sweets",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "math-puzzle-desserts-and-sweets-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "desserts_and_sweets",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-desserts-and-sweets"
+   "level": "grade-2",
+   "deck": "math-puzzle-desserts-and-sweets"
   },
   {
-   "slug": "odd-one-out-cross-theme-dinosaurs",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "math-puzzle-dinosaurs-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "dinosaurs",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-dinosaurs"
+   "level": "grade-2",
+   "deck": "math-puzzle-dinosaurs"
   },
   {
-   "slug": "odd-one-out-cross-theme-easter",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "math-puzzle-easter-grade-1",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "easter",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-easter"
+   "level": "grade-1",
+   "deck": "math-puzzle-easter"
   },
   {
-   "slug": "odd-one-out-cross-theme-emotions",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "math-puzzle-emotions-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "emotions",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-emotions"
+   "level": "grade-2",
+   "deck": "math-puzzle-emotions"
   },
   {
-   "slug": "odd-one-out-cross-theme-farm-animals",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "math-puzzle-farm-animals-grade-1",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "farm_animals",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-farm-animals"
+   "level": "grade-1",
+   "deck": "math-puzzle-farm-animals"
   },
   {
-   "slug": "odd-one-out-cross-theme-flowers",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "math-puzzle-flowers-grade-1",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "flowers",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-flowers"
+   "level": "grade-1",
+   "deck": "math-puzzle-flowers"
   },
   {
-   "slug": "odd-one-out-cross-theme-forest-creatures",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "math-puzzle-forest-creatures-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "forest_creatures",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-forest-creatures"
+   "level": "grade-2",
+   "deck": "math-puzzle-forest-creatures"
   },
   {
-   "slug": "odd-one-out-cross-theme-fruits",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "math-puzzle-fruits-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "fruits",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-fruits"
+   "level": "grade-2",
+   "deck": "math-puzzle-fruits"
   },
   {
-   "slug": "odd-one-out-cross-theme-furniture",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "math-puzzle-furniture-grade-1",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "furniture",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-furniture"
+   "level": "grade-1",
+   "deck": "math-puzzle-furniture"
   },
   {
-   "slug": "odd-one-out-cross-theme-hospital",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "math-puzzle-hospital-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "hospital",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-hospital"
+   "level": "grade-2",
+   "deck": "math-puzzle-hospital"
   },
   {
-   "slug": "odd-one-out-cross-theme-insects-and-bugs",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "math-puzzle-insects-and-bugs-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "insects_and_bugs",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-insects-and-bugs"
+   "level": "grade-2",
+   "deck": "math-puzzle-insects-and-bugs"
   },
   {
-   "slug": "odd-one-out-cross-theme-kitchen-tools",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
+   "slug": "math-puzzle-kitchen-tools-grade-1",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "kitchen_tools",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-kitchen-tools"
+   "level": "grade-1",
+   "deck": "math-puzzle-kitchen-tools"
   },
   {
-   "slug": "odd-one-out-cross-theme-music",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
-   "theme": "music",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-music"
-  },
-  {
-   "slug": "odd-one-out-cross-theme-occupations",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
-   "theme": "occupations",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-occupations"
-  },
-  {
-   "slug": "odd-one-out-cross-theme-ocean-life",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
-   "theme": "ocean_life",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-ocean-life"
-  },
-  {
-   "slug": "odd-one-out-cross-theme-pets",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
-   "theme": "pets",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-pets"
-  },
-  {
-   "slug": "odd-one-out-cross-theme-post-office",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
-   "theme": "post_office",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-post-office"
-  },
-  {
-   "slug": "odd-one-out-cross-theme-reptiles-and-amphibians",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
-   "theme": "reptiles_and_amphibians",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-reptiles-and-amphibians"
-  },
-  {
-   "slug": "odd-one-out-cross-theme-shapes",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
-   "theme": "shapes",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-shapes"
-  },
-  {
-   "slug": "odd-one-out-cross-theme-space",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
-   "theme": "space",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-space"
-  },
-  {
-   "slug": "odd-one-out-cross-theme-spring",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
-   "theme": "spring",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-spring"
-  },
-  {
-   "slug": "odd-one-out-cross-theme-summer",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
-   "theme": "summer",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-summer"
-  },
-  {
-   "slug": "odd-one-out-cross-theme-thanksgiving",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
-   "theme": "thanksgivinng",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-thanksgiving"
-  },
-  {
-   "slug": "odd-one-out-cross-theme-things-that-fly",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
-   "theme": "things_that_fly",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-things-that-fly"
-  },
-  {
-   "slug": "odd-one-out-cross-theme-tools",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
-   "theme": "tools",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-tools"
-  },
-  {
-   "slug": "odd-one-out-cross-theme-toys",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
-   "theme": "toys",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-toys"
-  },
-  {
-   "slug": "odd-one-out-cross-theme-tree",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
-   "theme": "tree",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-tree"
-  },
-  {
-   "slug": "odd-one-out-cross-theme-vegetables",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
-   "theme": "vegetables",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-vegetables"
-  },
-  {
-   "slug": "odd-one-out-cross-theme-vehicles",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
-   "theme": "vehicles",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-vehicles"
-  },
-  {
-   "slug": "odd-one-out-cross-theme-weather",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
-   "theme": "weather",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-weather"
-  },
-  {
-   "slug": "odd-one-out-cross-theme-winter",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
-   "theme": "winter",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-winter"
-  },
-  {
-   "slug": "odd-one-out-cross-theme-zoo-animals",
-   "type": "odd-one-out",
-   "mode": "cross-theme",
-   "theme": "zoo_animals",
-   "level": "kindergarten",
-   "deck": "odd-one-out-cross-theme-zoo-animals"
-  },
-  {
-   "slug": "pattern-train-aab-4th-of-july",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "4th_of_july",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-4th-of-july"
-  },
-  {
-   "slug": "pattern-train-aab-accessories",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "accessories",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-accessories"
-  },
-  {
-   "slug": "pattern-train-aab-activities",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "activities",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-activities"
-  },
-  {
-   "slug": "pattern-train-aab-animals",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "animals",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-animals"
-  },
-  {
-   "slug": "pattern-train-aab-around-the-house",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "around_the_house",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-around-the-house"
-  },
-  {
-   "slug": "pattern-train-aab-at-the-supermarket",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "at_the_supermarket",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-at-the-supermarket"
-  },
-  {
-   "slug": "pattern-train-aab-bakery",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "bakery",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-bakery"
-  },
-  {
-   "slug": "pattern-train-aab-beach",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "beach",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-beach"
-  },
-  {
-   "slug": "pattern-train-aab-birds",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "birds",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-birds"
-  },
-  {
-   "slug": "pattern-train-aab-birds-2",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "birds_2",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-birds-2"
-  },
-  {
-   "slug": "pattern-train-aab-breakfast",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "breakfast",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-breakfast"
-  },
-  {
-   "slug": "pattern-train-aab-camping",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "camping",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-camping"
-  },
-  {
-   "slug": "pattern-train-aab-christmas",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "christmas",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-christmas"
-  },
-  {
-   "slug": "pattern-train-aab-classroom",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "classroom",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-classroom"
-  },
-  {
-   "slug": "pattern-train-aab-clothing",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "clothing",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-clothing"
-  },
-  {
-   "slug": "pattern-train-aab-colors",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "colors",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-colors"
-  },
-  {
-   "slug": "pattern-train-aab-desserts-and-sweets",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "desserts_and_sweets",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-desserts-and-sweets"
-  },
-  {
-   "slug": "pattern-train-aab-dinosaurs",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "dinosaurs",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-dinosaurs"
-  },
-  {
-   "slug": "pattern-train-aab-easter",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "easter",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-easter"
-  },
-  {
-   "slug": "pattern-train-aab-emotions",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "emotions",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-emotions"
-  },
-  {
-   "slug": "pattern-train-aab-farm-animals",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "farm_animals",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-farm-animals"
-  },
-  {
-   "slug": "pattern-train-aab-flowers",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "flowers",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-flowers"
-  },
-  {
-   "slug": "pattern-train-aab-forest-creatures",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "forest_creatures",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-forest-creatures"
-  },
-  {
-   "slug": "pattern-train-aab-fruits",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "fruits",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-fruits"
-  },
-  {
-   "slug": "pattern-train-aab-furniture",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "furniture",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-furniture"
-  },
-  {
-   "slug": "pattern-train-aab-hospital",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "hospital",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-hospital"
-  },
-  {
-   "slug": "pattern-train-aab-insects-and-bugs",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "insects_and_bugs",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-insects-and-bugs"
-  },
-  {
-   "slug": "pattern-train-aab-kitchen-tools-kindergarten",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "kitchen_tools",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-kitchen-tools"
-  },
-  {
-   "slug": "pattern-train-aab-miscellaneous-kindergarten",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "math-puzzle-miscellaneous-grade-1",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "miscellaneous",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-miscellaneous"
+   "level": "grade-1",
+   "deck": "math-puzzle-miscellaneous"
   },
   {
-   "slug": "pattern-train-aab-music-kindergarten",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "math-puzzle-music-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "music",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-music"
+   "level": "grade-2",
+   "deck": "math-puzzle-music"
   },
   {
-   "slug": "pattern-train-aab-occupations-kindergarten",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "math-puzzle-occupations-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "occupations",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-occupations"
+   "level": "grade-2",
+   "deck": "math-puzzle-occupations"
   },
   {
-   "slug": "pattern-train-aab-ocean-life-kindergarten",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "math-puzzle-ocean-life-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "ocean_life",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-ocean-life"
+   "level": "grade-2",
+   "deck": "math-puzzle-ocean-life"
   },
   {
-   "slug": "pattern-train-aab-pets-kindergarten",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "math-puzzle-pets-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "pets",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-pets"
+   "level": "grade-2",
+   "deck": "math-puzzle-pets"
   },
   {
-   "slug": "pattern-train-aab-post-office-kindergarten",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "math-puzzle-post-office-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "post_office",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-post-office"
+   "level": "grade-2",
+   "deck": "math-puzzle-post-office"
   },
   {
-   "slug": "pattern-train-aab-reptiles-and-amphibians-kindergarten",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "math-puzzle-reptiles-and-amphibians-grade-1",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "reptiles_and_amphibians",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-reptiles-and-amphibians"
+   "level": "grade-1",
+   "deck": "math-puzzle-reptiles-and-amphibians"
   },
   {
-   "slug": "pattern-train-aab-shapes",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "math-puzzle-shapes-grade-1",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "shapes",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-shapes"
+   "level": "grade-1",
+   "deck": "math-puzzle-shapes"
   },
   {
-   "slug": "pattern-train-aab-space",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "math-puzzle-space-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "space",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-space"
+   "level": "grade-2",
+   "deck": "math-puzzle-space"
   },
   {
-   "slug": "pattern-train-aab-spring",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "spring",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-spring"
-  },
-  {
-   "slug": "pattern-train-aab-summer",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "summer",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-summer"
-  },
-  {
-   "slug": "pattern-train-aab-thanksgiving",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "math-puzzle-thanksgivinng-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "thanksgivinng",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-thanksgiving"
+   "level": "grade-2",
+   "deck": "math-puzzle-thanksgiving"
   },
   {
-   "slug": "pattern-train-aab-things-that-fly",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "math-puzzle-things-that-fly-grade-1",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "things_that_fly",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-things-that-fly"
+   "level": "grade-1",
+   "deck": "math-puzzle-things-that-fly"
   },
   {
-   "slug": "pattern-train-aab-tools",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "math-puzzle-tools-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "tools",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-tools"
+   "level": "grade-2",
+   "deck": "math-puzzle-tools"
   },
   {
-   "slug": "pattern-train-aab-toys",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "math-puzzle-toys-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "toys",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-toys"
+   "level": "grade-2",
+   "deck": "math-puzzle-toys"
   },
   {
-   "slug": "pattern-train-aab-tree",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "math-puzzle-tree-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "tree",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-tree"
+   "level": "grade-2",
+   "deck": "math-puzzle-tree"
   },
   {
-   "slug": "pattern-train-aab-vegetables",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "math-puzzle-vegetables-grade-1",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "vegetables",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-vegetables"
+   "level": "grade-1",
+   "deck": "math-puzzle-vegetables"
   },
   {
-   "slug": "pattern-train-aab-vehicles",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "math-puzzle-vehicles-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "vehicles",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-vehicles"
+   "level": "grade-2",
+   "deck": "math-puzzle-vehicles"
   },
   {
-   "slug": "pattern-train-aab-weather",
-   "type": "pattern-train",
-   "mode": "aab",
-   "theme": "weather",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-weather"
-  },
-  {
-   "slug": "pattern-train-aab-winter",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "math-puzzle-winter-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "winter",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-winter"
+   "level": "grade-2",
+   "deck": "math-puzzle-winter"
   },
   {
-   "slug": "pattern-train-aab-zoo-animals",
-   "type": "pattern-train",
-   "mode": "aab",
+   "slug": "math-puzzle-zoo-animals-grade-2",
+   "type": "math-puzzle",
+   "mode": "mixed",
    "theme": "zoo_animals",
-   "level": "kindergarten",
-   "deck": "pattern-train-aab-zoo-animals"
+   "level": "grade-2",
+   "deck": "math-puzzle-zoo-animals"
   }
  ]
 }

@@ -1,584 +1,772 @@
 {
  "part": 100,
- "locale": "pt",
+ "locale": "es",
  "classes": [
-  "wordsearch::null"
+  "shadow-match::find-shadow",
+  "grid-match::null"
  ],
- "splitOf": {
-  "class": "wordsearch::null",
-  "total": 142,
-  "chunk": 1,
-  "chunks": 2
- },
- "count": 71,
+ "splitOf": null,
+ "count": 95,
  "pages": [
   {
-   "slug": "caca-palavras-acampamento-17c6",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "camping",
-   "level": "1o-ano",
-   "deck": "caca-palavras-acampamento-17c6"
+   "slug": "empareja-sombras-emparejar-la-sombra-4-de-julio-1fd631",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "4th_of_july",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-4-de-julio-1fd631"
   },
   {
-   "slug": "caca-palavras-acessorios-23ba",
-   "type": "wordsearch",
+   "slug": "empareja-sombras-emparejar-la-sombra-accesorios-98be",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "accessories",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-accesorios-98be"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-actividades-98be",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "activities",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-actividades-98be"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-alrededor-de-la-casa-720288",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "around_the_house",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-alrededor-de-la-casa-720288"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-animales",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "animals",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-animales"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-animales-de-granja-70f08f",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "farm_animals",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-animales-de-granja-70f08f"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-animales-del-zoologico-98be",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "zoo_animals",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-animales-del-zoologico-98be"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-arboles-98be",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "tree",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-arboles-98be"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-aves-2-98be",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "birds_2",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-aves-2-98be"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-aves-98be",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "birds",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-aves-98be"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-campamento-98be",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "camping",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-campamento-98be"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-clima-98be",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "weather",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-clima-98be"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-cosas-que-vuelan-4b5507",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "things_that_fly",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-cosas-que-vuelan-4b5507"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-criaturas-del-bosque-98be",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "forest_creatures",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-criaturas-del-bosque-98be"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-desayuno-98be",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "breakfast",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-desayuno-98be"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-dia-de-accion-de-gracias-0f9a68",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "thanksgivinng",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-dia-de-accion-de-gracias-0f9a68"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-dinosaurios-98be",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "dinosaurs",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-dinosaurios-98be"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-emociones-98be",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "emotions",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-emociones-98be"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-en-el-supermercado-15e3b9",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "at_the_supermarket",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-en-el-supermercado-15e3b9"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-espacio-0b24f8",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "space",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-espacio-0b24f8"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-flores-98be",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "flowers",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-flores-98be"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-formas-6cb5c2",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "shapes",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-formas-6cb5c2"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-frutas-651283",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "fruits",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-frutas-651283"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-herramientas-2997fe",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "tools",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-herramientas-2997fe"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-hospital-98be",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "hospital",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-hospital-98be"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-insectos-y-bichos-22dfc8",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "insects_and_bugs",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-insectos-y-bichos-22dfc8"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-invierno-98be",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "winter",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-invierno-98be"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-juguetes-47c0f6",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "toys",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-juguetes-47c0f6"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-mascotas-21bdb0",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "pets",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-mascotas-21bdb0"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-miscelaneo-98be",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "miscellaneous",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-miscelaneo-98be"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-muebles-98be",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "furniture",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-muebles-98be"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-musica-0f7f8e",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "music",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-musica-0f7f8e"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-navidad-98be",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "christmas",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-navidad-98be"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-ocupaciones-3757ea",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "occupations",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-ocupaciones-3757ea"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-oficina-de-correos-24a656",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "post_office",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-oficina-de-correos-24a656"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-panaderia-98be",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "bakery",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-panaderia-98be"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-partes-del-cuerpo-1901af",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "body_parts",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-partes-del-cuerpo-1901af"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-pascua-98be",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "easter",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-pascua-98be"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-playa-02382a",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "beach",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-playa-02382a"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-postres-y-dulces-98be",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "desserts_and_sweets",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-postres-y-dulces-98be"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-primavera-98be",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "spring",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-primavera-98be"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-reptiles-y-anfibios-98be",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "reptiles_and_amphibians",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-reptiles-y-anfibios-98be"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-salon-de-clases-98be",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "classroom",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-salon-de-clases-98be"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-utensilios-de-cocina-98be",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "kitchen_tools",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-utensilios-de-cocina-98be"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-vehiculos-98be",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "vehicles",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-vehiculos-98be"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-verano-98be",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "summer",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-verano-98be"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-verduras-2e05a9",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "vegetables",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-verduras-2e05a9"
+  },
+  {
+   "slug": "empareja-sombras-emparejar-la-sombra-vida-marina-98be",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "ocean_life",
+   "level": "preescolar",
+   "deck": "empareja-sombras-emparejar-la-sombra-vida-marina-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-4-de-julio-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-4-de-julio-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-accesorios-98be",
+   "type": "grid-match",
    "mode": null,
    "theme": "accessories",
-   "level": "1o-ano",
-   "deck": "caca-palavras-acessorios-23ba"
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-accesorios-98be"
   },
   {
-   "slug": "caca-palavras-animais-b5d5",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "animals",
-   "level": "1o-ano",
-   "deck": "caca-palavras-animais-b5d5"
-  },
-  {
-   "slug": "caca-palavras-animais-da-fazenda-60e2",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "farm_animals",
-   "level": "1o-ano",
-   "deck": "caca-palavras-animais-da-fazenda-60e2"
-  },
-  {
-   "slug": "caca-palavras-animais-de-estimacao-96fe",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "pets",
-   "level": "1o-ano",
-   "deck": "caca-palavras-animais-de-estimacao-96fe"
-  },
-  {
-   "slug": "caca-palavras-animais-do-zoologico-8aa1",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "zoo_animals",
-   "level": "1o-ano",
-   "deck": "caca-palavras-animais-do-zoologico-8aa1"
-  },
-  {
-   "slug": "caca-palavras-arvores-c8ff",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "tree",
-   "level": "1o-ano",
-   "deck": "caca-palavras-arvores-c8ff"
-  },
-  {
-   "slug": "caca-palavras-atividades-6bff",
-   "type": "wordsearch",
+   "slug": "empareja-en-cuadricula-actividades-98be",
+   "type": "grid-match",
    "mode": null,
    "theme": "activities",
-   "level": "1o-ano",
-   "deck": "caca-palavras-atividades-6bff"
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-actividades-98be"
   },
   {
-   "slug": "caca-palavras-brinquedos-aecf",
-   "type": "wordsearch",
+   "slug": "empareja-en-cuadricula-animales",
+   "type": "grid-match",
    "mode": null,
-   "theme": "toys",
-   "level": "1o-ano",
-   "deck": "caca-palavras-brinquedos-aecf"
+   "theme": "animals",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-animales"
   },
   {
-   "slug": "caca-palavras-cafe-da-manha-8dd4",
-   "type": "wordsearch",
+   "slug": "empareja-en-cuadricula-animales-de-granja-98be",
+   "type": "grid-match",
    "mode": null,
-   "theme": "breakfast",
-   "level": "1o-ano",
-   "deck": "caca-palavras-cafe-da-manha-8dd4"
+   "theme": "farm_animals",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-animales-de-granja-98be"
   },
   {
-   "slug": "caca-palavras-clima-9459",
-   "type": "wordsearch",
+   "slug": "empareja-en-cuadricula-animales-del-zoologico-98be",
+   "type": "grid-match",
    "mode": null,
-   "theme": "weather",
-   "level": "1o-ano",
-   "deck": "caca-palavras-clima-9459"
+   "theme": "zoo_animals",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-animales-del-zoologico-98be"
   },
   {
-   "slug": "caca-palavras-coisas-que-voam-c95e",
-   "type": "wordsearch",
+   "slug": "empareja-en-cuadricula-arboles-98be",
+   "type": "grid-match",
    "mode": null,
-   "theme": "things_that_fly",
-   "level": "1o-ano",
-   "deck": "caca-palavras-coisas-que-voam-c95e"
+   "theme": "tree",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-arboles-98be"
   },
   {
-   "slug": "caca-palavras-cores-a352",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "colors",
-   "level": "1o-ano",
-   "deck": "caca-palavras-cores-a352"
-  },
-  {
-   "slug": "caca-palavras-correios-6530",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "post_office",
-   "level": "1o-ano",
-   "deck": "caca-palavras-correios-6530"
-  },
-  {
-   "slug": "caca-palavras-criaturas-da-floresta-47a1",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "forest_creatures",
-   "level": "1o-ano",
-   "deck": "caca-palavras-criaturas-da-floresta-47a1"
-  },
-  {
-   "slug": "caca-palavras-dia-de-acao-de-gracas-31e9",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "thanksgivinng",
-   "level": "1o-ano",
-   "deck": "caca-palavras-dia-de-acao-de-gracas-31e9"
-  },
-  {
-   "slug": "caca-palavras-dinossauros-4714",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "dinosaurs",
-   "level": "1o-ano",
-   "deck": "caca-palavras-dinossauros-4714"
-  },
-  {
-   "slug": "caca-palavras-diversos-400b",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "miscellaneous",
-   "level": "1o-ano",
-   "deck": "caca-palavras-diversos-400b"
-  },
-  {
-   "slug": "caca-palavras-emocoes-1dc1",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "emotions",
-   "level": "1o-ano",
-   "deck": "caca-palavras-emocoes-1dc1"
-  },
-  {
-   "slug": "caca-palavras-espaco-350f",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "space",
-   "level": "1o-ano",
-   "deck": "caca-palavras-espaco-350f"
-  },
-  {
-   "slug": "caca-palavras-ferramentas-3720",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "tools",
-   "level": "1o-ano",
-   "deck": "caca-palavras-ferramentas-3720"
-  },
-  {
-   "slug": "caca-palavras-flores-44d7",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "flowers",
-   "level": "1o-ano",
-   "deck": "caca-palavras-flores-44d7"
-  },
-  {
-   "slug": "caca-palavras-formas-55b8",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "shapes",
-   "level": "1o-ano",
-   "deck": "caca-palavras-formas-55b8"
-  },
-  {
-   "slug": "caca-palavras-frutas-c133",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "fruits",
-   "level": "1o-ano",
-   "deck": "caca-palavras-frutas-c133"
-  },
-  {
-   "slug": "caca-palavras-hospital-6770",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "hospital",
-   "level": "1o-ano",
-   "deck": "caca-palavras-hospital-6770"
-  },
-  {
-   "slug": "caca-palavras-insetos-e-bichos-98b7",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "1o-ano",
-   "deck": "caca-palavras-insetos-e-bichos-98b7"
-  },
-  {
-   "slug": "caca-palavras-inverno-8d2e",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "winter",
-   "level": "1o-ano",
-   "deck": "caca-palavras-inverno-8d2e"
-  },
-  {
-   "slug": "caca-palavras-moveis-879f",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "furniture",
-   "level": "1o-ano",
-   "deck": "caca-palavras-moveis-879f"
-  },
-  {
-   "slug": "caca-palavras-musica-a667",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "music",
-   "level": "1o-ano",
-   "deck": "caca-palavras-musica-a667"
-  },
-  {
-   "slug": "caca-palavras-natal-4209",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "christmas",
-   "level": "1o-ano",
-   "deck": "caca-palavras-natal-4209"
-  },
-  {
-   "slug": "caca-palavras-no-supermercado-0f8a",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "1o-ano",
-   "deck": "caca-palavras-no-supermercado-0f8a"
-  },
-  {
-   "slug": "caca-palavras-padaria-d5f1",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "bakery",
-   "level": "1o-ano",
-   "deck": "caca-palavras-padaria-d5f1"
-  },
-  {
-   "slug": "caca-palavras-partes-do-corpo-fc44",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "1o-ano",
-   "deck": "caca-palavras-partes-do-corpo-fc44"
-  },
-  {
-   "slug": "caca-palavras-pascoa-62d7",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "easter",
-   "level": "1o-ano",
-   "deck": "caca-palavras-pascoa-62d7"
-  },
-  {
-   "slug": "caca-palavras-passaros-2-8efe",
-   "type": "wordsearch",
+   "slug": "empareja-en-cuadricula-aves-2-98be",
+   "type": "grid-match",
    "mode": null,
    "theme": "birds_2",
-   "level": "1o-ano",
-   "deck": "caca-palavras-passaros-2-8efe"
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-aves-2-98be"
   },
   {
-   "slug": "caca-palavras-passaros-bcbf",
-   "type": "wordsearch",
+   "slug": "empareja-en-cuadricula-aves-98be",
+   "type": "grid-match",
    "mode": null,
    "theme": "birds",
-   "level": "1o-ano",
-   "deck": "caca-palavras-passaros-bcbf"
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-aves-98be"
   },
   {
-   "slug": "caca-palavras-pela-casa-97e6",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "around_the_house",
-   "level": "1o-ano",
-   "deck": "caca-palavras-pela-casa-97e6"
-  },
-  {
-   "slug": "caca-palavras-praia-88d7",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "beach",
-   "level": "1o-ano",
-   "deck": "caca-palavras-praia-88d7"
-  },
-  {
-   "slug": "caca-palavras-primavera-4ded",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "spring",
-   "level": "1o-ano",
-   "deck": "caca-palavras-primavera-4ded"
-  },
-  {
-   "slug": "caca-palavras-profissoes-aa7d",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "occupations",
-   "level": "1o-ano",
-   "deck": "caca-palavras-profissoes-aa7d"
-  },
-  {
-   "slug": "caca-palavras-repteis-e-anfibios-3ae2",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "reptiles_and_amphibians",
-   "level": "1o-ano",
-   "deck": "caca-palavras-repteis-e-anfibios-3ae2"
-  },
-  {
-   "slug": "caca-palavras-roupas-bd64",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "clothing",
-   "level": "1o-ano",
-   "deck": "caca-palavras-roupas-bd64"
-  },
-  {
-   "slug": "caca-palavras-sala-de-aula-2875",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "classroom",
-   "level": "1o-ano",
-   "deck": "caca-palavras-sala-de-aula-2875"
-  },
-  {
-   "slug": "caca-palavras-sobremesas-e-doces-9931",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "1o-ano",
-   "deck": "caca-palavras-sobremesas-e-doces-9931"
-  },
-  {
-   "slug": "caca-palavras-utensilios-de-cozinha-8da4",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "1o-ano",
-   "deck": "caca-palavras-utensilios-de-cozinha-8da4"
-  },
-  {
-   "slug": "caca-palavras-vegetais-473c",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "vegetables",
-   "level": "1o-ano",
-   "deck": "caca-palavras-vegetais-473c"
-  },
-  {
-   "slug": "caca-palavras-veiculos-7a61",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "vehicles",
-   "level": "1o-ano",
-   "deck": "caca-palavras-veiculos-7a61"
-  },
-  {
-   "slug": "caca-palavras-verao-bedf",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "summer",
-   "level": "1o-ano",
-   "deck": "caca-palavras-verao-bedf"
-  },
-  {
-   "slug": "caca-palavras-vida-marinha-7643",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "ocean_life",
-   "level": "1o-ano",
-   "deck": "caca-palavras-vida-marinha-7643"
-  },
-  {
-   "slug": "espanhol-caca-palavras-acampamento-aaa1",
-   "type": "wordsearch",
+   "slug": "empareja-en-cuadricula-campamento-98be",
+   "type": "grid-match",
    "mode": null,
    "theme": "camping",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-acampamento-aaa1"
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-campamento-98be"
   },
   {
-   "slug": "espanhol-caca-palavras-acessorios-b273",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "accessories",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-acessorios-b273"
-  },
-  {
-   "slug": "espanhol-caca-palavras-animais-da-fazenda-01c9",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "farm_animals",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-animais-da-fazenda-01c9"
-  },
-  {
-   "slug": "espanhol-caca-palavras-animais-de-estimacao-7544",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "pets",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-animais-de-estimacao-7544"
-  },
-  {
-   "slug": "espanhol-caca-palavras-animais-do-zoologico-2573",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "zoo_animals",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-animais-do-zoologico-2573"
-  },
-  {
-   "slug": "espanhol-caca-palavras-animais-f13d",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "animals",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-animais-f13d"
-  },
-  {
-   "slug": "espanhol-caca-palavras-arvores-45c7",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "tree",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-arvores-45c7"
-  },
-  {
-   "slug": "espanhol-caca-palavras-atividades-b19e",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "activities",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-atividades-b19e"
-  },
-  {
-   "slug": "espanhol-caca-palavras-brinquedos-57dc",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "toys",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-brinquedos-57dc"
-  },
-  {
-   "slug": "espanhol-caca-palavras-cafe-da-manha-50ae",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "breakfast",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-cafe-da-manha-50ae"
-  },
-  {
-   "slug": "espanhol-caca-palavras-clima-0245",
-   "type": "wordsearch",
+   "slug": "empareja-en-cuadricula-clima-98be",
+   "type": "grid-match",
    "mode": null,
    "theme": "weather",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-clima-0245"
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-clima-98be"
   },
   {
-   "slug": "espanhol-caca-palavras-coisas-que-voam-7db4",
-   "type": "wordsearch",
+   "slug": "empareja-en-cuadricula-cosas-que-vuelan-98be",
+   "type": "grid-match",
    "mode": null,
    "theme": "things_that_fly",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-coisas-que-voam-7db4"
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-cosas-que-vuelan-98be"
   },
   {
-   "slug": "espanhol-caca-palavras-cores-2426",
-   "type": "wordsearch",
+   "slug": "empareja-en-cuadricula-desayuno-98be",
+   "type": "grid-match",
    "mode": null,
-   "theme": "colors",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-cores-2426"
+   "theme": "breakfast",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-desayuno-98be"
   },
   {
-   "slug": "espanhol-caca-palavras-correios-9c6a",
-   "type": "wordsearch",
+   "slug": "empareja-en-cuadricula-dia-de-accion-de-gracias-98be",
+   "type": "grid-match",
    "mode": null,
-   "theme": "post_office",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-correios-9c6a"
+   "theme": "thanksgivinng",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-dia-de-accion-de-gracias-98be"
   },
   {
-   "slug": "espanhol-caca-palavras-criaturas-da-floresta-abcc",
-   "type": "wordsearch",
+   "slug": "empareja-en-cuadricula-dinosaurios-98be",
+   "type": "grid-match",
    "mode": null,
-   "theme": "forest_creatures",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-criaturas-da-floresta-abcc"
+   "theme": "dinosaurs",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-dinosaurios-98be"
   },
   {
-   "slug": "espanhol-caca-palavras-emocoes-6e06",
-   "type": "wordsearch",
+   "slug": "empareja-en-cuadricula-emociones-98be",
+   "type": "grid-match",
    "mode": null,
    "theme": "emotions",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-emocoes-6e06"
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-emociones-98be"
   },
   {
-   "slug": "espanhol-caca-palavras-espaco-c64e",
-   "type": "wordsearch",
+   "slug": "empareja-en-cuadricula-en-el-supermercado-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-en-el-supermercado-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-espacio-98be",
+   "type": "grid-match",
    "mode": null,
    "theme": "space",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-espaco-c64e"
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-espacio-98be"
   },
   {
-   "slug": "espanhol-caca-palavras-ferramentas-8ac4",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "tools",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-ferramentas-8ac4"
-  },
-  {
-   "slug": "espanhol-caca-palavras-flores-fba7",
-   "type": "wordsearch",
+   "slug": "empareja-en-cuadricula-flores-98be",
+   "type": "grid-match",
    "mode": null,
    "theme": "flowers",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-flores-fba7"
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-flores-98be"
   },
   {
-   "slug": "espanhol-caca-palavras-formas-de08",
-   "type": "wordsearch",
+   "slug": "empareja-en-cuadricula-formas-98be",
+   "type": "grid-match",
    "mode": null,
    "theme": "shapes",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-formas-de08"
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-formas-98be"
   },
   {
-   "slug": "espanhol-caca-palavras-frutas-9a8c",
-   "type": "wordsearch",
+   "slug": "empareja-en-cuadricula-frutas-98be",
+   "type": "grid-match",
    "mode": null,
    "theme": "fruits",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-frutas-9a8c"
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-frutas-98be"
   },
   {
-   "slug": "espanhol-caca-palavras-hospital-8fcd",
-   "type": "wordsearch",
+   "slug": "empareja-en-cuadricula-herramientas-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "tools",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-herramientas-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-hospital-98be",
+   "type": "grid-match",
    "mode": null,
    "theme": "hospital",
-   "level": "language-beginner",
-   "deck": "espanhol-caca-palavras-hospital-8fcd"
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-hospital-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-insectos-y-bichos-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-insectos-y-bichos-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-invierno-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "winter",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-invierno-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-juguetes-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "toys",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-juguetes-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-mascotas-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "pets",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-mascotas-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-miscelaneo-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "miscellaneous",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-miscelaneo-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-muebles-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "furniture",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-muebles-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-musica-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "music",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-musica-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-navidad-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "christmas",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-navidad-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-ocupaciones-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "occupations",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-ocupaciones-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-oficina-de-correos-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "post_office",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-oficina-de-correos-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-panaderia-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "bakery",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-panaderia-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-partes-del-cuerpo-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-partes-del-cuerpo-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-pascua-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "easter",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-pascua-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-playa-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "beach",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-playa-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-postres-y-dulces-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-postres-y-dulces-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-primavera-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "spring",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-primavera-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-reptiles-y-anfibios-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-reptiles-y-anfibios-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-ropa-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "clothing",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-ropa-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-salon-de-clases-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "classroom",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-salon-de-clases-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-utensilios-de-cocina-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-utensilios-de-cocina-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-vehiculos-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-vehiculos-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-verano-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "summer",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-verano-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-verduras-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-verduras-98be"
+  },
+  {
+   "slug": "empareja-en-cuadricula-vida-marina-98be",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "preescolar",
+   "deck": "empareja-en-cuadricula-vida-marina-98be"
   }
  ]
 }

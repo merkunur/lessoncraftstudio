@@ -2,731 +2,763 @@
  "part": 309,
  "locale": "no",
  "classes": [
-  "find-and-count::hidden-object",
-  "matching::letter"
+  "word-scramble::easy",
+  "word-scramble::normal"
  ],
  "splitOf": null,
- "count": 90,
+ "count": 94,
  "pages": [
   {
-   "slug": "finn-og-tell-skjulte-gjenstander-aktiviteter-f863",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "bokstavspill-lett-aktiviteter-395f",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "activities",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-aktiviteter-f863"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-aktiviteter-395f"
   },
   {
-   "slug": "finn-og-tell-skjulte-gjenstander-bakeri-c278",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "bokstavspill-lett-bakeri-5295",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "bakery",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-bakeri-c278"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-bakeri-5295"
   },
   {
-   "slug": "finn-og-tell-skjulte-gjenstander-blomster-6372",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "bokstavspill-lett-blomster-63da",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "flowers",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-blomster-6372"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-blomster-63da"
   },
   {
-   "slug": "finn-og-tell-skjulte-gjenstander-camping-58b3",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "bokstavspill-lett-camping-4d40",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "camping",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-camping-58b3"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-camping-4d40"
   },
   {
-   "slug": "finn-og-tell-skjulte-gjenstander-desserter-og-godteri-102f",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "bokstavspill-lett-desserter-og-godteri-2362",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "desserts_and_sweets",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-desserter-og-godteri-102f"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-desserter-og-godteri-2362"
   },
   {
-   "slug": "finn-og-tell-skjulte-gjenstander-dyr-bd49",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "bokstavspill-lett-dyr-c2fd",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "animals",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-dyr-bd49"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-dyr-c2fd"
   },
   {
-   "slug": "finn-og-tell-skjulte-gjenstander-dyrehagedyr-1b61",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "bokstavspill-lett-dyrehagedyr-7bde",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "zoo_animals",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-dyrehagedyr-1b61"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-dyrehagedyr-7bde"
   },
   {
-   "slug": "finn-og-tell-skjulte-gjenstander-farger-5af7",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "bokstavspill-lett-farger-8bda",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "colors",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-farger-5af7"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-farger-8bda"
   },
   {
-   "slug": "finn-og-tell-skjulte-gjenstander-folelser-c271",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "bokstavspill-lett-folelser-aa51",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "emotions",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-folelser-c271"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-folelser-aa51"
   },
   {
-   "slug": "finn-og-tell-skjulte-gjenstander-former-68f6",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "bokstavspill-lett-former-0d5f",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "shapes",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-former-68f6"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-former-0d5f"
   },
   {
-   "slug": "finn-og-tell-skjulte-gjenstander-frokost-cbf2",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "bokstavspill-lett-frokost-8c5c",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "breakfast",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-frokost-cbf2"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-frokost-8c5c"
   },
   {
-   "slug": "finn-og-tell-skjulte-gjenstander-frukter-ab1f",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "bokstavspill-lett-frukter-f643",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "fruits",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-frukter-ab1f"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-frukter-f643"
   },
   {
-   "slug": "finn-og-tell-skjulte-gjenstander-fugler-2-4e77",
-   "type": "find-and-count",
-   "mode": "hidden-object",
+   "slug": "bokstavspill-lett-fugler-2-d268",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "birds_2",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-fugler-2-4e77"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-fugler-2-d268"
   },
   {
-   "slug": "finn-og-tell-skjulte-gjenstander-gardsdyr-6699",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "farm_animals",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-gardsdyr-6699"
-  },
-  {
-   "slug": "finn-og-tell-skjulte-gjenstander-gronnsaker-93ec",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "vegetables",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-gronnsaker-93ec"
-  },
-  {
-   "slug": "finn-og-tell-skjulte-gjenstander-havliv-ab55",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "ocean_life",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-havliv-ab55"
-  },
-  {
-   "slug": "finn-og-tell-skjulte-gjenstander-i-supermarkedet-07b8",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "at_the_supermarket",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-i-supermarkedet-07b8"
-  },
-  {
-   "slug": "finn-og-tell-skjulte-gjenstander-insekter-og-kryp-1ce8",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "insects_and_bugs",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-insekter-og-kryp-1ce8"
-  },
-  {
-   "slug": "finn-og-tell-skjulte-gjenstander-jul-da8a",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "christmas",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-jul-da8a"
-  },
-  {
-   "slug": "finn-og-tell-skjulte-gjenstander-kjaeledyr-81cb",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "pets",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-kjaeledyr-81cb"
-  },
-  {
-   "slug": "finn-og-tell-skjulte-gjenstander-kjokkenredskaper-a4fe",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "kitchen_tools",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-kjokkenredskaper-a4fe"
-  },
-  {
-   "slug": "finn-og-tell-skjulte-gjenstander-kjoretoy-93ed",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "vehicles",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-kjoretoy-93ed"
-  },
-  {
-   "slug": "finn-og-tell-skjulte-gjenstander-klaer-223e",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "clothing",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-klaer-223e"
-  },
-  {
-   "slug": "finn-og-tell-skjulte-gjenstander-klasserom-d82a",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "classroom",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-klasserom-d82a"
-  },
-  {
-   "slug": "finn-og-tell-skjulte-gjenstander-kroppsdeler-efe6",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "body_parts",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-kroppsdeler-efe6"
-  },
-  {
-   "slug": "finn-og-tell-skjulte-gjenstander-leker-a35b",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "toys",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-leker-a35b"
-  },
-  {
-   "slug": "finn-og-tell-skjulte-gjenstander-mobler-60bc",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "furniture",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-mobler-60bc"
-  },
-  {
-   "slug": "finn-og-tell-skjulte-gjenstander-musikk-d571",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "music",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-musikk-d571"
-  },
-  {
-   "slug": "finn-og-tell-skjulte-gjenstander-paske-ec8a",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "easter",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-paske-ec8a"
-  },
-  {
-   "slug": "finn-og-tell-skjulte-gjenstander-postkontor-c51f",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "post_office",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-postkontor-c51f"
-  },
-  {
-   "slug": "finn-og-tell-skjulte-gjenstander-reptiler-og-amfibier-b785",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "reptiles_and_amphibians",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-reptiler-og-amfibier-b785"
-  },
-  {
-   "slug": "finn-og-tell-skjulte-gjenstander-rundt-i-huset-453b",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "around_the_house",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-rundt-i-huset-453b"
-  },
-  {
-   "slug": "finn-og-tell-skjulte-gjenstander-skogsdyr-9ea3",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "forest_creatures",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-skogsdyr-9ea3"
-  },
-  {
-   "slug": "finn-og-tell-skjulte-gjenstander-sommer-9e1f",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "summer",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-sommer-9e1f"
-  },
-  {
-   "slug": "finn-og-tell-skjulte-gjenstander-strand-2ee7",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "beach",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-strand-2ee7"
-  },
-  {
-   "slug": "finn-og-tell-skjulte-gjenstander-sykehus-f4f4",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "hospital",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-sykehus-f4f4"
-  },
-  {
-   "slug": "finn-og-tell-skjulte-gjenstander-thanksgiving-77c8",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "thanksgivinng",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-thanksgiving-77c8"
-  },
-  {
-   "slug": "finn-og-tell-skjulte-gjenstander-tilbehor-13d7",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "accessories",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-tilbehor-13d7"
-  },
-  {
-   "slug": "finn-og-tell-skjulte-gjenstander-ting-som-flyr-fecc",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "things_that_fly",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-ting-som-flyr-fecc"
-  },
-  {
-   "slug": "finn-og-tell-skjulte-gjenstander-vaer-7ea8",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "weather",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-vaer-7ea8"
-  },
-  {
-   "slug": "finn-og-tell-skjulte-gjenstander-var-7fa6",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "spring",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-var-7fa6"
-  },
-  {
-   "slug": "finn-og-tell-skjulte-gjenstander-verdensrommet-25e4",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "space",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-verdensrommet-25e4"
-  },
-  {
-   "slug": "finn-og-tell-skjulte-gjenstander-verktoy-8b80",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "tools",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-verktoy-8b80"
-  },
-  {
-   "slug": "finn-og-tell-skjulte-gjenstander-vinter-ab2e",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "winter",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-vinter-ab2e"
-  },
-  {
-   "slug": "finn-og-tell-skjulte-gjenstander-yrker-1ca0",
-   "type": "find-and-count",
-   "mode": "hidden-object",
-   "theme": "occupations",
-   "level": "1-trinn",
-   "deck": "finn-og-tell-skjulte-gjenstander-yrker-1ca0"
-  },
-  {
-   "slug": "matching-bokstav-aktiviteter-8d14",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "activities",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-aktiviteter-8d14"
-  },
-  {
-   "slug": "matching-bokstav-bakeri-8b6e",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "bakery",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-bakeri-8b6e"
-  },
-  {
-   "slug": "matching-bokstav-blomster-046a",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "flowers",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-blomster-046a"
-  },
-  {
-   "slug": "matching-bokstav-camping-cd22",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "camping",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-camping-cd22"
-  },
-  {
-   "slug": "matching-bokstav-desserter-og-godteri-bf49",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "desserts_and_sweets",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-desserter-og-godteri-bf49"
-  },
-  {
-   "slug": "matching-bokstav-dyr-8d5e",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "animals",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-dyr-8d5e"
-  },
-  {
-   "slug": "matching-bokstav-dyrehagedyr-18d2",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "zoo_animals",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-dyrehagedyr-18d2"
-  },
-  {
-   "slug": "matching-bokstav-farger-0c6c",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "colors",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-farger-0c6c"
-  },
-  {
-   "slug": "matching-bokstav-folelser-ead3",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "emotions",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-folelser-ead3"
-  },
-  {
-   "slug": "matching-bokstav-former-4679",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "shapes",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-former-4679"
-  },
-  {
-   "slug": "matching-bokstav-frokost-73ad",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "breakfast",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-frokost-73ad"
-  },
-  {
-   "slug": "matching-bokstav-frukter-9456",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "fruits",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-frukter-9456"
-  },
-  {
-   "slug": "matching-bokstav-fugler-06ad",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-fugler-8a83",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "birds",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-fugler-06ad"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-fugler-8a83"
   },
   {
-   "slug": "matching-bokstav-fugler-2-95b9",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "birds_2",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-fugler-2-95b9"
-  },
-  {
-   "slug": "matching-bokstav-gardsdyr-4603",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-gardsdyr-cf4f",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "farm_animals",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-gardsdyr-4603"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-gardsdyr-cf4f"
   },
   {
-   "slug": "matching-bokstav-gronnsaker-88ef",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-gronnsaker-562f",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "vegetables",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-gronnsaker-88ef"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-gronnsaker-562f"
   },
   {
-   "slug": "matching-bokstav-havliv-ea5a",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-havliv-1f7a",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "ocean_life",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-havliv-ea5a"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-havliv-1f7a"
   },
   {
-   "slug": "matching-bokstav-insekter-og-kryp-7b62",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-i-supermarkedet-aa09",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "at_the_supermarket",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-i-supermarkedet-aa09"
+  },
+  {
+   "slug": "bokstavspill-lett-insekter-og-kryp-92e1",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "insects_and_bugs",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-insekter-og-kryp-7b62"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-insekter-og-kryp-92e1"
   },
   {
-   "slug": "matching-bokstav-jul-7b9d",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-jul-83ba",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "christmas",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-jul-7b9d"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-jul-83ba"
   },
   {
-   "slug": "matching-bokstav-kjaeledyr-cae5",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-kjaeledyr-614f",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "pets",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-kjaeledyr-cae5"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-kjaeledyr-614f"
   },
   {
-   "slug": "matching-bokstav-kjokkenredskaper-577b",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-kjokkenredskaper-9932",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "kitchen_tools",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-kjokkenredskaper-577b"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-kjokkenredskaper-9932"
   },
   {
-   "slug": "matching-bokstav-kjoretoy-bbd9",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-kjoretoy-ee57",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "vehicles",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-kjoretoy-bbd9"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-kjoretoy-ee57"
   },
   {
-   "slug": "matching-bokstav-klaer-3a34",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-klaer-fb1e",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "clothing",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-klaer-3a34"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-klaer-fb1e"
   },
   {
-   "slug": "matching-bokstav-klasserom-94ef",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-klasserom-dd5d",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "classroom",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-klasserom-94ef"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-klasserom-dd5d"
   },
   {
-   "slug": "matching-bokstav-kroppsdeler-86f9",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-kroppsdeler-cdaa",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "body_parts",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-kroppsdeler-86f9"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-kroppsdeler-cdaa"
   },
   {
-   "slug": "matching-bokstav-leker-f038",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-leker-71df",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "toys",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-leker-f038"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-leker-71df"
   },
   {
-   "slug": "matching-bokstav-mobler-3c72",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-mobler-3f72",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "furniture",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-mobler-3c72"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-mobler-3f72"
   },
   {
-   "slug": "matching-bokstav-musikk-76c4",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-musikk-cede",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "music",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-musikk-76c4"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-musikk-cede"
   },
   {
-   "slug": "matching-bokstav-paske-aa27",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-paske-a71e",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "easter",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-paske-aa27"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-paske-a71e"
   },
   {
-   "slug": "matching-bokstav-reptiler-og-amfibier-f8b9",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-postkontor-646a",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "post_office",
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-postkontor-646a"
+  },
+  {
+   "slug": "bokstavspill-lett-reptiler-og-amfibier-0697",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "reptiles_and_amphibians",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-reptiler-og-amfibier-f8b9"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-reptiler-og-amfibier-0697"
   },
   {
-   "slug": "matching-bokstav-rundt-i-huset-275f",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-rundt-i-huset-aa3c",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "around_the_house",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-rundt-i-huset-275f"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-rundt-i-huset-aa3c"
   },
   {
-   "slug": "matching-bokstav-skogsdyr-dd9d",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-skogsdyr-2fd4",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "forest_creatures",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-skogsdyr-dd9d"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-skogsdyr-2fd4"
   },
   {
-   "slug": "matching-bokstav-sommer-67c8",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-sommer-a8bc",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "summer",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-sommer-67c8"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-sommer-a8bc"
   },
   {
-   "slug": "matching-bokstav-strand-1b9b",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-strand-e6b2",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "beach",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-strand-1b9b"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-strand-e6b2"
   },
   {
-   "slug": "matching-bokstav-sykehus-05a3",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-sykehus-286a",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "hospital",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-sykehus-05a3"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-sykehus-286a"
   },
   {
-   "slug": "matching-bokstav-thanksgiving-5d5a",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-thanksgiving-01b2",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "thanksgivinng",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-thanksgiving-5d5a"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-thanksgiving-01b2"
   },
   {
-   "slug": "matching-bokstav-tilbehor-084d",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-tilbehor-4428",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "accessories",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-tilbehor-084d"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-tilbehor-4428"
   },
   {
-   "slug": "matching-bokstav-ting-som-flyr-5c4b",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-ting-som-flyr-03d0",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "things_that_fly",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-ting-som-flyr-5c4b"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-ting-som-flyr-03d0"
   },
   {
-   "slug": "matching-bokstav-traer-d77b",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-traer-8bbc",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "tree",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-traer-d77b"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-traer-8bbc"
   },
   {
-   "slug": "matching-bokstav-vaer-1fa2",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-vaer-22c4",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "weather",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-vaer-1fa2"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-vaer-22c4"
   },
   {
-   "slug": "matching-bokstav-var-3282",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-var-e4e2",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "spring",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-var-3282"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-var-e4e2"
   },
   {
-   "slug": "matching-bokstav-verdensrommet-72ff",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-verdensrommet-e33b",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "space",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-verdensrommet-72ff"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-verdensrommet-e33b"
   },
   {
-   "slug": "matching-bokstav-verktoy-1cf8",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-verktoy-16c4",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "tools",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-verktoy-1cf8"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-verktoy-16c4"
   },
   {
-   "slug": "matching-bokstav-vinter-0b4a",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-vinter-c24d",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "winter",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-vinter-0b4a"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-vinter-c24d"
   },
   {
-   "slug": "matching-bokstav-yrker-f585",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "bokstavspill-lett-yrker-1766",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "occupations",
-   "level": "1-trinn",
-   "deck": "matching-bokstav-yrker-f585"
+   "level": "2-trinn",
+   "deck": "bokstavspill-lett-yrker-1766"
+  },
+  {
+   "slug": "bokstavspill-normal-aktiviteter-e360",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "activities",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-aktiviteter-e360"
+  },
+  {
+   "slug": "bokstavspill-normal-bakeri-650d",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "bakery",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-bakeri-650d"
+  },
+  {
+   "slug": "bokstavspill-normal-blomster-222c",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "flowers",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-blomster-222c"
+  },
+  {
+   "slug": "bokstavspill-normal-camping-5617",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "camping",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-camping-5617"
+  },
+  {
+   "slug": "bokstavspill-normal-desserter-og-godteri-db28",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "desserts_and_sweets",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-desserter-og-godteri-db28"
+  },
+  {
+   "slug": "bokstavspill-normal-dyr-bf50",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "animals",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-dyr-bf50"
+  },
+  {
+   "slug": "bokstavspill-normal-dyrehagedyr-3e52",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "zoo_animals",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-dyrehagedyr-3e52"
+  },
+  {
+   "slug": "bokstavspill-normal-farger-be40",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "colors",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-farger-be40"
+  },
+  {
+   "slug": "bokstavspill-normal-folelser-f677",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "emotions",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-folelser-f677"
+  },
+  {
+   "slug": "bokstavspill-normal-former-4451",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "shapes",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-former-4451"
+  },
+  {
+   "slug": "bokstavspill-normal-frokost-1873",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "breakfast",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-frokost-1873"
+  },
+  {
+   "slug": "bokstavspill-normal-frukter-ed1a",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "fruits",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-frukter-ed1a"
+  },
+  {
+   "slug": "bokstavspill-normal-fugler-2-3599",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "birds_2",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-fugler-2-3599"
+  },
+  {
+   "slug": "bokstavspill-normal-fugler-ee97",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "birds",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-fugler-ee97"
+  },
+  {
+   "slug": "bokstavspill-normal-gardsdyr-3646",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "farm_animals",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-gardsdyr-3646"
+  },
+  {
+   "slug": "bokstavspill-normal-gronnsaker-8448",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "vegetables",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-gronnsaker-8448"
+  },
+  {
+   "slug": "bokstavspill-normal-havliv-28d1",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "ocean_life",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-havliv-28d1"
+  },
+  {
+   "slug": "bokstavspill-normal-i-supermarkedet-023e",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "at_the_supermarket",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-i-supermarkedet-023e"
+  },
+  {
+   "slug": "bokstavspill-normal-insekter-og-kryp-5ede",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "insects_and_bugs",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-insekter-og-kryp-5ede"
+  },
+  {
+   "slug": "bokstavspill-normal-jul-c436",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "christmas",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-jul-c436"
+  },
+  {
+   "slug": "bokstavspill-normal-kjaeledyr-1f02",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "pets",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-kjaeledyr-1f02"
+  },
+  {
+   "slug": "bokstavspill-normal-kjokkenredskaper-47cc",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "kitchen_tools",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-kjokkenredskaper-47cc"
+  },
+  {
+   "slug": "bokstavspill-normal-kjoretoy-fed8",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "vehicles",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-kjoretoy-fed8"
+  },
+  {
+   "slug": "bokstavspill-normal-klaer-bb32",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "clothing",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-klaer-bb32"
+  },
+  {
+   "slug": "bokstavspill-normal-klasserom-8529",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "classroom",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-klasserom-8529"
+  },
+  {
+   "slug": "bokstavspill-normal-kroppsdeler-3f21",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "body_parts",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-kroppsdeler-3f21"
+  },
+  {
+   "slug": "bokstavspill-normal-leker-c9ad",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "toys",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-leker-c9ad"
+  },
+  {
+   "slug": "bokstavspill-normal-mobler-3ba4",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "furniture",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-mobler-3ba4"
+  },
+  {
+   "slug": "bokstavspill-normal-musikk-8b03",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "music",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-musikk-8b03"
+  },
+  {
+   "slug": "bokstavspill-normal-paske-f240",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "easter",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-paske-f240"
+  },
+  {
+   "slug": "bokstavspill-normal-postkontor-1e84",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "post_office",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-postkontor-1e84"
+  },
+  {
+   "slug": "bokstavspill-normal-reptiler-og-amfibier-ce2b",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "reptiles_and_amphibians",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-reptiler-og-amfibier-ce2b"
+  },
+  {
+   "slug": "bokstavspill-normal-rundt-i-huset-864f",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "around_the_house",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-rundt-i-huset-864f"
+  },
+  {
+   "slug": "bokstavspill-normal-skogsdyr-3aa4",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "forest_creatures",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-skogsdyr-3aa4"
+  },
+  {
+   "slug": "bokstavspill-normal-sommer-78e1",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "summer",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-sommer-78e1"
+  },
+  {
+   "slug": "bokstavspill-normal-strand-afdf",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "beach",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-strand-afdf"
+  },
+  {
+   "slug": "bokstavspill-normal-sykehus-6a2b",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "hospital",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-sykehus-6a2b"
+  },
+  {
+   "slug": "bokstavspill-normal-thanksgiving-2156",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "thanksgivinng",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-thanksgiving-2156"
+  },
+  {
+   "slug": "bokstavspill-normal-tilbehor-778e",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "accessories",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-tilbehor-778e"
+  },
+  {
+   "slug": "bokstavspill-normal-ting-som-flyr-b5ec",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "things_that_fly",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-ting-som-flyr-b5ec"
+  },
+  {
+   "slug": "bokstavspill-normal-traer-4990",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "tree",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-traer-4990"
+  },
+  {
+   "slug": "bokstavspill-normal-vaer-f69a",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "weather",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-vaer-f69a"
+  },
+  {
+   "slug": "bokstavspill-normal-var-a911",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "spring",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-var-a911"
+  },
+  {
+   "slug": "bokstavspill-normal-verdensrommet-94e9",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "space",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-verdensrommet-94e9"
+  },
+  {
+   "slug": "bokstavspill-normal-verktoy-6eec",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "tools",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-verktoy-6eec"
+  },
+  {
+   "slug": "bokstavspill-normal-vinter-d56f",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "winter",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-vinter-d56f"
+  },
+  {
+   "slug": "bokstavspill-normal-yrker-fc45",
+   "type": "word-scramble",
+   "mode": "normal",
+   "theme": "occupations",
+   "level": "3-trinn",
+   "deck": "bokstavspill-normal-yrker-fc45"
   }
  ]
 }

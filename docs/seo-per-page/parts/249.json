@@ -2,651 +2,779 @@
  "part": 249,
  "locale": "sv",
  "classes": [
-  "math-puzzle::subtraction",
-  "subtraction::find-subtrahend"
+  "code-addition::null",
+  "grid-match::null"
  ],
  "splitOf": null,
- "count": 80,
+ "count": 96,
  "pages": [
   {
-   "slug": "mattepussel-subtraktion-bageri-1c36",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "bakery",
-   "level": "ak-2",
-   "deck": "mattepussel-subtraktion-bageri-1c36"
-  },
-  {
-   "slug": "mattepussel-subtraktion-blommor-b2b1",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "flowers",
-   "level": "ak-2",
-   "deck": "mattepussel-subtraktion-blommor-b2b1"
-  },
-  {
-   "slug": "mattepussel-subtraktion-bondgardsdjur-3cf2",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "farm_animals",
-   "level": "ak-2",
-   "deck": "mattepussel-subtraktion-bondgardsdjur-3cf2"
-  },
-  {
-   "slug": "mattepussel-subtraktion-camping-7946",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "camping",
+   "slug": "kodaddition-aktiviteter-6299",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "activities",
    "level": "ak-1",
-   "deck": "mattepussel-subtraktion-camping-7946"
+   "deck": "kodaddition-aktiviteter-6299"
   },
   {
-   "slug": "mattepussel-subtraktion-dinosaurier-0866",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "dinosaurs",
-   "level": "ak-1",
-   "deck": "mattepussel-subtraktion-dinosaurier-0866"
-  },
-  {
-   "slug": "mattepussel-subtraktion-djur-2e66",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "animals",
-   "level": "ak-2",
-   "deck": "mattepussel-subtraktion-djur-2e66"
-  },
-  {
-   "slug": "mattepussel-subtraktion-djurparksdjur-a7d7",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "zoo_animals",
-   "level": "ak-2",
-   "deck": "mattepussel-subtraktion-djurparksdjur-a7d7"
-  },
-  {
-   "slug": "mattepussel-subtraktion-efterratter-och-godis-4b83",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "desserts_and_sweets",
-   "level": "ak-1",
-   "deck": "mattepussel-subtraktion-efterratter-och-godis-4b83"
-  },
-  {
-   "slug": "mattepussel-subtraktion-faglar-2-61a1",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "birds_2",
-   "level": "ak-1",
-   "deck": "mattepussel-subtraktion-faglar-2-61a1"
-  },
-  {
-   "slug": "mattepussel-subtraktion-faglar-fe06",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "birds",
-   "level": "ak-1",
-   "deck": "mattepussel-subtraktion-faglar-fe06"
-  },
-  {
-   "slug": "mattepussel-subtraktion-fordon-dc38",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "vehicles",
-   "level": "ak-2",
-   "deck": "mattepussel-subtraktion-fordon-dc38"
-  },
-  {
-   "slug": "mattepussel-subtraktion-former-6cfd",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "shapes",
-   "level": "ak-2",
-   "deck": "mattepussel-subtraktion-former-6cfd"
-  },
-  {
-   "slug": "mattepussel-subtraktion-frukost-5e89",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "breakfast",
-   "level": "ak-2",
-   "deck": "mattepussel-subtraktion-frukost-5e89"
-  },
-  {
-   "slug": "mattepussel-subtraktion-frukter-653d",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "fruits",
-   "level": "ak-2",
-   "deck": "mattepussel-subtraktion-frukter-653d"
-  },
-  {
-   "slug": "mattepussel-subtraktion-gronsaker-2fc1",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "vegetables",
-   "level": "ak-2",
-   "deck": "mattepussel-subtraktion-gronsaker-2fc1"
-  },
-  {
-   "slug": "mattepussel-subtraktion-havsliv-aa13",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "ocean_life",
-   "level": "ak-1",
-   "deck": "mattepussel-subtraktion-havsliv-aa13"
-  },
-  {
-   "slug": "mattepussel-subtraktion-husdjur-b08b",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "pets",
-   "level": "ak-2",
-   "deck": "mattepussel-subtraktion-husdjur-b08b"
-  },
-  {
-   "slug": "mattepussel-subtraktion-i-snabbkopet-d960",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "at_the_supermarket",
-   "level": "ak-2",
-   "deck": "mattepussel-subtraktion-i-snabbkopet-d960"
-  },
-  {
-   "slug": "mattepussel-subtraktion-insekter-och-kryp-9a8e",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "insects_and_bugs",
-   "level": "ak-1",
-   "deck": "mattepussel-subtraktion-insekter-och-kryp-9a8e"
-  },
-  {
-   "slug": "mattepussel-subtraktion-jul-8696",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "christmas",
-   "level": "ak-2",
-   "deck": "mattepussel-subtraktion-jul-8696"
-  },
-  {
-   "slug": "mattepussel-subtraktion-klader-2110",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "clothing",
-   "level": "ak-1",
-   "deck": "mattepussel-subtraktion-klader-2110"
-  },
-  {
-   "slug": "mattepussel-subtraktion-klassrum-edde",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "classroom",
-   "level": "ak-1",
-   "deck": "mattepussel-subtraktion-klassrum-edde"
-  },
-  {
-   "slug": "mattepussel-subtraktion-koksredskap-a8e0",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "kitchen_tools",
-   "level": "ak-2",
-   "deck": "mattepussel-subtraktion-koksredskap-a8e0"
-  },
-  {
-   "slug": "mattepussel-subtraktion-leksaker-57f1",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "toys",
-   "level": "ak-2",
-   "deck": "mattepussel-subtraktion-leksaker-57f1"
-  },
-  {
-   "slug": "mattepussel-subtraktion-mobler-b1cc",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "furniture",
-   "level": "ak-1",
-   "deck": "mattepussel-subtraktion-mobler-b1cc"
-  },
-  {
-   "slug": "mattepussel-subtraktion-musik-9335",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "music",
-   "level": "ak-2",
-   "deck": "mattepussel-subtraktion-musik-9335"
-  },
-  {
-   "slug": "mattepussel-subtraktion-pask-8899",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "easter",
-   "level": "ak-2",
-   "deck": "mattepussel-subtraktion-pask-8899"
-  },
-  {
-   "slug": "mattepussel-subtraktion-postkontor-d134",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "post_office",
-   "level": "ak-2",
-   "deck": "mattepussel-subtraktion-postkontor-d134"
-  },
-  {
-   "slug": "mattepussel-subtraktion-reptiler-och-groddjur-d29f",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "reptiles_and_amphibians",
-   "level": "ak-2",
-   "deck": "mattepussel-subtraktion-reptiler-och-groddjur-d29f"
-  },
-  {
-   "slug": "mattepussel-subtraktion-runt-huset-9be5",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "around_the_house",
-   "level": "ak-1",
-   "deck": "mattepussel-subtraktion-runt-huset-9be5"
-  },
-  {
-   "slug": "mattepussel-subtraktion-rymden-d0cf",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "space",
-   "level": "ak-2",
-   "deck": "mattepussel-subtraktion-rymden-d0cf"
-  },
-  {
-   "slug": "mattepussel-subtraktion-saker-som-flyger-1a56",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "things_that_fly",
-   "level": "ak-2",
-   "deck": "mattepussel-subtraktion-saker-som-flyger-1a56"
-  },
-  {
-   "slug": "mattepussel-subtraktion-sjukhus-d5a2",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "hospital",
-   "level": "ak-1",
-   "deck": "mattepussel-subtraktion-sjukhus-d5a2"
-  },
-  {
-   "slug": "mattepussel-subtraktion-skogsdjur-cc18",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "forest_creatures",
-   "level": "ak-2",
-   "deck": "mattepussel-subtraktion-skogsdjur-cc18"
-  },
-  {
-   "slug": "mattepussel-subtraktion-strand-933f",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "beach",
-   "level": "ak-2",
-   "deck": "mattepussel-subtraktion-strand-933f"
-  },
-  {
-   "slug": "mattepussel-subtraktion-thanksgiving-6233",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "thanksgivinng",
-   "level": "ak-1",
-   "deck": "mattepussel-subtraktion-thanksgiving-6233"
-  },
-  {
-   "slug": "mattepussel-subtraktion-tillbehor-0bf9",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "accessories",
-   "level": "ak-2",
-   "deck": "mattepussel-subtraktion-tillbehor-0bf9"
-  },
-  {
-   "slug": "mattepussel-subtraktion-trad-f8e0",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "tree",
-   "level": "ak-2",
-   "deck": "mattepussel-subtraktion-trad-f8e0"
-  },
-  {
-   "slug": "mattepussel-subtraktion-verktyg-8cdf",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "tools",
-   "level": "ak-2",
-   "deck": "mattepussel-subtraktion-verktyg-8cdf"
-  },
-  {
-   "slug": "mattepussel-subtraktion-yrken-495b",
-   "type": "math-puzzle",
-   "mode": "subtraction",
-   "theme": "occupations",
-   "level": "ak-1",
-   "deck": "mattepussel-subtraktion-yrken-495b"
-  },
-  {
-   "slug": "subtraktion-hitta-subtrahenden-bageri-be18",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-bageri-784d",
+   "type": "code-addition",
+   "mode": null,
    "theme": "bakery",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-bageri-be18"
+   "deck": "kodaddition-bageri-784d"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-blommor-c9bc",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-blommor-c416",
+   "type": "code-addition",
+   "mode": null,
    "theme": "flowers",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-blommor-c9bc"
+   "deck": "kodaddition-blommor-c416"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-bondgardsdjur-44b2",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-bondgardsdjur-1c91",
+   "type": "code-addition",
+   "mode": null,
    "theme": "farm_animals",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-bondgardsdjur-44b2"
+   "deck": "kodaddition-bondgardsdjur-1c91"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-camping-8be3",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-camping-2341",
+   "type": "code-addition",
+   "mode": null,
    "theme": "camping",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-camping-8be3"
+   "deck": "kodaddition-camping-2341"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-dinosaurier-b740",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-dinosaurier-8162",
+   "type": "code-addition",
+   "mode": null,
    "theme": "dinosaurs",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-dinosaurier-b740"
+   "deck": "kodaddition-dinosaurier-8162"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-djur-e40e",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-djur-22a4",
+   "type": "code-addition",
+   "mode": null,
    "theme": "animals",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-djur-e40e"
+   "deck": "kodaddition-djur-22a4"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-djurparksdjur-adc9",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-djurparksdjur-2d4d",
+   "type": "code-addition",
+   "mode": null,
    "theme": "zoo_animals",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-djurparksdjur-adc9"
+   "deck": "kodaddition-djurparksdjur-2d4d"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-efterratter-och-godis-2b88",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-efterratter-och-godis-b556",
+   "type": "code-addition",
+   "mode": null,
    "theme": "desserts_and_sweets",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-efterratter-och-godis-2b88"
+   "deck": "kodaddition-efterratter-och-godis-b556"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-faglar-2-3029",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-faglar-2-a4d6",
+   "type": "code-addition",
+   "mode": null,
    "theme": "birds_2",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-faglar-2-3029"
+   "deck": "kodaddition-faglar-2-a4d6"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-faglar-fab7",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-faglar-6702",
+   "type": "code-addition",
+   "mode": null,
    "theme": "birds",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-faglar-fab7"
+   "deck": "kodaddition-faglar-6702"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-fordon-9a03",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-farger-6d7b",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "colors",
+   "level": "ak-1",
+   "deck": "kodaddition-farger-6d7b"
+  },
+  {
+   "slug": "kodaddition-fordon-062e",
+   "type": "code-addition",
+   "mode": null,
    "theme": "vehicles",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-fordon-9a03"
+   "deck": "kodaddition-fordon-062e"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-former-5ef8",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-former-1815",
+   "type": "code-addition",
+   "mode": null,
    "theme": "shapes",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-former-5ef8"
+   "deck": "kodaddition-former-1815"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-frukost-26ea",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-frukost-fa34",
+   "type": "code-addition",
+   "mode": null,
    "theme": "breakfast",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-frukost-26ea"
+   "deck": "kodaddition-frukost-fa34"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-frukter-93db",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-frukter-8a78",
+   "type": "code-addition",
+   "mode": null,
    "theme": "fruits",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-frukter-93db"
+   "deck": "kodaddition-frukter-8a78"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-gronsaker-75db",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-gronsaker-72c8",
+   "type": "code-addition",
+   "mode": null,
    "theme": "vegetables",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-gronsaker-75db"
+   "deck": "kodaddition-gronsaker-72c8"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-havsliv-f183",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-havsliv-cefe",
+   "type": "code-addition",
+   "mode": null,
    "theme": "ocean_life",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-havsliv-f183"
+   "deck": "kodaddition-havsliv-cefe"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-husdjur-cbfb",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-husdjur-2917",
+   "type": "code-addition",
+   "mode": null,
    "theme": "pets",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-husdjur-cbfb"
+   "deck": "kodaddition-husdjur-2917"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-i-snabbkopet-9901",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-i-snabbkopet-6b41",
+   "type": "code-addition",
+   "mode": null,
    "theme": "at_the_supermarket",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-i-snabbkopet-9901"
+   "deck": "kodaddition-i-snabbkopet-6b41"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-insekter-och-kryp-da9a",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-insekter-och-kryp-e6e4",
+   "type": "code-addition",
+   "mode": null,
    "theme": "insects_and_bugs",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-insekter-och-kryp-da9a"
+   "deck": "kodaddition-insekter-och-kryp-e6e4"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-jul-c6b1",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-jul-c6b0",
+   "type": "code-addition",
+   "mode": null,
    "theme": "christmas",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-jul-c6b1"
+   "deck": "kodaddition-jul-c6b0"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-klader-b505",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-kanslor-11ea",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "emotions",
+   "level": "ak-1",
+   "deck": "kodaddition-kanslor-11ea"
+  },
+  {
+   "slug": "kodaddition-klader-8354",
+   "type": "code-addition",
+   "mode": null,
    "theme": "clothing",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-klader-b505"
+   "deck": "kodaddition-klader-8354"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-klassrum-dda8",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-klassrum-159d",
+   "type": "code-addition",
+   "mode": null,
    "theme": "classroom",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-klassrum-dda8"
+   "deck": "kodaddition-klassrum-159d"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-koksredskap-7699",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-koksredskap-ebe7",
+   "type": "code-addition",
+   "mode": null,
    "theme": "kitchen_tools",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-koksredskap-7699"
+   "deck": "kodaddition-koksredskap-ebe7"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-leksaker-3bba",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-kroppsdelar-8df8",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "ak-1",
+   "deck": "kodaddition-kroppsdelar-8df8"
+  },
+  {
+   "slug": "kodaddition-leksaker-8146",
+   "type": "code-addition",
+   "mode": null,
    "theme": "toys",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-leksaker-3bba"
+   "deck": "kodaddition-leksaker-8146"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-mobler-55d5",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-mobler-cf45",
+   "type": "code-addition",
+   "mode": null,
    "theme": "furniture",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-mobler-55d5"
+   "deck": "kodaddition-mobler-cf45"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-musik-1a2a",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-musik-0d18",
+   "type": "code-addition",
+   "mode": null,
    "theme": "music",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-musik-1a2a"
+   "deck": "kodaddition-musik-0d18"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-pask-d3d6",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-pask-c97a",
+   "type": "code-addition",
+   "mode": null,
    "theme": "easter",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-pask-d3d6"
+   "deck": "kodaddition-pask-c97a"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-postkontor-2bbb",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-postkontor-3709",
+   "type": "code-addition",
+   "mode": null,
    "theme": "post_office",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-postkontor-2bbb"
+   "deck": "kodaddition-postkontor-3709"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-reptiler-och-groddjur-53bd",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-reptiler-och-groddjur-c6a6",
+   "type": "code-addition",
+   "mode": null,
    "theme": "reptiles_and_amphibians",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-reptiler-och-groddjur-53bd"
+   "deck": "kodaddition-reptiler-och-groddjur-c6a6"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-runt-huset-1cec",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-runt-huset-6d86",
+   "type": "code-addition",
+   "mode": null,
    "theme": "around_the_house",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-runt-huset-1cec"
+   "deck": "kodaddition-runt-huset-6d86"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-rymden-df64",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-rymden-0677",
+   "type": "code-addition",
+   "mode": null,
    "theme": "space",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-rymden-df64"
+   "deck": "kodaddition-rymden-0677"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-saker-som-flyger-e6bf",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-saker-som-flyger-1df6",
+   "type": "code-addition",
+   "mode": null,
    "theme": "things_that_fly",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-saker-som-flyger-e6bf"
+   "deck": "kodaddition-saker-som-flyger-1df6"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-sjukhus-e672",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-sjukhus-6bce",
+   "type": "code-addition",
+   "mode": null,
    "theme": "hospital",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-sjukhus-e672"
+   "deck": "kodaddition-sjukhus-6bce"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-skogsdjur-282d",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-skogsdjur-712f",
+   "type": "code-addition",
+   "mode": null,
    "theme": "forest_creatures",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-skogsdjur-282d"
+   "deck": "kodaddition-skogsdjur-712f"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-strand-5e55",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-sommar-c011",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "summer",
+   "level": "ak-1",
+   "deck": "kodaddition-sommar-c011"
+  },
+  {
+   "slug": "kodaddition-strand-e1b1",
+   "type": "code-addition",
+   "mode": null,
    "theme": "beach",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-strand-5e55"
+   "deck": "kodaddition-strand-e1b1"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-thanksgiving-5c52",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-thanksgiving-6b5a",
+   "type": "code-addition",
+   "mode": null,
    "theme": "thanksgivinng",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-thanksgiving-5c52"
+   "deck": "kodaddition-thanksgiving-6b5a"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-tillbehor-f6f6",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-tillbehor-15a8",
+   "type": "code-addition",
+   "mode": null,
    "theme": "accessories",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-tillbehor-f6f6"
+   "deck": "kodaddition-tillbehor-15a8"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-trad-1084",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-trad-85cf",
+   "type": "code-addition",
+   "mode": null,
    "theme": "tree",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-trad-1084"
+   "deck": "kodaddition-trad-85cf"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-verktyg-a940",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-vader-dca2",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "weather",
+   "level": "ak-1",
+   "deck": "kodaddition-vader-dca2"
+  },
+  {
+   "slug": "kodaddition-var-f6d5",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "spring",
+   "level": "ak-1",
+   "deck": "kodaddition-var-f6d5"
+  },
+  {
+   "slug": "kodaddition-verktyg-0fc7",
+   "type": "code-addition",
+   "mode": null,
    "theme": "tools",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-verktyg-a940"
+   "deck": "kodaddition-verktyg-0fc7"
   },
   {
-   "slug": "subtraktion-hitta-subtrahenden-yrken-c59a",
-   "type": "subtraction",
-   "mode": "find-subtrahend",
+   "slug": "kodaddition-vinter-9d7b",
+   "type": "code-addition",
+   "mode": null,
+   "theme": "winter",
+   "level": "ak-1",
+   "deck": "kodaddition-vinter-9d7b"
+  },
+  {
+   "slug": "kodaddition-yrken-ed0d",
+   "type": "code-addition",
+   "mode": null,
    "theme": "occupations",
    "level": "ak-1",
-   "deck": "subtraktion-hitta-subtrahenden-yrken-c59a"
+   "deck": "kodaddition-yrken-ed0d"
+  },
+  {
+   "slug": "rutmatchning-aktiviteter-c46b",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "activities",
+   "level": "forskola",
+   "deck": "rutmatchning-aktiviteter-c46b"
+  },
+  {
+   "slug": "rutmatchning-bageri-a94c",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "bakery",
+   "level": "forskola",
+   "deck": "rutmatchning-bageri-a94c"
+  },
+  {
+   "slug": "rutmatchning-blandat-16c5",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "miscellaneous",
+   "level": "forskola",
+   "deck": "rutmatchning-blandat-16c5"
+  },
+  {
+   "slug": "rutmatchning-blommor-f48c",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "flowers",
+   "level": "forskola",
+   "deck": "rutmatchning-blommor-f48c"
+  },
+  {
+   "slug": "rutmatchning-bondgardsdjur-9287",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "forskola",
+   "deck": "rutmatchning-bondgardsdjur-9287"
+  },
+  {
+   "slug": "rutmatchning-camping-9838",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "camping",
+   "level": "forskola",
+   "deck": "rutmatchning-camping-9838"
+  },
+  {
+   "slug": "rutmatchning-dinosaurier-4a7f",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "dinosaurs",
+   "level": "forskola",
+   "deck": "rutmatchning-dinosaurier-4a7f"
+  },
+  {
+   "slug": "rutmatchning-djur",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "animals",
+   "level": "forskola",
+   "deck": "rutmatchning-djur"
+  },
+  {
+   "slug": "rutmatchning-djurparksdjur-f4e3",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "forskola",
+   "deck": "rutmatchning-djurparksdjur-f4e3"
+  },
+  {
+   "slug": "rutmatchning-efterratter-och-godis-a8a1",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "forskola",
+   "deck": "rutmatchning-efterratter-och-godis-a8a1"
+  },
+  {
+   "slug": "rutmatchning-faglar-2-8e04",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "forskola",
+   "deck": "rutmatchning-faglar-2-8e04"
+  },
+  {
+   "slug": "rutmatchning-faglar-d8fa",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "birds",
+   "level": "forskola",
+   "deck": "rutmatchning-faglar-d8fa"
+  },
+  {
+   "slug": "rutmatchning-fordon-e28b",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "forskola",
+   "deck": "rutmatchning-fordon-e28b"
+  },
+  {
+   "slug": "rutmatchning-former-f15b",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "shapes",
+   "level": "forskola",
+   "deck": "rutmatchning-former-f15b"
+  },
+  {
+   "slug": "rutmatchning-frukost-2217",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "forskola",
+   "deck": "rutmatchning-frukost-2217"
+  },
+  {
+   "slug": "rutmatchning-frukter-4eb1",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "fruits",
+   "level": "forskola",
+   "deck": "rutmatchning-frukter-4eb1"
+  },
+  {
+   "slug": "rutmatchning-gronsaker-9e56",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "vegetables",
+   "level": "forskola",
+   "deck": "rutmatchning-gronsaker-9e56"
+  },
+  {
+   "slug": "rutmatchning-havsliv-9e7d",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "forskola",
+   "deck": "rutmatchning-havsliv-9e7d"
+  },
+  {
+   "slug": "rutmatchning-husdjur-1d7f",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "pets",
+   "level": "forskola",
+   "deck": "rutmatchning-husdjur-1d7f"
+  },
+  {
+   "slug": "rutmatchning-i-snabbkopet-d81a",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "forskola",
+   "deck": "rutmatchning-i-snabbkopet-d81a"
+  },
+  {
+   "slug": "rutmatchning-insekter-och-kryp-8f1f",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "forskola",
+   "deck": "rutmatchning-insekter-och-kryp-8f1f"
+  },
+  {
+   "slug": "rutmatchning-jul-4e9e",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "christmas",
+   "level": "forskola",
+   "deck": "rutmatchning-jul-4e9e"
+  },
+  {
+   "slug": "rutmatchning-kanslor-60b8",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "emotions",
+   "level": "forskola",
+   "deck": "rutmatchning-kanslor-60b8"
+  },
+  {
+   "slug": "rutmatchning-klader-487c",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "clothing",
+   "level": "forskola",
+   "deck": "rutmatchning-klader-487c"
+  },
+  {
+   "slug": "rutmatchning-klassrum-f255",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "classroom",
+   "level": "forskola",
+   "deck": "rutmatchning-klassrum-f255"
+  },
+  {
+   "slug": "rutmatchning-koksredskap-7208",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "forskola",
+   "deck": "rutmatchning-koksredskap-7208"
+  },
+  {
+   "slug": "rutmatchning-kroppsdelar-bb1f",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "forskola",
+   "deck": "rutmatchning-kroppsdelar-bb1f"
+  },
+  {
+   "slug": "rutmatchning-leksaker-c202",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "toys",
+   "level": "forskola",
+   "deck": "rutmatchning-leksaker-c202"
+  },
+  {
+   "slug": "rutmatchning-mobler-2576",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "furniture",
+   "level": "forskola",
+   "deck": "rutmatchning-mobler-2576"
+  },
+  {
+   "slug": "rutmatchning-musik-235d",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "music",
+   "level": "forskola",
+   "deck": "rutmatchning-musik-235d"
+  },
+  {
+   "slug": "rutmatchning-pask-e822",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "easter",
+   "level": "forskola",
+   "deck": "rutmatchning-pask-e822"
+  },
+  {
+   "slug": "rutmatchning-postkontor-8bb7",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "post_office",
+   "level": "forskola",
+   "deck": "rutmatchning-postkontor-8bb7"
+  },
+  {
+   "slug": "rutmatchning-reptiler-och-groddjur-a87d",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "forskola",
+   "deck": "rutmatchning-reptiler-och-groddjur-a87d"
+  },
+  {
+   "slug": "rutmatchning-runt-huset-3d66",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "forskola",
+   "deck": "rutmatchning-runt-huset-3d66"
+  },
+  {
+   "slug": "rutmatchning-rymden-f50f",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "space",
+   "level": "forskola",
+   "deck": "rutmatchning-rymden-f50f"
+  },
+  {
+   "slug": "rutmatchning-saker-som-flyger-63dd",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "forskola",
+   "deck": "rutmatchning-saker-som-flyger-63dd"
+  },
+  {
+   "slug": "rutmatchning-sjukhus-731e",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "hospital",
+   "level": "forskola",
+   "deck": "rutmatchning-sjukhus-731e"
+  },
+  {
+   "slug": "rutmatchning-skogsdjur-1c12",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "forskola",
+   "deck": "rutmatchning-skogsdjur-1c12"
+  },
+  {
+   "slug": "rutmatchning-sommar-4b6f",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "summer",
+   "level": "forskola",
+   "deck": "rutmatchning-sommar-4b6f"
+  },
+  {
+   "slug": "rutmatchning-strand-4813",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "beach",
+   "level": "forskola",
+   "deck": "rutmatchning-strand-4813"
+  },
+  {
+   "slug": "rutmatchning-thanksgiving-cd70",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "forskola",
+   "deck": "rutmatchning-thanksgiving-cd70"
+  },
+  {
+   "slug": "rutmatchning-tillbehor-dfa4",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "accessories",
+   "level": "forskola",
+   "deck": "rutmatchning-tillbehor-dfa4"
+  },
+  {
+   "slug": "rutmatchning-trad-56c8",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "tree",
+   "level": "forskola",
+   "deck": "rutmatchning-trad-56c8"
+  },
+  {
+   "slug": "rutmatchning-vader-36f9",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "weather",
+   "level": "forskola",
+   "deck": "rutmatchning-vader-36f9"
+  },
+  {
+   "slug": "rutmatchning-var-83f5",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "spring",
+   "level": "forskola",
+   "deck": "rutmatchning-var-83f5"
+  },
+  {
+   "slug": "rutmatchning-verktyg-b86e",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "tools",
+   "level": "forskola",
+   "deck": "rutmatchning-verktyg-b86e"
+  },
+  {
+   "slug": "rutmatchning-vinter-73c9",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "winter",
+   "level": "forskola",
+   "deck": "rutmatchning-vinter-73c9"
+  },
+  {
+   "slug": "rutmatchning-yrken-d660",
+   "type": "grid-match",
+   "mode": null,
+   "theme": "occupations",
+   "level": "forskola",
+   "deck": "rutmatchning-yrken-d660"
   }
  ]
 }

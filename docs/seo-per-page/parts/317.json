@@ -2,635 +2,779 @@
  "part": 317,
  "locale": "no",
  "classes": [
-  "math-puzzle::addition",
-  "math-puzzle::mixed"
+  "pattern-train::aab",
+  "pattern-train::aabb"
  ],
  "splitOf": null,
- "count": 78,
+ "count": 96,
  "pages": [
   {
-   "slug": "mattepuslespill-addisjon-bakeri-6be0",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-aktiviteter-0493",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "activities",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-aktiviteter-0493"
+  },
+  {
+   "slug": "monstertoget-aab-bakeri-aee6",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "bakery",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-bakeri-6be0"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-bakeri-aee6"
   },
   {
-   "slug": "mattepuslespill-addisjon-blomster-65af",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-blomster-9344",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "flowers",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-blomster-65af"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-blomster-9344"
   },
   {
-   "slug": "mattepuslespill-addisjon-camping-7e01",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-camping-9b8a",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "camping",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-camping-7e01"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-camping-9b8a"
   },
   {
-   "slug": "mattepuslespill-addisjon-desserter-og-godteri-846c",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-desserter-og-godteri-d836",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "desserts_and_sweets",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-desserter-og-godteri-846c"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-desserter-og-godteri-d836"
   },
   {
-   "slug": "mattepuslespill-addisjon-dinosaurer-bc2c",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-dinosaurer-6798",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "dinosaurs",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-dinosaurer-bc2c"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-dinosaurer-6798"
   },
   {
-   "slug": "mattepuslespill-addisjon-dyr-355e",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-dyr-0de8",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "animals",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-dyr-355e"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-dyr-0de8"
   },
   {
-   "slug": "mattepuslespill-addisjon-dyrehagedyr-459c",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-dyrehagedyr-77c4",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "zoo_animals",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-dyrehagedyr-459c"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-dyrehagedyr-77c4"
   },
   {
-   "slug": "mattepuslespill-addisjon-former-ba5a",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-farger-44b4",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "colors",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-farger-44b4"
+  },
+  {
+   "slug": "monstertoget-aab-folelser-942a",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "emotions",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-folelser-942a"
+  },
+  {
+   "slug": "monstertoget-aab-former-6b90",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "shapes",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-former-ba5a"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-former-6b90"
   },
   {
-   "slug": "mattepuslespill-addisjon-frokost-2ed5",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-frokost-b92c",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "breakfast",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-frokost-2ed5"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-frokost-b92c"
   },
   {
-   "slug": "mattepuslespill-addisjon-frukter-6448",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-frukter-7cb9",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "fruits",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-frukter-6448"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-frukter-7cb9"
   },
   {
-   "slug": "mattepuslespill-addisjon-fugler-2-d4ac",
-   "type": "math-puzzle",
-   "mode": "addition",
-   "theme": "birds_2",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-fugler-2-d4ac"
-  },
-  {
-   "slug": "mattepuslespill-addisjon-fugler-9a2d",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-fugler-08fb",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "birds",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-fugler-9a2d"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-fugler-08fb"
   },
   {
-   "slug": "mattepuslespill-addisjon-gardsdyr-51c0",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-fugler-2-00f2",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "birds_2",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-fugler-2-00f2"
+  },
+  {
+   "slug": "monstertoget-aab-gardsdyr-a669",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "farm_animals",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-gardsdyr-51c0"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-gardsdyr-a669"
   },
   {
-   "slug": "mattepuslespill-addisjon-gronnsaker-a7a7",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-gronnsaker-9e8e",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "vegetables",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-gronnsaker-a7a7"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-gronnsaker-9e8e"
   },
   {
-   "slug": "mattepuslespill-addisjon-havliv-4b97",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-havliv-bb68",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "ocean_life",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-havliv-4b97"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-havliv-bb68"
   },
   {
-   "slug": "mattepuslespill-addisjon-i-supermarkedet-2f58",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-i-supermarkedet-4e8b",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "at_the_supermarket",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-i-supermarkedet-2f58"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-i-supermarkedet-4e8b"
   },
   {
-   "slug": "mattepuslespill-addisjon-insekter-og-kryp-6ef1",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-insekter-og-kryp-1f6a",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "insects_and_bugs",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-insekter-og-kryp-6ef1"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-insekter-og-kryp-1f6a"
   },
   {
-   "slug": "mattepuslespill-addisjon-jul-e0ae",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-jul-87cf",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "christmas",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-jul-e0ae"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-jul-87cf"
   },
   {
-   "slug": "mattepuslespill-addisjon-kjaeledyr-cd06",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-kjaeledyr-f578",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "pets",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-kjaeledyr-cd06"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-kjaeledyr-f578"
   },
   {
-   "slug": "mattepuslespill-addisjon-kjokkenredskaper-7f92",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-kjokkenredskaper-1159",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "kitchen_tools",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-kjokkenredskaper-7f92"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-kjokkenredskaper-1159"
   },
   {
-   "slug": "mattepuslespill-addisjon-kjoretoy-9a44",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-kjoretoy-68be",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "vehicles",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-kjoretoy-9a44"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-kjoretoy-68be"
   },
   {
-   "slug": "mattepuslespill-addisjon-klasserom-f2fa",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-klaer-c971",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "clothing",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-klaer-c971"
+  },
+  {
+   "slug": "monstertoget-aab-klasserom-dbe0",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "classroom",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-klasserom-f2fa"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-klasserom-dbe0"
   },
   {
-   "slug": "mattepuslespill-addisjon-leker-54f7",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-kroppsdeler-a586",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "body_parts",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-kroppsdeler-a586"
+  },
+  {
+   "slug": "monstertoget-aab-leker-0f99",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "toys",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-leker-54f7"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-leker-0f99"
   },
   {
-   "slug": "mattepuslespill-addisjon-mobler-2412",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-mobler-26d8",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "furniture",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-mobler-2412"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-mobler-26d8"
   },
   {
-   "slug": "mattepuslespill-addisjon-musikk-0c52",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-musikk-769d",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "music",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-musikk-0c52"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-musikk-769d"
   },
   {
-   "slug": "mattepuslespill-addisjon-paske-3ca5",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-paske-a1fa",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "easter",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-paske-3ca5"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-paske-a1fa"
   },
   {
-   "slug": "mattepuslespill-addisjon-postkontor-cbea",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-postkontor-e01f",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "post_office",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-postkontor-cbea"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-postkontor-e01f"
   },
   {
-   "slug": "mattepuslespill-addisjon-reptiler-og-amfibier-a104",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-reptiler-og-amfibier-e7ba",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "reptiles_and_amphibians",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-reptiler-og-amfibier-a104"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-reptiler-og-amfibier-e7ba"
   },
   {
-   "slug": "mattepuslespill-addisjon-rundt-i-huset-b482",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-rundt-i-huset-55ed",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "around_the_house",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-rundt-i-huset-b482"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-rundt-i-huset-55ed"
   },
   {
-   "slug": "mattepuslespill-addisjon-skogsdyr-ec31",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-skogsdyr-2faa",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "forest_creatures",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-skogsdyr-ec31"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-skogsdyr-2faa"
   },
   {
-   "slug": "mattepuslespill-addisjon-strand-803d",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-sommer-d920",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "summer",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-sommer-d920"
+  },
+  {
+   "slug": "monstertoget-aab-strand-0f97",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "beach",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-strand-803d"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-strand-0f97"
   },
   {
-   "slug": "mattepuslespill-addisjon-sykehus-2a8c",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-sykehus-20ee",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "hospital",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-sykehus-2a8c"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-sykehus-20ee"
   },
   {
-   "slug": "mattepuslespill-addisjon-thanksgiving-8eb5",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-thanksgiving-2577",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "thanksgivinng",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-thanksgiving-8eb5"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-thanksgiving-2577"
   },
   {
-   "slug": "mattepuslespill-addisjon-tilbehor-9617",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-tilbehor-27a4",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "accessories",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-tilbehor-9617"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-tilbehor-27a4"
   },
   {
-   "slug": "mattepuslespill-addisjon-ting-som-flyr-3619",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-ting-som-flyr-2ddb",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "things_that_fly",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-ting-som-flyr-3619"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-ting-som-flyr-2ddb"
   },
   {
-   "slug": "mattepuslespill-addisjon-traer-05e1",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-traer-4598",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "tree",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-traer-05e1"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-traer-4598"
   },
   {
-   "slug": "mattepuslespill-addisjon-verdensrommet-b95e",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-vaer-78dc",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "weather",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-vaer-78dc"
+  },
+  {
+   "slug": "monstertoget-aab-var-e3dc",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "spring",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-var-e3dc"
+  },
+  {
+   "slug": "monstertoget-aab-verdensrommet-a8b2",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "space",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-verdensrommet-b95e"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-verdensrommet-a8b2"
   },
   {
-   "slug": "mattepuslespill-addisjon-verktoy-6c39",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-verktoy-8022",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "tools",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-verktoy-6c39"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-verktoy-8022"
   },
   {
-   "slug": "mattepuslespill-addisjon-yrker-2f77",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "monstertoget-aab-vinter-4cb7",
+   "type": "pattern-train",
+   "mode": "aab",
+   "theme": "winter",
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-vinter-4cb7"
+  },
+  {
+   "slug": "monstertoget-aab-yrker-4e24",
+   "type": "pattern-train",
+   "mode": "aab",
    "theme": "occupations",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-addisjon-yrker-2f77"
+   "level": "1-trinn",
+   "deck": "monstertoget-aab-yrker-4e24"
   },
   {
-   "slug": "mattepuslespill-blandet-bakeri-0c7b",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-aktiviteter-79eb",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "activities",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-aktiviteter-79eb"
+  },
+  {
+   "slug": "monstertoget-aabb-bakeri-1521",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "bakery",
-   "level": "3-trinn",
-   "deck": "mattepuslespill-blandet-bakeri-0c7b"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-bakeri-1521"
   },
   {
-   "slug": "mattepuslespill-blandet-blomster-1f65",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-blomster-2074",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "flowers",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-blandet-blomster-1f65"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-blomster-2074"
   },
   {
-   "slug": "mattepuslespill-blandet-camping-a8d0",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-camping-dc4e",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "camping",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-blandet-camping-a8d0"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-camping-dc4e"
   },
   {
-   "slug": "mattepuslespill-blandet-desserter-og-godteri-624e",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-desserter-og-godteri-e062",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "desserts_and_sweets",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-blandet-desserter-og-godteri-624e"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-desserter-og-godteri-e062"
   },
   {
-   "slug": "mattepuslespill-blandet-dinosaurer-7df0",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-dinosaurer-2de5",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "dinosaurs",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-blandet-dinosaurer-7df0"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-dinosaurer-2de5"
   },
   {
-   "slug": "mattepuslespill-blandet-dyr-7ef2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-dyr-9f02",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "animals",
-   "level": "3-trinn",
-   "deck": "mattepuslespill-blandet-dyr-7ef2"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-dyr-9f02"
   },
   {
-   "slug": "mattepuslespill-blandet-dyrehagedyr-7a69",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-dyrehagedyr-b95f",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "zoo_animals",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-blandet-dyrehagedyr-7a69"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-dyrehagedyr-b95f"
   },
   {
-   "slug": "mattepuslespill-blandet-former-d806",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-farger-839c",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "colors",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-farger-839c"
+  },
+  {
+   "slug": "monstertoget-aabb-folelser-20ba",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "emotions",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-folelser-20ba"
+  },
+  {
+   "slug": "monstertoget-aabb-former-2b15",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "shapes",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-blandet-former-d806"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-former-2b15"
   },
   {
-   "slug": "mattepuslespill-blandet-frokost-2ca0",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-frokost-c155",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "breakfast",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-blandet-frokost-2ca0"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-frokost-c155"
   },
   {
-   "slug": "mattepuslespill-blandet-frukter-c102",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-frukter-fe14",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "fruits",
-   "level": "3-trinn",
-   "deck": "mattepuslespill-blandet-frukter-c102"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-frukter-fe14"
   },
   {
-   "slug": "mattepuslespill-blandet-fugler-1945",
-   "type": "math-puzzle",
-   "mode": "mixed",
-   "theme": "birds",
-   "level": "3-trinn",
-   "deck": "mattepuslespill-blandet-fugler-1945"
-  },
-  {
-   "slug": "mattepuslespill-blandet-fugler-2-88c2",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-fugler-2-53dc",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "birds_2",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-blandet-fugler-2-88c2"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-fugler-2-53dc"
   },
   {
-   "slug": "mattepuslespill-blandet-gardsdyr-6c88",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-fugler-e075",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "birds",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-fugler-e075"
+  },
+  {
+   "slug": "monstertoget-aabb-gardsdyr-4002",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "farm_animals",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-blandet-gardsdyr-6c88"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-gardsdyr-4002"
   },
   {
-   "slug": "mattepuslespill-blandet-gronnsaker-27a4",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-gronnsaker-81ed",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "vegetables",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-blandet-gronnsaker-27a4"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-gronnsaker-81ed"
   },
   {
-   "slug": "mattepuslespill-blandet-havliv-33b5",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-havliv-22d7",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "ocean_life",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-blandet-havliv-33b5"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-havliv-22d7"
   },
   {
-   "slug": "mattepuslespill-blandet-i-supermarkedet-9c40",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-i-supermarkedet-2655",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "at_the_supermarket",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-blandet-i-supermarkedet-9c40"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-i-supermarkedet-2655"
   },
   {
-   "slug": "mattepuslespill-blandet-insekter-og-kryp-6269",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-insekter-og-kryp-c5ab",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "insects_and_bugs",
-   "level": "3-trinn",
-   "deck": "mattepuslespill-blandet-insekter-og-kryp-6269"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-insekter-og-kryp-c5ab"
   },
   {
-   "slug": "mattepuslespill-blandet-jul-d4d7",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-jul-e1a6",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "christmas",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-blandet-jul-d4d7"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-jul-e1a6"
   },
   {
-   "slug": "mattepuslespill-blandet-kjaeledyr-b2c4",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-kjaeledyr-f891",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "pets",
-   "level": "3-trinn",
-   "deck": "mattepuslespill-blandet-kjaeledyr-b2c4"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-kjaeledyr-f891"
   },
   {
-   "slug": "mattepuslespill-blandet-kjokkenredskaper-c60a",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-kjokkenredskaper-624e",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "kitchen_tools",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-blandet-kjokkenredskaper-c60a"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-kjokkenredskaper-624e"
   },
   {
-   "slug": "mattepuslespill-blandet-kjoretoy-0d78",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-kjoretoy-b78d",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "vehicles",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-blandet-kjoretoy-0d78"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-kjoretoy-b78d"
   },
   {
-   "slug": "mattepuslespill-blandet-klasserom-9b8c",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-klaer-4799",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "clothing",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-klaer-4799"
+  },
+  {
+   "slug": "monstertoget-aabb-klasserom-37e8",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "classroom",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-blandet-klasserom-9b8c"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-klasserom-37e8"
   },
   {
-   "slug": "mattepuslespill-blandet-leker-ad8f",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-kroppsdeler-081e",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "body_parts",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-kroppsdeler-081e"
+  },
+  {
+   "slug": "monstertoget-aabb-leker-6ea7",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "toys",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-blandet-leker-ad8f"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-leker-6ea7"
   },
   {
-   "slug": "mattepuslespill-blandet-mobler-f49c",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-mobler-56f3",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "furniture",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-blandet-mobler-f49c"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-mobler-56f3"
   },
   {
-   "slug": "mattepuslespill-blandet-musikk-18aa",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-musikk-a8e1",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "music",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-blandet-musikk-18aa"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-musikk-a8e1"
   },
   {
-   "slug": "mattepuslespill-blandet-paske-1df8",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-paske-9186",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "easter",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-blandet-paske-1df8"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-paske-9186"
   },
   {
-   "slug": "mattepuslespill-blandet-postkontor-bd8f",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-postkontor-07f9",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "post_office",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-blandet-postkontor-bd8f"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-postkontor-07f9"
   },
   {
-   "slug": "mattepuslespill-blandet-reptiler-og-amfibier-d770",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-reptiler-og-amfibier-f745",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "reptiles_and_amphibians",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-blandet-reptiler-og-amfibier-d770"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-reptiler-og-amfibier-f745"
   },
   {
-   "slug": "mattepuslespill-blandet-rundt-i-huset-7dc6",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-rundt-i-huset-1de0",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "around_the_house",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-blandet-rundt-i-huset-7dc6"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-rundt-i-huset-1de0"
   },
   {
-   "slug": "mattepuslespill-blandet-skogsdyr-aa9d",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-skogsdyr-8e8a",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "forest_creatures",
-   "level": "3-trinn",
-   "deck": "mattepuslespill-blandet-skogsdyr-aa9d"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-skogsdyr-8e8a"
   },
   {
-   "slug": "mattepuslespill-blandet-strand-c992",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-sommer-c2bf",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "summer",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-sommer-c2bf"
+  },
+  {
+   "slug": "monstertoget-aabb-strand-72e2",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "beach",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-blandet-strand-c992"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-strand-72e2"
   },
   {
-   "slug": "mattepuslespill-blandet-sykehus-84a9",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-sykehus-2aa8",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "hospital",
-   "level": "3-trinn",
-   "deck": "mattepuslespill-blandet-sykehus-84a9"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-sykehus-2aa8"
   },
   {
-   "slug": "mattepuslespill-blandet-thanksgiving-9dc8",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-thanksgiving-813c",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "thanksgivinng",
-   "level": "3-trinn",
-   "deck": "mattepuslespill-blandet-thanksgiving-9dc8"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-thanksgiving-813c"
   },
   {
-   "slug": "mattepuslespill-blandet-tilbehor-fb83",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-tilbehor-4839",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "accessories",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-blandet-tilbehor-fb83"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-tilbehor-4839"
   },
   {
-   "slug": "mattepuslespill-blandet-ting-som-flyr-bc0b",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-ting-som-flyr-bc31",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "things_that_fly",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-blandet-ting-som-flyr-bc0b"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-ting-som-flyr-bc31"
   },
   {
-   "slug": "mattepuslespill-blandet-traer-a229",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-traer-a3f2",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "tree",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-blandet-traer-a229"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-traer-a3f2"
   },
   {
-   "slug": "mattepuslespill-blandet-verdensrommet-fb26",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-vaer-0470",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "weather",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-vaer-0470"
+  },
+  {
+   "slug": "monstertoget-aabb-var-e076",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "spring",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-var-e076"
+  },
+  {
+   "slug": "monstertoget-aabb-verdensrommet-bede",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "space",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-blandet-verdensrommet-fb26"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-verdensrommet-bede"
   },
   {
-   "slug": "mattepuslespill-blandet-verktoy-2054",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-verktoy-cc29",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "tools",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-blandet-verktoy-2054"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-verktoy-cc29"
   },
   {
-   "slug": "mattepuslespill-blandet-yrker-1139",
-   "type": "math-puzzle",
-   "mode": "mixed",
+   "slug": "monstertoget-aabb-vinter-8934",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "winter",
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-vinter-8934"
+  },
+  {
+   "slug": "monstertoget-aabb-yrker-216d",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "occupations",
-   "level": "2-trinn",
-   "deck": "mattepuslespill-blandet-yrker-1139"
+   "level": "1-trinn",
+   "deck": "monstertoget-aabb-yrker-216d"
   }
  ]
 }

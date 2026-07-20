@@ -2,619 +2,820 @@
  "part": 71,
  "locale": "de",
  "classes": [
-  "addition::mixed",
-  "bingo::null"
+  "missing-pieces::two-missing",
+  "shadow-match::find-shadow",
+  "telling-time::hour-half-hour",
+  "telling-time::to-five-minutes",
+  "telling-time::to-the-minute",
+  "fractions::name-and-compare",
+  "fractions::partition-and-share",
+  "number-charts::hundreds-chart-skip-count",
+  "number-charts::number-patterns",
+  "number-charts::numbers-to-20",
+  "number-charts::skip-count-and-100-more-less"
  ],
  "splitOf": null,
- "count": 76,
+ "count": 100,
  "pages": [
   {
-   "slug": "addition-gemischt-accessoires-ebc3",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "accessories",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-accessoires-ebc3"
-  },
-  {
-   "slug": "addition-gemischt-backerei-b863",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "bakery",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-backerei-b863"
-  },
-  {
-   "slug": "addition-gemischt-bauernhoftiere-f32e",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "farm_animals",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-bauernhoftiere-f32e"
-  },
-  {
-   "slug": "addition-gemischt-baume-6a2b",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "tree",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-baume-6a2b"
-  },
-  {
-   "slug": "addition-gemischt-berufe-8979",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "occupations",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-berufe-8979"
-  },
-  {
-   "slug": "addition-gemischt-blumen-23eb",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "flowers",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-blumen-23eb"
-  },
-  {
-   "slug": "addition-gemischt-camping-3388",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "camping",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-camping-3388"
-  },
-  {
-   "slug": "addition-gemischt-desserts-und-sussigkeiten-00ea",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "desserts_and_sweets",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-desserts-und-sussigkeiten-00ea"
-  },
-  {
-   "slug": "addition-gemischt-dinge-die-fliegen-bfa5",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "things_that_fly",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-dinge-die-fliegen-bfa5"
-  },
-  {
-   "slug": "addition-gemischt-dinosaurier-9618",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "dinosaurs",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-dinosaurier-9618"
-  },
-  {
-   "slug": "addition-gemischt-erntedankfest-247c",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "thanksgivinng",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-erntedankfest-247c"
-  },
-  {
-   "slug": "addition-gemischt-fahrzeuge-ccf4",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "vehicles",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-fahrzeuge-ccf4"
-  },
-  {
-   "slug": "addition-gemischt-formen-5989",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "shapes",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-formen-5989"
-  },
-  {
-   "slug": "addition-gemischt-fruchte-d8ba",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "fruits",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-fruchte-d8ba"
-  },
-  {
-   "slug": "addition-gemischt-fruhstuck-f460",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "breakfast",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-fruhstuck-f460"
-  },
-  {
-   "slug": "addition-gemischt-gemuse-cd88",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "vegetables",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-gemuse-cd88"
-  },
-  {
-   "slug": "addition-gemischt-haustiere-20d2",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "pets",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-haustiere-20d2"
-  },
-  {
-   "slug": "addition-gemischt-im-supermarkt-1d73",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "at_the_supermarket",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-im-supermarkt-1d73"
-  },
-  {
-   "slug": "addition-gemischt-insekten-und-kafer-cfd6",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "insects_and_bugs",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-insekten-und-kafer-cfd6"
-  },
-  {
-   "slug": "addition-gemischt-klassenzimmer-fb97",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "classroom",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-klassenzimmer-fb97"
-  },
-  {
-   "slug": "addition-gemischt-kleidung-b5c8",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "clothing",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-kleidung-b5c8"
-  },
-  {
-   "slug": "addition-gemischt-krankenhaus-a587",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "hospital",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-krankenhaus-a587"
-  },
-  {
-   "slug": "addition-gemischt-kuchenwerkzeuge-fa5f",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "kitchen_tools",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-kuchenwerkzeuge-fa5f"
-  },
-  {
-   "slug": "addition-gemischt-meeresleben-1598",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "ocean_life",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-meeresleben-1598"
-  },
-  {
-   "slug": "addition-gemischt-mobel-5019",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "furniture",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-mobel-5019"
-  },
-  {
-   "slug": "addition-gemischt-musik-1d9c",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "music",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-musik-1d9c"
-  },
-  {
-   "slug": "addition-gemischt-ostern-58e7",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "easter",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-ostern-58e7"
-  },
-  {
-   "slug": "addition-gemischt-postamt-8fd0",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "post_office",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-postamt-8fd0"
-  },
-  {
-   "slug": "addition-gemischt-rund-ums-haus-943e",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "around_the_house",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-rund-ums-haus-943e"
-  },
-  {
-   "slug": "addition-gemischt-spielzeug-e1af",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "toys",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-spielzeug-e1af"
-  },
-  {
-   "slug": "addition-gemischt-strand-c3de",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "beach",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-strand-c3de"
-  },
-  {
-   "slug": "addition-gemischt-tiere-452f",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "animals",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-tiere-452f"
-  },
-  {
-   "slug": "addition-gemischt-vogel-af41",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "birds",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-vogel-af41"
-  },
-  {
-   "slug": "addition-gemischt-waldtiere-85c9",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "forest_creatures",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-waldtiere-85c9"
-  },
-  {
-   "slug": "addition-gemischt-weihnachten-d058",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "christmas",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-weihnachten-d058"
-  },
-  {
-   "slug": "addition-gemischt-weltraum-2094",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "space",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-weltraum-2094"
-  },
-  {
-   "slug": "addition-gemischt-werkzeuge-31c7",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "tools",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-werkzeuge-31c7"
-  },
-  {
-   "slug": "addition-gemischt-zootiere-ee26",
-   "type": "addition",
-   "mode": "mixed",
-   "theme": "zoo_animals",
-   "level": "1-klasse",
-   "deck": "addition-gemischt-zootiere-ee26"
-  },
-  {
-   "slug": "bingo-accessoires-1952",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-accessoires-1f81",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "accessories",
    "level": "vorschule",
-   "deck": "bingo-accessoires-1952"
+   "deck": "was-fehlt-2-fehlende-teile-accessoires-1f81"
   },
   {
-   "slug": "bingo-aktivitaten-b576",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-aktivitaten-3646",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "activities",
    "level": "vorschule",
-   "deck": "bingo-aktivitaten-b576"
+   "deck": "was-fehlt-2-fehlende-teile-aktivitaten-3646"
   },
   {
-   "slug": "bingo-backerei-ad6a",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-backerei-07aa",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "bakery",
    "level": "vorschule",
-   "deck": "bingo-backerei-ad6a"
+   "deck": "was-fehlt-2-fehlende-teile-backerei-07aa"
   },
   {
-   "slug": "bingo-bauernhoftiere-8f91",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-bauernhoftiere-a635",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "farm_animals",
    "level": "vorschule",
-   "deck": "bingo-bauernhoftiere-8f91"
+   "deck": "was-fehlt-2-fehlende-teile-bauernhoftiere-a635"
   },
   {
-   "slug": "bingo-berufe-5417",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-baume-d2ab",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "tree",
+   "level": "vorschule",
+   "deck": "was-fehlt-2-fehlende-teile-baume-d2ab"
+  },
+  {
+   "slug": "was-fehlt-2-fehlende-teile-berufe-b37f",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "occupations",
    "level": "vorschule",
-   "deck": "bingo-berufe-5417"
+   "deck": "was-fehlt-2-fehlende-teile-berufe-b37f"
   },
   {
-   "slug": "bingo-blumen-520b",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-blumen-ea9d",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "flowers",
    "level": "vorschule",
-   "deck": "bingo-blumen-520b"
+   "deck": "was-fehlt-2-fehlende-teile-blumen-ea9d"
   },
   {
-   "slug": "bingo-camping-b7d5",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-camping-7fa4",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "camping",
    "level": "vorschule",
-   "deck": "bingo-camping-b7d5"
+   "deck": "was-fehlt-2-fehlende-teile-camping-7fa4"
   },
   {
-   "slug": "bingo-desserts-und-sussigkeiten-44ab",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-desserts-und-sussigkeiten-c8f9",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "desserts_and_sweets",
    "level": "vorschule",
-   "deck": "bingo-desserts-und-sussigkeiten-44ab"
+   "deck": "was-fehlt-2-fehlende-teile-desserts-und-sussigkeiten-c8f9"
   },
   {
-   "slug": "bingo-dinge-die-fliegen-164f",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-dinge-die-fliegen-27a0",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "things_that_fly",
    "level": "vorschule",
-   "deck": "bingo-dinge-die-fliegen-164f"
+   "deck": "was-fehlt-2-fehlende-teile-dinge-die-fliegen-27a0"
   },
   {
-   "slug": "bingo-fahrzeuge-c612",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-dinosaurier-163f",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "dinosaurs",
+   "level": "vorschule",
+   "deck": "was-fehlt-2-fehlende-teile-dinosaurier-163f"
+  },
+  {
+   "slug": "was-fehlt-2-fehlende-teile-emotionen-51aa",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "emotions",
+   "level": "vorschule",
+   "deck": "was-fehlt-2-fehlende-teile-emotionen-51aa"
+  },
+  {
+   "slug": "was-fehlt-2-fehlende-teile-erntedankfest-2e92",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "thanksgivinng",
+   "level": "vorschule",
+   "deck": "was-fehlt-2-fehlende-teile-erntedankfest-2e92"
+  },
+  {
+   "slug": "was-fehlt-2-fehlende-teile-fahrzeuge-c5f0",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "vehicles",
    "level": "vorschule",
-   "deck": "bingo-fahrzeuge-c612"
+   "deck": "was-fehlt-2-fehlende-teile-fahrzeuge-c5f0"
   },
   {
-   "slug": "bingo-farben-a288",
-   "type": "bingo",
-   "mode": null,
-   "theme": "colors",
-   "level": "vorschule",
-   "deck": "bingo-farben-a288"
-  },
-  {
-   "slug": "bingo-formen-a752",
-   "type": "bingo",
-   "mode": null,
-   "theme": "shapes",
-   "level": "vorschule",
-   "deck": "bingo-formen-a752"
-  },
-  {
-   "slug": "bingo-fruchte-ec24",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-fruchte-b844",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "fruits",
    "level": "vorschule",
-   "deck": "bingo-fruchte-ec24"
+   "deck": "was-fehlt-2-fehlende-teile-fruchte-b844"
   },
   {
-   "slug": "bingo-fruhling-7b37",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-fruhling-637d",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "spring",
    "level": "vorschule",
-   "deck": "bingo-fruhling-7b37"
+   "deck": "was-fehlt-2-fehlende-teile-fruhling-637d"
   },
   {
-   "slug": "bingo-fruhstuck-b454",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-fruhstuck-bb2d",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "breakfast",
    "level": "vorschule",
-   "deck": "bingo-fruhstuck-b454"
+   "deck": "was-fehlt-2-fehlende-teile-fruhstuck-bb2d"
   },
   {
-   "slug": "bingo-gemuse-afa3",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-gemuse-c7cd",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "vegetables",
    "level": "vorschule",
-   "deck": "bingo-gemuse-afa3"
+   "deck": "was-fehlt-2-fehlende-teile-gemuse-c7cd"
   },
   {
-   "slug": "bingo-haustiere-6b89",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-haustiere-ab79",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "pets",
    "level": "vorschule",
-   "deck": "bingo-haustiere-6b89"
+   "deck": "was-fehlt-2-fehlende-teile-haustiere-ab79"
   },
   {
-   "slug": "bingo-im-supermarkt-e6dc",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-im-supermarkt-1941",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "at_the_supermarket",
    "level": "vorschule",
-   "deck": "bingo-im-supermarkt-e6dc"
+   "deck": "was-fehlt-2-fehlende-teile-im-supermarkt-1941"
   },
   {
-   "slug": "bingo-klassenzimmer-f2d0",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-insekten-und-kafer-27ae",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "insects_and_bugs",
+   "level": "vorschule",
+   "deck": "was-fehlt-2-fehlende-teile-insekten-und-kafer-27ae"
+  },
+  {
+   "slug": "was-fehlt-2-fehlende-teile-klassenzimmer-1b2b",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "classroom",
    "level": "vorschule",
-   "deck": "bingo-klassenzimmer-f2d0"
+   "deck": "was-fehlt-2-fehlende-teile-klassenzimmer-1b2b"
   },
   {
-   "slug": "bingo-kleidung-1924",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-kleidung-1431",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "clothing",
    "level": "vorschule",
-   "deck": "bingo-kleidung-1924"
+   "deck": "was-fehlt-2-fehlende-teile-kleidung-1431"
   },
   {
-   "slug": "bingo-korperteile-eb35",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-korperteile-f04b",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "body_parts",
    "level": "vorschule",
-   "deck": "bingo-korperteile-eb35"
+   "deck": "was-fehlt-2-fehlende-teile-korperteile-f04b"
   },
   {
-   "slug": "bingo-krankenhaus-ad30",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-krankenhaus-ad1e",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "hospital",
    "level": "vorschule",
-   "deck": "bingo-krankenhaus-ad30"
+   "deck": "was-fehlt-2-fehlende-teile-krankenhaus-ad1e"
   },
   {
-   "slug": "bingo-kuchenwerkzeuge-cec6",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-kuchenwerkzeuge-f5e2",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "kitchen_tools",
    "level": "vorschule",
-   "deck": "bingo-kuchenwerkzeuge-cec6"
+   "deck": "was-fehlt-2-fehlende-teile-kuchenwerkzeuge-f5e2"
   },
   {
-   "slug": "bingo-meeresleben-e4f5",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-meeresleben-c307",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "ocean_life",
    "level": "vorschule",
-   "deck": "bingo-meeresleben-e4f5"
+   "deck": "was-fehlt-2-fehlende-teile-meeresleben-c307"
   },
   {
-   "slug": "bingo-mobel-08f3",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-mobel-6ffa",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "furniture",
    "level": "vorschule",
-   "deck": "bingo-mobel-08f3"
+   "deck": "was-fehlt-2-fehlende-teile-mobel-6ffa"
   },
   {
-   "slug": "bingo-ostern-0147",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-musik-f220",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "music",
+   "level": "vorschule",
+   "deck": "was-fehlt-2-fehlende-teile-musik-f220"
+  },
+  {
+   "slug": "was-fehlt-2-fehlende-teile-ostern-1f28",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "easter",
    "level": "vorschule",
-   "deck": "bingo-ostern-0147"
+   "deck": "was-fehlt-2-fehlende-teile-ostern-1f28"
   },
   {
-   "slug": "bingo-rund-ums-haus-e331",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-postamt-4141",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "post_office",
+   "level": "vorschule",
+   "deck": "was-fehlt-2-fehlende-teile-postamt-4141"
+  },
+  {
+   "slug": "was-fehlt-2-fehlende-teile-reptilien-und-amphibien-a453",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "reptiles_and_amphibians",
+   "level": "vorschule",
+   "deck": "was-fehlt-2-fehlende-teile-reptilien-und-amphibien-a453"
+  },
+  {
+   "slug": "was-fehlt-2-fehlende-teile-rund-ums-haus-941c",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "around_the_house",
    "level": "vorschule",
-   "deck": "bingo-rund-ums-haus-e331"
+   "deck": "was-fehlt-2-fehlende-teile-rund-ums-haus-941c"
   },
   {
-   "slug": "bingo-sommer-71c2",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-sommer-e89f",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "summer",
    "level": "vorschule",
-   "deck": "bingo-sommer-71c2"
+   "deck": "was-fehlt-2-fehlende-teile-sommer-e89f"
   },
   {
-   "slug": "bingo-spielzeug-79e4",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-spielzeug-e43a",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "toys",
    "level": "vorschule",
-   "deck": "bingo-spielzeug-79e4"
+   "deck": "was-fehlt-2-fehlende-teile-spielzeug-e43a"
   },
   {
-   "slug": "bingo-strand-6329",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-strand-774b",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "beach",
    "level": "vorschule",
-   "deck": "bingo-strand-6329"
+   "deck": "was-fehlt-2-fehlende-teile-strand-774b"
   },
   {
-   "slug": "bingo-tiere-de6f",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-tiere-22e4",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "animals",
    "level": "vorschule",
-   "deck": "bingo-tiere-de6f"
+   "deck": "was-fehlt-2-fehlende-teile-tiere-22e4"
   },
   {
-   "slug": "bingo-vogel-2-11a9",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-vogel-2-bac7",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "birds_2",
    "level": "vorschule",
-   "deck": "bingo-vogel-2-11a9"
+   "deck": "was-fehlt-2-fehlende-teile-vogel-2-bac7"
   },
   {
-   "slug": "bingo-waldtiere-67c8",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-vogel-966a",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "birds",
+   "level": "vorschule",
+   "deck": "was-fehlt-2-fehlende-teile-vogel-966a"
+  },
+  {
+   "slug": "was-fehlt-2-fehlende-teile-waldtiere-5809",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "forest_creatures",
    "level": "vorschule",
-   "deck": "bingo-waldtiere-67c8"
+   "deck": "was-fehlt-2-fehlende-teile-waldtiere-5809"
   },
   {
-   "slug": "bingo-weihnachten-46b0",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-weihnachten-7a4f",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "christmas",
    "level": "vorschule",
-   "deck": "bingo-weihnachten-46b0"
+   "deck": "was-fehlt-2-fehlende-teile-weihnachten-7a4f"
   },
   {
-   "slug": "bingo-weltraum-71db",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-weltraum-fc2a",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "space",
    "level": "vorschule",
-   "deck": "bingo-weltraum-71db"
+   "deck": "was-fehlt-2-fehlende-teile-weltraum-fc2a"
   },
   {
-   "slug": "bingo-wetter-4e33",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-werkzeuge-49e4",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "tools",
+   "level": "vorschule",
+   "deck": "was-fehlt-2-fehlende-teile-werkzeuge-49e4"
+  },
+  {
+   "slug": "was-fehlt-2-fehlende-teile-wetter-3136",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "weather",
    "level": "vorschule",
-   "deck": "bingo-wetter-4e33"
+   "deck": "was-fehlt-2-fehlende-teile-wetter-3136"
   },
   {
-   "slug": "bingo-winter-0734",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-winter-8179",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "winter",
    "level": "vorschule",
-   "deck": "bingo-winter-0734"
+   "deck": "was-fehlt-2-fehlende-teile-winter-8179"
   },
   {
-   "slug": "bingo-zootiere-6e03",
-   "type": "bingo",
-   "mode": null,
+   "slug": "was-fehlt-2-fehlende-teile-zootiere-eb58",
+   "type": "missing-pieces",
+   "mode": "two-missing",
    "theme": "zoo_animals",
    "level": "vorschule",
-   "deck": "bingo-zootiere-6e03"
+   "deck": "was-fehlt-2-fehlende-teile-zootiere-eb58"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-accessoires-6b4d",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "accessories",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-accessoires-6b4d"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-aktivitaten-d78e",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "activities",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-aktivitaten-d78e"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-backerei-2645",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "bakery",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-backerei-2645"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-bauernhoftiere-7ac9",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "farm_animals",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-bauernhoftiere-7ac9"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-baume-13fb",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "tree",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-baume-13fb"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-berufe-6db2",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "occupations",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-berufe-6db2"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-blumen-e858",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "flowers",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-blumen-e858"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-camping-36bc",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "camping",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-camping-36bc"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-desserts-und-sussigkeiten-1f7c",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "desserts_and_sweets",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-desserts-und-sussigkeiten-1f7c"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-dinge-die-fliegen-75d1",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "things_that_fly",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-dinge-die-fliegen-75d1"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-dinosaurier-60f4",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "dinosaurs",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-dinosaurier-60f4"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-erntedankfest-7561",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "thanksgivinng",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-erntedankfest-7561"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-fahrzeuge-4325",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "vehicles",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-fahrzeuge-4325"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-fruchte-0159",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "fruits",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-fruchte-0159"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-fruhling-439c",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "spring",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-fruhling-439c"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-fruhstuck-ade6",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "breakfast",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-fruhstuck-ade6"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-gemuse-105b",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "vegetables",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-gemuse-105b"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-haustiere-0bfc",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "pets",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-haustiere-0bfc"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-im-supermarkt-0768",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "at_the_supermarket",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-im-supermarkt-0768"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-insekten-und-kafer-4515",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "insects_and_bugs",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-insekten-und-kafer-4515"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-klassenzimmer-ac19",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "classroom",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-klassenzimmer-ac19"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-kleidung-b357",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "clothing",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-kleidung-b357"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-korperteile-49b5",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "body_parts",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-korperteile-49b5"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-krankenhaus-3363",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "hospital",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-krankenhaus-3363"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-kuchenwerkzeuge-48be",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "kitchen_tools",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-kuchenwerkzeuge-48be"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-meeresleben-8419",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "ocean_life",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-meeresleben-8419"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-mobel-5a36",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "furniture",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-mobel-5a36"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-musik-0266",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "music",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-musik-0266"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-ostern-a4ce",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "easter",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-ostern-a4ce"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-postamt-da0c",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "post_office",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-postamt-da0c"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-reptilien-und-amphibien-8d6c",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "reptiles_and_amphibians",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-reptilien-und-amphibien-8d6c"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-rund-ums-haus-e4d6",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "around_the_house",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-rund-ums-haus-e4d6"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-sommer-8b75",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "summer",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-sommer-8b75"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-spielzeug-c723",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "toys",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-spielzeug-c723"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-strand-57dc",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "beach",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-strand-57dc"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-tiere",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "animals",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-tiere"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-vogel-2-7881",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "birds_2",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-vogel-2-7881"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-vogel-9062",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "birds",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-vogel-9062"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-waldtiere-a6ec",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "forest_creatures",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-waldtiere-a6ec"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-weihnachten-8077",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "christmas",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-weihnachten-8077"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-weltraum-27e5",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "space",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-weltraum-27e5"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-werkzeuge-88dd",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "tools",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-werkzeuge-88dd"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-wetter-f1ec",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "weather",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-wetter-f1ec"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-winter-bca2",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "winter",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-winter-bca2"
+  },
+  {
+   "slug": "schatten-zuordnen-schatten-zuordnen-zootiere-8f4a",
+   "type": "shadow-match",
+   "mode": "find-shadow",
+   "theme": "zoo_animals",
+   "level": "vorschule",
+   "deck": "schatten-zuordnen-schatten-zuordnen-zootiere-8f4a"
+  },
+  {
+   "slug": "uhrzeit-klasse-1-uhr-lesen",
+   "type": "telling-time",
+   "mode": "hour-half-hour",
+   "theme": "",
+   "level": "1-klasse",
+   "deck": "uhrzeit-g1148"
+  },
+  {
+   "slug": "uhrzeit-klasse-2-fuenf-minuten",
+   "type": "telling-time",
+   "mode": "to-five-minutes",
+   "theme": "",
+   "level": "2-klasse",
+   "deck": "uhrzeit-g2249"
+  },
+  {
+   "slug": "uhrzeit-klasse-3-zeitspannen",
+   "type": "telling-time",
+   "mode": "to-the-minute",
+   "theme": "",
+   "level": "3-klasse",
+   "deck": "uhrzeit-g3344"
+  },
+  {
+   "slug": "brueche-klasse-3-zahlenstrahl",
+   "type": "fractions",
+   "mode": "name-and-compare",
+   "theme": "",
+   "level": "3-klasse",
+   "deck": "brueche-g3315"
+  },
+  {
+   "slug": "bruchteile-klasse-2-anteile",
+   "type": "fractions",
+   "mode": "partition-and-share",
+   "theme": "",
+   "level": "2-klasse",
+   "deck": "brueche-g2228"
+  },
+  {
+   "slug": "hundertertafel-klasse-1",
+   "type": "number-charts",
+   "mode": "hundreds-chart-skip-count",
+   "theme": "",
+   "level": "1-klasse",
+   "deck": "hundertertafel-g1130"
+  },
+  {
+   "slug": "zahlenmuster-klasse-3",
+   "type": "number-charts",
+   "mode": "number-patterns",
+   "theme": "",
+   "level": "3-klasse",
+   "deck": "hundertertafel-g3328"
+  },
+  {
+   "slug": "zahlenfolgen-vorschule",
+   "type": "number-charts",
+   "mode": "numbers-to-20",
+   "theme": "",
+   "level": "vorschule",
+   "deck": "hundertertafel-k021"
+  },
+  {
+   "slug": "zahlenfolgen-klasse-2",
+   "type": "number-charts",
+   "mode": "skip-count-and-100-more-less",
+   "theme": "",
+   "level": "2-klasse",
+   "deck": "hundertertafel-g2218"
   }
  ]
 }

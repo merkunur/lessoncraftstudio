@@ -2,731 +2,699 @@
  "part": 213,
  "locale": "nl",
  "classes": [
-  "matching::letter",
-  "shadow-match::find-shadow"
+  "more-less::check-cross",
+  "word-scramble::easy"
  ],
  "splitOf": null,
- "count": 90,
+ "count": 86,
  "pages": [
   {
-   "slug": "koppelen-letter-accessoires-eb51",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-accessoires-f6bb",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "accessories",
    "level": "kleuters",
-   "deck": "koppelen-letter-accessoires-eb51"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-accessoires-f6bb"
   },
   {
-   "slug": "koppelen-letter-activiteiten-efc5",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "activities",
-   "level": "kleuters",
-   "deck": "koppelen-letter-activiteiten-efc5"
-  },
-  {
-   "slug": "koppelen-letter-bakkerij-a39e",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-bakkerij-d3da",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "bakery",
    "level": "kleuters",
-   "deck": "koppelen-letter-bakkerij-a39e"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-bakkerij-d3da"
   },
   {
-   "slug": "koppelen-letter-beroepen-293d",
-   "type": "matching",
-   "mode": "letter",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-beroepen-081c",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "occupations",
    "level": "kleuters",
-   "deck": "koppelen-letter-beroepen-293d"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-beroepen-081c"
   },
   {
-   "slug": "koppelen-letter-boerderijdieren-971e",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "farm_animals",
-   "level": "kleuters",
-   "deck": "koppelen-letter-boerderijdieren-971e"
-  },
-  {
-   "slug": "koppelen-letter-boswezens-b9da",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "forest_creatures",
-   "level": "kleuters",
-   "deck": "koppelen-letter-boswezens-b9da"
-  },
-  {
-   "slug": "koppelen-letter-desserts-en-snoep-806e",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "desserts_and_sweets",
-   "level": "kleuters",
-   "deck": "koppelen-letter-desserts-en-snoep-806e"
-  },
-  {
-   "slug": "koppelen-letter-dieren-4f4c",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "animals",
-   "level": "kleuters",
-   "deck": "koppelen-letter-dieren-4f4c"
-  },
-  {
-   "slug": "koppelen-letter-dierentuindieren-15ad",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "zoo_animals",
-   "level": "kleuters",
-   "deck": "koppelen-letter-dierentuindieren-15ad"
-  },
-  {
-   "slug": "koppelen-letter-dingen-die-vliegen-1c96",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "things_that_fly",
-   "level": "kleuters",
-   "deck": "koppelen-letter-dingen-die-vliegen-1c96"
-  },
-  {
-   "slug": "koppelen-letter-emoties-9b35",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "emotions",
-   "level": "kleuters",
-   "deck": "koppelen-letter-emoties-9b35"
-  },
-  {
-   "slug": "koppelen-letter-fruit-4618",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "fruits",
-   "level": "kleuters",
-   "deck": "koppelen-letter-fruit-4618"
-  },
-  {
-   "slug": "koppelen-letter-gereedschap-a7f9",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "tools",
-   "level": "kleuters",
-   "deck": "koppelen-letter-gereedschap-a7f9"
-  },
-  {
-   "slug": "koppelen-letter-groenten-6089",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "vegetables",
-   "level": "kleuters",
-   "deck": "koppelen-letter-groenten-6089"
-  },
-  {
-   "slug": "koppelen-letter-huisdieren-5406",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "pets",
-   "level": "kleuters",
-   "deck": "koppelen-letter-huisdieren-5406"
-  },
-  {
-   "slug": "koppelen-letter-in-de-supermarkt-d657",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "at_the_supermarket",
-   "level": "kleuters",
-   "deck": "koppelen-letter-in-de-supermarkt-d657"
-  },
-  {
-   "slug": "koppelen-letter-insecten-en-beestjes-7d16",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "insects_and_bugs",
-   "level": "kleuters",
-   "deck": "koppelen-letter-insecten-en-beestjes-7d16"
-  },
-  {
-   "slug": "koppelen-letter-kamperen-b30c",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "camping",
-   "level": "kleuters",
-   "deck": "koppelen-letter-kamperen-b30c"
-  },
-  {
-   "slug": "koppelen-letter-kerstmis-ecdc",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "christmas",
-   "level": "kleuters",
-   "deck": "koppelen-letter-kerstmis-ecdc"
-  },
-  {
-   "slug": "koppelen-letter-keukengerei-3d5d",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "kitchen_tools",
-   "level": "kleuters",
-   "deck": "koppelen-letter-keukengerei-3d5d"
-  },
-  {
-   "slug": "koppelen-letter-klaslokaal-349d",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "classroom",
-   "level": "kleuters",
-   "deck": "koppelen-letter-klaslokaal-349d"
-  },
-  {
-   "slug": "koppelen-letter-kleding-b22a",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "clothing",
-   "level": "kleuters",
-   "deck": "koppelen-letter-kleding-b22a"
-  },
-  {
-   "slug": "koppelen-letter-kleuren-b4c9",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "colors",
-   "level": "kleuters",
-   "deck": "koppelen-letter-kleuren-b4c9"
-  },
-  {
-   "slug": "koppelen-letter-lente-08a9",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "spring",
-   "level": "kleuters",
-   "deck": "koppelen-letter-lente-08a9"
-  },
-  {
-   "slug": "koppelen-letter-lichaamsdelen-d5c8",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "body_parts",
-   "level": "kleuters",
-   "deck": "koppelen-letter-lichaamsdelen-d5c8"
-  },
-  {
-   "slug": "koppelen-letter-meubels-c3a9",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "furniture",
-   "level": "kleuters",
-   "deck": "koppelen-letter-meubels-c3a9"
-  },
-  {
-   "slug": "koppelen-letter-muziek-b113",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "music",
-   "level": "kleuters",
-   "deck": "koppelen-letter-muziek-b113"
-  },
-  {
-   "slug": "koppelen-letter-oceaanleven-7880",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "ocean_life",
-   "level": "kleuters",
-   "deck": "koppelen-letter-oceaanleven-7880"
-  },
-  {
-   "slug": "koppelen-letter-ontbijt-3b30",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "breakfast",
-   "level": "kleuters",
-   "deck": "koppelen-letter-ontbijt-3b30"
-  },
-  {
-   "slug": "koppelen-letter-pasen-2a4f",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "easter",
-   "level": "kleuters",
-   "deck": "koppelen-letter-pasen-2a4f"
-  },
-  {
-   "slug": "koppelen-letter-postkantoor-857a",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "post_office",
-   "level": "kleuters",
-   "deck": "koppelen-letter-postkantoor-857a"
-  },
-  {
-   "slug": "koppelen-letter-reptielen-en-amfibieen-0799",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "reptiles_and_amphibians",
-   "level": "kleuters",
-   "deck": "koppelen-letter-reptielen-en-amfibieen-0799"
-  },
-  {
-   "slug": "koppelen-letter-rond-het-huis-bc48",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "around_the_house",
-   "level": "kleuters",
-   "deck": "koppelen-letter-rond-het-huis-bc48"
-  },
-  {
-   "slug": "koppelen-letter-ruimte-7c34",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "space",
-   "level": "kleuters",
-   "deck": "koppelen-letter-ruimte-7c34"
-  },
-  {
-   "slug": "koppelen-letter-speelgoed-9309",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "toys",
-   "level": "kleuters",
-   "deck": "koppelen-letter-speelgoed-9309"
-  },
-  {
-   "slug": "koppelen-letter-strand-69c9",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "beach",
-   "level": "kleuters",
-   "deck": "koppelen-letter-strand-69c9"
-  },
-  {
-   "slug": "koppelen-letter-thanksgiving-778d",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "thanksgivinng",
-   "level": "kleuters",
-   "deck": "koppelen-letter-thanksgiving-778d"
-  },
-  {
-   "slug": "koppelen-letter-voertuigen-1e45",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "vehicles",
-   "level": "kleuters",
-   "deck": "koppelen-letter-voertuigen-1e45"
-  },
-  {
-   "slug": "koppelen-letter-vogels-2-3021",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "birds_2",
-   "level": "kleuters",
-   "deck": "koppelen-letter-vogels-2-3021"
-  },
-  {
-   "slug": "koppelen-letter-vogels-b758",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "birds",
-   "level": "kleuters",
-   "deck": "koppelen-letter-vogels-b758"
-  },
-  {
-   "slug": "koppelen-letter-vormen-f3b8",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "shapes",
-   "level": "kleuters",
-   "deck": "koppelen-letter-vormen-f3b8"
-  },
-  {
-   "slug": "koppelen-letter-weer-3f69",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "weather",
-   "level": "kleuters",
-   "deck": "koppelen-letter-weer-3f69"
-  },
-  {
-   "slug": "koppelen-letter-winter-3d1a",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "winter",
-   "level": "kleuters",
-   "deck": "koppelen-letter-winter-3d1a"
-  },
-  {
-   "slug": "koppelen-letter-ziekenhuis-8798",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "hospital",
-   "level": "kleuters",
-   "deck": "koppelen-letter-ziekenhuis-8798"
-  },
-  {
-   "slug": "koppelen-letter-zomer-ba7a",
-   "type": "matching",
-   "mode": "letter",
-   "theme": "summer",
-   "level": "kleuters",
-   "deck": "koppelen-letter-zomer-ba7a"
-  },
-  {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-accessoires-c7f5",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "accessories",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-accessoires-c7f5"
-  },
-  {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-activiteiten-9ec8",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "activities",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-activiteiten-9ec8"
-  },
-  {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-bakkerij-ebbb",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "bakery",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-bakkerij-ebbb"
-  },
-  {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-beroepen-bd9a",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "occupations",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-beroepen-bd9a"
-  },
-  {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-bloemen-7b45",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-bloemen-6fd4",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "flowers",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-bloemen-7b45"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-bloemen-6fd4"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-boerderijdieren-90ed",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-boerderijdieren-e2c8",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "farm_animals",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-boerderijdieren-90ed"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-boerderijdieren-e2c8"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-bomen-c83a",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-bomen-ee14",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "tree",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-bomen-c83a"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-bomen-ee14"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-boswezens-3870",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-boswezens-8bfd",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "forest_creatures",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-boswezens-3870"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-boswezens-8bfd"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-desserts-en-snoep-b5e1",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-desserts-en-snoep-fa4a",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "desserts_and_sweets",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-desserts-en-snoep-b5e1"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-desserts-en-snoep-fa4a"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-dieren",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-dieren-732d",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "animals",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-dieren"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-dieren-732d"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-dierentuindieren-a29f",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-dierentuindieren-4126",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "zoo_animals",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-dierentuindieren-a29f"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-dierentuindieren-4126"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-dingen-die-vliegen-382b",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-dingen-die-vliegen-5ec3",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "things_that_fly",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-dingen-die-vliegen-382b"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-dingen-die-vliegen-5ec3"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-dinosaurussen-c1de",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-dinosaurussen-ea13",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "dinosaurs",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-dinosaurussen-c1de"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-dinosaurussen-ea13"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-fruit-60be",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-fruit-124f",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "fruits",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-fruit-60be"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-fruit-124f"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-gereedschap-2a8b",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-gereedschap-4cf6",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "tools",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-gereedschap-2a8b"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-gereedschap-4cf6"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-groenten-51a5",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-groenten-f99c",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "vegetables",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-groenten-51a5"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-groenten-f99c"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-huisdieren-19c6",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-huisdieren-9050",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "pets",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-huisdieren-19c6"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-huisdieren-9050"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-in-de-supermarkt-5a2f",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-in-de-supermarkt-9e08",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "at_the_supermarket",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-in-de-supermarkt-5a2f"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-in-de-supermarkt-9e08"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-insecten-en-beestjes-825b",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-insecten-en-beestjes-28f4",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "insects_and_bugs",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-insecten-en-beestjes-825b"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-insecten-en-beestjes-28f4"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-kamperen-3a3c",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-kamperen-4a98",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "camping",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-kamperen-3a3c"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-kamperen-4a98"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-kerstmis-93fc",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-kerstmis-7d79",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "christmas",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-kerstmis-93fc"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-kerstmis-7d79"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-keukengerei-1ee6",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-keukengerei-b1d4",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "kitchen_tools",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-keukengerei-1ee6"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-keukengerei-b1d4"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-klaslokaal-b35d",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-klaslokaal-8b44",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "classroom",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-klaslokaal-b35d"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-klaslokaal-8b44"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-kleding-8436",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-kleding-5df0",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "clothing",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-kleding-8436"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-kleding-5df0"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-lente-7fdc",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "spring",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-lente-7fdc"
-  },
-  {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-lichaamsdelen-f50f",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "body_parts",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-lichaamsdelen-f50f"
-  },
-  {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-meubels-ccd4",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-meubels-8426",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "furniture",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-meubels-ccd4"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-meubels-8426"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-muziek-6950",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-muziek-9f8c",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "music",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-muziek-6950"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-muziek-9f8c"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-oceaanleven-55b0",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "ocean_life",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-oceaanleven-55b0"
-  },
-  {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-ontbijt-1bf1",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-ontbijt-8c60",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "breakfast",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-ontbijt-1bf1"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-ontbijt-8c60"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-pasen-38a4",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-pasen-4402",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "easter",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-pasen-38a4"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-pasen-4402"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-postkantoor-ff2d",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-postkantoor-0910",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "post_office",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-postkantoor-ff2d"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-postkantoor-0910"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-reptielen-en-amfibieen-d5e1",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-reptielen-en-amfibieen-e724",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "reptiles_and_amphibians",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-reptielen-en-amfibieen-d5e1"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-reptielen-en-amfibieen-e724"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-rond-het-huis-5c9d",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-rond-het-huis-0f03",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "around_the_house",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-rond-het-huis-5c9d"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-rond-het-huis-0f03"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-ruimte-c31d",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-ruimte-31e9",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "space",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-ruimte-c31d"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-ruimte-31e9"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-speelgoed-e240",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-speelgoed-0b6c",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "toys",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-speelgoed-e240"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-speelgoed-0b6c"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-strand-d719",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-strand-2a2a",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "beach",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-strand-d719"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-strand-2a2a"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-thanksgiving-6974",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-thanksgiving-e818",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "thanksgivinng",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-thanksgiving-6974"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-thanksgiving-e818"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-voertuigen-b942",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-voertuigen-a36d",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "vehicles",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-voertuigen-b942"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-voertuigen-a36d"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-vogels-2-72ac",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-vogels-2-6a5b",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "birds_2",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-vogels-2-72ac"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-vogels-2-6a5b"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-vogels-f609",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-vogels-62c9",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "birds",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-vogels-f609"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-vogels-62c9"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-weer-b7d6",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "weather",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-vormen-3651",
+   "type": "more-less",
+   "mode": "check-cross",
+   "theme": "shapes",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-weer-b7d6"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-vormen-3651"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-winter-e41c",
-   "type": "shadow-match",
-   "mode": "find-shadow",
-   "theme": "winter",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-winter-e41c"
-  },
-  {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-ziekenhuis-2c8e",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "meer-minder-aankruisen-en-doorstrepen-ziekenhuis-72fd",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "hospital",
    "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-ziekenhuis-2c8e"
+   "deck": "meer-minder-aankruisen-en-doorstrepen-ziekenhuis-72fd"
   },
   {
-   "slug": "schaduw-koppelen-koppel-de-schaduw-zomer-1343",
-   "type": "shadow-match",
-   "mode": "find-shadow",
+   "slug": "woordpuzzel-makkelijk-accessoires-fc30",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "accessories",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-accessoires-fc30"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-activiteiten-7936",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "activities",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-activiteiten-7936"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-bakkerij-76ed",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "bakery",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-bakkerij-76ed"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-beroepen-1499",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "occupations",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-beroepen-1499"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-bloemen-d38f",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "flowers",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-bloemen-d38f"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-boerderijdieren-75dc",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "farm_animals",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-boerderijdieren-75dc"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-bomen-5023",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "tree",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-bomen-5023"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-boswezens-2bbb",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "forest_creatures",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-boswezens-2bbb"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-desserts-en-snoep-73d7",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "desserts_and_sweets",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-desserts-en-snoep-73d7"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-dieren-dd1b",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "animals",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-dieren-dd1b"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-dierentuindieren-83ad",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "zoo_animals",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-dierentuindieren-83ad"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-dingen-die-vliegen-c5e3",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "things_that_fly",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-dingen-die-vliegen-c5e3"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-emoties-dd27",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "emotions",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-emoties-dd27"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-fruit-85f4",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "fruits",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-fruit-85f4"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-gereedschap-4735",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "tools",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-gereedschap-4735"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-groenten-8f9d",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "vegetables",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-groenten-8f9d"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-huisdieren-4ce1",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "pets",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-huisdieren-4ce1"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-in-de-supermarkt-0ff8",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "at_the_supermarket",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-in-de-supermarkt-0ff8"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-insecten-en-beestjes-98ba",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "insects_and_bugs",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-insecten-en-beestjes-98ba"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-kamperen-3d93",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "camping",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-kamperen-3d93"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-kerstmis-b107",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "christmas",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-kerstmis-b107"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-keukengerei-928e",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "kitchen_tools",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-keukengerei-928e"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-klaslokaal-5d4f",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "classroom",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-klaslokaal-5d4f"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-kleding-7ba9",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "clothing",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-kleding-7ba9"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-kleuren-75f8",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "colors",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-kleuren-75f8"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-lente-3f3a",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "spring",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-lente-3f3a"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-lichaamsdelen-eabd",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "body_parts",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-lichaamsdelen-eabd"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-meubels-ef30",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "furniture",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-meubels-ef30"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-muziek-2657",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "music",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-muziek-2657"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-oceaanleven-dcbe",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "ocean_life",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-oceaanleven-dcbe"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-ontbijt-a220",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "breakfast",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-ontbijt-a220"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-pasen-128e",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "easter",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-pasen-128e"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-postkantoor-930a",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "post_office",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-postkantoor-930a"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-reptielen-en-amfibieen-8d9d",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "reptiles_and_amphibians",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-reptielen-en-amfibieen-8d9d"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-rond-het-huis-dea6",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "around_the_house",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-rond-het-huis-dea6"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-ruimte-ea9b",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "space",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-ruimte-ea9b"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-speelgoed-b77b",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "toys",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-speelgoed-b77b"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-strand-8bb6",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "beach",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-strand-8bb6"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-thanksgiving-7392",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "thanksgivinng",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-thanksgiving-7392"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-voertuigen-e283",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "vehicles",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-voertuigen-e283"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-vogels-2-6d6a",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "birds_2",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-vogels-2-6d6a"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-vogels-72f8",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "birds",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-vogels-72f8"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-vormen-e6df",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "shapes",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-vormen-e6df"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-weer-39c1",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "weather",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-weer-39c1"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-winter-e129",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "winter",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-winter-e129"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-ziekenhuis-afc3",
+   "type": "word-scramble",
+   "mode": "easy",
+   "theme": "hospital",
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-ziekenhuis-afc3"
+  },
+  {
+   "slug": "woordpuzzel-makkelijk-zomer-2c7d",
+   "type": "word-scramble",
+   "mode": "easy",
    "theme": "summer",
-   "level": "kleuters",
-   "deck": "schaduw-koppelen-koppel-de-schaduw-zomer-1343"
+   "level": "groep-3",
+   "deck": "woordpuzzel-makkelijk-zomer-2c7d"
   }
  ]
 }

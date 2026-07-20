@@ -1,779 +1,395 @@
 {
  "part": 49,
- "locale": "de",
+ "locale": "en",
  "classes": [
-  "wordsearch::null"
+  "picture-trail::pathway"
  ],
  "splitOf": null,
- "count": 96,
+ "count": 48,
  "pages": [
   {
-   "slug": "englisch-wortsuche-4-juli-e956",
-   "type": "wordsearch",
-   "mode": null,
+   "slug": "picture-trail-4th-of-july-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
    "theme": "4th_of_july",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-4-juli-e956"
+   "level": "kindergarten",
+   "deck": "picture-trail-4th-of-july-001"
   },
   {
-   "slug": "englisch-wortsuche-accessoires-1954",
-   "type": "wordsearch",
-   "mode": null,
+   "slug": "picture-trail-accessories",
+   "type": "picture-trail",
+   "mode": "pathway",
    "theme": "accessories",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-accessoires-1954"
+   "level": "kindergarten",
+   "deck": "picture-trail-accessories"
   },
   {
-   "slug": "englisch-wortsuche-aktivitaten-9413",
-   "type": "wordsearch",
-   "mode": null,
+   "slug": "picture-trail-activities-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
    "theme": "activities",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-aktivitaten-9413"
+   "level": "kindergarten",
+   "deck": "picture-trail-activities-001"
   },
   {
-   "slug": "englisch-wortsuche-backerei-3b7a",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "bakery",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-backerei-3b7a"
-  },
-  {
-   "slug": "englisch-wortsuche-bauernhoftiere-229e",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "farm_animals",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-bauernhoftiere-229e"
-  },
-  {
-   "slug": "englisch-wortsuche-baume-ce7d",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "tree",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-baume-ce7d"
-  },
-  {
-   "slug": "englisch-wortsuche-berufe-de18",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "occupations",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-berufe-de18"
-  },
-  {
-   "slug": "englisch-wortsuche-blumen-27ee",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "flowers",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-blumen-27ee"
-  },
-  {
-   "slug": "englisch-wortsuche-camping-9164",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "camping",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-camping-9164"
-  },
-  {
-   "slug": "englisch-wortsuche-desserts-und-sussigkeiten-c68e",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-desserts-und-sussigkeiten-c68e"
-  },
-  {
-   "slug": "englisch-wortsuche-dinge-die-fliegen-44a0",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "things_that_fly",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-dinge-die-fliegen-44a0"
-  },
-  {
-   "slug": "englisch-wortsuche-emotionen-19fe",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "emotions",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-emotionen-19fe"
-  },
-  {
-   "slug": "englisch-wortsuche-erntedankfest-2e39",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "thanksgivinng",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-erntedankfest-2e39"
-  },
-  {
-   "slug": "englisch-wortsuche-fahrzeuge-1042",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "vehicles",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-fahrzeuge-1042"
-  },
-  {
-   "slug": "englisch-wortsuche-farben-abad",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "colors",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-farben-abad"
-  },
-  {
-   "slug": "englisch-wortsuche-formen-a8c4",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "shapes",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-formen-a8c4"
-  },
-  {
-   "slug": "englisch-wortsuche-fruchte-f319",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "fruits",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-fruchte-f319"
-  },
-  {
-   "slug": "englisch-wortsuche-fruhling-6465",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "spring",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-fruhling-6465"
-  },
-  {
-   "slug": "englisch-wortsuche-fruhstuck-7fb6",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "breakfast",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-fruhstuck-7fb6"
-  },
-  {
-   "slug": "englisch-wortsuche-gemuse-1fd4",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "vegetables",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-gemuse-1fd4"
-  },
-  {
-   "slug": "englisch-wortsuche-haustiere-0587",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "pets",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-haustiere-0587"
-  },
-  {
-   "slug": "englisch-wortsuche-im-supermarkt-ec95",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-im-supermarkt-ec95"
-  },
-  {
-   "slug": "englisch-wortsuche-insekten-und-kafer-ca25",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-insekten-und-kafer-ca25"
-  },
-  {
-   "slug": "englisch-wortsuche-klassenzimmer-1e8d",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "classroom",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-klassenzimmer-1e8d"
-  },
-  {
-   "slug": "englisch-wortsuche-kleidung-00fa",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "clothing",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-kleidung-00fa"
-  },
-  {
-   "slug": "englisch-wortsuche-korperteile-af31",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-korperteile-af31"
-  },
-  {
-   "slug": "englisch-wortsuche-krankenhaus-df88",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "hospital",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-krankenhaus-df88"
-  },
-  {
-   "slug": "englisch-wortsuche-kuchenwerkzeuge-57ba",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-kuchenwerkzeuge-57ba"
-  },
-  {
-   "slug": "englisch-wortsuche-meeresleben-f04e",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "ocean_life",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-meeresleben-f04e"
-  },
-  {
-   "slug": "englisch-wortsuche-mobel-d814",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "furniture",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-mobel-d814"
-  },
-  {
-   "slug": "englisch-wortsuche-musik-f35b",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "music",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-musik-f35b"
-  },
-  {
-   "slug": "englisch-wortsuche-ostern-2f2d",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "easter",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-ostern-2f2d"
-  },
-  {
-   "slug": "englisch-wortsuche-postamt-0a46",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "post_office",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-postamt-0a46"
-  },
-  {
-   "slug": "englisch-wortsuche-reptilien-und-amphibien-1ee2",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "reptiles_and_amphibians",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-reptilien-und-amphibien-1ee2"
-  },
-  {
-   "slug": "englisch-wortsuche-rund-ums-haus-1399",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "around_the_house",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-rund-ums-haus-1399"
-  },
-  {
-   "slug": "englisch-wortsuche-sommer-87d0",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "summer",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-sommer-87d0"
-  },
-  {
-   "slug": "englisch-wortsuche-spielzeug-17e5",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "toys",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-spielzeug-17e5"
-  },
-  {
-   "slug": "englisch-wortsuche-strand-e2d4",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "beach",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-strand-e2d4"
-  },
-  {
-   "slug": "englisch-wortsuche-tiere-b6d3",
-   "type": "wordsearch",
-   "mode": null,
+   "slug": "picture-trail-animals-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
    "theme": "animals",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-tiere-b6d3"
+   "level": "kindergarten",
+   "deck": "picture-trail-animals-001"
   },
   {
-   "slug": "englisch-wortsuche-vogel-2-3626",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "birds_2",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-vogel-2-3626"
-  },
-  {
-   "slug": "englisch-wortsuche-vogel-c7d8",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "birds",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-vogel-c7d8"
-  },
-  {
-   "slug": "englisch-wortsuche-waldtiere-3f4f",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "forest_creatures",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-waldtiere-3f4f"
-  },
-  {
-   "slug": "englisch-wortsuche-weihnachten-6960",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "christmas",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-weihnachten-6960"
-  },
-  {
-   "slug": "englisch-wortsuche-weltraum-9593",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "space",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-weltraum-9593"
-  },
-  {
-   "slug": "englisch-wortsuche-werkzeuge-6a9f",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "tools",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-werkzeuge-6a9f"
-  },
-  {
-   "slug": "englisch-wortsuche-wetter-8523",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "weather",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-wetter-8523"
-  },
-  {
-   "slug": "englisch-wortsuche-winter-59a4",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "winter",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-winter-59a4"
-  },
-  {
-   "slug": "englisch-wortsuche-zootiere-b324",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "zoo_animals",
-   "level": "language-beginner",
-   "deck": "englisch-wortsuche-zootiere-b324"
-  },
-  {
-   "slug": "wortsuche-4-juli",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "4th_of_july",
-   "level": "1-klasse",
-   "deck": "wortsuche-4-juli-3419"
-  },
-  {
-   "slug": "wortsuche-accessoires",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "accessories",
-   "level": "1-klasse",
-   "deck": "wortsuche-accessoires-18b0"
-  },
-  {
-   "slug": "wortsuche-aktivitaten",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "activities",
-   "level": "1-klasse",
-   "deck": "wortsuche-aktivitaten-06e9"
-  },
-  {
-   "slug": "wortsuche-backerei",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "bakery",
-   "level": "1-klasse",
-   "deck": "wortsuche-backerei-9657"
-  },
-  {
-   "slug": "wortsuche-bauernhoftiere",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "farm_animals",
-   "level": "1-klasse",
-   "deck": "wortsuche-bauernhoftiere-6485"
-  },
-  {
-   "slug": "wortsuche-baume",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "tree",
-   "level": "1-klasse",
-   "deck": "wortsuche-baume-5a0e"
-  },
-  {
-   "slug": "wortsuche-berufe",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "occupations",
-   "level": "1-klasse",
-   "deck": "wortsuche-berufe-5061"
-  },
-  {
-   "slug": "wortsuche-blumen",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "flowers",
-   "level": "1-klasse",
-   "deck": "wortsuche-blumen-c526"
-  },
-  {
-   "slug": "wortsuche-camping",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "camping",
-   "level": "1-klasse",
-   "deck": "wortsuche-camping-e557"
-  },
-  {
-   "slug": "wortsuche-desserts-und-sussigkeiten",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "1-klasse",
-   "deck": "wortsuche-desserts-und-sussigkeiten-60f3"
-  },
-  {
-   "slug": "wortsuche-dinge-die-fliegen",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "things_that_fly",
-   "level": "1-klasse",
-   "deck": "wortsuche-dinge-die-fliegen-b6fd"
-  },
-  {
-   "slug": "wortsuche-emotionen",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "emotions",
-   "level": "1-klasse",
-   "deck": "wortsuche-emotionen-16f0"
-  },
-  {
-   "slug": "wortsuche-erntedankfest",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "thanksgivinng",
-   "level": "1-klasse",
-   "deck": "wortsuche-erntedankfest-9f1d"
-  },
-  {
-   "slug": "wortsuche-fahrzeuge",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "vehicles",
-   "level": "1-klasse",
-   "deck": "wortsuche-fahrzeuge-9e6e"
-  },
-  {
-   "slug": "wortsuche-farben",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "colors",
-   "level": "1-klasse",
-   "deck": "wortsuche-farben-8b8a"
-  },
-  {
-   "slug": "wortsuche-formen",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "shapes",
-   "level": "1-klasse",
-   "deck": "wortsuche-formen-bcf4"
-  },
-  {
-   "slug": "wortsuche-fruchte",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "fruits",
-   "level": "1-klasse",
-   "deck": "wortsuche-fruchte-c3f6"
-  },
-  {
-   "slug": "wortsuche-fruhling",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "spring",
-   "level": "1-klasse",
-   "deck": "wortsuche-fruhling-b0b3"
-  },
-  {
-   "slug": "wortsuche-fruhstuck",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "breakfast",
-   "level": "1-klasse",
-   "deck": "wortsuche-fruhstuck-dfd4"
-  },
-  {
-   "slug": "wortsuche-gemuse",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "vegetables",
-   "level": "1-klasse",
-   "deck": "wortsuche-gemuse-8aa3"
-  },
-  {
-   "slug": "wortsuche-haustiere",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "pets",
-   "level": "1-klasse",
-   "deck": "wortsuche-haustiere-c51a"
-  },
-  {
-   "slug": "wortsuche-im-supermarkt",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "1-klasse",
-   "deck": "wortsuche-im-supermarkt-d690"
-  },
-  {
-   "slug": "wortsuche-insekten-und-kafer",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "1-klasse",
-   "deck": "wortsuche-insekten-und-kafer-1a66"
-  },
-  {
-   "slug": "wortsuche-klassenzimmer",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "classroom",
-   "level": "1-klasse",
-   "deck": "wortsuche-klassenzimmer-4a34"
-  },
-  {
-   "slug": "wortsuche-kleidung",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "clothing",
-   "level": "1-klasse",
-   "deck": "wortsuche-kleidung-8e23"
-  },
-  {
-   "slug": "wortsuche-korperteile",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "1-klasse",
-   "deck": "wortsuche-korperteile-870e"
-  },
-  {
-   "slug": "wortsuche-krankenhaus",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "hospital",
-   "level": "1-klasse",
-   "deck": "wortsuche-krankenhaus-bc2d"
-  },
-  {
-   "slug": "wortsuche-kuchenwerkzeuge",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "1-klasse",
-   "deck": "wortsuche-kuchenwerkzeuge-b794"
-  },
-  {
-   "slug": "wortsuche-meeresleben",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "ocean_life",
-   "level": "1-klasse",
-   "deck": "wortsuche-meeresleben-d08f"
-  },
-  {
-   "slug": "wortsuche-mobel",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "furniture",
-   "level": "1-klasse",
-   "deck": "wortsuche-mobel-b60f"
-  },
-  {
-   "slug": "wortsuche-musik",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "music",
-   "level": "1-klasse",
-   "deck": "wortsuche-musik-bc0e"
-  },
-  {
-   "slug": "wortsuche-ostern",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "easter",
-   "level": "1-klasse",
-   "deck": "wortsuche-ostern-cec9"
-  },
-  {
-   "slug": "wortsuche-postamt",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "post_office",
-   "level": "1-klasse",
-   "deck": "wortsuche-postamt-56d3"
-  },
-  {
-   "slug": "wortsuche-reptilien-und-amphibien",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "reptiles_and_amphibians",
-   "level": "1-klasse",
-   "deck": "wortsuche-reptilien-und-amphibien-a09b"
-  },
-  {
-   "slug": "wortsuche-rund-ums-haus",
-   "type": "wordsearch",
-   "mode": null,
+   "slug": "picture-trail-around-the-house-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
    "theme": "around_the_house",
-   "level": "1-klasse",
-   "deck": "wortsuche-rund-ums-haus-5f6c"
+   "level": "kindergarten",
+   "deck": "picture-trail-around-the-house-001"
   },
   {
-   "slug": "wortsuche-sommer",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "summer",
-   "level": "1-klasse",
-   "deck": "wortsuche-sommer-2ca7"
+   "slug": "picture-trail-at-the-supermarket-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "at_the_supermarket",
+   "level": "kindergarten",
+   "deck": "picture-trail-at-the-supermarket-001"
   },
   {
-   "slug": "wortsuche-spielzeug",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "toys",
-   "level": "1-klasse",
-   "deck": "wortsuche-spielzeug-b918"
+   "slug": "picture-trail-bakery-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "bakery",
+   "level": "kindergarten",
+   "deck": "picture-trail-bakery-001"
   },
   {
-   "slug": "wortsuche-strand",
-   "type": "wordsearch",
-   "mode": null,
+   "slug": "picture-trail-beach-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
    "theme": "beach",
-   "level": "1-klasse",
-   "deck": "wortsuche-strand-f37a"
+   "level": "kindergarten",
+   "deck": "picture-trail-beach-001"
   },
   {
-   "slug": "wortsuche-tiere",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "animals",
-   "level": "1-klasse",
-   "deck": "wortsuche-tiere-d73e"
-  },
-  {
-   "slug": "wortsuche-vogel",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "birds",
-   "level": "1-klasse",
-   "deck": "wortsuche-vogel-5aa8"
-  },
-  {
-   "slug": "wortsuche-vogel-2",
-   "type": "wordsearch",
-   "mode": null,
+   "slug": "picture-trail-birds-2-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
    "theme": "birds_2",
-   "level": "1-klasse",
-   "deck": "wortsuche-vogel-2-77db"
+   "level": "kindergarten",
+   "deck": "picture-trail-birds-2-001"
   },
   {
-   "slug": "wortsuche-waldtiere",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "forest_creatures",
-   "level": "1-klasse",
-   "deck": "wortsuche-waldtiere-640c"
+   "slug": "picture-trail-birds-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "birds",
+   "level": "kindergarten",
+   "deck": "picture-trail-birds-001"
   },
   {
-   "slug": "wortsuche-weihnachten",
-   "type": "wordsearch",
-   "mode": null,
+   "slug": "picture-trail-body-parts-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "body_parts",
+   "level": "kindergarten",
+   "deck": "picture-trail-body-parts-001"
+  },
+  {
+   "slug": "picture-trail-breakfast-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "breakfast",
+   "level": "kindergarten",
+   "deck": "picture-trail-breakfast-001"
+  },
+  {
+   "slug": "picture-trail-camping-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "camping",
+   "level": "kindergarten",
+   "deck": "picture-trail-camping-001"
+  },
+  {
+   "slug": "picture-trail-christmas-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
    "theme": "christmas",
-   "level": "1-klasse",
-   "deck": "wortsuche-weihnachten-588d"
+   "level": "kindergarten",
+   "deck": "picture-trail-christmas-001"
   },
   {
-   "slug": "wortsuche-weltraum",
-   "type": "wordsearch",
-   "mode": null,
+   "slug": "picture-trail-classroom-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "classroom",
+   "level": "kindergarten",
+   "deck": "picture-trail-classroom-001"
+  },
+  {
+   "slug": "picture-trail-clothing",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "clothing",
+   "level": "kindergarten",
+   "deck": "picture-trail-clothing"
+  },
+  {
+   "slug": "picture-trail-desserts-and-sweets",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "desserts_and_sweets",
+   "level": "kindergarten",
+   "deck": "picture-trail-desserts-and-sweets"
+  },
+  {
+   "slug": "picture-trail-dinosaurs-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "dinosaurs",
+   "level": "kindergarten",
+   "deck": "picture-trail-dinosaurs-001"
+  },
+  {
+   "slug": "picture-trail-easter-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "easter",
+   "level": "kindergarten",
+   "deck": "picture-trail-easter-001"
+  },
+  {
+   "slug": "picture-trail-emotions-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "emotions",
+   "level": "kindergarten",
+   "deck": "picture-trail-emotions-001"
+  },
+  {
+   "slug": "picture-trail-farm-animals-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "farm_animals",
+   "level": "kindergarten",
+   "deck": "picture-trail-farm-animals-001"
+  },
+  {
+   "slug": "picture-trail-flowers-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "flowers",
+   "level": "kindergarten",
+   "deck": "picture-trail-flowers-001"
+  },
+  {
+   "slug": "picture-trail-forest-creatures-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "forest_creatures",
+   "level": "kindergarten",
+   "deck": "picture-trail-forest-creatures-001"
+  },
+  {
+   "slug": "picture-trail-fruits-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "fruits",
+   "level": "kindergarten",
+   "deck": "picture-trail-fruits-001"
+  },
+  {
+   "slug": "picture-trail-furniture-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "furniture",
+   "level": "kindergarten",
+   "deck": "picture-trail-furniture-001"
+  },
+  {
+   "slug": "picture-trail-hospital-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "hospital",
+   "level": "kindergarten",
+   "deck": "picture-trail-hospital-001"
+  },
+  {
+   "slug": "picture-trail-insects-and-bugs",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "insects_and_bugs",
+   "level": "kindergarten",
+   "deck": "picture-trail-insects-and-bugs"
+  },
+  {
+   "slug": "picture-trail-kitchen-tools-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "kitchen_tools",
+   "level": "kindergarten",
+   "deck": "picture-trail-kitchen-tools-001"
+  },
+  {
+   "slug": "picture-trail-miscellaneous-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "miscellaneous",
+   "level": "kindergarten",
+   "deck": "picture-trail-miscellaneous-001"
+  },
+  {
+   "slug": "picture-trail-music-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "music",
+   "level": "kindergarten",
+   "deck": "picture-trail-music-001"
+  },
+  {
+   "slug": "picture-trail-occupations-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "occupations",
+   "level": "kindergarten",
+   "deck": "picture-trail-occupations-001"
+  },
+  {
+   "slug": "picture-trail-ocean-life-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "ocean_life",
+   "level": "kindergarten",
+   "deck": "picture-trail-ocean-life-001"
+  },
+  {
+   "slug": "picture-trail-pets-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "pets",
+   "level": "kindergarten",
+   "deck": "picture-trail-pets-001"
+  },
+  {
+   "slug": "picture-trail-post-office",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "post_office",
+   "level": "kindergarten",
+   "deck": "picture-trail-post-office"
+  },
+  {
+   "slug": "picture-trail-shapes-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "shapes",
+   "level": "kindergarten",
+   "deck": "picture-trail-shapes-001"
+  },
+  {
+   "slug": "picture-trail-space-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
    "theme": "space",
-   "level": "1-klasse",
-   "deck": "wortsuche-weltraum-01fb"
+   "level": "kindergarten",
+   "deck": "picture-trail-space-001"
   },
   {
-   "slug": "wortsuche-werkzeuge",
-   "type": "wordsearch",
-   "mode": null,
+   "slug": "picture-trail-spring-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "spring",
+   "level": "kindergarten",
+   "deck": "picture-trail-spring-001"
+  },
+  {
+   "slug": "picture-trail-summer-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "summer",
+   "level": "kindergarten",
+   "deck": "picture-trail-summer-001"
+  },
+  {
+   "slug": "picture-trail-thanksgivinng-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "thanksgivinng",
+   "level": "kindergarten",
+   "deck": "picture-trail-thanksgiving-001"
+  },
+  {
+   "slug": "picture-trail-things-that-fly",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "things_that_fly",
+   "level": "kindergarten",
+   "deck": "picture-trail-things-that-fly"
+  },
+  {
+   "slug": "picture-trail-tools-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
    "theme": "tools",
-   "level": "1-klasse",
-   "deck": "wortsuche-werkzeuge-fc5b"
+   "level": "kindergarten",
+   "deck": "picture-trail-tools-001"
   },
   {
-   "slug": "wortsuche-wetter",
-   "type": "wordsearch",
-   "mode": null,
+   "slug": "picture-trail-toys-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "toys",
+   "level": "kindergarten",
+   "deck": "picture-trail-toys-001"
+  },
+  {
+   "slug": "picture-trail-tree-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "tree",
+   "level": "kindergarten",
+   "deck": "picture-trail-tree-001"
+  },
+  {
+   "slug": "picture-trail-vegetables-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "vegetables",
+   "level": "kindergarten",
+   "deck": "picture-trail-vegetables-001"
+  },
+  {
+   "slug": "picture-trail-vehicles-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
+   "theme": "vehicles",
+   "level": "kindergarten",
+   "deck": "picture-trail-vehicles-001"
+  },
+  {
+   "slug": "picture-trail-weather-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
    "theme": "weather",
-   "level": "1-klasse",
-   "deck": "wortsuche-wetter-6cd2"
+   "level": "kindergarten",
+   "deck": "picture-trail-weather-001"
   },
   {
-   "slug": "wortsuche-winter",
-   "type": "wordsearch",
-   "mode": null,
+   "slug": "picture-trail-winter-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
    "theme": "winter",
-   "level": "1-klasse",
-   "deck": "wortsuche-winter-288c"
+   "level": "kindergarten",
+   "deck": "picture-trail-winter-001"
   },
   {
-   "slug": "wortsuche-zootiere",
-   "type": "wordsearch",
-   "mode": null,
+   "slug": "picture-trail-zoo-animals-kindergarten",
+   "type": "picture-trail",
+   "mode": "pathway",
    "theme": "zoo_animals",
-   "level": "1-klasse",
-   "deck": "wortsuche-zootiere-ebdd"
+   "level": "kindergarten",
+   "deck": "picture-trail-zoo-animals-001"
   }
  ]
 }

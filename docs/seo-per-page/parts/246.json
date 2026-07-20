@@ -2,659 +2,675 @@
  "part": 246,
  "locale": "sv",
  "classes": [
-  "math-puzzle::addition",
-  "addition::find-addend"
+  "matching::letter",
+  "alphabet-train::letter-hint"
  ],
  "splitOf": null,
- "count": 81,
+ "count": 83,
  "pages": [
   {
-   "slug": "mattepussel-addition-bageri-c428",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-aktiviteter-9156",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "activities",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-aktiviteter-9156"
+  },
+  {
+   "slug": "matchning-bokstav-bageri-573f",
+   "type": "matching",
+   "mode": "letter",
    "theme": "bakery",
    "level": "ak-1",
-   "deck": "mattepussel-addition-bageri-c428"
+   "deck": "matchning-bokstav-bageri-573f"
   },
   {
-   "slug": "mattepussel-addition-blandat-3ef6",
-   "type": "math-puzzle",
-   "mode": "addition",
-   "theme": "miscellaneous",
-   "level": "ak-1",
-   "deck": "mattepussel-addition-blandat-3ef6"
-  },
-  {
-   "slug": "mattepussel-addition-blommor-27e7",
-   "type": "math-puzzle",
-   "mode": "addition",
-   "theme": "flowers",
-   "level": "ak-1",
-   "deck": "mattepussel-addition-blommor-27e7"
-  },
-  {
-   "slug": "mattepussel-addition-bondgardsdjur-e1f0",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-bondgardsdjur-82a4",
+   "type": "matching",
+   "mode": "letter",
    "theme": "farm_animals",
    "level": "ak-1",
-   "deck": "mattepussel-addition-bondgardsdjur-e1f0"
+   "deck": "matchning-bokstav-bondgardsdjur-82a4"
   },
   {
-   "slug": "mattepussel-addition-camping-a0ee",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-camping-9f3d",
+   "type": "matching",
+   "mode": "letter",
    "theme": "camping",
    "level": "ak-1",
-   "deck": "mattepussel-addition-camping-a0ee"
+   "deck": "matchning-bokstav-camping-9f3d"
   },
   {
-   "slug": "mattepussel-addition-dinosaurier-3eb8",
-   "type": "math-puzzle",
-   "mode": "addition",
-   "theme": "dinosaurs",
-   "level": "ak-1",
-   "deck": "mattepussel-addition-dinosaurier-3eb8"
-  },
-  {
-   "slug": "mattepussel-addition-djur-d2c8",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-djur-75de",
+   "type": "matching",
+   "mode": "letter",
    "theme": "animals",
    "level": "ak-1",
-   "deck": "mattepussel-addition-djur-d2c8"
+   "deck": "matchning-bokstav-djur-75de"
   },
   {
-   "slug": "mattepussel-addition-djurparksdjur-cd9e",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-djurparksdjur-cc6e",
+   "type": "matching",
+   "mode": "letter",
    "theme": "zoo_animals",
    "level": "ak-1",
-   "deck": "mattepussel-addition-djurparksdjur-cd9e"
+   "deck": "matchning-bokstav-djurparksdjur-cc6e"
   },
   {
-   "slug": "mattepussel-addition-efterratter-och-godis-5ab2",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-efterratter-och-godis-75df",
+   "type": "matching",
+   "mode": "letter",
    "theme": "desserts_and_sweets",
    "level": "ak-1",
-   "deck": "mattepussel-addition-efterratter-och-godis-5ab2"
+   "deck": "matchning-bokstav-efterratter-och-godis-75df"
   },
   {
-   "slug": "mattepussel-addition-faglar-2-8c02",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-faglar-2-7607",
+   "type": "matching",
+   "mode": "letter",
    "theme": "birds_2",
    "level": "ak-1",
-   "deck": "mattepussel-addition-faglar-2-8c02"
+   "deck": "matchning-bokstav-faglar-2-7607"
   },
   {
-   "slug": "mattepussel-addition-faglar-72c1",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-faglar-3a2c",
+   "type": "matching",
+   "mode": "letter",
    "theme": "birds",
    "level": "ak-1",
-   "deck": "mattepussel-addition-faglar-72c1"
+   "deck": "matchning-bokstav-faglar-3a2c"
   },
   {
-   "slug": "mattepussel-addition-fordon-b536",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-farger-cc76",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "colors",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-farger-cc76"
+  },
+  {
+   "slug": "matchning-bokstav-fordon-f63d",
+   "type": "matching",
+   "mode": "letter",
    "theme": "vehicles",
    "level": "ak-1",
-   "deck": "mattepussel-addition-fordon-b536"
+   "deck": "matchning-bokstav-fordon-f63d"
   },
   {
-   "slug": "mattepussel-addition-former-9c2d",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-former-ae01",
+   "type": "matching",
+   "mode": "letter",
    "theme": "shapes",
    "level": "ak-1",
-   "deck": "mattepussel-addition-former-9c2d"
+   "deck": "matchning-bokstav-former-ae01"
   },
   {
-   "slug": "mattepussel-addition-frukost-f1f5",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-frukost-eee0",
+   "type": "matching",
+   "mode": "letter",
    "theme": "breakfast",
    "level": "ak-1",
-   "deck": "mattepussel-addition-frukost-f1f5"
+   "deck": "matchning-bokstav-frukost-eee0"
   },
   {
-   "slug": "mattepussel-addition-frukter-0e64",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-frukter-e2c2",
+   "type": "matching",
+   "mode": "letter",
    "theme": "fruits",
    "level": "ak-1",
-   "deck": "mattepussel-addition-frukter-0e64"
+   "deck": "matchning-bokstav-frukter-e2c2"
   },
   {
-   "slug": "mattepussel-addition-gronsaker-773b",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-gronsaker-34e3",
+   "type": "matching",
+   "mode": "letter",
    "theme": "vegetables",
    "level": "ak-1",
-   "deck": "mattepussel-addition-gronsaker-773b"
+   "deck": "matchning-bokstav-gronsaker-34e3"
   },
   {
-   "slug": "mattepussel-addition-havsliv-a7ee",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-havsliv-e02c",
+   "type": "matching",
+   "mode": "letter",
    "theme": "ocean_life",
    "level": "ak-1",
-   "deck": "mattepussel-addition-havsliv-a7ee"
+   "deck": "matchning-bokstav-havsliv-e02c"
   },
   {
-   "slug": "mattepussel-addition-husdjur-4659",
-   "type": "math-puzzle",
-   "mode": "addition",
-   "theme": "pets",
-   "level": "ak-1",
-   "deck": "mattepussel-addition-husdjur-4659"
-  },
-  {
-   "slug": "mattepussel-addition-i-snabbkopet-38e7",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-i-snabbkopet-f660",
+   "type": "matching",
+   "mode": "letter",
    "theme": "at_the_supermarket",
    "level": "ak-1",
-   "deck": "mattepussel-addition-i-snabbkopet-38e7"
+   "deck": "matchning-bokstav-i-snabbkopet-f660"
   },
   {
-   "slug": "mattepussel-addition-insekter-och-kryp-f6c8",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-insekter-och-kryp-2538",
+   "type": "matching",
+   "mode": "letter",
    "theme": "insects_and_bugs",
    "level": "ak-1",
-   "deck": "mattepussel-addition-insekter-och-kryp-f6c8"
+   "deck": "matchning-bokstav-insekter-och-kryp-2538"
   },
   {
-   "slug": "mattepussel-addition-jul-ab75",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-jul-24f9",
+   "type": "matching",
+   "mode": "letter",
    "theme": "christmas",
    "level": "ak-1",
-   "deck": "mattepussel-addition-jul-ab75"
+   "deck": "matchning-bokstav-jul-24f9"
   },
   {
-   "slug": "mattepussel-addition-klader-1584",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-kanslor-3258",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "emotions",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-kanslor-3258"
+  },
+  {
+   "slug": "matchning-bokstav-klader-0f64",
+   "type": "matching",
+   "mode": "letter",
    "theme": "clothing",
    "level": "ak-1",
-   "deck": "mattepussel-addition-klader-1584"
+   "deck": "matchning-bokstav-klader-0f64"
   },
   {
-   "slug": "mattepussel-addition-klassrum-f7f2",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-klassrum-fff2",
+   "type": "matching",
+   "mode": "letter",
    "theme": "classroom",
    "level": "ak-1",
-   "deck": "mattepussel-addition-klassrum-f7f2"
+   "deck": "matchning-bokstav-klassrum-fff2"
   },
   {
-   "slug": "mattepussel-addition-koksredskap-d55f",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-koksredskap-38af",
+   "type": "matching",
+   "mode": "letter",
    "theme": "kitchen_tools",
    "level": "ak-1",
-   "deck": "mattepussel-addition-koksredskap-d55f"
+   "deck": "matchning-bokstav-koksredskap-38af"
   },
   {
-   "slug": "mattepussel-addition-leksaker-25e0",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-kroppsdelar-0959",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "body_parts",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-kroppsdelar-0959"
+  },
+  {
+   "slug": "matchning-bokstav-leksaker-e171",
+   "type": "matching",
+   "mode": "letter",
    "theme": "toys",
    "level": "ak-1",
-   "deck": "mattepussel-addition-leksaker-25e0"
+   "deck": "matchning-bokstav-leksaker-e171"
   },
   {
-   "slug": "mattepussel-addition-mobler-43c1",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-mobler-d02b",
+   "type": "matching",
+   "mode": "letter",
    "theme": "furniture",
    "level": "ak-1",
-   "deck": "mattepussel-addition-mobler-43c1"
+   "deck": "matchning-bokstav-mobler-d02b"
   },
   {
-   "slug": "mattepussel-addition-musik-f6dd",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-musik-1b77",
+   "type": "matching",
+   "mode": "letter",
    "theme": "music",
    "level": "ak-1",
-   "deck": "mattepussel-addition-musik-f6dd"
+   "deck": "matchning-bokstav-musik-1b77"
   },
   {
-   "slug": "mattepussel-addition-pask-0a65",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-pask-12cd",
+   "type": "matching",
+   "mode": "letter",
    "theme": "easter",
    "level": "ak-1",
-   "deck": "mattepussel-addition-pask-0a65"
+   "deck": "matchning-bokstav-pask-12cd"
   },
   {
-   "slug": "mattepussel-addition-postkontor-d394",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-postkontor-8aaf",
+   "type": "matching",
+   "mode": "letter",
    "theme": "post_office",
    "level": "ak-1",
-   "deck": "mattepussel-addition-postkontor-d394"
+   "deck": "matchning-bokstav-postkontor-8aaf"
   },
   {
-   "slug": "mattepussel-addition-reptiler-och-groddjur-fb56",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-reptiler-och-groddjur-76f9",
+   "type": "matching",
+   "mode": "letter",
    "theme": "reptiles_and_amphibians",
    "level": "ak-1",
-   "deck": "mattepussel-addition-reptiler-och-groddjur-fb56"
+   "deck": "matchning-bokstav-reptiler-och-groddjur-76f9"
   },
   {
-   "slug": "mattepussel-addition-runt-huset-aed2",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-runt-huset-e6db",
+   "type": "matching",
+   "mode": "letter",
    "theme": "around_the_house",
    "level": "ak-1",
-   "deck": "mattepussel-addition-runt-huset-aed2"
+   "deck": "matchning-bokstav-runt-huset-e6db"
   },
   {
-   "slug": "mattepussel-addition-rymden-45b8",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-rymden-369f",
+   "type": "matching",
+   "mode": "letter",
    "theme": "space",
    "level": "ak-1",
-   "deck": "mattepussel-addition-rymden-45b8"
+   "deck": "matchning-bokstav-rymden-369f"
   },
   {
-   "slug": "mattepussel-addition-saker-som-flyger-91ab",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-saker-som-flyger-41c1",
+   "type": "matching",
+   "mode": "letter",
    "theme": "things_that_fly",
    "level": "ak-1",
-   "deck": "mattepussel-addition-saker-som-flyger-91ab"
+   "deck": "matchning-bokstav-saker-som-flyger-41c1"
   },
   {
-   "slug": "mattepussel-addition-sjukhus-ba1f",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-sjukhus-14c0",
+   "type": "matching",
+   "mode": "letter",
    "theme": "hospital",
    "level": "ak-1",
-   "deck": "mattepussel-addition-sjukhus-ba1f"
+   "deck": "matchning-bokstav-sjukhus-14c0"
   },
   {
-   "slug": "mattepussel-addition-skogsdjur-a154",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-skogsdjur-3c1f",
+   "type": "matching",
+   "mode": "letter",
    "theme": "forest_creatures",
    "level": "ak-1",
-   "deck": "mattepussel-addition-skogsdjur-a154"
+   "deck": "matchning-bokstav-skogsdjur-3c1f"
   },
   {
-   "slug": "mattepussel-addition-strand-3e5f",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-sommar-b25b",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "summer",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-sommar-b25b"
+  },
+  {
+   "slug": "matchning-bokstav-strand-ee4a",
+   "type": "matching",
+   "mode": "letter",
    "theme": "beach",
    "level": "ak-1",
-   "deck": "mattepussel-addition-strand-3e5f"
+   "deck": "matchning-bokstav-strand-ee4a"
   },
   {
-   "slug": "mattepussel-addition-thanksgiving-3eeb",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-thanksgiving-6861",
+   "type": "matching",
+   "mode": "letter",
    "theme": "thanksgivinng",
    "level": "ak-1",
-   "deck": "mattepussel-addition-thanksgiving-3eeb"
+   "deck": "matchning-bokstav-thanksgiving-6861"
   },
   {
-   "slug": "mattepussel-addition-tillbehor-fe9d",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-tillbehor-95d8",
+   "type": "matching",
+   "mode": "letter",
    "theme": "accessories",
    "level": "ak-1",
-   "deck": "mattepussel-addition-tillbehor-fe9d"
+   "deck": "matchning-bokstav-tillbehor-95d8"
   },
   {
-   "slug": "mattepussel-addition-trad-f443",
-   "type": "math-puzzle",
-   "mode": "addition",
-   "theme": "tree",
+   "slug": "matchning-bokstav-vader-39f4",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "weather",
    "level": "ak-1",
-   "deck": "mattepussel-addition-trad-f443"
+   "deck": "matchning-bokstav-vader-39f4"
   },
   {
-   "slug": "mattepussel-addition-verktyg-e928",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-var-7b0a",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "spring",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-var-7b0a"
+  },
+  {
+   "slug": "matchning-bokstav-verktyg-d232",
+   "type": "matching",
+   "mode": "letter",
    "theme": "tools",
    "level": "ak-1",
-   "deck": "mattepussel-addition-verktyg-e928"
+   "deck": "matchning-bokstav-verktyg-d232"
   },
   {
-   "slug": "mattepussel-addition-yrken-f0f0",
-   "type": "math-puzzle",
-   "mode": "addition",
+   "slug": "matchning-bokstav-vinter-aba7",
+   "type": "matching",
+   "mode": "letter",
+   "theme": "winter",
+   "level": "ak-1",
+   "deck": "matchning-bokstav-vinter-aba7"
+  },
+  {
+   "slug": "matchning-bokstav-yrken-afe6",
+   "type": "matching",
+   "mode": "letter",
    "theme": "occupations",
    "level": "ak-1",
-   "deck": "mattepussel-addition-yrken-f0f0"
+   "deck": "matchning-bokstav-yrken-afe6"
   },
   {
-   "slug": "addition-hitta-termen-bageri-f3de",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "bakery",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-bageri-f3de"
+   "slug": "alfabetstaget-bokstavsledtrad-4-juli-b0e8",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "4th_of_july",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-4-juli-b0e8"
   },
   {
-   "slug": "addition-hitta-termen-blommor-b338",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-aktiviteter-8d6b",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "activities",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-aktiviteter-8d6b"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-blommor-479c",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "flowers",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-blommor-b338"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-blommor-479c"
   },
   {
-   "slug": "addition-hitta-termen-bondgardsdjur-0f3f",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-bondgardsdjur-3725",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "farm_animals",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-bondgardsdjur-0f3f"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-bondgardsdjur-3725"
   },
   {
-   "slug": "addition-hitta-termen-camping-66d3",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-camping-0e35",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "camping",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-camping-66d3"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-camping-0e35"
   },
   {
-   "slug": "addition-hitta-termen-dinosaurier-900b",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-dinosaurier-b921",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "dinosaurs",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-dinosaurier-900b"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-dinosaurier-b921"
   },
   {
-   "slug": "addition-hitta-termen-djur-105b",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-djur-fcd7",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "animals",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-djur-105b"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-djur-fcd7"
   },
   {
-   "slug": "addition-hitta-termen-djurparksdjur-0974",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-djurparksdjur-0b87",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "zoo_animals",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-djurparksdjur-0974"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-djurparksdjur-0b87"
   },
   {
-   "slug": "addition-hitta-termen-efterratter-och-godis-81ae",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "desserts_and_sweets",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-efterratter-och-godis-81ae"
-  },
-  {
-   "slug": "addition-hitta-termen-faglar-2-dee0",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-faglar-2-1c81",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "birds_2",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-faglar-2-dee0"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-faglar-2-1c81"
   },
   {
-   "slug": "addition-hitta-termen-faglar-6367",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "birds",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-faglar-6367"
-  },
-  {
-   "slug": "addition-hitta-termen-fordon-6de6",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-fordon-c69f",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "vehicles",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-fordon-6de6"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-fordon-c69f"
   },
   {
-   "slug": "addition-hitta-termen-former-afe9",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-former-bcee",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "shapes",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-former-afe9"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-former-bcee"
   },
   {
-   "slug": "addition-hitta-termen-frukost-38d3",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-frukost-fc2d",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "breakfast",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-frukost-38d3"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-frukost-fc2d"
   },
   {
-   "slug": "addition-hitta-termen-frukter-82be",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-frukter-2225",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "fruits",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-frukter-82be"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-frukter-2225"
   },
   {
-   "slug": "addition-hitta-termen-gronsaker-a71b",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-gronsaker-ccf1",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "vegetables",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-gronsaker-a71b"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-gronsaker-ccf1"
   },
   {
-   "slug": "addition-hitta-termen-havsliv-a5b2",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-havsliv-4d60",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "ocean_life",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-havsliv-a5b2"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-havsliv-4d60"
   },
   {
-   "slug": "addition-hitta-termen-husdjur-3b4a",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-husdjur-54b5",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "pets",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-husdjur-3b4a"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-husdjur-54b5"
   },
   {
-   "slug": "addition-hitta-termen-i-snabbkopet-8662",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-i-snabbkopet-c2b4",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "at_the_supermarket",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-i-snabbkopet-8662"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-i-snabbkopet-c2b4"
   },
   {
-   "slug": "addition-hitta-termen-insekter-och-kryp-a36a",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "insects_and_bugs",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-insekter-och-kryp-a36a"
-  },
-  {
-   "slug": "addition-hitta-termen-jul-73f6",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-jul-aeb6",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "christmas",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-jul-73f6"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-jul-aeb6"
   },
   {
-   "slug": "addition-hitta-termen-klader-5096",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-kanslor-152d",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "emotions",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-kanslor-152d"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-klader-bab3",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "clothing",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-klader-5096"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-klader-bab3"
   },
   {
-   "slug": "addition-hitta-termen-klassrum-ddc5",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-klassrum-f8e3",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "classroom",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-klassrum-ddc5"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-klassrum-f8e3"
   },
   {
-   "slug": "addition-hitta-termen-koksredskap-14ba",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-koksredskap-2d5b",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "kitchen_tools",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-koksredskap-14ba"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-koksredskap-2d5b"
   },
   {
-   "slug": "addition-hitta-termen-leksaker-6d66",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-kroppsdelar-f08a",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "body_parts",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-kroppsdelar-f08a"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-leksaker-d641",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "toys",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-leksaker-6d66"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-leksaker-d641"
   },
   {
-   "slug": "addition-hitta-termen-mobler-789d",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "furniture",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-mobler-789d"
-  },
-  {
-   "slug": "addition-hitta-termen-musik-cbfd",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-musik-fbd5",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "music",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-musik-cbfd"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-musik-fbd5"
   },
   {
-   "slug": "addition-hitta-termen-pask-5377",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-pask-278b",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "easter",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-pask-5377"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-pask-278b"
   },
   {
-   "slug": "addition-hitta-termen-postkontor-aba3",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "post_office",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-postkontor-aba3"
-  },
-  {
-   "slug": "addition-hitta-termen-reptiler-och-groddjur-5437",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "reptiles_and_amphibians",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-reptiler-och-groddjur-5437"
-  },
-  {
-   "slug": "addition-hitta-termen-runt-huset-80ca",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-runt-huset-4fa6",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "around_the_house",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-runt-huset-80ca"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-runt-huset-4fa6"
   },
   {
-   "slug": "addition-hitta-termen-rymden-676a",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-rymden-4953",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "space",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-rymden-676a"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-rymden-4953"
   },
   {
-   "slug": "addition-hitta-termen-saker-som-flyger-94d6",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-saker-som-flyger-ed57",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "things_that_fly",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-saker-som-flyger-94d6"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-saker-som-flyger-ed57"
   },
   {
-   "slug": "addition-hitta-termen-sjukhus-68af",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-sjukhus-750d",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "hospital",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-sjukhus-68af"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-sjukhus-750d"
   },
   {
-   "slug": "addition-hitta-termen-skogsdjur-e33f",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-skogsdjur-936c",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "forest_creatures",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-skogsdjur-e33f"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-skogsdjur-936c"
   },
   {
-   "slug": "addition-hitta-termen-strand-c792",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-sommar-0041",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "summer",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-sommar-0041"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-strand-3128",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "beach",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-strand-c792"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-strand-3128"
   },
   {
-   "slug": "addition-hitta-termen-thanksgiving-df2f",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-thanksgiving-2bf9",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "thanksgivinng",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-thanksgiving-df2f"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-thanksgiving-2bf9"
   },
   {
-   "slug": "addition-hitta-termen-tillbehor-846c",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-tillbehor-83af",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "accessories",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-tillbehor-846c"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-tillbehor-83af"
   },
   {
-   "slug": "addition-hitta-termen-trad-14a3",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-trad-92c0",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "tree",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-trad-14a3"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-trad-92c0"
   },
   {
-   "slug": "addition-hitta-termen-verktyg-702a",
-   "type": "addition",
-   "mode": "find-addend",
-   "theme": "tools",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-verktyg-702a"
+   "slug": "alfabetstaget-bokstavsledtrad-vader-8f1d",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "weather",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-vader-8f1d"
   },
   {
-   "slug": "addition-hitta-termen-yrken-1439",
-   "type": "addition",
-   "mode": "find-addend",
+   "slug": "alfabetstaget-bokstavsledtrad-var-119d",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
+   "theme": "spring",
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-var-119d"
+  },
+  {
+   "slug": "alfabetstaget-bokstavsledtrad-yrken-4317",
+   "type": "alphabet-train",
+   "mode": "letter-hint",
    "theme": "occupations",
-   "level": "ak-1",
-   "deck": "addition-hitta-termen-yrken-1439"
+   "level": "forskola",
+   "deck": "alfabetstaget-bokstavsledtrad-yrken-4317"
   }
  ]
 }

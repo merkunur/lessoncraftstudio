@@ -2,779 +2,643 @@
  "part": 144,
  "locale": "fr",
  "classes": [
-  "pattern-train::abc",
-  "picture-path::choose-path"
+  "subtraction::image-number",
+  "subtraction::mixed"
  ],
  "splitOf": null,
- "count": 96,
+ "count": 79,
  "pages": [
   {
-   "slug": "train-de-modeles-abc-accessoires-ad54",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-accessoires-b945",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "accessories",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-accessoires-ad54"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-accessoires-b945"
   },
   {
-   "slug": "train-de-modeles-abc-action-de-grace-159f",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-action-de-grace-336d",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "thanksgivinng",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-action-de-grace-159f"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-action-de-grace-336d"
   },
   {
-   "slug": "train-de-modeles-abc-activites-2fae",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "activities",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-activites-2fae"
-  },
-  {
-   "slug": "train-de-modeles-abc-animaux-7a7b",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-animaux-33c8",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "animals",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-animaux-7a7b"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-animaux-33c8"
   },
   {
-   "slug": "train-de-modeles-abc-animaux-de-compagnie-1559",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-animaux-de-compagnie-a31e",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "pets",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-animaux-de-compagnie-1559"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-animaux-de-compagnie-a31e"
   },
   {
-   "slug": "train-de-modeles-abc-animaux-de-la-ferme-1d22",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-animaux-de-la-ferme-d474",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "farm_animals",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-animaux-de-la-ferme-1d22"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-animaux-de-la-ferme-d474"
   },
   {
-   "slug": "train-de-modeles-abc-animaux-du-zoo-61af",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-animaux-du-zoo-ac1f",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "zoo_animals",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-animaux-du-zoo-61af"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-animaux-du-zoo-ac1f"
   },
   {
-   "slug": "train-de-modeles-abc-arbres-233d",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-arbres-3262",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "tree",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-arbres-233d"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-arbres-3262"
   },
   {
-   "slug": "train-de-modeles-abc-au-supermarche-2508",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-au-supermarche-89dd",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "at_the_supermarket",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-au-supermarche-2508"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-au-supermarche-89dd"
   },
   {
-   "slug": "train-de-modeles-abc-autour-de-la-maison-9c72",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-autour-de-la-maison-96cd",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "around_the_house",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-autour-de-la-maison-9c72"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-autour-de-la-maison-96cd"
   },
   {
-   "slug": "train-de-modeles-abc-boulangerie-aee3",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-boulangerie-2716",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "bakery",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-boulangerie-aee3"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-boulangerie-2716"
   },
   {
-   "slug": "train-de-modeles-abc-bureau-de-poste-aea2",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-bureau-de-poste-2f19",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "post_office",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-bureau-de-poste-aea2"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-bureau-de-poste-2f19"
   },
   {
-   "slug": "train-de-modeles-abc-camping-4483",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-camping-3554",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "camping",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-camping-4483"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-camping-3554"
   },
   {
-   "slug": "train-de-modeles-abc-choses-qui-volent-2b41",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-choses-qui-volent-2931",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "things_that_fly",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-choses-qui-volent-2b41"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-choses-qui-volent-2931"
   },
   {
-   "slug": "train-de-modeles-abc-couleurs-0c66",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "colors",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-couleurs-0c66"
-  },
-  {
-   "slug": "train-de-modeles-abc-creatures-de-la-foret-e0bf",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-creatures-de-la-foret-7c06",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "forest_creatures",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-creatures-de-la-foret-e0bf"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-creatures-de-la-foret-7c06"
   },
   {
-   "slug": "train-de-modeles-abc-desserts-et-sucreries-1066",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-desserts-et-sucreries-eb4f",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "desserts_and_sweets",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-desserts-et-sucreries-1066"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-desserts-et-sucreries-eb4f"
   },
   {
-   "slug": "train-de-modeles-abc-dinosaures-c435",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-dinosaures-e4b1",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "dinosaurs",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-dinosaures-c435"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-dinosaures-e4b1"
   },
   {
-   "slug": "train-de-modeles-abc-emotions-1bce",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "emotions",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-emotions-1bce"
-  },
-  {
-   "slug": "train-de-modeles-abc-espace-570a",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-espace-001d",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "space",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-espace-570a"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-espace-001d"
   },
   {
-   "slug": "train-de-modeles-abc-ete-9aad",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "summer",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-ete-9aad"
-  },
-  {
-   "slug": "train-de-modeles-abc-fleurs-6849",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-fleurs-ee8b",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "flowers",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-fleurs-6849"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-fleurs-ee8b"
   },
   {
-   "slug": "train-de-modeles-abc-formes-2656",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-formes-29b6",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "shapes",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-formes-2656"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-formes-29b6"
   },
   {
-   "slug": "train-de-modeles-abc-fruits-4bb3",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-fruits-71c5",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "fruits",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-fruits-4bb3"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-fruits-71c5"
   },
   {
-   "slug": "train-de-modeles-abc-hiver-6ade",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "winter",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-hiver-6ade"
-  },
-  {
-   "slug": "train-de-modeles-abc-hopital-3529",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-hopital-c0a6",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "hospital",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-hopital-3529"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-hopital-c0a6"
   },
   {
-   "slug": "train-de-modeles-abc-insectes-et-bestioles-d2b3",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-insectes-et-bestioles-431b",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "insects_and_bugs",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-insectes-et-bestioles-d2b3"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-insectes-et-bestioles-431b"
   },
   {
-   "slug": "train-de-modeles-abc-jouets-0d6e",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-jouets-f0de",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "toys",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-jouets-0d6e"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-jouets-f0de"
   },
   {
-   "slug": "train-de-modeles-abc-legumes-0cc2",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-legumes-fa52",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "vegetables",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-legumes-0cc2"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-legumes-fa52"
   },
   {
-   "slug": "train-de-modeles-abc-meteo-ab1b",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "weather",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-meteo-ab1b"
-  },
-  {
-   "slug": "train-de-modeles-abc-metiers-f843",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-metiers-071b",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "occupations",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-metiers-f843"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-metiers-071b"
   },
   {
-   "slug": "train-de-modeles-abc-meubles-620a",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-meubles-aff6",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "furniture",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-meubles-620a"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-meubles-aff6"
   },
   {
-   "slug": "train-de-modeles-abc-musique-cf3b",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-musique-5c46",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "music",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-musique-cf3b"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-musique-5c46"
   },
   {
-   "slug": "train-de-modeles-abc-noel-398a",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-noel-20cd",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "christmas",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-noel-398a"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-noel-20cd"
   },
   {
-   "slug": "train-de-modeles-abc-oiseaux-2-1fe3",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-oiseaux-2-e1ae",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "birds_2",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-oiseaux-2-1fe3"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-oiseaux-2-e1ae"
   },
   {
-   "slug": "train-de-modeles-abc-oiseaux-a1d4",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-oiseaux-f25f",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "birds",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-oiseaux-a1d4"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-oiseaux-f25f"
   },
   {
-   "slug": "train-de-modeles-abc-outils-a20b",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-outils-d9f6",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "tools",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-outils-a20b"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-outils-d9f6"
   },
   {
-   "slug": "train-de-modeles-abc-paques-387e",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-paques-70e1",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "easter",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-paques-387e"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-paques-70e1"
   },
   {
-   "slug": "train-de-modeles-abc-parties-du-corps-acb7",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "body_parts",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-parties-du-corps-acb7"
-  },
-  {
-   "slug": "train-de-modeles-abc-petit-dejeuner-f216",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-petit-dejeuner-e4a8",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "breakfast",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-petit-dejeuner-f216"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-petit-dejeuner-e4a8"
   },
   {
-   "slug": "train-de-modeles-abc-plage-b626",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-plage-e345",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "beach",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-plage-b626"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-plage-e345"
   },
   {
-   "slug": "train-de-modeles-abc-printemps-4a61",
-   "type": "pattern-train",
-   "mode": "abc",
-   "theme": "spring",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-printemps-4a61"
-  },
-  {
-   "slug": "train-de-modeles-abc-reptiles-et-amphibiens-5c78",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-reptiles-et-amphibiens-53d0",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "reptiles_and_amphibians",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-reptiles-et-amphibiens-5c78"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-reptiles-et-amphibiens-53d0"
   },
   {
-   "slug": "train-de-modeles-abc-salle-de-classe-8bd4",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-salle-de-classe-297c",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "classroom",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-salle-de-classe-8bd4"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-salle-de-classe-297c"
   },
   {
-   "slug": "train-de-modeles-abc-ustensiles-de-cuisine-e33e",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-ustensiles-de-cuisine-38ed",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "kitchen_tools",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-ustensiles-de-cuisine-e33e"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-ustensiles-de-cuisine-38ed"
   },
   {
-   "slug": "train-de-modeles-abc-vehicules-377f",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-vehicules-8d67",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "vehicles",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-vehicules-377f"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-vehicules-8d67"
   },
   {
-   "slug": "train-de-modeles-abc-vetements-18f7",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-vetements-852c",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "clothing",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-vetements-18f7"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-vetements-852c"
   },
   {
-   "slug": "train-de-modeles-abc-vie-oceanique-fd45",
-   "type": "pattern-train",
-   "mode": "abc",
+   "slug": "soustraction-image-nombre-vie-oceanique-d555",
+   "type": "subtraction",
+   "mode": "image-number",
    "theme": "ocean_life",
-   "level": "maternelle",
-   "deck": "train-de-modeles-abc-vie-oceanique-fd45"
+   "level": "cp",
+   "deck": "soustraction-image-nombre-vie-oceanique-d555"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-accessoires-cef5",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-accessoires-bdf9",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "accessories",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-accessoires-cef5"
+   "level": "cp",
+   "deck": "soustraction-mixte-accessoires-bdf9"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-action-de-grace-15aa",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-action-de-grace-789d",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "thanksgivinng",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-action-de-grace-15aa"
+   "level": "cp",
+   "deck": "soustraction-mixte-action-de-grace-789d"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-activites-85b0",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "activities",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-activites-85b0"
-  },
-  {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-animaux-1077",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "animals",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-animaux-1077"
-  },
-  {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-animaux-de-compagnie-b08a",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-animaux-de-compagnie-7bb6",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "pets",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-animaux-de-compagnie-b08a"
+   "level": "cp",
+   "deck": "soustraction-mixte-animaux-de-compagnie-7bb6"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-animaux-de-la-ferme-5521",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-animaux-de-la-ferme-68bd",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "farm_animals",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-animaux-de-la-ferme-5521"
+   "level": "cp",
+   "deck": "soustraction-mixte-animaux-de-la-ferme-68bd"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-animaux-du-zoo-3fef",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-animaux-du-zoo-79ec",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "zoo_animals",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-animaux-du-zoo-3fef"
+   "level": "cp",
+   "deck": "soustraction-mixte-animaux-du-zoo-79ec"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-arbres-6fd8",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-animaux-f7e0",
+   "type": "subtraction",
+   "mode": "mixed",
+   "theme": "animals",
+   "level": "cp",
+   "deck": "soustraction-mixte-animaux-f7e0"
+  },
+  {
+   "slug": "soustraction-mixte-arbres-8702",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "tree",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-arbres-6fd8"
+   "level": "cp",
+   "deck": "soustraction-mixte-arbres-8702"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-au-supermarche-3431",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-au-supermarche-e4f0",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "at_the_supermarket",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-au-supermarche-3431"
+   "level": "cp",
+   "deck": "soustraction-mixte-au-supermarche-e4f0"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-autour-de-la-maison-5325",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-autour-de-la-maison-5213",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "around_the_house",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-autour-de-la-maison-5325"
+   "level": "cp",
+   "deck": "soustraction-mixte-autour-de-la-maison-5213"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-boulangerie-dfea",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-boulangerie-d587",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "bakery",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-boulangerie-dfea"
+   "level": "cp",
+   "deck": "soustraction-mixte-boulangerie-d587"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-bureau-de-poste-19bb",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-bureau-de-poste-1709",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "post_office",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-bureau-de-poste-19bb"
+   "level": "cp",
+   "deck": "soustraction-mixte-bureau-de-poste-1709"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-camping-ca30",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "camping",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-camping-ca30"
-  },
-  {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-choses-qui-volent-a5c3",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-choses-qui-volent-59f5",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "things_that_fly",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-choses-qui-volent-a5c3"
+   "level": "cp",
+   "deck": "soustraction-mixte-choses-qui-volent-59f5"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-couleurs-52ec",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "colors",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-couleurs-52ec"
-  },
-  {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-creatures-de-la-foret-d528",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-creatures-de-la-foret-1ecb",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "forest_creatures",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-creatures-de-la-foret-d528"
+   "level": "cp",
+   "deck": "soustraction-mixte-creatures-de-la-foret-1ecb"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-desserts-et-sucreries-11eb",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-desserts-et-sucreries-1285",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "desserts_and_sweets",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-desserts-et-sucreries-11eb"
+   "level": "cp",
+   "deck": "soustraction-mixte-desserts-et-sucreries-1285"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-dinosaures-bb1a",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-dinosaures-5123",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "dinosaurs",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-dinosaures-bb1a"
+   "level": "cp",
+   "deck": "soustraction-mixte-dinosaures-5123"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-emotions-c6be",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "emotions",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-emotions-c6be"
-  },
-  {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-espace-325a",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-espace-09db",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "space",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-espace-325a"
+   "level": "cp",
+   "deck": "soustraction-mixte-espace-09db"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-ete-62d2",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "summer",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-ete-62d2"
-  },
-  {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-fleurs-2dbf",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-fleurs-9650",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "flowers",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-fleurs-2dbf"
+   "level": "cp",
+   "deck": "soustraction-mixte-fleurs-9650"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-formes-6b39",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-formes-a282",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "shapes",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-formes-6b39"
+   "level": "cp",
+   "deck": "soustraction-mixte-formes-a282"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-fruits-39e9",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-fruits-9975",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "fruits",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-fruits-39e9"
+   "level": "cp",
+   "deck": "soustraction-mixte-fruits-9975"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-hiver-401a",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "winter",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-hiver-401a"
-  },
-  {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-hopital-7552",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-hopital-9123",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "hospital",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-hopital-7552"
+   "level": "cp",
+   "deck": "soustraction-mixte-hopital-9123"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-insectes-et-bestioles-9dac",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-insectes-et-bestioles-176d",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "insects_and_bugs",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-insectes-et-bestioles-9dac"
+   "level": "cp",
+   "deck": "soustraction-mixte-insectes-et-bestioles-176d"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-jouets-da7c",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-jouets-e233",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "toys",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-jouets-da7c"
+   "level": "cp",
+   "deck": "soustraction-mixte-jouets-e233"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-legumes-dfa7",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-legumes-30c8",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "vegetables",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-legumes-dfa7"
+   "level": "cp",
+   "deck": "soustraction-mixte-legumes-30c8"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-meteo-2d81",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "weather",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-meteo-2d81"
-  },
-  {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-metiers-a1a8",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-metiers-36cb",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "occupations",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-metiers-a1a8"
+   "level": "cp",
+   "deck": "soustraction-mixte-metiers-36cb"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-meubles-ad37",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-meubles-9874",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "furniture",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-meubles-ad37"
+   "level": "cp",
+   "deck": "soustraction-mixte-meubles-9874"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-musique-7c0a",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-musique-6786",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "music",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-musique-7c0a"
+   "level": "cp",
+   "deck": "soustraction-mixte-musique-6786"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-noel-c6d9",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-noel-8e4f",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "christmas",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-noel-c6d9"
+   "level": "cp",
+   "deck": "soustraction-mixte-noel-8e4f"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-oiseaux-2-e3d8",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-oiseaux-2-3d09",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "birds_2",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-oiseaux-2-e3d8"
+   "level": "cp",
+   "deck": "soustraction-mixte-oiseaux-2-3d09"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-oiseaux-9761",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-oiseaux-9eb7",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "birds",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-oiseaux-9761"
+   "level": "cp",
+   "deck": "soustraction-mixte-oiseaux-9eb7"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-outils-cc07",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-outils-95a1",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "tools",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-outils-cc07"
+   "level": "cp",
+   "deck": "soustraction-mixte-outils-95a1"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-paques-9fc5",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-paques-c9ab",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "easter",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-paques-9fc5"
+   "level": "cp",
+   "deck": "soustraction-mixte-paques-c9ab"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-parties-du-corps-c44d",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "body_parts",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-parties-du-corps-c44d"
-  },
-  {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-petit-dejeuner-7b6f",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-petit-dejeuner-8bdd",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "breakfast",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-petit-dejeuner-7b6f"
+   "level": "cp",
+   "deck": "soustraction-mixte-petit-dejeuner-8bdd"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-plage-4a56",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-plage-be3d",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "beach",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-plage-4a56"
+   "level": "cp",
+   "deck": "soustraction-mixte-plage-be3d"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-printemps-2a88",
-   "type": "picture-path",
-   "mode": "choose-path",
-   "theme": "spring",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-printemps-2a88"
-  },
-  {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-reptiles-et-amphibiens-063d",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-reptiles-et-amphibiens-ec52",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "reptiles_and_amphibians",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-reptiles-et-amphibiens-063d"
+   "level": "cp",
+   "deck": "soustraction-mixte-reptiles-et-amphibiens-ec52"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-salle-de-classe-cdb5",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-salle-de-classe-947d",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "classroom",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-salle-de-classe-cdb5"
+   "level": "cp",
+   "deck": "soustraction-mixte-salle-de-classe-947d"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-ustensiles-de-cuisine-5f3e",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-ustensiles-de-cuisine-cd4a",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "kitchen_tools",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-ustensiles-de-cuisine-5f3e"
+   "level": "cp",
+   "deck": "soustraction-mixte-ustensiles-de-cuisine-cd4a"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-vehicules-1b1f",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-vehicules-57cc",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "vehicles",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-vehicules-1b1f"
+   "level": "cp",
+   "deck": "soustraction-mixte-vehicules-57cc"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-vetements-a154",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-vetements-2c0f",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "clothing",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-vetements-a154"
+   "level": "cp",
+   "deck": "soustraction-mixte-vetements-2c0f"
   },
   {
-   "slug": "parcours-illustre-choisis-le-bon-chemin-vie-oceanique-93e1",
-   "type": "picture-path",
-   "mode": "choose-path",
+   "slug": "soustraction-mixte-vie-oceanique-f2d3",
+   "type": "subtraction",
+   "mode": "mixed",
    "theme": "ocean_life",
-   "level": "maternelle",
-   "deck": "parcours-illustre-choisis-le-bon-chemin-vie-oceanique-93e1"
+   "level": "cp",
+   "deck": "soustraction-mixte-vie-oceanique-f2d3"
   }
  ]
 }

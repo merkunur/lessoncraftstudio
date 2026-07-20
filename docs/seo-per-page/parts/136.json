@@ -1,568 +1,724 @@
 {
  "part": 136,
- "locale": "fr",
+ "locale": "pt",
  "classes": [
-  "picture-sort::null"
+  "missing-pieces::two-missing",
+  "sudoku::easy"
  ],
- "splitOf": {
-  "class": "picture-sort::null",
-  "total": 138,
-  "chunk": 1,
-  "chunks": 2
- },
- "count": 69,
+ "splitOf": null,
+ "count": 89,
  "pages": [
   {
-   "slug": "trier-les-images-accessories-vs-activities-631f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-activities",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-activities-631f"
-  },
-  {
-   "slug": "trier-les-images-accessories-vs-animals-7b97",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-animals",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-animals-7b97"
-  },
-  {
-   "slug": "trier-les-images-accessories-vs-around-the-house-9937",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-around_the_house",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-around-the-house-9937"
-  },
-  {
-   "slug": "trier-les-images-accessories-vs-at-the-supermarket-2386",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-at_the_supermarket",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-at-the-supermarket-2386"
-  },
-  {
-   "slug": "trier-les-images-accessories-vs-bakery-7359",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-bakery",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-bakery-7359"
-  },
-  {
-   "slug": "trier-les-images-accessories-vs-beach-05da",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-beach",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-beach-05da"
-  },
-  {
-   "slug": "trier-les-images-accessories-vs-birds-6173",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-birds",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-birds-6173"
-  },
-  {
-   "slug": "trier-les-images-accessories-vs-body-parts-207b",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-body_parts",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-body-parts-207b"
-  },
-  {
-   "slug": "trier-les-images-accessories-vs-breakfast-24a6",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-breakfast",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-breakfast-24a6"
-  },
-  {
-   "slug": "trier-les-images-accessories-vs-camping-0d13",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-camping",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-camping-0d13"
-  },
-  {
-   "slug": "trier-les-images-accessories-vs-christmas-000b",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-christmas",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-christmas-000b"
-  },
-  {
-   "slug": "trier-les-images-accessories-vs-classroom-219f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-classroom",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-classroom-219f"
-  },
-  {
-   "slug": "trier-les-images-accessories-vs-desserts-and-sweets-beec",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-desserts_and_sweets",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-desserts-and-sweets-beec"
+   "slug": "pecas-faltantes-2-pecas-faltando-acampamento-eed5",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "camping",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-acampamento-eed5"
+  },
+  {
+   "slug": "pecas-faltantes-2-pecas-faltando-acessorios-9c41",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "accessories",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-acessorios-9c41"
+  },
+  {
+   "slug": "pecas-faltantes-2-pecas-faltando-animais-5ef3",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "animals",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-animais-5ef3"
+  },
+  {
+   "slug": "pecas-faltantes-2-pecas-faltando-animais-da-fazenda-2474",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "farm_animals",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-animais-da-fazenda-2474"
+  },
+  {
+   "slug": "pecas-faltantes-2-pecas-faltando-animais-de-estimacao-452c",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "pets",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-animais-de-estimacao-452c"
+  },
+  {
+   "slug": "pecas-faltantes-2-pecas-faltando-animais-do-zoologico-a93d",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "zoo_animals",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-animais-do-zoologico-a93d"
+  },
+  {
+   "slug": "pecas-faltantes-2-pecas-faltando-arvores-4437",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "tree",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-arvores-4437"
+  },
+  {
+   "slug": "pecas-faltantes-2-pecas-faltando-atividades-1377",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "activities",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-atividades-1377"
+  },
+  {
+   "slug": "pecas-faltantes-2-pecas-faltando-brinquedos-d3df",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "toys",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-brinquedos-d3df"
+  },
+  {
+   "slug": "pecas-faltantes-2-pecas-faltando-cafe-da-manha-6aaa",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "breakfast",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-cafe-da-manha-6aaa"
+  },
+  {
+   "slug": "pecas-faltantes-2-pecas-faltando-clima-7c7e",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "weather",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-clima-7c7e"
+  },
+  {
+   "slug": "pecas-faltantes-2-pecas-faltando-coisas-que-voam-71f5",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "things_that_fly",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-coisas-que-voam-71f5"
+  },
+  {
+   "slug": "pecas-faltantes-2-pecas-faltando-correios-f868",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "post_office",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-correios-f868"
   },
   {
-   "slug": "trier-les-images-accessories-vs-dinosaurs-a9e1",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-dinosaurs",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-dinosaurs-a9e1"
+   "slug": "pecas-faltantes-2-pecas-faltando-criaturas-da-floresta-ef78",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "forest_creatures",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-criaturas-da-floresta-ef78"
   },
   {
-   "slug": "trier-les-images-accessories-vs-easter-e7f9",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-easter",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-easter-e7f9"
+   "slug": "pecas-faltantes-2-pecas-faltando-dia-de-acao-de-gracas-fd56",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "thanksgivinng",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-dia-de-acao-de-gracas-fd56"
   },
   {
-   "slug": "trier-les-images-accessories-vs-farm-animals-ee3e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-farm_animals",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-farm-animals-ee3e"
+   "slug": "pecas-faltantes-2-pecas-faltando-dinossauros-1cd9",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "dinosaurs",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-dinossauros-1cd9"
   },
   {
-   "slug": "trier-les-images-accessories-vs-flowers-544c",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-flowers",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-flowers-544c"
+   "slug": "pecas-faltantes-2-pecas-faltando-diversos-d1e5",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "miscellaneous",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-diversos-d1e5"
   },
   {
-   "slug": "trier-les-images-accessories-vs-forest-creatures-1680",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-forest_creatures",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-forest-creatures-1680"
+   "slug": "pecas-faltantes-2-pecas-faltando-emocoes-c428",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "emotions",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-emocoes-c428"
   },
   {
-   "slug": "trier-les-images-accessories-vs-fruits-4cc1",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-fruits",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-fruits-4cc1"
+   "slug": "pecas-faltantes-2-pecas-faltando-espaco-6e6f",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "space",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-espaco-6e6f"
   },
   {
-   "slug": "trier-les-images-accessories-vs-furniture-3e85",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-furniture",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-furniture-3e85"
+   "slug": "pecas-faltantes-2-pecas-faltando-ferramentas-bf28",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "tools",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-ferramentas-bf28"
   },
   {
-   "slug": "trier-les-images-accessories-vs-hospital-81f3",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-hospital",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-hospital-81f3"
+   "slug": "pecas-faltantes-2-pecas-faltando-flores-362d",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "flowers",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-flores-362d"
   },
   {
-   "slug": "trier-les-images-accessories-vs-insects-and-bugs-ab29",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-insects_and_bugs",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-insects-and-bugs-ab29"
+   "slug": "pecas-faltantes-2-pecas-faltando-frutas-e62a",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "fruits",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-frutas-e62a"
   },
   {
-   "slug": "trier-les-images-accessories-vs-kitchen-tools-55b6",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-kitchen_tools",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-kitchen-tools-55b6"
+   "slug": "pecas-faltantes-2-pecas-faltando-hospital-6b1b",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "hospital",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-hospital-6b1b"
   },
   {
-   "slug": "trier-les-images-accessories-vs-music-9184",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-music",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-music-9184"
+   "slug": "pecas-faltantes-2-pecas-faltando-insetos-e-bichos-033c",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "insects_and_bugs",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-insetos-e-bichos-033c"
   },
   {
-   "slug": "trier-les-images-accessories-vs-occupations-a3af",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-occupations",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-occupations-a3af"
+   "slug": "pecas-faltantes-2-pecas-faltando-inverno-bc37",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "winter",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-inverno-bc37"
   },
   {
-   "slug": "trier-les-images-accessories-vs-ocean-life-171d",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-ocean_life",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-ocean-life-171d"
+   "slug": "pecas-faltantes-2-pecas-faltando-moveis-d387",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "furniture",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-moveis-d387"
   },
   {
-   "slug": "trier-les-images-accessories-vs-pets-452a",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-pets",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-pets-452a"
+   "slug": "pecas-faltantes-2-pecas-faltando-musica-3c76",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "music",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-musica-3c76"
   },
   {
-   "slug": "trier-les-images-accessories-vs-post-office-ac40",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-post_office",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-post-office-ac40"
+   "slug": "pecas-faltantes-2-pecas-faltando-natal-513a",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "christmas",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-natal-513a"
   },
   {
-   "slug": "trier-les-images-accessories-vs-reptiles-and-amphibians-00e4",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-reptiles_and_amphibians",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-reptiles-and-amphibians-00e4"
+   "slug": "pecas-faltantes-2-pecas-faltando-no-supermercado-924b",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "at_the_supermarket",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-no-supermercado-924b"
   },
   {
-   "slug": "trier-les-images-accessories-vs-shapes-6baf",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-shapes",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-shapes-6baf"
+   "slug": "pecas-faltantes-2-pecas-faltando-padaria-6c02",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "bakery",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-padaria-6c02"
   },
   {
-   "slug": "trier-les-images-accessories-vs-spring-ec29",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-spring",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-spring-ec29"
+   "slug": "pecas-faltantes-2-pecas-faltando-partes-do-corpo-00d7",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "body_parts",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-partes-do-corpo-00d7"
   },
   {
-   "slug": "trier-les-images-accessories-vs-thanksgiving-d089",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-thanksgivinng",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-thanksgiving-d089"
+   "slug": "pecas-faltantes-2-pecas-faltando-pascoa-eebd",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "easter",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-pascoa-eebd"
   },
   {
-   "slug": "trier-les-images-accessories-vs-things-that-fly-291d",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-things_that_fly",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-things-that-fly-291d"
+   "slug": "pecas-faltantes-2-pecas-faltando-passaros-2-cdf9",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "birds_2",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-passaros-2-cdf9"
   },
   {
-   "slug": "trier-les-images-accessories-vs-tools-1ce7",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-tools",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-tools-1ce7"
+   "slug": "pecas-faltantes-2-pecas-faltando-passaros-dbc4",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "birds",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-passaros-dbc4"
   },
   {
-   "slug": "trier-les-images-accessories-vs-toys-8770",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-toys",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-toys-8770"
+   "slug": "pecas-faltantes-2-pecas-faltando-pela-casa-4a5e",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "around_the_house",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-pela-casa-4a5e"
   },
   {
-   "slug": "trier-les-images-accessories-vs-tree-ddc5",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-tree",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-tree-ddc5"
+   "slug": "pecas-faltantes-2-pecas-faltando-praia-e02b",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "beach",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-praia-e02b"
   },
   {
-   "slug": "trier-les-images-accessories-vs-vegetables-fff5",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-vegetables",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-vegetables-fff5"
+   "slug": "pecas-faltantes-2-pecas-faltando-primavera-f5cb",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "spring",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-primavera-f5cb"
   },
   {
-   "slug": "trier-les-images-accessories-vs-vehicles-ae63",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-vehicles",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-vehicles-ae63"
+   "slug": "pecas-faltantes-2-pecas-faltando-profissoes-81b0",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "occupations",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-profissoes-81b0"
   },
   {
-   "slug": "trier-les-images-accessories-vs-weather-b04f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-weather",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-weather-b04f"
+   "slug": "pecas-faltantes-2-pecas-faltando-repteis-e-anfibios-b4f8",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "reptiles_and_amphibians",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-repteis-e-anfibios-b4f8"
   },
   {
-   "slug": "trier-les-images-accessories-vs-winter-b8b2",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-winter",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-winter-b8b2"
+   "slug": "pecas-faltantes-2-pecas-faltando-roupas-18c5",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "clothing",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-roupas-18c5"
   },
   {
-   "slug": "trier-les-images-accessories-vs-zoo-animals-20b3",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "accessories-vs-zoo_animals",
-   "level": "maternelle",
-   "deck": "trier-les-images-accessories-vs-zoo-animals-20b3"
+   "slug": "pecas-faltantes-2-pecas-faltando-sala-de-aula-7ea7",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "classroom",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-sala-de-aula-7ea7"
   },
   {
-   "slug": "trier-les-images-animals-vs-around-the-house-ae66",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-around_the_house",
-   "level": "maternelle",
-   "deck": "trier-les-images-animals-vs-around-the-house-ae66"
+   "slug": "pecas-faltantes-2-pecas-faltando-sobremesas-e-doces-6fba",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "desserts_and_sweets",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-sobremesas-e-doces-6fba"
   },
   {
-   "slug": "trier-les-images-animals-vs-at-the-supermarket-b176",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-at_the_supermarket",
-   "level": "maternelle",
-   "deck": "trier-les-images-animals-vs-at-the-supermarket-b176"
+   "slug": "pecas-faltantes-2-pecas-faltando-utensilios-de-cozinha-3c36",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "kitchen_tools",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-utensilios-de-cozinha-3c36"
   },
   {
-   "slug": "trier-les-images-animals-vs-bakery-02ec",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-bakery",
-   "level": "maternelle",
-   "deck": "trier-les-images-animals-vs-bakery-02ec"
+   "slug": "pecas-faltantes-2-pecas-faltando-vegetais-45e8",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "vegetables",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-vegetais-45e8"
   },
   {
-   "slug": "trier-les-images-animals-vs-christmas-ce37",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-christmas",
-   "level": "maternelle",
-   "deck": "trier-les-images-animals-vs-christmas-ce37"
+   "slug": "pecas-faltantes-2-pecas-faltando-veiculos-424d",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "vehicles",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-veiculos-424d"
   },
   {
-   "slug": "trier-les-images-animals-vs-classroom-c972",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-classroom",
-   "level": "maternelle",
-   "deck": "trier-les-images-animals-vs-classroom-c972"
+   "slug": "pecas-faltantes-2-pecas-faltando-verao-787e",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "summer",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-verao-787e"
   },
   {
-   "slug": "trier-les-images-animals-vs-clothing-48c0",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-clothing",
-   "level": "maternelle",
-   "deck": "trier-les-images-animals-vs-clothing-48c0"
+   "slug": "pecas-faltantes-2-pecas-faltando-vida-marinha-7c7e",
+   "type": "missing-pieces",
+   "mode": "two-missing",
+   "theme": "ocean_life",
+   "level": "educacao-infantil",
+   "deck": "pecas-faltantes-2-pecas-faltando-vida-marinha-7c7e"
   },
   {
-   "slug": "trier-les-images-animals-vs-desserts-and-sweets-5149",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-desserts_and_sweets",
-   "level": "maternelle",
-   "deck": "trier-les-images-animals-vs-desserts-and-sweets-5149"
+   "slug": "sudoku-ilustrado-facil-0150",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "tree",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-0150"
   },
   {
-   "slug": "trier-les-images-animals-vs-dinosaurs-da22",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-dinosaurs",
-   "level": "maternelle",
-   "deck": "trier-les-images-animals-vs-dinosaurs-da22"
+   "slug": "sudoku-ilustrado-facil-0782",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "hospital",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-0782"
   },
   {
-   "slug": "trier-les-images-animals-vs-flowers-ba37",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-flowers",
-   "level": "maternelle",
-   "deck": "trier-les-images-animals-vs-flowers-ba37"
+   "slug": "sudoku-ilustrado-facil-0ace",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "dinosaurs",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-0ace"
   },
   {
-   "slug": "trier-les-images-animals-vs-fruits-20c2",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-fruits",
-   "level": "maternelle",
-   "deck": "trier-les-images-animals-vs-fruits-20c2"
+   "slug": "sudoku-ilustrado-facil-0be6",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "winter",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-0be6"
   },
   {
-   "slug": "trier-les-images-animals-vs-furniture-ced4",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-furniture",
-   "level": "maternelle",
-   "deck": "trier-les-images-animals-vs-furniture-ced4"
+   "slug": "sudoku-ilustrado-facil-0c14",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "occupations",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-0c14"
   },
   {
-   "slug": "trier-les-images-animals-vs-hospital-e86e",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-hospital",
-   "level": "maternelle",
-   "deck": "trier-les-images-animals-vs-hospital-e86e"
+   "slug": "sudoku-ilustrado-facil-1681",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "zoo_animals",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-1681"
   },
   {
-   "slug": "trier-les-images-animals-vs-kitchen-tools-90d3",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-kitchen_tools",
-   "level": "maternelle",
-   "deck": "trier-les-images-animals-vs-kitchen-tools-90d3"
+   "slug": "sudoku-ilustrado-facil-2483",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "weather",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-2483"
   },
   {
-   "slug": "trier-les-images-animals-vs-music-0120",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-music",
-   "level": "maternelle",
-   "deck": "trier-les-images-animals-vs-music-0120"
+   "slug": "sudoku-ilustrado-facil-35fb",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "music",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-35fb"
   },
   {
-   "slug": "trier-les-images-animals-vs-occupations-2dc0",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-occupations",
-   "level": "maternelle",
-   "deck": "trier-les-images-animals-vs-occupations-2dc0"
+   "slug": "sudoku-ilustrado-facil-374f",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "birds",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-374f"
   },
   {
-   "slug": "trier-les-images-animals-vs-post-office-f76f",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-post_office",
-   "level": "maternelle",
-   "deck": "trier-les-images-animals-vs-post-office-f76f"
-  },
-  {
-   "slug": "trier-les-images-animals-vs-summer-2273",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-summer",
-   "level": "maternelle",
-   "deck": "trier-les-images-animals-vs-summer-2273"
-  },
-  {
-   "slug": "trier-les-images-animals-vs-tools-98af",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-tools",
-   "level": "maternelle",
-   "deck": "trier-les-images-animals-vs-tools-98af"
-  },
-  {
-   "slug": "trier-les-images-animals-vs-toys-3cf6",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-toys",
-   "level": "maternelle",
-   "deck": "trier-les-images-animals-vs-toys-3cf6"
-  },
-  {
-   "slug": "trier-les-images-animals-vs-tree-e8c1",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-tree",
-   "level": "maternelle",
-   "deck": "trier-les-images-animals-vs-tree-e8c1"
-  },
-  {
-   "slug": "trier-les-images-animals-vs-vegetables-1977",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-vegetables",
-   "level": "maternelle",
-   "deck": "trier-les-images-animals-vs-vegetables-1977"
-  },
-  {
-   "slug": "trier-les-images-animals-vs-vehicles-ae70",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-vehicles",
-   "level": "maternelle",
-   "deck": "trier-les-images-animals-vs-vehicles-ae70"
-  },
-  {
-   "slug": "trier-les-images-animals-vs-weather-20f2",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-weather",
-   "level": "maternelle",
-   "deck": "trier-les-images-animals-vs-weather-20f2"
-  },
-  {
-   "slug": "trier-les-images-animals-vs-winter-3825",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "animals-vs-winter",
-   "level": "maternelle",
-   "deck": "trier-les-images-animals-vs-winter-3825"
-  },
-  {
-   "slug": "trier-les-images-flowers-vs-accessories-0fdb",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-accessories",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-accessories-0fdb"
-  },
-  {
-   "slug": "trier-les-images-flowers-vs-animals-55b3",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-animals",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-animals-55b3"
-  },
-  {
-   "slug": "trier-les-images-flowers-vs-around-the-house-1699",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-around_the_house",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-around-the-house-1699"
-  },
-  {
-   "slug": "trier-les-images-flowers-vs-at-the-supermarket-36f9",
-   "type": "picture-sort",
-   "mode": null,
-   "theme": "flowers-vs-at_the_supermarket",
-   "level": "maternelle",
-   "deck": "trier-les-images-flowers-vs-at-the-supermarket-36f9"
+   "slug": "sudoku-ilustrado-facil-3a1c",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "ocean_life",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-3a1c"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-3a37",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "miscellaneous",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-3a37"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-3d8d",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "post_office",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-3d8d"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-4b1d",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "colors",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-4b1d"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-4f31",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "shapes",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-4f31"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-576d",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "at_the_supermarket",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-576d"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-5ba6",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "furniture",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-5ba6"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-618d",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "emotions",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-618d"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-634a",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "kitchen_tools",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-634a"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-6533",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "space",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-6533"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-65f6",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "christmas",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-65f6"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-724b",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "fruits",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-724b"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-7429",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "flowers",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-7429"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-75d5",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "vehicles",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-75d5"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-7b8e",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "desserts_and_sweets",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-7b8e"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-8186",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "easter",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-8186"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-825b",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "spring",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-825b"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-8356",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "toys",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-8356"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-8617",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "thanksgivinng",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-8617"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-8cb6",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "animals",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-8cb6"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-9a3a",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "reptiles_and_amphibians",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-9a3a"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-9baf",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "body_parts",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-9baf"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-a515",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "summer",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-a515"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-a9eb",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "clothing",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-a9eb"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-a9ee",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "camping",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-a9ee"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-af79",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "accessories",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-af79"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-b274",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "breakfast",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-b274"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-baee",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "vegetables",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-baee"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-c1ec",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "bakery",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-c1ec"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-c4a7",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "beach",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-c4a7"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-f596",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "forest_creatures",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-f596"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-f970",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "classroom",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-f970"
+  },
+  {
+   "slug": "sudoku-ilustrado-facil-f975",
+   "type": "sudoku",
+   "mode": "easy",
+   "theme": "activities",
+   "level": "educacao-infantil",
+   "deck": "sudoku-ilustrado-facil-f975"
   }
  ]
 }

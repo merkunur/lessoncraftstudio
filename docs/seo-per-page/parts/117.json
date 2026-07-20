@@ -2,763 +2,795 @@
  "part": 117,
  "locale": "pt",
  "classes": [
-  "missing-pieces::one-missing",
-  "missing-pieces::two-missing"
+  "pattern-train::aabb",
+  "pattern-train::abb"
  ],
  "splitOf": null,
- "count": 94,
+ "count": 98,
  "pages": [
   {
-   "slug": "pecas-faltantes-1-peca-faltando-acampamento-1b31",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-acampamento-1d22",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "camping",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-acampamento-1b31"
+   "deck": "trem-de-padroes-aabb-acampamento-1d22"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-acessorios-b5c9",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-acessorios-7127",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "accessories",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-acessorios-b5c9"
+   "deck": "trem-de-padroes-aabb-acessorios-7127"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-animais",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-animais-750f",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "animals",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-animais"
+   "deck": "trem-de-padroes-aabb-animais-750f"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-animais-da-fazenda-ca6e",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-animais-da-fazenda-9dda",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "farm_animals",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-animais-da-fazenda-ca6e"
+   "deck": "trem-de-padroes-aabb-animais-da-fazenda-9dda"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-animais-de-estimacao-7364",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-animais-de-estimacao-dc89",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "pets",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-animais-de-estimacao-7364"
+   "deck": "trem-de-padroes-aabb-animais-de-estimacao-dc89"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-animais-do-zoologico-5d41",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-animais-do-zoologico-3ea9",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "zoo_animals",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-animais-do-zoologico-5d41"
+   "deck": "trem-de-padroes-aabb-animais-do-zoologico-3ea9"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-arvores-bd69",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-arvores-0b10",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "tree",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-arvores-bd69"
+   "deck": "trem-de-padroes-aabb-arvores-0b10"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-atividades-eeb4",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-atividades-5ae3",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "activities",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-atividades-eeb4"
+   "deck": "trem-de-padroes-aabb-atividades-5ae3"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-brinquedos-fcbd",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-brinquedos-7af6",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "toys",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-brinquedos-fcbd"
+   "deck": "trem-de-padroes-aabb-brinquedos-7af6"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-cafe-da-manha-e30d",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-cafe-da-manha-5e61",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "breakfast",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-cafe-da-manha-e30d"
+   "deck": "trem-de-padroes-aabb-cafe-da-manha-5e61"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-clima-c03b",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-clima-b238",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "weather",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-clima-c03b"
+   "deck": "trem-de-padroes-aabb-clima-b238"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-coisas-que-voam-df21",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-coisas-que-voam-025a",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "things_that_fly",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-coisas-que-voam-df21"
+   "deck": "trem-de-padroes-aabb-coisas-que-voam-025a"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-correios-3220",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-cores-927d",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "colors",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aabb-cores-927d"
+  },
+  {
+   "slug": "trem-de-padroes-aabb-correios-89f1",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "post_office",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-correios-3220"
+   "deck": "trem-de-padroes-aabb-correios-89f1"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-criaturas-da-floresta-5a4c",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-criaturas-da-floresta-d9b2",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "forest_creatures",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-criaturas-da-floresta-5a4c"
+   "deck": "trem-de-padroes-aabb-criaturas-da-floresta-d9b2"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-dia-de-acao-de-gracas-b809",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-dia-de-acao-de-gracas-ebe8",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "thanksgivinng",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-dia-de-acao-de-gracas-b809"
+   "deck": "trem-de-padroes-aabb-dia-de-acao-de-gracas-ebe8"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-dinossauros-84a9",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-dinossauros-bead",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "dinosaurs",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-dinossauros-84a9"
+   "deck": "trem-de-padroes-aabb-dinossauros-bead"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-diversos-83ea",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-diversos-f8f4",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "miscellaneous",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-diversos-83ea"
+   "deck": "trem-de-padroes-aabb-diversos-f8f4"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-emocoes-2310",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-emocoes-6f5f",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "emotions",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-emocoes-2310"
+   "deck": "trem-de-padroes-aabb-emocoes-6f5f"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-espaco-bfaa",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-espaco-3a3a",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "space",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-espaco-bfaa"
+   "deck": "trem-de-padroes-aabb-espaco-3a3a"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-ferramentas-5480",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-ferramentas-6086",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "tools",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-ferramentas-5480"
+   "deck": "trem-de-padroes-aabb-ferramentas-6086"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-flores-d376",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-flores-e90e",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "flowers",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-flores-d376"
+   "deck": "trem-de-padroes-aabb-flores-e90e"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-frutas-f39d",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-formas-defa",
+   "type": "pattern-train",
+   "mode": "aabb",
+   "theme": "shapes",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-aabb-formas-defa"
+  },
+  {
+   "slug": "trem-de-padroes-aabb-frutas-0393",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "fruits",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-frutas-f39d"
+   "deck": "trem-de-padroes-aabb-frutas-0393"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-hospital-ac37",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-hospital-ac54",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "hospital",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-hospital-ac37"
+   "deck": "trem-de-padroes-aabb-hospital-ac54"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-insetos-e-bichos-6bc1",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-insetos-e-bichos-dc51",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "insects_and_bugs",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-insetos-e-bichos-6bc1"
+   "deck": "trem-de-padroes-aabb-insetos-e-bichos-dc51"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-inverno-666a",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-inverno-c408",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "winter",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-inverno-666a"
+   "deck": "trem-de-padroes-aabb-inverno-c408"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-moveis-8838",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-moveis-2792",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "furniture",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-moveis-8838"
+   "deck": "trem-de-padroes-aabb-moveis-2792"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-musica-c5da",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-musica-c695",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "music",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-musica-c5da"
+   "deck": "trem-de-padroes-aabb-musica-c695"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-natal-e70f",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-natal-0fd6",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "christmas",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-natal-e70f"
+   "deck": "trem-de-padroes-aabb-natal-0fd6"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-no-supermercado-8070",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-no-supermercado-fae0",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "at_the_supermarket",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-no-supermercado-8070"
+   "deck": "trem-de-padroes-aabb-no-supermercado-fae0"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-padaria-4b74",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-padaria-e819",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "bakery",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-padaria-4b74"
+   "deck": "trem-de-padroes-aabb-padaria-e819"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-partes-do-corpo-6ecd",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-partes-do-corpo-3ad0",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "body_parts",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-partes-do-corpo-6ecd"
+   "deck": "trem-de-padroes-aabb-partes-do-corpo-3ad0"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-pascoa-43ff",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-pascoa-c2a6",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "easter",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-pascoa-43ff"
+   "deck": "trem-de-padroes-aabb-pascoa-c2a6"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-passaros-2-849e",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-passaros-2-2bc8",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "birds_2",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-passaros-2-849e"
+   "deck": "trem-de-padroes-aabb-passaros-2-2bc8"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-passaros-89fb",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-passaros-b299",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "birds",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-passaros-89fb"
+   "deck": "trem-de-padroes-aabb-passaros-b299"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-pela-casa-b5be",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-pela-casa-a908",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "around_the_house",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-pela-casa-b5be"
+   "deck": "trem-de-padroes-aabb-pela-casa-a908"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-praia-24b5",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-praia-bea0",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "beach",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-praia-24b5"
+   "deck": "trem-de-padroes-aabb-praia-bea0"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-primavera-5592",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-primavera-c0bc",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "spring",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-primavera-5592"
+   "deck": "trem-de-padroes-aabb-primavera-c0bc"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-profissoes-9cc5",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-profissoes-d767",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "occupations",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-profissoes-9cc5"
+   "deck": "trem-de-padroes-aabb-profissoes-d767"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-repteis-e-anfibios-f633",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-repteis-e-anfibios-e4c9",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "reptiles_and_amphibians",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-repteis-e-anfibios-f633"
+   "deck": "trem-de-padroes-aabb-repteis-e-anfibios-e4c9"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-roupas-bdec",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-roupas-195c",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "clothing",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-roupas-bdec"
+   "deck": "trem-de-padroes-aabb-roupas-195c"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-sala-de-aula-edff",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-sala-de-aula-b3d6",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "classroom",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-sala-de-aula-edff"
+   "deck": "trem-de-padroes-aabb-sala-de-aula-b3d6"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-sobremesas-e-doces-2a2f",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-sobremesas-e-doces-48c1",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "desserts_and_sweets",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-sobremesas-e-doces-2a2f"
+   "deck": "trem-de-padroes-aabb-sobremesas-e-doces-48c1"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-utensilios-de-cozinha-a1e4",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-utensilios-de-cozinha-1475",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "kitchen_tools",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-utensilios-de-cozinha-a1e4"
+   "deck": "trem-de-padroes-aabb-utensilios-de-cozinha-1475"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-vegetais-ad9e",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-vegetais-de82",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "vegetables",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-vegetais-ad9e"
+   "deck": "trem-de-padroes-aabb-vegetais-de82"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-veiculos-eab6",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-veiculos-7b98",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "vehicles",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-veiculos-eab6"
+   "deck": "trem-de-padroes-aabb-veiculos-7b98"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-verao-2b42",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-verao-acba",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "summer",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-verao-2b42"
+   "deck": "trem-de-padroes-aabb-verao-acba"
   },
   {
-   "slug": "pecas-faltantes-1-peca-faltando-vida-marinha-852d",
-   "type": "missing-pieces",
-   "mode": "one-missing",
+   "slug": "trem-de-padroes-aabb-vida-marinha-3b64",
+   "type": "pattern-train",
+   "mode": "aabb",
    "theme": "ocean_life",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-1-peca-faltando-vida-marinha-852d"
+   "deck": "trem-de-padroes-aabb-vida-marinha-3b64"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-acampamento-eed5",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-acampamento-9ca1",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "camping",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-acampamento-eed5"
+   "deck": "trem-de-padroes-abb-acampamento-9ca1"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-acessorios-9c41",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-acessorios-dc8a",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "accessories",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-acessorios-9c41"
+   "deck": "trem-de-padroes-abb-acessorios-dc8a"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-animais-5ef3",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-animais-9a9a",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "animals",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-animais-5ef3"
+   "deck": "trem-de-padroes-abb-animais-9a9a"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-animais-da-fazenda-2474",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-animais-da-fazenda-5563",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "farm_animals",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-animais-da-fazenda-2474"
+   "deck": "trem-de-padroes-abb-animais-da-fazenda-5563"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-animais-de-estimacao-452c",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-animais-de-estimacao-307d",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "pets",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-animais-de-estimacao-452c"
+   "deck": "trem-de-padroes-abb-animais-de-estimacao-307d"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-animais-do-zoologico-a93d",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-animais-do-zoologico-d30c",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "zoo_animals",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-animais-do-zoologico-a93d"
+   "deck": "trem-de-padroes-abb-animais-do-zoologico-d30c"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-arvores-4437",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-arvores-7497",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "tree",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-arvores-4437"
+   "deck": "trem-de-padroes-abb-arvores-7497"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-atividades-1377",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-atividades-92c3",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "activities",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-atividades-1377"
+   "deck": "trem-de-padroes-abb-atividades-92c3"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-brinquedos-d3df",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-brinquedos-1f19",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "toys",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-brinquedos-d3df"
+   "deck": "trem-de-padroes-abb-brinquedos-1f19"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-cafe-da-manha-6aaa",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-cafe-da-manha-eb12",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "breakfast",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-cafe-da-manha-6aaa"
+   "deck": "trem-de-padroes-abb-cafe-da-manha-eb12"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-clima-7c7e",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-clima-4fdd",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "weather",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-clima-7c7e"
+   "deck": "trem-de-padroes-abb-clima-4fdd"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-coisas-que-voam-71f5",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-coisas-que-voam-a4b0",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "things_that_fly",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-coisas-que-voam-71f5"
+   "deck": "trem-de-padroes-abb-coisas-que-voam-a4b0"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-correios-f868",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-cores-ee63",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "colors",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abb-cores-ee63"
+  },
+  {
+   "slug": "trem-de-padroes-abb-correios-7958",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "post_office",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-correios-f868"
+   "deck": "trem-de-padroes-abb-correios-7958"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-criaturas-da-floresta-ef78",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-criaturas-da-floresta-1d6a",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "forest_creatures",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-criaturas-da-floresta-ef78"
+   "deck": "trem-de-padroes-abb-criaturas-da-floresta-1d6a"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-dia-de-acao-de-gracas-fd56",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-dia-de-acao-de-gracas-e7fc",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "thanksgivinng",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-dia-de-acao-de-gracas-fd56"
+   "deck": "trem-de-padroes-abb-dia-de-acao-de-gracas-e7fc"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-dinossauros-1cd9",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-dinossauros-a146",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "dinosaurs",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-dinossauros-1cd9"
+   "deck": "trem-de-padroes-abb-dinossauros-a146"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-diversos-d1e5",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-diversos-54fd",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "miscellaneous",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-diversos-d1e5"
+   "deck": "trem-de-padroes-abb-diversos-54fd"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-emocoes-c428",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-emocoes-3955",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "emotions",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-emocoes-c428"
+   "deck": "trem-de-padroes-abb-emocoes-3955"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-espaco-6e6f",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-espaco-42f2",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "space",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-espaco-6e6f"
+   "deck": "trem-de-padroes-abb-espaco-42f2"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-ferramentas-bf28",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-ferramentas-8eb7",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "tools",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-ferramentas-bf28"
+   "deck": "trem-de-padroes-abb-ferramentas-8eb7"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-flores-362d",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-flores-0104",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "flowers",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-flores-362d"
+   "deck": "trem-de-padroes-abb-flores-0104"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-frutas-e62a",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-formas-721c",
+   "type": "pattern-train",
+   "mode": "abb",
+   "theme": "shapes",
+   "level": "educacao-infantil",
+   "deck": "trem-de-padroes-abb-formas-721c"
+  },
+  {
+   "slug": "trem-de-padroes-abb-frutas-b20c",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "fruits",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-frutas-e62a"
+   "deck": "trem-de-padroes-abb-frutas-b20c"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-hospital-6b1b",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-hospital-9009",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "hospital",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-hospital-6b1b"
+   "deck": "trem-de-padroes-abb-hospital-9009"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-insetos-e-bichos-033c",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-insetos-e-bichos-226e",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "insects_and_bugs",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-insetos-e-bichos-033c"
+   "deck": "trem-de-padroes-abb-insetos-e-bichos-226e"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-inverno-bc37",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-inverno-7085",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "winter",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-inverno-bc37"
+   "deck": "trem-de-padroes-abb-inverno-7085"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-moveis-d387",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-moveis-4f84",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "furniture",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-moveis-d387"
+   "deck": "trem-de-padroes-abb-moveis-4f84"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-musica-3c76",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-musica-5c1f",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "music",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-musica-3c76"
+   "deck": "trem-de-padroes-abb-musica-5c1f"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-natal-513a",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-natal-7ec0",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "christmas",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-natal-513a"
+   "deck": "trem-de-padroes-abb-natal-7ec0"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-no-supermercado-924b",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-no-supermercado-afde",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "at_the_supermarket",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-no-supermercado-924b"
+   "deck": "trem-de-padroes-abb-no-supermercado-afde"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-padaria-6c02",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-padaria-ee69",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "bakery",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-padaria-6c02"
+   "deck": "trem-de-padroes-abb-padaria-ee69"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-partes-do-corpo-00d7",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-partes-do-corpo-adc7",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "body_parts",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-partes-do-corpo-00d7"
+   "deck": "trem-de-padroes-abb-partes-do-corpo-adc7"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-pascoa-eebd",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-pascoa-2720",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "easter",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-pascoa-eebd"
+   "deck": "trem-de-padroes-abb-pascoa-2720"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-passaros-2-cdf9",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-passaros-2-cb96",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "birds_2",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-passaros-2-cdf9"
+   "deck": "trem-de-padroes-abb-passaros-2-cb96"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-passaros-dbc4",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-passaros-4f1c",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "birds",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-passaros-dbc4"
+   "deck": "trem-de-padroes-abb-passaros-4f1c"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-pela-casa-4a5e",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-pela-casa-5357",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "around_the_house",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-pela-casa-4a5e"
+   "deck": "trem-de-padroes-abb-pela-casa-5357"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-praia-e02b",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-praia-cdc5",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "beach",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-praia-e02b"
+   "deck": "trem-de-padroes-abb-praia-cdc5"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-primavera-f5cb",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-primavera-ce3b",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "spring",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-primavera-f5cb"
+   "deck": "trem-de-padroes-abb-primavera-ce3b"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-profissoes-81b0",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-profissoes-0992",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "occupations",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-profissoes-81b0"
+   "deck": "trem-de-padroes-abb-profissoes-0992"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-repteis-e-anfibios-b4f8",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-repteis-e-anfibios-7da7",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "reptiles_and_amphibians",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-repteis-e-anfibios-b4f8"
+   "deck": "trem-de-padroes-abb-repteis-e-anfibios-7da7"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-roupas-18c5",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-roupas-fe29",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "clothing",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-roupas-18c5"
+   "deck": "trem-de-padroes-abb-roupas-fe29"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-sala-de-aula-7ea7",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-sala-de-aula-166a",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "classroom",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-sala-de-aula-7ea7"
+   "deck": "trem-de-padroes-abb-sala-de-aula-166a"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-sobremesas-e-doces-6fba",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-sobremesas-e-doces-f5b0",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "desserts_and_sweets",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-sobremesas-e-doces-6fba"
+   "deck": "trem-de-padroes-abb-sobremesas-e-doces-f5b0"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-utensilios-de-cozinha-3c36",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-utensilios-de-cozinha-e2bb",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "kitchen_tools",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-utensilios-de-cozinha-3c36"
+   "deck": "trem-de-padroes-abb-utensilios-de-cozinha-e2bb"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-vegetais-45e8",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-vegetais-7132",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "vegetables",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-vegetais-45e8"
+   "deck": "trem-de-padroes-abb-vegetais-7132"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-veiculos-424d",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-veiculos-63bc",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "vehicles",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-veiculos-424d"
+   "deck": "trem-de-padroes-abb-veiculos-63bc"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-verao-787e",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-verao-ec90",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "summer",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-verao-787e"
+   "deck": "trem-de-padroes-abb-verao-ec90"
   },
   {
-   "slug": "pecas-faltantes-2-pecas-faltando-vida-marinha-7c7e",
-   "type": "missing-pieces",
-   "mode": "two-missing",
+   "slug": "trem-de-padroes-abb-vida-marinha-df6b",
+   "type": "pattern-train",
+   "mode": "abb",
    "theme": "ocean_life",
    "level": "educacao-infantil",
-   "deck": "pecas-faltantes-2-pecas-faltando-vida-marinha-7c7e"
+   "deck": "trem-de-padroes-abb-vida-marinha-df6b"
   }
  ]
 }

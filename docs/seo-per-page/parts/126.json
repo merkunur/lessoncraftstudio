@@ -2,667 +2,667 @@
  "part": 126,
  "locale": "pt",
  "classes": [
-  "addition::image-image",
-  "addition::image-number"
+  "more-less::check-cross",
+  "more-less::image-number"
  ],
  "splitOf": null,
  "count": 82,
  "pages": [
   {
-   "slug": "adicao-imagem-imagem-acampamento-2cb8",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-acampamento-a7f5",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "camping",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-acampamento-2cb8"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-acampamento-a7f5"
   },
   {
-   "slug": "adicao-imagem-imagem-acessorios-43bd",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-acessorios-69be",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "accessories",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-acessorios-43bd"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-acessorios-69be"
   },
   {
-   "slug": "adicao-imagem-imagem-animais",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-animais-a24f",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "animals",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-animais"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-animais-a24f"
   },
   {
-   "slug": "adicao-imagem-imagem-animais-da-fazenda-0f10",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-animais-da-fazenda-7aca",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "farm_animals",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-animais-da-fazenda-0f10"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-animais-da-fazenda-7aca"
   },
   {
-   "slug": "adicao-imagem-imagem-animais-de-estimacao-baf8",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-animais-de-estimacao-3e55",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "pets",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-animais-de-estimacao-baf8"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-animais-de-estimacao-3e55"
   },
   {
-   "slug": "adicao-imagem-imagem-animais-do-zoologico-24d8",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-animais-do-zoologico-3c17",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "zoo_animals",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-animais-do-zoologico-24d8"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-animais-do-zoologico-3c17"
   },
   {
-   "slug": "adicao-imagem-imagem-arvores-24a9",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-arvores-6dcf",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "tree",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-arvores-24a9"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-arvores-6dcf"
   },
   {
-   "slug": "adicao-imagem-imagem-brinquedos-6677",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-brinquedos-f9eb",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "toys",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-brinquedos-6677"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-brinquedos-f9eb"
   },
   {
-   "slug": "adicao-imagem-imagem-cafe-da-manha-7a1d",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-cafe-da-manha-f268",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "breakfast",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-cafe-da-manha-7a1d"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-cafe-da-manha-f268"
   },
   {
-   "slug": "adicao-imagem-imagem-coisas-que-voam-6e05",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-coisas-que-voam-a825",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "things_that_fly",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-coisas-que-voam-6e05"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-coisas-que-voam-a825"
   },
   {
-   "slug": "adicao-imagem-imagem-correios-11a9",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-correios-f8fe",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "post_office",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-correios-11a9"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-correios-f8fe"
   },
   {
-   "slug": "adicao-imagem-imagem-criaturas-da-floresta-0cc0",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-criaturas-da-floresta-0ffa",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "forest_creatures",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-criaturas-da-floresta-0cc0"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-criaturas-da-floresta-0ffa"
   },
   {
-   "slug": "adicao-imagem-imagem-dia-de-acao-de-gracas-1207",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-dia-de-acao-de-gracas-7ac7",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "thanksgivinng",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-dia-de-acao-de-gracas-1207"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-dia-de-acao-de-gracas-7ac7"
   },
   {
-   "slug": "adicao-imagem-imagem-dinossauros-4ae9",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-dinossauros-4524",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "dinosaurs",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-dinossauros-4ae9"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-dinossauros-4524"
   },
   {
-   "slug": "adicao-imagem-imagem-diversos-fa3f",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-diversos-f6c6",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "miscellaneous",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-diversos-fa3f"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-diversos-f6c6"
   },
   {
-   "slug": "adicao-imagem-imagem-espaco-6049",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-espaco-de24",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "space",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-espaco-6049"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-espaco-de24"
   },
   {
-   "slug": "adicao-imagem-imagem-ferramentas-1dff",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-ferramentas-83ba",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "tools",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-ferramentas-1dff"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-ferramentas-83ba"
   },
   {
-   "slug": "adicao-imagem-imagem-flores-a7d3",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-flores-5579",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "flowers",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-flores-a7d3"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-flores-5579"
   },
   {
-   "slug": "adicao-imagem-imagem-formas-d91e",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-formas-4cf9",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "shapes",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-formas-d91e"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-formas-4cf9"
   },
   {
-   "slug": "adicao-imagem-imagem-frutas-8fca",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-frutas-e388",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "fruits",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-frutas-8fca"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-frutas-e388"
   },
   {
-   "slug": "adicao-imagem-imagem-hospital-dc77",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-hospital-d0ed",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "hospital",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-hospital-dc77"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-hospital-d0ed"
   },
   {
-   "slug": "adicao-imagem-imagem-insetos-e-bichos-203b",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-insetos-e-bichos-0f01",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "insects_and_bugs",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-insetos-e-bichos-203b"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-insetos-e-bichos-0f01"
   },
   {
-   "slug": "adicao-imagem-imagem-moveis-5eb1",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-moveis-9ded",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "furniture",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-moveis-5eb1"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-moveis-9ded"
   },
   {
-   "slug": "adicao-imagem-imagem-musica-e2c1",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-musica-3989",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "music",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-musica-e2c1"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-musica-3989"
   },
   {
-   "slug": "adicao-imagem-imagem-natal-c5ae",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-natal-48c5",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "christmas",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-natal-c5ae"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-natal-48c5"
   },
   {
-   "slug": "adicao-imagem-imagem-no-supermercado-6074",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-no-supermercado-4794",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "at_the_supermarket",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-no-supermercado-6074"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-no-supermercado-4794"
   },
   {
-   "slug": "adicao-imagem-imagem-padaria-e24e",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-padaria-81ee",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "bakery",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-padaria-e24e"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-padaria-81ee"
   },
   {
-   "slug": "adicao-imagem-imagem-pascoa-049b",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-pascoa-15cf",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "easter",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-pascoa-049b"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-pascoa-15cf"
   },
   {
-   "slug": "adicao-imagem-imagem-passaros-2-ef30",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-passaros-2-7d32",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "birds_2",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-passaros-2-ef30"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-passaros-2-7d32"
   },
   {
-   "slug": "adicao-imagem-imagem-passaros-9f3b",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-passaros-cc0c",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "birds",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-passaros-9f3b"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-passaros-cc0c"
   },
   {
-   "slug": "adicao-imagem-imagem-pela-casa-0bd6",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-pela-casa-4376",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "around_the_house",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-pela-casa-0bd6"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-pela-casa-4376"
   },
   {
-   "slug": "adicao-imagem-imagem-praia-6196",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-praia-2308",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "beach",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-praia-6196"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-praia-2308"
   },
   {
-   "slug": "adicao-imagem-imagem-profissoes-460c",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-profissoes-5ccb",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "occupations",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-profissoes-460c"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-profissoes-5ccb"
   },
   {
-   "slug": "adicao-imagem-imagem-repteis-e-anfibios-2339",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-repteis-e-anfibios-30c5",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "reptiles_and_amphibians",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-repteis-e-anfibios-2339"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-repteis-e-anfibios-30c5"
   },
   {
-   "slug": "adicao-imagem-imagem-roupas-2ebf",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-roupas-f0df",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "clothing",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-roupas-2ebf"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-roupas-f0df"
   },
   {
-   "slug": "adicao-imagem-imagem-sala-de-aula-57f3",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-sala-de-aula-57d7",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "classroom",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-sala-de-aula-57f3"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-sala-de-aula-57d7"
   },
   {
-   "slug": "adicao-imagem-imagem-sobremesas-e-doces-1c3d",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-sobremesas-e-doces-9f8b",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "desserts_and_sweets",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-sobremesas-e-doces-1c3d"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-sobremesas-e-doces-9f8b"
   },
   {
-   "slug": "adicao-imagem-imagem-utensilios-de-cozinha-18e9",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-utensilios-de-cozinha-f27a",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "kitchen_tools",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-utensilios-de-cozinha-18e9"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-utensilios-de-cozinha-f27a"
   },
   {
-   "slug": "adicao-imagem-imagem-vegetais-475a",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-vegetais-87ab",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "vegetables",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-vegetais-475a"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-vegetais-87ab"
   },
   {
-   "slug": "adicao-imagem-imagem-veiculos-0efc",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-veiculos-de36",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "vehicles",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-veiculos-0efc"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-veiculos-de36"
   },
   {
-   "slug": "adicao-imagem-imagem-vida-marinha-e438",
-   "type": "addition",
-   "mode": "image-image",
+   "slug": "mais-ou-menos-marque-e-risque-grupos-vida-marinha-5cb4",
+   "type": "more-less",
+   "mode": "check-cross",
    "theme": "ocean_life",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-imagem-vida-marinha-e438"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-marque-e-risque-grupos-vida-marinha-5cb4"
   },
   {
-   "slug": "adicao-imagem-numero-acampamento-9a35",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-acampamento-43ed",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "camping",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-acampamento-9a35"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-acampamento-43ed"
   },
   {
-   "slug": "adicao-imagem-numero-acessorios-2d5a",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-acessorios-5d1a",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "accessories",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-acessorios-2d5a"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-acessorios-5d1a"
   },
   {
-   "slug": "adicao-imagem-numero-animais-a26e",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-animais-31c2",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "animals",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-animais-a26e"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-animais-31c2"
   },
   {
-   "slug": "adicao-imagem-numero-animais-da-fazenda-5102",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-animais-da-fazenda-716f",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "farm_animals",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-animais-da-fazenda-5102"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-animais-da-fazenda-716f"
   },
   {
-   "slug": "adicao-imagem-numero-animais-de-estimacao-b715",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-animais-de-estimacao-9987",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "pets",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-animais-de-estimacao-b715"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-animais-de-estimacao-9987"
   },
   {
-   "slug": "adicao-imagem-numero-animais-do-zoologico-b315",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-animais-do-zoologico-aa26",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "zoo_animals",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-animais-do-zoologico-b315"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-animais-do-zoologico-aa26"
   },
   {
-   "slug": "adicao-imagem-numero-arvores-dfea",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-arvores-59e3",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "tree",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-arvores-dfea"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-arvores-59e3"
   },
   {
-   "slug": "adicao-imagem-numero-brinquedos-97ec",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-brinquedos-4139",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "toys",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-brinquedos-97ec"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-brinquedos-4139"
   },
   {
-   "slug": "adicao-imagem-numero-cafe-da-manha-a3b6",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-cafe-da-manha-4e24",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "breakfast",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-cafe-da-manha-a3b6"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-cafe-da-manha-4e24"
   },
   {
-   "slug": "adicao-imagem-numero-coisas-que-voam-fd6f",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-coisas-que-voam-dbde",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "things_that_fly",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-coisas-que-voam-fd6f"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-coisas-que-voam-dbde"
   },
   {
-   "slug": "adicao-imagem-numero-correios-b469",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-correios-aaf9",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "post_office",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-correios-b469"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-correios-aaf9"
   },
   {
-   "slug": "adicao-imagem-numero-criaturas-da-floresta-3d98",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-criaturas-da-floresta-bbf0",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "forest_creatures",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-criaturas-da-floresta-3d98"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-criaturas-da-floresta-bbf0"
   },
   {
-   "slug": "adicao-imagem-numero-dia-de-acao-de-gracas-ce25",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-dia-de-acao-de-gracas-e626",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "thanksgivinng",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-dia-de-acao-de-gracas-ce25"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-dia-de-acao-de-gracas-e626"
   },
   {
-   "slug": "adicao-imagem-numero-dinossauros-b04e",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-dinossauros-7f61",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "dinosaurs",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-dinossauros-b04e"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-dinossauros-7f61"
   },
   {
-   "slug": "adicao-imagem-numero-diversos-1d99",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-diversos-4711",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "miscellaneous",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-diversos-1d99"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-diversos-4711"
   },
   {
-   "slug": "adicao-imagem-numero-espaco-fde1",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-espaco-c685",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "space",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-espaco-fde1"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-espaco-c685"
   },
   {
-   "slug": "adicao-imagem-numero-ferramentas-3c14",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-ferramentas-3a99",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "tools",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-ferramentas-3c14"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-ferramentas-3a99"
   },
   {
-   "slug": "adicao-imagem-numero-flores-8323",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-flores-8f6f",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "flowers",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-flores-8323"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-flores-8f6f"
   },
   {
-   "slug": "adicao-imagem-numero-formas-1bf0",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-formas-4536",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "shapes",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-formas-1bf0"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-formas-4536"
   },
   {
-   "slug": "adicao-imagem-numero-frutas-96e0",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-frutas-7c0e",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "fruits",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-frutas-96e0"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-frutas-7c0e"
   },
   {
-   "slug": "adicao-imagem-numero-hospital-21a3",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-hospital-14d1",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "hospital",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-hospital-21a3"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-hospital-14d1"
   },
   {
-   "slug": "adicao-imagem-numero-insetos-e-bichos-2377",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-insetos-e-bichos-4dbe",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "insects_and_bugs",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-insetos-e-bichos-2377"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-insetos-e-bichos-4dbe"
   },
   {
-   "slug": "adicao-imagem-numero-moveis-b432",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-moveis-8509",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "furniture",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-moveis-b432"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-moveis-8509"
   },
   {
-   "slug": "adicao-imagem-numero-musica-0d0d",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-musica-52bf",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "music",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-musica-0d0d"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-musica-52bf"
   },
   {
-   "slug": "adicao-imagem-numero-natal-384e",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-natal-bf7d",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "christmas",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-natal-384e"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-natal-bf7d"
   },
   {
-   "slug": "adicao-imagem-numero-no-supermercado-0442",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-no-supermercado-8f32",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "at_the_supermarket",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-no-supermercado-0442"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-no-supermercado-8f32"
   },
   {
-   "slug": "adicao-imagem-numero-padaria-63b5",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-padaria-ac56",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "bakery",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-padaria-63b5"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-padaria-ac56"
   },
   {
-   "slug": "adicao-imagem-numero-pascoa-5be3",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-pascoa-87e7",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "easter",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-pascoa-5be3"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-pascoa-87e7"
   },
   {
-   "slug": "adicao-imagem-numero-passaros-2-3ff7",
-   "type": "addition",
-   "mode": "image-number",
-   "theme": "birds_2",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-passaros-2-3ff7"
-  },
-  {
-   "slug": "adicao-imagem-numero-passaros-33a7",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-passaros-1ae3",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "birds",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-passaros-33a7"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-passaros-1ae3"
   },
   {
-   "slug": "adicao-imagem-numero-pela-casa-f9d2",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-passaros-2-41e1",
+   "type": "more-less",
+   "mode": "image-number",
+   "theme": "birds_2",
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-passaros-2-41e1"
+  },
+  {
+   "slug": "mais-ou-menos-imagem-numero-pela-casa-41bf",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "around_the_house",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-pela-casa-f9d2"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-pela-casa-41bf"
   },
   {
-   "slug": "adicao-imagem-numero-praia-fe53",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-praia-2cf4",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "beach",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-praia-fe53"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-praia-2cf4"
   },
   {
-   "slug": "adicao-imagem-numero-profissoes-d9d9",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-profissoes-b64a",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "occupations",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-profissoes-d9d9"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-profissoes-b64a"
   },
   {
-   "slug": "adicao-imagem-numero-repteis-e-anfibios-fa49",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-repteis-e-anfibios-2942",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "reptiles_and_amphibians",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-repteis-e-anfibios-fa49"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-repteis-e-anfibios-2942"
   },
   {
-   "slug": "adicao-imagem-numero-roupas-5a98",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-roupas-2e40",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "clothing",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-roupas-5a98"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-roupas-2e40"
   },
   {
-   "slug": "adicao-imagem-numero-sala-de-aula-03c3",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-sala-de-aula-1d36",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "classroom",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-sala-de-aula-03c3"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-sala-de-aula-1d36"
   },
   {
-   "slug": "adicao-imagem-numero-sobremesas-e-doces-1cef",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-sobremesas-e-doces-13c7",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "desserts_and_sweets",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-sobremesas-e-doces-1cef"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-sobremesas-e-doces-13c7"
   },
   {
-   "slug": "adicao-imagem-numero-utensilios-de-cozinha-accc",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-utensilios-de-cozinha-b47a",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "kitchen_tools",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-utensilios-de-cozinha-accc"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-utensilios-de-cozinha-b47a"
   },
   {
-   "slug": "adicao-imagem-numero-vegetais-019a",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-vegetais-a98a",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "vegetables",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-vegetais-019a"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-vegetais-a98a"
   },
   {
-   "slug": "adicao-imagem-numero-veiculos-348d",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-veiculos-c5a8",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "vehicles",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-veiculos-348d"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-veiculos-c5a8"
   },
   {
-   "slug": "adicao-imagem-numero-vida-marinha-93ce",
-   "type": "addition",
+   "slug": "mais-ou-menos-imagem-numero-vida-marinha-d09c",
+   "type": "more-less",
    "mode": "image-number",
    "theme": "ocean_life",
-   "level": "1o-ano",
-   "deck": "adicao-imagem-numero-vida-marinha-93ce"
+   "level": "educacao-infantil",
+   "deck": "mais-ou-menos-imagem-numero-vida-marinha-d09c"
   }
  ]
 }

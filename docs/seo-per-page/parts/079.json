@@ -2,575 +2,567 @@
  "part": 79,
  "locale": "es",
  "classes": [
-  "wordsearch::null"
+  "crossword::null"
  ],
  "splitOf": {
-  "class": "wordsearch::null",
-  "total": 141,
-  "chunk": 2,
+  "class": "crossword::null",
+  "total": 137,
+  "chunk": 1,
   "chunks": 2
  },
- "count": 70,
+ "count": 69,
  "pages": [
   {
-   "slug": "portugues-sopa-de-letras-insectos-y-bichos-0252",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "language-beginner",
-   "deck": "portugues-sopa-de-letras-insectos-y-bichos-0252"
-  },
-  {
-   "slug": "portugues-sopa-de-letras-invierno-d0d9",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "winter",
-   "level": "language-beginner",
-   "deck": "portugues-sopa-de-letras-invierno-d0d9"
-  },
-  {
-   "slug": "portugues-sopa-de-letras-juguetes-de52",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "toys",
-   "level": "language-beginner",
-   "deck": "portugues-sopa-de-letras-juguetes-de52"
-  },
-  {
-   "slug": "portugues-sopa-de-letras-mascotas-7f82",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "pets",
-   "level": "language-beginner",
-   "deck": "portugues-sopa-de-letras-mascotas-7f82"
-  },
-  {
-   "slug": "portugues-sopa-de-letras-muebles-2f63",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "furniture",
-   "level": "language-beginner",
-   "deck": "portugues-sopa-de-letras-muebles-2f63"
-  },
-  {
-   "slug": "portugues-sopa-de-letras-musica-325d",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "music",
-   "level": "language-beginner",
-   "deck": "portugues-sopa-de-letras-musica-325d"
-  },
-  {
-   "slug": "portugues-sopa-de-letras-navidad-5877",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "christmas",
-   "level": "language-beginner",
-   "deck": "portugues-sopa-de-letras-navidad-5877"
-  },
-  {
-   "slug": "portugues-sopa-de-letras-ocupaciones-b3ef",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "occupations",
-   "level": "language-beginner",
-   "deck": "portugues-sopa-de-letras-ocupaciones-b3ef"
-  },
-  {
-   "slug": "portugues-sopa-de-letras-oficina-de-correos-9f44",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "post_office",
-   "level": "language-beginner",
-   "deck": "portugues-sopa-de-letras-oficina-de-correos-9f44"
-  },
-  {
-   "slug": "portugues-sopa-de-letras-panaderia-5fb1",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "bakery",
-   "level": "language-beginner",
-   "deck": "portugues-sopa-de-letras-panaderia-5fb1"
-  },
-  {
-   "slug": "portugues-sopa-de-letras-partes-del-cuerpo-eb46",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "language-beginner",
-   "deck": "portugues-sopa-de-letras-partes-del-cuerpo-eb46"
-  },
-  {
-   "slug": "portugues-sopa-de-letras-pascua-1c33",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "easter",
-   "level": "language-beginner",
-   "deck": "portugues-sopa-de-letras-pascua-1c33"
-  },
-  {
-   "slug": "portugues-sopa-de-letras-playa-8807",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "beach",
-   "level": "language-beginner",
-   "deck": "portugues-sopa-de-letras-playa-8807"
-  },
-  {
-   "slug": "portugues-sopa-de-letras-postres-y-dulces-ca41",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "language-beginner",
-   "deck": "portugues-sopa-de-letras-postres-y-dulces-ca41"
-  },
-  {
-   "slug": "portugues-sopa-de-letras-primavera-c092",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "spring",
-   "level": "language-beginner",
-   "deck": "portugues-sopa-de-letras-primavera-c092"
-  },
-  {
-   "slug": "portugues-sopa-de-letras-reptiles-y-anfibios-085f",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "reptiles_and_amphibians",
-   "level": "language-beginner",
-   "deck": "portugues-sopa-de-letras-reptiles-y-anfibios-085f"
-  },
-  {
-   "slug": "portugues-sopa-de-letras-ropa-139e",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "clothing",
-   "level": "language-beginner",
-   "deck": "portugues-sopa-de-letras-ropa-139e"
-  },
-  {
-   "slug": "portugues-sopa-de-letras-salon-de-clases-3a4a",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "classroom",
-   "level": "language-beginner",
-   "deck": "portugues-sopa-de-letras-salon-de-clases-3a4a"
-  },
-  {
-   "slug": "portugues-sopa-de-letras-utensilios-de-cocina-5e91",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "language-beginner",
-   "deck": "portugues-sopa-de-letras-utensilios-de-cocina-5e91"
-  },
-  {
-   "slug": "portugues-sopa-de-letras-vehiculos-63df",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "vehicles",
-   "level": "language-beginner",
-   "deck": "portugues-sopa-de-letras-vehiculos-63df"
-  },
-  {
-   "slug": "portugues-sopa-de-letras-verano-3e24",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "summer",
-   "level": "language-beginner",
-   "deck": "portugues-sopa-de-letras-verano-3e24"
-  },
-  {
-   "slug": "portugues-sopa-de-letras-verduras-c2dd",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "vegetables",
-   "level": "language-beginner",
-   "deck": "portugues-sopa-de-letras-verduras-c2dd"
-  },
-  {
-   "slug": "portugues-sopa-de-letras-vida-marina-21d3",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "ocean_life",
-   "level": "language-beginner",
-   "deck": "portugues-sopa-de-letras-vida-marina-21d3"
-  },
-  {
-   "slug": "sopa-de-letras",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "ocean_life",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras"
-  },
-  {
-   "slug": "sopa-de-letras-4-de-julio-6b8d",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "4th_of_july",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-4-de-julio-6b8d"
-  },
-  {
-   "slug": "sopa-de-letras-accesorios-74dc",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "accessories",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-accesorios-74dc"
-  },
-  {
-   "slug": "sopa-de-letras-actividades-200f",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "activities",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-actividades-200f"
-  },
-  {
-   "slug": "sopa-de-letras-animales-766e",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "animals",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-animales-766e"
-  },
-  {
-   "slug": "sopa-de-letras-animales-de-granja-d206",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "farm_animals",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-animales-de-granja-d206"
-  },
-  {
-   "slug": "sopa-de-letras-animales-del-zoologico-a929",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "zoo_animals",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-animales-del-zoologico-a929"
-  },
-  {
-   "slug": "sopa-de-letras-arboles-b64b",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "tree",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-arboles-b64b"
-  },
-  {
-   "slug": "sopa-de-letras-aves-f097",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "birds",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-aves-f097"
-  },
-  {
-   "slug": "sopa-de-letras-campamento-11f0",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "camping",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-campamento-11f0"
-  },
-  {
-   "slug": "sopa-de-letras-clima-7263",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "weather",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-clima-7263"
-  },
-  {
-   "slug": "sopa-de-letras-colores-caf0",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "colors",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-colores-caf0"
-  },
-  {
-   "slug": "sopa-de-letras-cosas-que-vuelan-2d2f",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "things_that_fly",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-cosas-que-vuelan-2d2f"
-  },
-  {
-   "slug": "sopa-de-letras-criaturas-del-bosque-4b60",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "forest_creatures",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-criaturas-del-bosque-4b60"
-  },
-  {
-   "slug": "sopa-de-letras-desayuno-ea70",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "breakfast",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-desayuno-ea70"
-  },
-  {
-   "slug": "sopa-de-letras-dia-de-accion-de-gracias-3c2b",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "thanksgivinng",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-dia-de-accion-de-gracias-3c2b"
-  },
-  {
-   "slug": "sopa-de-letras-emociones-08e3",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "emotions",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-emociones-08e3"
-  },
-  {
-   "slug": "sopa-de-letras-en-el-supermercado-8c13",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "at_the_supermarket",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-en-el-supermercado-8c13"
-  },
-  {
-   "slug": "sopa-de-letras-espacio-1f17",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "space",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-espacio-1f17"
-  },
-  {
-   "slug": "sopa-de-letras-flores-2101",
-   "type": "wordsearch",
+   "slug": "crucigrama-0360",
+   "type": "crossword",
    "mode": null,
    "theme": "flowers",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-flores-2101"
+   "level": "segundo-grado",
+   "deck": "crucigrama-0360"
   },
   {
-   "slug": "sopa-de-letras-formas-6712",
-   "type": "wordsearch",
+   "slug": "crucigrama-0798",
+   "type": "crossword",
    "mode": null,
-   "theme": "shapes",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-formas-6712"
+   "theme": "birds_2",
+   "level": "segundo-grado",
+   "deck": "crucigrama-0798"
   },
   {
-   "slug": "sopa-de-letras-frutas-e5ba",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "fruits",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-frutas-e5ba"
-  },
-  {
-   "slug": "sopa-de-letras-herramientas-a8f8",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "tools",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-herramientas-a8f8"
-  },
-  {
-   "slug": "sopa-de-letras-hospital-3136",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "hospital",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-hospital-3136"
-  },
-  {
-   "slug": "sopa-de-letras-insectos-y-bichos-0064",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "insects_and_bugs",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-insectos-y-bichos-0064"
-  },
-  {
-   "slug": "sopa-de-letras-invierno-9dea",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "winter",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-invierno-9dea"
-  },
-  {
-   "slug": "sopa-de-letras-juguetes-fdfb",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "toys",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-juguetes-fdfb"
-  },
-  {
-   "slug": "sopa-de-letras-mascotas-cc0c",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "pets",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-mascotas-cc0c"
-  },
-  {
-   "slug": "sopa-de-letras-miscelaneo-3593",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "miscellaneous",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-miscelaneo-3593"
-  },
-  {
-   "slug": "sopa-de-letras-muebles-86d3",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "furniture",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-muebles-86d3"
-  },
-  {
-   "slug": "sopa-de-letras-musica-ed09",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "music",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-musica-ed09"
-  },
-  {
-   "slug": "sopa-de-letras-navidad-e828",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "christmas",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-navidad-e828"
-  },
-  {
-   "slug": "sopa-de-letras-ocupaciones-4338",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "occupations",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-ocupaciones-4338"
-  },
-  {
-   "slug": "sopa-de-letras-oficina-de-correos-2985",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "post_office",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-oficina-de-correos-2985"
-  },
-  {
-   "slug": "sopa-de-letras-panaderia-7dc5",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "bakery",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-panaderia-7dc5"
-  },
-  {
-   "slug": "sopa-de-letras-partes-del-cuerpo-52a5",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "body_parts",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-partes-del-cuerpo-52a5"
-  },
-  {
-   "slug": "sopa-de-letras-pascua-e35a",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "easter",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-pascua-e35a"
-  },
-  {
-   "slug": "sopa-de-letras-playa-f07b",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "beach",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-playa-f07b"
-  },
-  {
-   "slug": "sopa-de-letras-postres-y-dulces-89c6",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "desserts_and_sweets",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-postres-y-dulces-89c6"
-  },
-  {
-   "slug": "sopa-de-letras-primavera-6b9c",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "spring",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-primavera-6b9c"
-  },
-  {
-   "slug": "sopa-de-letras-reptiles-y-anfibios-733f",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "reptiles_and_amphibians",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-reptiles-y-anfibios-733f"
-  },
-  {
-   "slug": "sopa-de-letras-ropa-92b3",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "clothing",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-ropa-92b3"
-  },
-  {
-   "slug": "sopa-de-letras-salon-de-clases-1dce",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "classroom",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-salon-de-clases-1dce"
-  },
-  {
-   "slug": "sopa-de-letras-utensilios-de-cocina-2119",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "kitchen_tools",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-utensilios-de-cocina-2119"
-  },
-  {
-   "slug": "sopa-de-letras-vehiculos-f5ef",
-   "type": "wordsearch",
-   "mode": null,
-   "theme": "vehicles",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-vehiculos-f5ef"
-  },
-  {
-   "slug": "sopa-de-letras-verano-79a9",
-   "type": "wordsearch",
+   "slug": "crucigrama-0887",
+   "type": "crossword",
    "mode": null,
    "theme": "summer",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-verano-79a9"
+   "level": "segundo-grado",
+   "deck": "crucigrama-0887"
   },
   {
-   "slug": "sopa-de-letras-verduras-07d6",
-   "type": "wordsearch",
+   "slug": "crucigrama-0a1f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "clothing",
+   "level": "segundo-grado",
+   "deck": "crucigrama-0a1f"
+  },
+  {
+   "slug": "crucigrama-0d02",
+   "type": "crossword",
+   "mode": null,
+   "theme": "winter",
+   "level": "segundo-grado",
+   "deck": "crucigrama-0d02"
+  },
+  {
+   "slug": "crucigrama-118f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "shapes",
+   "level": "segundo-grado",
+   "deck": "crucigrama-118f"
+  },
+  {
+   "slug": "crucigrama-12b0",
+   "type": "crossword",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "segundo-grado",
+   "deck": "crucigrama-12b0"
+  },
+  {
+   "slug": "crucigrama-1a83",
+   "type": "crossword",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "segundo-grado",
+   "deck": "crucigrama-1a83"
+  },
+  {
+   "slug": "crucigrama-1ba5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "level": "segundo-grado",
+   "deck": "crucigrama-1ba5"
+  },
+  {
+   "slug": "crucigrama-2ace",
+   "type": "crossword",
+   "mode": null,
+   "theme": "hospital",
+   "level": "segundo-grado",
+   "deck": "crucigrama-2ace"
+  },
+  {
+   "slug": "crucigrama-4540",
+   "type": "crossword",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "segundo-grado",
+   "deck": "crucigrama-4540"
+  },
+  {
+   "slug": "crucigrama-49fd",
+   "type": "crossword",
    "mode": null,
    "theme": "vegetables",
-   "level": "primer-grado",
-   "deck": "sopa-de-letras-verduras-07d6"
+   "level": "segundo-grado",
+   "deck": "crucigrama-49fd"
+  },
+  {
+   "slug": "crucigrama-4f72",
+   "type": "crossword",
+   "mode": null,
+   "theme": "classroom",
+   "level": "segundo-grado",
+   "deck": "crucigrama-4f72"
+  },
+  {
+   "slug": "crucigrama-5cc0",
+   "type": "crossword",
+   "mode": null,
+   "theme": "occupations",
+   "level": "segundo-grado",
+   "deck": "crucigrama-5cc0"
+  },
+  {
+   "slug": "crucigrama-5ceb",
+   "type": "crossword",
+   "mode": null,
+   "theme": "furniture",
+   "level": "segundo-grado",
+   "deck": "crucigrama-5ceb"
+  },
+  {
+   "slug": "crucigrama-5d9b",
+   "type": "crossword",
+   "mode": null,
+   "theme": "activities",
+   "level": "segundo-grado",
+   "deck": "crucigrama-5d9b"
+  },
+  {
+   "slug": "crucigrama-6338",
+   "type": "crossword",
+   "mode": null,
+   "theme": "spring",
+   "level": "segundo-grado",
+   "deck": "crucigrama-6338"
+  },
+  {
+   "slug": "crucigrama-68ec",
+   "type": "crossword",
+   "mode": null,
+   "theme": "camping",
+   "level": "segundo-grado",
+   "deck": "crucigrama-68ec"
+  },
+  {
+   "slug": "crucigrama-6ead",
+   "type": "crossword",
+   "mode": null,
+   "theme": "music",
+   "level": "segundo-grado",
+   "deck": "crucigrama-6ead"
+  },
+  {
+   "slug": "crucigrama-7277",
+   "type": "crossword",
+   "mode": null,
+   "theme": "fruits",
+   "level": "segundo-grado",
+   "deck": "crucigrama-7277"
+  },
+  {
+   "slug": "crucigrama-7a46",
+   "type": "crossword",
+   "mode": null,
+   "theme": "easter",
+   "level": "segundo-grado",
+   "deck": "crucigrama-7a46"
+  },
+  {
+   "slug": "crucigrama-7f81",
+   "type": "crossword",
+   "mode": null,
+   "theme": "colors",
+   "level": "segundo-grado",
+   "deck": "crucigrama-7f81"
+  },
+  {
+   "slug": "crucigrama-81c5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "christmas",
+   "level": "segundo-grado",
+   "deck": "crucigrama-81c5"
+  },
+  {
+   "slug": "crucigrama-98f3",
+   "type": "crossword",
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "level": "segundo-grado",
+   "deck": "crucigrama-98f3"
+  },
+  {
+   "slug": "crucigrama-99c2",
+   "type": "crossword",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "segundo-grado",
+   "deck": "crucigrama-99c2"
+  },
+  {
+   "slug": "crucigrama-9f1c",
+   "type": "crossword",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "segundo-grado",
+   "deck": "crucigrama-9f1c"
+  },
+  {
+   "slug": "crucigrama-a22f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "segundo-grado",
+   "deck": "crucigrama-a22f"
+  },
+  {
+   "slug": "crucigrama-a8d6",
+   "type": "crossword",
+   "mode": null,
+   "theme": "bakery",
+   "level": "segundo-grado",
+   "deck": "crucigrama-a8d6"
+  },
+  {
+   "slug": "crucigrama-b028",
+   "type": "crossword",
+   "mode": null,
+   "theme": "ocean_life",
+   "level": "segundo-grado",
+   "deck": "crucigrama-b028"
+  },
+  {
+   "slug": "crucigrama-b8cb",
+   "type": "crossword",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "segundo-grado",
+   "deck": "crucigrama-b8cb"
+  },
+  {
+   "slug": "crucigrama-bc8d",
+   "type": "crossword",
+   "mode": null,
+   "theme": "emotions",
+   "level": "segundo-grado",
+   "deck": "crucigrama-bc8d"
+  },
+  {
+   "slug": "crucigrama-c2d2",
+   "type": "crossword",
+   "mode": null,
+   "theme": "vehicles",
+   "level": "segundo-grado",
+   "deck": "crucigrama-c2d2"
+  },
+  {
+   "slug": "crucigrama-c9ae",
+   "type": "crossword",
+   "mode": null,
+   "theme": "space",
+   "level": "segundo-grado",
+   "deck": "crucigrama-c9ae"
+  },
+  {
+   "slug": "crucigrama-c9f9",
+   "type": "crossword",
+   "mode": null,
+   "theme": "miscellaneous",
+   "level": "segundo-grado",
+   "deck": "crucigrama-c9f9"
+  },
+  {
+   "slug": "crucigrama-cb93",
+   "type": "crossword",
+   "mode": null,
+   "theme": "toys",
+   "level": "segundo-grado",
+   "deck": "crucigrama-cb93"
+  },
+  {
+   "slug": "crucigrama-cdc3",
+   "type": "crossword",
+   "mode": null,
+   "theme": "beach",
+   "level": "segundo-grado",
+   "deck": "crucigrama-cdc3"
+  },
+  {
+   "slug": "crucigrama-d3f2",
+   "type": "crossword",
+   "mode": null,
+   "theme": "kitchen_tools",
+   "level": "segundo-grado",
+   "deck": "crucigrama-d3f2"
+  },
+  {
+   "slug": "crucigrama-d916",
+   "type": "crossword",
+   "mode": null,
+   "theme": "body_parts",
+   "level": "segundo-grado",
+   "deck": "crucigrama-d916"
+  },
+  {
+   "slug": "crucigrama-da30",
+   "type": "crossword",
+   "mode": null,
+   "theme": "pets",
+   "level": "segundo-grado",
+   "deck": "crucigrama-da30"
+  },
+  {
+   "slug": "crucigrama-dd92",
+   "type": "crossword",
+   "mode": null,
+   "theme": "weather",
+   "level": "segundo-grado",
+   "deck": "crucigrama-dd92"
+  },
+  {
+   "slug": "crucigrama-ddfc",
+   "type": "crossword",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "segundo-grado",
+   "deck": "crucigrama-ddfc"
+  },
+  {
+   "slug": "crucigrama-e1b5",
+   "type": "crossword",
+   "mode": null,
+   "theme": "accessories",
+   "level": "segundo-grado",
+   "deck": "crucigrama-e1b5"
+  },
+  {
+   "slug": "crucigrama-e3eb",
+   "type": "crossword",
+   "mode": null,
+   "theme": "animals",
+   "level": "segundo-grado",
+   "deck": "crucigrama-e3eb"
+  },
+  {
+   "slug": "crucigrama-ef5d",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds",
+   "level": "segundo-grado",
+   "deck": "crucigrama-ef5d"
+  },
+  {
+   "slug": "crucigrama-f7f8",
+   "type": "crossword",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "segundo-grado",
+   "deck": "crucigrama-f7f8"
+  },
+  {
+   "slug": "crucigrama-f84f",
+   "type": "crossword",
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "level": "segundo-grado",
+   "deck": "crucigrama-f84f"
+  },
+  {
+   "slug": "ingles-crucigrama-4-de-julio-0a56",
+   "type": "crossword",
+   "mode": null,
+   "theme": "4th_of_july",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-4-de-julio-0a56"
+  },
+  {
+   "slug": "ingles-crucigrama-accesorios-2eea",
+   "type": "crossword",
+   "mode": null,
+   "theme": "accessories",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-accesorios-2eea"
+  },
+  {
+   "slug": "ingles-crucigrama-actividades-4d9e",
+   "type": "crossword",
+   "mode": null,
+   "theme": "activities",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-actividades-4d9e"
+  },
+  {
+   "slug": "ingles-crucigrama-alrededor-de-la-casa-0022",
+   "type": "crossword",
+   "mode": null,
+   "theme": "around_the_house",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-alrededor-de-la-casa-0022"
+  },
+  {
+   "slug": "ingles-crucigrama-animales-37c6",
+   "type": "crossword",
+   "mode": null,
+   "theme": "animals",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-animales-37c6"
+  },
+  {
+   "slug": "ingles-crucigrama-animales-de-granja-62ba",
+   "type": "crossword",
+   "mode": null,
+   "theme": "farm_animals",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-animales-de-granja-62ba"
+  },
+  {
+   "slug": "ingles-crucigrama-animales-del-zoologico-5520",
+   "type": "crossword",
+   "mode": null,
+   "theme": "zoo_animals",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-animales-del-zoologico-5520"
+  },
+  {
+   "slug": "ingles-crucigrama-aves-2-c643",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds_2",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-aves-2-c643"
+  },
+  {
+   "slug": "ingles-crucigrama-aves-3fab",
+   "type": "crossword",
+   "mode": null,
+   "theme": "birds",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-aves-3fab"
+  },
+  {
+   "slug": "ingles-crucigrama-campamento-1595",
+   "type": "crossword",
+   "mode": null,
+   "theme": "camping",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-campamento-1595"
+  },
+  {
+   "slug": "ingles-crucigrama-clima-1b28",
+   "type": "crossword",
+   "mode": null,
+   "theme": "weather",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-clima-1b28"
+  },
+  {
+   "slug": "ingles-crucigrama-colores-0fed",
+   "type": "crossword",
+   "mode": null,
+   "theme": "colors",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-colores-0fed"
+  },
+  {
+   "slug": "ingles-crucigrama-cosas-que-vuelan-31e0",
+   "type": "crossword",
+   "mode": null,
+   "theme": "things_that_fly",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-cosas-que-vuelan-31e0"
+  },
+  {
+   "slug": "ingles-crucigrama-criaturas-del-bosque-2599",
+   "type": "crossword",
+   "mode": null,
+   "theme": "forest_creatures",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-criaturas-del-bosque-2599"
+  },
+  {
+   "slug": "ingles-crucigrama-desayuno-7949",
+   "type": "crossword",
+   "mode": null,
+   "theme": "breakfast",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-desayuno-7949"
+  },
+  {
+   "slug": "ingles-crucigrama-dia-de-accion-de-gracias-a567",
+   "type": "crossword",
+   "mode": null,
+   "theme": "thanksgivinng",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-dia-de-accion-de-gracias-a567"
+  },
+  {
+   "slug": "ingles-crucigrama-emociones-8820",
+   "type": "crossword",
+   "mode": null,
+   "theme": "emotions",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-emociones-8820"
+  },
+  {
+   "slug": "ingles-crucigrama-en-el-supermercado-7ef9",
+   "type": "crossword",
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-en-el-supermercado-7ef9"
+  },
+  {
+   "slug": "ingles-crucigrama-espacio-2978",
+   "type": "crossword",
+   "mode": null,
+   "theme": "space",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-espacio-2978"
+  },
+  {
+   "slug": "ingles-crucigrama-flores-1dbe",
+   "type": "crossword",
+   "mode": null,
+   "theme": "flowers",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-flores-1dbe"
+  },
+  {
+   "slug": "ingles-crucigrama-formas-69a3",
+   "type": "crossword",
+   "mode": null,
+   "theme": "shapes",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-formas-69a3"
+  },
+  {
+   "slug": "ingles-crucigrama-frutas-15ed",
+   "type": "crossword",
+   "mode": null,
+   "theme": "fruits",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-frutas-15ed"
+  },
+  {
+   "slug": "ingles-crucigrama-herramientas-dc20",
+   "type": "crossword",
+   "mode": null,
+   "theme": "tools",
+   "level": "language-beginner",
+   "deck": "ingles-crucigrama-herramientas-dc20"
   }
  ]
 }

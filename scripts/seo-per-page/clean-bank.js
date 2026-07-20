@@ -49,6 +49,10 @@ const WRONG_INTENT = new RegExp('(' + [
   'teacherspayteachers', 'education\\.com', 'splashlearn', 'starfall',
   '\\bapps?\\b', 'youtube', 'netflix', '\\bmovies?\\b', '\\bcourse\\b', '\\bclasses\\b',
   '^how to\\b', '^is\\b', '^why\\b', '^what is\\b', '\\bsalary\\b', '\\bjobs?\\b',
+  // A printable is not a book, a DVD or a physical product. "learn german for
+  // kids book" was assigned to a crossword page. \\bbook\\b leaves "workbook"
+  // intact, since that is a single token.
+  '\\bbooks?\\b', '\\bdvds?\\b', '\\bcds?\\b', 'subscription', '\\btoys?\\b', 'amazon',
 ].join('|') + ')', 'i');
 
 function classify(q) {

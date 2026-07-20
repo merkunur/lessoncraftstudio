@@ -101,6 +101,27 @@ function loadFile(locale: string): LandingFile | null {
   return data;
 }
 
+/**
+ * When this locale's landing COPY last changed, in epoch ms, or 0 if unreadable.
+ *
+ * The sitemap previously dated every landing by the deck's GENERATION date, which read
+ * 2026-05-10 for most of them — honest about the wrong event. A sitemap `lastmod` means when
+ * the URL's content last changed, and a landing's content is this file: its titles and meta
+ * descriptions were re-keyed through June and July, and none of that was visible to Google.
+ *
+ * One stat per locale, not per URL — the shard builder loops locales on the outside.
+ */
+export function landingContentMtimeMs(locale: string): number {
+  if (!LANDING_LOCALES.includes(locale)) return 0;
+  for (const dir of _LANDING_DIRS) {
+    const p = path.join(dir, `${locale}.json`);
+    try {
+      if (fs.existsSync(p)) return fs.statSync(p).mtimeMs;
+    } catch { /* try next candidate */ }
+  }
+  return 0;
+}
+
 export function getLandingLocales(): string[] {
   return LANDING_LOCALES.slice();
 }

@@ -32,6 +32,7 @@ import { prisma } from '@/lib/prisma';
 import { buildDeckRichAlt } from '@/lib/deck-seo';
 import { buildDeckHreflangLinks, type SitemapSibling } from '@/lib/seo/deck-sitemap-hreflang';
 import { landingSlugForDeck } from '@/lib/seo/landing-content';
+import { deckLastModified } from '@/lib/seo/deck-file-mtime';
 
 export const revalidate = 1800;
 
@@ -165,7 +166,7 @@ async function buildShard(decks: ReadonlyArray<DeckRow>, partition: number): Pro
       '<url>',
       `  <loc>${xmlEscape(deckUrl)}</loc>`,
       ...hreflangLinks,
-      `  <lastmod>${d.updatedAt.toISOString()}</lastmod>`,
+      `  <lastmod>${deckLastModified(d.language, d.slug, d.updatedAt).toISOString()}</lastmod>`,
       '  <changefreq>weekly</changefreq>',
       '  <priority>0.7</priority>',
       '  <image:image>',

@@ -328,6 +328,16 @@
               "Un chien court vite."
             ]
           }
+        ],
+        "es": [
+          { "id": "semilla", "band": 1, "mode": "sequence", "stem": "Primero, plantas una semilla.", "question": "¿Qué pasa después?", "answer": "Crece una planta.", "options": ["Crece una planta.", "Un perro ladra.", "El gato duerme."] },
+          { "id": "huevo", "band": 1, "mode": "sequence", "stem": "Primero, un pájaro pone un huevo.", "question": "¿Qué pasa después?", "answer": "Nace un pollito.", "options": ["Nace un pollito.", "Cae la nieve.", "Suena un tambor."] },
+          { "id": "manos", "band": 1, "mode": "sequence", "stem": "Primero, te lavas las manos.", "question": "¿Qué pasa después?", "answer": "Te las secas.", "options": ["Te las secas.", "Andas en bici.", "Vuela una paloma."] },
+          { "id": "sueno", "band": 2, "mode": "sequence", "stem": "Primero, tienes sueño.", "question": "¿Qué pasa después?", "answer": "Te acuestas.", "options": ["Te acuestas.", "Pintas una barda.", "Saltas muy alto."] },
+          { "id": "sol", "band": 2, "mode": "cause", "stem": "El sol calienta la nieve.", "question": "Por eso, ¿qué pasa?", "answer": "La nieve se derrite.", "options": ["La nieve se derrite.", "Suena una campana.", "Canta un pájaro."] },
+          { "id": "lluvia", "band": 2, "mode": "cause", "stem": "Llueve sobre el pasto seco.", "question": "Por eso, ¿qué pasa?", "answer": "El pasto se moja.", "options": ["El pasto se moja.", "El gato maúlla.", "Suena un timbre."] },
+          { "id": "columpio", "band": 3, "mode": "cause", "stem": "Empujas fuerte el columpio.", "question": "Por eso, ¿qué pasa?", "answer": "El columpio sube alto.", "options": ["El columpio sube alto.", "Se prende una lámpara.", "Corre un perro."] },
+          { "id": "congelador", "band": 3, "mode": "cause", "stem": "Dejas el jugo en el congelador.", "question": "Por eso, ¿qué pasa?", "answer": "El jugo se congela.", "options": ["El jugo se congela.", "Vuela una mosca.", "Cae una hoja."] }
         ]
       }
     },
@@ -335,17 +345,20 @@
     "slug": {
       "en": "linc-fact-chain",
       "de": "ursache-und-wirkung-reihenfolge-sachtexte-verstehen-klasse-2",
-      "fr": "relier-deux-faits-cause-et-consequence-ce1"
+      "fr": "relier-deux-faits-cause-et-consequence-ce1",
+      "es": "causa-y-efecto-secuencia-de-hechos-comprension-lectora-segundo-grado"
     },
     "page_title": {
       "en": "Linc's Fact Chain — How Two Facts Connect (Kindergarten)",
       "de": "Lesetexte Klasse 2 – Sachtexte online lesen und verstehen",
-      "fr": "Lecture compréhension CE1 – relier les faits en ligne"
+      "fr": "Lecture compréhension CE1 – relier les faits en ligne",
+      "es": "Causa y efecto y secuencia de hechos · 2.º grado"
     },
     "page_intro": {
       "en": "Linc the lizard links facts into a chain! Read the first fact, then tap the fact that connects to it — what happens NEXT, or what it makes happen. A Kindergarten reading game about describing the connection between two events or ideas in an informational text, aligned to Common Core RI.K.3.",
       "de": "Lesetexte für Klasse 2: Sachtexte lesen, Reihenfolge und Ursache-Wirkung verstehen. Kostenlos online üben, ohne Anmeldung – Leseverständnis stärken.",
-      "fr": "Lecture et compréhension au CE1 : relier deux faits d'un texte documentaire avec Linc. Gratuit, en ligne, sans inscription."
+      "fr": "Lecture et compréhension au CE1 : relier deux faits d'un texte documentaire avec Linc. Gratuit, en ligne, sans inscription.",
+      "es": "Actividad interactiva y gratis: el niño lee un hecho y toca el que se relaciona por secuencia (qué pasa después) o causa y efecto. Para 2.º grado."
     },
     "kid_prompt_template": "Read the first fact, then tap the one that connects to it."
   }

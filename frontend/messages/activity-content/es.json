@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "linc-fact-chain.connect.ri-k-3": {
+      "about": [
+        "Con Linc la lagartija, su hijo/a arma cadenas de hechos. En cada eslabón lee un primer hecho —por ejemplo, «Primero, plantas una semilla.»— y toca el hecho que se conecta con él: el que pasa después o el que pasa por eso. Los otros dos son ciertos, pero no van juntos.",
+        "La actividad practica dos maneras de conectar hechos: la secuencia («¿Qué pasa después?») y la causa y el efecto («Por eso, ¿qué pasa?»). Por ejemplo, si «El sol calienta la nieve», por eso «la nieve se derrite». Su hijo/a aprende a distinguir un hecho que de verdad se relaciona de otro que solo es cierto pero no viene al caso.",
+        "Relacionar información —qué sigue y qué causa qué— es una base para comprender textos informativos más adelante. Los hechos se pueden escuchar con el botón de audio, por si su hijo/a todavía no lee solo. Corresponde al eje «Comprensión de textos informativos». Es gratis y sin presiones: sin cronómetro, sin puntaje, sin perder; su hijo/a piensa con calma."
+      ],
+      "practices": [
+        "Conectar dos hechos por secuencia: qué pasa después",
+        "Conectar dos hechos por causa y efecto: qué pasa por eso",
+        "Distinguir un hecho que se relaciona de otro cierto pero sin conexión",
+        "Leer y escuchar hechos cortos con atención"
+      ],
+      "howToPlay": [
+        "Lean el primer hecho y la pregunta (o toquen el botón de audio)",
+        "Piensen: ¿qué hecho pasa después o pasa por eso?",
+        "El niño toca el hecho que se conecta"
+      ],
+      "learningGoals": [
+        "Su hijo/a conecta hechos por secuencia y por causa y efecto",
+        "Distingue un hecho relacionado de otro cierto pero sin conexión",
+        "Da sus primeros pasos para relacionar información en textos informativos"
+      ]
+    },
     "marlo-magnifier.trait-evidence.rl-1-3": {
       "about": [
         "Con la gran lupa de Marlo el mapache, su hijo/a se vuelve detective de cuentos. En cada caso lee una historia corta y una afirmación sobre un personaje —por ejemplo, «Mira es valiente.»— y busca el detalle que lo PRUEBA. Ese detalle es una acción del cuento («Entró sola a la cueva oscura.»), no la ropa que trae ni cómo se ve.",

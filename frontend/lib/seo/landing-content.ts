@@ -304,6 +304,53 @@ export function getLandingsByStandard(locale: string, code: string): Landing[] {
 }
 
 /**
+ * Landings matching a 2-axis topic COORDINATE (theme×level, theme×type, level×type, or a subject's
+ * exercise-types × level), for the crawl-friendly "More worksheets" link block on the 2-segment
+ * /topic/ pages (Tier-3 crawl-channeling 2026-07-21 — the highest-crawl surface links ~2 landings
+ * while thousands exist; this feeds that crawl stream into the landings).
+ *
+ * Composes the pre-built slug-sorted facet maps, so output is deterministic (ISR-stable, no churn,
+ * §16.2). Picks the smallest available base facet then filters by the remaining axes.
+ */
+export function landingsForIntersection(
+  locale: string,
+  filter: { theme?: string; type?: string; types?: string[]; level?: string },
+  cap = 60,
+): { slug: string; h1: string }[] {
+  const fx = facets(locale);
+  const typeSet =
+    filter.types && filter.types.length ? new Set(filter.types) : filter.type ? new Set([filter.type]) : null;
+
+  let base: Landing[];
+  if (filter.theme) {
+    base = fx.byTheme.get(filter.theme) || [];
+  } else if (typeSet) {
+    const seen = new Set<string>();
+    base = [];
+    for (const t of typeSet) for (const l of fx.byType.get(t) || []) {
+      if (!seen.has(l.slug)) { seen.add(l.slug); base.push(l); }
+    }
+    base.sort((a, b) => (a.slug < b.slug ? -1 : a.slug > b.slug ? 1 : 0));
+  } else if (filter.level) {
+    base = fx.byLevel.get(filter.level) || [];
+  } else {
+    return [];
+  }
+
+  const out: { slug: string; h1: string }[] = [];
+  for (const l of base) {
+    const c = l.coordinate;
+    if (!c) continue;
+    if (filter.level && c.level !== filter.level) continue;
+    if (filter.theme && c.theme !== filter.theme) continue;
+    if (typeSet && !typeSet.has(c.type)) continue;
+    out.push({ slug: l.slug, h1: l.h1 });
+    if (out.length >= cap) break;
+  }
+  return out;
+}
+
+/**
  * Deterministic landing↔landing link mesh ("More worksheets" module).
  * Selection is a stable neighbor-window around the current landing inside
  * slug-sorted facet lists (NO randomness — links must not churn across ISR

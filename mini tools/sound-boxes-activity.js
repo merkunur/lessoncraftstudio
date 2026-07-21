@@ -17,7 +17,7 @@
 
   var Core = global.SoundBoxesCore;
   var LANG = 'en';   // #106 — set in init from api.lang
-  var POS_WORD = { en: { b: 'first', m: 'middle', e: 'last' }, de: { b: 'ersten', m: 'mittleren', e: 'letzten' } };
+  var POS_WORD = { en: { b: 'first', m: 'middle', e: 'last' }, de: { b: 'ersten', m: 'mittleren', e: 'letzten' }, es: { b: 'inicial', m: 'de en medio', e: 'final' } };
   var BOX_INDEX = { b: 0, m: 1, e: 2 };
 
   var L = {
@@ -40,12 +40,22 @@
       nudgeFirst: 'Fast! Hör nochmal genau hin – welches beginnt mit demselben Laut wie {t}?',
       nudgeMid: 'Beinah! Hör in die Mitte – welches hat denselben mittleren Laut wie {t}?',
       nudgeLast: 'Noch nicht ganz – hör auf das Ende. Welches endet wie {t}?'
+    },
+    es: {
+      qFirst: '¿Cuál empieza con el mismo sonido que {t}?',
+      qMid: '¿Cuál tiene el mismo sonido en medio que {t}?',
+      qLast: '¿Cuál termina con el mismo sonido que {t}?',
+      win: '¡Muy bien! {t} y {m} tienen el mismo sonido {pos}. 🐨',
+      hear: '🔊 Escúchalo',
+      nudgeFirst: 'Casi. Ese empieza con otro sonido. ¿Cuál empieza como {t}?',
+      nudgeMid: 'Escucha otra vez. Ese sonido de en medio es distinto. ¿Cuál suena igual en medio que {t}?',
+      nudgeLast: 'Casi. Ese termina con otro sonido. ¿Cuál termina como {t}?'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
   function cap(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : s; }
-  function wordOf(w) { return (LANG === 'de' && w && w.word) ? w.word : cap(w && w.noun); }
+  function wordOf(w) { return ((LANG === 'de' || LANG === 'es') && w && w.word) ? w.word : cap(w && w.noun); }
   function imgUrl(w) { return '/image-library-webp/themes/' + w.themeDir + '/' + w.noun + '@2x.webp'; }
 
   function cocoSVG() {
@@ -63,8 +73,8 @@
   var SoundBoxesActivity = {
     id: 'sound-boxes-activity',
     strings: {
-      title: { en: "Coco's Sound Boxes", de: 'Coco der Koala' },
-      instruction: { en: 'Listen for the first, middle, and last sound. Tap the word that matches!', de: 'Hör auf den ersten, mittleren und letzten Laut. Tippe das Bild, das denselben Laut hat!' },
+      title: { en: "Coco's Sound Boxes", de: 'Coco der Koala', es: 'Coco el koala' },
+      instruction: { en: 'Listen for the first, middle, and last sound. Tap the word that matches!', de: 'Hör auf den ersten, mittleren und letzten Laut. Tippe das Bild, das denselben Laut hat!', es: 'Escucha el primer sonido, el de en medio y el último. Toca el dibujo que tenga el mismo sonido.' },
       q: { en: '{q}' }
     },
 
@@ -232,7 +242,7 @@
       var wrap = el('div', 'sb-sronly'); wrap.setAttribute('aria-live', 'polite');
       var cs = (round.options || []).map(function (x) { return wordOf(x); }).join(', ');
       var q = txt(this._qKey(round.position), { t: wordOf(round.target) });
-      wrap.innerHTML = LANG === 'de' ? ('<p>' + q + ' Zur Auswahl: ' + cs + '.</p>') : ('<p>' + q + ' The choices are: ' + cs + '.</p>');
+      wrap.innerHTML = LANG === 'de' ? ('<p>' + q + ' Zur Auswahl: ' + cs + '.</p>') : LANG === 'es' ? ('<p>' + q + ' Las opciones son: ' + cs + '.</p>') : ('<p>' + q + ' The choices are: ' + cs + '.</p>');
       return wrap;
     },
 

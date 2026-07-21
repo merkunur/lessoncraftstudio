@@ -3965,6 +3965,29 @@
         "Convierte entre las 24 y las 12 horas",
         "Da sus primeros pasos leyendo horarios"
       ]
+    },
+    "sound-boxes.phoneme-position.rf-k-2-d": {
+      "about": [
+        "Coco el koala tiene orejas enormes para escuchar cada sonido. Su hijo/a oye una palabra como «sol», ve las tres cajitas de sonidos con una marcada, y toca el dibujo que tiene el mismo sonido en ese lugar: «sal» empieza igual que «sol».",
+        "La actividad practica los tres lugares del sonido: el inicial (sol y sal), el de en medio (la vocal) y el final (sol y col). Oír y separar los sonidos de las palabras cortas es la base para leer y escribir.",
+        "Es parte de la conciencia fonémica, un paso más analítico que la rima. Corresponde al eje «Conciencia fonémica». Es gratis y sin presiones: sin cronómetro, sin puntaje, sin perder; su hijo/a aprende con calma con Coco el koala."
+      ],
+      "practices": [
+        "Escuchar el primer sonido, el de en medio y el último de una palabra",
+        "Reconocer palabras que comparten un sonido",
+        "Separar los sonidos de palabras cortas (sol, pan, pez)",
+        "Dar el paso de los sonidos a las letras"
+      ],
+      "howToPlay": [
+        "Escucha la palabra y mira qué cajita está marcada",
+        "Piensa qué sonido va en ese lugar",
+        "Toca el dibujo que tenga el mismo sonido"
+      ],
+      "learningGoals": [
+        "Su hijo/a aísla el sonido inicial, el de en medio y el final",
+        "Reconoce sonidos iguales en palabras distintas",
+        "Se prepara para leer y escribir"
+      ]
     }
   }
 }

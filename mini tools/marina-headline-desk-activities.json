@@ -640,6 +640,48 @@
               }
             ]
           }
+        ],
+        "es": [
+          { "id": "bees", "band": 1, "story": ["Las abejas viven juntas en una colmena muy ocupada.", "Vuelan de flor en flor para juntar néctar.", "En casa convierten el néctar en miel."], "options": [
+            { "id": "o1", "kind": "topic", "text": "Cómo hacen su miel las abejas." },
+            { "id": "o2", "kind": "detail", "text": "Vuelan de flor en flor para juntar néctar." },
+            { "id": "o3", "kind": "offtopic", "text": "Las arañas tejen telarañas." }
+          ] },
+          { "id": "rain", "band": 1, "story": ["El sol calienta el agua de los lagos y los mares.", "El agua sube y forma las nubes.", "Cuando las nubes se ponen pesadas, cae la lluvia."], "options": [
+            { "id": "o1", "kind": "detail", "text": "El sol calienta el agua de los lagos." },
+            { "id": "o2", "kind": "offtopic", "text": "Los camellos casi nunca beben agua." },
+            { "id": "o3", "kind": "topic", "text": "De dónde viene la lluvia." }
+          ] },
+          { "id": "frog", "band": 1, "story": ["Una rana empieza su vida como un huevito.", "Del huevo sale un renacuajo que nada.", "Poco a poco al renacuajo le salen patas y se convierte en rana."], "options": [
+            { "id": "o1", "kind": "detail", "text": "Del huevo sale un renacuajo que nada." },
+            { "id": "o2", "kind": "topic", "text": "Cómo crece una rana." },
+            { "id": "o3", "kind": "offtopic", "text": "Los búhos cazan ratones." }
+          ] },
+          { "id": "teeth", "band": 2, "story": ["Cepillarte los dientes los deja limpios y fuertes.", "Quita los restos de comida y de azúcar.", "Los dientes limpios te ayudan a masticar y a sonreír."], "options": [
+            { "id": "o1", "kind": "topic", "text": "Por qué nos cepillamos los dientes." },
+            { "id": "o2", "kind": "detail", "text": "Quita los restos de comida y de azúcar." },
+            { "id": "o3", "kind": "offtopic", "text": "Las jirafas son muy altas." }
+          ] },
+          { "id": "volcano", "band": 2, "story": ["Muy adentro de un volcán espera roca caliente y derretida.", "La presión crece hasta que la empuja hacia arriba.", "La roca sale disparada como lava caliente y brillante."], "options": [
+            { "id": "o1", "kind": "detail", "text": "Muy adentro de un volcán espera roca caliente." },
+            { "id": "o2", "kind": "offtopic", "text": "Los pingüinos no vuelan." },
+            { "id": "o3", "kind": "topic", "text": "Cómo hace erupción un volcán." }
+          ] },
+          { "id": "library", "band": 2, "story": ["Una biblioteca está llena de libros para pedir prestados.", "Escoges un libro y te lo llevas a casa a leer.", "Cuando terminas, lo regresas para los demás."], "options": [
+            { "id": "o1", "kind": "detail", "text": "Escoges un libro y te lo llevas a casa a leer." },
+            { "id": "o2", "kind": "topic", "text": "Cómo presta libros una biblioteca." },
+            { "id": "o3", "kind": "offtopic", "text": "Los murciélagos duermen de día." }
+          ] },
+          { "id": "wind", "band": 3, "story": ["Al aire que se mueve le decimos viento.", "El viento puede empujar un velero por un lago.", "También puede mover las aspas de un molino de viento."], "options": [
+            { "id": "o1", "kind": "topic", "text": "Lo que el viento puede hacer." },
+            { "id": "o2", "kind": "detail", "text": "El viento puede empujar un velero por un lago." },
+            { "id": "o3", "kind": "offtopic", "text": "Los caracoles son muy lentos." }
+          ] },
+          { "id": "seed", "band": 3, "story": ["Una semilla necesita sol, agua y tierra para crecer.", "Sus raíces bajan a buscar agua.", "Luego un brote verde empuja hacia la luz."], "options": [
+            { "id": "o1", "kind": "detail", "text": "Sus raíces bajan a buscar agua." },
+            { "id": "o2", "kind": "offtopic", "text": "Los zorros tienen pelo rojizo." },
+            { "id": "o3", "kind": "topic", "text": "Qué necesita una semilla para crecer." }
+          ] }
         ]
       }
     },
@@ -647,17 +689,20 @@
     "slug": {
       "en": "marinas-headline-desk",
       "de": "hauptthema-eines-sachtexts-erkennen-klasse-3",
-      "fr": "trouver-le-sujet-principal-d-un-texte-ce2"
+      "fr": "trouver-le-sujet-principal-d-un-texte-ce2",
+      "es": "idea-principal-de-que-trata-el-texto-tercer-grado"
     },
     "page_title": {
       "en": "Marina's Headline Desk — What's It Mostly About? (Grade 2)",
       "de": "Leseverständnis Klasse 2 – das Hauptthema erkennen, online üben",
-      "fr": "Le bureau des titres de Marina : le sujet principal (CE2)"
+      "fr": "Le bureau des titres de Marina : le sujet principal (CE2)",
+      "es": "Idea principal: ¿de qué trata el texto? · Tercer grado"
     },
     "page_intro": {
       "en": "Marina the otter writes headlines at the news desk, and a headline has to say what a story is MOSTLY about. Read each short article, then tap the card that names its main topic — not one small detail it mentions, and not something off the page. A warm Grade 2 reading game about finding the main topic of an informational text, aligned to Common Core RI.2.2.",
       "de": "Leseverständnis für Klasse 2: Sachtexte lesen und das Hauptthema sicher erkennen. Kostenlose Übungen online, ohne Anmeldung – ideal zum Wiederholen.",
-      "fr": "Un jeu de lecture CE2, gratuit et interactif : Marina la loutre écrit les titres de la rédaction, et un titre doit dire de quoi une histoire parle SURTOUT. Ton enfant lit chaque petit article, puis touche la carte qui nomme son sujet principal — pas un petit détail qu'il cite, ni quelque chose hors du texte. Un jeu tout doux pour apprendre à trouver le sujet principal d'un texte documentaire."
+      "fr": "Un jeu de lecture CE2, gratuit et interactif : Marina la loutre écrit les titres de la rédaction, et un titre doit dire de quoi une histoire parle SURTOUT. Ton enfant lit chaque petit article, puis touche la carte qui nomme son sujet principal — pas un petit détail qu'il cite, ni quelque chose hors du texte. Un jeu tout doux pour apprendre à trouver le sujet principal d'un texte documentaire.",
+      "es": "Lee un texto corto e identifica su idea principal: ¿de qué trata? Distingue el tema de un detalle. Juego interactivo y gratis de tercer grado."
     },
     "kid_prompt_template": "marina-headline-desk"
   }

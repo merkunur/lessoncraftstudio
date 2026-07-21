@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "marina-headline-desk.main-topic.ri-2-2": {
+      "about": [
+        "Marina la nutria se sienta en su escritorio de titulares y escribe encabezados. Su hijo/a lee —o escucha con el botón «📖 Lee la historia»— un texto informativo corto de tres oraciones y luego toca la tarjeta que dice de qué trata el texto. En un texto sobre las abejas sería «Cómo hacen su miel las abejas» —y no la tarjeta que solo repite una oración suelta ni la que habla de algo que no viene al caso.",
+        "La idea principal es aquello de lo que trata PRINCIPALMENTE un texto informativo: el hilo que une todas las oraciones. No es un detalle pequeño, que solo cuenta una parte, ni un dato que no pertenece al texto. La tarjeta tramposa es justo la que repite las mismas palabras del texto: es cierta, pero es solo una parte. Cuando su hijo/a aprende a distinguir la idea principal de un detalle, aprende a captar lo esencial de una lectura —una habilidad que usará toda la vida.",
+        "La actividad es gratis y sin presiones: sin cronómetro, sin puntaje, sin perder. Con el botón «📖 Lee la historia» cada texto se lee en voz alta, para que también participen quienes todavía no leen de corrido. Su hijo/a puede leer, pensar y volver a intentar con calma. Corresponde al eje «Comprensión de textos informativos», parte de Lenguajes."
+      ],
+      "practices": [
+        "Identificar la idea principal de un texto informativo corto",
+        "Distinguir la idea principal de un detalle pequeño",
+        "Descartar los datos que no vienen al caso",
+        "Captar lo esencial de una lectura y decirlo con sus palabras"
+      ],
+      "howToPlay": [
+        "Lean el texto corto —o toquen «📖 Lee la historia»",
+        "Pregúntele a su hijo/a: ¿de qué trata TODO el texto, no solo una oración?",
+        "El niño toca la tarjeta con la idea principal"
+      ],
+      "learningGoals": [
+        "Su hijo/a reconoce de qué trata principalmente un texto informativo corto",
+        "Distingue la idea principal de un detalle pequeño y de un dato ajeno",
+        "Capta poco a poco, con más seguridad, lo esencial de una lectura"
+      ]
+    },
     "wobble-museum.catch-drift.w-k-2": {
       "about": [
         "Ula la urraca ordenó su pequeño museo: en cada sala todo habla de un solo tema, y un letrero lo dice: «Tema: ranas». Debajo cuelgan cuatro oraciones cortas y verdaderas. Pero una se coló de otra sala: es cierta, sí, solo que no habla de este tema. Si en la sala de las ranas aparece «El agua del estanque es fría», su hijo/a se da cuenta: esa oración habla del estanque, no de las ranas, y la toca.",

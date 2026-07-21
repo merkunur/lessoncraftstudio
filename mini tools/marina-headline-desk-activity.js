@@ -29,7 +29,7 @@
     var happy = mood === 'happy';
     var eyes = happy ? '<path d="M40 46 q3 -4 6 0 M54 46 q3 -4 6 0" stroke="#2A2A35" stroke-width="2.4" fill="none" stroke-linecap="round"/>'
       : '<circle cx="43" cy="47" r="2.6" fill="#2A2A35"/><circle cx="57" cy="47" r="2.6" fill="#2A2A35"/>';
-    return '<svg class="mhd-otter-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Marina, der Otter' : LANG === 'fr' ? 'Marina la loutre' : 'Marina the otter') + '">' +
+    return '<svg class="mhd-otter-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Marina, der Otter' : LANG === 'fr' ? 'Marina la loutre' : LANG === 'es' ? 'Marina la nutria' : 'Marina the otter') + '">' +
       '<circle cx="32" cy="30" r="7" fill="#A07A52"/><circle cx="68" cy="30" r="7" fill="#A07A52"/>' +   /* ears */
       '<ellipse cx="50" cy="54" rx="28" ry="26" fill="#B68C5E"/>' +
       '<ellipse cx="50" cy="60" rx="16" ry="14" fill="#E7D2B5"/>' +   /* muzzle */
@@ -43,15 +43,15 @@
     id: 'marina-headline-desk-activity',
 
     strings: {
-      title: { en: "Marina's Headline Desk", de: 'Marinas Schlagzeilen-Tisch', fr: 'Le bureau des titres de Marina' },
-      prompt: { en: 'What is this mostly about?', de: 'Worum geht es hauptsächlich?', fr: 'De quoi ça parle surtout ?' },
-      marinaIntro: { en: 'A new story! What is it mostly about?', de: 'Eine neue Geschichte! Worum geht es wohl?', fr: 'Une nouvelle histoire ! De quoi parle-t-elle surtout ?' },
-      readStory: { en: '📖 Read the story', de: '📖 Vorlesen', fr: '📖 Lire l’histoire' },
-      readAgain: { en: '📖 Read it again', de: '📖 Noch einmal vorlesen', fr: '📖 Relire l’histoire' },
-      theAsk: { en: 'What is the main topic?', de: 'Worum geht es in dem ganzen Text – nicht nur in einem Satz?', fr: 'Quel est le sujet principal ?' },
-      hintPick: { en: 'Tap what the story is mostly about!', de: 'Tippe an, worum es hauptsächlich geht!', fr: 'Touche ce dont l’histoire parle surtout !' },
-      hintWrong: { en: "That's just one small part — read it again.", de: 'Das ist nur ein kleiner Teil – lies oder hör noch einmal.', fr: 'Ça, ce n’est qu’un petit détail — relis l’histoire.' },
-      win: { en: 'Yes! That is the main topic. 📰', de: 'Ja! Das ist das Hauptthema. 📰', fr: 'Oui ! C’est le sujet principal. 📰' }
+      title: { en: "Marina's Headline Desk", de: 'Marinas Schlagzeilen-Tisch', fr: 'Le bureau des titres de Marina', es: 'El escritorio de titulares de Marina' },
+      prompt: { en: 'What is this mostly about?', de: 'Worum geht es hauptsächlich?', fr: 'De quoi ça parle surtout ?', es: '¿De qué trata principalmente?' },
+      marinaIntro: { en: 'A new story! What is it mostly about?', de: 'Eine neue Geschichte! Worum geht es wohl?', fr: 'Une nouvelle histoire ! De quoi parle-t-elle surtout ?', es: '¡Una historia nueva! ¿De qué trata principalmente?' },
+      readStory: { en: '📖 Read the story', de: '📖 Vorlesen', fr: '📖 Lire l’histoire', es: '📖 Lee la historia' },
+      readAgain: { en: '📖 Read it again', de: '📖 Noch einmal vorlesen', fr: '📖 Relire l’histoire', es: '📖 Léela otra vez' },
+      theAsk: { en: 'What is the main topic?', de: 'Worum geht es in dem ganzen Text – nicht nur in einem Satz?', fr: 'Quel est le sujet principal ?', es: '¿De qué trata TODO el texto, no sólo una oración?' },
+      hintPick: { en: 'Tap what the story is mostly about!', de: 'Tippe an, worum es hauptsächlich geht!', fr: 'Touche ce dont l’histoire parle surtout !', es: '¡Toca de qué trata principalmente la historia!' },
+      hintWrong: { en: "That's just one small part — read it again.", de: 'Das ist nur ein kleiner Teil – lies oder hör noch einmal.', fr: 'Ça, ce n’est qu’un petit détail — relis l’histoire.', es: 'Eso es solo una parte pequeña. Léela otra vez.' },
+      win: { en: 'Yes! That is the main topic. 📰', de: 'Ja! Das ist das Hauptthema. 📰', fr: 'Oui ! C’est le sujet principal. 📰', es: '¡Sí! Ese es el tema principal. 📰' }
     },
     defaults: {},
 
@@ -149,7 +149,7 @@
         + '.mhd-root{position:relative;width:100%;display:flex;flex-direction:column;align-items:stretch;gap:clamp(3px,1vw,6px);background:linear-gradient(180deg,#FBF3E4,#EDE6DA);border-radius:20px;padding:clamp(6px,1.5vw,11px);box-shadow:inset 0 2px 0 rgba(255,255,255,.5),0 5px 0 rgba(160,120,60,.08);}'
         + '.mhd-row{display:flex;align-items:center;gap:clamp(6px,2vw,12px);justify-content:center;}'
         + '.mhd-otter{width:clamp(40px,8vw,48px);flex:0 0 auto;}.mhd-otter-svg{width:100%;height:auto;display:block;}'
-        + '.mhd-say{background:#fff;border:2px solid rgba(160,120,60,.22);border-radius:13px 13px 13px 3px;padding:5px 10px;font:700 clamp(12px,3vw,14px)/1.25 "Baloo 2",sans-serif;color:' + C.T + ';max-width:80%;display:-webkit-box;-webkit-line-clamp:1;line-clamp:1;-webkit-box-orient:vertical;overflow:hidden;}'
+        + '.mhd-say{background:#fff;border:2px solid rgba(160,120,60,.22);border-radius:13px 13px 13px 3px;padding:5px 10px;font:700 clamp(12px,3vw,14px)/1.25 "Baloo 2",sans-serif;color:' + C.T + ';max-width:80%;display:-webkit-box;-webkit-line-clamp:2;line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}'
         + '.mhd-story{background:#FFFDF6;border-radius:12px;padding:clamp(5px,1.4vw,8px) clamp(7px,1.8vw,10px);box-shadow:inset 0 0 0 2px rgba(160,120,60,.14);display:flex;flex-direction:column;gap:2px;}'
         + '.mhd-line{margin:0;font:600 clamp(11.5px,2.8vw,13px)/1.2 "Nunito",sans-serif;color:' + C.INK + ';border-radius:6px;padding:1px 4px;transition:background .15s;}'
         + '.mhd-line.mhd-on{background:#FBEFD3;box-shadow:0 0 0 2px ' + C.GOLD + ';}'

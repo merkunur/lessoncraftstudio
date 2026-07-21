@@ -317,6 +317,19 @@ export function landingsForIntersection(
   filter: { theme?: string; type?: string; types?: string[]; level?: string },
   cap = 60,
 ): { slug: string; h1: string }[] {
+  const strict = collectIntersectionLandings(locale, filter, cap);
+  // The landing program RE-DERIVES level per locale (§22.3): de has no "kindergarten" band
+  // (EN-kindergarten → de "vorschule"/"1-klasse"), so a level that doesn't map yields nothing.
+  // Theme/type are canonical + reliable — fall back to them so the crawl block still populates.
+  if (strict.length > 0 || !filter.level) return strict;
+  return collectIntersectionLandings(locale, { ...filter, level: undefined }, cap);
+}
+
+function collectIntersectionLandings(
+  locale: string,
+  filter: { theme?: string; type?: string; types?: string[]; level?: string },
+  cap: number,
+): { slug: string; h1: string }[] {
   const fx = facets(locale);
   const typeSet =
     filter.types && filter.types.length ? new Set(filter.types) : filter.type ? new Set([filter.type]) : null;

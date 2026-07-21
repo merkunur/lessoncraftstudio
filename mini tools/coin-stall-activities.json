@@ -434,6 +434,43 @@
             "tint": "#B8B8B8",
             "diameter": 26
           }
+        ],
+        "es": [
+          {
+            "den": "50c",
+            "value": 50,
+            "glyph": "50¢",
+            "tint": "#C9A227",
+            "diameter": 18
+          },
+          {
+            "den": "1p",
+            "value": 100,
+            "glyph": "$1",
+            "tint": "#C97B43",
+            "diameter": 21
+          },
+          {
+            "den": "2p",
+            "value": 200,
+            "glyph": "$2",
+            "tint": "#B87333",
+            "diameter": 23
+          },
+          {
+            "den": "5p",
+            "value": 500,
+            "glyph": "$5",
+            "tint": "#C9CBD4",
+            "diameter": 25
+          },
+          {
+            "den": "10p",
+            "value": 1000,
+            "glyph": "$10",
+            "tint": "#B8B8B8",
+            "diameter": 27
+          }
         ]
       },
       "roundsL10n": {
@@ -978,6 +1015,277 @@
               "1c"
             ]
           }
+        ],
+        "es": [
+          {
+            "id": "count-caja",
+            "cog": "count-set",
+            "band": 1,
+            "legendTier": "none",
+            "scenario": "Otto cuenta la caja del puesto. ¿Cuánto vale?",
+            "pile": [
+              {
+                "den": "2p",
+                "count": 2
+              },
+              {
+                "den": "50c",
+                "count": 1
+              }
+            ],
+            "options": [
+              400,
+              450,
+              500,
+              550
+            ]
+          },
+          {
+            "id": "make-300",
+            "cog": "make-amount",
+            "band": 2,
+            "legendTier": "none",
+            "target": 300,
+            "scenario": "Una paleta cuesta $3. Págale a Otto justo.",
+            "purse": [
+              "2p",
+              "1p",
+              "1p",
+              "50c",
+              "50c",
+              "1p",
+              "2p",
+              "50c"
+            ]
+          },
+          {
+            "id": "make-250",
+            "cog": "make-amount",
+            "band": 2,
+            "legendTier": "none",
+            "target": 250,
+            "scenario": "Un jugo cuesta $2 y 50 centavos. Paga el precio exacto.",
+            "purse": [
+              "2p",
+              "50c",
+              "1p",
+              "1p",
+              "50c",
+              "2p",
+              "1p",
+              "50c"
+            ]
+          },
+          {
+            "id": "make-700",
+            "cog": "make-amount",
+            "band": 3,
+            "legendTier": "none",
+            "target": 700,
+            "scenario": "Un juguete cuesta $7. Paga justo.",
+            "purse": [
+              "5p",
+              "2p",
+              "1p",
+              "1p",
+              "2p",
+              "5p",
+              "1p",
+              "50c"
+            ]
+          },
+          {
+            "id": "fewest-350",
+            "cog": "fewest",
+            "band": 2,
+            "legendTier": "none",
+            "target": 350,
+            "scenario": "El globo cuesta $3 y 50 centavos. Usa las MENOS monedas.",
+            "purse": [
+              "2p",
+              "1p",
+              "50c",
+              "1p",
+              "1p",
+              "2p",
+              "50c",
+              "1p"
+            ]
+          },
+          {
+            "id": "fewest-600",
+            "cog": "fewest",
+            "band": 3,
+            "legendTier": "none",
+            "target": 600,
+            "scenario": "El cuaderno cuesta $6. Usa las menos monedas posibles.",
+            "purse": [
+              "5p",
+              "1p",
+              "2p",
+              "2p",
+              "1p",
+              "5p",
+              "50c",
+              "1p"
+            ]
+          },
+          {
+            "id": "change-250",
+            "cog": "change",
+            "band": 2,
+            "legendTier": "none",
+            "price": 250,
+            "paid": 500,
+            "scenario": "Una manzana cuesta $2 y 50 centavos. Pagas $5. Da el cambio.",
+            "purse": [
+              "2p",
+              "50c",
+              "1p",
+              "1p",
+              "50c",
+              "50c",
+              "2p",
+              "1p"
+            ]
+          },
+          {
+            "id": "change-300",
+            "cog": "change",
+            "band": 3,
+            "legendTier": "none",
+            "price": 300,
+            "paid": 500,
+            "scenario": "Un pan cuesta $3. Pagas $5. ¿Cuánto es el cambio?",
+            "purse": [
+              "1p",
+              "1p",
+              "50c",
+              "50c",
+              "1p",
+              "2p",
+              "50c",
+              "1p"
+            ]
+          },
+          {
+            "id": "enough-short",
+            "cog": "enough",
+            "band": 2,
+            "legendTier": "none",
+            "price": 350,
+            "scenario": "Tienes estas monedas. El queso cuesta $3 y 50 centavos. ¿Alcanza?",
+            "pile": [
+              {
+                "den": "2p",
+                "count": 1
+              },
+              {
+                "den": "1p",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "id": "enough-exact",
+            "cog": "enough",
+            "band": 2,
+            "legendTier": "none",
+            "price": 400,
+            "scenario": "Tienes estas monedas. La estrella cuesta $4. ¿Alcanza?",
+            "pile": [
+              {
+                "den": "2p",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "id": "twoways-200",
+            "cog": "two-ways",
+            "band": 2,
+            "legendTier": "none",
+            "target": 200,
+            "scenario": "$2 es una moneda de $2. ¡Haz $2 de otra forma!",
+            "shownSet": [
+              "2p"
+            ],
+            "purse": [
+              "1p",
+              "1p",
+              "50c",
+              "50c",
+              "2p",
+              "1p",
+              "50c",
+              "1p"
+            ]
+          },
+          {
+            "id": "twoways-300",
+            "cog": "two-ways",
+            "band": 3,
+            "legendTier": "none",
+            "target": 300,
+            "scenario": "Otto puso $3 con tres monedas de $1. ¡Haz $3 de otra forma!",
+            "shownSet": [
+              "1p",
+              "1p",
+              "1p"
+            ],
+            "purse": [
+              "2p",
+              "1p",
+              "50c",
+              "50c",
+              "2p",
+              "1p",
+              "1p",
+              "50c"
+            ]
+          },
+          {
+            "id": "trade-1p",
+            "cog": "trade",
+            "band": 2,
+            "legendTier": "none",
+            "offer": {
+              "den": "1p",
+              "count": 1
+            },
+            "scenario": "¡No hay más monedas de $1! Cambia monedas que valgan $1.",
+            "purse": [
+              "50c",
+              "50c",
+              "50c",
+              "50c",
+              "1p",
+              "2p",
+              "50c",
+              "50c"
+            ]
+          },
+          {
+            "id": "trade-5p",
+            "cog": "trade",
+            "band": 3,
+            "legendTier": "none",
+            "offer": {
+              "den": "5p",
+              "count": 1
+            },
+            "scenario": "Otto necesita cambio de $5. ¡Cambia monedas que valgan $5!",
+            "purse": [
+              "2p",
+              "2p",
+              "1p",
+              "50c",
+              "2p",
+              "1p",
+              "50c",
+              "1p"
+            ]
+          }
         ]
       }
     },
@@ -985,17 +1293,20 @@
     "slug": {
       "en": "pips-market-stall",
       "de": "rechnen-mit-euro-und-cent-klasse-2",
-      "fr": "payer-et-rendre-la-monnaie-euros-centimes-ce1"
+      "fr": "payer-et-rendre-la-monnaie-euros-centimes-ce1",
+      "es": "contar-dinero-pesos-y-centavos-segundo-grado"
     },
     "page_title": {
       "en": "Pip's Market Stall — Counting Coins & Making Change",
       "de": "Rechnen mit Geld – Euro und Cent online üben (Klasse 2)",
-      "fr": "Exercices de monnaie CE1 – en ligne (euros et centimes)"
+      "fr": "Exercices de monnaie CE1 – en ligne (euros et centimes)",
+      "es": "Contar dinero: pesos y centavos – 2.º grado"
     },
     "page_intro": {
       "en": "Pay at Pip the otter's seaside market stall! Read each word problem, then pick real coins — penny, nickel, dime, quarter — and pay the exact price, count a pile, make change, or trade coins of equal value. The catch: the value isn't written on the coin, so you have to KNOW what each one is worth. A warm Grade 2 money game (and yes — the tiny dime is worth more than the bigger nickel!), aligned to Common Core 2.MD.C.8.",
       "de": "Rechnen mit Geld in Klasse 2: mit Euro und Cent an Ottos Stand bezahlen und rechnen. Kostenlos online üben, ohne Anmeldung.",
-      "fr": "Exercices de monnaie CE1 en ligne : payer et rendre la monnaie en euros et centimes. Gratuit, en ligne, sans inscription."
+      "fr": "Exercices de monnaie CE1 en ligne : payer et rendre la monnaie en euros et centimes. Gratuit, en ligne, sans inscription.",
+      "es": "Actividad interactiva y gratis de dinero: tu hijo/a paga, cuenta y da cambio con monedas mexicanas (50¢, $1, $2, $5, $10) en el puesto de Otto la nutria. Ideal para 2.º grado."
     },
     "kid_prompt_template": "coin-stall"
   }

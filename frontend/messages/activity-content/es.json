@@ -4057,6 +4057,29 @@
         "Junta las sílabas para leer la palabra completa",
         "Avanza hacia la lectura fluida"
       ]
+    },
+    "coin-stall.money.2-md-c-8": {
+      "about": [
+        "En el puesto de Otto la nutria, su hijo/a paga con monedas. Ve un precio —por ejemplo, una paleta de $3— y elige las monedas justas: una de $2 y una de $1.",
+        "La actividad practica contar dinero de muchas maneras: pagar el precio exacto, usar las menos monedas, dar el cambio, decir si alcanza y cambiar una moneda por otras. Usa monedas mexicanas: 50 centavos, $1, $2, $5 y $10.",
+        "Contar y usar dinero es parte de las magnitudes y la medida. Corresponde al eje «Magnitudes y medida». Es gratis y sin presiones: sin cronómetro, sin puntaje, sin perder; su hijo/a aprende con calma con Otto."
+      ],
+      "practices": [
+        "Pagar un precio con las monedas justas",
+        "Usar las menos monedas posibles",
+        "Dar el cambio",
+        "Decir si el dinero alcanza"
+      ],
+      "howToPlay": [
+        "Mira el precio",
+        "Toca las monedas para ponerlas en la bandeja",
+        "Toca Pagar"
+      ],
+      "learningGoals": [
+        "Su hijo/a cuenta y usa dinero",
+        "Paga, da cambio y compara cantidades",
+        "Reconoce las monedas mexicanas"
+      ]
     }
   }
 }

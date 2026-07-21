@@ -146,6 +146,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
   'Writing': {
     en: 'Writing',
     de: 'Texte verfassen',
+    es: 'Producción de textos',
   },
   // Phonological Awareness (pre-reading sound awareness; literacy). No deployed
   // activity uses this strand yet (forward-looking); all 11 locales curriculum-reviewed.

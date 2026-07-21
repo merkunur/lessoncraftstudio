@@ -156,23 +156,76 @@
             { "text": "Les pommes sont bonnes pour la santé.", "about": "la nourriture" },
             { "text": "Notre cœur bat vite.", "about": "le corps" }
           ] }
+        ],
+        "es": [
+          { "id": "wm-frogs", "topic": "ranas", "topicWord": "rana", "sentences": [
+            { "text": "Las ranas saltan mucho.", "about": "ranas" },
+            { "text": "Viven cerca del agua.", "about": "ranas" },
+            { "text": "Su piel está húmeda.", "about": "ranas" },
+            { "text": "El agua del estanque es fría.", "about": "estanques" }
+          ] },
+          { "id": "wm-moon", "topic": "luna", "topicWord": "luna", "sentences": [
+            { "text": "La luna brilla de noche.", "about": "luna" },
+            { "text": "Se ve muy grande.", "about": "luna" },
+            { "text": "No tiene luz propia.", "about": "luna" },
+            { "text": "Las estrellas salen de noche.", "about": "estrellas" }
+          ] },
+          { "id": "wm-trucks", "topic": "camiones de bomberos", "topicWord": "bombero", "sentences": [
+            { "text": "El camión de bomberos es rojo.", "about": "camiones de bomberos" },
+            { "text": "Lleva una manguera larga.", "about": "camiones de bomberos" },
+            { "text": "Su sirena suena fuerte.", "about": "camiones de bomberos" },
+            { "text": "El alto es rojo.", "about": "señales" }
+          ] },
+          { "id": "wm-rain", "topic": "lluvia", "topicWord": "lluvia", "sentences": [
+            { "text": "La lluvia moja todo.", "about": "lluvia" },
+            { "text": "Cae desde las nubes.", "about": "lluvia" },
+            { "text": "Hace crecer las plantas.", "about": "lluvia" },
+            { "text": "Las plantas son verdes.", "about": "plantas" }
+          ] },
+          { "id": "wm-dogs", "topic": "perros", "topicWord": "perro", "sentences": [
+            { "text": "Los perros dicen guau.", "about": "perros" },
+            { "text": "Mueven mucho la cola.", "about": "perros" },
+            { "text": "Les gusta correr.", "about": "perros" },
+            { "text": "Los gatos dicen miau.", "about": "gatos" }
+          ] },
+          { "id": "wm-bees", "topic": "abejas", "topicWord": "abeja", "sentences": [
+            { "text": "Las abejas hacen miel.", "about": "abejas" },
+            { "text": "Vuelan entre las flores.", "about": "abejas" },
+            { "text": "Viven en la colmena.", "about": "abejas" },
+            { "text": "Las hormigas viven bajo tierra.", "about": "hormigas" }
+          ] },
+          { "id": "wm-trees", "topic": "árboles", "topicWord": "árbol", "sentences": [
+            { "text": "Los árboles dan sombra.", "about": "árboles" },
+            { "text": "Tienen hojas y ramas.", "about": "árboles" },
+            { "text": "Crecen muy altos.", "about": "árboles" },
+            { "text": "Los pájaros se paran en ramas.", "about": "pájaros" }
+          ] },
+          { "id": "wm-body", "topic": "cuerpo", "topicWord": "cuerpo", "sentences": [
+            { "text": "El cuerpo tiene dos brazos.", "about": "cuerpo" },
+            { "text": "Necesita comer para crecer.", "about": "cuerpo" },
+            { "text": "Se mueve todo el tiempo.", "about": "cuerpo" },
+            { "text": "Las frutas son buenas para comer.", "about": "frutas" }
+          ] }
         ]
       }
     },
     "slug": {
       "en": "informative-writing-topic-focus",
       "de": "beim-thema-bleiben-welcher-satz-passt-nicht-klasse-2",
-      "fr": "rester-dans-le-theme-quelle-phrase-ne-va-pas-ce1"
+      "fr": "rester-dans-le-theme-quelle-phrase-ne-va-pas-ce1",
+      "es": "quedarse-en-el-tema-cual-oracion-no-corresponde-segundo-grado"
     },
     "page_title": {
       "en": "The Wobble Museum — Stick to the Topic (Kindergarten Writing)",
       "de": "Beim Thema bleiben: Welcher Satz passt nicht? Klasse 2",
-      "fr": "Le musée de Bram : rester dans le thème (CE1)"
+      "fr": "Le musée de Bram : rester dans le thème (CE1)",
+      "es": "¿Cuál oración no corresponde al tema? (2.º grado)"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten writing activity: each room in Bram the magpie's museum is all about ONE thing, but a label keeps wandering in from another room. Read the room, then tap the fact that does not belong — it is true, but it is about something else. A friendly first look at keeping an All-About book on topic. Common Core W.K.2.",
       "de": "Beim Thema bleiben leicht gemacht: Dein Kind findet den Satz, der nicht zum Thema passt – kostenlos & interaktiv für die Klasse 2.",
-      "fr": "Un jeu de lecture CE1, gratuit et interactif : dans le musée de Bram la pie, chaque salle parle d'une seule chose — mais une phrase s'est trompée de salle ! Ton enfant lit les quatre phrases de la salle, puis touche celle qui ne parle pas du thème : elle est vraie, mais elle parle d'autre chose. Un premier pas tout doux pour apprendre à rester dans le thème quand on écrit."
+      "fr": "Un jeu de lecture CE1, gratuit et interactif : dans le musée de Bram la pie, chaque salle parle d'une seule chose — mais une phrase s'est trompée de salle ! Ton enfant lit les quatre phrases de la salle, puis touche celle qui ne parle pas du thème : elle est vraie, mais elle parle d'autre chose. Un premier pas tout doux pour apprendre à rester dans le thème quand on écrit.",
+      "es": "Actividad gratis e interactiva para 2.º grado: lee cuatro oraciones y toca la que no corresponde al tema. Practica identificar el tema y quedarse en el tema."
     },
     "kid_prompt_template": "wobble-museum"
   }

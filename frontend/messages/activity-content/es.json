@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "two-tales.compare.rl-1-9": {
+      "about": [
+        "Barba de Musgo, el guardián de cuentos, muestra dos cuentos cortos uno junto al otro: el Cuento dorado y el Cuento plateado. En cada uno, un animalito vive una pequeña aventura —por ejemplo, un zorro que «Perdió algo y lo encontró»— y su hijo/a compara: ¿qué les pasó a los dos, y qué solo a uno?",
+        "La actividad practica comparar dos cuentos: encontrar lo que pasó en LOS DOS (una semejanza) y lo que pasó en UN SOLO cuento (una diferencia). Como la misma experiencia se escribe igual en los dos cuentos, su hijo/a puede reconocer de un vistazo qué comparten y qué no. Es la primera vez que junta dos historias para pensarlas a la vez.",
+        "Comparar textos —ver semejanzas y diferencias— es una base para leer con más profundidad más adelante. Los dos cuentos se pueden escuchar con el botón de audio, por si su hijo/a todavía no lee solo. Corresponde al eje «Comprensión de textos literarios». Es gratis y sin presiones: sin cronómetro, sin puntaje, sin perder; su hijo/a piensa con calma."
+      ],
+      "practices": [
+        "Comparar dos cuentos cortos y pensarlos a la vez",
+        "Encontrar una semejanza: lo que pasó en los dos cuentos",
+        "Encontrar una diferencia: lo que pasó en un solo cuento",
+        "Leer y escuchar cuentos con atención"
+      ],
+      "howToPlay": [
+        "Lean los dos cuentos: el Cuento dorado y el Cuento plateado (o toquen el botón de audio)",
+        "Piensen: ¿qué pasó en LOS DOS, o qué pasó en UN SOLO cuento?",
+        "El niño toca la tarjeta que corresponde"
+      ],
+      "learningGoals": [
+        "Su hijo/a compara dos cuentos y los piensa a la vez",
+        "Encuentra semejanzas (lo que pasó en los dos) y diferencias (lo que pasó en uno)",
+        "Da sus primeros pasos para comparar textos"
+      ]
+    },
     "linc-fact-chain.connect.ri-k-3": {
       "about": [
         "Con Linc la lagartija, su hijo/a arma cadenas de hechos. En cada eslabón lee un primer hecho —por ejemplo, «Primero, plantas una semilla.»— y toca el hecho que se conecta con él: el que pasa después o el que pasa por eso. Los otros dos son ciertos, pero no van juntos.",

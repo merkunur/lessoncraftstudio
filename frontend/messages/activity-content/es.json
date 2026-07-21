@@ -3804,6 +3804,29 @@
         "Elige los detalles importantes y descarta los que no pertenecen",
         "Da sus primeros pasos en la comprensión de cuentos"
       ]
+    },
+    "otto-picture-book.which-picture.rl-k-7": {
+      "about": [
+        "Otto, el búho, dibujó cada parte de un cuento en una imagen. Su hijo/a escucha todo el cuento y luego Otto lee una parte en voz alta —por ejemplo, «El viento empuja el barco»— y su hijo/a toca la imagen que muestra ese momento.",
+        "La actividad practica relacionar una oración con la imagen que la muestra. Las cuatro imágenes son del mismo cuento, así que no basta con adivinar: su hijo/a tiene que entender lo que dice la oración y encontrar el momento correcto entre parecidos.",
+        "Relacionar el texto con las ilustraciones es una base de la comprensión lectora en primer grado. El cuento se puede volver a escuchar con el botón de audio, por si su hijo/a apenas empieza a leer. Corresponde al eje «Comprensión de textos literarios». Es gratis y sin presiones: sin cronómetro, sin puntaje, sin perder."
+      ],
+      "practices": [
+        "Relacionar una oración con la imagen que la muestra",
+        "Apoyarse en las ilustraciones para comprender un cuento",
+        "Escuchar un cuento corto con atención",
+        "Distinguir un momento del cuento de otros parecidos"
+      ],
+      "howToPlay": [
+        "Escucha todo el cuento (o toca el botón de audio)",
+        "Escucha y lee la parte que Otto lee en voz alta",
+        "Toca la imagen que muestra ese momento"
+      ],
+      "learningGoals": [
+        "Su hijo/a relaciona lo que oye con la imagen que lo muestra",
+        "Se apoya en las ilustraciones para comprender el cuento",
+        "Da sus primeros pasos en la comprensión de cuentos"
+      ]
     }
   }
 }

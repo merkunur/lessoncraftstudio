@@ -133,3 +133,31 @@ deck.html + thumbnail.png still `max-age=300`. Backup of the pre-change config:
 restore the backup) → `nginx -t` → `systemctl reload nginx`. Reversible; touches
 no page identity (churn-freeze safe). Rare in-place PDF change → stale ≤30 d at
 edge (no CF purge API); PDFs are versioned so this effectively never happens.
+
+## 6. Answer-key PDF noindex — shrink the "PDF replaces the deck" surface (2026-07-21)
+
+**Change.** `X-Robots-Tag: noindex` added to the **two answer-key PDF** nginx blocks
+only (`~ …/answer-key\.pdf$` + `~ …/(.+-answer-key\.pdf)$`) via idempotent
+`scripts/publish-cli/patch-nginx-answerkey-noindex.py`. **Printable PDFs, deck.html,
+and the PNG catch-all are untouched.**
+
+**Why.** Each worksheet has 4 indexable URLs (deck.html, /worksheets/ landing,
+printable.pdf, answer-key.pdf). Googlebot crawls the PDFs ~6.5× the landings and
+never the deck.html (measured 387 vs 59 vs 0 /10d), so the PDF is what gets indexed —
+it "replaces" the deck. The **answer-key** is a redundant competing PDF surface that
+earns ≈0 clicks (nobody searches for an answer key), so noindexing it removes one
+competitor per worksheet + frees ~35% of PDF crawl for the landings — **without**
+touching the **printable**, which earns the site's "printable … pdf" clicks
+(noindexing ALL PDFs crashed clicks in May, §17.8.20; this is the surgical subset).
+`noindex` only — NOT robots.txt Disallow (Disallow blocks the crawl so Google never
+sees the noindex → the URL stays indexed).
+
+**Verify.** answer-key.pdf → `200` + `x-robots-tag: noindex` + `max-age=2592000`;
+printable.pdf → `200`, **no** X-Robots-Tag; deck.html unchanged. Idempotent re-run →
+"0 to patch, 2 already". Backup `/root/lcs-nginx-backup-answerkey-20260721-090514.conf`.
+**Do NOT run `patch-nginx-pdf-noindex.py`** (that noindexes ALL PDFs incl. printables).
+Over 2-4 weeks GSC "Excluded by noindex" should rise ~the answer-key count while
+**printable clicks stay flat**; if printable clicks drop, revert (remove the header).
+
+**Revert.** re-run the patcher after deleting the header, or restore the backup →
+`nginx -t` → reload. Reversible; no page identity touched.

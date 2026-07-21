@@ -3873,6 +3873,29 @@
         "Aprende a decir lo justo para que lo entiendan",
         "Da sus primeros pasos en la expresión oral"
       ]
+    },
+    "rhyme-shop.rhyme.rf-k-2-a": {
+      "about": [
+        "Momo el mapache tiene un vagón de rimas. Su hijo/a escucha y ve palabras con imágenes —por ejemplo, «gato» y «pato»— y decide cuáles riman, es decir, cuáles terminan con el mismo sonido.",
+        "La actividad practica encontrar rimas de muchas maneras: juzgar si dos palabras riman, escoger la que rima, hallar la que NO rima, acomodar por rima, completar un verso y armar cadenas de rimas. Todo se escucha: su hijo/a toca cada imagen para oírla.",
+        "Escuchar y reconocer rimas es la base de la conciencia fonológica, un primer paso hacia la lectura. Corresponde al eje «Conciencia fonológica». Es gratis y sin presiones: sin cronómetro, sin puntaje, sin perder; su hijo/a juega con los sonidos con calma."
+      ],
+      "practices": [
+        "Reconocer palabras que riman por su sonido final",
+        "Escoger, descartar y acomodar palabras según la rima",
+        "Completar versos y armar cadenas de rimas",
+        "Escuchar con atención los sonidos de las palabras"
+      ],
+      "howToPlay": [
+        "Toca cada imagen para escuchar la palabra",
+        "Encuentra las palabras que riman (terminan igual)",
+        "Dale de comer las rimas al vagón de Momo"
+      ],
+      "learningGoals": [
+        "Su hijo/a reconoce cuáles palabras riman",
+        "Desarrolla su conciencia fonológica jugando con los sonidos",
+        "Da sus primeros pasos hacia la lectura"
+      ]
     }
   }
 }

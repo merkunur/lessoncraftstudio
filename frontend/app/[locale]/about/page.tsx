@@ -3,7 +3,7 @@ import { getTranslations } from 'next-intl/server';
 import { SUPPORTED_LOCALES, NSR_PENDING_LOCALES } from '@/config/locales';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
-import { ORGANIZATION_ID } from '@/lib/seo/organization-schema';
+import { ORGANIZATION_ID, YOUTUBE_CHANNEL_URL } from '@/lib/seo/organization-schema';
 
 /**
  * /[locale]/about/ — About page.
@@ -165,7 +165,7 @@ export default async function AboutPage({ params }: { params: { locale: string }
             <p className="text-base md:text-lg text-ink-700 leading-relaxed">
               {t('tutorialsBody')}{' '}
               <a
-                href="https://www.youtube.com/@LessonCraftStudioApps"
+                href={YOUTUBE_CHANNEL_URL}
                 target="_blank"
                 rel="noopener"
                 className="text-teal-700 hover:text-teal-800 font-medium underline decoration-dotted underline-offset-2"

@@ -1,17 +1,29 @@
 /**
  * Single sitewide Organization JSON-LD source.
  *
- * One Organization @id (`${CANONICAL_HOST}/#organization`) referenced from
- * every page that needs to identify the publisher. Pages MUST NOT redefine
- * Organization properties — they reference the canonical entity by @id.
+ * One Organization @id (`${CANONICAL_HOST}/#organization`) is the canonical
+ * publisher entity. All emitters build it from `buildOrganizationSchema` here
+ * (never hand-author the properties) so every emission of the @id is byte-
+ * consistent. Pages that only need to point at the publisher reference it by
+ * @id (e.g. `publisher`/`isPartOf`/`creator` → { '@id': ORGANIZATION_ID }).
+ *
+ * Identity-emission doctrine (updated 2026-07-21, seller-era-confusion fix):
+ * the FULL Organization + WebSite node is emitted not only on the homepage but
+ * ALSO on the high-crawl SSR surfaces (topic hubs + activity pages) via
+ * `components/seo/PublisherJsonLd`. Rationale: the homepage is crawled rarely,
+ * so an @id-only reference on the pages Googlebot actually fetches daily left
+ * the current identity un-reaffirmed while the stale seller-era index lingered.
+ * All full emissions pass `ORGANIZATION_DESCRIPTION` (below) so the merged @id
+ * carries one consistent description regardless of which page Google re-crawls.
  *
  * Consumers:
- *   - frontend/app/[locale]/page.tsx  (homepage emits the full object)
- *   - frontend/app/[locale]/about/page.tsx  (references @id only)
- *   - frontend/app/[locale]/topic/[slug]/page.tsx  (isPartOf → @id)
+ *   - frontend/app/[locale]/page.tsx                 (homepage; full object)
+ *   - frontend/components/seo/PublisherJsonLd.tsx    (topic hubs + activities; full object)
+ *   - frontend/app/[locale]/about/page.tsx           (references @id only)
  *
  * TODO(operator): supply real `sameAs` social-profile URLs before lifting
- * this from `[]` to a populated array. Never fabricate social URLs.
+ * this from a single YouTube entry to the full identity-aligned set. Never
+ * fabricate social URLs — see docs/SEO/off-site-identity-audit.md.
  */
 
 import { CANONICAL_HOST } from './url';
@@ -20,12 +32,23 @@ export const ORGANIZATION_ID = `${CANONICAL_HOST}/#organization`;
 export const WEBSITE_ID = `${CANONICAL_HOST}/#website`;
 export const LOGO_ID = `${CANONICAL_HOST}/#logo`;
 
+// Canonical, stable Organization/WebSite description. Used by every FULL
+// emission of the @id (homepage passes its own localized homepage.meta copy;
+// the high-crawl PublisherJsonLd emissions pass THIS constant) so the merged
+// entity description stays consistent. Mirrors the root layout brand description.
+export const ORGANIZATION_DESCRIPTION =
+  'Free K-3 worksheets and interactive activities in 11 languages. Built for dual-language, bilingual, and international-school classrooms.';
+
 // Real social-profile URLs for Organization.sameAs — operator-verified only,
 // NEVER fabricated (a wrong sameAs harms entity disambiguation more than an
 // absent one). YouTube channel supplied by the operator 2026-06-14 (tutorials
 // for each worksheet generator). Add more as the operator confirms them.
+// Operator's YouTube channel (tutorials for each worksheet generator).
+// Named so consumers (e.g. the About page tutorials link) reference one SoT.
+export const YOUTUBE_CHANNEL_URL = 'https://www.youtube.com/@LessonCraftStudioApps';
+
 export const ORGANIZATION_SAME_AS: string[] = [
-  'https://www.youtube.com/@LessonCraftStudioApps',
+  YOUTUBE_CHANNEL_URL,
 ];
 
 export function buildOrganizationSchema(description: string) {

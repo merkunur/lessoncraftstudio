@@ -4,6 +4,7 @@ import { notFound, redirect } from 'next/navigation';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
 import { buildBreadcrumbSchema, BreadcrumbCrumb } from '@/lib/seo/breadcrumb-schema';
+import { PublisherJsonLd } from '@/components/seo/PublisherJsonLd';
 import {
   Axis,
   getAxisName,
@@ -796,6 +797,7 @@ async function renderSubjectGradeHub(
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       {faqSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />}
+      <PublisherJsonLd locale={locale} />
       <main className="container mx-auto px-4 max-w-6xl py-12">
         <nav className="text-sm text-ink-500 mb-4" aria-label="Breadcrumb">
           {breadcrumbTrail.map((c, i) => (
@@ -1103,6 +1105,7 @@ export default async function IntersectionPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
+      <PublisherJsonLd locale={locale} />
 
       <main className="container mx-auto px-4 max-w-6xl py-12">
         {/* Arc 6a — depth-UI overlay: 3-level breadcrumbs above h1;

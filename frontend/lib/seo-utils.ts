@@ -1,3 +1,14 @@
+/**
+ * ⚠️ LEGACY / ADMIN-ONLY — DO NOT WIRE TO ANY PUBLIC/INDEXED ROUTE.
+ *
+ * This is seller-era SEO tooling: `generateSchemaMarkup('Product', …)` emits a
+ * Product/Offer/price/InStock schema and the default meta title is the stale
+ * "Educational Worksheet Generator" brand. It is imported ONLY by the admin SEO
+ * panels (app/admin/seo/*, app/api/admin/seo/*). Emitting any of this on a public
+ * page would re-introduce the abandoned e-commerce identity to Google — the exact
+ * confusion the 2026-07-21 identity work is removing. Public pages use the
+ * canonical Organization entity in `lib/seo/organization-schema.ts` instead.
+ */
 import { MetaTags, SchemaMarkup, SEOAnalysis, SEOIssue, UTMParameters } from '@/types/seo';
 
 // Generate meta tags for a page

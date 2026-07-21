@@ -2,6 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import { Metadata } from 'next';
 import { INDEXABLE_ROBOTS } from '@/lib/seo/robots';
+import { PublisherJsonLd } from '@/components/seo/PublisherJsonLd';
+import { ORGANIZATION_ID } from '@/lib/seo/organization-schema';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { getTranslations } from 'next-intl/server';
@@ -487,9 +489,11 @@ function jsonLdFor(row: ActivityRow, locale: string): string {
     },
     creator: {
       '@type': 'Organization',
+      '@id': ORGANIZATION_ID,
       name: 'LessonCraftStudio',
       url: CANONICAL_HOST,
     },
+    publisher: { '@id': ORGANIZATION_ID },
     url: canonical,
   };
   if (ageRange) data.typicalAgeRange = ageRange;
@@ -864,6 +868,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
         />
+        <PublisherJsonLd locale={params.locale} />
       </article>
     </main>
   );

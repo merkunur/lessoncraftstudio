@@ -14,6 +14,7 @@ import {
   getSubjectName,
   getSubjectSlugStrict,
   listSubjectKeys,
+  exerciseTypeKeysForSubject,
 } from '@/lib/taxonomy';
 import {
   fetchDecksForIntersection,
@@ -45,7 +46,8 @@ import {
   onlineHubLinkLabel,
   getSubjectHubDeepCopy,
 } from '@/lib/subject-hub';
-import { landingSlugForDeck, canonicalDeckAssets } from '@/lib/seo/landing-content';
+import { landingSlugForDeck, canonicalDeckAssets, landingsForIntersection } from '@/lib/seo/landing-content';
+import TopicLandingLinks from '@/components/topic/TopicLandingLinks';
 import { isSeasonalHubUpgraded, seasonalGradeTitle, SeasonalKey } from '@/lib/seasonal-hub';
 import { getIntersectionOverride } from '@/lib/seo/topic-overrides';
 import Breadcrumbs from '@/components/catalog/Breadcrumbs';
@@ -704,6 +706,18 @@ async function renderSubjectGradeHub(
   const gradeName = subjectHubGradeLabel(locale, levelKey);
   const subjectName = getSubjectName(subjectKey, locale) ?? subjectKey;
 
+  // Tier-3 crawl-channeling (2026-07-21): this subject×grade hub is a high-crawl surface that
+  // linked ~2 landings while thousands exist. Feed its crawl into the landing tier — the subject's
+  // exercise-types × this level → on-coordinate landings, deduped against the deck cards above.
+  const hubShownLandingSlugs = new Set(
+    decks.map((d) => landingSlugForDeck(d.language, d.slug)).filter(Boolean) as string[],
+  );
+  const hubLandingLinks = landingsForIntersection(
+    locale,
+    { types: exerciseTypeKeysForSubject(subjectKey), level: levelKey },
+    60,
+  ).filter((l) => !hubShownLandingSlugs.has(l.slug));
+
   // Internal-link mesh — the money links that concentrate PageRank on the hubs.
   const otherGrades: Array<{ label: string; href: string }> = [];
   for (const g of HUB_GRADE_KEYS) {
@@ -837,6 +851,8 @@ async function renderSubjectGradeHub(
           </p>
         )}
 
+        <TopicLandingLinks locale={locale} landings={hubLandingLinks} />
+
         {(otherSubjects.length > 0 || otherGrades.length > 0) && (
           <div className="mt-12 grid gap-8 sm:grid-cols-2">
             {otherSubjects.length > 0 && (
@@ -949,6 +965,22 @@ export default async function IntersectionPage({
   );
 
   if (filters.page > pageCount && pageCount > 0) notFound();
+
+  // Tier-3 crawl-channeling (2026-07-21): the 2-segment intersection pages are the highest-crawl
+  // /topic surface yet linked ~2 landings. Map the two axes → a landing filter and feed the crawl
+  // into the crawl-starved landing tier, deduped against the deck cards on this page.
+  const ixFilter: { theme?: string; type?: string; level?: string } = {};
+  for (const [ax, key] of [[axis1, axisKey1], [axis2, axisKey2]] as [Axis, string][]) {
+    if (ax === 'theme') ixFilter.theme = key;
+    else if (ax === 'educational-level') ixFilter.level = key;
+    else if (ax === 'exercise-type') ixFilter.type = key;
+  }
+  const ixShownLandingSlugs = new Set(
+    decks.map((d) => landingSlugForDeck(d.language, d.slug)).filter(Boolean) as string[],
+  );
+  const ixLandingLinks = landingsForIntersection(locale, ixFilter, 60).filter(
+    (l) => !ixShownLandingSlugs.has(l.slug),
+  );
 
   const facetCounts = await getFacetCounts(primaryAxes, secondaryAxes, locale, modeFilter);
 
@@ -1168,6 +1200,8 @@ export default async function IntersectionPage({
             />
           </div>
         </div>
+
+        <TopicLandingLinks locale={locale} landings={ixLandingLinks} />
 
         <CrossAxisPivots
           locale={locale}

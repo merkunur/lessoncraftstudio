@@ -3988,6 +3988,29 @@
         "Reconoce sonidos iguales en palabras distintas",
         "Se prepara para leer y escribir"
       ]
+    },
+    "choice-board.read-cvc-word.rf-k-3": {
+      "about": [
+        "Lola la lechuza mira cada palabra con mucha atención. Su hijo/a ve una palabra escrita —por ejemplo, «gato»— y toca el dibujo que le corresponde. Uno de los dibujos empieza igual (el gallo), así que hay que leer toda la palabra, no solo la primera letra.",
+        "La actividad practica unir las letras para leer palabras cortas: gato, sol, casa, pez… Leer la palabra completa y relacionarla con su dibujo es el corazón de aprender a leer.",
+        "Corresponde al eje «Lectura». Es gratis y sin presiones: sin cronómetro, sin puntaje, sin perder; su hijo/a lee con calma con Lola la lechuza."
+      ],
+      "practices": [
+        "Leer palabras cortas letra por letra",
+        "Unir las letras para formar la palabra",
+        "Fijarse en toda la palabra, no solo en la primera letra",
+        "Relacionar la palabra escrita con su dibujo"
+      ],
+      "howToPlay": [
+        "Lee la palabra que aparece",
+        "Piénsala letra por letra",
+        "Toca el dibujo que le corresponde"
+      ],
+      "learningGoals": [
+        "Su hijo/a lee sus primeras palabras",
+        "Decodifica palabras cortas con seguridad",
+        "Une lo que lee con su significado"
+      ]
     }
   }
 }

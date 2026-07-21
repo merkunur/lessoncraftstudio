@@ -152,7 +152,13 @@ function readHead(html) {
   var title = metaContent(html, 'og:title');
   if (!title) { var mt = html.match(/<title[^>]*>([\s\S]*?)<\/title>/i); title = mt ? decodeEntities(mt[1].trim()) : ''; }
   var description = metaContent(html, 'og:description') || metaContent(html, 'description');
-  var kw = metaContent(html, 'keywords');
+  // Subjects: the LearningResource JSON-LD `keywords` (a comma list like
+  // "Addition, 4th of July, kindergarten, Worksheet, ...") is the richest source; the deck.html
+  // carries no <meta name="keywords">. Fall back to any meta keywords if the JSON-LD field moves.
+  var kw = '';
+  var ld = html.match(/"keywords"\s*:\s*"([^"]*)"/i);
+  if (ld) kw = decodeEntities(ld[1]);
+  if (!kw) kw = metaContent(html, 'keywords');
   var subjects = kw ? kw.split(',').map(function (s) { return s.trim(); }).filter(Boolean).slice(0, 8) : [];
   return { title: title, description: description, subjects: subjects };
 }

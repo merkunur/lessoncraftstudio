@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "marlo-magnifier.trait-evidence.rl-1-3": {
+      "about": [
+        "Con la gran lupa de Marlo el mapache, su hijo/a se vuelve detective de cuentos. En cada caso lee una historia corta y una afirmación sobre un personaje —por ejemplo, «Mira es valiente.»— y busca el detalle que lo PRUEBA. Ese detalle es una acción del cuento («Entró sola a la cueva oscura.»), no la ropa que trae ni cómo se ve.",
+        "La actividad practica una lectura fina: inferir cómo es un personaje a partir de lo que HACE, y respaldarlo con una prueba del texto. Las otras dos tarjetas son ciertas, pero no vienen al caso: hablan de la ropa, la casa o la comida, no del rasgo. Así su hijo/a aprende a distinguir la evidencia que de verdad prueba algo de un detalle que solo es cierto.",
+        "Ese criterio —leer con atención y buscar la prueba en el texto— es una base para comprender cuentos más adelante. La historia se puede escuchar con el botón «📖 Lee la historia», por si su hijo/a todavía no lee solo. Corresponde al eje «Comprensión de textos literarios». Es gratis y sin presiones: sin cronómetro, sin puntaje, sin perder; su hijo/a piensa con calma."
+      ],
+      "practices": [
+        "Inferir un rasgo de un personaje a partir de lo que hace",
+        "Encontrar en el texto el detalle que prueba el rasgo",
+        "Distinguir una prueba real de un detalle cierto pero que no viene al caso",
+        "Leer y escuchar cuentos cortos con atención"
+      ],
+      "howToPlay": [
+        "Lean el caso y la afirmación sobre el personaje (o toquen «📖 Lee la historia»)",
+        "Piensen: ¿qué acción del cuento lo prueba?",
+        "El niño toca el detalle que prueba el rasgo"
+      ],
+      "learningGoals": [
+        "Su hijo/a infiere cómo es un personaje a partir de sus acciones",
+        "Encuentra el detalle del texto que prueba el rasgo",
+        "Distingue una prueba real de un detalle cierto pero irrelevante"
+      ]
+    },
     "pearl-opinion-page.back-it-up.ri-2-8": {
       "about": [
         "Pearl la foca abre su página de opiniones: en cada página escribe una opinión —por ejemplo, «Nuestro pueblo debería construir un parque nuevo.»— y debajo pone tres tarjetas. Su hijo/a escucha la opinión (o la lee) y toca la tarjeta que de verdad la apoya con una razón.",

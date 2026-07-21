@@ -52,13 +52,28 @@
       ring: 'Die klingen gleich! Ab in die Reimkugel.',
       reread: 'Hör nochmal – die Enden klingen anders. Versuch ein anderes!',
       oral: 'Fällt dir noch ein Reimwort ein? Sag es laut!'
+    },
+    es: {
+      tapHear: '¡Toca una imagen para ESCUCHARLA!',
+      judge: '¿Estas dos riman?',
+      pick: 'Toca la imagen que RIMA y ¡dale de comer!',
+      odd: 'Una NO rima. ¡Tócala y dale de comer!',
+      sort: 'Toca una imagen y luego el vagón con el que rima.',
+      chant: 'Completa la rima: ¡toca la palabra que va!',
+      field: 'Toca TODAS las que riman y ¡pulsa Listo!',
+      chain: 'Agrega una imagen que rime. ¡Sigue la cadena!',
+      yes: '¡Sí, riman!', no: 'No, terminan diferente.',
+      feed: '¡Dale de comer!', done: '¡Listo!', add: '¡Agrégala!',
+      ring: '¡Riman! Se van juntas a la esfera.',
+      reread: 'Escucha otra vez: esas no riman. ¡Prueba con otra!',
+      oral: '¿Puedes DECIR otra palabra que rime? ¡Dila en voz alta!'
     }
   };
   function txt(k) { return (L[LANG] || L.en)[k] || L.en[k] || k; }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
   function cap(s) { s = String(s || ''); return s.charAt(0).toUpperCase() + s.slice(1); }
   function imgUrl(t) { return '/image-library-webp/themes/' + t.themeDir + '/' + t.noun + '@2x.webp'; }
-  function wordOf(t) { return (LANG === 'de' && t.word) ? t.word : cap(t.noun); }
+  function wordOf(t) { return ((LANG === 'de' || LANG === 'es') && t.word) ? t.word : cap(t.noun); }
 
   function rosaSVG() {
     return '<svg class="rs-rosa" viewBox="0 0 48 48" width="30" height="30" aria-hidden="true">' +
@@ -83,15 +98,15 @@
   var RhymeShopActivity = {
     id: 'rhyme-shop',
     strings: {
-      title: { en: "Rosa Raccoon's Rhyme Wagon", de: 'Rudi Reimbär' },
-      instruction: { en: 'Headphones on! Tap to hear, then feed the rhymes.', de: 'Kopfhörer auf! Tipp zum Hören, dann füttere die Reime.' },
-      qJudge: { en: 'Do these two RING the same?', de: 'Klingen diese zwei am Ende gleich?' },
-      qPick: { en: 'Which picture RHYMES with {w}?', de: 'Welches Bild reimt sich auf {w}?' },
-      qOdd: { en: 'Which one does NOT ring the same?', de: 'Welches klingt NICHT gleich?' },
-      qSort: { en: 'Sort each picture into the wagon it rings with.', de: 'Sortiere jedes Bild in den Wagen, mit dem es sich reimt.' },
-      qChant: { en: "Finish Rosa's rhyme!", de: 'Vervollständige Rudis Reim!' },
-      qField: { en: 'Find EVERY picture that rhymes with {w}.', de: 'Finde JEDES Bild, das sich auf {w} reimt.' },
-      qChain: { en: 'Build a rhyme chain!', de: 'Bau eine Reimkette!' }
+      title: { en: "Rosa Raccoon's Rhyme Wagon", de: 'Rudi Reimbär', es: 'El vagón de rimas de Momo el Mapache' },
+      instruction: { en: 'Headphones on! Tap to hear, then feed the rhymes.', de: 'Kopfhörer auf! Tipp zum Hören, dann füttere die Reime.', es: '¡Ponte los audífonos! Toca para escuchar y dale de comer a las rimas.' },
+      qJudge: { en: 'Do these two RING the same?', de: 'Klingen diese zwei am Ende gleich?', es: '¿Estas dos riman?' },
+      qPick: { en: 'Which picture RHYMES with {w}?', de: 'Welches Bild reimt sich auf {w}?', es: '¿Cuál imagen RIMA con {w}?' },
+      qOdd: { en: 'Which one does NOT ring the same?', de: 'Welches klingt NICHT gleich?', es: '¿Cuál NO rima?' },
+      qSort: { en: 'Sort each picture into the wagon it rings with.', de: 'Sortiere jedes Bild in den Wagen, mit dem es sich reimt.', es: 'Acomoda cada imagen en el vagón con el que rima.' },
+      qChant: { en: "Finish Rosa's rhyme!", de: 'Vervollständige Rudis Reim!', es: '¡Completa la rima!' },
+      qField: { en: 'Find EVERY picture that rhymes with {w}.', de: 'Finde JEDES Bild, das sich auf {w} reimt.', es: 'Encuentra TODAS las imágenes que riman con {w}.' },
+      qChain: { en: 'Build a rhyme chain!', de: 'Bau eine Reimkette!', es: '¡Arma una cadena de rimas!' }
     },
 
     init: function (api) {

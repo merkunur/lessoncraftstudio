@@ -841,20 +841,420 @@
               }
             ]
           }
+        ],
+        "es": [
+          {
+            "id": "rhyme-shop.es.judge-gato-pato",
+            "cog": "judge",
+            "a": {
+              "word": "Gato",
+              "noun": "cat",
+              "themeDir": "animals",
+              "category": "animal",
+              "rimeKey": "ATO",
+              "spelledRime": "ato"
+            },
+            "b": {
+              "word": "Pato",
+              "noun": "duck",
+              "themeDir": "animals",
+              "category": "animal",
+              "rimeKey": "ATO",
+              "spelledRime": "ato"
+            }
+          },
+          {
+            "id": "rhyme-shop.es.judge-oveja-camion",
+            "cog": "judge",
+            "a": {
+              "word": "Oveja",
+              "noun": "sheep",
+              "themeDir": "animals",
+              "category": "animal",
+              "rimeKey": "EJA",
+              "spelledRime": "eja"
+            },
+            "b": {
+              "word": "Camión",
+              "noun": "truck",
+              "themeDir": "post office",
+              "category": "object",
+              "rimeKey": "ON",
+              "spelledRime": "ón"
+            }
+          },
+          {
+            "id": "rhyme-shop.es.pick-gato",
+            "cog": "pick",
+            "target": {
+              "word": "Gato",
+              "noun": "cat",
+              "themeDir": "animals",
+              "category": "animal",
+              "rimeKey": "ATO",
+              "spelledRime": "ato"
+            },
+            "choices": [
+              {
+                "word": "Zapato",
+                "noun": "shoe",
+                "themeDir": "clothing",
+                "category": "object",
+                "rimeKey": "ATO",
+                "spelledRime": "ato"
+              },
+              {
+                "word": "Oveja",
+                "noun": "sheep",
+                "themeDir": "animals",
+                "category": "animal",
+                "rimeKey": "EJA",
+                "spelledRime": "eja"
+              },
+              {
+                "word": "Rosa",
+                "noun": "rose",
+                "themeDir": "flowers",
+                "category": "plant",
+                "rimeKey": "OSA",
+                "spelledRime": "osa"
+              }
+            ]
+          },
+          {
+            "id": "rhyme-shop.es.pick-manzana",
+            "cog": "pick",
+            "target": {
+              "word": "Manzana",
+              "noun": "apple",
+              "themeDir": "At the Supermarket",
+              "category": "food",
+              "rimeKey": "ANA",
+              "spelledRime": "ana"
+            },
+            "choices": [
+              {
+                "word": "Campana",
+                "noun": "bell",
+                "themeDir": "christmas",
+                "category": "object",
+                "rimeKey": "ANA",
+                "spelledRime": "ana"
+              },
+              {
+                "word": "Estrella",
+                "noun": "star",
+                "themeDir": "christmas",
+                "category": "object",
+                "rimeKey": "ELLA",
+                "spelledRime": "ella"
+              },
+              {
+                "word": "Limón",
+                "noun": "lemon",
+                "themeDir": "At the Supermarket",
+                "category": "food",
+                "rimeKey": "ON",
+                "spelledRime": "ón"
+              }
+            ]
+          },
+          {
+            "id": "rhyme-shop.es.pick-galleta",
+            "cog": "pick",
+            "target": {
+              "word": "Galleta",
+              "noun": "cookie",
+              "themeDir": "At the Supermarket",
+              "category": "food",
+              "rimeKey": "ETA",
+              "spelledRime": "eta"
+            },
+            "choices": [
+              {
+                "word": "Camiseta",
+                "noun": "t-shirt",
+                "themeDir": "clothing",
+                "category": "object",
+                "rimeKey": "ETA",
+                "spelledRime": "eta"
+              },
+              {
+                "word": "Ardilla",
+                "noun": "squirrel",
+                "themeDir": "camping",
+                "category": "animal",
+                "rimeKey": "ILLA",
+                "spelledRime": "illa"
+              },
+              {
+                "word": "Avión",
+                "noun": "airplane",
+                "themeDir": "Things That Fly",
+                "category": "object",
+                "rimeKey": "ON",
+                "spelledRime": "ón"
+              }
+            ]
+          },
+          {
+            "id": "rhyme-shop.es.odd-on",
+            "cog": "odd",
+            "choices": [
+              {
+                "word": "Ratón",
+                "noun": "mouse",
+                "themeDir": "forest creatures",
+                "category": "animal",
+                "rimeKey": "ON",
+                "spelledRime": "ón"
+              },
+              {
+                "word": "Limón",
+                "noun": "lemon",
+                "themeDir": "At the Supermarket",
+                "category": "food",
+                "rimeKey": "ON",
+                "spelledRime": "ón"
+              },
+              {
+                "word": "Avión",
+                "noun": "airplane",
+                "themeDir": "Things That Fly",
+                "category": "object",
+                "rimeKey": "ON",
+                "spelledRime": "ón"
+              },
+              {
+                "word": "Oveja",
+                "noun": "sheep",
+                "themeDir": "animals",
+                "category": "animal",
+                "rimeKey": "EJA",
+                "spelledRime": "eja"
+              }
+            ]
+          },
+          {
+            "id": "rhyme-shop.es.sort-ato-on",
+            "cog": "sort",
+            "bins": [
+              {
+                "word": "Gato",
+                "noun": "cat",
+                "themeDir": "animals",
+                "category": "animal",
+                "rimeKey": "ATO",
+                "spelledRime": "ato"
+              },
+              {
+                "word": "Ratón",
+                "noun": "mouse",
+                "themeDir": "forest creatures",
+                "category": "animal",
+                "rimeKey": "ON",
+                "spelledRime": "ón"
+              }
+            ],
+            "pile": [
+              {
+                "word": "Pato",
+                "noun": "duck",
+                "themeDir": "animals",
+                "category": "animal",
+                "rimeKey": "ATO",
+                "spelledRime": "ato"
+              },
+              {
+                "word": "Limón",
+                "noun": "lemon",
+                "themeDir": "At the Supermarket",
+                "category": "food",
+                "rimeKey": "ON",
+                "spelledRime": "ón"
+              },
+              {
+                "word": "Camión",
+                "noun": "truck",
+                "themeDir": "post office",
+                "category": "object",
+                "rimeKey": "ON",
+                "spelledRime": "ón"
+              }
+            ]
+          },
+          {
+            "id": "rhyme-shop.es.chant-gato",
+            "cog": "chant",
+            "coupletLine": "Mira al gato, mira al gato, se puso un solo …",
+            "target": {
+              "word": "Gato",
+              "noun": "cat",
+              "themeDir": "animals",
+              "category": "animal",
+              "rimeKey": "ATO",
+              "spelledRime": "ato"
+            },
+            "choices": [
+              {
+                "word": "Zapato",
+                "noun": "shoe",
+                "themeDir": "clothing",
+                "category": "object",
+                "rimeKey": "ATO",
+                "spelledRime": "ato"
+              },
+              {
+                "word": "Rosa",
+                "noun": "rose",
+                "themeDir": "flowers",
+                "category": "plant",
+                "rimeKey": "OSA",
+                "spelledRime": "osa"
+              },
+              {
+                "word": "Campana",
+                "noun": "bell",
+                "themeDir": "christmas",
+                "category": "object",
+                "rimeKey": "ANA",
+                "spelledRime": "ana"
+              }
+            ]
+          },
+          {
+            "id": "rhyme-shop.es.field-on",
+            "cog": "field",
+            "target": {
+              "word": "Ratón",
+              "noun": "mouse",
+              "themeDir": "forest creatures",
+              "category": "animal",
+              "rimeKey": "ON",
+              "spelledRime": "ón"
+            },
+            "choices": [
+              {
+                "word": "Limón",
+                "noun": "lemon",
+                "themeDir": "At the Supermarket",
+                "category": "food",
+                "rimeKey": "ON",
+                "spelledRime": "ón"
+              },
+              {
+                "word": "Avión",
+                "noun": "airplane",
+                "themeDir": "Things That Fly",
+                "category": "object",
+                "rimeKey": "ON",
+                "spelledRime": "ón"
+              },
+              {
+                "word": "Gato",
+                "noun": "cat",
+                "themeDir": "animals",
+                "category": "animal",
+                "rimeKey": "ATO",
+                "spelledRime": "ato"
+              },
+              {
+                "word": "Oveja",
+                "noun": "sheep",
+                "themeDir": "animals",
+                "category": "animal",
+                "rimeKey": "EJA",
+                "spelledRime": "eja"
+              }
+            ]
+          },
+          {
+            "id": "rhyme-shop.es.chain-on",
+            "cog": "chain",
+            "anchor": {
+              "word": "Ratón",
+              "noun": "mouse",
+              "themeDir": "forest creatures",
+              "category": "animal",
+              "rimeKey": "ON",
+              "spelledRime": "ón"
+            },
+            "steps": [
+              {
+                "choices": [
+                  {
+                    "word": "Limón",
+                    "noun": "lemon",
+                    "themeDir": "At the Supermarket",
+                    "category": "food",
+                    "rimeKey": "ON",
+                    "spelledRime": "ón"
+                  },
+                  {
+                    "word": "Gato",
+                    "noun": "cat",
+                    "themeDir": "animals",
+                    "category": "animal",
+                    "rimeKey": "ATO",
+                    "spelledRime": "ato"
+                  },
+                  {
+                    "word": "Oveja",
+                    "noun": "sheep",
+                    "themeDir": "animals",
+                    "category": "animal",
+                    "rimeKey": "EJA",
+                    "spelledRime": "eja"
+                  }
+                ]
+              },
+              {
+                "choices": [
+                  {
+                    "word": "Avión",
+                    "noun": "airplane",
+                    "themeDir": "Things That Fly",
+                    "category": "object",
+                    "rimeKey": "ON",
+                    "spelledRime": "ón"
+                  },
+                  {
+                    "word": "Rosa",
+                    "noun": "rose",
+                    "themeDir": "flowers",
+                    "category": "plant",
+                    "rimeKey": "OSA",
+                    "spelledRime": "osa"
+                  },
+                  {
+                    "word": "Manzana",
+                    "noun": "apple",
+                    "themeDir": "At the Supermarket",
+                    "category": "food",
+                    "rimeKey": "ANA",
+                    "spelledRime": "ana"
+                  }
+                ]
+              }
+            ]
+          }
         ]
       }
     },
     "slug": {
       "en": "rosa-raccoons-rhyme-wagon",
-      "de": "reime-hoeren-und-finden-klasse-1"
+      "de": "reime-hoeren-und-finden-klasse-1",
+      "es": "rimas-palabras-que-riman-conciencia-fonologica-preescolar"
     },
     "page_title": {
       "en": "Rosa Raccoon's Rhyme Wagon — Hear & Match Rhymes",
-      "de": "Reime üben – Reimwörter hören und finden (Klasse 1)"
+      "de": "Reime üben – Reimwörter hören und finden (Klasse 1)",
+      "es": "Rimas y palabras que riman para preescolar – Juego gratis"
     },
     "page_intro": {
       "en": "Headphones recommended! Tap a picture to HEAR its name, then feed Rosa's wagon the words whose endings RING the same — bee and key, snail and whale. A listening game for Kindergarten rhyme, aligned to Common Core RF.K.2.a: recognize and produce rhyming words.",
-      "de": "Reime üben mit Rudi Reimbär: Wörter anhören und das passende Reimwort finden. Kostenlos online, ohne Anmeldung – für Vorschule und Klasse 1."
+      "de": "Reime üben mit Rudi Reimbär: Wörter anhören und das passende Reimwort finden. Kostenlos online, ohne Anmeldung – für Vorschule und Klasse 1.",
+      "es": "Actividad interactiva y gratis: los niños escuchan y encuentran palabras que riman —gato y pato, ratón y limón— y desarrollan su conciencia fonológica. Ideal para preescolar."
     },
     "kid_prompt_template": "Tap to hear — then feed the rhyme!"
   }

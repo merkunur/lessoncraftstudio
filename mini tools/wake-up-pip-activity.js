@@ -41,7 +41,7 @@
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .95; u.lang = (LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .95; u.lang = (LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : LANG === 'es' ? 'es-MX' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
 
   function pipSVG(mood) {
@@ -64,24 +64,24 @@
     id: 'wake-up-pip-activity',
 
     strings: {
-      title: { en: 'Wake Up, Pip!', de: 'Wach auf, Pip!', fr: 'Réveille-toi, Pip !' },
-      instruction: { en: 'Watch the story, then retell it to Pip.', de: 'Schau die Geschichte an und erzähl sie Pip nach.', fr: 'Regarde l’histoire, puis raconte-la à Pip.' },
-      prompt: { en: 'Tell Pip the story!', de: 'Erzähl Pip die Geschichte!', fr: 'Raconte l’histoire à Pip !' },
-      watchHint: { en: 'Watch the story. Then tell it to Pip!', de: 'Schau dir die Geschichte an. Dann erzähl sie Pip!', fr: 'Regarde bien l’histoire. Puis raconte-la à Pip !' },
-      play: { en: '🔊 Play the story', de: '🔊 Geschichte abspielen', fr: '🔊 Écouter l’histoire' },
-      replay: { en: '🔊 Watch again', de: '🔊 Nochmal ansehen', fr: '🔊 Regarder encore' },
-      toRetell: { en: 'Tell my friend! →', de: 'Erzähl es Pip! →', fr: 'Raconte à mon ami ! →' },
-      retellHint: { en: 'Put it back in order, then tell it!', de: 'Bring alles in die richtige Reihenfolge, dann erzähl es!', fr: 'Remets l’histoire dans l’ordre, puis raconte-la !' },
-      tellIt: { en: 'Tell it!', de: 'Erzähl es!', fr: 'Raconte !' },
-      pipAsleep: { en: 'Zzz… what did I miss? You saw it — tell me!', de: 'Zzz… was habe ich verpasst? Du hast alles gesehen – erzähl es mir!', fr: 'Zzz… qu’est-ce que j’ai raté ? Tu as vu, toi — raconte-moi !' },
-      pipListen: { en: 'I am listening! Tell me the whole story…', de: 'Ich höre zu! Erzähl mir die ganze Geschichte…', fr: 'J’écoute ! Raconte-moi toute l’histoire…' },
-      pipWin: { en: 'Yes! I feel like I was THERE — you told it so I could see it!', de: 'Ja! Ich fühle mich, als wäre ich DABEI gewesen – so gut hast du es erzählt!', fr: 'Ouiii ! J’ai l’impression d’y être ! Tu racontes tellement bien !' },
-      breakEBC: { en: 'Hmm — a part came before what caused it. Can you find it?', de: 'Hmm – ein Teil kommt vor dem, was ihn auslöst. Findest du ihn?', fr: 'Hmm… une partie arrive avant ce qui la fait arriver. Tu la trouves ?' },
-      breakMP: { en: 'Wait — a piece is missing. What did I miss?', de: 'Moment – ein Teil fehlt. Was habe ich verpasst?', fr: 'Attends… il manque un morceau. Qu’est-ce que j’ai raté ?' },
-      breakFDF: { en: "Hmm — something doesn't belong here. Can you spot it?", de: 'Hmm – etwas gehört hier nicht dazu. Entdeckst du es?', fr: 'Hmm… une image n’est pas dans l’histoire. Tu la vois ?' },
-      reteach: { en: 'Remember — a story starts with the problem, and each part makes the next one happen.', de: 'Denk dran: Eine Geschichte beginnt mit dem Problem, und jeder Teil bringt den nächsten in Gang.', fr: 'Souviens-toi : une histoire commence par le problème, et chaque partie fait arriver la suivante.' },
-      coStart: { en: "Let's put this part where it belongs — see how it makes the next part happen?", de: 'Legen wir diesen Teil an die richtige Stelle – siehst du, wie er den nächsten in Gang bringt?', fr: 'Mettons cette partie à sa place… tu vois comme elle fait arriver la suivante ?' },
-      hintCheck: { en: 'Fill every spot, then tap Tell it!', de: 'Füll jeden Platz aus, dann tippe auf „Erzähl es!“', fr: 'Remplis toutes les places, puis appuie sur Raconte !' }
+      title: { en: 'Wake Up, Pip!', de: 'Wach auf, Pip!', fr: 'Réveille-toi, Pip !', es: '¡Despierta, Pip!' },
+      instruction: { en: 'Watch the story, then retell it to Pip.', de: 'Schau die Geschichte an und erzähl sie Pip nach.', fr: 'Regarde l’histoire, puis raconte-la à Pip.', es: 'Mira la historia y luego cuéntasela a Pip.' },
+      prompt: { en: 'Tell Pip the story!', de: 'Erzähl Pip die Geschichte!', fr: 'Raconte l’histoire à Pip !', es: '¡Cuéntale la historia a Pip!' },
+      watchHint: { en: 'Watch the story. Then tell it to Pip!', de: 'Schau dir die Geschichte an. Dann erzähl sie Pip!', fr: 'Regarde bien l’histoire. Puis raconte-la à Pip !', es: 'Mira la historia. ¡Luego cuéntasela a Pip!' },
+      play: { en: '🔊 Play the story', de: '🔊 Geschichte abspielen', fr: '🔊 Écouter l’histoire', es: '🔊 Escucha la historia' },
+      replay: { en: '🔊 Watch again', de: '🔊 Nochmal ansehen', fr: '🔊 Regarder encore', es: '🔊 Míralo otra vez' },
+      toRetell: { en: 'Tell my friend! →', de: 'Erzähl es Pip! →', fr: 'Raconte à mon ami ! →', es: '¡Cuéntasela a mi amigo! →' },
+      retellHint: { en: 'Put it back in order, then tell it!', de: 'Bring alles in die richtige Reihenfolge, dann erzähl es!', fr: 'Remets l’histoire dans l’ordre, puis raconte-la !', es: '¡Ponla en orden y luego cuéntala!' },
+      tellIt: { en: 'Tell it!', de: 'Erzähl es!', fr: 'Raconte !', es: '¡Cuéntala!' },
+      pipAsleep: { en: 'Zzz… what did I miss? You saw it — tell me!', de: 'Zzz… was habe ich verpasst? Du hast alles gesehen – erzähl es mir!', fr: 'Zzz… qu’est-ce que j’ai raté ? Tu as vu, toi — raconte-moi !', es: 'Zzz… ¿qué me perdí? Tú lo viste, ¡cuéntame!' },
+      pipListen: { en: 'I am listening! Tell me the whole story…', de: 'Ich höre zu! Erzähl mir die ganze Geschichte…', fr: 'J’écoute ! Raconte-moi toute l’histoire…', es: '¡Te escucho! Cuéntame toda la historia…' },
+      pipWin: { en: 'Yes! I feel like I was THERE — you told it so I could see it!', de: 'Ja! Ich fühle mich, als wäre ich DABEI gewesen – so gut hast du es erzählt!', fr: 'Ouiii ! J’ai l’impression d’y être ! Tu racontes tellement bien !', es: '¡Sí! ¡Siento que estuve AHÍ! Lo contaste tan bien que lo pude ver.' },
+      breakEBC: { en: 'Hmm — a part came before what caused it. Can you find it?', de: 'Hmm – ein Teil kommt vor dem, was ihn auslöst. Findest du ihn?', fr: 'Hmm… une partie arrive avant ce qui la fait arriver. Tu la trouves ?', es: 'Mmm… una parte va antes de lo que la causa. ¿La encuentras?' },
+      breakMP: { en: 'Wait — a piece is missing. What did I miss?', de: 'Moment – ein Teil fehlt. Was habe ich verpasst?', fr: 'Attends… il manque un morceau. Qu’est-ce que j’ai raté ?', es: 'Espera… falta una parte. ¿Qué me perdí?' },
+      breakFDF: { en: "Hmm — something doesn't belong here. Can you spot it?", de: 'Hmm – etwas gehört hier nicht dazu. Entdeckst du es?', fr: 'Hmm… une image n’est pas dans l’histoire. Tu la vois ?', es: 'Mmm… algo no va aquí. ¿Lo encuentras?' },
+      reteach: { en: 'Remember — a story starts with the problem, and each part makes the next one happen.', de: 'Denk dran: Eine Geschichte beginnt mit dem Problem, und jeder Teil bringt den nächsten in Gang.', fr: 'Souviens-toi : une histoire commence par le problème, et chaque partie fait arriver la suivante.', es: 'Recuerda: la historia empieza con el problema, y cada parte hace que pase la siguiente.' },
+      coStart: { en: "Let's put this part where it belongs — see how it makes the next part happen?", de: 'Legen wir diesen Teil an die richtige Stelle – siehst du, wie er den nächsten in Gang bringt?', fr: 'Mettons cette partie à sa place… tu vois comme elle fait arriver la suivante ?', es: 'Vamos a poner esta parte en su lugar. ¿Ves cómo hace que pase la siguiente?' },
+      hintCheck: { en: 'Fill every spot, then tap Tell it!', de: 'Füll jeden Platz aus, dann tippe auf „Erzähl es!“', fr: 'Remplis toutes les places, puis appuie sur Raconte !', es: 'Llena todos los espacios y luego toca ¡Cuéntala!' }
     },
     defaults: {},
 
@@ -346,11 +346,15 @@
         + '.rt-play:focus-visible,.rt-go:focus-visible,.rt-tell:focus-visible,.rt-tile:focus-visible,.rt-slot:focus-visible{outline:3px solid var(--lcs-focus,#1E8FD4);outline-offset:2px;}'
         /* narrow */
         + '@media (max-width:412px){.rt-root{padding:6px;gap:4px;}}'
+        /* phones: the 2-col film gives each caption only ~half the width, so longer beats (en + es
+           alike) wrap past line-clamp:2 and clip — go single-column so every caption gets full width
+           and fits in 1–2 lines (§A.13.62: fix the layout, not the gate). Desktop keeps 2 columns. */
+        + '@media (max-width:640px){.rt-film{grid-template-columns:1fr;}}'
         /* short viewports (320×640 etc.): the ~250px shell header leaves little room — compact the
            watch storyboard to a horizontal-card 2×2 + drop the redundant hint, and tighten retell. */
-        + '@media (max-height:700px),(max-width:340px){'
+        + '@media (max-height:780px){'
         +   '.rt-root{gap:3px;padding:6px;}.rt-pip{width:clamp(36px,9vw,42px);}.rt-say{font-size:11.5px;padding:3px 7px;}.rt-hint{display:none;}'
-        +   '.rt-film{gap:4px;}.rt-filmrow{padding:3px 7px;}.rt-filmrow .rt-emoji{font-size:21px;}.rt-filmrow .rt-cap{font-size:11.5px;}'
+        +   '.rt-film{gap:4px;}.rt-filmrow{padding:3px 7px;}.rt-filmrow .rt-emoji{font-size:20px;}.rt-filmrow .rt-cap{font-size:10px;line-height:1.15;-webkit-line-clamp:2;line-clamp:2;}'
         +   '.rt-play{min-height:36px;}.rt-go{min-height:42px;}.rt-tell{min-height:40px;margin-top:0;}'
         +   '.rt-slot{min-height:34px;padding:2px 6px;}.rt-sbody{min-height:28px;}.rt-sbody .rt-emoji{font-size:19px;}.rt-sbody .rt-cap{font-size:11px;-webkit-line-clamp:1;line-clamp:1;}.rt-ladder{gap:3px;}.rt-main{gap:5px;}'
         +   '.rt-tile{width:42px;height:42px;}.rt-tile .rt-emoji{font-size:22px;}.rt-tray{gap:6px;padding:0;}'
@@ -363,6 +367,13 @@
         +   '.rt-slot{min-height:38px;padding:2px 7px;}.rt-sbody{min-height:30px;}.rt-sbody .rt-emoji{font-size:20px;}.rt-ladder{gap:4px;}.rt-main{gap:6px;}'
         +   '.rt-tile{width:44px;height:44px;}.rt-tile .rt-emoji{font-size:23px;}.rt-tray{gap:7px;padding:0;}'
         +   '.rt-tell{min-height:42px;margin-top:0;}'
+        + '}'
+        /* short viewports (320×640 / 360×740): defined AFTER the ≤480 block so it wins the tie — show
+           the FULL ladder-slot caption (no "…" clip) by shrinking to 10px + allowing 2 lines, and pull
+           slot heights/gaps in so 4 slots + Tell-it + the shell Check still clear the fold (§A.13.62). */
+        + '@media (max-height:780px){'
+        +   '.rt-slot{min-height:29px;padding:2px 6px;}.rt-sbody{min-height:25px;}.rt-sbody .rt-emoji{font-size:18px;}'
+        +   '.rt-sbody .rt-cap{font-size:9.5px;line-height:1.12;-webkit-line-clamp:2;line-clamp:2;}.rt-ladder{gap:2px;}'
         + '}'
         + '@media (prefers-reduced-motion: reduce){.rt-mirror.rt-tangle .rt-mpip{animation:none!important;}.rt-filmrow{transition:none!important;}}';
       var tag = document.createElement('style'); tag.setAttribute('data-wake-up-pip', ''); tag.textContent = css; document.head.appendChild(tag);

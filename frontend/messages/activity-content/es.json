@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "pearl-opinion-page.back-it-up.ri-2-8": {
+      "about": [
+        "Pearl la foca abre su página de opiniones: en cada página escribe una opinión —por ejemplo, «Nuestro pueblo debería construir un parque nuevo.»— y debajo pone tres tarjetas. Su hijo/a escucha la opinión (o la lee) y toca la tarjeta que de verdad la apoya con una razón.",
+        "La actividad practica algo clave al leer: distinguir una RAZÓN de una simple repetición. Una tarjeta da una razón verdadera que dice POR QUÉ («Los niños no tienen un lugar seguro para jugar.»); otra solo repite la opinión con otras palabras; y otra cuenta algo cierto, pero que no viene al caso. La tarjeta tramposa es la que más se PARECE a la opinión —pero parecerse no es dar una razón.",
+        "Así su hijo/a aprende el fino detalle en el que se apoya la lectura de textos de opinión: una razón trae una explicación nueva, no repite lo mismo. Ese mismo criterio prepara para dar sus propias razones y defender sus ideas más adelante. Corresponde al eje «Comprensión de textos argumentativos». Es gratis y sin presiones: sin cronómetro, sin puntaje, sin perder; su hijo/a piensa con calma."
+      ],
+      "practices": [
+        "Escuchar una opinión y encontrar la razón que la apoya",
+        "Distinguir una razón verdadera de una simple repetición",
+        "Descartar los datos ciertos que no vienen al caso",
+        "Seguir con atención textos de opinión leídos en voz alta"
+      ],
+      "howToPlay": [
+        "Escuchen la opinión con el botón «🔊» y léanla juntos",
+        "Lean las tres tarjetas y piensen: ¿cuál dice POR QUÉ?",
+        "El niño toca la tarjeta que apoya la opinión con una razón"
+      ],
+      "learningGoals": [
+        "Su hijo/a reconoce cuál razón apoya una opinión",
+        "Distingue una razón verdadera de una simple repetición",
+        "Practica apoyar y explicar ideas en textos de opinión"
+      ]
+    },
     "story-spine.role.rl-k-3": {
       "about": [
         "Dot el dragoncito le muestra a su hijo/a un cuento chiquito en tres imágenes: a veces a Bo el conejo se le cae un guante en la nieve, a veces un pájaro le quita la zanahoria a Millie, a veces un día de campo bajo la lluvia termina bien. Su hijo/a lee las tres tarjetas —que aparecen revueltas— y descubre cuál parte es el inicio, cuál el problema y cuál la solución.",

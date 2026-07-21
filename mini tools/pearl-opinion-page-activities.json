@@ -203,6 +203,48 @@
               { "id": "o3", "kind": "restate", "text": "Les enfants devraient toujours aider à la vaisselle." }
             ]
           }
+        ],
+        "es": [
+          { "id": "park", "band": 1, "point": "Nuestro pueblo debería construir un parque nuevo.", "options": [
+            { "id": "o1", "kind": "reason", "text": "Los niños no tienen un lugar seguro para jugar." },
+            { "id": "o2", "kind": "restate", "text": "Nuestro pueblo de veras necesita un parque nuevo." },
+            { "id": "o3", "kind": "offtopic", "text": "La biblioteca cierra a las cinco." }
+          ] },
+          { "id": "helmet", "band": 1, "point": "Todos deberían usar casco al andar en bici.", "options": [
+            { "id": "o1", "kind": "restate", "text": "Todos deberían usar siempre el casco." },
+            { "id": "o2", "kind": "reason", "text": "Protege la cabeza si te caes." },
+            { "id": "o3", "kind": "offtopic", "text": "Las bicis rojas se ven muy padres." }
+          ] },
+          { "id": "read", "band": 1, "point": "Los niños deberían leer veinte minutos al día.", "options": [
+            { "id": "o1", "kind": "restate", "text": "Los niños deberían leer un montón cada día." },
+            { "id": "o2", "kind": "offtopic", "text": "La clase de matemáticas es después del recreo." },
+            { "id": "o3", "kind": "reason", "text": "Ayuda a que tu cerebro crezca fuerte." }
+          ] },
+          { "id": "garden", "band": 2, "point": "Nuestra clase debería tener un huerto.", "options": [
+            { "id": "o1", "kind": "reason", "text": "Las plantas nos dan comida fresca." },
+            { "id": "o2", "kind": "offtopic", "text": "El timbre suena a las tres." },
+            { "id": "o3", "kind": "restate", "text": "Nuestra clase debería sembrar un huerto grande." }
+          ] },
+          { "id": "water", "band": 2, "point": "Los alumnos deberían traer su botella de agua a la escuela.", "options": [
+            { "id": "o1", "kind": "offtopic", "text": "Los camiones son de color amarillo." },
+            { "id": "o2", "kind": "reason", "text": "Beber seguido te mantiene sano y despierto." },
+            { "id": "o3", "kind": "restate", "text": "Los alumnos deberían traer su botella de agua a diario." }
+          ] },
+          { "id": "lights", "band": 2, "point": "Deberíamos apagar las luces para ahorrar energía.", "options": [
+            { "id": "o1", "kind": "restate", "text": "Deberíamos apagar siempre las luces." },
+            { "id": "o2", "kind": "offtopic", "text": "Los viernes hay pizza en la escuela." },
+            { "id": "o3", "kind": "reason", "text": "Es bueno para todo el planeta." }
+          ] },
+          { "id": "dogs", "band": 3, "point": "Deberíamos pasear al perro todos los días.", "options": [
+            { "id": "o1", "kind": "reason", "text": "Caminar mantiene sana y feliz a tu mascota." },
+            { "id": "o2", "kind": "restate", "text": "De veras deberíamos pasear al perro todo el tiempo." },
+            { "id": "o3", "kind": "offtopic", "text": "A los gatos les gusta dormir al sol." }
+          ] },
+          { "id": "dishes", "band": 3, "point": "Los niños deberían ayudar a lavar los trastes.", "options": [
+            { "id": "o1", "kind": "offtopic", "text": "Las cucharas son más chicas que los tenedores." },
+            { "id": "o2", "kind": "reason", "text": "Enseña a cuidar tu casa." },
+            { "id": "o3", "kind": "restate", "text": "Los niños siempre deberían ayudar con los trastes." }
+          ] }
         ]
       }
     },
@@ -210,17 +252,20 @@
     "slug": {
       "en": "pearls-opinion-page",
       "de": "behauptung-und-begruendung-den-passenden-grund-finden-klasse-3",
-      "fr": "justifier-un-avis-trouver-la-bonne-raison-ce2"
+      "fr": "justifier-un-avis-trouver-la-bonne-raison-ce2",
+      "es": "opinion-y-razones-cual-razon-apoya-la-opinion-tercer-grado"
     },
     "page_title": {
       "en": "Pearl's Opinion Page — Back It Up (Grade 2)",
       "de": "Behauptung begründen: den passenden Grund finden – Klasse 3",
-      "fr": "Justifier un avis : trouver la bonne raison – CE2"
+      "fr": "Justifier un avis : trouver la bonne raison – CE2",
+      "es": "Opinión y razones: ¿qué razón apoya? · Tercer grado"
     },
     "page_intro": {
       "en": "Pearl the seal writes the opinion page, and every column makes a POINT — \"Our town should build a new park.\" Your job: tap the card that BACKS IT UP with a real reason, not a card that just says the same thing again or talks about something else. A warm Grade 2 reading game about how reasons support an author's point, aligned to Common Core RI.2.8.",
       "de": "Meinung begründen leicht gemacht: Finde mit Pearl den echten Grund, der eine Behauptung stützt – nicht nur die Wiederholung. Kostenlos & interaktiv, Klasse 3. Jetzt üben!",
-      "fr": "Justifier un avis, c'est facile : avec Pearl le phoque, trouve la vraie raison qui appuie une affirmation — pas seulement la répétition. Gratuit et interactif, CE2. À toi de jouer !"
+      "fr": "Justifier un avis, c'est facile : avec Pearl le phoque, trouve la vraie raison qui appuie une affirmation — pas seulement la répétition. Gratuit et interactif, CE2. À toi de jouer !",
+      "es": "Actividad interactiva y gratis para tercer grado: lee una opinión e identifica la razón que sí la apoya, distinta de una repetición o un dato suelto."
     },
     "kid_prompt_template": "pearl-opinion-page"
   }

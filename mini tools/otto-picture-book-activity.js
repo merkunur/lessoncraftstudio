@@ -41,7 +41,7 @@
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .95; u.lang = (LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = .95; u.lang = (LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : LANG === 'es' ? 'es-MX' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
 
   function ottoSVG(mood) {
@@ -49,7 +49,7 @@
     var eyes = happy
       ? '<path d="M30 44 q6 -6 12 0 M58 44 q6 -6 12 0" stroke="#2A2A35" stroke-width="3" fill="none" stroke-linecap="round"/>'
       : '<circle cx="36" cy="45" r="9" fill="#fff" stroke="#2A2A35" stroke-width="2"/><circle cx="64" cy="45" r="9" fill="#fff" stroke="#2A2A35" stroke-width="2"/><circle cx="36" cy="45" r="3.6" fill="#2A2A35"/><circle cx="64" cy="45" r="3.6" fill="#2A2A35"/>';
-    return '<svg class="opb-owl-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Otto le hibou' : LANG === 'de' ? 'Otto, die Eule' : 'Otto the owl') + '">' +
+    return '<svg class="opb-owl-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Otto le hibou' : LANG === 'de' ? 'Otto, die Eule' : LANG === 'es' ? 'Otto, el búho' : 'Otto the owl') + '">' +
       '<path d="M22 22 L36 36 L18 38 Z" fill="#9D7BC8"/><path d="M78 22 L64 36 L82 38 Z" fill="#9D7BC8"/>' +   /* ear tufts */
       '<ellipse cx="50" cy="56" rx="32" ry="30" fill="#B79BE0"/>' +
       '<ellipse cx="50" cy="64" rx="20" ry="18" fill="#EBDFF8"/>' +   /* belly */
@@ -62,15 +62,15 @@
     id: 'otto-picture-book-activity',
 
     strings: {
-      title: { en: "Otto's Picture Book", de: 'Ottos Bilderbuch', fr: 'Le livre d’images d’Otto' },
-      prompt: { en: 'Which picture shows this part?', de: 'Welches Bild zeigt diesen Teil?', fr: 'Quelle image montre ce moment ?' },
-      ottoIntro: { en: 'I drew this story! Which picture shows the part I read?', de: 'Ich habe diese Geschichte gemalt! Welches Bild zeigt den Teil, den ich vorlese?', fr: 'J’ai dessiné cette histoire ! Quelle image montre le moment que je lis ?' },
-      hearStory: { en: '📖 Hear the story', de: '📖 Geschichte anhören', fr: '📖 Écouter l’histoire' },
-      hearAgain: { en: '📖 Hear it again', de: '📖 Noch einmal anhören', fr: '📖 Réécouter' },
-      thePart: { en: 'Otto reads:', de: 'Otto liest vor:', fr: 'Otto lit :' },
-      hintPick: { en: 'Tap the picture that shows this part!', de: 'Tippe auf das Bild, das diesen Teil zeigt!', fr: 'Tape l’image qui montre ce moment !' },
-      hintWrong: { en: 'That picture shows a different part — listen again.', de: 'Dieses Bild zeigt einen anderen Teil – hör noch einmal zu.', fr: 'Cette image montre un autre moment — réécoute.' },
-      ottoWin: { en: 'Yes! That picture shows it exactly!', de: 'Ja! Genau dieses Bild zeigt es!', fr: 'Oui ! Cette image le montre exactement !' }
+      title: { en: "Otto's Picture Book", de: 'Ottos Bilderbuch', fr: 'Le livre d’images d’Otto', es: 'El libro de imágenes de Otto' },
+      prompt: { en: 'Which picture shows this part?', de: 'Welches Bild zeigt diesen Teil?', fr: 'Quelle image montre ce moment ?', es: '¿Qué imagen muestra este momento?' },
+      ottoIntro: { en: 'I drew this story! Which picture shows the part I read?', de: 'Ich habe diese Geschichte gemalt! Welches Bild zeigt den Teil, den ich vorlese?', fr: 'J’ai dessiné cette histoire ! Quelle image montre le moment que je lis ?', es: '¡Yo dibujé este cuento! ¿Qué imagen muestra lo que leo?' },
+      hearStory: { en: '📖 Hear the story', de: '📖 Geschichte anhören', fr: '📖 Écouter l’histoire', es: '📖 Escuchar el cuento' },
+      hearAgain: { en: '📖 Hear it again', de: '📖 Noch einmal anhören', fr: '📖 Réécouter', es: '📖 Escuchar otra vez' },
+      thePart: { en: 'Otto reads:', de: 'Otto liest vor:', fr: 'Otto lit :', es: 'Otto lee:' },
+      hintPick: { en: 'Tap the picture that shows this part!', de: 'Tippe auf das Bild, das diesen Teil zeigt!', fr: 'Tape l’image qui montre ce moment !', es: '¡Toca la imagen que muestra este momento!' },
+      hintWrong: { en: 'That picture shows a different part — listen again.', de: 'Dieses Bild zeigt einen anderen Teil – hör noch einmal zu.', fr: 'Cette image montre un autre moment — réécoute.', es: 'Esa imagen muestra otro momento. Escucha otra vez.' },
+      ottoWin: { en: 'Yes! That picture shows it exactly!', de: 'Ja! Genau dieses Bild zeigt es!', fr: 'Oui ! Cette image le montre exactement !', es: '¡Sí! ¡Esa imagen lo muestra justo!' }
     },
     defaults: {},
 
@@ -106,7 +106,7 @@
       var part = api.el('div', 'opb-part');
       var lab = api.el('span', 'opb-partlab'); lab.textContent = api.t('thePart'); part.appendChild(lab);
       var txt = api.el('span', 'opb-parttxt'); txt.textContent = this.view.prompt; part.appendChild(txt);
-      var sp = api.el('button', 'opb-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'fr' ? 'Lire la phrase' : LANG === 'de' ? 'Den Teil vorlesen' : 'Read the part'); sp.textContent = '🔊';
+      var sp = api.el('button', 'opb-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'fr' ? 'Lire la phrase' : LANG === 'de' ? 'Den Teil vorlesen' : LANG === 'es' ? 'Leer la oración' : 'Read the part'); sp.textContent = '🔊';
       sp.addEventListener('click', function () { speak(self.view.prompt); }); part.appendChild(sp);
       root.appendChild(part);
 
@@ -120,7 +120,7 @@
       this.view.choices.forEach(function (ch, i) {
         var card = api.el('button', 'opb-card' + (self.sel === ch.panel ? ' opb-sel' : '')); card.type = 'button';
         card.setAttribute('data-i', i); card.style.background = tintFor(ch.panel);
-        card.setAttribute('aria-label', (LANG === 'fr' ? 'Image ' : LANG === 'de' ? 'Bild ' : 'Picture ') + (i + 1));
+        card.setAttribute('aria-label', (LANG === 'fr' ? 'Image ' : LANG === 'de' ? 'Bild ' : LANG === 'es' ? 'Imagen ' : 'Picture ') + (i + 1));
         var num = api.el('span', 'opb-cnum'); num.textContent = (i + 1); card.appendChild(num);
         var em = api.el('span', 'opb-cemoji'); em.setAttribute('aria-hidden', 'true'); em.textContent = EMOJI[ch.panel] || '❓'; card.appendChild(em);
         card.addEventListener('click', function () { self._tapCard(ch.panel); });
@@ -201,7 +201,7 @@
         /* narrow phones: keep the single row (cards stay ≥56px tap), tighten chrome */
         + '@media (max-width:380px){.opb-root{gap:4px;padding:7px;}.opb-say{font-size:11.5px;}.opb-part{padding:5px 8px;}.opb-parttxt{font-size:12.5px;}.opb-cemoji{font-size:clamp(22px,6.5vw,30px);}.opb-card{height:clamp(50px,13.5vw,68px);}}'
         /* short viewports (320×640 etc.): the ~150px shell chrome leaves little room — compact every band so the row of cards + shell Check clear the fold */
-        + '@media (max-height:700px){.opb-root{gap:3px;}.opb-ottorow .opb-owl{width:clamp(38px,8vw,46px);}.opb-say{-webkit-line-clamp:2;line-clamp:2;}.opb-part{padding:4px 8px;}.opb-hear{min-height:34px;}.opb-card{height:clamp(46px,12vw,64px);}.opb-cemoji{font-size:clamp(22px,5.5vw,28px);}}'
+        + '@media (max-height:700px){.opb-root{gap:3px;}.opb-ottorow .opb-owl{width:clamp(38px,8vw,46px);}.opb-say{-webkit-line-clamp:3;line-clamp:3;}.opb-part{padding:4px 8px;}.opb-hear{min-height:34px;}.opb-card{height:clamp(46px,12vw,64px);}.opb-cemoji{font-size:clamp(22px,5.5vw,28px);}}'   /* clamp:3 so the longer intro (en, esp. at 320px) shows fully; ample vertical headroom (§A.13.62 — fix layout not gate) */
         + '@media (prefers-reduced-motion: reduce){.opb-card{transition:none!important;}}';
       var tag = document.createElement('style'); tag.setAttribute('data-otto-picture-book', ''); tag.textContent = css; document.head.appendChild(tag);
     }

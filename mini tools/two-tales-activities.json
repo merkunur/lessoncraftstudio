@@ -38,6 +38,14 @@
           "SHARED": "A partagé avec un ami",
           "SCARED_SAFE": "Peur, puis rassuré",
           "FIXED_IT": "A réparé ce qui était cassé"
+        },
+        "es": {
+          "LOST_FOUND": "Perdió algo y lo encontró",
+          "GOT_HELP": "Un amigo llegó a ayudar",
+          "TRIED_AGAIN": "Siguió intentando",
+          "SHARED": "Compartió con un amigo",
+          "SCARED_SAFE": "Tuvo miedo y se sintió a salvo",
+          "FIXED_IT": "Arregló lo que se rompió"
         }
       },
       "storiesL10n": {
@@ -56,6 +64,14 @@
           "bird":  { "subject": "bird",  "glyph": "bird",  "summary": "L’oiseau a continué d’essayer et il a réparé son nid cassé.", "tags": ["TRIED_AGAIN", "FIXED_IT"] },
           "frog":  { "subject": "frog",  "glyph": "frog",  "summary": "La grenouille avait peur de la fuite. Elle l’a réparée et s’est sentie rassurée.", "tags": ["FIXED_IT", "SCARED_SAFE"] },
           "duck":  { "subject": "duck",  "glyph": "duck",  "summary": "Le canard a partagé son déjeuner. Un ami l’a aidé à tout ranger.", "tags": ["SHARED", "GOT_HELP"] }
+        },
+        "es": {
+          "fox":   { "subject": "fox",   "glyph": "fox",   "summary": "Había un zorro. Perdió algo y lo encontró. Siguió intentando.", "tags": ["LOST_FOUND", "TRIED_AGAIN"] },
+          "bunny": { "subject": "bunny", "glyph": "bunny", "summary": "Había una coneja. Perdió algo y lo encontró. Un amigo llegó a ayudar.", "tags": ["LOST_FOUND", "GOT_HELP"] },
+          "mouse": { "subject": "mouse", "glyph": "mouse", "summary": "Había un ratón. Tuvo miedo y se sintió a salvo. Un amigo llegó a ayudar.", "tags": ["SCARED_SAFE", "GOT_HELP"] },
+          "bird":  { "subject": "bird",  "glyph": "bird",  "summary": "Había un pájaro. Siguió intentando. Arregló lo que se rompió.", "tags": ["TRIED_AGAIN", "FIXED_IT"] },
+          "frog":  { "subject": "frog",  "glyph": "frog",  "summary": "Había una rana. Tuvo miedo y se sintió a salvo. Arregló lo que se rompió.", "tags": ["FIXED_IT", "SCARED_SAFE"] },
+          "duck":  { "subject": "duck",  "glyph": "duck",  "summary": "Había un pato. Compartió con un amigo. Un amigo llegó a ayudar.", "tags": ["SHARED", "GOT_HELP"] }
         }
       },
       "rounds": [
@@ -74,17 +90,20 @@
     "slug": {
       "en": "compare-two-stories-same-different",
       "de": "zwei-geschichten-vergleichen-gleich-und-anders-klasse-2",
-      "fr": "comparer-deux-histoires-pareil-ou-different"
+      "fr": "comparer-deux-histoires-pareil-ou-different",
+      "es": "comparar-dos-cuentos-semejanzas-y-diferencias-segundo-grado"
     },
     "page_title": {
       "en": "Two Moons — Compare Two Stories: Same & Different (Grade 1)",
       "de": "Zwei Geschichten vergleichen: Gleich & Anders finden",
-      "fr": "Deux lunes — Comparer deux histoires (pareil ou différent)"
+      "fr": "Deux lunes — Comparer deux histoires (pareil ou différent)",
+      "es": "Comparar dos cuentos: semejanzas y diferencias · 2.º grado"
     },
     "page_intro": {
       "en": "A free interactive Grade 1 reading activity: read two short tales with Mossbeard the Story-Keeper, then compare what happened to the characters across both stories — tap what is the SAME in both, or what happened in ONLY ONE. A friendly first look at comparing and contrasting characters' experiences across stories. Common Core RL.1.9.",
       "de": "Vergleiche zwei kurze Geschichten und erkenne, was gleich ist und was anders: kostenlos, interaktiv und ohne Zeitdruck – Lesen üben in der Grundschule.",
-      "fr": "Sous une lune d'or et une lune d'argent, Barbe-de-Mousse la tortue présente à votre enfant deux courtes histoires côte à côte. L'enfant lit les deux, puis tape la carte qui dit ce qui est pareil dans les deux histoires, ou ce qui arrive dans une seule. Petit à petit, il apprend à comparer deux histoires : à repérer les ressemblances et les différences entre les aventures des personnages, en s'appuyant sur ce que raconte chaque histoire. Une activité gratuite et interactive, qui se joue directement dans le navigateur, sans minuteur, sans score et sans compte, en lien avec les programmes officiels de l'école."
+      "fr": "Sous une lune d'or et une lune d'argent, Barbe-de-Mousse la tortue présente à votre enfant deux courtes histoires côte à côte. L'enfant lit les deux, puis tape la carte qui dit ce qui est pareil dans les deux histoires, ou ce qui arrive dans une seule. Petit à petit, il apprend à comparer deux histoires : à repérer les ressemblances et les différences entre les aventures des personnages, en s'appuyant sur ce que raconte chaque histoire. Une activité gratuite et interactive, qui se joue directement dans le navigateur, sans minuteur, sans score et sans compte, en lien avec les programmes officiels de l'école.",
+      "es": "Actividad interactiva y gratis para 2.º grado: lee dos cuentos cortos y compara semejanzas y diferencias, qué es igual y qué es diferente. Sin registro."
     },
     "kid_prompt_template": "two-tales"
   }

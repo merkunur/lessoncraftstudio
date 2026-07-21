@@ -19,15 +19,15 @@
   function imgUrl(t) { return '/image-library-webp/themes/' + t.themeDir + '/' + t.noun + '@2x.webp'; }
   /* fr « de {plural} » elision: « d’oiseaux » / « d’éléphants » / « d’abeilles » before a vowel, else « de … ». U+2019 apostrophe. */
   function elideDe(w) { return /^[aeiouyàâäéèêëîïôöûü]/i.test(String(w)) ? ('d’' + w) : ('de ' + w); }
-  function groupPhrase(v) { return LANG === 'de' ? ('viele ' + v.plural) : LANG === 'fr' ? ('un groupe ' + elideDe(v.plural)) : ('a group of ' + v.plural); }
+  function groupPhrase(v) { return LANG === 'de' ? ('viele ' + v.plural) : LANG === 'fr' ? ('un groupe ' + elideDe(v.plural)) : LANG === 'es' ? ('un grupo de ' + v.plural) : ('a group of ' + v.plural); }
   function speak(word) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: word, lang: LANG, rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(word); u.rate = 0.95; u.lang = (LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(word); u.rate = 0.95; u.lang = (LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : LANG === 'es' ? 'es-MX' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   function monkeySVG() {
-    return '<svg class="mag-mon-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Mango le singe' : 'Mango the monkey') + '">' +
+    return '<svg class="mag-mon-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Mango le singe' : LANG === 'es' ? 'Mango el mono' : 'Mango the monkey') + '">' +
       '<circle cx="30" cy="40" r="9" fill="#8A5A33"/><circle cx="70" cy="40" r="9" fill="#8A5A33"/>' +   /* ears */
       '<circle cx="30" cy="40" r="4.5" fill="#C99A6E"/><circle cx="70" cy="40" r="4.5" fill="#C99A6E"/>' +
       '<circle cx="50" cy="48" r="24" fill="#8A5A33"/>' +                           /* head */
@@ -42,14 +42,14 @@
     id: 'mango-animal-groups-activity',
 
     strings: {
-      title: { en: "Mango's Animal Groups", de: 'Mango der Affe', fr: 'Mango le singe' },
-      prompt: { en: 'What do we call a group of them?', de: 'Wie heißt die Gruppe?', fr: 'Comment appelle-t-on ce groupe ?' },
-      mangoIntro: { en: 'Lots of animals together make a group — what is it called?', de: 'Viele Tiere zusammen sind eine Gruppe – wie heißt sie?', fr: 'Plein d’animaux ensemble, ça forme un groupe — comment ça s’appelle ?' },
-      askTpl: { en: 'A group of {plural} is a …', de: 'Wie nennt man viele {plural}?', fr: 'Comment appelle-t-on un groupe {dePlural} ?' },
-      theAsk: { en: 'Tap the word for the group.', de: 'Tipp den Sammelnamen.', fr: 'Tape le bon nom de groupe.' },
-      hintPick: { en: 'Each animal has its own group word — tap your pick!', de: 'Jedes Tier hat sein eigenes Gruppenwort – tipp deine Wahl!', fr: 'Chaque animal a son mot de groupe — tape ta réponse !' },
-      hintWrong: { en: "Not that one — think of the special word for this group.", de: 'Nicht ganz – denk an das besondere Wort für diese Gruppe.', fr: 'Pas tout à fait — pense au mot juste pour ce groupe.' },
-      win: { en: 'Yes! That is the group word. 🐒', de: 'Genau! Das ist der Sammelname. 🐒', fr: 'Oui ! C’est bien le nom du groupe. 🐒' }
+      title: { en: "Mango's Animal Groups", de: 'Mango der Affe', fr: 'Mango le singe', es: 'Mango el mono' },
+      prompt: { en: 'What do we call a group of them?', de: 'Wie heißt die Gruppe?', fr: 'Comment appelle-t-on ce groupe ?', es: '¿Cómo se llama su grupo?' },
+      mangoIntro: { en: 'Lots of animals together make a group — what is it called?', de: 'Viele Tiere zusammen sind eine Gruppe – wie heißt sie?', fr: 'Plein d’animaux ensemble, ça forme un groupe — comment ça s’appelle ?', es: 'Muchos animales juntos forman un grupo. ¿Cómo se llama?' },
+      askTpl: { en: 'A group of {plural} is a …', de: 'Wie nennt man viele {plural}?', fr: 'Comment appelle-t-on un groupe {dePlural} ?', es: '¿Cómo se llama un grupo de {plural}?' },
+      theAsk: { en: 'Tap the word for the group.', de: 'Tipp den Sammelnamen.', fr: 'Tape le bon nom de groupe.', es: 'Toca el nombre del grupo.' },
+      hintPick: { en: 'Each animal has its own group word — tap your pick!', de: 'Jedes Tier hat sein eigenes Gruppenwort – tipp deine Wahl!', fr: 'Chaque animal a son mot de groupe — tape ta réponse !', es: 'Cada animal tiene su palabra de grupo. ¡Toca la tuya!' },
+      hintWrong: { en: "Not that one — think of the special word for this group.", de: 'Nicht ganz – denk an das besondere Wort für diese Gruppe.', fr: 'Pas tout à fait — pense au mot juste pour ce groupe.', es: 'Esa no. Piensa en la palabra especial para este grupo.' },
+      win: { en: 'Yes! That is the group word. 🐒', de: 'Genau! Das ist der Sammelname. 🐒', fr: 'Oui ! C’est bien le nom du groupe. 🐒', es: '¡Sí! Esa es la palabra del grupo. 🐒' }
     },
     defaults: {},
 
@@ -80,7 +80,7 @@
       root.appendChild(row);
 
       var mid = api.el('div', 'mag-mid');
-      var pic = api.el('button', 'mag-pic'); pic.type = 'button'; pic.setAttribute('aria-label', LANG === 'fr' ? ('écouter : ' + v.plural) : LANG === 'de' ? ('anhören: ' + v.plural) : ('hear ' + v.subject.noun));
+      var pic = api.el('button', 'mag-pic'); pic.type = 'button'; pic.setAttribute('aria-label', LANG === 'fr' ? ('écouter : ' + v.plural) : LANG === 'de' ? ('anhören: ' + v.plural) : LANG === 'es' ? ('escuchar: ' + v.plural) : ('hear ' + v.subject.noun));
       pic.innerHTML = '<img class="mag-img" src="' + imgUrl(v.subject) + '" alt="' + esc(v.subject.noun) + '" onerror="this.style.visibility=\'hidden\'"><span class="mag-spk">🔊</span>';
       pic.addEventListener('click', function () { speak(groupPhrase(v)); });
       mid.appendChild(pic);

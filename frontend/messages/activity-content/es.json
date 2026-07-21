@@ -3919,6 +3919,29 @@
         "Aprende los sustantivos colectivos más comunes",
         "Amplía su vocabulario"
       ]
+    },
+    "penny-alphabet-trace.letter-formation.l-k-1-a": {
+      "about": [
+        "Penny es un lápiz que enseña a trazar las letras. Su hijo/a empieza en el punto y sigue cada línea en el orden correcto —por ejemplo, la letra A— hasta formarla. Así practica el trazo de las mayúsculas y las minúsculas.",
+        "La actividad practica formar las letras con la dirección correcta de los trazos. Su hijo/a traza las 26 letras en mayúscula y en minúscula, una por una, siguiendo el punto de inicio. Es la base para aprender a escribir a mano.",
+        "Trazar bien las letras es un primer paso de la escritura. Corresponde al eje «Escritura: trazo de letras». Es gratis y sin presiones: sin cronómetro, sin puntaje, sin perder; su hijo/a practica con calma."
+      ],
+      "practices": [
+        "Trazar las letras mayúsculas y minúsculas",
+        "Seguir el orden correcto de los trazos",
+        "Empezar cada letra en el punto de inicio",
+        "Practicar la escritura a mano"
+      ],
+      "howToPlay": [
+        "Empieza en el punto que aparece",
+        "Traza cada línea de la letra en orden",
+        "Termina la letra para pasar a la siguiente"
+      ],
+      "learningGoals": [
+        "Su hijo/a traza las letras con la dirección correcta",
+        "Aprende a formar las mayúsculas y las minúsculas",
+        "Da sus primeros pasos en la escritura a mano"
+      ]
     }
   }
 }

@@ -52,17 +52,20 @@
     "slug": {
       "en": "equivalent-fractions-same-amount",
       "de": "gleichwertige-brueche-gleich-viel-klasse-4",
-      "fr": "fractions-equivalentes-la-meme-quantite-cm1"
+      "fr": "fractions-equivalentes-la-meme-quantite-cm1",
+      "es": "fracciones-equivalentes-cuarto-grado"
     },
     "page_title": {
       "en": "Crumb's Same-Amount Bakery — Equivalent Fractions (Grade 3)",
       "de": "Krümel die Maus: gleichwertige Brüche – gleich viel (Klasse 4)",
-      "fr": "La boulangerie de Miette : fractions équivalentes — la même quantité (CM1)"
+      "fr": "La boulangerie de Miette : fractions équivalentes — la même quantité (CM1)",
+      "es": "Fracciones equivalentes: la misma cantidad – 4.º grado"
     },
     "page_intro": {
       "en": "A free interactive Grade 3 fractions activity: Crumb the mouse shows a piece cut one way, then three pieces cut into more or fewer slices. Tap the one that is the SAME amount — the equivalent fraction (like 1/2 and 3/6). Shaded bars plus the fraction numbers let children see that different fractions can name the same amount. Common Core 3.NF.A.3.",
       "de": "Dein Kind schaut sich einen Bruch an – zum Beispiel 1/2 – und sucht darunter den Bruch, der genau gleich viel zeigt. Die farbig gefüllten Balken machen es sichtbar: 1/2 und 2/4 sind gleich voll, nur anders geschnitten. Krümel die Maus backt in ihrer kleinen Bäckerei und schneidet die Stücke – dein Kind tippt das gleich große an. Kostenlos, ohne Zeitdruck und ganz ohne Punkte.",
-      "fr": "Un jeu de maths CM1, gratuit et interactif : Miette la souris montre une part coupée d'une façon, puis trois parts coupées en plus ou moins de morceaux. Touche celle qui montre la MÊME quantité — la fraction équivalente (comme 1/2 et 3/6). Les barres colorées et les nombres aident l'enfant à voir que des fractions différentes peuvent nommer la même quantité. Sans minuteur, sans points, au rythme de l'enfant."
+      "fr": "Un jeu de maths CM1, gratuit et interactif : Miette la souris montre une part coupée d'une façon, puis trois parts coupées en plus ou moins de morceaux. Touche celle qui montre la MÊME quantité — la fraction équivalente (comme 1/2 et 3/6). Les barres colorées et les nombres aident l'enfant à voir que des fractions différentes peuvent nommer la même quantité. Sans minuteur, sans points, au rythme de l'enfant.",
+      "es": "Actividad interactiva y gratis de fracciones: tu hijo/a ve una fracción como barra y encuentra otra fracción que muestra la misma cantidad (1/2 = 2/4). Con Migaja la ratona. Ideal para 4.º grado."
     },
     "kid_prompt_template": "fraction-equiv"
   }

@@ -29,6 +29,7 @@ import {
   getRelatedLandings, Landing,
 } from '@/lib/seo/landing-content';
 import { getMakerContent, MAKER_KEYS, MakerKey } from '@/lib/seo/maker-content';
+import { licensableImageObject } from '@/lib/seo/licensable-image';
 
 // Per-locale framework: human-facing chip + JSON-LD name. Readiness/no-standard de landings carry NO
 // framework chip; standard-bearing coded landings (future de slices) cite Lehrplan / KMK Bildungsstandards.
@@ -417,7 +418,19 @@ export default async function WorksheetLandingPage(
     educationalLevel: educationalLevelValue,
     typicalAgeRange: lvl.age,
     teaches: l.strand,
-    image: a.thumbnail,
+    // Licensable ImageObject (not a bare URL) so Google's Image-metadata feature can validate it:
+    // the worksheet preview, credited + licensed to the live /{locale}/license page, obtainable at
+    // this landing. og-image is the representative composite; thumbnail is the card preview.
+    image: [
+      licensableImageObject({
+        contentUrl: a.ogImage, caption: l.h1, locale, acquireLicensePage: canonical,
+        width: 1200, height: 630, encodingFormat: 'image/png', representativeOfPage: true,
+      }),
+      licensableImageObject({
+        contentUrl: a.thumbnail, caption: l.h1, locale, acquireLicensePage: canonical,
+        encodingFormat: 'image/png',
+      }),
+    ],
     creator: { '@type': 'Organization', name: 'LessonCraftStudio', url: CANONICAL_HOST },
     audience: { '@type': 'EducationalAudience', educationalRole: 'student' },
   } as Record<string, unknown>;

@@ -663,20 +663,367 @@
               }
             ]
           }
+        ],
+        "es": [
+          {
+            "id": "sb-es-sol-first",
+            "position": "b",
+            "target": {
+              "noun": "sun",
+              "themeDir": "weather",
+              "word": "sol",
+              "b": "s",
+              "m": "o",
+              "e": "l"
+            },
+            "options": [
+              {
+                "noun": "salt",
+                "themeDir": "At the Supermarket",
+                "word": "sal",
+                "b": "s",
+                "m": "a",
+                "e": "l"
+              },
+              {
+                "noun": "bread",
+                "themeDir": "At the Supermarket",
+                "word": "pan",
+                "b": "p",
+                "m": "a",
+                "e": "n"
+              },
+              {
+                "noun": "cabbage",
+                "themeDir": "vegetables",
+                "word": "col",
+                "b": "k",
+                "m": "o",
+                "e": "l"
+              }
+            ]
+          },
+          {
+            "id": "sb-es-pan-first",
+            "position": "b",
+            "target": {
+              "noun": "bread",
+              "themeDir": "At the Supermarket",
+              "word": "pan",
+              "b": "p",
+              "m": "a",
+              "e": "n"
+            },
+            "options": [
+              {
+                "noun": "fish",
+                "themeDir": "ocean life",
+                "word": "pez",
+                "b": "p",
+                "m": "e",
+                "e": "s"
+              },
+              {
+                "noun": "bus",
+                "themeDir": "vehicles",
+                "word": "bus",
+                "b": "b",
+                "m": "u",
+                "e": "s"
+              },
+              {
+                "noun": "goose",
+                "themeDir": "farm animals",
+                "word": "oca",
+                "b": "o",
+                "m": "k",
+                "e": "a"
+              }
+            ]
+          },
+          {
+            "id": "sb-es-oso-first",
+            "position": "b",
+            "target": {
+              "noun": "bear",
+              "themeDir": "zoo animals",
+              "word": "oso",
+              "b": "o",
+              "m": "s",
+              "e": "o"
+            },
+            "options": [
+              {
+                "noun": "goose",
+                "themeDir": "farm animals",
+                "word": "oca",
+                "b": "o",
+                "m": "k",
+                "e": "a"
+              },
+              {
+                "noun": "sun",
+                "themeDir": "weather",
+                "word": "sol",
+                "b": "s",
+                "m": "o",
+                "e": "l"
+              },
+              {
+                "noun": "bus",
+                "themeDir": "vehicles",
+                "word": "bus",
+                "b": "b",
+                "m": "u",
+                "e": "s"
+              }
+            ]
+          },
+          {
+            "id": "sb-es-ojo-first",
+            "position": "b",
+            "target": {
+              "noun": "eye",
+              "themeDir": "body parts",
+              "word": "ojo",
+              "b": "o",
+              "m": "j",
+              "e": "o"
+            },
+            "options": [
+              {
+                "noun": "bear",
+                "themeDir": "zoo animals",
+                "word": "oso",
+                "b": "o",
+                "m": "s",
+                "e": "o"
+              },
+              {
+                "noun": "bread",
+                "themeDir": "At the Supermarket",
+                "word": "pan",
+                "b": "p",
+                "m": "a",
+                "e": "n"
+              },
+              {
+                "noun": "salt",
+                "themeDir": "At the Supermarket",
+                "word": "sal",
+                "b": "s",
+                "m": "a",
+                "e": "l"
+              }
+            ]
+          },
+          {
+            "id": "sb-es-sol-last",
+            "position": "e",
+            "target": {
+              "noun": "sun",
+              "themeDir": "weather",
+              "word": "sol",
+              "b": "s",
+              "m": "o",
+              "e": "l"
+            },
+            "options": [
+              {
+                "noun": "cabbage",
+                "themeDir": "vegetables",
+                "word": "col",
+                "b": "k",
+                "m": "o",
+                "e": "l"
+              },
+              {
+                "noun": "fish",
+                "themeDir": "ocean life",
+                "word": "pez",
+                "b": "p",
+                "m": "e",
+                "e": "s"
+              },
+              {
+                "noun": "bread",
+                "themeDir": "At the Supermarket",
+                "word": "pan",
+                "b": "p",
+                "m": "a",
+                "e": "n"
+              }
+            ]
+          },
+          {
+            "id": "sb-es-pez-last",
+            "position": "e",
+            "target": {
+              "noun": "fish",
+              "themeDir": "ocean life",
+              "word": "pez",
+              "b": "p",
+              "m": "e",
+              "e": "s"
+            },
+            "options": [
+              {
+                "noun": "bus",
+                "themeDir": "vehicles",
+                "word": "bus",
+                "b": "b",
+                "m": "u",
+                "e": "s"
+              },
+              {
+                "noun": "sun",
+                "themeDir": "weather",
+                "word": "sol",
+                "b": "s",
+                "m": "o",
+                "e": "l"
+              },
+              {
+                "noun": "bread",
+                "themeDir": "At the Supermarket",
+                "word": "pan",
+                "b": "p",
+                "m": "a",
+                "e": "n"
+              }
+            ]
+          },
+          {
+            "id": "sb-es-oso-last",
+            "position": "e",
+            "target": {
+              "noun": "bear",
+              "themeDir": "zoo animals",
+              "word": "oso",
+              "b": "o",
+              "m": "s",
+              "e": "o"
+            },
+            "options": [
+              {
+                "noun": "eye",
+                "themeDir": "body parts",
+                "word": "ojo",
+                "b": "o",
+                "m": "j",
+                "e": "o"
+              },
+              {
+                "noun": "salt",
+                "themeDir": "At the Supermarket",
+                "word": "sal",
+                "b": "s",
+                "m": "a",
+                "e": "l"
+              },
+              {
+                "noun": "bread",
+                "themeDir": "At the Supermarket",
+                "word": "pan",
+                "b": "p",
+                "m": "a",
+                "e": "n"
+              }
+            ]
+          },
+          {
+            "id": "sb-es-sol-mid",
+            "position": "m",
+            "target": {
+              "noun": "sun",
+              "themeDir": "weather",
+              "word": "sol",
+              "b": "s",
+              "m": "o",
+              "e": "l"
+            },
+            "options": [
+              {
+                "noun": "cabbage",
+                "themeDir": "vegetables",
+                "word": "col",
+                "b": "k",
+                "m": "o",
+                "e": "l"
+              },
+              {
+                "noun": "bread",
+                "themeDir": "At the Supermarket",
+                "word": "pan",
+                "b": "p",
+                "m": "a",
+                "e": "n"
+              },
+              {
+                "noun": "bus",
+                "themeDir": "vehicles",
+                "word": "bus",
+                "b": "b",
+                "m": "u",
+                "e": "s"
+              }
+            ]
+          },
+          {
+            "id": "sb-es-pan-mid",
+            "position": "m",
+            "target": {
+              "noun": "bread",
+              "themeDir": "At the Supermarket",
+              "word": "pan",
+              "b": "p",
+              "m": "a",
+              "e": "n"
+            },
+            "options": [
+              {
+                "noun": "salt",
+                "themeDir": "At the Supermarket",
+                "word": "sal",
+                "b": "s",
+                "m": "a",
+                "e": "l"
+              },
+              {
+                "noun": "sun",
+                "themeDir": "weather",
+                "word": "sol",
+                "b": "s",
+                "m": "o",
+                "e": "l"
+              },
+              {
+                "noun": "bus",
+                "themeDir": "vehicles",
+                "word": "bus",
+                "b": "b",
+                "m": "u",
+                "e": "s"
+              }
+            ]
+          }
         ]
       }
     },
     "slug": {
       "en": "sound-boxes-first-middle-last",
-      "de": "anlaut-inlaut-auslaut-laute-hoeren-klasse-1"
+      "de": "anlaut-inlaut-auslaut-laute-hoeren-klasse-1",
+      "es": "sonido-inicial-medio-y-final-conciencia-fonemica-primer-grado"
     },
     "page_title": {
       "en": "Coco's Sound Boxes — First, Middle & Last Sounds (Kindergarten)",
-      "de": "Laute hören – Anlaut, Inlaut, Auslaut online üben (Klasse 1)"
+      "de": "Laute hören – Anlaut, Inlaut, Auslaut online üben (Klasse 1)",
+      "es": "Los sonidos de las palabras: inicial, de en medio y final – 1.º grado"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten phonics activity: hear a short word in its sound boxes, then find another picture with the same first, middle, or last sound. Coco the koala helps children listen for the beginning, middle-vowel, and ending sounds in three-sound (CVC) words. A friendly first step in phonemic awareness. Common Core RF.K.2.d.",
-      "de": "Laute hören mit Coco dem Koala: Wo klingt der Laut – am Anfang, in der Mitte oder am Ende des Wortes? Kostenlos online üben, ohne Anmeldung – Klasse 1."
+      "de": "Laute hören mit Coco dem Koala: Wo klingt der Laut – am Anfang, in der Mitte oder am Ende des Wortes? Kostenlos online üben, ohne Anmeldung – Klasse 1.",
+      "es": "Actividad interactiva y gratis de conciencia fonémica: tu hijo/a escucha una palabra corta y encuentra otra con el mismo sonido inicial, de en medio o final. Con Coco el koala. Ideal para 1.º grado."
     },
     "kid_prompt_template": "sound-boxes"
   }

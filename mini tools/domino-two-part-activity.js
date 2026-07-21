@@ -41,13 +41,13 @@
     id: 'domino-two-part-activity',
 
     strings: {
-      title: { en: "Domino's Two-Part Words", de: 'Silben lesen' },
-      prompt: { en: 'Read both parts — which picture?', de: 'Lies beide Silben – welches Bild?' },
-      dominoIntro: { en: 'Read each part, then blend them — which picture is it?', de: 'Hallo, ich bin Pauli! Lies jede Silbe – dann tippe das passende Bild an.' },
-      theAsk: { en: 'Tap the picture this word names.', de: 'Tippe das Bild an, das dieses Wort zeigt.' },
-      hintPick: { en: 'Say the first part, then the second — tap a picture!', de: 'Lies das Wort ruhig: erst die erste Silbe, dann die zweite – tippe ein Bild an.' },
-      hintWrong: { en: "Blend the two parts slowly and try once more.", de: 'Fast! Lies noch einmal beide Silben und hör genau hin.' },
-      win: { en: 'Yes! You read both parts. 🐧', de: 'Super gelesen! Du hast jede Silbe erkannt. 🐧' }
+      title: { en: "Domino's Two-Part Words", de: 'Silben lesen', es: 'Leer por sílabas' },
+      prompt: { en: 'Read both parts — which picture?', de: 'Lies beide Silben – welches Bild?', es: 'Lee las dos sílabas. ¿Qué dibujo es?' },
+      dominoIntro: { en: 'Read each part, then blend them — which picture is it?', de: 'Hallo, ich bin Pauli! Lies jede Silbe – dann tippe das passende Bild an.', es: '¡Hola, soy Pancho! Lee cada sílaba y toca el dibujo que le toca.' },
+      theAsk: { en: 'Tap the picture this word names.', de: 'Tippe das Bild an, das dieses Wort zeigt.', es: 'Toca el dibujo de esta palabra.' },
+      hintPick: { en: 'Say the first part, then the second — tap a picture!', de: 'Lies das Wort ruhig: erst die erste Silbe, dann die zweite – tippe ein Bild an.', es: 'Di la primera sílaba, luego la segunda. ¡Toca un dibujo!' },
+      hintWrong: { en: "Blend the two parts slowly and try once more.", de: 'Fast! Lies noch einmal beide Silben und hör genau hin.', es: 'Casi. Junta las dos sílabas otra vez, sin prisa.' },
+      win: { en: 'Yes! You read both parts. 🐧', de: 'Super gelesen! Du hast jede Silbe erkannt. 🐧', es: '¡Muy bien! Leíste las dos sílabas. 🐧' }
     },
     defaults: {},
 
@@ -66,7 +66,7 @@
       // Core still grades by choice.noun===round.word (round.word = EN image-key). 0-core.
       if (round.displayWord) this.view.word = round.displayWord;
       if (round.displaySyl) this.view.syl = round.displaySyl.slice();
-      this.view.choices.forEach(function (c, i) { var s = (round.choices || [])[i]; if (s && s.de) c.de = s.de; });
+      this.view.choices.forEach(function (c, i) { var s = (round.choices || [])[i]; if (s && s[LANG]) c[LANG] = s[LANG]; });
       this._cards = shuffle(this.view.choices.slice());
     },
 
@@ -82,7 +82,7 @@
       root.appendChild(row);
 
       // the split word
-      var wordBox = api.el('button', 'dtp-word'); wordBox.type = 'button'; wordBox.setAttribute('aria-label', (LANG === 'de' ? 'anhören: ' : 'hear ') + v.word);
+      var wordBox = api.el('button', 'dtp-word'); wordBox.type = 'button'; wordBox.setAttribute('aria-label', (LANG === 'de' ? 'anhören: ' : LANG === 'es' ? 'escuchar: ' : 'hear ') + v.word);
       var inner = '';
       v.syl.forEach(function (s, i) {
         if (i > 0) inner += '<span class="dtp-dot">·</span>';
@@ -97,7 +97,7 @@
 
       var opts = api.el('div', 'dtp-opts');
       this._cards.forEach(function (o) {
-        var lab = o.de || o.noun;
+        var lab = o[LANG] || o.noun;
         var b = api.el('button', 'dtp-tile dtp-opt' + (self.sel === o.id ? ' dtp-sel' : '')); b.type = 'button'; b.setAttribute('data-id', o.id); b.setAttribute('aria-label', lab);
         b.innerHTML = '<img class="dtp-img" src="' + imgUrl(o) + '" alt="' + esc(lab) + '" onerror="this.style.visibility=\'hidden\'"><span class="dtp-word-lab">' + esc(lab) + '</span>';
         b.addEventListener('click', function () { self._tap(o.id, lab); });

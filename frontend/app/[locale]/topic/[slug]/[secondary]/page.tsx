@@ -712,9 +712,12 @@ async function renderSubjectGradeHub(
   const hubShownLandingSlugs = new Set(
     decks.map((d) => landingSlugForDeck(d.language, d.slug)).filter(Boolean) as string[],
   );
+  // Landing coordinate.level is LOCALIZED (de = "1-klasse", not the canonical "grade-1"); theme/type
+  // are canonical. Convert the level to this locale's value before matching.
+  const hubLandingLevel = getAxisSlug('educational-level', levelKey, locale) || levelKey;
   const hubLandingLinks = landingsForIntersection(
     locale,
-    { types: exerciseTypeKeysForSubject(subjectKey), level: levelKey },
+    { types: exerciseTypeKeysForSubject(subjectKey), level: hubLandingLevel },
     60,
   ).filter((l) => !hubShownLandingSlugs.has(l.slug));
 
@@ -969,10 +972,12 @@ export default async function IntersectionPage({
   // Tier-3 crawl-channeling (2026-07-21): the 2-segment intersection pages are the highest-crawl
   // /topic surface yet linked ~2 landings. Map the two axes → a landing filter and feed the crawl
   // into the crawl-starved landing tier, deduped against the deck cards on this page.
+  // theme/type match canonical axis-keys directly; landing coordinate.level is LOCALIZED
+  // (de = "1-klasse"), so convert the level axis-key to this locale's value.
   const ixFilter: { theme?: string; type?: string; level?: string } = {};
   for (const [ax, key] of [[axis1, axisKey1], [axis2, axisKey2]] as [Axis, string][]) {
     if (ax === 'theme') ixFilter.theme = key;
-    else if (ax === 'educational-level') ixFilter.level = key;
+    else if (ax === 'educational-level') ixFilter.level = getAxisSlug('educational-level', key, locale) || key;
     else if (ax === 'exercise-type') ixFilter.type = key;
   }
   const ixShownLandingSlugs = new Set(

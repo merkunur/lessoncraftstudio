@@ -18,12 +18,12 @@
 
   function speak(text) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = (LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = 0.95; u.lang = (LANG === 'de' ? 'de-DE' : LANG === 'fr' ? 'fr-FR' : LANG === 'es' ? 'es-MX' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
   function lizardSVG() {
-    return '<svg class="lfc-liz-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Ketti, die Eidechse' : LANG === 'fr' ? 'Linc le lézard' : 'Linc the lizard') + '">' +
+    return '<svg class="lfc-liz-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'de' ? 'Ketti, die Eidechse' : LANG === 'fr' ? 'Linc le lézard' : LANG === 'es' ? 'Linc la lagartija' : 'Linc the lizard') + '">' +
       '<path d="M20 64 q14 -10 30 -6 q16 4 30 -8" fill="none" stroke="#5E9E4E" stroke-width="12" stroke-linecap="round"/>' +
       '<circle cx="80" cy="50" r="11" fill="#73B85F"/>' +
       '<circle cx="83" cy="48" r="2.3" fill="#2A2A35"/>' +
@@ -36,13 +36,13 @@
     id: 'linc-fact-chain-activity',
 
     strings: {
-      title: { en: "Linc's Fact Chain", de: 'Kettis Faktenkette', fr: 'La chaîne de faits de Linc' },
-      instruction: { en: 'Read the first fact, then tap the one that connects to it.', de: 'Lies den ersten Fakt und tippe dann auf den Fakt, der dazu passt.', fr: 'Lis le premier fait, puis touche celui qui va avec.' },
-      prompt: { en: 'Read it, then tap the fact that connects.', de: 'Lies den Fakt. Tippe dann auf das, was dazu passt.', fr: 'Lis le fait, puis touche ce qui va avec.' },
-      lincIntro: { en: 'Facts link together like a chain — find the next link!', de: 'Fakten hängen zusammen wie eine Kette – finde das nächste Glied!', fr: 'Les faits s’enchaînent comme une chaîne — trouve le maillon suivant !' },
-      hintPick: { en: 'Think: what would really happen after the first fact?', de: 'Überlege: Was passiert nach dem ersten Fakt wirklich?', fr: 'Réfléchis : que se passerait-il vraiment après le premier fait ?' },
-      hintWrong: { en: 'That one does not fit. What follows from the first fact?', de: 'Der passt nicht. Was folgt aus dem ersten Fakt?', fr: 'Celui-là ne va pas. Que se passe-t-il après le premier fait ?' },
-      win: { en: 'Yes! Those two facts connect. 🔗', de: 'Ja! Diese zwei Fakten gehören zusammen. 🔗', fr: 'Oui ! Ces deux faits vont ensemble. 🔗' }
+      title: { en: "Linc's Fact Chain", de: 'Kettis Faktenkette', fr: 'La chaîne de faits de Linc', es: 'La cadena de hechos de Linc' },
+      instruction: { en: 'Read the first fact, then tap the one that connects to it.', de: 'Lies den ersten Fakt und tippe dann auf den Fakt, der dazu passt.', fr: 'Lis le premier fait, puis touche celui qui va avec.', es: 'Lee el primer hecho y toca el que se conecta con él.' },
+      prompt: { en: 'Read it, then tap the fact that connects.', de: 'Lies den Fakt. Tippe dann auf das, was dazu passt.', fr: 'Lis le fait, puis touche ce qui va avec.', es: 'Léelo y toca el hecho que se conecta.' },
+      lincIntro: { en: 'Facts link together like a chain — find the next link!', de: 'Fakten hängen zusammen wie eine Kette – finde das nächste Glied!', fr: 'Les faits s’enchaînent comme une chaîne — trouve le maillon suivant !', es: 'Los hechos se unen como una cadena. ¡Encuentra el siguiente eslabón!' },
+      hintPick: { en: 'Think: what would really happen after the first fact?', de: 'Überlege: Was passiert nach dem ersten Fakt wirklich?', fr: 'Réfléchis : que se passerait-il vraiment après le premier fait ?', es: 'Piensa: ¿qué pasa de verdad después del primer hecho?' },
+      hintWrong: { en: 'That one does not fit. What follows from the first fact?', de: 'Der passt nicht. Was folgt aus dem ersten Fakt?', fr: 'Celui-là ne va pas. Que se passe-t-il après le premier fait ?', es: 'Ese no va. ¿Qué sigue después del primer hecho?' },
+      win: { en: 'Yes! Those two facts connect. 🔗', de: 'Ja! Diese zwei Fakten gehören zusammen. 🔗', fr: 'Oui ! Ces deux faits vont ensemble. 🔗', es: '¡Sí! Esos dos hechos se conectan. 🔗' }
     },
     defaults: {},
 
@@ -69,7 +69,7 @@
 
       var row = api.el('div', 'lfc-row');
       var liz = api.el('div', 'lfc-liz'); liz.innerHTML = lizardSVG(); row.appendChild(liz);
-      var stem = api.el('button', 'lfc-stem'); stem.type = 'button'; stem.setAttribute('aria-label', LANG === 'de' ? 'den ersten Fakt anhören' : LANG === 'fr' ? 'écouter le premier fait' : 'hear the first fact');
+      var stem = api.el('button', 'lfc-stem'); stem.type = 'button'; stem.setAttribute('aria-label', LANG === 'de' ? 'den ersten Fakt anhören' : LANG === 'fr' ? 'écouter le premier fait' : LANG === 'es' ? 'escucha el primer hecho' : 'hear the first fact');
       stem.textContent = v.stem;
       stem.addEventListener('click', function () { speak(v.stem); });
       row.appendChild(stem);

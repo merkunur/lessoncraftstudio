@@ -6,6 +6,7 @@ import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
 import { renderTopicTitle } from '@/lib/seo/topic-title-format';
 import { buildBreadcrumbSchema, BreadcrumbCrumb } from '@/lib/seo/breadcrumb-schema';
+import { PublisherJsonLd } from '@/components/seo/PublisherJsonLd';
 import {
   Axis,
   getAxisName,
@@ -693,6 +694,7 @@ export default async function TopicPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
+      <PublisherJsonLd locale={params.locale} />
 
       <main className="container mx-auto px-4 max-w-6xl py-12">
         {/* Arc 6a — depth-UI overlay: breadcrumbs + sibling-axis strip

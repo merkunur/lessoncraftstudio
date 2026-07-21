@@ -19,6 +19,7 @@ import { notFound, redirect } from 'next/navigation';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
 import { buildBreadcrumbSchema, BreadcrumbCrumb } from '@/lib/seo/breadcrumb-schema';
+import { PublisherJsonLd } from '@/components/seo/PublisherJsonLd';
 import { getAxisSlug, getSubjectName, getSubjectSlugStrict, listSubjectKeys } from '@/lib/taxonomy';
 import {
   fetchDecksForSubjectLevel,
@@ -252,6 +253,7 @@ export default async function OnlineHubPage({ params }: { params: OnlineParams }
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <PublisherJsonLd locale={locale} />
       <main className="container mx-auto px-4 max-w-6xl py-12">
         <nav className="text-sm text-ink-500 mb-4" aria-label="Breadcrumb">
           {breadcrumbTrail.map((c, i) => (

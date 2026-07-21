@@ -37,10 +37,16 @@
       win: 'Bravo ! {note}', winNote: "L'apostrophe remplace juste la lettre qui saute !",
       hear: '🔊 Écouter',
       nudge: "Presque ! Quand un petit mot rencontre une voyelle, sa lettre saute et l'apostrophe prend sa place. Essaie encore !"
+    },
+    es: {
+      q: 'Junta las dos palabras: ¿cuál contracción es la correcta?',
+      win: '¡Sí! {note}', winNote: '¡Dos palabras se juntan en una sola!',
+      hear: '🔊 Escúchalo',
+      nudge: 'Casi. Júntalas otra vez, ¡tú puedes!'
     }
   };
-  /* Locales whose chips are the free [fusion, ...foils] pick (de Verschmelzung / fr élision) — NOT the en apostrophe-insertion core path. */
-  var FUSION_LANGS = { de: 1, fr: 1 };
+  /* Locales whose chips are the free [fusion, ...foils] pick (de Verschmelzung / fr élision / es al-del) — NOT the en apostrophe-insertion core path. */
+  var FUSION_LANGS = { de: 1, fr: 1, es: 1 };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
   function el(tag, cls) { var n = document.createElement(tag); if (cls) n.className = cls; return n; }
 
@@ -71,9 +77,9 @@
   var ContractionActivity = {
     id: 'contraction-activity',
     strings: {
-      title: { en: "Nib's Apostrophe Seat", de: 'Zwirbels Kurzform-Wirbel', fr: 'La place de Nib' },
-      instruction: { en: 'Pick the contraction with the apostrophe in exactly the right spot!', de: 'Tippe die richtige Kurzform an!', fr: "Tape le mot où l'apostrophe est à la bonne place !" },
-      q: { en: '{q}', de: '{q}', fr: '{q}' }
+      title: { en: "Nib's Apostrophe Seat", de: 'Zwirbels Kurzform-Wirbel', fr: 'La place de Nib', es: 'Rulo junta las palabras' },
+      instruction: { en: 'Pick the contraction with the apostrophe in exactly the right spot!', de: 'Tippe die richtige Kurzform an!', fr: "Tape le mot où l'apostrophe est à la bonne place !", es: 'Une las dos palabras y toca la contracción bien escrita.' },
+      q: { en: '{q}', de: '{q}', fr: '{q}', es: '{q}' }
     },
 
     init: function (api) {
@@ -186,6 +192,7 @@
       hear.addEventListener('click', function () {
         var t = (LANG === 'de' ? (round.word1 + ' ' + round.word2 + ' wird zu ' + round.fusion + '.')
           : LANG === 'fr' ? (round.word1 + ' ' + round.word2 + ' devient ' + round.fusion + '.')
+          : LANG === 'es' ? (round.word1 + ' ' + round.word2 + ' nos da ' + round.fusion + '.')
           : (round.word1 + ' ' + round.word2 + ' makes a contraction.'));
         if (global.LCSAudio && global.LCSAudio.speak) { try { global.LCSAudio.speak({ type: 'ui', text: t, lang: LANG, rate: 0.92 }); } catch (e) { } }
       });
@@ -206,7 +213,7 @@
         b.textContent = str;
         /* en: spell out (apostrophe position is the point); de: the bare short form;
            fr: name the apostrophe/space/joined-ness (l'ami & lami are homophonous /lami/ — the WRITTEN mark is the point). */
-        b.setAttribute('aria-label', LANG === 'fr' ? frAria(str) : LANG === 'de' ? str : str.split('').join(' '));
+        b.setAttribute('aria-label', LANG === 'fr' ? frAria(str) : (LANG === 'de' || LANG === 'es') ? str : str.split('').join(' '));
         b.addEventListener('click', function () {
           if (self._resolved || self._nonConf[str] || self._token !== tok) return;
           if (FUSION_LANGS[LANG] ? deIsAnswer(round, str) : Core.isAnswer(round, str)) { self._lit = str; self._resolve(); }
@@ -244,6 +251,11 @@
       if (LANG === 'de') {
         var deC = deChips(round).join('; ');
         wrap.innerHTML = '<p>' + round.word1 + ' ' + round.word2 + '. ' + txt('q') + ' Zur Auswahl: ' + deC + '.</p>';
+        return wrap;
+      }
+      if (LANG === 'es') {
+        var esC = deChips(round).join('; ');
+        wrap.innerHTML = '<p>' + round.word1 + ' ' + round.word2 + '. ' + txt('q') + ' Opciones: ' + esC + '.</p>';
         return wrap;
       }
       var chips = Core.chipStrings(round).map(function (s) { return s.split('').join(' '); }).join('; ');

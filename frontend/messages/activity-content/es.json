@@ -3827,6 +3827,29 @@
         "Se apoya en las ilustraciones para comprender el cuento",
         "Da sus primeros pasos en la comprensión de cuentos"
       ]
+    },
+    "contraction.apostrophe.l-2-2-c": {
+      "about": [
+        "Rulo es un rulito coral que junta las palabras. Su hijo/a ve dos palabras —por ejemplo, «a» y «el parque»— y toca la contracción bien escrita: «al parque». Así aprende que «a + el» se juntan en una sola palabra.",
+        "La actividad practica las dos contracciones del español: «al» (a + el) y «del» (de + el). En cada ronda su hijo/a elige la forma correcta entre la contracción bien escrita, las dos palabras sin juntar y la contracción con la preposición equivocada.",
+        "«al» y «del» son las únicas contracciones obligatorias del español, y escribirlas bien es parte de la reflexión sobre la lengua. Es gratis y sin presiones: sin cronómetro, sin puntaje, sin perder; su hijo/a piensa con calma."
+      ],
+      "practices": [
+        "Formar las contracciones «al» (a + el) y «del» (de + el)",
+        "Escribir «al» y «del» como una sola palabra",
+        "Distinguir la contracción correcta de las dos palabras sin juntar",
+        "Elegir «al» o «del» según la preposición"
+      ],
+      "howToPlay": [
+        "Lee las dos palabras que aparecen juntas",
+        "Toca la contracción que está bien escrita",
+        "Escucha cómo se juntan con el botón de audio"
+      ],
+      "learningGoals": [
+        "Su hijo/a forma correctamente «al» y «del»",
+        "Reconoce que «a + el» y «de + el» se escriben juntas",
+        "Da sus primeros pasos en la reflexión sobre la lengua"
+      ]
     }
   }
 }

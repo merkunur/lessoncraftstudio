@@ -192,6 +192,29 @@
     "whatsInsideCode": "Alineada con el currículo oficial"
   },
   "prose": {
+    "story-spine.role.rl-k-3": {
+      "about": [
+        "Dot el dragoncito le muestra a su hijo/a un cuento chiquito en tres imágenes: a veces a Bo el conejo se le cae un guante en la nieve, a veces un pájaro le quita la zanahoria a Millie, a veces un día de campo bajo la lluvia termina bien. Su hijo/a lee las tres tarjetas —que aparecen revueltas— y descubre cuál parte es el inicio, cuál el problema y cuál la solución.",
+        "La actividad pertenece al eje «Comprensión de textos literarios»: su hijo/a aprende a reconocer el hilo de un cuento —cómo empieza, qué sale mal y cómo se arregla al final. Como las tarjetas se muestran revueltas, no basta con adivinar por su lugar: hay que leer de verdad y pensar cuál parte hace cada trabajo.",
+        "Así, poco a poco, escuchar y leer se convierte en entender la estructura de un cuento —una base importante para más adelante contar y escribir sus propias historias. Un botón de «🔊 Escuchar el cuento» ayuda cuando su hijo/a todavía no lee solo. Es gratis y sin presiones: sin cronómetro, sin puntaje, sin perder; su hijo/a prueba con calma."
+      ],
+      "practices": [
+        "Reconocer las partes de un cuento: inicio, problema y solución",
+        "Leer con atención tarjetas cortas y relacionarlas con su papel en la historia",
+        "Darse cuenta de en qué momento del cuento aparece el problema",
+        "Entender cómo la solución resuelve el problema del cuento"
+      ],
+      "howToPlay": [
+        "Miren las tres tarjetas revueltas y sus oraciones (o toquen «🔊 Escuchar el cuento»)",
+        "Lean cuál parte se busca: el inicio, el problema o la solución",
+        "El niño toca la tarjeta que corresponde"
+      ],
+      "learningGoals": [
+        "Su hijo/a reconoce el hilo de un cuento: inicio, problema y solución",
+        "Lee oraciones cortas y las relaciona con su papel en la historia",
+        "Entiende cómo en un cuento surge un problema y luego se resuelve"
+      ]
+    },
     "marina-headline-desk.main-topic.ri-2-2": {
       "about": [
         "Marina la nutria se sienta en su escritorio de titulares y escribe encabezados. Su hijo/a lee —o escucha con el botón «📖 Lee la historia»— un texto informativo corto de tres oraciones y luego toca la tarjeta que dice de qué trata el texto. En un texto sobre las abejas sería «Cómo hacen su miel las abejas» —y no la tarjeta que solo repite una oración suelta ni la que habla de algo que no viene al caso.",

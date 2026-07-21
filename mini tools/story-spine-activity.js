@@ -40,6 +40,13 @@
       nProblem: 'Le problème, c’est le moment où quelque chose ne va pas.',
       nSolution: 'La solution, c’est comment le problème s’arrange à la fin.',
       hear: '🔊 Écouter l’histoire'
+    },
+    es: {
+      win: '¡Sí! {note}', winNote: '¡Encontraste esa parte del cuento!',
+      nSetting: 'El inicio nos dice quién es y dónde está, sin problemas todavía.',
+      nProblem: 'El problema es cuando algo sale mal en el cuento.',
+      nSolution: 'La solución es cómo se arregla el problema.',
+      hear: '🔊 Escuchar el cuento'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -84,8 +91,8 @@
   var StorySpineActivity = {
     id: 'story-spine-activity',
     strings: {
-      title: { en: "Dot's Story Spine", de: 'Dots Geschichten-Werkstatt', fr: 'L’atelier des histoires de Dot' },
-      instruction: { en: 'Read the story with Dot, then tap which part does each job!', de: 'Lies die Geschichte mit Dot und tippe dann auf den richtigen Teil.', fr: 'Écoute l’histoire avec Dot, puis tape la bonne partie !' },
+      title: { en: "Dot's Story Spine", de: 'Dots Geschichten-Werkstatt', fr: 'L’atelier des histoires de Dot', es: 'El taller de cuentos de Dot' },
+      instruction: { en: 'Read the story with Dot, then tap which part does each job!', de: 'Lies die Geschichte mit Dot und tippe dann auf den richtigen Teil.', fr: 'Écoute l’histoire avec Dot, puis tape la bonne partie !', es: 'Lee el cuento con Dot y toca qué parte es el inicio, el problema o la solución.' },
       q: { en: '{q}' }
     },
 
@@ -111,12 +118,12 @@
         '.ds-line-msg{flex:1 1 auto;min-height:1.1em;text-align:center;font:700 .86rem/1.2 Nunito,system-ui,sans-serif;color:#146B5E;margin:0;}',
         '.ds-line-msg.miss{color:#C2410C;}',
         '.ds-strip{display:flex;justify-content:center;gap:10px;width:100%;max-width:min(96vw,600px);align-items:stretch;}',
-        '.ds-cand{flex:1 1 0;min-width:0;display:flex;flex-direction:column;align-items:center;gap:3px;padding:5px 4px;border:3px solid #146B5E;border-radius:14px;background:#fff;cursor:pointer;min-height:44px;}',
+        '.ds-cand{flex:1 1 0;min-width:0;display:flex;flex-direction:column;align-items:center;gap:2px;padding:3px 4px;border:3px solid #146B5E;border-radius:14px;background:#fff;cursor:pointer;min-height:44px;}',
         '.ds-cand.sel{box-shadow:0 0 0 3px #F2784B;}',
         '.ds-cand.dim{opacity:.4;}',
         '.ds-cand.lit{box-shadow:0 0 0 3px #F2C14E;background:#FFFBEF;}',
         '.ds-scene{width:100%;height:auto;display:block;}',
-        '.ds-cap{font:700 clamp(.62rem,2.4vw,.82rem)/1.08 Nunito,system-ui,sans-serif;color:#0F4A40;text-align:center;}',
+        '.ds-cap{font:700 clamp(.62rem,2.4vw,.82rem)/1.0 Nunito,system-ui,sans-serif;color:#0F4A40;text-align:center;}',
         '.ds-hear{align-self:center;border:2px solid #146B5E;border-radius:999px;background:#fff;color:#146B5E;font:700 .82rem/1 Nunito,sans-serif;padding:6px 16px;min-height:44px;cursor:pointer;}',
         '.ds-dot-svg .ds-eyes-happy{display:none;}.ds-dot[data-pose=happy] .ds-eyes-open{display:none;}.ds-dot[data-pose=happy] .ds-eyes-happy{display:block;}',
         '.ds-sronly{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);}',
@@ -241,9 +248,9 @@
 
     _srMirror: function () {
       var r = this._round, story = this._story(), wrap = el('div', 'ds-sronly'); wrap.setAttribute('aria-live', 'polite');
-      var partWord = LANG === 'fr' ? 'Partie ' : LANG === 'de' ? 'Teil ' : 'Part ';
+      var partWord = LANG === 'fr' ? 'Partie ' : LANG === 'de' ? 'Teil ' : LANG === 'es' ? 'Parte ' : 'Part ';
       var caps = (story.panels || []).map(function (p, i) { return partWord + (i + 1) + ': ' + p.caption; }).join(' ');
-      var tail = LANG === 'fr' ? ' Tape la partie qui correspond.' : LANG === 'de' ? ' Tippe auf den passenden Teil.' : ' Tap the part that matches.';
+      var tail = LANG === 'fr' ? ' Tape la partie qui correspond.' : LANG === 'de' ? ' Tippe auf den passenden Teil.' : LANG === 'es' ? ' Toca la parte que corresponde.' : ' Tap the part that matches.';
       wrap.innerHTML = '<p>' + caps + ' ' + r.prompt + tail + '</p>';
       return wrap;
     },

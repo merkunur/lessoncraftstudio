@@ -70,6 +70,23 @@
             { "caption": "Puis la pluie tombe sur eux.", "glyphs": ["rain", "friend"], "role": "problem" },
             { "caption": "Ils mangent sous un parapluie.", "glyphs": ["umbrella", "friend"], "role": "solution" }
           ] }
+        },
+        "es": {
+          "mitten": { "title": "El guante perdido", "panels": [
+            { "caption": "Un día, Bo el conejo brincó en la nieve.", "glyphs": ["bunny", "snow"], "role": "setting" },
+            { "caption": "Se le cayó el guante rojo junto al árbol.", "glyphs": ["tree", "mitten"], "role": "problem" },
+            { "caption": "Un pájaro lo encontró y se lo devolvió a Bo.", "glyphs": ["bird", "mitten"], "role": "solution" }
+          ] },
+          "carrot": { "title": "La zanahoria robada", "panels": [
+            { "caption": "Millie la ratona tenía una zanahoria grande.", "glyphs": ["mouse", "carrot"], "role": "setting" },
+            { "caption": "¡Un pájaro le quitó la zanahoria!", "glyphs": ["bird", "carrot"], "role": "problem" },
+            { "caption": "Su amiga se la devolvió a Millie.", "glyphs": ["friend", "carrot"], "role": "solution" }
+          ] },
+          "picnic": { "title": "El día de campo bajo la lluvia", "panels": [
+            { "caption": "Dos amigos sacaron su canasta para el día de campo.", "glyphs": ["friend", "basket"], "role": "setting" },
+            { "caption": "De repente, empezó a llover sobre ellos.", "glyphs": ["rain", "friend"], "role": "problem" },
+            { "caption": "Se refugiaron bajo un paraguas grande.", "glyphs": ["umbrella", "friend"], "role": "solution" }
+          ] }
         }
       },
       "roundsL10n": {
@@ -98,23 +115,37 @@
           { "id": "ds-pic-set",  "storyId": "picnic", "role": "setting",  "prompt": "Quelle partie est LE DÉBUT ? (où l’histoire commence)" },
           { "id": "ds-pic-prob", "storyId": "picnic", "role": "problem",  "prompt": "Quelle partie montre LE PROBLÈME ? (ce qui ne va pas)" },
           { "id": "ds-pic-sol",  "storyId": "picnic", "role": "solution", "prompt": "Quelle partie est LA SOLUTION ? (comment ça s’arrange)" }
+        ],
+        "es": [
+          { "id": "ds-mit-set", "storyId": "mitten", "role": "setting", "prompt": "¿Cuál parte es EL INICIO? (dónde empieza el cuento)" },
+          { "id": "ds-mit-prob", "storyId": "mitten", "role": "problem", "prompt": "¿Cuál parte muestra EL PROBLEMA? (qué sale mal)" },
+          { "id": "ds-mit-sol", "storyId": "mitten", "role": "solution", "prompt": "¿Cuál parte es LA SOLUCIÓN? (cómo se arregla)" },
+          { "id": "ds-car-set", "storyId": "carrot", "role": "setting", "prompt": "¿Cuál parte es EL INICIO? (dónde empieza el cuento)" },
+          { "id": "ds-car-prob", "storyId": "carrot", "role": "problem", "prompt": "¿Cuál parte muestra EL PROBLEMA? (qué sale mal)" },
+          { "id": "ds-car-sol", "storyId": "carrot", "role": "solution", "prompt": "¿Cuál parte es LA SOLUCIÓN? (cómo se arregla)" },
+          { "id": "ds-pic-set", "storyId": "picnic", "role": "setting", "prompt": "¿Cuál parte es EL INICIO? (dónde empieza el cuento)" },
+          { "id": "ds-pic-prob", "storyId": "picnic", "role": "problem", "prompt": "¿Cuál parte muestra EL PROBLEMA? (qué sale mal)" },
+          { "id": "ds-pic-sol", "storyId": "picnic", "role": "solution", "prompt": "¿Cuál parte es LA SOLUCIÓN? (cómo se arregla)" }
         ]
       }
     },
     "slug": {
       "en": "story-parts-setting-problem-solution",
       "de": "aufbau-einer-geschichte-anfang-problem-loesung-klasse-1",
-      "fr": "structure-du-recit-debut-probleme-solution-gs"
+      "fr": "structure-du-recit-debut-probleme-solution-gs",
+      "es": "partes-de-un-cuento-inicio-problema-solucion-primer-grado"
     },
     "page_title": {
       "en": "Dot's Story Spine — Story Parts: Start, Trouble & Fix (Kindergarten)",
       "de": "Aufbau einer Geschichte: Anfang, Problem, Lösung – Klasse 1",
-      "fr": "L’atelier des histoires de Dot — Début, problème, solution (GS)"
+      "fr": "L’atelier des histoires de Dot — Début, problème, solution (GS)",
+      "es": "Partes de un cuento: inicio, problema y solución (1.º)"
     },
     "page_intro": {
       "en": "A free interactive Kindergarten reading activity: read a short three-picture story with Dot the dragon, then tap which part is the START (the setting), the TROUBLE (the problem), and the FIX (how it gets better). A friendly first look at how stories are built — setting, problem, and solution. Common Core RL.K.3.",
       "de": "Übe kostenlos und interaktiv den Aufbau einer Geschichte: Ordne mit dem Drachen Dot Anfang, Problem & Lösung richtig zu. Erzählstruktur für Klasse 1 – jetzt starten!",
-      "fr": "Dot le dragon raconte une petite histoire en trois images, lue à voix haute d’un simple appui sur le bouton son. À votre enfant ensuite de repérer quelle image est le début, laquelle montre le problème, et laquelle apporte la solution. Un premier jeu gratuit et interactif pour découvrir comment une histoire se construit — sans savoir encore lire."
+      "fr": "Dot le dragon raconte une petite histoire en trois images, lue à voix haute d’un simple appui sur le bouton son. À votre enfant ensuite de repérer quelle image est le début, laquelle montre le problème, et laquelle apporte la solution. Un premier jeu gratuit et interactif pour découvrir comment une histoire se construit — sans savoir encore lire.",
+      "es": "Lee un cuento en 3 imágenes e identifica sus partes: el inicio, el problema y la solución. Actividad gratis e interactiva de primer grado, sin registro."
     },
     "kid_prompt_template": "story-spine"
   }

@@ -4080,6 +4080,29 @@
         "Paga, da cambio y compara cantidades",
         "Reconoce las monedas mexicanas"
       ]
+    },
+    "nila-pond.main-idea-net.ri-k-2": {
+      "about": [
+        "Nila la nutria escucha pequeñas historias. Su hijo/a oye una historia —por ejemplo, la del oso que en invierno mantiene su cuerpo con calor— y toca el pez que dice de qué trata: la idea principal.",
+        "La actividad practica escuchar un texto corto y encontrar la idea principal, y luego recordar los detalles verdaderos de la historia. Es la base de comprender lo que se escucha.",
+        "Corresponde al eje «Escucha y comprensión de textos». Es gratis y sin presiones: sin cronómetro, sin puntaje, sin perder; su hijo/a escucha y piensa con calma con Nila."
+      ],
+      "practices": [
+        "Escuchar una historia con atención",
+        "Encontrar la idea principal (de qué trata)",
+        "Distinguir la idea principal de un detalle",
+        "Recordar los detalles verdaderos de la historia"
+      ],
+      "howToPlay": [
+        "Escucha la historia de Nila",
+        "Toca el pez que dice de qué trata",
+        "Lleva a casa los detalles verdaderos"
+      ],
+      "learningGoals": [
+        "Su hijo/a encuentra la idea principal de lo que escucha",
+        "Distingue la idea de los detalles",
+        "Da sus primeros pasos en la comprensión"
+      ]
     }
   }
 }

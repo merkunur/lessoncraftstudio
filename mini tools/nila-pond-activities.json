@@ -1674,6 +1674,550 @@
               }
             ]
           }
+        ],
+        "es": [
+          {
+            "id": "r1_oso_pick",
+            "cog": "pick-topic",
+            "band": 1,
+            "group": "oso",
+            "paragraph": [
+              "En invierno hace mucho frío.",
+              "El oso tiene un pelaje grueso.",
+              "Así el oso mantiene su cuerpo con calor.",
+              "En su cueva se queda calientito."
+            ],
+            "topicId": "oso_calor",
+            "fish": [
+              {
+                "id": "oso_bayas",
+                "phrase": "El oso come muchas bayas.",
+                "key": "bayas",
+                "picture": null
+              },
+              {
+                "id": "oso_pelaje",
+                "phrase": "El oso tiene un pelaje grueso.",
+                "key": "pelaje",
+                "picture": null
+              },
+              {
+                "id": "oso_cueva",
+                "phrase": "El oso descansa en una cueva.",
+                "key": "cueva",
+                "picture": null
+              },
+              {
+                "id": "oso_calor",
+                "phrase": "El oso mantiene su cuerpo con calor.",
+                "key": "calor",
+                "picture": null
+              }
+            ]
+          },
+          {
+            "id": "r2_oso_nest",
+            "cog": "nest-reject",
+            "band": 2,
+            "group": "oso",
+            "paragraph": [
+              "El invierno es largo y frío.",
+              "El oso busca una cueva calientita.",
+              "Ahí el oso descansa muy quieto.",
+              "Su pelaje grueso lo mantiene con calor."
+            ],
+            "topicId": "oso_cueva",
+            "fish": [
+              {
+                "id": "oso_bayas",
+                "phrase": "El oso come muchas bayas.",
+                "key": "bayas",
+                "picture": null
+              },
+              {
+                "id": "oso_pelaje",
+                "phrase": "El oso tiene un pelaje grueso.",
+                "key": "pelaje",
+                "picture": null
+              },
+              {
+                "id": "oso_cueva",
+                "phrase": "El oso descansa en una cueva.",
+                "key": "cueva",
+                "picture": null
+              },
+              {
+                "id": "oso_calor",
+                "phrase": "El oso mantiene su cuerpo con calor.",
+                "key": "calor",
+                "picture": null
+              }
+            ],
+            "details": [
+              {
+                "id": "oso_calor",
+                "belongs": true
+              },
+              {
+                "id": "oso_pelaje",
+                "belongs": true
+              },
+              {
+                "id": "oso_bayas",
+                "belongs": false
+              }
+            ]
+          },
+          {
+            "id": "r3_oso_supply",
+            "cog": "supply-detail",
+            "band": 3,
+            "group": "oso",
+            "paragraph": [
+              "El invierno llega pronto.",
+              "El oso ya siente el frío del bosque.",
+              "Su pelaje grueso lo protege de él.",
+              "Después el oso descansa en una cueva."
+            ],
+            "topicId": "oso_pelaje",
+            "fish": [
+              {
+                "id": "oso_bayas",
+                "phrase": "El oso come muchas bayas.",
+                "key": "bayas",
+                "picture": null
+              },
+              {
+                "id": "oso_pelaje",
+                "phrase": "El oso tiene un pelaje grueso.",
+                "key": "pelaje",
+                "picture": null
+              },
+              {
+                "id": "oso_cueva",
+                "phrase": "El oso descansa en una cueva.",
+                "key": "cueva",
+                "picture": null
+              },
+              {
+                "id": "oso_calor",
+                "phrase": "El oso mantiene su cuerpo con calor.",
+                "key": "calor",
+                "picture": null
+              }
+            ],
+            "altDetails": [
+              {
+                "id": "alt_oso_bosque",
+                "phrase": "El oso camina por el bosque.",
+                "key": "bosque",
+                "picture": null,
+                "belongs": true
+              },
+              {
+                "id": "alt_oso_agua",
+                "phrase": "El oso nada en el agua.",
+                "key": "agua",
+                "picture": null,
+                "belongs": false
+              }
+            ]
+          },
+          {
+            "id": "r4_abeja_pick",
+            "cog": "pick-topic",
+            "band": 1,
+            "group": "abeja",
+            "paragraph": [
+              "Una abeja vuela a muchas flores.",
+              "Con ellas hace miel muy dulce.",
+              "Sus alas rápidas zumban mientras tanto.",
+              "Así nace un regalo delicioso."
+            ],
+            "topicId": "abeja_miel",
+            "fish": [
+              {
+                "id": "abeja_flores",
+                "phrase": "La abeja vuela a las flores.",
+                "key": "flores",
+                "picture": null
+              },
+              {
+                "id": "abeja_alas",
+                "phrase": "La abeja mueve sus alas rápidas.",
+                "key": "alas",
+                "picture": null
+              },
+              {
+                "id": "abeja_miel",
+                "phrase": "La abeja hace miel muy dulce.",
+                "key": "miel",
+                "picture": null
+              },
+              {
+                "id": "abeja_colmena",
+                "phrase": "La abeja vive en una colmena.",
+                "key": "colmena",
+                "picture": null
+              }
+            ]
+          },
+          {
+            "id": "r5_abeja_narrow",
+            "cog": "reject-narrow",
+            "band": 2,
+            "group": "abeja",
+            "paragraph": [
+              "Muchas abejas tienen alas pequeñas.",
+              "Viven juntas en una gran colmena.",
+              "Ahí guardan toda su miel.",
+              "En invierno así tienen suficiente comida."
+            ],
+            "topicId": "abeja_colmena",
+            "fish": [
+              {
+                "id": "abeja_flores",
+                "phrase": "La abeja vuela a las flores.",
+                "key": "flores",
+                "picture": null
+              },
+              {
+                "id": "abeja_alas",
+                "phrase": "La abeja mueve sus alas rápidas.",
+                "key": "alas",
+                "picture": null
+              },
+              {
+                "id": "abeja_miel",
+                "phrase": "La abeja hace miel muy dulce.",
+                "key": "miel",
+                "picture": null
+              },
+              {
+                "id": "abeja_colmena",
+                "phrase": "La abeja vive en una colmena.",
+                "key": "colmena",
+                "picture": null
+              }
+            ]
+          },
+          {
+            "id": "r6_abeja_nest",
+            "cog": "nest-reject",
+            "band": 2,
+            "group": "abeja",
+            "paragraph": [
+              "Una abeja vuela al jardín.",
+              "Visita muchas flores de colores.",
+              "Mientras tanto mueve sus alas.",
+              "Del néctar de las flores sale miel dulce."
+            ],
+            "topicId": "abeja_flores",
+            "fish": [
+              {
+                "id": "abeja_flores",
+                "phrase": "La abeja vuela a las flores.",
+                "key": "flores",
+                "picture": null
+              },
+              {
+                "id": "abeja_alas",
+                "phrase": "La abeja mueve sus alas rápidas.",
+                "key": "alas",
+                "picture": null
+              },
+              {
+                "id": "abeja_miel",
+                "phrase": "La abeja hace miel muy dulce.",
+                "key": "miel",
+                "picture": null
+              },
+              {
+                "id": "abeja_colmena",
+                "phrase": "La abeja vive en una colmena.",
+                "key": "colmena",
+                "picture": null
+              }
+            ],
+            "details": [
+              {
+                "id": "abeja_miel",
+                "belongs": true
+              },
+              {
+                "id": "abeja_alas",
+                "belongs": true
+              },
+              {
+                "id": "abeja_colmena",
+                "belongs": false
+              }
+            ]
+          },
+          {
+            "id": "r7_pato_pick",
+            "cog": "pick-topic",
+            "band": 1,
+            "group": "pato",
+            "paragraph": [
+              "Un pato vive feliz junto al agua.",
+              "Todo el día nada por el estanque.",
+              "Ahí atrapa peces pequeños.",
+              "Por la tarde el pato grazna bajito."
+            ],
+            "topicId": "pato_estanque",
+            "fish": [
+              {
+                "id": "pato_peces",
+                "phrase": "El pato atrapa peces pequeños.",
+                "key": "peces",
+                "picture": null
+              },
+              {
+                "id": "pato_nido",
+                "phrase": "El pato tiene un nido suave.",
+                "key": "nido",
+                "picture": null
+              },
+              {
+                "id": "pato_grazna",
+                "phrase": "El pato grazna su canción.",
+                "key": "grazna",
+                "picture": null
+              },
+              {
+                "id": "pato_estanque",
+                "phrase": "El pato nada por el estanque.",
+                "key": "estanque",
+                "picture": null
+              }
+            ]
+          },
+          {
+            "id": "r8_pato_narrow",
+            "cog": "reject-narrow",
+            "band": 2,
+            "group": "pato",
+            "paragraph": [
+              "Un pato busca un lugar tranquilo en el estanque.",
+              "Ahí construye un nido suave.",
+              "Pone cuatro huevos adentro.",
+              "A veces grazna muy contento."
+            ],
+            "topicId": "pato_nido",
+            "fish": [
+              {
+                "id": "pato_peces",
+                "phrase": "El pato atrapa peces pequeños.",
+                "key": "peces",
+                "picture": null
+              },
+              {
+                "id": "pato_nido",
+                "phrase": "El pato tiene un nido suave.",
+                "key": "nido",
+                "picture": null
+              },
+              {
+                "id": "pato_grazna",
+                "phrase": "El pato grazna su canción.",
+                "key": "grazna",
+                "picture": null
+              },
+              {
+                "id": "pato_estanque",
+                "phrase": "El pato nada por el estanque.",
+                "key": "estanque",
+                "picture": null
+              }
+            ]
+          },
+          {
+            "id": "r9_pato_supply",
+            "cog": "supply-detail",
+            "band": 3,
+            "group": "pato",
+            "paragraph": [
+              "Un pato tiene hambre.",
+              "En el estanque nadan peces pequeños.",
+              "Se sumerge hondo bajo el agua.",
+              "Así atrapa su comida."
+            ],
+            "topicId": "pato_peces",
+            "fish": [
+              {
+                "id": "pato_peces",
+                "phrase": "El pato atrapa peces pequeños.",
+                "key": "peces",
+                "picture": null
+              },
+              {
+                "id": "pato_nido",
+                "phrase": "El pato tiene un nido suave.",
+                "key": "nido",
+                "picture": null
+              },
+              {
+                "id": "pato_grazna",
+                "phrase": "El pato grazna su canción.",
+                "key": "grazna",
+                "picture": null
+              },
+              {
+                "id": "pato_estanque",
+                "phrase": "El pato nada por el estanque.",
+                "key": "estanque",
+                "picture": null
+              }
+            ],
+            "altDetails": [
+              {
+                "id": "alt_pato_agua",
+                "phrase": "El pato se mete bajo el agua.",
+                "key": "agua",
+                "picture": null,
+                "belongs": true
+              },
+              {
+                "id": "alt_pato_plumas",
+                "phrase": "El pato limpia sus plumas.",
+                "key": "plumas",
+                "picture": null,
+                "belongs": false
+              }
+            ]
+          },
+          {
+            "id": "r10_oso_nest",
+            "cog": "nest-reject",
+            "band": 3,
+            "group": "oso",
+            "paragraph": [
+              "El oso camina con su pelaje grueso por el bosque.",
+              "Antes del invierno come muchas bayas.",
+              "Con ellas queda gordo y lleno.",
+              "Después duerme profundo en la cueva."
+            ],
+            "topicId": "oso_bayas",
+            "fish": [
+              {
+                "id": "oso_bayas",
+                "phrase": "El oso come muchas bayas.",
+                "key": "bayas",
+                "picture": null
+              },
+              {
+                "id": "oso_pelaje",
+                "phrase": "El oso tiene un pelaje grueso.",
+                "key": "pelaje",
+                "picture": null
+              },
+              {
+                "id": "oso_cueva",
+                "phrase": "El oso descansa en una cueva.",
+                "key": "cueva",
+                "picture": null
+              },
+              {
+                "id": "oso_calor",
+                "phrase": "El oso mantiene su cuerpo con calor.",
+                "key": "calor",
+                "picture": null
+              }
+            ],
+            "details": [
+              {
+                "id": "oso_cueva",
+                "belongs": true
+              },
+              {
+                "id": "oso_pelaje",
+                "belongs": true
+              },
+              {
+                "id": "oso_calor",
+                "belongs": false
+              }
+            ]
+          },
+          {
+            "id": "r11_abeja_narrow",
+            "cog": "reject-narrow",
+            "band": 3,
+            "group": "abeja",
+            "paragraph": [
+              "La abeja vuela a las flores del campo.",
+              "Para volar la abeja necesita sus alas.",
+              "Estas se mueven muy rápido.",
+              "En las flores la abeja encuentra miel dulce."
+            ],
+            "topicId": "abeja_alas",
+            "fish": [
+              {
+                "id": "abeja_flores",
+                "phrase": "La abeja vuela a las flores.",
+                "key": "flores",
+                "picture": null
+              },
+              {
+                "id": "abeja_alas",
+                "phrase": "La abeja mueve sus alas rápidas.",
+                "key": "alas",
+                "picture": null
+              },
+              {
+                "id": "abeja_miel",
+                "phrase": "La abeja hace miel muy dulce.",
+                "key": "miel",
+                "picture": null
+              },
+              {
+                "id": "abeja_colmena",
+                "phrase": "La abeja vive en una colmena.",
+                "key": "colmena",
+                "picture": null
+              }
+            ]
+          },
+          {
+            "id": "r12_pato_pick",
+            "cog": "pick-topic",
+            "band": 3,
+            "group": "pato",
+            "paragraph": [
+              "Por la mañana el pato se sienta en su estanque.",
+              "Fuerte grazna el pato su linda canción.",
+              "También desde el nido sigue cantando.",
+              "Así todos los animales oyen al pato alegre."
+            ],
+            "topicId": "pato_grazna",
+            "fish": [
+              {
+                "id": "pato_peces",
+                "phrase": "El pato atrapa peces pequeños.",
+                "key": "peces",
+                "picture": null
+              },
+              {
+                "id": "pato_nido",
+                "phrase": "El pato tiene un nido suave.",
+                "key": "nido",
+                "picture": null
+              },
+              {
+                "id": "pato_grazna",
+                "phrase": "El pato grazna su canción.",
+                "key": "grazna",
+                "picture": null
+              },
+              {
+                "id": "pato_estanque",
+                "phrase": "El pato nada por el estanque.",
+                "key": "estanque",
+                "picture": null
+              }
+            ]
+          }
         ]
       }
     },
@@ -1681,17 +2225,20 @@
     "slug": {
       "en": "nilas-idea-pond",
       "de": "hauptaussage-eines-sachtexts-erkennen-klasse-1",
-      "fr": "idee-principale-texte-documentaire-gs"
+      "fr": "idee-principale-texte-documentaire-gs",
+      "es": "la-idea-principal-de-un-texto-preescolar"
     },
     "page_title": {
       "en": "Nila's Idea Pond — Find the Big Idea",
       "de": "Sinnerfassendes Lesen – die Hauptaussage finden (Klasse 1)",
-      "fr": "Lecture GS – trouver l'idée principale – en ligne"
+      "fr": "Lecture GS – trouver l'idée principale – en ligne",
+      "es": "La idea principal: escuchar y comprender textos – preescolar"
     },
     "page_intro": {
       "en": "Nila the otter listens to a little story, then you find the BIG IDEA among four idea-fish — net it, watch the umbrella open, and bring the true details home. A warm Kindergarten reading game about the main topic and key details of a story read aloud, aligned to Common Core RI.K.2.",
       "de": "Sinnerfassendes Lesen üben: kurze Sachtexte lesen und die Hauptaussage herausfinden. Kostenlos online, ohne Anmeldung – für Klasse 1.",
-      "fr": "Lecture en GS : découvrir une histoire à l'étang de Nila et trouver l'idée principale. Gratuit, en ligne, sans inscription."
+      "fr": "Lecture en GS : découvrir une histoire à l'étang de Nila et trouver l'idée principale. Gratuit, en ligne, sans inscription.",
+      "es": "Actividad interactiva y gratis de escucha: tu hijo/a oye una pequeña historia informativa y encuentra la idea principal —de qué trata— con Nila la nutria. Ideal para preescolar."
     },
     "kid_prompt_template": "main-idea-net"
   }

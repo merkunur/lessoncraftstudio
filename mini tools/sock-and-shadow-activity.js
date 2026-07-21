@@ -78,6 +78,39 @@
     return [ART_FR[g], (o.size ? frAdj(SIZE_FR, o.size, g) : ''), NOUN_FR[o.object], (o.color ? frAdj(COLOR_FR, o.color, g) : '')].filter(Boolean).join(' ');
   }
 
+  /* ---- Spanish surface (0 lines to puppet-speak-core.js; rounds are locale-neutral enum keys). #101.
+     ⚠ Spanish noun-phrase: article + noun + [COLOR agreed] + [SIZE agreed] + [position], color+size AFTER
+     the noun (distinct from de [both before] and fr [size before / color after]); per-noun GENDER_ES. ---- */
+  var GENDER_ES = { cup: 'f', ball: 'f', hat: 'm', teddy: 'm', car: 'm', block: 'm', blocks: 'p', stool: 'm' };
+  var NOUN_ES   = { cup: 'taza', ball: 'pelota', hat: 'sombrero', teddy: 'osito', car: 'carro', block: 'bloque', blocks: 'bloques', stool: 'banquito' };
+  var ART_ES    = { m: 'El', f: 'La', p: 'Los' };   // capitalized, sentence-initial (mirrors de's capitalized articles)
+  var COLOR_ES  = { red: { m: 'rojo', f: 'roja' }, blue: { m: 'azul', f: 'azul' }, green: { m: 'verde', f: 'verde' }, brown: { m: 'café', f: 'café' }, white: { m: 'blanco', f: 'blanca' } };   // café/azul/verde INVARIANT
+  var SIZE_ES   = { big: { m: 'grande', f: 'grande' }, small: { m: 'chico', f: 'chica' } };   // grande INVARIANT
+  var CHIP_ES   = { red: 'rojo', blue: 'azul', green: 'verde', brown: 'café', white: 'blanco', big: 'grande', small: 'chico' };   // BASE (chip tiles, masc-sing citation)
+  var POS_ES      = { top: 'de arriba', bottom: 'de abajo' };   // in-sentence
+  var POSCHIP_ES  = { top: 'arriba', bottom: 'abajo' };         // chip tiles
+  var FEELPRED_ES = { sad: 'Estoy triste', mad: 'Me da coraje' };   // spoken predicate — BOTH invariant (kid gender unknown; "Me da coraje" avoids the masc leak of "Estoy enojado")
+  var FEELCHIP_ES = { sad: 'triste', mad: 'enojado' };             // chip tiles (recognizable word)
+  var REASON_ES       = { 'tower-fell': 'se me cayó la torre', 'lost-teddy': 'perdí mi osito', 'cant-reach': 'no alcanzo mi juguete' };   // keep the dative "se me"
+  var SHORT_REASON_ES = { 'tower-fell': 'torre caída', 'lost-teddy': 'osito perdido', 'cant-reach': 'no alcanzo' };
+  function esGender(obj) { return GENDER_ES[obj] || 'm'; }
+  function esAdj(map, key, g) { var m = map[key]; return m ? (m[g] || m.m) : key; }
+  function esUtter(round, turn) {
+    var t = turn, a = t.attrs || {};
+    if (round.listenerAction === 'mood') return (FEELPRED_ES[t.feeling] || '…') + (t.reason ? ' porque ' + (REASON_ES[t.reason] || '') : '') + '.';
+    var g = esGender(t.object), parts = [ART_ES[g] || 'El', NOUN_ES[t.object] || '…'];
+    if (a.color) parts.push(esAdj(COLOR_ES, a.color, g));   // COLOR before SIZE, both after the noun
+    if (a.size) parts.push(esAdj(SIZE_ES, a.size, g));
+    if (a.position) parts.push(POS_ES[a.position]);
+    var s = parts.join(' ');
+    return s.charAt(0).toUpperCase() + s.slice(1) + '.';
+  }
+  function esObjAria(o) {                            // objSVG aria — agreed + plural-safe
+    if (o.object === 'blocks') return 'Los bloques';
+    var g = esGender(o.object);
+    return [ART_ES[g], NOUN_ES[o.object], (o.color ? esAdj(COLOR_ES, o.color, g) : ''), (o.size ? esAdj(SIZE_ES, o.size, g) : '')].filter(Boolean).join(' ');
+  }
+
   var C = {
     T: '#146B5E', T2: '#1B7E6E', CORAL: '#F2784B', CORAL2: '#D9572F',
     CREAM: '#FBF3E4', INK: '#2A2A35', GOOD: '#2FA56A', CURTAIN: '#185E54'
@@ -109,7 +142,7 @@
       case 'stool': body = '<rect x="26" y="40" width="48" height="12" rx="4" fill="' + tint + '"/><rect x="30" y="52" width="7" height="30" fill="' + tint + '"/><rect x="63" y="52" width="7" height="30" fill="' + tint + '"/>'; break;
       default: body = '<circle cx="50" cy="55" r="28" fill="' + tint + '"/>';
     }
-    var aria = LANG === 'de' ? deObjAria(o) : LANG === 'fr' ? frObjAria(o) : ((o.size ? o.size + ' ' : '') + (o.color ? o.color + ' ' : '') + o.object);
+    var aria = LANG === 'de' ? deObjAria(o) : LANG === 'fr' ? frObjAria(o) : LANG === 'es' ? esObjAria(o) : ((o.size ? o.size + ' ' : '') + (o.color ? o.color + ' ' : '') + o.object);
     return '<svg class="ss-obj-svg" viewBox="0 0 100 100" role="img" aria-label="' + esc(aria) + '" style="transform:scale(' + sc + ')"><g stroke="' + stroke + '" stroke-width="1.5">' + body + '</g></svg>';
   }
 
@@ -124,19 +157,19 @@
     id: 'sock-and-shadow-activity',
 
     strings: {
-      title: { en: 'Sock & Shadow', de: 'Socke & Schatten', fr: 'Chaussette et Ombre' },
-      prompt: { en: "Tell Shadow which one.", de: 'Sag Schatten, was es ist.', fr: 'Dis à Ombre lequel c’est.' },
-      tellFetch: { en: 'The kid lost this one. Tell Shadow which to fetch.', de: 'Das Kind hat das hier verloren. Sag Schatten, was er holen soll.', fr: 'L’enfant a perdu celui-ci. Dis à Ombre lequel aller chercher.' },
-      tellMood: { en: 'Tell Shadow how the kid feels — and why.', de: 'Sag Schatten, wie sich das Kind fühlt – und warum.', fr: 'Dis à Ombre ce qu’il ressent, et pourquoi.' },
-      tell: { en: 'Tell Shadow', de: 'Sag es Schatten', fr: 'Dis-le à Ombre' },
-      needObject: { en: 'Pick what it is first.', de: 'Sag zuerst, was es ist.', fr: 'Dis d’abord ce que c’est.' },
-      again: { en: 'Tell Shadow again', de: 'Sag es Schatten nochmal', fr: 'Redis-le à Ombre' },
-      ambiguous: { en: "I can't tell from back here — which {cat}?", de: "Ich seh's von hier hinten nicht – welche {cat}?", fr: 'Je ne vois pas d’ici — quelle {cat} ?' },
-      overwhelmed: { en: 'Too many words — I forgot half! Just what I need?', de: 'Zu viele Wörter – die Hälfte hab ich vergessen! Nur das Nötigste?', fr: 'Trop de mots — j’en ai oublié la moitié ! Juste l’essentiel ?' },
-      wrong: { en: "Hmm, I don't see that one. Tell me again?", de: "Hmm, das seh ich hier nicht. Sag's nochmal?", fr: 'Hmm, je ne le vois pas ici. Tu peux répéter ?' },
-      clear: { en: 'Got it! Here you go.', de: 'Hab ich! Hier, bitte.', fr: 'Ça y est ! Tiens, voilà.' },
-      catColor: { en: 'colour', de: 'Farbe', fr: 'couleur' }, catSize: { en: 'size', de: 'Größe', fr: 'taille' }, catPosition: { en: 'spot', de: 'Stelle', fr: 'place' }, catReason: { en: 'reason', de: 'Grund', fr: 'raison' },
-      hintCheck: { en: 'Tell Shadow, then tap Check.', de: 'Sag es Schatten, dann tipp auf Prüfen.', fr: 'Dis-le à Ombre, puis touche Vérifier.' }
+      title: { en: 'Sock & Shadow', de: 'Socke & Schatten', fr: 'Chaussette et Ombre', es: 'Calcetín y Sombra' },
+      prompt: { en: "Tell Shadow which one.", de: 'Sag Schatten, was es ist.', fr: 'Dis à Ombre lequel c’est.', es: 'Dile a Sombra cuál es.' },
+      tellFetch: { en: 'The kid lost this one. Tell Shadow which to fetch.', de: 'Das Kind hat das hier verloren. Sag Schatten, was er holen soll.', fr: 'L’enfant a perdu celui-ci. Dis à Ombre lequel aller chercher.', es: 'Se le perdió esto. Dile a Sombra cuál traer.' },
+      tellMood: { en: 'Tell Shadow how the kid feels — and why.', de: 'Sag Schatten, wie sich das Kind fühlt – und warum.', fr: 'Dis à Ombre ce qu’il ressent, et pourquoi.', es: 'Dile a Sombra cómo se siente — y por qué.' },
+      tell: { en: 'Tell Shadow', de: 'Sag es Schatten', fr: 'Dis-le à Ombre', es: 'Dile a Sombra' },
+      needObject: { en: 'Pick what it is first.', de: 'Sag zuerst, was es ist.', fr: 'Dis d’abord ce que c’est.', es: 'Primero escoge qué es.' },
+      again: { en: 'Tell Shadow again', de: 'Sag es Schatten nochmal', fr: 'Redis-le à Ombre', es: 'Dile otra vez a Sombra.' },
+      ambiguous: { en: "I can't tell from back here — which {cat}?", de: "Ich seh's von hier hinten nicht – welche {cat}?", fr: 'Je ne vois pas d’ici — quelle {cat} ?', es: 'Mmm, no me queda claro. Dime {cat}.' },
+      overwhelmed: { en: 'Too many words — I forgot half! Just what I need?', de: 'Zu viele Wörter – die Hälfte hab ich vergessen! Nur das Nötigste?', fr: 'Trop de mots — j’en ai oublié la moitié ! Juste l’essentiel ?', es: '¡Uy, muchas palabras! Se me olvidó la mitad. ¿Nada más lo que necesito?' },
+      wrong: { en: "Hmm, I don't see that one. Tell me again?", de: "Hmm, das seh ich hier nicht. Sag's nochmal?", fr: 'Hmm, je ne le vois pas ici. Tu peux répéter ?', es: 'Mmm, no lo encuentro. ¿Me lo dices otra vez?' },
+      clear: { en: 'Got it! Here you go.', de: 'Hab ich! Hier, bitte.', fr: 'Ça y est ! Tiens, voilà.', es: '¡Listo! Aquí está.' },
+      catColor: { en: 'colour', de: 'Farbe', fr: 'couleur', es: 'el color' }, catSize: { en: 'size', de: 'Größe', fr: 'taille', es: 'el tamaño' }, catPosition: { en: 'spot', de: 'Stelle', fr: 'place', es: 'dónde está' }, catReason: { en: 'reason', de: 'Grund', fr: 'raison', es: 'por qué' },
+      hintCheck: { en: 'Tell Shadow, then tap Check.', de: 'Sag es Schatten, dann tipp auf Prüfen.', fr: 'Dis-le à Ombre, puis touche Vérifier.', es: 'Dile a Sombra y toca Comprobar.' }
     },
 
     defaults: {},
@@ -176,7 +209,7 @@
     render: function () {
       this.injectCSS();
       var api = this.api, stage = api.stage; stage.innerHTML = '';
-      var wrap = api.el('div', 'ss-wrap' + (LANG === 'fr' ? ' ss-fr' : ''));
+      var wrap = api.el('div', 'ss-wrap' + (LANG === 'fr' ? ' ss-fr' : LANG === 'es' ? ' ss-es' : ''));
       var theater = api.el('div', 'ss-theater'); this._theaterEl = theater;
       if (!this.round) { wrap.appendChild(theater); stage.appendChild(wrap); return; }
       if (this.phase === 'resolve' || this.phase === 'done') this._renderResolve(theater);
@@ -194,7 +227,7 @@
       // stage row: Sock (sees the bin) + the greyed curtain with Shadow ducked
       var top = api.el('div', 'ss-stagerow');
       var sock = api.el('div', 'ss-sock'); sock.innerHTML = puppet('sock'); top.appendChild(sock);
-      var curtain = api.el('div', 'ss-curtain ss-curtain-closed'); curtain.innerHTML = '<span class="ss-duck">' + puppet('shadow') + '</span><span class="ss-nopeek">' + (LANG === 'de' ? 'Nicht gucken!' : LANG === 'fr' ? 'on ne regarde pas !' : 'no peeking!') + '</span>'; top.appendChild(curtain);
+      var curtain = api.el('div', 'ss-curtain ss-curtain-closed'); curtain.innerHTML = '<span class="ss-duck">' + puppet('shadow') + '</span><span class="ss-nopeek">' + (LANG === 'de' ? 'Nicht gucken!' : LANG === 'fr' ? 'on ne regarde pas !' : LANG === 'es' ? '¡Sin espiar!' : 'no peeking!') + '</span>'; top.appendChild(curtain);
       theater.appendChild(top);
 
       // the bin (Sock can see; the target glows) — fetch only. When a round varies by
@@ -267,7 +300,7 @@
 
       // the spoken bubble
       var bubble = api.el('div', 'ss-bubble');
-      bubble.textContent = LANG === 'de' ? ('„' + deUtter(r, this.turn) + '“') : LANG === 'fr' ? ('« ' + frUtter(r, this.turn) + ' »') : ('“' + Core.utter(r, this.turn, 'en') + '”');
+      bubble.textContent = LANG === 'de' ? ('„' + deUtter(r, this.turn) + '“') : LANG === 'fr' ? ('« ' + frUtter(r, this.turn) + ' »') : LANG === 'es' ? ('«' + esUtter(r, this.turn) + '»') : ('“' + Core.utter(r, this.turn, 'en') + '”');
       theater.appendChild(bubble);
 
       // Shadow's line
@@ -302,6 +335,14 @@
         if (c.slot === 'feeling') return FEEL_FR[c.value] || c.value;
         return CHIP_FR[c.value] || c.value;   // color / size (base masc-sing form)
       }
+      if (LANG === 'es') {
+        if (c.slot === 'object') return NOUN_ES[c.value] || c.value;
+        if (c.slot === 'politeness') return 'por favor';
+        if (c.slot === 'reason') return SHORT_REASON_ES[c.value] || c.value;   // short on the chip; full clause in esUtter()
+        if (c.slot === 'position') return POSCHIP_ES[c.value] || c.value;      // bare arriba/abajo on the chip; "de arriba" in esUtter
+        if (c.slot === 'feeling') return FEELCHIP_ES[c.value] || c.value;      // "triste"/"enojado" chip; "Estoy triste"/"Me da coraje" spoken
+        return CHIP_ES[c.value] || c.value;   // color / size (base masc-sing form)
+      }
       if (c.slot === 'object') return c.value;
       if (c.slot === 'politeness') return 'please';
       if (c.slot === 'reason') return SHORT_REASON[c.value] || c.value;   // short on the chip; full text in utter()
@@ -334,7 +375,7 @@
     _tellShadow: function () {
       if (this.readOnly) return;
       if (!Core.coherent(this.round, this.turn)) { this.api.announce && this.api.announce(this.api.t('needObject')); return; }
-      speak(LANG === 'de' ? deUtter(this.round, this.turn) : LANG === 'fr' ? frUtter(this.round, this.turn) : Core.utter(this.round, this.turn, 'en'));
+      speak(LANG === 'de' ? deUtter(this.round, this.turn) : LANG === 'fr' ? frUtter(this.round, this.turn) : LANG === 'es' ? esUtter(this.round, this.turn) : Core.utter(this.round, this.turn, 'en'));
       this._res = Core.resolve(this.round, this.turn);
       this.phase = 'resolve';
       if (this._res.outcome === 'clear') { this._win(); return; }
@@ -425,6 +466,8 @@
         + '@media (max-width:412px){.ss-theater{padding:5px;gap:2px;}.ss-binobj{width:28px;height:28px;}.ss-bin{gap:2px;padding:2px;}.ss-chip{padding:0 6px;font-size:12px;min-height:44px;}.ss-rail{gap:3px;}.ss-words{min-height:24px;padding:2px 6px;}.ss-word{min-height:28px;padding:3px 6px;font-size:12px;}.ss-tell{min-height:44px;}.ss-sock{width:36px;}.ss-curtain{height:34px;max-width:124px;}.ss-stagerow{gap:6px;}.ss-kid-face{font-size:21px;}}'
         /* fr: French chips (nounours perdu / pas atteindre / s\'il te plaît) are wider than EN → the mood-round rail wraps an extra row + the longer say-line pushes past a 320px fold. fr-scoped @360 tightening (chips stay ≥44px tall) so the rail packs tighter — EN untouched (passes at 320). */
         + '@media (max-width:360px){.ss-fr .ss-chip{padding:0 3px;font-size:11px;}.ss-fr .ss-rail{gap:2px;}.ss-fr .ss-kid-say{font-size:10.5px;line-height:1.12;}.ss-fr .ss-kid-face{font-size:18px;}.ss-fr .ss-theater{gap:1px;padding:4px;}.ss-fr .ss-words{min-height:20px;padding:1px 5px;}.ss-fr .ss-word{font-size:11px;min-height:26px;padding:2px 5px;}}'
+        /* es: the mood-round chips (torre caída / osito perdido / no alcanzo / por favor) are wider than EN → the rail wraps an extra row past the 320px fold. es-scoped narrow tightening (chips stay ≥44px tall) so the rail packs tighter — EN/de/fr untouched (§A.13.62 fix at the narrow band, never the gate). */
+        + '@media (max-width:360px){.ss-es .ss-chip{padding:0 3px;font-size:11px;}.ss-es .ss-rail{gap:2px;}.ss-es .ss-kid-say{font-size:10.5px;line-height:1.12;}.ss-es .ss-kid-face{font-size:18px;}.ss-es .ss-theater{gap:1px;padding:4px;}.ss-es .ss-words{min-height:20px;padding:1px 5px;}.ss-es .ss-word{font-size:11px;min-height:26px;padding:2px 5px;}}'
         + '@media (prefers-reduced-motion: reduce){.ss-chip-glow{animation:none!important;}}';
       var tag = document.createElement('style'); tag.setAttribute('data-sock-shadow', ''); tag.textContent = css;
       document.head.appendChild(tag);

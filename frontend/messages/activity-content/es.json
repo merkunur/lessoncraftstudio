@@ -3850,6 +3850,29 @@
         "Reconoce que «a + el» y «de + el» se escriben juntas",
         "Da sus primeros pasos en la reflexión sobre la lengua"
       ]
+    },
+    "sock-and-shadow.puppet-speak.sl-k-6": {
+      "about": [
+        "Calcetín ve la caja de objetos perdidos, pero Sombra está detrás de la cortina y no puede ver: solo escucha. Su hijo/a arma lo que dice Calcetín con palabras —por ejemplo, «la taza roja»— para que Sombra sepa cuál traer.",
+        "La actividad practica describir con claridad para hacerse entender: decir lo justo. Si su hijo/a dice muy poco, Sombra no sabe cuál es; si dice de más, se le olvida la mitad. Con el color, el tamaño o el lugar correctos, Sombra encuentra el objeto.",
+        "Describir para que otro entienda es una base de la expresión oral en primer grado. También hay una ronda para decir cómo se siente el niño y por qué. Corresponde al eje «Oralidad». Es gratis y sin presiones: sin cronómetro, sin puntaje, sin perder."
+      ],
+      "practices": [
+        "Describir un objeto con claridad para que lo identifiquen",
+        "Decir lo justo: ni muy poco ni de más",
+        "Usar el color, el tamaño y el lugar para describir",
+        "Expresar cómo se siente y por qué"
+      ],
+      "howToPlay": [
+        "Mira el objeto que Calcetín tiene que describir",
+        "Arma la descripción con las palabras (qué es, color, tamaño, lugar)",
+        "Toca «Dile a Sombra» para que Sombra lo traiga"
+      ],
+      "learningGoals": [
+        "Su hijo/a describe con claridad para hacerse entender",
+        "Aprende a decir lo justo para que lo entiendan",
+        "Da sus primeros pasos en la expresión oral"
+      ]
     }
   }
 }

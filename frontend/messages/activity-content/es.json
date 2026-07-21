@@ -3781,6 +3781,29 @@
         "Tu peque entiende que un triángulo sigue siendo triángulo aunque cambie de color, tamaño u orientación.",
         "Se construye el razonamiento por atributos sobre el que se apoya clasificar y nombrar figuras."
       ]
+    },
+    "wake-up-pip.retell-story.rl-k-2": {
+      "about": [
+        "Pip es un amiguito muy dormilón que se perdió el cuento. Su hijo/a mira una historia corta en cuatro imágenes —por ejemplo, «La luz calientita llega a la nariz de Pip» y luego «¡Pip despierta y se estira!»— y después vuelve a contársela a Pip: pone las partes en orden y elige las importantes.",
+        "La actividad practica volver a contar un cuento con los sucesos en orden y los detalles importantes. En algunas rondas falta una parte clave y su hijo/a la escoge —sin confundirla con un detalle que no importa, un suceso de otro cuento o un personaje que no aparece. Así aprende a distinguir lo importante de lo secundario, no solo a ordenar.",
+        "Volver a contar un cuento —en orden y con lo que de verdad importa— es una base de la comprensión lectora. La historia se puede escuchar con el botón de audio, por si su hijo/a todavía no lee solo. Corresponde al eje «Comprensión de textos literarios». Es gratis y sin presiones: sin cronómetro, sin puntaje, sin perder; su hijo/a piensa con calma."
+      ],
+      "practices": [
+        "Volver a contar un cuento con los sucesos en orden",
+        "Elegir los detalles importantes del cuento",
+        "Distinguir lo importante de un detalle que no importa o que no pertenece",
+        "Ver y escuchar cuentos cortos con atención"
+      ],
+      "howToPlay": [
+        "Mira la historia en cuatro imágenes (o toca el botón de audio)",
+        "Pon las partes en el orden en que pasaron y elige las importantes",
+        "Toca «¡Cuéntala!» para contarle el cuento a Pip"
+      ],
+      "learningGoals": [
+        "Su hijo/a vuelve a contar un cuento con los sucesos en orden",
+        "Elige los detalles importantes y descarta los que no pertenecen",
+        "Da sus primeros pasos en la comprensión de cuentos"
+      ]
     }
   }
 }

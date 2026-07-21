@@ -688,6 +688,48 @@
               }
             ]
           }
+        ],
+        "es": [
+          { "id": "valiente", "band": 1, "trait": "Mira es valiente.", "traitWord": "valient", "story": ["Un gruñido salió de la cueva oscura.", "Sus amigos dieron un paso atrás.", "Mira caminó hacia el ruido."], "details": [
+            { "id": "d1", "supports": true, "text": "Entró sola a la cueva oscura." },
+            { "id": "d2", "supports": false, "text": "Traía botas rojas." },
+            { "id": "d3", "supports": false, "text": "Se comió una torta." }
+          ] },
+          { "id": "amable", "band": 1, "trait": "Beto es amable.", "traitWord": "amabl", "story": ["Un niño nuevo comió solo en el recreo.", "Nadie se sentó con él.", "Beto lo vio desde su lugar."], "details": [
+            { "id": "d1", "supports": true, "text": "Compartió su comida con él." },
+            { "id": "d2", "supports": false, "text": "A Beto le gusta el jamón." },
+            { "id": "d3", "supports": false, "text": "Se sienta junto a la ventana." }
+          ] },
+          { "id": "curiosa", "band": 1, "trait": "Lena es curiosa.", "traitWord": "curios", "story": ["Lena encontró una piedra brillante.", "La piedra tenía rayas raras.", "Lena la levantó del suelo."], "details": [
+            { "id": "d1", "supports": true, "text": "Preguntó cómo se había formado la piedra." },
+            { "id": "d2", "supports": false, "text": "Se la guardó en la bolsa." },
+            { "id": "d3", "supports": false, "text": "La piedra era gris." }
+          ] },
+          { "id": "cuidadoso", "band": 2, "trait": "Teo es cuidadoso.", "traitWord": "cuidados", "story": ["Teo cargó una torre de vasos.", "El piso estaba mojado.", "Todos lo miraron."], "details": [
+            { "id": "d1", "supports": true, "text": "Dio pasitos muy lentos." },
+            { "id": "d2", "supports": false, "text": "Le gustan los vasos naranjas." },
+            { "id": "d3", "supports": false, "text": "Eran diez vasos." }
+          ] },
+          { "id": "paciente", "band": 2, "trait": "Ada es paciente.", "traitWord": "pacient", "story": ["Ada sembró una semilla.", "La semilla tardó muchas semanas.", "Todavía nada crecía."], "details": [
+            { "id": "d1", "supports": true, "text": "Esperó semana tras semana a que creciera." },
+            { "id": "d2", "supports": false, "text": "La maceta era azul." },
+            { "id": "d3", "supports": false, "text": "Su regadera era chiquita." }
+          ] },
+          { "id": "honesto", "band": 2, "trait": "Beni es honesto.", "traitWord": "honest", "story": ["Beni rompió un florero sin querer.", "Nadie lo vio.", "Su mamá entró al cuarto."], "details": [
+            { "id": "d1", "supports": true, "text": "Le dijo la verdad a su mamá." },
+            { "id": "d2", "supports": false, "text": "El florero estaba en un estante alto." },
+            { "id": "d3", "supports": false, "text": "Andaba jugando en el pasillo." }
+          ] },
+          { "id": "generosa", "band": 3, "trait": "Nina es generosa.", "traitWord": "generos", "story": ["Nina tenía tres calcomanías.", "Su amiga no tenía ninguna.", "Las dos querían jugar."], "details": [
+            { "id": "d1", "supports": true, "text": "Le regaló dos a su amiga." },
+            { "id": "d2", "supports": false, "text": "Las calcomanías eran de estrellas." },
+            { "id": "d3", "supports": false, "text": "Se quedó con una." }
+          ] },
+          { "id": "trabajador", "band": 3, "trait": "Max es trabajador.", "traitWord": "trabajador", "story": ["El patio estaba lleno de hojas.", "Sus amigos se fueron a jugar.", "Max se quedó con el rastrillo."], "details": [
+            { "id": "d1", "supports": true, "text": "Rastrilló las hojas toda la tarde." },
+            { "id": "d2", "supports": false, "text": "Sus guantes eran verdes." },
+            { "id": "d3", "supports": false, "text": "Las hojas eran cafés." }
+          ] }
         ]
       }
     },
@@ -695,17 +737,20 @@
     "slug": {
       "en": "marlos-magnifier",
       "de": "charaktereigenschaften-mit-textstellen-belegen-klasse-3",
-      "fr": "le-portrait-du-personnage-indices-ce1"
+      "fr": "le-portrait-du-personnage-indices-ce1",
+      "es": "rasgos-del-personaje-que-detalle-lo-prueba-tercer-grado"
     },
     "page_title": {
       "en": "Marlo's Magnifier — Show Me the Proof (Grade 1)",
       "de": "Charaktereigenschaften belegen – Marlos Lupe (Klasse 3)",
-      "fr": "Inférences CE1 – trouver les indices – exercice en ligne"
+      "fr": "Inférences CE1 – trouver les indices – exercice en ligne",
+      "es": "Rasgos del personaje: ¿qué detalle lo prueba? · 3.º grado"
     },
     "page_intro": {
       "en": "Marlo the raccoon is a story detective, and every case is a clue hunt: read a short story, then a clue card says something about a character — \"Mira is brave.\" Tap the detail from the story that PROVES it, not just any true thing that happened. A warm Grade 1 reading game about describing characters with key details and finding the evidence, aligned to Common Core RL.1.3.",
       "de": "Kostenlos & interaktiv: Dein Kind belegt Charaktereigenschaften einer Figur mit der passenden Textstelle – genaues Lesen für die Grundschule, ganz ohne Zeitdruck.",
-      "fr": "Travailler les inférences au CE1 : s'appuyer sur les indices du texte pour décrire le personnage. Gratuit, en ligne, sans inscription."
+      "fr": "Travailler les inférences au CE1 : s'appuyer sur les indices du texte pour décrire le personnage. Gratuit, en ligne, sans inscription.",
+      "es": "Actividad interactiva y gratis para 3.º grado: lee un cuento corto, infiere el rasgo del personaje y toca el detalle del texto que lo prueba."
     },
     "kid_prompt_template": "marlo-magnifier"
   }

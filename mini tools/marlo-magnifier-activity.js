@@ -21,7 +21,7 @@
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function speak(text, rate) {
     try { if (global.LCSAudio && global.LCSAudio.speak) { global.LCSAudio.speak({ type: 'word', text: text, lang: LANG, rate: rate || 0.95 }); return; }
-      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
+      if (global.speechSynthesis && global.SpeechSynthesisUtterance) { var u = new global.SpeechSynthesisUtterance(text); u.rate = rate || 0.95; u.lang = (LANG === 'fr' ? 'fr-FR' : LANG === 'de' ? 'de-DE' : LANG === 'es' ? 'es-MX' : 'en-US'); global.speechSynthesis.cancel(); global.speechSynthesis.speak(u); } } catch (e) {}
   }
   function shuffle(arr) { var a = arr.slice(), i, j, t; for (i = a.length - 1; i > 0; i--) { j = Math.floor(Math.random() * (i + 1)); t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
 
@@ -29,7 +29,7 @@
     var happy = mood === 'happy';
     var eyes = happy ? '<path d="M40 47 q3 -4 6 0 M54 47 q3 -4 6 0" stroke="#fff" stroke-width="2.4" fill="none" stroke-linecap="round"/>'
       : '<circle cx="43" cy="48" r="2.6" fill="#fff"/><circle cx="57" cy="48" r="2.6" fill="#fff"/>';
-    return '<svg class="mgf-coon-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Marlo le raton laveur' : LANG === 'de' ? 'Marlo, der Waschbär' : 'Marlo the raccoon') + '">' +
+    return '<svg class="mgf-coon-svg" viewBox="0 0 100 100" role="img" aria-label="' + (LANG === 'fr' ? 'Marlo le raton laveur' : LANG === 'de' ? 'Marlo, der Waschbär' : LANG === 'es' ? 'Marlo el mapache' : 'Marlo the raccoon') + '">' +
       '<path d="M28 24 L40 36 L24 40 Z" fill="#9AA0A6"/><path d="M72 24 L60 36 L76 40 Z" fill="#9AA0A6"/>' +   /* ears */
       '<ellipse cx="50" cy="54" rx="30" ry="27" fill="#AEB4BA"/>' +
       '<path d="M22 46 q28 -16 56 0 q-6 12 -16 12 h-24 q-10 0 -16 -12 Z" fill="#3A3F45"/>' +   /* mask */
@@ -42,16 +42,16 @@
     id: 'marlo-magnifier-activity',
 
     strings: {
-      title: { en: "Marlo's Magnifier", de: 'Marlos Lupe', fr: 'La loupe de Marlo' },
-      prompt: { en: 'Find the detail that proves it.', de: 'Finde das Detail, das es beweist.', fr: 'Trouve l’indice qui le prouve.' },
-      marloIntro: { en: 'A new case! Find the proof in the story.', de: 'Ein neuer Fall! Finde den Beweis in der Geschichte.', fr: 'Une nouvelle enquête ! Trouve la preuve cachée dans l’histoire.' },
-      readStory: { en: '📖 Read the story', de: '📖 Vorlesen', fr: '📖 Lire l’histoire' },
-      readAgain: { en: '📖 Read it again', de: '📖 Noch einmal vorlesen', fr: '📖 Relire l’histoire' },
-      theAsk: { en: 'Which detail PROVES it?', de: 'Welches Detail beweist es?', fr: 'Quel indice le PROUVE ?' },
-      clue: { en: 'Clue:', de: 'Hinweis:', fr: 'Indice :' },
-      hintPick: { en: 'Tap the detail that shows it is true!', de: 'Tippe auf das Detail, das es beweist!', fr: 'Tape l’indice qui montre que c’est vrai !' },
-      hintWrong: { en: "That is true, but it doesn't prove it — look again.", de: 'Das stimmt zwar, aber es ist kein Beweis. Schau noch einmal!', fr: 'C’est vrai, mais ça ne le prouve pas — regarde encore.' },
-      win: { en: 'Case solved! That is the proof. 🔍', de: 'Fall gelöst! Das ist der Beweis. 🔍', fr: 'Enquête résolue ! Voilà la preuve. 🔍' }
+      title: { en: "Marlo's Magnifier", de: 'Marlos Lupe', fr: 'La loupe de Marlo', es: 'La lupa de Marlo' },
+      prompt: { en: 'Find the detail that proves it.', de: 'Finde das Detail, das es beweist.', fr: 'Trouve l’indice qui le prouve.', es: 'Encuentra el detalle que lo prueba.' },
+      marloIntro: { en: 'A new case! Find the proof in the story.', de: 'Ein neuer Fall! Finde den Beweis in der Geschichte.', fr: 'Une nouvelle enquête ! Trouve la preuve cachée dans l’histoire.', es: '¡Un caso nuevo! Encuentra la prueba en la historia.' },
+      readStory: { en: '📖 Read the story', de: '📖 Vorlesen', fr: '📖 Lire l’histoire', es: '📖 Lee la historia' },
+      readAgain: { en: '📖 Read it again', de: '📖 Noch einmal vorlesen', fr: '📖 Relire l’histoire', es: '📖 Léela otra vez' },
+      theAsk: { en: 'Which detail PROVES it?', de: 'Welches Detail beweist es?', fr: 'Quel indice le PROUVE ?', es: '¿Qué detalle lo prueba?' },
+      clue: { en: 'Clue:', de: 'Hinweis:', fr: 'Indice :', es: 'Pista:' },
+      hintPick: { en: 'Tap the detail that shows it is true!', de: 'Tippe auf das Detail, das es beweist!', fr: 'Tape l’indice qui montre que c’est vrai !', es: '¡Toca el detalle que muestra que es verdad!' },
+      hintWrong: { en: "That is true, but it doesn't prove it — look again.", de: 'Das stimmt zwar, aber es ist kein Beweis. Schau noch einmal!', fr: 'C’est vrai, mais ça ne le prouve pas — regarde encore.', es: 'Eso es verdad, pero no lo prueba. ¡Busca otra vez!' },
+      win: { en: 'Case solved! That is the proof. 🔍', de: 'Fall gelöst! Das ist der Beweis. 🔍', fr: 'Enquête résolue ! Voilà la preuve. 🔍', es: '¡Caso resuelto! Esa es la prueba. 🔍' }
     },
     defaults: {},
 
@@ -86,7 +86,7 @@
       var clue = api.el('div', 'mgf-clue');
       var lab = api.el('span', 'mgf-cluelab'); lab.textContent = api.t('clue'); clue.appendChild(lab);
       var txt = api.el('span', 'mgf-cluetxt'); txt.textContent = v.trait; clue.appendChild(txt);
-      var sp = api.el('button', 'mgf-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'fr' ? 'écouter l’indice' : LANG === 'de' ? 'den Hinweis anhören' : 'hear the clue'); sp.textContent = '🔊';
+      var sp = api.el('button', 'mgf-spk'); sp.type = 'button'; sp.setAttribute('aria-label', LANG === 'fr' ? 'écouter l’indice' : LANG === 'de' ? 'den Hinweis anhören' : LANG === 'es' ? 'escuchar la pista' : 'hear the clue'); sp.textContent = '🔊';
       sp.addEventListener('click', function () { speak(v.trait); }); clue.appendChild(sp);
       root.appendChild(clue);
 
@@ -157,7 +157,7 @@
         + '.mgf-root{position:relative;width:100%;display:flex;flex-direction:column;align-items:stretch;gap:clamp(2px,0.8vw,5px);background:linear-gradient(180deg,#FBF3E4,#E9ECEF);border-radius:20px;padding:clamp(6px,1.4vw,10px);box-shadow:inset 0 2px 0 rgba(255,255,255,.5),0 5px 0 rgba(20,107,94,.07);}'
         + '.mgf-row{display:flex;align-items:center;gap:clamp(6px,2vw,12px);justify-content:center;}'
         + '.mgf-coon{width:clamp(38px,7.5vw,46px);flex:0 0 auto;}.mgf-coon-svg{width:100%;height:auto;display:block;}'
-        + '.mgf-say{background:#fff;border:2px solid rgba(20,107,94,.18);border-radius:13px 13px 13px 3px;padding:5px 10px;font:700 clamp(12px,3vw,14px)/1.25 "Baloo 2",sans-serif;color:' + C.T + ';max-width:80%;display:-webkit-box;-webkit-line-clamp:1;line-clamp:1;-webkit-box-orient:vertical;overflow:hidden;}'
+        + '.mgf-say{background:#fff;border:2px solid rgba(20,107,94,.18);border-radius:13px 13px 13px 3px;padding:5px 10px;font:700 clamp(12px,3vw,14px)/1.25 "Baloo 2",sans-serif;color:' + C.T + ';max-width:80%;display:-webkit-box;-webkit-line-clamp:2;line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}'
         /* trait clue banner */
         + '.mgf-clue{display:flex;align-items:center;gap:8px;background:#FFF;border:2px solid ' + C.GOLD + ';border-radius:13px;padding:5px 9px;}'
         + '.mgf-cluelab{flex:0 0 auto;font:800 clamp(10.5px,2.6vw,12px)/1 "Baloo 2",sans-serif;color:' + C.CORAL2 + ';text-transform:uppercase;letter-spacing:.04em;}'

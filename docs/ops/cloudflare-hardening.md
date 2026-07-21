@@ -104,3 +104,32 @@ over the following days; Security → Events shows the challenge rule firing.
 ## Rollback
 Each piece is one toggle/rule: disable Bot Fight Mode; disable/delete the WAF
 rule; disable any cache rule. Origin behavior is unchanged by all of this.
+
+## 5. Origin PDF cache TTL — reclaim crawl budget (2026-07-21)
+
+**Change.** In `/etc/nginx/sites-enabled/lessoncraftstudio` the four deck **PDF**
+location blocks had `add_header Cache-Control "public, max-age=300"` raised to
+`max-age=2592000` (30 d): lines **257** (`printable.pdf`), **268**
+(`answer-key.pdf`), **296** (`.+-printable.pdf`), **309** (`.+-answer-key.pdf`).
+The deck-dir/html block (240) and the PNG/asset catch-all (321) were **left at
+300s** on purpose.
+
+**Why.** GSC crawl stats showed **PDFs = 48%** of a collapsed crawl budget (HTML
+only 33%): the static, versioned, immutable PDFs were being told to expire every
+5 min, so Googlebot + Cloudflare re-fetched them constantly (only 3% of responses
+were 304). Long-caching them cuts the re-fetch frequency and hands the budget to
+the starved HTML landings — **without** de-indexing the PDFs (they keep the
+"printable … pdf" clicks; re-noindexing them crashed clicks before, §17.8.20).
+HTML stays at 300s for edit propagation (§15.8); PNGs stay at 300s because they
+get in-place metadata retrofits (e.g. the licensable-image XMP pass) and are only
+1% of crawl.
+
+**Safety/verify.** `nginx -t` passed; reloaded. Origin (via `--resolve`):
+PDF → `cache-control: public, max-age=2592000`, conditional GET → `304`;
+deck.html + thumbnail.png still `max-age=300`. Backup of the pre-change config:
+`/root/lcs-nginx-backup-20260721-084043.conf`.
+
+**Revert.** `sed -i "257s/2592000/300/; 268s/…/; 296s/…/; 309s/…/"` the config (or
+restore the backup) → `nginx -t` → `systemctl reload nginx`. Reversible; touches
+no page identity (churn-freeze safe). Rare in-place PDF change → stale ≤30 d at
+edge (no CF purge API); PDFs are versioned so this effectively never happens.

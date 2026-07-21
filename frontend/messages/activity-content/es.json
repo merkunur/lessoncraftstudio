@@ -3942,6 +3942,29 @@
         "Aprende a formar las mayúsculas y las minúsculas",
         "Da sus primeros pasos en la escritura a mano"
       ]
+    },
+    "clock-convert.12-24.2-md-c-7": {
+      "about": [
+        "Quico el gallo sabe leer el reloj de 24 horas. Su hijo/a ve una hora en un formato —por ejemplo, «las 15:00»— y toca la misma hora escrita de la otra forma: «las 3:00 de la tarde». Así aprende a convertir entre las 24 y las 12 horas.",
+        "La actividad practica leer el reloj de 24 horas y decir la misma hora con las partes del día. Después del mediodía, las horas siguen contando: la 1 de la tarde son las 13:00, las 3 de la tarde son las 15:00, las 8 de la noche son las 20:00. Su hijo/a aprende a leer horarios como los del transporte o la tele.",
+        "Leer la hora en los dos formatos es parte de las magnitudes y la medida. Corresponde al eje «Magnitudes y medida». Es gratis y sin presiones: sin cronómetro, sin puntaje, sin perder; su hijo/a aprende con calma."
+      ],
+      "practices": [
+        "Leer la hora en el reloj de 24 horas",
+        "Convertir entre las 24 horas y las 12 horas",
+        "Decir la hora con la parte del día (mañana, tarde, noche)",
+        "Entender que después del mediodía las horas siguen contando"
+      ],
+      "howToPlay": [
+        "Lee la hora que aparece",
+        "Piensa cuál es la misma hora escrita de la otra forma",
+        "Toca la tarjeta con la hora correcta"
+      ],
+      "learningGoals": [
+        "Su hijo/a lee el reloj de 24 horas",
+        "Convierte entre las 24 y las 12 horas",
+        "Da sus primeros pasos leyendo horarios"
+      ]
     }
   }
 }

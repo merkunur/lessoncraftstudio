@@ -33,6 +33,13 @@
       win12to24: 'Oui ! {given}, c’est {answer}.',
       win24to12: 'Oui ! {given}, c’est {answer}.',
       hint: 'Après midi, l’heure continue de compter : 1 h de l’après-midi, c’est 13:00.'
+    },
+    es: {
+      q12to24: '¿Cómo se escribe esta hora en formato de 24 horas?',
+      q24to12: '¿Cómo se escribe esta hora en formato de 12 horas?',
+      win12to24: '¡Sí! {given} es lo mismo que {answer}.',
+      win24to12: '¡Sí! {given} es lo mismo que {answer}.',
+      hint: 'Después del mediodía, las horas siguen contando: la 1 de la tarde son las 13:00.'
     }
   };
   function txt(k, a) { var s = (L[LANG] && L[LANG][k]) || L.en[k] || k; return String(s).replace(/\{(\w+)\}/g, function (m, key) { return (a && key in a) ? a[key] : m; }); }
@@ -52,8 +59,14 @@
   function fr12str(h24, m) { return Core.to12(h24).h12 + ':' + pad2(m) + ' ' + MOMENT_FR[h24]; }
   function frGivenStr(round) { return round.dir === '12to24' ? fr12str(round.h24, round.m) : Core.to24str(round.h24, round.m); }
   function frOptionStr(round, oh) { return round.dir === '12to24' ? Core.to24str(oh, round.m) : fr12str(oh, round.m); }
-  function givenStr(round) { return LANG === 'de' ? deGivenStr(round) : LANG === 'fr' ? frGivenStr(round) : Core.givenStr(round); }
-  function optionStr(round, oh) { return LANG === 'de' ? deOptionStr(round, oh) : LANG === 'fr' ? frOptionStr(round, oh) : Core.optionStr(round, oh); }
+  /* Spanish: 24h side is universal („15:00"); the 12h side becomes „{h12}:{mm} {parte del día}"
+     („3:00 de la tarde"). MOMENT_ES 0..23 (MX: madrugada 1-5 / mañana 6-11 / mediodía 12 / tarde 13-18 / noche 19-23). */
+  var MOMENT_ES = ['de la noche', 'de la madrugada', 'de la madrugada', 'de la madrugada', 'de la madrugada', 'de la madrugada', 'de la mañana', 'de la mañana', 'de la mañana', 'de la mañana', 'de la mañana', 'de la mañana', 'del mediodía', 'de la tarde', 'de la tarde', 'de la tarde', 'de la tarde', 'de la tarde', 'de la tarde', 'de la noche', 'de la noche', 'de la noche', 'de la noche', 'de la noche'];
+  function es12str(h24, m) { return Core.to12(h24).h12 + ':' + pad2(m) + ' ' + MOMENT_ES[h24]; }
+  function esGivenStr(round) { return round.dir === '12to24' ? es12str(round.h24, round.m) : Core.to24str(round.h24, round.m); }
+  function esOptionStr(round, oh) { return round.dir === '12to24' ? Core.to24str(oh, round.m) : es12str(oh, round.m); }
+  function givenStr(round) { return LANG === 'de' ? deGivenStr(round) : LANG === 'fr' ? frGivenStr(round) : LANG === 'es' ? esGivenStr(round) : Core.givenStr(round); }
+  function optionStr(round, oh) { return LANG === 'de' ? deOptionStr(round, oh) : LANG === 'fr' ? frOptionStr(round, oh) : LANG === 'es' ? esOptionStr(round, oh) : Core.optionStr(round, oh); }
 
   function sprocketSVG() {
     /* Sprocket — a rooster (red comb + wattle, orange beak), the time mascot */
@@ -72,8 +85,8 @@
   var ClockConvertActivity = {
     id: 'clock-convert-activity',
     strings: {
-      title: { en: "Sprocket's Clock", de: 'Kikos Uhr', fr: 'L’horloge de Sprocket' },
-      instruction: { en: 'Read the time, then tap the same time in the other way of writing it.', de: 'Lies die Uhrzeit. Tippe dann dieselbe Uhrzeit in der anderen Schreibweise an.', fr: 'Lis l’heure, puis touche la même heure écrite d’une autre façon.' },
+      title: { en: "Sprocket's Clock", de: 'Kikos Uhr', fr: 'L’horloge de Sprocket', es: 'El reloj de Quico' },
+      instruction: { en: 'Read the time, then tap the same time in the other way of writing it.', de: 'Lies die Uhrzeit. Tippe dann dieselbe Uhrzeit in der anderen Schreibweise an.', fr: 'Lis l’heure, puis touche la même heure écrite d’une autre façon.', es: 'Lee la hora y luego toca la misma hora escrita de la otra forma.' },
       q: { en: '{q}' }
     },
 
@@ -220,6 +233,8 @@
         ? '<p>Die Uhrzeit ist ' + givenStr(round) + '. ' + promptFor(round) + ' Zur Auswahl: ' + cs + '.</p>'
         : LANG === 'fr'
         ? '<p>L’heure est ' + givenStr(round) + '. ' + promptFor(round) + ' Choix : ' + cs + '.</p>'
+        : LANG === 'es'
+        ? '<p>La hora es ' + givenStr(round) + '. ' + promptFor(round) + ' Las opciones son: ' + cs + '.</p>'
         : '<p>The time is ' + givenStr(round) + '. ' + promptFor(round) + ' The choices are: ' + cs + '.</p>';
       return wrap;
     },

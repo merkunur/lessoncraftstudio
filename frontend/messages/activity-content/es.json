@@ -4034,6 +4034,29 @@
         "Compara fracciones usando barras",
         "Se prepara para comparar y sumar fracciones"
       ]
+    },
+    "domino-two-part.two-syllable.rf-1-3-e": {
+      "about": [
+        "Pancho el pingüino lee las palabras por partes. Su hijo/a ve una palabra dividida en sílabas —por ejemplo, «ga·to»— une las dos sílabas y toca el dibujo del gato.",
+        "La actividad practica leer palabras de dos sílabas juntando las partes: ga·to, ca·sa, me·sa. Leer por sílabas es el camino que usan los niños en México para aprender a leer (el método silábico).",
+        "Corresponde al eje «Lectura». Es gratis y sin presiones: sin cronómetro, sin puntaje, sin perder; su hijo/a lee con calma con Pancho."
+      ],
+      "practices": [
+        "Leer palabras dividiéndolas en sílabas",
+        "Juntar las sílabas para formar la palabra",
+        "Leer palabras de dos sílabas",
+        "Relacionar la palabra escrita con su dibujo"
+      ],
+      "howToPlay": [
+        "Lee la primera sílaba, luego la segunda",
+        "Junta las dos sílabas",
+        "Toca el dibujo que le corresponde"
+      ],
+      "learningGoals": [
+        "Su hijo/a lee palabras por sílabas",
+        "Junta las sílabas para leer la palabra completa",
+        "Avanza hacia la lectura fluida"
+      ]
     }
   }
 }

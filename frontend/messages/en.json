@@ -4004,7 +4004,9 @@
       "results": "{count} worksheets",
       "showAllThemes": "Show all themes",
       "sortVariety": "Variety",
-      "topicLinksHeading": "Browse by exercise type"
+      "topicLinksHeading": "Browse by exercise type",
+      "browseByTheme": "Browse by theme",
+      "browseByLevel": "Browse by level"
     }
   },
   "standardsPage": {

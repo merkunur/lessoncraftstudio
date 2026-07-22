@@ -2477,7 +2477,9 @@
       "results": "{count} werkbladen",
       "showAllThemes": "Alle thema's tonen",
       "sortVariety": "Variatie",
-      "topicLinksHeading": "Bladeren op oefentype"
+      "topicLinksHeading": "Bladeren op oefentype",
+      "browseByTheme": "Bladeren op thema",
+      "browseByLevel": "Bladeren op niveau"
     }
   },
   "standardsPage": {

@@ -473,11 +473,33 @@ export default async function WorksheetLandingPage(
 
   const SHADOW = 'shadow-[0_2px_8px_rgba(20,30,28,0.08),_0_24px_56px_rgba(20,30,28,0.12)]';
 
+  // Lever B (2026-07-22) — related-worksheets ItemList JSON-LD (parity with the
+  // static render-landing-html.js live surface). Nudges the landing's schema
+  // shape toward the CollectionPage/ItemList aggregation the topic pages emit,
+  // built from the same visible links the page renders (carousel + mesh), deduped.
+  const mesh = getRelatedLandings(locale, l);
+  const _relSeen = new Set<string>();
+  const _relItems: Array<{ '@type': 'ListItem'; position: number; name: string; url: string }> = [];
+  const _pushRel = (slug: string, name: string) => {
+    if (!slug || _relSeen.has(slug)) return;
+    _relSeen.add(slug);
+    _relItems.push({ '@type': 'ListItem', position: _relItems.length + 1, name, url: canonicalUrl(localePath(locale, 'worksheets', slug)) });
+  };
+  // Mirror ONLY the visibly-rendered related links (carousel = same-(type,mode);
+  // mesh columns = sameTheme + sameLevel) so the ItemList matches on-page content.
+  for (const c of l.carousel) _pushRel(c.href, c.label);
+  for (const m of [...mesh.sameTheme, ...mesh.sameLevel]) _pushRel(m.slug, m.h1);
+  const relatedItemList = _relItems.length >= 2 ? {
+    '@context': 'https://schema.org', '@type': 'ItemList', name: ui.moreToTry,
+    numberOfItems: _relItems.length, itemListElement: _relItems,
+  } : null;
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(learningResource) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       {quizSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(quizSchema) }} />}
+      {relatedItemList && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(relatedItemList) }} />}
 
       <main className="bg-cream-50 min-h-screen">
         <div className="container mx-auto px-4 max-w-6xl py-8 md:py-12">
@@ -612,7 +634,6 @@ export default async function WorksheetLandingPage(
               neighbor-window in landing-content.ts) so links never churn across ISR revalidations.
               Each group self-skips when empty — never a bare heading. */}
           {(() => {
-            const mesh = getRelatedLandings(locale, l);
             if (mesh.sameTheme.length === 0 && mesh.sameLevel.length === 0) return null;
             const linkCls = 'block text-[15px] text-teal-800 hover:text-ink-900 hover:underline leading-snug py-1';
             return (

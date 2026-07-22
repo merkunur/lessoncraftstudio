@@ -321,6 +321,28 @@ export default async function AllWorksheetsPage({
     { value: 'za', label: tSort('alphaDesc') },
   ];
 
+  // ---- Lever A (2026-07-22): complete crawlable facet directory. The filter
+  // sidebar gates themes behind a JS "show all" and its links depend on filter
+  // state; this always-rendered <a> directory links EVERY theme + level to its
+  // filtered hub view (`?theme=X` / `?level=Y`) so every facet — and thus every
+  // landing, ≤2 hops from this home/footer/nav-linked hub — is shallow-crawlable.
+  // The /worksheets analog of a topic hub's cross-axis fan-out. Additive links
+  // only; canonical stays the bare hub, no metadata change (§21.5a-safe). ----
+  const dirThemes = (() => {
+    const m = new Map<string, number>();
+    for (const l of allLandings) if (l.coordinate.theme) m.set(l.coordinate.theme, (m.get(l.coordinate.theme) || 0) + 1);
+    return [...m.entries()].sort(
+      (a, b) => b[1] - a[1] || themeLabel(a[0], locale).localeCompare(themeLabel(b[0], locale), locale),
+    );
+  })();
+  const dirLevels = (() => {
+    const m = new Map<string, number>();
+    for (const l of allLandings) m.set(l.coordinate.level, (m.get(l.coordinate.level) || 0) + 1);
+    return [...m.entries()].sort((a, b) => levelOrder(a[0]) - levelOrder(b[0]));
+  })();
+  const facetHref = (key: string, value: string) =>
+    buildFilterUrl(basePath, withParam(new URLSearchParams(), key, value));
+
   // ---- structured data (R13): CollectionPage + ItemList + BreadcrumbList. ----
   const canonical = canonicalUrl(localePath(locale, 'worksheets'));
   const collectionSchema: Record<string, unknown> = {
@@ -467,6 +489,47 @@ export default async function AllWorksheetsPage({
                     className="inline-flex items-center px-3 py-1.5 rounded-full border border-lcs-teal/20 bg-white/60 text-sm font-lcsBody font-semibold text-lcs-teal hover:border-lcs-coral hover:text-lcs-coral-deep transition-colors"
                   >
                     {tile.typeName}
+                  </a>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {/* Browse by theme — complete crawlable directory (Lever A). Every
+              theme links to its filtered hub view; plain <a>, no images/prefetch. */}
+          {allLandings.length > 0 && dirThemes.length > 0 && (
+            <section className="mt-10 md:mt-12" aria-labelledby="theme-dir-heading">
+              <h2 id="theme-dir-heading" className="font-lcsDisplay font-bold text-xl md:text-2xl text-lcs-teal mb-4">
+                {tBrowse('browseByTheme')}
+              </h2>
+              <div className="flex flex-wrap gap-2">
+                {dirThemes.map(([value]) => (
+                  <a
+                    key={value}
+                    href={facetHref('theme', value)}
+                    className="inline-flex items-center px-3 py-1.5 rounded-full border border-lcs-teal/20 bg-white/60 text-sm font-lcsBody font-semibold text-lcs-teal hover:border-lcs-coral hover:text-lcs-coral-deep transition-colors"
+                  >
+                    {themeLabel(value, locale)}
+                  </a>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {/* Browse by level — complete crawlable directory (Lever A). */}
+          {allLandings.length > 0 && dirLevels.length > 0 && (
+            <section className="mt-8" aria-labelledby="level-dir-heading">
+              <h2 id="level-dir-heading" className="font-lcsDisplay font-bold text-xl md:text-2xl text-lcs-teal mb-4">
+                {tBrowse('browseByLevel')}
+              </h2>
+              <div className="flex flex-wrap gap-2">
+                {dirLevels.map(([value]) => (
+                  <a
+                    key={value}
+                    href={facetHref('level', value)}
+                    className="inline-flex items-center px-3 py-1.5 rounded-full border border-lcs-teal/20 bg-white/60 text-sm font-lcsBody font-semibold text-lcs-teal hover:border-lcs-coral hover:text-lcs-coral-deep transition-colors"
+                  >
+                    {levelChip(value, locale)}
                   </a>
                 ))}
               </div>

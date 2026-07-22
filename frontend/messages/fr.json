@@ -2497,7 +2497,9 @@
       "results": "{count} fiches",
       "showAllThemes": "Afficher tous les thèmes",
       "sortVariety": "Variété",
-      "topicLinksHeading": "Parcourir par type d'exercice"
+      "topicLinksHeading": "Parcourir par type d'exercice",
+      "browseByTheme": "Parcourir par thème",
+      "browseByLevel": "Parcourir par niveau"
     }
   },
   "standardsPage": {

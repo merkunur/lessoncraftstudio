@@ -2477,7 +2477,9 @@
       "results": "{count} arbetsblad",
       "showAllThemes": "Visa alla teman",
       "sortVariety": "Variation",
-      "topicLinksHeading": "Bläddra efter övningstyp"
+      "topicLinksHeading": "Bläddra efter övningstyp",
+      "browseByTheme": "Bläddra efter tema",
+      "browseByLevel": "Bläddra efter nivå"
     }
   },
   "standardsPage": {

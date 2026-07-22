@@ -2466,7 +2466,9 @@
       "results": "{count} tehtävää",
       "showAllThemes": "Näytä kaikki aiheet",
       "sortVariety": "Vaihtelu",
-      "topicLinksHeading": "Selaa tehtävätyypin mukaan"
+      "topicLinksHeading": "Selaa tehtävätyypin mukaan",
+      "browseByTheme": "Selaa aiheen mukaan",
+      "browseByLevel": "Selaa tason mukaan"
     }
   },
   "standardsPage": {

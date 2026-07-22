@@ -29,7 +29,8 @@ import {
   topicLastModified,
 } from '@/lib/topic-decks';
 import { topicOgImage } from '@/lib/seo/topic-og-image';
-import { landingSlugForDeck, canonicalDeckAssets } from '@/lib/seo/landing-content';
+import { landingSlugForDeck, canonicalDeckAssets, getLandingsByType, getLandingsByTheme, getLandingsByLevel } from '@/lib/seo/landing-content';
+import TopicLandingLinks from '@/components/topic/TopicLandingLinks';
 import { buildDeckThumbAlt } from '@/lib/seo/deck-vocab';
 import {
   isSeasonalHubUpgraded,
@@ -684,6 +685,17 @@ export default async function TopicPage({
   ];
   const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbTrail);
 
+  // Crawl-channeling (2026-07-22): single-axis topic hubs are crawled ~2.3k×/14d but linked almost
+  // only /decks/ (measured 5 landings vs 126 deck URLs), so Googlebot's topic crawl never reached the
+  // landing tier. Feed it in by listing THIS axis's worksheets landings as plain anchors — the 2-seg
+  // topic pages already do this (TopicLandingLinks). type/theme keys are canonical across locales;
+  // educational-level is locale-derived so byLevel may be empty on non-en → the block self-hides.
+  const axisLandings: { slug: string; h1: string }[] = (
+    axis === 'exercise-type' ? getLandingsByType(locale, axisKey)
+      : axis === 'theme' ? getLandingsByTheme(locale, axisKey)
+        : getLandingsByLevel(locale, axisKey)
+  ).slice(0, 80).map((l) => ({ slug: l.slug, h1: l.h1 }));
+
   return (
     <>
       <script
@@ -883,6 +895,7 @@ export default async function TopicPage({
           currentLocale={locale}
           topicName={topicName}
         />
+        <TopicLandingLinks locale={locale} landings={axisLandings} />
       </main>
     </>
   );

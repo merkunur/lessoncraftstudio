@@ -194,6 +194,19 @@ function extractWordBank(manifest, type) {
 
 function extractSampleProblems(manifest, type) {
   const out = [];
+  if (type === 'math-worksheet') {
+    // ex.equations[].expr uses A/B symbols mapped by ex.values; substitute → real numbers, drop result.
+    for (const ex of manifest.exercises || []) {
+      const vals = (ex && ex.values) || {};
+      for (const eq of (ex && ex.equations) || []) {
+        if (eq && typeof eq.expr === 'string') {
+          const e = eq.expr.replace(/[A-Z]/g, (s) => (vals[s] != null ? vals[s] : s));
+          out.push(e.replace(/\s+/g, ' ').trim() + ' = ?');
+        }
+      }
+    }
+    return uniq(out).slice(0, 6);
+  }
   if (type === 'math-puzzle') {
     // ex.operations[].text is the printed equation ("6 - 4"); .solution is the answer → NEVER emitted.
     for (const ex of manifest.exercises || []) {
@@ -283,7 +296,7 @@ function bundleFallback(locale, l) {
 
   if (type === 'sudoku' && Array.isArray(b.uniqueImageKeys)) {
     const nouns = uniq(b.uniqueImageKeys.map((k) => vocabNoun(k, locale)).filter(Boolean));
-    if (nouns.length >= 3) out.imageNouns = nouns;
+    if (nouns.length >= 2) out.imageNouns = nouns;
   }
   if ((type === 'find-objects' || type === 'picture-trail') && b.legend && Array.isArray(b.legend.items)) {
     // find-objects legend carries imgPath; picture-trail carries vocabKey (the correctCount stays hidden).
@@ -303,7 +316,7 @@ function bundleFallback(locale, l) {
       const base = (String(k).split('/').pop() || '').replace(/-\d{10,}-[0-9a-z]{6,}$/i, '');
       return vocabNoun(base, locale) || (locale === 'en' ? nounFromFilename(base + '.webp') : null);
     }).filter(Boolean));
-    if (nouns.length >= 3) out.imageNouns = nouns;
+    if (nouns.length >= 2) out.imageNouns = nouns;
   }
   if (type === 'crossword' && Array.isArray(b.words) && b.words.length) {
     stats.words = b.words.length; // count only — the words ARE the answers
@@ -327,7 +340,7 @@ function augmentForLanding(locale, l) {
       if (NOUN_TYPES.has(type)) {
         const nouns = extractNouns(manifest, locale);
         // Don't duplicate: nouns only when materially different from the bank.
-        if (nouns.length >= 3 && (!out.realWords || nouns.join() !== out.realWords.join())) out.imageNouns = nouns;
+        if (nouns.length >= 2 && (!out.realWords || nouns.join() !== out.realWords.join())) out.imageNouns = nouns;
       }
     }
     if (MATH_TYPES.has(type)) {
@@ -335,7 +348,7 @@ function augmentForLanding(locale, l) {
       if (probs.length >= 2) out.sampleProblems = probs;
       // Math sheets show picture nouns too (the counting objects).
       const nouns = extractNouns(manifest);
-      if (nouns.length >= 3) out.imageNouns = nouns;
+      if (nouns.length >= 2) out.imageNouns = nouns;
     }
     const stats = {};
     if (Array.isArray(manifest.exercises) && manifest.exercises.length) stats.problems = manifest.exercises.length;

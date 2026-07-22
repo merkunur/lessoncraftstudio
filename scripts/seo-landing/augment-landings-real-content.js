@@ -61,9 +61,6 @@ const NOUN_TYPES = new Set([
   'pattern-worksheet', 'more-less', 'big-small', 'odd-one-out', 'shadow-match',
   'grid-match', 'bingo', 'chart-count', 'missing-pieces', 'find-objects',
   'treasure-hunt', 'sudoku', 'picture-trail', 'wordsearch', 'find-and-count',
-  // word-guess/word-scramble: the PICTURE noun is visible on the sheet and safe to show; only the
-  // solution WORD (ex.words / ex.scrambledWords) is answer-bearing and stays hidden (not read here).
-  'word-guess', 'word-scramble',
 ]);
 
 // Math types → sample problems WITHOUT results.
@@ -72,8 +69,9 @@ const MATH_TYPES = new Set(['addition', 'subtraction', 'code-addition', 'math-pu
 // Types whose word/phrase content IS the answer → never emit words/nouns.
 // crossword: the picture-clue name ("Sega a mano") IS the answer word ("SEGAAMANO") → fully hidden,
 // only word-COUNT/grid stats via bundleFallback. cryptogram: the decoded phrase is the answer.
-// (word-guess/word-scramble were here but their PICTURE is safe — moved to NOUN_TYPES; words stay hidden.)
-const HIDE_WORD_TYPES = new Set(['cryptogram', 'crossword']);
+// word-guess/word-scramble: the pictured object's NAME is exactly the word the child must produce
+// (words[0] === image.name), so the picture noun IS the answer → keep fully hidden (§17.8.9).
+const HIDE_WORD_TYPES = new Set(['cryptogram', 'crossword', 'word-guess', 'word-scramble']);
 
 /* ------------------------------- helpers ------------------------------- */
 

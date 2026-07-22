@@ -8,7 +8,8 @@ import {
   TOPIC_ENABLED_LOCALES,
   TopicEnabledLocale,
 } from "@/config/topic-locales";
-import { listAllActivities } from "@/lib/activities";
+import { listAllActivities, type ActivityRow } from "@/lib/activities";
+import Link from "next/link";
 import BreadcrumbTrail from "@/components/breadcrumbs/BreadcrumbTrail";
 import { CANONICAL_HOST, canonicalUrl, localePath } from "@/lib/seo/url";
 import { getHreflangCode } from "@/lib/schema-generator";
@@ -107,6 +108,8 @@ interface LandingStrings {
   emptyTitle: string;
   emptyBody: string;
   resultsWord: string; // plural noun; rendered as "{count} {resultsWord}"
+  directoryHeading: string; // crawlable full-index section heading
+  directoryIntro: string; // one-line intro under the directory heading
 }
 
 const LANDING_STRINGS: Record<string, LandingStrings> = {
@@ -128,6 +131,8 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     emptyTitle: "No activities match",
     emptyBody: "Try removing a filter to see more activities.",
     resultsWord: "activities",
+    directoryHeading: "All K-3 activities",
+    directoryIntro: "Every activity, grouped by grade and skill — jump straight to any one.",
   },
   de: {
     pageTitle: "Kostenlose Lernaufgaben für die Klassen K-3",
@@ -147,6 +152,8 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     emptyTitle: "Keine Aufgaben gefunden",
     emptyBody: "Entferne einen Filter, um mehr Aufgaben zu sehen.",
     resultsWord: "Aufgaben",
+    directoryHeading: "Alle Lernaufgaben (K-3)",
+    directoryIntro: "Alle Aufgaben nach Klasse und Lernbereich geordnet — direkt zu jeder springen.",
   },
   es: {
     pageTitle: "Actividades de aprendizaje gratuitas para Infantil y Primaria (K-3)",
@@ -166,6 +173,8 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     emptyTitle: "No hay actividades",
     emptyBody: "Prueba a quitar un filtro para ver más actividades.",
     resultsWord: "actividades",
+    directoryHeading: "Todas las actividades (K-3)",
+    directoryIntro: "Todas las actividades por grado y área — ve directamente a cualquiera.",
   },
   fr: {
     pageTitle: "Activités d'apprentissage gratuites (maternelle au CE1)",
@@ -185,6 +194,8 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     emptyTitle: "Aucune activité",
     emptyBody: "Essaie d'enlever un filtre pour voir plus d'activités.",
     resultsWord: "activités",
+    directoryHeading: "Toutes les activités (K-3)",
+    directoryIntro: "Toutes les activités par niveau et domaine — accède directement à chacune.",
   },
   it: {
     pageTitle: "Attività di apprendimento gratuite (scuola dell'infanzia e primaria)",
@@ -204,6 +215,8 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     emptyTitle: "Nessuna attività",
     emptyBody: "Prova a togliere un filtro per vedere più attività.",
     resultsWord: "attività",
+    directoryHeading: "Tutte le attività (K-3)",
+    directoryIntro: "Tutte le attività per classe e ambito — vai direttamente a ciascuna.",
   },
   pt: {
     pageTitle: "Atividades de aprendizagem gratuitas (educação infantil e anos iniciais)",
@@ -223,6 +236,8 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     emptyTitle: "Nenhuma atividade",
     emptyBody: "Tente remover um filtro para ver mais atividades.",
     resultsWord: "atividades",
+    directoryHeading: "Todas as atividades (K-3)",
+    directoryIntro: "Todas as atividades por série e habilidade — vá direto para qualquer uma.",
   },
   nl: {
     pageTitle: "Gratis leeractiviteiten voor kleuters t/m groep 5",
@@ -242,6 +257,8 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     emptyTitle: "Geen activiteiten",
     emptyBody: "Verwijder een filter om meer activiteiten te zien.",
     resultsWord: "activiteiten",
+    directoryHeading: "Alle activiteiten (K-3)",
+    directoryIntro: "Alle activiteiten per groep en leergebied — ga direct naar elke activiteit.",
   },
   sv: {
     pageTitle: "Gratis lärandeaktiviteter för förskoleklass till åk 2",
@@ -261,6 +278,8 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     emptyTitle: "Inga aktiviteter",
     emptyBody: "Ta bort ett filter för att se fler aktiviteter.",
     resultsWord: "aktiviteter",
+    directoryHeading: "Alla aktiviteter (K-3)",
+    directoryIntro: "Alla aktiviteter efter årskurs och område — gå direkt till vilken som helst.",
   },
   da: {
     pageTitle: "Gratis læringsaktiviteter for børnehaveklasse til 2. klasse",
@@ -280,6 +299,8 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     emptyTitle: "Ingen aktiviteter",
     emptyBody: "Fjern et filter for at se flere aktiviteter.",
     resultsWord: "aktiviteter",
+    directoryHeading: "Alle aktiviteter (K-3)",
+    directoryIntro: "Alle aktiviteter efter klasse og område — gå direkte til hver enkelt.",
   },
   no: {
     pageTitle: "Gratis læringsaktiviteter for barnehage til 2. trinn",
@@ -299,6 +320,8 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     emptyTitle: "Ingen aktiviteter",
     emptyBody: "Fjern et filter for å se flere aktiviteter.",
     resultsWord: "aktiviteter",
+    directoryHeading: "Alle aktiviteter (K-3)",
+    directoryIntro: "Alle aktiviteter etter trinn og område — gå rett til hver enkelt.",
   },
   fi: {
     pageTitle: "Ilmaisia oppimistehtäviä esiopetuksesta 2. luokalle",
@@ -318,6 +341,8 @@ const LANDING_STRINGS: Record<string, LandingStrings> = {
     emptyTitle: "Ei tehtäviä",
     emptyBody: "Poista jokin suodatin nähdäksesi lisää tehtäviä.",
     resultsWord: "tehtävää",
+    directoryHeading: "Kaikki tehtävät (K-3)",
+    directoryIntro: "Kaikki tehtävät luokan ja taitoalueen mukaan — siirry suoraan mihin tahansa.",
   },
 };
 
@@ -527,6 +552,46 @@ export default async function ActivitiesIndexPage({ params, searchParams }: Page
     { value: "za", label: "Z–A" },
   ];
 
+  // ── Crawlable directory ───────────────────────────────────────────────────
+  // Always-rendered full index of EVERY in-locale activity, grouped
+  // grade-band → skill area, independent of the paginated/filtered grid above.
+  // Additive SEO surface: de-orphans the deep catalog (the grid paginates at
+  // ACTIVITY_PAGE_SIZE, burying most activities 2–3 clicks deep) so each
+  // activity is one crawlable click from this page + gives teachers a scan list.
+  const directory: {
+    grade: string;
+    gradeLabel: string;
+    strands: { key: string; label: string; items: { href: string; title: string }[] }[];
+  }[] = [];
+  {
+    const byGrade = new Map<string, Map<string, ActivityRow[]>>();
+    for (const r of all) {
+      const g = r.alignment.grade;
+      const sk = strandKey(r.alignment.strand);
+      if (!byGrade.has(g)) byGrade.set(g, new Map());
+      const gm = byGrade.get(g)!;
+      if (!gm.has(sk)) gm.set(sk, []);
+      gm.get(sk)!.push(r);
+    }
+    for (const g of GRADE_ORDER) {
+      const gm = byGrade.get(g);
+      if (!gm) continue;
+      const strands = [...gm.keys()]
+        .sort((a, b) => (SKILL_ORDER[a] ?? 99) - (SKILL_ORDER[b] ?? 99))
+        .map((sk) => {
+          const rows = gm.get(sk)!;
+          const items = rows
+            .map((r) => ({
+              href: localePath(locale, "activities", r.slug[locale]),
+              title: shortTitle(r.page_title[locale]),
+            }))
+            .sort((a, b) => a.title.localeCompare(b.title, locale));
+          return { key: sk, label: localizeStrand(rows[0].alignment.strand, locale), items };
+        });
+      directory.push({ grade: g, gradeLabel: gradeName(g), strands });
+    }
+  }
+
   return (
     <main
       className={`${baloo2.variable} ${nunito.variable} font-lcsBody bg-lcs-cream min-h-[calc(100vh-200px)] py-6 px-3 md:py-10 md:px-6`}
@@ -611,6 +676,56 @@ export default async function ActivitiesIndexPage({ params, searchParams }: Page
             />
           </div>
         </div>
+
+        {directory.length > 0 && (
+          <section
+            aria-labelledby="lcs-activity-directory-heading"
+            className="mt-12 md:mt-16 border-t border-lcs-teal/15 pt-8 md:pt-10"
+          >
+            <h2
+              id="lcs-activity-directory-heading"
+              className="font-lcsDisplay font-extrabold text-2xl md:text-3xl text-lcs-teal mb-2"
+            >
+              {strings.directoryHeading}
+            </h2>
+            <p className="font-lcsBody text-sm md:text-base text-lcs-teal/70 mb-6 max-w-3xl">
+              {strings.directoryIntro}
+            </p>
+            <div className="space-y-8">
+              {directory.map((grp) => (
+                <div key={grp.grade}>
+                  <h3 className="font-lcsDisplay font-bold text-lg md:text-xl text-lcs-coral mb-3">
+                    {grp.gradeLabel}
+                  </h3>
+                  <div className="space-y-4">
+                    {grp.strands.map((st) => (
+                      <div
+                        key={st.key}
+                        className="sm:grid sm:grid-cols-[minmax(0,11rem)_1fr] sm:gap-4"
+                      >
+                        <p className="font-lcsBody font-semibold text-sm text-lcs-teal/80 mb-1.5 sm:mb-0 sm:pt-0.5">
+                          {st.label}
+                        </p>
+                        <ul className="flex flex-wrap gap-x-4 gap-y-1.5">
+                          {st.items.map((it) => (
+                            <li key={it.href}>
+                              <Link
+                                href={it.href}
+                                className="font-lcsBody text-sm text-lcs-teal/90 underline decoration-lcs-teal/25 underline-offset-2 hover:text-lcs-coral hover:decoration-lcs-coral transition-colors"
+                              >
+                                {it.title}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
       </div>
     </main>
   );

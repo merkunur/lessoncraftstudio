@@ -140,6 +140,82 @@ const LANDING_LEVEL_TO_AXIS = {
   fi: { esikoulu: 'kindergarten', '1-luokka': 'grade-1', '2-luokka': 'grade-2', '3-luokka': 'grade-3' },
 };
 
+// ── Activity index for the "Interactive activities to try" strip (2026-07-22) ──
+// Additive internal links from the 30k indexed landings INTO the crawl-starved
+// activity tier (whose pages were "Crawled – currently not indexed", linked
+// mostly from other unindexed activities). Load the SAME manifest set the Next
+// route serves (MANIFEST_FILES in frontend/lib/activities.ts) so we never link
+// an activity that would 404; fall back to every mini-tools/*-activities.json if
+// that list can't be parsed. Index by CCSS code + strand. Loaded once.
+const ACT_BY_CODE = {};
+const ACT_BY_STRAND = {};
+(function loadActivityIndex() {
+  const dir = path.join(ROOT, 'mini tools');
+  let files = null;
+  try {
+    const src = fs.readFileSync(path.join(ROOT, 'frontend', 'lib', 'activities.ts'), 'utf8');
+    const m = src.match(/const MANIFEST_FILES\s*=\s*\[([\s\S]*?)\]/);
+    if (m) files = [...m[1].matchAll(/'([^']+\.json)'/g)].map((x) => x[1]);
+  } catch { /* fall through */ }
+  if (!files) {
+    try { files = fs.readdirSync(dir).filter((f) => f.endsWith('-activities.json')); }
+    catch { return; }
+  }
+  for (const f of files) {
+    let arr;
+    try {
+      const j = JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'));
+      arr = Array.isArray(j) ? j : (j.activities || j.rows || []);
+    } catch { continue; }
+    for (const r of arr) {
+      if (!r || !r.alignment || !r.slug || !r.page_title) continue;
+      if (r.alignment.code) { if (!ACT_BY_CODE[r.alignment.code]) ACT_BY_CODE[r.alignment.code] = []; ACT_BY_CODE[r.alignment.code].push(r); }
+      if (r.alignment.strand) { if (!ACT_BY_STRAND[r.alignment.strand]) ACT_BY_STRAND[r.alignment.strand] = []; ACT_BY_STRAND[r.alignment.strand].push(r); }
+    }
+  }
+})();
+
+const AXIS_TO_GRADE = { preschool: 'PK', kindergarten: 'K', 'grade-1': '1', 'grade-2': '2', 'grade-3': '3' };
+function landingGrade(locale, l) {
+  const m = LANDING_LEVEL_TO_AXIS[locale];
+  const axisKey = m && m[l.coordinate.level];
+  return axisKey ? (AXIS_TO_GRADE[axisKey] || null) : null;
+}
+function _hashStr(s) { let h = 0; for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0; return h; }
+const REL_ACT_HEADING = {
+  en: 'Interactive activities to try', de: 'Interaktive Übungen zum Ausprobieren',
+  es: 'Actividades interactivas para probar', fr: 'Activités interactives à essayer',
+  it: 'Attività interattive da provare', pt: 'Atividades interativas para experimentar',
+  nl: 'Interactieve activiteiten om te proberen', sv: 'Interaktiva aktiviteter att prova',
+  da: 'Interaktive aktiviteter at prøve', no: 'Interaktive aktiviteter å prøve',
+  fi: 'Kokeile interaktiivisia tehtäviä',
+};
+// ≤4 activities relevant to this landing: exact CCSS code first, then
+// strand+grade. The chosen subset is varied by a slug-hash so different landings
+// surface different activities (spreads internal-link equity across the pool,
+// so more activity pages accrue links). Deterministic (no Date/random).
+function relatedActivitiesFor(locale, l) {
+  const seen = new Set();
+  const picks = [];
+  const grade = landingGrade(locale, l);
+  const take = (pool, seed) => {
+    const cand = (pool || []).filter((a) => a.slug[locale] && a.page_title[locale] && !seen.has(a.id));
+    if (!cand.length) return;
+    const off = _hashStr(l.slug + seed) % cand.length;
+    for (let k = 0; k < cand.length && picks.length < 4; k++) {
+      const a = cand[(off + k) % cand.length];
+      if (!seen.has(a.id)) { seen.add(a.id); picks.push(a); }
+    }
+  };
+  if (l.standard && ACT_BY_CODE[l.standard]) take(ACT_BY_CODE[l.standard], 'c');
+  if (picks.length < 4 && l.strand && ACT_BY_STRAND[l.strand]) {
+    let pool = ACT_BY_STRAND[l.strand];
+    if (grade) pool = pool.filter((a) => a.alignment.grade === grade);
+    take(pool, 's');
+  }
+  return picks;
+}
+
 function subjectHubFor(locale, l) {
   if (l.coordinate.target) return null; // cross-language landings stay in the learn graph
   const subjectKey = TYPE_TO_SUBJECT[l.coordinate.type];
@@ -1019,6 +1095,21 @@ ${meshCol(ui.sameThemeHeading, mesh.sameTheme)}
 ${meshCol(ui.sameLevelHeading, mesh.sameLevel)}
 </section>`;
 
+  // Related interactive activities — additive internal links into the activity
+  // tier (visible <a> only; NO head/canonical/JSON-LD change). Excludes
+  // cross-language ("Learn X") landings; self-skips below 2 matches. Reuses the
+  // existing .mesh CSS for a single-column heading + link list.
+  const relActs = xlang ? [] : relatedActivitiesFor(locale, l);
+  const relatedActivitiesHtml = relActs.length < 2 ? '' : `
+<section class="mesh">
+  <div>
+    <h2>${esc(REL_ACT_HEADING[locale] || REL_ACT_HEADING.en)}</h2>
+    <ul>
+${relActs.map((a) => `      <li><a href="${esc(localePath(locale, 'activities', a.slug[locale]))}">${esc(a.page_title[locale])}</a></li>`).join('\n')}
+    </ul>
+  </div>
+</section>`;
+
   /* Lever B (2026-07-22) — related-worksheets ItemList JSON-LD. Nudges the
      landing's schema shape toward the CollectionPage/ItemList aggregation the
      topic pages emit, so a single-deck wrapper also carries an "index of N
@@ -1147,6 +1238,7 @@ ${problemsHtml}
 ${versionsHtml}
 ${carouselHtml}
 ${meshHtml}
+${relatedActivitiesHtml}
 ${(() => {
     const hubs = [subjectHubFor(locale, l), seasonalHubFor(locale, l)].filter(Boolean);
     return hubs.map((hub) => `

@@ -356,6 +356,42 @@ export async function listRelatedActivities(
 }
 
 /**
+ * Grade-matched activities for an internal-link strip on grade/level hub pages
+ * (educational-level topic hubs, subject×grade hubs) that have no seed row.
+ *
+ * Filters to activities of the given CCSS grade (`PK`/`K`/`1`/`2`/`3`) that have
+ * a slug + title in `locale`, then round-robins across strands so the strip is
+ * engine-diverse (spreads internal-link equity across the activity pool rather
+ * than surfacing the same one strand). Fully deterministic (manifest order
+ * within each strand; no Date/random) so it is ISR-cache-stable.
+ */
+export async function listActivitiesByGrade(
+  grade: string,
+  locale: string,
+  limit = 8,
+): Promise<ActivityRow[]> {
+  const all = await loadActivities();
+  const candidates = all.filter(
+    (a) => a.alignment.grade === grade && a.slug[locale] && a.page_title[locale],
+  );
+  const byStrand = new Map<string, ActivityRow[]>();
+  for (const a of candidates) {
+    const k = a.alignment.strand || 'other';
+    if (!byStrand.has(k)) byStrand.set(k, []);
+    byStrand.get(k)!.push(a);
+  }
+  const pools = [...byStrand.values()];
+  const out: ActivityRow[] = [];
+  let i = 0;
+  while (out.length < limit && pools.some((p) => p.length)) {
+    const pool = pools[i % pools.length];
+    if (pool.length) out.push(pool.shift()!);
+    i++;
+  }
+  return out.slice(0, limit);
+}
+
+/**
  * The same activity in its other available languages — for the visible
  * "available in other languages" strip (makes the hreflang siblings
  * on-page, not just in <head>). Returns Next.js route paths (locale-prefixed,

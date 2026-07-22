@@ -967,7 +967,7 @@ ${aug.contentDate ? `  <p class="updated">${esc(au.updated(formatContentDate(loc
 </section>`;
 
     const chipWords = aug.realWords || aug.imageNouns || null;
-    if (chipWords && chipWords.length >= 3) {
+    if (chipWords && chipWords.length >= 2) {
       const heading = aug.realWords ? au.words(chipWords.length) : au.nouns;
       wordsHtml = `
 <section class="wordlist">

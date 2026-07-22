@@ -3798,7 +3798,9 @@
       "results": "{count} Arbeitsblätter",
       "showAllThemes": "Alle Themen anzeigen",
       "sortVariety": "Abwechslung",
-      "topicLinksHeading": "Nach Übungstyp stöbern"
+      "topicLinksHeading": "Nach Übungstyp stöbern",
+      "browseByTheme": "Nach Thema stöbern",
+      "browseByLevel": "Nach Stufe stöbern"
     }
   },
   "standardsPage": {

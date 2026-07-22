@@ -3983,7 +3983,9 @@
       "results": "{count} folhas de atividades",
       "showAllThemes": "Ver todos os temas",
       "sortVariety": "Variedade",
-      "topicLinksHeading": "Explorar por tipo de exercício"
+      "topicLinksHeading": "Explorar por tipo de exercício",
+      "browseByTheme": "Explorar por tema",
+      "browseByLevel": "Explorar por nível"
     }
   },
   "standardsPage": {

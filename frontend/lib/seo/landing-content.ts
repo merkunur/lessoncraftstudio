@@ -368,11 +368,13 @@ function collectIntersectionLandings(
  * Selection is a stable neighbor-window around the current landing inside
  * slug-sorted facet lists (NO randomness — links must not churn across ISR
  * revalidations, §16.2 ISR-cache-preserving discipline):
- *   - up to 4 same-type (prefer same-level) other-theme landings
- *   - up to 4 same-theme other-type landings
- *   - up to 2 same-level other-type/theme landings
- * Every landing therefore both emits and receives ~8-10 sibling links,
- * de-orphaning the landing tier independently of the topic hubs.
+ *   - up to 6 same-type (prefer same-level) other-theme landings
+ *   - up to 8 same-theme other-type landings
+ *   - up to 4 same-level other-type/theme landings
+ * Every landing therefore both emits and receives ~18 sibling links (Lever B,
+ * 2026-07-22 — densified from ~8-10 to turn each leaf into a mini-hub so crawl
+ * propagates laterally across the landing tier the way it does across the topic
+ * tier), de-orphaning the landing tier independently of the topic hubs.
  */
 export interface MeshGroups {
   sameType: Landing[];
@@ -406,17 +408,17 @@ export function getRelatedLandings(locale: string, self: Landing): MeshGroups {
   // same type: prefer the same level's slice of the type list, then the rest of the type
   const typeList = (fx.byType.get(self.coordinate.type) || []).filter(sameTier);
   const typeSameLevel = typeList.filter((l) => l.coordinate.level === self.coordinate.level);
-  let sameType = neighborWindow(typeSameLevel, self, 4, exclude);
-  if (sameType.length < 4) sameType = sameType.concat(neighborWindow(typeList, self, 4 - sameType.length, exclude));
+  let sameType = neighborWindow(typeSameLevel, self, 6, exclude);
+  if (sameType.length < 6) sameType = sameType.concat(neighborWindow(typeList, self, 6 - sameType.length, exclude));
   const sameTheme = neighborWindow(
     (fx.byTheme.get(self.coordinate.theme) || []).filter((l) => sameTier(l) && l.coordinate.type !== self.coordinate.type),
-    self, 4, exclude,
+    self, 8, exclude,
   );
   const sameLevel = neighborWindow(
     (fx.byLevel.get(self.coordinate.level) || []).filter(
       (l) => sameTier(l) && l.coordinate.type !== self.coordinate.type && l.coordinate.theme !== self.coordinate.theme,
     ),
-    self, 2, exclude,
+    self, 4, exclude,
   );
   return { sameType, sameTheme, sameLevel };
 }

@@ -3996,7 +3996,9 @@
       "results": "{count} hojas de trabajo",
       "showAllThemes": "Ver todos los temas",
       "sortVariety": "Variedad",
-      "topicLinksHeading": "Explorar por tipo de ejercicio"
+      "topicLinksHeading": "Explorar por tipo de ejercicio",
+      "browseByTheme": "Explorar por tema",
+      "browseByLevel": "Explorar por nivel"
     }
   },
   "standardsPage": {

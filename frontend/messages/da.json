@@ -2474,7 +2474,9 @@
       "results": "{count} arbejdsark",
       "showAllThemes": "Vis alle temaer",
       "sortVariety": "Variation",
-      "topicLinksHeading": "Gennemse efter opgavetype"
+      "topicLinksHeading": "Gennemse efter opgavetype",
+      "browseByTheme": "Gennemse efter tema",
+      "browseByLevel": "Gennemse efter niveau"
     }
   },
   "standardsPage": {

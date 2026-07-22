@@ -2481,7 +2481,9 @@
       "results": "{count} arbeidsark",
       "showAllThemes": "Vis alle temaer",
       "sortVariety": "Variasjon",
-      "topicLinksHeading": "Bla etter oppgavetype"
+      "topicLinksHeading": "Bla etter oppgavetype",
+      "browseByTheme": "Bla etter tema",
+      "browseByLevel": "Bla etter nivå"
     }
   },
   "standardsPage": {

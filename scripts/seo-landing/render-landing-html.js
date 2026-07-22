@@ -327,17 +327,17 @@ function getRelatedLandings(locale, self) {
   const sameTier = (l) => (l.coordinate.target || null) === selfTarget;
   const typeList = (fx.byType.get(self.coordinate.type) || []).filter(sameTier);
   const typeSameLevel = typeList.filter((l) => l.coordinate.level === self.coordinate.level);
-  let sameType = neighborWindow(typeSameLevel, self, 4, exclude);
-  if (sameType.length < 4) sameType = sameType.concat(neighborWindow(typeList, self, 4 - sameType.length, exclude));
+  let sameType = neighborWindow(typeSameLevel, self, 6, exclude);
+  if (sameType.length < 6) sameType = sameType.concat(neighborWindow(typeList, self, 6 - sameType.length, exclude));
   const sameTheme = neighborWindow(
     (fx.byTheme.get(self.coordinate.theme) || []).filter((l) => sameTier(l) && l.coordinate.type !== self.coordinate.type),
-    self, 4, exclude,
+    self, 8, exclude,
   );
   const sameLevel = neighborWindow(
     (fx.byLevel.get(self.coordinate.level) || []).filter(
       (l) => sameTier(l) && l.coordinate.type !== self.coordinate.type && l.coordinate.theme !== self.coordinate.theme,
     ),
-    self, 2, exclude,
+    self, 4, exclude,
   );
   return { sameType, sameTheme, sameLevel };
 }
@@ -1016,6 +1016,31 @@ ${meshCol(ui.sameThemeHeading, mesh.sameTheme)}
 ${meshCol(ui.sameLevelHeading, mesh.sameLevel)}
 </section>`;
 
+  /* Lever B (2026-07-22) — related-worksheets ItemList JSON-LD. Nudges the
+     landing's schema shape toward the CollectionPage/ItemList aggregation the
+     topic pages emit, so a single-deck wrapper also carries an "index of N
+     related worksheets" signal. Built from the same visible links the page
+     already renders (carousel same-(type,mode) + mesh sameType/sameTheme/
+     sameLevel), deduped; SEO-neutral if empty. */
+  const _relSeen = new Set();
+  const _relItems = [];
+  const _pushRel = (slug, name) => {
+    if (!slug || _relSeen.has(slug)) return;
+    _relSeen.add(slug);
+    _relItems.push({
+      '@type': 'ListItem', position: _relItems.length + 1, name,
+      url: canonicalUrl(localePath(locale, 'worksheets', slug)),
+    });
+  };
+  // Mirror ONLY the visibly-rendered related links (carousel = same-(type,mode);
+  // mesh columns = sameTheme + sameLevel) so the ItemList matches on-page content.
+  for (const c of (l.carousel || [])) _pushRel(c.href, c.label);
+  for (const m of [...mesh.sameTheme, ...mesh.sameLevel]) _pushRel(m.slug, m.h1);
+  const relatedItemList = _relItems.length >= 2 ? {
+    '@context': 'https://schema.org', '@type': 'ItemList',
+    name: ui.moreToTry, numberOfItems: _relItems.length, itemListElement: _relItems,
+  } : null;
+
   const makerHtml = xlang ? '' : (maker ? `
 <section class="maker">
   <a class="maker-card" href="${esc(localePath(locale, 'tools', maker.slug))}">
@@ -1060,6 +1085,7 @@ ${hreflangLinks}
 <script type="application/ld+json">${jsonLd(learningResource)}</script>
 <script type="application/ld+json">${jsonLd(breadcrumbSchema)}</script>
 ${quizSchema ? `<script type="application/ld+json">${jsonLd(quizSchema)}</script>` : ''}
+${relatedItemList ? `<script type="application/ld+json">${jsonLd(relatedItemList)}</script>` : ''}
 </head>
 <body>
 <main>

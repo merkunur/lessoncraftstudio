@@ -67,9 +67,16 @@ export async function generateSitemaps() {
   // (SEO-recovery 2026-06-25 P1: it adds <image:image> entries, which
   // MetadataRoute.Sitemap cannot carry — same precedent as shards 0/1). Omit it
   // here so Next does not also generate /sitemap/4.xml.
+  // ID 8 — activities: the 1,113 CC-pinned activity landing pages, split out of
+  // shard 3 into a dedicated, submittable + monitorable sitemap (2026-07-22).
+  // Rationale: activities were buried in the mixed ~5K-URL shard 3 (activities +
+  // tools + topics + roots), which is hard to submit/track in GSC and a weak
+  // prioritization signal. A focused shard with a deploy-fresh lastmod lets the
+  // operator watch activities coverage on its own GSC row + nudges recrawl.
   return [
     { id: 2 },
     { id: 3 },
+    { id: 8 },
   ];
 }
 
@@ -108,6 +115,32 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
   // no content; the static custom routes take precedence in routing.
   if (id === 0 || id === 1) {
     return [];
+  }
+
+  // ====================================================================
+  // SHARD 8 — ACTIVITY LANDING PAGES (dedicated; split out of shard 3)
+  // ====================================================================
+  // One URL per (activity manifest row × locale) — the 1,113 CC-pinned
+  // /<locale>/activities/<slug> pages. Manifest-driven (no DB). Kept in its
+  // own shard so it is independently submittable + monitorable in GSC.
+  if (id === 8) {
+    const routes: MetadataRoute.Sitemap = [];
+    try {
+      const { listActivitySitemapEntries, hreflangAlternatesForRow } = await import('@/lib/activities');
+      const acts = await listActivitySitemapEntries();
+      for (const a of acts) {
+        routes.push({
+          url: `${baseUrl}/${a.locale}/activities/${a.slug}`,
+          lastModified: STATIC_CONTENT_DATE,
+          changeFrequency: 'monthly',
+          priority: 0.6,
+          alternates: { languages: await hreflangAlternatesForRow(a.row, baseUrl) },
+        });
+      }
+    } catch (err) {
+      console.warn('[sitemap] shard 8 (activities) failed; skipping:', (err as Error).message);
+    }
+    return routes;
   }
 
   // ====================================================================
@@ -366,25 +399,9 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
       console.warn('[sitemap] shard 3 (subject×grade) skipped:', (err as Error).message);
     }
 
-    // CC-pinned activity landing pages — one URL per (manifest row × locale).
-    // Read from `mini tools/<engine>-activities.json` via the activities lib;
-    // no DB dependency (manifest-driven), so this block is independent of the
-    // topic-page try/catch above.
-    try {
-      const { listActivitySitemapEntries, hreflangAlternatesForRow } = await import('@/lib/activities');
-      const acts = await listActivitySitemapEntries();
-      for (const a of acts) {
-        routes.push({
-          url: `${baseUrl}/${a.locale}/activities/${a.slug}`,
-          lastModified: STATIC_CONTENT_DATE,
-          changeFrequency: 'monthly',
-          priority: 0.6,
-          alternates: { languages: await hreflangAlternatesForRow(a.row, baseUrl) },
-        });
-      }
-    } catch (err) {
-      console.warn('[sitemap] activity URLs failed; skipping:', (err as Error).message);
-    }
+    // NOTE: CC-pinned activity landing pages moved to their own dedicated shard
+    // (id 8, above) on 2026-07-22 — submittable + monitorable in GSC on their
+    // own row, and NOT duplicated across shards. Do not re-add them here.
 
     // Curriculum-standards landing pages — one URL per (CC code × locale).
     // Per external SEO audit (2026-05-27): teachers search for codes

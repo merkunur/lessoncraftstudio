@@ -28,7 +28,10 @@ export const revalidate = 3600;
 // SITEMAP FIX 2026-06-26: the single landing shard 4 hit 66.7 MB (> Google's
 // 50 MB/file cap). The landings now split across shards 4-7 (partitioned by a
 // stable hash of locale/slug in frontend/lib/seo/landing-sitemap.ts), ~16 MB each.
-const SITEMAP_SHARD_IDS = [0, 1, 2, 3, 4, 5, 6, 7];
+// 2026-07-22: shard 8 = the 1,113 activity landing pages, split out of shard 3
+// into a dedicated, GSC-submittable + monitorable sitemap (served by Next.js
+// generateSitemaps from app/sitemap.ts).
+const SITEMAP_SHARD_IDS = [0, 1, 2, 3, 4, 5, 6, 7, 8];
 
 export async function GET() {
   const baseUrl = 'https://www.lessoncraftstudio.com';

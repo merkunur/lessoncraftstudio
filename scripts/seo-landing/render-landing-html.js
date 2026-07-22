@@ -208,10 +208,23 @@ function relatedActivitiesFor(locale, l) {
     }
   };
   if (l.standard && ACT_BY_CODE[l.standard]) take(ACT_BY_CODE[l.standard], 'c');
-  if (picks.length < 4 && l.strand && ACT_BY_STRAND[l.strand]) {
-    let pool = ACT_BY_STRAND[l.strand];
-    if (grade) pool = pool.filter((a) => a.alignment.grade === grade);
-    take(pool, 's');
+  if (picks.length < 4) {
+    // Canonical (raw-English) strand for the strand fallback. On non-EN landings
+    // `l.strand` is the LOCALIZED national-curriculum domain (e.g. fr "Nombres et
+    // calculs") which never equals an activity's raw-English `alignment.strand`.
+    // Derive it cross-locale from the universal CCSS code instead; fall back to
+    // `l.strand` only when there is no code (already English on `en`).
+    let canonicalStrand = null;
+    if (l.standard && ACT_BY_CODE[l.standard] && ACT_BY_CODE[l.standard][0]) {
+      canonicalStrand = ACT_BY_CODE[l.standard][0].alignment.strand;
+    } else if (l.strand) {
+      canonicalStrand = l.strand;
+    }
+    if (canonicalStrand && ACT_BY_STRAND[canonicalStrand]) {
+      let pool = ACT_BY_STRAND[canonicalStrand];
+      if (grade) pool = pool.filter((a) => a.alignment.grade === grade);
+      take(pool, 's');
+    }
   }
   return picks;
 }

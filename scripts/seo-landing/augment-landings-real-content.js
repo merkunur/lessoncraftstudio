@@ -61,13 +61,19 @@ const NOUN_TYPES = new Set([
   'pattern-worksheet', 'more-less', 'big-small', 'odd-one-out', 'shadow-match',
   'grid-match', 'bingo', 'chart-count', 'missing-pieces', 'find-objects',
   'treasure-hunt', 'sudoku', 'picture-trail', 'wordsearch', 'find-and-count',
+  // word-guess/word-scramble: the PICTURE noun is visible on the sheet and safe to show; only the
+  // solution WORD (ex.words / ex.scrambledWords) is answer-bearing and stays hidden (not read here).
+  'word-guess', 'word-scramble',
 ]);
 
 // Math types → sample problems WITHOUT results.
 const MATH_TYPES = new Set(['addition', 'subtraction', 'code-addition', 'math-puzzle', 'math-worksheet']);
 
 // Types whose word/phrase content IS the answer → never emit words/nouns.
-const HIDE_WORD_TYPES = new Set(['cryptogram', 'word-guess', 'word-scramble', 'crossword']);
+// crossword: the picture-clue name ("Sega a mano") IS the answer word ("SEGAAMANO") → fully hidden,
+// only word-COUNT/grid stats via bundleFallback. cryptogram: the decoded phrase is the answer.
+// (word-guess/word-scramble were here but their PICTURE is safe — moved to NOUN_TYPES; words stay hidden.)
+const HIDE_WORD_TYPES = new Set(['cryptogram', 'crossword']);
 
 /* ------------------------------- helpers ------------------------------- */
 
@@ -105,25 +111,58 @@ function uniq(arr) {
   return out;
 }
 
-function extractNouns(manifest) {
+// Manifest object-refs store the LOCALIZED name per deck-locale (verified 2026-07-22: de "Blatt",
+// es "Cuchara", fr "Ambulance"), so we read .name/.word DIRECTLY for object shapes. Only PATH-ONLY
+// shapes (odd-one-out rowsSnapshot, more-less L/R) carry an English filename → those localize via
+// vocabNoun(key, locale) and are dropped for non-en when the key isn't in the vocab (never leak EN).
+function isNounStr(n) { return typeof n === 'string' && n.trim().length >= 2; }
+function pushName(out, o) {
+  if (o && typeof o === 'object') {
+    const n = o.name || o.word;
+    if (isNounStr(n)) out.push(titleCaseWord(n));
+  }
+}
+// path-only → localized noun (en: filename fallback; non-en: vocab or null). Defined here; relies on
+// hoisted vocabNoun/keyFromImgPath declarations below.
+function localizedFromPath(p, locale) {
+  if (!p || typeof p !== 'string') return null;
+  return vocabNoun(keyFromImgPath(p), locale);
+}
+
+/**
+ * Per-type picture-noun extraction. Every RICH type's object shape is handled explicitly (analyzed
+ * against live manifests 2026-07-22 — see the plan's per-type spec). Answer-bearing fields are NEVER
+ * read here (correctCategory / answerIdx / preposition / words / correctCount stay untouched).
+ */
+function extractNouns(manifest, locale) {
   const out = [];
   for (const ex of manifest.exercises || []) {
-    if (ex && ex.image && (ex.image.word || ex.image.name)) out.push(titleCaseWord(ex.image.word || ex.image.name));
-    if (ex && ex.leftValue && typeof ex.leftValue === 'object' && (ex.leftValue.word || ex.leftValue.name)) {
-      out.push(titleCaseWord(ex.leftValue.word || ex.leftValue.name));
+    if (Array.isArray(ex)) { for (const it of ex) pushName(out, it); continue; } // bingo: ex[0] is a list of img objs
+    if (!ex || typeof ex !== 'object') continue;
+    pushName(out, ex.image);                                   // addition/subtraction/word-guess/word-scramble (picture only)
+    if (ex.leftValue && typeof ex.leftValue === 'object') pushName(out, ex.leftValue);
+    pushName(out, ex.item);                                    // prepositions
+    if (isNounStr(ex.name) && ex.path) out.push(titleCaseWord(ex.name)); // picture-sort {name,path,correctCategory}
+    for (const mk of ['elementToImage', 'letterToImage', 'imageMap']) { // pattern-train / alphabet-train / math-worksheet
+      const m = ex[mk];
+      if (m && typeof m === 'object' && !Array.isArray(m)) for (const k of Object.keys(m)) pushName(out, m[k]);
     }
-    // prepositions store the pictured noun under ex.item ({name,word,theme}); without this
-    // the 206 en prepositions decks (vocabulary/images_used both []) yield ZERO nouns, so the
-    // "Pictures on this worksheet" section is silently omitted — the unique-content gap that
-    // leaves the near-templated prose as the only text (SEO real-cause program, 2026-07-22).
-    if (ex && ex.item && typeof ex.item === 'object' && (ex.item.word || ex.item.name)) {
-      out.push(titleCaseWord(ex.item.word || ex.item.name));
+    if (Array.isArray(ex.icons)) for (const ic of ex.icons) pushName(out, ic);              // chart-count
+    if (Array.isArray(ex.gridData)) for (const row of ex.gridData) if (Array.isArray(row))  // find-and-count
+      for (const c of row) { if (c && isNounStr(c.word)) out.push(titleCaseWord(c.word)); }
+    if (Array.isArray(ex.rowsSnapshot)) for (const r of ex.rowsSnapshot)                    // odd-one-out (path-only)
+      for (const it of (r.items || [])) { const n = localizedFromPath(it && it.path, locale); if (n) out.push(n); }
+    for (const side of ['L', 'R']) if (typeof ex[side] === 'string' && ex[side].includes('/images/')) { // more-less (path-only)
+      const n = localizedFromPath(ex[side], locale); if (n) out.push(n);
+    }
+    if (Array.isArray(ex.uniqueImages)) for (const u of ex.uniqueImages) {                  // pattern-worksheet (path-only)
+      const n = localizedFromPath(u && u.path, locale); if (n) out.push(n);
     }
   }
   if (out.length === 0 && Array.isArray(manifest.vocabulary)) {
     for (const v of manifest.vocabulary) {
-      if (typeof v === 'string') out.push(titleCaseWord(v));
-      else if (v && (v.word || v.name)) out.push(titleCaseWord(v.word || v.name));
+      if (isNounStr(v)) out.push(titleCaseWord(v));
+      else pushName(out, v);
     }
   }
   if (out.length === 0) {
@@ -154,8 +193,17 @@ function extractWordBank(manifest, type) {
 }
 
 function extractSampleProblems(manifest, type) {
-  const op = type === 'subtraction' ? '−' : '+';
   const out = [];
+  if (type === 'math-puzzle') {
+    // ex.operations[].text is the printed equation ("6 - 4"); .solution is the answer → NEVER emitted.
+    for (const ex of manifest.exercises || []) {
+      for (const opn of (ex && ex.operations) || []) {
+        if (opn && typeof opn.text === 'string') out.push(opn.text.replace(/\s+/g, ' ').trim() + ' = ?');
+      }
+    }
+    return uniq(out).slice(0, 6);
+  }
+  const op = type === 'subtraction' ? '−' : '+';
   for (const ex of manifest.exercises || []) {
     if (!ex) continue;
     const a = ex.operandA != null ? ex.operandA : ex.a;
@@ -226,7 +274,7 @@ function readBundle(locale, deckSlug) {
 /** Fallback extraction for empty-manifest types; returns partial augment fields. */
 function bundleFallback(locale, l) {
   const type = l.coordinate && l.coordinate.type;
-  const wantsBundle = ['sudoku', 'find-objects', 'picture-trail', 'crossword', 'treasure-hunt'].includes(type);
+  const wantsBundle = ['sudoku', 'find-objects', 'picture-trail', 'crossword', 'treasure-hunt', 'big-small'].includes(type);
   if (!wantsBundle) return {};
   const b = readBundle(locale, l.canonicalDeckSlug);
   if (!b) return {};
@@ -238,10 +286,24 @@ function bundleFallback(locale, l) {
     if (nouns.length >= 3) out.imageNouns = nouns;
   }
   if ((type === 'find-objects' || type === 'picture-trail') && b.legend && Array.isArray(b.legend.items)) {
+    // find-objects legend carries imgPath; picture-trail carries vocabKey (the correctCount stays hidden).
     const nouns = uniq(b.legend.items
-      .map((it) => (it && it.imgPath ? vocabNoun(keyFromImgPath(it.imgPath), locale) : null))
+      .map((it) => {
+        if (!it) return null;
+        if (it.vocabKey) return vocabNoun(it.vocabKey, locale);
+        if (it.imgPath) return vocabNoun(keyFromImgPath(it.imgPath), locale);
+        return null;
+      })
       .filter(Boolean));
     if (nouns.length >= 2) out.imageNouns = nouns; // legend is the printed instruction; counts stay hidden
+  }
+  if (type === 'big-small' && b.imageRefs && typeof b.imageRefs === 'object' && !Array.isArray(b.imageRefs)) {
+    // imageRefs is keyed "theme/filename-<ts>-<hash>"; the compared objects are visible (answer = which is bigger).
+    const nouns = uniq(Object.keys(b.imageRefs).map((k) => {
+      const base = (String(k).split('/').pop() || '').replace(/-\d{10,}-[0-9a-z]{6,}$/i, '');
+      return vocabNoun(base, locale) || (locale === 'en' ? nounFromFilename(base + '.webp') : null);
+    }).filter(Boolean));
+    if (nouns.length >= 3) out.imageNouns = nouns;
   }
   if (type === 'crossword' && Array.isArray(b.words) && b.words.length) {
     stats.words = b.words.length; // count only — the words ARE the answers
@@ -263,7 +325,7 @@ function augmentForLanding(locale, l) {
       const bank = WORD_BANK_TYPES.has(type) ? extractWordBank(manifest, type) : [];
       if (bank.length >= 3) out.realWords = bank;
       if (NOUN_TYPES.has(type)) {
-        const nouns = extractNouns(manifest);
+        const nouns = extractNouns(manifest, locale);
         // Don't duplicate: nouns only when materially different from the bank.
         if (nouns.length >= 3 && (!out.realWords || nouns.join() !== out.realWords.join())) out.imageNouns = nouns;
       }

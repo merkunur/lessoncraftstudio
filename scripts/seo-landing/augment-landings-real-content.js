@@ -112,6 +112,13 @@ function extractNouns(manifest) {
     if (ex && ex.leftValue && typeof ex.leftValue === 'object' && (ex.leftValue.word || ex.leftValue.name)) {
       out.push(titleCaseWord(ex.leftValue.word || ex.leftValue.name));
     }
+    // prepositions store the pictured noun under ex.item ({name,word,theme}); without this
+    // the 206 en prepositions decks (vocabulary/images_used both []) yield ZERO nouns, so the
+    // "Pictures on this worksheet" section is silently omitted — the unique-content gap that
+    // leaves the near-templated prose as the only text (SEO real-cause program, 2026-07-22).
+    if (ex && ex.item && typeof ex.item === 'object' && (ex.item.word || ex.item.name)) {
+      out.push(titleCaseWord(ex.item.word || ex.item.name));
+    }
   }
   if (out.length === 0 && Array.isArray(manifest.vocabulary)) {
     for (const v of manifest.vocabulary) {

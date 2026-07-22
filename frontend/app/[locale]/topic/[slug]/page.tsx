@@ -31,6 +31,8 @@ import {
 import { topicOgImage } from '@/lib/seo/topic-og-image';
 import { landingSlugForDeck, canonicalDeckAssets, getLandingsByType, getLandingsByTheme, getLandingsByLevel } from '@/lib/seo/landing-content';
 import TopicLandingLinks from '@/components/topic/TopicLandingLinks';
+import RelatedActivitiesStrip from '@/components/activities/RelatedActivitiesStrip';
+import { listActivitiesByGrade, type ActivityRow } from '@/lib/activities';
 import { buildDeckThumbAlt } from '@/lib/seo/deck-vocab';
 import {
   isSeasonalHubUpgraded,
@@ -477,6 +479,23 @@ export default async function TopicPage({
   const resolution = await resolveOrNotFound(params);
   const { axis, axisKey, locale } = resolution;
 
+  // Related interactive activities — grade-matched, ONLY on educational-level
+  // hubs (the one clean taxonomy→activity-grade bridge; the topic taxonomy
+  // carries no CCSS strand/code). Passes internal-link authority from these
+  // indexed topic hubs into the crawl-starved activity tier. Self-skips when
+  // empty. Additive; does not touch this page's head/canonical/metadata.
+  const AXIS_KEY_TO_GRADE: Record<string, string> = {
+    preschool: 'PK',
+    kindergarten: 'K',
+    'grade-1': '1',
+    'grade-2': '2',
+    'grade-3': '3',
+  };
+  let relatedActivities: ActivityRow[] = [];
+  if (axis === 'educational-level' && AXIS_KEY_TO_GRADE[axisKey]) {
+    relatedActivities = await listActivitiesByGrade(AXIS_KEY_TO_GRADE[axisKey], locale, 8);
+  }
+
   const t = await getTranslations({ locale, namespace: 'topicPage' });
   const tDeckAlt = await getTranslations({ locale, namespace: 'seo.deckCardAlt' });
   const tMainAlt = await getTranslations({ locale, namespace: 'seo.worksheetMainAlt' });
@@ -896,6 +915,7 @@ export default async function TopicPage({
           topicName={topicName}
         />
         <TopicLandingLinks locale={locale} landings={axisLandings} />
+        <RelatedActivitiesStrip locale={locale} activities={relatedActivities} />
       </main>
     </>
   );

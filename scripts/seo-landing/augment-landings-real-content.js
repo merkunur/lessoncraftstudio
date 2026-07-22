@@ -285,7 +285,8 @@ function readBundle(locale, deckSlug) {
 /** Fallback extraction for empty-manifest types; returns partial augment fields. */
 function bundleFallback(locale, l) {
   const type = l.coordinate && l.coordinate.type;
-  const wantsBundle = ['sudoku', 'find-objects', 'picture-trail', 'crossword', 'treasure-hunt', 'big-small'].includes(type);
+  const wantsBundle = ['sudoku', 'find-objects', 'picture-trail', 'picture-path', 'crossword',
+    'treasure-hunt', 'big-small', 'shadow-match'].includes(type);
   if (!wantsBundle) return {};
   const b = readBundle(locale, l.canonicalDeckSlug);
   if (!b) return {};
@@ -296,8 +297,10 @@ function bundleFallback(locale, l) {
     const nouns = uniq(b.uniqueImageKeys.map((k) => vocabNoun(k, locale)).filter(Boolean));
     if (nouns.length >= 2) out.imageNouns = nouns;
   }
-  if ((type === 'find-objects' || type === 'picture-trail') && b.legend && Array.isArray(b.legend.items)) {
-    // find-objects legend carries imgPath; picture-trail carries vocabKey (the correctCount stays hidden).
+  if (['find-objects', 'picture-trail', 'picture-path', 'treasure-hunt'].includes(type) && b.legend && Array.isArray(b.legend.items)) {
+    // find-objects legend carries imgPath; picture-trail/picture-path (same app, locale-split name) carry
+    // vocabKey; treasure-hunt "collect" mode carries a legend too (maze-only variants have legend:null →
+    // the Array.isArray guard skips them). correctCount stays hidden — answer-bearing.
     const nouns = uniq(b.legend.items
       .map((it) => {
         if (!it) return null;
@@ -308,6 +311,15 @@ function bundleFallback(locale, l) {
       .filter(Boolean));
     if (nouns.length >= 2) out.imageNouns = nouns; // legend is the printed instruction; counts stay hidden
   }
+  if (type === 'shadow-match' && Array.isArray(b.pairs)) {
+    // pairs[].topImageKey is the vocab key of each compared object (the pictures are visible; the answer
+    // is WHICH shadow matches, never revealed). Localizes per-locale exactly like sudoku uniqueImageKeys.
+    const nouns = uniq(b.pairs.map((p) => (p && p.topImageKey) ? vocabNoun(p.topImageKey, locale) : null).filter(Boolean));
+    if (nouns.length >= 2) out.imageNouns = nouns;
+  }
+  // NOTE: word-guess / word-scramble deliberately get NO count — their bundle `slots` are LETTER slots,
+  // not words (an "easy" sheet would falsely read "35 words"). They keep their theme-varying prose only.
+  // The words themselves are the answers (HIDE_WORD_TYPES), so no object list either.
   if (type === 'big-small' && b.imageRefs && typeof b.imageRefs === 'object' && !Array.isArray(b.imageRefs)) {
     // imageRefs is keyed "theme/filename-<ts>-<hash>"; the compared objects are visible (answer = which is bigger).
     const nouns = uniq(Object.keys(b.imageRefs).map((k) => {

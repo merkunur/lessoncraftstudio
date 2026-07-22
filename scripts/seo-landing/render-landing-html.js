@@ -872,6 +872,9 @@ function renderLanding(locale, l) {
     typicalAgeRange: lvl.age,
     teaches: l.strand,
     image: a.thumbnail,
+    // The landing IS the printable resource: declare the free downloadable PDF so the landing
+    // (not the raw PDF file) owns the "printable … PDF" intent (single-canonical-surface, 2026-07-22).
+    encoding: { '@type': 'MediaObject', encodingFormat: 'application/pdf', contentUrl: a.pdf, name: l.h1 },
     creator: { '@type': 'Organization', name: 'LessonCraftStudio', url: CANONICAL_HOST },
     audience: { '@type': 'EducationalAudience', educationalRole: 'student' },
   };

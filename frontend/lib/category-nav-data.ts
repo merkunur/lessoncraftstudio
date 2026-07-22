@@ -195,7 +195,10 @@ export function buildCategories({
     label: resolveAxisName(key, locale),
   }));
 
-  const activitiesItems: DropdownItem[] = availableActivities.slice(0, 6).map(a => ({
+  // Surface a broader sitewide set of activity links (was 6) — the full
+  // crawlable index lives on /[locale]/activities, but a wider dropdown gives
+  // more activities a persistent, every-page internal link.
+  const activitiesItems: DropdownItem[] = availableActivities.slice(0, 10).map(a => ({
     href: `/${locale}/activities/${a.slug}/`,
     label: a.title,
   }));

@@ -654,6 +654,31 @@
     "metaTitle": "Tunnesää – tunnetaidot ja aamupiiri | LessonCraftStudio",
     "metaDescription": "Ilmainen tunnetaulu aamupiiriin: lapsi napauttaa oman säänsä ja saa lempeän vastauksen. Ei arvostelua eikä pisteitä – mikään ei tallennu yön yli."
   },
+  "letter-studio": {
+    "slug": "kirjainpaja",
+    "name": "Kirjainpaja",
+    "tagline": "Katso, mistä veto alkaa, ja piirrä kirjaimet ja numerot sormella",
+    "about": [
+      "Kirjainpaja on vapaan harjoittelun työkalu kirjainten kirjoittamiseen esiopetuksessa ja ensimmäisellä luokalla. Iso kirjain piirtyy neljälle apuviivalle samaan tapaan kuin koulun viivastossa, ja lapsi seuraa sitä sormella suoraan älytaululla tai tabletilla. Paja harjoittelee tekstausta eli tikkukirjaimia – sitä kirjoitustapaa, jolla alkuopetuksessa nykyään aloitetaan. Koko aakkosto on ilmainen sekä pienillä että isoilla kirjaimilla, ja mukana ovat myös ä ja ö: ne kirjoitetaan niin kuin ne opetetaan, ensin kirjain ja vasta sitten pisteet.",
+      "Kirjaimen piirtojärjestys on tärkeämpi kuin lopputuloksen siisteys, ja juuri sitä paja harjoittaa. Kiiltomato kävelee vedot ensin oikeassa järjestyksessä ja oikeaan suuntaan, ja vasta sen jälkeen lapsi piirtää itse. Viiva piirtyy vain silloin, kun sormi kulkee polkua pitkin: väärään suuntaan lähtevä veto ei jätä jälkeä, mutta se ei myöskään tuota punaista ruksia eikä virheilmoitusta. Heilahdukset ja epätasainen jälki sallitaan reilusti – vain vetojen järjestys pidetään tiukkana, koska juuri se jää käden muistiin.",
+      "Oma nimi on lapsen ensimmäinen ja tärkein kirjoitettava sana. Premiumissa nimet haetaan luokan omalta listalta Nimitikuista, ne luetaan vain tällä laitteella eivätkä ne poistu siitä, ja samalla avautuvat tulostettavat sivut vihkotyötä varten. Ilmaisversiossa käytössä ovat koko aakkosto, isot ja pienet kirjaimet sekä numerot 0–9. Kaikki toimii selaimessa ilman asennusta ja kirjautumista, eikä pajassa ole ajastinta, pisteitä eikä tasoja – vain rauhallinen tila harjoitella omaan tahtiin."
+    ],
+    "howToUse": [
+      "Heijasta paja luokan älytaululle ja mallinna ensin itse: valitse päivän kirjain, paina Näytä malli ja katsokaa yhdessä, mistä veto alkaa ja mihin suuntaan se kulkee.",
+      "Anna lapsen piirtää sormella suoraan taululle tai tabletille ja muistuta vain vihreästä pisteestä – siitä jokainen veto alkaa.",
+      "Puhukaa apuviivoista samoilla sanoilla kuin vihkossa: mihin kirjain istuu, mihin asti se yltää ylös ja mikä osa menee alimman viivan alle.",
+      "Ota numerot mukaan matematiikan tunnille: numeron muodostaminen harjoitellaan samalla tavalla kuin kirjaimen, ja numerot 0–9 ovat ilmaisia.",
+      "Valitse Premiumissa Nimet ja luokan lista, niin lapsi harjoittelee oman nimensä kirjain kerrallaan; tulostettavalta sivulta saatte saman harjoituksen vihkoon."
+    ],
+    "classroomIdeas": [
+      "Päivän kirjain: katsokaa aamupiirissä yksi kirjain yhdessä, sanokaa sen äänne, etsikää se aapisesta ja jokainen käy vuorollaan piirtämässä sen taululle.",
+      "Nimipaja: jokainen harjoittelee ensin oman nimensä alkukirjaimen ja sitten koko nimen – nimi on lapsen motivoivin harjoiteltava sana.",
+      "Peilikuvan tarkistus: b ja d, p ja q sekä numerot 2 ja 5 kääntyvät helposti väärin päin. Katsokaa malli ensin ja piirtäkää heti perään, niin oikea suunta jää käteen.",
+      "Eriyttäminen ja S2: osa piirtää isoja kirjaimia sormella taululla, osa pieniä kirjaimia tabletilla, ja S2-oppija saa kuunnella kirjaimen niin monta kertaa kuin tarvitsee ennen piirtämistä."
+    ],
+    "metaTitle": "Kirjainten kirjoittaminen netissä | LessonCraftStudio",
+    "metaDescription": "Ilmainen kirjainpaja alkuopetukseen: katso piirtojärjestys ja piirrä kirjain apuviivoille. Isot ja pienet kirjaimet, ä, ö ja numerot – ei kirjautumista."
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

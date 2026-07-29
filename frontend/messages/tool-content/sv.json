@@ -676,6 +676,31 @@
     "metaTitle": "Känslokoll – gratis känslotavla för förskola och åk 1-2",
     "metaDescription": "En gratis känslotavla för klassrummet. Barnen visar vilket väder de har idag och möts av lugna ord — inget sparas över natten, inget skickas vidare."
   },
+  "letter-studio": {
+    "slug": "skriva-bokstaver",
+    "name": "Bokstavsverkstaden",
+    "tagline": "Forma bokstaven med fingret — lysmasken visar skrivriktningen",
+    "metaTitle": "Skriva bokstäver – gratis bokstavsträning | LessonCraftStudio",
+    "metaDescription": "Gratis bokstavsträning: lysmasken visar skrivriktningen och barnet formar bokstaven med fingret på stödlinjer. Alfabetet med å, ä, ö och siffror 0–9 — utan inloggning.",
+    "about": [
+      "Bokstavsverkstaden är en skrivyta för de allra första bokstäverna. En stor bokstav står på skrivlinjen, med stödlinjer över och under precis som i skrivhäftet, och när barnet trycker på Visa mig går en lysmask hela vägen genom bokstaven i rätt skrivriktning, med ett mjukt ljud för varje streck. Sedan skriver barnet själv med fingret: linjen ritas bara så länge fingret följer spåret, och den väntar tålmodigt när fingret hamnar utanför. Ordningen på strecken spelar roll, precis som när man skriver för hand — men vinglet gör det inte. Det finns inget rött kryss, ingen poäng och ingen klocka; bokstaven blir helt enkelt till, streck för streck.",
+      "Att forma bokstäver hör till det allra första skrivarbetet i förskoleklass och årskurs 1, där eleverna enligt Lgr22 ska lära sig att skriva för hand och möta sambandet mellan ljud och bokstav. Verkstaden arbetar med textning, alltså tryckbokstäver — den stil svenska barn börjar med. Skrivstil finns inte här och utlovas inte heller. Hela alfabetet finns med, både som små bokstäver och som STORA, med å, ä och ö, och i sifferläget formas 0–9 på samma sätt. På tavlan blir bokstaven stor nog för hela gruppen, på plattan lagom stor för ett finger.",
+      "Hela alfabetet, båda formerna och alla siffror är alltid gratis. Verktyget körs direkt i webbläsaren på surfplattor, telefoner och klassrumsdatorer — inget konto, ingen installation, ingen timer och inga poäng. Med Premium öppnas namnläget, där barnet skriver sitt eget namn bokstav för bokstav utifrån klasslistan i Namnpinnar, tillsammans med utskrivbara blad och sparade inställningar. Namnen läses bara på den egna enheten och skickas aldrig vidare. Tillsammans med Magnetbokstäver blir steget tydligt: där bygger barnet ordet av färdiga bokstäver, här formar det varje bokstav själv."
+    ],
+    "howToUse": [
+      "Visa bokstaven på storbild i samlingen, eller låt barnen arbeta själva på surfplattor.",
+      "Tryck på Visa mig först — lysmasken går genom bokstaven i rätt skrivriktning, med ett ljud för varje streck.",
+      "Låt barnet skriva efter med fingret; linjen följer med så länge fingret håller sig på spåret.",
+      "Byt mellan små och STORA bokstäver med knappen, och gå över till Siffror när ni formar 0–9.",
+      "Med Premium: välj Namn och låt barnet skriva sitt eget namn bokstav för bokstav, eller skriv ut ett blad att ta med hem."
+    ],
+    "classroomIdeas": [
+      "Dagens bokstav i samlingen: hela gruppen skriver bokstaven i luften medan ett barn formar den på tavlan.",
+      "Skrivstation: barnet formar bokstaven på skärmen först och skriver den sedan i skrivboken — samma skrivriktning båda gångerna.",
+      "Bygg och forma: bygg veckans ord med Magnetbokstäver först och skriv sedan varje bokstav här, en i taget.",
+      "Två vid samma skärm: ett barn trycker på Visa mig och räknar strecken högt, det andra skriver efter med fingret — sedan byter de."
+    ]
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

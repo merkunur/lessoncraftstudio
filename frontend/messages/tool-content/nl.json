@@ -676,6 +676,31 @@
     "metaTitle": "Gevoelsbord voor kleuters en groep 3-4 — hoe voel je je?",
     "metaDescription": "Gratis gevoelsbord voor het digibord: kinderen tikken aan hoe ze zich voelen en krijgen een warm antwoord. Zonder punten, zonder account, elke dag weer leeg."
   },
+  "letter-studio": {
+    "slug": "letters-leren-schrijven",
+    "name": "Het letterhuisje",
+    "tagline": "Letters schrijven met je vinger, op de lijnen van het schrift.",
+    "metaTitle": "Letters leren schrijven: gratis schrijfoefening groep 2 en 3",
+    "metaDescription": "Letters leren schrijven in blokschrift: het vuurvliegje doet de schrijfrichting voor, dan trek je de letter na met je vinger. Ook cijfers. Gratis, zonder account.",
+    "about": [
+      "Het letterhuisje is een gratis schrijfhoek voor groep 2 en groep 3. Er staat steeds één letter groot op de schrijflijnen: de romp in de kamer, de stok naar de zolder en de lus naar de kelder — het huisje dat kinderen uit hun eigen schrijfschrift kennen. De lijnen staan in de verhouding van het blokschrift, met de rompzone als grootste zone, zodat wat op het digibord staat past bij het schrift dat op tafel ligt. Het hele alfabet doet mee: kleine letters, hoofdletters en de cijfers 0 tot en met 9.",
+      "Tik op Doe maar voor en het vuurvliegje schrijft de letter voor: het begint bij de groene stip en zet stap voor stap de hele schrijfbeweging neer, met een zacht belletje bij elke nieuwe stap. Daarna schrijft het kind zelf, met de vinger op het scherm. De inkt verschijnt alleen zolang de vinger het pad volgt: de letter groeit mee met de beweging en wacht rustig af zodra de vinger ernaast raakt. Wiebelen mag ruim; alleen de volgorde van de stappen ligt vast, want juist die volgorde maakt een handschrift later vlot. Er is geen rood kruis, geen punt en geen klok — een kind mag zo vaak opnieuw beginnen als het zelf wil.",
+      "Het hele alfabet is gratis: alle kleine letters, alle hoofdletters en de cijfers, op de juiste schrijflijnen en zonder account. Met Premium komt de eigen naam van het kind erbij. Het letterhuisje leest daarvoor dezelfde klassenlijst als Beurtenstokjes, letter voor letter, tot de hele naam er staat — en die namen blijven op het apparaat zelf, ze gaan nergens heen. Premium geeft ook het werkblad om te printen, zodat dezelfde letter met potlood tussen dezelfde lijnen verder geoefend wordt, en onthoudt de instellingen van de groep. Het werkt op het digibord, op de tablet en op de computer."
+    ],
+    "howToUse": [
+      "Kies Letters of Cijfers en zet de knop op kleine letters of op hoofdletters.",
+      "Tik op Doe maar voor en laat de klas kijken hoe het vuurvliegje de letter schrijft; wijs samen de groene stip aan.",
+      "Laat één kind de letter natrekken op het digibord — de inkt loopt vanzelf mee zolang de vinger op het pad blijft.",
+      "Zeg de letter samen hardop en laat de rest van de groep meeschrijven in de lucht of op de rug van hun buurkind.",
+      "Ga met Volgende naar de letter erna, of open bij Premium de stand Namen en schrijf de naam van een kind uit de klassenlijst."
+    ],
+    "classroomIdeas": [
+      "Letter van de dag: zet de nieuwe letter uit de kern groot op het digibord en laat elk kind hem één keer natrekken voordat de groep uiteengaat.",
+      "Van scherm naar schrift: trek de letter eerst met de vinger op het bord na, pak daarna het geprinte werkblad en schrijf hem met potlood tussen dezelfde lijnen.",
+      "Meetellen met het vuurvliegje: laat de klas hardop stap 1, stap 2 meezeggen terwijl het vuurvliegje loopt, zodat de schrijfvolgorde ook in woorden gaat zitten.",
+      "Naam bij de deur: schrijf tijdens de inloop de naam van de jarige of van de hulpjes van vandaag, letter voor letter, uit de klassenlijst van Beurtenstokjes."
+    ]
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

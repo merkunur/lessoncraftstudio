@@ -677,6 +677,31 @@
     "metaTitle": "Feelings Check-In — A K-3 Feelings Chart for Mornings",
     "metaDescription": "A warm morning feelings chart for K-3: children tap how they feel and hear a kind reply, then see what could help. No scores, and nothing is saved."
   },
+  "letter-studio": {
+    "slug": "letter-studio",
+    "name": "Letter Studio",
+    "tagline": "A huge letter on real lined paper — the firefly shows the way, then the child writes it.",
+    "about": [
+      "Letter Studio puts one enormous letter on the board, sitting on the same lined writing guide your class already uses on paper. Tap Show me and a firefly walks the stroke order with a soft chime at the start of each stroke, so the whole room sees where the pencil begins and which way it travels — the part a child cannot work out from a finished letter on a wall chart. Then the child traces it themselves with a finger, and the line joins in only while they are following the path. Wander off and the ink simply waits; the path is still there, and the tool says so kindly instead of marking anything wrong.",
+      "There is no red X anywhere in this tool, and there is no score, no timer and no stars. A letter is either still being learned or it has been written, and both are fine. When the last stroke closes, the tool says so warmly and offers the next one. A child who wants to write the same letter eight times can, and nothing counts how many tries it took.",
+      "The lined guide is the part most handwriting tools get wrong outside English. A German class writes in a four-line Lineatur with a tinted middle band; a Spanish class writes between the two solid lines of doble raya; a French class writes on Seyès. Letter Studio draws the guide your country actually uses, ruled by teachers from that country rather than translated from an American worksheet. Print letters and digits are free, in both cases, in all eleven languages."
+    ],
+    "howToUse": [
+      "Open it on the projector and tap Show me first — let the class watch the firefly trace the whole letter before anyone touches the board.",
+      "Invite one child up to trace it with a finger. Remind them to start at the green dot; the line will join in as soon as they are on the path.",
+      "Use Start over as often as anyone likes. Tracing the same letter again is practice, not a correction, and the tool never keeps count.",
+      "Switch between small and CAPITAL for the same letter, and use Numbers when you are working on digit formation instead.",
+      "With a subscription, open Names to trace the children’s own names from your class list — the name every child most wants to write."
+    ],
+    "classroomIdeas": [
+      "Introduce one new letter a day on the board: firefly first, then three children up to trace it, then straight onto paper while the shape is fresh.",
+      "Put it on a tablet at the writing centre with today’s letter, so the children who need the stroke order again can ask the firefly instead of asking you.",
+      "In Names mode, let each child trace their own name on the board on their birthday — it is the most motivating handwriting minute of the whole year.",
+      "When a child reverses a letter, do not correct it on the paper: open that letter here and watch the firefly together. Seeing where the stroke starts fixes far more reversals than a rubbed-out line does."
+    ],
+    "metaTitle": "Letter Tracing on Lined Paper for K-1 | Letter Studio",
+    "metaDescription": "A free letter tracing tool for K–1: watch the stroke order, then trace with a finger on your country’s own lined writing guide. No scores, no red marks."
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

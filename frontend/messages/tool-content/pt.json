@@ -676,6 +676,31 @@
     "metaTitle": "Quadro das emoções da turma grátis | LessonCraftStudio",
     "metaDescription": "Quadro das emoções para projetar: a criança toca em como está e ouve uma resposta acolhedora. No Premium, a chamada por nome mostra o tempo da turma."
   },
+  "letter-studio": {
+    "slug": "tracado-das-letras",
+    "name": "A oficina das letras",
+    "tagline": "Um vaga-lume mostra o caminho e a criança traça a letra com o dedo",
+    "metaTitle": "Traçado das letras | Aprender a escrever as letras no 1º ano",
+    "metaDescription": "Atividade gratuita de traçado: o vaga-lume mostra a ordem dos traços e a criança escreve as letras e os números com o dedo, sem cadastro e sem cronômetro.",
+    "about": [
+      "Na alfabetização brasileira, aprender a escrever começa pelo traçado: por onde a letra começa, para onde a mão vai e em que ordem os traços acontecem. A oficina das letras coloca uma letra bem grande sobre a pauta e manda um vaga-lume percorrer o caminho na ordem certa, com um som suave a cada traço. Depois é a vez da criança: ela traça com o dedo e a tinta só aparece enquanto a mão segue o caminho. A mão treme, e tudo bem — a ferramenta é tolerante com o tremido e firme na ordem dos traços, que é justamente o que constrói a memória do gesto. Não existe X vermelho, nem nota, nem cronômetro.",
+      "O alfabeto inteiro é gratuito e continua gratuito: de A a Z nas duas formas, maiúscula e minúscula, mais o ç e as vogais acentuadas do português (á, é, í, ó, ê, ô, ã, õ) e os números de 0 a 9, todos sobre a pauta. As letras são de imprensa — o que a turma chama de letra bastão quando é maiúscula. A letra cursiva não faz parte desta versão. No Premium entram o traçado dos nomes da turma, as fichas para imprimir e as preferências salvas.",
+      "O modo Nomes escreve o nome de cada criança letra por letra, e o nome próprio é a primeira palavra que toda criança quer escrever. A lista vem da mesma turma que você já montou nos Palitos de nomes e é lida direto do aparelho: os nomes não são enviados para lugar nenhum. Tudo funciona no navegador, na lousa digital, no tablet ou no celular, sem instalar nada e sem cadastro para usar o alfabeto."
+    ],
+    "howToUse": [
+      "Projete uma letra e toque em Me mostra: a turma acompanha o vaga-lume e conta quantos traços aquela letra tem.",
+      "Chame uma criança para traçar com o dedo na lousa, começando sempre no pontinho verde.",
+      "Use o botão de maiúsculas e minúsculas para comparar as duas formas da mesma letra: A e a são a mesma letra com dois desenhos.",
+      "Troque para Números quando quiser trabalhar o traçado dos algarismos de 0 a 9.",
+      "No modo Nomes, escolha uma criança da turma e escrevam o nome dela letra por letra, do jeito que ela vai escrever na capa do caderno."
+    ],
+    "classroomIdeas": [
+      "Letra da semana: comece a aula com a letra projetada e peça que toda a turma trace no ar junto com o vaga-lume antes de escrever no caderno.",
+      "Da tela para o caderno: depois de traçar na lousa, a criança faz a mesma letra no caderno na mesma ordem de traços — a tela ensina o gesto, o caderno fixa.",
+      "Nome na rodinha: a cada dia um nome da turma no modo Nomes; a criança traça o próprio nome e os colegas contam quantas letras ele tem.",
+      "Dupla com o Alfabeto móvel: primeiro a criança monta a palavra com as letras móveis, depois vem para cá escrever cada letra com a mão — reconhecer a letra e traçar a letra são duas aprendizagens diferentes."
+    ]
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

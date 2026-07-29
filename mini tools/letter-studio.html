@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Letter Studio — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=18">
+</head>
+<body>
+  <!-- The shell mounts the whole tool into this element. -->
+  <div id="lcs-root"></div>
+
+  <!-- Shell, then the two already-gate-proven trace cores, then this tool —
+       the same three-part pattern every core-consuming page uses (see
+       penny-alphabet-trace-activity.html). Letter Studio owns NO glyph table:
+       it registers its composed graphemes (ä å ø ñ ç … æ ß) into the core's
+       own GLYPHS map, so the core's solver gauntlet covers them too and the
+       digits are not copied a third time. -->
+  <script src="/mini-tools/lcs-shell.js?v=3"></script>
+  <script src="/mini-tools/alphabet-trace-core.js?v=2"></script>
+  <script src="/mini-tools/number-trace-core.js?v=1"></script>
+  <script src="/mini-tools/letter-studio.js?v=2"></script>
+  <script>
+    // URL params the shell understands:
+    //   ?lang=de  ?lang=fi  (any of: en de fr it es pt nl sv da no fi)
+    //   ?embed=1        — trim chrome for iframe embedding
+    //   ?embed=compact  — also drop the title, for tightly-cropped iframes
+    // Tool-specific deep link: ?mode=letters|numbers|names
+    //   ?mode=names is REFUSED for a free visitor and is never applied
+    //   optimistically while entitlement is in flight, so a roster name
+    //   cannot flash into the DOM during the race.
+    LCS.mount(LetterStudio, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

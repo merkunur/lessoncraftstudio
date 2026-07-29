@@ -676,6 +676,31 @@
     "metaTitle": "Tablero de emociones gratis para preescolar y primaria",
     "metaDescription": "Un tablero de emociones para proyectar en tu salón: cada niña y cada niño toca cómo se siente hoy y recibe una respuesta amable. Nada se guarda ni se envía."
   },
+  "letter-studio": {
+    "slug": "trazar-letras",
+    "name": "Trazo a trazo",
+    "tagline": "Todo el abecedario sobre el renglón de doble raya: la luciérnaga marca el orden de los trazos y la línea se pinta sola mientras el dedo sigue el camino.",
+    "about": [
+      "Trazo a trazo pone una letra enorme sobre el renglón de doble raya, el mismo con el que los niños aprenden a escribir en primero. Primero pasa una luciérnaga: recorre la letra en el orden correcto, un trazo a la vez, con un tintineo suave al terminar cada uno. Después le toca al niño. Pone el dedo en el punto verde y sigue el camino, y la línea solo se pinta mientras va sobre él. Puede temblar todo lo que quiera, eso no importa; lo que sí importa es el orden de los trazos, porque es lo que después le va a dar una letra pareja.",
+      "Aquí no hay tachas rojas, ni palomitas, ni reloj, ni puntaje. Si el dedo se sale del camino la línea simplemente espera, y el letrero de abajo va acompañando: «Empieza en el punto verde», «Trazo 1 de 2», y al final «Mira qué letra te quedó». Están el abecedario completo en minúsculas y en MAYÚSCULAS —con la ñ y las vocales con tilde— y también los números del 0 al 9, todo en letra script, la de imprenta. La cursiva todavía no está: la queremos hacer bien y llegará después.",
+      "Todo el abecedario en las dos formas y los números son gratis para siempre, sobre el renglón que de verdad se usa en el salón. Con Premium se abre el trazo de los nombres: la herramienta lee tu lista del grupo desde este mismo dispositivo —nunca sale de aquí— y arma el nombre de cada niño letra por letra, que es la primera palabra que de verdad le importa escribir. También se abren las fichas para imprimir y la sesión guardada, para dejar lista la letra de mañana."
+    ],
+    "howToUse": [
+      "Proyecta la letra del día y toca «Muéstrame cómo»: la luciérnaga la recorre en el orden correcto mientras el grupo mira en silencio.",
+      "Pasa un niño al pizarrón o a la tableta, pone el dedo en el punto verde y sigue el camino; la línea se va pintando sola.",
+      "Si se sale del camino no pasa nada: la línea espera a que vuelva a entrar. Nadie corrige en voz alta.",
+      "Cambia entre minúsculas y MAYÚSCULAS con el botón de arriba, y pasa a Números cuando quieras trabajar del 0 al 9.",
+      "Con Premium, entra a Nombres y elige de tu lista del grupo: el niño traza su propio nombre letra por letra."
+    ],
+    "classroomIdeas": [
+      "La letra de la semana: proyecta la misma letra cinco minutos cada mañana y que pase un niño distinto. El lunes la luciérnaga va primero; para el viernes ya casi nadie la necesita.",
+      "Primero en el aire: antes de tocar la pantalla, todo el grupo traza la letra en el aire con el brazo entero siguiendo a la luciérnaga. Después uno pasa a hacerla con el dedo.",
+      "De la pantalla al cuaderno: en cuanto termina la letra en grande, todos la escriben en su cuaderno de doble raya. El renglón es el mismo, así que la proporción se copia sola.",
+      "Con los nombres, en Premium: el encargado del día traza su nombre al pasar lista. Es la palabra que más ganas tiene de escribir, y la que más veces va a escribir en su vida."
+    ],
+    "metaTitle": "Trazo a trazo: trazar letras y números | Preescolar y 1º",
+    "metaDescription": "Grafomotricidad en el salón: la luciérnaga marca el orden de los trazos y el niño traza la letra con el dedo sobre doble raya. Abecedario completo, gratis."
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

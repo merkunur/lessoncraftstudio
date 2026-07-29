@@ -676,6 +676,31 @@
     "metaTitle": "Følelsestjek – morgentjek med følelser til indskolingen",
     "metaDescription": "Barnet trykker på det vejr, det har i dag, og får et venligt svar. Følelsestjek til morgensamling i børnehaveklassen og indskolingen – gratis."
   },
+  "letter-studio": {
+    "slug": "bogstavvaerkstedet",
+    "name": "Bogstavværkstedet",
+    "tagline": "Ildfluen viser skrivevejen, og barnet skriver bogstavet med fingeren",
+    "metaTitle": "Skriv bogstaver – trykbogstaver og tal til 0.-1. klasse",
+    "metaDescription": "Gratis skrivetavle til bogstaver: ildfluen viser skrivevejen, og stregen kommer kun med, når barnet følger den. Hele alfabetet med æ, ø og å samt tal.",
+    "about": [
+      "Bogstavværkstedet er en skrivetavle til den interaktive tavle og klassens tablets: ét stort bogstav ad gangen, sat ned i et skrivehus med kælder, stue og loft, så barnet kan se, hvor bogstavet begynder, hvor det stopper, og hvad der går ned under skrivelinjen. En ildflue går bogstavets skrivevej igennem én gang med en lille tone for hver streg — og så er det barnets tur, med fingeren direkte på skærmen.",
+      "Stregen kommer kun med, mens fingeren bliver på sporet. Værktøjet er tålmodigt med rystende streger og skæve buer, men det holder fast i rækkefølgen, for det er bevægelsen, der skal sidde fast. Går fingeren udenfor, sker der ingenting — der kommer aldrig et rødt kryds, og der er hverken point eller tidtagning. Når bogstavet står færdigt, siger værkstedet noget venligt og går videre til det næste.",
+      "Hele alfabetet er med i både små og STORE bogstaver — også æ, ø og å — og tallene ligger klar under Tal. Værkstedet skriver trykbogstaver, som man begynder med i børnehaveklassen og 1. klasse; sammenbundet skrift hører til senere og findes ikke her. Alfabetet, tallene og skrivehuset er gratis og kører i browseren uden login og uden installation, mens navneskrivning fra klasselisten og skrivearkene til print hører til Premium."
+    ],
+    "howToUse": [
+      "Vis værkstedet på den interaktive tavle, eller giv børnene det på tablets — bogstavet står klar i skrivehuset.",
+      "Tryk på Vis hvordan, og lad børnene følge ildfluen med øjnene, før nogen tegner: den går bogstavets skrivevej i den rigtige rækkefølge.",
+      "Lad så barnet skrive bogstavet med fingeren fra den grønne prik — stregen kommer med, så længe fingeren bliver på sporet, og der sker ingenting, hvis den smutter udenfor.",
+      "Brug knapperne til at skifte mellem små og STORE bogstaver og til at gå over i Tal, når I øver cifre.",
+      "Vælg Navne, når klassen er oprettet i Navnepinde, så barnet kan skrive sit eget navn bogstav for bogstav — navnene bliver på enheden og sendes ingen steder hen."
+    ],
+    "classroomIdeas": [
+      "Begynd med forbogstavet i barnets eget navn — det er det bogstav, de fleste børn helst vil kunne skrive først — og tag så resten af navnet, et bogstav ad gangen.",
+      "Tag dagens bogstav på den interaktive tavle om morgenen: ildfluen viser skrivevejen, to-tre børn skriver det på tavlen, og resten skriver det i luften eller på ryggen af den, der sidder foran.",
+      "Tag fat i de bogstaver, der bliver vendt om — b og d, p og q: ildfluen begynder to forskellige steder, og lige netop det er dét, barnet skal nå at mærke, før hånden vænner sig til det modsatte.",
+      "Sæt værkstedet op som skrivestation ved siden af skrivehæftet, og kør det sammen med Magnetbogstaver og Lydbokse: lyt ordet igennem, byg det med bogstavbrikker, og skriv til sidst bogstaverne i hånden."
+    ]
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

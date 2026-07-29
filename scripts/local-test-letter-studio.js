@@ -17,9 +17,11 @@
      L5  the stroke counter matches the glyph, composed letters included
      L6  lcs:my-classes:v1 is byte-identical before and after a premium
          name session — this tool READS a store it does not own
-     L7  viewport sweep 320-1366: FITS (the tool has no scroll opt-in, so
-         the dock must be ON SCREEN at every width), nothing off-screen,
-         taps >= 44px, clean console
+     L7  viewport sweep 320-1366: the dock FITS outright at >=768 and is
+         PROVEN REACHABLE below it (scrolled to, not assumed); nothing
+         off-screen, taps >= 44px, clean console
+     L7b Names mode at 320/360 — the densest layout in the product, and the
+         one the fits-only sweep never entered
      L8  the ruled guide renders behind the letter at every width
 
    Usage: node scripts/local-test-letter-studio.js [--shot]
@@ -143,6 +145,41 @@ const VIEWPORTS = [{ w: 320, h: 640 }, { w: 360, h: 740 }, { w: 412, h: 820 }, {
   const ready = async (p) => { await p.waitForSelector('.ls-svg', { timeout: 8000 }); await sleep(300); };
   async function shoot(p, n) { if (!SHOT) return; await p.evaluate(() => window.scrollTo(0, 0)); await sleep(120); await p.screenshot({ path: path.join(QA, n) }); }
 
+  /* -------- FITS on desktop, REACHABLE on a phone -----------------------
+     Desktop must fit outright: the operator views at ~768-1024 and a control
+     below the fold there is a defect. Below 768 the tool opts into scrolling
+     (body.ls-wide), so the honest assertion is that the dock is REACHABLE —
+     and that is PROVEN by scrolling to it, not assumed from a CSS rule. A
+     page that overflows with overflow:hidden fails this, which is exactly the
+     320px Names defect that shipped past the fits-only sweep. */
+  async function dockReachable(p, v) {
+    return p.evaluate((vw, vh) => {
+      const lowest = () => {
+        let low = -1, who = '';
+        for (const b of document.querySelectorAll('.ls-controls button, .ls-card > button')) {
+          const r = b.getBoundingClientRect();
+          if (r.height && r.bottom > low) { low = r.bottom; who = b.className; }
+        }
+        return { low, who };
+      };
+      const before = lowest();
+      const fits = before.low > 0 && before.low <= vh;
+      /* ⚠ the shell sizes html/body to the viewport, so when the tool opts into
+         `body{overflow-y:auto}` the BODY is the scroll container and the window
+         never moves — window.scrollTo reported 0px and the probe read that as
+         "cannot scroll". Drive every candidate and measure what actually took. */
+      const cands = [document.scrollingElement, document.documentElement, document.body].filter(Boolean);
+      for (const el of cands) el.scrollTop = el.scrollHeight;
+      window.scrollTo(0, document.documentElement.scrollHeight);
+      const scrolled = Math.round(Math.max(window.scrollY, ...cands.map(el => el.scrollTop)));
+      const after = lowest();
+      const reachable = after.low > 0 && after.low <= vh + 1;
+      for (const el of cands) el.scrollTop = 0;
+      window.scrollTo(0, 0);
+      return { fits, reachable, scrolled, who: before.who, low: Math.round(before.low), vh };
+    }, v.w, v.h);
+  }
+
   /* -------- the pointer rig: viewBox (0..100 x, 0..110 y) -> page px ----- */
   async function svgRect(p) {
     return p.evaluate(() => { const r = document.querySelector('.ls-svg').getBoundingClientRect(); return { x: r.left, y: r.top, w: r.width, h: r.height }; });
@@ -193,11 +230,63 @@ const VIEWPORTS = [{ w: 320, h: 640 }, { w: 360, h: 740 }, { w: 412, h: 820 }, {
     }, v.w, v.h);
     ok(`${v.w}px nothing off-screen`, m.off.length === 0, m.off.join(' | '));
     ok(`${v.w}px taps >=44px`, m.small.length === 0, m.small.slice(0, 3).join(', '));
-    ok(`${v.w}px controls FIT on screen`, m.low > 0 && m.low <= v.h, `lowest control ${m.who} bottom ${m.low} > ${v.h}`);
+    const reach = await dockReachable(p, v);
+    if (v.w >= 768) ok(`${v.w}px controls FIT on screen`, reach.fits, `lowest control ${reach.who} bottom ${reach.low} > ${v.h}`);
+    else ok(`${v.w}px controls are REACHABLE (scroll ${reach.scrolled}px)`, reach.reachable, `${reach.who} still off-screen after scrolling`);
     ok(`${v.w}px the ruled guide renders`, m.rules >= 3, 'got ' + m.rules);
     ok(`${v.w}px the letter + start dot render`, m.guides >= 1 && m.dot === 1, `guides ${m.guides} dot ${m.dot}`);
     ok(`${v.w}px no console errors`, p._errs.length === 0, p._errs[0]);
     if ([360, 768, 1024].includes(v.w)) await shoot(p, `studio-${v.w}.png`);
+    await p.close();
+  }
+
+  /* ---------- L7b Names mode at PHONE width ---------- */
+  /* The sweep above only ever entered the default Letters mode, so the
+     densest layout in the product — a two-line name header, the roster grid,
+     and a THIRD control (the premium printable) on one row — was never
+     measured at 320/360. That is exactly where a row overflows. */
+  console.log('\nL7b — Names mode at phone width (the densest layout)');
+  for (const v of [{ w: 320, h: 640 }, { w: 360, h: 740 }]) {
+    const p = await newPage({ w: v.w, h: v.h, premium: true });
+    await p.goto(BASE + '?lang=de&mode=names', { waitUntil: 'domcontentloaded' });
+    await p.waitForSelector('.ls-name', { timeout: 8000 }); await sleep(300);
+    const picker = await p.evaluate((vw) => {
+      const off = [...document.querySelectorAll('.lcs-stage *')].filter(e => {
+        const cs = getComputedStyle(e); if (cs.display === 'none' || cs.visibility === 'hidden') return false;
+        const r = e.getBoundingClientRect();
+        return r.width > 0 && (r.right > vw + 1 || r.left < -1);
+      }).map(e => e.className.baseVal || e.className);
+      return { off: off.slice(0, 3), names: document.querySelectorAll('.ls-name').length };
+    }, v.w);
+    ok(`${v.w}px names picker fits`, picker.off.length === 0, picker.off.join('|'));
+    ok(`${v.w}px the roster renders`, picker.names === NAMES.length, 'got ' + picker.names);
+    /* now enter a name — this is where the third control appears */
+    await p.evaluate(() => document.querySelectorAll('.ls-name')[0].click());
+    await sleep(350);
+    const studio = await p.evaluate((vw, vh) => {
+      const off = [...document.querySelectorAll('.lcs-stage *')].filter(e => {
+        const cs = getComputedStyle(e); if (cs.display === 'none' || cs.visibility === 'hidden') return false;
+        const r = e.getBoundingClientRect();
+        return r.width > 0 && (r.right > vw + 1 || r.left < -1);
+      }).map(e => e.className.baseVal || e.className);
+      let low = 0, who = '';
+      for (const b of document.querySelectorAll('.ls-controls button, .ls-card > button')) {
+        const r = b.getBoundingClientRect();
+        if (r.height && r.bottom > low) { low = r.bottom; who = b.className; }
+      }
+      const small = [...document.querySelectorAll('button')].filter(b => {
+        const r = b.getBoundingClientRect();
+        return r.width > 0 && (r.width < 44 || r.height < 44);
+      }).length;
+      return { off: off.slice(0, 3), low: Math.round(low), who, small, ctrls: document.querySelectorAll('.ls-controls button').length };
+    }, v.w, v.h);
+    ok(`${v.w}px names studio nothing off-screen`, studio.off.length === 0, studio.off.join('|'));
+    ok(`${v.w}px the premium third control is present`, studio.ctrls === 3, 'controls ' + studio.ctrls);
+    const nreach = await dockReachable(p, v);
+    ok(`${v.w}px names controls are REACHABLE (scroll ${nreach.scrolled}px)`, nreach.reachable, `${nreach.who} still off-screen after scrolling`);
+    ok(`${v.w}px names taps >=44px`, studio.small === 0, 'small ' + studio.small);
+    ok(`${v.w}px no console errors`, p._errs.length === 0, p._errs[0]);
+    if (v.w === 360) await shoot(p, 'names-360.png');
     await p.close();
   }
 

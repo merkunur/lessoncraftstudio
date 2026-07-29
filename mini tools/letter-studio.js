@@ -319,6 +319,16 @@ var LetterStudio = {
     var self = this;
     this.api = api;
     injectLetterStudioCSS();
+    /* Phone scroll opt-in (the learning-clock precedent). `#lcs-root` has no
+       height rule, so `.lcs-app{height:100%}` resolves to CONTENT height and
+       the clip happens at `body{overflow:hidden}` — a stage override does
+       nothing. Measured at 320 in Names mode with German labels: the header
+       wraps to 227px, the mode strip to two rows and the three controls to
+       THREE, for 908px of content in a 640px viewport. On a projector or a
+       tablet everything fits; on a phone the honest answer is that the page
+       scrolls, not that the sheet shrinks until the letter is too small to
+       copy. Desktop still has to FIT, and the gate keeps measuring that. */
+    document.body.classList.add('ls-wide');
 
     this.core = (typeof AlphabetTraceCore !== 'undefined') ? AlphabetTraceCore : null;
     this.numCore = (typeof NumberTraceCore !== 'undefined') ? NumberTraceCore : null;
@@ -932,6 +942,7 @@ function injectLetterStudioCSS() {
     + '.ls-gate-close{display:block;margin:12px auto 0;font:600 14px/1 Nunito,system-ui,sans-serif;color:#7A6A55;'
     + 'background:none;border:none;cursor:pointer;min-height:44px;}'
 
+    + '@media (max-width:560px){body.ls-wide{overflow-y:auto;}}'
     + '@media (max-width:420px){'
     + '.ls-card{padding:14px 10px 12px;border-radius:18px;}'
     + '.ls-sheet{width:min(340px,90vw);}'

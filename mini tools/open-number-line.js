@@ -1205,6 +1205,30 @@ var OpenNumberLine = {
     this._svg = svg;
     box.appendChild(svg);
 
+    /* ⚠ CLAMP THE RENDERED TEXT SIZE. Font sizes inside a viewBox are in USER
+       UNITS, so they shrink with the drawing: at 360 the notation rendered
+       ~12.3px while the HTML readout beside it stayed 15px — the maths was
+       the smallest thing on a maths screen. The marker disc is already
+       clamped to a constant 20px; do the same for text by solving for the
+       user-unit size that yields a fixed pixel size at the measured scale.
+       (Attribute font-size beats the stylesheet, so the CSS values stay as
+       the pre-layout fallback.) */
+    var self2 = this;
+    var clamp = function () {
+      var r = svg.getBoundingClientRect();
+      if (!r.width) return;
+      var scale = r.width / self2.GEOM.W;
+      if (!scale) return;
+      var set = function (sel, px) {
+        var nodes = svg.querySelectorAll(sel), i;
+        for (i = 0; i < nodes.length; i++) nodes[i].setAttribute('font-size', (px / scale).toFixed(1));
+      };
+      set('.onl-note', 21);      /* the +10 above each arc */
+      set('.onl-num', 20);       /* the landing numbers */
+    };
+    clamp();
+    this._after(0, clamp);       /* again after layout settles */
+
     /* the marker is a real focusable button so the whole tool works from
        a keyboard, not only from a finger */
     var here = this.landing(this.line);
@@ -1347,10 +1371,10 @@ function injectOpenNumberLineCSS() {
        line was the only thing that shrank, which is exactly the "tiny"
        class. Sized so the narrowest sheet still clears the 14px floor;
        the harness measures the rendered px at 320/360 so it cannot regress. */
-    + '.onl-note{fill:#F2784B;font:700 42px/1 "Baloo 2",Nunito,system-ui,sans-serif;}'
+    + '.onl-note{fill:#C2562F;font:700 42px/1 "Baloo 2",Nunito,system-ui,sans-serif;}'
     + '.onl-mark{stroke:rgba(20,107,94,.45);stroke-width:3;stroke-linecap:round;}'
     + '.onl-mark-here{stroke:#146B5E;stroke-width:4.5;}'
-    + '.onl-num{fill:rgba(20,107,94,.7);font:600 40px/1 Nunito,system-ui,sans-serif;}'
+    + '.onl-num{fill:#3C7C72;font:600 40px/1 Nunito,system-ui,sans-serif;}'
     + '.onl-num-here{fill:#146B5E;font-weight:800;}'
     + '.onl-dim{opacity:.12;}'
     /* ⚠ 44px HIT AREA, smaller DISC. The tap gate needs 44; a 44px disc

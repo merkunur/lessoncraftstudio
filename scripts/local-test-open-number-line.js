@@ -362,11 +362,18 @@ const VIEWPORTS = [{ w: 320, h: 640 }, { w: 360, h: 740 }, { w: 412, h: 820 }, {
        thing that shrank — and the sweep passed, because nothing measured
        the RENDERED size of anything inside the SVG. Measure it. */
     const legible = await p.evaluate(() => {
+      /* ⚠ MEASURE THE RENDERED FONT SIZE, NOT THE BBOX. An SVG text node's
+         bounding box includes ascender/descender space, so it read >=14 while
+         the glyphs actually rendered ~12.3px — the gate passed a defect the
+         critic then measured by hand. Font sizes inside a viewBox are USER
+         UNITS: rendered px = fontSize * (svgWidth / viewBoxWidth). */
+      const svgEl = document.querySelector('.onl-svg');
+      const scale = svgEl.getBoundingClientRect().width / OpenNumberLine.GEOM.W;
       const px = (sel) => {
         const e = document.querySelector(sel);
         if (!e) return null;
-        const r = e.getBoundingClientRect();
-        return { h: r.height, fs: parseFloat(getComputedStyle(e).fontSize) };
+        const units = parseFloat(e.getAttribute('font-size') || getComputedStyle(e).fontSize);
+        return { h: units * scale };
       };
       const note = px('.onl-note'), num = px('.onl-num');
       /* And the marker must not sit on top of the number it landed on.

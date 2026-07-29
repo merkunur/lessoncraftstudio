@@ -17,7 +17,7 @@ import { TOPIC_ENABLED_LOCALES } from '@/config/topic-locales';
 import { buildHreflangAlternates } from './hreflang';
 
 /** Canonical tool keys — match the mini-tool file basenames + MANIPULATIVES ids. */
-export const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler', 'sound-boxes', 'blending-board', 'letter-tiles', 'calendar-wall', 'number-talk-easel', 'rekenrek', 'class-timer', 'name-sticks', 'center-board', 'learning-clock', 'place-value-lab', 'picture-word-wall', 'hush-owl', 'wodb', 'story-line', 'fraction-kitchen', 'measurement-bench', 'money-mat', 'choral-counting', 'our-day', 'heart-words', 'syllable-splitter', 'estimation-jar'] as const;
+export const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler', 'sound-boxes', 'blending-board', 'letter-tiles', 'calendar-wall', 'number-talk-easel', 'rekenrek', 'class-timer', 'name-sticks', 'center-board', 'learning-clock', 'place-value-lab', 'picture-word-wall', 'hush-owl', 'wodb', 'story-line', 'fraction-kitchen', 'measurement-bench', 'money-mat', 'choral-counting', 'our-day', 'heart-words', 'syllable-splitter', 'estimation-jar', 'feelings-check-in'] as const;
 export type ToolKey = (typeof TOOL_KEYS)[number];
 
 /** Mini-tool HTML path (nginx-direct, §3.3) per tool key. */
@@ -48,6 +48,7 @@ export const TOOL_MINI_URL: Record<ToolKey, string> = {
   'heart-words': '/mini-tools/heart-words.html',
   'syllable-splitter': '/mini-tools/syllable-splitter.html',
   'estimation-jar': '/mini-tools/estimation-jar.html',
+  'feelings-check-in': '/mini-tools/feelings-check-in.html',
 };
 
 /**
@@ -86,6 +87,7 @@ export const TOOL_ACTIVITY_PREFIX: Record<ToolKey, string> = {
   /* the K-level Wondering Jar activity is the same cognition at a smaller
      quantity band (<=20 vs 30-200) — surface it as a companion, not a rival */
   'estimation-jar': 'wondering-jar',
+  'feelings-check-in': 'feelings-check-in',
 };
 
 export interface ToolEntry {
@@ -139,6 +141,7 @@ interface ToolContentFile {
   'heart-words'?: ToolEntry;
   'syllable-splitter'?: ToolEntry;
   'estimation-jar'?: ToolEntry;
+  'feelings-check-in'?: ToolEntry;
   labels: ToolContentLabels;
 }
 

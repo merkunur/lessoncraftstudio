@@ -651,6 +651,31 @@
     "metaTitle": "Overslagsglasset – overslag og antal i indskolingen",
     "metaDescription": "Fyld glasset, lad børnene sætte deres bud på tallinjen, og tæl så op i tiere sammen. Et anonymt fælles overslag til morgensamlingen. Gratis at bruge."
   },
+  "feelings-check-in": {
+    "slug": "foelelsestjek",
+    "name": "Følelsestjek",
+    "tagline": "Hvilket vejr har du i dag? Et roligt tjek-ind til morgensamlingen.",
+    "about": [
+      "Følelsestjek er en morgentavle, hvor barnet trykker på det vejr, det har indeni i dag — rolig, glad, ked af det, vred eller træt. Der kommer ingen bedømmelse og ingen point. Barnet får et venligt svar, der tager imod følelsen, som den er, og derefter et lille valg: lidt vand, det stille hjørne, tre rolige vejrtrækninger eller at fortælle det til en voksen. Barnet må også vælge ingenting. Vejret er billedet, der gør det til at holde ud at sige noget svært: skyer og regn er lige så velkomne som sol.",
+      "Tavlen taler direkte ind i trivselsarbejdet og i Fælles Mål for børnehaveklassen under Engagement og fællesskab, hvor barnet skal kunne sætte ord på egne og andres følelser. Netop derfor er der ingen rangordning: ingen bliver dagens gladeste, og ingen følelse er den rigtige. Et barn, der trykker på regn tre morgener i træk, har fortalt jer noget — uden at skulle sige det højt foran hele klassen.",
+      "Selve følelsestavlen er gratis og kræver ingen konto. Med Premium kan børnene tjekke ind med deres eget navn fra den klasseliste, I allerede har i Navnepinde, og I får klassevejret: en enkel sætning som Vores klasse er mest solrig i dag, med lidt regn. Alt bliver på jeres egen enhed, og tavlen tømmer sig selv hver nat — der gemmes ikke noget om et barn natten over, og der sendes ikke noget videre."
+    ],
+    "howToUse": [
+      "Sæt tavlen op på det interaktive whiteboard eller en tablet ved døren, og lad børnene trykke, efterhånden som de kommer ind.",
+      "Barnet trykker på det vejr, der passer i dag, og hører et venligt svar — læs det gerne højt sammen med barnet de første uger.",
+      "Bagefter kan barnet vælge én ting, der kunne hjælpe — vand, det stille hjørne, tre rolige vejrtrækninger eller en voksen. Det er helt i orden at vælge ingenting.",
+      "Med Premium trykker barnet først på sit eget navn fra klasselisten i Navnepinde og derefter på følelsen — så kan I se, hvem der mangler at tjekke ind.",
+      "Kig på klassevejret ved morgensamlingen, tal om det i to sætninger, og lad så dagen begynde."
+    ],
+    "classroomIdeas": [
+      "Gør tjek-ind til en fast del af morgenrutinen ved døren: børnene trykker, mens de hænger jakken op, så alle er landet, inden samlingen begynder.",
+      "Brug klassevejret som en fælles vejrmelding — I er mest solrige i dag, med lidt regn — og aftal én lille ting, klassen gør ved regnen, uden at nogen skal fortælle hvem der trykkede.",
+      "Sæt ord på følelserne over tid: hæng de fem vejrbilleder op ved siden af tavlen, og øv sætningen Jeg er ked af det, fordi … så børnene får sproget med sig, når følelsen er der.",
+      "Tag et roligt tjek igen efter frikvarteret på en dag, hvor der har været uro — det viser børnene, at følelser skifter i løbet af dagen, og at det er helt normalt."
+    ],
+    "metaTitle": "Følelsestjek – morgentjek med følelser til indskolingen",
+    "metaDescription": "Barnet trykker på det vejr, det har i dag, og får et venligt svar. Følelsestjek til morgensamling i børnehaveklassen og indskolingen – gratis."
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

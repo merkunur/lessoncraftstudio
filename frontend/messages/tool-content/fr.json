@@ -651,6 +651,31 @@
     "metaTitle": "Bocal mystère : le rituel d’estimation en GS et CP",
     "metaDescription": "Un outil gratuit pour le rituel d’estimation : chacun pose son idée sur une ligne numérique, puis on vide le bocal dix par dix. GS, CP, CE1, sans classement."
   },
+  "feelings-check-in": {
+    "slug": "meteo-des-emotions",
+    "name": "La météo des émotions",
+    "tagline": "Le rituel d’accueil : chacun dit le temps qu’il fait en lui.",
+    "about": [
+      "La météo des émotions est un rituel d’accueil bien connu des classes de maternelle : avant de commencer la journée, chacun dit quel temps il fait à l’intérieur. Cet outil le pose en grand sur le vidéoprojecteur ou le TNI. Cinq personnages attendent l’enfant — calme, content, triste, en colère, fatigué. Il touche celui qui lui ressemble, et le personnage lui répond d’une voix douce : « Merci de nous le dire. Ici, on a le droit d’être triste. » Aucune émotion n’est corrigée, consolée trop vite ni félicitée : elle est simplement accueillie.",
+      "Vient ensuite un petit menu « Qu’est-ce qui pourrait aider ? » — boire un peu d’eau, aller au coin calme, respirer trois fois tout doucement, en parler à un adulte. L’enfant peut en choisir un, ou aucun : rien n’est obligatoire, et cette partie reste gratuite pour tout le monde. C’est un appui direct pour ce que demandent les programmes officiels — « identifier et exprimer en les régulant ses émotions et ses sentiments » en enseignement moral et civique au cycle 2, et, en maternelle, apprendre à vivre ensemble en mettant des mots sur ce que l’on ressent. C’est aussi, tout simplement, du travail sur les compétences psychosociales.",
+      "En mode « Notre classe » (Premium), l’enfant touche d’abord son prénom — la liste est celle des Bâtonnets de prénoms, vous ne la ressaisissez pas — puis son émotion. Vous voyez alors d’un coup d’œil qui est arrivé, et une phrase résume la journée : « Aujourd’hui, notre classe est surtout ensoleillée, avec un peu de pluie. » Jamais de classement, jamais de comparaison entre les enfants. Et rien n’est conservé : le tableau s’efface tout seul chaque nuit, tout reste sur votre appareil, rien n’est envoyé nulle part."
+    ],
+    "howToUse": [
+      "Projetez le tableau au moment de l’accueil et laissez-le tourner : les enfants viennent l’un après l’autre, sans que vous ayez à gérer un tour de parole.",
+      "L’enfant touche le personnage qui lui ressemble : celui-ci s’ouvre en grand et lui répond à voix haute (la voix se coupe dans les réglages).",
+      "Il choisit ensuite, s’il le souhaite, une chose qui pourrait l’aider — ou rien du tout — puis revient au tableau pour laisser la place au suivant.",
+      "En mode « Notre classe », l’enfant touche d’abord son prénom : le compteur « 12 sur 24 ont répondu » vous dit qui manque encore à l’appel.",
+      "Ouvrez « La météo de la classe » pour lire la phrase du jour au regroupement — puis oubliez-la : elle disparaît d’elle-même cette nuit."
+    ],
+    "classroomIdeas": [
+      "Faites-en le premier geste de la journée, comme l’appel : les enfants entrent, posent leur cartable et touchent leur temps intérieur. En quelques semaines le rituel se fait tout seul, et vous récupérez de précieuses minutes de regroupement.",
+      "Au regroupement, lisez la phrase de la météo de la classe à voix haute : « surtout ensoleillée, avec un peu de pluie ». C’est une entrée douce pour parler du groupe sans désigner personne, et un vrai moment de langage d’évocation.",
+      "Gardez le menu « Qu’est-ce qui pourrait aider ? » comme affichage permanent : les quatre gestes (l’eau, le coin calme, souffler, parler à un adulte) deviennent le vocabulaire commun de la classe pour les moments difficiles.",
+      "Repassez-y après la récréation ou en fin de journée : un enfant en colère le matin et calme à midi découvre tout seul, sans qu’on le lui explique, que les émotions passent."
+    ],
+    "metaTitle": "Météo des émotions : affichage gratuit maternelle et CP",
+    "metaDescription": "Le rituel d’accueil des émotions à projeter : chaque enfant touche son temps intérieur — calme, content, triste, en colère ou fatigué. Gratuit, sans compte."
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

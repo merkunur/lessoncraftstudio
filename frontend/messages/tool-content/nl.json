@@ -651,6 +651,31 @@
     "metaTitle": "Hoeveel zitten erin? Schatten met de klas op het digibord",
     "metaDescription": "Schat samen hoeveel het er zijn: kinderen tikken hun schatting op de getallenlijn, daarna tel je met tien tegelijk hardop uit. Gratis, zonder wedstrijd."
   },
+  "feelings-check-in": {
+    "slug": "gevoelsbord",
+    "name": "Gevoelsbord",
+    "tagline": "Hoe voel je je vandaag? Een rustige start van de schooldag",
+    "about": [
+      "Een gevoelsbord hoort bij de inloop van bijna elke kleuterklas: even stilstaan bij hoe je binnenkomt, voordat de dag echt begint. Dit is de digitale versie voor op het digibord of op een tablet naast de kapstok. Een kind kijkt naar vijf vriendelijke gezichten — rustig, blij, verdrietig, boos of moe — en tikt aan wat past. Daarna klinkt er een kalme stem die het gevoel gewoon aanneemt: “Dank je wel dat je het vertelt. Hier mag je verdrietig zijn.” Er wordt niets opgelost, niets goedgepraat en niemand opgevrolijkt.",
+      "Op dit bord bestaat er geen juist of onjuist gevoel. Boos en verdrietig krijgen precies dezelfde warme reactie als blij, en er is geen puntentelling, geen sterretje en geen vergelijking tussen kinderen. Na het kiezen verschijnt een klein menu “wat zou kunnen helpen?” — een slokje water, de stille hoek, drie keer rustig ademhalen of het aan een volwassene vertellen. Een kind mag er één kiezen, of geen: het is een aanbod, geen opdracht. Dat sluit aan bij kerndoel 34, waarin kinderen leren zorg te dragen voor hun eigen welbevinden en dat van anderen.",
+      "Het bord is gratis te gebruiken, zonder account. Met Premium tikt elk kind eerst op zijn eigen naam — dezelfde klassenlijst als in Beurtenstokjes — en zie jij als leerkracht het weerbericht van de groep: “Onze klas is vandaag vooral zonnig, met een beetje regen.” Zo merk je in één oogopslag dat er ergens een buitje hangt, zonder dat er een kind wordt aangewezen. Alles blijft op dit apparaat, het bord maakt zichzelf elke nacht weer leeg en er gaat nooit iets over een kind ergens naartoe."
+    ],
+    "howToUse": [
+      "Zet het bord op het digibord of leg een tablet klaar bij de deur en kies “Alleen ik” voor de gratis versie.",
+      "Een kind tikt op het gezichtje dat vandaag past. De stem geeft er een kort, vriendelijk antwoord op terug.",
+      "Daarna verschijnt “wat zou kunnen helpen?”. Laat het kind zelf kiezen — of niets kiezen — en tik op “Terug naar het bord” voor het volgende kind.",
+      "Wil je met namen werken? Kies “Onze klas” (Premium). Het bord leest je klassenlijst uit Beurtenstokjes, elk kind tikt op zijn naam en jij ziet hoeveel kinderen al gekozen hebben.",
+      "Bekijk na de inloop het weer in onze klas. Bespreek dat als groep, nooit per kind, en laat het bord daarna vanzelf leeglopen."
+    ],
+    "classroomIdeas": [
+      "Bij de deur tijdens de inloop: leg de tablet naast de kapstok. Kinderen die met een buitje binnenkomen, hebben het al verteld nog voor de kring begint — dat scheelt vaak een moeizame ochtend.",
+      "In de kring als taalmoment: praat samen over het weerbericht van de groep. “Er valt vandaag een beetje regen in onze klas — wat kunnen wij voor elkaar doen?” Zo koppel je gevoelswoorden aan zorgen voor elkaar, zonder dat iemand hoeft te vertellen wie de regen was.",
+      "Als vaste route bij boosheid of verdriet: laat het hulpmenu doen waar het voor is. Een kind dat zélf voor de stille hoek of drie keer ademhalen kiest, oefent zelfregulatie die veel beter beklijft dan een aanwijzing van de juf of meester.",
+      "Aan het eind van de dag nog een keer: dezelfde vijf gezichten, vaak een andere uitkomst. Kinderen merken zo dat een gevoel geen etiket is dat de hele dag blijft plakken."
+    ],
+    "metaTitle": "Gevoelsbord voor kleuters en groep 3-4 — hoe voel je je?",
+    "metaDescription": "Gratis gevoelsbord voor het digibord: kinderen tikken aan hoe ze zich voelen en krijgen een warm antwoord. Zonder punten, zonder account, elke dag weer leeg."
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

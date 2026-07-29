@@ -652,6 +652,31 @@
     "metaTitle": "Estimation Jar — Guess How Many Station for K-2 Math",
     "metaDescription": "A whole-class estimation jar for K-2: children tap a number line to guess how many, then the objects come out in tens and the class counts aloud. No winners."
   },
+  "feelings-check-in": {
+    "slug": "feelings-check-in",
+    "name": "Feelings Check-In",
+    "tagline": "How is your weather today? A kind arrival board for K-3 feelings",
+    "about": [
+      "Feelings Check-In turns the morning question every K-3 teacher already asks into a small, warm ritual on the projector. Five weather friends stand on the board — calm, happy, sad, angry and tired — and a child taps the one that fits. Whatever they tap, they hear the same kind reply: thank you for telling us, and this feeling is welcome here. Nothing is ranked, nothing is corrected, and no feeling gets a warmer answer than any other. Sad and angry are met exactly as gladly as happy.",
+      "After the reply, a quiet menu offers four things that sometimes help — a drink of water, the quiet corner, three slow breaths, or telling a grown-up. It is an offer, never an instruction: a child can take one or take none, and the board never asks again. That supportive half is deliberately free forever, because a child who has just told you they are angry should not meet a paywall. There are no scores here, no timers, no streaks and no badges — nothing that would turn a feeling into a performance.",
+      "The board is built for how classrooms actually handle this: nothing about a child is saved, nothing is ever sent anywhere, and every morning starts fresh, so yesterday’s hard day never follows a child onto the screen. Premium adds check-in by name — children tap their own name from the same roster you already keep in Name Sticks — and a class weather summary for you alone: our class is mostly sunny today, with a little rain. It gives you the room’s temperature in one glance without putting any child on display, and it practises the everyday habit of naming a feeling that most SEL frameworks, CASEL’s among them, treat as the starting point of self-awareness."
+    ],
+    "howToUse": [
+      "Open Feelings Check-In on the projector as the class arrives and leave it up through the settling-in minutes.",
+      "Teach the picture once: these are today’s weathers, and every one of them is allowed on our board.",
+      "Let children tap the feeling that fits as they come in — each one hears a short spoken reply and sees what could help.",
+      "Leave the help menu alone. Taking a drink of water or three slow breaths is a child’s choice, not a task you check.",
+      "Premium: pick your class so children tap their name first, then read the class weather line to yourself before you begin."
+    ],
+    "classroomIdeas": [
+      "Arrival routine: run the board every morning for two weeks until checking in is as automatic as hanging up a coat.",
+      "Feelings vocabulary: pair the board with your word wall so calm, angry and tired become words children can say, not just tap.",
+      "Quiet re-check after lunch or after a hard playtime — the board clears nightly, so a second check-in costs nothing.",
+      "Premium class weather: read the summary before your first lesson and adjust the pace, without naming a single child aloud."
+    ],
+    "metaTitle": "Feelings Check-In — A K-3 Feelings Chart for Mornings",
+    "metaDescription": "A warm morning feelings chart for K-3: children tap how they feel and hear a kind reply, then see what could help. No scores, and nothing is saved."
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

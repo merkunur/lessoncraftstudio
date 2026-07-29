@@ -651,6 +651,31 @@
     "metaTitle": "Quanti nel barattolo? Stima di quantità in classe",
     "metaDescription": "Il barattolo delle stime per l’accoglienza: i bambini toccano la linea dei numeri, poi si svuota dieci alla volta e si conta insieme. Gratis, senza login."
   },
+  "feelings-check-in": {
+    "slug": "meteo-delle-emozioni",
+    "name": "Il meteo delle emozioni",
+    "tagline": "Che tempo fa dentro di te oggi? L’accoglienza calma della classe.",
+    "about": [
+      "Il meteo delle emozioni è il tabellone dell’accoglienza: si proietta alla lavagna la mattina e ogni bambino tocca la faccia che gli somiglia oggi — tranquillo, felice, triste, arrabbiato, stanco. Non c’è una risposta giusta e non c’è una risposta sbagliata: la tristezza e la rabbia sono accolte esattamente come la gioia, con una frase gentile letta ad alta voce che riconosce ciò che il bambino ha detto, senza consolarlo di corsa e senza chiedergli di cambiare umore.",
+      "Subito dopo compare la domanda «Che cosa potrebbe aiutare?» con quattro proposte concrete: bere un po’ d’acqua, andare nell’angolo della calma, fare tre respiri lenti, dirlo a un adulto. Il bambino può sceglierne una oppure nessuna — non è un compito. Questa parte è e resta gratuita, perché la cura non sta mai dietro un abbonamento. Il lavoro è quello che le Indicazioni nazionali chiedono già nel campo di esperienza «Il sé e l’altro» e poi in educazione civica: dare un nome a ciò che si sente e imparare che in classe c’è posto per tutte le emozioni.",
+      "Con Premium il tabellone legge l’elenco della classe già creato in Bastoncini dei nomi: ogni bambino tocca prima il proprio nome, poi la propria emozione, e l’insegnante vede il meteo della giornata in una sola frase — «Oggi la nostra classe è soprattutto soleggiata, con un po’ di pioggia». Nessuna classifica, nessun punteggio, nessun confronto tra bambini: solo il tempo che fa in classe stamattina. Tutto rimane su questo dispositivo e il tabellone si svuota da solo ogni notte: niente viene conservato o inviato altrove."
+    ],
+    "howToUse": [
+      "Proietta il tabellone durante l’accoglienza e lascia che i bambini guardino le cinque facce prima di scegliere: leggere le emozioni sui volti è già metà del lavoro.",
+      "Chi vuole tocca la faccia che gli somiglia oggi e ascolta la frase che arriva: non commentarla e non chiedere spiegazioni, il bambino racconterà se e quando vorrà.",
+      "Lascia scegliere liberamente fra le proposte di «Che cosa potrebbe aiutare?», ricordando ad alta voce che si può anche non scegliere nulla.",
+      "Con Premium crea la classe in Bastoncini dei nomi: qui i bambini toccheranno prima il proprio nome e tu vedrai a colpo d’occhio chi non ha ancora fatto il suo check-in.",
+      "Chiudi l’accoglienza leggendo insieme il meteo della classe, senza aggiungere giudizi: è una fotografia della mattina, non una valutazione."
+    ],
+    "classroomIdeas": [
+      "Fai del check-in un rito fisso dei primi cinque minuti: i bambini che faticano a entrare nella giornata trovano un modo per farsi capire senza dover parlare davanti a tutti.",
+      "Se il meteo della classe è nuvoloso o piovoso, cambia il programma per dieci minuti — una storia, una canzone, un gioco di respiro — e dillo chiaramente: «Oggi il tempo chiede calma».",
+      "Collega il tabellone all’angolo della calma: chi sceglie «tre respiri lenti» o «l’angolo della calma» può andarci subito, senza chiedere il permesso.",
+      "Dopo qualche settimana disegna insieme il meteo dell’intera settimana su un cartellone: i bambini scoprono che le emozioni cambiano, e che nessuna resta per sempre."
+    ],
+    "metaTitle": "Il meteo delle emozioni: come ti senti oggi? Gratis",
+    "metaDescription": "Tabellone delle emozioni gratuito per l’infanzia e la primaria: i bambini toccano come si sentono e la classe vede il suo meteo. Senza voti né punteggi."
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

@@ -1129,7 +1129,7 @@ function injectHeartWordsCSS() {
     + 'width:calc(min(112px, (100% - (var(--hw-n) - 1) * 10px) / var(--hw-n)));'
     + 'aspect-ratio:1/1;min-height:56px;border:3px solid #146B5E44;border-radius:14px;background:#FFF9EE;'
     + 'cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;transition:background .18s,border-color .18s,box-shadow .18s}'
-    + '.hw-box .hw-glyph{font:700 clamp(20px,5.6vw,34px)/1 Baloo 2,Nunito,system-ui,sans-serif;color:#3A3226;letter-spacing:.5px}'
+    + '.hw-box .hw-glyph{font:700 clamp(20px,5.6vw,34px)/1 "Baloo 2",Nunito,system-ui,sans-serif;color:#3A3226;letter-spacing:.5px}'
     + '.hw-box.hw-wide-glyph .hw-glyph{font-size:clamp(16px,4.2vw,26px)}'
     + '.hw-box .hw-tie{position:absolute;left:18%;right:18%;bottom:9px;height:3px;border-radius:2px;background:#F2784B99}'
     + '.hw-box.hw-mapped{background:#FFFFFF;border-color:#146B5E;box-shadow:0 3px 0 #146B5E22}'
@@ -1143,7 +1143,7 @@ function injectHeartWordsCSS() {
     + '@keyframes hw-underline{to{transform:scaleX(1)}}'
     + '@keyframes hw-stamp{0%{transform:scale(0);opacity:0}70%{transform:scale(1.15);opacity:1}100%{transform:scale(1);opacity:1}}'
     + '@keyframes hw-pop{50%{transform:translateY(-3px)}}'
-    + '.hw-tail{font:700 clamp(18px,4.6vw,28px)/1 Baloo 2,Nunito,system-ui,sans-serif;color:#9A8F7E;margin-top:-4px}'
+    + '.hw-tail{font:700 clamp(18px,4.6vw,28px)/1 "Baloo 2",Nunito,system-ui,sans-serif;color:#9A8F7E;margin-top:-4px}'
 
     /* --- flip button --- */
     + '.hw-flip{font:600 15px/1.2 Nunito,system-ui,sans-serif;color:#146B5E;background:#FFF3DC;border:2px solid #146B5E33;'
@@ -1199,7 +1199,7 @@ function injectHeartWordsCSS() {
     + '.hw-panel{background:#FFFDF7;border-radius:20px;max-width:520px;width:100%;max-height:82vh;overflow:auto;'
     + 'padding:16px;box-shadow:0 18px 44px -18px #00000066;z-index:71}'
     + '.hw-panel-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px}'
-    + '.hw-panel-title{font:700 18px/1.2 Baloo 2,Nunito,system-ui,sans-serif;color:#146B5E;margin:0}'
+    + '.hw-panel-title{font:700 18px/1.2 "Baloo 2",Nunito,system-ui,sans-serif;color:#146B5E;margin:0}'
     + '.hw-panel-close{font:600 14px/1 Nunito,system-ui,sans-serif;color:#146B5E;background:#FFF3DC;'
     + 'border:2px solid #146B5E33;border-radius:999px;padding:9px 14px;min-height:44px;cursor:pointer}'
     + '.hw-shelfsec{border-top:1px solid #146B5E1A;padding:10px 0}'

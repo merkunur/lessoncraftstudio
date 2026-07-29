@@ -943,6 +943,14 @@ function injectLetterStudioCSS() {
     + 'background:none;border:none;cursor:pointer;min-height:44px;}'
 
     + '@media (max-width:560px){body.ls-wide{overflow-y:auto;}}'
+    /* Long compound titles break MID-WORD at phone widths — the shell's
+       .lcs-title carries `overflow-wrap:anywhere`, so German
+       "Buchstabenwerkstatt" rendered as "Buchstabenw / erkstatt". Same class
+       as fi "Magneettikirjaimet" on Letter Tiles, and the same tool-layer
+       fix: give the title its own row so it has the width to break sanely.
+       (`hyphens:auto` does NOT work — headless and most Chrome builds carry
+       no de/fi hyphenation dictionary.) */
+    + '@media (max-width:480px){body.ls-wide .lcs-header{flex-direction:column;align-items:flex-start;gap:8px;}}'
     + '@media (max-width:420px){'
     + '.ls-card{padding:14px 10px 12px;border-radius:18px;}'
     + '.ls-sheet{width:min(340px,90vw);}'

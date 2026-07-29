@@ -604,6 +604,28 @@
       "Print de kaarten en laat tweetallen om de beurt het hartstukje in het woord van de ander aanwijzen en uitleggen waarom dat stukje lastig is."
     ]
   },
+  "syllable-splitter": {
+    "slug": "lettergrepen-klappen",
+    "name": "Klap de klankgroepen",
+    "tagline": "Klap de klankgroepen, tik op de trommel en zie bij elke klap een boog onder het woord verschijnen.",
+    "metaTitle": "Lettergrepen klappen oefenen — gratis klankgroepenkaart groep 3",
+    "metaDescription": "Klap de lettergrepen — de klankgroepen — van woorden met plaatje: tik op de trommel, zie bij elke klap een boog en bouw het woord daarna weer op. Gratis.",
+    "about": [
+      "Klap de klankgroepen is een digitale klankgroepenkaart voor groep 2 tot en met groep 4. Er verschijnt een woordkaart met een plaatje; de klas zegt het woord hardop en klapt de klankgroepen, terwijl één kind per klap op de trommel tikt. Elke tik zet een boog onder het woord, zodat kinderen zien wat ze horen. Daarna valt het woord uiteen in kaartjes die door elkaar gehusseld en weer opgebouwd worden. Het aantal klankgroepen komt uit de meertalige lettergreepcontrole van het platform en wordt nooit met de hand aangepast. De trommel telt mee, maar keurt niets af: u en de klas bepalen samen wat jullie horen.",
+      "Gratis: de set van twaalf woorden met twee klankgroepen, met bogen, kaartjes en het gesproken woord. Premium: drie extra woordsets met woorden van één, twee en drie klankgroepen, plus de sorteerweides waarin kinderen plaatjes verdelen op het aantal klappen."
+    ],
+    "howToUse": [
+      "Kies een woordset en laat het plaatje zien; laat de klas het woord eerst hardop zeggen.",
+      "Klap samen de klankgroepen terwijl één kind per klap op de trommel tikt; onder het woord verschijnt bij elke tik een boog.",
+      "Ga naar Bouwen, hussel de kaartjes en laat een kind het woord weer op volgorde leggen.",
+      "Open in Premium de sorteerweides en laat kinderen de plaatjes verdelen over één, twee en drie klankgroepen."
+    ],
+    "classroomIdeas": [
+      "Klankgroepenrij: geef vier kinderen ieder een plaatje en laat de rest ze op volgorde leggen van weinig naar veel klappen.",
+      "Naamklappen als dagopening: klap eerst de namen uit de kring en laat de trommel daarna de woorden van de dag doen.",
+      "Klap-en-loop: leg drie hoepels neer voor één, twee en drie klankgroepen; bij elk woord rennen de kinderen naar de juiste hoepel."
+    ]
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

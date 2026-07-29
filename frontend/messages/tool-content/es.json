@@ -604,6 +604,28 @@
       "Con las tarjetas impresas, haz parejas de palabra y oración boca abajo y que el grupo empareje leyendo en voz alta, sin prisa."
     ]
   },
+  "syllable-splitter": {
+    "slug": "palmas-y-silabas",
+    "name": "Palmas y sílabas",
+    "tagline": "Una palmada por sílaba, un arco por palmada.",
+    "metaTitle": "Palmas y sílabas: separar palabras en sílabas para primaria",
+    "metaDescription": "Tambor digital para contar y separar sílabas con todo el grupo. Tarjetas ilustradas, arcos silábicos, armado de palabras y corrales de dos, tres y cuatro palmadas. Gratis, sin cuenta.",
+    "about": [
+      "Las sílabas son la puerta de entrada a la lectura en español. Con el método silábico, un niño que domina la sílaba puede leer palabras que nunca ha visto, porque nuestra ortografía es casi transparente: lo que se oye se escribe. Palmas y sílabas lleva esa práctica a la pantalla del salón. Aparece una tarjeta ilustrada, el grupo dice la palabra en voz alta y da una palmada por sílaba mientras un niño toca el tambor; cada toque dibuja un arco debajo de la palabra, de modo que el conteo deja de ser algo que solo se oye y pasa a ser algo que se ve. Después la palabra se separa en tarjetas de sílabas para volver a armarla, y en el modo de clasificar cada imagen se arrastra al corral que le toca. Todas las palabras vienen de un banco verificado, así que el conteo nunca falla.",
+      "El primer grupo de palabras de dos palmadas es gratuito para siempre: catorce palabras ilustradas con el tambor, los arcos y el armado de sílabas, sin cuenta ni instalación. Premium abre los otros tres grupos, hasta cincuenta y seis palabras en total, el modo de clasificar con los corrales de dos, tres y cuatro palmadas, y los enlaces directos para abrir un grupo específico en la pantalla del salón."
+    ],
+    "howToUse": [
+      "Proyecta la tarjeta y pide al grupo que diga la palabra completa en voz alta antes de separarla.",
+      "Elige a un niño para que toque el tambor una vez por cada palmada, mientras el resto del grupo da las palmadas al mismo tiempo.",
+      "Revisen juntos los arcos que aparecieron debajo de la palabra y cuéntenlos en voz alta señalando cada uno.",
+      "Pasa al modo Armar para que reconstruyan la palabra con las tarjetas de sílabas mezcladas."
+    ],
+    "classroomIdeas": [
+      "Pase de lista silábico: cada niño da las palmadas de su propio nombre antes de sentarse y dice cuántas fueron.",
+      "Reto de los corrales: en el modo Clasificar, dos equipos se turnan para mandar cada imagen al corral que le toca y explican en voz alta por qué.",
+      "Cacería de sílabas: después de la sesión, el grupo busca en el salón objetos de tres palmadas y los dibuja en el pizarrón."
+    ]
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

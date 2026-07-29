@@ -604,6 +604,28 @@
       "Skriv ut kortene og la barna sortere dem i stum bokstav, sj-lyd og o som sier u."
     ]
   },
+  "syllable-splitter": {
+    "slug": "klapp-stavelsene",
+    "name": "Klapp stavelsene",
+    "tagline": "Si ordet, klapp stavelsene på trommen, og sett ordet sammen igjen.",
+    "metaTitle": "Klapp stavelsene – stavelsesdeling for 1. og 2. trinn",
+    "metaDescription": "Gratis klasseromsverktøy for stavelser: elevene sier ordet, klapper stavelsene på trommen og setter ordet sammen igjen. Bilder og ordbank for 1. og 2. trinn.",
+    "about": [
+      "Klapp stavelsene gjør stavelsesdeling til noe klassen gjør sammen, ikke noe elevene bare leser om. Et bilde og et ord kommer opp på skjermen. Klassen sier ordet høyt, klapper stavelsene, og en elev trykker på trommen én gang for hvert klapp. For hvert trykk tegnes en bue under ordet, slik at det elevene hører blir synlig. Deretter deler ordet seg i stavelseskort som skal settes sammen igjen, og koblingen mellom lyd og skrift blir tydelig. Alle ordene er hentet fra en ordbank der stavelsesdelingen er kontrollert mot flere uavhengige kilder, så delingen på skjermen stemmer med den elevene møter i leseopplæringen på 1. og 2. trinn.",
+      "Det første ordsettet – fjorten tostavelsesord – er gratis for alle, uten innlogging. Med Premium får du de tre andre ordsettene (ett klapp, flere tostavelsesord og trestavelsesord) og sorteringsmodus, der elevene drar bildene inn i innhegninger etter hvor mange klapp ordet har."
+    ],
+    "howToUse": [
+      "Vis verktøyet på tavle eller skjerm, og la klassen si ordet høyt sammen før dere klapper.",
+      "La én elev trykke på trommen én gang for hvert klapp mens resten av klassen klapper – buene under ordet viser hvor mange stavelser dere fant.",
+      "Bytt til Bygge og la elevene sette stavelseskortene sammen til ordet igjen, slik at de ser delingen i skrift.",
+      "Bruk Sortere til å dra bildene inn i innhegninger med ett, to eller tre klapp, og snakk om hva ordene i hver innhegning har til felles."
+    ],
+    "classroomIdeas": [
+      "Navneklapp: start dagen med å klappe stavelsene i navnene til elevene, og still klassen opp i rekker etter hvor mange klapp navnet har.",
+      "Stasjonsarbeid: én gruppe klapper ord på nettbrettet, mens en annen gruppe tegner buer under de samme ordene i skriveboka.",
+      "Gjett ordet: klapp stavelsene i et ord fra ordsettet uten å si det, og la klassen finne ut hvilket bilde du tenker på."
+    ]
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

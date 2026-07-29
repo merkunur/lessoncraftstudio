@@ -604,6 +604,28 @@
       "Arbejd med familierne samlet – hv-ordene (hvad, hvor, hvem, hvis) og de bløde d-ord (med, ved, mad, ud) – så børnene selv opdager mønsteret."
     ]
   },
+  "syllable-splitter": {
+    "slug": "klap-stavelserne",
+    "name": "Klap stavelserne",
+    "tagline": "Sig ordet, klap stavelserne på trommen, og byg ordet op igen.",
+    "metaTitle": "Klap stavelserne – gratis stavelsesøvelse til indskolingen",
+    "metaDescription": "Vis et billedkort, klap stavelserne på trommen, og byg ordet op igen med stavelseskort. Gratis dansk stavelsesværktøj til børnehaveklassen og 1. klasse.",
+    "about": [
+      "Klap stavelserne gør stavelsesdeling til noget, børnene kan høre, se og mærke på én gang. Et billedkort dukker op, klassen siger ordet højt, og et barn trykker på trommen én gang for hvert klap. For hvert tryk tegnes en bue under ordet, så det, klassen lige har klappet, bliver synligt på tavlen. Bagefter deler ordet sig i stavelseskort, som børnene sætter i rækkefølge igen – fra lyd til skrift i det samme ord. Alle ord kommer fra en dansk ordsamling, hvor stavelsestallet er bekræftet af flere uafhængige kilder, og hver eneste deling er gennemgået på dansk, så barnet aldrig møder en deling, der ikke kan siges højt. Ordene er konkrete navneord med billede: kanin, tromme, sommerfugl, søhest. Værktøjet kører i browseren, kræver ingen installation og passer til både tavle og tablet.",
+      "Det første ordsæt – ord med to klap – er gratis for alle og kræver hverken login eller abonnement. Med Premium følger de tre øvrige ordsæt (ord med et klap, flere ord med to klap og ord med tre klap) samt sorteringsbanen, hvor børnene trækker billederne over i folde efter antal klap."
+    ],
+    "howToUse": [
+      "Vælg et ordsæt, og vis det første billedkort på tavlen. Lad klassen sige ordet højt sammen, før I klapper.",
+      "Bed et barn trykke på trommen én gang for hvert klap, mens resten af klassen klapper med. Buerne tegner sig under ordet, ét klap ad gangen.",
+      "Skift til Bygge, og lad børnene sætte stavelseskortene i rækkefølge, så ordet står samlet igen. Brug Bland dem, hvis I vil prøve igen.",
+      "Slut af med Sortere: børnene trækker hvert billede over i folden med et, to eller tre klap og siger ordet højt, mens de gør det."
+    ],
+    "classroomIdeas": [
+      "Navneklap som opvarmning: klap børnenes egne fornavne på trommen, før I går videre til billedkortene. De fleste opdager helt selv, at Sofie og Mads ikke klapper ens.",
+      "Stavelsesjagt i klasselokalet: hvert barn finder en ting, hvis navn klappes to gange, tegner den på en seddel og viser den frem på tavlen bagefter.",
+      "Sorteringsbanen som makkerarbejde: to børn deler bunken imellem sig, klapper hvert ord højt og bliver enige om folden, før de trækker billedet derover."
+    ]
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

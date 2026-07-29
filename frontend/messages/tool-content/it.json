@@ -604,6 +604,28 @@
       "Coppie che cambiano tutto: leggete insieme ghiro/giro, che/ce, lì/li, papà/papa e chiedete che cosa fa quella piccola lettera o quell’accento."
     ]
   },
+  "syllable-splitter": {
+    "slug": "batti-le-sillabe",
+    "name": "Batti le sillabe",
+    "tagline": "Dite la parola, battete le mani, guardate le sillabe comparire.",
+    "metaTitle": "Batti le sillabe — divisione in sillabe per la classe prima",
+    "metaDescription": "Batti le sillabe: la classe dice la parola, batte le mani e tocca il tamburo a ogni sillaba. Divisione in sillabe verificata, gratis per la classe prima.",
+    "about": [
+      "«Batti le sillabe» porta sulla LIM il gesto che ogni maestra italiana conosce: si guarda l’immagine, si dice la parola, si battono le mani. A ogni battito un bambino tocca il tamburo e sotto la parola compare un archetto, uno per sillaba. Poi la parola si apre nelle sue sillabe da rimettere in ordine, così l’orecchio e l’occhio lavorano sulla stessa parola. La divisione non è inventata dal programma: ogni parola arriva da un controllo incrociato a più fonti indipendenti, quindi ciò che i bambini vedono è sempre la sillabazione corretta dell’italiano, compresi i casi delicati come ac-qua, pe-sce, ra-gno e fo-glia.",
+      "Il primo gruppo — quattordici parole di due sillabe come gatto, casa, luna e pane — è gratuito per sempre, senza registrazione. Con Premium si aprono gli altri gruppi, dalle parole di tre sillabe come farfalla e coniglio a quelle di quattro come bicicletta e tartaruga, e la modalità recinti, dove le immagini si smistano per numero di sillabe. Nessun punto e nessun tempo che scorre: solo mani che battono insieme."
+    ],
+    "howToUse": [
+      "Scegliete un gruppo di parole e proiettate la scheda: la classe guarda l’immagine e dice la parola ad alta voce tutti insieme.",
+      "Battete le mani una volta per ogni sillaba mentre un bambino tocca il tamburo a ogni battito: sotto la parola compare un archetto per ciascuna sillaba.",
+      "Passate a «Ricomponi»: le sillabe si mescolano e i bambini le rimettono in ordine per ricostruire la parola scritta.",
+      "Con «Smista», trascinate le immagini nei recinti da 2, 3 e 4 sillabe: è la verifica orale di tutto il gruppo, senza carta."
+    ],
+    "classroomIdeas": [
+      "Appello a sillabe: ogni mattina un bambino batte il proprio nome, la classe conta i battiti e cerca nel gruppo del giorno una parola con lo stesso numero di sillabe.",
+      "Caccia alle parole lunghe: dopo il gruppo delle quattro sillabe i bambini cercano in aula oggetti da quattro battiti (pantaloni sì, libro no) e li disegnano sul quaderno, uno per archetto.",
+      "Staffetta dei recinti: due squadre a turno smistano un’immagine nel recinto da 2, 3 o 4 sillabe, ma solo dopo aver battuto le mani insieme; se la classe non è d’accordo si ribatte la parola tutti insieme."
+    ]
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

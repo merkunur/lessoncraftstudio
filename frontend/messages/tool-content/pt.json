@@ -604,6 +604,28 @@
       "Imprima os cartões e monte um mural de palavras de coração que vai crescendo ao longo do bimestre."
     ]
   },
+  "syllable-splitter": {
+    "slug": "bater-palmas-nas-silabas",
+    "name": "Bata palmas nas sílabas",
+    "tagline": "Bata palmas, conte as sílabas e monte a palavra de novo.",
+    "metaTitle": "Bata palmas nas sílabas | Separação silábica 1º e 2º ano",
+    "metaDescription": "Atividade gratuita de consciência silábica: a turma bate palmas, o tambor marca cada palmada com um arco e os cartões de sílabas remontam a palavra.",
+    "about": [
+      "A sílaba é o coração da alfabetização brasileira: antes de ler a palavra inteira, a criança aprende a ouvi-la em pedaços. Bata palmas nas sílabas leva esse gesto de sala de aula para a tela. Uma figura aparece com a palavra escrita embaixo; a turma diz a palavra em voz alta e bate palmas, enquanto uma criança toca o tambor uma vez a cada palmada. Cada toque desenha um arco embaixo da palavra, no mesmo formato que os professores já usam no quadro. Depois, a palavra se abre em cartões de sílabas para embaralhar e montar de novo, ligando o som que a turma ouviu à escrita que ela vê. A contagem de sílabas de cada palavra vem do banco silábico verificado da plataforma, conferido por mais de uma fonte, e nunca é reescrita à mão.",
+      "O primeiro grupo de palavras é gratuito e continua gratuito: quatorze palavras de duas palmas, com tambor, arcos, voz e cartões de montar, sem cadastro. O Premium abre os outros três grupos — mais palavras de duas palmas, palavras de três palmas e palavras de quatro palmas — e libera os currais de separação, onde a turma arrasta cada figura para o curral de duas, três ou quatro palmas."
+    ],
+    "howToUse": [
+      "Escolha um grupo de palavras e projete a tela para a turma ver a figura e a palavra escrita.",
+      "Peça que todos digam a palavra em voz alta e batam palmas nas sílabas, enquanto um aluno toca o tambor uma vez a cada palmada.",
+      "Olhem juntos os arcos que apareceram embaixo da palavra e contem quantos são.",
+      "Toque em Montar para embaralhar os cartões de sílabas e peça que a turma remonte a palavra."
+    ],
+    "classroomIdeas": [
+      "Roda de nomes: comece a aula batendo palmas nos nomes das crianças e depois passe para as palavras da tela, para que cada uma descubra se o próprio nome tem duas, três ou quatro palmas.",
+      "Fila das palmas: no modo Separar, chame quatro alunos por vez para levar as figuras aos currais de duas, três e quatro palmas, e deixe a turma conferir em voz alta batendo palmas de novo.",
+      "Ponte da escrita: depois de bater palmas, esconda os cartões e peça que as crianças escrevam a palavra sílaba por sílaba no caderno, dizendo cada pedaço enquanto escrevem."
+    ]
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

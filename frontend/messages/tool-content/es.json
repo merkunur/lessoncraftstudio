@@ -626,6 +626,31 @@
       "Cacería de sílabas: después de la sesión, el grupo busca en el salón objetos de tres palmadas y los dibuja en el pizarrón."
     ]
   },
+  "estimation-jar": {
+    "slug": "frasco-de-estimar",
+    "name": "El frasco de estimar",
+    "tagline": "El frasco secreto del salón: cada quien pone su idea en la línea.",
+    "about": [
+      "Aquí las ideas de los niños no se comparan entre sí: cada idea baja a la línea como un puntito gris, sin nombre, sin orden y sin competencia. Nadie sabe de quién es cada punto — ni siquiera la herramienta, porque no lo guarda. Al final se celebra al grupo entero, nunca a una sola persona, y eso cambia por completo quién se anima a pasar al frente.",
+      "Lo bonito viene al vaciarlo: los objetos no salen de uno en uno, salen en grupos de diez que caen en marcos de diez mientras el salón cuenta en voz alta — diez, veinte, treinta… La cantidad real aterriza en la línea, entre los puntitos, y ahí se ve de golpe cómo se arma un número: decenas completas y lo que sobra. Es sentido numérico del que piden los planes de estudio para preescolar y primaria baja, y cabe en cinco minutos del círculo de la mañana.",
+      "El frasco gratuito llega hasta 30 y funciona completo: la línea, los puntitos anónimos, el vaciado de diez en diez y la voz que cuenta en español. Premium abre los frascos de hasta 200 y las colecciones de temporada — bellotas de otoño, corazones, huevitos de primavera — para que la rutina cambie de cara cada mes sin que tengas que preparar nada."
+    ],
+    "howToUse": [
+      "Antes de que entre el grupo, elige qué va dentro del frasco y pon el número en secreto: solo tú lo ves.",
+      "Proyecta el frasco y lanza la pregunta: «Miren y piensen un número». Deja unos segundos de silencio para pensar.",
+      "Pasan uno por uno a tocar la línea; cada idea queda como un puntito gris, sin nombre y sin orden.",
+      "Vacía el frasco: los objetos salen de diez en diez a los marcos de diez y el salón cuenta en voz alta — diez, veinte, treinta…",
+      "Cierra mirando la línea completa: cuántas de nuestras ideas quedaron por esa zona. Un frasco nuevo el lunes que viene."
+    ],
+    "classroomIdeas": [
+      "El frasco de los lunes: deja el mismo frasco toda la semana proyectado en un rincón, que los niños lo miren al pasar, y vacíalo el viernes en el círculo. La espera es parte de la rutina.",
+      "El encargado del frasco: cada semana una niña o un niño lo llena contigo antes de clase — mete los objetos de diez en diez y practica el conteo sin que nadie lo note.",
+      "Con material del salón: llena el frasco con cosas de verdad del rincón de matemáticas — semillas, tapitas, fichas — y después de vaciarlo en la pantalla, cuéntenlas también sobre el tapete.",
+      "Con una pista, en Premium: sube el frasco a 120 y antes de las ideas di solamente «hay más de cien». El grupo ajusta su idea con lo que ya sabe de las decenas."
+    ],
+    "metaTitle": "Frasco de estimar: estimación de cantidades | 1º y 2º",
+    "metaDescription": "Rutina semanal de estimación para preescolar y primaria: llena el frasco, el grupo marca sus ideas en la línea y al final se vacía de diez en diez."
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

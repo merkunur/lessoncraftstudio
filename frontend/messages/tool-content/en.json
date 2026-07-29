@@ -627,6 +627,31 @@
       "In the sorting pens, hand each table a pen to defend: the 1-clap group must say aloud why a picture belongs with them before the card is dropped in."
     ]
   },
+  "estimation-jar": {
+    "slug": "estimation-jar",
+    "name": "Estimation Jar",
+    "tagline": "The weekly guess-how-many jar — counted out in tens, never ranked.",
+    "about": [
+      "Estimation Jar is the Monday-morning guessing jar, projected. You fill it in private: pick what goes in — cherries, stars, lollipops — and set how many, and only you ever see that number. The objects tumble in clumped and overlapping, exactly the way a real jar on the windowsill refuses to be counted from across the rug. Then you hand the room over: children come up one at a time and tap a number line, and each estimate drops onto the line as a plain grey dot. No names, no order, no tally of who has gone — an estimate here is simply a place on the line, so the shyest child in the room can walk up and commit to a number without putting anything of themselves on the board.",
+      "The reveal is where the math lives. Tip the jar out and the objects do not scatter — they march into ten-frames in groups of ten while the class counts aloud together: ten, twenty, thirty, and then the leftover ones. Children watch a big, unknowable pile become a bundle of tens and some ones, which is exactly the idea Kindergarten counting (K.CC.B.5) leans on and first and second grade place value (1.NBT.B.2, 2.NBT.A.1) is built from. When the true count lands on the line, it lands among the dots.",
+      "And then it stops. There is no closest guess, no winner, no arrow pointing at whose dot was nearest — the tool cannot say it, because it never measures it. The closing line looks at the whole cloud of dots and celebrates the room: look how many of us landed in the neighborhood. In most classrooms this routine quietly becomes a competition; here estimating stays what it should be — thinking out loud, in public, safely. The jar to 30 with its dot plot and counted reveal is free forever and is a complete weekly ritual. Premium opens jars up to 200, seasonal fillings, the saved weekly ritual and a printable jar for the wall."
+    ],
+    "howToUse": [
+      "Before the children look: choose a filling, set how many go in, and fill the jar. That number stays yours alone — it is never on screen.",
+      "Hand the room over. One child at a time walks up, taps the number line where their guess belongs, and adds it — the dot is grey and anonymous.",
+      "When the dots are in, tip the jar out. The objects come out in tens into ten-frames — count aloud together: ten, twenty, thirty… then the ones.",
+      "Read the true count on the line among the dots, and close with the whole class: look how many of us landed in the neighborhood.",
+      "Start a new jar next Monday — with Premium you can go up to 200, choose a seasonal filling, and keep the ritual saved week to week."
+    ],
+    "classroomIdeas": [
+      "Make it the Monday morning-meeting ritual: fill the jar before the children arrive, take guesses during circle, and count it out before math starts.",
+      "Give the reveal to the class as a counting job — one child moves the tens into the frames while everyone else chants the count aloud.",
+      "Before the guesses, hold up ten of the objects and count them together, then ask: does the jar look like about one ten, or lots of tens? Benchmarking is the real estimation skill.",
+      "After the reveal, ask what the dots show rather than who was near: are we mostly bunched together? Did we guess low? That is a first data conversation, with nobody on the spot."
+    ],
+    "metaTitle": "Estimation Jar — Guess How Many Station for K-2 Math",
+    "metaDescription": "A whole-class estimation jar for K-2: children tap a number line to guess how many, then the objects come out in tens and the class counts aloud. No winners."
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

@@ -626,6 +626,31 @@
       "Gjett ordet: klapp stavelsene i et ord fra ordsettet uten å si det, og la klassen finne ut hvilket bilde du tenker på."
     ]
   },
+  "estimation-jar": {
+    "slug": "overslagsglasset",
+    "name": "Overslagsglasset",
+    "tagline": "Fyll glasset, gjør et overslag, og tell opp ti og ti sammen.",
+    "about": [
+      "Overslagsglasset er et lite fast innslag i morgensamlingen. Du fyller glasset med et hemmelig antall kirsebær, stjerner eller eikenøtter, og bare du ser tallet. Barna ser bare glasset – og et glass med tjuetre eikenøtter i lar seg rett og slett ikke telle.",
+      "Så kommer barna fram etter tur og trykker på tallinja der de tror svaret ligger. Hvert overslag lander som en grå prikk – uten navn, uten rekkefølge og uten poeng. Ingen blir rangert, og ingen får vite hvem som trykket hvor. Da tør også de forsiktige barna å sette prikken sin.",
+      "Til slutt tømmes glasset – ti og ti om gangen, rett ned i tierrammer, mens hele klassen teller i kor: ti, tjue, tretti … Slik blir tallforståelse og plassverdi bygd i samme bevegelse, og det ekte tallet lander midt blant prikkene. LK20 vil at elevene skal utforske tall og mengder og bruke overslag; dette er akkurat den øvelsen, gjort på tre minutter om dagen."
+    ],
+    "howToUse": [
+      "Velg innhold og et hemmelig antall, og trykk «Fyll opp». Glasset fylles, og tallet er bare ditt.",
+      "Vis glasset til klassen. La barna se, ikke telle – snakk heller om hvor stort ett kirsebær er ved siden av hele glasset.",
+      "Send tallinja rundt. Ett barn om gangen trykker der overslaget sitt hører hjemme, og en grå prikk faller på plass.",
+      "Trykk «Tøm glasset». Innholdet kommer ut ti og ti i tierrammer mens dere teller i kor: ti, tjue, tretti …",
+      "Se på prikkene sammen: «Se så mange av oss som var i nærheten!» Så er ritualet ferdig – nytt glass i morgen."
+    ],
+    "classroomIdeas": [
+      "Fast morgenrutine: ett glass hver dag i to uker. Barna merker selv at overslagene setter seg når de har fått et bilde av hvor mye ti er.",
+      "Ankerglass: sett et glass med nøyaktig ti ved siden av det hemmelige glasset. «Hvor mange slike tiere får plass?» – plassverdi i praksis.",
+      "Skriv opp spennet: hvor langt til venstre og hvor langt til høyre på tallinja ligger prikkene? Sammenlign med det ekte tallet etterpå.",
+      "Sesongglass: eikenøtter om høsten, snøkrystaller i januar, jordbær i juni. Innholdet knytter matematikken til årstida barna faktisk går i."
+    ],
+    "metaTitle": "Overslagsglasset – verktøy for morgensamlingen",
+    "metaDescription": "Fyll glasset med et hemmelig antall, la barna gjøre overslag på tallinja, og tøm det ti og ti i tierrammer. Gratis verktøy for barnehage og 1.–2. trinn."
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

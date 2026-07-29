@@ -627,6 +627,31 @@
       "Partnerarbeit: ein Kind klatscht ein Wort nur vor, das andere errät aus drei Bildern, welches Wort gemeint war."
     ]
   },
+  "estimation-jar": {
+    "slug": "schaetzglas",
+    "name": "Schätzglas",
+    "tagline": "Wie viele sind im Glas? Schätzen im Morgenkreis, ganz ohne Wettbewerb",
+    "about": [
+      "Das Schätzglas ist ein Ritual für den Morgenkreis. Ein Glas füllt sich mit Kirschen, Sternen oder Lutschern – so durcheinander, dass man sie nicht abzählen kann. Die Anzahl kennen nur Sie. Die Kinder kommen nacheinander nach vorn und tippen ihre Schätzung auf dem Zahlenstrahl an. Jede Schätzung bleibt als grauer Punkt auf der Linie stehen: ohne Namen, ohne Reihenfolge, ohne Zwischenstand. Schätzen und Überschlagen sind in den Lehrplänen und Bildungsplänen der Grundschule fest verankert – hier werden daraus fünf Minuten am Whiteboard.",
+      "In vielen Klassenzimmern wird aus dem Schätzglas ein Wettbewerb. Hier nicht. Es gibt keine Auswertung, keine Rangfolge, keine Uhr und keinen Vergleich zwischen den Kindern. Auch schwache Rechnerinnen und Rechner trauen sich, eine Zahl zu nennen, weil niemand danach beurteilt wird. Am Ende schaut die Klasse gemeinsam auf die Wolke aus grauen Punkten rund um die echte Zahl – gefeiert wird, dass so viele zusammen nah dran waren.",
+      "Das Ausleeren ist der zweite Lerninhalt: Die Sachen kommen nicht einzeln heraus, sondern immer zehn auf einmal in ein Zehnerfeld, und die Klasse zählt laut mit – 10, 20, 30 … und zum Schluss die einzelnen Reste. So wird aus dem Schätzen ganz nebenbei eine Übung zum Bündeln und zum Stellenwert. Das Startglas mit den freien Füllungen und Mengen bis 30 ist dauerhaft kostenlos und ohne Anmeldung nutzbar; Premium öffnet die saisonalen Füllungen und die größeren Mengen bis 200 für die zweite Klasse."
+    ],
+    "howToUse": [
+      "Vor dem Morgenkreis eine Füllung auswählen und die Anzahl einstellen – diese Zahl sehen nur Sie. Dann das Glas füllen lassen.",
+      "Das Glas der Klasse zeigen und kurz gemeinsam hinschauen: Sind es eher zehn, eher fünfzig oder eher hundert?",
+      "Die Kinder kommen nacheinander nach vorn und tippen ihre Schätzung auf dem Zahlenstrahl an. Jede Schätzung erscheint als grauer Punkt, ohne Namen.",
+      "Glas ausleeren: Immer zehn Stück wandern in ein Zehnerfeld, und alle zählen laut mit – 10, 20, 30 … zum Schluss die letzten einzeln.",
+      "Die echte Zahl steht jetzt mitten zwischen den Punkten auf der Linie. Gemeinsam anschauen, wie viele von uns in der Nähe lagen – dann ein neues Glas füllen."
+    ],
+    "classroomIdeas": [
+      "Als Wochenritual: montags füllen und schätzen lassen, das Glas die Woche über stehen lassen, freitags gemeinsam ausleeren und auszählen.",
+      "Zweimal dieselbe Anzahl, aber unterschiedlich große Sachen – erst Kirschen, dann Sterne. Die Kinder merken, dass die Füllhöhe täuscht, und begründen ihre Schätzung.",
+      "Sprachförderung: Satzanfänge an der Tafel anbieten – Ich glaube, es sind ungefähr … / Es sind mehr als … und weniger als …",
+      "Vor dem Ausleeren überlegen lassen, wie man so viele Sachen am schnellsten zählt. Das Bündeln in Zehnern schlagen die Kinder dabei meist selbst vor."
+    ],
+    "metaTitle": "Schätzglas für den Morgenkreis – Schätzen in Klasse 1/2",
+    "metaDescription": "Schätzglas fürs Whiteboard: Die Klasse schätzt, wie viele im Glas sind, tippt auf dem Zahlenstrahl und zählt beim Ausleeren in Zehnern mit. Ohne Anmeldung."
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

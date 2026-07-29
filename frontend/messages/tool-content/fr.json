@@ -626,6 +626,31 @@
       "Chasse aux frappes : chaque groupe cherche dans la classe un objet à une, deux puis trois frappes, et vient le classer dans les enclos."
     ]
   },
+  "estimation-jar": {
+    "slug": "bocal-mystere",
+    "name": "Le bocal mystère",
+    "tagline": "Un bocal, un nombre secret, et toute la classe qui estime.",
+    "about": [
+      "Le bocal mystère installe en classe l’un des rituels les plus attendus de l’année : un bocal se remplit d’objets — des cerises, des étoiles, des glands — trop serrés pour être comptés d’un coup d’œil. Vous êtes seul à connaître le nombre. Les enfants viennent l’un après l’autre toucher la ligne numérique, et leur idée se pose sous la forme d’un point gris : sans nom, sans ordre, sans compteur de qui est déjà passé.",
+      "Puis vient le moment que la classe attend : on vide le bocal. Les objets sortent dix par dix et se rangent dans des cadres de dix pendant que tout le monde compte à voix haute — dix, vingt, trente — avant les objets qui restent. Le groupement par dix est là, sous les yeux, comme le demandent les programmes officiels au cycle 2 ; en maternelle, c’est déjà un beau travail d’estimation et de comparaison de collections. Le nombre du bocal vient enfin se poser sur la ligne, au milieu des points de la classe.",
+      "Ici, aucune estimation n’est mise en avant : pas de classement, pas d’écart affiché, pas de verdict. On regarde simplement combien d’entre nous étaient dans les parages, puis on recommence la semaine suivante. Le bocal de départ, jusqu’à 30 objets, et ses trois contenus restent gratuits, sans compte ; les contenus de saison et les bocaux jusqu’à 200 objets font partie de Premium."
+    ],
+    "howToUse": [
+      "Avant le regroupement, choisissez ce qu’on met dans le bocal et réglez le nombre : vous êtes seul à le voir.",
+      "Appuyez sur « Remplir », projetez le bocal et laissez la classe l’observer un moment avant toute parole.",
+      "Chaque enfant vient toucher la ligne numérique à l’endroit de son idée, puis « Ajouter cette estimation » : un point gris se pose, anonyme.",
+      "Quand tout le monde est passé, appuyez sur « Vider le bocal » : les objets sortent dix par dix et la classe compte à voix haute.",
+      "Lisez le nombre du bocal, regardez le nuage de points autour de lui, et refermez le rituel par une phrase adressée à tout le groupe."
+    ],
+    "classroomIdeas": [
+      "Un bocal par semaine, le lundi matin : les enfants repèrent vite que le bocal fait partie de l’accueil, et l’attente fait partie du plaisir.",
+      "En GS, posez à côté un petit bocal de référence avec dix objets bien visibles : « il y en a plus que dix, ou moins ? » — l’estimation s’appuie alors sur une collection connue.",
+      "Au CP, arrêtez-vous après le premier cadre de dix : « on en a déjà sorti dix, il en reste beaucoup ? », et laissez les enfants faire évoluer leur idée à voix haute avant la suite.",
+      "Au CE1, notez le nombre de chaque semaine sur une affiche : au bout d’un mois, la classe relit ses bocaux passés et affine ses estimations d’elle-même."
+    ],
+    "metaTitle": "Bocal mystère : le rituel d’estimation en GS et CP",
+    "metaDescription": "Un outil gratuit pour le rituel d’estimation : chacun pose son idée sur une ligne numérique, puis on vide le bocal dix par dix. GS, CP, CE1, sans classement."
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

@@ -1,0 +1,355 @@
+#!/usr/bin/env node
+/* =====================================================================
+   verify-estimation-jar.js — build-gate for TOOL #23 Estimation Jar:
+   the locale-neutral object sets (mini tools/estimation-jar-sets.json)
+   AND the tool source (mini tools/estimation-jar.js).
+
+   THE TWO DOCTRINE INVARIANTS THIS GATE EXISTS FOR
+   ------------------------------------------------
+   An estimation jar is, in most classrooms, a competition. This one must
+   never be. Both rules are mirrored from the already-gate-proven
+   `mini tools/estimate-jar-core.js` (its header: "NO ACCURACY GRADIENT …
+   no distance metric, no stored gap, no 'close/far'", and `getActual`
+   THROWS before the count is finished):
+
+     A. NO ACCURACY GRADIENT — the compare is a SIGN ('same'|'more'|
+        'fewer'). No distance, no gap, no rank, no "closest", no winner.
+        Asserted on the pure function AND on the shipped strings.
+     B. NO NUMERAL LEAK — the true count must not be reachable in the
+        DOM/aria/title/live-region before the reveal. Asserted here on
+        the pure engine (`revealedCount` refuses pre-reveal); the DOM
+        half lives in local-test-estimation-jar.js.
+
+   MEASURED invariants (never loosen a threshold — FIX THE DATA):
+
+   DATA (estimation-jar-sets.json)
+     D1  version numeric; freeMax/premiumMax positive ints, free < premium
+     D2  set ids unique + non-empty; >= 8 sets; >= 2 free sets
+     D3  every noun exists in IMAGE_VOCABULARY
+     D4  imageDir is a real pww theme dir AND holds a card whose .f ===
+         imageFile and .k === noun  (checked in EVERY locale that ships)
+     D5  season is null or one of the UNIVERSAL seasonal keys. The en-only
+         keys (4th_of_july, thanksgivinng) are REFUSED: an object set
+         gated to one locale would silently empty the picker elsewhere
+     D6  no (imageDir,imageFile) pair used twice
+     D7  on-disk @2x.webp exists (skipped when the gitignored tree is absent)
+
+   TOOL (vm-loaded, DOM-free)
+     T1  id / STORE_KEY / ENT_TRUST_DAYS / premium===false
+     T2  strings.title + .instruction present for all 11 locales
+     T3  strings completeness + {placeholder} parity against en
+     T4  NO-SHAME + NO-RANKING: verdict/score regexes EXTENDED with
+         ranking vocabulary per locale (closest / winner / gewinner /
+         gagnant / ganador / vincitore / vinnare / voittaja / naermest …)
+     T5  every LCSAudio.speak passes lang: AND type in {number, ui}
+     T6  CSS injector idempotent; @media print + reduced-motion; no .lcs-
+     T7  STRUCTURAL GATE: a locked set is absent from setsFor() when free
+     T8  resolveDeepLink refuses a locked set without premium, and refuses
+         a count above the free ceiling
+     T9  DOCTRINE A — compare() returns a sign only, and no distance/gap/
+         rank key can exist on the returned object (solver probe)
+     T10 DOCTRINE B — revealedCount() THROWS before the reveal
+     T11 groupsOfTen() decomposes correctly and never loses the remainder
+     T12 privacyLine present ×11, and the source never puts the estimate
+         array in a fetch body
+
+   Usage: node scripts/verify-estimation-jar.js [--locales=en,de]
+   Overrides for mutation testing: EJ_DATA_DIR / EJ_TOOL_DIR
+   Exit 1 on any ERROR. WARNs never fail.
+   ===================================================================== */
+'use strict';
+const fs = require('fs');
+const path = require('path');
+const vm = require('vm');
+
+const ROOT = path.join(__dirname, '..');
+const TOOLS_DIR = path.join(ROOT, 'mini tools');
+const DATA_DIR = process.env.EJ_DATA_DIR || TOOLS_DIR;
+const TOOL_DIR = process.env.EJ_TOOL_DIR || TOOLS_DIR;
+
+const ALL = ['en', 'de', 'fr', 'it', 'es', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
+const arg = process.argv.find(a => a.startsWith('--locales='));
+const LOCALES = arg ? arg.split('=')[1].split(',').map(s => s.trim()).filter(Boolean) : ALL;
+
+/* Universal seasons only. 4th_of_july + thanksgivinng are en-only in
+   frontend/lib/seasonal-hub.ts:45-54, so a set tagged with either would
+   vanish from the picker in ten locales. */
+const UNIVERSAL_SEASONS = ['christmas', 'easter', 'winter', 'spring', 'summer'];
+const EN_ONLY_SEASONS = ['4th_of_july', 'thanksgivinng'];
+
+const VERDICT = {
+  en: /\b(correct|incorrect|wrong|oops|try again|fail)\b/i,
+  de: /\b(richtig|falsch|fehler)\b/i,
+  fr: /\b(correct|correcte|faux|fausse|erreur)\b/i,
+  it: /\b(giusto|sbagliato|errore)\b/i,
+  es: /\b(correcto|incorrecto|error)\b/i,
+  pt: /\b(correto|errado|erro)\b/i,
+  nl: /\b(goed antwoord|fout|foutje)\b/i,
+  sv: /\b(rätt svar|fel|felaktig)\b/i,
+  da: /\b(rigtigt svar|forkert|fejl)\b/i,
+  no: /\b(riktig svar|feil)\b/i,
+  fi: /\b(oikein|väärin|virhe)\b/i
+};
+
+/* THE RANKING BAN — this tool's signature risk. An estimation jar is
+   normally won; every locale's "closest / winner" vocabulary is refused. */
+const RANKING = {
+  en: /\b(closest|nearest|winner|wins|won|best guess|champion)\b/i,
+  de: /\b(am nächsten|nächstdran|gewinner|gewinnt|sieger|beste schätzung)\b/i,
+  fr: /\b(le plus proche|la plus proche|gagnant|gagne|vainqueur|meilleure)\b/i,
+  it: /\b(più vicino|più vicina|vincitore|vince|migliore)\b/i,
+  es: /\b(más cerca|más cercano|ganador|gana|mejor)\b/i,
+  pt: /\b(mais perto|mais próximo|vencedor|ganha|melhor palpite)\b/i,
+  nl: /\b(dichtstbij|het dichtst|winnaar|wint|beste gok)\b/i,
+  sv: /\b(närmast|vinnare|vinner|bästa gissning)\b/i,
+  da: /\b(tættest|nærmest|vinder|bedste gæt)\b/i,
+  no: /\b(nærmest|vinner|beste gjett)\b/i,
+  fi: /\b(lähimpänä|lähin|voittaja|voittaa|paras arvaus)\b/i
+};
+const SCORE_RE = /\b(score|scores|timer|streak|poäng|poeng|punkte|punteggio|puntuación|pontuação|pisteet|niveau|level|badge|reward)\b/i;
+
+let ERRORS = 0, WARNS = 0;
+const err = (m) => { ERRORS++; console.error('  ERROR ' + m); };
+const warn = (m) => { WARNS++; console.warn('  warn  ' + m); };
+
+function loadImageVocabulary() {
+  const src = fs.readFileSync(path.join(ROOT, 'REFERENCE TRANSLATIONS', 'image-vocabulary.js'), 'utf8');
+  return new Function(src + '; return IMAGE_VOCABULARY;')();
+}
+function loadPww(locale) {
+  const f = path.join(TOOLS_DIR, `pww-index-${locale}.json`);
+  if (!fs.existsSync(f)) return null;
+  try { return JSON.parse(fs.readFileSync(f, 'utf8')); } catch (_) { return null; }
+}
+
+function loadTool(file, globalName) {
+  const noop = () => {};
+  const fakeEl = () => ({
+    style: { setProperty: noop }, classList: { add: noop, remove: noop, toggle: noop, contains: () => false },
+    appendChild: noop, addEventListener: noop, setAttribute: noop, removeAttribute: noop,
+    innerHTML: '', textContent: '', children: [], dataset: {}, remove: noop
+  });
+  const sandbox = {
+    window: {}, navigator: { language: 'en' }, console,
+    document: {
+      createElement: fakeEl, createElementNS: fakeEl, getElementById: () => null,
+      querySelector: () => null, querySelectorAll: () => [],
+      head: { appendChild: noop }, body: { classList: { add: noop, remove: noop } },
+      addEventListener: noop, documentElement: fakeEl()
+    },
+    location: { search: '', hostname: 'gate' },
+    localStorage: { getItem: () => null, setItem: noop, removeItem: noop },
+    URLSearchParams, Intl, Date, Math, JSON,
+    setTimeout: () => 0, clearTimeout: noop, setInterval: () => 0, clearInterval: noop,
+    fetch: () => ({ then() { return this; }, catch() { return this; } }),
+    matchMedia: () => ({ matches: false, addListener: noop, addEventListener: noop })
+  };
+  sandbox.global = sandbox; sandbox.self = sandbox;
+  vm.createContext(sandbox);
+  const src = fs.readFileSync(path.join(TOOL_DIR, file), 'utf8');
+  vm.runInContext(src, sandbox, { filename: file });
+  return { tool: sandbox[globalName], src };
+}
+
+/* ---------------- DATA ---------------- */
+function checkSets(data, vocab) {
+  /* D1 */
+  if (typeof data.version !== 'number') err('D1 version must be a number');
+  const fm = data.freeMax, pm = data.premiumMax;
+  if (!Number.isInteger(fm) || fm < 1) err('D1 freeMax must be a positive int');
+  if (!Number.isInteger(pm) || pm < 1) err('D1 premiumMax must be a positive int');
+  if (Number.isInteger(fm) && Number.isInteger(pm) && !(fm < pm))
+    err(`D1 freeMax ${fm} must be below premiumMax ${pm}`);
+
+  const sets = data.sets || [];
+  /* D2 */
+  if (sets.length < 8) err(`D2 ${sets.length} sets, need >= 8`);
+  const ids = new Set(), pairs = {};
+  let free = 0;
+  for (const s of sets) {
+    const tag = `[set:${s.id || '?'}]`;
+    if (!s.id) { err(`${tag} D2 missing id`); continue; }
+    if (ids.has(s.id)) err(`${tag} D2 duplicate id`);
+    ids.add(s.id);
+    if (s.free) free++;
+
+    /* D3 */
+    if (!s.noun) err(`${tag} D3 missing noun`);
+    else if (vocab && !vocab[s.noun]) err(`${tag} D3 noun "${s.noun}" not in IMAGE_VOCABULARY`);
+
+    /* D5 */
+    if (s.season !== null && s.season !== undefined) {
+      if (EN_ONLY_SEASONS.indexOf(s.season) >= 0)
+        err(`${tag} D5 season "${s.season}" is en-only in seasonal-hub.ts — the set would vanish from the picker in ten locales`);
+      else if (UNIVERSAL_SEASONS.indexOf(s.season) < 0)
+        err(`${tag} D5 season "${s.season}" is not a universal seasonal key`);
+    }
+
+    /* D6 */
+    const p = s.imageDir + '/' + s.imageFile;
+    if (pairs[p]) err(`${tag} D6 image "${p}" already used by "${pairs[p]}"`);
+    pairs[p] = s.id;
+
+    /* D7 */
+    const dir = path.join(ROOT, 'image-library-webp', 'themes');
+    if (s.imageDir && s.imageFile && fs.existsSync(dir)
+      && !fs.existsSync(path.join(dir, s.imageDir, s.imageFile + '@2x.webp')))
+      err(`${tag} D7 missing image ${s.imageDir}/${s.imageFile}@2x.webp`);
+  }
+  if (free < 2) err(`D2 ${free} free sets, need >= 2`);
+
+  /* D4 — the picture must resolve in EVERY shipping locale, not just en */
+  for (const L of LOCALES) {
+    const pww = loadPww(L);
+    if (!pww) { warn(`[${L}] D4 pww-index missing — image resolution unverified`); continue; }
+    const byDir = new Map();
+    for (const t of pww.themes || []) {
+      const m = new Map();
+      for (const c of t.c || []) m.set(c.f, c.k);
+      byDir.set(t.d, m);
+    }
+    for (const s of sets) {
+      const theme = byDir.get(s.imageDir);
+      if (!theme) { err(`[${L}] D4 set "${s.id}" imageDir "${s.imageDir}" is not a theme dir`); continue; }
+      const k = theme.get(s.imageFile);
+      if (k === undefined) err(`[${L}] D4 set "${s.id}" "${s.imageDir}/${s.imageFile}" is not a card there`);
+      else if (k !== s.noun) err(`[${L}] D4 set "${s.id}" resolves to "${k}", not "${s.noun}"`);
+    }
+  }
+  return { n: sets.length, free };
+}
+
+/* ---------------- TOOL ---------------- */
+function checkTool(tool, src, data) {
+  if (tool.id !== 'estimation-jar') err(`T1 id "${tool.id}" != estimation-jar`);
+  if (tool.STORE_KEY !== 'lcs:estimation-jar:v1') err('T1 STORE_KEY wrong');
+  if (tool.ENT_TRUST_DAYS !== 14) err('T1 ENT_TRUST_DAYS != 14');
+  if (tool.premium !== false) err('T1 premium must default to false');
+
+  const S = tool.strings || {};
+  if (!S.title || !S.instruction) err('T2 strings.title and .instruction are shell-mandatory');
+  if (!S.privacyLine) err('T12 privacyLine missing — the estimate-anonymity promise');
+  for (const k of Object.keys(S)) {
+    const row = S[k];
+    if (!row || typeof row !== 'object') { err(`T3 strings.${k} not a locale map`); continue; }
+    for (const L of ALL) {
+      const v = row[L];
+      if (typeof v !== 'string' || !v.length) { err(`T3 strings.${k}.${L} missing`); continue; }
+      const pe = (row.en.match(/\{[a-zA-Z]+\}/g) || []).sort().join(',');
+      const pl = (v.match(/\{[a-zA-Z]+\}/g) || []).sort().join(',');
+      if (pe !== pl) err(`T3 strings.${k}.${L} placeholders "${pl}" != en "${pe}"`);
+      if (VERDICT[L] && VERDICT[L].test(v)) err(`T4 strings.${k}.${L} verdict vocabulary: "${v}"`);
+      if (RANKING[L] && RANKING[L].test(v)) err(`T4 strings.${k}.${L} RANKING vocabulary — this tool never ranks: "${v}"`);
+      if (SCORE_RE.test(v)) err(`T4 strings.${k}.${L} score/timer vocabulary: "${v}"`);
+    }
+  }
+
+  /* T5 */
+  const calls = src.match(/LCSAudio\.speak\(\s*\{[^}]*\}/g) || [];
+  if (!calls.length) warn('T5 no LCSAudio.speak call found');
+  for (const c of calls) {
+    if (!/\blang\s*:/.test(c)) err(`T5 speak without lang: -> ${c.slice(0, 80)}`);
+    const m = /\btype\s*:\s*'([a-z]+)'/.exec(c);
+    if (!m) err(`T5 speak without a literal type: -> ${c.slice(0, 80)}`);
+    else if (['number', 'ui'].indexOf(m[1]) < 0) err(`T5 speak type '${m[1]}' — locked to number|ui`);
+  }
+
+  /* T6 */
+  if (!/function\s+injectEstimationJarCSS\s*\(/.test(src)) err('T6 injectEstimationJarCSS() not defined');
+  if (!/getElementById\(\s*['"]ej-style['"]\s*\)/.test(src)) err('T6 CSS injector not idempotent on #ej-style');
+  if (!/@media print/.test(src)) err('T6 no @media print block');
+  if (!/prefers-reduced-motion/.test(src)) err('T6 no reduced-motion block');
+  const lcsSel = (src.match(/['"][^'"]*\.lcs-[a-z-]+[^'"]*['"]/g) || []).filter(s => !/ej-wide/.test(s));
+  if (lcsSel.length) err(`T6 tool writes protected .lcs- selectors: ${lcsSel.slice(0, 3).join(' ')}`);
+
+  /* T12 — the estimate array must never leave the device */
+  const fetchBodies = src.match(/fetch\([^)]*\{[^}]*body\s*:[^}]*\}/g) || [];
+  for (const f of fetchBodies) {
+    if (/estimate|guess|dots/i.test(f)) err(`T12 an estimate/guess value appears in a fetch body: ${f.slice(0, 90)}`);
+  }
+
+  /* --- pure-function doctrine, with the sets injected --- */
+  tool.data = data;
+
+  /* T7 structural gate */
+  tool.premium = false;
+  const freeIds = data.sets.filter(s => s.free).map(s => s.id);
+  const lockedIds = data.sets.filter(s => !s.free).map(s => s.id);
+  const openFree = tool.setsFor().map(s => s.id);
+  for (const id of lockedIds)
+    if (openFree.indexOf(id) >= 0) err(`T7 locked set "${id}" is present while free — premium sets must never reach the DOM`);
+  for (const id of freeIds)
+    if (openFree.indexOf(id) < 0) err(`T7 free set "${id}" missing from the free list`);
+  tool.premium = true;
+  if (tool.setsFor().length !== data.sets.length) err('T7 premium does not see every set');
+  tool.premium = false;
+
+  /* T8 deep link */
+  if (lockedIds.length) {
+    if (tool.resolveDeepLink({ set: lockedIds[0] }, true) === null)
+      err('T8 resolveDeepLink refused a locked set WITH premium (is the param name right?)');
+    if (tool.resolveDeepLink({ set: lockedIds[0] }, false) !== null)
+      err('T8 resolveDeepLink resolved a locked set without premium');
+  }
+  const over = tool.resolveDeepLink({ set: freeIds[0], count: data.premiumMax }, false);
+  if (over && over.count > data.freeMax) err(`T8 deep link handed a free visitor a count of ${over.count} (free ceiling ${data.freeMax})`);
+
+  /* T9 DOCTRINE A — sign only, and no gradient key may exist */
+  const c1 = tool.compare(10, 14), c2 = tool.compare(14, 10), c3 = tool.compare(12, 12);
+  if (c1 !== 'more' || c2 !== 'fewer' || c3 !== 'same')
+    err(`T9 compare() must return 'more'|'fewer'|'same' — got ${c1}/${c2}/${c3}`);
+  /* solver probe: nothing on the returned value may encode HOW FAR off */
+  for (const v of [c1, c2, c3]) {
+    if (typeof v !== 'string') err('T9 compare() returned a non-string — a gradient could hide in an object');
+  }
+  if (typeof tool.distance === 'function' || typeof tool.gap === 'function' || typeof tool.rank === 'function')
+    err('T9 the tool exposes a distance/gap/rank function — NO ACCURACY GRADIENT');
+
+  /* T10 DOCTRINE B — the truth is unreachable before the reveal */
+  let threw = false;
+  try { tool.revealedCount({ stage: 'estimate', count: 47 }); } catch (_) { threw = true; }
+  if (!threw) err('T10 revealedCount() did not throw before the reveal — the true count must be unreachable');
+  let ok10 = null;
+  try { ok10 = tool.revealedCount({ stage: 'reveal', count: 47 }); } catch (_) {}
+  if (ok10 !== 47) err(`T10 revealedCount() at reveal returned ${ok10}, expected 47`);
+
+  /* T11 groups of ten */
+  const cases = [[7, [7]], [10, [10]], [23, [10, 10, 3]], [40, [10, 10, 10, 10]], [137, null]];
+  for (const [n, want] of cases) {
+    const g = tool.groupsOfTen(n);
+    const sum = g.reduce((a, b) => a + b, 0);
+    if (sum !== n) err(`T11 groupsOfTen(${n}) sums to ${sum}`);
+    if (g.some(x => x > 10)) err(`T11 groupsOfTen(${n}) produced a group above ten`);
+    if (want && JSON.stringify(g) !== JSON.stringify(want)) err(`T11 groupsOfTen(${n}) = ${JSON.stringify(g)}, expected ${JSON.stringify(want)}`);
+  }
+}
+
+/* ---------------- run ---------------- */
+console.log(`verify-estimation-jar — locales: ${LOCALES.join(',')}`);
+let vocab = null;
+try { vocab = loadImageVocabulary(); } catch (e) { warn('IMAGE_VOCABULARY unavailable: ' + e.message); }
+
+const setsFile = path.join(DATA_DIR, 'estimation-jar-sets.json');
+let data = null;
+console.log('\n[sets]');
+if (!fs.existsSync(setsFile)) err(`missing ${setsFile}`);
+else {
+  try { data = JSON.parse(fs.readFileSync(setsFile, 'utf8')); }
+  catch (e) { err(`JSON parse: ${e.message}`); }
+  if (data) {
+    const r = checkSets(data, vocab);
+    console.log(`  ${r.n} sets, ${r.free} free`);
+  }
+}
+
+const tp = path.join(TOOL_DIR, 'estimation-jar.js');
+if (fs.existsSync(tp)) {
+  let tool = null, src = '';
+  try { const r = loadTool('estimation-jar.js', 'EstimationJar'); tool = r.tool; src = r.src; }
+  catch (e) { err('tool failed to load in the vm sandbox: ' + e.message); }
+  if (!tool) err('global EstimationJar not found');
+  else if (data) { console.log('\n[tool]'); checkTool(tool, src, data); }
+} else warn('mini tools/estimation-jar.js not present yet — DATA checks only');
+
+console.log(`\n${ERRORS ? 'FAIL' : 'PASS'} — ${ERRORS} error(s), ${WARNS} warn(s)`);
+process.exit(ERRORS ? 1 : 0);

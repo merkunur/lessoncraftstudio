@@ -626,6 +626,31 @@
       "Ponte da escrita: depois de bater palmas, esconda os cartões e peça que as crianças escrevam a palavra sílaba por sílaba no caderno, dizendo cada pedaço enquanto escrevem."
     ]
   },
+  "estimation-jar": {
+    "slug": "vidro-das-estimativas",
+    "name": "Vidro das estimativas",
+    "tagline": "Quantos tem no vidro? A estimativa da semana na rodinha",
+    "about": [
+      "Toda segunda-feira o vidro aparece cheio — cerejas, estrelinhas, pirulitos — e a pergunta é sempre a mesma: quantos será que tem aí dentro? Ninguém consegue contar um por um, e é exatamente esse o ponto. As crianças olham, comparam com o que já conhecem e arriscam um número. Estimar e comparar quantidades é uma das primeiras habilidades que a BNCC pede já no 1º ano, e ela nasce de momentos assim, em que o número precisa ser pensado antes de ser contado.",
+      "Aqui o palpite de cada criança vira um pontinho cinza na linha — sem nome, sem ordem, sem placar. Ninguém descobre de quem é cada ponto e nenhum palpite é apontado no fim: o que a turma comemora é ver a nuvem de pontinhos toda reunida em volta do número que estava guardado. A criança tímida arrisca do mesmo jeito que a mais falante, porque não há nada a perder.",
+      "E aí vem a parte que a turma espera: o vidro é despejado e os objetos saem de dez em dez, cada grupo caindo em um quadro de dez enquanto todo mundo conta em voz alta — dez, vinte, trinta… e as unidades que sobram no fim. O agrupamento de 10 em 10 e o valor posicional que a BNCC espera do 1º e do 2º ano acontecem ali, na frente de todos, como o desfecho de uma brincadeira. Funciona direto no navegador, na lousa digital ou no tablet, sem instalar nada e sem criar conta."
+    ],
+    "howToUse": [
+      "Antes da rodinha, escolha o que vai no vidro e digite quantos — só você vê esse número. Toque em Encher e projete o vidro cheio para a turma.",
+      "Chame as crianças uma a uma: cada uma olha o vidro, toca na linha onde acha que fica o número e marca o palpite. O pontinho cai cinza, sem nome nenhum.",
+      "Deixe todos os pontinhos à vista e converse: por que aqui e não ali? Os botões de um pouco mais e um pouco menos ajudam a criança a ajustar antes de marcar.",
+      "Toque em Despejar o vidro: os objetos saem de dez em dez para os quadros de dez e a turma conta junto em voz alta — dez, vinte, trinta…",
+      "Feche olhando a linha inteira: quantos de nós ficamos ali em volta? Depois é só abrir um vidro novo para a semana seguinte."
+    ],
+    "classroomIdeas": [
+      "Vidro da semana: encha na segunda, deixe os palpites na tela a semana toda e só despeje na sexta — a turma volta ao vidro todo dia para repensar o número.",
+      "Registro no caderno: depois do despejo, cada criança desenha o vidro e escreve o número que saiu, marcando os grupos de dez que viu se formando.",
+      "Dois vidros lado a lado, um com objetos grandes e outro com objetos pequenos na mesma quantidade — ótimo para conversar sobre por que um deles parece ter tanto mais.",
+      "Na educação infantil, use o vidro pequeno (até 30) e conte de 1 em 1 na hora de despejar; nos anos iniciais, aumente o vidro e conte de 10 em 10 para chegar ao 100 e passar dele."
+    ],
+    "metaTitle": "Vidro das estimativas grátis | LessonCraftStudio",
+    "metaDescription": "Vidro das estimativas grátis para a rodinha: cada criança marca o palpite na linha, sem nome e sem placar, e o vidro é despejado de dez em dez. Sem login."
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

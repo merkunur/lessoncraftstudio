@@ -626,6 +626,31 @@
       "Klap-en-loop: leg drie hoepels neer voor één, twee en drie klankgroepen; bij elk woord rennen de kinderen naar de juiste hoepel."
     ]
   },
+  "estimation-jar": {
+    "slug": "hoeveel-zitten-erin",
+    "name": "Hoeveel zitten erin?",
+    "tagline": "Schat samen hoeveel het er zijn — elke schatting krijgt een stip.",
+    "about": [
+      "Hoeveel zitten erin? is de wekelijkse schatroutine voor in de kring of op het digibord. Jij kiest in het geheim een vulling — kastanjes, sterren, knopen — en hoeveel er in gaan; alleen jij ziet dat getal. Daarna is de klas aan zet: één voor één komen de kinderen naar voren en tikken op de getallenlijn waar hun schatting hoort. Elke schatting verschijnt als een grijze stip, zonder naam en zonder volgorde. Zo durft ook het kind dat er ver naast zit gewoon te tikken.",
+      "Bij het openmaken komt alles er met tien tegelijk uit, netjes in tienvakken, en telt de klas hardop mee: tien, twintig, dertig… Zo wordt gokken langzaam schatten — kinderen zien hoe een groepje van tien eruitziet en gaan de volgende keer redeneren in plaats van roepen. Het sluit aan bij wat de SLO-kerndoelen vragen rond getalbegrip: hoeveelheden overzien, ze structureren in tienen en leren schattend rekenen. Let op het verschil met de Meetwerkbank: daar schat je een maat (lengte, inhoud, gewicht), hier schat je een aantal.",
+      "Gratis vul je tot 30 met de startvullingen — genoeg voor een vaste routine het hele jaar. Met Premium ga je tot 200 en komen de seizoensvullingen erbij, van eikels en kastanjes in de herfst tot zaadjes en hartjes in het voorjaar. Er is geen timer, geen score en geen wedstrijd: de afsluiting viert dat de hele groep in de buurt zat, nooit één kind."
+    ],
+    "howToUse": [
+      "Kies een vulling en stel in het geheim in hoeveel er in gaan — alleen jij ziet dat getal. Tik daarna op \"Vullen maar\".",
+      "Laat de kinderen om de beurt naar voren komen en op de getallenlijn tikken waar hun schatting hoort; elke schatting wordt een grijze stip, zonder naam.",
+      "Staan alle stippen op de lijn? Tik op \"Alles eruit\": alles komt er met tien tegelijk uit, in tienvakken.",
+      "Tel samen hardop mee — tien, twintig, dertig — tot het echte aantal op de lijn verschijnt, tussen jullie stippen.",
+      "Sluit rustig af: kijk samen hoeveel stippen er in de buurt staan en bewaar de vraag voor volgende week."
+    ],
+    "classroomIdeas": [
+      "Maak er een vaste maandagochtend in de kring van: elke week een nieuwe vulling, elke week dezelfde vraag. Kleuters herkennen het ritueel binnen twee weken en gaan er vanzelf over praten.",
+      "Vraag kinderen hun schatting hardop te beargumenteren: \"ik denk dertig, want er passen er tien in dat onderste laagje\" — precies het redeneren waar schattend rekenen om vraagt.",
+      "Groep 3 en 4: tel na afloop verder met sprongen van tien; de tienvakken maken de structuur van het getal meteen zichtbaar.",
+      "Neem de vulling uit je thema: eikels bij de herfsttafel, knopen bij het thema kleding, schelpen bij de zomer — zo loopt de woordenschat van het thema vanzelf mee."
+    ],
+    "metaTitle": "Hoeveel zitten erin? Schatten met de klas op het digibord",
+    "metaDescription": "Schat samen hoeveel het er zijn: kinderen tikken hun schatting op de getallenlijn, daarna tel je met tien tegelijk hardop uit. Gratis, zonder wedstrijd."
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

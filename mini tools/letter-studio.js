@@ -137,7 +137,7 @@ var LetterStudio = {
     /* no — skrivehus */
     no: { system: 'skrivehus', zones: [{ y: 14, kind: 'dashed', tone: 'faint' }, { y: 44, kind: 'dashed', tone: 'mid' }, { y: 84, kind: 'solid', tone: 'strong' }, { y: 96, kind: 'dashed', tone: 'faint' }] },
     /* fi — viivasto-4 */
-    fi: { system: 'viivasto-4', zones: [{ y: 14, kind: 'solid', tone: 'mid' }, { y: 44, kind: 'solid', tone: 'mid' }, { y: 84, kind: 'solid', tone: 'mid' }, { y: 96, kind: 'solid', tone: 'mid' }] },
+    fi: { system: 'viivasto-4', zones: [{ y: 14, kind: 'solid', tone: 'mid' }, { y: 44, kind: 'solid', tone: 'mid' }, { y: 84, kind: 'solid', tone: 'mid' }, { y: 96, kind: 'solid', tone: 'mid' }], band: { from: 44, to: 84 } },
     /* en + any locale whose ensemble could cite no national convention */
     'default': {
       system: '3-zone',
@@ -587,7 +587,12 @@ var LetterStudio = {
     box.appendChild(this._buildSheet(ch));
 
     var row = api.el('div', 'ls-controls');
-    var show = api.el('button', 'ls-go'); show.type = 'button';
+    /* Once the letter is formed, "Next one" becomes the primary action, so
+       Show me steps down — two coral pills on the success screen give a child
+       scanning for the big orange button a coin-flip between advancing and
+       replaying the demo. */
+    var formed = !!(this.state && this.state.formed);
+    var show = api.el('button', formed ? 'ls-linkbtn' : 'ls-go'); show.type = 'button';
     show.textContent = api.t('showMe');
     show.addEventListener('click', function () { self._demo(); });
     row.appendChild(show);
@@ -678,7 +683,7 @@ var LetterStudio = {
     for (var i = 0; i < g.length; i++) {
       var p = document.createElementNS(NS, 'path');
       p.setAttribute('d', this._d(g[i]));
-      p.setAttribute('class', 'ls-guide');
+      p.setAttribute('class', 'ls-guide' + (this._isDot(g[i]) ? ' ls-dot' : ''));
       p.setAttribute('data-stroke', String(i));
       sv.appendChild(p);
     }
@@ -687,7 +692,7 @@ var LetterStudio = {
     for (i = 0; i < this.drawn.length; i++) {
       var dp = document.createElementNS(NS, 'path');
       dp.setAttribute('d', this._d(this.drawn[i]));
-      dp.setAttribute('class', 'ls-ink');
+      dp.setAttribute('class', 'ls-ink' + (g[i] && this._isDot(g[i]) ? ' ls-dot' : ''));
       sv.appendChild(dp);
     }
 
@@ -722,6 +727,20 @@ var LetterStudio = {
      heptagon and models the wrong letterform to a room of six-year-olds.
      The child's own ink is splined for the same reason — Catmull-Rom
      interpolates, so the line still passes exactly where their finger did. */
+  /* A DOT, not a line: the diaeresis strokes are ~2 units long, and they are
+     the ONLY strokes that need a round cap to read correctly. Everything else
+     takes a flat cap, because a round cap centres the nib on the endpoint and
+     paints half a stroke-width PAST it — measured at 3.5 units, which put
+     every letter in every locale ~14px through its own baseline, and hung the
+     capital A's crossbar out past both legs. On a tool whose entire job is
+     "the letter rests on the line", that is the one thing that must be exact. */
+  _isDot: function (pts) {
+    if (!pts || pts.length < 2) return true;
+    var len = 0, i;
+    for (i = 1; i < pts.length; i++) len += Math.hypot(pts[i].x - pts[i - 1].x, pts[i].y - pts[i - 1].y);
+    return len < 6;
+  },
+
   _d: function (pts) {
     if (!pts || !pts.length) return '';
     if (pts.length < 3) return 'M ' + pts.map(function (p) { return p.x + ' ' + p.y; }).join(' L ');
@@ -772,7 +791,18 @@ var LetterStudio = {
       this.cur.push(pt);
       if (this._curPath) this._curPath.setAttribute('d', this._d(this.cur));
     }
-    if (r.done) { this._drag = false; this._endStroke(ch); }
+    if (r.done) {
+      /* The cursor can be satisfied while the finger is still up to a
+         tolerance short of the terminus, so the inked line stopped visibly
+         before the baseline — and then the tool said "You wrote it" over a
+         letter that plainly was not finished. If the stroke IS complete, the
+         line it draws has to arrive where the stroke ends. */
+      var st = this._glyph(ch)[this.state.strokesDone];
+      var last = st && st[st.length - 1];
+      if (last) this.cur.push({ x: last.x, y: last.y });
+      this._drag = false;
+      this._endStroke(ch);
+    }
   },
 
   _endStroke: function (ch) {
@@ -875,8 +905,9 @@ function injectLetterStudioCSS() {
     + '.ls-rule-mid{stroke:rgba(20,107,94,.22);}'
     + '.ls-rule-strong{stroke:rgba(20,107,94,.5);stroke-width:.9;}'
     + '.ls-dashed{stroke-dasharray:2 3;}'
-    + '.ls-guide{fill:none;stroke:rgba(20,107,94,.18);stroke-width:7;stroke-linecap:round;stroke-linejoin:round;}'
-    + '.ls-ink{fill:none;stroke:#F2784B;stroke-width:5.4;stroke-linecap:round;stroke-linejoin:round;}'
+    + '.ls-guide{fill:none;stroke:rgba(20,107,94,.18);stroke-width:7;stroke-linecap:butt;stroke-linejoin:round;}'
+    + '.ls-ink{fill:none;stroke:#F2784B;stroke-width:5.4;stroke-linecap:butt;stroke-linejoin:round;}'
+    + '.ls-dot{stroke-linecap:round;}'
     + '.ls-ink-live{stroke:#F2A65A;}'
     + '.ls-startdot{fill:#2FA56A;}'
     + '.ls-firefly{fill:#F2C879;stroke:#E0A63C;stroke-width:.8;}'

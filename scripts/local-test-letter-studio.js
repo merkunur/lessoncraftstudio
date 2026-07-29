@@ -221,12 +221,16 @@ const VIEWPORTS = [{ w: 320, h: 640 }, { w: 360, h: 740 }, { w: 412, h: 820 }, {
       ink: document.querySelectorAll('.ls-ink:not(.ls-ink-live)').length,
       formed: !!(LetterStudio.state && LetterStudio.state.formed),
       hint: (document.querySelector('.ls-hint') || {}).textContent || '',
-      next: document.querySelectorAll('.ls-go').length
+      primaries: [...document.querySelectorAll('.ls-go')].map(b => b.textContent)
     }));
     ok('a faithful trace inks the stroke', after.ink >= 1, 'ink paths ' + after.ink);
     ok('a faithful trace FORMS the letter', after.formed);
     ok('the praise line appears, with no verdict', /wrote it/i.test(after.hint) && !/wrong|incorrect|try again/i.test(after.hint), after.hint);
-    ok('a Next affordance appears once formed', after.next >= 2, 'go buttons ' + after.next);
+    /* Exactly ONE primary at the success moment, and it must be Next — two
+       coral pills give a child scanning for the big orange button a coin-flip
+       between advancing and replaying the demo. */
+    ok('a Next affordance appears once formed', /next/i.test(after.primaries.join(' ')), after.primaries.join('|'));
+    ok('and it is the ONLY primary action', after.primaries.length === 1, after.primaries.join('|'));
     await shoot(p, 'traced-formed.png');
     await p.close();
   }

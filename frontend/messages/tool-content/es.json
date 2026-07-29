@@ -701,6 +701,31 @@
     "metaTitle": "Trazo a trazo: trazar letras y números | Preescolar y 1º",
     "metaDescription": "Grafomotricidad en el salón: la luciérnaga marca el orden de los trazos y el niño traza la letra con el dedo sobre doble raya. Abecedario completo, gratis."
   },
+  "open-number-line": {
+    "slug": "recta-numerica-abierta",
+    "name": "Recta numérica abierta",
+    "tagline": "Dibuja cómo lo pensaste",
+    "about": [
+      "Una recta numérica abierta es una recta sin marcas: no trae rayitas ni números impresos. Los únicos números que aparecen son los que el niño de verdad pisó. Si resuelve 47 + 25 con saltos de +10, +10 y +5, en la recta quedan el 57, el 67 y el 72, y nada más.",
+      "Esta no es una ficha de sumas y no ejercita cuentas: es el lugar donde queda registrada una estrategia. El niño arrastra el marcador, el arco se dibuja arriba de la recta y la anotación (+10 o −5) se escribe sola. No hay respuesta esperada ni nada que corregir; lo que la recta guarda es la forma en que pensó, para poder hablar de ella.",
+      "Funciona directamente en el navegador, en tabletas, teléfonos y computadoras del salón, sin instalar nada y sin crear cuentas. La recta puede llegar hasta 20, 100 o 1000 y decir en voz alta cada número donde el niño cae."
+    ],
+    "howToUse": [
+      "Proyecta la recta, ajusta el número de inicio con los botones + y − y pide a un niño que dibuje el primer salto.",
+      "Muestra cómo un salto grande se parte en pedazos cómodos: para +25, salta +10, +10 y +5, y deja que la recta vaya escribiendo la cuenta.",
+      "Activa \"Ayúdame a caer en decenas exactas\" para que los saltos terminen en 30, 40 o 50 mientras los niños se acostumbran a apoyarse en las decenas.",
+      "Para restar, arrastra hacia la izquierda: la anotación cambia a −10 sola y el arco se sigue dibujando arriba de la recta.",
+      "Cuando alguien termine, pregunta \"¿cómo lo pensaste?\" y que explique su dibujo; con Deshacer pueden probar otro camino sin borrar todo."
+    ],
+    "classroomIdeas": [
+      "Da el mismo problema a dos parejas y comparen las dos rectas: caminos distintos, el mismo destino.",
+      "Dibuja tú tres saltos sin decir de qué problema salieron y que los niños adivinen qué cuenta representa la recta.",
+      "Juega a \"llegar a 100\": cada niño dibuja un salto por turno y el grupo decide cuál acerca más.",
+      "Toma una foto de la recta de un niño al empezar el mes y otra al terminarlo: se ve cómo sus saltos se vuelven más grandes y menos numerosos."
+    ],
+    "metaTitle": "Recta numérica abierta gratis | LessonCraftStudio",
+    "metaDescription": "Una recta numérica abierta y gratuita, sin marcas: el niño elige dónde empieza, arrastra cada salto y la recta anota +10 o −5 sola. Sin registro."
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

@@ -701,6 +701,31 @@
       "En Premium, ouvrez le mode Prénoms en début d’année : chaque enfant trace son prénom en capitales, puis la fiche imprimée part à la maison."
     ]
   },
+  "open-number-line": {
+    "slug": "ligne-des-sauts",
+    "name": "La ligne des sauts",
+    "tagline": "Une ligne sans graduations : l’enfant trace ses sauts, le calcul s’écrit tout seul",
+    "about": [
+      "Ici, la ligne est vide : aucune graduation, aucun nombre déjà écrit, rien à lire avant de commencer. L’enfant choisit d’abord son point de départ, puis appuie sur le pion et le fait glisser : un arc se dessine au-dessus de la ligne et la notation s’écrit toute seule, +10, +10, +5. Les seuls nombres inscrits sous la ligne sont ceux sur lesquels il est vraiment arrivé. 47 + 25 n’est alors plus un résultat à trouver, mais un chemin que toute la classe peut voir.",
+      "Ce modèle vient des classes néerlandaises — la lege getallenlijn de l’école de Freudenthal, reprise en Allemagne sous le nom de Rechenstrich. En France, la tradition passe plutôt par la piste, la bande et la file numériques, où les nombres sont déjà écrits, puis par la droite graduée du cycle 2 : la ligne sans graduations n’a pas de nom installé dans nos manuels, et nous l’appelons donc simplement la ligne des sauts. Son intérêt n’est pas de livrer le résultat, mais de rendre visible le calcul réfléchi de l’enfant : passer par la dizaine, avancer de 10 en 10, compléter jusqu’au nombre rond.",
+      "L’outil ne corrige rien : il n’y a pas de bouton de vérification, et aucun chemin n’est attendu plutôt qu’un autre — deux enfants peuvent arriver à 72 par des chemins différents, et les deux chemins racontent une vraie stratégie. Chaque arrivée peut être dite à voix haute, « soixante-douze », pendant que le pion s’y arrête, et une option aide à tomber juste sur les nombres ronds. L’outil fonctionne directement dans le navigateur, sur TBI, tablette et ordinateur : rien à installer, aucun compte à créer. Il n’y a ni minuteur ni score — juste un espace calme pour montrer comment on a calculé."
+    ],
+    "howToUse": [
+      "Réglez d’abord jusqu’où va la ligne : jusqu’à 20 au CP, jusqu’à 100 au CE1, jusqu’à 1000 au CE2. Placez ensuite le départ avec les boutons − et +.",
+      "Faites verbaliser avant de tracer : « je vais d’abord aller jusqu’à 50, puis avancer de 10 en 10 » — le geste vient confirmer ce qui a été annoncé.",
+      "Pour une soustraction comme 72 − 47, partez de 47 et avancez : la réponse est la somme des sauts, et l’outil l’affiche sous la ligne.",
+      "Gardez « Aide-moi à arriver sur des nombres ronds » avec les débutants, le temps d’installer le passage par la dizaine, puis désactivez-le quand les sauts deviennent précis.",
+      "Terminez en projetant deux chemins pour le même calcul, l’un en quatre sauts, l’autre en deux, et demandez à la classe ce que chacun montre."
+    ],
+    "classroomIdeas": [
+      "« Le chemin le plus court » : proposez un calcul et cherchez ensemble à l’atteindre en le moins de sauts possible — c’est le meilleur argument pour passer par les nombres ronds.",
+      "Un élève trace un chemin sans annoncer son calcul ; les autres lisent les arcs à voix haute, +10, +10, +5, et retrouvent l’opération de départ.",
+      "Deux élèves, deux lignes, le même calcul : affichez les deux chemins côte à côte et laissez chacun expliquer pourquoi il a sauté ainsi.",
+      "Activez « Dis le nombre où j’arrive » pour relier le mot entendu au point atteint : la classe entend « soixante et onze » au moment où le pion s’y arrête."
+    ],
+    "metaTitle": "Ligne des sauts : additionner de 10 en 10 au CP-CE1",
+    "metaDescription": "Une ligne sans graduations pour calculer par sauts : l’enfant choisit son départ, trace ses sauts, et +10 +10 +5 s’écrit tout seul. Gratuit, sans inscription."
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

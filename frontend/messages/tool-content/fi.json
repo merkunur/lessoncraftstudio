@@ -679,6 +679,31 @@
     "metaTitle": "Kirjainten kirjoittaminen netissä | LessonCraftStudio",
     "metaDescription": "Ilmainen kirjainpaja alkuopetukseen: katso piirtojärjestys ja piirrä kirjain apuviivoille. Isot ja pienet kirjaimet, ä, ö ja numerot – ei kirjautumista."
   },
+  "open-number-line": {
+    "slug": "piirra-hypyt",
+    "name": "Piirrä hypyt",
+    "tagline": "Tyhjä lukusuora ilman merkkejä: lapsi piirtää hyppynsä itse ja näyttää, miten hän laski.",
+    "about": [
+      "Piirrä hypyt on tyhjä lukusuora: viivalla ei ole yhtään valmista merkkiä, vain ne luvut, joissa lapsi itse käy. Lapsi valitsee aloituskohdan, painaa osoitinta ja vetää – jokaisesta vedosta piirtyy kaari, jonka päälle merkintä +10 tai −5 kirjoittuu itsestään, ja laskeutumisluku ilmestyy viivan alle. Näkyviin jää siis lapsen oma laskutapa eikä valmis vastaus: 47 + 25 on hänen viivallaan +10, +10 ja +5.",
+      "Tyhjä lukusuora on lähtöisin hollantilaisesta (lege getallenlijn) ja saksalaisesta (Rechenstrich) perinteestä, eikä se ole suomalaisissa kirjasarjoissa oma vakiintunut nimetty malli – meillä lukusuora piirretään yleensä valmiiksi merkittynä. Ajattelu on silti täsmälleen suomalaisen alkuopetuksen omaa: kymmenylitys, kymmenen kautta laskeminen ja täydentäminen tasakymmeneen. Tyhjä viiva antaa näille tutuille strategioille paikan, jossa ne näkyvät sellaisina kuin lapsi ne päässään tekee. Myös vähennyslasku käy täydentämällä: 72 − 47 lasketaan hyppimällä 47:stä eteenpäin, ja vastaus on hyppyjen summa, jonka työkalu näyttää valmiiksi.",
+      "Työkalussa ei ole tarkistusta, pisteitä eikä kelloa, eikä se arvioi hyppyjä mitenkään: kaksi lasta voi päätyä samaan lukuun aivan eri kaarilla, ja juuri se on keskustelun paikka. Jokainen laskeutuminen sanotaan ääneen lukusanana – neljäkymmentäseitsemän, seitsemänkymmentäkaksi – joten lukusana ja paikka viivalla kytkeytyvät yhteen samalla hetkellä. Kaikki toimii suoraan selaimessa taululla, tabletilla ja tietokoneella ilman kirjautumista ja asennusta."
+    ],
+    "howToUse": [
+      "Heijasta viiva luokan taululle, aseta aloituskohta – esimerkiksi 47 – ja lukekaa luku yhdessä ääneen.",
+      "Näytä ensin itse: paina osoitinta, vedä eteenpäin ja pysähdy tasakymmeneen. Kaari ja merkintä +3 syntyvät samalla vedolla.",
+      "Anna lapsen jatkaa omilla hypyillään. Kumoa viimeinen hyppy, jos hän haluaa kokeilla toisin – mitään ei tarvitse pyyhkiä pois kokonaan.",
+      "Pidä kohta Auta minua osumaan helppoihin lukuihin päällä, kun tasakymmenten kautta laskeminen on vielä uutta, ja ota se pois, kun lapsi haluaa hypätä täsmälleen omalla tavallaan.",
+      "Kysy lopuksi luokalta sama kysymys kuin aina: miten sinä laskit? Viivan kaaret ovat vastaus, ja hyppyjen summa kertoo erotuksen ilman lainaamista."
+    ],
+    "classroomIdeas": [
+      "Kaksi lasta, sama lasku: 63 + 19 kahdella viivalla rinnakkain. Verratkaa kaaria – vähempi hyppy ei ole parempi, mutta ero synnyttää hyvän keskustelun siitä, miksi kumpikin valitsi niin.",
+      "Vähennyslasku täydentämällä: aseta aloituskohta lukuun 47 ja hyppikää yhdessä lukuun 72. Hyppyjen summa on erotus, eikä kympin lainaamista tarvita lainkaan.",
+      "Vähimmän hypyn haaste: montako hyppyä tarvitaan vähintään, kun mennään 38:sta 91:een? Perustelu painaa enemmän kuin lukumäärä.",
+      "S2-oppijoille: pyydä lasta sanomaan jokainen laskeutumisluku ääneen ennen seuraavaa hyppyä – työkalu sanoo saman lukusanan perässä, joten kuuleminen ja itse tuottaminen vuorottelevat luontevasti."
+    ],
+    "metaTitle": "Piirrä hypyt – tyhjä lukusuora alkuopetukseen",
+    "metaDescription": "Tyhjä lukusuora taululle: lapsi valitsee aloituskohdan, vetää hypyt itse ja merkinnät +10 ja −5 piirtyvät kaarien päälle. Ei arvostelua eikä kirjautumista."
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

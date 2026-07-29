@@ -701,6 +701,31 @@
       "Dupla com o Alfabeto móvel: primeiro a criança monta a palavra com as letras móveis, depois vem para cá escrever cada letra com a mão — reconhecer a letra e traçar a letra são duas aprendizagens diferentes."
     ]
   },
+  "open-number-line": {
+    "slug": "reta-numerica-vazia",
+    "name": "Reta numérica vazia",
+    "tagline": "Desenhe os próprios saltos em uma reta sem marcas",
+    "about": [
+      "A reta numérica vazia é uma reta e mais nada: sem marcas, sem escala, sem números escritos. Não é uma reta numerada com os números escondidos — é uma reta em que só existe o que a criança coloca nela. Ela escolhe onde começar, segura o marcador e arrasta; ao soltar, o arco aparece e a conta se escreve sozinha em cima dele: +10, +10, +5. Assim 47 + 25 deixa de ser uma conta com resposta e passa a ser um caminho de três arcos que termina em 72. Debaixo da reta ficam apenas os números em que a criança realmente parou — onde ela não passou, não há nada escrito.",
+      "O modelo nasceu na Holanda, como lege getallenlijn, e chegou ao alemão como Rechenstrich. No Brasil a reta quase sempre chega numerada, em escalas de 5 em 5 ou de 10 em 10, e serve para localizar, ordenar e comparar números; a reta vazia serve para outra coisa — para calcular. O que a criança desenha é a estratégia. A mais direta é a dos saltos: parte do 47, salta de dez em dez até o 67 e completa até o 72. Quem prefere se apoiar em uma dezena exata dá primeiro um salto de 3 para chegar ao 50, depois +20 e +2 — é o velho completar a dezena, agora visível. A subtração pode ir para a esquerda, com saltos de volta, mas também pode ir para frente: em 71 − 68, a criança parte do 68 e salta até o 71, e os dois arquinhos em cima contam exatamente por que dá 3. Cada parada também é dita em voz alta, em português: quarenta e sete, setenta e dois.",
+      "Aqui nada é conferido. Não há botão de Conferir, não há pontuação e não há cronómetro — os saltos são o raciocínio, e a conversa sobre eles é a aula. Repare na diferença em relação à nossa Reta numérica comum: aquela tem marcas e números e serve para contar, localizar e comparar; a reta vazia serve para calcular, e por isso encontra o seu lugar no 2º ano, quando o cálculo mental até 100 começa a andar — exatamente as estratégias pessoais de adição e de subtração que a BNCC pede. E repare no que ela não é: não treina continhas nem gera fichas de exercícios; ela registra como a criança pensou. De graça está a reta inteira: os três alcances até 20, 100 e 1000, todos os saltos e os números falados. Com o Premium você vê o raciocínio passo a passo outra vez, guarda retas e imprime a reta como ela está na lousa."
+    ],
+    "howToUse": [
+      "Deixe Até onde a reta vai em 100 — é ali que a reta vazia mora — e use os botões − e + de Começar em para escolher o número de partida.",
+      "Chame uma criança à frente, peça que segure o marcador e arraste; ao soltar, o arco aparece com o +10 ou o −5 escrito em cima.",
+      "Depois de cada salto, pergunte à turma em que número a reta parou; com Diga o número onde eu paro ligado, a turma ouve o nome do número na hora.",
+      "Peça a duas crianças que resolvam a mesma conta cada uma do seu jeito — uma de dez em dez, a outra completando a dezena — e coloque as duas retas lado a lado.",
+      "Desligue Me ajude a parar em números redondos quando a turma já procurar a dezena sozinha; aí o salto termina exatamente onde a criança soltou."
+    ],
+    "classroomIdeas": [
+      "Roda de cálculo mental na lousa digital: proponha 47 + 25, deixe três crianças desenharem cada uma a sua reta e depois pergunte qual caminho foi o mais curto e por quê — a pergunta é como você pensou, não quanto deu.",
+      "Quanto falta: faça 71 − 68 primeiro com saltos de volta e depois saltando para frente a partir do 68 — a turma vê que dois pulinhos já resolvem, e a subtração ganha um segundo sentido.",
+      "Contagem em saltos no 1º ano: coloque a reta até 20, comece no 0 e dê só saltos de 2, de 5 ou de 10 — os arcos iguais mostram o padrão antes de qualquer explicação.",
+      "Do caderno para a lousa: cada criança desenha primeiro a sua reta no caderno e depois refaz a mesma reta na lousa digital — o mesmo modelo no papel e na tela, e o Imprimir esta reta leva a reta da turma para o mural."
+    ],
+    "metaTitle": "Reta numérica vazia grátis | LessonCraftStudio",
+    "metaDescription": "Reta numérica vazia para projetar: a criança escolhe onde começa, arrasta para desenhar cada salto e o +10 se escreve sozinho. O caminho do cálculo, não a resposta."
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

@@ -702,6 +702,31 @@
     "metaTitle": "Letter Tracing on Lined Paper for K-1 | Letter Studio",
     "metaDescription": "A free letter tracing tool for K–1: watch the stroke order, then trace with a finger on your country’s own lined writing guide. No scores, no red marks."
   },
+  "open-number-line": {
+    "slug": "open-number-line",
+    "name": "Open Number Line",
+    "tagline": "An empty line where the child draws their own jumps — the strategy, not the answer.",
+    "about": [
+      "Open Number Line is a line with nothing on it. No ticks, no scale, no numbers already printed — just a line, and a child who decides where to begin. They set a starting number, then press the marker and drag, and an arc appears where they jumped, with the notation written above it: +10, +10, +5. Solving 47 + 25 stops being a column of digits and becomes three visible moves that land on 72. The only numbers on the line are the ones they actually landed on; nothing is drawn where they have not been.",
+      "This is the empty number line that Dutch and German classrooms have used for decades — the lege getallenlijn, the Rechenstrich — and it is a thinking tool rather than a practice sheet. There is no Check button in it, no score, no timer, and no right answer, because two children can solve the same problem with completely different jumps and both be right. What the tool gives a teacher is the picture: the jumps stay on the board so the class can look at how someone got there and talk about it. A child who jumps in ones and a child who jumps to the nearest ten have both recorded real reasoning.",
+      "Every landing is spoken as a number word in the language of the page, which matters more than it sounds. A German class hears siebenundvierzig while the marker sits on 47, and a Dutch class hears zevenenveertig — the inverted number word said aloud against the written digits, which is exactly where those children lose their footing. The line runs to 20, 100 or 1000, and a friendly-numbers helper lets a jump land on a round ten when a child wants the support. All of that is free."
+    ],
+    "howToUse": [
+      "Put it on the projector and set the starting number together — the number you are counting on from, not the answer.",
+      "Invite one child up to press the marker and drag. Let them choose the size of the jump; the arc and the +10 write themselves when they let go.",
+      "Ask the class what the jumps add up to. The tool shows the total of the arcs, which is the answer when you are counting on from a smaller number to a bigger one.",
+      "Use Undo the last jump freely. Changing your mind is part of the thinking, and nothing is scored, so there is nothing to lose.",
+      "Turn the friendly-numbers helper off when you want a child to jump in their own way, and on when you want them landing on the round tens."
+    ],
+    "classroomIdeas": [
+      "Give the whole class one problem and have three children each record their own jumps on a fresh line. Then look at the three lines side by side — the point of the lesson is that they are all correct.",
+      "For 72 − 47, do not jump backwards. Start at 47 and jump forwards to 72, then read the total of the arcs. Counting on is easier than counting back, and the line makes that visible.",
+      "Ask a child to draw the jumps and then say them out loud while a partner writes the matching number sentence. The line does the explaining that a sum on its own cannot.",
+      "Leave the last jump off and ask the class where it has to land, before anyone draws it. The empty line makes room for a prediction in a way a printed one does not."
+    ],
+    "metaTitle": "Open Number Line — Draw Your Own Jumps | K-2 Tool",
+    "metaDescription": "A free empty number line for K-2: the child sets the start, drags to draw each jump, and the +10 writes itself. Landings spoken aloud. No scores, no right answer."
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

@@ -701,6 +701,31 @@
       "Sæt værkstedet op som skrivestation ved siden af skrivehæftet, og kør det sammen med Magnetbogstaver og Lydbokse: lyt ordet igennem, byg det med bogstavbrikker, og skriv til sidst bogstaverne i hånden."
     ]
   },
+  "open-number-line": {
+    "slug": "den-tomme-tallinje",
+    "name": "Den tomme tallinje",
+    "tagline": "En helt tom linje – barnet sætter tallene og tegner sine hop selv",
+    "about": [
+      "Den tomme tallinje er ikke en tallinje med skjulte streger – den er helt tom. Barnet bestemmer selv, hvor linjen starter, og tegner så sine hop hen over den: hold på markøren, træk, og buen står der med sit eget +10 skrevet ovenover. De eneste tal, der bliver skrevet ned, er dem, barnet faktisk lander på. Der er ingen tjek-knap, intet rigtigt svar og ingen point – hoppene ER barnets tankegang, og dem læser I sammen på tavlen.",
+      "Redskabet kommer fra hollandsk matematikdidaktik, hvor det hedder den tomme tallinje, og det bruges også i danske klasser, når børnene skal vise, hvordan de regner. 47 + 25 bliver til +10, +10, +5, og barnet lander på tooghalvfjerds. Et andet barn hopper +3 op til halvtreds først og så +22 – to forskellige veje, samme sted at lande, og begge er værd at tale om. Slår du hjælpen til, hopper markøren selv op til nærmeste runde tal, så tierovergangen bliver et holdepunkt i stedet for en forhindring.",
+      "Baglæns hop går lige så let: buerne tegnes oven over linjen, også når der trækkes fra, og notationen står med −5. Og skal klassen finde forskellen mellem 47 og 72, kan de tælle op fra 47 – værktøjet lægger selv hoppene sammen og viser i alt +25, så ingen skal samle buerne i hovedet ved tavlen. Alt kører i browseren på den interaktive tavle, tablets og klassens computere, uden installation og uden login, og hvert landingstal kan siges højt med rigtige danske talord – også tooghalvfjerds og niooghalvfems. Ingen tidtagning, ingen point. Fælles Mål lægger i indskolingen vægt på, at eleverne udvikler deres egne metoder til addition og subtraktion; her kan metoden ses."
+    ],
+    "howToUse": [
+      "Vis den tomme linje på den interaktive tavle, og sæt starttallet med − og + – fx 47.",
+      "Lad et barn holde på markøren og trække hen over linjen: buen bliver tegnet, og +10 skriver sig selv ovenover.",
+      "Slå Hjælp mig med at lande på runde tal til, når I øver at hoppe op til hele tiere – er den slået fra, lander hoppet præcis, hvor fingeren slap.",
+      "Fortryd sidste hop, hvis barnet vil prøve en anden vej, og brug Start forfra til næste opgave.",
+      "Slå Sig tallet til, så hvert landingstal siges højt på dansk – også de svære ord som halvfjerds og halvfems."
+    ],
+    "classroomIdeas": [
+      "Samme opgave, to linjer: to børn regner 47 + 25 hver for sig, og klassen læser begge veje op – +10, +10, +5 og +3, +22 lander på det samme tal.",
+      "Tæl op i stedet for at trække fra: start på 47, hop op til 72, og lad linjen vise, at hoppene tilsammen er +25.",
+      "Tierovergangen som holdepunkt: sæt starttallet til 38, og lad børnene finde hoppet op til fyrre, før de hopper videre.",
+      "Hør ordet bagefter: hop ud i tallene over halvtreds, og lad børnene sige landingstallet i kor, før værktøjet siger det – »tooghalvfjerds« sidder først, når man har sagt den mange gange."
+    ],
+    "metaTitle": "Gratis tom tallinje til tavlen | LessonCraftStudio",
+    "metaDescription": "En tom tallinje til klassen: barnet sætter starttallet og tegner sine egne hop – +10, +10, +5 – mens tallene siges højt på dansk. Gratis, uden login."
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

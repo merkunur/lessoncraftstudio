@@ -702,6 +702,31 @@
       "Schreibstation in der Freiarbeit: Tablet mit der Werkstatt, daneben Sandtablett und Heft. Erst mit dem Finger auf dem Bildschirm, dann im Sand, zuletzt auf der Lineatur – dreimal dieselbe Bewegung, dreimal ein anderes Material."
     ]
   },
+  "open-number-line": {
+    "slug": "rechenstrich",
+    "name": "Rechenstrich",
+    "tagline": "Eigene Sprünge zeichnen – der Rechenweg wird sichtbar",
+    "about": [
+      "Der Rechenstrich ist der leere Zahlenstrahl: ein einzelner Strich ohne Skala, ohne Teilstriche, ohne vorgegebene Zahlen. Nicht ein Zahlenstrahl, bei dem die Zahlen versteckt sind, sondern eine Linie, auf der erst das Kind etwas eintragen muss. Es stellt die Startzahl ein, hält die Markierung gedrückt und zieht – beim Loslassen zeichnet sich der Bogen, und über dem Bogen schreibt sich die Notation von selbst: +10, +10, +5. Aus 47 + 25 wird so ein Weg mit drei Bögen, der auf 72 endet. Auf dem Strich stehen am Ende nur die Zahlen, auf denen das Kind wirklich gelandet ist. Wo es nicht war, steht nichts.",
+      "Genau darum geht es im halbschriftlichen Rechnen der Klasse 2: nicht um das Ergebnis, sondern um den Weg dorthin. Ein Kind springt erst zum glatten Zehner und dann weiter, ein anderes nimmt die 25 in einem großen Bogen, ein drittes rechnet 72 − 47 vorwärts und ergänzt von 47 aus bis 72. Alle drei Wege sind richtig, und alle drei liegen nun sichtbar auf dem Strich – die Bögen sind das Argument, über das die Klasse sprechen kann. Bewertet wird hier nichts: Es gibt keine Prüfen-Schaltfläche, keine Punkte, keine Uhr und keine Lösung, die der Rechenstrich schon kennt. Auf Wunsch spricht er jede Landung als Zahlwort mit – die Klasse hört „siebenundvierzig“, während die Markierung auf der 47 steht, und damit genau die Stelle, an der im Deutschen die Zahlendreher entstehen.",
+      "Der Rechenstrich läuft direkt im Browser, an der Tafel, am Beamer und auf dem Tablet – ohne Installation und ohne Konto für die Kinder. Der Zahlenraum wächst mit: bis 20, bis 100 oder bis 1000. Eine Hilfe lässt die Sprünge auf glatten Zahlen einrasten, damit der Zehnerstopp gelingt; ausgeschaltet landet das Kind genau dort, wo es gezogen hat. Und ganz ehrlich gesagt, was dieses Werkzeug nicht ist: keine Aufgabensammlung und kein Arbeitsblatt-Generator. Der Rechenstrich stellt keine Aufgaben – er hält fest, wie ein Kind gerechnet hat. Das Zeichnen selbst, alle Zahlenräume, alle Sprünge und die gesprochenen Zahlwörter sind dauerhaft kostenlos; den Rechenweg noch einmal abspielen, Rechenstriche speichern und die Druckvorlage gehören zu Premium."
+    ],
+    "howToUse": [
+      "Öffnen Sie den Rechenstrich am Beamer oder Whiteboard, wählen Sie den Zahlenraum (bis 20, bis 100 oder bis 1000) und stellen Sie die Startzahl ein – zum Beispiel die 47.",
+      "Nennen Sie eine Aufgabe wie 47 + 25 und lassen Sie ein Kind nach vorn kommen: Markierung gedrückt halten, ziehen, loslassen – der Bogen und das +10 darüber erscheinen von selbst.",
+      "Fragen Sie nach jedem Bogen: Warum bist du zuerst auf die 50 gesprungen? Wie viel fehlt jetzt noch? So wird der Zehnerstopp zum Gesprächsanlass statt zur Regel.",
+      "Beginnen Sie neu und lassen Sie ein zweites Kind dieselbe Aufgabe anders lösen – ein großer Bogen statt drei kleiner. Halten Sie beide Wege an der Tafel daneben fest und vergleichen Sie sie.",
+      "Schalten Sie das Zahlwort ein, damit die Klasse jede Landung mithört, und die Zehnerhilfe aus, sobald die Kinder frei springen sollen."
+    ],
+    "classroomIdeas": [
+      "Rechenkonferenz: Drei Kinder rechnen dieselbe Aufgabe hintereinander am Rechenstrich. Die Klasse beschreibt jeden Weg mit eigenen Worten und sucht den kürzesten – ohne dass ein Weg falsch wird.",
+      "Ergänzen sichtbar machen: 72 − 47 nicht rückwärts, sondern vorwärts von der 47 aus springen. Die Klasse liest die Bögen ab (+3, +20, +2) und addiert sie an der Tafel zusammen – der Unterschied ist die Antwort.",
+      "Bögen lesen: Zeichnen Sie selbst zwei oder drei Sprünge und verschweigen Sie die Aufgabe. Welche Rechnung hat sich dieses Kind gedacht? Die Klasse rekonstruiert sie aus den Bögen.",
+      "Zahlendreher-Probe: Auf einer Zahl wie 47 landen, das Zahlwort mithören und dann ins Heft schreiben. Wer die Einer zuerst hört, sieht am Strich sofort, wo die Zahl wirklich liegt."
+    ],
+    "metaTitle": "Rechenstrich online – leerer Zahlenstrahl | Kostenlos",
+    "metaDescription": "Rechenstrich für Klasse 2: Startzahl wählen, Sprünge ziehen – Bögen und +10 schreiben sich selbst. Der Rechenweg wird sichtbar. Kostenlos, ohne Anmeldung."
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

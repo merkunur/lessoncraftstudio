@@ -605,6 +605,28 @@
       "Use the flip side for newcomers and language learners: the picture plus the spoken sentence carries the meaning that a function word cannot."
     ]
   },
+  "syllable-splitter": {
+    "slug": "syllable-splitter",
+    "name": "Syllable Splitter",
+    "tagline": "Clap the syllables, tap the drum, and an arc appears under the word for every beat.",
+    "metaTitle": "Syllable Clapping Activity for K-2 | Syllable Splitter",
+    "metaDescription": "A free syllable clapping and segmenting activity for K–2 classrooms. Tap the drum once per clap, draw an arc under each syllable, then rebuild the word.",
+    "about": [
+      "Syllable Splitter puts the oldest routine in early literacy up on the board: say the word, clap the parts. An illustrated word card appears, the class says it together, and one child taps a big drum once for every clap they hear. Each tap draws an arc beneath the word — the Silbenbögen convention teachers use worldwide — so the beat children feel in their hands becomes something they can see. The word then snaps into syllable cards to scramble and rebuild, with audio for each part and for the whole word. Clapping is where phonological awareness begins: before a child can pull a word apart sound by sound, they need to hear that words come in chunks. The drum takes as many taps as the class gives it and never announces a number — you and the children decide together, and that decision is the lesson. Syllable counts across the decks are checked against several independent sources, which is more than most free syllable tools manage; the split you see on screen was written by hand for English classrooms.",
+      "The first word set — twelve two-clap picture words — is free and stays free, with nothing held back inside it: the drum, the arcs, the per-syllable and whole-word audio, and the scramble-and-rebuild face all work in full. It opens on a projector or interactive whiteboard with no account and nothing to install, so you can put it in front of a class tomorrow morning. Premium adds the other three sets — one-clap words, a second bank of two-clap words, and three-clap words — plus the sorting pens, where children drag picture cards into the 1-clap, 2-clap and 3-clap pens, and custom word lists so you can load the vocabulary your class is working on this week. Nothing was taken out of the free set to make room for any of it."
+    ],
+    "howToUse": [
+      "Open the tool on the projector, say the word on the card together, then invite one child up to tap the drum once for each clap the class hears.",
+      "Ask the class to watch the arcs rather than the drum — count the arcs aloud together after the last tap, and use Start again whenever a child wants another go.",
+      "Switch to Build it to scramble the word into syllable cards, and let children say each part aloud as they place it back in order.",
+      "Tap the speaker to hear the whole word, and turn on Say syllables aloud when you want the tool to echo each part after a tap."
+    ],
+    "classroomIdeas": [
+      "Run it as a five-minute morning routine: three words a day, one child on the drum, the whole class clapping and counting the arcs together.",
+      "Clap the children’s own names first, then move to the picture words — most classes will argue about a name or two, which is exactly the conversation you want.",
+      "In the sorting pens, hand each table a pen to defend: the 1-clap group must say aloud why a picture belongs with them before the card is dropped in."
+    ]
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

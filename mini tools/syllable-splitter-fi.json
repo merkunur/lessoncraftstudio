@@ -1,0 +1,1125 @@
+{
+  "locale": "fi",
+  "version": 1,
+  "oralConvention": "same-as-written",
+  "curation": "native-pass-1",
+  "pens": [
+    2,
+    3,
+    4
+  ],
+  "shelves": [
+    {
+      "id": "s1",
+      "label": "Kaksi taputusta",
+      "free": true
+    },
+    {
+      "id": "s2",
+      "label": "Lisää kahden taputuksen sanoja",
+      "free": false
+    },
+    {
+      "id": "s3",
+      "label": "Kolme taputusta",
+      "free": false
+    },
+    {
+      "id": "s4",
+      "label": "Neljä taputusta",
+      "free": false
+    }
+  ],
+  "words": [
+    {
+      "id": "cat",
+      "display": "kissa",
+      "count": 2,
+      "chunks": [
+        "kis",
+        "sa"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "kis",
+        "sa"
+      ],
+      "noun": "cat",
+      "imageDir": "animals",
+      "imageFile": "cat",
+      "shelf": "s1"
+    },
+    {
+      "id": "dog",
+      "display": "koira",
+      "count": 2,
+      "chunks": [
+        "koi",
+        "ra"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "koi",
+        "ra"
+      ],
+      "noun": "dog",
+      "imageDir": "animals",
+      "imageFile": "dog",
+      "shelf": "s1"
+    },
+    {
+      "id": "ball",
+      "display": "pallo",
+      "count": 2,
+      "chunks": [
+        "pal",
+        "lo"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "pal",
+        "lo"
+      ],
+      "noun": "ball",
+      "imageDir": "toys",
+      "imageFile": "ball",
+      "shelf": "s1"
+    },
+    {
+      "id": "house",
+      "display": "talo",
+      "count": 2,
+      "chunks": [
+        "ta",
+        "lo"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "ta",
+        "lo"
+      ],
+      "noun": "house",
+      "imageDir": "miscellaneous",
+      "imageFile": "house",
+      "shelf": "s1"
+    },
+    {
+      "id": "car",
+      "display": "auto",
+      "count": 2,
+      "chunks": [
+        "au",
+        "to"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "au",
+        "to"
+      ],
+      "noun": "car",
+      "imageDir": "toys",
+      "imageFile": "car",
+      "shelf": "s1"
+    },
+    {
+      "id": "bird",
+      "display": "lintu",
+      "count": 2,
+      "chunks": [
+        "lin",
+        "tu"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "lin",
+        "tu"
+      ],
+      "noun": "bird",
+      "imageDir": "spring",
+      "imageFile": "bird",
+      "shelf": "s1"
+    },
+    {
+      "id": "fish",
+      "display": "kala",
+      "count": 2,
+      "chunks": [
+        "ka",
+        "la"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "ka",
+        "la"
+      ],
+      "noun": "fish",
+      "imageDir": "animals",
+      "imageFile": "fish",
+      "shelf": "s1"
+    },
+    {
+      "id": "egg",
+      "display": "muna",
+      "count": 2,
+      "chunks": [
+        "mu",
+        "na"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "mu",
+        "na"
+      ],
+      "noun": "egg",
+      "imageDir": "At the Supermarket",
+      "imageFile": "egg",
+      "shelf": "s1"
+    },
+    {
+      "id": "cake",
+      "display": "kakku",
+      "count": 2,
+      "chunks": [
+        "kak",
+        "ku"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "kak",
+        "ku"
+      ],
+      "noun": "cake",
+      "imageDir": "4th of July",
+      "imageFile": "cake",
+      "shelf": "s1"
+    },
+    {
+      "id": "hand",
+      "display": "käsi",
+      "count": 2,
+      "chunks": [
+        "kä",
+        "si"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "kä",
+        "si"
+      ],
+      "noun": "hand",
+      "imageDir": "body parts",
+      "imageFile": "hand",
+      "shelf": "s1"
+    },
+    {
+      "id": "eye",
+      "display": "silmä",
+      "count": 2,
+      "chunks": [
+        "sil",
+        "mä"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "sil",
+        "mä"
+      ],
+      "noun": "eye",
+      "imageDir": "body parts",
+      "imageFile": "eye",
+      "shelf": "s1"
+    },
+    {
+      "id": "book",
+      "display": "kirja",
+      "count": 2,
+      "chunks": [
+        "kir",
+        "ja"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "kir",
+        "ja"
+      ],
+      "noun": "book",
+      "imageDir": "classroom",
+      "imageFile": "book",
+      "shelf": "s1"
+    },
+    {
+      "id": "flower",
+      "display": "kukka",
+      "count": 2,
+      "chunks": [
+        "kuk",
+        "ka"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "kuk",
+        "ka"
+      ],
+      "noun": "flower",
+      "imageDir": "easter",
+      "imageFile": "flower",
+      "shelf": "s1"
+    },
+    {
+      "id": "bear",
+      "display": "karhu",
+      "count": 2,
+      "chunks": [
+        "kar",
+        "hu"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "kar",
+        "hu"
+      ],
+      "noun": "bear",
+      "imageDir": "camping",
+      "imageFile": "bear",
+      "shelf": "s1"
+    },
+    {
+      "id": "cow",
+      "display": "lehmä",
+      "count": 2,
+      "chunks": [
+        "leh",
+        "mä"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "leh",
+        "mä"
+      ],
+      "noun": "cow",
+      "imageDir": "farm animals",
+      "imageFile": "cow",
+      "shelf": "s1"
+    },
+    {
+      "id": "bunny",
+      "display": "pupu",
+      "count": 2,
+      "chunks": [
+        "pu",
+        "pu"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "pu",
+        "pu"
+      ],
+      "noun": "bunny",
+      "imageDir": "easter",
+      "imageFile": "bunny",
+      "shelf": "s1"
+    },
+    {
+      "id": "duck",
+      "display": "ankka",
+      "count": 2,
+      "chunks": [
+        "ank",
+        "ka"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "ank",
+        "ka"
+      ],
+      "noun": "duck",
+      "imageDir": "animals",
+      "imageFile": "duck",
+      "shelf": "s2"
+    },
+    {
+      "id": "pig",
+      "display": "sika",
+      "count": 2,
+      "chunks": [
+        "si",
+        "ka"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "si",
+        "ka"
+      ],
+      "noun": "pig",
+      "imageDir": "animals",
+      "imageFile": "pig",
+      "shelf": "s2"
+    },
+    {
+      "id": "fox",
+      "display": "kettu",
+      "count": 2,
+      "chunks": [
+        "ket",
+        "tu"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "ket",
+        "tu"
+      ],
+      "noun": "fox",
+      "imageDir": "animals",
+      "imageFile": "fox",
+      "shelf": "s2"
+    },
+    {
+      "id": "mouse",
+      "display": "hiiri",
+      "count": 2,
+      "chunks": [
+        "hii",
+        "ri"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "hii",
+        "ri"
+      ],
+      "noun": "mouse",
+      "imageDir": "forest creatures",
+      "imageFile": "mouse",
+      "shelf": "s2"
+    },
+    {
+      "id": "star",
+      "display": "tähti",
+      "count": 2,
+      "chunks": [
+        "täh",
+        "ti"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "täh",
+        "ti"
+      ],
+      "noun": "star",
+      "imageDir": "christmas",
+      "imageFile": "star",
+      "shelf": "s2"
+    },
+    {
+      "id": "boat",
+      "display": "vene",
+      "count": 2,
+      "chunks": [
+        "ve",
+        "ne"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "ve",
+        "ne"
+      ],
+      "noun": "boat",
+      "imageDir": "beach",
+      "imageFile": "boat",
+      "shelf": "s2"
+    },
+    {
+      "id": "owl",
+      "display": "pöllö",
+      "count": 2,
+      "chunks": [
+        "pöl",
+        "lö"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "pöl",
+        "lö"
+      ],
+      "noun": "owl",
+      "imageDir": "animals",
+      "imageFile": "owl",
+      "shelf": "s2"
+    },
+    {
+      "id": "chair",
+      "display": "tuoli",
+      "count": 2,
+      "chunks": [
+        "tuo",
+        "li"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "tuo",
+        "li"
+      ],
+      "noun": "chair",
+      "imageDir": "around the house",
+      "imageFile": "chair",
+      "shelf": "s2"
+    },
+    {
+      "id": "cup",
+      "display": "kuppi",
+      "count": 2,
+      "chunks": [
+        "kup",
+        "pi"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "kup",
+        "pi"
+      ],
+      "noun": "cup",
+      "imageDir": "around the house",
+      "imageFile": "cup",
+      "shelf": "s2"
+    },
+    {
+      "id": "hat",
+      "display": "hattu",
+      "count": 2,
+      "chunks": [
+        "hat",
+        "tu"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "hat",
+        "tu"
+      ],
+      "noun": "hat",
+      "imageDir": "accessories",
+      "imageFile": "hat",
+      "shelf": "s2"
+    },
+    {
+      "id": "shoe",
+      "display": "kenkä",
+      "count": 2,
+      "chunks": [
+        "ken",
+        "kä"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "ken",
+        "kä"
+      ],
+      "noun": "shoe",
+      "imageDir": "clothing",
+      "imageFile": "shoe",
+      "shelf": "s2"
+    },
+    {
+      "id": "drum",
+      "display": "rumpu",
+      "count": 2,
+      "chunks": [
+        "rum",
+        "pu"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "rum",
+        "pu"
+      ],
+      "noun": "drum",
+      "imageDir": "music",
+      "imageFile": "drum",
+      "shelf": "s2"
+    },
+    {
+      "id": "apple",
+      "display": "omena",
+      "count": 3,
+      "chunks": [
+        "o",
+        "me",
+        "na"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "o",
+        "me",
+        "na"
+      ],
+      "noun": "apple",
+      "imageDir": "At the Supermarket",
+      "imageFile": "apple",
+      "shelf": "s3"
+    },
+    {
+      "id": "carrot",
+      "display": "porkkana",
+      "count": 3,
+      "chunks": [
+        "pork",
+        "ka",
+        "na"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "pork",
+        "ka",
+        "na"
+      ],
+      "noun": "carrot",
+      "imageDir": "At the Supermarket",
+      "imageFile": "carrot",
+      "shelf": "s3"
+    },
+    {
+      "id": "banana",
+      "display": "banaani",
+      "count": 3,
+      "chunks": [
+        "ba",
+        "naa",
+        "ni"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "ba",
+        "naa",
+        "ni"
+      ],
+      "noun": "banana",
+      "imageDir": "At the Supermarket",
+      "imageFile": "banana",
+      "shelf": "s3"
+    },
+    {
+      "id": "butterfly",
+      "display": "perhonen",
+      "count": 3,
+      "chunks": [
+        "per",
+        "ho",
+        "nen"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "per",
+        "ho",
+        "nen"
+      ],
+      "noun": "butterfly",
+      "imageDir": "easter",
+      "imageFile": "butterfly",
+      "shelf": "s3"
+    },
+    {
+      "id": "horse",
+      "display": "hevonen",
+      "count": 3,
+      "chunks": [
+        "he",
+        "vo",
+        "nen"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "he",
+        "vo",
+        "nen"
+      ],
+      "noun": "horse",
+      "imageDir": "animals",
+      "imageFile": "horse",
+      "shelf": "s3"
+    },
+    {
+      "id": "giraffe",
+      "display": "kirahvi",
+      "count": 3,
+      "chunks": [
+        "ki",
+        "rah",
+        "vi"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "ki",
+        "rah",
+        "vi"
+      ],
+      "noun": "giraffe",
+      "imageDir": "animals",
+      "imageFile": "giraffe",
+      "shelf": "s3"
+    },
+    {
+      "id": "monkey",
+      "display": "apina",
+      "count": 3,
+      "chunks": [
+        "a",
+        "pi",
+        "na"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "a",
+        "pi",
+        "na"
+      ],
+      "noun": "monkey",
+      "imageDir": "zoo animals",
+      "imageFile": "monkey",
+      "shelf": "s3"
+    },
+    {
+      "id": "lion",
+      "display": "leijona",
+      "count": 3,
+      "chunks": [
+        "lei",
+        "jo",
+        "na"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "lei",
+        "jo",
+        "na"
+      ],
+      "noun": "lion",
+      "imageDir": "zoo animals",
+      "imageFile": "lion",
+      "shelf": "s3"
+    },
+    {
+      "id": "tiger",
+      "display": "tiikeri",
+      "count": 3,
+      "chunks": [
+        "tii",
+        "ke",
+        "ri"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "tii",
+        "ke",
+        "ri"
+      ],
+      "noun": "tiger",
+      "imageDir": "animals",
+      "imageFile": "tiger",
+      "shelf": "s3"
+    },
+    {
+      "id": "frog",
+      "display": "sammakko",
+      "count": 3,
+      "chunks": [
+        "sam",
+        "mak",
+        "ko"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "sam",
+        "mak",
+        "ko"
+      ],
+      "noun": "frog",
+      "imageDir": "camping",
+      "imageFile": "frog",
+      "shelf": "s3"
+    },
+    {
+      "id": "squirrel",
+      "display": "orava",
+      "count": 3,
+      "chunks": [
+        "o",
+        "ra",
+        "va"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "o",
+        "ra",
+        "va"
+      ],
+      "noun": "squirrel",
+      "imageDir": "camping",
+      "imageFile": "squirrel",
+      "shelf": "s3"
+    },
+    {
+      "id": "strawberry",
+      "display": "mansikka",
+      "count": 3,
+      "chunks": [
+        "man",
+        "sik",
+        "ka"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "man",
+        "sik",
+        "ka"
+      ],
+      "noun": "strawberry",
+      "imageDir": "At the Supermarket",
+      "imageFile": "strawberry",
+      "shelf": "s3"
+    },
+    {
+      "id": "spoon",
+      "display": "lusikka",
+      "count": 3,
+      "chunks": [
+        "lu",
+        "sik",
+        "ka"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "lu",
+        "sik",
+        "ka"
+      ],
+      "noun": "spoon",
+      "imageDir": "around the house",
+      "imageFile": "spoon",
+      "shelf": "s3"
+    },
+    {
+      "id": "window",
+      "display": "ikkuna",
+      "count": 3,
+      "chunks": [
+        "ik",
+        "ku",
+        "na"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "ik",
+        "ku",
+        "na"
+      ],
+      "noun": "window",
+      "imageDir": "around the house",
+      "imageFile": "window",
+      "shelf": "s3"
+    },
+    {
+      "id": "sun",
+      "display": "aurinko",
+      "count": 3,
+      "chunks": [
+        "au",
+        "rin",
+        "ko"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "au",
+        "rin",
+        "ko"
+      ],
+      "noun": "sun",
+      "imageDir": "beach",
+      "imageFile": "sun",
+      "shelf": "s3"
+    },
+    {
+      "id": "airplane",
+      "display": "lentokone",
+      "count": 4,
+      "chunks": [
+        "len",
+        "to",
+        "ko",
+        "ne"
+      ],
+      "oralCount": 4,
+      "oralChunks": [
+        "len",
+        "to",
+        "ko",
+        "ne"
+      ],
+      "noun": "airplane",
+      "imageDir": "Things That Fly",
+      "imageFile": "airplane",
+      "shelf": "s4"
+    },
+    {
+      "id": "balloon",
+      "display": "ilmapallo",
+      "count": 4,
+      "chunks": [
+        "il",
+        "ma",
+        "pal",
+        "lo"
+      ],
+      "oralCount": 4,
+      "oralChunks": [
+        "il",
+        "ma",
+        "pal",
+        "lo"
+      ],
+      "noun": "balloon",
+      "imageDir": "4th of July",
+      "imageFile": "balloon",
+      "shelf": "s4"
+    },
+    {
+      "id": "bicycle",
+      "display": "polkupyörä",
+      "count": 4,
+      "chunks": [
+        "pol",
+        "ku",
+        "pyö",
+        "rä"
+      ],
+      "oralCount": 4,
+      "oralChunks": [
+        "pol",
+        "ku",
+        "pyö",
+        "rä"
+      ],
+      "noun": "bicycle",
+      "imageDir": "spring",
+      "imageFile": "bicycle",
+      "shelf": "s4"
+    },
+    {
+      "id": "snowman",
+      "display": "lumiukko",
+      "count": 4,
+      "chunks": [
+        "lu",
+        "mi",
+        "uk",
+        "ko"
+      ],
+      "oralCount": 4,
+      "oralChunks": [
+        "lu",
+        "mi",
+        "uk",
+        "ko"
+      ],
+      "noun": "snowman",
+      "imageDir": "christmas",
+      "imageFile": "snowman",
+      "shelf": "s4"
+    },
+    {
+      "id": "octopus",
+      "display": "mustekala",
+      "count": 4,
+      "chunks": [
+        "mus",
+        "te",
+        "ka",
+        "la"
+      ],
+      "oralCount": 4,
+      "oralChunks": [
+        "mus",
+        "te",
+        "ka",
+        "la"
+      ],
+      "noun": "octopus",
+      "imageDir": "ocean life",
+      "imageFile": "octopus",
+      "shelf": "s4"
+    },
+    {
+      "id": "spider",
+      "display": "hämähäkki",
+      "count": 4,
+      "chunks": [
+        "hä",
+        "mä",
+        "häk",
+        "ki"
+      ],
+      "oralCount": 4,
+      "oralChunks": [
+        "hä",
+        "mä",
+        "häk",
+        "ki"
+      ],
+      "noun": "spider",
+      "imageDir": "forest creatures",
+      "imageFile": "spider",
+      "shelf": "s4"
+    },
+    {
+      "id": "ladybug",
+      "display": "leppäkerttu",
+      "count": 4,
+      "chunks": [
+        "lep",
+        "pä",
+        "kert",
+        "tu"
+      ],
+      "oralCount": 4,
+      "oralChunks": [
+        "lep",
+        "pä",
+        "kert",
+        "tu"
+      ],
+      "noun": "ladybug",
+      "imageDir": "forest creatures",
+      "imageFile": "ladybug",
+      "shelf": "s4"
+    },
+    {
+      "id": "turtle",
+      "display": "kilpikonna",
+      "count": 4,
+      "chunks": [
+        "kil",
+        "pi",
+        "kon",
+        "na"
+      ],
+      "oralCount": 4,
+      "oralChunks": [
+        "kil",
+        "pi",
+        "kon",
+        "na"
+      ],
+      "noun": "turtle",
+      "imageDir": "animals",
+      "imageFile": "turtle",
+      "shelf": "s4"
+    },
+    {
+      "id": "orange",
+      "display": "appelsiini",
+      "count": 4,
+      "chunks": [
+        "ap",
+        "pel",
+        "sii",
+        "ni"
+      ],
+      "oralCount": 4,
+      "oralChunks": [
+        "ap",
+        "pel",
+        "sii",
+        "ni"
+      ],
+      "noun": "orange",
+      "imageDir": "At the Supermarket",
+      "imageFile": "orange",
+      "shelf": "s4"
+    },
+    {
+      "id": "rainbow",
+      "display": "sateenkaari",
+      "count": 4,
+      "chunks": [
+        "sa",
+        "teen",
+        "kaa",
+        "ri"
+      ],
+      "oralCount": 4,
+      "oralChunks": [
+        "sa",
+        "teen",
+        "kaa",
+        "ri"
+      ],
+      "noun": "rainbow",
+      "imageDir": "easter",
+      "imageFile": "rainbow",
+      "shelf": "s4"
+    },
+    {
+      "id": "umbrella",
+      "display": "sateenvarjo",
+      "count": 4,
+      "chunks": [
+        "sa",
+        "teen",
+        "var",
+        "jo"
+      ],
+      "oralCount": 4,
+      "oralChunks": [
+        "sa",
+        "teen",
+        "var",
+        "jo"
+      ],
+      "noun": "umbrella",
+      "imageDir": "accessories",
+      "imageFile": "umbrella",
+      "shelf": "s4"
+    },
+    {
+      "id": "teacher",
+      "display": "opettaja",
+      "count": 4,
+      "chunks": [
+        "o",
+        "pet",
+        "ta",
+        "ja"
+      ],
+      "oralCount": 4,
+      "oralChunks": [
+        "o",
+        "pet",
+        "ta",
+        "ja"
+      ],
+      "noun": "teacher",
+      "imageDir": "classroom",
+      "imageFile": "teacher",
+      "shelf": "s4"
+    },
+    {
+      "id": "teddy-bear",
+      "display": "nallekarhu",
+      "count": 4,
+      "chunks": [
+        "nal",
+        "le",
+        "kar",
+        "hu"
+      ],
+      "oralCount": 4,
+      "oralChunks": [
+        "nal",
+        "le",
+        "kar",
+        "hu"
+      ],
+      "noun": "teddy-bear",
+      "imageDir": "toys",
+      "imageFile": "teddy_bear",
+      "shelf": "s4"
+    }
+  ]
+}

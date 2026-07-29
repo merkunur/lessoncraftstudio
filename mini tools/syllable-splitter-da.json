@@ -1,0 +1,1035 @@
+{
+  "locale": "da",
+  "version": 1,
+  "oralConvention": "same-as-written",
+  "curation": "native-pass-1",
+  "pens": [
+    1,
+    2,
+    3
+  ],
+  "shelves": [
+    {
+      "id": "s1",
+      "label": "Ord med to klap",
+      "free": true
+    },
+    {
+      "id": "s2",
+      "label": "Ord med et klap",
+      "free": false
+    },
+    {
+      "id": "s3",
+      "label": "Flere ord med to klap",
+      "free": false
+    },
+    {
+      "id": "s4",
+      "label": "Ord med tre klap",
+      "free": false
+    }
+  ],
+  "words": [
+    {
+      "id": "rabbit",
+      "display": "kanin",
+      "count": 2,
+      "chunks": [
+        "ka",
+        "nin"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "ka",
+        "nin"
+      ],
+      "noun": "rabbit",
+      "imageDir": "pets",
+      "imageFile": "rabbit",
+      "shelf": "s1"
+    },
+    {
+      "id": "banana",
+      "display": "banan",
+      "count": 2,
+      "chunks": [
+        "ba",
+        "nan"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "ba",
+        "nan"
+      ],
+      "noun": "banana",
+      "imageDir": "fruits",
+      "imageFile": "banana",
+      "shelf": "s1"
+    },
+    {
+      "id": "tomato",
+      "display": "tomat",
+      "count": 2,
+      "chunks": [
+        "to",
+        "mat"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "to",
+        "mat"
+      ],
+      "noun": "tomato",
+      "imageDir": "vegetables",
+      "imageFile": "tomato",
+      "shelf": "s1"
+    },
+    {
+      "id": "bun",
+      "display": "bolle",
+      "count": 2,
+      "chunks": [
+        "bol",
+        "le"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "bol",
+        "le"
+      ],
+      "noun": "bun",
+      "imageDir": "bakery",
+      "imageFile": "bun",
+      "shelf": "s1"
+    },
+    {
+      "id": "chick",
+      "display": "kylling",
+      "count": 2,
+      "chunks": [
+        "kyl",
+        "ling"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "kyl",
+        "ling"
+      ],
+      "noun": "chick",
+      "imageDir": "farm animals",
+      "imageFile": "chick",
+      "shelf": "s1"
+    },
+    {
+      "id": "doll",
+      "display": "dukke",
+      "count": 2,
+      "chunks": [
+        "duk",
+        "ke"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "duk",
+        "ke"
+      ],
+      "noun": "doll",
+      "imageDir": "toys",
+      "imageFile": "doll",
+      "shelf": "s1"
+    },
+    {
+      "id": "lamp",
+      "display": "lampe",
+      "count": 2,
+      "chunks": [
+        "lam",
+        "pe"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "lam",
+        "pe"
+      ],
+      "noun": "lamp",
+      "imageDir": "furniture",
+      "imageFile": "lamp",
+      "shelf": "s1"
+    },
+    {
+      "id": "dress",
+      "display": "kjole",
+      "count": 2,
+      "chunks": [
+        "kjo",
+        "le"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "kjo",
+        "le"
+      ],
+      "noun": "dress",
+      "imageDir": "clothing",
+      "imageFile": "dress",
+      "shelf": "s1"
+    },
+    {
+      "id": "drum",
+      "display": "tromme",
+      "count": 2,
+      "chunks": [
+        "trom",
+        "me"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "trom",
+        "me"
+      ],
+      "noun": "drum",
+      "imageDir": "music",
+      "imageFile": "drum",
+      "shelf": "s1"
+    },
+    {
+      "id": "crown",
+      "display": "krone",
+      "count": 2,
+      "chunks": [
+        "kro",
+        "ne"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "kro",
+        "ne"
+      ],
+      "noun": "crown",
+      "imageDir": "accessories",
+      "imageFile": "crown",
+      "shelf": "s1"
+    },
+    {
+      "id": "camel",
+      "display": "kamel",
+      "count": 2,
+      "chunks": [
+        "ka",
+        "mel"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "ka",
+        "mel"
+      ],
+      "noun": "camel",
+      "imageDir": "zoo animals",
+      "imageFile": "camel",
+      "shelf": "s1"
+    },
+    {
+      "id": "penguin",
+      "display": "pingvin",
+      "count": 2,
+      "chunks": [
+        "ping",
+        "vin"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "ping",
+        "vin"
+      ],
+      "noun": "penguin",
+      "imageDir": "birds 2",
+      "imageFile": "penguin",
+      "shelf": "s1"
+    },
+    {
+      "id": "cat",
+      "display": "kat",
+      "count": 1,
+      "chunks": [
+        "kat"
+      ],
+      "oralCount": 1,
+      "oralChunks": [
+        "kat"
+      ],
+      "noun": "cat",
+      "imageDir": "pets",
+      "imageFile": "cat",
+      "shelf": "s2"
+    },
+    {
+      "id": "dog",
+      "display": "hund",
+      "count": 1,
+      "chunks": [
+        "hund"
+      ],
+      "oralCount": 1,
+      "oralChunks": [
+        "hund"
+      ],
+      "noun": "dog",
+      "imageDir": "pets",
+      "imageFile": "dog",
+      "shelf": "s2"
+    },
+    {
+      "id": "car",
+      "display": "bil",
+      "count": 1,
+      "chunks": [
+        "bil"
+      ],
+      "oralCount": 1,
+      "oralChunks": [
+        "bil"
+      ],
+      "noun": "car",
+      "imageDir": "vehicles",
+      "imageFile": "car",
+      "shelf": "s2"
+    },
+    {
+      "id": "bus",
+      "display": "bus",
+      "count": 1,
+      "chunks": [
+        "bus"
+      ],
+      "oralCount": 1,
+      "oralChunks": [
+        "bus"
+      ],
+      "noun": "bus",
+      "imageDir": "vehicles",
+      "imageFile": "bus",
+      "shelf": "s2"
+    },
+    {
+      "id": "house",
+      "display": "hus",
+      "count": 1,
+      "chunks": [
+        "hus"
+      ],
+      "oralCount": 1,
+      "oralChunks": [
+        "hus"
+      ],
+      "noun": "house",
+      "imageDir": "miscellaneous",
+      "imageFile": "house",
+      "shelf": "s2"
+    },
+    {
+      "id": "sun",
+      "display": "sol",
+      "count": 1,
+      "chunks": [
+        "sol"
+      ],
+      "oralCount": 1,
+      "oralChunks": [
+        "sol"
+      ],
+      "noun": "sun",
+      "imageDir": "weather",
+      "imageFile": "sun",
+      "shelf": "s2"
+    },
+    {
+      "id": "fish",
+      "display": "fisk",
+      "count": 1,
+      "chunks": [
+        "fisk"
+      ],
+      "oralCount": 1,
+      "oralChunks": [
+        "fisk"
+      ],
+      "noun": "fish",
+      "imageDir": "ocean life",
+      "imageFile": "fish",
+      "shelf": "s2"
+    },
+    {
+      "id": "book",
+      "display": "bog",
+      "count": 1,
+      "chunks": [
+        "bog"
+      ],
+      "oralCount": 1,
+      "oralChunks": [
+        "bog"
+      ],
+      "noun": "book",
+      "imageDir": "classroom",
+      "imageFile": "book",
+      "shelf": "s2"
+    },
+    {
+      "id": "chair",
+      "display": "stol",
+      "count": 1,
+      "chunks": [
+        "stol"
+      ],
+      "oralCount": 1,
+      "oralChunks": [
+        "stol"
+      ],
+      "noun": "chair",
+      "imageDir": "classroom",
+      "imageFile": "chair",
+      "shelf": "s2"
+    },
+    {
+      "id": "cow",
+      "display": "ko",
+      "count": 1,
+      "chunks": [
+        "ko"
+      ],
+      "oralCount": 1,
+      "oralChunks": [
+        "ko"
+      ],
+      "noun": "cow",
+      "imageDir": "farm animals",
+      "imageFile": "cow",
+      "shelf": "s2"
+    },
+    {
+      "id": "pig",
+      "display": "gris",
+      "count": 1,
+      "chunks": [
+        "gris"
+      ],
+      "oralCount": 1,
+      "oralChunks": [
+        "gris"
+      ],
+      "noun": "pig",
+      "imageDir": "farm animals",
+      "imageFile": "pig",
+      "shelf": "s2"
+    },
+    {
+      "id": "horse",
+      "display": "hest",
+      "count": 1,
+      "chunks": [
+        "hest"
+      ],
+      "oralCount": 1,
+      "oralChunks": [
+        "hest"
+      ],
+      "noun": "horse",
+      "imageDir": "farm animals",
+      "imageFile": "horse",
+      "shelf": "s2"
+    },
+    {
+      "id": "frog",
+      "display": "frø",
+      "count": 1,
+      "chunks": [
+        "frø"
+      ],
+      "oralCount": 1,
+      "oralChunks": [
+        "frø"
+      ],
+      "noun": "frog",
+      "imageDir": "pets",
+      "imageFile": "frog",
+      "shelf": "s2"
+    },
+    {
+      "id": "shoe",
+      "display": "sko",
+      "count": 1,
+      "chunks": [
+        "sko"
+      ],
+      "oralCount": 1,
+      "oralChunks": [
+        "sko"
+      ],
+      "noun": "shoe",
+      "imageDir": "clothing",
+      "imageFile": "shoe",
+      "shelf": "s2"
+    },
+    {
+      "id": "ice-cream",
+      "display": "is",
+      "count": 1,
+      "chunks": [
+        "is"
+      ],
+      "oralCount": 1,
+      "oralChunks": [
+        "is"
+      ],
+      "noun": "ice-cream",
+      "imageDir": "desserts and sweets",
+      "imageFile": "ice_cream",
+      "shelf": "s2"
+    },
+    {
+      "id": "tree",
+      "display": "træ",
+      "count": 1,
+      "chunks": [
+        "træ"
+      ],
+      "oralCount": 1,
+      "oralChunks": [
+        "træ"
+      ],
+      "noun": "tree",
+      "imageDir": "christmas",
+      "imageFile": "tree",
+      "shelf": "s2"
+    },
+    {
+      "id": "tiger",
+      "display": "tiger",
+      "count": 2,
+      "chunks": [
+        "ti",
+        "ger"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "ti",
+        "ger"
+      ],
+      "noun": "tiger",
+      "imageDir": "animals",
+      "imageFile": "tiger",
+      "shelf": "s3"
+    },
+    {
+      "id": "zebra",
+      "display": "zebra",
+      "count": 2,
+      "chunks": [
+        "ze",
+        "bra"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "ze",
+        "bra"
+      ],
+      "noun": "zebra",
+      "imageDir": "zoo animals",
+      "imageFile": "zebra",
+      "shelf": "s3"
+    },
+    {
+      "id": "dolphin",
+      "display": "delfin",
+      "count": 2,
+      "chunks": [
+        "del",
+        "fin"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "del",
+        "fin"
+      ],
+      "noun": "dolphin",
+      "imageDir": "ocean life",
+      "imageFile": "dolphin",
+      "shelf": "s3"
+    },
+    {
+      "id": "bicycle",
+      "display": "cykel",
+      "count": 2,
+      "chunks": [
+        "cy",
+        "kel"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "cy",
+        "kel"
+      ],
+      "noun": "bicycle",
+      "imageDir": "vehicles",
+      "imageFile": "bicycle",
+      "shelf": "s3"
+    },
+    {
+      "id": "bottle",
+      "display": "flaske",
+      "count": 2,
+      "chunks": [
+        "fla",
+        "ske"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "fla",
+        "ske"
+      ],
+      "noun": "bottle",
+      "imageDir": "kitchen tools",
+      "imageFile": "bottle",
+      "shelf": "s3"
+    },
+    {
+      "id": "fork",
+      "display": "gaffel",
+      "count": 2,
+      "chunks": [
+        "gaf",
+        "fel"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "gaf",
+        "fel"
+      ],
+      "noun": "fork",
+      "imageDir": "kitchen tools",
+      "imageFile": "fork",
+      "shelf": "s3"
+    },
+    {
+      "id": "crab",
+      "display": "krabbe",
+      "count": 2,
+      "chunks": [
+        "krab",
+        "be"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "krab",
+        "be"
+      ],
+      "noun": "crab",
+      "imageDir": "beach",
+      "imageFile": "crab",
+      "shelf": "s3"
+    },
+    {
+      "id": "balloon",
+      "display": "ballon",
+      "count": 2,
+      "chunks": [
+        "bal",
+        "lon"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "bal",
+        "lon"
+      ],
+      "noun": "balloon",
+      "imageDir": "toys",
+      "imageFile": "balloon",
+      "shelf": "s3"
+    },
+    {
+      "id": "bell",
+      "display": "klokke",
+      "count": 2,
+      "chunks": [
+        "klok",
+        "ke"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "klok",
+        "ke"
+      ],
+      "noun": "bell",
+      "imageDir": "christmas",
+      "imageFile": "bell",
+      "shelf": "s3"
+    },
+    {
+      "id": "plum",
+      "display": "blomme",
+      "count": 2,
+      "chunks": [
+        "blom",
+        "me"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "blom",
+        "me"
+      ],
+      "noun": "plum",
+      "imageDir": "fruits",
+      "imageFile": "plum",
+      "shelf": "s3"
+    },
+    {
+      "id": "lemon",
+      "display": "citron",
+      "count": 2,
+      "chunks": [
+        "ci",
+        "tron"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "ci",
+        "tron"
+      ],
+      "noun": "lemon",
+      "imageDir": "fruits",
+      "imageFile": "lemon",
+      "shelf": "s3"
+    },
+    {
+      "id": "teddy-bear",
+      "display": "bamse",
+      "count": 2,
+      "chunks": [
+        "bam",
+        "se"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "bam",
+        "se"
+      ],
+      "noun": "teddy-bear",
+      "imageDir": "toys",
+      "imageFile": "teddy_bear",
+      "shelf": "s3"
+    },
+    {
+      "id": "ladder",
+      "display": "stige",
+      "count": 2,
+      "chunks": [
+        "sti",
+        "ge"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "sti",
+        "ge"
+      ],
+      "noun": "ladder",
+      "imageDir": "tools",
+      "imageFile": "ladder",
+      "shelf": "s3"
+    },
+    {
+      "id": "triangle",
+      "display": "trekant",
+      "count": 2,
+      "chunks": [
+        "tre",
+        "kant"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "tre",
+        "kant"
+      ],
+      "noun": "triangle",
+      "imageDir": "shapes",
+      "imageFile": "triangle",
+      "shelf": "s3"
+    },
+    {
+      "id": "sea-horse",
+      "display": "søhest",
+      "count": 2,
+      "chunks": [
+        "sø",
+        "hest"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "sø",
+        "hest"
+      ],
+      "noun": "sea-horse",
+      "imageDir": "ocean life",
+      "imageFile": "sea_horse",
+      "shelf": "s3"
+    },
+    {
+      "id": "swan",
+      "display": "svane",
+      "count": 2,
+      "chunks": [
+        "sva",
+        "ne"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "sva",
+        "ne"
+      ],
+      "noun": "swan",
+      "imageDir": "birds 2",
+      "imageFile": "swan",
+      "shelf": "s3"
+    },
+    {
+      "id": "flamingo",
+      "display": "flamingo",
+      "count": 3,
+      "chunks": [
+        "fla",
+        "min",
+        "go"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "fla",
+        "min",
+        "go"
+      ],
+      "noun": "flamingo",
+      "imageDir": "birds 2",
+      "imageFile": "flamingo",
+      "shelf": "s4"
+    },
+    {
+      "id": "orange",
+      "display": "appelsin",
+      "count": 3,
+      "chunks": [
+        "ap",
+        "pel",
+        "sin"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "ap",
+        "pel",
+        "sin"
+      ],
+      "noun": "orange",
+      "imageDir": "fruits",
+      "imageFile": "orange",
+      "shelf": "s4"
+    },
+    {
+      "id": "gorilla",
+      "display": "gorilla",
+      "count": 3,
+      "chunks": [
+        "go",
+        "ril",
+        "la"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "go",
+        "ril",
+        "la"
+      ],
+      "noun": "gorilla",
+      "imageDir": "zoo animals",
+      "imageFile": "gorilla",
+      "shelf": "s4"
+    },
+    {
+      "id": "butterfly",
+      "display": "sommerfugl",
+      "count": 3,
+      "chunks": [
+        "som",
+        "mer",
+        "fugl"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "som",
+        "mer",
+        "fugl"
+      ],
+      "noun": "butterfly",
+      "imageDir": "insects and bugs",
+      "imageFile": "butterfly",
+      "shelf": "s4"
+    },
+    {
+      "id": "spider",
+      "display": "edderkop",
+      "count": 3,
+      "chunks": [
+        "ed",
+        "der",
+        "kop"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "ed",
+        "der",
+        "kop"
+      ],
+      "noun": "spider",
+      "imageDir": "insects and bugs",
+      "imageFile": "spider",
+      "shelf": "s4"
+    },
+    {
+      "id": "turtle",
+      "display": "skildpadde",
+      "count": 3,
+      "chunks": [
+        "skild",
+        "pad",
+        "de"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "skild",
+        "pad",
+        "de"
+      ],
+      "noun": "turtle",
+      "imageDir": "pets",
+      "imageFile": "turtle",
+      "shelf": "s4"
+    },
+    {
+      "id": "telephone",
+      "display": "telefon",
+      "count": 3,
+      "chunks": [
+        "te",
+        "le",
+        "fon"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "te",
+        "le",
+        "fon"
+      ],
+      "noun": "telephone",
+      "imageDir": "around the house",
+      "imageFile": "telephone",
+      "shelf": "s4"
+    },
+    {
+      "id": "xylophone",
+      "display": "xylofon",
+      "count": 3,
+      "chunks": [
+        "xy",
+        "lo",
+        "fon"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "xy",
+        "lo",
+        "fon"
+      ],
+      "noun": "xylophone",
+      "imageDir": "music",
+      "imageFile": "xylophone",
+      "shelf": "s4"
+    },
+    {
+      "id": "pelican",
+      "display": "pelikan",
+      "count": 3,
+      "chunks": [
+        "pe",
+        "li",
+        "kan"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "pe",
+        "li",
+        "kan"
+      ],
+      "noun": "pelican",
+      "imageDir": "birds 2",
+      "imageFile": "pelican",
+      "shelf": "s4"
+    },
+    {
+      "id": "watermelon",
+      "display": "vandmelon",
+      "count": 3,
+      "chunks": [
+        "vand",
+        "me",
+        "lon"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "vand",
+        "me",
+        "lon"
+      ],
+      "noun": "watermelon",
+      "imageDir": "fruits",
+      "imageFile": "watermelon",
+      "shelf": "s4"
+    },
+    {
+      "id": "sunglasses",
+      "display": "solbriller",
+      "count": 3,
+      "chunks": [
+        "sol",
+        "bril",
+        "ler"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "sol",
+        "bril",
+        "ler"
+      ],
+      "noun": "sunglasses",
+      "imageDir": "summer",
+      "imageFile": "sunglasses",
+      "shelf": "s4"
+    },
+    {
+      "id": "raccoon",
+      "display": "vaskebjørn",
+      "count": 3,
+      "chunks": [
+        "va",
+        "ske",
+        "bjørn"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "va",
+        "ske",
+        "bjørn"
+      ],
+      "noun": "raccoon",
+      "imageDir": "forest creatures",
+      "imageFile": "raccoon",
+      "shelf": "s4"
+    }
+  ]
+}

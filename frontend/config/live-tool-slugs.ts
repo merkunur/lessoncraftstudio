@@ -46,7 +46,7 @@ import makerFi from '@/messages/maker-content/fi.json';
 // Tool keys present in every tool-content file. Kept local (not imported from
 // tool-content.ts) so this module has zero runtime deps beyond the JSON — safe
 // for the Edge middleware bundle.
-const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler', 'sound-boxes', 'blending-board', 'letter-tiles', 'calendar-wall', 'number-talk-easel', 'rekenrek', 'class-timer', 'name-sticks', 'center-board', 'learning-clock', 'place-value-lab', 'picture-word-wall', 'hush-owl', 'wodb', 'story-line', 'fraction-kitchen', 'measurement-bench', 'money-mat', 'choral-counting', 'our-day', 'heart-words'] as const;
+const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler', 'sound-boxes', 'blending-board', 'letter-tiles', 'calendar-wall', 'number-talk-easel', 'rekenrek', 'class-timer', 'name-sticks', 'center-board', 'learning-clock', 'place-value-lab', 'picture-word-wall', 'hush-owl', 'wodb', 'story-line', 'fraction-kitchen', 'measurement-bench', 'money-mat', 'choral-counting', 'our-day', 'heart-words', 'syllable-splitter'] as const;
 // Maker keys present in every maker-content file (all 33, §maker-content.ts).
 const MAKER_KEYS = [
   'addition', 'subtraction', 'code-addition', 'more-less', 'math-puzzle', 'math-worksheet',

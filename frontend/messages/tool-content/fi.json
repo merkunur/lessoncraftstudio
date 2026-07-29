@@ -582,6 +582,28 @@
       "Tulosta päiväjärjestys pöytänauhaksi lapselle, joka hyötyy omasta lähistruktuurista — sama kuva taululla ja pulpetilla rauhoittaa."
     ]
   },
+  "syllable-splitter": {
+    "slug": "taputa-tavut",
+    "name": "Taputa tavut",
+    "tagline": "Sanokaa sana, taputtakaa tavut ja napauttakaa rumpua jokaisella taputuksella",
+    "metaTitle": "Ilmainen tavutusharjoitus – Taputa tavut | LessonCraftStudio",
+    "metaDescription": "Ilmainen tavutustyökalu esi- ja alkuopetukseen: sanokaa kuvasana, taputtakaa tavut ja napauttakaa rumpua kerran jokaisesta tavusta – ei kirjautumista.",
+    "about": [
+      "Taputa tavut on tavutuksen harjoitustyökalu esiopetukseen ja alkuopetukseen. Näytölle nousee kuvakortti, luokka sanoo sanan ääneen ja taputtaa sen tavut, ja yksi lapsi napauttaa rumpua kerran jokaisella taputuksella. Jokainen napautus piirtää sanan alle yhden kaaren, joten kuultu rytmi muuttuu näkyväksi. Sen jälkeen sana hajoaa tavukorteiksi, jotka järjestetään takaisin sanaksi. Suomessa tavu on lukemaan oppimisen perusyksikkö: kirjoitusasu ja ääntämys vastaavat toisiaan ja tavurajat ovat säännönmukaisia, joten se, mitä taputetaan, on täsmälleen se, mitä kirjoitetaan – kis-sa, o-me-na, len-to-ko-ne. Sanat tulevat monilähteisestä tavutusaineistosta, jossa jokainen tavuraja on vahvistettu useasta toisistaan riippumattomasta lähteestä, joten yhtäkään rajaa ei ole arvattu. Ei kirjautumista, ei aikarajaa, ei laskureita – vain sana, rumpu ja luokan yhteinen rytmi.",
+      "Ilmainen sanaryhmä Kaksi taputusta on aina auki: kuusitoista tuttua kaksitavuista sanaa – kissa, koira, pallo, talo, auto – riittää kokonaiseen aamupiiriin ilman kirjautumista. Premium avaa loput kolme ryhmää: lisää kahden taputuksen sanoja, kolmitavuiset sanat kuten omena, porkkana ja perhonen sekä nelitavuiset yhdyssanat kuten lentokone, polkupyörä ja leppäkerttu, joissa lapsi kuulee samalla yhdyssanan sauman. Premiumiin kuuluu myös lajittelutila, jossa kuvat vedetään taputusten määrän mukaan aitauksiin 2, 3 ja 4 ja koko luokka lajittelee sanoja kuullun rytmin perusteella. Suomessa yksitavuisia kuvasanoja on hyvin vähän, joten aitaukset alkavat kahdesta taputuksesta."
+    ],
+    "howToUse": [
+      "Heijasta työkalu luokan taululle, näytä kuva ja sanokaa sana yhdessä ääneen ennen ensimmäistäkään taputusta.",
+      "Taputtakaa sana yhdessä ja antakaa yhden lapsen napauttaa rumpua kerran jokaisella taputuksella – kaaret ilmestyvät sanan alle sitä mukaa.",
+      "Vaihda Kokoa-tilaan: sana hajoaa tavukorteiksi, jotka lapsi vetää takaisin sanaksi ja lukee sitten läpi tavu tavulta.",
+      "Kun rytmi on tuttu, avaa Lajittele-tila ja vetäkää kuvat aitauksiin 2, 3 ja 4 sen mukaan, montako taputusta kuuluu."
+    ],
+    "classroomIdeas": [
+      "Aamupiirin tavurytmi: yksi kuva per lapsi, koko ryhmä taputtaa yhdessä ja vuorossa oleva lapsi napauttaa rumpua – kaikki taputtavat, kukaan ei odota vuoroaan yksin.",
+      "Yhdyssanan sauma: ottakaa nelitavuiset sanat lentokone, polkupyörä ja hiekkalinna, taputtakaa ne hitaasti ja etsikää yhdessä kohta, jossa kaksi sanaa liittyy yhteen.",
+      "Pari Tavutaulun kanssa: taputtakaa sana ensin tavuiksi täällä ja rakentakaa sama sana sitten Tavutaululla tavu tavulta – erottelu ja kokoaminen ovat saman taidon kaksi suuntaa."
+    ]
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

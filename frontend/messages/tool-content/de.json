@@ -605,6 +605,28 @@
       "Die ausgedruckten Wortkarten in die Lesekiste legen und die Herzstellen mit dem Finger nachfahren lassen."
     ]
   },
+  "syllable-splitter": {
+    "slug": "silbenklatschen",
+    "name": "Silbenklatschen",
+    "tagline": "Silben hören, klatschen und Silbenbögen setzen",
+    "metaTitle": "Silbenklatschen – Silben trennen üben in Klasse 1 und 2",
+    "metaDescription": "Silben klatschen und Silbenbögen setzen: Bildwörter für Klasse 1 und 2, Silbentrennung nach geltender Rechtschreibung. Kostenlos am Whiteboard, ohne Anmeldung.",
+    "about": [
+      "Silbenklatschen ist die klassische Übung zur phonologischen Bewusstheit in der ersten und zweiten Klasse: Die Kinder sprechen ein Wort, klatschen die Silben mit und trommeln für jede Silbe einmal. Dieses Werkzeug macht daraus eine Übung für die ganze Klasse. Zu jedem Bildwort erscheint eine Wortkarte; ein Kind tippt für jeden Klatscher auf die Trommel, und unter dem Wort entsteht Schlag für Schlag ein Silbenbogen. Anschließend zerfällt das Wort in seine Silbenkarten und wird gemeinsam wieder zusammengesetzt. Silbenbögen sind in deutschen Grundschulen fest verankert, deshalb passt das Werkzeug ohne Umweg in den Deutschunterricht. Alle Wörter sind konkrete Nomen mit Bild, von Hund und Baum über Katze und Blume bis Schmetterling und Eichhörnchen. Die Silbentrennung folgt der geltenden Rechtschreibung: ck bleibt zusammen und wandert in die zweite Silbe (So-cke), Doppelkonsonanten werden getrennt (Tas-se), st wird getrennt (Fens-ter), ch und sch bleiben ungeteilt (Ka-nin-chen).",
+      "Die erste Wortsammlung mit zwölf zweisilbigen Wörtern ist dauerhaft frei zugänglich – ohne Anmeldung, direkt am Whiteboard einsetzbar. Premium öffnet die weiteren Sammlungen mit einsilbigen Wörtern, weiteren Zweisilbern und dreisilbigen Wörtern sowie den Sortiermodus, in dem die Kinder jedes Bild in das Gehege mit der passenden Silbenzahl ziehen."
+    ],
+    "howToUse": [
+      "Bild und Wortkarte zeigen, das Wort gemeinsam laut sprechen und dabei mitklatschen.",
+      "Ein Kind tippt für jeden Klatscher einmal auf die Trommel – unter dem Wort wächst mit jedem Schlag ein Silbenbogen.",
+      "Zum Zusammensetzen wechseln: Die Silbenkarten werden gemischt und von den Kindern wieder in die passende Reihenfolge gebracht.",
+      "Mit Premium in den Sortiermodus wechseln und die Bilder in die Gehege mit einer, zwei und drei Silben ziehen."
+    ],
+    "classroomIdeas": [
+      "Morgenkreis: jedes Kind klatscht seinen eigenen Namen und ordnet ihn dem passenden Silbengehege zu.",
+      "Silbenbögen ins Heft übertragen – die Kinder malen die Bögen unter das abgeschriebene Wort und markieren die Silbenkerne.",
+      "Partnerarbeit: ein Kind klatscht ein Wort nur vor, das andere errät aus drei Bildern, welches Wort gemeint war."
+    ]
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

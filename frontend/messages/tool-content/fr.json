@@ -676,6 +676,31 @@
     "metaTitle": "Météo des émotions : affichage gratuit maternelle et CP",
     "metaDescription": "Le rituel d’accueil des émotions à projeter : chaque enfant touche son temps intérieur — calme, content, triste, en colère ou fatigué. Gratuit, sans compte."
   },
+  "letter-studio": {
+    "slug": "apprendre-a-ecrire-les-lettres",
+    "name": "L’atelier des lettres",
+    "tagline": "Le bon tracé, dans le bon ordre : l’enfant regarde, puis écrit du doigt",
+    "metaTitle": "Apprendre à écrire les lettres – GS CP | LessonCraftStudio",
+    "metaDescription": "Apprendre à écrire les lettres en GS et en CP, gratuitement : l’enfant regarde le tracé, puis suit le chemin du doigt. Capitales, minuscules et chiffres.",
+    "about": [
+      "Former une lettre, ce n’est pas la reconnaître : c’est un geste, avec un point de départ, un sens et un ordre des tracés. L’atelier des lettres montre ce geste avant de le demander. L’enfant appuie sur « Montre-moi », une luciole parcourt la lettre trait par trait, puis il repasse lui-même du doigt : le trait ne s’inscrit que tant qu’il reste sur le chemin. S’il s’en écarte, rien ne le sanctionne — la ligne attend simplement qu’il revienne.",
+      "Tout l’alphabet est là, en capitales d’imprimerie et en minuscules script, avec les lettres accentuées du français — é, è, ê, à, â, î, ô, ù, û et le ç — ainsi que les chiffres de 0 à 9. Les lettres reposent sur des lignes d’écriture inspirées de la réglure Seyès agrandie, celle que l’on utilise en grande section et en début de CP : la ligne d’écriture est marquée, et les interlignes rappellent où montent les hampes et où descendent les jambages. L’écriture cursive n’est pas encore proposée.",
+      "L’outil s’ouvre directement dans le navigateur, sur TBI, tablette ou ordinateur : rien à installer, aucun compte à créer. Pas de score, pas de minuteur, pas de croix rouge — l’enfant recommence autant de fois qu’il le souhaite. L’alphabet complet, les deux écritures et les chiffres sont gratuits ; le tracé des prénoms de la classe et la fiche à imprimer font partie de Premium. Les prénoms proviennent de la liste de classe enregistrée sur l’appareil et n’en sortent jamais."
+    ],
+    "howToUse": [
+      "Choisissez le mode Lettres ou Chiffres, puis basculez entre capitales et minuscules selon ce que travaille votre classe.",
+      "Appuyez sur « Montre-moi » et laissez la luciole parcourir la lettre : faites verbaliser le point de départ, le sens du tracé et le nombre de traits.",
+      "Passez la main à l’enfant : il pose le doigt sur le point vert et suit le chemin, et le trait ne s’inscrit que lorsqu’il est dessus.",
+      "Faites recommencer avec « Retracer » autant de fois qu’il le faut : c’est la répétition du geste, et non la réussite du premier essai, qui installe l’automatisme.",
+      "En Premium, ouvrez le mode Prénoms : l’enfant écrit son prénom lettre après lettre, et vous imprimez la fiche correspondante pour la maison."
+    ],
+    "classroomIdeas": [
+      "En rituel du matin, projetez la lettre du jour au TBI : un élève vient la tracer devant la classe pendant que les autres l’écrivent en l’air.",
+      "En atelier dirigé, faites tracer la lettre du doigt sur l’écran, puis aussitôt sur l’ardoise : le geste passe de l’écran au support papier.",
+      "Utilisez le mode Chiffres pendant les rituels de date et de comptage, pour travailler l’écriture des chiffres sans changer d’outil.",
+      "En Premium, ouvrez le mode Prénoms en début d’année : chaque enfant trace son prénom en capitales, puis la fiche imprimée part à la maison."
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

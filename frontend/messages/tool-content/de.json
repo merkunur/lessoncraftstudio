@@ -677,6 +677,31 @@
     "metaTitle": "Gefühlswetter für den Morgenkreis – Gefühle Grundschule",
     "metaDescription": "Gefühlswetter fürs Whiteboard: Jedes Kind tippt an, wie es sich heute fühlt, und die Klasse sieht ihr gemeinsames Wetter. Kostenlos, ohne Anmeldung."
   },
+  "letter-studio": {
+    "slug": "buchstaben-nachspuren",
+    "name": "Buchstabenwerkstatt",
+    "tagline": "Buchstaben und Zahlen mit dem Finger nachspuren – auf dem Vier-Linien-System der ersten Klasse",
+    "metaTitle": "Buchstaben nachspuren – Druckschrift üben für Klasse 1",
+    "metaDescription": "Buchstaben und Zahlen mit dem Finger nachspuren: richtige Schreibrichtung, Vier-Linien-System, ohne Bewertung. Kostenlos am Whiteboard und am Tablet.",
+    "about": [
+      "In der Buchstabenwerkstatt steht ein einzelner großer Buchstabe auf dem Vier-Linien-System, das die Kinder aus ihrem Schreibheft kennen: Dachgeschoss für die Oberlängen von b, d, h und l, Erdgeschoss für die kleinen Buchstaben wie a, e und o, Keller für die Unterlängen von g, p und y. Ein Glühwürmchen fliegt den Buchstaben zuerst Strich für Strich ab, in genau der Reihenfolge, in der man ihn schreibt. Danach fährt das Kind mit dem Finger nach – und die Tinte erscheint nur dort, wo es auf der Spur bleibt. Verlässt der Finger den Weg, hört die Linie einfach auf und wartet; sobald das Kind zurück auf der Spur ist, schreibt sie weiter. So wird die Schreibbewegung selbst zur Rückmeldung, ganz ohne rotes Kreuz.",
+      "Entscheidend ist dabei die Reihenfolge der Striche. Ein a, das von unten nach oben gemalt wird, sieht auf dem Papier zwar aus wie ein a, trägt aber eine Bewegung in sich, die später jedes flüssige Schreiben ausbremst. Die Werkstatt akzeptiert deshalb nur die richtige Strichfolge – aber sie tadelt nie, sie wartet. Das Kind darf beliebig oft neu ansetzen, so lange es möchte. Geschrieben wird in Druckschrift, also in der Schrift des Anfangsunterrichts; eine verbundene Schreibschrift bietet dieses Werkzeug bewusst nicht an. Neben dem Alphabet in klein und GROSS – einschließlich Ä, Ö, Ü und ß – lassen sich auch die Ziffern von 0 bis 9 nachspuren, mit denselben Regeln und derselben Ruhe.",
+      "Das vollständige Alphabet in beiden Schreibweisen und alle Ziffern sind dauerhaft kostenlos – ohne Anmeldung, direkt im Browser, am Whiteboard genauso wie am Tablet. Premium öffnet den Namen-Modus, in dem die Kinder ihren eigenen Vornamen Buchstabe für Buchstabe schreiben, dazu die Druckvorlagen für die Freiarbeit und die gespeicherte Einstellung Ihrer Klasse. Die Namen stammen dabei aus derselben Klassenliste, die Sie in den Namensstäbchen angelegt haben; sie liegen auf Ihrem Gerät und verlassen es nicht."
+    ],
+    "howToUse": [
+      "Öffnen Sie die Werkstatt im Vollbild und wählen Sie einen Buchstaben aus – mit dem Schalter klein/GROSS wechseln Sie zwischen den beiden Schreibweisen.",
+      "Tippen Sie zuerst auf „Vormachen“: Das Glühwürmchen fliegt den Buchstaben in der richtigen Strichfolge ab, ein Klang pro Strich. Lassen Sie die Kinder die Bewegung mit dem Finger in der Luft mitgehen.",
+      "Dann fährt ein Kind selbst nach, beginnend am grünen Punkt. Die Linie schreibt nur mit, solange der Finger auf der Spur bleibt – wackeln ist erlaubt, die Reihenfolge nicht.",
+      "Mit „Noch einmal nachfahren“ übt dasselbe Kind den Buchstaben gleich noch einmal, mit „Weiter“ geht es zum nächsten. Über den Ziffern-Modus schreiben Sie genauso die Zahlen von 0 bis 9.",
+      "Mit Premium wechseln Sie in den Namen-Modus: Wählen Sie ein Kind aus der Klassenliste, und der Vorname wird Buchstabe für Buchstabe geschrieben – auf Wunsch als Druckvorlage für die Schreibecke."
+    ],
+    "classroomIdeas": [
+      "Buchstabe der Woche: Der neue Buchstabe steht die ganze Woche groß an der Tafel; jeden Morgen fährt ein anderes Kind ihn vor der Klasse nach und sagt dazu, wo er im Haus wohnt – Dachgeschoss, Erdgeschoss oder Keller.",
+      "Namen zum Schulanfang: Jedes Kind spurt seinen eigenen Vornamen nach, bevor er zum ersten Mal ins Heft geschrieben wird – die Bewegung sitzt dann schon, bevor der Stift dazukommt.",
+      "Verwechslungspaare klären: b und d, p und q direkt nacheinander nachspuren lassen. Weil die Werkstatt die Strichfolge vorgibt, erleben die Kinder den Unterschied als zwei ganz verschiedene Bewegungen und nicht als zwei ähnliche Bilder.",
+      "Schreibstation in der Freiarbeit: Tablet mit der Werkstatt, daneben Sandtablett und Heft. Erst mit dem Finger auf dem Bildschirm, dann im Sand, zuletzt auf der Lineatur – dreimal dieselbe Bewegung, dreimal ein anderes Material."
+    ]
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

@@ -114,15 +114,54 @@
     var t = (wx * vx + wy * vy) / L2; t = t < 0 ? 0 : t > 1 ? 1 : t;
     return dist({ x: a.x + t * vx, y: a.y + t * vy }, p);
   }
+  /* Per-stroke tolerance. Returns TOL for every one of the 52 shipped glyphs
+     (none carries `.tol`, and the gate asserts that), so this is a no-op for
+     everything that shipped. It exists because two marks can sit close
+     enough that one shared tolerance makes them the SAME stroke: an umlaut's
+     dots are 20 units apart, and at TOL=18 a tap between them satisfies both
+     — they would not be two strokes at all. A tighter own-tolerance is what
+     makes them separable. */
+  function tolOf(stroke) { return (stroke && stroke.tol) || TOL; }
+
   /* in-order on-path: each checkpoint counted when a drawn segment passes within
-     TOL (point-to-segment); order strict (cp only advances forward). */
+     tolerance (point-to-segment); order strict (cp only advances forward). */
   function traceScore(stroke, path) {
     if (!path || path.length < 2) return false;
-    var cp = 0, i;
+    var cp = 0, i, tol = tolOf(stroke);
     for (i = 0; i < path.length - 1 && cp < stroke.length; i++) {
-      while (cp < stroke.length && segDist(path[i], path[i + 1], stroke[cp]) <= TOL) cp++;
+      while (cp < stroke.length && segDist(path[i], path[i + 1], stroke[cp]) <= tol) cp++;
     }
     return cp >= stroke.length;
+  }
+
+  /* ---- LIVE INK (added for Letter Studio, tool #25) -------------------
+     `traceScore`/`attemptStroke` judge a WHOLE stroke at pointerup, which is
+     right for a tap-and-check activity but cannot drive "the line inks only
+     while you follow the path". `advance` is the per-SAMPLE companion: call
+     it on each pointermove to ask whether THIS point is on the path, and to
+     walk the same checkpoint cursor forward.
+
+     Purely additive — it introduces no new tolerance, reuses segDist/TOL,
+     and does not touch traceScore or attemptStroke, so the shipped
+     penny-alphabet-trace activity is unaffected. The cursor is lazily
+     initialised on the state object and re-zeroes itself whenever the
+     stroke index changes, so `newState` keeps its exact shape too. */
+  function polyDist(stroke, p) {
+    if (!stroke || !stroke.length) return Infinity;
+    if (stroke.length === 1) return dist(stroke[0], p);
+    var d = Infinity, i;
+    for (i = 0; i < stroke.length - 1; i++) d = Math.min(d, segDist(stroke[i], stroke[i + 1], p));
+    return d;
+  }
+  function advance(s, idx, pt) {
+    var g = glyphOf(s.letter);
+    if (idx !== s.strokesDone) return { onPath: false, cp: 0, done: false };
+    var stroke = g[idx];
+    if (s._cpStroke !== idx) { s._cpStroke = idx; s._cp = 0; }
+    var tol = tolOf(stroke);
+    var on = polyDist(stroke, pt) <= tol;
+    if (on) { while (s._cp < stroke.length && dist(stroke[s._cp], pt) <= tol) s._cp++; }
+    return { onPath: on, cp: s._cp, done: s._cp >= stroke.length };
   }
 
   /* STRICT order: a stroke is accepted only when it is the NEXT one AND the
@@ -170,6 +209,7 @@
     GLYPHS: GLYPHS, TOL: TOL, arc: arc, line: line,
     glyphOf: glyphOf, numStrokes: numStrokes, startOf: startOf,
     newState: newState, traceScore: traceScore, attemptStroke: attemptStroke, isComplete: isComplete,
+    advance: advance, tolOf: tolOf,
     snapshot: snapshot, facts: facts, audit: audit,
     SOLVERS: { oracleSolver: oracleSolver, scribbleSolver: scribbleSolver, outOfOrderSolver: outOfOrderSolver }
   };

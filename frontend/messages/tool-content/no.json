@@ -676,6 +676,31 @@
     "metaTitle": "Følelsessjekk – gratis følelsestavle | LessonCraftStudio",
     "metaDescription": "Gratis følelsestavle for klasserommet: barna trykker på været sitt, får et vennlig svar, og du ser hvordan klassen har det – uten innlogging."
   },
+  "letter-studio": {
+    "slug": "skriveverkstedet",
+    "name": "Skriveverkstedet",
+    "tagline": "Se hvordan bokstaven blir til, og skriv den selv med fingeren.",
+    "metaTitle": "Skriveverkstedet – lær å skrive bokstaver på 1. trinn",
+    "metaDescription": "Gratis verktøy for skriveopplæring på 1. trinn: barnet ser hvordan bokstaven formes og skriver den selv med fingeren. Store og små bokstaver, tall og æ, ø, å.",
+    "about": [
+      "Skriveverkstedet er et gratis verktøy for den første skriveopplæringa. En stor bokstav står på hjelpelinjer som følger skrivehuset barna kjenner fra skriveboka: loftet, stua og kjelleren. Barnet trykker på «Vis meg», og en liten ildflue går gjennom bokstaven strek for strek, i samme rekkefølge som læreren ville skrevet den på tavla. Så skriver barnet selv med fingeren – og streken kommer bare fram mens fingeren følger sporet. Går fingeren utenfor, skjer det ingenting dramatisk: streken venter til fingeren er tilbake på sporet. Her finnes ingen røde kryss, ingen tid og ingen poengsum.",
+      "Hele alfabetet er gratis, både små og store bokstaver, med æ, ø og å på plass, og tallene 0–9 i tillegg. Verkstedet arbeider med trykkbokstaver – den skriften barna møter først på 1. trinn – og linjene er de samme tre etasjene de skriver mellom i skriveboka, så det de ser på skjermen stemmer med det de gjør på papiret. Premium åpner navnetrening, der barnet skriver sitt eget navn bokstav for bokstav, ark til utskrift, og at oppsettet ditt huskes til neste økt.",
+      "Verktøyet kjører rett i nettleseren på nettbrett, telefon og klasseromsskjerm, uten innlogging og uten installasjon. Navnene i Premium hentes fra klasselista du allerede har laget i Navnepinner, og lista blir liggende på enheten – den sendes aldri videre. Barnet former bokstavene i sitt eget tempo, slik læreplanen legger opp til i begynneropplæringa i skriving."
+    ],
+    "howToUse": [
+      "Vis verkstedet på storskjerm, eller gi det til barna på nettbrett, og velg små eller store bokstaver.",
+      "Trykk «Vis meg», og la klassen følge ildflua gjennom bokstaven strek for strek – snakk om hvor streken starter og hvor den snur.",
+      "La barnet skrive bokstaven med fingeren. Streken kommer fram så lenge fingeren følger sporet, så barnet kjenner selv når det er på sporet.",
+      "Bruk skrivehuset når dere snakker om formen: bor bokstaven i stua, går den opp på loftet, eller stikker den ned i kjelleren?",
+      "Bytt til Tall når dere skal øve på sifrene, eller til Navn med Premium og la barnet skrive sitt eget navn."
+    ],
+    "classroomIdeas": [
+      "Dagens bokstav i morgensamlingen: se ildflua skrive bokstaven på storskjerm, la tre barn skrive den etter tur på skjermen, og skriv den så i skriveboka.",
+      "Loft, stue eller kjeller: sett opp en bokstav og la klassen si hvilken etasje den bor i. En rask måte å øve på bokstavform uten å skrive et eneste ord.",
+      "Navnestasjon med Premium: hvert barn skriver sitt eget navn bokstav for bokstav. Navnet er den første teksten som virkelig betyr noe for et barn.",
+      "Bokstaver som ligner: b og d, p og q, 3 og E blir speilvendte hos de fleste seksåringer. Ta paret opp etter hverandre og la barna kjenne forskjellen i selve bevegelsen, i stedet for å bli rettet på etterpå."
+    ]
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

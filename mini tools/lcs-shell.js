@@ -903,7 +903,6 @@
     var _lastReportedHeight = 0;
     var _resizeRaf = null;
     function postActivityResize() {
-      if (!tool.tasks && !tool.nextTask) return;
       if (_resizeRaf) cancelAnimationFrame(_resizeRaf);
       _resizeRaf = requestAnimationFrame(function () {
         _resizeRaf = null;
@@ -924,13 +923,34 @@
         } catch (e) { /* cross-origin block — fail silent */ }
       });
     }
-    /* Hook into post-render moments so the parent always knows the
-       current content height. Activity-mode only (the manipulative
-       tools have no `tasks` so postActivityResize is a no-op). */
-    if (tool.tasks || tool.nextTask) {
-      window.addEventListener('resize', postActivityResize);
-      /* Initial broadcast after first paint. */
-      requestAnimationFrame(postActivityResize);
+    /* Hook into post-render moments so the parent always knows the current
+       content height.
+
+       [2026-07-29, operator-authorized] This used to be ACTIVITY-MODE ONLY,
+       which left every free-play manipulative stuck at ActivityIframe's
+       INITIAL_HEIGHT of 420px on its own /tools/ landing page. Measured live:
+       letter-studio 750 (the letter bisected mid-glyph), heart-words 608 —
+       shipped clipped — feelings-check-in 420 only by luck. All tools now
+       broadcast.
+
+       ⚠ THE ASYMMETRY BELOW IS A SAFETY PROPERTY, NOT AN OVERSIGHT.
+       `.lcs-app.activity` carries `min-height: 66.67vh`, and vh inside an
+       iframe resolves against the IFRAME's own height — so for an ACTIVITY a
+       content-height broadcast can feed back (taller iframe -> taller app ->
+       taller broadcast). Activities therefore keep exactly the hooks they
+       already had and shipped with: window resize, one initial frame, and the
+       two explicit calls in the activity chrome. Nothing about them changes.
+       A manipulative has no `.activity` class, so EVERY vh rule in the shell
+       CSS misses it and its height is purely content-driven — no feedback
+       path exists. Only there is it safe to observe the box continuously,
+       which is what a manipulative needs, because its height changes on mode
+       switches and state changes that no activity-chrome call site sees. */
+    window.addEventListener('resize', postActivityResize);
+    requestAnimationFrame(postActivityResize);
+    if (!tool.tasks && !tool.nextTask && typeof ResizeObserver !== 'undefined') {
+      try {
+        new ResizeObserver(function () { postActivityResize(); }).observe(app);
+      } catch (e) { /* no observer — the initial + resize hooks still fire */ }
     }
 
     /* ---- go live ---- */

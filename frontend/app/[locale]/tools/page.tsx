@@ -101,6 +101,13 @@ export default async function ManipulativesLandingPage({
               // slug for the dedicated SSR landing page). Fall back to the
               // MANIPULATIVES table only if a locale's tool-content is absent.
               const tc = await getToolContent(locale, m.id as ToolKey);
+              // A tool with no entry for this locale is not shipped here —
+              // Heart Words is deliberately absent in fi (transparent
+              // orthography, no sight-word tradition). Rendering an
+              // English-fallback card would link to a tool with no data for
+              // that language, so skip the card entirely. Every tool
+              // currently has all 11 locales, so this changes nothing today.
+              if (!tc) return null;
               const title = tc?.name ?? m.title[locale] ?? m.title.en;
               const tagline = tc?.tagline ?? m.tagline[locale] ?? m.tagline.en;
               const description = tc?.about?.[0] ?? m.description[locale] ?? m.description.en;

@@ -75,6 +75,7 @@ var SoundBoxes = {
     trioLabel:    {en:'Phonics tools:',de:'Werkzeuge zum Lesenlernen:',fr:'Outils de phonologie :',it:'Strumenti fonologici:',es:'Herramientas de conciencia fonológica:',pt:'Ferramentas de alfabetização:',nl:'Klankhulpjes:',sv:'Ljudverktyg:',da:'Lydværktøjer:',no:'Lydverktøy:',fi:'Äännetyökalut:'},
     siblingBbd:   {en:'Blending Board',de:'Lesemaschine',fr:'Tableau de syllabes',it:'Tabellone delle sillabe',es:'Tablero de sílabas',pt:'Quadro de sílabas',nl:'Klankenbord',sv:'Ljudtavla',da:'Lydtavle',no:'Lydtavle',fi:'Tavutaulu'},
     siblingLtl:   {en:'Letter Tiles',de:'Magnetbuchstaben',fr:'Lettres magnétiques',it:'Lettere magnetiche',es:'Letras magnéticas',pt:'Alfabeto móvel',nl:'Letterdoos',sv:'Magnetbokstäver',da:'Magnetbogstaver',no:'Magnetbokstaver',fi:'Magneettikirjaimet'},
+    siblingHwd:   {en:'Heart Words',de:'Merkwörter',fr:'Mots à cœur',it:'Parole del cuore',es:'Palabras con corazón',pt:'Palavras de coração',nl:'Hartwoorden',sv:'Hjärteord',da:'Hjerteord',no:'Hjerteord'},
 
     /* stage buttons + aria */
     prevWord:     {en:'Previous word',de:'Vorheriges Wort',fr:'Mot précédent',it:'Parola precedente',es:'Palabra anterior',pt:'Palavra anterior',nl:'Vorig woord',sv:'Föregående ord',da:'Forrige ord',no:'Forrige ord',fi:'Edellinen sana'},
@@ -1056,6 +1057,16 @@ var SoundBoxes = {
       sib2.href = '/mini-tools/letter-tiles.html?lang=' + api.lang;
       sib2.textContent = api.t('siblingLtl');
       trio.append(trioLbl, sib1, trioDot, sib2);
+      /* Heart Words ships in TEN locales — never link it from the fi build. */
+      if (['en','de','fr','it','es','pt','nl','sv','da','no'].indexOf(api.lang) >= 0) {
+        var sib3 = document.createElement('a');
+        sib3.className = 'sbx-copylink';
+        sib3.href = '/mini-tools/heart-words.html?lang=' + api.lang;
+        sib3.textContent = api.t('siblingHwd');
+        var trioDot2 = trioLbl.cloneNode(false);
+        trioDot2.textContent = ' · ';
+        trio.append(trioDot2, sib3);
+      }
       foot.append(copy, trio);
       foot.style.display = 'flex';
       foot.style.flexWrap = 'wrap';

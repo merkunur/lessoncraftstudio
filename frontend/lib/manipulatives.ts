@@ -1021,6 +1021,49 @@ export const MANIPULATIVES: Manipulative[] = [
       fi: "Rakenna päivän ohjelma kuvakorteista ja anna auringon siirtyä puuhasta toiseen — aina ihmisen, ei kellon, napautuksesta. Lempeä muutosrituaali pitää yllätyksetkin turvallisina, ja premiumilla saat kellonajat, puhutut kuulutukset ja viikkosuunnitelmat.",
     },
   },
+  {
+    id: "heart-words",
+    mini_tool_url: "/mini-tools/heart-words.html",
+    // TEN locales — no fi. Finnish orthography is transparent and the
+    // platform already ruled it out of sight-word pedagogy on native
+    // evidence, so there is no Finnish heart-word list to ship.
+    title: {
+      en: "Heart Words",
+      de: "Merkwörter",
+      fr: "Mots à cœur",
+      it: "Parole del cuore",
+      es: "Palabras con corazón",
+      pt: "Palavras de coração",
+      nl: "Hartwoorden",
+      sv: "Hjärteord",
+      da: "Hjerteord",
+      no: "Hjerteord",
+    },
+    tagline: {
+      en: "Map the tricky words that cannot be sounded out.",
+      de: "Lautboxen mit Herz für die Wörter, die man sich merken muss",
+      fr: "Cases de sons et cœur sur la partie qui se retient.",
+      it: "Caselle e cuori per le parole che non si scrivono a orecchio",
+      es: "Marca los sonidos y descubre la parte que se aprende de memoria",
+      pt: "O que a letra não conta, a gente guarda de cor.",
+      nl: "Weetwoorden in klankvakjes, met een hartje op het stukje dat je onthoudt.",
+      sv: "Ordbilder i ljudrutor, med hjärta på den del som lärs utantill",
+      da: "Hyppige ord i lydbokse med et hjerte på den svære del",
+      no: "Lydbokser med hjerte for ordene som ikke kan lyderes.",
+    },
+    description: {
+      en: "A high-frequency irregular word sits in sound boxes; the child taps each box to mark the sounds, and the one stubborn part gets a heart stamped on it with the letters still readable underneath. Flip the card to meet the word inside a spoken sentence with a picture. No scores, no marking, no wrong taps.",
+      de: "Ein häufiges Merkwort steht sichtbar in Lautboxen. Das Kind tippt die Laute an; auf den Teil, den man nicht erlesen kann, kommt ein Herz. Ohne Zeitdruck und ohne Abfrage – zum Anhören, Umdrehen und Sammeln.",
+      fr: "Un manipulable pour les mots-outils irréguliers du CP et du CE1. Chaque mot est posé dans des cases de sons ; l’enfant touche les cases, marque les sons réguliers, et un cœur vient se poser sur la seule partie qui ne se déduit pas du code. Phrase illustrée et lecture à voix haute pour chaque mot.",
+      it: "Ogni parola compare divisa in caselle: una casella per ogni parte. Un cuore segna il punto che l’orecchio non basta a scrivere — la h che non si sente, un digramma come gn o gli, la i muta di cielo, il cqu di acqua, un accento o un apostrofo. Si tocca casella per casella, si ascolta la parola e la frase, si gira la carta per vedere l’immagine. Quaranta parole su quattro scaffali; il primo è sempre gratuito. Nessun punteggio, nessun tempo: solo la parola e la sua parte da ricordare.",
+      es: "Manipulativo libre de lectura para 1º y 2º de primaria. Cada palabra aparece dentro de sus cajas de sonidos, siempre visible. El niño toca las cajas para marcar los sonidos y un corazón señala la parte que el código no explica: la tilde diacrítica de él, tú o más, la h que no suena, la u callada de queso y guitarra, o la tilde de árbol y lápiz. Sin cronómetro, sin puntos y sin veredictos: ningún toque se rechaza. Cada palabra se ve además dentro de una oración ilustrada y se puede escuchar completa.",
+      pt: "Quarenta palavras do português do Brasil divididas em caixas de sons. A criança marca o que já sabe ler e um coração mostra a parte que se aprende de cor: o h calado, os sons nasais, os acentos, os dígrafos e o x de vários sons. Cada palavra traz uma frase curta e uma ilustração.",
+      nl: "Een rustige woordkaart voor groep 3 en 4. Elk weetwoord staat in klankvakjes; het stukje dat je niet kunt afleiden krijgt een hartje met een korte uitleg. Achter elke kaart zit een zin bij een plaatje. Voorlezen kan met een tik. Geen klok en geen wedstrijd.",
+      sv: "Ett verktyg för förskoleklass och åk 1: högfrekventa svenska ord som inte går att ljuda ut hela vägen ligger i ljudrutor med stavningen synlig. Barnet markerar ljuden, och den del som måste läras utantill får ett litet hjärta. Varje ord kan vändas till en mening med bild och läsas upp på svenska.",
+      da: "Hyppige danske ord i lydbokse: barnet trykker lydene ud, og et hjerte markerer den del af ordet, som ikke kan lyderes frem – h’et i hvad, g’et i jeg, det bløde d i med. Ordet er altid synligt, og hvert ord følges af en sætning med en tegning.",
+      no: "En rolig arbeidsflate der barnet markerer lydene i høyfrekvente ord og setter et hjerte på den biten som må læres utenat. Bokstavene er alltid synlige, og ingenting telles eller vurderes.",
+    },
+  },
 ];
 
 // Landing-page chrome strings. Kept here (not in next-intl) so the

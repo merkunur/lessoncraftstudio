@@ -582,6 +582,28 @@
       "Con Premium, imprime la tira del día y pégala en la banca de quien la necesite cerca: una mini agenda personal idéntica a la del pizarrón."
     ]
   },
+  "heart-words": {
+    "slug": "palabras-con-corazon",
+    "name": "Palabras con corazón",
+    "tagline": "La tilde y la letra muda que se aprenden de memoria",
+    "metaTitle": "Palabras con corazón: tildes y letras mudas | 1º y 2º",
+    "metaDescription": "Herramienta gratuita de lectura para 1º y 2º de primaria: marca los sonidos de cada palabra y descubre la tilde o la letra muda que se aprende de memoria.",
+    "about": [
+      "El español se lee casi siempre tal como suena, y por eso aquí no hablamos de palabras irregulares: hablamos de la parte de la palabra que el sonido no puede explicar. Un niño que oye la palabra él no puede saber, solo escuchando, que lleva tilde; ni que hola empieza por una letra que no suena; ni que la u de queso está ahí sin sonar. Esa parte es la que marcamos con un corazón. La palabra se ve entera en todo momento, dentro de sus cajas de sonidos, porque esto no es una prueba de escritura: no se puede relacionar un sonido con una letra que no se ve. El niño toca cada caja, escucha la palabra completa y descubre qué parte se explica con el código y qué parte guardamos en la memoria. El resto de la palabra, la parte regular, es justo la que sí se puede leer sonido a sonido, y esa es la lección.",
+      "El primer estante, con diez palabras de tilde diacrítica, es gratuito para siempre y funciona completo: cajas, corazón, oración con ilustración, audio, estante de palabras conocidas y ronda de repaso. Premium añade los otros tres estantes, la h muda, las letras calladas y las palabras con tilde, además del estante del grupo y las tarjetas imprimibles."
+    ],
+    "howToUse": [
+      "Elige un estante y toca cada caja de izquierda a derecha para marcar los sonidos de la palabra.",
+      "Detente en la caja del corazón: esa parte no se adivina, se aprende de memoria. Dila en voz alta con el grupo.",
+      "Da la vuelta a la tarjeta para ver la palabra dentro de una oración con dibujo y escúchala completa.",
+      "Vuelve a la ronda de repaso otro día: las palabras ya visitadas siguen en el estante para volver a mirarlas."
+    ],
+    "classroomIdeas": [
+      "Proyecta él y el juntos y pide al grupo que explique en voz alta qué cambia con la tilde en una oración inventada.",
+      "Convierte el estante de la h muda en un mural: cada niño escribe una palabra con h y tapa la h con un corazón de papel.",
+      "Con las tarjetas impresas, haz parejas de palabra y oración boca abajo y que el grupo empareje leyendo en voz alta, sin prisa."
+    ]
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

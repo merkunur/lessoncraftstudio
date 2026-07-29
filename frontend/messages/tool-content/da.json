@@ -582,6 +582,28 @@
       "Gennemgå hele skemaet ved morgensamlingen, og vend tilbage til det lige før hvert skift — det gør overgangene lettere for børn, der har brug for ekstra forudsigelighed."
     ]
   },
+  "heart-words": {
+    "slug": "hjerteord",
+    "name": "Hjerteord",
+    "tagline": "Lydbokse med et hjerte på den del af ordet, der skal læres udenad",
+    "metaTitle": "Hjerteord – ordbilleder og hyppige ord til 0.-1. klasse",
+    "metaDescription": "Gratis værktøj til hyppige ord i 0. og 1. klasse: børnene trykker lydene ud i lydbokse, og et hjerte markerer netop den del af ordet, der skal læres udenad.",
+    "about": [
+      "Hjerteord er et roligt værktøj til den tidlige læseundervisning i børnehaveklassen og 1. klasse. Et hjerteord er et hyppigt ord, som ikke kan læses ud fra lydene alene – og dansk har mange af dem. Ordet står altid synligt i lydbokse, én boks for hver lyd, og barnet trykker sig igennem ordet lyd for lyd. De dele, der følger koden, får en stille streg. Den del, der ikke kan lyderes frem, får et lille hjerte i hjørnet: h’et i hvad og hvor, g’et i jeg og mig, det bløde d i med og mad, kk i ikke. Bogstaverne bliver aldrig skjult, for man kan ikke koble et ord til en stavemåde, man ikke kan se. Hvert ord har desuden en kort sætning med en tegning, så ordet møder barnet i en sammenhæng og ikke kun som et løsrevet ordbillede. Alt hviler på Fælles Mål for dansk i indskolingen.",
+      "Den første hylde med ti ord er gratis og fuldt funktionsdygtig: lydbokse, hjertet, oplæsning, vend-kortet med sætning og tegning samt hylden med de ord, klassen kan udenad. Premium åbner de tre næste hylder – i alt 40 danske hjerteord, ordnet efter hvornår børnene møder dem – plus fælles klassehylde og kort til print. Gratisdelen er ikke en smagsprøve, der stopper midt i en aktivitet; det er hele værktøjet med færre ord."
+    ],
+    "howToUse": [
+      "Vælg en hylde, og læs ordet højt sammen, før I begynder at trykke.",
+      "Lad barnet trykke én boks ad gangen og sige lyden med; alle tryk er lige velkomne.",
+      "Stop ved hjertet, og sig sætningen: den her del lærer vi udenad.",
+      "Vend kortet, og læs sætningen med tegningen, så ordet står i en sammenhæng."
+    ],
+    "classroomIdeas": [
+      "Tag ét hjerteord om dagen på tavlen i morgensamlingen, og lad børnene trykke lydene på skift.",
+      "Print kortene, og lav en klassehylde på væggen, hvor ordene flytter op, efterhånden som klassen kan dem udenad.",
+      "Arbejd med familierne samlet – hv-ordene (hvad, hvor, hvem, hvis) og de bløde d-ord (med, ved, mad, ud) – så børnene selv opdager mønsteret."
+    ]
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

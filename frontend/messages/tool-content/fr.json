@@ -582,6 +582,28 @@
       "Pour les enfants anxieux face aux imprévus, utilisez la carte « changement » de façon systématique : montrer ce qui change, et ce qui ne change pas, apaise beaucoup les transitions."
     ]
   },
+  "heart-words": {
+    "slug": "mots-a-coeur",
+    "name": "Mots à cœur",
+    "tagline": "Les mots-outils irréguliers du CP, une case de son à la fois.",
+    "metaTitle": "Mots à cœur : les mots irréguliers en CP et CE1",
+    "metaDescription": "Un outil gratuit pour travailler les mots-outils irréguliers du CP : les, des, elle, dans, sont, qui, femme, monsieur. Cases de sons, cœur sur la partie à retenir.",
+    "about": [
+      "En français, presque tout se décode : un enfant de CP qui connaît ses correspondances lettres-sons lit déjà la plupart des mots de sa page. Mais quelques mots résistent, et ce sont justement les plus fréquents. Dans les, le e se lit /é/ et le s reste muet. Dans elle, le e devient /è/. Dans femme, le e se lit /a/. Dans monsieur, on écrit on et on entend /e/. Mots à cœur pose ces mots dans des cases de sons : une case par son entendu. L’enfant touche chaque case et marque les sons qui se décodent normalement ; puis un cœur se pose sur la seule partie qui ne se déduit pas du code. Le reste du mot garde sa régularité, visible, rassurante. On ne mémorise pas le mot entier : on mémorise le petit morceau qui échappe à la règle, et on garde tout le reste au code.",
+      "Le premier rayon, Nos dix premiers mots, est gratuit et le restera : les, des, elle, ils, dans, sont, qui, oui, nous, avec, ceux que les élèves rencontrent dès les premières semaines de CP. Les trois étagères Premium prolongent le travail sur toute l’année : les petits mots de la classe, les lettres qui se taisent (temps, beaucoup, toujours, trois, petit) et les grands classiques irréguliers (femme, monsieur, second, cinq, six, dix, oignon, yeux). Chaque mot arrive avec sa phrase illustrée et sa lecture à voix haute."
+    ],
+    "howToUse": [
+      "Affichez un mot au tableau et lisez-le à voix haute avant toute manipulation : l’enfant entend d’abord, il analyse ensuite.",
+      "Faites toucher les cases une par une en disant chaque son ; comptez les sons ensemble, pas les lettres.",
+      "Arrêtez-vous sur la case au cœur : nommez ce qui s’y passe (« ici, le e se lit /a/ ») et dites la formule rituelle « cette partie, on la retient par cœur ».",
+      "Retournez la carte pour voir le mot dans une phrase illustrée, puis relisez la phrase entière ensemble."
+    ],
+    "classroomIdeas": [
+      "Rituel de dix minutes : un mot par jour, affiché sur le mur des mots ; en fin de semaine, les cinq cœurs de la semaine sont relus de mémoire.",
+      "Dictée sans faute annoncée : les élèves écrivent le mot, puis vérifient case par case sur l’outil et entourent eux-mêmes la partie au cœur.",
+      "Imprimez les cartes pour les ateliers : un élève lit la phrase, son binôme retrouve le mot dans le texte de la classe et montre où se cache le cœur."
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

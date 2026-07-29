@@ -70,6 +70,7 @@ var LetterTiles = {
     trioLabel: {en:'Phonics tools:',de:'Werkzeuge zum Lesenlernen:',fr:'Outils de phonologie :',it:'Strumenti fonologici:',es:'Herramientas de conciencia fonológica:',pt:'Ferramentas de alfabetização:',nl:'Klankhulpjes:',sv:'Ljudverktyg:',da:'Lydværktøjer:',no:'Lydverktøy:',fi:'Äännetyökalut:'},
     siblingSbx:   {en:'Sound Boxes',de:'Lautboxen',fr:'Boîtes à sons',it:'Caselle dei suoni',es:'Cajas de sonidos',pt:'Caixas de sons',nl:'Klankdozen',sv:'Ljudrutor',da:'Lydbokse',no:'Lydbokser',fi:'Äännelaatikot'},
     siblingBbd:   {en:'Blending Board',de:'Lesemaschine',fr:'Tableau de syllabes',it:'Tabellone delle sillabe',es:'Tablero de sílabas',pt:'Quadro de sílabas',nl:'Klankenbord',sv:'Ljudtavla',da:'Lydtavle',no:'Lydtavle',fi:'Tavutaulu'},
+    siblingHwd: {en:'Heart Words',de:'Merkwörter',fr:'Mots à cœur',it:'Parole del cuore',es:'Palabras con corazón',pt:'Palavras de coração',nl:'Hartwoorden',sv:'Hjärteord',da:'Hjerteord',no:'Hjerteord'},
     moreTiles:    {en:'More letters',de:'Mehr Buchstaben',fr:'Plus de lettres',it:'Altre lettere',es:'Más letras',pt:'Mais letras',nl:'Meer letters',sv:'Fler bokstäver',da:'Flere bogstaver',no:'Flere bokstaver',fi:'Lisää kirjaimia'},
     isReal: {en:'{w} — a real word!',de:'{w} – ein echtes Wort!',fr:'{w} — un vrai mot !',it:'{w} — una parola vera!',es:'¡{w} es una palabra real!',pt:'{w} — uma palavra de verdade!',nl:'{w} — een echt woord!',sv:'{w} — ett riktigt ord!',da:'{w} — et rigtigt ord!',no:'{w} — et ekte ord!',fi:'{w} — oikea sana!'},
     cardMatch: {en:'Yes! {w}!',de:'Ja! {w}!',fr:'Oui ! {w} !',it:'Sì! {w}!',es:'¡Sí! ¡{w}!',pt:'Sim! {w}!',nl:'Ja! {w}!',sv:'Ja! {w}!',da:'Ja! {w}!',no:'Ja! {w}!',fi:'Juuri niin! {w}!'},
@@ -1220,6 +1221,16 @@ var LetterTiles = {
     a2.href = '/mini-tools/blending-board.html?lang=' + api.lang;
     a2.textContent = api.t('siblingBbd');
     trio.append(lbl, a1, dot, a2);
+    /* Heart Words ships in TEN locales — never link it from the fi build. */
+    if (['en','de','fr','it','es','pt','nl','sv','da','no'].indexOf(api.lang) >= 0) {
+      var a3 = document.createElement('a');
+      a3.className = 'ltl-linkbtn';
+      a3.href = '/mini-tools/heart-words.html?lang=' + api.lang;
+      a3.textContent = api.t('siblingHwd');
+      var dot2 = api.el('span', 'ltl-trio-label');
+      dot2.textContent = ' · ';
+      trio.append(dot2, a3);
+    }
     foot.appendChild(trio);
     panel.appendChild(foot);
   },

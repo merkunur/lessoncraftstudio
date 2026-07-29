@@ -583,6 +583,28 @@
       "Für einzelne Kinder, die ihren eigenen Plan brauchen, den Tagesstreifen ausdrucken und auf den Tisch legen — Erledigtes wird mit dem Stift abgehakt, genau wie an der Tafel."
     ]
   },
+  "heart-words": {
+    "slug": "merkwoerter",
+    "name": "Merkwörter",
+    "tagline": "Häufige Wörter in Lautboxen – mit einem Herz auf dem Teil, den man sich merkt.",
+    "metaTitle": "Merkwörter üben – Lautboxen mit Herz für Klasse 1 und 2",
+    "metaDescription": "Merkwörter für Klasse 1 und 2: Kinder tippen die Laute in den Lautboxen an, ein Herz markiert den Teil, den man nicht hören kann. Kostenlos, direkt im Browser.",
+    "about": [
+      "Merkwörter sind die Wörter, die man nicht einfach Buchstabe für Buchstabe erlesen kann. In Vogel klingt das V wie ein F, in Vase dagegen wie ein W. In Stuhl, Uhr und sehr steht ein h, das man überhaupt nicht hört, und in die, sie und wie macht ie aus zwei Buchstaben ein langes i. Genau diese Stellen bereiten Kindern in Klasse 1 und 2 die meiste Mühe, und genau dort setzt dieses Werkzeug an. Jedes Wort steht dauerhaft sichtbar in Lautboxen. Das Kind tippt eine Box nach der anderen an und markiert so die Laute, die es hören kann. Die regelmäßigen Teile bleiben ruhig; auf den Teil, der sich nicht aus dem Code ableiten lässt, kommt ein kleines Herz: Diesen Teil merken wir uns. Danach lässt sich die Karte umdrehen und das Wort in einem kurzen Satz mit Bild sehen.",
+      "Das erste Regal mit zehn Merkwörtern ist dauerhaft kostenlos und vollständig nutzbar: Lautboxen, Herz, Satzseite mit Bild, Vorlesefunktion und das Regal der Wörter, die ihr schon auswendig könnt. Premium öffnet die drei weiteren Regale – Wörter mit V, das stumme h und die Wörter zum Merken –, also insgesamt vierzig Wörter, dazu das gemeinsame Klassenregal und die druckbaren Wortkarten für die Freiarbeit."
+    ],
+    "howToUse": [
+      "Wählt ein Regal und ein Wort aus – das Wort bleibt die ganze Zeit sichtbar.",
+      "Das Kind tippt jede Lautbox an und spricht den Laut dabei mit.",
+      "Bei der Box mit dem Herz haltet ihr kurz inne: Diesen Teil merken wir uns.",
+      "Dreht die Karte um, lest das Wort im Satz mit Bild – danach wandert es ins Regal."
+    ],
+    "classroomIdeas": [
+      "Als Tagesritual am Whiteboard: ein Merkwort pro Morgen, gemeinsam angetippt und laut mitgesprochen.",
+      "In der Freiarbeit zu zweit – ein Kind tippt die Lautboxen, das andere erklärt, warum das Herz gerade dort liegt.",
+      "Die ausgedruckten Wortkarten in die Lesekiste legen und die Herzstellen mit dem Finger nachfahren lassen."
+    ]
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

@@ -582,6 +582,28 @@
       "Quando a rotina mudar de verdade, reúna a turma na roda, mostre o cartão de mudança e conversem sobre o que ficou para outro dia — antecipar mudanças também é cuidado."
     ]
   },
+  "heart-words": {
+    "slug": "palavras-de-coracao",
+    "name": "Palavras de coração",
+    "tagline": "Marque os sons que a criança já lê e guarde de cor só a parte que a letra não conta.",
+    "metaTitle": "Palavras de coração – alfabetização 1º e 2º ano",
+    "metaDescription": "Ferramenta gratuita de alfabetização: a criança marca os sons de palavras como não, hoje e coração e guarda de cor apenas a parte que a letra não explica.",
+    "about": [
+      "Palavras de coração é uma ferramenta de alfabetização para o 1º e o 2º ano do ensino fundamental. A criança toca em cada caixa de uma palavra, marca os sons que já consegue decodificar e descobre a parte que a letra sozinha não explica: a parte que guardamos de cor. O português do Brasil é bastante transparente, então o banco brasileiro reúne exatamente aquilo que foge do código — o h calado de hoje e de hora, os sons nasais de mãe, pão e coração, os acentos que mostram a força da palavra em você, ônibus e lápis, os dígrafos lh, nh, ch, rr e ss, o u mudo de queijo e de foguete, e o x que ora soa como ch em peixe, ora como ks em táxi. Cada palavra vem com uma frase curta do dia a dia e uma ilustração, para a criança encontrar o sentido antes de guardar a forma.",
+      "A primeira prateleira, com as dez palavras iniciais, é gratuita para sempre e não pede cadastro nenhum. As outras três prateleiras — sons nasais, letras que andam juntas, e o x, o h calado e os acentos — fazem parte do Premium, junto com os cartões para imprimir e a roda de revisão. São 40 palavras no total, todas com frases no registro brasileiro e ilustrações do acervo da plataforma."
+    ],
+    "howToUse": [
+      "Projete a palavra e peça que a turma leia caixa por caixa, da esquerda para a direita.",
+      "Deixe a criança tocar em cada caixa: os sons que ela já decodifica vão ficando marcados.",
+      "Pare no coração e diga em voz alta: esta parte a gente guarda de cor.",
+      "Vire o cartão para ver a palavra dentro de uma frase, com a ilustração ao lado."
+    ],
+    "classroomIdeas": [
+      "Roda de leitura: cada criança escolhe uma palavra da prateleira e mostra para a turma onde fica o coração dela.",
+      "Compare pares que ensinam o mesmo segredo: peixe e táxi (o x com dois sons), queijo e foguete (o u que some), mãe, pão e coração (a saída pelo nariz).",
+      "Imprima os cartões e monte um mural de palavras de coração que vai crescendo ao longo do bimestre."
+    ]
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

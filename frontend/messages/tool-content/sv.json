@@ -582,6 +582,28 @@
       "Låt schemat stå framme på projektorn hela dagen. Vid varje samling tittar ni tillbaka tillsammans: vad har vi gjort, och vad kommer nu?"
     ]
   },
+  "heart-words": {
+    "slug": "hjarteord",
+    "name": "Hjärteord",
+    "tagline": "Ordbilder i ljudrutor för förskoleklass och åk 1",
+    "metaTitle": "Hjärteord – ordbilder för förskoleklass och åk 1 | gratis",
+    "metaDescription": "Hjärteord: träna svenska ordbilder som och, jag, det, de och är i ljudrutor. Barnet markerar ljuden och hjärtat visar delen vi lär oss utantill. Gratis.",
+    "about": [
+      "Hjärteord är högfrekventa ord som inte går att ljuda ut hela vägen — och, jag, det, de, är, mig, säger. I det här verktyget ligger ordet alltid framme i ljudrutor, med stavningen fullt synlig; det här är ingen stavningsövning, och ett barn kan inte koppla ljud till en stavning det inte ser. Barnet trycker på en ruta i taget och markerar ljuden. De delar som följer koden får ett lugnt streck, och just den del som inte går att ljuda sig fram till får ett litet hjärta i hörnet — bokstäverna syns fortfarande. Det är skillnaden mot gammal helordsläsning: barnet lär sig utantill bara den lilla biten som verkligen måste läras utantill, resten läses med ljudning. Varje ord kan vändas till en mening med en bild, så att ordet möts i ett sammanhang, och verktyget läser ordet och meningen högt på svenska. Ingen tid, inga stjärnor, ingen räkning — bara ord som flyttar in i hyllan.",
+      "Den första hyllan, Våra första tio, är alltid gratis och är ett helt färdigt verktyg: ljudrutor, hjärtat, meningen med bild, uppläsning på svenska och bokhyllan där orden samlas. Med Premium öppnas de tre andra hyllorna — Ord vi säger på ett annat sätt (något, morgon, roligt, ledsen), Sje-ljudet och tje-ljudet (sju, skjorta, stjärna, kjol, tjugo) och Bokstäver som gömmer sig (hjärta, ljus, djur, gjorde). Premium ger också klassens gemensamma bokhylla och utskrivbara ordkort att ta med hem."
+    ],
+    "howToUse": [
+      "Välj en hylla och ta ett ord i taget — visa det på storbild eller på plattan.",
+      "Låt barnet trycka på en ruta i taget och säga ljudet högt medan ni markerar.",
+      "Stanna vid hjärtat och säg tillsammans: den här delen lär vi oss utantill.",
+      "Vänd kortet och läs meningen med bilden, så att ordet möts i ett sammanhang."
+    ],
+    "classroomIdeas": [
+      "Morgonsamling: ett hjärteord om dagen på storbild, hela gruppen markerar ljuden tillsammans.",
+      "Parläsning: ett barn markerar rutorna, det andra läser meningen högt och pekar på bilden.",
+      "Skriv ut ordkorten och sätt upp dem på en ordvägg som växer under hela terminen."
+    ]
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

@@ -701,6 +701,31 @@
       "Bokstaver som ligner: b og d, p og q, 3 og E blir speilvendte hos de fleste seksåringer. Ta paret opp etter hverandre og la barna kjenne forskjellen i selve bevegelsen, i stedet for å bli rettet på etterpå."
     ]
   },
+  "open-number-line": {
+    "slug": "tom-tallinje",
+    "name": "Tom tallinje",
+    "tagline": "En linje uten markeringer – barna tegner hoppene selv, og +10 skriver seg over buen.",
+    "about": [
+      "En tom tallinje er ikke en tallinje med skjulte streker. Den er en strek uten markeringer og uten tallskala, og de eneste tallene som står der, er de barnet selv har landet på. Modellen ble utviklet i Nederland på 1990-tallet og er godt kjent i norsk matematikkdidaktikk, ofte sammen med perlesnora på 1.–2. trinn. Her ligger den på skjermen: barnet velger hvor linja skal begynne, holder på brikken og drar – og når det slipper, står buen der med +10 skrevet over.",
+      "47 + 25 blir +10, +10 og +5 og lander på 72 – ikke ett svar, men veien dit. Buene ligger alltid over linja, også når barnet hopper bakover, og hvert hopp får fortegnet sitt skrevet over seg. Verktøyet legger også sammen hoppene, slik at 72 − 47 kan løses ved å hoppe framover fra 47 og lese av at det ble +25 til sammen. Det er den strategien mange barn velger selv, og nå trenger ikke læreren summere buene i hodet ved tavla.",
+      "Ingenting her blir vurdert. Det finnes ingen Sjekk-knapp, ingen poeng og ingen klokke, og verktøyet sier aldri at et hopp var noe annet enn et hopp – buene er barnets egen tenking, og de leses høyt sammen i klassen. Hver landing sies også som tallord på norsk, så klassen hører «syttito» mens brikken står på 72. LK20 ber elevene etter 2. trinn om å plassere tall på tallinjen og bruke tallinjen i regning og problemløsing, og om å bruke egenskaper ved addisjon i hoderegning – en tom tallinje er nettopp kladdearket for den hoderegningen. Selve linja, alle tallområder, alle hopp og de talte landingene er gratis. Med Premium kan du spille av hvordan barnet tenkte, lagre linjer og skrive dem ut."
+    ],
+    "howToUse": [
+      "Sett startpunktet med − og + over linja: skal klassen regne 47 + 25, starter du på 47.",
+      "Hold på brikken og dra mot høyre. Buen følger fingeren, og når du slipper, skriver +10 seg over den av seg selv.",
+      "Ta ett hopp om gangen og la barna sette ord på det: «Vi hoppet ti, og nå står vi på syttisju.» Verktøyet sier landingen høyt på norsk.",
+      "Slå på «Hjelp meg å lande på runde tall» når klassen skal bruke tierne som holdepunkter, og av igjen når barna skal hoppe helt fritt. «Angre siste hopp» tar bort ett hopp uten å nullstille linja.",
+      "For 72 − 47: start på 47 og hopp framover til 72, og les av «til sammen» under linja – summen av buene er svaret."
+    ],
+    "classroomIdeas": [
+      "Samme regnestykke, tre veier: la tre barn tegne 38 + 27 hver for seg, og se på de tre linjene etterpå. Alle lander på 65, men buene viser tre måter å tenke.",
+      "Færre hopp: tegn 47 + 25 med mange små hopp først, og spør om noen klarer det med tre. Å slå sammen hopp er selve steget fra å telle til å regne.",
+      "Snu oppgaven: vis en ferdig linje med buene, men skjul regnestykket. Hva regnet vi ut? Barna leser +10, +10, +5 og finner tilbake til 47 + 25.",
+      "Hoppe til hel tier: start på 68 og be klassen komme til 100. Barna oppdager selv at +2 til 70 gjør resten enkelt – tierne som holdepunkter, tegnet i stedet for forklart."
+    ],
+    "metaTitle": "Tom tallinje – barna tegner hoppene selv",
+    "metaDescription": "En tom tallinje uten markeringer: barnet velger startpunkt, drar for å tegne hvert hopp, og +10 skriver seg over buen. Gratis verktøy for 1.–2. trinn."
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

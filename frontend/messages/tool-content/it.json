@@ -701,6 +701,31 @@
       "Maiuscolo e minuscolo a confronto: mostrate la stessa lettera nei due stampati e chiedete quali cambiano davvero forma (a/A, e/E, r/R) e quali no (o/O, s/S, c/C)."
     ]
   },
+  "open-number-line": {
+    "slug": "linea-dei-salti",
+    "name": "La linea dei salti",
+    "tagline": "Una linea senza tacche: il bambino disegna i salti che ha in testa.",
+    "about": [
+      "È la linea dei numeri che i bambini conoscono, ma senza tacche e senza numeri già scritti: una riga vuota, e nient’altro. Si sceglie da dove partire — per esempio 47 — poi si tiene premuto il segnalino e lo si trascina. Al rilascio compare un arco sopra la linea e sopra l’arco il numero si scrive da solo: +3. Si arriva a 50, e da lì +10, +10, +2 fino a 72. Sulla linea restano soltanto i numeri su cui il bambino è passato davvero: 47, 50, 60, 70, 72. Quello che si vede non è il risultato, è la strada che ha fatto per arrivarci.",
+      "Qui non c’è nulla da correggere: non esiste il pulsante «controlla», non ci sono punteggi, non c’è un timer e la linea non dice mai che un salto è sbagliato. Due bambini che risolvono 47 + 25 in due modi diversi — chi fa tappa a 50, chi salta prima +20 e poi +5 — disegnano due linee diverse ed entrambe portano a 72: è esattamente il punto, e l’insegnante le legge ad alta voce con la classe. È il lavoro che le Indicazioni nazionali chiedono nel primo ciclo, dove si domanda ai bambini di eseguire mentalmente semplici operazioni e di raccontare a parole le strategie usate. E funziona anche al contrario: per 72 − 47 si parte da 47 e si salta in avanti fino a 72, perché la risposta è la somma dei salti — che la linea mostra da sé, «in tutto +25».",
+      "La linea vuota arriva dalla didattica olandese, dove nasce proprio per far vedere il calcolo mentale invece di nasconderlo dentro l’incolonnamento; l’interruttore «fai tappa sui numeri tondi» è la tappa alla decina che in classe seconda si insegna già, qui però decisa dal dito del bambino e non dalla scheda. Ogni numero su cui si arriva viene detto a voce alta in italiano — quarantasette, cinquanta, settantadue — così il numero si sente mentre il segnalino ci si posa sopra. La linea si allunga fino a 20, a 100 o a 1000, e resta gratuita per sempre: tutti i salti, tutti i campi, la voce compresa. Con Premium si rivede il ragionamento salto per salto come un piccolo film, si salvano le linee dei bambini e si stampa la linea così com’è. Tutto nel browser, su LIM, tablet e computer, senza installare nulla e senza registrazione."
+    ],
+    "howToUse": [
+      "Proietta la linea sulla LIM e scegli con + e − da dove si parte: la linea è vuota, il numero di partenza è l’unico che c’è.",
+      "Chiama un bambino: tiene premuto il segnalino e lo trascina. Al rilascio compare l’arco e sopra si scrive +3 da solo. Non commentare e non correggere: il salto è suo.",
+      "Lascia attivo «fai tappa sui numeri tondi» in classe prima e seconda: il salto si posa sul numero tondo più vicino — da 47 si arriva a 50, non a 53 — perché è il numero di arrivo che deve essere comodo, non il salto.",
+      "Per le sottrazioni parti dal numero piccolo e salta in avanti: da 47 fino a 72. Alla fine leggete insieme «in tutto +25» sotto la linea — la risposta è la somma dei salti.",
+      "Chiudi sempre con la stessa domanda: «come hai fatto ad arrivarci?». Due linee diverse per lo stesso calcolo non sono un errore, sono due ragionamenti da confrontare."
+    ],
+    "classroomIdeas": [
+      "Due linee, uno stesso calcolo: due bambini disegnano 38 + 27 uno dopo l’altro. Chi fa tappa a 40, chi salta +30 e poi torna indietro di 3. Poi si guardano insieme, senza dire quale sia la migliore.",
+      "Il calcolo del mattino: uno solo, ogni giorno, sempre a salti sulla linea vuota. Cinque minuti dopo il calendario, e diventa il rito con cui si apre la matematica.",
+      "Dalla linea al quaderno: prima di passare all’operazione in colonna, i bambini copiano gli archi e i numeri di arrivo sul quaderno. Il passaggio alla decina lo hanno visto, non solo imparato a memoria.",
+      "Quanto manca? Metti il segnalino su 63 e chiedi di arrivare a 100. Poi rifatelo con salti diversi: quanti ce ne sono voluti la prima volta e quanti la seconda? Non si vince nulla, si scopre quale salto conviene."
+    ],
+    "metaTitle": "La linea dei salti: tappa alla decina e calcolo mentale",
+    "metaDescription": "Una linea dei numeri senza tacche per la LIM: il bambino trascina il segnalino e disegna i suoi salti, con tappa alla decina. Gratis, senza login né punteggi."
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

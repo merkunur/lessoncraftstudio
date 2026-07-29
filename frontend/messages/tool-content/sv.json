@@ -701,6 +701,31 @@
       "Två vid samma skärm: ett barn trycker på Visa mig och räknar strecken högt, det andra skriver efter med fingret — sedan byter de."
     ]
   },
+  "open-number-line": {
+    "slug": "tom-tallinje",
+    "name": "Tom tallinje",
+    "tagline": "Rita dina egna hopp på en linje utan streck",
+    "about": [
+      "Den tomma tallinjen är en tallinje utan någonting på den: inga streck, inga tal, ingen gradering. Barnet bestämmer själv var det ska börja, trycker på pricken och drar — och när fingret släpper ritas bågen upp och hoppet skriver sig självt ovanför den: +10, +10, +5. Då blir 47 + 25 inte en uppgift med ett svar, utan en räknemetod som växer fram på tavlan. Under linjen står bara de tal som barnet verkligen har landat på; resten av linjen förblir tom. Modellen kommer från den nederländska räknedidaktiken, där den heter lege getallenlijn, och har vandrat vidare till tyskan som Rechenstrich; på svenska kallas den tom tallinje.",
+      "Det barnet ritar är strategin, inte svaret. Att räkna vidare med tiohopp är den vanligaste: börja på 47, hoppa +10 till 57, +10 till 67 och fyll upp med +5 till 72. Den som vill ha ett runt tal först går via tiotalet — från 47 med ett litet hopp på 3 till 50, sedan +20 och +2 — och då blir tiotalsövergången, det steg som brukar vara det knepiga i årskurs 1 och 2, till två bågar som syns. Subtraktion kan ritas som hopp bakåt, men också genom att räkna uppåt: 71 − 68 löser barnet genom att hoppa framåt från 68, och de två små bågarna ovanför visar precis varför skillnaden blir 3. Varje landning sägs dessutom högt med riktiga svenska räkneord — fyrtiosju, sjuttiotvå — så att klassen hör talordet samtidigt som de ser talet stå under linjen.",
+      "Ingenting rättas här. Det finns ingen kontrollknapp, inget svar som efterfrågas och inget som mäts — hoppen är barnets tänkande, och samtalet om dem är lektionen: Hur tänkte du? Lägg märke till skillnaden mot vår vanliga Tallinje: den har streck och tal och används för att räkna och se var talen ligger, medan den tomma tallinjen är en räknemodell som gör huvudräkningen synlig. Därför hör den hemma i årskurs 1 med stöd, i årskurs 2 när talområdet upp till 100 öppnar sig och i årskurs 3 upp till 1000 — mitt i taluppfattning och tals användning i Lgr22. Lägg också märke till vad verktyget inte är: det övar inte uppgifter och tillverkar inga arbetsblad, det fångar hur ett barn har räknat. Gratis är hela linjen: alla talområden upp till 20, 100 eller 1000, alla hopp och de upplästa talen. Med Premium spelar du upp räknemetoden steg för steg, sparar linjer och skriver ut linjen precis som den står på tavlan."
+    ],
+    "howToUse": [
+      "Ställ Hur långt linjen går på 100 — där hör den tomma tallinjen hemma — och ställ in starttalet med plus- och minusknapparna.",
+      "Låt ett barn komma fram, trycka på pricken och dra; när fingret släpper ritas bågen upp med +10 eller −5 ovanför.",
+      "Fråga efter varje hopp var klassen har landat, och slå på Säg talet jag landar på så hör klassen räkneordet med en gång.",
+      "Låt två barn rita samma uppgift på sina egna sätt — tiohopp bredvid gå via tiotalet — och lägg de två linjerna sida vid sida.",
+      "Slå av Hjälp mig landa på runda tal när klassen själv börjar söka tiotalet; då hamnar hoppet exakt där barnet sätter det."
+    ],
+    "classroomIdeas": [
+      "Matematiksamtal på storbild: ge 47 + 25, låt tre barn rita var sin linje och fråga sedan vilken väg som var smidigast att gå. Alla vägarna duger.",
+      "Gör subtraktion som uppräkning synlig: gör 71 − 68 först med hopp bakåt och sedan med hopp framåt från 68, och låt klassen se att två små bågar räcker.",
+      "Tiohopp i årskurs 1: ställ linjen på 20, börja på 0 och gör bara hopp på 2, 5 eller 10 — bågarna visar mönstret direkt.",
+      "Från miniwhiteboard till tavla: låt barnen först rita sin egen linje på miniwhiteboarden och sedan göra om samma linje på storbild — samma modell på papper och på tavlan."
+    ],
+    "metaTitle": "Tom tallinje – rita egna hopp | LessonCraftStudio",
+    "metaDescription": "Arbeta med den tomma tallinjen på storbild: barnen ritar sina egna hopp och +10 skriver sig självt ovanför bågen. Tiohopp och gå via tiotalet, för åk 1–2."
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

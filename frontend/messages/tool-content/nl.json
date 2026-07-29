@@ -701,6 +701,31 @@
       "Naam bij de deur: schrijf tijdens de inloop de naam van de jarige of van de hulpjes van vandaag, letter voor letter, uit de klassenlijst van Beurtenstokjes."
     ]
   },
+  "open-number-line": {
+    "slug": "lege-getallenlijn",
+    "name": "Lege getallenlijn",
+    "tagline": "Teken je eigen sprongen op een lijn zonder streepjes",
+    "about": [
+      "De lege getallenlijn komt uit de Nederlandse realistische rekendidactiek en is daarna de hele wereld over gegaan — in Duitsland heet hij Rechenstrich, in Engeland empty number line. Hier staat hij digitaal op het digibord, en hij is ook echt leeg: geen streepjes, geen getallen, geen hulplijntjes. Het kind zet zelf het startgetal neer, houdt de markering vast en sleept. Bij het loslaten verschijnt de boog en schrijft de sprong zich er zelf boven: +10, +10, +5. Zo wordt 47 + 25 geen som met een antwoord, maar een rekenweg die je ziet ontstaan. Onder de lijn komen alleen de getallen te staan waar het kind écht op is uitgekomen — verder blijft de lijn leeg.",
+      "Wat het kind tekent, is de strategie. Rijgen is de bekendste: begin bij 47, spring met tienen naar 67 en vul aan tot 72. Wie liever eerst een rond getal pakt, gaat via het tiental: van 47 met een sprongetje van 3 naar 50, dan +20 en +2. Aftrekken kan met terugsprongen naar links, maar ook aanvullend — 71 − 68 los je op door van 68 vooruit te springen naar 71, en de twee sprongjes erboven vertellen precies waarom er 3 uitkomt. Elke landing wordt ook hardop gezegd, in helder Nederlands: zevenenveertig, tweeënzeventig. Zo horen kinderen het telwoord terwijl ze het getal onder de lijn zien staan.",
+      "Er wordt hier niets nagekeken. Geen Nakijken-knop, geen goed of fout, geen score en geen timer — de sprongen zíjn het denkwerk, en het gesprek erover is de les. Let op het verschil met onze gewone Getallenlijn: die heeft streepjes en getallen en is er om te tellen en te zien waar getallen liggen; de lege getallenlijn is er om te rékenen, en komt daarom vanaf groep 4 goed op gang, als het rekenen tot 100 begint. En let op wat dit níet is: het oefent geen sommen en levert geen werkbladen met opgaven — het legt vast hóe een kind gerekend heeft. Gratis is de hele lijn: elk bereik tot 20, 100 of 1000, alle sprongen en de gesproken getallen. Met Premium speel je de rekenweg stap voor stap terug, bewaar je lijnen en print je de lijn zoals hij op het bord staat."
+    ],
+    "howToUse": [
+      "Zet Hoe ver de lijn loopt op tot 100 — daar hoort de lege getallenlijn thuis — en stel met de plus- en mintoetsen het startgetal in.",
+      "Laat een kind naar voren komen, de markering vasthouden en slepen; bij het loslaten verschijnt de boog met +10 of −5 erboven.",
+      "Vraag na elke sprong waar de klas nu is uitgekomen; zet Zeg het getal waar ik uitkom aan, dan hoort de klas het telwoord er meteen bij.",
+      "Laat twee kinderen dezelfde opgave op hun eigen manier tekenen — rijgen naast via het tiental — en leg de twee lijnen naast elkaar.",
+      "Zet Help me naar ronde getallen springen uit zodra de klas het tiental zelf opzoekt; dan komt de sprong precies daar waar het kind hem neerzet."
+    ],
+    "classroomIdeas": [
+      "Rekengesprek op het digibord: geef 47 + 25, laat drie kinderen ieder een eigen lijn tekenen en vraag daarna welke aanpak de handigste was — niet welke goed was.",
+      "Maak aanvullend aftrekken zichtbaar: doe 71 − 68 eerst met terugsprongen en daarna met vooruitsprongen vanaf 68, en laat de klas zien dat twee kleine sprongen al genoeg zijn.",
+      "Sprongtellen in groep 3: zet de lijn op tot 20, begin bij 0 en maak alleen sprongen van 2, 5 of 10 — de bogen laten het patroon meteen zien.",
+      "Van wisbordje naar bord: laat kinderen eerst zelf een lijn tekenen op hun wisbordje en daarna dezelfde lijn op het digibord narekenen — hetzelfde model op papier en op het bord."
+    ],
+    "metaTitle": "Lege getallenlijn voor het digibord | LessonCraftStudio",
+    "metaDescription": "Werk met de lege getallenlijn op het digibord: kinderen tekenen hun eigen sprongen en +10 komt er zelf boven te staan. Rijgen en via het tiental, zonder nakijken."
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

@@ -1,0 +1,1103 @@
+{
+  "locale": "pt",
+  "version": 1,
+  "oralConvention": "same-as-written",
+  "curation": "native-pass-1",
+  "pens": [
+    2,
+    3,
+    4
+  ],
+  "shelves": [
+    {
+      "id": "s1",
+      "label": "Palavras de duas palmas",
+      "free": true
+    },
+    {
+      "id": "s2",
+      "label": "Mais palavras de duas palmas",
+      "free": false
+    },
+    {
+      "id": "s3",
+      "label": "Palavras de três palmas",
+      "free": false
+    },
+    {
+      "id": "s4",
+      "label": "Palavras de quatro palmas",
+      "free": false
+    }
+  ],
+  "words": [
+    {
+      "id": "ball",
+      "display": "bola",
+      "count": 2,
+      "chunks": [
+        "bo",
+        "la"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "bo",
+        "la"
+      ],
+      "noun": "ball",
+      "imageDir": "toys",
+      "imageFile": "ball",
+      "shelf": "s1"
+    },
+    {
+      "id": "cat",
+      "display": "gato",
+      "count": 2,
+      "chunks": [
+        "ga",
+        "to"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "ga",
+        "to"
+      ],
+      "noun": "cat",
+      "imageDir": "pets",
+      "imageFile": "cat",
+      "shelf": "s1"
+    },
+    {
+      "id": "duck",
+      "display": "pato",
+      "count": 2,
+      "chunks": [
+        "pa",
+        "to"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "pa",
+        "to"
+      ],
+      "noun": "duck",
+      "imageDir": "farm animals",
+      "imageFile": "duck",
+      "shelf": "s1"
+    },
+    {
+      "id": "house",
+      "display": "casa",
+      "count": 2,
+      "chunks": [
+        "ca",
+        "sa"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "ca",
+        "sa"
+      ],
+      "noun": "house",
+      "imageDir": "miscellaneous",
+      "imageFile": "house",
+      "shelf": "s1"
+    },
+    {
+      "id": "table",
+      "display": "mesa",
+      "count": 2,
+      "chunks": [
+        "me",
+        "sa"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "me",
+        "sa"
+      ],
+      "noun": "table",
+      "imageDir": "furniture",
+      "imageFile": "table",
+      "shelf": "s1"
+    },
+    {
+      "id": "cake",
+      "display": "bolo",
+      "count": 2,
+      "chunks": [
+        "bo",
+        "lo"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "bo",
+        "lo"
+      ],
+      "noun": "cake",
+      "imageDir": "bakery",
+      "imageFile": "cake",
+      "shelf": "s1"
+    },
+    {
+      "id": "glove",
+      "display": "luva",
+      "count": 2,
+      "chunks": [
+        "lu",
+        "va"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "lu",
+        "va"
+      ],
+      "noun": "glove",
+      "imageDir": "accessories",
+      "imageFile": "glove",
+      "shelf": "s1"
+    },
+    {
+      "id": "cow",
+      "display": "vaca",
+      "count": 2,
+      "chunks": [
+        "va",
+        "ca"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "va",
+        "ca"
+      ],
+      "noun": "cow",
+      "imageDir": "farm animals",
+      "imageFile": "cow",
+      "shelf": "s1"
+    },
+    {
+      "id": "toad",
+      "display": "sapo",
+      "count": 2,
+      "chunks": [
+        "sa",
+        "po"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "sa",
+        "po"
+      ],
+      "noun": "toad",
+      "imageDir": "forest creatures",
+      "imageFile": "toad",
+      "shelf": "s1"
+    },
+    {
+      "id": "mouse",
+      "display": "rato",
+      "count": 2,
+      "chunks": [
+        "ra",
+        "to"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "ra",
+        "to"
+      ],
+      "noun": "mouse",
+      "imageDir": "pets",
+      "imageFile": "mouse",
+      "shelf": "s1"
+    },
+    {
+      "id": "bed",
+      "display": "cama",
+      "count": 2,
+      "chunks": [
+        "ca",
+        "ma"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "ca",
+        "ma"
+      ],
+      "noun": "bed",
+      "imageDir": "around the house",
+      "imageFile": "bed",
+      "shelf": "s1"
+    },
+    {
+      "id": "finger",
+      "display": "dedo",
+      "count": 2,
+      "chunks": [
+        "de",
+        "do"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "de",
+        "do"
+      ],
+      "noun": "finger",
+      "imageDir": "body parts",
+      "imageFile": "finger",
+      "shelf": "s1"
+    },
+    {
+      "id": "kite",
+      "display": "pipa",
+      "count": 2,
+      "chunks": [
+        "pi",
+        "pa"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "pi",
+        "pa"
+      ],
+      "noun": "kite",
+      "imageDir": "spring",
+      "imageFile": "kite",
+      "shelf": "s1"
+    },
+    {
+      "id": "moon",
+      "display": "lua",
+      "count": 2,
+      "chunks": [
+        "lu",
+        "a"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "lu",
+        "a"
+      ],
+      "noun": "moon",
+      "imageDir": "space",
+      "imageFile": "moon",
+      "shelf": "s1"
+    },
+    {
+      "id": "knife",
+      "display": "faca",
+      "count": 2,
+      "chunks": [
+        "fa",
+        "ca"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "fa",
+        "ca"
+      ],
+      "noun": "knife",
+      "imageDir": "kitchen tools",
+      "imageFile": "knife",
+      "shelf": "s2"
+    },
+    {
+      "id": "mouth",
+      "display": "boca",
+      "count": 2,
+      "chunks": [
+        "bo",
+        "ca"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "bo",
+        "ca"
+      ],
+      "noun": "mouth",
+      "imageDir": "body parts",
+      "imageFile": "mouth",
+      "shelf": "s2"
+    },
+    {
+      "id": "baby",
+      "display": "bebê",
+      "count": 2,
+      "chunks": [
+        "be",
+        "bê"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "be",
+        "bê"
+      ],
+      "noun": "baby",
+      "imageDir": "toys",
+      "imageFile": "baby",
+      "shelf": "s2"
+    },
+    {
+      "id": "wolf",
+      "display": "lobo",
+      "count": 2,
+      "chunks": [
+        "lo",
+        "bo"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "lo",
+        "bo"
+      ],
+      "noun": "wolf",
+      "imageDir": "forest creatures",
+      "imageFile": "wolf",
+      "shelf": "s2"
+    },
+    {
+      "id": "pig",
+      "display": "porco",
+      "count": 2,
+      "chunks": [
+        "por",
+        "co"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "por",
+        "co"
+      ],
+      "noun": "pig",
+      "imageDir": "farm animals",
+      "imageFile": "pig",
+      "shelf": "s2"
+    },
+    {
+      "id": "fish",
+      "display": "peixe",
+      "count": 2,
+      "chunks": [
+        "pei",
+        "xe"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "pei",
+        "xe"
+      ],
+      "noun": "fish",
+      "imageDir": "animals",
+      "imageFile": "fish",
+      "shelf": "s2"
+    },
+    {
+      "id": "egg",
+      "display": "ovo",
+      "count": 2,
+      "chunks": [
+        "o",
+        "vo"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "o",
+        "vo"
+      ],
+      "noun": "egg",
+      "imageDir": "easter",
+      "imageFile": "egg",
+      "shelf": "s2"
+    },
+    {
+      "id": "key",
+      "display": "chave",
+      "count": 2,
+      "chunks": [
+        "cha",
+        "ve"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "cha",
+        "ve"
+      ],
+      "noun": "key",
+      "imageDir": "around the house",
+      "imageFile": "key",
+      "shelf": "s2"
+    },
+    {
+      "id": "door",
+      "display": "porta",
+      "count": 2,
+      "chunks": [
+        "por",
+        "ta"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "por",
+        "ta"
+      ],
+      "noun": "door",
+      "imageDir": "around the house",
+      "imageFile": "door",
+      "shelf": "s2"
+    },
+    {
+      "id": "book",
+      "display": "livro",
+      "count": 2,
+      "chunks": [
+        "li",
+        "vro"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "li",
+        "vro"
+      ],
+      "noun": "book",
+      "imageDir": "classroom",
+      "imageFile": "book",
+      "shelf": "s2"
+    },
+    {
+      "id": "glass",
+      "display": "copo",
+      "count": 2,
+      "chunks": [
+        "co",
+        "po"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "co",
+        "po"
+      ],
+      "noun": "glass",
+      "imageDir": "kitchen tools",
+      "imageFile": "glass",
+      "shelf": "s2"
+    },
+    {
+      "id": "leaf",
+      "display": "folha",
+      "count": 2,
+      "chunks": [
+        "fo",
+        "lha"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "fo",
+        "lha"
+      ],
+      "noun": "leaf",
+      "imageDir": "miscellaneous",
+      "imageFile": "leaf",
+      "shelf": "s2"
+    },
+    {
+      "id": "rain",
+      "display": "chuva",
+      "count": 2,
+      "chunks": [
+        "chu",
+        "va"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "chu",
+        "va"
+      ],
+      "noun": "rain",
+      "imageDir": "spring",
+      "imageFile": "rain",
+      "shelf": "s2"
+    },
+    {
+      "id": "car",
+      "display": "carro",
+      "count": 2,
+      "chunks": [
+        "car",
+        "ro"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "car",
+        "ro"
+      ],
+      "noun": "car",
+      "imageDir": "vehicles",
+      "imageFile": "car",
+      "shelf": "s2"
+    },
+    {
+      "id": "dog",
+      "display": "cachorro",
+      "count": 3,
+      "chunks": [
+        "ca",
+        "chor",
+        "ro"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "ca",
+        "chor",
+        "ro"
+      ],
+      "noun": "dog",
+      "imageDir": "pets",
+      "imageFile": "dog",
+      "shelf": "s3"
+    },
+    {
+      "id": "giraffe",
+      "display": "girafa",
+      "count": 3,
+      "chunks": [
+        "gi",
+        "ra",
+        "fa"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "gi",
+        "ra",
+        "fa"
+      ],
+      "noun": "giraffe",
+      "imageDir": "zoo animals",
+      "imageFile": "giraffe",
+      "shelf": "s3"
+    },
+    {
+      "id": "horse",
+      "display": "cavalo",
+      "count": 3,
+      "chunks": [
+        "ca",
+        "va",
+        "lo"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "ca",
+        "va",
+        "lo"
+      ],
+      "noun": "horse",
+      "imageDir": "farm animals",
+      "imageFile": "horse",
+      "shelf": "s3"
+    },
+    {
+      "id": "owl",
+      "display": "coruja",
+      "count": 3,
+      "chunks": [
+        "co",
+        "ru",
+        "ja"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "co",
+        "ru",
+        "ja"
+      ],
+      "noun": "owl",
+      "imageDir": "birds",
+      "imageFile": "owl",
+      "shelf": "s3"
+    },
+    {
+      "id": "bee",
+      "display": "abelha",
+      "count": 3,
+      "chunks": [
+        "a",
+        "be",
+        "lha"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "a",
+        "be",
+        "lha"
+      ],
+      "noun": "bee",
+      "imageDir": "insects and bugs",
+      "imageFile": "bee",
+      "shelf": "s3"
+    },
+    {
+      "id": "banana",
+      "display": "banana",
+      "count": 3,
+      "chunks": [
+        "ba",
+        "na",
+        "na"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "ba",
+        "na",
+        "na"
+      ],
+      "noun": "banana",
+      "imageDir": "fruits",
+      "imageFile": "banana",
+      "shelf": "s3"
+    },
+    {
+      "id": "tomato",
+      "display": "tomate",
+      "count": 3,
+      "chunks": [
+        "to",
+        "ma",
+        "te"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "to",
+        "ma",
+        "te"
+      ],
+      "noun": "tomato",
+      "imageDir": "vegetables",
+      "imageFile": "tomato",
+      "shelf": "s3"
+    },
+    {
+      "id": "potato",
+      "display": "batata",
+      "count": 3,
+      "chunks": [
+        "ba",
+        "ta",
+        "ta"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "ba",
+        "ta",
+        "ta"
+      ],
+      "noun": "potato",
+      "imageDir": "vegetables",
+      "imageFile": "potato",
+      "shelf": "s3"
+    },
+    {
+      "id": "carrot",
+      "display": "cenoura",
+      "count": 3,
+      "chunks": [
+        "ce",
+        "nou",
+        "ra"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "ce",
+        "nou",
+        "ra"
+      ],
+      "noun": "carrot",
+      "imageDir": "vegetables",
+      "imageFile": "carrot",
+      "shelf": "s3"
+    },
+    {
+      "id": "shoe",
+      "display": "sapato",
+      "count": 3,
+      "chunks": [
+        "sa",
+        "pa",
+        "to"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "sa",
+        "pa",
+        "to"
+      ],
+      "noun": "shoe",
+      "imageDir": "clothing",
+      "imageFile": "shoe",
+      "shelf": "s3"
+    },
+    {
+      "id": "chair",
+      "display": "cadeira",
+      "count": 3,
+      "chunks": [
+        "ca",
+        "dei",
+        "ra"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "ca",
+        "dei",
+        "ra"
+      ],
+      "noun": "chair",
+      "imageDir": "classroom",
+      "imageFile": "chair",
+      "shelf": "s3"
+    },
+    {
+      "id": "window",
+      "display": "janela",
+      "count": 3,
+      "chunks": [
+        "ja",
+        "ne",
+        "la"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "ja",
+        "ne",
+        "la"
+      ],
+      "noun": "window",
+      "imageDir": "around the house",
+      "imageFile": "window",
+      "shelf": "s3"
+    },
+    {
+      "id": "pen",
+      "display": "caneta",
+      "count": 3,
+      "chunks": [
+        "ca",
+        "ne",
+        "ta"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "ca",
+        "ne",
+        "ta"
+      ],
+      "noun": "pen",
+      "imageDir": "classroom",
+      "imageFile": "pen",
+      "shelf": "s3"
+    },
+    {
+      "id": "doll",
+      "display": "boneca",
+      "count": 3,
+      "chunks": [
+        "bo",
+        "ne",
+        "ca"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "bo",
+        "ne",
+        "ca"
+      ],
+      "noun": "doll",
+      "imageDir": "toys",
+      "imageFile": "doll",
+      "shelf": "s3"
+    },
+    {
+      "id": "star",
+      "display": "estrela",
+      "count": 3,
+      "chunks": [
+        "es",
+        "tre",
+        "la"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "es",
+        "tre",
+        "la"
+      ],
+      "noun": "star",
+      "imageDir": "shapes",
+      "imageFile": "star",
+      "shelf": "s3"
+    },
+    {
+      "id": "butterfly",
+      "display": "borboleta",
+      "count": 4,
+      "chunks": [
+        "bor",
+        "bo",
+        "le",
+        "ta"
+      ],
+      "oralCount": 4,
+      "oralChunks": [
+        "bor",
+        "bo",
+        "le",
+        "ta"
+      ],
+      "noun": "butterfly",
+      "imageDir": "spring",
+      "imageFile": "butterfly",
+      "shelf": "s4"
+    },
+    {
+      "id": "elephant",
+      "display": "elefante",
+      "count": 4,
+      "chunks": [
+        "e",
+        "le",
+        "fan",
+        "te"
+      ],
+      "oralCount": 4,
+      "oralChunks": [
+        "e",
+        "le",
+        "fan",
+        "te"
+      ],
+      "noun": "elephant",
+      "imageDir": "zoo animals",
+      "imageFile": "elephant",
+      "shelf": "s4"
+    },
+    {
+      "id": "turtle",
+      "display": "tartaruga",
+      "count": 4,
+      "chunks": [
+        "tar",
+        "ta",
+        "ru",
+        "ga"
+      ],
+      "oralCount": 4,
+      "oralChunks": [
+        "tar",
+        "ta",
+        "ru",
+        "ga"
+      ],
+      "noun": "turtle",
+      "imageDir": "beach",
+      "imageFile": "turtle",
+      "shelf": "s4"
+    },
+    {
+      "id": "pineapple",
+      "display": "abacaxi",
+      "count": 4,
+      "chunks": [
+        "a",
+        "ba",
+        "ca",
+        "xi"
+      ],
+      "oralCount": 4,
+      "oralChunks": [
+        "a",
+        "ba",
+        "ca",
+        "xi"
+      ],
+      "noun": "pineapple",
+      "imageDir": "fruits",
+      "imageFile": "pineapple",
+      "shelf": "s4"
+    },
+    {
+      "id": "avocado",
+      "display": "abacate",
+      "count": 4,
+      "chunks": [
+        "a",
+        "ba",
+        "ca",
+        "te"
+      ],
+      "oralCount": 4,
+      "oralChunks": [
+        "a",
+        "ba",
+        "ca",
+        "te"
+      ],
+      "noun": "avocado",
+      "imageDir": "fruits",
+      "imageFile": "avocado",
+      "shelf": "s4"
+    },
+    {
+      "id": "lollipop",
+      "display": "pirulito",
+      "count": 4,
+      "chunks": [
+        "pi",
+        "ru",
+        "li",
+        "to"
+      ],
+      "oralCount": 4,
+      "oralChunks": [
+        "pi",
+        "ru",
+        "li",
+        "to"
+      ],
+      "noun": "lollipop",
+      "imageDir": "desserts and sweets",
+      "imageFile": "lollipop",
+      "shelf": "s4"
+    },
+    {
+      "id": "bicycle",
+      "display": "bicicleta",
+      "count": 4,
+      "chunks": [
+        "bi",
+        "ci",
+        "cle",
+        "ta"
+      ],
+      "oralCount": 4,
+      "oralChunks": [
+        "bi",
+        "ci",
+        "cle",
+        "ta"
+      ],
+      "noun": "bicycle",
+      "imageDir": "vehicles",
+      "imageFile": "bicycle",
+      "shelf": "s4"
+    },
+    {
+      "id": "dinosaur",
+      "display": "dinossauro",
+      "count": 4,
+      "chunks": [
+        "di",
+        "nos",
+        "sau",
+        "ro"
+      ],
+      "oralCount": 4,
+      "oralChunks": [
+        "di",
+        "nos",
+        "sau",
+        "ro"
+      ],
+      "noun": "dinosaur",
+      "imageDir": "toys",
+      "imageFile": "dinosaur",
+      "shelf": "s4"
+    },
+    {
+      "id": "chocolate",
+      "display": "chocolate",
+      "count": 4,
+      "chunks": [
+        "cho",
+        "co",
+        "la",
+        "te"
+      ],
+      "oralCount": 4,
+      "oralChunks": [
+        "cho",
+        "co",
+        "la",
+        "te"
+      ],
+      "noun": "chocolate",
+      "imageDir": "easter",
+      "imageFile": "chocolate",
+      "shelf": "s4"
+    },
+    {
+      "id": "telephone",
+      "display": "telefone",
+      "count": 4,
+      "chunks": [
+        "te",
+        "le",
+        "fo",
+        "ne"
+      ],
+      "oralCount": 4,
+      "oralChunks": [
+        "te",
+        "le",
+        "fo",
+        "ne"
+      ],
+      "noun": "telephone",
+      "imageDir": "around the house",
+      "imageFile": "telephone",
+      "shelf": "s4"
+    },
+    {
+      "id": "computer",
+      "display": "computador",
+      "count": 4,
+      "chunks": [
+        "com",
+        "pu",
+        "ta",
+        "dor"
+      ],
+      "oralCount": 4,
+      "oralChunks": [
+        "com",
+        "pu",
+        "ta",
+        "dor"
+      ],
+      "noun": "computer",
+      "imageDir": "classroom",
+      "imageFile": "computer",
+      "shelf": "s4"
+    },
+    {
+      "id": "crab",
+      "display": "caranguejo",
+      "count": 4,
+      "chunks": [
+        "ca",
+        "ran",
+        "gue",
+        "jo"
+      ],
+      "oralCount": 4,
+      "oralChunks": [
+        "ca",
+        "ran",
+        "gue",
+        "jo"
+      ],
+      "noun": "crab",
+      "imageDir": "ocean life",
+      "imageFile": "crab",
+      "shelf": "s4"
+    }
+  ]
+}

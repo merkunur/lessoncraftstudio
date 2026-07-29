@@ -1,0 +1,1059 @@
+{
+  "locale": "fr",
+  "version": 1,
+  "oralConvention": "syllabes-orales",
+  "curation": "native-pass-1",
+  "pens": [
+    1,
+    2,
+    3
+  ],
+  "shelves": [
+    {
+      "id": "s1",
+      "label": "Deux frappes : pour commencer",
+      "free": true
+    },
+    {
+      "id": "s2",
+      "label": "Une seule frappe",
+      "free": false
+    },
+    {
+      "id": "s3",
+      "label": "Deux frappes : la suite",
+      "free": false
+    },
+    {
+      "id": "s4",
+      "label": "Trois frappes",
+      "free": false
+    }
+  ],
+  "words": [
+    {
+      "id": "rabbit",
+      "display": "lapin",
+      "count": 2,
+      "chunks": [
+        "la",
+        "pin"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "la",
+        "pin"
+      ],
+      "noun": "rabbit",
+      "imageDir": "pets",
+      "imageFile": "rabbit",
+      "shelf": "s1"
+    },
+    {
+      "id": "boat",
+      "display": "bateau",
+      "count": 2,
+      "chunks": [
+        "ba",
+        "teau"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "ba",
+        "teau"
+      ],
+      "noun": "boat",
+      "imageDir": "vehicles",
+      "imageFile": "boat",
+      "shelf": "s1"
+    },
+    {
+      "id": "cake",
+      "display": "gâteau",
+      "count": 2,
+      "chunks": [
+        "gâ",
+        "teau"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "gâ",
+        "teau"
+      ],
+      "noun": "cake",
+      "imageDir": "bakery",
+      "imageFile": "cake",
+      "shelf": "s1"
+    },
+    {
+      "id": "hat",
+      "display": "chapeau",
+      "count": 2,
+      "chunks": [
+        "cha",
+        "peau"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "cha",
+        "peau"
+      ],
+      "noun": "hat",
+      "imageDir": "clothing",
+      "imageFile": "hat",
+      "shelf": "s1"
+    },
+    {
+      "id": "fish",
+      "display": "poisson",
+      "count": 2,
+      "chunks": [
+        "pois",
+        "son"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "pois",
+        "son"
+      ],
+      "noun": "fish",
+      "imageDir": "ocean life",
+      "imageFile": "fish",
+      "shelf": "s1"
+    },
+    {
+      "id": "banana",
+      "display": "banane",
+      "count": 3,
+      "chunks": [
+        "ba",
+        "na",
+        "ne"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "ba",
+        "nane"
+      ],
+      "noun": "banana",
+      "imageDir": "fruits",
+      "imageFile": "banana",
+      "shelf": "s1",
+      "note": "Le e final ne s’entend pas : « banane » s’écrit en 3 syllabes mais se frappe 2 fois."
+    },
+    {
+      "id": "carrot",
+      "display": "carotte",
+      "count": 3,
+      "chunks": [
+        "ca",
+        "rot",
+        "te"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "ca",
+        "rotte"
+      ],
+      "noun": "carrot",
+      "imageDir": "vegetables",
+      "imageFile": "carrot",
+      "shelf": "s1",
+      "note": "Le e final ne s’entend pas : « carotte » s’écrit en 3 syllabes mais se frappe 2 fois."
+    },
+    {
+      "id": "car",
+      "display": "voiture",
+      "count": 3,
+      "chunks": [
+        "voi",
+        "tu",
+        "re"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "voi",
+        "ture"
+      ],
+      "noun": "car",
+      "imageDir": "vehicles",
+      "imageFile": "car",
+      "shelf": "s1",
+      "note": "Le e final ne s’entend pas : « voiture » s’écrit en 3 syllabes mais se frappe 2 fois."
+    },
+    {
+      "id": "sun",
+      "display": "soleil",
+      "count": 2,
+      "chunks": [
+        "so",
+        "leil"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "so",
+        "leil"
+      ],
+      "noun": "sun",
+      "imageDir": "weather",
+      "imageFile": "sun",
+      "shelf": "s1"
+    },
+    {
+      "id": "house",
+      "display": "maison",
+      "count": 2,
+      "chunks": [
+        "mai",
+        "son"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "mai",
+        "son"
+      ],
+      "noun": "house",
+      "imageDir": "miscellaneous",
+      "imageFile": "house",
+      "shelf": "s1"
+    },
+    {
+      "id": "cherry",
+      "display": "cerise",
+      "count": 3,
+      "chunks": [
+        "ce",
+        "ri",
+        "se"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "ce",
+        "rise"
+      ],
+      "noun": "cherry",
+      "imageDir": "fruits",
+      "imageFile": "cherry",
+      "shelf": "s1",
+      "note": "Le e final ne s’entend pas : « cerise » s’écrit en 3 syllabes mais se frappe 2 fois."
+    },
+    {
+      "id": "star",
+      "display": "étoile",
+      "count": 3,
+      "chunks": [
+        "é",
+        "toi",
+        "le"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "é",
+        "toile"
+      ],
+      "noun": "star",
+      "imageDir": "shapes",
+      "imageFile": "star",
+      "shelf": "s1",
+      "note": "Le e final ne s’entend pas : « étoile » s’écrit en 3 syllabes mais se frappe 2 fois."
+    },
+    {
+      "id": "cat",
+      "display": "chat",
+      "count": 1,
+      "chunks": [
+        "chat"
+      ],
+      "oralCount": 1,
+      "oralChunks": [
+        "chat"
+      ],
+      "noun": "cat",
+      "imageDir": "pets",
+      "imageFile": "cat",
+      "shelf": "s2"
+    },
+    {
+      "id": "dog",
+      "display": "chien",
+      "count": 1,
+      "chunks": [
+        "chien"
+      ],
+      "oralCount": 1,
+      "oralChunks": [
+        "chien"
+      ],
+      "noun": "dog",
+      "imageDir": "pets",
+      "imageFile": "dog",
+      "shelf": "s2"
+    },
+    {
+      "id": "bread",
+      "display": "pain",
+      "count": 1,
+      "chunks": [
+        "pain"
+      ],
+      "oralCount": 1,
+      "oralChunks": [
+        "pain"
+      ],
+      "noun": "bread",
+      "imageDir": "At the Supermarket",
+      "imageFile": "bread",
+      "shelf": "s2"
+    },
+    {
+      "id": "flower",
+      "display": "fleur",
+      "count": 1,
+      "chunks": [
+        "fleur"
+      ],
+      "oralCount": 1,
+      "oralChunks": [
+        "fleur"
+      ],
+      "noun": "flower",
+      "imageDir": "spring",
+      "imageFile": "flower",
+      "shelf": "s2"
+    },
+    {
+      "id": "hand",
+      "display": "main",
+      "count": 1,
+      "chunks": [
+        "main"
+      ],
+      "oralCount": 1,
+      "oralChunks": [
+        "main"
+      ],
+      "noun": "hand",
+      "imageDir": "body parts",
+      "imageFile": "hand",
+      "shelf": "s2"
+    },
+    {
+      "id": "bed",
+      "display": "lit",
+      "count": 1,
+      "chunks": [
+        "lit"
+      ],
+      "oralCount": 1,
+      "oralChunks": [
+        "lit"
+      ],
+      "noun": "bed",
+      "imageDir": "furniture",
+      "imageFile": "bed",
+      "shelf": "s2"
+    },
+    {
+      "id": "rooster",
+      "display": "coq",
+      "count": 1,
+      "chunks": [
+        "coq"
+      ],
+      "oralCount": 1,
+      "oralChunks": [
+        "coq"
+      ],
+      "noun": "rooster",
+      "imageDir": "farm animals",
+      "imageFile": "rooster",
+      "shelf": "s2"
+    },
+    {
+      "id": "nest",
+      "display": "nid",
+      "count": 1,
+      "chunks": [
+        "nid"
+      ],
+      "oralCount": 1,
+      "oralChunks": [
+        "nid"
+      ],
+      "noun": "nest",
+      "imageDir": "spring",
+      "imageFile": "nest",
+      "shelf": "s2"
+    },
+    {
+      "id": "moon",
+      "display": "lune",
+      "count": 2,
+      "chunks": [
+        "lu",
+        "ne"
+      ],
+      "oralCount": 1,
+      "oralChunks": [
+        "lune"
+      ],
+      "noun": "moon",
+      "imageDir": "space",
+      "imageFile": "moon",
+      "shelf": "s2",
+      "note": "Le e final ne s’entend pas : « lune » s’écrit en 2 syllabes mais se frappe 1 fois."
+    },
+    {
+      "id": "apple",
+      "display": "pomme",
+      "count": 2,
+      "chunks": [
+        "pom",
+        "me"
+      ],
+      "oralCount": 1,
+      "oralChunks": [
+        "pomme"
+      ],
+      "noun": "apple",
+      "imageDir": "fruits",
+      "imageFile": "apple",
+      "shelf": "s2",
+      "note": "Le e final ne s’entend pas : « pomme » s’écrit en 2 syllabes mais se frappe 1 fois."
+    },
+    {
+      "id": "cow",
+      "display": "vache",
+      "count": 2,
+      "chunks": [
+        "va",
+        "che"
+      ],
+      "oralCount": 1,
+      "oralChunks": [
+        "vache"
+      ],
+      "noun": "cow",
+      "imageDir": "farm animals",
+      "imageFile": "cow",
+      "shelf": "s2",
+      "note": "Le e final ne s’entend pas : « vache » s’écrit en 2 syllabes mais se frappe 1 fois."
+    },
+    {
+      "id": "table",
+      "display": "table",
+      "count": 2,
+      "chunks": [
+        "ta",
+        "ble"
+      ],
+      "oralCount": 1,
+      "oralChunks": [
+        "table"
+      ],
+      "noun": "table",
+      "imageDir": "classroom",
+      "imageFile": "table",
+      "shelf": "s2",
+      "note": "Le e final ne s’entend pas : « table » s’écrit en 2 syllabes mais se frappe 1 fois."
+    },
+    {
+      "id": "tree",
+      "display": "arbre",
+      "count": 2,
+      "chunks": [
+        "ar",
+        "bre"
+      ],
+      "oralCount": 1,
+      "oralChunks": [
+        "arbre"
+      ],
+      "noun": "tree",
+      "imageDir": "christmas",
+      "imageFile": "tree",
+      "shelf": "s2",
+      "note": "Le e final ne s’entend pas : « arbre » s’écrit en 2 syllabes mais se frappe 1 fois."
+    },
+    {
+      "id": "book",
+      "display": "livre",
+      "count": 2,
+      "chunks": [
+        "li",
+        "vre"
+      ],
+      "oralCount": 1,
+      "oralChunks": [
+        "livre"
+      ],
+      "noun": "book",
+      "imageDir": "classroom",
+      "imageFile": "book",
+      "shelf": "s2",
+      "note": "Le e final ne s’entend pas : « livre » s’écrit en 2 syllabes mais se frappe 1 fois."
+    },
+    {
+      "id": "chair",
+      "display": "chaise",
+      "count": 2,
+      "chunks": [
+        "chai",
+        "se"
+      ],
+      "oralCount": 1,
+      "oralChunks": [
+        "chaise"
+      ],
+      "noun": "chair",
+      "imageDir": "classroom",
+      "imageFile": "chair",
+      "shelf": "s2",
+      "note": "Le e final ne s’entend pas : « chaise » s’écrit en 2 syllabes mais se frappe 1 fois."
+    },
+    {
+      "id": "sheep",
+      "display": "mouton",
+      "count": 2,
+      "chunks": [
+        "mou",
+        "ton"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "mou",
+        "ton"
+      ],
+      "noun": "sheep",
+      "imageDir": "farm animals",
+      "imageFile": "sheep",
+      "shelf": "s3"
+    },
+    {
+      "id": "mouse",
+      "display": "souris",
+      "count": 2,
+      "chunks": [
+        "sou",
+        "ris"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "sou",
+        "ris"
+      ],
+      "noun": "mouse",
+      "imageDir": "forest creatures",
+      "imageFile": "mouse",
+      "shelf": "s3"
+    },
+    {
+      "id": "duck",
+      "display": "canard",
+      "count": 2,
+      "chunks": [
+        "ca",
+        "nard"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "ca",
+        "nard"
+      ],
+      "noun": "duck",
+      "imageDir": "farm animals",
+      "imageFile": "duck",
+      "shelf": "s3"
+    },
+    {
+      "id": "garden",
+      "display": "jardin",
+      "count": 2,
+      "chunks": [
+        "jar",
+        "din"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "jar",
+        "din"
+      ],
+      "noun": "garden",
+      "imageDir": "spring",
+      "imageFile": "garden",
+      "shelf": "s3"
+    },
+    {
+      "id": "candle",
+      "display": "bougie",
+      "count": 2,
+      "chunks": [
+        "bou",
+        "gie"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "bou",
+        "gie"
+      ],
+      "noun": "candle",
+      "imageDir": "christmas",
+      "imageFile": "candle",
+      "shelf": "s3"
+    },
+    {
+      "id": "turtle",
+      "display": "tortue",
+      "count": 2,
+      "chunks": [
+        "tor",
+        "tue"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "tor",
+        "tue"
+      ],
+      "noun": "turtle",
+      "imageDir": "reptiles and Amphibians",
+      "imageFile": "turtle",
+      "shelf": "s3"
+    },
+    {
+      "id": "lemon",
+      "display": "citron",
+      "count": 2,
+      "chunks": [
+        "ci",
+        "tron"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "ci",
+        "tron"
+      ],
+      "noun": "lemon",
+      "imageDir": "fruits",
+      "imageFile": "lemon",
+      "shelf": "s3"
+    },
+    {
+      "id": "knife",
+      "display": "couteau",
+      "count": 2,
+      "chunks": [
+        "cou",
+        "teau"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "cou",
+        "teau"
+      ],
+      "noun": "knife",
+      "imageDir": "kitchen tools",
+      "imageFile": "knife",
+      "shelf": "s3"
+    },
+    {
+      "id": "giraffe",
+      "display": "girafe",
+      "count": 3,
+      "chunks": [
+        "gi",
+        "ra",
+        "fe"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "gi",
+        "rafe"
+      ],
+      "noun": "giraffe",
+      "imageDir": "zoo animals",
+      "imageFile": "giraffe",
+      "shelf": "s3",
+      "note": "Le e final ne s’entend pas : « girafe » s’écrit en 3 syllabes mais se frappe 2 fois."
+    },
+    {
+      "id": "orange",
+      "display": "orange",
+      "count": 3,
+      "chunks": [
+        "o",
+        "ran",
+        "ge"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "o",
+        "range"
+      ],
+      "noun": "orange",
+      "imageDir": "fruits",
+      "imageFile": "orange",
+      "shelf": "s3",
+      "note": "Le e final ne s’entend pas : « orange » s’écrit en 3 syllabes mais se frappe 2 fois."
+    },
+    {
+      "id": "tomato",
+      "display": "tomate",
+      "count": 3,
+      "chunks": [
+        "to",
+        "ma",
+        "te"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "to",
+        "mate"
+      ],
+      "noun": "tomato",
+      "imageDir": "vegetables",
+      "imageFile": "tomato",
+      "shelf": "s3",
+      "note": "Le e final ne s’entend pas : « tomate » s’écrit en 3 syllabes mais se frappe 2 fois."
+    },
+    {
+      "id": "guitar",
+      "display": "guitare",
+      "count": 3,
+      "chunks": [
+        "gui",
+        "ta",
+        "re"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "gui",
+        "tare"
+      ],
+      "noun": "guitar",
+      "imageDir": "music",
+      "imageFile": "guitar",
+      "shelf": "s3",
+      "note": "Le e final ne s’entend pas : « guitare » s’écrit en 3 syllabes mais se frappe 2 fois."
+    },
+    {
+      "id": "cheese",
+      "display": "fromage",
+      "count": 3,
+      "chunks": [
+        "fro",
+        "ma",
+        "ge"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "fro",
+        "mage"
+      ],
+      "noun": "cheese",
+      "imageDir": "breakfast",
+      "imageFile": "cheese",
+      "shelf": "s3",
+      "note": "Le e final ne s’entend pas : « fromage » s’écrit en 3 syllabes mais se frappe 2 fois."
+    },
+    {
+      "id": "sock",
+      "display": "chaussette",
+      "count": 3,
+      "chunks": [
+        "chaus",
+        "set",
+        "te"
+      ],
+      "oralCount": 2,
+      "oralChunks": [
+        "chaus",
+        "sette"
+      ],
+      "noun": "sock",
+      "imageDir": "accessories",
+      "imageFile": "sock",
+      "shelf": "s3",
+      "note": "Le e final ne s’entend pas : « chaussette » s’écrit en 3 syllabes mais se frappe 2 fois."
+    },
+    {
+      "id": "butterfly",
+      "display": "papillon",
+      "count": 3,
+      "chunks": [
+        "pa",
+        "pil",
+        "lon"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "pa",
+        "pil",
+        "lon"
+      ],
+      "noun": "butterfly",
+      "imageDir": "insects and bugs",
+      "imageFile": "butterfly",
+      "shelf": "s4"
+    },
+    {
+      "id": "elephant",
+      "display": "éléphant",
+      "count": 3,
+      "chunks": [
+        "é",
+        "lé",
+        "phant"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "é",
+        "lé",
+        "phant"
+      ],
+      "noun": "elephant",
+      "imageDir": "zoo animals",
+      "imageFile": "elephant",
+      "shelf": "s4"
+    },
+    {
+      "id": "chocolate",
+      "display": "chocolat",
+      "count": 3,
+      "chunks": [
+        "cho",
+        "co",
+        "lat"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "cho",
+        "co",
+        "lat"
+      ],
+      "noun": "chocolate",
+      "imageDir": "easter",
+      "imageFile": "chocolate",
+      "shelf": "s4"
+    },
+    {
+      "id": "kangaroo",
+      "display": "kangourou",
+      "count": 3,
+      "chunks": [
+        "kan",
+        "gou",
+        "rou"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "kan",
+        "gou",
+        "rou"
+      ],
+      "noun": "kangaroo",
+      "imageDir": "zoo animals",
+      "imageFile": "kangaroo",
+      "shelf": "s4"
+    },
+    {
+      "id": "pineapple",
+      "display": "ananas",
+      "count": 3,
+      "chunks": [
+        "a",
+        "na",
+        "nas"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "a",
+        "na",
+        "nas"
+      ],
+      "noun": "pineapple",
+      "imageDir": "fruits",
+      "imageFile": "pineapple",
+      "shelf": "s4"
+    },
+    {
+      "id": "mushroom",
+      "display": "champignon",
+      "count": 3,
+      "chunks": [
+        "cham",
+        "pi",
+        "gnon"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "cham",
+        "pi",
+        "gnon"
+      ],
+      "noun": "mushroom",
+      "imageDir": "vegetables",
+      "imageFile": "mushroom",
+      "shelf": "s4"
+    },
+    {
+      "id": "umbrella",
+      "display": "parapluie",
+      "count": 3,
+      "chunks": [
+        "pa",
+        "ra",
+        "pluie"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "pa",
+        "ra",
+        "pluie"
+      ],
+      "noun": "umbrella",
+      "imageDir": "weather",
+      "imageFile": "umbrella",
+      "shelf": "s4"
+    },
+    {
+      "id": "snail",
+      "display": "escargot",
+      "count": 3,
+      "chunks": [
+        "es",
+        "car",
+        "got"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "es",
+        "car",
+        "got"
+      ],
+      "noun": "snail",
+      "imageDir": "insects and bugs",
+      "imageFile": "snail",
+      "shelf": "s4"
+    },
+    {
+      "id": "sunflower",
+      "display": "tournesol",
+      "count": 3,
+      "chunks": [
+        "tour",
+        "ne",
+        "sol"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "tour",
+        "ne",
+        "sol"
+      ],
+      "noun": "sunflower",
+      "imageDir": "flowers",
+      "imageFile": "sunflower",
+      "shelf": "s4"
+    },
+    {
+      "id": "pants",
+      "display": "pantalon",
+      "count": 3,
+      "chunks": [
+        "pan",
+        "ta",
+        "lon"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "pan",
+        "ta",
+        "lon"
+      ],
+      "noun": "pants",
+      "imageDir": "clothing",
+      "imageFile": "pants",
+      "shelf": "s4"
+    },
+    {
+      "id": "apricot",
+      "display": "abricot",
+      "count": 3,
+      "chunks": [
+        "a",
+        "bri",
+        "cot"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "a",
+        "bri",
+        "cot"
+      ],
+      "noun": "apricot",
+      "imageDir": "fruits",
+      "imageFile": "apricot",
+      "shelf": "s4"
+    },
+    {
+      "id": "hedgehog",
+      "display": "hérisson",
+      "count": 3,
+      "chunks": [
+        "hé",
+        "ris",
+        "son"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "hé",
+        "ris",
+        "son"
+      ],
+      "noun": "hedgehog",
+      "imageDir": "forest creatures",
+      "imageFile": "hedgehog",
+      "shelf": "s4"
+    },
+    {
+      "id": "spider",
+      "display": "araignée",
+      "count": 3,
+      "chunks": [
+        "a",
+        "rai",
+        "gnée"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "a",
+        "rai",
+        "gnée"
+      ],
+      "noun": "spider",
+      "imageDir": "insects and bugs",
+      "imageFile": "spider",
+      "shelf": "s4"
+    },
+    {
+      "id": "pajamas",
+      "display": "pyjama",
+      "count": 3,
+      "chunks": [
+        "py",
+        "ja",
+        "ma"
+      ],
+      "oralCount": 3,
+      "oralChunks": [
+        "py",
+        "ja",
+        "ma"
+      ],
+      "noun": "pajamas",
+      "imageDir": "clothing",
+      "imageFile": "pajamas",
+      "shelf": "s4"
+    }
+  ]
+}

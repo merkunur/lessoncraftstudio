@@ -604,6 +604,31 @@
       "Pari Tavutaulun kanssa: taputtakaa sana ensin tavuiksi täällä ja rakentakaa sama sana sitten Tavutaululla tavu tavulta – erottelu ja kokoaminen ovat saman taidon kaksi suuntaa."
     ]
   },
+  "estimation-jar": {
+    "slug": "arviopurkki",
+    "name": "Arviopurkki",
+    "tagline": "Aamupiirin arviohetki: luokka arvioi lukumäärää yhdessä.",
+    "about": [
+      "Arviopurkki tuo aamupiiriin lyhyen, viikoittain toistuvan hetken, jossa koko luokka pysähtyy saman purkin ääreen. Opettaja täyttää purkin salaa – kirsikoita, tähtiä, tammenterhoja – eikä kukaan muu tiedä lukumäärää. Lapset saavat arvioida rauhassa, ja jokainen arvio jää nimettömäksi harmaaksi pisteeksi lukusuoralle.",
+      "Työkalu on tehty niin, ettei kenenkään arviota nosteta muiden yläpuolelle. Näytöllä ei ole pisteitä, sijoituksia eikä kelloa – vain purkki, lukusuora ja luokan yhteinen pistepilvi. Juuri siksi myös epävarma arvioija uskaltaa tulla napauttamaan viivaa.",
+      "Kun purkki kaadetaan tyhjäksi, esineet nousevat esiin kymmenen ryhmissä kymmenruudukkoihin ja luokka laskee ääneen: kymmenen, kaksikymmentä, kolmekymmentä. Näin lukumäärän arviointi ja kymmenjärjestelmän hahmottaminen kulkevat OPS 2014:n hengessä käsi kädessä, ja lopuksi todellinen luku asettuu pisteiden joukkoon."
+    ],
+    "howToUse": [
+      "Valitse purkin täyte – kirsikat, tähdet tai kauden mukainen ehdotus – ja aseta lukumäärä. Vain sinä näet luvun.",
+      "Käännä näyttö luokkaan päin ja anna lasten katsoa purkkia hetken aivan rauhassa.",
+      "Kutsu lapset vuorotellen napauttamaan lukusuoralta oma arvionsa. Piste ilmestyy viivalle ilman nimeä, eikä kukaan näe, kenen arvio se on.",
+      "Kaada purkki tyhjäksi. Esineet tulevat esiin kymmenittäin, ja luokka laskee ääneen jokaisen kymmenen ryhmän kohdalla.",
+      "Katsokaa lopuksi yhdessä pistepilveä ja todellista lukua: olimme samoilla main – ja ensi viikolla arvioidaan uudestaan."
+    ],
+    "classroomIdeas": [
+      "Pidä sama purkki esillä koko viikon: maanantaina arviot, perjantaina paljastus. Odotus tekee hetkestä luokan oman perinteen.",
+      "Kirjaa taululle luokan arvioiden vaihteluväli ja pohtikaa yhdessä, minkä lukujen väliin oikea luku voisi asettua.",
+      "Vaihda täyte vuodenajan mukaan: syksyllä tammenterhoja, joulukuussa tähtiä. Sama rutiini, uusi keskustelu joka kerta.",
+      "Esiopetuksessa pysy alle kahdenkymmenen ja anna lasten laskea mukana ääneen; 2. luokalla nosta lukumäärä yli sadan, jolloin sadat ja kymmenet tulevat luontevasti puheeksi."
+    ],
+    "metaTitle": "Arviopurkki – lukumäärän arviointi aamupiirissä",
+    "metaDescription": "Arviopurkki on aamupiirin arviohetki: opettaja täyttää purkin salaa, luokka arvioi lukumäärää lukusuoralla ja sisältö lasketaan yhdessä kymmenittäin."
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

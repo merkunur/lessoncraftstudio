@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "note": "Locale-NEUTRAL. The jar shows pictures and the ritual counts them, so no per-locale word bank exists — the only spoken content is bare numerals. Season keys come from SEASONAL_KEYS in frontend/lib/seasonal-hub.ts; only the UNIVERSAL five are used (christmas/easter/winter/spring/summer), because 4th_of_july and thanksgivinng are en-only there and these objects are not culture-bound. Autumn has no theme key in the library at all, so acorns/pinecones/leaves ship season-null rather than mis-tagged.",
+  "freeMax": 30,
+  "premiumMax": 200,
+  "sets": [
+    { "id": "cherries",   "noun": "cherry",    "imageDir": "fruits",              "imageFile": "cherry",    "season": null,        "free": true },
+    { "id": "stars",      "noun": "star",      "imageDir": "shapes",              "imageFile": "star",      "season": null,        "free": true },
+    { "id": "lollipops",  "noun": "lollipop",  "imageDir": "desserts and sweets", "imageFile": "lollipop",  "season": null,        "free": true },
+
+    { "id": "acorns",     "noun": "acorn",     "imageDir": "miscellaneous",       "imageFile": "acorn",     "season": null,        "free": false },
+    { "id": "pinecones",  "noun": "pinecone",  "imageDir": "winter",              "imageFile": "pinecone",  "season": "winter",    "free": false },
+    { "id": "snowflakes", "noun": "snowflake", "imageDir": "winter",              "imageFile": "snowflake", "season": "winter",    "free": false },
+    { "id": "ornaments",  "noun": "ornament",  "imageDir": "christmas",           "imageFile": "ornament",  "season": "christmas", "free": false },
+    { "id": "eggs",       "noun": "egg",       "imageDir": "easter",              "imageFile": "egg",       "season": "easter",    "free": false },
+    { "id": "ladybugs",   "noun": "ladybug",   "imageDir": "insects and bugs",    "imageFile": "ladybug",   "season": "spring",    "free": false },
+    { "id": "seashells",  "noun": "seashell",  "imageDir": "beach",               "imageFile": "seashell",  "season": "summer",    "free": false },
+    { "id": "blueberries","noun": "blueberry", "imageDir": "fruits",              "imageFile": "blueberry", "season": null,        "free": false }
+  ]
+}

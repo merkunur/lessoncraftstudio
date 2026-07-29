@@ -626,6 +626,31 @@
       "Sorteringsbanen som makkerarbejde: to børn deler bunken imellem sig, klapper hvert ord højt og bliver enige om folden, før de trækker billedet derover."
     ]
   },
+  "estimation-jar": {
+    "slug": "overslagsglasset",
+    "name": "Overslagsglasset",
+    "tagline": "Hvor mange mon der er i glasset? Klassens fælles overslag.",
+    "about": [
+      "Overslagsglasset er et ritual til morgensamlingen – ikke en konkurrence. Du fylder glasset i smug med kirsebær, stjerner eller agern, og kun du kender tallet. Tingene ligger i klumper, så de ikke kan tælles med øjnene.",
+      "Børnene kommer op ét ad gangen og trykker på tallinjen. Hvert bud lander som en grå prik uden navn og uden rækkefølge. Der bliver ikke peget på ét bud, og der bliver ikke sammenlignet – alle bud hører til på linjen.",
+      "Til sidst tømmes glasset. Tingene kommer ud ti ad gangen i tierrammer, mens klassen tæller højt: 10, 20, 30 … og de sidste enere. Det er dér, overslaget bliver til talforståelse. At vurdere antal er en af de allerførste matematiske færdigheder i Fælles Mål for børnehaveklassen, og den vokser bedst, når den bliver øvet i det samme rolige ritual hver uge."
+    ],
+    "howToUse": [
+      "Vælg fyld til glasset – kirsebær, stjerner, agern – og sæt antallet. Tallet står kun på din skærm.",
+      "Vis glasset frem for klassen, og lad børnene kigge lidt, før nogen siger noget.",
+      "Lad dem komme op ét ad gangen og trykke på tallinjen. Buddet lander som en grå prik – uden navn.",
+      "Tøm glasset. Tingene kommer ud ti ad gangen i tierrammer, mens I tæller højt sammen.",
+      "Slut af med at kigge på alle de prikker, der landede lige i nærheden af tallet – og sæt et nyt glas op til næste uge."
+    ],
+    "classroomIdeas": [
+      "Kør det samme ritual hver mandag i en periode, og lad børnene mærke, hvordan buddene efterhånden samler sig mere og mere.",
+      "Giv klassen et anker først: vis et glas med 10 ting, tøm det, og fyld så det rigtige glas. Så har børnene noget at vurdere ud fra.",
+      "Skriv klassens mindste og største bud op som et interval: „Vi tror, der er mellem 12 og 40“ – og se bagefter, om tallet landede indenfor.",
+      "Lad et barn fylde glasset sammen med dig, så ejerskabet flytter rundt i klassen hen over året."
+    ],
+    "metaTitle": "Overslagsglasset – overslag og antal i indskolingen",
+    "metaDescription": "Fyld glasset, lad børnene sætte deres bud på tallinjen, og tæl så op i tiere sammen. Et anonymt fælles overslag til morgensamlingen. Gratis at bruge."
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

@@ -626,6 +626,31 @@
       "Staffetta dei recinti: due squadre a turno smistano un’immagine nel recinto da 2, 3 o 4 sillabe, ma solo dopo aver battuto le mani insieme; se la classe non è d’accordo si ribatte la parola tutti insieme."
     ]
   },
+  "estimation-jar": {
+    "slug": "quanti-nel-barattolo",
+    "name": "Quanti nel barattolo?",
+    "tagline": "Si stima a colpo d’occhio, poi si conta insieme a dieci a dieci.",
+    "about": [
+      "Ogni classe conosce questo momento: un barattolo pieno arriva sul tavolo dell’accoglienza e nessuno riesce a contare quello che c’è dentro. Gli oggetti sono ammucchiati apposta, uno sopra l’altro, perché la domanda non è «chi sa contarli» ma «secondo voi quanti sono?». I bambini vengono alla LIM a turno e toccano la linea dei numeri nel punto che sentono giusto per la loro idea.",
+      "Ogni stima si posa sulla linea come un puntino grigio: senza nome, senza ordine di arrivo, senza nessuno che tenga il conto di chi ha già parlato. Chi si sente lontano dal numero degli altri può mettere il suo puntino con la stessa serenità, perché qui non si gareggia: non c’è una classifica, non c’è un premio, nessuno viene indicato alla fine. Alla chiusura si guarda la nuvola di puntini tutta insieme.",
+      "Poi il barattolo si svuota, e non a caso: gli oggetti escono dieci alla volta e si posano nelle caselle da dieci, mentre la classe conta ad alta voce — dieci, venti, trenta — fino ai pezzi che avanzano. È il raggruppamento in decine che le Indicazioni nazionali chiedono nel primo ciclo, vissuto con le mani e con la voce prima che sul quaderno. Il barattolo di partenza è gratuito per sempre, fino a trenta oggetti; con Premium arrivano i contenuti di stagione e i barattoli fino a duecento. Funziona nel browser su LIM, tablet e computer, senza registrazione, senza punteggi e senza timer."
+    ],
+    "howToUse": [
+      "Prima che entrino i bambini, scegliete che cosa mettere nel barattolo — ciliegie, stelle, ghiande — e impostate quanti metterne: quel numero lo vedete solo voi.",
+      "Toccate «Riempilo» e proiettate: gli oggetti cadono ammucchiati, deliberatamente impossibili da contare a uno a uno.",
+      "I bambini vengono alla lavagna a turno e toccano la linea dei numeri dove sta la loro stima. Ogni tocco lascia un puntino grigio: nessun nome, nessun ordine.",
+      "Quando tutti hanno messo il loro puntino, toccate «Svuota il barattolo»: gli oggetti escono dieci alla volta nelle caselle da dieci e la classe conta insieme ad alta voce.",
+      "Il numero vero si posa sulla linea in mezzo ai puntini. Chiudete con una frase sola: guardate quante delle nostre stime erano lì intorno."
+    ],
+    "classroomIdeas": [
+      "Il barattolo del lunedì: uno nuovo ogni settimana, sempre alla stessa ora dell’accoglienza. Diventa il rito che apre la mattina e i bambini lo aspettano.",
+      "Barattoli di stagione: castagne e ghiande in autunno, cuori a febbraio, ovetti in primavera. Il contenuto cambia, il rito resta lo stesso.",
+      "Due barattoli a confronto: gli stessi oggetti in un barattolo alto e stretto e in uno basso e largo. La classe scopre che l’occhio si lascia ingannare dalla forma, non solo dalla quantità.",
+      "In prima e in seconda, dopo lo svuotamento chiedete: «quante caselle piene da dieci abbiamo riempito e quanti pezzi sono avanzati?». La conta diventa subito scrittura del numero sul quaderno."
+    ],
+    "metaTitle": "Quanti nel barattolo? Stima di quantità in classe",
+    "metaDescription": "Il barattolo delle stime per l’accoglienza: i bambini toccano la linea dei numeri, poi si svuota dieci alla volta e si conta insieme. Gratis, senza login."
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

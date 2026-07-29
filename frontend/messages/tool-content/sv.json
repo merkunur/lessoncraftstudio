@@ -626,6 +626,31 @@
       "Två vid samma skärm: ett barn säger ordet och klappar, det andra trycker på trumman, sedan byter de – och båda bygger ihop ordet av korten."
     ]
   },
+  "estimation-jar": {
+    "slug": "uppskattningsburken",
+    "name": "Uppskattningsburken",
+    "tagline": "Hur många är det i burken? Alla tror, ingen jämförs.",
+    "about": [
+      "Uppskattningsburken är den där burken som står framme på lärarbordet hela veckan – full av något som är precis för många för att kunna räknas med ögat. Du fyller den i hemlighet: väljer innehåll och skriver in antalet, och talet syns bara på din skärm. Sedan är det klassens tur. Barnen kommer fram ett i taget och trycker på tallinjen där de tror att svaret ligger, och varje tryck blir en grå prick. Ingen prick har ett namn, ingen står i tur, ingen ser vem som tryckte var – att våga sätta dit en prick ska inte kosta något.",
+      "Det är tömningen som gör burken till matematik. När alla har fått trycka häller du ut den, och innehållet flyttar sig tio i taget in i tioramar medan klassen räknar högt tillsammans: tio, tjugo, trettio … och så de sista lösa. Barnen ser med egna ögon att ett stort antal blir hanterbart om man buntar ihop det, och till sist landar det riktiga talet på tallinjen mitt bland prickarna.",
+      "Och där slutar det. Inget avstånd mäts, ingen ställs mot någon annan – bara en klass som tillsammans hamnade i rätt trakt. Uppskattning och rimlighetsbedömning hör hemma i det centrala innehållet för matematik i årskurs 1–3 i Lgr22, och det viktigaste barnen tar med sig är att en uppskattning aldrig kan vara fel: den är ett tänk man vågade visa. Startburken med upp till 30 föremål är alltid gratis."
+    ],
+    "howToUse": [
+      "Fyll burken medan barnen tittar bort: välj innehåll och skriv in antalet. Talet syns bara på din skärm – klassen ser bara en full burk.",
+      "Låt barnen komma fram ett i taget och trycka på tallinjen där de tror att svaret ligger. Varje tryck blir en anonym grå prick, och Ta bort den sista pricken finns om någon råkar trycka fel.",
+      "Prata om prickarna innan ni tömmer: var på linjen har de flesta hamnat, och vad är det i burken som gör att man tror så?",
+      "Töm burken. Innehållet flyttar sig tio i taget in i tioramar – räkna högt tillsammans: tio, tjugo, trettio … och sedan de lösa.",
+      "Se var det riktiga talet landar bland prickarna, säg en varm mening om hur nära klassen kom tillsammans, och ställ fram en ny burk till nästa vecka."
+    ],
+    "classroomIdeas": [
+      "Veckans burk: fyll den på måndagen och låt den stå framme på tavlan hela veckan. Barnen får titta men inte trycka förrän på fredagen, då ni tömmer den tillsammans under samlingen.",
+      "Två burkar samma vecka: fyll den andra med samma antal men mycket mindre föremål. Klassen upptäcker att det är storleken, inte antalet, som lurar ögat – och det samtalet är hela poängen.",
+      "Stanna kvar i tioramarna efter tömningen: hur många hela tior blev det, och hur många lösa? Ett naturligt steg vidare för dem som är redo i årskurs 1.",
+      "Låt barnen fylla burken: ett barn i taget får i hemlighet räkna upp föremålen och ställa in talet medan resten blundar – att hålla på ett tal är minst lika roligt som att tro på ett."
+    ],
+    "metaTitle": "Uppskattningsburken – gratis verktyg för samlingen",
+    "metaDescription": "Hur många är det i burken? Barnen trycker anonymt på tallinjen, sedan töms burken tio i taget och klassen räknar högt. Gratis för förskoleklass och åk 1–3."
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

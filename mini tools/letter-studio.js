@@ -961,6 +961,15 @@ function injectLetterStudioCSS() {
     + '.ls-card{box-shadow:none;border:1.5pt solid #666;page-break-inside:avoid;break-inside:avoid;}'
     + '.ls-ink{display:none !important;}'
     + '.ls-guide{stroke:rgba(0,0,0,.35);}'
+    /* The screen tones are tuned to sit UNDER a bright backdrop; on paper the
+       same alphas come out nearly blank, which would print the letter dark
+       grey on a sheet with no visible ruling — losing the one thing this
+       printable is for. Darken the rules the way the guide is darkened, and
+       keep the tint band light enough not to drink a cartridge. */
+    + '.ls-rule-faint{stroke:rgba(0,0,0,.22);}'
+    + '.ls-rule-mid{stroke:rgba(0,0,0,.32);}'
+    + '.ls-rule-strong{stroke:rgba(0,0,0,.55);}'
+    + '.ls-band{fill:rgba(0,0,0,.045);}'
     + '}';
   document.head.appendChild(st);
 }

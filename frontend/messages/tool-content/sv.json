@@ -651,6 +651,31 @@
     "metaTitle": "Uppskattningsburken – gratis verktyg för samlingen",
     "metaDescription": "Hur många är det i burken? Barnen trycker anonymt på tallinjen, sedan töms burken tio i taget och klassen räknar högt. Gratis för förskoleklass och åk 1–3."
   },
+  "feelings-check-in": {
+    "slug": "kanslokoll",
+    "name": "Känslokoll",
+    "tagline": "Vilket väder har du idag? En lugn känslostund vid dagens start",
+    "about": [
+      "Känslokoll är en varm väderbild av hur barnen mår just nu. Barnet trycker på det väder som stämmer — lugn, glad, ledsen, arg eller trött — och möts av några vänliga ord som tar emot känslan precis som den är. Ingenting rättas, ingenting jämförs och ingen känsla är bättre än någon annan.",
+      "Att sätta ord på hur man känner sig är en av de första sakerna ett barn behöver kunna för att kunna vara med i en grupp. Lpfö 18 lyfter barnets förmåga att uttrycka och förstå sina egna och andras känslor, och Lgr22 skriver in samma arbete i skolans uppdrag att främja elevernas trygghet och sociala förmåga. Den här tavlan ger det en fast plats i dagen, varje morgon, utan att det blir en lektion.",
+      "Efter varje svar öppnas en liten meny med saker som skulle kunna hjälpa: dricka lite vatten, gå till lugna hörnan, ta tre lugna andetag eller berätta för en vuxen. Barnet får välja ett — eller inget alls. Allt stannar på den enhet ni använder, allt nollställs över natten och ingenting om ett enskilt barn sparas eller skickas vidare."
+    ],
+    "howToUse": [
+      "Öppna tavlan på den interaktiva skrivtavlan eller lägg en surfplatta vid dörren, så att barnen kan svara medan de kommer in på morgonen.",
+      "I läget Bara jag trycker barnet på det väder som stämmer, lyssnar på svaret och kan sedan välja något ur menyn Vad kan hjälpa.",
+      "Vill ni följa hela gruppen väljer ni Vår klass: barnet trycker först på sitt namn och sedan på sitt väder. Klasslistan är samma som i Namnpinnar, så ni skriver in namnen en enda gång.",
+      "Under samlingen läser ni klassvädret tillsammans — I vår klass är det mest soligt idag, med lite regn — som en bild av gruppen, aldrig som en lista över vem som kände vad.",
+      "Låt tavlan stå kvar under dagen. Ett barn som ändrar sig får trycka Ändra mitt svar, och över natten tömmer tavlan sig själv inför morgondagen."
+    ],
+    "classroomIdeas": [
+      "Morgonsamling: läs klassvädret högt och låt barnen välja en gemensam sak som skulle kunna hjälpa gruppen just idag, till exempel tre lugna andetag innan ni börjar.",
+      "Efter rasten: en kort ny koll när gruppen är uppvarvad ger er ett tyst sätt att märka vem som behöver lugna hörnan innan nästa pass.",
+      "Känsloord i språkarbetet: para ihop tavlan med bildstöd och låt barnen berätta om ett tillfälle då de kände sig lugna, ledsna eller arga — orden växer när de får hängas upp på egna minnen.",
+      "Trygghetsarbete: använd klassvädret över en vecka som underlag i arbetslaget för hur gruppen mår, utan att någonsin peka ut ett enskilt barn."
+    ],
+    "metaTitle": "Känslokoll – gratis känslotavla för förskola och åk 1-2",
+    "metaDescription": "En gratis känslotavla för klassrummet. Barnen visar vilket väder de har idag och möts av lugna ord — inget sparas över natten, inget skickas vidare."
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

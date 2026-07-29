@@ -629,6 +629,31 @@
     "metaTitle": "Arviopurkki – lukumäärän arviointi aamupiirissä",
     "metaDescription": "Arviopurkki on aamupiirin arviohetki: opettaja täyttää purkin salaa, luokka arvioi lukumäärää lukusuoralla ja sisältö lasketaan yhdessä kymmenittäin."
   },
+  "feelings-check-in": {
+    "slug": "tunnesaa",
+    "name": "Tunnesää",
+    "tagline": "Millainen sää sinulla on tänään? Lempeä tunnehetki aamuun",
+    "about": [
+      "Tunnesää on aamun rauhallinen aloitus: taululla odottaa viisi kasvoa – rauhallinen, iloinen, surullinen, vihainen ja väsynyt – ja lapsi napauttaa sitä, joka tuntuu tänään omalta. Vastaukseksi hän saa lyhyen, lämpimän lauseen, joka ottaa tunteen vastaan sellaisenaan. Mitään tunnetta ei korjata, käännetä paremmaksi eikä kehuta oikeaksi valinnaksi: surullinen ja vihainen ovat taululla yhtä tervetulleita kuin iloinen. Juuri se tekee taulusta turvallisen – lapsi oppii, että oman olon saa sanoa ääneen ilman että siitä seuraa arvio.",
+      "Tunteen jälkeen avautuu pieni Mikä voisi auttaa? -valikko: lasillinen vettä, rauhallinen nurkkaus, kolme rauhallista hengitystä tai kertominen aikuiselle. Valikko on aina ilmainen, ja sen saa myös ohittaa – mikään näistä ei ole tehtävä eikä suoritus. Työkalussa ei ole pisteitä, ajastimia, tähtiä eikä minkäänlaista lasten vertailua, sillä tunteista ei kilpailla. OPS 2014:n tunnetaidot ja itsestä huolehtimisen taidot karttuvat juuri tällaisissa toistuvissa, kiireettömissä hetkissä, joissa oman olon nimeäminen on tavallista ja turvallista.",
+      "Meidän luokka -tilassa lapsi napauttaa ensin oman nimensä Nimitikuista tutusta luokkalistasta ja sitten säänsä. Opettaja näkee yhdellä silmäyksellä, ketkä ovat jo kertoneet kuulumisensa ja millainen luokan yhteinen sää tänään on: ”Luokassamme on tänään enimmäkseen aurinkoista ja vähän sadetta.” Yhteenveto puhuu aina luokasta, ei koskaan yksittäisestä lapsesta. Nimet pysyvät vain sinun laitteellasi, taulu tyhjenee itsestään joka yö, eikä yhdestäkään lapsesta jää mitään historiaa – tunteista ei kerry seurantaa, tilastoa eikä trendiä."
+    ],
+    "howToUse": [
+      "Heijasta taulu näkyville aamupiirin ajaksi ja kysy: millainen sää sinulla on tänään? Lapsi napauttaa yhtä viidestä kasvosta.",
+      "Taulu vastaa lämpimällä lauseella ja lukee sen halutessasi ääneen – ääneen lukemisen voit kytkeä päälle tai pois asetuksista.",
+      "Avaa Mikä voisi auttaa? -valikko yhdessä lapsen kanssa ja muistuta, että sen saa myös ohittaa: mikään vaihtoehdoista ei ole pakko.",
+      "Vaihda Meidän luokka -tilaan, jos haluat lasten kertovan kuulumisensa omalla nimellään – luokkalista tulee suoraan Nimitikuista, joten sitä ei tarvitse kirjoittaa uudelleen.",
+      "Vilkaise päivän aikana Luokkamme sää -yhteenvetoa: se kertoo, millainen tunnelma ryhmässä on, nostamatta esiin kenenkään yksittäistä valintaa."
+    ],
+    "classroomIdeas": [
+      "Aamun sisääntulo: taulu odottaa oven vieressä tabletilla, ja jokainen napauttaa säänsä takin riisumisen jälkeen – päivä alkaa siitä, että olo on saanut nimen.",
+      "Tunnesanasto tutuksi: sanokaa valittu tunne yhdessä ääneen ja keksikää sille toinen sana (kiukkuinen, harmissaan, pirteä) – sanavarasto karttuu huomaamatta.",
+      "Sää kuvana: piirtäkää luokan sää päivän päätteeksi taululle sääsymbolein ja jutelkaa siitä, että samaan luokkaan mahtuu monta säätä yhtä aikaa.",
+      "Väsyneiden aamujen tunnistaminen: kun luokassa on paljon lunta ja pilviä, valitkaa yhdessä rauhallisempi aloitus – kolme hengitystä tai hiljainen lukuhetki ennen ensimmäistä tehtävää."
+    ],
+    "metaTitle": "Tunnesää – tunnetaidot ja aamupiiri | LessonCraftStudio",
+    "metaDescription": "Ilmainen tunnetaulu aamupiiriin: lapsi napauttaa oman säänsä ja saa lempeän vastauksen. Ei arvostelua eikä pisteitä – mikään ei tallennu yön yli."
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

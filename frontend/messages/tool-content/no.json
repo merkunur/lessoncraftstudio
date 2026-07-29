@@ -651,6 +651,31 @@
     "metaTitle": "Overslagsglasset – verktøy for morgensamlingen",
     "metaDescription": "Fyll glasset med et hemmelig antall, la barna gjøre overslag på tallinja, og tøm det ti og ti i tierrammer. Gratis verktøy for barnehage og 1.–2. trinn."
   },
+  "feelings-check-in": {
+    "slug": "folelsessjekk",
+    "name": "Følelsessjekk",
+    "tagline": "Hvilket vær har du i dag? En rolig innsjekk for følelser",
+    "about": [
+      "Følelsessjekk er morgenens innsjekk gjort så enkel at en femåring klarer den alene: «Hvilket vær har du i dag?» På skjermen står fem vær side om side — sol, skyer, regn, snø og torden — og under hvert sitt ord: rolig, glad, lei seg, sint og trøtt. Barnet trykker på det som passer, og får et vennlig svar tilbake, gjerne lest høyt med en varm stemme: «Takk for at du sier fra. Her er det lov å være lei seg.» Svaret godtar følelsen som den er. Det retter den ikke, trøster den ikke bort og roser ingen for å ha valgt riktig — for her finnes det ikke noe riktig svar. Sint og lei seg er like velkomne på tavla som glad, og ingen barn blir sammenlignet med noen andre.",
+      "Etter valget dukker «Hva kan hjelpe?» opp med fire rolige forslag barna kjenner igjen fra hverdagen: litt vann, den rolige kroken, tre rolige pust, eller å si det til en voksen. Barnet kan velge ett — eller ingen. Det står med rene ord på skjermen at ingenting her er en oppgave, for omsorg som må gjøres, slutter å være omsorg. Denne delen er alltid gratis. Værmetaforen gjør det lettere å sette ord på det som er vanskelig: et barn som ikke vil si «jeg er sint», peker gjerne på tordenskyen i stedet. Slik øver klassen på det læreplanen kaller livsmestring — å kjenne igjen egne følelser og finne ord for dem — uten at det blir en egen time i det.",
+      "Med Premium henter tavla klasselista rett fra Navnepinner: barnet trykker først på navnet sitt, så på været sitt, og du ser med ett blikk hvem som har sjekket inn i dag og hvem som ikke har det ennå. Øverst står klassens vær som én rolig setning — «Klassen vår er mest solrik i dag, med litt regn» — uten poeng, uten rangering og uten at noe barn henges ut. Personvernet er enkelt og ekte: alt blir værende på denne enheten, tavla tømmer seg selv hver natt, og ingenting om et barn lagres over natten eller sendes noe sted. Verktøyet kjører rett i nettleseren på klasseromsskjerm og nettbrett, uten innlogging og uten installasjon."
+    ],
+    "howToUse": [
+      "Sett tavla opp på storskjermen når barna kommer inn, og les spørsmålet høyt: «Hvilket vær har du i dag?»",
+      "La barnet trykke på været som passer — sol, skyer, regn, snø eller torden. Det vennlige svaret kommer med en gang, og kan leses høyt.",
+      "Er noe tungt, tilbyr tavla «Hva kan hjelpe?»: litt vann, den rolige kroken, tre rolige pust eller å si det til en voksen. Barnet kan velge ett, eller ingen.",
+      "Med Premium: hent klassen fra Navnepinner, så trykker barnet først på navnet sitt og deretter på været sitt.",
+      "Les klassens vær øverst på tavla når alle har sjekket inn — én setning som forteller deg hvordan dagen starter."
+    ],
+    "classroomIdeas": [
+      "Morgensamling: la tavla stå åpen mens barna henger av seg — hver enkelt sjekker inn i sitt eget tempo, uten å måtte si noe høyt foran hele gruppa.",
+      "Ord for følelser: ta ett vær om dagen og snakk om når det kjennes sånn — «Hva gjør regnet med kroppen din?» Slik vokser følelsesordene før barna trenger dem for alvor.",
+      "Etter friminuttet: en rask innsjekk når klassen kommer inn igjen forteller deg om noe skjedde ute, lenge før det kommer fram som en konflikt.",
+      "Vikar i rommet: den voksne leser klassens vær øverst på tavla og vet på ti sekunder om dagen bør starte rolig — uten å måtte spørre om noen."
+    ],
+    "metaTitle": "Følelsessjekk – gratis følelsestavle | LessonCraftStudio",
+    "metaDescription": "Gratis følelsestavle for klasserommet: barna trykker på været sitt, får et vennlig svar, og du ser hvordan klassen har det – uten innlogging."
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

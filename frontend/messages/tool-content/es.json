@@ -651,6 +651,31 @@
     "metaTitle": "Frasco de estimar: estimación de cantidades | 1º y 2º",
     "metaDescription": "Rutina semanal de estimación para preescolar y primaria: llena el frasco, el grupo marca sus ideas en la línea y al final se vacía de diez en diez."
   },
+  "feelings-check-in": {
+    "slug": "tablero-de-emociones",
+    "name": "Tablero de emociones",
+    "tagline": "El pase de lista de las emociones: ¿cómo está tu clima hoy?",
+    "about": [
+      "El Tablero de emociones es el pase de lista socioemocional de tu salón, para proyectar en el pizarrón al empezar la jornada. En lugar de preguntar «¿cómo amanecieron?» al aire, el tablero lo pregunta con una imagen que todos entienden: ¿cómo está el clima hoy dentro de ti? Cinco personajes esperan en la pantalla — calma, alegría, tristeza, enojo y cansancio — y cada niña y cada niño toca el que va con lo que siente. El personaje contesta en voz alta con una frase amable, dicha con el tono con el que una maestra recibe a un niño en la puerta.",
+      "Aquí ninguna emoción está bien ni mal, y nadie compite. El tablero no califica lo que siente un niño, no reparte estrellas, no lleva marcador y jamás compara a un niño con otro: la tristeza y el enojo reciben exactamente la misma bienvenida que la alegría. Las respuestas nunca intentan componer lo que el niño siente ni animarlo a la fuerza; solo lo acompañan. Enseguida aparece un menú pequeño, «¿Qué podría ayudar?» — tomar un poco de agua, el rincón de la calma, respirar hondo tres veces o contarle a una persona adulta — y elegir es opcional: nada de eso es tarea. Esa parte es gratuita y siempre lo será.",
+      "Con Premium, el tablero lee la misma lista que ya armaste en Palitos con nombre: cada quien toca su nombre antes de elegir, así ves de un vistazo quiénes ya pasaron y cómo viene el grupo. Arriba aparece el clima del salón — «Hoy nuestra clase está en su mayoría soleada, con un poco de lluvia» — una lectura del ánimo colectivo que nunca señala a nadie en particular. Todo ocurre en tu dispositivo: no se guarda historial de ningún niño ni de ninguna niña, el tablero se borra solo cada noche y nada se envía a ninguna parte. Es un apoyo directo para el trabajo de educación socioemocional que piden los planes de estudio, dentro del campo formativo De lo humano y lo comunitario."
+    ],
+    "howToUse": [
+      "Proyecta el tablero al iniciar la jornada y lee la pregunta con el grupo: «¿Cómo está el clima hoy dentro de ti?». Presenta a los cinco personajes por su nombre: calma, alegría, tristeza, enojo y cansancio.",
+      "Deja que cada quien pase y toque el que va con lo que siente. El personaje responde en voz alta; si prefieres un momento en silencio, apaga «Leer las respuestas en voz alta» en los ajustes.",
+      "Cuando aparezca «¿Qué podría ayudar?», recuérdales que pueden elegir una cosa o ninguna. Ten listo de verdad el rincón de la calma y el agua, para que la opción signifique algo.",
+      "Con Premium, cambia a «Nuestra clase» y el tablero abrirá la lista de Palitos con nombre: cada niña y cada niño toca su nombre y luego su emoción, y tú ves cuántos ya respondieron.",
+      "Al cerrar el pase de lista, lee en voz alta el clima del salón y comentálo con una sola frase. No hace falta guardar nada: mañana el tablero amanece en blanco."
+    ],
+    "classroomIdeas": [
+      "Rutina de entrada: colócalo junto a Nuestro día, en el mismo pizarrón. Pasar por el tablero al llegar se vuelve parte de guardar la mochila, sin que tú tengas que pedirlo.",
+      "Lenguaje emocional: aprovecha el clima del salón para ampliar vocabulario — «hoy hay un poco de lluvia» — y pide al grupo otras palabras para ese mismo clima. Es conversación, no diagnóstico.",
+      "Después del recreo o antes de una actividad exigente: úsalo una segunda vez en el día. Si el salón viene con tormenta, ajusta el plan — empiecen respirando o muévanse un poco — y díselo al grupo con naturalidad.",
+      "Modelar con el ejemplo: pasa tú también por el tablero frente al grupo y algún día elige cansancio o enojo. Ver a su maestra nombrar lo que siente, sin drama, le da permiso al grupo de hacer lo mismo."
+    ],
+    "metaTitle": "Tablero de emociones gratis para preescolar y primaria",
+    "metaDescription": "Un tablero de emociones para proyectar en tu salón: cada niña y cada niño toca cómo se siente hoy y recibe una respuesta amable. Nada se guarda ni se envía."
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

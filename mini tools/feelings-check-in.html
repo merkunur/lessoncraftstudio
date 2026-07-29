@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Feelings Check-In — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=18">
+</head>
+<body>
+  <!-- The shell mounts the whole tool into this element. -->
+  <div id="lcs-root"></div>
+
+  <!-- Shell first, then this tool. Absolute /mini-tools/ paths so embeds +
+       cross-context loads resolve identically. There is no data file: the
+       five feelings are code-drawn and the roster is READ (never written)
+       from the shared lcs:my-classes:v1 store that Name Sticks owns. -->
+  <script src="/mini-tools/lcs-shell.js?v=3"></script>
+  <script src="/mini-tools/feelings-check-in.js?v=1"></script>
+  <script>
+    // URL params the shell understands:
+    //   ?lang=de  ?lang=fi  (any of: en de fr it es pt nl sv da no fi)
+    //   ?embed=1        — trim chrome for iframe embedding
+    //   ?embed=compact  — also drop the title, for tightly-cropped iframes
+    // Tool-specific deep links: ?mode=roster&class=<classId>
+    //   ?mode=roster is REFUSED for a free visitor — it is never applied
+    //   optimistically while entitlement is still in flight, so a roster
+    //   name cannot flash into the DOM during the race.
+    LCS.mount(FeelingsCheckIn, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

@@ -651,6 +651,31 @@
     "metaTitle": "Vidro das estimativas grátis | LessonCraftStudio",
     "metaDescription": "Vidro das estimativas grátis para a rodinha: cada criança marca o palpite na linha, sem nome e sem placar, e o vidro é despejado de dez em dez. Sem login."
   },
+  "feelings-check-in": {
+    "slug": "quadro-das-emocoes",
+    "name": "Quadro das emoções",
+    "tagline": "Todo sentimento cabe na rodinha — e ninguém é comparado",
+    "about": [
+      "A rodinha da manhã começa sempre com a mesma pergunta: que tempo faz dentro de você hoje? No quadro, cinco carinhas esperam a criança — calmo, feliz, triste, com raiva, cansado — e cada uma tem o seu tempo lá no céu: sol, nuvem, chuva, neve, trovoada. A criança toca na que combina com ela e ouve, em voz alta, uma resposta acolhedora: 'Que bom que você contou. Aqui a gente pode ficar triste.' Nada é corrigido, nada é elogiado, nada vira nota. Triste e com raiva são recebidos exatamente com a mesma delicadeza que feliz — porque a criança que chega brava também precisa de um lugar para chegar.",
+      "Depois da resposta aparece o cantinho do 'o que pode ajudar?': beber um pouco de água, o cantinho da calma, três respirações lentas, contar para um adulto. A criança pode escolher um, ou nenhum — está escrito na tela que nada ali é obrigação. Esse pedaço é grátis para sempre, porque o cuidado nunca fica atrás de uma porta. E não existe nenhum ponto, cronômetro, sequência de dias nem medalha: sentimento não se pontua, e ninguém vai descobrir quem foi 'o mais feliz da turma'. Um quadro de emoções que compara crianças deixa de ser acolhimento e vira ranking — aqui isso é impossível por construção.",
+      "No modo Nossa turma, cada criança toca no próprio nome antes da carinha, e a lista vem direto de Palitos de nomes — a mesma turma que você já usa na chamada, sem digitar nada de novo. A professora vê então uma única frase, do jeito que se conta o tempo: 'Hoje a nossa turma está principalmente ensolarada, com um pouco de chuva.' É o clima do grupo, nunca a ficha de ninguém: o quadro não mostra quem respondeu o quê. Esse acolhimento diário conversa direto com a competência 8 da BNCC — conhecer-se, nomear as próprias emoções e cuidar de si —, que na educação infantil e nos anos iniciais se constrói assim, em rotina curta e repetida. E a promessa que sustenta tudo: os nomes e as respostas ficam somente neste aparelho, nunca são enviados a lugar nenhum, e o quadro se apaga sozinho toda noite."
+    ],
+    "howToUse": [
+      "Projete na lousa digital antes da entrada e deixe o quadro aberto: as crianças tocam na sua carinha à medida que chegam e guardam a mochila.",
+      "Mantenha o som ligado — a resposta falada é o coração do quadro, e a criança que ainda não lê ouve que foi recebida.",
+      "Depois da carinha, deixe a criança olhar o 'o que pode ajudar?' sozinha: se ela não escolher nada, está tudo certo, e ninguém pergunta por quê.",
+      "Para usar com os nomes, crie a turma uma vez em Palitos de nomes — este quadro lê a mesma lista e mostra o tempo da turma no fim da chamada.",
+      "Leia a frase do tempo da turma em voz alta e siga o dia: em manhã de chuva, comece mais devagar e volte ao quadro depois do recreio."
+    ],
+    "classroomIdeas": [
+      "Rodinha da manhã: cada criança toca na carinha e, quem quiser, conta em uma frase por que aquele tempo — quem não quiser contar só passa a vez.",
+      "Cantinho da calma de verdade: combine com a turma que quem tocar em 'com raiva' pode ir direto para as almofadas e voltar quando estiver pronto.",
+      "Volta do recreio: abra o quadro de novo e compare o tempo da manhã com o da tarde — a turma percebe, sem culpa, que sentimento muda ao longo do dia.",
+      "Cartaz do tempo da turma: registre a frase do dia num mural de papel e, no fim da semana, observem juntos a semana inteira — sem contar quem sentiu o quê."
+    ],
+    "metaTitle": "Quadro das emoções da turma grátis | LessonCraftStudio",
+    "metaDescription": "Quadro das emoções para projetar: a criança toca em como está e ouve uma resposta acolhedora. No Premium, a chamada por nome mostra o tempo da turma."
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

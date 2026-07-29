@@ -652,6 +652,31 @@
     "metaTitle": "Schätzglas für den Morgenkreis – Schätzen in Klasse 1/2",
     "metaDescription": "Schätzglas fürs Whiteboard: Die Klasse schätzt, wie viele im Glas sind, tippt auf dem Zahlenstrahl und zählt beim Ausleeren in Zehnern mit. Ohne Anmeldung."
   },
+  "feelings-check-in": {
+    "slug": "gefuehlswetter",
+    "name": "Gefühlswetter",
+    "tagline": "Wie ist dein Wetter heute? Das Ankommens-Ritual für den Morgenkreis",
+    "about": [
+      "Das Gefühlswetter ist ein Ankommens-Ritual für den Morgenkreis. Auf der Tafel warten fünf Gesichter – ruhig, fröhlich, traurig, wütend und müde –, und jedes Kind tippt an, was heute passt. Die Figur antwortet mit einem kurzen, freundlichen Satz, der das Gefühl annimmt, statt es wegzureden. Danach öffnet sich eine kleine Auswahl: etwas Wasser trinken, in die Ruhe-Ecke gehen, dreimal langsam atmen oder einem Erwachsenen Bescheid sagen. Nichts davon muss ein Kind tun – die Auswahl ist ein Angebot, kein Auftrag.",
+      "Was dieses Werkzeug bewusst nicht tut, ist genauso wichtig: Traurig und wütend stehen gleichberechtigt neben fröhlich, und kein Satz versucht, ein Kind aufzuheitern oder ihm sein Gefühl auszureden. Es gibt keine Punkte, keine Uhr und keine Rangfolge – die Tafel hält nur fest, was gerade da ist. Gefühle wahrnehmen und benennen zu können, gehört in den Lehrplänen und Bildungsplänen der Grundschule zum sozialen Lernen und ist die Grundlage für Klassenrat und Streitschlichtung. Hier bekommt es fünf ruhige Minuten am Anfang des Tages.",
+      "Die Gefühlstafel ist dauerhaft kostenlos und ohne Anmeldung nutzbar, auch die Vorschläge, die helfen könnten. Premium öffnet den Modus mit Namen: Die Kinder tippen zuerst ihren eigenen Namen an, Sie sehen auf einen Blick, wer schon da war, und die Klasse bekommt ihren gemeinsamen Wetterbericht – heute vor allem sonnig, mit ein wenig Regen. Die Namen kommen aus den Namensstäbchen und bleiben ausschließlich auf diesem Gerät. Über Nacht wird nichts über ein Kind gespeichert: Jeder Morgen beginnt mit einer leeren Tafel, und das ist Absicht."
+    ],
+    "howToUse": [
+      "Die Tafel am Beamer oder Whiteboard öffnen, während die Kinder ankommen – fünf Gesichter, mehr braucht es nicht.",
+      "Jedes Kind tippt an, was heute passt. Die Figur antwortet kurz und freundlich; auf Wunsch wird die Antwort vorgelesen.",
+      "Danach erscheint die Auswahl „Was könnte helfen?“ – ein Kind darf sich eins aussuchen oder auch nichts. Nachfragen ist nicht nötig; wer erzählen möchte, tut es von selbst.",
+      "Mit Premium vorher in den Namensstäbchen die Klasse anlegen. Dann tippen die Kinder erst ihren Namen und danach ihr Gefühl an, und Sie sehen, wer schon da war.",
+      "Zum Abschluss gemeinsam auf das Klassenwetter schauen – ein Satz genügt, danach beginnt der Unterricht."
+    ],
+    "classroomIdeas": [
+      "Als festes Ankommens-Ritual jeden Morgen an derselben Stelle: Kinder, die morgens schwer in den Tag finden, bekommen so einen verlässlichen Anfang.",
+      "Das Klassenwetter neben das echte Wetter vor dem Fenster stellen – draußen Regen, drinnen viel Sonne. Ein schöner Sprechanlass im Sachunterricht.",
+      "Gefühlswörter erweitern: Die fünf Gesichter als Ausgangspunkt nehmen und gemeinsam sammeln, welche Wörter es noch gibt – aufgeregt, enttäuscht, stolz, erleichtert.",
+      "Vor dem Nachhausegehen ein zweites Mal öffnen: Wie ist mein Wetter jetzt? Die Kinder erleben dabei, dass Gefühle sich im Lauf eines Tages ändern dürfen."
+    ],
+    "metaTitle": "Gefühlswetter für den Morgenkreis – Gefühle Grundschule",
+    "metaDescription": "Gefühlswetter fürs Whiteboard: Jedes Kind tippt an, wie es sich heute fühlt, und die Klasse sieht ihr gemeinsames Wetter. Kostenlos, ohne Anmeldung."
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

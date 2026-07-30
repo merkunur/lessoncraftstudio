@@ -17,7 +17,7 @@ import { TOPIC_ENABLED_LOCALES } from '@/config/topic-locales';
 import { buildHreflangAlternates } from './hreflang';
 
 /** Canonical tool keys — match the mini-tool file basenames + MANIPULATIVES ids. */
-export const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler', 'sound-boxes', 'blending-board', 'letter-tiles', 'calendar-wall', 'number-talk-easel', 'rekenrek', 'class-timer', 'name-sticks', 'center-board', 'learning-clock', 'place-value-lab', 'picture-word-wall', 'hush-owl', 'wodb', 'story-line', 'fraction-kitchen', 'measurement-bench', 'money-mat', 'choral-counting', 'our-day', 'heart-words', 'syllable-splitter', 'estimation-jar', 'feelings-check-in', 'letter-studio', 'open-number-line', 'part-whole-frame', 'dictation-desk'] as const;
+export const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler', 'sound-boxes', 'blending-board', 'letter-tiles', 'calendar-wall', 'number-talk-easel', 'rekenrek', 'class-timer', 'name-sticks', 'center-board', 'learning-clock', 'place-value-lab', 'picture-word-wall', 'hush-owl', 'wodb', 'story-line', 'fraction-kitchen', 'measurement-bench', 'money-mat', 'choral-counting', 'our-day', 'heart-words', 'syllable-splitter', 'estimation-jar', 'feelings-check-in', 'letter-studio', 'open-number-line', 'part-whole-frame', 'dictation-desk', 'home-language-bridge'] as const;
 export type ToolKey = (typeof TOOL_KEYS)[number];
 
 /** Mini-tool HTML path (nginx-direct, §3.3) per tool key. */
@@ -53,6 +53,7 @@ export const TOOL_MINI_URL: Record<ToolKey, string> = {
   'open-number-line': '/mini-tools/open-number-line.html',
   'part-whole-frame': '/mini-tools/part-whole-frame.html',
   'dictation-desk': '/mini-tools/dictation-desk.html',
+  'home-language-bridge': '/mini-tools/home-language-bridge.html',
 };
 
 /**
@@ -96,6 +97,7 @@ export const TOOL_ACTIVITY_PREFIX: Record<ToolKey, string> = {
   'open-number-line': 'open-number-line',
   'part-whole-frame': 'part-whole-frame',
   'dictation-desk': 'dictation-desk',
+  'home-language-bridge': 'home-language-bridge',
 };
 
 export interface ToolEntry {
@@ -154,6 +156,7 @@ interface ToolContentFile {
   'open-number-line'?: ToolEntry;
   'part-whole-frame'?: ToolEntry;
   'dictation-desk'?: ToolEntry;
+  'home-language-bridge'?: ToolEntry;
   labels: ToolContentLabels;
 }
 

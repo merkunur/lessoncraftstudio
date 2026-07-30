@@ -776,6 +776,31 @@
     "metaTitle": "Il banco del dettato — dettato alla lavagna | Gratis",
     "metaDescription": "Dettato per la prima e la seconda: dici la parola, la classe la scrive sul foglio, poi si scopre un pezzo alla volta. Ognuno si corregge da sé. Niente voti."
   },
+  "home-language-bridge": {
+    "slug": "tavola-per-farsi-capire",
+    "name": "La tavola per farsi capire",
+    "tagline": "Un bambino senza parole tocca un’immagine, e la classe lo sente.",
+    "about": [
+      "La tavola dà voce a un bambino appena arrivato fin dalla prima mattina. Dodici immagini, dodici cose che un bambino di cinque anni ha davvero bisogno di poter dire — ho bisogno di aiuto, non capisco, devo andare in bagno, posso giocare anch’io — e un tocco le dice ad alta voce, nella lingua dell’aula. Non è insegnamento del lessico e non è una verifica: è un modo per farsi sentire prima di aver imparato una sola parola della lingua nuova.",
+      "Le immagini vengono prima, ed è una scelta, non uno stile. Un disegno si capisce qualunque lingua parli il bambino: la tavola serve quindi al bambino ucraino, arabo, turco o somalo che arriva a novembre in una classe italiana — è per lui che esiste. Se la lingua di casa è una delle nostre undici potete aggiungerla, e ogni carta porta allora due righe. È un valore in più, mai la premessa — e quando c’è, la lingua di casa sta per prima, della stessa dimensione e dello stesso colore, perché la lingua di un bambino non è quella più piccola.",
+      "Del bambino non si misura nulla. Nessun livello, nessun punteggio, nessuna barra di avanzamento, nessun conteggio delle parole imparate — ogni prodotto di questo settore ne mette uno, ed è proprio la parte dannosa. Tutta la tavola è gratuita e resta gratuita, perché la voce di un bambino non si vende. Non si salva niente e non si invia niente. Il piano Insegnante aggiunge solo il lato dell’adulto: una scheda da stampare per il banco o per il cordino, così le dodici frasi seguono il bambino dove lo schermo non c’è."
+    ],
+    "howToUse": [
+      "Aprila sullo schermo della classe, oppure dai un tablet al bambino. Le dodici immagini sono già lì — niente da impostare, niente da scegliere.",
+      "Il bambino tocca un’immagine. Il dispositivo dice la frase intera ad alta voce nella lingua della tua aula, con calma, così la classe sente la richiesta e non l’accento.",
+      "Se la lingua di casa è una delle undici, tocca una volta «Aggiungi la lingua del bambino». Ogni carta mostra allora entrambe le righe, prima quella di casa.",
+      "Lasciala aperta su un tablet accanto al suo banco nelle prime settimane. Funziona meglio quando nessuno deve chiederla.",
+      "Stampa la scheda (piano Insegnante) così le dodici frasi vanno in corridoio, in cortile e a casa."
+    ],
+    "classroomIdeas": [
+      "Mostra la tavola a tutta la classe la prima mattina e toccate due o tre carte insieme: diventa una cosa di tutti e non una cosa a parte.",
+      "Affida il tablet a un compagno per la prima settimana. Toccare una carta in due è la conversazione più semplice fra due bambini che non hanno nessuna lingua in comune.",
+      "Usala anche al contrario: tocca «Dove devo andare?» e indica — hai spiegato il corridoio senza una parola di lingua comune.",
+      "Metti la scheda stampata sul banco e una seconda nello zaino. Le frasi contano soprattutto dove lo schermo non arriva: il bagno, il cortile, l’uscita."
+    ],
+    "metaTitle": "Tavola per farsi capire — alunni neoarrivati | Strumento gratis",
+    "metaDescription": "Tavola di comunicazione per immagini per alunni neoarrivati nella scuola dell’infanzia e primaria: tocca un’immagine e la classe sente la frase. Senza valutazione."
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

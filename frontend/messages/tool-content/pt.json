@@ -776,6 +776,31 @@
     "metaTitle": "Carteira de ditado — ditado na lousa | Grátis",
     "metaDescription": "Ditado para o 1.º e 2.º ano: você diz a palavra, a turma escreve no papel e depois ela se descobre pedaço a pedaço. Cada um confere sozinho. Sem nota."
   },
+  "home-language-bridge": {
+    "slug": "quadro-para-falar",
+    "name": "Meu quadro para falar",
+    "tagline": "Uma criança sem palavras toca uma imagem, e a turma escuta.",
+    "about": [
+      "O quadro dá voz a uma criança recém-chegada já na primeira manhã. Doze imagens, doze coisas que uma criança de cinco anos realmente precisa conseguir dizer — preciso de ajuda, não entendi, preciso ir ao banheiro, posso brincar também — e um toque diz tudo em voz alta, na língua da sala. Não é ensino de vocabulário e não é avaliação: é um jeito de ser ouvida antes de ter aprendido uma única palavra da língua nova.",
+      "As imagens vêm primeiro, e isso é uma decisão, não um estilo. Um desenho é entendido por qualquer criança, seja qual for a língua dela: por isso o quadro serve para a criança ucraniana, árabe, turca ou somali que chega em novembro numa turma em português — é para ela que ele existe. Se a língua de casa for uma das nossas onze, você pode acrescentá-la e cada cartão passa a ter duas linhas. Isso é um extra, nunca a condição — e quando está lá, a língua de casa vem primeiro, do mesmo tamanho e da mesma cor, porque a língua de uma criança não é a menor.",
+      "Nada da criança é medido. Sem nível, sem pontuação, sem barra de progresso, sem contagem de palavras aprendidas — todo produto dessa área coloca uma, e é justamente essa a parte que faz mal. O quadro inteiro é gratuito e continua gratuito, porque a voz de uma criança não se vende. Nada é guardado e nada é enviado. O plano Professor acrescenta só o lado do adulto: um cartão para imprimir, para a carteira ou para o cordão, para que as doze frases acompanhem a criança onde não há tela."
+    ],
+    "howToUse": [
+      "Abra na tela da turma, ou entregue um tablet para a criança. As doze imagens já estão lá — nada para configurar, nada para escolher.",
+      "A criança toca uma imagem. O aparelho diz a frase inteira em voz alta na língua da sua sala, com calma, para que a turma ouça o pedido e não o sotaque.",
+      "Se a língua de casa for uma das onze, toque uma vez em «Adicionar a língua da criança». Cada cartão passa a mostrar as duas linhas, a de casa primeiro.",
+      "Deixe aberto num tablet ao lado da carteira dela nas primeiras semanas. Funciona melhor quando ninguém precisa pedir.",
+      "Imprima o cartão (plano Professor) para que as doze frases vão para o corredor, o pátio e a casa."
+    ],
+    "classroomIdeas": [
+      "Mostre o quadro para a turma toda na primeira manhã e toquem dois ou três cartões juntos: assim vira coisa de todo mundo e não coisa à parte.",
+      "Deixe um colega segurar o tablet na primeira semana. Tocar um cartão a dois é a conversa mais simples possível entre duas crianças que não têm nenhuma língua em comum.",
+      "Use também no sentido contrário: toque «Onde eu devo ir?» e aponte — o corredor está explicado sem uma palavra de língua comum.",
+      "Ponha o cartão impresso na carteira e outro na mochila. As frases importam mais onde não tem tela: o banheiro, o pátio, a saída."
+    ],
+    "metaTitle": "Quadro para falar — crianças recém-chegadas | Ferramenta grátis",
+    "metaDescription": "Quadro de comunicação por imagens para crianças recém-chegadas na educação infantil e anos iniciais: toque numa imagem e a turma ouve a frase. Sem avaliação."
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

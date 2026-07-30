@@ -777,6 +777,31 @@
     "metaTitle": "Diktat-Pult — Diktat an der Tafel | Kostenlos",
     "metaDescription": "Diktat für Klasse 1 und 2: Wort ansagen, die Klasse schreibt aufs Papier, dann deckt es sich Laut für Laut auf. Jedes Kind vergleicht selbst. Ohne Bewertung."
   },
+  "home-language-bridge": {
+    "slug": "sag-es-tafel",
+    "name": "Sag-es-Tafel",
+    "tagline": "Ein Kind ohne Worte tippt ein Bild an — und der Raum hört es.",
+    "about": [
+      "Die Sag-es-Tafel gibt einem neu angekommenen Kind am ersten Morgen eine Stimme. Zwölf Bilder, zwölf Dinge, die ein Fünfjähriger wirklich sagen können muss — ich brauche Hilfe, ich verstehe das nicht, ich muss auf die Toilette, darf ich mitspielen — und ein Tippen sagt es laut, in der Sprache des Klassenzimmers. Das ist kein Wortschatzunterricht und keine Prüfung. Es ist die Möglichkeit, gehört zu werden, bevor ein einziges Wort der neuen Sprache gelernt ist.",
+      "Die Bilder kommen zuerst, und das ist eine Entscheidung, kein Stil. Eine Zeichnung versteht jedes Kind, gleich welche Sprache es spricht. Deshalb funktioniert die Tafel auch für das ukrainische, arabische, türkische oder somalische Kind, das im November in eine deutsche Klasse kommt — für dieses Kind ist sie gemacht. Ist die Familiensprache eine unserer elf, können Sie sie hinzufügen; jede Karte trägt dann zwei Zeilen. Das ist ein Bonus, nie die Voraussetzung — und wenn sie da ist, steht die Familiensprache oben, in derselben Größe und Farbe, denn die eigene Sprache eines Kindes ist nicht die kleinere.",
+      "Über das Kind wird nichts gemessen. Kein Niveau, keine Punkte, kein Fortschrittsbalken, keine Zahl gelernter Wörter — jedes Produkt in diesem Bereich baut so etwas ein, und genau das ist der schädliche Teil. Die ganze Tafel ist und bleibt kostenlos, denn die Stimme eines Kindes verkauft man nicht. Nichts wird gespeichert, nichts wird gesendet. Das Lehrer-Paket ergänzt nur die Seite der Lehrkraft: eine Karte zum Ausdrucken für den Tisch oder das Band, damit die zwölf Sätze auch dort dabei sind, wo kein Bildschirm steht."
+    ],
+    "howToUse": [
+      "Öffnen Sie die Tafel am Klassenbildschirm oder geben Sie dem Kind ein Tablet. Die zwölf Bilder sind schon da — nichts einzurichten, nichts auszuwählen.",
+      "Das Kind tippt ein Bild an. Das Gerät sagt den ganzen Satz laut in der Sprache Ihres Klassenzimmers, ruhig, damit der Raum die Bitte hört und nicht den Akzent.",
+      "Ist die Familiensprache eine der elf, tippen Sie einmal auf „Sprache des Kindes hinzufügen“. Jede Karte zeigt dann beide Zeilen, die Familiensprache zuerst.",
+      "Lassen Sie die Tafel in den ersten Wochen auf einem Tablet neben dem Platz des Kindes offen. Sie wirkt am besten, wenn niemand erst danach fragen muss.",
+      "Drucken Sie die Karte (Lehrer-Paket), damit die zwölf Sätze mit auf den Flur, den Hof und nach Hause gehen."
+    ],
+    "classroomIdeas": [
+      "Zeigen Sie die Tafel am ersten Morgen der ganzen Klasse und tippen Sie zwei, drei Karten gemeinsam an. Dann ist sie etwas Gemeinsames und nichts Besonderes.",
+      "Geben Sie dem Kind für die erste Woche eine Partnerin oder einen Partner, die das Tablet halten. Gemeinsam eine Karte anzutippen ist das einfachste erste Gespräch zwischen zwei Kindern ohne gemeinsame Sprache.",
+      "Nutzen Sie die Tafel auch andersherum: Tippen Sie „Wo soll ich hingehen?“ an und zeigen Sie hin — schon ist der Weg erklärt, ganz ohne gemeinsame Sprache.",
+      "Legen Sie die gedruckte Karte auf den Tisch und eine zweite in die Schultasche. Am wichtigsten sind die Sätze dort, wo kein Bildschirm ist: Toilette, Pausenhof, Abholung."
+    ],
+    "metaTitle": "Sag-es-Tafel — die ersten Worte für neue Kinder | Kostenlos",
+    "metaDescription": "Kostenlose Bild-Kommunikationstafel für neu zugewanderte Kinder in der Grundschule: Bild antippen, die Klasse hört den Satz laut. Ohne Bewertung."
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

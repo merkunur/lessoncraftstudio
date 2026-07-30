@@ -754,6 +754,31 @@
     "metaTitle": "Sanelupulpetti — sanelu taululla | Maksuton",
     "metaDescription": "Sanelu 1.–2. luokalle: sanot sanan, luokka kirjoittaa sen paperille ja sitten se paljastuu tavu kerrallaan. Jokainen tarkistaa itse. Ei arvosanoja."
   },
+  "home-language-bridge": {
+    "slug": "sanomistaulu",
+    "name": "Sanomistaulu",
+    "tagline": "Lapsi, jolla ei vielä ole sanoja, napauttaa kuvaa — ja luokka kuulee.",
+    "about": [
+      "Sanomistaulu antaa juuri saapuneelle lapselle äänen heti ensimmäisenä aamuna. Kaksitoista kuvaa, kaksitoista asiaa jotka viisivuotiaan on todella pystyttävä sanomaan — tarvitsen apua, en ymmärrä, minun pitää päästä vessaan, saanko minäkin leikkiä — ja yksi napautus sanoo sen ääneen luokan kielellä. Tämä ei ole sanaston opettamista eikä arviointia: tämä on tapa tulla kuulluksi ennen kuin yhtäkään uuden kielen sanaa on opittu.",
+      "Kuvat tulevat ensin, ja se on päätös eikä tyyli. Piirroksen ymmärtää jokainen lapsi kielestä riippumatta. Siksi taulu toimii myös ukrainalaiselle, arabiankieliselle, turkkilaiselle tai somalialaiselle lapselle, joka tulee suomalaiseen luokkaan marraskuussa — juuri sitä lasta varten se on. Jos kotikieli on yksi meidän yhdestätoista, voit lisätä sen, ja jokaisessa kortissa on silloin kaksi riviä. Se on lisä, ei koskaan ehto — ja kun se on mukana, kotikieli tulee ensin, samankokoisena ja samanvärisenä, sillä lapsen oma kieli ei ole se pienempi.",
+      "Lapsesta ei mitata mitään. Ei tasoa, ei pisteitä, ei edistymispalkkia, ei laskuria opituista sanoista — jokainen tämän alan tuote lisää sellaisen, ja juuri se on se vahingollinen osa. Koko taulu on maksuton ja pysyy maksuttomana, sillä lapsen ääntä ei myydä. Mitään ei tallenneta eikä lähetetä. Opettaja-tilaus lisää vain aikuisen puolen: tulostettavan kortin pulpetille tai kaulanauhaan, jotta ne kaksitoista lausetta kulkevat mukana sielläkin, missä näyttöä ei ole."
+    ],
+    "howToUse": [
+      "Avaa se luokan näytölle tai anna lapselle tabletti. Kaksitoista kuvaa ovat jo valmiina — mitään ei tarvitse asettaa eikä valita.",
+      "Lapsi napauttaa kuvaa. Laite sanoo koko lauseen ääneen luokkasi kielellä, rauhallisesti, jotta luokka kuulee pyynnön eikä korostusta.",
+      "Jos lapsen kotikieli on yksi näistä yhdestätoista, napauta kerran ”Lisää lapsen kieli”. Jokaisessa kortissa näkyy silloin molemmat rivit, kotikieli ensin.",
+      "Pidä se ensimmäisinä viikkoina auki tabletilla lapsen pulpetin vieressä. Se auttaa eniten silloin, kun kenenkään ei tarvitse pyytää sitä.",
+      "Tulosta kortti (Opettaja-tilaus), niin ne kaksitoista lausetta kulkevat mukana käytävälle, pihalle ja kotiin."
+    ],
+    "classroomIdeas": [
+      "Näytä taulu koko luokalle ensimmäisenä aamuna ja napauttakaa yhdessä kahta tai kolmea korttia. Silloin se on kaikkien yhteinen eikä mikään erityisjärjestely.",
+      "Anna kaverin pitää tablettia ensimmäisen viikon. Kortin napauttaminen yhdessä on helpoin ensimmäinen keskustelu kahden lapsen välillä, joilla ei ole yhteistä kieltä.",
+      "Käytä sitä myös toisin päin: napauta ”Minne minun pitää mennä?” ja osoita — käytävä on selitetty ilman sanaakaan yhteistä kieltä.",
+      "Laita tulostettu kortti pulpetille ja toinen reppuun. Lauseita tarvitaan eniten siellä, missä näyttöä ei ole: vessassa, pihalla, hakutilanteessa."
+    ],
+    "metaTitle": "Sanomistaulu — ensimmäiset sanat vasta saapuneelle | Maksuton",
+    "metaDescription": "Maksuton kuvakommunikaatiotaulu vasta maahan tulleille lapsille esi- ja alkuopetuksessa: napauta kuvaa, luokka kuulee lauseen ääneen. Ei arviointia."
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

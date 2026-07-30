@@ -879,6 +879,34 @@
     "metaTitle": "Patronen voortzetten op het digibord | gratis tool",
     "metaDescription": "Patroonwerkplaats: patronen voortzetten, de kern verbergen en kleuren, vormen of plaatjes vergelijken. Een gratis digibordtool voor groep 1 tot 5."
   },
+  "reading-easel": {
+    "slug": "lezen-in-woordgroepen",
+    "name": "Leesboogjes",
+    "tagline": "Eén zin op het digibord, door de klas in boogjes verdeeld en twee keer voorgelezen: één keer als een robot en één keer zoals jullie hem bedoelden.",
+    "about": [
+      "Leesboogjes zet één zin op het digibord, groot genoeg voor de achterste tafel. Tussen elke twee woorden zit een opening die u kunt aantikken. Eén tik plaatst daar een grens, en de woorden ertussen komen samen onder een boogje te staan. U typt zelf een zin in of kiest er een uit acht klaarstaande regels. Veel meer is er niet: een regel, de openingen, de boogjes en een stem die precies voorleest wat u hebt neergezet.",
+      "Een kind dat woord voor woord leest, heeft ontcijferd maar nog niet gelezen. Technisch lezen wordt onderwezen, geoefend en getoetst; het lezen in woordgroepen staat op geen enkel werkblad. Aan een zin is niet te zien waar hij ademhaalt. De kerndoelen van SLO vragen om vlot en begrijpend lezen, maar hoe een zin hoort te klinken kan het papier niet laten horen. Daardoor blijft bij veel kinderen de stap van correct verklanken naar begrijpen jarenlang open: ze raken elk woord en verliezen toch de betekenis, omdat de zin in losse stukjes binnenkomt.",
+      "Een zin in woordgroepen verdelen en die groepen lezen is het gebruikelijke antwoord daarop; leerkrachten doen dat altijd met een stift op het bord. Nieuw is de stem. Het bord leest twee keer voor: één keer als een robot, met een pauze na elk woord, en één keer in uw boogjes. Waar een boogje hoort, zegt het programma nooit. In de meeste zinnen zijn meerdere verdelingen verdedigbaar, en de discussie daarover levert meer op dan een mededeling. Zet een boogje op een rare plek en de zin valt daar hoorbaar uit elkaar. Ondertussen blijkt dat de komma bijna altijd een boogje wil: leestekens, gehoord in plaats van uitgelegd.",
+      "Er is geen klok en die komt er ook niet. Leesvloeiendheid is precies het onderdeel dat overal in cijfers wordt gevangen: in Nederland leest een kind bij de DMT een minuut tegen de klok, en AVI hangt aan hetzelfde idee. Die meting hoort bij de leerkracht en bij het volgsysteem, niet op het digibord voor de hele groep. Dit bord telt niets, klokt niets en houdt niets bij. Het maakt alleen hoorbaar wat de klas zojuist heeft besloten, en daarna mag iemand het anders willen."
+    ],
+    "howToUse": [
+      "Typ een eigen zin in of kies een van de acht klaarstaande regels.",
+      "Zet de regel op het digibord en laat hem eerst als een robot voorlezen.",
+      "Vraag welke woorden bij elkaar horen en tik op de openingen die de klas noemt.",
+      "Boven elke groep verschijnt een boogje; ook een ongewone grens blijft staan tot iemand bezwaar maakt.",
+      "Laat de zin nu in de boogjes voorlezen en laat de klas het verschil benoemen.",
+      "Loop tot slot stap voor stap door de zin: één tik, één groep licht op en klinkt."
+    ],
+    "classroomIdeas": [
+      "Neem een zin met twee komma’s en laat de boogjes zetten zonder de leestekens te noemen; de klas komt bijna altijd op de komma uit en heeft de regel dan al gehoord.",
+      "Zet met opzet een boogje midden in een woordgroep en laat voorlezen; de kinderen horen de breuk meteen en wijzen zelf een andere plek aan.",
+      "Laat twee kinderen dezelfde regel anders verdelen en beluister beide versies; als ze allebei kloppen, praat dan over wat er met de betekenis schuift.",
+      "Gebruik de stap-voor-stap-modus voor koorlezen: één boogje klinkt, de klas herhaalt de groep in één adem.",
+      "Typ een zin uit het boek dat u voorleest, verdeel hem samen en laat de kinderen de boogjes met potlood in hun eigen tekst zetten."
+    ],
+    "metaTitle": "Lezen in woordgroepen | gratis tool voor de klas",
+    "metaDescription": "Eén zin op het digibord, verdeeld in boogjes en twee keer voorgelezen. Lezen in woordgroepen oefenen met de hele klas, zonder klok en zonder punten."
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

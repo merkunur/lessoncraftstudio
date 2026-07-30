@@ -879,6 +879,34 @@
     "metaTitle": "Banco dei ritmi e sequenze ripetute | strumento gratis",
     "metaDescription": "Componi la parte che si ripete e la striscia continua da sola. Colori, forme e immagini per lavorare sulle sequenze ritmiche alla scuola dell’infanzia."
   },
+  "reading-easel": {
+    "slug": "leggere-a-gruppi-di-parole",
+    "name": "Leggere a gruppi di parole",
+    "tagline": "Una frase sullo schermo, gli archi decisi dalla classe e la voce che fa sentire la differenza fra decifrare e leggere.",
+    "about": [
+      "Sullo schermo della classe compare una frase sola, scritta grande perché si legga anche dall’ultimo banco. Fra una parola e l’altra c’è uno spazio che si tocca: al tocco nasce un confine, e le parole che restano fra due confini vengono raccolte sotto l’arco. La frase la scrive l’insegnante, oppure si sceglie fra otto frasi già pronte. Da quel momento la stessa riga può essere letta in due modi diversi, e la differenza fra i due si sente, non si spiega. Lo strumento è gratuito; la raccolta completa di frasi e la stampa fanno parte del piano Insegnante.",
+      "Un bambino che legge parola per parola ha decifrato, ma non ha ancora letto. La decifrazione si insegna e si verifica; il raggruppamento delle parole, invece, resta invisibile sulla pagina: nessun segno dice dove la voce deve tenere insieme e dove può staccare. Eppure è lì che il significato prende forma, perché il senso non sta nella singola parola ma nel gruppo. Dividere la frase in gruppi e leggerli come tali è il rimedio che le maestre conoscono da sempre, con il pennarello sulla lavagna. Qui lo stesso lavoro passa attraverso una voce, che il pennarello non ha.",
+      "Segnati gli archi, lo strumento legge la riga due volte: prima come un robot, con una pausa dopo ogni parola, poi seguendo gli archi dell’insegnante, con la pausa solo ai confini. C’è anche un passo a passo: a ogni tocco si accende e si legge un gruppo solo. Dove vada l’arco, però, non lo dice nessuno: in quasi ogni frase più di una divisione è difendibile, e discuterne in classe vale più che riceverne una già pronta. Lo strumento obbedisce: un arco messo in un punto strano fa sentire la frase sfaldarsi lì. Quasi sempre le virgole finiscono per chiedere un arco, e la punteggiatura si scopre con l’orecchio.",
+      "Non c’è un cronometro, e non ci sarà. La fluenza è la cosa che il mercato trasforma più volentieri in gara: sillabe al secondo, prove a tempo, un punteggio da confrontare. Ma la rapidità è la parte della lettura che non è ancora lettura, e un bambino che sente ticchettare l’orologio smette di ascoltare la propria voce. Qui non si conta nulla, non si misura nulla, non si segna nulla: restano una frase, gli archi decisi insieme e il tempo che serve per sentirli. Le prove cronometrate esistono altrove; qui il traguardo è quello delle Indicazioni nazionali, la lettura espressiva ad alta voce."
+    ],
+    "howToUse": [
+      "Scrivi la frase del giorno oppure scegline una fra le otto già pronte.",
+      "Proietta la riga e falla leggere una prima volta senza archi.",
+      "Tocca lo spazio fra due parole per posare un confine: le parole rimaste insieme finiscono sotto l’arco.",
+      "Avvia la lettura come un robot, con una pausa dopo ogni parola.",
+      "Avvia poi la lettura per archi e chiedi alla classe che cosa è cambiato.",
+      "Usa il passo a passo per leggere un gruppo per tocco, a turno fra i bambini."
+    ],
+    "classroomIdeas": [
+      "Fai proporre due divisioni diverse della stessa frase, ascoltatele una dopo l’altra e discutete quale tiene insieme il significato.",
+      "Metti di proposito un arco fra il nome e il suo aggettivo: la frase si sfalda ad alta voce e il motivo diventa evidente senza spiegazioni.",
+      "Prendi una frase con due virgole e non dire nulla, finché qualcuno non nota che le virgole chiedono un arco.",
+      "Porta nello strumento una frase lunga del libro di lettura in corso e segnate insieme gli archi prima di leggerla in coro.",
+      "Stampa la stessa frase su foglio, fai disegnare gli archi a matita e poi verificate le scelte ascoltandole."
+    ],
+    "metaTitle": "Lettura espressiva a gruppi di parole | strumento gratis",
+    "metaDescription": "Dividi la frase in gruppi di parole, tocca gli archi e ascolta le due letture: un esercizio di lettura espressiva per la LIM, senza cronometro."
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

@@ -879,6 +879,34 @@
     "metaTitle": "Mesa de padrões de repetição | ferramenta grátis",
     "metaDescription": "Monte a parte que se repete e a tira completa sozinha. Cores, formas e imagens para trabalhar padrões de repetição na educação infantil."
   },
+  "reading-easel": {
+    "slug": "ler-por-grupos-de-palavras",
+    "name": "Ler por grupos de palavras",
+    "tagline": "Uma frase na tela, os arcos decididos pela turma e a voz que faz ouvir a diferença entre decodificar e ler.",
+    "about": [
+      "Na tela da turma aparece uma frase só, grande o bastante para ser lida do fundo da sala. Entre uma palavra e outra há um espaço que se toca: o toque marca uma fronteira, e as palavras que ficam entre duas fronteiras se juntam sob o arco. A professora digita a frase que quiser ou escolhe uma das oito já prontas. A partir daí a mesma linha pode ser lida de dois jeitos, e a diferença entre eles se ouve em vez de ser explicada. A ferramenta é gratuita; a biblioteca completa de frases e a impressão fazem parte do plano Professor.",
+      "Uma criança que lê palavra por palavra decodificou, mas ainda não leu. A decodificação é ensinada e cobrada; o agrupamento das palavras não aparece na página, e nenhum sinal diz onde a voz precisa segurar e onde pode soltar. É ali, porém, que o sentido se forma, porque o sentido não mora na palavra isolada e sim no grupo. Dividir a frase em grupos de palavras e ler cada grupo inteiro é o caminho conhecido, o mesmo que se faz há décadas com o pincel na lousa. A diferença aqui é a voz, que o pincel não tem.",
+      "Marcados os arcos, a ferramenta lê a linha duas vezes: primeiro como um robô, com uma parada depois de cada palavra, e depois pelos arcos da professora, parando só nas fronteiras. Há também o passo a passo, que acende e lê um grupo por vez. Onde o arco deve entrar, ninguém diz: na maioria das frases mais de uma divisão se sustenta, e discutir isso rende mais do que receber a resposta pronta. A ferramenta obedece ao que a turma marcou, então um arco em lugar estranho faz a frase se desmanchar ali, em voz alta. As vírgulas, quase sempre, pedem um arco, e a pontuação chega pelo ouvido.",
+      "Não há cronômetro, e não vai haver. A fluência é justamente o ponto em que o mercado põe um relógio na frente da criança: palavras por minuto, prova cronometrada, um número para comparar. Só que a velocidade é a parte da leitura que ainda não é leitura, e quem ouve o relógio para de ouvir a própria voz. Aqui nada é contado, cronometrado ou registrado: ficam a frase, os arcos que a turma decidiu e o tempo que for preciso. A BNCC fala em ler com fluência e entonação, e entonação é o que se ensina agrupando."
+    ],
+    "howToUse": [
+      "Digite a frase do dia ou escolha uma das oito já prontas.",
+      "Projete a linha e peça uma primeira leitura, ainda sem arcos.",
+      "Toque no espaço entre duas palavras para marcar uma fronteira, e as palavras que ficam juntas passam a ter um arco.",
+      "Toque em como um robô e ouça a parada depois de cada palavra.",
+      "Ouça em seguida a leitura pelos arcos e pergunte à turma o que mudou.",
+      "Use o passo a passo para ler um grupo por toque, revezando as crianças."
+    ],
+    "classroomIdeas": [
+      "Peça duas divisões diferentes da mesma frase, ouça as duas e deixe a turma defender qual delas segura o sentido.",
+      "Coloque de propósito um arco entre o substantivo e o adjetivo: a frase se desmancha em voz alta e o motivo fica claro sem explicação.",
+      "Escolha uma frase com duas vírgulas e não comente nada até alguém perceber que a vírgula está pedindo um arco.",
+      "Traga uma frase comprida do livro que a turma está lendo e marquem os arcos juntos antes da leitura em coro.",
+      "Imprima a mesma frase, deixe as crianças desenharem os arcos a lápis e depois confiram as escolhas ouvindo a leitura."
+    ],
+    "metaTitle": "Fluência leitora: ler por grupos | ferramenta grátis",
+    "metaDescription": "Divida a frase em grupos de palavras na lousa, ouça os dois modos de ler e trabalhe a fluência leitora da turma, sem cronômetro e sem nota."
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

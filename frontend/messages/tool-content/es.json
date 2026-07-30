@@ -879,6 +879,34 @@
     "metaTitle": "Mesa de patrones que se repiten | herramienta gratis",
     "metaDescription": "Arma la parte que se repite y la tira la completa sola. Colores, formas e imágenes para trabajar patrones que se repiten en preescolar y primaria."
   },
+  "reading-easel": {
+    "slug": "leer-por-grupos-de-palabras",
+    "name": "Leer por grupos de palabras",
+    "tagline": "Una oración en el pizarrón, dividida en arcos por el salón y leída dos veces: una como robot y otra como ustedes la marcaron.",
+    "about": [
+      "Leer por grupos de palabras coloca una sola oración en el pizarrón, a un tamaño que se lee desde la última fila. Entre cada dos palabras hay un espacio que se puede tocar. Al tocarlo queda marcado un límite, y las palabras que quedan entre dos límites se juntan bajo un mismo arco. Ustedes escriben la oración que quieran o toman una de las ocho líneas ya preparadas. No hay más aparato que ese: una línea, los espacios, los arcos y una voz que lee exactamente lo que ustedes marcaron.",
+      "Un niño que lee palabra por palabra ya decodificó, pero todavía no leyó. La decodificación se enseña, se practica y se toma en cuenta en cada evaluación; el agrupamiento en grupos de palabras no aparece en ninguna hoja. Una oración escrita no muestra dónde respira. La NEM pide una lectura con sentido, y aun así el paso de decir bien cada palabra a sostener el sentido queda pendiente durante años: el niño acierta cada palabra y pierde el hilo, porque la oración le llega en pedazos.",
+      "Partir la oración en grupos y leer cada grupo de corrido es el remedio conocido; los maestros lo hacen desde siempre con un plumón en el pizarrón. Lo nuevo es la voz. La herramienta lee dos veces: una como robot, con una pausa después de cada palabra, y otra con los arcos que ustedes pusieron. Dónde va el arco, nunca lo dice. En casi cualquier oración hay más de un corte defendible, y discutirlo rinde más que recibir la respuesta. Pongan un arco en un lugar raro y se oye cómo la oración se parte ahí. De paso se descubre que la coma casi siempre pide un arco.",
+      "Aquí no hay cronómetro y nunca lo habrá. La fluidez lectora es justo lo que el mercado convierte de inmediato en palabras por minuto: reloj, puntaje, comparación entre compañeros. Esa parte no es leer. Muchos crecimos con la toma de lectura y con el conteo de palabras por minuto, y ese registro, si se usa, pertenece al seguimiento del docente y no al pizarrón frente a todo el salón. Esta herramienta no cuenta, no cronometra y no guarda nada. Solo vuelve audible lo que el salón acaba de decidir."
+    ],
+    "howToUse": [
+      "Escriban una oración propia o elijan una de las ocho líneas listas.",
+      "Proyecten la línea y pidan primero la lectura como robot.",
+      "Pregunten qué palabras van juntas y toquen los espacios que el salón señale.",
+      "Sobre cada grupo aparece un arco; un límite inesperado se queda ahí hasta que alguien lo discuta.",
+      "Vuelvan a leer la oración con los arcos puestos y pidan que digan qué cambió.",
+      "Cierren con el paso a paso: un toque, un grupo se ilumina y se lee."
+    ],
+    "classroomIdeas": [
+      "Tomen una oración con dos comas y marquen los arcos sin mencionar la puntuación; el salón cae casi siempre en las comas y escucha la regla antes de estudiarla.",
+      "Pongan a propósito un arco en medio de un grupo y pidan la lectura; los niños oyen el corte y señalan solos otro lugar.",
+      "Pidan a dos niños que dividan la misma línea de distinta manera y escuchen las dos versiones; si ambas se sostienen, conversen sobre qué cambia en el sentido.",
+      "Usen el paso a paso para lectura en eco: se lee un grupo y el salón lo repite completo, sin cortarlo.",
+      "Escriban una oración del libro que están leyendo, marquen los arcos entre todos y pidan que los copien con lápiz en su propio texto."
+    ],
+    "metaTitle": "Fluidez lectora por grupos de palabras | recurso gratis",
+    "metaDescription": "Una oración en el pizarrón, dividida en arcos y leída dos veces. Trabajen la fluidez lectora por grupos de palabras, sin cronómetro y sin puntajes."
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

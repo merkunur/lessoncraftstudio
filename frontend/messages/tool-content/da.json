@@ -879,6 +879,34 @@
     "metaTitle": "Mønsterbænken – gentagne mønstre | gratis værktøj",
     "metaDescription": "Byg den del, der gentager sig, og striben fortsætter selv. Farver, former og billeder til arbejdet med gentagne mønstre i indskolingen."
   },
+  "reading-easel": {
+    "slug": "saetningsbuer",
+    "name": "Sætningsbuer",
+    "tagline": "Én sætning på skærmen, buer sat af klassen og en stemme, der gør forskellen mellem afkodning og læsning hørbar.",
+    "about": [
+      "På klassens skærm står én sætning, sat så stort at den kan læses fra bagerste bord. Mellem hvert ordpar er der et mellemrum, man kan trykke på: trykket sætter en grænse, og ordene mellem to grænser samles under en bue. Læreren skriver selv sætningen eller vælger en af de otte, der ligger klar. Derefter kan den samme sætning læses op på to måder, og forskellen mellem dem kan høres i stedet for at blive forklaret. Værktøjet er gratis; hele linjebiblioteket og udskrivning hører til Lærerpakken.",
+      "Et barn, der læser ord for ord, har afkodet, men har ikke læst endnu. Afkodningen bliver undervist i og testet; opdelingen i meningsfulde ordgrupper står ingen steder på siden, og intet tegn fortæller, hvor stemmen skal holde sammen, og hvor den må slippe. Alligevel er det dér, betydningen bliver til, for meningen ligger ikke i det enkelte ord, men i gruppen. At dele sætningen op og læse grupperne samlet er den velkendte vej, den samme som lærere altid har gået med en tusch på tavlen. Her har arbejdet fået en stemme, og det har tuschen ikke.",
+      "Når buerne er sat, læser værktøjet sætningen to gange: først som en robot, med en pause efter hvert eneste ord, og derefter i lærerens buer, hvor der kun holdes pause ved grænserne. En gennemgang læser én gruppe ad gangen og lyser den op undervejs. Hvor buen hører til, siger værktøjet aldrig: i de fleste sætninger kan flere opdelinger forsvares, og en diskussion i klassen er mere værd end et facit. Værktøjet adlyder præcis det, klassen har markeret, så en bue et mærkeligt sted får sætningen til at falde fra hinanden netop dér. Kommaerne viser sig at ville have en bue, og tegnsætningen bliver hørt frem, ikke forklaret.",
+      "Der er ikke noget stopur, og det kommer der heller ikke. Flydende læsning er netop det sted, hvor markedet stiller uret frem: ord i minuttet, en prøve på tid, et tal at sammenligne med. Men hastighed er den del af læsningen, der endnu ikke er læsning, og et barn, der hører uret, holder op med at høre sin egen stemme. Her bliver intet talt, taget tid på eller markeret; tilbage står sætningen, buerne som klassen blev enige om, og den tid det tager. Fælles Mål taler om at læse med forståelse og udtryk, og udtrykket kommer af buerne."
+    ],
+    "howToUse": [
+      "Skriv dagens sætning, eller vælg en af de otte, der ligger klar.",
+      "Vis sætningen på tavlen, og lad den blive læst op én gang uden buer.",
+      "Tryk i mellemrummet mellem to ord for at sætte en grænse, så ordene imellem samles under en bue.",
+      "Vælg læs som en robot, og hør pausen efter hvert eneste ord.",
+      "Hør derefter oplæsningen i klassens egne buer, og spørg, hvad der ændrede sig.",
+      "Brug gennemgangen, hvor der læses én gruppe pr. tryk, og lad eleverne skiftes."
+    ],
+    "classroomIdeas": [
+      "Bed to elever markere den samme sætning hver sin vej, hør begge dele, og lad klassen tale om, hvilken opdeling der holder betydningen samlet.",
+      "Sæt med vilje en bue mellem navneordet og dets tillægsord; sætningen falder hørbart fra hinanden, og eleverne kan selv sige hvorfor.",
+      "Tag en sætning med to kommaer, og sig ingenting, før nogen opdager, at kommaet gerne vil have en bue.",
+      "Hent en lang sætning fra den bog, klassen læser, og sæt buerne sammen, inden den læses i kor.",
+      "Udskriv den samme sætning på papir, lad eleverne tegne buerne med blyant, og hør bagefter, om valgene holder."
+    ],
+    "metaTitle": "Flydende læsning i buer | gratis værktøj til tavlen",
+    "metaDescription": "Del sætningen op i buer på tavlen, hør oplæsningen som robot og i lærerens buer, og træn flydende læsning uden stopur og uden point."
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

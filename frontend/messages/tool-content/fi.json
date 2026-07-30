@@ -857,6 +857,34 @@
     "metaTitle": "Kuviopaja – toistuvat kuviot | ilmainen työkalu",
     "metaDescription": "Rakenna osa, joka toistuu, ja jono jatkaa itsestään. Värit, muodot ja kuvat toistuvien kuvioiden opetteluun esi- ja alkuopetuksessa."
   },
+  "reading-easel": {
+    "slug": "lukukaaret",
+    "name": "Lukukaaret",
+    "tagline": "Yksi lause valkokankaalla, luokan itse merkitsemät kaaret ja ääni, joka tekee eron purkamisen ja lukemisen välillä kuuluvaksi.",
+    "about": [
+      "Luokan valkokankaalla on yksi lause, kirjoitettuna niin suureksi, että sen näkee takariviltäkin. Jokaisen sanavälin voi napauttaa: napautus asettaa rajan, ja rajojen väliin jäävät sanat kootaan yhden kaaren alle. Opettaja kirjoittaa lauseen itse tai valitsee yhden kahdeksasta valmiista. Tämän jälkeen sama lause voidaan lukea ääneen kahdella tavalla, ja ero kuuluu sen sijaan, että se selitettäisiin. Työkalu on maksuton; koko lausekirjasto ja tulostus kuuluvat Opettaja-tilaukseen.",
+      "Lapsi, joka lukee sana kerrallaan, on purkanut kirjoitusta mutta ei vielä lukenut. Teknistä lukutaitoa opetetaan ja mitataan, mutta sanojen ryhmittely ei näy sivulla mitenkään: mikään merkki ei kerro, missä äänen pitää pysyä koossa ja missä se saa pysähtyä. Juuri siinä merkitys kuitenkin syntyy, sillä merkitys ei asu yksittäisessä sanassa vaan ryhmässä. Lauseen jakaminen ryhmiin ja ryhmien lukeminen kokonaisina on tuttu keino, sama jota opettajat ovat tehneet tussilla taululle. Ero on siinä, että täällä työhön tulee mukaan ääni, jota tussilla ei ole.",
+      "Kun kaaret on merkitty, työkalu lukee lauseen kahdesti: ensin robottina, tauko jokaisen sanan jälkeen, ja sitten opettajan kaarten mukaan, jolloin tauko tulee vain rajoille. Askeltava luku etenee yksi ryhmä kerrallaan ja korostaa sen samalla. Työkalu ei koskaan kerro, mihin kaari kuuluu: useimmissa lauseissa jako voidaan perustella monella tavalla, ja siitä kiisteleminen opettaa enemmän kuin valmis vastaus. Työkalu tottelee luokkaa tarkalleen, joten oudosta kohdasta alkava kaari saa lauseen hajoamaan juuri siitä. Pilkut osoittautuvat kaaren paikoiksi, ja välimerkit opitaan korvalla eikä selityksestä.",
+      "Ajastinta ei ole eikä tule. Suomessa ei ole kansallisia kokeita, mutta sekuntikello löytyy silti monesta luokasta. Juuri lukusujuvuudesta tehdään helposti kilpailu: sanoja minuutissa, kello pöydän kulmalla, luku jota verrataan toisiin. Nopeus on kuitenkin se osa lukemista, joka ei vielä ole lukemista, ja kello vie lapsen huomion pois omasta äänestä. Täällä mitään ei lasketa, kelloteta eikä merkitä muistiin: jäljelle jäävät lause, luokan yhdessä sopimat kaaret ja se aika, joka niiden kuunteluun menee. OPS 2014 puhuu sujuvasta ja ilmaisevasta lukemisesta, ja ilmaisu syntyy ryhmittelystä."
+    ],
+    "howToUse": [
+      "Kirjoita päivän lause tai valitse yksi kahdeksasta valmiista.",
+      "Heijasta lause seinälle ja lue se ensin sellaisenaan, ilman kaaria.",
+      "Napauta sanaväliä, niin siihen tulee raja ja sanat kokoontuvat kaaren alle.",
+      "Valitse lue robottina ja kuuntele tauko jokaisen sanan jälkeen.",
+      "Kuuntele sitten luokan omien kaarten mukainen luku ja kysy, mikä muuttui.",
+      "Käytä askeltavaa lukua, kun haluat lasten lukevan yhden ryhmän kerrallaan."
+    ],
+    "classroomIdeas": [
+      "Pyydä kahta oppilasta merkitsemään sama lause eri tavoin, kuunnelkaa molemmat ja päättäkää yhdessä, kumpi jako pitää merkityksen koossa.",
+      "Aseta kaari tahallasi adjektiivin ja pääsanan väliin; luokka kuulee lauseen hajoavan ja osaa itse sanoa, mistä se johtuu.",
+      "Ota lause, jossa on kaksi pilkkua, äläkä sano niistä mitään ennen kuin joku huomaa, että pilkun kohdalle halutaan kaari.",
+      "Kirjoita työkaluun pitkä lause siitä kirjasta, jota luokka parhaillaan lukee, ja merkitkää kaaret yhdessä ennen kuorolukua.",
+      "Tulosta sama lause paperille, anna lasten piirtää kaaret kynällä ja tarkistakaa ratkaisut kuuntelemalla."
+    ],
+    "metaTitle": "Lukusujuvuus: lause kaariin | ilmainen työkalu",
+    "metaDescription": "Jaa lause kaariin luokan edessä, kuuntele robottiluku ja opettajan kaaret, ja harjoittele lukusujuvuutta ilman sekuntikelloa ja pisteitä."
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

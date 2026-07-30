@@ -726,6 +726,31 @@
     "metaTitle": "Reta numérica vazia grátis | LessonCraftStudio",
     "metaDescription": "Reta numérica vazia para projetar: a criança escolhe onde começa, arrasta para desenhar cada salto e o +10 se escreve sozinho. O caminho do cálculo, não a resposta."
   },
+  "part-whole-frame": {
+    "slug": "decompor-numeros",
+    "name": "Decompor números",
+    "tagline": "Um todo, duas partes — e o todo nunca muda.",
+    "about": [
+      "Decompor números leva a decomposição para o projetor. Em cima, o número fica no ninho; embaixo, duas bandejas seguram as partes. Uma criança tira uma ficha de uma bandeja e leva para o outro lado: as duas partes mudam, o número de cima não. É toda a lição, e ela está no próprio material — não dá para acrescentar nem tirar uma ficha, então as partes não têm como deixar de formar o todo.",
+      "Aqui não há nada para corrigir, porque toda decomposição de um número está certa. Seis é quatro e dois, e também é cinco e um. Uma criança que move fichas de um lado para o outro não está chutando uma resposta: está descobrindo que um número é feito de números menores, a ideia que junta a adição e a subtração numa coisa só. O quadro não avalia, não conta pontos e nunca diz que uma decomposição está errada.",
+      "Um pano cobre o ninho ou uma das bandejas, e o mesmo quadro vira as três perguntas que a gente faz de verdade na sala: quantos são ao todo e quantos estão escondidos? Os números até dez, as três coberturas, a decomposição falada em voz alta e a escrita são gratuitos. Os números até vinte, o registo de todas as maneiras encontradas e a impressão fazem parte do plano Professor."
+    ],
+    "howToUse": [
+      "Projete o quadro e ajuste o número de hoje com mais e menos — já vem com um número.",
+      "Chame uma criança para levar uma ficha para o outro lado. Tocar na bandeja faz o mesmo que arrastar, então funciona na lousa e no tablet.",
+      "Digam juntos a decomposição a cada vez: seis é quatro e dois. Com « Dizer em voz alta » o quadro fala junto.",
+      "Cubra uma bandeja e pergunte quantas fichas estão escondidas. Cubra o ninho e pergunte quantas são ao todo.",
+      "Ligue « Mostrar a escrita » só quando a imagem já estiver firme — primeiro as fichas, depois os números."
+    ],
+    "classroomIdeas": [
+      "Mantenha o mesmo número a semana inteira: segunda é o seis, e cada manhã uma criança diferente acha outra maneira.",
+      "Cubra uma bandeja antes de a criança levar a ficha, para a turma descobrir o que mudou sem ver.",
+      "Peça uma decomposição e depois a vizinha dela: se seis é quatro e dois, o que acontece com uma ficha a mais?",
+      "Coloque duas decomposições lado a lado no registo e pergunte o que ficou igual — é ali que o padrão aparece."
+    ],
+    "metaTitle": "Decompor números — o todo e as partes | Grátis",
+    "metaDescription": "Decomposição de números no 1.º ano: leve uma ficha e o todo continua igual. Cubra o todo ou uma parte e ouça a decomposição. Grátis, sem conta."
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

@@ -726,6 +726,31 @@
     "metaTitle": "Tom tallinje – rita egna hopp | LessonCraftStudio",
     "metaDescription": "Arbeta med den tomma tallinjen på storbild: barnen ritar sina egna hopp och +10 skriver sig självt ovanför bågen. Tiohopp och gå via tiotalet, för åk 1–2."
   },
+  "part-whole-frame": {
+    "slug": "dela-upp-tal",
+    "name": "Dela upp tal",
+    "tagline": "En helhet, två delar — och helheten ändras aldrig.",
+    "about": [
+      "Dela upp tal sätter taluppdelningen på projektorn. Överst ligger talet i boet; under det håller två brickor delarna. Ett barn tar en bricka ur den ena skålen och bär över den: de två delarna ändras, talet högst upp gör det inte. Det är hela lektionen, och den sitter i materialet självt — det går varken att lägga till eller ta bort en bricka, så delarna kan inte sluta bli hela talet.",
+      "Det finns ingenting att rätta här, för varje uppdelning av ett tal är riktig. Sex är fyra och två, och sex är också fem och ett. Ett barn som flyttar brickor fram och tillbaka gissar inte på ett svar utan upptäcker att ett tal är byggt av mindre tal — tanken som gör addition och subtraktion till en enda sak. Tavlan bedömer ingenting, räknar inga poäng och säger aldrig att en uppdelning är fel.",
+      "En duk täcker boet eller någon av skålarna, och samma tavla blir de tre frågor man faktiskt ställer i klassrummet: hur många är det allt tillsammans, och hur många är gömda? Tal upp till tio, alla tre övertäckningarna, den upplästa uppdelningen och skrivsättet är gratis. Tal upp till tjugo, sammanställningen över alla hittade sätt och utskriften ingår i Lärarpaketet."
+    ],
+    "howToUse": [
+      "Visa tavlan på projektorn och ställ in dagens tal med plus och minus — ett tal ligger redan framme.",
+      "Låt ett barn komma fram och bära över en bricka. Att trycka på skålen gör samma sak som att dra, så det fungerar både på tavlan och på en surfplatta.",
+      "Säg uppdelningen tillsammans varje gång: sex är fyra och två. Med „Säg det högt“ säger tavlan det med er.",
+      "Täck över en skål och fråga hur många som är gömda. Täck i stället över boet och fråga hur många det är allt tillsammans.",
+      "Slå på „Visa som uttryck“ först när bilden sitter — brickorna först, siffrorna sedan."
+    ],
+    "classroomIdeas": [
+      "Behåll samma tal en hel vecka: måndag är sexan, och varje morgon hittar ett nytt barn ett nytt sätt.",
+      "Täck över en skål innan barnet bär över brickan, så att klassen får lista ut vad som ändrades utan att se det.",
+      "Be om en uppdelning och sedan om grannen till den: om sex är fyra och två, vad händer med en bricka till?",
+      "Ställ två uppdelningar bredvid varandra i sammanställningen och fråga vad som är likadant — där syns mönstret."
+    ],
+    "metaTitle": "Dela upp tal — helhet och delar | Gratis för åk 1",
+    "metaDescription": "Dela upp tal i årskurs 1: flytta en bricka och helheten är kvar. Täck över helheten eller en del och hör uppdelningen. Gratis, utan konto och utan poäng."
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

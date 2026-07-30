@@ -704,6 +704,31 @@
     "metaTitle": "Piirrä hypyt – tyhjä lukusuora alkuopetukseen",
     "metaDescription": "Tyhjä lukusuora taululle: lapsi valitsee aloituskohdan, vetää hypyt itse ja merkinnät +10 ja −5 piirtyvät kaarien päälle. Ei arvostelua eikä kirjautumista."
   },
+  "part-whole-frame": {
+    "slug": "luvun-hajotelma",
+    "name": "Luvun hajotelma",
+    "tagline": "Yksi kokonaisuus, kaksi osaa — eikä kokonaisuus muutu koskaan.",
+    "about": [
+      "Luvun hajotelma tuo hajotelman valkokankaalle. Ylhäällä luku on pesässä; sen alla kaksi kaukaloa pitävät osia. Lapsi ottaa yhden nappulan toisesta kaukalosta ja siirtää sen toiselle puolelle: osat muuttuvat, ylhäällä oleva luku ei. Siinä on koko oppitunti, ja se on itse välineessä — nappulaa ei voi lisätä eikä poistaa, joten osat eivät voi lakata muodostamasta kokonaisuutta.",
+      "Täällä ei ole mitään tarkistettavaa, sillä jokainen luvun hajotelma on oikein. Kuusi on neljä ja kaksi, ja kuusi on myös viisi ja yksi. Lapsi, joka siirtelee nappuloita puolelta toiselle, ei arvaa vastausta vaan huomaa, että luku koostuu pienemmistä luvuista — juuri se ajatus, joka tekee yhteen- ja vähennyslaskusta yhden asian kahden sijaan. Taulu ei arvioi mitään, ei laske pisteitä eikä koskaan sano hajotelmaa vääräksi.",
+      "Liina peittää pesän tai jommankumman kaukalon, ja samasta taulusta tulevat ne kolme kysymystä, joita luokassa oikeasti kysytään: montako niitä on yhteensä ja montako on piilossa? Luvut kymmeneen asti, kaikki kolme peittoa, ääneen sanottu hajotelma ja kirjoitusasu ovat maksuttomia. Luvut kahteenkymmeneen, kooste kaikista löydetyistä tavoista ja tulostepohja kuuluvat Opettaja-tilaukseen."
+    ],
+    "howToUse": [
+      "Heijasta taulu ja aseta päivän luku plus- ja miinuspainikkeilla — luku on jo valmiina.",
+      "Pyydä lapsi eteen siirtämään yksi nappula. Kaukalon napauttaminen tekee saman kuin raahaaminen, joten se toimii sekä taululla että tabletilla.",
+      "Sanokaa hajotelma yhdessä joka kerta: kuusi on neljä ja kaksi. Kun „Sano ääneen“ on päällä, taulu sanoo sen mukananne.",
+      "Peitä toinen kaukalo ja kysy, montako on piilossa. Peitä sen sijaan pesä ja kysy, montako niitä on yhteensä.",
+      "Ota „Näytä laskuna“ käyttöön vasta, kun mielikuva on selvä — ensin nappulat, sitten numerot."
+    ],
+    "classroomIdeas": [
+      "Pidä sama luku koko viikon: maanantai on kuutonen, ja joka aamu eri lapsi löytää uuden tavan.",
+      "Peitä toinen kaukalo ennen kuin lapsi siirtää nappulan, niin luokka joutuu päättelemään näkemättä, mikä muuttui.",
+      "Pyydä yksi hajotelma ja sitten sen naapuri: jos kuusi on neljä ja kaksi, mitä tapahtuu yhdellä nappulalla lisää?",
+      "Aseta kaksi hajotelmaa koosteessa vierekkäin ja kysy, mikä niissä pysyi samana — siinä kohtaa säännönmukaisuus näkyy."
+    ],
+    "metaTitle": "Luvun hajotelma — kokonaisuus ja osat | Maksuton",
+    "metaDescription": "Luvun hajottaminen 1. luokalla: siirrä yksi nappula, kokonaisuus pysyy samana. Peitä kokonaisuus tai osa ja kuule hajotelma. Maksuton, ilman tiliä."
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

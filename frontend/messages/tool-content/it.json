@@ -726,6 +726,31 @@
     "metaTitle": "La linea dei salti: tappa alla decina e calcolo mentale",
     "metaDescription": "Una linea dei numeri senza tacche per la LIM: il bambino trascina il segnalino e disegna i suoi salti, con tappa alla decina. Gratis, senza login né punteggi."
   },
+  "part-whole-frame": {
+    "slug": "scomporre-i-numeri",
+    "name": "Scomporre i numeri",
+    "tagline": "Un intero, due parti — e l’intero non cambia mai.",
+    "about": [
+      "Scomporre i numeri porta la scomposizione alla lavagna. In alto il numero sta nel nido; sotto, due vassoi tengono le parti. Un bambino prende un gettone da un vassoio e lo porta dall’altra parte: le due parti cambiano, il numero in alto no. È tutta qui la lezione, ed è nel materiale stesso — non si può aggiungere né togliere un gettone, quindi le parti non possono smettere di formare l’intero.",
+      "Non c’è nulla da correggere, perché ogni scomposizione di un numero è giusta. Sei è quattro e due, ed è anche cinque e uno. Un bambino che sposta i gettoni non sta indovinando una risposta: sta scoprendo che un numero è fatto di numeri più piccoli, l’idea che tiene insieme addizione e sottrazione. La lavagna non valuta nulla, non assegna punti e non dice mai che una scomposizione è sbagliata.",
+      "Un telo copre il nido o uno dei due vassoi, e la stessa lavagna diventa le tre domande che in classe si fanno davvero: quanti sono in tutto, e quanti sono nascosti? I numeri fino a dieci, tutte e tre le coperture, la scomposizione detta ad alta voce e la scrittura sono gratuiti. I numeri fino a venti, il registro di tutti i modi trovati e la stampa fanno parte del piano Insegnante."
+    ],
+    "howToUse": [
+      "Proietti la lavagna e imposti il numero del giorno con più e meno — un numero è già pronto.",
+      "Chiami un bambino a portare un gettone dall’altra parte. Toccare il vassoio fa lo stesso effetto del trascinamento: funziona alla LIM e sul tablet.",
+      "Dite insieme la scomposizione ogni volta: sei è quattro e due. Con « Leggi ad alta voce » la dice anche la lavagna.",
+      "Copra un vassoio e chieda quanti gettoni sono nascosti. Copra invece il nido e chieda quanti sono in tutto.",
+      "Attivi « Mostra la scrittura » solo quando l’immagine è chiara — prima i gettoni, poi i numeri."
+    ],
+    "classroomIdeas": [
+      "Tenga lo stesso numero per una settimana: lunedì è il sei, e ogni mattina un bambino diverso trova un modo diverso.",
+      "Copra un vassoio prima che il bambino sposti il gettone, così la classe deve capire che cosa è cambiato senza vederlo.",
+      "Chieda una scomposizione e poi quella vicina: se sei è quattro e due, che cosa succede con un gettone in più?",
+      "Metta due scomposizioni una accanto all’altra nel registro e chieda che cosa è rimasto uguale — lì si vede lo schema."
+    ],
+    "metaTitle": "Scomporre i numeri — l’intero e le parti | Gratis",
+    "metaDescription": "Scomposizione dei numeri in prima: sposta un gettone e l’intero resta uguale. Copri l’intero o una parte, ascolta la scomposizione. Gratis, senza account."
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

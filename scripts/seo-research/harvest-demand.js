@@ -229,7 +229,7 @@ const DEMAND = {
     // Danish COMPOUNDS the theme into the noun — "julematematik", never
     // "matematik med jul". A spaced {theme} {anchor} probe structurally cannot
     // find Danish theme demand, so single-word themes are also probed joined.
-    crossCompound: true,
+    compoundWith: ['matematik'], // verified: julematematik -> 10, w/ grade ladder
     enumerate: [],
     packs: ['opgavehæfte'],
     letters: [],
@@ -249,7 +249,7 @@ const DEMAND = {
     audience: ['norsk som andrespråk', 'spesialundervisning'],
     anchors: ['oppgaver', '1. trinn'],
     crossAnchors: ['matte', 'telle', 'bokstaver'],
-    crossCompound: true, // Norwegian compounds like Danish (juleoppgaver)
+    compoundWith: ['oppgaver'], // NOT 'matematikk': julematematikk -> 0, juleoppgaver -> 10
     enumerate: [],
     packs: ['oppgavehefte'],
     letters: [],
@@ -272,7 +272,7 @@ const DEMAND = {
     audience: ['s2', 'erityisopetus'],
     anchors: ['tehtäviä', 'esiopetus'],
     crossAnchors: ['matematiikka', 'laskeminen', 'kirjaimet'],
-    crossCompound: true, // Finnish compounds too (joulutehtäviä)
+    compoundWith: ['tehtäviä'], // 0 survivors last run; Finnish theme demand is genuinely thin
     enumerate: [],
     packs: ['tehtävävihko'],
     letters: [],
@@ -450,11 +450,30 @@ function buildDemandSeeds(locale) {
     for (const th of themeNames(locale)) {
       for (const a of d.crossAnchors) {
         seeds.cross.push(`${th} ${a}`);
-        // Scandinavian and Finnish compound the theme INTO the noun
-        // ("julematematik", never "matematik med jul"), so the spaced probe above
-        // structurally cannot find their theme demand. Only single-word themes
-        // compound cleanly, so multi-word themes are left to the spaced form.
-        if (d.crossCompound && !/\s/.test(th) && !/\s/.test(a)) seeds.cross.push(`${th}${a}`);
+        // Legacy per-anchor compounding. Dead today (all three Nordic locales
+        // declare compoundWith), kept so a locale that still sets crossCompound
+        // keeps its old anchor-derived seeds.
+        if (!d.compoundWith && d.crossCompound && !/\s/.test(th) && !/\s/.test(a)) {
+          seeds.cross.push(`${th}${a}`);
+        }
+      }
+      // Compounding is LOCALE-SPECIFIC, not Nordic-wide. Verified live:
+      //   da  julematematik   -> 10 ("julematematik 1/2/3 klasse")   COMPOUND WORKS
+      //   no  julematematikk  ->  0                                   COMPOUND FAILS
+      //   no  juleoppgaver    -> 10 ("juleoppgaver matematikk")       theme+TASK-NOUN
+      // So Danish compounds theme+SUBJECT while Norwegian compounds
+      // theme+"oppgaver". `compoundWith` names the right joining noun per
+      // locale; falling back to crossAnchors would regenerate the dead
+      // Norwegian form. Only single-word themes compound cleanly.
+      //
+      // This sits OUTSIDE the crossAnchors loop on purpose: compoundWith does
+      // not depend on the anchor, so inside it enqueued every compound seed
+      // once per crossAnchor (3x for the Nordic locales). Each seed is one live
+      // autocomplete request against a budget that aborts at >40 errors.
+      if (!/\s/.test(th)) {
+        for (const j of (d.compoundWith || [])) {
+          if (!/\s/.test(j)) seeds.cross.push(`${th}${j}`);
+        }
       }
     }
   }

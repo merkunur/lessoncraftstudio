@@ -1,0 +1,39 @@
+{
+  "_note": "The §A.13.31 DATA SoT for Quill's Mirror Market (K.L.5.b antonyms). The gate + makeRounds read this for the complementary/gradable classification + the per-dimension same-dimension-sibling list + the NO_GRADABLE_MIDDLE_AS_CHOICE check. CATEGORICAL = a multi-member dimension (color/direction/motion) that can carry a same-dimension-NON-opposite sibling → the dimension-match-defended discrimination rounds. COMPLEMENTARY = binary or gradable-without-a-discrete-sibling → the capped recall backbone (exempt from dimension-match-fails). All glyphs are CODE-DRAWN (no library photos).",
+  "gradableMiddles": ["medium", "warm", "cool", "ok", "half"],
+  "pairs": [
+    { "wordA": "black", "wordB": "white", "dimension": "color", "complementary": false,
+      "glyphA": { "type": "swatch", "param": "#262626" }, "glyphB": { "type": "swatch", "param": "#ffffff" },
+      "sameDimensionSiblings": [
+        { "word": "red", "glyph": { "type": "swatch", "param": "#e23b2e" } },
+        { "word": "blue", "glyph": { "type": "swatch", "param": "#2f6fd0" } },
+        { "word": "green", "glyph": { "type": "swatch", "param": "#3aa35a" } }
+      ] },
+    { "wordA": "up", "wordB": "down", "dimension": "direction", "complementary": false,
+      "glyphA": { "type": "arrow", "param": "up" }, "glyphB": { "type": "arrow", "param": "down" },
+      "sameDimensionSiblings": [
+        { "word": "left", "glyph": { "type": "arrow", "param": "left" } },
+        { "word": "right", "glyph": { "type": "arrow", "param": "right" } }
+      ] },
+    { "wordA": "push", "wordB": "pull", "dimension": "motion", "pos": "verb", "complementary": false,
+      "glyphA": { "type": "motion", "param": "push" }, "glyphB": { "type": "motion", "param": "pull" },
+      "sameDimensionSiblings": [
+        { "word": "lift", "glyph": { "type": "motion", "param": "lift" } },
+        { "word": "spin", "glyph": { "type": "motion", "param": "spin" } }
+      ] },
+    { "wordA": "open", "wordB": "closed", "dimension": "state", "complementary": true,
+      "glyphA": { "type": "door", "param": "open" }, "glyphB": { "type": "door", "param": "closed" } },
+    { "wordA": "on", "wordB": "off", "dimension": "power", "complementary": true,
+      "glyphA": { "type": "lamp", "param": "on" }, "glyphB": { "type": "lamp", "param": "off" } },
+    { "wordA": "day", "wordB": "night", "dimension": "time", "complementary": true,
+      "glyphA": { "type": "celestial", "param": "sun" }, "glyphB": { "type": "celestial", "param": "moon" } },
+    { "wordA": "full", "wordB": "empty", "dimension": "fill", "complementary": true,
+      "glyphA": { "type": "fill", "param": "full" }, "glyphB": { "type": "fill", "param": "empty" } },
+    { "wordA": "big", "wordB": "small", "dimension": "size", "type": "gradable", "complementary": true,
+      "glyphA": { "type": "size", "param": "big" }, "glyphB": { "type": "size", "param": "small" } },
+    { "wordA": "hot", "wordB": "cold", "dimension": "temperature", "type": "gradable", "complementary": true,
+      "glyphA": { "type": "temp", "param": "hot" }, "glyphB": { "type": "temp", "param": "cold" } },
+    { "wordA": "happy", "wordB": "sad", "dimension": "emotion", "type": "gradable", "complementary": true,
+      "glyphA": { "type": "face", "param": "happy" }, "glyphB": { "type": "face", "param": "sad" } }
+  ]
+}

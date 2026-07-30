@@ -826,6 +826,31 @@
     "metaTitle": "Cerchi per classificare — diagramma di Venn e indovina la regola",
     "metaDescription": "Strumento gratuito per classificare alla scuola dell’infanzia e primaria: due cerchi che si sovrappongono, una regola segreta, e decide il cerchio."
   },
+  "number-balance": {
+    "slug": "bilancia-dei-numeri",
+    "name": "Bilancia dei numeri",
+    "tagline": "L’asta pende — nessuno deve dire «sbagliato», e quanto pende dice di quanto ci si è allontanati.",
+    "about": [
+      "La Bilancia dei numeri è un’asta su un perno con un piatto appeso a ogni estremità. I bambini ci trascinano dentro le tessere-numero; un piatto vale la somma delle sue tessere; e l’asta è dritta solo quando i due lati valgono la stessa cosa.",
+      "I bambini leggono il segno di uguale come «ed ecco il risultato». Così 8 = 3 + 5 sembra loro al contrario, e davanti a 3 + 5 = □ + 2 la grande maggioranza scrive 8. È l’errore più documentato dell’aritmetica della scuola primaria ed è invisibile su una scheda. Qui il segno prende senso da un’asta dritta — uno stato del mondo che si vede, non un ordine di calcolare.",
+      "Il riscontro è la pendenza stessa, ed è analogica: quasi giusto pende poco, del tutto sbagliato crolla. Il bambino vede di quanto ha sbagliato e nessuno dice «sbagliato». Due mosse dell’insegnante lo rendono una lezione: tenere ferma l’asta perché la classe preveda da che parte andrà, e coprire un piatto con un telo — «che cosa deve esserci sotto perché sia dritta?». Con la notazione attiva lo strumento scrive che cosa fa l’asta: dritta è =, pendente è > o < verso il lato più pesante."
+    ],
+    "howToUse": [
+      "Aprila sullo schermo della classe. Due piatti vuoti, un vassoio di numeri, niente da impostare.",
+      "Trascina un numero in un piatto. L’asta si muove appena lasci. Toccare una tessera nel piatto la toglie.",
+      "Tocca «Tieni ferma l’asta» prima dell’ultima tessera e chiedi da che parte penderà. Poi lascia. Quella pausa è il minuto migliore dello strumento.",
+      "Copri un piatto e costruisci l’altro. «Che cosa deve esserci sotto il telo perché sia dritta?» è la domanda sull’addendo mancante.",
+      "All’inizio lascia spenti i totali e la notazione. Accendili quando la classe ha smesso di calcolare e ha cominciato a guardare."
+    ],
+    "classroomIdeas": [
+      "Metti l’8 da solo a sinistra e chiedi alla classe di pareggiarlo a destra. Scrivere poi 8 = 3 + 5 sembra ovvio invece che al contrario.",
+      "Costruisci 3 + 5 a sinistra e solo il 2 a destra, poi chiedi che cosa manca. L’asta dice se la proposta era vicina.",
+      "Aggiungi 2 da una parte e chiedi che cosa deve succedere dall’altra. La compensazione si spiega male e si guarda benissimo.",
+      "Usa la pendenza come conversazione: «ha pesato solo un pochino — che cosa ci dice?»"
+    ],
+    "metaTitle": "Bilancia dei numeri — il segno di uguale come un’asta | Gratis",
+    "metaDescription": "Bilancia gratuita per la scuola primaria: costruire i due lati, vedere l’asta pendere e capire che dritta vuol dire «tanto quanto». Niente viene corretto."
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

@@ -826,6 +826,31 @@
     "metaTitle": "Sorteerhoepels — venndiagram en raad mijn regel | Gratis gereedschap",
     "metaDescription": "Gratis sorteergereedschap voor groep 1-4: twee overlappende hoepels, een geheime regel, en de hoepel beslist. Sorteren op kenmerk, klank of betekenis."
   },
+  "number-balance": {
+    "slug": "getallenbalans",
+    "name": "Getallenbalans",
+    "tagline": "De balk kantelt — niemand hoeft «fout» te zeggen, en hoe ver hij kantelt zegt hoeveel het scheelt.",
+    "about": [
+      "De Getallenbalans is een balk op een draaipunt met aan elk uiteinde een schaal. Kinderen slepen er getalfiches in; een schaal is de som van zijn fiches waard; en de balk is alleen recht als beide kanten evenveel waard zijn.",
+      "Kinderen lezen het isgelijkteken als «en hier komt het antwoord». Daardoor ziet 8 = 3 + 5 er voor hen omgekeerd uit, en bij 3 + 5 = □ + 2 schrijft de grote meerderheid 8. Het is de best gedocumenteerde misvatting in het rekenen van de onderbouw en op een werkblad is die onzichtbaar. Hier krijgt het teken zijn betekenis van een rechte balk — een toestand die je ziet, geen opdracht om te rekenen.",
+      "De terugkoppeling is het kantelen zelf, en die is analoog: bijna goed helt een beetje, ver ernaast klapt door. Een kind ziet hoeveel het scheelt en niemand zegt «fout». Twee zetten van de leerkracht maken er een les van: de balk vasthouden zodat de klas voorspelt welke kant hij op gaat, en een doek over een schaal leggen — «wat moet eronder liggen om het recht te krijgen?». Met notatie aan schrijft het gereedschap op wat de balk doet: recht is =, gekanteld is > of < naar de zwaardere kant."
+    ],
+    "howToUse": [
+      "Open het op het klassenscherm. Twee lege schalen, een blad met getallen, niets in te stellen.",
+      "Sleep een getal in een schaal. De balk beweegt zodra u loslaat. Op een fiche in de schaal tikken haalt het er weer uit.",
+      "Tik op «Balk vasthouden» vóór het laatste fiche en vraag de klas welke kant hij op gaat. Dan loslaten. Die pauze is de beste minuut van het gereedschap.",
+      "Dek één schaal af en bouw de andere. «Wat moet er onder de doek liggen om het recht te krijgen?» is de vraag naar het ontbrekende getal.",
+      "Laat de totalen en de notatie eerst uit. Zet ze aan als de klas gestopt is met rekenen en begonnen is met kijken."
+    ],
+    "classroomIdeas": [
+      "Leg de 8 alleen links en laat de klas rechts hetzelfde maken. Daarna voelt 8 = 3 + 5 vanzelfsprekend in plaats van omgekeerd.",
+      "Bouw links 3 + 5 en rechts alleen de 2, en vraag wat er mist. De balk zegt of de gok dichtbij was.",
+      "Leg er aan één kant 2 bij en vraag wat er aan de andere kant moet gebeuren. Compenseren laat zich slecht uitleggen en prima bekijken.",
+      "Gebruik het kantelen als gesprek: «hij helde maar een beetje — wat zegt ons dat?»"
+    ],
+    "metaTitle": "Getallenbalans — het isgelijkteken als een balk | Gratis tool",
+    "metaDescription": "Gratis balans voor groep 1-4: bouw beide kanten, zie de balk kantelen en begrijp dat recht «evenveel als» betekent. Er wordt niets nagekeken."
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

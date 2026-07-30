@@ -804,6 +804,31 @@
     "metaTitle": "Lajitteluvanteet — venn-kaavio ja arvaa sääntöni | Maksuton työkalu",
     "metaDescription": "Maksuton lajittelutyökalu esi- ja alkuopetukseen: kaksi päällekkäistä vannetta, salainen sääntö, ja vanne päättää."
   },
+  "number-balance": {
+    "slug": "lukuvaaka",
+    "name": "Lukuvaaka",
+    "tagline": "Vipu kallistuu — kenenkään ei tarvitse sanoa «väärin», ja kallistuman koko kertoo, kuinka kaukana ollaan.",
+    "about": [
+      "Lukuvaaka on vipu tukipisteen päällä, ja kummassakin päässä roikkuu kuppi. Lapset vetävät lukulaattoja kuppeihin; kupin arvo on sen laattojen summa; ja vipu on suorassa vain silloin, kun molemmat puolet ovat yhtä arvokkaat.",
+      "Lapset lukevat yhtäsuuruusmerkin niin, että «tästä tulee vastaus». Siksi 8 = 3 + 5 näyttää heistä väärinpäin, ja tehtävässä 3 + 5 = □ + 2 valtaosa kirjoittaa 8. Se on alkuopetuksen laskennan parhaiten dokumentoitu virhekäsitys, eikä se näy tehtävämonisteessa lainkaan. Täällä merkki saa merkityksensä suorasta vivusta — maailman tilasta, jonka näkee, ei kehotuksesta laskea.",
+      "Palaute on itse kallistuma, ja se on liukuva: melkein oikein kallistuu vähän, aivan pielessä painuu pohjaan. Lapsi näkee, kuinka kaukana on, eikä kukaan sano «väärin». Kaksi opettajan siirtoa tekee tästä oppitunnin: pidä vipua paikallaan, jotta luokka ennustaa kumpaan suuntaan se lähtee, ja peitä toinen kuppi liinalla — «mitä liinan alla pitää olla, jotta vipu on suorassa?». Kun kirjoitusasu on päällä, työkalu kirjoittaa mitä vipu tekee: suora on =, kallistunut on > tai < raskaampaan suuntaan."
+    ],
+    "howToUse": [
+      "Avaa se luokan näytölle. Kaksi tyhjää kuppia, tarjotin lukuja, mitään ei tarvitse asettaa.",
+      "Vedä luku kuppiin. Vipu liikkuu heti kun päästät irti. Kupissa olevan laatan napauttaminen ottaa sen pois.",
+      "Napauta «Pidä vipua paikallaan» ennen viimeistä laattaa ja kysy luokalta, kumpaan suuntaan se kallistuu. Päästä sitten irti. Se tauko on työkalun paras minuutti.",
+      "Peitä toinen kuppi ja rakenna toinen. «Mitä liinan alla pitää olla, jotta vipu on suorassa?» on kysymys puuttuvasta yhteenlaskettavasta.",
+      "Pidä summat ja kirjoitusasu aluksi pois päältä. Laita ne päälle, kun luokka on lakannut laskemasta ja alkanut katsoa."
+    ],
+    "classroomIdeas": [
+      "Laita 8 yksin vasemmalle ja pyydä luokkaa tekemään oikealle sama verran. Sen jälkeen 8 = 3 + 5 tuntuu itsestään selvältä eikä väärinpäin olevalta.",
+      "Rakenna vasemmalle 3 + 5 ja oikealle pelkkä 2, ja kysy mitä puuttuu. Vipu kertoo, oliko arvaus lähellä.",
+      "Lisää toiselle puolelle 2 ja kysy, mitä toisella puolella pitää tapahtua. Tasoittamista on vaikea selittää ja helppo katsoa.",
+      "Käytä kallistumaa keskusteluna: «se kallistui vain vähän — mitä se meille kertoo?»"
+    ],
+    "metaTitle": "Lukuvaaka — yhtäsuuruusmerkki vipuna | Maksuton työkalu",
+    "metaDescription": "Maksuton vaaka esi- ja alkuopetukseen: rakenna molemmat puolet, katso vivun kallistuvan ja ymmärrä että suora tarkoittaa «yhtä paljon». Mitään ei arvioida."
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

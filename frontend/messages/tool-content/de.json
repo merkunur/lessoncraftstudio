@@ -827,6 +827,31 @@
     "metaTitle": "Sortierreifen — Ordnen nach Merkmalen | Kostenloses Werkzeug",
     "metaDescription": "Kostenloses Sortierwerkzeug für die Grundschule: zwei überlappende Reifen, eine geheime Regel, und der Reifen entscheidet. Nach Merkmal, Laut oder Bedeutung ordnen."
   },
+  "number-balance": {
+    "slug": "zahlenwaage",
+    "name": "Zahlenwaage",
+    "tagline": "Der Balken kippt — niemand muss „falsch“ sagen, und wie weit er kippt, zeigt, wie weit es daneben ist.",
+    "about": [
+      "Die Zahlenwaage ist ein Balken auf einem Drehpunkt mit je einer Schale an jedem Ende. Kinder ziehen Zahlenplättchen hinein; eine Schale ist so viel wert wie die Summe ihrer Plättchen; und der Balken ist nur dann waagerecht, wenn beide Seiten gleich viel wert sind.",
+      "Kinder lesen das Gleichheitszeichen als „und jetzt kommt das Ergebnis“. Deshalb sieht 8 = 3 + 5 für sie verkehrt herum aus, und bei 3 + 5 = □ + 2 schreibt die große Mehrheit eine 8. Es ist die am besten dokumentierte Fehlvorstellung der Grundschulmathematik, und auf einem Arbeitsblatt ist sie unsichtbar. Hier bekommt das Zeichen seine Bedeutung von einem waagerechten Balken — von einem Zustand, den man sehen kann, nicht von einer Rechenaufforderung.",
+      "Die Rückmeldung ist das Kippen selbst, und sie ist analog: knapp daneben neigt sich leicht, weit daneben schlägt durch. Ein Kind sieht, wie weit es daneben liegt, und niemand sagt „falsch“. Zwei Lehrerzüge machen daraus eine Stunde: den Balken festhalten, damit die Klasse vorhersagt, wohin er kippt, und ein Tuch über eine Schale legen — „was muss darunter liegen, damit es waagerecht wird?“. Mit eingeschalteter Notation schreibt das Werkzeug auf, was der Balken tut: waagerecht ist =, gekippt ist > oder < in Richtung der schwereren Seite."
+    ],
+    "howToUse": [
+      "Am Klassenbildschirm öffnen. Zwei leere Schalen, ein Tablett mit Zahlen, nichts einzurichten.",
+      "Ziehen Sie eine Zahl in eine Schale. Der Balken bewegt sich, sobald Sie loslassen. Ein Plättchen in der Schale antippen nimmt es wieder heraus.",
+      "Tippen Sie vor dem letzten Plättchen auf „Balken festhalten“ und fragen Sie die Klasse, wohin er kippen wird. Dann loslassen. Diese Pause ist die beste Minute im Werkzeug.",
+      "Decken Sie eine Schale zu und bauen Sie die andere. „Was muss unter dem Tuch liegen, damit es waagerecht wird?“ ist die Frage nach dem fehlenden Summanden.",
+      "Lassen Sie Summen und Notation zuerst aus. Schalten Sie sie ein, wenn die Klasse aufgehört hat zu rechnen und angefangen hat zu schauen."
+    ],
+    "classroomIdeas": [
+      "Legen Sie die 8 allein nach links und lassen Sie die Klasse rechts dasselbe bauen. Danach ist 8 = 3 + 5 selbstverständlich statt verkehrt herum.",
+      "Bauen Sie links 3 + 5 und rechts nur die 2 und fragen Sie, was fehlt. Der Balken sagt, ob die Vermutung nah dran war.",
+      "Legen Sie auf einer Seite 2 dazu und fragen Sie, was auf der anderen passieren muss. Ausgleichen lässt sich kaum erklären und fast von selbst beobachten.",
+      "Nutzen Sie das Kippen als Gespräch: „Es hat sich nur ein bisschen geneigt — was sagt uns das?“ Die Größe der Neigung ist eine Information."
+    ],
+    "metaTitle": "Zahlenwaage — das Gleichheitszeichen als Balken | Kostenlos",
+    "metaDescription": "Kostenlose Zahlenwaage für die Grundschule: beide Seiten selbst bauen, den Balken kippen sehen und begreifen, dass waagerecht „gleich viel“ heißt. Ohne Bewertung."
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

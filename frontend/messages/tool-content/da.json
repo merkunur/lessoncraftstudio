@@ -751,6 +751,31 @@
     "metaTitle": "Del tallet op — helhed og dele | Gratis til 1. klasse",
     "metaDescription": "Taldeling i 1. klasse: bær en brik over, og helheden er den samme. Dæk helheden eller en del til, og hør opdelingen. Gratis, uden konto og uden point."
   },
+  "dictation-desk": {
+    "slug": "diktat",
+    "name": "Diktatbordet",
+    "tagline": "Du siger ordet, de skriver det — og så bliver det afdækket, én lyd ad gangen.",
+    "about": [
+      "Diktatbordet er den anden halvdel af stavearbejdet. Det meste af tiden læser børnene ord på en skærm; her skriver de et ned og finder bagefter ud af, om det passer. Du siger ordet, klassen skriver det på papir, og med et enkelt tryk bliver ordet afdækket på tavlen — én del ad gangen, og tolydsstavelser som ng og sj kommer hele, for de er én lyd hver.",
+      "Der bliver ikke tastet noget ind i dette værktøj, og der bliver ikke rettet noget. Barnets eget hæfte er facit: kontrollen sker med det samme, i fred, og tilhører barnet — og derfor kigger det faktisk. Og fordi ordet kommer frem i dele, opdager barnet ikke bare AT det gik galt, men HVOR, og det er forskellen på en rettelse og en lektion.",
+      "Bogstaver, man skriver, men ikke hører, får deres eget øjeblik til sidst: de vises, men siges aldrig. Ordsættene kommer fra den samme kontrollerede samling, som værktøjet Lydbokse bruger, så delene er dem, et rigtigt staveforløb bruger, og ikke et gæt. Alt det er gratis; de senere ordsæt, dine egne ugelister og udskriftsarket er en del af Lærerpakken."
+    ],
+    "howToUse": [
+      "Vis bordet på projektoren, og vælg et ordsæt. Der er ikke noget at se endnu — tavlen er dækket til, og det er netop det, der gør det til en diktat.",
+      "Tryk på „Sig ordet“. Giv klassen al den tid, den har brug for, til at skrive det på papir; bordet går aldrig videre af sig selv.",
+      "Tryk på „Afdæk én“, og sig delen sammen med klassen, så snart den dukker op. Og sådan videre, én del ad gangen.",
+      "Lad hvert barn sammenligne med sit eget hæfte. Saml ikke noget ind, og spørg ikke, hvem der havde ret — den stille selvkontrol er hele mekanismen.",
+      "„Næste ord“, når klassen er klar. „Sig det igen“ er der til det barn, der har brug for at høre det en gang til."
+    ],
+    "classroomIdeas": [
+      "Fem ord i starten af hver stavelektion, fra det ordsæt, der passer til det, I arbejdede med i sidste uge.",
+      "Spørg før afdækningen, hvor mange lyde de tror, ordet har, og tæl så de tildækkede felter sammen.",
+      "Når der til sidst dukker et stumt bogstav op: spørg, hvem der huskede det — ikke hvem der havde hele ordet rigtigt.",
+      "Læg din egen ugeliste ind under „Mine ord“, og marker hvilke bogstaver der hører sammen, så bordet deler dine ord, som du lærer dem fra dig."
+    ],
+    "metaTitle": "Diktatbordet — diktat på tavlen | Gratis",
+    "metaDescription": "Diktat til 1. og 2. klasse: du siger ordet, klassen skriver det på papir, og så bliver det afdækket én lyd ad gangen. Hvert barn retter selv. Ingen point."
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

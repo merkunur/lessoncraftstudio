@@ -751,6 +751,31 @@
     "metaTitle": "Dela upp tal — helhet och delar | Gratis för åk 1",
     "metaDescription": "Dela upp tal i årskurs 1: flytta en bricka och helheten är kvar. Täck över helheten eller en del och hör uppdelningen. Gratis, utan konto och utan poäng."
   },
+  "dictation-desk": {
+    "slug": "diktamen",
+    "name": "Diktamensbänken",
+    "tagline": "Du säger ordet, de skriver det — sedan tas det fram, ett ljud i taget.",
+    "about": [
+      "Diktamensbänken är den andra halvan av stavningsarbetet. För det mesta läser barnen ord från en skärm; här skriver de ner ett och får sedan veta om det blev rätt. Du säger ordet, klassen skriver det på papper, och med en tryckning tas ordet fram på tavlan — en del i taget, och tvåteckensljud som sj och ng kommer hela, för de är ett ljud var.",
+      "Ingenting skrivs in i det här verktyget och ingenting rättas av det. Barnets eget häfte är facit: kontrollen sker direkt, i enrum, och tillhör barnet — och därför tittar det faktiskt. Och eftersom ordet kommer fram i delar upptäcker barnet inte bara ATT det blev fel, utan VAR, och det är skillnaden mellan en rättning och en lektion.",
+      "Bokstäver man skriver men inte hör får sitt eget ögonblick på slutet: de syns, men sägs aldrig. Ordsamlingarna kommer från samma kontrollerade bank som verktyget Ljudrutor använder, så delarna är de som en riktig läslära använder och inte en gissning. Allt detta är gratis; de senare ordsamlingarna, dina egna veckolistor och utskriftsbladet ingår i Lärarpaketet."
+    ],
+    "howToUse": [
+      "Visa bänken på projektorn och välj en ordsamling. Ingenting syns ännu — tavlan är övertäckt, och det är just det som gör det till en diktamen.",
+      "Tryck på „Säg ordet“. Ge klassen all den tid den behöver för att skriva det på papper; bänken går aldrig vidare av sig själv.",
+      "Tryck på „Ta fram ett“ och säg delen tillsammans med klassen när den dyker upp. Och så vidare, en del i taget.",
+      "Låt varje barn jämföra med sitt eget häfte. Samla inte in något och fråga inte vem som hade rätt — den tysta självkontrollen är hela poängen.",
+      "„Nästa ord“ när klassen är redo. „Säg det igen“ finns för barnet som behöver höra det en gång till."
+    ],
+    "classroomIdeas": [
+      "Fem ord i början av varje stavningslektion, ur den samling som hör ihop med det ni arbetade med förra veckan.",
+      "Fråga före framtagningen hur många ljud de tror att ordet har, och räkna sedan de övertäckta rutorna tillsammans.",
+      "När en stum bokstav dyker upp på slutet: fråga vem som kom ihåg den — inte vem som hade hela ordet rätt.",
+      "Lägg in din egen veckolista under „Mina ord“ och markera vilka bokstäver som hör ihop, så delar bänken dina ord som du lär ut dem."
+    ],
+    "metaTitle": "Diktamensbänken — diktamen på tavlan | Gratis",
+    "metaDescription": "Diktamen för åk 1 och 2: du säger ordet, klassen skriver det på papper och sedan tas det fram ett ljud i taget. Varje barn rättar själv. Inga poäng."
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

@@ -751,6 +751,31 @@
     "metaTitle": "Del opp tallet — helhet og deler | Gratis for 1. trinn",
     "metaDescription": "Tallvenner på 1. trinn: bær en brikke over, og helheten er den samme. Dekk til helheten eller en del og hør oppdelingen. Gratis, uten konto og uten poeng."
   },
+  "dictation-desk": {
+    "slug": "diktat",
+    "name": "Diktatpulten",
+    "tagline": "Du sier ordet, de skriver det — og så blir det avdekket, én lyd om gangen.",
+    "about": [
+      "Diktatpulten er den andre halvdelen av rettskrivingsarbeidet. Mesteparten av tiden leser barna ord fra en skjerm; her skriver de ned ett og finner etterpå ut om det stemmer. Du sier ordet, klassen skriver det på papiret, og med ett trykk blir ordet avdekket på tavla — én del om gangen, og tolydsgrupper som ng, kj og skj kommer hele, for de er én lyd hver.",
+      "Ingenting skrives inn i dette verktøyet, og ingenting blir rettet av det. Barnets egen bok er fasiten: kontrollen skjer med en gang, i fred, og tilhører barnet — og derfor ser det faktisk etter. Og fordi ordet kommer fram i deler, oppdager barnet ikke bare AT det ble feil, men HVOR, og det er forskjellen på en retting og en leksjon.",
+      "Bokstaver man skriver, men ikke hører, får sitt eget øyeblikk til slutt: de vises, men sies aldri. Ordsettene kommer fra den samme kontrollerte samlingen som verktøyet Lydbokser bruker, så delene er de som et ekte leseopplegg bruker, og ikke en gjetning. Alt dette er gratis; de senere ordsettene, dine egne ukelister og utskriftsarket er en del av Lærerpakken."
+    ],
+    "howToUse": [
+      "Vis pulten på projektoren og velg et ordsett. Det er ingenting å se ennå — tavla er tildekket, og det er nettopp det som gjør det til en diktat.",
+      "Trykk på „Si ordet“. Gi klassen all den tiden den trenger til å skrive det på papiret; pulten går aldri videre av seg selv.",
+      "Trykk på „Avdekk én“ og si delen sammen med klassen med en gang den dukker opp. Og slik videre, én del om gangen.",
+      "La hvert barn sammenligne med sin egen bok. Ikke samle inn noe og ikke spør hvem som hadde rett — den stille egenkontrollen er hele poenget.",
+      "„Neste ord“ når klassen er klar. „Si det igjen“ er der for barnet som trenger å høre det en gang til."
+    ],
+    "classroomIdeas": [
+      "Fem ord i starten av hver rettskrivingsøkt, fra ordsettet som hører til det dere jobbet med forrige uke.",
+      "Spør før avdekkingen hvor mange lyder de tror ordet har, og tell så de tildekte rutene sammen.",
+      "Når det dukker opp en stum bokstav til slutt: spør hvem som husket den — ikke hvem som hadde hele ordet riktig.",
+      "Legg inn din egen ukeliste under „Mine ord“ og marker hvilke bokstaver som hører sammen, så deler pulten ordene dine slik du lærer dem bort."
+    ],
+    "metaTitle": "Diktatpulten — diktat på tavla | Gratis",
+    "metaDescription": "Diktat for 1. og 2. trinn: du sier ordet, klassen skriver det på papiret, og så blir det avdekket én lyd om gangen. Hvert barn retter selv. Ingen poeng."
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

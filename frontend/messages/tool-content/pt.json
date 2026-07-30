@@ -751,6 +751,31 @@
     "metaTitle": "Decompor números — o todo e as partes | Grátis",
     "metaDescription": "Decomposição de números no 1.º ano: leve uma ficha e o todo continua igual. Cubra o todo ou uma parte e ouça a decomposição. Grátis, sem conta."
   },
+  "dictation-desk": {
+    "slug": "ditado",
+    "name": "A carteira de ditado",
+    "tagline": "Você diz a palavra, eles escrevem — e depois ela se descobre, pedaço a pedaço.",
+    "about": [
+      "A carteira de ditado é a outra metade do trabalho com a escrita. Quase sempre as crianças leem palavras na tela; aqui elas escrevem uma e depois descobrem se acertaram. Você diz a palavra, a turma escreve no papel, e com um toque a palavra se descobre na lousa, um pedaço de cada vez — e as sílabas chegam inteiras, porque é assim que se lê e se escreve em português.",
+      "Nesta ferramenta não se digita nada e nada é corrigido por ela. O caderno da criança é a resposta: a conferência é imediata, particular e dela — e é por isso que ela olha de verdade. E como a palavra aparece em partes, a criança não descobre só QUE errou, mas ONDE, que é a diferença entre uma correção e uma aula.",
+      "As letras que se escrevem mas não se ouvem têm o seu momento no fim: aparecem, nunca são pronunciadas. Os conjuntos de palavras vêm da mesma coleção verificada que a ferramenta Caixas de sons usa, então os pedaços são os de um método de verdade e não um palpite. Tudo isso é gratuito; os conjuntos seguintes, as suas listas da semana e a folha para imprimir fazem parte do plano Professor."
+    ],
+    "howToUse": [
+      "Projete a carteira e escolha um conjunto de palavras. Ainda não se vê nada — a lousinha está coberta, e é isso que faz dela um ditado.",
+      "Toque em « Dizer a palavra ». Dê à turma todo o tempo de que precisar para escrever; a carteira nunca avança sozinha.",
+      "Toque em « Descobrir um » e digam o pedaço junto assim que ele aparecer. E assim por diante, um de cada vez.",
+      "Deixe cada criança comparar com o próprio caderno. Não recolha nada e não pergunte quem acertou — a conferência silenciosa é todo o mecanismo.",
+      "« Próxima palavra » quando a turma estiver pronta. « Dizer de novo » está ali para quem precisa ouvir mais uma vez."
+    ],
+    "classroomIdeas": [
+      "Cinco palavras no começo de cada aula de escrita, do conjunto que corresponde ao que você ensinou na semana passada.",
+      "Antes de descobrir, pergunte quantas sílabas eles acham que tem e contem juntos os quadradinhos cobertos.",
+      "Quando aparecer no fim uma letra que não se ouve, pergunte quem lembrou dela — não quem acertou a palavra.",
+      "Coloque a sua lista em « As minhas palavras » e marque que letras andam juntas, para a carteira dividir as suas palavras como você ensina."
+    ],
+    "metaTitle": "Carteira de ditado — ditado na lousa | Grátis",
+    "metaDescription": "Ditado para o 1.º e 2.º ano: você diz a palavra, a turma escreve no papel e depois ela se descobre pedaço a pedaço. Cada um confere sozinho. Sem nota."
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

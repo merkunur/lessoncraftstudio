@@ -826,6 +826,31 @@
     "metaTitle": "Aros para clasificar — diagrama de Venn y adivina mi regla | Gratis",
     "metaDescription": "Herramienta gratuita para clasificar en infantil y primaria: dos aros que se cruzan, una regla secreta, y decide el aro. Clasificar por atributo, sonido o significado."
   },
+  "number-balance": {
+    "slug": "balanza-numerica",
+    "name": "Balanza numérica",
+    "tagline": "El brazo se inclina — nadie tiene que decir «mal», y cuánto se inclina dice cuánto falta.",
+    "about": [
+      "La Balanza numérica es un brazo sobre un eje con un platillo colgando de cada extremo. Los niños arrastran fichas de números dentro; un platillo vale la suma de sus fichas; y el brazo solo queda recto cuando los dos lados valen lo mismo.",
+      "Los niños leen el signo igual como «y aquí viene la respuesta». Por eso 8 = 3 + 5 les parece al revés, y ante 3 + 5 = □ + 2 la gran mayoría escribe 8. Es el error mejor documentado de la aritmética de primaria y en una ficha es invisible. Aquí el signo toma su sentido de un brazo recto — un estado del mundo que se ve, no una orden de calcular.",
+      "La respuesta es la inclinación misma, y es analógica: casi acertado se inclina poco, muy equivocado se desploma. El niño ve cuánto le falta y nadie dice «mal». Dos gestos del docente lo convierten en clase: sujetar el brazo para que el grupo prediga hacia dónde irá, y tapar un platillo con una tela — «¿qué tiene que haber debajo para que quede recto?». Con la notación activada, la herramienta escribe lo que hace el brazo: recto es =, inclinado es > o < señalando el lado más pesado."
+    ],
+    "howToUse": [
+      "Ábrela en la pantalla del aula. Dos platillos vacíos, una bandeja de números, nada que configurar.",
+      "Arrastra un número a un platillo. El brazo se mueve en cuanto sueltas. Tocar una ficha del platillo la retira.",
+      "Toca «Sujetar el brazo» antes de la última ficha y pregunta hacia dónde se inclinará. Luego suelta. Esa pausa es el mejor minuto de la herramienta.",
+      "Tapa un platillo y construye el otro. «¿Qué tiene que haber debajo de la tela para que quede recto?» es la pregunta del sumando que falta.",
+      "Deja al principio los totales y la notación apagados. Enciéndelos cuando el grupo haya dejado de calcular y se haya puesto a mirar."
+    ],
+    "classroomIdeas": [
+      "Pon el 8 solo a la izquierda y pide al grupo que lo iguale a la derecha. Escribir después 8 = 3 + 5 resulta evidente en vez de al revés.",
+      "Construye 3 + 5 a la izquierda y solo el 2 a la derecha, y pregunta qué falta. El brazo dice si la propuesta estaba cerca.",
+      "Añade 2 a un lado y pregunta qué tiene que pasar en el otro. La compensación se explica mal y se observa muy bien.",
+      "Usa la inclinación como conversación: «se inclinó solo un poquito, ¿qué nos dice eso?»"
+    ],
+    "metaTitle": "Balanza numérica — el signo igual como un brazo | Gratis",
+    "metaDescription": "Balanza gratuita para infantil y primaria: construir los dos lados, ver inclinarse el brazo y entender que recto significa «lo mismo». No se corrige nada."
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

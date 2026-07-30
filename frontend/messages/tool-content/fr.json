@@ -826,6 +826,31 @@
     "metaTitle": "Cerceaux de tri — diagramme de Venn et devine ma règle | Gratuit",
     "metaDescription": "Outil de tri gratuit pour la maternelle et le CP : deux cerceaux qui se croisent, une règle secrète, et c’est le cerceau qui décide. Trier par attribut, son ou sens."
   },
+  "number-balance": {
+    "slug": "balance-des-nombres",
+    "name": "Balance des nombres",
+    "tagline": "Le fléau penche — personne n’a besoin de dire « faux », et l’ampleur du penchant dit de combien on s’est trompé.",
+    "about": [
+      "La Balance des nombres, c’est un fléau sur un pivot avec un plateau suspendu à chaque bout. Les enfants y font glisser des jetons-nombres ; un plateau vaut la somme de ses jetons ; et le fléau n’est horizontal que si les deux côtés valent la même chose.",
+      "Les enfants lisent le signe égal comme « et voici la réponse ». Alors 8 = 3 + 5 leur paraît à l’envers, et devant 3 + 5 = □ + 2 une large majorité écrit 8. C’est l’erreur la mieux documentée du calcul à l’école élémentaire, et elle est invisible sur une fiche. Ici le signe prend son sens dans un fléau horizontal — un état du monde qu’on voit, pas une consigne de calcul.",
+      "Le retour, c’est le penchant lui-même, et il est analogique : presque juste penche un peu, très faux bascule d’un coup. L’enfant voit de combien il s’est trompé et personne ne dit « faux ». Deux gestes de l’enseignant en font une leçon : bloquer le fléau pour que la classe prédise de quel côté il ira, et couvrir un plateau d’un tissu — « que faut-il dessous pour que ce soit horizontal ? ». Avec la notation activée, l’outil écrit ce que fait le fléau : horizontal, c’est = ; penché, c’est > ou < vers le côté le plus lourd."
+    ],
+    "howToUse": [
+      "Ouvrez-le sur l’écran de la classe. Deux plateaux vides, un plateau de nombres, rien à installer.",
+      "Faites glisser un nombre dans un plateau. Le fléau bouge dès que vous lâchez. Toucher un jeton posé le retire.",
+      "Touchez « Bloquer le fléau » avant le dernier jeton et demandez de quel côté il penchera. Puis lâchez. Cette pause est la meilleure minute de l’outil.",
+      "Couvrez un plateau et construisez l’autre. « Que faut-il sous le tissu pour que ce soit horizontal ? » est la question du terme manquant.",
+      "Laissez d’abord les totaux et la notation désactivés. Activez-les quand la classe a cessé de calculer et s’est mise à regarder."
+    ],
+    "classroomIdeas": [
+      "Posez le 8 seul à gauche et demandez à la classe de faire pareil à droite. Écrire 8 = 3 + 5 ensuite paraît évident au lieu d’être à l’envers.",
+      "Construisez 3 + 5 à gauche et seulement 2 à droite, puis demandez ce qui manque. Le fléau dit si la proposition était proche.",
+      "Ajoutez 2 d’un côté et demandez ce qui doit se passer de l’autre. La compensation s’explique mal et s’observe très bien.",
+      "Servez-vous du penchant comme d’une discussion : « ça a très peu penché — qu’est-ce que ça nous dit ? »"
+    ],
+    "metaTitle": "Balance des nombres — le signe égal comme un fléau | Gratuit",
+    "metaDescription": "Balance gratuite pour la maternelle et le CP : construire les deux côtés, voir le fléau pencher, comprendre qu’horizontal veut dire « autant que ». Rien n’est corrigé."
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

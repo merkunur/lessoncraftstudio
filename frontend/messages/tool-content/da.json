@@ -826,6 +826,31 @@
     "metaTitle": "Sorteringsringe — venndiagram og gæt min regel | Gratis værktøj",
     "metaDescription": "Gratis sorteringsværktøj til børnehaveklassen og indskolingen: to overlappende ringe, en hemmelig regel, og det er ringen, der afgør det."
   },
+  "number-balance": {
+    "slug": "talvagt",
+    "name": "Talvægt",
+    "tagline": "Bjælken vipper — ingen behøver sige «forkert», og hvor meget den vipper viser, hvor langt fra man er.",
+    "about": [
+      "Talvægten er en bjælke på et omdrejningspunkt med en skål hængende i hver ende. Børnene trækker talbrikker ind; en skål er lige så meget værd som summen af sine brikker; og bjælken er kun lige, når de to sider er lige meget værd.",
+      "Børn læser lighedstegnet som «og her kommer svaret». Derfor ser 8 = 3 + 5 bagvendt ud for dem, og over for 3 + 5 = □ + 2 skriver et stort flertal 8. Det er den bedst dokumenterede misforståelse i indskolingens regning, og på et arbejdsark er den usynlig. Her får tegnet sin betydning fra en lige bjælke — en tilstand i verden, man kan se, ikke en opfordring til at regne.",
+      "Tilbagemeldingen er selve vippet, og den er analog: næsten rigtigt vipper lidt, helt forkert slår i bund. Barnet ser, hvor langt fra det er, og ingen siger «forkert». To lærertræk gør det til en lektion: hold bjælken, så klassen forudsiger, hvilken vej den går, og læg et klæde over en skål — «hvad skal ligge under, for at den bliver lige?». Med notationen slået til skriver værktøjet, hvad bjælken gør: lige er =, vippet er > eller < mod den tungeste side."
+    ],
+    "howToUse": [
+      "Åbn den på klassens skærm. To tomme skåle, en bakke med tal, intet at indstille.",
+      "Træk et tal ind i en skål. Bjælken bevæger sig, så snart du slipper. Tryk på en brik i skålen for at tage den ud igen.",
+      "Tryk på «Hold bjælken» før den sidste brik, og spørg klassen, hvilken vej den vipper. Slip så. Den pause er værktøjets bedste minut.",
+      "Dæk den ene skål til og byg den anden. «Hvad skal ligge under klædet, for at den bliver lige?» er spørgsmålet om det manglende tal.",
+      "Lad summerne og notationen være slået fra til at begynde med. Slå dem til, når klassen er holdt op med at regne og begyndt at kigge."
+    ],
+    "classroomIdeas": [
+      "Læg 8 alene til venstre, og lad klassen gøre det samme til højre. Bagefter føles 8 = 3 + 5 selvfølgeligt i stedet for bagvendt.",
+      "Byg 3 + 5 til venstre og kun 2 til højre, og spørg, hvad der mangler. Bjælken siger, om gættet var tæt på.",
+      "Læg 2 til på den ene side, og spørg, hvad der skal ske på den anden. Udligning er svær at forklare og let at se.",
+      "Brug vippet som en samtale: «den vippede kun en lille smule — hvad fortæller det os?»"
+    ],
+    "metaTitle": "Talvægt — lighedstegnet som en bjælke | Gratis værktøj",
+    "metaDescription": "Gratis vægt til børnehaveklassen og indskolingen: byg begge sider, se bjælken vippe og forstå, at lige betyder «lige meget». Intet bliver rettet."
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

@@ -826,6 +826,31 @@
     "metaTitle": "Sorteringsringer — venndiagram og gjett regelen | Gratis verktøy",
     "metaDescription": "Gratis sorteringsverktøy for 1.-3. trinn: to overlappende ringer, en hemmelig regel, og det er ringen som avgjør."
   },
+  "number-balance": {
+    "slug": "tallvekt",
+    "name": "Tallvekt",
+    "tagline": "Bjelken vipper — ingen trenger å si «feil», og hvor mye den vipper viser hvor langt unna man er.",
+    "about": [
+      "Tallvekta er en bjelke på et dreiepunkt med en skål hengende i hver ende. Barna drar inn tallbrikker; en skål er verdt summen av brikkene sine; og bjelken er bare rett når de to sidene er verdt like mye.",
+      "Barn leser likhetstegnet som «og her kommer svaret». Derfor ser 8 = 3 + 5 baklengs ut for dem, og foran 3 + 5 = □ + 2 skriver de aller fleste 8. Det er den best dokumenterte misoppfatningen i regning på småtrinnet, og på et arbeidsark er den usynlig. Her får tegnet meningen sin fra en rett bjelke — en tilstand i verden du kan se, ikke en oppfordring til å regne.",
+      "Tilbakemeldingen er selve vippingen, og den er analog: nesten riktig vipper litt, helt feil slår i bunnen. Barnet ser hvor langt unna det er, og ingen sier «feil». To lærergrep gjør det til en leksjon: hold bjelken så klassen forutsier hvilken vei den går, og legg et klede over en skål — «hva må ligge under for at den skal bli rett?». Med notasjonen på skriver verktøyet hva bjelken gjør: rett er =, vippet er > eller < mot den tyngste siden."
+    ],
+    "howToUse": [
+      "Åpne den på klassens skjerm. To tomme skåler, et brett med tall, ingenting å stille inn.",
+      "Dra et tall inn i en skål. Bjelken beveger seg med en gang du slipper. Trykk på en brikke i skåla for å ta den ut igjen.",
+      "Trykk på «Hold bjelken» før den siste brikka, og spør klassen hvilken vei den vipper. Slipp så. Den pausen er verktøyets beste minutt.",
+      "Dekk til den ene skåla og bygg den andre. «Hva må ligge under kledet for at den skal bli rett?» er spørsmålet om tallet som mangler.",
+      "La summene og notasjonen være av til å begynne med. Slå dem på når klassen har sluttet å regne og begynt å se."
+    ],
+    "classroomIdeas": [
+      "Legg 8 alene til venstre, og la klassen gjøre det samme til høyre. Etterpå føles 8 = 3 + 5 selvsagt i stedet for baklengs.",
+      "Bygg 3 + 5 til venstre og bare 2 til høyre, og spør hva som mangler. Bjelken sier om gjettet var nære.",
+      "Legg til 2 på den ene sida, og spør hva som må skje på den andre. Utjevning er vanskelig å forklare og lett å se.",
+      "Bruk vippingen som en samtale: «den vippet bare litt — hva forteller det oss?»"
+    ],
+    "metaTitle": "Tallvekt — likhetstegnet som en bjelke | Gratis verktøy",
+    "metaDescription": "Gratis vekt for 1.-3. trinn: bygg begge sidene, se bjelken vippe og forstå at rett betyr «like mye». Ingenting blir rettet."
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

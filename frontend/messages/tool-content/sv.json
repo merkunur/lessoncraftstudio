@@ -826,6 +826,31 @@
     "metaTitle": "Sorteringsringar — venndiagram och gissa min regel | Gratis verktyg",
     "metaDescription": "Gratis sorteringsverktyg för förskoleklass och lågstadiet: två överlappande ringar, en hemlig regel, och det är ringen som avgör."
   },
+  "number-balance": {
+    "slug": "talvag",
+    "name": "Talvåg",
+    "tagline": "Balken lutar — ingen behöver säga «fel», och hur mycket den lutar visar hur långt ifrån man är.",
+    "about": [
+      "Talvågen är en balk på ett vridcentrum med en skål hängande i varje ände. Barnen drar in talbrickor; en skål är värd summan av sina brickor; och balken är rak bara när de båda sidorna är värda lika mycket.",
+      "Barn läser likhetstecknet som «och här kommer svaret». Därför ser 8 = 3 + 5 baklänges ut för dem, och inför 3 + 5 = □ + 2 skriver en stor majoritet 8. Det är den mest dokumenterade missuppfattningen i lågstadiets räkning, och på ett arbetsblad syns den inte. Här får tecknet sin mening av en rak balk — ett tillstånd i världen som går att se, inte en uppmaning att räkna.",
+      "Återkopplingen är lutningen själv, och den är analog: nästan rätt lutar lite, helt fel slår i botten. Barnet ser hur långt ifrån det är och ingen säger «fel». Två lärardrag gör det till en lektion: håll balken så att klassen förutsäger åt vilket håll den ska, och lägg ett tyg över en skål — «vad måste ligga under för att den ska bli rak?». Med notationen på skriver verktyget vad balken gör: rak är =, lutande är > eller < mot den tyngre sidan."
+    ],
+    "howToUse": [
+      "Öppna den på klassens skärm. Två tomma skålar, en bricka med tal, inget att ställa in.",
+      "Dra in ett tal i en skål. Balken rör sig så fort du släpper. Att trycka på en bricka i skålen tar bort den igen.",
+      "Tryck på «Håll balken» före den sista brickan och fråga klassen åt vilket håll den lutar. Släpp sedan. Den pausen är verktygets bästa minut.",
+      "Täck en skål och bygg den andra. «Vad måste ligga under tyget för att den ska bli rak?» är frågan om den saknade termen.",
+      "Låt summorna och notationen vara avstängda till att börja med. Slå på dem när klassen har slutat räkna och börjat titta."
+    ],
+    "classroomIdeas": [
+      "Lägg 8 ensam till vänster och låt klassen göra likadant till höger. Att sedan skriva 8 = 3 + 5 känns självklart i stället för baklänges.",
+      "Bygg 3 + 5 till vänster och bara 2 till höger, och fråga vad som saknas. Balken säger om gissningen var nära.",
+      "Lägg till 2 på ena sidan och fråga vad som måste hända på den andra. Kompensation är svår att förklara och lätt att se.",
+      "Använd lutningen som ett samtal: «den lutade bara lite — vad säger det oss?»"
+    ],
+    "metaTitle": "Talvåg — likhetstecknet som en balk | Gratis verktyg",
+    "metaDescription": "Gratis våg för förskoleklass och lågstadiet: bygg båda sidorna, se balken luta och förstå att rak betyder «lika mycket». Ingenting rättas."
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

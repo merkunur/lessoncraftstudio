@@ -826,6 +826,31 @@
     "metaTitle": "Arcos de classificação — diagrama de Venn e adivinhe a regra | Grátis",
     "metaDescription": "Ferramenta gratuita de classificação para a educação infantil e anos iniciais: dois arcos que se cruzam, uma regra secreta, e quem decide é o arco."
   },
+  "number-balance": {
+    "slug": "balanca-numerica",
+    "name": "Balança numérica",
+    "tagline": "O braço pende — ninguém precisa dizer «errado», e o quanto ele pende mostra o quanto falta.",
+    "about": [
+      "A Balança numérica é um braço sobre um eixo com um prato pendurado em cada ponta. As crianças arrastam peças de números para dentro; um prato vale a soma das suas peças; e o braço só fica reto quando os dois lados valem a mesma coisa.",
+      "As crianças leem o sinal de igual como «e aqui vem a resposta». Por isso 8 = 3 + 5 parece de trás para a frente, e diante de 3 + 5 = □ + 2 a grande maioria escreve 8. É o erro mais documentado da aritmética dos anos iniciais e numa folha ele é invisível. Aqui o sinal ganha sentido a partir de um braço reto — um estado do mundo que dá para ver, não uma ordem de calcular.",
+      "A resposta é a inclinação em si, e ela é analógica: quase certo pende pouco, muito errado desaba. A criança vê o quanto errou e ninguém diz «errado». Dois gestos do professor transformam isso numa aula: segurar o braço para a turma prever para que lado vai, e tapar um prato com um pano — «o que tem de estar debaixo para ficar reto?». Com a notação ligada, a ferramenta escreve o que o braço faz: reto é =, pendido é > ou < apontando para o lado mais pesado."
+    ],
+    "howToUse": [
+      "Abra na tela da turma. Dois pratos vazios, uma bandeja de números, nada para configurar.",
+      "Arraste um número para um prato. O braço se mexe assim que você solta. Tocar numa peça do prato tira ela de volta.",
+      "Toque em «Segurar o braço» antes da última peça e pergunte para que lado vai pender. Depois solte. Essa pausa é o melhor minuto da ferramenta.",
+      "Tape um prato e construa o outro. «O que tem de estar debaixo do pano para ficar reto?» é a pergunta da parcela que falta.",
+      "No começo deixe os totais e a notação desligados. Ligue quando a turma tiver parado de calcular e começado a olhar."
+    ],
+    "classroomIdeas": [
+      "Ponha o 8 sozinho à esquerda e peça para a turma igualar à direita. Escrever depois 8 = 3 + 5 fica óbvio em vez de invertido.",
+      "Construa 3 + 5 à esquerda e só o 2 à direita, e pergunte o que falta. O braço diz se o palpite estava perto.",
+      "Acrescente 2 de um lado e pergunte o que precisa acontecer do outro. Compensação quase não dá para explicar e dá muito bem para ver.",
+      "Use a inclinação como conversa: «pendeu só um pouquinho — o que isso diz para a gente?»"
+    ],
+    "metaTitle": "Balança numérica — o sinal de igual como um braço | Grátis",
+    "metaDescription": "Balança gratuita para a educação infantil e anos iniciais: construir os dois lados, ver o braço pender e entender que reto quer dizer «a mesma coisa»."
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

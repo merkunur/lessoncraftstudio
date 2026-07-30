@@ -827,6 +827,31 @@
     "metaTitle": "Sorting Hoops — Venn Sorting & Guess My Rule | Free Tool",
     "metaDescription": "A free sorting instrument for K-2: two overlapping hoops, a hidden rule, and the hoop decides. Sort logic blocks or pictures by attribute, sound or meaning."
   },
+  "number-balance": {
+    "slug": "number-balance",
+    "name": "Number Balance",
+    "tagline": "The beam tips, so nobody has to say wrong — and the size of the tip tells you how far off you are.",
+    "about": [
+      "Number Balance is a beam on a fulcrum with a pan hanging at each end. Children drag number tiles into the pans; a pan is worth the sum of its tiles; and the beam is level only when the two sides are worth the same. That is the whole apparatus, and it exists to fix one thing.",
+      "Children read the equals sign as “and here comes the answer”. So 8 = 3 + 5 looks backwards to them, and asked to complete 3 + 5 = □ + 2 a large majority of K-2 children write 8. It is the most documented arithmetic misconception in the world and it is invisible on a worksheet, because a worksheet only ever shows the equals sign with a box after it. Here the sign gets its meaning from a beam that is level — a state of the world you can see, not an instruction to compute.",
+      "The feedback is the tip itself, and it is analog. A near miss leans a little; a wild miss slams down. A child can read how far off they are and act on it, and nothing anywhere says wrong. Two teacher moves make it a lesson: hold the beam so the class predicts which way it will go before you let go, and put a cloth over a pan and ask what must be underneath for it to balance. Turn notation on and the tool writes what the beam is doing — level is =, tipped is > or < pointing at the heavier side — which is exactly how those two signs should first be met."
+    ],
+    "howToUse": [
+      "Open it on the class screen. Two empty pans, a tray of numbers, nothing to set up.",
+      "Drag a number into a pan. The beam moves as soon as you let go. Drag more in, or tap a tile in a pan to take it out again.",
+      "Tap “Hold the beam” before the last tile goes in, and ask the class which way it will tip. Then let go. That pause is the best minute in the tool.",
+      "Put a cloth over one pan and build the other. “What must be under the cloth to make it level?” is the missing-addend question, and the lean is an honest clue rather than a giveaway.",
+      "Leave the totals and the notation off to begin with. Switch them on when the class has stopped computing and started looking."
+    ],
+    "classroomIdeas": [
+      "Put 8 alone on the left and ask the class to make the right side match. Then do it again with a different pair. Writing 8 = 3 + 5 afterwards feels obvious instead of backwards.",
+      "Build 3 + 5 on the left and 2 on the right, and ask what is missing. The beam tells them whether their guess was close, which is more useful than being told it was wrong.",
+      "Add 2 to one side and ask what has to happen on the other. Compensation is nearly impossible to explain and nearly obvious to watch.",
+      "Use the tip as a discussion, not an answer: “it only leaned a little — what does that tell us?” The size of the lean is information, and children read it faster than adults expect."
+    ],
+    "metaTitle": "Number Balance — the Equals Sign as a Beam | Free Tool",
+    "metaDescription": "A free K-2 balance for teaching what the equals sign means: build both sides, watch the beam tip, and see that level means the same. Nothing is marked."
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

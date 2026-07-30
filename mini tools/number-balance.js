@@ -277,7 +277,8 @@ var NumberBalance = {
       self.premiumKnown = true;
       if (self._wrap) self.render();
     };
-    if (!token) { self.premium = false; self.premiumKnown = true; return; }
+    /* repaint like the branches around it — see class-graph for the note */
+    if (!token) { self.premium = false; self.premiumKnown = true; if (self._wrap) self.render(); return; }
     fetch('/api/auth/me', { headers: { Authorization: 'Bearer ' + token }, cache: 'no-store' })
       .then(function (r) { return r.ok ? r.json() : null; })
       .then(function (j) {
@@ -593,7 +594,14 @@ var NumberBalance = {
         var n = parseInt(tile.getAttribute('data-n'), 10);
         var side = tile.getAttribute('data-side');
         if (side) { self.st = self.removeAt(self.st, side, parseInt(tile.getAttribute('data-i'), 10)); }
-        else { self.st = self.add(self.st, 'left', n); self._say(n); }
+        else {
+          /* speak only what actually landed — `add` refuses at PAN_MAX, and
+             announcing a number that never arrived is the tool claiming a
+             success it did not have */
+          var before = self.st.left.length;
+          self.st = self.add(self.st, 'left', n);
+          if (self.st.left.length > before) self._say(n);
+        }
         self.render();
       });
     });
@@ -625,6 +633,12 @@ var NumberBalance = {
       if (!target) return;
       var n = parseInt(tile.getAttribute('data-n'), 10);
       var from = tile.getAttribute('data-side');
+      /* ⚠ A NUMBER MUST NEVER LEAVE A PAN IT CANNOT ENTER. `add` refuses
+         silently at PAN_MAX, so removing first and adding second DESTROYED
+         the tile when the destination was full — gone from both pans, and
+         _say() still announced it as though it had landed. Ask before
+         taking, and if the answer is no, nothing moves at all. */
+      if (self.st[target].length >= self.PAN_MAX) return;
       if (from) {
         if (from === target) return;
         self.st = self.removeAt(self.st, from, parseInt(tile.getAttribute('data-i'), 10));

@@ -111,7 +111,12 @@ var ClassGraph = {
     voteHint:     { en: "Tap your answer. One tap each.", de: "Tippe deine Antwort an. Einmal pro Kind.", fr: "Touche ta réponse. Une seule fois chacun.", es: "Toca tu respuesta. Una vez cada quien.", pt: "Toque na sua resposta. Uma vez cada um.", it: "Tocca la tua risposta. Una volta per ciascuno.", nl: "Tik je antwoord aan. Eén tik per kind.", sv: "Tryck på ditt svar. En tryckning var.", da: "Tryk på dit svar. Ét tryk hver.", no: "Trykk på svaret ditt. Ett trykk hver.", fi: "Napauta omaa vastaustasi. Yksi napautus jokaiselta." },
     tapToVote:    { en: "Add yourself to {label}", de: "Dich bei {label} eintragen", fr: "Ajoute-toi à {label}", es: "Agrégate a {label}", pt: "Coloque-se em {label}", it: "Aggiungiti a {label}", nl: "Zet jezelf bij {label}", sv: "Lägg till dig i {label}", da: "Føj dig selv til {label}", no: "Legg deg selv til {label}", fi: "Lisää itsesi tähän vastaukseen: {label}" },
     emptyNote:    { en: "Nobody has answered yet.", de: "Noch hat niemand geantwortet.", fr: "Personne n’a encore répondu.", es: "Todavía nadie ha respondido.", pt: "Ninguém respondeu ainda.", it: "Non ha ancora risposto nessuno.", nl: "Nog niemand heeft geantwoord.", sv: "Ingen har svarat än.", da: "Ingen har svaret endnu.", no: "Ingen har svart ennå.", fi: "Kukaan ei ole vielä vastannut." },
-    gateCats:     { en: "More than three answers is part of the Teacher plan.", de: "Mehr als drei Antworten gehören zum Lehrer-Paket.", fr: "Plus de trois réponses font partie de l’offre Enseignant.", es: "Más de tres respuestas forman parte del plan Docente.", pt: "Mais de três respostas fazem parte do plano Professor.", it: "Più di tre risposte fanno parte del piano Insegnante.", nl: "Meer dan drie antwoorden horen bij het Leerkracht-pakket.", sv: "Fler än tre svar ingår i Lärarpaketet.", da: "Mere end tre svar er en del af Lærerpakken.", no: "Mer enn tre svar er en del av Lærerpakken.", fi: "Yli kolme vastausta kuuluu Opettaja-tilaukseen." },
+    /* ⚠ the numeral tracks FREE_CATS. Each of these is the ensemble's own
+       sentence with one word swapped; every locale's frame survives it
+       unchanged (de "als"+nom.pl, fi nominative numeral + partitive
+       singular "neljä vastausta", sv/da/no neuter "svar" has no plural
+       ending). If FREE_CATS ever moves again, all eleven move with it. */
+    gateCats:     { en: "More than four answers is part of the Teacher plan.", de: "Mehr als vier Antworten gehören zum Lehrer-Paket.", fr: "Plus de quatre réponses font partie de l’offre Enseignant.", es: "Más de cuatro respuestas forman parte del plan Docente.", pt: "Mais de quatro respostas fazem parte do plano Professor.", it: "Più di quattro risposte fanno parte del piano Insegnante.", nl: "Meer dan vier antwoorden horen bij het Leerkracht-pakket.", sv: "Fler än fyra svar ingår i Lärarpaketet.", da: "Mere end fire svar er en del af Lærerpakken.", no: "Mer enn fire svar er en del av Lærerpakken.", fi: "Yli neljä vastausta kuuluu Opettaja-tilaukseen." },
     gatePrint:    { en: "Printing is part of the Teacher plan.", de: "Drucken gehört zum Lehrer-Paket.", fr: "L’impression fait partie de l’offre Enseignant.", es: "Imprimir forma parte del plan Docente.", pt: "Imprimir faz parte do plano Professor.", it: "La stampa fa parte del piano Insegnante.", nl: "Printen hoort bij het Leerkracht-pakket.", sv: "Att skriva ut ingår i Lärarpaketet.", da: "Udskrivning er en del af Lærerpakken.", no: "Utskrift er en del av Lærerpakken.", fi: "Tulostus kuuluu Opettaja-tilaukseen." },
     printBtn:     { en: "Print the graph", de: "Diagramm drucken", fr: "Imprimer le graphique", es: "Imprimir la gráfica", pt: "Imprimir o gráfico", it: "Stampa il grafico", nl: "Grafiek printen", sv: "Skriv ut diagrammet", da: "Udskriv diagrammet", no: "Skriv ut diagrammet", fi: "Tulosta diagrammi" },
     unlock:       { en: "See the Teacher plan", de: "Lehrer-Paket ansehen", fr: "Découvrir l’offre Enseignant", es: "Conocer el plan Docente", pt: "Conhecer o plano Professor", it: "Scopri il piano Insegnante", nl: "Bekijk het Leerkracht-pakket", sv: "Se Lärarpaketet", da: "Se Lærerpakken", no: "Se Lærerpakken", fi: "Katso Opettaja-tilaus" },
@@ -203,9 +208,26 @@ var ClassGraph = {
   premium: false,
   premiumKnown: false,
 
-  /* 1.MD.C.4 is literally "up to three categories", which is where the
-     free line sits; more than three is the extension. */
-  FREE_CATS: 3,
+  /* ⚠ THE EDITOR'S OWN DRAFT — {q, labels[]} while open, null when closed.
+     It exists because `setSetup` DROPS blank answers by design (a blank
+     must never become a column, and verify C7 asserts it). So an in-progress
+     empty row is unrepresentable in `st`, and the editor cannot borrow `st`
+     as its working copy: "Add an answer" used to push '' straight into
+     setSetup, which dropped it, so the click could not change anything.
+     The draft also means editing NEVER touches the class's votes until you
+     commit — setSetup clears votes, so the old add/remove silently threw
+     away the whole survey. Commit happens in ONE place: apply(). */
+  _draft: null,
+
+  /* ⚠ THE FREE LINE IS FOUR, AND IT IS CURRICULUM-GROUNDED ON BOTH ENDS.
+     1.MD.C.4 says "up to three categories" and 2.MD.D.10 says "up to four",
+     so four covers K-2 completely and nothing a teacher needs for the
+     standard is behind the wall. It is also the honest number for a second
+     reason: the tool OPENS with three answers, so at three the very first
+     affordance in the setup panel would be locked on arrival — a paywall
+     as the first thing you touch. At four, "Add an answer" always works at
+     least once for everyone. Five and six are the extension. */
+  FREE_CATS: 4,
   MAX_CATS: 6,
   MIN_CATS: 2,
   MAX_LABEL: 18,
@@ -347,7 +369,7 @@ var ClassGraph = {
 
     var s0 = this.starterAt(0);
     this.st = this.setSetup(this.newState(), s0.q, s0.cats);
-    this._editing = false;
+    this._closeEditor();
     this._timers = [];
     this._fetchEntitlement();
     this.render();
@@ -358,7 +380,7 @@ var ClassGraph = {
   reset: function () {
     var s0 = this.starterAt(0);
     this.st = this.setSetup(this.newState(), s0.q, s0.cats);
-    this._editing = false;
+    this._closeEditor();
     this.render();
   },
 
@@ -407,7 +429,11 @@ var ClassGraph = {
       self.premiumKnown = true;
       if (self._wrap) self.render();
     };
-    if (!token) { self.premium = false; self.premiumKnown = true; return; }
+    /* ⚠ repaint like the three branches below. Today this one runs BEFORE
+       the first render (init calls us synchronously), so skipping it is
+       harmless — but it is the only path that would leave a stale optimistic
+       paint if _fetchEntitlement were ever called a second time. */
+    if (!token) { self.premium = false; self.premiumKnown = true; if (self._wrap) self.render(); return; }
     fetch('/api/auth/me', { headers: { Authorization: 'Bearer ' + token }, cache: 'no-store' })
       .then(function (r) { return r.ok ? r.json() : null; })
       .then(function (j) {
@@ -592,14 +618,37 @@ var ClassGraph = {
       }));
     }
     bar.appendChild(this._chip(api.t('editQuestion'), this._editing, function () {
-      self._editing = !self._editing;
+      if (self._editing) self._closeEditor(); else self._openEditor();
       self.render();
     }));
     return bar;
   },
 
+  /* ---- the editor's draft: seeded on open, discarded on close, and the
+     ONLY thing the editor reads or writes until apply() commits ---- */
+  _openEditor: function () {
+    var labels = this.st.cats.map(function (c) { return c.label; });
+    while (labels.length < this.MIN_CATS) labels.push('');
+    this._draft = { q: this.st.question, labels: labels };
+    this._editing = true;
+  },
+  _closeEditor: function () {
+    this._draft = null;
+    this._editing = false;
+  },
+  /* ⚠ ALWAYS call this before mutating the draft. The teacher may have typed
+     into a box since the last render, and those keystrokes live only in the
+     DOM — re-rendering from a stale draft would silently discard them. */
+  _syncDraft: function (qin, inputs) {
+    if (!this._draft) return;
+    this._draft.q = qin.value;
+    this._draft.labels = inputs.map(function (x) { return x.value; });
+  },
+
   _buildEditor: function () {
     var api = this.api, self = this;
+    /* defensive: the editor is never built without a draft */
+    if (!this._draft) this._openEditor();
     var box = api.el('div', 'cgr-editor');
     var qlab = api.el('label', 'cgr-lab');
     qlab.textContent = api.t('questionHint');
@@ -607,7 +656,7 @@ var ClassGraph = {
     var qin = document.createElement('input');
     qin.type = 'text'; qin.className = 'cgr-input'; qin.id = 'cgr-q';
     qin.maxLength = this.MAX_QUESTION;
-    qin.value = this.st.question;
+    qin.value = this._draft.q;
     box.append(qlab, qin);
 
     var clab = api.el('div', 'cgr-lab');
@@ -616,8 +665,9 @@ var ClassGraph = {
 
     var cap = this.catCap();
     var rows = api.el('div', 'cgr-catrows');
-    var draft = this.st.cats.map(function (c) { return c.label; });
-    if (draft.length < this.MIN_CATS) while (draft.length < this.MIN_CATS) draft.push('');
+    /* ⚠ from the DRAFT, never from st.cats — st cannot hold a blank row */
+    var draft = this._draft.labels;
+    while (draft.length < this.MIN_CATS) draft.push('');
     var inputs = [];
     draft.forEach(function (lab, i) {
       var r = api.el('div', 'cgr-catrow');
@@ -632,9 +682,9 @@ var ClassGraph = {
       r.append(sw, inp);
       if (draft.length > self.MIN_CATS) {
         r.appendChild(self._chip(api.t('removeCat'), false, function () {
-          var vals = inputs.map(function (x) { return x.value; });
-          vals.splice(i, 1);
-          self.st = self.setSetup(self.st, qin.value, vals);
+          /* draft-only: the votes stay until apply() */
+          self._syncDraft(qin, inputs);
+          self._draft.labels.splice(i, 1);
           self.render();
         }, 'cgr-tiny-chip'));
       }
@@ -644,10 +694,10 @@ var ClassGraph = {
 
     if (draft.length < cap) {
       box.appendChild(this._chip(api.t('addCat'), false, function () {
-        var vals = inputs.map(function (x) { return x.value; });
-        vals.push('');
-        self.st = self.setSetup(self.st, qin.value, vals);
-        self._editing = true;
+        /* ⚠ the draft grows, NOT the state. Pushing '' into setSetup was the
+           bug: setSetup drops blanks, so the row never appeared. */
+        self._syncDraft(qin, inputs);
+        self._draft.labels.push('');
         self.render();
       }));
     } else if (draft.length < this.MAX_CATS) {
@@ -657,11 +707,31 @@ var ClassGraph = {
       }, 'cgr-locked'));
     }
 
+    /* ⚠ THE ONE COMMIT POINT. Everything above edits the draft; only this
+       writes to st, and only this can clear the votes. */
     var apply = function () {
-      var vals = inputs.map(function (x) { return x.value; });
-      if (self.cleanText(vals[0], self.MAX_LABEL) === '' && self.cleanText(vals[1], self.MAX_LABEL) === '') return;
-      self.st = self.setSetup(self.st, qin.value, vals);
-      self._editing = false;
+      self._syncDraft(qin, inputs);
+      var vals = self._draft.labels;
+      /* a survey needs at least two DISTINCT answers to compare. The old
+         test looked only at the first two boxes, so ['A','',''] committed a
+         one-column "survey" with nothing to compare it to. */
+      var kept = [], seen = {}, i, lab;
+      for (i = 0; i < vals.length; i++) {
+        lab = self.cleanText(vals[i], self.MAX_LABEL);
+        if (!lab || Object.prototype.hasOwnProperty.call(seen, lab.toLowerCase())) continue;
+        seen[lab.toLowerCase()] = 1;
+        kept.push(lab);
+      }
+      if (kept.length < self.MIN_CATS) return;
+      /* ⚠ NOTHING CHANGED → DO NOT COMMIT. setSetup clears the votes, so
+         opening the editor to check your wording and pressing Use must not
+         cost the class the survey it just took. */
+      var now = self.st.cats.map(function (c) { return c.label; });
+      var same = self.cleanText(qin.value, self.MAX_QUESTION) === self.st.question
+        && kept.length === now.length
+        && kept.every(function (l, k) { return l === now[k]; });
+      if (!same) self.st = self.setSetup(self.st, qin.value, kept);
+      self._closeEditor();
       self.render();
     };
     qin.addEventListener('keydown', function (e) { if (e.key === 'Enter') { e.preventDefault(); apply(); } });
@@ -677,7 +747,7 @@ var ClassGraph = {
     (this.starters[this.api.lang] || this.starters.en).forEach(function (s) {
       srow.appendChild(self._chip(s.q, false, function () {
         self.st = self.setSetup(self.st, s.q, s.cats);
-        self._editing = false;
+        self._closeEditor();
         self.render();
       }, 'cgr-starter'));
     });

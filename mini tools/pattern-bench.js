@@ -248,7 +248,8 @@ var PatternBench = {
       self.premiumKnown = true;
       if (self._wrap) self.render();
     };
-    if (!token) { self.premium = false; self.premiumKnown = true; return; }
+    /* repaint like the branches around it — see class-graph for the note */
+    if (!token) { self.premium = false; self.premiumKnown = true; if (self._wrap) self.render(); return; }
     fetch('/api/auth/me', { headers: { Authorization: 'Bearer ' + token }, cache: 'no-store' })
       .then(function (r) { return r.ok ? r.json() : null; })
       .then(function (j) {
@@ -288,6 +289,12 @@ var PatternBench = {
      ================================================================= */
   render: function () {
     var api = this.api;
+    /* ⚠ if we learn the account is free while the premium costume is on,
+       take it off. Locking the chip is not enough — the STRIP is what the
+       class is looking at. */
+    if (this.premiumKnown && !this.premium && this.st && this.st.medium === 'picture') {
+      this.st = this.setMedium(this.st, 'colour');
+    }
     api.stage.innerHTML = '';
     var wrap = api.el('div', 'ptn-wrap');
     this._wrap = wrap;
@@ -330,7 +337,13 @@ var PatternBench = {
     var bar = api.el('div', 'ptn-bar');
     var LAB = { colour: 'mColour', shape: 'mShape', picture: 'mPicture' };
     this.MEDIA.forEach(function (m) {
-      var locked = (m === 'picture' && !self.premium && self.premiumKnown);
+      /* ⚠ NO `&& premiumKnown`. With it, the unknown state read as UNLOCKED,
+         so during the auth fetch a free account could switch to the premium
+         picture costume — and when the answer came back free the chip locked
+         but st.medium stayed 'picture', so the strip kept drawing premium
+         beads forever. Unknown must be pessimistic, as it is in
+         sorting-hoops and number-balance. */
+      var locked = (m === 'picture' && !self.premium);
       bar.appendChild(self._chip(api.t(LAB[m]), self.st.medium === m, function () {
         if (locked) { self._gateInline(bar, 'gatePicture'); return; }
         /* ⚠ THE TRANSFER LINE. The whole thesis of this tool is that the

@@ -230,6 +230,7 @@ const DRAWING_LINES_TRANSLATIONS = {
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Loading...",
     "creatingWorksheet": "Creating worksheet...",
+    "generatingWorksheet": "Generating worksheet...",
     "loadingBorders": "Loading {theme} borders...",
     "loadingBackgrounds": "Loading {theme} backgrounds...",
     "noBackgroundsInTheme": "No backgrounds in this theme.",
@@ -429,9 +430,12 @@ const DRAWING_LINES_TRANSLATIONS = {
     "jpegDownloadInitiated": "JPEG-Download gestartet!",
     "overlayAdded": "{type} hinzugefügt.",
     "customImagesAvailable": "{count} eigene(s) Bild(er) verfügbar.",
+    "borderAdded": "Rahmen hinzugefügt.",
+    "backgroundAdded": "Hintergrund hinzugefügt.",
 
     // ============= ERROR MESSAGES =============
     "couldNotLoadThemes": "Bildthemen konnten nicht geladen werden.",
+    "couldNotLoadImageThemes": "Bildthemen konnten nicht geladen werden.",
     "errorLoadingThemes": "Fehler beim Laden der Themen.",
     "errorLoadingImages": "Fehler beim Laden der Bilder.",
     "couldNotLoadBorderImages": "Rahmenbilder konnten nicht geladen werden.",
@@ -447,11 +451,16 @@ const DRAWING_LINES_TRANSLATIONS = {
     "failedToLoadOverlayImage": "{type}-Bild konnte nicht geladen werden.",
     "grayscaleConversionFailed": "Graustufen-Konvertierung fehlgeschlagen.",
     "pleaseGenerateWorksheetFirst": "Bitte erstellen Sie zuerst ein Arbeitsblatt.",
+    "pleaseGenerateContentFirst": "Bitte erstellen Sie zuerst Inhalte.",
     "errorPreparingJpeg": "Fehler bei der JPEG-Vorbereitung: {error}",
+    "errorCreatingPdf": "Fehler bei der PDF-Vorbereitung: {error}",
+    "preparingJpegWait": "JPEG wird vorbereitet... Bitte warten.",
+    "preparingPdfWait": "PDF wird vorbereitet... Bitte warten.",
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Lädt...",
     "generatingWorksheet": "Arbeitsblatt wird erstellt...",
+    "creatingWorksheet": "Arbeitsblatt wird erstellt...",
     "loadingBorders": "Lade {theme}-Rahmen...",
     "loadingBackgrounds": "Lade {theme}-Hintergründe...",
     "noBackgroundsInTheme": "Keine Hintergründe in diesem Thema.",
@@ -652,9 +661,12 @@ const DRAWING_LINES_TRANSLATIONS = {
     "jpegDownloadInitiated": "Téléchargement JPEG lancé !",
     "overlayAdded": "{type} ajouté.",
     "customImagesAvailable": "{count} image(s) personnalisée(s) disponible(s).",
+    "borderAdded": "Bordure ajoutée.",
+    "backgroundAdded": "Arrière-plan ajouté.",
 
     // ============= ERROR MESSAGES =============
     "couldNotLoadThemes": "Impossible de charger les thèmes d'images.",
+    "couldNotLoadImageThemes": "Impossible de charger les thèmes d'images.",
     "errorLoadingThemes": "Erreur lors du chargement des thèmes.",
     "errorLoadingImages": "Erreur lors du chargement des images.",
     "couldNotLoadBorderImages": "Impossible de charger les images de bordure.",
@@ -670,11 +682,16 @@ const DRAWING_LINES_TRANSLATIONS = {
     "failedToLoadOverlayImage": "Impossible de charger l'image {type}.",
     "grayscaleConversionFailed": "La conversion en niveaux de gris a échoué.",
     "pleaseGenerateWorksheetFirst": "Veuillez d'abord créer une fiche d'exercices.",
+    "pleaseGenerateContentFirst": "Veuillez d'abord créer du contenu.",
     "errorPreparingJpeg": "Erreur lors de la préparation du JPEG : {error}",
+    "errorCreatingPdf": "Erreur lors de la préparation du PDF : {error}",
+    "preparingJpegWait": "Préparation du JPEG... Veuillez patienter.",
+    "preparingPdfWait": "Préparation du PDF... Veuillez patienter.",
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Chargement...",
     "generatingWorksheet": "Création de la fiche d'exercices...",
+    "creatingWorksheet": "Création de la fiche d'exercices...",
     "loadingBorders": "Chargement des bordures {theme}...",
     "loadingBackgrounds": "Chargement des arrière-plans {theme}...",
     "noBackgroundsInTheme": "Aucun arrière-plan dans ce thème.",
@@ -875,9 +892,12 @@ const DRAWING_LINES_TRANSLATIONS = {
     "jpegDownloadInitiated": "¡Descarga JPEG iniciada!",
     "overlayAdded": "{type} agregado.",
     "customImagesAvailable": "{count} imagen(es) personalizada(s) disponible(s).",
+    "borderAdded": "Borde agregado.",
+    "backgroundAdded": "Fondo agregado.",
 
     // ============= ERROR MESSAGES =============
     "couldNotLoadThemes": "No se pudieron cargar los temas de imágenes.",
+    "couldNotLoadImageThemes": "No se pudieron cargar los temas de imágenes.",
     "errorLoadingThemes": "Error al cargar los temas.",
     "errorLoadingImages": "Error al cargar las imágenes.",
     "couldNotLoadBorderImages": "No se pudieron cargar las imágenes de borde.",
@@ -893,11 +913,16 @@ const DRAWING_LINES_TRANSLATIONS = {
     "failedToLoadOverlayImage": "No se pudo cargar la imagen de {type}.",
     "grayscaleConversionFailed": "La conversión a escala de grises falló.",
     "pleaseGenerateWorksheetFirst": "Por favor, primero crea una ficha de trabajo.",
+    "pleaseGenerateContentFirst": "Por favor, primero crea contenido.",
     "errorPreparingJpeg": "Error al preparar el JPEG: {error}",
+    "errorCreatingPdf": "Error al preparar el PDF: {error}",
+    "preparingJpegWait": "Preparando JPEG... Por favor espera.",
+    "preparingPdfWait": "Preparando PDF... Por favor espera.",
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Cargando...",
     "generatingWorksheet": "Generando ficha de trabajo...",
+    "creatingWorksheet": "Generando ficha de trabajo...",
     "loadingBorders": "Cargando bordes de {theme}...",
     "loadingBackgrounds": "Cargando fondos de {theme}...",
     "noBackgroundsInTheme": "No hay fondos en este tema.",
@@ -1098,9 +1123,12 @@ const DRAWING_LINES_TRANSLATIONS = {
     "jpegDownloadInitiated": "Scaricamento JPEG avviato!",
     "overlayAdded": "{type} aggiunto.",
     "customImagesAvailable": "{count} immagini personalizzate disponibili.",
+    "borderAdded": "Bordo aggiunto.",
+    "backgroundAdded": "Sfondo aggiunto.",
 
     // ============= ERROR MESSAGES =============
     "couldNotLoadThemes": "Impossibile caricare i temi delle immagini.",
+    "couldNotLoadImageThemes": "Impossibile caricare i temi delle immagini.",
     "errorLoadingThemes": "Errore nel caricamento dei temi.",
     "errorLoadingImages": "Errore nel caricamento delle immagini.",
     "couldNotLoadBorderImages": "Impossibile caricare le immagini dei bordi.",
@@ -1116,11 +1144,16 @@ const DRAWING_LINES_TRANSLATIONS = {
     "failedToLoadOverlayImage": "Impossibile caricare l'immagine di {type}.",
     "grayscaleConversionFailed": "Conversione in scala di grigi non riuscita.",
     "pleaseGenerateWorksheetFirst": "Per favore, crea prima una scheda di esercizi.",
+    "pleaseGenerateContentFirst": "Per favore, crea prima del contenuto.",
     "errorPreparingJpeg": "Errore nella preparazione del JPEG: {error}",
+    "errorCreatingPdf": "Errore nella preparazione del PDF: {error}",
+    "preparingJpegWait": "Preparazione JPEG... Attendere prego.",
+    "preparingPdfWait": "Preparazione PDF... Attendere prego.",
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Caricamento...",
     "generatingWorksheet": "Generazione della scheda di esercizi...",
+    "creatingWorksheet": "Generazione della scheda di esercizi...",
     "loadingBorders": "Caricamento bordi {theme}...",
     "loadingBackgrounds": "Caricamento sfondi {theme}...",
     "noBackgroundsInTheme": "Nessuno sfondo in questo tema.",
@@ -1321,9 +1354,12 @@ const DRAWING_LINES_TRANSLATIONS = {
     "jpegDownloadInitiated": "Download JPEG iniciado!",
     "overlayAdded": "{type} adicionado.",
     "customImagesAvailable": "{count} imagem(ns) personalizada(s) disponível(is).",
+    "borderAdded": "Moldura adicionada.",
+    "backgroundAdded": "Fundo adicionado.",
 
     // ============= ERROR MESSAGES =============
     "couldNotLoadThemes": "Não foi possível carregar os temas de imagens.",
+    "couldNotLoadImageThemes": "Não foi possível carregar os temas de imagens.",
     "errorLoadingThemes": "Erro ao carregar os temas.",
     "errorLoadingImages": "Erro ao carregar as imagens.",
     "couldNotLoadBorderImages": "Não foi possível carregar as imagens de moldura.",
@@ -1339,11 +1375,16 @@ const DRAWING_LINES_TRANSLATIONS = {
     "failedToLoadOverlayImage": "Falha ao carregar a imagem de {type}.",
     "grayscaleConversionFailed": "A conversão para tons de cinza falhou.",
     "pleaseGenerateWorksheetFirst": "Por favor, crie primeiro uma folha de exercícios.",
+    "pleaseGenerateContentFirst": "Por favor, crie primeiro algum conteúdo.",
     "errorPreparingJpeg": "Erro ao preparar o JPEG: {error}",
+    "errorCreatingPdf": "Erro ao preparar o PDF: {error}",
+    "preparingJpegWait": "Preparando JPEG... Por favor aguarde.",
+    "preparingPdfWait": "Preparando PDF... Por favor aguarde.",
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Carregando...",
     "generatingWorksheet": "Criando folha de exercícios...", // FIXED 2025-11-29: Brazilian Portuguese (Criando not Gerando) + consistency (folha de exercícios)
+    "creatingWorksheet": "Criando folha de exercícios...",
     "loadingBorders": "Carregando molduras de {theme}...",
     "loadingBackgrounds": "Carregando fundos de {theme}...",
     "noBackgroundsInTheme": "Nenhum fundo neste tema.",
@@ -1543,9 +1584,12 @@ const DRAWING_LINES_TRANSLATIONS = {
     "jpegDownloadInitiated": "JPEG download gestart!",
     "overlayAdded": "{type} toegevoegd.",
     "customImagesAvailable": "{count} eigen afbeelding(en) beschikbaar.",
+    "borderAdded": "Rand toegevoegd.",
+    "backgroundAdded": "Achtergrond toegevoegd.",
 
     // ============= ERROR MESSAGES =============
     "couldNotLoadThemes": "Kon afbeeldingsthema's niet laden.",
+    "couldNotLoadImageThemes": "Kon afbeeldingsthema's niet laden.",
     "errorLoadingThemes": "Fout bij het laden van thema's.",
     "errorLoadingImages": "Fout bij het laden van afbeeldingen.",
     "couldNotLoadBorderImages": "Kon randafbeeldingen niet laden.",
@@ -1561,11 +1605,16 @@ const DRAWING_LINES_TRANSLATIONS = {
     "failedToLoadOverlayImage": "Kon {type}-afbeelding niet laden.",
     "grayscaleConversionFailed": "Conversie naar grijstinten mislukt.",
     "pleaseGenerateWorksheetFirst": "Maak eerst een werkblad.",
+    "pleaseGenerateContentFirst": "Maak eerst inhoud.",
     "errorPreparingJpeg": "Fout bij het voorbereiden van JPEG: {error}",
+    "errorCreatingPdf": "Fout bij het voorbereiden van PDF: {error}",
+    "preparingJpegWait": "JPEG voorbereiden... Even geduld.",
+    "preparingPdfWait": "PDF voorbereiden... Even geduld.",
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Laden...",
     "generatingWorksheet": "Werkblad maken...",
+    "creatingWorksheet": "Werkblad maken...",
     "loadingBorders": "{theme}-randen laden...",
     "loadingBackgrounds": "{theme}-achtergronden laden...",
     "noBackgroundsInTheme": "Geen achtergronden in dit thema.",
@@ -1766,9 +1815,12 @@ const DRAWING_LINES_TRANSLATIONS = {
     "jpegDownloadInitiated": "JPEG-nedladdning startad!",
     "overlayAdded": "{type} tillagd.",
     "customImagesAvailable": "{count} egen/egna bild(er) tillgänglig(a).",
+    "borderAdded": "Ram tillagd.",
+    "backgroundAdded": "Bakgrund tillagd.",
 
     // ============= ERROR MESSAGES =============
     "couldNotLoadThemes": "Kunde inte ladda bildteman.",
+    "couldNotLoadImageThemes": "Kunde inte ladda bildteman.",
     "errorLoadingThemes": "Fel vid laddning av teman.",
     "errorLoadingImages": "Fel vid laddning av bilder.",
     "couldNotLoadBorderImages": "Kunde inte ladda rambilder.",
@@ -1784,11 +1836,16 @@ const DRAWING_LINES_TRANSLATIONS = {
     "failedToLoadOverlayImage": "Kunde inte ladda {type}-bild.",
     "grayscaleConversionFailed": "Konvertering till gråskala misslyckades.",
     "pleaseGenerateWorksheetFirst": "Skapa först ett övningsblad.",
+    "pleaseGenerateContentFirst": "Skapa först innehåll.",
     "errorPreparingJpeg": "Fel vid förberedelse av JPEG: {error}",
+    "errorCreatingPdf": "Fel vid förberedelse av PDF: {error}",
+    "preparingJpegWait": "Förbereder JPEG... Vänta lite.",
+    "preparingPdfWait": "Förbereder PDF... Vänta lite.",
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Laddar...",
     "generatingWorksheet": "Skapar övningsblad...",
+    "creatingWorksheet": "Skapar övningsblad...",
     "loadingBorders": "Laddar {theme}-ramar...",
     "loadingBackgrounds": "Laddar {theme}-bakgrunder...",
     "noBackgroundsInTheme": "Inga bakgrunder i detta tema.",
@@ -1989,9 +2046,12 @@ const DRAWING_LINES_TRANSLATIONS = {
     "jpegDownloadInitiated": "JPEG-download startet!",
     "overlayAdded": "{type} tilføjet.",
     "customImagesAvailable": "{count} eget/egne billede(r) tilgængelig(e).",
+    "borderAdded": "Ramme tilføjet.",
+    "backgroundAdded": "Baggrund tilføjet.",
 
     // ============= ERROR MESSAGES =============
     "couldNotLoadThemes": "Kunne ikke indlæse billedtemaer.",
+    "couldNotLoadImageThemes": "Kunne ikke indlæse billedtemaer.",
     "errorLoadingThemes": "Fejl ved indlæsning af temaer.",
     "errorLoadingImages": "Fejl ved indlæsning af billeder.",
     "couldNotLoadBorderImages": "Kunne ikke indlæse rammebilleder.",
@@ -2007,11 +2067,16 @@ const DRAWING_LINES_TRANSLATIONS = {
     "failedToLoadOverlayImage": "Kunne ikke indlæse {type}-billede.",
     "grayscaleConversionFailed": "Konvertering til gråtoner mislykkedes.",
     "pleaseGenerateWorksheetFirst": "Opret først et opgaveark.",
+    "pleaseGenerateContentFirst": "Opret først indhold.",
     "errorPreparingJpeg": "Fejl ved forberedelse af JPEG: {error}",
+    "errorCreatingPdf": "Fejl ved forberedelse af PDF: {error}",
+    "preparingJpegWait": "Forbereder JPEG... Vent venligst.",
+    "preparingPdfWait": "Forbereder PDF... Vent venligst.",
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Indlæser...",
     "generatingWorksheet": "Opretter opgaveark...",
+    "creatingWorksheet": "Opretter opgaveark...",
     "loadingBorders": "Indlæser {theme}-rammer...",
     "loadingBackgrounds": "Indlæser {theme}-baggrunde...",
     "noBackgroundsInTheme": "Ingen baggrunde i dette tema.",
@@ -2212,9 +2277,12 @@ const DRAWING_LINES_TRANSLATIONS = {
     "jpegDownloadInitiated": "JPEG-nedlasting startet!",
     "overlayAdded": "{type} lagt til.",
     "customImagesAvailable": "{count} eget/egne bilde(r) tilgjengelig(e).",
+    "borderAdded": "Ramme lagt til.",
+    "backgroundAdded": "Bakgrunn lagt til.",
 
     // ============= ERROR MESSAGES =============
     "couldNotLoadThemes": "Kunne ikke laste bildetemaer.",
+    "couldNotLoadImageThemes": "Kunne ikke laste bildetemaer.",
     "errorLoadingThemes": "Feil ved lasting av temaer.",
     "errorLoadingImages": "Feil ved lasting av bilder.",
     "couldNotLoadBorderImages": "Kunne ikke laste rammebilder.",
@@ -2230,11 +2298,16 @@ const DRAWING_LINES_TRANSLATIONS = {
     "failedToLoadOverlayImage": "Kunne ikke laste {type}-bilde.",
     "grayscaleConversionFailed": "Konvertering til gråtoner mislyktes.",
     "pleaseGenerateWorksheetFirst": "Lag først et oppgaveark.",
+    "pleaseGenerateContentFirst": "Lag først innhold.",
     "errorPreparingJpeg": "Feil ved klargjøring av JPEG: {error}",
+    "errorCreatingPdf": "Feil ved klargjøring av PDF: {error}",
+    "preparingJpegWait": "Klargjør JPEG... Vennligst vent.",
+    "preparingPdfWait": "Klargjør PDF... Vennligst vent.",
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Laster...",
     "generatingWorksheet": "Lager oppgaveark...",
+    "creatingWorksheet": "Lager oppgaveark...",
     "loadingBorders": "Laster {theme}-rammer...",
     "loadingBackgrounds": "Laster {theme}-bakgrunner...",
     "noBackgroundsInTheme": "Ingen bakgrunner i dette temaet.",
@@ -2435,9 +2508,12 @@ const DRAWING_LINES_TRANSLATIONS = {
     "jpegDownloadInitiated": "JPEG-lataus aloitettu!",
     "overlayAdded": "{type} lisätty.",
     "customImagesAvailable": "{count} oma(a) kuva(a) käytettävissä.",
+    "borderAdded": "Kehys lisätty.",
+    "backgroundAdded": "Tausta lisätty.",
 
     // ============= ERROR MESSAGES =============
     "couldNotLoadThemes": "Kuvateemoja ei voitu ladata.",
+    "couldNotLoadImageThemes": "Kuvateemoja ei voitu ladata.",
     "errorLoadingThemes": "Virhe teemojen latauksessa.",
     "errorLoadingImages": "Virhe kuvien latauksessa.",
     "couldNotLoadBorderImages": "Kehyskuvia ei voitu ladata.",
@@ -2453,11 +2529,16 @@ const DRAWING_LINES_TRANSLATIONS = {
     "failedToLoadOverlayImage": "Ei voitu ladata {type}-kuvaa.",
     "grayscaleConversionFailed": "Harmaasävymuunnos epäonnistui.",
     "pleaseGenerateWorksheetFirst": "Luo ensin tehtävämoniste.",
+    "pleaseGenerateContentFirst": "Luo ensin sisältöä.",
     "errorPreparingJpeg": "Virhe JPEG:n valmistelussa: {error}",
+    "errorCreatingPdf": "Virhe PDF:n valmistelussa: {error}",
+    "preparingJpegWait": "Valmistellaan JPEG:tä... Odota hetki.",
+    "preparingPdfWait": "Valmistellaan PDF:ää... Odota hetki.",
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Ladataan...",
-    "generatingWorksheet": "Luodaan tehtävämонistetta...",
+    "generatingWorksheet": "Luodaan tehtävämonistetta...",
+    "creatingWorksheet": "Luodaan tehtävämonistetta...",
     "loadingBorders": "Ladataan {theme}-kehyksiä...",
     "loadingBackgrounds": "Ladataan {theme}-taustoja...",
     "noBackgroundsInTheme": "Ei taustoja tässä teemassa.",

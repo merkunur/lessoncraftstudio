@@ -851,6 +851,34 @@
     "metaTitle": "Balanza numérica — el signo igual como un brazo | Gratis",
     "metaDescription": "Balanza gratuita para infantil y primaria: construir los dos lados, ver inclinarse el brazo y entender que recto significa «lo mismo». No se corrige nada."
   },
+  "pattern-bench": {
+    "slug": "mesa-de-patrones",
+    "name": "Mesa de patrones",
+    "tagline": "Armas la parte que se repite y la tira la continúa sola, para que todo el grupo vea la estructura del patrón y no solamente el color.",
+    "about": [
+      "La Mesa de patrones es un instrumento para el pizarrón. Tú armas una parte que se repite con dos, tres o cuatro fichas, y la tira la repite sola a lo largo de toda la pantalla. Puedes alargar la tira cuando quieras, y todo el grupo ve lo mismo desde sus lugares. No hay tarjetas que repartir ni material que recoger: la parte que se repite es lo único que se construye, y la tira se encarga del resto.",
+      "Un niño que continúa rojo-azul-rojo-azul no necesariamente ha visto el patrón: puede estar simplemente alternando, que es una idea mucho más pequeña. El momento importante llega cuando reconoce que rojo-azul-rojo-azul, círculo-cuadrado-círculo-cuadrado y aplaudir-pisar-aplaudir-pisar son el mismo patrón con distinta apariencia. Ahí deja de mirar la superficie y empieza a mirar la estructura, que es donde nace el pensamiento algebraico. Los programas de la SEP y la NEM piden justamente eso: que el niño identifique la regularidad, no que memorice una secuencia de colores.",
+      "Por eso la tira tiene tres trajes: colores, formas e imágenes. El patrón no cambia, solo cambia cómo se ve, y cambiarlo frente al grupo es la manera más directa de mostrar que la estructura se sostiene. También puedes tapar una ficha, y conviene taparla en medio: una ficha tapada al final se resuelve copiando la vecina, mientras que una en medio obliga a razonar desde la parte que se repite. Y puedes esconder esa parte para que el grupo la deduzca mirando la tira. Colores y formas están disponibles sin costo; las imágenes y la impresión vienen con el plan Docente.",
+      "No hay botón de respuesta, ni puntaje, ni cronómetro. Cuando en ABABAB una niña dice que la parte que se repite es AB y otro dice que es BA, los dos tienen un argumento honesto, y la discusión no la cierra quien enseña: cada quien reconstruye la tira desde su propuesta y el grupo mira qué pasa. El material decide, y decide despacio, delante de todos. Esa manera de resolver un desacuerdo, probándola, vale tanto como el contenido de patrones que estás enseñando."
+    ],
+    "howToUse": [
+      "Arma la parte que se repite con dos, tres o cuatro fichas y deja que la tira la continúe.",
+      "Pide al grupo que lea la tira en voz alta antes de que tú expliques algo.",
+      "Cambia el traje de la tira a formas y pregunta si el patrón sigue siendo el mismo.",
+      "Tapa una ficha del centro y pide que expliquen cómo saben qué va debajo.",
+      "Activa el sonido, un tono por ficha, y pide que repitan el patrón con el cuerpo.",
+      "Esconde la parte que se repite y pide que la reconstruyan mirando solo la tira."
+    ],
+    "classroomIdeas": [
+      "Arma un patrón AB con colores y pide a tres niños que lo representen con aplauso y pisada. Luego cambia la tira a formas y pregunta si su movimiento sigue sirviendo.",
+      "Alarga la tira hasta que ya no quepa completa y pregunta de qué color sería la ficha número veinte. Deja que discutan antes de mostrarla.",
+      "Muestra la fila de letras debajo de la tira y lean A B A B señalando cada ficha; después quita las letras y repitan el ejercicio.",
+      "Esconde la parte que se repite y tapa además una ficha del centro, para que el grupo decida primero cuál es la unidad y después qué está oculto.",
+      "Deja que dos equipos defiendan AB y BA en ABABAB: cada equipo arma la tira desde su lectura y el grupo compara las dos tiras."
+    ],
+    "metaTitle": "Mesa de patrones que se repiten | herramienta gratis",
+    "metaDescription": "Arma la parte que se repite y la tira la completa sola. Colores, formas e imágenes para trabajar patrones que se repiten en preescolar y primaria."
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

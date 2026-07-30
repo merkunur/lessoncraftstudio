@@ -851,6 +851,34 @@
     "metaTitle": "Talvægt — lighedstegnet som en bjælke | Gratis værktøj",
     "metaDescription": "Gratis vægt til børnehaveklassen og indskolingen: byg begge sider, se bjælken vippe og forstå, at lige betyder «lige meget». Intet bliver rettet."
   },
+  "pattern-bench": {
+    "slug": "monsterbaenken",
+    "name": "Mønsterbænken",
+    "tagline": "Du bygger den del, der gentager sig, og striben fortsætter selv, så hele klassen kan se mønsterets opbygning og ikke kun farverne.",
+    "about": [
+      "Mønsterbænken er et redskab til tavlen. Du bygger den del, der gentager sig, af to, tre eller fire perler, og striben gentager den helt af sig selv hele vejen ud. Du kan gøre striben længere undervejs, og hele klassen ser det samme fra deres pladser. Der er ingen brikker, der skal deles ud, og ingenting, der skal samles sammen bagefter: du bygger kun den del, der gentager sig, og striben klarer resten.",
+      "Et barn, der kan fortsætte rød-blå-rød-blå, har ikke nødvendigvis set mønsteret. Barnet kan skifte mellem to farver, og det er en langt mindre idé. Det afgørende sker, når barnet opdager, at rød-blå-rød-blå, cirkel-firkant-cirkel-firkant og klap-stamp-klap-stamp er det samme mønster i forskellig indpakning. Der holder barnet op med at se på overfladen og begynder at se på strukturen, og det er dér, den algebraiske tænkning begynder, som Fælles Mål lægger op til allerede i indskolingen.",
+      "Derfor kan striben skifte tøj: farver, former og billeder. Mønsteret er det samme, kun det synlige skifter, og netop det skift foran klassen er den korteste vej til at vise, at strukturen holder. Du kan også trykke på en perle for at dække den, og det er bedst at dække en inde i midten: en perle yderst kan barnet klare ved at kigge på naboen, mens en i midten kun kan sluttes ud fra den del, der gentager sig. Du kan desuden skjule den del og lade klassen regne ud, hvad den består af. Farver og former er gratis, mens billederne og udskrivning følger med Lærerpakken.",
+      "Der er ingen knap, der fortæller, hvordan det forholder sig, ingen point og intet ur. I ABABAB kan et barn med god grund sige, at den del, der gentager sig, er AB, mens et andet med lige så god grund siger BA. Uenigheden skal ikke lukkes af den voksne: hvert barn bygger striben op igen ud fra sit eget bud, og klassen ser, hvad der sker. Materialet afgør sagen, langsomt og for øjnene af alle. At lære, at en uenighed kan afprøves, er lige så meget værd som selve mønsterarbejdet."
+    ],
+    "howToUse": [
+      "Byg den del, der gentager sig, af to til fire perler, og lad striben fortsætte.",
+      "Bed klassen læse striben højt, før du forklarer noget.",
+      "Skift stribens tøj til former, og spørg, om mønsteret stadig er det samme.",
+      "Dæk en perle inde i midten, og bed børnene forklare, hvordan de ved, hvad der gemmer sig.",
+      "Sæt lyden i gang, én tone per perle, og lad klassen gentage mønsteret med kroppen.",
+      "Skjul den del, der gentager sig, og lad klassen bygge den op igen ud fra striben."
+    ],
+    "classroomIdeas": [
+      "Byg et AB-mønster i farver, og lad tre børn udføre det med klap og stamp. Skift derefter striben til former, og spørg, om deres bevægelse stadig passer.",
+      "Gør striben så lang, at den ikke kan overskues, og spørg, hvilken farve perle nummer tyve har. Lad børnene diskutere, før I ser efter.",
+      "Vis bogstavrækken under striben, og lad klassen læse A B A B, mens de peger på perlerne. Fjern bogstaverne, og gør det igen.",
+      "Skjul den del, der gentager sig, og dæk samtidig en perle i midten, så klassen først skal blive enige om delen og bagefter om den dækkede perle.",
+      "Lad to hold forsvare hver sin læsning af ABABAB, AB og BA. Hvert hold bygger sin egen stribe, og klassen sammenligner de to striber."
+    ],
+    "metaTitle": "Mønsterbænken – gentagne mønstre | gratis værktøj",
+    "metaDescription": "Byg den del, der gentager sig, og striben fortsætter selv. Farver, former og billeder til arbejdet med gentagne mønstre i indskolingen."
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

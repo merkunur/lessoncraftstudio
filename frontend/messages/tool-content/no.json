@@ -851,6 +851,34 @@
     "metaTitle": "Tallvekt — likhetstegnet som en bjelke | Gratis verktøy",
     "metaDescription": "Gratis vekt for 1.-3. trinn: bygg begge sidene, se bjelken vippe og forstå at rett betyr «like mye». Ingenting blir rettet."
   },
+  "pattern-bench": {
+    "slug": "monsterbenken",
+    "name": "Mønsterbenken",
+    "tagline": "Du bygger delen som gjentar seg, og stripen fortsetter av seg selv, slik at hele klassen ser hvordan mønsteret er bygd opp og ikke bare fargene.",
+    "about": [
+      "Mønsterbenken er et redskap til tavla. Du bygger delen som gjentar seg av to, tre eller fire perler, og stripen gjentar den videre helt av seg selv. Du kan gjøre stripen lengre underveis, og hele klassen ser det samme fra plassene sine. Ingenting skal deles ut, og ingenting skal ryddes bort etterpå: du bygger bare delen som gjentar seg, og stripen tar seg av resten. Alt du trenger, er en tavle og noen få minutter.",
+      "Et barn som klarer å fortsette rød-blå-rød-blå, har ikke nødvendigvis sett mønsteret. Barnet kan rett og slett veksle mellom to farger, og det er en langt mindre idé. Det viktige skjer når barnet oppdager at rød-blå-rød-blå, sirkel-firkant-sirkel-firkant og klapp-tramp-klapp-tramp er det samme mønsteret i ulik drakt. Da slutter barnet å se på overflaten og begynner å se på strukturen, og det er der den algebraiske tenkningen starter, slik LK20 legger opp til allerede fra første trinn.",
+      "Derfor kan stripen skifte drakt: farger, former og bilder. Mønsteret er det samme, det er bare det synlige som endrer seg, og nettopp den vekslingen viser kortest mulig at strukturen holder. Du kan også trykke på en perle for å dekke den, og det lønner seg å dekke en midt inne i stripen: en perle ytterst kan barnet finne ved å se på naboen, mens en i midten bare kan sluttes ut fra delen som gjentar seg. Du kan også skjule delen og la klassen finne ut hva den består av. Farger og former er gratis, mens bildene og utskrift følger med Lærerpakken.",
+      "Det finnes ingen knapp som sier hvordan det henger sammen, ingen poeng og ingen klokke som teller. I ABABAB kan ett barn med god grunn si at delen som gjentar seg er AB, mens et annet med like god grunn sier BA. Uenigheten skal ikke avgjøres av den voksne: hvert barn bygger opp stripen på nytt ut fra sitt eget forslag, og klassen ser hva som skjer. Materialet avgjør, sakte og for åpen scene. Å lære at en uenighet kan prøves ut, er like mye verdt som selve mønsterarbeidet."
+    ],
+    "howToUse": [
+      "Bygg delen som gjentar seg av to til fire perler, og la stripen fortsette.",
+      "Be klassen lese stripen høyt før du forklarer noe.",
+      "Bytt drakt på stripen til former, og spør om mønsteret fortsatt er det samme.",
+      "Dekk en perle midt i stripen, og be elevene forklare hvordan de vet hva som ligger under.",
+      "Sett i gang lyden, én tone per perle, og la klassen gjenta mønsteret med kroppen.",
+      "Skjul delen som gjentar seg, og la klassen finne den ut fra stripen."
+    ],
+    "classroomIdeas": [
+      "Bygg et AB-mønster i farger, og la tre elever framføre det med klapp og tramp. Bytt så stripen til former, og spør om bevegelsen fortsatt passer.",
+      "Gjør stripen så lang at den ikke kan overskues, og spør hvilken farge perle nummer tjue har. La elevene diskutere før dere ser etter.",
+      "Vis bokstavraden under stripen, og la klassen lese A B A B mens de peker på perlene. Ta så bort bokstavene og gjenta.",
+      "Skjul delen som gjentar seg og dekk samtidig en perle i midten, slik at klassen først må bli enige om delen og deretter om den dekkede perlen.",
+      "La to lag forsvare hver sin lesning av ABABAB, AB og BA. Hvert lag bygger opp sin egen stripe, og klassen sammenligner de to stripene."
+    ],
+    "metaTitle": "Mønsterbenken – gjentakende mønstre | gratis verktøy",
+    "metaDescription": "Bygg delen som gjentar seg, så fortsetter stripen selv. Farger, former og bilder for arbeid med gjentakende mønstre på småtrinnet."
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

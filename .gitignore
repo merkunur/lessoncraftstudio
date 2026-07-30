@@ -110,6 +110,42 @@ frontend/public/mini-tools/*
 # synced into frontend/public/mini-tools/. Excluded from git too.
 mini tools/*.test.js
 
+# Same devtool class as *.test.js above, just dot-named so that rule missed them:
+# one-off Puppeteer gate/diagnostic runners (.gate-*.js, .diag*.js, .orderproof-*.js),
+# their .out logs, and their screenshots. ~146 files.
+mini tools/.*
+
+# Mechanical pre-edit backups from the longtail-fr SEO pass. Verified disposable:
+# every tracked counterpart is strictly newer and a superset. Global, not dir-scoped —
+# they also exist under frontend/messages/{activity,maker,tool}-content/.
+*.bak-longtail-fr
+
+# Dead premium-game shell + engines. Program CANCELLED FOREVER (CLAUDE.md top amendment);
+# nothing tracked loads them (their only consumers, game-preview.html + collection.html,
+# are themselves dead). Left on disk, kept out of git AND out of the mirror — as top-level
+# *.js/*.css/*.html they would otherwise be synced and shipped to production.
+mini tools/game-shell.js
+mini tools/game-shell.css
+mini tools/game-assets.js
+mini tools/game-preview.html
+mini tools/collection.html
+mini tools/engine-*.js
+
+# Local preview server for the activity catalogue — a devtool, same class as the
+# *.test.js carve-out above. Ignored rather than committed so it is never synced into
+# the mirror and shipped to production as a *.js.
+mini tools/_preview-server.js
+
+# Storybook project ABANDONED (operator 2026-07-11). master-sync.{bat,sh} actively
+# rmdir's this subtree out of the mirror and activities.ts dropped its manifest, so
+# nothing loads it. Kept on disk, out of git.
+mini tools/stories/
+
+# Premium-games program CANCELLED FOREVER (CLAUDE.md top amendment). These are a dead
+# parallel copy — the LIVE Echo Grove / Mochi / Mosaic Menders are the tracked
+# <name>-{activity,core}.js registered in frontend/lib/activities.ts.
+mini tools/games/
+
 # ============================================
 # SAMPLE FILES (images/PDFs for homepage gallery)
 # ============================================
@@ -154,6 +190,27 @@ C:temp*
 C:Users*
 image library/
 image-library-webp/
+
+# Junction artifacts of scripts/swap-dev-images-to-canonical.js (ran ~2026-04-24), which
+# rebuilt frontend/public/images/ out of Windows junctions.
+#   - images/backgrounds is a junction INTO "image library/BACKGROUNDS" (121 files, 583 MB),
+#     re-exposing those bytes under a path the `image library/` rule above cannot match. A
+#     plain `git add -A frontend/public/images` therefore stages 583 MB straight into git,
+#     violating §A.1 ("isolated storage, NOT in git"). Verified empirically 2026-07-30.
+#   - images.dev-backup/ holds the 621 pre-swap originals.
+# NOTE: the 116 TRACKED paths under frontend/public/images/ that show as locally deleted or
+# modified are a junction artifact too, and they are LIVE in production (frontend/public is
+# symlinked as the docroot by deploy.sh:298). They are held by `git update-index
+# --skip-worktree`, which .gitignore cannot do. NEVER `git rm --cached` them — that DELETES
+# the file on pull, gitignore notwithstanding (proven in a throwaway repo 2026-07-30).
+frontend/public/images.dev-backup/
+frontend/public/images/backgrounds/
+
+# 3,739 unignored scratch files — a plain `git add -A frontend` stages every one.
+frontend/.scratch/
+
+# One-off feasibility spike (carries its own nested .gitignore).
+frontend/scripts/feasibility-test/
 
 # Stripe product creation (contains internal IDs, one-time use)
 scripts/stripe-products-map.json

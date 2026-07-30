@@ -1,0 +1,142 @@
+{
+  "it": {
+    "slug": "grafico-della-classe",
+    "name": "Il grafico della classe",
+    "tagline": "La classe risponde a una domanda, ogni bambino tocca la sua risposta e il grafico cresce sotto gli occhi di tutti.",
+    "about": [
+      "Il grafico della classe è un sondaggio da fare insieme, proiettato su un unico schermo. L’insegnante scrive una domanda e due o tre risposte; poi i bambini si alzano, uno alla volta, e toccano la risposta che hanno scelto. A ogni tocco compare una figura nella colonna corrispondente: una figura, un bambino. Non serve un dispositivo per ciascuno, non serve registrarsi, non serve preparare nulla prima. Le Indicazioni nazionali collocano proprio nel primo ciclo la raccolta e la rappresentazione dei dati, e qui i dati sono quelli della stanza.",
+      "Il passaggio dal mucchio di figure alla barra è l’astrazione più grande dei primi anni di lavoro sui dati, e nelle schede arriva sempre già compiuta. Qui invece l’insegnante tocca «Mostra le barre» e la classe vede le colonne di bambini diventare un grafico a barre; un altro tocco su «Mostra i bambini» e le figure tornano. L’ideogramma e il grafico a barre smettono di essere due esercizi diversi: sono la stessa informazione, la stessa altezza, guardata in due modi. Il momento in cui questo accade è la lezione.",
+      "I numeri restano nascosti all’inizio, e non è una dimenticanza: se sullo schermo compare subito un numerale, nessuno guarda più il grafico. Prima si confronta per lunghezza — questa colonna arriva più in alto, questa è corta quanto l’altra — e solo dopo un interruttore separato mostra le cifre. La barra è alta esattamente quanto era il mucchio di bambini, e si può tornare indietro a controllare tutte le volte che serve. È la risposta più onesta al bambino convinto che la barra stia dicendo qualcosa di più grande.",
+      "Niente qui mette in fila le risposte. Non esiste una risposta che vince, non c’è un ordinamento che porta davanti la colonna più alta, non c’è nulla di cronometrato e nulla che assegni punti: un sondaggio di classe è un ritratto del gruppo, non una gara. Nessun bambino viene nominato, tutte le figure sono identiche e anonime, e niente viene salvato — quando la pagina si chiude, le risposte spariscono. Resta soltanto quello che la classe ha visto insieme e di cui ha parlato."
+    ],
+    "howToUse": [
+      "Proietta lo strumento e scrivi la domanda del giorno con due o tre risposte.",
+      "Leggi ad alta voce le risposte e assicurati che tutti sappiano dove toccare.",
+      "Chiama i bambini uno alla volta: ognuno tocca la sua risposta una sola volta.",
+      "Fermati quando hanno risposto tutti e chiedi che cosa si vede, senza contare.",
+      "Tocca «Mostra le barre» e lascia che la classe racconti che cosa è cambiato.",
+      "Solo alla fine mostra i numeri e torna alle figure per controllare insieme."
+    ],
+    "classroomIdeas": [
+      "Prima di toccare «Mostra le barre», chiedi a ogni bambino di indovinare quanto sarà alta la sua colonna, poi confrontate la previsione con quello che appare.",
+      "Fai tenere a un bambino il dito sulla cima di una colonna mentre passi avanti e indietro fra figure e barre: la mano resta alla stessa altezza.",
+      "Poni la stessa domanda il lunedì e il venerdì e parlate di che cosa è cambiato durante la settimana.",
+      "Prendi le domande dalla giornata — chi è venuto a piedi, chi ha portato la frutta, quale storia avete ascoltato — così i dati sono davvero della classe.",
+      "Chiudete l’attività ricopiando il grafico sul quaderno: le figure da una parte, le barre dall’altra, alla stessa altezza."
+    ],
+    "metaTitle": "Grafico a barre per la classe | strumento gratuito",
+    "metaDescription": "Sondaggio di classe sulla LIM: i bambini toccano la risposta, le figure diventano un grafico a barre. Strumento gratuito per la scuola primaria."
+  },
+  "pt": {
+    "slug": "grafico-da-turma",
+    "name": "O gráfico da turma",
+    "tagline": "A turma responde a uma pergunta, cada criança toca a sua resposta e o gráfico cresce na frente de todo mundo.",
+    "about": [
+      "O gráfico da turma é uma enquete feita junto, projetada em uma única tela. O professor digita uma pergunta e duas ou três respostas; depois as crianças vão até a lousa, uma de cada vez, e tocam a resposta que escolheram. A cada toque, uma figurinha entra na coluna daquela resposta: uma figura, uma criança. Não é preciso um aparelho por aluno, nem cadastro, nem preparo na véspera. Os dados são a própria sala, e não o exemplo de uma turma desconhecida — é disso que a BNCC fala já no primeiro ano (EF01MA21 e EF01MA22).",
+      "A passagem do monte de figuras para a barra é a maior abstração dos primeiros anos de trabalho com dados, e na folha impressa ela sempre chega pronta. Aqui o professor toca em “Ver as barras” e a turma vê as colunas de crianças virarem um gráfico de barras; toca em “Ver as crianças” e as figuras voltam. O pictograma e o gráfico de barras deixam de ser dois exercícios separados: são a mesma informação, na mesma altura, olhada de dois jeitos. O que ensina é justamente o instante da mudança.",
+      "Os números ficam escondidos no começo, e isso é de propósito: se um numeral aparece na tela desde o início, ninguém mais olha para o gráfico. Primeiro a turma compara por comprimento — esta coluna chega mais alto, esta é do tamanho daquela — e só depois um botão separado revela as contagens. A barra tem exatamente a altura que o monte de crianças tinha, e dá para ir e voltar quantas vezes for preciso conferir. É a melhor resposta para a criança que acha que a barra está dizendo outra coisa, maior.",
+      "Nada aqui coloca as respostas em ordem. Não existe resposta vencedora, não existe organizar da coluna mais alta para a mais baixa, não há tempo correndo nem pontuação: uma enquete de turma é um retrato do grupo, não uma disputa. Nenhuma criança é nomeada, todas as figuras são iguais e anônimas, e nada fica salvo — quando a página fecha, as respostas somem. O que permanece é o que a turma viu junta e a conversa que teve enquanto olhava."
+    ],
+    "howToUse": [
+      "Projete a ferramenta e digite a pergunta do dia com duas ou três respostas.",
+      "Leia as respostas em voz alta para que todos saibam onde tocar.",
+      "Chame as crianças uma de cada vez; cada uma toca a sua resposta uma vez só.",
+      "Pare quando todo mundo já respondeu e pergunte o que dá para ver, sem contar.",
+      "Toque em “Ver as barras” e deixe a turma dizer o que mudou e o que continua igual.",
+      "Só então revele os números e volte para as crianças para conferir junto."
+    ],
+    "classroomIdeas": [
+      "Antes de tocar em “Ver as barras”, peça que cada criança adivinhe a altura da própria coluna e depois compare a previsão com o que apareceu.",
+      "Peça a uma criança que mantenha o dedo no topo de uma coluna enquanto você alterna entre figuras e barras: a mão não sobe nem desce.",
+      "Faça a mesma pergunta na segunda e na sexta-feira e conversem sobre o que mudou no meio da semana.",
+      "Use perguntas do próprio dia — quem veio a pé, quem trouxe fruta, qual história vocês ouviram — para que os dados sejam mesmo da turma.",
+      "Feche a atividade copiando o gráfico no caderno: as figuras de um lado, as barras do outro, na mesma altura."
+    ],
+    "metaTitle": "Gráfico de barras para a turma | ferramenta gratuita",
+    "metaDescription": "Enquete na lousa: cada criança toca a sua resposta e as figuras viram um gráfico de barras. Ferramenta gratuita para os anos iniciais."
+  },
+  "da": {
+    "slug": "klassens-diagram-soejlediagram",
+    "name": "Klassens diagram",
+    "tagline": "Klassen svarer på ét spørgsmål, hvert barn trykker på sit svar, og diagrammet vokser foran øjnene på dem.",
+    "about": [
+      "Klassens diagram er en fælles afstemning på tavlen — én skærm, som hele klassen ser på. Læreren skriver et spørgsmål og to eller tre svar; derefter går børnene op ét ad gangen og trykker på det svar, de har valgt. For hvert tryk kommer en lille figur ind i søjlen: én figur, ét barn. Der skal ikke bruges en tablet til hver, ingen log ind, ingen forberedelse aftenen før. Fælles Mål placerer netop i indskolingen arbejdet med at samle og vise data, og her er dataene klassen selv.",
+      "Springet fra en bunke figurer til en søjle er den største abstraktion i de første års arbejde med data, og på et arbejdsark er springet altid sket på forhånd. Her trykker læreren på “Vis søjlerne”, og klassen ser rækkerne af børn blive til et søjlediagram; et tryk på “Vis børnene”, og figurerne er tilbage igen. Billeddiagram og søjlediagram holder op med at være to forskellige opgaver: det er den samme oplysning i den samme højde, set på to måder. Selve skiftet er undervisningen.",
+      "Tallene er skjult fra starten, og det er med vilje: står der et tal på skærmen med det samme, kigger ingen på diagrammet. Først sammenligner klassen med længden — den her søjle når højere op, de her to er lige lange — og bagefter viser en særskilt knap antallet. Søjlen er præcis så høj, som bunken af børn var, og man kan skifte frem og tilbage og tjekke det, så mange gange man vil. Det er det bedste svar til barnet, der tror, at søjlen siger noget større.",
+      "Der er ingenting her, der sætter svarene i rækkefølge. Der er ikke et svar, der vinder, ingen sortering med den højeste søjle først, ingen tid der løber, og ingen point: en afstemning i klassen er et portræt af gruppen, ikke en konkurrence. Ingen børn bliver nævnt ved navn, alle figurer ser ens ud og er anonyme, og der bliver ikke gemt noget — når siden lukkes, er svarene væk. Tilbage står kun det, klassen så sammen, og det, de nåede at tale om."
+    ],
+    "howToUse": [
+      "Vis værktøjet på tavlen og skriv dagens spørgsmål med to eller tre svar.",
+      "Læs svarene højt, så alle ved, hvor de skal trykke.",
+      "Kald børnene op ét ad gangen; hvert barn trykker én gang på sit svar.",
+      "Stop, når alle har svaret, og spørg, hvad man kan se, uden at tælle.",
+      "Tryk på “Vis søjlerne”, og lad klassen fortælle, hvad der ændrede sig.",
+      "Vis først tallene til sidst, og gå tilbage til børnene og tjek det sammen."
+    ],
+    "classroomIdeas": [
+      "Bed hvert barn gætte, hvor høj deres egen søjle bliver, før du trykker på “Vis søjlerne”, og sammenlign gættet med det, der står på skærmen.",
+      "Lad et barn holde fingeren på toppen af en søjle, mens du skifter frem og tilbage: hånden bliver, hvor den er.",
+      "Stil det samme spørgsmål mandag og fredag, og tal om, hvad der er blevet anderledes i løbet af ugen.",
+      "Brug spørgsmål fra dagen selv — hvem gik i skole, hvem har frugt med, hvilken bog I har hørt — så tallene handler om klassen.",
+      "Slut af med at tegne diagrammet af i hæftet: figurerne på den ene side, søjlerne på den anden, i samme højde."
+    ],
+    "metaTitle": "Søjlediagram for klassen | gratis værktøj",
+    "metaDescription": "Afstemning på tavlen: børnene trykker på deres svar, og figurerne bliver til et søjlediagram. Gratis værktøj til indskolingen og 0. klasse."
+  },
+  "no": {
+    "slug": "klassens-diagram-soylediagram",
+    "name": "Klassens diagram",
+    "tagline": "Klassen svarer på ett spørsmål, hvert barn trykker på sitt eget svar, og diagrammet vokser mens alle ser på.",
+    "about": [
+      "Klassens diagram er en felles avstemning på tavla — én skjerm som hele klassen ser på samtidig. Læreren skriver inn et spørsmål og to eller tre svar; så kommer barna fram ett og ett og trykker på det svaret de har valgt. For hvert trykk kommer en liten figur inn i søyla: én figur, ett barn. Ingen trenger hvert sitt nettbrett, ingen skal logge inn, og ingenting må forberedes kvelden før. LK20 legger nettopp til de første trinnene det å samle inn og vise fram sine egne data.",
+      "Spranget fra en haug med figurer til en søyle er den største abstraksjonen i de første årene med statistikk, og på et arbeidsark har spranget alltid skjedd på forhånd. Her trykker læreren på “Vis søylene”, og klassen ser radene med barn bli til et søylediagram; et trykk på “Vis barna”, og figurene er tilbake. Bildediagrammet og søylediagrammet slutter å være to ulike oppgaver: det er den samme opplysningen, i den samme høyden, sett på to måter. Det er selve overgangen som underviser.",
+      "Tallene er skjult i starten, og det er med vilje: står det et tall på skjermen med én gang, ser ingen på diagrammet lenger. Først sammenligner klassen med lengden — denne søyla når høyere opp, disse to er like lange — og først etterpå viser en egen knapp antallet. Søyla er nøyaktig så høy som haugen med barn var, og dere kan bytte fram og tilbake og sjekke så mange ganger dere vil. Det er det beste svaret til barnet som tror at søyla sier noe større.",
+      "Ingenting her setter svarene i rekkefølge. Det finnes ikke noe svar som vinner, ingen sortering med den høyeste søyla først, ingen tid som løper og ingen poeng: en avstemning i klassen er et portrett av gruppa, ikke en konkurranse. Ingen barn blir nevnt med navn, alle figurene ser like ut og er anonyme, og ingenting blir lagret — når sida lukkes, er svarene borte. Igjen står bare det klassen så sammen, og samtalen de fikk ut av det."
+    ],
+    "howToUse": [
+      "Vis verktøyet på tavla og skriv inn dagens spørsmål med to eller tre svar.",
+      "Les svarene høyt, slik at alle vet hvor de skal trykke.",
+      "Hent barna fram ett og ett; hvert barn trykker én gang på sitt eget svar.",
+      "Stopp når alle har svart, og spør hva klassen ser, uten å telle.",
+      "Trykk på “Vis søylene” og la barna fortelle hva som ble annerledes.",
+      "Vis tallene helt til slutt, og gå tilbake til figurene og sjekk sammen."
+    ],
+    "classroomIdeas": [
+      "La hvert barn gjette hvor høy sin egen søyle blir før du trykker på “Vis søylene”, og sammenlign gjettet med det som står der.",
+      "La et barn holde fingeren på toppen av en søyle mens du bytter fram og tilbake: handa blir stående i samme høyde.",
+      "Still det samme spørsmålet mandag og fredag, og snakk om hva som har endret seg i løpet av uka.",
+      "Bruk spørsmål fra dagen selv — hvem gikk til skolen, hvem har frukt i matpakka, hvilken bok dere har hørt — så handler tallene om klassen.",
+      "Avslutt med å tegne av diagrammet i boka: figurene på den ene sida, søylene på den andre, i samme høyde."
+    ],
+    "metaTitle": "Søylediagram for klassen | gratis verktøy",
+    "metaDescription": "Avstemning på tavla: barna trykker på svaret sitt, og figurene blir til et søylediagram. Gratis verktøy for de første trinnene i skolen."
+  },
+  "fi": {
+    "slug": "luokan-diagrammi",
+    "name": "Luokan diagrammi",
+    "tagline": "Luokka vastaa yhteen kysymykseen, jokainen lapsi käy koskettamassa omaa vastaustaan, ja diagrammi kasvaa kaikkien nähden.",
+    "about": [
+      "Luokan diagrammi on yhteinen kysely, joka heijastetaan yhdelle näytölle. Opettaja kirjoittaa kysymyksen ja kaksi tai kolme vastausvaihtoehtoa, ja sitten lapset tulevat yksi kerrallaan koskettamaan valitsemaansa vastausta. Jokaisesta kosketuksesta ilmestyy pieni lapsihahmo sen vastauksen pylvääseen: yksi hahmo, yksi lapsi. Kenenkään ei tarvitse saada omaa laitetta, kukaan ei kirjaudu mihinkään eikä mitään tarvitse valmistella etukäteen. OPS 2014 sijoittaa juuri alkuopetukseen tietojen keräämisen ja esittämisen, ja tässä aineisto on luokka itse eikä esimerkki jostakin toisesta koulusta.",
+      "Kuvista koottu jono ja yhtä korkea pylväs ovat sama tieto, mutta niiden välinen loikka on alkuopetuksen suurin abstraktio — ja tehtävämonisteessa se on aina tehty jo valmiiksi. Täällä opettaja koskettaa “Näytä pylväät”, ja luokka näkee lapsijonojen muuttuvan pylväsdiagrammiksi; kosketus kohtaan “Näytä lapset” tuo hahmot takaisin. Kuviodiagrammi ja pylväsdiagrammi lakkaavat olemasta kaksi eri tehtävää: ne ovat sama asia kahdella tavalla katsottuna. Opettavainen on juuri se hetki, jossa muutos tapahtuu, ja lapset näkevät sen omalle aineistolleen.",
+      "Luvut ovat aluksi piilossa, ja se on tarkoituksellista: jos numero on näytöllä heti, kukaan ei enää katso diagrammia. Ensin verrataan pituutta — tämä pylväs yltää korkeammalle, nämä kaksi ovat yhtä pitkät — ja vasta sitten erillinen valinta paljastaa lukumäärät. Pylväs on täsmälleen niin korkea kuin lapsijono oli, ja näkymää voi vaihtaa edestakaisin niin monta kertaa kuin luokka haluaa tarkistaa. Se on paras vastaus lapselle, joka luulee pylvään tarkoittavan jotakin suurempaa kuin ne hahmot, jotka äsken seisoivat siinä.",
+      "Mikään ei aseta vastauksia järjestykseen. Yksikään vastaus ei voita, pisin pylväs ei siirry ensimmäiseksi, mikään ei ole ajastettu eikä pisteytetty: luokan kysely on ryhmäkuva eikä kilpailu. Ketään lasta ei mainita nimeltä, kaikki hahmot ovat samannäköisiä ja nimettömiä, eikä mitään tallenneta — kun sivu suljetaan, vastaukset katoavat. Jäljelle jää vain se, minkä luokka näki yhdessä, ja se, mistä ehdittiin yhdessä puhua."
+    ],
+    "howToUse": [
+      "Heijasta työkalu ja kirjoita päivän kysymys sekä kaksi tai kolme vastausvaihtoehtoa.",
+      "Lue vaihtoehdot ääneen, jotta jokainen tietää, mihin kohtaan koskettaa.",
+      "Kutsu lapset yksi kerrallaan; jokainen koskettaa omaa vastaustaan yhden kerran.",
+      "Pysähtykää, kun kaikki ovat vastanneet, ja kysykää mitä näytöllä näkyy ilman laskemista.",
+      "Kosketa “Näytä pylväät” ja anna lasten kertoa, mikä muuttui ja mikä pysyi samana.",
+      "Paljasta luvut vasta lopuksi ja palaa hahmoihin, niin voitte tarkistaa yhdessä."
+    ],
+    "classroomIdeas": [
+      "Pyydä jokaista arvaamaan oman pylväänsä korkeus ennen kuin kosketat “Näytä pylväät”, ja verratkaa arvausta siihen, mitä näytölle jää.",
+      "Anna yhden lapsen pitää sormea pylvään huipulla, kun vaihdat näkymää edestakaisin: käsi pysyy samalla korkeudella.",
+      "Kysy sama kysymys maanantaina ja perjantaina ja puhukaa siitä, mikä viikon aikana muuttui.",
+      "Ota kysymykset päivästä itsestään — kuka tuli kävellen, kenellä on eväänä hedelmä, minkä kirjan kuulitte — jotta aineisto on todella luokan omaa.",
+      "Piirtäkää lopuksi diagrammi vihkoon: hahmot toiselle puolelle, pylväät toiselle, samalle korkeudelle."
+    ],
+    "metaTitle": "Pylväsdiagrammi luokalle | ilmainen työkalu",
+    "metaDescription": "Luokan kysely taululla: lapset koskettavat vastaustaan ja hahmoista tulee pylväsdiagrammi. Ilmainen työkalu alkuopetukseen ja esiopetukseen."
+  }
+}

@@ -907,6 +907,34 @@
     "metaTitle": "Fluência leitora: ler por grupos | ferramenta grátis",
     "metaDescription": "Divida a frase em grupos de palavras na lousa, ouça os dois modos de ler e trabalhe a fluência leitora da turma, sem cronômetro e sem nota."
   },
+  "class-graph": {
+    "slug": "grafico-da-turma",
+    "name": "O gráfico da turma",
+    "tagline": "A turma responde a uma pergunta, cada criança toca a sua resposta e o gráfico cresce na frente de todo mundo.",
+    "about": [
+      "O gráfico da turma é uma enquete feita junto, projetada em uma única tela. O professor digita uma pergunta e duas ou três respostas; depois as crianças vão até a lousa, uma de cada vez, e tocam a resposta que escolheram. A cada toque, uma figurinha entra na coluna daquela resposta: uma figura, uma criança. Não é preciso um aparelho por aluno, nem cadastro, nem preparo na véspera. Os dados são a própria sala, e não o exemplo de uma turma desconhecida — é disso que a BNCC fala já no primeiro ano (EF01MA21 e EF01MA22).",
+      "A passagem do monte de figuras para a barra é a maior abstração dos primeiros anos de trabalho com dados, e na folha impressa ela sempre chega pronta. Aqui o professor toca em “Ver as barras” e a turma vê as colunas de crianças virarem um gráfico de barras; toca em “Ver as crianças” e as figuras voltam. O pictograma e o gráfico de barras deixam de ser dois exercícios separados: são a mesma informação, na mesma altura, olhada de dois jeitos. O que ensina é justamente o instante da mudança.",
+      "Os números ficam escondidos no começo, e isso é de propósito: se um numeral aparece na tela desde o início, ninguém mais olha para o gráfico. Primeiro a turma compara por comprimento — esta coluna chega mais alto, esta é do tamanho daquela — e só depois um botão separado revela as contagens. A barra tem exatamente a altura que o monte de crianças tinha, e dá para ir e voltar quantas vezes for preciso conferir. É a melhor resposta para a criança que acha que a barra está dizendo outra coisa, maior.",
+      "Nada aqui coloca as respostas em ordem. Não existe resposta vencedora, não existe organizar da coluna mais alta para a mais baixa, não há tempo correndo nem pontuação: uma enquete de turma é um retrato do grupo, não uma disputa. Nenhuma criança é nomeada, todas as figuras são iguais e anônimas, e nada fica salvo — quando a página fecha, as respostas somem. O que permanece é o que a turma viu junta e a conversa que teve enquanto olhava."
+    ],
+    "howToUse": [
+      "Projete a ferramenta e digite a pergunta do dia com duas ou três respostas.",
+      "Leia as respostas em voz alta para que todos saibam onde tocar.",
+      "Chame as crianças uma de cada vez; cada uma toca a sua resposta uma vez só.",
+      "Pare quando todo mundo já respondeu e pergunte o que dá para ver, sem contar.",
+      "Toque em “Ver as barras” e deixe a turma dizer o que mudou e o que continua igual.",
+      "Só então revele os números e volte para as crianças para conferir junto."
+    ],
+    "classroomIdeas": [
+      "Antes de tocar em “Ver as barras”, peça que cada criança adivinhe a altura da própria coluna e depois compare a previsão com o que apareceu.",
+      "Peça a uma criança que mantenha o dedo no topo de uma coluna enquanto você alterna entre figuras e barras: a mão não sobe nem desce.",
+      "Faça a mesma pergunta na segunda e na sexta-feira e conversem sobre o que mudou no meio da semana.",
+      "Use perguntas do próprio dia — quem veio a pé, quem trouxe fruta, qual história vocês ouviram — para que os dados sejam mesmo da turma.",
+      "Feche a atividade copiando o gráfico no caderno: as figuras de um lado, as barras do outro, na mesma altura."
+    ],
+    "metaTitle": "Gráfico de barras para a turma | ferramenta gratuita",
+    "metaDescription": "Enquete na lousa: cada criança toca a sua resposta e as figuras viram um gráfico de barras. Ferramenta gratuita para os anos iniciais."
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

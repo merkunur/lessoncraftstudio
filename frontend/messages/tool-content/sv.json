@@ -907,6 +907,34 @@
     "metaTitle": "Läsflyt och frasering | gratis verktyg för klassen",
     "metaDescription": "En mening på duken, delad i bågar och uppläst två gånger. Öva läsflyt och frasering med hela klassen, utan klocka och utan poäng."
   },
+  "class-graph": {
+    "slug": "klassens-diagram-stapeldiagram-arskurs-1-3",
+    "name": "Klassens diagram",
+    "tagline": "Klassen svarar på en fråga på duken, och raderna av barn förvandlas till ett stapeldiagram medan alla tittar på.",
+    "about": [
+      "Klassens diagram är en enkät för hela klassen på en enda skärm. Du skriver in en fråga och två eller tre svarsalternativ. Sedan går barnen fram ett i taget och trycker en gång på sitt svar. För varje barn ställer sig en liten figur i den kolumnen, tills hela klassen står som ett bilddiagram på duken. Barnen behöver ingen egen skärm och ingen inloggning, och den enda förberedelsen är frågan du vill ställa.",
+      "Steget från en bild för var och en av oss till en stapel som är så här hög är den största abstraktionen i det tidiga arbetet med data, och på ett arbetsblad är steget redan taget åt barnen. Här trycker du på Visa staplarna, och kolumnerna av barn blir staplar mitt framför klassen. De ser förvandlingen ske med sina egna uppgifter, inte med ett exempel från någon annans klass. Ett tryck på Visa barnen hämtar tillbaka figurerna. Uppgifterna är rummet de sitter i.",
+      "Talen är dolda från början, och det är med avsikt: står det en siffra på duken direkt tittar ingen längre på diagrammet. Först jämför klassen med längd — vilken stapel når längre, och hur mycket skiljer det. Först därefter visar du talen. Och eftersom stapeln är exakt lika hög som högen av barn var kan du växla fram och tillbaka och kontrollera det tillsammans. Det är svaret till barnet som tror att stapeln plötsligt betyder något mer.",
+      "Ingenting rangordnas och ingenting vinner. Svaren står kvar i den ordning du skrev in dem, den längsta stapeln flyttas inte främst, och inget svar får någon utmärkelse. En klassenkät är ett porträtt av gruppen, inte en tävling. Ingenting tas på tid och ingenting bedöms. Inget barn nämns vid namn, alla figurer ser likadana ut, och ingenting sparas — när sidan stängs är svaren borta."
+    ],
+    "howToUse": [
+      "Öppna Klassens diagram på projektorn så att alla ser samma yta.",
+      "Skriv in din fråga och två eller tre svarsalternativ.",
+      "Låt barnen gå fram ett i taget och trycka en gång på sitt svar.",
+      "Stanna upp vid kolumnerna av figurer och låt klassen beskriva vad den ser.",
+      "Tryck på Visa staplarna och sedan på Visa barnen igen, några gånger i rad.",
+      "Visa talen allra sist och jämför dem med det klassen redan läst av på längden."
+    ],
+    "classroomIdeas": [
+      "Fråga innan du växlar hur hög stapeln kommer att bli och låt två barn visa höjden med händerna.",
+      "Växla fram och tillbaka några gånger och ställ varje gång samma fråga: vart tog barnen vägen, och är det fortfarande lika många?",
+      "Låt ett barn säga något om diagrammet som stämmer och något som inte stämmer; resten av klassen avgör vilket som är vilket.",
+      "Ställ samma fråga igen om en månad och sätt upp de två diagrammen bredvid varandra.",
+      "Att samla in och redovisa data finns med redan för de tidiga åren i Lgr22; låt klassen rita av stapeldiagrammet på rutat papper med en ruta per barn."
+    ],
+    "metaTitle": "Stapeldiagram åk 1-3 | gratis verktyg för klassen",
+    "metaDescription": "Stapeldiagram för åk 1-3: klassen svarar på duken, barnen blir staplar och talen är dolda tills ni har jämfört med längd. Gratis och utan inloggning."
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

@@ -907,6 +907,34 @@
     "metaTitle": "Lettura espressiva a gruppi di parole | strumento gratis",
     "metaDescription": "Dividi la frase in gruppi di parole, tocca gli archi e ascolta le due letture: un esercizio di lettura espressiva per la LIM, senza cronometro."
   },
+  "class-graph": {
+    "slug": "grafico-della-classe",
+    "name": "Il grafico della classe",
+    "tagline": "La classe risponde a una domanda, ogni bambino tocca la sua risposta e il grafico cresce sotto gli occhi di tutti.",
+    "about": [
+      "Il grafico della classe è un sondaggio da fare insieme, proiettato su un unico schermo. L’insegnante scrive una domanda e due o tre risposte; poi i bambini si alzano, uno alla volta, e toccano la risposta che hanno scelto. A ogni tocco compare una figura nella colonna corrispondente: una figura, un bambino. Non serve un dispositivo per ciascuno, non serve registrarsi, non serve preparare nulla prima. Le Indicazioni nazionali collocano proprio nel primo ciclo la raccolta e la rappresentazione dei dati, e qui i dati sono quelli della stanza.",
+      "Il passaggio dal mucchio di figure alla barra è l’astrazione più grande dei primi anni di lavoro sui dati, e nelle schede arriva sempre già compiuta. Qui invece l’insegnante tocca «Mostra le barre» e la classe vede le colonne di bambini diventare un grafico a barre; un altro tocco su «Mostra i bambini» e le figure tornano. L’ideogramma e il grafico a barre smettono di essere due esercizi diversi: sono la stessa informazione, la stessa altezza, guardata in due modi. Il momento in cui questo accade è la lezione.",
+      "I numeri restano nascosti all’inizio, e non è una dimenticanza: se sullo schermo compare subito un numerale, nessuno guarda più il grafico. Prima si confronta per lunghezza — questa colonna arriva più in alto, questa è corta quanto l’altra — e solo dopo un interruttore separato mostra le cifre. La barra è alta esattamente quanto era il mucchio di bambini, e si può tornare indietro a controllare tutte le volte che serve. È la risposta più onesta al bambino convinto che la barra stia dicendo qualcosa di più grande.",
+      "Niente qui mette in fila le risposte. Non esiste una risposta che vince, non c’è un ordinamento che porta davanti la colonna più alta, non c’è nulla di cronometrato e nulla che assegni punti: un sondaggio di classe è un ritratto del gruppo, non una gara. Nessun bambino viene nominato, tutte le figure sono identiche e anonime, e niente viene salvato — quando la pagina si chiude, le risposte spariscono. Resta soltanto quello che la classe ha visto insieme e di cui ha parlato."
+    ],
+    "howToUse": [
+      "Proietta lo strumento e scrivi la domanda del giorno con due o tre risposte.",
+      "Leggi ad alta voce le risposte e assicurati che tutti sappiano dove toccare.",
+      "Chiama i bambini uno alla volta: ognuno tocca la sua risposta una sola volta.",
+      "Fermati quando hanno risposto tutti e chiedi che cosa si vede, senza contare.",
+      "Tocca «Mostra le barre» e lascia che la classe racconti che cosa è cambiato.",
+      "Solo alla fine mostra i numeri e torna alle figure per controllare insieme."
+    ],
+    "classroomIdeas": [
+      "Prima di toccare «Mostra le barre», chiedi a ogni bambino di indovinare quanto sarà alta la sua colonna, poi confrontate la previsione con quello che appare.",
+      "Fai tenere a un bambino il dito sulla cima di una colonna mentre passi avanti e indietro fra figure e barre: la mano resta alla stessa altezza.",
+      "Poni la stessa domanda il lunedì e il venerdì e parlate di che cosa è cambiato durante la settimana.",
+      "Prendi le domande dalla giornata — chi è venuto a piedi, chi ha portato la frutta, quale storia avete ascoltato — così i dati sono davvero della classe.",
+      "Chiudete l’attività ricopiando il grafico sul quaderno: le figure da una parte, le barre dall’altra, alla stessa altezza."
+    ],
+    "metaTitle": "Grafico a barre per la classe | strumento gratuito",
+    "metaDescription": "Sondaggio di classe sulla LIM: i bambini toccano la risposta, le figure diventano un grafico a barre. Strumento gratuito per la scuola primaria."
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

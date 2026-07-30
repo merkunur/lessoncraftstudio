@@ -212,6 +212,10 @@ frontend/.scratch/
 # One-off feasibility spike (carries its own nested .gitignore).
 frontend/scripts/feasibility-test/
 
+# §A.13.44 pipeline regression snapshots. The discipline requires taking one before
+# re-running the syllable gate; the doctrine also says they live out-of-tree. ~50 files.
+scripts/v2-data/verify-syllable-boundaries/output/*.before-*.json
+
 # Stripe product creation (contains internal IDs, one-time use)
 scripts/stripe-products-map.json
 scripts/create-stripe-products.js

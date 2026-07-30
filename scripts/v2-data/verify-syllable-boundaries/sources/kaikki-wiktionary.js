@@ -92,16 +92,45 @@ function extractIpa(wikitext, locale) {
   return m ? m[1].trim() : null;
 }
 
-/** Count syllables from an IPA string by counting vowel nuclei.
-    Conservative: each contiguous vowel-class character group = 1 nucleus. */
+/** Count syllables from an IPA string by counting vowel nuclei, with two
+    German-critical Unicode combining-mark adjustments:
+
+    - U+032F COMBINING INVERTED BREVE BELOW marks a NON-SYLLABIC vocoid
+      (the off-glide of every German diphthong: aʊ̯ aɪ̯ ɔʏ̯, and the
+      vocalized-r ɐ̯). The vowel symbol carrying U+032F belongs to the
+      preceding nucleus — pre-strip it before counting nuclei so it does
+      not match as its own syllable.
+
+    - U+0329 COMBINING VERTICAL LINE BELOW marks a SYLLABIC consonant
+      (l̩ n̩ m̩ — ubiquitous in German -el / -en / -em endings where the
+      schwa reduces). A sonorant consonant carrying U+0329 IS a nucleus
+      and must be counted in addition to vowel matches.
+
+    Other combining marks (length ː, stress ˈ ˌ, nasalization tilde,
+    acute, grave, breve-above, tie-bar, etc.) keep their prior handling. */
 function countSyllablesFromIpa(ipa) {
   if (!ipa || typeof ipa !== 'string') return null;
   // Strip wrappers + stress markers + boundaries
   const clean = ipa.replace(/[\/\[\]]/g, '').replace(/[ˈˌ.\s]/g, '');
-  // IPA vowel chars (broad — covers Latin vowels, IPA vowels, accented variants)
+  // (1) Pre-strip non-syllabic vocoids: any vowel-class char followed by
+  //     U+032F. After this, German diphthong off-glides no longer count
+  //     as their own nuclei.
+  const NON_SYLLABIC_VOWEL = /[aeiouyæøœɛɔɪʊəʌɐɒɑɨɯɤʉœɞɵʏ]̯/g;
+  const cleanForVowels = clean.replace(NON_SYLLABIC_VOWEL, '');
+  // (2) Count remaining vowel nuclei (existing regex; greedy on other
+  //     combining marks like length / accents which decorate the same vowel).
   const VOWEL_CLASS = /[aeiouyæøœɛɔɪʊəʌɐɒɑɨɯɤʉøœɞɵʏ][̀-ͯˀː]*/g;
-  const matches = clean.match(VOWEL_CLASS);
-  return matches ? matches.length : null;
+  const vowelMatches = cleanForVowels.match(VOWEL_CLASS);
+  const vowelCount = vowelMatches ? vowelMatches.length : 0;
+  // (3) Count syllabic consonants: sonorant consonant carrying U+0329.
+  //     Operates on `clean` (not cleanForVowels) so the syllabic count
+  //     is independent of the pre-strip. Covers Latin l/m/n/r plus IPA
+  //     ŋ / ʁ / ɲ / ʎ.
+  const SYLLABIC_CONS = /[lmnrŋʁɲʎ]̩/g;
+  const syllabicMatches = clean.match(SYLLABIC_CONS);
+  const syllabicCount = syllabicMatches ? syllabicMatches.length : 0;
+  const total = vowelCount + syllabicCount;
+  return total > 0 ? total : null;
 }
 
 /**
@@ -114,7 +143,12 @@ async function lookup(word, locale, opts) {
   // Normalize for cache key
   const key = word;  // preserve case for cache hit/miss; Wiktionary lemma casing matters
   const cache = loadCache(locale);
-  if (cache[key] !== undefined && !opts.refresh) return cache[key];
+  if (cache[key] !== undefined && !opts.refresh) {
+    // Re-derive sylCount from cached IPA on every hit, so parser updates
+    // take effect without manual cache invalidation. The IPA string itself
+    // never changes (it's what Wiktionary returned); only our interpretation.
+    return { ipa: cache[key].ipa, sylCount: countSyllablesFromIpa(cache[key].ipa) };
+  }
   await new Promise(r => setTimeout(r, opts.delayMs || 80));
   const wikitext = await fetchWikitext(word);
   const ipa = extractIpa(wikitext, locale);

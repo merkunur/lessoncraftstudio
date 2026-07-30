@@ -802,6 +802,31 @@
     "metaTitle": "Sag-es-Tafel — die ersten Worte für neue Kinder | Kostenlos",
     "metaDescription": "Kostenlose Bild-Kommunikationstafel für neu zugewanderte Kinder in der Grundschule: Bild antippen, die Klasse hört den Satz laut. Ohne Bewertung."
   },
+  "sorting-hoops": {
+    "slug": "sortierreifen",
+    "name": "Sortierreifen",
+    "tagline": "Zwei Reifen, eine geheime Regel — und der Reifen entscheidet, damit Sie schweigen und zuhören können.",
+    "about": [
+      "Sortierreifen sind zwei überlappende Reifen auf einer Matte. Kinder ziehen Dinge hinein, und wichtig ist die Mitte: Was in beide Reifen gehört, hat sonst keinen Platz. Genau darum überlappen sie und liegen nicht nebeneinander.",
+      "Zur Unterrichtsstunde wird es durch „Errate meine Regel“. Sie legen für jeden Reifen eine geheime Regel fest, und die Kinder bringen Dinge. Der REIFEN entscheidet — er behält, was passt, und lässt den Rest wieder los. Auf dem Teppich muss eine erwachsene Person „nein, das nicht“ sagen, und die Kinder hören auf zu denken und lesen im Gesicht der Erwachsenen. Hier bewertet niemand, also können Sie zurücktreten und dem Denken zuhören. Und was der Reifen losgelassen hat, verschwindet nicht: Es sammelt sich außerhalb und wird zur anderen Hälfte der Hinweise. Genau so lösen Kinder solche Rätsel — ebenso sehr über das, was draußen liegt, wie über das, was drinnen ist.",
+      "Sortieren Sie 32 Logikformen nach Farbe, Form oder Größe, oder die Bildkarten nach Fragen, über die ein Fünfjähriger streiten kann: Lebt es? Haben Menschen es gemacht? Kann man es essen? Bewegt es sich von allein? Lebt es im Wasser? Die Wortregeln gibt es sonst nirgends — wie viele Silben das Wort hat, mit welchem Buchstaben es anfängt — und sie funktionieren in allen elf Sprachen, weil sie auf unseren eigenen geprüften Wortdaten beruhen und nicht aus dem Englischen übersetzt sind."
+    ],
+    "howToUse": [
+      "Am Klassenbildschirm öffnen. Zwei Reifen, ein Tablett mit zwölf Dingen, nichts einzurichten.",
+      "Beim freien Sortieren lassen Sie die Reifen unbeschriftet und die Klasse entscheiden, wofür jeder steht. Ohne Beschriftung ist es die bessere Stunde — die Kinder müssen sich laut auf eine Regel einigen.",
+      "Für „Errate meine Regel“ tippen Sie auf „Regeln festlegen“ und wählen für jeden Reifen eine. Die Beschriftung zeigt „Geheim“, bis Sie sie aufdecken.",
+      "Schicken Sie ein Kind nach dem anderen an die Tafel. Fragen Sie die Klasse, bevor losgelassen wird: Glaubt ihr, es geht hinein? Vor dem Loslassen leuchtet nichts auf — es ist also eine echte Frage.",
+      "Wenn jemand die Regel ausspricht, tippen Sie auf „Regeln zeigen“ und lassen die Klasse selbst nachprüfen."
+    ],
+    "classroomIdeas": [
+      "Beginnen Sie mit einem Reifen und einer Regel. Der zweite kommt erst dazu, wenn die Klasse sicher ist — die Schnittmenge ist eine große Idee und verdient einen eigenen Tag.",
+      "Legen Sie selbst schweigend etwas hinein, wenn es hakt. Ein Beispiel zu setzen ist der älteste Hinweis in diesem Spiel und kostet Sie kein Wort.",
+      "Bitten Sie um etwas, das in die Mitte gehört. Die Schnittmenge vorherzusagen ist viel schwerer, als sie zu füllen, und zeigt Ihnen, wer verstanden hat.",
+      "Mit den Bildern und einer Wortregel — Silbenzahl oder Anfangsbuchstabe — wird dasselbe Gerät zur Phonetikstunde, ohne dass sich auf dem Bildschirm etwas ändert."
+    ],
+    "metaTitle": "Sortierreifen — Ordnen nach Merkmalen | Kostenloses Werkzeug",
+    "metaDescription": "Kostenloses Sortierwerkzeug für die Grundschule: zwei überlappende Reifen, eine geheime Regel, und der Reifen entscheidet. Nach Merkmal, Laut oder Bedeutung ordnen."
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

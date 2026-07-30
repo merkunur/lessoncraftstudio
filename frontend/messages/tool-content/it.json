@@ -801,6 +801,31 @@
     "metaTitle": "Tavola per farsi capire — alunni neoarrivati | Strumento gratis",
     "metaDescription": "Tavola di comunicazione per immagini per alunni neoarrivati nella scuola dell’infanzia e primaria: tocca un’immagine e la classe sente la frase. Senza valutazione."
   },
+  "sorting-hoops": {
+    "slug": "cerchi-per-classificare",
+    "name": "Cerchi per classificare",
+    "tagline": "Due cerchi, una regola segreta — e decide il cerchio, così tu puoi stare zitta e ascoltarli ragionare.",
+    "about": [
+      "I Cerchi per classificare sono due cerchi che si sovrappongono su un tappeto. I bambini ci trascinano dentro le cose, e il punto che conta è il mezzo: quello che appartiene a tutti e due i cerchi non ha nessun altro posto dove stare. È tutta qui l’idea, ed è per questo che si sovrappongono invece di stare accostati.",
+      "Quello che ne fa una lezione è «Indovina la mia regola». Scegli una regola segreta per ogni cerchio e i bambini portano le cose. Decide il CERCHIO: tiene quello che va bene e lascia andare il resto. Sul tappeto deve essere un adulto a dire «no, quello no», e i bambini smettono di pensare e cominciano a leggere la faccia dell’adulto. Qui non giudica nessuno, quindi puoi fare un passo indietro e ascoltare come ragionano. E quello che il cerchio ha lasciato andare non sparisce: si accumula fuori e diventa l’altra metà degli indizi. È esattamente così che i bambini risolvono questi giochi — tanto da quello che sta fuori quanto da quello che sta dentro.",
+      "Classifica trentadue forme logiche per colore, forma o grandezza, oppure classifica le immagini secondo domande su cui un bambino di cinque anni può discutere: è vivo, l’hanno fatto le persone, si può mangiare, si muove da solo, vive nell’acqua. Le regole sulle parole non ci sono da nessun’altra parte — quante sillabe ha la parola, con che lettera comincia — e funzionano in tutte e undici le lingue, perché si basano sui nostri dati verificati e non su una traduzione dall’inglese."
+    ],
+    "howToUse": [
+      "Aprilo sullo schermo della classe. Due cerchi, un vassoio con dodici cose, niente da impostare.",
+      "Per la classifica libera lascia i cerchi senza etichetta e fai decidere alla classe a cosa serve ciascuno. Senza etichetta la lezione è migliore: bisogna mettersi d’accordo ad alta voce prima che qualcosa possa entrare.",
+      "Per «Indovina la mia regola» tocca «Scegli le regole» e prendine una per cerchio. Le etichette dicono «Segreta» finché non le mostri.",
+      "Manda un bambino alla volta alla lavagna. Prima che lasci la presa chiedi alla classe: secondo voi ci entra? Prima del rilascio non si illumina niente, quindi è una domanda vera.",
+      "Quando qualcuno dice la regola ad alta voce, tocca «Mostra le regole» e lascia che controllino da soli."
+    ],
+    "classroomIdeas": [
+      "Comincia con un cerchio solo e una regola sola. Aggiungi il secondo quando la classe è sicura: la sovrapposizione è un’idea grande e merita una giornata sua.",
+      "Metti dentro tu qualcosa, in silenzio, quando si bloccano. Mettere un esempio è l’indizio più antico di questo gioco e non ti costa una parola.",
+      "Chiedi una cosa che andrebbe nel mezzo. Prevedere la sovrapposizione è molto più difficile che riempirla, e ti dice chi ha capito.",
+      "Usalo con le immagini e una regola sulle parole — quante sillabe o la lettera iniziale — e lo stesso strumento diventa una lezione di fonologia senza cambiare niente sullo schermo."
+    ],
+    "metaTitle": "Cerchi per classificare — diagramma di Venn e indovina la regola",
+    "metaDescription": "Strumento gratuito per classificare alla scuola dell’infanzia e primaria: due cerchi che si sovrappongono, una regola segreta, e decide il cerchio."
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

@@ -801,6 +801,31 @@
     "metaTitle": "Quadro para falar — crianças recém-chegadas | Ferramenta grátis",
     "metaDescription": "Quadro de comunicação por imagens para crianças recém-chegadas na educação infantil e anos iniciais: toque numa imagem e a turma ouve a frase. Sem avaliação."
   },
+  "sorting-hoops": {
+    "slug": "arcos-de-classificacao",
+    "name": "Arcos de classificação",
+    "tagline": "Dois arcos, uma regra secreta — e quem decide é o arco, para que você possa ficar quieta e ouvir a turma pensar.",
+    "about": [
+      "Os Arcos de classificação são dois arcos que se cruzam sobre um tapete. As crianças arrastam coisas para dentro, e o lugar que importa é o do meio: o que pertence aos dois arcos não tem nenhum outro lugar para ficar. É essa a ideia toda, e é por isso que eles se cruzam em vez de ficarem lado a lado.",
+      "O que transforma isso numa aula é «Adivinhe a minha regra». Você escolhe uma regra secreta para cada arco e as crianças trazem coisas. Quem decide é o ARCO: ele fica com o que serve e deixa o resto ir embora. No tapete é um adulto que precisa dizer «não, esse não», e as crianças param de pensar e começam a ler o rosto do adulto. Aqui ninguém julga, então você pode dar um passo atrás e escutar o raciocínio. E o que o arco deixou ir embora não some: vai se juntando do lado de fora e vira a outra metade das pistas. É exatamente assim que as crianças resolvem esses jogos — tanto pelo que está fora quanto pelo que está dentro.",
+      "Classifiquem trinta e duas formas lógicas por cor, forma ou tamanho, ou classifiquem as imagens por perguntas que uma criança de cinco anos consegue discutir: está vivo, foram as pessoas que fizeram, dá para comer, se move sozinho, vive na água. As regras sobre as palavras não existem em nenhuma outra ferramenta — quantas sílabas a palavra tem, com que letra começa — e funcionam nos onze idiomas, porque se apoiam nos nossos próprios dados verificados e não numa tradução do inglês."
+    ],
+    "howToUse": [
+      "Abra na tela da turma. Dois arcos, uma bandeja com doze coisas, nada para configurar.",
+      "Para classificar livre, deixe os arcos sem etiqueta e deixe a turma decidir para que serve cada um. Sem etiqueta a aula é melhor: é preciso combinar em voz alta antes que qualquer coisa entre.",
+      "Para «Adivinhe a minha regra», toque em «Escolher as regras» e pegue uma para cada arco. As etiquetas dizem «Secreta» até você mostrar.",
+      "Mande uma criança de cada vez até a lousa. Antes de ela soltar, pergunte para a turma: vocês acham que vai entrar? Antes de soltar não acende nada, então é uma pergunta de verdade.",
+      "Quando alguém disser a regra em voz alta, toque em «Mostrar as regras» e deixe a turma conferir sozinha."
+    ],
+    "classroomIdeas": [
+      "Comece com um arco só e uma regra só. Acrescente o segundo quando a turma estiver segura: o cruzamento é uma ideia grande e merece um dia só dele.",
+      "Coloque você mesma alguma coisa dentro, em silêncio, quando eles travarem. Pôr um exemplo é a pista mais antiga desse jogo e não custa nenhuma palavra.",
+      "Peça uma coisa que iria no meio. Prever o cruzamento é muito mais difícil do que preencher, e mostra para você quem entendeu.",
+      "Use com as imagens e uma regra sobre as palavras — quantas sílabas ou a letra inicial — e o mesmo aparelho vira uma aula de consciência fonológica sem mudar nada na tela."
+    ],
+    "metaTitle": "Arcos de classificação — diagrama de Venn e adivinhe a regra | Grátis",
+    "metaDescription": "Ferramenta gratuita de classificação para a educação infantil e anos iniciais: dois arcos que se cruzam, uma regra secreta, e quem decide é o arco."
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

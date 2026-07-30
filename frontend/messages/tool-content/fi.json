@@ -779,6 +779,31 @@
     "metaTitle": "Sanomistaulu — ensimmäiset sanat vasta saapuneelle | Maksuton",
     "metaDescription": "Maksuton kuvakommunikaatiotaulu vasta maahan tulleille lapsille esi- ja alkuopetuksessa: napauta kuvaa, luokka kuulee lauseen ääneen. Ei arviointia."
   },
+  "sorting-hoops": {
+    "slug": "lajitteluvanteet",
+    "name": "Lajitteluvanteet",
+    "tagline": "Kaksi vannetta, yksi salainen sääntö — ja vanne päättää, joten voit olla hiljaa ja kuunnella, miten he ajattelevat.",
+    "about": [
+      "Lajitteluvanteet ovat kaksi vannetta, jotka menevät päällekkäin matolla. Lapset vetävät esineitä sisään, ja tärkein paikka on keskellä: se mikä kuuluu molempiin vanteisiin, ei mahdu mihinkään muualle. Siinä on koko idea, ja juuri siksi vanteet menevät päällekkäin eivätkä ole vierekkäin.",
+      "Oppitunniksi tämän tekee ”Arvaa sääntöni”. Asetat kummallekin vanteelle salaisen säännön, ja lapset tuovat esineitä. VANNE päättää: se pitää sen mikä sopii ja päästää loput menemään. Matolla aikuisen on sanottava ”ei, ei tuo”, ja silloin lapset lakkaavat ajattelemasta ja alkavat lukea aikuisen ilmettä. Täällä kukaan ei arvostele, joten voit ottaa askeleen taaksepäin ja kuunnella päättelyä. Eikä se, minkä vanne päästi menemään, katoa: se kertyy vanteen ulkopuolelle ja siitä tulee vihjeiden toinen puoli. Juuri näin lapset ratkaisevat tällaiset arvoitukset — yhtä paljon ulkopuolelle jääneistä kuin sisällä olevista.",
+      "Lajitelkaa kolmekymmentäkaksi loogista muotoa värin, muodon tai koon mukaan, tai lajitelkaa kuvia kysymyksillä, joista viisivuotias voi väitellä: elääkö se, ovatko ihmiset tehneet sen, voiko sen syödä, liikkuuko se itsestään, elääkö se vedessä. Sanasääntöjä ei ole missään muualla — montako tavua sanassa on, millä kirjaimella se alkaa — ja ne toimivat kaikilla yhdellätoista kielellä, koska ne perustuvat omiin tarkistettuihin sanatietoihimme eivätkä englannista käännettyihin."
+    ],
+    "howToUse": [
+      "Avaa se luokan näytölle. Kaksi vannetta, tarjotin jossa on kaksitoista esinettä, mitään ei tarvitse asettaa.",
+      "Vapaassa lajittelussa jätä vanteet nimeämättä ja anna luokan päättää, mitä varten kumpikin on. Ilman nimilappua oppitunti on parempi — heidän on sovittava ääneen ennen kuin mitään voi laittaa sisään.",
+      "Napauta ”Arvaa sääntöni” -tilassa kohtaa ”Aseta säännöt” ja valitse kummallekin vanteelle yksi. Nimilaput lukevat ”Salainen”, kunnes näytät ne.",
+      "Lähetä yksi lapsi kerrallaan taululle. Kysy luokalta ennen kuin lapsi päästää irti: menneekö se mielestänne sisään? Mikään ei syty ennen irti päästämistä, joten kysymys on aito.",
+      "Kun joku sanoo säännön ääneen, napauta ”Näytä säännöt” ja anna heidän tarkistaa itse."
+    ],
+    "classroomIdeas": [
+      "Aloita yhdellä vanteella ja yhdellä säännöllä. Lisää toinen vasta kun luokka on varma — päällekkäinen alue on iso idea ja ansaitsee oman päivänsä.",
+      "Laita itse jotain sisään, hiljaa, kun he juuttuvat. Yhden esimerkin asettaminen on tämän pelin vanhin vihje eikä maksa sinulle sanaakaan.",
+      "Pyydä jotain, joka menisi keskelle. Päällekkäisen alueen ennustaminen on paljon vaikeampaa kuin sen täyttäminen, ja se kertoo sinulle, kuka on ymmärtänyt.",
+      "Käytä sitä kuvien ja sanasäännön kanssa — tavumäärä tai alkukirjain — niin sama väline muuttuu kielellisen tietoisuuden tunniksi ilman että ruudulla muuttuu mikään."
+    ],
+    "metaTitle": "Lajitteluvanteet — venn-kaavio ja arvaa sääntöni | Maksuton työkalu",
+    "metaDescription": "Maksuton lajittelutyökalu esi- ja alkuopetukseen: kaksi päällekkäistä vannetta, salainen sääntö, ja vanne päättää."
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

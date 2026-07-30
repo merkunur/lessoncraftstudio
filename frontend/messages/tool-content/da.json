@@ -801,6 +801,31 @@
     "metaTitle": "Sig-det-tavlen — de første ord for nyankomne | Gratis værktøj",
     "metaDescription": "Gratis billedkommunikationstavle til nyankomne børn i børnehaveklassen og indskolingen: tryk på et billede, og klassen hører sætningen højt. Uden bedømmelse."
   },
+  "sorting-hoops": {
+    "slug": "sorteringsringe",
+    "name": "Sorteringsringe",
+    "tagline": "To ringe, én hemmelig regel — og det er ringen, der afgør det, så du kan tie og lytte til, hvordan de tænker.",
+    "about": [
+      "Sorteringsringe er to ringe, der overlapper hinanden på en måtte. Børnene trækker ting ind, og stedet, der betyder noget, er midten: det, der hører til i begge ringe, har ikke andre steder at være. Det er hele idéen, og derfor overlapper de i stedet for at ligge ved siden af hinanden.",
+      "Det, der gør det til en lektion, er „Gæt min regel“. Du sætter en hemmelig regel for hver ring, og børnene kommer med ting. Det er RINGEN, der afgør det: den beholder det, der passer, og slipper resten. På måtten skal en voksen sige „nej, ikke den“, og så holder børnene op med at tænke og begynder at læse den voksnes ansigt. Her dømmer ingen, så du kan træde et skridt tilbage og lytte til, hvordan de ræsonnerer. Og det, ringen slap, forsvinder ikke: det samler sig uden for ringen og bliver den anden halvdel af sporene. Præcis sådan knækker børn de her gåder — lige så meget ud fra det, der ligger udenfor, som fra det, der er indenfor.",
+      "Sortér toogtredive logiske former efter farve, form eller størrelse, eller sortér billederne efter spørgsmål, som en femårig kan diskutere: lever den, har mennesker lavet den, kan man spise den, bevæger den sig selv, lever den i vand. Ordreglerne findes ingen andre steder — hvor mange stavelser ordet har, hvilket bogstav det begynder med — og de virker på alle elleve sprog, fordi de bygger på vores egne kontrollerede orddata og ikke på en oversættelse fra engelsk."
+    ],
+    "howToUse": [
+      "Åbn den på klassens skærm. To ringe, en bakke med tolv ting, intet at indstille.",
+      "Ved fri sortering lader du ringene være uden mærkat og lader klassen bestemme, hvad hver ring er til. Uden mærkat bliver lektionen bedre — de skal blive enige højt, før der kan komme noget ind.",
+      "Til „Gæt min regel“ trykker du på „Vælg reglerne“ og tager én til hver ring. Mærkaterne siger „Hemmelig“, indtil du viser dem.",
+      "Send ét barn ad gangen op til tavlen. Spørg klassen, før barnet slipper: tror I, den kommer ind? Der lyser ikke noget op, før man slipper, så det er et ægte spørgsmål.",
+      "Når nogen siger reglen højt, trykker du på „Vis reglerne“ og lader dem tjekke selv."
+    ],
+    "classroomIdeas": [
+      "Start med én ring og én regel. Tilføj først den anden, når klassen er sikker — overlappet er en stor idé og fortjener sin egen dag.",
+      "Læg selv noget ind, i tavshed, når de går i stå. At placere ét eksempel er det ældste vink i det her spil og koster dig ikke et ord.",
+      "Bed om noget, der ville ligge i midten. At forudsige overlappet er meget sværere end at fylde det, og det viser dig, hvem der har forstået det.",
+      "Kør den med billederne og en ordregel — antal stavelser eller begyndelsesbogstav — så bliver det samme redskab til en lektion i sproglig opmærksomhed, uden at noget ændrer sig på skærmen."
+    ],
+    "metaTitle": "Sorteringsringe — venndiagram og gæt min regel | Gratis værktøj",
+    "metaDescription": "Gratis sorteringsværktøj til børnehaveklassen og indskolingen: to overlappende ringe, en hemmelig regel, og det er ringen, der afgør det."
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

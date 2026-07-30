@@ -801,6 +801,31 @@
     "metaTitle": "Säg-det-tavlan — första orden för nyanlända | Gratis verktyg",
     "metaDescription": "Gratis bildkommunikationstavla för nyanlända barn i förskoleklass och lågstadiet: tryck på en bild så hör klassen meningen högt. Ingen bedömning."
   },
+  "sorting-hoops": {
+    "slug": "sorteringsringar",
+    "name": "Sorteringsringar",
+    "tagline": "Två ringar, en hemlig regel — och det är ringen som avgör, så att du kan tiga och lyssna på hur de tänker.",
+    "about": [
+      "Sorteringsringar är två ringar som överlappar varandra på en matta. Barnen drar in saker, och stället som betyder något är mitten: det som hör hemma i båda ringarna har ingen annanstans att ta vägen. Det är hela idén, och därför överlappar de i stället för att ligga bredvid varandra.",
+      "Det som gör det till en lektion är ”Gissa min regel”. Du sätter en hemlig regel för varje ring och barnen kommer med saker. Det är RINGEN som avgör: den behåller det som passar och släpper resten. På mattan måste en vuxen säga ”nej, inte den där”, och då slutar barnen tänka och börjar läsa den vuxnes ansikte. Här dömer ingen, så du kan ta ett steg tillbaka och lyssna på resonemanget. Och det som ringen släppte försvinner inte: det samlas utanför och blir den andra halvan av ledtrådarna. Precis så knäcker barn de här gåtorna — lika mycket av det som ligger utanför som av det som är inne.",
+      "Sortera trettiotvå logiska former efter färg, form eller storlek, eller sortera bilderna efter frågor som en femåring kan diskutera: lever den, har människor gjort den, kan man äta den, rör den sig själv, lever den i vatten. Ordreglerna finns ingen annanstans — hur många stavelser ordet har, vilken bokstav det börjar på — och de fungerar på alla elva språken, eftersom de vilar på våra egna kontrollerade orddata och inte på en översättning från engelskan."
+    ],
+    "howToUse": [
+      "Öppna den på klassens skärm. Två ringar, en bricka med tolv saker, inget att ställa in.",
+      "Vid fri sortering lämnar du ringarna utan etikett och låter klassen bestämma vad varje ring är till för. Utan etikett blir lektionen bättre — de måste komma överens högt innan något kan läggas in.",
+      "För ”Gissa min regel” trycker du på ”Välj reglerna” och tar en per ring. Etiketterna säger ”Hemlig” tills du visar dem.",
+      "Skicka fram ett barn i taget. Fråga klassen innan barnet släpper: tror ni att den åker in? Ingenting lyser upp innan man släpper, så det är en riktig fråga.",
+      "När någon säger regeln högt trycker du på ”Visa reglerna” och låter dem kontrollera själva."
+    ],
+    "classroomIdeas": [
+      "Börja med en ring och en regel. Lägg till den andra först när klassen är säker — överlappningen är en stor idé och förtjänar en egen dag.",
+      "Lägg själv in något, under tystnad, när de kör fast. Att placera ett exempel är den äldsta ledtråden i det här spelet och kostar dig inte ett ord.",
+      "Be om något som skulle hamna i mitten. Att förutsäga överlappningen är mycket svårare än att fylla den, och det visar dig vem som har förstått.",
+      "Kör den med bilderna och en ordregel — antal stavelser eller begynnelsebokstav — så blir samma redskap en lektion i språklig medvetenhet utan att något ändras på skärmen."
+    ],
+    "metaTitle": "Sorteringsringar — venndiagram och gissa min regel | Gratis verktyg",
+    "metaDescription": "Gratis sorteringsverktyg för förskoleklass och lågstadiet: två överlappande ringar, en hemlig regel, och det är ringen som avgör."
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

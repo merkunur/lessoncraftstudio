@@ -801,6 +801,31 @@
     "metaTitle": "Tablero para decirlo — alumnado recién llegado | Gratis",
     "metaDescription": "Tablero de comunicación con imágenes para alumnado recién llegado en infantil y primaria: toca una imagen y el grupo escucha la frase. Sin evaluación."
   },
+  "sorting-hoops": {
+    "slug": "aros-para-clasificar",
+    "name": "Aros para clasificar",
+    "tagline": "Dos aros, una regla secreta — y decide el aro, para que tú puedas callarte y escucharlos pensar.",
+    "about": [
+      "Los Aros para clasificar son dos aros que se cruzan sobre una alfombra. Los niños arrastran cosas dentro, y el sitio que importa es el del medio: lo que pertenece a los dos aros no tiene ningún otro lugar donde ir. Ésa es toda la idea, y por eso se cruzan en vez de estar uno al lado del otro.",
+      "Lo que lo convierte en una clase es «Adivina mi regla». Eliges una regla secreta para cada aro y los niños traen cosas. Decide el ARO: se queda con lo que encaja y deja marchar lo demás. En la alfombra tiene que ser una persona adulta la que diga «no, ésa no», y los niños dejan de pensar y se ponen a leerle la cara. Aquí no juzga nadie, así que puedes dar un paso atrás y escuchar cómo razonan. Y lo que el aro dejó marchar no desaparece: se va juntando fuera y se convierte en la otra mitad de las pistas. Así es exactamente como los niños resuelven estos juegos — tanto por lo que queda fuera como por lo que está dentro.",
+      "Clasificad treinta y dos formas lógicas por color, forma o tamaño, o clasificad las imágenes según preguntas sobre las que un niño de cinco años puede discutir: ¿está vivo?, ¿lo han hecho las personas?, ¿se puede comer?, ¿se mueve solo?, ¿vive en el agua? Las reglas sobre las palabras no existen en ninguna otra herramienta — cuántas sílabas tiene, por qué letra empieza — y funcionan en los once idiomas, porque se apoyan en nuestros propios datos verificados y no en una traducción del inglés."
+    ],
+    "howToUse": [
+      "Ábrelo en la pantalla del aula. Dos aros, una bandeja con doce cosas, nada que configurar.",
+      "Para clasificar libre, deja los aros sin etiqueta y que el grupo decida para qué es cada uno. Sin etiqueta la clase es mejor: hay que ponerse de acuerdo en voz alta antes de que entre nada.",
+      "Para «Adivina mi regla», toca «Elegir las reglas» y coge una para cada aro. Las etiquetas dicen «Secreta» hasta que las muestres.",
+      "Manda a un niño cada vez a la pizarra. Antes de que suelte, pregunta al grupo: ¿creéis que va a entrar? Antes de soltar no se ilumina nada, así que es una pregunta de verdad.",
+      "Cuando alguien diga la regla en voz alta, toca «Mostrar las reglas» y deja que lo comprueben ellos mismos."
+    ],
+    "classroomIdeas": [
+      "Empieza con un solo aro y una sola regla. Añade el segundo cuando el grupo esté seguro: el cruce es una idea grande y merece su propio día.",
+      "Coloca tú algo dentro, en silencio, cuando se atasquen. Poner un ejemplo es la pista más antigua de este juego y no te cuesta ni una palabra.",
+      "Pide una cosa que iría en el medio. Predecir el cruce es mucho más difícil que rellenarlo, y te dice quién lo ha entendido.",
+      "Úsalo con las imágenes y una regla sobre las palabras — cuántas sílabas o la letra inicial — y el mismo aparato se convierte en una clase de conciencia fonológica sin cambiar nada en la pantalla."
+    ],
+    "metaTitle": "Aros para clasificar — diagrama de Venn y adivina mi regla | Gratis",
+    "metaDescription": "Herramienta gratuita para clasificar en infantil y primaria: dos aros que se cruzan, una regla secreta, y decide el aro. Clasificar por atributo, sonido o significado."
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

@@ -146,7 +146,7 @@ export default async function WorksheetMakersPage({ params }: { params: { locale
                   <a
                     key={app.slug}
                     id={app.slug}
-                    href={`/worksheet-generators/${app.htmlFile}`}
+                    href={`/worksheet-generators/${app.htmlFile}?locale=${encodeURIComponent(locale)}`}
                     target="_blank"
                     rel="noopener"
                     className={cardClass}

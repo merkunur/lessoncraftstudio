@@ -50,15 +50,29 @@ export type MakerKey = (typeof MAKER_KEYS)[number];
  * Generator HTML file per maker key (served by nginx at
  * /worksheet-generators/<htmlFile>, §A.1). Every ALL_APPS entry's htmlFile is
  * `<key>.html` (verified in products.ts), so derive it. The landing's launch
- * button opens this with ?lang=<locale>.
+ * button opens this with ?locale=<locale>.
  */
 export const MAKER_GENERATOR_HTML: Record<MakerKey, string> = Object.fromEntries(
   MAKER_KEYS.map((k) => [k, `${k}.html`]),
 ) as Record<MakerKey, string>;
 
-/** Public URL of the generator a maker launches. */
+/**
+ * Public URL of the generator a maker launches.
+ *
+ * The param is `?locale=` — the generator-app contract. All 33 apps read
+ * `urlParams.get('locale') || urlParams.get('ui')` and fall back to 'en';
+ * `unified-language-manager.js` writes `?locale=` back on a language change.
+ * NOT `?lang=`, which is the separate mini-tools / lcs-shell.js contract —
+ * no generator app reads it, so `?lang=` silently yields English chrome.
+ *
+ * One param intentionally, with no `&content=`: `currentLocale` falls back to
+ * `uiLocale`, so the chrome AND the image-library content language both follow
+ * the page locale. That is the same state the app's own sidebar selector
+ * produces, and it keeps the deck's baked `contentLanguage` in the teacher's
+ * language.
+ */
 export function makerGeneratorUrl(makerKey: MakerKey, locale: string): string {
-  return `/worksheet-generators/${MAKER_GENERATOR_HTML[makerKey]}?lang=${encodeURIComponent(locale)}`;
+  return `/worksheet-generators/${MAKER_GENERATOR_HTML[makerKey]}?locale=${encodeURIComponent(locale)}`;
 }
 
 export interface MakerEntry {

@@ -71,21 +71,34 @@ For every edit to a `mini tools/` file:
 - **Same edit cadence**: local sync, push, server pull, manual cp.
 - **Same embed surface**: served from a stable predictable URL; iframes work out of the box.
 
-## Storybook stories (added 2026-07-01)
+## Storybook stories — ❌ ABANDONED 2026-07-11 (do NOT follow the old flow)
 
-Stories add ONE nested subtree to the mini-tools flow:
+**The storybook project was abandoned by the operator on 2026-07-11. There is no
+story flow any more.** This section previously described `mini tools/stories/` as
+being "In git" and recursively synced; both were already false, and that stale
+text is what made the leftover tree look like lost source of truth. Corrected
+2026-07-30.
 
-- **In git:** `mini tools/stories/<id>/{story.json, strings.json, manifest.json}` +
-  the pilot's generated placeholder atlases/scenes/exercises. master-sync
-  STEP 4 now copies the `stories/` subtree recursively.
-- **Server-only binaries** (real art, narration mp3s — like the image
-  library): pscp the whole story folder to
-  `/var/www/lcs-media/mini-tools/stories/<id>/` BEFORE `deploy.sh` builds
-  (the §20.4 cp-before-build rule):
-  `pscp -r -pw <pw> "mini tools\stories\<id>" root@65.108.5.250:/var/www/lcs-media/mini-tools/stories/`
-- Everything under `/mini-tools/` inherits the middleware carve-out — atlas
-  `.json` and narration `.mp3` serve untouched, no config changes.
-- Vendored runtime: `vendor-pixi.min.js` (PixiJS 7.4.3 legacy UMD, pinned)
-  ships like any other mini-tools JS file.
-- QA before deploy: `node scripts/storybook/validate-story.js <id>` +
-  `node scripts/storybook/qa-storybook.js --story=<id>` (both must be green).
+Current reality, all of it enforced in tracked code:
+
+- **`mini tools/stories/` is NOT in git and is NOT synced.** It is gitignored, and
+  `master-sync.bat` (~:189-194) explicitly purges any storybook runtime the copy
+  loops picked up, with the comment *"the stories-subtree sync is REMOVED (it would
+  spread ~22 undeployed library stories toward production)"*. The production copy
+  step is `cp "mini tools"/*.html *.js *.css` — non-recursive, so subdirectories
+  could never travel anyway.
+- **No runtime loads it.** `frontend/lib/activities.ts:182` records
+  `'storybook-activities.json' REMOVED 2026-07-11 — storybook project abandoned`,
+  so no story manifest is registered.
+- **The one indexed story URL is force-410'd** at `frontend/middleware.ts:159`
+  (`/<locale>/activities/pips-picnic-interactive-storybook`).
+- **The QA scripts this section used to mandate no longer exist.**
+  `scripts/storybook/` now contains only `gen-preview-stories.js`,
+  `preview-server.js`, and `serve-apps.js`; `validate-story.js` and
+  `qa-storybook.js` were deleted.
+- `vendor-pixi.min.js` is still tracked but is now **orphaned** — nothing loads it.
+
+The ~416 files under `mini tools/stories/` are left on disk (194 of them are
+timestamped `.bak` autosaves, and 29 of the live stories are machine-generated
+`preview-*` fixtures). They are inert. Do not build on them without a fresh
+operator commission.

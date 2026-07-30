@@ -163,17 +163,25 @@ for %%f in ("mini tools\*.json") do (
     copy /Y "%%f" "frontend\public\mini-tools\" >nul 2>&1
     set /a COPIED+=1
 )
-REM Copy *.js excluding *.test.js
+REM Copy *.js excluding *.test.js AND dot-prefixed devtools.
+REM cmd's for-glob DOES match dot-prefixed names, so without the second check the
+REM one-off Puppeteer runners (.gate-*.js, .diag*.js, .orderproof-*.js) land in the
+REM served mirror -- 157 such files were found there. They never reach production
+REM (the server's bash `cp *.js` skips dotfiles) but they pollute the mirror and
+REM inflate the shippable-file count above.
 for %%f in ("mini tools\*.js") do (
     set "FNAME=%%~nxf"
     setlocal enabledelayedexpansion
+    set "MTSKIP="
     echo !FNAME! | findstr /E ".test.js" >nul
-    if errorlevel 1 (
+    if not errorlevel 1 set "MTSKIP=1"
+    if "!FNAME:~0,1!"=="." set "MTSKIP=1"
+    if defined MTSKIP (
+        endlocal
+    ) else (
         endlocal
         copy /Y "%%f" "frontend\public\mini-tools\" >nul 2>&1
         set /a COPIED+=1
-    ) else (
-        endlocal
     )
 )
 echo   Copied %COPIED% files to frontend\public\mini-tools

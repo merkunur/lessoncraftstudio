@@ -935,6 +935,34 @@
     "metaTitle": "Staafdiagram groep 3 en 4 | gratis tool voor de klas",
     "metaDescription": "Staafdiagram voor groep 3 en 4: de klas stemt op het digibord, de kinderen worden staven en de getallen blijven eerst verborgen."
   },
+  "folding-sheet": {
+    "slug": "vouwblad-spiegelbeeld-symmetrie",
+    "name": "Het vouwblad",
+    "tagline": "De klas kleurt hokjes, legt de vouw waar het spiegelbeeld volgens haar ligt, en vouwt om te zien of dat klopt.",
+    "about": [
+      "Het vouwblad is een vel ruitjespapier op het scherm van de klas. De kinderen kleuren hokjes in, een paar of juist heel veel. Daarna kies je de richting van de vouw, van boven naar beneden, dwars, of van hoek tot hoek, en schuif je hem naar de plek die een kind voorstelt. Een les bestaat uit korte rondes: kleuren, de vouw leggen, vouwen, openvouwen.",
+      "Bij het vouwen valt de verre helft op de nabije helft, als een transparant vel. Waar kleur op kleur landt, liggen twee lagen over elkaar en wordt het hokje donkerder. Waar kleur op leeg papier landt, blijft het bij één laag. Komen er twee verschillende kleuren samen, dan ontstaat er een derde. Laat de klas eerst hardop voorspellen en vouw daarna langzaam, want juist in die beweging zien de kinderen wat er gebeurt.",
+      "De vouw is een bewering: hier ligt het spiegelbeeld. Het vouwen is de proef op die bewering. Daarom valt de vraag of iets symmetrisch is helemaal niet te beantwoorden zolang er niet bij staat langs welke vouw. Leggen twee kinderen de vouw op verschillende plekken en vouwen ze allebei, dan beslist het papier en niet de hardste stem. Verleg de vouw daarna nog een keer, want dat verleggen is de hele oefening.",
+      "Het vouwblad keurt niets goed of af. Er zijn geen punten, geen vinkjes en geen mededeling wie het bij het rechte eind had. Eén laag is een eigenschap van papier, geen oordeel over een kind. Er wordt niets bewaard; bij opnieuw openen ligt er weer een leeg vel. Het enige dat antwoord geeft, is het gevouwen papier."
+    ],
+    "howToUse": [
+      "Open het vouwblad op het scherm van de klas en laat een kind een paar hokjes kleuren.",
+      "Kies de richting van de vouw: van boven naar beneden, dwars of van hoek tot hoek.",
+      "Vraag de klas waar de vouw moet liggen en schuif hem naar die plek.",
+      "Laat de kinderen voorspellen welke hokjes twee lagen krijgen en welke er één blijven.",
+      "Vouw, vergelijk met de voorspelling en vouw daarna weer open.",
+      "Leg de vouw op een andere plek en vouw opnieuw."
+    ],
+    "classroomIdeas": [
+      "Laat twee kinderen de vouw op verschillende plekken leggen en allebei vouwen; de klas vertelt daarna van elk voorstel wat er dubbel ligt en wat alleen blijft.",
+      "Laat een kind alleen de linkerhelft kleuren, zet daarna de vage hokjes van de ontbrekende partners aan en laat de kinderen ze één voor één aantikken tot het patroon rond is.",
+      "Druk op een hokje en laat de klas eerst aanwijzen welk hokje aan de andere kant van de vouw zal meelichten.",
+      "De SLO-kerndoelen vragen dat kinderen spiegelbeelden niet alleen herkennen maar ook zelf maken; het vouwblad neemt dat maken voor zijn rekening.",
+      "Kleur een patroon dat alleen van hoek tot hoek klopt en laat de kinderen eerst de rechte vouw proberen, zodat ze kunnen vertellen waaraan ze zien dat die vouw het niet is."
+    ],
+    "metaTitle": "Het vouwblad — spiegelbeeld zelf maken en vouwen",
+    "metaDescription": "Ruitjespapier op het klassenscherm: hokjes kleuren, de vouw leggen en vouwen. Kinderen maken het spiegelbeeld zelf en het papier geeft het antwoord."
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

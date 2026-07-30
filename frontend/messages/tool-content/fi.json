@@ -913,6 +913,34 @@
     "metaTitle": "Pylväsdiagrammi luokalle | ilmainen työkalu",
     "metaDescription": "Luokan kysely taululla: lapset koskettavat vastaustaan ja hahmoista tulee pylväsdiagrammi. Ilmainen työkalu alkuopetukseen ja esiopetukseen."
   },
+  "folding-sheet": {
+    "slug": "taittuva-paperi-symmetria",
+    "name": "Taittuva paperi",
+    "tagline": "Luokka värittää ruutuja, päättää mihin taite tulee, ja taittaa paperin nähdäkseen, mikä osuu minkin päälle.",
+    "about": [
+      "Taittuva paperi on ruutupaperinen neliö taulunäytöllä. Lapset värittävät haluamiaan ruutuja yksi kerrallaan, ja muu luokka seuraa vierestä. Paperilla on taite: sen voi asettaa pystyyn, vaakaan tai kulmasta kulmaan, ja sen voi siirtää siihen kohtaan, johon luokka haluaa. Kun kuva on valmis, opettaja taittaa paperin, ja kauempi puolisko laskeutuu lähemmän päälle. Mitään ei tarvitse valmistella etukäteen, sillä liikkeelle lähdetään tyhjästä paperista ja yhdestä kysymyksestä.",
+      "Kääntyvä puolisko käyttäytyy kuin kuultopaperi: sen läpi näkee, ja alla ollut väri jää näkyviin. Kun väritetty ruutu laskeutuu väritetyn ruudun päälle, paperia on kaksi kerrosta ja väri tummenee. Kun väritetty ruutu laskeutuu tyhjälle paperille, kerroksia on yksi, ja kohta pysyy yhtä vaaleana kuin ennenkin. Jos kaksi eri väriä kohtaavat, syntyy kolmas väri, jota kummallakaan ei ollut. Juuri liike on se, mikä opettaa, sillä monisteessa peilikuva on aina valmiina, ja täällä lapset näkevät mistä se tulee.",
+      "Kysymykseen siitä, onko kuva symmetrinen, ei ole vastausta ennen kuin sanotaan, minkä taitteen suhteen. Taite on väite, ja taittaminen on tapa koetella sitä. Kaksi lasta voi asettaa taitteen eri kohtiin, taittaa kumpikin omansa ja antaa paperin ratkaista asian. Siksi kehotus on aina sama: avaa, siirrä taite toiseen kohtaan, kokeile vinottain ja taita uudelleen. Sama kuva voi osua kohdakkain yhteen suuntaan eikä lainkaan toiseen, ja juuri se ero kannattaa puhua auki.",
+      "Mikään täällä ei korjaa. Ei oikein-merkkejä eikä väärin-merkkejä, ei pisteitä eikä juoksevaa aikaa: kun ruutuun jää yksi kerros, sen sanoo paperi eikä arvostelu. Painike ”Avaa” palauttaa kuvan täsmälleen entiselleen, ja ”Näytä peili” tuo vaaleat ääriviivat niihin kohtiin, joista ruutu puuttuisi, värittämättä lasten puolesta, sillä koskettaminen jää heille. Mitään ei tallenneta, ja kun sivu suljetaan, paperi katoaa. Jäljelle jää vain se, minkä luokka näki taittuvan."
+    ],
+    "howToUse": [
+      "Heijasta paperi taululle ja anna muutaman lapsen värittää valitsemiaan ruutuja.",
+      "Valitse taitteen suunta, pysty, vaaka tai kulmasta kulmaan, ja kysy luokalta, mihin kohtaan se asetetaan.",
+      "Pyydä lapsia sanomaan ääneen, mitä kahdelle tai kolmelle ruudulle tapahtuu, ennen kuin taitat.",
+      "Taita paperi ja pysähtykää katsomaan, missä kerroksia on kaksi ja missä vain yksi.",
+      "Avaa paperi, siirrä taite toiseen kohtaan ja kokeile samaa kuvaa uudelleen.",
+      "Käytä ”Näytä peili” -toimintoa, kun kuva halutaan täydentää: lapset koskettavat vaaleita ääriviivoja ja tekevät niistä totta."
+    ],
+    "classroomIdeas": [
+      "Väritä itse neljä tai viisi ruutua vain toiselle puolelle ja pyydä luokkaa täydentämään paperi niin, että kaikki osuu kohdakkain, kun se taitetaan.",
+      "Anna yhden lapsen värittää ja toisen arvata, mitkä ruudut toiselta puolelta puuttuvat; vasta sen jälkeen taittakaa ja katsokaa yhdessä.",
+      "Ottakaa sama kuva ja kokeilkaa sitä kolmella eri taitteella; kirjatkaa vihkoon, mitkä saivat kaiken osumaan kohdakkain ja mikä ei.",
+      "OPS 2014 tuo peilaamisen ja symmetrian jo alkuopetukseen, ja täällä lapsi ei vain tunnista valmista kuviota vaan tekee peilikuvan itse ja koettelee omaa väitettään.",
+      "Lopettakaa oikealla paperilla: taittakaa ruutupaperi keskeltä, värittäkää toinen puolisko ja nostakaa paperi ikkunaa vasten, jotta läpi näkyvät ruudut voi piirtää."
+    ],
+    "metaTitle": "Taittuva paperi — symmetria ja peilaus | ilmainen työkalu",
+    "metaDescription": "Ruutupaperi taululla: lapset värittävät, taite asetetaan haluttuun kohtaan ja paperi taitetaan. Luokka näkee, mikä osuu minkin päälle."
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

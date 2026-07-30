@@ -935,6 +935,34 @@
     "metaTitle": "Diagramme en barres CP CE1 | outil gratuit en ligne",
     "metaDescription": "Diagramme en barres au CP et au CE1 : la classe vote au tableau, les enfants deviennent des barres et les nombres restent masqués au début."
   },
+  "folding-sheet": {
+    "slug": "feuille-a-plier-reflet-symetrie",
+    "name": "La feuille à plier",
+    "tagline": "La classe colorie des carreaux, place le pli là où elle pense que se tient le miroir, puis plie pour voir ce que le papier répond.",
+    "about": [
+      "La feuille à plier est une feuille quadrillée affichée au tableau de la classe. Les élèves colorient des carreaux, quelques-uns ou beaucoup. Vous choisissez ensuite la direction du pli, de haut en bas, en travers, ou d’un coin à l’autre, et vous le déplacez à l’endroit qu’un élève propose. Une séance tient en quelques tours: colorier, placer le pli, plier, déplier.",
+      "Quand vous pliez, la moitié éloignée vient se poser sur l’autre comme un transparent. Là où une couleur tombe sur la même couleur, il y a deux épaisseurs et le carreau devient plus foncé. Là où une couleur tombe sur du papier nu, il n’y a qu’une seule épaisseur. Quand deux couleurs différentes se rencontrent, il en naît une troisième. Faites annoncer les prévisions avant, puis pliez lentement, car c’est le mouvement qui donne à voir.",
+      "Le pli est une affirmation: le miroir se tient ici. Plier, c’est mettre cette affirmation à l’épreuve. Demander si un motif est symétrique n’a donc aucune réponse tant qu’on n’a pas dit selon quel pli. Si deux élèves placent le pli à deux endroits différents et plient tous les deux, c’est le papier qui tranche, et non celui qui parle le plus fort. Déplacez ensuite le pli ailleurs, car c’est là tout l’exercice.",
+      "La feuille à plier ne corrige rien. Aucun point, aucune coche, aucun message pour annoncer qui avait raison. Une seule épaisseur est une propriété du papier, pas un jugement porté sur un élève. Rien n’est enregistré: au rechargement, la feuille est de nouveau vide. La seule chose qui réponde, c’est le papier plié."
+    ],
+    "howToUse": [
+      "Ouvrez la feuille à plier au tableau et laissez un élève colorier quelques carreaux.",
+      "Choisissez la direction du pli: de haut en bas, en travers ou d’un coin à l’autre.",
+      "Demandez à la classe où placer le pli et déplacez-le à cet endroit.",
+      "Faites prévoir quels carreaux auront deux épaisseurs et lesquels resteront en une seule.",
+      "Pliez, comparez avec les prévisions, puis dépliez.",
+      "Placez le pli ailleurs et pliez de nouveau."
+    ],
+    "classroomIdeas": [
+      "Faites placer le pli à deux endroits différents par deux élèves, puis plier chacun leur tour; la classe décrit ce qui se superpose et ce qui reste seul dans chaque cas.",
+      "Faites colorier une seule moitié, faites apparaître les carreaux pâles qui marquent les partenaires manquants, et laissez les élèves les toucher un par un pour compléter le motif.",
+      "Appuyez sur un carreau et demandez à la classe de désigner d’abord celui qui va s’allumer de l’autre côté du pli.",
+      "Les programmes officiels du cycle 2 demandent de reconnaître et de produire des figures qui se superposent par pliage; la feuille à plier prend en charge la production, que les fiches laissent de côté.",
+      "Coloriez un motif qui ne se superpose que d’un coin à l’autre et laissez les élèves essayer d’abord le pli vertical, puis dire à quoi ils voient que ce pli n’est pas celui que l’on cherche."
+    ],
+    "metaTitle": "La feuille à plier — le reflet se fabrique en pliant",
+    "metaDescription": "Papier quadrillé au tableau: coloriez des carreaux, placez le pli et pliez. Les élèves fabriquent le reflet et c’est le papier qui répond, jamais l’écran."
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

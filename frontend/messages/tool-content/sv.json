@@ -935,6 +935,34 @@
     "metaTitle": "Stapeldiagram åk 1-3 | gratis verktyg för klassen",
     "metaDescription": "Stapeldiagram för åk 1-3: klassen svarar på duken, barnen blir staplar och talen är dolda tills ni har jämfört med längd. Gratis och utan inloggning."
   },
+  "folding-sheet": {
+    "slug": "vikpappret-spegelbild-symmetri",
+    "name": "Vikpappret",
+    "tagline": "Klassen färglägger rutor, lägger vikningen där den tror att spegelbilden går, och viker för att se efter.",
+    "about": [
+      "Vikpappret är ett rutat papper på klassens skärm. Barnen färglägger rutorna, några få eller många. Sedan väljer du vikningens riktning, uppifrån och ner, tvärs över eller från hörn till hörn, och flyttar den dit ett barn föreslår. En lektion består av korta omgångar: färglägga, lägga vikningen, vika, vika upp.",
+      "När du viker landar den bortre halvan på den närmare, som en genomskinlig film. Där färg landar på färg ligger två lager på varandra och rutan blir mörkare. Där färg landar på tomt papper blir det ett enda lager. Möts två olika färger uppstår en tredje. Låt klassen gissa först och vik sedan långsamt, för det är själva rörelsen som visar vad som händer.",
+      "Vikningen är ett påstående: här går spegelbilden. Att vika är provet på det påståendet. Frågan om något är symmetriskt går därför inte att svara på förrän någon säger längs vilken vikning. Om två barn lägger vikningen på olika ställen och båda viker, är det pappret som avgör och inte den som låter säkrast. Flytta vikningen en gång till efteråt, för det är hela poängen.",
+      "Vikpappret bedömer ingenting. Det finns inga poäng, inga bockar och ingen upplysning om vem som hade rätt. Ett enda lager är en egenskap hos pappret, inte ett omdöme om barnet. Ingenting sparas, och vid omstart ligger ett tomt papper framme igen. Det enda som svarar är det vikta pappret."
+    ],
+    "howToUse": [
+      "Öppna vikpappret på klassens skärm och låt ett barn färglägga några rutor.",
+      "Välj vikningens riktning: uppifrån och ner, tvärs över eller från hörn till hörn.",
+      "Fråga klassen var vikningen ska ligga och flytta den dit.",
+      "Låt barnen förutsäga vilka rutor som får två lager och vilka som blir kvar med ett.",
+      "Vik, jämför med gissningen och vik upp igen.",
+      "Lägg vikningen på ett annat ställe och vik en gång till."
+    ],
+    "classroomIdeas": [
+      "Låt två barn lägga vikningen på olika ställen och vika var för sig; klassen beskriver sedan vad som ligger dubbelt och vad som blir ensamt i vart och ett av förslagen.",
+      "Låt ett barn färglägga bara vänstra halvan, ta sedan fram de bleka rutorna där de saknade partnerna skulle ligga och låt barnen trycka fram dem en i taget.",
+      "Tryck på en ruta och låt klassen först peka ut vilken ruta på andra sidan vikningen som kommer att lysa med.",
+      "Lgr22 tar upp symmetri redan i årskurs 1 till 3; vikpappret låter barnen göra spegelbilden själva i stället för att peka ut en färdig bild.",
+      "Färglägg ett mönster som bara stämmer från hörn till hörn och låt barnen först prova den raka vikningen, så att de får sätta ord på hur de ser att just den vikningen inte är den som söks."
+    ],
+    "metaTitle": "Vikpappret — vik fram spegelbilden på rutat papper",
+    "metaDescription": "Rutat papper på skärmen: färglägg rutorna, lägg vikningen och vik. Barnen gör spegelbilden själva och det är pappret som svarar, inte programmet."
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

@@ -935,6 +935,34 @@
     "metaTitle": "Søylediagram for klassen | gratis verktøy",
     "metaDescription": "Avstemning på tavla: barna trykker på svaret sitt, og figurene blir til et søylediagram. Gratis verktøy for de første trinnene i skolen."
   },
+  "folding-sheet": {
+    "slug": "arket-vi-bretter-symmetri",
+    "name": "Arket vi bretter",
+    "tagline": "Klassen fargelegger rutene, bestemmer hvor brettelinjen skal gå, og bretter arket for å se hva som havner oppå hva.",
+    "about": [
+      "Arket vi bretter er et kvadrat med rutepapir på tavla. Barna fargelegger de rutene de vil, ett barn om gangen, mens resten av klassen ser på. På arket ligger det en brettelinje: den kan stå loddrett, ligge vannrett eller gå fra hjørne til hjørne, og den kan flyttes dit dere vil ha den. Når tegningen er ferdig, bretter du arket, og halvdelen som ligger lengst unna, legger seg oppå den nærmeste. Ingenting må forberedes kvelden før, for dere begynner med et blankt ark og et spørsmål.",
+      "Halvdelen som snus rundt, oppfører seg som kalkerpapir: du ser gjennom den, og det som lå under, blir liggende. Der en fargelagt rute havner oppå en fargelagt rute, er det to lag papir, og fargen blir kraftigere. Der en fargelagt rute havner på blankt papir, er det bare ett lag, like lyst som før. Møtes to ulike farger, blir det en tredje farge som ingen av dem hadde fra før. Det er selve bevegelsen som underviser, for på et arbeidsark har speilingen alltid skjedd på forhånd, mens her ser barna hvor den kommer fra.",
+      "Spørsmålet om en tegning er symmetrisk, har ikke noe svar før noen sier om hvilken brettelinje. Brettelinjen er en påstand, og det å brette er måten å prøve den ut på. To barn kan legge linjen to ulike steder, brette hver sin gang og la papiret avgjøre saken. Derfor er oppfordringen den samme hver gang: brett ut, flytt linjen, sett den på skrå, og brett en gang til. Den samme tegningen kan passe den ene veien og ikke den andre, og nettopp den forskjellen er verdt en samtale.",
+      "Det er ingenting her som retter. Ingen merker for riktig og galt, ingen poeng og ingen tid som løper: når en rute bare har ett lag, er det papiret som sier det, og ikke en dom. «Brett ut» gir tegningen tilbake nøyaktig slik den var, og «Vis speilet» lar svake omriss dukke opp der de manglende rutene ville ligget, uten å fargelegge for barna, for det er de som trykker. Ingenting blir lagret, og når sida lukkes, er arket borte. Igjen står bare det klassen så bli brettet."
+    ],
+    "howToUse": [
+      "Vis arket på tavla, og la noen barn fargelegge de rutene de velger.",
+      "Velg retningen på brettelinjen, loddrett, vannrett eller fra hjørne til hjørne, og spør klassen hvor den skal gå.",
+      "La barna si høyt hva som kommer til å skje med to eller tre bestemte ruter, før du bretter.",
+      "Brett arket, og bli stående ved bildet: hvor er det to lag, og hvor er det bare ett.",
+      "Brett ut, flytt linjen et annet sted, og prøv den samme tegningen på nytt.",
+      "Bruk «Vis speilet» når dere vil gjøre tegningen ferdig: barna trykker på de svake omrissene og gjør dem virkelige."
+    ],
+    "classroomIdeas": [
+      "Fargelegg selv fire eller fem ruter i den ene halvdelen, og be klassen gjøre arket ferdig slik at alt havner oppå hverandre når dere bretter.",
+      "La ett barn fargelegge og et annet gjette hvilke ruter som mangler på andre sida; først etterpå bretter dere og ser etter sammen.",
+      "Ta den samme tegningen og prøv den med tre ulike brettelinjer; skriv i boka hvilke som fikk alt til å passe, og hvilken som ikke gjorde det.",
+      "LK20 legger speiling og symmetri til de første trinnene, og her kjenner ikke barnet bare igjen en ferdig figur, det lager speilbildet selv og prøver ut sin egen påstand.",
+      "Avslutt med ekte papir: brett et rutete ark på midten, fargelegg den ene halvdelen, og hold arket opp mot vinduet for å tegne av rutene som skinner gjennom."
+    ],
+    "metaTitle": "Arket vi bretter — symmetri og speiling | gratis verktøy",
+    "metaDescription": "Et rutete ark på tavla: barna fargelegger, brettelinjen legges der dere vil ha den, og arket brettes. Da ser klassen hva som havner oppå hva."
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

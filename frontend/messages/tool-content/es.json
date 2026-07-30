@@ -935,6 +935,34 @@
     "metaTitle": "Gráfica de barras para primaria | herramienta gratis",
     "metaDescription": "Gráfica de barras para primaria: el grupo vota en el pizarrón, los niños se convierten en barras y los números están ocultos al principio."
   },
+  "folding-sheet": {
+    "slug": "hoja-para-doblar-reflejo-simetria",
+    "name": "La hoja para doblar",
+    "tagline": "El grupo colorea cuadritos, pone el doblez donde cree que está el reflejo y dobla para ver qué contesta el papel.",
+    "about": [
+      "La hoja para doblar es una hoja cuadriculada en el pizarrón del salón. Los niños colorean cuadritos, unos pocos o muchos. Después usted elige la dirección del doblez, de arriba hacia abajo, de lado a lado o de esquina a esquina, y lo mueve al lugar que proponga un niño. Una clase se arma con rondas cortas: colorear, poner el doblez, doblar y desdoblar.",
+      "Al doblar, la mitad de allá cae sobre la mitad de acá como una mica transparente. Donde un color cae sobre el mismo color quedan dos capas y el cuadrito se ve más oscuro. Donde un color cae sobre papel vacío queda una sola capa. Cuando se encuentran dos colores distintos, aparece un tercero. Pida las predicciones antes y doble despacio, porque lo que enseña es el movimiento y no el resultado.",
+      "El doblez es una afirmación: aquí está el reflejo. Doblar es la prueba de esa afirmación. Por eso la pregunta de si algo es simétrico no tiene respuesta mientras nadie diga a lo largo de cuál doblez. Si dos niños ponen el doblez en lugares distintos y los dos doblan, el papel es el que decide, no el que habla más fuerte. Después cambie el doblez de lugar otra vez, porque en eso consiste todo el trabajo.",
+      "La hoja para doblar no califica nada. No hay puntos, ni palomitas, ni un aviso de quién tenía razón. Una sola capa es una propiedad del papel, no un juicio sobre el niño. Nada se guarda: al volver a cargar, la hoja aparece vacía otra vez. Lo único que responde es el papel doblado."
+    ],
+    "howToUse": [
+      "Abra la hoja para doblar en el pizarrón y pida a un niño que coloree algunos cuadritos.",
+      "Elija la dirección del doblez: de arriba hacia abajo, de lado a lado o de esquina a esquina.",
+      "Pregunte al grupo dónde debe ir el doblez y muévalo hasta ese lugar.",
+      "Pida que predigan cuáles cuadritos quedarán con dos capas y cuáles con una sola.",
+      "Doble, compare con lo que dijeron y vuelva a desdoblar.",
+      "Ponga el doblez en otro lugar y doble una vez más."
+    ],
+    "classroomIdeas": [
+      "Pida a dos niños que pongan el doblez en lugares distintos y que cada uno doble; luego pregunte al grupo: ¿en cuál de los dos creen ustedes que quedan más cuadritos con dos capas?",
+      "Pida que coloreen solo la mitad izquierda, muestre los cuadritos tenues donde estarían las parejas que faltan y deje que los niños los toquen uno por uno hasta completar el dibujo.",
+      "Presione un cuadrito y pida que, antes de mirar, señalen cuál se va a encender del otro lado del doblez.",
+      "Los programas de la SEP piden que en los primeros grados los niños reconozcan y construyan figuras simétricas; aquí les toca construirlas, que es la parte que las hojas de trabajo suelen dejar fuera.",
+      "Coloree un dibujo que solo embone de esquina a esquina y deje que los niños prueben primero el doblez derecho, para que digan cómo se dan cuenta de que ese no es el doblez que buscaban."
+    ],
+    "metaTitle": "La hoja para doblar — el reflejo se hace doblando",
+    "metaDescription": "Hoja cuadriculada en el pizarrón: coloreen cuadritos, pongan el doblez y doblen. Los niños hacen el reflejo y el papel es el que responde, no la pantalla."
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

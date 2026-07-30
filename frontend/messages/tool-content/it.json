@@ -935,6 +935,34 @@
     "metaTitle": "Grafico a barre per la classe | strumento gratuito",
     "metaDescription": "Sondaggio di classe sulla LIM: i bambini toccano la risposta, le figure diventano un grafico a barre. Strumento gratuito per la scuola primaria."
   },
+  "folding-sheet": {
+    "slug": "foglio-che-si-piega-simmetria",
+    "name": "Il foglio che si piega",
+    "tagline": "La classe colora i quadretti, decide dove passa la piega e poi piega il foglio per vedere che cosa combacia.",
+    "about": [
+      "Il foglio che si piega è un quadrato di carta a quadretti proiettato alla lavagna. I bambini colorano i quadretti che vogliono, uno alla volta, mentre il resto della classe guarda. Sul foglio c’è una piega: puoi metterla in verticale, in orizzontale o da un angolo all’altro, e puoi spostarla dove serve. Quando il disegno è pronto, pieghi il foglio e la metà lontana viene ad appoggiarsi su quella vicina. Non c’è niente da preparare la sera prima, perché si comincia da un foglio bianco e da una domanda.",
+      "La metà che si ribalta si comporta come un foglio di carta velina: si vede attraverso, e quello che stava sotto continua a vedersi. Dove un quadretto colorato finisce sopra un quadretto colorato, la carta fa due spessori e il colore diventa più fitto. Dove un quadretto colorato finisce sulla carta bianca, resta un solo spessore, chiaro come prima. Se si incontrano due colori diversi, nasce un terzo colore che nessuno dei due aveva. Guardare il movimento è la parte che insegna, perché sulle schede la figura ribaltata arriva già ribaltata, mentre qui i bambini vedono da dove viene.",
+      "Chiedere se un disegno è simmetrico non basta: bisogna dire anche lungo quale piega. La piega è una supposizione, e piegare è il modo di metterla alla prova. Due bambini possono metterla in due punti diversi, piegare tutti e due e lasciare che sia la carta a decidere. Per questo l’invito è sempre lo stesso: apri, sposta la piega, provala in diagonale e piega di nuovo. Lo stesso disegno può combaciare in un verso e non combaciare nell’altro, e proprio quella differenza è la cosa di cui vale la pena parlare.",
+      "Qui non c’è niente che corregga. Nessun segno di giusto o di sbagliato, nessun punteggio, nessun tempo che scorre: quando un quadretto resta a un solo spessore, è la carta che lo dice, non un giudizio. Con «Apri il foglio» il disegno torna esattamente com’era, e con «Mostra lo specchio» compaiono i contorni chiari dei quadretti che mancherebbero, senza colorarli al posto dei bambini, perché a toccarli sono loro. Niente viene salvato, e quando la pagina si chiude il foglio se ne va. Resta soltanto quello che la classe ha visto piegare."
+    ],
+    "howToUse": [
+      "Proietta il foglio e lascia che qualche bambino colori i quadretti che sceglie.",
+      "Scegli la direzione della piega, in verticale, in orizzontale o da un angolo all’altro, e chiedi alla classe dove metterla.",
+      "Prima di piegare, fai dire ad alta voce che cosa succederà a due o tre quadretti.",
+      "Piega il foglio e fermatevi a guardare dove la carta fa due spessori e dove ne fa uno solo.",
+      "Apri il foglio, sposta la piega in un altro punto e riprova con lo stesso disegno.",
+      "Usa «Mostra lo specchio» quando volete completare il disegno: i bambini toccano i contorni chiari e li rendono veri."
+    ],
+    "classroomIdeas": [
+      "Colora tu quattro o cinque quadretti da una parte sola e chiedi alla classe di completare il foglio perché, piegandolo, tutto vada a combaciare.",
+      "Fai colorare un bambino e fai indovinare a un compagno quali quadretti mancano dall’altra parte; solo dopo si piega e si guarda insieme.",
+      "Prendi lo stesso disegno e provalo con tre pieghe diverse; segnate sul quaderno quali hanno fatto combaciare tutto e quale no.",
+      "Le Indicazioni nazionali portano simmetrie e trasformazioni già nei primi anni: qui il bambino non riconosce soltanto una figura simmetrica, la costruisce e poi mette alla prova la sua supposizione.",
+      "Chiudete con la carta vera: piegate a metà un foglio a quadretti, colorate una sola metà e tenete il foglio contro la finestra per ricopiare i quadretti che si vedono in trasparenza."
+    ],
+    "metaTitle": "Simmetria: il foglio che si piega | strumento gratis",
+    "metaDescription": "Un quadrato a quadretti da colorare e da piegare alla lavagna: la metà lontana si appoggia sull’altra e la classe vede che cosa combacia."
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

@@ -64,15 +64,22 @@ const MINI = path.join(ROOT, 'mini tools');
 let PORT = 0;
 const MIME = { '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.html': 'text/html', '.webp': 'image/webp', '.png': 'image/png', '.svg': 'image/svg+xml' };
 
-/* prefix = the tool's own class namespace, so we can tell its controls
-   apart from the shared shell's */
-const TOOLS = {
-  'class-graph':    { prefix: 'cgr' },
-  'number-balance': { prefix: 'nbal' },
-  'pattern-bench':  { prefix: 'ptn' },
-  'sorting-hoops':  { prefix: 'hp' },
-  'reading-easel':  { prefix: 'rde' }
-};
+/* ⚠ THE PREFIX IS DERIVED, NOT REGISTERED. A tool's class namespace is
+   already written down in exactly one place — the wrapper it builds — so
+   reading it there means a NEW TOOL NEEDS NO ENTRY HERE. The first
+   version kept a hardcoded map and refused to run on tool #35 with
+   "unknown tool", which is the same shape of defect as the registration
+   step that 410'd a tool in all eleven locales: a list somebody has to
+   remember. The `--all` roster below is scope, not registration. */
+const ALL_TOOLS = ['class-graph', 'number-balance', 'pattern-bench', 'sorting-hoops',
+  'reading-easel', 'folding-sheet'];
+
+function prefixOf(tool) {
+  const f = path.join(MINI, tool + '.js');
+  if (!fs.existsSync(f)) return null;
+  const m = /api\.el\(['"]div['"],\s*['"]([a-z]+)-wrap['"]\)/.exec(fs.readFileSync(f, 'utf8'));
+  return m ? m[1] : null;
+}
 
 /* ⚠ NAMED, NOT INFERRED. The only controls exempt from "must do
    something" are the ones whose entire effect is outside the document and
@@ -94,14 +101,19 @@ const arg = (k, d) => {
 };
 const DEPTH = parseInt(arg('depth', '2'), 10);
 const WANT = process.argv.includes('--all')
-  ? Object.keys(TOOLS)
+  ? ALL_TOOLS
   : (arg('tool', '') ? arg('tool', '').split(',') : []);
 
 if (!WANT.length) {
   console.error('  usage: --tool=<name>[,<name>] or --all');
   process.exit(2);
 }
-for (const t of WANT) if (!TOOLS[t]) { console.error(`  unknown tool "${t}"`); process.exit(2); }
+const PREFIX = {};
+for (const t of WANT) {
+  const pfx = prefixOf(t);
+  if (!pfx) { console.error(`  cannot resolve a class prefix for "${t}" — is mini tools/${t}.js there, and does it build a <pfx>-wrap?`); process.exit(2); }
+  PREFIX[t] = pfx;
+}
 
 let PASS = 0, FAIL = 0, WARN = 0;
 const ok = (m) => { PASS++; console.log('  ok    ' + m); };
@@ -249,7 +261,7 @@ async function openPage(browser, tool, state) {
   page.on('console', (m) => { if (m.type() === 'error' && !/404|net::ERR/.test(m.text())) errs.push(m.text()); });
   page.on('pageerror', (e) => errs.push(String(e)));
   await page.goto(`http://127.0.0.1:${PORT}/${tool}.html?lang=en&embed=1`, { waitUntil: 'domcontentloaded' });
-  await page.waitForSelector(`.${TOOLS[tool].prefix}-wrap`, { timeout: 9000 });
+  await page.waitForSelector(`.${PREFIX[tool]}-wrap`, { timeout: 9000 });
   await wait(500);
   page._errs = errs;
   return page;
@@ -268,7 +280,7 @@ async function replay(page, pathArr) {
 }
 
 async function auditTool(browser, tool, state) {
-  const pre = TOOLS[tool].prefix;
+  const pre = PREFIX[tool];
   console.log(`\n[${tool} · ${state.id}]`);
   const tested = new Set();
   /* queue of paths; the last element of each is the control under test */

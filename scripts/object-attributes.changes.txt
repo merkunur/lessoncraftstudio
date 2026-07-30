@@ -1,0 +1,458 @@
+apple-pie|moves=moved|portable food
+candy-cane|moves=moved|portable sweet
+chocolate-bar|moves=moved|portable sweet
+donut|moves=moved|portable food
+ice-cream|moves=moved|portable food
+lollipop|moves=moved|portable sweet
+macaron|moves=moved|portable sweet
+milkshake|moves=moved|carried cup
+pancake|moves=moved|portable food
+popsicle|moves=moved|portable food
+pudding|moves=moved|carried bowl
+bacon|moves=moved|portable food
+biscuit|moves=moved|portable food
+boiled-egg|moves=moved|portable food
+butter|moves=moved|carried food
+cereal|moves=moved|carried bowl
+cheese|moves=moved|carried food
+fried-egg|moves=moved|carried plate
+honey|living=once_living,natural=natural,moves=moved|made by bees not people
+jam|moves=moved|carried jar
+juice|moves=moved|carried glass
+melon|living=once_living,natural=natural,moves=moved|harvested fruit not manufactured
+milk|living=once_living,natural=natural,moves=moved|comes from an animal
+oatmeal|moves=moved|carried bowl
+porridge|moves=moved|carried bowl
+sausage|moves=moved|portable food
+smoothie|moves=moved|carried cup
+binoculars|size_band=hand|fits in the hands
+cabin|moves=still,size_band=bigger|a small house stays put
+camper|size_band=bigger|bigger than a grown-up
+campfire|moves=still|stays where it is built
+compass|size_band=hand|fits in one hand
+forest|natural=natural,moves=still,size_band=bigger|natural place nobody built
+hot-dog|edible=yes,size_band=hand|food that fits in one hand
+lake|natural=natural,moves=still,size_band=bigger|natural water body
+lantern|size_band=hand|carried in one hand
+log|living=once_living,natural=natural|wood from a tree
+moon|natural=natural,moves=still,size_band=bigger|real celestial object
+mountain|natural=natural,moves=still,size_band=bigger|natural landform
+picnic-table|moves=still|outdoor furniture stays put
+pinecone|living=once_living,natural=natural,size_band=hand|came from a tree
+river|natural=natural,moves=still,size_band=bigger|natural feature
+rock|natural=natural,moves=still|natural and stays put
+rope|size_band=hand|a coil is carried in one hand
+trail|moves=still,size_band=bigger|a path stays where it is
+water|natural=natural,moves=still|natural not made
+angel|moves=moved|figure is picked up and placed
+bell|moves=moved|portable
+candle|moves=moved|portable
+chimney|size_band=bigger|far bigger than a grown-up
+church|size_band=bigger|a building
+elf|living=living,natural=natural,moves=self,size_band=person|a person-like being
+garland|moves=moved|carried and hung
+gingerbread|edible=yes,moves=moved|a baked cookie
+mistletoe|living=once_living,natural=natural,moves=moved|a cut sprig of a real plant
+nutcracker|moves=moved|portable figure
+ornament|moves=moved|picked up and hung
+present|moves=moved|a wrapped gift is carried
+rudolph|living=living,natural=natural,moves=self,size_band=person|a reindeer
+sack|moves=moved|carried
+santa|living=living,natural=natural,moves=self,size_band=person|sorted with people
+stocking|moves=moved|portable
+tree|living=once_living,natural=natural,size_band=person,habitat=none|a CUT christmas tree, no longer growing
+wreath|moves=moved|carried and hung
+chicken|habitat=land|ground bird
+hen|habitat=land|ground bird
+rooster|habitat=land|ground bird
+turkey|habitat=land,size_band=person|large ground bird
+quail|habitat=land|ground-dwelling bird
+peacock|habitat=land,size_band=person|large ground bird
+ostrich|habitat=land,size_band=bigger|flightless, taller than an adult
+penguin|habitat=land,size_band=person|flightless bird
+duck|habitat=water|water bird
+goose|habitat=water,size_band=person|large water bird
+swan|habitat=water,size_band=person|large water bird
+pelican|habitat=water,size_band=person|large water bird
+flamingo|habitat=water,size_band=person|wading water bird
+heron|habitat=water,size_band=person|wading water bird
+crane|habitat=water,size_band=person|wading water bird
+stork|habitat=water,size_band=person|wading water bird
+eagle|size_band=person|too big for one hand
+vulture|size_band=person|too big for one hand
+bag|moves=moved|carried
+basket|moves=moved|carried
+bread|edible=yes,moves=moved|food
+can|moves=moved|carried
+candy|edible=yes,moves=moved|food
+cart|moves=moved,size_band=person|pushed, child-sized
+cash-register|size_band=person|does not fit in one hand
+egg|living=once_living,natural=natural,edible=yes,moves=moved|came from a bird
+ham|edible=yes,moves=moved|food
+ladder|size_band=person|about adult height
+mailbox|moves=still,size_band=person|stands fixed in place
+oil|moves=moved|carried bottle
+pasta|edible=yes,moves=moved|food
+peanut-butter|edible=yes,moves=moved|food
+pepper|moves=moved|carried pot
+pizza|edible=yes,moves=moved|food
+popcorn|edible=yes,moves=moved|food
+post-office|moves=still,size_band=bigger|a building
+pretzels|edible=yes,moves=moved|food
+price-tag|moves=moved|small item moved with the goods
+rice|living=once_living,natural=natural,edible=yes,moves=moved|harvested grain
+salt|natural=natural,moves=moved|from sea or rock
+sauce|edible=yes,moves=moved|food
+scale|moves=still|a counter scale stays put
+soda|edible=yes,moves=moved|a drink
+angelfish|size_band=hand|small reef fish
+antelope|size_band=person|deer-sized
+armadillo|size_band=person|small-dog sized
+bat|size_band=hand,habitat=air|tiny flying creature
+beach-umbrella|size_band=person|taller than a child when open
+cabana|moves=still,size_band=bigger|a hut stays put
+cheetah|size_band=person|lower than a grown-up
+chimpanzee|size_band=person|child-to-adult sized
+chocolate|edible=yes,moves=moved|manufactured food
+clownfish|size_band=hand|small reef fish
+coral|moves=still|fixed to the reef
+crab|size_band=hand|fits in a hand
+cross|moves=moved|portable object
+dolphin|size_band=bigger|longer than a grown-up
+driftwood|living=once_living,natural=natural|wood washed up
+feather|living=once_living,natural=natural,moves=moved|came off a bird
+fish|size_band=hand|a generic fish
+fox|size_band=person|dog-sized
+gazelle|size_band=person|deer-sized
+hyena|size_band=person|large-dog sized
+island|natural=natural,moves=still,size_band=bigger|land in the sea
+jaguar|size_band=person|big cat, not bigger than an adult
+jellyfish|size_band=hand|small drifting creature
+juice-box|edible=yes|a drink
+kangaroo|size_band=person|about adult height
+koala|size_band=person|small-dog sized
+lemur|size_band=person|cat-sized
+leopard|size_band=person|big cat, not bigger than an adult
+lifeguard|living=living,natural=natural,moves=self,size_band=person,habitat=land|a person
+lifeguard-tower|moves=still,size_band=bigger|fixed structure
+lighthouse|moves=still,size_band=bigger|a building
+manatee|size_band=bigger|far bigger than a grown-up
+meerkat|size_band=hand|small enough to hold
+monkey|size_band=person|child-sized
+narwhal|size_band=bigger|a whale
+orca|size_band=bigger|a whale
+otter|size_band=person,habitat=water|dog-sized, at home in water
+oyster|moves=still,size_band=hand|shellfish fixed in place
+panda|size_band=person|about adult size
+pufferfish|size_band=hand|small fish
+sandcastle|moves=still|stays where it was built
+scallop|moves=still,size_band=hand|shellfish
+sea-horse|size_band=hand|tiny
+sea-lion|size_band=bigger|heavier and longer than an adult
+seashell|living=once_living,natural=natural|shell of a sea creature
+seaweed|moves=still|anchored to the sea floor
+shark|size_band=bigger|longer than a grown-up
+shrimp|size_band=hand|fits in a hand
+sloth|size_band=person|small-dog sized
+starfish|size_band=hand|fits in a hand
+stretcher|size_band=person|as long as a person
+wave|natural=natural,size_band=bigger|moving sea water nobody made
+whale|size_band=bigger|far bigger than a grown-up
+wheelchair|size_band=person|chair-sized
+wolf|size_band=person|large-dog sized
+apple|moves=moved|hand-held fruit
+apricot|moves=moved|hand-held fruit
+avocado|moves=moved|hand-held fruit
+banana|moves=moved|hand-held fruit
+blackberry|moves=moved|hand-held fruit
+blueberry|moves=moved|hand-held fruit
+cherry|moves=moved|hand-held fruit
+clementine|moves=moved|hand-held fruit
+coconut|moves=moved|hand-held fruit
+cranberry|moves=moved|hand-held fruit
+fig|moves=moved|hand-held fruit
+grapefruit|moves=moved|hand-held fruit
+kiwi|moves=moved|hand-held fruit
+lemon|moves=moved|hand-held fruit
+lime|moves=moved|hand-held fruit
+mango|moves=moved|hand-held fruit
+nectarine|moves=moved|hand-held fruit
+orange|moves=moved|hand-held fruit
+papaya|moves=moved|hand-held fruit
+peach|moves=moved|hand-held fruit
+pear|moves=moved|hand-held fruit
+persimmon|moves=moved|hand-held fruit
+pineapple|moves=moved|carried fruit
+plum|moves=moved|hand-held fruit
+pomegranate|moves=moved|hand-held fruit
+raspberry|moves=moved|hand-held fruit
+strawberry|moves=moved|hand-held fruit
+watermelon|moves=moved|carried fruit
+bagel|moves=moved|carried food
+baguette|moves=moved|carried food
+brownie|moves=moved|carried food
+bun|moves=moved|carried food
+cake|moves=moved|carried food
+cheesecake|moves=moved|carried food
+cinnamon-roll|moves=moved|carried food
+cookie|moves=moved|carried food
+croissant|moves=moved|carried food
+cupcake|moves=moved|carried food
+doughnut|moves=moved|carried food
+eclair|moves=moved|carried food
+gingerbread-man|moves=moved|carried food
+muffin|moves=moved|carried food
+pie|moves=moved|carried food
+pretzel|moves=moved|carried food
+tart|moves=moved|carried food
+toast|moves=moved|carried food
+waffle|moves=moved|carried food
+skeleton|living=once_living,size_band=person|bones of a dead creature
+arm|size_band=person|does not fit in one hand
+leg|size_band=person|does not fit in one hand
+head|size_band=person|does not fit in one hand
+evergreen|living=living,natural=natural,moves=still,size_band=bigger,habitat=land|a living tree
+walrus|living=living,natural=natural,moves=self,size_band=bigger,habitat=water|a large marine animal
+snowman|moves=still,size_band=person|built in place
+igloo|moves=still,size_band=bigger|a snow house
+ice|natural=natural|frozen water
+icicle|natural=natural,moves=still|forms naturally, hangs fixed
+sled|size_band=person|child-sized
+sleigh|size_band=bigger|carries people
+puddle|size_band=person|not bigger than a grown-up
+raindrop|moves=moved,size_band=hand|tiny and falls
+snowflake|moves=moved,size_band=hand|tiny and falls
+alligator|moves=self,size_band=bigger,habitat=water|large swamp reptile
+asparagus|moves=moved|harvested food
+beetroot|moves=moved|harvested food
+bell-pepper|moves=moved|harvested food
+bonfire|size_band=person|person-height
+broccoli|moves=moved|harvested food
+cabbage|moves=moved|harvested food
+carrot|moves=moved|harvested food
+cauliflower|moves=moved|harvested food
+celery|moves=moved|harvested food
+chipmunk|size_band=hand|fits in one hand
+cobra|size_band=person|longer than a child
+computer-keyboard|moves=moved|portable
+corn|moves=moved|harvested food
+cucumber|moves=moved|harvested food
+earthworm|size_band=hand|fits in one hand
+eggplant|moves=moved|harvested food
+firefly|size_band=hand|an insect
+frog|habitat=water|amphibian
+garlic|moves=moved|harvested food
+ghost|size_band=person|imagined at person size
+gopher|size_band=hand|fits in one hand
+grasshopper|size_band=hand|an insect
+green-beans|moves=moved|harvested food
+hedgehog|size_band=hand|held in the hands
+house|size_band=bigger|far bigger than a grown-up
+iguana|size_band=person|as long as a child
+komodo-dragon|size_band=person|as long as an adult
+leek|moves=moved|harvested food
+lettuce|moves=moved|harvested food
+lizard|size_band=hand|a garden lizard
+lotus|habitat=water|an aquatic plant
+mouse|size_band=hand|fits in one hand
+mushroom|moves=moved|harvested food
+onion|moves=moved|harvested food
+orchard|living=living,natural=natural,size_band=bigger,habitat=land|growing fruit trees
+parsnip|moves=moved|harvested food
+potato|moves=moved|harvested food
+pumpkin|moves=moved,size_band=person|carried food, too big for one hand
+radish|moves=moved|harvested food
+salamander|habitat=water|amphibian
+spinach|moves=moved|harvested food
+squash|moves=moved|harvested food
+squirrel|size_band=hand|fits in one hand
+toad|size_band=hand,habitat=water|hand-sized amphibian
+tomato|moves=moved|harvested food
+turnip|moves=moved|harvested food
+turtle|habitat=water|lives in water
+water-lily|habitat=water|an aquatic plant
+weasel|size_band=hand|small enough to hold
+alarm-clock|moves=moved,size_band=hand|small clock
+baby|living=living,natural=natural,moves=self,size_band=person,habitat=land|a real person
+baby-girl|living=living,natural=natural,moves=self,size_band=person,habitat=land|a real person
+barbecue|moves=still,size_band=person|a grill stands in one place
+beach|natural=natural,moves=still,size_band=bigger|a natural place
+broom|moves=moved|picked up to sweep
+brush|moves=moved,size_band=hand|held in one hand
+comb|moves=moved,size_band=hand|held in one hand
+dinosaur|living=once_living,natural=natural,moves=self,size_band=bigger,habitat=land|an extinct real animal
+dustpan|moves=moved,size_band=hand|held in one hand
+faucet|size_band=hand|a tap is hand-sized
+garage|size_band=bigger|holds a car
+girl|living=living,natural=natural,moves=self,size_band=person,habitat=land|a person
+hose|moves=moved|dragged around the garden
+iron|moves=moved,size_band=hand|held in one hand
+key|moves=moved,size_band=hand|carried in a pocket
+kitchen|size_band=bigger|a whole room
+laundry-basket|moves=moved|carried
+lawn-mower|moves=moved|pushed by a person
+lemonade|edible=yes|a drink
+light-switch|size_band=hand|smaller than a hand
+lock|size_band=hand|fits in one hand
+mop|moves=moved|picked up to clean
+outlet|size_band=hand|smaller than a hand
+piano|moves=still,size_band=bigger|stays where it is
+pillow|moves=moved|picked up and carried
+pool|moves=still,size_band=bigger|stays put
+rake|moves=moved|carried and used
+remote-control|moves=moved,size_band=hand|held in one hand
+sand|natural=natural|occurs without people
+sandbox|moves=still,size_band=person|stays in the garden
+shampoo|moves=moved,size_band=hand|a bottle
+slide|moves=still,size_band=bigger|fixed playground structure
+stage|moves=still,size_band=bigger|a fixed structure
+stairs|size_band=bigger|bigger than a grown-up
+surfboard|size_band=person|as long as an adult
+swing|moves=still,size_band=person|hangs in one place
+telephone|moves=moved,size_band=hand|held in one hand
+toilet-paper|moves=moved,size_band=hand|a roll
+toolbox|moves=moved|carried by its handle
+toothbrush|moves=moved,size_band=hand|held in one hand
+toothpaste|moves=moved,size_band=hand|a tube
+vacuum-cleaner|moves=moved|pushed around the house
+vase|moves=moved|picked up to fill
+watering-can|moves=moved|carried to water plants
+ichthyosaurus|habitat=water|extinct marine reptile
+plesiosaurus|habitat=water|extinct marine reptile
+mosasaurus|habitat=water|extinct marine reptile
+velociraptor|size_band=person|turkey/dog-sized in reality
+oviraptor|size_band=person|large-bird sized
+bud|living=living,natural=natural,moves=still,habitat=land|a growing flower bud
+flower|living=living,natural=natural,moves=still,habitat=land|a growing plant
+grass|living=living,natural=natural,moves=still,habitat=land|a growing land plant
+leaf|living=living,natural=natural,moves=still,habitat=land|part of a growing plant
+bunny|living=living,natural=natural,moves=self,size_band=person,habitat=land|a live land animal
+nest|natural=natural,moves=still|built by a bird, stays in the tree
+rain|natural=natural|weather occurs without people
+garden|moves=still,size_band=bigger|stays put
+birdhouse|moves=still|mounted, stays where it is
+chick|size_band=hand|fits in one hand
+duckling|size_band=hand,habitat=water|hand-sized water bird
+goldfish|size_band=hand,habitat=water|a small fish
+cockatiel|size_band=hand,habitat=air|a small flying bird
+hamster|size_band=hand|fits in one hand
+gerbil|size_band=hand|fits in one hand
+guinea-pig|size_band=hand|held in one hand
+chinchilla|size_band=hand|small rodent
+cow|size_band=bigger|bigger than a grown-up
+bull|size_band=bigger|bigger than a grown-up
+ox|size_band=bigger|bigger than a grown-up
+horse|size_band=bigger|bigger than a grown-up
+coat|size_band=person|body-sized garment
+raincoat|size_band=person|body-sized garment
+jacket|size_band=person|body-sized garment
+snowsuit|size_band=person|full-body garment
+jumpsuit|size_band=person|full-body garment
+overalls|size_band=person|full-body garment
+pajamas|size_band=person|full-body garment
+dress|size_band=person|body-length garment
+skirt|size_band=person|body-sized garment
+jeans|size_band=person|leg-length garment
+trousers|size_band=person|leg-length garment
+pants|size_band=person|leg-length garment
+sweatpants|size_band=person|leg-length garment
+leggings|size_band=person|leg-length garment
+sweater|size_band=person|torso garment
+sweatshirt|size_band=person|torso garment
+hoodie|size_band=person|torso garment
+cardigan|size_band=person|torso garment
+shirt|size_band=person|torso garment
+blouse|size_band=person|torso garment
+t-shirt|size_band=person|torso garment
+uniform|size_band=person|a whole outfit
+airplane|habitat=none|a made vehicle has no habitat
+ambulance|habitat=none|a made vehicle has no habitat
+beetle|living=living,natural=natural,moves=self,size_band=hand|a live insect
+bicycle|size_band=person,habitat=none|child-to-adult sized, made
+bird|living=living,natural=natural,moves=self,size_band=hand|a live animal
+boat|habitat=none|made, so no habitat
+bulldozer|habitat=none|a made vehicle has no habitat
+bus|habitat=none|a made vehicle has no habitat
+canoe|habitat=none|a made vehicle has no habitat
+car|habitat=none|a made vehicle has no habitat
+cement-mixer|habitat=none|a made vehicle has no habitat
+computer|size_band=person|does not fit in one hand
+dragon|living=living,natural=natural,moves=self,size_band=bigger|a story creature
+dump-truck|habitat=none|a made vehicle has no habitat
+excavator|habitat=none|a made vehicle has no habitat
+ferry|habitat=none|a made vehicle has no habitat
+fire-truck|habitat=none|a made vehicle has no habitat
+forklift|habitat=none|a made vehicle has no habitat
+frisbee|size_band=hand,habitat=none|held in one hand, made
+garbage-truck|habitat=none|a made vehicle has no habitat
+helicopter|habitat=none|a made vehicle has no habitat
+hot-air-balloon|size_band=bigger,habitat=none|far bigger than an adult, made
+jeep|habitat=none|a made vehicle has no habitat
+jet|habitat=none|a made vehicle has no habitat
+mail-truck|habitat=none|a made vehicle has no habitat
+monster-truck|habitat=none|a made vehicle has no habitat
+motorcycle|size_band=person,habitat=none|adult-sized, made
+paper-airplane|size_band=hand,habitat=none|fits in one hand, made
+pegasus|living=living,natural=natural,moves=self,size_band=bigger|a story creature
+police-car|habitat=none|a made vehicle has no habitat
+race-car|habitat=none|a made vehicle has no habitat
+rocket|habitat=none|a made vehicle has no habitat
+sailboat|habitat=none|a made vehicle has no habitat
+satellite|natural=made|people build and launch them
+school-bus|habitat=none|a made vehicle has no habitat
+scooter|size_band=person,habitat=none|child-sized, made
+ship|habitat=none|a made vehicle has no habitat
+skateboard|size_band=person,habitat=none|as long as a child, made
+student|living=living,natural=natural,moves=self,size_band=person,habitat=land|a person
+submarine|habitat=none|a made vehicle has no habitat
+subway|habitat=none|a made vehicle has no habitat
+taxi|habitat=none|a made vehicle has no habitat
+telescope|natural=made,moves=moved,size_band=person|people build them
+tow-truck|habitat=none|a made vehicle has no habitat
+tractor|habitat=none|a made vehicle has no habitat
+train|habitat=none|a made vehicle has no habitat
+truck|habitat=none|a made vehicle has no habitat
+van|habitat=none|a made vehicle has no habitat
+whiteboard|moves=still,size_band=person|hangs on the wall, door-sized
+yacht|habitat=none|a made vehicle has no habitat
+acorn|living=once_living,natural=natural|a fallen oak seed
+autumn|natural=natural,size_band=bigger|a season happens without people
+harvest|living=once_living,natural=natural,size_band=bigger|gathered crops
+haystack|living=once_living,natural=natural,size_band=bigger|dried grass
+native-american|living=living,natural=natural,moves=self,size_band=person,habitat=land|a person
+roasted-turkey|edible=yes,moves=moved|cooked food
+scarecrow|size_band=person|built person-sized
+baseball|moves=moved|only moves when thrown
+hamburger|edible=yes,moves=moved|cooked food
+liberty|size_band=bigger|the statue is far bigger than an adult
+statue|size_band=bigger|a monument
+uncle-sam|living=living,natural=natural,moves=self,size_band=person,habitat=land|pictured as a man
+us|natural=natural,size_band=bigger|a country's land
+bee|habitat=air|a flying insect
+butterfly|habitat=air|a flying insect
+dragonfly|habitat=air|a flying insect
+mosquito|habitat=air|a flying insect
+wasp|habitat=air|a flying insect
+armchair|moves=still|heavy furniture
+bed|moves=still|heavy furniture
+bench|moves=still|heavy furniture
+bookcase|moves=still|heavy furniture
+cabinet|moves=still|heavy furniture
+chair|moves=still|stays at the table
+couch|moves=still|heavy furniture
+crib|moves=still|heavy furniture
+desk|moves=still|heavy furniture
+dresser|moves=still|heavy furniture
+lamp|moves=still|stays on its table
+mirror|moves=still|stays in place
+nightstand|moves=still|heavy furniture
+ottoman|moves=still|furniture
+rug|moves=still|lies on the floor
+shelf|moves=still|fixed in place
+sofa|moves=still|heavy furniture
+table|moves=still|heavy furniture
+microwave|moves=still,size_band=person|stays on the counter
+oven|moves=still,size_band=person|built-in appliance
+refrigerator|moves=still,size_band=person|stays where it is
+# --- operator-of-record overrides applied after the batch review (last line wins) ---
+star|natural=made,size_band=hand|OVERRIDE: the card sits in the shapes tray beside circle and diamond, so it is the drawn shape, not the celestial body

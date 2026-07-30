@@ -907,6 +907,34 @@
     "metaTitle": "Lezen in woordgroepen | gratis tool voor de klas",
     "metaDescription": "Eén zin op het digibord, verdeeld in boogjes en twee keer voorgelezen. Lezen in woordgroepen oefenen met de hele klas, zonder klok en zonder punten."
   },
+  "class-graph": {
+    "slug": "klassengrafiek-staafdiagram-groep-3",
+    "name": "Klassengrafiek",
+    "tagline": "De klas beantwoordt één vraag op het digibord, en de rij kinderen verandert voor hun ogen in een staafdiagram.",
+    "about": [
+      "Klassengrafiek is een klassikale peiling op één scherm. U typt een vraag in en zet er twee of drie antwoorden bij. Daarna komen de kinderen één voor één naar voren en tikt ieder kind één keer op zijn antwoord. Bij elke tik gaat er een figuurtje in die kolom staan, tot de hele groep als beeldgrafiek op het bord staat. De kinderen hebben zelf geen apparaat nodig, er is geen inlog, en de enige voorbereiding is de vraag die u wilt stellen.",
+      "De stap van een figuurtje voor ieder van ons naar een staaf van deze hoogte is de grootste abstractie in het beginnende werken met gegevens, en op een werkblad is die stap altijd al gezet. Hier tikt u op Staven tonen en veranderen de kolommen kinderen voor de ogen van de groep in staven. Ze zien het gebeuren met hun eigen gegevens, niet met een voorbeeld over een klas die ze niet kennen. Met Kinderen tonen komen de figuurtjes weer terug. De gegevens zijn het lokaal zelf.",
+      "De getallen staan er in het begin niet bij, en dat is met opzet: staat er meteen een getal op het bord, dan kijkt niemand meer naar de grafiek. Eerst vergelijkt de groep op lengte — welke staaf komt verder, en hoeveel scheelt dat. Pas daarna zet u de getallen aan. En omdat de staaf precies zo hoog is als de stapel kinderen was, kunt u heen en weer schakelen en het samen nakijken. Dat overtuigt het kind dat denkt dat de staaf ineens meer betekent.",
+      "Er wordt niets gerangschikt en er wint niets. De antwoorden blijven staan in de volgorde waarin u ze hebt ingetikt, de langste staaf schuift niet naar voren, en geen enkel antwoord krijgt een onderscheiding. Een peiling in de klas is een portret van de groep, geen wedstrijd. Er wordt niets op tijd gedaan en niets beoordeeld. Geen kind wordt bij naam genoemd, alle figuurtjes zien er hetzelfde uit, en er wordt niets bewaard: sluit u de pagina, dan zijn de antwoorden weg."
+    ],
+    "howToUse": [
+      "Open Klassengrafiek op het digibord, zodat iedereen naar hetzelfde scherm kijkt.",
+      "Typ uw vraag in en zet er twee of drie antwoorden bij.",
+      "Laat de kinderen één voor één naar voren komen; ieder tikt één keer op zijn antwoord.",
+      "Sta stil bij de kolommen figuurtjes en laat de groep beschrijven wat zij ziet.",
+      "Tik op Staven tonen en daarna weer op Kinderen tonen, een paar keer achter elkaar.",
+      "Zet de getallen pas op het eind aan en leg ze naast wat de klas aan de lengte had afgelezen."
+    ],
+    "classroomIdeas": [
+      "Vraag vóór het omschakelen hoe hoog de staaf zal worden en laat twee kinderen die hoogte met hun handen aangeven.",
+      "Schakel drie of vier keer heen en weer met steeds dezelfde vraag: waar zijn de kinderen gebleven, en is het nog evenveel?",
+      "Laat een kind een uitspraak over de grafiek doen die klopt en een die niet klopt; de rest zoekt uit welke welke is.",
+      "Stel dezelfde vraag een maand later opnieuw en hang de twee grafieken naast elkaar.",
+      "Gegevens verzamelen en weergeven zit in de kerndoelen van de SLO voor de onderbouw; laat de kinderen de grafiek daarna natekenen op ruitjespapier, één hokje per kind."
+    ],
+    "metaTitle": "Staafdiagram groep 3 en 4 | gratis tool voor de klas",
+    "metaDescription": "Staafdiagram voor groep 3 en 4: de klas stemt op het digibord, de kinderen worden staven en de getallen blijven eerst verborgen."
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

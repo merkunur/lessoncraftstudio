@@ -908,6 +908,34 @@
     "metaTitle": "Sinnschritte lesen üben | kostenloses Klassenzimmer-Tool",
     "metaDescription": "Ein Satz an der Wand, in Bögen geteilt und zweimal vorgelesen: Sinnschritte lesen und Leseflüssigkeit hörbar machen, ohne Stoppuhr und ohne Punkte."
   },
+  "class-graph": {
+    "slug": "klassendiagramm-saulendiagramm-grundschule",
+    "name": "Klassendiagramm",
+    "tagline": "Die Klasse beantwortet eine Frage am Beamer, und aus der Reihe der Kinder wird vor aller Augen ein Säulendiagramm.",
+    "about": [
+      "Klassendiagramm ist eine Umfrage für die ganze Klasse an einem einzigen Bildschirm. Sie tippen eine Frage ein und dazu zwei oder drei Antworten. Dann kommen die Kinder nacheinander nach vorn und tippen einmal auf ihre Antwort. Für jedes Kind stellt sich eine kleine Figur in die passende Spalte, bis die ganze Klasse als bildliche Darstellung auf der Leinwand steht. Die Kinder brauchen kein eigenes Gerät, es gibt keine Anmeldung, und die einzige Vorbereitung ist die Frage, die Sie stellen möchten.",
+      "Der Schritt von einem Bild für jedes einzelne Kind zu einer Säule, die so hoch ist, ist der größte Abstraktionsschritt am Anfang der Datenarbeit — und auf jedem Arbeitsblatt ist er bereits vollzogen. Hier tippen Sie einmal auf „Säulen zeigen“, und die Spalten aus Kindern werden vor den Augen der Klasse zu Säulen. Die Kinder sehen die Verwandlung an ihren eigenen Daten, nicht an einem Beispiel aus einer fremden Klasse. Ein Tipp auf „Kinder zeigen“ holt die Figuren zurück. Die Daten sind der Raum, in dem sie sitzen.",
+      "Die Zahlen sind zu Beginn ausgeblendet, und das ist Absicht: Steht eine Ziffer von Anfang an auf der Leinwand, schaut niemand mehr auf das Diagramm. Zuerst vergleicht die Klasse nach Länge — welche Säule reicht weiter, und um wie viel. Erst danach blenden Sie die Zahlen ein. Und weil die Säule genau so hoch ist wie der Stapel Kinder vorher, können Sie hin- und herschalten und es gemeinsam nachprüfen. Das ist die Antwort auf das Kind, das glaubt, die Säule bedeute plötzlich mehr.",
+      "Nichts wird sortiert, und nichts gewinnt. Die Antworten bleiben in der Reihenfolge stehen, in der Sie sie eingetippt haben, die längste Säule rutscht nicht nach vorn, und keine Antwort bekommt eine Auszeichnung. Eine Klassenumfrage ist ein Porträt der Gruppe, kein Wettbewerb. Es wird nichts auf Zeit gemacht und nichts bewertet. Kein Kind wird namentlich genannt, denn jede Figur sieht gleich aus, und gespeichert wird nichts: Schließen Sie die Seite, sind die Antworten fort."
+    ],
+    "howToUse": [
+      "Öffnen Sie Klassendiagramm am Beamer oder am interaktiven Whiteboard, damit alle dieselbe Fläche sehen.",
+      "Tippen Sie Ihre Frage ein und dazu zwei oder drei Antworten.",
+      "Rufen Sie die Kinder einzeln nach vorn; jedes tippt genau einmal auf seine Antwort.",
+      "Halten Sie inne, wenn alle dran waren, und lassen Sie die Klasse die Spalten aus Figuren beschreiben.",
+      "Tippen Sie auf „Säulen zeigen“ und danach wieder auf „Kinder zeigen“, mehrmals hintereinander.",
+      "Blenden Sie die Zahlen erst ganz zum Schluss ein und vergleichen Sie sie mit dem, was die Klasse an der Länge abgelesen hat."
+    ],
+    "classroomIdeas": [
+      "Fragen Sie vor dem Umschalten, wie hoch die Säule wohl wird, und lassen Sie zwei Kinder die Höhe mit den Händen zeigen.",
+      "Schalten Sie drei- oder viermal hin und her und stellen Sie jedes Mal dieselbe Frage: Wo sind die Kinder hin, und ist es noch gleich viel?",
+      "Lassen Sie ein Kind eine Aussage über das Diagramm formulieren, die stimmt, und eine, die nicht stimmt; die Klasse entscheidet, welche welche ist.",
+      "Stellen Sie dieselbe Frage vier Wochen später noch einmal und hängen Sie beide Diagramme nebeneinander auf.",
+      "Daten sammeln und darstellen steht im Lehrplan der ersten Schuljahre; lassen Sie die Klasse das Säulendiagramm anschließend auf Karopapier abzeichnen, ein Kästchen pro Kind."
+    ],
+    "metaTitle": "Säulendiagramm Grundschule | kostenloses Klassen-Tool",
+    "metaDescription": "Säulendiagramm für die Grundschule: Die Klasse stimmt am Beamer ab, aus den Kindern werden Säulen, die Zahlen bleiben zuerst verborgen."
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

@@ -907,6 +907,34 @@
     "metaTitle": "Fluidez lectora por grupos de palabras | recurso gratis",
     "metaDescription": "Una oración en el pizarrón, dividida en arcos y leída dos veces. Trabajen la fluidez lectora por grupos de palabras, sin cronómetro y sin puntajes."
   },
+  "class-graph": {
+    "slug": "grafica-del-salon-grafica-de-barras-primaria",
+    "name": "La gráfica del salón",
+    "tagline": "El grupo responde una pregunta en el pizarrón, y la fila de niños se convierte en una gráfica de barras frente a todos.",
+    "about": [
+      "La gráfica del salón es una encuesta para todo el grupo en una sola pantalla. Usted escribe una pregunta y dos o tres respuestas. Después los niños pasan al frente uno por uno y cada quien toca una sola vez su respuesta. Con cada toque, una figura pequeña se coloca en esa columna, hasta que todo el grupo aparece como una pictografía en el pizarrón. Los niños no necesitan ningún dispositivo, no hay que crear cuentas y la única preparación es la pregunta que usted quiera hacer.",
+      "El salto de una figura por cada uno de nosotros a una barra de esta altura es la abstracción más grande de los primeros trabajos con datos, y en una hoja impresa ya viene resuelta. Aquí usted toca Ver las barras y las columnas de niños se convierten en barras delante de todo el grupo. Los alumnos ven la transformación con sus propios datos, no con el ejemplo de un salón ajeno. Ver a los niños regresa las figuras. Los datos son el salón mismo.",
+      "Los números están ocultos al principio, y es a propósito: si aparece una cifra desde el inicio, ya nadie mira la gráfica. Primero el grupo compara por longitud — cuál barra llega más lejos y por cuánto. Los números se muestran después. Y como la barra mide exactamente lo mismo que medía la fila de niños, ustedes pueden cambiar de una vista a la otra y comprobarlo juntos. Esa es la respuesta para el niño que cree que la barra ya significa algo más.",
+      "Nada se ordena y nada gana. Las respuestas quedan en el orden en que usted las escribió, la barra más larga no se pasa al frente y ninguna respuesta recibe un distintivo. Una encuesta del salón es un retrato del grupo, no una competencia. Nada se cronometra y nada se califica. Ningún niño se nombra, todas las figuras son iguales, y no se guarda nada: al cerrar la página, las respuestas desaparecen."
+    ],
+    "howToUse": [
+      "Abra La gráfica del salón en el proyector para que todos vean la misma pantalla.",
+      "Escriba su pregunta y dos o tres respuestas.",
+      "Pase a los niños al frente uno por uno; cada quien toca una sola vez su respuesta.",
+      "Deténgase en las columnas de figuras y pida al grupo que describa lo que ve.",
+      "Toque Ver las barras y luego Ver a los niños, varias veces seguidas.",
+      "Muestre los números hasta el final y compárelos con lo que el grupo ya había leído en la longitud."
+    ],
+    "classroomIdeas": [
+      "Antes de cambiar la vista, pregunte qué tan alta quedará la barra y pida a dos niños que marquen esa altura con las manos.",
+      "Cambie tres o cuatro veces con la misma pregunta: a dónde se fueron los niños, y sigue siendo la misma cantidad.",
+      "Pida a un alumno una afirmación verdadera y una falsa sobre la gráfica; el resto del grupo decide cuál es cuál.",
+      "Haga la misma pregunta un mes después y coloque las dos gráficas una junto a la otra.",
+      "El manejo de la información aparece desde los primeros grados en los programas de la SEP; después pida que copien la gráfica de barras en papel cuadriculado, un cuadro por niño."
+    ],
+    "metaTitle": "Gráfica de barras para primaria | herramienta gratis",
+    "metaDescription": "Gráfica de barras para primaria: el grupo vota en el pizarrón, los niños se convierten en barras y los números están ocultos al principio."
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

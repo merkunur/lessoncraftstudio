@@ -907,6 +907,34 @@
     "metaTitle": "Flydende læsning i buer | gratis værktøj til tavlen",
     "metaDescription": "Del sætningen op i buer på tavlen, hør oplæsningen som robot og i lærerens buer, og træn flydende læsning uden stopur og uden point."
   },
+  "class-graph": {
+    "slug": "klassens-diagram-soejlediagram",
+    "name": "Klassens diagram",
+    "tagline": "Klassen svarer på ét spørgsmål, hvert barn trykker på sit svar, og diagrammet vokser foran øjnene på dem.",
+    "about": [
+      "Klassens diagram er en fælles afstemning på tavlen — én skærm, som hele klassen ser på. Læreren skriver et spørgsmål og to eller tre svar; derefter går børnene op ét ad gangen og trykker på det svar, de har valgt. For hvert tryk kommer en lille figur ind i søjlen: én figur, ét barn. Der skal ikke bruges en tablet til hver, ingen log ind, ingen forberedelse aftenen før. Fælles Mål placerer netop i indskolingen arbejdet med at samle og vise data, og her er dataene klassen selv.",
+      "Springet fra en bunke figurer til en søjle er den største abstraktion i de første års arbejde med data, og på et arbejdsark er springet altid sket på forhånd. Her trykker læreren på “Vis søjlerne”, og klassen ser rækkerne af børn blive til et søjlediagram; et tryk på “Vis børnene”, og figurerne er tilbage igen. Billeddiagram og søjlediagram holder op med at være to forskellige opgaver: det er den samme oplysning i den samme højde, set på to måder. Selve skiftet er undervisningen.",
+      "Tallene er skjult fra starten, og det er med vilje: står der et tal på skærmen med det samme, kigger ingen på diagrammet. Først sammenligner klassen med længden — den her søjle når højere op, de her to er lige lange — og bagefter viser en særskilt knap antallet. Søjlen er præcis så høj, som bunken af børn var, og man kan skifte frem og tilbage og tjekke det, så mange gange man vil. Det er det bedste svar til barnet, der tror, at søjlen siger noget større.",
+      "Der er ingenting her, der sætter svarene i rækkefølge. Der er ikke et svar, der vinder, ingen sortering med den højeste søjle først, ingen tid der løber, og ingen point: en afstemning i klassen er et portræt af gruppen, ikke en konkurrence. Ingen børn bliver nævnt ved navn, alle figurer ser ens ud og er anonyme, og der bliver ikke gemt noget — når siden lukkes, er svarene væk. Tilbage står kun det, klassen så sammen, og det, de nåede at tale om."
+    ],
+    "howToUse": [
+      "Vis værktøjet på tavlen og skriv dagens spørgsmål med to eller tre svar.",
+      "Læs svarene højt, så alle ved, hvor de skal trykke.",
+      "Kald børnene op ét ad gangen; hvert barn trykker én gang på sit svar.",
+      "Stop, når alle har svaret, og spørg, hvad man kan se, uden at tælle.",
+      "Tryk på “Vis søjlerne”, og lad klassen fortælle, hvad der ændrede sig.",
+      "Vis først tallene til sidst, og gå tilbage til børnene og tjek det sammen."
+    ],
+    "classroomIdeas": [
+      "Bed hvert barn gætte, hvor høj deres egen søjle bliver, før du trykker på “Vis søjlerne”, og sammenlign gættet med det, der står på skærmen.",
+      "Lad et barn holde fingeren på toppen af en søjle, mens du skifter frem og tilbage: hånden bliver, hvor den er.",
+      "Stil det samme spørgsmål mandag og fredag, og tal om, hvad der er blevet anderledes i løbet af ugen.",
+      "Brug spørgsmål fra dagen selv — hvem gik i skole, hvem har frugt med, hvilken bog I har hørt — så tallene handler om klassen.",
+      "Slut af med at tegne diagrammet af i hæftet: figurerne på den ene side, søjlerne på den anden, i samme højde."
+    ],
+    "metaTitle": "Søjlediagram for klassen | gratis værktøj",
+    "metaDescription": "Afstemning på tavlen: børnene trykker på deres svar, og figurerne bliver til et søjlediagram. Gratis værktøj til indskolingen og 0. klasse."
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

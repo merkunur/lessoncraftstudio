@@ -907,6 +907,34 @@
     "metaTitle": "Leseflyt: les setninga i buer | gratis verktøy",
     "metaDescription": "Del setninga i buer på tavla, hør opplesinga som robot og i lærerens buer, og øv leseflyt med hele klassen uten stoppeklokke og poeng."
   },
+  "class-graph": {
+    "slug": "klassens-diagram-soylediagram",
+    "name": "Klassens diagram",
+    "tagline": "Klassen svarer på ett spørsmål, hvert barn trykker på sitt eget svar, og diagrammet vokser mens alle ser på.",
+    "about": [
+      "Klassens diagram er en felles avstemning på tavla — én skjerm som hele klassen ser på samtidig. Læreren skriver inn et spørsmål og to eller tre svar; så kommer barna fram ett og ett og trykker på det svaret de har valgt. For hvert trykk kommer en liten figur inn i søyla: én figur, ett barn. Ingen trenger hvert sitt nettbrett, ingen skal logge inn, og ingenting må forberedes kvelden før. LK20 legger nettopp til de første trinnene det å samle inn og vise fram sine egne data.",
+      "Spranget fra en haug med figurer til en søyle er den største abstraksjonen i de første årene med statistikk, og på et arbeidsark har spranget alltid skjedd på forhånd. Her trykker læreren på “Vis søylene”, og klassen ser radene med barn bli til et søylediagram; et trykk på “Vis barna”, og figurene er tilbake. Bildediagrammet og søylediagrammet slutter å være to ulike oppgaver: det er den samme opplysningen, i den samme høyden, sett på to måter. Det er selve overgangen som underviser.",
+      "Tallene er skjult i starten, og det er med vilje: står det et tall på skjermen med én gang, ser ingen på diagrammet lenger. Først sammenligner klassen med lengden — denne søyla når høyere opp, disse to er like lange — og først etterpå viser en egen knapp antallet. Søyla er nøyaktig så høy som haugen med barn var, og dere kan bytte fram og tilbake og sjekke så mange ganger dere vil. Det er det beste svaret til barnet som tror at søyla sier noe større.",
+      "Ingenting her setter svarene i rekkefølge. Det finnes ikke noe svar som vinner, ingen sortering med den høyeste søyla først, ingen tid som løper og ingen poeng: en avstemning i klassen er et portrett av gruppa, ikke en konkurranse. Ingen barn blir nevnt med navn, alle figurene ser like ut og er anonyme, og ingenting blir lagret — når sida lukkes, er svarene borte. Igjen står bare det klassen så sammen, og samtalen de fikk ut av det."
+    ],
+    "howToUse": [
+      "Vis verktøyet på tavla og skriv inn dagens spørsmål med to eller tre svar.",
+      "Les svarene høyt, slik at alle vet hvor de skal trykke.",
+      "Hent barna fram ett og ett; hvert barn trykker én gang på sitt eget svar.",
+      "Stopp når alle har svart, og spør hva klassen ser, uten å telle.",
+      "Trykk på “Vis søylene” og la barna fortelle hva som ble annerledes.",
+      "Vis tallene helt til slutt, og gå tilbake til figurene og sjekk sammen."
+    ],
+    "classroomIdeas": [
+      "La hvert barn gjette hvor høy sin egen søyle blir før du trykker på “Vis søylene”, og sammenlign gjettet med det som står der.",
+      "La et barn holde fingeren på toppen av en søyle mens du bytter fram og tilbake: handa blir stående i samme høyde.",
+      "Still det samme spørsmålet mandag og fredag, og snakk om hva som har endret seg i løpet av uka.",
+      "Bruk spørsmål fra dagen selv — hvem gikk til skolen, hvem har frukt i matpakka, hvilken bok dere har hørt — så handler tallene om klassen.",
+      "Avslutt med å tegne av diagrammet i boka: figurene på den ene sida, søylene på den andre, i samme høyde."
+    ],
+    "metaTitle": "Søylediagram for klassen | gratis verktøy",
+    "metaDescription": "Avstemning på tavla: barna trykker på svaret sitt, og figurene blir til et søylediagram. Gratis verktøy for de første trinnene i skolen."
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

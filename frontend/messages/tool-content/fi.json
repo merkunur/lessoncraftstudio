@@ -885,6 +885,34 @@
     "metaTitle": "Lukusujuvuus: lause kaariin | ilmainen työkalu",
     "metaDescription": "Jaa lause kaariin luokan edessä, kuuntele robottiluku ja opettajan kaaret, ja harjoittele lukusujuvuutta ilman sekuntikelloa ja pisteitä."
   },
+  "class-graph": {
+    "slug": "luokan-diagrammi",
+    "name": "Luokan diagrammi",
+    "tagline": "Luokka vastaa yhteen kysymykseen, jokainen lapsi käy koskettamassa omaa vastaustaan, ja diagrammi kasvaa kaikkien nähden.",
+    "about": [
+      "Luokan diagrammi on yhteinen kysely, joka heijastetaan yhdelle näytölle. Opettaja kirjoittaa kysymyksen ja kaksi tai kolme vastausvaihtoehtoa, ja sitten lapset tulevat yksi kerrallaan koskettamaan valitsemaansa vastausta. Jokaisesta kosketuksesta ilmestyy pieni lapsihahmo sen vastauksen pylvääseen: yksi hahmo, yksi lapsi. Kenenkään ei tarvitse saada omaa laitetta, kukaan ei kirjaudu mihinkään eikä mitään tarvitse valmistella etukäteen. OPS 2014 sijoittaa juuri alkuopetukseen tietojen keräämisen ja esittämisen, ja tässä aineisto on luokka itse eikä esimerkki jostakin toisesta koulusta.",
+      "Kuvista koottu jono ja yhtä korkea pylväs ovat sama tieto, mutta niiden välinen loikka on alkuopetuksen suurin abstraktio — ja tehtävämonisteessa se on aina tehty jo valmiiksi. Täällä opettaja koskettaa “Näytä pylväät”, ja luokka näkee lapsijonojen muuttuvan pylväsdiagrammiksi; kosketus kohtaan “Näytä lapset” tuo hahmot takaisin. Kuviodiagrammi ja pylväsdiagrammi lakkaavat olemasta kaksi eri tehtävää: ne ovat sama asia kahdella tavalla katsottuna. Opettavainen on juuri se hetki, jossa muutos tapahtuu, ja lapset näkevät sen omalle aineistolleen.",
+      "Luvut ovat aluksi piilossa, ja se on tarkoituksellista: jos numero on näytöllä heti, kukaan ei enää katso diagrammia. Ensin verrataan pituutta — tämä pylväs yltää korkeammalle, nämä kaksi ovat yhtä pitkät — ja vasta sitten erillinen valinta paljastaa lukumäärät. Pylväs on täsmälleen niin korkea kuin lapsijono oli, ja näkymää voi vaihtaa edestakaisin niin monta kertaa kuin luokka haluaa tarkistaa. Se on paras vastaus lapselle, joka luulee pylvään tarkoittavan jotakin suurempaa kuin ne hahmot, jotka äsken seisoivat siinä.",
+      "Mikään ei aseta vastauksia järjestykseen. Yksikään vastaus ei voita, pisin pylväs ei siirry ensimmäiseksi, mikään ei ole ajastettu eikä pisteytetty: luokan kysely on ryhmäkuva eikä kilpailu. Ketään lasta ei mainita nimeltä, kaikki hahmot ovat samannäköisiä ja nimettömiä, eikä mitään tallenneta — kun sivu suljetaan, vastaukset katoavat. Jäljelle jää vain se, minkä luokka näki yhdessä, ja se, mistä ehdittiin yhdessä puhua."
+    ],
+    "howToUse": [
+      "Heijasta työkalu ja kirjoita päivän kysymys sekä kaksi tai kolme vastausvaihtoehtoa.",
+      "Lue vaihtoehdot ääneen, jotta jokainen tietää, mihin kohtaan koskettaa.",
+      "Kutsu lapset yksi kerrallaan; jokainen koskettaa omaa vastaustaan yhden kerran.",
+      "Pysähtykää, kun kaikki ovat vastanneet, ja kysykää mitä näytöllä näkyy ilman laskemista.",
+      "Kosketa “Näytä pylväät” ja anna lasten kertoa, mikä muuttui ja mikä pysyi samana.",
+      "Paljasta luvut vasta lopuksi ja palaa hahmoihin, niin voitte tarkistaa yhdessä."
+    ],
+    "classroomIdeas": [
+      "Pyydä jokaista arvaamaan oman pylväänsä korkeus ennen kuin kosketat “Näytä pylväät”, ja verratkaa arvausta siihen, mitä näytölle jää.",
+      "Anna yhden lapsen pitää sormea pylvään huipulla, kun vaihdat näkymää edestakaisin: käsi pysyy samalla korkeudella.",
+      "Kysy sama kysymys maanantaina ja perjantaina ja puhukaa siitä, mikä viikon aikana muuttui.",
+      "Ota kysymykset päivästä itsestään — kuka tuli kävellen, kenellä on eväänä hedelmä, minkä kirjan kuulitte — jotta aineisto on todella luokan omaa.",
+      "Piirtäkää lopuksi diagrammi vihkoon: hahmot toiselle puolelle, pylväät toiselle, samalle korkeudelle."
+    ],
+    "metaTitle": "Pylväsdiagrammi luokalle | ilmainen työkalu",
+    "metaDescription": "Luokan kysely taululla: lapset koskettavat vastaustaan ja hahmoista tulee pylväsdiagrammi. Ilmainen työkalu alkuopetukseen ja esiopetukseen."
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

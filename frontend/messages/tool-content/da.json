@@ -726,6 +726,31 @@
     "metaTitle": "Gratis tom tallinje til tavlen | LessonCraftStudio",
     "metaDescription": "En tom tallinje til klassen: barnet sætter starttallet og tegner sine egne hop – +10, +10, +5 – mens tallene siges højt på dansk. Gratis, uden login."
   },
+  "part-whole-frame": {
+    "slug": "del-tal-op",
+    "name": "Del tallet op",
+    "tagline": "En helhed, to dele — og helheden ændrer sig aldrig.",
+    "about": [
+      "Del tallet op sætter taldelingen op på projektoren. Øverst ligger tallet i reden; nedenunder holder to bakker delene. Et barn tager en brik fra den ene bakke og bærer den over: de to dele ændrer sig, tallet foroven gør ikke. Det er hele pointen, og den ligger i materialet selv — man kan hverken lægge en brik til eller tage en væk, så delene kan ikke holde op med at give helheden.",
+      "Der er ikke noget at rette her, for enhver opdeling af et tal er rigtig. Seks er fire og to, og seks er også fem og en. Et barn, der flytter brikker frem og tilbage, gætter ikke på et svar, men opdager, at et tal er bygget af mindre tal — den tanke, der gør plus og minus til én ting i stedet for to. Tavlen bedømmer ingenting, tæller ingen point og siger aldrig, at en opdeling er forkert.",
+      "Et klæde dækker reden eller en af bakkerne, og den samme tavle bliver til de tre spørgsmål, man virkelig stiller i klassen: hvor mange er der i alt, og hvor mange er gemt? Tal op til ti, alle tre tildækninger, den oplæste opdeling og skrivemåden er gratis. Tal op til tyve, oversigten over alle fundne måder og udskriften er en del af Lærerpakken."
+    ],
+    "howToUse": [
+      "Vis tavlen på projektoren, og indstil dagens tal med plus og minus — der ligger allerede et tal klar.",
+      "Lad et barn komme op og bære en brik over. At trykke på bakken gør det samme som at trække, så det virker både på tavlen og på en tablet.",
+      "Sig opdelingen sammen hver gang: seks er fire og to. Med „Sig det højt“ siger tavlen den med jer.",
+      "Dæk en bakke til, og spørg, hvor mange der er gemt. Dæk i stedet reden til, og spørg, hvor mange der er i alt.",
+      "Slå „Vis som regnestykke“ til, når billedet sidder fast — brikkerne først, tallene bagefter."
+    ],
+    "classroomIdeas": [
+      "Behold det samme tal en hel uge: mandag er sekstallet, og hver morgen finder et nyt barn en ny måde.",
+      "Dæk en bakke til, før barnet bærer brikken over, så klassen skal regne ud, hvad der ændrede sig, uden at se det.",
+      "Bed om en opdeling og derefter naboen til den: hvis seks er fire og to, hvad sker der så med en brik mere?",
+      "Stil to opdelinger ved siden af hinanden i oversigten, og spørg, hvad der er ens — dér viser mønsteret sig."
+    ],
+    "metaTitle": "Del tallet op — helhed og dele | Gratis til 1. klasse",
+    "metaDescription": "Taldeling i 1. klasse: bær en brik over, og helheden er den samme. Dæk helheden eller en del til, og hør opdelingen. Gratis, uden konto og uden point."
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

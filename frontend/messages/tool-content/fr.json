@@ -726,6 +726,31 @@
     "metaTitle": "Ligne des sauts : additionner de 10 en 10 au CP-CE1",
     "metaDescription": "Une ligne sans graduations pour calculer par sauts : l’enfant choisit son départ, trace ses sauts, et +10 +10 +5 s’écrit tout seul. Gratuit, sans inscription."
   },
+  "part-whole-frame": {
+    "slug": "decomposer-les-nombres",
+    "name": "Décomposer les nombres",
+    "tagline": "Un tout, deux parts — et le tout ne change jamais.",
+    "about": [
+      "Décomposer les nombres met la décomposition au tableau. En haut, le nombre repose dans le nid ; en dessous, deux plateaux portent les parts. Un enfant prend un jeton dans un plateau et le fait passer de l’autre côté : les deux parts changent, le nombre du haut ne bouge pas. C’est toute la leçon, et elle tient au matériel lui-même — on ne peut ni ajouter ni retirer un jeton, donc les parts ne peuvent pas cesser de faire le tout.",
+      "Il n’y a rien à corriger ici, parce que toute décomposition d’un nombre est juste. Six, c’est quatre et deux, et c’est aussi cinq et un. Un enfant qui déplace les jetons ne cherche pas une bonne réponse : il découvre qu’un nombre est fait de nombres plus petits, l’idée qui réunit l’addition et la soustraction. Le tableau ne note rien, ne compte aucun point et ne déclare jamais une décomposition fausse.",
+      "Un tissu recouvre le nid ou l’un des plateaux, et le même tableau devient les trois questions que l’on pose vraiment en classe : combien en tout, et combien sont cachés ? Les nombres jusqu’à dix, les trois caches, la décomposition dite à voix haute et l’écriture chiffrée sont gratuits. Les nombres jusqu’à vingt, le relevé de toutes les façons trouvées et l’impression font partie de l’offre Enseignant."
+    ],
+    "howToUse": [
+      "Affichez le tableau au vidéoprojecteur et réglez le nombre du jour avec plus et moins — un nombre est déjà chargé.",
+      "Invitez un enfant à venir faire passer un jeton. Toucher le plateau fait la même chose que glisser : cela marche au tableau comme sur tablette.",
+      "Dites la décomposition ensemble à chaque fois : six, c’est quatre et deux. Avec « Dire à voix haute », le tableau la dit avec vous.",
+      "Recouvrez un plateau et demandez combien de jetons sont cachés. Recouvrez plutôt le nid et demandez combien il y en a en tout.",
+      "N’activez « Afficher l’écriture » que lorsque l’image est en place — d’abord les jetons, ensuite les chiffres."
+    ],
+    "classroomIdeas": [
+      "Gardez le même nombre toute une semaine : lundi c’est six, et chaque matin un enfant différent trouve une autre décomposition.",
+      "Recouvrez un plateau avant que l’enfant ne fasse passer le jeton, pour que la classe déduise ce qui a changé sans le voir.",
+      "Demandez une décomposition, puis celle d’à côté : si six c’est quatre et deux, que se passe-t-il avec un jeton de plus ?",
+      "Placez deux décompositions côte à côte dans le relevé et demandez ce qui reste pareil — c’est là que le motif apparaît."
+    ],
+    "metaTitle": "Décomposer les nombres — le tout et les parts | Gratuit",
+    "metaDescription": "Décomposition des nombres au CP : faites passer un jeton, le tout ne change pas. Cachez le tout ou une part, écoutez la décomposition. Gratuit, sans compte."
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

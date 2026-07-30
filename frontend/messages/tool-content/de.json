@@ -727,6 +727,31 @@
     "metaTitle": "Rechenstrich online – leerer Zahlenstrahl | Kostenlos",
     "metaDescription": "Rechenstrich für Klasse 2: Startzahl wählen, Sprünge ziehen – Bögen und +10 schreiben sich selbst. Der Rechenweg wird sichtbar. Kostenlos, ohne Anmeldung."
   },
+  "part-whole-frame": {
+    "slug": "zahlen-zerlegen",
+    "name": "Zahlen zerlegen",
+    "tagline": "Ein Ganzes, zwei Teile — und das Ganze bleibt gleich.",
+    "about": [
+      "„Zahlen zerlegen“ bringt die Zahlzerlegung an die Tafel. Oben im Nest liegt die Zahl, darunter halten zwei Schalen die Teile. Ein Kind nimmt ein Plättchen aus einer Schale und trägt es hinüber: die beiden Teile verändern sich, die Zahl oben nicht. Genau das ist die Einsicht, und sie steckt im Material selbst — es gibt keine Möglichkeit, ein Plättchen hinzuzufügen oder wegzunehmen, also kann die Summe der Teile gar nicht vom Ganzen abweichen.",
+      "Es gibt hier nichts zu kontrollieren, denn jede Zerlegung einer Zahl ist richtig. Sechs ist vier und zwei, sechs ist auch fünf und eins. Ein Kind, das Plättchen hin und her schiebt, rät nicht nach einer Lösung, sondern erfährt, dass eine Zahl aus kleineren Zahlen besteht — die Einsicht, die Plus und Minus zu einer Sache macht statt zu zweien. Die Tafel bewertet nichts, zählt keine Punkte und nennt keine Zerlegung falsch.",
+      "Ein Tuch deckt das Nest oder eine der beiden Schalen zu, und aus derselben Tafel werden die drei Fragen, die im Unterricht wirklich gestellt werden: Wie viele sind es zusammen, und wie viele sind versteckt? Zahlen bis zehn, alle drei Abdeckungen, die gesprochene Zerlegung und die Schreibweise sind kostenlos. Zahlen bis zwanzig, die Übersicht aller gefundenen Zerlegungen und die Druckvorlage gehören zum Lehrer-Paket."
+    ],
+    "howToUse": [
+      "Öffnen Sie die Tafel am Beamer und stellen Sie mit Plus und Minus die Zahl des Tages ein — eine Zahl ist bereits geladen.",
+      "Lassen Sie ein Kind nach vorn kommen und ein Plättchen hinübertragen. Antippen wirkt genauso wie Ziehen, also funktioniert es am Whiteboard und am Tablet.",
+      "Sprechen Sie die Zerlegung jedes Mal gemeinsam: sechs ist vier und zwei. Mit „Laut vorlesen“ spricht die Tafel mit.",
+      "Decken Sie eine Schale mit dem Tuch zu und fragen Sie, wie viele versteckt sind. Decken Sie stattdessen das Nest zu und fragen Sie nach dem Ganzen.",
+      "Schalten Sie „Als Rechnung zeigen“ erst dann ein, wenn die Vorstellung sitzt — zuerst die Plättchen, dann die Zahlen."
+    ],
+    "classroomIdeas": [
+      "Halten Sie eine Woche lang dieselbe Zahl fest: Montag ist die Sechs, und jeden Morgen findet ein anderes Kind eine andere Zerlegung.",
+      "Decken Sie eine Schale zu, bevor das Kind ein Plättchen hinüberträgt — die Klasse muss herausfinden, was sich verändert hat, ohne es zu sehen.",
+      "Fragen Sie nach einer Zerlegung und dann nach der benachbarten: Wenn sechs vier und zwei ist, was passiert bei einem Plättchen mehr?",
+      "Stellen Sie zwei Zerlegungen nebeneinander und fragen Sie, was gleich geblieben ist — dort zeigt sich das Muster der Zerlegungen."
+    ],
+    "metaTitle": "Zahlen zerlegen — Zahlzerlegung an der Tafel | Kostenlos",
+    "metaDescription": "Zahlzerlegung für Klasse 1: ein Plättchen hinübertragen, das Ganze bleibt gleich. Nest oder Teil zudecken, Zerlegung hören. Kostenlos, ohne Anmeldung."
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

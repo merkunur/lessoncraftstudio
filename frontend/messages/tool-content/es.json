@@ -726,6 +726,31 @@
     "metaTitle": "Recta numérica abierta gratis | LessonCraftStudio",
     "metaDescription": "Una recta numérica abierta y gratuita, sin marcas: el niño elige dónde empieza, arrastra cada salto y la recta anota +10 o −5 sola. Sin registro."
   },
+  "part-whole-frame": {
+    "slug": "descomponer-numeros",
+    "name": "Descomponer números",
+    "tagline": "Un todo, dos partes — y el todo nunca cambia.",
+    "about": [
+      "Descomponer números lleva la descomposición al proyector. Arriba, el número descansa en el nido; debajo, dos bandejas sostienen las partes. Un niño toma una ficha de una bandeja y la pasa al otro lado: las dos partes cambian, el número de arriba no. Esa es toda la lección, y está en el material mismo — no se puede añadir ni quitar una ficha, así que las partes no pueden dejar de formar el todo.",
+      "Aquí no hay nada que revisar, porque toda descomposición de un número es correcta. Seis es cuatro y dos, y también es cinco y uno. Un niño que mueve fichas de un lado a otro no está adivinando una respuesta: está descubriendo que un número está hecho de números más pequeños, la idea que convierte la suma y la resta en una sola cosa. El tablero no califica, no cuenta puntos y nunca dice que una descomposición está mal.",
+      "Un paño tapa el nido o cualquiera de las bandejas, y el mismo tablero se convierte en las tres preguntas que de verdad se hacen en clase: ¿cuántos hay en total y cuántos están escondidos? Los números hasta diez, las tres tapas, la descomposición dicha en voz alta y la escritura son gratis. Los números hasta veinte, el registro de todas las maneras encontradas y la impresión son parte del plan Docente."
+    ],
+    "howToUse": [
+      "Proyecte el tablero y ajuste el número de hoy con más y menos — ya viene con un número puesto.",
+      "Pida a un niño que pase al frente y lleve una ficha al otro lado. Tocar la bandeja hace lo mismo que arrastrar, así que sirve en el pizarrón y en la tableta.",
+      "Digan juntos la descomposición cada vez: seis es cuatro y dos. Con « Decirlo en voz alta » el tablero la dice con ustedes.",
+      "Tape una bandeja y pregunte cuántas fichas están escondidas. Tape mejor el nido y pregunte cuántas hay en total.",
+      "Active « Mostrar la escritura » sólo cuando la imagen ya esté clara — primero las fichas, después los números."
+    ],
+    "classroomIdeas": [
+      "Deje el mismo número toda la semana: el lunes es el seis, y cada mañana un niño distinto encuentra otra manera.",
+      "Tape una bandeja antes de que el niño pase la ficha, para que el grupo deduzca qué cambió sin verlo.",
+      "Pida una descomposición y luego la de al lado: si seis es cuatro y dos, ¿qué pasa con una ficha más?",
+      "Ponga dos descomposiciones juntas en el registro y pregunte qué quedó igual — ahí aparece el patrón."
+    ],
+    "metaTitle": "Descomponer números — el todo y las partes | Gratis",
+    "metaDescription": "Descomposición de números para primero: pasa una ficha y el todo no cambia. Tapa el todo o una parte y escucha la descomposición. Gratis y sin cuenta."
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

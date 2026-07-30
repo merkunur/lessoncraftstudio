@@ -751,6 +751,31 @@
     "metaTitle": "Descomponer números — el todo y las partes | Gratis",
     "metaDescription": "Descomposición de números para primero: pasa una ficha y el todo no cambia. Tapa el todo o una parte y escucha la descomposición. Gratis y sin cuenta."
   },
+  "dictation-desk": {
+    "slug": "dictado",
+    "name": "El pupitre de dictado",
+    "tagline": "Tú dices la palabra, ellos la escriben — y luego se destapa, sílaba a sílaba.",
+    "about": [
+      "El pupitre de dictado es la otra mitad del trabajo con la escritura. Casi siempre los niños leen palabras en la pantalla; aquí escriben una y después descubren si está bien. Tú dices la palabra, el grupo la escribe en el papel, y con un toque la palabra se destapa en el pizarrón, un pedazo a la vez — y las sílabas llegan enteras, porque así se lee y se escribe en español.",
+      "En esta herramienta no se escribe nada y nada se califica. El cuaderno del niño es la respuesta: la revisión es inmediata, privada y suya — por eso sí la mira. Y como la palabra aparece por partes, el niño no descubre solamente QUE se equivocó, sino DÓNDE, que es la diferencia entre una corrección y una clase.",
+      "Las letras que se escriben pero no se oyen tienen su momento al final: se ven, nunca se pronuncian. Los conjuntos de palabras vienen de la misma colección verificada que usa la herramienta Cajas de sonidos, así que los pedazos son los de un método real y no una suposición. Todo eso es gratis; los conjuntos siguientes, tus propias listas de la semana y la hoja para imprimir son parte del plan Docente."
+    ],
+    "howToUse": [
+      "Proyecta el pupitre y elige un conjunto de palabras. Todavía no se ve nada — la pizarra está tapada, y eso es lo que lo vuelve un dictado.",
+      "Toca « Decir la palabra ». Dale al grupo todo el tiempo que necesite para escribirla; el pupitre nunca avanza solo.",
+      "Toca « Descubrir uno » y pronuncien juntos el pedazo en cuanto aparece. Y así, uno por uno.",
+      "Deja que cada niño compare con su propio cuaderno. No recojas nada ni preguntes quién la tuvo bien — la revisión callada es todo el mecanismo.",
+      "« Siguiente palabra » cuando el grupo esté listo. « Decirla otra vez » está para quien necesita oírla de nuevo."
+    ],
+    "classroomIdeas": [
+      "Cinco palabras al empezar cada clase de escritura, del conjunto que corresponde a lo que enseñaste la semana pasada.",
+      "Antes de destapar, pregunta cuántas sílabas creen que tiene y cuenten juntos los cuadros tapados.",
+      "Cuando al final aparezca una letra que no se oye, pregunta quién se acordó de ella — no quién tuvo la palabra bien.",
+      "Pon tu propia lista en « Mis palabras » y marca qué letras van juntas, para que el pupitre parta tus palabras como tú las enseñas."
+    ],
+    "metaTitle": "Pupitre de dictado — dictado en el pizarrón | Gratis",
+    "metaDescription": "Dictado para primero y segundo: dices la palabra, el grupo la escribe en el papel y luego se destapa sílaba a sílaba. Cada quien se revisa. Sin calificar."
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

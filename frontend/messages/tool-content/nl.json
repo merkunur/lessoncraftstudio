@@ -751,6 +751,31 @@
     "metaTitle": "Splitsen — splitsbord voor groep 3 | Gratis digibord",
     "metaDescription": "Gratis splitsbord voor groep 3: schuif één fiche over en het geheel blijft gelijk. Dek het geheel of een deel af, hoor de splitsing. Geen scores, geen account."
   },
+  "dictation-desk": {
+    "slug": "dictee",
+    "name": "De dicteetafel",
+    "tagline": "U zegt het woord, zij schrijven het — en dan gaat het open, klank voor klank.",
+    "about": [
+      "De dicteetafel is de andere helft van het spellingonderwijs. Meestal lezen kinderen woorden van een scherm; hier schrijven ze er één op en komen ze er daarna achter of het klopt. U zegt het woord, de klas schrijft het op papier, en met één tik gaat het woord op het bord open — klank voor klank, en tweetekenklanken als eu, ui en oe komen in één keer, want dat zijn elk één klank.",
+      "In dit gereedschap wordt niets ingetypt en niets wordt nagekeken. Het eigen schrift is het antwoord: de controle is meteen, privé en van het kind zelf — en daarom kijkt het er ook echt naar. En doordat het woord in stukjes verschijnt, ontdekt een kind niet alleen DAT het fout ging, maar WAAR, en dat is het verschil tussen een verbetering en een les.",
+      "Letters die je wel schrijft maar niet hoort, krijgen aan het eind hun eigen moment: zichtbaar, nooit uitgesproken. De woordensets komen uit dezelfde gecontroleerde verzameling als het gereedschap Klankdozen, dus de stukjes zijn die van een echte leerlijn en niet gegokt. Dat alles is gratis; de latere woordensets, uw eigen weeklijsten en het printblad horen bij het Leerkracht-pakket."
+    ],
+    "howToUse": [
+      "Zet de tafel op het digibord en kies een woordenset. Er is nog niets te zien — het bordje is afgedekt, en dat maakt het juist een dictee.",
+      "Tik op „Zeg het woord”. Geef de klas alle tijd om het op papier te schrijven; de tafel gaat nooit vanzelf verder.",
+      "Tik op „Eén openmaken” en zeg het stukje samen hardop zodra het verschijnt. En zo verder, stukje voor stukje.",
+      "Laat elk kind met het eigen schrift vergelijken. Haal niets op en vraag niet wie het goed had — die stille zelfcontrole is het hele idee.",
+      "„Volgend woord” als de klas zover is. „Zeg het nog eens” is er voor het kind dat het een tweede keer nodig heeft."
+    ],
+    "classroomIdeas": [
+      "Vijf woorden aan het begin van elke spellingles, uit de set die past bij wat u vorige week hebt aangeboden.",
+      "Vraag vóór het openmaken hoeveel klanken ze denken te horen, en tel dan samen de afgedekte vakjes.",
+      "Als er aan het eind een stille letter verschijnt: vraag wie eraan gedacht had — niet wie het woord goed had.",
+      "Zet uw eigen weeklijst bij „Mijn woorden” en markeer welke letters bij elkaar horen, zodat de tafel uw woorden verdeelt zoals u ze aanbiedt."
+    ],
+    "metaTitle": "Dicteetafel — dictee op het digibord | Gratis",
+    "metaDescription": "Dictee voor groep 3 en 4: u zegt het woord, de klas schrijft het op papier en daarna gaat het klank voor klank open. Ieder kind kijkt zelf na. Geen cijfers."
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

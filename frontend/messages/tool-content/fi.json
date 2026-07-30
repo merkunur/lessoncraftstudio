@@ -729,6 +729,31 @@
     "metaTitle": "Luvun hajotelma — kokonaisuus ja osat | Maksuton",
     "metaDescription": "Luvun hajottaminen 1. luokalla: siirrä yksi nappula, kokonaisuus pysyy samana. Peitä kokonaisuus tai osa ja kuule hajotelma. Maksuton, ilman tiliä."
   },
+  "dictation-desk": {
+    "slug": "sanelu",
+    "name": "Sanelupulpetti",
+    "tagline": "Sinä sanot sanan, he kirjoittavat sen — ja sitten se paljastuu tavu kerrallaan.",
+    "about": [
+      "Sanelupulpetti on oikeinkirjoituksen toinen puolisko. Suurimman osan ajasta lapset lukevat sanoja ruudulta; täällä he kirjoittavat yhden ja saavat sitten tietää, menikö se oikein. Sinä sanot sanan, luokka kirjoittaa sen paperille, ja yhdellä napautuksella sana paljastuu taululla — osa kerrallaan, ja tavut tulevat kokonaisina, koska suomea luetaan ja kirjoitetaan tavu tavulta.",
+      "Tähän työkaluun ei kirjoiteta mitään eikä se tarkista mitään. Lapsen oma vihko on vastaus: tarkistus tapahtuu heti, rauhassa ja se kuuluu lapselle itselleen — ja juuri siksi hän todella katsoo. Ja koska sana ilmestyy osissa, lapsi ei huomaa vain ETTÄ meni väärin, vaan MISSÄ, ja siinä on ero korjauksen ja oppitunnin välillä.",
+      "Kirjaimet, jotka kirjoitetaan mutta joita ei kuulla, saavat lopussa oman hetkensä: ne näkyvät, mutta niitä ei koskaan sanota. Sanajoukot tulevat samasta tarkistetusta kokoelmasta, jota Äännelaatikot-työkalu käyttää, joten osat ovat oikean lukemaan opettamisen osia eivätkä arvaus. Kaikki tämä on maksutonta; myöhemmät sanajoukot, omat viikkolistasi ja tulostettava sanelupohja kuuluvat Opettaja-tilaukseen."
+    ],
+    "howToUse": [
+      "Heijasta pulpetti ja valitse sanajoukko. Mitään ei vielä näy — taulu on peitossa, ja juuri se tekee siitä sanelun.",
+      "Napauta „Sano sana“. Anna luokalle kaikki tarvittava aika kirjoittaa se paperille; pulpetti ei koskaan etene itsestään.",
+      "Napauta „Paljasta yksi“ ja sanokaa osa yhdessä ääneen heti kun se ilmestyy. Ja niin edelleen, osa kerrallaan.",
+      "Anna jokaisen lapsen verrata omaan vihkoonsa. Älä kerää mitään äläkä kysy, kuka sai oikein — hiljainen itsetarkistus on koko idea.",
+      "„Seuraava sana“, kun luokka on valmis. „Sano uudelleen“ on sitä lasta varten, joka tarvitsee kuulla sen toisen kerran."
+    ],
+    "classroomIdeas": [
+      "Viisi sanaa jokaisen oikeinkirjoitustunnin aluksi, siitä sanajoukosta, joka vastaa viime viikolla opetettua.",
+      "Kysy ennen paljastamista, montako tavua he arvelevat sanassa olevan, ja laskekaa sitten peitetyt ruudut yhdessä.",
+      "Kun lopussa ilmestyy kirjain, jota ei kuulla: kysy, kuka muisti sen — ei sitä, kenellä koko sana oli oikein.",
+      "Lisää oma viikkolistasi kohtaan „Omat sanat“ ja merkitse, mitkä kirjaimet kuuluvat yhteen, niin pulpetti jakaa sanasi niin kuin sinä ne opetat."
+    ],
+    "metaTitle": "Sanelupulpetti — sanelu taululla | Maksuton",
+    "metaDescription": "Sanelu 1.–2. luokalle: sanot sanan, luokka kirjoittaa sen paperille ja sitten se paljastuu tavu kerrallaan. Jokainen tarkistaa itse. Ei arvosanoja."
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

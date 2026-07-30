@@ -751,6 +751,31 @@
     "metaTitle": "Décomposer les nombres — le tout et les parts | Gratuit",
     "metaDescription": "Décomposition des nombres au CP : faites passer un jeton, le tout ne change pas. Cachez le tout ou une part, écoutez la décomposition. Gratuit, sans compte."
   },
+  "dictation-desk": {
+    "slug": "la-dictee",
+    "name": "Le pupitre de dictée",
+    "tagline": "Vous dites le mot, ils l’écrivent — puis il se découvre, son par son.",
+    "about": [
+      "Le pupitre de dictée est l’autre moitié de l’étude du code. La plupart du temps les enfants lisent des mots à l’écran ; ici ils en écrivent un, puis découvrent s’il est juste. Vous dites le mot, la classe l’écrit sur le papier, et vous touchez une fois : le mot se découvre au tableau, une unité à la fois — et les graphies de deux ou trois lettres arrivent d’un seul bloc, parce que ch et ou et eau sont chacune un seul son.",
+      "On ne tape rien dans cet outil et rien n’est corrigé par lui. Le cahier de l’enfant est le corrigé : la vérification est immédiate, privée, et lui appartient — c’est pour cela qu’il la regarde vraiment. Et comme le mot apparaît par morceaux, l’enfant ne découvre pas seulement QU’il s’est trompé, mais OÙ, ce qui fait toute la différence entre une correction et une leçon.",
+      "Les lettres qu’on écrit sans les entendre ont leur moment à la fin : affichées, jamais prononcées. C’est précisément là que se jouent les points en français — le t de chat, le s de tapis, le e de lune. Les séries de mots viennent de la même base vérifiée que l’outil Boîtes à sons. Tout cela est gratuit ; les séries suivantes, vos propres listes de la semaine et la fiche à imprimer font partie de l’offre Enseignant."
+    ],
+    "howToUse": [
+      "Affichez le pupitre au vidéoprojecteur et choisissez une série. Rien n’apparaît encore — l’ardoise est couverte, et c’est ce qui en fait une dictée.",
+      "Touchez « Dire le mot ». Laissez à la classe tout le temps d’écrire sur le papier ; le pupitre n’avance jamais tout seul.",
+      "Touchez « Découvrir un » et prononcez l’unité avec la classe au moment où elle apparaît. Puis la suivante, une par une.",
+      "Laissez chaque enfant comparer avec son propre cahier. Ne ramassez rien et ne demandez pas qui a juste — l’auto-vérification silencieuse est tout le mécanisme.",
+      "« Mot suivant » quand la classe est prête. « Redire le mot » est là pour l’enfant qui a besoin de l’entendre encore."
+    ],
+    "classroomIdeas": [
+      "Cinq mots au début de chaque séance d’orthographe, pris dans la série qui correspond à ce que vous avez étudié la semaine passée.",
+      "Avant de découvrir, demandez combien de sons ils entendent, puis comptez ensemble les cases couvertes.",
+      "Quand une lettre muette apparaît à la fin, demandez qui y avait pensé — pas qui avait le mot juste. C’est cela qui mérite d’être nommé.",
+      "Mettez votre propre liste dans « Mes mots » et marquez les lettres qui vont ensemble, pour que le pupitre découpe vos mots comme vous les enseignez."
+    ],
+    "metaTitle": "Pupitre de dictée — dictée au tableau | Gratuit",
+    "metaDescription": "Dictée pour le CP et le CE1 : vous dites le mot, la classe l’écrit sur le papier, puis il se découvre son par son. Chacun se corrige seul. Rien n’est noté."
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

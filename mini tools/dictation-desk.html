@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Dictation Desk — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=18">
+</head>
+<body>
+  <!-- The shell mounts the whole tool into this element. -->
+  <div id="lcs-root"></div>
+
+  <!-- Shell, then this tool. Absolute /mini-tools/ paths so embeds and
+       cross-context loads resolve identically. No core import: the word
+       data is READ at runtime from sound-boxes-bank-<locale>.json, which
+       is already served for Sound Boxes and is never written by this
+       tool. A three-word fallback ships inline so a 404 leaves a working
+       desk rather than an empty one. -->
+  <script src="/mini-tools/lcs-shell.js?v=4"></script>
+  <script src="/mini-tools/dictation-desk.js?v=1"></script>
+  <script>
+    // URL params the shell understands:
+    //   ?lang=de  ?lang=fi  (any of: en de fr it es pt nl sv da no fi)
+    //   ?embed=1        — trim chrome for iframe embedding
+    //   ?embed=compact  — also drop the title, for tightly-cropped iframes
+    // This tool takes no deep link of its own, deliberately: a link that
+    // pre-selected a word would let the word travel ahead of the teacher
+    // saying it, and a dictation whose word arrives in the URL is not a
+    // dictation.
+    LCS.mount(DictationDesk, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

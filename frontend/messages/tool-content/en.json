@@ -752,6 +752,31 @@
     "metaTitle": "Number Bonds Board — Whole and Parts | Free K-1 Tool",
     "metaDescription": "A free number bonds board for K-1: carry one counter across and watch the whole stay the same. Cover the whole or a part, hear the split spoken. No scores."
   },
+  "dictation-desk": {
+    "slug": "dictation-desk",
+    "name": "Dictation Desk",
+    "tagline": "You say the word, they write it — then it uncovers itself, one sound at a time.",
+    "about": [
+      "Dictation Desk is the other half of phonics. Children spend most of the week reading words off a screen; this is where they write one down and find out whether they got it right. You say a word, the class writes it on paper, and then you tap once and the word uncovers itself on the board — one spelling unit at a time, with the two-letter ones arriving whole, because sh and ck and ng are each one sound and that is the whole point.",
+      "Nothing is typed into this tool and nothing is marked. The child's own paper is the answer key, so the correction is private, immediate, and belongs entirely to them — which is why they will actually look at it. And because the word appears in pieces rather than all at once, a child does not just learn that they spelled it wrong; they see exactly where it went wrong, which is the difference between a correction and a lesson.",
+      "Letters that are written but not heard get their own moment at the end, shown and never sounded — the silent e in mouse, the silent letters that decide half the marks in French. The word sets come from the same verified bank the Sound Boxes tool uses, so the spelling units are the ones a phonics scheme would use, not a guess. All of that is free; the later word sets, your own weekly lists, and the printable dictation sheet come with the Teacher plan."
+    ],
+    "howToUse": [
+      "Put it on the board and pick a word set. Nothing is showing yet — the slate is covered, which is what makes it a dictation.",
+      "Press Say the word. Give the class as long as they need to write it on paper; the tool never advances by itself.",
+      "Press Uncover one, and read the part out loud with the class as it lands. Keep going, one part at a time.",
+      "Let the children check their own paper. Do not collect anything and do not ask who got it right — the private check is the entire mechanism.",
+      "Press Next word when the room is ready. Say it again is there for the child who needs it a second or third time."
+    ],
+    "classroomIdeas": [
+      "Do five words at the start of the phonics lesson, every day, from the set that matches what you taught last week.",
+      "Before uncovering, ask how many sounds they think the word has, then count the covered squares together.",
+      "When a silent letter appears at the end, ask who remembered it — not who got the word right. That is the part worth naming.",
+      "Put your own spelling list in under My words and mark which letters go together, so the tool breaks your words the way you teach them."
+    ],
+    "metaTitle": "Dictation Desk — Spelling Check for K-2 | Free Tool",
+    "metaDescription": "A free dictation tool for K-2: say the word, the class writes it on paper, then it uncovers one sound at a time so each child checks their own. Nothing is marked."
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

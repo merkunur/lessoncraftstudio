@@ -751,6 +751,31 @@
     "metaTitle": "Scomporre i numeri — l’intero e le parti | Gratis",
     "metaDescription": "Scomposizione dei numeri in prima: sposta un gettone e l’intero resta uguale. Copri l’intero o una parte, ascolta la scomposizione. Gratis, senza account."
   },
+  "dictation-desk": {
+    "slug": "dettato",
+    "name": "Il banco del dettato",
+    "tagline": "Tu dici la parola, loro la scrivono — poi si scopre, un pezzo alla volta.",
+    "about": [
+      "Il banco del dettato è l’altra metà del lavoro sull’ortografia. Di solito i bambini leggono le parole sullo schermo; qui ne scrivono una e poi scoprono se è giusta. Tu dici la parola, la classe la scrive sul foglio, e con un tocco la parola si scopre alla lavagna, un pezzo alla volta — e le sillabe arrivano intere, perché è così che si legge e si scrive in italiano.",
+      "In questo strumento non si digita niente e niente viene corretto. Il quaderno del bambino è la soluzione: il controllo è immediato, privato e suo — ed è per questo che lo guarda davvero. E poiché la parola compare a pezzi, il bambino non scopre solo CHE ha sbagliato, ma DOVE, che è la differenza fra una correzione e una lezione.",
+      "Le lettere che si scrivono ma non si sentono hanno il loro momento alla fine: mostrate, mai pronunciate. I gruppi di parole vengono dalla stessa raccolta verificata dello strumento Scatole dei suoni, quindi i pezzi sono quelli di un percorso vero e non un’ipotesi. Tutto questo è gratuito; i gruppi successivi, le tue liste settimanali e la scheda da stampare fanno parte del piano Insegnante."
+    ],
+    "howToUse": [
+      "Proietta il banco e scegli un gruppo di parole. Non si vede ancora niente — la lavagnetta è coperta, ed è questo che lo rende un dettato.",
+      "Tocca « Di’ la parola ». Lascia alla classe tutto il tempo di scriverla sul foglio; il banco non avanza mai da solo.",
+      "Tocca « Scopri uno » e pronuncia il pezzo insieme alla classe appena compare. Poi il successivo, uno alla volta.",
+      "Lascia che ogni bambino confronti con il proprio quaderno. Non ritirare niente e non chiedere chi ha fatto giusto — il controllo silenzioso è tutto il meccanismo.",
+      "« Parola successiva » quando la classe è pronta. « Ripeti la parola » è per chi ha bisogno di sentirla una seconda volta."
+    ],
+    "classroomIdeas": [
+      "Cinque parole all’inizio di ogni lezione di ortografia, dal gruppo che corrisponde a quello che hai spiegato la settimana scorsa.",
+      "Prima di scoprire, chiedi quante sillabe pensano che ci siano, poi contate insieme le caselle coperte.",
+      "Quando alla fine compare una lettera muta, chiedi chi se l’era ricordata — non chi aveva la parola giusta.",
+      "Metti la tua lista in « Le mie parole » e segna quali lettere stanno insieme, così il banco divide le tue parole come le insegni tu."
+    ],
+    "metaTitle": "Il banco del dettato — dettato alla lavagna | Gratis",
+    "metaDescription": "Dettato per la prima e la seconda: dici la parola, la classe la scrive sul foglio, poi si scopre un pezzo alla volta. Ognuno si corregge da sé. Niente voti."
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

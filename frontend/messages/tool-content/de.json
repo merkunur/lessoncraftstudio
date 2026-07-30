@@ -752,6 +752,31 @@
     "metaTitle": "Zahlen zerlegen — Zahlzerlegung an der Tafel | Kostenlos",
     "metaDescription": "Zahlzerlegung für Klasse 1: ein Plättchen hinübertragen, das Ganze bleibt gleich. Nest oder Teil zudecken, Zerlegung hören. Kostenlos, ohne Anmeldung."
   },
+  "dictation-desk": {
+    "slug": "diktat",
+    "name": "Diktat-Pult",
+    "tagline": "Sie sagen das Wort, die Kinder schreiben es — dann deckt es sich Laut für Laut auf.",
+    "about": [
+      "Das Diktat-Pult ist die andere Hälfte des Rechtschreibunterrichts. Meistens lesen Kinder Wörter vom Bildschirm ab; hier schreiben sie eines auf und erfahren danach, ob es stimmt. Sie sagen das Wort, die Klasse schreibt es aufs Papier, und dann tippen Sie einmal: Das Wort deckt sich an der Tafel auf, Baustein für Baustein — und mehrgliedrige Grapheme wie sch, ch oder ei kommen als EIN Stück, weil sie ein Laut sind. Genau darum geht es.",
+      "In dieses Werkzeug wird nichts eingetippt und nichts wird bewertet. Das eigene Heft ist die Lösung, die Korrektur bleibt beim Kind, und deshalb schaut es auch wirklich hin. Weil das Wort in Teilen erscheint und nicht auf einen Schlag, erfährt ein Kind nicht nur, DASS es falsch geschrieben hat, sondern WO — und das ist der Unterschied zwischen einer Korrektur und einer Einsicht.",
+      "Buchstaben, die man schreibt, aber nicht hört, bekommen am Schluss ihren eigenen Moment: sichtbar, aber ohne Ton. Die Wortsätze stammen aus derselben geprüften Sammlung wie beim Werkzeug Klangboxen, die Bausteine sind also die eines echten Lehrgangs und nicht geraten. Das alles ist kostenlos; die weiteren Wortsätze, eigene Wochenlisten und die Druckvorlage gehören zum Lehrer-Paket."
+    ],
+    "howToUse": [
+      "Öffnen Sie das Pult am Beamer und wählen Sie einen Wortsatz. Es ist noch nichts zu sehen — die Tafel ist zugedeckt, und genau das macht es zum Diktat.",
+      "Tippen Sie auf „Wort sagen“. Lassen Sie der Klasse so viel Zeit zum Schreiben, wie sie braucht; das Pult geht nie von selbst weiter.",
+      "Tippen Sie auf „Eins aufdecken“ und sprechen Sie den Baustein gemeinsam mit, sobald er erscheint. So Stück für Stück weiter.",
+      "Lassen Sie die Kinder ihr eigenes Heft vergleichen. Sammeln Sie nichts ein und fragen Sie nicht, wer es richtig hatte — die stille Selbstkontrolle ist der ganze Mechanismus.",
+      "„Nächstes Wort“, wenn die Klasse so weit ist. „Noch einmal sagen“ ist für das Kind da, das es ein zweites oder drittes Mal hören muss."
+    ],
+    "classroomIdeas": [
+      "Fünf Wörter zu Beginn jeder Rechtschreibstunde, aus dem Wortsatz, der zum Stoff der letzten Woche passt.",
+      "Fragen Sie vor dem Aufdecken, wie viele Laute das Wort wohl hat, und zählen Sie dann gemeinsam die zugedeckten Felder.",
+      "Wenn am Ende ein stummer Buchstabe auftaucht: Fragen Sie, wer an ihn gedacht hat — nicht, wer das Wort richtig hatte.",
+      "Tragen Sie Ihre eigene Wochenliste unter „Meine Wörter“ ein und markieren Sie, welche Buchstaben zusammengehören, damit das Pult Ihre Wörter so zerlegt, wie Sie sie unterrichten."
+    ],
+    "metaTitle": "Diktat-Pult — Diktat an der Tafel | Kostenlos",
+    "metaDescription": "Diktat für Klasse 1 und 2: Wort ansagen, die Klasse schreibt aufs Papier, dann deckt es sich Laut für Laut auf. Jedes Kind vergleicht selbst. Ohne Bewertung."
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

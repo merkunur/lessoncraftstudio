@@ -21,7 +21,7 @@
     </script>
 
     <!-- Enhancement Scripts -->
-    <script src="js/translations-drawing-lines.js?v=de-i18n-1"></script>
+    <script src="js/translations-drawing-lines.js?v=i18n-parity-2"></script>
     <script src="js/translations-shared.js?v=10"></script>
     <script src="js/bulletproof-loader.js"></script>
     <script src="js/unified-language-manager.js"></script>
@@ -1034,11 +1034,16 @@
 // Use the global currentLocale that was set in the head
 let currentLocale = window.currentLocale || 'en';
 
-// Translation function - uses DRAWING_LINES_TRANSLATIONS or falls back to window.translations
+// Translation function - uses DRAWING_LINES_TRANSLATIONS or falls back to window.translations.
+// PER-KEY English fallback (locale -> en -> key), matching the other 32 apps. The previous
+// shape resolved the locale TABLE first and then looked the key up only in that table, so any
+// key missing from a locale rendered as the raw identifier (e.g. literally "preparingPdfWait")
+// instead of degrading to English.
 function t(key) {
     const translations = window.DRAWING_LINES_TRANSLATIONS || window.translations || {};
-    const currentTranslations = translations[currentLocale] || translations['en'] || {};
-    return currentTranslations[key] || key;
+    const table = translations[currentLocale] || {};
+    const en = translations['en'] || {};
+    return table[key] || en[key] || key;
 }
 
 // Page translation function called by UnifiedLanguageManager

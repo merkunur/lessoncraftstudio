@@ -132,6 +132,15 @@ function verifyRound(label, shape, n, cut, rot) {
       if (gap !== null) check(gap >= SEP_MIN - TOL, `${label}: candidate lines ${gap.toFixed(2)}u apart (<${SEP_MIN}) — tap targets too close at 280px`);
     }
   }
+  // 5. IN-BOUNDS — every candidate cut-line's BODY must lie inside the shape (a
+  //    cut drawn outside the figure is a render bug). Sample interior points
+  //    (skip endpoints, which legitimately touch the boundary / polygon vertices).
+  all.forEach((l) => {
+    [0.25, 0.5, 0.75].forEach((t) => {
+      const x = l.x1 + (l.x2 - l.x1) * t, y = l.y1 + (l.y2 - l.y1) * t;
+      check(pointInShape(x, y, shape, poly), `${label}: a cut line lies OUTSIDE the shape (interior point ${x.toFixed(1)},${y.toFixed(1)} not in ${shape})`);
+    });
+  });
 }
 
 let roundCount = 0;

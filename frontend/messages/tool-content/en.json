@@ -802,6 +802,31 @@
     "metaTitle": "Say It Board — First Words for a New Arrival | Free Tool",
     "metaDescription": "Free picture communication board for newly arrived K-3 children: tap a picture and the class hears it aloud in your classroom language. No assessment."
   },
+  "sorting-hoops": {
+    "slug": "sorting-hoops",
+    "name": "Sorting Hoops",
+    "tagline": "Two hoops, one hidden rule — and the hoop decides, so you can go quiet and watch them think.",
+    "about": [
+      "Sorting Hoops is two overlapping hoops on a mat. Children drag things in, and the place that matters is the middle: something that belongs in both hoops has nowhere else to go. That is the whole idea, and it is why the hoops overlap rather than sit side by side.",
+      "The part that makes it a lesson is Guess My Rule. You set a hidden rule for each hoop and the children bring things to it. The HOOP decides — it keeps what fits and lets the rest go. On the carpet a grown-up has to say “no, not that one”, and children stop thinking and start reading the grown-up's face. Here nobody judges, so you can stand back and listen to them reason. And the things the hoop let go do not disappear: they gather outside the ring, where they become the other half of the evidence. That is exactly how children crack these — as much from what is out as from what is in.",
+      "Sort thirty-two logic blocks by colour, shape or size, or sort the illustrated pictures by things a five-year-old can argue about: is it alive, did people make it, can we eat it, does it move by itself, does it live in water. The word rules are the ones no other tool has — how many beats the word has, what letter it starts with — and they work in all eleven languages, because they are built on our own gate-checked word data rather than translated from English."
+    ],
+    "howToUse": [
+      "Open it on the class screen. Two hoops, a tray of twelve things, nothing to set up.",
+      "For a free sort, leave the hoops unlabelled and let the class decide what each one is for. Unlabelled is the better lesson — they have to agree on a rule out loud before anything can go in.",
+      "For Guess My Rule, tap “Set the rules” and choose one for each hoop. The labels read “Secret” until you reveal them.",
+      "Send one child at a time to the board. Before they let go, ask the class: do you think it will go in? Nothing lights up until the item is released, so it is a real question.",
+      "When somebody says the rule out loud, tap “Show the rules” and let them check themselves."
+    ],
+    "classroomIdeas": [
+      "Start with one hoop and one rule. Add the second hoop only when the class is confident — the overlap is a big idea and it deserves its own day.",
+      "Put something in yourself, silently, when they are stuck. Placing one example is the oldest hint in this game and it costs you no words.",
+      "Ask for a thing that would go in the middle. Predicting the overlap is much harder than filling it, and it tells you who has understood.",
+      "Run it with the pictures and a word rule — how many beats, or the starting letter — and the same apparatus becomes a phonics lesson without changing anything on the screen."
+    ],
+    "metaTitle": "Sorting Hoops — Venn Sorting & Guess My Rule | Free Tool",
+    "metaDescription": "A free sorting instrument for K-2: two overlapping hoops, a hidden rule, and the hoop decides. Sort logic blocks or pictures by attribute, sound or meaning."
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

@@ -801,6 +801,31 @@
     "metaTitle": "Zegbord — eerste woorden voor nieuwkomers | Gratis tool",
     "metaDescription": "Gratis communicatiebord met plaatjes voor nieuwkomers in groep 1-4: tik op een plaatje en de klas hoort de zin hardop in de taal van het lokaal. Zonder toetsing."
   },
+  "sorting-hoops": {
+    "slug": "sorteerhoepels",
+    "name": "Sorteerhoepels",
+    "tagline": "Twee hoepels, één geheime regel — en de hoepel beslist, zodat u kunt zwijgen en luisteren hoe ze denken.",
+    "about": [
+      "Sorteerhoepels zijn twee hoepels die elkaar overlappen op een mat. Kinderen slepen er dingen in, en de plek die telt is het midden: wat in allebei de hoepels hoort, kan nergens anders heen. Dat is het hele idee, en daarom overlappen ze in plaats van naast elkaar te liggen.",
+      "Wat er een les van maakt is „Raad mijn regel“. U stelt voor elke hoepel een geheime regel in en de kinderen brengen dingen. De HOEPEL beslist: hij houdt wat past en laat de rest weer los. Op de mat moet een volwassene zeggen „nee, die niet“, en dan stoppen kinderen met denken en gaan ze het gezicht van de volwassene lezen. Hier oordeelt niemand, dus u kunt een stap terug doen en naar hun redeneren luisteren. En wat de hoepel heeft losgelaten verdwijnt niet: het verzamelt zich buiten de ring en wordt de andere helft van de aanwijzingen. Precies zo kraken kinderen zulke raadsels — net zo goed door wat erbuiten ligt als door wat erin zit.",
+      "Sorteer tweeëndertig logiblokken op kleur, vorm of grootte, of sorteer de plaatjes op vragen waar een vijfjarige over kan discussiëren: leeft het, hebben mensen het gemaakt, kun je het opeten, beweegt het uit zichzelf, leeft het in het water. De woordregels bestaan nergens anders — hoeveel klankgroepen het woord heeft, met welke letter het begint — en ze werken in alle elf talen, omdat ze op onze eigen gecontroleerde woordgegevens rusten en niet op een vertaling uit het Engels."
+    ],
+    "howToUse": [
+      "Open het op het klassenscherm. Twee hoepels, een blad met twaalf dingen, niets in te stellen.",
+      "Laat bij vrij sorteren de hoepels zonder etiket en laat de klas bepalen waar elke hoepel voor is. Zonder etiket is de les beter: ze moeten het hardop eens worden voordat er iets in kan.",
+      "Tik voor „Raad mijn regel“ op „Regels instellen“ en kies er een per hoepel. De etiketten zeggen „Geheim“ tot u ze laat zien.",
+      "Stuur één kind tegelijk naar het bord. Vraag de klas voordat het loslaat: denken jullie dat het erin gaat? Er licht niets op vóór het loslaten, dus het is een echte vraag.",
+      "Als iemand de regel hardop zegt, tikt u op „Regels laten zien“ en laat u ze het zelf nakijken."
+    ],
+    "classroomIdeas": [
+      "Begin met één hoepel en één regel. Voeg de tweede pas toe als de klas het zeker weet — de overlap is een groot idee en verdient een eigen dag.",
+      "Leg er zelf zwijgend iets in als ze vastlopen. Eén voorbeeld neerleggen is de oudste hint in dit spel en kost u geen woord.",
+      "Vraag om iets dat in het midden zou horen. De overlap voorspellen is veel moeilijker dan hem vullen, en het laat u zien wie het begrepen heeft.",
+      "Doe het met de plaatjes en een woordregel — aantal klankgroepen of de beginletter — en hetzelfde gereedschap wordt een les klankbewustzijn zonder dat er iets op het scherm verandert."
+    ],
+    "metaTitle": "Sorteerhoepels — venndiagram en raad mijn regel | Gratis gereedschap",
+    "metaDescription": "Gratis sorteergereedschap voor groep 1-4: twee overlappende hoepels, een geheime regel, en de hoepel beslist. Sorteren op kenmerk, klank of betekenis."
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

@@ -801,6 +801,31 @@
     "metaTitle": "Si-det-tavla — de første ordene for nyankomne | Gratis verktøy",
     "metaDescription": "Gratis bildekommunikasjonstavle for nyankomne barn på 1.-3. trinn: trykk på et bilde, og klassen hører setningen høyt. Uten vurdering."
   },
+  "sorting-hoops": {
+    "slug": "sorteringsringer",
+    "name": "Sorteringsringer",
+    "tagline": "To ringer, én hemmelig regel — og det er ringen som avgjør, så du kan tie og høre hvordan de tenker.",
+    "about": [
+      "Sorteringsringer er to ringer som overlapper hverandre på ei matte. Barna drar ting inn, og stedet som betyr noe er midten: det som hører hjemme i begge ringene har ingen andre steder å være. Det er hele idéen, og derfor overlapper de i stedet for å ligge ved siden av hverandre.",
+      "Det som gjør det til en leksjon er «Gjett regelen min». Du setter en hemmelig regel for hver ring, og barna kommer med ting. Det er RINGEN som avgjør: den beholder det som passer og slipper resten. På matta må en voksen si «nei, ikke den», og da slutter barna å tenke og begynner å lese ansiktet til den voksne. Her dømmer ingen, så du kan ta et skritt tilbake og høre på resonnementet. Og det ringen slapp forsvinner ikke: det samler seg utenfor og blir den andre halvdelen av sporene. Nettopp slik knekker barn slike gåter — like mye ut fra det som ligger utenfor som fra det som er inne.",
+      "Sorter trettito logiske former etter farge, form eller størrelse, eller sorter bildene etter spørsmål en femåring kan diskutere: lever den, har mennesker laget den, kan man spise den, beveger den seg selv, lever den i vann. Ordreglene finnes ingen andre steder — hvor mange stavelser ordet har, hvilken bokstav det begynner med — og de virker på alle elleve språkene, fordi de bygger på våre egne kontrollerte orddata og ikke på en oversettelse fra engelsk."
+    ],
+    "howToUse": [
+      "Åpne den på klassens skjerm. To ringer, et brett med tolv ting, ingenting å stille inn.",
+      "Ved fri sortering lar du ringene stå uten merkelapp og lar klassen bestemme hva hver ring er til. Uten merkelapp blir leksjonen bedre — de må bli enige høyt før noe kan legges inn.",
+      "For «Gjett regelen min» trykker du på «Velg reglene» og tar én til hver ring. Merkelappene sier «Hemmelig» til du viser dem.",
+      "Send ett barn om gangen fram til tavla. Spør klassen før barnet slipper: tror dere den kommer inn? Ingenting lyser opp før man slipper, så det er et ekte spørsmål.",
+      "Når noen sier regelen høyt, trykker du på «Vis reglene» og lar dem sjekke selv."
+    ],
+    "classroomIdeas": [
+      "Begynn med én ring og én regel. Legg til den andre først når klassen er trygg — overlappingen er en stor idé og fortjener sin egen dag.",
+      "Legg selv inn noe, i stillhet, når de står fast. Å plassere ett eksempel er det eldste hintet i dette spillet og koster deg ikke et ord.",
+      "Be om noe som ville havne i midten. Å forutsi overlappingen er mye vanskeligere enn å fylle den, og det viser deg hvem som har forstått.",
+      "Kjør den med bildene og en ordregel — antall stavelser eller forbokstav — så blir det samme redskapet en leksjon i språklig bevissthet uten at noe endrer seg på skjermen."
+    ],
+    "metaTitle": "Sorteringsringer — venndiagram og gjett regelen | Gratis verktøy",
+    "metaDescription": "Gratis sorteringsverktøy for 1.-3. trinn: to overlappende ringer, en hemmelig regel, og det er ringen som avgjør."
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

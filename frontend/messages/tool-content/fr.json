@@ -801,6 +801,31 @@
     "metaTitle": "Tableau pour se faire comprendre — élève allophone | Gratuit",
     "metaDescription": "Tableau de communication par images pour les élèves allophones en maternelle et élémentaire : l’enfant touche une image, la classe entend la phrase. Sans évaluation."
   },
+  "sorting-hoops": {
+    "slug": "cerceaux-de-tri",
+    "name": "Cerceaux de tri",
+    "tagline": "Deux cerceaux, une règle secrète — et c’est le cerceau qui décide, pour que vous puissiez vous taire et les écouter réfléchir.",
+    "about": [
+      "Les Cerceaux de tri, ce sont deux cerceaux qui se croisent sur un tapis. Les enfants y font glisser des objets, et l’endroit qui compte, c’est le milieu : ce qui appartient aux deux cerceaux n’a nulle part ailleurs où aller. C’est toute l’idée, et c’est pour cela qu’ils se croisent au lieu d’être côte à côte.",
+      "Ce qui en fait une leçon, c’est « Devine ma règle ». Vous choisissez une règle secrète par cerceau et les enfants apportent des objets. C’est le CERCEAU qui décide : il garde ce qui convient et laisse repartir le reste. Sur le tapis, il faut qu’un adulte dise « non, pas celui-là », et les enfants cessent de réfléchir pour lire le visage de l’adulte. Ici personne ne juge, vous pouvez donc reculer d’un pas et écouter leur raisonnement. Et ce que le cerceau a laissé repartir ne disparaît pas : cela s’accumule à l’extérieur et devient l’autre moitié des indices. C’est exactement ainsi que les enfants résolvent ce genre de devinette — autant par ce qui est dehors que par ce qui est dedans.",
+      "Triez trente-deux formes logiques par couleur, forme ou taille, ou triez les images selon des questions dont un enfant de cinq ans peut discuter : est-ce vivant, est-ce fabriqué par des gens, est-ce que ça se mange, est-ce que ça bouge tout seul, est-ce que ça vit dans l’eau. Les règles sur les mots n’existent nulle part ailleurs — combien de syllabes, par quelle lettre ça commence — et elles fonctionnent dans les onze langues, parce qu’elles reposent sur nos propres données vérifiées et non sur une traduction de l’anglais."
+    ],
+    "howToUse": [
+      "Ouvrez-le sur l’écran de la classe. Deux cerceaux, un plateau de douze objets, rien à installer.",
+      "Pour un tri libre, laissez les cerceaux sans étiquette et laissez la classe décider à quoi chacun sert. Sans étiquette, la leçon est meilleure : il faut se mettre d’accord à voix haute avant que quoi que ce soit puisse entrer.",
+      "Pour « Devine ma règle », touchez « Choisir les règles » et prenez-en une par cerceau. Les étiquettes affichent « Secrète » jusqu’à ce que vous les dévoiliez.",
+      "Envoyez un enfant à la fois au tableau. Avant qu’il lâche l’objet, demandez à la classe : à votre avis, est-ce que ça va entrer ? Rien ne s’allume avant le lâcher, donc c’est une vraie question.",
+      "Quand quelqu’un énonce la règle à voix haute, touchez « Montrer les règles » et laissez la classe vérifier elle-même."
+    ],
+    "classroomIdeas": [
+      "Commencez avec un seul cerceau et une seule règle. N’ajoutez le second que lorsque la classe est à l’aise : l’intersection est une grande idée et mérite sa propre séance.",
+      "Placez vous-même un objet, en silence, quand ils bloquent. Poser un exemple est le plus vieil indice de ce jeu et ne vous coûte aucun mot.",
+      "Demandez un objet qui irait au milieu. Prévoir l’intersection est bien plus difficile que la remplir, et cela vous montre qui a compris.",
+      "Lancez-le avec les images et une règle sur les mots — nombre de syllabes ou lettre initiale — et le même appareil devient une séance de phonologie sans rien changer à l’écran."
+    ],
+    "metaTitle": "Cerceaux de tri — diagramme de Venn et devine ma règle | Gratuit",
+    "metaDescription": "Outil de tri gratuit pour la maternelle et le CP : deux cerceaux qui se croisent, une règle secrète, et c’est le cerceau qui décide. Trier par attribut, son ou sens."
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

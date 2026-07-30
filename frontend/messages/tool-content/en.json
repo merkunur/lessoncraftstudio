@@ -777,6 +777,31 @@
     "metaTitle": "Dictation Desk — Spelling Check for K-2 | Free Tool",
     "metaDescription": "A free dictation tool for K-2: say the word, the class writes it on paper, then it uncovers one sound at a time so each child checks their own. Nothing is marked."
   },
+  "home-language-bridge": {
+    "slug": "say-it-board",
+    "name": "Say It Board",
+    "tagline": "A child with no words yet taps a picture, and the room hears them.",
+    "about": [
+      "Say It Board gives a newly arrived child a voice on their first morning. Twelve pictures, twelve things a five-year-old genuinely needs to be able to say — I need help, I don't understand, I need the toilet, can I play too — and one tap says it out loud, in the language of the room. It is not vocabulary teaching and it is not a test. It is a way to be heard on day one, before a single word of the new language has been learned.",
+      "The pictures come first, and that is a decision rather than a style. A drawing is understood by a child whatever they speak, so the board works for the Ukrainian, Arabic, Turkish or Somali child who arrives in a German, Swedish or Dutch classroom in November — the child this is actually for. If their home language happens to be one of our eleven you can add it, and every card then carries two lines. That is a bonus and never the premise, and when it is there the home language is printed first, at the same size and in the same colour, because a child's own language is not the smaller one.",
+      "Nothing about the child is measured. There is no level, no score, no progress bar and no count of words learned — every product in this space adds one, and it is the harmful part. The whole board is free and stays free, because a child's voice is not something to sell. Nothing is stored and nothing is sent anywhere. The Teacher plan adds the teacher's side only: a printable card for the desk or a lanyard, so the twelve phrases travel with the child when the screen does not."
+    ],
+    "howToUse": [
+      "Open it on the class screen, or hand a tablet to the child. The twelve pictures are already there — nothing to set up and nothing to choose.",
+      "The child taps a picture. The device says the whole phrase out loud in the language of your classroom, calmly, so the room hears the request rather than the accent.",
+      "If the child's home language is one of the eleven, tap “Add the child's language” once. Every card then shows both lines, home language first.",
+      "Leave it open on a tablet beside their table for the first weeks. It works best when nobody has to ask for it.",
+      "Print the card (Teacher plan) so the twelve phrases go with the child to the corridor, the playground and home."
+    ],
+    "classroomIdeas": [
+      "Show the whole class the board on the first morning and tap two or three cards together, so everyone learns what the new child will be tapping. Then it is a shared thing rather than a special thing.",
+      "Pair the child with a buddy who holds the tablet for the first week. Tapping a card together is the easiest first conversation two children who share no language can have.",
+      "Use it yourself in the other direction: tap “Where should I go?” and point, and you have explained the corridor without a word of shared language.",
+      "Put the printed card on the desk and a second one in the school bag. The phrases matter most at the moments the screen is not there — the toilet, the playground, the pick-up."
+    ],
+    "metaTitle": "Say It Board — First Words for a New Arrival | Free Tool",
+    "metaDescription": "Free picture communication board for newly arrived K-3 children: tap a picture and the class hears it aloud in your classroom language. No assessment."
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

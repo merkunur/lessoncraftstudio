@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Part–Whole Frame — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=18">
+</head>
+<body>
+  <!-- The shell mounts the whole tool into this element. -->
+  <div id="lcs-root"></div>
+
+  <!-- Shell, then this tool. Absolute /mini-tools/ paths so embeds and
+       cross-context loads resolve identically. There is no core import:
+       number-bond-core.js is deliberately NOT consumed (its CSS injector
+       is a singleton and its .nb- selectors are global, so six shipped
+       activities ride on it), and the 0-20 number words are a literal
+       copy of place-value-core's composers kept honest by a drift gate
+       rather than by a runtime dependency. -->
+  <script src="/mini-tools/lcs-shell.js?v=4"></script>
+  <script src="/mini-tools/part-whole-frame.js?v=1"></script>
+  <script>
+    // URL params the shell understands:
+    //   ?lang=de  ?lang=fi  (any of: en de fr it es pt nl sv da no fi)
+    //   ?embed=1        — trim chrome for iframe embedding
+    //   ?embed=compact  — also drop the title, for tightly-cropped iframes
+    // This tool takes no deep link of its own. The teacher sets the whole
+    // in one tap and today's number is already loaded, so there is no
+    // state worth carrying in a URL — and a link that pre-set a premium
+    // whole would leak paid content to a free visitor.
+    LCS.mount(PartWholeFrame, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

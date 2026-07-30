@@ -6,7 +6,8 @@
    Serves `mini tools/` + drives cvc-builder-activity.html with puppeteer:
      • the base (kit_) is PRE-FILLED + LOCKED — tapping a base slot does NOT clear
        it (window.CvcBuilderActivity.slotValues[0] unchanged); the wrap carries
-       .cvc-prefill (the magic-e tile is gilded);
+       .cvc-prefill (locked-slot dim ONLY — the magic-e tile is NOT gilded; all
+       palette tiles look identical so the answer isn't given away);
      • tap the magic-e "e" tile → core.feedbackMode === 'correct' after Check;
      • a wrong final letter → not correct;
      • Hear-it speaks the long-vowel target (LCSAudio spy);
@@ -88,9 +89,22 @@ function serve() {
     const prompt = await page.$eval('.lcs-activity-prompt-text', e => e.textContent.trim()).catch(() => '');
     note(prompt.length > 0 && !/^prompt[A-Z]/.test(prompt), `${tag}: raw/empty prompt "${prompt}"`);
 
-    // pre-filled base + .cvc-prefill class
+    // pre-filled base + .cvc-prefill class (kept for the locked-slot dim)
     const hasPrefillClass = await page.evaluate(() => !!document.querySelector('.cvc-wrap.cvc-prefill'));
-    note(hasPrefillClass, `${tag}: wrap missing .cvc-prefill class (gild)`);
+    note(hasPrefillClass, `${tag}: wrap missing .cvc-prefill class`);
+
+    // NO-GILD GUARD (2026-06-27): the magic-e answer tile MUST NOT be visually
+    // distinct from the distractor tiles, or the answer is given away (the gild
+    // bug). Compare the computed background of the 'e' tile to a distractor tile.
+    const gild = await page.evaluate(() => {
+      const e = document.querySelector('.cvc-letter[data-letter="e"]');
+      const other = Array.from(document.querySelectorAll('.cvc-letter')).find(t => t.getAttribute('data-letter') !== 'e');
+      if (!e || !other) return { ok: false, why: 'missing e or distractor tile' };
+      const ce = getComputedStyle(e), co = getComputedStyle(other);
+      const same = ce.backgroundImage === co.backgroundImage && ce.backgroundColor === co.backgroundColor && ce.color === co.color && ce.boxShadow === co.boxShadow;
+      return { ok: same, why: `e[bg=${ce.backgroundImage};col=${ce.color}] vs other[bg=${co.backgroundImage};col=${co.color}]` };
+    });
+    note(gild.ok, `${tag}: magic-e tile is GILDED / visually distinct — gives away the answer (${gild.why})`);
     const slotTexts = await page.$$eval('.cvc-slot', els => els.map(e => e.textContent.trim()));
     const base = target.slice(0, -1);
     note(slotTexts.slice(0, base.length).join('') === base, `${tag}: base not pre-filled (slots ${JSON.stringify(slotTexts)} vs base "${base}")`);
@@ -144,6 +158,6 @@ function serve() {
     fails.forEach(f => console.error('  • ' + f));
     process.exit(1);
   }
-  console.log(`MAGIC-E LOCAL TEST PASSED — EN: base pre-filled+locked, magic-e gilded, add-e→correct, wrong→not, Hear-it speaks the word, ≥7 reshuffle, no overflow.`);
+  console.log(`MAGIC-E LOCAL TEST PASSED — EN: base pre-filled+locked, magic-e tile NOT gilded (no answer give-away), add-e→correct, wrong→not, Hear-it speaks the word, ≥7 reshuffle, no overflow.`);
   process.exit(0);
 })().catch(e => { console.error('ERROR:', e.message); process.exit(1); });

@@ -852,6 +852,34 @@
     "metaTitle": "Zahlenwaage — das Gleichheitszeichen als Balken | Kostenlos",
     "metaDescription": "Kostenlose Zahlenwaage für die Grundschule: beide Seiten selbst bauen, den Balken kippen sehen und begreifen, dass waagerecht „gleich viel“ heißt. Ohne Bewertung."
   },
+  "pattern-bench": {
+    "slug": "musterwerkstatt",
+    "name": "Musterwerkstatt",
+    "tagline": "Ein Band aus Perlen an der Tafel, das Ihren Baustein immer weiter wiederholt, damit die Klasse über das Muster sprechen kann statt es nur weiterzulegen.",
+    "about": [
+      "Die Musterwerkstatt ist ein Tafelwerkzeug für Wiederholungsmuster. Sie legen einen Baustein aus zwei bis vier Perlen, etwa rot-blau oder rot-rot-gelb, und das Band darunter wiederholt ihn sofort über die ganze Breite der Tafel. Sie können das Band verlängern, einzelne Perlen abdecken, den Baustein verstecken und darunter eine Buchstabenreihe einblenden, die das Muster als A B A B liest. Alles ist groß genug für die Kinder in der letzten Reihe, und alles lässt sich in Sekunden umbauen, während die Klasse zusieht.",
+      "Ein Kind, das rot-blau-rot-blau weiterlegen kann, hat das Muster noch nicht unbedingt gesehen. Vielleicht wechselt es nur ab, und Abwechseln ist ein deutlich kleinerer Gedanke. Interessant wird es in dem Moment, in dem ein Kind bemerkt, dass rot-blau-rot-blau, Kreis-Quadrat-Kreis-Quadrat und klatschen-stampfen-klatschen-stampfen dasselbe Muster sind. Dann ist ein Muster keine Oberfläche mehr, sondern eine Struktur, die man von einem Material auf ein anderes überträgt. Genau dort beginnt algebraisches Denken, lange bevor ein Buchstabe für eine Zahl steht. Der Lehrplan verlangt, Muster fortzusetzen und zu beschreiben; hier geht es vor allem um das Beschreiben.",
+      "Deshalb kann das Band sein Kostüm wechseln: Farben, Formen oder Bilder zeigen dasselbe Muster in anderer Gestalt, und die Kinder prüfen, was gleich geblieben ist. Tippen Sie eine Perle an, wird sie abgedeckt, und das lohnt sich am meisten mitten im Band: Eine Lücke am Rand füllt man durch Abschauen bei der Nachbarperle, eine Lücke in der Mitte nur über den Baustein. Verstecken Sie den Baustein ganz, dreht sich die Aufgabe um, und die Klasse liest das Band, um herauszufinden, woraus es gebaut ist. Farben und Formen stehen allen offen; das Bilder-Kostüm und das Ausdrucken gehören zum Lehrer-Paket.",
+      "Es gibt keine Auswertung: keinen Haken, keine Punkte, keine Uhr. Die Musterwerkstatt entscheidet nichts, sie macht Behauptungen überprüfbar. Das zeigt sich an einer echten Streitfrage: In rot-blau-rot-blau-rot-blau lässt sich der Baustein als rot-blau lesen oder als blau-rot, und beides ist begründbar. Statt zu entscheiden, bauen Sie das Band einmal aus dem einen Vorschlag neu auf und danach aus dem anderen, und die Klasse sieht selbst, was jeweils entsteht. So klärt das Material die Frage und nicht die Lehrkraft."
+    ],
+    "howToUse": [
+      "Legen Sie einen Baustein aus zwei bis vier Perlen und lassen Sie das Band ihn wiederholen.",
+      "Lesen Sie das Band gemeinsam laut vor und lassen Sie die Kinder mitsprechen, bevor Sie etwas verändern.",
+      "Wechseln Sie das Kostüm von Farben zu Formen und fragen Sie, was sich geändert hat und was geblieben ist.",
+      "Tippen Sie eine Perle mitten im Band an und lassen Sie zwei Kinder begründen, was darunter liegt.",
+      "Verstecken Sie den Baustein und lassen Sie die Klasse aus dem Band herausfinden, woraus er besteht.",
+      "Blenden Sie zum Abschluss die Buchstabenreihe ein und vergleichen Sie A B A B mit den Perlen auf dem Band."
+    ],
+    "classroomIdeas": [
+      "Bauen Sie dasselbe Muster nacheinander in Farben und in Formen und lassen Sie die Kinder erklären, warum der Baustein derselbe bleibt. Wer das in eigenen Worten sagen kann, hat die Struktur erfasst.",
+      "Klatsch-Diktat: Sie spielen das Band nur als Töne ab, die Kinder legen den Baustein mit Steckwürfeln am Platz und vergleichen danach mit der Tafel.",
+      "Decken Sie drei Perlen mitten im Band ab und lassen Sie Partnergruppen begründen, was fehlt, bevor Sie die Perlen wieder aufdecken.",
+      "Sammeln Sie zwei Lesarten des Bausteins, etwa rot-blau und blau-rot, bauen Sie das Band aus beiden neu auf und lassen Sie die Kinder den Unterschied beschreiben.",
+      "Verlängern Sie das Band und fragen Sie nach der Farbe der zwanzigsten Perle, ohne dass jemand zählt; die Kinder argumentieren über den Baustein."
+    ],
+    "metaTitle": "Muster fortsetzen an der Tafel | kostenloses Werkzeug",
+    "metaDescription": "Musterwerkstatt: Muster fortsetzen, Bausteine verstecken und Farben, Formen oder Bilder vergleichen – ein kostenloses Tafelwerkzeug für die Klassen 1 bis 3."
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

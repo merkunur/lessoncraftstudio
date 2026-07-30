@@ -829,6 +829,34 @@
     "metaTitle": "Lukuvaaka — yhtäsuuruusmerkki vipuna | Maksuton työkalu",
     "metaDescription": "Maksuton vaaka esi- ja alkuopetukseen: rakenna molemmat puolet, katso vivun kallistuvan ja ymmärrä että suora tarkoittaa «yhtä paljon». Mitään ei arvioida."
   },
+  "pattern-bench": {
+    "slug": "kuviopaja",
+    "name": "Kuviopaja",
+    "tagline": "Rakennat osan, joka toistuu, ja jono jatkaa sitä itsestään, niin että koko ryhmä näkee kuvion rakenteen eikä vain värejä.",
+    "about": [
+      "Kuviopaja on väline taululle. Rakennat kahdesta, kolmesta tai neljästä helmestä osan, joka toistuu, ja jono jatkaa sitä itsestään näytön reunaan asti. Jonoa voi pidentää kesken työskentelyn, ja koko ryhmä näkee saman asian omalta paikaltaan. Mitään ei tarvitse jakaa pulpeteille eikä kerätä pois lopuksi: rakennat vain sen osan, joka toistuu, ja jono hoitaa loput. Väline on tarkoitettu yhteiseen keskusteluun taulun ääressä, ei yksin tehtäväksi harjoitukseksi.",
+      "Lapsi, joka osaa jatkaa punainen-sininen-punainen-sininen, ei ole välttämättä nähnyt kuviota. Hän voi vain vuorotella kahta väriä, ja se on paljon suppeampi ajatus. Ratkaiseva hetki tulee, kun lapsi huomaa, että punainen-sininen-punainen-sininen, ympyrä-neliö-ympyrä-neliö ja taputus-tömistys-taputus-tömistys ovat sama kuvio eri asussa. Silloin katse siirtyy pinnasta rakenteeseen, ja juuri siitä algebrallinen ajattelu alkaa. OPS 2014 puhuu samasta asiasta, kun se pyytää tunnistamaan ja kuvailemaan säännönmukaisuuksia.",
+      "Siksi jono voi vaihtaa asua: värit, muodot ja kuvat. Kuvio pysyy samana, vain näkyvä puoli vaihtuu, ja juuri tuo vaihto luokan edessä osoittaa lyhimmällä tavalla, että rakenne kestää. Yhtä helmeä voi napauttaa niin, että se peittyy, ja peittäminen kannattaa tehdä keskeltä: jonon päässä oleva peitetty helmi ratkeaa naapuria katsomalla, mutta keskellä oleva vain päättelemällä siitä osasta, joka toistuu. Lisäksi tuon osan voi piilottaa kokonaan, jolloin ryhmä päättelee sen itse jonoa tutkimalla. Värit ja muodot ovat maksuttomia; kuvat ja tulostus kuuluvat Opettaja-tilaukseen.",
+      "Vastauspainiketta ei ole, ei pisteitä eikä kelloa. Kun jonossa lukee ABABAB, yksi lapsi voi perustellusti sanoa, että osa, joka toistuu, on AB, ja toinen yhtä perustellusti, että se on BA. Erimielisyyttä ei ratkaise aikuinen: kumpikin rakentaa jonon uudelleen omasta ehdotuksestaan, ja ryhmä katsoo, mitä tapahtuu. Materiaali ratkaisee asian rauhassa ja kaikkien nähden. Sen oppiminen, että väitteen voi koetella, on yhtä arvokasta kuin itse kuvioiden opiskelu."
+    ],
+    "howToUse": [
+      "Rakenna osa, joka toistuu, kahdesta neljään helmestä ja anna jonon jatkaa sitä.",
+      "Pyydä ryhmää lukemaan jono ääneen ennen kuin selität mitään.",
+      "Vaihda jonon asuksi muodot ja kysy, onko kuvio yhä sama.",
+      "Peitä yksi helmi keskeltä ja pyydä lapsia perustelemaan, mikä sen alla on.",
+      "Käynnistä ääni, yksi sävel helmeä kohti, ja anna ryhmän toistaa kuvio kehollaan.",
+      "Piilota osa, joka toistuu, ja anna ryhmän päätellä se jonoa katsomalla."
+    ],
+    "classroomIdeas": [
+      "Rakenna AB-kuvio väreillä ja pyydä kolmea lasta esittämään se taputuksella ja tömistyksellä. Vaihda sitten jono muotoihin ja kysy, sopiiko sama liike edelleen.",
+      "Pidennä jonoa niin pitkäksi, ettei sitä näe kerralla, ja kysy, minkä värinen kahdeskymmenes helmi on. Anna lasten pohtia ennen kuin katsotte.",
+      "Näytä kirjainrivi jonon alla ja lukekaa A B A B osoittaen helmiä. Poista sitten kirjaimet ja toistakaa sama.",
+      "Piilota osa, joka toistuu, ja peitä samalla yksi helmi keskeltä: ryhmän on ensin päätettävä toistuva osa ja vasta sitten peitetyn helmen sisältö.",
+      "Jaa ryhmä kahtia niin, että toinen puoli puolustaa lukutapaa AB ja toinen lukutapaa BA. Kumpikin rakentaa jonon omasta ehdotuksestaan, ja jonoja verrataan."
+    ],
+    "metaTitle": "Kuviopaja – toistuvat kuviot | ilmainen työkalu",
+    "metaDescription": "Rakenna osa, joka toistuu, ja jono jatkaa itsestään. Värit, muodot ja kuvat toistuvien kuvioiden opetteluun esi- ja alkuopetuksessa."
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

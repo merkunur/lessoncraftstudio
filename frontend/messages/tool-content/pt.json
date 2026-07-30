@@ -851,6 +851,34 @@
     "metaTitle": "Balança numérica — o sinal de igual como um braço | Grátis",
     "metaDescription": "Balança gratuita para a educação infantil e anos iniciais: construir os dois lados, ver o braço pender e entender que reto quer dizer «a mesma coisa»."
   },
+  "pattern-bench": {
+    "slug": "mesa-de-padroes",
+    "name": "Mesa de padrões",
+    "tagline": "Você monta a parte que se repete e a tira continua sozinha, para a turma enxergar a estrutura do padrão e não só a cor.",
+    "about": [
+      "A Mesa de padrões é um instrumento para a lousa. Você monta com duas, três ou quatro fichas a parte que se repete, e a tira continua sozinha até o fim da tela. Dá para alongar a tira quando quiser, e a turma inteira enxerga a mesma coisa do lugar onde está sentada. Não há cartelas para distribuir nem material para recolher no fim da aula: você constrói só a parte que se repete e a tira cuida do resto.",
+      "Uma criança que continua vermelho-azul-vermelho-azul não necessariamente viu o padrão: ela pode estar apenas alternando, que é uma ideia bem menor. O salto acontece quando ela percebe que vermelho-azul-vermelho-azul, círculo-quadrado-círculo-quadrado e palma-pé-palma-pé são o mesmo padrão vestido de outro jeito. Nesse momento ela para de olhar a superfície e passa a olhar a estrutura, e é daí que nasce o pensamento algébrico. A BNCC pede exatamente isso na álgebra dos anos iniciais: reconhecer a regularidade, não decorar uma sequência de cores.",
+      "É por isso que a tira tem três roupas: cores, formas e imagens. O padrão não muda, muda só o que se vê, e trocar a roupa diante da turma é o jeito mais direto de mostrar que a estrutura se sustenta. Você pode também cobrir uma ficha, e vale cobrir uma do meio: a ficha do fim se resolve copiando a vizinha, enquanto a do meio só se resolve raciocinando a partir da parte que se repete. E dá para esconder essa parte e pedir que a turma a descubra. Cores e formas são gratuitas; as imagens e a impressão fazem parte do plano Professor.",
+      "Não existe botão de resposta, nem pontuação, nem cronômetro. Em ABABAB, quando um aluno diz que a parte que se repete é AB e outro diz que é BA, os dois têm um argumento honesto, e quem encerra a conversa não é você: cada um remonta a tira a partir da sua proposta e a turma compara as duas. O material decide, devagar e à vista de todos. Aprender que uma discussão se resolve testando vale tanto quanto o conteúdo de padrões que está sendo trabalhado."
+    ],
+    "howToUse": [
+      "Monte a parte que se repete com duas a quatro fichas e deixe a tira continuar sozinha.",
+      "Peça que a turma leia a tira em voz alta antes de qualquer explicação sua.",
+      "Troque a roupa da tira para formas e pergunte se o padrão continua o mesmo.",
+      "Cubra uma ficha do meio e peça que expliquem como sabem o que está embaixo.",
+      "Ligue o som, uma nota por ficha, e peça que a turma repita o padrão com o corpo.",
+      "Esconda a parte que se repete e peça que a turma a reconstrua olhando só para a tira."
+    ],
+    "classroomIdeas": [
+      "Monte um padrão AB com cores e peça a três crianças que o executem com palma e pé. Depois troque a tira para formas e pergunte se o movimento delas ainda serve.",
+      "Alongue a tira até ela não caber inteira na tela e pergunte de que cor seria a ficha número vinte. Deixe a turma discutir antes de mostrar.",
+      "Mostre a linha de letras embaixo da tira e leiam A B A B apontando cada ficha; depois tire as letras e façam de novo.",
+      "Esconda a parte que se repete e cubra também uma ficha do meio, para que a turma decida primeiro qual é a unidade e só depois o que está coberto.",
+      "Divida a turma em dois grupos, um defendendo AB e o outro BA em ABABAB: cada grupo remonta a tira a partir da sua leitura e vocês comparam as duas."
+    ],
+    "metaTitle": "Mesa de padrões de repetição | ferramenta grátis",
+    "metaDescription": "Monte a parte que se repete e a tira completa sozinha. Cores, formas e imagens para trabalhar padrões de repetição na educação infantil."
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

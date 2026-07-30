@@ -359,6 +359,48 @@ if (!/repeating-linear-gradient\([^']*var\(--cgr-unit\)/.test(SRC)) {
 }
 if (!ERRORS) console.log('  C13 css ok');
 
+/* ---------------- C14 the editor has ONE commit point ----------------
+   ⚠ THE INVARIANT THAT WAS MISSING WHEN THE ADD BUTTON SHIPPED DEAD.
+   `setSetup` drops blank labels on purpose (C7 asserts it). So the editor
+   can never use `st` as its working copy: pushing a blank row through
+   setSetup is a no-op, which is exactly how "Add an answer" came to do
+   nothing at all. The editor edits `_draft`; only apply() commits.
+
+   This is a structural check on purpose. The browser gates
+   (local-test L9, audit-tool-control-liveness) prove the button acts;
+   this one proves the SHAPE that makes it act cannot be quietly undone
+   by an edit that still passes every model assertion. */
+(function () {
+  const ed = (SRC_NC.match(/_buildEditor: function[\s\S]*?\n  \},\n/) || [''])[0];
+  if (!ed) { err('C14 _buildEditor not found'); return; }
+  if (!/_draft:\s*null/.test(SRC_NC)) err('C14 the editor has no draft field — blank rows are unrepresentable again');
+  if (!/var draft = this\._draft\.labels;/.test(ed)) {
+    err('C14 the editor does not render from the draft — reading st.cats back means a blank row can never appear');
+  }
+  if (/this\.st\.cats\.map/.test(ed)) err('C14 the editor still rebuilds its rows from st.cats');
+  /* ⚠ EXACTLY TWO, AND BOTH ARE NAMED. apply() commits what the teacher
+     typed; a starter chip replaces the whole survey outright. Those are
+     the only two moments a class may lose its votes. A third would be an
+     unnamed one, which is how the first one got there. */
+  const commits = (ed.match(/setSetup\(/g) || []).length;
+  if (commits !== 2) {
+    err(`C14 the editor commits in ${commits} place(s); exactly two are allowed and named `
+      + `(apply, and the starter chips) — any other commit silently clears the class's votes`);
+  }
+  /* the row handlers edit the draft and nothing else */
+  const addH = (ed.match(/api\.t\('addCat'\)[\s\S]*?\n      \}\)\);/) || [''])[0];
+  if (!/_draft\.labels\.push\(''\)/.test(addH)) err('C14 the add handler does not grow the draft');
+  if (/setSetup/.test(addH)) err('C14 the add handler commits through setSetup — that is the original dead-button bug');
+  const remH = (ed.match(/api\.t\('removeCat'\)[\s\S]*?\n        \}, 'cgr-tiny-chip'\)\);/) || [''])[0];
+  if (!/_draft\.labels\.splice\(/.test(remH)) err('C14 the remove handler does not edit the draft');
+  if (/setSetup/.test(remH)) err('C14 the remove handler commits through setSetup — it would throw away the votes');
+  /* apply must refuse a survey with nothing to compare */
+  if (!/kept\.length < self\.MIN_CATS/.test(ed)) {
+    err('C14 apply does not require two distinct answers — a one-column survey has nothing to compare');
+  }
+  if (!ERRORS) console.log('  C14 the editor edits a draft; commits only in apply + the starters');
+}());
+
 console.log('');
 console.log(ERRORS ? `FAIL — ${ERRORS} error(s), ${WARNS} warning(s)` : `PASS — 0 errors, ${WARNS} warning(s)`);
 process.exit(ERRORS ? 1 : 0);

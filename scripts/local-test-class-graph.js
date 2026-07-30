@@ -19,7 +19,12 @@
         the teacher reveals, and the right digits after
      L6 an injection attempt in the question AND in an answer label
         renders as text and executes nothing
-     L7 free stops at three answers with the exact CTA
+     L7 free reaches FOUR answers (2.MD.D.10) and the fifth is the wall,
+        with the exact CTA — the tool opens on three, so a free teacher's
+        add must work once rather than be locked on arrival
+     L9 ⭐ ADD AN ANSWER ACTUALLY ADDS A ROW, typing survives it, and
+        editing never costs the class its votes. This is the assertion
+        whose absence let a dead button ship past five green suites
      L8 the sweep 320-1366 — resting FITS at desktop, taps >=44, text
         >=14px, zero console errors
 
@@ -259,6 +264,70 @@ const PORT = 5471;
   is(s6.votes === 0, 'a new question arrived with no votes carried over');
   await p.close();
 
+  /* ---------------- L9 ⭐ THE ADD BUTTON ACTUALLY ADDS ----------------
+     The bug this file did not catch: "Add an answer" pushed '' into
+     setSetup, setSetup drops blanks, so the click could not change
+     anything. Assert the ROW COUNT, and assert the votes survive
+     editing — the old handler committed through setSetup, which clears
+     them, so adding an answer silently threw away the class's survey. */
+  console.log('[L9 the add button]');
+  const add = await open({ premium: true });
+  await wait(900);
+  await clickChip(add, 'Change the question');
+  await wait(350);
+  const r0 = await add.evaluate(() => document.querySelectorAll('.cgr-catrow').length);
+  is(r0 === 3, `the editor opens on three rows (${r0})`);
+  await clickChip(add, 'Add an answer');
+  await wait(320);
+  const r1 = await add.evaluate(() => document.querySelectorAll('.cgr-catrow').length);
+  is(r1 === 4, `⭐ clicking Add an answer adds a row (${r0} -> ${r1})`);
+  /* type into it and commit — the blank must become a real column */
+  await add.evaluate(() => {
+    const ins = document.querySelectorAll('.cgr-catinput');
+    ins[ins.length - 1].value = 'Scooter';
+  });
+  await clickChip(add, 'Put it on the board');
+  await wait(380);
+  const cols = await add.evaluate(() => Array.from(document.querySelectorAll('.cgr-col'))
+    .map((c) => (c.textContent || '').trim()));
+  is(cols.length === 4, `and the board grows to four columns (${cols.length})`);
+  is(cols.some((t) => /Scooter/.test(t)), 'carrying the answer the teacher typed');
+  /* typing is not lost when a row is added mid-edit */
+  await clickChip(add, 'Change the question');
+  await wait(320);
+  await add.evaluate(() => { document.querySelectorAll('.cgr-catinput')[0].value = 'On foot'; });
+  await clickChip(add, 'Add an answer');
+  await wait(320);
+  const kept = await add.evaluate(() => document.querySelectorAll('.cgr-catinput')[0].value);
+  is(kept === 'On foot', `a keystroke survives the add (\"${kept}\")`);
+  await add.close();
+
+  /* the votes must survive the editor */
+  const keepv = await open({ premium: true });
+  await wait(900);
+  await voteIn(keepv, 0, 3);
+  await voteIn(keepv, 1, 2);
+  const v0 = await keepv.evaluate(() => document.querySelectorAll('.cgr-stamp').length);
+  await clickChip(keepv, 'Change the question');
+  await wait(320);
+  await clickChip(keepv, 'Add an answer');
+  await wait(300);
+  await clickChip(keepv, 'Put it on the board');
+  await wait(380);
+  const v1 = await keepv.evaluate(() => document.querySelectorAll('.cgr-stamp').length);
+  is(v0 === 5 && v1 === 5, `⭐ opening the editor does not cost the class its votes (${v0} -> ${v1})`);
+  /* a one-column survey has nothing to compare and must be refused */
+  await clickChip(keepv, 'Change the question');
+  await wait(320);
+  await keepv.evaluate(() => {
+    document.querySelectorAll('.cgr-catinput').forEach((x, i) => { x.value = i ? '' : 'Only one'; });
+  });
+  await clickChip(keepv, 'Put it on the board');
+  await wait(350);
+  const stillOpen = await keepv.evaluate(() => !!document.querySelector('.cgr-editor'));
+  is(stillOpen, 'a single answer is refused — a survey needs two to compare');
+  await keepv.close();
+
   /* ---------------- L7 what is free ---------------- */
   console.log('[L7 what is free]');
   const free = await open({});
@@ -269,8 +338,23 @@ const PORT = 5471;
     rows: document.querySelectorAll('.cgr-catrow').length,
     locked: document.querySelectorAll('.cgr-locked').length
   }));
-  is(f7.rows === 3, `a free teacher edits three answers (${f7.rows})`);
-  is(f7.locked >= 1, 'and can see there are more');
+  is(f7.rows === 3, `a free teacher opens on three answers (${f7.rows})`);
+  /* ⚠ FREE IS FOUR (2.MD.D.10 "up to four categories"), and the tool opens
+     on three — so the free teacher's add must WORK once before the wall.
+     At three-free the very first affordance was locked on arrival. */
+  const addFree = await free.evaluate(() => {
+    const b = Array.from(document.querySelectorAll('.cgr-chip')).find((x) => x.textContent === 'Add an answer');
+    return b ? b.className : null;
+  });
+  is(addFree !== null && !/cgr-locked/.test(addFree), 'and Add an answer is open to them, not locked on arrival');
+  await clickChip(free, 'Add an answer');
+  await wait(320);
+  const f7b = await free.evaluate(() => ({
+    rows: document.querySelectorAll('.cgr-catrow').length,
+    locked: document.querySelectorAll('.cgr-chip.cgr-locked').length
+  }));
+  is(f7b.rows === 4, `a free teacher reaches four answers (${f7b.rows})`);
+  is(f7b.locked >= 1, 'and the fifth is where the wall is');
   await free.evaluate(() => {
     const b = Array.from(document.querySelectorAll('.cgr-chip.cgr-locked')).find((x) => /Add an answer/.test(x.textContent));
     if (b) b.click();
@@ -281,7 +365,7 @@ const PORT = 5471;
     const a = g && g.querySelector('a');
     return { text: g ? g.textContent : null, href: a ? a.getAttribute('href') : null, target: a ? a.getAttribute('target') : null };
   });
-  is(/Teacher plan/.test(g7.text || ''), `a fourth answer is gated: "${(g7.text || '').slice(0, 46)}"`);
+  is(/Teacher plan/.test(g7.text || ''), `a fifth answer is gated: "${(g7.text || '').slice(0, 46)}"`);
   is(g7.href === '/en/pricing?from=tool-class-graph', `CTA exact: ${g7.href}`);
   is(g7.target === '_top', 'and it escapes the iframe');
   await free.close();

@@ -15,7 +15,7 @@
  *    deck → kind:'none' → the section renders nothing.
  */
 import { prisma } from '@/lib/prisma';
-import { deckAssets } from '@/lib/seo/landing-content';
+import { deckAssets, landingSlugForDeck } from '@/lib/seo/landing-content';
 import { wwwImg } from '@/lib/img-host';
 import { fetchCrossLanguageTargets, fetchCrossLanguageDecks } from '@/lib/cross-language-decks';
 import { targetLangName, targetLangSlug } from '@/lib/target-language';
@@ -53,6 +53,12 @@ export interface MakerSample {
   thumbnailUrl: string;
   deckUrl: string;          // playable deck.html (interactive)
   pdfUrl?: string;          // present for the pdf variant only
+  /** This sample's /worksheets/ landing, when it has one (§22.1 conditional
+   *  repoint). Rendered as a crawlable link under the tile — the interactive
+   *  tile is a modal <button>, so without this a maker page emits no followable
+   *  link to any worksheet and is a crawl dead-end. Absent when the deck has no
+   *  landing: we link nothing rather than pointing at the noindexed deck. */
+  landingHref?: string;
 }
 
 export interface MakerCrossLangSample {
@@ -89,6 +95,7 @@ function localizedTitle(title: unknown, locale: string, slug: string): string {
 
 function toSample(row: DeckRow, modeKey: string | null, pageLocale: string): MakerSample {
   const a = deckAssets(row.language, row.slug);
+  const landing = landingSlugForDeck(row.language, row.slug);
   return {
     modeKey,
     deckSlug: row.slug,
@@ -98,6 +105,10 @@ function toSample(row: DeckRow, modeKey: string | null, pageLocale: string): Mak
     // The playable URL is the deck DIRECTORY (nginx serves it); `/…/deck.html` 404s
     // and the no-trailing-slash form 404s — match the §22 iframe convention (a.deckDir).
     deckUrl: a.deckDir,
+    // Landing link uses the deck's OWN locale, not the page locale: per-mode
+    // samples fall back to an EN deck when the page locale lacks that mode, and
+    // its landing lives under /en/.
+    ...(landing ? { landingHref: `/${row.language}/worksheets/${landing}` } : {}),
   };
 }
 

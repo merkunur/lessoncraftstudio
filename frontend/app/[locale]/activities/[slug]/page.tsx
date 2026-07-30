@@ -233,6 +233,8 @@ import { getHreflangCode } from '@/lib/seo/hreflang';
 import { getActivityContent, gradeToAgeRange } from '@/lib/seo/activity-content';
 import { LOCALE_NAMES, SupportedLocale } from '@/config/locales';
 import { ogLocaleMap } from '@/lib/schema-generator';
+import TopicLandingLinks from '@/components/topic/TopicLandingLinks';
+import { getLandingsByStandard } from '@/lib/seo/landing-content';
 
 // Internal-link-mesh strip headings (Part 2). Per-locale nav labels, inlined
 // here following the ACTIVITIES_SECTION_LABEL precedent (single-consumer
@@ -832,6 +834,18 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
               </ul>
             </section>
           )}
+
+          {/* Printable worksheets on the SAME standard. Keyed on the CCSS code
+              (row.alignment.code), never on the strand: per §20.10 the strand is
+              LOCALIZED to each national curriculum, so matching on it would find
+              nothing outside EN. The code is the machine anchor precisely because
+              it stays invariant across locales. */}
+          <TopicLandingLinks
+            locale={params.locale}
+            landings={getLandingsByStandard(params.locale, row.alignment.code)
+              .slice(0, 8)
+              .map((l) => ({ slug: l.slug, h1: l.h1 }))}
+          />
 
           {/* Available in other languages — visible hreflang siblings. */}
           {otherLangs.length > 0 && (

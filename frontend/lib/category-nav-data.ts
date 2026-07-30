@@ -146,6 +146,12 @@ export interface BuildCategoriesInput {
   availableThemes?: string[];
   // Cross-language ("Languages") category targets for this page locale (≥1 deck each).
   availableTargets?: Array<{ iso: string; slug: string; name: string; count: number }>;
+  // toolKey → native-language slug for this locale, from
+  // `getToolSlugMap()` in @/lib/seo/tool-content (server-side; sourced in
+  // app/[locale]/layout.tsx and threaded through, like availableActivities).
+  // Resolved server-side because this module is imported by CLIENT components
+  // and the tool-content JSON is ~1.4 MB across 11 locales.
+  toolSlugs?: Record<string, string>;
   // Translator for the 'nav.categories' namespace. Accepts a key, returns
   // the localized string. CategoryNav and MobileCategoryAccordion both pass
   // `useTranslations('nav.categories')` directly.
@@ -162,6 +168,7 @@ export function buildCategories({
   availableActivities = [],
   availableThemes = [],
   availableTargets = [],
+  toolSlugs = {},
   t,
 }: BuildCategoriesInput): CategoryDropdown[] {
   const labels = LABELS[locale] || LABELS.en;
@@ -203,10 +210,29 @@ export function buildCategories({
     label: a.title,
   }));
 
-  const manipulativesItems: DropdownItem[] = MANIPULATIVES.map(m => ({
-    href: `/${locale}/tools/`,
-    label: m.title[locale] ?? m.title.en,
-  }));
+  // Each tool links to its OWN landing page (/[locale]/tools/<native-slug>/),
+  // not to the index. Until 2026-07-30 every entry here emitted the constant
+  // `/[locale]/tools/`, so the nav shipped 38 correct labels behind 38
+  // identical hrefs on every page of the site — the per-tool pages existed and
+  // were in the sitemap, but the site's biggest internal-link surface pointed
+  // none of its equity at them.
+  //
+  // `toolSlugs` is server-supplied (see BuildCategoriesInput): this module is
+  // consumed by client components and must not import the tool-content JSON.
+  // A tool absent from the map is OMITTED rather than English-fallback'd —
+  // `heart-words` genuinely has no `fi` slug and its fi URL would 410. Mirrors
+  // the skip in app/[locale]/tools/page.tsx.
+  //
+  // Empty map (server data unavailable, or a caller that doesn't render this
+  // category) falls back to the index link so the dropdown never empties.
+  const hasToolSlugs = Object.keys(toolSlugs).length > 0;
+  const manipulativesItems: DropdownItem[] = MANIPULATIVES.flatMap(m => {
+    const label = m.title[locale] ?? m.title.en;
+    if (!hasToolSlugs) return [{ href: `/${locale}/tools/`, label }];
+    const slug = toolSlugs[m.id];
+    if (!slug) return [];
+    return [{ href: `/${locale}/tools/${slug}`, label }];
+  });
 
   const themeAvailSet = new Set(availableThemes);
   const topicsKeys = (themeAvailSet.size === 0

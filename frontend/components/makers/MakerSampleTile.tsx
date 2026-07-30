@@ -24,6 +24,12 @@ interface MakerSampleTileProps {
   chipLabel?: string;       // corner chip (locale or target-language); omit chip if undefined
   playLabel: string;        // e.g. "Play sample" — visible affordance + aria
   closeLabel: string;       // modal close aria-label
+  /* Crawlable link to this sample's /worksheets/ landing, rendered UNDER the tile.
+   * Additive: the interactive tile is a <button> opening a modal, so before this the
+   * maker pages emitted no followable link to any worksheet at all — they were crawl
+   * dead-ends. Same pattern as FeaturedDeckTileV3's `deckHref`. Omit → nothing renders. */
+  landingHref?: string;
+  landingLabel?: string;    // visible text for landingHref
 }
 
 const THUMB_SIZES = '(max-width:639px) 90vw, (max-width:1023px) 45vw, 300px';
@@ -37,6 +43,8 @@ export default function MakerSampleTile({
   chipLabel,
   playLabel,
   closeLabel,
+  landingHref,
+  landingLabel,
 }: MakerSampleTileProps) {
   const [open, setOpen] = useState(false);
 
@@ -100,18 +108,34 @@ export default function MakerSampleTile({
     </div>
   );
 
+  // Plain <a>, not <Link>: a sample whose deck has no landing falls back to the
+  // nginx /decks/ URL, whose trailing slash <Link> would strip and 404 (§15.7).
+  const landingLink = landingHref ? (
+    <div className="px-1 pt-1">
+      <a
+        href={landingHref}
+        className="font-sans text-xs font-semibold text-[#146B5E]/70 hover:text-[#F2784B] hover:underline"
+      >
+        {landingLabel ?? title} →
+      </a>
+    </div>
+  ) : null;
+
   if (variant === 'pdf') {
     return (
-      <a
-        href={pdfUrl}
-        target="_blank"
-        rel="noopener"
-        className="group block w-full text-left rounded-2xl shadow-[0_2px_8px_rgba(20,30,28,0.08)] hover:shadow-[0_8px_20px_rgba(20,30,28,0.14)] transition-shadow"
-        aria-label={`${title} (PDF)`}
-      >
-        {thumb}
-        {titleRow}
-      </a>
+      <div>
+        <a
+          href={pdfUrl}
+          target="_blank"
+          rel="noopener"
+          className="group block w-full text-left rounded-2xl shadow-[0_2px_8px_rgba(20,30,28,0.08)] hover:shadow-[0_8px_20px_rgba(20,30,28,0.14)] transition-shadow"
+          aria-label={`${title} (PDF)`}
+        >
+          {thumb}
+          {titleRow}
+        </a>
+        {landingLink}
+      </div>
     );
   }
 
@@ -126,6 +150,7 @@ export default function MakerSampleTile({
         {thumb}
         {titleRow}
       </button>
+      {landingLink}
 
       {open && (
         <div

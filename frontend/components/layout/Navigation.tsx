@@ -24,6 +24,8 @@ interface NavigationProps {
   availableActivities?: Array<{ id: string; slug: string; title: string; code: string }>;
   availableThemes?: string[];
   availableTargets?: Array<{ iso: string; slug: string; name: string; count: number }>;
+  /** toolKey → native tool slug for this locale (server-sourced). */
+  toolSlugs?: Record<string, string>;
 }
 
 export function Navigation({
@@ -31,6 +33,7 @@ export function Navigation({
   availableActivities = [],
   availableThemes = [],
   availableTargets = [],
+  toolSlugs = {},
 }: NavigationProps = {}) {
   const t = useTranslations('navigation');
   const pathname = usePathname();
@@ -190,6 +193,7 @@ export function Navigation({
             availableActivities={availableActivities}
             availableThemes={availableThemes}
             availableTargets={availableTargets}
+            toolSlugs={toolSlugs}
             onItemClick={closeDrawer}
           />
 
@@ -246,6 +250,7 @@ export function Navigation({
       availableActivities={availableActivities}
       availableThemes={availableThemes}
       availableTargets={availableTargets}
+      toolSlugs={toolSlugs}
     />
     </>
   );

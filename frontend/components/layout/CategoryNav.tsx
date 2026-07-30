@@ -40,6 +40,10 @@ interface CategoryNavProps {
   // Per-locale non-empty theme axis-keys for the Topics dropdown sub-items.
   availableThemes?: string[];
   availableTargets?: Array<{ iso: string; slug: string; name: string; count: number }>;
+  // toolKey → native tool slug for this locale. Server-sourced (the
+  // tool-content JSON is far too large to import into a client component);
+  // without it every Manipulatives item falls back to the /tools index.
+  toolSlugs?: Record<string, string>;
 }
 
 export function CategoryNav({
@@ -47,6 +51,7 @@ export function CategoryNav({
   availableActivities = [],
   availableThemes = [],
   availableTargets = [],
+  toolSlugs = {},
 }: CategoryNavProps) {
   const t = useTranslations('nav.categories');
   const pathname = usePathname();
@@ -79,6 +84,7 @@ export function CategoryNav({
     availableActivities,
     availableThemes,
     availableTargets,
+    toolSlugs,
     t,
   });
 

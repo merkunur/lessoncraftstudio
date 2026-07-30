@@ -13,6 +13,7 @@ import {
   TOOL_KEYS,
   TOOL_MINI_URL,
   TOOL_ACTIVITY_PREFIX,
+  TOOL_WORKSHEET_TYPES,
   getToolContent,
   resolveToolSlug,
   listToolSitemapEntries,
@@ -31,6 +32,8 @@ import {
   existingMakerLocales,
 } from '@/lib/seo/maker-content';
 import MakerLanding from '@/components/makers/MakerLanding';
+import TopicLandingLinks from '@/components/topic/TopicLandingLinks';
+import { getLandingsByStandard, getLandingsByType } from '@/lib/seo/landing-content';
 
 /**
  * Per-tool landing page — /<locale>/tools/<native-slug>/
@@ -192,6 +195,52 @@ async function relatedActivitiesFor(toolKey: ToolKey, locale: string) {
     .map((a) => ({ id: a.id, title: a.page_title[locale], href: localePath(locale, 'activities', a.slug[locale]), code: a.alignment.code }));
 }
 
+/**
+ * Printable worksheets that practise what this tool teaches.
+ *
+ * Two sources, most-specific first:
+ *   1. STANDARDS — the tool's activities (TOOL_ACTIVITY_PREFIX) carry CCSS
+ *      codes, and landings are indexed by standard. Exact, but only 2 of the
+ *      38 manipulatives have activities, so it covers little on its own.
+ *   2. TYPES — the hand-authored TOOL_WORKSHEET_TYPES pairing, which is what
+ *      actually gives most tools their links (see its comment for why the
+ *      pairing cannot be derived, and why omission is meaningful).
+ *
+ * Round-robin across each source's buckets so one prolific standard or type
+ * can't crowd out the rest — the mix stays representative of the whole tool.
+ *
+ * Self-skips honestly: a tool with neither source, or whose types have no
+ * landings in this locale, renders nothing rather than a forced link. Before
+ * this, tool pages linked to no worksheet at all and were crawl dead-ends.
+ */
+function relatedWorksheetsFor(
+  toolKey: ToolKey,
+  related: Array<{ code: string }>,
+  locale: string,
+  cap = 8,
+): { slug: string; h1: string }[] {
+  const buckets: Array<Array<{ slug: string; h1: string }>> = [
+    ...related.map((r) => getLandingsByStandard(locale, r.code)),
+    ...(TOOL_WORKSHEET_TYPES[toolKey] ?? []).map((t) => getLandingsByType(locale, t)),
+  ];
+  const seen = new Set<string>();
+  const out: { slug: string; h1: string }[] = [];
+  for (let i = 0; out.length < cap; i++) {
+    let advanced = false;
+    for (const landings of buckets) {
+      if (i >= landings.length) continue;
+      advanced = true;
+      const l = landings[i];
+      if (seen.has(l.slug)) continue;
+      seen.add(l.slug);
+      out.push({ slug: l.slug, h1: l.h1 });
+      if (out.length >= cap) break;
+    }
+    if (!advanced) break;
+  }
+  return out;
+}
+
 export default async function ToolPage({ params }: { params: PageParams }) {
   if (!isTopicLocale(params.locale)) notFound();
   const toolKey = await resolveToolSlug(params.tool, params.locale);
@@ -209,6 +258,7 @@ export default async function ToolPage({ params }: { params: PageParams }) {
     `&lang=${encodeURIComponent(params.locale)}&embed=1`;
 
   const related = await relatedActivitiesFor(toolKey, params.locale);
+  const relatedWorksheets = relatedWorksheetsFor(toolKey, related, params.locale);
 
   // Other locales where this tool has a slug (visible hreflang siblings).
   const otherLangs: Array<{ locale: string; href: string }> = [];
@@ -308,6 +358,10 @@ export default async function ToolPage({ params }: { params: PageParams }) {
               </ul>
             </section>
           )}
+
+          {/* Printable worksheets on the same standards. TopicLandingLinks
+              carries its own 11-locale heading, so this needs no new i18n key. */}
+          <TopicLandingLinks locale={params.locale} landings={relatedWorksheets} />
 
           {otherLangs.length > 0 && (
             <section aria-labelledby="tool-langs-heading">

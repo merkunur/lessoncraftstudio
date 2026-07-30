@@ -130,6 +130,10 @@ export default async function MakerSamples({
                     chipLabel={chipFor(sample)}
                     playLabel={playLabel}
                     closeLabel={closeLabel}
+                    landingHref={sample.landingHref}
+                    /* The tile's title here is the MODE name, so label the
+                       landing link with the worksheet's own localized title. */
+                    landingLabel={sample.title}
                   />
                   <h3 className="font-display font-semibold text-[15px] text-teal-800 mt-3">{name}</h3>
                   {explanation && (
@@ -151,6 +155,7 @@ export default async function MakerSamples({
                   chipLabel={chipFor(sample)}
                   playLabel={playLabel}
                   closeLabel={closeLabel}
+                  landingHref={sample.landingHref}
                 />
               </div>
             );
@@ -178,6 +183,8 @@ export default async function MakerSamples({
                   chipLabel={item.targetName}
                   playLabel={playLabel}
                   closeLabel={closeLabel}
+                  landingHref={item.sample.landingHref}
+                  landingLabel={item.sample.title}
                 />
                 <a
                   href={item.learnHref}

@@ -5,6 +5,7 @@
 
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
+import { getToolSlugMap } from '@/lib/seo/tool-content';
 import { Sparkle } from './DoodleAccents';
 
 interface PillarToolsProps {
@@ -18,6 +19,7 @@ interface PillarToolsProps {
    (see component body); only the icons + hrefs are module-level. */
 const TOOL_ICONS = [
   {
+    toolKey: 'ten-frame',
     href: '/mini-tools/ten-frame.html',
     icon: (
       <svg viewBox="0 0 120 64" className="w-20 h-12">
@@ -42,6 +44,7 @@ const TOOL_ICONS = [
     ),
   },
   {
+    toolKey: 'number-line',
     href: '/mini-tools/number-line.html',
     icon: (
       <svg viewBox="0 0 120 64" className="w-20 h-12">
@@ -68,6 +71,7 @@ const TOOL_ICONS = [
     ),
   },
   {
+    toolKey: 'ruler',
     href: '/mini-tools/ruler.html',
     icon: (
       <svg viewBox="0 0 120 64" className="w-20 h-12">
@@ -110,10 +114,21 @@ const TOOL_ICONS = [
 export default async function PillarTools({ locale }: PillarToolsProps) {
   const t = await getTranslations({ locale, namespace: 'homepageV3.pillar05' });
 
+  // Link the indexable landing (/[locale]/tools/<native-slug>), not the raw
+  // mini-tool HTML: /mini-tools/*.html is a thin iframe engine page served by
+  // nginx and noindexed, so linking it straight passed the visitor (and any
+  // crawler) around the page that actually ranks. Falls back to the raw shell
+  // if the locale has no slug, so a link is never dropped.
+  const toolSlugs = await getToolSlugMap(locale);
+  const hrefFor = (i: number) => {
+    const slug = toolSlugs[TOOL_ICONS[i].toolKey];
+    return slug ? `/${locale}/tools/${slug}` : TOOL_ICONS[i].href;
+  };
+
   const tools = [
-    { name: t('tool1Name'), desc: t('tool1Desc'), href: TOOL_ICONS[0].href, icon: TOOL_ICONS[0].icon },
-    { name: t('tool2Name'), desc: t('tool2Desc'), href: TOOL_ICONS[1].href, icon: TOOL_ICONS[1].icon },
-    { name: t('tool3Name'), desc: t('tool3Desc'), href: TOOL_ICONS[2].href, icon: TOOL_ICONS[2].icon },
+    { name: t('tool1Name'), desc: t('tool1Desc'), href: hrefFor(0), icon: TOOL_ICONS[0].icon },
+    { name: t('tool2Name'), desc: t('tool2Desc'), href: hrefFor(1), icon: TOOL_ICONS[1].icon },
+    { name: t('tool3Name'), desc: t('tool3Desc'), href: hrefFor(2), icon: TOOL_ICONS[2].icon },
   ];
 
   return (

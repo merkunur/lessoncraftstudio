@@ -4,12 +4,17 @@
    day-of-week rotation, ISR-cache-stable).
 
    Cells:
-     - 1 featured inline-play tile (FeaturedDeckTileV3 modal) which ALSO
-       carries a crawlable deck-page link via the additive deckHref prop;
-     - 8 lazy deck thumbnails, each a plain `<a>` to its deck page —
-       /decks/ URLs are nginx-served with trailing slash (§15.7 routing
-       contract: <Link> strips the slash and 404s them, so plain anchors);
+     - 1 featured inline-play tile (FeaturedDeckTileV3 modal): plays the deck
+       asset inline (deckUrl) but points its crawlable link (deckHref) at the
+       deck's /worksheets/ landing;
+     - 8 lazy deck thumbnails, each a plain `<a>` to the deck's landing;
      - 1 "See all worksheets" tail link (Next route → <Link>).
+
+   Link target is the /worksheets/ landing wherever one exists (§22.1
+   conditional repoint, via landingSlugForDeck), falling back to the nginx
+   /decks/ asset otherwise. Plain anchors throughout because that fallback
+   carries a trailing slash <Link> would strip (§15.7). Only the inline-play
+   iframe still targets /decks/ directly — it needs the live deck document.
 
    Server component; DB failure → renders nothing (honesty, same posture
    as PillarInteractive's catch). */
@@ -18,6 +23,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { getTranslations } from 'next-intl/server';
 import { selectShowcaseDecks, type ShowcaseDeck } from '@/lib/showcase-decks';
+import { landingSlugForDeck } from '@/lib/seo/landing-content';
 import { wwwImg } from '@/lib/img-host';
 import FeaturedDeckTileV3 from '../homepage-v3/FeaturedDeckTileV3';
 
@@ -30,8 +36,28 @@ function titleFor(deck: ShowcaseDeck): string {
   return titleMap[deck.language] || deck.slug;
 }
 
-function deckPageHref(deck: ShowcaseDeck): string {
+/** The interactive deck asset itself (nginx-served, trailing slash). Used for
+ *  the featured tile's inline-play iframe — NOT for crawlable links. */
+function deckPlayUrl(deck: ShowcaseDeck): string {
   return `/${deck.language}/decks/${deck.slug}/`;
+}
+
+/** Where a visitor (and Googlebot) should LAND for this deck.
+ *
+ *  The conditional repoint every other browse surface already uses (§22.1):
+ *  prefer the /worksheets/ landing, fall back to the deck asset when the deck
+ *  has no landing. Until 2026-07-30 this band hardcoded /decks/ for all 9
+ *  cells — the live homepage was the last major surface that never consulted
+ *  landingSlugForDeck, so its links pointed at pages that have carried
+ *  `X-Robots-Tag: noindex` since 2026-07-22 (one of them under a label
+ *  literally reading "Open worksheet page").
+ *
+ *  Fails closed: no landing → the previous /decks/ URL, exactly as before. */
+function deckLandingHref(deck: ShowcaseDeck): string {
+  const landing = landingSlugForDeck(deck.language, deck.slug);
+  return landing
+    ? `/${deck.language}/worksheets/${landing}`
+    : deckPlayUrl(deck);
 }
 
 export default async function TryItBandV4({ locale }: TryItBandV4Props) {
@@ -72,19 +98,21 @@ export default async function TryItBandV4({ locale }: TryItBandV4Props) {
                 title={titleFor(featured)}
                 languageLabel={featured.language.toUpperCase()}
                 thumbnailUrl={featured.thumbnailUrl}
-                deckUrl={deckPageHref(featured)}
-                deckHref={deckPageHref(featured)}
+                deckUrl={deckPlayUrl(featured)}
+                deckHref={deckLandingHref(featured)}
                 deckHrefLabel={t4('openDeck')}
               />
             </div>
           )}
 
-          {/* 8 lazy deck thumbnails — plain <a> to nginx deck pages. */}
+          {/* 8 lazy deck thumbnails. Plain <a>, not <Link>: a deck without a
+              landing still resolves to its nginx /decks/ URL, whose trailing
+              slash <Link> would strip and 404 (§15.7 routing contract). */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 md:gap-5">
             {thumbs.map((deck) => (
               <a
                 key={`${deck.language}-${deck.slug}`}
-                href={deckPageHref(deck)}
+                href={deckLandingHref(deck)}
                 className="hv3-card group relative block overflow-hidden hover:-translate-y-1 transition-transform duration-300"
               >
                 <div className="relative aspect-[480/620] overflow-hidden rounded-t-3xl bg-lcs-cream">

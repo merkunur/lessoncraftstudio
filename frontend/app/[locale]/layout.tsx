@@ -9,6 +9,7 @@ import { listNonEmptyAxisKeys } from '@/lib/topic-decks';
 import { listAllActivities } from '@/lib/activities';
 import { fetchCrossLanguageTargets } from '@/lib/cross-language-decks';
 import { targetLangSlug, targetLangName } from '@/lib/target-language';
+import { getToolSlugMap } from '@/lib/seo/tool-content';
 
 // Generate static params for all locales - enables static generation
 export function generateStaticParams() {
@@ -78,6 +79,18 @@ export default async function LocaleLayout({
     // DB unavailable: Languages category simply won't render.
   }
 
+  // Per-tool native slugs for the Manipulatives dropdown, so each of the 38
+  // tools links to its OWN landing instead of the shared /tools index.
+  // Resolved here (Server Component) because the tool-content JSON is ~1.4 MB
+  // across 11 locales and the nav renderers are client components.
+  let toolSlugs: Record<string, string> = {};
+  try {
+    toolSlugs = await getToolSlugMap(locale);
+  } catch {
+    // Content files unreachable: buildCategories falls back to the /tools
+    // index link for every item — the pre-2026-07-30 behaviour, never a 410.
+  }
+
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
       <LocaleLayoutClient
@@ -87,6 +100,7 @@ export default async function LocaleLayout({
         footerAvailableLevels={footerAvailableLevels}
         availableActivities={availableActivities}
         availableTargets={availableTargets}
+        toolSlugs={toolSlugs}
       >
         {children}
       </LocaleLayoutClient>

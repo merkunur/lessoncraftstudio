@@ -29,6 +29,8 @@ interface MobileCategoryAccordionProps {
   availableActivities?: Array<{ id: string; slug: string; title: string; code: string }>;
   availableThemes?: string[];
   availableTargets?: Array<{ iso: string; slug: string; name: string; count: number }>;
+  /** toolKey → native tool slug for this locale (server-sourced). */
+  toolSlugs?: Record<string, string>;
   // Called whenever the user taps an item or browse-all link inside the
   // accordion. Parent (Navigation) uses this to close the surrounding
   // drawer so the page navigation is unobstructed.
@@ -41,6 +43,7 @@ export function MobileCategoryAccordion({
   availableActivities = [],
   availableThemes = [],
   availableTargets = [],
+  toolSlugs = {},
   onItemClick,
 }: MobileCategoryAccordionProps) {
   const t = useTranslations('nav.categories');
@@ -52,6 +55,7 @@ export function MobileCategoryAccordion({
     availableActivities,
     availableThemes,
     availableTargets,
+    toolSlugs,
     t,
   });
 

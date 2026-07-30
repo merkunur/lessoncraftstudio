@@ -49,6 +49,12 @@
  *                    (cross-locale sibling blocks need every locale, not just the
  *                    wave's). Runs AFTER embed-hide so the hreflang block stays last
  *                    in <head> per §17.8.1.5.
+ *  7b. ROBOTS-MAP  — gen-deck-noindex-exempt-map.js + nginx reload. Refreshes the
+ *                    landing-less deck set that is EXEMPT from the deck.html
+ *                    `noindex` header. Publishing moves that boundary both ways
+ *                    (new decks arrive landing-less; a landing wave moves decks off
+ *                    the exempt list), so it is regenerated every wave. Non-fatal —
+ *                    a stale map fails safe (default = noindex). Needs root.
  *   8. AUDIT       — audit-deck-html.js (invariants) over the wave's locales.
  *
  * RUNS ON HETZNER. Steps 2-6 read DATABASE_URL + /var/www/lcs-media/decks; STEP 1
@@ -357,6 +363,31 @@ function main() {
   // STEP 7 — HREFLANG cross-locale sibling injection. ALWAYS the full 11-locale
   // set (siblings span every locale; passing only the wave locale is a no-op).
   runStep('HREFLANG — populate-and-inject-hreflang (all 11 locales)', 'populate-and-inject-hreflang.js', ['--confirm', `--locales=${HREFLANG_LOCALES.join(',')}`, `--decks-root=${args.decksRoot}`, ...scopeArg]);
+
+  // STEP 7b — ROBOTS-MAP: regenerate the landing-less deck exempt set.
+  //
+  // Deck.html robots policy is conditional (see patch-nginx-deck-noindex-exempt.py):
+  // decks WITH a /worksheets/ landing are noindexed so they don't compete with it;
+  // decks WITHOUT one are the only indexable surface for their content and are
+  // exempted. Publishing shifts that boundary in BOTH directions — new decks arrive
+  // landing-less, and a landing wave moves decks off the exempt list — so the map is
+  // regenerated on every wave. Skipping it would leave a fresh deck noindexed with no
+  // landing (invisible), or an exempt deck competing with its new landing.
+  //
+  // Non-fatal: a stale map fails safe (default = noindex), so a failure here must not
+  // discard a successful publish. Requires root (writes /etc/nginx) — warns if not.
+  try {
+    runStep('ROBOTS-MAP — gen-deck-noindex-exempt-map', 'gen-deck-noindex-exempt-map.js', []);
+    execFileSync('nginx', ['-t'], { stdio: 'inherit' });
+    execFileSync('systemctl', ['reload', 'nginx'], { stdio: 'inherit' });
+    console.log('nginx reloaded — deck robots exempt set is current.');
+  } catch (e) {
+    console.warn('\n⚠ ROBOTS-MAP step failed (' + e.message + ').');
+    console.warn('  The wave itself is FINE — the exempt map just went stale, which fails');
+    console.warn('  safe (decks stay noindexed). Re-run manually as root:');
+    console.warn('    node scripts/publish-cli/gen-deck-noindex-exempt-map.js');
+    console.warn('    nginx -t && systemctl reload nginx');
+  }
 
   // STEP 8 — POST-PUBLISH AUDIT over the wave's locales.
   if (!args.skipAudit) {

@@ -11,7 +11,8 @@ export function LocaleLayoutClient({
   footerAvailableThemes = [],
   footerAvailableLevels = [],
   availableActivities = [],
-  availableTargets = []
+  availableTargets = [],
+  toolSlugs = {}
 }: {
   children: React.ReactNode;
   locale: string;
@@ -22,6 +23,9 @@ export function LocaleLayoutClient({
   footerAvailableLevels?: string[];
   availableActivities?: Array<{ id: string; slug: string; title: string; code: string }>;
   availableTargets?: Array<{ iso: string; slug: string; name: string; count: number }>;
+  /** toolKey → native tool slug for this locale; gives every tool in the
+   *  Manipulatives dropdown its own href instead of the shared index link. */
+  toolSlugs?: Record<string, string>;
 }) {
   const pathname = usePathname();
 
@@ -48,6 +52,7 @@ export function LocaleLayoutClient({
           availableActivities={availableActivities}
           availableThemes={footerAvailableThemes}
           availableTargets={availableTargets}
+          toolSlugs={toolSlugs}
         />
         <main>
           {children}
@@ -66,6 +71,7 @@ export function LocaleLayoutClient({
         availableActivities={availableActivities}
         availableThemes={footerAvailableThemes}
         availableTargets={availableTargets}
+        toolSlugs={toolSlugs}
       />
       <main className="flex-1">
         {children}

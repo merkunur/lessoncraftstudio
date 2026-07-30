@@ -112,6 +112,63 @@ export const TOOL_ACTIVITY_PREFIX: Record<ToolKey, string> = {
   'folding-sheet': 'folding-sheet',
 };
 
+/**
+ * Printable worksheet exercise-types that genuinely practise what each tool
+ * teaches. Powers the "More worksheets" link block on /[locale]/tools/<slug>,
+ * which before 2026-07-30 linked to no worksheet at all (a crawl dead-end).
+ *
+ * Why hand-authored rather than derived: the obvious derivation is
+ * tool → activities (TOOL_ACTIVITY_PREFIX) → CCSS code → landings, and that IS
+ * used as well — but only 2 of the 38 manipulatives have activities, so it
+ * covers almost nothing on its own. There is no other machine-readable link
+ * between a free-play tool and an exercise type; the pairing is a pedagogical
+ * judgement, so it is written down explicitly.
+ *
+ * OMISSION IS DELIBERATE AND MEANINGFUL. A tool absent here renders no
+ * worksheets section — correct for the classroom-management and social tools
+ * (class-timer, name-sticks, hush-owl, center-board, our-day,
+ * feelings-check-in, home-language-bridge) and for tools whose skill no
+ * printable type practises (story-line, reading-easel, calendar-wall,
+ * money-mat). Do not pad this map to raise coverage: a forced pairing sends a
+ * teacher to an unrelated worksheet, which is worse than no link.
+ *
+ * Types must be `coordinate.type` values that really exist in the landing
+ * corpus; an unknown type silently yields nothing.
+ */
+export const TOOL_WORKSHEET_TYPES: Partial<Record<ToolKey, string[]>> = {
+  // Number sense / arithmetic
+  'ten-frame': ['addition', 'subtraction', 'more-less', 'chart-count'],
+  'number-line': ['addition', 'subtraction', 'more-less'],
+  'open-number-line': ['addition', 'subtraction'],
+  rekenrek: ['addition', 'subtraction', 'more-less'],
+  'part-whole-frame': ['addition', 'subtraction', 'math-puzzle'],
+  'number-balance': ['addition', 'subtraction', 'math-puzzle'],
+  'number-talk-easel': ['addition', 'subtraction', 'math-puzzle'],
+  'place-value-lab': ['number-charts', 'addition', 'math-worksheet'],
+  'choral-counting': ['number-charts', 'chart-count'],
+  'estimation-jar': ['find-and-count', 'chart-count', 'more-less'],
+  // Measurement / data / geometry
+  ruler: ['measurement', 'big-small'],
+  'measurement-bench': ['measurement', 'big-small'],
+  'learning-clock': ['telling-time'],
+  'fraction-kitchen': ['fractions'],
+  'class-graph': ['graphing-data', 'chart-count'],
+  'folding-sheet': ['geometry'],
+  // Logic / classification
+  'sorting-hoops': ['picture-sort', 'odd-one-out', 'grid-match'],
+  wodb: ['odd-one-out', 'picture-sort'],
+  'pattern-bench': ['pattern-train', 'pattern-worksheet'],
+  // Literacy
+  'letter-tiles': ['word-scramble', 'word-guess', 'crossword', 'alphabet-train'],
+  'letter-studio': ['alphabet-train', 'word-guess'],
+  'blending-board': ['word-guess', 'word-scramble', 'alphabet-train'],
+  'sound-boxes': ['word-guess', 'word-scramble'],
+  'syllable-splitter': ['word-scramble', 'word-guess'],
+  'dictation-desk': ['word-scramble', 'crossword', 'wordsearch'],
+  'heart-words': ['wordsearch', 'word-guess', 'crossword'],
+  'picture-word-wall': ['matching', 'wordsearch', 'find-objects'],
+};
+
 export interface ToolEntry {
   slug: string;
   name: string;
@@ -251,6 +308,29 @@ export async function listToolSitemapEntries(): Promise<Array<{ locale: string; 
       const entry = file[key];
       if (entry && entry.slug) out.push({ locale, slug: entry.slug, toolKey: key });
     }
+  }
+  return out;
+}
+
+/**
+ * toolKey → native-language slug for one locale (omits any tool the locale
+ * doesn't declare, e.g. `heart-words` has no `fi` entry by design — see the
+ * TOOL_KEYS comment above). One `loadLocale` call, so callers get the whole
+ * map without 38 awaits.
+ *
+ * Exists so SERVER components can hand the nav its per-tool hrefs. The nav
+ * data builder (`@/lib/category-nav-data`) is consumed by CLIENT components,
+ * so it must never import the tool-content JSON itself (~1.4 MB across 11
+ * locales). Instead `app/[locale]/layout.tsx` calls this and threads the
+ * result down as a prop, the same way `availableActivities` is threaded.
+ */
+export async function getToolSlugMap(locale: string): Promise<Record<string, string>> {
+  const file = await loadLocale(locale);
+  if (!file) return {};
+  const out: Record<string, string> = {};
+  for (const key of TOOL_KEYS) {
+    const entry = file[key];
+    if (entry && entry.slug) out[key] = entry.slug;
   }
   return out;
 }

@@ -936,6 +936,34 @@
     "metaTitle": "Säulendiagramm Grundschule | kostenloses Klassen-Tool",
     "metaDescription": "Säulendiagramm für die Grundschule: Die Klasse stimmt am Beamer ab, aus den Kindern werden Säulen, die Zahlen bleiben zuerst verborgen."
   },
+  "folding-sheet": {
+    "slug": "faltpapier-symmetrie-spiegelbild",
+    "name": "Das Faltpapier",
+    "tagline": "Die Klasse malt Kästchen an, legt die Faltlinie dorthin, wo sie das Spiegelbild vermutet, und faltet nach, ob es stimmt.",
+    "about": [
+      "Das Faltpapier ist ein Blatt Karopapier auf dem Klassenbildschirm. Die Kinder malen einzelne Kästchen an, ein paar oder viele. Danach wählen Sie die Richtung der Faltlinie, senkrecht, waagerecht oder von Ecke zu Ecke, und schieben sie an die Stelle, die ein Kind vorschlägt. Eine Stunde besteht aus kurzen Runden: anmalen, Faltlinie legen, falten, aufklappen.",
+      "Beim Falten legt sich die hintere Hälfte auf die vordere, wie eine Folie. Wo Farbe auf Farbe landet, liegen zwei Lagen übereinander und das Kästchen wird dunkler. Wo Farbe auf leeres Papier landet, bleibt eine Lage. Treffen zwei verschiedene Farben aufeinander, entsteht eine dritte. Lassen Sie die Klasse vorher raten und falten Sie dann langsam, denn die Bewegung ist der Teil, an dem die Kinder etwas sehen.",
+      "Die Faltlinie ist eine Behauptung: Hier verläuft das Spiegelbild. Das Falten ist die Probe darauf. Die Frage, ob ein Muster symmetrisch ist, lässt sich deshalb gar nicht beantworten, solange niemand sagt, entlang welcher Faltlinie. Legen zwei Kinder die Faltlinie an verschiedene Stellen und falten beide, dann entscheidet das Papier und nicht die lautere Stimme. Verschieben Sie die Faltlinie danach noch einmal, denn genau darum geht es.",
+      "Das Faltpapier bewertet nichts. Es gibt keine Punkte, keine Häkchen und keine Rückmeldung darüber, wer richtig lag. Eine einzelne Lage ist eine Eigenschaft des Papiers und kein Urteil über ein Kind. Nichts wird gespeichert, beim Neuladen liegt wieder ein leeres Blatt bereit. Das Einzige, was antwortet, ist das gefaltete Papier."
+    ],
+    "howToUse": [
+      "Öffnen Sie das Faltpapier auf dem Klassenbildschirm und lassen Sie ein Kind einige Kästchen anmalen.",
+      "Wählen Sie die Richtung der Faltlinie: senkrecht, waagerecht oder von Ecke zu Ecke.",
+      "Fragen Sie die Klasse, wo die Faltlinie liegen soll, und schieben Sie sie dorthin.",
+      "Lassen Sie vor dem Falten vorhersagen, welche Kästchen dunkler werden und welche eine Lage bleiben.",
+      "Falten Sie, vergleichen Sie mit der Vermutung und klappen Sie wieder auf.",
+      "Legen Sie die Faltlinie an eine andere Stelle und falten Sie noch einmal."
+    ],
+    "classroomIdeas": [
+      "Zwei Kinder legen die Faltlinie an verschiedene Stellen; beide falten, und die Klasse beschreibt, was bei jedem Vorschlag doppelt liegt und was allein bleibt.",
+      "Ein Kind malt nur die linke Hälfte an; blenden Sie die blassen Umrisse der fehlenden Partner ein und lassen Sie die Kinder sie einzeln antippen, bis das Muster vollständig ist.",
+      "Drücken Sie auf ein Kästchen und lassen Sie die Klasse erst zeigen, welches Kästchen jenseits der Faltlinie mitleuchten wird.",
+      "Der Lehrplan verlangt in der Grundschule, symmetrische Muster nicht nur zu erkennen, sondern auch selbst herzustellen; das Faltpapier übernimmt genau den zweiten Teil, den Arbeitsblätter meist auslassen.",
+      "Malen Sie ein Muster an, das nur von Ecke zu Ecke passt, und lassen Sie die Kinder zuerst die senkrechte Faltlinie ausprobieren und beschreiben, woran sie merken, dass diese Faltlinie nicht die gesuchte ist."
+    ],
+    "metaTitle": "Das Faltpapier — Symmetrie falten statt ankreuzen",
+    "metaDescription": "Karopapier auf dem Klassenbildschirm: Kästchen anmalen, die Faltlinie setzen und falten. Die Kinder machen das Spiegelbild selbst und das Papier antwortet."
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

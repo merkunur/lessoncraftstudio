@@ -935,6 +935,34 @@
     "metaTitle": "Gráfico de barras para a turma | ferramenta gratuita",
     "metaDescription": "Enquete na lousa: cada criança toca a sua resposta e as figuras viram um gráfico de barras. Ferramenta gratuita para os anos iniciais."
   },
+  "folding-sheet": {
+    "slug": "folha-que-dobra-simetria",
+    "name": "A folha que dobra",
+    "tagline": "A turma pinta os quadradinhos, escolhe onde passa o vinco e dobra a folha para ver o que encaixa.",
+    "about": [
+      "A folha que dobra é um quadrado de papel quadriculado projetado na lousa. As crianças pintam os quadradinhos que quiserem, uma de cada vez, enquanto a turma acompanha. Na folha existe um vinco: você pode deixar em pé, deitado ou de um canto ao outro, e pode arrastar para onde precisar. Quando o desenho fica pronto, você dobra, e a metade de longe vem pousar em cima da metade de perto. Não é preciso preparar nada na véspera, porque começa tudo com uma folha em branco e uma pergunta.",
+      "A metade que vira se comporta como papel de seda: dá para enxergar através dela, e o que estava embaixo continua aparecendo. Onde um quadradinho pintado cai em cima de outro quadradinho pintado, o papel fica com duas camadas e a cor fica mais forte. Onde um quadradinho pintado cai no papel branco, fica uma camada só, do jeito que já estava. E quando duas cores diferentes se encontram, aparece uma terceira cor que nenhuma das duas tinha. Ver o movimento é o que ensina, porque na folha impressa a figura refletida já chega pronta, e aqui a turma vê de onde ela veio.",
+      "Perguntar se um desenho é simétrico não basta: falta dizer em relação a qual vinco. O vinco é um palpite, e dobrar é o jeito de testar esse palpite. Duas crianças podem colocar o vinco em lugares diferentes, dobrar cada uma a sua e deixar o papel resolver a discussão. Por isso o convite é sempre o mesmo: abra, mude o vinco de lugar, experimente na diagonal e dobre outra vez. O mesmo desenho pode encaixar de um jeito e não encaixar de outro, e é justamente essa diferença que rende conversa.",
+      "Aqui nada corrige. Não existe certo nem errado escrito na tela, não existe pontuação e não existe tempo correndo: quando um quadradinho fica com uma camada só, quem está dizendo isso é o papel, e não um juiz. O botão “Abrir” devolve o desenho exatamente como estava, e “Mostrar o espelho” faz aparecer o contorno claro dos quadradinhos que faltariam, sem pintar no lugar de ninguém, porque quem toca são as crianças. Nada fica salvo, e quando a página fecha a folha vai embora. Fica só o que a turma viu dobrar."
+    ],
+    "howToUse": [
+      "Projete a folha e deixe algumas crianças pintarem os quadradinhos que escolherem.",
+      "Escolha a direção do vinco, em pé, deitado ou de um canto ao outro, e pergunte à turma onde ele deve ficar.",
+      "Antes de dobrar, peça que digam em voz alta o que vai acontecer com dois ou três quadradinhos.",
+      "Dobre e parem para olhar onde o papel ficou com duas camadas e onde ficou com uma só.",
+      "Abra, mude o vinco de lugar e repita com o mesmo desenho.",
+      "Use “Mostrar o espelho” quando quiserem completar o desenho: as crianças tocam os contornos claros e pintam de verdade."
+    ],
+    "classroomIdeas": [
+      "Pinte você quatro ou cinco quadradinhos de um lado só e peça que a turma complete a folha para que tudo encaixe na hora de dobrar.",
+      "Deixe uma criança pintar e outra adivinhar quais quadradinhos faltam do outro lado; só depois vocês dobram e olham juntos.",
+      "Pegue o mesmo desenho e experimente três vincos diferentes; anotem no caderno com qual deles tudo encaixou e com qual não encaixou.",
+      "A BNCC traz o reconhecimento de simetria de reflexão já nos anos iniciais: aqui a criança não só reconhece uma figura pronta, ela produz o reflexo e depois põe o próprio palpite à prova.",
+      "Terminem com papel de verdade: dobrem uma folha quadriculada ao meio, pintem uma das metades e levem a folha até a janela para copiar os quadradinhos que aparecem na transparência."
+    ],
+    "metaTitle": "Simetria de dobrar para a turma | ferramenta grátis",
+    "metaDescription": "Um quadriculado para pintar e dobrar na lousa: a metade de longe pousa na outra e a turma vê o que encaixa. Ferramenta gratuita para os anos iniciais."
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

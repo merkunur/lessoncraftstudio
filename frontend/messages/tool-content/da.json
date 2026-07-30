@@ -935,6 +935,34 @@
     "metaTitle": "Søjlediagram for klassen | gratis værktøj",
     "metaDescription": "Afstemning på tavlen: børnene trykker på deres svar, og figurerne bliver til et søjlediagram. Gratis værktøj til indskolingen og 0. klasse."
   },
+  "folding-sheet": {
+    "slug": "foldearket-symmetri-spejling",
+    "name": "Foldearket",
+    "tagline": "Klassen farvelægger ternene, bestemmer hvor folden skal ligge, og folder så arket for at se, hvad der lander oven på hvad.",
+    "about": [
+      "Foldearket er et kvadrat af ternet papir på tavlen. Børnene farvelægger de tern, de har lyst til, ét barn ad gangen, mens resten af klassen kigger med. På arket ligger der en fold: den kan stå på højkant, ligge på tværs eller gå fra hjørne til hjørne, og den kan flyttes derhen, hvor I vil have den. Når tegningen er færdig, folder du arket, og den halvdel, der ligger længst væk, lægger sig oven på den nærmeste. Der skal ikke forberedes noget aftenen før, for I begynder med et blankt ark og et spørgsmål.",
+      "Den halvdel, der vender rundt, opfører sig som kalkerpapir: man kan se igennem den, og det, der lå nedenunder, bliver ved med at være der. Hvor et farvet tern lander oven på et farvet tern, er der to lag papir, og farven bliver kraftigere. Hvor et farvet tern lander på blankt papir, er der kun ét lag, lige så lyst som før. Møder to forskellige farver hinanden, bliver det til en tredje farve, som ingen af dem havde i forvejen. Selve bevægelsen er det, der underviser, for på et arbejdsark er spejlingen sket på forhånd, og her ser børnene, hvor den kommer fra.",
+      "Spørgsmålet om, hvorvidt en tegning er symmetrisk, kan ikke besvares, før nogen siger, om hvilken fold. Folden er en påstand, og det at folde er måden at afprøve den på. To børn kan lægge folden to forskellige steder, folde hver sin gang og lade papiret afgøre sagen. Derfor er opfordringen den samme hver gang: fold ud, flyt folden, prøv den på skrå, og fold igen. Den samme tegning kan passe den ene vej og slet ikke passe den anden, og netop den forskel er værd at tale om.",
+      "Der er ikke noget her, der retter. Ingen mærker for rigtigt og forkert, ingen point og ingen tid, der løber: når et tern kun har ét lag, er det papiret, der siger det, og ikke en bedømmelse. »Fold ud« giver tegningen tilbage præcis, som den var, og »Vis spejlet« lader svage omrids dukke op der, hvor de manglende tern ville ligge, uden at farvelægge for børnene, for det er dem, der trykker. Der bliver ikke gemt noget, og når siden lukkes, er arket væk. Tilbage står kun det, klassen så blive foldet."
+    ],
+    "howToUse": [
+      "Vis foldearket på tavlen, og lad et par børn farvelægge de tern, de vælger.",
+      "Vælg foldens retning, på højkant, på tværs eller fra hjørne til hjørne, og spørg klassen, hvor den skal ligge.",
+      "Lad børnene sige højt, hvad der sker med to eller tre bestemte tern, før du folder.",
+      "Fold arket, og bliv stående ved billedet: hvor er der to lag, og hvor er der kun ét.",
+      "Fold ud, flyt folden et andet sted hen, og prøv den samme tegning igen.",
+      "Brug »Vis spejlet«, når I vil gøre tegningen færdig: børnene trykker på de svage omrids og gør dem virkelige."
+    ],
+    "classroomIdeas": [
+      "Farvelæg selv fire eller fem tern i den ene halvdel, og bed klassen gøre arket færdigt, så det hele lander oven på hinanden, når der bliver foldet.",
+      "Lad ét barn farvelægge og et andet gætte, hvilke tern der mangler på den anden side; først bagefter folder I og ser efter sammen.",
+      "Tag den samme tegning, og prøv den med tre forskellige folde; skriv i hæftet, hvilke der fik det hele til at passe, og hvilken der ikke gjorde.",
+      "Fælles Mål lægger allerede i indskolingen op til arbejdet med spejling og symmetri, og her genkender barnet ikke bare en færdig figur, det laver spejlingen selv og prøver sin egen påstand af.",
+      "Slut af med rigtigt papir: fold et ternet ark på midten, farvelæg den ene halvdel, og hold arket op mod vinduet for at tegne de tern af, der skinner igennem."
+    ],
+    "metaTitle": "Foldearket — symmetri og spejling | gratis værktøj",
+    "metaDescription": "Et ternet ark på tavlen: børnene farvelægger, folden lægges, hvor I vil have den, og arket foldes. Så ser klassen, hvad der lander oven på hvad."
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

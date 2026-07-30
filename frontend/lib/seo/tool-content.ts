@@ -17,7 +17,7 @@ import { TOPIC_ENABLED_LOCALES } from '@/config/topic-locales';
 import { buildHreflangAlternates } from './hreflang';
 
 /** Canonical tool keys — match the mini-tool file basenames + MANIPULATIVES ids. */
-export const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler', 'sound-boxes', 'blending-board', 'letter-tiles', 'calendar-wall', 'number-talk-easel', 'rekenrek', 'class-timer', 'name-sticks', 'center-board', 'learning-clock', 'place-value-lab', 'picture-word-wall', 'hush-owl', 'wodb', 'story-line', 'fraction-kitchen', 'measurement-bench', 'money-mat', 'choral-counting', 'our-day', 'heart-words', 'syllable-splitter', 'estimation-jar', 'feelings-check-in', 'letter-studio', 'open-number-line', 'part-whole-frame', 'dictation-desk', 'home-language-bridge', 'sorting-hoops', 'number-balance', 'pattern-bench', 'reading-easel', 'class-graph'] as const;
+export const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler', 'sound-boxes', 'blending-board', 'letter-tiles', 'calendar-wall', 'number-talk-easel', 'rekenrek', 'class-timer', 'name-sticks', 'center-board', 'learning-clock', 'place-value-lab', 'picture-word-wall', 'hush-owl', 'wodb', 'story-line', 'fraction-kitchen', 'measurement-bench', 'money-mat', 'choral-counting', 'our-day', 'heart-words', 'syllable-splitter', 'estimation-jar', 'feelings-check-in', 'letter-studio', 'open-number-line', 'part-whole-frame', 'dictation-desk', 'home-language-bridge', 'sorting-hoops', 'number-balance', 'pattern-bench', 'reading-easel', 'class-graph', 'folding-sheet'] as const;
 export type ToolKey = (typeof TOOL_KEYS)[number];
 
 /** Mini-tool HTML path (nginx-direct, §3.3) per tool key. */
@@ -59,6 +59,7 @@ export const TOOL_MINI_URL: Record<ToolKey, string> = {
   'pattern-bench': '/mini-tools/pattern-bench.html',
   'reading-easel': '/mini-tools/reading-easel.html',
   'class-graph': '/mini-tools/class-graph.html',
+  'folding-sheet': '/mini-tools/folding-sheet.html',
 };
 
 /**
@@ -108,6 +109,7 @@ export const TOOL_ACTIVITY_PREFIX: Record<ToolKey, string> = {
   'pattern-bench': 'pattern-bench',
   'reading-easel': 'reading-easel',
   'class-graph': 'class-graph',
+  'folding-sheet': 'folding-sheet',
 };
 
 export interface ToolEntry {
@@ -172,6 +174,7 @@ interface ToolContentFile {
   'pattern-bench'?: ToolEntry;
   'reading-easel'?: ToolEntry;
   'class-graph'?: ToolEntry;
+  'folding-sheet'?: ToolEntry;
   labels: ToolContentLabels;
 }
 

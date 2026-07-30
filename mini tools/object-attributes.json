@@ -1,0 +1,7503 @@
+{
+ "$comment": "Conceptual attributes of the depicted OBJECT — language-independent, never about the picture or the word. Seeded from picture-library theme membership, then corrected per key. Consumed by mini tools/sorting-hoops.js.",
+ "$fields": {
+  "living": [
+   "living",
+   "once_living",
+   "never_living"
+  ],
+  "natural": [
+   "natural",
+   "made"
+  ],
+  "edible": [
+   "yes",
+   "no"
+  ],
+  "moves": [
+   "self",
+   "moved",
+   "still"
+  ],
+  "size_band": [
+   "hand",
+   "person",
+   "bigger"
+  ],
+  "habitat": [
+   "land",
+   "water",
+   "air",
+   "none"
+  ]
+ },
+ "v": 1,
+ "count": 933,
+ "reviewed": 456,
+ "keys": {
+  "accordion": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "acorn": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "actor": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "airplane": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "alarm-clock": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "alligator": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "water"
+  },
+  "allosaurus": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "ambulance": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "angel": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "angelfish": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "water"
+  },
+  "ankle": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "ankylosaurus": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "ant": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "antelope": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "apatosaurus": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "apple": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "apple-pie": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "apple-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "apricot": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "apron": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "architect": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "argentinosaurus": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "arm": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "armadillo": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "armchair": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "artist": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "ash-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "asparagus": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "aspen-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "aster": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "asteroid": {
+   "living": "never_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "astronaut": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "athlete": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "author": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "autumn": {
+   "living": "never_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "avocado": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "azalea": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "baby": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "baby-girl": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "backpack": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "bacon": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "badge": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "badger": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "bag": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "bagel": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "baguette": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "baker": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "baking-sheet": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "ball": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "ballerina": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "balloon": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "banana": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "banana-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "bandage": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "banyan-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "baobab-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "barbecue": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "barber": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "barrette": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "baseball": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "basket": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "bat": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "bathing-suit": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "bathtub": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "beach": {
+   "living": "never_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "beach-bag": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "beach-ball": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "beach-umbrella": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "beanie": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "bear": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "beaver": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "bed": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "bee": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "beech-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "beetle": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "beetroot": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "begonia": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "bell": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "bell-pepper": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "belt": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "bench": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "bicycle": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "binder": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "binoculars": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "birch-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "bird": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "birdhouse": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "biscuit": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "bison": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "blackberry": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "blender": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "blouse": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "blue-jay": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "bluebell": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "blueberry": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "boat": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "boiled-egg": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "bolt": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "bonfire": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "book": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "bookcase": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "bookshelf": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "bottle": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "bow-tie": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "bowl": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "bracelet": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "brachiosaurus": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "brain": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "bread": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "broccoli": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "brontosaurus": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "broom": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "brownie": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "brush": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "bucket": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "bud": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "bull": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "bulldozer": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "bun": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "bunny": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "bus": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "bus-driver": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "butter": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "butter-knife": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "buttercup": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "butterfly": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "cabana": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "cabbage": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "cabin": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "cabinet": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "cake": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "cake-pan": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "calculator": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "calf": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "camel": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "camper": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "campfire": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "camping-chair": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "can": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "canary": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "candle": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "candy": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "candy-cane": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "canoe": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "cap": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "cape": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "car": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "cardigan": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "cardinal": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "carnation": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "carnotaurus": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "carpenter": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "carpet": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "carrot": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "cart": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "cash-register": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "cashier": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "cast": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "cat": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "caterpillar": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "cauliflower": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "caulking-gun": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "cedar-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "celery": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "cement-mixer": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "centipede": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "cereal": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "chair": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "chameleon": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "cheese": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "cheesecake": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "cheetah": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "chef": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "cherry": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "cherry-blossom": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "cherry-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "chess": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "chestnut-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "chick": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "chicken": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "chimney": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "chimpanzee": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "chin": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "chinchilla": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "chipmunk": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "chocolate": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "chocolate-bar": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "church": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "cinnamon-roll": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "circle": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "clementine": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "clock": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "closet": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "cloud": {
+   "living": "never_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "clover": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "clownfish": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "water"
+  },
+  "coach": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "coat": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "cobra": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "cockatiel": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "coconut": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "coconut-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "coffee-table": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "colander": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "columbine": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "comb": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "comet": {
+   "living": "never_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "compass": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "computer": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "computer-keyboard": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "cone": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "construction-worker": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "cook": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "cookie": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "cookie-cutter": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "cookie-sheet": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "cooler": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "coral": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "water"
+  },
+  "corn": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "cornflower": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "couch": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "cow": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "crab": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "water"
+  },
+  "cranberry": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "crane": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "water"
+  },
+  "crayon": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "crib": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "cricket": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "crocus": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "croissant": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "cross": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "crossing-guard": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "crow": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "crown": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "cube": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "cucumber": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "cup": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "cupcake": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "cushion": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "cutting-board": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "cylinder": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "cypress-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "daffodil": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "dahlia": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "dandelion": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "deer": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "deinonychus": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "delivery": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "delivery-driver": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "desk": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "detective": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "diamond": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "dice": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "dimetrodon": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "dinosaur": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "diplodocus": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "dishwasher": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "doctor": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "dog": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "dogwood-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "doll": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "dolphin": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "water"
+  },
+  "domino": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "donkey": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "donut": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "door": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "doughnut": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "dove": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "dragon": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "air"
+  },
+  "dragonfly": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "dress": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "dresser": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "driftwood": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "drum": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "dryer": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "duck": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "water"
+  },
+  "duckling": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "water"
+  },
+  "dump-truck": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "dustpan": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "eagle": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "air"
+  },
+  "ear": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "earmuffs": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "earth": {
+   "living": "never_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "earthworm": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "easter-egg": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "eclair": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "egg": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "eggplant": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "elbow": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "electric-drill": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "elephant": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "elf": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "elm-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "envelope": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "eraser": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "evergreen": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "excavator": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "extension-cord": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "eye": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "eyebrow": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "face": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "falcon": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "fan": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "farmer": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "faucet": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "feather": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "fence": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "ferret": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "ferry": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "fig": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "finch": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "finger": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "fir-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "fire-truck": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "firefighter": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "firefly": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "fireplace": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "fish": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "water"
+  },
+  "fishing-rod": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "flag": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "flamingo": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "water"
+  },
+  "flashlight": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "flight-attendant": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "floor-lamp": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "florist": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "flower": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "flute": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "foal": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "folder": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "foot": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "forehead": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "forest": {
+   "living": "never_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "forget-me-not": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "fork": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "forklift": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "forsythia": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "fox": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "fridge": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "fried-egg": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "frisbee": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "frog": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "water"
+  },
+  "frying-pan": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "galaxy": {
+   "living": "never_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "garage": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "garbage-truck": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "garden": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "gardener": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "garland": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "garlic": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "gate": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "gazelle": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "gecko": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "gerbil": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "ghost": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "giganotosaurus": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "gingerbread": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "gingerbread-man": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "giraffe": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "girl": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "glass": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "globe": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "glove": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "glue": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "goat": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "goggles": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "goldfish": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "water"
+  },
+  "goose": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "water"
+  },
+  "gopher": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "gorilla": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "grapefruit": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "grass": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "grasshopper": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "grater": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "green-beans": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "grill": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "guinea-pig": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "guitar": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "hair": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "hair-tie": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "halloween": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "ham": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "hamburger": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "hammer": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "hammock": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "hamster": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "hand": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "handbag": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "handsaw": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "harp": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "harvest": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "hat": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "hawk": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "haystack": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "head": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "headband": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "heart": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "heater": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "hedgehog": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "heel": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "helicopter": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "hemlock-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "hen": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "heptagon": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "heron": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "water"
+  },
+  "hexagon": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "hibiscus": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "hippopotamus": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "hockey": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "honey": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "hoodie": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "hornbill": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "horse": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "hose": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "hot-air-balloon": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "hot-dog": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "house": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "hummingbird": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "hydrangea": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "hyena": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "ice": {
+   "living": "never_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "ice-cream": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "ichthyosaurus": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "water"
+  },
+  "icicle": {
+   "living": "never_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "igloo": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "iguana": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "iguanodon": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "iron": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "ironing-board": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "island": {
+   "living": "never_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "jacket": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "jaguar": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "jam": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "janitor": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "jar": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "jasmine": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "jeans": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "jeep": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "jellyfish": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "water"
+  },
+  "jet": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "judge": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "jug": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "juice": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "juice-box": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "jumpsuit": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "juniper-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "kangaroo": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "kayak": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "kettle": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "key": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "keyboard": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "kingfisher": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "kitchen": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "kitchen-scale": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "kite": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "kiwi": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "knee": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "knife": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "koala": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "komodo-dragon": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "ladder": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "ladle": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "ladybug": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "lake": {
+   "living": "never_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "lamb": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "lamp": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "lantern": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "laundry-basket": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "lavender": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "lawn-mower": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "leaf": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "leek": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "leg": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "leggings": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "lego": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "lemon": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "lemon-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "lemonade": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "lemur": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "leopard": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "letter": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "lettuce": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "liberty": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "librarian": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "lid": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "life-jacket": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "lifeguard": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "lifeguard-tower": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "light-switch": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "lighthouse": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "lilac": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "lily": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "lime": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "lion": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "lip": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "lizard": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "llama": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "lock": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "log": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "lollipop": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "lotus": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "water"
+  },
+  "lunchbox": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "macaron": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "macaw": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "magpie": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "maiasaura": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "mail-carrier": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "mail-truck": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "mailbox": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "manatee": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "water"
+  },
+  "mango": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "map": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "maple-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "marigold": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "marker": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "mask": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "measuring-cup": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "mechanic": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "medal": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "medicine": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "meerkat": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "melon": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "meteor": {
+   "living": "never_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "microwave": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "milk": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "milkshake": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "millipede": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "mirror": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "mistletoe": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "mitten": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "mixer": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "monkey": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "monster-truck": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "moon": {
+   "living": "never_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "moose": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "mop": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "morning-glory": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "mosasaurus": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "water"
+  },
+  "mosquito": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "motorcycle": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "mountain": {
+   "living": "never_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "mouse": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "mouth": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "muffin": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "muffin-tin": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "mug": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "mushroom": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "musician": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "nail": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "narwhal": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "water"
+  },
+  "native-american": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "nativity": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "neck": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "necklace": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "nectarine": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "nest": {
+   "living": "never_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "net": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "nightstand": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "nose": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "notebook": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "nurse": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "nut": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "nutcracker": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "oak-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "oar": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "oatmeal": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "octopus": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "water"
+  },
+  "office-worker": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "oil": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "onion": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "orange": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "orange-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "orangutan": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "orca": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "water"
+  },
+  "orchard": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "orchid": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "ornament": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "ostrich": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "otter": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "water"
+  },
+  "ottoman": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "outlet": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "oval": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "oven": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "oven-mitt": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "overalls": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "oviraptor": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "owl": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "ox": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "oyster": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "water"
+  },
+  "pachycephalosaurus": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "package": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "paint-brush": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "pajamas": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "palm-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "pan": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "pancake": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "panda": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "pants": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "papaya": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "paper": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "paper-airplane": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "parallelogram": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "paramedic": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "parasaurolophus": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "park-ranger": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "parrot": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "parsnip": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "party-hat": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "pasta": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "peach": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "peach-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "peacock": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "peanut-butter": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "pear": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "pear-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "peeler": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "pegasus": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "air"
+  },
+  "pelican": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "water"
+  },
+  "pen": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "pencil": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "penguin": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "pentagon": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "peony": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "pepper": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "persimmon": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "petunia": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "pharmacist": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "phlox": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "photographer": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "piano": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "picnic-table": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "picture-frame": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "pie": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "pig": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "pigeon": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "pillow": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "pilot": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "pine-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "pineapple": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "pinecone": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "pitcher": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "pizza": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "planet": {
+   "living": "never_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "plate": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "plesiosaurus": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "water"
+  },
+  "pliers": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "plum": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "plum-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "plunger": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "polar-bear": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "police-car": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "police-officer": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "pomegranate": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "pool": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "popcorn": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "poplar-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "popsicle": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "porcupine": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "porridge": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "post-office": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "pot": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "potato": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "present": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "pretzel": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "pretzels": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "price-tag": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "pudding": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "puddle": {
+   "living": "never_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "pufferfish": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "water"
+  },
+  "puffin": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "pumpkin": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "purse": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "pyramid": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "quail": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "rabbit": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "raccoon": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "race-car": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "radish": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "rain": {
+   "living": "never_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "rainbow": {
+   "living": "never_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "raincoat": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "raindrop": {
+   "living": "never_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "rake": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "raspberry": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "ray": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "water"
+  },
+  "rectangle": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "rectangular-box": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "redbud-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "redwood-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "refrigerator": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "reindeer": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "remote-control": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "rhinoceros": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "ribbon": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "rice": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "ring": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "river": {
+   "living": "never_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "roasted-turkey": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "robin": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "robot": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "rock": {
+   "living": "never_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "rocket": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "rolling-pin": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "rooster": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "rope": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "rose": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "rudolph": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "rug": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "ruler": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "sack": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "sailboat": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "salamander": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "water"
+  },
+  "salt": {
+   "living": "never_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "salt-shaker": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "sand": {
+   "living": "never_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "sandbox": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "sandcastle": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "sanitation-worker": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "santa": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "satellite": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "sauce": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "saucepan": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "sausage": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "saxophone": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "scale": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "scallop": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "water"
+  },
+  "scarecrow": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "scarf": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "school-bus": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "scissors": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "scooter": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "screwdriver": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "scrubs": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "sea-horse": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "water"
+  },
+  "sea-lion": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "water"
+  },
+  "sea-turtle": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "water"
+  },
+  "seagull": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "seal": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "water"
+  },
+  "seashell": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "seaweed": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "water"
+  },
+  "sequoia-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "shampoo": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "shark": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "water"
+  },
+  "sheep": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "shelf": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "ship": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "shirt": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "shoe": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "shorts": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "shoulder": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "shovel": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "shrimp": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "water"
+  },
+  "singer": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "sink": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "skateboard": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "skeleton": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "skirt": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "sled": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "sledding": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "sleeping-bag": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "sleigh": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "slide": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "sloth": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "slug": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "smoothie": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "snail": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "snorkel": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "snowboarding": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "snowdrop": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "snowflake": {
+   "living": "never_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "snowman": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "snowsuit": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "sock": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "soda": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "sofa": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "spade": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "sparrow": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "spatula": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "sphere": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "spider": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "spinach": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "spirit-level": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "sponge": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "spoon": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "spruce-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "square": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "squash": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "squid": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "water"
+  },
+  "squirrel": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "stage": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "stairs": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "stamp": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "stapler": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "star": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "starfish": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "water"
+  },
+  "statue": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "stegosaurus": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "stethoscope": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "stocking": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "stool": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "stork": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "water"
+  },
+  "stove": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "strawberry": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "stretcher": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "student": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "styracosaurus": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "submarine": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "subway": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "sun": {
+   "living": "never_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "sun-hat": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "sunflower": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "sunglasses": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "sunscreen": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "surfboard": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "suspenders": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "swallow": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "swan": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "water"
+  },
+  "sweater": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "sweatpants": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "sweatshirt": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "swimsuit": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "swing": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "sycamore-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "syringe": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "t-shirt": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "table": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "tablet": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "tailor": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "tank-top": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "tape": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "tape-measure": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "tart": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "taxi": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "teacher": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "teapot": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "teddy-bear": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "telephone": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "telescope": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "television": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "tent": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "therizinosaurus": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "thermometer": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "thumb": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "thunderstorm": {
+   "living": "never_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "tiara": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "tie": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "tiger": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "tights": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "timer": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "tissue": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "toad": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "water"
+  },
+  "toast": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "toaster": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "toe": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "toilet": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "toilet-paper": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "tomato": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "tongs": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "tongue": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "toolbox": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "tooth": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "toothbrush": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "toothpaste": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "tortoise": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "toucan": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "tow-truck": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "tractor": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "trail": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "train": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "trapezoid": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "trash-can": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "tree": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "triangle": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "triceratops": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "trillium": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "trombone": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "trousers": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "truck": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "truck-driver": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "trumpet": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "tulip": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "tuna": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "water"
+  },
+  "turkey": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "turnip": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "turtle": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "water"
+  },
+  "tyrannosaurus-rex": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "umbrella": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "uncle-sam": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "underpants": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "uniform": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "us": {
+   "living": "never_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "vacuum-cleaner": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "van": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "vase": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "velociraptor": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "vest": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "veterinarian": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "video-game": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "violet": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "violin": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "vulture": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "air"
+  },
+  "waffle": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "waitress": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "wallet": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "walnut-tree": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "walrus": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "water"
+  },
+  "wand": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "wardrobe": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "washing-machine": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "wasp": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "watch": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "water": {
+   "living": "never_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "water-lily": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "water"
+  },
+  "watering-can": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "watermelon": {
+   "living": "once_living",
+   "natural": "natural",
+   "edible": "yes",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "wave": {
+   "living": "never_living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "weasel": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "whale": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "water"
+  },
+  "wheelchair": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "whisk": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "whistle": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "whiteboard": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "window": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "wisteria": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "wolf": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "person",
+   "habitat": "land"
+  },
+  "woodpecker": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "air"
+  },
+  "worm": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "hand",
+   "habitat": "land"
+  },
+  "wreath": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "wrist": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "x-ray": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "hand",
+   "habitat": "none"
+  },
+  "xylophone": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "person",
+   "habitat": "none"
+  },
+  "yacht": {
+   "living": "never_living",
+   "natural": "made",
+   "edible": "no",
+   "moves": "moved",
+   "size_band": "bigger",
+   "habitat": "none"
+  },
+  "zebra": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "self",
+   "size_band": "bigger",
+   "habitat": "land"
+  },
+  "zinnia": {
+   "living": "living",
+   "natural": "natural",
+   "edible": "no",
+   "moves": "still",
+   "size_band": "hand",
+   "habitat": "land"
+  }
+ }
+}

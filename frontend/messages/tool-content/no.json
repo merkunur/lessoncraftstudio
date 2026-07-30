@@ -879,6 +879,34 @@
     "metaTitle": "Mønsterbenken – gjentakende mønstre | gratis verktøy",
     "metaDescription": "Bygg delen som gjentar seg, så fortsetter stripen selv. Farger, former og bilder for arbeid med gjentakende mønstre på småtrinnet."
   },
+  "reading-easel": {
+    "slug": "lesebuer",
+    "name": "Lesebuer",
+    "tagline": "Én setning på skjermen, buer satt av klassen og en stemme som gjør forskjellen mellom avkoding og lesing hørbar.",
+    "about": [
+      "På skjermen foran klassen står det én setning, satt så stort at den kan leses fra den bakerste pulten. Mellom hvert ordpar ligger det et mellomrom som kan trykkes på: trykket setter en grense, og ordene mellom to grenser samles under en bue. Læreren skriver setninga selv eller velger en av de åtte ferdige. Fra da av kan den samme linja leses på to måter, og forskjellen mellom dem hører elevene i stedet for å få den forklart. Verktøyet er gratis; hele linjebiblioteket og utskrift hører til Lærerpakken.",
+      "Et barn som leser ord for ord, har avkodet, men har ikke lest ennå. Avkodinga blir både undervist i og testet; inndelinga i meningsbærende ordgrupper står ingen steder på sida, og ingen tegn forteller hvor stemmen skal holde sammen og hvor den kan slippe. Likevel er det der meninga blir til, for meninga ligger ikke i det enkelte ordet, men i gruppa. Å dele setninga i grupper og lese hver gruppe samla er den kjente veien, den samme som lærere alltid har gått med tusj på tavla. Forskjellen her er at arbeidet har fått en stemme.",
+      "Når buene er satt, leser verktøyet linja to ganger: først som en robot, med pause etter hvert eneste ord, og så i lærerens buer, der pausen bare kommer ved grensene. En gjennomgang leser én gruppe om gangen og lyser den opp underveis. Hvor buen hører hjemme, sier verktøyet aldri: i de fleste setninger kan flere inndelinger forsvares, og en uenighet i klassen er mer verdt enn en fasit. Verktøyet gjør nøyaktig det klassen har markert, så en bue på et rart sted får setninga til å falle fra hverandre nettopp der. Kommaene viser seg å ville ha en bue, og tegnsettinga blir hørt fram.",
+      "Det finnes ingen stoppeklokke her, og det kommer det aldri til å gjøre. Leseflyt er nettopp det området markedet setter klokka på: ord per minutt, lesing på tid, et tall å sammenligne med. Men farten er den delen av lesinga som ennå ikke er lesing, og et barn som hører klokka, slutter å høre sin egen stemme. Her blir ingenting telt, tatt tid på eller registrert; igjen står setninga, buene klassen ble enige om, og den tida det tar. LK20 snakker om å lese med flyt og sammenheng, og sammenhengen kommer av buene."
+    ],
+    "howToUse": [
+      "Skriv setninga for dagen, eller velg en av de åtte ferdige.",
+      "Vis linja på tavla, og la den bli lest én gang uten buer.",
+      "Trykk i mellomrommet mellom to ord for å sette en grense, så samles ordene imellom under en bue.",
+      "Velg les som en robot, og hør pausen etter hvert eneste ord.",
+      "Hør så lesinga i klassens egne buer, og spør hva som ble annerledes.",
+      "Bruk gjennomgangen som leser én gruppe per trykk, og la elevene bytte på."
+    ],
+    "classroomIdeas": [
+      "La to elever markere den samme setninga på hver sin måte, hør begge, og la klassen argumentere for hvilken inndeling som holder meninga samla.",
+      "Sett med vilje en bue mellom substantivet og adjektivet; setninga faller hørbart fra hverandre, og elevene kan selv forklare hvorfor.",
+      "Ta en setning med to komma, og si ingenting før noen oppdager at kommaet vil ha en bue.",
+      "Hent en lang setning fra boka klassen leser, og sett buene sammen før den leses i kor.",
+      "Skriv ut den samme setninga på papir, la elevene tegne buene med blyant, og hør etterpå om valgene holder."
+    ],
+    "metaTitle": "Leseflyt: les setninga i buer | gratis verktøy",
+    "metaDescription": "Del setninga i buer på tavla, hør opplesinga som robot og i lærerens buer, og øv leseflyt med hele klassen uten stoppeklokke og poeng."
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

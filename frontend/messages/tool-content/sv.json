@@ -879,6 +879,34 @@
     "metaTitle": "Fortsätta mönster på tavlan | gratis verktyg",
     "metaDescription": "Mönsterverkstaden: fortsätta mönster, gömma mönsterdelen och jämföra färger, former och bilder. Ett gratis tavelverktyg för förskoleklass till åk 3."
   },
+  "reading-easel": {
+    "slug": "lasa-i-fraser",
+    "name": "Läsbågar",
+    "tagline": "En mening på duken, delad i bågar av klassen och uppläst två gånger: en gång som en robot, en gång så som ni menade den.",
+    "about": [
+      "Läsbågar visar en enda mening på duken, tillräckligt stor för sista bänkraden. Mellan varje par av ord finns en lucka som går att trycka på. Ett tryck sätter en gräns där, och orden mellan gränserna samlas under en gemensam båge. Du skriver in en egen mening eller väljer en av åtta färdiga rader. Mer apparat än så finns inte: en rad, luckorna, bågarna och en röst som läser upp precis det du har satt.",
+      "Ett barn som läser ord för ord har avkodat men ännu inte läst. Avkodningen undervisas, tränas och screenas; frasering syns inte i något material. På en mening går det inte att se var den andas. Lgr22 talar om att läsa med flyt och förståelse, men hur en mening ska låta kan ingen sida visa. Därför står steget från korrekt avkodning till förstående läsning öppet i flera år hos många barn: de träffar varje ord och tappar ändå innehållet, eftersom satsen kommer in i lösa bitar.",
+      "Att dela en mening i fraser och läsa varje fras i ett svep är det vanliga svaret på detta; lärare har alltid gjort det med en penna på tavlan. Det nya är rösten. Tavlan läser upp två gånger: en gång som en robot, med paus efter varje ord, och en gång i dina bågar. Var en båge hör hemma säger programmet aldrig. I de flesta meningar går det att försvara flera lösningar, och samtalet om saken ger mer än ett besked. Sätt en båge på ett underligt ställe, så hörs meningen falla isär just där. På vägen visar det sig att kommatecknen nästan alltid vill ha en båge.",
+      "Här finns ingen klocka, och det kommer aldrig att finnas någon. Läsflyt är det enda område som marknaden genast räknar om till ord per minut: stoppur, poäng, jämförelse. Just den delen är inte läsning. Läshastighet mäts visserligen i screeningar under de första skolåren, men det hör hemma i lärarens kartläggning, inte på duken framför hela klassen. Tavlan räknar ingenting, tar ingen tid och sparar ingenting. Den gör bara hörbart vad klassen just har bestämt, och sedan får någon tycka annorlunda."
+    ],
+    "howToUse": [
+      "Skriv in en egen mening eller välj en av de åtta färdiga raderna.",
+      "Visa raden på duken och låt den först läsas som en robot.",
+      "Fråga vilka ord som hör ihop och tryck på de luckor klassen pekar ut.",
+      "Över varje grupp lägger sig en båge; även en udda gräns står kvar tills någon invänder.",
+      "Låt meningen läsas i dina bågar och låt klassen sätta ord på skillnaden.",
+      "Avsluta med att gå fram steg för steg: ett tryck, en grupp lyser upp och läses."
+    ],
+    "classroomIdeas": [
+      "Ta en mening med två kommatecken och sätt bågar utan att nämna skiljetecknen; klassen hamnar nästan alltid på kommatecknen och har hört regeln innan den lärs ut.",
+      "Sätt medvetet en båge mitt inne i en ordgrupp och lyssna; barnen hör brottet direkt och pekar själva ut var bågen hör hemma.",
+      "Låt två elever dela samma rad olika och spela upp båda; om båda håller, tala om vad som förskjuts i innehållet.",
+      "Använd steg för steg till körläsning: en båge läses upp, klassen upprepar gruppen i ett andetag.",
+      "Skriv in en mening ur högläsningsboken, sätt bågarna tillsammans och låt eleverna föra över dem med blyerts i sin egen text."
+    ],
+    "metaTitle": "Läsflyt och frasering | gratis verktyg för klassen",
+    "metaDescription": "En mening på duken, delad i bågar och uppläst två gånger. Öva läsflyt och frasering med hela klassen, utan klocka och utan poäng."
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

@@ -1,0 +1,142 @@
+{
+  "it": {
+    "slug": "leggere-a-gruppi-di-parole",
+    "name": "Leggere a gruppi di parole",
+    "tagline": "Una frase sullo schermo, gli archi decisi dalla classe e la voce che fa sentire la differenza fra decifrare e leggere.",
+    "about": [
+      "Sullo schermo della classe compare una frase sola, scritta grande perché si legga anche dall’ultimo banco. Fra una parola e l’altra c’è uno spazio che si tocca: al tocco nasce un confine, e le parole che restano fra due confini vengono raccolte sotto l’arco. La frase la scrive l’insegnante, oppure si sceglie fra otto frasi già pronte. Da quel momento la stessa riga può essere letta in due modi diversi, e la differenza fra i due si sente, non si spiega. Lo strumento è gratuito; la raccolta completa di frasi e la stampa fanno parte del piano Insegnante.",
+      "Un bambino che legge parola per parola ha decifrato, ma non ha ancora letto. La decifrazione si insegna e si verifica; il raggruppamento delle parole, invece, resta invisibile sulla pagina: nessun segno dice dove la voce deve tenere insieme e dove può staccare. Eppure è lì che il significato prende forma, perché il senso non sta nella singola parola ma nel gruppo. Dividere la frase in gruppi e leggerli come tali è il rimedio che le maestre conoscono da sempre, con il pennarello sulla lavagna. Qui lo stesso lavoro passa attraverso una voce, che il pennarello non ha.",
+      "Segnati gli archi, lo strumento legge la riga due volte: prima come un robot, con una pausa dopo ogni parola, poi seguendo gli archi dell’insegnante, con la pausa solo ai confini. C’è anche un passo a passo: a ogni tocco si accende e si legge un gruppo solo. Dove vada l’arco, però, non lo dice nessuno: in quasi ogni frase più di una divisione è difendibile, e discuterne in classe vale più che riceverne una già pronta. Lo strumento obbedisce: un arco messo in un punto strano fa sentire la frase sfaldarsi lì. Quasi sempre le virgole finiscono per chiedere un arco, e la punteggiatura si scopre con l’orecchio.",
+      "Non c’è un cronometro, e non ci sarà. La fluenza è la cosa che il mercato trasforma più volentieri in gara: sillabe al secondo, prove a tempo, un punteggio da confrontare. Ma la rapidità è la parte della lettura che non è ancora lettura, e un bambino che sente ticchettare l’orologio smette di ascoltare la propria voce. Qui non si conta nulla, non si misura nulla, non si segna nulla: restano una frase, gli archi decisi insieme e il tempo che serve per sentirli. Le prove cronometrate esistono altrove; qui il traguardo è quello delle Indicazioni nazionali, la lettura espressiva ad alta voce."
+    ],
+    "howToUse": [
+      "Scrivi la frase del giorno oppure scegline una fra le otto già pronte.",
+      "Proietta la riga e falla leggere una prima volta senza archi.",
+      "Tocca lo spazio fra due parole per posare un confine: le parole rimaste insieme finiscono sotto l’arco.",
+      "Avvia la lettura come un robot, con una pausa dopo ogni parola.",
+      "Avvia poi la lettura per archi e chiedi alla classe che cosa è cambiato.",
+      "Usa il passo a passo per leggere un gruppo per tocco, a turno fra i bambini."
+    ],
+    "classroomIdeas": [
+      "Fai proporre due divisioni diverse della stessa frase, ascoltatele una dopo l’altra e discutete quale tiene insieme il significato.",
+      "Metti di proposito un arco fra il nome e il suo aggettivo: la frase si sfalda ad alta voce e il motivo diventa evidente senza spiegazioni.",
+      "Prendi una frase con due virgole e non dire nulla, finché qualcuno non nota che le virgole chiedono un arco.",
+      "Porta nello strumento una frase lunga del libro di lettura in corso e segnate insieme gli archi prima di leggerla in coro.",
+      "Stampa la stessa frase su foglio, fai disegnare gli archi a matita e poi verificate le scelte ascoltandole."
+    ],
+    "metaTitle": "Lettura espressiva a gruppi di parole | strumento gratis",
+    "metaDescription": "Dividi la frase in gruppi di parole, tocca gli archi e ascolta le due letture: un esercizio di lettura espressiva per la LIM, senza cronometro."
+  },
+  "pt": {
+    "slug": "ler-por-grupos-de-palavras",
+    "name": "Ler por grupos de palavras",
+    "tagline": "Uma frase na tela, os arcos decididos pela turma e a voz que faz ouvir a diferença entre decodificar e ler.",
+    "about": [
+      "Na tela da turma aparece uma frase só, grande o bastante para ser lida do fundo da sala. Entre uma palavra e outra há um espaço que se toca: o toque marca uma fronteira, e as palavras que ficam entre duas fronteiras se juntam sob o arco. A professora digita a frase que quiser ou escolhe uma das oito já prontas. A partir daí a mesma linha pode ser lida de dois jeitos, e a diferença entre eles se ouve em vez de ser explicada. A ferramenta é gratuita; a biblioteca completa de frases e a impressão fazem parte do plano Professor.",
+      "Uma criança que lê palavra por palavra decodificou, mas ainda não leu. A decodificação é ensinada e cobrada; o agrupamento das palavras não aparece na página, e nenhum sinal diz onde a voz precisa segurar e onde pode soltar. É ali, porém, que o sentido se forma, porque o sentido não mora na palavra isolada e sim no grupo. Dividir a frase em grupos de palavras e ler cada grupo inteiro é o caminho conhecido, o mesmo que se faz há décadas com o pincel na lousa. A diferença aqui é a voz, que o pincel não tem.",
+      "Marcados os arcos, a ferramenta lê a linha duas vezes: primeiro como um robô, com uma parada depois de cada palavra, e depois pelos arcos da professora, parando só nas fronteiras. Há também o passo a passo, que acende e lê um grupo por vez. Onde o arco deve entrar, ninguém diz: na maioria das frases mais de uma divisão se sustenta, e discutir isso rende mais do que receber a resposta pronta. A ferramenta obedece ao que a turma marcou, então um arco em lugar estranho faz a frase se desmanchar ali, em voz alta. As vírgulas, quase sempre, pedem um arco, e a pontuação chega pelo ouvido.",
+      "Não há cronômetro, e não vai haver. A fluência é justamente o ponto em que o mercado põe um relógio na frente da criança: palavras por minuto, prova cronometrada, um número para comparar. Só que a velocidade é a parte da leitura que ainda não é leitura, e quem ouve o relógio para de ouvir a própria voz. Aqui nada é contado, cronometrado ou registrado: ficam a frase, os arcos que a turma decidiu e o tempo que for preciso. A BNCC fala em ler com fluência e entonação, e entonação é o que se ensina agrupando."
+    ],
+    "howToUse": [
+      "Digite a frase do dia ou escolha uma das oito já prontas.",
+      "Projete a linha e peça uma primeira leitura, ainda sem arcos.",
+      "Toque no espaço entre duas palavras para marcar uma fronteira, e as palavras que ficam juntas passam a ter um arco.",
+      "Toque em como um robô e ouça a parada depois de cada palavra.",
+      "Ouça em seguida a leitura pelos arcos e pergunte à turma o que mudou.",
+      "Use o passo a passo para ler um grupo por toque, revezando as crianças."
+    ],
+    "classroomIdeas": [
+      "Peça duas divisões diferentes da mesma frase, ouça as duas e deixe a turma defender qual delas segura o sentido.",
+      "Coloque de propósito um arco entre o substantivo e o adjetivo: a frase se desmancha em voz alta e o motivo fica claro sem explicação.",
+      "Escolha uma frase com duas vírgulas e não comente nada até alguém perceber que a vírgula está pedindo um arco.",
+      "Traga uma frase comprida do livro que a turma está lendo e marquem os arcos juntos antes da leitura em coro.",
+      "Imprima a mesma frase, deixe as crianças desenharem os arcos a lápis e depois confiram as escolhas ouvindo a leitura."
+    ],
+    "metaTitle": "Fluência leitora: ler por grupos | ferramenta grátis",
+    "metaDescription": "Divida a frase em grupos de palavras na lousa, ouça os dois modos de ler e trabalhe a fluência leitora da turma, sem cronômetro e sem nota."
+  },
+  "da": {
+    "slug": "saetningsbuer",
+    "name": "Sætningsbuer",
+    "tagline": "Én sætning på skærmen, buer sat af klassen og en stemme, der gør forskellen mellem afkodning og læsning hørbar.",
+    "about": [
+      "På klassens skærm står én sætning, sat så stort at den kan læses fra bagerste bord. Mellem hvert ordpar er der et mellemrum, man kan trykke på: trykket sætter en grænse, og ordene mellem to grænser samles under en bue. Læreren skriver selv sætningen eller vælger en af de otte, der ligger klar. Derefter kan den samme sætning læses op på to måder, og forskellen mellem dem kan høres i stedet for at blive forklaret. Værktøjet er gratis; hele linjebiblioteket og udskrivning hører til Lærerpakken.",
+      "Et barn, der læser ord for ord, har afkodet, men har ikke læst endnu. Afkodningen bliver undervist i og testet; opdelingen i meningsfulde ordgrupper står ingen steder på siden, og intet tegn fortæller, hvor stemmen skal holde sammen, og hvor den må slippe. Alligevel er det dér, betydningen bliver til, for meningen ligger ikke i det enkelte ord, men i gruppen. At dele sætningen op og læse grupperne samlet er den velkendte vej, den samme som lærere altid har gået med en tusch på tavlen. Her har arbejdet fået en stemme, og det har tuschen ikke.",
+      "Når buerne er sat, læser værktøjet sætningen to gange: først som en robot, med en pause efter hvert eneste ord, og derefter i lærerens buer, hvor der kun holdes pause ved grænserne. En gennemgang læser én gruppe ad gangen og lyser den op undervejs. Hvor buen hører til, siger værktøjet aldrig: i de fleste sætninger kan flere opdelinger forsvares, og en diskussion i klassen er mere værd end et facit. Værktøjet adlyder præcis det, klassen har markeret, så en bue et mærkeligt sted får sætningen til at falde fra hinanden netop dér. Kommaerne viser sig at ville have en bue, og tegnsætningen bliver hørt frem, ikke forklaret.",
+      "Der er ikke noget stopur, og det kommer der heller ikke. Flydende læsning er netop det sted, hvor markedet stiller uret frem: ord i minuttet, en prøve på tid, et tal at sammenligne med. Men hastighed er den del af læsningen, der endnu ikke er læsning, og et barn, der hører uret, holder op med at høre sin egen stemme. Her bliver intet talt, taget tid på eller markeret; tilbage står sætningen, buerne som klassen blev enige om, og den tid det tager. Fælles Mål taler om at læse med forståelse og udtryk, og udtrykket kommer af buerne."
+    ],
+    "howToUse": [
+      "Skriv dagens sætning, eller vælg en af de otte, der ligger klar.",
+      "Vis sætningen på tavlen, og lad den blive læst op én gang uden buer.",
+      "Tryk i mellemrummet mellem to ord for at sætte en grænse, så ordene imellem samles under en bue.",
+      "Vælg læs som en robot, og hør pausen efter hvert eneste ord.",
+      "Hør derefter oplæsningen i klassens egne buer, og spørg, hvad der ændrede sig.",
+      "Brug gennemgangen, hvor der læses én gruppe pr. tryk, og lad eleverne skiftes."
+    ],
+    "classroomIdeas": [
+      "Bed to elever markere den samme sætning hver sin vej, hør begge dele, og lad klassen tale om, hvilken opdeling der holder betydningen samlet.",
+      "Sæt med vilje en bue mellem navneordet og dets tillægsord; sætningen falder hørbart fra hinanden, og eleverne kan selv sige hvorfor.",
+      "Tag en sætning med to kommaer, og sig ingenting, før nogen opdager, at kommaet gerne vil have en bue.",
+      "Hent en lang sætning fra den bog, klassen læser, og sæt buerne sammen, inden den læses i kor.",
+      "Udskriv den samme sætning på papir, lad eleverne tegne buerne med blyant, og hør bagefter, om valgene holder."
+    ],
+    "metaTitle": "Flydende læsning i buer | gratis værktøj til tavlen",
+    "metaDescription": "Del sætningen op i buer på tavlen, hør oplæsningen som robot og i lærerens buer, og træn flydende læsning uden stopur og uden point."
+  },
+  "no": {
+    "slug": "lesebuer",
+    "name": "Lesebuer",
+    "tagline": "Én setning på skjermen, buer satt av klassen og en stemme som gjør forskjellen mellom avkoding og lesing hørbar.",
+    "about": [
+      "På skjermen foran klassen står det én setning, satt så stort at den kan leses fra den bakerste pulten. Mellom hvert ordpar ligger det et mellomrom som kan trykkes på: trykket setter en grense, og ordene mellom to grenser samles under en bue. Læreren skriver setninga selv eller velger en av de åtte ferdige. Fra da av kan den samme linja leses på to måter, og forskjellen mellom dem hører elevene i stedet for å få den forklart. Verktøyet er gratis; hele linjebiblioteket og utskrift hører til Lærerpakken.",
+      "Et barn som leser ord for ord, har avkodet, men har ikke lest ennå. Avkodinga blir både undervist i og testet; inndelinga i meningsbærende ordgrupper står ingen steder på sida, og ingen tegn forteller hvor stemmen skal holde sammen og hvor den kan slippe. Likevel er det der meninga blir til, for meninga ligger ikke i det enkelte ordet, men i gruppa. Å dele setninga i grupper og lese hver gruppe samla er den kjente veien, den samme som lærere alltid har gått med tusj på tavla. Forskjellen her er at arbeidet har fått en stemme.",
+      "Når buene er satt, leser verktøyet linja to ganger: først som en robot, med pause etter hvert eneste ord, og så i lærerens buer, der pausen bare kommer ved grensene. En gjennomgang leser én gruppe om gangen og lyser den opp underveis. Hvor buen hører hjemme, sier verktøyet aldri: i de fleste setninger kan flere inndelinger forsvares, og en uenighet i klassen er mer verdt enn en fasit. Verktøyet gjør nøyaktig det klassen har markert, så en bue på et rart sted får setninga til å falle fra hverandre nettopp der. Kommaene viser seg å ville ha en bue, og tegnsettinga blir hørt fram.",
+      "Det finnes ingen stoppeklokke her, og det kommer det aldri til å gjøre. Leseflyt er nettopp det området markedet setter klokka på: ord per minutt, lesing på tid, et tall å sammenligne med. Men farten er den delen av lesinga som ennå ikke er lesing, og et barn som hører klokka, slutter å høre sin egen stemme. Her blir ingenting telt, tatt tid på eller registrert; igjen står setninga, buene klassen ble enige om, og den tida det tar. LK20 snakker om å lese med flyt og sammenheng, og sammenhengen kommer av buene."
+    ],
+    "howToUse": [
+      "Skriv setninga for dagen, eller velg en av de åtte ferdige.",
+      "Vis linja på tavla, og la den bli lest én gang uten buer.",
+      "Trykk i mellomrommet mellom to ord for å sette en grense, så samles ordene imellom under en bue.",
+      "Velg les som en robot, og hør pausen etter hvert eneste ord.",
+      "Hør så lesinga i klassens egne buer, og spør hva som ble annerledes.",
+      "Bruk gjennomgangen som leser én gruppe per trykk, og la elevene bytte på."
+    ],
+    "classroomIdeas": [
+      "La to elever markere den samme setninga på hver sin måte, hør begge, og la klassen argumentere for hvilken inndeling som holder meninga samla.",
+      "Sett med vilje en bue mellom substantivet og adjektivet; setninga faller hørbart fra hverandre, og elevene kan selv forklare hvorfor.",
+      "Ta en setning med to komma, og si ingenting før noen oppdager at kommaet vil ha en bue.",
+      "Hent en lang setning fra boka klassen leser, og sett buene sammen før den leses i kor.",
+      "Skriv ut den samme setninga på papir, la elevene tegne buene med blyant, og hør etterpå om valgene holder."
+    ],
+    "metaTitle": "Leseflyt: les setninga i buer | gratis verktøy",
+    "metaDescription": "Del setninga i buer på tavla, hør opplesinga som robot og i lærerens buer, og øv leseflyt med hele klassen uten stoppeklokke og poeng."
+  },
+  "fi": {
+    "slug": "lukukaaret",
+    "name": "Lukukaaret",
+    "tagline": "Yksi lause valkokankaalla, luokan itse merkitsemät kaaret ja ääni, joka tekee eron purkamisen ja lukemisen välillä kuuluvaksi.",
+    "about": [
+      "Luokan valkokankaalla on yksi lause, kirjoitettuna niin suureksi, että sen näkee takariviltäkin. Jokaisen sanavälin voi napauttaa: napautus asettaa rajan, ja rajojen väliin jäävät sanat kootaan yhden kaaren alle. Opettaja kirjoittaa lauseen itse tai valitsee yhden kahdeksasta valmiista. Tämän jälkeen sama lause voidaan lukea ääneen kahdella tavalla, ja ero kuuluu sen sijaan, että se selitettäisiin. Työkalu on maksuton; koko lausekirjasto ja tulostus kuuluvat Opettaja-tilaukseen.",
+      "Lapsi, joka lukee sana kerrallaan, on purkanut kirjoitusta mutta ei vielä lukenut. Teknistä lukutaitoa opetetaan ja mitataan, mutta sanojen ryhmittely ei näy sivulla mitenkään: mikään merkki ei kerro, missä äänen pitää pysyä koossa ja missä se saa pysähtyä. Juuri siinä merkitys kuitenkin syntyy, sillä merkitys ei asu yksittäisessä sanassa vaan ryhmässä. Lauseen jakaminen ryhmiin ja ryhmien lukeminen kokonaisina on tuttu keino, sama jota opettajat ovat tehneet tussilla taululle. Ero on siinä, että täällä työhön tulee mukaan ääni, jota tussilla ei ole.",
+      "Kun kaaret on merkitty, työkalu lukee lauseen kahdesti: ensin robottina, tauko jokaisen sanan jälkeen, ja sitten opettajan kaarten mukaan, jolloin tauko tulee vain rajoille. Askeltava luku etenee yksi ryhmä kerrallaan ja korostaa sen samalla. Työkalu ei koskaan kerro, mihin kaari kuuluu: useimmissa lauseissa jako voidaan perustella monella tavalla, ja siitä kiisteleminen opettaa enemmän kuin valmis vastaus. Työkalu tottelee luokkaa tarkalleen, joten oudosta kohdasta alkava kaari saa lauseen hajoamaan juuri siitä. Pilkut osoittautuvat kaaren paikoiksi, ja välimerkit opitaan korvalla eikä selityksestä.",
+      "Ajastinta ei ole eikä tule. Suomessa ei ole kansallisia kokeita, mutta sekuntikello löytyy silti monesta luokasta. Juuri lukusujuvuudesta tehdään helposti kilpailu: sanoja minuutissa, kello pöydän kulmalla, luku jota verrataan toisiin. Nopeus on kuitenkin se osa lukemista, joka ei vielä ole lukemista, ja kello vie lapsen huomion pois omasta äänestä. Täällä mitään ei lasketa, kelloteta eikä merkitä muistiin: jäljelle jäävät lause, luokan yhdessä sopimat kaaret ja se aika, joka niiden kuunteluun menee. OPS 2014 puhuu sujuvasta ja ilmaisevasta lukemisesta, ja ilmaisu syntyy ryhmittelystä."
+    ],
+    "howToUse": [
+      "Kirjoita päivän lause tai valitse yksi kahdeksasta valmiista.",
+      "Heijasta lause seinälle ja lue se ensin sellaisenaan, ilman kaaria.",
+      "Napauta sanaväliä, niin siihen tulee raja ja sanat kokoontuvat kaaren alle.",
+      "Valitse lue robottina ja kuuntele tauko jokaisen sanan jälkeen.",
+      "Kuuntele sitten luokan omien kaarten mukainen luku ja kysy, mikä muuttui.",
+      "Käytä askeltavaa lukua, kun haluat lasten lukevan yhden ryhmän kerrallaan."
+    ],
+    "classroomIdeas": [
+      "Pyydä kahta oppilasta merkitsemään sama lause eri tavoin, kuunnelkaa molemmat ja päättäkää yhdessä, kumpi jako pitää merkityksen koossa.",
+      "Aseta kaari tahallasi adjektiivin ja pääsanan väliin; luokka kuulee lauseen hajoavan ja osaa itse sanoa, mistä se johtuu.",
+      "Ota lause, jossa on kaksi pilkkua, äläkä sano niistä mitään ennen kuin joku huomaa, että pilkun kohdalle halutaan kaari.",
+      "Kirjoita työkaluun pitkä lause siitä kirjasta, jota luokka parhaillaan lukee, ja merkitkää kaaret yhdessä ennen kuorolukua.",
+      "Tulosta sama lause paperille, anna lasten piirtää kaaret kynällä ja tarkistakaa ratkaisut kuuntelemalla."
+    ],
+    "metaTitle": "Lukusujuvuus: lause kaariin | ilmainen työkalu",
+    "metaDescription": "Jaa lause kaariin luokan edessä, kuuntele robottiluku ja opettajan kaaret, ja harjoittele lukusujuvuutta ilman sekuntikelloa ja pisteitä."
+  }
+}

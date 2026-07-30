@@ -880,6 +880,34 @@
     "metaTitle": "Muster fortsetzen an der Tafel | kostenloses Werkzeug",
     "metaDescription": "Musterwerkstatt: Muster fortsetzen, Bausteine verstecken und Farben, Formen oder Bilder vergleichen – ein kostenloses Tafelwerkzeug für die Klassen 1 bis 3."
   },
+  "reading-easel": {
+    "slug": "sinnschritte-lesen",
+    "name": "Sinnschritt-Tafel",
+    "tagline": "Ein Satz an der Wand, von der Klasse in Bögen geteilt und zweimal vorgelesen: einmal wie ein Roboter, einmal so, wie ihr ihn gemeint habt.",
+    "about": [
+      "Die Sinnschritt-Tafel zeigt einen einzigen Satz an der Wand, groß genug für die letzte Reihe. Zwischen je zwei Wörtern liegt eine Lücke, die sich antippen lässt. Ein Tippen setzt dort eine Grenze, und die Wörter dazwischen rücken unter einen gemeinsamen Bogen zusammen. Sie tippen einen eigenen Satz ein oder nehmen eine der acht vorbereiteten Zeilen. Mehr Apparat gibt es nicht: eine Zeile, die Lücken, die Bögen und eine Stimme, die genau das vorliest, was Sie gesetzt haben.",
+      "Ein Kind, das Wort für Wort liest, hat dekodiert, aber noch nicht gelesen. Das Erlesen wird unterrichtet, geübt und geprüft; das Gliedern in Sinnschritte steht auf keinem Arbeitsblatt. Einem Satz sieht man nicht an, wo er atmet. Der Lehrplan nennt das Ziel sinnverstehendes Lesen, aber wie ein Satz klingen soll, kann kein Blatt zeigen. Deshalb bleibt der Schritt vom richtigen Erlesen zum verstehenden Lesen bei vielen Kindern jahrelang offen: Sie treffen jedes Wort und verlieren trotzdem den Sinn, weil der Satz in Einzelteilen bei ihnen ankommt.",
+      "Einen Satz in Sinnschritte zu zerlegen und diese Gruppen zu lesen, ist das übliche Mittel dagegen; Lehrkräfte machen das seit jeher mit dem Stift an der Tafel. Neu ist die Stimme. Die Tafel liest zweimal vor: einmal wie ein Roboter, mit einer Pause nach jedem Wort, und einmal in Ihren Bögen. Wo ein Bogen hingehört, sagt sie nie. In den meisten Sätzen sind mehrere Lösungen vertretbar, und der Streit darüber ist mehr wert als eine Ansage. Setzen Sie einen Bogen an eine seltsame Stelle, hört man den Satz dort auseinanderfallen. Nebenbei zeigt sich, dass die Kommas fast immer einen Bogen wollen: Zeichensetzung, mit dem Ohr entdeckt.",
+      "Eine Uhr gibt es hier nicht, und es wird nie eine geben. Leseflüssigkeit ist der eine Bereich, den der Markt sofort in Wörter pro Minute übersetzt: Stoppuhr, Punktzahl, Vergleich mit der Nachbarklasse. Genau dieser Teil ist nicht das Lesen. Auch dort, wo die Lesegeschwindigkeit in der Schule erhoben wird, gehört sie in die Diagnostik der Lehrkraft und nicht auf die Leinwand vor der ganzen Klasse. Die Tafel zählt nichts, misst nichts und hält nichts fest. Sie macht nur hörbar, was die Klasse gerade beschlossen hat."
+    ],
+    "howToUse": [
+      "Tippen Sie einen eigenen Satz ein oder wählen Sie eine der acht vorbereiteten Zeilen.",
+      "Werfen Sie die Zeile an die Wand und lassen Sie sie zuerst wie ein Roboter vorlesen.",
+      "Fragen Sie, welche Wörter zusammengehören, und tippen Sie an den Lücken, die die Klasse nennt.",
+      "Über jeder Gruppe erscheint ein Bogen; auch ungewöhnliche Grenzen bleiben stehen, bis jemand widerspricht.",
+      "Lassen Sie den Satz in den Bögen vorlesen und hören Sie den Unterschied zum Roboter.",
+      "Gehen Sie am Ende Schritt für Schritt durch: ein Tippen, eine Gruppe leuchtet auf und wird gelesen."
+    ],
+    "classroomIdeas": [
+      "Nehmen Sie einen Satz mit zwei Kommas und lassen Sie die Bögen setzen, ohne die Zeichen zu erwähnen. Die Klasse landet fast immer auf den Kommas und hat die Regel gehört, bevor sie sie lernt.",
+      "Setzen Sie absichtlich einen Bogen mitten in eine Wortgruppe und lassen Sie vorlesen. Die Kinder hören den Bruch sofort und sagen Ihnen, wohin der Bogen gehört.",
+      "Lassen Sie zwei Kinder dieselbe Zeile unterschiedlich gliedern und beide Fassungen anhören; wenn beide tragen, sprechen Sie darüber, was sich am Sinn verschiebt.",
+      "Nutzen Sie den Schritt-für-Schritt-Modus für das Chorlesen: ein Bogen wird vorgelesen, die Klasse spricht ihn als Ganzes nach.",
+      "Tippen Sie einen Satz aus der Klassenlektüre ein, setzen Sie die Bögen gemeinsam und übertragen Sie sie mit Bleistift ins Buch."
+    ],
+    "metaTitle": "Sinnschritte lesen üben | kostenloses Klassenzimmer-Tool",
+    "metaDescription": "Ein Satz an der Wand, in Bögen geteilt und zweimal vorgelesen: Sinnschritte lesen und Leseflüssigkeit hörbar machen, ohne Stoppuhr und ohne Punkte."
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

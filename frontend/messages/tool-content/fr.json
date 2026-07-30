@@ -879,6 +879,34 @@
     "metaTitle": "Suites organisées au tableau | outil gratuit",
     "metaDescription": "L’atelier des motifs : poursuivre une suite organisée, cacher le motif et comparer couleurs, formes et images. Outil de tableau gratuit, cycles 1 et 2."
   },
+  "reading-easel": {
+    "slug": "lire-par-groupes-de-mots",
+    "name": "Lire par groupes de mots",
+    "tagline": "Une phrase au tableau, découpée en arcs par la classe, puis lue deux fois : comme un robot, puis telle que vous l’entendez.",
+    "about": [
+      "Lire par groupes de mots affiche une seule phrase au tableau, assez grande pour le fond de la classe. Entre chaque paire de mots se trouve un espace sur lequel on peut appuyer. Une pression y pose une frontière, et les mots compris entre deux frontières se rassemblent sous un même arc. Vous saisissez la phrase de votre choix ou vous prenez une des huit lignes déjà prêtes. Il n’y a rien de plus : une ligne, les espaces, les arcs et une voix qui lit exactement ce que vous avez posé.",
+      "Un enfant qui lit mot après mot a déchiffré, mais il n’a pas encore lu. Le déchiffrage, lui, est enseigné, travaillé et évalué ; le découpage en groupes de mots ne se voit sur aucune page. Rien, dans une phrase écrite, n’indique où elle respire. Les programmes officiels du cycle 2 visent une lecture fluide et comprise, et pourtant le passage du mot juste au sens tenu reste ouvert pendant des années : l’élève touche chaque mot et perd le fil, parce que la phrase lui arrive en morceaux.",
+      "Découper une phrase en groupes et lire chaque groupe d’un seul tenant : voilà le remède habituel, que les enseignants appliquent depuis toujours au feutre, sur le tableau. La nouveauté, c’est la voix. L’outil lit deux fois : une fois comme un robot, avec un arrêt après chaque mot, puis une fois dans vos arcs. Où placer l’arc, il ne le dira jamais. Dans la plupart des phrases, plusieurs découpages se défendent, et la discussion vaut mieux qu’une consigne. Posez un arc à un endroit étrange : la phrase se casse là, et cela s’entend. On découvre au passage que la virgule réclame presque toujours un arc.",
+      "Il n’y a pas de chronomètre, et il n’y en aura jamais. La fluence est le seul domaine que le marché convertit aussitôt en mots correctement lus par minute, avec un score et un classement. Or cette partie-là n’est pas la lecture. Le test de fluence existe, il figure même dans les évaluations nationales, et il relève du suivi de l’enseignant, pas de l’écran devant toute la classe. Ici, rien n’est compté, rien n’est chronométré, rien n’est conservé. La voix rend seulement audible ce que la classe vient de décider."
+    ],
+    "howToUse": [
+      "Saisissez une phrase ou choisissez une des huit lignes déjà prêtes.",
+      "Affichez la ligne au tableau et faites-la lire une première fois comme un robot.",
+      "Demandez quels mots vont ensemble et appuyez sur les espaces que la classe désigne.",
+      "Un arc se pose au-dessus de chaque groupe ; une frontière inattendue reste en place tant que personne ne la conteste.",
+      "Faites relire la phrase avec vos arcs et demandez ce qui a changé.",
+      "Terminez pas à pas : une pression, un groupe s’allume et se lit."
+    ],
+    "classroomIdeas": [
+      "Prenez une phrase à deux virgules et faites poser les arcs sans parler de ponctuation ; la classe tombe presque toujours sur les virgules et entend la règle avant de l’apprendre.",
+      "Placez volontairement un arc au milieu d’un groupe et faites lire ; les enfants entendent la cassure et indiquent eux-mêmes un autre endroit.",
+      "Faites découper la même ligne de deux façons par deux élèves, écoutez les deux versions et discutez de ce qui se déplace dans le sens.",
+      "Servez-vous du pas à pas pour la lecture en écho : un groupe est lu, la classe le répète d’un seul tenant.",
+      "Saisissez une phrase du livre en cours de lecture, posez les arcs ensemble, puis faites reporter ces arcs au crayon sur le texte des élèves."
+    ],
+    "metaTitle": "Fluence : lire par groupes de mots | outil gratuit",
+    "metaDescription": "Une phrase au tableau, découpée en arcs et lue deux fois. Travailler la fluence et la lecture par groupes de mots en classe, sans chronomètre."
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

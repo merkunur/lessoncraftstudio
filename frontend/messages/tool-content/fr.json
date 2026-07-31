@@ -1047,6 +1047,35 @@
     "metaTitle": "Expérience aléatoire cycle 2 | Le sac du hasard à projeter",
     "metaDescription": "Un sac opaque à projeter : la classe annonce ce qu’elle pense y trouver, puis tire. Chaque tirage reste affiché et chaque pièce retourne dans le sac."
   },
+  "lids": {
+    "slug": "partage-equitable-groupement-reste-cp",
+    "name": "Les couvercles",
+    "tagline": "Posez deux couvercles sur un plateau de jetons : chacun cache le même nombre. La classe propose un nombre, vous soulevez, et chacun voit les parts égales — et les jetons qui restent.",
+    "about": [
+      "À l'écran, un plateau et des jetons. Vous faites glisser un couvercle : les jetons qu'il recouvre disparaissent. Posez-en un deuxième, un troisième, et tout se réorganise aussitôt, car tous les couvercles de la même couleur cachent exactement le même nombre de jetons. Ceux qui ne se partagent pas restent bien visibles sur le plateau. Une bande numérique permet de poser un repère sur le nombre proposé par la classe.",
+      "Au CP et au CE1, les programmes demandent de résoudre des problèmes de partage équitable et de groupement bien avant d'écrire une division. C'est justement là que ça coince : un nombre inconnu répété n'est pas un nombre inconnu isolé. Avec un seul couvercle, l'élève retire ; avec trois couvercles qui doivent cacher la même quantité, il faut partager. Aucune étude ne mesure l'effet de ce dispositif : c'est un support de manipulation collective, rien de plus.",
+      "La discussion démarre vraiment au troisième couvercle. À deux, beaucoup d'élèves procèdent par moitié ou par essais ; à trois, la moitié ne fonctionne plus et il faut trouver un nombre qui tienne trois fois. Les élèves proposent, comptent de trois en trois, reviennent en arrière, puis butent sur le reste : « il en reste deux, on ne peut pas les mettre dessous ». Ce reste, posé bien en vue sur le plateau, est souvent le vrai sujet de la séance.",
+      "Rien à lire pour les élèves : le plateau, les couvercles et les jetons se comprennent d'un coup d'œil, y compris avec des élèves allophones ou non lecteurs. L'outil s'ouvre dans le navigateur, sans compte ni installation, et se pilote au doigt sur TBI comme à la souris sous vidéoprojecteur. Le nombre proposé par la classe n'est jamais validé ni corrigé par l'écran : on soulève, on regarde, on en discute."
+    ],
+    "howToUse": [
+      "Choisissez le nombre de jetons du plateau, puis posez deux couvercles.",
+      "Demandez à la classe quel nombre de jetons se trouve sous chaque couvercle, sans rien confirmer.",
+      "Faites placer le repère sur la bande numérique, sur le nombre que la classe retient.",
+      "Soulevez les couvercles : chaque part apparaît sous son couvercle et les jetons non partagés restent sur le plateau.",
+      "Recouvrez, ajoutez un troisième couvercle et reprenez la même question avec le même total.",
+      "Changez de plateau pour relancer la routine avec une autre quantité."
+    ],
+    "classroomIdeas": [
+      "Gardez le même total et faites varier le nombre de couvercles : la classe note à chaque fois la part et le reste.",
+      "Faites écrire l'énoncé au tableau avant de soulever : 13 jetons, 3 couvercles, quel nombre sous chacun ?",
+      "Cherchez collectivement les totaux qui ne laissent aucun jeton de côté avec trois couvercles, et dressez-en la liste.",
+      "En CE1, faites dire l'addition répétée (5 + 5 + 5) après le soulèvement, puis passez à l'écriture multiplicative.",
+      "Demandez d'anticiper avant toute manipulation : si j'ajoute un couvercle, la part augmente-t-elle ou diminue-t-elle ?",
+      "Faites chercher en binômes sur ardoise, puis n'acceptez qu'un seul repère posé après discussion."
+    ],
+    "metaTitle": "Partage équitable CP-CE1 : jetons, couvercles et reste",
+    "metaDescription": "Posez des couvercles sur un plateau de jetons : chacun cache le même nombre. La classe cherche la part, voit le reste. Outil gratuit CP-CE1, sans compte."
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

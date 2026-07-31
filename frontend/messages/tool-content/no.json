@@ -1047,6 +1047,35 @@
     "metaTitle": "Tilfeldighet i matematikk – Trekkposen | gratis verktøy",
     "metaDescription": "Lukket pose på storskjermen: klassen sier hva de tror er i posen, gjetningen fryser ved første trekk, og hver brikke går tilbake i posen. 1.-3. trinn."
   },
+  "lids": {
+    "slug": "dele-likt-deling-rest-divisjon-smatrinnet",
+    "name": "Lokkene",
+    "tagline": "Du legger lokk over brikkene på bordet, og alle lokkene skjuler like mange. Klassen argumenterer seg fram til ett tall, setter en markør – og så løfter dere lokkene og ser etter.",
+    "about": [
+      "På skjermen ligger et bord med runde brikker. Du drar et lokk ut på bordet, og brikkene under forsvinner. Legger du ned to lokk, fordeler brikkene seg likt: alle lokk i samme farge skjuler nøyaktig like mange. Brikkene som ikke går opp, blir liggende synlig ved siden av – resten. Klassen setter en markør på tallremsa før dere løfter, og da ser dere brikkene ligge under sitt eget lokk.",
+      "Å dele likt er et av de første stedene der matematikken slutter å være telling. På 1.–2. trinn arbeider elevene med addisjon og subtraksjon og med like store grupper, mens multiplikasjon og divisjon først kommer for alvor på 3.–4. trinn. Lokkene ligger i mellomrommet, innenfor tall og algebra og kjerneelementene utforsking og problemløsing og resonnering og argumentasjon. Vi lover ingen målt effekt – dette er en arbeidsmåte, ikke et opplegg med dokumentert virkning.",
+      "Med ett lokk gjetter ikke klassen: de trekker fra, og saken er ferdig. Med to lokk må det samme tallet passe to steder, og elevene begynner å prøve seg fram – «åtte? nei, da blir det for mange». Så legger du ned det tredje lokket, og der stopper det opp. Ett ukjent tall som gjentas, er ikke det samme som ett ukjent tall; hele bordet må plutselig deles ut i stedet for regnes bort. Diskusjonen går ikke om svaret, men om hvorfor tallet ikke kan være åtte.",
+      "Elevene trenger ikke å lese noe for å være med – det står tall på remsa og ligger brikker på bordet, ellers ingenting. Verktøyet åpnes i nettleseren uten innlogging og er laget for projektor og smartboard, så hele klassen ser det samme bordet samtidig. Gjetningen til klassen blir aldri merket som riktig eller gal: markøren står der den står, lokkene løftes, og brikkene svarer selv. Større tall, bordsamlingen og utskrift følger med Lærerabonnementet."
+    ],
+    "howToUse": [
+      "Velg hvor mange brikker som skal ligge på bordet, og la klassen se hele bordet før du dekker noe til.",
+      "Legg to lokk på bordet og spør: hvor mange ligger under hvert lokk?",
+      "La elevene begrunne før noen setter markøren på tallremsa – be alltid om et «fordi».",
+      "Løft lokkene, og la klassen se brikkene ligge under sitt eget lokk.",
+      "Legg på lokkene igjen, legg ned et tredje, og still det samme spørsmålet en gang til.",
+      "Ta fram et bord der det blir brikker til overs, og la klassen forklare hvorfor de ikke får plass."
+    ],
+    "classroomIdeas": [
+      "Kjør det samme bordet to ganger etter hverandre – først med to lokk, så med tre – og la elevene si hva som forandret seg.",
+      "Be to elever forsvare hvert sitt tall på remsa før dere løfter; klassen stemmer ikke, de argumenterer.",
+      "Start med 12 brikker, som går opp både på to, tre og fire lokk, og la elevene finne alle måtene bordet kan deles på.",
+      "Bruk et bord med rest som inngang til spørsmålet: hvor mange brikker måtte vi hatt for at det skulle gå opp?",
+      "La én elev styre lokkene mens resten av klassen snakker – den som drar, sier ingenting.",
+      "Skriv gjetningene til klassen på tavla underveis, og se på rekka etterpå: hvordan snevret dere inn?"
+    ],
+    "metaTitle": "Dele likt med rest – deling på 1.–2. trinn | Lokkene",
+    "metaDescription": "Gratis verktøy til projektoren: legg lokk over brikkene, alle skjuler like mange, og resten blir liggende synlig. Klassen argumenterer før dere løfter."
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

@@ -69,6 +69,7 @@ export const TOOL_CATEGORY: Record<string, ToolCategory> = {
   // Absent, this fell back to 'number' and filed a chance instrument under
   // "Numbers & Counting", silently.
   'draw-bag': 'measurement',
+  'lids': 'number',
 
   // Reading & phonics — sounds, letters, words, sentences
   'sound-boxes': 'literacy',

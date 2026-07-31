@@ -1047,6 +1047,35 @@
     "metaTitle": "Eventi casuali alla LIM: il sacchetto delle estrazioni",
     "metaDescription": "Un sacchetto opaco alla LIM: la classe dice che cosa pensa ci sia, poi estrae. Ogni estrazione resta in vista e ogni pezzo torna nel sacchetto."
   },
+  "lids": {
+    "slug": "coperchi-divisione-parti-uguali-resto",
+    "name": "I coperchi",
+    "tagline": "Appoggi due coperchi sul tavolo dei gettoni — sotto ognuno c'è lo stesso numero — la classe discute, ferma il segnalino su un numero e solo allora i coperchi si alzano e si vede che cosa avanza.",
+    "about": [
+      "Sullo schermo c'è un tavolo con dei gettoni tutti uguali. Trascini sopra un coperchio e i gettoni che copre spariscono; ne aggiungi un secondo e i gettoni si risistemano da soli, perché tutti i coperchi dello stesso colore ne devono coprire esattamente lo stesso numero. Quelli che non si lasciano spartire restano sul tavolo, in vista. La classe sceglie un numero e lo ferma sulla striscia; poi i coperchi si alzano e sotto ciascuno compaiono i gettoni.",
+      "Le Indicazioni nazionali chiedono, già in prima e in seconda, di lavorare su raggruppamenti e ripartizioni molto prima che compaiano i simboli: dividere una quantità in parti uguali (divisione per ripartizione), capire quante volte una quantità sta dentro un'altra (contenenza) e dare un senso a ciò che avanza. È un terreno faticoso, perché tutte queste situazioni somigliano al «togliere» e non lo sono. Il tavolo dei coperchi le rende visibili; non è uno strumento con prove di efficacia misurata.",
+      "Con un coperchio solo la classe fa una sottrazione: guarda quanti gettoni mancano al totale e ha finito. Con due, deve accettare che quello stesso numero valga per tutti e due. Il momento vero è il terzo coperchio: chi contava all'indietro si ferma, perché adesso il totale va spartito e non tolto. Lì nascono le frasi che valgono la lezione — «allora non può essere sette», «se ne metto uno in più a questo devo metterlo anche agli altri» — e qualcuno scopre da solo che certi totali non si dividono.",
+      "Non c'è niente da leggere: funziona con bambini che non leggono ancora e con chi sta imparando l'italiano. Si apre nel browser sulla LIM o dal proiettore, senza registrazione e senza installare nulla, e si usa anche da tablet. Non c'è punteggio e non c'è tempo, e il numero scelto dalla classe non viene mai segnato in alcun modo: i coperchi si alzano e quello che si vede lo commentate voi. Totali più grandi, la raccolta di tavoli e la stampa fanno parte del piano Insegnante."
+    ],
+    "howToUse": [
+      "Scegli quanti gettoni ci sono sul tavolo e proietta la schermata sulla LIM.",
+      "Metti giù due coperchi e lascia qualche secondo di silenzio prima di chiedere qualsiasi cosa.",
+      "Chiedi «sotto ognuno c'è lo stesso numero: quale?» e fai parlare almeno due bambini prima di toccare la striscia.",
+      "Ferma il segnalino sul numero che la classe ha deciso, anche quando sai già che cosa troverete.",
+      "Alza i coperchi e fai raccontare che cosa si vede, compresi i gettoni avanzati.",
+      "Rimetti i coperchi, aggiungine un terzo e rifai la stessa domanda."
+    ],
+    "classroomIdeas": [
+      "Tieni fermi 12 gettoni e passa da due a tre a quattro coperchi: la classe scopre da sola quali situazioni si lasciano spartire e quali no.",
+      "Lascia tre coperchi e cambia il totale (9, 10, 11, 12), poi fate insieme la lista dei totali che lasciano qualcosa sul tavolo.",
+      "Fai scrivere sul quaderno la previsione prima di alzare i coperchi e, accanto, quello che si è visto dopo: si confronta, non si corregge.",
+      "Chiedi a un bambino di rispiegare con parole sue la strategia di un compagno prima di mettere il segnalino.",
+      "Usa i gettoni avanzati come domanda a parte: quanti ne servirebbero ancora per riempire tutti i coperchi?",
+      "Stampa il tavolo (piano Insegnante) e fai ricostruire la stessa situazione al banco con i tappi o con i gettoni veri."
+    ],
+    "metaTitle": "Dividere in parti uguali e il resto | I coperchi primaria",
+    "metaDescription": "Gratis sulla LIM, classe prima e seconda: sotto ogni coperchio lo stesso numero di gettoni. La classe divide in parti uguali e scopre che cosa avanza."
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

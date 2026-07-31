@@ -68,7 +68,11 @@ MAIN_LOC_RE = re.compile(r"^\s*location\s+/\s*\{")
 BLOCK = """    {marker}
     # Live 200s with no robots directive — see the §21.7 gate. Header-only:
     # a robots.txt Disallow would hide the header and leave URL-only entries.
-    location ~ ^/(?:(?:big-small-debug|big-small-final|check-tier|clear-device-and-test|easy-page-manager|find-count-borders-only|homepage-content-manager|homepage-content-manager-v2|homepage-content-manager-v3|homepage-content-manager-v3-fixed|test-auth|test-device-conflict|test-watermark|user-control)\\.html|static-pages/en/pages/cryptopicpuzzlestudio\\.html|upload/?|[a-z]{{2}}/test(?:-simple)?/?)$ {{
+    # The pattern MUST be quoted: nginx's own config parser treats a bare `{{`/`}}`
+    # as a block delimiter, so an unquoted `[a-z]{{2}}` truncates the regex at
+    # `[a-z]` and `nginx -t` fails with "missing ) in ...". Same idiom as the
+    # placeholder-410 location already in this file.
+    location ~ "^/(?:(?:big-small-debug|big-small-final|check-tier|clear-device-and-test|easy-page-manager|find-count-borders-only|homepage-content-manager|homepage-content-manager-v2|homepage-content-manager-v3|homepage-content-manager-v3-fixed|test-auth|test-device-conflict|test-watermark|user-control)\\.html|static-pages/en/pages/cryptopicpuzzlestudio\\.html|upload/?|[a-z]{{2}}/test(?:-simple)?/?)$" {{
         add_header X-Robots-Tag "noindex" always;
         limit_req zone=lcsperip burst=40 nodelay;
         proxy_pass http://nextjs;

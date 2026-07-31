@@ -250,6 +250,18 @@ export default function middleware(request: NextRequest) {
     return NextResponse.redirect(new URL(`/en${localeLess}`, request.url), { status: 301 });
   }
 
+  // Unknown 2-letter locale prefix → 404 directly, never a hop into one.
+  // next-intl treats an unrecognised first segment as part of a locale-LESS path
+  // and prefixes the default locale, so `/zz/worksheets` became a 307 to
+  // `/en/zz/worksheets` which then 404s (measured 2026-07-31). The forensic audit
+  // records Google having discovered exactly this shape — "cross-locale ghosts …
+  // from the old hreflang emission" — so it is real crawl waste, not a hypothetical.
+  // Scoped to 2-letter segments only; no live top-level route is 2 letters.
+  const firstSeg = pathname.split('/')[1] || '';
+  if (/^[a-z]{2}$/.test(firstSeg) && !locales.includes(firstSeg as any)) {
+    return new NextResponse(null, { status: 404 });
+  }
+
   // 410 Gone for all permanently-removed routes — must run before intl middleware
   if (isRemovedRoute(pathname)) {
     return return410();

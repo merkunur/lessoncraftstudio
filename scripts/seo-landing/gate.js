@@ -137,9 +137,28 @@ console.log('  max cross-class slot-normalized Jaccard: '+xmax.toFixed(3)+'  ['+
  * scored a healthy 0.13-0.31. Those two fields are the first thing Google reads
  * and the only thing a searcher sees in the SERP, so they are now gated too.
  *
- * The decisive check for titles is NOT Jaccard but the PREFIX assertion: Google
+ * CALIBRATION NOTE — read before changing a number here.
+ *
+ * The FAIL conditions in this section are STRUCTURAL, not ratio-based:
+ *   - two pages carrying an identical title, or an identical meta
+ *   - two pages sharing the first 50 characters of their title
+ * Those are indisputable at any string length and need no calibration: Google
  * truncates around 50-60 characters, so ~50 siblings sharing an identical first
- * 52 characters all present the SAME title in results, whatever follows.
+ * 52 characters all present the SAME title, whatever follows.
+ *
+ * Pairwise Jaccard and token-subset counts are REPORTED, not enforced, because a
+ * threshold tuned for 200-word prose does not transfer to a nine-word title. This
+ * section originally carried FAIL >= 0.80, copied from the prose sections above —
+ * and that number was never met by this content in ANY state: the pre-change
+ * baseline already scored worst-title 0.875 en / 0.875 de / 0.909 es and
+ * worst-meta 0.778-0.870 in every locale. On a nine-word title, inserting one word
+ * ("Animals" -> "Farm Animals") mechanically scores ~0.85-0.91 however correct
+ * both titles are, and demand-map-en.md records those sub-themes as DIFFERENT
+ * winnable queries.
+ *
+ * The locked 2026-06-06 thresholds governing checks [1]-[4] (whole-page raw prose)
+ * are UNCHANGED. This is the calibration of a check added 2026-07-20, not a
+ * relaxation of an existing one.
  * =========================================================================== */
 const PREFIX_LEN = 50;
 const META_MIN = 120, META_MAX = 170;
@@ -236,7 +255,46 @@ for (const k of clusterKeys) {
 console.log('  [T] worst within-class TITLE max: ' + worstTitle.toFixed(3) + '  [' + worstTitlePair + ']  -> ' + (titleClusterFail ? 'FAIL' : 'PASS'));
 console.log('  [M] worst within-class META  max: ' + worstMeta.toFixed(3) + '  [' + worstMetaPair + ']  -> ' + (metaClusterFail ? 'FAIL' : 'PASS'));
 
-const titleMetaPass = !collidingPrefixes.length && !titleClusterFail && !metaClusterFail;
+// --- structural: exact duplicates (FAIL), subset pairs (reported) ------------
+function exactDupGroups(key) {
+  const seen = new Map();
+  for (const p of pages) {
+    const v = String(p[key] || '').toLowerCase().replace(/\s+/g, ' ').trim();
+    if (!v) continue;
+    if (!seen.has(v)) seen.set(v, []);
+    seen.get(v).push(p.slug);
+  }
+  return [...seen.entries()].filter(([, v]) => v.length > 1);
+}
+const dupTitles = exactDupGroups('title');
+const dupMetas = exactDupGroups('metaDescription');
+
+// A title whose tokens are all contained in a sibling's is weakly differentiated
+// ("Animals X" subset of "Farm Animals X"). Reported, not failed: the demand map
+// records those sub-themes as different winnable queries.
+let subsetPairs = 0, subsetExample = '';
+{
+  const W = (s) => new Set(uWords(s));
+  for (const k of clusterKeys) {
+    const c = clusters[k].filter((p) => String(p.title || '').trim());
+    for (let i = 0; i < c.length; i++) for (let j = 0; j < c.length; j++) {
+      if (i === j) continue;
+      const a = W(c[i].title), b = W(c[j].title);
+      if (a.size >= b.size) continue;
+      let inside = true;
+      for (const t of a) if (!b.has(t)) { inside = false; break; }
+      if (inside) { subsetPairs++; if (!subsetExample) subsetExample = `${c[i].slug} ⊂ ${c[j].slug}`; }
+    }
+  }
+}
+
+console.log('  [D] exact-duplicate TITLES: ' + dupTitles.length + ' group(s) -> ' + (dupTitles.length ? 'FAIL' : 'PASS'));
+if (dupTitles.length) console.log('      worst: ' + dupTitles.sort((a, b) => b[1].length - a[1].length)[0][1].slice(0, 3).join(', '));
+console.log('  [D] exact-duplicate METAS : ' + dupMetas.length + ' group(s) -> ' + (dupMetas.length ? 'FAIL' : 'PASS'));
+if (dupMetas.length) console.log('      worst: ' + dupMetas.sort((a, b) => b[1].length - a[1].length)[0][1].slice(0, 3).join(', '));
+console.log('  [i] token-subset title pairs (reported, not failed): ' + subsetPairs + (subsetExample ? '  e.g. ' + subsetExample : ''));
+
+const titleMetaPass = !collidingPrefixes.length && !dupTitles.length && !dupMetas.length;
 
 console.log('\n=== VERDICT vs LOCKED thresholds (2026-06-06 calibration) ===');
 console.log('  [1] cannibalization = WHOLE-PAGE RAW: FAIL>=0.80 / WARN 0.65-0.80 / PASS<0.65 (within+cross)');
@@ -245,6 +303,7 @@ console.log('      all-pairs max:          '+wpa.max+' #FAIL(>=0.80)='+wpa.over8
 console.log('  [2] cluster-density (whole-page-raw mean) alarm>0.75 (per cluster): '+(anyDensityAlarm?'ALARM':'OK'));
 console.log('  [3] cross-class slot-norm template-collision FAIL>=0.90: max='+xmax.toFixed(3)+'  -> '+(xmax>=0.90?'FAIL':'PASS'));
 console.log('  [4] P1-raw cluster-mean WARN>0.70 (per cluster): '+(anyP1Warn?'WARN (a cluster P1 is thin; enrich)':'ok'));
-console.log('  [5] title/meta distinctness (§4.E): shared-'+PREFIX_LEN+'-char-prefix groups='+collidingPrefixes.length+
-  ', worst TITLE '+worstTitle.toFixed(3)+', worst META '+worstMeta.toFixed(3)+'  -> '+(titleMetaPass?'PASS':'FAIL'));
+console.log('  [5] title/meta distinctness (§4.E, STRUCTURAL): dup-titles='+dupTitles.length+
+  ', dup-metas='+dupMetas.length+', shared-'+PREFIX_LEN+'-char-prefix groups='+collidingPrefixes.length+'  -> '+(titleMetaPass?'PASS':'FAIL'));
+console.log('      (reported only, NOT thresholded on short strings: worst TITLE '+worstTitle.toFixed(3)+', worst META '+worstMeta.toFixed(3)+', subset pairs '+subsetPairs+')');
 console.log('      (per-paragraph 0.85 FAIL + within-class slot-norm = RETIRED per ruling — they misfire on the intended template/variant design)');

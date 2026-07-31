@@ -233,6 +233,14 @@ node /opt/lessoncraftstudio/scripts/publish-cli/hreflang-codes.test.js || { echo
 echo "🔎 Indexable-route rule check..."
 node /opt/lessoncraftstudio/scripts/preflight-indexable-routes.js || { echo "ERROR: a text/html surface would ship with no robots/canonical directive — see CLAUDE.md §10"; exit 1; }
 
+# Guard: a tool must be COMPLETELY registered. The two points that were never on
+# the §21.5/§23.5 checklist both fail SILENTLY — a missing TOOL_CATEGORY files the
+# tool in the wrong hub section, and a missing tool-previews/<key>.webp swaps its
+# card picture for a generic glyph. Tool #38 shipped with both. The preview check
+# is self-disabling where no previews exist (they are gitignored).
+echo "🔎 Tool registration completeness check..."
+node /opt/lessoncraftstudio/scripts/preflight-tool-registration.js || { echo "ERROR: a tool is incompletely registered — see the registration points in CLAUDE.md §23.5"; exit 1; }
+
 # ============================================
 # PAYMENT-SYSTEM PROTECTION (pre-build FAIL)
 # ============================================

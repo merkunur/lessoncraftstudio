@@ -150,6 +150,20 @@ const SEEDS = {
   ],
   // "Nobody has answered yet" → cast votes so bars exist
   'class-graph': [{ sel: '.cgr-vote', nth: [0, 0, 0, 1, 1, 2] }],
+  // Nothing exists until something is drawn — no record row at all, and two
+  // of the three guess shelves are empty. Sort two pieces onto the shelves,
+  // drop the record to its 10-cell setting so it is ONE row rather than four,
+  // then draw SEVEN of the ten: enough that the record reads as a record, few
+  // enough that the bag stays enabled instead of greying out at 0.5 — and the
+  // bag is the hero of this card. Every control here is reachable on the
+  // anonymous load the generator performs (the 10-chip is free; the second run
+  // and the 40-cell record are not, and are not touched).
+  'draw-bag': [
+    { sel: '.drb-shelf.drb-pool .drb-gpiece', nth: [0, 0, 0] },
+    { sel: '.drb-shelf.drb-in .drb-gpiece', nth: 2 },
+    { sel: '.drb-bar .drb-group:first-child .drb-chip', nth: 0 },
+    { sel: '.drb-bag', times: 9, wait: 60 },
+  ],
 };
 
 async function runSeed(page, key) {

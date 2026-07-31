@@ -65,6 +65,10 @@ export const TOOL_CATEGORY: Record<string, ToolCategory> = {
   'wodb': 'measurement',
   'pattern-bench': 'measurement',
   'arrow-strip': 'measurement',
+  // chance and data — the bucket's "& data" half, alongside class-graph.
+  // Absent, this fell back to 'number' and filed a chance instrument under
+  // "Numbers & Counting", silently.
+  'draw-bag': 'measurement',
 
   // Reading & phonics — sounds, letters, words, sentences
   'sound-boxes': 'literacy',

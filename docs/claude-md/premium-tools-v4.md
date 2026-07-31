@@ -622,6 +622,24 @@ the one thesis · the invention · the moat · the four-surface fence result · 
 4. `frontend/lib/manipulatives.ts` → the hub card (11-locale title / tagline / description)
 5. 11 × `frontend/messages/tool-content/<locale>.json` → one `ToolEntry` before `labels`, native slug
    matching `/^[a-z0-9-]+$/` (⚠ da folds `ø`→`oe`, no folds `ø`→`o`, so the two never collide)
+6. `frontend/lib/tool-categories.ts` → `TOOL_CATEGORY`. ⚠ **Omission does not error** —
+   `toolCategory()` falls back to `'number'` and the tool sits in the wrong hub section forever.
+7. **the hub thumbnail.** `node scripts/generate-tool-previews.js --only=<key>`, then **scp the
+   webp to `/var/www/lcs-media/mini-tools/tool-previews/` BEFORE `deploy.sh`** (§20.4; it is
+   gitignored and travels by scp, not git). ⚠ **Omission does not error either** — the card falls
+   back to a generic "plus over minus" glyph.
+   ⚠ **Add a `SEEDS` entry first if the tool's board is empty at rest.** The generator drives REAL
+   controls with real clicks, so a seed can only reach a state a child could. Draw Bag's seed sorts
+   two guesses, drops the record to its 10-cell setting so it is ONE row, and draws NINE of ten —
+   one short of full, because at ten the bag greys out and the bag is the hero of the card.
+   ⚠ **Then measure, do not guess:** `--fit=auto` top-crops anything over 0.85 aspect, and the top
+   of a stage is usually chrome. Draw Bag measured 720×559 (0.78) and letterboxed cleanly; had it
+   been taller, the top-crop would have cut off the record, which is the payload.
+
+⭐ **All seven are enforced by `scripts/preflight-tool-registration.js` in `deploy.sh`** — 7 checks
+× every tool key, poison-tested on every run (7/7 must still fire), preview check self-disabling
+where no previews exist. Points 6 and 7 were absent from this list until #38 shipped without both;
+**both degrade silently**, which is why this is now a gate and not a longer checklist.
 
 ⚠ **The header ordinal is a LEDGER, not the `TOOL_KEYS` index** — it runs 3 behind, because
 `class-timer`/`letter-studio` both claim #25, `wodb`/`syllable-splitter` both claim #22, and three early

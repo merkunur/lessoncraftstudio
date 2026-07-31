@@ -55,27 +55,27 @@ const META_MIN = 120, META_MAX = 170; // the band the §21.2 preband step expect
  *  NEVER     — verified-dead or wrong-market strings. Asserted absent by the gate.
  */
 const SURFACE = {
-  en: { worksheet: 'Worksheets', free: 'Free', print: 'Printable PDF', sep: ' – ',
+  en: { worksheet: 'Worksheets', free: 'Free', print: 'Printable PDF', sep: ' – ', tail: ' | Free Printable PDF',
         NEVER: [] },
-  de: { worksheet: 'Arbeitsblätter', free: 'kostenlos', print: 'zum Ausdrucken', sep: ' – ',
+  de: { worksheet: 'Arbeitsblätter', free: 'kostenlos', print: 'zum Ausdrucken', sep: ' – ', tail: ' | zum Ausdrucken PDF kostenlos',
         NEVER: ['gratis', 'druckbar'] },
-  es: { worksheet: 'Fichas', free: 'gratis', print: 'para imprimir', sep: ' – ',
+  es: { worksheet: 'Fichas', free: 'gratis', print: 'para imprimir', sep: ' – ', tail: ' | para imprimir PDF',
         NEVER: ['con respuestas', 'con soluciones'] },
-  fr: { worksheet: 'Fiches', free: 'gratuit', print: 'à imprimer', sep: ' – ',
+  fr: { worksheet: 'Fiches', free: 'gratuit', print: 'à imprimer', sep: ' – ', tail: ' | à imprimer PDF gratuit',
         NEVER: ['feuilles de travail', 'imprimable'] },
-  it: { worksheet: 'Schede didattiche', free: 'gratis', print: 'da stampare', sep: ' – ',
+  it: { worksheet: 'Schede didattiche', free: 'gratis', print: 'da stampare', sep: ' – ', tail: ' | da stampare PDF',
         NEVER: ['con soluzioni', 'stampabili'] },
-  nl: { worksheet: 'Werkbladen', free: 'gratis', print: 'printen', sep: ' – ',
+  nl: { worksheet: 'Werkbladen', free: 'gratis', print: 'printen', sep: ' – ', tail: ' | printen PDF gratis',
         NEVER: ['om uit te printen', 'printbaar', 'kosteloos', 'met antwoorden'] },
-  pt: { worksheet: 'Atividades', free: 'grátis', print: 'para imprimir', sep: ' – ',
+  pt: { worksheet: 'Atividades', free: 'grátis', print: 'para imprimir', sep: ' – ', tail: ' | para imprimir PDF',
         NEVER: ['fichas'] }, // "fichas" is Portugal — it signals the wrong country
-  sv: { worksheet: 'Arbetsblad', free: 'gratis', print: 'skriva ut', sep: ' – ',
+  sv: { worksheet: 'Arbetsblad', free: 'gratis', print: 'skriva ut', sep: ' – ', tail: ' | skriva ut PDF gratis',
         NEVER: ['med facit'] },
-  da: { worksheet: 'Opgaver', free: 'gratis', print: 'til print', sep: ' – ',
+  da: { worksheet: 'Opgaver', free: 'gratis', print: 'til print', sep: ' – ', tail: ' | til print PDF gratis',
         NEVER: ['opgaveark', 'regneark'] },
-  no: { worksheet: 'Arbeidsark', free: 'gratis', print: 'til utskrift', sep: ' – ',
+  no: { worksheet: 'Arbeidsark', free: 'gratis', print: 'til utskrift', sep: ' – ', tail: ' | til utskrift PDF gratis',
         NEVER: ['oppgaveark', 'regneark'] },
-  fi: { worksheet: 'Tehtäviä', free: 'ilmainen', print: 'tulostettava', sep: ' – ',
+  fi: { worksheet: 'Tehtäviä', free: 'ilmainen', print: 'tulostettava', sep: ' – ', tail: ' | ilmainen tulostettava PDF',
         NEVER: ['vastauksineen'] },
 };
 
@@ -188,7 +188,91 @@ const EDGE_STOPWORDS = new Set([
 const norm = (s) => String(s || '').toLowerCase().replace(/[’']/g, '')
   .replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
 const toks = (s) => norm(s).split(' ').filter(Boolean);
+// Inflection-tolerant comparison key. it "con le addizioni" then "Addizione", and
+// "Schede didattiche" then "Schede di puzzle matematici", read as stutters but
+// survived exact-token matching. Six characters is enough to bind a stem to its
+// inflections without colliding unrelated words; shorter words compare whole.
+const stem = (x) => (x.length >= 7 ? x.slice(0, 5) : x);
 const titleCaseFirst = (s) => (s ? s.charAt(0).toUpperCase() + s.slice(1) : s);
+
+/**
+ * RAW GENERATOR ENUMS — never allowed into a user-facing title.
+ *
+ * These are worksheet-maker checkbox values, not language. They leak in through
+ * `op` (engine mode-keyed) and `mode` (taxonomy exercise-mode name), and because
+ * they are internal identifiers they appear UNTRANSLATED in all eleven locales:
+ *   "4th of July subtraction practice 2nd grade 3 Symbols, Add+Sub – Grade 2"
+ *   "4th of July treasure hunt kindergarten Up/Down/Left/Right – Kindergarten"
+ * Measured 2026-07-31: 31 of 35 sampled one-per-type titles carried a leak, a
+ * repeated word, or both. A title is the only thing a searcher sees; an enum in
+ * it reads as machine output and earns no click.
+ *
+ * Matched on the NORMALIZED form so punctuation variants ("Add+Sub", "add sub")
+ * collapse together. A label that matches is DROPPED, not rewritten — the locale's
+ * own human phrase for the same distinction already arrives via `qual`.
+ */
+const RAW_ENUM_LABELS = new Set([
+  'add sub', 'addsub', '3 symbols', '2 symbols', '4 symbols',
+  // Bare difficulty/variant adjectives. Measured: 234 of 3,793 EN titles ended in one
+  // ("4th of July Word Scramble Easy – Grade 1"). They tell a searcher nothing, they
+  // are generator settings, and they ship untranslated.
+  'easy', 'medium', 'hard', 'mixed', 'normal', 'simple', 'basic', 'advanced',
+  // …and their localized forms, which leak the same way (de "Leicht").
+  'leicht', 'einfach', 'mittel', 'schwer', 'gemischt',
+  'fácil', 'facile', 'medio', 'moyen', 'difícil', 'difficile', 'mixto', 'misto', 'mixte',
+  'makkelijk', 'moeilijk', 'gemengd', 'lätt', 'svår', 'blandad', 'blandat',
+  'nem', 'svær', 'blandet', 'lett', 'vanskelig', 'helppo', 'vaikea', 'sekalainen',
+  'up down left right', 'up down', 'left right',
+  'find addend', 'find subtrahend', 'find minuend', 'missing operand',
+  'same theme', 'cross out', 'image image', 'image number', 'number image',
+  'order asc', 'order desc', 'orderasc', 'orderdesc', 'find big', 'findbig',
+  'multiple choice', 'multiplechoice', 'fill in', 'fillin',
+  'aab', 'abb', 'aabb', 'abc', 'ab',
+]);
+const isRawEnum = (s) => {
+  const n = norm(s);
+  if (!n) return false;
+  if (RAW_ENUM_LABELS.has(n)) return true;
+  // A label that repeats its own word is the localized form of a paired enum —
+  // de "Bild-Bild", es "Imagen-Imagen", it "Immagine-Immagine" for mode
+  // `image-image`. Listing every locale's translation would be endless and would
+  // silently miss the next one; the self-repetition IS the signature.
+  const selfToks = n.split(' ').filter(Boolean);
+  if (selfToks.length > 1 && new Set(selfToks).size === 1) return true;
+  // A label that is ALL enum fragments joined by punctuation ("Up/Down/Left/Right",
+  // "3 Symbols, Add+Sub") — split on the original separators and test each piece.
+  const parts = String(s).split(/[\/,+|]+/).map((p) => norm(p)).filter(Boolean);
+  return parts.length > 1 && parts.every((p) => RAW_ENUM_LABELS.has(p));
+};
+
+/**
+ * Append `part` to `parts` only if it says something not already said.
+ *
+ * The composer used to concatenate slots, so the same fact arrived twice: the
+ * level in the body AND the tail ("…addition kindergarten worksheets pdf … –
+ * Kindergarten"), or a mode label restating its own qualifier ("missing number …
+ * Find Addend"). The old guard required EVERY token of the later part to be
+ * present, so any partial overlap slipped through.
+ *
+ * This drops a part when ALL of its content tokens are already present. Short
+ * function words are ignored so "with"/"and" never make a part look redundant.
+ */
+const STOP_TOKENS = new Set(['and', 'the', 'for', 'with', 'och', 'und', 'met', 'con', 'com', 'et', 'de', 'la', 'el', 'og', 'ja', 'til', 'tot', 'bis']);
+function pushDistinct(parts, part, seenTokens) {
+  if (!part) return;
+  if (isRawEnum(part)) return;
+  const t = toks(part).filter((x) => x.length > 2 && !STOP_TOKENS.has(x)).map(stem);
+  // Majority overlap, not total. Requiring EVERY token to repeat let near-restatements
+  // through: the demand lead "Cross Out subtraction worksheets pdf kindergarten"
+  // followed by the qualifier "cross out and count" shares 2 of 3 content tokens and
+  // reads as a stutter, but the old all-tokens test kept it because "count" was new.
+  if (t.length) {
+    const already = t.filter((x) => seenTokens.has(x)).length;
+    if (already / t.length >= 0.5) return;
+  }
+  parts.push(part);
+  for (const x of toks(part)) seenTokens.add(stem(x));
+}
 
 // --- loaders -----------------------------------------------------------------
 function loadOverrides(locale) {
@@ -939,7 +1023,15 @@ function composeOne(l, row, ctx) {
   // 49 en / 97 es groups). Whenever op says something the demand lead does not,
   // it IS the mode marker, and it is the locale's own wording.
   const opVaries = opVariesByMode(c.type, c, l.standard, engine);
-  const modeLabel = (opVaries && op) ? op : mode;
+  const modeLabelRaw = (opVaries && op) ? op : mode;
+  // A mode label earns a place in the title only if searchers actually use that
+  // wording — the SAME corpus test `descriptor` already passes above. Without it the
+  // generator's own vocabulary reaches the SERP: "Mixed", "Easy", "AAB", "3 Symbols,
+  // Add+Sub". Those are checkbox values; nobody searches them, and they appear
+  // untranslated in all eleven locales. Kept when the corpus has seen it, because
+  // then it IS the phrase that tells siblings apart.
+  const modeLabel = (modeLabelRaw && !isRawEnum(modeLabelRaw)
+    && corpusHasCompound(modeLabelRaw, corpus)) ? modeLabelRaw : null;
   const already = norm(`${descriptor || ''} ${qual || ''}`);
   const modeToks = modeLabel ? toks(modeLabel) : [];
   const modeRedundant = modeToks.length > 0 && modeToks.every((t) => already.includes(t));
@@ -949,21 +1041,43 @@ function composeOne(l, row, ctx) {
   // sequência lógica sequência a…" put five modes past the cut. So a mode-keyed
   // label leads the body; otherwise it trails as a refinement.
   const modeFirst = modeLabel && !modeRedundant && opVaries;
-  const body = [
-    modeFirst ? modeLabel : null,
-    descriptor || S.worksheet,
-    range || null,
-    qual || null,
-    !modeFirst && modeLabel && !modeRedundant ? modeLabel : null,
-  ].filter(Boolean);
-  const tail = [level, demoted].filter(Boolean);
 
-  // A caller-supplied token that MUST land inside the visible budget. Used by the
-  // repair pass in apply-demand-titles.js for the pages whose real differentiator
-  // otherwise falls past character 50 — Google truncates there, so two titles that
-  // differ only after it present identically. Placed right behind the head, which
-  // is the earliest position that still reads naturally.
+  // COMPOSE, don't concatenate. Every part is admitted only if it adds something
+  // the title has not already said, and raw generator enums are refused outright.
+  // See pushDistinct/isRawEnum. Head tokens seed the seen-set so a theme already
+  // in the lead is not restated by the body.
+  // A caller-supplied token that MUST land inside the visible budget (the repair pass
+  // in apply-demand-titles.js). Resolved BEFORE the body so its tokens seed the
+  // seen-set: it arrives as the raw taxonomy mode label ("Cross Out"), and without
+  // this the qualifier restated it — "…Cross Out subtraction worksheets pdf
+  // kindergarten cross out and count". It is never dropped, because it is the only
+  // thing keeping that page's title distinct.
   const early = (ctx.forceEarly && ctx.forceEarly.get) ? ctx.forceEarly.get(l.slug) : null;
+
+  const seen = new Set();
+  for (const h of head) for (const x of toks(h)) seen.add(x);
+  if (early) for (const x of toks(early)) seen.add(x);
+
+  const body = [];
+  if (modeFirst) pushDistinct(body, modeLabel, seen);
+  // With no demand lead, name the thing itself rather than emitting the generic
+  // worksheet noun AND the type name in the tail — it "Schede didattiche … – Schede
+  // di puzzle matematici" said "Schede" twice for 117 pages. The demoted type name
+  // is strictly more informative than "Worksheets", so it leads and the tail drops.
+  pushDistinct(body, descriptor || demoted || S.worksheet, seen);
+  pushDistinct(body, range, seen);
+  pushDistinct(body, qual, seen);
+  if (!modeFirst && modeLabel && !modeRedundant) pushDistinct(body, modeLabel, seen);
+  // The body can end up empty once duplicates are refused (a descriptor that only
+  // restated the theme). Never ship a title without a noun for the thing itself.
+  if (!body.length) body.push(S.worksheet);
+
+  // Level is the single worst offender: most demand leads already name the grade
+  // ("addition kindergarten worksheets pdf", "word search 1st grade"), so appending
+  // it produced "…1st grade … – Grade 1". Same test as everything else.
+  const tail = [];
+  pushDistinct(tail, level, seen);
+  pushDistinct(tail, demoted, seen);
 
   let title = [head.join(' '), early || null, body.join(' ')].filter(Boolean).join(' ').trim();
   if (tail.length) title += `${S.sep}${tail.join(', ')}`;
@@ -977,8 +1091,21 @@ function composeOne(l, row, ctx) {
   if (ordinal && ordinal > 1) title += ` (${ordinal})`;
   // One format cue for CTR. Never the thing that distinguishes two pages —
   // pdf/printable/free all collapse to the same SERP.
-  const cue = ` | ${S.free} ${S.print}`;
-  if ((title + cue).length <= TITLE_SOFT_CAP + 20) title += cue;
+  // Skip the cue when the title already says it. Several locales' demand leads
+  // contain the print phrase, so appending the protected format cluster stuttered:
+  // pt "Labirinto para imprimir com escolhas | grátis para imprimir" — 957 of 2,977
+  // pt titles, 237 es. Protection means the cluster is never SHRUNK on overflow; it
+  // was never a licence to say it twice. Tested on the print verb, which is the part
+  // that actually repeats ("free"/"gratis" alone is not a stutter worth dropping).
+  // The locale's LOCKED format tail, verbatim from its rekey engine header
+  // (§22.4/§22.5). Composing it from free+print silently dropped "PDF" in all ten
+  // non-EN locales — sv shipped "| gratis skriva ut" where the protected trio is
+  // "skriva ut PDF gratis". PDF is the format signal; it is not optional.
+  const cue = S.tail || ` | ${S.free} ${S.print}`;
+  const printToks = toks(S.print).filter((x) => x.length > 2);
+  const titleToks = new Set(toks(title));
+  const cueRedundant = printToks.length > 0 && printToks.every((x) => titleToks.has(x));
+  if (!cueRedundant && (title + cue).length <= TITLE_SOFT_CAP + 20) title += cue;
   title = titleCaseFirst(title.replace(/\s+/g, ' ').trim());
 
   // --- meta: page-specific FACTS, never a per-type template -------------------
@@ -1047,5 +1174,5 @@ function buildMeta({ l, S, descriptor, theme, level, factBits, metaDifferentiato
 
 module.exports = {
   SURFACE, NATIVE_LEAD, EDGE_STOPWORDS, TITLE_SOFT_CAP, META_MIN, META_MAX,
-  loadOverrides, loadEngine, loadCorpus, taxonomyName, loadFramingPools, buildFramingAssignment, buildModeDistinctiveWords, letterEligible, exclusiveTermEligible, themeSeason, corpusHas, corpusHasCompound, demandLeadForType, composeOne, chromeTokens, engineOp, opVariesByMode, themeDisplayFor, BW_LABEL, buildLeadMap, assertEngineAdapters, engineQual, engineRange,
+  loadOverrides, loadEngine, loadCorpus, taxonomyName, loadFramingPools, buildFramingAssignment, buildModeDistinctiveWords, letterEligible, exclusiveTermEligible, themeSeason, isRawEnum, corpusHas, corpusHasCompound, demandLeadForType, composeOne, chromeTokens, engineOp, opVariesByMode, themeDisplayFor, BW_LABEL, buildLeadMap, assertEngineAdapters, engineQual, engineRange,
 };

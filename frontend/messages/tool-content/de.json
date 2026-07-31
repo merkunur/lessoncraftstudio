@@ -1048,6 +1048,35 @@
     "metaTitle": "Zufallsexperiment Grundschule | kostenloses Klassen-Tool",
     "metaDescription": "Zufallsbeutel fürs Whiteboard: Die Klasse legt sich fest, was drin ist, zieht Stück für Stück und öffnet den Beutel am Ende. Für Klasse 1 bis 3."
   },
+  "lids": {
+    "slug": "gerechtes-teilen-rest-grundschule",
+    "name": "Die Deckel",
+    "tagline": "Die Klasse sieht Wendeplättchen auf dem Tisch, dann legt ihr Deckel darauf: Unter jedem liegt gleich viel. Die Klasse streitet, setzt einen Marker auf eine Zahl – erst dann kommen die Deckel hoch.",
+    "about": [
+      "Auf dem Tisch liegen Wendeplättchen, alle sichtbar und abzählbar. Ihr zieht runde Deckel darauf, und die Plättchen darunter sind weg. Jeder Deckel derselben Farbe verdeckt genau gleich viele: Kommt ein weiterer dazu, ordnen sich die Plättchen neu, damit die Mengen gleich bleiben. Was sich nicht gleichmäßig aufteilen lässt, bleibt offen auf dem Tisch liegen – der Rest, für alle sichtbar. Zum Schluss hebt ihr die Deckel an, und unter jedem liegt genau seine Menge.",
+      "In Klasse 1 und 2 führt der Lehrplan von der Addition langsam zu Multiplikation und Division: gerechtes Teilen, Aufteilen und Verteilen, und der Rest, der übrig bleibt. Schwer ist daran, dass eine Zahl mehrfach passen muss und sich nicht mehr abzählen lässt, sondern probiert und begründet werden will. Die Deckel machen diesen Schritt sichtbar, ohne dass ein einziges Zeichen geschrieben wird. Belege für eine Wirkung gibt es nicht – es ist ein Werkzeug für das Unterrichtsgespräch, mehr nicht.",
+      "Bei einem Deckel rechnet die Klasse ab: Tisch minus das, was noch zu sehen ist. Bei zwei Deckeln kippt es schon, weil dieselbe Menge auf beide passen muss. Und wenn der dritte fällt, ändert sich die Frage vollständig: Eine einzige Zahl muss dreimal unter einen Deckel passen, und der Rest darf nicht größer sein als diese Zahl selbst. Genau hier hört das Abzählen auf – hier fangen Kinder an, Zahlen auszuprobieren und ihre Wahl vor der Klasse zu begründen.",
+      "Die Deckel brauchen kein Lesen: Es gibt nur Material, Zahlen und Bewegung, also arbeiten auch Kinder mit, die sprachlich noch nicht weit sind. Kein Login, keine Installation – die Seite läuft im Browser am Whiteboard oder über den Beamer. Und die Vermutung der Klasse wird nie markiert: Der Marker steht auf einer Zahl, bis die Deckel hochgehen. Was darunter liegt, sagt der Tisch, nicht das Programm. Größere Anzahlen und das Drucken gehören zum Lehrer-Paket."
+    ],
+    "howToUse": [
+      "Wählt eine Anzahl Plättchen und lasst die Klasse den Tisch einmal in Ruhe ansehen.",
+      "Legt zwei Deckel hin und fragt, wie viele unter jedem einzelnen liegen.",
+      "Sammelt die Vermutungen und setzt den Marker gemeinsam auf eine Zahl auf dem Zahlenstreifen.",
+      "Hebt die Deckel an und lasst die Klasse vergleichen, was unter jedem liegt und was übrig geblieben ist.",
+      "Legt die Deckel wieder drauf, gebt einen dritten dazu und stellt dieselbe Frage noch einmal.",
+      "Holt einen neuen Tisch, sobald die Klasse die Zahl zu schnell sieht."
+    ],
+    "classroomIdeas": [
+      "Startet mit 12 Plättchen und geht die Reihe zwei, drei, vier Deckel durch; die Klasse notiert jedes Mal die Zahl unter einem Deckel und den Rest.",
+      "Nehmt eine Anzahl, die nicht aufgeht – 13 auf drei Deckel – und lasst begründen, warum der Rest nicht doch noch unter einen Deckel darf.",
+      "Lasst zwei Kinder getrennt eine Vermutung setzen und beide Begründungen laut hören, bevor die Deckel hochgehen.",
+      "Dreht die Aufgabe um: Nennt die Zahl unter einem Deckel und lasst die Klasse ausrechnen, wie viele Plättchen auf dem Tisch liegen müssen.",
+      "Legt denselben Tisch zweimal mit unterschiedlich vielen Deckeln und sprecht darüber, warum dieselbe Menge einmal aufgeht und einmal nicht.",
+      "Haltet den Moment vor dem dritten Deckel an und lasst die Kinder aufschreiben, ob die Zahl unter jedem Deckel jetzt größer oder kleiner wird."
+    ],
+    "metaTitle": "Gerechtes Teilen mit Rest: Die Deckel für Klasse 1/2",
+    "metaDescription": "Deckel auf die Wendeplättchen legen: Unter jedem Deckel liegt gleich viel, der Rest bleibt sichtbar. Kostenloses Werkzeug fürs Whiteboard, Klasse 1 und 2."
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

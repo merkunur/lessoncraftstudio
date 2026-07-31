@@ -1047,6 +1047,35 @@
     "metaTitle": "Chanceeksperiment i indskolingen | gratis klasseværktøj",
     "metaDescription": "Trækposen til tavlen: klassen siger først, hvad der er i posen, trækker så en brik ad gangen, og til sidst åbnes posen. Til indskolingen."
   },
+  "lids": {
+    "slug": "laagene-dele-ligeligt-rest-division",
+    "name": "Lågene",
+    "tagline": "Du lægger to låg ned over brikkerne på bordet, lige mange under hvert, og klassen skal blive enige om, hvilket tal der ligger under, før lågene løftes og brikkerne står frem.",
+    "about": [
+      "På skærmen ligger et bord med et antal ens brikker. Du trækker et rundt låg ind over dem, og brikkerne under låget forsvinder ud af syne. Lægger du et låg mere på, fordeler brikkerne sig igen, så der ligger nøjagtig lige mange under hvert låg. De brikker, der ikke kan deles ligeligt, bliver liggende synligt på bordet. Klassen sætter en markør på et tal på talrækken, og først derefter løftes lågene, så brikkerne står frem under hvert sit låg.",
+      "Lågene rammer et sted i Tal og algebra i indskolingen, hvor mange elever taber fodfæste: ligelig fordeling, deling og rest. I 1.-2. klasse er springet fra addition mod multiplikation og division ikke et spørgsmål om notation, men om at kunne holde fast i, at det samme ukendte tal optræder flere gange på én gang. Der findes ingen effektmåling af netop denne rutine – den er et redskab til samtalen i klassen, ikke et program med dokumenteret virkning.",
+      "Med ét låg er opgaven i virkeligheden en subtraktion: klassen tæller de synlige brikker og trækker fra. Med to låg begynder diskussionen for alvor, for nu skal hele totalen deles i to lige store dele. Og når det tredje låg går ned, vender klassen som regel tilbage til start – tallet, de lige var blevet enige om, holder ikke længere, og de må dele ud på ny. Det er præcis dér, deling bliver noget andet end at trække fra.",
+      "Der skal ikke læses noget for at være med: på bordet er der kun brikker, låg og tal, så elever, der endnu ikke læser sikkert, deltager på lige fod. Værktøjet åbner i browseren uden login og er lavet til at stå på projektoren eller smartboardet foran klassen. Klassens bud bliver aldrig bedømt af programmet – lågene løftes, og brikkerne taler for sig selv. Større tal, samlingen af borde og print hører til Lærerabonnementet."
+    ],
+    "howToUse": [
+      "Vælg hvor mange brikker der skal ligge på bordet, og lad klassen se dem, inden du gør noget andet.",
+      "Læg to låg på, og lad eleverne opdage, at brikkerne fordeler sig, så der ligger lige mange under hvert.",
+      "Bed klassen om et bud, og sæt markøren på tallet på talrækken, mens I stadig ikke ved det.",
+      "Løft lågene, og lad eleverne tælle med under hvert enkelt låg.",
+      "Læg et tredje låg på det samme bord, og stil spørgsmålet forfra.",
+      "Hent et nyt bord, når klassen er klar til et antal, der ikke går lige op."
+    ],
+    "classroomIdeas": [
+      "Kør det samme antal brikker med to, tre og fire låg efter hinanden, og skriv tallene op ved siden af hinanden på tavlen.",
+      "Vælg med vilje et bord, hvor der bliver en rest, og lad klassen forklare, hvorfor de sidste brikker bliver liggende på bordet.",
+      "Lad to elever ad gangen stå for at lægge lågene på, mens resten af klassen argumenterer for et tal.",
+      "Bed eleverne om et bud, lige før det tredje låg går ned, og igen bagefter, så de selv hører deres eget svar ændre sig.",
+      "Sæt klassen til at finde de antal mellem 10 og 20, der kan deles i tre lige store dele uden rest, og prøv dem af på bordet.",
+      "Brug et print af bordet som makkeropgave, hvor eleverne tegner deres egen fordeling ind, inden I løfter lågene på skærmen."
+    ],
+    "metaTitle": "Dele ligeligt og rest – Lågene | matematik 1.-2. klasse",
+    "metaDescription": "Læg låg over brikkerne på bordet: lige mange under hvert. Klassen deler totalen ligeligt, ser resten blive liggende og løfter så lågene. Gratis til tavlen."
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

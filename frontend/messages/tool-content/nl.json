@@ -1047,6 +1047,35 @@
     "metaTitle": "Toeval op het digibord — de toevalszak, groep 3-4",
     "metaDescription": "Trek uit een zak die niemand kan inkijken. Elke trek blijft op de rij staan en elk stuk gaat terug in de zak. Gratis digibordtool voor groep 3 en 4."
   },
+  "lids": {
+    "slug": "deksels-eerlijk-verdelen-rest-groep-3",
+    "name": "Onder de deksels",
+    "tagline": "U legt deksels op een blad met fiches; onder elk deksel liggen er evenveel. De klas ziet alleen wat overblijft, kiest samen één getal op de getallenstrook, en pas daarna gaan de deksels omhoog.",
+    "about": [
+      "Op het digibord ligt een blad met ronde fiches. U sleept er een deksel op en de fiches eronder verdwijnen uit beeld. Legt u een tweede deksel neer, dan schuiven de fiches opnieuw: onder elk deksel van dezelfde kleur liggen altijd precies evenveel. Wat niet eerlijk verdeeld kan worden, blijft gewoon zichtbaar naast de deksels liggen. Op een getallenstrook zet de klas een pijltje bij het getal dat zij denkt, en daarna tilt u de deksels op.",
+      "In de SLO-kerndoelen voor rekenen-wiskunde staan eerlijk verdelen en groeperen aan de basis van vermenigvuldigen en delen. In groep 3 en 4 tellen kinderen nog vlot bij, maar 'onder elk deksel evenveel' vraagt iets anders: niet één onbekende, maar dezelfde onbekende meerdere keren. En de rest hoort erbij, die verdwijnt niet, die past er domweg niet onder. Er is geen onderzoek dat een leereffect van deze werkvorm meet; het is een manier om het gesprek op gang te brengen.",
+      "Het gesprek gaat bijna nooit alleen over het antwoord. Bij twee deksels rekent een deel van de klas terug: het totaal min wat er nog ligt, en dan halveren. Legt u er een derde bij, dan klapt die aanpak om: halveren helpt niet meer en het getal moet in drie gelijke stukken passen. Kinderen die net vlot waren met halveren, aarzelen precies daar. En dan is er het kind dat roept dat het 'niet uitkomt' en gelijk heeft: er blijft een rest liggen.",
+      "Er hoeft niets gelezen te worden. Het blad, de deksels en de getallenstrook spreken voor zich, dus ook kinderen die nog nauwelijks lezen en nieuwkomers doen volwaardig mee. De tool draait gewoon in de browser op het digibord of touchscreen, zonder inloggen of installeren. Het gekozen getal van de klas wordt nooit afgetekend of beoordeeld: de deksels gaan omhoog en iedereen ziet zelf wat eronder ligt. Grotere aantallen, alle bladen en printen horen bij het Leerkracht-pakket."
+    ],
+    "howToUse": [
+      "Kies hoeveel fiches er op het blad liggen en laat de klas eerst rustig kijken.",
+      "Leg twee deksels neer en vraag: hoeveel liggen er onder elk deksel?",
+      "Laat de klas samen één getal kiezen en zet het pijltje op de getallenstrook.",
+      "Vraag naar de redenering vóór u optilt: hoe kwam je aan dat getal?",
+      "Til de deksels op en laat de klas benoemen wat er onder elk deksel ligt en wat overbleef.",
+      "Leg er bij hetzelfde aantal fiches een derde deksel bij en begin opnieuw."
+    ],
+    "classroomIdeas": [
+      "Houd het aantal fiches gelijk en ga van twee naar drie naar vier deksels; laat kinderen hardop zeggen wat er met het getal onder elk deksel gebeurt.",
+      "Kies bewust een aantal dat niet opgaat, bijvoorbeeld dertien fiches onder drie deksels, en laat de klas de rest benoemen voordat u optilt.",
+      "Laat twee kinderen hun manier aan het bord uitleggen, terugtellen tegenover verdelen, en vraag de klas welke manier bij drie deksels blijft werken.",
+      "Laat kinderen de opgave op hun eigen plek naleggen met echte fiches en omgekeerde bekertjes voordat u de deksels optilt.",
+      "Draai het om: vertel hoeveel er onder één deksel liggen en laat de klas voorspellen hoeveel fiches er in totaal op het blad lagen.",
+      "Print een blad uit het Leerkracht-pakket als stille start, zodat kinderen eerst zelf een getal opschrijven voordat u het klassikaal opent."
+    ],
+    "metaTitle": "Eerlijk verdelen en rest – gratis digibordtool groep 3",
+    "metaDescription": "Leg deksels op een blad met fiches: onder elk deksel liggen er evenveel. De klas verdeelt eerlijk, ziet de rest en kiest een getal. Gratis, groep 3-4."
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

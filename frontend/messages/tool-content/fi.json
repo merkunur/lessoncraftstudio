@@ -1025,6 +1025,35 @@
     "metaTitle": "Sattuma alkuopetuksessa – ilmainen Sattumapussi",
     "metaDescription": "Ilmainen väline luokan näytölle: luokka sanoo ensin, mitä pussissa on, ja nostaa yksi kerrallaan. Nosto jää riviin, ja pala palaa pussiin."
   },
+  "lids": {
+    "slug": "tasan-jakaminen-jakojaannos-jakolasku-alkuopetus",
+    "name": "Kannen alla",
+    "tagline": "Opettaja laskee pöydälle kaksi kantta, ja luokka väittelee siitä, montako laskunappia kummankin alla on; kolmannen kannen jälkeen napit asettuvat uudelleen ja tasan jakamatta jääneet jäävät pöydälle näkyviin.",
+    "about": [
+      "Näytöllä on pöytä, jolla on rivi samanlaisia pyöreitä laskunappeja. Opettaja vetää pöydälle kannen, ja sen alle jäävät napit katoavat näkyvistä. Samanvärisen kannen alla on aina yhtä monta nappia, joten kun toinen ja kolmas kansi laskeutuvat, napit järjestyvät itsestään uudelleen niin, että osuudet pysyvät yhtä suurina. Napit, jotka eivät jakaudu tasan, jäävät pöydälle näkyviin. Alareunassa on lukurivi, jolle luokka siirtää merkin, ja vasta sen jälkeen kannet nostetaan ja napit näkyvät kukin oman kantensa alla.",
+      "Vuosiluokkien 1–2 matematiikassa sisältöalue Luvut ja laskutoimitukset vie oppilaan yhteenlaskusta ja vähennyslaskusta kohti kertolaskua ja jakolaskua, ja tuolla välillä ovat ryhmittely, tasan jakaminen ja jakojäännös. Juuri siinä kohdassa moni oppilas pysähtyy: yksi tuntematon on vielä vähennyslasku, mutta kolme tuntematonta, joiden on oltava keskenään yhtä suuria, pakottaa jakamaan koko määrän osiin. Tästä työtavasta ei ole vaikuttavuustutkimusta; se on tapa tehdä jakaminen näkyväksi ilman merkintöjä.",
+      "Kahdella kannella luokka pääsee usein perille päättelemällä ääneen: jos pöydällä oli kaksitoista nappia ja neljä jäi näkyviin, kannen alla on neljä. Kolmas kansi muuttaa tehtävän luonteen. Sama kaksitoista ei enää riitä kahdelle, vaan se on jaettava kolmeen yhtä suureen osaan, ja joskus pöydälle jää yli. Siitä syntyy se keskustelu, joka kannattaa käydä: onko ylijäänyt nappi virhe, vai kuuluuko se tehtävään? Kannet nostetaan vasta sitten, kun luokka on sanonut oman lukunsa ääneen.",
+      "Väline on ilmainen eikä vaadi kirjautumista tai asennusta. Se avautuu selaimessa älytaululle, projektoriin tai dokumenttikameran rinnalle, ja koska näytöllä ei ole yhtään luettavaa sanaa, myös vasta lukemaan opetteleva ja suomea toisena kielenä opiskeleva pääsee mukaan. Luokan arvausta ei arvostella millään tavalla: merkki jää lukuriville sellaisenaan, kun kannet nousevat, eikä väline pisteytä tai kellota mitään. Opettaja-tilaus lisää suuremmat lukumäärät, valmiiden pöytien kokoelman ja tulostuksen."
+    ],
+    "howToUse": [
+      "Valitse pöydän nappimäärä ennen tuntia; kymmenellä tai kahdellatoista napilla pääsee hyvin alkuun.",
+      "Laske pöydälle ensin yksi kansi ja kysy, montako nappia sen alla on — tämä vaihe saa mennä nopeasti.",
+      "Laske toinen kansi ja anna luokan perustella ääneen, ennen kuin kukaan koskee merkkiin.",
+      "Siirtäkää merkki lukuriville vasta silloin, kun luokka on päässyt yhteisymmärrykseen, ja sanokaa luku myös ääneen.",
+      "Nosta kannet ja katsokaa yhdessä, montako nappia kunkin kannen alta paljastuu ja jäikö pöydälle jotain yli.",
+      "Laske sitten kolmas kansi samalle pöydälle ja kysy, mikä tehtävässä nyt muuttui."
+    ],
+    "classroomIdeas": [
+      "Ensimmäinen luokka, viisi minuuttia aamupiirissä: sama kahdentoista napin pöytä ensin kahdella ja sitten kolmella kannella, ja lopuksi kysymys siitä, kumpi jako meni tasan.",
+      "Toinen luokka: kirjatkaa nostamisen jälkeen vihkoon, mitä nähtiin — 12 = 4 + 4 + 4 — ja katsokaa, kuinka monta kertaa sama luku toistuu, ennen kuin kertolaskun merkintä otetaan käyttöön.",
+      "Jakojäännöksen metsästys: pitäkää kolme kantta paikoillaan ja vaihtakaa pöytää lukujen 12, 13, 14 ja 15 välillä; luokka kirjaa taululle, milloin pöydälle jää yli ja milloin ei.",
+      "Käänteinen tehtävä: kerro, että kannen alla on viisi nappia, kansia on kolme ja pöydälle jäi kaksi nappia yli, ja anna oppilaiden rakentaa koko pöytä omilla napeillaan ennen kuin näytät sen.",
+      "Parityö näytön jälkeen: samat luvut jaetaan pulpetilla aidoilla laskunapeilla tai palikoilla kolmeen kasaan, ja pari kertoo ääneen, mitä ylijääneelle napille tehtiin.",
+      "S2-ryhmä ja vasta lukemaan opettelevat: oppilas näyttää arvauksensa sormilla ennen kuin merkki siirretään, jolloin jokainen ehtii ajatella ilman lukemista."
+    ],
+    "metaTitle": "Tasan jakaminen ja jakojäännös – ilmainen väline 1.–2. lk",
+    "metaDescription": "Ilmainen väline luokan näytölle: kannen alla on aina yhtä monta laskunappia. Luokka päättelee luvun, ja tasan jakamatta jääneet napit jäävät näkyviin."
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

@@ -1047,6 +1047,35 @@
     "metaTitle": "Experimentos aleatorios y azar en primaria | gratis",
     "metaDescription": "Bolsa cerrada para el pizarrón: la clase predice qué hay adentro, la predicción se congela y cada pieza sacada queda a la vista y regresa a la bolsa."
   },
+  "lids": {
+    "slug": "tapaderas-reparto-equitativo-primaria",
+    "name": "Las tapaderas",
+    "tagline": "La clase reparte las fichas entre dos tapaderas iguales, discute qué número cabe debajo de cada una y deja su marca en la tira; al destapar aparecen las fichas y las que sobran.",
+    "about": [
+      "En la pantalla hay una mesa con fichas redondas, las mismas que ya usan en clase. El docente arrastra una tapadera sobre la mesa y las fichas que quedan debajo desaparecen de la vista. Al poner una segunda tapadera del mismo color, las fichas se reacomodan solas: bajo cada tapadera queda exactamente la misma cantidad. Las fichas que no alcanzan para repartirse se quedan fuera, a la vista de todos, sobre la mesa.",
+      "En 1.º y 2.º de primaria, el reparto equitativo, los agrupamientos y el resto son territorio difícil de verdad. Repartir en partes iguales no es lo mismo que restar: con una sola tapadera basta con quitar; con dos o tres que deben esconder lo mismo, el total hay que repartirlo entero. Ese es el paso lento que va de la suma hacia la multiplicación y la división, y aquí ocurre sin notación, sin signos y sin escribir ninguna operación.",
+      "Con dos tapaderas la clase suele resolverlo rápido, a base de mitades ya conocidas. La discusión buena empieza cuando baja la tercera: el número que servía deja de servir y hay que repartir todo otra vez desde el principio. Ahí aparecen las frases que interesan —«sobran dos», «no cabe», «entonces toca menos»— y ahí se distingue un reparto pensado de una mitad repetida de memoria.",
+      "No hace falta leer nada: la mesa, las tapaderas y la tira numérica se entienden a la vista, así que funciona igual con quien todavía no lee o está aprendiendo español. Se abre en la pizarra digital desde el navegador, sin instalar nada y sin cuenta. Y la marca de la clase nunca se corrige: la tira guarda lo que piensan, se destapa y son las fichas —no la pantalla— las que cuentan la historia."
+    ],
+    "howToUse": [
+      "Elige cuántas fichas hay sobre la mesa y proyéctala para toda la clase.",
+      "Arrastra dos tapaderas y pregunta en voz alta qué número cabe debajo de cada una.",
+      "Deja que discutan y pide que coloquen la marca en la tira numérica antes de tocar nada más.",
+      "Destapa y miren juntos las fichas que aparecen debajo y las que se han quedado fuera.",
+      "Vuelve a tapar, añade una tercera tapadera y repite la pregunta con el mismo total.",
+      "Carga otra mesa cuando quieras cambiar de número sin cambiar de rutina."
+    ],
+    "classroomIdeas": [
+      "Empieza con totales que reparten justo (12 entre 2, entre 3, entre 4) y pasa luego a 13 o 14 para que el resto aparezca solo.",
+      "Pide una estimación antes de la marca —«más de cinco o menos de cinco»— y anótala en la pizarra para volver a ella al destapar.",
+      "Mantén el mismo total y ve añadiendo tapaderas de una en una; id apuntando la lista en la pizarra y observad qué le pasa al resto.",
+      "Invierte la rutina: enseña primero las fichas que han sobrado y pregunta cuántas tapaderas podrían estar puestas.",
+      "Da el turno de repartidor a un alumno distinto cada vez: coloca la tapadera y explica en voz alta por qué ese número.",
+      "Con el plan Docente, imprime la mesa después de destapar para que peguen el reparto en el cuaderno."
+    ],
+    "metaTitle": "Reparto equitativo y resto en primaria | Las tapaderas",
+    "metaDescription": "Instrumento gratuito para la pizarra digital: la clase reparte fichas en partes iguales bajo tapaderas iguales, discute cuántas hay debajo y ve el resto."
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

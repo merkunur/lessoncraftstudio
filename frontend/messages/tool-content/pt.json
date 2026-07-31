@@ -1047,6 +1047,35 @@
     "metaTitle": "Probabilidade anos iniciais: Sacola do acaso",
     "metaDescription": "Ferramenta gratuita para a lousa: a turma diz o que acha que tem na sacola, tira uma peça de cada vez e ela volta para dentro. Acaso nos anos iniciais."
   },
+  "lids": {
+    "slug": "tampas-divisao-por-reparticao-anos-iniciais",
+    "name": "As tampas",
+    "tagline": "Você cobre as fichas da mesa com duas tampas iguais e a turma discute quantas ficaram embaixo de cada uma; depois entra a terceira tampa, o total continua o mesmo e o que sobra fica à vista.",
+    "about": [
+      "Na tela há uma mesa com fichas redondas, iguais às que a turma manuseia na sala. Você arrasta uma tampa até a mesa e as fichas somem embaixo dela; arrasta outra e as duas passam a cobrir exatamente a mesma quantidade. A cada tampa nova, tudo se reorganiza para que as partes continuem iguais, e as fichas que não cabem ficam à vista, na mesa. A turma leva o marcador até um número no trilho e só então você destampa: cada monte aparece embaixo da sua própria tampa.",
+      "A BNCC pede, já nos anos iniciais, que a criança trabalhe com adição de parcelas iguais, com dobro e metade e, logo adiante, com a divisão nas ideias de repartição equitativa e de medida, inclusive quando há resto. É justamente aí que muita criança trava: somar ela já faz, mas repartir um total em partes que precisam ser iguais é outra pergunta. Não existe estudo de eficácia para esta rotina; o que ela oferece é um jeito de deixar essa pergunta visível para a turma inteira.",
+      "Com uma tampa só, a turma resolve por subtração: basta tirar o que está à vista. Com duas, começa a discussão de verdade — \"se são doze e as duas têm o mesmo tanto, então cada uma tem seis\". Quando entra a terceira, o total continua o mesmo, mas o palpite anterior deixa de servir e a turma precisa repartir tudo outra vez. É nesse momento que as sobras aparecem: fichas que não cabem embaixo de tampa nenhuma, e a conversa passa a ser sobre o resto.",
+      "Não há nada para ler na tela: só a mesa, as fichas e as tampas, então a rotina funciona com quem ainda não lê e com quem está aprendendo a língua. Abre direto no navegador da lousa digital ou do projetor, sem cadastro e sem instalar nada. Não há pontuação, cronômetro nem qualquer sinal dizendo se o palpite da turma acertou: as tampas simplesmente sobem e todo mundo vê o que havia embaixo. Totais maiores, o caderno de mesas prontas e a impressão fazem parte do plano Professor."
+    ],
+    "howToUse": [
+      "Escolha quantas fichas ficam na mesa e projete a tela para a turma toda enxergar.",
+      "Coloque duas tampas e faça a pergunta: quantas fichas embaixo de cada uma?",
+      "Deixe a turma discutir e leve o marcador até o número que ela combinar, no trilho.",
+      "Toque em Destampar e mostre cada monte embaixo da sua tampa; se sobrou ficha, aponte para ela.",
+      "Toque em Tampar de novo, acrescente a terceira tampa e refaça a pergunta com o mesmo total.",
+      "Peça Outra mesa quando quiser um total diferente e repita a rotina em dois minutos."
+    ],
+    "classroomIdeas": [
+      "Comece com totais que repartem certinho (12 em 2, 3 ou 4 tampas) e só depois use 13 ou 14, para o resto aparecer sem aviso.",
+      "Anote no quadro as três rodadas do mesmo total — 12 em duas, em três e em quatro tampas — e peça que a turma compare o que mudou.",
+      "Antes de destampar, chame duas crianças com palpites diferentes e peça que cada uma conte como chegou ao número dela.",
+      "Quando sobrar ficha, pergunte quantas faltariam para cada tampa receber mais uma.",
+      "Use o mesmo total a semana inteira, mudando só a quantidade de tampas, e vá registrando o que a turma percebe.",
+      "Peça que escrevam a rodada com as próprias palavras no caderno: \"doze fichas em três tampas, quatro embaixo de cada uma\"."
+    ],
+    "metaTitle": "Divisão por repartição nos anos iniciais | As tampas",
+    "metaDescription": "Divisão por repartição na lousa: cubra as fichas com tampas iguais, a turma discute quantas há embaixo de cada uma e vê o resto que sobra na mesa. Grátis."
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

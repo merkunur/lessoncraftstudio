@@ -1047,6 +1047,35 @@
     "metaTitle": "Slumppåsen – slumpmässiga händelser i klassrummet",
     "metaDescription": "Klassen säger först vad de tror ligger i påsen och drar sedan en bit i taget. Varje drag ligger kvar, varje bit åker tillbaka i påsen. Gratis."
   },
+  "lids": {
+    "slug": "dela-lika-rest-division-lagstadiet",
+    "name": "Locken",
+    "tagline": "Läraren lägger ut lock på bordet, och under varje lock ligger exakt lika många brickor. Klassen ser vad som blir över, enas om ett tal och säger det högt – och sedan lyfts locken.",
+    "about": [
+      "På bordet ligger ett antal brickor. Du drar ut ett lock, och brickorna under det försvinner ur synhåll. Lägger du ut fler lock fördelar sig brickorna om, så att det alltid ligger precis lika många under varje lock i samma färg. De brickor som inte går att dela lika blir kvar synliga bredvid – resten, mitt framför klassen. Klassen sätter markören på det tal de tror på, och först därefter lyfts locken och brickorna syns ligga under sitt eget lock.",
+      "Det här är Taluppfattning och tals användning i årskurs 1–3: att dela upp tal i lika stora delar, och att märka att det ibland blir en rest. Steget från att lägga ihop till att dela upp är det som bär vidare mot multiplikation och division, och det är ett verkligt tröskelsteg för många sjuåringar. Verktyget bygger på en klassrumsrutin, inte på någon effektstudie – det lovar ingen mätbar effekt, bara ett tydligt sätt att göra själva frågan synlig.",
+      "Med ett lock är frågan egentligen en subtraktion: klassen räknar de synliga brickorna och tar bort dem från hela antalet. Med två lock måste samma tal passa två gånger, och när det tredje locket läggs ut tar det emot på riktigt – nu ska hela antalet räcka till tre lika stora högar, och tanken som fungerade nyss slutar fungera. Det är där samtalet startar: någon räknar upp, någon delar ut en och en, någon ser resten och byter tal.",
+      "Det finns ingenting att läsa, så eleverna kan vara med långt innan de läser flytande, och verktyget kräver inget konto. Det körs i webbläsaren på projektor eller smartboard med en knapp per drag, så du kan stå kvar framme vid tavlan. Klassens tal bedöms aldrig – locken lyfts, brickorna syns, och klassen ser själv hur det blev. Större antal, bordssamlingen och utskrift ingår i Lärarpaketet."
+    ],
+    "howToUse": [
+      "Välj hur många brickor som ska ligga på bordet och låt klassen se hela antalet innan något täcks över.",
+      "Lägg ut två lock och ställ frågan: hur många ligger under vart och ett?",
+      "Låt klassen enas om ett tal och sätt markören på talraden innan ni gör något annat.",
+      "Lyft på locken tillsammans och låt eleverna se brickorna ligga under sitt eget lock.",
+      "Lägg ut ett tredje lock på samma antal och ställ frågan igen – prata om vad som händer med de brickor som blir över.",
+      "Byt bord och kör om rutinen med ett antal som inte går jämnt upp."
+    ],
+    "classroomIdeas": [
+      "Kör samma antal med två, tre och fyra lock efter varandra och skriv upp talen på tavlan, så växer mönstret fram inför klassen.",
+      "Låt en elev lägga ut locken och en annan flytta markören, så att argumenten måste sägas högt innan något lyfts.",
+      "Stanna kvar före lyftet och be två elever med olika tal berätta hur de tänkte, utan att någon behöver ta tillbaka sitt.",
+      "Välj medvetet ett antal som inte går jämnt upp, till exempel 13 brickor under tre lock, och låt resten bli hela samtalet.",
+      "Fråga före lyftet hur många brickor ni skulle behöva lägga till för att även resten skulle få plats under ett lock.",
+      "Skriv ut bordet ur Lärarpaketet och låt paren lägga samma uppgift med riktiga brickor på bänken efteråt."
+    ],
+    "metaTitle": "Dela lika och rest – digitalt verktyg åk 1–2 | Locken",
+    "metaDescription": "Lägg ut lock på bordet – under varje lock ligger lika många brickor. Klassen gissar, resten syns, locken lyfts. Gratis verktyg för dela lika i åk 1–2."
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

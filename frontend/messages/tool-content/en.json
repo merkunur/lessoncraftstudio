@@ -1048,6 +1048,35 @@
     "metaTitle": "The Draw Bag — free chance and probability tool for K-3",
     "metaDescription": "A wordless whiteboard tool: guess what is in the bag, draw one piece at a time onto a permanent record, then run the same bag again and compare."
   },
+  "lids": {
+    "slug": "lids-sharing-equally-remainder-classroom-tool",
+    "name": "The Lids",
+    "tagline": "Put two lids on a table of counters — each one hides the same number. The class argues its way to a number, parks a marker on it, and only then do the lids come up.",
+    "about": [
+      "On screen is a table with identical round counters. Drag a lid onto it and the counters underneath are gone — not faded, not greyed, gone. Put a second lid down and everything re-settles, because every lid of the same colour hides exactly the same number. Whatever will not share stays where it is, in plain sight. A strip of numerals runs under the table, and the class parks a marker on the number they have agreed. Then the lids come up and the counters are shown sitting under their own lid.",
+      "Sharing equally, grouping, and the remainder are the ground the whole of multiplication and division is built on, and children meet them long before any notation. The hard part is not the arithmetic: it is that one unknown REPEATED is not the same problem as one unknown. With a single lid a child subtracts and is finished. There is no efficacy study for this routine, and none is claimed — what the tool offers is a way to put that question in front of a whole class at once.",
+      "Two lids can be beaten with halving, which most of a Year 1 class already owns. The third lid is where it changes: halving stops working, the number that was right a moment ago is wrong, and the total has to be shared out from scratch. That is where the sentences worth hearing appear — \"then it cannot be seven\", \"if I give one to this lid I have to give one to all of them\" — and where the remainder becomes the most interesting thing on the table.",
+      "There is nothing to read: a table, some counters, some lids and a row of numerals, so children who are not yet reading and children new to the language take part on the same terms. It runs in the browser on a whiteboard or projector with no login and nothing to install. And the class's number is never marked, coloured, scored or corrected — the lids simply come up, and the counters answer. Bigger totals, the table book and printing are part of the Teacher plan."
+    ],
+    "howToUse": [
+      "Choose how many counters are on the table and let the class look at the whole lot before anything is covered.",
+      "Put two lids down and ask the one question: how many under each?",
+      "Let them argue, then park the marker on the number the class settles on — even when you can already see it is wrong.",
+      "Lift the lids and let the class count what is under each one, and what was left on the table.",
+      "Put the lids back on, add a third, and ask exactly the same question about exactly the same total.",
+      "Load another table when the class starts seeing the answer too quickly."
+    ],
+    "classroomIdeas": [
+      "Hold 12 counters steady and walk two, three, four lids in turn; the class writes down the share and the remainder each time.",
+      "Pick a total that will not share — 13 under three lids — and let the class explain why the leftovers cannot go under a lid after all.",
+      "Ask two children with different numbers to justify theirs out loud before anyone touches the marker.",
+      "Turn it round: say how many are under one lid and let the class work out how many counters must be on the table.",
+      "Stop the moment before the third lid goes down and ask whether the number under each lid is about to get bigger or smaller.",
+      "Run the same total on two different days and see whether the class reaches the number faster the second time."
+    ],
+    "metaTitle": "Sharing equally and remainders — The Lids, free K-2 tool",
+    "metaDescription": "Put lids on a table of counters: every lid hides the same number and the remainder stays in plain sight. A free whiteboard tool for sharing equally in K-2."
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

@@ -164,6 +164,20 @@ const SEEDS = {
     { sel: '.drb-bar .drb-group:first-child .drb-chip', nth: 0 },
     { sel: '.drb-bag', times: 9, wait: 60 },
   ],
+  /* THE LIDS: 20 counters, three lids, marker parked — and then LIFTED.
+     ⚠ The first seed left the lids DOWN, which is the state where the
+     tool has hidden everything it has: three plain circles on an empty
+     cream table, saying nothing to anyone browsing the hub. Lifted, the
+     card carries the entire idea in one picture — three identical piles
+     of six, plus the two that would not share still sitting on the
+     table. Foot chips in order: another lid / take one away / lift /
+     another table / print. */
+  'lids': [
+    { sel: '.lid-bar .lid-chip', nth: 3 },
+    { sel: '.lid-foot .lid-chip', nth: [0, 0, 0] },
+    { sel: '.lid-mark', nth: 6 },
+    { sel: '.lid-foot .lid-chip', nth: 2 },
+  ],
 };
 
 async function runSeed(page, key) {

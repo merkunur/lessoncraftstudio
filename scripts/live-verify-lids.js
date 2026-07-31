@@ -105,6 +105,16 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
   is(left === 2 && (await n('.lid-lid')) === 3,
     `⭐ THE RE-SETTLE: the third lid makes the others give back — ${left} now sit in plain sight`);
 
+  /* ⭐ the operator's report, driven on production: the numerals must be
+     INERT before there is a question, and LIVE once there is one */
+  const stripAtRest = await page.evaluate(() =>
+    Array.from(document.querySelectorAll('.lid-mark')).every((b) => !b.disabled));
+  is(stripAtRest, 'the strip is live now that three lids are down');
+  const rung = await page.evaluate(() =>
+    Array.from(document.querySelectorAll('.lid-hint .lid-hline')).map((e) => e.textContent));
+  is(rung.length === 2 && rung[1] === 'Park the marker on the number you think it is.',
+    `⭐ hintMark renders on production — "${rung[1] || '(nothing)'}"`);
+
   await page.evaluate(() => { const m = document.querySelectorAll('.lid-mark')[9]; if (m) m.click(); });
   await wait(160);
   const marked = await page.evaluate(() => Array.from(document.querySelectorAll('.lid-mark')).findIndex((b) => b.classList.contains('lid-on')));
@@ -112,12 +122,16 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
 
   is(await foot('Lift the lids'), 'the lids come up');
   const after = await page.evaluate(() => ({
-    reveal: document.querySelectorAll('.lid-rcell').length,
+    truth: Array.from(document.querySelectorAll('.lid-mark')).findIndex((b) => b.classList.contains('lid-truth')),
+    truthCount: document.querySelectorAll('.lid-mark.lid-truth').length,
+    both: document.querySelectorAll('.lid-mark.lid-on.lid-truth').length,
     counters: document.querySelectorAll('.lid-counter').length,
     marked: Array.from(document.querySelectorAll('.lid-mark')).findIndex((b) => b.classList.contains('lid-on')),
     verdict: document.querySelectorAll('[class*="correct"],[class*="wrong"]').length
   }));
-  is(after.reveal === 6, `the reveal shows 6 under each lid (saw ${after.reveal})`);
+  is(after.truth === 6, `⭐ THE TRUTH LANDS ON THE STRIP at numeral ${after.truth}, beside the class's 9 — one scale, two values`);
+  is(after.truthCount === 1, `exactly one numeral carries the truth (saw ${after.truthCount})`);
+  is(after.both === 0, 'the marker and the truth are on different numerals here, each with its own treatment');
   is(after.counters === 20, `every counter is back and seated — ${after.counters} of 20`);
   is(after.marked === 9, '⭐ the marker of 9 survived the lift, unmoved');
   is(after.verdict === 0, '⭐ the wrong guess is NEVER MARKED');

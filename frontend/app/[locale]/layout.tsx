@@ -10,6 +10,7 @@ import { listAllActivities } from '@/lib/activities';
 import { fetchCrossLanguageTargets } from '@/lib/cross-language-decks';
 import { targetLangSlug, targetLangName } from '@/lib/target-language';
 import { getToolSlugMap } from '@/lib/seo/tool-content';
+import { getMakerSlugMap } from '@/lib/seo/maker-content';
 
 // Generate static params for all locales - enables static generation
 export function generateStaticParams() {
@@ -91,6 +92,16 @@ export default async function LocaleLayout({
     // index link for every item — the pre-2026-07-30 behaviour, never a 410.
   }
 
+  // Same treatment for the "Worksheet creators" dropdown: its items were
+  // /worksheet-makers/#anchor fragments, which are not separate URLs, so all that
+  // nav equity landed on the hub while the 33 maker landings got no nav link at all.
+  let makerSlugs: Record<string, string> = {};
+  try {
+    makerSlugs = await getMakerSlugMap(locale);
+  } catch {
+    // Content files unreachable: buildCategories falls back to the fragment links.
+  }
+
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
       <LocaleLayoutClient
@@ -101,6 +112,7 @@ export default async function LocaleLayout({
         availableActivities={availableActivities}
         availableTargets={availableTargets}
         toolSlugs={toolSlugs}
+        makerSlugs={makerSlugs}
       >
         {children}
       </LocaleLayoutClient>

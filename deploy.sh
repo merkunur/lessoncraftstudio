@@ -227,6 +227,12 @@ fi
 echo "🔎 hreflang mirror parity check..."
 node /opt/lessoncraftstudio/scripts/publish-cli/hreflang-codes.test.js || { echo "ERROR: hreflang-codes.js has drifted from frontend/lib/seo/hreflang.ts — fix before deploying"; exit 1; }
 
+# Guard: CLAUDE.md §10 indexable-route rule. Every text/html surface must declare a
+# canonical or a robots directive (nginx X-Robots-Tag counts). Ratcheted against a
+# frozen baseline of pre-existing debt, so this fails only on NEWLY-ungated surfaces.
+echo "🔎 Indexable-route rule check..."
+node /opt/lessoncraftstudio/scripts/preflight-indexable-routes.js || { echo "ERROR: a text/html surface would ship with no robots/canonical directive — see CLAUDE.md §10"; exit 1; }
+
 # ============================================
 # PAYMENT-SYSTEM PROTECTION (pre-build FAIL)
 # ============================================

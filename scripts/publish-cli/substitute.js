@@ -312,7 +312,9 @@ function apply(opts) {
       var slotTitleLocalized = (slot.title && (slot.title[locale] || slot.title.en)) || slot.slug;
       suggestionSubstitutions.push({
         placeholder: '__SUGGESTION_' + sIdx + '_URL__',
-        value: slot.canonicalURL || (CANONICAL_URL_BASE + '/' + slot.language + '/decks/' + slot.slug + '/'),
+        // Prefer the landing URL; fall back to the deck's own URL when it has no landing
+        // (landing-less decks are self-canonical + indexable, so /decks/ is correct there).
+        value: slot.landingURL || slot.canonicalURL || (CANONICAL_URL_BASE + '/' + slot.language + '/decks/' + slot.slug + '/'),
       });
       suggestionSubstitutions.push({
         placeholder: '__SUGGESTION_' + sIdx + '_TITLE__',

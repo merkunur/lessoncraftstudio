@@ -52,6 +52,7 @@ var _indices = null;
  */
 
 var CANONICAL_URL_BASE = 'https://www.lessoncraftstudio.com';
+var landingMap = require('./landing-map');
 
 function buildCanonicalURL(language, slug) {
   return CANONICAL_URL_BASE + '/' + language + '/decks/' + slug + '/';
@@ -66,9 +67,16 @@ function deckToMeta(deck) {
     exerciseType: deck.exerciseType,
     exerciseMode: deck.exerciseMode,
     subjectTags: deck.subjectTags || [],
+    // DB thumbnail URLs written before the publish.js apex fix carry the apex host;
+    // normalize here so no strip ever emits a redirecting image src (§A.10).
+    thumbnailUrl: landingMap.wwwHost(deck.thumbnailUrl),
     ageRange: deck.ageRange,
-    thumbnailUrl: deck.thumbnailUrl,
     canonicalURL: buildCanonicalURL(deck.language, deck.slug),
+    // The LINK target for this deck when it appears in another deck's suggestion strip.
+    // Null when the deck has no landing — such decks are self-canonical and indexable,
+    // so the /decks/ URL is the correct target and callers fall back to canonicalURL.
+    // Same resolver as the deck's own canonical, so the two can never disagree (§22.1).
+    landingURL: landingMap.landingURLForDeck(deck.language, deck.slug),
   };
 }
 

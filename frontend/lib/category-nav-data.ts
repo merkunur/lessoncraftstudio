@@ -152,6 +152,8 @@ export interface BuildCategoriesInput {
   // Resolved server-side because this module is imported by CLIENT components
   // and the tool-content JSON is ~1.4 MB across 11 locales.
   toolSlugs?: Record<string, string>;
+  /** makerKey -> native slug for this locale. Server-supplied, same reason as toolSlugs. */
+  makerSlugs?: Record<string, string>;
   // Translator for the 'nav.categories' namespace. Accepts a key, returns
   // the localized string. CategoryNav and MobileCategoryAccordion both pass
   // `useTranslations('nav.categories')` directly.
@@ -169,6 +171,7 @@ export function buildCategories({
   availableThemes = [],
   availableTargets = [],
   toolSlugs = {},
+  makerSlugs = {},
   t,
 }: BuildCategoriesInput): CategoryDropdown[] {
   const labels = LABELS[locale] || LABELS.en;
@@ -197,10 +200,25 @@ export function buildCategories({
     href: `/${locale}/topic/${resolveAxisSlug(key, locale)}/`,
     label: resolveAxisName(key, locale),
   }));
-  const appsItems: DropdownItem[] = APPS_ANCHOR_KEYS.map(key => ({
-    href: `/${locale}/worksheet-makers/#${key}`,
-    label: resolveAxisName(key, locale),
-  }));
+  // Worksheet-creator items point at the per-maker landing, not a hub fragment.
+  // These were `/worksheet-makers/#<key>` anchors; a fragment is not a separate URL,
+  // so every one of these sitewide nav links resolved to the same hub page while the
+  // 33 maker landings — the highest commercial-intent pages on the site — received no
+  // nav link at all. Same shape (and same reasoning) as `manipulativesItems` below.
+  //
+  // `makerSlugs` is server-supplied (see BuildCategoriesInput): this module is consumed
+  // by client components and must not import the ~1.4 MB maker-content JSON. An empty
+  // map (server data unavailable) falls back to the original fragment link, so the
+  // dropdown degrades to its previous behaviour rather than emptying or 404ing.
+  const hasMakerSlugs = Object.keys(makerSlugs).length > 0;
+  const appsItems: DropdownItem[] = APPS_ANCHOR_KEYS.map(key => {
+    const label = resolveAxisName(key, locale);
+    const slug = hasMakerSlugs ? makerSlugs[key] : undefined;
+    return {
+      href: slug ? `/${locale}/tools/${slug}` : `/${locale}/worksheet-makers/#${key}`,
+      label,
+    };
+  });
 
   // Surface a broader sitewide set of activity links (was 6) — the full
   // crawlable index lives on /[locale]/activities, but a wider dropdown gives

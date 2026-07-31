@@ -4,6 +4,8 @@
 
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
+import { resolveActivityById } from '@/lib/activities';
+import { getToolSlugMap } from '@/lib/seo/tool-content';
 
 interface Props {
   locale: string;
@@ -13,6 +15,7 @@ const PREV = 'https://www.lessoncraftstudio.com/mini-tools/previews';
 
 // Real activity previews (verified live) with their standard codes. Card titles
 // are localized via homepageV4.activities.label1..6 (the labelKey index).
+// `img` doubles as the activity manifest id — see the slug resolution below.
 const ACTIVITIES = [
   { img: 'ten-frame.count-to-10.make-n.animals', labelKey: 'label1', code: 'K.CC.B.4' },
   { img: 'choice-board.which-more.k-c-c-6', labelKey: 'label2', code: 'K.CC.C.6' },
@@ -22,8 +25,38 @@ const ACTIVITIES = [
   { img: 'choice-board.flat-solid.k-g-a-3', labelKey: 'label6', code: 'K.G.A.3' },
 ];
 
+// The manipulative chips, bound to their tool keys. The labels were previously
+// rendered from t('manip1..3') with no target of their own, so all three linked to
+// the /tools hub even though each has a dedicated landing.
+const MANIPULATIVE_CHIPS = [
+  { key: 'ten-frame', labelKey: 'manip1' },
+  { key: 'number-line', labelKey: 'manip2' },
+  { key: 'ruler', labelKey: 'manip3' },
+];
+
 export default async function ActivitiesMoatV4({ locale }: Props) {
   const t = await getTranslations({ locale, namespace: 'homepageV4.activities' });
+
+  // Per-card activity slugs. Every card links to its OWN page instead of the
+  // shared /activities index; a card whose id or per-locale slug is missing
+  // falls back to the index rather than emitting a 404.
+  const activityHrefs = new Map<string, string>();
+  try {
+    for (const a of ACTIVITIES) {
+      const slug = (await resolveActivityById(a.img))?.slug[locale];
+      if (slug) activityHrefs.set(a.img, `/${locale}/activities/${slug}`);
+    }
+  } catch {
+    // Manifest unreachable: every card falls back to the index link below.
+  }
+
+  // Same for the manipulative chips.
+  let toolSlugs: Record<string, string> = {};
+  try {
+    toolSlugs = await getToolSlugMap(locale);
+  } catch {
+    // Content files unreachable: chips fall back to the /tools index link.
+  }
 
   return (
     <section className="bg-[#F0F4F0] hv5-paper-rise-sm py-20 md:py-28">
@@ -40,7 +73,7 @@ export default async function ActivitiesMoatV4({ locale }: Props) {
           {ACTIVITIES.map((a) => {
             const label = t(a.labelKey);
             return (
-              <Link key={a.img} href={`/${locale}/activities`} className="group block hv5-card">
+              <Link key={a.img} href={activityHrefs.get(a.img) ?? `/${locale}/activities`} className="group block hv5-card">
                 <div className="bg-[#FBF3E4]">
                   <img src={`${PREV}/${a.img}.webp`} alt={t('altTemplate', { label })} loading="lazy" width={480} height={300} className="block w-full h-auto" />
                 </div>
@@ -55,11 +88,14 @@ export default async function ActivitiesMoatV4({ locale }: Props) {
 
         <div className="mt-8 flex flex-wrap items-center gap-3">
           <span className="font-lcsBody text-sm text-[#3d574f]">{t('manipLabel')}</span>
-          {[t('manip1'), t('manip2'), t('manip3')].map((m) => (
-            <Link key={m} href={`/${locale}/tools`} className="inline-flex items-center rounded-full bg-[#EAF2EF] px-3.5 py-1.5 font-lcsDisplay font-semibold text-sm text-[#146B5E] hover:bg-[#DDEAE5] transition-colors">
-              {m}
-            </Link>
-          ))}
+          {MANIPULATIVE_CHIPS.map((c) => {
+            const slug = toolSlugs[c.key];
+            return (
+              <Link key={c.key} href={slug ? `/${locale}/tools/${slug}` : `/${locale}/tools`} className="inline-flex items-center rounded-full bg-[#EAF2EF] px-3.5 py-1.5 font-lcsDisplay font-semibold text-sm text-[#146B5E] hover:bg-[#DDEAE5] transition-colors">
+                {t(c.labelKey)}
+              </Link>
+            );
+          })}
         </div>
 
         <div className="mt-9">

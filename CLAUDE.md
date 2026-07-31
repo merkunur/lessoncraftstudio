@@ -1035,6 +1035,17 @@ The 29 worksheet generators emit deck.html SEO chrome via the content-locale-dir
 
 Origin: Content Publishing SEO Standardization arc 2026-05-30 (hreflang SoT + auto-derived LIVE_TOOL_SLUGS + tool-page guardrail + publish-wave orchestrator + this doctrine).
 
+### 21.7 ⭐ Indexable-route rule (BUILD-FAILING gate)
+
+> **Any new route or static HTML file that returns `text/html` must, before merge, declare either a `<link rel="canonical">` or a `<meta name="robots">` directive. Utility surfaces, embeds, iframe targets, and app shells default to `noindex, follow`. A route with neither tag is a build failure.**
+
+Enforced by **`scripts/preflight-indexable-routes.js`**, wired into `deploy.sh` next to the hreflang parity guard (exit 1 = deploy aborts). It checks (A) every `frontend/public/**/*.html` and (B) every `frontend/app/**/page.tsx`.
+
+- **An nginx `X-Robots-Tag` SATISFIES the rule** — this project genuinely enforces directives at the header layer (`/mini-tools/`, deck PDFs), and a header directive is equivalent to the meta tag for every crawler. Covered prefixes live in `NGINX_COVERED`, each naming the patch script that installs the block so a dropped nginx rebuild is traceable.
+- **The root layout does NOT count as coverage** for (B). It always exports site-wide metadata, so counting it made the check incapable of failing — a poison-test caught that on the first version. Root metadata also cannot express a per-route canonical, and its default is `index, follow`, which is precisely how `/upload`, `/en/test` and `/en/test-simple` became live indexable pages.
+- **`KNOWN_UNGATED` is a ratchet baseline, not approval.** 30 surfaces already ungated at introduction (2026-07-31) are frozen there so the gate fails only on NEW ones. **The list may only shrink — never add an entry to make a build pass.** The 17 static entries (debug/test/content-manager HTML) are live 200s with no directive today and want an operator decision (noindex vs delete vs nginx header); §A.3 marks `user-control.html` + `homepage-content-manager.html` immutable, so an nginx header is the likely route.
+- **Poison-test any gate before trusting it** (§A.13 discipline, and MEMORY "verify rendered not source"): prove it FAILS on a synthetic violation, per check, before wiring it in.
+
 ---
 
 ## 22. SEO / Landing-Page Program — tier-3 deck landing pages (2026-06; 8-LOCALE ROLLOUT IN PROGRESS — sv COMPLETE, nl next)

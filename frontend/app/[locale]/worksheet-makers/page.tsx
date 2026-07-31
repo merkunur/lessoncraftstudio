@@ -5,6 +5,8 @@ import { getTranslations } from 'next-intl/server';
 import { ALL_APPS } from '@/config/products';
 import { ArrowRight } from 'lucide-react';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
+import { SUPPORTED_LOCALES } from '@/config/locales';
+import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { MAKER_KEYS, getMakerContent } from '@/lib/seo/maker-content';
 import { getAxisName } from '@/lib/taxonomy';
 
@@ -21,9 +23,13 @@ import { getAxisName } from '@/lib/taxonomy';
 
 const BASE_URL = CANONICAL_HOST;
 
-// §14.10 canonical 29-app list — the 4 PDF-only apps (coloring / writing /
-// draw-and-color / drawing-lines) excluded since they're not catalog-shipping.
-const PDF_ONLY_APPS = new Set(['coloring', 'writing', 'draw-and-color', 'drawing-lines']);
+// All 33 apps list here. This hub previously filtered out the 4 PDF-only apps
+// (coloring / writing / draw-and-color / drawing-lines) as "not catalog-shipping",
+// but each of them ships a live, indexable /tools/<slug> maker landing in all 11
+// locales AND is the destination of an /apps/* 301 that robots.txt keeps crawlable
+// precisely to recover its ranking equity. Filtering them here orphaned 44 live
+// pages from the only hub that links to them. They group into their existing
+// products.ts categories (writing → literacy; the other three → visual).
 
 interface AppMeta {
   slug: string;
@@ -35,7 +41,6 @@ interface AppMeta {
 function listCatalogApps(locale: string): AppMeta[] {
   const apps: AppMeta[] = [];
   for (const [slug, meta] of Object.entries(ALL_APPS)) {
-    if (PDF_ONLY_APPS.has(slug)) continue;
     // Card name in the page's language: the localized exercise-type axis name
     // (de "Subtraktion", "Mehr oder weniger" …). EN keeps the exact ALL_APPS name
     // (zero EN regression); non-EN falls back to it only if the taxonomy lacks a name.
@@ -55,10 +60,32 @@ const CATEGORY_ORDER = ['math', 'literacy', 'visual', 'matching', 'puzzle', 'sea
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
   const locale = params.locale || 'en';
   const t = await getTranslations({ locale, namespace: 'homepage.fourCardGrid.apps' });
+
+  // This hub exists in all 11 locales, but shipped canonical-only — no hreflang and
+  // no openGraph at all, so the locale variants never declared each other.
+  const hreflangAlternates: Record<string, string> = {};
+  for (const lang of SUPPORTED_LOCALES) {
+    hreflangAlternates[getHreflangCode(lang)] = canonicalUrl(localePath(lang, 'worksheet-makers'));
+  }
+  hreflangAlternates['x-default'] = canonicalUrl(localePath('en', 'worksheet-makers'));
+
+  const url = canonicalUrl(localePath(locale, 'worksheet-makers'));
   return {
     title: `${t('title')}`,
     description: t('description'),
-    alternates: { canonical: canonicalUrl(localePath(locale, 'worksheet-makers')) },
+    alternates: {
+      canonical: url,
+      languages: hreflangAlternates,
+    },
+    openGraph: {
+      title: t('title'),
+      description: t('description'),
+      type: 'website',
+      url,
+      siteName: 'LessonCraftStudio',
+      locale: ogLocaleMap[locale] || locale,
+      alternateLocale: SUPPORTED_LOCALES.filter((l) => l !== locale).map((l) => ogLocaleMap[l] || l),
+    },
     // Indexable hub for the worksheet-maker SEO channel (SEO RESCUE Part 1).
     robots: INDEXABLE_ROBOTS,
   };

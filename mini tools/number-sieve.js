@@ -498,10 +498,15 @@ var NumberSieve = {
     return s;
   },
 
+  /* ⚠ RETURNS null WHEN IT CANNOT BUILD — never an unchanged clone. The
+     first cut returned `s` on failure, so the clone still carried the OLD
+     clues, `built.clues.length` was truthy at the call site, and a failure
+     committed itself as a success: armed state cleared, library dots
+     dropped, nothing else changed. A caller must be able to tell. */
   setTarget: function (st, n) {
     var s = this._clone(st);
     var built = this.buildFor(s.field, n);
-    if (!built) return s;
+    if (!built) return null;
     s.clues = built;
     s.target = Math.round(Number(n));
     s.turned = 0;
@@ -656,6 +661,11 @@ var NumberSieve = {
        deck column is four cards high against two rows of numbers, which
        left a wide empty band beside the field — the sparse-layout defect.
        Two rows of numbers get their deck underneath, where it belongs. */
+    /* ⚠ THE HINT SITS ABOVE THE FIELD, not in the foot. It is the only
+       instruction this tool ever gives, and below a twelve-row field it
+       can be off-screen at exactly the moment it appears — which is half
+       of why "New cards" read as broken. */
+    wrap.appendChild(this._buildHint());
     var main = api.el('div', 'nsv-main' + (this.st.field >= 100 ? ' nsv-tall' : ''));
     main.appendChild(this._buildField());
     main.appendChild(this._buildDeck());
@@ -693,8 +703,17 @@ var NumberSieve = {
     var pick = api.el('button', 'nsv-chip' + (this._picking === 'target' ? ' nsv-on' : ''));
     pick.type = 'button';
     pick.textContent = api.t('newSet');
+    /* ⚠ IT DEALS, THEN IT ARMS — and it used to only arm. A control named
+       with a NOUN that produced no cards read as "I selected something",
+       especially beside three range chips one of which is always lit the
+       same way. `audit-tool-control-liveness` passed it, because the DOM
+       did change: Class Graph taught us to prove a control ACTS, and this
+       teaches the next thing — a control must do what its LABEL says.
+       Staying armed keeps the second, optional move (tap a number to build
+       around that one) which every locale's landing copy promises. */
     pick.addEventListener('click', function () {
-      self._picking = self._picking === 'target' ? null : 'target';
+      self._dealNewTarget();
+      self._picking = 'target';
       self.render();
     });
     bar.appendChild(pick);
@@ -704,6 +723,27 @@ var NumberSieve = {
     lib.addEventListener('click', function () { self._nextBoard(); });
     bar.appendChild(lib);
     return bar;
+  },
+
+  /* Deal a board around a DIFFERENT target in the current field. Stride 7
+     is coprime with 20, 100 and 120, so repeated presses walk every target
+     rather than cycling a short orbit — and it is deterministic, because
+     there is no Math.random anywhere in this tool. */
+  _dealNewTarget: function () {
+    var all = this.allNumbers(this.st.field);
+    var start = all.indexOf(this.st.target);
+    var k, cand, built;
+    for (k = 1; k <= all.length; k++) {
+      cand = all[((start + k * 7) % all.length + all.length) % all.length];
+      built = this.setTarget(this.st, cand);
+      if (built) {
+        this.st = built;
+        this._fromLibrary = false;
+        this._boardId = null;
+        return true;
+      }
+    }
+    return false;
   },
 
   /* deal the first open board for a field, so the tool is never a field
@@ -780,7 +820,8 @@ var NumberSieve = {
   _tapCell: function (n) {
     if (this._picking === 'target') {
       var built = this.setTarget(this.st, n);
-      if (built.clues.length) { this.st = built; this._fromLibrary = false; }
+      /* guard on the BUILD, not on clues.length — see setTarget */
+      if (built) { this.st = built; this._fromLibrary = false; this._boardId = null; }
       this._picking = null;
       this.render();
       return;
@@ -829,6 +870,8 @@ var NumberSieve = {
 
   _turn: function () {
     this.st = this.turn(this.st);
+    /* turning a card means you accepted this board */
+    this._picking = null;
     this.api.sound(520);
     this.render();
   },
@@ -920,9 +963,8 @@ var NumberSieve = {
     return e;
   },
 
-  _buildFoot: function () {
-    var api = this.api, self = this, foot = api.el('div', 'nsv-foot');
-    var hint = api.el('div', 'nsv-hint');
+  _buildHint: function () {
+    var api = this.api, hint = api.el('div', 'nsv-hint');
     /* ⚠ MID-DECK THE TOOL SAYS NOTHING. It used to fall through to the
        opening instruction — "park your number, then turn a card" — while
        the marker was already down and three cards were face up, which is
@@ -935,12 +977,22 @@ var NumberSieve = {
        true. Split on whether a marker is down, and both lines have a job:
        park one, then turn a card. Once the cards are turning the tool
        says nothing and waits. */
-    if (this._picking === 'target' || !this.st.clues.length) hint.textContent = api.t('pickHint');
+    /* ⚠ `pickHint` ONLY WHEN ACTUALLY ARMED. The old condition also fired
+       on `!clues.length`, which is every COLD LOAD — init renders before
+       the board fetch resolves — so the screen said "tap a number to make
+       a new set of cards" while a tap merely parked a marker. A hint that
+       cannot be obeyed is worse than silence. */
+    if (this._picking === 'target') hint.textContent = api.t('pickHint');
+    else if (!this.st.clues.length) hint.textContent = '';
     else if (!this.st.committed && this.st.marker === null) hint.textContent = api.t('parkHint');
     else if (!this.st.committed) hint.textContent = api.t('instruction');
     else if (this.st.turned >= this.st.clues.length) hint.textContent = api.t('tryAnother');
     else hint.textContent = '';
-    foot.appendChild(hint);
+    return hint;
+  },
+
+  _buildFoot: function () {
+    var api = this.api, self = this, foot = api.el('div', 'nsv-foot');
 
     /* ⚠ SHUFFLE ONLY ONCE THERE IS SOMETHING TO SHUFFLE. At rest every
        card is already face-down, so rotating the deck changed nothing a

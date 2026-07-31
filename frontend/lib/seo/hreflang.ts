@@ -45,22 +45,37 @@ export function getHreflangCode(locale: string): string {
  * Build an `{ hreflangCode: absoluteUrl }` alternates map (plus `x-default`)
  * for a piece of content that exists in some subset of locales.
  *
+ * `x-default` is the page shown to searchers whose language matches NONE of the
+ * declared alternates — i.e. a claim about the whole rest of the world. It is
+ * therefore emitted ONLY when an English URL exists.
+ *
+ * This previously fell back to `Object.values(out)[0]` — the first locale that
+ * happened to be present — so a cluster with no English member declared some
+ * arbitrary locale as the global default. Measured 2026-07-31: 10 of 24 sampled
+ * landings did this (a Swedish page declaring Spanish x-default, a Norwegian one
+ * declaring Danish), i.e. roughly 12,000 of the 30,078 landings were telling
+ * Google "for everyone else on earth, show the Spanish page." Omitting the tag
+ * is correct in that case: Google then falls back to its own language matching
+ * instead of being handed a wrong answer. `baseUrlFallback` is likewise NOT a
+ * valid x-default for a specific piece of content.
+ *
  * @param locales       the locales to consider (e.g. TOPIC_ENABLED_LOCALES)
  * @param urlForLocale  returns the absolute URL for a locale, or null/'' if the
  *                      content does not exist in that locale (skipped)
- * @returns map keyed by hreflang code; `x-default` points at en (or the first
- *          available locale, or the bare baseUrl fallback)
+ * @returns map keyed by hreflang code; `x-default` present ONLY if an en URL exists
  */
 export function buildHreflangAlternates(
   locales: readonly string[],
   urlForLocale: (locale: string) => string | null | undefined,
-  baseUrlFallback: string,
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  _baseUrlFallback?: string,
 ): Record<string, string> {
   const out: Record<string, string> = {};
   for (const loc of locales) {
     const url = urlForLocale(loc);
     if (url) out[getHreflangCode(loc)] = url;
   }
-  out['x-default'] = out['en'] || out['en-US'] || Object.values(out)[0] || baseUrlFallback;
+  const en = out['en'] || out['en-US'];
+  if (en) out['x-default'] = en;
   return out;
 }

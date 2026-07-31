@@ -149,8 +149,11 @@ function isRemovedRoute(pathname: string): boolean {
   if (pathname === '/sitemap-news.xml') return true;
   if (pathname === '/sitemap-images.xml') return true;
 
-  // Pre-pivot legacy patterns retained from prior teardown
-  if (pathname === '/worksheets' || pathname.startsWith('/worksheets/')) return true;
+  // Pre-pivot legacy patterns retained from prior teardown.
+  // NOTE: `/worksheets` + `/worksheets/*` used to 410 here. They are now 301'd into
+  // `/en/worksheets…` earlier in middleware() — the pivot made `/worksheets` the live
+  // flagship surface, so the teardown rule had become a self-inflicted 410 on 30,078
+  // landings' locale-less form. Do not re-add it here.
   if (pathname.startsWith('/buy')) return true;
 
   // Storybook project abandoned (operator 2026-07-11): the ONE indexed
@@ -211,6 +214,40 @@ export default function middleware(request: NextRequest) {
   const makerRedirectTarget = MAKER_APPS_REDIRECTS[redirectKey];
   if (makerRedirectTarget) {
     return NextResponse.redirect(new URL(makerRedirectTarget, request.url), { status: 301 });
+  }
+
+  // Locale-less forms of the two LIVE surfaces — 301 into `/en/…` instead of 410.
+  //
+  // `/worksheets` was a seller-era prefix when it was added to the teardown on
+  // 2026-03-04 (eb6240f3). The June pivot then made `/worksheets` the flagship
+  // surface (30,078 tier-3 landings, "the page Google should index"), but the
+  // teardown rule stayed — so the most natural URL a human or crawler would try,
+  // and every locale-less citation of a landing, answered "410 Gone" with a 24h
+  // cache. `/tools/<slug>` had the same collision: the carve-out at isRemovedRoute
+  // only covers `/<locale>/tools/…`. Every OTHER live surface (`/activities/<slug>`,
+  // `/topic/<slug>`) already 30x's to its locale form; these two were the outliers.
+  //
+  // MUST run before isRemovedRoute, which would otherwise 410 them.
+  const localeLess = pathname.length > 1 && pathname.endsWith('/') ? pathname.slice(0, -1) : pathname;
+
+  // /worksheets and /worksheets/<slug> → /en/… . An unknown slug is NOT special-cased:
+  // the landing route already answers 404 + noindex for it, which is exactly how
+  // /activities/<slug> and /topic/<slug> behave. Membership cannot be tested here
+  // anyway — the landing set is ~93 MB of JSON and must never enter the Edge bundle.
+  if (localeLess === '/worksheets' || localeLess.startsWith('/worksheets/')) {
+    return NextResponse.redirect(new URL(`/en${localeLess}`, request.url), { status: 301 });
+  }
+
+  // /tools and /tools/<slug> → /en/… , but ONLY for a real manipulative/maker slug.
+  // This one stays conditional because genuine seller-era slugs (profit-hub,
+  // kdp-royalty-calculator, kdp-size-calculator, niche-finder, activity-book-planner)
+  // live in the same namespace and MUST keep their 410.
+  if (localeLess === '/tools') {
+    return NextResponse.redirect(new URL('/en/tools', request.url), { status: 301 });
+  }
+  const bareToolMatch = localeLess.match(/^\/tools\/([^/]+)$/);
+  if (bareToolMatch && LIVE_TOOL_SLUGS.has(bareToolMatch[1])) {
+    return NextResponse.redirect(new URL(`/en${localeLess}`, request.url), { status: 301 });
   }
 
   // 410 Gone for all permanently-removed routes — must run before intl middleware

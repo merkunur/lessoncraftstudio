@@ -377,14 +377,12 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
               const sibSlug = getAxisSlug(axis, axisKey, sib);
               if (sibSlug) alternates[getHreflangCode(sib)] = `${baseUrl}/${sib}/topic/${sibSlug}`;
             }
+            // x-default only when an English sibling exists — same rule as
+            // buildHreflangAlternates. The old `siblingLocales[0]` fallback
+            // declared an arbitrary locale as the worldwide default.
             const enSlug = getAxisSlug(axis, axisKey, 'en');
             if (siblingLocales.includes('en') && enSlug) {
               alternates['x-default'] = `${baseUrl}/en/topic/${enSlug}`;
-            } else {
-              const fallbackSlug = getAxisSlug(axis, axisKey, siblingLocales[0]);
-              if (fallbackSlug) {
-                alternates['x-default'] = `${baseUrl}/${siblingLocales[0]}/topic/${fallbackSlug}`;
-              }
             }
 
             const lastMod = await topicLastModified(axis, axisKey, locale);
@@ -654,7 +652,7 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
   // Hreflang mirrors the landing route's generateMetadata byte-for-byte:
   // siblings matched on (type, mode, theme) via the O(1) coordinate index,
   // alternates built by the same buildHreflangAlternates SoT (pt→pt-BR,
-  // x-default→en-else-first). Declares only locales where the sibling
+  // x-default→en-or-omitted). Declares only locales where the sibling
   // actually exists (§17.4 hreflang honesty).
   // ID 4 (landings) is served by the custom route app/sitemap/4.xml/route.ts
   // (image-enriched; see generateSitemaps comment above). Not handled here.

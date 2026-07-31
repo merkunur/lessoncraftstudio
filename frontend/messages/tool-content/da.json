@@ -991,6 +991,34 @@
     "metaTitle": "Talsien — gratis værktøj til det hemmelige tal | LessonCraftStudio",
     "metaDescription": "Et gratis talfelt til klassens skærm og en bunke lukkede kort. Kortene forklarer ingenting — de gør noget ved feltet, og klassen læser reglen ud af det, der bliver mørkt."
   },
+  "arrow-strip": {
+    "slug": "pilesporet-programmering-indskoling",
+    "name": "Pilesporet",
+    "tagline": "Kortene ligger i sporet, og ingenting flytter sig, før klassen har sagt højt, hvilket felt billen ender på — og så kører hele sporet på ét tryk.",
+    "about": [
+      "Pilesporet er tre ting på tavlen og ikke andet. Måtten er et ternet felt. Sporet er en tom række af pladser, som I lægger kort i. Billen sidder på måtten og vender én bestemt vej. Der findes fire ordløse kort: frem, tilbage og en kvart omgang til hver side. Kortene lægges i sporet, og ingenting flytter sig imens. Klassen siger højt, hvilket felt billen ender på. Først bagefter kører ét tryk hele sporet igennem, kort for kort, mens billen tegner sin rute hen over måtten.",
+      "Kortene har ingen ord på. Det er med vilje. Et barn, der endnu ikke læser, et barn med dansk som andetsprog og et barn, der læser flydende, kan lægge det samme spor og diskutere det på lige fod. Sproget skal ud af skærmen og ind i munden på børnene: de skal selv sige frem, tilbage og en kvart omgang, og de skal selv sige, hvilket felt billen ender på. Det, klassen ikke kan sige med ord, kan den heller ikke forudsige.",
+      "To af de fire kort flytter ikke billen et eneste felt. De vender den, og de laver om på, hvad hvert eneste kort efter dem kommer til at betyde. Derfor bygges sporet, før det køres. Når billen vender ansigtet mod klassen, ligger dens venstre side ude i højre side af tavlen, og der stopper de fleste. Slå Se med billens øjne til: måtten drejer rundt under billen, der bliver stående, og så kan klassen se, at billen drejer til sin egen venstre side hver gang, uanset hvordan det lander på tavlen.",
+      "Hele apparatet er gratis: måtten i tre størrelser, alle fire kort, et spor uden begrænsning, kørslen, ruten billen tegner, den blege rute fra den forrige kørsel og knappen, der lader jer se det med billens øjne. Lærerabonnementet lægger måttebogen oveni med færdige måtter til bestemte forløb, plads til at gemme jeres egne måtter og print: den tomme måtte til bordet og blanke kort, som børnene selv klipper ud og lægger i sporet uden en skærm."
+    ],
+    "howToUse": [
+      "Vælg en måttestørrelse, og sæt billen på et felt.",
+      "Læg kortene i sporet ét ad gangen — der sker ingenting imens.",
+      "Lad klassen sige højt, hvilket felt billen ender på.",
+      "Tryk Kør, og se billen gå kortene igennem.",
+      "Byt ét kort ud, og kør igen — den blege rute viser den forrige tur.",
+      "Slå Se med billens øjne til, når klassen er uenige om venstre og højre."
+    ],
+    "classroomIdeas": [
+      "Start matematiktimen med tre kort i sporet, og lad hele klassen sige feltet, før I kører.",
+      "Arbejd med trinvise instruktioner fra teknologiforståelse: byg det korteste spor, der får billen hen til det samme felt.",
+      "Læg bogstaver eller ugens ord ud på måtten, og lad et barn bygge sporet hen til det ord, klassen læser.",
+      "Lad et barn være bille på gulvet med de fire kort i hånden, mens resten af klassen læser sporet højt for det.",
+      "Når billen endte et andet sted, end klassen sagde, så find sammen det ene kort, der skal byttes, og kør igen."
+    ],
+    "metaTitle": "Programmering i indskolingen — Pilesporet | gratis",
+    "metaDescription": "Fire ordløse kort, et spor og en bille: klassen bygger turen og siger højt, hvor billen ender, før den kører. Øv højre og venstre på tavlen."
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

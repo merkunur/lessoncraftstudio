@@ -969,6 +969,34 @@
     "metaTitle": "Lukuseula — salainen luku ja vihjekortit | ilmainen työkalu",
     "metaDescription": "Ilmainen työkalu alkuopetukseen: kaikki luvut palavat, vihjekortti ei kerro sääntöä vaan tekee jotakin, ja luokka lukee säännön siitä mikä sammui."
   },
+  "arrow-strip": {
+    "slug": "ohjelmoinnin-alkeet-alkuopetus-kuoriaisrata",
+    "name": "Kuoriaisrata",
+    "tagline": "Luokka sanoo ääneen, mihin kuoriainen päätyy — ja vasta sen jälkeen rata ajetaan.",
+    "about": [
+      "Kuoriaisrata on ilmainen ohjelmointiväline luokan yhteiselle näytölle. Ruudukkomatolla istuu pieni kuoriainen, joka katsoo yhteen suuntaan. Radalle pudotetaan kortteja, joissa ei lue mitään: askel eteenpäin, askel taaksepäin ja neljänneskäännös paikallaan kumpaankin suuntaan. Kun kortit ovat radalla, mitään ei tapahdu. Luokka sanoo ääneen, mihin ruutuun kuoriainen päätyy, ja vasta yksi napautus ajaa radan kortti kortilta. Kuoriainen piirtää kulkemansa jäljen mattoon. Rutiini pysyy samana koko lukuvuoden: asetetaan kortit radalle, sanotaan ennuste, ajetaan rata — ja sitten vaihdetaan yksi kortti ja ajetaan uudelleen. Matto on kolmessa koossa, joten sama rutiini kantaa esiopetuksesta toiselle luokalle.",
+      "Korteissa ei lue mitään. Ne ovat kuvia, joten lapsi voi rakentaa koko radan ennen kuin osaa lukea, ja sama väline sopii esiopetukseen ja ensimmäiselle luokalle sellaisenaan. Se on tärkeä myös silloin, kun luokassa on lapsia, jotka vasta opettelevat suomea: kortin merkityksen näyttää kuoriainen, sitä ei tarvitse selittää sanoilla. Puhe jää sinne, minne se kuuluukin, eli ennusteeseen. Lapsi perustelee omin sanoin ja omalla kielitaidollaan, mihin ruutuun kuoriainen päätyy ja miksi. Väline ei vaadi lukutaitoa, mutta se tuottaa puhetta koko tuokion ajan.",
+      "Kaksi neljästä kortista ei siirrä kuoriaista yhtään ruutua. Käännös jättää sen samaan ruutuun ja kirjoittaa silti koko loppuradan uusiksi, sillä jokainen sen jälkeen tuleva kortti tarkoittaa eri asiaa. Tästä syntyy alkuopetuksen tunnetuin kompastuskivi: kuoriaisen vasen ei ole sinun vasempasi. Painike ”Kuoriaisen silmin” kääntää koko maton paikallaan pysyvän kuoriaisen ympäri, jolloin sama käännöskortti on todistettavasti sama kortti kuoriaisen omasta kehosta katsottuna, vaikka se päätyy neljään eri asentoon opettajan näytöllä. Edellinen ajo jää näkyviin haaleana haamujälkenä, joten yhden kortin vaihtaminen näyttää, kuinka pitkälle radalle se muutos yltää. Lattiarobotti ei pysty näyttämään lapselle robotin omaa näkökulmaa.",
+      "Koko väline on ilmainen. Matto kolmessa koossa, rata, kuoriainen, neljä korttia, haamujälki ja ”Kuoriaisen silmin” toimivat selaimessa ilman tunnusta ja ilman asennusta: yksi näyttö riittää koko luokalle. Opettaja-tilaus lisää mattokirjan eli valmiiksi suunnitellut matot, omien mattojen tallentamisen ja tulostuksen: tyhjä matto pöydälle ja tyhjät kortit leikattavaksi, jotta lapset voivat rakentaa radan käsin ennen kuin se ajetaan näytöllä. Mitään ei tallenneta, lasketa eikä lähetetä minnekään, eikä lasten nimiä kysytä missään vaiheessa."
+    ],
+    "howToUse": [
+      "Valitse maton koko ja aseta kuoriainen lähtöruutuun.",
+      "Rakenna rata pudottamalla kortteja peräkkäin, äläkä vielä aja.",
+      "Pyydä luokkaa sanomaan ääneen, mihin ruutuun kuoriainen päätyy.",
+      "Aja rata ja katsokaa yhdessä, millaisen jäljen kuoriainen piirtää.",
+      "Vaihda yksi kortti, aja uudelleen ja vertaa uutta jälkeä haamujälkeen.",
+      "Ota ”Kuoriaisen silmin” käyttöön, kun luokka on eri mieltä siitä, kumpaan päin käännös vie."
+    ],
+    "classroomIdeas": [
+      "Aamupiirissä jokainen lapsi pudottaa vuorollaan yhden kortin radalle, ja koko rata sanotaan ääneen ennen ajoa, mikä on juuri esiopetuksen täsmällisten toimintaohjeiden antamista ja niiden mukaan toimimista.",
+      "Matikkatuokiolla pari rakentaa radan ja koko luokka sanoo ennusteen, jolloin vaiheittainen toimintaohje tulee myös testatuksi, kuten OPS 2014 luokkien 1 ja 2 ohjelmoinnin alkeissa edellyttää.",
+      "Aja valmis rata, joka ei päädy sovittuun ruutuun, ja anna luokan etsiä se yksi kortti, joka kannattaa vaihtaa, sillä haamujälki näyttää tarkalleen, mistä kohdasta uusi reitti erkanee vanhasta.",
+      "Aja sama rata kaikilla kolmella maton koolla ja kysy, päätyykö kuoriainen samaan ruutuun: käännöskortit käyttäytyvät samoin, askelkortit eivät, ja lapset joutuvat perustelemaan sijaintia ja suuntaa omin sanoin.",
+      "Teippaa lattiaan ruudukko, valitse yksi lapsi kuoriaiseksi ja anna muiden lukea kortit ääneen, niin sama neljän kortin rata kuljetaan ensin kehossa ja heti perään näytöllä."
+    ],
+    "metaTitle": "Ohjelmoinnin alkeet alkuopetukseen – ilmainen Kuoriaisrata",
+    "metaDescription": "Ilmainen ohjelmointiväline luokan näytölle: neljä sanatonta korttia, luokka ennustaa ääneen ja vasta sitten rata ajetaan. Esiopetuksesta 2. luokalle."
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

@@ -992,6 +992,34 @@
     "metaTitle": "Zahlenrätsel für die Grundschule | kostenloses Klassen-Tool",
     "metaDescription": "Zahlenfeld für den Klassenbildschirm mit verdeckten Hinweiskarten: Die Karte nennt keine Regel, sie lässt Zahlen erlöschen. Die Klasse liest sie daran ab."
   },
+  "arrow-strip": {
+    "slug": "kaeferplan-programmieren-ohne-computer",
+    "name": "Der Käferplan",
+    "tagline": "Die Klasse legt den ganzen Weg als Karten, sagt laut vorher, wo der Käfer stehen bleibt — und erst dann läuft er los.",
+    "about": [
+      "Der Käferplan ist ein Werkzeug für den Klassenbildschirm: eine Matte aus Feldern, ein Käfer, der auf einem Feld sitzt und in eine Richtung schaut, und darunter eine leere Bahn. In die Bahn legen die Kinder Karten — vorwärts, rückwärts und zwei Vierteldrehungen. Solange gelegt wird, bewegt sich der Käfer keinen Millimeter. Erst ein einziger Tipp lässt die ganze Bahn ablaufen, Karte für Karte, und der Käfer zieht dabei seine Spur über die Matte. Bauen und Laufen sind getrennt — und genau das kann kein echter Bodenroboter, der sofort losfährt, sobald ein Kind drückt.",
+      "Auf den Karten steht kein einziges Wort. Kein Kind wird also durch Lesen ausgebremst, und kein Kind kann sich hinter einem Fachbegriff verstecken — die Sprache entsteht am Bildschirm, im Gespräch. Deshalb trägt der Käferplan in jeder Klasse, auch mit Kindern, die noch nicht sicher lesen oder gerade erst Deutsch lernen. Die vier Karten sind die einzige Grammatik, die es hier gibt: zwei bringen den Käfer weiter, zwei drehen ihn nur. Alles andere — Weg, Reihenfolge, Begründung — sagen die Kinder selbst, laut und vor der ganzen Klasse.",
+      "Die zwei Drehkarten sind der eigentliche Stolperstein. Sie bringen den Käfer kein Feld weiter und ändern trotzdem alles, was danach kommt: Er bleibt auf seinem Feld stehen, schaut aber neu — und ab da bedeutet jede folgende Karte etwas anderes. Dazu kommt die Frage, um die Klassen wirklich streiten: Meint links das Kind oder den Käfer? Ein Tipp auf die Käfersicht dreht die ganze Matte unter dem Käfer, während er selbst stillsteht. Dieselbe Karte bleibt dieselbe Karte — sie landet auf Ihrem Bildschirm nur viermal anders. Seine eigene Sicht kann Ihnen kein Bodenroboter zeigen.",
+      "Der ganze Apparat ist frei nutzbar: die Matte in drei Größen, alle vier Karten, eine Bahn ohne Längenbegrenzung, das Ablaufen, die Spur des Käfers, die blasse Spur des letzten Laufs als Vergleich und der Wechsel in die Käfersicht. Ohne Anmeldung, ohne Grenze. Das Lehrer-Paket ergänzt zwei Dinge, die Vorbereitungszeit sparen: das Mattenbuch mit fertig aufgebauten Matten für einzelne Stunden samt eigenen Matten zum Speichern — und den Druck der leeren Matte mit Blankokarten zum Ausschneiden, damit die Kinder dasselbe am Tisch und auf dem Teppich weiterlegen."
+    ],
+    "howToUse": [
+      "Wählen Sie eine Matte und setzen Sie den Käfer auf ein Startfeld.",
+      "Zeigen Sie das Zielfeld und lassen Sie die Kinder die Karten in die Bahn legen.",
+      "Halten Sie an, bevor etwas passiert: Die Klasse sagt laut, auf welchem Feld der Käfer stehen bleibt.",
+      "Tippen Sie auf Losschicken und lassen Sie den Käfer die ganze Bahn ablaufen.",
+      "Ändern Sie danach genau eine Karte und schicken Sie ihn noch einmal los — die blasse Spur zeigt, wie weit diese eine Karte reicht.",
+      "Streitet die Klasse über links und rechts, wechseln Sie in die Käfersicht, während der Käfer die Kinder anschaut."
+    ],
+    "classroomIdeas": [
+      "Als Einstieg in Raum und Form: Die Kinder beschreiben einen Weg über die Matte erst mit eigenen Worten, dann legen sie denselben Weg als Karten.",
+      "Für Wegbeschreibungen im Sachunterricht: Bauen Sie den Schulweg oder den Weg durch das Schulhaus als Matte nach und lassen Sie ihn ablaufen.",
+      "Als Programmieren ohne Computer vor dem ersten Bee-Bot: Die Klasse plant vollständig am Bildschirm, bevor ein echter Bodenroboter auf den Teppich kommt.",
+      "Für links und rechts: Ein Kind stellt sich so hin wie der Käfer und dreht sich bei jeder Drehkarte mit, die anderen vergleichen an der Matte, ob beide dasselbe tun.",
+      "Als Partnerarbeit nach dem Muster Bauen nach Bauplan: Ein Kind legt heimlich eine Bahn, das andere sagt das Zielfeld an, dann läuft der Käfer."
+    ],
+    "metaTitle": "Programmieren ohne Computer in der Grundschule — Käferplan",
+    "metaDescription": "Karten in die Bahn legen, laut vorhersagen, wo der Käfer stehen bleibt, dann ablaufen lassen. Links und rechts aus Käfersicht, für Klasse 1 bis 3."
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

@@ -991,6 +991,34 @@
     "metaTitle": "Welk getal ben ik? | gratis getallenveld voor de klas",
     "metaDescription": "Welk getal ben ik? Alle getallen staan aan op het digibord, elke kaart dooft er een deel van en de klas leest zelf af welk getal overblijft. Zonder score of klok."
   },
+  "arrow-strip": {
+    "slug": "pijlenbaan-programmeren-kleuters-links-rechts",
+    "name": "De Pijlenbaan",
+    "tagline": "Leg de kaarten klaar, laat de klas hardop voorspellen waar de kever stopt, en laat de baan dan pas lopen.",
+    "about": [
+      "De Pijlenbaan is een klassikaal instrument voor het digibord. Op de mat staat een kever die één kant op kijkt. Daarnaast ligt de baan: een lege rij plekken waarin je kaarten legt. Er zijn precies vier kaarten en er staat geen woord op: vooruit, achteruit, een kwartslag naar zijn eigen linkerkant en een kwartslag naar zijn eigen rechterkant. Terwijl je de baan vult, beweegt er niets. Pas als je op laten lopen tikt, werkt de kever de hele baan kaart voor kaart af en trekt hij zijn spoor over de vakjes.",
+      "Op de kaarten staat geen woord en geen letter. Dat is met opzet: de kinderen moeten de kaart zelf hardop benoemen, en daarmee wordt de taal van het kind de inhoud van de les. Kleuters die nog niet lezen doen even goed mee als kinderen uit groep 4, en in een tweetalige klas kan dezelfde kaart in twee talen klinken zonder dat er iets aan de baan verandert. Er verschijnt ook nergens een oordeel: geen vinkje, geen kruisje, geen punten en geen klok. Wat de klas heeft gelegd, is alles wat het bord laat zien.",
+      "Twee van de vier kaarten zetten de kever geen vakje verder en veranderen tóch alles: na een kwartslag betekent elke kaart die erna komt iets anders. Daar zit ook het bekendste struikelblok van groep 1 tot en met groep 4: de linkerkant van de kever is niet jouw linkerkant. Zit hij met zijn kop naar de klas toe, dan draait hij precies de andere kant op dan de kinderen verwachten. Eén tik draait de hele mat mee terwijl de kever stil blijft staan, zodat de klas dezelfde kaart een keer vanaf zijn eigen lijf ziet.",
+      "Het hele apparaat is gratis: de mat in drie maten, alle vier de kaarten, een baan zonder limiet, het laten lopen, het spoor, het lichte spoor van de vorige keer dat blijft staan, en de knop die alles vanaf de kever laat zien. Wie meer wil, vindt in het Leerkracht-pakket het mattenboek met kant-en-klare matten, de mogelijkheid om eigen matten te bewaren, en de lege mat en blanco kaarten om af te drukken en uit te knippen, zodat dezelfde routine ook op de vloer en aan tafel verdergaat."
+    ],
+    "howToUse": [
+      "Kies een mat en zet de kever op een vakje.",
+      "Leg samen kaarten in de baan; er beweegt nog niets.",
+      "Laat de klas hardop zeggen op welk vakje hij stopt.",
+      "Tik op laten lopen en volg zijn spoor kaart voor kaart.",
+      "Verander één kaart, laat opnieuw lopen en vergelijk met het lichte spoor van daarvoor.",
+      "Zet de kever met zijn kop naar de klas en kijk zoals hij kijkt."
+    ],
+    "classroomIdeas": [
+      "Laat in de kring elke kleuter om de beurt één kaart leggen en de rest hardop voorspellen waar de kever stopt: oriënteren en lokaliseren zonder dat er iets op papier hoeft.",
+      "Bouw de baan eerst op het bord en voer daarna precies dezelfde rij kaarten uit met de vloerrobot, zodat de kinderen hun voorspelling toetsen aan wat er echt gebeurt.",
+      "Laat in groep 3 het begrip kwartslag landen door dezelfde draaikaart vier keer achter elkaar te leggen en te laten zien dat de kever weer precies zo staat als in het begin.",
+      "Leg een baan die op een ander vakje uitkomt dan bedoeld en laat de klas beredeneren wélke ene kaart eruit moet: debuggen in zijn eenvoudigste vorm, uit de leerlijn digitale geletterdheid.",
+      "Draai de mat om de kever heen en laat twee kinderen die tegenover elkaar zitten uitleggen waarom dezelfde kaart voor allebei een andere kant op lijkt te draaien."
+    ],
+    "metaTitle": "Pijlenbaan - programmeren en links-rechts voor kleuters",
+    "metaDescription": "Gratis digibordinstrument: leg woordloze kaarten in de baan, laat de klas voorspellen waar de kever stopt en laat hem dan pas lopen. Groep 1 tot en met 4."
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

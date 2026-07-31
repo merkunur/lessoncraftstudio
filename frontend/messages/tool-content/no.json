@@ -991,6 +991,34 @@
     "metaTitle": "Tallsilen — gratis verktøy til det hemmelige tallet | LessonCraftStudio",
     "metaDescription": "Et gratis tallfelt for skjermen foran klassen og en bunke lukkede kort. Kortene forklarer ingenting — de gjør noe med feltet, og klassen leser regelen ut av det som blir mørkt."
   },
+  "arrow-strip": {
+    "slug": "pilbanen-programmering-kommandokort-1-trinn",
+    "name": "Pilbanen",
+    "tagline": "Kortene ligger i banen uten at noe skjer, klassen sier høyt hvor billa stopper, og først da trykker dere Kjør.",
+    "about": [
+      "Pilbanen er ei rutematte på skjermen foran klassen, med ei bille som sitter på matta og ser én vei, og en tom bane du legger kort i. Det finnes nøyaktig fire kort: ett framover, ett bakover og to som snur billa en kvart omdreining, ett til hver side. Du legger så mange du vil i banen, og ingenting skjer. Klassen sier høyt hvilken rute billa havner i. Så trykker dere Kjør én gang, og billa går kort for kort og tegner sporet sitt etter seg.",
+      "På kortene står det ikke et eneste ord. Et barn som ennå ikke leser, kan legge hele banen selv, og på et trinn med flere språk i rommet er det ingen tekst som stenger noen ute. Det viktigste kortet er likevel det som ikke flytter billa i det hele tatt: en kvart omdreining lar den bli stående i samme rute, men gjør at alt som ligger etter i banen, betyr noe annet. Derfor bygger dere hele banen ferdig før dere kjører den.",
+      "Her ligger den vanskeligste biten for de yngste: billas venstre er ikke din venstre. Når billa står vendt mot klassen, peker kortet motsatt vei av det barna tror, og det er akkurat den uenigheten timen lever av. Trykk på Slik den ser det, så snur hele matta seg under ei bille som blir stående i ro. Det samme kortet er det samme kortet hele veien, selv om det lander på fire ulike måter på skjermen. En robot på gulvet kan aldri snu rommet og vise hvordan den selv ser det.",
+      "Hele apparatet er gratis: matta i tre størrelser, alle fire kortene, en bane uten grense, kjøringen, sporet, det bleke sporet fra forrige gang og knappen som snur matta. Det bleke sporet er det som gjør Bytt ett kort verdt noe — klassen ser nøyaktig hvor langt det ene kortet rakk. Lærerabonnementet legger til boka med ferdige matter, dine egne lagrede matter og utskrift av tom matte og blanke kort til å klippe ut, slik at klassen kan legge den samme banen på pulten."
+    ],
+    "howToUse": [
+      "Velg matte: den minste til de yngste, eller en større når banen skal bli lengre.",
+      "Legg kortene i banen sammen med klassen, ett om gangen, uten å kjøre.",
+      "Spør hvilken rute billa havner i, og la barna vise med hele kroppen hvilken vei den snur.",
+      "Trykk Kjør én gang, og se sporet tegne seg kort for kort.",
+      "Bytt ett eneste kort, kjør igjen, og se hvor langt bak i banen det ene byttet rakk.",
+      "Trykk Slik den ser det når klassen er uenige om venstre, og la matta snu seg i stedet for billa."
+    ],
+    "classroomIdeas": [
+      "Programmering på 1. trinn uten utstyr: hele klassen bygger én bane sammen på skjermen før noen får røre en gulvrobot.",
+      "Algoritmisk tenkning i praksis: la klassen finne det ene kortet som må byttes for at billa skal havne i en annen rute.",
+      "Stegvise instruksjoner i norsk: to barn beskriver banen for hverandre med ord mens et tredje legger kortene.",
+      "Venstre og høyre i kroppsøving: la alle stå vendt samme vei som billa og snu seg sammen med den før dere kjører.",
+      "Stasjonsarbeid: skriv ut den tomme matta og de blanke kortene, så legger to og to den samme banen på pulten og sammenligner med skjermen."
+    ],
+    "metaTitle": "Programmering 1.-3. trinn — Pilbanen, gratis verktøy",
+    "metaDescription": "Legg kortene i banen, si høyt hvor billa stopper, og trykk Kjør. Gratis verktøy for programmering og algoritmisk tenkning på 1.-3. trinn."
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

@@ -992,6 +992,34 @@
     "metaTitle": "The Number Sieve — Free Mystery Number Tool | LessonCraftStudio",
     "metaDescription": "A free projectable number field and sealed clue cards. Each clue acts on the field instead of naming a rule, so the class reads it from what goes dark. No scores, no timers, no reading required."
   },
+  "arrow-strip": {
+    "slug": "arrow-strip-directions-turns-classroom-tool",
+    "name": "The Arrow Strip",
+    "tagline": "Build the plan, say where it will stop, then run it — and watch what one changed card does to everything after it.",
+    "about": [
+      "The Arrow Strip is a square mat on the class screen with a small beetle sitting on it, facing one way. Beside the mat is an empty rail and four cards: go forward, go back, and a quarter turn each way. You drop cards into the rail and nothing happens. That is deliberate. The rail is a plan, and a plan is something you can argue about before it runs. When the class has said out loud where the beetle will stop, one tap runs the whole rail and the beetle draws its trail behind it.",
+      "There is not a single word on the mat or on any card. A child who cannot read yet can take a full turn, hold an opinion and defend it. That matters more here than almost anywhere, because the idea underneath is genuinely hard and has nothing to do with reading: two of the four cards move the beetle nowhere at all, and change what every card after them will mean. A quarter turn leaves it on the same square and rewrites the rest of the plan.",
+      "Then there is the part no floor robot can do. Change one card in the middle of the rail and run it again: the previous trail stays on screen as a faint ghost, so the class can see exactly how far downstream that one card reached. And when the argument starts — and it always starts — about whether a turn card means the child's left or the beetle's left, press \"See it their way\". The whole mat turns underneath a beetle that stays still, and the same card is suddenly, visibly, the same card. That is the obstacle, made lookable-at instead of explained.",
+      "The instrument is free and stays free: the mat at three sizes, all four cards, a rail as long as you like, the run, the trail, the ghost and the beetle's-eye view. There is nothing to reach on this mat — no goal square, no maze, no target and no marking, because the trail is the product and the talk is the lesson. The Teacher plan adds the mat book of curated starting mats, saved mats, and printing the empty mat as a floor mat with blank cards to cut out."
+    ],
+    "howToUse": [
+      "Pick a mat size: four squares across for the youngest, six or eight when they are ready.",
+      "Drop three or four cards into the rail. Say nothing while you do it — let them watch the plan being made.",
+      "Ask the class to say where the beetle will stop, and get a commitment before anything moves.",
+      "Tap \"Run it\" and let the trail draw itself. Do not comment on whether they were right.",
+      "Now change exactly one card — tap a card in the rail to take it out, and add a different one — and run it again. The old trail stays as a ghost.",
+      "When someone says a turn card is wrong, press \"See it their way\" and let the mat turn instead of explaining."
+    ],
+    "classroomIdeas": [
+      "Five minutes at the start of a lesson: three cards, one prediction, one run, one changed card.",
+      "Give the rail to a child who is not usually first to speak — building the plan is a turn that needs no reading and no arithmetic.",
+      "Play \"one card off\": run a rail, then ask which single card to change to make the beetle finish somewhere else.",
+      "Put the beetle facing the class and argue about a turn card before you settle it with the beetle's-eye view.",
+      "Print the mat as a floor mat, cut out the blank cards, and let two children be the beetle and the rail for the rest of the class."
+    ],
+    "metaTitle": "Arrow Strip — free directions and turns tool for K-3",
+    "metaDescription": "A wordless classroom tool: build a plan of forward, back and quarter-turn cards, predict where the beetle stops, then run it and see the trail."
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

@@ -384,6 +384,36 @@ const ABS_BY_LOCALE = {
   if (!bad && !ERRORS) console.log('  A11 no verdict machinery or wording, in any locale');
 }());
 
+/* ---------- A15 ⭐ NO DEAD STRINGS ---------- */
+(function () {
+  /* ⚠ THE FIFTH INSTANCE OF THIS CLASS ON THE PLATFORM, so it stops being
+     a thing I find by reading and becomes a thing the gate finds. A key
+     authored in eleven locales and consumed by nothing is not harmless:
+     ten native panels spent real judgement on it, and on a previous tool
+     a dead `fieldLabel` meant a whole control group shipped unlabelled
+     for screen readers while the string sat there looking like coverage.
+     `cellAria` was exactly this here — 64 decorative mat squares carry
+     aria-hidden, so nothing ever asked for it. */
+  /* ⚠ "REFERENCED ANYWHERE OUTSIDE THE DECLARATION", not `t('key')`. The
+     first cut scanned for the literal call and flagged seven live keys,
+     because a key can be reached through a ternary inside t() or through
+     a lookup map (CARD_KEY). Strip the declaration; anything left is a
+     real reference. */
+  const sStart = SRC_NC.indexOf('strings: {');
+  const sEnd = SRC_NC.indexOf('STORE_KEY:');
+  if (sStart < 0 || sEnd <= sStart) { err('A15 could not bound the strings block'); return; }
+  const rest = SRC_NC.slice(0, sStart) + SRC_NC.slice(sEnd);
+  /* `title` is consumed by the SHELL (lcs-shell.js:448 i18n.t(tool.strings,
+     'title')), never by the tool, so it can never appear here. */
+  const SHELL_OWNED = ['title'];
+  const isLive = (k) => SHELL_OWNED.indexOf(k) > -1 || rest.indexOf("'" + k + "'") > -1;
+  const keys = Object.keys(T.strings);
+  const dead = keys.filter((k) => !isLive(k));
+  if (dead.length) { err(`A15 ⭐ dead string(s) authored in 11 locales and consumed by nothing: ${dead.join(', ')}`); return; }
+  if (isLive('neverCalledKey')) { err('A15 POISON: the dead-string scan does not fire on an uncalled key'); return; }
+  console.log(`  A15 ⭐ every one of the ${keys.length} authored strings is actually consumed (poison-tested)`);
+}());
+
 /* ---------- A13 THE MAT BOOK — an invalid mat cannot ship ---------- */
 (function () {
   const p = path.join(TOOL_DIR, 'arrow-strip-mats.json');
@@ -411,6 +441,16 @@ const ABS_BY_LOCALE = {
   if (free !== d.freeMax) err(`A13 freeMax says ${d.freeMax} but ${free} mats are marked free`);
   /* the free grant must open on arrival — never gate the first affordance */
   if (free < 1) err('A13 no free mat — the first affordance would be locked on arrival');
+
+  /* ⚠ A 404 MUST DEGRADE TO THE FREE TIER, NOT TO NOTHING. The fallback
+     shipped empty, which made the Mat Book chip a dead control for a
+     subscriber the moment the file failed to load; the liveness gate
+     found it. The fallback must carry every free mat and no paid one. */
+  const fb = T.FALLBACK_MATS && T.FALLBACK_MATS.mats;
+  if (!Array.isArray(fb) || !fb.length) { err('A13 the offline fallback is empty — a 404 leaves a dead control, not a free tier'); return; }
+  if (fb.some((m) => !m.free)) err('A13 the offline fallback carries a PAID mat — a 404 would unlock the Teacher plan');
+  const freeIds = mats.filter((m) => m.free).map((m) => m.id).sort().join(',');
+  if (fb.map((m) => m.id).sort().join(',') !== freeIds) err('A13 the offline fallback does not match the free mats in the book');
   if (!ERRORS) console.log(`  A13 the Mat Book is valid — ${mats.length} mats, ${free} free, every start pose on its own mat, and no route or solution rides in the file`);
 }());
 

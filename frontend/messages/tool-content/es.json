@@ -991,6 +991,34 @@
     "metaTitle": "Número misterioso con pistas para primaria | recurso gratis",
     "metaDescription": "Cuadrícula de números en el pizarrón y tarjetas de pista selladas: la pista no dice nada, apaga números y el grupo descubre por qué. Sin puntajes."
   },
+  "arrow-strip": {
+    "slug": "carril-del-escarabajo-lateralidad-orientacion-espacial",
+    "name": "El carril del escarabajo",
+    "tagline": "Las tarjetas entran en el carril y no se mueve nada: la clase dice en qué casilla va a parar el escarabajo y solo entonces se ejecuta el recorrido completo.",
+    "about": [
+      "El carril del escarabajo es un tapete cuadriculado para el pizarrón, un escarabajo sentado en una casilla y mirando hacia un lado, y un carril vacío donde usted va dejando tarjetas. Hay cuatro tarjetas y ninguna lleva palabras: un paso adelante, un paso atrás y dos que giran un cuarto de vuelta, cada una hacia un lado del propio cuerpo del escarabajo. Mientras el carril se llena no se mueve absolutamente nada. La clase dice en voz alta en qué casilla va a parar y, solo entonces, un toque ejecuta el carril entero y el escarabajo va dejando su rastro.",
+      "Que las tarjetas no lleven ni una palabra no es un adorno. Un niño que todavía no lee arma el recorrido completo, lo defiende delante del grupo y cambia una tarjeta cuando el rastro no llegó donde esperaba; en un salón con niveles muy distintos, y con niños que apenas están entrando en el idioma de la escuela, eso decide quién puede participar. Y obliga a que el lenguaje lo ponga la clase: el aparato no nombra ningún giro, así que son los niños los que tienen que decir con sus palabras qué hace cada tarjeta.",
+      "El obstáculo real de estas edades no es contar pasos: es que la izquierda del escarabajo no es la izquierda de usted, y menos todavía cuando el escarabajo está mirando de frente a la clase. Por eso la herramienta puede girar el tapete completo por dentro y dejar al escarabajo quieto: la misma tarjeta de giro se ve idéntica desde su cuerpo, mientras en el pizarrón cae de cuatro maneras distintas. Un robot de suelo no puede mostrarle a un niño su propio punto de vista; aquí se ve, y se discute con el escarabajo delante.",
+      "Todo el aparato es gratuito: el tapete en tres tamaños, las cuatro tarjetas, un carril sin límite de largo, la ejecución tarjeta por tarjeta, el rastro que va dejando el escarabajo y el rastro anterior, que queda como una sombra para comparar dos intentos, además del botón para verlo desde el escarabajo. El plan Docente agrega el cuaderno de tapetes con recorridos ya preparados, la posibilidad de guardar los tapetes que usted arme, y la impresión del tapete vacío y de las tarjetas en blanco para recortar y trabajar en el suelo."
+    ],
+    "howToUse": [
+      "Elija el tamaño del tapete y coloque al escarabajo en su casilla de salida.",
+      "Deje que los niños vayan poniendo tarjetas en el carril, y recuérdeles que todavía no se mueve nada.",
+      "Antes de ejecutar, pida a la clase que diga en qué casilla va a parar el escarabajo y que la señale en el tapete.",
+      "Ejecute el carril y sigan juntos el rastro, tarjeta por tarjeta.",
+      "Pregunte qué sola tarjeta habría que cambiar, cámbiela y ejecute otra vez: la sombra del intento anterior muestra hasta dónde llegó ese cambio.",
+      "Cuando alguien discuta un giro, toque Verlo desde el escarabajo y deje que la clase compruebe de quién es esa izquierda."
+    ],
+    "classroomIdeas": [
+      "Rutina diaria de cinco minutos: tres tarjetas, la clase predice la casilla y luego se ejecuta; es la entrada más corta a la programación sin ordenador.",
+      "Lateralidad: con el escarabajo mirando de frente al grupo, pregunte hacia qué lado gira su cuerpo antes de tocar nada, y resuelvan la discusión con el botón de verlo desde el escarabajo.",
+      "Orientación espacial: marque una casilla de llegada y pida el carril más corto que llegue hasta ella sin pisar las casillas prohibidas.",
+      "Arreglar un recorrido: deje un carril que falla por poco y pida que cambien una sola tarjeta, no dos, y que expliquen por qué esa.",
+      "Trabajo en parejas con el material impreso: un niño arma el recorrido con las tarjetas recortadas sobre el tapete de papel y el otro hace de escarabajo y lo recorre con su propio cuerpo."
+    ],
+    "metaTitle": "Lateralidad y orientación espacial para primaria | gratis",
+    "metaDescription": "Tapete cuadriculado y tarjetas sin palabras: la clase arma el recorrido, dice dónde va a parar el escarabajo y solo entonces lo ejecuta. Sin puntajes."
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

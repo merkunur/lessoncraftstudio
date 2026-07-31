@@ -458,6 +458,12 @@ var Lids = {
     return s;
   },
 
+  /* ⚠ ADDING OR REMOVING A LID VOIDS THE COMMITMENT. "Now put a third one
+     down" is the whole move of the routine, and a marker parked for two
+     lids is not an answer to the three-lid question — leaving it up would
+     be the tool quietly re-using an old commitment for a new problem.
+     moveLid does NOT clear it (the share is unchanged by where a lid
+     sits) and neither does lower (the class may want to look again). */
   addLid: function (st, cx, cy) {
     var s = this._clone(st);
     if (s.lifted) return null;
@@ -465,6 +471,7 @@ var Lids = {
     var x = Math.round(Number(cx)), y = Math.round(Number(cy));
     if (!isFinite(x) || !isFinite(y)) return null;
     s.lids.push({ cx: Math.max(0, Math.min(this.W, x)), cy: Math.max(0, Math.min(this.H, y)) });
+    s.guess = null;
     return s;
   },
 
@@ -483,6 +490,7 @@ var Lids = {
     if (s.lifted) return null;
     if (!s.lids.length) return null;
     s.lids.pop();
+    s.guess = null;
     return s;
   },
 
@@ -490,10 +498,22 @@ var Lids = {
      never again — by REFUSAL, so no path in the file can move it.
      ⚠ Returns null on refusal, never an unchanged clone: the recorded
      number-sieve defect where a failure carried the old data forward and
-     committed itself as a success. */
+     committed itself as a success.
+
+     ⚠ AND IT REFUSES UNTIL THERE IS A QUESTION. The operator's report on
+     the shipped tool was "the numbers under the board has no function",
+     and the state they were looking at was the opening one: no lids on
+     the table, nothing to be asked, and the whole strip live and willing
+     to accept a commitment anyway. A control that will take an answer to
+     a question nobody has posed is not a control, it is furniture. Two
+     lids is the floor because one lid is a subtraction — the tool this
+     one refuses to be (refusal 1). Enforced HERE, in the model, so no
+     path can park a marker early; the disabled attribute on the buttons
+     is only the mirror. */
   placeGuess: function (st, v) {
     var s = this._clone(st);
     if (s.lifted) return null;
+    if (s.lids.length < 2) return null;
     var g = Math.round(Number(v));
     if (!isFinite(g) || g < 0 || g > this.PAID_MAX_TOTAL) return null;
     s.guess = (s.guess === g) ? null : g;
@@ -700,12 +720,26 @@ var Lids = {
     return bar;
   },
 
+  /* ⚠ `hintMark` WAS A DEAD STRING. "Park the marker on the number you
+     think it is." was authored in all eleven locales and never once
+     referenced — the ladder jumped hintShare straight to hintLift, so
+     the tool never told the class what the strip was for. That is half
+     the reason the numerals read as decoration. It now has the one rung
+     where it belongs: the state where the strip is live and empty.
+     verify-lids V17 makes an unreferenced string a build failure. */
   _buildHint: function () {
     var api = this.api, s = this.st, hint = api.el('div', 'lid-hint');
     if (s.lifted) hint.textContent = this.leftover(s) > 0 ? api.t('hintLeftover') : '';
     else if (s.lids.length < 2) hint.textContent = api.t('hintPlace');
-    else if (s.guess === null) hint.textContent = api.t('hintShare');
-    else hint.textContent = api.t('hintLift');
+    else if (s.guess === null) {
+      /* two lines: the question, then what to do about it */
+      var q = api.el('span', 'lid-hline');
+      q.textContent = api.t('hintShare');
+      var m = api.el('span', 'lid-hline');
+      m.textContent = api.t('hintMark');
+      hint.appendChild(q);
+      hint.appendChild(m);
+    } else hint.textContent = api.t('hintLift');
     return hint;
   },
 
@@ -840,38 +874,83 @@ var Lids = {
     });
   },
 
-  /* the committed prior: a strip of numerals the class parks a marker on */
+  /* ⭐ THE STRIP — where the class commits, AND where the answer lands.
+     ---------------------------------------------------------------
+     The operator's report on the shipped tool was blunt and correct:
+     "the numbers under the board has no function." They were right, and
+     the code was worse than the complaint. Of five reads of `s.guess` in
+     the whole file, four were this strip's own highlight and its own
+     aria-pressed, and the fifth was a PRESENCE test in the hint ladder —
+     so parking the marker on 0 advanced the tool exactly as parking it
+     on the right answer did. The marker was never once brought into
+     contact with share(). It highlighted itself and changed nothing.
+
+     ⚠ AND EVERY GATE PASSED IT. audit-tool-control-liveness asks "did
+     the DOM change?", and a control that highlights ITSELF changes the
+     DOM — so it scored 84/84 on a strip that did nothing. A liveness
+     gate cannot tell "this control acts" from "this control has a
+     consequence". That is now a standing trap in §23.6.
+
+     THE FIX, operator-ruled: at the lift the true share is marked ON THE
+     SAME STRIP the class parked their marker on. One scale, both values,
+     and the tool says nothing whatever about the gap between them. This
+     is the house's own best precedent — estimation-jar.js paints the
+     committed guesses and the truth through one formula onto one number
+     line, and never calls its own compare() in the render path.
+
+     ⚠ THE TWO TREATMENTS DIFFER IN KIND, NOT IN HUE. A coral-vs-teal
+     pair was designed and rejected: to a six-year-old orange reads as
+     "wrong" and green as "right", which is a verdict delivered by
+     palette — and here it would read BACKWARDS, because the marker is
+     the teal one. Filled-vs-ringed carries no such freight. There is no
+     tick, no cross, no distance, no "closest", and no line drawn between
+     the two numerals.
+
+     ⚠ The old .lid-reveal dot row is GONE. It expressed the share as
+     `share` unlabelled 26px circles on their own centred row — a second,
+     worse rendering of something the table already shows, now that the
+     lift seats the real counters under each lid. Unlabelled divs are
+     also silent to a screen reader, which is why revealAria has moved
+     onto the truth numeral itself. */
   _buildStrip: function () {
     var api = this.api, self = this, s = this.st;
     var strip = api.el('div', 'lid-strip');
     strip.setAttribute('role', 'group');
     strip.setAttribute('aria-label', api.t('markStrip'));
+    /* ⚠ share() is read ONCE, here, and ONLY when the lids are up. It is
+       never compared with s.guess anywhere in this file. */
+    var truth = s.lifted ? this.revealed(s).share : null;
     var top = Math.min(this.maxTotal(), 12), i;
     for (i = 0; i <= top; i++) {
       (function (v) {
-        var b = api.el('button', 'lid-mark' + (s.guess === v ? ' lid-on' : ''));
+        var isMark = (s.guess === v), isTruth = (truth === v);
+        var b = api.el('button', 'lid-mark' + (isMark ? ' lid-on' : '') + (isTruth ? ' lid-truth' : ''));
         b.type = 'button';
         b.textContent = String(v);
-        b.setAttribute('aria-label', api.t('markAria').replace('{n}', String(v)));
-        b.setAttribute('aria-pressed', String(s.guess === v));
-        b.disabled = !!s.lifted;
+        /* ⚠ label-colon-value, deliberately NOT prose: "under each lid: 6"
+           is correct in all eleven locales without new authoring, where a
+           composed sentence would need word order per language. */
+        b.setAttribute('aria-label', isTruth
+          ? api.t('revealAria') + ': ' + String(v)
+          : api.t('markAria').replace('{n}', String(v)));
+        b.setAttribute('aria-pressed', String(isMark));
+        /* inert until there is a question, and inert once it is answered */
+        b.disabled = !!s.lifted || s.lids.length < 2;
         b.addEventListener('click', function () {
           var next = self.placeGuess(self.st, v);
           if (!next) return;
           self.st = next;
           self.render();
+          /* ⚠ render() rebuilds the stage, so the button that was just
+             pressed no longer exists and focus falls to <body>. The lid
+             keyboard handler already restores it; this one did not, and
+             a keyboard user was thrown to the top of the card on every
+             numeral press. */
+          var again = self._wrap && self._wrap.querySelectorAll('.lid-mark')[v];
+          if (again) { try { again.focus(); } catch (_) {} }
         });
         strip.appendChild(b);
       }(i));
-    }
-    if (s.lifted) {
-      /* the reveal sits beside the frozen marker and marks NOTHING */
-      var r = this.revealed(s);
-      var out = api.el('div', 'lid-reveal');
-      out.setAttribute('aria-label', api.t('revealAria'));
-      var j;
-      for (j = 0; j < r.share; j++) out.appendChild(api.el('div', 'lid-rcell'));
-      strip.appendChild(out);
     }
     return strip;
   },
@@ -997,7 +1076,13 @@ var Lids = {
 function injectLidsCSS() {
   if (document.getElementById('lid-style')) return;
   var css = ''
-    + '.lid-wrap{display:flex;flex-direction:column;align-items:center;gap:10px;width:100%;min-width:0;}'
+    /* ⚠ gap 8, not 10. The two-line hint costs 22px of card height, and
+       the locale audit caught Italian at 903px against the 900px desktop
+       budget with the gate showing — the longest hint pair in the set on
+       top of a two-row foot. The threshold does not move; the 10px was
+       reclaimed here and 2px more off the hint's own reservation, which
+       is a layout decision rather than a loosened gauge. */
+    + '.lid-wrap{display:flex;flex-direction:column;align-items:center;gap:8px;width:100%;min-width:0;}'
     + '.lid-bar,.lid-foot{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px;width:100%;}'
     + '.lid-group{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;}'
     + '.lid-chip{min-height:44px;min-width:44px;padding:8px 14px;border-radius:13px;border:2px solid #146B5E;'
@@ -1010,7 +1095,13 @@ function injectLidsCSS() {
     + '.lid-gate{flex-basis:100%;text-align:center;font-family:Nunito,sans-serif;font-size:14px;color:#C2562F;'
     +   'display:flex;flex-wrap:wrap;justify-content:center;gap:6px;align-items:center;}'
     + '.lid-gate a{color:#C2562F;min-height:44px;display:inline-flex;align-items:center;}'
-    + '.lid-hint{flex-basis:100%;text-align:center;font-family:Nunito,sans-serif;font-size:15px;color:#0E5147;min-height:20px;}'
+    /* ⚠ min-height reserves TWO lines, because the rung where the strip
+       is live and empty carries the question and the instruction as two
+       .lid-hline spans. Reserving one line made the whole card jump when
+       that rung appeared. */
+    + '.lid-hint{flex-basis:100%;text-align:center;font-family:Nunito,sans-serif;font-size:15px;'
+    +   'color:#0E5147;min-height:40px;display:flex;flex-direction:column;justify-content:center;gap:1px;}'
+    + '.lid-hline{display:block;line-height:1.25;}'
     /* THE TABLE */
     + '.lid-table{position:relative;width:100%;max-width:620px;aspect-ratio:1000/620;'
     +   'border-radius:18px;border:2px solid rgba(20,107,94,.28);background-color:#FBF3E4;overflow:hidden;}'
@@ -1045,11 +1136,30 @@ function injectLidsCSS() {
     +   'width:100%;max-width:620px;padding:8px;border-radius:14px;border:2px dashed rgba(20,107,94,.30);}'
     + '.lid-mark{min-height:44px;min-width:44px;padding:0 6px;border-radius:11px;border:2px solid #146B5E;'
     +   'background:#FBF3E4;color:#0E5147;font-family:Baloo\\ 2,cursive;font-size:16px;cursor:pointer;}'
+    /* THE CLASS'S MARKER: filled. */
     + '.lid-mark.lid-on{background:#146B5E;color:#FBF3E4;}'
+    /* ⭐ WHAT WAS UNDER EACH LID: ringed, not filled — and ringed in the
+       SAME teal. The two treatments differ in KIND, never in hue: a
+       coral-vs-teal pair was designed and rejected because orange reads
+       as "wrong" and green as "right" to a six-year-old, which would be
+       a verdict delivered by palette — and backwards at that, since the
+       marker is the teal one.
+       ⚠ INSET, because .lid-strip has gap:6px and an outer halo would
+       collide with the neighbouring numeral. */
+    /* ⚠ AND IT CARRIES WEIGHT AS WELL AS A RING. At 1024 the first draft
+       put a thin double outline next to a solid filled pill, so on a
+       projector the eye went to the class's guess and had to hunt for
+       the answer. Weight is a second signal in the same hue — it makes
+       the truth as loud as the marker without making it louder, which
+       would say the tool's number matters more than the class's. */
+    + '.lid-mark.lid-truth{box-shadow:0 0 0 3px #FBF3E4 inset, 0 0 0 7px #146B5E inset;font-weight:800;}'
+    /* when the class was right, one numeral wears both — so the rings
+       invert to stay visible against the filled pill */
+    + '.lid-mark.lid-on.lid-truth{box-shadow:0 0 0 3px #146B5E inset, 0 0 0 7px #FBF3E4 inset;}'
+    /* ⚠ the truth must stay at full strength after the lift, when every
+       button carries [disabled] */
     + '.lid-mark[disabled]{cursor:default;opacity:.85;}'
-    + '.lid-reveal{flex-basis:100%;display:flex;flex-wrap:wrap;justify-content:center;gap:5px;'
-    +   'padding-top:8px;}'
-    + '.lid-rcell{width:26px;height:26px;border-radius:50%;background-color:#146B5E;}'
+    + '.lid-mark[disabled].lid-on,.lid-mark[disabled].lid-truth{opacity:1;}'
     + '@media (min-width:760px){'
     +   '.lid-table{max-width:680px;}'
     +   '.lid-strip{max-width:680px;}'

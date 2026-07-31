@@ -963,6 +963,34 @@
     "metaTitle": "Simetria de dobrar para a turma | ferramenta grátis",
     "metaDescription": "Um quadriculado para pintar e dobrar na lousa: a metade de longe pousa na outra e a turma vê o que encaixa. Ferramenta gratuita para os anos iniciais."
   },
+  "number-sieve": {
+    "slug": "peneira-dos-numeros",
+    "name": "Peneira dos números",
+    "tagline": "A carta não explica nada: ela age no quadro numérico, e a turma descobre a regra olhando quais números saíram.",
+    "about": [
+      "A Peneira dos números é um instrumento para a lousa. Na tela aparece um quadro numérico com todos os números acesos e, ao lado, um pequeno baralho de cartas de pista fechadas. Você vira uma carta e ela não explica nada: ela age no quadro, e os números que ficam de fora escurecem na hora. Os que continuam acesos no fim são a resposta, e o instrumento nunca anuncia qual é. Não há cartela para imprimir nem material para recolher, e o quadro inteiro cabe na projeção, então a turma toda enxerga a mesma coisa do lugar onde está sentada.",
+      "A ideia toda está no fato de que nenhuma carta diz o que faz. Para saber o que aconteceu, a turma precisa olhar o desenho do que saiu e explicar por quê, e é aí que a tarefa deixa de ser de escuta e passa a ser de raciocínio. Como não há uma linha de texto sequer no aparelho, uma criança que ainda não lê acompanha a rodada inteira e argumenta junto com os colegas. É o que a BNCC pede da matemática dos anos iniciais: investigar, justificar e comunicar o raciocínio, e não repetir a definição que o professor deu antes.",
+      "Antes da primeira carta, cada criança coloca a ficha no número que imagina. A partir daí a ficha não se move mais, então, quando aquele número escurece, é o próprio material que tira a ficha do quadro e ninguém precisa dizer nada a ninguém. Não existe pontuação, cronômetro nem comemoração em lugar nenhum da tela. A criança vê o número dela sair junto com vários outros, no meio de uma rodada que continua, e na rodada seguinte dá um novo palpite sem que nada disso tenha virado nota.",
+      "Embaralhe as cartas e rode o mesmo quadro em outra ordem: os números que ficam são exatamente os mesmos. Isso é uma coisa que a turma pode testar em vez de ouvir de você, e é uma das primeiras experiências de prova que uma criança dos anos iniciais consegue conduzir sozinha. A ferramenta gratuita traz o aparelho inteiro: os três quadros, os seis tipos de carta e um construtor que monta um quadro novo em volta de qualquer número que você tocar. Os quadros prontos e a impressão fazem parte do plano Professor."
+    ],
+    "howToUse": [
+      "Escolha o quadro: o menor para os pequenos, ou um dos maiores para o segundo ano.",
+      "Peça que cada criança coloque a ficha no número que imagina. Com a turma inteira, cada criança coloca a ficha na própria fita numérica ou na lousinha, e só as duas ou três crianças da vez colocam no quadro da lousa. Depois que a primeira carta virar, nenhuma ficha se move mais.",
+      "Vire uma carta e espere. A pergunta não é qual é a resposta, é quais números saíram e por quê.",
+      "Quando sobrarem três ou quatro números acesos, faça a pergunta que importa: o que uma carta precisaria tirar para sobrar um só?",
+      "Toque em um número e peça cartas novas: o instrumento monta um quadro inteiro em volta dele na hora.",
+      "Embaralhe e rode de novo em outra ordem, e deixe a turma perceber que os números que ficaram são os mesmos."
+    ],
+    "classroomIdeas": [
+      "Rotina de entrada: um quadro por dia no menor deles, quatro cartas, cinco minutos. Em duas semanas a turma já vira a carta e fica olhando em silêncio, sem que você precise pedir.",
+      "Antes de cada carta, peça um palpite coletivo: quais números vocês acham que vão sair agora? Depois virem a carta e comparem com o que aconteceu de verdade.",
+      "Rodada muda: vire todas as cartas sem dizer uma palavra e, no fim, pergunte o que cada carta deve ter feito. Deixe duas ou três crianças explicarem o que viram antes de você falar qualquer coisa.",
+      "Duas ordens: rode um quadro, embaralhe e rode outra vez. Pergunte por que os mesmos números ficaram e deixe a discussão correr, porque essa é a ideia mais forte da ferramenta.",
+      "De trás para frente: escolham juntos um número, deixe o instrumento montar as cartas e peça que a turma descubra qual delas tirou mais números do quadro."
+    ],
+    "metaTitle": "Peneira dos números: quadro numérico interativo | grátis",
+    "metaDescription": "Quadro numérico projetável com cartas de pista: a carta age em vez de explicar, e a turma descobre o número misterioso pelo que saiu. Sem pontos nem cronômetro."
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

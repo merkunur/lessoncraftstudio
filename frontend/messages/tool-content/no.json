@@ -963,6 +963,34 @@
     "metaTitle": "Arket vi bretter — symmetri og speiling | gratis verktøy",
     "metaDescription": "Et rutete ark på tavla: barna fargelegger, brettelinjen legges der dere vil ha den, og arket brettes. Da ser klassen hva som havner oppå hva."
   },
+  "number-sieve": {
+    "slug": "tallsilen",
+    "name": "Tallsilen",
+    "tagline": "Ledetråden sier ingenting — den gjør noe med feltet",
+    "about": [
+      "Tallsilen legger hele tallområdet opp på skjermen foran klassen — hvert eneste tall lyser — og ved siden av ligger en liten bunke lukkede kort. Snu et kort, og det sier ingenting: det gjør noe med feltet, og tallene det utelukker, blir mørke og faller ut. Det som blir stående igjen, er svaret, og verktøyet sier det aldri høyt.",
+      "Det er hele poenget. Fordi ingen kort noen gang forklarer seg selv, må klassen lese regelen ut av det som forsvant — hvorfor forsvant hele den nederste halvdelen? — og da blir en lytteoppgave til en tenkeoppgave, uten et eneste ord på selve apparatet. Et barn som ennå ikke kan lese, kan kjøre hele runden.",
+      "Før det første kortet blir snudd, setter barna en brikke på tallet de tror det er. Fra det øyeblikket kan brikken ikke flyttes, så når tallet blir mørkt, er det materialet som skyver den ut, og ingen trenger å høre det fra en voksen. Det finnes ingen poeng, ingen stoppeklokke, ingen lyd som høres ut som en belønning, og ingenting på skjermen som skryter av noen.",
+      "Stokk bunken og kjør den samme oppgaven i en annen rekkefølge: de samme tallene blir stående hver gang — og det er noe klassen kan prøve ut selv i stedet for å få det fortalt. Det gratis verktøyet rommer hele apparatet: alle seks korttypene, alle tre feltene og en innebygd bygger som lager en ny oppgave rundt akkurat det tallet du trykker på. Lærerabonnementet legger til den redigerte samlingen og utskrift."
+    ],
+    "howToUse": [
+      "Velg et felt: det minste for de yngste, eller et av de større.",
+      "Be klassen sette en brikke på tallet de tror kortene skjuler. Med en hel klasse setter hvert barn brikken sin på sin egen tallrekke eller tavle, og bare de to eller tre barna som står for tur, setter på skjermen. Når det første kortet er snudd, står brikkene fast.",
+      "Snu det neste kortet. Se på feltet, og vent — spørsmålet er hva som ble mørkt, og hvorfor.",
+      "Når tre eller fire tall fortsatt lyser, still spørsmålet som teller: hva må et kort ta bort for at bare ett skal stå igjen?",
+      "Trykk selv på et tall og velg Nye kort, så bygger verktøyet en fersk oppgave rundt det på et blunk.",
+      "Stokk kortene og kjør den igjen i en annen rekkefølge — og la klassen selv legge merke til at svaret ikke flyttet seg."
+    ],
+    "classroomIdeas": [
+      "Oppvarming: en oppgave om dagen på det minste feltet, fire kort, fem minutter.",
+      "Forutsi: før hvert kort snus, spør hvilke tall klassen tror ryker nå.",
+      "Den stille runden: snu alle kortene uten å si et ord, og spør etterpå hva kortene må ha vært.",
+      "To rekkefølger: kjør en oppgave, stokk, kjør den på nytt — og spør hvorfor de samme tallene ble stående.",
+      "Bygg baklengs: velg et tall sammen, la verktøyet lage kortene, og se hvem som først får øye på kortet som gjorde mest arbeid."
+    ],
+    "metaTitle": "Tallsilen — gratis verktøy til det hemmelige tallet | LessonCraftStudio",
+    "metaDescription": "Et gratis tallfelt for skjermen foran klassen og en bunke lukkede kort. Kortene forklarer ingenting — de gjør noe med feltet, og klassen leser regelen ut av det som blir mørkt."
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

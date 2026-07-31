@@ -2746,7 +2746,7 @@
     },
     "hero": {
       "title": "Enkle priser, laget for lærere",
-      "subtitle": "Alt du bruker i dag, forblir gratis — oppgaveark, aktiviteter, interaktiv øving og PDF-er. Lærerplanen legger til din egen hylle: lagre oppgavearkene du lager som levende lenker, del dem med klassen og hold orden på alt."
+      "subtitle": "Alt du bruker i dag, forblir gratis — oppgaveark, aktiviteter, interaktiv øving og PDF-er. Lærerabonnementet legger til din egen hylle: lagre oppgavearkene du lager som levende lenker, del dem med klassen og hold orden på alt."
     },
     "free": {
       "title": "Alltid et gratis nivå",
@@ -2776,7 +2776,7 @@
     "faq": {
       "title": "Spørsmål og svar",
       "q1": "Forblir gratisinnholdet gratis?",
-      "a1": "Katalogen er fortsatt åpen for alle: spill 10 interaktive oppgaveark om dagen uten innlogging, og last ned 3 utskriftsklare ark i måneden med en gratis konto. Lærerplanen fjerner grensene og legger til publisering, klasselenker og orden — den tar aldri bort det som allerede er gratis.",
+      "a1": "Katalogen er fortsatt åpen for alle: spill 10 interaktive oppgaveark om dagen uten innlogging, og last ned 3 utskriftsklare ark i måneden med en gratis konto. Lærerabonnementet fjerner grensene og legger til publisering, klasselenker og orden — det tar aldri bort det som allerede er gratis.",
       "q2": "Finnes det en gratis prøveperiode?",
       "a2": "Katalogen ER prøveperioden: spill og last ned gratis — 10 spill om dagen og 3 nedlastinger i måneden med en gratis konto — så lenge du vil. Abonner først når du vil fjerne grensene.",
       "q3": "Hvordan sier jeg opp?",
@@ -2795,10 +2795,10 @@
   },
   "quotaWall": {
     "exceededTitle": "Du har brukt dagens gratisrunder",
-    "exceededBody": "Kom tilbake i morgen for flere, eller lås opp ubegrenset spill og nedlastinger med Lærerplanen.",
+    "exceededBody": "Kom tilbake i morgen for flere, eller lås opp ubegrenset spill og nedlastinger med Lærerabonnementet.",
     "signupTitle": "Opprett en gratis konto for å laste ned",
     "signupBody": "Gratis kontoer får 3 nedlastinger i måneden. Opprett en på sekunder, uten kort.",
-    "subscribeCta": "Se Lærerplanen",
+    "subscribeCta": "Se Lærerabonnementet",
     "signupCta": "Registrer deg gratis",
     "dismissCta": "Ikke nå"
   }

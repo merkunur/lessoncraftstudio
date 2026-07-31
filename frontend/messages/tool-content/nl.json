@@ -963,6 +963,34 @@
     "metaTitle": "Het vouwblad — spiegelbeeld zelf maken en vouwen",
     "metaDescription": "Ruitjespapier op het klassenscherm: hokjes kleuren, de vouw leggen en vouwen. Kinderen maken het spiegelbeeld zelf en het papier geeft het antwoord."
   },
+  "number-sieve": {
+    "slug": "getallenzeef-welk-getal-ben-ik",
+    "name": "De getallenzeef",
+    "tagline": "De kaarten leggen niets uit: ze doen iets met het veld, en de klas leest aan de getallen die doven af wat erop stond.",
+    "about": [
+      "De getallenzeef is een getallenveld voor op het digibord: alle getallen van het bereik staan er in een keer op en ze staan allemaal aan. Ernaast ligt een klein stapeltje gesloten aanwijzingskaarten. Draait u er een om, dan wordt er niets uitgelegd — de kaart doet iets met het veld, en de getallen die eruit moeten, doven en blijven donker. Wat er aan het eind nog aanstaat, is het gezochte getal, en de zeef zegt dat nooit hardop.",
+      "Daar draait alles om. Omdat geen enkele kaart zegt wat ze doet, moet de klas de regel aflezen aan wat er gedoofd is: kijk eens welke getallen er allemaal tegelijk uitgingen, waarom juist die? Zo wordt luisteren naar een uitleg vervangen door zelf redeneren, en er staat geen woord op het apparaat dat in de weg zit. Een kind dat nog niet leest, doet de hele ronde mee en praat gewoon mee. Voor een kind dat thuis een andere taal spreekt, valt er niets te vertalen: er valt alleen te kijken.",
+      "Voordat de eerste kaart omgaat, leggen de kinderen ieder een fiche op het getal waarvan zij denken dat het overblijft. Vanaf dat moment mag hun fiche niet meer verschuiven. Gaat dat getal later uit, dan haalt het materiaal hun fiche eruit: niemand hoeft dat hardop vast te stellen en er verschijnt nergens een oordeel. Er is geen score, geen klok, geen belletje en niets op het scherm dat iemand prijst.",
+      "Schud de kaarten en draai dezelfde stapel in een andere volgorde om: er blijven precies dezelfde getallen over. Dat hoeft de klas niet van u aan te nemen, dat kan ze zelf uitproberen. In de gratis versie zit het hele apparaat: alle soorten kaarten, alle drie de velden, en een bouwer die om elk getal waar u op tikt meteen een nieuwe stapel maakt. In het Leerkracht-pakket komen de kaartenbak met kant-en-klare stapels en het afdrukken erbij."
+    ],
+    "howToUse": [
+      "Kies eerst het veld: het kleinste veld voor de jongsten, of een groter veld zodra de klas verder telt.",
+      "Laat de kinderen ieder een fiche leggen op het getal waarvan zij denken dat het overblijft. Bij een hele klas legt elk kind zijn fiche op de eigen getallenlijn of op een wisbordje, en alleen de kinderen die aan de beurt zijn leggen op het digibord. Zodra de eerste kaart omgaat, ligt alles vast.",
+      "Tik de volgende kaart om. Kijk naar het veld en wacht dan: de vraag is wat er uitging, en waarom juist dat.",
+      "Staan er nog maar een paar getallen aan, stel dan de vraag waar het om draait: wat zou een kaart moeten wegnemen om er een over te houden?",
+      "Wilt u een ander getal? Tik het aan, kies Nieuwe kaarten, en de zeef bouwt er in een tel een stapel omheen.",
+      "Schud daarna en draai dezelfde stapel nog eens in een andere volgorde om; laat de klas zelf merken dat er niets verandert."
+    ],
+    "classroomIdeas": [
+      "Dagelijkse start: elke ochtend een stapel op het kleinste veld, vier kaarten, vijf minuten.",
+      "Voorspelrondje: laat de kinderen voor elke kaart hardop voorspellen welke getallen er zo meteen uitgaan.",
+      "Stille zeef: draai alle kaarten om zonder een woord te zeggen en vraag daarna pas wat er op die kaarten gestaan moet hebben.",
+      "Twee volgordes: draai een stapel, schud, draai opnieuw — en laat de kinderen uitleggen waarom dezelfde getallen overblijven.",
+      "Getalbegrip en getallen ordenen staan in de kerndoelen van de SLO voor de onderbouw; laat de kinderen het overgebleven getal daarna op een lege getallenlijn zetten en vertellen hoe ze daar komen."
+    ],
+    "metaTitle": "Welk getal ben ik? | gratis getallenveld voor de klas",
+    "metaDescription": "Welk getal ben ik? Alle getallen staan aan op het digibord, elke kaart dooft er een deel van en de klas leest zelf af welk getal overblijft. Zonder score of klok."
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

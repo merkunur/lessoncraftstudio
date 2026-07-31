@@ -1,0 +1,1838 @@
+{
+  "version": 1,
+  "note": "Locale-NEUTRAL, and it carries no authored text of any kind. A board is a range, an ordered clue list and the number that survives them; the cards render as icons and numerals, so there is nothing here to translate. That is what lets this library be machine-grown and machine-proven — every board is produced by the builder in mini tools/number-sieve.js and then re-proved against an independent implementation of the six families in scripts/gen-number-sieve-boards.js before admission (isolates the target, every card strictly narrows, no card is redundant, no card implies another). Regenerate with: node scripts/gen-number-sieve-boards.js --write",
+  "freeMax": 8,
+  "premiumMax": 300,
+  "boards": [
+    {
+      "id": "s20-03",
+      "range": 20,
+      "clues": [
+        {
+          "f": "quantity",
+          "op": "lt",
+          "q": 10
+        },
+        {
+          "f": "parity",
+          "r": 1
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": true
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 9,
+          "keep": false
+        }
+      ],
+      "free": true
+    },
+    {
+      "id": "s20-07",
+      "range": 20,
+      "clues": [
+        {
+          "f": "quantity",
+          "op": "lt",
+          "q": 10
+        },
+        {
+          "f": "parity",
+          "r": 0
+        },
+        {
+          "f": "range",
+          "op": "ge",
+          "a": 5
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        }
+      ],
+      "free": true
+    },
+    {
+      "id": "s20-10",
+      "range": 20,
+      "clues": [
+        {
+          "f": "parity",
+          "r": 1
+        },
+        {
+          "f": "range",
+          "op": "ge",
+          "a": 10
+        },
+        {
+          "f": "quantity",
+          "op": "lt",
+          "q": 14
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 3,
+          "keep": false
+        }
+      ],
+      "free": true
+    },
+    {
+      "id": "s20-14",
+      "range": 20,
+      "clues": [
+        {
+          "f": "quantity",
+          "op": "gt",
+          "q": 11
+        },
+        {
+          "f": "parity",
+          "r": 0
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        },
+        {
+          "f": "multiple",
+          "m": 5,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 4,
+          "keep": false
+        }
+      ],
+      "free": true
+    },
+    {
+      "id": "s100-05",
+      "range": 100,
+      "clues": [
+        {
+          "f": "range",
+          "op": "le",
+          "a": 30
+        },
+        {
+          "f": "quantity",
+          "op": "gt",
+          "q": 20
+        },
+        {
+          "f": "parity",
+          "r": 0
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        },
+        {
+          "f": "multiple",
+          "m": 4,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 6,
+          "keep": false
+        }
+      ],
+      "free": true
+    },
+    {
+      "id": "s100-14",
+      "range": 100,
+      "clues": [
+        {
+          "f": "nearer",
+          "a": 10,
+          "b": 90
+        },
+        {
+          "f": "range",
+          "op": "ge",
+          "a": 40
+        },
+        {
+          "f": "parity",
+          "r": 0
+        },
+        {
+          "f": "multiple",
+          "m": 4,
+          "keep": false
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        }
+      ],
+      "free": true
+    },
+    {
+      "id": "s100-22",
+      "range": 100,
+      "clues": [
+        {
+          "f": "range",
+          "op": "ge",
+          "a": 70
+        },
+        {
+          "f": "multiple",
+          "m": 5,
+          "keep": true
+        },
+        {
+          "f": "parity",
+          "r": 1
+        },
+        {
+          "f": "range",
+          "op": "le",
+          "a": 90
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        }
+      ],
+      "free": true
+    },
+    {
+      "id": "s120-10",
+      "range": 120,
+      "clues": [
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": true
+        },
+        {
+          "f": "nearer",
+          "a": 10,
+          "b": 80
+        },
+        {
+          "f": "range",
+          "op": "ge",
+          "a": 30
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 2,
+          "keep": true
+        }
+      ],
+      "free": true
+    },
+    {
+      "id": "s20-01",
+      "range": 20,
+      "clues": [
+        {
+          "f": "quantity",
+          "op": "lt",
+          "q": 10
+        },
+        {
+          "f": "parity",
+          "r": 1
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        },
+        {
+          "f": "multiple",
+          "m": 5,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 7,
+          "keep": false
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s20-02",
+      "range": 20,
+      "clues": [
+        {
+          "f": "quantity",
+          "op": "lt",
+          "q": 10
+        },
+        {
+          "f": "parity",
+          "r": 0
+        },
+        {
+          "f": "multiple",
+          "m": 4,
+          "keep": false
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s20-04",
+      "range": 20,
+      "clues": [
+        {
+          "f": "quantity",
+          "op": "lt",
+          "q": 10
+        },
+        {
+          "f": "parity",
+          "r": 0
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 2,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 8,
+          "keep": false
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s20-05",
+      "range": 20,
+      "clues": [
+        {
+          "f": "quantity",
+          "op": "lt",
+          "q": 10
+        },
+        {
+          "f": "range",
+          "op": "ge",
+          "a": 5
+        },
+        {
+          "f": "parity",
+          "r": 1
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 7,
+          "keep": false
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s20-06",
+      "range": 20,
+      "clues": [
+        {
+          "f": "quantity",
+          "op": "lt",
+          "q": 10
+        },
+        {
+          "f": "quantity",
+          "op": "gt",
+          "q": 5
+        },
+        {
+          "f": "parity",
+          "r": 1
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s20-08",
+      "range": 20,
+      "clues": [
+        {
+          "f": "quantity",
+          "op": "lt",
+          "q": 10
+        },
+        {
+          "f": "quantity",
+          "op": "gt",
+          "q": 5
+        },
+        {
+          "f": "parity",
+          "r": 1
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": true
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s20-09",
+      "range": 20,
+      "clues": [
+        {
+          "f": "range",
+          "op": "le",
+          "a": 10
+        },
+        {
+          "f": "parity",
+          "r": 0
+        },
+        {
+          "f": "quantity",
+          "op": "gt",
+          "q": 6
+        },
+        {
+          "f": "multiple",
+          "m": 4,
+          "keep": false
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s20-11",
+      "range": 20,
+      "clues": [
+        {
+          "f": "quantity",
+          "op": "gt",
+          "q": 11
+        },
+        {
+          "f": "range",
+          "op": "le",
+          "a": 15
+        },
+        {
+          "f": "parity",
+          "r": 0
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": true
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s20-12",
+      "range": 20,
+      "clues": [
+        {
+          "f": "quantity",
+          "op": "gt",
+          "q": 11
+        },
+        {
+          "f": "range",
+          "op": "le",
+          "a": 15
+        },
+        {
+          "f": "parity",
+          "r": 1
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s20-13",
+      "range": 20,
+      "clues": [
+        {
+          "f": "quantity",
+          "op": "gt",
+          "q": 11
+        },
+        {
+          "f": "range",
+          "op": "le",
+          "a": 15
+        },
+        {
+          "f": "parity",
+          "r": 0
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s20-15",
+      "range": 20,
+      "clues": [
+        {
+          "f": "quantity",
+          "op": "gt",
+          "q": 11
+        },
+        {
+          "f": "parity",
+          "r": 1
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 3,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 9,
+          "keep": false
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s20-16",
+      "range": 20,
+      "clues": [
+        {
+          "f": "quantity",
+          "op": "gt",
+          "q": 11
+        },
+        {
+          "f": "parity",
+          "r": 1
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 3,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 7,
+          "keep": false
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s100-01",
+      "range": 100,
+      "clues": [
+        {
+          "f": "digit",
+          "place": "tens",
+          "d": 0,
+          "keep": true
+        },
+        {
+          "f": "parity",
+          "r": 1
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        },
+        {
+          "f": "multiple",
+          "m": 5,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 7,
+          "keep": false
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s100-02",
+      "range": 100,
+      "clues": [
+        {
+          "f": "range",
+          "op": "le",
+          "a": 30
+        },
+        {
+          "f": "digit",
+          "place": "tens",
+          "d": 0,
+          "keep": true
+        },
+        {
+          "f": "parity",
+          "r": 0
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 2,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 8,
+          "keep": false
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s100-03",
+      "range": 100,
+      "clues": [
+        {
+          "f": "range",
+          "op": "le",
+          "a": 30
+        },
+        {
+          "f": "digit",
+          "place": "tens",
+          "d": 0,
+          "keep": true
+        },
+        {
+          "f": "quantity",
+          "op": "gt",
+          "q": 6
+        },
+        {
+          "f": "parity",
+          "r": 0
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s100-04",
+      "range": 100,
+      "clues": [
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": true
+        },
+        {
+          "f": "range",
+          "op": "le",
+          "a": 30
+        },
+        {
+          "f": "multiple",
+          "m": 5,
+          "keep": true
+        },
+        {
+          "f": "parity",
+          "r": 1
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s100-06",
+      "range": 100,
+      "clues": [
+        {
+          "f": "range",
+          "op": "le",
+          "a": 30
+        },
+        {
+          "f": "quantity",
+          "op": "gt",
+          "q": 20
+        },
+        {
+          "f": "multiple",
+          "m": 5,
+          "keep": true
+        },
+        {
+          "f": "parity",
+          "r": 1
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s100-07",
+      "range": 100,
+      "clues": [
+        {
+          "f": "range",
+          "op": "le",
+          "a": 30
+        },
+        {
+          "f": "quantity",
+          "op": "gt",
+          "q": 20
+        },
+        {
+          "f": "parity",
+          "r": 0
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        },
+        {
+          "f": "multiple",
+          "m": 4,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 2,
+          "keep": false
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s100-08",
+      "range": 100,
+      "clues": [
+        {
+          "f": "range",
+          "op": "le",
+          "a": 30
+        },
+        {
+          "f": "quantity",
+          "op": "gt",
+          "q": 20
+        },
+        {
+          "f": "multiple",
+          "m": 4,
+          "keep": true
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s100-09",
+      "range": 100,
+      "clues": [
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": true
+        },
+        {
+          "f": "nearer",
+          "a": 10,
+          "b": 60
+        },
+        {
+          "f": "range",
+          "op": "ge",
+          "a": 30
+        },
+        {
+          "f": "parity",
+          "r": 1
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s100-10",
+      "range": 100,
+      "clues": [
+        {
+          "f": "nearer",
+          "a": 10,
+          "b": 60
+        },
+        {
+          "f": "quantity",
+          "op": "gt",
+          "q": 20
+        },
+        {
+          "f": "digit",
+          "place": "tens",
+          "d": 2,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 4,
+          "keep": true
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s100-11",
+      "range": 100,
+      "clues": [
+        {
+          "f": "nearer",
+          "a": 10,
+          "b": 70
+        },
+        {
+          "f": "range",
+          "op": "ge",
+          "a": 30
+        },
+        {
+          "f": "parity",
+          "r": 1
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        },
+        {
+          "f": "multiple",
+          "m": 5,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 1,
+          "keep": false
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s100-12",
+      "range": 100,
+      "clues": [
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": true
+        },
+        {
+          "f": "nearer",
+          "a": 10,
+          "b": 80
+        },
+        {
+          "f": "range",
+          "op": "ge",
+          "a": 30
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 2,
+          "keep": true
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s100-13",
+      "range": 100,
+      "clues": [
+        {
+          "f": "nearer",
+          "a": 10,
+          "b": 80
+        },
+        {
+          "f": "range",
+          "op": "ge",
+          "a": 30
+        },
+        {
+          "f": "digit",
+          "place": "tens",
+          "d": 3,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 3,
+          "keep": true
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s100-15",
+      "range": 100,
+      "clues": [
+        {
+          "f": "digit",
+          "place": "tens",
+          "d": 4,
+          "keep": true
+        },
+        {
+          "f": "parity",
+          "r": 1
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 1,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 3,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 9,
+          "keep": false
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s100-16",
+      "range": 100,
+      "clues": [
+        {
+          "f": "multiple",
+          "m": 4,
+          "keep": true
+        },
+        {
+          "f": "range",
+          "op": "ge",
+          "a": 50
+        },
+        {
+          "f": "nearer",
+          "a": 30,
+          "b": 100
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 2,
+          "keep": true
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s100-17",
+      "range": 100,
+      "clues": [
+        {
+          "f": "parity",
+          "r": 0
+        },
+        {
+          "f": "digit",
+          "place": "tens",
+          "d": 5,
+          "keep": true
+        },
+        {
+          "f": "multiple",
+          "m": 4,
+          "keep": false
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        },
+        {
+          "f": "multiple",
+          "m": 5,
+          "keep": false
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s100-18",
+      "range": 100,
+      "clues": [
+        {
+          "f": "range",
+          "op": "ge",
+          "a": 60
+        },
+        {
+          "f": "range",
+          "op": "le",
+          "a": 70
+        },
+        {
+          "f": "multiple",
+          "m": 5,
+          "keep": true
+        },
+        {
+          "f": "parity",
+          "r": 1
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s100-19",
+      "range": 100,
+      "clues": [
+        {
+          "f": "range",
+          "op": "ge",
+          "a": 60
+        },
+        {
+          "f": "range",
+          "op": "le",
+          "a": 70
+        },
+        {
+          "f": "parity",
+          "r": 1
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        },
+        {
+          "f": "multiple",
+          "m": 5,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 1,
+          "keep": false
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s100-20",
+      "range": 100,
+      "clues": [
+        {
+          "f": "range",
+          "op": "ge",
+          "a": 70
+        },
+        {
+          "f": "nearer",
+          "a": 60,
+          "b": 100
+        },
+        {
+          "f": "multiple",
+          "m": 5,
+          "keep": true
+        },
+        {
+          "f": "parity",
+          "r": 0
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s100-21",
+      "range": 100,
+      "clues": [
+        {
+          "f": "range",
+          "op": "ge",
+          "a": 70
+        },
+        {
+          "f": "nearer",
+          "a": 60,
+          "b": 100
+        },
+        {
+          "f": "multiple",
+          "m": 4,
+          "keep": true
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s100-23",
+      "range": 100,
+      "clues": [
+        {
+          "f": "range",
+          "op": "ge",
+          "a": 70
+        },
+        {
+          "f": "parity",
+          "r": 0
+        },
+        {
+          "f": "multiple",
+          "m": 4,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "tens",
+          "d": 7,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "tens",
+          "d": 9,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 2,
+          "keep": false
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s100-24",
+      "range": 100,
+      "clues": [
+        {
+          "f": "range",
+          "op": "ge",
+          "a": 70
+        },
+        {
+          "f": "parity",
+          "r": 1
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "tens",
+          "d": 7,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "tens",
+          "d": 8,
+          "keep": false
+        },
+        {
+          "f": "nearer",
+          "a": 90,
+          "b": 100
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s100-25",
+      "range": 100,
+      "clues": [
+        {
+          "f": "range",
+          "op": "ge",
+          "a": 70
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": true
+        },
+        {
+          "f": "parity",
+          "r": 1
+        },
+        {
+          "f": "digit",
+          "place": "tens",
+          "d": 8,
+          "keep": false
+        },
+        {
+          "f": "multiple",
+          "m": 5,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 9,
+          "keep": false
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s100-26",
+      "range": 100,
+      "clues": [
+        {
+          "f": "range",
+          "op": "ge",
+          "a": 70
+        },
+        {
+          "f": "multiple",
+          "m": 5,
+          "keep": true
+        },
+        {
+          "f": "parity",
+          "r": 1
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "tens",
+          "d": 8,
+          "keep": false
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s120-01",
+      "range": 120,
+      "clues": [
+        {
+          "f": "nearer",
+          "a": 10,
+          "b": 60
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": true
+        },
+        {
+          "f": "digit",
+          "place": "tens",
+          "d": 0,
+          "keep": true
+        },
+        {
+          "f": "parity",
+          "r": 0
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s120-02",
+      "range": 120,
+      "clues": [
+        {
+          "f": "nearer",
+          "a": 10,
+          "b": 60
+        },
+        {
+          "f": "digit",
+          "place": "tens",
+          "d": 1,
+          "keep": true
+        },
+        {
+          "f": "parity",
+          "r": 0
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        },
+        {
+          "f": "multiple",
+          "m": 4,
+          "keep": false
+        },
+        {
+          "f": "multiple",
+          "m": 5,
+          "keep": false
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s120-03",
+      "range": 120,
+      "clues": [
+        {
+          "f": "nearer",
+          "a": 10,
+          "b": 60
+        },
+        {
+          "f": "digit",
+          "place": "tens",
+          "d": 1,
+          "keep": true
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": true
+        },
+        {
+          "f": "parity",
+          "r": 1
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s120-04",
+      "range": 120,
+      "clues": [
+        {
+          "f": "nearer",
+          "a": 10,
+          "b": 60
+        },
+        {
+          "f": "digit",
+          "place": "tens",
+          "d": 1,
+          "keep": true
+        },
+        {
+          "f": "multiple",
+          "m": 4,
+          "keep": true
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s120-05",
+      "range": 120,
+      "clues": [
+        {
+          "f": "digit",
+          "place": "tens",
+          "d": 2,
+          "keep": true
+        },
+        {
+          "f": "parity",
+          "r": 1
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        },
+        {
+          "f": "multiple",
+          "m": 5,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 3,
+          "keep": false
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s120-06",
+      "range": 120,
+      "clues": [
+        {
+          "f": "nearer",
+          "a": 10,
+          "b": 60
+        },
+        {
+          "f": "quantity",
+          "op": "gt",
+          "q": 20
+        },
+        {
+          "f": "digit",
+          "place": "tens",
+          "d": 2,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 1,
+          "keep": true
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s120-07",
+      "range": 120,
+      "clues": [
+        {
+          "f": "nearer",
+          "a": 10,
+          "b": 60
+        },
+        {
+          "f": "multiple",
+          "m": 4,
+          "keep": true
+        },
+        {
+          "f": "quantity",
+          "op": "gt",
+          "q": 20
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 2,
+          "keep": true
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s120-08",
+      "range": 120,
+      "clues": [
+        {
+          "f": "nearer",
+          "a": 10,
+          "b": 70
+        },
+        {
+          "f": "range",
+          "op": "ge",
+          "a": 30
+        },
+        {
+          "f": "parity",
+          "r": 1
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        },
+        {
+          "f": "multiple",
+          "m": 5,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 1,
+          "keep": false
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s120-09",
+      "range": 120,
+      "clues": [
+        {
+          "f": "nearer",
+          "a": 10,
+          "b": 80
+        },
+        {
+          "f": "range",
+          "op": "ge",
+          "a": 30
+        },
+        {
+          "f": "digit",
+          "place": "tens",
+          "d": 3,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 1,
+          "keep": true
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s120-11",
+      "range": 120,
+      "clues": [
+        {
+          "f": "nearer",
+          "a": 10,
+          "b": 90
+        },
+        {
+          "f": "range",
+          "op": "ge",
+          "a": 40
+        },
+        {
+          "f": "parity",
+          "r": 0
+        },
+        {
+          "f": "multiple",
+          "m": 4,
+          "keep": false
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s120-12",
+      "range": 120,
+      "clues": [
+        {
+          "f": "multiple",
+          "m": 4,
+          "keep": true
+        },
+        {
+          "f": "nearer",
+          "a": 10,
+          "b": 100
+        },
+        {
+          "f": "range",
+          "op": "ge",
+          "a": 40
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 2,
+          "keep": true
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s120-13",
+      "range": 120,
+      "clues": [
+        {
+          "f": "nearer",
+          "a": 10,
+          "b": 100
+        },
+        {
+          "f": "range",
+          "op": "ge",
+          "a": 40
+        },
+        {
+          "f": "digit",
+          "place": "tens",
+          "d": 4,
+          "keep": false
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 3,
+          "keep": true
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s120-14",
+      "range": 120,
+      "clues": [
+        {
+          "f": "parity",
+          "r": 1
+        },
+        {
+          "f": "digit",
+          "place": "tens",
+          "d": 6,
+          "keep": true
+        },
+        {
+          "f": "nearer",
+          "a": 10,
+          "b": 120
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s120-15",
+      "range": 120,
+      "clues": [
+        {
+          "f": "range",
+          "op": "ge",
+          "a": 80
+        },
+        {
+          "f": "digit",
+          "place": "tens",
+          "d": 0,
+          "keep": true
+        },
+        {
+          "f": "parity",
+          "r": 1
+        },
+        {
+          "f": "nearer",
+          "a": 90,
+          "b": 120
+        },
+        {
+          "f": "digit",
+          "place": "ones",
+          "d": 3,
+          "keep": false
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s120-16",
+      "range": 120,
+      "clues": [
+        {
+          "f": "range",
+          "op": "ge",
+          "a": 80
+        },
+        {
+          "f": "digit",
+          "place": "tens",
+          "d": 1,
+          "keep": true
+        },
+        {
+          "f": "parity",
+          "r": 1
+        },
+        {
+          "f": "nearer",
+          "a": 110,
+          "b": 120
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s120-17",
+      "range": 120,
+      "clues": [
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": true
+        },
+        {
+          "f": "range",
+          "op": "ge",
+          "a": 90
+        },
+        {
+          "f": "digit",
+          "place": "tens",
+          "d": 1,
+          "keep": true
+        },
+        {
+          "f": "parity",
+          "r": 0
+        }
+      ],
+      "free": false
+    },
+    {
+      "id": "s120-18",
+      "range": 120,
+      "clues": [
+        {
+          "f": "range",
+          "op": "ge",
+          "a": 80
+        },
+        {
+          "f": "digit",
+          "place": "tens",
+          "d": 1,
+          "keep": true
+        },
+        {
+          "f": "parity",
+          "r": 0
+        },
+        {
+          "f": "multiple",
+          "m": 4,
+          "keep": false
+        },
+        {
+          "f": "multiple",
+          "m": 3,
+          "keep": false
+        },
+        {
+          "f": "multiple",
+          "m": 5,
+          "keep": false
+        }
+      ],
+      "free": false
+    }
+  ]
+}

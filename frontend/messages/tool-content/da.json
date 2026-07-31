@@ -963,6 +963,34 @@
     "metaTitle": "Foldearket — symmetri og spejling | gratis værktøj",
     "metaDescription": "Et ternet ark på tavlen: børnene farvelægger, folden lægges, hvor I vil have den, og arket foldes. Så ser klassen, hvad der lander oven på hvad."
   },
+  "number-sieve": {
+    "slug": "talsien",
+    "name": "Talsien",
+    "tagline": "Ledetråden forklarer ingenting — den gør noget ved feltet",
+    "about": [
+      "Talsien lægger hele talområdet op på klassens skærm — hvert eneste tal er tændt — og ved siden af ligger en lille bunke lukkede kort. Vend et kort, og det siger ingenting: det gør noget ved feltet, og de tal, det udelukker, bliver mørke og falder ud. Det, der bliver stående til sidst, er svaret, og værktøjet siger det aldrig højt.",
+      "Det er hele pointen. Fordi intet kort nogensinde forklarer sig selv, må klassen læse reglen ud af det, der forsvandt — hvorfor forsvandt hele den nederste halvdel? — og dermed bliver en lytteopgave til en tænkeopgave, uden et eneste ord på selve apparatet. Et barn, der endnu ikke kan læse, kan køre hele forløbet.",
+      "Før det første kort bliver vendt, sætter børnene en brik på det tal, de tror på. Fra det øjeblik kan brikken ikke flyttes, så når dens tal bliver mørkt, er det materialet, der skubber den ud, og ingen skal have det at vide af en voksen. Der er ingen point, intet stopur, ingen lyd der lyder som en belønning, og der er intet på skærmen, der roser nogen.",
+      "Bland bunken, og kør den samme opgave i en anden rækkefølge: de samme tal bliver stående hver gang — og det er noget, klassen selv kan afprøve i stedet for at få det fortalt. Det gratis værktøj rummer hele apparatet: alle seks slags kort, alle tre felter og en indbygget bygger, der laver en ny opgave omkring præcis det tal, du trykker på. Lærerabonnementet føjer den redigerede samling og udskrivning til."
+    ],
+    "howToUse": [
+      "Vælg et felt: det mindste til de yngste, eller et af de større.",
+      "Bed klassen sætte en brik på det tal, de tror kortene skjuler. Med en hel klasse sætter hvert barn sin brik på sin egen talrække eller tavle, og kun de to eller tre børn, der er på tur, sætter på skærmen. Når det første kort er vendt, står brikkerne fast.",
+      "Vend det næste kort. Se på feltet, og vent — spørgsmålet er, hvad der blev mørkt, og hvorfor.",
+      "Når der er tre eller fire tal tilbage, så stil det spørgsmål, der batter: hvad skulle et kort tage væk, for at der kun var ét tilbage?",
+      "Tryk selv på et tal og vælg Nye kort, så bygger værktøjet en frisk opgave omkring det på et øjeblik.",
+      "Bland kortene, og kør den igen i en anden rækkefølge — og lad klassen selv opdage, at svaret ikke flyttede sig."
+    ],
+    "classroomIdeas": [
+      "Opvarmning: en opgave om dagen på det mindste felt, fire kort, fem minutter.",
+      "Forudsigelse: før hvert kort vendes, spørg hvilke tal klassen tror ryger nu.",
+      "Den tavse omgang: vend alle kort uden at sige et ord, og spørg bagefter, hvad kortene må have været.",
+      "To rækkefølger: kør en opgave, bland, kør den igen — og spørg, hvorfor de samme tal blev stående.",
+      "Byg baglæns: vælg et tal sammen, lad værktøjet lave kortene, og se, hvem der først får øje på det kort, der gjorde mest arbejde."
+    ],
+    "metaTitle": "Talsien — gratis værktøj til det hemmelige tal | LessonCraftStudio",
+    "metaDescription": "Et gratis talfelt til klassens skærm og en bunke lukkede kort. Kortene forklarer ingenting — de gør noget ved feltet, og klassen læser reglen ud af det, der bliver mørkt."
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

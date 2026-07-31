@@ -997,6 +997,34 @@
     "metaTitle": "Ohjelmoinnin alkeet alkuopetukseen – ilmainen Kuoriaisrata",
     "metaDescription": "Ilmainen ohjelmointiväline luokan näytölle: neljä sanatonta korttia, luokka ennustaa ääneen ja vasta sitten rata ajetaan. Esiopetuksesta 2. luokalle."
   },
+  "draw-bag": {
+    "slug": "sattuma-alkuopetus-sattumapussi",
+    "name": "Sattumapussi",
+    "tagline": "Sama pussi kahdesti, kaksi erilaista riviä – ja juuri siitä luokka puhuu.",
+    "about": [
+      "Sattumapussi on luokan näytölle avautuva suljettu pussi, johon kukaan ei näe sisään – et sinäkään, jos avasit valmiin pussin. Pussin vieressä on kuusi väripalaa kolmella hyllyllä: tämän arvelemme olevan pussissa, vielä päättämättä, tämän emme arvele olevan pussissa. Lapset siirtelevät paloja hyllyltä toiselle ja perustelevat ääneen, kunnes luokka on yhtä mieltä. Vieressä odottaa tyhjä rivi, joka täyttyy nosto kerrallaan. Näytöllä ei ole yhtään sanaa, ei lukua eikä merkintää, joten lapsi joka ei vielä lue, hoitaa oman vuoronsa alusta loppuun itse.",
+      "Idea on yksi ainoa, ja se on hankala: sama syy tuottaa kaksi eri kuvaa. Heti kun ensimmäinen pala on nostettu, luokan ennuste jäätyy paikoilleen eikä sitä voi enää muuttaa, joten se on yhä sanatarkasti tallella silloin, kun pussi lopuksi avataan ja todellinen sisältö asettuu ennusteen viereen. Ja kun lapsi sanoo, ettei pussissa ole yhtään vihreää, hänelle ei vastaa aikuinen vaan vihreä pala, joka ilmestyy riviin. Sattuma itsessään kuuluu opetussuunnitelmassa vasta ylemmille vuosiluokille, mutta vertaileminen, luokitteleminen ja oman päätelmän perusteleminen ovat alkuopetuksen ajattelun taitoja, ja niitä tässä tehdään koko tuokion ajan.",
+      "Kangaspussia ei voi tehdä uudelleen samanlaisena: heti kun sitä ravistaa, kyseessä on jo eri kerta, eikä kukaan pysty osoittamaan, että sisällä olivat täsmälleen samat palat. Valmis diaesitys ei auta sekään, koska toinen kierros on kirjoitettu etukäteen ja lapset huomaavat sen heti. Täällä toinen kierros käyttää samaa pussia muuttamattomana, ja toinen rivi asettuu ensimmäisen alle ruutu ruudulta: ne eivät täsmää, eikä se ole kenenkään syytä. Mitään ei myöskään pyyhitä pois. Jokainen nosto jää riviin näkyviin, ja nostettu pala palaa samassa hetkessä takaisin pussiin, joten pussin sisältö on tuokion lopussa sama kuin sen alussa.",
+      "Koko väline on ilmainen, eikä se vaadi tunnusta eikä asennusta: pussi, ennuste kolmella hyllyllä, nostaminen, rivi, pussin avaaminen lopuksi, oman pussin täyttäminen ja kahdeksan valmista pussia, joilla pääsee alkuun vaikka heti huomenna. Opettaja-tilaus lisää toisen kierroksen samalla pussilla, pitkän neljänkymmenen noston rivin, kuvapalat muotojen tilalle – hedelmiä, ajoneuvoja, eläimiä – noin sadankahdenkymmenen valmiin pussin kokoelman sekä rivin tulostuksen, jotta luokka voi jatkaa työtä pulpettien ääressä. Työkalu ei pidä pisteitä, ei ota aikaa eikä kerro luokalle etukäteen, mitä pussista pitäisi tulla, eikä lasten nimiä kysytä missään vaiheessa."
+    ],
+    "howToUse": [
+      "Täytä pussi jo ennen tuntia niin, ettei luokka näe, tai ota valmis pussi äläkä katso itsekään. Sulje pussi ennen kuin luokka tulee paikalle: tästä eteenpäin sisältöön ei pääse kukaan, et sinäkään.",
+      "Vasta nyt on luokan vuoro. Kaikki kuusi palaa lajitellaan hyllyille ääneen: on pussissa, ei ole pussissa, vielä päättämättä. Se joka siirtää palan, sanoo perään kokonaisen lauseen, jotta veikkaus on sanottu huoneeseen eikä vain napautettu ruudulle.",
+      "Kerro ennen ensimmäistä nostoa, että ensimmäinen nosto lukitsee veikkauksen eikä palaa voi enää siirtää. Juuri se antaa lajittelulle painon ja tekee siihen käytetyistä kahdesta minuutista perustellut.",
+      "Napauttakaa pussia yhdessä. Jokainen nosto jää näkyviin riviin, ja nostettu pala palautetaan heti takaisin pussiin, joten pussi pysyy koko ajan samanlaisena. Lukekaa rivi välillä yhdessä ääneen älkääkä pyyhkikö mitään pois, ei silloinkaan kun riviin ilmestyy pala, jonka luokka oli sulkenut pois.",
+      "Kun rivi on täynnä, tehkää samasta pussista vielä toinen kierros. Toinen rivi asettuu ensimmäisen alle. Kysy: pussille ei tehty mitään, miksi rivit näyttävät silti erilaisilta?",
+      "Avaa pussi vasta lopuksi. Sisältö asettuu lukitun veikkauksen viereen. Älä arvioi mitään äläkä anna laitteenkaan arvioida. Kysy sen sijaan, missä kohtaa riviä luokka olisi itse voinut muuttaa veikkaustaan."
+    ],
+    "classroomIdeas": [
+      "Ensimmäinen luokka, viisi minuuttia aamupiirissä: yksi pussi viikossa. Luokka lukitsee veikkauksen maanantaina, nostaa muutaman kerran päivässä ja pussi avataan vasta perjantaina. Veikkauksen tekeminen ei vaadi lukemista eikä laskemista, joten myös vasta lukemaan opetteleva ja suomea toisena kielenä opiskeleva pääsee mukaan täydellä äänellä.",
+      "Vuosiluokat yksi ja kaksi, OPS kaksituhattaneljätoista sisältöalue Tietojenkäsittely ja tilastot: rivi siirretään tukkimiehen kirjanpidoksi ja siitä pylväsdiagrammiksi ruutupaperille. Rivi on kerätty aineisto, diagrammi on sen esitys, ja kun molemmat ovat yhtä aikaa näkyvillä, ero tiedon keräämisen ja tiedon esittämisen välillä tulee näkyväksi. Toinen kierros tuottaa samasta pussista toisen aineiston, jolloin myös diagrammeja syntyy kaksi vierekkäin.",
+      "Toinen luokka: laskekaa molemmat rivit ja kirjoittakaa lukumäärät allekkain. Mikä pala esiintyy molemmissa riveissä useimmin, mikä puuttuu toisesta rivistä kokonaan? Pussi avataan vasta kun vertailu on tehty ja kirjattu vihkoon.",
+      "Vuosiluokat kaksi ja kolme, käänteinen tehtävä: nosta itse parikymmentä kertaa ilman luokan veikkausta ja näytä pelkkä valmis rivi. Oppilaat rakentavat omalla paikallaan sen pussin, joka heidän mielestään sopii riviin, ja perustelevat palojen lukumäärät. Vasta sitten avaat pussin.",
+      "Kolmas luokka, ajattelun taidot ja perusteleminen: jokainen kirjaa vihkoon oman veikkauksensa perusteluineen ennen ensimmäistä nostoa ja merkitsee myöhemmin sen noston, jonka kohdalla mieli muuttui. Vihko kertoo, mitä rivi näytti, ei sitä mitä opettaja sanoi. Vuosiluokilla kolme ja siitä ylöspäin sattuma tulee omana sisältönään mukaan, ja juuri nämä muistiinpanot luetaan silloin uudelleen."
+    ],
+    "metaTitle": "Sattuma alkuopetuksessa – ilmainen Sattumapussi",
+    "metaDescription": "Ilmainen väline luokan näytölle: luokka sanoo ensin, mitä pussissa on, ja nostaa yksi kerrallaan. Nosto jää riviin, ja pala palaa pussiin."
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

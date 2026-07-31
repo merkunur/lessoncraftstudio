@@ -1020,6 +1020,34 @@
     "metaTitle": "Arrow Strip — free directions and turns tool for K-3",
     "metaDescription": "A wordless classroom tool: build a plan of forward, back and quarter-turn cards, predict where the beetle stops, then run it and see the trail."
   },
+  "draw-bag": {
+    "slug": "draw-bag-chance-probability-classroom-tool",
+    "name": "The Draw Bag",
+    "tagline": "Say what you think is in the bag, then draw one at a time — every draw stays on the record and every piece goes back in — and run the very same bag again to watch it come out differently.",
+    "about": [
+      "The Draw Bag is an opaque bag on the class screen that nobody can see into. Below it are six pieces and three shelves, and before anything is drawn the class has to commit: this one is in the bag, this one is not, this one we cannot agree on. The moment the first piece is drawn that guess freezes and cannot be edited, so it is still there, unchanged, to look at when the bag is finally opened. Then you tap the bag. One piece comes out, lands on the record, and goes straight back in.",
+      "There is not a single word on the bag, the pieces or the record. A child who cannot read yet can hold an opinion here and defend it, which matters more than usual, because the idea underneath has nothing to do with reading and is genuinely hard: the same bag does not give you the same handful twice. Nothing is ever erased either, so when a child says there are no green ones in there, the answer arrives as a green piece on the record rather than as an adult correcting them.",
+      "Then there is the part no cloth bag and no slide deck can do. Run the identical bag a second time and lay the new record under the old one. Two rows, one cause, and they do not match — and because the tool is doing the drawing, nobody in the room can suspect the teacher of arranging it. A bag on a carpet cannot be rewound, and a second run in a slide deck is written in advance; a class works that out quickly and stops believing it.",
+      "The instrument is free and stays free: the bag, the guess, the draw, the record, opening the bag, filling a bag with whatever pieces you like, and eight ready-made bags to start from. There is nothing to win here — no score, no timer, and the tool never hands the class a verdict about what was in the bag, because that is the argument you want them having. The Teacher plan adds a second run of the same bag, the long forty-draw record, pieces made of pictures instead of shapes, around a hundred and twenty curated bags, and printing the record."
+    ],
+    "howToUse": [
+      "Fill the bag before the lesson, out of sight — or start from one of the ready-made bags and do not look yourself.",
+      "Ask the class what they think is inside, and put each piece on a shelf as they decide: in the bag, not in the bag, or not yet agreed.",
+      "Get the commitment out loud before anything moves. Once the first piece is drawn the guess is locked and cannot be quietly revised.",
+      "Tap the bag one draw at a time and let the record fill. Say nothing about whether the guess is looking right.",
+      "When the record is full, run the same bag again and lay the second record under the first. Ask what changed and what did not.",
+      "Open the bag last. Put nothing right or wrong — just leave the contents beside the guess and let the class talk."
+    ],
+    "classroomIdeas": [
+      "Five minutes at the start of a lesson: one guess, one record, one second run, no verdict.",
+      "Put a single piece of one colour in a bag of twelve and keep drawing until it turns up — then ask how sure anyone was that it was not in there.",
+      "Give the bag to a child who is not usually first to speak; committing a guess needs no reading and no arithmetic.",
+      "Fill two bags the same way in front of two groups, run them both, and compare the records across the room.",
+      "Print the record and pin the two runs side by side, so next week's class can argue about a bag they never saw."
+    ],
+    "metaTitle": "The Draw Bag — free chance and probability tool for K-3",
+    "metaDescription": "A wordless whiteboard tool: guess what is in the bag, draw one piece at a time onto a permanent record, then run the same bag again and compare."
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

@@ -1019,6 +1019,34 @@
     "metaTitle": "Programmering utan dator för åk 1-3 – Kommandorälsen",
     "metaDescription": "Fyra kort utan text, en räls och en skalbagge på rutmattan. Klassen säger var den hamnar — sedan kör ni. Programmering utan dator för åk 1-3."
   },
+  "draw-bag": {
+    "slug": "slumpmassiga-handelser-slumppase-arskurs-1-3",
+    "name": "Slumppåsen",
+    "tagline": "Ingen ser ner i påsen – klassen säger först vad de tror finns där, drar sedan en bit i taget, och samma påse ger två rader som inte liknar varandra.",
+    "about": [
+      "På tavlan ligger en påse som ingen kan se in i – inte du heller, om ni startar från en färdig påse. Bredvid står sex bitar på tre hyllor: det här tror vi finns i påsen, inte bestämt än, och det här tror vi inte finns i påsen. Klassen trycker på bitarna och flyttar dem tills ni är överens. Sedan trycker ni på påsen. En bit i taget kommer ut, lägger sig kvar i raden och åker tillbaka ner i påsen igen. Ingenting suddas och ingenting räknas, och det står inte ett enda ord på duken – ett barn som ännu inte läser kan ta hela sin tur.",
+      "Tanken är lätt att säga och svår att tro på: samma orsak ger två olika bilder. Kör ni samma påse en gång till – exakt samma bitar, ingenting ändrat – lägger sig den andra raden under den första, och de liknar inte varandra. För en sjuåring är det ofta det första riktigt svåra med slumpen: ingen gjorde om något, ingenting gick sönder, det blev bara olika. Det här är klassens tidiga möte med det område som i Lgr22 heter Sannolikhet och statistik, och mötet sker med bitar och en påse i stället för med begrepp.",
+      "En tygpåse i handen klarar allt det här utom tre saker. Gissningen fryser i samma sekund som första biten dras och går aldrig att ändra i efterhand, så den ligger kvar orörd när påsen öppnas – ingen behöver minnas vad klassen sa innan. Draget är permanent: när någon säger att det inte finns några gröna där i är det en grön bit som dyker upp i raden som svarar, inte en vuxen. Och den andra omgången är bevisligen samma påse, inte en ny – det kan varken en hand i en tygpåse eller en bildspelssida visa, för klassen misstänker genast att bilderna är valda i förväg. När ni öppnar påsen ställer sig innehållet bredvid gissningen, och verktyget säger ingenting alls om vem som tänkte vad.",
+      "Påsen, gissningen, dragen, raden, att öppna påsen, att fylla en egen påse och åtta färdiga påsar är gratis för alltid och kräver inget konto. Lärarpaketet lägger till en andra omgång med samma påse, den långa raden, bildbitar i stället för former – frukt, fordon och djur – ett hundratal färdiga påsar och utskrift av raden att sätta upp i klassrummet."
+    ],
+    "howToUse": [
+      "Välj en färdig påse eller fyll en egen, och stäng den. Sedan vet ingen vad som ligger där — inte du heller, om du tog en färdig påse. Säg det högt för klassen, för det är just det som gör att de vågar tänka fritt.",
+      "Låt klassen bestämma gissningen tillsammans och säga den högt INNAN något dras. Bitarna flyttas mellan hyllorna medan eleverna argumenterar: det här tror vi finns i påsen, det här tror vi inte finns där, och det här är vi inte överens om än. Skynda inte förbi hyllan i mitten.",
+      "Läs upp den färdiga gissningen en sista gång, så att alla hör den. I samma sekund som första biten dras låses gissningen och går inte att ändra — den ska stå kvar orörd ända tills ni öppnar påsen.",
+      "Tryck på påsen, en dragning i taget. Dragningen lägger sig kvar på raden, och biten går genast tillbaka ner i påsen — påsen ser alltså precis likadan ut inför varje ny dragning. Låt eleverna säga vad de ser växa fram på raden medan den fylls.",
+      "Gör om exakt samma påse en gång till. Den andra raden lägger sig under den första, och den ser inte likadan ut. Det är hela vitsen: samma påse, samma sätt att dra, två olika rader. Låt eleverna jämföra raderna med varandra innan ni går vidare.",
+      "Öppna påsen till sist. Innehållet hamnar bredvid den låsta gissningen. Läs dem mot varandra tillsammans — verktyget säger ingenting om gissningen, och det behöver inte du heller göra. Fråga i stället: vad var det som fick oss att tro så, och vad på raden fick oss att ändra oss?"
+    ],
+    "classroomIdeas": [
+      "Åk 1, Lgr22 Sannolikhet och statistik — slumpmässiga händelser i experiment och spel: fyll en påse med bara två sorters bitar, många fler av den ena. Klassen säger sin gissning högt, ni drar, och sedan beskriver eleverna raden med egna ord. Håll samtalet vid det ni faktiskt ser på raden och låt orden om slumpen komma från eleverna, inte från dig.",
+      "Åk 1-2, Lgr22 Sannolikhet och statistik — enkla tabeller och diagram: låt eleverna föra en egen strecklista i räknehäftet medan raden växer, en sort per rad, och rita ett enkelt stapeldiagram av strecken efteråt. Då har ni gjort en hel egen undersökning, från insamling till diagram, på material klassen själv sett bli till.",
+      "Åk 2: två grupper fyller varsin påse, stänger den och byter påse med varandra. Den andra gruppen gissar, drar och öppnar. Att fylla påsen är minst lika lärorikt som att dra ur den — eleverna börjar genast fundera på hur många av varje sort de ska lägga i för att lura kompisarna.",
+      "Åk 3: gör om samma påse tre gånger och behåll alla raderna. Låt eleverna skriva ett par meningar om vad som är sig likt och vad som skiljer mellan raderna. Många upptäcker på egen hand att raderna aldrig blir identiska men ändå liknar varandra, och det är en formulering värd att fånga upp på tavlan.",
+      "Åk 1-3, resonemang och språk: gör hyllan inte bestämt än till ett eget mål. En bit får bara flyttas därifrån om någon kan motivera varför. Det brukar bli lektionens bästa mattesamtal, och eftersom det inte står ett enda ord på ytan kan även de som ännu inte läser ta full plats i det."
+    ],
+    "metaTitle": "Slumppåsen – slumpmässiga händelser i klassrummet",
+    "metaDescription": "Klassen säger först vad de tror ligger i påsen och drar sedan en bit i taget. Varje drag ligger kvar, varje bit åker tillbaka i påsen. Gratis."
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

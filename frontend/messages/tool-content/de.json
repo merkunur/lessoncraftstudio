@@ -1020,6 +1020,34 @@
     "metaTitle": "Programmieren ohne Computer in der Grundschule — Käferplan",
     "metaDescription": "Karten in die Bahn legen, laut vorhersagen, wo der Käfer stehen bleibt, dann ablaufen lassen. Links und rechts aus Käfersicht, für Klasse 1 bis 3."
   },
+  "draw-bag": {
+    "slug": "zufallsbeutel-zufallsexperiment-grundschule",
+    "name": "Der Zufallsbeutel",
+    "tagline": "Zweimal derselbe Beutel, zweimal ein anderes Bild – und kein Kind hat etwas falsch gemacht.",
+    "about": [
+      "Der Zufallsbeutel ist ein Beutel auf dem Klassenbildschirm, in den niemand hineinsehen kann. Darin liegen farbige Formen. Bevor gezogen wird, legt sich die Klasse fest: Jede Form wandert in eine von drei Spalten – die ist drin, das wissen wir nicht, die ist nicht drin. Mit dem ersten Zug friert diese Vermutung ein und lässt sich danach nicht mehr ändern. Dann tippt ein Kind auf den Beutel. Ein Stück kommt heraus, legt sich dauerhaft auf einen Streifen und geht zurück in den Beutel. Zug für Zug wächst der Streifen, und gelöscht wird dabei nichts. Auf dem Bildschirm steht kein einziges Wort.",
+      "Daten, Häufigkeit und Wahrscheinlichkeit beginnt in Deutschland bereits in Klasse 1, und für diesen Bereich gibt es kaum digitale Werkzeuge: Für den Zahlenraum und für die Rechtschreibung finden Sie Dutzende, für den Zufall fast nichts. Schwer ist er, weil hier nicht die Lehrkraft recht hat. Sagt ein Kind, im Beutel seien keine grünen Stücke, dann widerspricht ihm das grüne Stück, das im nächsten Zug erscheint – und kein Erwachsener. Und weil die Vermutung vor dem ersten Zug feststeht, lässt sie sich hinterher nicht mehr leise umschreiben. Gelesen werden muss nichts: Ein Kind, das noch nicht liest oder gerade erst Deutsch lernt, kann eine ganze Runde übernehmen.",
+      "Ist der Streifen voll, lassen Sie denselben Beutel ein zweites Mal laufen. An ihm wurde nichts verändert, und trotzdem sieht der zweite Streifen anders aus als der erste. Beide bleiben nebeneinander stehen, denn hier wird nie etwas weggewischt. Darüber kann die Klasse sprechen: dieselbe Ursache, zwei verschiedene Bilder. Ein Stoffbeutel auf dem Teppich zeigt das kaum, weil der erste Durchgang längst von der Tafel gewischt ist, wenn der zweite beginnt, und eine vorbereitete Präsentation zeigt immer nur das eine Ergebnis, das jemand vorher ausgesucht hat. Zum Schluss öffnen Sie den Beutel: Der wahre Inhalt steht neben der eingefrorenen Vermutung – ohne Häkchen, ohne Kreuz, ohne Auswertung.",
+      "Dauerhaft kostenlos und ohne Anmeldung bleibt der ganze Apparat: der Beutel, die Vermutung in drei Spalten, das Ziehen, der Streifen, das Öffnen am Ende, acht fertige Beutel für den schnellen Einstieg und ein eigener Beutel, den Sie selbst füllen. Das Lehrer-Paket ergänzt den zweiten Durchgang mit demselben Beutel, den langen Streifen mit bis zu 40 Zügen, Bildstücke statt Formen – Obst, Fahrzeuge, Tiere – sowie rund 120 vorbereitete Beutel und den Druck, damit die Klasse am Tisch weiterarbeiten kann. Gemessen wird hier nichts: keine Uhr, kein Punktestand, keine Note."
+    ],
+    "howToUse": [
+      "Befüllen Sie den Beutel, ohne dass die Klasse zusieht, am besten schon vor der Stunde. Danach schließen Sie ihn zu: Ab jetzt kommt niemand mehr an den Inhalt, Sie selbst auch nicht.",
+      "Erst jetzt kommt die Klasse dran. Alle sechs Teile werden laut einsortiert: ist im Beutel, ist nicht im Beutel, noch nicht entschieden. Wer ein Teil schiebt, sagt einen ganzen Satz dazu, damit die Festlegung im Raum steht und nicht nur auf dem Bildschirm.",
+      "Kündigen Sie vorher an, dass der erste Zug die Vermutung einfriert. Danach lässt sich kein Teil mehr verschieben. Genau das gibt dem Sortieren sein Gewicht und rechtfertigt die zwei Minuten, die es dauert.",
+      "Tippen Sie nun gemeinsam auf den Beutel. Jeder Zug legt sich sichtbar in die Reihe, und das gezogene Teil wandert zurück in den Beutel. Lesen Sie die Reihe zwischendurch gemeinsam vor und löschen Sie nichts, auch dann nicht, wenn ein Teil auftaucht, das die Klasse ausgeschlossen hatte.",
+      "Ist die Reihe voll, starten Sie mit demselben Beutel einen zweiten Durchgang. Die zweite Reihe legt sich unter die erste. Fragen Sie: Am Beutel hat sich nichts geändert, warum sehen die beiden Reihen trotzdem verschieden aus?",
+      "Zum Schluss öffnen Sie den Beutel. Der Inhalt steht neben der eingefrorenen Vermutung. Bewerten Sie nichts, und lassen Sie auch das Gerät nichts bewerten. Fragen Sie stattdessen, an welcher Stelle der Reihe die Klasse ihre Vermutung selbst hätte ändern können."
+    ],
+    "classroomIdeas": [
+      "Klasse 1, fünf Minuten im Morgenkreis: ein Beutel pro Woche. Die Klasse legt am Montag ihre Vermutung fest, zieht zehnmal und lässt den Beutel bis Freitag zu. Die Reihe bleibt die ganze Woche am Board stehen und wächst täglich um ein paar Züge.",
+      "Klasse 1 und 2, Bereich Daten und Häufigkeiten aus dem Lehrplan Mathematik: Die Kinder übertragen die Reihe in eine Strichliste und daraus in ein einfaches Säulendiagramm auf Karopapier. Die Reihe am Board ist die Urliste, das Diagramm die Auswertung. Beides nebeneinander macht den Unterschied zwischen Sammeln und Darstellen sichtbar.",
+      "Klasse 2, beide Durchgänge auszählen und untereinander schreiben: Welche Teilsorte kommt in beiden Reihen am häufigsten vor, welche fehlt in einer Reihe ganz? Erst wenn dieser Vergleich steht, wird der Beutel geöffnet.",
+      "Klasse 2 und 3 als Umkehraufgabe: Sie ziehen zwanzigmal, ohne die Klasse vorher sortieren zu lassen, und zeigen nur die fertige Reihe. Die Kinder bauen an ihrem Platz den Beutel nach, der aus ihrer Sicht dazu passt, und begründen ihre Anzahlen. Erst danach öffnen Sie.",
+      "Klasse 3, Argumentieren und Begründen: Jedes Kind notiert vor dem ersten Zug seine Vermutung mit einer kurzen Begründung und danach den Zug, an dem es seine Meinung geändert hat. Das Heft hält fest, was die Reihe belegt, und nicht, was die Lehrkraft gesagt hat."
+    ],
+    "metaTitle": "Zufallsexperiment Grundschule | kostenloses Klassen-Tool",
+    "metaDescription": "Zufallsbeutel fürs Whiteboard: Die Klasse legt sich fest, was drin ist, zieht Stück für Stück und öffnet den Beutel am Ende. Für Klasse 1 bis 3."
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

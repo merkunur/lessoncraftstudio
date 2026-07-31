@@ -59,18 +59,22 @@ const QUIET = argv.includes('--quiet');
  * Directories served with a directory-level `X-Robots-Tag` by nginx. A header
  * directive is equivalent to the meta tag, so these SATISFY the rule.
  * Each entry MUST name the script that installs the block — if that script is
- * ever dropped from the nginx rebuild, this list is the audit trail.
+ * ever dropped from the nginx rebuild, this list is the audit trail. deploy.sh's
+ * nginx-contract check separately asserts the /mini-tools/ location still exists.
+ *
+ * KEEP THIS LIST MINIMAL. A prefix entry exempts every file beneath it forever, so
+ * it manufactures coverage for files nobody has looked at. Only list a prefix whose
+ * files genuinely CANNOT carry the tag themselves: the 176 `mini tools/*.html` carry
+ * no in-file robots meta by design and rely wholly on the header. `REFERENCE APPS/`
+ * was listed here at first and removed — all 33 carry the meta in-file, so a prefix
+ * entry only hid them from per-file verification (a poison-test proved a new ungated
+ * file there went undetected).
  */
 const NGINX_COVERED = [
   {
     prefix: 'mini-tools/',
     header: 'X-Robots-Tag: noindex',
     installedBy: 'scripts/publish-cli/patch-nginx-minitools-noindex.py',
-  },
-  {
-    prefix: 'worksheet-generators/',
-    header: '<meta name="robots" content="noindex, nofollow"> (in-file)',
-    installedBy: 'in-file meta tag — verified per-file by check (A)',
   },
 ];
 
@@ -104,9 +108,7 @@ const PERMANENT_EXEMPT = [/^google[0-9a-f]+\.html$/i, /^BingSiteAuth\.xml$/i, /^
  * because this spec's scope is the guardrail, not the cleanup.
  */
 const KNOWN_UNGATED = new Set([
-  // --- static HTML under frontend/public/ (17) ---
-  'frontend/public/admin/homepage-thumbnail-manager.html',
-  'frontend/public/admin/product-sample-manager.html',
+  // --- static HTML under frontend/public/ (15) ---
   'frontend/public/big-small-debug.html',
   'frontend/public/big-small-final.html',
   'frontend/public/check-tier.html',
@@ -163,36 +165,81 @@ function walk(dir, filterFn, out = []) {
 const rel = (p) => path.relative(REPO, p).split(path.sep).join('/');
 
 // ---------------------------------------------------------------- check (A)
+/**
+ * SERVED static-HTML sources, enumerated from GIT — never by walking the filesystem.
+ *
+ * Walking was the first implementation and it was wrong in both directions on the
+ * server: `frontend/public/{admin,mini-tools,worksheet-generators}` are symlinks
+ * (readdirSync reports them as symlinks, not directories, so the whole mini-tools
+ * class was silently NEVER checked), while an untracked stray `frontend/public/public/
+ * public/` duplicate tree got walked three times over and produced 41 phantom
+ * failures. Git-tracked enumeration is identical on every machine and matches the
+ * rule's "before merge" semantics.
+ *
+ * `servedPrefix` maps a repo path to the URL prefix it is served under, so
+ * NGINX_COVERED can be matched against where the file actually lives on the web.
+ */
+const HTML_SOURCES = [
+  { repoPrefix: 'frontend/public/', servedPrefix: '' },
+  { repoPrefix: 'mini tools/', servedPrefix: 'mini-tools/' },
+  { repoPrefix: 'REFERENCE APPS/', servedPrefix: 'worksheet-generators/' },
+];
+
+function gitTrackedHtml() {
+  const { execFileSync } = require('child_process');
+  let out = '';
+  try {
+    // --cached + --others --exclude-standard: tracked files PLUS new untracked ones
+    // that are not gitignored, so a brand-new tool HTML is caught before it is
+    // committed. Gitignored paths (frontend/public/mini-tools/* mirrors, server
+    // build output) stay excluded, which is what keeps this deterministic.
+    out = execFileSync('git', ['ls-files', '-z', '--cached', '--others', '--exclude-standard', '*.html'], {
+      cwd: REPO,
+      encoding: 'utf8',
+      maxBuffer: 32 * 1024 * 1024,
+    });
+  } catch (err) {
+    console.error('FATAL: `git ls-files` failed — cannot enumerate served HTML.');
+    console.error('  ' + (err && err.message));
+    process.exit(1);
+  }
+  const files = out.split(' ').filter(Boolean);
+  const served = [];
+  for (const f of files) {
+    const src = HTML_SOURCES.find((h) => f.startsWith(h.repoPrefix));
+    if (!src) continue; // not a served surface (blog drafts, tpt exports, fixtures)
+    served.push({ repoPath: f, urlPath: src.servedPrefix + f.slice(src.repoPrefix.length) });
+  }
+  return served;
+}
+
 function checkStaticHtml() {
   const failures = [];
   const baseline = [];
   let checked = 0;
   let coveredByNginx = 0;
 
-  const files = walk(PUBLIC_DIR, (f) => f.endsWith('.html'));
-  for (const file of files) {
-    const publicRel = path.relative(PUBLIC_DIR, file).split(path.sep).join('/');
-    if (STATIC_IGNORE.some((re) => re.test(publicRel))) continue;
-    if (PERMANENT_EXEMPT.some((re) => re.test(publicRel))) continue;
+  for (const { repoPath, urlPath } of gitTrackedHtml()) {
+    if (STATIC_IGNORE.some((re) => re.test(urlPath))) continue;
+    if (PERMANENT_EXEMPT.some((re) => re.test(urlPath))) continue;
     checked++;
 
     let html = '';
     try {
-      html = fs.readFileSync(file, 'utf8');
+      html = fs.readFileSync(path.join(REPO, repoPath), 'utf8');
     } catch {
       continue;
     }
     if (ROBOTS_RE.test(html) || CANONICAL_RE.test(html)) continue;
 
-    const cover = NGINX_COVERED.find((c) => publicRel.startsWith(c.prefix));
-    if (cover) {
+    if (NGINX_COVERED.some((c) => urlPath.startsWith(c.prefix))) {
       coveredByNginx++;
       continue;
     }
 
     const entry = {
       kind: 'static-html',
-      file: rel(file),
+      file: repoPath,
       reason: 'no <meta name="robots">, no <link rel="canonical">, and not under an X-Robots-Tag-covered prefix',
     };
     if (KNOWN_UNGATED.has(entry.file)) baseline.push(entry);

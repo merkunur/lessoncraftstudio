@@ -964,6 +964,34 @@
     "metaTitle": "Das Faltpapier — Symmetrie falten statt ankreuzen",
     "metaDescription": "Karopapier auf dem Klassenbildschirm: Kästchen anmalen, die Faltlinie setzen und falten. Die Kinder machen das Spiegelbild selbst und das Papier antwortet."
   },
+  "number-sieve": {
+    "slug": "zahlensieb-zahlenraetsel-grundschule",
+    "name": "Das Zahlensieb",
+    "tagline": "Die Karte nennt keine Regel — sie greift ins Zahlenfeld ein, und die Klasse liest an dem ab, was erlischt.",
+    "about": [
+      "Das Zahlensieb ist ein Zahlenfeld für den Klassenbildschirm: Jede Zahl des Zahlenraums leuchtet, keine fehlt. Dazu liegt ein kleiner Stapel verdeckter Hinweiskarten. Sie drehen eine Karte um, und sie sagt nichts. Sie greift ein: Die Zahlen, die sie ausschließt, erlöschen und werden grau. Was danach noch leuchtet, ist die gesuchte Zahl — und das Zahlensieb spricht sie nie aus.",
+      "Darauf beruht alles Weitere. Weil keine Karte ihre Regel nennt, muss die Klasse die Regel an dem ablesen, was verschwunden ist: Warum ist die ganze untere Hälfte weg? Aus Zuhören wird Begründen, und zwar an einem echten Anlass statt an einer Aufgabenstellung. Auf dem Gerät steht dabei kein einziges Wort. Ein Kind, das noch nicht liest, kann die ganze Runde mitmachen und mitreden.",
+      "Bevor die erste Karte fällt, legen die Kinder ein Plättchen auf die Zahl, die sie vermuten. Von da an bleibt es liegen. Erlischt seine Zahl, nimmt das Material das Plättchen vom Feld — dazu muss niemand etwas sagen, und auf dem Bildschirm steht nichts, was ein Kind beurteilt. Kein Punktestand, keine Uhr, kein Ton, kein Häkchen. Das Feld hat sich verändert, mehr ist nicht geschehen.",
+      "Mischen Sie die Karten und gehen Sie dieselbe Runde in einer anderen Reihenfolge durch: Es bleiben dieselben Zahlen stehen, jedes Mal. Das kann eine Klasse selbst nachprüfen, statt es zu glauben. Kostenlos ist das ganze Gerät, alle sechs Kartenarten, alle drei Zahlenräume und ein Baukasten, der Ihnen zu jeder angetippten Zahl in Sekunden eine neue Runde legt. Das Lehrer-Paket ergänzt die Kartei und das Drucken."
+    ],
+    "howToUse": [
+      "Wählen Sie den Zahlenraum: bis zwanzig für die Kleinsten, bis hundert oder bis hundertzwanzig.",
+      "Lassen Sie die Klasse ein Plättchen auf die vermutete Zahl legen. In einer ganzen Klasse legt jedes Kind sein Plättchen auf den eigenen Zahlenstreifen, und nur die zwei oder drei Kinder, die heute dran sind, legen auf den Bildschirm. Sobald die erste Karte fällt, bleibt alles liegen.",
+      "Drehen Sie die erste Hinweiskarte um und warten Sie einen Moment: Die Frage ist, was erloschen ist und warum.",
+      "Wenn noch drei oder vier Zahlen leuchten, stellen Sie die Frage, auf die es ankommt: Was müsste eine Karte wegnehmen, damit nur eine übrig bleibt?",
+      "Tippen Sie selbst eine Zahl an und wählen Sie „Neue Karten“, dann legt das Zahlensieb sofort eine Runde um diese Zahl herum.",
+      "Mischen Sie und gehen Sie dieselbe Runde noch einmal durch; lassen Sie die Klasse feststellen, dass am Ende dieselben Zahlen stehen."
+    ],
+    "classroomIdeas": [
+      "Tagesritual zum Stundenbeginn: eine Runde im kleinsten Zahlenraum, vier Karten, fünf Minuten.",
+      "Vermutungsrunde: Bevor eine Karte fällt, sagt die Klasse, welche Zahlen gleich erlöschen werden, und begründet es.",
+      "Stumme Runde: Drehen Sie alle Karten wortlos um und lassen Sie die Kinder danach beschreiben, was die Karten gewesen sein müssen.",
+      "Zwei Reihenfolgen: eine Runde, mischen, dieselbe Runde noch einmal. Argumentieren und Begründen verlangt der Lehrplan in Mathematik ausdrücklich; hier gibt es dafür einen echten Anlass.",
+      "Rückwärts bauen: Die Klasse einigt sich auf eine Zahl, das Zahlensieb legt die Karten dazu, und die Kinder suchen die Karte, die am meisten weggenommen hat."
+    ],
+    "metaTitle": "Zahlenrätsel für die Grundschule | kostenloses Klassen-Tool",
+    "metaDescription": "Zahlenfeld für den Klassenbildschirm mit verdeckten Hinweiskarten: Die Karte nennt keine Regel, sie lässt Zahlen erlöschen. Die Klasse liest sie daran ab."
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

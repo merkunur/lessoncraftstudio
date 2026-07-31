@@ -963,6 +963,34 @@
     "metaTitle": "Vikpappret — vik fram spegelbilden på rutat papper",
     "metaDescription": "Rutat papper på skärmen: färglägg rutorna, lägg vikningen och vik. Barnen gör spegelbilden själva och det är pappret som svarar, inte programmet."
   },
+  "number-sieve": {
+    "slug": "talsallet-hemligt-tal",
+    "name": "Talsållet",
+    "tagline": "Ledtråden säger ingenting — den gör något, och klassen får läsa regeln ur det som slocknade.",
+    "about": [
+      "Talsållet är ett talfält på klassens skärm, där varje tal i området lyser, och en liten hög med förseglade ledtrådskort. Du vänder ett kort och det säger ingenting alls: det gör något med fältet, och de tal som inte klarar kortet slocknar och faller bort. Det som står kvar till sist är svaret, och verktyget säger det aldrig högt.",
+      "Det är hela idén. Eftersom inget kort någonsin skriver ut sin regel måste klassen läsa regeln ur mönstret av det som föll — ”varför blev det ränder?” — och en lyssningsuppgift blir en tankeuppgift i stället. Det finns inte ett ord text på själva redskapet, så ett barn som ännu inte läser kan sköta hela rutinen.",
+      "Innan det första kortet vänds lägger barnen en bricka på det tal de tror att korten döljer. Från den stunden får brickan inte flyttas, så när dess tal slocknar är det materialet som plockar bort den, och ingen vuxen behöver säga någonting alls. Här finns inga poäng, ingen tid som räknas ner och ingenting som berömmer någon.",
+      "Blanda högen och kör samma bräde i en annan ordning, och exakt samma tal står kvar — det är något en klass kan pröva i stället för att bli itutad. Det fria verktyget innehåller hela redskapet: alla sex sorters kort, alla tre talområdena och en funktion som bygger ett färskt bräde runt vilket tal du än trycker på. Lärarpaketet lägger till den färdiga samlingen och utskrifterna."
+    ],
+    "howToUse": [
+      "Välj talområde: det minsta för de yngsta, eller ett av de större när klassen räknar längre.",
+      "Låt varje barn lägga sin bricka på det tal de tror att korten döljer. Med en hel klass lägger varje barn sin bricka på sin egen tallinje eller whiteboard, och bara de två eller tre barn som står i tur lägger på skärmen. När det första kortet vänds ligger brickorna fast.",
+      "Vänd nästa kort. Titta på fältet, och vänta — frågan är vad som slocknade, och varför.",
+      "När tre eller fyra tal fortfarande lyser ställer du den fråga som betyder något: vad måste ett kort ta bort för att bara ett ska bli kvar?",
+      "Tryck på ett tal själv och välj ”Nya kort”, så byggs ett färskt bräde runt just det talet på ett ögonblick.",
+      "Blanda och kör om i en annan ordning, och låt klassen upptäcka att svaret inte flyttade på sig."
+    ],
+    "classroomIdeas": [
+      "Uppvärmning: ett bräde om dagen på det minsta talområdet, fyra kort, fem minuter.",
+      "Förutsäg: fråga före varje kort vilka tal klassen tror är på väg att slockna.",
+      "Tyst omgång: vänd alla kort utan att säga ett ord, och fråga sedan vad korten måste ha varit.",
+      "Två ordningar: kör ett bräde, blanda, kör igen — och fråga varför samma tal står kvar. Läroplanen vill att eleverna prövar och resonerar om matematiska påståenden, och här får de ett påstående de kan pröva själva.",
+      "Baklänges: välj ett tal tillsammans, låt verktyget göra korten, och se vem som hittar det kort som gjorde mest jobb."
+    ],
+    "metaTitle": "Talsållet — hitta det hemliga talet | Gratis verktyg",
+    "metaDescription": "Gratis verktyg för förskoleklass och lågstadiet: alla tal lyser, korten säger ingenting utan gör något, och klassen läser regeln ur det som slocknade."
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

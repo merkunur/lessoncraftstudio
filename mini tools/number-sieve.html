@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>The Number Sieve — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=18">
+</head>
+<body>
+  <!-- The shell mounts the whole tool into this element. -->
+  <div id="lcs-root"></div>
+
+  <!-- Shell, then this tool. Absolute /mini-tools/ paths so embeds and
+       cross-context loads resolve identically. No core import. This tool
+       DOES load one data file — /mini-tools/number-sieve-boards.json, the
+       curated library — so the deploy cp must include *.json or the
+       library 404s and the tool falls back to its free-only inline set.
+       There is no image library and no audio: the field is numerals and
+       the cards are drawn, so nothing here can 404 into silence. -->
+  <script src="/mini-tools/lcs-shell.js?v=4"></script>
+  <script src="/mini-tools/number-sieve.js?v=1"></script>
+  <script>
+    // URL params the shell understands:
+    //   ?lang=de  ?lang=fi  (any of: en de fr it es pt nl sv da no fi)
+    //   ?embed=1        — trim chrome for iframe embedding
+    //   ?embed=compact  — also drop the title, for tightly-cropped iframes
+    LCS.mount(NumberSieve, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

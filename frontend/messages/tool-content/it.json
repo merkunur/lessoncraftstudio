@@ -963,6 +963,34 @@
     "metaTitle": "Simmetria: il foglio che si piega | strumento gratis",
     "metaDescription": "Un quadrato a quadretti da colorare e da piegare alla lavagna: la metà lontana si appoggia sull’altra e la classe vede che cosa combacia."
   },
+  "number-sieve": {
+    "slug": "setaccio-dei-numeri",
+    "name": "Il setaccio dei numeri",
+    "tagline": "Le carte non dicono la regola: agiscono sul tabellone, e i numeri che escono si spengono, così è la classe a capire che cosa è successo.",
+    "about": [
+      "Il setaccio dei numeri è uno strumento per la LIM. Sul tabellone ci sono tutti i numeri e all’inizio sono tutti accesi. Accanto c’è un piccolo mazzo di carte indizio, coperte. Ne girate una e la carta non dice niente: agisce sul tabellone, e i numeri che non stanno con lei si spengono e restano lì, spenti. Alla fine ne resta acceso uno solo, ed è quello che le carte stavano nascondendo. Lo strumento non lo annuncia e non lo scrive da nessuna parte: si vede, e a dirlo ad alta voce è la classe.",
+      "L’idea sta tutta qui. Nessuna carta dice mai che cosa fa, quindi per capirla i bambini devono guardare che cosa si è spento e ragionare all’indietro: perché è uscito proprio quello e perché quell’altro è rimasto acceso. Un compito di ascolto diventa un compito di ragionamento, e senza una sola parola scritta sull’apparato: anche un bambino che non legge ancora può condurre tutto il giro. È anche l’occasione per chiedere di spiegare a parole il procedimento seguito, che è proprio quello che le Indicazioni nazionali si aspettano dai bambini della scuola primaria quando affrontano un problema.",
+      "Prima che giri la prima carta, ogni bambino mette il segnalino sul numero che secondo lui le carte stanno nascondendo. Da quel momento il segnalino non si sposta più. Così, quando il suo numero si spegne, è il materiale a portarlo via e non serve che qualcuno lo dica a voce. Non c’è un pulsante che dice come stanno le cose, non ci sono punteggi né tempo che scorre, e nessuno viene nominato. Un segnalino che esce è un fatto del tabellone: non dice niente su chi lo ha messo lì, e per questo si può parlare della propria ipotesi senza doverla difendere.",
+      "Le carte si possono mescolare. Rifate lo stesso tabellone in un altro ordine e alla fine resta acceso esattamente quello che restava prima: è una cosa che la classe può verificare da sola, invece di sentirsela dire, ed è il motivo per cui vale la pena girare le carte due volte. Nella versione gratuita c’è tutto l’apparato: tutti i tipi di carta, i tre tabelloni e un modo per costruire un tabellone nuovo intorno a qualsiasi numero tocchiate. I tabelloni pronti e la stampa fanno parte del piano Insegnante."
+    ],
+    "howToUse": [
+      "Scegli il tabellone: quello più piccolo con i più piccoli, oppure uno dei due più grandi.",
+      "Chiedi a ogni bambino di mettere il segnalino sul numero che secondo lui le carte stanno nascondendo. Con la classe intera ciascuno mette il segnalino sulla propria striscia dei numeri o sulla lavagnetta, e sul tabellone vanno solo i due o tre bambini di turno. Da quando gira la prima carta i segnalini non si spostano più.",
+      "Gira la prima carta e non dire nulla: la domanda è che cosa si è spento, e perché.",
+      "Quando restano accesi pochi numeri, fai la domanda che conta: che cosa dovrebbe portare via una carta per lasciarne acceso uno solo?",
+      "Tocca tu un numero e scegli Carte nuove: lo strumento prepara un tabellone costruito intorno a quel numero.",
+      "Mescola le carte, rifai lo stesso tabellone in un altro ordine e lascia che sia la classe a dire se qualcosa è cambiato."
+    ],
+    "classroomIdeas": [
+      "Rituale del mattino: un tabellone al giorno su quello più piccolo, poche carte, cinque minuti prima di cominciare la lezione.",
+      "Giro di previsioni: prima di girare ogni carta chiedi quali numeri secondo loro stanno per spegnersi, poi gira la carta e lascia parlare il tabellone.",
+      "Setaccio in silenzio: gira tutte le carte senza dire una parola, poi chiedi alla classe di raccontare che cosa hanno fatto le carte, una per una.",
+      "Due ordini: fai un tabellone, mescola e rifallo. Dividi la classe in due gruppi che segnano su un foglio che cosa resta acceso, e alla fine confrontate i due fogli.",
+      "Al contrario: scegliete insieme un numero, lasciate che lo strumento prepari le carte, e poi discutete quale carta ha fatto il lavoro più grosso e quale quasi niente."
+    ],
+    "metaTitle": "Setaccio dei numeri: il numero misterioso alla LIM | strumento gratis",
+    "metaDescription": "Un tabellone con tutti i numeri e carte indizio che non dicono nulla: agiscono, e i numeri che escono si spengono. Strumento gratuito per la scuola primaria, senza punteggi né tempo."
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

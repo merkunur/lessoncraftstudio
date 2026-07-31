@@ -963,6 +963,34 @@
     "metaTitle": "La hoja para doblar — el reflejo se hace doblando",
     "metaDescription": "Hoja cuadriculada en el pizarrón: coloreen cuadritos, pongan el doblez y doblen. Los niños hacen el reflejo y el papel es el que responde, no la pantalla."
   },
+  "number-sieve": {
+    "slug": "colador-de-numeros-numero-misterioso",
+    "name": "El colador de números",
+    "tagline": "La pista no dice la regla: la aplica en el pizarrón, y el grupo la descubre viendo cuáles números se apagaron.",
+    "about": [
+      "El colador de números es una cuadrícula para el pizarrón con todos los números del rango encendidos, y un mazo de tarjetas de pista selladas. Usted voltea una tarjeta y la tarjeta no dice absolutamente nada: actúa sobre la cuadrícula, y los números que deja fuera se apagan y salen. Lo que sigue encendido es la respuesta, y el aparato nunca la anuncia.",
+      "Esa es toda la idea. Como ninguna tarjeta nombra su regla, el grupo tiene que leerla en lo que se apagó: por qué se fueron esos y no los otros. Así una tarea de escuchar se vuelve una tarea de razonar, y sucede sin una sola palabra escrita en el aparato. Un niño que todavía no lee puede dirigir la ronda completa, y en un salón con niveles distintos eso importa.",
+      "Antes de voltear la primera tarjeta, los niños colocan una ficha en el número que creen que es. Desde ese momento la ficha ya no se mueve, así que cuando su número se apaga es el material el que la saca, y nadie tiene que decirle nada a nadie. No hay puntaje, no hay cronómetro, no hay sonido de premio y nada en la pantalla felicita a nadie.",
+      "Revuelva el mazo, corra la misma cuadrícula en otro orden y los números que quedan encendidos son exactamente los mismos: eso el grupo lo puede comprobar en lugar de creerlo. La herramienta gratuita trae el aparato completo, las seis clases de tarjeta, las tres cuadrículas y un generador que arma un juego nuevo alrededor de cualquier número que toquen. El plan Docente agrega la colección curada y la impresión."
+    ],
+    "howToUse": [
+      "Elija la cuadrícula: la más pequeña para los más chicos, o una más grande cuando el grupo ya cuenta más lejos.",
+      "Pida a los niños que coloquen su ficha en el número que creen que es. Con el grupo completo, cada niño coloca su ficha en su propia tira numérica o en su pizarrita, y solo los dos o tres niños que van pasando colocan en el pizarrón. En cuanto voltee la primera tarjeta, las fichas ya no se mueven.",
+      "Voltee la siguiente tarjeta. Mire la cuadrícula y luego espere: la pregunta es qué se apagó y por qué.",
+      "Cuando queden tres o cuatro números encendidos, haga la pregunta que importa: ¿qué tendría que quitar una tarjeta para dejar uno solo?",
+      "Toque usted un número y elija Tarjetas nuevas para armar un juego alrededor de ese número en un segundo.",
+      "Revuelva las tarjetas y corra la cuadrícula otra vez en otro orden, y deje que el grupo note que la respuesta no se movió."
+    ],
+    "classroomIdeas": [
+      "Calentamiento: una cuadrícula al día en el rango más pequeño, cuatro tarjetas, cinco minutos.",
+      "Ronda de predicción: antes de voltear cada tarjeta, pregunte qué números creen que se van a apagar.",
+      "Colador silencioso: voltee todas las tarjetas sin decir una palabra y al final pregunte qué debieron decir las tarjetas.",
+      "Dos órdenes: corra un juego, revuelva el mazo y córralo otra vez; pregunte por qué quedaron encendidos los mismos números.",
+      "Al revés: elijan juntos un número, deje que la herramienta arme las tarjetas y vean quién descubre cuál pista hizo más trabajo."
+    ],
+    "metaTitle": "Número misterioso con pistas para primaria | recurso gratis",
+    "metaDescription": "Cuadrícula de números en el pizarrón y tarjetas de pista selladas: la pista no dice nada, apaga números y el grupo descubre por qué. Sin puntajes."
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

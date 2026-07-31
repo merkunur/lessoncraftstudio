@@ -963,6 +963,34 @@
     "metaTitle": "La feuille à plier — le reflet se fabrique en pliant",
     "metaDescription": "Papier quadrillé au tableau: coloriez des carreaux, placez le pli et pliez. Les élèves fabriquent le reflet et c’est le papier qui répond, jamais l’écran."
   },
+  "number-sieve": {
+    "slug": "grille-du-nombre-mystere",
+    "name": "La grille qui s’éteint",
+    "tagline": "L’indice n’explique rien — il éteint",
+    "about": [
+      "La grille qui s’éteint est une grille de nombres projetée au tableau, tous allumés, et un petit paquet de cartes face cachée. Vous retournez une carte. Elle n’énonce rien du tout, elle agit sur la grille. Les nombres qu’elle écarte s’éteignent et sortent. Ce qui reste allumé est la réponse, et l’outil ne l’annonce jamais.",
+      "C’est toute l’idée. Comme aucune carte ne formule ce qu’elle fait, la classe est obligée de lire dans ce qui vient de disparaître. Pourquoi celui-ci est-il resté allumé, alors que son voisin s’est éteint ? On passe d’une tâche d’écoute à une tâche de raisonnement, et l’appareil n’a eu besoin d’aucun mot pour cela. Si vous menez déjà le rituel du nombre mystère à l’oral, c’est le même rituel, mais les indices ne se disent plus. Un élève non-lecteur peut le mener entièrement.",
+      "Avant la première carte, chacun pose son pion sur le nombre qu’il croit être le bon. À partir de là, le pion ne bouge plus. Quand ce nombre s’éteint, c’est le matériel qui évince le pion. Personne n’a à dire à un élève qu’il s’est trompé, et l’élève n’a pas à l’entendre devant les autres. Aucun score, aucun chronomètre, aucun son, aucune étoile, rien à l’écran ne félicite qui que ce soit. Les élèves qui ne prennent plus de risque depuis longtemps recommencent à en prendre.",
+      "Mélangez le paquet, refaites la même grille dans un autre ordre, et les nombres qui restent allumés sont exactement les mêmes. Ce n’est pas une chose que vous affirmez, c’est une chose que la classe vérifie, et c’est là que le rituel devient une séance de découverte. L’outil gratuit porte tout l’appareil, les six sortes de cartes, les trois grilles et le constructeur qui fabrique une grille neuve autour de n’importe quel nombre que vous touchez. L’offre Enseignant ajoute la bibliothèque de grilles toutes prêtes et l’impression."
+    ],
+    "howToUse": [
+      "Choisissez la grille. La plus petite pour les plus jeunes, en début de CP. La grille intermédiaire pour le rituel de calcul mental de l’année. La plus grande sert précisément au franchissement de la centaine.",
+      "Faites poser les pions avant la première carte, et dites-le clairement. À partir de maintenant, le pion ne bouge plus. Avec une classe entière, chacun pose son pion sur sa propre bande numérique ou sur son ardoise, et l’écran ne porte que les deux ou trois pions des élèves désignés du jour.",
+      "Retournez une carte, laissez la grille s’éteindre, puis taisez-vous. La question n’est pas qui a trouvé, mais ce qui vient de sortir et ce que ces nombres avaient en commun. Tenez le silence trois ou quatre secondes de plus que ce qui est confortable.",
+      "Quand il ne reste que trois ou quatre nombres allumés, arrêtez-vous là et demandez ce qu’une carte devrait enlever pour qu’il n’en reste qu’un. C’est le moment où les élèves anticipent au lieu de constater, et où se joue la justification.",
+      "Touchez vous-même un nombre et choisissez Nouvelles cartes pour construire une grille autour de lui. Vous préparez le rituel du lendemain en quelques secondes, ou vous fabriquez deux grilles de difficulté différente pour deux groupes d’atelier.",
+      "Mélangez et refaites la même grille dans un autre ordre. Faites-le prédire avant de le montrer, puis laissez la classe constater d’elle-même que la réponse n’a pas bougé."
+    ],
+    "classroomIdeas": [
+      "Rituel d’entrée en séance sur la petite grille. Quatre cartes, cinq minutes, tous les jours, les pions posés avant que vous ayez ouvert la bouche.",
+      "Tour de prédiction avant chaque carte. À votre avis, celle-ci va-t-elle en éteindre beaucoup ou très peu ? On verbalise avant, on confronte après.",
+      "Passage entièrement silencieux, sans un mot de votre côté ni du leur, puis mise en commun à l’oral sur ce que les cartes ont bien pu enlever. Excellent pour les élèves qui parlent peu, puisque l’entrée est visuelle et la sortie est orale.",
+      "Deux ordres, mêmes rescapés. Faites tourner la même grille deux fois dans un ordre différent, faites noter les nombres restés allumés sur l’ardoise, et demandez pourquoi cela ne pouvait pas être autrement.",
+      "À l’envers, en atelier. Un élève choisit un nombre, construit la grille autour et mène le rituel pour son groupe pendant que vous êtes ailleurs, puis le groupe cherche laquelle des cartes a fait le plus de travail."
+    ],
+    "metaTitle": "Nombre mystère à projeter dès le CP | outil gratuit",
+    "metaDescription": "Le rituel du nombre mystère, à projeter au tableau. La carte n’explique pas la règle, elle éteint des nombres et la classe cherche. Ni score ni chrono."
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

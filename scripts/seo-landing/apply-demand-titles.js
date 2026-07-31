@@ -102,7 +102,14 @@ function repairPrefixCollisions(composed, rows, ctx) {
       const c = it.l.coordinate || {};
       let token = null;
       for (const a of differing) {
-        if (a === 'mode' && c.mode) token = C.taxonomyName('exercise-mode', c.mode, ctx.locale);
+        // Never force a raw generator enum into the visible budget. The mode label
+        // arrives straight from the taxonomy, so this pass was re-introducing exactly
+        // what composeOne refuses — sv "Bild-Bild", de "Leicht". Fall through to the
+        // next differing axis instead; the ordinal below is the final backstop.
+        if (a === 'mode' && c.mode) {
+          const m = C.taxonomyName('exercise-mode', c.mode, ctx.locale);
+          if (m && !C.isRawEnum(m)) token = m;
+        }
         if (!token && a === 'level' && c.level) token = engineLevelLabel(c.level, ctx);
         if (!token && a === 'letter' && c.letter) token = String(c.letter).toUpperCase();
         if (token) break;
@@ -166,7 +173,8 @@ function runLocale(locale, opts) {
     return { locale, error: 'no demand-match report — run match-demand.js first' };
   }
 
-  const data = JSON.parse(fs.readFileSync(file, 'utf8'));
+  const raw = fs.readFileSync(file, 'utf8');
+  const data = JSON.parse(raw);
   const landings = data.landings || [];
   const rows = new Map(JSON.parse(fs.readFileSync(matchFile, 'utf8')).rows.map((r) => [r.slug, r]));
   const ctx = buildContext(locale);
@@ -274,11 +282,48 @@ function runLocale(locale, opts) {
     return { locale, wrote: false, problems: [], distinctTitles, total: landings.length };
   }
 
-  for (const { l, out } of composed) {
+  // --only-colliding: replace ONLY the titles that actually present identically in
+  // the SERP today (same first PREFIX_LEN chars as a sibling), leaving every other
+  // page's existing title untouched.
+  //
+  // Why this is the default-safe scope: the composed titles lead with harvested
+  // demand phrases, which are lowercase in the keyword corpus. In German that
+  // produces "4. Juli wortsuche 1 klasse" where the live engine-built title reads
+  // "Arbeitsblätter Wortsuche – 4. Juli | zum Ausdrucken PDF kostenlos" — correct
+  // noun capitalisation. Rewriting all 30,078 would fix 3,766 collisions and
+  // regress ~26,000 correct titles, and would be exactly the full-corpus churn the
+  // 2026-07-10 forensic audit blames for the traffic crash. Scoped to the defect,
+  // the fix is complete and the blast radius is the broken set.
+  let targets = composed;
+  if (opts.onlyColliding) {
+    const groups = new Map();
+    for (const { l } of composed) {
+      const t = String(l.title || '');
+      if (t.length < PREFIX_LEN) continue;
+      const k = t.slice(0, PREFIX_LEN).toLowerCase().trim();
+      if (!groups.has(k)) groups.set(k, []);
+      groups.get(k).push(l.slug);
+    }
+    const bad = new Set();
+    for (const [, v] of groups) if (v.length > 1) for (const sl of v) bad.add(sl);
+    targets = composed.filter((c) => bad.has(c.l.slug));
+    console.log(`   --only-colliding: ${targets.length} of ${composed.length} page(s) currently share a 50-char title prefix`);
+    if (!targets.length) {
+      console.log('   nothing to rewrite in this locale.');
+      return { locale, wrote: false, problems: [], distinctTitles, total: landings.length };
+    }
+  }
+
+  for (const { l, out } of targets) {
     l.title = out.title;
     l.metaDescription = out.metaDescription;
   }
-  fs.writeFileSync(file, `${JSON.stringify(data, null, 2)}\n`, 'utf8');
+  // Preserve the file's EXISTING indentation. Hardcoding 2 spaces re-indented every
+  // line of every landing file — a 1.38M-line diff for 3,766 real edits, which makes
+  // the change unreviewable and buries it in history. These files are 1-space.
+  const indentMatch = raw.match(/^\{\r?\n( +)"/);
+  const indent = indentMatch ? indentMatch[1].length : 2;
+  fs.writeFileSync(file, `${JSON.stringify(data, null, indent)}\n`, 'utf8');
   console.log(`   WROTE ${file} — only title + metaDescription mutated.`);
   return { locale, wrote: true, problems: [], distinctTitles, total: landings.length };
 }
@@ -286,10 +331,10 @@ function runLocale(locale, opts) {
 (function main() {
   const locales = hasFlag('all') ? LOCALES : [argVal('locale', null)].filter(Boolean);
   if (!locales.length) {
-    console.error('Usage: node apply-demand-titles.js --locale=<loc> | --all [--write] [--samples=N]');
+    console.error('Usage: node apply-demand-titles.js --locale=<loc> | --all [--write] [--only-colliding] [--samples=N]');
     process.exit(1);
   }
-  const opts = { write: hasFlag('write'), samples: Number(argVal('samples', '0')) || 0 };
+  const opts = { write: hasFlag('write'), onlyColliding: hasFlag('only-colliding'), samples: Number(argVal('samples', '0')) || 0 };
   const results = locales.map((loc) => runLocale(loc, opts));
   const blocked = results.filter((r) => r.problems && r.problems.length);
   console.log(`\n${results.length} locale(s) processed | ${blocked.length} blocked by pre-checks` +

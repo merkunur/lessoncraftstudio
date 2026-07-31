@@ -5,6 +5,7 @@
  * single-target hub and the [targetLang] page.
  */
 import Link from 'next/link';
+import { notFound } from 'next/navigation';
 import { getTranslations } from 'next-intl/server';
 import { TOPIC_ENABLED_LOCALES } from '@/config/topic-locales';
 import { buildDeckRichAlt } from '@/lib/deck-seo';
@@ -85,6 +86,12 @@ export async function LearnTargetView({
     fetchCrossLanguageDecks(locale, targetIso, { type, page }),
     fetchCrossLanguageFacets(locale, targetIso),
   ]);
+  // Out-of-range page => 404, never an empty 200. Measured 2026-07-31:
+  // /en/learn/german has 142 landings over 6 pages, but ?page=8 and ?page=20 both
+  // returned HTTP 200 with ZERO cards — a soft-404 and unbounded crawl space, the
+  // same class as the /worksheets hub clamp. Guarded on pageCount>0 so a target
+  // with results always keeps page 1 (totalCount===0 already 404s upstream).
+  if (pageCount > 0 && page > pageCount) notFound();
   const cards = await buildLearnCards(decks, locale);
   const themeCount = facets.themes.length;
 

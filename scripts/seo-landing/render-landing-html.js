@@ -282,13 +282,23 @@ function localePath(locale, ...segments) {
 
 const HREFLANG_MAP = { en: 'en', de: 'de', fr: 'fr', es: 'es', pt: 'pt-BR', it: 'it', nl: 'nl', sv: 'sv', da: 'da', no: 'no', fi: 'fi' };
 function getHreflangCode(l) { return HREFLANG_MAP[l] || l; }
-function buildHreflangAlternates(locales, urlForLocale, baseUrlFallback) {
+// KEEP IN SYNC with frontend/lib/seo/hreflang.ts — this is a hand-copied port, and
+// it silently kept the old behaviour when the TS original was fixed on 2026-07-31.
+//
+// x-default is a claim about every searcher whose language matches NONE of the
+// declared alternates, so it is emitted ONLY when an English URL exists. The old
+// `Object.values(out)[0]` fallback handed Google an arbitrary locale as the
+// worldwide default — measured: a Swedish landing declaring SPANISH x-default, a
+// Norwegian one declaring DANISH, ~42% of sampled landings affected. Omitting the
+// tag lets Google fall back to its own matching instead of a wrong answer.
+function buildHreflangAlternates(locales, urlForLocale, _baseUrlFallback) {
   const out = {};
   for (const loc of locales) {
     const url = urlForLocale(loc);
     if (url) out[getHreflangCode(loc)] = url;
   }
-  out['x-default'] = out['en'] || out['en-US'] || Object.values(out)[0] || baseUrlFallback;
+  const en = out['en'] || out['en-US'];
+  if (en) out['x-default'] = en;
   return out;
 }
 

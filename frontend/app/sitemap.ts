@@ -320,6 +320,11 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
       // index,follow, internally linked). The makers are the #1 historic organic
       // source; the hub was sitemap-orphaned (SEO-recovery 2026-06-25 P0).
       { path: '/worksheet-makers', priority: 0.7, changeFreq: 'weekly' as const },
+      // /standards hub — the index for the 1,562 per-code pages. Added 2026-07-31:
+      // the per-code pages existed and were sitemapped, but there was NO index
+      // (/en/standards 404'd) and measured inbound links were ~1 sitewide, so the
+      // whole class was discoverable-but-unlinked.
+      { path: '/standards', priority: 0.6, changeFreq: 'weekly' as const },
       { path: '/terms', priority: 0.3, changeFreq: 'monthly' as const },
       { path: '/privacy', priority: 0.3, changeFreq: 'monthly' as const },
       { path: '/contact', priority: 0.3, changeFreq: 'monthly' as const },

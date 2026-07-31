@@ -19,6 +19,7 @@
    emptyState} for the catalog chrome (2 new keys only). */
 
 import { Metadata } from 'next';
+import { notFound } from 'next/navigation';
 import { INDEXABLE_ROBOTS } from '@/lib/seo/robots';
 import { Baloo_2, Nunito } from 'next/font/google';
 import { getTranslations } from 'next-intl/server';
@@ -295,7 +296,14 @@ export default async function AllWorksheetsPage({
   );
   const total = filtered.length;
   const pageCount = Math.max(1, Math.ceil(total / WORKSHEETS_PAGE_SIZE));
-  const page = Math.min(filters.page, pageCount);
+  // Out-of-range page => 404, not a clamp. Clamping made `?page=101` and
+  // `?page=999` both return HTTP 200 serving an identical copy of the last real
+  // page (measured 2026-07-31: page 100, 101 and 999 all 200 with the same 17
+  // links), i.e. an unbounded crawl space of duplicate pages. The canonical
+  // already points at page 1, but a crawler still has to fetch each one to learn
+  // that. 404 tells it there is nothing there.
+  if (filters.page > pageCount) notFound();
+  const page = filters.page;
   const pageItems = filtered.slice((page - 1) * WORKSHEETS_PAGE_SIZE, page * WORKSHEETS_PAGE_SIZE);
 
   // Active-filter chips + clear-all.

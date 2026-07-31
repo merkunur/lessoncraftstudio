@@ -451,6 +451,9 @@ export default async function ActivitiesIndexPage({ params, searchParams }: Page
   const locale = params.locale;
   const strings = LANDING_STRINGS[locale] ?? LANDING_STRINGS.en;
   const tSeo = await getTranslations({ locale, namespace: "seo" });
+  // Already-localized in all 11 locales; reused rather than authoring new copy.
+  const tStandards = await getTranslations({ locale, namespace: "standardsPage" });
+  const standardsLabel = tStandards("standardsBreadcrumb");
   const gradeName = (grade: string): string => {
     const key = GRADE_KEY_MAP[grade];
     return key ? tSeo(`educational_level.${key}`) : `${strings.gradeLabel} ${grade}`;
@@ -606,6 +609,18 @@ export default async function ActivitiesIndexPage({ params, searchParams }: Page
           <span aria-hidden="true" className="block w-16 h-1.5 rounded-full bg-lcs-coral mb-3.5" />
           <p className="font-lcsBody text-sm md:text-base text-lcs-teal/80 leading-relaxed">
             {strings.pageIntro}
+          </p>
+          {/* Link to the standards index. Added 2026-07-31: the 1,562 per-code
+              pages had ~1 inbound link sitewide and no index existed, so the whole
+              class was sitemap-only. Label reuses the already-localized
+              `standardsPage.standardsBreadcrumb` — no new copy invented. */}
+          <p className="mt-3">
+            <Link
+              href={`/${locale}/standards`}
+              className="font-lcsBody text-sm font-semibold text-lcs-teal underline underline-offset-4 hover:text-lcs-coral"
+            >
+              {standardsLabel} →
+            </Link>
           </p>
         </header>
 

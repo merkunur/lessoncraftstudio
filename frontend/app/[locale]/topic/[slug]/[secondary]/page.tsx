@@ -244,6 +244,26 @@ async function resolveOrThrow(params: IntersectionParams): Promise<IntersectionR
   const r = resolveIntersection(params.slug, params.secondary, params.locale);
   if (r.kind === 'notfound') notFound();
   if (r.kind === 'redirect') {
+    // Only redirect to a target that actually EXISTS. This used to redirect
+    // unconditionally, so a wrong-order URL for a combination with no decks cost a
+    // hop and then 404'd anyway (measured 2026-07-31:
+    // /en/topic/addition/grade-1 → 1 hop → 404). Every such URL is unbounded crawl
+    // space on a domain that is already crawl-starved. Resolve the canonical order
+    // first and 404 directly when it is empty; a real combination still 301s.
+    const canonical = resolveIntersection(
+      r.canonicalPrimarySlug,
+      r.canonicalSecondarySlug,
+      params.locale,
+    );
+    if (canonical.kind !== 'ok') notFound();
+    const canonicalCount = await countDecksForIntersection(
+      canonical.resolved.axis1,
+      canonical.resolved.axisKey1,
+      canonical.resolved.axis2,
+      canonical.resolved.axisKey2,
+      params.locale,
+    );
+    if (canonicalCount === 0) notFound();
     redirect(localePath(params.locale, 'topic', r.canonicalPrimarySlug, r.canonicalSecondarySlug));
   }
   // Confirm the intersection has ≥1 published deck (defense-in-depth per

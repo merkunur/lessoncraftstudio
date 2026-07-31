@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "note": "THE MAT BOOK. Locale-NEUTRAL by construction: a mat is a size and a start pose, and it carries no words in any language — which is why this file has no per-locale block at all, unlike wodb-grids.json (84,734 bytes for 21 grids, because every grid carries an 11-locale title and four 11-locale reasons). A mat is validated by arithmetic (0 <= r,c < n and h in 0..3), so this library can be grown and proven mechanically. Nothing here is a route, a clue list or a solution — a mat is only where the beetle starts.",
+  "freeMax": 3,
+  "premiumMax": 60,
+  "mats": [
+    { "id": "m4-01", "n": 4, "r": 3, "c": 0, "h": 0, "free": true },
+    { "id": "m6-01", "n": 6, "r": 5, "c": 0, "h": 0, "free": true },
+    { "id": "m6-02", "n": 6, "r": 2, "c": 2, "h": 1, "free": true },
+
+    { "id": "m4-02", "n": 4, "r": 0, "c": 3, "h": 2, "free": false },
+    { "id": "m4-03", "n": 4, "r": 1, "c": 1, "h": 1, "free": false },
+    { "id": "m4-04", "n": 4, "r": 2, "c": 3, "h": 3, "free": false },
+    { "id": "m4-05", "n": 4, "r": 0, "c": 0, "h": 2, "free": false },
+    { "id": "m4-06", "n": 4, "r": 3, "c": 3, "h": 0, "free": false },
+    { "id": "m4-07", "n": 4, "r": 2, "c": 0, "h": 1, "free": false },
+    { "id": "m4-08", "n": 4, "r": 1, "c": 2, "h": 3, "free": false },
+
+    { "id": "m6-03", "n": 6, "r": 0, "c": 5, "h": 2, "free": false },
+    { "id": "m6-04", "n": 6, "r": 3, "c": 3, "h": 3, "free": false },
+    { "id": "m6-05", "n": 6, "r": 5, "c": 5, "h": 3, "free": false },
+    { "id": "m6-06", "n": 6, "r": 0, "c": 0, "h": 1, "free": false },
+    { "id": "m6-07", "n": 6, "r": 4, "c": 1, "h": 0, "free": false },
+    { "id": "m6-08", "n": 6, "r": 1, "c": 4, "h": 2, "free": false },
+    { "id": "m6-09", "n": 6, "r": 2, "c": 5, "h": 3, "free": false },
+    { "id": "m6-10", "n": 6, "r": 5, "c": 2, "h": 0, "free": false },
+    { "id": "m6-11", "n": 6, "r": 3, "c": 0, "h": 1, "free": false },
+    { "id": "m6-12", "n": 6, "r": 0, "c": 2, "h": 2, "free": false },
+
+    { "id": "m8-01", "n": 8, "r": 7, "c": 0, "h": 0, "free": false },
+    { "id": "m8-02", "n": 8, "r": 0, "c": 7, "h": 2, "free": false },
+    { "id": "m8-03", "n": 8, "r": 4, "c": 4, "h": 1, "free": false },
+    { "id": "m8-04", "n": 8, "r": 7, "c": 7, "h": 3, "free": false },
+    { "id": "m8-05", "n": 8, "r": 0, "c": 0, "h": 1, "free": false },
+    { "id": "m8-06", "n": 8, "r": 3, "c": 6, "h": 2, "free": false },
+    { "id": "m8-07", "n": 8, "r": 6, "c": 3, "h": 0, "free": false },
+    { "id": "m8-08", "n": 8, "r": 2, "c": 1, "h": 3, "free": false },
+    { "id": "m8-09", "n": 8, "r": 5, "c": 5, "h": 1, "free": false },
+    { "id": "m8-10", "n": 8, "r": 1, "c": 6, "h": 0, "free": false },
+    { "id": "m8-11", "n": 8, "r": 6, "c": 1, "h": 2, "free": false },
+    { "id": "m8-12", "n": 8, "r": 4, "c": 0, "h": 1, "free": false },
+    { "id": "m8-13", "n": 8, "r": 0, "c": 4, "h": 2, "free": false },
+    { "id": "m8-14", "n": 8, "r": 7, "c": 4, "h": 0, "free": false },
+    { "id": "m8-15", "n": 8, "r": 3, "c": 7, "h": 3, "free": false },
+    { "id": "m8-16", "n": 8, "r": 2, "c": 4, "h": 1, "free": false }
+  ]
+}

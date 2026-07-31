@@ -189,11 +189,13 @@ function gitTrackedHtml() {
   const { execFileSync } = require('child_process');
   let out = '';
   try {
-    // --cached + --others --exclude-standard: tracked files PLUS new untracked ones
-    // that are not gitignored, so a brand-new tool HTML is caught before it is
-    // committed. Gitignored paths (frontend/public/mini-tools/* mirrors, server
-    // build output) stay excluded, which is what keeps this deterministic.
-    out = execFileSync('git', ['ls-files', '-z', '--cached', '--others', '--exclude-standard', '*.html'], {
+    // TRACKED FILES ONLY. `--others` was tried and reverted: the Hetzner working
+    // tree carries years of untracked cruft (a stray `frontend/public/public/public/`
+    // duplicate tree alone produced 40 failures there while the local tree was
+    // clean), so including untracked files makes the gate machine-dependent — the
+    // exact property that made the first version useless. The rule is "before
+    // merge", and a file must be committed to merge, so tracked-only loses nothing.
+    out = execFileSync('git', ['ls-files', '-z', '--cached', '*.html'], {
       cwd: REPO,
       encoding: 'utf8',
       maxBuffer: 32 * 1024 * 1024,

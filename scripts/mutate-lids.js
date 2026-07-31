@@ -53,6 +53,29 @@ const M = [
   ['the lift scatters the counters back instead of seating them', 'var pack = this.packing(this.share(s));', 'var pack = [];'],
   ['"Another lid" marches them into a heap again', 'var p = self._farPoint(self.st);\n      var next = self.addLid(self.st, p.cx, p.cy);', 'var k = self.st.lids.length;\n      var next = self.addLid(self.st, Math.round(self.W / (k + 2) * (k + 1)), Math.round(self.H / 2));'],
 
+  /* ---- V16 THE TRUTH LANDS ON THE STRIP ---- */
+  ['the truth is marked on the wrong numeral', 'var truth = s.lifted ? this.revealed(s).share : null;', 'var truth = s.lifted ? this.revealed(s).share + 1 : null;'],
+  ['the truth is marked before the lids come up', 'var truth = s.lifted ? this.revealed(s).share : null;', 'var truth = this.share(s);'],
+  ['the truth is never marked at all', 'var truth = s.lifted ? this.revealed(s).share : null;', 'var truth = null;'],
+  ['the truth is drawn as a FILL, so it reads as the same kind as the marker', "+ '.lid-mark.lid-truth{box-shadow:0 0 0 3px #FBF3E4 inset, 0 0 0 7px #146B5E inset;font-weight:800;}'", "+ '.lid-mark.lid-truth{background:#F2784B;}'"],
+  ['the truth ring picks up a verdict hue', "0 0 0 7px #146B5E inset;font-weight:800;}'", "0 0 0 6px #C2562F inset;}'"],
+  ['the truth ring becomes an outer halo and collides with its neighbour', "box-shadow:0 0 0 3px #FBF3E4 inset, 0 0 0 7px #146B5E inset;font-weight:800;}'", "box-shadow:0 0 0 3px #FBF3E4, 0 0 0 6px #146B5E;}'"],
+  ['a numeral that is both the marker and the truth loses its rule', "+ '.lid-mark.lid-on.lid-truth{box-shadow:0 0 0 3px #146B5E inset, 0 0 0 7px #FBF3E4 inset;}'", "+ ''"],
+  ['the old dot row comes back', 'return strip;\n  },', "var z = api.el('div', 'lid-rcell'); strip.appendChild(z);\n    return strip;\n  },"],
+
+  /* ---- the strip must be inert until there is a question ---- */
+  ['the strip is live before any lid is down', 'b.disabled = !!s.lifted || s.lids.length < 2;', 'b.disabled = !!s.lifted;'],
+  ['the model accepts a marker with no question asked', 'if (s.lifted) return null;\n    if (s.lids.length < 2) return null;', 'if (s.lifted) return null;'],
+
+  /* ---- changing the question must void the commitment ---- */
+  ['the guess survives a new lid', "s.lids.push({ cx: Math.max(0, Math.min(this.W, x)), cy: Math.max(0, Math.min(this.H, y)) });\n    s.guess = null;", 's.lids.push({ cx: Math.max(0, Math.min(this.W, x)), cy: Math.max(0, Math.min(this.H, y)) });'],
+  ['the guess survives a removed lid', 's.lids.pop();\n    s.guess = null;', 's.lids.pop();'],
+  ['sliding a lid wrongly voids the commitment', 's.lids[i] = { cx: Math.max(0, Math.min(this.W, x)), cy: Math.max(0, Math.min(this.H, y)) };', 's.lids[i] = { cx: Math.max(0, Math.min(this.W, x)), cy: Math.max(0, Math.min(this.H, y)) };\n    s.guess = null;'],
+
+  /* ---- V17 NO DEAD STRINGS ---- */
+  ['hintMark goes back to being a dead string', "else if (s.guess === null) {", 'else if (s.guess === null && false) {'],
+  ['the focus restore is dropped again', 'if (again) { try { again.focus(); } catch (_) {} }', ''],
+
   /* ---- V1 CONSERVATION ---- */
   ['hidden forgets to multiply by the lid count', 'return s.lids.length * this.share(s);', 'return this.share(s);'],
   ['the leftover is swallowed', 'return s.n - this.hidden(s);', 'return 0;'],
@@ -64,7 +87,7 @@ const M = [
   ['an empty table can be lifted', 'if (s.lids.length < 1) return null;\n    s.lifted = true;', 's.lifted = true;'],
 
   /* ---- V6 THE COMMITTED PRIOR ---- */
-  ['the marker moves after the lids are up', 'var s = this._clone(st);\n    if (s.lifted) return null;\n    var g = Math.round(Number(v));', 'var s = this._clone(st);\n    var g = Math.round(Number(v));'],
+  ['the marker moves after the lids are up', 'if (s.lifted) return null;\n    if (s.lids.length < 2) return null;', 'if (s.lids.length < 2) return null;'],
   ['a refused guess carries the old state forward as a success', 'if (!isFinite(g) || g < 0 || g > this.PAID_MAX_TOTAL) return null;', 'if (!isFinite(g) || g < 0 || g > this.PAID_MAX_TOTAL) return s;'],
   ['tapping the same numeral no longer clears the marker', 's.guess = (s.guess === g) ? null : g;', 's.guess = g;'],
 
@@ -84,9 +107,9 @@ const M = [
   /* ---- V8 / V9 THE LAW AND THE LOCALES ---- */
   ['a numeral is printed onto the table', "var pts = this.scatter(s);\n    var vis =", "var pts = this.scatter(s);\n    box.textContent = String(this.share(s));\n    var vis ="],
   ['a verdict word reaches a German string', 'de: "Legt zwei Deckel hin."', 'de: "Legt zwei Deckel hin. Richtig!"'],
-  ['a verdict word reaches a Finnish string', 'fi: "Nostakaa kannet."', 'fi: "Nostakaa kannet. Oikein!"'],
+  ['a verdict word reaches a Finnish string', 'fi: "Nyt voitte nostaa kannet."', 'fi: "Nyt voitte nostaa kannet. Oikein!"'],
   ['the brand word reaches a string', 'en: "The Lids"', 'en: "The Splat Lids"'],
-  ['an invisible character is pasted into a string', 'sv: "Lyft locken"', 'sv: "Lyft​ locken"'],
+  ['an invisible character is pasted into a string', 'sv: "Lyft på locken"', 'sv: "Lyft​ på locken"'],
 
   /* ---- V11 LABELS ARE TRUE ---- */
   ['the lift button is wired backwards', 'self.st.lifted ? self.lower(self.st) : self.lift(self.st)', 'self.st.lifted ? self.lift(self.st) : self.lower(self.st)'],

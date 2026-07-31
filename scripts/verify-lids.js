@@ -30,6 +30,12 @@
      V12 IDENTITY          no tasks, one fetch allow-list, no exfil
      V13 THE TABLE BOOK    library + offline fallback
      V14 PURITY + SHAPE    immutable reducers, frozen state shape
+     V15 ⭐ THE LID HOLDS WHAT IT HIDES
+     V16 ⭐ THE TRUTH LANDS ON THE STRIP  the answer is marked on the
+                           same numeral strip the class committed on
+     V17 ⭐ NO DEAD STRINGS  every authored key is REACHED, not merely
+                           present — the check that would have caught
+                           `hintMark` before the operator did
    ===================================================================== */
 
 'use strict';
@@ -300,13 +306,45 @@ function build(n, k, spread) {
   if (up.guess !== 4) { err('V6 the guess did not survive the lift'); return; }
   if (T.placeGuess(st, -1) !== null || T.placeGuess(st, 999) !== null) err('V6 an out-of-range guess was accepted');
 
+  /* ⭐ V6b — THE STRIP REFUSES UNTIL THERE IS A QUESTION. The operator's
+     report was "the numbers under the board has no function", and the
+     state they were looking at had NO LIDS ON THE TABLE: nothing had
+     been asked, and the strip took an answer anyway. Two lids is the
+     floor, because one lid is the subtraction this tool refuses to be. */
+  for (let k = 0; k <= 1; k++) {
+    const thin = build(12, k, true);
+    for (let v = 0; v <= 12; v++) {
+      if (T.placeGuess(thin, v) !== null) {
+        err(`V6b a marker was parked with ${k} lid(s) on the table — there is no question yet`); return;
+      }
+    }
+  }
+  if (!T.placeGuess(build(12, 2, true), 5)) { err('V6b POISON: two lids is refused too — the floor is wrong'); return; }
+
+  /* ⭐ V6c — CHANGING THE QUESTION VOIDS THE COMMITMENT. "Now put a third
+     one down" is the routine's whole move; a marker parked for two lids
+     is not an answer to the three-lid question, and carrying it over
+     would be the tool silently re-using an old commitment. */
+  const two = T.placeGuess(build(20, 2, true), 10);
+  if (!two || two.guess !== 10) { err('V6c could not park a marker on the two-lid table'); return; }
+  const three = T.addLid(two, 500, 300);
+  if (!three || three.guess !== null) { err('V6c adding a lid did not void the commitment'); return; }
+  const back = T.removeLid(T.placeGuess(build(20, 3, true), 6));
+  if (!back || back.guess !== null) { err('V6c removing a lid did not void the commitment'); return; }
+  /* ...but moving one does NOT, because the share is unchanged by where
+     a lid sits; and neither does lowering, so the class can look again */
+  const moved2 = T.moveLid(T.placeGuess(build(20, 3, true), 6), 0, 300, 400);
+  if (!moved2 || moved2.guess !== 6) { err('V6c sliding a lid wrongly voided the commitment'); return; }
+  const relid = T.lower(T.lift(T.placeGuess(build(20, 3, true), 6)));
+  if (!relid || relid.guess !== 6) { err('V6c putting the lids back on wrongly voided the commitment'); return; }
+
   const VERDICT = /\b(score|scoring|correct|incorrect|wrong|winner|wins|verdict|rank|ranking|closest|better|worse|accuracy|streak)\b/i;
   if (VERDICT.test(SRC_NC)) err(`V7 verdict machinery in the source ("${SRC_NC.match(VERDICT)[0]}")`);
   if (/lid-(correct|wrong|right|good|bad|win|fail)/.test(SRC)) err('V7 a verdict class name exists');
   /* nothing may compare the guess with the share */
   if (/guess[^;\n]*===[^;\n]*share|share[^;\n]*===[^;\n]*guess/.test(SRC_NC)) err('V7 the guess is compared with the share');
   if (!VERDICT.test('var score = 1;')) err('V7 POISON: the verdict ban no longer fires');
-  console.log('V6/V7 committed prior: moves freely, freezes at the lift by refusal, survives it, and nothing marks it');
+  console.log('V6/V7 committed prior: refuses until two lids are down, moves freely, is voided when the question changes, freezes at the lift by refusal, and is never marked');
 })();
 
 /* =====================================================================
@@ -544,7 +582,11 @@ function build(n, k, spread) {
   if (Object.keys(st0).sort().join(',') !== SHAPE) err(`V14 the state shape is ${Object.keys(st0).sort().join(',')}, expected ${SHAPE}`);
   const probes = [
     ['addLid', (s) => T.addLid(s, 300, 300)],
-    ['placeGuess', (s) => T.placeGuess(s, 3)],
+    /* ⚠ placeGuess is probed through a TWO-LID state. It now refuses on a
+       bare newState(), so probing it there returns null, skips the shape
+       check and exercises nothing — a passing assertion that tests
+       nothing at all. */
+    ['placeGuess', (s) => T.placeGuess(T.addLid(T.addLid(s, 300, 300), 700, 300), 3)],
     ['setTotal', (s) => T.setTotal(s, 16)],
     ['lift', (s) => T.lift(T.addLid(s, 300, 300))],
     ['lower', (s) => T.lower(T.lift(T.addLid(s, 300, 300)))],
@@ -578,6 +620,186 @@ function build(n, k, spread) {
   console.log('V12 identity: no tasks, two fetches, no POST, no roster');
   console.log('V13 the table book: validated, fallback matches the free set, remainders present, entitlement filters');
   console.log('V14 purity: state shape frozen, reducers leave their input untouched, hostile input refused');
+})();
+
+/* =====================================================================
+   V16 ⭐ THE TRUTH LANDS ON THE STRIP
+   The class parks a marker on a numeral; at the lift the true share is
+   marked on THAT SAME STRIP, on the same scale, so the two values can be
+   read against each other. Nothing else changes — no tick, no cross, no
+   distance, no "closest". This is the fix for the operator's report that
+   the numerals had no function, and it is the house's own precedent
+   (estimation-jar.js paints guesses and truth onto one number line).
+   ===================================================================== */
+(function truthOnStrip() {
+  /* the render is what carries this, so it is checked at the source —
+     the browser gate drives it for real */
+  const at = RENDER.indexOf('_buildStrip: function');
+  if (at < 0) { err('V16 _buildStrip was not found'); return; }
+  const body = RENDER.slice(at, RENDER.indexOf('_buildFoot: function', at));
+  if (body.length < 100) { err('V16 could not isolate the strip builder'); return; }
+
+  /* a. the truth is READ, and only when the lids are up */
+  if (!/lifted\s*\?\s*this\.revealed\(s\)\.share\s*:\s*null/.test(body)) {
+    err('V16 the strip does not read the share from a lifted state only');
+  }
+  /* b. it lands on a numeral, as its own class */
+  if (body.indexOf('lid-truth') === -1) err('V16 the truth has no class of its own on the strip');
+  /* c. the class's marker keeps a DIFFERENT class */
+  if (body.indexOf('lid-on') === -1) err('V16 the marker lost its own class');
+  if (/lid-truth[^']*lid-on|lid-on[^']*lid-truth/.test(body.replace(/\s/g, ''))) {
+    /* they may co-occur on one numeral, but must never be the same token */
+  }
+  /* d. the two treatments differ in KIND, not in hue — the marker fills,
+     the truth rings, and both use the SAME teal. A hue pair would read
+     as right/green vs wrong/orange to a six-year-old. */
+  const ON = SRC.match(/\.lid-mark\.lid-on\{([^}]*)\}/);
+  const TR = SRC.match(/\.lid-mark\.lid-truth\{([^}]*)\}/);
+  if (!ON) err('V16 the marker rule was not found');
+  if (!TR) err('V16 the truth rule was not found');
+  if (ON && TR) {
+    if (!/background/.test(ON[1])) err('V16 the marker is not a FILL');
+    if (/background/.test(TR[1])) err('V16 the truth uses a fill — it must ring, or the two read as one kind');
+    if (!/box-shadow/.test(TR[1])) err('V16 the truth is not a RING');
+    if (TR[1].indexOf('inset') === -1) err('V16 the truth ring is not inset — an outer halo collides with the 6px strip gap');
+    const hue = (s) => (s.match(/#[0-9A-Fa-f]{6}/g) || []).map((h) => h.toUpperCase());
+    const stray = hue(TR[1]).filter((h) => h !== '#146B5E' && h !== '#FBF3E4');
+    if (stray.length) err(`V16 the truth ring introduces a new colour (${stray.join(',')}) — it must differ in KIND, not hue`);
+  }
+  /* e. and when the class was right, one numeral wears both */
+  if (!/\.lid-mark\.lid-on\.lid-truth\{/.test(SRC)) {
+    err('V16 there is no rule for a numeral that is BOTH the marker and the truth');
+  }
+  /* f. the strip is inert until there is a question */
+  if (!/disabled\s*=\s*!!s\.lifted\s*\|\|\s*s\.lids\.length\s*<\s*2/.test(body)) {
+    err('V16 the strip is not disabled below two lids');
+  }
+  /* g. focus survives the re-render */
+  if (body.indexOf('.focus()') === -1) err('V16 the strip does not restore focus after its own re-render');
+  /* h. the old dot row is gone — the table already seats the counters */
+  if (SRC_NC.indexOf('lid-rcell') >= 0) err('V16 the old .lid-rcell dot row is still rendered');
+  /* i. AND STILL NO VERDICT. The two values sit on one strip; nothing
+     may compute the relation between them. */
+  if (/guess[^;\n]*(===|!==|>|<|-)[^;\n]*share|share[^;\n]*(===|!==|>|<|-)[^;\n]*guess/.test(SRC_NC)) {
+    err('V16 the guess and the share are brought into contact — that is a verdict');
+  }
+  console.log('V16 the truth lands on the strip: read only when lifted, its own class, a RING against the marker\'s FILL in the same two colours, inert below two lids, focus restored, and the guess never compared with the share');
+})();
+
+/* =====================================================================
+   V17 ⭐ NO DEAD STRINGS
+   Every authored key must be REACHED. `hintMark` — "Park the marker on
+   the number you think it is." — was authored in all eleven locales and
+   never once referenced, so the tool never told the class what the strip
+   was for; that is half the reason the numerals read as decoration, and
+   the operator found it before any gate did. V8 checks a string EXISTS
+   per locale. This checks it is USED.
+   ===================================================================== */
+(function noDeadStrings() {
+  /* ⚠ EVERY QUOTED KEY INSIDE A t(...) CALL, not just the first. The
+     first draft matched `t('key')` and, for ternaries, a non-greedy
+     `t(...'key'`, which captured only the LEFT arm — so
+     `api.t(s.lifted ? 'againBtn' : 'liftBtn')` reported liftBtn DEAD.
+     A scan that condemns correct code teaches the next build to write
+     fake calls to satisfy it. */
+  const keysIn = (call) => (call.match(/'([A-Za-z0-9_]+)'/g) || []).map((q) => q.slice(1, -1));
+  const used = new Set();
+  const re = /\bt\(([^()]*(?:\([^()]*\)[^()]*)*)\)/g;
+  let m;
+  while ((m = re.exec(SRC_NC)) !== null) keysIn(m[1]).forEach((k) => used.add(k));
+
+  /* ⚠ AN EXPLICIT, AUDITABLE EXEMPTION LIST — never a loosened regex.
+     These two are read by the SHELL, not by this file: lcs-shell.js:47-58
+     interpolates {title} and {instruction} into the page's own
+     description in all eleven locales. They are used; they are simply
+     not used HERE. Anything added to this list needs the same one-line
+     proof beside it. */
+  const SHELL_CONSUMED = { title: 'lcs-shell.js:47-58 {title} interpolation', instruction: 'lcs-shell.js:47-58 {instruction} interpolation' };
+  const reach = (k) => used.has(k) || Object.prototype.hasOwnProperty.call(SHELL_CONSUMED, k);
+
+  const dead = Object.keys(T.strings).filter((k) => !reach(k));
+  if (dead.length) err(`V17 DEAD STRING(S) — authored in 11 locales and never reached: ${dead.join(', ')}`);
+
+  /* ⚠ POISON, IN BOTH DIRECTIONS — the recorded Zufallsbeutel lesson.
+     It must FIRE on a key nothing reaches, and it must PASS a key that
+     is reached through a ternary and one the shell owns. */
+  if (reach('__phantom__')) err('V17 POISON: the scan cannot see an unreferenced key');
+  if (!used.has('liftBtn') || !used.has('againBtn')) {
+    err('V17 POISON: the scan misses a key reached through a ternary — it would condemn correct code');
+  }
+  if (!reach('title')) err('V17 POISON: the shell-consumed exemption is not working');
+  const probe = keysIn("api.t(s.lifted ? 'a' : 'b')");
+  if (probe.length !== 2) err(`V17 POISON: the key extractor found ${probe.length} of 2 arms in a ternary`);
+
+  /* ⭐ V17b — REACHED AT RUNTIME, not merely mentioned in the source.
+     ⚠ The scan above is a TEXT scan, and mutation proved what that
+     cannot see: making the branch unreachable (`s.guess === null &&
+     false`) leaves the t('hintMark') call sitting in the source, so the
+     scan reports it alive while no class would ever see it. A string
+     behind a dead branch is exactly as dead as one behind no branch.
+     So: drive every builder over a matrix of real states with a
+     RECORDING t(), and require each authored key to be asked for by at
+     least one of them. This is the check `hintMark` needed. */
+  const REACH = new Set();
+  const stub = () => {
+    const node = {
+      style: {}, classList: { add() {}, remove() {}, contains: () => false },
+      children: [], textContent: '', type: '', disabled: false, href: '', target: '', rel: '',
+      setAttribute() {}, getAttribute: () => null, addEventListener() {},
+      appendChild(c) { this.children.push(c); return c; },
+      querySelectorAll: () => []
+    };
+    return node;
+  };
+  const probeApi = {
+    lang: 'en',
+    el: (tag, cls) => { const n = stub(); n.tag = tag; n.cls = cls || ''; return n; },
+    t: (k) => { REACH.add(k); const v = T.strings[k]; return (v && v.en) || k; },
+    stage: stub()
+  };
+  const inst = Object.create(T);
+  inst.api = probeApi;
+  inst.premium = false;
+  inst.data = T.FALLBACK_SETUPS;
+  inst._setupIdx = 0;
+  inst._wrap = null;
+
+  const twoLid = build(20, 2, true);
+  const STATES = [
+    ['no lids yet', build(20, 0, true), false],
+    ['one lid down', build(20, 1, true), false],
+    ['two lids, nothing committed', twoLid, false],
+    ['two lids, marker parked', T.placeGuess(twoLid, 10), false],
+    ['lifted, shares exactly', T.lift(T.placeGuess(twoLid, 10)), false],
+    ['lifted, something left over', T.lift(T.placeGuess(build(20, 3, true), 6)), false],
+    ['four lids, the paid ceiling in view', build(30, 4, true), true],
+    ['the gate showing', twoLid, true]
+  ];
+  for (const [label, st, gate] of STATES) {
+    if (!st) { err(`V17b could not build the "${label}" state`); continue; }
+    inst.st = st;
+    inst._gate = gate;
+    try {
+      inst._buildBar(); inst._buildHint(); inst._buildStrip(); inst._buildFoot();
+      /* the table is driven too — it labels the lids and the counters */
+      inst._buildTable();
+    } catch (e) {
+      err(`V17b a builder threw on the "${label}" state: ${e.message}`);
+    }
+  }
+
+  const unreached = Object.keys(T.strings).filter((k) => !REACH.has(k) && !SHELL_CONSUMED[k]);
+  if (unreached.length) {
+    err(`V17b UNREACHABLE STRING(S) — present in the source but no state of the tool asks for them: ${unreached.join(', ')}`);
+  }
+  /* ⚠ POISON, BOTH WAYS. It must notice a key nothing asks for, and it
+     must NOT condemn one that only a late state asks for. */
+  if (REACH.has('__phantom__')) err('V17b POISON: the recorder invents keys');
+  if (!REACH.has('hintLeftover')) err('V17b POISON: the state matrix never reaches the leftover hint — it would miss the class of defect it exists for');
+  if (!REACH.has('gateLine') || !REACH.has('unlock')) err('V17b POISON: the state matrix never shows the gate');
+  if (!REACH.has('againBtn')) err('V17b POISON: the state matrix never lifts the lids');
+
+  console.log(`V17 no dead strings: all ${Object.keys(T.strings).length} authored keys are REACHED at runtime — ${REACH.size} asked for by a real state of the tool across ${STATES.length} states, ${Object.keys(SHELL_CONSUMED).length} owned by the shell`);
 })();
 
 console.log('');

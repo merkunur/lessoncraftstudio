@@ -172,10 +172,16 @@ const SEEDS = {
      of six, plus the two that would not share still sitting on the
      table. Foot chips in order: another lid / take one away / lift /
      another table / print. */
+  /* ⚠ THE MARKER GOES ON 9, NOT 6. Twenty counters under three lids
+     share SIX, so marking 6 would land the class's guess and the answer
+     on the same numeral — a card that demonstrates the one thing this
+     tool now does by showing it exactly once. 9 puts them apart: a
+     filled 9 and a ringed 6, on one strip. ⚠ The lids go down BEFORE the
+     marker, because adding a lid voids the commitment. */
   'lids': [
     { sel: '.lid-bar .lid-chip', nth: 3 },
     { sel: '.lid-foot .lid-chip', nth: [0, 0, 0] },
-    { sel: '.lid-mark', nth: 6 },
+    { sel: '.lid-mark', nth: 9 },
     { sel: '.lid-foot .lid-chip', nth: 2 },
   ],
 };

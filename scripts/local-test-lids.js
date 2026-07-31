@@ -216,8 +216,9 @@ const addLids = async (page, k) => {
       /* and the reveal is genuinely absent before the lift */
       is((await count(page, '.lid-reveal')) === 0, 'L3 no reveal block exists before the lids are lifted');
       await clickFoot(page, 'Lift the lids');
-      const rc = await count(page, '.lid-rcell');
-      is(rc === 8, 'L3 after the lift the reveal shows the share as ' + rc + ' cells (16 shared 2 ways)');
+      const truth = await page.evaluate(() =>
+        Array.from(document.querySelectorAll('.lid-mark')).findIndex((b) => b.classList.contains('lid-truth')));
+      is(truth === 8, 'L3 after the lift the truth is marked on the strip at numeral ' + truth + ' (16 shared 2 ways)');
       is((await onTable(page)) === 16, 'L3 every counter comes back when the lids come up');
       await page.close();
     }
@@ -328,13 +329,17 @@ const addLids = async (page, k) => {
       const after = await page.evaluate(() => ({
         marked: Array.from(document.querySelectorAll('.lid-mark')).findIndex((b) => b.classList.contains('lid-on')),
         allDisabled: Array.from(document.querySelectorAll('.lid-mark')).every((b) => b.disabled),
-        share: document.querySelectorAll('.lid-rcell').length,
+        truth: Array.from(document.querySelectorAll('.lid-mark')).findIndex((b) => b.classList.contains('lid-truth')),
+        both: document.querySelectorAll('.lid-mark.lid-on.lid-truth').length,
+        truthCount: document.querySelectorAll('.lid-mark.lid-truth').length,
         verdictClass: document.querySelectorAll('[class*="correct"],[class*="wrong"],[class*="right"]').length,
         stripText: Array.from(document.querySelectorAll('.lid-strip')).map((s) => s.textContent).join('')
       }));
       is(after.marked === 5, 'L6 ⭐ THE PRIOR SURVIVES THE LIFT, unmoved, at 5');
       is(after.allDisabled, 'L6 every marker refuses to move once the lids are up');
-      is(after.share === 4, 'L6 the truth appears beside it — 4 under each lid');
+      is(after.truth === 4, '\u2b50 L6 THE TRUTH LANDS ON THE STRIP at numeral ' + after.truth + ', on the same scale as the marker on 9');
+      is(after.truthCount === 1, 'L6 exactly one numeral carries the truth (saw ' + after.truthCount + ')');
+      is(after.both === 0, 'L6 the marker and the truth are on DIFFERENT numerals here, each with its own treatment');
       is(after.verdictClass === 0, 'L6 ⭐ the guess of 5 against a share of 4 is NEVER MARKED');
       is(!/correct|wrong|✓|✗|✔|✘/i.test(after.stripText), 'L6 no tick, cross or verdict anywhere in the strip');
       if (SHOT) await page.screenshot({ path: path.join(SHOT_DIR, 'prior-vs-truth-1024.png') });
@@ -402,7 +407,115 @@ const addLids = async (page, k) => {
       await addLids(page, 2);
       await page.evaluate(() => document.querySelectorAll('.lid-mark')[9].click());
       await clickFoot(page, 'Lift the lids');
-      is((await count(page, '.lid-rcell')) === 10, 'L7b a signed-out class can run the whole routine and see the share');
+      const freeTruth = await page.evaluate(() =>
+        Array.from(document.querySelectorAll('.lid-mark')).findIndex((b) => b.classList.contains('lid-truth')));
+      is(freeTruth === 10, 'L7b a signed-out class runs the whole routine and sees the truth land on 10');
+      await page.close();
+    }
+
+
+    /* ---- L10 ⭐ THE STRIP HAS A FUNCTION -------------------------
+       The operator's report on the shipped tool was "the numbers under
+       the board has no function", and they were right: the marker
+       highlighted itself and changed nothing else in the entire file.
+       This is the assertion that report earned. */
+    {
+      const page = await newPage(browser, { premium: true });
+      await open(page, 'en', 1024, 900);
+
+      /* a. INERT UNTIL THERE IS A QUESTION — the exact state in the
+         operator's screenshot: no lids, whole strip live and willing. */
+      const off0 = await page.evaluate(() =>
+        Array.from(document.querySelectorAll('.lid-mark')).every((b) => b.disabled));
+      is(off0, '\u2b50 L10 with no lids down the whole strip is inert \u2014 there is no question yet');
+      await clickFoot(page, 'Another lid');
+      const off1 = await page.evaluate(() =>
+        Array.from(document.querySelectorAll('.lid-mark')).every((b) => b.disabled));
+      is(off1, 'L10 with ONE lid down it is still inert \u2014 one lid is a subtraction, not this tool');
+      await clickFoot(page, 'Another lid');
+      const on2 = await page.evaluate(() =>
+        Array.from(document.querySelectorAll('.lid-mark')).every((b) => !b.disabled));
+      is(on2, 'L10 the second lid brings the strip to life');
+
+      /* b. THE HINT NOW SAYS WHAT THE STRIP IS FOR (hintMark was a dead
+         string authored in eleven locales and never referenced) */
+      const hint = await page.evaluate(() =>
+        Array.from(document.querySelectorAll('.lid-hint .lid-hline')).map((e) => e.textContent));
+      is(hint.length === 2, 'L10 the hint is two lines here (saw ' + hint.length + ')');
+      is(hint[1] === 'Park the marker on the number you think it is.',
+        '\u2b50 L10 hintMark finally renders: "' + hint[1] + '"');
+
+      /* c. A LID CHANGE VOIDS THE COMMITMENT */
+      await page.evaluate(() => document.querySelectorAll('.lid-mark')[6].click());
+      await wait(120);
+      const parked = await page.evaluate(() =>
+        Array.from(document.querySelectorAll('.lid-mark')).findIndex((b) => b.classList.contains('lid-on')));
+      is(parked === 6, 'L10 the marker parks on 6');
+      await clickFoot(page, 'Another lid');
+      const voided = await page.evaluate(() =>
+        Array.from(document.querySelectorAll('.lid-mark')).findIndex((b) => b.classList.contains('lid-on')));
+      is(voided === -1, '\u2b50 L10 a third lid VOIDS the commitment \u2014 it was an answer to a different question');
+
+      /* d. FOCUS SURVIVES THE RE-RENDER.
+         ⚠ Park on 9, NOT on 4. The table here is 12 under 3 lids, so the
+         share IS 4 — the first draft of this block parked the marker on
+         the truth and then asserted the two treatments differ, which
+         compared one element with itself and failed for a reason that
+         had nothing to do with the tool. */
+      await page.evaluate(() => document.querySelectorAll('.lid-mark')[9].focus());
+      await page.evaluate(() => document.querySelectorAll('.lid-mark')[9].click());
+      await wait(160);
+      const focused = await page.evaluate(() => {
+        const a = document.activeElement;
+        return a && a.classList.contains('lid-mark') ? a.textContent : (a ? a.tagName : 'none');
+      });
+      is(focused === '9', 'L10 focus stays on the numeral that was pressed (landed on "' + focused + '")');
+
+      /* e. THE TWO TREATMENTS ARE VISUALLY DISTINCT, AND IN THE SAME HUE */
+      await clickFoot(page, 'Lift the lids');
+      const look = await page.evaluate(() => {
+        const marks = Array.from(document.querySelectorAll('.lid-mark'));
+        const mark = marks.find((b) => b.classList.contains('lid-on'));
+        const tru = marks.find((b) => b.classList.contains('lid-truth'));
+        const read = (e) => { const c = getComputedStyle(e); return { bg: c.backgroundColor, shadow: c.boxShadow, op: c.opacity }; };
+        return { mark: mark ? read(mark) : null, truth: tru ? read(tru) : null,
+                 markN: mark ? mark.textContent : null, truthN: tru ? tru.textContent : null };
+      });
+      is(look.mark && look.truth, 'L10 both the marker (' + look.markN + ') and the truth (' + look.truthN + ') are on the strip together');
+      is(look.mark && look.mark.bg !== 'rgba(0, 0, 0, 0)', 'L10 the marker is a FILL');
+      is(look.truth && look.truth.shadow !== 'none', 'L10 the truth is a RING');
+      is(look.markN === '9' && look.truthN === '4',
+        'L10 the class said ' + look.markN + ', the lids held ' + look.truthN + ' — two different numerals, one scale');
+      is(look.truth && look.truth.bg !== look.mark.bg, 'L10 the two treatments are not the same thing');
+      is(look.truth && look.truth.op === '1' && look.mark.op === '1',
+        'L10 neither fades out when the strip is disabled after the lift');
+
+      /* the normal case is the one worth looking at: the class said one
+         thing and the lids held another, both on one strip */
+      if (SHOT) await page.screenshot({ path: path.join(SHOT_DIR, 'strip-truth-differ-1024.png') });
+
+      /* g. AND WHEN THE CLASS WAS RIGHT, ONE NUMERAL WEARS BOTH. This is
+         the case that needs its own rule: a filled pill with rings the
+         same colour as the fill would be invisible, so they invert. */
+      await clickFoot(page, 'Lids back on');
+      await page.evaluate(() => document.querySelectorAll('.lid-mark')[4].click());
+      await wait(120);
+      await clickFoot(page, 'Lift the lids');
+      const same = await page.evaluate(() => {
+        const both = document.querySelectorAll('.lid-mark.lid-on.lid-truth');
+        if (both.length !== 1) return { n: both.length };
+        const c = getComputedStyle(both[0]);
+        return { n: 1, numeral: both[0].textContent, bg: c.backgroundColor, shadow: c.boxShadow };
+      });
+      is(same.n === 1, 'L10 a correct guess puts both treatments on ONE numeral (saw ' + same.n + ')');
+      is(same.numeral === '4' && same.shadow !== 'none' && same.bg !== 'rgba(0, 0, 0, 0)',
+        'L10 — and that numeral is still both filled AND ringed, so neither reading is lost');
+
+      /* f. AND STILL NO VERDICT */
+      const verdict = await page.evaluate(() =>
+        document.querySelectorAll('[class*="correct"],[class*="wrong"],[class*="right"],[class*="good"],[class*="bad"]').length);
+      is(verdict === 0, '\u2b50 L10 the guess and the answer sit on one strip and NOTHING marks the gap');
+      if (SHOT) await page.screenshot({ path: path.join(SHOT_DIR, 'strip-truth-1024.png') });
       await page.close();
     }
 

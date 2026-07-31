@@ -128,15 +128,31 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
     };
     is(await click(S('addLid')), loc + ': the first lid could not be put down');
     is(await click(S('addLid')), loc + ': the second lid could not be put down');
+
+    /* ⭐ S6 — hintMark, in every language, for the first time. It was
+       authored in all eleven locales and never once referenced, so the
+       tool never told the class what the numeral strip was for. This is
+       the state where it belongs: two lids down, nothing committed. */
+    const rung = await page.evaluate(() =>
+      Array.from(document.querySelectorAll('.lid-hint .lid-hline')).map((e) => e.textContent));
+    is(rung.length === 2, loc + ': the live-and-empty hint is ' + rung.length + ' line(s), expected 2');
+    is(rung[0] === S('hintShare'), loc + ': line 1 is "' + rung[0] + '", expected "' + S('hintShare') + '"');
+    is(rung[1] === S('hintMark'), loc + ': line 2 is "' + rung[1] + '", expected "' + S('hintMark') + '"');
+    console.log('        strip is: ' + rung.join(' / '));
+    /* and the strip is only now alive */
+    const live = await page.evaluate(() =>
+      Array.from(document.querySelectorAll('.lid-mark')).every((b) => !b.disabled));
+    is(live, loc + ': the strip did not come alive when the second lid went down');
+
     await page.evaluate(() => { const m = document.querySelectorAll('.lid-mark')[5]; if (m) m.click(); });
     await wait(110);
     is(await click(S('liftBtn')), loc + ': the lids could not be lifted');
     const after = await page.evaluate(() => ({
-      reveal: document.querySelectorAll('.lid-rcell').length,
+      truth: Array.from(document.querySelectorAll('.lid-mark')).findIndex((x) => x.classList.contains('lid-truth')),
       again: Array.from(document.querySelectorAll('.lid-foot .lid-chip')).map((b) => b.textContent),
       marked: Array.from(document.querySelectorAll('.lid-mark')).findIndex((b) => b.classList.contains('lid-on'))
     }));
-    is(after.reveal === 6, loc + ': the reveal shows ' + after.reveal + ' under each lid, expected 6');
+    is(after.truth === 6, loc + ': the truth lands on numeral ' + after.truth + ' on the same strip, expected 6');
     is(after.again[2] === S('againBtn'), loc + ': the lift control now reads "' + after.again[2] + '", expected "' + S('againBtn') + '"');
     is(after.marked === 5, loc + ': the committed marker did not survive the lift');
 

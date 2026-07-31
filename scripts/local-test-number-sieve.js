@@ -241,6 +241,68 @@ const turnNext = (p) => p.evaluate(() => {
       await page.close();
     }
 
+    /* ---------- L6 ⭐ "NEW CARDS" REALLY PRODUCES NEW CARDS ----------
+       The assertion that should have existed. `audit-tool-control-liveness`
+       passed this chip while it dealt nothing, because setting a flag and
+       re-rendering IS a DOM change — so the check has to be that the
+       WORLD THE LABEL PROMISES changed, not that any world did. */
+    {
+      const page = await newPage(browser, { premium: false });
+      await open(page, 'en');
+      /* turn two cards so the board is visibly mid-run */
+      await turnNext(page); await wait(200);
+      await turnNext(page); await wait(200);
+      const mid = await readField(page);
+      is(mid.up === 2, `L6a two cards are face up before the press (${mid.up})`);
+      const clickNew = () => page.evaluate(() => {
+        const c = Array.from(document.querySelectorAll('.nsv-bar .nsv-chip'));
+        if (c[3]) c[3].click();
+      });
+      await clickNew();
+      await wait(350);
+      const after = await readField(page);
+      is(after.up === 0 && after.lit.length === after.total,
+        `⭐ L6b pressing "New cards" deals a fresh board — ${mid.up} face-up and ${mid.lit.length}/${mid.total} lit became ${after.up} face-up and ${after.lit.length}/${after.total} lit`);
+      /* and pressing it again lands on a DIFFERENT board, not the same one */
+      const deckOf = () => page.evaluate(() => Array.from(document.querySelectorAll('.nsv-card')).length);
+      const a = await deckOf();
+      let differed = false;
+      for (let i = 0; i < 4 && !differed; i++) {
+        await clickNew(); await wait(300);
+        /* drive the whole deck and read which number is left standing */
+        for (let k = 0; k < 8; k++) { if (!(await turnNext(page))) break; await wait(110); }
+        const left = (await readField(page)).lit.join(',');
+        if (i === 0) { page.__first = left; } else if (left !== page.__first) differed = true;
+      }
+      is(differed, 'L6c repeated presses land on different boards, not the same one over again');
+      void a;
+      await page.close();
+    }
+
+    /* ---------- L7 the one instruction is above the field, and on screen ---------- */
+    {
+      for (const [w, h] of [[360, 740], [1024, 900]]) {
+        const page = await newPage(browser, { premium: false });
+        await open(page, 'en', w, h);
+        await page.evaluate(() => {
+          const c = Array.from(document.querySelectorAll('.nsv-bar .nsv-chip'));
+          if (c[3]) c[3].click();
+        });
+        await wait(300);
+        const geo = await page.evaluate(() => {
+          const hint = document.querySelector('.nsv-hint');
+          const field = document.querySelector('.nsv-field');
+          if (!hint || !field) return null;
+          const hr = hint.getBoundingClientRect(), fr = field.getBoundingClientRect();
+          return { hintTop: Math.round(hr.top), hintBottom: Math.round(hr.bottom), fieldTop: Math.round(fr.top), vh: window.innerHeight, text: hint.textContent.trim() };
+        });
+        is(geo && geo.hintBottom <= geo.fieldTop + 1, `${w}px: the hint sits ABOVE the field (${geo && geo.hintBottom} <= ${geo && geo.fieldTop})`);
+        is(geo && geo.hintTop >= 0 && geo.hintBottom <= geo.vh, `${w}px: the armed hint is on screen (${geo && geo.hintTop}-${geo && geo.hintBottom} in ${geo && geo.vh})`);
+        is(geo && geo.text.length > 0, `${w}px: the armed hint actually says something ("${geo && geo.text}")`);
+        await page.close();
+      }
+    }
+
     /* ---------- L5 THE SWEEP ---------- */
     {
       const VIEWPORTS = [[320, 640], [360, 740], [412, 820], [768, 1000], [1024, 900], [1366, 900]];

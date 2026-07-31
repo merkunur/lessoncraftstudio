@@ -614,6 +614,68 @@ console.log('[the stance]');
   if (!ERRORS) console.log('  N15 two fetches, no exfiltration, no child identity');
 }());
 
+/* ---------- N20 ⭐ A CONTROL MUST DO WHAT ITS LABEL SAYS ---------- */
+(function () {
+  /* ⚠ `audit-tool-control-liveness` PASSED the "New cards" chip while it
+     produced no cards, because setting a flag and re-rendering IS a DOM
+     change. Class Graph taught this codebase to prove a control ACTS;
+     that is not the same as proving it FUNCTIONS. The chip is named with
+     a noun, so its handler must actually deal a deck. */
+  const h = /pick\.addEventListener\('click',\s*function \(\)\s*\{([\s\S]*?)\}\);/.exec(SRC_NC);
+  if (!h) { err('N20 could not find the New-cards handler'); return; }
+  const body = h[1];
+  if (!/_dealNewTarget\s*\(/.test(body)) {
+    err('N20 the New-cards handler does not deal a deck — a control named with a noun must produce the thing it names, not arm a mode');
+    return;
+  }
+  if (typeof T._dealNewTarget !== 'function') { err('N20 _dealNewTarget is not defined'); return; }
+  /* and it really lands on a DIFFERENT board */
+  const probe = Object.create(T);
+  probe.st = T.loadBoard(T.newState(), { id: 'x', range: 20, clues: T.buildFor(20, 7) });
+  const beforeTarget = probe.st.target, beforeClues = JSON.stringify(probe.st.clues);
+  probe._dealNewTarget();
+  if (probe.st.target === beforeTarget || JSON.stringify(probe.st.clues) === beforeClues) {
+    err(`N20 dealing new cards left the same board (target ${beforeTarget})`);
+    return;
+  }
+  /* stride must walk every target, not a short orbit */
+  const seen = {};
+  let walk = Object.create(T);
+  walk.st = T.loadBoard(T.newState(), { id: 'x', range: 20, clues: T.buildFor(20, 1) });
+  for (let i = 0; i < 20; i++) { walk._dealNewTarget(); seen[walk.st.target] = 1; }
+  const reached = Object.keys(seen).length;
+  if (reached < 20) { err(`N20 repeated presses only reach ${reached} of 20 targets — the stride cycles a short orbit`); return; }
+  console.log(`  N20 ⭐ "New cards" deals a genuinely different board, and repeated presses reach all ${reached} targets`);
+}());
+
+/* ---------- N21 setTarget fails loudly ---------- */
+(function () {
+  const st = T.loadBoard(T.newState(), { id: 'x', range: 20, clues: T.buildFor(20, 7) });
+  [0, 21, -1, NaN, 'x', null].forEach((bad) => {
+    if (T.setTarget(st, bad) !== null) err(`N21 setTarget(${String(bad)}) did not return null — a failure must be distinguishable from a success`);
+  });
+  if (!T.setTarget(st, 13)) { err('N21 setTarget refused a buildable target'); return; }
+  const tap = (SRC_NC.match(/_tapCell:\s*function[\s\S]*?\n  \},/) || [''])[0];
+  if (/built\.clues\.length/.test(tap)) {
+    err('N21 _tapCell still guards on built.clues.length — on failure that is the OLD deck and reads as success');
+    return;
+  }
+  /* ⚠ and the armed hint must be gated on ARMED alone. Tying it to an
+     empty deck fires it on every cold load — init renders before the board
+     fetch resolves — and then the screen asks for a tap that only parks a
+     marker. A hint that cannot be obeyed is worse than silence. */
+  const hintFn = (SRC_NC.match(/_buildHint:\s*function[\s\S]*?\n  \},/) || [''])[0];
+  if (!hintFn.trim()) { err('N21 could not find _buildHint'); return; }
+  const armed = /if \(this\._picking === 'target'\)([^\n]*)/.exec(hintFn);
+  if (!armed) { err('N21 the armed-hint branch is not gated on _picking alone'); return; }
+  const firstBranch = (hintFn.split('\n').find((l) => /_picking === 'target'/.test(l)) || '');
+  if (/clues\.length/.test(firstBranch)) {
+    err('N21 the armed hint also fires on an empty deck — that is every cold load, and the tap it asks for only parks a marker');
+    return;
+  }
+  if (!ERRORS) console.log('  N21 setTarget fails loudly, the caller guards on the build, and the armed hint needs armed state');
+}());
+
 /* ---------- N19 NO DEAD STRINGS ---------- */
 (function () {
   /* ⚠ Three times on this platform an unused string has turned out to be

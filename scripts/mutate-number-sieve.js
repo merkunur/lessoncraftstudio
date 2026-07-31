@@ -113,6 +113,14 @@ const M = [
   ['⚠ an inline background SHORTHAND is set on a cell', 'b.setAttribute(\'data-n\', String(n));', 'b.setAttribute(\'data-n\', String(n));\n    b.style.background = \'#FBF3E4\';'],
   ['a card face draws a word instead of a numeral', 'e.textContent = String(digits).replace(/[^0-9]/g, \'\');', 'e.textContent = String(digits);'],
 
+  /* ---- the label must be true ----------------------------------- */
+  ['⭐ "New cards" goes back to only arming a mode', 'self._dealNewTarget();\n      self._picking = \'target\';', 'self._picking = \'target\';'],
+  ['the new board is not actually different', 'cand = all[((start + k * 7) % all.length + all.length) % all.length];', 'cand = all[((start + k * 0) % all.length + all.length) % all.length];'],
+  ['the deal stride cycles a short orbit', 'cand = all[((start + k * 7) % all.length + all.length) % all.length];', 'cand = all[((start + k * 10) % all.length + all.length) % all.length];'],
+  ['⭐ setTarget returns the old deck instead of failing', 'if (!built) return null;', 'if (!built) return s;'],
+  ['the caller guards on the old clues again', 'if (built) { this.st = built; this._fromLibrary = false; this._boardId = null; }', 'if (built.clues.length) { this.st = built; this._fromLibrary = false; }'],
+  ['the unobeyable hint comes back', 'if (this._picking === \'target\') hint.textContent = api.t(\'pickHint\');', 'if (this._picking === \'target\' || !this.st.clues.length) hint.textContent = api.t(\'pickHint\');'],
+
   /* ---- the words ----------------------------------------------- */
   ['⭐ a string starts counting', ...restring('instruction', 'Turn 3 cards and watch the field.')],
   ['a string carries a comparison glyph', ...restring('tryAnother', 'Is it > ten?')],

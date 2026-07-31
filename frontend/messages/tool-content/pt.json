@@ -991,6 +991,34 @@
     "metaTitle": "Peneira dos números: quadro numérico interativo | grátis",
     "metaDescription": "Quadro numérico projetável com cartas de pista: a carta age em vez de explicar, e a turma descobre o número misterioso pelo que saiu. Sem pontos nem cronômetro."
   },
+  "arrow-strip": {
+    "slug": "trilho-de-setas-localizacao-e-movimentacao",
+    "name": "Trilho das setas",
+    "tagline": "As cartas entram no trilho e nada se mexe: a turma diz em que casa o besouro vai parar antes de qualquer coisa andar.",
+    "about": [
+      "O Trilho das setas é um instrumento para a lousa da sala. Na tela há um tapete quadriculado, um besouro parado em uma casa, virado para um lado, e um trilho vazio ao lado. Existem quatro cartas e nada mais: para a frente, para trás e um quarto de volta para cada lado do corpo dele. Você encaixa as cartas no trilho e nada acontece. A turma diz em voz alta em que casa o besouro vai parar. Só então um toque roda o trilho inteiro, carta por carta, e ele vai deixando o rastro por onde passa.",
+      "Nas cartas não há uma palavra sequer, e é isso que abre a atividade para a turma inteira: uma criança que ainda não lê monta o trilho e defende o palpite dela em igualdade com os colegas. Duas das quatro cartas são o coração da coisa, porque não tiram o besouro da casa em que ele está e mesmo assim mudam o que todas as cartas seguintes vão significar. Troque uma carta só, rode de novo, e o rastro anterior continua na tela, apagadinho, mostrando até onde aquela única troca chegou. É o que a BNCC pede nos anos iniciais: descrever, prever e justificar um deslocamento.",
+      "A discussão boa da sala é sempre a mesma: quando o besouro está de frente para as crianças, a esquerda dele cai do lado direito de quem olha. Por isso existe o botão que gira o tapete inteiro sob um besouro que fica parado. A mesma carta continua sendo a mesma carta no corpo dele, enquanto cai de quatro jeitos diferentes na tela do professor. Nenhum robozinho de chão faz isso: ele anda pela sala, mas nunca consegue mostrar à turma como as coisas são do lugar dele.",
+      "A ferramenta gratuita traz o aparelho inteiro: os tapetes nos três tamanhos, as quatro cartas, um trilho sem limite de cartas, a rodada, o rastro, o rastro apagado da rodada anterior e o botão que mostra o tapete do jeito que o besouro vê. Não há pontuação, cronômetro nem nada na tela que julgue uma criança. O caderno de tapetes prontos, os tapetes que você mesmo salva e a impressão do tapete vazio e das cartas em branco para recortar fazem parte do plano Professor."
+    ],
+    "howToUse": [
+      "Escolha o tamanho do tapete: o menor para a educação infantil, os maiores para o 1º e o 2º ano.",
+      "Ponha o besouro na casa de onde a turma quer começar e mostre para que lado ele está virado.",
+      "Peça três ou quatro cartas à turma e encaixe uma a uma no trilho, sem rodar nada.",
+      "Antes de tocar em Rodar, peça que digam em voz alta em que casa ele vai parar.",
+      "Toque em Rodar e deixe o besouro andar carta por carta, sem comentar o palpite de ninguém.",
+      "Troque uma carta só, rode de novo e pergunte por que o rastro mudou tanto lá na frente."
+    ],
+    "classroomIdeas": [
+      "Na rodinha da educação infantil, deixe uma criança escolher cada carta e a turma inteira apontar para a casa onde o besouro vai parar antes de você rodar.",
+      "No 1º ano, trabalhe localização e movimentação no espaço (EF01MA11 e EF01MA12) com trilhos de quatro cartas, pedindo que a turma descreva o caminho em voz alta antes da rodada.",
+      "Peça que duas duplas montem trilhos diferentes que levem o besouro à mesma casa e depois comparem os dois rastros na tela.",
+      "Gire o tapete assim que alguém apontar o próprio braço para dizer de que lado o besouro deve virar: com ele de frente para a turma, a diferença aparece sozinha.",
+      "No 2º ano (EF02MA12), monte um trilho de oito ou dez cartas, registre a previsão da turma no quadro e só depois rode, comparando o que estava escrito com o rastro."
+    ],
+    "metaTitle": "Localização e movimentação: Trilho das setas",
+    "metaDescription": "Ferramenta gratuita para a lousa: a turma monta o trilho de cartas, diz onde o besouro vai parar e só então roda. Localização e movimentação nos anos iniciais."
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

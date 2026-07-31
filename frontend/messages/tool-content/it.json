@@ -991,6 +991,34 @@
     "metaTitle": "Setaccio dei numeri: il numero misterioso alla LIM | strumento gratis",
     "metaDescription": "Un tabellone con tutti i numeri e carte indizio che non dicono nulla: agiscono, e i numeri che escono si spengono. Strumento gratuito per la scuola primaria, senza punteggi né tempo."
   },
+  "arrow-strip": {
+    "slug": "binario-delle-frecce-percorsi-reticolo",
+    "name": "Il binario delle frecce",
+    "tagline": "Le carte entrano nel binario e non si muove niente: la classe dice dove si fermerà lo scarabeo, poi una sola pressione esegue tutto il percorso.",
+    "about": [
+      "Il binario delle frecce è uno strumento per la lavagna della classe. Sullo schermo ci sono tre cose e nient’altro: un reticolo di caselle, un binario vuoto in cui si mettono le carte e uno scarabeo fermo su una casella, girato da una parte. Le carte sono quattro e sono senza parole: avanti, indietro, un quarto di giro da una parte e un quarto di giro dall’altra. Le mettete nel binario e non si muove niente. Poi una sola pressione esegue tutto il binario, una carta per volta, e lo scarabeo lascia la sua scia.",
+      "Le carte non hanno parole scritte, e questa non è una semplificazione. Un bambino che non legge ancora, o che l’italiano lo sta imparando, entra nel gioco alla pari e mette le carte come tutti gli altri. Il significato non sta in un’etichetta: sta nel corpo dello scarabeo, e per dirlo bisogna parlare. Ed è qui che due delle quattro carte fanno una cosa strana: non lo spostano di una casella e lo lasciano dov’era, ma cambiano che cosa vorranno dire tutte le carte che vengono dopo. Un quarto di giro riscrive il resto del piano senza muovere niente.",
+      "Quando lo scarabeo è girato verso la classe, la sua sinistra e la tua sinistra non sono la stessa cosa, e questo è l’ostacolo vero dei sei e sette anni. Perciò c’è «Con i suoi occhi»: lo scarabeo resta fermo e a girare è tutto il reticolo intorno a lui. Così la stessa carta resta la stessa dal suo corpo, anche se sullo schermo cade in quattro modi diversi. Un robottino sul pavimento questo non può farlo: non ti presta mai il suo punto di vista. E niente qui dice a un bambino come è andata: a rispondere è la scia, davanti a tutti.",
+      "Tutto lo strumento è gratuito: il reticolo in tre misure, le quattro carte, un binario lungo quanto serve, l’esecuzione, la scia e «Con i suoi occhi». È gratuita anche la scia sbiadita del giro precedente, che è la parte che fa discutere: cambiate una carta sola in mezzo al binario, eseguite di nuovo e si vede fin dove è arrivata quella carta. Il piano Insegnante aggiunge l’album dei reticoli già pronti, i reticoli che salvate voi e la stampa: il reticolo vuoto da appendere e le carte bianche da ritagliare."
+    ],
+    "howToUse": [
+      "Proietta il reticolo e posa lo scarabeo sulla casella da cui volete partire.",
+      "Fai mettere le carte nel binario da due o tre bambini, una alla volta, senza commentare.",
+      "Prima di eseguire, chiedi alla classe di dire ad alta voce su quale casella si fermerà.",
+      "Tocca «Esegui» e guardate insieme la scia che si disegna, una carta per volta.",
+      "Cambiate una carta sola e rieseguite: confrontate la scia nuova con quella sbiadita di prima.",
+      "Accendi «Con i suoi occhi» appena qualcuno discute se un giro va verso la sua sinistra o verso la tua."
+    ],
+    "classroomIdeas": [
+      "Se in classe c’è l’ape robot, costruite prima il percorso nel binario sullo schermo e solo dopo posatela sul tappeto: qui si può ancora cambiare idea, sul pavimento il comando parte subito.",
+      "Le Indicazioni nazionali, in «Spazio e figure», chiedono di eseguire un percorso, di descriverlo a parole e di farlo eseguire a un compagno: nel binario queste tre cose si vedono una dopo l’altra.",
+      "Per il coding unplugged, fate disegnare il binario su un foglio a un gruppo e fatelo comporre sullo schermo a un altro gruppo, senza che i due si parlino.",
+      "Girate lo scarabeo verso la classe e chiedete quale carta di giro lo manda verso la finestra: è il nodo dell’orientamento spaziale in prima e in seconda, e «Con i suoi occhi» lo scioglie in un attimo.",
+      "Preparate un binario che finisce lontano dalla casella che la classe aveva scelto e chiedete quale carta sola cambiereste: si vota, si cambia quella e si esegue di nuovo."
+    ],
+    "metaTitle": "Percorsi sul reticolo: il binario delle frecce | gratis",
+    "metaDescription": "Strumento gratuito per percorsi e coding unplugged: metti le carte nel binario, la classe dice dove si fermerà lo scarabeo e poi si esegue tutto."
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

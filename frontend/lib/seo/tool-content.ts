@@ -17,7 +17,7 @@ import { TOPIC_ENABLED_LOCALES } from '@/config/topic-locales';
 import { buildHreflangAlternates } from './hreflang';
 
 /** Canonical tool keys — match the mini-tool file basenames + MANIPULATIVES ids. */
-export const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler', 'sound-boxes', 'blending-board', 'letter-tiles', 'calendar-wall', 'number-talk-easel', 'rekenrek', 'class-timer', 'name-sticks', 'center-board', 'learning-clock', 'place-value-lab', 'picture-word-wall', 'hush-owl', 'wodb', 'story-line', 'fraction-kitchen', 'measurement-bench', 'money-mat', 'choral-counting', 'our-day', 'heart-words', 'syllable-splitter', 'estimation-jar', 'feelings-check-in', 'letter-studio', 'open-number-line', 'part-whole-frame', 'dictation-desk', 'home-language-bridge', 'sorting-hoops', 'number-balance', 'pattern-bench', 'reading-easel', 'class-graph', 'folding-sheet', 'number-sieve'] as const;
+export const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler', 'sound-boxes', 'blending-board', 'letter-tiles', 'calendar-wall', 'number-talk-easel', 'rekenrek', 'class-timer', 'name-sticks', 'center-board', 'learning-clock', 'place-value-lab', 'picture-word-wall', 'hush-owl', 'wodb', 'story-line', 'fraction-kitchen', 'measurement-bench', 'money-mat', 'choral-counting', 'our-day', 'heart-words', 'syllable-splitter', 'estimation-jar', 'feelings-check-in', 'letter-studio', 'open-number-line', 'part-whole-frame', 'dictation-desk', 'home-language-bridge', 'sorting-hoops', 'number-balance', 'pattern-bench', 'reading-easel', 'class-graph', 'folding-sheet', 'number-sieve', 'arrow-strip'] as const;
 export type ToolKey = (typeof TOOL_KEYS)[number];
 
 /** Mini-tool HTML path (nginx-direct, §3.3) per tool key. */
@@ -61,6 +61,7 @@ export const TOOL_MINI_URL: Record<ToolKey, string> = {
   'class-graph': '/mini-tools/class-graph.html',
   'folding-sheet': '/mini-tools/folding-sheet.html',
   'number-sieve': '/mini-tools/number-sieve.html',
+  'arrow-strip': '/mini-tools/arrow-strip.html',
 };
 
 /**
@@ -112,6 +113,7 @@ export const TOOL_ACTIVITY_PREFIX: Record<ToolKey, string> = {
   'class-graph': 'class-graph',
   'folding-sheet': 'folding-sheet',
   'number-sieve': 'number-sieve',
+  'arrow-strip': 'arrow-strip',
 };
 
 /**
@@ -235,6 +237,7 @@ interface ToolContentFile {
   'class-graph'?: ToolEntry;
   'folding-sheet'?: ToolEntry;
   'number-sieve'?: ToolEntry;
+  'arrow-strip'?: ToolEntry;
   labels: ToolContentLabels;
 }
 

@@ -991,6 +991,34 @@
     "metaTitle": "Talsållet — hitta det hemliga talet | Gratis verktyg",
     "metaDescription": "Gratis verktyg för förskoleklass och lågstadiet: alla tal lyser, korten säger ingenting utan gör något, och klassen läser regeln ur det som slocknade."
   },
+  "arrow-strip": {
+    "slug": "programmering-utan-dator-kommandokort",
+    "name": "Kommandorälsen",
+    "tagline": "Lägg korten på rälsen, låt klassen säga var skalbaggen hamnar — och kör först sedan.",
+    "about": [
+      "Kommandorälsen är tre saker på klassens skärm och inget mer: en rutmatta, en räls och en skalbagge som sitter på mattan och tittar åt ett håll. Du har fyra kort utan text — framåt, bakåt och två kvartsvarv. Du lägger korten på rälsen och ingenting händer. Klassen säger högt var skalbaggen kommer att hamna. Först därefter trycker du en gång, och rälsen körs kort för kort medan skalbaggen ritar sitt spår över rutorna. Sedan kommer det som betyder mest: byt ett enda kort och kör igen.",
+      "Korten har inga ord på sig, och det är med flit. Ett barn som ännu inte läser kan lägga en hel plan och förklara den för klassen. Ett barn som läser på ett annat modersmål kan göra samma sak. Det enda som behövs är att kunna peka och prata, och prata gör klassen: ordningen på korten är det som diskuteras. I Lgr22 heter det entydiga stegvisa instruktioner, och det är precis vad rälsen visar — instruktionerna ligger kvar, i sin ordning, och kan pekas på medan klassen resonerar.",
+      "Två av de fyra korten flyttar skalbaggen ingenstans alls. Ett kvarts varv låter den stå kvar på samma ruta och ändå ändrar det allt som kommer efter. Där sitter hindret för de yngsta: skalbaggens vänster är inte din vänster. Står den vänd mot klassen ligger dess vänstra sida åt ert högra håll, och då blir samma kort svårt att komma överens om. Därför finns knappen som vrider hela rutmattan under en skalbagge som står helt stilla. Kortet är bevisligen samma kort sett från skalbaggens egen kropp, fast det landar på fyra olika sätt på tavlan.",
+      "Hela redskapet är fritt: rutmattan i tre storlekar, alla fyra korten, en räls som får bli hur lång som helst, körningen, spåret som ritas och den bleka linjen från förra körningen som ligger kvar så att klassen ser hur långt fram ett enda ombytt kort räckte. Även knappen som vrider mattan är fri. Lärarpaketet lägger till samlingen med färdiga rutmattor, möjligheten att spara egna mattor och utskrift av tom rutmatta och blanka kort att klippa ut, så att samma arbete kan fortsätta på golvet och på bänkarna."
+    ],
+    "howToUse": [
+      "Välj en rutmatta och sätt skalbaggen på en ruta.",
+      "Lägg korten på rälsen tillsammans med klassen — ingenting rör sig än.",
+      "Låt klassen säga högt var skalbaggen kommer att stanna.",
+      "Tryck på Kör och följ rälsen kort för kort.",
+      "Byt ett enda kort och kör igen — den bleka linjen visar hur långt just det kortet räckte.",
+      "Vrid mattan med Se med skalbaggens ögon när klassen tvistar om vänster och höger."
+    ],
+    "classroomIdeas": [
+      "Matematik i åk 1: bygg entydiga stegvisa instruktioner fram till en bestämd ruta och läs planen tillsammans kort för kort innan ni kör.",
+      "Samling i förskoleklass: lägg tre kort och låt barnen visa med sina egna kroppar var skalbaggen stannar, innan någon trycker på Kör.",
+      "Symbolers användning vid stegvisa beskrivningar: låt ett barn beskriva sin plan enbart med ord medan en kamrat lägger korten på rälsen.",
+      "Läge och riktning i åk 2: sätt ett mål på mattan och låt klassen enas om vilket enda kort som ska bytas när skalbaggen hamnade någon annanstans än ni sa.",
+      "Utan skärm: skriv ut den tomma rutmattan och de blanka korten ur Lärarpaketet, tejpa upp rutorna på golvet och låt ett barn vara skalbagge."
+    ],
+    "metaTitle": "Programmering utan dator för åk 1-3 – Kommandorälsen",
+    "metaDescription": "Fyra kort utan text, en räls och en skalbagge på rutmattan. Klassen säger var den hamnar — sedan kör ni. Programmering utan dator för åk 1-3."
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

@@ -991,6 +991,34 @@
     "metaTitle": "Nombre mystère à projeter dès le CP | outil gratuit",
     "metaDescription": "Le rituel du nombre mystère, à projeter au tableau. La carte n’explique pas la règle, elle éteint des nombres et la classe cherche. Ni score ni chrono."
   },
+  "arrow-strip": {
+    "slug": "deplacements-codes-sur-quadrillage",
+    "name": "La piste qui attend",
+    "tagline": "On pose les cartes, la classe annonce où la petite bête va s’arrêter — et rien ne bouge tant que personne n’a lancé.",
+    "about": [
+      "La piste qui attend, c’est un quadrillage projeté au tableau, une petite bête posée dessus qui regarde toujours dans une seule direction, et une piste vide sur le côté. Vous y glissez des cartes : avancer, reculer, un quart de tour vers sa gauche à elle, un quart de tour vers sa droite. Tant que vous remplissez la piste, rien ne bouge du tout. Un seul appui déroule ensuite la piste entière, carte après carte, et la bête laisse sa trace derrière elle. C’est exactement le coder et décoder des déplacements du cycle 2, mais la classe parle avant que quoi que ce soit ne parte.",
+      "Les quatre cartes ne portent aucun mot. Un élève qui ne lit pas encore peut mener la séance du début à la fin, un élève allophone tout autant : ce qui est écrit ne l’arrête plus à la porte. Le langage revient alors là où il sert vraiment, dans ce que la classe dit avant l’appui. On annonce la case d’arrivée, on argumente, on compte les cases du doigt sur l’écran. L’appareil, lui, ne commente rien : il déroule la piste, et la trace suffit. Personne n’a besoin d’un adulte pour trancher, et personne n’est repris devant les autres.",
+      "La difficulté, à cet âge, n’est pas de compter les cases : c’est que la gauche de la bête n’est pas la vôtre. Quand elle vous fait face, son quart de tour part de l’autre côté que le vôtre, et la classe se divise aussitôt. Un bouton fait alors pivoter le quadrillage entier sous une bête qui, elle, ne bouge plus. La même carte redevient visiblement la même carte, vue de son corps à elle, alors qu’elle tombe de quatre façons différentes sur votre écran. Un robot posé au sol ne peut pas montrer ce qu’il voit depuis son propre corps.",
+      "Tout l’appareil est gratuit : le quadrillage en trois tailles, les quatre cartes, une piste sans limite, le lancement, la trace, la trace fantôme du lancement précédent, et le bouton qui fait voir avec ses yeux. L’offre Enseignant ajoute le livret des quadrillages prêts à projeter, l’enregistrement de vos propres quadrillages, et l’impression : le quadrillage vierge pour la table, et les cartes vierges à découper. Chaque binôme pose ainsi sa piste en papier avant de venir la déposer au tableau devant tout le monde, et l’écran ne sert plus qu’à la dérouler."
+    ],
+    "howToUse": [
+      "Choisissez la taille du quadrillage : la plus petite en grande section et en début de CP, la plus grande quand les trajets s’allongent.",
+      "Posez trois ou quatre cartes sur la piste, pas davantage, et dites-le clairement : rien ne bouge encore.",
+      "Faites annoncer la case d’arrivée avant le moindre appui, à l’oral, sur l’ardoise, ou en la montrant du doigt.",
+      "Lancez, et laissez la trace se dessiner carte après carte sans rien commenter.",
+      "Changez une seule carte au milieu de la piste, puis relancez : la trace précédente reste en fantôme et la classe voit jusqu’où cette carte-là a porté.",
+      "Quand la classe se divise sur un quart de tour, appuyez sur « Voir avec ses yeux » et refaites le même lancement."
+    ],
+    "classroomIdeas": [
+      "Rituel de dix minutes en CP : trois cartes sur la piste, la classe annonce la case d’arrivée, on lance, puis on recommence en changeant une seule carte.",
+      "Se repérer et se déplacer : un élève montre du doigt un trajet sur le quadrillage, la classe construit la piste qui le produit, et on déroule pour voir.",
+      "Le débat du quart de tour : une élève se place face à la classe et tourne comme la carte le demande, pendant que les autres refont le geste avec leur propre corps.",
+      "En liaison GS-CP avec un Blue-Bot : on construit et on annonce ici, puis on reporte la même suite de cartes sur le robot posé au sol.",
+      "Prolongement en CE1 vers la géométrie : deux quarts de tour de suite font un demi-tour, et la classe le vérifie en remplaçant une carte, sans qu’on le lui affirme."
+    ],
+    "metaTitle": "Déplacements codés sur quadrillage — La piste qui attend",
+    "metaDescription": "Posez les cartes, annoncez la case d’arrivée, puis lancez : un outil gratuit pour coder et décoder des déplacements sur quadrillage en GS, CP et CE1."
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

@@ -14,9 +14,10 @@ Working record: `[[project_premium_tools_v4_catalog]]` · `[[project_arrow_strip
 > games program, which is cancelled forever). **The catalog is approved: do not re-research or
 > re-design it.** Read the entry for the next tool below, run the four-surface fence, then build
 > to the recipe at the end of this file.
-> **STATE: `#36 The Number Sieve` LIVE · `#37 The Arrow Strip` LIVE · `#38 The Draw Bag` LIVE
-> → NEXT = `A2 Splat Mat`.** Constants for the next build: header ordinal **#39** ·
-> `PREV = 'draw-bag'` · `TOOL_WRAPPER_VERSION` **7.51 → 7.52** · `TOOL_KEYS` position **42**.
+> **STATE: `#36 The Number Sieve` · `#37 The Arrow Strip` · `#38 The Draw Bag` ·
+> `#39 The Lids` — ALL LIVE. **WAVE 1 IS CLOSED.** → NEXT = wave 2, `B3 Unit Handle`.
+> Constants for the next build: header ordinal **#40** · `PREV = 'lids'` ·
+> `TOOL_WRAPPER_VERSION` **7.52 → 7.53** · `TOOL_KEYS` position **43**.
 
 ---
 
@@ -213,7 +214,32 @@ quantity · nearer`. Fields 1-20 (default; fits 320px) / 1-100 / 1-120. **FREE**
 ~300), saving, print. **No ISO-week rotation** — that is `wodb`'s signature and is deliberately not
 duplicated.
 
-### A2 · Splat Mat
+### A2 · Splat Mat — ✅ BUILT as **`#39 The Lids`** (2026-08-01)
+
+> **⚠ THE FENCE SUBTRACTED TWO OF THIS ENTRY'S THREE CLAIMS, and the tool was rebuilt on the
+> remainder — read `mini tools/lids.js`'s header, not the paragraph below, for what shipped.**
+> DEAD: *"the covered objects leave the DOM"* is written house doctrine twice over
+> (`number-balance.js:437`, `part-whole-frame.js:517`) — table stakes, honoured, never sold.
+> DEAD: *"cover part of a known total and ask what is under it"* is owned four ways
+> (`part-whole-frame` ships THREE cloths free; `number-balance` has the literal string;
+> `rekenrek` owns "How many are hiding?" BY NAME plus an authored round; `number-talk-easel`
+> owns flash-hide-reveal over this exact canvas). ALIVE and uncontested: **THE VALUE LOCK.**
+> So the question became *"what ONE number fits under ALL of them?"* — equal groups with a
+> remainder, not a missing addend.
+> **⚠ THE GATE SPEC BELOW WAS WRONG.** "~2,300 configurations" is not the generable number;
+> the domain is **940** (x≥1) / 1,060 (x≥0), computed. Second catalog gate spec to be off after
+> the arrow-strip inverse claim — **re-derive at build time, always.**
+> **⚠ DEVIATION FROM THE APPROVED PLAN, stated not buried:** the plan sold PAID as *a second and
+> third lid colour* (two simultaneous locks). Implementing it showed multi-colour needs a real
+> balanced-allocation solver — greedy by placement order degenerates, the first colour eats
+> everything — so **v1 ships ONE colour** and paid is totals to 30 + the 76-setup table book +
+> saved + print. The second colour remains a legitimate future increment, not a dropped feature.
+> **⚠ A6 The Grouping Dial (wave 4) must fence THIS tool by name when it is built:** they are
+> inverses — A6 sets the group SIZE and shows the structure; The Lids sets the NUMBER of groups
+> and hides the size.
+
+Original entry, kept for the record:
+
 A total above a scattered set. Drag an opaque blob over some dots; they **leave the DOM**. Drop a
 **second blob of the same colour** and the two re-slurp until they hide the *same* number.
 **THE INVENTION:** same-coloured blobs are value-locked, so `total = visible + k·x` is enforced by
@@ -544,8 +570,9 @@ work before C4**, exactly as the original corpus was run before Sorting Hoops.
 
 One tool per plan-mode session, registration inside the build commit — the proven v3 cadence.
 
-- **Wave 1 — prove the thesis (4).** ✅ `A1 Number Sieve` · ✅ `B1 Arrow Strip` · ✅ `C1 Draw Bag` ·
-  **`A2 Splat Mat`** ⬅ NEXT, and it closes wave 1 — after which the honest test below applies.
+- **Wave 1 — prove the thesis (4). ✅ CLOSED 2026-08-01.** ✅ `A1 Number Sieve` ·
+  ✅ `B1 Arrow Strip` · ✅ `C1 Draw Bag` · ✅ `A2 Splat Mat` → shipped as **`#39 The Lids`**.
+  The honest test below now applies.
   *Why these four:* A1 has the strongest gate story on the platform and the largest machine-growable
   repertoire; B1 and C1 are the two clearest cases of the European slot shape and both are wordless
   by construction rather than by translation effort; A2 carries the largest proven demand.

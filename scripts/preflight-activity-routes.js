@@ -97,6 +97,47 @@ for (const f of onDisk) {
   });
 }
 
+/* ---- (C) ⚠⚠ EVERY ACTIVITY MUST HAVE ITS CARD THUMBNAIL. ----------------
+   This has now enraged the operator TWICE — activity cards in June 2026, and
+   tool #38's card in July — both times because a generated preview webp was
+   never rendered and the card silently fell back to `ActivityGlyph`. A memory
+   note did not stop the second one. The operator asked for measures that are
+   UNIGNORABLE, so this is a build failure, not a checklist line.
+
+   `frontend/app/[locale]/activities/page.tsx: loadPreviewIds()` gates purely
+   on file existence, so a missing webp NEVER errors — it just ships a worse
+   card. That silence is the whole defect.
+
+   ⚠ SELF-DISABLING, because the webps are gitignored (§A.3) and are scp'd to
+   /var/www/lcs-media/mini-tools/previews/ rather than committed: the check
+   activates only where previews already exist (≥1 on disk), then requires one
+   for every EN-visible row. No-op on a clean checkout; bites everywhere real.
+   Render with: node scripts/generate-activity-previews.js --only=<id>        */
+const PREVIEW_DIR = path.join(REPO, 'frontend', 'public', 'mini-tools', 'previews');
+let havePreview = new Set();
+if (fs.existsSync(PREVIEW_DIR)) {
+  for (const f of fs.readdirSync(PREVIEW_DIR)) if (f.endsWith('.webp')) havePreview.add(f.slice(0, -5));
+}
+if (havePreview.size > 0) {
+  const missing = [];
+  for (const f of onDisk) {
+    if (!REGISTERED.has(f)) continue;
+    let rows; try { rows = JSON.parse(fs.readFileSync(path.join(MINI, f), 'utf8')); } catch (e) { continue; }
+    if (!Array.isArray(rows)) continue;
+    rows.forEach((row) => {
+      /* the hub lists a row only where it has an EN slug, so only those get a card */
+      if (!row.id || !row.slug || !row.slug.en) return;
+      if (!havePreview.has(row.id)) missing.push(row.id);
+    });
+  }
+  check(missing.length === 0,
+    `${missing.length} activity card(s) would ship with NO THUMBNAIL and fall back to a generic glyph: ` +
+    missing.slice(0, 12).join(', ') + (missing.length > 12 ? `, +${missing.length - 12} more` : '') +
+    ` → render with: node scripts/generate-activity-previews.js --only=<id>, then scp into /var/www/lcs-media/mini-tools/previews/`);
+} else {
+  console.log('note: no activity previews on disk — the thumbnail check is a no-op here (they are gitignored).');
+}
+
 if (failures.length) {
   console.error(`PREFLIGHT FAILED — ${failures.length} route-resolution defect(s):`);
   failures.forEach((m) => console.error('  • ' + m));

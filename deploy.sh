@@ -241,6 +241,13 @@ node /opt/lessoncraftstudio/scripts/preflight-indexable-routes.js || { echo "ERR
 echo "🔎 Tool registration completeness check..."
 node /opt/lessoncraftstudio/scripts/preflight-tool-registration.js || { echo "ERROR: a tool is incompletely registered — see the registration points in CLAUDE.md §23.5"; exit 1; }
 
+# Guard: activity route resolution + card thumbnails. ⚠ CLAUDE.md §21.5 has called
+# this "a BUILD-FAILING preflight gate" since E3 #1 — but NOTHING EVER RAN IT. It was
+# a checklist wearing a gate's name, which is precisely how a missing card thumbnail
+# reached the operator twice. It runs here now.
+echo "🔎 Activity route + thumbnail check..."
+node /opt/lessoncraftstudio/scripts/preflight-activity-routes.js || { echo "ERROR: an activity would 404 or ship with no card thumbnail — see CLAUDE.md §21.5"; exit 1; }
+
 # ============================================
 # PAYMENT-SYSTEM PROTECTION (pre-build FAIL)
 # ============================================

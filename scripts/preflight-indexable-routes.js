@@ -70,6 +70,32 @@ const QUIET = argv.includes('--quiet');
  * entry only hid them from per-file verification (a poison-test proved a new ungated
  * file there went undetected).
  */
+/**
+ * Individual paths covered by a header rather than a prefix — installed by
+ * scripts/publish-cli/patch-nginx-admin-noindex.py (2026-07-31), verified at ORIGIN.
+ * Listed by repo path because that is what check (A)/(B) sees.
+ */
+const NGINX_COVERED_PATHS = new Set([
+  'frontend/public/big-small-debug.html',
+  'frontend/public/big-small-final.html',
+  'frontend/public/check-tier.html',
+  'frontend/public/clear-device-and-test.html',
+  'frontend/public/easy-page-manager.html',
+  'frontend/public/find-count-borders-only.html',
+  'frontend/public/homepage-content-manager.html',
+  'frontend/public/homepage-content-manager-v2.html',
+  'frontend/public/homepage-content-manager-v3.html',
+  'frontend/public/homepage-content-manager-v3-fixed.html',
+  'frontend/public/test-auth.html',
+  'frontend/public/test-device-conflict.html',
+  'frontend/public/test-watermark.html',
+  'frontend/public/user-control.html',
+  'frontend/public/static-pages/en/pages/cryptopicpuzzlestudio.html',
+  'frontend/app/upload/page.tsx',
+  'frontend/app/[locale]/test/page.tsx',
+  'frontend/app/[locale]/test-simple/page.tsx',
+]);
+
 const NGINX_COVERED = [
   {
     prefix: 'mini-tools/',
@@ -108,23 +134,8 @@ const PERMANENT_EXEMPT = [/^google[0-9a-f]+\.html$/i, /^BingSiteAuth\.xml$/i, /^
  * because this spec's scope is the guardrail, not the cleanup.
  */
 const KNOWN_UNGATED = new Set([
-  // --- static HTML under frontend/public/ (15) ---
-  'frontend/public/big-small-debug.html',
-  'frontend/public/big-small-final.html',
-  'frontend/public/check-tier.html',
-  'frontend/public/clear-device-and-test.html',
-  'frontend/public/easy-page-manager.html',
-  'frontend/public/find-count-borders-only.html',
-  'frontend/public/homepage-content-manager-v2.html',
-  'frontend/public/homepage-content-manager-v3-fixed.html',
-  'frontend/public/homepage-content-manager-v3.html',
-  'frontend/public/homepage-content-manager.html',
-  'frontend/public/static-pages/en/pages/cryptopicpuzzlestudio.html',
-  'frontend/public/test-auth.html',
-  'frontend/public/test-device-conflict.html',
-  'frontend/public/test-watermark.html',
-  'frontend/public/user-control.html',
-  // --- app routes with no own robots/canonical (13) ---
+  // --- app routes with no own robots/canonical (10) ---
+  // (/upload, /<loc>/test, /<loc>/test-simple moved to NGINX_COVERED_PATHS)
   'frontend/app/dashboard/account/page.tsx',
   'frontend/app/dashboard/activity/page.tsx',
   'frontend/app/dashboard/admin/page.tsx',
@@ -135,9 +146,6 @@ const KNOWN_UNGATED = new Set([
   'frontend/app/help/page.tsx',
   'frontend/app/page.tsx',
   'frontend/app/test/page.tsx',
-  'frontend/app/upload/page.tsx',
-  'frontend/app/[locale]/test/page.tsx',
-  'frontend/app/[locale]/test-simple/page.tsx',
 ]);
 
 const ROBOTS_RE = /<meta[^>]+name=["']robots["']/i;
@@ -234,7 +242,7 @@ function checkStaticHtml() {
     }
     if (ROBOTS_RE.test(html) || CANONICAL_RE.test(html)) continue;
 
-    if (NGINX_COVERED.some((c) => urlPath.startsWith(c.prefix))) {
+    if (NGINX_COVERED.some((c) => urlPath.startsWith(c.prefix)) || NGINX_COVERED_PATHS.has(repoPath)) {
       coveredByNginx++;
       continue;
     }
@@ -302,6 +310,7 @@ function checkAppRoutes() {
     }
     if (META_HINT_RE.test(src)) continue;
     if (inheritsMetadata(path.dirname(file))) continue;
+    if (NGINX_COVERED_PATHS.has(routeRel)) continue;
 
     const entry = {
       kind: 'app-route',

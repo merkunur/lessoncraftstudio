@@ -87,11 +87,11 @@ def main():
     with open(CONF, "r") as f:
         original = f.read()
 
-    if MARKER in original and os.path.exists(FORMAT_CONF):
-        print("IDEMPOTENT: SEO logging already restored — no change.")
-        r = run(["nginx", "-t"])
-        print(r.stderr.strip())
-        sys.exit(0)
+    # Idempotency is checked per-operation below, not by the marker alone: the first
+    # run of this script set the marker but put the access_log directive in the WRONG
+    # server block, so a marker-only guard would have refused to self-correct.
+    already_logged = MARKER in original
+    fmt_ok = os.path.exists(FORMAT_CONF)
 
     lines = original.splitlines(keepends=True)
 
@@ -117,15 +117,22 @@ def main():
     deck_at, deck_err = find_access_log_off(DECK_LOC, "deck-page")
 
     if landing_at is None and deck_at is None:
-        print("FATAL: neither target block yielded an `access_log off;` line.")
-        print("  landings : " + str(landing_err))
-        print("  deck-page: " + str(deck_err))
-        print("  Aborting WITHOUT changes (config untouched).")
-        sys.exit(3)
-    if landing_err:
-        print("WARN: " + landing_err)
-    if deck_err:
-        print("WARN: " + deck_err)
+        if already_logged:
+            # Expected on a re-run: the `access_log off;` lines are already gone.
+            # Op B (correct placement of the lcs_seo directive) may still need to run.
+            print("logging already re-enabled on both blocks; checking directive placement.")
+        else:
+            print("FATAL: neither target block yielded an `access_log off;` line,")
+            print("       and the marker is absent — the config is not the shape expected.")
+            print("  landings : " + str(landing_err))
+            print("  deck-page: " + str(deck_err))
+            print("  Aborting WITHOUT changes (config untouched).")
+            sys.exit(3)
+    else:
+        if landing_err:
+            print("WARN: " + landing_err)
+        if deck_err:
+            print("WARN: " + deck_err)
 
     # --- build the new config ----------------------------------------------
     drop = {i for i in (landing_at, deck_at) if i is not None}
@@ -141,13 +148,39 @@ def main():
 
     new_content = "".join(out)
 
-    # server-level access_log with the new format, inserted after `server_name`
-    if "lcs_seo;" not in new_content:
-        m = re.search(r"^\s*server_name[^\n]*\n", new_content, re.M)
-        if not m:
-            print("FATAL: could not find a `server_name` line to anchor access_log.")
-            sys.exit(3)
-        new_content = new_content[: m.end()] + SERVER_ACCESS_LOG + new_content[m.end():]
+    # Server-level access_log with the new format.
+    #
+    # It MUST land in the server block that actually serves the landings. Anchoring
+    # on the first `server_name` put it in the port-80 → https redirect block, where
+    # it applied to nothing: the probe still logged in `combined` with a Cloudflare
+    # edge IP even though nginx -t passed and the patch reported success. Anchor on
+    # the block CONTAINING the landings location instead — that cannot be ambiguous.
+    out_lines = new_content.splitlines(keepends=True)
+
+    # Drop any previously mis-placed directive so re-running self-corrects.
+    out_lines = [l for l in out_lines if "access_log /var/log/nginx/access.log lcs_seo;" not in l]
+
+    landing_now = None
+    for i, ln in enumerate(out_lines):
+        if LANDING_LOC.match(ln):
+            landing_now = i
+            break
+    if landing_now is None:
+        print("FATAL: lost the landings location while rebuilding — aborting.")
+        sys.exit(3)
+
+    server_at = None
+    for i in range(landing_now, -1, -1):
+        if re.match(r"^\s*server\s*\{", out_lines[i]):
+            server_at = i
+            break
+    if server_at is None:
+        print("FATAL: could not find the enclosing `server {` for the landings block.")
+        sys.exit(3)
+
+    out_lines.insert(server_at + 1, SERVER_ACCESS_LOG)
+    new_content = "".join(out_lines)
+    print("anchored access_log in the server block at line %d (the one serving landings)." % (server_at + 1))
 
     if DRY:
         print("DRY-RUN — would write %s and re-enable logging on %d block(s)." % (FORMAT_CONF, len(drop)))
@@ -162,7 +195,7 @@ def main():
     shutil.copy2(CONF, backup)
     print("backup → " + backup)
 
-    fmt_existed = os.path.exists(FORMAT_CONF)
+    fmt_existed = fmt_ok
     with open(FORMAT_CONF, "w") as f:
         f.write(LOG_FORMAT)
     print(("rewrote " if fmt_existed else "wrote ") + FORMAT_CONF)

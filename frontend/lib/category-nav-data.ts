@@ -58,6 +58,24 @@ export const INTERACTIVE_ANCHOR_CANDIDATES = [
 // Apps anchors — link to /worksheet-makers/#<app-anchor>. Doesn't depend on
 // deck-availability per locale (landing-page list is static; not gated on
 // published-deck-count). 6 operator-curated subset.
+// Operator-curated anchor tools for the Tools ("manipulatives") dropdown —
+// the ones shown in the visible popover, in this order. The remaining tools
+// stay in `items` for the sr-only crawl mesh and are reachable via
+// "Browse all tools". Same fixed-anchor pattern as APPS_ANCHOR_KEYS.
+export const MANIPULATIVES_ANCHOR_KEYS = [
+  'ten-frame',
+  'number-line',
+  'rekenrek',
+  'learning-clock',
+  'ruler',
+  'letter-tiles',
+  'sound-boxes',
+  'class-timer',
+] as const;
+
+/** How many tools the visible Tools popover shows (see CategoryDropdown.visibleCount). */
+export const MANIPULATIVES_VISIBLE_COUNT = MANIPULATIVES_ANCHOR_KEYS.length;
+
 export const APPS_ANCHOR_KEYS = [
   'addition',
   'word-guess',
@@ -137,6 +155,18 @@ export interface CategoryDropdown {
   items: DropdownItem[];
   browseAllHref: string;
   browseAllLabel: string;
+  /**
+   * How many of `items` the VISIBLE popover renders. Undefined = all of them,
+   * which is what every category except `manipulatives` wants (they are all
+   * already 6-10 items).
+   *
+   * `items` itself always stays complete: CategoryNav also emits an
+   * always-in-DOM sr-only <ul> of every item, and that list is the header's
+   * SSR-crawlable internal-link mesh (§A.13.50). Truncating `items` to
+   * shorten the menu would silently delete those links from the crawl graph —
+   * so the truncation happens at RENDER, in the popover only.
+   */
+  visibleCount?: number;
 }
 
 export interface BuildCategoriesInput {
@@ -244,13 +274,25 @@ export function buildCategories({
   // Empty map (server data unavailable, or a caller that doesn't render this
   // category) falls back to the index link so the dropdown never empties.
   const hasToolSlugs = Object.keys(toolSlugs).length > 0;
-  const manipulativesItems: DropdownItem[] = MANIPULATIVES.flatMap(m => {
+  const toolItem = (m: (typeof MANIPULATIVES)[number]): DropdownItem[] => {
     const label = m.title[locale] ?? m.title.en;
     if (!hasToolSlugs) return [{ href: `/${locale}/tools/`, label }];
     const slug = toolSlugs[m.id];
     if (!slug) return [];
     return [{ href: `/${locale}/tools/${slug}`, label }];
-  });
+  };
+  // Anchors first, then the rest. `items` stays complete (the sr-only crawl
+  // mesh needs all 40); MANIPULATIVES_VISIBLE_COUNT caps what the popover
+  // shows so Tools matches the 6-10-item shape of every other category
+  // instead of unrolling the whole catalogue into a w-64 column.
+  const anchorSet = new Set<string>(MANIPULATIVES_ANCHOR_KEYS);
+  const manipulativesItems: DropdownItem[] = [
+    ...MANIPULATIVES_ANCHOR_KEYS
+      .map(key => MANIPULATIVES.find(m => m.id === key))
+      .filter((m): m is (typeof MANIPULATIVES)[number] => Boolean(m))
+      .flatMap(toolItem),
+    ...MANIPULATIVES.filter(m => !anchorSet.has(m.id)).flatMap(toolItem),
+  ];
 
   const themeAvailSet = new Set(availableThemes);
   const topicsKeys = (themeAvailSet.size === 0
@@ -289,6 +331,7 @@ export function buildCategories({
       items: manipulativesItems,
       browseAllHref: `/${locale}/tools/`,
       browseAllLabel: labels.browseAllManipulatives,
+      visibleCount: MANIPULATIVES_VISIBLE_COUNT,
     },
     {
       key: 'topics',

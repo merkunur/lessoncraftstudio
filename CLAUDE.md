@@ -1054,6 +1054,22 @@ Fixed at the edge by `patch-nginx-hub-cache.py` (300s public). Verify anonymous 
 and zero session/cookie reads before caching any route this way; `/pricing` and `/auth/*` stay
 excluded.
 
+**E. ⭐ hreflang has THREE equivalent declaration channels — HTML, HTTP header, and the
+SITEMAP.** Deck hreflang is declared in sitemap shards 0/1 (`lib/seo/deck-sitemap-hreflang.ts`):
+measured 4,014 of 9,752 deck URLs carrying real reciprocal multi-locale clusters, the rest
+honest singletons. **It is COMPLETE — do not "retrofit" on-page tags onto decks**; that is a
+9,752-file rewrite for zero signal gain. An audit that greps deck.html and reports "no
+hreflang" has checked one channel out of three. I made exactly that error on 2026-07-31,
+repeating an agent's HTML-only finding without verifying it.
+
+**F. ⭐⭐ A DOC IS NOT A FACT — and least of all a doc we wrote ourselves.** The same session
+that argued hreflang repair is precisely what §21.5a sanctions (the justification for the
+x-default fix) then cited that same freeze to defer a hreflang task — a task that on
+measurement did not exist. **Measure before you defer.** §21.5a, this file, and the memory
+files are all self-authored; when one of them conflicts with a thirty-second `curl` or SQL
+count, the measurement wins and the doc gets corrected. Operator ruling, verbatim: *"Take
+only the hard facts as reference, not documentation."*
+
 **Two nginx traps, each bought by a failed `nginx -t`:**
 - A **bare `{n}` quantifier in a `location` regex must be QUOTED** — nginx's config parser
   treats `{`/`}` as block delimiters and truncates the pattern.

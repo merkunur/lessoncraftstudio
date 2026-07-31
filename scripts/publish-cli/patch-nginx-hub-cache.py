@@ -60,7 +60,13 @@ BLOCK = """    {marker}
     # 6,164 indexable URLs were answering `no-store` because a searchParams read
     # forces dynamic rendering, silently overriding `export const revalidate`.
     # Anonymous renders verified byte-identical; no cookie/session read in-route.
-    location ~ "^/[a-z]{{2}}/(?:topic|activities|tools)(?:/.*)?$" {{
+    # Covers: locale root, topic hubs + 2-axis intersections, activities, tools +
+    # makers, standards, the worksheet-makers hub, and the /worksheets HUB itself.
+    # It deliberately does NOT cover `/<loc>/worksheets/<slug>` — the tier-3 landing
+    # is served from disk by an earlier location with its own max-age=3600. All of
+    # these were verified byte-identical across anonymous fetches and read no
+    # session/cookie server-side.
+    location ~ "^/[a-z]{{2}}(?:/(?:topic|activities|tools|standards|worksheet-makers)(?:/.*)?|/worksheets)?$" {{
         limit_req zone=lcsperip burst=40 nodelay;
         proxy_pass http://nextjs;
         proxy_http_version 1.1;
@@ -94,13 +100,28 @@ def main():
     with open(CONF, "r") as f:
         original = f.read()
 
-    if MARKER in original:
-        print("IDEMPOTENT: hub-cache block already present — no change.")
-        r = run(["nginx", "-t"])
-        print(r.stderr.strip())
-        sys.exit(0)
-
+    # Self-updating: if a previously-installed block is present, REMOVE it and
+    # re-insert the current one. A marker-only "already present, skip" guard cannot
+    # widen the path set later, and would silently leave an out-of-date pattern in
+    # production while reporting success.
     lines = original.splitlines(keepends=True)
+    if MARKER in original:
+        start = next(i for i, ln in enumerate(lines) if MARKER in ln)
+        end = start
+        depth = 0
+        seen_brace = False
+        for i in range(start, len(lines)):
+            depth += lines[i].count("{") - lines[i].count("}")
+            if lines[i].count("{"):
+                seen_brace = True
+            if seen_brace and depth == 0:
+                end = i
+                break
+        while end + 1 < len(lines) and lines[end + 1].strip() == "":
+            end += 1
+        removed = end - start + 1
+        lines = lines[:start] + lines[end + 1:]
+        print("removed the previous hub-cache block (%d lines) — reinstalling current version." % removed)
 
     insert_at = None
     for i, ln in enumerate(lines):

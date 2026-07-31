@@ -1017,6 +1017,56 @@ Hreflang map + `LIVE_TOOL_SLUGS` are auto-derived. Remaining hand-maintained: **
 Write a `scripts/register-<tool>.js` that does all five and is **idempotent** — a second run must report every point as already done.
 
 **MANIFEST_FILES registration is a BUILD-FAILING preflight gate, not a doc note.** E3 #1 deployed its iframe fine but 404'd EVERY locale because its engine manifest was never added to `MANIFEST_FILES` — caught only at deploy, fixed in `54b9a4dc`. `scripts/preflight-activity-routes.js` makes the class structurally unshippable: it FAILS the build when (A) any `*-activities.json` on disk is NOT in `MANIFEST_FILES` (the 54b9a4dc class — all routes 404), or (B) a declared slug is empty / non-url-safe / DUPLICATED across the merged set (resolveActivitySlug returns the FIRST match, silently 404ing the loser). It does NOT require all 11 locales (E7/E8/E9 are locale-scoped by design, §20.2); pass `--all-locales=<id,…>` to assert a specific culture-neutral coordinate ships 11/11. **Run it before every mini-tools deploy** — reusing an already-registered engine (E3 #2's `sort-bins`) still runs the preflight to confirm route-resolution, never assumes it.
+### 21.8 ⭐ SEO infrastructure invariants (2026-07-31 audit)
+
+Four defects found by a full re-audit, each now fixed and each with a standing rule.
+
+**A. `x-default` is emitted ONLY when an English URL exists — else OMITTED.**
+`buildHreflangAlternates` used to fall back to the first available locale, so a cluster with
+no English member declared some arbitrary locale the worldwide default (measured: ~42% of
+sampled landings — a Swedish page naming SPANISH, a Norwegian naming DANISH). ⚠ **The function
+is DUPLICATED**: `frontend/lib/seo/hreflang.ts` AND a hand-copied port in
+`scripts/seo-landing/render-landing-html.js` (which is what actually renders the 30,078 static
+landings). Fixing only the TS one changes nothing on the live site — the deploy ran and the
+offenders were unchanged. Keep both in sync; `app/sitemap.ts` and `deck-sitemap-hreflang.ts`
+follow the same en-or-omit rule.
+
+**B. Never `access_log off` on an indexable surface.** 23 such directives sat on the landings
+and deck blocks, so `/<loc>/worksheets/<slug>` showed **zero 200s in 15 days** — a successful
+landing serve could not appear in the log. This invalidated the premise behind the robots.txt
+prefix blocks ("the landings received ZERO fetches" was a logging artifact). Restored by
+`patch-nginx-seo-logging.py`, which also adds the `lcs_seo` format carrying
+`$http_cf_connecting_ip` — without it every `$remote_addr` is a Cloudflare edge and Googlebot
+cannot be verified (≥6.8% of Googlebot-UA hits were forged credential probes). ⚠ The standing
+rule *"re-measure from nginx logs before ANY SEO claim"* was unsatisfiable until this landed.
+
+**C. The teardown 410s must be re-checked whenever the product renames a surface.**
+`/worksheets` entered the teardown 2026-03-04 as a seller prefix; the June pivot made it the
+flagship, and the rule stayed — so bare `/worksheets` and the locale-less form of all 30,078
+landings answered *410 Gone*, cached 24h. Same for `/tools/<slug>`. Now 301 → `/en/…`, with
+`/tools` still CONDITIONAL on `LIVE_TOOL_SLUGS` so genuine seller slugs (`profit-hub`,
+`kdp-royalty-calculator`, …) keep their 410.
+
+**D. A `searchParams` read silently overrides `export const revalidate`.** It forces dynamic
+rendering and Next then defaults to `no-store` — 6,164 indexable URLs (topics, intersections,
+activities, tools/makers, standards, hubs, locale roots) were uncacheable while declaring ISR.
+Fixed at the edge by `patch-nginx-hub-cache.py` (300s public). Verify anonymous byte-identity
+and zero session/cookie reads before caching any route this way; `/pricing` and `/auth/*` stay
+excluded.
+
+**Two nginx traps, each bought by a failed `nginx -t`:**
+- A **bare `{n}` quantifier in a `location` regex must be QUOTED** — nginx's config parser
+  treats `{`/`}` as block delimiters and truncates the pattern.
+- **Anchor an inserted directive on the block it must affect**, not on the first plausible
+  match. Anchoring `access_log` on the first `server_name` put it in the port-80 redirect
+  block, where it applied to nothing — `nginx -t` passed and the patch reported success.
+
+**Blog / robots.txt trade-off (operator decision 2026-07-31: document, do not act).** The
+May-1 wave 410'd `/blog` (100+ posts) wholesale and robots.txt now `Disallow: /blog`. Those
+are **mutually exclusive with equity recovery**: a Disallow means Google cannot see a 301 map
+if one is ever built. Un-blocking also re-spends crawl budget on a dead prefix during the
+shortfall. Decide deliberately; do not 301-map behind a live Disallow.
+
 ### 21.5a 🧊 CHURN FREEZE (2026-07-10 → ~2026-09-01, forensic-audit remediation)
 
 **NO mass rewrites of titles, meta descriptions, canonicals, slugs, or URL structure until
@@ -1048,7 +1098,17 @@ Enforced by **`scripts/preflight-indexable-routes.js`**, wired into `deploy.sh` 
 
 ---
 
-## 22. SEO / Landing-Page Program — tier-3 deck landing pages (2026-06; 8-LOCALE ROLLOUT IN PROGRESS — sv COMPLETE, nl next)
+## 22. SEO / Landing-Page Program — tier-3 deck landing pages (2026-06; ✅ ALL 11 LOCALES COMPLETE)
+
+> **⚠ STATUS CORRECTION 2026-07-31.** The per-locale "NEXT = …" pointers scattered through
+> §22.2 ("next = es"), §22.3 ("next = `es`") and §22.5 ("`nl` NEXT") are **STALE and mutually
+> contradictory** — they were ~6 weeks out of date. All 11 locales shipped; **30,078 landings
+> are live on disk** (verified by census). Ignore every "NEXT locale" line below; the fan-out
+> is done. `cryptogram` remains the one proven-unlandable type. The still-open forks named in
+> §22.2/§22.4/§22.5 (tracing/handwriting deck PRODUCTION, `/en/topic/sudoku` 404) are real;
+> the "fi = 29 seed decks" claim is NOT — fi has ~3,814 published decks (§A.13.22: never
+> state catalog counts without a DB count).
+
 
 A multi-commission program building **tier-3 deck landing pages** to fix the thin/orphan `deck.html` surface: a crawl graph **hub → landing → asset**. New SSR route **`/[locale]/worksheets/[slug]`** sits between the topic hubs and the nginx-served `deck.html` assets. **Full blow-by-blow record + every ruling = the plan file `C:\Users\rkgen\.claude\plans\commission-to-cc-structured-hollerith.md`** (Phases 1–5 + Fan-out Planning Parts 1–3 + Wave-1 Execution). Memory: [[seo-landing-page-program]].
 
@@ -1062,7 +1122,7 @@ A multi-commission program building **tier-3 deck landing pages** to fix the thi
 **TRUE INVENTORY = ≈22,419** generable, valid, correctly-levelable landing coordinates (NOT the 24,494 coordinate count, NOT the 28,562 deck-asset count — the headline figures were never the generable number). Per-locale net level buckets: plan file P3.a.
 
 ### 22.1 Locked decisions (do NOT re-litigate; the plan file holds the reasoning)
-- **Canonical = option (b):** the landing self-canonicals (Next SSR `generateMetadata`); each `deck.html` repoints its baked `__CANONICAL_URL__` → its landing via string-substitution — **NO nginx change**. PDFs stay `noindex` (§17.8.20). Deck assets leave the sitemap; the ≈22,419 landings enter it.
+- **Canonical = option (b):** the landing self-canonicals (Next SSR `generateMetadata`); each `deck.html` repoints its baked `__CANONICAL_URL__` → its landing via string-substitution — **NO nginx change**. ~~PDFs stay `noindex` (§17.8.20).~~ **REVERSED — printable PDFs are INDEXABLE** (§17.8.20 was reversed 2026-06-20; the blanket PDF noindex was a primary cause of the May crash). Today: printables indexable + 30d cache; **answer-key** PDFs noindexed; a narrow EN addition/subtraction printable canary is live and **unadjudicated**. NEVER run `patch-nginx-pdf-noindex.py`. Deck assets no longer all leave the sitemap either — shards 0/1 carry the ~9,752 landing-LESS decks, which are self-canonical and their own only indexable surface.
 - **Hub→landing = "landing-existence-conditional repoint" — the UNIVERSAL hub-mutation mechanism for every wave.** `deckLinkFor` points a deck card at `/worksheets/<landing>` IFF a published landing exists for that deck (reverse map `landingSlugForDeck` in `frontend/lib/seo/landing-content.ts`, built from `en.json` `canonicalDeckSlug` + `collapseSiblings`), else keeps `/decks/<slug>/`. This **auto-bounds** the live `/topic/` mutation to exactly the published wave (blast radius = the published set, every wave); **rollback = unpublish a landing (fails closed → card reverts to `/decks/`) or git-revert**. Three `deckLinkFor` sites: `components/catalog/VarietyStrip.tsx` + `app/[locale]/topic/[slug]/page.tsx` + `app/[locale]/topic/[slug]/[secondary]/page.tsx`.
 - **The page's grade comes from the MECHANIC, not the DB `age_range` tag** — ledger-level-override applied at **(type,mode)** granularity (treasure-hunt/bingo/prepositions each carry two true bands across modes). **`math-worksheet` is REMOVED from the program** (Gr3-6 algebra, above the K-2 ceiling). **Readiness-class policy:** visual-spatial puzzles with no clean CCSS standard (grid-match, missing-pieces, bingo-image, sudoku, picture-path, shadow-match, treasure-hunt-maze, pattern-parts) **fan out** with NO `educationalAlignment`; `teaches` = an honest non-CCSS readiness strand. Scope guard: a mechanic teaching NOTHING identifiable is a removal candidate, not a readiness landing.
 - **theme×mechanic validity = a property table** (`frontend/content/seo-landing/theme-mechanic-compat.json`: `discrete_countable`/`collective_risk`/`physical_size_orderable`/`phonetic_variety` per theme + per-mechanic gate + override whitelist), enforced by the ONE pre-render **`scripts/seo-landing/validity-gate.js`** (blocks `body_parts`+sum, `"a tray of buns"`+count, etc.). Countability gate applies only to the count/sum/size mechanics. **Per-locale booleans are authored WITH each locale's wave** (collective_risk/phonetic_variety are language-dependent — never on EN judgment, §15.1).

@@ -37,6 +37,16 @@
    build (§20.4 mini-tools cp/deploy race hazard).
 
    Usage: node scripts/generate-tool-previews.js [--only=<key-substr>]
+                                                 [--fit=auto|contain]
+
+     --fit=contain  exact parity with the activity previews: always letterbox
+                    on a transparent matte, never crop.
+     --fit=auto     (default) letterbox wide stages, but top-crop the 13
+                    stages taller than 0.85 aspect, where `contain` would
+                    shrink the apparatus into an illegible strip. Tools vary
+                    far more in aspect than activities do (720x172 number-line
+                    → 691x722 letter-tiles), which is why the choice exists
+                    here and not in the activity script.
    ===================================================================== */
 'use strict';
 const fs = require('fs');
@@ -51,6 +61,11 @@ const IMGLIB = path.join(REPO, 'image-library-webp');
 const OUT = path.join(REPO, 'frontend', 'public', 'mini-tools', 'tool-previews');
 const TOOL_CONTENT_TS = path.join(REPO, 'frontend', 'lib', 'seo', 'tool-content.ts');
 const ONLY = (process.argv.find((a) => a.startsWith('--only=')) || '').split('=')[1] || '';
+const FIT = (process.argv.find((a) => a.startsWith('--fit=')) || '').split('=')[1] || 'auto';
+if (!['auto', 'contain'].includes(FIT)) {
+  console.error(`ERROR: --fit must be 'auto' or 'contain' (got '${FIT}')`);
+  process.exit(1);
+}
 
 const MIME = {
   '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json',
@@ -208,7 +223,7 @@ async function runSeed(page, key) {
       // illegible letterboxed sliver, so anything meaningfully taller than the
       // card's 4:3 is cropped from the TOP instead — where every tool puts its
       // apparatus, with only footer controls falling off.
-      const tall = box.height / box.width > 0.85;
+      const tall = FIT === 'auto' && box.height / box.width > 0.85;
       const img = sharp(png);
       await (tall
         ? img.resize(480, 360, { fit: 'cover', position: 'top' })

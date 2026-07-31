@@ -119,13 +119,39 @@ async function dragTrayToBoard(page, g, bx, by) {
       const narrow = window.innerWidth <= 560;
       const sheetBtn = document.querySelector('.ltl-sheetbtn');
       const sheetVisible = sheetBtn && getComputedStyle(sheetBtn).display !== 'none';
-      return { overflow, small, trayTiles, board, narrow, sheetVisible };
+      /* ⚠ CHILD-vs-CHILD, WHICH IS THE OVERLAP THAT ACTUALLY SHIPPED BROKEN.
+         Every geometry assertion in this harness was tile-vs-tile — the
+         headline invariant "letters never stack" means tiles never stack on
+         EACH OTHER. Meanwhile the anchor picture sat on top of the glyph
+         INSIDE the tile, from the tool's first commit until 2026-07-31, and
+         nothing here could see it: the three .ltl-face-txt assertions all
+         read textContent, and a string reads back identically whether or not
+         a solid white disc is painted over it.
+         The picture is now in flow above the letter, so any intersection at
+         all is a regression. */
+      const covered = [];
+      document.querySelectorAll('.ltl-traytile, .ltl-tile').forEach((tile) => {
+        const img = tile.querySelector('.ltl-anchor');
+        const txt = tile.querySelector('.ltl-face-txt');
+        if (!img || !txt) return;                 /* e.g. "qu" ships anchor:null */
+        if (getComputedStyle(img).display === 'none') return;   /* picture alphabet off */
+        const a = img.getBoundingClientRect(), b = txt.getBoundingClientRect();
+        if (!a.width || !b.width) return;
+        const ox = Math.min(a.right, b.right) - Math.max(a.left, b.left);
+        const oy = Math.min(a.bottom, b.bottom) - Math.max(a.top, b.top);
+        if (ox > 0.5 && oy > 0.5) {
+          covered.push(`${(txt.textContent || '?').trim()} (${Math.round(ox)}x${Math.round(oy)}px)`);
+        }
+      });
+      return { overflow, small, trayTiles, board, narrow, sheetVisible, covered };
     }, MIN_TAP);
     if (m.overflow > 1) FAIL(`${vp.w}px: horizontal overflow ${m.overflow}px`);
     if (m.small.length) FAIL(`${vp.w}px: tap targets <44px: ${[...new Set(m.small)].join(', ')}`);
     if (!m.board) FAIL(`${vp.w}px: no board`);
     if (m.trayTiles < 26) FAIL(`${vp.w}px: only ${m.trayTiles} tray tiles`);
     if (m.narrow && !m.sheetVisible) FAIL(`${vp.w}px: sheet chevron hidden on narrow viewport`);
+    if (m.covered.length) FAIL(`${vp.w}px: the anchor picture COVERS the letter on ${m.covered.length} tile(s): ${[...new Set(m.covered)].slice(0, 8).join(', ')}`);
+    else OK(`${vp.w}px: no anchor picture overlaps its letter`);
     if (m.overflow <= 1 && !m.small.length && m.board && m.trayTiles >= 26) OK(`${vp.w}px: fits, board + ${m.trayTiles} tray tiles${m.narrow ? ', sheet chevron' : ''}`);
     if (SHOT_WIDTHS.has(vp.w)) await page.screenshot({ path: path.join(OUT, `sweep-${vp.w}.png`), fullPage: true });
   }

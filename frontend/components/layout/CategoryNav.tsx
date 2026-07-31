@@ -44,6 +44,7 @@ interface CategoryNavProps {
   // tool-content JSON is far too large to import into a client component);
   // without it every Manipulatives item falls back to the /tools index.
   toolSlugs?: Record<string, string>;
+  makerSlugs?: Record<string, string>;
 }
 
 export function CategoryNav({
@@ -52,6 +53,7 @@ export function CategoryNav({
   availableThemes = [],
   availableTargets = [],
   toolSlugs = {},
+  makerSlugs = {},
 }: CategoryNavProps) {
   const t = useTranslations('nav.categories');
   const pathname = usePathname();
@@ -85,6 +87,7 @@ export function CategoryNav({
     availableThemes,
     availableTargets,
     toolSlugs,
+    makerSlugs,
     t,
   });
 

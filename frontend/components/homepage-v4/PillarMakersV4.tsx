@@ -8,6 +8,7 @@
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import { getTypedThumbs } from '@/lib/showcase-decks';
+import { MAKER_COUNT } from '@/lib/seo/maker-content';
 
 interface PillarMakersProps {
   locale: string;
@@ -120,7 +121,7 @@ export default async function PillarMakersV4({ locale }: PillarMakersProps) {
 
         <div className="mt-10 flex flex-col sm:flex-row items-start sm:items-center gap-4">
           <Link href={`/${locale}/worksheet-makers/`} className="hv5-cta hv5-cta-primary text-base px-7 py-3.5">
-            {t('cta')}
+            {t('cta', { count: MAKER_COUNT })}
             <svg className="ml-2 w-4 h-4" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M5 10h10M11 5l5 5-5 5" /></svg>
           </Link>
           <Link href={`/${locale}/worksheets/`} className="font-lcsBody text-sm font-semibold text-[#146B5E] underline underline-offset-4 hover:text-lcs-coral">

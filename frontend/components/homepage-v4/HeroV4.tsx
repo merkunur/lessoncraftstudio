@@ -7,6 +7,7 @@
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import { getTypedThumbs } from '@/lib/showcase-decks';
+import { MAKER_COUNT } from '@/lib/seo/maker-content';
 
 interface HeroV4Props {
   locale: string;
@@ -45,7 +46,7 @@ export default async function HeroV4({ locale }: HeroV4Props) {
             </h1>
 
             <p className="mt-5 font-lcsBody font-medium text-lg text-[#FBF3E4]/80 leading-relaxed max-w-[48ch]">
-              {t('body')}
+              {t('body', { count: MAKER_COUNT })}
             </p>
 
             <div className="mt-7 flex flex-col sm:flex-row items-stretch sm:items-center gap-3.5">
@@ -62,7 +63,7 @@ export default async function HeroV4({ locale }: HeroV4Props) {
             <div className="mt-8 h-px bg-[#FBF3E4]/12" />
             <ul className="mt-5 flex flex-wrap items-center gap-x-6 gap-y-2 font-lcsBody text-sm text-[#FBF3E4]/70">
               <li className="flex items-center gap-2"><span className="font-lcsDisplay font-bold text-[#FBF3E4] text-base">{t('numWorksheets')}</span> {t('chip2Label')}</li>
-              <li className="flex items-center gap-2"><span className="font-lcsDisplay font-bold text-[#FBF3E4] text-base">{t('numMakers')}</span> {t('chip1Label')}</li>
+              <li className="flex items-center gap-2"><span className="font-lcsDisplay font-bold text-[#FBF3E4] text-base">{t('numMakers', { count: MAKER_COUNT })}</span> {t('chip1Label')}</li>
               <li className="flex items-center gap-2"><span className="font-lcsDisplay font-bold text-[#FBF3E4] text-base">{t('numLanguages')}</span> {t('chip3Label')}</li>
             </ul>
             <p className="mt-2.5 font-lcsBody text-xs text-[#FBF3E4]/70">{t('h1')} · {t('frameworksNote')}</p>

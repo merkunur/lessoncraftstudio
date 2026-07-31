@@ -130,7 +130,9 @@ function substituteStripPlaceholders(stripHtml, locale, suggestions) {
     var titlePh = '__SUGGESTION_' + (i + 1) + '_TITLE__';
     var thumbPh = '__SUGGESTION_' + (i + 1) + '_THUMB__';
     var titleLocalized = (slot.title && (slot.title[locale] || slot.title.en)) || slot.slug;
-    html = html.split(urlPh).join(slot.canonicalURL || ('/' + slot.language + '/decks/' + slot.slug + '/'));
+    // Prefer the landing URL; fall back to the deck's own URL when it has no landing
+    // (landing-less decks are self-canonical + indexable, so /decks/ is correct there).
+    html = html.split(urlPh).join(slot.landingURL || slot.canonicalURL || ('/' + slot.language + '/decks/' + slot.slug + '/'));
     html = html.split(titlePh).join(titleLocalized);
     html = html.split(thumbPh).join(slot.thumbnailUrl || '');
   }

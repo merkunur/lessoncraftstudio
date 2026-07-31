@@ -6,6 +6,7 @@
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import { PRICING_PUBLIC } from '@/config/subscription-launch';
+import { MAKER_COUNT } from '@/lib/seo/maker-content';
 
 interface Props {
   locale: string;
@@ -41,7 +42,7 @@ export default async function FreeAndTeacherV4({ locale }: Props) {
             <h3 className="font-lcsDisplay font-bold text-[#14322D] text-lg md:text-xl">{t('freeTitle')}</h3>
             <ul className="mt-6 space-y-3.5 font-lcsBody text-base text-[#3d574f]">
               {freeItems.map((k) => (
-                <li key={k} className="flex items-start gap-3"><Check className="text-[#146B5E] mt-0.5 shrink-0" /><span>{t(k)}</span></li>
+                <li key={k} className="flex items-start gap-3"><Check className="text-[#146B5E] mt-0.5 shrink-0" /><span>{t(k, { count: MAKER_COUNT })}</span></li>
               ))}
             </ul>
             <p className="mt-6 font-lcsBody text-sm text-[#3d574f] leading-relaxed border-l-2 border-[#146B5E]/30 pl-4">{t('framing')}</p>

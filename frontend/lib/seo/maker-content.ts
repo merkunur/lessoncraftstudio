@@ -47,6 +47,15 @@ export const MAKER_KEYS = [
 export type MakerKey = (typeof MAKER_KEYS)[number];
 
 /**
+ * The number of worksheet makers, derived from the registry.
+ *
+ * Marketing copy used to hardcode "29" in 9 i18n keys × 11 locales, which drifted the
+ * moment the 4 PDF-only makers gained landings. Copy now interpolates this value, so
+ * the number cannot disagree with the number of maker pages that actually exist.
+ */
+export const MAKER_COUNT = MAKER_KEYS.length;
+
+/**
  * Generator HTML file per maker key (served by nginx at
  * /worksheet-generators/<htmlFile>, §A.1). Every ALL_APPS entry's htmlFile is
  * `<key>.html` (verified in products.ts), so derive it. The landing's launch
@@ -179,6 +188,24 @@ export async function getMakerContent(locale: string, makerKey: MakerKey): Promi
   const entry = file[makerKey];
   if (!entry) return null;
   return { ...entry, makerKey, labels: file.labels };
+}
+
+/**
+ * makerKey → native slug for one locale, in ONE read.
+ *
+ * Mirrors `getToolSlugMap` in tool-content.ts. Exists so a server component can resolve
+ * every maker slug once and thread the plain map down to the (client) nav — the
+ * maker-content JSON is ~1.4 MB across locales and must never be imported client-side.
+ */
+export async function getMakerSlugMap(locale: string): Promise<Record<string, string>> {
+  const file = await loadLocale(locale);
+  if (!file) return {};
+  const out: Record<string, string> = {};
+  for (const key of MAKER_KEYS) {
+    const entry = file[key];
+    if (entry && entry.slug) out[key] = entry.slug;
+  }
+  return out;
 }
 
 /** Resolve a native-language URL slug → maker key for a locale (null if none). */

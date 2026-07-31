@@ -3,6 +3,7 @@
 
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
+import { MAKER_COUNT } from '@/lib/seo/maker-content';
 
 interface Props {
   locale: string;
@@ -34,7 +35,7 @@ export default async function SignupV4({ locale }: Props) {
 
         <ul aria-label={t('trustAria')} className="mt-10 flex flex-wrap justify-center gap-2.5">
           {chips.map((k) => (
-            <li key={k} className="hv5-chip-mono on-dark">{t(k)}</li>
+            <li key={k} className="hv5-chip-mono on-dark">{t(k, { count: MAKER_COUNT })}</li>
           ))}
         </ul>
       </div>

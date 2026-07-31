@@ -330,7 +330,7 @@ function computeNewSeoSurface(opts) {
     teaches: typeSlug,
     inLanguage: locale,
     isAccessibleForFree: true,
-    creator: { '@type': 'Organization', name: 'LessonCraftStudio', url: 'https://lessoncraftstudio.com' },
+    creator: { '@type': 'Organization', name: 'LessonCraftStudio', url: 'https://www.lessoncraftstudio.com' },
     audience: { '@type': 'EducationalAudience', educationalRole: 'student' },
     url: '__CANONICAL_URL__'
   };

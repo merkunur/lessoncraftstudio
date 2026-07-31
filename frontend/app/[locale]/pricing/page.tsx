@@ -5,6 +5,7 @@ import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { SUBSCRIPTION_PRODUCT } from '@/config/lemonsqueezy-product-config';
 import { PRICING_PUBLIC } from '@/config/subscription-launch';
 import CheckoutButtons from '@/components/pricing/CheckoutButtons';
+import { MAKER_COUNT } from '@/lib/seo/maker-content';
 
 const baseUrl = 'https://www.lessoncraftstudio.com';
 
@@ -121,7 +122,7 @@ export default async function PricingPage({
             {[1, 2, 3, 4, 5, 6].map((i) => (
               <li key={i} className="flex gap-2">
                 <span aria-hidden="true">✓</span>
-                <span>{t(`free.item${i}`)}</span>
+                <span>{t(`free.item${i}`, { count: MAKER_COUNT })}</span>
               </li>
             ))}
           </ul>
@@ -143,7 +144,7 @@ export default async function PricingPage({
             {[1, 2, 3, 4, 5].map((i) => (
               <li key={i} className="flex gap-2">
                 <span aria-hidden="true">★</span>
-                <span>{t(`tier.item${i}`)}</span>
+                <span>{t(`tier.item${i}`, { count: MAKER_COUNT })}</span>
               </li>
             ))}
           </ul>

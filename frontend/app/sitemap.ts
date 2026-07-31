@@ -73,10 +73,13 @@ export async function generateSitemaps() {
   // tools + topics + roots), which is hard to submit/track in GSC and a weak
   // prioritization signal. A focused shard with a deploy-fresh lastmod lets the
   // operator watch activities coverage on its own GSC row + nudges recrawl.
+  // ID 9 — tools + makers: the 802 /<locale>/tools/<slug> landings + 11 hubs,
+  // split out of shard 3 on the same rationale as shard 8 (2026-07-31).
   return [
     { id: 2 },
     { id: 3 },
     { id: 8 },
+    { id: 9 },
   ];
 }
 
@@ -140,6 +143,84 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
     } catch (err) {
       console.warn('[sitemap] shard 8 (activities) failed; skipping:', (err as Error).message);
     }
+    return routes;
+  }
+
+  // ====================================================================
+  // SHARD 9 — TOOL + MAKER LANDING PAGES (dedicated; split out of shard 3)
+  // ====================================================================
+  // The /<locale>/tools URL space in one shard: the per-locale hub, the 40
+  // manipulative landings (39 in fi — heart-words has no fi slug) and the 33
+  // worksheet-maker landings = 802 URLs + 11 hubs. Same rationale as shard 8:
+  // these were buried in the mixed ~4K-URL shard 3, so their indexation could
+  // not be read on its own GSC row. Content-file driven; no DB IO.
+  if (id === 9) {
+    const routes: MetadataRoute.Sitemap = [];
+
+    // Manipulatives hub — one URL per locale (11 total). Static metadata lives
+    // in frontend/lib/manipulatives.ts; no DB or manifest IO.
+    try {
+      const { landingHreflangAlternates } = await import('@/lib/manipulatives');
+      const toolsAlternates = landingHreflangAlternates(baseUrl);
+      for (const loc of TOPIC_LOCALES) {
+        routes.push({
+          url: `${baseUrl}/${loc}/tools`,
+          lastModified: STATIC_CONTENT_DATE,
+          changeFrequency: 'monthly',
+          priority: 0.5,
+          alternates: { languages: toolsAlternates },
+        });
+      }
+    } catch (err) {
+      console.warn('[sitemap] tools hub URLs failed; skipping:', (err as Error).message);
+    }
+
+    // Per-tool landing pages — /<locale>/tools/<native-slug> (40 tools × 11
+    // locales, less the missing fi heart-words = 439). Native-language slugs +
+    // hreflang per tool from the tool-content files. No DB IO.
+    try {
+      const { listToolSitemapEntries, hreflangAlternatesForTool } = await import('@/lib/seo/tool-content');
+      const toolEntries = await listToolSitemapEntries();
+      const hreflangByTool: Record<string, Record<string, string>> = {};
+      for (const { locale, slug, toolKey } of toolEntries) {
+        if (!hreflangByTool[toolKey]) {
+          hreflangByTool[toolKey] = await hreflangAlternatesForTool(toolKey, baseUrl);
+        }
+        routes.push({
+          url: `${baseUrl}/${locale}/tools/${slug}`,
+          lastModified: STATIC_CONTENT_DATE,
+          changeFrequency: 'monthly',
+          priority: 0.6,
+          alternates: { languages: hreflangByTool[toolKey] },
+        });
+      }
+    } catch (err) {
+      console.warn('[sitemap] per-tool URLs failed; skipping:', (err as Error).message);
+    }
+
+    // Worksheet-maker landing pages — /<locale>/tools/<native-slug> (33 makers ×
+    // 11 locales = 363). Same /tools/ URL space + native slugs + hreflang as the
+    // manipulatives, sourced from maker-content. No DB IO.
+    try {
+      const { listMakerSitemapEntries, hreflangAlternatesForMaker } = await import('@/lib/seo/maker-content');
+      const makerEntries = await listMakerSitemapEntries();
+      const hreflangByMaker: Record<string, Record<string, string>> = {};
+      for (const { locale, slug, makerKey } of makerEntries) {
+        if (!hreflangByMaker[makerKey]) {
+          hreflangByMaker[makerKey] = await hreflangAlternatesForMaker(makerKey, baseUrl);
+        }
+        routes.push({
+          url: `${baseUrl}/${locale}/tools/${slug}`,
+          lastModified: STATIC_CONTENT_DATE,
+          changeFrequency: 'monthly',
+          priority: 0.6,
+          alternates: { languages: hreflangByMaker[makerKey] },
+        });
+      }
+    } catch (err) {
+      console.warn('[sitemap] per-maker URLs failed; skipping:', (err as Error).message);
+    }
+
     return routes;
   }
 
@@ -434,69 +515,10 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
       );
     }
 
-    // Manipulatives landing page — one URL per locale (11 total). Static
-    // metadata lives in frontend/lib/manipulatives.ts; no DB or manifest IO.
-    try {
-      const { landingHreflangAlternates } = await import('@/lib/manipulatives');
-      const toolsAlternates = landingHreflangAlternates(baseUrl);
-      for (const loc of TOPIC_LOCALES) {
-        routes.push({
-          url: `${baseUrl}/${loc}/tools`,
-          lastModified: STATIC_CONTENT_DATE,
-          changeFrequency: 'monthly',
-          priority: 0.5,
-          alternates: { languages: toolsAlternates },
-        });
-      }
-    } catch (err) {
-      console.warn('[sitemap] tools URLs failed; skipping:', (err as Error).message);
-    }
-
-    // Per-tool landing pages — /<locale>/tools/<native-slug> (3 tools × 11
-    // locales = 33). Native-language slugs + hreflang per tool from the
-    // tool-content files. No DB IO.
-    try {
-      const { listToolSitemapEntries, hreflangAlternatesForTool } = await import('@/lib/seo/tool-content');
-      const toolEntries = await listToolSitemapEntries();
-      const hreflangByTool: Record<string, Record<string, string>> = {};
-      for (const { locale, slug, toolKey } of toolEntries) {
-        if (!hreflangByTool[toolKey]) {
-          hreflangByTool[toolKey] = await hreflangAlternatesForTool(toolKey, baseUrl);
-        }
-        routes.push({
-          url: `${baseUrl}/${locale}/tools/${slug}`,
-          lastModified: STATIC_CONTENT_DATE,
-          changeFrequency: 'monthly',
-          priority: 0.6,
-          alternates: { languages: hreflangByTool[toolKey] },
-        });
-      }
-    } catch (err) {
-      console.warn('[sitemap] per-tool URLs failed; skipping:', (err as Error).message);
-    }
-
-    // Worksheet-maker landing pages — /<locale>/tools/<native-slug> (SEO RESCUE
-    // Part 1; pilot = 6 generators × 6 locales). Same /tools/ URL space + native
-    // slugs + hreflang as the manipulatives, sourced from maker-content. No DB IO.
-    try {
-      const { listMakerSitemapEntries, hreflangAlternatesForMaker } = await import('@/lib/seo/maker-content');
-      const makerEntries = await listMakerSitemapEntries();
-      const hreflangByMaker: Record<string, Record<string, string>> = {};
-      for (const { locale, slug, makerKey } of makerEntries) {
-        if (!hreflangByMaker[makerKey]) {
-          hreflangByMaker[makerKey] = await hreflangAlternatesForMaker(makerKey, baseUrl);
-        }
-        routes.push({
-          url: `${baseUrl}/${locale}/tools/${slug}`,
-          lastModified: STATIC_CONTENT_DATE,
-          changeFrequency: 'monthly',
-          priority: 0.6,
-          alternates: { languages: hreflangByMaker[makerKey] },
-        });
-      }
-    } catch (err) {
-      console.warn('[sitemap] per-maker URLs failed; skipping:', (err as Error).message);
-    }
+    // NOTE: the /<locale>/tools hub + the per-tool and per-maker landings used to
+    // live here. They moved to their own shard 9 (2026-07-31) so this segment's
+    // indexation is readable on its own GSC row — same treatment activities got
+    // in shard 8. Do not re-add them here; that would double-list 802 URLs.
 
     // Activities + Topics index landings — one URL per locale (11 + 11 = 22).
     // Same hreflang shape: all 11 sibling locales + x-default.

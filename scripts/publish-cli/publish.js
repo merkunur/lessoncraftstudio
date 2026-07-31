@@ -33,7 +33,10 @@ var pdfMetadata = require('./pdf-metadata');
 var taxonomy = require('./taxonomy');
 var i18n = require('./i18n');
 
-var CANONICAL_URL_BASE = 'https://lessoncraftstudio.com';
+// www-form is canonical (§A.10) — the apex 301s to www, and an apex URL stored in the
+// DB url columns propagates verbatim into other decks' suggestion-strip <img src>.
+// Every other publish-cli module already uses www; this literal was the odd one out.
+var CANONICAL_URL_BASE = 'https://www.lessoncraftstudio.com';
 
 function structuredFailure(opts) {
   // Per failure-mode UX section. Multi-line stderr.

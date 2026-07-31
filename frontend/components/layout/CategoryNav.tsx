@@ -144,8 +144,13 @@ export function CategoryNav({
                     aria-label={d.label}
                     className="absolute left-1/2 -translate-x-1/2 top-full mt-1 w-64 bg-cream-50 border border-cream-300 rounded-lg shadow-lg py-2 z-50"
                   >
+                    {/* VISIBLE popover only — capped by visibleCount so the
+                        40-tool Tools menu doesn't unroll into a giant column.
+                        The sr-only <ul> above deliberately keeps every item
+                        (that is the crawlable mesh, §A.13.50); do NOT move
+                        this slice up there. */}
                     <ul className="space-y-0.5">
-                      {d.items.map(item => (
+                      {d.items.slice(0, d.visibleCount ?? d.items.length).map(item => (
                         <li key={item.href} role="none">
                           <Link
                             href={item.href}

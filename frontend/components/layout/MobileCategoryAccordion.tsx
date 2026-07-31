@@ -87,9 +87,14 @@ export function MobileCategoryAccordion({
               />
             </button>
 
+            {/* Item list is capped by visibleCount to match the desktop
+                popover — the 40-tool Tools list would otherwise dominate the
+                drawer. This panel is isOpen-gated (nothing ships
+                server-side), so unlike CategoryNav there is no crawlable
+                mesh here to preserve. */}
             {isOpen && (
               <ul id={panelId} className="pb-2 pl-3 space-y-0.5">
-                {d.items.map(item => (
+                {d.items.slice(0, d.visibleCount ?? d.items.length).map(item => (
                   <li key={item.href}>
                     <Link
                       href={item.href}

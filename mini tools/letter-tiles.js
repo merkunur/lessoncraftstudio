@@ -1496,18 +1496,39 @@ var LetterTiles = {
   + '.ltl-tile.warm::before,.ltl-traytile.warm::before{background:#FDE8DE;}'
 
   /* tile face (shared board + tray) */
-  + '.ltl-face{position:relative;display:flex;flex-direction:column;align-items:center;'
-  +   'justify-content:center;line-height:1;}'
+  /* ⚠ THE ANCHOR PICTURE IS IN FLOW, ABOVE THE LETTER. It must never be
+     absolutely positioned again, and the reason is worth keeping:
+     `.ltl-anchor` used to be `position:absolute` with NEGATIVE top/right,
+     written to hang the badge outside the tile's top-right corner. But its
+     nearest positioned ancestor was `.ltl-face` — a shrink-to-fit flex box
+     inside a `place-items:center` tile, so its box is only as wide as THE
+     GLYPH. The offsets were therefore measured from the letter's own edges
+     and pulled the badge straight back on top of it: ~92% coverage in the
+     tray (a 21px floor-sized disc over a ~23px glyph), ~69% on the board.
+     It shipped that way from the tool's first commit on 2026-07-16.
+     Restoring the authored intent is NOT possible: `.ltl-tray` becomes
+     `overflow-x:auto` at <=560px and `.ltl-sheet` is `overflow:auto`, and a
+     non-visible overflow on one axis forces the other to `auto` — so a badge
+     hanging outside the tile is simply clipped on a phone.
+     In flow, in the column this face already was, overlap is STRUCTURALLY
+     IMPOSSIBLE rather than tuned away. It fits at every size: picture .30 +
+     glyph .52 = .82 of the tile (44px tray -> 36px; 84px board -> 69px).
+     Gate: local-test-letter-tiles.js asserts the anchor rect never
+     intersects the glyph rect. */
+  + '.ltl-face{display:flex;flex-direction:column;align-items:center;'
+  +   'justify-content:center;line-height:1;gap:calc(var(--ltl-tile,64px)*.04);}'
   + '.ltl-face-txt{font-family:var(--lcs-font-display);font-weight:700;'
   +   'text-transform:lowercase;letter-spacing:-.02em;'
   +   'font-size:calc(var(--ltl-tile,64px)*.52);color:#146B5E;}'
   + '.ltl-face.warm .ltl-face-txt{color:#C9502A;}'
   + '.ltl-face.multi .ltl-face-txt{font-size:calc(var(--ltl-tile,64px)*.4);}'
-  + '.ltl-anchor{position:absolute;top:calc(var(--ltl-tile,64px)*-0.16);'
-  +   'right:calc(var(--ltl-tile,64px)*-0.14);width:max(21px,calc(var(--ltl-tile,64px)*.36));'
-  +   'height:max(21px,calc(var(--ltl-tile,64px)*.36));object-fit:contain;pointer-events:none;'
-  +   'background:var(--lcs-surface);border-radius:50%;padding:2px;'
-  +   'box-shadow:var(--lcs-shadow-sm);}'
+  /* no background/border-radius/box-shadow: those punched the badge out of
+     the glyph it was covering. In flow they are only noise, and the source
+     WebP already carries a real alpha channel. */
+  + '.ltl-anchor{display:block;flex:0 0 auto;'
+  +   'width:max(15px,calc(var(--ltl-tile,64px)*.30));'
+  +   'height:max(15px,calc(var(--ltl-tile,64px)*.30));'
+  +   'object-fit:contain;pointer-events:none;}'
   + '.ltl-tie{width:60%;max-width:56px;height:8px;margin-top:2px;}'
   + '.ltl-wiggle{animation:ltlWiggle .3s var(--lcs-ease);}'
   + '@keyframes ltlWiggle{0%{rotate:0deg;}30%{rotate:2deg;}70%{rotate:-2deg;}100%{rotate:0deg;}}'
@@ -1613,15 +1634,21 @@ var LetterTiles = {
   +   'grid-template-columns:repeat(auto-fill,minmax(52px,1fr));gap:8px;}'
   + '.ltl-traytile.sheet{width:100%;}'
 
-  /* narrow phones: single-row scrollable tray + sheet button; keep the
-     letter dominant over the anchor picture at small tile sizes */
+  /* narrow phones: single-row scrollable tray + sheet button.
+     ⚠ The anchor-shrink rule that used to live here is GONE. Its comment read
+     "keep the letter dominant over the anchor picture at small tile sizes" —
+     it was a band-aid over the absolute-positioning defect above, it only
+     ever applied below 560px (so the desktop case, where the operator found
+     the bug, had no mitigation at all), and it is now the same .30 size the
+     base rule uses. Leaving it would silently shrink the picture on phones
+     for no reason. ⚠ Note this overflow-x is also WHY the picture cannot
+     hang outside the tile: a non-visible overflow on one axis forces the
+     other to auto, which clips it. */
   + '@media (max-width:560px){'
   +   '.ltl-tray{flex-wrap:nowrap;overflow-x:auto;justify-content:flex-start;'
   +     'scrollbar-width:thin;}'
   +   '.ltl-group{flex-wrap:nowrap;}'
   +   '.ltl-sheetbtn{display:grid;}'
-  +   '.ltl-tray .ltl-anchor{width:max(15px,calc(var(--ltl-tile,64px)*.30));'
-  +     'height:max(15px,calc(var(--ltl-tile,64px)*.30));}'
   + '}'
 
   /* reduced motion */

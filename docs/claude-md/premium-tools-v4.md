@@ -14,7 +14,9 @@ Working record: `[[project_premium_tools_v4_catalog]]` · `[[project_arrow_strip
 > games program, which is cancelled forever). **The catalog is approved: do not re-research or
 > re-design it.** Read the entry for the next tool below, run the four-surface fence, then build
 > to the recipe at the end of this file.
-> **STATE: `#36 The Number Sieve` LIVE · `#37 The Arrow Strip` LIVE → NEXT = `C1 The Draw Bag`.**
+> **STATE: `#36 The Number Sieve` LIVE · `#37 The Arrow Strip` LIVE · `#38 The Draw Bag` LIVE
+> → NEXT = `A2 Splat Mat`.** Constants for the next build: header ordinal **#39** ·
+> `PREV = 'draw-bag'` · `TOOL_WRAPPER_VERSION` **7.51 → 7.52** · `TOOL_KEYS` position **42**.
 
 ---
 
@@ -372,7 +374,24 @@ tool suite**, and the printable `primitives/thermometer.js` is `min:0, max:40` a
 > alive for a year.** So v4 admits science only where ground truth is **geometry, arithmetic or
 > physics** (C2, C5) or **our own closed enums** (C4).
 
-### C1 · The Draw Bag — ⬅ **NEXT TO BUILD**
+### C1 · The Draw Bag — ✅ SHIPPED as tool #38
+Full record → `[[project_draw_bag_tool]]`. Headlines: chance was **virgin on all four fence
+surfaces**, and four adjacent neighbours were subtracted rather than negotiated (name-sticks owns
+without-replacement + the cup + `tipBack`; estimation-jar owns the reveal + the throwing accessor;
+class-graph owns record→bar; arrow-strip owns two-run-as-ghost-overlay, so record two lies UNDER
+record one). First v4 tool with legitimate randomness → the gate bans **unseeded** randomness.
+⚠ **THE CATALOG'S GATE SPEC WAS RIGHT BUT INCOMPLETE:** χ² is only the backstop; the real theorem
+is the **exact prefix walk against an expanded-array oracle** (a different algorithm), because a
+modulo-bias mutation over ≤24 outcomes is invisible to χ².
+⚠ ⭐ **A LAW-LEVEL LESSON: my own D14 ban was too WIDE.** It banned the SUBJECT word alongside the
+verdict, so the German panel's `Der Zufallsbeutel` — from *Zufallsexperiment*, the actual
+Grundschule register — would have failed the build. The v4 law already says authored language is
+chrome "(title, settings, the paid chip)"; **naming the domain is not delivering a verdict.** Bans
+are now poison-tested in BOTH directions, and the landing prose may name its official curriculum
+strand (KMK *Daten, Häufigkeit und Wahrscheinlichkeit*, BNCC *Probabilidade e estatística*, Lgr22
+*Sannolikhet och statistik*) from an explicit, auditable exemption list.
+
+*(historical entry follows)*
 An opaque bag; tap to draw one thing, it lands on a permanent record strip and goes back in. The bag
 is never shown. **THE INVENTION — the same bag can be run twice.** Draw twenty, park that strip,
 re-run the *identical* bag, lay strip two under strip one: two different pictures from one identical
@@ -525,8 +544,8 @@ work before C4**, exactly as the original corpus was run before Sorting Hoops.
 
 One tool per plan-mode session, registration inside the build commit — the proven v3 cadence.
 
-- **Wave 1 — prove the thesis (4).** ✅ `A1 Number Sieve` · ✅ `B1 Arrow Strip` · **`C1 Draw Bag`** ·
-  `A2 Splat Mat`.
+- **Wave 1 — prove the thesis (4).** ✅ `A1 Number Sieve` · ✅ `B1 Arrow Strip` · ✅ `C1 Draw Bag` ·
+  **`A2 Splat Mat`** ⬅ NEXT, and it closes wave 1 — after which the honest test below applies.
   *Why these four:* A1 has the strongest gate story on the platform and the largest machine-growable
   repertoire; B1 and C1 are the two clearest cases of the European slot shape and both are wordless
   by construction rather than by translation effort; A2 carries the largest proven demand.

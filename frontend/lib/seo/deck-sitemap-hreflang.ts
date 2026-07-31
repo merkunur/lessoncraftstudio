@@ -48,9 +48,12 @@ export function buildDeckHreflangLinks(
     lines.push(`  <xhtml:link rel="alternate" hreflang="${esc(code)}" href="${esc(url)}" />`);
   });
 
-  // x-default: prefer the en sibling, else this deck.
-  const enSibling = siblings.find((s) => s.language === 'en');
-  const xDefaultUrl = urlFor(enSibling ?? deck);
-  lines.push(`  <xhtml:link rel="alternate" hreflang="x-default" href="${esc(xDefaultUrl)}" />`);
+  // x-default ONLY when an en sibling exists — same rule as buildHreflangAlternates.
+  // Falling back to `this deck` made every non-EN deck without an English sibling
+  // declare itself the worldwide default for unmatched-language searchers.
+  const enSibling = siblings.find((s) => s.language === 'en') ?? (deck.language === 'en' ? deck : undefined);
+  if (enSibling) {
+    lines.push(`  <xhtml:link rel="alternate" hreflang="x-default" href="${esc(urlFor(enSibling))}" />`);
+  }
   return lines;
 }

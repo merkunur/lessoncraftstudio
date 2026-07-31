@@ -1019,6 +1019,34 @@
     "metaTitle": "Lateralidad y orientación espacial para primaria | gratis",
     "metaDescription": "Tapete cuadriculado y tarjetas sin palabras: la clase arma el recorrido, dice dónde va a parar el escarabajo y solo entonces lo ejecuta. Sin puntajes."
   },
+  "draw-bag": {
+    "slug": "bolsa-del-azar-experimentos-aleatorios",
+    "name": "La bolsa del azar",
+    "tagline": "La clase dice qué cree que hay adentro; en cuanto sale la primera pieza esa predicción se congela, y cada pieza sacada se queda en el registro y regresa a la bolsa.",
+    "about": [
+      "La bolsa del azar es una bolsa cerrada en la pantalla del salón, y nadie puede ver adentro: ni los niños ni usted, si abrió una bolsa ya preparada. Debajo hay seis piezas de colores repartidas en tres repisas — creemos que esto sí está en la bolsa, todavía sin decidir, creemos que esto no está — y los niños las van pasando de una repisa a otra mientras discuten en voz alta. Al lado espera el registro: una fila de casillas vacías que se irá llenando. Sobre el material no hay ni una palabra, ni un número, ni una etiqueta, así que un niño que todavía no lee toma su turno completo.",
+      "La idea es una sola y cuesta trabajo: la misma causa produce dos imágenes distintas. En cuanto sale la primera pieza, lo que la clase dijo queda congelado y ya no se puede editar, así que sigue ahí, tal cual, cuando por fin se abre la bolsa y el contenido real se acomoda junto a la predicción. Y cuando un niño afirma que ahí adentro no hay ninguna verde, no le contesta un adulto: le contesta una pieza verde que aparece en el registro. La herramienta no marca nada ni bien ni mal, no cuenta puntos, no toma el tiempo y nunca le dice a la clase qué esperar.",
+      "Una bolsa de tela del salón no se puede volver a correr igual: en cuanto usted la sacude ya es otro intento, y nadie puede comprobar que adentro seguían exactamente las mismas piezas. Una presentación tampoco sirve, porque la segunda ronda va escrita de antemano y los niños lo notan enseguida. Aquí la segunda ronda usa la misma bolsa, sin cambiarle nada, y el segundo registro queda debajo del primero, casilla con casilla: no coinciden, y eso no es culpa de nadie. Además no se borra nada nunca — cada pieza sacada se queda en el registro y, al mismo tiempo, regresa a la bolsa, así que lo que hay adentro es lo mismo al principio y al final de la sesión.",
+      "El aparato completo es gratuito y así se queda: la bolsa, la predicción en las tres repisas, sacar pieza por pieza, el registro, abrir la bolsa al final, llenar usted su propia bolsa y ocho bolsas ya preparadas para empezar mañana mismo. El plan Docente agrega la segunda ronda con la misma bolsa, el registro largo de cuarenta piezas, las piezas con imágenes — frutas, vehículos, animales — alrededor de ciento veinte bolsas curadas y la impresión del registro para pegarlo en el cuaderno."
+    ],
+    "howToUse": [
+      "Prepare la bolsa fuera de la vista del grupo, o empiece con una bolsa ya hecha. Si es una bolsa ya hecha, dígalo en voz alta: usted tampoco sabe qué hay adentro. Esa confesión es la que vuelve honesta toda la discusión que sigue.",
+      "Antes de sacar nada, pida al grupo repartir las seis fichas en los tres estantes: creemos que sí está, todavía no decidimos, creemos que no está. Deje que discutan, que se muevan las fichas varias veces, y al final pida que alguien diga la decisión del grupo en voz alta, frente a todos, cuando todavía no ha salido ni una sola ficha.",
+      "Avise que esa decisión se congela en cuanto salga la primera ficha y que ya nadie va a poder cambiarla. Va a seguir ahí, igualita, cuando se abra la bolsa. Por eso conviene tomarla en serio ahora y no después.",
+      "Toquen la bolsa. La ficha que sale queda anotada para siempre en el registro y regresa de inmediato a la bolsa: la bolsa es exactamente la misma antes y después de cada extracción. Diga las dos cosas en voz alta la primera vez, porque si no el grupo cree que la bolsa se va vaciando.",
+      "Cuando se llene el registro, vuelvan a sacar de la misma bolsa. El segundo registro se acomoda debajo del primero y no se parece. Haga la pregunta y luego quédese callada: la bolsa no cambió, entonces por qué salieron dos registros distintos.",
+      "Abran la bolsa. El contenido real aparece junto a la decisión congelada del grupo y la herramienta no dice nada. Usted tampoco: deje que ellos comparen solos y expliquen lo que están viendo."
+    ],
+    "classroomIdeas": [
+      "En primero funciona sin una sola letra escrita: no hay nada que leer ni nada que anotar, así que un alumno que todavía no lee toma un turno completo. Ahí lo que se trabaja es el lenguaje oral de la cantidad sobre datos que el propio grupo acaba de producir: muchos, pocos, ninguno, igual que, más que.",
+      "En segundo y tercero trátelo como recolección de datos, que es como lo pide el programa. En el campo formativo Saberes y pensamiento científico los contenidos de esos grados piden recolectar, registrar y leer datos en tablas y pictogramas, y aquí los datos no vienen de un libro sino del grupo: los alumnos pasan el registro a una tabla de conteo y arman el pictograma. Aclaración honesta para la planeación: en estos grados el azar no es objeto de estudio en el programa sintético, aparece apenas como situaciones de azar en la conversación. No la vuelva una clase sobre el azar, vuélvala una clase sobre datos y sobre argumentar.",
+      "Haga de la segunda ronda el centro de la sesión: una sola bolsa, dos registros que no se parecen. La pregunta qué cambió entre uno y otro da para todo un debate sin que usted dé la explicación. La segunda ronda, el registro largo y la impresión forman parte del plan Docente.",
+      "Aproveche el estante de en medio. Todavía no decidimos es una postura que se vale sostener y a la que se vale regresar. Cuando un niño asegura que ahí no hay ninguna ficha verde y acaba saliendo una ficha verde, quien se lo muestra es el registro, no la maestra. Cambia de opinión frente a un hecho y nadie lo corrigió.",
+      "Con las figuras de la versión gratuita, pida que nombren cada ficha en voz alta justo cuando sale: el círculo, el cuadrado, el triángulo, el rombo, el hexágono, la estrella. Como ritual de entrada, use la misma bolsa varios días seguidos y deje los registros pegados en la pared: al cabo de la semana el grupo tiene enfrente una colección entera de registros salidos de una sola bolsa."
+    ],
+    "metaTitle": "Experimentos aleatorios y azar en primaria | gratis",
+    "metaDescription": "Bolsa cerrada para el pizarrón: la clase predice qué hay adentro, la predicción se congela y cada pieza sacada queda a la vista y regresa a la bolsa."
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

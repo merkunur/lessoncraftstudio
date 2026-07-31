@@ -1,0 +1,494 @@
+{
+  "version": 1,
+  "note": "THE BAG BOOK. Locale-NEUTRAL in its bags: a bag is six counts and nothing else, so it carries no words in any language and can be grown and PROVEN mechanically (validity is arithmetic — see scripts/verify-draw-bag.js D16). The SKINS do carry per-locale labels, but not one of them was authored for this tool: the nouns are read from REFERENCE TRANSLATIONS/image-vocabulary.js and the theme names from frontend/config/topics-taxonomy.json (axes.theme.<key>.name), so a screen reader hears the right word in all eleven locales at zero authoring cost. A bag record is EXACTLY {id, b, free} — the family that balanced this library (certain / two-kind / even / lopsided / rare-one) is deliberately NOT emitted, because a public field naming a bag's shape is a hint about its contents, and the ids are a plain sequence that encodes nothing. freeMax/premiumMax here are a LIBRARY-SIZE BUDGET (how many bags are open), NOT a capacity ceiling — arrow-strip-mats.json uses them the same way and estimation-jar-sets.json does not. Regenerate with: node scripts/gen-draw-bag-bags.js --write",
+  "freeMax": 8,
+  "premiumMax": 120,
+  "bags": [
+    { "id": "b-001", "b": { "c": 10, "s": 7, "t": 0, "d": 0, "h": 0, "x": 0 }, "free": true },
+    { "id": "b-002", "b": { "c": 2, "s": 6, "t": 6, "d": 3, "h": 2, "x": 2 }, "free": true },
+    { "id": "b-003", "b": { "c": 0, "s": 0, "t": 5, "d": 5, "h": 5, "x": 0 }, "free": true },
+    { "id": "b-004", "b": { "c": 0, "s": 0, "t": 0, "d": 9, "h": 4, "x": 0 }, "free": true },
+    { "id": "b-005", "b": { "c": 4, "s": 2, "t": 0, "d": 0, "h": 8, "x": 7 }, "free": true },
+    { "id": "b-006", "b": { "c": 9, "s": 0, "t": 0, "d": 0, "h": 0, "x": 9 }, "free": true },
+    { "id": "b-007", "b": { "c": 9, "s": 0, "t": 0, "d": 0, "h": 0, "x": 0 }, "free": true },
+    { "id": "b-008", "b": { "c": 0, "s": 9, "t": 5, "d": 0, "h": 0, "x": 0 }, "free": true },
+
+    { "id": "b-009", "b": { "c": 0, "s": 0, "t": 6, "d": 0, "h": 0, "x": 0 }, "free": false },
+    { "id": "b-010", "b": { "c": 0, "s": 0, "t": 0, "d": 3, "h": 3, "x": 0 }, "free": false },
+    { "id": "b-011", "b": { "c": 1, "s": 1, "t": 1, "d": 1, "h": 1, "x": 1 }, "free": false },
+    { "id": "b-012", "b": { "c": 1, "s": 1, "t": 0, "d": 0, "h": 0, "x": 4 }, "free": false },
+    { "id": "b-013", "b": { "c": 2, "s": 2, "t": 1, "d": 1, "h": 1, "x": 1 }, "free": false },
+    { "id": "b-014", "b": { "c": 0, "s": 7, "t": 0, "d": 0, "h": 0, "x": 0 }, "free": false },
+    { "id": "b-015", "b": { "c": 0, "s": 0, "t": 4, "d": 3, "h": 0, "x": 0 }, "free": false },
+    { "id": "b-016", "b": { "c": 0, "s": 0, "t": 0, "d": 2, "h": 2, "x": 2 }, "free": false },
+    { "id": "b-017", "b": { "c": 0, "s": 0, "t": 0, "d": 0, "h": 4, "x": 2 }, "free": false },
+    { "id": "b-018", "b": { "c": 1, "s": 0, "t": 0, "d": 0, "h": 0, "x": 9 }, "free": false },
+    { "id": "b-019", "b": { "c": 11, "s": 0, "t": 0, "d": 0, "h": 0, "x": 0 }, "free": false },
+    { "id": "b-020", "b": { "c": 0, "s": 4, "t": 4, "d": 0, "h": 0, "x": 0 }, "free": false },
+    { "id": "b-021", "b": { "c": 0, "s": 0, "t": 2, "d": 2, "h": 2, "x": 2 }, "free": false },
+    { "id": "b-022", "b": { "c": 0, "s": 0, "t": 0, "d": 5, "h": 1, "x": 1 }, "free": false },
+    { "id": "b-023", "b": { "c": 3, "s": 1, "t": 0, "d": 0, "h": 5, "x": 3 }, "free": false },
+    { "id": "b-024", "b": { "c": 4, "s": 0, "t": 0, "d": 0, "h": 0, "x": 5 }, "free": false },
+    { "id": "b-025", "b": { "c": 3, "s": 3, "t": 3, "d": 0, "h": 0, "x": 0 }, "free": false },
+    { "id": "b-026", "b": { "c": 0, "s": 6, "t": 1, "d": 0, "h": 0, "x": 0 }, "free": false },
+    { "id": "b-027", "b": { "c": 0, "s": 0, "t": 9, "d": 2, "h": 1, "x": 1 }, "free": false },
+    { "id": "b-028", "b": { "c": 0, "s": 0, "t": 0, "d": 5, "h": 5, "x": 0 }, "free": false },
+    { "id": "b-029", "b": { "c": 2, "s": 2, "t": 2, "d": 0, "h": 2, "x": 2 }, "free": false },
+    { "id": "b-030", "b": { "c": 2, "s": 0, "t": 0, "d": 0, "h": 0, "x": 6 }, "free": false },
+    { "id": "b-031", "b": { "c": 7, "s": 5, "t": 1, "d": 1, "h": 0, "x": 0 }, "free": false },
+    { "id": "b-032", "b": { "c": 0, "s": 6, "t": 5, "d": 0, "h": 0, "x": 0 }, "free": false },
+    { "id": "b-033", "b": { "c": 2, "s": 2, "t": 2, "d": 2, "h": 2, "x": 2 }, "free": false },
+    { "id": "b-034", "b": { "c": 0, "s": 0, "t": 0, "d": 7, "h": 2, "x": 0 }, "free": false },
+    { "id": "b-035", "b": { "c": 2, "s": 1, "t": 1, "d": 0, "h": 6, "x": 5 }, "free": false },
+    { "id": "b-036", "b": { "c": 6, "s": 0, "t": 0, "d": 0, "h": 0, "x": 6 }, "free": false },
+    { "id": "b-037", "b": { "c": 4, "s": 4, "t": 4, "d": 0, "h": 0, "x": 0 }, "free": false },
+    { "id": "b-038", "b": { "c": 0, "s": 6, "t": 4, "d": 0, "h": 0, "x": 0 }, "free": false },
+    { "id": "b-039", "b": { "c": 2, "s": 2, "t": 4, "d": 4, "h": 2, "x": 2 }, "free": false },
+    { "id": "b-040", "b": { "c": 0, "s": 0, "t": 0, "d": 7, "h": 5, "x": 0 }, "free": false },
+    { "id": "b-041", "b": { "c": 3, "s": 3, "t": 3, "d": 0, "h": 3, "x": 3 }, "free": false },
+    { "id": "b-042", "b": { "c": 3, "s": 0, "t": 0, "d": 0, "h": 0, "x": 7 }, "free": false },
+    { "id": "b-043", "b": { "c": 7, "s": 4, "t": 2, "d": 2, "h": 1, "x": 0 }, "free": false },
+    { "id": "b-044", "b": { "c": 0, "s": 7, "t": 6, "d": 0, "h": 0, "x": 0 }, "free": false },
+    { "id": "b-045", "b": { "c": 0, "s": 0, "t": 4, "d": 4, "h": 4, "x": 4 }, "free": false },
+    { "id": "b-046", "b": { "c": 0, "s": 0, "t": 0, "d": 7, "h": 2, "x": 2 }, "free": false },
+    { "id": "b-047", "b": { "c": 1, "s": 1, "t": 1, "d": 1, "h": 12, "x": 1 }, "free": false },
+    { "id": "b-048", "b": { "c": 7, "s": 0, "t": 0, "d": 0, "h": 0, "x": 7 }, "free": false },
+    { "id": "b-049", "b": { "c": 3, "s": 3, "t": 3, "d": 3, "h": 3, "x": 3 }, "free": false },
+    { "id": "b-050", "b": { "c": 0, "s": 8, "t": 3, "d": 0, "h": 0, "x": 0 }, "free": false },
+    { "id": "b-051", "b": { "c": 1, "s": 0, "t": 5, "d": 5, "h": 3, "x": 3 }, "free": false },
+    { "id": "b-052", "b": { "c": 0, "s": 0, "t": 0, "d": 8, "h": 6, "x": 0 }, "free": false },
+    { "id": "b-053", "b": { "c": 4, "s": 4, "t": 4, "d": 0, "h": 4, "x": 4 }, "free": false },
+    { "id": "b-054", "b": { "c": 2, "s": 2, "t": 0, "d": 0, "h": 0, "x": 8 }, "free": false },
+    { "id": "b-055", "b": { "c": 8, "s": 5, "t": 2, "d": 2, "h": 0, "x": 0 }, "free": false },
+    { "id": "b-056", "b": { "c": 0, "s": 8, "t": 7, "d": 0, "h": 0, "x": 0 }, "free": false },
+    { "id": "b-057", "b": { "c": 0, "s": 0, "t": 5, "d": 5, "h": 5, "x": 5 }, "free": false },
+    { "id": "b-058", "b": { "c": 0, "s": 0, "t": 0, "d": 8, "h": 4, "x": 0 }, "free": false },
+    { "id": "b-059", "b": { "c": 2, "s": 2, "t": 2, "d": 2, "h": 7, "x": 3 }, "free": false },
+    { "id": "b-060", "b": { "c": 8, "s": 0, "t": 0, "d": 0, "h": 0, "x": 8 }, "free": false },
+    { "id": "b-061", "b": { "c": 7, "s": 7, "t": 7, "d": 0, "h": 0, "x": 0 }, "free": false },
+    { "id": "b-062", "b": { "c": 0, "s": 8, "t": 3, "d": 2, "h": 0, "x": 0 }, "free": false },
+    { "id": "b-063", "b": { "c": 2, "s": 0, "t": 7, "d": 5, "h": 2, "x": 2 }, "free": false },
+    { "id": "b-064", "b": { "c": 0, "s": 0, "t": 0, "d": 9, "h": 7, "x": 0 }, "free": false },
+    { "id": "b-065", "b": { "c": 4, "s": 4, "t": 4, "d": 4, "h": 4, "x": 4 }, "free": false },
+    { "id": "b-066", "b": { "c": 2, "s": 2, "t": 0, "d": 0, "h": 0, "x": 9 }, "free": false },
+    { "id": "b-067", "b": { "c": 9, "s": 7, "t": 1, "d": 1, "h": 0, "x": 0 }, "free": false },
+    { "id": "b-068", "b": { "c": 0, "s": 9, "t": 8, "d": 0, "h": 0, "x": 0 }, "free": false },
+    { "id": "b-069", "b": { "c": 0, "s": 0, "t": 6, "d": 6, "h": 6, "x": 6 }, "free": false },
+    { "id": "b-070", "b": { "c": 0, "s": 0, "t": 0, "d": 11, "h": 2, "x": 0 }, "free": false },
+    { "id": "b-071", "b": { "c": 3, "s": 3, "t": 1, "d": 1, "h": 7, "x": 4 }, "free": false },
+    { "id": "b-072", "b": { "c": 8, "s": 0, "t": 0, "d": 0, "h": 0, "x": 10 }, "free": false },
+    { "id": "b-073", "b": { "c": 9, "s": 3, "t": 2, "d": 0, "h": 0, "x": 0 }, "free": false },
+    { "id": "b-074", "b": { "c": 0, "s": 7, "t": 4, "d": 3, "h": 3, "x": 2 }, "free": false },
+    { "id": "b-075", "b": { "c": 0, "s": 0, "t": 10, "d": 9, "h": 0, "x": 0 }, "free": false },
+    { "id": "b-076", "b": { "c": 0, "s": 0, "t": 0, "d": 11, "h": 3, "x": 0 }, "free": false },
+    { "id": "b-077", "b": { "c": 4, "s": 1, "t": 0, "d": 0, "h": 7, "x": 7 }, "free": false },
+    { "id": "b-078", "b": { "c": 8, "s": 0, "t": 0, "d": 0, "h": 0, "x": 11 }, "free": false },
+    { "id": "b-079", "b": { "c": 9, "s": 3, "t": 3, "d": 0, "h": 0, "x": 0 }, "free": false },
+    { "id": "b-080", "b": { "c": 2, "s": 6, "t": 4, "d": 3, "h": 3, "x": 2 }, "free": false },
+    { "id": "b-081", "b": { "c": 0, "s": 0, "t": 10, "d": 10, "h": 0, "x": 0 }, "free": false },
+    { "id": "b-082", "b": { "c": 0, "s": 0, "t": 0, "d": 11, "h": 4, "x": 0 }, "free": false },
+    { "id": "b-083", "b": { "c": 3, "s": 2, "t": 2, "d": 0, "h": 10, "x": 3 }, "free": false },
+    { "id": "b-084", "b": { "c": 9, "s": 0, "t": 0, "d": 0, "h": 0, "x": 11 }, "free": false },
+    { "id": "b-085", "b": { "c": 9, "s": 6, "t": 0, "d": 0, "h": 0, "x": 0 }, "free": false },
+    { "id": "b-086", "b": { "c": 0, "s": 8, "t": 6, "d": 2, "h": 2, "x": 2 }, "free": false },
+    { "id": "b-087", "b": { "c": 0, "s": 0, "t": 11, "d": 10, "h": 0, "x": 0 }, "free": false },
+    { "id": "b-088", "b": { "c": 0, "s": 0, "t": 0, "d": 10, "h": 6, "x": 0 }, "free": false },
+    { "id": "b-089", "b": { "c": 1, "s": 1, "t": 0, "d": 0, "h": 9, "x": 9 }, "free": false },
+    { "id": "b-090", "b": { "c": 9, "s": 0, "t": 0, "d": 0, "h": 0, "x": 12 }, "free": false },
+    { "id": "b-091", "b": { "c": 12, "s": 4, "t": 0, "d": 0, "h": 0, "x": 0 }, "free": false },
+    { "id": "b-092", "b": { "c": 1, "s": 9, "t": 7, "d": 2, "h": 1, "x": 1 }, "free": false },
+    { "id": "b-093", "b": { "c": 0, "s": 0, "t": 11, "d": 11, "h": 0, "x": 0 }, "free": false },
+    { "id": "b-094", "b": { "c": 0, "s": 0, "t": 0, "d": 11, "h": 6, "x": 0 }, "free": false },
+    { "id": "b-095", "b": { "c": 3, "s": 3, "t": 2, "d": 0, "h": 8, "x": 5 }, "free": false },
+    { "id": "b-096", "b": { "c": 10, "s": 0, "t": 0, "d": 0, "h": 0, "x": 12 }, "free": false },
+    { "id": "b-097", "b": { "c": 12, "s": 5, "t": 0, "d": 0, "h": 0, "x": 0 }, "free": false },
+    { "id": "b-098", "b": { "c": 2, "s": 5, "t": 5, "d": 4, "h": 3, "x": 3 }, "free": false },
+    { "id": "b-099", "b": { "c": 0, "s": 0, "t": 12, "d": 11, "h": 0, "x": 0 }, "free": false },
+    { "id": "b-100", "b": { "c": 0, "s": 0, "t": 0, "d": 12, "h": 3, "x": 3 }, "free": false },
+    { "id": "b-101", "b": { "c": 4, "s": 3, "t": 2, "d": 1, "h": 8, "x": 4 }, "free": false },
+    { "id": "b-102", "b": { "c": 12, "s": 0, "t": 0, "d": 0, "h": 0, "x": 12 }, "free": false },
+    { "id": "b-103", "b": { "c": 12, "s": 6, "t": 0, "d": 0, "h": 0, "x": 0 }, "free": false },
+    { "id": "b-104", "b": { "c": 0, "s": 11, "t": 4, "d": 4, "h": 2, "x": 1 }, "free": false },
+    { "id": "b-105", "b": { "c": 0, "s": 0, "t": 12, "d": 7, "h": 0, "x": 0 }, "free": false },
+    { "id": "b-106", "b": { "c": 3, "s": 1, "t": 0, "d": 8, "h": 6, "x": 4 }, "free": false },
+    { "id": "b-107", "b": { "c": 3, "s": 0, "t": 0, "d": 0, "h": 12, "x": 5 }, "free": false },
+    { "id": "b-108", "b": { "c": 6, "s": 3, "t": 1, "d": 0, "h": 0, "x": 12 }, "free": false },
+    { "id": "b-109", "b": { "c": 11, "s": 4, "t": 2, "d": 2, "h": 2, "x": 2 }, "free": false },
+    { "id": "b-110", "b": { "c": 2, "s": 7, "t": 4, "d": 4, "h": 4, "x": 2 }, "free": false },
+    { "id": "b-111", "b": { "c": 2, "s": 1, "t": 9, "d": 4, "h": 4, "x": 3 }, "free": false },
+    { "id": "b-112", "b": { "c": 2, "s": 1, "t": 0, "d": 12, "h": 4, "x": 4 }, "free": false },
+    { "id": "b-113", "b": { "c": 5, "s": 1, "t": 1, "d": 0, "h": 8, "x": 8 }, "free": false },
+    { "id": "b-114", "b": { "c": 9, "s": 1, "t": 1, "d": 0, "h": 0, "x": 12 }, "free": false },
+    { "id": "b-115", "b": { "c": 11, "s": 4, "t": 3, "d": 3, "h": 2, "x": 1 }, "free": false },
+    { "id": "b-116", "b": { "c": 2, "s": 6, "t": 6, "d": 6, "h": 2, "x": 2 }, "free": false },
+    { "id": "b-117", "b": { "c": 1, "s": 1, "t": 8, "d": 7, "h": 4, "x": 3 }, "free": false },
+    { "id": "b-118", "b": { "c": 2, "s": 2, "t": 0, "d": 10, "h": 8, "x": 2 }, "free": false },
+    { "id": "b-119", "b": { "c": 5, "s": 3, "t": 2, "d": 0, "h": 7, "x": 7 }, "free": false },
+    { "id": "b-120", "b": { "c": 6, "s": 6, "t": 2, "d": 0, "h": 0, "x": 10 }, "free": false }
+  ],
+  "skins": [
+    {
+      "id": "fruits",
+      "free": false,
+      "name": {
+        "en": "Fruits",
+        "de": "Früchte",
+        "fr": "Fruits",
+        "es": "Frutas",
+        "pt": "Frutas",
+        "it": "Frutta",
+        "nl": "Fruit",
+        "sv": "Frukter",
+        "da": "Frugter",
+        "no": "Frukter",
+        "fi": "Hedelmät"
+      },
+      "items": {
+        "c": {
+          "dir": "fruits",
+          "file": "apple",
+          "name": {
+            "en": "Apple",
+            "de": "Apfel",
+            "fr": "Pomme",
+            "es": "Manzana",
+            "pt": "Maçã",
+            "it": "Mela",
+            "nl": "Appel",
+            "sv": "Äpple",
+            "da": "Æble",
+            "no": "Eple",
+            "fi": "Omena"
+          }
+        },
+        "s": {
+          "dir": "fruits",
+          "file": "banana",
+          "name": {
+            "en": "Banana",
+            "de": "Banane",
+            "fr": "Banane",
+            "es": "Plátano",
+            "pt": "Banana",
+            "it": "Banana",
+            "nl": "Banaan",
+            "sv": "Banan",
+            "da": "Banan",
+            "no": "Banan",
+            "fi": "Banaani"
+          }
+        },
+        "t": {
+          "dir": "fruits",
+          "file": "cherry",
+          "name": {
+            "en": "Cherry",
+            "de": "Kirsche",
+            "fr": "Cerise",
+            "es": "Cereza",
+            "pt": "Cereja",
+            "it": "Ciliegia",
+            "nl": "Kers",
+            "sv": "Körsbär",
+            "da": "Kirsebær",
+            "no": "Kirsebær",
+            "fi": "Kirsikka"
+          }
+        },
+        "d": {
+          "dir": "fruits",
+          "file": "lemon",
+          "name": {
+            "en": "Lemon",
+            "de": "Zitrone",
+            "fr": "Citron",
+            "es": "Limón",
+            "pt": "Limão",
+            "it": "Limone",
+            "nl": "Citroen",
+            "sv": "Citron",
+            "da": "Citron",
+            "no": "Sitron",
+            "fi": "Sitruuna"
+          }
+        },
+        "h": {
+          "dir": "fruits",
+          "file": "pear",
+          "name": {
+            "en": "Pear",
+            "de": "Birne",
+            "fr": "Poire",
+            "es": "Pera",
+            "pt": "Pera",
+            "it": "Pera",
+            "nl": "Peer",
+            "sv": "Päron",
+            "da": "Pære",
+            "no": "Pære",
+            "fi": "Päärynä"
+          }
+        },
+        "x": {
+          "dir": "fruits",
+          "file": "strawberry",
+          "name": {
+            "en": "Strawberry",
+            "de": "Erdbeere",
+            "fr": "Fraise",
+            "es": "Fresa",
+            "pt": "Morango",
+            "it": "Fragola",
+            "nl": "Aardbei",
+            "sv": "Jordgubbe",
+            "da": "Jordbær",
+            "no": "Jordbær",
+            "fi": "Mansikka"
+          }
+        }
+      }
+    },
+    {
+      "id": "vehicles",
+      "free": false,
+      "name": {
+        "en": "Vehicles",
+        "de": "Fahrzeuge",
+        "fr": "Véhicules",
+        "es": "Vehículos",
+        "pt": "Veículos",
+        "it": "Veicoli",
+        "nl": "Voertuigen",
+        "sv": "Fordon",
+        "da": "Køretøjer",
+        "no": "Kjøretøy",
+        "fi": "Ajoneuvot"
+      },
+      "items": {
+        "c": {
+          "dir": "vehicles",
+          "file": "bus",
+          "name": {
+            "en": "Bus",
+            "de": "Bus",
+            "fr": "Bus",
+            "es": "Autobús",
+            "pt": "Ônibus",
+            "it": "Autobus",
+            "nl": "Bus",
+            "sv": "Buss",
+            "da": "Bus",
+            "no": "Buss",
+            "fi": "Bussi"
+          }
+        },
+        "s": {
+          "dir": "vehicles",
+          "file": "car",
+          "name": {
+            "en": "Car",
+            "de": "Auto",
+            "fr": "Voiture",
+            "es": "Carro",
+            "pt": "Carro",
+            "it": "Automobile",
+            "nl": "Auto",
+            "sv": "Bil",
+            "da": "Bil",
+            "no": "Bil",
+            "fi": "Auto"
+          }
+        },
+        "t": {
+          "dir": "vehicles",
+          "file": "boat",
+          "name": {
+            "en": "Boat",
+            "de": "Boot",
+            "fr": "Bateau",
+            "es": "Bote",
+            "pt": "Barco",
+            "it": "Barca",
+            "nl": "Boot",
+            "sv": "Båt",
+            "da": "Båd",
+            "no": "Båt",
+            "fi": "Vene"
+          }
+        },
+        "d": {
+          "dir": "vehicles",
+          "file": "train",
+          "name": {
+            "en": "Train",
+            "de": "Zug",
+            "fr": "Train",
+            "es": "Tren",
+            "pt": "Trem",
+            "it": "Treno",
+            "nl": "Trein",
+            "sv": "Tåg",
+            "da": "Tog",
+            "no": "Tog",
+            "fi": "Juna"
+          }
+        },
+        "h": {
+          "dir": "vehicles",
+          "file": "airplane",
+          "name": {
+            "en": "Airplane",
+            "de": "Flugzeug",
+            "fr": "Avion",
+            "es": "Avión",
+            "pt": "Avião",
+            "it": "Aeroplano",
+            "nl": "Vliegtuig",
+            "sv": "Flygplan",
+            "da": "Flyvemaskine",
+            "no": "Fly",
+            "fi": "Lentokone"
+          }
+        },
+        "x": {
+          "dir": "vehicles",
+          "file": "bicycle",
+          "name": {
+            "en": "Bicycle",
+            "de": "Fahrrad",
+            "fr": "Vélo",
+            "es": "Bicicleta",
+            "pt": "Bicicleta",
+            "it": "Bicicletta",
+            "nl": "Fiets",
+            "sv": "Cykel",
+            "da": "Cykel",
+            "no": "Sykkel",
+            "fi": "Polkupyörä"
+          }
+        }
+      }
+    },
+    {
+      "id": "animals",
+      "free": false,
+      "name": {
+        "en": "Animals",
+        "de": "Tiere",
+        "fr": "Animaux",
+        "es": "Animales",
+        "pt": "Animais",
+        "it": "Animali",
+        "nl": "Dieren",
+        "sv": "Djur",
+        "da": "Dyr",
+        "no": "Dyr",
+        "fi": "Eläimet"
+      },
+      "items": {
+        "c": {
+          "dir": "animals",
+          "file": "cat",
+          "name": {
+            "en": "Cat",
+            "de": "Katze",
+            "fr": "Chat",
+            "es": "Gato",
+            "pt": "Gato",
+            "it": "Gatto",
+            "nl": "Kat",
+            "sv": "Katt",
+            "da": "Kat",
+            "no": "Katt",
+            "fi": "Kissa"
+          }
+        },
+        "s": {
+          "dir": "animals",
+          "file": "dog",
+          "name": {
+            "en": "Dog",
+            "de": "Hund",
+            "fr": "Chien",
+            "es": "Perro",
+            "pt": "Cachorro",
+            "it": "Cane",
+            "nl": "Hond",
+            "sv": "Hund",
+            "da": "Hund",
+            "no": "Hund",
+            "fi": "Koira"
+          }
+        },
+        "t": {
+          "dir": "animals",
+          "file": "fish",
+          "name": {
+            "en": "Fish",
+            "de": "Fisch",
+            "fr": "Poisson",
+            "es": "Pez",
+            "pt": "Peixe",
+            "it": "Pesce",
+            "nl": "Vis",
+            "sv": "Fisk",
+            "da": "Fisk",
+            "no": "Fisk",
+            "fi": "Kala"
+          }
+        },
+        "d": {
+          "dir": "animals",
+          "file": "owl",
+          "name": {
+            "en": "Owl",
+            "de": "Eule",
+            "fr": "Hibou",
+            "es": "Búho",
+            "pt": "Coruja",
+            "it": "Gufo",
+            "nl": "Uil",
+            "sv": "Uggla",
+            "da": "Ugle",
+            "no": "Ugle",
+            "fi": "Pöllö"
+          }
+        },
+        "h": {
+          "dir": "animals",
+          "file": "rabbit",
+          "name": {
+            "en": "Rabbit",
+            "de": "Kaninchen",
+            "fr": "Lapin",
+            "es": "Conejo",
+            "pt": "Coelho",
+            "it": "Coniglio",
+            "nl": "Konijn",
+            "sv": "Kanin",
+            "da": "Kanin",
+            "no": "Kanin",
+            "fi": "Kani"
+          }
+        },
+        "x": {
+          "dir": "animals",
+          "file": "elephant",
+          "name": {
+            "en": "Elephant",
+            "de": "Elefant",
+            "fr": "Éléphant",
+            "es": "Elefante",
+            "pt": "Elefante",
+            "it": "Elefante",
+            "nl": "Olifant",
+            "sv": "Elefant",
+            "da": "Elefant",
+            "no": "Elefant",
+            "fi": "Norsu"
+          }
+        }
+      }
+    }
+  ]
+}

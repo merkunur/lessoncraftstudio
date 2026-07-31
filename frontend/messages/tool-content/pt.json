@@ -1019,6 +1019,34 @@
     "metaTitle": "Localização e movimentação: Trilho das setas",
     "metaDescription": "Ferramenta gratuita para a lousa: a turma monta o trilho de cartas, diz onde o besouro vai parar e só então roda. Localização e movimentação nos anos iniciais."
   },
+  "draw-bag": {
+    "slug": "probabilidade-anos-iniciais-sacola-do-acaso",
+    "name": "Sacola do acaso",
+    "tagline": "Ninguém vê o que tem dentro: a turma fecha o palpite e tira uma peça de cada vez — e a mesma sacola, rodada duas vezes, dá dois registros diferentes.",
+    "about": [
+      "A Sacola do acaso é um instrumento para a lousa da sala. Na tela há uma sacola fechada e opaca, e ninguém enxerga o que tem dentro — nem você, se a sacola já veio pronta. Ao lado ficam seis peças coloridas em três prateleiras: achamos que isto está dentro, ainda sem decidir, achamos que isto não está. A turma toca nas peças, muda de lugar e discute até fechar o palpite. Depois é só tocar na sacola: sai uma peça, ela fica para sempre no registro e volta para dentro da sacola na mesma hora. Nada é apagado, e não há uma palavra sequer na tela — uma criança que ainda não lê acompanha e argumenta na rodada inteira.",
+      "O palpite é fechado antes da primeira retirada e trava ali: assim que a primeira peça sai, ninguém mexe mais nele. É essa trava que faz a ideia difícil aparecer inteira. Quando o registro enche, você roda a mesma sacola outra vez, sem trocar nada — e o segundo registro não sai igual ao primeiro. Para uma criança dos anos iniciais isso custa muito a ser aceito: se nada mudou, por que o desenho mudou? É a conversa que a BNCC abre na unidade Probabilidade e estatística, e aqui ela acontece sem fração, sem contagem e sem uma linha de texto: o registro é feito de figuras.",
+      "Uma sacola de pano de verdade não faz isso. Você não volta atrás numa retirada, a mão de quem tira sempre acaba dizendo alguma coisa, e ninguém garante para a turma que a segunda rodada usou exatamente as mesmas peças. Um slide tem a segunda rodada escrita de antemão, e as crianças percebem na hora e param de acreditar. Aqui a sacola é a mesma por construção, o primeiro registro continua na tela, embaixo do segundo, casa por casa, e o palpite congelado ainda está lá quando a sacola é aberta. E quando ela abre, o instrumento não marca nada como certo nem como errado: o que a turma achou e o que havia dentro ficam lado a lado. A criança que disse 'não tem nenhuma verde aí' é respondida por uma peça verde aparecendo no registro, e não por um adulto corrigindo.",
+      "A ferramenta gratuita traz o aparelho inteiro: a sacola, o palpite nas três prateleiras, a retirada, o registro, a abertura da sacola, a sacola que você mesmo enche e oito sacolas prontas. Não há pontuação, cronômetro nem comemoração em lugar nenhum da tela, e o instrumento nunca diz de que lado a turma deveria estar — essa discussão fica com vocês. A segunda rodada da mesma sacola, o registro longo, as peças com imagens (frutas, veículos, animais) no lugar das formas, cerca de cento e vinte sacolas prontas e a impressão do registro fazem parte do plano Professor."
+    ],
+    "howToUse": [
+      "Encha a sacola antes da aula, longe da turma — ou pegue uma das sacolas prontas e não olhe nem você. Na hora da roda, ninguém na sala sabe o que tem lá dentro.",
+      "Na lousa, pergunte o que a turma acha que tem na sacola e vá levando cada peça para uma das prateleiras: achamos que tem, achamos que não tem, ainda em dúvida. Deixe a turma discutir e trocar as peças de lugar à vontade.",
+      "Antes de sortear qualquer coisa, feche o palpite em voz alta: alguém da turma fala o combinado para todo mundo ouvir. Assim que a primeira peça sai, o palpite trava e ninguém consegue mudar de ideia caladinho no meio do caminho.",
+      "Toque na sacola e sorteie uma peça por vez. Cada peça sorteada fica marcada na fileira e volta para dentro da sacola, então a sacola continua exatamente a mesma do começo ao fim. Enquanto a fileira enche, não comente se o palpite está indo bem.",
+      "Com a fileira cheia, sorteie a MESMA sacola de novo e deixe o segundo registro embaixo do primeiro. Pergunte o que mudou e o que continuou igual: mesma sacola, mesmas peças, duas fileiras diferentes — isso é o acaso trabalhando, não erro de ninguém.",
+      "Abra a sacola só no fim. Não dê veredito e não deixe a ferramenta dar: o conteúdo aparece do lado do palpite congelado e a turma compara sozinha. Se alguém tinha dito que não havia peça verde e apareceu verde na fileira, quem respondeu foi a sacola."
+    ],
+    "classroomIdeas": [
+      "Rotina de cinco minutos na entrada, do primeiro ao terceiro ano: um palpite, uma fileira, uma segunda rodada e ponto final — sem veredito e sem conta nenhuma.",
+      "Primeiro ano, inclusão pela fala: entregue a sacola para uma criança que quase nunca levanta a mão. Fechar um palpite aqui não exige ler nem escrever nada, só apontar e falar, então quem ainda não lê participa igual.",
+      "Segundo ano, unidade temática Probabilidade e estatística da BNCC: depois de abrir a sacola, transforme a fileira em tabela de contagem e depois em gráfico de colunas no quadro, uma coluna por forma. A turma coleta, organiza e lê os próprios dados, e ainda dá para comparar as duas rodadas coluna a coluna.",
+      "Terceiro ano, duas sacolas iguais: dois grupos enchem sacolas com as mesmas peças, cada grupo sorteia a sua e depois vocês comparam as duas fileiras na lousa. A pergunta boa é por que fileiras diferentes saíram de sacolas iguais.",
+      "Coloque uma única peça de uma cor no meio de doze e vá sorteando até ela aparecer. Imprima as duas rodadas e deixe pregadas no mural: na semana seguinte a turma volta a discutir uma sacola que já foi guardada."
+    ],
+    "metaTitle": "Probabilidade anos iniciais: Sacola do acaso",
+    "metaDescription": "Ferramenta gratuita para a lousa: a turma diz o que acha que tem na sacola, tira uma peça de cada vez e ela volta para dentro. Acaso nos anos iniciais."
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

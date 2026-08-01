@@ -1134,6 +1134,25 @@
     "metaTitle": "Helemaal rondom – meten rondom een vorm, groep 3/4",
     "metaDescription": "Een touwtje ligt rondom een vorm en gaat recht op een lijn liggen die verdeeld is in breedtes van de vorm. Gratis op het digibord, groep 3/4."
   },
+  "comparison-planks": {
+    "slug": "lengte-vergelijken-twee-latten-groep-3",
+    "name": "De latten",
+    "tagline": "Twee latten groeien vanaf dezelfde streep; over het deel waar de ene verder komt verschijnt een beugel, en dat stuk komt eraf en landt aan het eind van de korte lat — waar ze samen precies even ver komen.",
+    "about": [
+      "Twee latten beginnen bij dezelfde streep, de ene boven de andere. Je sleept aan het uiteinde van een lat en die wordt langer of korter; de lat waar niemand aan zit, beweegt niet mee. Bij elke lat staat het getal dat de klas zelf heeft gekozen. Meer staat er niet op het bord: geen vraag, geen invulvak, geen tijd die wegloopt. De latten zijn glad, zonder streepjes om te tellen, want het gaat hier niet om tellen maar om zien hoe ver iets komt.",
+      "Zodra de ene lat verder komt dan de andere, verschijnt er een beugel over precies dat deel dat uitsteekt. Sleep de beugel naar beneden en dat stuk komt los van de lange lat: het is nu een eigen ding dat je kunt oppakken en verplaatsen. Het is niet nagetekend en niet nagemaakt, het is hetzelfde stuk dat er net nog aan zat. Dat verschil is belangrijk, want de klas ziet het stuk niet ergens vandaan komen, maar er letterlijk afgaan.",
+      "Breng dat stuk naar het eind van de korte lat en er gebeurt iets dat kinderen zelf zien voordat iemand het uitlegt: samen komen de korte lat en het stuk precies tot waar de lange lat eindigt. Het verschil is dus geen getal dat je moet uitrekenen. Het is een stuk van de lange lat, en het is precies het stuk dat de korte lat tekortkwam. Dat is de hele les, en die staat er nergens in woorden bij.",
+      "Bij elke lat staat het getal, maar het derde getal staat nergens. Dat is met opzet: dat getal zegt de klas hardop, voordat het stuk verplaatst wordt. Het bord vraagt niets, neemt geen antwoord aan en keurt niets goed of af — de leerkracht leidt het gesprek, niet het scherm. Zo sluit het aan bij het meten en vergelijken van lengtes uit de SLO-kerndoelen voor groep 3 en groep 4, waar kinderen eerst leren zien en benoemen voordat er gerekend wordt."
+    ],
+    "howToUse": [
+      "Sleep de uiteinden van de twee latten naar de lengtes die je de klas wilt laten zien, voordat je iets zegt.",
+      "Laat de klas eerst kijken waar de ene lat verder komt dan de andere; daar verschijnt vanzelf de beugel.",
+      "Vraag de klas om hardop te zeggen hoe lang dat stuk is, terwijl het er nog aan vastzit.",
+      "Sleep de beugel naar beneden, zodat het stuk loskomt van de lange lat.",
+      "Leg het stuk aan het eind van de korte lat en laat de klas zien dat ze samen precies even ver komen.",
+      "Zet het stuk terug en kies een volgend paar — bijvoorbeeld twee latten die even lang zijn, zodat er niets uitsteekt."
+    ]
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

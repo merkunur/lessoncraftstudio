@@ -338,6 +338,49 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
     await p5.close();
   }
 
+  /* =================================================================
+     L6 — ⭐ THE NUMERALS ACROSS THE WHOLE BAND, not one point of it
+     -----------------------------------------------------------------
+     ⚠ THIS CAUGHT A SHIPPED DEFECT AND IT SHOULD EMBARRASS L1. The
+     containment check in the viewport sweep ran on the OPENING state
+     (5 and 9) at every width, and passed everywhere — while at the top
+     of the band a plank's end sits at 99% of the bench, so its numeral
+     was centred there and "16" was CLIPPED in half. The thumbnail
+     generator found it, not the gate.
+
+     A gate that samples ONE POINT of a band is not testing the band.
+     Both extremes and both corners, at the narrowest and widest.
+     ================================================================= */
+  {
+    const p6 = await browser.newPage();
+    const PAIRS = [[1, 1], [16, 16], [1, 16], [16, 1], [16, 8], [2, 15]];
+    for (const W of [320, 1366]) {
+      await p6.setViewport({ width: W, height: W < 500 ? 740 : 900 });
+      await p6.goto(`http://127.0.0.1:${PORT}/comparison-planks.html?lang=en&embed=1`, { waitUntil: 'domcontentloaded' });
+      await p6.waitForSelector('.cmp-bench', { timeout: 9000 });
+      await wait(350);
+      for (const [a, b] of PAIRS) {
+        const r = await p6.evaluate(({ a, b }) => {
+          const inst = window.ComparisonPlanks;
+          inst.st = inst._st({ a: a, b: b, phase: 'attached', dx: 0, dy: 0 });
+          inst._paint();
+          const bx = document.querySelector('.cmp-bench').getBoundingClientRect();
+          const ns = Array.from(document.querySelectorAll('.cmp-num')).map((e) => e.getBoundingClientRect());
+          return {
+            n: ns.length,
+            outL: Math.round(Math.max.apply(null, ns.map((x) => bx.left - x.left))),
+            outR: Math.round(Math.max.apply(null, ns.map((x) => x.right - bx.right))),
+            texts: Array.from(document.querySelectorAll('.cmp-num')).map((e) => e.textContent).join(',')
+          };
+        }, { a, b });
+        is(r.n === 2, `${W}px ${a}·${b}: two numerals (vacuity guard)`);
+        is(r.outL <= 0 && r.outR <= 0,
+          `${W}px ${a}·${b}: both numerals inside the bench (over L${r.outL} R${r.outR}) — "${r.texts}"`);
+      }
+    }
+    await p6.close();
+  }
+
   await browser.close();
   srv.close();
 

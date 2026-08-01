@@ -1134,6 +1134,25 @@
     "metaTitle": "Hyssingsporet – mål hele veien rundt, 1.–2. trinn",
     "metaDescription": "En hyssing ligger rundt en figur og legger seg rett ut på et spor delt inn i figurens egen bredde. Gratis verktøy for 1.–2. trinn."
   },
+  "comparison-planks": {
+    "slug": "sammenligne-lengde-med-fjoler-smatrinnet",
+    "name": "Fjølene",
+    "tagline": "To fjøler vokser fra samme strek; over stedet der den ene når lenger, kommer det en bue, og biten løsner og havner i enden av den korte fjøla — der de til sammen når nøyaktig like langt.",
+    "about": [
+      "To fjøler starter fra samme strek, den ene over den andre. Klassen drar i enden av ei fjøl så den blir lengre eller kortere, og fjøla ingen rører, står helt stille. Ved hver fjøl står tallet klassen selv har valgt. Mer er det ikke på tavla: ingen spørsmål, ingen rute å fylle ut, ingen tid som løper. Fjølene er glatte, uten streker å telle, for dette handler ikke om å telle, men om å se hvor langt noe når.",
+      "Så snart den ene fjøla når lenger enn den andre, kommer det en bue over akkurat den delen som stikker ut. Dra buen nedover, og biten løsner fra den lange fjøla: nå er den en ting for seg, som kan løftes og bæres. Den er ikke tegnet på nytt og ikke kopiert — det er den samme biten som satt der like før. Forskjellen betyr noe, for klassen ser ikke biten dukke opp fra et sted; de ser den forlate fjøla.",
+      "Flytt biten til enden av den korte fjøla, og det skjer noe barna ser før noen rekker å forklare det: til sammen når den korte fjøla og biten nøyaktig dit den lange fjøla slutter. Forskjellen er altså ikke et tall man må regne seg fram til. Den er en bit av den lange fjøla, og den er nøyaktig den biten den korte fjøla manglet. Det er hele leksjonen, og den står ingen steder skrevet.",
+      "Ved hver fjøl står tallet, men det tredje tallet står ingen steder. Det er med vilje: det tallet sier klassen høyt, før biten blir flyttet. Tavla spør ikke om noe, tar ikke imot svar og avgjør ikke om noe er riktig — det er læreren som holder samtalen i gang, ikke skjermen. Slik knytter verktøyet an til LK20 og arbeidet med å sammenligne og vurdere lengder på første og andre trinn, der elevene først skal se og sette ord på, før de regner."
+    ],
+    "howToUse": [
+      "Dra i endene på de to fjølene til de har lengdene du vil vise klassen, før du sier noe.",
+      "La klassen først se etter hvor den ene fjøla når lenger enn den andre; der kommer buen fram av seg selv.",
+      "Be klassen si høyt hvor lang biten er, mens den fortsatt sitter fast.",
+      "Dra buen nedover så biten løsner fra den lange fjøla.",
+      "Legg biten i enden av den korte fjøla, og vis at de til sammen når nøyaktig like langt.",
+      "Legg biten tilbake og velg neste par — for eksempel to fjøler som er like lange, slik at ingenting stikker ut."
+    ]
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

@@ -1135,6 +1135,24 @@
     "metaTitle": "Die Schnur rundherum – messen rundherum, Klasse 1-2",
     "metaDescription": "Eine Schnur liegt rundherum um eine Form und legt sich gerade auf eine Leiste, die in der Breite der Form eingeteilt ist. Kostenlos am Whiteboard, Klasse 1-2."
   },
+  "comparison-planks": {
+    "slug": "laengen-vergleichen-unterschied-grundschule",
+    "name": "Zwei Bretter, eine Linie",
+    "tagline": "Zwei Bretter beginnen an derselben Linie. Reicht eines weiter als das andere, erscheint ein Henkel über dem überstehenden Endstück: Dieses Stück lässt sich abnehmen und ans Ende des kurzen Brettes anlegen.",
+    "about": [
+      "Zwei Bretter liegen untereinander und beginnen an derselben Linie. Am Ende jedes Brettes lässt sich ziehen: Das Brett wird länger oder kürzer, immer in ganzen Schritten. Sobald ein Brett weiter reicht als das andere, erscheint über dem überstehenden Teil ein Henkel. Zieht man ihn nach unten, löst sich dieses Endstück vom langen Brett und liegt frei da. Von dort lässt es sich an das Ende des kurzen Brettes tragen, wo es einrastet. Beide Bretter reichen dann genau gleich weit.",
+      "So zeigt das Gerät etwas, das sich mit Zahlen allein schwer sagen lässt. Der Unterschied zwischen zwei Längen ist hier nichts, was man ausrechnet – er ist ein Stück, das man anfassen und tragen kann. Und es ist genau das Stück, das dem kürzeren Brett gefehlt hat: Es kommt vom langen Brett und passt trotzdem genau an das kurze. Kinder, für die der Unterschied als Rechenaufgabe noch zu abstrakt ist, sehen hier zuerst den Gegenstand und erst danach die Zahl dazu.",
+      "Jedes Brett zeigt seine eigene Zahl. Das Endstück zeigt keine, und das ist Absicht. Die dritte Zahl – die Länge des Endstücks – steht nirgends auf der Fläche. Sie ist die Zahl, die die Klasse laut ausspricht, bevor das Stück bewegt wird. Das Gerät nimmt keine Antwort entgegen, prüft nichts und bewertet nichts. Es gibt kein Richtig und kein Falsch, keine Punkte und keine Uhr, die mitläuft. Die Zahl wird im Raum gesagt, und das Gespräch darüber gehört der Lehrkraft und den Kindern.",
+      "Im Lehrplan der Grundschule gehört das zum Vergleichen von Längen und zum Ergänzen: Wie weit reicht das eine Brett, wie weit das andere, und was liegt dazwischen? Das Gerät passt in die tägliche Rechenzeit zu Beginn der Stunde, an das Whiteboard vor der ganzen Klasse und zu Kindern, die einen Unterschied lieber sehen und bewegen als aufschreiben. Es lässt sich ohne Vorbereitung öffnen, und ein Paar Bretter ist in wenigen Minuten besprochen."
+    ],
+    "howToUse": [
+      "Öffnen Sie das Gerät am Whiteboard und ziehen Sie zuerst beide Bretter auf dieselbe Länge, damit die Klasse sieht, dass nichts übersteht.",
+      "Ziehen Sie ein Brett länger und lassen Sie die beiden Zahlen vorlesen, bevor irgendetwas abgenommen wird.",
+      "Zeigen Sie auf den Henkel über dem überstehenden Endstück und lassen Sie die Klasse laut sagen, wie lang dieses Stück ist.",
+      "Nehmen Sie das Endstück ab und tragen Sie es langsam an das Ende des kurzen Brettes, damit alle das Einrasten sehen.",
+      "Fragen Sie danach, woher dieses Stück kam und warum es genau an das kurze Brett passt, und wiederholen Sie das Ganze mit einem neuen Paar."
+    ]
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

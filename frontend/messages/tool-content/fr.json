@@ -1134,6 +1134,24 @@
     "metaTitle": "La ficelle qui se couche — mesurer le tour, cycle 2",
     "metaDescription": "Une ficelle fait le tour d’une forme puis se couche droite dans un couloir marqué à la largeur de la forme. Outil gratuit au TBI, cycle 2."
   },
+  "comparison-planks": {
+    "slug": "comparer-des-longueurs-difference-cp",
+    "name": "Deux planches, un même départ",
+    "tagline": "Deux planches partent de la même ligne. Dès que l'une va plus loin que l'autre, une accolade apparaît au-dessus du bout qui dépasse : ce bout se détache et vient se poser à l'extrémité de la planche courte.",
+    "about": [
+      "Deux planches sont posées l'une sous l'autre et partent de la même ligne. On fait glisser l'extrémité de chacune : la planche s'allonge ou se raccourcit, toujours par pas entiers. Dès qu'une planche va plus loin que l'autre, une accolade apparaît au-dessus de la partie qui dépasse. Faites-la glisser vers le bas : ce bout se détache de la planche longue et se retrouve libre. Portez-le ensuite jusqu'à l'extrémité de la planche courte, où il vient se loger. Les deux planches arrivent alors exactement au même endroit.",
+      "L'appareil montre ainsi quelque chose que les nombres seuls disent mal. Ici, la différence entre deux longueurs n'est pas un résultat que l'on calcule : c'est un bout que l'on peut saisir et déplacer. Et c'est exactement le bout qui manquait à la planche courte : il vient de la planche longue, et pourtant il s'ajuste précisément à l'autre. Les élèves pour qui la différence reste une opération abstraite voient d'abord l'objet, et le nombre seulement ensuite.",
+      "Chaque planche affiche son propre nombre. Le bout, lui, n'en affiche aucun, et c'est voulu. Le troisième nombre – la longueur de ce bout – n'est écrit nulle part : c'est celui que la classe dit à voix haute, avant que le bout ne bouge. L'appareil ne recueille aucune réponse, ne vérifie rien et ne corrige rien. Il n'y a ni bonne ni mauvaise réponse, ni points, ni chronomètre. Ce qui est dit reste dans la classe, et la discussion appartient à l'enseignant et aux élèves.",
+      "Dans les programmes officiels, cela relève de la comparaison de longueurs et de la recherche du complément : jusqu'où va l'une, jusqu'où va l'autre, et qu'y a-t-il entre les deux ? L'appareil trouve sa place dans le rituel de calcul du matin, au tableau devant toute la classe, et auprès des élèves qui préfèrent voir et déplacer une différence plutôt que l'écrire. Il s'ouvre sans préparation, et une paire de planches se commente en quelques minutes."
+    ],
+    "howToUse": [
+      "Projetez l'appareil et donnez d'abord aux deux planches la même longueur, pour que la classe voie que rien ne dépasse.",
+      "Allongez une seule planche, puis faites lire les deux nombres à voix haute, avant de détacher quoi que ce soit.",
+      "Montrez l'accolade au-dessus du bout qui dépasse et laissez la classe dire à voix haute quelle est la longueur de ce bout.",
+      "Détachez le bout et portez-le lentement jusqu'à l'extrémité de la planche courte, pour que tous voient les deux planches arriver au même endroit.",
+      "Demandez ensuite d'où venait ce bout et pourquoi il s'ajuste si bien à la planche courte, puis recommencez avec une autre paire."
+    ]
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

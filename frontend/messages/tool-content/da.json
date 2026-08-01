@@ -1134,6 +1134,25 @@
     "metaTitle": "Tråden om figuren – mål hele vejen rundt, 1.–2. kl.",
     "metaDescription": "En tråd ligger rundt om en figur og lægger sig lige ned på en bane inddelt i figurens egen bredde. Gratis værktøj til 1.–2. klasse."
   },
+  "comparison-planks": {
+    "slug": "sammenligne-laengde-med-braedder-indskoling",
+    "name": "Brædderne",
+    "tagline": "To brædder vokser fra den samme streg; over det sted, hvor det ene når længere, kommer der en bøjle, og stykket løsner sig og lander for enden af det korte bræt — hvor de tilsammen når præcis lige langt.",
+    "about": [
+      "To brædder starter ved den samme streg, det ene over det andet. Klassen trækker i enden af et bræt, så det bliver længere eller kortere, og det bræt, ingen rører, står helt stille. Ved hvert bræt står det tal, klassen selv har valgt. Mere er der ikke på tavlen: ingen spørgsmål, intet felt at skrive i, ingen tid der løber. Brædderne er glatte, uden streger at tælle, for det handler ikke om at tælle, men om at se, hvor langt noget når.",
+      "Så snart det ene bræt når længere end det andet, kommer der en bøjle over netop det stykke, der rager ud. Træk bøjlen nedad, og stykket løsner sig fra det lange bræt: nu er det en ting for sig, som kan løftes og flyttes. Det er ikke tegnet igen og ikke kopieret — det er det samme stykke, som sad der lige før. Forskellen betyder noget, for klassen ser ikke stykket dukke op et sted fra; de ser det forlade brættet.",
+      "Flyt stykket hen for enden af det korte bræt, og der sker noget, børnene ser, før nogen når at forklare det: tilsammen når det korte bræt og stykket præcis derhen, hvor det lange bræt ender. Forskellen er altså ikke et tal, man skal regne sig frem til. Den er et stykke af det lange bræt, og den er præcis det stykke, det korte bræt manglede. Det er hele lektionen, og den står ingen steder skrevet.",
+      "Ved hvert bræt står tallet, men det tredje tal står ingen steder. Det er med vilje: det tal siger klassen højt, før stykket bliver flyttet. Tavlen spørger ikke om noget, tager ikke imod svar og afgør ikke, om noget er rigtigt — det er læreren, der holder samtalen i gang, ikke skærmen. Sådan knytter værktøjet an til Fælles Mål og arbejdet med at sammenligne og vurdere længder i første og anden klasse, hvor eleverne først skal se og sætte ord på, før de regner."
+    ],
+    "howToUse": [
+      "Træk i enderne af de to brædder, indtil de har de længder, du vil vise klassen, før du siger noget.",
+      "Lad klassen først kigge på, hvor det ene bræt når længere end det andet; dér kommer bøjlen frem af sig selv.",
+      "Bed klassen sige højt, hvor langt stykket er, mens det stadig sidder fast.",
+      "Træk bøjlen nedad, så stykket løsner sig fra det lange bræt.",
+      "Læg stykket for enden af det korte bræt, og vis, at de tilsammen når præcis lige langt.",
+      "Læg stykket tilbage, og vælg det næste par — for eksempel to brædder, der er lige lange, så der ikke rager noget ud."
+    ]
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

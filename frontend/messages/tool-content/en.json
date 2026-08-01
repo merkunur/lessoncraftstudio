@@ -1135,6 +1135,25 @@
     "metaTitle": "All the Way Round — measure around a shape, K-2",
     "metaDescription": "A strand lies round a shape, then lies down straight on a scale ruled in the shape’s own width. A free whiteboard tool for measuring around, K-2."
   },
+  "comparison-planks": {
+    "slug": "compare-lengths-difference-grade-1-2",
+    "name": "The Planks",
+    "tagline": "Two planks grow from one line. Over the part where one reaches further a bracket appears, and that piece comes off and lands at the end of the short one — where together they reach exactly as far.",
+    "about": [
+      "Two planks start from the same line, one above the other. Drag the end of either and it grows or shrinks in whole steps, while the plank nobody is touching does not move at all. Each plank carries the number the class chose. Nothing else is on the board: no question, no box to fill, no clock running down. The planks are smooth, with no marks to count, because this is not about counting but about seeing how far something reaches.",
+      "The moment one plank reaches further than the other, a bracket appears over exactly the part that sticks out. Drag the bracket down and that piece comes away from the long plank: it is now its own object, liftable and carriable. It is not redrawn and not copied — it is the same piece that was attached a moment ago. That difference matters, because the class does not see the piece arrive from somewhere; they see it leave the plank.",
+      "Carry it to the end of the short plank and something happens that children see before anyone explains it: together the short plank and the piece reach exactly to where the long plank ends. So the difference is not a number to work out. It is a piece of the long plank, and it is exactly the piece the short one was missing. That is the whole lesson, and it is written nowhere.",
+      "Each plank shows its number; the third number is shown nowhere. That is deliberate — it is the number the class says out loud, before the piece is moved. The board asks nothing, takes no answer and rules on nothing right or wrong; the teacher holds the conversation, not the screen. It sits with the Grade 1 and Grade 2 work on comparing lengths and on subtraction understood as difference."
+    ],
+    "howToUse": [
+      "Drag the ends of the two planks to the lengths you want the class to see, before you say anything.",
+      "Let the class find where one plank reaches further than the other; the bracket appears there by itself.",
+      "Ask the class to say out loud how long that piece is, while it is still attached.",
+      "Drag the bracket down so the piece comes away from the long plank.",
+      "Lay the piece at the end of the short plank and let the class see the two reach exactly as far.",
+      "Put it back and choose the next pair — two planks of the same length, say, so nothing sticks out at all."
+    ]
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

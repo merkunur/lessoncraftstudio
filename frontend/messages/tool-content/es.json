@@ -1134,6 +1134,24 @@
     "metaTitle": "La vuelta a la figura: medir el contorno, 1.º y 2.º",
     "metaDescription": "Un cordón da la vuelta a una figura y se acuesta recto en una pista marcada con el ancho de la figura. Herramienta gratuita para la pizarra digital."
   },
+  "comparison-planks": {
+    "slug": "comparar-longitudes-diferencia-primaria",
+    "name": "Los dos tablones",
+    "tagline": "Dos tablones salen de la misma línea. Sobre lo que sobresale del largo aparece un corchete: ese recorte se quita y se pone al final del corto, y entonces los dos llegan igual de lejos.",
+    "about": [
+      "Dos tablones salen de la misma línea vertical. La clase alarga o acorta cualquiera de los dos arrastrando su extremo, siempre en unidades enteras. Que los dos empiecen en el mismo sitio no es un detalle de dibujo: es lo que hace que comparar tenga sentido. Cuando dos objetos no arrancan del mismo punto, el que parece más largo puede no serlo, y ese es justamente el error que aparece en primero y segundo cuando los niños comparan dos cosas apoyadas de cualquier manera.",
+      "En cuanto uno de los dos llega más lejos, aparece un corchete sobre la parte que sobresale. Ese corchete no es una marca: es un asa. Al arrastrarlo hacia abajo, el recorte se separa del tablón largo y queda suelto, como una pieza más. Se puede llevar hasta el extremo del tablón corto, donde se une punta con punta, y entonces el tablón corto con el recorte llega exactamente hasta donde termina el largo. La diferencia deja de ser una cuenta y pasa a ser algo que se coge con la mano.",
+      "Esa es la idea central. La diferencia entre los dos tablones no es un número que haya que averiguar: es una parte del tablón largo, y es justo la parte que le faltaba al corto. Los niños lo ven porque son ellos quienes la mueven. El tablón corto no crece por arte de magia; recibe algo que estaba en el otro. Ver la diferencia como un objeto que se quita y se pone sostiene después la resta y las situaciones de comparación mucho mejor que memorizar qué operación toca.",
+      "Cada tablón muestra su propio número. El recorte no muestra ninguno, y eso es deliberado: el tercer número es el que dice la clase en voz alta. La herramienta no pregunta nada, no recoge respuestas, no corrige y no lleva tiempo ni puntuación; lo único que hace es mostrar lo que pasa. Encaja con lo que los planes de estudio piden en primero y segundo de primaria sobre comparar longitudes y sobre las situaciones de resta entendidas como diferencia."
+    ],
+    "howToUse": [
+      "Proyecta la herramienta y arrastra los extremos hasta que los dos tablones tengan largos distintos; también puede hacerlo un niño desde la pizarra.",
+      "Antes de tocar el corchete, pide a la clase que diga en voz alta cuánto mide el recorte que sobresale. Recoge todas las propuestas, aunque no coincidan.",
+      "Arrastra el corchete hacia abajo. El recorte se separa del tablón largo y queda suelto: pregunta si sigue midiendo lo mismo ahora que está fuera.",
+      "Llévalo hasta el extremo del tablón corto y únelo punta con punta. Deja que la clase vea que ahora los dos llegan igual de lejos, y pregunta de quién era esa pieza.",
+      "Devuélvelo a su lugar, cambia un solo tablón y repite. Después de dos o tres parejas, la clase empieza a anticipar el tamaño del recorte antes de que lo saques."
+    ]
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

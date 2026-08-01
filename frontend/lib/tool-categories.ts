@@ -72,6 +72,7 @@ export const TOOL_CATEGORY: Record<string, ToolCategory> = {
   'lids': 'number',
   'unit-handle': 'measurement',
   'unroll-tape': 'measurement',
+  'comparison-planks': 'measurement',
 
   // Reading & phonics — sounds, letters, words, sentences
   'sound-boxes': 'literacy',

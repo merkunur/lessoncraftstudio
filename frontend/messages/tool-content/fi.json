@@ -1112,6 +1112,25 @@
     "metaTitle": "Ympäri ja suoraksi – mittaa kuvion ympäri, 1.–2. lk",
     "metaDescription": "Lanka kulkee kuvion ympäri ja asettuu suoraksi kaistalle, joka on jaettu kuvion omiin leveyksiin. Ilmainen työkalu 1.–2. luokan älytaululle."
   },
+  "comparison-planks": {
+    "slug": "pituuksien-vertailu-lankuilla-alkuopetus",
+    "name": "Lankut",
+    "tagline": "Kaksi lankkua kasvaa samalta viivalta; sen kohdan päälle, jossa toinen yltää pidemmälle, ilmestyy kaari, ja pala irtoaa ja asettuu lyhyen lankun päähän — jolloin ne yltävät yhdessä täsmälleen yhtä pitkälle.",
+    "about": [
+      "Kaksi lankkua lähtee samalta viivalta, toinen toisen yläpuolella. Luokka vetää lankun päästä, jolloin lankku pitenee tai lyhenee, ja se lankku, johon kukaan ei koske, pysyy täysin paikallaan. Kummankin lankun kohdalla näkyy luku, jonka luokka on itse valinnut. Enempää taululla ei ole: ei kysymystä, ei täytettävää ruutua, ei juoksevaa aikaa. Lankut ovat sileitä, eikä niissä ole viivoja laskettavaksi, sillä kyse ei ole laskemisesta vaan sen näkemisestä, kuinka pitkälle jokin yltää.",
+      "Heti kun toinen lankku yltää pidemmälle kuin toinen, yli jäävän osan päälle ilmestyy kaari. Vedä kaarta alaspäin, ja pala irtoaa pitkästä lankusta: siitä tulee oma esineensä, jonka voi nostaa ja kantaa. Sitä ei piirretä uudelleen eikä kopioida — se on sama pala, joka oli kiinni lankussa hetkeä aiemmin. Ero on merkittävä, sillä luokka ei näe palan ilmestyvän jostakin, vaan he näkevät sen lähtevän lankusta.",
+      "Siirrä pala lyhyen lankun päähän, ja tapahtuu jotakin, minkä lapset näkevät ennen kuin kukaan ehtii selittää sen: lyhyt lankku ja pala yltävät yhdessä täsmälleen siihen kohtaan, johon pitkä lankku päättyy. Ero ei siis ole luku, joka pitää laskea. Se on pala pitkästä lankusta, ja se on juuri se pala, joka lyhyeltä lankulta puuttui. Siinä on koko oppitunti, eikä sitä ole kirjoitettu mihinkään näkyviin.",
+      "Kummankin lankun kohdalla näkyy luku, mutta kolmatta lukua ei näy missään. Se on tarkoituksellista: sen luvun luokka sanoo ääneen, ennen kuin pala siirretään. Taulu ei kysy mitään, ei ota vastaan vastauksia eikä ratkaise, onko jokin oikein — keskustelua johtaa opettaja, ei näyttö. Näin väline liittyy OPS 2014:n tavoitteisiin pituuksien vertailusta ja arvioinnista ensimmäisellä ja toisella luokalla, joissa oppilaan on ensin nähtävä ja sanoitettava ennen kuin lasketaan."
+    ],
+    "howToUse": [
+      "Vedä lankkujen päistä, kunnes ne ovat niissä pituuksissa, jotka haluat näyttää luokalle, ennen kuin sanot mitään.",
+      "Anna luokan ensin katsoa, missä toinen lankku yltää pidemmälle kuin toinen; siihen kohtaan ilmestyy kaari itsestään.",
+      "Pyydä luokkaa sanomaan ääneen, kuinka pitkä pala on, sen ollessa vielä kiinni lankussa.",
+      "Vedä kaarta alaspäin, jolloin pala irtoaa pitkästä lankusta.",
+      "Aseta pala lyhyen lankun päähän ja näytä, että ne yltävät yhdessä täsmälleen yhtä pitkälle.",
+      "Palauta pala paikalleen ja valitse seuraava pari — esimerkiksi kaksi yhtä pitkää lankkua, jolloin mitään ei jää yli."
+    ]
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

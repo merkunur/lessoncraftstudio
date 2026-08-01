@@ -1134,6 +1134,25 @@
     "metaTitle": "Snöret runt – mäta runt en figur, åk 1–2",
     "metaDescription": "Ett snöre ligger runt en figur och lägger sig rakt på ett spår indelat i figurens egen bredd. Gratis att använda i klassrummet, åk 1–2."
   },
+  "comparison-planks": {
+    "slug": "jamfora-langd-med-plankor-lagstadiet",
+    "name": "Plankorna",
+    "tagline": "Två plankor växer från samma streck; över den del där den ena når längre visas en klammer, och stumpen lossnar och hamnar i änden av den korta plankan — där de tillsammans når precis lika långt.",
+    "about": [
+      "Två plankor börjar vid samma streck, den ena ovanför den andra. Klassen drar i änden på en planka så att den blir längre eller kortare, och den planka ingen rör står helt stilla. Vid varje planka står det tal som klassen själv har valt. Mer än så finns inte på tavlan: ingen fråga, ingen ruta att fylla i, ingen tid som räknar ner. Plankorna är släta, utan streck att räkna, för det handlar inte om att räkna utan om att se hur långt något når.",
+      "Så snart den ena plankan når längre än den andra visas en klammer över precis den del som sticker ut. Dra klammern nedåt och stumpen lossnar från den långa plankan: den blir ett eget föremål som går att lyfta och bära. Den är inte ritad på nytt och inte kopierad, det är samma stump som satt där nyss. Skillnaden spelar roll, för klassen ser inte stumpen dyka upp från något håll — de ser den lämna plankan.",
+      "Bär stumpen till änden av den korta plankan, så händer något som barnen ser innan någon hunnit förklara det: tillsammans når den korta plankan och stumpen precis dit den långa plankan slutar. Skillnaden är alltså inget tal att räkna fram. Den är en bit av den långa plankan, och den är exakt den bit som den korta plankan saknade. Det är hela lektionen, och den står ingenstans i ord.",
+      "Vid varje planka står talet, men det tredje talet står ingenstans. Det är avsiktligt: det talet säger klassen högt, innan stumpen flyttas. Tavlan frågar ingenting, tar inte emot något svar och avgör inte om något är rätt — det är läraren som håller i samtalet, inte skärmen. Så knyter verktyget an till Lgr22 och arbetet med att jämföra och uppskatta längd i årskurs ett och två, där eleverna först ska se och sätta ord på innan de räknar."
+    ],
+    "howToUse": [
+      "Dra i ändarna på de två plankorna tills de har de längder du vill visa klassen, innan du säger något.",
+      "Låt klassen först titta på var den ena plankan når längre än den andra; där visas klammern av sig själv.",
+      "Be klassen säga högt hur lång stumpen är, medan den fortfarande sitter kvar.",
+      "Dra klammern nedåt så att stumpen lossnar från den långa plankan.",
+      "Lägg stumpen i änden av den korta plankan och visa att de tillsammans når precis lika långt.",
+      "Lägg tillbaka stumpen och välj nästa par — till exempel två plankor som är lika långa, så att ingenting sticker ut."
+    ]
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

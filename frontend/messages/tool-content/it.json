@@ -1191,6 +1191,35 @@
     "metaTitle": "Il tubo dei numeri — sotto lo zero, prima e seconda",
     "metaDescription": "Un tubo con la scala dei numeri: le puntine vanno sopra o sotto lo zero e fra loro compare la distanza. Coricato, è una linea dei numeri. Gratis per la LIM."
   },
+  "build-plan": {
+    "slug": "vista-dall-alto-e-altezze-primaria",
+    "name": "La mappa del palazzo",
+    "tagline": "Nove numeri visti dall'alto dicono quanto è alto il palazzo in ogni posto. Cambi un numero e il palazzo cambia; alzi il palazzo e cambia il numero. Sotto, lo stesso palazzo visto di fronte e visto di lato.",
+    "about": [
+      "Sullo schermo ci sono due cose che sono la stessa cosa. A sinistra una mappa di nove numeri, come se il palazzo lo guardassi dall'alto: ogni numero dice quanto è alto il palazzo proprio lì, da zero a quattro. A destra il palazzo, in piedi. Tocchi un numero della mappa e il palazzo sale; tocchi il palazzo e cambia il numero. Non è che uno comanda e l'altro obbedisce: sono lo stesso palazzo scritto in due modi, e si lavora da tutte e due le parti. Sotto, senza una parola, lo stesso palazzo visto di fronte e visto di lato.",
+      "Diciamo subito una cosa onesta: costruire seguendo un progetto scritto non è un'abitudine della scuola italiana. Nei paesi di lingua tedesca e nel Nord Europa è un'attività settimanale con le sue scatole di schede; da noi, all'angolo delle costruzioni, i bambini costruiscono quello che vogliono, e va benissimo così. Quello che invece in Italia si fa davvero, in prima e in seconda, è guardare le cose dall'alto: la pianta dell'aula, il banco visto da sopra, il passaggio dalla realtà al disegno che la rappresenta. Le Indicazioni nazionali lo chiedono in geografia, quando domandano di rappresentare dall'alto gli oggetti e gli spazi conosciuti. Questo strumento parte esattamente da lì e aggiunge la sola cosa che al disegno dall'alto è sempre mancata: l'altezza, scritta come numero.",
+      "Poi arriva la parte che sorprende, ed è il motivo per cui lo strumento esiste. Guarda il palazzo di fronte e guardalo di lato: due sagome, due file di altezze. Sembrano dire tutto. Non dicono tutto. Quasi sempre esiste un altro palazzo, diverso da questo, che di fronte e di lato si vede identico — e un comando lo tira fuori davanti alla classe. Ogni tanto, però, quel comando si spegne da solo: per certi palazzi le due direzioni bastano davvero, e non ce n'è un secondo. Non lo diciamo noi ai bambini: lo dice il comando quando smette di funzionare. C'è anche il quarto di giro, che gira tutto il palazzo e sposta di fronte quello che era di lato. Su qualche palazzo il giro non cambia niente di visibile, ed è previsto: anche quello è qualcosa da capire, non un guasto.",
+      "Funziona nel browser, sulla LIM come sul tablet, senza registrazione e senza installare niente. Non nomina nessun solido, non chiede mai quanti cubetti ci siano in tutto e non conta superfici: quelle sono altre lezioni, di altre classi. Non c'è nessuna domanda, nessuna risposta giusta, nessun punteggio e nessun tempo che scorre; lo strumento mostra e basta, il parlato lo metti tu. Cinque palazzi e tutto l'apparecchio sono gratuiti, e fra quei cinque ci sono già tutti i casi che servono per il discorso. Con il piano Insegnante si aprono gli altri undici e il foglio da stampare: sei mappe vuote, già tracciate e senza numeri, da riempire a mano. Il lavoro sulla posizione e sui punti di vista richiama i traguardi di «Spazio e figure» delle Indicazioni nazionali."
+    ],
+    "howToUse": [
+      "Proietta lo strumento e tocca due o tre numeri della mappa, lasciando che la classe veda il palazzo salire proprio in quel posto. Può farlo anche un bambino alla lavagna.",
+      "Adesso fai il contrario: tocca direttamente il palazzo e fai notare che è il numero sulla mappa a cambiare. È lo stesso palazzo, scritto in due modi.",
+      "Copri con la mano il palazzo e lascia scoperta solo la mappa. Chiedi alla classe di dire, prima di scoprire, dov'è il punto più alto. Poi togli la mano.",
+      "Guarda insieme le due sagome in basso e chiedi da che parte si sta guardando ogni volta: una è il palazzo di fronte, l'altra è il palazzo di lato.",
+      "Prima di toccare «Un altro che si vede uguale», chiedi alla classe di immaginare un palazzo diverso che di fronte e di lato si veda proprio così. Accogli anche le proposte sbagliate: servono. Poi tocca il comando.",
+      "Tocca «Gira di un quarto» mentre i bambini guardano e lascia qualche secondo di silenzio. Il palazzo non è cambiato: è cambiato da dove lo stai guardando."
+    ],
+    "classroomIdeas": [
+      "Prima la stima: mostra solo il palazzo, coprendo la mappa, e i bambini scrivono i nove numeri sul quaderno. Poi scopri la mappa e si controlla insieme, un posto alla volta.",
+      "Il gioco del palazzo nascosto: un bambino compone una mappa senza far vedere lo schermo, la detta a voce ai compagni («riga in mezzo, posto uno: tre») e alla fine si confronta.",
+      "Metti tutti i numeri uguali e chiedi che cosa succede al quarto di giro. Poi cambia un solo numero e rifallo: adesso il giro si vede.",
+      "Cerca insieme un palazzo su cui il comando «Un altro che si vede uguale» si spegne, e chiedi alla classe perché stavolta non ce n'è un secondo.",
+      "Due bambini alla lavagna: il primo sceglie un palazzo, il secondo deve trovarne uno diverso che di fronte e di lato si veda uguale. Poi si scambiano i ruoli.",
+      "Rifallo con i cubetti veri sul banco: stampa il foglio di sei mappe vuote, un bambino costruisce dietro un libro, un altro riempie i nove numeri visti dall'alto, e poi si toglie il libro."
+    ],
+    "metaTitle": "La mappa del palazzo — dall'alto e di fronte, prima e seconda",
+    "metaDescription": "Nove numeri visti dall'alto dicono quanto è alto il palazzo in ogni posto: cambi il numero e il palazzo cambia. Sotto, di fronte e di lato. Strumento gratuito per la LIM, prima e seconda."
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

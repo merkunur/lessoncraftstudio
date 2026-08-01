@@ -1192,6 +1192,35 @@
     "metaTitle": "Rechtop en plat – onder nul, thermometer, groep 4-5",
     "metaDescription": "Verschuifbare verdeling met getallen boven en onder de nul, twee klemmen en de afstand ertussen. Leg hem plat en het is een getallenlijn. Gratis, groep 4-5."
   },
+  "build-plan": {
+    "slug": "bouwen-naar-bouwplaat-ruimtelijk-inzicht-groep-3",
+    "name": "De bouwplaat",
+    "tagline": "Negen vakjes met elk een getal van 0 tot 4 – en ernaast staat het bouwwerk dat die getallen vormen. Verander je iets op de bouwplaat, dan verandert het bouwwerk; verander je iets aan het bouwwerk, dan verandert de bouwplaat.",
+    "about": [
+      "Links ligt de bouwplaat: negen vakjes in drie rijen, met in elk vakje een getal van 0 tot 4. Dat getal zegt hoe hoog het bouwwerk daar staat. Rechts ernaast staat precies dat bouwwerk, schuin van boven gezien. Tik je op een vakje, dan wordt het één hoger en groeit het bouwwerk mee; tik je op het bouwwerk, dan verandert het getal op de bouwplaat. Het is één ding, twee keer opgeschreven – en omdat je er van beide kanten in kunt grijpen, hoeft niemand uit te leggen dat het getal en de bouw bij elkaar horen. Je ziet het.",
+      "Daaronder staan twee platte omtrekken: onder de bouwplaat het vooraanzicht, onder het bouwwerk het zijaanzicht. Die twee aanzichten zijn de eigenlijke reden voor dit hulpmiddel. Een kind dat het bouwwerk voor zich heeft, ziet het ruimtelijk. Een kind dat alleen de twee aanzichten heeft, moet het bouwwerk in het hoofd maken – en precies daar scheidt het namaken zich van het ruimtelijk redeneren.",
+      "Want de twee aanzichten leggen het bouwwerk meestal niet vast. Van de 1.953.125 mogelijke bouwwerken deelt 99,96 procent zijn paar van vooraanzicht en zijaanzicht met minstens één ander; bij 87 procent van alle paren zijn er meer oplossingen. Een knop laat op verzoek een tweede bouwwerk zien dat er van voren en van opzij precies zo uitziet – en blijft grijs als dat er niet is, want 709 bouwwerken liggen werkelijk vast. Dat is geen trucje: de klas merkt dat twee antwoorden naast elkaar goed kunnen zijn zonder dat er één fout wordt.",
+      "Een tweede knop geeft het geheel een kwartslag. Het bouwwerk blijft hetzelfde, maar wat eerst vooraan zat, zit nu opzij. Bij precies 125 bouwwerken verandert er niets – ook dat is een ontdekking en geen storing, en het hulpmiddel zegt dat dan ook. Het telt niets bij elkaar op, vraagt nooit hoeveel het er samen zijn, geeft geen punten en houdt geen tijd bij. Het hoort in de dagelijkse rekenstart, op het digibord voor de hele groep, en bij het domein meten en meetkunde van de SLO Kerndoelen, waar ruimtelijk inzicht met zoveel woorden genoemd wordt."
+    ],
+    "howToUse": [
+      "Open het hulpmiddel op het digibord en laat eerst alleen de bouwplaat lezen: welk getal staat waar, en hoe hoog wordt het bouwwerk daar?",
+      "Tik op een vakje. Het wordt één hoger en het bouwwerk groeit mee. Voor grotere sprongen sleep je omhoog en omlaag; met het toetsenbord werken de pijltjestoetsen.",
+      "Dek het bouwwerk in gedachten af en laat de groep alleen uit de twee aanzichten beschrijven hoe hoog het vooraan en opzij is.",
+      "Druk op ‘Kwartslag’ en laat vooraf raden: welk aanzicht gaat waarheen? Bij sommige bouwwerken verandert er niets – vraag waarom.",
+      "Druk pas op ‘Nog een die er zo uitziet’ nadat de groep zelf een tweede bouwwerk heeft bedacht. Is de knop grijs, dan ligt dit bouwwerk vast.",
+      "Met ‘Een andere bouwplaat’ haal je het volgende bouwwerk. Vijf zijn vrij te gebruiken; nog elf en het blad met lege bouwplaten horen bij het Leerkracht-pakket."
+    ],
+    "classroomIdeas": [
+      "Eerst de plaat, dan de bouw: de groep leest de bouwplaat hardop en beschrijft het bouwwerk voordat iemand kijkt. Daarna pas laten zien.",
+      "Bouwdictee: je noemt negen getallen, de kinderen bouwen na met het materiaal uit de bouwhoek, en pas daarna laat het hulpmiddel zien of het klopt.",
+      "Alleen de aanzichten: toon uitsluitend het vooraanzicht en het zijaanzicht. Iedereen bouwt er iets bij – en de groep ontdekt dat meerdere antwoorden goed zijn.",
+      "De weddenschap: voor de kwartslag stemt de groep of het beeld verandert of niet. Bij de bouwwerken die hetzelfde blijven, wint de minderheid.",
+      "Vastgelegd of niet: de groep schat eerst in of dit bouwwerk het enige is bij deze twee aanzichten. Pas daarna gaat de knop die het antwoord verklapt.",
+      "Op papier: druk de lege bouwplaten uit het Leerkracht-pakket af; het ene kind bouwt achter een map, het andere tekent de bouwplaat op aanwijzing."
+    ],
+    "metaTitle": "De bouwplaat – bouwen naar bouwplaat, groep 3/4",
+    "metaDescription": "Negen getallen op de bouwplaat, ernaast het bouwwerk – van voren en van opzij. Bouwen naar bouwplaat voor groep 3/4, gratis op het digibord."
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

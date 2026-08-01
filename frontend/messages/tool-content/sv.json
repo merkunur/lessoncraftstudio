@@ -1192,6 +1192,35 @@
     "metaTitle": "Pelaren – under noll, avstånd och tallinje, åk 1–3",
     "metaDescription": "Dragbar skala med tal ovanför och under nollan, två hakar och avståndet mellan dem. Lägg ner den så är det en tallinje. Gratis för tavlan, åk 1–3."
   },
+  "build-plan": {
+    "slug": "bygga-efter-ritning-rumsuppfattning-lagstadiet",
+    "name": "Byggritningen",
+    "tagline": "Nio rutor med en siffra från 0 till 4 i varje – och bredvid står byggnaden som siffrorna reser. Ändrar du på ritningen ändras byggnaden; ändrar du på byggnaden ändras ritningen.",
+    "about": [
+      "Till vänster ligger byggritningen: nio rutor i tre rader, med en siffra från 0 till 4 i varje ruta. Siffran säger hur högt byggnaden står just där. Till höger står precis den byggnaden, sedd snett uppifrån. Trycker du på en ruta växer den ett steg och byggnaden växer med; trycker du på byggnaden ändras siffran på ritningen. Det är samma sak, skriven två gånger – och eftersom du kan gå in från båda hållen behöver ingen förklara att siffran och bygget hör ihop. Man ser det.",
+      "Under dem ligger två platta konturer: under ritningen syns byggnaden framifrån, under byggnaden syns den från sidan. De två konturerna är hela skälet till att verktyget finns. Ett barn som har byggnaden framför sig ser den i rymden. Ett barn som bara har de två konturerna måste bygga den inne i huvudet – och det är där efterbyggandet skiljer sig från det rumsliga tänkandet.",
+      "För konturerna bestämmer oftast inte byggnaden. Av 1 953 125 möjliga byggnader delar 99,96 procent sitt par av framifrån och från sidan med minst en annan, och 87 procent av alla par har mer än en lösning. En knapp visar på begäran en annan byggnad som ser likadan ut framifrån och från sidan – och förblir grå när det inte finns någon, för 709 byggnader är faktiskt entydiga. Det är ingen lek med orden: klassen får uppleva att två svar kan stå bredvid varandra utan att något av dem blir fel.",
+      "En annan knapp vrider alltihop ett kvarts varv. Byggnaden är densamma, men det som nyss satt framtill sitter nu på sidan. För exakt 125 byggnader händer ingenting alls – också det är en upptäckt och inte ett fel, och verktyget säger det då. Verktyget lägger inte ihop någonting, frågar aldrig hur många det är sammanlagt, ger inga poäng och tar inte tid. Det hör hemma i den dagliga räknestarten, på tavlan framför hela klassen, och i geometridelen av Lgr22, där rumsuppfattning står med som ett eget innehåll för de tidiga åren."
+    ],
+    "howToUse": [
+      "Öppna verktyget på tavlan och låt klassen först bara läsa ritningen: vilken siffra står var, och hur högt blir byggnaden där?",
+      "Tryck på en ruta. Den växer ett steg och byggnaden växer med. För större hopp drar du uppåt och nedåt; med tangentbordet fungerar piltangenterna.",
+      "Täck byggnaden för dig själv och låt klassen beskriva enbart utifrån de två konturerna hur högt det är framtill och på sidan.",
+      "Tryck på ”Kvarts varv” och låt dem gissa först: vilken kontur hamnar var? För några byggnader ändras ingenting – fråga varför.",
+      "Tryck på ”En till som ser likadan ut” först sedan klassen själv har föreslagit en annan byggnad. Är knappen grå är den här byggnaden entydig.",
+      "Med ”En annan byggritning” hämtar du nästa byggnad. Fem är fria att använda; elva till och bladet med tomma byggritningar ingår i Lärarpaketet."
+    ],
+    "classroomIdeas": [
+      "Ritningen först, bygget sedan: klassen läser ritningen högt och beskriver byggnaden innan någon tittar. Visa den efteråt.",
+      "Byggdiktamen: du säger nio siffror, barnen bygger efter med materialet från bygghörnan, och först därefter visar verktyget om det stämmer.",
+      "Bara konturerna: visa enbart framifrån och från sidan. Alla bygger något som passar – och klassen upptäcker att flera svar är riktiga.",
+      "Vadet: före kvartsvarvet röstar klassen om bilden ändras eller inte. För de byggnader som ser likadana ut åt båda hållen vinner minoriteten.",
+      "Entydig eller inte: klassen gissar först om den här byggnaden är den enda till sina två konturer. Först därefter trycker ni på knappen som avslöjar svaret.",
+      "På papper: skriv ut de tomma byggritningarna ur Lärarpaketet – ett barn bygger bakom en pärm, ett annat ritar ritningen efter muntlig beskrivning."
+    ],
+    "metaTitle": "Byggritningen – bygga efter ritning, åk 1–3",
+    "metaDescription": "Nio siffror på byggritningen, bredvid står byggnaden – framifrån och från sidan. Bygga efter ritning för lågstadiet, gratis på tavlan."
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

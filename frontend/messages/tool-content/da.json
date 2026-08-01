@@ -1192,6 +1192,35 @@
     "metaTitle": "Fra lodret til vandret – under nul, 1.–3. klasse",
     "metaDescription": "Skala man kan trække i, med tal over og under nullet, to nåle og afstanden imellem. Læg den ned, og det er en tallinje. Gratis til indskolingen, 1.–3. kl."
   },
+  "build-plan": {
+    "slug": "byg-efter-byggeplan-rumlige-figurer",
+    "name": "Byggeplanen",
+    "tagline": "Ni felter med hvert sit tal, og ved siden af rejser modellen sig — og en anden model, bygget helt anderledes, kan komme til at se præcis ens ud, når man ser dem forfra og fra siden.",
+    "about": [
+      "Ni felter i tre rækker ligger på tavlen. I hvert felt står ét tal fra 0 til 4, og tallet siger, hvor højt der skal bygges på det felt. Ved siden af står modellen selv, tegnet på skrå, så både højden og begge retninger kan ses på én gang. Tryk på et felt, og modellen vokser præcis dér; tag fat i modellen i stedet, og tallet i feltet følger med. Det er ikke to opgaver, der skal passe sammen — det er én ting, skrevet to gange. Der bliver ikke spurgt om noget, der er ikke noget svar at aflevere, og der er ingen tid, der løber.",
+      "At bygge efter byggeplan er en gammel rutine i indskolingen, og den plejer at gå én vej: læreren lægger et kort frem, barnet bygger efter det, og bagefter ser læreren, om det passer. Her går det begge veje på én gang. Det barn, der endnu ikke kan læse en byggeplan, kan bygge modellen først og derefter se, hvilke tal der kom til at stå i felterne. Det er den samme viden, taget ind fra den anden ende. Sådan knytter værktøjet an til Fælles Mål og arbejdet med rumlige figurer i indskolingen, hvor eleverne skal kunne bygge efter en tegning og tegne det, de har bygget.",
+      "Nederst ligger modellen fladt to gange, og hvor de to billeder ligger, er hele forklaringen: billedet under byggeplanen er modellen set forfra, og billedet under modellen er den set fra siden. Der står ikke et ord ved nogen af dem — det er placeringen, der siger det. Og her kommer det, som kortene i papkassen aldrig kan vise: de to billeder er som regel ikke nok. Der findes 1.953.125 forskellige modeller på de ni felter, og for 99,96 procent af dem findes der mindst én anden model, der giver præcis de samme to billeder. Kun 709 er entydigt fastlagt af begge. En knap henter en af de andre frem, og på netop de 709 kan der ikke trykkes på den.",
+      "Der bliver ikke rettet noget her. Ingen point, ingen tid, der løber, og ingen markering af rigtigt og forkert: når to modeller ser ens ud fra begge sider, er det modellerne selv, der siger det, og ikke en bedømmelse. Fem byggeplaner og hele apparatet er gratis, og de fem er valgt, så alt det, der står her, kan prøves uden at betale: en, hvor den kvarte omgang ikke laver om på noget, en, hvor de to billeder er tydeligt uenige, og en, hvor knappen med den anden model er slukket, fordi der ikke findes nogen. De elleve andre og arket til at printe følger med Lærerabonnementet — tomme byggeplaner med felterne streget op og ingen tal i, som børnene selv fylder ud i hånden."
+    ],
+    "howToUse": [
+      "Vis byggeplanen, og sig ingenting. Lad klassen læse de ni tal og sige, hvad der bliver bygget, før du rører ved noget.",
+      "Tryk så et felt op — der er ikke noget at skrive i; man trykker, trækker eller bruger piletasterne — og den del af modellen bliver højere med det samme.",
+      "Byt ende: lad et barn tage fat i selve modellen, og bed resten af klassen pege på det tal i byggeplanen, der ændrer sig af sig selv.",
+      "Peg på de to flade billeder, og lad klassen finde ud af, hvilket af dem der er modellen set forfra. Der står ikke noget ved dem: det er placeringen, der afgør det.",
+      "Drej en kvart omgang uden at ændre et eneste tal, og spørg, hvad der er blevet anderledes — og hvad der ikke er.",
+      "Til sidst knappen »Samme billeder, anden model«: lad klassen gætte en anden model med præcis de samme to billeder, før du trykker. Det er hele pointen; alt det andet er optakt."
+    ],
+    "classroomIdeas": [
+      "Byg efter planen: sæt byggeplanen på tavlen og læg centicubes på bordene. Børnene bygger efter tavlen og holder deres eget op ved siden af modellen bagefter — også de gange, hvor to borde har bygget det samme forskelligt.",
+      "Den anden vej: byg modellen først uden at røre tallene, og lad børnene skrive byggeplanen af i hæftet bagefter.",
+      "Læg et stykke papir hen over byggeplanen, så kun modellen og de to billeder står tilbage, og lad par foreslå, hvilke ni tal der gemmer sig under papiret.",
+      "Sæt de fire hjørnefelter til det samme tal og de fire felter midt på siderne til det samme tal, og drej så en kvart omgang. Der sker ingenting. Spørg hvorfor — der findes præcis 125 byggeplaner, der ser ens ud hele vejen rundt.",
+      "Sæt ét felt midt i modellen til 0, og spørg, hvad et nul betyder her. Det er ikke ingenting — det er et sted, hvor der ikke bliver bygget, og man kan kigge tværs igennem.",
+      "Gør det bagefter på papir: print de tomme byggeplaner, lad hvert barn skrive ni tal i felterne i hånden og bytte med sidemakkeren, som bygger det med centicubes uden at have set modellen."
+    ],
+    "metaTitle": "Byggeplanen – byg efter byggeplan, rumlige figurer, 1.–3. kl.",
+    "metaDescription": "Ni felter, et tal i hvert: tallet siger, hvor højt der bygges. Modellen står ved siden af — og to modeller kan se ens ud forfra og fra siden. Gratis til tavlen."
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

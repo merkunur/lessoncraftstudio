@@ -1193,6 +1193,35 @@
     "metaTitle": "Upright and Flat — below zero on a number line, K-3",
     "metaDescription": "A draggable scale numbered above and below zero, two marks, and the distance between them. Lay it flat and it is a number line. Free whiteboard tool, K-3."
   },
+  "build-plan": {
+    "slug": "build-from-a-plan-spatial-reasoning-grade-1-2",
+    "name": "The Blueprint",
+    "tagline": "Nine squares, a number in each — and beside them the building those numbers make. Change the blueprint and the building follows; change the building and the blueprint follows.",
+    "about": [
+      "On the left is the blueprint: nine squares in three rows, each holding one number from 0 to 4. The number says how tall the building stands at that spot. Beside it stands exactly that building, drawn from a corner so height and both directions are visible at once. Tap a square and it rises by one and the building rises with it; take hold of the building instead and the number in the square follows. It is not two things that have to be kept in step — it is one thing, written twice, and because a child can reach in from either end, nobody has to explain that the number and the build belong together. You can see it.",
+      "Below sit two flat outlines: under the blueprint, the building seen from the front; under the building, the same one seen from the side. Those two outlines are the real reason the tool exists. A child looking at the building sees it in space. A child holding only the two outlines has to build it in their head — and that is exactly where copying a model parts company with reasoning about one.",
+      "Because the two outlines usually do not settle it. Of the 1,953,125 possible buildings, 99.96 per cent share their front-and-side pair with at least one other, and 87 per cent of all pairs fit more than one building. A chip shows one of those others on request — and greys out when there is none, because 709 buildings genuinely are pinned down by their two directions. That is not a flourish: the class meets the fact that two answers can both be right without either being wrong.",
+      "Another chip turns the whole thing a quarter turn. The building is the same building, but what faced you now faces sideways. On exactly 125 of them nothing moves at all, and that is a discovery rather than a fault — the tool has a separate word for it. Nothing is added up here, nothing is asked, no points are given and no clock runs. It belongs in the short routine at the start of a lesson, on the board in front of the whole class. Building from a plan is a weekly staple in German, Dutch and Nordic classrooms; the US standards do not code it before grade five, which is why so few tools carry it."
+    ],
+    "howToUse": [
+      "Put the blueprint on the board and say nothing at first. Let the class read the nine numbers and describe the building before anyone looks at it.",
+      "Tap a square. It rises by one and the building rises with it — there is nothing to type; you tap, drag, or use the arrow keys.",
+      "Swap ends: let a child take hold of the building itself, and ask the rest to point at the number in the blueprint that changes on its own.",
+      "Cover the building with your hand and let the class describe it from the two outlines alone. Nothing labels them — which one is the front is answered by where it sits.",
+      "Press Quarter turn without changing a single number, and ask what is different — and what is not. On some buildings nothing moves; ask why.",
+      "Finish with \"Another that looks the same\": let the class picture a second building with the same two outlines before you show it. When the chip is greyed out, this building is the only one."
+    ],
+    "classroomIdeas": [
+      "Blueprint first, building second: the class reads the nine numbers aloud and describes the building before anyone looks. Then reveal it.",
+      "The other way round: build it first without touching the numbers, and let the children copy the blueprint into their books afterwards.",
+      "Only the outlines: show just the two flat views and let pairs build something that fits — then count how many different answers the class found.",
+      "Set the four corners to one number and the four edge squares to another, then turn it. Nothing happens. Ask why; there are exactly 125 buildings like that.",
+      "Put a 0 in the middle and ask what a zero means here. It is not nothing — it is a place where nobody built, and you can see straight through.",
+      "On paper afterwards: print the blank blueprints, let each child fill in nine numbers by hand and swap with a neighbour, who builds it without seeing the original."
+    ],
+    "metaTitle": "The Blueprint — build from a plan, Grade 1-2 spatial reasoning",
+    "metaDescription": "Nine numbers on a blueprint, the building beside it, and the same building from the front and the side. Free whiteboard tool for Grade 1-2."
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

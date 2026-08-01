@@ -1191,6 +1191,35 @@
     "metaTitle": "Debout ou à plat – lire les nombres sous zéro, cycle 2",
     "metaDescription": "Un tube, une graduation, deux curseurs et leur écart – et un bouton qui met le tout à plat. Les nombres au-dessous de zéro, gratuit au TBI, cycle 2."
   },
+  "build-plan": {
+    "slug": "construire-en-suivant-un-plan-vue-de-face-cycle-2",
+    "name": "Neuf nombres, une maquette",
+    "tagline": "Un plan de neuf cases, un nombre dans chacune : c'est la hauteur de la maquette à cet endroit. À côté, la maquette elle-même — et si l'on change l'une, l'autre change aussitôt.",
+    "about": [
+      "Le plan est un carré de neuf cases, et chaque case porte un nombre de 0 à 4 : c'est la hauteur de la maquette à cet endroit. À côté du plan, la maquette est dessinée en volume. Touchez une case du plan, ou faites-la glisser vers le haut ou vers le bas, et la maquette monte ou descend au même endroit. Mais on peut aussi bien agir sur la maquette elle-même : le nombre du plan change alors tout seul. Ce ne sont pas deux objets, c'est le même objet écrit de deux façons, et on peut le prendre par les deux bouts.",
+      "En dessous, la maquette est reprise deux fois à plat : vue de face à gauche, vue de profil à droite. Un quart de tour fait pivoter l'ensemble, et l'on voit alors ce qui était devant passer sur le côté. C'est là que se joue l'essentiel : deux maquettes différentes peuvent se présenter exactement pareil de face et de profil. L'appareil sait le prouver — il propose lui-même une autre maquette qui donne les deux mêmes silhouettes. Et quand il n'en existe aucune, le bouton s'éteint : cette maquette-là est bel et bien la seule.",
+      "L'appareil ne demande jamais combien il y a d'éléments en tout : ce n'est pas son sujet, et la question appartient au cycle 3. Il ne nomme aucun solide, ne fait aucun calcul, ne recueille aucune réponse et ne corrige rien. Il n'y a ni bonne ni mauvaise réponse, ni points, ni chronomètre, ni minuteur. Ce qui est dit reste dans la classe : la question posée, le moment où l'on fait pivoter, ce que l'on garde caché — tout cela appartient à l'enseignant.",
+      "Dans les programmes officiels, cela relève de l'espace et de la géométrie : construire des maquettes simples en suivant un plan dès la grande section, puis, au cycle 2, passer d'un objet en volume à sa représentation à plat et revenir. C'est aussi un point d'appui pour le vocabulaire de position — plus haut, plus bas, devant, derrière. L'appareil s'ouvre sans préparation, au tableau devant toute la classe, et un plan se commente en quelques minutes."
+    ],
+    "howToUse": [
+      "Projetez l'appareil et faites d'abord lire les neuf nombres du plan à voix haute, avant de toucher quoi que ce soit.",
+      "Touchez une seule case du plan et laissez la classe dire ce qui vient de changer sur la maquette, à côté.",
+      "Faites l'inverse : agissez sur la maquette elle-même et montrez que le nombre du plan a bougé tout seul.",
+      "Montrez les deux silhouettes du bas et demandez laquelle est vue de face et laquelle est vue de profil, avant de le dire vous-même.",
+      "Faites faire un quart de tour et demandez ce qui a changé, et surtout ce qui n'a pas changé : la maquette, elle, est la même.",
+      "Demandez enfin si une autre maquette pourrait donner ces deux mêmes silhouettes, laissez la classe en imaginer une, puis affichez celle que l'appareil propose."
+    ],
+    "classroomIdeas": [
+      "Cachez la maquette avec la main : à partir des neuf nombres du plan seulement, la classe dit laquelle des deux silhouettes du bas sera la plus haute.",
+      "Prévoir avant de tourner : chacun dessine sur l'ardoise ce que l'on verra de face après le quart de tour, puis on tourne et on compare.",
+      "Donnez une cible : un élève règle le plan pour que la vue de face et la vue de profil soient identiques, et la classe dit s'il y arrive.",
+      "Aplatissez tout à la même hauteur, puis faites faire un quart de tour : rien ne bouge. Demandez pourquoi, et cherchez d'autres plans qui font la même chose.",
+      "Cherchez la maquette unique : affichez celle où le bouton s'éteint et demandez ce que ces deux silhouettes ont de si particulier.",
+      "Refaites-le sur la table : imprimez la fiche de six plans vides, remplissez-en un à la main, échangez-le avec un camarade et construisez sa maquette avec le matériel de la classe."
+    ],
+    "metaTitle": "Neuf nombres, une maquette — construire d'après un plan, CP et CE1",
+    "metaDescription": "Un plan de neuf cases, un nombre par case : la hauteur à cet endroit. La maquette suit, et un quart de tour change le point de vue. Outil gratuit au TBI, du GS au CE1."
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

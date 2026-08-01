@@ -1192,6 +1192,35 @@
     "metaTitle": "Hochkant und flach – Zahlen unter Null, Grundschule",
     "metaDescription": "Eine Röhre mit Skala, zwei Schieber und der Abstand dazwischen – und eine Taste, die alles flach hinlegt. Zahlen über und unter Null, kostenlos am Whiteboard."
   },
+  "build-plan": {
+    "slug": "bauen-nach-bauplan-raumvorstellung-grundschule",
+    "name": "Neun Zahlen, ein Gebäude",
+    "tagline": "Neun Felder, in jedem eine Zahl von 0 bis 4 – und daneben steht das Gebäude, das diese Zahlen ergeben. Wer am Bauplan etwas ändert, ändert das Gebäude; wer am Gebäude etwas ändert, ändert den Bauplan.",
+    "about": [
+      "Links liegt der Bauplan: neun Felder in drei Reihen, in jedem Feld eine Zahl von 0 bis 4. Die Zahl sagt, wie hoch das Gebäude an dieser Position steht. Rechts daneben steht genau dieses Gebäude, schräg von oben gesehen. Tippt man ein Feld an, wächst es um eins und das Gebäude wächst mit; tippt man an das Gebäude, ändert sich die Zahl im Bauplan. Beides ist dasselbe Objekt, nur zweimal aufgeschrieben – und weil man von beiden Seiten hineingreifen kann, muss niemand erklären, dass die Zahl und der Bau zusammengehören. Man sieht es.",
+      "Darunter liegen zwei flache Umrisse: unter dem Bauplan das Gebäude von vorn gesehen, unter dem Gebäude dasselbe von der Seite. Diese beiden Umrisse sind der eigentliche Grund für das Gerät. Ein Kind, das ein Gebäude vor sich hat, sieht es dreidimensional. Ein Kind, das nur die beiden Umrisse hat, muss sich das Gebäude vorstellen – und genau dort trennt sich das reine Nachbauen vom räumlichen Denken.",
+      "Denn die beiden Umrisse legen das Gebäude meistens nicht fest. Von 1 953 125 möglichen Gebäuden teilen sich 99,96 Prozent ihr Paar aus Vorder- und Seitenansicht mit mindestens einem anderen; bei 87 Prozent aller Paare gibt es mehr als eine Lösung. Ein Feld des Geräts zeigt auf Wunsch ein zweites Gebäude, das von vorn und von der Seite genau gleich aussieht – und bleibt grau, wenn es keines gibt, denn 709 Gebäude sind tatsächlich eindeutig. Das ist keine Spielerei: Die Klasse erlebt, dass zwei richtige Antworten nebeneinander stehen können, ohne dass eine davon falsch wird.",
+      "Ein weiteres Feld dreht das Ganze um eine Vierteldrehung. Das Gebäude bleibt dasselbe, aber was eben vorn war, liegt nun an der Seite. Bei genau 125 Gebäuden ändert sich dabei nichts – auch das ist eine Entdeckung und keine Fehlfunktion, und das Gerät sagt es dann auch so. Das Gerät zählt nichts zusammen, fragt nie nach der Gesamtzahl, vergibt keine Punkte und misst keine Zeit. Es gehört in die Übungszeit zu Beginn der Stunde, ans Whiteboard vor der ganzen Klasse und in den Bereich Raum und Form des Lehrplans, wo Raumvorstellung ausdrücklich zu den Grundschulzielen gehört."
+    ],
+    "howToUse": [
+      "Öffnen Sie das Gerät am Whiteboard und lassen Sie zuerst nur den Bauplan lesen: Welche Zahl steht wo, und wie hoch wird das Gebäude dort?",
+      "Tippen Sie ein Feld an. Es wächst um eins, das Gebäude wächst mit. Für größere Sprünge nach oben und unten ziehen; mit der Tastatur gehen auch die Pfeiltasten.",
+      "Decken Sie das Gebäude gedanklich ab und lassen Sie die Klasse nur aus den beiden unteren Umrissen beschreiben, wie hoch das Gebäude vorn und an der Seite ist.",
+      "Drücken Sie „Vierteldrehung\" und lassen Sie vorher raten: Welcher der beiden Umrisse wandert wohin? Bei manchen Gebäuden ändert sich nichts – fragen Sie, warum.",
+      "Drücken Sie „Eins, das genauso aussieht\" – aber erst, nachdem die Klasse selbst ein zweites Gebäude vorgeschlagen hat. Ist das Feld grau, ist dieses Gebäude eindeutig.",
+      "Mit „Ein anderer Bauplan\" holen Sie das nächste Gebäude. Fünf sind frei zugänglich, elf weitere und das Blatt mit leeren Bauplänen gehören zum Lehrer-Paket."
+    ],
+    "classroomIdeas": [
+      "Bauplan zuerst, Gebäude später: Die Klasse liest den Bauplan vor und beschreibt das Gebäude, bevor jemand hinsieht. Dann aufdecken.",
+      "Ansage nach Zahlen: Sie sagen neun Zahlen an, die Kinder bauen mit dem Material aus der Bauecke nach, und erst danach zeigt das Gerät, ob es passt.",
+      "Nur die Umrisse: Sie zeigen ausschließlich die beiden unteren Umrisse. Jedes Kind baut ein passendes Gebäude – und die Klasse stellt fest, dass mehrere Lösungen richtig sind.",
+      "Die Wette: Vor der Vierteldrehung stimmt die Klasse ab, ob sich das Bild ändert oder nicht. Bei den drehsymmetrischen Gebäuden gewinnt die Minderheit.",
+      "Eindeutig oder nicht: Die Klasse tippt, ob dieses Gebäude das einzige zu seinen Umrissen ist. Erst danach wird das Feld gedrückt, das die Antwort verrät.",
+      "Auf Papier: Die leeren Baupläne aus dem Lehrer-Paket ausdrucken, ein Kind baut hinter der Mappe, das andere zeichnet den Bauplan nach Ansage."
+    ],
+    "metaTitle": "Neun Zahlen, ein Gebäude – Bauen nach Bauplan, Grundschule",
+    "metaDescription": "Neun Zahlen im Bauplan, daneben das Gebäude – von vorn und von der Seite. Bauen nach Bauplan für die Grundschule, kostenlos am Whiteboard."
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

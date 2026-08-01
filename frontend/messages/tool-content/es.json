@@ -1190,6 +1190,35 @@
     "metaTitle": "Bajo cero — el termómetro y los números, 1.º y 2.º",
     "metaDescription": "Un tubo con escala que sigue por debajo del cero: mueve las dos señales, mira cuánto las separa y ponlo de lado. Gratis para la pizarra digital."
   },
+  "build-plan": {
+    "slug": "construcciones-con-cubos-geometria-espacial-primaria",
+    "name": "Nueve casillas, un edificio",
+    "tagline": "Nueve casillas con un número cada una dicen lo alto que sube cada parte de un edificio. Cambia la cuadrícula y el edificio la sigue; toca el edificio y cambia la cuadrícula. Y dos edificios distintos pueden verse exactamente igual desde delante y desde un lado.",
+    "about": [
+      "Una cuadrícula de nueve casillas, cada una con un número del 0 al 4: ese número dice lo alto que sube esa parte del edificio. Al lado, el edificio ya levantado. Se puede entrar por cualquiera de los dos extremos. Si tocas una casilla, esa parte del edificio sube; si tocas el edificio, el número de la casilla cambia solo. No son un dibujo y su explicación: son el mismo objeto escrito de dos maneras, y por eso da igual por dónde se empiece.",
+      "Conviene decirlo con claridad: construir siguiendo un plano escrito es una rutina semanal en las aulas alemanas y nórdicas, y en España no lo es. Lo que sí hay, y mucho, es el rincón de construcciones de Infantil con bloques y cubos de encajar, situarse y situar objetos en una cuadrícula, leer e interpretar un código sencillo, y el arranque de la geometría espacial en primer ciclo. Esta herramienta no trae una rutina de fuera: le pone números a algo que los niños ya hacen con las manos.",
+      "Debajo aparece ese mismo edificio visto desde delante y visto desde un lado, como dos sombras planas. Y aquí llega lo bueno. Otro edificio completamente distinto puede dar esas dos mismas sombras: de todos los edificios que caben en estas nueve casillas, casi ninguno queda determinado por sus dos vistas. Hay un botón que enseña uno de esos otros edificios, y se apaga solo en los pocos casos en que de verdad no existe ninguno. Mirar desde dos sitios no siempre basta para saber cómo es algo: esa es la conversación que abre.",
+      "Un cuarto de giro pone de lado lo que estaba de frente, y el edificio sigue siendo el mismo aunque se vea distinto; en unos pocos ni siquiera se nota el giro, y eso también da que hablar. La herramienta no pregunta nada, no recoge respuestas, no corrige, no puntúa y no lleva tiempo; tampoco pregunta nunca cuántos hay en total, porque eso ya es volumen y toca mucho más adelante. Se abre en el navegador, sin registro y sin instalar nada. Encaja con lo que los planes de estudio piden en primer ciclo sobre geometría espacial y sobre representar con dibujos lo que se ve en el espacio. Cinco edificios y todo el aparato son gratis; los otros once y la hoja de seis cuadrículas vacías van con el plan Docente."
+    ],
+    "howToUse": [
+      "Proyecta la cuadrícula y ve tocando casillas para poner un número en cada una; deja que el edificio se levante a la vista de todos.",
+      "Pide a un niño que suba una sola casilla y que el resto diga, antes de mirar el edificio, qué parte va a crecer.",
+      "Ahora al revés: toca directamente el edificio y que la clase busque qué número ha cambiado en la cuadrícula.",
+      "Enseña las dos vistas de abajo y pregunta cuál es la de delante y cuál la del lado, sin decirlo tú.",
+      "Antes de pulsar «Otro que se ve igual», pide que se imaginen un edificio distinto con esas mismas dos vistas. Para esto existe la herramienta.",
+      "Dale un cuarto de giro y pregunta si ha cambiado el edificio o solo ha cambiado desde dónde lo miramos."
+    ],
+    "classroomIdeas": [
+      "Estimar primero: tapa el edificio con la mano, enseña solo la cuadrícula y que cada mesa dibuje cómo creen que va a ser.",
+      "Al dictado: tú dices los nueve números en voz alta, ellos los colocan, y luego se destapa el edificio y se comprueba.",
+      "Pon todas las casillas a la misma altura y dale un cuarto de giro: no pasa nada. Pregunta por qué este no cambia.",
+      "Buscad entre todos un edificio en el que el botón «Otro que se ve igual» se apague, y preguntad qué tiene de especial.",
+      "Dos niños de espaldas: uno ve solo la vista de delante y el otro solo la del lado, y entre los dos tienen que reconstruirlo.",
+      "Hazlo después en el rincón: imprime la hoja de seis cuadrículas vacías, uno escribe los nueve números a mano y otro lo construye con los cubos de encajar sin ver la cuadrícula."
+    ],
+    "metaTitle": "Nueve casillas, un edificio — geometría espacial y construcciones, 1.º y 2.º",
+    "metaDescription": "Nueve números dicen lo alto que sube cada parte de un edificio; cambia la cuadrícula y el edificio la sigue. Herramienta gratuita para la pizarra digital."
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

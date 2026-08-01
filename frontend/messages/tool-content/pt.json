@@ -1191,6 +1191,35 @@
     "metaTitle": "O Tubo que Deita — números abaixo de zero, anos iniciais",
     "metaDescription": "Dois pinos em uma escala que passa abaixo do zero, e um botão que deita o tubo inteiro sem mudar nada. Ferramenta gratuita para a lousa digital, anos iniciais."
   },
+  "build-plan": {
+    "slug": "mapa-de-alturas-ver-de-frente-e-de-lado-anos-iniciais",
+    "name": "O Mapa das Alturas",
+    "tagline": "Um mapa de nove quadradinhos, cada um com um número que diz a altura ali. Ao lado, o prédio sobe sozinho — e embaixo aparece como ele fica visto de frente e visto de lado.",
+    "about": [
+      "São nove quadradinhos, em três linhas de três. Dentro de cada um vai um número de 0 a 4, e esse número diz uma coisa só: que altura tem o prédio naquele pedaço. Ao lado, o prédio aparece montado. As duas coisas são a mesma coisa escrita de dois jeitos, e dá para mexer pelos dois lados: mude o número e o pedaço sobe, ou puxe o pedaço para cima e o número muda junto. Nada fica esperando confirmação.",
+      "Vale dizer com honestidade que construir a partir de um papel com números não é uma rotina da escola brasileira, como é em alguns países do norte da Europa. O que é nosso, e acontece toda semana, é outra coisa: a criança da Educação Infantil que empilha blocos e cubinhos e depois conta o que fez; a maquete que a turma monta no fim do projeto; e a pergunta que a gente faz o tempo todo sem material nenhum para apoiar — \"e se você olhasse isso de frente? e de lado?\". É nesse ponto que esta ferramenta entra. É a mesma ideia da maquete de blocos, sem cola nem tesoura, e com o papel dos números do lado para comparar.",
+      "Embaixo do mapa ficam as duas silhuetas: o prédio visto de frente, à esquerda, e visto de lado, à direita. Elas não são desenhos separados — são sombras do que está montado ali em cima, e mudam na hora em que qualquer número muda. Um botão gira tudo um quarto de volta: o prédio continua exatamente o mesmo, mas o que era a frente passa a ser o lado. Nem sempre a imagem muda, e isso também é conteúdo: alguns prédios ficam iguais depois de girar.",
+      "A parte mais forte vem depois. Outro botão mostra um prédio diferente que fica igualzinho a este visto de frente e visto de lado — porque as duas silhuetas quase nunca dão conta de definir um prédio sozinhas. Quando o prédio é daqueles poucos em que as duas direções realmente resolvem, o botão fica apagado, e isso é uma informação verdadeira, não um erro. A ferramenta não pergunta nada, não corrige, não pontua e não tem cronômetro. Ela conversa com o que a BNCC pede em Geometria nos anos iniciais, sobre representar e descrever objetos no espaço, e nunca pede o total de peças, que é assunto de outra etapa."
+    ],
+    "howToUse": [
+      "Projete na lousa e toque em um quadradinho do mapa: o número sobe e aquele pedaço do prédio sobe junto. Arraste para cima e para baixo se quiser passar direto para outra altura.",
+      "Faça o caminho contrário na frente da turma: puxe um pedaço do prédio para cima e deixe que percebam sozinhos que o número no mapa mudou. É o mesmo objeto, escrito de dois jeitos.",
+      "Aponte as duas silhuetas de baixo antes de mexer em qualquer coisa. Pergunte qual é a de frente e qual é a de lado, e deixe a turma descobrir pela posição de cada uma.",
+      "Antes de tocar em Girar um quarto, peça um palpite: o que vai acontecer com as duas silhuetas? Depois gire e confira. Em alguns prédios não muda nada — pergunte por que.",
+      "Chegue no ponto principal: pergunte se dá para existir outro prédio diferente que fique igual a este visto de frente e visto de lado. Recolha os palpites e só então toque em Outro que parece igual.",
+      "Quando esse botão estiver apagado, aproveite: aquele prédio é o único possível com aquelas duas silhuetas. Pergunte à turma o que ele tem de diferente dos outros."
+    ],
+    "classroomIdeas": [
+      "Ditado de mapa: você fala os nove números em voz alta, uma criança preenche na lousa e o resto da turma confere olhando o prédio que aparece.",
+      "Tape o mapa com a mão e deixe só o prédio à vista. A turma diz os nove números; depois destape e confiram juntos.",
+      "Só as sombras: mostre apenas as duas silhuetas de baixo e peça que a turma monte um prédio que sirva. Compare as respostas diferentes — quase sempre há mais de uma.",
+      "Palpite antes de girar: cada criança desenha no caderno como ela acha que vai ficar visto de frente depois do quarto de volta.",
+      "Caça ao prédio único: mexam nos números até o botão Outro que parece igual apagar. O que esses prédios têm em comum?",
+      "Depois no concreto: imprima a folha com seis mapas vazios, cada criança preenche o seu com números e a dupla monta com os cubinhos ou blocos da sala, sem ver o do colega."
+    ],
+    "metaTitle": "O Mapa das Alturas — de frente e de lado, anos iniciais",
+    "metaDescription": "Nove quadradinhos com números de altura levantam um prédio, e embaixo ele aparece visto de frente e visto de lado. Ferramenta gratuita de geometria para a lousa digital, anos iniciais."
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

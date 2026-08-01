@@ -4118,5 +4118,122 @@
     "subscribeCta": "Zum Lehrkraft-Abo",
     "signupCta": "Kostenlos registrieren",
     "dismissCta": "Später"
+  },
+  "homepageV6": {
+    "metadata": {
+      "title": "Startseite v6 — Vorschau: Der Stundenstrahl",
+      "description": "Vorschau des Startseiten-Redesigns „Der Stundenstrahl“."
+    },
+    "hero": {
+      "h1": "Hier hängt alles zusammen.",
+      "sub": "Tools für den Unterricht, selbstkorrigierende Arbeitsblätter, Druckvorlagen mit Lösungsblatt und Arbeitsblatt-Generatoren — kostenlos von der Vorschule bis Klasse 3.",
+      "ctaTools": "Ein Unterrichts-Tool öffnen",
+      "ctaWorksheets": "Arbeitsblätter durchstöbern",
+      "microLine": "Kostenlos starten · ohne Login · ohne Installation"
+    },
+    "ticks": {
+      "teach": "Zeigen",
+      "practice": "Üben",
+      "make": "Bauen",
+      "paper": "Drucken",
+      "share": "Teilen"
+    },
+    "teach": {
+      "heading": "Fang da an, wo jede Stunde beginnt: vorn an der Tafel",
+      "body": "{count} Unterrichts-Tools zum Projizieren — du unterrichtest direkt daran. Das Material übernimmt das Korrigieren: Der Balken kippt, und niemand muss „falsch“ sagen.",
+      "caption": "{count} Tools · kostenlos, ohne Login · kein Zeitdruck, keine Punkte, keine Ranglisten",
+      "seeAll": "Alle {count} Tools ansehen",
+      "liveTag": "Live",
+      "penBalance": "der Balken kippt — keiner muss „falsch“ sagen"
+    },
+    "live": {
+      "cta": "Probier es gleich hier aus",
+      "note": "Lädt in einer Sekunde — ohne Installation.",
+      "openFull": "Das ganze Tool öffnen"
+    },
+    "practice": {
+      "heading": "Dann gib die Idee in jede Kinderhand",
+      "body": "Über 200 kurze Lernaktivitäten und jedes Arbeitsblatt laufen direkt im Browser — passend zu dem Lehrplan-Thema, das du diese Woche unterrichtest. Die Seite korrigiert leise mit, und du gehst durch die Reihen statt durchs Lösungsblatt.",
+      "caption": "Ausgerichtet am Lehrplan, nach dem du wirklich unterrichtest.",
+      "browseActivities": "Eine Aktivität ausprobieren",
+      "browseWorksheets": "Alle Arbeitsblätter ansehen",
+      "openDeck": "Arbeitsblatt-Seite öffnen",
+      "altActivity": "Vorschau der Aktivität „{label}“",
+      "penChoral": "laut zählen — die Tabelle füllt sich von selbst",
+      "penShelf": "Aktivitäten und Arbeitsblätter, ein Regal"
+    },
+    "make": {
+      "heading": "Bau es dir genau passend für deine Klasse",
+      "body": "Wähl die Aufgabe, den Zahlenraum, das Thema, die Bilder — sogar eigene Fotos. Einmal erstellt, und du hast ein interaktives Arbeitsblatt, das sich selbst korrigiert, und ein druckfertiges PDF mit Lösungsblatt.",
+      "caption": "{count} Generatoren · 3.000 Bilder in der Bibliothek · eigene Fotos willkommen",
+      "forkLabel": "Einmal erstellen, zwei Ergebnisse",
+      "forkPlay": "Läuft im Browser",
+      "forkPrint": "Druckt mit Lösungsblatt",
+      "cta": "Ein Arbeitsblatt bauen",
+      "makerAlt": "Die Einstellungen des Arbeitsblatt-Generators: Aufgabe, Thema, Bilder, Schwierigkeit",
+      "penTiles": "drei Plättchen, ein Wort — gebaut, nicht gefunden",
+      "penTraveler": "hier geboren — schau, wie dieses Blatt auf die Reise geht"
+    },
+    "paper": {
+      "heading": "Jedes Arbeitsblatt ist auch Papier",
+      "body": "Nicht manche — alle. Genau die Seite, die auf dem Tablet läuft, kommt als PDF mit Lösungsblatt aus dem Drucker.",
+      "tagPlay": "Läuft im Browser",
+      "tagPrint": "Druckt mit Lösungsblatt",
+      "penTraveler": "immer noch dasselbe Blatt",
+      "playAlt": "Ein interaktives Arbeitsblatt wird im Browser gespielt",
+      "printAlt": "Dasselbe Arbeitsblatt als Druckseite"
+    },
+    "share": {
+      "heading": "Von deinem Bildschirm zu 25 Kindern — in einer Sekunde",
+      "body": "Alles, was du findest oder baust, wird zu einem Link und einem QR-Code. Die Kinder scannen ihn und spielen los — auf jedem Gerät, ohne Schülerkonten, ohne Installation.",
+      "chip1": "Ein Link",
+      "chip2": "Ein QR-Code",
+      "chip3": "Jedes Gerät",
+      "chip4": "Keine Schülerkonten",
+      "qrAlt": "Ein QR-Code, der ein Arbeitsblatt auf jedem Gerät öffnet",
+      "penTraveler": "wieder dasselbe Blatt — jetzt in 25 Händen",
+      "penClock": "die Stunde ist vorbei — die Seite ist morgen noch da"
+    },
+    "keep": {
+      "heading": "Plan eine Stunde, behalte ein Schuljahr",
+      "body": "Speicher, was du baust, und sammle es nach Einheiten — nach den Sommerferien wartet es auf dich. Ausgerichtet an deinem Lehrplan, in 11 Sprachen — und die Grammatik stimmt.",
+      "chipCurricula": "An 10 nationalen Lehrplänen ausgerichtet",
+      "chipLanguages": "Funktioniert in 11 Sprachen",
+      "chipNoData": "Keine Schülerdaten erhoben",
+      "chipNoAds": "Keine Werbung auf Kinderseiten"
+    },
+    "teacher": {
+      "heading": "Kostenlos heißt hier kostenlos",
+      "body": "Jedes Tool ist kostenlos, ohne Login; spiele 10 interaktive Arbeitsblätter pro Tag — ganz ohne Karte. Das Lehrkraft-Abo hebt alle Limits auf und speichert, was du baust.",
+      "freeTitle": "Kostenlos",
+      "freeTag": "Starte hier — ohne Karte",
+      "free1": "Alle Unterrichts-Tools, unbegrenzt",
+      "free2": "10 interaktive Runden pro Tag",
+      "free3": "Die ganze Bibliothek durchstöbern",
+      "free4": "Alle Generatoren offen zum Ausprobieren",
+      "freeCta": "Kostenlos starten — ohne Karte",
+      "teacherTitle": "Lehrkraft",
+      "teacherPrice": "${price} pro Jahr",
+      "teacherMonthly": "oder ${monthly}/Monat",
+      "teacher1": "Unbegrenzt interaktiv spielen",
+      "teacher2": "Unbegrenzte PDF-Downloads mit Lösungsblättern",
+      "teacher3": "Speichern und sammeln, was du baust",
+      "teacher4": "Links und Klassen-QR-Codes teilen",
+      "teacherCta": "Zum Lehrkraft-Abo",
+      "reassure": "Ohne Karte starten · ein fester Preis · jederzeit kündbar"
+    },
+    "close": {
+      "line1": "Die Stunde von morgen",
+      "line2": "wartet schon hier.",
+      "body": "Öffne ein Tool, teil ein Arbeitsblatt aus oder bau heute Abend dein eigenes — alles funktioniert schon, bevor du dich anmeldest.",
+      "ctaPrimary": "Kostenlos starten — ohne Karte",
+      "ctaSecondary": "Arbeitsblätter durchstöbern"
+    },
+    "browse": {
+      "eyebrow": "Zähl weiter",
+      "heading": "Alles — geordnet, wie du es suchst",
+      "sub": "Die ganze Bibliothek — nach Klasse, nach Thema, nach Kompetenz — und dazu alle Unterrichts-Tools.",
+      "toolsHeading": "Tools für den Unterricht"
+    }
   }
 }

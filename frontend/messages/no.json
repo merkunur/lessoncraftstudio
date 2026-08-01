@@ -2801,5 +2801,122 @@
     "subscribeCta": "Se Lærerabonnementet",
     "signupCta": "Registrer deg gratis",
     "dismissCta": "Ikke nå"
+  },
+  "homepageV6": {
+    "metadata": {
+      "title": "Forhåndsvisning av forsiden v6 — Timelinja",
+      "description": "Forhåndsvisning av det nye forsidedesignet Timelinja."
+    },
+    "hero": {
+      "h1": "Hver time henger sammen.",
+      "sub": "Undervisningsverktøy for tavla, selvrettende arbeidsark, utskriftsklare PDF-er med fasit og arbeidsark-generatorer — gratis fra barnehage til 3. trinn.",
+      "ctaTools": "Åpne et undervisningsverktøy",
+      "ctaWorksheets": "Se arbeidsarkene",
+      "microLine": "Gratis å starte · ingen innlogging · ingenting å installere"
+    },
+    "ticks": {
+      "teach": "Undervis",
+      "practice": "Øv",
+      "make": "Lag",
+      "paper": "Print",
+      "share": "Del"
+    },
+    "teach": {
+      "heading": "Start der hver time starter: ved tavla",
+      "body": "{count} instrumenter for klasserommet som du viser på storskjerm og underviser fra. Apparatet tar rettingen: vekta vipper, så ingen trenger å si «feil».",
+      "caption": "{count} instrumenter · gratis, uten innlogging · ingen stoppeklokke, ingen poeng, ingen seiersrekker",
+      "seeAll": "Se alle {count} verktøyene",
+      "liveTag": "Live",
+      "penBalance": "vekta vipper — ingen trenger å si feil"
+    },
+    "live": {
+      "cta": "Prøv det her",
+      "note": "Det laster på et sekund — ingenting å installere.",
+      "openFull": "Åpne hele verktøyet"
+    },
+    "practice": {
+      "heading": "Så gir du ideen videre til hvert enkelt barn",
+      "body": "Over 200 korte aktiviteter — og hvert eneste arbeidsark — spilles rett i nettleseren, knyttet til kompetansemålet du jobber med denne uka. Siden retter seg selv i det stille, så du kan gå rundt blant elevene i stedet for å sitte med fasiten.",
+      "caption": "Forankret i læreplanen du faktisk følger.",
+      "browseActivities": "Prøv en aktivitet",
+      "browseWorksheets": "Se alle arbeidsark",
+      "openDeck": "Åpne arbeidsark-siden",
+      "altActivity": "Forhåndsvisning av aktiviteten {label}",
+      "penChoral": "tell høyt i kor — diagrammet skriver seg selv",
+      "penShelf": "aktiviteter og arbeidsark, på én hylle"
+    },
+    "make": {
+      "heading": "Lag det helt riktig for klassen din",
+      "body": "Velg oppgaven, tallområdet, temaet, illustrasjonene — til og med dine egne foto. Én bygging gir deg et interaktivt arbeidsark som retter seg selv, og en utskriftsklar PDF med fasit.",
+      "caption": "{count} generatorer · et bibliotek med 3 000 bilder · dine egne foto er velkomne",
+      "forkLabel": "Én bygging, to resultater",
+      "forkPlay": "Spilles i nettleseren",
+      "forkPrint": "Skrives ut med fasit",
+      "cta": "Bygg et arbeidsark",
+      "makerAlt": "Generatorens innstillinger: oppgave, tema, illustrasjoner, vanskelighetsgrad",
+      "penTiles": "tre brikker, ett ord — laget, ikke funnet",
+      "penTraveler": "laget her — følg dette arket videre"
+    },
+    "paper": {
+      "heading": "Hvert arbeidsark er også papir",
+      "body": "Ikke noen av dem — alle sammen. Den samme siden som spilles på et nettbrett, skrives ut som PDF med fasit.",
+      "tagPlay": "Spilles i nettleseren",
+      "tagPrint": "Skrives ut med fasit",
+      "penTraveler": "fortsatt det samme arket",
+      "playAlt": "Et interaktivt arbeidsark som spilles i nettleseren",
+      "printAlt": "Det samme arbeidsarket som utskriftsklar side"
+    },
+    "share": {
+      "heading": "Fra din skjerm til 25 elever på ett sekund",
+      "body": "Alt du finner eller lager, blir til én lenke og én QR-kode. Elevene skanner den og spiller på hvilken som helst enhet — ingen elevkontoer, ingenting å installere.",
+      "chip1": "Én lenke",
+      "chip2": "Én QR-kode",
+      "chip3": "Alle enheter",
+      "chip4": "Ingen elevkontoer",
+      "qrAlt": "En QR-kode som åpner et arbeidsark på hvilken som helst enhet",
+      "penTraveler": "samme ark igjen — nå i 25 hender",
+      "penClock": "timen er ferdig — siden er der i morgen også"
+    },
+    "keep": {
+      "heading": "Planlegg en time, behold et helt år",
+      "body": "Lagre det du bygger, og samle det etter tema — det venter på deg ved neste skolestart. Forankret i læreplanen din, på 11 språk, med grammatikken på plass.",
+      "chipCurricula": "Tilpasset 10 nasjonale læreplaner",
+      "chipLanguages": "Fungerer på 11 språk",
+      "chipNoData": "Ingen elevdata samles inn",
+      "chipNoAds": "Ingen reklame på elevsider"
+    },
+    "teacher": {
+      "heading": "Gratis er faktisk gratis",
+      "body": "Alle verktøyene er gratis, uten innlogging; spill 10 interaktive arbeidsark om dagen uten kort. Lærerabonnementet fjerner alle grenser og lagrer det du bygger.",
+      "freeTitle": "Gratis",
+      "freeTag": "Start her — uten kort",
+      "free1": "Alle klasseromsverktøy, ubegrenset",
+      "free2": "10 interaktive spill om dagen",
+      "free3": "Bla i hele biblioteket",
+      "free4": "Alle generatorene, åpne for å prøve",
+      "freeCta": "Start gratis — uten kort",
+      "teacherTitle": "Lærer",
+      "teacherPrice": "${price} per år",
+      "teacherMonthly": "eller ${monthly}/mnd.",
+      "teacher1": "Ubegrenset interaktiv spilling",
+      "teacher2": "Ubegrensede PDF-nedlastinger med fasit",
+      "teacher3": "Lagre og samle det du bygger",
+      "teacher4": "Del lenker og QR-koder med klassen",
+      "teacherCta": "Se lærerabonnementet",
+      "reassure": "Uten kort for å starte · ett fast abonnement · avslutt når som helst"
+    },
+    "close": {
+      "line1": "Morgendagens time",
+      "line2": "ligger klar her.",
+      "body": "Åpne et verktøy, del ut et arbeidsark, eller bygg ditt eget i kveld — alt fungerer før du logger inn.",
+      "ctaPrimary": "Start gratis — uten kort",
+      "ctaSecondary": "Se arbeidsarkene"
+    },
+    "browse": {
+      "eyebrow": "Tell videre",
+      "heading": "Alt, ordnet slik du leter etter det",
+      "sub": "Hele biblioteket — etter trinn, etter emne, etter ferdighet — pluss alle klasseromsverktøyene.",
+      "toolsHeading": "Klasseromsverktøy"
+    }
   }
 }

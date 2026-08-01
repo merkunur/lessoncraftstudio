@@ -4316,5 +4316,122 @@
     "subscribeCta": "Ver el plan Docente",
     "signupCta": "Registrarse gratis",
     "dismissCta": "Ahora no"
+  },
+  "homepageV6": {
+    "metadata": {
+      "title": "Vista previa de la página de inicio v6 — La línea de la lección",
+      "description": "Vista previa del rediseño de la página de inicio «La línea de la lección»."
+    },
+    "hero": {
+      "h1": "Cada lección, en equilibrio.",
+      "sub": "Herramientas para enseñar en vivo, hojas de trabajo que se revisan solas, imprimibles con hoja de respuestas y creadores de hojas de trabajo — gratis, de preescolar a 3er grado.",
+      "ctaTools": "Abre una herramienta de enseñanza",
+      "ctaWorksheets": "Ver las hojas de trabajo",
+      "microLine": "Empieza gratis · sin registro · nada que instalar"
+    },
+    "ticks": {
+      "teach": "Enseña",
+      "practice": "Practica",
+      "make": "Crea",
+      "paper": "Imprime",
+      "share": "Comparte"
+    },
+    "teach": {
+      "heading": "Empieza donde empieza toda lección: al frente del salón",
+      "body": "{count} instrumentos de aula para proyectar y enseñar desde ahí. El aparato se encarga de corregir: la balanza se inclina, y nadie tiene que decir que está mal.",
+      "caption": "{count} instrumentos · gratis, sin registro · sin cronómetros, sin puntajes, sin rachas",
+      "seeAll": "Ver las {count} herramientas",
+      "liveTag": "En vivo",
+      "penBalance": "la balanza se inclina; nadie tiene que decir «mal»"
+    },
+    "live": {
+      "cta": "Pruébala aquí mismo",
+      "note": "Carga en un segundo — nada que instalar.",
+      "openFull": "Abrir la herramienta completa"
+    },
+    "practice": {
+      "heading": "Luego pon la idea en manos de cada niño",
+      "body": "Más de 200 actividades cortas y todas las hojas de trabajo se juegan directo en el navegador, ancladas al contenido que enseñas esta semana. La página se revisa sola, en silencio, para que tú recorras el salón y no la hoja de respuestas.",
+      "caption": "Ancladas al plan de estudios que de verdad enseñas.",
+      "browseActivities": "Prueba una actividad",
+      "browseWorksheets": "Ver todas las hojas de trabajo",
+      "openDeck": "Abrir la página de la hoja de trabajo",
+      "altActivity": "Vista previa de la actividad {label}",
+      "penChoral": "cuenten en voz alta — la gráfica se escribe sola",
+      "penShelf": "actividades y hojas de trabajo, un mismo estante"
+    },
+    "make": {
+      "heading": "Hazla exactamente a la medida de tu grupo",
+      "body": "Elige el ejercicio, el rango numérico, el tema, las imágenes — incluso tus propias fotos. Una sola creación te da una hoja de trabajo interactiva que se revisa sola y un PDF listo para imprimir con su hoja de respuestas.",
+      "caption": "{count} creadores · una biblioteca de 3,000 imágenes · tus fotos son bienvenidas",
+      "forkLabel": "Una creación, dos resultados",
+      "forkPlay": "Se juega en el navegador",
+      "forkPrint": "Se imprime con hoja de respuestas",
+      "cta": "Crea una hoja de trabajo",
+      "makerAlt": "Los controles del creador de hojas de trabajo: ejercicio, tema, imágenes, dificultad",
+      "penTiles": "tres fichas, una palabra — hecha, no encontrada",
+      "penTraveler": "nace aquí — mira cómo viaja esta hoja"
+    },
+    "paper": {
+      "heading": "Toda hoja de trabajo también es papel",
+      "body": "No algunas — todas. La misma página que se juega en una tableta se imprime como PDF con su hoja de respuestas.",
+      "tagPlay": "Se juega en el navegador",
+      "tagPrint": "Se imprime con hoja de respuestas",
+      "penTraveler": "sigue siendo la misma hoja",
+      "playAlt": "Una hoja de trabajo interactiva jugándose en el navegador",
+      "printAlt": "La misma hoja de trabajo como página imprimible"
+    },
+    "share": {
+      "heading": "De tu pantalla a 25 niños en un segundo",
+      "body": "Cualquier cosa que encuentres o crees se convierte en un enlace y un código QR. Los niños lo escanean y juegan en cualquier dispositivo — sin cuentas de alumnos, nada que instalar.",
+      "chip1": "Un enlace",
+      "chip2": "Un código QR",
+      "chip3": "Cualquier dispositivo",
+      "chip4": "Sin cuentas de alumnos",
+      "qrAlt": "Un código QR que abre una hoja de trabajo en cualquier dispositivo",
+      "penTraveler": "la misma hoja otra vez — ahora en 25 manos",
+      "penClock": "la clase termina; la página sigue ahí mañana"
+    },
+    "keep": {
+      "heading": "Planea una clase, conserva el año entero",
+      "body": "Guarda lo que creas, organízalo por unidad — te estará esperando el próximo ciclo escolar. Alineado a tu plan de estudios, en 11 idiomas, con la gramática correcta.",
+      "chipCurricula": "Alineado a 10 planes de estudio nacionales",
+      "chipLanguages": "Funciona en 11 idiomas",
+      "chipNoData": "No se recopilan datos de los alumnos",
+      "chipNoAds": "Sin anuncios en las páginas de los alumnos"
+    },
+    "teacher": {
+      "heading": "Lo gratis es gratis de verdad",
+      "body": "Todas las herramientas son gratis, sin registro; juega 10 hojas de trabajo interactivas al día sin tarjeta. El plan Docente quita todos los límites y guarda lo que creas.",
+      "freeTitle": "Gratis",
+      "freeTag": "Empieza aquí — sin tarjeta",
+      "free1": "Todas las herramientas de aula, sin límite",
+      "free2": "10 jugadas interactivas al día",
+      "free3": "Explora la biblioteca completa",
+      "free4": "Todos los creadores, abiertos para probar",
+      "freeCta": "Empieza gratis — sin tarjeta",
+      "teacherTitle": "Docente",
+      "teacherPrice": "${price} al año",
+      "teacherMonthly": "o ${monthly}/mes",
+      "teacher1": "Juego interactivo ilimitado",
+      "teacher2": "Descargas de PDF ilimitadas con hoja de respuestas",
+      "teacher3": "Guarda y organiza lo que creas",
+      "teacher4": "Comparte enlaces y códigos QR con tu grupo",
+      "teacherCta": "Conoce el plan Docente",
+      "reassure": "Sin tarjeta para empezar · un solo plan · cancela cuando quieras"
+    },
+    "close": {
+      "line1": "La clase de mañana",
+      "line2": "ya está aquí, esperándote.",
+      "body": "Abre una herramienta, reparte una hoja de trabajo o crea la tuya esta noche — todo funciona antes de iniciar sesión.",
+      "ctaPrimary": "Empieza gratis — sin tarjeta",
+      "ctaSecondary": "Ver las hojas de trabajo"
+    },
+    "browse": {
+      "eyebrow": "Sigue contando",
+      "heading": "Todo, organizado como tú lo buscas",
+      "sub": "La biblioteca completa — por grado, por tema, por habilidad — más todas las herramientas de aula.",
+      "toolsHeading": "Herramientas de aula"
+    }
   }
 }

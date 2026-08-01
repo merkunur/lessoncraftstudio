@@ -2794,5 +2794,122 @@
     "subscribeCta": "Se Lærerabonnementet",
     "signupCta": "Tilmeld dig gratis",
     "dismissCta": "Ikke nu"
+  },
+  "homepageV6": {
+    "metadata": {
+      "title": "Forhåndsvisning af forside v6 — The Lesson Line",
+      "description": "Forhåndsvisning af forsidens nye design, The Lesson Line."
+    },
+    "hero": {
+      "h1": "Undervisning, der hænger sammen.",
+      "sub": "Levende undervisningsværktøjer, selvrettende arbejdsark, PDF'er til print med facitliste og arbejdsark-generatorer — gratis fra børnehaveklassen til 3. klasse.",
+      "ctaTools": "Åbn et undervisningsværktøj",
+      "ctaWorksheets": "Se arbejdsarkene",
+      "microLine": "Gratis at starte · uden login · intet at installere"
+    },
+    "ticks": {
+      "teach": "Undervis",
+      "practice": "Øv",
+      "make": "Lav",
+      "paper": "Print",
+      "share": "Del"
+    },
+    "teach": {
+      "heading": "Begynd der, hvor hver time begynder: ved tavlen",
+      "body": "{count} tavleværktøjer, du viser for klassen og underviser ud fra. Apparatet retter selv: vægten vipper, så ingen behøver at sige forkert.",
+      "caption": "{count} værktøjer · gratis, uden login · ingen tidtagning, ingen point, ingen konkurrence",
+      "seeAll": "Se alle {count} værktøjer",
+      "liveTag": "Live",
+      "penBalance": "vægten vipper — ingen behøver sige forkert"
+    },
+    "live": {
+      "cta": "Prøv det lige her",
+      "note": "Det indlæses på et sekund — intet at installere.",
+      "openFull": "Åbn hele værktøjet"
+    },
+    "practice": {
+      "heading": "Giv så idéen videre til hvert enkelt barn",
+      "body": "Over 200 korte aktiviteter og alle arbejdsark spiller direkte i browseren — knyttet til det mål, du arbejder med i denne uge. Siden retter stille sig selv, så du kan gå rundt i klassen i stedet for at sidde med facitlisten.",
+      "caption": "Knyttet til den læreplan, du faktisk underviser efter.",
+      "browseActivities": "Prøv en aktivitet",
+      "browseWorksheets": "Se alle arbejdsark",
+      "openDeck": "Åbn arbejdsarkets side",
+      "altActivity": "Forhåndsvisning af aktiviteten {label}",
+      "penChoral": "tæl højt — diagrammet skriver sig selv",
+      "penShelf": "aktiviteter og arbejdsark på én hylde"
+    },
+    "make": {
+      "heading": "Lav det, så det passer præcis til din klasse",
+      "body": "Vælg øvelsen, talområdet, temaet og billederne — eller brug dine egne fotos. Én opbygning giver dig et interaktivt arbejdsark, der retter sig selv, og en printklar PDF med facitliste.",
+      "caption": "{count} generatorer · et bibliotek med 3.000 billeder · dine egne fotos er velkomne",
+      "forkLabel": "Én opbygning, to formater",
+      "forkPlay": "Spiller i browseren",
+      "forkPrint": "Printes med facitliste",
+      "cta": "Byg et arbejdsark",
+      "makerAlt": "Arbejdsark-generatorens indstillinger: øvelse, tema, billeder, sværhedsgrad",
+      "penTiles": "tre brikker, ét ord — lavet, ikke fundet",
+      "penTraveler": "født her — se arket rejse videre"
+    },
+    "paper": {
+      "heading": "Hvert arbejdsark findes også på papir",
+      "body": "Ikke bare nogle af dem — dem alle sammen. Den samme side, der spiller på en tablet, printes som PDF med facitliste.",
+      "tagPlay": "Spiller i browseren",
+      "tagPrint": "Printes med facitliste",
+      "penTraveler": "stadig det samme ark",
+      "playAlt": "Et interaktivt arbejdsark, der spilles i browseren",
+      "printAlt": "Det samme arbejdsark som printklar side"
+    },
+    "share": {
+      "heading": "Fra din skærm til 25 børn på ét sekund",
+      "body": "Alt, hvad du finder eller laver, bliver til ét link og én QR-kode. Børnene scanner den og spiller på en hvilken som helst enhed — uden elevkonti og uden at installere noget.",
+      "chip1": "Ét link",
+      "chip2": "Én QR-kode",
+      "chip3": "Enhver enhed",
+      "chip4": "Ingen elevkonti",
+      "qrAlt": "En QR-kode, der åbner et arbejdsark på enhver enhed",
+      "penTraveler": "samme ark igen — nu i 25 hænder",
+      "penClock": "timen slutter — siden er der stadig i morgen"
+    },
+    "keep": {
+      "heading": "Planlæg en time, behold et helt år",
+      "body": "Gem det, du bygger, og saml det forløb for forløb — det ligger klar igen til august. Tilpasset din læreplan, på 11 sprog og med grammatikken på plads.",
+      "chipCurricula": "Tilpasset 10 nationale læreplaner",
+      "chipLanguages": "Virker på 11 sprog",
+      "chipNoData": "Ingen elevdata indsamles",
+      "chipNoAds": "Ingen reklamer på elevsider"
+    },
+    "teacher": {
+      "heading": "Gratis er virkelig gratis",
+      "body": "Alle værktøjer er gratis og uden login, og du kan spille 10 interaktive arbejdsark om dagen uden kort. Lærerabonnementet fjerner alle grænser og gemmer det, du bygger.",
+      "freeTitle": "Gratis",
+      "freeTag": "Start her — uden kort",
+      "free1": "Alle undervisningsværktøjer, ubegrænset",
+      "free2": "10 interaktive spil om dagen",
+      "free3": "Se hele biblioteket",
+      "free4": "Alle generatorer — prøv dem frit",
+      "freeCta": "Start gratis — uden kort",
+      "teacherTitle": "Lærer",
+      "teacherPrice": "{price} $ om året",
+      "teacherMonthly": "eller {monthly} $/md.",
+      "teacher1": "Ubegrænset interaktivt spil",
+      "teacher2": "Ubegrænsede PDF-downloads med facitliste",
+      "teacher3": "Gem og saml det, du bygger",
+      "teacher4": "Del links og QR-koder til klassen",
+      "teacherCta": "Se Lærerabonnementet",
+      "reassure": "Intet kort for at starte · én fast pris · opsig når som helst"
+    },
+    "close": {
+      "line1": "Morgendagens time",
+      "line2": "ligger lige her.",
+      "body": "Åbn et værktøj, del et arbejdsark ud, eller byg dit eget i aften — det hele virker, før du logger ind.",
+      "ctaPrimary": "Start gratis — uden kort",
+      "ctaSecondary": "Se arbejdsarkene"
+    },
+    "browse": {
+      "eyebrow": "Tæl videre",
+      "heading": "Det hele — ordnet, som du leder efter det",
+      "sub": "Hele biblioteket — efter klassetrin, emne og færdighed — plus alle undervisningsværktøjer.",
+      "toolsHeading": "Undervisningsværktøjer"
+    }
   }
 }

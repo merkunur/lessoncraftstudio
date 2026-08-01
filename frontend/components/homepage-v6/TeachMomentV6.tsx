@@ -3,8 +3,7 @@
    The 47 instruments, presented as apparatus, not a product category:
    one LIVE tool (click-to-activate — see LiveToolEmbedV6's meter note),
    six featured instrument cards with their own verbatim taglines from
-   manipulatives.ts (native in all 11 locales), and a handoff line into
-   the practice moment. */
+   manipulatives.ts (native in all 11 locales). */
 
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
@@ -121,9 +120,6 @@ export default async function TeachMomentV6({ locale }: Props) {
           })}
         </div>
 
-        <p className="mt-10 font-lcsBody text-lg text-[#14322D] font-semibold text-center lg:text-left">
-          {t('handoff')}
-        </p>
       </div>
     </section>
   );

@@ -22,8 +22,10 @@ function Rekenrek() {
         key={i}
         className={`hv6-rek-bead${isTeal ? ' is-t' : ''}${pushed ? ' is-push' : ''}`}
         style={
+          // --push comes from the stylesheet (computed from the rail's own
+          // slack via container query — beads can never escape the stage).
           pushed
-            ? ({ '--i': i, '--wave': row === 0 ? 0 : 2.2, '--push': '-92px' } as React.CSSProperties)
+            ? ({ '--i': i, '--wave': row === 0 ? 0 : 2.2 } as React.CSSProperties)
             : undefined
         }
       />

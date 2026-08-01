@@ -181,9 +181,6 @@ export default async function PracticeMomentV6({ locale }: Props) {
           </Link>
         </div>
 
-        <p className="mt-10 font-lcsBody text-lg text-[#14322D] font-semibold text-center lg:text-left">
-          {t('handoff')}
-        </p>
       </div>
     </section>
   );

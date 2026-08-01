@@ -36,7 +36,6 @@ export default async function ShareMomentV6({ locale, travelerThumb }: Props) {
                 <span key={c} className="hv6-chip">{c}</span>
               ))}
             </div>
-            <p className="mt-8 font-lcsBody text-lg text-[#14322D] font-semibold">{t('handoff')}</p>
           </div>
 
           {/* The share card: the traveler + a real QR. */}

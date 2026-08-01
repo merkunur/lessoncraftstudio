@@ -4303,5 +4303,122 @@
     "subscribeCta": "Ver o plano Professor",
     "signupCta": "Cadastro grátis",
     "dismissCta": "Agora não"
+  },
+  "homepageV6": {
+    "metadata": {
+      "title": "Prévia da página inicial v6 — The Lesson Line",
+      "description": "Prévia do redesign da página inicial The Lesson Line."
+    },
+    "hero": {
+      "h1": "Cada aula, em perfeito equilíbrio.",
+      "sub": "Ferramentas de ensino ao vivo, fichas que se corrigem sozinhas, PDFs para imprimir com gabarito e geradores de fichas — grátis da educação infantil ao 3º ano.",
+      "ctaTools": "Abra uma ferramenta de ensino",
+      "ctaWorksheets": "Conheça as fichas",
+      "microLine": "Grátis para começar · sem login · nada para instalar"
+    },
+    "ticks": {
+      "teach": "Ensinar",
+      "practice": "Praticar",
+      "make": "Criar",
+      "paper": "Imprimir",
+      "share": "Compartilhar"
+    },
+    "teach": {
+      "heading": "Comece onde toda aula começa: na frente da turma",
+      "body": "{count} instrumentos de sala para projetar e ensinar a partir deles. É o material que corrige: a balança pende, e ninguém precisa dizer que errou.",
+      "caption": "{count} instrumentos · grátis, sem login · sem cronômetro, sem pontuação, sem ranking",
+      "seeAll": "Ver as {count} ferramentas",
+      "liveTag": "Ao vivo",
+      "penBalance": "a balança pende — ninguém precisa dizer errou"
+    },
+    "live": {
+      "cta": "Experimente aqui mesmo",
+      "note": "Carrega em um segundo — nada para instalar.",
+      "openFull": "Abrir a ferramenta completa"
+    },
+    "practice": {
+      "heading": "Depois, entregue a ideia a cada criança",
+      "body": "Mais de duzentas atividades curtas e todas as fichas funcionam direto no navegador, alinhadas à habilidade que você está ensinando nesta semana. A página se corrige sozinha, em silêncio — e você circula pela sala em vez de ficar no gabarito.",
+      "caption": "Alinhado ao currículo que você ensina de verdade.",
+      "browseActivities": "Experimente uma atividade",
+      "browseWorksheets": "Ver todas as fichas",
+      "openDeck": "Abrir a página da ficha",
+      "altActivity": "Prévia da atividade {label}",
+      "penChoral": "conte em voz alta — o gráfico se desenha sozinho",
+      "penShelf": "atividades e fichas, uma só estante"
+    },
+    "make": {
+      "heading": "Faça sob medida para a sua turma",
+      "body": "Escolha o exercício, a faixa numérica, o tema, as imagens — até as suas próprias fotos. Uma única criação gera uma ficha interativa que se corrige sozinha e um PDF pronto para imprimir com gabarito.",
+      "caption": "{count} geradores · biblioteca de 3.000 imagens · suas fotos são bem-vindas",
+      "forkLabel": "Uma criação, dois formatos",
+      "forkPlay": "Funciona no navegador",
+      "forkPrint": "Imprime com gabarito",
+      "cta": "Criar uma ficha",
+      "makerAlt": "Os controles do gerador de fichas: exercício, tema, imagens, dificuldade",
+      "penTiles": "três peças, uma palavra — feita, não achada",
+      "penTraveler": "nasce aqui — veja esta ficha viajar"
+    },
+    "paper": {
+      "heading": "Toda ficha também é papel",
+      "body": "Não algumas — todas. A mesma página que a turma joga no tablet imprime em PDF com gabarito.",
+      "tagPlay": "Funciona no navegador",
+      "tagPrint": "Imprime com gabarito",
+      "penTraveler": "ainda a mesma ficha",
+      "playAlt": "Uma ficha interativa sendo jogada no navegador",
+      "printAlt": "A mesma ficha como página para imprimir"
+    },
+    "share": {
+      "heading": "Da sua tela para 25 crianças em um segundo",
+      "body": "Tudo o que você encontra ou cria vira um link e um QR code. As crianças escaneiam e jogam em qualquer aparelho — sem conta de aluno, nada para instalar.",
+      "chip1": "Um link",
+      "chip2": "Um QR code",
+      "chip3": "Qualquer aparelho",
+      "chip4": "Sem conta de aluno",
+      "qrAlt": "Um QR code que abre uma ficha em qualquer aparelho",
+      "penTraveler": "a mesma ficha de novo — agora em 25 mãos",
+      "penClock": "a aula termina; a página continua lá amanhã"
+    },
+    "keep": {
+      "heading": "Planeje uma aula, guarde o ano inteiro",
+      "body": "Salve o que você cria, organize por unidade — está tudo à sua espera no próximo ano letivo. Alinhado ao seu currículo, em 11 idiomas, com a gramática certa.",
+      "chipCurricula": "Alinhado a 10 currículos nacionais",
+      "chipLanguages": "Funciona em 11 idiomas",
+      "chipNoData": "Nenhum dado de aluno coletado",
+      "chipNoAds": "Sem anúncios nas páginas dos alunos"
+    },
+    "teacher": {
+      "heading": "Grátis de verdade",
+      "body": "Toda ferramenta é grátis, sem login; jogue 10 fichas interativas por dia sem cartão. O plano Professor remove todos os limites e salva o que você cria.",
+      "freeTitle": "Grátis",
+      "freeTag": "Comece por aqui — sem cartão",
+      "free1": "Todas as ferramentas de sala, sem limites",
+      "free2": "10 jogadas interativas por dia",
+      "free3": "Navegue por toda a biblioteca",
+      "free4": "Todos os geradores, abertos para testar",
+      "freeCta": "Começar grátis — sem cartão",
+      "teacherTitle": "Professor",
+      "teacherPrice": "${price} por ano",
+      "teacherMonthly": "ou ${monthly}/mês",
+      "teacher1": "Jogadas interativas ilimitadas",
+      "teacher2": "Downloads de PDF ilimitados, com gabarito",
+      "teacher3": "Salve e organize o que você cria",
+      "teacher4": "Links de compartilhamento e QR codes da turma",
+      "teacherCta": "Conheça o plano Professor",
+      "reassure": "Sem cartão para começar · um plano único · cancele quando quiser"
+    },
+    "close": {
+      "line1": "A aula de amanhã",
+      "line2": "já está bem aqui.",
+      "body": "Abra uma ferramenta, entregue uma ficha ou crie a sua hoje à noite — tudo funciona antes mesmo de você entrar.",
+      "ctaPrimary": "Começar grátis — sem cartão",
+      "ctaSecondary": "Conheça as fichas"
+    },
+    "browse": {
+      "eyebrow": "Continue contando",
+      "heading": "Tudo organizado do jeito que você procura",
+      "sub": "A biblioteca inteira — por ano, por tema, por habilidade — e todas as ferramentas de sala de aula.",
+      "toolsHeading": "Ferramentas de sala de aula"
+    }
   }
 }

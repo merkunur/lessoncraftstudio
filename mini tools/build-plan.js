@@ -161,13 +161,26 @@
     N: 3,
     HMAX: 4,
 
+    /* ---- the arena, 1000 x 1000 --------------------------------------
+       ⭐⭐ THE TWO PROFILES ARE PLACED BY GEOMETRY, NOT LABELLED.
+       The design law forbids words on the apparatus, so "which one is
+       the front?" has to be answered by POSITION. In this projection a
+       rising row (y) travels down-LEFT and a rising column (x) travels
+       down-RIGHT, so the face you meet looking from the front is the
+       building's lower-left face and the side face is its lower-right.
+       The front profile therefore sits at lower-LEFT and the side
+       profile at lower-RIGHT, each under the face it is a shadow of.
+       The first draft put them side by side in one corner and nothing
+       on screen said which was which — legible only via aria-label,
+       which is to say not legible at all.
+       ------------------------------------------------------------------ */
     W: 1000, H: 1000,
-    /* the blueprint block */
-    PX: 60, PY: 92, PCELL: 128,
-    /* the two direction panels */
-    VX: 60, VY: 596, VCELL: 62,
-    /* the building */
-    BU: 74, BOX: 726, BOY: 556,
+    /* the blueprint block, top-left */
+    PX: 60, PY: 100, PCELL: 148,
+    /* the building, right */
+    BU: 82, BOX: 740, BOY: 430,
+    /* the profiles: front lower-LEFT, side lower-RIGHT, same baseline */
+    VCELL: 64, VBASE: 940, FX: 140, SX: 640,
 
     newState: function () { return { h: [1, 1, 1, 1, 1, 1, 1, 1, 1] }; },
 
@@ -396,6 +409,206 @@
       if (this._wrap) this._paint();
     },
 
+    /* =================================================================
+       THE RENDER HALF
+       -----------------------------------------------------------------
+       ⚠ ONE SQUARE ARENA, ONE COORDINATE SYSTEM. #43 shipped a defect
+       by capping one dimension of an aspect-ratio box: the SVG
+       letterboxed and every HTML control drifted off the thing it
+       drove, so each mark drew as TWO circles. Here the arena is
+       1000x1000, `aspect-ratio:1/1` with the cap on the WIDTH, and the
+       18 hit-targets are positioned in % of that square from the SAME
+       expressions that draw what they sit on.
+       ================================================================= */
+    _svg: function (n, a) {
+      var e = document.createElementNS('http://www.w3.org/2000/svg', n), k;
+      if (a) for (k in a) if (Object.prototype.hasOwnProperty.call(a, k)) e.setAttribute(k, a[k]);
+      return e;
+    },
+
+    /* the centre of blueprint cell (r,c), in model units */
+    cellXY: function (r, c) {
+      return { x: this.PX + (c + 0.5) * this.PCELL, y: this.PY + (r + 0.5) * this.PCELL };
+    },
+
+    /* the centre of the TOP FACE of column (r,c) — where the building's
+       hit-target sits, so it tracks the height it drives */
+    topXY: function (st, r, c) {
+      var z = this.at(st, r, c);
+      var p = this.isoPt(c + 0.5, r + 0.5, z, this.BU, this.BOX, this.BOY);
+      return p;
+    },
+
+    _build: function () {
+      var api = this.api, self = this, r, c, i;
+      var wrap = api.el('div', 'bpl-wrap');
+      this._wrap = wrap;
+
+      var bench = api.el('div', 'bpl-bench');
+      this._bench = bench;
+      var svg = this._svg('svg', {
+        viewBox: '0 0 ' + this.W + ' ' + this.H, 'class': 'bpl-svg',
+        preserveAspectRatio: 'xMidYMid meet'
+      });
+      this._svgRoot = svg;
+
+      /* ---- the blueprint: nine ruled squares, nine numerals -------- */
+      this._numEl = [];
+      var gp = this._svg('g', { 'class': 'bpl-plan' });
+      for (r = 0; r < this.N; r++) for (c = 0; c < this.N; c++) {
+        gp.appendChild(this._svg('rect', {
+          x: this.PX + c * this.PCELL, y: this.PY + r * this.PCELL,
+          width: this.PCELL, height: this.PCELL, 'class': 'bpl-cell'
+        }));
+        var t = this._svg('text', {
+          x: this.cellXY(r, c).x, y: this.cellXY(r, c).y,
+          'text-anchor': 'middle', 'dominant-baseline': 'central', 'class': 'bpl-num'
+        });
+        gp.appendChild(t);
+        this._numEl.push(t);
+      }
+      svg.appendChild(gp);
+
+      /* ---- the two directions -------------------------------------- */
+      this._vFront = this._svg('g', { 'class': 'bpl-view bpl-front' });
+      this._vSide = this._svg('g', { 'class': 'bpl-view bpl-side' });
+      svg.appendChild(this._vFront);
+      svg.appendChild(this._vSide);
+
+      /* ---- the building -------------------------------------------- */
+      this._gBuild = this._svg('g', { 'class': 'bpl-build' });
+      svg.appendChild(this._gBuild);
+
+      bench.appendChild(svg);
+
+      /* ---- 18 hit-targets, real buttons ----------------------------
+         ⚠ A DRAG-ONLY TARGET IS DEAD to a keyboard, to assistive tech
+         and to the liveness gate — a synthetic .click() never fires
+         pointerdown (#41). Every one of these is a real <button>: it
+         drags, it clicks, and it takes ArrowUp/ArrowDown.
+         ⚠ They are CANVAS cells, not chrome controls, so the floor
+         that applies is 34px, not 44px — the two floors are asserted
+         separately in local-test, never with an or-shaped assertion. */
+      this._hPlan = []; this._hCol = [];
+      for (i = 0; i < this.N * this.N; i++) {
+        this._hPlan.push(this._hit(bench, 'bpl-h-plan', i));
+        this._hCol.push(this._hit(bench, 'bpl-h-col', i));
+      }
+
+      wrap.appendChild(bench);
+
+      this._hint = api.el('div', 'bpl-hint');
+      wrap.appendChild(this._hint);
+
+      var foot = api.el('div', 'bpl-foot');
+      this._chipTurn = this._chip(foot, '', function () {
+        self.st = self.rot(self.st); self._paint();
+      });
+      this._chipSame = this._chip(foot, '', function () {
+        var o = self.another(self.st, Math.random());
+        if (o) { self.st = o; self._paint(); }
+      });
+      this._chipNext = this._chip(foot, '', function () { self._next(); });
+      this._chipPrint = this._chip(foot, 'bpl-lock', function () {
+        if (!self.premium) { self._showGate(); return; }
+        self._buildSheet();
+        try { window.print(); } catch (e) { /* no printer in a headless gate */ }
+      });
+      wrap.appendChild(foot);
+
+      this._sheetEl = api.el('div', 'bpl-sheet');
+      wrap.appendChild(this._sheetEl);
+
+      if (!this._wired) { this._wireDrags(); this._wired = true; }
+      api.stage.appendChild(wrap);
+    },
+
+    _chip: function (foot, cls, fn) {
+      var b = this.api.el('button', 'bpl-chip' + (cls ? ' ' + cls : ''));
+      b.type = 'button';
+      b.addEventListener('click', function (ev) { ev.preventDefault(); fn(); });
+      foot.appendChild(b);
+      return b;
+    },
+
+    _hit: function (bench, cls, i) {
+      var b = this.api.el('button', 'bpl-hit ' + cls);
+      b.type = 'button';
+      b.setAttribute('data-i', String(i));
+      bench.appendChild(b);
+      return b;
+    },
+
+    /* ---- pointer + keyboard, one code path per end ----------------
+       ⚠ LCS.drag.linear is valueFromPointer(clientX, rect) — clientX
+       ONLY — so a vertical drag is hand-rolled, as #42's and #43's
+       were. Bind to `window`, because pointer capture is released the
+       moment a repaint removes the captured element (#40).
+       ---------------------------------------------------------------- */
+    _wireDrags: function () {
+      var self = this;
+      var drag = null;
+
+      var begin = function (btn, ev) {
+        var i = Number(btn.getAttribute('data-i'));
+        drag = { i: i, y0: ev.clientY, h0: self.at(self.st, Math.floor(i / self.N), i % self.N), moved: false };
+        try { btn.setPointerCapture && btn.setPointerCapture(ev.pointerId); } catch (e) { /* not fatal */ }
+      };
+      var move = function (ev) {
+        if (!drag) return;
+        var bb = self._bench.getBoundingClientRect();
+        if (!bb.height) return;
+        /* one blueprint unit per (arena height / 9) of travel — up is
+           taller, which is the only direction that reads */
+        var step = bb.height / 9;
+        var d = Math.round((drag.y0 - ev.clientY) / step);
+        var v = drag.h0 + d;
+        if (v < 0) v = 0;
+        if (v > self.HMAX) v = self.HMAX;
+        var r = Math.floor(drag.i / self.N), c = drag.i % self.N;
+        if (v !== self.at(self.st, r, c)) {
+          var n = self.setHeight(self.st, r, c, v);
+          if (n) { self.st = n; drag.moved = true; self._paint(); }
+        }
+        ev.preventDefault();
+      };
+      var end = function () { drag = null; };
+
+      var attach = function (btn) {
+        btn.addEventListener('pointerdown', function (ev) { begin(btn, ev); ev.preventDefault(); });
+        /* ⭐ CLICK, TOO — a tap adds one and CLAMPS at HMAX. It never
+           wraps: #39 shipped a tap that went +30 -> -30, sixty units
+           from one touch. A drag that moved suppresses the click. */
+        btn.addEventListener('click', function (ev) {
+          ev.preventDefault();
+          if (drag && drag.moved) return;
+          var i = Number(btn.getAttribute('data-i'));
+          var r = Math.floor(i / self.N), c = i % self.N;
+          var n = self.bump(self.st, r, c, 1);
+          if (n) { self.st = n; self._paint(); }
+        });
+        btn.addEventListener('keydown', function (ev) {
+          var k = ev.key, d = 0;
+          if (k === 'ArrowUp' || k === 'ArrowRight' || k === '+') d = 1;
+          else if (k === 'ArrowDown' || k === 'ArrowLeft' || k === '-') d = -1;
+          else return;
+          ev.preventDefault();
+          var i = Number(btn.getAttribute('data-i'));
+          var n = self.bump(self.st, Math.floor(i / self.N), i % self.N, d);
+          if (n) { self.st = n; self._paint(); }
+        });
+      };
+      var j;
+      for (j = 0; j < this._hPlan.length; j++) attach(this._hPlan[j]);
+      for (j = 0; j < this._hCol.length; j++) attach(this._hCol[j]);
+
+      /* ⚠ ONE listener pair on window, added ONCE — #43 leaked a pair
+         per render until it was caught. `_wired` guards re-entry. */
+      window.addEventListener('pointermove', move, { passive: false });
+      window.addEventListener('pointerup', end);
+      window.addEventListener('pointercancel', end);
+    },
+
     _loadStore: function () {
       try {
         var raw = window.localStorage.getItem(this.STORE_KEY);
@@ -459,6 +672,145 @@
       if (!this.premium && this._idx === 0) this._showGate();
     },
 
+    /* =================================================================
+       _paint — everything on screen is recomputed from the nine
+       integers. Nothing is incrementally patched, so no partial state
+       can survive a turn.
+       ================================================================= */
+    _paint: function () {
+      var api = this.api, s = this._st(this.st), self = this;
+      var n = this.N, r, c, i, k;
+      if (!this._wrap) return;
+
+      /* ---- the numerals ------------------------------------------- */
+      for (i = 0; i < n * n; i++) this._numEl[i].textContent = String(s.h[i]);
+
+      /* ---- the building, in derived paint order -------------------- */
+      while (this._gBuild.firstChild) this._gBuild.removeChild(this._gBuild.firstChild);
+      var list = this.cubes(s), u = this.BU;
+      for (k = 0; k < list.length; k++) {
+        var q = list[k];
+        var P = function (a, b, cc) {
+          var p = self.isoPt(a, b, cc, u, self.BOX, self.BOY);
+          return p.x.toFixed(2) + ',' + p.y.toFixed(2);
+        };
+        /* three faces per cube, exactly as the shipped primitive draws
+           them: top, then the two sides. Each carries data-cube so the
+           gate can count them per column off the RENDER. */
+        this._gBuild.appendChild(this._svg('polygon', {
+          points: P(q.x, q.y, q.z + 1) + ' ' + P(q.x + 1, q.y, q.z + 1) + ' ' + P(q.x + 1, q.y + 1, q.z + 1) + ' ' + P(q.x, q.y + 1, q.z + 1),
+          'class': 'bpl-f bpl-f-top', 'data-cube': '1', 'data-col': (q.y * n + q.x), 'data-z': q.z
+        }));
+        this._gBuild.appendChild(this._svg('polygon', {
+          points: P(q.x, q.y + 1, q.z) + ' ' + P(q.x + 1, q.y + 1, q.z) + ' ' + P(q.x + 1, q.y + 1, q.z + 1) + ' ' + P(q.x, q.y + 1, q.z + 1),
+          'class': 'bpl-f bpl-f-l'
+        }));
+        this._gBuild.appendChild(this._svg('polygon', {
+          points: P(q.x + 1, q.y, q.z) + ' ' + P(q.x + 1, q.y + 1, q.z) + ' ' + P(q.x + 1, q.y + 1, q.z + 1) + ' ' + P(q.x + 1, q.y, q.z + 1),
+          'class': 'bpl-f bpl-f-r'
+        }));
+      }
+
+      /* ---- the two directions, drawn as filled profiles ------------
+         Each is three columns of unit squares; the height of column i
+         is the projection. The gate measures the RENDER, not the model
+         (#43: a gate that reads the model asks the tool to confirm
+         itself). */
+      var drawView = function (g, vals, x0, y0, cls) {
+        while (g.firstChild) g.removeChild(g.firstChild);
+        var w = self.VCELL, j, z;
+        for (j = 0; j < vals.length; j++) {
+          for (z = 0; z < vals[j]; z++) {
+            g.appendChild(self._svg('rect', {
+              x: x0 + j * w, y: y0 - (z + 1) * w, width: w, height: w,
+              'class': 'bpl-vc', 'data-view': cls, 'data-col': j
+            }));
+          }
+          /* the baseline tick keeps an empty column visible, so a zero
+             reads as a zero rather than as a missing panel */
+          g.appendChild(self._svg('rect', {
+            x: x0 + j * w, y: y0, width: w, height: 6, 'class': 'bpl-vbase'
+          }));
+        }
+      };
+      /* front under the building's lower-LEFT face, side under its
+         lower-RIGHT — position is what says which is which */
+      drawView(this._vFront, this.front(s), this.FX, this.VBASE, 'front');
+      drawView(this._vSide, this.side(s), this.SX, this.VBASE, 'side');
+      this._vFront.setAttribute('aria-label', api.t('frontAria'));
+      this._vSide.setAttribute('aria-label', api.t('sideAria'));
+
+      /* ---- the 18 hit-targets ------------------------------------- */
+      var place = function (el, mx, my, label) {
+        el.style.left = (mx / self.W * 100) + '%';
+        el.style.top = (my / self.H * 100) + '%';
+        el.setAttribute('aria-label', label);
+      };
+      var fill = function (tpl, rr, cc, vv) {
+        return String(tpl).replace('{r}', rr + 1).replace('{c}', cc + 1).replace('{v}', vv);
+      };
+      for (r = 0; r < n; r++) for (c = 0; c < n; c++) {
+        i = r * n + c;
+        var p1 = this.cellXY(r, c);
+        place(this._hPlan[i], p1.x, p1.y, fill(api.t('cellAria'), r, c, s.h[i]));
+        var p2 = this.topXY(s, r, c);
+        place(this._hCol[i], p2.x, p2.y, fill(api.t('colAria'), r, c, s.h[i]));
+      }
+
+      this._bench.setAttribute('aria-label', api.t('sceneLabel'));
+
+      /* ---- the chips ---------------------------------------------- */
+      this._chipTurn.textContent = api.t('turnBtn');
+      this._chipSame.textContent = api.t('sameBtn');
+      this._chipNext.textContent = api.t('nextBtn');
+      this._chipPrint.textContent = api.t('printBtn');
+
+      /* ⭐ THE PAYOFF CHIP GOES DEAD ON EXACTLY THE 709 DETERMINED
+         PAIRS — disabled, never a silent no-op (#39's numeral strip
+         that "acted" by highlighting itself). The nine-comparison test
+         is exact; the Node gate proves it against a full census. */
+      var amb = this.isAmbiguous(s);
+      this._chipSame.disabled = !amb;
+
+      /* ---- the hint ------------------------------------------------
+         ⚠ IN-VIEW BEFORE EQUALITY. #43 shipped a hint that fired with
+         zero handles on screen because the dispatch tested equality
+         first. Here the DETERMINED case is tested before the invitation
+         to look for another, or the tool invites something impossible. */
+      var flat = true;
+      for (i = 1; i < n * n; i++) if (s.h[i] !== s.h[0]) { flat = false; break; }
+      this._hint.textContent = !amb ? api.t('hintDetermined')
+        : flat ? api.t('hintPlan')
+          : api.t('hintSame');
+
+      /* keep the two-node gate line honest: the wrap always carries the
+         entitlement class so CSS cannot disagree with the model */
+      this._wrap.className = 'bpl-wrap' + (this.premium ? ' bpl-paid' : '');
+    },
+
+    /* ---- the print sheet -------------------------------------------
+       ⚠ #40 and #41 each shipped a Print chip calling window.print()
+       with NO @media print block at all, so they printed the whole web
+       page — and the generic liveness gate scores that green, because
+       window.print fires either way. `audit-tool-print-sheets.js` is
+       the gate that catches it.
+       The sheet is EMPTY blueprints: ruled squares, no numerals, for a
+       child to fill in by hand. It is the paid artefact.
+       ---------------------------------------------------------------- */
+    _buildSheet: function () {
+      var i, r, c, self = this;
+      while (this._sheetEl.firstChild) this._sheetEl.removeChild(this._sheetEl.firstChild);
+      for (i = 0; i < 6; i++) {
+        var svg = this._svg('svg', { viewBox: '0 0 420 420', 'class': 'bpl-sheet-svg' });
+        for (r = 0; r < this.N; r++) for (c = 0; c < this.N; c++) {
+          svg.appendChild(this._svg('rect', {
+            x: 30 + c * 120, y: 30 + r * 120, width: 120, height: 120, 'class': 'bpl-p-cell'
+          }));
+        }
+        this._sheetEl.appendChild(svg);
+      }
+    },
+
     _showGate: function () {
       var api = this.api;
       if (!this._wrap || this._wrap.querySelector('.bpl-gate')) return;
@@ -474,11 +826,88 @@
   if (typeof window !== 'undefined') window.BuildPlan = BuildPlan;
   if (typeof module !== 'undefined' && module.exports) module.exports = BuildPlan;
 
+  /* =====================================================================
+     CSS. Direction A tokens, `bpl-` prefix, injected once.
+     ⚠ NO `vh` anywhere — it measures the WINDOW, not the iframe.
+     ⚠ NO inline `background` shorthand.
+     ⚠ NO `font:` shorthand — an unquoted `Baloo 2` inside one makes the
+       whole declaration invalid and it is dropped silently, which took a
+       clamp() floor with it on #42. Longhand cannot fail that way.
+     ===================================================================== */
   function injectBuildPlanCSS() {
     if (typeof document === 'undefined' || document.getElementById('bpl-style')) return;
     var s = document.createElement('style');
     s.id = 'bpl-style';
-    s.textContent = ''; /* filled by the render half, appended below */
+    s.textContent = ''
+      + '.bpl-wrap{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:10px;width:100%;}'
+      /* ⚠⚠ THE CAP IS ON THE WIDTH AND THE ARENA STAYS SQUARE. Capping
+         the HEIGHT of an aspect-ratio:1/1 box yields a RECTANGLE; the
+         SVG then letterboxes and every %-positioned control drifts off
+         what it drives. #43 shipped exactly that, and each of its marks
+         drew as two circles. The gate asserts the aspect. */
+      + '.bpl-bench{position:relative;width:100%;max-width:560px;aspect-ratio:1/1;'
+      + 'margin:0 auto;border-radius:18px;background:#FBF3E4;'
+      + 'border:2px solid rgba(20,107,94,.18);}'
+      + '.bpl-svg{display:block;width:100%;height:100%;}'
+
+      /* the blueprint */
+      + '.bpl-cell{fill:#FFFDF7;stroke:#146B5E;stroke-width:5;}'
+      + '.bpl-num{fill:#0F4A40;font-family:"Baloo 2",Nunito,sans-serif;font-weight:800;font-size:62px;}'
+
+      /* the building */
+      + '.bpl-f{stroke:#0F4A40;stroke-width:3;stroke-linejoin:round;}'
+      + '.bpl-f-top{fill:#F2784B;}'
+      + '.bpl-f-l{fill:#C8613A;}'
+      + '.bpl-f-r{fill:#E26C42;}'
+
+      /* the two directions — a flat profile, deliberately NOT the same
+         colour family as the building, so a child reads them as a
+         SHADOW of it rather than as more cubes */
+      + '.bpl-vc{fill:#3C6E63;stroke:#0F4A40;stroke-width:2;}'
+      + '.bpl-vbase{fill:#0F4A40;}'
+
+      /* the 18 hit-targets. Sized as a % of the square arena so they
+         scale with it; the CANVAS floor (34px) is what applies, and
+         local-test measures it separately from the 44px CONTROL floor. */
+      + '.bpl-hit{position:absolute;padding:0;border:0;background-color:transparent;'
+      + 'cursor:ns-resize;touch-action:none;border-radius:12px;}'
+      /* ⚠ SIZED AGAINST THE 34px CANVAS FLOOR AT THE NARROWEST VIEWPORT,
+         not by eye. At a 320px page the arena is 296px, so 1% is 2.96px
+         and a target needs >= 11.5% to clear 34px. The first draft had
+         the building columns at 11% = 32.6px — UNDER the floor, and it
+         would have passed any check that only measured the chips. Both
+         are set from the thing they cover: the blueprint cell is 14.8%
+         of the arena, a cube's top face about 14%. */
+      + '.bpl-h-plan{width:14%;height:14%;margin:-7% 0 0 -7%;}'
+      + '.bpl-h-col{width:13%;height:13%;margin:-6.5% 0 0 -6.5%;}'
+      + '.bpl-hit:focus-visible{outline:3px solid #146B5E;outline-offset:-2px;}'
+
+      + '.bpl-hint{flex-basis:100%;text-align:center;font-family:Nunito,sans-serif;'
+      + 'font-size:15px;line-height:1.45;color:#3C6E63;margin:2px auto 0;max-width:620px;}'
+      + '.bpl-foot{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;width:100%;max-width:660px;}'
+      + '.bpl-chip{font-family:Nunito,sans-serif;font-weight:600;'
+      + 'font-size:clamp(.9rem,3.2vw,1.02rem);line-height:1.1;padding:11px 18px;'
+      + 'min-height:44px;border-radius:999px;border:2px solid #146B5E;color:#146B5E;'
+      + 'background-color:#FFFDF7;cursor:pointer;}'
+      + '.bpl-chip:first-child{background-color:#F2784B;border-color:#F2784B;color:#fff;}'
+      + '.bpl-chip.bpl-lock{border-color:#C8613A;color:#C8613A;background-color:transparent;}'
+      + '.bpl-chip[disabled]{opacity:.45;cursor:default;}'
+
+      + '.bpl-gate{flex-basis:100%;max-width:560px;margin:6px auto 0;padding:14px 16px;'
+      + 'border-radius:16px;background-color:#FFF3EA;border:2px dashed #C8613A;'
+      + 'font-family:Nunito,sans-serif;color:#8A3F1E;text-align:center;}'
+      + '.bpl-gate a{display:inline-block;margin-top:8px;color:#C8613A;font-weight:700;}'
+
+      /* the sheet is print-only */
+      + '.bpl-sheet{display:none;}'
+      + '.bpl-sheet-svg{width:46%;margin:2%;}'
+      + '.bpl-p-cell{fill:none;stroke:#000;stroke-width:3;}'
+
+      + '@media print{'
+      + '*{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}'
+      + '.bpl-bench,.bpl-foot,.bpl-hint,.bpl-gate,.lcs-header,.lcs-bar{display:none !important;}'
+      + '.bpl-sheet{display:flex !important;flex-wrap:wrap;}'
+      + '}';
     document.head.appendChild(s);
   }
 }());

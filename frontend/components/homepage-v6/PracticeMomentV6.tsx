@@ -1,4 +1,4 @@
-/* PracticeMomentV6 (v8 "Open House") — THE WALL OF PRODUCT. Full-bleed,
+/* PracticeMomentV6 (v9 "Morning Lessons, Running") — THE WALL OF PRODUCT. Full-bleed,
    before 50% scroll (law 10): two overlapping rows of real worksheets in
    the visitor's language, the tap-to-play featured tile, and activity
    previews with their CCSS chips. The page's abundance made visible.
@@ -12,6 +12,7 @@ import type { ShowcaseDeck } from '@/lib/showcase-decks';
 import { landingSlugForDeck } from '@/lib/seo/landing-content';
 import { resolveActivityById } from '@/lib/activities';
 import FeaturedDeckTileV3 from '../homepage-v3/FeaturedDeckTileV3';
+import SeamInstrument from './SeamInstrument';
 
 interface Props {
   locale: string;
@@ -63,16 +64,37 @@ export default async function PracticeMomentV6({ locale, featured, thumbs }: Pro
   const rowA = thumbs.slice(0, 6);
   const rowB = thumbs.slice(6, 12);
 
-  const sheet = (deck: ShowcaseDeck, i: number, row: 'a' | 'b') => (
-    <a
-      key={`${row}-${deck.language}-${deck.slug}`}
-      href={deckLandingHref(deck)}
-      className={`hv7-sheet hv7-lift ${WALL_TILTS[i % WALL_TILTS.length]}`}
-      style={{ width: 'clamp(200px, 16vw, 236px)', marginTop: i % 2 === 0 ? 0 : 28 }}
-    >
-      <img src={deck.thumbnailUrl} alt={titleFor(deck)} width={480} height={620} loading="lazy" />
-    </a>
+  // Wall tile #a1 demonstrates the product: teal check stamps appear one
+  // by one on the real worksheet — it checks itself (aria-hidden overlay).
+  const selfChecks = (
+    <span className="hv9-checks" aria-hidden="true">
+      {[1, 2, 3, 4].map((n, i) => (
+        <i key={n} className={`hv9-check is-k${n}`} style={{ '--i': i } as React.CSSProperties} />
+      ))}
+    </span>
   );
+
+  const sheet = (deck: ShowcaseDeck, i: number, row: 'a' | 'b') => {
+    const checking = row === 'a' && i === 1;
+    return (
+      <a
+        key={`${row}-${deck.language}-${deck.slug}`}
+        href={deckLandingHref(deck)}
+        className={`hv7-sheet hv7-lift ${WALL_TILTS[i % WALL_TILTS.length]}${checking ? ' hv9-selfcheck' : ''}`}
+        style={{ width: 'clamp(200px, 16vw, 236px)', marginTop: i % 2 === 0 ? 0 : 28 }}
+      >
+        <img
+          src={deck.thumbnailUrl}
+          alt={titleFor(deck)}
+          width={480}
+          height={620}
+          loading={row === 'a' ? 'eager' : 'lazy'}
+          fetchPriority={row === 'a' ? 'low' : undefined}
+        />
+        {checking && selfChecks}
+      </a>
+    );
+  };
 
   const activityCard = (a: (typeof ACTIVITIES)[number], extra = '') => {
     const label = tLabels(a.labelKey);
@@ -148,9 +170,14 @@ export default async function PracticeMomentV6({ locale, featured, thumbs }: Pro
             2 activities. No tilt. */}
         <div className="sm:hidden px-4">
           <div className="grid grid-cols-2 gap-3">
-            {rowA.slice(0, 4).map((deck) => (
-              <a key={`m-${deck.slug}`} href={deckLandingHref(deck)} className="hv7-sheet">
+            {rowA.slice(0, 4).map((deck, i) => (
+              <a
+                key={`m-${deck.slug}`}
+                href={deckLandingHref(deck)}
+                className={`hv7-sheet${i === 1 ? ' hv9-selfcheck' : ''}`}
+              >
                 <img src={deck.thumbnailUrl} alt={titleFor(deck)} width={480} height={620} loading="lazy" />
+                {i === 1 && selfChecks}
               </a>
             ))}
           </div>
@@ -198,6 +225,9 @@ export default async function PracticeMomentV6({ locale, featured, thumbs }: Pro
           {t('browseWorksheets')}
         </Link>
       </div>
+
+      {/* the thermometer rises on the seam into the maker band */}
+      <SeamInstrument variant="thermometer" />
     </section>
   );
 }

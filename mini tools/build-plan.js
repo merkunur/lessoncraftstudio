@@ -312,27 +312,35 @@
        directions determine it. `pick` is 0..1 and selects among the
        valid lowerings so repeated presses vary; it is a parameter and
        not Math.random so the gate can drive it. */
+    /* ⚠⚠ THE FIRST VERSION HAD A BRANCH THAT COULD NEVER RUN, AND THE
+       MUTATION HARNESS FOUND IT: it returned h* early whenever you were
+       not sitting on h*, and otherwise picked a lowering — but a
+       lowering is never h*, so its "did I just hand back the same
+       building?" guard was unreachable. A mutation deleting that guard
+       survived, which is the correct verdict on dead code and a wrong
+       verdict on the tool.
+       Rebuilt as ONE POOL: every member reachable in a single lowering,
+       plus h* itself, minus whatever is on screen now. Every branch is
+       live, `pick` genuinely varies the answer instead of alternating
+       between two buildings, and null happens exactly when the pool is
+       empty — which is exactly when the two directions determine the
+       building. */
     another: function (st, pick) {
       var s = this._st(st), f = this.front(s), sd = this.side(s);
-      var top = this.tallest(f, sd), moves = [], i, k, t, cand;
-      var same = function (a, b) {
-        var j; for (j = 0; j < a.h.length; j++) if (a.h[j] !== b.h[j]) return false; return true;
-      };
-      /* every single-cell lowering that keeps both directions */
+      var top = this.tallest(f, sd), pool = [], i, k, t;
+      var cur = s.h.join(',');
+      var offer = function (x) { if (x.h.join(',') !== cur) pool.push(x); };
+      offer(top);
       for (i = 0; i < this.N * this.N; i++) {
         for (k = top.h[i] - 1; k >= 0; k--) {
           t = { h: top.h.slice() };
           t.h[i] = k;
-          if (this._keeps(t, f, sd)) moves.push(t);
+          if (this._keeps(t, f, sd)) offer(t);
         }
       }
-      if (!moves.length) return null;                 /* determined */
-      /* prefer h* itself when we are not already sitting on it — the
-         tallest is the most legible contrast */
-      if (!same(s, top)) return top;
+      if (!pool.length) return null;                 /* determined */
       if (typeof pick !== 'number' || !isFinite(pick) || pick < 0 || pick >= 1) pick = 0;
-      cand = moves[Math.floor(pick * moves.length)];
-      return same(cand, s) ? moves[(Math.floor(pick * moves.length) + 1) % moves.length] : cand;
+      return pool[Math.floor(pick * pool.length)];
     },
 
     /* ---- entitlement + repertoire ---------------------------------- */

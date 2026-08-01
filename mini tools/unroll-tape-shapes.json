@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "freeCount": 5,
+  "shapes": [
+    {
+      "k": "pebble",
+      "family": "ellipse",
+      "params": {
+        "q": 0.3988601222559297
+      }
+    },
+    {
+      "k": "circle",
+      "family": "circle",
+      "params": {}
+    },
+    {
+      "k": "egg",
+      "family": "egg",
+      "params": {
+        "k": 0.3238155563068533
+      }
+    },
+    {
+      "k": "crescent",
+      "family": "crescent",
+      "params": {
+        "r": 0.7,
+        "d": 0.3870136357809074
+      }
+    },
+    {
+      "k": "eye",
+      "family": "ellipse",
+      "params": {
+        "q": 2.3
+      }
+    },
+    {
+      "k": "track",
+      "family": "stadium",
+      "params": {
+        "r": 0.27155045104673536
+      }
+    },
+    {
+      "k": "pillow",
+      "family": "superellipse",
+      "params": {
+        "n": 4,
+        "q": 0.64453928258089
+      }
+    },
+    {
+      "k": "reuleaux",
+      "family": "reuleaux",
+      "params": {}
+    },
+    {
+      "k": "cushion",
+      "family": "superellipse",
+      "params": {
+        "n": 8,
+        "q": 1
+      }
+    },
+    {
+      "k": "flower",
+      "family": "rosette",
+      "params": {
+        "k": 5,
+        "amp": 0.7763986523056114
+      }
+    },
+    {
+      "k": "peanut",
+      "family": "peanut",
+      "params": {
+        "w": 0.69895400821515
+      }
+    },
+    {
+      "k": "burst",
+      "family": "rosette",
+      "params": {
+        "k": 7,
+        "amp": 0.7789173698541616
+      }
+    }
+  ]
+}

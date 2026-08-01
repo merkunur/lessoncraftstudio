@@ -71,8 +71,18 @@ const is = (c, m) => { if (c) { PASS++; console.log('  ok   ' + m); } else { FAI
     await page.waitForSelector('.' + t.p + '-wrap', { timeout: 9000 }).catch(() => { });
     await new Promise((r) => setTimeout(r, 600));
 
-    /* drive the tool's own print path so whatever the chip builds is built */
+    /* ⭐⭐ DRIVE IT ENTITLED, OR THE WHOLE CHECK IS VACUOUS. On a tool
+       whose sheet is a PAID feature the Print chip shows the paywall and
+       returns WITHOUT building anything — so the first version of this
+       gate clicked, got the gate panel, and then passed an EMPTY
+       .cmp-sheet because `display:grid` and `width > 0` were both true
+       of a container with no children and zero height. It was the exact
+       vacuity trap it had been written to catch, in the gate written to
+       catch it. Force the entitled state first, then assert CONTENT. */
     await page.evaluate((p) => {
+      const inst = Object.keys(window).map((k) => window[k])
+        .find((v) => v && typeof v === 'object' && v.id && v.STORE_KEY && ('premium' in v));
+      if (inst) inst.premium = true;
       const orig = window.print;
       window.print = function () { };          /* headless print would hang */
       const b = Array.from(document.querySelectorAll('.' + p + '-chip'))
@@ -97,11 +107,38 @@ const is = (c, m) => { if (c) { PASS++; console.log('  ok   ' + m); } else { FAI
         chips: anyVis('.' + p + '-chip'),
         handles: anyVis('.' + p + '-handle, .' + p + '-grip'),
         apparatus: anyVis(apparatus),
-        shellHeader: anyVis('.lcs-header')
+        shellHeader: anyVis('.lcs-header'),
+        /* ⭐ NON-VACUITY: what actually reaches paper, measured. A
+           container can be visible, full-width and completely empty. */
+        appKids: (() => { const e = document.querySelector(apparatus); return e ? e.querySelectorAll('*').length : -1; })(),
+        appH: (() => { const e = document.querySelector(apparatus); return e ? Math.round(e.getBoundingClientRect().height) : -1; })(),
+        /* ⚠ AND IT MUST NOT ASSUME ONE RENDERING TECHNOLOGY. The first
+           version counted SVG primitives only and reported 0 for
+           unit-handle — whose apparatus contains ZERO SVG and is built
+           entirely from HTML elements. That is a wrong measurement, not
+           a wrong tool. Ink is: an SVG primitive with a fill or stroke,
+           OR an HTML box with a non-transparent background or a visible
+           border, OR a text node. */
+        inked: (() => {
+          const e = document.querySelector(apparatus);
+          if (!e) return 0;
+          const clear = (v) => !v || v === 'none' || v === 'rgba(0, 0, 0, 0)' || v === 'transparent';
+          return Array.from(e.querySelectorAll('*')).filter((x) => {
+            const cs = getComputedStyle(x);
+            if (cs.display === 'none' || cs.visibility === 'hidden') return false;
+            if (!clear(cs.fill) || !clear(cs.stroke)) return true;               /* SVG */
+            if (!clear(cs.backgroundColor) || !clear(cs.backgroundImage)) return true; /* HTML fill */
+            if (parseFloat(cs.borderTopWidth) > 0 && !clear(cs.borderTopColor)) return true;
+            return x.childElementCount === 0 && x.textContent.trim().length > 0;  /* text */
+          }).length;
+        })()
       };
     }, t.p, t.apparatus);
 
     is(seen.apparatus === true, `the apparatus (${t.apparatus}) reaches the page`);
+    is(seen.appKids > 0, `NON-VACUITY: it has ${seen.appKids} descendants — an empty container is still "visible"`);
+    is(seen.appH > 40, `NON-VACUITY: it is ${seen.appH}px tall, not a zero-height grid`);
+    is(seen.inked > 0, `⭐ ${seen.inked} shapes carry a fill or a stroke — something actually reaches paper`);
     is(!seen.hint, 'the hint text is gone');
     is(!seen.foot && !seen.chips, 'the button row is gone');
     is(!seen.handles, 'no interactive grips survive — a sheet has no handles');

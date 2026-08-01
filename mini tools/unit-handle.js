@@ -841,6 +841,7 @@ function injectUnitHandleCSS() {
     + '.unh-gate a{color:#C2562F;min-height:44px;display:inline-flex;align-items:center;}'
     + '@media (min-width:760px){.unh-bench{max-width:680px;}}'
     + '@media print{'
+      + '  *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}'
       + '  .lcs-header,.unh-hint,.unh-foot,.unh-gate,.unh-grip{display:none !important;}'
       + '  .unh-wrap{gap:0;}'
       + '  .unh-bench{max-width:none;width:100%;border:0;background:#fff;break-inside:avoid;}'

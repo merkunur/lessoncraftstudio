@@ -90,7 +90,7 @@ const M = [
   /* ---- THE REFUSALS --------------------------------------------------- */
   ['a verdict word enters the source', "STORE_KEY: 'lcs:unroll-tape:v1',", "correct: 1,\n    STORE_KEY: 'lcs:unroll-tape:v1',"],
   ['the total is printed onto the stage', "num.textContent = String(k + 1);", "num.textContent = (o.L / o.across).toFixed(2);"],
-  ['a digit enters an authored string', 'nextShapeBtn: { en: "Another shape" }', 'nextShapeBtn: { en: "Another shape (3)" }'],
+  ['a digit enters an authored string', 'en: "Another shape"', 'en: "Another shape 3"'],
   ['the weave becomes a ruler', "+ 'stroke-linejoin:round;stroke-dasharray:6 5;}'", "+ 'stroke-linejoin:round;}'"],
   ['art is loaded onto the bench', "var svg = this._svg('svg',", "var _u = '/image-library-webp/x.webp';\n      var svg = this._svg('svg',"],
   ['the tool declares tasks and becomes an activity', "    id: 'unroll-tape',", "    id: 'unroll-tape',\n    tasks: [],"],
@@ -105,7 +105,7 @@ const M = [
 
   /* ---- ⭐ DEAD STRINGS (V16 must see a branch made unreachable) ------- */
   ['the landed hint becomes unreachable', "if (this.st.t >= 1) line('hintLanded');", "if (false) line('hintLanded');"],
-  ['the guess hint becomes unreachable', "else if (this.st.flag === null) line('hintGuess');", "else if (false) line('hintGuess');"],
+  ['the guess hint becomes unreachable', "else if (this.st.t === 0 && this.st.flag === null) line('hintGuess');", "else if (false) line('hintGuess');"],
   ['the gate body becomes unreachable', "p.textContent = api.t('gateBody');", "p.textContent = '';"]
 ];
 

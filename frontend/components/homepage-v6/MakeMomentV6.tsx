@@ -36,17 +36,19 @@ export default async function MakeMomentV6({ locale, travelerThumb }: Props) {
   const imgBase = locale === 'en' ? '/homepage' : `/homepage/${locale}`;
 
   return (
-    <section id="make" className="pt-10 md:pt-12 pb-6">
+    <section id="make" className="pt-24 md:pt-32 pb-6">
       <div className="container mx-auto px-4 max-w-6xl">
-        <div className="hv6-tick mb-8 md:mb-10">
-          <span className="hv6-tick-coin">3</span>
-          <span className="hv6-tick-verb">{tTicks('make')}</span>
+        <div className="hv6-mark mb-12 md:mb-16">
+          <span className="hv6-bead" aria-hidden="true">3</span>
+          <span className="hv6-hang hv6-sign-hang">
+            <span className="hv6-sign">{tTicks('make')}</span>
+          </span>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-[0.95fr_1.05fr] gap-10 lg:gap-14 items-start">
-          {/* The real maker, in browser chrome. */}
-          <div className="order-2 lg:order-1">
-            <div className="rounded-2xl overflow-hidden border border-[#14322D]/8 shadow-[var(--e3)] bg-white">
+          {/* The real maker — a hung SCREEN (two threads, dead level). */}
+          <div className="order-2 lg:order-1 hv6-hang2" style={{ '--drop': '60px' } as React.CSSProperties}>
+            <div className="rounded-2xl overflow-hidden border border-[#14322D]/8 shadow-[0_30px_60px_-22px_rgba(0,0,0,0.55)] bg-white">
               <Chrome url="lessoncraftstudio.com/worksheet-makers" />
               <div className="bg-[#F4F2EC] max-h-[420px] overflow-hidden">
                 <img
@@ -59,17 +61,9 @@ export default async function MakeMomentV6({ locale, travelerThumb }: Props) {
                 />
               </div>
             </div>
-
-            {/* The traveler is born. */}
-            <div className="mt-8 flex items-end gap-5">
-              <div className="hv6-card hv6-traveler w-[150px] shrink-0">
-                <img src={travelerThumb} alt={t('penTraveler')} width={480} height={620} loading="lazy" />
-              </div>
-              <p className="hv6-pen pb-2">{t('penTraveler')}</p>
-            </div>
           </div>
 
-          <div className="order-1 lg:order-2 lg:pt-4 lg:pl-8">
+          <div className="order-1 lg:order-2 hv6-paper hv6-hang2 is-vee" style={{ '--drop': '56px' } as React.CSSProperties}>
             <h2 className="font-lcsDisplay font-bold text-[#14322D] leading-[1.08] tracking-tight text-[1.875rem] sm:text-[2.375rem] md:text-[2.75rem]">
               {t('heading')}
             </h2>
@@ -105,6 +99,20 @@ export default async function MakeMomentV6({ locale, travelerThumb }: Props) {
             </div>
           </div>
         </div>
+      </div>
+
+      {/* The traveler is born — clothespinned straight onto the wire. */}
+      <div className="hv6-strung">
+        <div
+          className="hv6-hang is-sway is-sm relative"
+          style={{ '--drop': '34px', '--rest': '-1.5deg', '--period': '21s', '--amp': '1deg', '--phase': '-9s' } as React.CSSProperties}
+        >
+          <span className="hv6-peg" aria-hidden="true" />
+          <div className="hv6-card w-[150px]">
+            <img src={travelerThumb} alt={t('penTraveler')} width={480} height={620} loading="lazy" />
+          </div>
+        </div>
+        <span className="hv6-slip"><span className="hv6-pen">{t('penTraveler')}</span></span>
       </div>
     </section>
   );

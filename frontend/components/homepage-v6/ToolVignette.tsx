@@ -121,21 +121,42 @@ const VIGNETTES: Record<VignetteVariant, () => JSX.Element> = {
 
 interface ToolVignetteProps {
   variant: VignetteVariant;
-  /** Optional pen-note caption under the stage (the teacher's-pen voice). */
+  /** Optional pen-note caption under the stage (the teacher's-pen voice),
+   *  carried on a cream slip so it never sits raw on the dark board. */
   caption?: string;
+  /** Which side of the wire the twig reaches (desktop). */
+  side?: 'l' | 'r';
   /** Render bare (no stage card) — used inside the hero's own stage. */
   bare?: boolean;
 }
 
-export default function ToolVignette({ variant, caption, bare = false }: ToolVignetteProps) {
+/* Sway assignments per instrument (decorative; readable content never
+   sways). Prime periods; rests small; phases negative = born mid-swing. */
+/* --drop is a constant 44px across asides: the twig in the CSS sits at
+   exactly that height (one var, one truth — the geometry law). */
+const SWAY: Record<VignetteVariant, React.CSSProperties> = {
+  rekenrek: {},
+  balance: { '--drop': '44px', '--rest': '-1deg', '--period': '17s', '--amp': '1.4deg', '--phase': '-5s' } as React.CSSProperties,
+  choral: { '--drop': '44px', '--rest': '0.8deg', '--period': '13s', '--amp': '1.2deg', '--phase': '-8s' } as React.CSSProperties,
+  'letter-tiles': { '--drop': '44px', '--rest': '-1.2deg', '--period': '11s', '--amp': '1.6deg', '--phase': '-3s' } as React.CSSProperties,
+  clock: { '--drop': '44px', '--rest': '1deg', '--period': '7s', '--amp': '1.8deg', '--phase': '-2s' } as React.CSSProperties,
+};
+
+export default function ToolVignette({ variant, caption, side = 'l', bare = false }: ToolVignetteProps) {
   const V = VIGNETTES[variant];
   if (bare) return <V />;
   return (
-    <div className="hv6-seam">
-      <div className="hv6-stage">
-        <V />
+    <div className="hv6-aside">
+      <div className={`hv6-aside-inner is-${side}`}>
+        <div className="hv6-stage hv6-hang is-sway is-sm" style={SWAY[variant]}>
+          <V />
+        </div>
+        {caption && (
+          <span className="hv6-slip">
+            <span className="hv6-pen">{caption}</span>
+          </span>
+        )}
       </div>
-      {caption && <p className="hv6-pen">{caption}</p>}
     </div>
   );
 }

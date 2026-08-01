@@ -52,36 +52,37 @@ export default async function HomepageV6Preview({ params }: { params: { locale: 
 
   return (
     <div className="hv6-page">
-      <OpeningV6 locale={locale} travelerThumb={travelerThumb} />
+      {/* THE INSTALLATION — one continuous board; everything hangs. */}
+      <div className="hv6-board hv6-grain">
+        <OpeningV6 locale={locale} travelerThumb={travelerThumb} />
 
-      {/* THE THREAD — one element, one long gradient, one line. Sections in
-          here cannot band: the ground belongs to the thread, not to them. */}
-      <div className="hv6-thread hv6-rise">
-        <TeachMomentV6 locale={locale} />
-        <ToolVignette variant="balance" caption={t('teach.penBalance')} />
-        <PracticeMomentV6 locale={locale} />
-        <ToolVignette variant="choral" caption={t('practice.penChoral')} />
-        <MakeMomentV6 locale={locale} travelerThumb={travelerThumb} />
-        <ToolVignette variant="letter-tiles" caption={t('make.penTiles')} />
-        <BothWaysV6 locale={locale} travelerThumb={travelerThumb} />
-        <ShareMomentV6 locale={locale} travelerThumb={travelerThumb} />
-        <ToolVignette variant="clock" caption={t('share.penClock')} />
-        <KeepMomentV6 locale={locale} />
-        <TeacherMomentV6 locale={locale} />
+        <div className="hv6-descent">
+          <span className="hv6-wire-pulse" aria-hidden="true" />
+          <TeachMomentV6 locale={locale} />
+          <ToolVignette variant="balance" side="l" caption={t('teach.penBalance')} />
+          <PracticeMomentV6 locale={locale} />
+          <ToolVignette variant="choral" side="r" caption={t('practice.penChoral')} />
+          <MakeMomentV6 locale={locale} travelerThumb={travelerThumb} />
+          <ToolVignette variant="letter-tiles" side="l" caption={t('make.penTiles')} />
+          <BothWaysV6 locale={locale} travelerThumb={travelerThumb} />
+          <ShareMomentV6 locale={locale} travelerThumb={travelerThumb} />
+          <ToolVignette variant="clock" side="r" caption={t('share.penClock')} />
+          <KeepMomentV6 locale={locale} />
+          <TeacherMomentV6 locale={locale} />
+        </div>
+
+        <CloseV6 locale={locale} />
+
+        <BrowseByTopicSSR
+          locale={locale}
+          maxThemesPerGroup={40}
+          includeGradeGroup
+          includeLanguageGroup
+          variant="hv6"
+        />
+
+        <div className="hv6-floorline" aria-hidden="true" />
       </div>
-
-      <CloseV6 locale={locale} />
-
-      {/* The Class Index — the number line's arrowhead lands here. Same
-          crawl-bait engine as the live page (all groups), restyled as the
-          classroom's back wall + the 47-tool group. */}
-      <BrowseByTopicSSR
-        locale={locale}
-        maxThemesPerGroup={40}
-        includeGradeGroup
-        includeLanguageGroup
-        variant="hv6"
-      />
     </div>
   );
 }

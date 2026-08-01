@@ -153,45 +153,51 @@ export default async function HomePage({ params }: { params: { locale: string } 
         />
       ))}
 
-      {/* Clean light ground; scoped to this page, unmounts on navigation. */}
+      {/* The board is dark for the full page; no white flash behind it. */}
       <style>{`
-        body { background: #FDFBF6 !important; color: #14322D; }
+        body { background: #0F3A31 !important; color: #FBF3E4; }
         body::before { display: none; }
       `}</style>
 
-      {/* div, not main: LocaleLayoutClient already wraps children in <main>
-          (the v4 page nested a second <main> — fixed at the v6 promotion). */}
-      <div className={`hv6 ${baloo2.variable} ${nunito.variable} font-lcsBody text-[#14322D] min-h-screen`}>
-        <OpeningV6 locale={locale} travelerThumb={travelerThumb} />
+      {/* div, not main: LocaleLayoutClient already wraps children in <main>. */}
+      <div className={`hv6 ${baloo2.variable} ${nunito.variable} font-lcsBody min-h-screen`}>
+        {/* THE INSTALLATION — one continuous board; everything hangs. */}
+        <div className="hv6-board hv6-grain">
+          <OpeningV6 locale={locale} travelerThumb={travelerThumb} />
 
-        {/* THE THREAD — one element, one long gradient, one line. Sections
-            inside cannot band: the ground belongs to the thread, not to them. */}
-        <div className="hv6-thread hv6-rise">
-          <TeachMomentV6 locale={locale} />
-          <ToolVignette variant="balance" caption={t6('teach.penBalance')} />
-          <PracticeMomentV6 locale={locale} />
-          <ToolVignette variant="choral" caption={t6('practice.penChoral')} />
-          <MakeMomentV6 locale={locale} travelerThumb={travelerThumb} />
-          <ToolVignette variant="letter-tiles" caption={t6('make.penTiles')} />
-          <BothWaysV6 locale={locale} travelerThumb={travelerThumb} />
-          <ShareMomentV6 locale={locale} travelerThumb={travelerThumb} />
-          <ToolVignette variant="clock" caption={t6('share.penClock')} />
-          <KeepMomentV6 locale={locale} />
-          <TeacherMomentV6 locale={locale} />
+          {/* THE DESCENT — the hero's drop thread becomes the suspension
+              wire; every moment hangs from it. */}
+          <div className="hv6-descent">
+            <span className="hv6-wire-pulse" aria-hidden="true" />
+            <TeachMomentV6 locale={locale} />
+            <ToolVignette variant="balance" side="l" caption={t6('teach.penBalance')} />
+            <PracticeMomentV6 locale={locale} />
+            <ToolVignette variant="choral" side="r" caption={t6('practice.penChoral')} />
+            <MakeMomentV6 locale={locale} travelerThumb={travelerThumb} />
+            <ToolVignette variant="letter-tiles" side="l" caption={t6('make.penTiles')} />
+            <BothWaysV6 locale={locale} travelerThumb={travelerThumb} />
+            <ShareMomentV6 locale={locale} travelerThumb={travelerThumb} />
+            <ToolVignette variant="clock" side="r" caption={t6('share.penClock')} />
+            <KeepMomentV6 locale={locale} />
+            <TeacherMomentV6 locale={locale} />
+          </div>
+
+          <CloseV6 locale={locale} />
+
+          {/* The Class Index — the crawl-bait mesh (Do NOT remove — primary
+              crawlable links) as a hanging pegboard of pushpinned cards. */}
+          <BrowseByTopicSSR
+            locale={locale}
+            maxThemesPerGroup={40}
+            includeGradeGroup
+            includeLanguageGroup
+            variant="hv6"
+          />
+
+          {/* The installation's floor; the cream site footer below reads as
+              "outside the gallery". */}
+          <div className="hv6-floorline" aria-hidden="true" />
         </div>
-
-        <CloseV6 locale={locale} />
-
-        {/* The Class Index — the number line's arrowhead lands here. The
-            crawl-bait mesh (Do NOT remove — primary crawlable links),
-            restyled as pinned index cards + the 47-tool group. */}
-        <BrowseByTopicSSR
-          locale={locale}
-          maxThemesPerGroup={40}
-          includeGradeGroup
-          includeLanguageGroup
-          variant="hv6"
-        />
       </div>
     </>
   );

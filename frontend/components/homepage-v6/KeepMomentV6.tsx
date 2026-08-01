@@ -17,10 +17,13 @@ export default async function KeepMomentV6({ locale }: Props) {
   const chips = [t('chipCurricula'), t('chipLanguages'), t('chipNoData'), t('chipNoAds')];
 
   return (
-    <section id="keep" className="pt-12 md:pt-16 pb-16 md:pb-20">
+    <section id="keep" className="pt-24 md:pt-32 pb-16 md:pb-20">
       <div className="container mx-auto px-4 max-w-6xl">
-        {/* Right half on desktop — the line stays clear to its left. */}
-        <div className="max-w-3xl lg:max-w-[47%] lg:ml-auto lg:pl-2">
+        {/* Keep paper hangs RIGHT of the wire. */}
+        <div
+          className="hv6-paper hv6-hang2 is-vee max-w-3xl lg:max-w-[47%] lg:ml-auto"
+          style={{ '--drop': '56px' } as React.CSSProperties}
+        >
           <h2 className="font-lcsDisplay font-bold text-[#14322D] leading-[1.08] tracking-tight text-[1.875rem] sm:text-[2.375rem] md:text-[2.75rem]">
             {t('heading')}
           </h2>

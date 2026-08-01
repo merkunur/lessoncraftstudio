@@ -54,15 +54,19 @@ export default async function TeachMomentV6({ locale }: Props) {
     toolSlugs[key] ? `/${locale}/tools/${toolSlugs[key]}` : `/${locale}/tools`;
 
   return (
-    <section id="teach" className="pt-16 md:pt-20 pb-6">
+    <section id="teach" className="pt-24 md:pt-32 pb-6">
       <div className="container mx-auto px-4 max-w-6xl">
-        <div className="hv6-tick mb-8 md:mb-10">
-          <span className="hv6-tick-coin">1</span>
-          <span className="hv6-tick-verb">{tTicks('teach')}</span>
+        {/* The moment mark: a bead threaded ON the wire + a wooden sign. */}
+        <div className="hv6-mark mb-12 md:mb-16">
+          <span className="hv6-bead" aria-hidden="true">1</span>
+          <span className="hv6-hang hv6-sign-hang">
+            <span className="hv6-sign">{tTicks('teach')}</span>
+          </span>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_0.95fr] gap-10 lg:gap-14 items-start">
-          <div className="lg:pt-4">
+          {/* Body copy rides hung paper, never the raw board. */}
+          <div className="hv6-paper hv6-hang2 is-vee" style={{ '--drop': '64px' } as React.CSSProperties}>
             <h2 className="font-lcsDisplay font-bold text-[#14322D] leading-[1.08] tracking-tight text-[1.875rem] sm:text-[2.375rem] md:text-[2.75rem]">
               {t('heading')}
             </h2>
@@ -80,44 +84,51 @@ export default async function TeachMomentV6({ locale }: Props) {
             </div>
           </div>
 
-          {/* One instrument, genuinely live. Click-gated (meter honesty). */}
-          <LiveToolEmbedV6
-            src={`${TOOL_MINI_URL[LIVE_TOOL]}?v=${TOOL_WRAPPER_VERSION}&lang=${locale}&embed=1`}
-            name={liveName}
-            previewUrl={`/mini-tools/tool-previews/${LIVE_TOOL}.webp`}
-            ctaLabel={tLive('cta')}
-            note={tLive('note')}
-            liveTag={t('liveTag')}
-          />
+          {/* One instrument, genuinely live — a hung screen (two threads,
+              dead level). Click-gated (meter honesty). */}
+          <div className="hv6-hang2" style={{ '--drop': '48px' } as React.CSSProperties}>
+            <LiveToolEmbedV6
+              src={`${TOOL_MINI_URL[LIVE_TOOL]}?v=${TOOL_WRAPPER_VERSION}&lang=${locale}&embed=1`}
+              name={liveName}
+              previewUrl={`/mini-tools/tool-previews/${LIVE_TOOL}.webp`}
+              ctaLabel={tLive('cta')}
+              note={tLive('note')}
+              liveTag={t('liveTag')}
+            />
+          </div>
         </div>
 
-        {/* The chalk tray: six instruments, each speaking its own line. */}
-        <div className="mt-12 md:mt-16 grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-5">
-          {FEATURED_TOOLS.map((key) => {
-            const m = byId.get(key);
-            if (!m) return null;
-            return (
-              <Link key={key} href={toolHref(key)} className="hv6-tool-card group">
-                <div className="hv6-tool-img">
-                  <img
-                    src={`/mini-tools/tool-previews/${key}.webp`}
-                    alt={m.title[locale] ?? m.title.en}
-                    width={480}
-                    height={360}
-                    loading="lazy"
-                  />
-                </div>
-                <div className="px-4 py-3.5">
-                  <p className="font-lcsDisplay font-bold text-[#14322D] text-[15px] leading-snug">
-                    {m.title[locale] ?? m.title.en}
-                  </p>
-                  <p className="mt-1 font-lcsBody text-[13px] text-[#3d574f] leading-snug">
-                    {m.tagline[locale] ?? m.tagline.en}
-                  </p>
-                </div>
-              </Link>
-            );
-          })}
+        {/* The gallery: six framed instruments at varied drops off a branch
+            dowel — each speaking its own line. */}
+        <div className="mt-16 md:mt-24">
+          <div className="hv6-branch" aria-hidden="true" />
+          <div className="hv6-gallery grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-5">
+            {FEATURED_TOOLS.map((key) => {
+              const m = byId.get(key);
+              if (!m) return null;
+              return (
+                <Link key={key} href={toolHref(key)} className="hv6-tool-card hv6-hang group">
+                  <div className="hv6-tool-img">
+                    <img
+                      src={`/mini-tools/tool-previews/${key}.webp`}
+                      alt={m.title[locale] ?? m.title.en}
+                      width={480}
+                      height={360}
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="px-4 py-3.5">
+                    <p className="font-lcsDisplay font-bold text-[#14322D] text-[15px] leading-snug">
+                      {m.title[locale] ?? m.title.en}
+                    </p>
+                    <p className="mt-1 font-lcsBody text-[13px] text-[#3d574f] leading-snug">
+                      {m.tagline[locale] ?? m.tagline.en}
+                    </p>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
         </div>
 
       </div>

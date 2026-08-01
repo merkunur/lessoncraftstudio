@@ -76,15 +76,20 @@ export default async function PracticeMomentV6({ locale }: Props) {
   }
 
   return (
-    <section id="practice" className="pt-10 md:pt-12 pb-6">
+    <section id="practice" className="pt-24 md:pt-32 pb-6">
       <div className="container mx-auto px-4 max-w-6xl">
-        <div className="hv6-tick mb-8 md:mb-10">
-          <span className="hv6-tick-coin">2</span>
-          <span className="hv6-tick-verb">{tTicks('practice')}</span>
+        <div className="hv6-mark mb-12 md:mb-16">
+          <span className="hv6-bead" aria-hidden="true">2</span>
+          <span className="hv6-hang hv6-sign-hang">
+            <span className="hv6-sign">{tTicks('practice')}</span>
+          </span>
         </div>
 
-        {/* Header sits in the RIGHT half on desktop so the line stays clear. */}
-        <div className="max-w-3xl lg:max-w-[47%] lg:ml-auto lg:pl-2 mb-10">
+        {/* Header paper hangs RIGHT of the wire. */}
+        <div
+          className="hv6-paper hv6-hang2 is-vee max-w-3xl lg:max-w-[47%] lg:ml-auto mb-14 md:mb-20"
+          style={{ '--drop': '56px' } as React.CSSProperties}
+        >
           <h2 className="font-lcsDisplay font-bold text-[#14322D] leading-[1.08] tracking-tight text-[1.875rem] sm:text-[2.375rem] md:text-[2.75rem]">
             {t('heading')}
           </h2>
@@ -92,9 +97,9 @@ export default async function PracticeMomentV6({ locale }: Props) {
           <p className="mt-3 font-lcsBody text-sm text-[#3d574f]">{t('caption')}</p>
         </div>
 
-        {/* ONE shelf: worksheet tiles and activity tiles interleaved. When
-            the DB is unreachable (no featured tile) the shelf takes the
-            full width instead of collapsing into the featured column. */}
+        {/* ONE hanging shelf: worksheet tiles and activity tiles standing
+            together on a plank. When the DB is unreachable (no featured
+            tile) the shelf takes the full width. */}
         <div
           className={
             featured
@@ -103,7 +108,7 @@ export default async function PracticeMomentV6({ locale }: Props) {
           }
         >
           {featured && (
-            <div>
+            <div className="hv6-hang" style={{ '--drop': '56px', '--rest': '-1deg' } as React.CSSProperties}>
               <FeaturedDeckTileV3
                 slug={featured.slug}
                 locale={featured.language}
@@ -114,11 +119,14 @@ export default async function PracticeMomentV6({ locale }: Props) {
                 deckHref={deckLandingHref(featured)}
                 deckHrefLabel={t('openDeck')}
               />
-              <p className="hv6-pen mt-4">{t('penShelf')}</p>
+              <p className="mt-4">
+                <span className="hv6-slip"><span className="hv6-pen">{t('penShelf')}</span></span>
+              </p>
             </div>
           )}
 
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 md:gap-5">
+          <div className="hv6-shelf">
+          <div className="hv6-shelf-grid grid grid-cols-2 sm:grid-cols-4 gap-4 md:gap-5">
             {/* 4 worksheets… */}
             {deckThumbs.map((deck) => (
               <a
@@ -169,6 +177,8 @@ export default async function PracticeMomentV6({ locale }: Props) {
                 </Link>
               );
             })}
+          </div>
+          <div className="hv6-shelf-plank" aria-hidden="true" />
           </div>
         </div>
 

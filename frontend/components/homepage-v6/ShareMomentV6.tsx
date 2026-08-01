@@ -19,15 +19,17 @@ export default async function ShareMomentV6({ locale, travelerThumb }: Props) {
   const chips = [t('chip1'), t('chip2'), t('chip3'), t('chip4')];
 
   return (
-    <section id="share" className="pt-10 md:pt-12 pb-6">
+    <section id="share" className="pt-24 md:pt-32 pb-6">
       <div className="container mx-auto px-4 max-w-6xl">
-        <div className="hv6-tick mb-8 md:mb-10">
-          <span className="hv6-tick-coin">5</span>
-          <span className="hv6-tick-verb">{tTicks('share')}</span>
+        <div className="hv6-mark mb-12 md:mb-16">
+          <span className="hv6-bead" aria-hidden="true">5</span>
+          <span className="hv6-hang hv6-sign-hang">
+            <span className="hv6-sign">{tTicks('share')}</span>
+          </span>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-[1.05fr_0.95fr] gap-10 lg:gap-14 items-center">
-          <div className="lg:pr-10">
+        <div className="grid grid-cols-1 lg:grid-cols-[1.05fr_0.95fr] gap-10 lg:gap-14 items-start">
+          <div className="hv6-paper hv6-hang2 is-vee" style={{ '--drop': '56px' } as React.CSSProperties}>
             <h2 className="font-lcsDisplay font-bold text-[#14322D] leading-[1.08] tracking-tight text-[1.875rem] sm:text-[2.375rem] md:text-[2.75rem]">
               {t('heading')}
             </h2>
@@ -42,9 +44,13 @@ export default async function ShareMomentV6({ locale, travelerThumb }: Props) {
             </div>
           </div>
 
-          {/* The share card: the traveler + a real QR. */}
+          {/* The share stage — the hero's gift tag, grown up (eyelet form),
+              hanging from the wire. */}
           <div className="flex flex-col items-center gap-4">
-            <div className="hv6-stage w-full max-w-[420px]">
+            <div
+              className="hv6-stage is-tag hv6-hang is-sm w-full max-w-[420px]"
+              style={{ '--drop': '56px', '--rest': '1deg' } as React.CSSProperties}
+            >
               <div className="flex items-center gap-5">
                 <div className="hv6-card hv6-traveler w-[46%] shrink-0">
                   <img src={travelerThumb} alt={t('penTraveler')} width={480} height={620} loading="lazy" />
@@ -64,7 +70,7 @@ export default async function ShareMomentV6({ locale, travelerThumb }: Props) {
                 </div>
               </div>
             </div>
-            <p className="hv6-pen">{t('penTraveler')}</p>
+            <span className="hv6-slip"><span className="hv6-pen">{t('penTraveler')}</span></span>
           </div>
         </div>
       </div>

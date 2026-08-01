@@ -1,28 +1,33 @@
 /* ═══════════════════════════════════════════════════════════════════════════
-   HOMEPAGE v6 — "THE LESSON LINE" (2026-08-01 ground-up redesign)
+   HOMEPAGE v7 — "THE INSTALLATION" (2026-08-01, third movement)
 
-   Concept: a number line — the most iconic K-3 classroom object and one of
-   this product's own instruments — runs down the entire page. Scrolling is
-   counting forward. The product's five surfaces (tools, activities,
-   worksheets, makers, sharing) are never sections; they are moments that
-   happen ALONG the line, the way a real lesson moves. The light zone is ONE
-   continuous gradient (no banded sections, structurally impossible to band).
+   The whole page IS the mobile. ONE continuous dark board runs from the
+   masthead to a birch floorline; the hero worksheet's drop thread becomes a
+   full-height suspension WIRE, and every element of the page hangs from it:
+   body copy on hung cream papers, tool cards as framed pictures on a branch
+   dowel, the worksheet/activity row on a hanging plank shelf, the maker
+   window as a hung screen, the traveler sheet clothespinned to the wire,
+   the Print twins on a crossbar, pricing as two counter-swaying price tags,
+   the close as a hand-tied loop, and the browse mesh as a hanging pegboard
+   of pushpinned index cards. No sections. No panels. Nothing rises —
+   everything hangs.
 
-   Signature: miniature WORKING classroom apparatus built from pure CSS divs —
-   a rekenrek whose beads slide (hero), a number balance that tips and settles
-   level, letter tiles that drop into slots, a clock that sweeps a quarter
-   hour, a choral-counting chart that fills itself. No iframes, no images, no
-   libraries. All vignettes are aria-hidden decoration; under
-   prefers-reduced-motion each freezes at a composed pose that still tells
-   its story.
+   THE GEOMETRY LAW (from the hero, now page-wide): every suspension's
+   position and transform-origin derive from ONE custom property (--drop /
+   --rest / the .hv6-mob --vars). A thread that shears off its knot turns a
+   Calder into clip-art with wiggle.
 
-   Self-contained: this sheet does NOT depend on homepage-v3.css or
-   homepage-v4.css. The three .hv3-* classes FeaturedDeckTileV3 renders are
-   ported below (scoped under .hv6) so the component needs zero edits.
+   THE ANTI-KITSCH LAW: ≤4 visible thread origins and ≤1 swaying object per
+   viewport band; threads are 2px at ≤0.55 alpha (3px ropes belong to the
+   pegboard alone); readable surfaces never sway (rest rotations only);
+   every suspension is physically plausible.
 
-   Direction A (locked, CLAUDE.md §A.13.47): cream #FBF3E4 · teal #146B5E ·
-   deep teal #0E544A · ink #14322D · coral #F2784B (press #D9633A) ·
-   Baloo 2 display + Nunito body.
+   THE ANTI-DARK-FATIGUE LAW: every band between moment 1 and pricing holds
+   ≥40% cream mass. If a band reads flat, widen its paper — never lighten
+   the board.
+
+   Direction A (locked): cream #FBF3E4 · teal #146B5E · deep #0E544A ·
+   ink #14322D · coral #F2784B · Baloo 2 + Nunito.
    ═══════════════════════════════════════════════════════════════════════════ */
 
 .hv6 {
@@ -38,7 +43,54 @@
   --hv6-base: #FDFBF6;
   --hv6-mist: #F0F4F0;
   --hv6-body: #3d574f;
+  --sway-ease: cubic-bezier(0.37, 0, 0.63, 1); /* easeInOutSine — pendulums */
+  --thread: rgba(245, 223, 194, 0.55);
 }
+
+/* ═══════════════════════════════════════════════════════════════════════
+   THE BOARD — one continuous ground, masthead → floorline. Sections cannot
+   band because no section owns a background any more. Adjacent stops differ
+   by ≤~6 luminance points and never align with a moment boundary.
+   ═══════════════════════════════════════════════════════════════════════ */
+.hv6-board {
+  position: relative;
+  color: var(--hv6-cream);
+  background:
+    radial-gradient(900px 560px at 82% 1%, rgba(242, 120, 75, 0.24) 0%, transparent 62%),
+    radial-gradient(1100px 700px at 16% 86%, rgba(242, 120, 75, 0.12) 0%, transparent 58%),
+    linear-gradient(180deg,
+      #14322D 0%,
+      #0E544A 6%,
+      #103F37 11%,
+      #0F3B34 24%,
+      #11332F 38%,
+      #0F2A2A 50%,
+      #0D2226 62%,
+      #113029 74%,
+      #16493E 85%,
+      #124238 93%,
+      #0F3A31 100%);
+}
+.hv6-board > * { position: relative; z-index: 1; }
+
+/* One grain for the whole installation (whisper-level over ~8000px). */
+.hv6-grain::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.35;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 140px 140px;
+}
+
+/* The masthead is now just a layout region on the board (its old dark
+   gradient lives on .hv6-board). Kept as a class: the hero's own overflow
+   clip + the responsive audit's skip rule anchor here. */
+.hv6-masthead { position: relative; }
+.hv6-masthead > * { position: relative; z-index: 1; }
 
 /* ── Type voices ──────────────────────────────────────────────────────── */
 .hv6-eyebrow {
@@ -49,7 +101,8 @@
   text-transform: uppercase;
   color: var(--hv6-teal);
 }
-/* The teacher's-pen voice: the ONLY italic on the page. One short line max. */
+.hv6-eyebrow.on-dark { color: #7FC5B4; }
+/* The teacher's-pen voice: the ONLY italic on the page. */
 .hv6-pen {
   font-family: var(--font-nunito), system-ui, sans-serif;
   font-style: italic;
@@ -57,8 +110,9 @@
   font-size: 0.8125rem;
   color: var(--hv6-coral-deep);
 }
+.hv6-pen.on-dark { color: #F5B08E; }
 
-/* ── CTAs (press-ledge buttons — the product's own button feel) ───────── */
+/* ── CTAs (press-ledge buttons — self-grounded, may sit raw on the board) */
 .hv6-cta {
   display: inline-flex;
   align-items: center;
@@ -115,6 +169,11 @@
   padding: 5px 12px;
 }
 .hv6-chip-coral { color: #fff; background: var(--hv6-coral); }
+.hv6-chip.on-dark {
+  color: var(--hv6-cream);
+  background: rgba(251, 243, 228, 0.14);
+  border: 1px solid rgba(251, 243, 228, 0.25);
+}
 .hv6-chip-mono {
   display: inline-flex;
   align-items: center;
@@ -127,7 +186,6 @@
   border-radius: 6px;
   padding: 2px 8px;
 }
-/* Quiet supporting-fact chip (moment 6): muted, honest, never a headline. */
 .hv6-chip-quiet {
   display: inline-flex;
   align-items: center;
@@ -155,14 +213,13 @@
   background: #fff;
   border-radius: 16px;
   border: 1px solid rgba(20, 50, 45, 0.07);
-  box-shadow: var(--e2);
+  box-shadow: var(--e2), 0 26px 54px -20px rgba(0, 0, 0, 0.5);
   overflow: hidden;
   transition: transform 0.2s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.2s ease;
 }
-.hv6-card:hover { transform: translateY(-2px); box-shadow: var(--e3); }
+.hv6-card:hover { box-shadow: var(--e3), 0 34px 64px -22px rgba(0, 0, 0, 0.55); }
 .hv6-card img { display: block; width: 100%; height: auto; }
 
-/* Faux browser chrome for real product screenshots. */
 .hv6-chrome {
   display: flex;
   align-items: center;
@@ -185,85 +242,13 @@
   text-overflow: ellipsis;
 }
 
-/* ── Masthead (dark teal, coral glow, printed grain) ─────────────────── */
-.hv6-masthead {
-  position: relative;
-  background:
-    radial-gradient(115% 85% at 80% 12%, rgba(242, 120, 75, 0.26) 0%, transparent 52%),
-    linear-gradient(158deg, #14322D 0%, #0E544A 46%, #103F37 100%);
-  color: var(--hv6-cream);
-}
-.hv6-grain::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  z-index: 0;
-  opacity: 0.45;
-  mix-blend-mode: overlay;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-  background-size: 140px 140px;
-}
-.hv6-masthead > * { position: relative; z-index: 1; }
-
-/* ── Panel transitions (paper physics, no band edges) ────────────────── */
-/* Light zone rising over the dark masthead. */
-.hv6-rise {
-  position: relative;
-  z-index: 2;
-  margin-top: -56px;
-  border-top-left-radius: 40px;
-  border-top-right-radius: 40px;
-  box-shadow: 0 -24px 48px -24px rgba(14, 50, 45, 0.45);
-}
-/* Dark close panel rising over the light zone (the inverse move). */
-.hv6-rise-dark {
-  position: relative;
-  z-index: 2;
-  margin-top: -44px;
-  border-top-left-radius: 40px;
-  border-top-right-radius: 40px;
-  box-shadow: 0 -24px 48px -24px rgba(14, 50, 45, 0.35);
-  background:
-    radial-gradient(120% 90% at 22% 100%, rgba(242, 120, 75, 0.18) 0%, transparent 55%),
-    linear-gradient(168deg, #14322D 0%, #0E544A 68%, #103F37 100%);
-  color: var(--hv6-cream);
-}
-/* The index (mist) rising over the dark close. */
-.hv6-rise-sm {
-  position: relative;
-  z-index: 2;
-  margin-top: -36px;
-  border-top-left-radius: 28px;
-  border-top-right-radius: 28px;
-  box-shadow: 0 -18px 36px -22px rgba(14, 50, 45, 0.4);
-}
-@media (max-width: 767px) {
-  .hv6-rise { margin-top: -32px; border-top-left-radius: 26px; border-top-right-radius: 26px; }
-  .hv6-rise-dark { margin-top: -30px; border-top-left-radius: 26px; border-top-right-radius: 26px; }
-}
-
 /* ═══════════════════════════════════════════════════════════════════════
-   THE THREAD — the light zone is ONE element with ONE long gradient, so
-   section color banding is structurally impossible. The number line runs
-   down its full height, above the ground, below every content panel.
+   THE WIRE — the descent's suspension line. Fades IN over its first 140px
+   (the hero drop fades OUT above it: dissolve, don't join), brightens
+   toward the close.
    ═══════════════════════════════════════════════════════════════════════ */
-.hv6-thread {
-  position: relative;
-  background: linear-gradient(
-    180deg,
-    #FDFBF6 0%,
-    #FBF3E4 16%,
-    #F5F4EC 34%,
-    #F0F4F0 44%,
-    #F6F2E7 58%,
-    #FBF3E4 70%,
-    #F4F4EE 84%,
-    #F0F4F0 100%
-  );
-}
-/* The line itself. Desktop: center. Mobile: a workbook margin rule at left. */
-.hv6-thread::before {
+.hv6-descent { position: relative; }
+.hv6-descent::before {
   content: '';
   position: absolute;
   top: 0;
@@ -271,110 +256,475 @@
   left: 22px;
   width: 3px;
   border-radius: 2px;
-  /* Full-strength from the very top: the hero mobile's drop thread hands the
-     line off under the .hv6-rise curve, so it must already be drawn the
-     instant it clears the panel edge. Fades out through the pricing moment —
-     the day ends; the dark close's arrowhead picks the line back up. */
-  background: linear-gradient(180deg, rgba(20, 107, 94, 0.34) 0%, rgba(20, 107, 94, 0.34) 84%, rgba(20, 107, 94, 0) 94%);
   z-index: 0;
   pointer-events: none;
+  background: linear-gradient(180deg,
+    rgba(245, 223, 194, 0) 0,
+    rgba(245, 223, 194, 0.5) 140px,
+    rgba(245, 223, 194, 0.5) calc(100% - 400px),
+    rgba(245, 223, 194, 0.72) 100%);
 }
 @media (min-width: 1024px) {
-  .hv6-thread::before { left: 50%; margin-left: -1.5px; }
+  .hv6-descent::before { left: 50%; margin-left: -1.5px; }
 }
-/* Everything inside a moment floats above the line. */
-.hv6-thread > * { position: relative; z-index: 1; }
-/* Mobile: the line is a workbook margin rule at 22px — indent content past
-   it so no text ever sits under the line. */
+.hv6-descent > * { position: relative; z-index: 1; }
 @media (max-width: 1023px) {
-  .hv6-thread .container { padding-left: 46px; }
+  .hv6-descent .container { padding-left: 46px; }
 }
 
-/* ── Tick coins: the moment markers ON the line. The only numerals that
-      appear anywhere on the page — numerals on a number line are apparatus,
-      not statistics. ─────────────────────────────────────────────────── */
-.hv6-tick {
+/* The one page-scale gesture: a soft glint of light descends the wire in
+   ~31s, rests, repeats. Transform-only (a 2%-height child translated
+   5000% = full-parent travel). */
+.hv6-wire-pulse {
+  position: absolute;
+  top: 0;
+  left: 22px;
+  width: 3px;
+  height: 2%;
+  border-radius: 2px;
+  z-index: 0;
+  pointer-events: none;
+  background: linear-gradient(180deg, transparent, rgba(251, 243, 228, 0.85) 50%, transparent);
+  animation: hv6WirePulse 45s linear infinite;
+}
+@media (min-width: 1024px) {
+  .hv6-wire-pulse { left: 50%; margin-left: -1.5px; }
+}
+@keyframes hv6WirePulse {
+  0% { transform: translateY(-100%); }
+  70%, 100% { transform: translateY(5000%); }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   SUSPENSION PRIMITIVES
+   ═══════════════════════════════════════════════════════════════════════ */
+
+/* Single-thread hung object. --drop feeds BOTH the thread height and the
+   transform-origin (the knot); --rest feeds BOTH the pose and the sway
+   center. */
+.hv6-hang {
+  position: relative;
+  --drop: 48px;
+  --rest: 0deg;
+  transform: rotate(var(--rest));
+  transform-origin: 50% calc(-1 * var(--drop));
+}
+.hv6-hang::before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  width: 2px;
+  height: var(--drop);
+  margin-left: -1px;
+  border-radius: 1px;
+  background: linear-gradient(180deg, rgba(245, 223, 194, 0.18), var(--thread));
+}
+.hv6-hang::after {
+  content: '';
+  position: absolute;
+  bottom: calc(100% - 2px);
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  margin-left: -2.5px;
+  border-radius: 50%;
+  background: #F5DFC2;
+}
+.hv6-hang.is-sway {
+  animation: hv6HangSway var(--period, 17s) var(--sway-ease) var(--phase, -5s) infinite;
+}
+@keyframes hv6HangSway {
+  0%, 100% { transform: rotate(calc(var(--rest, 0deg) + var(--amp, 1.2deg))); }
+  50% { transform: rotate(calc(var(--rest, 0deg) - var(--amp, 1.2deg))); }
+}
+
+/* Two-thread, level — for everything a visitor reads (papers, stages,
+   screens, the pegboard). A screen hangs straight. */
+.hv6-hang2 { position: relative; --drop: 56px; }
+.hv6-hang2::before,
+.hv6-hang2::after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  width: 2px;
+  height: var(--drop);
+  background: linear-gradient(180deg, rgba(245, 223, 194, 0.14), var(--thread));
+}
+.hv6-hang2::before { left: 18%; }
+.hv6-hang2::after { right: 18%; }
+/* V-form when hung from the wire itself: threads converge upward. */
+.hv6-hang2.is-vee::before { transform-origin: 50% 0; transform: rotate(16deg); }
+.hv6-hang2.is-vee::after { transform-origin: 50% 0; transform: rotate(-16deg); }
+
+/* Hung cream paper — ALL body copy rides paper, never the raw board. */
+.hv6-paper {
+  background: var(--hv6-cream);
+  color: var(--hv6-ink);
+  border-radius: 18px;
+  padding: clamp(22px, 3vw, 34px);
+  box-shadow: 0 2px 0 rgba(20, 107, 94, 0.10), 0 30px 60px -22px rgba(0, 0, 0, 0.55);
+}
+/* Small cream slip for pen-note captions that would otherwise sit raw. */
+.hv6-slip {
+  display: inline-block;
+  background: var(--hv6-cream);
+  border-radius: 8px;
+  padding: 5px 12px;
+  box-shadow: 0 8px 18px -8px rgba(0, 0, 0, 0.5);
+}
+
+/* ── Moment marks: a bead threaded ON the wire + a wooden sign plank ──── */
+.hv6-mark {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
-  padding-top: 8px;
+  gap: 0;
 }
-.hv6-tick-coin {
+.hv6-bead {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 46px;
-  height: 46px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
-  background: var(--hv6-cream);
-  border: 2.5px solid var(--hv6-teal);
-  box-shadow: 0 2px 0 rgba(20, 107, 94, 0.25), var(--e1);
+  background: radial-gradient(circle at 34% 30%, #FFF9EC 0%, #F5DFC2 55%, #D9B27E 100%);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4), inset 0 0 0 3px rgba(242, 120, 75, 0.55);
   font-family: var(--font-baloo-2), system-ui, sans-serif;
   font-weight: 800;
-  font-size: 1.375rem;
-  color: var(--hv6-teal);
-  line-height: 1;
+  font-size: 1.125rem;
+  color: var(--hv6-teal-deep);
 }
-.hv6-tick-verb {
+.hv6-sign {
+  display: inline-flex;
+  align-items: center;
+  padding: 9px 22px 11px;
+  border-radius: 9px;
+  background: linear-gradient(180deg, #E9CFA0 0%, #D9B27E 100%);
+  box-shadow: 0 3px 0 #B9905C, 0 12px 26px -10px rgba(0, 0, 0, 0.55);
   font-family: var(--font-baloo-2), system-ui, sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 1.25rem;
-  color: var(--hv6-teal);
-  text-align: center;
+  color: #5A3F22;
 }
+.hv6-sign-hang { --drop: 24px; --rest: -1deg; }
 @media (max-width: 1023px) {
-  /* On mobile the line lives at the left margin; coins sit on it. */
-  .hv6-tick { flex-direction: row; align-items: center; padding-left: 1px; gap: 14px; justify-content: flex-start; }
-  .hv6-tick-coin { width: 42px; height: 42px; font-size: 1.25rem; }
+  .hv6-mark { flex-direction: row; align-items: center; gap: 12px; }
+  .hv6-mark .hv6-bead { width: 34px; height: 34px; margin-left: -40px; }
+  .hv6-mark .hv6-sign-hang { --drop: 0px; }
+  .hv6-mark .hv6-sign-hang::before, .hv6-mark .hv6-sign-hang::after { display: none; }
+  .hv6-mark .hv6-sign { position: relative; }
+  .hv6-mark .hv6-sign::before {
+    content: '';
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    width: 12px;
+    height: 2px;
+    background: var(--thread);
+  }
 }
 
-/* The arrowhead — every classroom number line ends pointing onward. */
-.hv6-arrowhead {
+/* ── Birch beams: full-row branches + short twigs ─────────────────────── */
+.hv6-branch {
+  position: relative;
+  height: 8px;
+  border-radius: 4px;
+  background: linear-gradient(180deg, #E9CFA0 0%, #D9B27E 100%);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.35);
+}
+.hv6-branch::before {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  width: 2px;
+  height: var(--branch-drop, 44px);
+  margin-left: -1px;
+  background: linear-gradient(180deg, rgba(245, 223, 194, 0.2), var(--thread));
+}
+.hv6-branch::after {
+  content: '';
+  position: absolute;
+  bottom: calc(100% - 2px);
+  left: 50%;
+  width: 6px;
+  height: 6px;
+  margin: 0 0 0 -3px;
+  border-radius: 50%;
+  background: #F5DFC2;
+}
+
+/* Vignette asides: a twig reaches off the wire; the working stage hangs
+   from its free end. Replaces the old centered .hv6-seam. */
+.hv6-aside {
   display: flex;
   justify-content: center;
-  padding: 10px 0 0;
+  padding: clamp(56px, 7vw, 110px) 16px;
 }
-.hv6-arrowhead svg { display: block; }
-
-/* ═══════════════════════════════════════════════════════════════════════
-   APPARATUS VIGNETTES — the signature. White stage cards quoting the
-   tools' own lcs-shell furniture (32px radius, dual shadow), each holding
-   a working instrument built from divs. All decorative (aria-hidden).
-   ═══════════════════════════════════════════════════════════════════════ */
-.hv6-stage {
-  background: #fff;
-  border-radius: 32px;
-  box-shadow: 0 2px 6px rgba(20, 30, 28, 0.06), 0 24px 60px rgba(20, 30, 28, 0.10);
-  border: 1px solid rgba(20, 107, 94, 0.08);
-  padding: clamp(18px, 3vw, 30px);
-}
-/* Seam wrapper: a vignette sitting ON the line between two moments. */
-.hv6-seam {
+.hv6-aside-inner {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 12px;
-  padding: clamp(28px, 5vw, 56px) 16px;
+  transform: translateX(var(--off, 0px));
 }
-/* 100% (not vw): the stage respects the seam's padding box, so the thread
-   indent on mobile can never push it past the viewport edge. clip is the
-   belt-and-braces for the fixed-width apparatus inside. */
-.hv6-seam .hv6-stage { width: min(400px, 100%); overflow: clip; }
-@media (max-width: 1023px) {
-  .hv6-seam { align-items: flex-start; padding-left: 48px; }
+@media (min-width: 1280px) { .hv6-aside-inner.is-l { --off: -210px; } .hv6-aside-inner.is-r { --off: 210px; } }
+@media (min-width: 1024px) and (max-width: 1279px) { .hv6-aside-inner.is-l { --off: -160px; } .hv6-aside-inner.is-r { --off: 160px; } }
+/* the twig from the wire to the hang point — sits at the TOP of the
+   stage's 44px thread (all aside vignettes share --drop: 44px so the twig
+   height is a constant; the geometry law holds). */
+.hv6-aside-inner::before {
+  content: '';
+  position: absolute;
+  bottom: calc(100% + 44px);
+  left: 50%;
+  height: 6px;
+  border-radius: 3px;
+  background: linear-gradient(180deg, #E9CFA0 0%, #D9B27E 100%);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
 }
-/* Tightest phones: the balance's 260px coordinate space scales down. */
-@media (max-width: 379px) {
-  .hv6-bal { transform: scale(0.82); transform-origin: 50% 0; }
+.hv6-aside-inner.is-l::before { width: calc(var(--off, 0px) * -1); margin-left: -1px; }
+.hv6-aside-inner.is-r::before { width: var(--off, 0px); right: 50%; left: auto; margin-right: -1px; }
+@media (max-width: 1023px) { .hv6-aside-inner::before { display: none; } }
+.hv6-aside .hv6-stage { width: min(320px, 100%); overflow: clip; }
+
+/* The stage card (the tools' own furniture, quoted). */
+.hv6-stage {
+  background: #fff;
+  border-radius: 32px;
+  box-shadow: 0 2px 6px rgba(20, 30, 28, 0.06), 0 24px 60px rgba(20, 30, 28, 0.35);
+  border: 1px solid rgba(20, 107, 94, 0.08);
+  padding: clamp(18px, 3vw, 30px);
+}
+/* Grown-up gift tag form (the Share stage): a punched, reinforced eyelet. */
+.hv6-stage.is-tag { position: relative; padding-top: 40px; }
+.hv6-stage.is-tag::before {
+  content: '';
+  position: absolute;
+  top: 14px;
+  left: 50%;
+  width: 14px;
+  height: 14px;
+  margin-left: -7px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 0 3px #D9B27E, 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
-/* ── Rekenrek (stage vignette) — beads compose 3, then 7, then rest. ──
-   Containment (v6.1): the rail is fluid but the push distance used to be a
-   fixed -92px, so beads escaped narrow stages. The push is now computed
-   from the rail's OWN slack (container query width), capped at the design
-   distance; overflow:clip is the belt-and-braces so a bead can never paint
-   outside the stage at any width. */
+/* ── The hanging shelf (Practice): side threads down to a plank the cards
+      stand on. ─────────────────────────────────────────────────────────── */
+.hv6-shelf {
+  position: relative;
+  --drop: 64px;
+  padding: var(--drop) 14px 0;
+}
+.hv6-shelf::before,
+.hv6-shelf::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 6px;
+  width: 2px;
+  background: linear-gradient(180deg, rgba(245, 223, 194, 0.18), var(--thread));
+}
+.hv6-shelf::before { left: 6px; }
+.hv6-shelf::after { right: 6px; }
+.hv6-shelf-grid { align-items: end; }
+.hv6-shelf-plank {
+  height: 10px;
+  border-radius: 5px;
+  margin-top: -2px;
+  background: linear-gradient(180deg, #E9CFA0 0%, #D9B27E 100%);
+  box-shadow: 0 3px 0 #B9905C, 0 18px 36px -12px rgba(0, 0, 0, 0.6);
+}
+
+/* ── The tool gallery: framed pictures at varied drops off a branch. ──── */
+.hv6-gallery {
+  padding-top: 64px;
+  align-items: start;
+}
+.hv6-gallery .hv6-tool-card { margin-top: calc(var(--drop) - 34px); }
+.hv6-gallery > :nth-child(3n + 1) { --drop: 44px; --rest: -1.1deg; }
+.hv6-gallery > :nth-child(3n + 2) { --drop: 58px; --rest: 0.7deg; }
+.hv6-gallery > :nth-child(3n) { --drop: 34px; --rest: -0.5deg; }
+
+.hv6-tool-card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 16px;
+  border: 1px solid rgba(20, 50, 45, 0.07);
+  box-shadow: var(--e1), 0 22px 44px -18px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  transition: transform 0.2s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.2s ease;
+}
+/* hover composes WITH the rest rotation (never zeroes the pose) */
+.hv6-tool-card:hover {
+  transform: rotate(var(--rest, 0deg)) translateY(-3px);
+  box-shadow: var(--e2), 0 30px 54px -20px rgba(0, 0, 0, 0.55);
+}
+.hv6-tool-card .hv6-tool-img {
+  background: linear-gradient(180deg, #EAF2EF 0%, #F4F8F6 100%);
+  border-bottom: 1px solid rgba(20, 50, 45, 0.06);
+}
+.hv6-tool-card .hv6-tool-img img { display: block; width: 100%; height: auto; }
+
+/* ── The strung traveler: clothespinned to the wire itself. ───────────── */
+.hv6-strung {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: clamp(36px, 5vw, 72px) 16px;
+}
+.hv6-peg {
+  position: absolute;
+  top: -16px;
+  left: 50%;
+  width: 13px;
+  height: 28px;
+  margin-left: -6.5px;
+  border-radius: 6px 6px 3px 3px;
+  background: linear-gradient(180deg, #E9CFA0 0%, #C89B66 100%);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  z-index: 2;
+}
+.hv6-peg::before {
+  content: '';
+  position: absolute;
+  top: 11px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: #A87E4E;
+}
+.hv6-traveler {
+  transform: rotate(-1.5deg);
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.hv6-traveler:hover { transform: rotate(0deg); }
+
+/* ── Price tags (the pricing cards become hanging tags — the hero's QR
+      gift-tag, grown up). ─────────────────────────────────────────────── */
+.hv6-tag-price { position: relative; padding-top: 40px !important; }
+.hv6-tag-price::before {
+  content: '';
+  position: absolute;
+  top: 14px;
+  left: 50%;
+  width: 14px;
+  height: 14px;
+  margin-left: -7px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.35);
+  box-shadow: inset 0 0 0 3px #D9B27E, 0 1px 2px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+.hv6-tag-price.is-teacher { border: 1px solid rgba(251, 243, 228, 0.16); }
+/* Phones: a full-width card rotated even 1.5° pokes past the viewport —
+   the tags hang straight and still there (the thread carries the idea). */
+@media (max-width: 1023px) {
+  .hv6-tag-price { --rest-sm: 0deg; }
+  .hv6-tag-price.is-sway { animation: none; transform: rotate(0deg); }
+}
+
+/* The close's hanging CTA tag. */
+.hv6-tag-cta {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  background: var(--hv6-cream);
+  border-radius: 14px;
+  padding: 34px 22px 20px;
+  box-shadow: 0 24px 50px -18px rgba(0, 0, 0, 0.6);
+}
+.hv6-tag-cta::before {
+  content: '';
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  margin-left: -6px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 0 3px #D9B27E;
+}
+
+/* The close's wire stub → hand-tied loop. */
+.hv6-wire-stub {
+  display: block;
+  width: 3px;
+  height: 120px;
+  margin: 0 auto;
+  border-radius: 2px;
+  background: linear-gradient(180deg, rgba(245, 223, 194, 0.72), rgba(245, 223, 194, 0.55));
+}
+
+/* ── The hanging pegboard (the Class Index). Ropes are the only 3px lines
+      on the page. ─────────────────────────────────────────────────────── */
+.hv6-hangboard { position: relative; margin-top: 96px; }
+.hv6-hangboard::before,
+.hv6-hangboard::after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  width: 3px;
+  height: 96px;
+  background: linear-gradient(180deg, rgba(245, 223, 194, 0.3), rgba(245, 223, 194, 0.65));
+}
+.hv6-hangboard::before { left: 12%; }
+.hv6-hangboard::after { right: 12%; }
+.hv6-nail {
+  position: absolute;
+  bottom: calc(100% + 92px);
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #F5DFC2, #C89B66);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+  z-index: 2;
+}
+.hv6-nail.is-l { left: calc(12% - 3px); }
+.hv6-nail.is-r { right: calc(12% - 3px); }
+.hv6-pegboard {
+  position: relative;
+  border-radius: 16px;
+  border: 10px solid #C89B66;
+  padding: clamp(16px, 3vw, 36px);
+  transform: rotate(0.3deg);
+  background:
+    radial-gradient(rgba(90, 63, 34, 0.16) 1.5px, transparent 1.6px) 0 0 / 26px 26px,
+    linear-gradient(180deg, #F3E7CD 0%, #E8D7B7 100%);
+  box-shadow: inset 0 2px 10px rgba(90, 63, 34, 0.28), 0 34px 70px -24px rgba(0, 0, 0, 0.65);
+}
+@media (max-width: 1023px) {
+  .hv6-pegboard { border-width: 6px; padding: 14px; }
+  .hv6-hangboard { margin-top: 64px; }
+  .hv6-hangboard::before, .hv6-hangboard::after { height: 64px; }
+  .hv6-nail { bottom: calc(100% + 60px); }
+}
+
+/* The floorline: a full-width birch skirting dowel — the installation's
+   floor. The cream site footer below reads as "outside the gallery". */
+.hv6-floorline {
+  height: 12px;
+  background: linear-gradient(180deg, #E9CFA0 0%, #C89B66 100%);
+  box-shadow: 0 -10px 30px -8px rgba(0, 0, 0, 0.5);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   APPARATUS VIGNETTES (unchanged working instruments; the stage that
+   carries them now hangs from a twig)
+   ═══════════════════════════════════════════════════════════════════════ */
+
+/* ── Rekenrek (stage vignette) — beads compose 3, then 7, then rest.
+   Containment: push distance computed from the rail's OWN slack (container
+   query), capped at design 92px; overflow clip is the guarantee. */
 .hv6-rek {
   display: flex;
   flex-direction: column;
@@ -384,8 +734,6 @@
   overflow: clip;
   border-radius: 14px;
 }
-/* travel = min(design 92px, this rail's actual free space).
-   333 = 315px bead row (10×27 + 9×5) + 12px padding + 6px clearance. */
 .hv6-rek-bead.is-push {
   --push: calc(-1 * clamp(0px, 100cqw - 333px, 92px));
 }
@@ -397,7 +745,6 @@
   height: 30px;
   align-items: center;
 }
-/* The rail rod. */
 .hv6-rek-rail::before {
   content: '';
   position: absolute;
@@ -440,6 +787,9 @@
   width: 260px;
   margin: 0 auto;
 }
+@media (max-width: 379px) {
+  .hv6-bal { transform: scale(0.82); transform-origin: 50% 0; }
+}
 .hv6-bal-post {
   position: absolute;
   left: 50%;
@@ -473,7 +823,6 @@
   transform-origin: 50% 50%;
   animation: hv6Beam 10s cubic-bezier(0.34, 1.2, 0.5, 1) infinite;
 }
-/* Pans hang from the beam ends; counter-rotate to stay level. */
 .hv6-bal-pan {
   position: absolute;
   top: 4px;
@@ -484,7 +833,6 @@
 }
 .hv6-bal-pan.is-l { left: -14px; }
 .hv6-bal-pan.is-r { right: -14px; }
-/* strings */
 .hv6-bal-pan::before {
   content: '';
   position: absolute;
@@ -497,7 +845,6 @@
   border-right: 2px solid rgba(20, 107, 94, 0.55);
   transform: perspective(60px) rotateX(14deg);
 }
-/* dish */
 .hv6-bal-pan::after {
   content: '';
   position: absolute;
@@ -544,7 +891,7 @@
 }
 
 /* ── Letter tiles — c · a · t drop into their slots; a chalk rule sweeps
-      beneath when the word is made. ────────────────────────────────── */
+      beneath. ──────────────────────────────────────────────────────── */
 .hv6-tiles {
   position: relative;
   display: flex;
@@ -600,7 +947,7 @@
   90%, 100% { transform: scaleX(0); }
 }
 
-/* ── Learning clock — sweeps 9:00 → 9:15 → 9:30. The lesson moves on. ── */
+/* ── Learning clock — sweeps 9:00 → 9:15 → 9:30. ─────────────────────── */
 .hv6-clock {
   position: relative;
   width: 132px;
@@ -668,7 +1015,7 @@
   100% { transform: rotate(300deg); }
 }
 
-/* ── Choral counting — the chart writes itself; patterns pop. ─────────── */
+/* ── Choral counting — the chart writes itself. ──────────────────────── */
 .hv6-choral {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -680,7 +1027,7 @@
   align-items: center;
   justify-content: center;
   aspect-ratio: 1;
-  min-width: 0; /* 1fr tracks may shrink on tight phones — never overflow */
+  min-width: 0;
   border-radius: 10px;
   background: rgba(20, 107, 94, 0.06);
   font-family: var(--font-baloo-2), system-ui, sans-serif;
@@ -702,166 +1049,8 @@
 }
 
 /* ═══════════════════════════════════════════════════════════════════════
-   MOMENT FURNITURE
-   ═══════════════════════════════════════════════════════════════════════ */
-
-/* Tool cards on the "chalk tray" — preview webp on a category-tinted panel,
-   with the product's own press-ledge under the try label. */
-.hv6-tool-card {
-  display: flex;
-  flex-direction: column;
-  background: #fff;
-  border-radius: 16px;
-  border: 1px solid rgba(20, 50, 45, 0.07);
-  box-shadow: var(--e1);
-  overflow: hidden;
-  transition: transform 0.2s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.2s ease;
-}
-.hv6-tool-card:hover { transform: translateY(-3px); box-shadow: var(--e2); }
-.hv6-tool-card .hv6-tool-img {
-  background: linear-gradient(180deg, #EAF2EF 0%, #F4F8F6 100%);
-  border-bottom: 1px solid rgba(20, 50, 45, 0.06);
-}
-.hv6-tool-card .hv6-tool-img img { display: block; width: 100%; height: auto; }
-
-/* The traveler artifact: one worksheet moving through the whole page. */
-.hv6-traveler {
-  transform: rotate(-1.5deg);
-  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1);
-}
-.hv6-traveler:hover { transform: rotate(0deg); }
-
-/* Fork on the line: one build → two outputs. */
-.hv6-fork-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  border-radius: 14px;
-  font-family: var(--font-baloo-2), system-ui, sans-serif;
-  font-weight: 700;
-  font-size: 0.9375rem;
-  padding: 11px 18px;
-  color: var(--hv6-cream);
-}
-.hv6-fork-play { background: var(--hv6-coral); box-shadow: 0 2px 0 var(--hv6-coral-deep); }
-.hv6-fork-print { background: var(--hv6-teal); box-shadow: 0 2px 0 var(--hv6-teal-deep); }
-
-/* ═══════════════════════════════════════════════════════════════════════
-   THE CLASS INDEX — the link mesh as the classroom's back wall. Pinned
-   index cards with coral drawer tabs and tick-mark entries; the number
-   line's vocabulary carried into the browse surface.
-   ═══════════════════════════════════════════════════════════════════════ */
-.hv6-index-card {
-  position: relative;
-  background: #fff;
-  border: 1px solid rgba(20, 50, 45, 0.08);
-  border-radius: 16px;
-  box-shadow: var(--e1);
-  padding: 28px;
-  transition: box-shadow 0.2s ease;
-}
-.hv6-index-card:hover { box-shadow: var(--e2); }
-.hv6-index-card::before {
-  content: '';
-  position: absolute;
-  top: -1px;
-  left: 26px;
-  width: 56px;
-  height: 6px;
-  background: var(--hv6-coral);
-  border-radius: 0 0 4px 4px;
-}
-.hv6-index-card:nth-child(odd) { transform: rotate(-0.4deg); }
-.hv6-index-card:nth-child(even) { transform: rotate(0.4deg); }
-.hv6-index-card li { position: relative; padding-left: 13px; min-width: 0; }
-/* Long unhyphenated labels (German compounds) must wrap inside their
-   column, never push the card past the viewport (caught live at de@768). */
-.hv6-index-card a { overflow-wrap: break-word; hyphens: auto; }
-.hv6-index-card li::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0.62em;
-  width: 6px;
-  height: 3px;
-  border-radius: 2px;
-  background: rgba(20, 107, 94, 0.45);
-}
-
-/* ═══════════════════════════════════════════════════════════════════════
-   PORTED hv3 CLASSES — FeaturedDeckTileV3 renders these; scoping them
-   under .hv6 keeps the component byte-identical (its portal modal uses
-   Tailwind lcs-* utilities only, so it needs nothing from here).
-   ═══════════════════════════════════════════════════════════════════════ */
-.hv6 .hv3-card-deep {
-  background: #FBF3E4;
-  border-radius: 28px;
-  position: relative;
-  isolation: isolate;
-  box-shadow:
-    0 1px 0 rgba(255, 255, 255, 0.7) inset,
-    1px 0 0 rgba(20, 107, 94, 0.06) inset,
-    0 2px 0 rgba(20, 107, 94, 0.10),
-    0 18px 36px -10px rgba(20, 107, 94, 0.22),
-    0 48px 64px -20px rgba(20, 107, 94, 0.14);
-}
-.hv6 .hv3-card-deep::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  z-index: 0;
-  pointer-events: none;
-  opacity: 0.32;
-  background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='cd'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.88' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.08 0 0 0 0 0.42 0 0 0 0 0.37 0 0 0 0.07 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23cd)'/%3E%3C/svg%3E");
-  background-size: 200px 200px;
-  mix-blend-mode: multiply;
-}
-.hv6 .hv3-card-deep > * { position: relative; z-index: 1; }
-.hv6 .hv3-locale-chip {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 2.25rem;
-  height: 1.5rem;
-  padding: 0 0.5rem;
-  background: rgba(20, 107, 94, 0.06);
-  color: #146B5E;
-  border-radius: 999px;
-  font-family: var(--font-nunito), system-ui, sans-serif;
-  font-weight: 700;
-  font-size: 0.6875rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-.hv6 .hv3-locale-chip-active {
-  background: #146B5E;
-  color: #FBF3E4;
-}
-/* The featured tile floats over cream on the practice shelf. */
-.hv6 .hv3-card-deep { background: #fff; }
-
-/* ═══════════════════════════════════════════════════════════════════════
-   THE CLASSROOM MOBILE (v6.1 hero) — a Calder-style kinetic sculpture
-   built from the product's own apparatus, hanging in the masthead.
-
-   The picture of happiness for a K-3 teacher: the mobile that hangs above
-   every early childhood — balanced, gently swaying, made with care. The
-   number balance IS the top beam; a working mini rekenrek, the learning
-   clock, a letter-tile word and a QR gift-tag hang from it; the terminal
-   object is the traveler worksheet, and the page's number-line spine
-   drops out of it — the whole Lesson Line hangs from the teacher's sheet.
-
-   THE ONE LAW: no positional literal appears twice. Every pivot,
-   attachment and thread length is exactly one --var below, consumed by
-   BOTH the element's position and its transform-origin. Threads that
-   shear off their knots turn a Calder into clip-art with wiggle.
-
-   Motion: mutually prime periods (19/13/11/7/21/23s), ±1.2–3.2° only,
-   easeInOutSine only, counter-sway = parent period at −70% amplitude,
-   negative delays so the first frame is mid-swing (no entrance, never
-   opacity:0). Reduced motion: a perfectly still, composed sculpture.
+   THE CLASSROOM MOBILE (hero) — unchanged sculpture; only its drop thread
+   now DISSOLVES (200px fade) toward the wire that fades in below.
    ═══════════════════════════════════════════════════════════════════════ */
 .hv6-mob {
   position: absolute;
@@ -869,24 +1058,20 @@
   bottom: 0;
   left: 50%;
   width: 690px;
-  margin-left: -150px; /* x=150 in-sculpture ≡ the page centerline */
+  margin-left: -150px;
   pointer-events: none;
   z-index: 1;
 
-  /* single source of geometric truth (1366 scale) */
-  --p1x: 347px;               /* ceiling knot / arm1 pivot x            */
-  --a1w: 340px; --a1p: 197px; /* beam width, pivot from its left end    */
+  --p1x: 347px;
+  --a1w: 340px; --a1p: 197px;
   --a2w: 230px; --a2p: 138px;
   --a3w: 128px; --a3p: 70px;
   --t-ceil: 56px; --t-sheet: 64px; --t-n2: 36px;
-  --t-rek: 64px;  --t-n4: 36px;  --t-clk: 33px; --t-word: 87px;
+  --t-rek: 64px; --t-n4: 36px; --t-clk: 33px; --t-word: 87px;
   --sheetw: 172px; --sheeth: 218px;
-  --rekw: 148px;  --rekh: 74px;
-  --clkd: 88px;   --wordw: 98px;
-  --sway-ease: cubic-bezier(0.37, 0, 0.63, 1); /* easeInOutSine */
+  --rekw: 148px; --rekh: 74px;
+  --clkd: 88px; --wordw: 98px;
 }
-
-/* threads — 2px cream lines with a knot dot at the bottom */
 .hv6-mob-thread {
   position: absolute;
   left: 50%;
@@ -914,8 +1099,6 @@
   left: var(--p1x);
   height: var(--t-ceil);
 }
-
-/* the whole-sculpture pendulum */
 .hv6-mob-hang {
   position: absolute;
   inset: 0;
@@ -923,9 +1106,6 @@
   animation: hv6MobSway 19s var(--sway-ease) -5s infinite;
   --amp: 1.2deg;
 }
-
-/* arms (beams). Each positions itself so its pivot lands on its knot,
-   and rotates about that same var. */
 .hv6-mob-arm {
   position: absolute;
   animation: hv6MobSway var(--period, 13s) var(--sway-ease) var(--phase, 0s) infinite;
@@ -953,10 +1133,8 @@
   height: 3px;
   transform-origin: var(--a3p) 50%;
   --amp: 3.2deg; --period: 7s; --phase: -2s;
-  z-index: -1; /* far plane */
+  z-index: -1;
 }
-
-/* beam faces */
 .hv6-mob-beam {
   position: absolute;
   inset: 0;
@@ -966,7 +1144,6 @@
   background: linear-gradient(180deg, #2E9282 0%, #146B5E 100%);
   box-shadow: inset 0 1px 0 rgba(251, 243, 228, 0.28), 0 2px 6px rgba(0, 0, 0, 0.3);
 }
-/* peg-ticks along the balance beam — the pedagogy object doing structural work */
 .hv6-mob-beam.is-main::after {
   content: '';
   position: absolute;
@@ -978,7 +1155,6 @@
     transparent 0 34px, rgba(251, 243, 228, 0.55) 34px 36px);
   border-radius: 2px;
 }
-/* the pivot ring on the main beam */
 .hv6-mob-beam.is-main::before {
   content: '';
   position: absolute;
@@ -997,8 +1173,6 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.28);
   border-radius: 2px;
 }
-
-/* nodes — knots at beam ends; width 0, origin AT the knot */
 .hv6-mob-node {
   position: absolute;
   top: 100%;
@@ -1020,8 +1194,6 @@
 .hv6-mob-node.is-n4 > .hv6-mob-thread { height: var(--t-n4); }
 .hv6-mob-node.is-n5 > .hv6-mob-thread { height: var(--t-clk); }
 .hv6-mob-node.is-n6 > .hv6-mob-thread { height: var(--t-word); }
-
-/* objects hang centered under their knot */
 .hv6-mob-obj { position: absolute; }
 .hv6-mob-obj.is-sheet {
   top: var(--t-sheet);
@@ -1041,22 +1213,20 @@
   height: auto;
   border-radius: 3px;
 }
-/* the drop — the page hangs from the worksheet. Clipped by the masthead;
-   the .hv6-rise panel covers the junction with the page spine. */
+/* The drop DISSOLVES: 200px fade to nothing. The descent's wire fades in
+   below — the eye completes the line (dissolve, don't join). */
 .hv6-mob-drop {
   position: absolute;
   top: 100%;
   left: 50%;
   width: 2px;
   margin-left: -1px;
-  height: 999px;
+  height: 200px;
   background: linear-gradient(180deg,
     rgba(251, 243, 228, 0.55) 0%,
-    rgba(251, 243, 228, 0.35) 60%,
-    rgba(251, 243, 228, 0.22) 100%);
+    rgba(251, 243, 228, 0.25) 55%,
+    rgba(251, 243, 228, 0) 100%);
 }
-/* QR gift-tag — tied to the worksheet's thread with a short slack string,
-   dangling beside the sheet (never covering its title). */
 .hv6-mob-tag {
   position: absolute;
   top: calc(var(--t-sheet) - 26px);
@@ -1066,12 +1236,11 @@
   background: var(--hv6-cream);
   border-radius: 5px;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.32);
-  transform-origin: 24px 6px; /* the punched hole */
+  transform-origin: 24px 6px;
   transform: rotate(-8deg);
   animation: hv6TagFlutter 7s var(--sway-ease) -3.5s infinite;
   z-index: 4;
 }
-/* the punched hole */
 .hv6-mob-tag::before {
   content: '';
   position: absolute;
@@ -1084,7 +1253,6 @@
   background: #103F37;
   box-shadow: inset 0 0 0 2px #D9B27E;
 }
-/* the tie: hole → the worksheet thread, up and to the right */
 .hv6-mob-tag::after {
   content: '';
   position: absolute;
@@ -1098,10 +1266,8 @@
   transform: rotate(-33deg);
 }
 .hv6-mob-tag img { display: block; width: 40px; height: 40px; border-radius: 3px; }
-
-/* mini rekenrek — fixed frame, so a fixed push + clip is correct */
 .hv6-mob-obj.is-rek {
-  top: calc(var(--t-rek) + 20px); /* below the yoke */
+  top: calc(var(--t-rek) + 20px);
   left: 0;
   width: var(--rekw);
   height: var(--rekh);
@@ -1116,7 +1282,6 @@
   justify-content: space-evenly;
   padding: 0 3px;
 }
-/* the Y-yoke suspension (twin strings, perspective-tilted) */
 .hv6-mob-yoke {
   position: absolute;
   top: var(--t-rek);
@@ -1150,8 +1315,6 @@
 .hv6-mob .hv6-rek-bead { width: 11px; height: 11px; }
 .hv6-mob .hv6-rek-bead.is-push { --push: -58px; animation-duration: 21s; }
 .hv6-mob .hv6-rek-bead.is-set { transform: translateX(-58px); }
-
-/* the clock at 88Ø — reuse .hv6-clock verbatim, scaled */
 .hv6-mob-obj.is-clockbox {
   top: var(--t-clk);
   left: 0;
@@ -1164,8 +1327,6 @@
 .hv6-mob-clockscale .hv6-clock { margin: 0; }
 .hv6-mob .hv6-clock-hand.is-min,
 .hv6-mob .hv6-clock-hand.is-hour { animation-duration: 21s; }
-
-/* the letter-tile word on its rack shelf */
 .hv6-mob-obj.is-word {
   top: var(--t-word);
   left: 0;
@@ -1201,26 +1362,23 @@
   color: var(--hv6-teal);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
 }
-
-/* sway + object-life keyframes */
 @keyframes hv6MobSway {
-  0%   { transform: rotate(var(--amp, 0deg)); }
-  50%  { transform: rotate(calc(var(--amp, 0deg) * -1)); }
+  0% { transform: rotate(var(--amp, 0deg)); }
+  50% { transform: rotate(calc(var(--amp, 0deg) * -1)); }
   100% { transform: rotate(var(--amp, 0deg)); }
 }
 @keyframes hv6SheetTwist {
-  0%   { transform: rotateY(13deg); }
-  50%  { transform: rotateY(-13deg); }
+  0% { transform: rotateY(13deg); }
+  50% { transform: rotateY(-13deg); }
   100% { transform: rotateY(13deg); }
 }
 @keyframes hv6TagFlutter {
-  0%   { transform: rotate(-14deg); }
-  50%  { transform: rotate(-2deg); }
+  0% { transform: rotate(-14deg); }
+  50% { transform: rotate(-2deg); }
   100% { transform: rotate(-14deg); }
 }
 
-/* ── Narrow-desktop trim (1024–1151): pull the far cluster inboard so the
-      last letter tile never clips at the viewport edge. ──────────────── */
+/* Narrow-desktop trim (1024-1151): pull the far cluster inboard. */
 @media (min-width: 1024px) and (max-width: 1151px) {
   .hv6-mob {
     --a2w: 200px; --a2p: 138px;
@@ -1229,8 +1387,8 @@
   }
 }
 
-/* ── Compressed sculpture (<1024): top beam + worksheet+tag + rekenrek +
-      clock. It compresses; it never vanishes. ────────────────────────── */
+/* Compressed sculpture (<1024): top beam + worksheet+tag + rekenrek +
+   clock. It compresses; it never vanishes. */
 @media (max-width: 1023px) {
   .hv6-mob {
     position: relative;
@@ -1249,7 +1407,6 @@
     --rekw: 112px; --rekh: 58px;
     --clkd: 64px;
   }
-  /* prune arm3: the clock re-hangs directly from arm2's right end */
   .hv6-mob-arm.is-a3 { width: 0; transform: none; animation: none; left: 0; top: 0; height: 0; }
   .hv6-mob-arm.is-a3 .hv6-mob-beam,
   .hv6-mob-node.is-n6 { display: none; }
@@ -1268,25 +1425,155 @@
 }
 
 /* ═══════════════════════════════════════════════════════════════════════
+   PORTED hv3 CLASSES — FeaturedDeckTileV3 renders these (its portal modal
+   uses Tailwind only).
+   ═══════════════════════════════════════════════════════════════════════ */
+.hv6 .hv3-card-deep {
+  background: #fff;
+  border-radius: 28px;
+  position: relative;
+  isolation: isolate;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.7) inset,
+    1px 0 0 rgba(20, 107, 94, 0.06) inset,
+    0 2px 0 rgba(20, 107, 94, 0.10),
+    0 18px 36px -10px rgba(0, 0, 0, 0.45),
+    0 48px 64px -20px rgba(0, 0, 0, 0.35);
+}
+.hv6 .hv3-card-deep::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.32;
+  background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='cd'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.88' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.08 0 0 0 0 0.42 0 0 0 0 0.37 0 0 0 0.07 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23cd)'/%3E%3C/svg%3E");
+  background-size: 200px 200px;
+  mix-blend-mode: multiply;
+}
+.hv6 .hv3-card-deep > * { position: relative; z-index: 1; }
+.hv6 .hv3-locale-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.25rem;
+  height: 1.5rem;
+  padding: 0 0.5rem;
+  background: rgba(20, 107, 94, 0.06);
+  color: #146B5E;
+  border-radius: 999px;
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 0.6875rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hv6 .hv3-locale-chip-active {
+  background: #146B5E;
+  color: #FBF3E4;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   THE CLASS INDEX cards (now pushpinned to the pegboard)
+   ═══════════════════════════════════════════════════════════════════════ */
+.hv6-index-card {
+  position: relative;
+  background: #fff;
+  border: 1px solid rgba(20, 50, 45, 0.08);
+  border-radius: 16px;
+  box-shadow: 0 3px 10px rgba(90, 63, 34, 0.22);
+  padding: 28px;
+  transition: box-shadow 0.2s ease;
+}
+.hv6-index-card:hover { box-shadow: 0 6px 18px rgba(90, 63, 34, 0.3); }
+/* pushpin (replaces the old coral drawer tab) */
+.hv6-index-card::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  margin-left: -6px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #F9A583, var(--hv6-coral) 55%, var(--hv6-coral-deep));
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.35);
+}
+.hv6-index-card:nth-child(odd) { transform: rotate(-0.4deg); }
+.hv6-index-card:nth-child(even) { transform: rotate(0.4deg); }
+.hv6-index-card li { position: relative; padding-left: 13px; min-width: 0; }
+/* Long unhyphenated labels (German compounds) wrap inside their column. */
+.hv6-index-card a { overflow-wrap: break-word; hyphens: auto; }
+.hv6-index-card li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.62em;
+  width: 6px;
+  height: 3px;
+  border-radius: 2px;
+  background: rgba(20, 107, 94, 0.45);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
+   PHONE FORMS (≤1023): the wire lives at the left margin; big cards hang
+   straight from one corner thread up to it; small objects (is-sm) keep
+   their center thread, tilt and sway.
+   ═══════════════════════════════════════════════════════════════════════ */
+@media (max-width: 1023px) {
+  .hv6-hang { --rest: 0deg; }
+  .hv6-hang::before {
+    left: 0;
+    margin-left: 0;
+    height: 47px;
+    transform-origin: 0 100%;
+    transform: rotate(31deg);
+  }
+  .hv6-hang::after { left: 3px; }
+  .hv6-hang.is-sm { --rest: var(--rest-sm, -1.5deg); }
+  .hv6-hang.is-sm::before {
+    left: 50%;
+    margin-left: -1px;
+    height: var(--drop);
+    transform: none;
+  }
+  .hv6-hang.is-sm::after { left: 50%; }
+  .hv6-hang2::before { left: 8px; }
+  .hv6-hang2::after { right: 8px; }
+  .hv6-branch::before {
+    left: 0;
+    margin-left: 0;
+    height: 47px;
+    transform-origin: 0 100%;
+    transform: rotate(31deg);
+  }
+  .hv6-gallery { padding-top: 28px; }
+  .hv6-gallery > * { --drop: 20px !important; --rest: 0deg !important; }
+  .hv6-gallery .hv6-tool-card { margin-top: 0; }
+  .hv6-shelf::before { left: 2px; }
+  .hv6-shelf::after { right: 2px; }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════
    FOCUS + ACCESSIBILITY + REDUCED MOTION
    ═══════════════════════════════════════════════════════════════════════ */
+/* Dark board default: coral ring. Light surfaces: the light ring. */
 .hv6 :where(a, button, input, [role='menuitem']):focus-visible {
   outline: none;
-  box-shadow: 0 0 0 2px #FDFBF6, 0 0 0 5px rgba(20, 107, 94, 0.5);
+  box-shadow: 0 0 0 2px #0F2A2A, 0 0 0 5px #F2784B;
 }
-.hv6-masthead :where(a, button):focus-visible,
-.hv6-rise-dark :where(a, button):focus-visible {
-  box-shadow: 0 0 0 2px #14322D, 0 0 0 5px #F2784B;
+.hv6 :where(.hv6-paper, .hv6-stage, .hv6-card, .hv6-tool-card, .hv6-index-card, .hv6-pegboard, .hv3-card-deep)
+  :where(a, button):focus-visible {
+  box-shadow: 0 0 0 2px #FDFBF6, 0 0 0 5px rgba(20, 107, 94, 0.6);
 }
 
 @media (prefers-reduced-motion: reduce) {
-  /* Every vignette freezes at a composed pose that still tells its story:
-     rekenrek shows the count pushed, the balance sits level, tiles are
-     seated with the rule drawn, the clock reads quarter past, the chart
-     is full. The page loses only the theater, never the meaning. */
+  /* The installation hangs perfectly still, composed: every rest rotation,
+     thread, plank and bead is a static pose. */
+  .hv6-hang.is-sway { animation: none; transform: rotate(var(--rest, 0deg)); }
+  .hv6-wire-pulse { display: none; }
   .hv6-rek-bead.is-push { animation: none; transform: translateX(var(--push, 0)); }
-  /* The mobile: a perfectly still, perfectly balanced sculpture — composed
-     poses, not sterile zeros. The story survives without the theater. */
   .hv6-mob-hang, .hv6-mob-arm, .hv6-mob-node { animation: none; transform: rotate(0deg); }
   .hv6-mob-obj.is-sheet { animation: none; transform: rotate(-1.5deg); }
   .hv6-mob-tag { animation: none; transform: rotate(-8deg); }
@@ -1297,7 +1584,8 @@
   .hv6-clock-hand.is-min { animation: none; transform: rotate(90deg); }
   .hv6-clock-hand.is-hour { animation: none; transform: rotate(277.5deg); }
   .hv6-choral-cell { animation: none; transform: scale(1); }
-  .hv6-card:hover, .hv6-tool-card:hover, .hv6-cta:hover, .hv6-cta:active, .hv6-traveler, .hv6-traveler:hover { transform: none; }
+  .hv6-card:hover, .hv6-cta:hover, .hv6-cta:active, .hv6-traveler, .hv6-traveler:hover { transform: none; }
+  .hv6-tool-card:hover { transform: rotate(var(--rest, 0deg)); }
   .hv6 [class*='hover:-translate']:hover,
   .hv6 [class*='hover:scale']:hover,
   .hv6 .group:hover [class*='group-hover:scale'] { transform: none !important; }

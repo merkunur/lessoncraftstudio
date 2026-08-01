@@ -324,6 +324,145 @@ const setState = (p, st) => p.evaluate((s) => {
     await p.close();
   }
 
+  /* =================================================================
+     L6 — ⭐⭐ EVERY CONTROL MUST CHANGE SOMETHING ELSE
+     -----------------------------------------------------------------
+     #39 shipped a numeral strip whose only effect in 1067 lines was
+     its own highlight class and its own aria-pressed. It scored 84/84
+     on audit-tool-control-liveness, because that gate asks "did the
+     DOM change?" and a control that highlights ITSELF changes the DOM.
+     The operator found it in the first minute.
+
+     So liveness is not the claim here. For each of the eleven controls
+     this asserts a consequence in the MODEL or in a DIFFERENT element
+     — never the control's own appearance — and it asserts what does
+     NOT change too, because half of these controls are defined by what
+     they leave alone.
+     ================================================================= */
+  console.log('\n[L6] every control has a consequence elsewhere');
+  {
+    const p = await open(browser, 1024, 900, 1);
+    const res = await p.evaluate(() => {
+      const t = window.ColdLine;
+      const out = [];
+      const chip = (re) => Array.from(document.querySelectorAll('.cld-chip'))
+        .find((c) => re.test(c.textContent));
+      const snap = () => Object.assign({}, t.st);
+      const set = (st) => { t.st = t._st(st); t._paint(); };
+      const liquid = () => {
+        const e = document.querySelector('.cld-liquid');
+        if (!e) return null;
+        const b = e.getBoundingClientRect();
+        return Math.round(b.width * b.height);
+      };
+
+      /* --- chip 1: the tip. Consequence = the pose, and NOTHING else. */
+      set({ lo: -12, a: -5, b: 3, tipped: false });
+      let b0 = snap();
+      const tip = chip(/lay it down/i);
+      if (!tip || tip.disabled) out.push(['tip chip', false, 'absent or disabled']);
+      else {
+        tip.click();
+        const a0 = snap();
+        out.push(['the tip chip flips the pose', a0.tipped === true && b0.tipped === false,
+          `tipped ${b0.tipped} -> ${a0.tipped}`]);
+        out.push(['…and changes NOTHING else about the reading',
+          a0.lo === b0.lo && a0.a === b0.a && a0.b === b0.b,
+          `lo ${a0.lo}, marks ${a0.a}/${a0.b}`]);
+      }
+
+      /* --- chip 2: zero. Consequence = the window; marks untouched. */
+      set({ lo: -30, a: -5, b: 3, tipped: false });
+      b0 = snap();
+      const zero = chip(/zero/i);
+      if (!zero || zero.disabled) out.push(['zero chip', false, 'absent or disabled']);
+      else {
+        zero.click();
+        const a0 = snap();
+        out.push(['the zero chip moves the WINDOW', a0.lo !== b0.lo, `lo ${b0.lo} -> ${a0.lo}`]);
+        out.push(['…and leaves both marks where they were',
+          a0.a === b0.a && a0.b === b0.b, `marks ${a0.a}/${a0.b}`]);
+        out.push(['…and brings zero into view', t.inView(a0, 0), 'zero visible']);
+      }
+
+      /* --- chip 3: next. Consequence = a DIFFERENT setting. */
+      set({ lo: -12, a: -5, b: 3, tipped: false });
+      b0 = snap();
+      const next = chip(/another place/i);
+      if (!next || next.disabled) out.push(['next chip', false, 'absent or disabled']);
+      else {
+        next.click();
+        const a0 = snap();
+        out.push(['the next chip serves a DIFFERENT setting',
+          a0.a !== b0.a || a0.b !== b0.b || a0.lo !== b0.lo,
+          `${b0.lo}/${b0.a}/${b0.b} -> ${a0.lo}/${a0.a}/${a0.b}`]);
+      }
+
+      /* --- chip 4: print. Free tier: consequence = the gate appears.
+             Its paid consequence is the sheet, gated separately by
+             audit-tool-print-sheets.js, which is why this only has to
+             prove the free branch is not inert. */
+      /* ⚠ CLEAR THE GATE FIRST, OR THIS MEASURES NOTHING. _showGate()
+         early-returns when a .cld-gate is already in the wrap, and the
+         `next` chip above opens one on the first setting — so the count
+         could not rise and the print chip read as consequence-free on
+         a tool that is fine. Verify the measurement before reporting
+         the defect (#40, twice). */
+      Array.from(document.querySelectorAll('.cld-gate')).forEach((e) => e.remove());
+      const gateBefore = document.querySelectorAll('.cld-gate').length;
+      const pr = chip(/print/i);
+      if (!pr || pr.disabled) out.push(['print chip', false, 'absent or disabled']);
+      else {
+        pr.click();
+        out.push(['the print chip has a consequence on the free tier',
+          document.querySelectorAll('.cld-gate').length > gateBefore
+          || document.querySelectorAll('.cld-sheet svg').length > 0,
+          'the gate or the sheet appeared']);
+      }
+      const g = document.querySelector('.cld-gate');
+      if (g && g.remove) g.remove();
+
+      /* --- handle A: consequence = the mark AND the liquid. */
+      set({ lo: -12, a: -5, b: 3, tipped: false });
+      const lqBefore = liquid();
+      const aBefore = t.st.a;
+      t.st = t.setMark(t.st, 'a', 2) || t.st; t._paint();
+      out.push(['mark A moves the reading', t.st.a !== aBefore, `a ${aBefore} -> ${t.st.a}`]);
+      out.push(['…and mark A drives the LIQUID', liquid() !== lqBefore,
+        `liquid area ${lqBefore} -> ${liquid()}`]);
+
+      /* --- handle B: consequence = the span; and it must NOT touch
+             the liquid, which is the entire difference between the two
+             marks and the reason they are drawn differently. */
+      set({ lo: -12, a: -5, b: 3, tipped: false });
+      const lqB = liquid();
+      const spanBefore = t.spanOf(t.st);
+      t.st = t.setMark(t.st, 'b', 6) || t.st; t._paint();
+      out.push(['mark B changes the SPAN', t.spanOf(t.st) !== spanBefore,
+        `span ${spanBefore} -> ${t.spanOf(t.st)}`]);
+      out.push(['…and mark B leaves the liquid alone — its whole role',
+        liquid() === lqB, `liquid area ${lqB} unchanged`]);
+
+      /* --- handle S: consequence = the window; marks untouched. */
+      set({ lo: -12, a: -5, b: 3, tipped: false });
+      b0 = snap();
+      t.st = t.slideBy(t.st, 4) || t.st; t._paint();
+      out.push(['the scale handle moves the window', t.st.lo !== b0.lo, `lo ${b0.lo} -> ${t.st.lo}`]);
+      out.push(['…and neither mark moves with it',
+        t.st.a === b0.a && t.st.b === b0.b, `marks ${t.st.a}/${t.st.b}`]);
+
+      return out;
+    });
+    for (const [what, ok, detail] of res) is(ok, `⭐ ${what} — ${detail}`);
+    /* 13: four chips (the tip contributing 2, zero 3, next 1, print 1)
+       and three handles (A 2, B 2, S 2). The floor is the real count,
+       not a round number I liked the look of — an inflated NON-VACUITY
+       bound is a gate that fails on correct code, which is how a gate
+       teaches you to loosen it. */
+    is(res.length === 13, `NON-VACUITY: ${res.length} consequence assertions ran, all eleven controls covered`);
+    await p.close();
+  }
+
   /* no verdict, ever */
   {
     const p = await open(browser, 1024, 900, 1);

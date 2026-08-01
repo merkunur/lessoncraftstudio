@@ -123,13 +123,32 @@ const is = (c, m) => { if (c) { PASS++; console.log('  ok   ' + m); } else { FAI
           const e = document.querySelector(apparatus);
           if (!e) return 0;
           const clear = (v) => !v || v === 'none' || v === 'rgba(0, 0, 0, 0)' || v === 'transparent';
+          const SVG_SHAPE = /^(rect|line|circle|ellipse|path|polygon|polyline|text)$/i;
+          /* ⚠ COUNT DRAWING PRIMITIVES, NOT CONTAINERS. The first version
+             counted every descendant, so stripping EVERY stroke off the
+             sheet still scored 12 — the <svg> wrappers and layout boxes
+             were counting themselves as ink. A poison test caught it:
+             the number moved 20 -> 12 and the assertion still passed. */
           return Array.from(e.querySelectorAll('*')).filter((x) => {
             const cs = getComputedStyle(x);
             if (cs.display === 'none' || cs.visibility === 'hidden') return false;
-            if (!clear(cs.fill) || !clear(cs.stroke)) return true;               /* SVG */
-            if (!clear(cs.backgroundColor) || !clear(cs.backgroundImage)) return true; /* HTML fill */
+            const tag = x.tagName.toLowerCase();
+            if (SVG_SHAPE.test(tag)) {
+              /* ⚠ A <line> HAS A COMPUTED FILL OF BLACK BY DEFAULT, and
+                 fill is meaningless for a line — so "fill is not none"
+                 scored every stroke-less line as ink, and a sheet with
+                 EVERY stroke stripped still reported 8. Stroke-only
+                 primitives are judged on stroke alone, and a stroke
+                 needs a non-zero width to leave a mark. */
+              const strokes = !clear(cs.stroke) && parseFloat(cs.strokeWidth) > 0;
+              if (/^(line|polyline)$/.test(tag)) return strokes;
+              return strokes || !clear(cs.fill);
+            }
+            if (tag === 'svg' || tag === 'g' || tag === 'defs') return false;   /* containers */
+            if (x.childElementCount > 0) return false;                          /* HTML leaves only */
+            if (!clear(cs.backgroundColor) || !clear(cs.backgroundImage)) return true;
             if (parseFloat(cs.borderTopWidth) > 0 && !clear(cs.borderTopColor)) return true;
-            return x.childElementCount === 0 && x.textContent.trim().length > 0;  /* text */
+            return x.textContent.trim().length > 0;
           }).length;
         })()
       };

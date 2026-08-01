@@ -121,13 +121,30 @@ const is = (c, m) => { if (c) { PASS++; console.log('  ok   ' + m); } else { FAI
         harvest();
       } catch (e) { /* not fatal */ }
 
-      /* ⭐ the turn's own hint, reached the way a child reaches it */
+      /* ⭐ the hint branches, each reached the way a child reaches it.
+         ⚠ TURNING THE STAIRCASE ONLY EVER YIELDS hintTurn. hintTurnSame
+         belongs to the 125 turn-invariant buildings, so the matrix has
+         to turn one of THOSE — and the gate said so plainly rather than
+         being helped past it, which is the whole point of having
+         removed the old direct-call workaround. */
       try {
         inst.st = inst._st({ h: [1, 2, 3, 1, 2, 3, 1, 2, 3] });
         inst._touched = false; inst._justTurned = false;
-        inst._paint(); harvest();                 /* hintPlan */
+        inst._paint(); harvest();                                       /* hintPlan */
         document.querySelectorAll('.bpl-chip')[0].click(); harvest();   /* hintTurn */
         document.querySelectorAll('.bpl-chip')[1].click(); harvest();   /* hintSame */
+
+        /* a turn-invariant building: the turn moves nothing, and that
+           non-event has its own string */
+        inst.st = inst._st({ h: [4, 1, 4, 1, 1, 1, 4, 1, 4] });
+        inst._touched = true; inst._justTurned = false;
+        inst._paint();
+        document.querySelectorAll('.bpl-chip')[0].click(); harvest();   /* hintTurnSame */
+
+        /* and the empty board */
+        inst.st = inst._st({ h: [0, 0, 0, 0, 0, 0, 0, 0, 0] });
+        inst._justTurned = false; inst._touched = true;
+        inst._paint(); harvest();                                       /* hintEmpty */
       } catch (e) { /* not fatal */ }
 
       if (inst._showGate) { try { inst._showGate(); harvest(); } catch (e) { /* not fatal */ } }

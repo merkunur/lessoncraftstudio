@@ -449,9 +449,34 @@ console.log('\n[V9] the refuse-list, in the source');
      of reporting it — #38's Zufallsbeutel in a new dress, third time on
      this program. Narrowed to the total sense, and poisoned BOTH ways
      below. */
+  /* ⚠⚠ THIS RULE EXISTS IN TWO PLACES AND ONLY ONE WAS FIXED.
+     apply-build-plan-locales.js carries the same total-ban, and when
+     the French panel's correct `dessinée EN VOLUME` (standard French
+     for *drawn in three dimensions*) tripped it, I added an auditable
+     exemption THERE — and this copy went on condemning the same
+     sentence. A duplicated rule is a rule that will be half-fixed; the
+     exemption has to travel with the ban, so it is stated here too and
+     poisoned here too.
+     ⚠ The exemption is the FIXED PHRASE only. `calculez le volume de
+     la maquette` still fires. */
   const TOTAL_BAN = /\bvolume\b|\baltogether\b|\bin all\b|how many .{0,12}\b(in total|altogether)\b|total number/i;
-  is(!TOTAL_BAN.test(strings),
-    'refuse #2: no authored string asks for a TOTAL — that is G3-346\'s question and 5.MD.C');
+  const TOTAL_EXEMPT = /en\s+volume/i;
+  const asksTotal = (str) => TOTAL_BAN.test(str) && !TOTAL_EXEMPT.test(str);
+  {
+    /* per-string, so the exemption cannot hide a real hit elsewhere in
+       a blob — testing the whole JSON at once would let one exempt
+       phrase clear the entire corpus */
+    const offenders = [];
+    for (const k of Object.keys(T.strings)) {
+      for (const loc of Object.keys(T.strings[k])) {
+        if (asksTotal(T.strings[k][loc])) offenders.push(`${loc}.${k}`);
+      }
+    }
+    is(offenders.length === 0,
+      `refuse #2: no authored string asks for a TOTAL — that is G3-346's question and 5.MD.C${offenders.length ? ' — ' + offenders.join(', ') : ''}`);
+  }
+  is(asksTotal('calculez le volume de la maquette'), 'POISON fires: the French quantity sense still trips it');
+  is(!asksTotal('la maquette, dessinée en volume'), '⭐ POISON passes: French "en volume" is a RENDERING register, not a quantity');
   is(!/\barea\b|\bsquare units\b/i.test(strings), 'refuse #3: no authored string mentions area (3.MD.C.5/6 is taken)');
   is(!/\bsphere\b|\bcylinder\b|\bcone\b|\bpyramid\b|\bprism\b|\bnet\b|\bunfold/i.test(strings),
     'refuse #1: no authored string names a solid or a net (K.G.A.3 is taken in 11 locales)');

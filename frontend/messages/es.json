@@ -4324,7 +4324,7 @@
     },
     "hero": {
       "h1": "Cada lección, en equilibrio.",
-      "sub": "Herramientas para enseñar en vivo, hojas de trabajo que se revisan solas, imprimibles con hoja de respuestas y creadores de hojas de trabajo — gratis, de preescolar a 3er grado.",
+      "sub": "Herramientas para enseñar en vivo, hojas de trabajo que se revisan solas y se imprimen con hoja de respuestas, y creadores para hacer las tuyas — empieza gratis, de preescolar a 3er grado.",
       "ctaTools": "Abre una herramienta de enseñanza",
       "ctaWorksheets": "Ver las hojas de trabajo",
       "microLine": "Empieza gratis · sin registro · nada que instalar"
@@ -4339,7 +4339,7 @@
     "teach": {
       "heading": "Empieza donde empieza toda lección: al frente del salón",
       "body": "{count} instrumentos de aula para proyectar y enseñar desde ahí. El aparato se encarga de corregir: la balanza se inclina, y nadie tiene que decir que está mal.",
-      "caption": "{count} instrumentos · gratis, sin registro · sin cronómetros, sin puntajes, sin rachas",
+      "caption": "{count} instrumentos · pruébalos gratis, sin registro · sin cronómetros, sin puntajes, sin rachas",
       "seeAll": "Ver las {count} herramientas",
       "liveTag": "En vivo",
       "penBalance": "la balanza se inclina; nadie tiene que decir «mal»"
@@ -4383,7 +4383,7 @@
     },
     "share": {
       "heading": "De tu pantalla a 25 niños en un segundo",
-      "body": "Cualquier cosa que encuentres o crees se convierte en un enlace y un código QR. Los niños lo escanean y juegan en cualquier dispositivo — sin cuentas de alumnos, nada que instalar.",
+      "body": "Cualquier cosa que encuentres o crees se convierte en un enlace y un código QR. Los niños lo escanean y juegan en cualquier dispositivo — sin cuentas de alumnos, nada que instalar. Tus propios enlaces y códigos QR para tu grupo son parte del plan Docente.",
       "chip1": "Un enlace",
       "chip2": "Un código QR",
       "chip3": "Cualquier dispositivo",
@@ -4394,27 +4394,27 @@
     },
     "keep": {
       "heading": "Planea una clase, conserva el año entero",
-      "body": "Guarda lo que creas, organízalo por unidad — te estará esperando el próximo ciclo escolar. Alineado a tu plan de estudios, en 11 idiomas, con la gramática correcta.",
+      "body": "Con el plan Docente, guarda lo que creas y organízalo por unidad — te estará esperando cuando empiece el nuevo ciclo escolar. Alineado a tu plan de estudios, en 11 idiomas, con la gramática correcta.",
       "chipCurricula": "Alineado a 10 planes de estudio nacionales",
       "chipLanguages": "Funciona en 11 idiomas",
       "chipNoData": "No se recopilan datos de los alumnos",
       "chipNoAds": "Sin anuncios en las páginas de los alumnos"
     },
     "teacher": {
-      "heading": "Lo gratis es gratis de verdad",
-      "body": "Todas las herramientas son gratis, sin registro; juega 10 hojas de trabajo interactivas al día sin tarjeta. El plan Docente quita todos los límites y guarda lo que creas.",
+      "heading": "Empieza gratis. Quita los límites cuando quieras.",
+      "body": "Todo se puede probar gratis, sin tarjeta: 10 jugadas interactivas al día y 3 descargas de PDF al mes con una cuenta gratis. El plan Docente quita los límites, abre toda la profundidad de cada herramienta y guarda lo que creas.",
       "freeTitle": "Gratis",
       "freeTag": "Empieza aquí — sin tarjeta",
-      "free1": "Todas las herramientas de aula, sin límite",
+      "free1": "Todas las herramientas y creadores, gratis para probar",
       "free2": "10 jugadas interactivas al día",
-      "free3": "Explora la biblioteca completa",
-      "free4": "Todos los creadores, abiertos para probar",
+      "free3": "3 descargas de PDF al mes con una cuenta gratis",
+      "free4": "Explora la biblioteca completa",
       "freeCta": "Empieza gratis — sin tarjeta",
       "teacherTitle": "Docente",
       "teacherPrice": "${price} al año",
       "teacherMonthly": "o ${monthly}/mes",
-      "teacher1": "Juego interactivo ilimitado",
-      "teacher2": "Descargas de PDF ilimitadas con hoja de respuestas",
+      "teacher1": "Juego y descargas ilimitados",
+      "teacher2": "Toda la profundidad de cada herramienta — imprime, guarda, el repertorio completo",
       "teacher3": "Guarda y organiza lo que creas",
       "teacher4": "Comparte enlaces y códigos QR con tu grupo",
       "teacherCta": "Conoce el plan Docente",
@@ -4423,7 +4423,7 @@
     "close": {
       "line1": "La clase de mañana",
       "line2": "ya está aquí, esperándote.",
-      "body": "Abre una herramienta, reparte una hoja de trabajo o crea la tuya esta noche — todo funciona antes de iniciar sesión.",
+      "body": "Abre una herramienta, reparte una hoja de trabajo o crea la tuya esta noche — pruébalo todo antes de siquiera iniciar sesión.",
       "ctaPrimary": "Empieza gratis — sin tarjeta",
       "ctaSecondary": "Ver las hojas de trabajo"
     },
@@ -4432,6 +4432,7 @@
       "heading": "Todo, organizado como tú lo buscas",
       "sub": "La biblioteca completa — por grado, por tema, por habilidad — más todas las herramientas de aula.",
       "toolsHeading": "Herramientas de aula"
-    }
+    },
+    "planTag": "Plan Docente"
   }
 }

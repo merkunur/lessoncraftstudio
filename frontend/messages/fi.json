@@ -2794,7 +2794,7 @@
     },
     "hero": {
       "h1": "Jokainen oppitunti, tasapainossa.",
-      "sub": "Opetustyökalut luokan eteen, itsekorjaavat tehtäväarkit, tulosteet vastauksineen ja tehtävägeneraattorit – ilmaiseksi esiopetuksesta 3. luokkaan.",
+      "sub": "Opetustyökalut luokan eteen, tehtäväarkit, jotka tarkistavat itsensä ja tulostuvat vastauksineen, sekä generaattorit omien tekemiseen – aloita ilmaiseksi, esiopetuksesta 3. luokkaan.",
       "ctaTools": "Avaa opetustyökalu",
       "ctaWorksheets": "Selaa tehtäväarkkeja",
       "microLine": "Aloita ilmaiseksi · ei kirjautumista · ei mitään asennettavaa"
@@ -2809,7 +2809,7 @@
     "teach": {
       "heading": "Aloita siitä, mistä jokainen oppitunti alkaa: luokan edestä",
       "body": "{count} työkalua, jotka heijastat taululle ja joiden äärestä opetat. Väline hoitaa korjaamisen: vaaka kallistuu, eikä kenenkään tarvitse sanoa väärin.",
-      "caption": "{count} työkalua · ilmaisia, ilman kirjautumista · ei ajastimia, ei pisteitä, ei suoritusputkia",
+      "caption": "{count} työkalua · kokeile ilmaiseksi, ilman kirjautumista · ei ajastimia, ei pisteitä, ei suoritusputkia",
       "seeAll": "Katso kaikki {count} työkalua",
       "liveTag": "Live",
       "penBalance": "vaaka kallistuu – kenenkään ei tarvitse sanoa väärin"
@@ -2853,7 +2853,7 @@
     },
     "share": {
       "heading": "Näytöltäsi 25 lapselle sekunnissa",
-      "body": "Kaikesta, minkä löydät tai teet, syntyy yksi linkki ja yksi QR-koodi. Lapset skannaavat ja pelaavat millä tahansa laitteella – ilman oppilastilejä, ilman asennuksia.",
+      "body": "Kaikesta, minkä löydät tai teet, syntyy yksi linkki ja yksi QR-koodi. Lapset skannaavat ja pelaavat millä tahansa laitteella – ilman oppilastilejä, ilman asennuksia. Omat jakolinkkisi ja luokan QR-koodit kuuluvat Opettajatilaukseen.",
       "chip1": "Yksi linkki",
       "chip2": "Yksi QR-koodi",
       "chip3": "Mikä tahansa laite",
@@ -2864,27 +2864,27 @@
     },
     "keep": {
       "heading": "Suunnittele oppitunti, säilytä koko vuosi",
-      "body": "Tallenna tekemäsi ja kokoa se jaksoittain – kaikki odottaa valmiina taas elokuussa. Linjassa opetussuunnitelmasi kanssa, 11 kielellä ja kielioppi kohdallaan.",
+      "body": "Opettajatilauksella tallennat tekemäsi ja kokoat sen jaksoittain – kaikki odottaa valmiina, kun uusi lukuvuosi alkaa. Linjassa opetussuunnitelmasi kanssa, 11 kielellä ja kielioppi kohdallaan.",
       "chipCurricula": "Linjassa 10 kansallisen opetussuunnitelman kanssa",
       "chipLanguages": "Toimii 11 kielellä",
       "chipNoData": "Oppilastietoja ei kerätä",
       "chipNoAds": "Ei mainoksia oppilaiden sivuilla"
     },
     "teacher": {
-      "heading": "Ilmainen on oikeasti ilmainen",
-      "body": "Jokainen työkalu on ilmainen ilman kirjautumista, ja interaktiivisia tehtäväarkkeja voi pelata 10 päivässä ilman korttia. Opettajatilaus poistaa kaikki rajat ja tallentaa sen, minkä rakennat.",
+      "heading": "Aloita ilmaiseksi. Poista rajat, kun olet valmis.",
+      "body": "Kaikkea voi kokeilla ilmaiseksi, ilman korttia: 10 interaktiivista pelikertaa päivässä ja 3 PDF-latausta kuukaudessa ilmaisella tilillä. Opettajatilaus poistaa rajat, avaa työkalut täyteen laajuuteensa ja tallentaa sen, minkä rakennat.",
       "freeTitle": "Ilmainen",
       "freeTag": "Aloita tästä – ei korttia",
-      "free1": "Kaikki työkalut, rajattomasti",
+      "free1": "Kaikki työkalut ja generaattorit kokeiltavissa ilmaiseksi",
       "free2": "10 interaktiivista pelikertaa päivässä",
-      "free3": "Selaa koko kirjastoa",
-      "free4": "Kaikki generaattorit avoinna kokeiltaviksi",
+      "free3": "3 PDF-latausta kuukaudessa ilmaisella tilillä",
+      "free4": "Selaa koko kirjastoa",
       "freeCta": "Aloita ilmaiseksi – ei korttia",
       "teacherTitle": "Opettaja",
       "teacherPrice": "{price} $ vuodessa",
       "teacherMonthly": "tai {monthly} $/kk",
-      "teacher1": "Rajaton interaktiivinen pelaaminen",
-      "teacher2": "Rajattomat PDF-lataukset vastauksineen",
+      "teacher1": "Rajaton pelaaminen ja lataaminen",
+      "teacher2": "Jokaisen työkalun täysi laajuus – tulostus, tallennus ja koko harjoitusvalikoima",
       "teacher3": "Tallenna ja kokoa tekemäsi",
       "teacher4": "Jakolinkit ja luokan QR-koodit",
       "teacherCta": "Tutustu Opettajatilaukseen",
@@ -2893,7 +2893,7 @@
     "close": {
       "line1": "Huominen oppitunti",
       "line2": "odottaa jo tässä.",
-      "body": "Avaa työkalu, jaa tehtäväarkki tai rakenna oma vielä tänä iltana – kaikki toimii jo ennen kirjautumista.",
+      "body": "Avaa työkalu, jaa tehtäväarkki tai rakenna oma vielä tänä iltana – voit kokeilla kaikkea jo ennen kirjautumista.",
       "ctaPrimary": "Aloita ilmaiseksi – ei korttia",
       "ctaSecondary": "Selaa tehtäväarkkeja"
     },
@@ -2902,6 +2902,7 @@
       "heading": "Kaikki järjestettynä niin kuin sitä etsit",
       "sub": "Koko kirjasto luokka-asteen, aiheen ja taidon mukaan – ja lisäksi kaikki työkalut.",
       "toolsHeading": "Työkalut luokkaan"
-    }
+    },
+    "planTag": "Opettajatilaus"
   }
 }

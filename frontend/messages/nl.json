@@ -2805,7 +2805,7 @@
     },
     "hero": {
       "h1": "Elke les hangt samen.",
-      "sub": "Live hulpmiddelen voor in de klas, zelfnakijkende werkbladen, printbare pdf's met antwoordblad en werkblad-makers — gratis, van kleuters tot en met groep 5.",
+      "sub": "Live hulpmiddelen voor in de klas, werkbladen die zichzelf nakijken én printen met antwoordblad, en makers voor je eigen werkbladen — gratis om te beginnen, van kleuters tot en met groep 5.",
       "ctaTools": "Open een hulpmiddel",
       "ctaWorksheets": "Bekijk de werkbladen",
       "microLine": "Gratis om te beginnen · zonder login · niets te installeren"
@@ -2820,7 +2820,7 @@
     "teach": {
       "heading": "Begin waar elke les begint: voor de klas",
       "body": "{count} hulpmiddelen die je projecteert en waarmee je vanaf het bord lesgeeft. Het materiaal doet het nakijken: de balans slaat door, dus niemand hoeft 'fout' te zeggen.",
-      "caption": "{count} hulpmiddelen · gratis, zonder login · geen timers, geen scores, geen competitie",
+      "caption": "{count} hulpmiddelen · gratis te proberen, zonder login · geen timers, geen scores, geen competitie",
       "seeAll": "Bekijk alle {count} hulpmiddelen",
       "liveTag": "Live",
       "penBalance": "de balans slaat door — niemand zegt fout"
@@ -2864,7 +2864,7 @@
     },
     "share": {
       "heading": "Van jouw scherm naar 25 kinderen in één seconde",
-      "body": "Alles wat je vindt of maakt, wordt één link en één QR-code. Kinderen scannen en spelen op elk apparaat — zonder leerlingaccounts, niets te installeren.",
+      "body": "Alles wat je vindt of maakt, wordt één link en één QR-code. Kinderen scannen en spelen op elk apparaat — zonder leerlingaccounts, niets te installeren. Je eigen deellinks en klas-QR-codes horen bij het Leerkracht-abonnement.",
       "chip1": "Eén link",
       "chip2": "Eén QR-code",
       "chip3": "Elk apparaat",
@@ -2875,27 +2875,27 @@
     },
     "keep": {
       "heading": "Plan één les, bewaar een heel jaar",
-      "body": "Bewaar wat je maakt en verzamel het per blok — in september staat het weer klaar. Afgestemd op jouw curriculum, in 11 talen, met de grammatica op orde.",
+      "body": "Met het Leerkracht-abonnement bewaar je wat je maakt en verzamel je het per blok — het staat klaar als het nieuwe schooljaar begint. Afgestemd op jouw curriculum, in 11 talen, met de grammatica op orde.",
       "chipCurricula": "Afgestemd op 10 nationale curricula",
       "chipLanguages": "Werkt in 11 talen",
       "chipNoData": "Geen leerlinggegevens verzameld",
       "chipNoAds": "Geen advertenties op leerlingpagina's"
     },
     "teacher": {
-      "heading": "Gratis is echt gratis",
-      "body": "Elk hulpmiddel is gratis, zonder login; speel 10 interactieve werkbladen per dag zonder kaart. Het Leerkracht-abonnement haalt elke limiet weg en bewaart wat je maakt.",
+      "heading": "Begin gratis. Ga onbeperkt verder wanneer je zover bent.",
+      "body": "Alles is gratis te proberen, zonder kaart: 10 keer interactief spelen per dag en 3 pdf-downloads per maand met een gratis account. Het Leerkracht-abonnement haalt de limieten weg, opent de volledige diepgang van elk hulpmiddel en bewaart wat je maakt.",
       "freeTitle": "Gratis",
       "freeTag": "Begin hier — geen kaart nodig",
-      "free1": "Elk hulpmiddel voor in de klas, onbeperkt",
+      "free1": "Alle hulpmiddelen en makers, gratis te proberen",
       "free2": "10 keer interactief spelen per dag",
-      "free3": "Blader door de hele bibliotheek",
-      "free4": "Elke maker, vrij te proberen",
+      "free3": "3 pdf-downloads per maand met een gratis account",
+      "free4": "Blader door de hele bibliotheek",
       "freeCta": "Gratis beginnen — geen kaart nodig",
       "teacherTitle": "Leerkracht",
       "teacherPrice": "${price} per jaar",
       "teacherMonthly": "of ${monthly}/maand",
-      "teacher1": "Onbeperkt interactief spelen",
-      "teacher2": "Onbeperkt pdf's downloaden met antwoordblad",
+      "teacher1": "Onbeperkt spelen en downloaden",
+      "teacher2": "De volledige diepgang van elk hulpmiddel — printen, bewaren, het hele repertoire",
       "teacher3": "Bewaar en verzamel wat je maakt",
       "teacher4": "Deellinks en QR-codes voor je klas",
       "teacherCta": "Bekijk het Leerkracht-abonnement",
@@ -2904,7 +2904,7 @@
     "close": {
       "line1": "De les van morgen",
       "line2": "ligt hier al klaar.",
-      "body": "Open een hulpmiddel, deel een werkblad uit, of maak er vanavond zelf een — alles werkt al voordat je inlogt.",
+      "body": "Open een hulpmiddel, deel een werkblad uit, of maak er vanavond zelf een — probeer het allemaal nog voordat je inlogt.",
       "ctaPrimary": "Gratis beginnen — geen kaart nodig",
       "ctaSecondary": "Bekijk de werkbladen"
     },
@@ -2913,6 +2913,7 @@
       "heading": "Alles, geordend zoals jij het zoekt",
       "sub": "De hele bibliotheek — per groep, per onderwerp, per vaardigheid — plus elk hulpmiddel voor in de klas.",
       "toolsHeading": "Hulpmiddelen voor in de klas"
-    }
+    },
+    "planTag": "Leerkracht-abonnement"
   }
 }

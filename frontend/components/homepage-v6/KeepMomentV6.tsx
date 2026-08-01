@@ -9,7 +9,10 @@ interface Props {
 }
 
 export default async function KeepMomentV6({ locale }: Props) {
-  const t = await getTranslations({ locale, namespace: 'homepageV6.keep' });
+  const [t, tRoot] = await Promise.all([
+    getTranslations({ locale, namespace: 'homepageV6.keep' }),
+    getTranslations({ locale, namespace: 'homepageV6' }),
+  ]);
 
   const chips = [t('chipCurricula'), t('chipLanguages'), t('chipNoData'), t('chipNoAds')];
 
@@ -21,6 +24,9 @@ export default async function KeepMomentV6({ locale }: Props) {
           <h2 className="font-lcsDisplay font-bold text-[#14322D] leading-[1.08] tracking-tight text-[1.875rem] sm:text-[2.375rem] md:text-[2.75rem]">
             {t('heading')}
           </h2>
+          {/* Honest attribution: saving + collections are Teacher-plan
+              features (requireActiveSubscriber on collections/workspace). */}
+          <span className="hv6-chip-mono mt-3 inline-flex">{tRoot('planTag')}</span>
           <p className="mt-5 font-lcsBody text-lg text-[#3d574f] leading-relaxed">{t('body')}</p>
           <div className="mt-7 flex flex-wrap gap-2.5">
             {chips.map((c) => (

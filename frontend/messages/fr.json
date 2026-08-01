@@ -2825,7 +2825,7 @@
     },
     "hero": {
       "h1": "Chaque leçon, suspendue au même fil.",
-      "sub": "Des outils à projeter en classe, des fiches autocorrectives qui s'impriment aussi en PDF avec corrigé, et des générateurs pour créer les vôtres — gratuits de la maternelle au CE2.",
+      "sub": "Des outils à projeter en classe, des fiches qui se corrigent toutes seules et s'impriment avec corrigé, et des générateurs pour créer les vôtres — gratuit pour commencer, de la maternelle au CE2.",
       "ctaTools": "Ouvrir un outil de classe",
       "ctaWorksheets": "Parcourir les fiches",
       "microLine": "Gratuit pour commencer · sans connexion · rien à installer"
@@ -2840,7 +2840,7 @@
     "teach": {
       "heading": "Commencez là où toute leçon commence : au tableau",
       "body": "{count} outils de classe à projeter, pour enseigner face aux élèves. C'est le matériel qui corrige : la balance penche, et personne n'a à dire « faux ».",
-      "caption": "{count} outils · gratuits, sans connexion · ni chrono, ni score, ni classement",
+      "caption": "{count} outils · à essayer gratuitement, sans connexion · ni chrono, ni score, ni classement",
       "seeAll": "Voir les {count} outils",
       "liveTag": "En direct",
       "penBalance": "la balance penche — personne n'a à dire « faux »"
@@ -2884,7 +2884,7 @@
     },
     "share": {
       "heading": "De votre écran à 25 élèves en une seconde",
-      "body": "Tout ce que vous trouvez ou créez devient un lien et un QR code. Les élèves le scannent et jouent sur n'importe quel appareil — sans compte élève, rien à installer.",
+      "body": "Tout ce que vous trouvez ou créez devient un lien et un QR code. Les élèves le scannent et jouent sur n'importe quel appareil — sans compte élève, rien à installer. Vos propres liens de partage et QR codes de classe font partie de l'abonnement Enseignant.",
       "chip1": "Un lien",
       "chip2": "Un QR code",
       "chip3": "N'importe quel appareil",
@@ -2895,27 +2895,27 @@
     },
     "keep": {
       "heading": "Préparez une leçon, gardez l'année entière",
-      "body": "Enregistrez ce que vous créez, classez-le par séquence — tout vous attend à la rentrée. Aligné sur vos programmes, en 11 langues, avec une grammaire irréprochable.",
+      "body": "Avec l'abonnement Enseignant, enregistrez ce que vous créez et classez-le par séquence — tout vous attend à la rentrée. Aligné sur vos programmes, en 11 langues, avec une grammaire irréprochable.",
       "chipCurricula": "Aligné sur 10 programmes nationaux",
       "chipLanguages": "Disponible en 11 langues",
       "chipNoData": "Aucune donnée élève collectée",
       "chipNoAds": "Aucune publicité sur les pages élèves"
     },
     "teacher": {
-      "heading": "Gratuit veut vraiment dire gratuit",
-      "body": "Tous les outils sont gratuits, sans connexion ; jouez à 10 fiches interactives par jour sans carte bancaire. L'abonnement Enseignant lève toutes les limites et enregistre ce que vous créez.",
+      "heading": "Commencez gratuitement. Passez en illimité quand vous voulez.",
+      "body": "Tout s'essaie gratuitement, sans carte : 10 parties interactives par jour, et 3 téléchargements PDF par mois avec un compte gratuit. L'abonnement Enseignant lève les limites, débloque toute la profondeur de chaque outil et enregistre ce que vous créez.",
       "freeTitle": "Gratuit",
       "freeTag": "Commencez ici — sans carte",
-      "free1": "Tous les outils de classe, en illimité",
+      "free1": "Tous les outils et générateurs, à essayer gratuitement",
       "free2": "10 parties interactives par jour",
-      "free3": "Toute la bibliothèque à parcourir",
-      "free4": "Tous les générateurs, libres à l'essai",
+      "free3": "3 téléchargements PDF par mois avec un compte gratuit",
+      "free4": "Toute la bibliothèque à parcourir",
       "freeCta": "Commencer gratuitement — sans carte",
       "teacherTitle": "Enseignant",
       "teacherPrice": "{price} $ par an",
       "teacherMonthly": "ou {monthly} $ par mois",
-      "teacher1": "Jeu interactif illimité",
-      "teacher2": "Téléchargements PDF illimités, avec corrigés",
+      "teacher1": "Jeu et téléchargements illimités",
+      "teacher2": "Toute la profondeur de chaque outil — impression, enregistrement, répertoire complet",
       "teacher3": "Enregistrez et classez ce que vous créez",
       "teacher4": "Liens de partage et QR codes de classe",
       "teacherCta": "Voir l'abonnement Enseignant",
@@ -2924,7 +2924,7 @@
     "close": {
       "line1": "La leçon de demain",
       "line2": "vous attend juste ici.",
-      "body": "Ouvrez un outil, distribuez une fiche ou créez la vôtre ce soir — tout fonctionne avant même de vous connecter.",
+      "body": "Ouvrez un outil, distribuez une fiche ou créez la vôtre ce soir — essayez tout avant même de vous connecter.",
       "ctaPrimary": "Commencer gratuitement — sans carte",
       "ctaSecondary": "Parcourir les fiches"
     },
@@ -2933,6 +2933,7 @@
       "heading": "Tout, rangé comme vous le cherchez",
       "sub": "Toute la bibliothèque — par niveau, par sujet, par compétence — et tous les outils de classe.",
       "toolsHeading": "Outils de classe"
-    }
+    },
+    "planTag": "Abonnement Enseignant"
   }
 }

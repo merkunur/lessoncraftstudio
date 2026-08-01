@@ -10,9 +10,10 @@ interface Props {
 }
 
 export default async function ShareMomentV6({ locale, travelerThumb }: Props) {
-  const [t, tTicks] = await Promise.all([
+  const [t, tTicks, tRoot] = await Promise.all([
     getTranslations({ locale, namespace: 'homepageV6.share' }),
     getTranslations({ locale, namespace: 'homepageV6.ticks' }),
+    getTranslations({ locale, namespace: 'homepageV6' }),
   ]);
 
   const chips = [t('chip1'), t('chip2'), t('chip3'), t('chip4')];
@@ -30,6 +31,9 @@ export default async function ShareMomentV6({ locale, travelerThumb }: Props) {
             <h2 className="font-lcsDisplay font-bold text-[#14322D] leading-[1.08] tracking-tight text-[1.875rem] sm:text-[2.375rem] md:text-[2.75rem]">
               {t('heading')}
             </h2>
+            {/* Honest attribution: personal share links/QR are a Teacher-plan
+                feature (requireActiveSubscriber on every share route). */}
+            <span className="hv6-chip-mono mt-3 inline-flex">{tRoot('planTag')}</span>
             <p className="mt-5 font-lcsBody text-lg text-[#3d574f] leading-relaxed">{t('body')}</p>
             <div className="mt-6 flex flex-wrap gap-2.5">
               {chips.map((c) => (

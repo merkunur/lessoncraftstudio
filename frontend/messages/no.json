@@ -2809,7 +2809,7 @@
     },
     "hero": {
       "h1": "Hver time henger sammen.",
-      "sub": "Undervisningsverktøy for tavla, selvrettende arbeidsark, utskriftsklare PDF-er med fasit og arbeidsark-generatorer — gratis fra barnehage til 3. trinn.",
+      "sub": "Undervisningsverktøy for tavla, arbeidsark som retter seg selv og skrives ut med fasit, og generatorer der du bygger dine egne — gratis å starte, fra barnehage til 3. trinn.",
       "ctaTools": "Åpne et undervisningsverktøy",
       "ctaWorksheets": "Se arbeidsarkene",
       "microLine": "Gratis å starte · ingen innlogging · ingenting å installere"
@@ -2824,7 +2824,7 @@
     "teach": {
       "heading": "Start der hver time starter: ved tavla",
       "body": "{count} instrumenter for klasserommet som du viser på storskjerm og underviser fra. Apparatet tar rettingen: vekta vipper, så ingen trenger å si «feil».",
-      "caption": "{count} instrumenter · gratis, uten innlogging · ingen stoppeklokke, ingen poeng, ingen seiersrekker",
+      "caption": "{count} instrumenter · gratis å prøve, uten innlogging · ingen stoppeklokke, ingen poeng, ingen seiersrekker",
       "seeAll": "Se alle {count} verktøyene",
       "liveTag": "Live",
       "penBalance": "vekta vipper — ingen trenger å si feil"
@@ -2868,7 +2868,7 @@
     },
     "share": {
       "heading": "Fra din skjerm til 25 elever på ett sekund",
-      "body": "Alt du finner eller lager, blir til én lenke og én QR-kode. Elevene skanner den og spiller på hvilken som helst enhet — ingen elevkontoer, ingenting å installere.",
+      "body": "Alt du finner eller lager, blir til én lenke og én QR-kode. Elevene skanner den og spiller på hvilken som helst enhet — ingen elevkontoer, ingenting å installere. Egne delingslenker og QR-koder til klassen er en del av Lærerabonnementet.",
       "chip1": "Én lenke",
       "chip2": "Én QR-kode",
       "chip3": "Alle enheter",
@@ -2879,27 +2879,27 @@
     },
     "keep": {
       "heading": "Planlegg en time, behold et helt år",
-      "body": "Lagre det du bygger, og samle det etter tema — det venter på deg ved neste skolestart. Forankret i læreplanen din, på 11 språk, med grammatikken på plass.",
+      "body": "Med Lærerabonnementet lagrer du det du bygger og samler det etter tema — det venter på deg når det nye skoleåret starter. Forankret i læreplanen din, på 11 språk, med grammatikken på plass.",
       "chipCurricula": "Tilpasset 10 nasjonale læreplaner",
       "chipLanguages": "Fungerer på 11 språk",
       "chipNoData": "Ingen elevdata samles inn",
       "chipNoAds": "Ingen reklame på elevsider"
     },
     "teacher": {
-      "heading": "Gratis er faktisk gratis",
-      "body": "Alle verktøyene er gratis, uten innlogging; spill 10 interaktive arbeidsark om dagen uten kort. Lærerabonnementet fjerner alle grenser og lagrer det du bygger.",
+      "heading": "Start gratis. Fjern grensene når du er klar.",
+      "body": "Alt er gratis å prøve, uten kort: 10 interaktive spill om dagen, og 3 PDF-nedlastinger i måneden med en gratis konto. Lærerabonnementet fjerner grensene, åpner hele dybden i hvert verktøy og lagrer det du bygger.",
       "freeTitle": "Gratis",
       "freeTag": "Start her — uten kort",
-      "free1": "Alle klasseromsverktøy, ubegrenset",
+      "free1": "Alle verktøy og generatorer, gratis å prøve",
       "free2": "10 interaktive spill om dagen",
-      "free3": "Bla i hele biblioteket",
-      "free4": "Alle generatorene, åpne for å prøve",
+      "free3": "3 PDF-nedlastinger i måneden med en gratis konto",
+      "free4": "Bla i hele biblioteket",
       "freeCta": "Start gratis — uten kort",
       "teacherTitle": "Lærer",
       "teacherPrice": "${price} per år",
       "teacherMonthly": "eller ${monthly}/mnd.",
-      "teacher1": "Ubegrenset interaktiv spilling",
-      "teacher2": "Ubegrensede PDF-nedlastinger med fasit",
+      "teacher1": "Ubegrenset spilling og nedlastinger",
+      "teacher2": "Hele dybden i hvert verktøy — utskrift, lagring, hele repertoaret",
       "teacher3": "Lagre og samle det du bygger",
       "teacher4": "Del lenker og QR-koder med klassen",
       "teacherCta": "Se lærerabonnementet",
@@ -2908,7 +2908,7 @@
     "close": {
       "line1": "Morgendagens time",
       "line2": "ligger klar her.",
-      "body": "Åpne et verktøy, del ut et arbeidsark, eller bygg ditt eget i kveld — alt fungerer før du logger inn.",
+      "body": "Åpne et verktøy, del ut et arbeidsark, eller bygg ditt eget i kveld — prøv alt før du i det hele tatt logger inn.",
       "ctaPrimary": "Start gratis — uten kort",
       "ctaSecondary": "Se arbeidsarkene"
     },
@@ -2917,6 +2917,7 @@
       "heading": "Alt, ordnet slik du leter etter det",
       "sub": "Hele biblioteket — etter trinn, etter emne, etter ferdighet — pluss alle klasseromsverktøyene.",
       "toolsHeading": "Klasseromsverktøy"
-    }
+    },
+    "planTag": "Lærerabonnementet"
   }
 }

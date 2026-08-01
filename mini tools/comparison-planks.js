@@ -960,6 +960,7 @@
       + '.cmp-p-plank{fill:none;stroke:#000;stroke-width:2.5;}'
       + '.cmp-p-rule{stroke:#000;stroke-width:1.5;stroke-dasharray:5 4;}'
       + '@media print{'
+      + '  *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}'
       + '  .lcs-header,.lcs-hint,.cmp-hint,.cmp-foot,.cmp-gate,.cmp-bench,.cmp-handle{display:none !important;}'
       + '  .cmp-wrap{gap:0;}'
       + '  .cmp-sheet{display:grid;gap:14mm;width:100%;}'

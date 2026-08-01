@@ -94,7 +94,7 @@ export default function FeaturedDeckTileV3({
         </div>
         <div className="px-5 py-4 flex items-center justify-between gap-3">
           <span className="font-lcsDisplay font-semibold text-base text-lcs-teal truncate">{title}</span>
-          <span className="font-lcsBody text-xs font-semibold text-lcs-teal/60 flex-shrink-0">
+          <span className="font-lcsBody text-xs font-semibold text-lcs-teal-deep flex-shrink-0">
             {t('cta')}
           </span>
         </div>
@@ -103,7 +103,7 @@ export default function FeaturedDeckTileV3({
       {deckHref && (
         <a
           href={deckHref}
-          className="mt-3 inline-block font-lcsBody text-sm font-semibold text-lcs-teal/70 hover:text-lcs-coral hover:underline"
+          className="mt-3 inline-block font-lcsBody text-sm font-semibold text-lcs-teal-deep hover:text-lcs-coral hover:underline"
         >
           {deckHrefLabel ?? title} →
         </a>
@@ -126,7 +126,7 @@ export default function FeaturedDeckTileV3({
               <button
                 type="button"
                 onClick={() => setOpen(false)}
-                className="p-2 -mr-2 text-lcs-teal/70 hover:text-lcs-teal rounded-full hover:bg-lcs-teal/10 transition-colors"
+                className="p-2 -mr-2 text-lcs-teal-deep hover:text-lcs-teal rounded-full hover:bg-lcs-teal/10 transition-colors"
                 aria-label={t('closeAria')}
               >
                 <svg className="w-5 h-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">

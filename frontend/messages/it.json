@@ -4329,7 +4329,9 @@
       "sub": "Strumenti didattici da usare in classe, schede che si autocorreggono e si stampano con le soluzioni, e generatori per creare le tue — gratis per iniziare, dall'infanzia alla classe terza.",
       "ctaTools": "Apri uno strumento didattico",
       "ctaWorksheets": "Sfoglia le schede",
-      "microLine": "Gratis per iniziare · senza login · niente da installare"
+      "microLine": "Gratis per iniziare · senza login · niente da installare",
+      "countsLine": "Migliaia di schede da stampare · {tools} strumenti didattici · oltre 200 attività · 11 lingue",
+      "fanLabel": "Schede d'esempio dal catalogo, nella tua lingua"
     },
     "ticks": {
       "teach": "Insegna",

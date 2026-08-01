@@ -215,24 +215,19 @@ export default async function BrowseByTopicSSR({
   );
 
   if (isHv6) {
-    /* The Installation's Class Index: the whole link mesh hangs as a
-       PEGBOARD from two nails and ropes; every group is a card pushpinned
-       to it. Link-generating code above is untouched — the mesh is
-       byte-identical. */
+    /* Open House Class Index: warm cream cards on the paper — the index's
+       density is the whole page's texture. Link-generating code above is
+       untouched — the mesh is byte-identical. */
     return (
-      <section id="browse-by-topic" className="pt-24 pb-16 md:pt-32 md:pb-24">
+      <section id="browse-by-topic" className="pt-10 pb-14 md:pt-14 md:pb-20">
         <div className="container mx-auto px-4 max-w-6xl mb-8 md:mb-10">
-          <p className="hv6-eyebrow on-dark">{headerEyebrow}</p>
-          <h2 className="mt-3 font-lcsDisplay font-bold text-lcs-cream leading-[1.08] tracking-tight text-[1.875rem] sm:text-[2.5rem] md:text-[3rem]">{headerHeading}</h2>
-          <p className="mt-3 font-lcsBody text-lg text-[#C3DBD3] leading-relaxed max-w-2xl">{headerSub}</p>
+          <p className="hv6-eyebrow">{headerEyebrow}</p>
+          <h2 className="mt-3 font-lcsDisplay font-bold text-[#14322D] leading-[1.08] tracking-tight text-[1.875rem] sm:text-[2.5rem] md:text-[3rem]">{headerHeading}</h2>
+          <p className="mt-3 font-lcsBody text-lg text-[#3d574f] leading-relaxed max-w-2xl">{headerSub}</p>
         </div>
         <div className="container mx-auto px-4 max-w-6xl">
-          <div className="hv6-hangboard">
-            <span className="hv6-nail is-l" aria-hidden="true" />
-            <span className="hv6-nail is-r" aria-hidden="true" />
-            <div className="hv6-pegboard grid gap-6 md:grid-cols-2">
-              {groups}
-            </div>
+          <div className="hv7-index-grid">
+            {groups}
           </div>
         </div>
       </section>

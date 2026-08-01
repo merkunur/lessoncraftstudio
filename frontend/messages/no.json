@@ -2812,7 +2812,9 @@
       "sub": "Undervisningsverktøy for tavla, arbeidsark som retter seg selv og skrives ut med fasit, og generatorer der du bygger dine egne — gratis å starte, fra barnehage til 3. trinn.",
       "ctaTools": "Åpne et undervisningsverktøy",
       "ctaWorksheets": "Se arbeidsarkene",
-      "microLine": "Gratis å starte · ingen innlogging · ingenting å installere"
+      "microLine": "Gratis å starte · ingen innlogging · ingenting å installere",
+      "countsLine": "Tusenvis av utskriftsklare arbeidsark · {tools} undervisningsverktøy · over 200 aktiviteter · 11 språk",
+      "fanLabel": "Et utvalg arbeidsark fra biblioteket, på språket ditt"
     },
     "ticks": {
       "teach": "Undervis",

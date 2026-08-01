@@ -1,48 +1,50 @@
-/* CloseV6 — the dark convergence panel. The oversized Baloo moment (the
-   largest type on the page, reserved for here), the free-first promise,
-   and the number line's arrowhead pointing down into the Class Index. */
+/* CloseV6 (v8 "Open House") — the typographic close on the paper, with two
+   real worksheets peeking in from the page edges (the library continues
+   past the frame). No loops, stubs or hanging tags. */
 
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
+import type { ShowcaseDeck } from '@/lib/showcase-decks';
 
 interface Props {
   locale: string;
+  peekDecks?: ShowcaseDeck[];
 }
 
-export default async function CloseV6({ locale }: Props) {
+function titleFor(deck: ShowcaseDeck): string {
+  const titleMap = (deck.title ?? {}) as Record<string, string>;
+  return titleMap[deck.language] || deck.slug;
+}
+
+export default async function CloseV6({ locale, peekDecks = [] }: Props) {
   const t = await getTranslations({ locale, namespace: 'homepageV6.close' });
 
   return (
-    <section id="close" className="relative">
-      <div className="container mx-auto px-4 max-w-5xl pb-16 md:pb-20 text-center">
-        {/* The wire ends the way a maker ends a piece: a stub of wire and a
-            hand-tied loop. */}
-        <div className="flex flex-col items-center" aria-hidden="true">
-          <span className="hv6-wire-stub" />
-          <svg width="54" height="64" viewBox="0 0 54 64" fill="none" stroke="#F5DFC2" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M27 2v8m0 0c-9 0-16 6-16 14s7 14 16 14 16-6 16-14S36 10 27 10zm-8 34l-7 14m15-13l6 14" />
-          </svg>
-        </div>
+    <section id="close" className="relative pt-10 md:pt-14 pb-6">
+      {peekDecks[0] && (
+        <span className="hv7-peek-l hv7-sheet" aria-hidden="true">
+          <img src={peekDecks[0].thumbnailUrl} alt={titleFor(peekDecks[0])} width={480} height={620} loading="lazy" />
+        </span>
+      )}
+      {peekDecks[1] && (
+        <span className="hv7-peek-r hv7-sheet" aria-hidden="true">
+          <img src={peekDecks[1].thumbnailUrl} alt={titleFor(peekDecks[1])} width={480} height={620} loading="lazy" />
+        </span>
+      )}
 
-        <h2 className="mt-8 font-lcsDisplay font-extrabold leading-[1.02] tracking-tight text-[2.5rem] sm:text-[3.25rem] md:text-[4.5rem] text-lcs-cream">
+      <div className="container mx-auto px-4 max-w-4xl text-center relative">
+        <h2 className="font-lcsDisplay font-extrabold leading-[1.02] tracking-tight text-[2.25rem] sm:text-[3rem] md:text-[3.75rem] text-[#14322D]">
           <span className="block">{t('line1')}</span>
           <span className="block text-lcs-coral">{t('line2')}</span>
         </h2>
-        <p className="mt-6 font-lcsBody text-lg leading-relaxed text-[#DCEAE4] max-w-2xl mx-auto">
+        <p className="mt-5 font-lcsBody text-lg leading-relaxed text-[#3d574f] max-w-2xl mx-auto">
           {t('body')}
         </p>
-
-        {/* The last hanging object: the signup CTA on its own cream tag. */}
-        <div className="mt-12 flex flex-col sm:flex-row gap-6 justify-center items-center sm:items-start">
-          <div
-            className="hv6-tag-cta hv6-hang is-sway is-sm"
-            style={{ '--drop': '40px', '--rest': '-1.5deg', '--rest-sm': '-1.5deg', '--period': '13s', '--amp': '1.4deg', '--phase': '-4s' } as React.CSSProperties}
-          >
-            <Link href={`/${locale}/auth/signup`} className="hv6-cta hv6-cta-primary hv6-cta-lg">
-              {t('ctaPrimary')}
-            </Link>
-          </div>
-          <Link href={`/${locale}/worksheets/`} className="hv6-cta hv6-cta-cream hv6-cta-lg sm:mt-10">
+        <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <Link href={`/${locale}/auth/signup`} className="hv6-cta hv6-cta-primary hv6-cta-lg sm:whitespace-nowrap">
+            {t('ctaPrimary')}
+          </Link>
+          <Link href={`/${locale}/worksheets/`} className="hv6-cta hv6-cta-ghost hv6-cta-lg sm:whitespace-nowrap">
             {t('ctaSecondary')}
           </Link>
         </div>

@@ -2808,7 +2808,9 @@
       "sub": "Verktyg att undervisa från, arbetsblad som rättar sig själva och skrivs ut med facit, och generatorer att bygga egna med — gratis att börja, för förskoleklass till årskurs 3.",
       "ctaTools": "Öppna ett verktyg",
       "ctaWorksheets": "Se arbetsbladen",
-      "microLine": "Gratis att börja · ingen inloggning · inget att installera"
+      "microLine": "Gratis att börja · ingen inloggning · inget att installera",
+      "countsLine": "Tusentals utskrivbara arbetsblad · {tools} klassrumsverktyg · 200+ aktiviteter · 11 språk",
+      "fanLabel": "Exempel på arbetsblad ur biblioteket, på ditt språk"
     },
     "ticks": {
       "teach": "Undervisa",

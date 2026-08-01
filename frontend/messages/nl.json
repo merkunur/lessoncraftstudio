@@ -2808,7 +2808,9 @@
       "sub": "Live hulpmiddelen voor in de klas, werkbladen die zichzelf nakijken én printen met antwoordblad, en makers voor je eigen werkbladen — gratis om te beginnen, van kleuters tot en met groep 5.",
       "ctaTools": "Open een hulpmiddel",
       "ctaWorksheets": "Bekijk de werkbladen",
-      "microLine": "Gratis om te beginnen · zonder login · niets te installeren"
+      "microLine": "Gratis om te beginnen · zonder login · niets te installeren",
+      "countsLine": "Duizenden printbare werkbladen · {tools} hulpmiddelen · 200+ activiteiten · 11 talen",
+      "fanLabel": "Voorbeeldwerkbladen uit de bibliotheek, in jouw taal"
     },
     "ticks": {
       "teach": "Lesgeven",

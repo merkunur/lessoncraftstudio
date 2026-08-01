@@ -4314,7 +4314,9 @@
       "sub": "Ferramentas de ensino ao vivo, fichas que se corrigem sozinhas e imprimem com gabarito, e geradores para criar as suas — grátis para começar, da educação infantil ao 3º ano.",
       "ctaTools": "Abra uma ferramenta de ensino",
       "ctaWorksheets": "Conheça as fichas",
-      "microLine": "Grátis para começar · sem login · nada para instalar"
+      "microLine": "Grátis para começar · sem login · nada para instalar",
+      "countsLine": "Milhares de fichas para imprimir · {tools} ferramentas de ensino · mais de 200 atividades · 11 idiomas",
+      "fanLabel": "Exemplos de fichas da biblioteca, no seu idioma"
     },
     "ticks": {
       "teach": "Ensinar",

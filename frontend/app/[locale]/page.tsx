@@ -8,14 +8,12 @@ import OpeningV6 from '@/components/homepage-v6/OpeningV6';
 import TeachMomentV6 from '@/components/homepage-v6/TeachMomentV6';
 import PracticeMomentV6 from '@/components/homepage-v6/PracticeMomentV6';
 import MakeMomentV6 from '@/components/homepage-v6/MakeMomentV6';
-import BothWaysV6 from '@/components/homepage-v6/BothWaysV6';
 import ShareMomentV6 from '@/components/homepage-v6/ShareMomentV6';
 import KeepMomentV6 from '@/components/homepage-v6/KeepMomentV6';
 import TeacherMomentV6 from '@/components/homepage-v6/TeacherMomentV6';
 import CloseV6 from '@/components/homepage-v6/CloseV6';
-import ToolVignette from '@/components/homepage-v6/ToolVignette';
 import BrowseByTopicSSR from '@/components/homepage-v3/BrowseByTopicSSR';
-import { getTypedThumbs } from '@/lib/showcase-decks';
+import { getTypedThumbs, selectShowcaseDecks, fallbackShowcase, type ShowcaseDeck } from '@/lib/showcase-decks';
 import '@/components/homepage-v6/homepage-v6.css';
 
 // Promoted 2026-08-01: homepage v6 "The Lesson Line" — one continuous
@@ -126,13 +124,12 @@ const FALLBACK_TRAVELER =
 export default async function HomePage({ params }: { params: { locale: string } }) {
   const locale = params.locale || 'en';
   const t = await getTranslations({ locale, namespace: 'homepage.meta' });
-  const t6 = await getTranslations({ locale, namespace: 'homepageV6' });
 
   const schemas = buildSchemas(locale, t('ogTitle'), t('description'));
 
   // The traveler artifact: ONE worksheet in the visitor's language that
-  // reappears at Make (born), Print (its paper twin) and Share (in 25
-  // hands). EN keeps the hand-picked deck; DB failure falls back to it too.
+  // reappears at Make, Print and Share. EN keeps the hand-picked deck;
+  // DB failure falls back to it too.
   let travelerThumb = FALLBACK_TRAVELER;
   if (locale !== 'en') {
     try {
@@ -140,6 +137,38 @@ export default async function HomePage({ params }: { params: { locale: string } 
     } catch {
       /* keep fallback */
     }
+  }
+
+  // ONE showcase fetch feeds the whole page: fold fan (5), the wall
+  // (featured + 12), the keep-stack (3, reused) and the close peeks (2,
+  // reused). DB failure → empty slices; every consumer renders honestly.
+  let fanDecks: ShowcaseDeck[] = [];
+  let wallFeatured: ShowcaseDeck | null = null;
+  let wallThumbs: ShowcaseDeck[] = [];
+  let stackDecks: ShowcaseDeck[] = [];
+  let keepDecks: ShowcaseDeck[] = [];
+  let peekDecks: ShowcaseDeck[] = [];
+  try {
+    let sel = await selectShowcaseDecks(locale, 18);
+    // DB empty/unreachable -> the curated EN fallback set (a real worksheet
+    // in the wrong language beats an empty fold).
+    if (!sel.featured && sel.thumbs.length === 0) sel = fallbackShowcase(18);
+    const thumbs = sel.thumbs;
+    wallFeatured = sel.featured;
+    fanDecks = thumbs.slice(0, 5);
+    wallThumbs = thumbs.slice(5, 17);
+    stackDecks = thumbs.slice(1, 4);
+    keepDecks = thumbs.slice(10, 13);
+    peekDecks = [thumbs[6], thumbs[8]].filter(Boolean) as ShowcaseDeck[];
+  } catch {
+    ({ featured: wallFeatured, thumbs: wallThumbs } = (() => {
+      const fb = fallbackShowcase(18);
+      fanDecks = fb.thumbs.slice(0, 5);
+      stackDecks = fb.thumbs.slice(1, 4);
+      keepDecks = fb.thumbs.slice(10, 13);
+      peekDecks = [fb.thumbs[6], fb.thumbs[8]].filter(Boolean) as ShowcaseDeck[];
+      return { featured: fb.featured, thumbs: fb.thumbs.slice(5, 17) };
+    })());
   }
 
   return (
@@ -153,39 +182,28 @@ export default async function HomePage({ params }: { params: { locale: string } 
         />
       ))}
 
-      {/* The board is dark for the full page; no white flash behind it. */}
+      {/* Daylight ground; scoped to this page, unmounts on navigation. */}
       <style>{`
-        body { background: #0F3A31 !important; color: #FBF3E4; }
+        body { background: #FDFBF6 !important; color: #14322D; }
         body::before { display: none; }
       `}</style>
 
       {/* div, not main: LocaleLayoutClient already wraps children in <main>. */}
       <div className={`hv6 ${baloo2.variable} ${nunito.variable} font-lcsBody min-h-screen`}>
-        {/* THE INSTALLATION — one continuous board; everything hangs. */}
-        <div className="hv6-board hv6-grain">
-          <OpeningV6 locale={locale} travelerThumb={travelerThumb} />
-
-          {/* THE DESCENT — the hero's drop thread becomes the suspension
-              wire; every moment hangs from it. */}
-          <div className="hv6-descent">
-            <span className="hv6-wire-pulse" aria-hidden="true" />
-            <TeachMomentV6 locale={locale} />
-            <ToolVignette variant="balance" side="l" caption={t6('teach.penBalance')} />
-            <PracticeMomentV6 locale={locale} />
-            <ToolVignette variant="choral" side="r" caption={t6('practice.penChoral')} />
-            <MakeMomentV6 locale={locale} travelerThumb={travelerThumb} />
-            <ToolVignette variant="letter-tiles" side="l" caption={t6('make.penTiles')} />
-            <BothWaysV6 locale={locale} travelerThumb={travelerThumb} />
-            <ShareMomentV6 locale={locale} travelerThumb={travelerThumb} />
-            <ToolVignette variant="clock" side="r" caption={t6('share.penClock')} />
-            <KeepMomentV6 locale={locale} />
-            <TeacherMomentV6 locale={locale} />
-          </div>
-
-          <CloseV6 locale={locale} />
+        {/* OPEN HOUSE — one continuous morning paper covered in the
+            product's own pages and working tools. */}
+        <div className="hv7-ground">
+          <OpeningV6 locale={locale} travelerThumb={travelerThumb} fanDecks={fanDecks} />
+          <TeachMomentV6 locale={locale} />
+          <PracticeMomentV6 locale={locale} featured={wallFeatured} thumbs={wallThumbs} />
+          <MakeMomentV6 locale={locale} travelerThumb={travelerThumb} />
+          <ShareMomentV6 locale={locale} travelerThumb={travelerThumb} />
+          <KeepMomentV6 locale={locale} keepDecks={keepDecks} />
+          <TeacherMomentV6 locale={locale} stackDecks={stackDecks} />
+          <CloseV6 locale={locale} peekDecks={peekDecks} />
 
           {/* The Class Index — the crawl-bait mesh (Do NOT remove — primary
-              crawlable links) as a hanging pegboard of pushpinned cards. */}
+              crawlable links) as warm cream cards on the paper. */}
           <BrowseByTopicSSR
             locale={locale}
             maxThemesPerGroup={40}
@@ -193,10 +211,6 @@ export default async function HomePage({ params }: { params: { locale: string } 
             includeLanguageGroup
             variant="hv6"
           />
-
-          {/* The installation's floor; the cream site footer below reads as
-              "outside the gallery". */}
-          <div className="hv6-floorline" aria-hidden="true" />
         </div>
       </div>
     </>

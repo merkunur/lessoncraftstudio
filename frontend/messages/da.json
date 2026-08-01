@@ -2805,7 +2805,9 @@
       "sub": "Levende undervisningsværktøjer, arbejdsark, der retter sig selv og printes med facitliste, og generatorer til at bygge dine egne — gratis at starte, fra børnehaveklassen til 3. klasse.",
       "ctaTools": "Åbn et undervisningsværktøj",
       "ctaWorksheets": "Se arbejdsarkene",
-      "microLine": "Gratis at starte · uden login · intet at installere"
+      "microLine": "Gratis at starte · uden login · intet at installere",
+      "countsLine": "Titusindvis af printklare arbejdsark · {tools} undervisningsværktøjer · 200+ aktiviteter · 11 sprog",
+      "fanLabel": "Et udvalg af arbejdsark fra biblioteket, på dit sprog"
     },
     "ticks": {
       "teach": "Undervis",

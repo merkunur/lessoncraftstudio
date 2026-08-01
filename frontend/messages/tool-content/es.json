@@ -1150,7 +1150,17 @@
       "Arrastra el corchete hacia abajo. El recorte se separa del tablón largo y queda suelto: pregunta si sigue midiendo lo mismo ahora que está fuera.",
       "Llévalo hasta el extremo del tablón corto y únelo punta con punta. Deja que la clase vea que ahora los dos llegan igual de lejos, y pregunta de quién era esa pieza.",
       "Devuélvelo a su lugar, cambia un solo tablón y repite. Después de dos o tres parejas, la clase empieza a anticipar el tamaño del recorte antes de que lo saques."
-    ]
+    ],
+    "classroomIdeas": [
+      "Estimar primero: antes de que nadie toque el corchete, cada niño dice cuánto mide el recorte; recoge también las respuestas que no coinciden.",
+      "Pon los dos tablones igual de largos: no aparece ningún corchete. Pregunta a la clase por qué esta vez no hay nada que quitar.",
+      "Da un objetivo: que un niño ajuste los tablones para que el recorte quede exactamente igual de largo que el tablón corto.",
+      "Alarga los dos tablones lo mismo y pregunta, antes de tocar nada, si el recorte va a cambiar.",
+      "Tapa con la mano el número del tablón largo: a partir del corto y del recorte, la clase dice qué número está tapado.",
+      "Hazlo después en papel: dos tiras una debajo de otra, se corta lo que sobresale y se pone al final de la tira corta."
+    ],
+    "metaTitle": "Los dos tablones — comparar longitudes, primero y segundo",
+    "metaDescription": "Dos tablones salen de la misma línea; el recorte que sobresale se quita y se pone al final del corto. Herramienta gratuita para la pizarra digital."
   },
   "labels": {
     "about": "Acerca de esta herramienta",

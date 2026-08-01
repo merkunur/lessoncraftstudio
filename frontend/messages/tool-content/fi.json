@@ -1095,7 +1095,7 @@
     ],
     "howToUse": [
       "Nosta kuvio esiin ja kysy, kuinka pitkä matka on kuvion ympäri, ennen kuin mikään liikkuu.",
-      "Anna lapsen vedätä lippu siihen kohtaan, johon hän arvelee langan yltävän, ja jätä se siihen.",
+      "Anna lapsen vetää lippu siihen kohtaan, johon hän arvelee langan yltävän, ja jätä se siihen.",
       "Vedä langan päästä hitaasti, jotta luokka näkee sen lähtevän kaarelta ja saapuvan kaistalle.",
       "⭐ Suurenna nyt kuviota paljon ja anna langan asettua uudelleen: luku ei muutu. Tätä varten koko työkalu on olemassa.",
       "Aseta sitten kolmikaarinen kuvio ympyrän viereen ja anna luokan selittää, miksi ne antavat saman.",
@@ -1129,7 +1129,17 @@
       "Vedä kaarta alaspäin, jolloin pala irtoaa pitkästä lankusta.",
       "Aseta pala lyhyen lankun päähän ja näytä, että ne yltävät yhdessä täsmälleen yhtä pitkälle.",
       "Palauta pala paikalleen ja valitse seuraava pari — esimerkiksi kaksi yhtä pitkää lankkua, jolloin mitään ei jää yli."
-    ]
+    ],
+    "classroomIdeas": [
+      "Ensin ääneen: jokainen sanoo, kuinka pitkä pala on, ennen kuin kukaan koskee kaareen, ja kirjoittakaa eri vastaukset taululle.",
+      "Tehkää lankuista yhtä pitkät, jolloin kaarta ei ilmesty lainkaan, ja kysykää luokalta, kuinka pitkä pala silloin olisi.",
+      "Antakaa tavoite: säätäkää lankut niin, että palasta tulee täsmälleen yhtä pitkä kuin lyhyt lankku.",
+      "Kenen pala tämä on? Kysykää heti, kun se on asetettu lyhyen lankun jatkoksi — se tuli pitkästä lankusta.",
+      "Pidentäkää lyhyttä lankkua yhden askeleen verran ja antakaa luokan ennustaa, kasvaako vai pieneneekö pala, ennen kuin vedätte.",
+      "Tehkää sama paperilla: piirtäkää kaksi eripituista lankkua, leikatkaa yli jäävä pala irti ja asettakaa se lyhyen lankun jatkoksi."
+    ],
+    "metaTitle": "Lankut – pituuksien vertailu ja ero näkyviin, alkuopetus",
+    "metaDescription": "Kaksi lankkua lähtee samalta viivalta: yli jäävä pala irtoaa pitkästä lankusta ja asettuu lyhyen lankun jatkoksi. Ilmainen väline alkuopetuksen älytaululle."
   },
   "labels": {
     "about": "Tietoa tästä työkalusta",

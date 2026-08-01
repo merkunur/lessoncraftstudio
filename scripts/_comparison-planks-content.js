@@ -80,7 +80,17 @@ module.exports = {
       'Zeigen Sie auf den Henkel über dem überstehenden Endstück und lassen Sie die Klasse laut sagen, wie lang dieses Stück ist.',
       'Nehmen Sie das Endstück ab und tragen Sie es langsam an das Ende des kurzen Brettes, damit alle das Einrasten sehen.',
       'Fragen Sie danach, woher dieses Stück kam und warum es genau an das kurze Brett passt, und wiederholen Sie das Ganze mit einem neuen Paar.'
-    ]
+    ],
+    classroomIdeas: [
+      "Erst schätzen: Bevor jemand den Henkel anfasst, sagt jedes Kind, wie lang das Endstück ist – sammeln Sie auch die Zahlen ein, die nicht zusammenpassen.",
+      "Ziehen Sie beide Bretter auf dieselbe Länge: Es erscheint kein Henkel. Fragen Sie die Klasse, warum diesmal nichts abzunehmen ist.",
+      "Geben Sie ein Ziel vor: Ein Kind stellt die Bretter so ein, dass das Endstück genau so lang wird wie das kurze Brett.",
+      "Machen Sie beide Bretter gleich viel länger und fragen Sie vorher, ob das Endstück dadurch größer wird; erst danach den Henkel ziehen.",
+      "Halten Sie die Zahl des langen Brettes zu: Aus dem kurzen Brett und dem Endstück soll die Klasse sagen, welche Zahl darunter steht.",
+      "Danach auf Papier: zwei Streifen untereinander legen, den Überstand abschneiden und ans Ende des kurzen Streifens legen.",
+    ],
+    metaTitle: "Zwei Bretter, eine Linie – Längen vergleichen, Grundschule",
+    metaDescription: "Zwei Bretter beginnen an derselben Linie; das überstehende Endstück lässt sich abnehmen und ans kurze Brett anlegen. Kostenlos am Whiteboard, Grundschule."
   },
 
   fr: {
@@ -99,7 +109,17 @@ module.exports = {
       "Montrez l'accolade au-dessus du bout qui dépasse et laissez la classe dire à voix haute quelle est la longueur de ce bout.",
       "Détachez le bout et portez-le lentement jusqu'à l'extrémité de la planche courte, pour que tous voient les deux planches arriver au même endroit.",
       "Demandez ensuite d'où venait ce bout et pourquoi il s'ajuste si bien à la planche courte, puis recommencez avec une autre paire."
-    ]
+    ],
+    classroomIdeas: [
+      "Estimer d'abord : avant que quiconque touche l'accolade, chaque élève dit quelle est la longueur du bout ; relevez aussi les réponses qui ne concordent pas.",
+      "Donnez aux deux planches la même longueur : aucune accolade n'apparaît. Demandez à la classe pourquoi il n'y a rien à détacher cette fois.",
+      "Donnez une cible : un élève règle les planches pour que le bout soit exactement aussi long que la planche courte.",
+      "Allongez les deux planches d'autant l'une que l'autre, et demandez, avant de détacher quoi que ce soit, si le bout va changer.",
+      "Cachez le nombre de la planche longue avec la main : à partir de la planche courte et du bout, la classe dit quel nombre est caché.",
+      "Refaites-le sur papier : deux bandes posées l'une sous l'autre, on coupe ce qui dépasse et on le pose au bout de la bande courte.",
+    ],
+    metaTitle: "Deux planches, un même départ — comparer des longueurs, CP et CE1",
+    metaDescription: "Deux planches partent de la même ligne ; le bout qui dépasse se détache et vient se poser à l'extrémité de la planche courte. Outil gratuit au TBI, au CP."
   },
 
   es: {
@@ -118,7 +138,17 @@ module.exports = {
       'Arrastra el corchete hacia abajo. El recorte se separa del tablón largo y queda suelto: pregunta si sigue midiendo lo mismo ahora que está fuera.',
       'Llévalo hasta el extremo del tablón corto y únelo punta con punta. Deja que la clase vea que ahora los dos llegan igual de lejos, y pregunta de quién era esa pieza.',
       'Devuélvelo a su lugar, cambia un solo tablón y repite. Después de dos o tres parejas, la clase empieza a anticipar el tamaño del recorte antes de que lo saques.'
-    ]
+    ],
+    classroomIdeas: [
+      "Estimar primero: antes de que nadie toque el corchete, cada niño dice cuánto mide el recorte; recoge también las respuestas que no coinciden.",
+      "Pon los dos tablones igual de largos: no aparece ningún corchete. Pregunta a la clase por qué esta vez no hay nada que quitar.",
+      "Da un objetivo: que un niño ajuste los tablones para que el recorte quede exactamente igual de largo que el tablón corto.",
+      "Alarga los dos tablones lo mismo y pregunta, antes de tocar nada, si el recorte va a cambiar.",
+      "Tapa con la mano el número del tablón largo: a partir del corto y del recorte, la clase dice qué número está tapado.",
+      "Hazlo después en papel: dos tiras una debajo de otra, se corta lo que sobresale y se pone al final de la tira corta.",
+    ],
+    metaTitle: "Los dos tablones — comparar longitudes, primero y segundo",
+    metaDescription: "Dos tablones salen de la misma línea; el recorte que sobresale se quita y se pone al final del corto. Herramienta gratuita para la pizarra digital."
   },
 
   pt: {
@@ -137,7 +167,17 @@ module.exports = {
       'Arraste o colchete para baixo. O retalho se solta da ripa comprida e fica solto: pergunte se ele continua do mesmo tamanho agora que saiu.',
       'Leve-o até a ponta da ripa curta e encoste ponta com ponta. Deixe a turma ver que agora as duas chegam igualmente longe e pergunte de quem era aquele retalho.',
       'Ponha de volta no lugar, mude uma ripa só e repita. Depois de duas ou três duplas, a turma começa a prever o tamanho do retalho antes mesmo de você tirá-lo.'
-    ]
+    ],
+    classroomIdeas: [
+      "Estimar primeiro: antes de alguém tocar no colchete, cada criança diz quanto mede o retalho; recolha também os palpites que não combinam.",
+      "Deixe as duas ripas do mesmo tamanho: não aparece colchete nenhum. Pergunte à turma por que desta vez não há nada para tirar.",
+      "Dê um alvo: uma criança ajusta as ripas para o retalho ficar exatamente do tamanho da ripa curta.",
+      "Aumente as duas ripas o mesmo tanto e pergunte, antes de tirar qualquer coisa, se o retalho vai mudar.",
+      "Tape com a mão o número da ripa comprida: a partir da curta e do retalho, a turma diz qual é o número tapado.",
+      "Depois faça no papel: duas tiras uma embaixo da outra, corte o que passa e ponha na ponta da tira curta.",
+    ],
+    metaTitle: "As Duas Ripas — comparar comprimentos, anos iniciais",
+    metaDescription: "Duas ripas começam na mesma linha; o retalho que passa sai da comprida e vai para a ponta da curta. Ferramenta gratuita para a lousa digital, anos iniciais."
   },
 
   it: {
@@ -156,7 +196,17 @@ module.exports = {
       'Trascina la parentesi verso il basso. Il ritaglio si stacca dalla trave lunga e resta libero: chiedi se è ancora lungo uguale adesso che è fuori.',
       'Portalo in fondo alla trave corta e appoggialo di seguito. Lascia vedere alla classe che ora le due arrivano allo stesso punto e chiedi di chi era quel ritaglio.',
       'Rimettilo a posto, cambia una sola trave e ripeti. Dopo due o tre coppie la classe comincia a prevedere quanto sarà lungo il ritaglio prima ancora che tu lo stacchi.'
-    ]
+    ],
+    classroomIdeas: [
+      "Prima la stima: prima che qualcuno tocchi la parentesi, ogni bambino dice quanto è lungo il ritaglio; raccogli anche le risposte che non coincidono.",
+      "Metti le due travi lunghe uguali: non compare nessuna parentesi. Chiedi alla classe perché stavolta non c'è niente da staccare.",
+      "Dai un obiettivo: un bambino regola le travi perché il ritaglio venga lungo esattamente quanto la trave corta.",
+      "Allunga le due travi della stessa quantità e chiedi, prima di staccare qualcosa, se il ritaglio cambierà.",
+      "Copri con la mano il numero della trave lunga: dalla trave corta e dal ritaglio, la classe dice qual è il numero coperto.",
+      "Rifallo su carta: due strisce una sotto l'altra, si taglia quello che sporge e si mette in fondo alla striscia corta.",
+    ],
+    metaTitle: "Le due travi — confrontare lunghezze, prima e seconda",
+    metaDescription: "Due travi partono dalla stessa linea; il ritaglio che sporge si stacca e va in fondo a quella corta. Strumento gratuito per la LIM, prima e seconda."
   },
 
   nl: {
@@ -176,7 +226,17 @@ module.exports = {
       'Sleep de beugel naar beneden, zodat het stuk loskomt van de lange lat.',
       'Leg het stuk aan het eind van de korte lat en laat de klas zien dat ze samen precies even ver komen.',
       'Zet het stuk terug en kies een volgend paar — bijvoorbeeld twee latten die even lang zijn, zodat er niets uitsteekt.'
-    ]
+    ],
+    classroomIdeas: [
+      "Eerst hardop: laat iedereen zeggen hoe lang het stuk is voordat iemand de beugel aanraakt, en schrijf de verschillende antwoorden op het bord.",
+      "Zet beide latten even lang, zodat er geen beugel verschijnt, en vraag de klas hoe lang het stuk dan zou zijn.",
+      "Geef een doel: maak de latten zo dat het stuk precies even lang wordt als de korte lat.",
+      "Van wie is dit stuk? Vraag het op het moment dat het net aan het eind van de korte lat ligt — het kwam van de lange.",
+      "Maak de korte lat één stap langer en laat de klas eerst voorspellen of het stuk groter of kleiner wordt.",
+      "Doe het daarna op papier: teken twee latten van verschillende lengte, knip met een schaar af wat uitsteekt en leg het aan het eind van de korte.",
+    ],
+    metaTitle: "De latten – lengte vergelijken, verschil zien, onderbouw",
+    metaDescription: "Twee latten vanaf dezelfde streep: het stuk dat uitsteekt komt eraf en past precies aan het eind van de korte lat. Gratis digibordtool voor de onderbouw."
   },
 
   sv: {
@@ -196,7 +256,17 @@ module.exports = {
       'Dra klammern nedåt så att stumpen lossnar från den långa plankan.',
       'Lägg stumpen i änden av den korta plankan och visa att de tillsammans når precis lika långt.',
       'Lägg tillbaka stumpen och välj nästa par — till exempel två plankor som är lika långa, så att ingenting sticker ut.'
-    ]
+    ],
+    classroomIdeas: [
+      "Säg det först: låt alla säga hur lång stumpen är innan någon rör klammern, och skriv upp de olika svaren på tavlan.",
+      "Gör plankorna lika långa så att ingen klammer visas, och fråga klassen hur lång stumpen skulle vara då.",
+      "Ge ett mål: ställ in plankorna så att stumpen blir precis lika lång som den korta plankan.",
+      "Vems stump är det? Fråga när den precis har lagts i änden av den korta plankan — den kom från den långa.",
+      "Gör den korta plankan ett steg längre och låt klassen förutsäga om stumpen växer eller krymper, innan ni drar.",
+      "Gör om det på papper: rita två olika långa plankor, klipp av det som sticker ut och lägg det i änden av den korta.",
+    ],
+    metaTitle: "Plankorna – jämföra längd och se skillnaden, lågstadiet",
+    metaDescription: "Två plankor från samma streck: stumpen som sticker ut lossnar och passar precis i änden av den korta plankan. Gratis verktyg för tavlan, lågstadiet."
   },
 
   da: {
@@ -216,7 +286,17 @@ module.exports = {
       'Træk bøjlen nedad, så stykket løsner sig fra det lange bræt.',
       'Læg stykket for enden af det korte bræt, og vis, at de tilsammen når præcis lige langt.',
       'Læg stykket tilbage, og vælg det næste par — for eksempel to brædder, der er lige lange, så der ikke rager noget ud.'
-    ]
+    ],
+    classroomIdeas: [
+      "Sig det først: lad alle sige, hvor langt stykket er, før nogen rører bøjlen, og skriv de forskellige svar op på tavlen.",
+      "Gør brædderne lige lange, så der ikke kommer nogen bøjle, og spørg klassen, hvor langt stykket så ville være.",
+      "Giv et mål: indstil brædderne, så stykket bliver præcis lige så langt som det korte bræt.",
+      "Hvis stykke er det? Spørg, lige når det er lagt ende mod ende med det korte bræt — det kom fra det lange.",
+      "Gør det korte bræt lidt længere, og lad klassen gætte, om stykket bliver større eller mindre, før I trækker.",
+      "Gør det bagefter på papir: tegn to brædder i forskellig længde, klip det af, der rager ud, og læg det ende mod ende med det korte.",
+    ],
+    metaTitle: "Brædderne – sammenlign længde, se forskellen, indskolingen",
+    metaDescription: "To brædder fra den samme streg: det stykke, der rager ud, tages af og lægges ende mod ende med det korte bræt. Gratis tavleværktøj til indskolingen."
   },
 
   no: {
@@ -236,7 +316,17 @@ module.exports = {
       'Dra buen nedover så biten løsner fra den lange fjøla.',
       'Legg biten i enden av den korte fjøla, og vis at de til sammen når nøyaktig like langt.',
       'Legg biten tilbake og velg neste par — for eksempel to fjøler som er like lange, slik at ingenting stikker ut.'
-    ]
+    ],
+    classroomIdeas: [
+      "Si det først: la alle si hvor lang biten er før noen rører buen, og skriv de ulike svarene opp på tavla.",
+      "Gjør fjølene like lange, så det ikke kommer noen bue, og spør klassen hvor lang biten da ville vært.",
+      "Gi et mål: still inn fjølene slik at biten blir nøyaktig like lang som den korte fjøla.",
+      "Hvem sin bit er det? Spør akkurat når den er lagt i enden av den korte fjøla — den kom fra den lange.",
+      "Gjør den korte fjøla ett hakk lengre, og la klassen gjette om biten blir større eller mindre, før dere drar.",
+      "Gjør det etterpå på papir: tegn to fjøler med ulik lengde, klipp av det som stikker ut, og legg det i enden av den korte.",
+    ],
+    metaTitle: "Fjølene – sammenligne lengde og se forskjellen, småtrinnet",
+    metaDescription: "To fjøler fra samme strek: biten som stikker ut kan tas av og legges i enden av den korte, slik at begge når like langt. Gratis verktøy for tavla, småtrinnet."
   },
 
   fi: {
@@ -256,6 +346,16 @@ module.exports = {
       'Vedä kaarta alaspäin, jolloin pala irtoaa pitkästä lankusta.',
       'Aseta pala lyhyen lankun päähän ja näytä, että ne yltävät yhdessä täsmälleen yhtä pitkälle.',
       'Palauta pala paikalleen ja valitse seuraava pari — esimerkiksi kaksi yhtä pitkää lankkua, jolloin mitään ei jää yli.'
-    ]
+    ],
+    classroomIdeas: [
+      "Ensin ääneen: jokainen sanoo, kuinka pitkä pala on, ennen kuin kukaan koskee kaareen, ja kirjoittakaa eri vastaukset taululle.",
+      "Tehkää lankuista yhtä pitkät, jolloin kaarta ei ilmesty lainkaan, ja kysykää luokalta, kuinka pitkä pala silloin olisi.",
+      "Antakaa tavoite: säätäkää lankut niin, että palasta tulee täsmälleen yhtä pitkä kuin lyhyt lankku.",
+      "Kenen pala tämä on? Kysykää heti, kun se on asetettu lyhyen lankun jatkoksi — se tuli pitkästä lankusta.",
+      "Pidentäkää lyhyttä lankkua yhden askeleen verran ja antakaa luokan ennustaa, kasvaako vai pieneneekö pala, ennen kuin vedätte.",
+      "Tehkää sama paperilla: piirtäkää kaksi eripituista lankkua, leikatkaa yli jäävä pala irti ja asettakaa se lyhyen lankun jatkoksi.",
+    ],
+    metaTitle: "Lankut – pituuksien vertailu ja ero näkyviin, alkuopetus",
+    metaDescription: "Kaksi lankkua lähtee samalta viivalta: yli jäävä pala irtoaa pitkästä lankusta ja asettuu lyhyen lankun jatkoksi. Ilmainen väline alkuopetuksen älytaululle."
   }
 };

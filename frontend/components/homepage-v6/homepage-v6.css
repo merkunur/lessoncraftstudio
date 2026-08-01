@@ -774,7 +774,10 @@
 }
 .hv6-index-card:nth-child(odd) { transform: rotate(-0.4deg); }
 .hv6-index-card:nth-child(even) { transform: rotate(0.4deg); }
-.hv6-index-card li { position: relative; padding-left: 13px; }
+.hv6-index-card li { position: relative; padding-left: 13px; min-width: 0; }
+/* Long unhyphenated labels (German compounds) must wrap inside their
+   column, never push the card past the viewport (caught live at de@768). */
+.hv6-index-card a { overflow-wrap: break-word; hyphens: auto; }
 .hv6-index-card li::before {
   content: '';
   position: absolute;

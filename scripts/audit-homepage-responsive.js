@@ -76,6 +76,9 @@ async function auditOne(browser, locale, width) {
       // elements inside overflow-clipped ancestors can't actually break out;
       // approximate: skip anything inside the masthead (overflow-x: clip)
       if (el.closest('.hv6-masthead') && r.right > vw + tol) continue;
+      // sr-only subtrees are visually 1px-clipped by construction (nav
+      // crawl-bait lists); child rects still report layout positions.
+      if (el.closest('.sr-only, [aria-hidden="true"]')) continue;
       if (r.right > vw + tol && offenders.length < 8) {
         offenders.push(
           `${el.tagName.toLowerCase()}.${String(el.className).split(' ').slice(0, 2).join('.')} right=${Math.round(r.right)}`,

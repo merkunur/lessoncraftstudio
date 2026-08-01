@@ -112,6 +112,51 @@ const CHECKS = [
     }
   },
   {
+    /* ⭐⭐ CHECK 8, AND IT EXISTS BECAUSE CHECK 7 CERTIFIED A HALF-FORMED
+       ENTRY. `landing-content` asserts the entry has a `.slug` — one of
+       the EIGHT fields ToolEntry requires. Tool #42 shipped with five,
+       this gate reported "all 45 tools fully registered", and the BUILD
+       then failed the static export of all eleven of its pages.
+
+       A COMPLETENESS CHECK THAT LISTS A SUBSET OF THE REQUIRED FIELDS IS
+       WORSE THAN NO CHECK AT ALL, because it certifies. And tsc cannot
+       cover this: tool-content/*.json is untyped at runtime.
+
+       ⚠ The field list is READ OFF THE INTERFACE, never hand-listed, so
+       it cannot drift when ToolEntry gains a field — and the check
+       refuses to run at all if it parses implausibly few, rather than
+       silently becoming vacuous. */
+    id: 'landing-fields',
+    what: 'every ToolEntry field in frontend/messages/tool-content/<locale>.json',
+    why: 'a missing field throws during the static export and fails the whole build',
+    run: (S) => {
+      const iface = fs.readFileSync(path.join(ROOT, 'frontend/lib/seo/tool-content.ts'), 'utf8');
+      const blk = /export interface ToolEntry \{([\s\S]*?)\}/.exec(iface);
+      if (!blk) return ['could not parse the ToolEntry interface — this check cannot be trusted'];
+      const req = blk[1].split(String.fromCharCode(10))
+        .map((l) => (/^\s*([A-Za-z]+)\??:\s*string(\[\])?;/.exec(l) || [])[1])
+        .filter(Boolean);
+      if (req.length < 6) return ['only ' + req.length + ' fields parsed off ToolEntry — refusing to report a vacuous pass'];
+      const bad = [];
+      for (const k of S.keys) {
+        const holes = [];
+        for (const loc of LOCALES) {
+          if (KNOWN_GAPS.has(k + ':' + loc)) continue;
+          const e = S.content[loc] && S.content[loc][k];
+          if (!e) continue;                       /* check 7 already owns "absent" */
+          const miss = req.filter((f) => {
+            const v = e[f];
+            if (Array.isArray(v)) return v.length === 0 || v.some((x) => typeof x !== 'string' || !x.trim());
+            return typeof v !== 'string' || !v.trim();
+          });
+          if (miss.length) holes.push(loc + ':' + miss.join('/'));
+        }
+        if (holes.length) bad.push(k + ' (' + holes.slice(0, 3).join(' ') + (holes.length > 3 ? ' +' + (holes.length - 3) : '') + ')');
+      }
+      return bad;
+    }
+  },
+  {
     id: 'apparatus',
     what: 'mini tools/<key>.{js,html}',
     why: 'the iframe would 404',
@@ -172,6 +217,16 @@ const S = loadState();
       const c = {};
       for (const loc of LOCALES) c[loc] = Object.assign({}, S.content[loc]);
       delete c.fi[VICTIM];
+      return Object.assign({}, S, { content: c });
+    },
+    /* ⚠ the doctored entry KEEPS its slug — otherwise this would be
+       poisoning check 7's condition, not its own, and would pass while
+       the field check itself stayed vacuous. Strip a DIFFERENT required
+       field so only `landing-fields` can catch it. */
+    'landing-fields': () => {
+      const c = {};
+      for (const loc of LOCALES) c[loc] = Object.assign({}, S.content[loc]);
+      c.fi[VICTIM] = Object.assign({}, c.fi[VICTIM], { classroomIdeas: [] });
       return Object.assign({}, S, { content: c });
     },
     apparatus: () => Object.assign({}, S, { keys: S.keys.concat(['__no_such_tool__']) }),

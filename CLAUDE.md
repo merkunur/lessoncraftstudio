@@ -1204,9 +1204,9 @@ The platform's **paid-product line**: 20 K-3 *curriculum instruments* — the ap
 
 > When the operator says **"build the next tool"** / **"build the next one"** / **"continue with the tools"**, or names a catalog tool: **do NOT re-research, re-design, or re-litigate the catalog.** It is approved and the strategy work is done. Go straight to **EnterPlanMode for that ONE tool** → run the **four-surface fence** (§23.3) before a line is written → name its **invention**, its **moat** and an explicit **refuse-list** → ExitPlanMode → build to §23.4.
 
-**Position (2026-08-01).** `#36 number-sieve` · `#37 arrow-strip` · `#38 draw-bag` · `#39 lids` (closed wave 1) · `#40 unit-handle` · **`#41 unroll-tape` ("All the Way Round") LIVE — wave 2 half done.** → **NEXT = A5 Comparison Tape**, then B7 Cold Line. Full wave order in the companion.
+**Position (2026-08-01).** `#36 number-sieve` · `#37 arrow-strip` · `#38 draw-bag` · `#39 lids` (closed wave 1) · `#40 unit-handle` · `#41 unroll-tape` · **`#42 comparison-planks` ("The Planks", A5) LIVE — wave 2 running.** → **NEXT = B7 The Cold Line.** Full wave order in the companion.
 
-**Constants for the next build:** header ordinal **#42** · `PREV = 'unroll-tape'` · `TOOL_WRAPPER_VERSION` **7.54 → 7.55** · it becomes `TOOL_KEYS` position **45**. ⚠ **The header ordinal is a LEDGER, not the array index — it runs 3 behind** (`class-timer`/`letter-studio` both claim #25, `wodb`/`syllable-splitter` both claim #22, three early tools carry none). Take the next ordinal from the last shipped tool's header. **Do not renumber anything.**
+**Constants for the next build:** header ordinal **#43** · `PREV = 'comparison-planks'` · `TOOL_WRAPPER_VERSION` **7.55 → 7.56** · it becomes `TOOL_KEYS` position **46**. ⚠ **The header ordinal is a LEDGER, not the array index — it runs 3 behind** (`class-timer`/`letter-studio` both claim #25, `wodb`/`syllable-splitter` both claim #22, three early tools carry none). Take the next ordinal from the last shipped tool's header. **Do not renumber anything.**
 
 ### 23.1 The four operator rulings (locked; do not re-litigate)
 **Scope** clean-sheet replacement — unbuilt v3 entries dead unless re-earned · **Subject** NO language-teaching tools of any kind; maths · measurement · geometry · data · time · money · spatial · science ONLY · **Reach** language-light universal (identical in 11 locales, almost no authored language) · **Money** free apparatus, paid depth + record. Standing: **if the thing the tool teaches cannot be verified, it is not designed.**
@@ -1247,14 +1247,49 @@ The 5 registration points are §21.5; **`frontend/config/live-tool-slugs.ts` is 
 - **⚠ NEVER EDIT A REPO FILE THROUGH PYTHON TEXT MODE** — already recorded, walked into anyway. `io.open(p,'w')` translates `
 ` to CRLF on Windows, which silently broke eleven multi-line mutation needles at once. Pass `newline=''`, or use node.
 
-⭐ **Bought on #39's FIRST OPERATOR REPORT — "the numbers under the board has no function":**
-- ⭐⭐ **A LIVENESS GATE CANNOT SEE A CONSEQUENCE-FREE CONTROL.** `audit-tool-control-liveness` asks *did the DOM change?*, and a control that highlights **itself** changes the DOM — so it scored a numeral strip 84/84 while that strip's only effect in 1067 lines was its own highlight class and its own `aria-pressed`. It passed every other gate too. **"The control acts" and "the control has a consequence" are different questions, and only the second one matters to a teacher.** When a control's whole output is its own appearance, assert what it CHANGES ELSEWHERE, or it is furniture. (Strengthening the shared gate across 42 tools is a separate, un-started decision.)
-- ⭐ **"THE STRING EXISTS" IS NOT "THE STRING IS REACHED", AND A SOURCE SCAN CANNOT TELL THEM APART.** `hintMark` was authored in all eleven locales and never referenced. The first dead-string check was a regex over the source; mutation showed it is defeated by making the *branch* unreachable while the `t('key')` call still sits in the file. **Drive the builders over a matrix of real states with a recording `t()` and require every authored key to be asked for.** §23.6's A15 rule needs to be that, not a grep.
-- ⭐ **A NEW GATE CONDEMNS CORRECT CODE BEFORE IT CATCHES ANYTHING** — the `Zufallsbeutel` lesson again, third dress. The dead-string check's first run failed `title`, `instruction` and `liftBtn`: two are consumed by the **shell**, and the third is reached through a ternary a non-greedy regex walked past. Poison-test in BOTH directions, and record exemptions as an **auditable list with a line reference each**, never as a loosened pattern.
-- **A CONTROL THAT TAKES AN ANSWER TO A QUESTION NOBODY ASKED** is the same defect wearing a different hat. Gate the prediction control on the question existing — in the MODEL, not just the `disabled` attribute. A repo-wide check found this is the consistent gap: `draw-bag`, `number-sieve`, `measurement-bench` and `estimation-jar` all guard the REVEAL correctly and leave the PREDICTION live over an empty apparatus, leaning on hint text instead.
-- **When two values must be compared, put them ON ONE SCALE, and differ in KIND not HUE.** A coral-vs-teal pair reads as wrong-vs-right to a six-year-old — a verdict delivered by palette. Fill-vs-ring carries no such freight. (`estimation-jar.js` is the house's executed precedent: guesses and truth through one formula onto one number line, its own `compare()` never called in the render path.)
-- **⚠ NEVER EDIT A REPO FILE THROUGH PYTHON TEXT MODE** — already recorded, walked into anyway. `io.open(p,'w')` translates `
-` to CRLF on Windows, which silently broke eleven multi-line mutation needles at once. Pass `newline=''`, or use node.
+
+⭐ **Bought on #42 (The Planks), and two of them were caught by things that are not gates:**
+- ⭐⭐ **A GATE THAT SAMPLES ONE POINT OF A BAND IS NOT TESTING THE BAND.** The numeral-containment
+  check ran the OPENING state (5·9) at every viewport and passed everywhere — while at the top of
+  the band a plank's end sits at 99% of the bench, so "16" shipped **clipped in half**. The
+  THUMBNAIL GENERATOR found it. Sweep both extremes and both corners, and poison the sweep (it
+  fails 9× against the unclamped build).
+- ⭐⭐ **A COMPLETENESS CHECK THAT LISTS A SUBSET OF THE REQUIRED FIELDS IS WORSE THAN NO CHECK,
+  BECAUSE IT CERTIFIES.** `ToolEntry` has EIGHT required fields; #42 shipped five and the build
+  failed the static export of all eleven landing pages — after the register script (which checked
+  three) and `preflight-tool-registration` (whose `landing-content` check asserts only a `.slug`)
+  had both reported success. ⚠ **tsc cannot cover this: `tool-content/*.json` is untyped at
+  runtime.** Both guards now READ THE FIELD LIST OFF THE INTERFACE and REFUSE TO RUN if they parse
+  implausibly few — the non-vacuity rule applied to a field list instead of a NodeList. New shared
+  check 8 `landing-fields`; ⚠ its poison case KEEPS the slug and strips a different field, or it
+  would be testing check 7's condition while staying hollow itself.
+- ⭐⭐ **A DEFECT CLASS NEEDS ITS OWN GATE WHEN THE SHARED ONE IS STRUCTURALLY BLIND TO IT.** #40 and
+  #41 each shipped a Print chip calling `window.print()` with **no `@media print` block at all** —
+  printing the whole web page. `audit-tool-control-liveness` scores it green because `window.print`
+  fires, so the control "acts". Gate: `scripts/audit-tool-print-sheets.js`, poison-tested against
+  the pre-fix `unroll-tape` out of git (fails 5/7). Both retrofitted.
+- ⭐ **THE SAME LESSON HAS TWO HALVES:** moving the numerals to px SIZE while leaving their OFFSET
+  in MODEL units put each numeral inside its own grip (16 units = 5px on a phone bench). And every
+  gate here measured ONE box against a floor; **none asked whether two rendered things COLLIDE.**
+- ⚠ **A `font:` SHORTHAND WITH AN UNQUOTED `Baloo 2` IS INVALID** — the whole declaration is dropped,
+  so a `clamp(19px,…)` floor silently never applies. Longhand cannot fail this way.
+- ⚠ **A FILTERED RUN THAT MATCHES NOTHING LOOKS EXACTLY LIKE ONE THAT PASSES.** `| grep -E "FAIL|PASS"`
+  printed nothing and I read it as clean; the tool was not parsing at all.
+- ⚠ **AN INFORMATIONAL READOUT CAN BE AN ARTEFACT OF ITS OWN INITIALISER** — a max that starts at 0
+  and only rises reports every value BELOW it as 0. Use `-Infinity`.
+- ⚠ **BACKTICKS INSIDE `node -e` OR `git commit -m` ARE COMMAND SUBSTITUTION** and silently DELETE the
+  text. It ate identifiers out of MEMORY.md, out of a repair script, and out of a commit message in
+  one session. Write the script to a file; commit with `-F`.
+- ⚠ **The deploy verification glob missed the data file** — `comparison-planks.*` does not match
+  `comparison-planks-pairs.json`, so both the `ls` confirmation and the `chown` skipped it.
+- ⭐ **THE NATIVE PANELS READ THE MODEL, NOT THE COPY** — they found a hint instructing a move the
+  reducer refuses in that exact phase, one element wearing two jobs under one aria-label, a gate-5
+  requirement carried by NO string, and the #41 fourth-named-part defect verbatim (I named the
+  hollow while fixing an a11y finding). They also found **two live defects in #41's SHIPPED copy**
+  while reading it for register. **Hand the English over as a SOURCE TO AUDIT.**
+- ⚠ **A CONSTRAINT YOU IMPOSE CAN BE WRONG:** I banned digits in `metaTitle`, but every sibling ships
+  `Klasse 1-2` / `cycle 2` / `K-2`, no gate forbids it, and my own EN violated it. The no-digits
+  law is for the APPARATUS, not the landing SEO.
 
 ### 23.7 What is NOT in scope
 **Closed strands — do not re-propose:** time · money · capacity/weight/non-standard length · all corpus science (the repo proves the art does not exist) · puzzles-with-a-solution (they fail gate 5 — solving ends the interaction). The **rejected list with reasons** (Pin Board, Standing Line, Pairing Rail, Fold-and-Cut, Number String, Same/Different, a generic slow-reveal runtime, Clothesline Math, Ten Bridge, Compass Rose…) is in the companion — read it before proposing anything new. **C4 The Splitting Key is corpus-blocked** until `object-attributes.json` is reviewed past 456/933.

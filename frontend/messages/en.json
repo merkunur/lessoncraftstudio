@@ -4338,7 +4338,9 @@
       "sub": "Live teaching tools, worksheets that check themselves and print with answer keys, and makers to build your own — free to start, for kindergarten to grade 3.",
       "ctaTools": "Open a teaching tool",
       "ctaWorksheets": "Browse the worksheets",
-      "microLine": "Free to start · no login · nothing to install"
+      "microLine": "Free to start · no login · nothing to install",
+      "countsLine": "Thousands of printable worksheets · {tools} teaching tools · 200+ activities · 11 languages",
+      "fanLabel": "Sample worksheets from the library, in your language"
     },
     "ticks": {
       "teach": "Teach",

@@ -4327,7 +4327,9 @@
       "sub": "Herramientas para enseñar en vivo, hojas de trabajo que se revisan solas y se imprimen con hoja de respuestas, y creadores para hacer las tuyas — empieza gratis, de preescolar a 3er grado.",
       "ctaTools": "Abre una herramienta de enseñanza",
       "ctaWorksheets": "Ver las hojas de trabajo",
-      "microLine": "Empieza gratis · sin registro · nada que instalar"
+      "microLine": "Empieza gratis · sin registro · nada que instalar",
+      "countsLine": "Miles de hojas de trabajo imprimibles · {tools} herramientas de enseñanza · Más de 200 actividades · 11 idiomas",
+      "fanLabel": "Muestras de hojas de trabajo de la biblioteca, en tu idioma"
     },
     "ticks": {
       "teach": "Enseña",

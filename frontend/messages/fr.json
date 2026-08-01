@@ -2828,7 +2828,9 @@
       "sub": "Des outils à projeter en classe, des fiches qui se corrigent toutes seules et s'impriment avec corrigé, et des générateurs pour créer les vôtres — gratuit pour commencer, de la maternelle au CE2.",
       "ctaTools": "Ouvrir un outil de classe",
       "ctaWorksheets": "Parcourir les fiches",
-      "microLine": "Gratuit pour commencer · sans connexion · rien à installer"
+      "microLine": "Gratuit pour commencer · sans connexion · rien à installer",
+      "countsLine": "Des milliers de fiches à imprimer · {tools} outils de classe · plus de 200 activités · 11 langues",
+      "fanLabel": "Quelques fiches de la bibliothèque, en exemple et dans votre langue"
     },
     "ticks": {
       "teach": "Enseigner",

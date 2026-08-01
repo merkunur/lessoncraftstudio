@@ -135,7 +135,53 @@ export async function getTypedThumbs(locale: string, types: string[]): Promise<(
  * All in the visitor's locale (en fallback per type). DB failure → empty
  * (caller renders nothing — honesty).
  */
-export async function selectShowcaseDecks(locale: string): Promise<ShowcaseSelection> {
+/**
+ * Curated FALLBACK showcase — 18 verified published EN decks, one per
+ * exercise type with distinct themes (queried from the prod DB
+ * 2026-08-01; thumbnails spot-checked 200). Used by the homepage when the
+ * DB is unreachable or returns nothing, so the fold/wall never render
+ * empty. EN-only by design: a fallback in the wrong language is still
+ * a real, working worksheet.
+ */
+const FALLBACK_SLUGS: Array<[type: string, slug: string, title: string]> = [
+  ['addition', 'addition-mixed-easter', 'Addition Practice'],
+  ['sudoku', 'sudoku-breakfast', 'Picture Sudoku'],
+  ['matching', 'matching-name-birds', 'Match Up!'],
+  ['find-and-count', 'find-and-count-letter-spotting-clothing-17', 'Letter Spotting'],
+  ['more-less', 'more-less-around-the-house', 'More or Less'],
+  ['bingo', 'bingo-summer', 'Picture Bingo'],
+  ['chart-count', 'chart-count-animals', 'Count & Chart'],
+  ['grid-match', 'grid-match-thanksgiving', 'Grid Match'],
+  ['shadow-match', 'shadow-match-tools-3', 'Shadow Match'],
+  ['missing-pieces', 'missing-pieces-things-that-fly-5', 'Missing Pieces'],
+  ['odd-one-out', 'odd-one-out-insects-and-bugs', 'Odd One Out'],
+  ['find-objects', 'find-objects-i-spy-weather-e938', 'I Spy'],
+  ['subtraction', 'subtraction-cross-out-space', 'Subtraction'],
+  ['pattern-train', 'pattern-train-aab-things-that-fly', 'Pattern Train'],
+  ['big-small', 'big-small-findbig-occupations', 'Big or Small'],
+  ['word-guess', 'word-guess-easy-insects-and-bugs', 'Word Guess'],
+  ['crossword', 'crossword-around-the-house', 'Picture Crossword'],
+  ['wordsearch', 'wordsearch-occupations', 'Word Search'],
+];
+
+export function fallbackShowcase(count: number = SHOWCASE_COUNT): ShowcaseSelection {
+  const decks: ShowcaseDeck[] = FALLBACK_SLUGS.slice(0, count).map(([type, slug, title], i) => ({
+    id: `fallback-${i}`,
+    slug,
+    language: 'en',
+    exerciseType: type,
+    subjectTags: [],
+    title: { en: title },
+    thumbnailUrl: `https://www.lessoncraftstudio.com/en/decks/${slug}/thumbnail.png`,
+    publishedAt: null,
+  }));
+  return { featured: decks[0] ?? null, thumbs: decks.slice(1, count) };
+}
+
+export async function selectShowcaseDecks(
+  locale: string,
+  count: number = SHOWCASE_COUNT,
+): Promise<ShowcaseSelection> {
   const rot = dayRotation() % SHOWCASE_TYPES.length;
   const orderedTypes = [...SHOWCASE_TYPES.slice(rot), ...SHOWCASE_TYPES.slice(0, rot)];
 
@@ -145,7 +191,7 @@ export async function selectShowcaseDecks(locale: string): Promise<ShowcaseSelec
   const usedIds = new Set<string>();
   const decks: ShowcaseDeck[] = [];
   for (const cands of perType) {
-    if (decks.length >= SHOWCASE_COUNT) break;
+    if (decks.length >= count) break;
     // Prefer a candidate whose theme hasn't been used yet (visual variety);
     // fall back to any unused deck if every candidate's theme is taken.
     let pick = cands.find((d) => !usedIds.has(d.id) && !usedThemes.has(themeOf(d)));
@@ -158,5 +204,5 @@ export async function selectShowcaseDecks(locale: string): Promise<ShowcaseSelec
   }
 
   if (decks.length === 0) return { featured: null, thumbs: [] };
-  return { featured: decks[0], thumbs: decks.slice(1, SHOWCASE_COUNT) };
+  return { featured: decks[0], thumbs: decks.slice(1, count) };
 }

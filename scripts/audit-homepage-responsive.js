@@ -76,6 +76,10 @@ async function auditOne(browser, locale, width) {
       // elements inside overflow-clipped ancestors can't actually break out;
       // approximate: skip anything inside the masthead (overflow-x: clip)
       if (el.closest('.hv6-masthead') && r.right > vw + tol) continue;
+      // v8 Open House: these containers bleed past the right edge BY DESIGN
+      // and are clipped by .hv7-ground { overflow-x: clip } / the fold's own
+      // clip. Check (a) hscroll still guards real overflow.
+      if (el.closest('.hv7-fan, .hv7-overlap-x, .hv7-peek-l, .hv7-peek-r, .hv7-keepstack')) continue;
       // sr-only subtrees are visually 1px-clipped by construction (nav
       // crawl-bait lists); child rects still report layout positions.
       if (el.closest('.sr-only, [aria-hidden="true"]')) continue;
@@ -85,12 +89,16 @@ async function auditOne(browser, locale, width) {
         );
       }
     }
-    const mob = document.querySelector('.hv6-mob');
+    // Two .hv6-mob instances exist (desktop fold + phone fold); exactly one
+    // is display:none at any width. The sculpture is ok if ANY is visible.
+    const mobs = [...document.querySelectorAll('.hv6-mob')];
     let sculpture = 'MISSING';
-    if (mob) {
-      const r = mob.getBoundingClientRect();
-      const visible = r.width > 100 && r.height > 100;
-      sculpture = !visible ? 'INVISIBLE' : 'ok';
+    if (mobs.length) {
+      const anyVisible = mobs.some((el) => {
+        const r = el.getBoundingClientRect();
+        return r.width > 100 && r.height > 100;
+      });
+      sculpture = anyVisible ? 'ok' : 'INVISIBLE';
     }
     return { vw, overflowX, offenders, sculpture };
   }, EDGE_TOLERANCE);

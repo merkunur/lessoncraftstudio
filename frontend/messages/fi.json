@@ -2797,7 +2797,9 @@
       "sub": "Opetustyökalut luokan eteen, tehtäväarkit, jotka tarkistavat itsensä ja tulostuvat vastauksineen, sekä generaattorit omien tekemiseen – aloita ilmaiseksi, esiopetuksesta 3. luokkaan.",
       "ctaTools": "Avaa opetustyökalu",
       "ctaWorksheets": "Selaa tehtäväarkkeja",
-      "microLine": "Aloita ilmaiseksi · ei kirjautumista · ei mitään asennettavaa"
+      "microLine": "Aloita ilmaiseksi · ei kirjautumista · ei mitään asennettavaa",
+      "countsLine": "Tuhansia tulostettavia tehtäväarkkeja · {tools} opetustyökalua · 200+ tehtävää · 11 kieltä",
+      "fanLabel": "Näytteitä kirjaston tehtäväarkeista, omalla kielelläsi"
     },
     "ticks": {
       "teach": "Opeta",

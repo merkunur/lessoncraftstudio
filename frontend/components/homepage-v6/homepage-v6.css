@@ -1,30 +1,22 @@
 /* ═══════════════════════════════════════════════════════════════════════════
-   HOMEPAGE v7 — "THE INSTALLATION" (2026-08-01, third movement)
+   HOMEPAGE v8 — "OPEN HOUSE" (2026-08-01, the rebuild-in-daylight)
 
-   The whole page IS the mobile. ONE continuous dark board runs from the
-   masthead to a birch floorline; the hero worksheet's drop thread becomes a
-   full-height suspension WIRE, and every element of the page hangs from it:
-   body copy on hung cream papers, tool cards as framed pictures on a branch
-   dowel, the worksheet/activity row on a hanging plank shelf, the maker
-   window as a hung screen, the traveler sheet clothespinned to the wire,
-   the Print twins on a crossbar, pricing as two counter-swaying price tags,
-   the close as a hand-tied loop, and the browse mesh as a hanging pegboard
-   of pushpinned index cards. No sections. No panels. Nothing rises —
-   everything hangs.
+   The classroom on open-house morning: ONE continuous sheet of warm paper
+   in daylight, covered edge-to-edge with the product's own bright pages,
+   working tools and printed work. The product IS the decoration — there is
+   no scaffolding. When two artifacts relate, they OVERLAP; when a moment
+   needs emphasis, it gets MORE PIXELS, not more furniture. The only dark
+   element on the page is one bounded chalkboard panel at the fold holding
+   the compact Calder mobile — an object on a lit wall.
 
-   THE GEOMETRY LAW (from the hero, now page-wide): every suspension's
-   position and transform-origin derive from ONE custom property (--drop /
-   --rest / the .hv6-mob --vars). A thread that shears off its knot turns a
-   Calder into clip-art with wiggle.
-
-   THE ANTI-KITSCH LAW: ≤4 visible thread origins and ≤1 swaying object per
-   viewport band; threads are 2px at ≤0.55 alpha (3px ropes belong to the
-   pegboard alone); readable surfaces never sway (rest rotations only);
-   every suspension is physically plausible.
-
-   THE ANTI-DARK-FATIGUE LAW: every band between moment 1 and pricing holds
-   ≥40% cream mass. If a band reads flat, widen its paper — never lighten
-   the board.
+   THE TEN LAWS (falsifiable on screenshots; the visual critic re-reviews
+   before deploy): ≤40% flat background per viewport crop · product
+   artifacts are the dominant mass of every viewport · daylight (majority
+   surface ≥L*85, dark ≤15% per viewport) · page ≤ ~6,700px · zero
+   non-product ornaments · text ≥4.5:1 · the fold is the densest moment
+   (≥8 legible artifacts) · a concrete count within two viewports · no
+   orphan geometry · artifacts ≥280px rendered or absent, with a full-width
+   wall of product before 50% scroll.
 
    Direction A (locked): cream #FBF3E4 · teal #146B5E · deep #0E544A ·
    ink #14322D · coral #F2784B · Baloo 2 + Nunito.
@@ -43,54 +35,36 @@
   --hv6-base: #FDFBF6;
   --hv6-mist: #F0F4F0;
   --hv6-body: #3d574f;
-  --sway-ease: cubic-bezier(0.37, 0, 0.63, 1); /* easeInOutSine — pendulums */
-  --thread: rgba(245, 223, 194, 0.55);
+  --sway-ease: cubic-bezier(0.37, 0, 0.63, 1);
 }
 
-/* ═══════════════════════════════════════════════════════════════════════
-   THE BOARD — one continuous ground, masthead → floorline. Sections cannot
-   band because no section owns a background any more. Adjacent stops differ
-   by ≤~6 luminance points and never align with a moment boundary.
-   ═══════════════════════════════════════════════════════════════════════ */
-.hv6-board {
+/* ═══ THE GROUND — one continuous morning paper, nav to footer. Washes are
+   ≤6 L* apart and never align with a band boundary, so the page cannot
+   band. ═══ */
+.hv7-ground {
   position: relative;
-  color: var(--hv6-cream);
+  color: var(--hv6-ink);
+  overflow-x: clip;
   background:
-    radial-gradient(900px 560px at 82% 1%, rgba(242, 120, 75, 0.24) 0%, transparent 62%),
-    radial-gradient(1100px 700px at 16% 86%, rgba(242, 120, 75, 0.12) 0%, transparent 58%),
-    linear-gradient(180deg,
-      #14322D 0%,
-      #0E544A 6%,
-      #103F37 11%,
-      #0F3B34 24%,
-      #11332F 38%,
-      #0F2A2A 50%,
-      #0D2226 62%,
-      #113029 74%,
-      #16493E 85%,
-      #124238 93%,
-      #0F3A31 100%);
+    radial-gradient(1400px 900px at 78% -5%, rgba(251, 243, 228, 0.9) 0%, transparent 60%),
+    radial-gradient(1200px 800px at 8% 34%, rgba(220, 227, 211, 0.38) 0%, transparent 55%),
+    radial-gradient(1000px 700px at 88% 58%, rgba(242, 120, 75, 0.05) 0%, transparent 55%),
+    radial-gradient(1100px 750px at 12% 86%, rgba(251, 243, 228, 0.55) 0%, transparent 55%),
+    var(--hv6-base);
 }
-.hv6-board > * { position: relative; z-index: 1; }
-
-/* One grain for the whole installation (whisper-level over ~8000px). */
-.hv6-grain::after {
+.hv7-ground > * { position: relative; z-index: 1; }
+/* paper tooth, not gloom */
+.hv7-ground::after {
   content: '';
   position: absolute;
   inset: 0;
   pointer-events: none;
   z-index: 0;
-  opacity: 0.35;
-  mix-blend-mode: overlay;
+  opacity: 0.14;
+  mix-blend-mode: multiply;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   background-size: 140px 140px;
 }
-
-/* The masthead is now just a layout region on the board (its old dark
-   gradient lives on .hv6-board). Kept as a class: the hero's own overflow
-   clip + the responsive audit's skip rule anchor here. */
-.hv6-masthead { position: relative; }
-.hv6-masthead > * { position: relative; z-index: 1; }
 
 /* ── Type voices ──────────────────────────────────────────────────────── */
 .hv6-eyebrow {
@@ -101,18 +75,24 @@
   text-transform: uppercase;
   color: var(--hv6-teal);
 }
-.hv6-eyebrow.on-dark { color: #7FC5B4; }
-/* The teacher's-pen voice: the ONLY italic on the page. */
 .hv6-pen {
   font-family: var(--font-nunito), system-ui, sans-serif;
   font-style: italic;
   font-weight: 700;
   font-size: 0.8125rem;
-  color: var(--hv6-coral-deep);
+  color: #A34A22; /* deep coral-brown: 6.8:1 on cream (D9633A was 3.4:1) */
 }
-.hv6-pen.on-dark { color: #F5B08E; }
+/* The fold's scannable counts line (law 8). */
+.hv7-countline {
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--hv6-teal);
+}
+.hv7-countline i { color: var(--hv6-coral-deep); font-style: normal; }
 
-/* ── CTAs (press-ledge buttons — self-grounded, may sit raw on the board) */
+/* ── CTAs ─────────────────────────────────────────────────────────────── */
 .hv6-cta {
   display: inline-flex;
   align-items: center;
@@ -125,7 +105,7 @@
 }
 .hv6-cta-primary {
   background: var(--hv6-coral);
-  color: #fff;
+  color: #14322D; /* ink on coral = 5.3:1 (white was 2.6:1 — law 6) */
   box-shadow: 0 2px 0 var(--hv6-coral-deep), 0 10px 20px -8px rgba(242, 120, 75, 0.5);
 }
 .hv6-cta-primary:hover {
@@ -169,11 +149,6 @@
   padding: 5px 12px;
 }
 .hv6-chip-coral { color: #fff; background: var(--hv6-coral); }
-.hv6-chip.on-dark {
-  color: var(--hv6-cream);
-  background: rgba(251, 243, 228, 0.14);
-  border: 1px solid rgba(251, 243, 228, 0.25);
-}
 .hv6-chip-mono {
   display: inline-flex;
   align-items: center;
@@ -194,7 +169,7 @@
   font-weight: 600;
   font-size: 0.8125rem;
   color: var(--hv6-body);
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(20, 107, 94, 0.14);
   border-radius: 999px;
   padding: 6px 14px;
@@ -211,13 +186,13 @@
 /* ── Cards ────────────────────────────────────────────────────────────── */
 .hv6-card {
   background: #fff;
-  border-radius: 16px;
+  border-radius: 14px;
   border: 1px solid rgba(20, 50, 45, 0.07);
-  box-shadow: var(--e2), 0 26px 54px -20px rgba(0, 0, 0, 0.5);
+  box-shadow: var(--e2);
   overflow: hidden;
-  transition: transform 0.2s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.2s ease;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
-.hv6-card:hover { box-shadow: var(--e3), 0 34px 64px -22px rgba(0, 0, 0, 0.55); }
+.hv6-card:hover { transform: translateY(-3px); box-shadow: var(--e3); }
 .hv6-card img { display: block; width: 100%; height: auto; }
 
 .hv6-chrome {
@@ -242,714 +217,402 @@
   text-overflow: ellipsis;
 }
 
-/* ═══════════════════════════════════════════════════════════════════════
-   THE WIRE — the descent's suspension line. Fades IN over its first 140px
-   (the hero drop fades OUT above it: dissolve, don't join), brightens
-   toward the close.
-   ═══════════════════════════════════════════════════════════════════════ */
-.hv6-descent { position: relative; }
-.hv6-descent::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 22px;
-  width: 3px;
-  border-radius: 2px;
-  z-index: 0;
-  pointer-events: none;
-  background: linear-gradient(180deg,
-    rgba(245, 223, 194, 0) 0,
-    rgba(245, 223, 194, 0.5) 140px,
-    rgba(245, 223, 194, 0.5) calc(100% - 400px),
-    rgba(245, 223, 194, 0.72) 100%);
-}
-@media (min-width: 1024px) {
-  .hv6-descent::before { left: 50%; margin-left: -1.5px; }
-}
-.hv6-descent > * { position: relative; z-index: 1; }
-@media (max-width: 1023px) {
-  .hv6-descent .container { padding-left: 46px; }
-}
-
-/* The one page-scale gesture: a soft glint of light descends the wire in
-   ~31s, rests, repeats. Transform-only (a 2%-height child translated
-   5000% = full-parent travel). */
-.hv6-wire-pulse {
-  position: absolute;
-  top: 0;
-  left: 22px;
-  width: 3px;
-  height: 2%;
-  border-radius: 2px;
-  z-index: 0;
-  pointer-events: none;
-  background: linear-gradient(180deg, transparent, rgba(251, 243, 228, 0.85) 50%, transparent);
-  animation: hv6WirePulse 45s linear infinite;
-}
-@media (min-width: 1024px) {
-  .hv6-wire-pulse { left: 50%; margin-left: -1.5px; }
-}
-@keyframes hv6WirePulse {
-  0% { transform: translateY(-100%); }
-  70%, 100% { transform: translateY(5000%); }
-}
-
-/* ═══════════════════════════════════════════════════════════════════════
-   SUSPENSION PRIMITIVES
-   ═══════════════════════════════════════════════════════════════════════ */
-
-/* Single-thread hung object. --drop feeds BOTH the thread height and the
-   transform-origin (the knot); --rest feeds BOTH the pose and the sway
-   center. */
-.hv6-hang {
-  position: relative;
-  --drop: 48px;
-  --rest: 0deg;
-  /* --restx is the RESOLVED pose: media queries can zero it even when
-     --rest arrives inline (inline custom props outrank media rules). */
-  transform: rotate(var(--restx, var(--rest)));
-  transform-origin: 50% calc(-1 * var(--drop));
-}
-.hv6-hang::before {
-  content: '';
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  width: 2px;
-  height: var(--drop);
-  margin-left: -1px;
-  border-radius: 1px;
-  background: linear-gradient(180deg, rgba(245, 223, 194, 0.18), var(--thread));
-}
-.hv6-hang::after {
-  content: '';
-  position: absolute;
-  bottom: calc(100% - 2px);
-  left: 50%;
-  width: 5px;
-  height: 5px;
-  margin-left: -2.5px;
-  border-radius: 50%;
-  background: #F5DFC2;
-}
-.hv6-hang.is-sway {
-  animation: hv6HangSway var(--period, 17s) var(--sway-ease) var(--phase, -5s) infinite;
-}
-@keyframes hv6HangSway {
-  0%, 100% { transform: rotate(calc(var(--restx, var(--rest, 0deg)) + var(--ampx, var(--amp, 1.2deg)))); }
-  50% { transform: rotate(calc(var(--restx, var(--rest, 0deg)) - var(--ampx, var(--amp, 1.2deg)))); }
-}
-
-/* Two-thread, level — for everything a visitor reads (papers, stages,
-   screens, the pegboard). A screen hangs straight. */
-.hv6-hang2 { position: relative; --drop: 56px; }
-.hv6-hang2::before,
-.hv6-hang2::after {
-  content: '';
-  position: absolute;
-  bottom: 100%;
-  width: 2px;
-  height: var(--drop);
-  background: linear-gradient(180deg, rgba(245, 223, 194, 0.14), var(--thread));
-}
-.hv6-hang2::before { left: 18%; }
-.hv6-hang2::after { right: 18%; }
-/* V-form when hung from the wire itself: threads converge upward. */
-.hv6-hang2.is-vee::before { transform-origin: 50% 0; transform: rotate(16deg); }
-.hv6-hang2.is-vee::after { transform-origin: 50% 0; transform: rotate(-16deg); }
-
-/* Hung cream paper — ALL body copy rides paper, never the raw board. */
-.hv6-paper {
-  background: var(--hv6-cream);
-  color: var(--hv6-ink);
-  border-radius: 18px;
-  padding: clamp(22px, 3vw, 34px);
-  box-shadow: 0 2px 0 rgba(20, 107, 94, 0.10), 0 30px 60px -22px rgba(0, 0, 0, 0.55);
-}
-/* Small cream slip for pen-note captions that would otherwise sit raw. */
-.hv6-slip {
-  display: inline-block;
-  background: var(--hv6-cream);
-  border-radius: 8px;
-  padding: 5px 12px;
-  box-shadow: 0 8px 18px -8px rgba(0, 0, 0, 0.5);
-}
-
-/* ── Moment marks: a bead threaded ON the wire + a wooden sign plank ──── */
-.hv6-mark {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0;
-}
-.hv6-bead {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  background: radial-gradient(circle at 34% 30%, #FFF9EC 0%, #F5DFC2 55%, #D9B27E 100%);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4), inset 0 0 0 3px rgba(242, 120, 75, 0.55);
-  font-family: var(--font-baloo-2), system-ui, sans-serif;
-  font-weight: 800;
-  font-size: 1.125rem;
-  color: var(--hv6-teal-deep);
-}
-.hv6-sign {
-  display: inline-flex;
-  align-items: center;
-  padding: 9px 22px 11px;
-  border-radius: 9px;
-  background: linear-gradient(180deg, #E9CFA0 0%, #D9B27E 100%);
-  box-shadow: 0 3px 0 #B9905C, 0 12px 26px -10px rgba(0, 0, 0, 0.55);
-  font-family: var(--font-baloo-2), system-ui, sans-serif;
-  font-weight: 800;
-  font-size: 1.25rem;
-  color: #5A3F22;
-}
-.hv6-sign-hang { --drop: 24px; --rest: -1deg; }
-@media (max-width: 1023px) {
-  .hv6-mark { flex-direction: row; align-items: center; gap: 12px; }
-  .hv6-mark .hv6-bead { width: 34px; height: 34px; margin-left: -40px; }
-  .hv6-mark .hv6-sign-hang { --drop: 0px; }
-  .hv6-mark .hv6-sign-hang::before, .hv6-mark .hv6-sign-hang::after { display: none; }
-  .hv6-mark .hv6-sign { position: relative; }
-  .hv6-mark .hv6-sign::before {
-    content: '';
-    position: absolute;
-    right: 100%;
-    top: 50%;
-    width: 12px;
-    height: 2px;
-    background: var(--thread);
-  }
-}
-
-/* ── Birch beams: full-row branches + short twigs ─────────────────────── */
-.hv6-branch {
-  position: relative;
-  height: 8px;
-  border-radius: 4px;
-  background: linear-gradient(180deg, #E9CFA0 0%, #D9B27E 100%);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.35);
-}
-.hv6-branch::before {
-  content: '';
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  width: 2px;
-  height: var(--branch-drop, 44px);
-  margin-left: -1px;
-  background: linear-gradient(180deg, rgba(245, 223, 194, 0.2), var(--thread));
-}
-.hv6-branch::after {
-  content: '';
-  position: absolute;
-  bottom: calc(100% - 2px);
-  left: 50%;
-  width: 6px;
-  height: 6px;
-  margin: 0 0 0 -3px;
-  border-radius: 50%;
-  background: #F5DFC2;
-}
-
-/* Vignette asides: a twig reaches off the wire; the working stage hangs
-   from its free end. Replaces the old centered .hv6-seam. */
-.hv6-aside {
-  display: flex;
-  justify-content: center;
-  padding: clamp(56px, 7vw, 110px) 16px;
-}
-.hv6-aside-inner {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-  transform: translateX(var(--off, 0px));
-}
-@media (min-width: 1280px) { .hv6-aside-inner.is-l { --off: -210px; } .hv6-aside-inner.is-r { --off: 210px; } }
-@media (min-width: 1024px) and (max-width: 1279px) { .hv6-aside-inner.is-l { --off: -160px; } .hv6-aside-inner.is-r { --off: 160px; } }
-/* the twig from the wire to the hang point — sits at the TOP of the
-   stage's 44px thread (all aside vignettes share --drop: 44px so the twig
-   height is a constant; the geometry law holds). */
-.hv6-aside-inner::before {
-  content: '';
-  position: absolute;
-  bottom: calc(100% + 44px);
-  left: 50%;
-  height: 6px;
-  border-radius: 3px;
-  background: linear-gradient(180deg, #E9CFA0 0%, #D9B27E 100%);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
-}
-.hv6-aside-inner.is-l::before { width: calc(var(--off, 0px) * -1); margin-left: -1px; }
-.hv6-aside-inner.is-r::before { width: var(--off, 0px); right: 50%; left: auto; margin-right: -1px; }
-@media (max-width: 1023px) { .hv6-aside-inner::before { display: none; } }
-.hv6-aside .hv6-stage { width: min(320px, 100%); overflow: clip; }
-
-/* The stage card (the tools' own furniture, quoted). */
-.hv6-stage {
-  background: #fff;
-  border-radius: 32px;
-  box-shadow: 0 2px 6px rgba(20, 30, 28, 0.06), 0 24px 60px rgba(20, 30, 28, 0.35);
-  border: 1px solid rgba(20, 107, 94, 0.08);
-  padding: clamp(18px, 3vw, 30px);
-}
-/* Grown-up gift tag form (the Share stage): a punched, reinforced eyelet. */
-.hv6-stage.is-tag { position: relative; padding-top: 40px; }
-.hv6-stage.is-tag::before {
-  content: '';
-  position: absolute;
-  top: 14px;
-  left: 50%;
-  width: 14px;
-  height: 14px;
-  margin-left: -7px;
-  border-radius: 50%;
-  background: rgba(0, 0, 0, 0.3);
-  box-shadow: inset 0 0 0 3px #D9B27E, 0 1px 2px rgba(0, 0, 0, 0.3);
-}
-
-/* ── The hanging shelf (Practice): side threads down to a plank the cards
-      stand on. ─────────────────────────────────────────────────────────── */
-.hv6-shelf {
-  position: relative;
-  --drop: 64px;
-  padding: var(--drop) 14px 0;
-}
-.hv6-shelf::before,
-.hv6-shelf::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 6px;
-  width: 2px;
-  background: linear-gradient(180deg, rgba(245, 223, 194, 0.18), var(--thread));
-}
-.hv6-shelf::before { left: 6px; }
-.hv6-shelf::after { right: 6px; }
-.hv6-shelf-grid { align-items: end; }
-.hv6-shelf-plank {
-  height: 10px;
-  border-radius: 5px;
-  margin-top: -2px;
-  background: linear-gradient(180deg, #E9CFA0 0%, #D9B27E 100%);
-  box-shadow: 0 3px 0 #B9905C, 0 18px 36px -12px rgba(0, 0, 0, 0.6);
-}
-
-/* ── The tool gallery: framed pictures at varied drops off a branch. ──── */
-.hv6-gallery {
-  padding-top: 64px;
-  align-items: start;
-}
-.hv6-gallery .hv6-tool-card { margin-top: calc(var(--drop) - 34px); }
-.hv6-gallery > :nth-child(3n + 1) { --drop: 44px; --rest: -1.1deg; }
-.hv6-gallery > :nth-child(3n + 2) { --drop: 58px; --rest: 0.7deg; }
-.hv6-gallery > :nth-child(3n) { --drop: 34px; --rest: -0.5deg; }
-
 .hv6-tool-card {
   display: flex;
   flex-direction: column;
   background: #fff;
   border-radius: 16px;
   border: 1px solid rgba(20, 50, 45, 0.07);
-  box-shadow: var(--e1), 0 22px 44px -18px rgba(0, 0, 0, 0.5);
+  box-shadow: var(--e1);
   overflow: hidden;
-  transition: transform 0.2s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.2s ease;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
-/* hover composes WITH the rest rotation (never zeroes the pose) */
-.hv6-tool-card:hover {
-  transform: rotate(var(--rest, 0deg)) translateY(-3px);
-  box-shadow: var(--e2), 0 30px 54px -20px rgba(0, 0, 0, 0.55);
-}
+.hv6-tool-card:hover { transform: translateY(-4px) rotate(var(--tilt, 0deg)); box-shadow: var(--e2); }
 .hv6-tool-card .hv6-tool-img {
   background: linear-gradient(180deg, #EAF2EF 0%, #F4F8F6 100%);
   border-bottom: 1px solid rgba(20, 50, 45, 0.06);
 }
 .hv6-tool-card .hv6-tool-img img { display: block; width: 100%; height: auto; }
 
-/* ── The strung traveler: clothespinned to the wire itself. ───────────── */
-.hv6-strung {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-  padding: clamp(36px, 5vw, 72px) 16px;
-}
-.hv6-peg {
-  position: absolute;
-  top: -16px;
-  left: 50%;
-  width: 13px;
-  height: 28px;
-  margin-left: -6.5px;
-  border-radius: 6px 6px 3px 3px;
-  background: linear-gradient(180deg, #E9CFA0 0%, #C89B66 100%);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-  z-index: 2;
-}
-.hv6-peg::before {
-  content: '';
-  position: absolute;
-  top: 11px;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: #A87E4E;
-}
-.hv6-traveler {
-  transform: rotate(-1.5deg);
-  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1);
-}
-.hv6-traveler:hover { transform: rotate(0deg); }
-
-/* ── Price tags (the pricing cards become hanging tags — the hero's QR
-      gift-tag, grown up). ─────────────────────────────────────────────── */
-.hv6-tag-price { position: relative; padding-top: 40px !important; }
-.hv6-tag-price::before {
-  content: '';
-  position: absolute;
-  top: 14px;
-  left: 50%;
-  width: 14px;
-  height: 14px;
-  margin-left: -7px;
-  border-radius: 50%;
-  background: rgba(0, 0, 0, 0.35);
-  box-shadow: inset 0 0 0 3px #D9B27E, 0 1px 2px rgba(0, 0, 0, 0.3);
-  z-index: 2;
-}
-.hv6-tag-price.is-teacher { border: 1px solid rgba(251, 243, 228, 0.16); }
-/* Phones: a full-width card rotated even 1.5° pokes past the viewport —
-   the tags hang straight and still there (the thread carries the idea). */
-@media (max-width: 1023px) {
-  .hv6-tag-price { --restx: 0deg; --rest-sm: 0deg; }
-  .hv6-tag-price.is-sway { animation: none; transform: rotate(0deg); }
+.hv6-stage {
+  background: #fff;
+  border-radius: 32px;
+  box-shadow: 0 2px 6px rgba(20, 30, 28, 0.06), 0 24px 60px rgba(20, 30, 28, 0.10);
+  border: 1px solid rgba(20, 107, 94, 0.08);
+  padding: clamp(18px, 3vw, 30px);
 }
 
-/* The close's hanging CTA tag. */
-.hv6-tag-cta {
+/* ═══ COLLAGE PRIMITIVES — the product is the decoration ═══ */
+
+/* A worksheet SHEET: white mat, soft shadow — the page's atomic artifact. */
+.hv7-sheet {
+  background: #fff;
+  padding: 6px;
+  border-radius: 10px;
+  box-shadow: var(--e2);
+  display: block;
+}
+.hv7-sheet img { display: block; width: 100%; height: auto; border-radius: 6px; }
+
+/* Tilts apply only ≥640px — full-width phone cards NEVER tilt. */
+.hv7-tilt-a, .hv7-tilt-b, .hv7-tilt-c, .hv7-tilt-d { --tilt: 0deg; }
+@media (min-width: 640px) {
+  .hv7-tilt-a { --tilt: -2deg; transform: rotate(var(--tilt)); }
+  .hv7-tilt-b { --tilt: 1.5deg; transform: rotate(var(--tilt)); }
+  .hv7-tilt-c { --tilt: -1deg; transform: rotate(var(--tilt)); }
+  .hv7-tilt-d { --tilt: 2.2deg; transform: rotate(var(--tilt)); }
+}
+.hv7-lift { transition: transform 0.18s ease, box-shadow 0.18s ease; }
+.hv7-lift:hover { transform: translateY(-4px) rotate(var(--tilt, 0deg)); box-shadow: var(--e3); }
+
+/* The fold fan: overlapping sheets; flex + negative margins so it reflows
+   at every width (no absolute coordinates to break). */
+.hv7-fan { display: flex; align-items: flex-start; }
+.hv7-fan > * { flex: none; }
+.hv7-fan > * + * { margin-left: -64px; }
+@media (max-width: 1279px) { .hv7-fan > * + * { margin-left: -84px; } }
+
+/* Overlapping rows in the wall. */
+.hv7-overlap-x { display: flex; align-items: flex-start; }
+.hv7-overlap-x > * { flex: none; }
+.hv7-overlap-x > * + * { margin-left: -46px; }
+
+/* Collage spill across a seam: no section boundary can read as a band. */
+.hv7-spill-b { position: relative; z-index: 2; margin-bottom: -72px; }
+
+/* Full-bleed wall of product. */
+.hv7-wall { width: 100vw; margin-inline: calc(50% - 50vw); }
+
+/* The maker at 4× pixels. */
+.hv7-makerframe { max-height: 640px; overflow: hidden; }
+
+/* Product mass beside the pricing cards: three overlapping sheets. */
+.hv7-keepstack { position: relative; height: 420px; }
+.hv7-keepstack > * { position: absolute; width: 280px; }
+.hv7-keepstack > :nth-child(1) { left: 0; top: 0; }
+.hv7-keepstack > :nth-child(2) { left: 90px; top: 44px; }
+.hv7-keepstack > :nth-child(3) { left: 24px; top: 120px; }
+@media (max-width: 1023px) { .hv7-keepstack { display: none; } }
+
+/* Close-band edge peeks. */
+.hv7-peek-l, .hv7-peek-r {
+  position: absolute;
+  width: 300px;
+  top: 50%;
+  transform: translateY(-50%) rotate(-3deg);
+}
+.hv7-peek-l { left: -150px; }
+.hv7-peek-r { right: -150px; transform: translateY(-50%) rotate(3deg); }
+@media (max-width: 1023px) { .hv7-peek-l, .hv7-peek-r { display: none; } }
+
+/* ═══ THE CHALK PANEL — the one bounded dark object on the lit wall,
+   holding the compact Calder mobile. ═══ */
+/* No `position` here: call sites position it (the fold uses Tailwind
+   `absolute`, which this rule must not override). */
+.hv7-chalkpanel {
+  width: 350px;
+  max-width: 100%;
+  border-radius: 22px;
+  background:
+    radial-gradient(120% 90% at 80% 8%, rgba(242, 120, 75, 0.18) 0%, transparent 55%),
+    linear-gradient(160deg, #14322D 0%, #0E544A 100%);
+  box-shadow: var(--e3), inset 0 0 0 1px rgba(251, 243, 228, 0.12);
+  padding: 14px 14px 6px;
+  color: var(--hv6-cream);
+  overflow: clip;
+}
+
+/* ═══ THE CLASS INDEX (BrowseByTopicSSR hv6 branch) — warm cream cards on
+   the paper; the index's density is the whole page's texture now. ═══ */
+.hv7-index-grid { display: grid; gap: 20px; }
+@media (min-width: 768px) { .hv7-index-grid { grid-template-columns: 1fr 1fr; } }
+.hv6-index-card {
   position: relative;
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0;
   background: var(--hv6-cream);
-  border-radius: 14px;
-  padding: 34px 22px 20px;
-  box-shadow: 0 24px 50px -18px rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(20, 107, 94, 0.12);
+  border-radius: 16px;
+  box-shadow: var(--e1);
+  padding: 28px;
+  transition: box-shadow 0.2s ease;
 }
-.hv6-tag-cta::before {
+.hv6-index-card:hover { box-shadow: var(--e2); }
+.hv6-index-card li { position: relative; padding-left: 13px; min-width: 0; }
+.hv6-index-card a { overflow-wrap: break-word; hyphens: auto; }
+.hv6-index-card li::before {
   content: '';
   position: absolute;
-  top: 12px;
+  left: 0;
+  top: 0.62em;
+  width: 6px;
+  height: 3px;
+  border-radius: 2px;
+  background: rgba(20, 107, 94, 0.45);
+}
+
+/* ═══ THE COMPACT CLASSROOM MOBILE — lives only inside the chalk panel.
+   Pruned form: balance beam + worksheet+QR tag + mini rekenrek + clock.
+   Amplitudes ≤0.8° — an accent, not a show. ═══ */
+.hv6-mob {
+  position: relative;
+  width: 320px;
+  height: 340px;
+  margin: 0 auto;
+  pointer-events: none;
+
+  --p1x: 186px;
+  --a1w: 236px; --a1p: 90px;
+  --a2w: 130px; --a2p: 78px;
+  --t-ceil: 34px; --t-sheet: 44px; --t-n2: 26px;
+  --t-rek: 40px; --t-clk: 30px;
+  --sheetw: 120px;
+  --rekw: 112px; --rekh: 58px;
+  --clkd: 64px;
+}
+.hv6-mob-thread {
+  position: absolute;
   left: 50%;
+  top: 0;
+  width: 2px;
+  margin-left: -1px;
+  border-radius: 1px;
+  background: linear-gradient(180deg,
+    rgba(251, 243, 228, 0.16) 0%,
+    rgba(251, 243, 228, 0.58) 18%,
+    rgba(251, 243, 228, 0.62) 100%);
+}
+.hv6-mob-thread::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -2px;
+  width: 5px;
+  height: 5px;
+  margin-left: -2.5px;
+  border-radius: 50%;
+  background: #F5DFC2;
+}
+.hv6-mob-thread.is-ceiling { left: var(--p1x); height: var(--t-ceil); }
+.hv6-mob-hang {
+  position: absolute;
+  inset: 0;
+  transform-origin: var(--p1x) 0;
+  animation: hv6MobSway 19s var(--sway-ease) -5s infinite;
+  --amp: 0.6deg;
+}
+.hv6-mob-arm {
+  position: absolute;
+  animation: hv6MobSway var(--period, 13s) var(--sway-ease) var(--phase, 0s) infinite;
+}
+.hv6-mob-arm.is-a1 {
+  left: calc(var(--p1x) - var(--a1p));
+  top: var(--t-ceil);
+  width: var(--a1w);
+  height: 8px;
+  transform-origin: var(--a1p) 50%;
+  --amp: 0.8deg; --period: 13s; --phase: -4s;
+}
+.hv6-mob-arm.is-a2 {
+  left: calc(0px - var(--a2p));
+  top: var(--t-n2);
+  width: var(--a2w);
+  height: 4px;
+  transform-origin: var(--a2p) 50%;
+  --amp: 0.8deg; --period: 11s; --phase: -7s;
+}
+/* the third arm + word tiles are pruned in the compact form */
+.hv6-mob-arm.is-a3, .hv6-mob-node.is-n6 { display: none; }
+.hv6-mob-beam { position: absolute; inset: 0; border-radius: 4px; }
+.hv6-mob-beam.is-main {
+  background: linear-gradient(180deg, #2E9282 0%, #146B5E 100%);
+  box-shadow: inset 0 1px 0 rgba(251, 243, 228, 0.28), 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+.hv6-mob-beam.is-main::after {
+  content: '';
+  position: absolute;
+  left: 6px;
+  right: 6px;
+  bottom: -4px;
+  height: 5px;
+  background: repeating-linear-gradient(90deg,
+    transparent 0 34px, rgba(251, 243, 228, 0.55) 34px 36px);
+  border-radius: 2px;
+}
+.hv6-mob-beam.is-main::before {
+  content: '';
+  position: absolute;
+  left: var(--a1p);
+  top: 50%;
   width: 12px;
   height: 12px;
-  margin-left: -6px;
+  margin: -6px 0 0 -6px;
   border-radius: 50%;
-  background: rgba(0, 0, 0, 0.3);
-  box-shadow: inset 0 0 0 3px #D9B27E;
+  border: 3px solid #F5DFC2;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
 }
-
-/* The close's wire stub → hand-tied loop. */
-.hv6-wire-stub {
-  display: block;
-  width: 3px;
-  height: 120px;
-  margin: 0 auto;
+.hv6-mob-beam.is-dowel {
+  background: linear-gradient(180deg, #E9CFA0 0%, #D9B27E 100%);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.28);
   border-radius: 2px;
-  background: linear-gradient(180deg, rgba(245, 223, 194, 0.72), rgba(245, 223, 194, 0.55));
 }
-
-/* ── The hanging pegboard (the Class Index). Ropes are the only 3px lines
-      on the page. ─────────────────────────────────────────────────────── */
-.hv6-hangboard { position: relative; margin-top: 96px; }
-.hv6-hangboard::before,
-.hv6-hangboard::after {
+.hv6-mob-node {
+  position: absolute;
+  top: 100%;
+  width: 0;
+  transform-origin: 0 0;
+  animation: hv6MobSway var(--period, 13s) var(--sway-ease) var(--phase, 0s) infinite;
+  --amp: 0deg;
+}
+.hv6-mob-node.is-n1 { left: 0; --amp: -0.6deg; --period: 13s; --phase: -4s; perspective: 900px; z-index: 3; }
+.hv6-mob-node.is-n2 { left: 100%; }
+.hv6-mob-node.is-n3 { left: 0; --amp: -0.7deg; --period: 11s; --phase: -7s; z-index: 2; }
+.hv6-mob-node.is-n4 { left: 100%; }
+.hv6-mob-node.is-n5 { left: 0; --amp: -0.8deg; --period: 7s; --phase: -2s; }
+.hv6-mob-node > .hv6-mob-thread { top: 0; }
+.hv6-mob-node.is-n1 > .hv6-mob-thread { height: var(--t-sheet); }
+.hv6-mob-node.is-n2 > .hv6-mob-thread { height: var(--t-n2); }
+.hv6-mob-node.is-n3 > .hv6-mob-thread { height: var(--t-rek); }
+.hv6-mob-node.is-n4 > .hv6-mob-thread { height: var(--t-n2); }
+.hv6-mob-node.is-n5 > .hv6-mob-thread { height: var(--t-clk); }
+.hv6-mob-obj { position: absolute; }
+.hv6-mob-obj.is-sheet {
+  top: var(--t-sheet);
+  left: 0;
+  width: var(--sheetw);
+  margin-left: calc(var(--sheetw) / -2);
+  background: #fff;
+  border-radius: 6px;
+  padding: 5px;
+  box-shadow: var(--e2), 0 24px 50px -18px rgba(0, 0, 0, 0.5);
+  transform-origin: 50% 0;
+  animation: hv6SheetTwist 23s var(--sway-ease) -11s infinite;
+}
+.hv6-mob-obj.is-sheet img { display: block; width: 100%; height: auto; border-radius: 3px; }
+.hv6-mob-drop { display: none; }
+.hv6-mob-tag {
+  position: absolute;
+  top: calc(var(--t-sheet) - 22px);
+  left: -48px;
+  width: 40px;
+  padding: 10px 4px 4px;
+  background: var(--hv6-cream);
+  border-radius: 5px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.32);
+  transform-origin: 20px 6px;
+  transform: rotate(-8deg);
+  animation: hv6TagFlutter 7s var(--sway-ease) -3.5s infinite;
+  z-index: 4;
+}
+.hv6-mob-tag::before {
   content: '';
   position: absolute;
-  bottom: 100%;
-  width: 3px;
-  height: 96px;
-  background: linear-gradient(180deg, rgba(245, 223, 194, 0.3), rgba(245, 223, 194, 0.65));
-}
-.hv6-hangboard::before { left: 12%; }
-.hv6-hangboard::after { right: 12%; }
-.hv6-nail {
-  position: absolute;
-  bottom: calc(100% + 92px);
-  width: 9px;
-  height: 9px;
+  top: 3px;
+  left: 50%;
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
   border-radius: 50%;
-  background: radial-gradient(circle at 35% 30%, #F5DFC2, #C89B66);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
-  z-index: 2;
+  background: #103F37;
+  box-shadow: inset 0 0 0 2px #D9B27E;
 }
-.hv6-nail.is-l { left: calc(12% - 3px); }
-.hv6-nail.is-r { right: calc(12% - 3px); }
-.hv6-pegboard {
-  position: relative;
-  border-radius: 16px;
-  border: 10px solid #C89B66;
-  padding: clamp(16px, 3vw, 36px);
-  transform: rotate(0.3deg);
-  background:
-    radial-gradient(rgba(90, 63, 34, 0.16) 1.5px, transparent 1.6px) 0 0 / 26px 26px,
-    linear-gradient(180deg, #F3E7CD 0%, #E8D7B7 100%);
-  box-shadow: inset 0 2px 10px rgba(90, 63, 34, 0.28), 0 34px 70px -24px rgba(0, 0, 0, 0.65);
+.hv6-mob-tag::after {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: 20px;
+  width: 36px;
+  height: 1.5px;
+  border-radius: 1px;
+  background: rgba(251, 243, 228, 0.55);
+  transform-origin: left center;
+  transform: rotate(-33deg);
 }
-@media (max-width: 1023px) {
-  .hv6-pegboard { border-width: 6px; padding: 14px; }
-  .hv6-hangboard { margin-top: 64px; }
-  .hv6-hangboard::before, .hv6-hangboard::after { height: 64px; }
-  .hv6-nail { bottom: calc(100% + 60px); }
-}
-
-/* The floorline: a full-width birch skirting dowel — the installation's
-   floor. The cream site footer below reads as "outside the gallery". */
-.hv6-floorline {
-  height: 12px;
-  background: linear-gradient(180deg, #E9CFA0 0%, #C89B66 100%);
-  box-shadow: 0 -10px 30px -8px rgba(0, 0, 0, 0.5);
-}
-
-/* ═══════════════════════════════════════════════════════════════════════
-   APPARATUS VIGNETTES (unchanged working instruments; the stage that
-   carries them now hangs from a twig)
-   ═══════════════════════════════════════════════════════════════════════ */
-
-/* ── Rekenrek (stage vignette) — beads compose 3, then 7, then rest.
-   Containment: push distance computed from the rail's OWN slack (container
-   query), capped at design 92px; overflow clip is the guarantee. */
-.hv6-rek {
+.hv6-mob-tag img { display: block; width: 32px; height: 32px; border-radius: 3px; }
+.hv6-mob-obj.is-rek {
+  top: calc(var(--t-rek) + 16px);
+  left: 0;
+  width: var(--rekw);
+  height: var(--rekh);
+  margin-left: calc(var(--rekw) / -2);
+  border: 5px solid var(--hv6-cream);
+  border-radius: 10px;
+  background: rgba(251, 243, 228, 0.07);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  overflow: clip;
   display: flex;
   flex-direction: column;
-  gap: 26px;
-  padding: 10px 6px;
-  container-type: inline-size;
-  overflow: clip;
-  border-radius: 14px;
+  justify-content: space-evenly;
+  padding: 0 3px;
 }
-.hv6-rek-bead.is-push {
-  --push: calc(-1 * clamp(0px, 100cqw - 333px, 92px));
+.hv6-mob-yoke {
+  position: absolute;
+  top: var(--t-rek);
+  left: 50%;
+  width: 46px;
+  height: 16px;
+  margin-left: -23px;
+  border-left: 2px solid rgba(251, 243, 228, 0.5);
+  border-right: 2px solid rgba(251, 243, 228, 0.5);
+  transform: perspective(60px) rotateX(14deg);
 }
-.hv6-rek-rail {
+.hv6-mob-rrail {
   position: relative;
   display: flex;
   justify-content: flex-end;
-  gap: 5px;
-  height: 30px;
+  gap: 2px;
   align-items: center;
+  height: 13px;
 }
-.hv6-rek-rail::before {
+.hv6-mob-rrail::before {
   content: '';
   position: absolute;
-  left: -6px;
-  right: -6px;
+  left: -3px;
+  right: -3px;
   top: 50%;
-  height: 5px;
-  margin-top: -2.5px;
-  border-radius: 3px;
-  background: linear-gradient(180deg, #DCE3D3 0%, #c3cdb9 100%);
+  height: 3px;
+  margin-top: -1.5px;
+  border-radius: 2px;
+  background: rgba(251, 243, 228, 0.45);
 }
 .hv6-rek-bead {
   position: relative;
-  width: 27px;
-  height: 27px;
+  width: 9px;
+  height: 9px;
   border-radius: 50%;
   flex: none;
   background: radial-gradient(circle at 34% 30%, #f9a583 0%, var(--hv6-coral) 45%, var(--hv6-coral-deep) 100%);
-  box-shadow: 0 2px 4px rgba(20, 30, 28, 0.22), inset 0 -2px 3px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 4px rgba(20, 30, 28, 0.22), inset 0 -1px 2px rgba(0, 0, 0, 0.12);
 }
 .hv6-rek-bead.is-t {
   background: radial-gradient(circle at 34% 30%, #4d9c8d 0%, var(--hv6-teal) 45%, var(--hv6-teal-deep) 100%);
 }
 .hv6-rek-bead.is-push {
-  animation: hv6BeadPush 9s cubic-bezier(0.22, 1, 0.36, 1) infinite;
+  --push: -44px;
+  animation: hv6BeadPush 21s cubic-bezier(0.22, 1, 0.36, 1) infinite;
   animation-delay: calc(var(--i, 0) * 130ms + var(--wave, 0) * 1s);
 }
+.hv6-rek-bead.is-set { transform: translateX(-44px); }
 @keyframes hv6BeadPush {
   0% { transform: translateX(0); }
   6.5% { transform: translateX(calc(var(--push) * 1.06)); }
   8%, 62% { transform: translateX(var(--push)); }
   72%, 100% { transform: translateX(0); }
 }
-
-/* ── Number balance — one side heavy, a weight drops, the beam settles
-      level. Nobody said "wrong". ───────────────────────────────────── */
-.hv6-bal {
-  position: relative;
-  height: 128px;
-  width: 260px;
-  margin: 0 auto;
-}
-@media (max-width: 379px) {
-  .hv6-bal { transform: scale(0.82); transform-origin: 50% 0; }
-}
-.hv6-bal-post {
-  position: absolute;
-  left: 50%;
-  bottom: 10px;
-  width: 0;
-  height: 0;
-  transform: translateX(-50%);
-  border-left: 17px solid transparent;
-  border-right: 17px solid transparent;
-  border-bottom: 46px solid var(--hv6-teal);
-}
-.hv6-bal-foot {
-  position: absolute;
-  left: 50%;
-  bottom: 2px;
-  width: 92px;
-  height: 8px;
-  transform: translateX(-50%);
-  border-radius: 4px;
-  background: var(--hv6-teal-deep);
-}
-.hv6-bal-beam {
-  position: absolute;
-  left: 50%;
-  top: 38px;
-  width: 232px;
-  height: 8px;
-  margin-left: -116px;
-  border-radius: 4px;
-  background: linear-gradient(180deg, #1d7c6d 0%, var(--hv6-teal) 100%);
-  transform-origin: 50% 50%;
-  animation: hv6Beam 10s cubic-bezier(0.34, 1.2, 0.5, 1) infinite;
-}
-.hv6-bal-pan {
-  position: absolute;
-  top: 4px;
-  width: 56px;
-  height: 40px;
-  transform-origin: 50% 0;
-  animation: hv6PanLevel 10s cubic-bezier(0.34, 1.2, 0.5, 1) infinite;
-}
-.hv6-bal-pan.is-l { left: -14px; }
-.hv6-bal-pan.is-r { right: -14px; }
-.hv6-bal-pan::before {
-  content: '';
-  position: absolute;
-  left: 50%;
-  top: 0;
-  width: 34px;
-  height: 22px;
-  margin-left: -17px;
-  border-left: 2px solid rgba(20, 107, 94, 0.55);
-  border-right: 2px solid rgba(20, 107, 94, 0.55);
-  transform: perspective(60px) rotateX(14deg);
-}
-.hv6-bal-pan::after {
-  content: '';
-  position: absolute;
+.hv6-mob-obj.is-clockbox {
+  top: var(--t-clk);
   left: 0;
-  top: 20px;
-  width: 56px;
-  height: 14px;
-  border-radius: 0 0 26px 26px;
-  background: linear-gradient(180deg, var(--hv6-coral) 0%, var(--hv6-coral-deep) 100%);
+  width: var(--clkd);
+  height: var(--clkd);
+  margin-left: calc(var(--clkd) / -2);
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.3));
 }
-.hv6-bal-cube {
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  border-radius: 4px;
-  background: var(--hv6-cream);
-  border: 2px solid var(--hv6-teal);
-  z-index: 1;
-}
-.hv6-bal-cube.in-pan-r { right: 6px; top: 6px; }
-.hv6-bal-cube.in-pan-r + .hv6-bal-cube.in-pan-r { right: 24px; }
-.hv6-bal-cube.drops {
-  left: 20px;
-  top: 6px;
-  animation: hv6CubeDrop 10s cubic-bezier(0.34, 1.56, 0.64, 1) infinite;
-}
-@keyframes hv6Beam {
-  0%, 8% { transform: rotate(0deg); }
-  14%, 52% { transform: rotate(-7deg); }
-  60% { transform: rotate(2.5deg); }
-  66% { transform: rotate(-1.2deg); }
-  71%, 100% { transform: rotate(0deg); }
-}
-@keyframes hv6PanLevel {
-  0%, 8% { transform: rotate(0deg); }
-  14%, 52% { transform: rotate(7deg); }
-  60% { transform: rotate(-2.5deg); }
-  66% { transform: rotate(1.2deg); }
-  71%, 100% { transform: rotate(0deg); }
-}
-@keyframes hv6CubeDrop {
-  0%, 50% { transform: translateY(-30px); }
-  55%, 100% { transform: translateY(0); }
-}
+.hv6-mob-clockscale { width: 132px; height: 132px; transform: scale(0.485); transform-origin: 0 0; }
+.hv6-mob-clockscale .hv6-clock { margin: 0; }
+.hv6-mob .hv6-clock-hand.is-min,
+.hv6-mob .hv6-clock-hand.is-hour { animation-duration: 21s; }
+/* word tiles pruned */
+.hv6-mob-obj.is-word, .hv6-mob-rack, .hv6-mob-tile { display: none; }
 
-/* ── Letter tiles — c · a · t drop into their slots; a chalk rule sweeps
-      beneath. ──────────────────────────────────────────────────────── */
-.hv6-tiles {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  gap: 12px;
-  padding: 46px 8px 20px;
-}
-.hv6-tile-slot {
-  position: relative;
-  width: 52px;
-  height: 52px;
-  border: 2.5px dashed rgba(168, 183, 155, 0.9);
-  border-radius: 12px;
-  background: rgba(220, 227, 211, 0.35);
-}
-.hv6-tile {
-  position: absolute;
-  inset: 3px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--hv6-cream);
-  border: 2px solid rgba(20, 107, 94, 0.35);
-  border-radius: 9px;
-  font-family: var(--font-baloo-2), system-ui, sans-serif;
-  font-weight: 800;
-  font-size: 1.5rem;
-  color: var(--hv6-teal);
-  box-shadow: 0 3px 6px rgba(20, 30, 28, 0.18);
-  animation: hv6TileDrop 8s cubic-bezier(0.22, 1, 0.36, 1) infinite;
-  animation-delay: calc(var(--i, 0) * 350ms);
-}
-.hv6-tiles-rule {
-  position: absolute;
-  left: 14%;
-  right: 14%;
-  bottom: 6px;
-  height: 4px;
-  border-radius: 2px;
-  background: var(--hv6-coral);
-  transform-origin: left center;
-  animation: hv6RuleSweep 8s cubic-bezier(0.22, 1, 0.36, 1) infinite;
-}
-@keyframes hv6TileDrop {
-  0% { transform: translateY(-44px) rotate(-5deg); }
-  5.5% { transform: translateY(3px) rotate(1deg); }
-  7%, 86% { transform: translateY(0) rotate(0deg); }
-  94%, 100% { transform: translateY(-44px) rotate(-5deg); }
-}
-@keyframes hv6RuleSweep {
-  0%, 18% { transform: scaleX(0); }
-  24%, 84% { transform: scaleX(1); }
-  90%, 100% { transform: scaleX(0); }
-}
-
-/* ── Learning clock — sweeps 9:00 → 9:15 → 9:30. ─────────────────────── */
+/* the clock face (used inside the mobile) */
 .hv6-clock {
   position: relative;
   width: 132px;
@@ -1016,363 +679,15 @@
   65%, 92% { transform: rotate(285deg); }
   100% { transform: rotate(300deg); }
 }
-
-/* ── Choral counting — the chart writes itself. ──────────────────────── */
-.hv6-choral {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 6px;
-  padding: 4px;
-}
-.hv6-choral-cell {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  aspect-ratio: 1;
-  min-width: 0;
-  border-radius: 10px;
-  background: rgba(20, 107, 94, 0.06);
-  font-family: var(--font-baloo-2), system-ui, sans-serif;
-  font-weight: 700;
-  font-size: 1.05rem;
-  color: var(--hv6-teal);
-  animation: hv6ChoralPop 11s cubic-bezier(0.34, 1.56, 0.64, 1) infinite;
-  animation-delay: calc(var(--i, 0) * 240ms);
-}
-.hv6-choral-cell.is-decade {
-  background: var(--hv6-coral);
-  color: #fff;
-}
-@keyframes hv6ChoralPop {
-  0% { transform: scale(0); }
-  4% { transform: scale(1.12); }
-  6%, 88% { transform: scale(1); }
-  92%, 100% { transform: scale(0); }
-}
-
-/* ═══════════════════════════════════════════════════════════════════════
-   THE CLASSROOM MOBILE (hero) — unchanged sculpture; only its drop thread
-   now DISSOLVES (200px fade) toward the wire that fades in below.
-   ═══════════════════════════════════════════════════════════════════════ */
-.hv6-mob {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  width: 690px;
-  margin-left: -150px;
-  pointer-events: none;
-  z-index: 1;
-
-  --p1x: 347px;
-  --a1w: 340px; --a1p: 197px;
-  --a2w: 230px; --a2p: 138px;
-  --a3w: 128px; --a3p: 70px;
-  --t-ceil: 56px; --t-sheet: 64px; --t-n2: 36px;
-  --t-rek: 64px; --t-n4: 36px; --t-clk: 33px; --t-word: 87px;
-  --sheetw: 172px; --sheeth: 218px;
-  --rekw: 148px; --rekh: 74px;
-  --clkd: 88px; --wordw: 98px;
-}
-.hv6-mob-thread {
-  position: absolute;
-  left: 50%;
-  top: 0;
-  width: 2px;
-  margin-left: -1px;
-  border-radius: 1px;
-  background: linear-gradient(180deg,
-    rgba(251, 243, 228, 0.16) 0%,
-    rgba(251, 243, 228, 0.58) 18%,
-    rgba(251, 243, 228, 0.62) 100%);
-}
-.hv6-mob-thread::after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  bottom: -2px;
-  width: 5px;
-  height: 5px;
-  margin-left: -2.5px;
-  border-radius: 50%;
-  background: #F5DFC2;
-}
-.hv6-mob-thread.is-ceiling {
-  left: var(--p1x);
-  height: var(--t-ceil);
-}
-.hv6-mob-hang {
-  position: absolute;
-  inset: 0;
-  transform-origin: var(--p1x) 0;
-  animation: hv6MobSway 19s var(--sway-ease) -5s infinite;
-  --amp: 1.2deg;
-}
-.hv6-mob-arm {
-  position: absolute;
-  animation: hv6MobSway var(--period, 13s) var(--sway-ease) var(--phase, 0s) infinite;
-}
-.hv6-mob-arm.is-a1 {
-  left: calc(var(--p1x) - var(--a1p));
-  top: var(--t-ceil);
-  width: var(--a1w);
-  height: 8px;
-  transform-origin: var(--a1p) 50%;
-  --amp: 2deg; --period: 13s; --phase: -4s;
-}
-.hv6-mob-arm.is-a2 {
-  left: calc(0px - var(--a2p));
-  top: var(--t-n2);
-  width: var(--a2w);
-  height: 4px;
-  transform-origin: var(--a2p) 50%;
-  --amp: 2.6deg; --period: 11s; --phase: -7s;
-}
-.hv6-mob-arm.is-a3 {
-  left: calc(0px - var(--a3p));
-  top: var(--t-n4);
-  width: var(--a3w);
-  height: 3px;
-  transform-origin: var(--a3p) 50%;
-  --amp: 3.2deg; --period: 7s; --phase: -2s;
-  z-index: -1;
-}
-.hv6-mob-beam {
-  position: absolute;
-  inset: 0;
-  border-radius: 4px;
-}
-.hv6-mob-beam.is-main {
-  background: linear-gradient(180deg, #2E9282 0%, #146B5E 100%);
-  box-shadow: inset 0 1px 0 rgba(251, 243, 228, 0.28), 0 2px 6px rgba(0, 0, 0, 0.3);
-}
-.hv6-mob-beam.is-main::after {
-  content: '';
-  position: absolute;
-  left: 6px;
-  right: 6px;
-  bottom: -4px;
-  height: 5px;
-  background: repeating-linear-gradient(90deg,
-    transparent 0 34px, rgba(251, 243, 228, 0.55) 34px 36px);
-  border-radius: 2px;
-}
-.hv6-mob-beam.is-main::before {
-  content: '';
-  position: absolute;
-  left: var(--a1p);
-  top: 50%;
-  width: 12px;
-  height: 12px;
-  margin: -6px 0 0 -6px;
-  border-radius: 50%;
-  background: transparent;
-  border: 3px solid #F5DFC2;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
-}
-.hv6-mob-beam.is-dowel {
-  background: linear-gradient(180deg, #E9CFA0 0%, #D9B27E 100%);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.28);
-  border-radius: 2px;
-}
-.hv6-mob-node {
-  position: absolute;
-  top: 100%;
-  width: 0;
-  transform-origin: 0 0;
-  animation: hv6MobSway var(--period, 13s) var(--sway-ease) var(--phase, 0s) infinite;
-  --amp: 0deg;
-}
-.hv6-mob-node.is-n1 { left: 0; --amp: -1.4deg; --period: 13s; --phase: -4s; perspective: 900px; z-index: 3; }
-.hv6-mob-node.is-n2 { left: 100%; }
-.hv6-mob-node.is-n3 { left: 0; --amp: -1.8deg; --period: 11s; --phase: -7s; z-index: 2; }
-.hv6-mob-node.is-n4 { left: 100%; }
-.hv6-mob-node.is-n5 { left: 0; --amp: -2.2deg; --period: 7s; --phase: -2s; }
-.hv6-mob-node.is-n6 { left: 100%; --amp: -2.2deg; --period: 7s; --phase: -2s; }
-.hv6-mob-node > .hv6-mob-thread { top: 0; }
-.hv6-mob-node.is-n1 > .hv6-mob-thread { height: var(--t-sheet); }
-.hv6-mob-node.is-n2 > .hv6-mob-thread { height: var(--t-n2); }
-.hv6-mob-node.is-n3 > .hv6-mob-thread { height: var(--t-rek); }
-.hv6-mob-node.is-n4 > .hv6-mob-thread { height: var(--t-n4); }
-.hv6-mob-node.is-n5 > .hv6-mob-thread { height: var(--t-clk); }
-.hv6-mob-node.is-n6 > .hv6-mob-thread { height: var(--t-word); }
-.hv6-mob-obj { position: absolute; }
-.hv6-mob-obj.is-sheet {
-  top: var(--t-sheet);
-  left: 0;
-  width: var(--sheetw);
-  margin-left: calc(var(--sheetw) / -2);
-  background: #fff;
-  border-radius: 6px;
-  padding: 7px;
-  box-shadow: var(--e2), 0 24px 50px -18px rgba(0, 0, 0, 0.5);
-  transform-origin: 50% 0;
-  animation: hv6SheetTwist 23s var(--sway-ease) -11s infinite;
-}
-.hv6-mob-obj.is-sheet img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 3px;
-}
-/* The drop DISSOLVES: 200px fade to nothing. The descent's wire fades in
-   below — the eye completes the line (dissolve, don't join). */
-.hv6-mob-drop {
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  width: 2px;
-  margin-left: -1px;
-  height: 200px;
-  background: linear-gradient(180deg,
-    rgba(251, 243, 228, 0.55) 0%,
-    rgba(251, 243, 228, 0.25) 55%,
-    rgba(251, 243, 228, 0) 100%);
-}
-.hv6-mob-tag {
-  position: absolute;
-  top: calc(var(--t-sheet) - 26px);
-  left: -58px;
-  width: 48px;
-  padding: 10px 4px 4px;
-  background: var(--hv6-cream);
-  border-radius: 5px;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.32);
-  transform-origin: 24px 6px;
-  transform: rotate(-8deg);
-  animation: hv6TagFlutter 7s var(--sway-ease) -3.5s infinite;
-  z-index: 4;
-}
-.hv6-mob-tag::before {
-  content: '';
-  position: absolute;
-  top: 3px;
-  left: 50%;
-  width: 6px;
-  height: 6px;
-  margin-left: -3px;
-  border-radius: 50%;
-  background: #103F37;
-  box-shadow: inset 0 0 0 2px #D9B27E;
-}
-.hv6-mob-tag::after {
-  content: '';
-  position: absolute;
-  top: 6px;
-  left: 24px;
-  width: 43px;
-  height: 1.5px;
-  border-radius: 1px;
-  background: rgba(251, 243, 228, 0.55);
-  transform-origin: left center;
-  transform: rotate(-33deg);
-}
-.hv6-mob-tag img { display: block; width: 40px; height: 40px; border-radius: 3px; }
-.hv6-mob-obj.is-rek {
-  top: calc(var(--t-rek) + 20px);
-  left: 0;
-  width: var(--rekw);
-  height: var(--rekh);
-  margin-left: calc(var(--rekw) / -2);
-  border: 5px solid var(--hv6-cream);
-  border-radius: 10px;
-  background: rgba(251, 243, 228, 0.07);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  overflow: clip;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  padding: 0 3px;
-}
-.hv6-mob-yoke {
-  position: absolute;
-  top: var(--t-rek);
-  left: 50%;
-  width: 60px;
-  height: 22px;
-  margin-left: -30px;
-  border-left: 2px solid rgba(251, 243, 228, 0.5);
-  border-right: 2px solid rgba(251, 243, 228, 0.5);
-  transform: perspective(60px) rotateX(14deg);
-}
-.hv6-mob-rrail {
-  position: relative;
-  display: flex;
-  justify-content: flex-end;
-  gap: 2px;
-  align-items: center;
-  height: 15px;
-}
-.hv6-mob-rrail::before {
-  content: '';
-  position: absolute;
-  left: -3px;
-  right: -3px;
-  top: 50%;
-  height: 3px;
-  margin-top: -1.5px;
-  border-radius: 2px;
-  background: rgba(251, 243, 228, 0.45);
-}
-.hv6-mob .hv6-rek-bead { width: 11px; height: 11px; }
-.hv6-mob .hv6-rek-bead.is-push { --push: -58px; animation-duration: 21s; }
-.hv6-mob .hv6-rek-bead.is-set { transform: translateX(-58px); }
-.hv6-mob-obj.is-clockbox {
-  top: var(--t-clk);
-  left: 0;
-  width: var(--clkd);
-  height: var(--clkd);
-  margin-left: calc(var(--clkd) / -2);
-  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.3));
-}
-.hv6-mob-clockscale { width: 132px; height: 132px; transform: scale(0.6667); transform-origin: 0 0; }
-.hv6-mob-clockscale .hv6-clock { margin: 0; }
-.hv6-mob .hv6-clock-hand.is-min,
-.hv6-mob .hv6-clock-hand.is-hour { animation-duration: 21s; }
-.hv6-mob-obj.is-word {
-  top: var(--t-word);
-  left: 0;
-  width: var(--wordw);
-  margin-left: calc(var(--wordw) / -2);
-  display: flex;
-  justify-content: center;
-  gap: 4px;
-  padding-bottom: 5px;
-}
-.hv6-mob-rack {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 5px;
-  border-radius: 3px;
-  background: linear-gradient(180deg, #E9CFA0 0%, #D9B27E 100%);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.28);
-}
-.hv6-mob-tile {
-  width: 30px;
-  height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--hv6-cream);
-  border: 2px solid rgba(20, 107, 94, 0.4);
-  border-radius: 7px;
-  font-family: var(--font-baloo-2), system-ui, sans-serif;
-  font-weight: 800;
-  font-size: 1rem;
-  color: var(--hv6-teal);
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
-}
 @keyframes hv6MobSway {
   0% { transform: rotate(var(--amp, 0deg)); }
   50% { transform: rotate(calc(var(--amp, 0deg) * -1)); }
   100% { transform: rotate(var(--amp, 0deg)); }
 }
 @keyframes hv6SheetTwist {
-  0% { transform: rotateY(13deg); }
-  50% { transform: rotateY(-13deg); }
-  100% { transform: rotateY(13deg); }
+  0% { transform: rotateY(9deg); }
+  50% { transform: rotateY(-9deg); }
+  100% { transform: rotateY(9deg); }
 }
 @keyframes hv6TagFlutter {
   0% { transform: rotate(-14deg); }
@@ -1380,56 +695,7 @@
   100% { transform: rotate(-14deg); }
 }
 
-/* Narrow-desktop trim (1024-1151): pull the far cluster inboard. */
-@media (min-width: 1024px) and (max-width: 1151px) {
-  .hv6-mob {
-    --a2w: 200px; --a2p: 138px;
-    --a3w: 112px; --a3p: 62px;
-    --wordw: 92px;
-  }
-}
-
-/* Compressed sculpture (<1024): top beam + worksheet+tag + rekenrek +
-   clock. It compresses; it never vanishes. */
-@media (max-width: 1023px) {
-  .hv6-mob {
-    position: relative;
-    left: auto;
-    top: auto;
-    bottom: auto;
-    margin: 0 auto 52px;
-    width: 320px;
-    height: 340px;
-    --p1x: 186px;
-    --a1w: 236px; --a1p: 90px;
-    --a2w: 130px; --a2p: 78px;
-    --t-ceil: 34px; --t-sheet: 44px; --t-n2: 26px;
-    --t-rek: 40px; --t-clk: 30px;
-    --sheetw: 120px; --sheeth: 152px;
-    --rekw: 112px; --rekh: 58px;
-    --clkd: 64px;
-  }
-  .hv6-mob-arm.is-a3 { width: 0; transform: none; animation: none; left: 0; top: 0; height: 0; }
-  .hv6-mob-arm.is-a3 .hv6-mob-beam,
-  .hv6-mob-node.is-n6 { display: none; }
-  .hv6-mob-node.is-n5 { left: 0; }
-  .hv6-mob-node.is-n5 > .hv6-mob-thread { height: var(--t-clk); }
-  .hv6-mob-obj.is-sheet { padding: 5px; }
-  .hv6-mob .hv6-rek-bead { width: 9px; height: 9px; }
-  .hv6-mob .hv6-rek-bead.is-push { --push: -44px; }
-  .hv6-mob .hv6-rek-bead.is-set { transform: translateX(-44px); }
-  .hv6-mob-rrail { height: 13px; }
-  .hv6-mob-clockscale { transform: scale(0.485); }
-  .hv6-mob-tag { width: 40px; left: -48px; top: calc(var(--t-sheet) - 22px); transform-origin: 20px 6px; }
-  .hv6-mob-tag::after { left: 20px; width: 36px; }
-  .hv6-mob-tag img { width: 32px; height: 32px; }
-  .hv6-mob-yoke { width: 46px; height: 16px; margin-left: -23px; }
-}
-
-/* ═══════════════════════════════════════════════════════════════════════
-   PORTED hv3 CLASSES — FeaturedDeckTileV3 renders these (its portal modal
-   uses Tailwind only).
-   ═══════════════════════════════════════════════════════════════════════ */
+/* ═══ PORTED hv3 CLASSES — FeaturedDeckTileV3 ═══ */
 .hv6 .hv3-card-deep {
   background: #fff;
   border-radius: 28px;
@@ -1439,8 +705,8 @@
     0 1px 0 rgba(255, 255, 255, 0.7) inset,
     1px 0 0 rgba(20, 107, 94, 0.06) inset,
     0 2px 0 rgba(20, 107, 94, 0.10),
-    0 18px 36px -10px rgba(0, 0, 0, 0.45),
-    0 48px 64px -20px rgba(0, 0, 0, 0.35);
+    0 18px 36px -10px rgba(20, 107, 94, 0.22),
+    0 48px 64px -20px rgba(20, 107, 94, 0.14);
 }
 .hv6 .hv3-card-deep::before {
   content: '';
@@ -1471,123 +737,27 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.hv6 .hv3-locale-chip-active {
-  background: #146B5E;
-  color: #FBF3E4;
-}
+.hv6 .hv3-locale-chip-active { background: #146B5E; color: #FBF3E4; }
 
-/* ═══════════════════════════════════════════════════════════════════════
-   THE CLASS INDEX cards (now pushpinned to the pegboard)
-   ═══════════════════════════════════════════════════════════════════════ */
-.hv6-index-card {
-  position: relative;
-  background: #fff;
-  border: 1px solid rgba(20, 50, 45, 0.08);
-  border-radius: 16px;
-  box-shadow: 0 3px 10px rgba(90, 63, 34, 0.22);
-  padding: 28px;
-  transition: box-shadow 0.2s ease;
-}
-.hv6-index-card:hover { box-shadow: 0 6px 18px rgba(90, 63, 34, 0.3); }
-/* pushpin (replaces the old coral drawer tab) */
-.hv6-index-card::before {
-  content: '';
-  position: absolute;
-  top: 10px;
-  left: 50%;
-  width: 12px;
-  height: 12px;
-  margin-left: -6px;
-  border-radius: 50%;
-  background: radial-gradient(circle at 35% 30%, #F9A583, var(--hv6-coral) 55%, var(--hv6-coral-deep));
-  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.35);
-}
-.hv6-index-card:nth-child(odd) { transform: rotate(-0.4deg); }
-.hv6-index-card:nth-child(even) { transform: rotate(0.4deg); }
-.hv6-index-card li { position: relative; padding-left: 13px; min-width: 0; }
-/* Long unhyphenated labels (German compounds) wrap inside their column. */
-.hv6-index-card a { overflow-wrap: break-word; hyphens: auto; }
-.hv6-index-card li::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0.62em;
-  width: 6px;
-  height: 3px;
-  border-radius: 2px;
-  background: rgba(20, 107, 94, 0.45);
-}
-
-/* ═══════════════════════════════════════════════════════════════════════
-   PHONE FORMS (≤1023): the wire lives at the left margin; big cards hang
-   straight from one corner thread up to it; small objects (is-sm) keep
-   their center thread, tilt and sway.
-   ═══════════════════════════════════════════════════════════════════════ */
-@media (max-width: 1023px) {
-  .hv6-hang { --restx: 0deg; }
-  .hv6-hang::before {
-    left: 0;
-    margin-left: 0;
-    height: 47px;
-    transform-origin: 0 100%;
-    transform: rotate(31deg);
-  }
-  .hv6-hang::after { left: 3px; }
-  .hv6-hang.is-sm { --restx: var(--rest-sm, -1.5deg); }
-  .hv6-hang.is-sm::before {
-    left: 50%;
-    margin-left: -1px;
-    height: var(--drop);
-    transform: none;
-  }
-  .hv6-hang.is-sm::after { left: 50%; }
-  .hv6-hang2::before { left: 8px; }
-  .hv6-hang2::after { right: 8px; }
-  .hv6-branch::before {
-    left: 0;
-    margin-left: 0;
-    height: 47px;
-    transform-origin: 0 100%;
-    transform: rotate(31deg);
-  }
-  .hv6-gallery { padding-top: 28px; }
-  .hv6-gallery > * { --drop: 20px !important; --rest: 0deg !important; }
-  .hv6-gallery .hv6-tool-card { margin-top: 0; }
-  .hv6-shelf::before { left: 2px; }
-  .hv6-shelf::after { right: 2px; }
-}
-
-/* ═══════════════════════════════════════════════════════════════════════
-   FOCUS + ACCESSIBILITY + REDUCED MOTION
-   ═══════════════════════════════════════════════════════════════════════ */
-/* Dark board default: coral ring. Light surfaces: the light ring. */
+/* ═══ FOCUS + REDUCED MOTION ═══ */
 .hv6 :where(a, button, input, [role='menuitem']):focus-visible {
   outline: none;
-  box-shadow: 0 0 0 2px #0F2A2A, 0 0 0 5px #F2784B;
+  box-shadow: 0 0 0 2px #FDFBF6, 0 0 0 5px rgba(20, 107, 94, 0.55);
 }
-.hv6 :where(.hv6-paper, .hv6-stage, .hv6-card, .hv6-tool-card, .hv6-index-card, .hv6-pegboard, .hv3-card-deep)
-  :where(a, button):focus-visible {
-  box-shadow: 0 0 0 2px #FDFBF6, 0 0 0 5px rgba(20, 107, 94, 0.6);
+.hv7-chalkpanel :where(a, button):focus-visible {
+  box-shadow: 0 0 0 2px #14322D, 0 0 0 5px #F2784B;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  /* The installation hangs perfectly still, composed: every rest rotation,
-     thread, plank and bead is a static pose. */
-  .hv6-hang.is-sway { animation: none; transform: rotate(var(--restx, var(--rest, 0deg))); }
-  .hv6-wire-pulse { display: none; }
-  .hv6-rek-bead.is-push { animation: none; transform: translateX(var(--push, 0)); }
+  /* The mobile hangs perfectly still, composed. */
   .hv6-mob-hang, .hv6-mob-arm, .hv6-mob-node { animation: none; transform: rotate(0deg); }
   .hv6-mob-obj.is-sheet { animation: none; transform: rotate(-1.5deg); }
   .hv6-mob-tag { animation: none; transform: rotate(-8deg); }
-  .hv6-bal-beam, .hv6-bal-pan { animation: none; transform: rotate(0deg); }
-  .hv6-bal-cube.drops { animation: none; transform: translateY(0); }
-  .hv6-tile { animation: none; transform: translateY(0) rotate(0deg); }
-  .hv6-tiles-rule { animation: none; transform: scaleX(1); }
+  .hv6-rek-bead.is-push { animation: none; transform: translateX(var(--push, 0)); }
   .hv6-clock-hand.is-min { animation: none; transform: rotate(90deg); }
   .hv6-clock-hand.is-hour { animation: none; transform: rotate(277.5deg); }
-  .hv6-choral-cell { animation: none; transform: scale(1); }
-  .hv6-card:hover, .hv6-cta:hover, .hv6-cta:active, .hv6-traveler, .hv6-traveler:hover { transform: none; }
-  .hv6-tool-card:hover { transform: rotate(var(--rest, 0deg)); }
+  .hv6-card:hover, .hv6-tool-card:hover, .hv7-lift:hover { transform: rotate(var(--tilt, 0deg)); }
+  .hv6-cta:hover, .hv6-cta:active { transform: none; }
   .hv6 [class*='hover:-translate']:hover,
   .hv6 [class*='hover:scale']:hover,
   .hv6 .group:hover [class*='group-hover:scale'] { transform: none !important; }

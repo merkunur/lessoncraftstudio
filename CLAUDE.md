@@ -1204,9 +1204,9 @@ The platform's **paid-product line**: 20 K-3 *curriculum instruments* — the ap
 
 > When the operator says **"build the next tool"** / **"build the next one"** / **"continue with the tools"**, or names a catalog tool: **do NOT re-research, re-design, or re-litigate the catalog.** It is approved and the strategy work is done. Go straight to **EnterPlanMode for that ONE tool** → run the **four-surface fence** (§23.3) before a line is written → name its **invention**, its **moat** and an explicit **refuse-list** → ExitPlanMode → build to §23.4.
 
-**Position (2026-08-01).** `#36 number-sieve` · `#37 arrow-strip` · `#38 draw-bag` · `#39 lids` (closed wave 1) · `#40 unit-handle` · `#41 unroll-tape` · `#42 comparison-planks` · **`#43 cold-line` ("Upright and Flat", B7) LIVE — WAVE 2 COMPLETE.** The measurement spine reads: change the UNIT with the object fixed (#40) · lay a CURVE straight (#41) · carry a DIFFERENCE away as a piece (#42) · TURN the whole instrument and watch nothing change (#43). → **NEXT = wave 3**; order in the companion.
+**Position (2026-08-01).** Wave 1 (#36-#39) and wave 2 (#40-#43) closed. **`#44 build-plan` ("The Blueprint", B2) LIVE — WAVE 3 OPEN.** The measurement spine read: change the UNIT with the object fixed (#40) · lay a CURVE straight (#41) · carry a DIFFERENCE away as a piece (#42) · TURN the whole instrument and watch nothing change (#43). Wave 3 opens on space and structure: nine numerals and an isometric building are ONE STATE edited from either end, and two flat views almost never determine it (#44). → **NEXT = `B5 Reshape`**; order in the companion.
 
-**Constants for the next build:** header ordinal **#44** · `PREV = 'cold-line'` · `TOOL_WRAPPER_VERSION` **7.56 → 7.57** · it becomes `TOOL_KEYS` position **47**. ⚠ **The header ordinal is a LEDGER, not the array index — it runs 3 behind** (`class-timer`/`letter-studio` both claim #25, `wodb`/`syllable-splitter` both claim #22, three early tools carry none). Take the next ordinal from the last shipped tool's header. **Do not renumber anything.**
+**Constants for the next build:** header ordinal **#45** · `PREV = 'build-plan'` · `TOOL_WRAPPER_VERSION` **7.57 → 7.58** · it becomes `TOOL_KEYS` position **48**. ⚠ **The header ordinal is a LEDGER, not the array index — it runs 3 behind** (`class-timer`/`letter-studio` both claim #25, `wodb`/`syllable-splitter` both claim #22, three early tools carry none). Take the next ordinal from the last shipped tool's header. **Do not renumber anything.**
 
 ### 23.1 The four operator rulings (locked; do not re-litigate)
 **Scope** clean-sheet replacement — unbuilt v3 entries dead unless re-earned · **Subject** NO language-teaching tools of any kind; maths · measurement · geometry · data · time · money · spatial · science ONLY · **Reach** language-light universal (identical in 11 locales, almost no authored language) · **Money** free apparatus, paid depth + record. Standing: **if the thing the tool teaches cannot be verified, it is not designed.**
@@ -1247,6 +1247,51 @@ The 5 registration points are §21.5; **`frontend/config/live-tool-slugs.ts` is 
 - **⚠ NEVER EDIT A REPO FILE THROUGH PYTHON TEXT MODE** — already recorded, walked into anyway. `io.open(p,'w')` translates `
 ` to CRLF on Windows, which silently broke eleven multi-line mutation needles at once. Pass `newline=''`, or use node.
 
+
+⭐ **Bought on #44 (The Blueprint), and the first three are the same disease in three dresses — a check that agrees with itself:**
+- ⭐⭐ **MEASURING THE RENDER IS NOT ENOUGH IF THE ORACLE SHARES THE CONVENTION.** The side profile shipped
+  MIRRORED — showing `401` where the eye sees `104` — and every gate passed, because local-test compared the
+  drawn profile against cubes counted in the SAME index order. Both sides of the comparison carried the
+  identical bug and agreed perfectly. The tool's own verified law (`front(rot(h)) ≡ reverse(side(h))`) stated
+  it and the renderer ignored its own model. **A native panel reading the model found it, not a gate.** The
+  replacement asks it in PIXELS — does row *r*'s bar sit on the same side of the panel as row *r*'s face sits
+  on the building — so no shared convention can satisfy it by accident.
+- ⭐⭐ **A GATE THAT REIMPLEMENTS THE THING IT CHECKS IS TESTING A COPY.** The hint dispatch lived inline in
+  `_paint()`, so the Node gate duplicated it — and **three mutations of the REAL dispatch sailed straight
+  through**. Extracting it to a pure model function is what made the poison able to work at all. This is the
+  marks-its-own-homework rule wearing a new hat: not reading the expectation off the tool, but *rewriting the
+  tool inside the test*.
+- ⭐⭐ **A GATE YOU HELP PAST IS NOT A GATE.** `hintTurn` shipped DEAD — declared once, selected never — and my
+  own smoke test contained a workaround calling it directly, with a comment excusing the dispatch. I wrote the
+  excuse instead of reading the dispatch, in a tool whose header advertises a reachability gate.
+  ⚠ And **fixing a dead string can create a FALSE one**: the repair then claimed motion on every turn, while
+  three of the five FREE settings are turn-invariant. Reachability is now proved by ENUMERATION over the whole
+  space, with each branch asserted against its NAMED set.
+- ⭐⭐ **THE SAME RULE IN TWO FILES WILL BE HALF-FIXED.** A French exemption went into `apply-`; `verify-`
+  carried its own copy of the ban and kept condemning the same correct sentence. The exemption has to travel
+  with the ban, and be poisoned in both places.
+- ⭐⭐ **`\b` IS ASCII-ONLY, AND ONLY A MUST-FIRE EXAMPLE IN THE POLICED LANGUAGE FINDS IT.** `\byhteensä\b`
+  and `\bárea\b` can never match; `\barea\b` misses Swedish *arean*. Three bans were born dead. **A ban tested
+  on English alone is tested in the one language where `\b` happens to work.** Use `(?<!\p{L})…(?!\p{L})`.
+- ⭐ **THE BAN-TOO-WIDE TRAP, THREE TIMES IN ONE BUILD.** "how many cubes TALL" is a HEIGHT (the tool's own
+  subject) and French **`dessinée en volume`** means *drawn in three dimensions*. Each time the ban was mine
+  and the prose was correct. Exemptions are an auditable list with a citation, never a loosened regex.
+- ⭐ **REACH CONTROLS BY INDEX, NEVER BY ENGLISH TEXT** — "Another BLUEPRINT" contains the word "print", so
+  `/print/i` matched the wrong chip and reported a defect in a working tool. ⚠ My throwaway probe then
+  "confirmed" it by making the same mistake: **a wrong measurement agreeing with a wrong measurement.**
+- ⚠ **AN INVENTED THRESHOLD IS NOT A MEASUREMENT** — twice here: a ">200 overlapping pairs" floor that failed
+  at a correct 45, and a "1,000 states" hint floor that condemned two DELIBERATE branches (125 turn-invariant
+  boards, 1 empty one). Assert against the named set, not a number you liked.
+- ⚠ **`git checkout --` RESTORES FROM THE INDEX AND DISCARDS UNCOMMITTED WORK.** Used to undo a poison
+  experiment, it silently reverted fourteen fixes. Restore from a backup you made.
+- ⚠ **`'geometry'` IS NOT A `ToolCategory`** (number|measurement|literacy|classroom) — every shape-and-space
+  tool sits in `measurement`. The register script now PARSES THE UNION off source and refuses anything outside
+  it, because #38 proved the silent version is the one that ships.
+- ⚠ **`--fit=auto` CROPS THE PAYLOAD** above 0.85 aspect: the card shipped with both profiles cut off, and the
+  generator reported "ok" both times. **Measure the card.**
+- ⭐ **THE PAINT ORDER IS DERIVED, NOT COPIED.** `unit-cubes.js` paints z/y/x, correct for the FULL BOX it
+  ships and wrong for a ragged one. Solving the projection gives view direction (1,1,1), so ascending x+y+z is
+  correct for any shape.
 
 ⭐ **Bought on #42 (The Planks), and two of them were caught by things that are not gates:**
 - ⭐⭐ **A GATE THAT SAMPLES ONE POINT OF A BAND IS NOT TESTING THE BAND.** The numeral-containment

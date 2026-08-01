@@ -158,7 +158,9 @@ for (const loc of LOCALES) {
     const v = L[k];
     if (typeof v !== 'string' || !v.trim()) { fail(`${loc}.${k} is missing or empty`); continue; }
     if (NAMED_UNIT.test(v)) fail(`${loc}.${k} NAMES A UNIT — "${v}"`);
-    if (HOLLOW_NOUN.test(v)) fail(`${loc}.${k} NAMES THE HOLLOW — a fourth named part — "${v}"`);
+    if (DEGREE.test(v)) fail(`${loc}.${k} NAMES A UNIT — "${v}"`);
+    if (WEATHER.test(v)) fail(`${loc}.${k} uses calendar-wall's WEATHER vocabulary — "${v}"`);
+    if (ASKING.test(v)) fail(`${loc}.${k} ASKS something — G3-345 owns that question — "${v}"`);
     if (ARITHMETIC.test(v)) fail(`${loc}.${k} carries an arithmetic glyph or a spaced hyphen — "${v}"`);
     if (/\d/.test(v)) fail(`${loc}.${k} contains a digit — "${v}"`);
     if (/!/.test(v)) fail(`${loc}.${k} contains an exclamation mark`);

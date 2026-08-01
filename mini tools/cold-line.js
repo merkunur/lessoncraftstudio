@@ -484,7 +484,7 @@
       this._sheetEl = api.el('div', 'cld-sheet');
       wrap.appendChild(this._sheetEl);
 
-      this._wireDrags();
+      if (!this._wired) { this._wireDrags(); this._wired = true; }
       api.stage.appendChild(wrap);
     },
 
@@ -708,8 +708,8 @@
          reachable states — a source scan cannot tell "the string
          exists" from "the string is reached" (#39). */
       var key = s.tipped ? 'hintTip'
-        : (s.a === s.b) ? 'hintSet'
-          : (!this.inView(s, s.a) || !this.inView(s, s.b)) ? 'hintSlide' : 'hintSpan';
+        : (!this.inView(s, s.a) || !this.inView(s, s.b)) ? 'hintSlide'
+          : (s.a === s.b) ? 'hintSet' : 'hintSpan';
       this._hint.textContent = api.t(key);
 
       this._chipTip.textContent = api.t(s.tipped ? 'standBtn' : 'tipBtn');
@@ -894,7 +894,7 @@
       + '.cld-zero{stroke:#C8613A;stroke-width:5;stroke-dasharray:14 10;}'
       + '.cld-mark-bar{fill:rgba(20,107,94,.16);}'
       + '.cld-mark-dot{fill:#0F4A40;}'
-      + '.cld-mark-b .cld-mark-dot{fill:#C8613A;}'
+      + '.cld-mark-b .cld-mark-dot{fill:#FBF3E4;stroke:#0F4A40;stroke-width:6;}'
       + '.cld-span{fill:#0F4A40;font-family:"Baloo 2",Nunito,sans-serif;font-weight:800;font-size:52px;}'
 
       + '.cld-handle{position:absolute;width:44px;height:44px;margin:-22px 0 0 -22px;padding:0;'
@@ -904,7 +904,7 @@
       + '.cld-handle:focus-visible{outline:3px solid #146B5E;outline-offset:-2px;}'
       + '.cld-grip{display:block;width:18px;height:18px;border-radius:50%;background:#0F4A40;'
       + 'box-shadow:0 0 0 3px rgba(251,243,228,.92);}'
-      + '.cld-h-b .cld-grip{background:#C8613A;}'
+      + '.cld-h-b .cld-grip{background:#FBF3E4;box-shadow:0 0 0 4px #0F4A40;}'
       + '.cld-h-s .cld-grip{width:14px;height:30px;border-radius:7px;background:#3C6E63;}'
 
       + '.cld-hint{flex-basis:100%;text-align:center;font-family:Nunito,sans-serif;font-size:15px;'

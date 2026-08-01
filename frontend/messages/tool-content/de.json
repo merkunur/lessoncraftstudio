@@ -1163,6 +1163,35 @@
     "metaTitle": "Zwei Bretter, eine Linie – Längen vergleichen, Grundschule",
     "metaDescription": "Zwei Bretter beginnen an derselben Linie; das überstehende Endstück lässt sich abnehmen und ans kurze Brett anlegen. Kostenlos am Whiteboard, Grundschule."
   },
+  "cold-line": {
+    "slug": "zahlen-unter-null-negative-zahlen-grundschule",
+    "name": "Hochkant und flach",
+    "tagline": "Eine hohe Röhre, daneben eine Skala mit Zahlen, zwei Schieber darauf und dazwischen ihr Abstand. Eine Taste legt das Ganze flach – dieselbe Skala liegt dann vor der Klasse, die kleinen Zahlen links, die großen rechts.",
+    "about": [
+      "Auf dem Schirm steht eine hohe Röhre, daneben eine Skala mit Zahlen. Zwei Schieber sitzen an der Skala, und zwischen ihnen steht eine einzige Zahl: wie weit sie auseinanderliegen. Die Skala selbst lässt sich anfassen und ziehen — so kommen Sie an Zahlen, die eben noch außerhalb lagen, nach oben wie nach unten. Unter der Null geht es genauso weiter wie darüber; die Zahlen dort sind keine Sonderfälle, sondern einfach Stellen auf derselben Skala. Eine Einheit steht nirgends. Das ist Absicht.",
+      "Dann die Taste, um die es eigentlich geht: Das Ganze legt sich flach hin. Und nichts an ihm ist ein anderes geworden — dieselbe Skala, dieselben Schieber, derselbe Abstand dazwischen. Hochkant liest die Klasse die Röhre ab; flach liegt die Zahlenfolge vor ihr, mit den kleinen Zahlen links und den großen rechts. Genau dieser Zusammenhang bleibt sonst unsichtbar: Kinder lernen beides getrennt kennen und merken jahrelang nicht, dass es ein und dasselbe ist. Hier drehen sie es selbst um und sehen es.",
+      "Die Routine dauert zwei Minuten. Setzen Sie die Schieber an zwei Zahlen und lassen Sie die Klasse den Abstand nennen. Ziehen Sie dann die Skala weit weg und setzen Sie die Schieber irgendwo anders wieder genauso weit auseinander — einmal tief unter der Null, einmal weit darüber. Der Abstand ist derselbe. Für Kinder ist das ein echter Widerspruch: Die Zahlen sehen völlig anders aus, und trotzdem ist der Weg zwischen ihnen gleich lang. Darüber lässt sich streiten, und genau dieses Streiten ist die Stunde.",
+      "Im Lehrplan der Grundschule liegt das an zwei Stellen zugleich: beim Aufbau des Zahlenraums und beim Ablesen von Skalen im Sachunterricht. Das Gerät bewertet nichts, prüft nichts ab und stellt keine Aufgabe — es zeigt nur, und was gefragt wird, fragen Sie. Kein Richtig, kein Falsch, keine Punkte, keine Uhr, die mitläuft. Lesen muss dafür niemand können: eine Röhre, Zahlen, zwei Schieber. Es läuft ohne Anmeldung im Browser am Whiteboard oder über den Beamer. Fünf Ausschnitte sind kostenlos; elf weitere und das Blatt zum Ausdrucken gehören zum Lehrer-Paket."
+    ],
+    "howToUse": [
+      "Öffnen Sie das Werkzeug am Whiteboard und lassen Sie zuerst nur vorlesen, welche Zahlen gerade zu sehen sind — über und unter der Null.",
+      "Setzen Sie die beiden Schieber und lassen Sie die Klasse den Abstand dazwischen laut sagen.",
+      "Ziehen Sie die Skala weit nach unten und setzen Sie die Schieber dort wieder genauso weit auseinander; fragen Sie vorher, ob der Abstand dadurch größer wird.",
+      "Legen Sie jetzt das Ganze flach hin und sagen Sie nichts. Warten Sie, bis ein Kind sagt, was es da sieht. Dafür ist das Werkzeug da.",
+      "Stellen Sie es wieder auf und legen Sie es noch einmal um, bis die Klasse vorher ansagt, was gleich bleiben wird.",
+      "Mit „Null in die Mitte\" holen Sie die Null jederzeit zurück, wenn sich die Klasse verloren hat."
+    ],
+    "classroomIdeas": [
+      "Erst vorhersagen: Bevor Sie an der Skala ziehen, schreibt jedes Kind auf, ob die Null danach noch zu sehen sein wird.",
+      "Zwei Stellen, ein Abstand: einmal tief unter der Null, einmal weit darüber — und die Klasse begründet, warum beide Male dasselbe herauskommt.",
+      "Geben Sie ein Ziel vor: Ein Kind stellt die Schieber so, dass die Null genau zwischen ihnen liegt.",
+      "Umlegen, aufstellen, umlegen — ohne ein Wort. Die Klasse benennt, was sich verändert hat und was nicht.",
+      "Drucken Sie das Blatt: Es zeigt dieselbe Skala zweimal, hochkant und flach, ganz ohne Zahlen. Die Kinder tragen die Zahlen selbst ein.",
+      "Danach im Klassenzimmer: Hängen Sie dieselbe Skala aus Papier an die Wand und legen Sie sie am nächsten Tag auf den Boden."
+    ],
+    "metaTitle": "Hochkant und flach – Zahlen unter Null, Grundschule",
+    "metaDescription": "Eine Röhre mit Skala, zwei Schieber und der Abstand dazwischen – und eine Taste, die alles flach hinlegt. Zahlen über und unter Null, kostenlos am Whiteboard."
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

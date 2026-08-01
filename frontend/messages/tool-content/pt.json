@@ -1162,6 +1162,35 @@
     "metaTitle": "As Duas Ripas — comparar comprimentos, anos iniciais",
     "metaDescription": "Duas ripas começam na mesma linha; o retalho que passa sai da comprida e vai para a ponta da curta. Ferramenta gratuita para a lousa digital, anos iniciais."
   },
+  "cold-line": {
+    "slug": "distancia-entre-numeros-abaixo-de-zero-anos-iniciais",
+    "name": "O Tubo que Deita",
+    "tagline": "Um tubo em pé, uma escala que desliza e dois pinos que a turma põe onde quiser, acima ou abaixo do zero. Um botão deita o tubo inteiro: mesma escala, mesmos pinos, mesma distância.",
+    "about": [
+      "Na tela fica um tubo comprido e estreito, com a escala numerada de um lado e os dois pinos do outro: um risco em cada passo e um número de cinco em cinco. A criança arrasta cada pino para onde quiser, acima do zero ou abaixo dele, e entre os dois aparece um número sozinho, que é a distância de um até o outro. Quando o tubo aparece pintado, a cor vai até o primeiro pino e para ali. Deslizando a própria escala, a turma alcança números que estavam fora da tela. Não há pergunta, não há resposta certa e não há pontuação.",
+      "O zero costuma ser o fim da contagem para uma criança de seis anos: os números começam nele e vão subindo. Um tubo que continua para baixo do zero mostra, sem precisar explicar, que a contagem tem os dois lados. Na BNCC os números negativos só aparecem bem mais tarde, e aqui eles não são conteúdo a ser cobrado — são convivência. O que está de fato em jogo é da unidade temática Números dos anos iniciais: ordenação, comparação e a ideia de quanto falta de um número até outro. Deixar a turma encontrar esse território antes da hora é prática consagrada de sala de aula, e não uma promessa de resultado.",
+      "O momento que dá nome à ferramenta é o botão que deita o tubo. Ele não redesenha nada: gira o aparelho inteiro, e a escala, os pinos e o número da distância continuam exatamente os mesmos, só que agora deitados. Um termômetro em pé e uma reta numérica deitada passam a ser, na frente da turma, o mesmo objeto. E há uma segunda surpresa: ponha os dois pinos bem abaixo do zero e depois bem acima dele. Se o pedaço de escala entre os dois tiver o mesmo tamanho, o número entre eles não muda. A distância não depende de onde ela é medida.",
+      "Na prática, isso vira uma rotina curta de lousa: você abre uma posição, alguém vai lá e muda um pino, e a turma diz em voz alta se a distância vai mudar antes de olhar. São dezesseis posições no total, encadeadas para que cada uma surpreenda depois da anterior. As cinco primeiras são gratuitas, junto com o aparelho inteiro: os dois pinos, a escala que desliza, o zero e o botão que deita o tubo. As outras onze e a folha para imprimir — um tubo em branco, com os riscos e sem os números, impresso em pé e deitado — vêm com o plano Professor."
+    ],
+    "howToUse": [
+      "Projete a ferramenta com o tubo em pé e peça que uma criança venha à lousa e arraste um dos pinos para onde quiser, acima ou abaixo do zero.",
+      "Arraste a própria escala para um lado e para o outro com a turma olhando: números que estavam fora da tela aparecem, e os dois pinos continuam nos mesmos números.",
+      "Use o botão de trazer o zero sempre que a turma se perder — ele recoloca o zero no meio da tela e não mexe nos pinos.",
+      "Antes de mudar os pinos de lugar, peça que a turma diga em voz alta se a distância entre eles vai mudar; só depois arraste.",
+      "Aperte o botão que deita o tubo no meio da conversa, e não no fim: a pergunta boa é o que mudou, e a resposta é nada.",
+      "Passe para outra posição e repita. Depois de duas ou três, a turma começa a prever a distância antes mesmo de você abrir a próxima."
+    ],
+    "classroomIdeas": [
+      "Ponha os dois pinos exatamente no mesmo número: a distância some da tela. Peça que a turma explique por que não sobrou nada para medir.",
+      "Faça o mesmo pedaço duas vezes, uma vez todo acima do zero e outra vez todo abaixo dele. O número é o mesmo, e é aí que costuma nascer a discussão mais longa da aula.",
+      "Deslize a escala até o zero sair da tela e deixe assim por um minuto: sem o zero à vista, a turma passa a se orientar pelos números que sobraram.",
+      "Deite o tubo com uma criança segurando o dedo em um dos pinos. O dedo não precisa sair do lugar, e isso mostra melhor do que qualquer explicação que o giro não mexeu em nada.",
+      "Segundo ano, unidade temática Números da BNCC: depois da rotina na lousa, peça que a turma copie a escala no caderno e marque os dois pinos com lápis de cor.",
+      "Imprima o tubo em branco e deixe cada criança numerar a escala do seu jeito, começando de onde quiser — inclusive de um número abaixo do zero."
+    ],
+    "metaTitle": "O Tubo que Deita — números abaixo de zero, anos iniciais",
+    "metaDescription": "Dois pinos em uma escala que passa abaixo do zero, e um botão que deita o tubo inteiro sem mudar nada. Ferramenta gratuita para a lousa digital, anos iniciais."
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

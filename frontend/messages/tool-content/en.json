@@ -1164,6 +1164,35 @@
     "metaTitle": "The Planks — see the difference as a piece, K-2",
     "metaDescription": "Two planks from one line. The overhang comes off the long one and lands at the end of the short one, and they reach the same. A free whiteboard tool for K-2."
   },
+  "cold-line": {
+    "slug": "below-zero-number-line-thermometer-grade-1-3",
+    "name": "Upright and Flat",
+    "tagline": "A tall column with a scale beside it you can drag, numbered above and below zero — and one control that lays the whole thing flat, after which nothing about it has changed.",
+    "about": [
+      "Beside the column stands a scale of numbers. Drag the scale itself and it slides along the column, bringing higher or lower numbers into view. Two marks sit on the scale and move independently, and between them stands a single number: how far apart they are. That is everything on the board. No unit after the number, no question, no box to fill in, no clock running down.",
+      "The numbers continue below zero, and that is the whole reason the tool exists. A child in Stockholm or Rotterdam reads minus five off a wall in January, years before negative numbers are mentioned in class. That child is seeing a place, not a calculation. Here minus five is also a place: a tick on the scale, exactly as real as the tick at five. Nothing is added and nothing is taken away, because the moment you calculate across zero you are in a different part of the curriculum entirely.",
+      "Then the control that justifies the instrument: the whole thing lies down flat. And nothing about it has become anything else — the same scale, the same two marks, the same distance between them. Standing, the class reads a column. Lying flat, they are looking at a number line, small numbers to the left. That connection is normally invisible: children meet the two separately and take years to notice they are one object. Here they turn it over themselves and see it.",
+      "The board never asks how much it says. That question belongs on a worksheet with an answer key, and we have those too; here nothing happens when a child is right or wrong, because there is nothing to be right or wrong about. There is no efficacy study behind this routine and we claim none. It sits with the Grade 1 to 3 work on building the number system and on reading a scale. Five places are free; the other eleven and the printable sheet come with the Teacher plan."
+    ],
+    "howToUse": [
+      "Put the two marks somewhere before you say anything, and let the class just look first.",
+      "Ask a child to say out loud how far apart the marks are; the number is already there beside them.",
+      "Now drag the scale until completely different numbers are showing, and set the marks the same distance apart up there.",
+      "Then lay the whole thing down flat without changing anything else, and let the class tell you what is different. This is the moment the tool exists for.",
+      "Stand it up again and bring zero to the middle, so everyone sees the numbers running both ways from it.",
+      "Choose the next place and start again, without looking back at the one before."
+    ],
+    "classroomIdeas": [
+      "Two marks above zero, then the same distance entirely below zero: have the class predict whether the number between them changes.",
+      "Put one mark exactly on zero and drag the other slowly downwards while the class counts along out loud.",
+      "Give a target: set the marks so there are exactly eight between them, but with both marks below zero.",
+      "Lay it flat and ask which end is the cold end now; let children point before anyone explains.",
+      "Put both marks on the same number and ask what ought to stand between them, before you drag them apart.",
+      "Do it on paper afterwards: print the sheet, and let children write the numbers in themselves and draw two marks."
+    ],
+    "metaTitle": "Upright and Flat — below zero on a number line, K-3",
+    "metaDescription": "A draggable scale numbered above and below zero, two marks, and the distance between them. Lay it flat and it is a number line. Free whiteboard tool, K-3."
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

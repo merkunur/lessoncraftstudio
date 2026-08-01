@@ -1162,6 +1162,35 @@
     "metaTitle": "Le due travi — confrontare lunghezze, prima e seconda",
     "metaDescription": "Due travi partono dalla stessa linea; il ritaglio che sporge si stacca e va in fondo a quella corta. Strumento gratuito per la LIM, prima e seconda."
   },
+  "cold-line": {
+    "slug": "numeri-sotto-lo-zero-e-distanza-primaria",
+    "name": "Il tubo dei numeri",
+    "tagline": "Un tubo lungo e stretto con la scala dei numeri accanto: le due puntine si mettono sopra o sotto lo zero e fra loro compare la distanza. Poi lo strumento si corica, e resta la stessa identica scala.",
+    "about": [
+      "Sullo schermo c’è un tubo lungo e stretto, e accanto corre la scala dei numeri con i suoi segni. Due puntine si trascinano lungo la scala e si fermano dove volete: una sopra lo zero e l’altra sotto, oppure tutte e due dalla stessa parte. La prima puntina riempie il tubo di colore fino al proprio numero; la seconda lo lascia com’è. Fra le due compare un numero solo, quello della distanza. Anche la scala si trascina, così si raggiungono numeri molto più lontani, nei due sensi, di quelli che si vedono adesso. Solo quando si arriva all’estremo della scala, dove i numeri finiscono, il tubo si allarga come in un vero termometro.",
+      "Sotto lo zero i numeri smettono di comportarsi come i bambini si aspettano: più ci si allontana dallo zero e più il numero detto sembra grande, mentre il valore è sempre più piccolo. È il punto in cui l’ordine imparato contando in avanti si rompe, e su una scheda non si vede, perché lì il numero è scritto e basta. Qui il numero è un posto, e il posto si tocca con il dito. Portare i numeri sotto lo zero in prima e in seconda con uno strumento che somiglia a un termometro è una pratica di classe consolidata, non una scoperta nostra.",
+      "Poi arriva la parte che sorprende. Mettete le puntine vicino allo zero, guardate il numero della distanza e rifate la stessa distanza da tutt’altra parte della scala dei numeri: quel numero non cambia. Uno strumento che sembrava servire solo a leggere un numero diventa uno strumento per misurare salti. E quando lo si corica non succede niente: stessa scala, stessi segni, stessa distanza. Un termometro in piedi e una linea dei numeri sono lo stesso oggetto, girato di un quarto di giro.",
+      "Funziona nel browser, sulla LIM come sul tablet, senza registrazione e senza installare niente. Non c’è nessuna domanda, nessuna risposta giusta, nessun punteggio e nessun tempo che scorre: lo strumento mostra e basta, il parlato lo mettete voi. Cinque disposizioni già pronte e tutto l’apparecchio sono gratuiti; con il piano Insegnante si aprono le altre undici e il foglio da stampare, due tubi vuoti con i soli segni e nessun numero, da numerare a mano. Il lavoro sui numeri sotto lo zero e sulle distanze richiama i traguardi di Numeri delle Indicazioni nazionali."
+    ],
+    "howToUse": [
+      "Proietta lo strumento e trascina una puntina sotto lo zero e l’altra sopra: fra le due compare subito il numero della distanza.",
+      "Prima di spostare qualcosa, chiedi alla classe di dire ad alta voce che numero ha sotto ciascuna puntina. Accogli anche le risposte che non coincidono.",
+      "Trascina la scala dei numeri finché lo zero esce di vista, poi tocca «Centra lo zero» per riportarlo in mezzo: lo zero non è la fine della scala, è un posto come gli altri.",
+      "Rifai la stessa distanza in un altro punto della scala dei numeri: puntine spostate, numeri diversi, e il numero fra loro resta quello di prima.",
+      "Tocca «Corica lo strumento» mentre i bambini guardano, e lascia qualche secondo di silenzio. Non si è mosso niente della scala dei numeri, ed è proprio questo il punto.",
+      "Con «Altre due puntine» passa alle due puntine successive; dopo due o tre la classe comincia a prevedere il numero della distanza prima ancora che compaia."
+    ],
+    "classroomIdeas": [
+      "Metti le due puntine sullo stesso numero: il numero della distanza sparisce. Chiedi alla classe perché stavolta non c’è niente da misurare.",
+      "Una puntina resta ferma sullo zero e l’altra si allontana piano dalla parte sotto lo zero: i bambini leggono ad alta voce mentre il numero detto cresce e il valore diventa sempre più piccolo.",
+      "Il gioco del congelatore: un bambino sceglie un posto sotto lo zero per il congelatore di casa, un altro un posto sopra per l’aula, e la classe dice quanto stanno lontani.",
+      "Copri con la mano il numero della distanza: dalle due puntine la classe lo ricostruisce a voce, poi togli la mano e si controlla insieme.",
+      "Stessa distanza, posti diversi: due bambini alla lavagna devono trovare due puntine lontane come le prime, ma dall’altra parte dello zero.",
+      "Rifallo su carta con il foglio da stampare: i due tubi arrivano vuoti, con i soli segni, e sono i bambini a scrivere i numeri, chi partendo dallo zero, chi partendo da un’estremità."
+    ],
+    "metaTitle": "Il tubo dei numeri — sotto lo zero, prima e seconda",
+    "metaDescription": "Un tubo con la scala dei numeri: le puntine vanno sopra o sotto lo zero e fra loro compare la distanza. Coricato, è una linea dei numeri. Gratis per la LIM."
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

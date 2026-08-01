@@ -1163,6 +1163,35 @@
     "metaTitle": "Brædderne – sammenlign længde, se forskellen, indskolingen",
     "metaDescription": "To brædder fra den samme streg: det stykke, der rager ud, tages af og lægges ende mod ende med det korte bræt. Gratis tavleværktøj til indskolingen."
   },
+  "cold-line": {
+    "slug": "under-nul-termometer-indskoling",
+    "name": "Fra lodret til vandret",
+    "tagline": "Et højt rør med en skala ved siden af, som man kan trække i, med tal både over og under nullet — og en knap, der lægger hele sagen ned, hvorefter der ikke har ændret sig noget ved den.",
+    "about": [
+      "Ved siden af røret står en skala med tal. Træk i selve skalaen, så glider den op eller ned langs røret, og andre tal kommer frem. På skalaen sidder to nåle, som kan flyttes hver for sig, og mellem nålene står ét tal: hvor langt der er mellem dem. Mere er der ikke på tavlen. Intet mål, ingen enhed efter tallet, ingen spørgsmål, intet felt at skrive i, ingen tid der løber.",
+      "Tallene fortsætter under nullet, og det er hele grunden til, at værktøjet findes. Et barn i Danmark læser minus fem af en væg i januar længe før negative tal overhovedet bliver nævnt i klassen. Barnet ser da et sted, ikke et regnestykke. Her er minus fem også et sted: en streg på skalaen, lige så virkelig som stregen ved fem. Der bliver ikke lagt noget til og ikke trukket noget fra, for i samme øjeblik man regner hen over nullet, er man et helt andet sted i forløbet.",
+      "Så knappen, der gør forskellen. Læg hele røret ned, og det er den samme skala, de samme streger, de samme to nåle og den samme afstand imellem dem — det ligger bare vandret nu. Det, der stående lignede et termometer, hedder liggende en tallinje. Det er ikke en sammenligning og ikke et billede ved siden af: det er den samme ting, drejet en kvart omgang. Børn, der kender begge dele, kender dem som regel som to forskellige ting.",
+      "Tavlen spørger aldrig, hvor meget der står. Det spørgsmål hører til et ark med facit, og dem har vi også; her sker der ingenting, når man gør noget rigtigt eller forkert, for der er ikke noget at gøre rigtigt eller forkert. Der findes ingen effektundersøgelse bag denne rutine, og vi påstår ingen. Sådan knytter værktøjet an til Fælles Mål og arbejdet med tal og måling i indskolingen. Fem steder er gratis; de elleve andre og udskrivningen følger med Lærerabonnementet."
+    ],
+    "howToUse": [
+      "Sæt de to nåle et sted, før du siger noget, og lad klassen kigge først.",
+      "Lad et barn sige højt, hvor langt der er mellem nålene; tallet står der allerede.",
+      "Træk nu skalaen opad, indtil der står helt andre tal, og sæt nålene lige så langt fra hinanden deroppe.",
+      "Læg derefter hele røret ned uden at ændre noget, og lad klassen sige, hvad der er blevet anderledes. Det er derfor værktøjet findes.",
+      "Stil det op igen og find nullet, så alle kan se, at tallene fortsætter til begge sider.",
+      "Vælg det næste sted og begynd forfra uden at vende tilbage til det forrige."
+    ],
+    "classroomIdeas": [
+      "To nåle over nullet, og derefter den samme afstand helt under nullet: lad klassen gætte, om tallet imellem dem ændrer sig.",
+      "Sæt den ene nål præcis på nullet, og træk den anden langsomt nedad, mens klassen tæller med højt.",
+      "Giv et mål: sæt nålene, så der bliver præcis otte imellem dem, men med begge nåle under nullet.",
+      "Læg røret ned, og spørg, hvilken side der nu er den kolde; lad børnene pege, før nogen forklarer det.",
+      "Sæt de to nåle det samme sted, og spørg, hvad der så burde stå imellem dem, før I trækker dem fra hinanden.",
+      "Gør det bagefter på papir: print skalaen, lad børnene skrive tallene på selv og tegne to nåle."
+    ],
+    "metaTitle": "Fra lodret til vandret – under nul, 1.–3. klasse",
+    "metaDescription": "Skala man kan trække i, med tal over og under nullet, to nåle og afstanden imellem. Læg den ned, og det er en tallinje. Gratis til indskolingen, 1.–3. kl."
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

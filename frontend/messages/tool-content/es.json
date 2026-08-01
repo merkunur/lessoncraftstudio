@@ -1162,6 +1162,34 @@
     "metaTitle": "Los dos tablones — comparar longitudes, primero y segundo",
     "metaDescription": "Dos tablones salen de la misma línea; el recorte que sobresale se quita y se pone al final del corto. Herramienta gratuita para la pizarra digital."
   },
+  "cold-line": {
+    "slug": "termometro-numeros-bajo-cero-primaria",
+    "name": "Bajo cero",
+    "tagline": "Un tubo largo y angosto con su escala: las dos señales se ponen donde uno quiera, arriba o abajo del cero, y el número de en medio dice cuánto las separa. Después el tubo se pone de lado y nada cambia.",
+    "about": [
+      "En la pantalla hay un tubo largo y angosto y, a un costado, una escala de rayas y números que no termina en el cero y sigue hacia los dos lados. Sobre la escala hay dos señales que los niños arrastran hasta donde quieran, una por encima del cero y la otra por debajo. El color del tubo llega hasta la primera señal y ahí se detiene; la segunda lo deja como está. Entre las dos aparece un número que dice cuánto las separa. Y cuando una señal se sale de la vista, lo que se arrastra es la escala entera: no hay un principio ni un final, solo el tramo que estás mirando.",
+      "Trabajar por debajo del cero es difícil por una razón muy concreta: hasta ahora, para estos niños, el cero era el principio de todo y contar hacia atrás terminaba ahí. Aquí el cero deja de ser un tope y pasa a ser un lugar, con números a los dos lados. Es la misma lectura que hacen frente al termómetro de la pared, y es práctica habitual en primaria apoyarse en ese objeto cotidiano antes de que aparezca ninguna operación. Esta herramienta no pide ninguna cuenta: solo paradas y la separación que hay entre ellas.",
+      "Lo que sorprende llega al cambiar las señales de lugar. Si están muy por debajo del cero y el número de en medio dice ocho, al deslizar la escala hasta otro tramo, muy lejos de ahí, y volver a separarlas igual, el número vuelve a decir ocho: la separación no depende de dónde estén. Y entonces se pone el tubo de lado. La escala es la misma, las señales están en los mismos números y la separación no se movió. Un termómetro de pie y una recta numérica acostada son el mismo objeto girado, y girarlo no cambió nada de lo que importa.",
+      "En el salón funciona proyectada: un niño arrastra desde la pizarra mientras el resto dice en voz alta dónde quedaron las señales. No hace falta leer nada para entenderla, así que sirve igual con quien todavía no lee o está aprendiendo español, y se abre desde el navegador, sin instalar nada y sin cuenta. Cinco paradas y toda la herramienta —las dos señales, la escala que se desliza y el giro— son gratuitas para siempre. Con el plan Docente llegan las otras once y los tubos sin números para imprimirlos y numerarlos en papel."
+    ],
+    "howToUse": [
+      "Proyecta la herramienta y arrastra las dos señales hasta que una quede por encima del cero y la otra por debajo; también puede hacerlo un niño desde la pizarra.",
+      "Pide al grupo que lea en voz alta dónde quedó cada señal antes de mirar el número que aparece entre las dos.",
+      "Arrastra la escala hasta que el cero desaparezca de la vista y vuelve a colocar las señales igual de separadas; toca Centrar el cero cuando quieras recuperarlo.",
+      "Pon el tubo de lado y no digas nada todavía: deja que sea la clase la que note que la escala, las señales y la separación siguen siendo exactamente las mismas.",
+      "Toca Otra parada y repite. Después de tres o cuatro paradas, los niños empiezan a anticipar el número de en medio antes de que aparezca."
+    ],
+    "classroomIdeas": [
+      "Pon las dos señales en el mismo número: el número de en medio desaparece. Pregunta a la clase qué separación hay cuando las dos están en el mismo lugar.",
+      "Coloca una señal justo encima del cero y la otra justo debajo, y pide que cuenten en voz alta los pasos de una a otra antes de mirar el número de en medio.",
+      "Deja las dos señales por debajo del cero y pregunta cuál de las dos está más cerca del cero. Es la trampa clásica: el número que suena más grande es el que está más lejos.",
+      "Arrastra la escala hasta que el cero no se vea y pregunta hacia qué lado habría que ir para encontrarlo; luego toca Centrar el cero y compruébenlo juntos.",
+      "Pon el tubo de lado antes de que lleguen los niños y déjalo así toda la sesión: trabajen la separación acostado y ponlo de pie al final, para cerrar.",
+      "Hazlo después en papel: cada niño numera su tubo impreso y marca las dos señales que quiera; luego intercambian los tubos y leen la separación del compañero."
+    ],
+    "metaTitle": "Bajo cero — el termómetro y los números, 1.º y 2.º",
+    "metaDescription": "Un tubo con escala que sigue por debajo del cero: mueve las dos señales, mira cuánto las separa y ponlo de lado. Gratis para la pizarra digital."
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

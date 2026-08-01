@@ -1141,6 +1141,35 @@
     "metaTitle": "Lankut – pituuksien vertailu ja ero näkyviin, alkuopetus",
     "metaDescription": "Kaksi lankkua lähtee samalta viivalta: yli jäävä pala irtoaa pitkästä lankusta ja asettuu lyhyen lankun jatkoksi. Ilmainen väline alkuopetuksen älytaululle."
   },
+  "cold-line": {
+    "slug": "nollan-alapuolella-lampomittari-alkuopetus",
+    "name": "Nollan alapuolella",
+    "tagline": "Korkea putki ja sen vieressä vedettävä asteikko, jossa on lukuja sekä nollan yläpuolella että sen alapuolella — ja yksi painike, joka panee koko laitteen pitkälleen muuttamatta siitä mitään.",
+    "about": [
+      "Putken vieressä on asteikko, jossa on lukuja. Vedä asteikkoa itseään, niin se liukuu putkea pitkin ylös tai alas ja esiin tulee toisia lukuja. Putken sisällä oleva neste nousee ensimmäisen nastan tasalle, ja alaosan pallo pysyy paikallaan. Asteikolla on kaksi nastaa, joita voi siirtää erikseen, ja nastojen välissä näkyy yksi luku: kuinka kaukana ne ovat toisistaan. Enempää taululla ei ole. Ei mittayksikköä luvun perässä, ei kysymystä, ei täytettävää ruutua, ei juoksevaa aikaa.",
+      "Luvut jatkuvat nollan alapuolelle, ja juuri siksi koko väline on olemassa. Suomalainen lapsi lukee tammikuussa seinältä miinus viisi kauan ennen kuin negatiivisista luvuista puhutaan luokassa sanaakaan. Lapsi näkee silloin paikan, ei laskutoimitusta. Täällä miinus viisi on niin ikään paikka: viiva asteikolla, aivan yhtä todellinen kuin viiva viiden kohdalla. Mitään ei lisätä eikä oteta pois, sillä sillä hetkellä kun nollan yli lasketaan, ollaan aivan toisessa kohdassa opetussuunnitelmaa.",
+      "Ja sitten se painike, joka ratkaisee. Pane koko putki pitkälleen, ja edessä on sama asteikko, samat viivat, samat kaksi nastaa ja sama etäisyys niiden välillä — se vain makaa nyt vaakatasossa. Se mikä pystyssä näytti lämpömittarilta, on pitkällään lukusuora. Kyse ei ole vertauksesta eikä viereen asetetusta kuvasta: se on sama esine neljänneskierroksen verran käännettynä. Lapset, jotka tunnistavat molemmat, tunnistavat ne yleensä kahtena eri asiana.",
+      "Taulu ei koskaan kysy, paljonko siinä lukee. Se kysymys kuuluu tehtäväarkille, jolla on vastaukset, ja sellaisiakin meillä on; täällä ei tapahdu mitään oikein tai väärin tekemisestä, koska mitään ei voi tehdä oikein tai väärin. Tästä rutiinista ei ole vaikuttavuustutkimusta emmekä sellaista väitä. Näin väline liittyy OPS 2014:n lukukäsitteen ja mittaamisen tavoitteisiin ensimmäisellä, toisella ja kolmannella luokalla. Viisi kohtaa on ilmaisia; loput yksitoista ja tulostus kuuluvat Opettaja-tilaukseen."
+    ],
+    "howToUse": [
+      "Aseta kaksi nastaa jonnekin ennen kuin sanot mitään, ja anna luokan ensin vain katsoa.",
+      "Anna lapsen sanoa ääneen, kuinka kaukana nastat ovat toisistaan; luku näkyy jo valmiina.",
+      "Vedä nyt asteikkoa ylöspäin, kunnes esillä on aivan toisia lukuja, ja aseta nastat yhtä kauas toisistaan siellä.",
+      "Pane sitten koko putki pitkälleen mitään muuttamatta ja anna luokan kertoa, mikä on toisin. Tätä varten koko väline on olemassa.",
+      "Nosta se takaisin pystyyn ja etsi nolla, jotta kaikki näkevät lukujen jatkuvan kumpaankin suuntaan.",
+      "Valitse seuraava kohta ja aloita alusta palaamatta edelliseen."
+    ],
+    "classroomIdeas": [
+      "Kaksi nastaa nollan yläpuolelle ja sitten sama etäisyys kokonaan nollan alapuolelle: antakaa luokan ennustaa, muuttuuko niiden välinen luku.",
+      "Asettakaa toinen nasta täsmälleen nollan kohdalle ja vetäkää toista hitaasti alaspäin luokan laskiessa ääneen mukana.",
+      "Antakaa tavoite: asettakaa nastat niin, että väliin jää täsmälleen kahdeksan, mutta molemmat nastat nollan alapuolelle.",
+      "Pankaa putki pitkälleen ja kysykää, kumpi puoli on nyt kylmä; antakaa lasten osoittaa ennen kuin kukaan selittää.",
+      "Asettakaa nastat samaan kohtaan ja kysykää, mitä väliin silloin pitäisi tulla, ennen kuin vedätte ne erilleen.",
+      "Tehkää sama paperilla: tulostakaa asteikko, antakaa lasten kirjoittaa luvut itse ja piirtää kaksi nastaa."
+    ],
+    "metaTitle": "Nollan alapuolella – lukusuora ja putki, 1.–3. lk",
+    "metaDescription": "Vedettävä asteikko, jossa lukuja nollan ylä- ja alapuolella, kaksi nastaa ja niiden etäisyys. Pane pitkälleen, ja se on lukusuora. Ilmainen, 1.–3. luokka."
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

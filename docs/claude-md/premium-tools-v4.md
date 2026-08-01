@@ -15,9 +15,9 @@ Working record: `[[project_premium_tools_v4_catalog]]` · `[[project_arrow_strip
 > re-design it.** Read the entry for the next tool below, run the four-surface fence, then build
 > to the recipe at the end of this file.
 > **STATE: `#36 The Number Sieve` · `#37 The Arrow Strip` · `#38 The Draw Bag` ·
-> `#39 The Lids` — ALL LIVE. **WAVE 1 IS CLOSED.** → NEXT = wave 2, `B3 Unit Handle`.
-> Constants for the next build: header ordinal **#40** · `PREV = 'lids'` ·
-> `TOOL_WRAPPER_VERSION` **7.52 → 7.53** · `TOOL_KEYS` position **43**.
+> `#39 The Lids` — ALL LIVE. **WAVE 1 IS CLOSED.** `#40 The Unit Handle` (B3) LIVE → **WAVE 2 IS OPEN; NEXT = `B4 Unrolling Tape`.**
+> Constants for the next build: header ordinal **#41** · `PREV = 'unit-handle'` ·
+> `TOOL_WRAPPER_VERSION` **7.53 → 7.54** · `TOOL_KEYS` position **44**.
 
 ---
 
@@ -329,17 +329,44 @@ with published card sets in every Grundschule cupboard, and **CCSS codes none of
 ⚠ Header must state the commodity line: a Bauplan is **not** "3-D solids and nets" — it names no
 solid and unfolds nothing. It is a plan/elevation *notation*.
 
-### B3 · The Unit Handle
+### B3 · The Unit Handle — ✅ **BUILT + LIVE as `#40 unit-handle` (2026-08-01, `8af5e1c2` + `b6e13a1f`)**
 One object; two tapes beneath it, each built from repeated identical unit tiles, each with **a
 single handle that changes the size of its unit**, continuously. The object never changes.
 **THE INVENTION:** the unit itself is the draggable thing and both counts are live at once — push
 the top unit smaller and its numeral climbs while the bottom sits still. You cannot own a ruler
-whose centimetre grows. **Gate:** on a 1000-step lattice, for **every unit size 1…1000** count =
-⌊L/u⌋ and the remainder tile's rendered width is exactly L − u·count within **0.00px**;
-monotonicity over all **499,500 pairs**; and **the object's rendered path is byte-identical across
-all 1,000 unit settings** — it provably cannot flinch.
-**Fence:** `measurement-bench` LENGTH lays *fixed* illustrated units end-to-end, one tape at a
-time. **2.MD.A.2 is absent from all 204 activities and all 38 tools.**
+whose centimetre grows.
+
+**AS SHIPPED, vs the spec above:**
+- **It opens on two DIFFERENT units** (`uA:160, uB:100`), so one object carries two numbers in the
+  first frame and the question is posed before anyone touches anything. "Same unit on both" is the
+  button that collapses them. (The gate initially asserted the opposite, from the howToUse copy.)
+- **The gate spec did not survive contact — the fourth time in this catalog.** "every unit size
+  1…1000 … 499,500 pairs" is arithmetically right and pedagogically impossible: at `u=1` the tape
+  carries **1000 tiles**. The real domain is bounded by LEGIBILITY —
+  `u ∈ [ceil(L/MAX_COUNT), floor(L/MIN_COUNT)]`, `MIN_COUNT=2`, `U_MIN=50` **measured** (raised from
+  45 when the smallest tile rendered 32.3px against the 34px desktop floor). True figures, printed
+  by the gate: **2,212 unit settings, 231,300 monotone pairs.**
+- **Monotonicity is NON-STRICT.** `floor(L/u)` is non-*increasing*; for most adjacent pairs it is
+  equal. Asserting a strict decrease fails on a correct tool. Asserted non-increasing **plus
+  "it decreases somewhere"** so the law cannot be vacuous.
+- **V4 tested INVARIANCE but not CORRECTNESS**, so "the object hangs off the wrong edge" survived
+  mutation. **V4b** applies the placement affine to the trim corners (0.0000px).
+
+**Fence — re-run fresh on all four surfaces, CLEAN.** `2.MD.A.2` appears exactly once in the repo,
+inside the catalog's own stale claim (which named only two of the four surfaces and said "38
+tools"). `lay-units-core.js:44` **actively bans** mixed-size units; `measurement-bench` wipes its
+layout on every unit switch (`:1215`), computing both numbers and throwing each away before the
+other is made — so it does not own a changeable unit, it structurally forbids one. **Near-miss
+cited, not hidden:** `lay-units-activities.json:258`'s `inverse-leaf` round pre-SPEAKS the
+conclusion (`"Smaller helpers, more of them!"`) because telling was all it could do.
+
+⚠ **The §23.7 closed-strand line ("capacity/weight/non-standard length") is an OWNERSHIP claim, and
+on this one point it was measured FALSE.** It stands for the rest of the strand.
+
+**Gates as run:** verify V1–V14 + V4b (oracle by repeated subtraction — a deliberately different
+algorithm) · mutate **38/38 killed, 0 harness faults** · local-test 36 assertions with real pointer
+drags · smoke 208 × 11 · locale-layout 66 renders · liveness × 3 entitlement states ·
+**live-verify 100 assertions driven on production**.
 
 ### B4 · The Unrolling Tape
 A flexible tape lays itself along a curved outline; one tap and it **peels off and lies down
@@ -576,8 +603,8 @@ One tool per plan-mode session, registration inside the build commit — the pro
   *Why these four:* A1 has the strongest gate story on the platform and the largest machine-growable
   repertoire; B1 and C1 are the two clearest cases of the European slot shape and both are wordless
   by construction rather than by translation effort; A2 carries the largest proven demand.
-- **Wave 2 — the measurement spine (4).** `B3 Unit Handle` · `B4 Unrolling Tape` · `A5 Comparison
-  Tape` · `B7 Cold Line`.
+- **Wave 2 — the measurement spine (4).** ~~`B3 Unit Handle`~~ ✅ **LIVE as #40** · **`B4 Unrolling
+  Tape` ← NEXT** · `A5 Comparison Tape` · `B7 Cold Line`.
 - **Wave 3 — space and structure (4).** `B2 Build Plan` · `B5 Reshape` · `B6 Hinge` · `A3 Counting
   Tray`.
 - **Wave 4 — number depth (3).** `A4 Carry Wheels` · `A6 Grouping Dial` · `A7 Hundred Field`.

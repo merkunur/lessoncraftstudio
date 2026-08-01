@@ -52,7 +52,7 @@ export default async function HomepageV6Preview({ params }: { params: { locale: 
 
   return (
     <div className="hv6-page">
-      <OpeningV6 locale={locale} />
+      <OpeningV6 locale={locale} travelerThumb={travelerThumb} />
 
       {/* THE THREAD — one element, one long gradient, one line. Sections in
           here cannot band: the ground belongs to the thread, not to them. */}

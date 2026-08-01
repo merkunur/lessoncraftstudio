@@ -1,71 +1,64 @@
-/* OpeningV6 — the Lesson Line masthead. The claim + a WORKING CSS rekenrek
-   on a stage card. Zero images above the fold: the LCP candidate is the H1
-   itself. The number line begins beneath this panel (the .hv6-thread).
+/* OpeningV6 (v6.1) — the Classroom Mobile masthead.
 
-   H1 = three sentences, one per line, leading verb in coral — the same three
-   verbs that reappear as tick coins down the page (Teach / Practice / Print).
-   The verb split is display-only (first word); the full sentence lives intact
-   in the i18n string, so screen readers and crawlers read natural prose. */
+   The picture, not the pitch: a Calder-style mobile of the product's own
+   working apparatus hangs in the dark masthead (ClassroomMobile.tsx), and
+   the page's number-line spine drops from its worksheet. Text is on a
+   strict diet — ONE H1 line, one sub, two CTAs, one micro-line. The H1 is
+   server-rendered text and remains the LCP element.
+
+   Desktop ≥1024: text block left (z2), sculpture absolute from the page
+   centerline filling the right. Below 1024 the sculpture renders AFTER the
+   text (relative, centered, CSS-pruned to four objects) — it compresses,
+   it never vanishes. */
 
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
-import ToolVignette from './ToolVignette';
+import ClassroomMobile from './ClassroomMobile';
 
 interface Props {
   locale: string;
+  /** The traveler worksheet thumbnail — the hanging sheet IS the same deck
+   *  the visitor meets again at Make / Print / Share. */
+  travelerThumb: string;
 }
 
-function VerbLine({ text }: { text: string }) {
-  const space = text.indexOf(' ');
-  if (space < 1) return <span className="block">{text}</span>;
-  return (
-    <span className="block">
-      <span className="text-lcs-coral">{text.slice(0, space)}</span>
-      {text.slice(space)}
-    </span>
-  );
-}
-
-export default async function OpeningV6({ locale }: Props) {
+export default async function OpeningV6({ locale, travelerThumb }: Props) {
   const t = await getTranslations({ locale, namespace: 'homepageV6.hero' });
 
   return (
-    <header className="hv6-masthead hv6-grain hv6-hero" data-testid="hero-section">
-      <div className="container mx-auto px-4 max-w-6xl pt-14 pb-24 md:pt-20 md:pb-32">
-        <div className="grid grid-cols-1 lg:grid-cols-[1.08fr_0.92fr] gap-12 lg:gap-16 items-center">
-          {/* The claim */}
-          <div>
-            <h1 className="font-lcsDisplay font-bold leading-[1.06] tracking-tight text-[2.25rem] sm:text-[2.875rem] md:text-[3.5rem] text-lcs-cream">
-              <VerbLine text={t('h1a')} />
-              <VerbLine text={t('h1b')} />
-              <VerbLine text={t('h1c')} />
+    <header
+      className="hv6-masthead hv6-grain hv6-hero relative"
+      style={{ overflowX: 'clip' }}
+      data-testid="hero-section"
+    >
+      <div className="container mx-auto px-4 max-w-6xl relative z-[2]">
+        <div className="lg:min-h-[620px] flex items-center pt-12 pb-6 lg:py-0">
+          {/* 400px cap at lg keeps the text clear of the hanging worksheet
+              (which rides the page centerline); wider again from xl. */}
+          <div className="max-w-[480px] lg:max-w-[400px] xl:max-w-[480px]">
+            <h1 className="font-lcsDisplay font-bold leading-[1.08] tracking-tight text-[2.375rem] sm:text-[2.75rem] md:text-[3.25rem] text-lcs-cream">
+              {t('h1')}
             </h1>
-            <p className="mt-6 font-lcsBody text-base md:text-lg leading-relaxed text-[#DCEAE4] max-w-xl">
+            <p className="mt-5 font-lcsBody text-base md:text-lg leading-relaxed text-[#DCEAE4]">
               {t('sub')}
             </p>
-            <div className="mt-8 flex flex-col sm:flex-row gap-4 items-start sm:items-center">
-              <Link href={`/${locale}/tools`} className="hv6-cta hv6-cta-primary hv6-cta-lg">
+            <div className="mt-8 flex flex-col sm:flex-row sm:flex-wrap gap-4 items-start sm:items-center">
+              <Link href={`/${locale}/tools`} className="hv6-cta hv6-cta-primary hv6-cta-lg whitespace-nowrap">
                 {t('ctaTools')}
               </Link>
-              <Link href={`/${locale}/worksheets/`} className="hv6-cta hv6-cta-cream hv6-cta-lg">
+              <Link href={`/${locale}/worksheets/`} className="hv6-cta hv6-cta-cream hv6-cta-lg whitespace-nowrap">
                 {t('ctaWorksheets')}
               </Link>
             </div>
             <p className="mt-6 font-lcsBody text-sm text-[#C3DBD3]">{t('microLine')}</p>
           </div>
-
-          {/* The working rekenrek — pure CSS, no image, no iframe. */}
-          <div className="hidden sm:flex flex-col items-center gap-3">
-            <div className="hv6-stage w-full max-w-[430px]">
-              <div className="flex items-center justify-between mb-1">
-                <span className="font-lcsDisplay font-bold text-lg text-lcs-teal">{t('stageLabel')}</span>
-              </div>
-              <ToolVignette variant="rekenrek" bare />
-            </div>
-            <p className="hv6-pen text-[#F5B08E]">{t('penRekenrek')}</p>
-          </div>
         </div>
       </div>
+
+      {/* The sculpture. Absolute (page centerline → right half) on desktop;
+          in flow below the text on smaller screens. Rendered after the text
+          so the mobile-viewport order is text → sculpture. */}
+      <ClassroomMobile travelerThumb={travelerThumb} />
     </header>
   );
 }

@@ -2786,5 +2786,122 @@
     "subscribeCta": "Katso Opettaja-tilaus",
     "signupCta": "Rekisteröidy ilmaiseksi",
     "dismissCta": "Ei nyt"
+  },
+  "homepageV6": {
+    "metadata": {
+      "title": "Etusivun v6 esikatselu – Oppitunnin lukusuora",
+      "description": "Uudistetun etusivun (Oppitunnin lukusuora) sisäinen esikatselu."
+    },
+    "hero": {
+      "h1": "Jokainen oppitunti, tasapainossa.",
+      "sub": "Opetustyökalut luokan eteen, itsekorjaavat tehtäväarkit, tulosteet vastauksineen ja tehtävägeneraattorit – ilmaiseksi esiopetuksesta 3. luokkaan.",
+      "ctaTools": "Avaa opetustyökalu",
+      "ctaWorksheets": "Selaa tehtäväarkkeja",
+      "microLine": "Aloita ilmaiseksi · ei kirjautumista · ei mitään asennettavaa"
+    },
+    "ticks": {
+      "teach": "Opeta",
+      "practice": "Harjoittele",
+      "make": "Tee",
+      "paper": "Tulosta",
+      "share": "Jaa"
+    },
+    "teach": {
+      "heading": "Aloita siitä, mistä jokainen oppitunti alkaa: luokan edestä",
+      "body": "{count} työkalua, jotka heijastat taululle ja joiden äärestä opetat. Väline hoitaa korjaamisen: vaaka kallistuu, eikä kenenkään tarvitse sanoa väärin.",
+      "caption": "{count} työkalua · ilmaisia, ilman kirjautumista · ei ajastimia, ei pisteitä, ei suoritusputkia",
+      "seeAll": "Katso kaikki {count} työkalua",
+      "liveTag": "Live",
+      "penBalance": "vaaka kallistuu – kenenkään ei tarvitse sanoa väärin"
+    },
+    "live": {
+      "cta": "Kokeile tässä",
+      "note": "Latautuu hetkessä – ei mitään asennettavaa.",
+      "openFull": "Avaa koko työkalu"
+    },
+    "practice": {
+      "heading": "Sitten sama idea jokaisen lapsen käsiin",
+      "body": "Yli 200 lyhyttä tehtävää ja jokainen tehtäväarkki toimivat suoraan selaimessa, sidottuina juuri siihen OPS:n tavoitteeseen, jota tällä viikolla opetat. Sivu tarkistaa itsensä hiljaa, joten sinä kierrät luokkaa etkä vastauslistaa.",
+      "caption": "Linjassa sen opetussuunnitelman kanssa, jota oikeasti opetat.",
+      "browseActivities": "Kokeile tehtävää",
+      "browseWorksheets": "Selaa kaikkia tehtäväarkkeja",
+      "openDeck": "Avaa tehtäväarkin sivu",
+      "altActivity": "{label} – tehtävän esikatselu",
+      "penChoral": "laskekaa yhdessä ääneen – taulukko täyttyy itsestään",
+      "penShelf": "tehtävät ja tehtäväarkit samalla hyllyllä"
+    },
+    "make": {
+      "heading": "Tee siitä täsmälleen luokkasi näköinen",
+      "body": "Valitse harjoitus, lukualue, teema ja kuvat – vaikka omat valokuvasi. Yhdellä teolla saat interaktiivisen, itsekorjaavan tehtäväarkin sekä tulostusvalmiin PDF:n vastauksineen.",
+      "caption": "{count} generaattoria · 3 000 kuvan kirjasto · myös omat valokuvasi",
+      "forkLabel": "Yksi teko, kaksi tulosta",
+      "forkPlay": "Toimii selaimessa",
+      "forkPrint": "Tulostuu vastauksineen",
+      "cta": "Rakenna tehtäväarkki",
+      "makerAlt": "Tehtävägeneraattorin säätimet: harjoitus, teema, kuvitus, vaikeustaso",
+      "penTiles": "kolme kirjainlaattaa, yksi sana – tehty, ei valmiiksi löydetty",
+      "penTraveler": "syntyi tässä – katso, minne tämä arkki matkaa"
+    },
+    "paper": {
+      "heading": "Jokainen tehtäväarkki on myös paperia",
+      "body": "Ei vain osa – ihan jokainen. Sama sivu, joka pelataan tabletilla, tulostuu PDF:nä vastauksineen.",
+      "tagPlay": "Toimii selaimessa",
+      "tagPrint": "Tulostuu vastauksineen",
+      "penTraveler": "yhä sama arkki",
+      "playAlt": "Interaktiivinen tehtäväarkki pelattavana selaimessa",
+      "printAlt": "Sama tehtäväarkki tulostettavana sivuna"
+    },
+    "share": {
+      "heading": "Näytöltäsi 25 lapselle sekunnissa",
+      "body": "Kaikesta, minkä löydät tai teet, syntyy yksi linkki ja yksi QR-koodi. Lapset skannaavat ja pelaavat millä tahansa laitteella – ilman oppilastilejä, ilman asennuksia.",
+      "chip1": "Yksi linkki",
+      "chip2": "Yksi QR-koodi",
+      "chip3": "Mikä tahansa laite",
+      "chip4": "Ei oppilastilejä",
+      "qrAlt": "QR-koodi, joka avaa tehtäväarkin millä tahansa laitteella",
+      "penTraveler": "sama arkki taas – nyt 25 lapsen käsissä",
+      "penClock": "tunti loppuu – sivu odottaa huomennakin"
+    },
+    "keep": {
+      "heading": "Suunnittele oppitunti, säilytä koko vuosi",
+      "body": "Tallenna tekemäsi ja kokoa se jaksoittain – kaikki odottaa valmiina taas elokuussa. Linjassa opetussuunnitelmasi kanssa, 11 kielellä ja kielioppi kohdallaan.",
+      "chipCurricula": "Linjassa 10 kansallisen opetussuunnitelman kanssa",
+      "chipLanguages": "Toimii 11 kielellä",
+      "chipNoData": "Oppilastietoja ei kerätä",
+      "chipNoAds": "Ei mainoksia oppilaiden sivuilla"
+    },
+    "teacher": {
+      "heading": "Ilmainen on oikeasti ilmainen",
+      "body": "Jokainen työkalu on ilmainen ilman kirjautumista, ja interaktiivisia tehtäväarkkeja voi pelata 10 päivässä ilman korttia. Opettajatilaus poistaa kaikki rajat ja tallentaa sen, minkä rakennat.",
+      "freeTitle": "Ilmainen",
+      "freeTag": "Aloita tästä – ei korttia",
+      "free1": "Kaikki työkalut, rajattomasti",
+      "free2": "10 interaktiivista pelikertaa päivässä",
+      "free3": "Selaa koko kirjastoa",
+      "free4": "Kaikki generaattorit avoinna kokeiltaviksi",
+      "freeCta": "Aloita ilmaiseksi – ei korttia",
+      "teacherTitle": "Opettaja",
+      "teacherPrice": "{price} $ vuodessa",
+      "teacherMonthly": "tai {monthly} $/kk",
+      "teacher1": "Rajaton interaktiivinen pelaaminen",
+      "teacher2": "Rajattomat PDF-lataukset vastauksineen",
+      "teacher3": "Tallenna ja kokoa tekemäsi",
+      "teacher4": "Jakolinkit ja luokan QR-koodit",
+      "teacherCta": "Tutustu Opettajatilaukseen",
+      "reassure": "Ei korttia aloittamiseen · yksi kiinteä tilaus · peru milloin tahansa"
+    },
+    "close": {
+      "line1": "Huominen oppitunti",
+      "line2": "odottaa jo tässä.",
+      "body": "Avaa työkalu, jaa tehtäväarkki tai rakenna oma vielä tänä iltana – kaikki toimii jo ennen kirjautumista.",
+      "ctaPrimary": "Aloita ilmaiseksi – ei korttia",
+      "ctaSecondary": "Selaa tehtäväarkkeja"
+    },
+    "browse": {
+      "eyebrow": "Jatka laskemista",
+      "heading": "Kaikki järjestettynä niin kuin sitä etsit",
+      "sub": "Koko kirjasto luokka-asteen, aiheen ja taidon mukaan – ja lisäksi kaikki työkalut.",
+      "toolsHeading": "Työkalut luokkaan"
+    }
   }
 }

@@ -2797,5 +2797,122 @@
     "subscribeCta": "Bekijk het Leerkracht-abonnement",
     "signupCta": "Gratis aanmelden",
     "dismissCta": "Niet nu"
+  },
+  "homepageV6": {
+    "metadata": {
+      "title": "Voorbeeld van de homepage v6 — De leslijn",
+      "description": "Interne voorbeeldweergave van het leslijn-ontwerp voor de homepage."
+    },
+    "hero": {
+      "h1": "Elke les hangt samen.",
+      "sub": "Live hulpmiddelen voor in de klas, zelfnakijkende werkbladen, printbare pdf's met antwoordblad en werkblad-makers — gratis, van kleuters tot en met groep 5.",
+      "ctaTools": "Open een hulpmiddel",
+      "ctaWorksheets": "Bekijk de werkbladen",
+      "microLine": "Gratis om te beginnen · zonder login · niets te installeren"
+    },
+    "ticks": {
+      "teach": "Lesgeven",
+      "practice": "Oefenen",
+      "make": "Maken",
+      "paper": "Printen",
+      "share": "Delen"
+    },
+    "teach": {
+      "heading": "Begin waar elke les begint: voor de klas",
+      "body": "{count} hulpmiddelen die je projecteert en waarmee je vanaf het bord lesgeeft. Het materiaal doet het nakijken: de balans slaat door, dus niemand hoeft 'fout' te zeggen.",
+      "caption": "{count} hulpmiddelen · gratis, zonder login · geen timers, geen scores, geen competitie",
+      "seeAll": "Bekijk alle {count} hulpmiddelen",
+      "liveTag": "Live",
+      "penBalance": "de balans slaat door — niemand zegt fout"
+    },
+    "live": {
+      "cta": "Probeer het hier meteen",
+      "note": "Het laadt in een seconde — niets te installeren.",
+      "openFull": "Open het volledige hulpmiddel"
+    },
+    "practice": {
+      "heading": "Geef het daarna elk kind in handen",
+      "body": "Ruim tweehonderd korte activiteiten en elk werkblad spelen gewoon in de browser, gekoppeld aan het kerndoel waar je deze week aan werkt. De pagina kijkt zichzelf stilletjes na, dus jij loopt door de klas in plaats van het antwoordblad langs.",
+      "caption": "Afgestemd op de kerndoelen waar jij echt mee werkt.",
+      "browseActivities": "Probeer een activiteit",
+      "browseWorksheets": "Bekijk alle werkbladen",
+      "openDeck": "Open de werkbladpagina",
+      "altActivity": "Voorbeeld van de activiteit {label}",
+      "penChoral": "tel hardop mee — de grafiek schrijft zichzelf",
+      "penShelf": "activiteiten en werkbladen, samen op één plank"
+    },
+    "make": {
+      "heading": "Maak het precies passend voor jouw groep",
+      "body": "Kies de oefening, het getalbereik, het thema, de afbeeldingen — of upload je eigen foto's. Eén keer maken geeft je een interactief werkblad dat zichzelf nakijkt én een printklare PDF met antwoordblad.",
+      "caption": "{count} makers · een bibliotheek van 3.000 afbeeldingen · je eigen foto's zijn welkom",
+      "forkLabel": "Eén keer maken, twee resultaten",
+      "forkPlay": "Speelt in de browser",
+      "forkPrint": "Print met antwoordblad",
+      "cta": "Maak een werkblad",
+      "makerAlt": "De instellingen van de werkblad-maker: oefening, thema, afbeeldingen, moeilijkheid",
+      "penTiles": "drie tegels, één woord — zelf gemaakt, niet gevonden",
+      "penTraveler": "hier geboren — kijk hoe dit werkblad reist"
+    },
+    "paper": {
+      "heading": "Elk werkblad is óók papier",
+      "body": "Niet sommige — allemaal. Dezelfde pagina die op een tablet speelt, print als PDF met antwoordblad.",
+      "tagPlay": "Speelt in de browser",
+      "tagPrint": "Print met antwoordblad",
+      "penTraveler": "nog steeds hetzelfde werkblad",
+      "playAlt": "Een interactief werkblad dat in de browser wordt gespeeld",
+      "printAlt": "Hetzelfde werkblad als printbare pagina"
+    },
+    "share": {
+      "heading": "Van jouw scherm naar 25 kinderen in één seconde",
+      "body": "Alles wat je vindt of maakt, wordt één link en één QR-code. Kinderen scannen en spelen op elk apparaat — zonder leerlingaccounts, niets te installeren.",
+      "chip1": "Eén link",
+      "chip2": "Eén QR-code",
+      "chip3": "Elk apparaat",
+      "chip4": "Geen leerlingaccounts",
+      "qrAlt": "Een QR-code die een werkblad opent op elk apparaat",
+      "penTraveler": "weer hetzelfde werkblad — nu in 25 handen",
+      "penClock": "de les is voorbij; morgen staat de pagina er nog"
+    },
+    "keep": {
+      "heading": "Plan één les, bewaar een heel jaar",
+      "body": "Bewaar wat je maakt en verzamel het per blok — in september staat het weer klaar. Afgestemd op jouw curriculum, in 11 talen, met de grammatica op orde.",
+      "chipCurricula": "Afgestemd op 10 nationale curricula",
+      "chipLanguages": "Werkt in 11 talen",
+      "chipNoData": "Geen leerlinggegevens verzameld",
+      "chipNoAds": "Geen advertenties op leerlingpagina's"
+    },
+    "teacher": {
+      "heading": "Gratis is echt gratis",
+      "body": "Elk hulpmiddel is gratis, zonder login; speel 10 interactieve werkbladen per dag zonder kaart. Het Leerkracht-abonnement haalt elke limiet weg en bewaart wat je maakt.",
+      "freeTitle": "Gratis",
+      "freeTag": "Begin hier — geen kaart nodig",
+      "free1": "Elk hulpmiddel voor in de klas, onbeperkt",
+      "free2": "10 keer interactief spelen per dag",
+      "free3": "Blader door de hele bibliotheek",
+      "free4": "Elke maker, vrij te proberen",
+      "freeCta": "Gratis beginnen — geen kaart nodig",
+      "teacherTitle": "Leerkracht",
+      "teacherPrice": "${price} per jaar",
+      "teacherMonthly": "of ${monthly}/maand",
+      "teacher1": "Onbeperkt interactief spelen",
+      "teacher2": "Onbeperkt pdf's downloaden met antwoordblad",
+      "teacher3": "Bewaar en verzamel wat je maakt",
+      "teacher4": "Deellinks en QR-codes voor je klas",
+      "teacherCta": "Bekijk het Leerkracht-abonnement",
+      "reassure": "Geen kaart nodig om te starten · één vast abonnement · altijd opzegbaar"
+    },
+    "close": {
+      "line1": "De les van morgen",
+      "line2": "ligt hier al klaar.",
+      "body": "Open een hulpmiddel, deel een werkblad uit, of maak er vanavond zelf een — alles werkt al voordat je inlogt.",
+      "ctaPrimary": "Gratis beginnen — geen kaart nodig",
+      "ctaSecondary": "Bekijk de werkbladen"
+    },
+    "browse": {
+      "eyebrow": "Tel verder",
+      "heading": "Alles, geordend zoals jij het zoekt",
+      "sub": "De hele bibliotheek — per groep, per onderwerp, per vaardigheid — plus elk hulpmiddel voor in de klas.",
+      "toolsHeading": "Hulpmiddelen voor in de klas"
+    }
   }
 }

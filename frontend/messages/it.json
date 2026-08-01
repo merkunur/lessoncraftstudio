@@ -4318,5 +4318,122 @@
     "subscribeCta": "Vedi il piano Insegnante",
     "signupCta": "Registrati gratis",
     "dismissCta": "Non ora"
+  },
+  "homepageV6": {
+    "metadata": {
+      "title": "Anteprima home page v6 — La linea della lezione",
+      "description": "Anteprima del nuovo design della home page «La linea della lezione»."
+    },
+    "hero": {
+      "h1": "Ogni lezione, in perfetto equilibrio.",
+      "sub": "Strumenti didattici da usare in classe, schede che si autocorreggono, PDF da stampare con le soluzioni e generatori di schede — gratis dall'infanzia alla classe terza.",
+      "ctaTools": "Apri uno strumento didattico",
+      "ctaWorksheets": "Sfoglia le schede",
+      "microLine": "Gratis per iniziare · senza login · niente da installare"
+    },
+    "ticks": {
+      "teach": "Insegna",
+      "practice": "Allena",
+      "make": "Crea",
+      "paper": "Stampa",
+      "share": "Condividi"
+    },
+    "teach": {
+      "heading": "Comincia dove comincia ogni lezione: davanti alla classe",
+      "body": "{count} strumenti da proiettare alla LIM e con cui fare lezione. È lo strumento a correggere: la bilancia pende, e nessuno deve dire «sbagliato».",
+      "caption": "{count} strumenti · gratuiti, senza login · niente timer, niente punteggi, niente gare",
+      "seeAll": "Vedi tutti i {count} strumenti",
+      "liveTag": "Dal vivo",
+      "penBalance": "pende la bilancia, e nessuno dice «sbagliato»"
+    },
+    "live": {
+      "cta": "Provalo qui, adesso",
+      "note": "Si carica in un secondo — niente da installare.",
+      "openFull": "Apri lo strumento completo"
+    },
+    "practice": {
+      "heading": "Poi metti l'idea nelle mani di ogni bambino",
+      "body": "Oltre duecento attività brevi, e ogni scheda si gioca direttamente nel browser, agganciata all'obiettivo che stai trattando questa settimana. La pagina si corregge da sola, in silenzio: tu giri tra i banchi invece di stare sulle soluzioni.",
+      "caption": "Allineate al curricolo che insegni davvero.",
+      "browseActivities": "Prova un'attività",
+      "browseWorksheets": "Vedi tutte le schede",
+      "openDeck": "Apri la pagina della scheda",
+      "altActivity": "Anteprima dell'attività {label}",
+      "penChoral": "contate a voce alta — il grafico si scrive da solo",
+      "penShelf": "attività e schede, un unico scaffale"
+    },
+    "make": {
+      "heading": "Falla su misura per la tua classe",
+      "body": "Scegli l'esercizio, l'intervallo numerico, il tema, le immagini — perfino le tue foto. Da una sola creazione escono una scheda interattiva che si autocorregge e un PDF pronto da stampare con le soluzioni.",
+      "caption": "{count} generatori · una libreria di 3.000 immagini · le tue foto sono benvenute",
+      "forkLabel": "Una creazione, due formati",
+      "forkPlay": "Si gioca nel browser",
+      "forkPrint": "Si stampa con le soluzioni",
+      "cta": "Crea una scheda",
+      "makerAlt": "I controlli del generatore di schede: esercizio, tema, immagini, difficoltà",
+      "penTiles": "tre tessere, una parola — fatta, non trovata",
+      "penTraveler": "nasce qui — segui il viaggio di questa scheda"
+    },
+    "paper": {
+      "heading": "Ogni scheda è anche carta",
+      "body": "Non alcune — tutte. La stessa pagina che si gioca sul tablet si stampa in PDF con le sue soluzioni.",
+      "tagPlay": "Si gioca nel browser",
+      "tagPrint": "Si stampa con le soluzioni",
+      "penTraveler": "sempre la stessa scheda",
+      "playAlt": "Una scheda interattiva in gioco nel browser",
+      "printAlt": "La stessa scheda come pagina da stampare"
+    },
+    "share": {
+      "heading": "Dal tuo schermo a 25 bambini in un secondo",
+      "body": "Tutto ciò che trovi o crei diventa un link e un codice QR. I bambini lo inquadrano e giocano su qualsiasi dispositivo — senza account per gli alunni, niente da installare.",
+      "chip1": "Un link",
+      "chip2": "Un codice QR",
+      "chip3": "Qualsiasi dispositivo",
+      "chip4": "Nessun account per gli alunni",
+      "qrAlt": "Un codice QR che apre una scheda su qualsiasi dispositivo",
+      "penTraveler": "ancora la stessa scheda — ora in 25 mani",
+      "penClock": "la lezione finisce; la pagina domani è ancora lì"
+    },
+    "keep": {
+      "heading": "Prepara una lezione, conserva un anno",
+      "body": "Salva quello che crei, raccoglilo per unità — a settembre è lì che ti aspetta. Allineato al tuo curricolo, in 11 lingue, con la grammatica giusta.",
+      "chipCurricula": "Allineato a 10 curricoli nazionali",
+      "chipLanguages": "Funziona in 11 lingue",
+      "chipNoData": "Nessun dato raccolto sugli alunni",
+      "chipNoAds": "Niente pubblicità sulle pagine degli alunni"
+    },
+    "teacher": {
+      "heading": "Gratis vuol dire gratis",
+      "body": "Ogni strumento è gratuito, senza login; giochi con 10 schede interattive al giorno senza carta. Il piano Insegnante toglie ogni limite e salva quello che crei.",
+      "freeTitle": "Gratis",
+      "freeTag": "Parti da qui — senza carta",
+      "free1": "Tutti gli strumenti per la classe, senza limiti",
+      "free2": "10 partite interattive al giorno",
+      "free3": "Sfoglia tutto il catalogo",
+      "free4": "Tutti i generatori, liberi da provare",
+      "freeCta": "Inizia gratis — senza carta",
+      "teacherTitle": "Insegnante",
+      "teacherPrice": "{price} $ all'anno",
+      "teacherMonthly": "oppure {monthly} $ al mese",
+      "teacher1": "Gioco interattivo illimitato",
+      "teacher2": "Download PDF illimitati, con le soluzioni",
+      "teacher3": "Salva e raccogli quello che crei",
+      "teacher4": "Link di condivisione e codici QR per la classe",
+      "teacherCta": "Scopri il piano Insegnante",
+      "reassure": "Nessuna carta per iniziare · un unico piano · annulla quando vuoi"
+    },
+    "close": {
+      "line1": "La lezione di domani",
+      "line2": "è già qui che ti aspetta.",
+      "body": "Apri uno strumento, distribuisci una scheda o creane una tua stasera — funziona tutto prima ancora di accedere.",
+      "ctaPrimary": "Inizia gratis — senza carta",
+      "ctaSecondary": "Sfoglia le schede"
+    },
+    "browse": {
+      "eyebrow": "Continua a contare",
+      "heading": "Tutto, ordinato come lo cerchi tu",
+      "sub": "Tutto il catalogo — per classe, per argomento, per abilità — e in più ogni strumento didattico.",
+      "toolsHeading": "Strumenti per la classe"
+    }
   }
 }

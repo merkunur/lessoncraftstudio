@@ -4334,15 +4334,11 @@
       "description": "Preview of the Lesson Line homepage redesign."
     },
     "hero": {
-      "h1a": "Teach it at the board.",
-      "h1b": "Practice it on any device.",
-      "h1c": "Print it for the backpack.",
-      "sub": "Project a live teaching tool the whole class can see. Then give every child the same idea to practice — as an interactive worksheet that checks itself, or a printable page with an answer key. Built for kindergarten through grade 3. Free to use, nothing to install, and no student accounts, ever.",
+      "h1": "Every lesson, hanging together.",
+      "sub": "Live teaching tools, worksheets that check themselves and print with answer keys, and makers to build your own — free for kindergarten to grade 3.",
       "ctaTools": "Open a teaching tool",
       "ctaWorksheets": "Browse the worksheets",
-      "microLine": "Free to start · no login · works on the classroom projector and every device the kids have",
-      "penRekenrek": "a rekenrek, mid-count — the real one is one click away",
-      "stageLabel": "Rekenrek"
+      "microLine": "Free to start · no login · nothing to install"
     },
     "ticks": {
       "teach": "Teach",
@@ -4353,12 +4349,11 @@
     },
     "teach": {
       "heading": "Start where every lesson starts: at the front of the room",
-      "body": "{count} classroom instruments you project and teach from — a rekenrek, a learning clock, a number balance, a folding sheet for symmetry, an estimation jar, a bag you draw from twice. Each one is built to make the idea visible and to let the apparatus do the correcting: the beam tips, so nobody has to say wrong.",
+      "body": "{count} classroom instruments you project and teach from. The apparatus does the correcting: the beam tips, so nobody has to say wrong.",
       "caption": "{count} instruments · free, no login · no timers, no scores, no streaks",
-      "handoff": "And once the class has seen it together, every child can try it alone.",
       "seeAll": "See all {count} tools",
       "liveTag": "Live",
-      "penBalance": "the beam tips, so nobody has to say wrong"
+      "penBalance": "the beam settles level — nobody had to say wrong"
     },
     "live": {
       "cta": "Try it right here",
@@ -4367,9 +4362,8 @@
     },
     "practice": {
       "heading": "Then hand the idea to every child",
-      "body": "Two hundred–plus short activities, each pinned to the standard you're teaching this week, play right in the browser — and every worksheet in the library plays the same way. Kids tap, drag, and type; the page checks itself quietly, so you can walk the room instead of the answer key.",
+      "body": "Two hundred–plus short activities play right in the browser — and every worksheet in the library plays the same way, pinned to the curriculum you're teaching this week. The page checks itself quietly, so you walk the room instead of the answer key.",
       "caption": "Pinned to the curriculum you actually teach.",
-      "handoff": "And when the ready-made one is almost right but not quite — make your own.",
       "browseActivities": "Try an activity",
       "browseWorksheets": "Browse all worksheets",
       "openDeck": "Open the worksheet page",
@@ -4379,7 +4373,7 @@
     },
     "make": {
       "heading": "Make it exactly right for your class",
-      "body": "{count} worksheet makers let you build the page in your head: pick the exercise, the number range, the theme, the artwork — even upload your own photos, your class mascot, your unit’s words. One build gives you two things: an interactive worksheet that checks itself, and a print-ready PDF with an answer key.",
+      "body": "Pick the exercise, the number range, the theme, the artwork — even your own photos. One build gives you an interactive worksheet that checks itself, and a print-ready PDF with an answer key.",
       "caption": "{count} makers · a 3,000-image library · your photos welcome",
       "forkLabel": "One build, two outputs",
       "forkPlay": "Plays in the browser",
@@ -4391,7 +4385,7 @@
     },
     "paper": {
       "heading": "Every worksheet is also paper",
-      "body": "Not some of them. All of them. The same page that plays on a tablet prints as a PDF with its answer key — for the backpack, the sub folder, and the day the Wi-Fi quits.",
+      "body": "Not some of them — all of them. The same page that plays on a tablet prints as a PDF with its answer key.",
       "tagPlay": "Plays in the browser",
       "tagPrint": "Prints with answer key",
       "penTraveler": "still the same sheet",
@@ -4400,19 +4394,18 @@
     },
     "share": {
       "heading": "From your screen to 25 kids in one second",
-      "body": "Anything you find or make becomes one link and one QR code. Kids scan it and play — on the classroom tablets, the library desktops, a phone at the kitchen table. No student accounts, no files to email, nothing to install. It even embeds on your class blog.",
+      "body": "Anything you find or make becomes one link and one QR code. Kids scan it and play on any device — no student accounts, nothing to install.",
       "chip1": "One link",
       "chip2": "One QR code",
       "chip3": "Any device",
       "chip4": "No student accounts",
-      "handoff": "And what you set up today is still there tomorrow.",
       "qrAlt": "A QR code that opens a worksheet on any device",
-      "penTraveler": "same sheet again — now in 25 hands",
+      "penTraveler": "same sheet again — now in 25 kids' hands",
       "penClock": "the lesson ends; the page is still there tomorrow"
     },
     "keep": {
       "heading": "Plan a lesson, keep a year",
-      "body": "Save what you build, collect it by unit, and it's waiting next September. Everything is aligned to the curriculum you're accountable to — and if you teach in German, Spanish, or eight other languages, the whole studio teaches beside you, with the grammar right.",
+      "body": "Save what you build, collect it by unit — it's waiting when the new school year starts. Aligned to your curriculum, in 11 languages, with the grammar right.",
       "chipCurricula": "Aligned to 10 national curricula",
       "chipLanguages": "Works in 11 languages",
       "chipNoData": "No student data collected",
@@ -4420,7 +4413,7 @@
     },
     "teacher": {
       "heading": "Free is really free",
-      "body": "Every teaching tool is free, no login. Play 10 interactive worksheets a day and browse the entire library without a card. When making and keeping your own becomes how you plan your week, the Teacher plan removes every limit and saves what you build.",
+      "body": "Every tool is free, no login; play 10 interactive rounds a day without a card. The Teacher plan removes every limit and saves what you build.",
       "freeTitle": "Free",
       "freeTag": "Start here — no card",
       "free1": "Every classroom tool, unlimited",
@@ -4441,7 +4434,7 @@
     "close": {
       "line1": "Tomorrow's lesson",
       "line2": "is sitting right here.",
-      "body": "Open a tool, hand out a worksheet, or build your own tonight. Everything works before you ever sign in.",
+      "body": "Open a tool, hand out a worksheet, or build your own tonight — it all works before you sign in.",
       "ctaPrimary": "Start free — no card",
       "ctaSecondary": "Browse the worksheets"
     },

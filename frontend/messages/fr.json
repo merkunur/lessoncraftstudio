@@ -2817,5 +2817,122 @@
     "subscribeCta": "Voir l'abonnement Enseignant",
     "signupCta": "Inscription gratuite",
     "dismissCta": "Plus tard"
+  },
+  "homepageV6": {
+    "metadata": {
+      "title": "Aperçu de la page d'accueil v6 — Le fil de la leçon",
+      "description": "Aperçu de la refonte de la page d'accueil « Le fil de la leçon »."
+    },
+    "hero": {
+      "h1": "Chaque leçon, suspendue au même fil.",
+      "sub": "Des outils à projeter en classe, des fiches autocorrectives qui s'impriment aussi en PDF avec corrigé, et des générateurs pour créer les vôtres — gratuits de la maternelle au CE2.",
+      "ctaTools": "Ouvrir un outil de classe",
+      "ctaWorksheets": "Parcourir les fiches",
+      "microLine": "Gratuit pour commencer · sans connexion · rien à installer"
+    },
+    "ticks": {
+      "teach": "Enseigner",
+      "practice": "S'entraîner",
+      "make": "Créer",
+      "paper": "Imprimer",
+      "share": "Partager"
+    },
+    "teach": {
+      "heading": "Commencez là où toute leçon commence : au tableau",
+      "body": "{count} outils de classe à projeter, pour enseigner face aux élèves. C'est le matériel qui corrige : la balance penche, et personne n'a à dire « faux ».",
+      "caption": "{count} outils · gratuits, sans connexion · ni chrono, ni score, ni classement",
+      "seeAll": "Voir les {count} outils",
+      "liveTag": "En direct",
+      "penBalance": "la balance penche — personne n'a à dire « faux »"
+    },
+    "live": {
+      "cta": "Essayez-le ici même",
+      "note": "Il se charge en une seconde — rien à installer.",
+      "openFull": "Ouvrir l'outil complet"
+    },
+    "practice": {
+      "heading": "Puis mettez l'idée entre les mains de chaque élève",
+      "body": "Plus de 200 activités courtes — et toutes les fiches — se jouent directement dans le navigateur, reliées au point du programme que vous travaillez cette semaine. La page se corrige discrètement : vous circulez entre les rangs au lieu de surveiller le corrigé.",
+      "caption": "Alignées sur les programmes que vous suivez vraiment.",
+      "browseActivities": "Essayer une activité",
+      "browseWorksheets": "Voir toutes les fiches",
+      "openDeck": "Ouvrir la page de la fiche",
+      "altActivity": "Aperçu de l'activité {label}",
+      "penChoral": "on compte à voix haute — le tableau s'écrit tout seul",
+      "penShelf": "activités et fiches, un seul rayon"
+    },
+    "make": {
+      "heading": "Créez la fiche sur mesure pour votre classe",
+      "body": "Choisissez l'exercice, la plage de nombres, le thème, les illustrations — jusqu'à vos propres photos. Une seule création donne une fiche interactive qui se corrige toute seule, et un PDF prêt à imprimer avec son corrigé.",
+      "caption": "{count} générateurs · une bibliothèque de 3 000 images · vos photos bienvenues",
+      "forkLabel": "Une création, deux formats",
+      "forkPlay": "Se joue dans le navigateur",
+      "forkPrint": "S'imprime avec son corrigé",
+      "cta": "Créer une fiche",
+      "makerAlt": "Les réglages du générateur de fiches : exercice, thème, illustrations, difficulté",
+      "penTiles": "trois jetons, un mot — fabriqué, pas trouvé",
+      "penTraveler": "elle naît ici — regardez cette fiche voyager"
+    },
+    "paper": {
+      "heading": "Chaque fiche existe aussi en papier",
+      "body": "Pas certaines d'entre elles — toutes. La même page qui se joue sur tablette s'imprime en PDF avec son corrigé.",
+      "tagPlay": "Se joue dans le navigateur",
+      "tagPrint": "S'imprime avec son corrigé",
+      "penTraveler": "toujours la même fiche",
+      "playAlt": "Une fiche interactive en cours de jeu dans le navigateur",
+      "printAlt": "La même fiche en version imprimable"
+    },
+    "share": {
+      "heading": "De votre écran à 25 élèves en une seconde",
+      "body": "Tout ce que vous trouvez ou créez devient un lien et un QR code. Les élèves le scannent et jouent sur n'importe quel appareil — sans compte élève, rien à installer.",
+      "chip1": "Un lien",
+      "chip2": "Un QR code",
+      "chip3": "N'importe quel appareil",
+      "chip4": "Sans compte élève",
+      "qrAlt": "Un QR code qui ouvre une fiche sur n'importe quel appareil",
+      "penTraveler": "encore la même fiche — dans 25 mains maintenant",
+      "penClock": "la leçon se termine ; la page sera encore là demain"
+    },
+    "keep": {
+      "heading": "Préparez une leçon, gardez l'année entière",
+      "body": "Enregistrez ce que vous créez, classez-le par séquence — tout vous attend à la rentrée. Aligné sur vos programmes, en 11 langues, avec une grammaire irréprochable.",
+      "chipCurricula": "Aligné sur 10 programmes nationaux",
+      "chipLanguages": "Disponible en 11 langues",
+      "chipNoData": "Aucune donnée élève collectée",
+      "chipNoAds": "Aucune publicité sur les pages élèves"
+    },
+    "teacher": {
+      "heading": "Gratuit veut vraiment dire gratuit",
+      "body": "Tous les outils sont gratuits, sans connexion ; jouez à 10 fiches interactives par jour sans carte bancaire. L'abonnement Enseignant lève toutes les limites et enregistre ce que vous créez.",
+      "freeTitle": "Gratuit",
+      "freeTag": "Commencez ici — sans carte",
+      "free1": "Tous les outils de classe, en illimité",
+      "free2": "10 parties interactives par jour",
+      "free3": "Toute la bibliothèque à parcourir",
+      "free4": "Tous les générateurs, libres à l'essai",
+      "freeCta": "Commencer gratuitement — sans carte",
+      "teacherTitle": "Enseignant",
+      "teacherPrice": "{price} $ par an",
+      "teacherMonthly": "ou {monthly} $ par mois",
+      "teacher1": "Jeu interactif illimité",
+      "teacher2": "Téléchargements PDF illimités, avec corrigés",
+      "teacher3": "Enregistrez et classez ce que vous créez",
+      "teacher4": "Liens de partage et QR codes de classe",
+      "teacherCta": "Voir l'abonnement Enseignant",
+      "reassure": "Sans carte pour commencer · un seul tarif · résiliable à tout moment"
+    },
+    "close": {
+      "line1": "La leçon de demain",
+      "line2": "vous attend juste ici.",
+      "body": "Ouvrez un outil, distribuez une fiche ou créez la vôtre ce soir — tout fonctionne avant même de vous connecter.",
+      "ctaPrimary": "Commencer gratuitement — sans carte",
+      "ctaSecondary": "Parcourir les fiches"
+    },
+    "browse": {
+      "eyebrow": "Continuez à compter",
+      "heading": "Tout, rangé comme vous le cherchez",
+      "sub": "Toute la bibliothèque — par niveau, par sujet, par compétence — et tous les outils de classe.",
+      "toolsHeading": "Outils de classe"
+    }
   }
 }

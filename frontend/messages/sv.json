@@ -2797,5 +2797,122 @@
     "subscribeCta": "Se Lärarplanen",
     "signupCta": "Registrera dig gratis",
     "dismissCta": "Inte nu"
+  },
+  "homepageV6": {
+    "metadata": {
+      "title": "Förhandsvisning av startsida v6 — Lektionslinjen",
+      "description": "Förhandsvisning av den omgjorda startsidan Lektionslinjen."
+    },
+    "hero": {
+      "h1": "Varje lektion hänger ihop.",
+      "sub": "Verktyg att undervisa från, självrättande arbetsblad, utskrivbara PDF:er med facit och egna generatorer — gratis för förskoleklass till årskurs 3.",
+      "ctaTools": "Öppna ett verktyg",
+      "ctaWorksheets": "Se arbetsbladen",
+      "microLine": "Gratis att börja · ingen inloggning · inget att installera"
+    },
+    "ticks": {
+      "teach": "Undervisa",
+      "practice": "Träna",
+      "make": "Skapa",
+      "paper": "Skriv ut",
+      "share": "Dela"
+    },
+    "teach": {
+      "heading": "Börja där varje lektion börjar: framme vid tavlan",
+      "body": "{count} klassrumsverktyg att visa på tavlan och undervisa från. Materialet sköter rättandet: vågen tippar, så ingen behöver säga fel.",
+      "caption": "{count} verktyg · gratis, utan inloggning · ingen tidtagning, inga poäng, inga tävlingsmoment",
+      "seeAll": "Se alla {count} verktyg",
+      "liveTag": "Live",
+      "penBalance": "vågen tippar — ingen behöver säga fel"
+    },
+    "live": {
+      "cta": "Prova direkt här",
+      "note": "Det laddar på en sekund — inget att installera.",
+      "openFull": "Öppna hela verktyget"
+    },
+    "practice": {
+      "heading": "Lämna sedan över idén till varje barn",
+      "body": "Över 200 korta aktiviteter — och varje arbetsblad — spelas direkt i webbläsaren, kopplade till det moment i läroplanen du undervisar om just den här veckan. Sidan rättar sig själv i det tysta, så du går runt i klassrummet i stället för att stå med facit.",
+      "caption": "Kopplat till den läroplan du faktiskt undervisar efter.",
+      "browseActivities": "Prova en aktivitet",
+      "browseWorksheets": "Se alla arbetsblad",
+      "openDeck": "Öppna arbetsbladets sida",
+      "altActivity": "Förhandsvisning av aktiviteten {label}",
+      "penChoral": "räkna högt — diagrammet ritar sig självt",
+      "penShelf": "aktiviteter och arbetsblad på samma hylla"
+    },
+    "make": {
+      "heading": "Gör det precis rätt för din klass",
+      "body": "Välj övning, talområde, tema och bilder — eller ladda upp egna foton. Ett bygge ger dig ett interaktivt arbetsblad som rättar sig självt och en utskriftsklar PDF med facit.",
+      "caption": "{count} generatorer · ett bibliotek med 3 000 bilder · egna foton välkomna",
+      "forkLabel": "Ett bygge, två resultat",
+      "forkPlay": "Spelas i webbläsaren",
+      "forkPrint": "Skrivs ut med facit",
+      "cta": "Bygg ett arbetsblad",
+      "makerAlt": "Generatorns inställningar: övning, tema, bilder och svårighetsgrad",
+      "penTiles": "tre brickor, ett ord — skapat, inte hittat",
+      "penTraveler": "föds här — se bladet börja sin resa"
+    },
+    "paper": {
+      "heading": "Varje arbetsblad är också papper",
+      "body": "Inte bara vissa — alla. Samma sida som spelas på en surfplatta skrivs ut som PDF med facit.",
+      "tagPlay": "Spelas i webbläsaren",
+      "tagPrint": "Skrivs ut med facit",
+      "penTraveler": "fortfarande samma blad",
+      "playAlt": "Ett interaktivt arbetsblad som spelas i webbläsaren",
+      "printAlt": "Samma arbetsblad som en utskrivbar sida"
+    },
+    "share": {
+      "heading": "Från din skärm till 25 barn på en sekund",
+      "body": "Allt du hittar eller skapar blir en länk och en QR-kod. Barnen skannar och spelar på vilken enhet som helst — inga elevkonton, inget att installera.",
+      "chip1": "En länk",
+      "chip2": "En QR-kod",
+      "chip3": "Vilken enhet som helst",
+      "chip4": "Inga elevkonton",
+      "qrAlt": "En QR-kod som öppnar ett arbetsblad på vilken enhet som helst",
+      "penTraveler": "samma blad igen — nu i 25 händer",
+      "penClock": "lektionen tar slut — sidan finns kvar i morgon"
+    },
+    "keep": {
+      "heading": "Planera en lektion, behåll ett helt läsår",
+      "body": "Spara det du bygger och samla det per arbetsområde — det väntar på dig i augusti. Anpassat efter din läroplan, på 11 språk, med grammatiken på plats.",
+      "chipCurricula": "Anpassat efter 10 nationella läroplaner",
+      "chipLanguages": "Fungerar på 11 språk",
+      "chipNoData": "Inga elevdata samlas in",
+      "chipNoAds": "Inga annonser på elevsidor"
+    },
+    "teacher": {
+      "heading": "Gratis betyder gratis",
+      "body": "Alla verktyg är gratis, utan inloggning; spela 10 interaktiva arbetsblad om dagen utan kort. Lärarplanen tar bort alla gränser och sparar det du bygger.",
+      "freeTitle": "Gratis",
+      "freeTag": "Börja här — inget kort",
+      "free1": "Alla klassrumsverktyg, obegränsat",
+      "free2": "10 spelomgångar om dagen",
+      "free3": "Bläddra i hela biblioteket",
+      "free4": "Alla generatorer, öppna att prova",
+      "freeCta": "Börja gratis — inget kort",
+      "teacherTitle": "Lärare",
+      "teacherPrice": "{price} $ per år",
+      "teacherMonthly": "eller {monthly} $/månad",
+      "teacher1": "Obegränsat interaktivt spelande",
+      "teacher2": "Obegränsade PDF-nedladdningar med facit",
+      "teacher3": "Spara och samla det du bygger",
+      "teacher4": "Dela länkar och QR-koder till klassen",
+      "teacherCta": "Se Lärarplanen",
+      "reassure": "Inget kort för att börja · ett fast pris · avsluta när du vill"
+    },
+    "close": {
+      "line1": "Morgondagens lektion",
+      "line2": "ligger redan här.",
+      "body": "Öppna ett verktyg, dela ut ett arbetsblad eller bygg ett eget i kväll — allt fungerar innan du ens loggat in.",
+      "ctaPrimary": "Börja gratis — inget kort",
+      "ctaSecondary": "Se arbetsbladen"
+    },
+    "browse": {
+      "eyebrow": "Fortsätt räkna",
+      "heading": "Allt, ordnat så som du letar",
+      "sub": "Hela biblioteket — per årskurs, ämne och färdighet — plus alla klassrumsverktyg.",
+      "toolsHeading": "Klassrumsverktyg"
+    }
   }
 }

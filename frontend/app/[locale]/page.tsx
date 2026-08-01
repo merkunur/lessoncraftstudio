@@ -162,7 +162,7 @@ export default async function HomePage({ params }: { params: { locale: string } 
       {/* div, not main: LocaleLayoutClient already wraps children in <main>
           (the v4 page nested a second <main> — fixed at the v6 promotion). */}
       <div className={`hv6 ${baloo2.variable} ${nunito.variable} font-lcsBody text-[#14322D] min-h-screen`}>
-        <OpeningV6 locale={locale} />
+        <OpeningV6 locale={locale} travelerThumb={travelerThumb} />
 
         {/* THE THREAD — one element, one long gradient, one line. Sections
             inside cannot band: the ground belongs to the thread, not to them. */}

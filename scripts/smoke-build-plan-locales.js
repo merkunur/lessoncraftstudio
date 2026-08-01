@@ -121,11 +121,28 @@ const is = (c, m) => { if (c) { PASS++; console.log('  ok   ' + m); } else { FAI
         harvest();
       } catch (e) { /* not fatal */ }
 
+      /* ⭐ the turn's own hint, reached the way a child reaches it */
+      try {
+        inst.st = inst._st({ h: [1, 2, 3, 1, 2, 3, 1, 2, 3] });
+        inst._touched = false; inst._justTurned = false;
+        inst._paint(); harvest();                 /* hintPlan */
+        document.querySelectorAll('.bpl-chip')[0].click(); harvest();   /* hintTurn */
+        document.querySelectorAll('.bpl-chip')[1].click(); harvest();   /* hintSame */
+      } catch (e) { /* not fatal */ }
+
       if (inst._showGate) { try { inst._showGate(); harvest(); } catch (e) { /* not fatal */ } }
-      /* ⭐ hintTurn is only selected by the dispatch in states the
-         matrix above may not reach, so ask for it directly — a key that
-         exists and is never requested is the #39 defect. */
-      try { inst.api.t('hintTurn'); } catch (e) { /* not fatal */ }
+
+      /* ⚠⚠ THERE WAS A LINE HERE THAT CALLED api.t('hintTurn') DIRECTLY,
+         with a comment excusing it: "the dispatch may not reach it".
+         It never reached it — `hintTurn` appeared exactly ONCE in the
+         whole tool, its own declaration, and the turn had no hint at
+         all. I wrote the excuse instead of reading the dispatch, and in
+         doing so I defeated the very gate I had just built to catch
+         dead strings (#39).
+         A GATE YOU HELP PAST IS NOT A GATE. Every key must now be
+         reached the way a child reaches it — by driving the controls —
+         and verify- proves by ENUMERATION that the dispatch can select
+         every hint, so this can never again be papered over here. */
 
       inst.strings = realStrings;
       return { blob: Array.from(seen).join(''), count: seen.size, asked: Array.from(asked) };

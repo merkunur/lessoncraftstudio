@@ -476,6 +476,89 @@ console.log('\n[V9] the refuse-list, in the source');
   is(!/\bsphere\b|\bcylinder\b|\bcone\b|\bpyramid\b/i.test('turn it a quarter and watch the front'), 'POISON: it passes the turn copy');
 }
 
+console.log('\n[V9b] ⭐⭐ EVERY HINT IS REACHABLE, BY ENUMERATION');
+{
+  /* Four native panels found `hintTurn` DEAD — declared once, selected
+     never — in a tool whose header advertises a reachability gate. The
+     smoke test even had a workaround calling it directly, with a
+     comment excusing the dispatch. A source scan cannot see this and a
+     recorder that is helped past it cannot either.
+     So the dispatch is reproduced here and run over the WHOLE SPACE, in
+     every flag combination. Each hint must be selected by at least one
+     reachable state, and the counts are printed so a branch that
+     technically fires but reaches four buildings out of two million
+     cannot hide — which is exactly what `hintPlan` was doing. */
+  /* ⭐⭐ THE TOOL'S OWN DISPATCH, DRIVEN — NOT A COPY OF IT.
+     The first version of this block reimplemented the four-way choice
+     here, and the poison run showed all three mutations of the REAL
+     dispatch sailing through, because the gate was enumerating its own
+     duplicate. That is the marks-its-own-homework failure wearing a
+     new hat: not reading the expectation off the tool, but rewriting
+     the tool inside the test. hintKey() is now model code so this can
+     call the thing that ships. */
+  const pick = (h, justTurned, touched) => T.hintKey({ h: h }, justTurned, touched);
+  /* ⚠ derived from the AUTHORED keys, never hardcoded — the list
+     went stale the moment two branches were added and the new ones
+     counted NaN. */
+  const HINT_KEYS = Object.keys(T.strings).filter((k) => k.indexOf('hint') === 0);
+  const seen = {};
+  for (const k of HINT_KEYS) seen[k] = 0;
+  {
+    const h = new Array(9).fill(0);
+    const rec = (i) => {
+      if (i === 9) {
+        /* ⚠ ALL THREE reachable flag combinations, over the whole
+           space. The first version sampled the just-turned path ONCE
+           and then reported hintTurn as "reachable from 1 state" — and
+           the thin-branch check duly failed a CORRECT dispatch. That is
+           the measurement being wrong, not the tool; verify what you
+           measured before you accuse the thing you measured. */
+        seen[pick(h, false, false)]++;
+        seen[pick(h, false, true)]++;
+        seen[pick(h, true, true)]++;
+        return;
+      }
+      for (let v = 0; v <= HMAX; v++) { h[i] = v; rec(i + 1); }
+    };
+    rec(0);
+  }
+
+  const HINTS = HINT_KEYS;
+  is(HINTS.length >= 4, `${HINTS.length} hint keys are authored (${HINTS.join(', ')})`);
+  let dead = 0;
+  for (const k of HINTS) {
+    if (!seen[k]) { dead++; console.error(`   DEAD: ${k} is authored and can never be selected`); }
+  }
+  is(dead === 0, `⭐⭐ every authored hint is SELECTABLE by the dispatch: ${dead} dead`);
+  for (const k of HINTS) console.log(`         ${k.padEnd(16)} reachable from ${seen[k].toLocaleString()} state(s)`);
+  /* ⭐⭐ EACH BRANCH IS ASSERTED AGAINST ITS MEASURED SET, NOT AGAINST
+     AN INVENTED FLOOR. My first version demanded every branch reach at
+     least 1,000 states — a number I chose, which then condemned two
+     branches that are exactly right: hintTurnSame speaks for the 125
+     turn-invariant buildings and hintEmpty for the single empty board.
+     A threshold you invented is not a measurement (#41). What actually
+     distinguishes a real branch from a dead one is whether its size is
+     the size of a NAMED set — so name them. */
+  /* counted over the three flag combinations enumerated above, so a
+     single BOARD can contribute more than once: the empty board is
+     reached untouched and touched (2), but not just-turned, because it
+     is itself turn-invariant and answers hintTurnSame there. */
+  const EXPECT = { hintEmpty: 2, hintTurnSame: 125 };
+  let sized = 0;
+  for (const k of HINTS) {
+    if (EXPECT[k] !== undefined) {
+      is(seen[k] === EXPECT[k], `${k} speaks for exactly its intended set: ${seen[k]} (expected ${EXPECT[k]})`);
+    } else if (seen[k] < 1000) {
+      is(false, `${k} reaches only ${seen[k]} states and is not a named exception — dead in practice, as hintPlan was at FOUR`);
+    } else sized++;
+  }
+  is(sized >= 3, `${sized} broad hints each reach thousands of states`);
+  /* and the opening state must invite, not spoil the payoff */
+  const first = pick(T.newState().h, false, false);
+  is(first === 'hintPlan',
+    `⭐ the FIRST hint a teacher sees is the invitation to edit, not the payoff — got "${first}"`);
+}
+
 console.log('\n[V10] every authored key is DECLARED in every locale it claims');
 {
   const keys = Object.keys(T.strings);

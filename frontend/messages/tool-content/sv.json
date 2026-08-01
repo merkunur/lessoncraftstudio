@@ -1163,6 +1163,35 @@
     "metaTitle": "Plankorna – jämföra längd och se skillnaden, lågstadiet",
     "metaDescription": "Två plankor från samma streck: stumpen som sticker ut lossnar och passar precis i änden av den korta plankan. Gratis verktyg för tavlan, lågstadiet."
   },
+  "cold-line": {
+    "slug": "under-noll-termometer-lagstadiet",
+    "name": "Pelaren",
+    "tagline": "En hög pelare med en skala bredvid som går att dra i, med tal både ovanför och under nollan — och en knapp som lägger ner hela saken, varpå ingenting med den visar sig ha ändrats.",
+    "about": [
+      "Bredvid pelaren står en skala med tal. Dra i själva skalan så glider den uppåt eller nedåt längs pelaren, och andra tal kommer fram. På skalan sitter två hakar som går att flytta var för sig, och mellan hakarna står ett enda tal: hur långt det är mellan dem. Mer än så finns inte på tavlan. Inget mått, ingen enhet efter talet, ingen fråga, ingen ruta att fylla i, ingen tid som räknar ner.",
+      "Talen fortsätter nedanför nollan, och det är hela skälet till att verktyget finns. Ett barn i Sverige läser minus fem på en vägg i januari långt innan negativa tal någonsin nämns i klassrummet. Barnet ser då en plats, inte ett räknesätt. Här är minus fem också en plats: ett streck på skalan, precis lika verkligt som strecket vid fem. Ingenting läggs till och ingenting dras bort, för i samma stund som man räknar över nollan är man i en helt annan del av kursplanen.",
+      "Så knappen som gör skillnaden. Lägg ner hela pelaren, och det är samma skala, samma streck, samma två hakar och samma avstånd mellan dem — den ligger bara vågrätt nu. Det som stående såg ut som en termometer heter liggande en tallinje. Det är ingen liknelse och ingen bild bredvid: det är samma sak, vriden ett kvarts varv. Barn som redan känner igen båda två känner oftast igen dem som två skilda saker.",
+      "Tavlan frågar aldrig hur mycket det är. Den frågan hör hemma på ett arbetsblad med facit, och sådana finns också; här händer ingenting när man gör rätt eller fel, för det finns ingenting att göra rätt eller fel. Det finns ingen effektstudie bakom den här rutinen och vi påstår ingen. Så knyter verktyget an till Lgr22 och arbetet med tal och mätning i årskurs ett till tre. Fem ställen är gratis; de elva andra och utskriften ingår i Lärarpaketet."
+    ],
+    "howToUse": [
+      "Sätt de två hakarna någonstans innan du säger något, och låt klassen bara titta först.",
+      "Låt ett barn säga högt hur långt det är mellan hakarna; talet står redan där.",
+      "Dra nu skalan uppåt tills helt andra tal syns, och sätt hakarna lika långt ifrån varandra där.",
+      "Lägg sedan ner hela pelaren utan att ändra något, och låt klassen säga vad som har blivit annorlunda. Det är därför verktyget finns.",
+      "Ställ upp den igen och hitta nollan, så att alla ser att talen fortsätter åt båda hållen.",
+      "Välj nästa ställe och börja om, utan att gå tillbaka till det som stod nyss."
+    ],
+    "classroomIdeas": [
+      "Två hakar ovanför nollan, sedan samma avstånd helt under nollan: låt klassen förutsäga om talet mellan dem ändras.",
+      "Sätt den ena haken precis på nollan och dra den andra långsamt nedåt medan klassen räknar med högt.",
+      "Ge ett mål: sätt hakarna så att det blir precis åtta mellan dem, men med båda hakarna under nollan.",
+      "Lägg ner pelaren och fråga vilken sida som nu är den kalla; låt barnen peka innan någon förklarar.",
+      "Sätt de två hakarna på samma ställe och fråga vad som borde stå mellan dem, innan ni drar isär dem.",
+      "Gör det sedan på papper: skriv ut skalan, låt barnen skriva dit talen själva och rita in två hakar."
+    ],
+    "metaTitle": "Pelaren – under noll, avstånd och tallinje, åk 1–3",
+    "metaDescription": "Dragbar skala med tal ovanför och under nollan, två hakar och avståndet mellan dem. Lägg ner den så är det en tallinje. Gratis för tavlan, åk 1–3."
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

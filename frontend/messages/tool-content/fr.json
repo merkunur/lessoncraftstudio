@@ -1162,6 +1162,35 @@
     "metaTitle": "Deux planches, un même départ — comparer des longueurs, CP et CE1",
     "metaDescription": "Deux planches partent de la même ligne ; le bout qui dépasse se détache et vient se poser à l'extrémité de la planche courte. Outil gratuit au TBI, au CP."
   },
+  "cold-line": {
+    "slug": "nombres-negatifs-sous-zero-cycle-2",
+    "name": "Debout ou à plat",
+    "tagline": "Un tube dressé, une graduation chiffrée à côté, deux curseurs posés dessus et leur écart entre eux. Un bouton met le tout à plat : la même graduation est alors sous les yeux de la classe, les petits nombres à gauche.",
+    "about": [
+      "Un tube dressé occupe l'écran, avec une graduation chiffrée à côté. Deux curseurs sont posés sur cette graduation, et entre eux s'affiche un seul nombre : leur écart. La graduation elle-même se prend et se fait glisser, ce qui amène des nombres qui étaient hors de vue, vers le haut comme vers le bas. Au-dessous de zéro, cela continue exactement comme au-dessus : ces nombres-là ne sont pas des cas particuliers, ce sont des places sur la même graduation. Aucune unité n'est écrite nulle part, et c'est voulu.",
+      "Vient alors le bouton qui justifie tout l'appareil : le tout se met à plat. Et rien n'est devenu autre chose — même graduation, mêmes curseurs, même écart entre les deux. Debout, la classe lit le tube ; à plat, elle a sous les yeux la suite des nombres, les petits à gauche et les grands à droite. Ce lien-là reste d'ordinaire invisible : les élèves rencontrent les deux séparément et mettent des années à comprendre que c'en est un seul. Ici, ils le retournent eux-mêmes et le voient.",
+      "Le rituel tient en deux minutes. Placez les curseurs sur deux nombres et faites dire l'écart à voix haute. Faites ensuite glisser la graduation très loin, et replacez les curseurs ailleurs, aussi éloignés qu'avant — une fois bien au-dessous de zéro, une fois bien au-dessus. L'écart est le même. Pour un enfant, c'est une contradiction pour de bon : les nombres n'ont plus rien à voir, et pourtant le chemin entre eux a la même longueur. On peut en discuter longtemps, et cette discussion est la séance.",
+      "Dans les programmes officiels, cela se trouve à deux endroits à la fois : la construction du nombre au cycle 2, et la lecture d'une graduation en questionner le monde. L'appareil ne note rien, ne demande rien et ne pose aucune question — il montre, et les questions viennent de vous. Ni bon ni faux, ni points, ni chronomètre. Il n'y a rien à lire pour s'en servir : un tube, des nombres, deux curseurs. Cela s'ouvre dans le navigateur au TBI ou au vidéoprojecteur, sans inscription. Cinq endroits sont gratuits ; onze autres et la fiche à imprimer font partie de l'offre Enseignant."
+    ],
+    "howToUse": [
+      "Projetez l'outil et faites d'abord lire les nombres visibles, au-dessus comme au-dessous de zéro.",
+      "Placez les deux curseurs et faites dire à voix haute l'écart qui les sépare.",
+      "Faites glisser la graduation très bas, puis replacez les curseurs aussi éloignés ; demandez avant si l'écart va grandir.",
+      "Mettez maintenant le tout à plat, et ne dites rien. Attendez qu'un élève dise ce qu'il reconnaît. C'est pour ce moment que l'outil existe.",
+      "Redressez, remettez à plat, plusieurs fois de suite, jusqu'à ce que la classe annonce d'avance ce qui va rester pareil.",
+      "« Ramener le zéro » remet le zéro au milieu dès que la classe s'est perdue."
+    ],
+    "classroomIdeas": [
+      "Prédire d'abord : avant de faire glisser la graduation, chacun écrit si le zéro sera encore visible après.",
+      "Deux endroits, un même écart : une fois loin au-dessous de zéro, une fois loin au-dessus, et la classe explique pourquoi cela revient au même.",
+      "Donnez une cible : un élève place les curseurs de façon que le zéro tombe exactement entre les deux.",
+      "Mettez à plat, redressez, remettez à plat, sans un mot : la classe dit ce qui a changé et ce qui n'a pas changé.",
+      "Imprimez la fiche : elle montre la même graduation deux fois, debout et à plat, sans les nombres — les élèves les écrivent eux-mêmes.",
+      "Ensuite dans la classe : affichez la même graduation en papier au mur, et le lendemain posez-la par terre."
+    ],
+    "metaTitle": "Debout ou à plat – lire les nombres sous zéro, cycle 2",
+    "metaDescription": "Un tube, une graduation, deux curseurs et leur écart – et un bouton qui met le tout à plat. Les nombres au-dessous de zéro, gratuit au TBI, cycle 2."
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

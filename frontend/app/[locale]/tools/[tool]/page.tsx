@@ -50,7 +50,7 @@ const BASE_URL = CANONICAL_HOST;
 
 // Bump in lockstep with the activity page's wrapper version when a mini-tool
 // wrapper changes (§A.13.42). Tools read only ?lang / ?embed / ?v.
-const TOOL_WRAPPER_VERSION = '7.55';
+const TOOL_WRAPPER_VERSION = '7.56';
 
 interface PageParams {
   locale: string;

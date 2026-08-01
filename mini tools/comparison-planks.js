@@ -119,6 +119,7 @@
       hintCarry: { en: "Now carry the piece to the end of the shorter plank." },
       hintSeated: { en: "The short plank and the piece together reach exactly as far as the long one." },
       takeBtn: { en: "Take the piece off" },
+      layBtn: { en: "Lay it on the short one" },
       putBackBtn: { en: "Put the piece back" },
       nextBtn: { en: "Another pair" },
       printBtn: { en: "Print the sheet" },
@@ -313,12 +314,29 @@
       return s;
     },
 
-    /* the one-tap path that performs the whole routine, so the keyboard
-       and the liveness gate reach the tool's actual point */
-    toggleOffcut: function (st) {
+    /* The pointer-free path through the whole routine, so a keyboard, a
+       screen reader and the liveness gate all reach the tool's actual
+       point rather than only its first step.
+
+       ⚠ IT IS A THREE-STEP CYCLE, NOT A TOGGLE, AND THAT IS A CORRECTION.
+       The first version went attached → laid in one tap while the chip
+       read "Take the piece off" — so the control took the piece off AND
+       laid it on, and the label described half of what happened. §23.6:
+       a control must do WHAT ITS LABEL SAYS. Each step now has its own
+       true label: take it off · lay it on · put it back. */
+    cycleOffcut: function (st) {
       var s = this._st(st);
       if (s.a === s.b) return null;
-      if (s.phase === 'attached') { s.phase = 'laid'; s.dx = this.seatX(s); s.dy = this.seatY(s); return s; }
+      if (s.phase === 'attached') {
+        s.phase = 'free';
+        s.dx = this.X0 + this.K * Math.min(s.a, s.b);
+        s.dy = this.CARRY_Y;
+        return s;
+      }
+      if (s.phase === 'lifting' || s.phase === 'free') {
+        s.phase = 'laid'; s.dx = this.seatX(s); s.dy = this.seatY(s);
+        return s;
+      }
       s.phase = 'attached'; s.dx = 0; s.dy = 0;
       return s;
     },
@@ -559,7 +577,7 @@
       var foot = api.el('div', 'cmp-foot');
       this._foot = foot;
       this._chipToggle = this._chip(foot, 'cmp-go', function () {
-        var n = self.toggleOffcut(self.st);
+        var n = self.cycleOffcut(self.st);
         if (n) { self.st = n; self._paint(); }
       });
       this._chipNext = this._chip(foot, '', function () {
@@ -644,18 +662,33 @@
         window.addEventListener('pointerup', up);
         window.addEventListener('pointercancel', up);
       });
-      b.addEventListener('click', function (ev) {
-        ev.preventDefault();
-        if (kind !== 'off') return;
-        var n = self.toggleOffcut(self.st);
-        if (n) { self.st = n; self._paint(); }
-      });
+      /* ⭐ A TAP IS A COMPLETE GESTURE ON EVERY HANDLE.
+         The first version answered a click only on the offcut, so both
+         plank handles were DEAD to a click and to Enter/Space — the
+         liveness gate scored them 0 of 10 paths in every entitlement
+         state. Arrows worked, but a drag-or-arrows-only handle is
+         unreachable to a child who taps and to assistive tech that
+         clicks. A tap now steps the plank one longer, wrapping at the
+         top of the band, which is the same affordance the arrows give
+         and is what the label promises. */
+      var tap = function () {
+        if (kind === 'off') {
+          var n = self.cycleOffcut(self.st);
+          if (n) { self.st = n; self._paint(); }
+          return;
+        }
+        var which = cls === 'cmp-h-a' ? 'a' : 'b';
+        var cur = self.st[which];
+        var next = cur >= self.N_MAX ? 1 : cur + 1;
+        var m = self.setLen(self.st, which, next);
+        if (m) { self.st = m; self._paint(); }
+      };
+      b.addEventListener('click', function (ev) { ev.preventDefault(); tap(); });
       b.addEventListener('keydown', function (ev) {
         var k = ev.key;
         if (k === 'Enter' || k === ' ' || k === 'Spacebar') {
           ev.preventDefault();
-          var t = kind === 'off' ? self.toggleOffcut(self.st) : null;
-          if (t) { self.st = t; self._paint(); }
+          tap();                      /* ⚠ the gate presses these; so do people */
           return;
         }
         var d = (k === 'ArrowLeft' || k === 'ArrowDown') ? -1 : (k === 'ArrowRight' || k === 'ArrowUp') ? 1 : 0;
@@ -748,7 +781,8 @@
           : s.phase === 'attached' ? 'hintTake' : 'hintCarry';
       this._hint.textContent = api.t(key);
 
-      this._chipToggle.textContent = api.t(s.phase === 'attached' ? 'takeBtn' : 'putBackBtn');
+      this._chipToggle.textContent = api.t(
+        s.phase === 'attached' ? 'takeBtn' : (s.phase === 'laid' ? 'putBackBtn' : 'layBtn'));
       this._chipToggle.disabled = (s.a === s.b);
       this._chipNext.textContent = api.t('nextBtn');
       this._chipPrint.textContent = api.t('printBtn');

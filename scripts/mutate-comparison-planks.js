@@ -81,7 +81,12 @@ const M = [
   ['dx stops being locked while attached', 'nx = this.X0 + this.K * Math.min(s.a, s.b);\n        ny = Math.round', 'nx = Math.round(x);\n        ny = Math.round'],
   ['the free clamp squashes the piece against the wall', 'nx = Math.round(Math.min(this.RIGHT - this.K * d, Math.max(this.X0, x)));',
     'nx = Math.round(Math.min(this.RIGHT, Math.max(this.X0, x)));'],
-  ['reattach leaves the drag coordinates behind', "s.phase = 'attached'; s.dx = 0; s.dy = 0;\n      return s;\n    },\n\n    /* the one-tap path", "s.phase = 'attached';\n      return s;\n    },\n\n    /* the one-tap path"],
+  /* ⚠ anchored on reattach's OWN body. The first needle keyed on the
+     comment that follows it, and went stale the moment the neighbouring
+     function was renamed — needles anchor on code, never on prose. */
+  ['reattach leaves the drag coordinates behind',
+    "s.phase = 'attached'; s.dx = 0; s.dy = 0;\n      return s;\n    },\n\n    /* The pointer-free path",
+    "s.phase = 'attached';\n      return s;\n    },\n\n    /* The pointer-free path"],
   ['rounding moves out of the reducer', 'ny = Math.round(Math.min(this.FLOOR_Y, Math.max(this.homeY(s), y)));', 'ny = Math.min(this.FLOOR_Y, Math.max(this.homeY(s), y));'],
 
   /* ---- the plank geometry -------------------------------------------- */

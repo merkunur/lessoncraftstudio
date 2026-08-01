@@ -99,7 +99,7 @@ sec('V1  the model is total, pure and immutable');
   const before = S(5, 9);
   const snap = JSON.stringify(before);
   T.setLen(before, 'a', 7); T.beginLift(before); T.moveOffcut(before, 300, 300);
-  T.endDrag(before); T.toggleOffcut(before); T.reattach(before);
+  T.endDrag(before); T.cycleOffcut(before); T.reattach(before);
   is(JSON.stringify(before) === snap, 'no reducer mutates its input');
 
   is(T.setLen(S(5, 9), 'a', 5) === null, 'a no-op setLen refuses, rather than reporting a fake success');
@@ -116,7 +116,7 @@ sec('V2  ⭐ the payoff: the composite ends exactly where the longer plank ends'
   let bad = 0, checked = 0, worst = '';
   for (let a = 1; a <= N; a++) for (let b = 1; b <= N; b++) {
     if (a === b) continue;
-    const laid = T.toggleOffcut(S(a, b));
+    const laid = T.cycleOffcut(T.cycleOffcut(S(a, b)));
     if (!laid) { bad++; worst = `${a},${b} refused to seat`; continue; }
     const comp = T.composedRight(laid), lng = T.longRight(laid);
     /* ⭐ Object.is, not === : -0 must also be rejected */
@@ -249,13 +249,25 @@ sec('V7  the planks freeze while the offcut is out — refused in the MODEL');
 {
   const lifted = T.beginLift(S(5, 9));
   const free = T.moveOffcut(lifted, 0, 999);
-  const laid = T.toggleOffcut(S(5, 9));
+  const laid = T.cycleOffcut(T.cycleOffcut(S(5, 9)));
   is(T.setLen(lifted, 'a', 7) === null, 'setLen refuses while lifting');
   is(T.setLen(free, 'a', 7) === null, 'setLen refuses while the piece is free');
   is(T.setLen(laid, 'a', 7) === null, 'setLen refuses while the piece is seated');
   is(T.setLen(S(5, 9), 'a', 7) !== null, 'and permits it when the piece is home');
   is(T.beginLift(S(7, 7)) === null, '⭐ there is nothing to lift when the planks are equal');
-  is(T.toggleOffcut(S(7, 7)) === null, 'and the toggle refuses too');
+  is(T.cycleOffcut(S(7, 7)) === null, 'and the cycle refuses too');
+  {
+    /* ⭐ EACH STEP OF THE CYCLE HAS ITS OWN TRUE LABEL. The first
+       version went attached -> laid in ONE tap under a chip reading
+       "Take the piece off" — the control did two things and the label
+       named one. */
+    const s1 = T.cycleOffcut(S(5, 9));
+    const s2 = T.cycleOffcut(s1);
+    const s3 = T.cycleOffcut(s2);
+    is(s1.phase === 'free', 'cycle 1: the piece comes OFF (take it off)');
+    is(s2.phase === 'laid', 'cycle 2: and only then is it laid on (lay it on)');
+    is(s3.phase === 'attached', 'cycle 3: and back home (put it back)');
+  }
   /* dx is LOCKED while still attached — sliding it sideways before it
      comes off would be a lie about the material */
   const sideways = T.moveOffcut(lifted, 900, lifted.dy + 4);

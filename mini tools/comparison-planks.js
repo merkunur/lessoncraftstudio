@@ -91,6 +91,63 @@
         and the teacher's.
      And standing: no score, no timer, no streak, no speech.
 
+   ⭐ WHAT THE THREE NATIVE PANELS FOUND IN MY ENGLISH — recorded here
+   because the source is the ONLY review it ever gets, and because two
+   of these were bugs in the MODEL that a panel found by reading the
+   code rather than the copy:
+     · ⚠ A LIVE MODEL BUG. The hint ladder handed `hintCarry` to BOTH
+       `lifting` and `free` — but in `lifting` moveOffcut LOCKS nx, so
+       "now carry the piece" was live during the one phase where
+       carrying is impossible. §23.6's a-control-must-do-what-its-label-
+       says, applied to a hint. `lifting` now keeps `hintTake`.
+     · ⚠ ONE ELEMENT, TWO JOBS, ONE NAME. `_hO` is the BRACKET's grip
+       while attached and the PIECE's grip once free, and it announced
+       itself the same way in both — so a screen-reader user was told to
+       carry something still bolted on. Two labels now, and the local
+       gate ASSERTS the swap rather than trusting it.
+     · ⭐⭐ AND THE #41 DEFECT RECURRED, VERBATIM, WHILE I WAS FIXING AN
+       a11y FINDING. Naming the hollow "the gap" made it a FOURTH NAMED
+       PART in a tool whose own line 7 says three named parts and
+       nothing else gets a noun. De-nouned: the hollow is an ABSENCE,
+       not an object the child handles, and a name for it would compete
+       with the offcut being THE thing. A law you wrote yourself is not
+       self-enforcing.
+     · GATE 5 WAS CARRIED BY NO STRING. The thesis is that the third
+       number is the one the class says out loud — and nothing invited
+       anyone to say it. `hintSay` is that string.
+     · `sceneLabel` (was `benchLabel`, a name leaked from #40, which HAS
+       a bench) described a state the tool is usually not in.
+     · "put it ON the shorter one" is spatially WRONG — the seat is
+       end-to-end, `seatY = shortRowY`. Dutch *op* and Nordic *på* both
+       read as ON TOP, so five panels each had to write around it.
+
+   ⚠⚠ AND THE FENCE AROUND `hintSay` IS BEHAVIOURAL, NOT LEXICAL — the
+   sharpest thing any panel said. "Say how long that piece is" and
+   `span-length-gap`'s banned "how much longer is it" HAVE THE SAME
+   ANSWER. What keeps this tool off that ground is that IT TAKES NO
+   INPUT — no keypad, no field, no check. So no word-ban can guard the
+   boundary, and an edit to `hintSay` in any of eleven locales could
+   cross it without a single gate noticing. If the tool ever grows an
+   input, this string is the first thing that has to go.
+
+   ⚠ PER-LOCALE NOUN TRAPS, each caught by a native panel and each of
+   which would have shipped:
+     de  Klammer = PARENTHESIS in maths — unusable in a tool forbidden
+         from writing arithmetic; and Bügel + Brett reads as Bügelbrett,
+         an ironing board. Hence `Henkel`. `Rest` = division remainder.
+     it  graffa = the brace AND a PAPER CLIP — a banned non-standard
+         unit smuggled in through the apparatus's own name. Hence
+         `parentesi`. `tavola` collides with tavola pitagorica.
+     es  `tabla` = the TIMES TABLES. `par` = an EVEN NUMBER, so
+         "another pair" had to become `pareja`. `vara` is a real unit.
+     pt  `tábua` sits one syllable from `tabuada`.
+     nl  ⭐ `plank` means SHELF first, and heart-words already owns it
+         (Woordplanken) — the tool's own English name does not survive
+         contact with Dutch. Hence `lat`.
+     sv  `bana` is unusable: its definite `banan` is the banana.
+     fi  `lauta : laudat` sits one step from `lautanen : lautaset`,
+         which fraction-kitchen owns. Hence `lankku`.
+
    0 lines to lcs-shell.{js,css} or any protected core.
    ===================================================================== */
 
@@ -112,22 +169,24 @@
        --------------------------------------------------------------- */
     strings: {
       title: { en: "The Planks" },
-      instruction: { en: "Two planks start from the same line. Make them different lengths, then take the extra piece off the longer one and put it on the shorter one." },
-      benchLabel: { en: "Two planks starting from one line, a bracket over the piece that sticks out, and that piece ready to be carried" },
-      hintSet: { en: "Drag the end of each plank to make it longer or shorter." },
-      hintTake: { en: "One plank sticks out. Drag the bracket downwards to take that piece off." },
-      hintCarry: { en: "Now carry the piece to the end of the shorter plank." },
-      hintSeated: { en: "The short plank and the piece together reach exactly as far as the long one." },
+      instruction: { en: "Two planks start from the same line. Make one longer than the other, then take the piece that sticks out off the long plank and lay it at the end of the short one." },
+      sceneLabel: { en: "Two planks starting from one line. Whenever one reaches further than the other, a bracket appears over the piece that sticks out, and that piece can be carried to the end of the shorter plank." },
+      hintSame: { en: "Both planks are the same length, so nothing sticks out. Drag one end to make them different." },
+      hintTake: { en: "One plank reaches further than the other. Drag the bracket downwards to take off the piece that sticks out." },
+      hintSay: { en: "Before you move it, say out loud how long that piece is." },
+      hintCarry: { en: "The long plank is now missing that piece. Carry it to the end of the shorter plank." },
+      hintSeated: { en: "The short plank and the piece together reach exactly to where the long plank ends." },
       takeBtn: { en: "Take the piece off" },
-      layBtn: { en: "Lay it on the short one" },
-      putBackBtn: { en: "Put the piece back" },
+      layBtn: { en: "Lay it end to end" },
+      putBackBtn: { en: "Put it back where it was" },
       nextBtn: { en: "Another pair" },
       printBtn: { en: "Print the sheet" },
-      plankAAria: { en: "Make the top plank longer or shorter" },
-      plankBAria: { en: "Make the bottom plank longer or shorter" },
-      offcutAria: { en: "Carry the piece that sticks out" },
+      plankAAria: { en: "the top plank. Drag its end to make it longer or shorter." },
+      plankBAria: { en: "the bottom plank. Drag its end to make it longer or shorter." },
+      bracketAria: { en: "the bracket over the piece that sticks out. Drag it down to take the piece off." },
+      offcutAria: { en: "the piece that sticks out. Drag it to carry it." },
       gateTitle: { en: "More pairs" },
-      gateBody: { en: "Eleven more pairs, ordered so each one surprises after the last, and the sheet to print for paper." },
+      gateBody: { en: "Eleven more pairs, ordered so each one surprises after the one before, and the sheet to print for working on paper." },
       gateCta: { en: "See the Teacher plan" }
     },
 
@@ -148,18 +207,18 @@
        N=40 it is 6.66px — half the floor. Neither the stroke nor the
        tick may shrink to make a bigger band fit. */
     W: 1000,
-    H: 372,
+    H: 440,
     X0: 30,             /* the START LINE — both planks grow from here   */
     RIGHT: 990,         /* the far edge of the longest possible plank    */
     N_MAX: 16,
     K: 60,              /* model units per value unit; (990-30)/16       */
     BAR_H: 62,
-    A_Y: 76,            /* top of plank A                                */
-    B_Y: 200,           /* top of plank B                                */
-    CARRY_Y: 292,       /* at or below this top-y, the offcut is FREE    */
-    FLOOR_Y: 302,       /* the lowest the offcut may be carried          */
-    RULE_TOP: 46,
-    RULE_BOT: 292,
+    A_Y: 96,            /* top of plank A                                */
+    B_Y: 214,           /* top of plank B                                */
+    CARRY_Y: 360,       /* at or below this top-y, the offcut is FREE    */
+    FLOOR_Y: 372,       /* the lowest the offcut may be carried          */
+    RULE_TOP: 66,
+    RULE_BOT: 306,
 
     premium: false,
     premiumKnown: false,
@@ -510,7 +569,7 @@
 
       var bench = api.el('div', 'cmp-bench');
       bench.setAttribute('role', 'group');
-      bench.setAttribute('aria-label', api.t('benchLabel'));
+      bench.setAttribute('aria-label', api.t('sceneLabel'));
       this._bench = bench;
 
       var svg = this._svgEl('svg', { viewBox: '0 0 ' + this.W + ' ' + this.H, 'class': 'cmp-svg' });
@@ -553,9 +612,9 @@
       this._brR = this._svgEl('line', { 'class': 'cmp-br' });
       svg.appendChild(this._brRail); svg.appendChild(this._brL); svg.appendChild(this._brR);
 
-      this._numA = this._svgEl('text', { 'class': 'cmp-num' });
-      this._numB = this._svgEl('text', { 'class': 'cmp-num' });
-      svg.appendChild(this._numA); svg.appendChild(this._numB);
+      this._numA = api.el('span', 'cmp-num');
+      this._numB = api.el('span', 'cmp-num');
+      bench.appendChild(this._numA); bench.appendChild(this._numB);
 
       /* ---- the handles: fixed-size HTML buttons OVER the svg --------
          ⚠ never circles inside it. A radius in model units cannot hold a
@@ -572,7 +631,9 @@
       wrap.appendChild(bench);
 
       this._hint = api.el('div', 'cmp-hint');
+      this._hintSay = api.el('div', 'cmp-hint cmp-hint-say');
       wrap.appendChild(this._hint);
+      wrap.appendChild(this._hintSay);
 
       var foot = api.el('div', 'cmp-foot');
       this._foot = foot;
@@ -759,31 +820,50 @@
 
       /* ⭐ EXACTLY TWO NUMERALS, IN EVERY STATE. Each names its own
          plank's far end, and that x has never moved. */
-      this._numA.setAttribute('x', this.X0 + K * s.a);
-      this._numA.setAttribute('y', this.A_Y - 12);
       this._numA.textContent = String(s.a);
-      this._numB.setAttribute('x', this.X0 + K * s.b);
-      this._numB.setAttribute('y', this.B_Y + this.BAR_H + 30);
       this._numB.textContent = String(s.b);
 
       var pct = function (el, x, y) {
         el.style.left = (x / ComparisonPlanks.W * 100) + '%';
         el.style.top = (y / ComparisonPlanks.H * 100) + '%';
       };
+      pct(this._numA, this.X0 + K * s.a, this.A_Y - 46);
+      pct(this._numB, this.X0 + K * s.b, this.B_Y + this.BAR_H + 46);
       pct(this._hA, this.X0 + K * s.a, this.A_Y + this.BAR_H / 2);
       pct(this._hB, this.X0 + K * s.b, this.B_Y + this.BAR_H / 2);
+      /* ONE element, TWO jobs: it is the BRACKET's grip while the piece
+         is attached and the PIECE's grip once it is free. It must not
+         answer to one name in both. */
+      this._hO.setAttribute('aria-label', api.t(s.phase === 'attached' ? 'bracketAria' : 'offcutAria'));
       if (oc) { pct(this._hO, oc.x + oc.w / 2, s.phase === 'attached' ? this.A_Y + this.BAR_H + 35 : oc.y + oc.h / 2); }
       this._hO.style.display = oc ? '' : 'none';
 
       /* the hint ladder */
-      var key = (s.a === s.b) ? 'hintSet'
+      /* ⚠ EVERY AUTHORED STRING MUST BE REACHABLE, and a source scan
+         cannot tell "the string exists" from "the string is reached"
+         (#39 shipped a key authored in all eleven locales that no branch
+         ever asked for). Five hints, five reachable states:
+           equal          -> hintSame   (nothing sticks out; say so)
+           attached       -> hintTake   (the bracket is the grip)
+           lifting/free   -> hintCarry  (and it names the gap)
+           laid           -> hintSeated
+         and hintSay rides ALONGSIDE hintTake — it is the one string that
+         asks the class for the third number, which the tool itself will
+         never print. Gate 5 (manufactures a conversation) was carried by
+         no string at all until a native panel said so. */
+      var key = (s.a === s.b) ? 'hintSame'
         : s.phase === 'laid' ? 'hintSeated'
-          : s.phase === 'attached' ? 'hintTake' : 'hintCarry';
+          : (s.phase === 'attached' || s.phase === 'lifting') ? 'hintTake' : 'hintCarry';
       this._hint.textContent = api.t(key);
+      /* the ask, and ONLY where there is something to ask about */
+      var asking = (s.a !== s.b && s.phase === 'attached');
+      this._hintSay.textContent = asking ? api.t('hintSay') : '';
+      this._hintSay.style.display = asking ? '' : 'none';
 
       this._chipToggle.textContent = api.t(
         s.phase === 'attached' ? 'takeBtn' : (s.phase === 'laid' ? 'putBackBtn' : 'layBtn'));
       this._chipToggle.disabled = (s.a === s.b);
+      this._chipToggle.style.visibility = (s.a === s.b) ? 'hidden' : '';
       this._chipNext.textContent = api.t('nextBtn');
       this._chipPrint.textContent = api.t('printBtn');
     },
@@ -845,7 +925,8 @@
       /* butt caps, so the drawn bracket's bbox IS its span and the gate's
          width assertion is not off by a stroke width at each end */
       + '.cmp-br{stroke:#0F4A40;stroke-width:3;stroke-linecap:butt;}'
-      + '.cmp-num{fill:#0F4A40;font:800 30px Baloo 2,Nunito,sans-serif;text-anchor:middle;}'
+      + '.cmp-num{position:absolute;transform:translate(-50%,-50%);pointer-events:none;'
+      + 'font-weight:800;font-size:clamp(19px,4.6vw,30px);line-height:1;font-family:"Baloo 2",Nunito,sans-serif;color:#0F4A40;}'
       /* handles: 44px, fixed, in px — a radius in model units cannot hold
          a floor in pixels (#41 measured 44 model units at 29px) */
       + '.cmp-handle{position:absolute;width:44px;height:44px;margin:-22px 0 0 -22px;padding:0;'
@@ -856,7 +937,8 @@
       + '.cmp-grip{display:block;width:18px;height:18px;border-radius:50%;background:#0F4A40;'
       + 'box-shadow:0 0 0 3px rgba(251,243,228,.92);}'
       + '.cmp-h-o .cmp-grip{background:#C8613A;}'
-      + '.cmp-num{fill:#0F4A40;}'
+      
+      + '.cmp-hint-say{font-weight:700;color:#146B5E;margin-top:-4px;}'
       + '.cmp-hint{flex-basis:100%;text-align:center;font-family:Nunito,sans-serif;font-size:15px;'
       + 'line-height:1.45;color:#3C6E63;max-width:660px;}'
       + '.cmp-foot{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;width:100%;max-width:660px;}'

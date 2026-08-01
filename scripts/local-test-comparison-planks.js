@@ -81,7 +81,21 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
         benchW: Math.round(r(bench).width),
         cardW: Math.round(r(card).width),
         lowest: Math.round(Math.max.apply(null, chips.map((c) => r(c).bottom))),
-        vh: window.innerHeight
+        vh: window.innerHeight,
+        /* ⭐ THE CHECK THAT WAS MISSING, AND IT SHIPPED A DEFECT.
+           Every gate here measured ONE box against a floor — overflow,
+           tap size, containment. NOT ONE asked whether two rendered
+           things LAND ON TOP OF EACH OTHER. The numerals were sized in
+           px and offset in MODEL units, so on a phone bench the 16-unit
+           offset was 5px and each numeral sat inside its own grip. Both
+           boxes passed every floor they were measured against. */
+        nums: Array.from(document.querySelectorAll('.cmp-num')).map((e) => {
+          const b = r(e);
+          return { top: b.top, bottom: b.bottom, size: parseFloat(getComputedStyle(e).fontSize) };
+        }),
+        grips: [r(document.querySelector('.cmp-h-a .cmp-grip')), r(document.querySelector('.cmp-h-b .cmp-grip'))]
+          .map((b) => ({ top: b.top, bottom: b.bottom })),
+        benchBox: { top: r(bench).top, bottom: r(bench).bottom }
       };
     });
 
@@ -93,6 +107,23 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
     is(m.benchW <= m.cardW, `${tag}: the bench is contained by THE CARD (${m.benchW} ≤ ${m.cardW})`);
     is(m.lowest <= m.vh, `${tag}: FITS — lowest control at ${m.lowest} ≤ ${m.vh}`);
     is(errs.length === 0, `${tag}: no console errors` + (errs.length ? ' — ' + errs[0] : ''));
+
+    /* ⭐ NUMERAL vs GRIP — measured, per numeral, at every width.
+       The numeral is above its plank (A) or below it (B), and the grip
+       straddles the same x. Vacuity guard first: two numerals, or the
+       whole block below compares nothing. */
+    is(m.nums.length === 2, `${tag}: two numerals to measure (vacuity guard)`);
+    if (m.nums.length === 2) {
+      const gapA = Math.round(m.grips[0].top - m.nums[0].bottom);
+      const gapB = Math.round(m.nums[1].top - m.grips[1].bottom);
+      is(gapA >= 2, `${tag}: numeral A clears its grip by ${gapA}px`);
+      is(gapB >= 2, `${tag}: numeral B clears its grip by ${gapB}px`);
+      is(m.nums[0].top >= m.benchBox.top - 1 && m.nums[1].bottom <= m.benchBox.bottom + 1,
+        `${tag}: both numerals stay inside the bench`);
+      /* and legible: a numeral is the only text on the stage */
+      const sz = Math.min(m.nums[0].size, m.nums[1].size);
+      is(sz >= 18, `${tag}: NUMERAL floor — smallest numeral ${sz}px`);
+    }
     if (dpr === 1) benchMin = Math.min(benchMin, m.benchW);
 
     if (SHOT && dpr === 2 && [360, 768, 1024].indexOf(W) >= 0) {
@@ -136,8 +167,9 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
       ocWraw: raw('.cmp-offcut', 'width'),
       hollow: vis('.cmp-hollow'), socket: vis('.cmp-socket'),
       nums: Array.from(document.querySelectorAll('.cmp-num')).map((e) => e.textContent),
-      textNodes: Array.from(document.querySelectorAll('.cmp-bench text')).length,
+      textNodes: document.querySelectorAll('.cmp-bench .cmp-num').length,
       offcutNode: q('.cmp-offcut') === window.__ocRef,
+      hoAria: q('.cmp-h-o') ? q('.cmp-h-o').getAttribute('aria-label') : null,
       rects: document.querySelectorAll('.cmp-bench rect').length
     };
   });
@@ -153,6 +185,13 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
 
   const grip = await page.$('.cmp-h-o');
   is(!!grip, 'the offcut has a grip');
+  /* ⭐ ONE ELEMENT, TWO JOBS — flagged by a native panel as a WIRING risk
+     rather than a string problem, so it is asserted rather than trusted.
+     While attached it is the BRACKET's grip; once free it is the PIECE's.
+     Answering to one name in both states misdirects a screen-reader user
+     in whichever state it is wrong for. */
+  is(/bracket/i.test(before.hoAria || ''),
+    `attached: the grip announces itself as THE BRACKET — "${before.hoAria}"`);
   const g = await grip.boundingBox();
   is(g.width >= 44 && g.height >= 44, `CONTROL floor — the grip is ${Math.round(g.width)}x${Math.round(g.height)}px`);
 
@@ -239,6 +278,66 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
   is(errs.length === 0, 'no page errors across the whole drive' + (errs.length ? ' — ' + errs[0] : ''));
 
   await page.close();
+  /* =================================================================
+     L5 — ⭐ EVERY AUTHORED STRING IS *REACHED*, not merely authored
+     -----------------------------------------------------------------
+     #39 shipped `hintMark`, authored in all eleven locales and asked
+     for by no branch. The first check for that class was a regex over
+     the source — and mutation showed a source scan is defeated by
+     making the BRANCH unreachable while the `t('key')` call still sits
+     in the file. So this drives the tool through every reachable state
+     and collects what the DOM actually received. A string that never
+     appears is furniture, and furniture in eleven locales is eleven
+     translations of nothing.
+
+     ⚠ The state list is exhaustive by construction, not by hope: the
+     model has exactly five reachable presentations — equal, attached,
+     lifting, free, laid — and `_st` canonicalises everything else into
+     one of them.
+     ================================================================= */
+  {
+    const p5 = await browser.newPage();
+    await p5.setViewport({ width: 1024, height: 900 });
+    await p5.goto(`http://127.0.0.1:${PORT}/comparison-planks.html?lang=en&embed=1`, { waitUntil: 'domcontentloaded' });
+    await p5.waitForSelector('.cmp-bench', { timeout: 9000 });
+    await wait(400);
+
+    const res = await p5.evaluate(() => {
+      const inst = window.ComparisonPlanks;
+      const seen = new Set();
+      const harvest = () => {
+        document.querySelectorAll('body, body *').forEach((e) => {
+          if (e.childElementCount === 0 && e.textContent.trim()) seen.add(e.textContent.trim());
+          const a = e.getAttribute && e.getAttribute('aria-label');
+          if (a) seen.add(a.trim());
+        });
+      };
+      const states = [
+        { a: 7, b: 7, phase: 'attached', dx: 0, dy: 0 },
+        { a: 5, b: 9, phase: 'attached', dx: 0, dy: 0 },
+        { a: 5, b: 9, phase: 'lifting', dx: 300, dy: 260 },
+        { a: 5, b: 9, phase: 'free', dx: 300, dy: 380 },
+        { a: 5, b: 9, phase: 'laid', dx: 0, dy: 0 }
+      ];
+      for (const st of states) { inst.st = inst._st(st); inst._paint(); harvest(); }
+      /* the gate panel is a state of the UI too */
+      /* the paywall panel is built but hidden for an entitled user;
+         built-and-hidden is still REACHED. */
+      if (inst._showGate) { try { inst._showGate(); } catch (_) { } }
+      harvest();
+      return { seen: Array.from(seen), authored: Object.keys(inst.strings).map((k) => [k, inst.strings[k].en]) };
+    });
+
+    const blob = res.seen.join('');
+    const missing = res.authored.filter(([, v]) => blob.indexOf(v) < 0).map(([k]) => k);
+    is(res.authored.length >= 18, `vacuity guard: ${res.authored.length} authored strings to account for`);
+    is(res.seen.length > 5, `vacuity guard: the harvest collected ${res.seen.length} rendered strings`);
+    is(missing.length === 0,
+      `⭐ EVERY authored string is REACHED by some state — ${res.authored.length} keys`
+      + (missing.length ? ` — DEAD: ${missing.join(', ')}` : ''));
+    await p5.close();
+  }
+
   await browser.close();
   srv.close();
 

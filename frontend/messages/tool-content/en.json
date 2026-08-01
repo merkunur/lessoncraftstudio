@@ -1106,6 +1106,35 @@
     "metaTitle": "The Unit Handle — measure with a changing unit, K-2",
     "metaDescription": "Two tapes, one object: stretch the unit and the number changes while the object stays put. A free whiteboard tool for measuring with different units in K-2."
   },
+  "unroll-tape": {
+    "slug": "measure-around-a-shape-strand-k2",
+    "name": "All the Way Round",
+    "tagline": "A strand lies all the way round a shape, then lies down straight beside a scale ruled in the shape’s own width — and a circle always comes out at three and a bit.",
+    "about": [
+      "A flat shape stands on a ruled line. A strand lies all the way round its edge. Drag the strand’s tip and it slides off the shape and lies down straight along the line, keeping exactly the length it had when it was curved. The line is not ruled in any named unit: each step is the shape’s own width, marked by the two small uprights beneath it.",
+      "Turning a curved length into a straight one is the one move in early measurement with no still picture. You can do it once with real string, which is exactly why it almost never gets done twice — the string tangles, the class has moved on, and the moment does not come round again. There is no efficacy research behind this routine and none is claimed; what the tool offers is the moment, repeatable.",
+      "Then the reading. A circle’s strand reaches a little past the third mark. Make the circle bigger and everything grows with it — the outline, the strand, the marks — and the end of the strand stays between the same two marks. It is three and a bit for every circle there has ever been. And a shape that is plainly not a circle, with three curved sides, comes out at exactly the same three and a bit, which is worth an afternoon on its own.",
+      "Before the strand moves, the class plants a flag where they think it will reach. The flag freezes when the strand starts to move and it is never marked, never scored, never corrected — it simply stays where it was put, beside where the strand landed. Nothing on screen says which is longer. There is no reading needed to use it: a shape, a cord, and a row of numerals. Five shapes and the whole apparatus are free; the other seven and the printable sheet come with the Teacher plan."
+    ],
+    "howToUse": [
+      "Put a shape up and ask the class how far it is all the way round, before anything moves.",
+      "Let a child drag the flag to where they think the strand will reach, and leave it there.",
+      "Drag the strand’s tip slowly, so the class watches the cord leave the curve and arrive on the line.",
+      "⭐ Now make the shape much bigger and let it lie down again — the number does not change. This is the move the whole tool is for.",
+      "Try the shape with three curved sides next to the circle, and let the class explain why they read the same.",
+      "Compare the strand with the shorter bar beneath it, which is the shape’s height, and say nothing at all about which is longer."
+    ],
+    "classroomIdeas": [
+      "Predict first: every child writes down how many widths they expect, before the strand moves.",
+      "Two shapes, one question — the crescent is shorter than the egg and carries more cord. Ask why.",
+      "Give a child a target: make the shape so the strand lands exactly on the fourth mark.",
+      "Run the circle three times at three sizes and record all three readings on the board, then look at the column.",
+      "Do it on paper afterwards with real string round a jar lid, and compare what the class gets.",
+      "Ask which shape would carry the most cord for its width, then check — the flower looks as round as the circle."
+    ],
+    "metaTitle": "All the Way Round — measure around a shape, K-2",
+    "metaDescription": "A strand lies round a shape, then lies down straight on a scale ruled in the shape’s own width. A free whiteboard tool for measuring around, K-2."
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

@@ -1105,6 +1105,35 @@
     "metaTitle": "Strekkbåndet – mål med egne enheter, 1.–2. trinn",
     "metaDescription": "Mål den samme gjenstanden med to bånd på skjermen. Krymp enheten og se tallet vokse mens gjenstanden ligger stille. Gratis å bruke på projektor. 1.–2. trinn."
   },
+  "unroll-tape": {
+    "slug": "maale-hele-veien-rundt-en-figur",
+    "name": "Hyssingsporet",
+    "tagline": "En hyssing ligger hele veien rundt en figur og legger seg deretter rett ut på et spor som er delt inn i figurens egen bredde — for en sirkel blir det alltid tre og litt til.",
+    "about": [
+      "En flat figur står på en linje. Rundt kanten ligger en hyssing. Dra i enden av hyssingen: den glir av figuren og legger seg rett ut på sporet, nøyaktig like lang som da den lå krum. Sporet er ikke delt inn i noe avtalt mål, men i figurens egen bredde, som de to små strekene under den viser.",
+      "Å gjøre en krum lengde rett er det eneste steget i tidlig måling som det ikke finnes et stillbilde av. Med ekte hyssing gjør man det én gang, og nettopp derfor blir det nesten aldri gjort to ganger: hyssingen floker seg, timen er slutt, øyeblikket kommer ikke igjen. Det finnes ingen effektstudie bak denne rutinen, og vi hevder ingen; verktøyet gjør øyeblikket gjentakbart.",
+      "Og så tallet. Hyssingen til en sirkel når et lite stykke forbi den tredje streken. Gjør sirkelen større: alt vokser med — kanten, hyssingen, strekene — og enden av hyssingen blir liggende mellom de samme to strekene. Tre og litt til, for hver eneste sirkel som finnes. Og en figur som tydelig ikke er en sirkel, med tre buede sider, gir nøyaktig de samme tre og litt til.",
+      "Før noe beveger seg, setter klassen et flagg der de tror hyssingen når. Flagget fryser så snart hyssingen begynner å bevege seg, og det blir aldri rettet eller vurdert: det blir stående der det ble satt, ved siden av der hyssingen havnet. Ingenting på skjermen sier hva som er lengst. Man trenger ikke kunne lese for å bruke det: en figur, en hyssing og en rad med tall. Fem figurer og hele oppstillingen er gratis; de andre sju og arket til utskrift følger med Lærerabonnementet."
+    ],
+    "howToUse": [
+      "Sett opp en figur og spør hvor langt det er hele veien rundt, før noe beveger seg.",
+      "La et barn dra flagget dit det tror hyssingen når, og la det bli stående.",
+      "Dra sakte i enden av hyssingen, så klassen ser den forlate buen og komme fram på sporet.",
+      "⭐ Gjør nå figuren mye større og la hyssingen legge seg igjen: tallet endrer seg ikke. Det er derfor verktøyet finnes.",
+      "Sett deretter figuren med de tre buede sidene ved siden av sirkelen, og la klassen forklare hvorfor de blir like.",
+      "Sammenlign hyssingen med den kortere stolpen under, som er høyden til figuren, og si ingenting om hva som er lengst."
+    ],
+    "classroomIdeas": [
+      "Gjett først: hvert barn skriver hvor mange bredder de tror, før hyssingen beveger seg.",
+      "To figurer, ett spørsmål — månen er lavere enn egget og bruker mer hyssing. Hvordan kan det ha seg?",
+      "Gi et mål: still inn figuren slik at hyssingen stopper akkurat på fjerde strek.",
+      "Mål den samme sirkelen i tre størrelser og skriv de tre tallene under hverandre på tavla.",
+      "Gjør det etterpå på papir med ekte hyssing rundt et lokk og sammenlign.",
+      "Spør hvilken figur som bruker mest hyssing i forhold til bredden sin, og sjekk — blomsten ser like rund ut som sirkelen."
+    ],
+    "metaTitle": "Hyssingsporet – mål hele veien rundt, 1.–2. trinn",
+    "metaDescription": "En hyssing ligger rundt en figur og legger seg rett ut på et spor delt inn i figurens egen bredde. Gratis verktøy for 1.–2. trinn."
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

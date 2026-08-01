@@ -122,6 +122,14 @@ function toolGlobal(key) {
      nth   — index, or an array of indices to click in order
      times — click the same nth element N times */
 const SEEDS = {
+  // A shape with a strand wrapped round it reads as just a shape — the
+  // whole story is the strand LEAVING it. So plant the flag (a click on
+  // the handle plants it), then run the peel to the end, so the card
+  // shows the cord lying straight past the third mark: three and a bit.
+  'unroll-tape': [
+    { sel: '.urt-flag', nth: 0 },
+    { sel: '.urt-foot .urt-chip', nth: 0, wait: 1100 },
+  ],
   // empty 10-frame → 6 counters
   'ten-frame': [{ sel: '.tf-cell', nth: [0, 1, 2, 3, 4, 5] }],
   // "Nothing moves yet" → build a rail, then RUN it so a trail is drawn.

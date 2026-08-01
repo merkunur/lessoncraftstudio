@@ -1105,6 +1105,35 @@
     "metaTitle": "L'étalon élastique — mesurer une longueur en cycle 2",
     "metaDescription": "Deux bandes, un seul objet : étirez l'étalon et le nombre change alors que l'objet ne bouge pas. Mesurer des longueurs avec un étalon, cycle 2, au TBI."
   },
+  "unroll-tape": {
+    "slug": "mesurer-le-tour-dune-forme-cycle-2",
+    "name": "La ficelle qui se couche",
+    "tagline": "Une ficelle fait tout le tour d’une forme, puis se couche bien droite dans un couloir marqué à la largeur de la forme — et pour un cercle, cela fait toujours trois fois et un peu.",
+    "about": [
+      "Une forme plate est posée sur une ligne. Une ficelle fait tout le tour de son bord. Faites glisser le bout de la ficelle : elle quitte la forme et vient se coucher bien droite dans le couloir, avec exactement la longueur qu’elle avait quand elle était courbe. Le couloir n’est marqué dans aucune mesure convenue : chaque intervalle vaut la largeur de la forme elle-même, repérée par les deux petits traits en dessous.",
+      "Transformer une longueur courbe en longueur droite est le seul geste de la mesure au cycle 2 dont il n’existe aucune image fixe. On peut le faire une fois avec une vraie ficelle, et c’est justement pour cela qu’on ne le refait presque jamais : la ficelle s’emmêle, la séance est finie, le moment ne revient pas. Aucune étude ne mesure l’effet de cet outil et nous n’en revendiquons aucun ; il rend simplement ce moment répétable.",
+      "Puis vient le nombre. La ficelle d’un cercle dépasse un peu la troisième marque. Agrandissez le cercle : tout grandit avec lui — le contour, la ficelle, les marques — et le bout de la ficelle reste entre les deux mêmes marques. Trois fois et un peu, pour tous les cercles du monde. Et une forme qui n’est manifestement pas un cercle, avec ses trois côtés courbes, donne exactement le même résultat.",
+      "Avant que rien ne bouge, la classe pose un repère là où elle pense que la ficelle s’arrêtera. Le repère se fige dès le premier mouvement, et il n’est jamais noté, jamais corrigé : il reste où on l’a posé, à côté de là où la ficelle est arrivée. Rien à l’écran ne dit ce qui est le plus long. Il n’y a rien à lire pour s’en servir : une forme, une ficelle, une rangée de chiffres. Cinq formes et tout l’appareil sont gratuits ; les sept autres et la feuille à imprimer font partie de l’offre Enseignant."
+    ],
+    "howToUse": [
+      "Affichez une forme et demandez quelle distance cela fait tout le tour, avant que rien ne bouge.",
+      "Un élève pose le repère là où il pense que la ficelle s’arrêtera, et on l’y laisse.",
+      "Faites glisser le bout de la ficelle lentement, pour que la classe la voie quitter la courbe et arriver sur la ligne.",
+      "⭐ Agrandissez maintenant beaucoup la forme et recouchez la ficelle : le nombre ne change pas. C’est pour cela que l’outil existe.",
+      "Placez ensuite la forme aux trois côtés courbes à côté du cercle et faites expliquer pourquoi les deux donnent la même chose.",
+      "Comparez la ficelle à la barre plus courte en dessous, qui est la hauteur de la forme, et ne dites rien sur ce qui est le plus long."
+    ],
+    "classroomIdeas": [
+      "Estimer d’abord : chacun écrit combien de largeurs il attend, avant que la ficelle bouge.",
+      "Deux formes, une question — le croissant est plus bas que l’œuf et prend plus de ficelle. Pourquoi ?",
+      "Donnez une cible : réglez la forme pour que la ficelle s’arrête pile sur la quatrième marque.",
+      "Mesurez le même cercle à trois tailles et écrivez les trois nombres l’un sous l’autre au tableau.",
+      "Refaites-le sur papier avec une vraie ficelle autour d’un couvercle et comparez.",
+      "Demandez quelle forme prend le plus de ficelle pour sa largeur, puis vérifiez — la fleur paraît aussi ronde que le cercle."
+    ],
+    "metaTitle": "La ficelle qui se couche — mesurer le tour, cycle 2",
+    "metaDescription": "Une ficelle fait le tour d’une forme puis se couche droite dans un couloir marqué à la largeur de la forme. Outil gratuit au TBI, cycle 2."
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

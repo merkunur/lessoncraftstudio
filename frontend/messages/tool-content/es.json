@@ -1105,6 +1105,35 @@
     "metaTitle": "Estira la unidad: medir con unidades no convencionales",
     "metaDescription": "Mide el mismo objeto con dos tiras: estira la unidad de una y su número cambia mientras el objeto no se mueve. Para 1.º y 2.º, en la pizarra digital."
   },
+  "unroll-tape": {
+    "slug": "medir-el-contorno-de-una-figura-primaria",
+    "name": "La vuelta a la figura",
+    "tagline": "Un cordón le da toda la vuelta a una figura y luego se acuesta recto en una pista marcada con el ancho de la figura — y en un círculo siempre sale tres y un poco.",
+    "about": [
+      "Una figura plana se apoya sobre una línea. Un cordón le da toda la vuelta al borde. Arrastra la punta del cordón: sale de la figura y se acuesta recto en la pista, con exactamente el mismo largo que tenía cuando estaba curvo. La pista no está marcada en ninguna medida convenida: cada tramo vale el ancho de la propia figura, señalado por las dos rayitas de abajo.",
+      "Convertir un largo curvo en uno recto es el único paso de la medida en los primeros años que no tiene ninguna imagen fija. Con un cordón de verdad se hace una vez, y justo por eso casi nunca se hace dos: el cordón se enreda, la clase sigue adelante y el momento no vuelve. No hay estudios sobre el efecto de esta herramienta ni lo afirmamos; lo que ofrece es ese momento, repetible.",
+      "Y después, el número. El cordón de un círculo pasa un poco de la tercera marca. Haz el círculo más grande: crece todo con él — el contorno, el cordón, las marcas — y la punta del cordón se queda entre las dos mismas marcas. Tres y un poco, en todos los círculos que existen. Y una figura que claramente no es un círculo, con tres lados curvos, da exactamente ese mismo tres y un poco.",
+      "Antes de que nada se mueva, la clase pone una bandera donde cree que llegará el cordón. La bandera se congela en cuanto el cordón empieza a moverse, y nunca se corrige ni se califica: se queda donde la pusieron, al lado de donde cayó el cordón. Nada en la pantalla dice cuál es más largo. No hace falta saber leer para usarla: una figura, un cordón y una fila de números. Cinco figuras y todo el aparato son gratis; las otras siete y la hoja para imprimir van con el plan Docente."
+    ],
+    "howToUse": [
+      "Pon una figura y pregunta cuánto mide toda la vuelta, antes de mover nada.",
+      "Que un niño arrastre la bandera hasta donde cree que llegará el cordón, y ahí se queda.",
+      "Arrastra la punta del cordón despacio, para que la clase lo vea salir de la curva y llegar a la pista.",
+      "⭐ Ahora haz la figura mucho más grande y vuelve a acostar el cordón: el número no cambia. Para esto existe la herramienta.",
+      "Pon luego la figura de tres lados curvos junto al círculo y pide que expliquen por qué dan lo mismo.",
+      "Compara el cordón con la barra más corta de abajo, que es la altura de la figura, y no digas nada sobre cuál es mayor."
+    ],
+    "classroomIdeas": [
+      "Estimar primero: cada niño escribe cuántos anchos espera, antes de que el cordón se mueva.",
+      "Dos figuras, una pregunta — la luna es más baja que el huevo y lleva más cordón. ¿Por qué?",
+      "Da un objetivo: ajusta la figura para que el cordón caiga justo en la cuarta marca.",
+      "Mide el mismo círculo en tres tamaños y escribe los tres números uno debajo de otro.",
+      "Házlo después en papel con un cordón de verdad alrededor de una tapa y compara.",
+      "Pregunta qué figura lleva más cordón para su ancho y comprobadlo — la flor parece tan redonda como el círculo."
+    ],
+    "metaTitle": "La vuelta a la figura: medir el contorno, 1.º y 2.º",
+    "metaDescription": "Un cordón da la vuelta a una figura y se acuesta recto en una pista marcada con el ancho de la figura. Herramienta gratuita para la pizarra digital."
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

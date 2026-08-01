@@ -1105,6 +1105,35 @@
     "metaTitle": "Misurare con unità arbitrarie alla LIM: l'unità elastica",
     "metaDescription": "Due strisce misurano lo stesso oggetto con unità diverse: rimpicciolite l'unità e il numero sale, mentre l'oggetto non si muove. Classe prima e seconda."
   },
+  "unroll-tape": {
+    "slug": "misurare-il-giro-di-una-figura-primaria",
+    "name": "Lo spago del contorno",
+    "tagline": "Uno spago fa tutto il giro di una figura e poi si stende dritto su una pista graduata con la larghezza della figura — e per un cerchio viene sempre tre e un po’.",
+    "about": [
+      "Una figura piatta poggia su una linea. Uno spago fa tutto il giro del suo bordo. Trascinate la punta dello spago: si stacca dalla figura e si stende dritto sulla pista, esattamente lungo come era da curvo. La pista non è graduata in nessuna misura convenzionale: ogni intervallo vale la larghezza della figura stessa, segnata dai due trattini sotto di essa.",
+      "Trasformare una lunghezza curva in una dritta è l’unico passaggio della misura nei primi anni che non ha nessuna immagine ferma. Con uno spago vero lo si fa una volta, ed è proprio per questo che quasi non lo si rifa mai: lo spago si aggroviglia, la lezione finisce, il momento non torna. Non esiste uno studio sull’efficacia di questo strumento e non ne rivendichiamo nessuna; quello che offre è quel momento, ripetibile.",
+      "E poi il numero. Lo spago di un cerchio supera di poco la terza tacca. Ingrandite il cerchio: cresce tutto insieme — il contorno, lo spago, le tacche — e la punta dello spago resta fra le stesse due tacche. Tre e un po’, per ogni cerchio che esista. E una figura che chiaramente non è un cerchio, con tre lati curvi, dà esattamente quello stesso tre e un po’.",
+      "Prima che si muova qualcosa, la classe pianta una bandierina dove pensa che lo spago arriverà. La bandierina si blocca appena lo spago comincia a muoversi, e non viene mai corretta né valutata: resta dove l’hanno messa, accanto al punto in cui lo spago si è fermato. Niente sullo schermo dice quale sia più lungo. Non serve saper leggere per usarlo: una figura, uno spago e una fila di numeri. Cinque figure e tutto l’apparato sono gratuiti; le altre sette e il foglio da stampare fanno parte del piano Insegnante."
+    ],
+    "howToUse": [
+      "Mettete una figura e chiedete quanto misura tutto il giro, prima che si muova qualcosa.",
+      "Un bambino trascina la bandierina dove pensa che arriverà lo spago, e lì resta.",
+      "Trascinate la punta dello spago lentamente, così la classe lo vede lasciare la curva e arrivare sulla pista.",
+      "⭐ Ora ingrandite molto la figura e fate stendere di nuovo lo spago: il numero non cambia. È per questo che lo strumento esiste.",
+      "Poi mettete la figura con i tre lati curvi accanto al cerchio e fate spiegare perché danno lo stesso risultato.",
+      "Confrontate lo spago con la barra più corta sotto, che è l’altezza della figura, e non dite nulla su quale sia maggiore."
+    ],
+    "classroomIdeas": [
+      "Prima la stima: ogni bambino scrive quante larghezze si aspetta, prima che lo spago si muova.",
+      "Due figure, una domanda — la luna è più bassa dell’uovo e porta più spago. Perché?",
+      "Date un obiettivo: regolate la figura perché lo spago si fermi esattamente sulla quarta tacca.",
+      "Misurate lo stesso cerchio in tre grandezze e scrivete i tre numeri uno sotto l’altro.",
+      "Rifatelo su carta con uno spago vero attorno a un coperchio e confrontate.",
+      "Chiedete quale figura porta più spago per la sua larghezza, poi verificate — il fiore sembra rotondo come il cerchio."
+    ],
+    "metaTitle": "Lo spago del contorno — misurare il giro, primaria",
+    "metaDescription": "Uno spago fa il giro di una figura e si stende dritto su una pista graduata con la larghezza della figura. Strumento gratuito per la LIM."
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

@@ -513,6 +513,15 @@
       api.stage.appendChild(wrap);
     },
 
+    /* the x of a mark's centre, in model units. THE single source for
+       both the SVG dot and the HTML grip that drives it — see the two
+       call sites in _paint. The two marks sit 96 units apart on the
+       SAME side of the column, so they cannot collide when the span is
+       0; that separation is structural, not a tap-target floor. */
+    _markX: function (ax, k) {
+      return ax - this.TUBE_W / 2 - 6 - (k === 'a' ? 0 : 96);
+    },
+
     _chip: function (foot, cls, fn) {
       var b = this.api.el('button', 'cld-chip' + (cls ? ' ' + cls : ''));
       b.type = 'button';
@@ -690,7 +699,7 @@
         var vis = self.inView(s, val);
         g.style.display = vis ? '' : 'none';
         if (!vis) return;
-        g.setAttribute('transform', 'translate(' + (ax - self.TUBE_W / 2 - 6 - (k === 'a' ? 0 : 96)) + ' ' + self.yFor(s, val) + ')');
+        g.setAttribute('transform', 'translate(' + self._markX(ax, k) + ' ' + self.yFor(s, val) + ')');
       });
 
       this._bench.setAttribute('aria-label', api.t('sceneLabel')
@@ -734,8 +743,15 @@
          not.) —
          structural, not a floor. #42 never met this because its two
          handles were on separate rows. */
-      place(this._hA, ax - this.TUBE_W / 2 - 20, this.yFor(s, s.a), this.inView(s, s.a));
-      place(this._hB, ax - this.TUBE_W / 2 - 116, this.yFor(s, s.b), this.inView(s, s.b));
+      /* ⭐ THE SAME EXPRESSION THAT DRAWS THE MARK, not a second one
+         that happens to sit near it. These were two formulas — the dot
+         at -6 and the grip at -20 — so the grip stood 14 model units
+         off its own mark, and each mark read as TWO circles once the
+         dot and the grip were both visible. Two numbers that agree are
+         a coincidence waiting to end; one expression evaluated twice
+         cannot drift. (The same discipline as #42's payoff.) */
+      place(this._hA, this._markX(ax, 'a'), this.yFor(s, s.a), this.inView(s, s.a));
+      place(this._hB, this._markX(ax, 'b'), this.yFor(s, s.b), this.inView(s, s.b));
       /* the scale's own grab handle sits on the numerals' side */
       place(this._hS, ax + this.TUBE_W / 2 + 104, (this.TOP + this.BOT) / 2, true);
 
@@ -931,8 +947,25 @@
          is a plain length. At 560px the bench still gives ~20px per
          scale unit and ~26px numerals, well above the legibility floor
          the band was derived from. */
-      + '.cld-bench{position:relative;width:100%;max-width:660px;aspect-ratio:1/1;'
-      + 'max-height:560px;margin:0 auto;border-radius:18px;background:#FBF3E4;'
+      /* ⚠⚠ THE CAP IS ON THE WIDTH, AND THE ARENA MUST STAY SQUARE.
+         Capping the HEIGHT instead (max-width:660 + max-height:560 on
+         an aspect-ratio:1/1 box) produces a 660x560 element — NOT a
+         square. The SVG then letterboxes to 560 with a 50px inset,
+         while the HTML handles are positioned as a % of the 660-wide
+         BOX, so every handle drifted off the mark it controls: 14.6px
+         at mark A, 24.2px at mark B, growing with distance from the
+         centre. Each mark rendered as TWO circles — on a tool whose
+         entire subject is two marks.
+         Nothing caught it. The layout gate measures chips and hints;
+         local-test drags through getScreenCTM, which is correct in
+         both cases; every suite stayed green. I found it by looking at
+         the 768px render, which is exactly why that step is in the
+         definition of done and not optional.
+         The square is not cosmetic — toScreen maps (x,y) -> (W-y,x),
+         and that is only an isometry on a square. Both gates below now
+         assert it. */
+      + '.cld-bench{position:relative;width:100%;max-width:560px;aspect-ratio:1/1;'
+      + 'margin:0 auto;border-radius:18px;background:#FBF3E4;'
       + 'border:2px solid rgba(20,107,94,.18);}'
       + '.cld-svg{display:block;width:100%;height:100%;}'
 

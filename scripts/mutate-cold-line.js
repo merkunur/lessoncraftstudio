@@ -27,7 +27,22 @@ const { execFileSync } = require('child_process');
 
 const ROOT = path.join(__dirname, '..');
 const TOOLS = path.join(ROOT, 'mini tools');
-const SRC = fs.readFileSync(path.join(TOOLS, 'cold-line.js'), 'utf8');
+
+/* ⚠⚠ NORMALISE THE LINE ENDINGS BEFORE SEARCHING, OR EVERY MULTI-LINE
+   NEEDLE CAN GO BLIND WITHOUT ONE OF THEM BEING WRONG.
+   The recorded lesson says "never edit a repo file through Python text
+   mode", because io.open(p,'w') rewrites \n as \r\n on Windows and
+   broke eleven needles at once. That rule would not have prevented
+   this: the CRLF arrived through `git checkout -- "mini tools/
+   cold-line.js"`, which restores the working copy through
+   core.autocrlf. SEVEN needles missed, the tool was entirely correct,
+   and the only reason it did not read as seven passing mutations is
+   that this harness counts a missing needle as a FAULT rather than a
+   kill.
+   So the fix belongs HERE, not in the working copy. A needle that
+   misses because of a line ending is a defect of the harness, and a
+   harness must not be able to have it. */
+const SRC = fs.readFileSync(path.join(TOOLS, 'cold-line.js'), 'utf8').replace(/\r\n/g, '\n');
 const CARRY = ['cold-line-sets.json'];
 const TIMEOUT = 30000;
 

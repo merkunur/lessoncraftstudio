@@ -74,12 +74,24 @@ const BANS = [
   {
     name: 'total',
     re: w('volumen?|volume|altogether|total|totalt|totale|tutto|insgesamt|zusammen|totaal|sammanlagt|yhteensä|yhteensa|alt'),
+    /* ⚠⚠ ONE AUDITABLE EXEMPTION, NOT A LOOSENED REGEX.
+       French `dessiné EN VOLUME` is the standard phrase for *drawn in
+       three dimensions* — a RENDERING register, not the measured
+       quantity — and the French panel used it correctly in sceneLabel.
+       My ban read the word and condemned it, which is the ban-too-wide
+       trap in the third language of this build (after Finnish
+       `asteikko` = scale on #43 and the German `Zufallsbeutel` on #38).
+       The exemption is the fixed phrase only: `le volume de la boîte`
+       still fires, and both are poisoned below. */
+    exempt: /en\s+volume/iu,
     fire: ['how many cubes altogether', 'wie viele Würfel insgesamt', 'hoeveel in totaal',
       'hur många sammanlagt', 'kuinka monta yhteensä', 'combien au total', 'cuántos en total',
-      'quantos no total', 'quanti in tutto', 'the volume of the box'],
+      'quantos no total', 'quanti in tutto', 'the volume of the box',
+      'calculez le volume de la maquette'],
     pass: ['that is how many cubes tall it is', 'so hoch ist der Turm an dieser Stelle',
       'schrijf een getal in elk vakje', 'skriv ett tal i varje ruta', 'kirjoita luku joka ruutuun',
-      'trois de haut', 'tres de alto', 'três de altura', 'tre di altezza']
+      'trois de haut', 'tres de alto', 'três de altura', 'tre di altezza',
+      'la maquette, dessinée en volume']
   },
   {
     name: 'area',
@@ -130,8 +142,9 @@ const refuse = (m) => { console.error('  REFUSED: ' + m); bad++; };
 console.log('\n[poison] every ban, both directions');
 for (const b of BANS) {
   let f = 0, p = 0;
-  for (const s of b.fire) if (b.re.test(s)) f++; else console.error(`  POISON GAP [${b.name}] should FIRE: ${JSON.stringify(s)}`);
-  for (const s of b.pass) if (!b.re.test(s)) p++; else console.error(`  POISON GAP [${b.name}] should PASS: ${JSON.stringify(s)}`);
+  const hits = (str) => b.re.test(str) && !(b.exempt && b.exempt.test(str));
+  for (const s of b.fire) if (hits(s)) f++; else console.error(`  POISON GAP [${b.name}] should FIRE: ${JSON.stringify(s)}`);
+  for (const s of b.pass) if (!hits(s)) p++; else console.error(`  POISON GAP [${b.name}] should PASS: ${JSON.stringify(s)}`);
   if (f !== b.fire.length || p !== b.pass.length) bad++;
   console.log(`  poison [${b.name}]: fires ${f}/${b.fire.length}, clears ${p}/${b.pass.length}`);
 }
@@ -158,7 +171,7 @@ for (const loc of LOCALES) {
     const v = set[k];
     if (typeof v !== 'string' || !v.trim()) { refuse(`${loc}.${k} is missing or empty`); continue; }
     if (loc !== 'en' && v === SoT.en[k]) refuse(`${loc}.${k} is identical to English — an untranslated leak`);
-    for (const b of BANS) if (b.re.test(v)) refuse(`${loc}.${k} trips the ${b.name} ban: ${JSON.stringify(v.slice(0, 70))}`);
+    for (const b of BANS) if (b.re.test(v) && !(b.exempt && b.exempt.test(v))) refuse(`${loc}.${k} trips the ${b.name} ban: ${JSON.stringify(v.slice(0, 70))}`);
     if (NAMES_THE_CUBES.test(v)) refuse(`${loc}.${k} NAMES THE CUBES — the census left no free cube word: ${JSON.stringify(v.slice(0, 70))}`);
     /* placeholders must survive the rebuild */
     for (const ph of ['{r}', '{c}', '{v}']) {

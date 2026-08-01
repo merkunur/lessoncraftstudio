@@ -190,7 +190,17 @@ LOCALES.forEach((loc) => {
   did(`${rel}: category "measurement"`);
 }());
 
-/* ---- 7: the hub thumbnail (checked, not written) ------------------ */
+/* ---- 7: the hub thumbnail (checked, not written) ------------------
+   ⚠⚠ AND POINT 7 CANNOT RUN UNTIL POINTS 1-2 HAVE. `generate-tool-
+   previews.js` parses TOOL_KEYS out of `lib/seo/tool-content.ts` as its
+   single SoT for "which tools exist", so `--only=<key>` on an
+   unregistered tool matches nothing and reports **"Generated 0
+   preview(s), 0 failure(s)"** — a success line for having done nothing,
+   which is exactly the shape of output that gets skimmed past.
+   THE ORDER IS: register (1-6) -> generate the preview -> re-run
+   register to confirm 7. The documented seven-point list does not say
+   this, and the TODO below reads as if the preview could be made at any
+   time. It cannot. -------------------------------------------------- */
 (function () {
   /* ⚠ THE PATH IS mini-tools/tool-previews, NOT tool-previews. The
      first version of this check pointed one directory too high, so it

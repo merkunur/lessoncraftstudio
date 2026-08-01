@@ -129,7 +129,18 @@ const UNIT = /(°|\bcelsius|\bfahrenheit|\bcentigrad|\bgrad(?:i|os|er|en|us)?\b|
 
   const read = () => page.evaluate(() => {
     const t = window.ColdLine;
-    const r = (s) => { const e = document.querySelector(s); return e ? e.getBoundingClientRect() : null; };
+    /* ⚠ RETURN PLAIN NUMBERS. A DOMRect's properties live on its
+       PROTOTYPE, so it serialises out of page.evaluate as `{}` — every
+       field undefined, every comparison NaN, and the assertion fails on
+       a tool that is fine. It read "the bench keeps its footprint
+       through the turn (NaNpx)". A gate reporting NaN is reporting that
+       it measured nothing, which is not the same as a failure. */
+    const r = (s) => {
+      const e = document.querySelector(s);
+      if (!e) return null;
+      const b = e.getBoundingClientRect();
+      return { width: b.width, height: b.height, left: b.left, top: b.top };
+    };
     const dotOf = (s) => {
       const g = document.querySelector(s + ' .cld-mark-dot');
       if (!g) return null;

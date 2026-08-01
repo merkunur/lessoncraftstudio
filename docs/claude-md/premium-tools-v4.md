@@ -15,10 +15,11 @@ Working record: `[[project_premium_tools_v4_catalog]]` · `[[project_arrow_strip
 > re-design it.** Read the entry for the next tool below, run the four-surface fence, then build
 > to the recipe at the end of this file.
 > **STATE: `#36 The Number Sieve` · `#37 The Arrow Strip` · `#38 The Draw Bag` ·
-> `#39 The Lids` — ALL LIVE. **WAVE 1 IS CLOSED.** `#40 The Unit Handle` (B3) and
-> `#41 All the Way Round` (B4) LIVE → **NEXT = `A5 Comparison Tape`.**
-> Constants for the next build: header ordinal **#42** · `PREV = 'unroll-tape'` ·
-> `TOOL_WRAPPER_VERSION` **7.54 → 7.55** · `TOOL_KEYS` position **45**.
+> `#39 The Lids` — ALL LIVE. **WAVE 1 IS CLOSED.** `#40 The Unit Handle` (B3) ·
+> `#41 All the Way Round` (B4) · `#42 The Planks` (A5) · `#43 Upright and Flat`
+> (B7) — ALL LIVE. **WAVE 2 IS CLOSED.** → **NEXT = wave 3, `B2 Build Plan`.**
+> Constants for the next build: header ordinal **#44** · `PREV = 'cold-line'` ·
+> `TOOL_WRAPPER_VERSION` **7.56 → 7.57** · `TOOL_KEYS` position **47**.
 
 ---
 
@@ -630,11 +631,14 @@ One tool per plan-mode session, registration inside the build commit — the pro
   *Why these four:* A1 has the strongest gate story on the platform and the largest machine-growable
   repertoire; B1 and C1 are the two clearest cases of the European slot shape and both are wordless
   by construction rather than by translation effort; A2 carries the largest proven demand.
-- **Wave 2 — the measurement spine (4).** ~~`B3 Unit Handle`~~ ✅ **LIVE as #40** ·
-  ~~`B4 Unrolling Tape`~~ ✅ **LIVE as #41 ("All the Way Round")** · **`A5 Comparison
-  Tape` ← NEXT** · `B7 Cold Line`.
-- **Wave 3 — space and structure (4).** `B2 Build Plan` · `B5 Reshape` · `B6 Hinge` · `A3 Counting
-  Tray`.
+- **Wave 2 — the measurement spine (4). ✅ CLOSED.** ~~`B3 Unit Handle`~~ ✅ **#40** ·
+  ~~`B4 Unrolling Tape`~~ ✅ **#41 ("All the Way Round")** · ~~`A5 Comparison Tape`~~ ✅
+  **#42 ("The Planks")** · ~~`B7 Cold Line`~~ ✅ **#43 ("Upright and Flat")**.
+  *The spine reads as one argument:* change the UNIT with the object fixed (#40) → lay a CURVE
+  straight (#41) → carry a DIFFERENCE away as its own object (#42) → TURN the whole instrument and
+  watch nothing change (#43). Each one moves something a child assumed was fixed.
+- **Wave 3 — space and structure (4). ← NEXT.** `B2 Build Plan` · `B5 Reshape` · `B6 Hinge` ·
+  `A3 Counting Tray`.
 - **Wave 4 — number depth (3).** `A4 Carry Wheels` · `A6 Grouping Dial` · `A7 Hundred Field`.
 - **Wave 5 — data, science and the habit (4+1).** *corpus commission first*, then `C4 Splitting Key`
   · `C3 Glass Graph` · `C2 Shadow Yard` · `C5 Ramp`, and finally **`D1 Morning Board`, last**.

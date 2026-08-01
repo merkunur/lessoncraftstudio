@@ -1204,9 +1204,9 @@ The platform's **paid-product line**: 20 K-3 *curriculum instruments* — the ap
 
 > When the operator says **"build the next tool"** / **"build the next one"** / **"continue with the tools"**, or names a catalog tool: **do NOT re-research, re-design, or re-litigate the catalog.** It is approved and the strategy work is done. Go straight to **EnterPlanMode for that ONE tool** → run the **four-surface fence** (§23.3) before a line is written → name its **invention**, its **moat** and an explicit **refuse-list** → ExitPlanMode → build to §23.4.
 
-**Position (2026-08-01).** `#36 number-sieve` · `#37 arrow-strip` · `#38 draw-bag` · `#39 lids` (closed wave 1) · `#40 unit-handle` · `#41 unroll-tape` · **`#42 comparison-planks` ("The Planks", A5) LIVE — wave 2 running.** → **NEXT = B7 The Cold Line.** Full wave order in the companion.
+**Position (2026-08-01).** `#36 number-sieve` · `#37 arrow-strip` · `#38 draw-bag` · `#39 lids` (closed wave 1) · `#40 unit-handle` · `#41 unroll-tape` · `#42 comparison-planks` · **`#43 cold-line` ("Upright and Flat", B7) LIVE — WAVE 2 COMPLETE.** The measurement spine reads: change the UNIT with the object fixed (#40) · lay a CURVE straight (#41) · carry a DIFFERENCE away as a piece (#42) · TURN the whole instrument and watch nothing change (#43). → **NEXT = wave 3**; order in the companion.
 
-**Constants for the next build:** header ordinal **#43** · `PREV = 'comparison-planks'` · `TOOL_WRAPPER_VERSION` **7.55 → 7.56** · it becomes `TOOL_KEYS` position **46**. ⚠ **The header ordinal is a LEDGER, not the array index — it runs 3 behind** (`class-timer`/`letter-studio` both claim #25, `wodb`/`syllable-splitter` both claim #22, three early tools carry none). Take the next ordinal from the last shipped tool's header. **Do not renumber anything.**
+**Constants for the next build:** header ordinal **#44** · `PREV = 'cold-line'` · `TOOL_WRAPPER_VERSION` **7.56 → 7.57** · it becomes `TOOL_KEYS` position **47**. ⚠ **The header ordinal is a LEDGER, not the array index — it runs 3 behind** (`class-timer`/`letter-studio` both claim #25, `wodb`/`syllable-splitter` both claim #22, three early tools carry none). Take the next ordinal from the last shipped tool's header. **Do not renumber anything.**
 
 ### 23.1 The four operator rulings (locked; do not re-litigate)
 **Scope** clean-sheet replacement — unbuilt v3 entries dead unless re-earned · **Subject** NO language-teaching tools of any kind; maths · measurement · geometry · data · time · money · spatial · science ONLY · **Reach** language-light universal (identical in 11 locales, almost no authored language) · **Money** free apparatus, paid depth + record. Standing: **if the thing the tool teaches cannot be verified, it is not designed.**
@@ -1290,6 +1290,62 @@ The 5 registration points are §21.5; **`frontend/config/live-tool-slugs.ts` is 
 - ⚠ **A CONSTRAINT YOU IMPOSE CAN BE WRONG:** I banned digits in `metaTitle`, but every sibling ships
   `Klasse 1-2` / `cycle 2` / `K-2`, no gate forbids it, and my own EN violated it. The no-digits
   law is for the APPARATUS, not the landing SEO.
+
+⭐ **Bought on #43 (Upright and Flat), and the first one is the most expensive lesson in the program so far:**
+- ⭐⭐ **A FIX THAT SATISFIES ONE GATE CAN BREAK AN INVARIANT NO GATE IS WATCHING, AND THE SUITE STAYS
+  GREEN.** To clear a desktop cut-off I capped the bench's HEIGHT — `max-width:660px` +
+  `max-height:560px` on an `aspect-ratio:1/1` box. That is not a smaller square; it is a **660×560
+  rectangle**. The SVG letterboxed to 560 with a 50px inset while the HTML handles stayed positioned
+  as a % of the 660-wide BOX, so every handle drifted off the mark it drives (14.6px at A, **24.2px
+  at B** — the error grows with distance from centre, exactly as letterboxing predicts) and **each
+  mark rendered as TWO CIRCLES**, on a tool whose entire subject is two marks. verify 76, mutate
+  46/46, local-test 327, smoke 65, layout 396, print 40, liveness 33/0/0 — **all green**. The layout
+  gate measures chips and hint lines; the pointer drags go through `getScreenCTM`, which is correct
+  in BOTH geometries; the model never knew. **I found it by reading the 768px render, which is why
+  that step is in the definition of done and is not a formality.** Cap the WIDTH: the square is
+  structural, since `(x,y)→(W−y,x)` is an isometry only on a square.
+- ⭐⭐ **TWO NUMBERS THAT AGREE ARE A COINCIDENCE WAITING TO END.** The residual 4.09px after the
+  square was restored was a hand-written 14-unit gap between two formulas that were never meant to
+  agree — the SVG dot at `-6`, the HTML grip at `-20`. One `_markX()` evaluated twice: 0.01px.
+- ⭐⭐ **A GATE CAN BE UNABLE TO ATTACH ITS OWN INSTRUMENT, AND REPORT THAT AS A DEFECT.**
+  `lcs-shell.js:482` builds the api with `Object.freeze` and `t` is **non-writable**, so wrapping it
+  silently no-ops in sloppy mode. My first reachability recorder did exactly that and reported
+  "0 keys asked for" in all eleven locales while every string rendered — a gate failing a CORRECT
+  tool. Measured with a property descriptor rather than assumed. The shell resolves
+  `i18n.t(tool.strings, key)` at CALL time, so the recording point is a **Proxy over the tool's own
+  strings object** — it needs nothing writable. And a recorder installed after mount cannot see what
+  was read AT mount: three aria keys scored "never asked" until the build was re-run through it.
+- ⭐⭐ **A POISON THAT IS STOPPED UPSTREAM TESTS NOTHING.** My first poison for that gate injected a
+  20th key; `apply-`'s ORDER check refused it, so the run failed for a reason unrelated to
+  reachability and told me nothing. The real poison is the #39 shape — a live `t()` call left in a
+  **DEAD BRANCH** — which a source scan passes and this gate names.
+- ⭐⭐ **CLONING A GATE COPIES ITS SELECTORS *AND* ITS GLOBALS.** Both locale gates drove
+  `window.ComparisonPlanks` with #42's `{phase,dx,dy}` state into a `{lo,a,b,tipped}` tool. They
+  surfaced ONLY because that global is absent here — **had the two tools shared a global name, 11
+  locales and 396 layout cells would have been certified off one untouched opening frame.**
+- ⭐ **LIVENESS IS NOT CONSEQUENCE, PER CONTROL.** `audit-tool-control-liveness` scored 33/0/0 over 25
+  paths while local-test had ONE consequence assertion for ELEVEN controls. Assert what each control
+  changes ELSEWHERE — **and what it must NOT change**, since half of them are defined by what they
+  leave alone (mark B changes the span and must not touch the liquid; that is the whole difference
+  between the two marks).
+- ⚠ **`git checkout` NORMALISES LINE ENDINGS, AND MULTI-LINE MUTATION NEEDLES ARE SILENTLY SENSITIVE
+  TO IT.** Seven needles went blind after a plain `git checkout --` restored the file through
+  `core.autocrlf`. The recorded rule ("never edit through Python text mode") is about MY edits and
+  would not have helped. **Fix it in the harness** (collapse `\r\n` before searching) — and note the
+  only reason it wasn't seven silent passes is that the harness counts a missing needle as a FAULT.
+- ⚠ **A NEEDLE THAT ENCODES THE CURRENT TEXT OF WHAT IT MUTATES HAS A HALF-LIFE.** Four locale
+  needles carried the English literal inline and died the moment `apply-` rewrote the strings block
+  for eleven locales instead of eight (alignment padding). Self-anchor them, and **throw** rather
+  than skip: a dropped needle shrinks the total while the run still says "every mutation killed".
+- ⚠ **THE BAN WAS TOO NARROW, AND THE OBVIOUS WIDENING WOULD HAVE BEEN TOO WIDE.** The unit ban
+  matched Finnish `aste`/`asteen` but not `astetta`, the partitive a Finn actually says. Widening to
+  `\baste\w*` would then have condemned **`asteikko`, which means SCALE** — the one noun the Finnish
+  panel needs for this tool's central part. List the case endings explicitly.
+- ⚠ **MY REQUEST TO THE PANEL NAMED THREE KEYS THAT EXIST NOWHERE** while omitting three the runtime
+  reads. Both lists were 19 long, which is why it read as a match. I wrote it from memory; the panel
+  read the tool and refused it. **Write the request from the artefact too, not just the assertions.**
+- ⚠ **A `*/` INSIDE A BLOCK COMMENT CLOSES IT**, and `enNeedle`-style regex built in a template
+  literal loses `\s` — both cost a parse error each. Same family as the recorded backtick trap.
 
 ### 23.7 What is NOT in scope
 **Closed strands — do not re-propose:** time · money · capacity/weight/non-standard length · all corpus science (the repo proves the art does not exist) · puzzles-with-a-solution (they fail gate 5 — solving ends the interaction). The **rejected list with reasons** (Pin Board, Standing Line, Pairing Rail, Fold-and-Cut, Number String, Same/Different, a generic slow-reveal runtime, Clothesline Math, Ten Bridge, Compass Rose…) is in the companion — read it before proposing anything new. **C4 The Splitting Key is corpus-blocked** until `object-attributes.json` is reviewed past 456/933.

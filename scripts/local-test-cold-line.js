@@ -325,6 +325,67 @@ const setState = (p, st) => p.evaluate((s) => {
   }
 
   /* =================================================================
+     L7 — ⭐⭐ THE ARENA IS SQUARE, AND EVERY HANDLE SITS ON ITS MARK
+     -----------------------------------------------------------------
+     Both of these were unasserted, and a layout fix broke both at once
+     without turning a single gate red.
+
+     Capping the bench's HEIGHT while its width capped higher produced a
+     660x560 element on an aspect-ratio:1/1 rule. The SVG letterboxed to
+     560 with a 50px inset; the HTML handles kept being placed as a % of
+     the 660-wide box. Every handle drifted off its mark — 14.6px at A,
+     24.2px at B, the error growing with distance from centre — so each
+     mark drew as TWO circles.
+
+     Why nothing saw it: the layout gate measures chips and hint lines;
+     the pointer drags in L5 go through getScreenCTM, which is right in
+     both geometries; the model never knew. It was found by looking at
+     a 768px render.
+
+     The square is structural, not cosmetic: toScreen maps
+     (x,y) -> (W-y,x), which is an isometry only on a square.
+     ================================================================= */
+  console.log('\n[L7] the arena is square and the handles sit on their marks');
+  for (const W of [320, 412, 768, 1024, 1366]) {
+    const p = await open(browser, W, W < 500 ? 740 : 900, 1);
+    for (const tipped of [false, true]) {
+      await setState(p, { lo: -12, a: -5, b: 3, tipped: tipped });
+      await wait(140);
+      const m = await p.evaluate(() => {
+        const c = (sel) => {
+          const e = document.querySelector(sel);
+          if (!e) return null;
+          const r = e.getBoundingClientRect();
+          return { x: r.left + r.width / 2, y: r.top + r.height / 2, w: r.width, h: r.height };
+        };
+        const bench = c('.cld-bench');
+        const dist = (u, v) => (u && v) ? Math.hypot(u.x - v.x, u.y - v.y) : null;
+        return {
+          bench: bench,
+          skew: bench ? Math.abs(bench.w - bench.h) : null,
+          gapA: dist(c('.cld-mark-a .cld-mark-dot'), c('.cld-h-a')),
+          gapB: dist(c('.cld-mark-b .cld-mark-dot'), c('.cld-h-b')),
+          dotW: (c('.cld-mark-a .cld-mark-dot') || {}).w
+        };
+      });
+      const tag = `${W}px ${tipped ? 'flat   ' : 'upright'}`;
+      is(!!m.bench && m.bench.w > 0, `${tag}: NON-VACUITY the bench is rendered`);
+      is(m.skew !== null && m.skew <= 1,
+        `${tag}: ⭐⭐ the arena is SQUARE — ${Math.round(m.bench.w)}x${Math.round(m.bench.h)}, skew ${m.skew.toFixed(2)}px`);
+      is(m.gapA !== null && m.gapB !== null, `${tag}: NON-VACUITY both marks and both handles exist`);
+      /* the grip must sit ON the dot, not beside it: within a quarter of
+         the dot's own diameter, which is what "one circle, not two"
+         means in pixels at any bench size */
+      const tol = Math.max(2, m.dotW / 4);
+      is(m.gapA <= tol,
+        `${tag}: ⭐ handle A is concentric with mark A — ${m.gapA.toFixed(2)}px of ${tol.toFixed(1)}px`);
+      is(m.gapB <= tol,
+        `${tag}: ⭐ handle B is concentric with mark B — ${m.gapB.toFixed(2)}px of ${tol.toFixed(1)}px`);
+    }
+    await p.close();
+  }
+
+  /* =================================================================
      L6 — ⭐⭐ EVERY CONTROL MUST CHANGE SOMETHING ELSE
      -----------------------------------------------------------------
      #39 shipped a numeral strip whose only effect in 1067 lines was

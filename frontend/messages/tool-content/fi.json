@@ -1170,6 +1170,35 @@
     "metaTitle": "Nollan alapuolella – lukusuora ja putki, 1.–3. lk",
     "metaDescription": "Vedettävä asteikko, jossa lukuja nollan ylä- ja alapuolella, kaksi nastaa ja niiden etäisyys. Pane pitkälleen, ja se on lukusuora. Ilmainen, 1.–3. luokka."
   },
+  "build-plan": {
+    "slug": "rakentaminen-ohjeen-mukaan-alkuopetus",
+    "name": "Talo lukuina",
+    "tagline": "Yhdeksän ruutua ja luku jokaisessa: niin korkea talo on siinä kohdassa. Vieressä sama talo pystyssä, alla se edestä ja sivulta — eivätkä ne kaksi kuvaa useimmiten riitä kertomaan, mikä talo se on.",
+    "about": [
+      "Yhdeksän ruutua, kolme kolmessa rivissä, ja jokaisessa ruudussa yksi luku: niin korkea talo on siinä kohdassa. Vieressä sama talo seisoo pystyssä. Napauta ruutua, vedä sitä tai käytä nuolinäppäimiä, niin luku kasvaa tai pienenee ja talo nousee tai laskee samassa kohdassa; mitään ei tarvitse kirjoittaa. Ruudukko ja talo ovat sama asia kahdesta päästä, ja kumpaa tahansa muuttaa, toinen muuttuu mukana. Enempää taululla ei ole: ei kysymystä, ei täytettävää ruutua, ei juoksevaa aikaa.",
+      "Rakentaminen ohjeen mukaan on alkuopetuksen vanha rutiini: lapsi saa kortin ja tekee sen mukaan, ja rakentelukortteja on joka luokan kaapissa. Kortti kulkee kuitenkin vain yhteen suuntaan. Täällä pääsee myös toisin päin — muuttaa taloa ja katsoa, mitkä luvut siitä seuraavat — ja juuri se suunta on se, jota korteilla ei voi harjoitella. Yksi painike kääntää koko laitteen neljänneskierroksen: talo on sama talo, mutta se, mikä oli edessä, on nyt sivulla.",
+      "Ja sitten se, mitä kortit eivät näytä. Talon alla näkyy kaksi litteää kuvaa, edestä ja sivulta, eivätkä ne useimmiten riitä: samat kaksi kuvaa sopivat moneen eri taloon. Erilaisia taloja on 1 953 125, ja niistä 99,96 % jakaa oman edestä–sivulta-parinsa jonkin toisen talon kanssa; kuvapareista 87 % kelpaa useammalle kuin yhdelle talolle. Yksi painike näyttää sen toisen talon. Niillä 709 talolla, jotka kaksi kuvaa todella ratkaisevat, painike on harmaana — se ei ole vika, vaan asian toinen puoli.",
+      "Taulu ei kysy koko talosta mitään lukumäärää eikä anna kappaleille nimiä, eikä se ratkaise, onko jokin oikein — keskustelua johtaa opettaja, ei näyttö. Tarkalleen 125 talolla kääntäminen ei muuta mitään, ja silloin taulu sanoo senkin. Tästä rutiinista ei ole vaikuttavuustutkimusta emmekä sellaista väitä. Perusopetuksen opetussuunnitelman perusteet 2014 asettaa ensimmäiselle ja toiselle luokalle tavoitteeksi kappaleiden ja kuvioiden havainnoinnin sekä avaruudellisen hahmottamisen, ja tämä on sitä työtä. Viisi taloa on ilmaisia; loput yksitoista ja tulostus kuuluvat Opettaja-tilaukseen."
+    ],
+    "howToUse": [
+      "Nosta ensimmäinen ruudukko esiin ja anna luokan katsoa sitä hetki, ennen kuin sanot mitään.",
+      "Napauta yhtä ruutua, jolloin luku kasvaa yhdellä ja talo nousee samassa kohdassa.",
+      "Vedä sitten taloa itseään ja anna luokan huomata, että luku ruudukossa muuttuu mukana. Tämä kannattaa tehdä hitaasti.",
+      "Käännä neljänneskierros ja kysy, mikä muuttui: talo on sama, mutta edestä tuli sivu.",
+      "Näytä alhaalla olevat kaksi litteää kuvaa ja anna luokan kuvitella toinen talo, joka näyttää samalta, ennen kuin painat painiketta. Tätä varten koko väline on olemassa.",
+      "Etsi lopuksi talo, jolla se painike on harmaana, ja kysy luokalta, miksi juuri siitä ei ole toista."
+    ],
+    "classroomIdeas": [
+      "Arvatkaa ensin: jokainen sanoo ääneen, miltä talo näyttää edestä, ennen kuin kukaan katsoo kuvaa sen alla.",
+      "Antakaa tavoite: säätäkää ruudukko niin, että talo näyttää edestä ja sivulta täsmälleen samalta.",
+      "Kääntäkää neljänneskierros yhä uudelleen ja laskekaa, monennellako kerralla talo on taas alkuperäinen; joukossa on taloja, jotka eivät muutu lainkaan.",
+      "Jakautukaa kahtia: toinen puoli katsoo vain kuvaa edestä, toinen vain sivulta, ja sopikaa yhdessä, mikä talo se on.",
+      "Etsikää talo, jolla painike on harmaana, ja antakaa luokan selittää, miksi toista samannäköistä ei ole.",
+      "Tehkää sama paperilla: tulostakaa tyhjät ruudukot, sanelkaa yhdeksän lukua ja rakentakaa talot pulpetilla sillä, mitä luokassa on — verratkaa sitten pareittain, tuliko kaikille sama."
+    ],
+    "metaTitle": "Talo lukuina – rakentaminen ohjeen mukaan, alkuopetus",
+    "metaDescription": "Yhdeksän ruutua ja luku jokaisessa, ja talo nousee viereen. Käännä neljänneskierros ja katso, miltä se näyttää edestä ja sivulta. Ilmainen alkuopetukseen."
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

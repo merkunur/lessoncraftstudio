@@ -1112,7 +1112,7 @@
     "about": [
       "En flad figur står på en linje. Rundt om kanten ligger en tråd. Træk i trådens ende: den glider af figuren og lægger sig lige ned på banen, nøjagtig lige så lang som da den lå krum. Banen er ikke inddelt i noget aftalt mål, men i figurens egen bredde, som de to små streger under den viser.",
       "At lave en krum længde om til en lige er det eneste skridt i tidlig måling, der ikke findes et stillbillede af. Med en rigtig tråd gør man det én gang, og netop derfor bliver det næsten aldrig gjort to gange: tråden filtrer, timen slutter, øjeblikket kommer ikke igen. Der findes ingen effektundersøgelse bag denne rutine, og vi påstår ingen; værktøjet gør øjeblikket gentageligt.",
-      "Og så tallet. En cirkels tråd når et lille stykke forbi den tredje streg. Gør cirklen større: alt vokser med — kanten, tråden, stregerne — og trådens ende blive mellem de samme to streger. Tre og lidt til, for hver eneste cirkel der findes. Og en figur, der tydeligvis ikke er en cirkel, med tre buede sider, giver præcis de samme tre og lidt til.",
+      "Og så tallet. En cirkels tråd når et lille stykke forbi den tredje streg. Gør cirklen større: alt vokser med — kanten, tråden, stregerne — og trådens ende bliver liggende mellem de samme to streger. Tre og lidt til, for hver eneste cirkel der findes. Og en figur, der tydeligvis ikke er en cirkel, med tre buede sider, giver præcis de samme tre og lidt til.",
       "Før noget bevæger sig, sætter klassen et flag der, hvor de tror tråden når til. Flaget fryser, så snart tråden begynder at bevæge sig, og det bliver aldrig rettet eller bedømt: det bliver stående, hvor det blev sat, ved siden af der hvor tråden landede. Intet på skærmen siger, hvad der er længst. Man behøver ikke kunne læse for at bruge det: en figur, en tråd og en række tal. Fem figurer og hele opstillingen er gratis; de andre syv og arket til at printe følger med Lærerabonnementet."
     ],
     "howToUse": [
@@ -1151,7 +1151,17 @@
       "Træk bøjlen nedad, så stykket løsner sig fra det lange bræt.",
       "Læg stykket for enden af det korte bræt, og vis, at de tilsammen når præcis lige langt.",
       "Læg stykket tilbage, og vælg det næste par — for eksempel to brædder, der er lige lange, så der ikke rager noget ud."
-    ]
+    ],
+    "classroomIdeas": [
+      "Sig det først: lad alle sige, hvor langt stykket er, før nogen rører bøjlen, og skriv de forskellige svar op på tavlen.",
+      "Gør brædderne lige lange, så der ikke kommer nogen bøjle, og spørg klassen, hvor langt stykket så ville være.",
+      "Giv et mål: indstil brædderne, så stykket bliver præcis lige så langt som det korte bræt.",
+      "Hvis stykke er det? Spørg, lige når det er lagt ende mod ende med det korte bræt — det kom fra det lange.",
+      "Gør det korte bræt lidt længere, og lad klassen gætte, om stykket bliver større eller mindre, før I trækker.",
+      "Gør det bagefter på papir: tegn to brædder i forskellig længde, klip det af, der rager ud, og læg det ende mod ende med det korte."
+    ],
+    "metaTitle": "Brædderne – sammenlign længde, se forskellen, indskolingen",
+    "metaDescription": "To brædder fra den samme streg: det stykke, der rager ud, tages af og lægges ende mod ende med det korte bræt. Gratis tavleværktøj til indskolingen."
   },
   "labels": {
     "about": "Om dette redskab",

@@ -274,7 +274,7 @@ module.exports = {
     about: [
       'En flad figur står på en linje. Rundt om kanten ligger en tråd. Træk i trådens ende: den glider af figuren og lægger sig lige ned på banen, nøjagtig lige så lang som da den lå krum. Banen er ikke inddelt i noget aftalt mål, men i figurens egen bredde, som de to små streger under den viser.',
       'At lave en krum længde om til en lige er det eneste skridt i tidlig måling, der ikke findes et stillbillede af. Med en rigtig tråd gør man det én gang, og netop derfor bliver det næsten aldrig gjort to gange: tråden filtrer, timen slutter, øjeblikket kommer ikke igen. Der findes ingen effektundersøgelse bag denne rutine, og vi påstår ingen; værktøjet gør øjeblikket gentageligt.',
-      'Og så tallet. En cirkels tråd når et lille stykke forbi den tredje streg. Gør cirklen større: alt vokser med — kanten, tråden, stregerne — og trådens ende blive mellem de samme to streger. Tre og lidt til, for hver eneste cirkel der findes. Og en figur, der tydeligvis ikke er en cirkel, med tre buede sider, giver præcis de samme tre og lidt til.',
+      'Og så tallet. En cirkels tråd når et lille stykke forbi den tredje streg. Gør cirklen større: alt vokser med — kanten, tråden, stregerne — og trådens ende bliver liggende mellem de samme to streger. Tre og lidt til, for hver eneste cirkel der findes. Og en figur, der tydeligvis ikke er en cirkel, med tre buede sider, giver præcis de samme tre og lidt til.',
       'Før noget bevæger sig, sætter klassen et flag der, hvor de tror tråden når til. Flaget fryser, så snart tråden begynder at bevæge sig, og det bliver aldrig rettet eller bedømt: det bliver stående, hvor det blev sat, ved siden af der hvor tråden landede. Intet på skærmen siger, hvad der er længst. Man behøver ikke kunne læse for at bruge det: en figur, en tråd og en række tal. Fem figurer og hele opstillingen er gratis; de andre syv og arket til at printe følger med Lærerabonnementet.'
     ],
     howToUse: [
@@ -339,7 +339,7 @@ module.exports = {
     ],
     howToUse: [
       'Nosta kuvio esiin ja kysy, kuinka pitkä matka on kuvion ympäri, ennen kuin mikään liikkuu.',
-      'Anna lapsen vedätä lippu siihen kohtaan, johon hän arvelee langan yltävän, ja jätä se siihen.',
+      'Anna lapsen vetää lippu siihen kohtaan, johon hän arvelee langan yltävän, ja jätä se siihen.',
       'Vedä langan päästä hitaasti, jotta luokka näkee sen lähtevän kaarelta ja saapuvan kaistalle.',
       '⭐ Suurenna nyt kuviota paljon ja anna langan asettua uudelleen: luku ei muutu. Tätä varten koko työkalu on olemassa.',
       'Aseta sitten kolmikaarinen kuvio ympyrän viereen ja anna luokan selittää, miksi ne antavat saman.',

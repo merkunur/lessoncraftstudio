@@ -1150,7 +1150,17 @@
       "Trascina la parentesi verso il basso. Il ritaglio si stacca dalla trave lunga e resta libero: chiedi se è ancora lungo uguale adesso che è fuori.",
       "Portalo in fondo alla trave corta e appoggialo di seguito. Lascia vedere alla classe che ora le due arrivano allo stesso punto e chiedi di chi era quel ritaglio.",
       "Rimettilo a posto, cambia una sola trave e ripeti. Dopo due o tre coppie la classe comincia a prevedere quanto sarà lungo il ritaglio prima ancora che tu lo stacchi."
-    ]
+    ],
+    "classroomIdeas": [
+      "Prima la stima: prima che qualcuno tocchi la parentesi, ogni bambino dice quanto è lungo il ritaglio; raccogli anche le risposte che non coincidono.",
+      "Metti le due travi lunghe uguali: non compare nessuna parentesi. Chiedi alla classe perché stavolta non c'è niente da staccare.",
+      "Dai un obiettivo: un bambino regola le travi perché il ritaglio venga lungo esattamente quanto la trave corta.",
+      "Allunga le due travi della stessa quantità e chiedi, prima di staccare qualcosa, se il ritaglio cambierà.",
+      "Copri con la mano il numero della trave lunga: dalla trave corta e dal ritaglio, la classe dice qual è il numero coperto.",
+      "Rifallo su carta: due strisce una sotto l'altra, si taglia quello che sporge e si mette in fondo alla striscia corta."
+    ],
+    "metaTitle": "Le due travi — confrontare lunghezze, prima e seconda",
+    "metaDescription": "Due travi partono dalla stessa linea; il ritaglio che sporge si stacca e va in fondo a quella corta. Strumento gratuito per la LIM, prima e seconda."
   },
   "labels": {
     "about": "Informazioni su questo strumento",

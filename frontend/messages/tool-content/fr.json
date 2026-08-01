@@ -1150,7 +1150,17 @@
       "Montrez l'accolade au-dessus du bout qui dépasse et laissez la classe dire à voix haute quelle est la longueur de ce bout.",
       "Détachez le bout et portez-le lentement jusqu'à l'extrémité de la planche courte, pour que tous voient les deux planches arriver au même endroit.",
       "Demandez ensuite d'où venait ce bout et pourquoi il s'ajuste si bien à la planche courte, puis recommencez avec une autre paire."
-    ]
+    ],
+    "classroomIdeas": [
+      "Estimer d'abord : avant que quiconque touche l'accolade, chaque élève dit quelle est la longueur du bout ; relevez aussi les réponses qui ne concordent pas.",
+      "Donnez aux deux planches la même longueur : aucune accolade n'apparaît. Demandez à la classe pourquoi il n'y a rien à détacher cette fois.",
+      "Donnez une cible : un élève règle les planches pour que le bout soit exactement aussi long que la planche courte.",
+      "Allongez les deux planches d'autant l'une que l'autre, et demandez, avant de détacher quoi que ce soit, si le bout va changer.",
+      "Cachez le nombre de la planche longue avec la main : à partir de la planche courte et du bout, la classe dit quel nombre est caché.",
+      "Refaites-le sur papier : deux bandes posées l'une sous l'autre, on coupe ce qui dépasse et on le pose au bout de la bande courte."
+    ],
+    "metaTitle": "Deux planches, un même départ — comparer des longueurs, CP et CE1",
+    "metaDescription": "Deux planches partent de la même ligne ; le bout qui dépasse se détache et vient se poser à l'extrémité de la planche courte. Outil gratuit au TBI, au CP."
   },
   "labels": {
     "about": "À propos de cet outil",

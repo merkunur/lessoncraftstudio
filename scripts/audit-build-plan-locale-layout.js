@@ -73,15 +73,26 @@ const is = (c, m) => { if (c) { PASS++; } else { FAIL++; console.error('  FAIL '
 
         /* every state whose HINT text differs, because the longest hint
            in a locale is not the same branch in every locale */
+        /* ⚠ THE HINT DEPENDS ON FLAGS, NOT ONLY ON THE BOARD, so a
+           matrix of boards alone reached just two of the six branches
+           and the gate said so. Each entry now carries its flags, and
+           between them they select EVERY hint — which is what makes
+           this audit measure each locale's LONGEST hint rather than
+           whichever one happened to be showing. */
         const states = [
-          [1, 1, 1, 1, 1, 1, 1, 1, 1],     /* hintPlan */
-          [1, 2, 3, 1, 2, 3, 1, 2, 3],     /* hintSame */
-          [4, 4, 4, 0, 0, 0, 0, 0, 0],     /* hintDetermined */
-          [4, 4, 4, 4, 4, 4, 4, 4, 4]      /* the fullest stage */
+          { h: [0, 0, 0, 0, 0, 0, 0, 0, 0], t: true,  j: false },  /* hintEmpty */
+          { h: [1, 2, 3, 1, 2, 3, 1, 2, 3], t: false, j: false },  /* hintPlan */
+          { h: [1, 2, 3, 1, 2, 3, 1, 2, 3], t: true,  j: false },  /* hintSame */
+          { h: [4, 4, 4, 0, 0, 0, 0, 0, 0], t: true,  j: false },  /* hintDetermined */
+          { h: [1, 2, 3, 1, 2, 3, 1, 2, 3], t: true,  j: true  },  /* hintTurn */
+          { h: [4, 1, 4, 1, 1, 1, 4, 1, 4], t: true,  j: true  },  /* hintTurnSame */
+          { h: [4, 4, 4, 4, 4, 4, 4, 4, 4], t: true,  j: false }   /* the fullest stage */
         ];
         const hintTexts = new Set();
-        for (const h of states) {
-          inst.st = inst._st({ h: h }); inst._paint();
+        for (const st of states) {
+          inst.st = inst._st({ h: st.h });
+          inst._touched = st.t; inst._justTurned = st.j;
+          inst._paint();
           if (doc.scrollWidth > doc.clientWidth) out.overflow = true;
           for (const c of document.querySelectorAll('.bpl-chip')) {
             if (getComputedStyle(c).visibility === 'hidden') continue;
@@ -109,7 +120,7 @@ const is = (c, m) => { if (c) { PASS++; } else { FAIL++; console.error('  FAIL '
       is(m.hintOver <= 0, `${tag}: the hint line escapes the card by ${m.hintOver}px`);
       /* ⚠ the floor is the number of DISTINCT hint texts the four
          states must produce; three branches are reachable from them */
-      is(m.hintSeen >= 3, `${tag}: only ${m.hintSeen} distinct hint texts across four states — a branch is not reachable`);
+      is(m.hintSeen >= 6, `${tag}: only ${m.hintSeen} distinct hint texts across seven states — a branch is not reachable`);
       is(m.lowest <= m.vh, `${tag}: FITS — lowest chrome ${m.lowest} <= ${m.vh}`);
       is(errs.length === 0, `${tag}: page error — ${errs[0] || ''}`);
       if (m.chipOver > -6) worst.push(`${tag} margin ${-m.chipOver}px ("${m.worstChip}")`);

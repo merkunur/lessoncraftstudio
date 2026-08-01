@@ -7,6 +7,8 @@ import { SUPPORTED_LOCALES } from '@/config/locales';
 import { NATIVE_LOCALE_NAMES } from '@/components/homepage-v4/v4-strings';
 import { HUB_GRADE_KEYS, MIN_INDEXABLE_SUBJECT_HUB_DECKS, isSubjectHubAllowed, isOnlineHubAvailable, onlineHubLinkLabel, subjectHubHeading, subjectHubGradeLabel } from '@/lib/subject-hub';
 import { isSeasonalHubUpgraded, seasonalHeading, seasonsByProximity } from '@/lib/seasonal-hub';
+import { getToolSlugMap } from '@/lib/seo/tool-content';
+import { MANIPULATIVES } from '@/lib/manipulatives';
 
 // SSR crawl-bait section (Remediation Part 2 / R2c). The homepage-v3 promotion
 // (bc215a5c) dropped the BreadthGrid, collapsing above-fold internal links from
@@ -35,6 +37,15 @@ interface BrowseByTopicSSRProps {
   /** Adds an 11-locale language group linking each locale root with its
    *  native name. Default false (= live). */
   includeLanguageGroup?: boolean;
+  /**
+   * Homepage-v6 "Class Index" restyle (2026-08). STRICTLY ADDITIVE: absent
+   * (every pre-v6 call site) → output is byte-identical to before. When
+   * 'hv6': the section joins the Lesson Line ground (mist, rise panel),
+   * groups render as pinned index cards with coral drawer tabs, headings
+   * read the homepageV6.browse namespace, and a "Classroom tools" group
+   * links all 47 tool landings (native titles from MANIPULATIVES).
+   */
+  variant?: 'hv6';
 }
 
 export default async function BrowseByTopicSSR({
@@ -42,6 +53,7 @@ export default async function BrowseByTopicSSR({
   maxThemesPerGroup = MAX_PER_GROUP,
   includeGradeGroup = false,
   includeLanguageGroup = false,
+  variant,
 }: BrowseByTopicSSRProps) {
   const [themeKeys, typeKeys, tFooter, tBrowse] = await Promise.all([
     listNonEmptyAxisKeys('theme', locale).catch(() => [] as string[]),
@@ -49,6 +61,23 @@ export default async function BrowseByTopicSSR({
     getTranslations({ locale, namespace: 'footer' }),
     getTranslations({ locale, namespace: 'homepageV4.browse' }),
   ]);
+
+  // hv6 only: the Class Index headings + the classroom-tools link group.
+  const tBrowse6 = variant === 'hv6'
+    ? await getTranslations({ locale, namespace: 'homepageV6.browse' })
+    : null;
+  let toolLinks: Array<{ href: string; label: string }> = [];
+  if (variant === 'hv6') {
+    try {
+      const slugMap = await getToolSlugMap(locale);
+      toolLinks = MANIPULATIVES
+        .filter(m => slugMap[m.id])
+        .map(m => ({
+          href: `/${locale}/tools/${slugMap[m.id]}`,
+          label: m.title[locale] ?? m.title.en,
+        }));
+    } catch { /* content files unreachable — omit the group, honesty */ }
+  }
 
   const themeLinks = themeKeys.slice(0, maxThemesPerGroup).map(k => ({
     href: `/${locale}/topic/${resolveAxisSlug(k, locale, 'theme')}/`,
@@ -118,17 +147,22 @@ export default async function BrowseByTopicSSR({
     : [];
 
   // Nothing to show for a substrate-empty locale — render nothing (honesty).
-  if (themeLinks.length === 0 && typeLinks.length === 0 && subjectGradeLinks.length === 0 && seasonalLinks.length === 0 && gradeLinks.length === 0 && languageLinks.length === 0) return null;
+  if (themeLinks.length === 0 && typeLinks.length === 0 && subjectGradeLinks.length === 0 && seasonalLinks.length === 0 && gradeLinks.length === 0 && languageLinks.length === 0 && toolLinks.length === 0) return null;
 
   const labels = LABELS[locale] ?? LABELS.en;
   const subjectGradeHeading = subjectHubHeading(locale);
+  const isHv6 = variant === 'hv6';
+  const navClass = isHv6
+    ? 'hv6-index-card'
+    : 'rounded-2xl border border-[#14322D]/8 bg-white p-7 md:p-8 shadow-[var(--e1)] hover:shadow-[var(--e2)] transition-shadow';
+  const eyebrowClass = isHv6 ? 'hv6-eyebrow mb-4' : 'hv5-eyebrow mb-4';
 
   const onlineWord = (onlineHubLinkLabel(locale) ?? 'online').split(' ')[0].replace(/[–—-]$/, '') || 'online';
   const group = (heading: string, links: Array<{ href: string; label: string; onlineHref?: string | null }>, browseHref?: string, browseLabel?: string) => {
     if (links.length === 0) return null;
     return (
-      <nav aria-label={heading} className="rounded-2xl border border-[#14322D]/8 bg-white p-7 md:p-8 shadow-[var(--e1)] hover:shadow-[var(--e2)] transition-shadow">
-        <h2 className="hv5-eyebrow mb-4">{heading}</h2>
+      <nav aria-label={heading} className={navClass}>
+        <h2 className={eyebrowClass}>{heading}</h2>
         <ul className="grid grid-cols-2 sm:grid-cols-3 gap-x-6 gap-y-2">
           {links.map(l => (
             <li key={l.href}>
@@ -164,12 +198,19 @@ export default async function BrowseByTopicSSR({
     );
   };
 
+  const headerEyebrow = isHv6 ? tBrowse6!('eyebrow') : tBrowse('eyebrow');
+  const headerHeading = isHv6 ? tBrowse6!('heading') : tBrowse('heading');
+  const headerSub = isHv6 ? tBrowse6!('sub') : tBrowse('sub');
+
   return (
-    <section id="browse-by-topic" className="bg-[#F0F4F0] py-20 md:py-28">
+    <section
+      id="browse-by-topic"
+      className={isHv6 ? 'hv6-rise-sm bg-[#F0F4F0] pt-16 pb-20 md:pt-20 md:pb-28' : 'bg-[#F0F4F0] py-20 md:py-28'}
+    >
       <div className="container mx-auto px-4 max-w-6xl mb-8 md:mb-10">
-        <p className="hv5-eyebrow">{tBrowse('eyebrow')}</p>
-        <h2 className="mt-3 font-lcsDisplay font-bold text-[#14322D] leading-[1.08] tracking-tight text-[1.875rem] sm:text-[2.5rem] md:text-[3rem]">{tBrowse('heading')}</h2>
-        <p className="mt-3 font-lcsBody text-lg text-[#3d574f] leading-relaxed max-w-2xl">{tBrowse('sub')}</p>
+        <p className={isHv6 ? 'hv6-eyebrow' : 'hv5-eyebrow'}>{headerEyebrow}</p>
+        <h2 className="mt-3 font-lcsDisplay font-bold text-[#14322D] leading-[1.08] tracking-tight text-[1.875rem] sm:text-[2.5rem] md:text-[3rem]">{headerHeading}</h2>
+        <p className="mt-3 font-lcsBody text-lg text-[#3d574f] leading-relaxed max-w-2xl">{headerSub}</p>
       </div>
       <div className="container mx-auto px-4 max-w-6xl grid gap-6 md:grid-cols-2">
         {group(subjectGradeHeading, subjectGradeLinks, `/${locale}/worksheets/`, labels.browseAllTopics)}
@@ -177,6 +218,7 @@ export default async function BrowseByTopicSSR({
         {group(tFooter('byTopic'), themeLinks, `/${locale}/topic/`, labels.browseAllTopics)}
         {group(tFooter('byExerciseType'), typeLinks, `/${locale}/worksheets/`, labels.browseAllTopics)}
         {includeGradeGroup && group(gradeHeading, gradeLinks, `/${locale}/worksheets/`, labels.browseAllTopics)}
+        {isHv6 && group(tBrowse6!('toolsHeading'), toolLinks)}
         {includeLanguageGroup && group(tFooter('byLanguage'), languageLinks)}
       </div>
     </section>

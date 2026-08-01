@@ -4126,7 +4126,7 @@
     },
     "hero": {
       "h1": "Hier hängt alles zusammen.",
-      "sub": "Tools für den Unterricht, selbstkorrigierende Arbeitsblätter, Druckvorlagen mit Lösungsblatt und Arbeitsblatt-Generatoren — kostenlos von der Vorschule bis Klasse 3.",
+      "sub": "Tools für den Unterricht, Arbeitsblätter, die sich selbst korrigieren und mit Lösungsblatt drucken, und Generatoren, mit denen du eigene baust — kostenlos zum Start, von der Vorschule bis Klasse 3.",
       "ctaTools": "Ein Unterrichts-Tool öffnen",
       "ctaWorksheets": "Arbeitsblätter durchstöbern",
       "microLine": "Kostenlos starten · ohne Login · ohne Installation"
@@ -4141,7 +4141,7 @@
     "teach": {
       "heading": "Fang da an, wo jede Stunde beginnt: vorn an der Tafel",
       "body": "{count} Unterrichts-Tools zum Projizieren — du unterrichtest direkt daran. Das Material übernimmt das Korrigieren: Der Balken kippt, und niemand muss „falsch“ sagen.",
-      "caption": "{count} Tools · kostenlos, ohne Login · kein Zeitdruck, keine Punkte, keine Ranglisten",
+      "caption": "{count} Tools · kostenlos ausprobieren, ohne Login · kein Zeitdruck, keine Punkte, keine Ranglisten",
       "seeAll": "Alle {count} Tools ansehen",
       "liveTag": "Live",
       "penBalance": "der Balken kippt — keiner muss „falsch“ sagen"
@@ -4185,7 +4185,7 @@
     },
     "share": {
       "heading": "Von deinem Bildschirm zu 25 Kindern — in einer Sekunde",
-      "body": "Alles, was du findest oder baust, wird zu einem Link und einem QR-Code. Die Kinder scannen ihn und spielen los — auf jedem Gerät, ohne Schülerkonten, ohne Installation.",
+      "body": "Alles, was du findest oder baust, wird zu einem Link und einem QR-Code. Die Kinder scannen ihn und spielen los — auf jedem Gerät, ohne Schülerkonten, ohne Installation. Eigene Freigabe-Links und Klassen-QR-Codes gehören zum Lehrkraft-Abo.",
       "chip1": "Ein Link",
       "chip2": "Ein QR-Code",
       "chip3": "Jedes Gerät",
@@ -4196,27 +4196,27 @@
     },
     "keep": {
       "heading": "Plan eine Stunde, behalte ein Schuljahr",
-      "body": "Speicher, was du baust, und sammle es nach Einheiten — nach den Sommerferien wartet es auf dich. Ausgerichtet an deinem Lehrplan, in 11 Sprachen — und die Grammatik stimmt.",
+      "body": "Mit dem Lehrkraft-Abo speicherst du, was du baust, und sammelst es nach Einheiten — zum neuen Schuljahr wartet es schon auf dich. Ausgerichtet an deinem Lehrplan, in 11 Sprachen — und die Grammatik stimmt.",
       "chipCurricula": "An 10 nationalen Lehrplänen ausgerichtet",
       "chipLanguages": "Funktioniert in 11 Sprachen",
       "chipNoData": "Keine Schülerdaten erhoben",
       "chipNoAds": "Keine Werbung auf Kinderseiten"
     },
     "teacher": {
-      "heading": "Kostenlos heißt hier kostenlos",
-      "body": "Jedes Tool ist kostenlos, ohne Login; spiele 10 interaktive Arbeitsblätter pro Tag — ganz ohne Karte. Das Lehrkraft-Abo hebt alle Limits auf und speichert, was du baust.",
+      "heading": "Starte kostenlos. Heb die Limits auf, wenn du so weit bist.",
+      "body": "Alles lässt sich kostenlos ausprobieren, ganz ohne Karte: 10 interaktive Runden pro Tag und 3 PDF-Downloads pro Monat mit einem kostenlosen Konto. Das Lehrkraft-Abo hebt die Limits auf, schaltet den vollen Umfang jedes Tools frei und speichert, was du baust.",
       "freeTitle": "Kostenlos",
       "freeTag": "Starte hier — ohne Karte",
-      "free1": "Alle Unterrichts-Tools, unbegrenzt",
+      "free1": "Alle Tools und Generatoren zum Ausprobieren",
       "free2": "10 interaktive Runden pro Tag",
-      "free3": "Die ganze Bibliothek durchstöbern",
-      "free4": "Alle Generatoren offen zum Ausprobieren",
+      "free3": "3 PDF-Downloads pro Monat mit einem kostenlosen Konto",
+      "free4": "Die ganze Bibliothek durchstöbern",
       "freeCta": "Kostenlos starten — ohne Karte",
       "teacherTitle": "Lehrkraft",
       "teacherPrice": "${price} pro Jahr",
       "teacherMonthly": "oder ${monthly}/Monat",
-      "teacher1": "Unbegrenzt interaktiv spielen",
-      "teacher2": "Unbegrenzte PDF-Downloads mit Lösungsblättern",
+      "teacher1": "Unbegrenzt spielen und herunterladen",
+      "teacher2": "Der volle Umfang jedes Tools — drucken, speichern, das ganze Repertoire",
       "teacher3": "Speichern und sammeln, was du baust",
       "teacher4": "Links und Klassen-QR-Codes teilen",
       "teacherCta": "Zum Lehrkraft-Abo",
@@ -4225,7 +4225,7 @@
     "close": {
       "line1": "Die Stunde von morgen",
       "line2": "wartet schon hier.",
-      "body": "Öffne ein Tool, teil ein Arbeitsblatt aus oder bau heute Abend dein eigenes — alles funktioniert schon, bevor du dich anmeldest.",
+      "body": "Öffne ein Tool, teil ein Arbeitsblatt aus oder bau heute Abend dein eigenes — probier alles aus, noch bevor du dich überhaupt anmeldest.",
       "ctaPrimary": "Kostenlos starten — ohne Karte",
       "ctaSecondary": "Arbeitsblätter durchstöbern"
     },
@@ -4234,6 +4234,7 @@
       "heading": "Alles — geordnet, wie du es suchst",
       "sub": "Die ganze Bibliothek — nach Klasse, nach Thema, nach Kompetenz — und dazu alle Unterrichts-Tools.",
       "toolsHeading": "Tools für den Unterricht"
-    }
+    },
+    "planTag": "Lehrkraft-Abo"
   }
 }

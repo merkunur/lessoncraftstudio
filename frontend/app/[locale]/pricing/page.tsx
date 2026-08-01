@@ -141,7 +141,9 @@ export default async function PricingPage({
           </p>
           <h3 className="font-semibold text-ink-900 mb-3">{t('tier.includedTitle')}</h3>
           <ul className="space-y-3 text-ink-700 mb-8">
-            {[1, 2, 3, 4, 5].map((i) => (
+            {/* item0 = "Unlimited play and downloads" — the headline benefit
+                the meter actually sells; was authored ×11 but never rendered. */}
+            {[0, 1, 2, 3, 4, 5].map((i) => (
               <li key={i} className="flex gap-2">
                 <span aria-hidden="true">★</span>
                 <span>{t(`tier.item${i}`, { count: MAKER_COUNT })}</span>

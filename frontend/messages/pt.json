@@ -4311,7 +4311,7 @@
     },
     "hero": {
       "h1": "Cada aula, em perfeito equilíbrio.",
-      "sub": "Ferramentas de ensino ao vivo, fichas que se corrigem sozinhas, PDFs para imprimir com gabarito e geradores de fichas — grátis da educação infantil ao 3º ano.",
+      "sub": "Ferramentas de ensino ao vivo, fichas que se corrigem sozinhas e imprimem com gabarito, e geradores para criar as suas — grátis para começar, da educação infantil ao 3º ano.",
       "ctaTools": "Abra uma ferramenta de ensino",
       "ctaWorksheets": "Conheça as fichas",
       "microLine": "Grátis para começar · sem login · nada para instalar"
@@ -4326,7 +4326,7 @@
     "teach": {
       "heading": "Comece onde toda aula começa: na frente da turma",
       "body": "{count} instrumentos de sala para projetar e ensinar a partir deles. É o material que corrige: a balança pende, e ninguém precisa dizer que errou.",
-      "caption": "{count} instrumentos · grátis, sem login · sem cronômetro, sem pontuação, sem ranking",
+      "caption": "{count} instrumentos · grátis para experimentar, sem login · sem cronômetro, sem pontuação, sem ranking",
       "seeAll": "Ver as {count} ferramentas",
       "liveTag": "Ao vivo",
       "penBalance": "a balança pende — ninguém precisa dizer errou"
@@ -4370,7 +4370,7 @@
     },
     "share": {
       "heading": "Da sua tela para 25 crianças em um segundo",
-      "body": "Tudo o que você encontra ou cria vira um link e um QR code. As crianças escaneiam e jogam em qualquer aparelho — sem conta de aluno, nada para instalar.",
+      "body": "Tudo o que você encontra ou cria vira um link e um QR code. As crianças escaneiam e jogam em qualquer aparelho — sem conta de aluno, nada para instalar. Seus próprios links de compartilhamento e QR codes da turma fazem parte do plano Professor.",
       "chip1": "Um link",
       "chip2": "Um QR code",
       "chip3": "Qualquer aparelho",
@@ -4381,27 +4381,27 @@
     },
     "keep": {
       "heading": "Planeje uma aula, guarde o ano inteiro",
-      "body": "Salve o que você cria, organize por unidade — está tudo à sua espera no próximo ano letivo. Alinhado ao seu currículo, em 11 idiomas, com a gramática certa.",
+      "body": "Com o plano Professor, salve o que você cria e organize por unidade — está tudo à sua espera quando o novo ano letivo começar. Alinhado ao seu currículo, em 11 idiomas, com a gramática certa.",
       "chipCurricula": "Alinhado a 10 currículos nacionais",
       "chipLanguages": "Funciona em 11 idiomas",
       "chipNoData": "Nenhum dado de aluno coletado",
       "chipNoAds": "Sem anúncios nas páginas dos alunos"
     },
     "teacher": {
-      "heading": "Grátis de verdade",
-      "body": "Toda ferramenta é grátis, sem login; jogue 10 fichas interativas por dia sem cartão. O plano Professor remove todos os limites e salva o que você cria.",
+      "heading": "Comece grátis. Passe para o ilimitado quando quiser.",
+      "body": "Tudo é grátis para experimentar, sem cartão: 10 jogadas interativas por dia e 3 downloads de PDF por mês com uma conta grátis. O plano Professor remove os limites, abre toda a profundidade de cada ferramenta e salva o que você cria.",
       "freeTitle": "Grátis",
       "freeTag": "Comece por aqui — sem cartão",
-      "free1": "Todas as ferramentas de sala, sem limites",
+      "free1": "Todas as ferramentas e geradores, grátis para experimentar",
       "free2": "10 jogadas interativas por dia",
-      "free3": "Navegue por toda a biblioteca",
-      "free4": "Todos os geradores, abertos para testar",
+      "free3": "3 downloads de PDF por mês com uma conta grátis",
+      "free4": "Navegue por toda a biblioteca",
       "freeCta": "Começar grátis — sem cartão",
       "teacherTitle": "Professor",
       "teacherPrice": "${price} por ano",
       "teacherMonthly": "ou ${monthly}/mês",
-      "teacher1": "Jogadas interativas ilimitadas",
-      "teacher2": "Downloads de PDF ilimitados, com gabarito",
+      "teacher1": "Jogadas e downloads ilimitados",
+      "teacher2": "Toda a profundidade de cada ferramenta — imprimir, salvar, o repertório completo",
       "teacher3": "Salve e organize o que você cria",
       "teacher4": "Links de compartilhamento e QR codes da turma",
       "teacherCta": "Conheça o plano Professor",
@@ -4410,7 +4410,7 @@
     "close": {
       "line1": "A aula de amanhã",
       "line2": "já está bem aqui.",
-      "body": "Abra uma ferramenta, entregue uma ficha ou crie a sua hoje à noite — tudo funciona antes mesmo de você entrar.",
+      "body": "Abra uma ferramenta, entregue uma ficha ou crie a sua hoje à noite — experimente tudo antes mesmo de entrar.",
       "ctaPrimary": "Começar grátis — sem cartão",
       "ctaSecondary": "Conheça as fichas"
     },
@@ -4419,6 +4419,7 @@
       "heading": "Tudo organizado do jeito que você procura",
       "sub": "A biblioteca inteira — por ano, por tema, por habilidade — e todas as ferramentas de sala de aula.",
       "toolsHeading": "Ferramentas de sala de aula"
-    }
+    },
+    "planTag": "Plano Professor"
   }
 }

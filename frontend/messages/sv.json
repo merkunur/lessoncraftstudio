@@ -2805,7 +2805,7 @@
     },
     "hero": {
       "h1": "Varje lektion hänger ihop.",
-      "sub": "Verktyg att undervisa från, självrättande arbetsblad, utskrivbara PDF:er med facit och egna generatorer — gratis för förskoleklass till årskurs 3.",
+      "sub": "Verktyg att undervisa från, arbetsblad som rättar sig själva och skrivs ut med facit, och generatorer att bygga egna med — gratis att börja, för förskoleklass till årskurs 3.",
       "ctaTools": "Öppna ett verktyg",
       "ctaWorksheets": "Se arbetsbladen",
       "microLine": "Gratis att börja · ingen inloggning · inget att installera"
@@ -2820,7 +2820,7 @@
     "teach": {
       "heading": "Börja där varje lektion börjar: framme vid tavlan",
       "body": "{count} klassrumsverktyg att visa på tavlan och undervisa från. Materialet sköter rättandet: vågen tippar, så ingen behöver säga fel.",
-      "caption": "{count} verktyg · gratis, utan inloggning · ingen tidtagning, inga poäng, inga tävlingsmoment",
+      "caption": "{count} verktyg · gratis att prova, utan inloggning · ingen tidtagning, inga poäng, inga tävlingsmoment",
       "seeAll": "Se alla {count} verktyg",
       "liveTag": "Live",
       "penBalance": "vågen tippar — ingen behöver säga fel"
@@ -2864,7 +2864,7 @@
     },
     "share": {
       "heading": "Från din skärm till 25 barn på en sekund",
-      "body": "Allt du hittar eller skapar blir en länk och en QR-kod. Barnen skannar och spelar på vilken enhet som helst — inga elevkonton, inget att installera.",
+      "body": "Allt du hittar eller skapar blir en länk och en QR-kod. Barnen skannar och spelar på vilken enhet som helst — inga elevkonton, inget att installera. Egna delningslänkar och QR-koder till klassen ingår i Lärarplanen.",
       "chip1": "En länk",
       "chip2": "En QR-kod",
       "chip3": "Vilken enhet som helst",
@@ -2875,27 +2875,27 @@
     },
     "keep": {
       "heading": "Planera en lektion, behåll ett helt läsår",
-      "body": "Spara det du bygger och samla det per arbetsområde — det väntar på dig i augusti. Anpassat efter din läroplan, på 11 språk, med grammatiken på plats.",
+      "body": "Med Lärarplanen sparar du det du bygger och samlar det per arbetsområde — det väntar på dig när det nya läsåret börjar. Anpassat efter din läroplan, på 11 språk, med grammatiken på plats.",
       "chipCurricula": "Anpassat efter 10 nationella läroplaner",
       "chipLanguages": "Fungerar på 11 språk",
       "chipNoData": "Inga elevdata samlas in",
       "chipNoAds": "Inga annonser på elevsidor"
     },
     "teacher": {
-      "heading": "Gratis betyder gratis",
-      "body": "Alla verktyg är gratis, utan inloggning; spela 10 interaktiva arbetsblad om dagen utan kort. Lärarplanen tar bort alla gränser och sparar det du bygger.",
+      "heading": "Börja gratis. Ta bort gränserna när du är redo.",
+      "body": "Allt är gratis att prova, utan kort: 10 interaktiva spelomgångar om dagen och 3 PDF-nedladdningar i månaden med ett gratiskonto. Lärarplanen tar bort gränserna, låser upp verktygens hela djup och sparar det du bygger.",
       "freeTitle": "Gratis",
       "freeTag": "Börja här — inget kort",
-      "free1": "Alla klassrumsverktyg, obegränsat",
+      "free1": "Alla verktyg och generatorer, gratis att prova",
       "free2": "10 spelomgångar om dagen",
-      "free3": "Bläddra i hela biblioteket",
-      "free4": "Alla generatorer, öppna att prova",
+      "free3": "3 PDF-nedladdningar i månaden med ett gratiskonto",
+      "free4": "Bläddra i hela biblioteket",
       "freeCta": "Börja gratis — inget kort",
       "teacherTitle": "Lärare",
       "teacherPrice": "{price} $ per år",
       "teacherMonthly": "eller {monthly} $/månad",
-      "teacher1": "Obegränsat interaktivt spelande",
-      "teacher2": "Obegränsade PDF-nedladdningar med facit",
+      "teacher1": "Obegränsat spelande och nedladdningar",
+      "teacher2": "Verktygens hela djup — skriv ut, spara, hela repertoaren",
       "teacher3": "Spara och samla det du bygger",
       "teacher4": "Dela länkar och QR-koder till klassen",
       "teacherCta": "Se Lärarplanen",
@@ -2904,7 +2904,7 @@
     "close": {
       "line1": "Morgondagens lektion",
       "line2": "ligger redan här.",
-      "body": "Öppna ett verktyg, dela ut ett arbetsblad eller bygg ett eget i kväll — allt fungerar innan du ens loggat in.",
+      "body": "Öppna ett verktyg, dela ut ett arbetsblad eller bygg ett eget i kväll — prova allt innan du ens loggat in.",
       "ctaPrimary": "Börja gratis — inget kort",
       "ctaSecondary": "Se arbetsbladen"
     },
@@ -2913,6 +2913,7 @@
       "heading": "Allt, ordnat så som du letar",
       "sub": "Hela biblioteket — per årskurs, ämne och färdighet — plus alla klassrumsverktyg.",
       "toolsHeading": "Klassrumsverktyg"
-    }
+    },
+    "planTag": "Lärarplanen"
   }
 }

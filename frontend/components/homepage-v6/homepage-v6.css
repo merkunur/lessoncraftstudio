@@ -357,9 +357,16 @@
   gap: 12px;
   padding: clamp(28px, 5vw, 56px) 16px;
 }
-.hv6-seam .hv6-stage { width: min(400px, 92vw); }
+/* 100% (not vw): the stage respects the seam's padding box, so the thread
+   indent on mobile can never push it past the viewport edge. clip is the
+   belt-and-braces for the fixed-width apparatus inside. */
+.hv6-seam .hv6-stage { width: min(400px, 100%); overflow: clip; }
 @media (max-width: 1023px) {
   .hv6-seam { align-items: flex-start; padding-left: 48px; }
+}
+/* Tightest phones: the balance's 260px coordinate space scales down. */
+@media (max-width: 379px) {
+  .hv6-bal { transform: scale(0.82); transform-origin: 50% 0; }
 }
 
 /* ── Rekenrek (stage vignette) — beads compose 3, then 7, then rest. ──
@@ -673,7 +680,7 @@
   align-items: center;
   justify-content: center;
   aspect-ratio: 1;
-  min-width: 40px;
+  min-width: 0; /* 1fr tracks may shrink on tight phones — never overflow */
   border-radius: 10px;
   background: rgba(20, 107, 94, 0.06);
   font-family: var(--font-baloo-2), system-ui, sans-serif;

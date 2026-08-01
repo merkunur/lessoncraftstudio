@@ -4335,7 +4335,7 @@
     },
     "hero": {
       "h1": "Every lesson, hanging together.",
-      "sub": "Live teaching tools, worksheets that check themselves and print with answer keys, and makers to build your own — free for kindergarten to grade 3.",
+      "sub": "Live teaching tools, worksheets that check themselves and print with answer keys, and makers to build your own — free to start, for kindergarten to grade 3.",
       "ctaTools": "Open a teaching tool",
       "ctaWorksheets": "Browse the worksheets",
       "microLine": "Free to start · no login · nothing to install"
@@ -4350,7 +4350,7 @@
     "teach": {
       "heading": "Start where every lesson starts: at the front of the room",
       "body": "{count} classroom instruments you project and teach from. The apparatus does the correcting: the beam tips, so nobody has to say wrong.",
-      "caption": "{count} instruments · free, no login · no timers, no scores, no streaks",
+      "caption": "{count} instruments · free to try, no login · no timers, no scores, no streaks",
       "seeAll": "See all {count} tools",
       "liveTag": "Live",
       "penBalance": "the beam settles level — nobody had to say wrong"
@@ -4394,7 +4394,7 @@
     },
     "share": {
       "heading": "From your screen to 25 kids in one second",
-      "body": "Anything you find or make becomes one link and one QR code. Kids scan it and play on any device — no student accounts, nothing to install.",
+      "body": "Anything you find or make becomes one link and one QR code. Kids scan it and play on any device — no student accounts, nothing to install. Your own share links and class QR codes are part of the Teacher plan.",
       "chip1": "One link",
       "chip2": "One QR code",
       "chip3": "Any device",
@@ -4405,27 +4405,27 @@
     },
     "keep": {
       "heading": "Plan a lesson, keep a year",
-      "body": "Save what you build, collect it by unit — it's waiting when the new school year starts. Aligned to your curriculum, in 11 languages, with the grammar right.",
+      "body": "With the Teacher plan, save what you build and collect it by unit — it's waiting when the new school year starts. Aligned to your curriculum, in 11 languages, with the grammar right.",
       "chipCurricula": "Aligned to 10 national curricula",
       "chipLanguages": "Works in 11 languages",
       "chipNoData": "No student data collected",
       "chipNoAds": "No ads on student pages"
     },
     "teacher": {
-      "heading": "Free is really free",
-      "body": "Every tool is free, no login; play 10 interactive rounds a day without a card. The Teacher plan removes every limit and saves what you build.",
+      "heading": "Start free. Go unlimited when you're ready.",
+      "body": "Everything is free to try, no card: 10 interactive plays a day, and 3 PDF downloads a month with a free account. The Teacher plan removes the limits, opens every tool’s full depth, and saves what you build.",
       "freeTitle": "Free",
       "freeTag": "Start here — no card",
-      "free1": "Every classroom tool, unlimited",
+      "free1": "All the tools and makers, free to try",
       "free2": "10 interactive plays a day",
-      "free3": "Browse the entire library",
-      "free4": "Every maker, open to try",
+      "free3": "3 PDF downloads a month with a free account",
+      "free4": "Browse the entire library",
       "freeCta": "Start free — no card",
       "teacherTitle": "Teacher",
       "teacherPrice": "${price} per year",
       "teacherMonthly": "or ${monthly}/month",
-      "teacher1": "Unlimited interactive play",
-      "teacher2": "Unlimited PDF downloads with answer keys",
+      "teacher1": "Unlimited play and downloads",
+      "teacher2": "Every tool’s full depth — print, save, the whole repertoire",
       "teacher3": "Save and collect what you build",
       "teacher4": "Share links and class QR codes",
       "teacherCta": "See the Teacher plan",
@@ -4434,7 +4434,7 @@
     "close": {
       "line1": "Tomorrow's lesson",
       "line2": "is sitting right here.",
-      "body": "Open a tool, hand out a worksheet, or build your own tonight — it all works before you sign in.",
+      "body": "Open a tool, hand out a worksheet, or build your own tonight — try it all before you ever sign in.",
       "ctaPrimary": "Start free — no card",
       "ctaSecondary": "Browse the worksheets"
     },
@@ -4443,6 +4443,7 @@
       "heading": "Everything, organized the way you look for it",
       "sub": "The whole library — by grade, by topic, by skill — plus every classroom tool.",
       "toolsHeading": "Classroom tools"
-    }
+    },
+    "planTag": "Teacher plan"
   }
 }

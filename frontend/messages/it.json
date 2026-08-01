@@ -4326,7 +4326,7 @@
     },
     "hero": {
       "h1": "Ogni lezione, in perfetto equilibrio.",
-      "sub": "Strumenti didattici da usare in classe, schede che si autocorreggono, PDF da stampare con le soluzioni e generatori di schede — gratis dall'infanzia alla classe terza.",
+      "sub": "Strumenti didattici da usare in classe, schede che si autocorreggono e si stampano con le soluzioni, e generatori per creare le tue — gratis per iniziare, dall'infanzia alla classe terza.",
       "ctaTools": "Apri uno strumento didattico",
       "ctaWorksheets": "Sfoglia le schede",
       "microLine": "Gratis per iniziare · senza login · niente da installare"
@@ -4341,7 +4341,7 @@
     "teach": {
       "heading": "Comincia dove comincia ogni lezione: davanti alla classe",
       "body": "{count} strumenti da proiettare alla LIM e con cui fare lezione. È lo strumento a correggere: la bilancia pende, e nessuno deve dire «sbagliato».",
-      "caption": "{count} strumenti · gratuiti, senza login · niente timer, niente punteggi, niente gare",
+      "caption": "{count} strumenti · prova gratis, senza login · niente timer, niente punteggi, niente gare",
       "seeAll": "Vedi tutti i {count} strumenti",
       "liveTag": "Dal vivo",
       "penBalance": "pende la bilancia, e nessuno dice «sbagliato»"
@@ -4385,7 +4385,7 @@
     },
     "share": {
       "heading": "Dal tuo schermo a 25 bambini in un secondo",
-      "body": "Tutto ciò che trovi o crei diventa un link e un codice QR. I bambini lo inquadrano e giocano su qualsiasi dispositivo — senza account per gli alunni, niente da installare.",
+      "body": "Tutto ciò che trovi o crei diventa un link e un codice QR. I bambini lo inquadrano e giocano su qualsiasi dispositivo — senza account per gli alunni, niente da installare. I tuoi link di condivisione e i codici QR di classe fanno parte del piano Insegnante.",
       "chip1": "Un link",
       "chip2": "Un codice QR",
       "chip3": "Qualsiasi dispositivo",
@@ -4396,27 +4396,27 @@
     },
     "keep": {
       "heading": "Prepara una lezione, conserva un anno",
-      "body": "Salva quello che crei, raccoglilo per unità — a settembre è lì che ti aspetta. Allineato al tuo curricolo, in 11 lingue, con la grammatica giusta.",
+      "body": "Con il piano Insegnante salvi quello che crei e lo raccogli per unità — al nuovo anno scolastico è lì che ti aspetta. Allineato al tuo curricolo, in 11 lingue, con la grammatica giusta.",
       "chipCurricula": "Allineato a 10 curricoli nazionali",
       "chipLanguages": "Funziona in 11 lingue",
       "chipNoData": "Nessun dato raccolto sugli alunni",
       "chipNoAds": "Niente pubblicità sulle pagine degli alunni"
     },
     "teacher": {
-      "heading": "Gratis vuol dire gratis",
-      "body": "Ogni strumento è gratuito, senza login; giochi con 10 schede interattive al giorno senza carta. Il piano Insegnante toglie ogni limite e salva quello che crei.",
+      "heading": "Inizia gratis. Togli i limiti quando vuoi.",
+      "body": "Tutto si prova gratis, senza carta: 10 partite interattive al giorno e 3 download PDF al mese con un account gratuito. Il piano Insegnante toglie i limiti, sblocca la versione completa di ogni strumento e salva quello che crei.",
       "freeTitle": "Gratis",
       "freeTag": "Parti da qui — senza carta",
-      "free1": "Tutti gli strumenti per la classe, senza limiti",
+      "free1": "Tutti gli strumenti e i generatori, da provare gratis",
       "free2": "10 partite interattive al giorno",
-      "free3": "Sfoglia tutto il catalogo",
-      "free4": "Tutti i generatori, liberi da provare",
+      "free3": "3 download PDF al mese con un account gratuito",
+      "free4": "Sfoglia tutto il catalogo",
       "freeCta": "Inizia gratis — senza carta",
       "teacherTitle": "Insegnante",
       "teacherPrice": "{price} $ all'anno",
       "teacherMonthly": "oppure {monthly} $ al mese",
-      "teacher1": "Gioco interattivo illimitato",
-      "teacher2": "Download PDF illimitati, con le soluzioni",
+      "teacher1": "Gioco e download illimitati",
+      "teacher2": "Ogni strumento al completo — stampa, salvataggio, tutto il repertorio",
       "teacher3": "Salva e raccogli quello che crei",
       "teacher4": "Link di condivisione e codici QR per la classe",
       "teacherCta": "Scopri il piano Insegnante",
@@ -4425,7 +4425,7 @@
     "close": {
       "line1": "La lezione di domani",
       "line2": "è già qui che ti aspetta.",
-      "body": "Apri uno strumento, distribuisci una scheda o creane una tua stasera — funziona tutto prima ancora di accedere.",
+      "body": "Apri uno strumento, distribuisci una scheda o creane una tua stasera — prova tutto prima ancora di accedere.",
       "ctaPrimary": "Inizia gratis — senza carta",
       "ctaSecondary": "Sfoglia le schede"
     },
@@ -4434,6 +4434,7 @@
       "heading": "Tutto, ordinato come lo cerchi tu",
       "sub": "Tutto il catalogo — per classe, per argomento, per abilità — e in più ogni strumento didattico.",
       "toolsHeading": "Strumenti per la classe"
-    }
+    },
+    "planTag": "Piano Insegnante"
   }
 }

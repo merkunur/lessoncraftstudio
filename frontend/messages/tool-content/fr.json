@@ -1076,6 +1076,35 @@
     "metaTitle": "Partage équitable CP-CE1 : jetons, couvercles et reste",
     "metaDescription": "Posez des couvercles sur un plateau de jetons : chacun cache le même nombre. La classe cherche la part, voit le reste. Outil gratuit CP-CE1, sans compte."
   },
+  "unit-handle": {
+    "slug": "mesurer-avec-un-etalon-longueurs-cp",
+    "name": "L'étalon élastique",
+    "tagline": "Deux bandes mesurent le même objet posé sur le plateau ; on étire l'étalon de l'une, son nombre grimpe, et la classe voit que l'objet, lui, n'a pas bougé.",
+    "about": [
+      "Sur le plateau, un objet est posé en haut de l'écran : un crayon, une fourchette, une branche de céleri, une échelle. En dessous, deux bandes partent du bord gauche de l'objet, chacune faite de cases identiques posées bout à bout. Sur la première case de chaque bande, une poignée. On la fait glisser : la case grandit ou rétrécit, toute la bande se recompose sous le doigt, et le nombre affiché au bout monte ou descend.",
+      "On est en plein dans « Grandeurs et mesures » du cycle 2 : mesurer des longueurs en reportant un étalon, avant que la règle graduée n'entre en scène. C'est un passage difficile, et pour une raison précise : l'élève doit tenir ensemble deux idées, la longueur de l'objet, qui ne change pas, et le nombre obtenu, qui dépend entièrement de l'étalon choisi. Aucune étude ne mesure l'effet de cet outil ; il donne simplement à voir ce que le matériel de classe montre mal.",
+      "Le moment que l'outil rend visible est celui-ci : l'étalon rétrécit, le nombre grimpe, et l'objet n'a pas bougé. Beaucoup d'élèves en concluent d'abord que l'objet est devenu plus long. Avec deux bandes côte à côte sur le même objet, l'une immobile et l'autre qui s'étire sous les yeux de la classe, la question se pose d'elle-même : pourquoi les deux nombres ne sont-ils pas les mêmes ? Une armoire de réglettes ne produira jamais cette scène, car aucune règle ne s'étire.",
+      "Rien à lire pour les élèves, aucun compte à créer : la page s'ouvre et l'objet est déjà là. L'affichage tient au TBI comme au vidéoprojecteur et se manipule au doigt comme à la souris. Quand l'étalon ne tient pas un nombre entier de fois, le morceau qui dépasse est dessiné en pointillés et n'est pas compté. Aucune des deux mesures n'est jamais donnée pour juste ou pour fausse. La collection complète d'objets et l'impression du plateau font partie de l'offre Enseignant."
+    ],
+    "howToUse": [
+      "Projetez le plateau et faites mesurer l'objet avec la bande du haut, telle qu'elle se présente.",
+      "Faites glisser la poignée de l'autre bande pour rendre son étalon nettement plus petit, sans rien annoncer.",
+      "Laissez la classe réagir, puis posez la seule question qui compte : l'objet a-t-il changé ?",
+      "Utilisez « Le même étalon » pour remettre les deux bandes à égalité et repartir autrement.",
+      "Appuyez sur « Faire tomber juste » lorsqu'un morceau dépasse et que la classe veut un compte entier.",
+      "Changez d'objet et refaites le tour : le raisonnement doit tenir sur un crayon comme sur une échelle."
+    ],
+    "classroomIdeas": [
+      "Avant de toucher à quoi que ce soit, faites parier la classe : si l'étalon devient deux fois plus petit, que devient le nombre ?",
+      "Faites dire la mesure à voix haute par un élève : « l'objet fait tant de fois cet étalon-là », et exigez que le mot revienne à chaque fois.",
+      "Masquez l'un des deux nombres, montrez les deux bandes, et demandez laquelle a le plus petit étalon.",
+      "Réglez les deux bandes sur le même étalon et faites constater que les deux nombres redeviennent identiques.",
+      "Partez du morceau qui dépasse : que faudrait-il changer à l'étalon pour que ça tombe juste ?",
+      "Terminez par une trace écrite en dictée à l'adulte : plus l'étalon est petit, plus le nombre est grand."
+    ],
+    "metaTitle": "L'étalon élastique — mesurer une longueur en cycle 2",
+    "metaDescription": "Deux bandes, un seul objet : étirez l'étalon et le nombre change alors que l'objet ne bouge pas. Mesurer des longueurs avec un étalon, cycle 2, au TBI."
+  },
   "labels": {
     "about": "À propos de cet outil",
     "howToUse": "Comment l'utiliser en classe",

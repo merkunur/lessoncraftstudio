@@ -1076,6 +1076,35 @@
     "metaTitle": "Dele ligeligt og rest – Lågene | matematik 1.-2. klasse",
     "metaDescription": "Læg låg over brikkerne på bordet: lige mange under hvert. Klassen deler totalen ligeligt, ser resten blive liggende og løfter så lågene. Gratis til tavlen."
   },
+  "unit-handle": {
+    "slug": "maale-laengde-med-egne-enheder",
+    "name": "Strækbåndet",
+    "tagline": "Klassen måler den samme genstand med to bånd, trækker den ene enhed mindre og ser tallet stige, mens genstanden på bordet ikke har rørt sig en tøddel.",
+    "about": [
+      "Øverst på skærmen ligger en genstand på bordet – et farvekridt, en gaffel, en stang bladselleri, en stige. Under den ligger to bånd, der begge starter ved genstandens venstre kant og er lagt af ens brikker side om side. På den første brik i hvert bånd sidder et greb. Trækker du i grebet, vokser eller skrumper enheden, hele båndet lægger sig om under fingeren, og tallet for enden tæller op eller ned. Det andet bånd rører sig ikke.",
+      "Området er måling inden for Geometri og måling: i 1.-2. klasse måler eleverne længde med ikke-standardiserede enheder, længe før de faste enheder kommer på banen. Det svære er ikke at tælle brikkerne. Det svære er, at tallet hører til enheden og ikke til genstanden – mange elever lægger brikkerne pænt uden hul og tror alligevel, at et større tal betyder en længere genstand. Strækbåndet er bygget til den samtale; det er en model at tale ud fra, ikke et program med dokumenteret læringseffekt.",
+      "Læg de to bånd med samme enhed, og tallene er ens. Træk så det ene greb mindre, og se, hvad der sker: brikkerne bliver kortere, der skal flere af dem, og tallet stiger – mens genstanden ligger fuldstændig stille på bordet. Der er altid en i klassen, der siger, at genstanden er blevet længere. Det er præcis derhen, samtalen skal: tallet blev større, fordi enheden blev mindre. Man kan ikke eje et bånd, hvis enhed vokser.",
+      "Der er ikke noget at læse sig til, ingen login og ingen opsætning: åbn siden på projektoren eller det interaktive whiteboard, og træk i grebet. Der er hverken point eller tid, og ingen af de to målinger bliver bedømt – værktøjet peger aldrig på den ene enhed som den bedre. Begge bånd måler den samme genstand; de gør det bare med hver sin enhed. Hylden med flere genstande og udskrivning af bordet hører til Lærerabonnementet."
+    ],
+    "howToUse": [
+      "Vis genstanden på bordet, og lad klassen gætte, hvor mange brikker der skal til.",
+      "Sæt begge bånd ens med Samme enhed på begge, og tæl brikkerne højt sammen.",
+      "Træk grebet på det ene bånd mindre, og stop, når tallet er steget.",
+      "Spørg klassen: hvad har flyttet sig – tallet eller genstanden?",
+      "Brug Få det til at gå op, når et bånd ender med et stykke til overs, og tal om, hvorfor det sidste stykke ikke tælles med.",
+      "Hent en ny genstand, og lad et par elever styre grebet."
+    ],
+    "classroomIdeas": [
+      "Lad to elever måle den samme genstand med hvert sit bånd og skrive de to tal op ved siden af hinanden på tavlen.",
+      "Bed klassen forudsige tallet, før du trækker enheden halvt så lille – og tjek det sammen bagefter.",
+      "Mål den samme genstand med tre forskellige enheder, og skriv parrene op: lille enhed, stort tal.",
+      "Lad eleverne finde en enhed, der går op i genstanden, uden at bruge knappen.",
+      "Sæt enheden så stor, at der kun er plads til to brikker, og spørg, hvad der sker med tallet, hvis I halverer den.",
+      "Slut med en kort skriveøvelse i hæftet: \"Tallet blev større, fordi ...\""
+    ],
+    "metaTitle": "Strækbåndet – mål længde med egne enheder, 1.-2. kl.",
+    "metaDescription": "Mål den samme genstand med to bånd, træk den ene enhed mindre, og se tallet stige, mens genstanden ligger stille. Gratis værktøj til 1.-2. klasse."
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

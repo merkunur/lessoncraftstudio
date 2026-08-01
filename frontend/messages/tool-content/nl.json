@@ -1076,6 +1076,35 @@
     "metaTitle": "Eerlijk verdelen en rest – gratis digibordtool groep 3",
     "metaDescription": "Leg deksels op een blad met fiches: onder elk deksel liggen er evenveel. De klas verdeelt eerlijk, ziet de rest en kiest een getal. Gratis, groep 3-4."
   },
+  "unit-handle": {
+    "slug": "meten-met-natuurlijke-maten-groep-3",
+    "name": "De Rekbare Maat",
+    "tagline": "Eén voorwerp ligt op het blad, eronder twee stroken van blokjes. Je sleept aan één blokje, de maat wordt groter of kleiner, de hele strook legt zich opnieuw en het getal verandert mee.",
+    "about": [
+      "Op het blad ligt een echt voorwerp: een wasknijper, een vork, een stengel bleekselderij. Daaronder liggen twee stroken. Elke strook bestaat uit gelijke blokjes, achter elkaar gelegd vanaf de linkerrand van het voorwerp, met een greep op het eerste blokje. Sleep je die greep, dan wordt dat blokje — de maat — groter of kleiner, legt de hele strook zich opnieuw onder je vinger en verandert het getal aan het eind mee. De andere strook blijft staan; het voorwerp beweegt nooit.",
+      "Meten met natuurlijke maten hoort bij het domein meten en meetkunde uit de SLO-kerndoelen: in groep 3 en 4 leggen kinderen eerst zelfgekozen maten achter elkaar, voordat standaardmaten in beeld komen. Dat is lastiger dan het lijkt. Om te kunnen tellen moeten de maten precies even groot zijn, ze moeten zonder gaten of overlap aansluiten, en ze moeten bij de rand van het voorwerp beginnen. Wij claimen geen gemeten leereffect; dit is gereedschap om die stappen samen zichtbaar te maken.",
+      "Alles draait om één moment: de maat wordt kleiner en het getal loopt op. Het voorwerp is niet bewogen, de strook is niet langer geworden, en toch staat er ineens een groter getal. Kinderen zeggen dan vaak dat het voorwerp langer is geworden — precies dáár zit het lastige. Het getal hoort niet bij het voorwerp alleen, maar bij het voorwerp én de maat waarmee je meet. Hoe kleiner de maat, hoe meer er passen.",
+      "Er valt niets te lezen: de stroken, de blokjes en het getal doen het werk, dus ook kinderen die nog moeizaam lezen doen gewoon mee. Je hebt geen account nodig en er valt niets te installeren; het opent in de browser en is groot genoeg voor het digibord. Geen score, geen klok. Geen van beide metingen wordt ooit als goed of fout gemarkeerd, en het gereedschap zegt niet welke maat de beste is; dat gesprek voer je met de klas. Alle voorwerpen en het afdrukken horen bij het Leerkracht-pakket."
+    ],
+    "howToUse": [
+      "Zet het voorwerp op het digibord en laat de klas eerst schatten hoeveel blokjes eronder passen.",
+      "Sleep aan de greep van de eerste strook tot de maat precies past en lees samen het getal.",
+      "Maak de maat van de tweede strook duidelijk kleiner en laat een kind het nieuwe getal voorlezen.",
+      "Vraag wat er met het voorwerp is gebeurd — en wat er dus wél is veranderd.",
+      "Blijft er een gestreept stukje over, benoem dan dat het niet meetelt en zoek samen een maat die wel past.",
+      "Kies een ander voorwerp en laat een kind zelf de maat instellen."
+    ],
+    "classroomIdeas": [
+      "Laat twee kinderen ieder één strook instellen en aan elkaar uitleggen welk getal ze krijgen en waarom die getallen verschillen.",
+      "Meet dezelfde ladder met een grote en met een kleine maat en schrijf beide getallen naast elkaar op het bord.",
+      "Laat de klas eerst voorspellen: als de maat half zo groot wordt, wat gebeurt er dan met het getal?",
+      "Meet eerst met voetstappen of handspannen door de klas en leg dezelfde vraag daarna op het bord met de stroken.",
+      "Zoek samen een maat waarbij er niets overblijft en bespreek waaraan je ziet dat die maat past.",
+      "Print het blad uit het Leerkracht-pakket en laat kinderen met een eigen strookje verder meten op papier."
+    ],
+    "metaTitle": "De Rekbare Maat – meten met natuurlijke maten groep 3/4",
+    "metaDescription": "Meet één voorwerp met twee stroken: sleep de maat kleiner en zie het getal oplopen terwijl het voorwerp stil ligt. Meten met natuurlijke maten, groep 3/4."
+  },
   "labels": {
     "about": "Over dit hulpmiddel",
     "howToUse": "Zo gebruik je het in de klas",

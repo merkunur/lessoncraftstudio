@@ -1076,6 +1076,35 @@
     "metaTitle": "Reparto equitativo y resto en primaria | Las tapaderas",
     "metaDescription": "Instrumento gratuito para la pizarra digital: la clase reparte fichas en partes iguales bajo tapaderas iguales, discute cuántas hay debajo y ve el resto."
   },
+  "unit-handle": {
+    "slug": "medir-longitud-unidades-no-convencionales-primaria",
+    "name": "Estira la unidad",
+    "tagline": "La clase mide el mismo objeto con dos tiras a la vez, estira la unidad de una de ellas y ve cómo su número sube o baja mientras el objeto no se mueve.",
+    "about": [
+      "En la pantalla hay una mesa de medir y, encima, un objeto real fotografiado: un lápiz de color, un tenedor, una rama de apio, una escalera. Debajo del objeto se extienden dos tiras, cada una formada por piezas iguales colocadas una tras otra desde el borde izquierdo. La primera pieza de cada tira tiene un tirador: al arrastrarlo, esa pieza crece o se encoge, toda la tira se vuelve a colocar sola y el número del final sube o baja. La otra tira no se mueve.",
+      "Es el territorio de la medida de longitudes con unidades no convencionales, en 1.º y 2.º: medir un mismo objeto con unidades de distinto tamaño y describir cómo se relacionan las dos medidas con el tamaño de la unidad. Cuesta porque el número deja de ser una propiedad del objeto y pasa a depender de con qué se mide. Un armario lleno de juegos de unidades fijas no lo enseña: no existe una regla cuya unidad se pueda estirar delante de la clase.",
+      "Ese es el momento: la unidad se hace más pequeña y el número sube. El objeto sigue exactamente donde estaba, nadie lo ha tocado, y sin embargo ahora hacen falta más piezas para recorrerlo. Muchos niños dicen primero que el objeto se ha hecho más largo, porque el número es mayor. Verlo ocurrir en directo, con las dos tiras a la vista al mismo tiempo, es lo que abre la conversación: ¿qué ha cambiado de verdad, el objeto o la unidad?",
+      "No hay nada que leer en la pantalla ni texto que traducir: solo el objeto, las tiras y los números. Se abre en el navegador, sin registro y sin instalar nada, y funciona en la pizarra digital, en el ordenador del aula o en una tableta. La herramienta no marca ninguna de las dos medidas como correcta ni incorrecta: las dos son verdad, cada una con su unidad. El estante completo de objetos y la impresión forman parte del plan Docente."
+    ],
+    "howToUse": [
+      "Proyecta la mesa de medir y pregunta a la clase cuántas piezas creen que harán falta para recorrer el objeto.",
+      "Empieza con las dos tiras iguales, usando «Igualar las unidades», para que todos vean que dan el mismo número.",
+      "Arrastra el tirador de la primera tira y detente en cuanto el número cambie.",
+      "Pregunta «¿ha cambiado el objeto?» y deja que lo discutan entre ellos antes de decir nada.",
+      "Pulsa «Que salga exacto» cuando sobre un trozo y quieras una medida sin resto.",
+      "Cambia de objeto con «Otro objeto» y repite la misma rutina con una forma distinta."
+    ],
+    "classroomIdeas": [
+      "Antes de arrastrar, que cada mesa apunte si el número subirá o bajará al hacer la unidad más pequeña.",
+      "Saca a dos alumnos al frente: uno mueve la unidad y el otro lee el número en voz alta mientras el resto anota la pareja.",
+      "Deja una tira quieta como testigo durante toda la sesión y estira solo la otra.",
+      "Pide que busquen, arrastrando, una unidad con la que el objeto dé un número redondo.",
+      "Cuando sobre un trozo, pregunta qué dirían ellos: ¿«cinco y un poco más» o buscar otra unidad?",
+      "Cierra siempre con la misma frase a coro: unidad más pequeña, número más grande."
+    ],
+    "metaTitle": "Estira la unidad: medir con unidades no convencionales",
+    "metaDescription": "Mide el mismo objeto con dos tiras: estira la unidad de una y su número cambia mientras el objeto no se mueve. Para 1.º y 2.º, en la pizarra digital."
+  },
   "labels": {
     "about": "Acerca de esta herramienta",
     "howToUse": "Cómo usarla en clase",

@@ -178,6 +178,16 @@ const SEEDS = {
      tool now does by showing it exactly once. 9 puts them apart: a
      filled 9 and a ringed 6, on one strip. ⚠ The lids go down BEFORE the
      marker, because adding a lid voids the commitment. */
+  /* THE UNIT HANDLE: the bench is never empty — it opens with two tapes
+     already carrying DIFFERENT counts, which is the whole thesis. All the
+     seed does is step to a longer object, where the two numbers are
+     further apart and the leftover is visible. ⚠ No drag step: this
+     generator's only drag shape is letter-tiles' board-fraction clone,
+     and inventing a new one here would be untested machinery in a
+     screenshot script. Foot order: fit / match / another object / print. */
+  'unit-handle': [
+    { sel: '.unh-foot .unh-chip', nth: [2, 2] },
+  ],
   'lids': [
     { sel: '.lid-bar .lid-chip', nth: 3 },
     { sel: '.lid-foot .lid-chip', nth: [0, 0, 0] },

@@ -1054,6 +1054,35 @@
     "metaTitle": "Tasan jakaminen ja jakojäännös – ilmainen väline 1.–2. lk",
     "metaDescription": "Ilmainen väline luokan näytölle: kannen alla on aina yhtä monta laskunappia. Luokka päättelee luvun, ja tasan jakamatta jääneet napit jäävät näkyviin."
   },
+  "unit-handle": {
+    "slug": "pituuden-mittaaminen-omilla-yksikoilla-alkuopetus",
+    "name": "Venyvä yksikkö",
+    "tagline": "Luokka mittaa saman esineen kahdella nauhalla, venyttää toisen nauhan yksikköä isommaksi tai pienemmäksi ja näkee, miten nauhan luku muuttuu, vaikka esine pysyy koko ajan täsmälleen paikallaan.",
+    "about": [
+      "Näytöllä on mittauspöytä ja sen päällä yksi esine: liitu, haarukka, sellerinvarsi tai tikapuut. Esineen alla on kaksi nauhaa, ja kumpikin on ladottu samanlaisista paloista esineen vasemmasta reunasta alkaen. Ensimmäisen palan oikeassa reunassa on kahva: kun siitä vetää, pala eli yksikkö suurenee tai pienenee, koko nauha latoutuu uudelleen sormen alla ja nauhan päässä oleva luku muuttuu samaa tahtia. Toinen nauha ei liiku, eikä esine liiku.",
+      "Sisältö kuuluu OPS 2014:n alueeseen Geometria ja mittaaminen: pituuden mittaaminen ei-standardeilla eli itse valituilla yksiköillä 1.–2. luokalla. Mittaamisen periaate on aikuiselle itsestään selvä, lapselle ei. Yksiköiden on oltava keskenään yhtä suuria, ne ladotaan peräkkäin ilman rakoja ja päällekkäisyyksiä, ja mittaluku kertoo vain sen, montako yksikköä esineen matkalle mahtui. Tämän työkalun vaikutuksesta oppimiseen ei ole tutkimusnäyttöä; se on väline yhteiseen puhumiseen, ei mittari.",
+      "Vaikein hetki tulee, kun yksikköä pienennetään. Esine on koko ajan sama eikä ole liikahtanut, mutta nauhan luku kasvaa. Moni oppilas odottaa päinvastaista: pienempi yksikkö, pienempi luku. Kun sama esine saa kaksi eri lukua, kysymys \"mikä on esineen luku\" jää auki, kunnes sovitaan, minkä kokoisella yksiköllä mitataan. Jos yksikkö ei mahdu tasan, viimeinen pala piirtyy katkoviivalla eikä sitä lasketa mukaan.",
+      "Käytännössä: mittauspöydällä ei ole sanoja, vain esine, palat ja luvut, joten oppilaan ei tarvitse lukea mitään päästäkseen tekemään. Kirjautumista ei tarvita, ja sivu avautuu sellaisenaan älytaululla ja projektorilla. Työkalu ei merkitse kumpaakaan mittausta oikeaksi eikä vääräksi eikä kerro, kumpi yksikkö olisi parempi – sen ratkaisee luokka puhumalla. Ei pisteitä, ei kelloa. Koko esinevalikoima ja tulostus kuuluvat Opettaja-tilaukseen."
+    ],
+    "howToUse": [
+      "Avaa työkalu älytaululle ja anna luokan katsoa esinettä hetki ennen kuin mitään mitataan.",
+      "Mittaa esine ensin niin, että molemmissa nauhoissa on yhtä suuri yksikkö, ja lukekaa luvut ääneen.",
+      "Vedä toisen nauhan ensimmäisen palan reunasta niin, että yksikkö pienenee, ja pysäytä liike hetkeksi keskelle.",
+      "Kysy luokalta, mikä muuttui ja mikä ei muuttunut: luku, yksikkö vai esine.",
+      "Käytä Tasan menevä yksikkö -painiketta, kun haluat, että yksikkö mahtuu tasan eikä katkoviivaista palaa jää yli.",
+      "Vaihda esinettä ja esitä sama kysymys uudelleen uudella esineellä."
+    ],
+    "classroomIdeas": [
+      "Pyydä oppilaita ennustamaan ennen vetoa, mitä luvulle tapahtuu, kun yksikkö pienenee.",
+      "Anna kahden oppilaan mitata sama esine eri kokoisilla yksiköillä ja perustella luokalle, miksi luvut eroavat.",
+      "Kirjatkaa taululle jokaisesta mittauksesta pari: yksikön koko ja luku, ja etsikää yhdessä, mihin suuntaan luku liikkuu.",
+      "Sopikaa luokan oma yksikkö säätämällä nauha yhteen kokoon ja mitatkaa sillä kaikki päivän esineet.",
+      "Ottakaa esiin tilanne, jossa yksikkö ei mahdu tasan, ja keskustelkaa siitä, mitä ylijäävälle palalle pitäisi tehdä.",
+      "Tulostakaa mittauspöytä ja liimatkaa kahden eri yksikön mittaukset vihkoon vierekkäin."
+    ],
+    "metaTitle": "Venyvä yksikkö – pituuden mittaaminen omilla yksiköillä",
+    "metaDescription": "Mittaa sama esine kahdella nauhalla ja venytä toisen yksikköä: luku muuttuu, esine ei. Mittaamisen työkalu 1.–2. luokan älytaululle, ei kirjautumista."
+  },
   "labels": {
     "about": "Tietoa tästä työkalusta",
     "howToUse": "Näin käytät sitä luokassa",

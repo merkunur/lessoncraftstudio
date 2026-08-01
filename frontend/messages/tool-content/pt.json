@@ -1076,6 +1076,35 @@
     "metaTitle": "Divisão por repartição nos anos iniciais | As tampas",
     "metaDescription": "Divisão por repartição na lousa: cubra as fichas com tampas iguais, a turma discute quantas há embaixo de cada uma e vê o resto que sobra na mesa. Grátis."
   },
+  "unit-handle": {
+    "slug": "medida-de-comprimento-unidades-nao-padronizadas",
+    "name": "A Unidade que Estica",
+    "tagline": "Duas fitas medem o mesmo objeto na bancada; a turma estica a unidade de uma delas e vê o número na ponta subir e descer enquanto o objeto continua parado no lugar.",
+    "about": [
+      "Na tela, um objeto real — um giz de cera, um garfo, um talo de aipo, uma escada — está deitado sobre a bancada. Abaixo dele, duas fitas partem da borda esquerda do objeto, cada uma formada por peças iguais enfileiradas. A primeira peça de cada fita tem um puxador: arraste e a peça cresce ou encolhe, a fita inteira se refaz sob o dedo e o número na ponta acompanha. O objeto nunca sai do lugar.",
+      "O território é Grandezas e medidas, no 1.º e no 2.º ano: medir comprimentos com unidades de medida não padronizadas e comparar os resultados. É uma das partes mais escorregadias do currículo, porque a criança precisa segurar duas ideias ao mesmo tempo — o tamanho do objeto e o tamanho da unidade — e a segunda costuma ficar invisível. Não existe estudo de eficácia por trás desta ferramenta; ela apenas torna o tamanho da unidade visível e mutável.",
+      "O momento é este: a turma mede, a fita mostra um número, e então alguém puxa a peça e a deixa menor. O número sobe. Ninguém encostou no objeto. A fita de baixo, com a unidade maior, continua parada com o número dela. É aqui que a conversa começa de verdade — quanto menor a unidade, mais vezes ela cabe — e é exatamente a parte que a maioria das crianças não enxerga sozinha com um conjunto de peças de tamanho fixo.",
+      "Não há nada para ler antes, não há cadastro e não há nada para instalar: abra na lousa digital ou no projetor e comece. Nenhuma das duas medidas é marcada como certa ou errada, e a ferramenta nunca diz qual unidade é melhor. Quando a unidade não cabe um número exato de vezes, o pedaço que sobra aparece tracejado e não entra na conta. A prateleira completa de objetos e a impressão fazem parte do plano Professor."
+    ],
+    "howToUse": [
+      "Projete a bancada e pergunte à turma quantas peças daquela fita cabem no objeto.",
+      "Arraste o puxador da primeira peça da fita de cima até a turma concordar que a medição está pronta, e leia o número em voz alta.",
+      "Deixe a fita de baixo parada e encolha a unidade da de cima na frente de todos, sem tocar no objeto.",
+      "Pergunte o que aconteceu com o número e por quê, e segure a resposta até várias crianças terem falado.",
+      "Se sobrar um pedaço tracejado no fim, toque em \"Caber sem sobra\" para a unidade passar a caber um número exato de vezes.",
+      "Use \"Igualar as unidades\" e depois \"Outro objeto\" para refazer a rotina com outro objeto da bancada."
+    ],
+    "classroomIdeas": [
+      "Antes de arrastar qualquer coisa, peça um palpite — se a peça ficar bem pequenininha, o número vai subir ou descer? — e anote os palpites na lousa.",
+      "Divida a turma em dois times, cada um responsável por uma fita, e peça que cada time explique o número que a sua fita mostra.",
+      "Peça que uma criança arraste até o número da fita dar exatamente 4, e depois que conte à turma o que fez com a peça para chegar lá.",
+      "Registre no caderno o mesmo objeto medido com três unidades diferentes e peça uma frase sobre o que mudou e o que não mudou.",
+      "Feche a rotina pedindo que cada criança complete em voz alta \"quanto menor a peça, ...\" e ouça as formulações diferentes que aparecem.",
+      "Com o plano Professor, imprima a bancada e deixe as crianças desenharem as peças à mão antes de conferir na tela."
+    ],
+    "metaTitle": "A Unidade que Estica | medir com unidades não padronizadas",
+    "metaDescription": "Duas fitas medem o mesmo objeto na tela. Estique a unidade de uma delas e o número muda sem o objeto sair do lugar. Grandezas e medidas, 1.º e 2.º ano."
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

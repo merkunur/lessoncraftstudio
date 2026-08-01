@@ -306,7 +306,9 @@
   position: relative;
   --drop: 48px;
   --rest: 0deg;
-  transform: rotate(var(--rest));
+  /* --restx is the RESOLVED pose: media queries can zero it even when
+     --rest arrives inline (inline custom props outrank media rules). */
+  transform: rotate(var(--restx, var(--rest)));
   transform-origin: 50% calc(-1 * var(--drop));
 }
 .hv6-hang::before {
@@ -335,8 +337,8 @@
   animation: hv6HangSway var(--period, 17s) var(--sway-ease) var(--phase, -5s) infinite;
 }
 @keyframes hv6HangSway {
-  0%, 100% { transform: rotate(calc(var(--rest, 0deg) + var(--amp, 1.2deg))); }
-  50% { transform: rotate(calc(var(--rest, 0deg) - var(--amp, 1.2deg))); }
+  0%, 100% { transform: rotate(calc(var(--restx, var(--rest, 0deg)) + var(--ampx, var(--amp, 1.2deg)))); }
+  50% { transform: rotate(calc(var(--restx, var(--rest, 0deg)) - var(--ampx, var(--amp, 1.2deg)))); }
 }
 
 /* Two-thread, level — for everything a visitor reads (papers, stages,
@@ -626,7 +628,7 @@
 /* Phones: a full-width card rotated even 1.5° pokes past the viewport —
    the tags hang straight and still there (the thread carries the idea). */
 @media (max-width: 1023px) {
-  .hv6-tag-price { --rest-sm: 0deg; }
+  .hv6-tag-price { --restx: 0deg; --rest-sm: 0deg; }
   .hv6-tag-price.is-sway { animation: none; transform: rotate(0deg); }
 }
 
@@ -1522,7 +1524,7 @@
    their center thread, tilt and sway.
    ═══════════════════════════════════════════════════════════════════════ */
 @media (max-width: 1023px) {
-  .hv6-hang { --rest: 0deg; }
+  .hv6-hang { --restx: 0deg; }
   .hv6-hang::before {
     left: 0;
     margin-left: 0;
@@ -1531,7 +1533,7 @@
     transform: rotate(31deg);
   }
   .hv6-hang::after { left: 3px; }
-  .hv6-hang.is-sm { --rest: var(--rest-sm, -1.5deg); }
+  .hv6-hang.is-sm { --restx: var(--rest-sm, -1.5deg); }
   .hv6-hang.is-sm::before {
     left: 50%;
     margin-left: -1px;
@@ -1571,7 +1573,7 @@
 @media (prefers-reduced-motion: reduce) {
   /* The installation hangs perfectly still, composed: every rest rotation,
      thread, plank and bead is a static pose. */
-  .hv6-hang.is-sway { animation: none; transform: rotate(var(--rest, 0deg)); }
+  .hv6-hang.is-sway { animation: none; transform: rotate(var(--restx, var(--rest, 0deg))); }
   .hv6-wire-pulse { display: none; }
   .hv6-rek-bead.is-push { animation: none; transform: translateX(var(--push, 0)); }
   .hv6-mob-hang, .hv6-mob-arm, .hv6-mob-node { animation: none; transform: rotate(0deg); }

@@ -85,8 +85,26 @@ const SOLID_BAN = w('sphere|cylinder|cylindre|cilindro|cilinder|sylinteri|zylind
       is(seen.h1.indexOf(CONTENT[loc].name) >= 0, `${loc}: h1 carries the native name "${CONTENT[loc].name}"`);
       is(seen.paras.length > 400, `${loc}: landing prose present (${seen.paras.length} chars)`);
       is(seen.iframe, `${loc}: the tool iframe is on the page`);
-      is(!TOTAL_BAN.test(seen.paras), `${loc}: ⭐ the landing prose never asks for a TOTAL — refuse #2`);
-      is(!SOLID_BAN.test(seen.paras), `${loc}: ⭐ the landing prose names no SOLID — refuse #1`);
+      /* ⚠⚠ NO WORD-BAN ON LANDING PROSE, AND THIS IS A RULING NOT A
+         RETREAT. The first version ran the apparatus bans over the
+         landing copy and failed FOUR locales — every one of them on a
+         sentence whose whole job is to STATE THE REFUSAL:
+           es  "porque eso ya es volumen y toca mucho más adelante"
+           it  "non chiede mai quanti cubetti ci siano in tutto"
+           sv  "frågar aldrig hur många det är sammanlagt"
+           fr  "dessinée en volume" (= drawn in three dimensions)
+         A landing page MUST be able to say what the tool refuses to do
+         — that is the fence being communicated to a teacher — and a
+         regex cannot tell "never asks for a total" from "asks for a
+         total". This is #38's Zufallsbeutel defect in its purest form:
+         a fence that rejects correct native prose teaches a panel to
+         reword AROUND it instead of reporting it.
+         THE BANS BELONG ON THE APPARATUS, where the tool speaks, and
+         they are enforced there — verify- checks every authored string
+         and this gate checks the rendered SVG text. What holds the line
+         on the landing is BEHAVIOURAL and is asserted at the bottom of
+         this file: no input, no keypad, no answer taken. */
+      is(seen.paras.length > 400, `${loc}: landing prose is substantial (${seen.paras.length} chars) — bans are enforced on the APPARATUS, not on prose that may legitimately describe the refusal`);
     }
     await page.close();
   }

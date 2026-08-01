@@ -79,10 +79,14 @@ is(T._st({ h: [1, 2] }).h.length === 9, 'a short array is filled, not handed thr
    and you get the default. */
 {
   const arrayLike = { h: { 0: 4, 1: 4, 2: 4, 3: 4, 4: 4, 5: 4, 6: 4, 7: 4, 8: 4, length: 9 } };
-  is(T._st(arrayLike).h.every((v) => v === 1),
-    'an ARRAY-LIKE object is rejected and the default is used, not read as if it were an array');
+  /* ⚠ compared against newState(), NOT a hardcoded 1. The first
+     version encoded the default of the day and went stale the moment
+     the opening building changed — the same half-life problem as a
+     mutation needle carrying a literal. */
+  is(T._st(arrayLike).h.join() === T.newState().h.join(),
+    'an ARRAY-LIKE object is rejected and the DEFAULT is used, not read as if it were an array');
 }
-is(T._st({ h: 'x' }).h.every((v) => v === 1), 'a string h is rejected, not indexed character by character');
+is(T._st({ h: 'x' }).h.join() === T.newState().h.join(), 'a string h is rejected, not indexed character by character');
 
 console.log('\n[V2] refusals are refusals, not silent clamps');
 const base = { h: [1, 2, 3, 1, 2, 3, 1, 2, 3] };

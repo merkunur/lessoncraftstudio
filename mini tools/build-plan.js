@@ -182,7 +182,19 @@
     /* the profiles: front lower-LEFT, side lower-RIGHT, same baseline */
     VCELL: 64, VBASE: 940, FX: 140, SX: 640,
 
-    newState: function () { return { h: [1, 1, 1, 1, 1, 1, 1, 1, 1] }; },
+    /* ⚠⚠ THE OPENING BUILDING MUST NOT BE TURN-INVARIANT.
+       It was the flat 1-high one — chosen as the baseline, and it IS
+       one of the 125 buildings a quarter turn leaves unchanged. So at
+       rest the turn chip honestly did nothing, and the liveness gate
+       reported it DEAD ON EVERY PATH. Both were right; the design was
+       wrong. A teacher opening the tool would have met a button that
+       appears broken — the #39 complaint verbatim ("the numbers under
+       the board has no function").
+       The flat building keeps its place in the repertoire, where the
+       turn-does-nothing moment is the point. It just cannot be the
+       first thing anyone sees. This staircase turns visibly, and its
+       front and side already disagree (123 against 333). */
+    newState: function () { return { h: [1, 2, 3, 1, 2, 3, 1, 2, 3] }; },
 
     /* TOTALITY. `st || newState()` is not total — it catches null and 0
        and hands [] straight through to .length (#39). */
@@ -372,8 +384,15 @@
       hintTurn: { en: "Turn it a quarter turn. The building is the same one — but the front becomes the side." },
       hintSame: { en: "Another building can look exactly like this from the front and from the side. Ask the class to picture one before you show it." },
       hintDetermined: { en: "This one is pinned down: no other building looks like this from both directions." },
-      cellAria: { en: "blueprint square, row {r} of 3, place {c} of 3, {v} cubes tall. Drag up or down, or use the arrow keys." },
-      colAria: { en: "the building, row {r} of 3, place {c} of 3, {v} cubes tall. Drag up or down, or use the arrow keys." },
+      /* ⚠ "…, {v} cubes tall" READ AS "1 CUBES TALL" AT HEIGHT ONE.
+         A count noun beside a placeholder needs plural agreement, and
+         that is a per-locale trap (§A.13.54) — Finnish would need the
+         partitive, Slavic-style locales three forms. Anchoring to a
+         FIXED noun that does not inflect with the number removes the
+         problem in every language at once, which is why the aria
+         strings say "height {v}" and not "{v} cubes". */
+      cellAria: { en: "blueprint square, row {r} of 3, place {c} of 3, height {v}. Drag up or down, or use the arrow keys." },
+      colAria: { en: "the building, row {r} of 3, place {c} of 3, height {v}. Drag up or down, or use the arrow keys." },
       frontAria: { en: "the same building seen from the front" },
       sideAria: { en: "the same building seen from the side" },
       turnBtn: { en: "Turn a quarter" },

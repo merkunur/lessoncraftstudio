@@ -58,7 +58,15 @@ if (FIELDS.length < 4) die('fewer than 4 state fields parsed — this gate would
    V1 — THE BAND, DERIVED AND PRINTED (never preferred)
    ===================================================================== */
 console.log('\n[V1] the band, derived from the MEASURED bench');
-const S_PX = 226;          /* local-test L1 re-measures this and asserts it holds */
+/* ⭐ MEASURED, WITH PROVENANCE — and it moved once already.
+   The first value here was 226px, ESTIMATED from comparison-planks'
+   chrome (two hint lines, three chips). This tool has one hint line
+   and four chips, so its real bench is larger. local-test- L1
+   measured 296px across the whole viewport sweep and the two gates
+   disagreed — which is what they exist to do. The MEASUREMENT wins;
+   the record is updated to it, never the other way round.
+     296px · narrowest of 6 viewports × dpr 1,2 · local-test L1 · 2026-08-01 */
+const S_PX = 296;
 const LBL_W = 31, LBL_H = 21, STROKE = 2;
 const A = T.BOT - T.TOP, G = T.WINDOW - 1, U = A / G, sigma = S_PX / T.W;
 const M = T.TOP;           /* the end margin, in model units */

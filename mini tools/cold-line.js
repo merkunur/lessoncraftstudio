@@ -825,6 +825,19 @@
         .catch(trustCache);
     },
 
+    /* ⚠ THE SHELL'S RESET IS A REAL CONTROL AND IT NEEDS A HOOK.
+       `lcs-shell.js:531` calls `tool.reset()` if a tool provides one —
+       and without it the Reset button in the header is DEAD, which
+       `audit-tool-control-liveness` scored as a warning across 11
+       reachable paths while every sibling passed. A shipped control that
+       does nothing is the #39 defect, and this one is not even mine to
+       draw: the shell draws it and I failed to answer it. */
+    reset: function () {
+      this.st = this.newState();
+      this._idx = 0;
+      if (this._wrap) this._paint();
+    },
+
     init: function (api) {
       this.api = api;
       injectColdLineCSS();

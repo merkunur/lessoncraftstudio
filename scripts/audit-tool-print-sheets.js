@@ -33,7 +33,8 @@ const PORT = 5540;
 const TOOLS = [
   { key: 'unit-handle', p: 'unh', apparatus: '.unh-bench' },
   { key: 'unroll-tape', p: 'urt', apparatus: '.urt-bench' },
-  { key: 'comparison-planks', p: 'cmp', apparatus: '.cmp-sheet' }
+  { key: 'comparison-planks', p: 'cmp', apparatus: '.cmp-sheet' },
+  { key: 'cold-line', p: 'cld', apparatus: '.cld-sheet' }
 ];
 
 const only = (process.argv.find((a) => a.indexOf('--tool=') === 0) || '').split('=')[1];

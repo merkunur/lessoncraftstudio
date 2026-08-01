@@ -1105,6 +1105,35 @@
     "metaTitle": "A Unidade que Estica | medir com unidades não padronizadas",
     "metaDescription": "Duas fitas medem o mesmo objeto na tela. Estique a unidade de uma delas e o número muda sem o objeto sair do lugar. Grandezas e medidas, 1.º e 2.º ano."
   },
+  "unroll-tape": {
+    "slug": "medir-a-volta-de-uma-figura-anos-iniciais",
+    "name": "O Barbante do Contorno",
+    "tagline": "Um barbante dá a volta inteira numa figura e depois deita reto numa trilha marcada com a largura da figura — e num círculo dá sempre três e um pouquinho.",
+    "about": [
+      "Uma figura plana fica apoiada numa linha. Um barbante dá a volta inteira na borda dela. Arraste a ponta do barbante: ele sai da figura e deita reto na trilha, com exatamente o mesmo comprimento que tinha quando estava curvo. A trilha não está marcada em nenhuma medida combinada: cada pedaço vale a largura da própria figura, marcada pelos dois tracinhos embaixo.",
+      "Transformar um comprimento curvo num comprimento reto é o único passo da medida nos anos iniciais que não tem imagem parada. Com barbante de verdade dá para fazer uma vez, e é exatamente por isso que quase nunca se faz duas: o barbante embola, a aula acaba, o momento não volta. Não há estudo sobre o efeito desta ferramenta e não afirmamos nenhum; o que ela oferece é esse momento, repetível.",
+      "E então o número. O barbante de um círculo passa um pouco da terceira marca. Aumente o círculo: tudo cresce junto — o contorno, o barbante, as marcas — e a ponta do barbante continua entre as duas mesmas marcas. Três e um pouquinho, em todo círculo que existe. E uma figura que claramente não é um círculo, com três lados curvos, dá exatamente esse mesmo três e um pouquinho.",
+      "Antes de qualquer coisa se mexer, a turma finca uma bandeirinha onde acha que o barbante vai chegar. A bandeirinha congela assim que o barbante começa a andar, e nunca é corrigida nem pontuada: fica onde a colocaram, ao lado de onde o barbante parou. Nada na tela diz qual é maior. Não é preciso saber ler para usar: uma figura, um barbante e uma fileira de números. Cinco figuras e o aparato inteiro são gratuitos; as outras sete e a folha para imprimir vêm com o plano Professor."
+    ],
+    "howToUse": [
+      "Coloque uma figura e pergunte quanto mede a volta inteira, antes de mexer em nada.",
+      "Uma criança arrasta a bandeirinha até onde acha que o barbante vai chegar, e ela fica ali.",
+      "Arraste a ponta do barbante devagar, para a turma ver ele sair da curva e chegar na trilha.",
+      "⭐ Agora aumente bastante a figura e deite o barbante de novo: o número não muda. É para isso que a ferramenta existe.",
+      "Depois ponha a figura de três lados curvos ao lado do círculo e peça que expliquem por que dão o mesmo.",
+      "Compare o barbante com a barra mais curta embaixo, que é a altura da figura, e não diga nada sobre qual é maior."
+    ],
+    "classroomIdeas": [
+      "Estimar primeiro: cada criança escreve quantas larguras espera, antes de o barbante se mexer.",
+      "Duas figuras, uma pergunta — a lua é mais baixa que o ovo e leva mais barbante. Por quê?",
+      "Dê um alvo: ajuste a figura para o barbante parar bem na quarta marca.",
+      "Meça o mesmo círculo em três tamanhos e escreva os três números um embaixo do outro.",
+      "Depois faça no papel com barbante de verdade em volta de uma tampa e comparem.",
+      "Pergunte qual figura leva mais barbante para a largura dela e confiram — a flor parece tão redonda quanto o círculo."
+    ],
+    "metaTitle": "O Barbante do Contorno | medir a volta de uma figura",
+    "metaDescription": "Um barbante dá a volta numa figura e deita reto numa trilha marcada com a largura da figura. Ferramenta gratuita para a lousa digital."
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

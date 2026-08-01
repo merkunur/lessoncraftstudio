@@ -1105,6 +1105,35 @@
     "metaTitle": "Enhetsremsan – mäta längd med olika enheter, åk 1–3",
     "metaDescription": "Mät samma föremål med två remsor och olika stora enheter. Dra i enheten, se talet ändras medan föremålet står still. Gratis att använda i klassrummet, åk 1–3."
   },
+  "unroll-tape": {
+    "slug": "mata-runt-en-figur-lagstadiet",
+    "name": "Snöret runt",
+    "tagline": "Ett snöre ligger hela vägen runt en figur och lägger sig sedan rakt på ett spår som är indelat i figurens egen bredd — för en cirkel blir det alltid tre och lite till.",
+    "about": [
+      "En platt figur står på en linje. Runt kanten ligger ett snöre. Dra i snörets ände: det gläpper av figuren och lägger sig rakt på spåret, precis lika långt som det var när det låg krokigt. Spåret är inte indelat i något bestämt mått, utan i figurens egen bredd, som de två små strecken under den visar.",
+      "Att göra en krokig längd rak är det enda steget i tidig mätning som inte går att visa på en stillbild. Med ett riktigt snöre gör man det en gång, och det är just därför det nästan aldrig görs två gånger: snöret trasslar, lektionen tar slut, ögonblicket kommer inte igen. Det finns ingen effektstudie bakom den här rutinen och vi påstår ingen; verktyget gör ögonblicket upprepbart.",
+      "Och så talet. En cirkels snöre når en bit förbi det tredje strecket. Gör cirkeln större: allt växer med — kanten, snöret, strecken — och snörets ände blir kvar mellan samma två streck. Tre och lite till, för varje cirkel som finns. Och en figur som tydligt inte är en cirkel, med tre bågformade sidor, ger exakt samma tre och lite till.",
+      "Innan något rör sig sätter klassen en flagga där de tror att snöret når. Flaggan fryser så fort snöret börjar röra sig, och den rättas aldrig och poängsätts aldrig: den står kvar där den sattes, bredvid där snöret hamnade. Ingenting på skärmen säger vad som är längst. Man behöver inte kunna läsa: en figur, ett snöre och en rad siffror. Fem figurer och hela stationen är gratis; de andra sju och bladet att skriva ut ingår i Lärarpaketet."
+    ],
+    "howToUse": [
+      "Sätt upp en figur och fråga hur långt det är hela vägen runt, innan något rör sig.",
+      "Låt ett barn dra flaggan dit det tror att snöret når, och låt den stå kvar.",
+      "Dra i snörets ände långsamt, så att klassen ser det lämna bågen och komma fram på spåret.",
+      "⭐ Gör nu figuren mycket större och låt snöret lägga sig igen: talet ändras inte. Det är därför verktyget finns.",
+      "Sätt sedan figuren med de tre bågformade sidorna bredvid cirkeln och låt klassen förklara varför de blir lika.",
+      "Jämför snöret med den kortare stapeln under, som är figurens höjd, och säg ingenting om vilket som är längst."
+    ],
+    "classroomIdeas": [
+      "Gissa först: varje barn skriver hur många bredder de tror, innan snöret rör sig.",
+      "Två figurer, en fråga — månen är lägre än ägget och tar mer snöre. Hur kommer det sig?",
+      "Ge ett mål: ställ in figuren så att snöret slutar precis på fjärde strecket.",
+      "Mät samma cirkel i tre storlekar och skriv de tre talen under varandra på tavlan.",
+      "Gör det sedan på papper med riktigt snöre runt ett lock och jämför.",
+      "Fråga vilken figur som tar mest snöre i förhållande till sin bredd, och kontrollera — blomman ser lika rund ut som cirkeln."
+    ],
+    "metaTitle": "Snöret runt – mäta runt en figur, åk 1–2",
+    "metaDescription": "Ett snöre ligger runt en figur och lägger sig rakt på ett spår indelat i figurens egen bredd. Gratis att använda i klassrummet, åk 1–2."
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

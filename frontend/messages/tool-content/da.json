@@ -1105,6 +1105,35 @@
     "metaTitle": "Strækbåndet – mål længde med egne enheder, 1.-2. kl.",
     "metaDescription": "Mål den samme genstand med to bånd, træk den ene enhed mindre, og se tallet stige, mens genstanden ligger stille. Gratis værktøj til 1.-2. klasse."
   },
+  "unroll-tape": {
+    "slug": "maale-hele-vejen-rundt-om-en-figur",
+    "name": "Tråden om figuren",
+    "tagline": "En tråd ligger hele vejen rundt om en figur og lægger sig derefter lige ned på en bane, der er inddelt i figurens egen bredde — for en cirkel bliver det altid tre og lidt til.",
+    "about": [
+      "En flad figur står på en linje. Rundt om kanten ligger en tråd. Træk i trådens ende: den glider af figuren og lægger sig lige ned på banen, nøjagtig lige så lang som da den lå krum. Banen er ikke inddelt i noget aftalt mål, men i figurens egen bredde, som de to små streger under den viser.",
+      "At lave en krum længde om til en lige er det eneste skridt i tidlig måling, der ikke findes et stillbillede af. Med en rigtig tråd gør man det én gang, og netop derfor bliver det næsten aldrig gjort to gange: tråden filtrer, timen slutter, øjeblikket kommer ikke igen. Der findes ingen effektundersøgelse bag denne rutine, og vi påstår ingen; værktøjet gør øjeblikket gentageligt.",
+      "Og så tallet. En cirkels tråd når et lille stykke forbi den tredje streg. Gør cirklen større: alt vokser med — kanten, tråden, stregerne — og trådens ende blive mellem de samme to streger. Tre og lidt til, for hver eneste cirkel der findes. Og en figur, der tydeligvis ikke er en cirkel, med tre buede sider, giver præcis de samme tre og lidt til.",
+      "Før noget bevæger sig, sætter klassen et flag der, hvor de tror tråden når til. Flaget fryser, så snart tråden begynder at bevæge sig, og det bliver aldrig rettet eller bedømt: det bliver stående, hvor det blev sat, ved siden af der hvor tråden landede. Intet på skærmen siger, hvad der er længst. Man behøver ikke kunne læse for at bruge det: en figur, en tråd og en række tal. Fem figurer og hele opstillingen er gratis; de andre syv og arket til at printe følger med Lærerabonnementet."
+    ],
+    "howToUse": [
+      "Sæt en figur op og spørg, hvor langt der er hele vejen rundt, før noget bevæger sig.",
+      "Lad et barn trække flaget hen, hvor det tror tråden når til, og lad det blive stående.",
+      "Træk langsomt i trådens ende, så klassen ser den forlade buen og nå frem på banen.",
+      "⭐ Gør nu figuren meget større og lad tråden lægge sig igen: tallet ændrer sig ikke. Det er derfor værktøjet findes.",
+      "Sæt derefter figuren med de tre buede sider ved siden af cirklen, og lad klassen forklare, hvorfor de bliver ens.",
+      "Sammenlign tråden med den kortere bjælke nedenunder, som er figurens højde, og sig ingenting om hvad der er længst."
+    ],
+    "classroomIdeas": [
+      "Gæt først: hvert barn skriver, hvor mange bredder de tror, før tråden bevæger sig.",
+      "To figurer, ét spørgsmål — månen er lavere end ægget og bruger mere tråd. Hvordan kan det være?",
+      "Giv et mål: indstil figuren, så tråden stopper præcis ved fjerde streg.",
+      "Mål den samme cirkel i tre størrelser og skriv de tre tal under hinanden på tavlen.",
+      "Gør det bagefter på papir med rigtig tråd om et låg og sammenlign.",
+      "Spørg, hvilken figur der bruger mest tråd i forhold til sin bredde, og tjek det — blomsten ser lige så rund ud som cirklen."
+    ],
+    "metaTitle": "Tråden om figuren – mål hele vejen rundt, 1.–2. kl.",
+    "metaDescription": "En tråd ligger rundt om en figur og lægger sig lige ned på en bane inddelt i figurens egen bredde. Gratis værktøj til 1.–2. klasse."
+  },
   "labels": {
     "about": "Om dette redskab",
     "howToUse": "Sådan bruger du det i klassen",

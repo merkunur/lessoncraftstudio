@@ -1106,6 +1106,35 @@
     "metaTitle": "Die dehnbare Einheit – Messen mit Einheiten, Klasse 1-2",
     "metaDescription": "Zwei Streifen, ein Gegenstand: Ziehen Sie die Einheit kleiner – die Zahl steigt. Messen mit selbstgewählten Einheiten in Klasse 1 und 2, am Whiteboard."
   },
+  "unroll-tape": {
+    "slug": "messen-rundherum-umfang-grundschule",
+    "name": "Die Schnur rundherum",
+    "tagline": "Eine Schnur liegt einmal rundherum um eine Form und legt sich dann gerade auf eine Leiste, die in der Breite der Form eingeteilt ist — beim Kreis kommt immer drei und ein bisschen heraus.",
+    "about": [
+      "Auf der Leiste steht eine flache Form. Um ihren Rand liegt eine Schnur. Zieh am Ende der Schnur: Sie rutscht von der Form herunter und legt sich gerade auf die Leiste — genau so lang, wie sie vorher krumm war. Die Leiste ist in keiner genormten Einheit eingeteilt, sondern in der Breite der Form selbst, die die beiden kleinen Striche darunter markieren.",
+      "Aus einer krummen Länge eine gerade zu machen ist der eine Schritt beim Messen, für den es kein Standbild gibt. Mit einer echten Schnur geht das einmal, und genau deshalb passiert es fast nie zweimal: Die Schnur verheddert sich, die Stunde ist vorbei, der Moment kommt nicht wieder. Zu dieser Routine gibt es keine Wirksamkeitsstudie, und wir behaupten auch keine — das Werkzeug macht den Moment wiederholbar.",
+      "Und dann die Zahl. Die Schnur eines Kreises reicht ein Stück über den dritten Strich. Macht den Kreis größer: Alles wächst mit — der Rand, die Schnur, die Striche — und das Ende der Schnur bleibt zwischen denselben beiden Strichen liegen. Es sind drei und ein bisschen, bei jedem Kreis. Und eine Form, die sichtbar kein Kreis ist und drei gebogene Seiten hat, kommt auf genau dieselben drei und ein bisschen.",
+      "Bevor sich etwas bewegt, steckt die Klasse eine Fahne dorthin, wo die Schnur ihrer Meinung nach ankommt. Beim ersten Zug friert die Fahne fest. Sie wird nie bewertet, nie korrigiert — sie bleibt einfach stehen, neben der Stelle, an der die Schnur gelandet ist. Nichts sagt, was länger ist. Lesen muss dafür niemand können: eine Form, eine Schnur, eine Reihe Zahlen. Fünf Formen und der ganze Aufbau sind kostenlos; die anderen sieben und das Blatt zum Ausdrucken gehören zum Lehrer-Paket."
+    ],
+    "howToUse": [
+      "Zeigt eine Form und fragt, wie weit es einmal rundherum ist — bevor sich irgendetwas bewegt.",
+      "Ein Kind zieht die Fahne dorthin, wo die Schnur wohl ankommt, und dort bleibt sie stehen.",
+      "Zieht langsam am Ende der Schnur, damit alle sehen, wie sie den Bogen verlässt und auf der Leiste ankommt.",
+      "⭐ Macht die Form jetzt viel größer und lasst die Schnur noch einmal hinlegen — die Zahl bleibt gleich. Dafür ist das ganze Werkzeug da.",
+      "Legt danach die Form mit den drei gebogenen Seiten neben den Kreis und lasst erklären, warum beide dasselbe ergeben.",
+      "Vergleicht die Schnur mit dem kurzen Balken darunter — das ist die Höhe der Form — und sagt nichts darüber, was länger ist."
+    ],
+    "classroomIdeas": [
+      "Erst schätzen: Jedes Kind schreibt auf, wie viele Breiten es erwartet, bevor sich die Schnur bewegt.",
+      "Zwei Formen, eine Frage — der Mond ist niedriger als das Ei und braucht mehr Schnur. Warum?",
+      "Gebt ein Ziel vor: Stellt die Form so ein, dass die Schnur genau auf dem vierten Strich endet.",
+      "Messt denselben Kreis in drei Größen und schreibt alle drei Zahlen untereinander an die Tafel.",
+      "Macht es danach auf Papier mit echter Schnur um einen Deckel und vergleicht.",
+      "Fragt, welche Form für ihre Breite am meisten Schnur braucht, und prüft es nach — die Blume sieht so rund aus wie der Kreis."
+    ],
+    "metaTitle": "Die Schnur rundherum – messen rundherum, Klasse 1-2",
+    "metaDescription": "Eine Schnur liegt rundherum um eine Form und legt sich gerade auf eine Leiste, die in der Breite der Form eingeteilt ist. Kostenlos am Whiteboard, Klasse 1-2."
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

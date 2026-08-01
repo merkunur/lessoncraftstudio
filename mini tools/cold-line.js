@@ -164,7 +164,7 @@
     strings: {
       title: { en: "Upright and Flat" },
       instruction: { en: "Put the two marks on the scale, above or below zero. Drag the scale itself to reach further along it, and when you are ready, lay the whole thing down flat." },
-      sceneLabel: { en: "A tall column with a numbered scale beside it and two marks on the scale. The first mark fills the column as far as its own number; the second one does not. Between them stands a number: how far apart they are. One control lays the whole instrument down flat." },
+      sceneLabel: { en: "A long, narrow column with a numbered scale beside it and two marks on the scale. The first mark fills the column as far as its own number; the second one does not. Between them stands a number: how far apart they are. One control lays the whole instrument down flat." },
       zeroOff: { en: "Zero is not on view right now." },
       hintSet: { en: "Both marks are on the same number, so there is no distance between them. Drag one of them along the scale." },
       hintSlide: { en: "One of the marks is not on view right now. Drag the scale itself until it comes back." },

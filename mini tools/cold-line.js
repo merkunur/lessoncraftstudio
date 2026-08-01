@@ -427,13 +427,15 @@
         x: ax - tw / 2, y: this.TOP - 26, width: tw, height: (this.BOT - this.TOP) + 52,
         rx: tw / 2, 'class': 'cld-tube'
       }));
-      inst.appendChild(this._svgEl('circle', { cx: ax, cy: this.BOT + 78, r: 74, 'class': 'cld-bulb' }));
-      /* the liquid: one rect from the bulb up to the higher mark, plus
+      this._bulb = this._svgEl('circle', { cx: ax, cy: this.BOT + 78, r: 74, 'class': 'cld-bulb' });
+      inst.appendChild(this._bulb);
+      /* the liquid: one rect from the bulb up to MARK A (never the higher mark — see liquidSeg), plus
          the bulb's own fill. Its top edge goes through `yFor`, the same
          affine map as every tick — there is no second path. */
       this._liquid = this._svgEl('rect', { x: ax - tw / 2 + 14, width: tw - 28, 'class': 'cld-liquid' });
       inst.appendChild(this._liquid);
-      inst.appendChild(this._svgEl('circle', { cx: ax, cy: this.BOT + 78, r: 58, 'class': 'cld-liquid' }));
+      this._bulbFill = this._svgEl('circle', { cx: ax, cy: this.BOT + 78, r: 58, 'class': 'cld-liquid' });
+      inst.appendChild(this._bulbFill);
 
       /* the scale: a grabbable group of ticks and numerals */
       this._scale = this._svgEl('g', { 'class': 'cld-scale' });
@@ -647,6 +649,10 @@
       /* the liquid: bulb up to mark A, through the SAME affine map as
          every tick — there is no second path, which is what makes "no
          squash at zero" true by construction. */
+      /* the bulb is only honest at the bottom of the domain */
+      var atFloor = (s.lo === this.DMIN);
+      this._bulb.style.display = atFloor ? '' : 'none';
+      this._bulbFill.style.display = (atFloor && s.a > s.lo) ? '' : 'none';
       var seg = this.liquidSeg(s);
       if (seg) {
         var yHi = this.yFor(s, seg.to), yLo = this.yFor(s, seg.from);
@@ -680,10 +686,10 @@
       var bothIn = this.inView(s, s.a) && this.inView(s, s.b);
       if (bothIn && s.a !== s.b) {
         var ym = (this.yFor(s, s.a) + this.yFor(s, s.b)) / 2;
-        this._spanEl.setAttribute('x', ax - self.TUBE_W / 2 - 160);
+        this._spanEl.setAttribute('x', ax - self.TUBE_W / 2 - 300);
         this._spanEl.setAttribute('y', ym);
         this._spanEl.textContent = String(this.spanOf(s));
-        if (s.tipped) this._spanEl.setAttribute('transform', 'rotate(-90 ' + (ax - this.TUBE_W / 2 - 160) + ' ' + ym + ')');
+        if (s.tipped) this._spanEl.setAttribute('transform', 'rotate(-90 ' + (ax - this.TUBE_W / 2 - 300) + ' ' + ym + ')');
         else this._spanEl.removeAttribute('transform');
         this._spanEl.style.display = '';
       } else {
@@ -700,8 +706,11 @@
         el.style.top = (q.y / self.H * 100) + '%';
         el.style.display = vis ? '' : 'none';
       };
-      /* ⚠ the two handles are offset PERPENDICULAR to the axis, one
-         on each side, so they cannot collide when the span is 0 —
+      /* ⚠ the two handles are offset PERPENDICULAR to the axis — both
+         on the SAME side, 96 units apart, so they cannot collide when
+         the span is 0. (An earlier comment said one on each side; it
+         was wrong. The non-collision is real, the stated reason was
+         not.) —
          structural, not a floor. #42 never met this because its two
          handles were on separate rows. */
       place(this._hA, ax - this.TUBE_W / 2 - 20, this.yFor(s, s.a), this.inView(s, s.a));
@@ -783,9 +792,12 @@
           y = this.yFor(s, v);
           var major = (v % this.LABEL_EVERY === 0);
           g.appendChild(this._svgEl('line', {
-            x1: this.AXIS_X - this.TUBE_W / 2 - (major ? 46 : 24), y1: y,
-            x2: this.AXIS_X - this.TUBE_W / 2 - 6, y2: y, 'class': 'cld-p-tick'
+            x1: this.AXIS_X + this.TUBE_W / 2 + 6, y1: y,
+            x2: this.AXIS_X + this.TUBE_W / 2 + (major ? 46 : 24), y2: y, 'class': 'cld-p-tick'
           }));
+        }
+        if (s.lo === this.DMIN) {
+          g.appendChild(this._svgEl('circle', { cx: this.AXIS_X, cy: this.BOT + 78, r: 74, 'class': 'cld-p-tube' }));
         }
         svg.appendChild(g);
         this._sheetEl.appendChild(svg);
@@ -839,7 +851,7 @@
        draw: the shell draws it and I failed to answer it. */
     reset: function () {
       this.st = this.newState();
-      this._idx = 0;
+      this._idx = -1;
       if (this._wrap) this._paint();
     },
 
@@ -850,7 +862,7 @@
       var ent = this._store.ent;
       if (ent && ent.tier) this.premium = ent.tier !== 'free';
       this.st = this.newState();
-      this._idx = 0;
+      this._idx = -1;
       this._book = this.FALLBACK_SETS;
       this._fetchEntitlement();
       this._loadBook();

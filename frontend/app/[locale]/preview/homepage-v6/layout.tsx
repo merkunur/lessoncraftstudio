@@ -47,10 +47,10 @@ export default function HomepageV6Layout({ children }: { children: React.ReactNo
       {/* Preview-scoped body override — the clean light ground the live page
           will also use (same technique as the live page's inline style). */}
       <style>{`
-        body { background: #FDFBF6 !important; color: #14322D; }
+        body { background: #0F3A31 !important; color: #FBF3E4; }
         body::before { display: none; }
       `}</style>
-      <div className={`hv6 ${baloo2.variable} ${nunito.variable} font-lcsBody text-[#14322D] min-h-screen`}>
+      <div className={`hv6 ${baloo2.variable} ${nunito.variable} font-lcsBody min-h-screen`}>
         {children}
       </div>
     </>

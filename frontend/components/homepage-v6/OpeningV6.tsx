@@ -27,7 +27,7 @@ export default async function OpeningV6({ locale, travelerThumb }: Props) {
 
   return (
     <header
-      className="hv6-masthead hv6-grain hv6-hero relative"
+      className="hv6-masthead hv6-hero relative"
       style={{ overflowX: 'clip' }}
       data-testid="hero-section"
     >

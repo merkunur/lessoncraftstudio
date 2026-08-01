@@ -37,19 +37,28 @@ export default async function TeacherMomentV6({ locale }: Props) {
   );
 
   return (
-    <section id="plans" className="pb-24 md:pb-32">
+    <section id="plans" className="pt-24 md:pt-32 pb-24 md:pb-32">
       <div className="container mx-auto px-4 max-w-5xl">
-        {/* Header stays LEFT of the line on desktop. */}
-        <div className="max-w-3xl lg:max-w-[46%] mb-10">
+        {/* Header paper hangs LEFT of the wire. */}
+        <div
+          className="hv6-paper hv6-hang2 is-vee max-w-3xl lg:max-w-[46%] mb-14 md:mb-20"
+          style={{ '--drop': '56px' } as React.CSSProperties}
+        >
           <h2 className="font-lcsDisplay font-bold text-[#14322D] leading-[1.08] tracking-tight text-[1.875rem] sm:text-[2.375rem] md:text-[2.75rem]">
             {t('heading')}
           </h2>
           <p className="mt-5 font-lcsBody text-lg text-[#3d574f] leading-relaxed">{t('body')}</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-stretch">
+        {/* Two PRICE TAGS hanging from a wide branch across the wire — the
+            hero's gift tag, grown up twice. Counter-phased sway. */}
+        <div className="hv6-branch" aria-hidden="true" />
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8 items-start pt-12 md:pt-16">
           {/* Free — start here. */}
-          <div className="rounded-3xl bg-white border border-[#14322D]/8 shadow-[var(--e2)] p-7 md:p-8 flex flex-col">
+          <div
+            className="hv6-tag-price hv6-hang is-sway is-sm rounded-3xl bg-white border border-[#14322D]/8 shadow-[0_30px_60px_-22px_rgba(0,0,0,0.55)] p-7 md:p-8 flex flex-col"
+            style={{ '--drop': '52px', '--rest': '-2deg', '--rest-sm': '-1.5deg', '--period': '23s', '--amp': '1.2deg', '--phase': '-6s' } as React.CSSProperties}
+          >
             <div className="flex items-center justify-between gap-3">
               <p className="font-lcsDisplay font-bold text-2xl text-[#14322D]">{t('freeTitle')}</p>
               <span className="hv6-chip">{t('freeTag')}</span>
@@ -68,7 +77,10 @@ export default async function TeacherMomentV6({ locale }: Props) {
           </div>
 
           {/* Teacher. */}
-          <div className="rounded-3xl bg-[#14322D] text-lcs-cream shadow-[var(--e3)] p-7 md:p-8 flex flex-col">
+          <div
+            className="hv6-tag-price is-teacher hv6-hang is-sway is-sm rounded-3xl bg-[#14322D] text-lcs-cream shadow-[0_34px_64px_-22px_rgba(0,0,0,0.6)] p-7 md:p-8 flex flex-col"
+            style={{ '--drop': '76px', '--rest': '1.5deg', '--rest-sm': '1deg', '--period': '19s', '--amp': '1.5deg', '--phase': '-13s' } as React.CSSProperties}
+          >
             <div className="flex items-center justify-between gap-3">
               <p className="font-lcsDisplay font-bold text-2xl">{t('teacherTitle')}</p>
               <div className="text-right">
@@ -94,7 +106,7 @@ export default async function TeacherMomentV6({ locale }: Props) {
           </div>
         </div>
 
-        <p className="mt-6 text-center font-lcsBody text-sm text-[#3d574f]">{t('reassure')}</p>
+        <p className="mt-8 text-center font-lcsBody text-sm text-[#C3DBD3]">{t('reassure')}</p>
       </div>
     </section>
   );

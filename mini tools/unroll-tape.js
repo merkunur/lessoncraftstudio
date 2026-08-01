@@ -108,22 +108,22 @@
        the unit, and the only numeral that says so is the 1 on the jaw.
        --------------------------------------------------------------- */
     strings: {
-      title: { en: "The Unrolling Tape" },
-      instruction: { en: "A strand lies all the way round the shape. Let it lie down straight, and see how many of the shape's own widths it makes." },
-      benchLabel: { en: "A shape with a strand around it, and a runway ruled in the shape's own width" },
-      hintGuess: { en: "How far is it all the way round? Drag the flag to where you think the strand will reach." },
-      hintUnroll: { en: "Now let the strand lie down." },
-      hintLanded: { en: "The strand came off the shape. Nothing was added and nothing was taken away." },
-      unrollBtn: { en: "Let it lie down" },
-      rollBackBtn: { en: "Wrap it back up" },
-      nextShapeBtn: { en: "Another shape" },
-      printBtn: { en: "Print the bench" },
-      sizeAria: { en: "Make the shape bigger or smaller" },
-      strandAria: { en: "Unroll the strand" },
-      flagAria: { en: "Move the flag" },
-      gateTitle: { en: "More shapes" },
-      gateBody: { en: "Seven more shapes, and the bench to print for paper." },
-      gateCta: { en: "See the Teacher plan" }
+      title:        { en: "All the Way Round", de: "Die Schnur rundherum", fr: "La ficelle qui se couche", es: "La vuelta a la figura", pt: "O Barbante do Contorno", it: "Lo spago del contorno", nl: "Helemaal rondom", sv: "Snöret runt", da: "Tråden om figuren", no: "Hyssingsporet", fi: "Ympäri ja suoraksi" },
+      instruction:  { en: "A strand lies all the way round the shape. Let it lie down straight on the runway, and see how many times the shape's own width fits along it.", de: "Eine Schnur liegt einmal rundherum um die Form. Lass sie sich gerade auf die Leiste legen und schau, wie oft die Breite der Form hineinpasst.", fr: "Une ficelle fait tout le tour de la forme. Couchez-la bien droite dans le couloir, puis regardez combien de fois la largeur de la forme y tient.", es: "Un cordón le da toda la vuelta a la figura. Deja que se acueste recto en la pista y mira cuántas veces cabe el ancho de la figura.", pt: "Um barbante dá a volta inteira na figura. Deixe o barbante deitar reto na trilha e veja quantas vezes cabe a largura da própria figura.", it: "Uno spago fa tutto il giro della figura. Lasciatelo stendere dritto sulla pista e guardate quante volte ci sta la larghezza della figura stessa.", nl: "Om de vorm heen ligt een touwtje. Laat het recht gaan liggen op de lijn en tel hoe vaak de breedte van de vorm erin past.", sv: "Ett snöre ligger hela vägen runt figuren. Låt det lägga sig rakt på spåret och se hur många gånger figurens egen bredd får plats.", da: "En tråd ligger hele vejen rundt om figuren. Lad den lægge sig lige ned på banen, og se hvor mange gange figurens egen bredde fylder.", no: "En hyssing ligger hele veien rundt figuren. La den legge seg rett ut på sporet, og se hvor mange ganger figurens egen bredde får plass.", fi: "Lanka kulkee kuvion ympäri. Anna langan asettua suoraksi kaistalle ja katso, montako kertaa kuvion oma leveys siihen mahtuu." },
+      benchLabel:   { en: "A shape with a strand around it, a runway ruled in the shape's own width, a bar showing the shape's height, and a flag for the guess", de: "Eine Form mit einer Schnur rundherum, darunter eine Leiste, die in der Breite der Form eingeteilt ist, ein Balken für die Höhe der Form und eine Fahne zum Schätzen", fr: "Une forme entourée d’une ficelle, un couloir marqué à la largeur de la forme, une barre qui montre la hauteur de la forme, et un repère pour l’estimation.", es: "Una figura con un cordón alrededor, una pista marcada con el ancho de la figura, una barra que muestra su altura y una bandera para la estimación", pt: "Uma figura com um barbante em volta, uma trilha marcada com a largura da figura, uma barra que mostra a altura da figura e uma bandeirinha para o palpite", it: "Una figura con uno spago tutto intorno, una pista graduata con la larghezza della figura, una barra che mostra l’altezza della figura e una bandierina per la stima", nl: "Een vorm met een touwtje eromheen, een lijn die verdeeld is in breedtes van de vorm, een balkje zo hoog als de vorm, en een vlaggetje om te raden", sv: "En figur med ett snöre runt om, ett spår som är indelat i figurens egen bredd, en stapel som visar figurens höjd och en flagga för gissningen", da: "En figur med en tråd rundt om, en bane der er inddelt i figurens egen bredde, en bjælke der viser figurens højde, og et flag til gættet", no: "En figur med en hyssing rundt, et spor som er delt inn i figurens egen bredde, en stolpe som viser figurens høyde, og et flagg til gjettingen", fi: "Kuvio, jonka ympäri kulkee lanka, kaista joka on jaettu kuvion levyisiin osiin, kuvion korkuinen palkki ja lippu arvausta varten" },
+      hintGuess:    { en: "How far is it all the way round? Drag the flag to where you think the strand will reach.", de: "Wie weit ist es einmal rundherum? Zieh die Fahne dahin, wo die Schnur wohl ankommt.", fr: "Le tour de la forme ira jusqu’où dans le couloir ? Posez le repère là où vous pensez que la ficelle s’arrêtera.", es: "¿Cuánto mide toda la vuelta? Arrastra la bandera hasta donde creas que llegará el cordón.", pt: "Até onde vai a volta inteira? Arraste a bandeirinha até onde você acha que o barbante vai chegar.", it: "Fin dove arriva tutto il giro? Trascinate la bandierina dove pensate che arriverà lo spago.", nl: "Hoe ver is het helemaal rondom? Sleep het vlaggetje naar de plek waar je denkt dat het touwtje komt.", sv: "Hur långt är det hela vägen runt? Dra flaggan dit du tror att snöret når.", da: "Hvor langt er der hele vejen rundt? Træk flaget hen, hvor du tror, tråden når til.", no: "Hvor langt er det hele veien rundt? Dra flagget dit du tror hyssingen når.", fi: "Kuinka pitkä matka on kuvion ympäri? Vedä lippu kohtaan, johon arvelet langan yltävän." },
+      hintUnroll:   { en: "Now let the strand lie down.", de: "Jetzt darf sich die Schnur hinlegen.", fr: "Maintenant, couchez la ficelle.", es: "Ahora deja que el cordón se acueste en la pista.", pt: "Agora deixe o barbante deitar na trilha.", it: "Ora lasciate stendere lo spago sulla pista.", nl: "Laat het touwtje nu gaan liggen.", sv: "Låt snöret lägga sig ner.", da: "Lad nu tråden lægge sig ned.", no: "La hyssingen legge seg ned.", fi: "Anna langan nyt asettua kaistalle." },
+      hintLanded:   { en: "The strand came off the shape. Nothing was added and nothing was taken away.", de: "Die Schnur ist von der Form gerutscht. Es wurde nichts dazugegeben und nichts weggenommen.", fr: "La ficelle a quitté la forme. On n’a rien ajouté, on n’a rien enlevé.", es: "El cordón salió de la figura. Es el mismo cordón: no se le quitó ni se le puso nada.", pt: "O barbante saiu da figura. Nada foi acrescentado e nada foi tirado.", it: "Lo spago si è staccato dalla figura. Nulla è stato aggiunto e nulla è stato tolto.", nl: "Het touwtje is van de vorm afgegleden. Er is niets bijgekomen en er is niets afgegaan.", sv: "Snöret har lämnat figuren. Ingenting har lagts till och ingenting har tagits bort.", da: "Tråden er kommet af figuren. Der blev ikke lagt noget til, og der blev ikke taget noget fra.", no: "Hyssingen har gått av figuren. Ingenting ble lagt til, og ingenting ble tatt bort.", fi: "Lanka irtosi kuviosta. Mitään ei lisätty eikä otettu pois." },
+      unrollBtn:    { en: "Let it lie down", de: "Hinlegen", fr: "Coucher la ficelle", es: "Acostar el cordón", pt: "Deitar o barbante", it: "Stendi lo spago", nl: "Recht leggen", sv: "Lägg ner snöret", da: "Læg tråden ned", no: "Legg den ned", fi: "Suoraksi" },
+      rollBackBtn:  { en: "Put it back round", de: "Aufwickeln", fr: "Remettre autour", es: "Volver a enrollar", pt: "Enrolar de novo", it: "Riavvolgi lo spago", nl: "Weer eromheen", sv: "Lägg tillbaka", da: "Læg den tilbage", no: "Legg den tilbake", fi: "Takaisin ympäri" },
+      nextShapeBtn: { en: "Another shape", de: "Neue Form", fr: "Une autre forme", es: "Otra figura", pt: "Outra figura", it: "Un’altra figura", nl: "Andere vorm", sv: "Ny figur", da: "Ny figur", no: "Ny figur", fi: "Toinen kuvio" },
+      printBtn:     { en: "Print the runway", de: "Leiste drucken", fr: "Imprimer le couloir", es: "Imprimir la pista", pt: "Imprimir a trilha", it: "Stampa la pista", nl: "Lijn afdrukken", sv: "Skriv ut spåret", da: "Print banen", no: "Skriv ut sporet", fi: "Tulosta kaista" },
+      sizeAria:     { en: "Make the shape bigger or smaller", de: "Die Form größer oder kleiner machen", fr: "Agrandir ou réduire la forme", es: "Hacer la figura más grande o más pequeña", pt: "Deixar a figura maior ou menor", it: "Rendere la figura più grande o più piccola", nl: "De vorm groter of kleiner maken", sv: "Gör figuren större eller mindre", da: "Gør figuren større eller mindre", no: "Gjør figuren større eller mindre", fi: "Suurenna tai pienennä kuviota" },
+      strandAria:   { en: "Lay the strand down", de: "Die Schnur hinlegen", fr: "Faire glisser la ficelle pour la coucher", es: "Acostar el cordón en la pista", pt: "Deitar o barbante na trilha", it: "Stendere lo spago sulla pista", nl: "Het touwtje recht leggen", sv: "Lägg ner snöret på spåret", da: "Læg tråden ned på banen", no: "Legg hyssingen ned på sporet", fi: "Vedä lanka suoraksi kaistalle" },
+      flagAria:     { en: "Move the flag", de: "Die Fahne verschieben", fr: "Déplacer le repère", es: "Mover la bandera", pt: "Mover a bandeirinha", it: "Spostare la bandierina", nl: "Het vlaggetje verplaatsen", sv: "Flytta flaggan", da: "Flyt flaget", no: "Flytt flagget", fi: "Siirrä lippua" },
+      gateTitle:    { en: "More shapes", de: "Mehr Formen", fr: "D’autres formes", es: "Más figuras", pt: "Mais figuras", it: "Altre figure", nl: "Meer vormen", sv: "Fler figurer", da: "Flere figurer", no: "Flere figurer", fi: "Lisää kuvioita" },
+      gateBody:     { en: "Seven more shapes, and the runway to print on paper.", de: "Sieben weitere Formen und die Leiste zum Ausdrucken.", fr: "Sept formes de plus et le couloir à imprimer sur papier.", es: "Siete figuras más y la pista para imprimir en papel.", pt: "Mais sete figuras e a trilha para imprimir em papel.", it: "Altre sette figure e la pista da stampare su carta.", nl: "Nog zeven vormen, en de lijn om af te drukken op papier.", sv: "Sju figurer till, och spåret att skriva ut på papper.", da: "Syv figurer mere, og banen til at printe på papir.", no: "Sju figurer til, og sporet til å skrive ut på papir.", fi: "Seitsemän kuviota lisää ja kaista, jonka voi tulostaa paperille." },
+      gateCta:      { en: "See the Teacher plan", de: "Lehrer-Paket ansehen", fr: "Voir l’offre Enseignant", es: "Ver el plan Docente", pt: "Ver o plano Professor", it: "Il piano Insegnante", nl: "Bekijk het Leerkracht-pakket", sv: "Se Lärarpaketet", da: "Se Lærerabonnementet", no: "Se Lærerabonnementet", fi: "Tutustu Opettaja-tilaukseen" }
     },
 
     STORE_KEY: 'lcs:unroll-tape:v1',
@@ -753,14 +753,14 @@
         }
 
         /* --- the three grabbable things ------------------------------ */
-        this._grip(svg, 'urt-grip', left + A, jawY - 24, api.t('sizeAria'), function (dx, rect) {
+        this._grip(bench, 'urt-grip', left + A, jawY - 24, api.t('sizeAria'), function (dx, rect) {
           var v = self.st.A + dx * (self.W / rect.width);
           var n = self.setSize(self.st, o, v);
           if (n) { self.st = n; self.render(); }
         });
 
         var tipX = this.X0 + (o.L * scale) * this.st.t;
-        this._grip(svg, 'urt-tip', tipX, this.BASE, api.t('strandAria'), function (dx, rect) {
+        this._grip(bench, 'urt-tip', tipX, this.BASE, api.t('strandAria'), function (dx, rect) {
           var Lm = o.L * scale;
           var v = self.st.t + dx * (self.W / rect.width) / Lm;
           var n = self.setPeel(self.st, v);
@@ -783,7 +783,7 @@
             }));
             svg.appendChild(gh);
           }
-          this._grip(svg, 'urt-flag', fx0, this.BASE - 42, api.t('flagAria'),
+          this._grip(bench, 'urt-flag', fx0, this.BASE - 42, api.t('flagAria'),
             function (dx, rect, x) {
               var v = (x - self.X0) / A;
               var n = self.setFlag(self.st, o, v);
@@ -802,7 +802,7 @@
         hint.appendChild(e);
       };
       if (this.st.t >= 1) line('hintLanded');
-      else if (this.st.flag === null) line('hintGuess');
+      else if (this.st.t === 0 && this.st.flag === null) line('hintGuess');
       else line('hintUnroll');
       wrap.appendChild(hint);
 
@@ -850,26 +850,43 @@
       return s.join(' ');
     },
 
-    /* a grabbable handle: a 44-model-unit transparent hit target with a
-       focus ring, keyboard-steppable, and ⚠ BOUND TO WINDOW — removing a
-       captured element from the document RELEASES pointer capture, and a
-       repaint replaces the whole SVG, so an element-bound drag applies
-       only its first move (#40 paid for this one). */
-    _grip: function (svg, cls, x, y, aria, onMove, absolute) {
+    /* A grabbable handle.
+
+       ⚠ IT IS AN HTML BUTTON OVER THE BENCH, NOT A CIRCLE INSIDE THE SVG.
+       The first version put a 44-MODEL-UNIT hit circle in the SVG — and
+       the SVG scales, so at a 660px bench those 44 units rendered 29px,
+       under the K-2 canvas floor at EVERY viewport. A radius in model
+       units cannot hold a floor in pixels. Positioned in percentages and
+       sized in px, the target is 44px wide everywhere, and it gets real
+       button focus and keyboard semantics for free.
+
+       ⚠ AND THE DRAG IS BOUND TO WINDOW — removing a captured element
+       from the document RELEASES pointer capture, and a repaint replaces
+       the whole bench, so an element-bound drag applies only its first
+       move (#40 paid for this one). */
+    _grip: function (host, cls, x, y, aria, onMove, absolute) {
       var self = this;
-      var g = this._svg('g', { 'class': cls, tabindex: '0', role: 'slider', 'aria-label': aria });
-      g.appendChild(this._svg('circle', { cx: x, cy: y, r: 22, 'class': 'urt-hit' }));
-      g.appendChild(this._svg('circle', { cx: x, cy: y, r: 15, 'class': 'urt-ring' }));
-      g.appendChild(this._svg('circle', { cx: x, cy: y, r: 9, fill: '#146B5E' }));
-      g.addEventListener('pointerdown', function (ev) {
+      var b = this.api.el('button', 'urt-handle ' + cls);
+      b.type = 'button';
+      b.setAttribute('aria-label', aria);
+      b.style.left = (x / this.W * 100) + '%';
+      b.style.top = (y / this.H * 100) + '%';
+      var dot = this.api.el('span', 'urt-dot');
+      b.appendChild(dot);
+      var box = function () { return host.getBoundingClientRect(); };
+      b.addEventListener('pointerdown', function (ev) {
         ev.preventDefault();
-        var rect = svg.getBoundingClientRect();
-        var startX = ev.clientX;
+        var rect = box(), startX = ev.clientX;
+        /* ⭐ AN ABSOLUTE HANDLE ACTS ON THE PRESS, NOT ONLY ON THE DRAG.
+           The flag is placed at a position, so a TAP is a complete
+           gesture — and a control that needs a drag to do anything does
+           nothing at all to a child who taps, and nothing at all to the
+           liveness gate, which reported it dead on all nine paths. */
+        if (absolute && rect.width) onMove(0, rect, (ev.clientX - rect.left) / rect.width * self.W);
         var move = function (e) {
           if (!rect.width) return;
           if (absolute) onMove(0, rect, (e.clientX - rect.left) / rect.width * self.W);
-          else onMove(e.clientX - startX, rect, 0);
-          if (!absolute) startX = e.clientX;
+          else { onMove(e.clientX - startX, rect, 0); startX = e.clientX; }
         };
         var up = function () {
           window.removeEventListener('pointermove', move);
@@ -878,17 +895,34 @@
         window.addEventListener('pointermove', move);
         window.addEventListener('pointerup', up);
       });
-      g.addEventListener('keydown', function (ev) {
+      /* ⭐ AND IT ACTS ON A PLAIN CLICK. A synthetic `.click()` never
+         fires pointerdown, so a drag-only handle is DEAD to a keyboard
+         user, dead to assistive tech, and dead to the liveness gate —
+         which reported exactly that on all nine paths. Placing the flag
+         where the handle already stands is the whole gesture. */
+      b.addEventListener('click', function (ev) {
+        ev.preventDefault();
+        var rect = box();
+        if (absolute) onMove(0, rect, x);
+      });
+      b.addEventListener('keydown', function (ev) {
+        /* ⚠ the gate presses Enter and Space; a handle that answers
+           neither is a handle no keyboard can reach (#39's record) */
+        if (ev.key === 'Enter' || ev.key === ' ' || ev.key === 'Spacebar') {
+          ev.preventDefault();
+          if (absolute) onMove(0, box(), x);
+          return;
+        }
         var d = (ev.key === 'ArrowLeft' || ev.key === 'ArrowDown') ? -1
           : (ev.key === 'ArrowRight' || ev.key === 'ArrowUp') ? 1 : 0;
         if (!d) return;
         ev.preventDefault();
-        var rect = svg.getBoundingClientRect();
+        var rect = box();
         if (absolute) onMove(0, rect, x + d * 12);
         else onMove(d * 12 * (rect.width / self.W), rect, 0);
       });
-      svg.appendChild(g);
-      return g;
+      host.appendChild(b);
+      return b;
     },
 
     /* the peel, animated. prefers-reduced-motion → one step. */
@@ -958,14 +992,18 @@
       + '.urt-tallcap{stroke:#146B5E;stroke-width:3;}'
       + '.urt-flagpole{stroke:#8A5A3B;stroke-width:3;}'
       + '.urt-flagcloth{fill:#E8B84B;}'
-      + '.urt-ghost{opacity:.30;}'
-      /* controls */
-      + '.urt-grip,.urt-tip,.urt-flag{cursor:grab;touch-action:none;}'
-      + '.urt-grip:active,.urt-tip:active,.urt-flag:active{cursor:grabbing;}'
-      + '.urt-hit{fill:transparent;stroke:transparent;stroke-width:0;}'
-      + '.urt-grip:focus-visible .urt-ring,.urt-tip:focus-visible .urt-ring,'
-      + '.urt-flag:focus-visible .urt-ring{stroke:#146B5E;stroke-width:3;fill:none;}'
-      + '.urt-ring{fill:none;stroke:transparent;}'
+      + '.urt-ghost{opacity:.45;}'
+      /* ⭐ THE HANDLES ARE FIXED-SIZE HTML BUTTONS OVER THE BENCH, not
+         circles inside the SVG. A radius in model units cannot hold a
+         floor in pixels: 44 model units rendered 29px on a 660px bench,
+         under the K-2 canvas floor at every viewport. 44px is 44px. */
+      + '.urt-handle{position:absolute;width:44px;height:44px;margin:-22px 0 0 -22px;padding:0;'
+      + 'border:0;background:transparent;cursor:grab;touch-action:none;display:flex;'
+      + 'align-items:center;justify-content:center;border-radius:50%;}'
+      + '.urt-handle:active{cursor:grabbing;}'
+      + '.urt-handle:focus-visible{outline:3px solid #146B5E;outline-offset:-2px;}'
+      + '.urt-dot{display:block;width:18px;height:18px;border-radius:50%;background:#146B5E;'
+      + 'box-shadow:0 0 0 3px rgba(251,243,228,.9);}'
       + '.urt-foot{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;width:100%;max-width:660px;}'
       + '.urt-chip{font:600 clamp(.9rem,3.2vw,1.02rem)/1.1 Nunito,sans-serif;padding:11px 18px;'
       + 'min-height:44px;border-radius:14px;border:2px solid #146B5E;background:#FBF3E4;color:#0F4A40;cursor:pointer;}'

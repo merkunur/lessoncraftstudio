@@ -42,6 +42,46 @@ let PASS = 0, FAIL = 0;
 const is = (c, m) => { if (c) { PASS++; console.log('  ok   ' + m); } else { FAIL++; console.error('  FAIL ' + m); } };
 const wait = (ms) => new Promise((r) => setTimeout(r, ms));
 
+/* ⚠ THE NAMED-UNIT BAN, POISON-TESTED IN BOTH DIRECTIONS BEFORE USE.
+   §23.6: a ban can be too WIDE, and only the must-pass direction finds
+   it. This one already shipped too wide once — it condemned the ruler's
+   own correct name. So it is asserted against strings it MUST FIRE on
+   AND strings it MUST NOT, every run, before a single page is read. */
+/* ⚠ `tommer` is the Norwegian PLURAL — `\btomme\b` missed it. And note
+   `\btum\b` must NOT catch Swedish "tumme" (thumb), which is innocent and
+   is exactly the kind of measuring talk this copy invites. */
+const NAMED_UNIT = /(\bcm\b|centimet|zentimet|centímetr|sentti|senttimetr|\binch(es)?\b|\btum(mar)?\b|\btomme[rn]?\b)/i;
+const MUST_FIRE = [
+  'measure the crayon in cm',
+  'Miss die Leiter in Zentimetern',
+  'mide en centímetros', 'mät i centimeter', 'mittaa senttimetreinä',
+  'three inches long', 'mät i tum', 'mål i tommer', 'to tommer bred'
+];
+const MUST_PASS = [
+  /* the ruler, correctly named — the string the first draft condemned */
+  'Läs Linjalen – Mät i Centimeter', 'las-linjalen-mat-i-centimeter',
+  /* ordinary prose that merely contains the letters — each of these is
+     a real thing a K-2 measuring page says, and none names a unit.
+     ⚠ "Tum blir det inte tal om här" was in this list and is WRONG: tum
+     IS the Swedish inch, so it belongs in MUST_FIRE, not here. A poison
+     set is only as good as the examples, and a mis-sorted one teaches
+     you to loosen a correct regex. */
+  'Die Einheit ist nicht genormt.',
+  'Mät med tummen om du vill.',            /* tumme = thumb, not tum */
+  'Hoe kleiner de maat, hoe meer er passen.',
+  'La unidad no tiene nombre.',
+  'Sentään yksikkö ei ole nimetty.'        /* sentään ≠ sentti */
+];
+(function poison() {
+  const fireBad = MUST_FIRE.filter((s) => !NAMED_UNIT.test(s));
+  /* the ruler's name is allowed ONLY because the scan is scoped away from
+     it; inside this tool's own prose it would still be a violation, so the
+     must-pass set is checked against the SCOPED intent, not the raw regex */
+  const passBad = MUST_PASS.slice(2).filter((s) => NAMED_UNIT.test(s));
+  is(fireBad.length === 0, `the named-unit ban fires on all ${MUST_FIRE.length} violations` + (fireBad.length ? ` — MISSED: ${fireBad[0]}` : ''));
+  is(passBad.length === 0, `and clears innocent prose` + (passBad.length ? ` — WRONGLY CONDEMNED: ${passBad[0]}` : ''));
+}());
+
 (async () => {
   const browser = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox'] });
 
@@ -55,7 +95,17 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
       desc: (document.querySelector('meta[name="description"]') || { content: '' }).content,
       canon: (document.querySelector('link[rel=canonical]') || { href: '' }).href,
       iframe: (document.querySelector('iframe') || { src: '' }).src,
-      body: document.body.textContent
+      body: document.body.textContent,
+      /* ⚠ VISIBLE PROSE ONLY. `document.body.textContent` includes Next's
+         RSC flight-data <script>, which serialises every SIBLING tool —
+         including the ruler's own correct slug
+         "las-linjalen-mat-i-centimeter". Scanning it made the named-unit
+         ban reject a CORRECT tool's name in 10 of 11 locales. */
+      prose: (function () {
+        var out = [], all = document.querySelectorAll('main p, main h1, main h2, main h3, main li');
+        for (var i = 0; i < all.length; i++) out.push(all[i].textContent || '');
+        return out.join(' ');
+      }())
     }));
     is(res.status() === 200, `${loc}: ${url} -> ${res.status()}`);
     is(seen.h1.indexOf(C[loc].name) >= 0, `${loc}: h1 is "${seen.h1.trim()}"`);
@@ -65,9 +115,14 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
     is(seen.body.indexOf(C[loc].about[2].slice(0, 40)) >= 0, `${loc}: the third paragraph is on the page`);
     /* ⚠ THE NO-NAMED-UNIT REFUSAL, CHECKED ON THE RENDERED LANDING.
        A landing page is exactly where "measure in centimetres" slips in
-       as a helpful clarification, and it would turn this into a ruler. */
-    is(!/\b(cm|centimet|zentimet|centímetr|centimetr|sentimet|inch|tum|tomme)/i.test(seen.body),
-      `${loc}: no named unit anywhere on the landing`);
+       as a helpful clarification, and it would turn this into a ruler.
+       ⚠ SCOPED TO THIS TOOL'S OWN VISIBLE PROSE — see `prose` above. The
+       first draft scanned the whole body and condemned the RULER, whose
+       name legitimately contains "centimeter" because it owns 2.MD.A.1.
+       A ban that rejects a correct sibling is the §23.6 trap, and only
+       looking at what it MUST PASS ever finds it. */
+    is(!NAMED_UNIT.test(seen.prose),
+      `${loc}: no named unit in this tool's own prose`);
     await page.close();
   }
 
@@ -107,8 +162,15 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
   is(before.tilesA >= 2 && before.tilesB >= 2,
     `both tapes are actually laid — ${before.tilesA} and ${before.tilesB} tiles`);
   is(before.counts.length === 2, `two tapes, two numbers on production (saw ${before.counts.join(' / ')})`);
-  is(before.counts[0] === before.counts[1],
-    `the two tapes open on the same unit, so they agree — ${before.counts[0]} and ${before.counts[1]}`);
+  /* ⚠ THE TOOL OPENS ON TWO DIFFERENT UNITS, BY DESIGN (uA 160, uB 100),
+     so the question — one object, two numbers, why? — is on screen in
+     the first frame and `hintCompare` is what renders. The first draft
+     of this gate asserted the OPPOSITE, written from the howToUse
+     narrative ("start with both the same") rather than from the tool.
+     That step is what the "Same unit on both" button is FOR, and it is
+     asserted below. Read the artefact, not the prose about it. */
+  is(before.counts[0] !== before.counts[1],
+    `⭐ it opens with the question already posed — one object, ${before.counts[0]} and ${before.counts[1]}`);
 
   /* ⭐ A REAL POINTER DRAG on tape A's grip, leftwards = smaller unit.
      Not a synthetic state poke: the recorded drag defect (the repaint

@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "freeCount": 5,
+  "note": "a and b only. The difference is NEVER stored — a stored answer drifts away from the picture. Ordered so consecutive entries CONTRAST; that ordering is the product.",
+  "pairs": [
+    { "k": "plain", "a": 5, "b": 9 },
+    { "k": "twin", "a": 8, "b": 16 },
+    { "k": "crumb", "a": 15, "b": 16 },
+    { "k": "crumb-close", "a": 2, "b": 3 },
+    { "k": "same", "a": 12, "b": 12 },
+
+    { "k": "giant", "a": 2, "b": 14 },
+    { "k": "half-offcut", "a": 8, "b": 12 },
+    { "k": "twin-elsewhere", "a": 6, "b": 12 },
+    { "k": "double-offcut", "a": 4, "b": 12 },
+    { "k": "two-crumbs", "a": 3, "b": 5 },
+    { "k": "two-crumbs-high", "a": 13, "b": 15 },
+    { "k": "near-twin", "a": 7, "b": 13 },
+    { "k": "sliver-on-a-giant", "a": 14, "b": 16 },
+    { "k": "one-to-start", "a": 1, "b": 11 },
+    { "k": "the-third", "a": 5, "b": 15 },
+    { "k": "same-again", "a": 7, "b": 7 }
+  ]
+}

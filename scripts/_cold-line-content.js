@@ -269,5 +269,91 @@ module.exports = {
     ],
     metaTitle: 'Nollan alapuolella – lukusuora ja putki, 1.–3. lk',
     metaDescription: 'Vedettävä asteikko, jossa lukuja nollan ylä- ja alapuolella, kaksi nastaa ja niiden etäisyys. Pane pitkälleen, ja se on lukusuora. Ilmainen, 1.–3. luokka.'
-  }
+  },
+  es: {
+    "slug": "termometro-numeros-bajo-cero-primaria",
+    "name": "Bajo cero",
+    "tagline": "Un tubo largo y angosto con su escala: las dos señales se ponen donde uno quiera, arriba o abajo del cero, y el número de en medio dice cuánto las separa. Después el tubo se pone de lado y nada cambia.",
+    "about": [
+      "En la pantalla hay un tubo largo y angosto y, a un costado, una escala de rayas y números que no termina en el cero y sigue hacia los dos lados. Sobre la escala hay dos señales que los niños arrastran hasta donde quieran, una por encima del cero y la otra por debajo. El color del tubo llega hasta la primera señal y ahí se detiene; la segunda lo deja como está. Entre las dos aparece un número que dice cuánto las separa. Y cuando una señal se sale de la vista, lo que se arrastra es la escala entera: no hay un principio ni un final, solo el tramo que estás mirando.",
+      "Trabajar por debajo del cero es difícil por una razón muy concreta: hasta ahora, para estos niños, el cero era el principio de todo y contar hacia atrás terminaba ahí. Aquí el cero deja de ser un tope y pasa a ser un lugar, con números a los dos lados. Es la misma lectura que hacen frente al termómetro de la pared, y es práctica habitual en primaria apoyarse en ese objeto cotidiano antes de que aparezca ninguna operación. Esta herramienta no pide ninguna cuenta: solo paradas y la separación que hay entre ellas.",
+      "Lo que sorprende llega al cambiar las señales de lugar. Si están muy por debajo del cero y el número de en medio dice ocho, al deslizar la escala hasta otro tramo, muy lejos de ahí, y volver a separarlas igual, el número vuelve a decir ocho: la separación no depende de dónde estén. Y entonces se pone el tubo de lado. La escala es la misma, las señales están en los mismos números y la separación no se movió. Un termómetro de pie y una recta numérica acostada son el mismo objeto girado, y girarlo no cambió nada de lo que importa.",
+      "En el salón funciona proyectada: un niño arrastra desde la pizarra mientras el resto dice en voz alta dónde quedaron las señales. No hace falta leer nada para entenderla, así que sirve igual con quien todavía no lee o está aprendiendo español, y se abre desde el navegador, sin instalar nada y sin cuenta. Cinco paradas y toda la herramienta —las dos señales, la escala que se desliza y el giro— son gratuitas para siempre. Con el plan Docente llegan las otras once y los tubos sin números para imprimirlos y numerarlos en papel."
+    ],
+    "howToUse": [
+      "Proyecta la herramienta y arrastra las dos señales hasta que una quede por encima del cero y la otra por debajo; también puede hacerlo un niño desde la pizarra.",
+      "Pide al grupo que lea en voz alta dónde quedó cada señal antes de mirar el número que aparece entre las dos.",
+      "Arrastra la escala hasta que el cero desaparezca de la vista y vuelve a colocar las señales igual de separadas; toca Centrar el cero cuando quieras recuperarlo.",
+      "Pon el tubo de lado y no digas nada todavía: deja que sea la clase la que note que la escala, las señales y la separación siguen siendo exactamente las mismas.",
+      "Toca Otra parada y repite. Después de tres o cuatro paradas, los niños empiezan a anticipar el número de en medio antes de que aparezca."
+    ],
+    "classroomIdeas": [
+      "Pon las dos señales en el mismo número: el número de en medio desaparece. Pregunta a la clase qué separación hay cuando las dos están en el mismo lugar.",
+      "Coloca una señal justo encima del cero y la otra justo debajo, y pide que cuenten en voz alta los pasos de una a otra antes de mirar el número de en medio.",
+      "Deja las dos señales por debajo del cero y pregunta cuál de las dos está más cerca del cero. Es la trampa clásica: el número que suena más grande es el que está más lejos.",
+      "Arrastra la escala hasta que el cero no se vea y pregunta hacia qué lado habría que ir para encontrarlo; luego toca Centrar el cero y compruébenlo juntos.",
+      "Pon el tubo de lado antes de que lleguen los niños y déjalo así toda la sesión: trabajen la separación acostado y ponlo de pie al final, para cerrar.",
+      "Hazlo después en papel: cada niño numera su tubo impreso y marca las dos señales que quiera; luego intercambian los tubos y leen la separación del compañero."
+    ],
+    "metaTitle": "Bajo cero — el termómetro y los números, 1.º y 2.º",
+    "metaDescription": "Un tubo con escala que sigue por debajo del cero: mueve las dos señales, mira cuánto las separa y ponlo de lado. Gratis para la pizarra digital."
+  },
+  pt: {
+    "slug": "distancia-entre-numeros-abaixo-de-zero-anos-iniciais",
+    "name": "O Tubo que Deita",
+    "tagline": "Um tubo em pé, uma escala que desliza e dois pinos que a turma põe onde quiser, acima ou abaixo do zero. Um botão deita o tubo inteiro: mesma escala, mesmos pinos, mesma distância.",
+    "about": [
+      "Na tela fica um tubo comprido e estreito, com a escala numerada de um lado e os dois pinos do outro: um risco em cada passo e um número de cinco em cinco. A criança arrasta cada pino para onde quiser, acima do zero ou abaixo dele, e entre os dois aparece um número sozinho, que é a distância de um até o outro. Quando o tubo aparece pintado, a cor vai até o primeiro pino e para ali. Deslizando a própria escala, a turma alcança números que estavam fora da tela. Não há pergunta, não há resposta certa e não há pontuação.",
+      "O zero costuma ser o fim da contagem para uma criança de seis anos: os números começam nele e vão subindo. Um tubo que continua para baixo do zero mostra, sem precisar explicar, que a contagem tem os dois lados. Na BNCC os números negativos só aparecem bem mais tarde, e aqui eles não são conteúdo a ser cobrado — são convivência. O que está de fato em jogo é da unidade temática Números dos anos iniciais: ordenação, comparação e a ideia de quanto falta de um número até outro. Deixar a turma encontrar esse território antes da hora é prática consagrada de sala de aula, e não uma promessa de resultado.",
+      "O momento que dá nome à ferramenta é o botão que deita o tubo. Ele não redesenha nada: gira o aparelho inteiro, e a escala, os pinos e o número da distância continuam exatamente os mesmos, só que agora deitados. Um termômetro em pé e uma reta numérica deitada passam a ser, na frente da turma, o mesmo objeto. E há uma segunda surpresa: ponha os dois pinos bem abaixo do zero e depois bem acima dele. Se o pedaço de escala entre os dois tiver o mesmo tamanho, o número entre eles não muda. A distância não depende de onde ela é medida.",
+      "Na prática, isso vira uma rotina curta de lousa: você abre uma posição, alguém vai lá e muda um pino, e a turma diz em voz alta se a distância vai mudar antes de olhar. São dezesseis posições no total, encadeadas para que cada uma surpreenda depois da anterior. As cinco primeiras são gratuitas, junto com o aparelho inteiro: os dois pinos, a escala que desliza, o zero e o botão que deita o tubo. As outras onze e a folha para imprimir — um tubo em branco, com os riscos e sem os números, impresso em pé e deitado — vêm com o plano Professor."
+    ],
+    "howToUse": [
+      "Projete a ferramenta com o tubo em pé e peça que uma criança venha à lousa e arraste um dos pinos para onde quiser, acima ou abaixo do zero.",
+      "Arraste a própria escala para um lado e para o outro com a turma olhando: números que estavam fora da tela aparecem, e os dois pinos continuam nos mesmos números.",
+      "Use o botão de trazer o zero sempre que a turma se perder — ele recoloca o zero no meio da tela e não mexe nos pinos.",
+      "Antes de mudar os pinos de lugar, peça que a turma diga em voz alta se a distância entre eles vai mudar; só depois arraste.",
+      "Aperte o botão que deita o tubo no meio da conversa, e não no fim: a pergunta boa é o que mudou, e a resposta é nada.",
+      "Passe para outra posição e repita. Depois de duas ou três, a turma começa a prever a distância antes mesmo de você abrir a próxima."
+    ],
+    "classroomIdeas": [
+      "Ponha os dois pinos exatamente no mesmo número: a distância some da tela. Peça que a turma explique por que não sobrou nada para medir.",
+      "Faça o mesmo pedaço duas vezes, uma vez todo acima do zero e outra vez todo abaixo dele. O número é o mesmo, e é aí que costuma nascer a discussão mais longa da aula.",
+      "Deslize a escala até o zero sair da tela e deixe assim por um minuto: sem o zero à vista, a turma passa a se orientar pelos números que sobraram.",
+      "Deite o tubo com uma criança segurando o dedo em um dos pinos. O dedo não precisa sair do lugar, e isso mostra melhor do que qualquer explicação que o giro não mexeu em nada.",
+      "Segundo ano, unidade temática Números da BNCC: depois da rotina na lousa, peça que a turma copie a escala no caderno e marque os dois pinos com lápis de cor.",
+      "Imprima o tubo em branco e deixe cada criança numerar a escala do seu jeito, começando de onde quiser — inclusive de um número abaixo do zero."
+    ],
+    "metaTitle": "O Tubo que Deita — números abaixo de zero, anos iniciais",
+    "metaDescription": "Dois pinos em uma escala que passa abaixo do zero, e um botão que deita o tubo inteiro sem mudar nada. Ferramenta gratuita para a lousa digital, anos iniciais."
+  },
+  it: {
+    "slug": "numeri-sotto-lo-zero-e-distanza-primaria",
+    "name": "Il tubo dei numeri",
+    "tagline": "Un tubo lungo e stretto con la scala dei numeri accanto: le due puntine si mettono sopra o sotto lo zero e fra loro compare la distanza. Poi lo strumento si corica, e resta la stessa identica scala.",
+    "about": [
+      "Sullo schermo c’è un tubo lungo e stretto, e accanto corre la scala dei numeri con i suoi segni. Due puntine si trascinano lungo la scala e si fermano dove volete: una sopra lo zero e l’altra sotto, oppure tutte e due dalla stessa parte. La prima puntina riempie il tubo di colore fino al proprio numero; la seconda lo lascia com’è. Fra le due compare un numero solo, quello della distanza. Anche la scala si trascina, così si raggiungono numeri molto più lontani, nei due sensi, di quelli che si vedono adesso. Solo quando si arriva all’estremo della scala, dove i numeri finiscono, il tubo si allarga come in un vero termometro.",
+      "Sotto lo zero i numeri smettono di comportarsi come i bambini si aspettano: più ci si allontana dallo zero e più il numero detto sembra grande, mentre il valore è sempre più piccolo. È il punto in cui l’ordine imparato contando in avanti si rompe, e su una scheda non si vede, perché lì il numero è scritto e basta. Qui il numero è un posto, e il posto si tocca con il dito. Portare i numeri sotto lo zero in prima e in seconda con uno strumento che somiglia a un termometro è una pratica di classe consolidata, non una scoperta nostra.",
+      "Poi arriva la parte che sorprende. Mettete le puntine vicino allo zero, guardate il numero della distanza e rifate la stessa distanza da tutt’altra parte della scala dei numeri: quel numero non cambia. Uno strumento che sembrava servire solo a leggere un numero diventa uno strumento per misurare salti. E quando lo si corica non succede niente: stessa scala, stessi segni, stessa distanza. Un termometro in piedi e una linea dei numeri sono lo stesso oggetto, girato di un quarto di giro.",
+      "Funziona nel browser, sulla LIM come sul tablet, senza registrazione e senza installare niente. Non c’è nessuna domanda, nessuna risposta giusta, nessun punteggio e nessun tempo che scorre: lo strumento mostra e basta, il parlato lo mettete voi. Cinque disposizioni già pronte e tutto l’apparecchio sono gratuiti; con il piano Insegnante si aprono le altre undici e il foglio da stampare, due tubi vuoti con i soli segni e nessun numero, da numerare a mano. Il lavoro sui numeri sotto lo zero e sulle distanze richiama i traguardi di Numeri delle Indicazioni nazionali."
+    ],
+    "howToUse": [
+      "Proietta lo strumento e trascina una puntina sotto lo zero e l’altra sopra: fra le due compare subito il numero della distanza.",
+      "Prima di spostare qualcosa, chiedi alla classe di dire ad alta voce che numero ha sotto ciascuna puntina. Accogli anche le risposte che non coincidono.",
+      "Trascina la scala dei numeri finché lo zero esce di vista, poi tocca «Centra lo zero» per riportarlo in mezzo: lo zero non è la fine della scala, è un posto come gli altri.",
+      "Rifai la stessa distanza in un altro punto della scala dei numeri: puntine spostate, numeri diversi, e il numero fra loro resta quello di prima.",
+      "Tocca «Corica lo strumento» mentre i bambini guardano, e lascia qualche secondo di silenzio. Non si è mosso niente della scala dei numeri, ed è proprio questo il punto.",
+      "Con «Altre due puntine» passa alle due puntine successive; dopo due o tre la classe comincia a prevedere il numero della distanza prima ancora che compaia."
+    ],
+    "classroomIdeas": [
+      "Metti le due puntine sullo stesso numero: il numero della distanza sparisce. Chiedi alla classe perché stavolta non c’è niente da misurare.",
+      "Una puntina resta ferma sullo zero e l’altra si allontana piano dalla parte sotto lo zero: i bambini leggono ad alta voce mentre il numero detto cresce e il valore diventa sempre più piccolo.",
+      "Il gioco del congelatore: un bambino sceglie un posto sotto lo zero per il congelatore di casa, un altro un posto sopra per l’aula, e la classe dice quanto stanno lontani.",
+      "Copri con la mano il numero della distanza: dalle due puntine la classe lo ricostruisce a voce, poi togli la mano e si controlla insieme.",
+      "Stessa distanza, posti diversi: due bambini alla lavagna devono trovare due puntine lontane come le prime, ma dall’altra parte dello zero.",
+      "Rifallo su carta con il foglio da stampare: i due tubi arrivano vuoti, con i soli segni, e sono i bambini a scrivere i numeri, chi partendo dallo zero, chi partendo da un’estremità."
+    ],
+    "metaTitle": "Il tubo dei numeri — sotto lo zero, prima e seconda",
+    "metaDescription": "Un tubo con la scala dei numeri: le puntine vanno sopra o sotto lo zero e fra loro compare la distanza. Coricato, è una linea dei numeri. Gratis per la LIM."
+  },
 };

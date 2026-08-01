@@ -57,19 +57,32 @@ const is = (c, m) => { if (c) PASS++; else { FAIL++; console.error('  FAIL ' + m
       await page.waitForSelector('.cld-bench', { timeout: 9000 });
       await new Promise((r) => setTimeout(r, 320));
 
-      /* ⭐ measure the toggle in ALL THREE of its states, plus the two
-         hint lines in the state where BOTH are showing at once */
+      /* ⭐ measure the chips in EVERY state whose caption changes, and
+         the hint line in each of its four branches.
+
+         ⚠⚠ CLONED AND NOT ADAPTED, LIKE THE SMOKE GATE: this drove
+         `window.ComparisonPlanks` with #42's {phase, dx, dy} state into
+         a tool whose state is {lo, a, b, tipped}. It only surfaced
+         because #42's global is absent here. Had the names matched, all
+         66 cells would have measured the same untouched opening frame
+         and reported green. */
       const m = await page.evaluate(() => {
-        const inst = window.ComparisonPlanks;
+        const inst = window.ColdLine;
+        if (!inst) return { fatal: 'window.ColdLine is not defined' };
         const doc = document.documentElement;
         const r = (e) => e.getBoundingClientRect();
         const card = document.querySelector('.cld-bench').parentElement;
         const cardBox = r(card);
         const out = { overflow: false, chipOver: -Infinity, worstChip: '', lowest: 0, vh: window.innerHeight };
+        /* the tip chip carries a different caption in each pose, and
+           the longest word in a locale may be in either of them; the
+           window against the domain floor also draws the bulb, which
+           adds a part to the widest row. Sweep all of it. */
         const states = [
-          { a: 5, b: 9, phase: 'attached', dx: 0, dy: 0 },   /* takeBtn */
-          { a: 5, b: 9, phase: 'free', dx: 300, dy: 400 },   /* layBtn  */
-          { a: 5, b: 9, phase: 'laid', dx: 0, dy: 0 }        /* putBack */
+          { lo: -12, a: -5, b: 3, tipped: false },
+          { lo: -12, a: -5, b: 3, tipped: true },
+          { lo: -30, a: -28, b: -20, tipped: false },
+          { lo: 10, a: 12, b: 20, tipped: true }
         ];
         for (const st of states) {
           inst.st = inst._st(st); inst._paint();
@@ -84,20 +97,40 @@ const is = (c, m) => { if (c) PASS++; else { FAIL++; console.error('  FAIL ' + m
             out.lowest = Math.max(out.lowest, Math.round(b.bottom));
           }
         }
-        /* the two-hint frame: attached with a difference shows both */
-        inst.st = inst._st({ a: 5, b: 9, phase: 'attached', dx: 0, dy: 0 }); inst._paint();
-        const hints = Array.from(document.querySelectorAll('.cld-hint'))
-          .filter((e) => getComputedStyle(e).display !== 'none');
+        /* the hint line, measured in EVERY branch it can take — one
+           line, four texts, and the longest is not the same text in
+           every locale. hintSlide only appears with a mark out of the
+           window, so a single frame would never see it. */
+        const hintStates = [
+          { lo: -12, a: -5, b: 3, tipped: false },   /* hintSpan  */
+          { lo: -12, a: 0, b: 0, tipped: false },    /* hintSet   */
+          { lo: 8, a: -5, b: 3, tipped: false },     /* hintSlide */
+          { lo: -12, a: -5, b: 3, tipped: true }     /* hintTip   */
+        ];
+        let hints = [];
+        for (const hs of hintStates) {
+          inst.st = inst._st(hs); inst._paint();
+          const live = Array.from(document.querySelectorAll('.cld-hint'))
+            .filter((e) => getComputedStyle(e).display !== 'none' && e.textContent.trim());
+          hints = hints.concat(live);
+          out.hintOver = Math.max(out.hintOver || 0,
+            live.reduce((a, e) => Math.max(a, Math.round(r(e).right - cardBox.right)), 0));
+          out.lowest = Math.max(out.lowest, ...live.map((e) => Math.round(r(e).bottom)));
+        }
         out.hintCount = hints.length;
-        out.hintOver = hints.reduce((a, e) => Math.max(a, Math.round(r(e).right - cardBox.right)), 0);
         return out;
       });
 
       const tag = `${loc}@${W}px`;
+      if (m.fatal) { is(false, `${tag}: ${m.fatal}`); await page.close(); continue; }
       is(!m.overflow, `${tag}: horizontal overflow in some toggle state`);
       is(m.chipOver <= 0, `${tag}: a chip escapes THE CARD by ${m.chipOver}px — "${m.worstChip}"`);
       is(m.hintOver <= 0, `${tag}: a hint line escapes the card by ${m.hintOver}px`);
-      is(m.hintCount === 2, `${tag}: both hint lines show at once, got ${m.hintCount}`);
+      /* ⚠ #42 showed TWO hint lines at once; this tool has ONE line
+         that says four different things. Asserting "2" here would have
+         been the narrative-over-artefact error again — so the claim is
+         that the line is live in all FOUR branches. */
+      is(m.hintCount === 4, `${tag}: the hint line is live in all four branches, got ${m.hintCount}`);
       is(m.lowest <= m.vh, `${tag}: FITS — lowest chip ${m.lowest} ≤ ${m.vh}`);
       is(errs.length === 0, `${tag}: page error — ${errs[0] || ''}`);
       if (m.chipOver > -6) worst.push(`${tag} margin ${-m.chipOver}px ("${m.worstChip}")`);

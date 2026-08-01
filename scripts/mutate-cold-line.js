@@ -46,6 +46,25 @@ const SRC = fs.readFileSync(path.join(TOOLS, 'cold-line.js'), 'utf8').replace(/\
 const CARRY = ['cold-line-sets.json'];
 const TIMEOUT = 30000;
 
+/* ⭐ SELF-ANCHORING LOCALE NEEDLES.
+   Reads the CURRENT English value of `key` straight out of the live
+   strings block and mutates that, so the needle cannot go stale when
+   apply-cold-line-locales.js rewrites the block — different padding,
+   different locale count, a re-ruled name, any of it.
+   It THROWS rather than returning null: a locale needle that cannot
+   find its key is a fault to surface at load, not a mutation to drop
+   quietly from the list. Dropping it would shrink the reported total
+   and the run would still say "every mutation killed". */
+function enNeedle(key, replacement, name) {
+  const re = new RegExp(key + ':\\s*\\{\\s*en:\\s*"((?:[^"\\\\]|\\\\.)*)"');
+  const m = re.exec(SRC);
+  if (!m) throw new Error(`enNeedle: no en value for "${key}" in the live strings block`);
+  const from = m[0];
+  const to = from.slice(0, from.length - m[1].length - 1) + replacement + '"';
+  if (to === from) throw new Error(`enNeedle: "${key}" already reads "${replacement}" — the mutation would be INERT`);
+  return [name, from, to];
+}
+
 const M = [
   /* ---- linearity across zero — the classic art bug ------------------ */
   ['the scale squashes below zero', 'return this.BOT - (v - s.lo) * this.unit();',
@@ -127,10 +146,19 @@ const M = [
 
   /* ---- the refusals --------------------------------------------------- */
   ['a HYPHEN replaces the minus sign', "t.textContent = (v < 0 ? '−' : '') + Math.abs(v);", "t.textContent = String(v);"],
-  ['a degree sign enters an authored string', 'title: { en: "Upright and Flat" }', 'title: { en: "Upright and Flat °" }'],
-  ['a digit enters an authored string', 'zeroBtn: { en: "Zero to the middle" }', 'zeroBtn: { en: "Find zero 0" }'],
-  ['the tool starts ASKING', 'tipBtn: { en: "Lay it down" }', 'tipBtn: { en: "How cold is it?" }'],
-  ['weather vocabulary enters a string', 'nextBtn: { en: "Another place" }', 'nextBtn: { en: "Another snow setting" }'],
+  /* ⚠⚠ THE FOUR LOCALE NEEDLES SELF-ANCHOR — see enNeedle() above.
+     They used to carry the English literal inline, and all four went
+     blind the moment apply- rewrote the strings block for eleven
+     locales instead of eight: the written shape is `zeroBtn:     { en:
+     "…", de: …` with alignment padding, which no hand-typed literal
+     was ever going to keep matching. The recorded rule already said
+     locale mutations must self-anchor on the live file; these were
+     written before it and never revisited. A needle that encodes the
+     CURRENT text of the thing it mutates has a half-life. */
+  enNeedle('title', 'Upright and Flat °', 'a degree sign enters an authored string'),
+  enNeedle('zeroBtn', 'Find zero 0', 'a digit enters an authored string'),
+  enNeedle('tipBtn', 'How cold is it?', 'the tool starts ASKING'),
+  enNeedle('nextBtn', 'Another snow setting', 'weather vocabulary enters a string'),
   ['the tool declares tasks', "    id: 'cold-line',", "    id: 'cold-line',\n    tasks: [],"],
   ['a verdict field enters the source', "    STORE_KEY: 'lcs:cold-line:v1',", "    correct: 1,\n    STORE_KEY: 'lcs:cold-line:v1',"],
 

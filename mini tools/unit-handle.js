@@ -840,7 +840,13 @@ function injectUnitHandleCSS() {
     +   'gap:8px;font-family:Nunito,sans-serif;font-size:14px;color:#C2562F;text-align:center;}'
     + '.unh-gate a{color:#C2562F;min-height:44px;display:inline-flex;align-items:center;}'
     + '@media (min-width:760px){.unh-bench{max-width:680px;}}'
-    + '@media (prefers-reduced-motion:reduce){.unh-tile{transition:none;}}';
+    + '@media print{'
+      + '  .lcs-header,.unh-hint,.unh-foot,.unh-gate,.unh-grip{display:none !important;}'
+      + '  .unh-wrap{gap:0;}'
+      + '  .unh-bench{max-width:none;width:100%;border:0;background:#fff;break-inside:avoid;}'
+      + '  @page{margin:14mm;}'
+      + '}'
+      + '@media (prefers-reduced-motion:reduce){.unh-tile{transition:none;}}';
   var st = document.createElement('style');
   st.id = 'unh-style';
   st.textContent = css;

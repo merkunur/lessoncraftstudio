@@ -1016,6 +1016,12 @@
       + '.urt-gate{width:100%;max-width:660px;border-radius:16px;border:2px dashed #C8613A;'
       + 'background:#FFF6EE;padding:14px 16px;text-align:center;font-family:Nunito,sans-serif;color:#7A3B21;}'
       + '.urt-gate a{color:#C8613A;font-weight:700;}'
+      + '@media print{'
+      + '  .lcs-header,.urt-hint,.urt-foot,.urt-gate,.urt-handle{display:none !important;}'
+      + '  .urt-wrap{gap:0;}'
+      + '  .urt-bench{max-width:none;width:100%;border:0;background:#fff;break-inside:avoid;}'
+      + '  @page{margin:14mm;}'
+      + '}'
       + '@media (prefers-reduced-motion:reduce){.urt-strand{transition:none;}}';
     var el = document.createElement('style');
     el.setAttribute('data-urt', '1');

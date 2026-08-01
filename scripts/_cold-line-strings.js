@@ -224,10 +224,68 @@ module.exports = {
     gateTitle: 'Lisää kohtia',
     gateBody: 'Yksitoista kohtaa lisää asteikolla järjestyksessä, jossa jokainen kohta yllättää edellisen jälkeen, sekä tulostettava asteikko paperilla työskentelyyn.',
     gateCta: 'Tutustu Opettaja-tilaukseen'
-  }
-
-  /* es, pt, it — pending the third panel's delta and the Italian
-     `la scala` re-rule (measurement-bench.js:114 ships it as the LADDER
-     a child measures on, and the panel's first ruling rested on a
-     census that turned out to be 86% blind). */
+  },
+  es: {
+    "title": "Bajo cero",
+    "instruction": "Pon las dos señales en la escala, arriba o abajo del cero. Arrastra la escala para llegar más lejos por ella y, cuando quieras, pon la herramienta entera de lado.",
+    "sceneLabel": "Un tubo largo y angosto y, a un costado, una escala con rayas y números, con dos señales puestas sobre ella. El color del tubo llega hasta la primera señal; la segunda lo deja como está. Entre las dos aparece un número: cuánto las separa. Un botón pone la herramienta entera de lado.",
+    "zeroOff": "El cero queda fuera de la escala en este momento.",
+    "hintSet": "Las dos señales están en el mismo número, así que no hay nada que las separe. Arrastra una de las dos por la escala.",
+    "hintSlide": "Una de las señales quedó fuera de la vista. Arrastra la escala hasta que vuelva a aparecer.",
+    "hintTip": "Ahí está, de lado. La misma escala, las mismas señales, la misma distancia entre ellas.",
+    "hintSpan": "El número que está entre las dos señales dice cuánto las separa. Ahora pon la herramienta entera de lado y fíjate qué le pasa a ese número.",
+    "tipBtn": "Poner el tubo de lado",
+    "standBtn": "Poner el tubo de pie",
+    "zeroBtn": "Centrar el cero",
+    "nextBtn": "Otra parada",
+    "printBtn": "Imprimir los tubos",
+    "markAAria": "la primera señal, la que llena el tubo hasta su propio número cuando el color está a la vista. Arrástrala por la escala o muévela con las flechas.",
+    "markBAria": "la segunda señal, la que deja el tubo como está. Arrástrala por la escala o muévela con las flechas.",
+    "scaleAria": "la escala. Arrástrala para alcanzar números más lejanos; al tocarla, el cero vuelve al centro.",
+    "gateTitle": "Más paradas",
+    "gateBody": "Once paradas más en la escala, ordenadas para que cada una sorprenda después de la anterior, y la hoja para imprimir y trabajar en papel.",
+    "gateCta": "Ver el plan Docente"
+  },
+  pt: {
+    "title": "O Tubo que Deita",
+    "instruction": "Ponha os dois pinos na escala, acima ou abaixo do zero. Arraste a própria escala para alcançar números mais distantes e, quando quiser, deite o tubo inteiro.",
+    "sceneLabel": "Um tubo comprido e estreito, com a escala numerada de um lado e os dois pinos do outro. Quando o tubo aparece pintado, a cor vai até o primeiro pino e para ali; o segundo pino não pinta nada. Entre os dois pinos fica o número da distância de um até o outro. Um botão deita o tubo inteiro.",
+    "zeroOff": "Neste momento, o zero está fora da vista.",
+    "hintSet": "Os dois pinos estão no mesmo número, e por isso não aparece distância nenhuma. Arraste um deles ao longo da escala.",
+    "hintSlide": "Um dos pinos está fora da vista agora. Arraste a própria escala até ele aparecer de novo.",
+    "hintTip": "Pronto, o tubo está deitado. A mesma escala, os mesmos pinos, a mesma distância entre eles.",
+    "hintSpan": "O número entre os pinos é a distância de um até o outro. Agora deite o tubo inteiro e repare no que acontece com esse número.",
+    "tipBtn": "Deitar o tubo",
+    "standBtn": "Pôr o tubo de pé",
+    "zeroBtn": "Trazer o zero ao meio",
+    "nextBtn": "Outra posição",
+    "printBtn": "Imprimir o tubo",
+    "markAAria": "o primeiro pino, verde-escuro, o que fica mais perto do tubo. Arraste ao longo da escala.",
+    "markBAria": "o segundo pino, laranja, o que fica mais afastado do tubo. Arraste ao longo da escala.",
+    "scaleAria": "a escala, com os riscos e os números. Arraste ao longo do tubo para alcançar números mais distantes. Um toque traz o zero de volta para o meio.",
+    "gateTitle": "Mais posições",
+    "gateBody": "Mais onze posições na escala, encadeadas para que cada uma surpreenda depois da anterior, e a folha para imprimir e trabalhar no papel.",
+    "gateCta": "Ver o plano Professor"
+  },
+  it: {
+    "title": "Il tubo dei numeri",
+    "instruction": "Mettete le due puntine sulla scala dei numeri, sopra o sotto lo zero. Trascinate la scala stessa per arrivare più lontano, e quando siete pronti coricate tutto lo strumento.",
+    "sceneLabel": "un tubo lungo e stretto con accanto la scala dei numeri, e sulla scala due puntine. La prima puntina riempie il tubo fino al proprio numero; la seconda lo lascia com’è. Fra le due sta un numero: quanto distano fra loro. Un comando corica tutto lo strumento.",
+    "zeroOff": "In questo momento lo zero resta fuori dalla scala.",
+    "hintSet": "Le due puntine stanno sullo stesso numero, così fra loro non c’è nessuna distanza. Trascinatene una lungo la scala dei numeri.",
+    "hintSlide": "Adesso una delle due puntine è fuori dalla scala dei numeri. Trascinate la scala finché non torna a vedersi.",
+    "hintTip": "Eccolo lì, coricato. Stessa scala dei numeri, stesse puntine, stessa distanza fra loro.",
+    "hintSpan": "Il numero fra le due puntine dice quanto distano fra loro. Adesso coricate tutto lo strumento e guardate che cosa gli succede.",
+    "tipBtn": "Corica lo strumento",
+    "standBtn": "Rimettilo in piedi",
+    "zeroBtn": "Centra lo zero",
+    "nextBtn": "Altre due puntine",
+    "printBtn": "Stampa il foglio",
+    "markAAria": "la prima puntina. Riempie il tubo fino al proprio numero. Trascinala lungo la scala dei numeri.",
+    "markBAria": "la seconda puntina. Lascia il tubo com’è. Trascinala lungo la scala dei numeri.",
+    "scaleAria": "la scala dei numeri. Trascinala per arrivare più lontano, nei due sensi; un tocco riporta lo zero al centro.",
+    "gateTitle": "Ancora undici sorprese",
+    "gateBody": "Altre undici, con le due puntine su numeri nuovi e distanze che tornano uguali da tutt’altra parte della scala dei numeri, e il foglio da stampare: due tubi vuoti, con i soli segni, da numerare a mano.",
+    "gateCta": "Il piano Insegnante"
+  },
 };

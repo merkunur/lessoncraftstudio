@@ -49,10 +49,46 @@ const is = (c, m) => { if (c) { PASS++; console.log('  ok   ' + m); } else { FAI
     await page.waitForSelector('.cld-bench', { timeout: 9000 });
     await new Promise((r) => setTimeout(r, 500));
 
-    /* drive every reachable state and harvest what the DOM received */
+    /* ⚠⚠ THIS BLOCK WAS CLONED AND NOT ADAPTED, AND IT DROVE THE WRONG
+       TOOL. It read `window.ComparisonPlanks` and pushed #42's state
+       shape — {phase, dx, dy} — into a tool whose state is
+       {lo, a, b, tipped}. The only reason it did not silently harvest
+       an unchanging opening screen and report eleven green locales is
+       that #42's global does not exist on this page, so it threw. Had
+       the two tools shared a global name, this would have certified
+       every locale off ONE never-updated render.
+       Cloning a gate copies its selectors AND its globals; the
+       write-from-the-artefact rule covers both.
+
+       ⭐ AND IT NOW RECORDS WHICH KEYS WERE ASKED FOR, not only which
+       strings appeared. #39 shipped a string authored in all eleven
+       locales and never referenced, and proved a SOURCE scan cannot
+       tell "exists" from "is reached" — a t('key') call sitting in a
+       dead branch reads identically. So api.t is wrapped before the
+       states are driven, and every authored key must be REQUESTED. */
     const got = await page.evaluate(() => {
-      const inst = window.ComparisonPlanks;
+      const inst = window.ColdLine;
+      if (!inst) return { fatal: 'window.ColdLine is not defined — the gate is driving nothing' };
       const seen = new Set();
+      const asked = new Set();
+
+      /* ⚠⚠ THE TRANSLATOR CANNOT BE WRAPPED — lcs-shell.js:482 builds the
+         api with Object.freeze and `t` is non-writable, so an
+         assignment to inst.api.t SILENTLY NO-OPS in sloppy mode. The
+         first version of this recorder did exactly that and reported
+         "0 keys asked for" in all eleven locales while every string
+         rendered correctly — a gate failing on a correct tool because
+         its instrument could not attach. Measured with a property
+         descriptor before it was believed.
+         The shell resolves `i18n.t(tool.strings, key)` at CALL time, so
+         the recording point is the tool's own strings object: a Proxy
+         over it sees every key the shell looks up, needs nothing to be
+         writable, and measures the thing the assertion is about. */
+      const realStrings = inst.strings;
+      inst.strings = new Proxy(realStrings, {
+        get: function (t, k) { if (typeof k === 'string') asked.add(k); return t[k]; }
+      });
+
       const harvest = () => {
         document.querySelectorAll('body, body *').forEach((e) => {
           if (e.childElementCount === 0 && e.textContent.trim()) seen.add(e.textContent.trim());
@@ -60,22 +96,65 @@ const is = (c, m) => { if (c) { PASS++; console.log('  ok   ' + m); } else { FAI
           if (a) seen.add(a.trim());
         });
       };
+
+      /* a matrix that reaches EVERY hint branch and BOTH poses:
+         marks equal (hintSet) · a mark outside the window (hintSlide) ·
+         both in view and apart (hintSpan) · tipped (hintTip) · zero out
+         of view (zeroOff) · the window hard against the domain floor,
+         where the bulb is honest, and off it, where it is not. */
       const states = [
-        { a: 7, b: 7, phase: 'attached', dx: 0, dy: 0 },
-        { a: 5, b: 9, phase: 'attached', dx: 0, dy: 0 },
-        { a: 5, b: 9, phase: 'lifting', dx: 300, dy: 260 },
-        { a: 5, b: 9, phase: 'free', dx: 300, dy: 400 },
-        { a: 5, b: 9, phase: 'laid', dx: 0, dy: 0 }
+        { lo: -12, a: -5, b: 3, tipped: false },
+        { lo: -12, a: 0, b: 0, tipped: false },
+        { lo: -12, a: -5, b: 3, tipped: true },
+        { lo: 8, a: -5, b: 3, tipped: false },
+        { lo: 10, a: 12, b: 20, tipped: false },
+        { lo: -30, a: -28, b: -20, tipped: false },
+        { lo: -30, a: -28, b: -20, tipped: true }
       ];
       for (const st of states) { inst.st = inst._st(st); inst._paint(); harvest(); }
-      if (inst._showGate) { try { inst._showGate(); } catch (_) { } }
-      harvest();
-      return { blob: Array.from(seen).join(''), count: seen.size };
+
+      /* both tip-chip captions: it reads one way upright and the other
+         way flat, so a single pose only ever renders one of them */
+      inst.st = inst._st({ lo: -12, a: -5, b: 3, tipped: false }); inst._paint(); harvest();
+      inst.st = inst._st({ lo: -12, a: -5, b: 3, tipped: true }); inst._paint(); harvest();
+
+      /* ⚠ AND THE BUILD MUST BE RE-RUN THROUGH THE PROXY. The three
+         aria keys are read in _build() -> _handle(), which ran at mount
+         — before this recorder existed — so they scored "never asked
+         for" on a tool that asks for all three. A recorder installed
+         after mount can only see what is read AFTER mount; anything
+         read once, at construction, is invisible to it unless the
+         construction is repeated. render() rebuilds. */
+      try { inst.render(); harvest(); } catch (_) { }
+
+      if (inst._showGate) { try { inst._showGate(); harvest(); } catch (_) { } }
+      inst.strings = realStrings;
+      return { blob: Array.from(seen).join(''), count: seen.size, asked: Array.from(asked) };
     });
+    if (got.fatal) { is(false, `${loc}: ${got.fatal}`); await browser.close(); continue; }
 
     const want = SoT[loc];
     const missing = Object.keys(want).filter((k) => got.blob.indexOf(want[k]) < 0);
     is(got.count > 5, `${loc}: harvested ${got.count} rendered strings (vacuity guard)`);
+    /* ⭐ REACHED, not merely authored — the #39 defect, gated.
+
+       ⚠ TWO KEYS ARE EXEMPT, AND THE EXEMPTION IS A LIST WITH A LINE
+       REFERENCE EACH, NEVER A LOOSENED PATTERN (§23.6). `title` and
+       `instruction` are read by the SHELL at lcs-shell.js:448-449
+       (`i18n.t(tool.strings, 'title')`), once, before the tool is
+       mounted — so no recorder living inside the page can ever see
+       them, however the states are driven. They are still covered:
+       both must RENDER, which is the assertion immediately below.
+       Nothing else may join this list without the same kind of
+       citation. */
+    const SHELL_CONSUMED = ['title', 'instruction'];
+    const never = Object.keys(want)
+      .filter((k) => SHELL_CONSUMED.indexOf(k) < 0)
+      .filter((k) => got.asked.indexOf(k) < 0);
+    is(got.asked.length > 0, `${loc}: the translator was actually called (${got.asked.length} keys asked for)`);
+    is(never.length === 0,
+      `${loc}: every authored key is REQUESTED at runtime (${SHELL_CONSUMED.length} shell-consumed, cited)`
+      + (never.length ? ` — NEVER ASKED FOR: ${never.join(', ')}` : ''));
     is(missing.length === 0,
       `${loc}: all ${Object.keys(want).length} authored strings RENDERED`
       + (missing.length ? ` — MISSING: ${missing.join(', ')}` : ''));

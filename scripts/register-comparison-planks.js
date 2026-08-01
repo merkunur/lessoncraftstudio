@@ -49,11 +49,33 @@ const write = (p, s) => { if (!DRY) fs.writeFileSync(path.join(ROOT, p), s.repla
 
 /* every locale must be present before anything is written — a
    half-registered tree is worse than an unregistered one */
+/* ⭐⭐ THE REQUIRED FIELDS ARE READ OFF THE INTERFACE, NOT HAND-LISTED.
+   The first version of this guard checked slug, name and about — three
+   of the EIGHT fields ToolEntry requires — so it happily certified an
+   entry missing classroomIdeas, metaTitle and metaDescription. tsc
+   cannot catch it either: tool-content/*.json is untyped at runtime.
+   The build then failed the static export of all eleven pages, AFTER
+   registration had reported success.
+   A COMPLETENESS CHECK THAT LISTS A SUBSET OF THE REQUIRED FIELDS IS
+   WORSE THAN NO CHECK AT ALL, because it certifies. */
+const IFACE = read('frontend/lib/seo/tool-content.ts');
+const block = /export interface ToolEntry \{([\s\S]*?)\}/.exec(IFACE);
+if (!block) die('could not read the ToolEntry interface — the guard cannot be trusted');
+const NL = String.fromCharCode(10);
+const REQUIRED = block[1].split(NL)
+  .map((l) => (/^\s*([A-Za-z]+)\??:\s*string(\[\])?;/.exec(l) || [])[1])
+  .filter(Boolean);
+if (REQUIRED.length < 6) die(`only ${REQUIRED.length} fields parsed off ToolEntry — refusing to run on a guard that may be vacuous`);
+console.log(`  guard: ToolEntry requires ${REQUIRED.length} fields — ${REQUIRED.join(', ')}`);
 LOCALES.forEach((l) => {
   const e = E[l];
-  if (!e || !e.slug || !e.name || !Array.isArray(e.about) || e.about.length !== 4) {
-    die(`_comparison-planks-content.js is incomplete for "${l}" — run apply-comparison-planks-locales.js first`);
-  }
+  if (!e) die(`_comparison-planks-content.js has no entry for "${l}"`);
+  const missing = REQUIRED.filter((k) => {
+    const v = e[k];
+    if (Array.isArray(v)) return v.length === 0 || v.some((x) => typeof x !== 'string' || !x.trim());
+    return typeof v !== 'string' || !v.trim();
+  });
+  if (missing.length) die(`${l} is missing/empty: ${missing.join(', ')}`);
 });
 
 /* ---- 1 + 2: the two TOOL_KEYS arrays share one anchor ------------- */

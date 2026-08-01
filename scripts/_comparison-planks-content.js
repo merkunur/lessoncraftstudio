@@ -51,7 +51,17 @@ module.exports = {
       'Drag the bracket down so the piece comes away from the long plank.',
       'Lay the piece at the end of the short plank and let the class see the two reach exactly as far.',
       'Put it back and choose the next pair — two planks of the same length, say, so nothing sticks out at all.'
-    ]
+    ],
+    classroomIdeas: [
+      'Say it before you take it: every child says how long the piece is while it is still attached, and nobody writes anything down.',
+      'Set the same difference two ways — one and five, then eleven and fifteen. The piece is the same size both times, on planks that look nothing alike.',
+      'Make one plank twice the other, eight and sixteen, and ask what the class notices about the piece before you move it.',
+      'Give a child a target: set the planks so the piece is exactly as long as the short plank.',
+      'Carry the piece halfway and stop. Ask whether the short plank has got any longer yet, and where the extra will come from.',
+      'Leave both planks the same length and ask what happened to the bracket, and why there is nothing to take off.'
+    ],
+    metaTitle: 'The Planks — see the difference as a piece, K-2',
+    metaDescription: 'Two planks from one line. The overhang comes off the long one and lands at the end of the short one, and they reach the same. A free whiteboard tool for K-2.'
   },
 
   de: {

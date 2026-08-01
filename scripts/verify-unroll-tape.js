@@ -598,6 +598,111 @@ sec('V16 ⭐ every authored string is REACHED at runtime');
     : `DEAD STRINGS, authored but never asked for: ${dead.join(', ')}`);
 }
 
+/* ===================================================================
+   V17 — THE BLIND SPOTS THE MUTATION HARNESS FOUND. Eleven mutations
+   survived the first gate; each of these assertions is the one that
+   kills one of them. A gate is only worth what mutation says it is.
+   =================================================================== */
+sec('V17 the sampler, the stage, the state and the shelf');
+{
+  /* the sampler: exactly N vertices, and no degenerate sub-segment */
+  for (const s of SHAPES) {
+    const o = outlines[s.k];
+    is(o.pts.length === T.N, `${s.k}: exactly ${T.N} vertices (saw ${o.pts.length})`);
+  }
+  let worstRatio = Infinity, worstK = '';
+  for (const s of SHAPES) {
+    const o = outlines[s.k], seg = [];
+    for (let i = 0; i < o.pts.length; i++) {
+      const p = o.pts[i], q = o.pts[(i + 1) % o.pts.length];
+      seg.push(Math.hypot(q[0] - p[0], q[1] - p[1]));
+    }
+    seg.sort((a, b) => a - b);
+    const r = seg[0] / seg[seg.length >> 1];
+    if (r < worstRatio) { worstRatio = r; worstK = s.k; }
+  }
+  /* ⚠ the MEDIAN, not the mean — and this is what catches a knot landing
+     on the seam and forcing two coincident samples (measured 2.8e-7) */
+  is(worstRatio > 0.02,
+    `no degenerate sub-segment: worst min/median is ${worstRatio.toFixed(4)} (${worstK})`);
+
+  /* the stage: the shape stands ON the runway, never under it */
+  for (const s of SHAPES) {
+    const o = outlines[s.k], A = T.defaultA(o);
+    const op = T.outlinePoints(o, { shape: 0, A, t: 0, flag: null, committed: false }, A);
+    let maxY = -Infinity, minY = Infinity;
+    for (const p of op) { if (p[1] > maxY) maxY = p[1]; if (p[1] < minY) minY = p[1]; }
+    is(maxY <= T.BASE + 1e-9, `${s.k}: the shape rests ON the runway, not below it`);
+    is(minY >= T.TOP - 1e-9, `${s.k}: and does not grow out of the top of the bench`);
+    /* the runway ceiling: the laid strand must fit */
+    const amax = T.aMax(o);
+    const laid = T.strandLength(o, { shape: 0, A: amax, t: 1, flag: null, committed: false }, amax);
+    is(T.X0 + laid <= T.RIGHT + 1e-6,
+      `${s.k}: at its largest the laid strand still fits the runway (${(T.X0 + laid).toFixed(0)} ≤ ${T.RIGHT})`);
+  }
+
+  /* ⭐ AT t=0 THE STRAND IS THE OUTLINE. Not "similar to" — the same
+     points. This is the structural form of the same-strand theorem, and
+     it is what catches a y-flip applied to the shape but not the cord
+     (the two would then be drawn on opposite sides of the runway while
+     each, on its own, looked fine). */
+  for (const s of SHAPES) {
+    const o = outlines[s.k], A = T.defaultA(o);
+    const st0 = { shape: 0, A, t: 0, flag: null, committed: false };
+    const op = T.outlinePoints(o, st0, A), sp = T.strandPoints(o, st0, A);
+    let worst = 0;
+    for (let i = 0; i < op.length; i++) {
+      /* the strand carries one extra vertex: its arrival back at B */
+      const j = Math.min(i + 1, sp.length - 1);
+      worst = Math.max(worst, Math.hypot(sp[j][0] - op[(i + 1) % op.length][0], sp[j][1] - op[(i + 1) % op.length][1]));
+    }
+    is(worst < 1e-9, `${s.k}: ⭐ at t=0 the strand lies exactly ON the outline (${worst.toExponential(2)})`);
+  }
+
+  /* ⭐ A SYMMETRIC SHAPE RESTS BALANCED. B is where the guide starts and
+     where the cord leaves; on a flat bottom it must be the MIDDLE of the
+     run, not an arbitrary end, or the shape stands on a corner. */
+  for (const k of ['track', 'circle', 'pebble', 'eye', 'cushion']) {
+    const o = outlines[k];
+    const bx = o.pts[0][0], centre = o.minX + o.across / 2;
+    is(Math.abs(bx - centre) / o.across < 1e-3,
+      `${k}: ⭐ rests balanced — B is the centre of its footing, not an edge`);
+  }
+
+  /* the state shape is closed — no reducer may grow a field */
+  const KEYS = ['shape', 'A', 't', 'flag', 'committed'].sort().join(',');
+  const base = { shape: 0, A: 150, t: 0, flag: null, committed: false };
+  const outs = [
+    T.setSize(base, outlines.circle, 160),
+    T.setPeel(base, 0.4),
+    T.setFlag(base, outlines.circle, 3),
+    T.nextShape(base, SHAPES)
+  ].filter(Boolean);
+  is(outs.length === 4 && outs.every((s) => Object.keys(s).sort().join(',') === KEYS),
+    'every reducer returns exactly the declared state shape — no field is ever grown');
+
+  /* ⭐ the flag is gated in the MODEL, not by a disabled attribute */
+  is(T.setFlag({ shape: 0, A: 150, t: 0, flag: 2, committed: true }, outlines.circle, 4) === null,
+    '⭐ the flag REFUSES to move once committed');
+  is(T.setFlag({ shape: 0, A: 150, t: 0.3, flag: 2, committed: false }, outlines.circle, 4) === null,
+    '⭐ the flag REFUSES to move once the peel has started');
+  const committed = T.setPeel({ shape: 0, A: 150, t: 0, flag: 2, committed: false }, 0.2);
+  is(committed && committed.committed === true, 'and the first movement off the wrap COMMITS the guess');
+  const noFlag = T.setPeel({ shape: 0, A: 150, t: 0, flag: null, committed: false }, 0.2);
+  is(noFlag && noFlag.committed === false, 'but peeling with no flag planted commits nothing');
+
+  /* the shelf, and the offline fallback */
+  T.premium = false;
+  is(T.shelf().length === T.FREE_SHAPES, `entitlement filters the shelf to ${T.FREE_SHAPES} free shapes`);
+  T.premium = true;
+  is(T.shelf().length === SHAPES.length, `and opens all ${SHAPES.length} when paid`);
+  T.premium = false;
+  is(T.FALLBACK_SHAPES.shapes.length === T.FREE_SHAPES && T.FALLBACK_SHAPES.freeCount === T.FREE_SHAPES,
+    '⚠ a 404 degrades to the FREE TIER, never to nothing');
+  is(T.FALLBACK_SHAPES.shapes.every((f, i) => f.k === SHAPES[i].k),
+    'and the inline fallback matches the first five of the book, in order');
+}
+
 /* =================================================================== */
 console.log('');
 if (FAIL) { console.error(`FAIL — ${FAIL} of ${PASS + FAIL} assertions`); process.exit(1); }

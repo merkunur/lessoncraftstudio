@@ -130,6 +130,22 @@ const SEEDS = {
     { sel: '.urt-flag', nth: 0 },
     { sel: '.urt-foot .urt-chip', nth: 0, wait: 1100 },
   ],
+  // ⭐ THE CARD MUST SHOW THE PAYOFF, NOT THE SETUP. At rest the tool
+  // opens at 5 and 9 with the piece still attached, which reads as two
+  // plain bars — the whole story is the piece coming OFF and landing
+  // flush. So walk the handles to 8 and 16 (a tap steps by one, and
+  // sixteen is twice eight, where the offcut is visibly the same length
+  // as the short plank), then cycle the toggle twice: attached → free →
+  // free — and STOP there, one tap short of seated. Seated, the piece
+  // has merged with the short plank and reads as one long bar, so the
+  // tool's whole invention (a sub-region promoted to its own object)
+  // is invisible on the card. Free shows THREE things: two planks, one
+  // of them with a piece missing, and that piece floating on its own.
+  'comparison-planks': [
+    { sel: '.cmp-h-a', nth: [0, 0, 0] },
+    { sel: '.cmp-h-b', nth: [0, 0, 0, 0, 0, 0, 0] },
+    { sel: '.cmp-foot .cmp-chip', nth: 0, wait: 600 },
+  ],
   // empty 10-frame → 6 counters
   'ten-frame': [{ sel: '.tf-cell', nth: [0, 1, 2, 3, 4, 5] }],
   // "Nothing moves yet" → build a rail, then RUN it so a trail is drawn.

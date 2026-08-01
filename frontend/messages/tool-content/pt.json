@@ -1134,6 +1134,24 @@
     "metaTitle": "O Barbante do Contorno | medir a volta de uma figura",
     "metaDescription": "Um barbante dá a volta numa figura e deita reto numa trilha marcada com a largura da figura. Ferramenta gratuita para a lousa digital."
   },
+  "comparison-planks": {
+    "slug": "comparar-comprimentos-diferenca-anos-iniciais",
+    "name": "As Duas Ripas",
+    "tagline": "Duas ripas começam na mesma linha. Sobre o que passa da mais comprida aparece um colchete: esse retalho sai dali e vai para a ponta da curta, e então as duas chegam igualmente longe.",
+    "about": [
+      "Duas ripas começam na mesma linha vertical. A turma deixa qualquer uma delas mais comprida ou mais curta arrastando a ponta, sempre em quantidades inteiras. Começar do mesmo lugar não é detalhe de desenho: é o que faz a comparação valer. Quando dois objetos não partem do mesmo ponto, o que parece maior pode não ser, e é justamente esse engano que aparece no primeiro e no segundo ano, quando as crianças comparam duas coisas encostadas de qualquer jeito.",
+      "Assim que uma delas chega mais longe, aparece um colchete sobre a parte que passa. Esse colchete não é uma marca: é uma alça. Ao arrastá-lo para baixo, o retalho se solta da ripa comprida e fica ali, solto, separado de tudo. Dá para levá-lo até a ponta da ripa curta, onde ele encosta ponta com ponta, e então a ripa curta com o retalho chega exatamente até onde a comprida termina. A diferença deixa de ser conta e vira uma coisa que se pega com a mão.",
+      "Essa é a ideia central. A diferença entre as duas ripas não é um número a descobrir: é uma parte da ripa comprida, e é exatamente a parte que faltava na curta. As crianças enxergam isso porque são elas que movem. A ripa curta não cresce por mágica; ela recebe algo que estava na outra. Ver a diferença como um objeto que sai e volta sustenta depois a subtração e as situações de comparação muito melhor do que decorar qual é a conta certa.",
+      "Cada ripa mostra o próprio número. O retalho não mostra nenhum, e isso é proposital: o terceiro número é o que a turma fala em voz alta. A ferramenta não pergunta nada, não recolhe respostas, não corrige e não tem tempo nem pontuação; ela apenas mostra o que acontece. Conversa direto com o que a BNCC pede nos anos iniciais sobre comparar comprimentos e sobre a subtração entendida como diferença."
+    ],
+    "howToUse": [
+      "Projete a ferramenta e arraste as pontas até as duas ripas ficarem de tamanhos diferentes; uma criança também pode fazer isso na lousa.",
+      "Antes de tocar no colchete, peça que a turma diga em voz alta quanto mede o retalho que passa. Acolha todos os palpites, inclusive os que não combinam entre si.",
+      "Arraste o colchete para baixo. O retalho se solta da ripa comprida e fica solto: pergunte se ele continua do mesmo tamanho agora que saiu.",
+      "Leve-o até a ponta da ripa curta e encoste ponta com ponta. Deixe a turma ver que agora as duas chegam igualmente longe e pergunte de quem era aquele retalho.",
+      "Ponha de volta no lugar, mude uma ripa só e repita. Depois de duas ou três duplas, a turma começa a prever o tamanho do retalho antes mesmo de você tirá-lo."
+    ]
+  },
   "labels": {
     "about": "Sobre esta ferramenta",
     "howToUse": "Como usar em sala de aula",

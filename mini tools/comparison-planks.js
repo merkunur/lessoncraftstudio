@@ -823,12 +823,13 @@
       this._numA.textContent = String(s.a);
       this._numB.textContent = String(s.b);
 
-      var pct = function (el, x, y) {
-        el.style.left = (x / ComparisonPlanks.W * 100) + '%';
+      var pct = function (el, x, y, clamp) {
+        var L = (x / ComparisonPlanks.W * 100) + '%';
+        el.style.left = clamp ? ('clamp(16px, ' + L + ', calc(100% - 16px))') : L;
         el.style.top = (y / ComparisonPlanks.H * 100) + '%';
       };
-      pct(this._numA, this.X0 + K * s.a, this.A_Y - 46);
-      pct(this._numB, this.X0 + K * s.b, this.B_Y + this.BAR_H + 46);
+      pct(this._numA, this.X0 + K * s.a, this.A_Y - 46, true);
+      pct(this._numB, this.X0 + K * s.b, this.B_Y + this.BAR_H + 46, true);
       pct(this._hA, this.X0 + K * s.a, this.A_Y + this.BAR_H / 2);
       pct(this._hB, this.X0 + K * s.b, this.B_Y + this.BAR_H / 2);
       /* ONE element, TWO jobs: it is the BRACKET's grip while the piece

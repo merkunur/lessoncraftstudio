@@ -1134,6 +1134,24 @@
     "metaTitle": "Lo spago del contorno — misurare il giro, primaria",
     "metaDescription": "Uno spago fa il giro di una figura e si stende dritto su una pista graduata con la larghezza della figura. Strumento gratuito per la LIM."
   },
+  "comparison-planks": {
+    "slug": "confrontare-lunghezze-differenza-primaria",
+    "name": "Le due travi",
+    "tagline": "Due travi partono dalla stessa linea. Sopra ciò che sporge dalla più lunga compare una parentesi: quel ritaglio si stacca e va in fondo alla corta, e così le due arrivano allo stesso punto.",
+    "about": [
+      "Due travi partono dalla stessa linea verticale. La classe le allunga o le accorcia trascinando l'estremità, sempre a quantità intere. Che partano dallo stesso punto non è un dettaglio del disegno: è ciò che rende sensato il confronto. Quando due oggetti non partono dallo stesso punto, quello che sembra più lungo può non esserlo, ed è proprio l'errore che si vede in prima e in seconda quando i bambini confrontano due cose appoggiate alla rinfusa.",
+      "Appena una delle due arriva più lontano, sopra la parte che sporge compare una parentesi. Quella parentesi non è un segno: è una maniglia. Trascinandola verso il basso, il ritaglio si stacca dalla trave lunga e resta lì, libero, staccato da tutto. Si può portare in fondo alla trave corta, dove si appoggia di seguito, e allora la trave corta con il ritaglio arriva esattamente dove finisce quella lunga. La differenza smette di essere un calcolo e diventa una cosa che si prende in mano.",
+      "È questa l'idea centrale. La differenza fra le due travi non è un numero da trovare: è una parte della trave lunga, ed è esattamente la parte che mancava alla corta. I bambini lo vedono perché sono loro a spostarla. La trave corta non cresce per magia: riceve qualcosa che stava nell'altra. Vedere la differenza come un oggetto che si toglie e si rimette regge poi la sottrazione e le situazioni di confronto molto meglio che ricordarsi quale operazione si fa.",
+      "Ogni trave mostra il proprio numero. Il ritaglio non ne mostra nessuno, ed è voluto: il terzo numero è quello che la classe dice ad alta voce. Lo strumento non chiede niente, non raccoglie risposte, non corregge e non ha tempo né punteggio; mostra soltanto quello che succede. Va incontro a quanto le Indicazioni nazionali chiedono in prima e in seconda sul confronto di lunghezze e sulla sottrazione intesa come differenza."
+    ],
+    "howToUse": [
+      "Proietta lo strumento e trascina le estremità finché le due travi non hanno lunghezze diverse; può farlo anche un bambino alla lavagna.",
+      "Prima di toccare la parentesi, chiedi alla classe di dire ad alta voce quanto è lungo il ritaglio che sporge. Accogli tutte le risposte, anche quelle diverse fra loro.",
+      "Trascina la parentesi verso il basso. Il ritaglio si stacca dalla trave lunga e resta libero: chiedi se è ancora lungo uguale adesso che è fuori.",
+      "Portalo in fondo alla trave corta e appoggialo di seguito. Lascia vedere alla classe che ora le due arrivano allo stesso punto e chiedi di chi era quel ritaglio.",
+      "Rimettilo a posto, cambia una sola trave e ripeti. Dopo due o tre coppie la classe comincia a prevedere quanto sarà lungo il ritaglio prima ancora che tu lo stacchi."
+    ]
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

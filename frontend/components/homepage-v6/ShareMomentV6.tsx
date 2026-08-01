@@ -1,6 +1,8 @@
-/* ShareMomentV6 (v8 "Open House") — one link, one QR, 25 kids. The arrow
-   terminates at visible objects on BOTH ends (the sheet and the QR):
-   no orphan geometry. Personal links are honestly tagged Teacher-plan. */
+/* ShareMomentV6 (v9 "Morning Lessons, Running") — one link, one QR, 25
+   kids. The traveler sheet TWISTS gently in the air (inner wrapper — the
+   anchor keeps its tilt+lift), the coral arrow DRAWS itself toward the QR,
+   and a small cream tag flutters on the QR card's corner. The QR itself
+   never moves (readable surfaces never animate). */
 
 import { getTranslations } from 'next-intl/server';
 
@@ -40,13 +42,15 @@ export default async function ShareMomentV6({ locale, travelerThumb }: Props) {
               the other. */}
           <div className="flex flex-wrap items-center justify-center gap-5">
             <span
-              className="hv7-sheet hv7-tilt-c hv7-lift flex-none"
-              style={{ width: 'clamp(190px, 20vw, 280px)' }}
+              className="hv7-sheet hv7-tilt-c hv7-lift flex-none hv9-persp"
+              style={{ width: 'clamp(190px, 17vw, 240px)' }}
             >
-              <img src={travelerThumb} alt={t('penTraveler')} width={480} height={620} loading="lazy" />
+              <span className="hv9-twist">
+                <img src={travelerThumb} alt={t('penTraveler')} width={480} height={620} loading="lazy" />
+              </span>
             </span>
             <svg
-              className="text-lcs-coral shrink-0 hidden sm:block"
+              className="text-lcs-coral shrink-0 hidden sm:block hv9-arrow-draw"
               width="56"
               height="26"
               viewBox="0 0 56 26"
@@ -59,7 +63,8 @@ export default async function ShareMomentV6({ locale, travelerThumb }: Props) {
             >
               <path d="M2 13h50M42 4l12 9-12 9" />
             </svg>
-            <div className="hv6-card hv7-tilt-b hv7-lift p-3 flex-none w-[190px]">
+            <div className="hv6-card hv7-tilt-b hv7-lift p-3 flex-none w-[190px] relative overflow-visible">
+              <span className="hv9-qrtag" aria-hidden="true" />
               <img
                 src="/homepage/qr.png"
                 alt={t('qrAlt')}

@@ -1,11 +1,13 @@
-/* MakeMomentV6 (v8 "Open House") — the maker gets its 4× pixels, and the
-   Print story (BothWays) merges in as the outputs column: one build, two
-   REAL artifacts — the interactive worksheet playing, and its printed twin
-   with the answer key. */
+/* MakeMomentV6 (v9 "Morning Lessons, Running") — the maker gets its 4×
+   pixels, the Print story rides the outputs column, and the MAKING motion
+   is shown by a working machine: c·a·t letter tiles drop into their slots
+   while a chalk rule sweeps beneath. A ten-frame fills on the seam out. */
 
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import { MAKER_COUNT } from '@/lib/seo/maker-content';
+import ToolVignette from './ToolVignette';
+import SeamInstrument from './SeamInstrument';
 
 interface Props {
   locale: string;
@@ -115,8 +117,17 @@ export default async function MakeMomentV6({ locale, travelerThumb }: Props) {
               </div>
             </div>
             <p className="hv6-pen mt-3">{tPaper('penTraveler')}</p>
+
+            {/* the making, shown not told: tiles drop, the rule sweeps */}
+            <div className="hv9-make-tiles mt-6" aria-hidden="true">
+              <ToolVignette variant="letter-tiles" />
+            </div>
+            <p className="hv6-pen mt-2">{t('penTiles')}</p>
           </div>
         </div>
+
+        {/* a ten-frame fills on the seam into the share band */}
+        <SeamInstrument variant="ten-frame" />
       </div>
     </section>
   );

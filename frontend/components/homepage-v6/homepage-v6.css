@@ -1,5 +1,17 @@
 /* ═══════════════════════════════════════════════════════════════════════════
-   HOMEPAGE v8 — "OPEN HOUSE" (2026-08-01, the rebuild-in-daylight)
+   HOMEPAGE v9 — "MORNING LESSONS, RUNNING" (2026-08-02)
+
+   The v8 daylight open-house, but every instrument on the page is
+   WORKING: the full Calder classroom mobile is the hero, the six tool
+   cards are live pure-CSS machines, small instruments run on the band
+   seams, and the product itself animates (a worksheet checks itself).
+   MOTION LAWS: transform/opacity only (clip-path solely on the arrow
+   draw-on) · no keyframe moves during more than ~35% of its cycle ·
+   coprime periods 7-23s, negative phases · one dominant motion per
+   viewport (the fold's mobile is the page's only large one) · readable
+   text surfaces never animate · reduced-motion = composed poses.
+
+   (v8 — "OPEN HOUSE" heritage below, 2026-08-01)
 
    The classroom on open-house morning: ONE continuous sheet of warm paper
    in daylight, covered edge-to-edge with the product's own bright pages,
@@ -309,18 +321,6 @@
    holding the compact Calder mobile. ═══ */
 /* No `position` here: call sites position it (the fold uses Tailwind
    `absolute`, which this rule must not override). */
-.hv7-chalkpanel {
-  width: 350px;
-  max-width: 100%;
-  border-radius: 22px;
-  background:
-    radial-gradient(120% 90% at 80% 8%, rgba(242, 120, 75, 0.18) 0%, transparent 55%),
-    linear-gradient(160deg, #14322D 0%, #0E544A 100%);
-  box-shadow: var(--e3), inset 0 0 0 1px rgba(251, 243, 228, 0.12);
-  padding: 14px 14px 6px;
-  color: var(--hv6-cream);
-  overflow: clip;
-}
 
 /* ═══ THE CLASS INDEX (BrowseByTopicSSR hv6 branch) — warm cream cards on
    the paper; the index's density is the whole page's texture now. ═══ */
@@ -349,24 +349,29 @@
   background: rgba(20, 107, 94, 0.45);
 }
 
-/* ═══ THE COMPACT CLASSROOM MOBILE — lives only inside the chalk panel.
-   Pruned form: balance beam + worksheet+QR tag + mini rekenrek + clock.
-   Amplitudes ≤0.8° — an accent, not a show. ═══ */
+/* ═══ THE CLASSROOM MOBILE (v9: full sculpture, daylight ink) — the hero.
+   Balance-beam top arm; worksheet + QR tag; mini rekenrek; clock; word
+   rack ("c a t"); a 200px dissolving drop-thread. Amplitudes restored to
+   the v6.1 show values (1.2–3.2°). Threads and hardware are re-inked for
+   the paper ground: warm slate lines (--mob-line) + wood knots — the
+   original cream strings vanish on cream. ═══ */
 .hv6-mob {
   position: relative;
-  width: 320px;
-  height: 340px;
+  width: 690px;
+  height: 560px;
   margin: 0 auto;
   pointer-events: none;
 
-  --p1x: 186px;
-  --a1w: 236px; --a1p: 90px;
-  --a2w: 130px; --a2p: 78px;
-  --t-ceil: 34px; --t-sheet: 44px; --t-n2: 26px;
-  --t-rek: 40px; --t-clk: 30px;
-  --sheetw: 120px;
-  --rekw: 112px; --rekh: 58px;
-  --clkd: 64px;
+  --mob-line: rgba(90, 80, 60, 0.5);
+  --p1x: 347px;
+  --a1w: 340px; --a1p: 197px;
+  --a2w: 230px; --a2p: 138px;
+  --a3w: 128px; --a3p: 70px;
+  --t-ceil: 56px; --t-sheet: 64px; --t-n2: 36px;
+  --t-rek: 64px; --t-n4: 36px; --t-clk: 33px; --t-word: 87px;
+  --sheetw: 172px; --sheeth: 218px;
+  --rekw: 148px; --rekh: 74px;
+  --clkd: 88px; --wordw: 98px;
 }
 .hv6-mob-thread {
   position: absolute;
@@ -376,9 +381,9 @@
   margin-left: -1px;
   border-radius: 1px;
   background: linear-gradient(180deg,
-    rgba(251, 243, 228, 0.16) 0%,
-    rgba(251, 243, 228, 0.58) 18%,
-    rgba(251, 243, 228, 0.62) 100%);
+    rgba(90, 80, 60, 0.14) 0%,
+    rgba(90, 80, 60, 0.5) 18%,
+    var(--mob-line, rgba(90, 80, 60, 0.5)) 100%);
 }
 .hv6-mob-thread::after {
   content: '';
@@ -389,7 +394,7 @@
   height: 5px;
   margin-left: -2.5px;
   border-radius: 50%;
-  background: #F5DFC2;
+  background: #C9A76F;
 }
 .hv6-mob-thread.is-ceiling { left: var(--p1x); height: var(--t-ceil); }
 .hv6-mob-hang {
@@ -397,7 +402,7 @@
   inset: 0;
   transform-origin: var(--p1x) 0;
   animation: hv6MobSway 19s var(--sway-ease) -5s infinite;
-  --amp: 0.6deg;
+  --amp: 1.2deg;
 }
 .hv6-mob-arm {
   position: absolute;
@@ -409,7 +414,7 @@
   width: var(--a1w);
   height: 8px;
   transform-origin: var(--a1p) 50%;
-  --amp: 0.8deg; --period: 13s; --phase: -4s;
+  --amp: 2deg; --period: 13s; --phase: -4s;
 }
 .hv6-mob-arm.is-a2 {
   left: calc(0px - var(--a2p));
@@ -417,14 +422,21 @@
   width: var(--a2w);
   height: 4px;
   transform-origin: var(--a2p) 50%;
-  --amp: 0.8deg; --period: 11s; --phase: -7s;
+  --amp: 2.6deg; --period: 11s; --phase: -7s;
 }
-/* the third arm + word tiles are pruned in the compact form */
-.hv6-mob-arm.is-a3, .hv6-mob-node.is-n6 { display: none; }
+.hv6-mob-arm.is-a3 {
+  left: calc(0px - var(--a3p));
+  top: var(--t-n4);
+  width: var(--a3w);
+  height: 3px;
+  transform-origin: var(--a3p) 50%;
+  --amp: 3.2deg; --period: 7s; --phase: -2s;
+  z-index: -1;
+}
 .hv6-mob-beam { position: absolute; inset: 0; border-radius: 4px; }
 .hv6-mob-beam.is-main {
   background: linear-gradient(180deg, #2E9282 0%, #146B5E 100%);
-  box-shadow: inset 0 1px 0 rgba(251, 243, 228, 0.28), 0 2px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 1px 0 rgba(251, 243, 228, 0.28), 0 2px 6px rgba(20, 50, 45, 0.2);
 }
 .hv6-mob-beam.is-main::after {
   content: '';
@@ -434,7 +446,7 @@
   bottom: -4px;
   height: 5px;
   background: repeating-linear-gradient(90deg,
-    transparent 0 34px, rgba(251, 243, 228, 0.55) 34px 36px);
+    transparent 0 34px, rgba(90, 80, 60, 0.4) 34px 36px);
   border-radius: 2px;
 }
 .hv6-mob-beam.is-main::before {
@@ -446,12 +458,12 @@
   height: 12px;
   margin: -6px 0 0 -6px;
   border-radius: 50%;
-  border: 3px solid #F5DFC2;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+  border: 3px solid #C9A76F;
+  box-shadow: 0 1px 3px rgba(20, 50, 45, 0.25);
 }
 .hv6-mob-beam.is-dowel {
   background: linear-gradient(180deg, #E9CFA0 0%, #D9B27E 100%);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.28);
+  box-shadow: 0 2px 4px rgba(20, 50, 45, 0.18);
   border-radius: 2px;
 }
 .hv6-mob-node {
@@ -462,17 +474,19 @@
   animation: hv6MobSway var(--period, 13s) var(--sway-ease) var(--phase, 0s) infinite;
   --amp: 0deg;
 }
-.hv6-mob-node.is-n1 { left: 0; --amp: -0.6deg; --period: 13s; --phase: -4s; perspective: 900px; z-index: 3; }
+.hv6-mob-node.is-n1 { left: 0; --amp: -1.4deg; --period: 13s; --phase: -4s; perspective: 900px; z-index: 3; }
 .hv6-mob-node.is-n2 { left: 100%; }
-.hv6-mob-node.is-n3 { left: 0; --amp: -0.7deg; --period: 11s; --phase: -7s; z-index: 2; }
+.hv6-mob-node.is-n3 { left: 0; --amp: -1.8deg; --period: 11s; --phase: -7s; z-index: 2; }
 .hv6-mob-node.is-n4 { left: 100%; }
-.hv6-mob-node.is-n5 { left: 0; --amp: -0.8deg; --period: 7s; --phase: -2s; }
+.hv6-mob-node.is-n5 { left: 0; --amp: -2.2deg; --period: 7s; --phase: -2s; }
+.hv6-mob-node.is-n6 { left: 100%; --amp: -2.2deg; --period: 7s; --phase: -2s; }
 .hv6-mob-node > .hv6-mob-thread { top: 0; }
 .hv6-mob-node.is-n1 > .hv6-mob-thread { height: var(--t-sheet); }
 .hv6-mob-node.is-n2 > .hv6-mob-thread { height: var(--t-n2); }
 .hv6-mob-node.is-n3 > .hv6-mob-thread { height: var(--t-rek); }
-.hv6-mob-node.is-n4 > .hv6-mob-thread { height: var(--t-n2); }
+.hv6-mob-node.is-n4 > .hv6-mob-thread { height: var(--t-n4); }
 .hv6-mob-node.is-n5 > .hv6-mob-thread { height: var(--t-clk); }
+.hv6-mob-node.is-n6 > .hv6-mob-thread { height: var(--t-word); }
 .hv6-mob-obj { position: absolute; }
 .hv6-mob-obj.is-sheet {
   top: var(--t-sheet);
@@ -481,23 +495,37 @@
   margin-left: calc(var(--sheetw) / -2);
   background: #fff;
   border-radius: 6px;
-  padding: 5px;
-  box-shadow: var(--e2), 0 24px 50px -18px rgba(0, 0, 0, 0.5);
+  padding: 7px;
+  box-shadow: var(--e2), 0 18px 40px -18px rgba(20, 50, 45, 0.28);
   transform-origin: 50% 0;
   animation: hv6SheetTwist 23s var(--sway-ease) -11s infinite;
 }
 .hv6-mob-obj.is-sheet img { display: block; width: 100%; height: auto; border-radius: 3px; }
-.hv6-mob-drop { display: none; }
+/* The drop DISSOLVES: 200px fade to nothing below the sheet — the eye
+   completes the line down into the page. */
+.hv6-mob-drop {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 2px;
+  margin-left: -1px;
+  height: 200px;
+  background: linear-gradient(180deg,
+    rgba(90, 80, 60, 0.45) 0%,
+    rgba(90, 80, 60, 0.2) 55%,
+    rgba(90, 80, 60, 0) 100%);
+}
 .hv6-mob-tag {
   position: absolute;
-  top: calc(var(--t-sheet) - 22px);
-  left: -48px;
-  width: 40px;
+  top: calc(var(--t-sheet) - 26px);
+  left: -58px;
+  width: 48px;
   padding: 10px 4px 4px;
   background: var(--hv6-cream);
+  border: 1px solid rgba(20, 50, 45, 0.08);
   border-radius: 5px;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.32);
-  transform-origin: 20px 6px;
+  box-shadow: 0 3px 8px rgba(20, 50, 45, 0.2);
+  transform-origin: 24px 6px;
   transform: rotate(-8deg);
   animation: hv6TagFlutter 7s var(--sway-ease) -3.5s infinite;
   z-index: 4;
@@ -518,25 +546,25 @@
   content: '';
   position: absolute;
   top: 6px;
-  left: 20px;
-  width: 36px;
+  left: 24px;
+  width: 43px;
   height: 1.5px;
   border-radius: 1px;
-  background: rgba(251, 243, 228, 0.55);
+  background: rgba(90, 80, 60, 0.45);
   transform-origin: left center;
   transform: rotate(-33deg);
 }
-.hv6-mob-tag img { display: block; width: 32px; height: 32px; border-radius: 3px; }
+.hv6-mob-tag img { display: block; width: 40px; height: 40px; border-radius: 3px; }
 .hv6-mob-obj.is-rek {
-  top: calc(var(--t-rek) + 16px);
+  top: calc(var(--t-rek) + 20px);
   left: 0;
   width: var(--rekw);
   height: var(--rekh);
   margin-left: calc(var(--rekw) / -2);
-  border: 5px solid var(--hv6-cream);
+  border: 5px solid #D9B27E;
   border-radius: 10px;
-  background: rgba(251, 243, 228, 0.07);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  background: rgba(20, 107, 94, 0.05);
+  box-shadow: 0 4px 12px rgba(20, 50, 45, 0.18);
   overflow: clip;
   display: flex;
   flex-direction: column;
@@ -547,11 +575,11 @@
   position: absolute;
   top: var(--t-rek);
   left: 50%;
-  width: 46px;
-  height: 16px;
-  margin-left: -23px;
-  border-left: 2px solid rgba(251, 243, 228, 0.5);
-  border-right: 2px solid rgba(251, 243, 228, 0.5);
+  width: 60px;
+  height: 22px;
+  margin-left: -30px;
+  border-left: 2px solid rgba(90, 80, 60, 0.45);
+  border-right: 2px solid rgba(90, 80, 60, 0.45);
   transform: perspective(60px) rotateX(14deg);
 }
 .hv6-mob-rrail {
@@ -560,7 +588,7 @@
   justify-content: flex-end;
   gap: 2px;
   align-items: center;
-  height: 13px;
+  height: 15px;
 }
 .hv6-mob-rrail::before {
   content: '';
@@ -571,26 +599,60 @@
   height: 3px;
   margin-top: -1.5px;
   border-radius: 2px;
-  background: rgba(251, 243, 228, 0.45);
+  background: rgba(90, 80, 60, 0.4);
+}
+/* ── Stage rekenrek (ToolVignette) — beads compose 3, then 7, then rest.
+   Containment: push distance computed from the rail's OWN slack (container
+   query), capped at design 92px; overflow clip is the guarantee. ── */
+.hv6-rek {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  padding: 10px 6px;
+  container-type: inline-size;
+  overflow: clip;
+  border-radius: 14px;
+}
+.hv6-rek-rail {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+  height: 30px;
+  align-items: center;
+}
+.hv6-rek-rail::before {
+  content: '';
+  position: absolute;
+  left: -6px;
+  right: -6px;
+  top: 50%;
+  height: 5px;
+  margin-top: -2.5px;
+  border-radius: 3px;
+  background: linear-gradient(180deg, #DCE3D3 0%, #c3cdb9 100%);
 }
 .hv6-rek-bead {
   position: relative;
-  width: 9px;
-  height: 9px;
+  width: 27px;
+  height: 27px;
   border-radius: 50%;
   flex: none;
   background: radial-gradient(circle at 34% 30%, #f9a583 0%, var(--hv6-coral) 45%, var(--hv6-coral-deep) 100%);
-  box-shadow: 0 2px 4px rgba(20, 30, 28, 0.22), inset 0 -1px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 4px rgba(20, 30, 28, 0.22), inset 0 -2px 3px rgba(0, 0, 0, 0.12);
 }
 .hv6-rek-bead.is-t {
   background: radial-gradient(circle at 34% 30%, #4d9c8d 0%, var(--hv6-teal) 45%, var(--hv6-teal-deep) 100%);
 }
 .hv6-rek-bead.is-push {
-  --push: -44px;
-  animation: hv6BeadPush 21s cubic-bezier(0.22, 1, 0.36, 1) infinite;
+  --push: calc(-1 * clamp(0px, 100cqw - 333px, 92px));
+  animation: hv6BeadPush 9s cubic-bezier(0.22, 1, 0.36, 1) infinite;
   animation-delay: calc(var(--i, 0) * 130ms + var(--wave, 0) * 1s);
 }
-.hv6-rek-bead.is-set { transform: translateX(-44px); }
+/* inside the mobile: mini beads, fixed push, slow show */
+.hv6-mob .hv6-rek-bead { width: 11px; height: 11px; }
+.hv6-mob .hv6-rek-bead.is-push { --push: -58px; animation-duration: 21s; }
+.hv6-mob .hv6-rek-bead.is-set { transform: translateX(-58px); }
 @keyframes hv6BeadPush {
   0% { transform: translateX(0); }
   6.5% { transform: translateX(calc(var(--push) * 1.06)); }
@@ -603,14 +665,47 @@
   width: var(--clkd);
   height: var(--clkd);
   margin-left: calc(var(--clkd) / -2);
-  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.3));
+  filter: drop-shadow(0 4px 10px rgba(20, 50, 45, 0.2));
 }
-.hv6-mob-clockscale { width: 132px; height: 132px; transform: scale(0.485); transform-origin: 0 0; }
+.hv6-mob-clockscale { width: 132px; height: 132px; transform: scale(0.6667); transform-origin: 0 0; }
 .hv6-mob-clockscale .hv6-clock { margin: 0; }
 .hv6-mob .hv6-clock-hand.is-min,
 .hv6-mob .hv6-clock-hand.is-hour { animation-duration: 21s; }
-/* word tiles pruned */
-.hv6-mob-obj.is-word, .hv6-mob-rack, .hv6-mob-tile { display: none; }
+.hv6-mob-obj.is-word {
+  top: var(--t-word);
+  left: 0;
+  width: var(--wordw);
+  margin-left: calc(var(--wordw) / -2);
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  padding-bottom: 5px;
+}
+.hv6-mob-rack {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 5px;
+  border-radius: 3px;
+  background: linear-gradient(180deg, #E9CFA0 0%, #D9B27E 100%);
+  box-shadow: 0 2px 4px rgba(20, 50, 45, 0.18);
+}
+.hv6-mob-tile {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--hv6-cream);
+  border: 2px solid rgba(20, 107, 94, 0.4);
+  border-radius: 7px;
+  font-family: var(--font-baloo-2), system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
+  color: var(--hv6-teal);
+  box-shadow: 0 2px 5px rgba(20, 50, 45, 0.18);
+}
 
 /* the clock face (used inside the mobile) */
 .hv6-clock {
@@ -685,14 +780,79 @@
   100% { transform: rotate(var(--amp, 0deg)); }
 }
 @keyframes hv6SheetTwist {
-  0% { transform: rotateY(9deg); }
-  50% { transform: rotateY(-9deg); }
-  100% { transform: rotateY(9deg); }
+  0% { transform: rotateY(13deg); }
+  50% { transform: rotateY(-13deg); }
+  100% { transform: rotateY(13deg); }
 }
 @keyframes hv6TagFlutter {
   0% { transform: rotate(-14deg); }
   50% { transform: rotate(-2deg); }
   100% { transform: rotate(-14deg); }
+}
+
+/* Narrow-desktop trim (1024-1151): pull the far cluster inboard. */
+@media (min-width: 1024px) and (max-width: 1151px) {
+  .hv6-mob {
+    --a2w: 200px; --a2p: 138px;
+    --a3w: 112px; --a3p: 62px;
+    --wordw: 92px;
+  }
+}
+/* The 690px layout box is WIDER than its column: auto margins resolve
+   to 0, so center it explicitly (margin-left: 50% - half). */
+.hv9-fold-mobile { width: 690px; margin-left: calc(50% - 345px); }
+
+/* Desktop fit: the fixed 690px sculpture scales into the hero column
+   (620-660px across desktop widths); inner animations compose under an
+   ancestor scale. Origin 50% 0 keeps the ceiling thread anchored. */
+@media (min-width: 1280px) {
+  .hv9-fold-mobile { transform: scale(0.87); transform-origin: 50% 0; }
+  .hv9-fold-stage { min-height: 560px; }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .hv9-fold-mobile { transform: scale(0.72); transform-origin: 50% 0; }
+  .hv9-fold-stage { min-height: 450px; }
+}
+
+/* Tiny phones: the 320 box exceeds the padded container — scale down. */
+@media (max-width: 379px) {
+  .hv6-mob { transform: scale(0.88); transform-origin: 50% 0; }
+}
+/* Compressed sculpture (<1024): beam + worksheet+tag + rekenrek.
+   It compresses; it never vanishes. */
+@media (max-width: 1023px) {
+  .hv6-mob {
+    margin: 0 auto;
+    width: 320px;
+    height: 340px;
+    --p1x: 186px;
+    --a1w: 206px; --a1p: 80px;
+    --a2w: 104px; --a2p: 100px;
+    --t-ceil: 34px; --t-sheet: 44px; --t-n2: 26px;
+    --t-rek: 40px; --t-clk: 30px;
+    --sheetw: 120px; --sheeth: 152px;
+    --rekw: 112px; --rekh: 58px;
+    --clkd: 64px;
+  }
+  /* simplified two-arm sculpture: beam + worksheet+tag + rekenrek. The
+     clock/word cluster and the drop thread need more air than a phone
+     has — a cleanly ABSENT member beats a sawn-off one. */
+  .hv6-mob-arm.is-a3 { width: 0; transform: none; animation: none; left: 0; top: 0; height: 0; }
+  .hv6-mob-arm.is-a3 .hv6-mob-beam,
+  .hv6-mob-node.is-n4,
+  .hv6-mob-node.is-n5,
+  .hv6-mob-node.is-n6 { display: none; }
+  .hv6-mob-obj.is-sheet { padding: 5px; }
+  .hv6-mob-drop { display: none; }
+  .hv6-mob .hv6-rek-bead { width: 9px; height: 9px; }
+  .hv6-mob .hv6-rek-bead.is-push { --push: -44px; }
+  .hv6-mob .hv6-rek-bead.is-set { transform: translateX(-44px); }
+  .hv6-mob-rrail { height: 13px; }
+  .hv6-mob-clockscale { transform: scale(0.485); }
+  .hv6-mob-tag { width: 40px; left: -54px; top: calc(var(--t-sheet) - 46px); transform-origin: 20px 6px; }
+  .hv6-mob-tag::after { left: 20px; width: 36px; }
+  .hv6-mob-tag img { width: 32px; height: 32px; }
+  .hv6-mob-yoke { width: 46px; height: 16px; margin-left: -23px; }
 }
 
 /* ═══ PORTED hv3 CLASSES — FeaturedDeckTileV3 ═══ */
@@ -739,23 +899,802 @@
 }
 .hv6 .hv3-locale-chip-active { background: #146B5E; color: #FBF3E4; }
 
+/* ===================================================================
+   APPARATUS VIGNETTES (revived v6 working instruments - daylight-native)
+   =================================================================== */
+
+/* Small cream slip for pen-note captions that would otherwise sit raw. */
+.hv6-slip {
+  display: inline-block;
+  background: var(--hv6-cream);
+  border-radius: 8px;
+  padding: 5px 12px;
+  box-shadow: 0 8px 18px -8px rgba(20, 50, 45, 0.3);
+}
+
+/* -- Number balance: one side heavy, a weight drops, the beam settles
+      level. Nobody said "wrong". -- */
+.hv6-bal {
+  position: relative;
+  height: 128px;
+  width: 260px;
+  margin: 0 auto;
+}
+@media (max-width: 379px) {
+  .hv6-bal { transform: scale(0.82); transform-origin: 50% 0; }
+}
+.hv6-bal-post {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  width: 0;
+  height: 0;
+  transform: translateX(-50%);
+  border-left: 17px solid transparent;
+  border-right: 17px solid transparent;
+  border-bottom: 46px solid var(--hv6-teal);
+}
+.hv6-bal-foot {
+  position: absolute;
+  left: 50%;
+  bottom: 2px;
+  width: 92px;
+  height: 8px;
+  transform: translateX(-50%);
+  border-radius: 4px;
+  background: var(--hv6-teal-deep);
+}
+.hv6-bal-beam {
+  position: absolute;
+  left: 50%;
+  top: 38px;
+  width: 232px;
+  height: 8px;
+  margin-left: -116px;
+  border-radius: 4px;
+  background: linear-gradient(180deg, #1d7c6d 0%, var(--hv6-teal) 100%);
+  transform-origin: 50% 50%;
+  animation: hv6Beam 10s cubic-bezier(0.34, 1.2, 0.5, 1) infinite;
+}
+.hv6-bal-pan {
+  position: absolute;
+  top: 4px;
+  width: 56px;
+  height: 40px;
+  transform-origin: 50% 0;
+  animation: hv6PanLevel 10s cubic-bezier(0.34, 1.2, 0.5, 1) infinite;
+}
+.hv6-bal-pan.is-l { left: -14px; }
+.hv6-bal-pan.is-r { right: -14px; }
+.hv6-bal-pan::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 34px;
+  height: 22px;
+  margin-left: -17px;
+  border-left: 2px solid rgba(20, 107, 94, 0.55);
+  border-right: 2px solid rgba(20, 107, 94, 0.55);
+  transform: perspective(60px) rotateX(14deg);
+}
+.hv6-bal-pan::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 20px;
+  width: 56px;
+  height: 14px;
+  border-radius: 0 0 26px 26px;
+  background: linear-gradient(180deg, var(--hv6-coral) 0%, var(--hv6-coral-deep) 100%);
+}
+.hv6-bal-cube {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+  background: var(--hv6-cream);
+  border: 2px solid var(--hv6-teal);
+  z-index: 1;
+}
+.hv6-bal-cube.in-pan-r { right: 6px; top: 6px; }
+.hv6-bal-cube.in-pan-r + .hv6-bal-cube.in-pan-r { right: 24px; }
+.hv6-bal-cube.drops {
+  left: 20px;
+  top: 6px;
+  animation: hv6CubeDrop 10s cubic-bezier(0.34, 1.56, 0.64, 1) infinite;
+}
+@keyframes hv6Beam {
+  0%, 8% { transform: rotate(0deg); }
+  14%, 52% { transform: rotate(-7deg); }
+  60% { transform: rotate(2.5deg); }
+  66% { transform: rotate(-1.2deg); }
+  71%, 100% { transform: rotate(0deg); }
+}
+@keyframes hv6PanLevel {
+  0%, 8% { transform: rotate(0deg); }
+  14%, 52% { transform: rotate(7deg); }
+  60% { transform: rotate(-2.5deg); }
+  66% { transform: rotate(1.2deg); }
+  71%, 100% { transform: rotate(0deg); }
+}
+@keyframes hv6CubeDrop {
+  0%, 50% { transform: translateY(-30px); }
+  55%, 100% { transform: translateY(0); }
+}
+
+/* -- Letter tiles: c-a-t drop into their slots; a chalk rule sweeps
+      beneath. -- */
+.hv6-tiles {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding: 46px 8px 20px;
+}
+.hv6-tile-slot {
+  position: relative;
+  width: 52px;
+  height: 52px;
+  border: 2.5px dashed rgba(168, 183, 155, 0.9);
+  border-radius: 12px;
+  background: rgba(220, 227, 211, 0.35);
+}
+.hv6-tile {
+  position: absolute;
+  inset: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--hv6-cream);
+  border: 2px solid rgba(20, 107, 94, 0.35);
+  border-radius: 9px;
+  font-family: var(--font-baloo-2), system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: var(--hv6-teal);
+  box-shadow: 0 3px 6px rgba(20, 30, 28, 0.18);
+  animation: hv6TileDrop 8s cubic-bezier(0.22, 1, 0.36, 1) infinite;
+  animation-delay: calc(var(--i, 0) * 350ms);
+}
+.hv6-tiles-rule {
+  position: absolute;
+  left: 14%;
+  right: 14%;
+  bottom: 6px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--hv6-coral);
+  transform-origin: left center;
+  animation: hv6RuleSweep 8s cubic-bezier(0.22, 1, 0.36, 1) infinite;
+}
+@keyframes hv6TileDrop {
+  0% { transform: translateY(-44px) rotate(-5deg); }
+  5.5% { transform: translateY(3px) rotate(1deg); }
+  7%, 86% { transform: translateY(0) rotate(0deg); }
+  94%, 100% { transform: translateY(-44px) rotate(-5deg); }
+}
+@keyframes hv6RuleSweep {
+  0%, 18% { transform: scaleX(0); }
+  24%, 84% { transform: scaleX(1); }
+  90%, 100% { transform: scaleX(0); }
+}
+
+/* -- Choral counting: the chart writes itself. -- */
+.hv6-choral {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 6px;
+  padding: 4px;
+}
+.hv6-choral-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1;
+  min-width: 0;
+  border-radius: 10px;
+  background: rgba(20, 107, 94, 0.06);
+  font-family: var(--font-baloo-2), system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--hv6-teal);
+  animation: hv6ChoralPop 11s cubic-bezier(0.34, 1.56, 0.64, 1) infinite;
+  animation-delay: calc(var(--i, 0) * 240ms);
+}
+.hv6-choral-cell.is-decade {
+  background: var(--hv6-coral);
+  color: #fff;
+}
+@keyframes hv6ChoralPop {
+  0% { transform: scale(0); }
+  4% { transform: scale(1.12); }
+  6%, 88% { transform: scale(1); }
+  92%, 100% { transform: scale(0); }
+}
+
+/* ===================================================================
+   V9 WORKING INSTRUMENTS - the new machines. Laws: transform/opacity
+   only (clip-path solely on the arrow draw-on); every cycle rests >=65%
+   of its period; coprime periods (9/11/13/15/17/19/21/23s); staggers
+   via --i; containers overflow:clip; every instrument has a composed
+   reduced-motion pose (never blank). All are aria-hidden decoration.
+   =================================================================== */
+
+/* Card art stage for live vignettes inside tool cards. */
+.hv9-vig-art {
+  aspect-ratio: 4 / 3;
+  display: grid;
+  place-items: center;
+  overflow: clip;
+  background:
+    radial-gradient(120% 100% at 50% 0%, rgba(220, 227, 211, 0.35) 0%, transparent 70%),
+    #FDFBF6;
+  border-bottom: 1px solid rgba(20, 50, 45, 0.06);
+}
+
+/* -- Number sieve: the field goes dark; the survivors stay alight. -- */
+.hv9-sieve {
+  display: grid;
+  grid-template-columns: repeat(5, 34px);
+  gap: 5px;
+}
+.hv9-sieve-cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  border-radius: 8px;
+  background: rgba(20, 107, 94, 0.07);
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 0.8125rem;
+  color: var(--hv6-teal);
+}
+.hv9-sieve-cell.is-out {
+  animation: hv9SieveDim 23s ease-in-out infinite;
+  animation-delay: calc(var(--i, 0) * 180ms + var(--vphase, 0s) - 18s);
+}
+.hv9-sieve-cell.is-keep {
+  animation: hv9SievePop 23s cubic-bezier(0.34, 1.56, 0.64, 1) infinite;
+  animation-delay: calc(var(--vphase, 0s) - 18s);
+}
+@keyframes hv9SieveDim {
+  0%, 6% { opacity: 1; transform: scale(1); }
+  14% { opacity: 0.18; transform: scale(0.92); }
+  88% { opacity: 0.18; transform: scale(0.92); }
+  94%, 100% { opacity: 1; transform: scale(1); }
+}
+@keyframes hv9SievePop {
+  0%, 38% { transform: scale(1); }
+  41% { transform: scale(1.12); }
+  44%, 100% { transform: scale(1); }
+}
+
+/* -- The lids: the lid flips open; the counters were there all along. -- */
+.hv9-lids {
+  position: relative;
+  width: 150px;
+  height: 110px;
+  perspective: 700px;
+}
+.hv9-lids-table {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 18px;
+  height: 8px;
+  border-radius: 4px;
+  background: linear-gradient(180deg, #E9CFA0 0%, #D9B27E 100%);
+}
+.hv9-lid-counter {
+  position: absolute;
+  bottom: 28px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 34% 30%, #4d9c8d 0%, var(--hv6-teal) 45%, var(--hv6-teal-deep) 100%);
+  animation: hv9CounterPeek 9s ease-out infinite;
+  animation-delay: calc(var(--i, 0) * 260ms + var(--vphase, 0s));
+}
+.hv9-lid-counter.is-c1 { left: 38px; }
+.hv9-lid-counter.is-c2 { left: 62px; }
+.hv9-lid-counter.is-c3 { left: 86px; }
+.hv9-lid {
+  position: absolute;
+  left: 26px;
+  bottom: 24px;
+  width: 92px;
+  height: 60px;
+  border-radius: 50% 50% 8px 8px / 60% 60% 8px 8px;
+  background: linear-gradient(180deg, var(--hv6-coral) 0%, var(--hv6-coral-deep) 100%);
+  box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.35), 0 3px 8px rgba(20, 50, 45, 0.2);
+  transform-origin: 50% 8%;
+  animation: hv9LidFlip 9s cubic-bezier(0.34, 1.2, 0.5, 1) infinite;
+  animation-delay: var(--vphase, 0s);
+}
+.hv9-lid::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 8px;
+  width: 14px;
+  height: 8px;
+  margin-left: -7px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.5);
+}
+@keyframes hv9LidFlip {
+  0%, 10% { transform: rotateX(0deg); }
+  18%, 72% { transform: rotateX(-102deg); }
+  82%, 100% { transform: rotateX(0deg); }
+}
+@keyframes hv9CounterPeek {
+  0%, 16% { opacity: 0; transform: scale(0.4); }
+  22%, 74% { opacity: 1; transform: scale(1); }
+  80%, 100% { opacity: 0; transform: scale(0.4); }
+}
+
+/* -- Comparison planks: lengths morph past each other; the chevron
+      keeps pointing at the longer one. -- */
+.hv9-planks {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 170px;
+}
+.hv9-plank {
+  height: 14px;
+  border-radius: 7px;
+  background: linear-gradient(180deg, #1d7c6d 0%, var(--hv6-teal) 100%);
+  transform-origin: 0 50%;
+}
+.hv9-plank.is-a { animation: hv9PlankA 11s ease-in-out infinite; animation-delay: var(--vphase, 0s); }
+.hv9-plank.is-b {
+  background: linear-gradient(180deg, var(--hv6-coral) 0%, var(--hv6-coral-deep) 100%);
+  animation: hv9PlankB 11s ease-in-out infinite;
+  animation-delay: var(--vphase, 0s);
+}
+.hv9-plank-mark {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  margin: 2px 0 0 6px;
+  animation: hv9MarkFlip 11s steps(1) infinite;
+  animation-delay: var(--vphase, 0s);
+}
+.hv9-plank-mark::before,
+.hv9-plank-mark::after {
+  content: '';
+  position: absolute;
+  left: 4px;
+  width: 14px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--hv6-ink);
+}
+.hv9-plank-mark::before { top: 5px; transform: rotate(28deg); }
+.hv9-plank-mark::after { bottom: 5px; transform: rotate(-28deg); }
+@keyframes hv9PlankA {
+  0%, 12% { transform: scaleX(1); }
+  44%, 56% { transform: scaleX(0.55); }
+  88%, 100% { transform: scaleX(1); }
+}
+@keyframes hv9PlankB {
+  0%, 12% { transform: scaleX(0.62); }
+  44%, 56% { transform: scaleX(1); }
+  88%, 100% { transform: scaleX(0.62); }
+}
+@keyframes hv9MarkFlip {
+  0%, 30% { transform: rotateY(0deg); }
+  30.01%, 70% { transform: rotateY(180deg); }
+  70.01%, 100% { transform: rotateY(0deg); }
+}
+
+/* -- Draw bag: a token pops out; the record writes itself. -- */
+.hv9-bag-stage {
+  position: relative;
+  width: 160px;
+  height: 110px;
+}
+.hv9-bag {
+  position: absolute;
+  left: 14px;
+  bottom: 12px;
+  width: 62px;
+  height: 66px;
+  border-radius: 14px 14px 26px 26px;
+  background: linear-gradient(180deg, #E9CFA0 0%, #D9B27E 100%);
+  box-shadow: inset 0 3px 0 rgba(255, 255, 255, 0.4), 0 3px 8px rgba(20, 50, 45, 0.18);
+}
+.hv9-bag::before {
+  content: '';
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  top: -4px;
+  height: 9px;
+  border-radius: 5px;
+  background: #C9A76F;
+}
+.hv9-bag-token {
+  position: absolute;
+  left: 36px;
+  bottom: 64px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 34% 30%, #f9a583 0%, var(--hv6-coral) 45%, var(--hv6-coral-deep) 100%);
+  opacity: 0;
+  animation: hv9BagPop 13s cubic-bezier(0.34, 1.2, 0.5, 1) infinite;
+  animation-delay: var(--vphase, 0s);
+}
+.hv9-tally-strip {
+  position: absolute;
+  right: 10px;
+  bottom: 22px;
+  display: flex;
+  gap: 7px;
+}
+.hv9-tally {
+  width: 4px;
+  height: 30px;
+  border-radius: 2px;
+  background: var(--hv6-teal);
+  transform-origin: 50% 0;
+  animation-duration: 13s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-delay: var(--vphase, 0s);
+}
+.hv9-tally.is-t1 { animation-name: hv9TallyW1; }
+.hv9-tally.is-t2 { animation-name: hv9TallyW2; }
+.hv9-tally.is-t3 { animation-name: hv9TallyW3; }
+.hv9-tally.is-t4 { animation-name: hv9TallyW4; }
+@keyframes hv9BagPop {
+  0%, 8% { transform: translate(0, 10px) scale(0.5); opacity: 0; }
+  14% { transform: translate(6px, -26px) scale(1); opacity: 1; }
+  20%, 86% { transform: translate(30px, -2px) scale(1); opacity: 1; }
+  92%, 100% { transform: translate(0, 10px) scale(0.5); opacity: 0; }
+}
+@keyframes hv9TallyW1 {
+  0%, 22% { transform: scaleY(0); }
+  26%, 88% { transform: scaleY(1); }
+  93%, 100% { transform: scaleY(0); }
+}
+@keyframes hv9TallyW2 {
+  0%, 26% { transform: scaleY(0); }
+  30%, 88% { transform: scaleY(1); }
+  93%, 100% { transform: scaleY(0); }
+}
+@keyframes hv9TallyW3 {
+  0%, 30% { transform: scaleY(0); }
+  34%, 88% { transform: scaleY(1); }
+  93%, 100% { transform: scaleY(0); }
+}
+@keyframes hv9TallyW4 {
+  0%, 34% { transform: scaleY(0); }
+  38%, 88% { transform: scaleY(1); }
+  93%, 100% { transform: scaleY(0); }
+}
+
+/* -- Seam instruments: small machines running ON the band seams.
+      Desktop-only accents (<=96px tall). -- */
+.hv9-seam { pointer-events: none; }
+
+/* Beetle walks the arrow strip; the trail follows. Containment by the
+   rekenrek law: walk distance derives from the strip's OWN width. */
+.hv9-strip {
+  position: relative;
+  width: clamp(320px, 40vw, 560px);
+  height: 44px;
+  container-type: inline-size;
+  overflow: clip;
+  border-radius: 12px;
+  background: rgba(20, 107, 94, 0.05);
+  border: 1.5px solid rgba(20, 107, 94, 0.14);
+}
+.hv9-strip::before {
+  content: '';
+  position: absolute;
+  inset: 8px 10px;
+  border-radius: 6px;
+  background: repeating-linear-gradient(90deg,
+    transparent 0 44px, rgba(20, 107, 94, 0.16) 44px 46px);
+}
+.hv9-trail {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  width: calc(100cqw - 44px);
+  height: 3px;
+  margin-top: 6px;
+  border-radius: 2px;
+  background: var(--hv6-coral);
+  transform-origin: 0 50%;
+  animation: hv9TrailGrow 17s linear infinite;
+}
+.hv9-beetle {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  width: 22px;
+  height: 14px;
+  margin-top: -10px;
+  border-radius: 50% 50% 46% 46%;
+  background: radial-gradient(circle at 36% 30%, #2E9282 0%, var(--hv6-teal) 55%, var(--hv6-teal-deep) 100%);
+  box-shadow: 0 2px 3px rgba(20, 50, 45, 0.25);
+  --walk: calc(100cqw - 44px);
+  animation: hv9BeetleWalk 17s ease-in-out infinite;
+}
+.hv9-beetle::before,
+.hv9-beetle::after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: var(--hv6-cream);
+}
+.hv9-beetle::before { left: 4px; }
+.hv9-beetle::after { right: 4px; }
+@keyframes hv9BeetleWalk {
+  0%, 4% { transform: translate(0, 0); opacity: 1; }
+  30% { transform: translate(calc(var(--walk) * 0.5), -2px); opacity: 1; }
+  56%, 88% { transform: translate(var(--walk), 0); opacity: 1; }
+  94%, 100% { transform: translate(0, 0); opacity: 0; }
+}
+@keyframes hv9TrailGrow {
+  0%, 4% { transform: scaleX(0); opacity: 1; }
+  56%, 88% { transform: scaleX(1); opacity: 1; }
+  94%, 100% { transform: scaleX(0); opacity: 0; }
+}
+
+/* Thermometer rises on the seam. */
+.hv9-therm {
+  position: relative;
+  width: 30px;
+  height: 96px;
+}
+.hv9-therm-tube {
+  position: absolute;
+  left: 50%;
+  top: 4px;
+  bottom: 20px;
+  width: 14px;
+  margin-left: -7px;
+  border-radius: 7px;
+  background: #fff;
+  border: 2px solid rgba(20, 107, 94, 0.35);
+  overflow: clip;
+}
+.hv9-therm-col {
+  position: absolute;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  height: 62px;
+  border-radius: 4px;
+  background: linear-gradient(180deg, var(--hv6-coral) 0%, var(--hv6-coral-deep) 100%);
+  transform-origin: 50% 100%;
+  animation: hv9ThermRise 15s ease-in-out infinite;
+}
+.hv9-therm-bulb {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 26px;
+  height: 26px;
+  margin-left: -13px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 34% 30%, #f9a583 0%, var(--hv6-coral) 45%, var(--hv6-coral-deep) 100%);
+  border: 2px solid rgba(20, 107, 94, 0.35);
+}
+.hv9-therm-ticks {
+  position: absolute;
+  left: 100%;
+  top: 8px;
+  bottom: 24px;
+  width: 8px;
+  background: repeating-linear-gradient(180deg,
+    rgba(20, 107, 94, 0.4) 0 2px, transparent 2px 12px);
+}
+@keyframes hv9ThermRise {
+  0%, 8% { transform: scaleY(0.22); }
+  26%, 74% { transform: scaleY(0.82); }
+  90%, 100% { transform: scaleY(0.22); }
+}
+
+/* Ten-frame fills seven counters, holds, clears. */
+.hv9-tenframe {
+  display: grid;
+  grid-template-columns: repeat(5, 26px);
+  grid-auto-rows: 26px;
+  border: 2px solid rgba(20, 107, 94, 0.45);
+  border-radius: 6px;
+  background: #fff;
+}
+.hv9-tf-cell {
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(20, 107, 94, 0.18);
+}
+.hv9-tf-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 34% 30%, #f9a583 0%, var(--hv6-coral) 45%, var(--hv6-coral-deep) 100%);
+  opacity: 0;
+  transform: scale(0);
+}
+.hv9-tf-dot.is-fill {
+  animation: hv9TenFill 19s cubic-bezier(0.34, 1.56, 0.64, 1) infinite;
+  animation-delay: calc(var(--i, 0) * 220ms);
+}
+@keyframes hv9TenFill {
+  0%, 6% { opacity: 0; transform: scale(0); }
+  9% { opacity: 1; transform: scale(1.15); }
+  11%, 86% { opacity: 1; transform: scale(1); }
+  92%, 100% { opacity: 0; transform: scale(0); }
+}
+
+/* -- The self-checking worksheet (Practice wall): teal check stamps
+      appear one by one on a REAL deck thumbnail. -- */
+.hv9-selfcheck { position: relative; }
+.hv9-checks {
+  position: absolute;
+  inset: 6px;
+  pointer-events: none;
+}
+.hv9-check {
+  position: absolute;
+  right: 7%;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--hv6-teal-deep);
+  box-shadow: 0 2px 6px rgba(20, 50, 45, 0.3);
+  opacity: 0;
+  transform: scale(0);
+  animation: hv9StampOn 21s cubic-bezier(0.34, 1.56, 0.64, 1) infinite;
+  animation-delay: calc(var(--i, 0) * 700ms - 14s);
+}
+.hv9-check::after {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 7px;
+  width: 12px;
+  height: 7px;
+  border-left: 3px solid var(--hv6-cream);
+  border-bottom: 3px solid var(--hv6-cream);
+  border-radius: 1px;
+  transform: rotate(-48deg);
+}
+.hv9-check.is-k1 { top: 14%; }
+.hv9-check.is-k2 { top: 36%; }
+.hv9-check.is-k3 { top: 58%; }
+.hv9-check.is-k4 { top: 80%; }
+@keyframes hv9StampOn {
+  0%, 4% { transform: scale(0); opacity: 0; }
+  7% { transform: scale(1.25); opacity: 1; }
+  9%, 88% { transform: scale(1); opacity: 1; }
+  93%, 100% { transform: scale(0); opacity: 0; }
+}
+
+/* -- Share-band motion: the traveler twists on an inner wrapper (the
+      anchor keeps tilt/hover); the arrow draws itself; a small cream tag
+      flutters on the QR card's corner (the QR itself never moves). -- */
+.hv9-persp { perspective: 900px; }
+.hv9-twist {
+  display: block;
+  transform-origin: 50% 0;
+  animation: hv6SheetTwist 23s var(--sway-ease) -11s infinite;
+}
+.hv9-arrow-draw {
+  animation: hv9ArrowDraw 13s ease-in-out infinite;
+}
+@keyframes hv9ArrowDraw {
+  0%, 4% { clip-path: inset(0 100% 0 0); }
+  22%, 90% { clip-path: inset(0 0 0 0); }
+  96%, 100% { clip-path: inset(0 100% 0 0); }
+}
+.hv9-qrtag {
+  position: absolute;
+  top: -10px;
+  left: 12px;
+  width: 26px;
+  height: 34px;
+  background: var(--hv6-cream);
+  border: 1px solid rgba(20, 50, 45, 0.1);
+  border-radius: 4px;
+  box-shadow: 0 3px 8px rgba(20, 50, 45, 0.18);
+  transform-origin: 13px 5px;
+  transform: rotate(-8deg);
+  animation: hv6TagFlutter 7s var(--sway-ease) -3.5s infinite;
+}
+.hv9-qrtag::before {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  margin-left: -2.5px;
+  border-radius: 50%;
+  background: #103F37;
+  box-shadow: inset 0 0 0 1.5px #D9B27E;
+}
+
+/* -- Fold stage (hero right column) -- */
+.hv9-fold-stage {
+  position: relative;
+  min-height: 620px;
+  overflow-x: clip;
+}
+.hv9-fold-fan {
+  position: absolute;
+  left: 0;
+  bottom: 8px;
+  display: flex;
+  z-index: 1;
+}
+.hv9-fold-fan > * + * { margin-left: -48px; }
+
+/* -- Keep-band choral stage + Make-band tiles stage -- */
+.hv9-keep-choral {
+  width: 230px;
+  background: #fff;
+  border: 1px solid rgba(20, 50, 45, 0.07);
+  border-radius: 14px;
+  box-shadow: var(--e2);
+  padding: 12px;
+}
+.hv9-make-tiles {
+  background: #fff;
+  border: 1px solid rgba(20, 50, 45, 0.07);
+  border-radius: 14px;
+  box-shadow: var(--e1);
+}
+
 /* ═══ FOCUS + REDUCED MOTION ═══ */
 .hv6 :where(a, button, input, [role='menuitem']):focus-visible {
   outline: none;
   box-shadow: 0 0 0 2px #FDFBF6, 0 0 0 5px rgba(20, 107, 94, 0.55);
 }
-.hv7-chalkpanel :where(a, button):focus-visible {
-  box-shadow: 0 0 0 2px #14322D, 0 0 0 5px #F2784B;
-}
 
 @media (prefers-reduced-motion: reduce) {
-  /* The mobile hangs perfectly still, composed. */
+  /* Every instrument freezes at a COMPOSED pose that still tells its
+     story — never blank, never mid-air. */
   .hv6-mob-hang, .hv6-mob-arm, .hv6-mob-node { animation: none; transform: rotate(0deg); }
   .hv6-mob-obj.is-sheet { animation: none; transform: rotate(-1.5deg); }
   .hv6-mob-tag { animation: none; transform: rotate(-8deg); }
   .hv6-rek-bead.is-push { animation: none; transform: translateX(var(--push, 0)); }
   .hv6-clock-hand.is-min { animation: none; transform: rotate(90deg); }
   .hv6-clock-hand.is-hour { animation: none; transform: rotate(277.5deg); }
+  .hv6-bal-beam, .hv6-bal-pan { animation: none; transform: rotate(0deg); }
+  .hv6-bal-cube.drops { animation: none; transform: translateY(0); }
+  .hv6-tile { animation: none; transform: translateY(0) rotate(0deg); }
+  .hv6-tiles-rule { animation: none; transform: scaleX(1); }
+  .hv6-choral-cell { animation: none; transform: scale(1); }
+  .hv9-sieve-cell.is-out { animation: none; opacity: 0.18; transform: scale(0.92); }
+  .hv9-sieve-cell.is-keep { animation: none; transform: scale(1); }
+  .hv9-lid { animation: none; transform: rotateX(-102deg); }
+  .hv9-lid-counter { animation: none; opacity: 1; transform: scale(1); }
+  .hv9-plank.is-a { animation: none; transform: scaleX(1); }
+  .hv9-plank.is-b { animation: none; transform: scaleX(0.62); }
+  .hv9-plank-mark { animation: none; transform: rotateY(0deg); }
+  .hv9-bag-token { animation: none; opacity: 1; transform: translate(30px, -2px) scale(1); }
+  .hv9-tally { animation: none; transform: scaleY(1); }
+  .hv9-beetle { animation: none; transform: translate(var(--walk), 0); opacity: 1; }
+  .hv9-trail { animation: none; transform: scaleX(1); opacity: 1; }
+  .hv9-therm-col { animation: none; transform: scaleY(0.7); }
+  .hv9-tf-dot.is-fill { animation: none; opacity: 1; transform: scale(1); }
+  .hv9-check { animation: none; opacity: 1; transform: scale(1); }
+  .hv9-twist { animation: none; transform: rotateY(0deg); }
+  .hv9-arrow-draw { animation: none; clip-path: none; }
+  .hv9-qrtag { animation: none; transform: rotate(-8deg); }
   .hv6-card:hover, .hv6-tool-card:hover, .hv7-lift:hover { transform: rotate(var(--tilt, 0deg)); }
   .hv6-cta:hover, .hv6-cta:active { transform: none; }
   .hv6 [class*='hover:-translate']:hover,

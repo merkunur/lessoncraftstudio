@@ -1,13 +1,17 @@
-/* TeachMomentV6 (v8 "Open House") — the front of the room, in daylight.
-   Heading on the paper (that is typography), the LIVE tool grown to the
-   dominant mass of the band, six real instruments below with their own
-   verbatim taglines. No signs, no beams, no scaffolding. */
+/* TeachMomentV6 (v9 "Morning Lessons, Running") — the front of the room,
+   with the machines RUNNING. The live rekenrek embed (click-gated, meter
+   honesty) plus six tool cards whose art is a WORKING pure-CSS vignette:
+   the balance settles, the clock turns, the sieve dims, the lid flips,
+   the planks morph, the bag draws. Names + links come from MANIPULATIVES
+   (11-locale). A beetle walks the seam into the next band. */
 
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import { MANIPULATIVES } from '@/lib/manipulatives';
 import { getToolSlugMap, TOOL_KEYS, TOOL_MINI_URL, type ToolKey } from '@/lib/seo/tool-content';
 import LiveToolEmbedV6 from './LiveToolEmbedV6';
+import ToolVignette, { type VignetteVariant } from './ToolVignette';
+import SeamInstrument from './SeamInstrument';
 
 interface Props {
   locale: string;
@@ -19,11 +23,21 @@ const TOOL_WRAPPER_VERSION = '7.57';
 const FEATURED_TOOLS: ToolKey[] = [
   'number-balance',
   'learning-clock',
+  'number-sieve',
+  'lids',
+  'comparison-planks',
   'draw-bag',
-  'folding-sheet',
-  'picture-word-wall',
-  'wodb',
 ];
+
+/* Each card's art is the instrument itself, working. */
+const CARD_VIGNETTE: Record<string, VignetteVariant> = {
+  'number-balance': 'balance',
+  'learning-clock': 'clock',
+  'number-sieve': 'sieve',
+  lids: 'lids',
+  'comparison-planks': 'planks',
+  'draw-bag': 'draw-bag',
+};
 
 const LIVE_TOOL: ToolKey = 'rekenrek';
 
@@ -96,14 +110,15 @@ export default async function TeachMomentV6({ locale }: Props) {
                 href={toolHref(key)}
                 className={`hv6-tool-card hv7-lift ${TOOL_TILTS[i]} group`}
               >
-                <div className="hv6-tool-img">
-                  <img
-                    src={`/mini-tools/tool-previews/${key}.webp`}
-                    alt={m.title[locale] ?? m.title.en}
-                    width={480}
-                    height={360}
-                    loading="lazy"
-                  />
+                {/* live machine as card art (aria-hidden; the title below
+                    is the accessible name). --vphase spreads the phases so
+                    the six never move in step. */}
+                <div
+                  className="hv9-vig-art"
+                  style={{ '--vphase': `-${i * 3}s` } as React.CSSProperties}
+                  aria-hidden="true"
+                >
+                  <ToolVignette variant={CARD_VIGNETTE[key]} />
                 </div>
                 <div className="px-4 py-3.5">
                   <p className="font-lcsDisplay font-bold text-[#14322D] text-[15px] leading-snug">
@@ -117,6 +132,9 @@ export default async function TeachMomentV6({ locale }: Props) {
             );
           })}
         </div>
+
+        {/* the beetle walks the seam into the wall of worksheets */}
+        <SeamInstrument variant="beetle" />
       </div>
     </section>
   );

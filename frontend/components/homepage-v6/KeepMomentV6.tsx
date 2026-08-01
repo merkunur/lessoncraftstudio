@@ -1,11 +1,11 @@
-/* KeepMomentV6 (v8 "Open House") — the intro of the Keep+Plans band:
-   plan a lesson, keep a year, with the quiet honest chips. The right half
-   carries a saved-unit shelf (three collected worksheets under the plan
-   tag) so the viewport keeps product mass. The plan cards
-   (TeacherMomentV6) follow immediately as the same visual band. */
+/* KeepMomentV6 (v9 "Morning Lessons, Running") — plan a lesson, keep a
+   year. The right half pairs the saved-unit shelf (real worksheets) with
+   the CHORAL CHART writing itself cell by cell — the year of counting,
+   running. The plan cards (TeacherMomentV6) follow as the same band. */
 
 import { getTranslations } from 'next-intl/server';
 import type { ShowcaseDeck } from '@/lib/showcase-decks';
+import ToolVignette from './ToolVignette';
 
 interface Props {
   locale: string;
@@ -25,6 +25,7 @@ export default async function KeepMomentV6({ locale, keepDecks = [] }: Props) {
   ]);
 
   const chips = [t('chipCurricula'), t('chipLanguages'), t('chipNoData'), t('chipNoAds')];
+  const tChoral = (await getTranslations({ locale, namespace: 'homepageV6.practice' }))('penChoral');
 
   return (
     <section id="keep" className="pt-12 md:pt-16">
@@ -47,24 +48,35 @@ export default async function KeepMomentV6({ locale, keepDecks = [] }: Props) {
           {/* The saved-unit shelf: three collected worksheets, overlapped
               like a folder just opened. Fixed clamp widths; never tilted
               on phones (tilt classes gate at 640px). */}
-          {keepDecks.length > 0 && (
-            <div className="hidden sm:flex items-end justify-center lg:justify-end" aria-hidden="true">
-              {keepDecks.slice(0, 3).map((deck, i) => (
-                <span
-                  key={`${deck.slug}-${i}`}
-                  className={`hv7-sheet hv7-lift ${['hv7-tilt-a', 'hv7-tilt-c', 'hv7-tilt-b'][i]}`}
-                  style={{
-                    width: 'clamp(150px, 14vw, 200px)',
-                    marginLeft: i === 0 ? 0 : '-38px',
-                    zIndex: i === 1 ? 2 : 1,
-                    marginBottom: i === 1 ? 18 : 0,
-                  }}
-                >
-                  <img src={deck.thumbnailUrl} alt={titleFor(deck)} width={480} height={620} loading="lazy" />
-                </span>
-              ))}
+          <div className="hidden sm:flex items-end justify-center lg:justify-end gap-6" aria-hidden="true">
+            {/* the year of counting, writing itself */}
+            <div className="shrink-0">
+              <div className="hv9-keep-choral">
+                <ToolVignette variant="choral" />
+              </div>
+              <span className="hv6-slip mt-3 inline-block">
+                <span className="hv6-pen">{tChoral}</span>
+              </span>
             </div>
-          )}
+            {keepDecks.length > 0 && (
+              <div className="flex items-end">
+                {keepDecks.slice(0, 2).map((deck, i) => (
+                  <span
+                    key={`${deck.slug}-${i}`}
+                    className={`hv7-sheet hv7-lift ${['hv7-tilt-a', 'hv7-tilt-c'][i]}`}
+                    style={{
+                      width: 'clamp(140px, 12vw, 180px)',
+                      marginLeft: i === 0 ? 0 : '-38px',
+                      zIndex: i === 0 ? 2 : 1,
+                      marginBottom: i === 0 ? 14 : 0,
+                    }}
+                  >
+                    <img src={deck.thumbnailUrl} alt={titleFor(deck)} width={480} height={620} loading="lazy" />
+                  </span>
+                ))}
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </section>

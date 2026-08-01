@@ -1,14 +1,24 @@
 /* ToolVignette — miniature WORKING classroom apparatus built from pure CSS
-   divs (homepage-v6.css keyframes). The Lesson Line's signature: at the seams
-   between moments, a real instrument sits on the line, quietly doing its job.
+   divs (homepage-v6.css keyframes). v9 signature: the tool cards ARE these
+   machines — nine variants, each quietly doing its job on the page.
 
-   Every vignette is decorative (aria-hidden) with a visible caption that IS
-   real text. Under prefers-reduced-motion each freezes at a composed pose
-   that still tells its story (see the reduced-motion block in the CSS).
+   Every vignette is decorative (aria-hidden); any caption is real text
+   rendered by the caller. Under prefers-reduced-motion each freezes at a
+   composed pose that still tells its story (see the reduced-motion block
+   in the CSS).
 
    Server component. No images, no iframes, no JS. */
 
-export type VignetteVariant = 'rekenrek' | 'balance' | 'letter-tiles' | 'clock' | 'choral';
+export type VignetteVariant =
+  | 'rekenrek'
+  | 'balance'
+  | 'letter-tiles'
+  | 'clock'
+  | 'choral'
+  | 'sieve'
+  | 'lids'
+  | 'planks'
+  | 'draw-bag';
 
 function Rekenrek() {
   // Two rails × 10 beads (5 coral + 5 teal, like the wooden original).
@@ -111,52 +121,91 @@ function Choral() {
   );
 }
 
+const PRIMES = new Set([2, 3, 5, 7, 11, 13, 17, 19]);
+
+function Sieve() {
+  // The number sieve: a 5×4 field of 2–21; the clue card runs and the
+  // non-primes go dark, one after another — the survivors stay alight.
+  return (
+    <div className="hv9-sieve" aria-hidden="true">
+      {Array.from({ length: 20 }, (_, i) => {
+        const n = i + 2;
+        const keep = PRIMES.has(n);
+        return (
+          <span
+            key={n}
+            className={`hv9-sieve-cell ${keep ? 'is-keep' : 'is-out'}`}
+            style={{ '--i': i } as React.CSSProperties}
+          >
+            {n}
+          </span>
+        );
+      })}
+    </div>
+  );
+}
+
+function Lids() {
+  // The lid flips open; the three counters were there all along.
+  return (
+    <div className="hv9-lids" aria-hidden="true">
+      <span className="hv9-lids-table" />
+      {[1, 2, 3].map((n, i) => (
+        <span key={n} className={`hv9-lid-counter is-c${n}`} style={{ '--i': i } as React.CSSProperties} />
+      ))}
+      <span className="hv9-lid" />
+    </div>
+  );
+}
+
+function Planks() {
+  // Two planks morph past each other; the chevron flips to keep pointing
+  // at the longer one — the comparison stays true through the change.
+  return (
+    <div className="hv9-planks" aria-hidden="true">
+      <span className="hv9-plank is-a" />
+      <span className="hv9-plank is-b" />
+      <span className="hv9-plank-mark" />
+    </div>
+  );
+}
+
+function DrawBag() {
+  // A token pops out of the bag and the record writes itself, one tally
+  // stroke per draw.
+  return (
+    <div className="hv9-bag-stage" aria-hidden="true">
+      <span className="hv9-bag" />
+      <span className="hv9-bag-token" />
+      <span className="hv9-tally-strip">
+        <span className="hv9-tally is-t1" />
+        <span className="hv9-tally is-t2" />
+        <span className="hv9-tally is-t3" />
+        <span className="hv9-tally is-t4" />
+      </span>
+    </div>
+  );
+}
+
 const VIGNETTES: Record<VignetteVariant, () => JSX.Element> = {
   rekenrek: Rekenrek,
   balance: Balance,
   'letter-tiles': LetterTiles,
   clock: Clock,
   choral: Choral,
+  sieve: Sieve,
+  lids: Lids,
+  planks: Planks,
+  'draw-bag': DrawBag,
 };
 
 interface ToolVignetteProps {
   variant: VignetteVariant;
-  /** Optional pen-note caption under the stage (the teacher's-pen voice),
-   *  carried on a cream slip so it never sits raw on the dark board. */
-  caption?: string;
-  /** Which side of the wire the twig reaches (desktop). */
-  side?: 'l' | 'r';
-  /** Render bare (no stage card) — used inside the hero's own stage. */
-  bare?: boolean;
 }
 
-/* Sway assignments per instrument (decorative; readable content never
-   sways). Prime periods; rests small; phases negative = born mid-swing. */
-/* --drop is a constant 44px across asides: the twig in the CSS sits at
-   exactly that height (one var, one truth — the geometry law). */
-const SWAY: Record<VignetteVariant, React.CSSProperties> = {
-  rekenrek: {},
-  balance: { '--drop': '44px', '--rest': '-1deg', '--period': '17s', '--amp': '1.4deg', '--phase': '-5s' } as React.CSSProperties,
-  choral: { '--drop': '44px', '--rest': '0.8deg', '--period': '13s', '--amp': '1.2deg', '--phase': '-8s' } as React.CSSProperties,
-  'letter-tiles': { '--drop': '44px', '--rest': '-1.2deg', '--period': '11s', '--amp': '1.6deg', '--phase': '-3s' } as React.CSSProperties,
-  clock: { '--drop': '44px', '--rest': '1deg', '--period': '7s', '--amp': '1.8deg', '--phase': '-2s' } as React.CSSProperties,
-};
-
-export default function ToolVignette({ variant, caption, side = 'l', bare = false }: ToolVignetteProps) {
+/* v9 renders every vignette bare — the caller owns the stage (tool card
+   art, keep-band choral card, make-band tiles strip). */
+export default function ToolVignette({ variant }: ToolVignetteProps) {
   const V = VIGNETTES[variant];
-  if (bare) return <V />;
-  return (
-    <div className="hv6-aside">
-      <div className={`hv6-aside-inner is-${side}`}>
-        <div className="hv6-stage hv6-hang is-sway is-sm" style={SWAY[variant]}>
-          <V />
-        </div>
-        {caption && (
-          <span className="hv6-slip">
-            <span className="hv6-pen">{caption}</span>
-          </span>
-        )}
-      </div>
-    </div>
-  );
+  return <V />;
 }

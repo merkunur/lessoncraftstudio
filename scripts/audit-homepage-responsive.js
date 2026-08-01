@@ -100,7 +100,23 @@ async function auditOne(browser, locale, width) {
       });
       sculpture = anyVisible ? 'ok' : 'INVISIBLE';
     }
-    return { vw, overflowX, offenders, sculpture };
+    // (d2) beetle containment: the walking beetle's rect must sit fully
+    // inside its strip at every width where the seam renders (>=1024).
+    let beetle = 'n/a';
+    const b = document.querySelector('.hv9-beetle');
+    if (b) {
+      const strip = b.closest('.hv9-strip');
+      const cs2 = strip && getComputedStyle(strip.closest('.hv9-seam') || strip);
+      if (strip && cs2 && cs2.display !== 'none') {
+        const br = b.getBoundingClientRect();
+        const sr = strip.getBoundingClientRect();
+        beetle = br.left >= sr.left - 1 && br.right <= sr.right + 1 ? 'ok' : `ESCAPED (${Math.round(br.right)} vs ${Math.round(sr.right)})`;
+      }
+    }
+    // (d4) animation census: a stagger bug that multiplies animations
+    // shows up as an explosion here.
+    const census = document.getAnimations ? document.getAnimations().length : -1;
+    return { vw, overflowX, offenders, sculpture, beetle, census };
   }, EDGE_TOLERANCE);
 
   const shot = path.join(OUT, `resp-${locale}-${width}.png`);
@@ -111,10 +127,37 @@ async function auditOne(browser, locale, width) {
   if (m.overflowX > 0) fails.push(`hscroll +${m.overflowX}px`);
   if (m.offenders.length) fails.push(`edge-breakout: ${m.offenders.join(' | ')}`);
   if (m.sculpture !== 'ok') fails.push(`sculpture ${m.sculpture}`);
+  if (m.beetle !== 'ok' && m.beetle !== 'n/a') fails.push(`beetle ${m.beetle}`);
+  if (m.census > 220) fails.push(`animation census ${m.census} > 220 (stagger multiplication?)`);
   const realErrors = consoleErrors.filter((e) => !/favicon/.test(e));
   if (realErrors.length) fails.push(`console errors: ${realErrors.slice(0, 2).join(' ; ')}`);
   const status = fails.length ? `FAIL  ${fails.join('  ·  ')}` : 'PASS';
   console.log(`  ${locale} @ ${String(width).padStart(4)}  ${status}`);
+  return fails.length === 0;
+}
+
+async function auditReducedMotion(browser, locale) {
+  const page = await browser.newPage();
+  await page.emulateMediaFeatures([{ name: 'prefers-reduced-motion', value: 'reduce' }]);
+  await page.setViewport({ width: 1280, height: 950 });
+  await page.goto(`${BASE}/${locale}`, { waitUntil: 'networkidle2', timeout: 120000 });
+  await new Promise((r) => setTimeout(r, 1200));
+  const m = await page.evaluate(() => {
+    const running = document.getAnimations
+      ? document.getAnimations().filter((a) => a.constructor.name === 'CSSAnimation' && a.playState === 'running').length
+      : -1;
+    const mobs = [...document.querySelectorAll('.hv6-mob')];
+    const sculpture = mobs.some((el) => {
+      const r = el.getBoundingClientRect();
+      return r.width > 100 && r.height > 100;
+    });
+    return { running, sculpture };
+  });
+  await page.close();
+  const fails = [];
+  if (m.running > 0) fails.push(`reduced-motion: ${m.running} CSS animations still running`);
+  if (!m.sculpture) fails.push('reduced-motion: sculpture pose missing (blank, not composed)');
+  console.log(`  ${locale} @ reduced-motion  ${fails.length ? `FAIL  ${fails.join('  ·  ')}` : 'PASS'}`);
   return fails.length === 0;
 }
 
@@ -127,6 +170,7 @@ async function auditOne(browser, locale, width) {
     for (const w of WIDTHS) {
       ok = (await auditOne(browser, locale, w)) && ok;
     }
+    ok = (await auditReducedMotion(browser, locale)) && ok;
   }
   await browser.close();
   console.log(ok ? '\nPASS: all widths clean.' : '\nFAIL: fix the reported widths.');

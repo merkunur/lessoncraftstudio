@@ -1,9 +1,8 @@
-/* OpeningV6 (v8 "Open House") — THE MORNING DESK: the densest composed
-   moment on the page. Light paper ground; H1/sub/CTAs and the scannable
-   counts line on the left; a fan of five REAL locale worksheets overlapping
-   toward the one bounded dark object — the chalk panel holding the compact
-   Calder mobile. Nine legible product artifacts above the fold; the H1
-   stays the LCP (5 eager sheets ≈ 300KB, fetchPriority low). */
+/* OpeningV6 (v9 "Morning Lessons, Running") — the hero IS the machine:
+   the full Calder classroom mobile hangs in daylight over a low fan of
+   real locale worksheets. The mobile's balance-beam top arm, worksheet +
+   QR tag, mini rekenrek, clock and word rack all sway on prime periods —
+   the page's one large motion. H1 stays the LCP (3 eager sheets only). */
 
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
@@ -14,7 +13,7 @@ import ClassroomMobile from './ClassroomMobile';
 interface Props {
   locale: string;
   travelerThumb: string;
-  /** Up to 5 fold-fan decks (real locale worksheets). */
+  /** Fold-fan decks (real locale worksheets; first 3 used). */
   fanDecks: ShowcaseDeck[];
 }
 
@@ -23,7 +22,7 @@ function titleFor(deck: ShowcaseDeck): string {
   return titleMap[deck.language] || deck.slug;
 }
 
-const FAN_TILTS = ['-3deg', '2deg', '-1.5deg', '2.5deg', '-2deg'];
+const FAN_TILTS = ['-2.5deg', '1.5deg', '-1deg'];
 
 export default async function OpeningV6({ locale, travelerThumb, fanDecks }: Props) {
   const t = await getTranslations({ locale, namespace: 'homepageV6.hero' });
@@ -54,23 +53,19 @@ export default async function OpeningV6({ locale, travelerThumb, fanDecks }: Pro
             <p className="mt-3 font-lcsBody text-sm text-[#47564f]">{t('microLine')}</p>
           </div>
 
-          {/* The desk: real worksheets fanned across the wall; the chalk
-              panel overlaps the fan's end (a collage, not a row). */}
-          <div className="relative hidden sm:block min-w-0" style={{ minHeight: 430, overflowX: 'clip' }}>
-            <div
-              className="hv7-fan pt-4 pr-[240px]"
-              role="img"
-              aria-label={t('fanLabel')}
-            >
-              {fanDecks.slice(0, 5).map((deck, i) => (
+          {/* The morning air: the full mobile swings over a low fan of real
+              worksheets. Fixed min-height = CLS guard. */}
+          <div className="hv9-fold-stage hidden lg:block min-w-0">
+            <div className="hv9-fold-fan" role="img" aria-label={t('fanLabel')}>
+              {fanDecks.slice(0, 3).map((deck, i) => (
                 <span
                   key={`${deck.language}-${deck.slug}`}
                   className="hv7-sheet"
                   style={{
-                    width: 'clamp(190px, 16vw, 245px)',
+                    width: 'clamp(150px, 12vw, 190px)',
                     transform: `rotate(${FAN_TILTS[i % FAN_TILTS.length]})`,
                     zIndex: i % 2 === 0 ? 2 : 1,
-                    marginTop: i % 2 === 0 ? 0 : 34,
+                    marginTop: i % 2 === 0 ? 0 : 18,
                   }}
                 >
                   <img
@@ -84,16 +79,15 @@ export default async function OpeningV6({ locale, travelerThumb, fanDecks }: Pro
                 </span>
               ))}
             </div>
-
-            {/* The one dark object on the lit wall, overlapping the fan. */}
-            <div className="hv7-chalkpanel absolute top-0 right-0 z-[3]">
+            <div className="hv9-fold-mobile relative z-[2] mx-auto">
               <ClassroomMobile travelerThumb={travelerThumb} />
             </div>
           </div>
         </div>
 
-        {/* Phone fold: a straight 2×2 grid of sheets, then the chalk panel. */}
-        <div className="sm:hidden mt-8">
+        {/* Phone fold: a straight 2×2 grid of sheets, then the compact
+            mobile (the CSS ≤1023 block compresses the same sculpture). */}
+        <div className="lg:hidden mt-8">
           <div className="grid grid-cols-2 gap-3">
             {fanDecks.slice(0, 4).map((deck) => (
               <span key={`m-${deck.language}-${deck.slug}`} className="hv7-sheet">
@@ -108,7 +102,7 @@ export default async function OpeningV6({ locale, travelerThumb, fanDecks }: Pro
               </span>
             ))}
           </div>
-          <div className="hv7-chalkpanel mx-auto mt-6">
+          <div className="mt-8">
             <ClassroomMobile travelerThumb={travelerThumb} />
           </div>
         </div>

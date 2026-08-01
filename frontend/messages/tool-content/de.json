@@ -1077,6 +1077,35 @@
     "metaTitle": "Gerechtes Teilen mit Rest: Die Deckel für Klasse 1/2",
     "metaDescription": "Deckel auf die Wendeplättchen legen: Unter jedem Deckel liegt gleich viel, der Rest bleibt sichtbar. Kostenloses Werkzeug fürs Whiteboard, Klasse 1 und 2."
   },
+  "unit-handle": {
+    "slug": "messen-mit-einheiten-groessen-grundschule",
+    "name": "Die dehnbare Einheit",
+    "tagline": "Zwei Streifen messen denselben Gegenstand. Die Klasse zieht die Einheit des einen Streifens kleiner – und sieht, wie seine Zahl steigt, obwohl sich der Gegenstand kein Stück bewegt hat.",
+    "about": [
+      "Oben auf dem Messtisch liegt ein einzelner Gegenstand – ein Wachsmalstift, eine Gabel, ein Stück Staudensellerie. Darunter liegen zwei Streifen. Jeder ist aus lauter gleichen Plättchen aneinandergelegt, genau ab der linken Kante des Gegenstands, und am Ende steht eine Zahl. Am ersten Plättchen sitzt ein Griff: Ziehen Sie daran, wächst oder schrumpft die Einheit, der ganze Streifen legt sich unter Ihrem Finger neu, und die Zahl klettert oder fällt mit.",
+      "Das ist Lehrplangebiet „Größen und Messen“ in Klasse 1 und 2: zuerst mit selbstgewählten, später mit standardisierten Einheiten messen. Der Schritt dazwischen ist der schwierige: Eine Messzahl gehört immer zu einer Einheit und sagt ohne sie nichts aus. Mit einem Schrank voller fester Materialien lässt sich das kaum vorführen – niemand besitzt ein Material, dessen Einheit vor den Augen der Klasse größer wird.",
+      "Dann kommt der Moment, an dem es kippt: Die Einheit wird kleiner – und die Zahl wird größer. Der Gegenstand hat sich kein Stück bewegt, er liegt unverändert auf dem Messtisch, und der zweite Streifen daneben zeigt weiter seine eigene Zahl. Genau hier fragen Kinder zurück: „Der ist doch gleich lang geblieben?“ Zwei verschiedene Zahlen für denselben Gegenstand nebeneinander stehen lassen und darüber sprechen – das ist der eigentliche Kern dieser Stunde.",
+      "Es gibt nichts zu lesen und nichts anzumelden: Die Seite läuft im Browser am Whiteboard oder über den Beamer, und der Griff folgt Finger, Maus oder Stift. Geht eine Einheit nicht ohne Rest auf, wird das letzte Stück gestrichelt gezeichnet und nicht mitgezählt. Keine Punkte, keine Zeit: Keine der beiden Messungen wird bewertet, und keine Einheit wird als die bessere dargestellt. Sie entscheiden, wie lange das Gespräch dauert."
+    ],
+    "howToUse": [
+      "Legen Sie einen Gegenstand auf den Messtisch und lassen Sie die Klasse zuerst nur schätzen, wie viele Plättchen darunterpassen.",
+      "Messen Sie mit beiden Streifen, solange sie dieselbe Einheit haben, und lassen Sie beide Zahlen vorlesen.",
+      "Ziehen Sie am Griff des ersten Streifens, bis seine Einheit deutlich kleiner ist, und halten Sie dann kurz inne.",
+      "Fragen Sie: Was ist mit der Zahl passiert – und was ist mit dem Gegenstand passiert?",
+      "Mit „Ohne Rest messen“ suchen Sie eine Einheit, die glatt aufgeht; mit „Gleiche Einheit“ stellen Sie beide Streifen wieder gleich.",
+      "Holen Sie mit „Anderer Gegenstand“ ein neues Objekt und lassen Sie diesmal ein Kind den Griff ziehen."
+    ],
+    "classroomIdeas": [
+      "Vorhersage-Runde: Bevor Sie die Einheit halbieren, schreibt jedes Kind die neue Zahl auf – erst danach ziehen Sie am Griff.",
+      "Zwei Kinder an die Streifen: Jedes wählt seine eigene Einheit, beide nennen ihre Zahl, die Klasse erklärt den Unterschied.",
+      "Rückwärts arbeiten: Sie nennen eine Zielzahl, ein Kind zieht so lange, bis der Streifen genau diese Zahl zeigt.",
+      "Rest-Gespräch: Suchen Sie bewusst eine Einheit, die nicht aufgeht, und sprechen Sie über das gestrichelte letzte Stück.",
+      "Protokoll an der Tafel: Notieren Sie zu jeder Messung die Zahl und daneben die Größe des Plättchens – eine Zahl allein bleibt unvollständig.",
+      "Übergang: Erst wenn die Klasse das erklären kann, legen Sie ein Messwerkzeug aus dem Schrank daneben und fragen, warum sich alle auf dieselbe Einheit geeinigt haben."
+    ],
+    "metaTitle": "Die dehnbare Einheit – Messen mit Einheiten, Klasse 1-2",
+    "metaDescription": "Zwei Streifen, ein Gegenstand: Ziehen Sie die Einheit kleiner – die Zahl steigt. Messen mit selbstgewählten Einheiten in Klasse 1 und 2, am Whiteboard."
+  },
   "labels": {
     "about": "Über dieses Werkzeug",
     "howToUse": "So nutzen Sie es im Unterricht",

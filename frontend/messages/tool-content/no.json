@@ -1076,6 +1076,35 @@
     "metaTitle": "Dele likt med rest – deling på 1.–2. trinn | Lokkene",
     "metaDescription": "Gratis verktøy til projektoren: legg lokk over brikkene, alle skjuler like mange, og resten blir liggende synlig. Klassen argumenterer før dere løfter."
   },
+  "unit-handle": {
+    "slug": "maale-med-egne-enheter-lengde-smatrinnet",
+    "name": "Strekkbåndet",
+    "tagline": "Klassen måler den samme gjenstanden med to bånd, drar enheten på det ene båndet mindre og ser tallet klatre oppover mens gjenstanden på benken ikke har flyttet seg i det hele tatt.",
+    "about": [
+      "Øverst ligger en gjenstand på benken – en fargeblyant, en gaffel, en selleristang, en stige. Under den ligger to bånd, og hvert bånd er bygd av like biter lagt etter hverandre fra venstre kant av gjenstanden. På den første biten i hvert bånd sitter et grep. Drar du i grepet, vokser eller krymper enheten mens du holder, hele båndet legger seg på nytt under fingeren, og tallet ved enden klatrer eller faller. Det andre båndet står helt stille, og gjenstanden flytter seg aldri.",
+      "Dette er måling av lengde med ikke-standardiserte enheter på 1.–2. trinn, midt i fagområdet måling og i kjerneelementene utforsking og problemløysing. Det er vanskeligere enn det ser ut. Elevene skal ikke bare telle biter, de skal oppdage at tallet henger sammen med hvor stor enheten er. Vi lover ingen målt læringseffekt, og det finnes ingen effektstudie på dette – men sammenhengen blir synlig på skjermen og mulig å snakke om i fellesskap.",
+      "Så kommer øyeblikket alt handler om: enheten krymper, og tallet blir større. Gjenstanden ligger nøyaktig der den lå. Mange elever tror at et større tall betyr en lengre gjenstand, for tallet er det eneste de har lært å se på. Her får de to ulike tall for den samme stigen på den samme benken, og spørsmålet «hvorfor er tallene forskjellige?» har bare ett svar. Elevene finner det selv: enheten er ikke den samme.",
+      "Det er ingenting å lese for elevene, ingen innlogging og ingen konto. Verktøyet åpner seg i nettleseren og fungerer like godt på projektor og smartboard som på nettbrett. Ingen av de to målingene blir rettet, og verktøyet sier aldri hvilken enhet som er best – begge tallene er sanne, og det er nettopp poenget. Hele hylla med gjenstander og utskrift av benken følger med Lærerabonnementet."
+    ],
+    "howToUse": [
+      "Sett verktøyet på projektoren og la klassen se gjenstanden på benken før du gjør noe som helst.",
+      "Si «Vi måler den med disse», og les tallet på begge båndene høyt sammen.",
+      "Dra i grepet på det første båndet så enheten blir mindre, og la elevene følge tallet mens du drar.",
+      "Spør «hva skjedde med tallet – og hva skjedde med gjenstanden?», og vent til flere har svart.",
+      "Bruk «Samme enhet på begge» for å stille tilbake, og «Få det til å gå opp» når en bit blir til overs.",
+      "Bytt gjenstand og gjør det samme en gang til, så elevene kan forutsi hva som kommer til å skje."
+    ],
+    "classroomIdeas": [
+      "La to elever velge hver sin enhet i hemmelighet og forklare for resten hvorfor de fikk ulike tall for den samme gjenstanden.",
+      "Skriv de to tallene på tavla og be klassen tenke seg hvilken enhet som hørte til det største tallet.",
+      "Mål først med en enhet som går opp, så med en som ikke gjør det, og snakk om biten som blir til overs.",
+      "La elevene si tallet høyt før du slipper grepet, og skriv gjettene på tavla først.",
+      "Bruk verktøyet som inngang til hvorfor klassen må bli enige om én felles enhet før de går ut og måler pultene sine.",
+      "Avslutt med spørsmålet «kan vi bruke en enhet som vokser mens vi måler?», og la det stå åpent til neste time."
+    ],
+    "metaTitle": "Strekkbåndet – mål med egne enheter, 1.–2. trinn",
+    "metaDescription": "Mål den samme gjenstanden med to bånd på skjermen. Krymp enheten og se tallet vokse mens gjenstanden ligger stille. Gratis å bruke på projektor. 1.–2. trinn."
+  },
   "labels": {
     "about": "Om dette verktøyet",
     "howToUse": "Slik bruker du det i klassen",

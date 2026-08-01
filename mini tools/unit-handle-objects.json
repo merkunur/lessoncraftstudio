@@ -1,0 +1,188 @@
+{
+  "version": 1,
+  "note": "THE OBJECT SHELF for tool #40 (The Unit Handle). DERIVED from mini tools/measurement-bench.js LENGTH_OBJECTS + META — never retyped, because a hand-copied theme string is a silent 404 and a blank object on the bench. An entry is an image key, a length and a trim box, so this file is locale-NEUTRAL by construction. `w` is the BENCH width; the tool renders it at w * 16/9 so the longest object reaches the end of the model box while every ratio between objects is preserved exactly (180/270/360/450 -> 320/480/640/800, all integers). The first six are the FREE shelf and are curated to span the length range. Regenerate: node scripts/gen-unit-handle-objects.js --write",
+  "freeCount": 6,
+  "premiumCount": 12,
+  "objects": [
+    {
+      "k": "crayon",
+      "theme": "classroom",
+      "noun": "crayon",
+      "w": 180,
+      "rot": 90,
+      "trim": {
+        "x": 384,
+        "y": 23,
+        "w": 232,
+        "h": 985
+      },
+      "iw": 1024,
+      "ih": 1024
+    },
+    {
+      "k": "fork",
+      "theme": "around the house",
+      "noun": "fork",
+      "w": 180,
+      "rot": 90,
+      "trim": {
+        "x": 426,
+        "y": 25,
+        "w": 164,
+        "h": 986
+      },
+      "iw": 1024,
+      "ih": 1024
+    },
+    {
+      "k": "skateboard",
+      "theme": "toys",
+      "noun": "skateboard",
+      "w": 270,
+      "rot": 0,
+      "trim": {
+        "x": 29,
+        "y": 374,
+        "w": 966,
+        "h": 299
+      },
+      "iw": 1024,
+      "ih": 1024
+    },
+    {
+      "k": "celery",
+      "theme": "vegetables",
+      "noun": "celery",
+      "w": 270,
+      "rot": 90,
+      "trim": {
+        "x": 344,
+        "y": 30,
+        "w": 340,
+        "h": 974
+      },
+      "iw": 1024,
+      "ih": 1024
+    },
+    {
+      "k": "ladder",
+      "theme": "tools",
+      "noun": "ladder",
+      "w": 360,
+      "rot": 90,
+      "trim": {
+        "x": 320,
+        "y": 24,
+        "w": 375,
+        "h": 989
+      },
+      "iw": 1024,
+      "ih": 1024
+    },
+    {
+      "k": "shovel",
+      "theme": "around the house",
+      "noun": "shovel",
+      "w": 360,
+      "rot": 90,
+      "trim": {
+        "x": 387,
+        "y": 25,
+        "w": 270,
+        "h": 984
+      },
+      "iw": 1024,
+      "ih": 1024
+    },
+    {
+      "k": "candle",
+      "theme": "christmas",
+      "noun": "candle",
+      "w": 180,
+      "rot": 90,
+      "trim": {
+        "x": 349,
+        "y": 29,
+        "w": 329,
+        "h": 977
+      },
+      "iw": 1024,
+      "ih": 1024
+    },
+    {
+      "k": "toothbrush",
+      "theme": "around the house",
+      "noun": "toothbrush",
+      "w": 180,
+      "rot": 90,
+      "trim": {
+        "x": 432,
+        "y": 21,
+        "w": 133,
+        "h": 991
+      },
+      "iw": 1024,
+      "ih": 1024
+    },
+    {
+      "k": "wand",
+      "theme": "accessories",
+      "noun": "wand",
+      "w": 180,
+      "rot": 90,
+      "trim": {
+        "x": 339,
+        "y": 29,
+        "w": 344,
+        "h": 966
+      },
+      "iw": 1024,
+      "ih": 1024
+    },
+    {
+      "k": "tie",
+      "theme": "accessories",
+      "noun": "tie",
+      "w": 270,
+      "rot": 90,
+      "trim": {
+        "x": 373,
+        "y": 38,
+        "w": 269,
+        "h": 971
+      },
+      "iw": 1024,
+      "ih": 1024
+    },
+    {
+      "k": "rake",
+      "theme": "around the house",
+      "noun": "rake",
+      "w": 360,
+      "rot": 90,
+      "trim": {
+        "x": 327,
+        "y": 25,
+        "w": 350,
+        "h": 972
+      },
+      "iw": 1024,
+      "ih": 1024
+    },
+    {
+      "k": "surfboard",
+      "theme": "summer",
+      "noun": "surfboard",
+      "w": 360,
+      "rot": 90,
+      "trim": {
+        "x": 352,
+        "y": 20,
+        "w": 323,
+        "h": 992
+      },
+      "iw": 1024,
+      "ih": 1024
+    }
+  ]
+}

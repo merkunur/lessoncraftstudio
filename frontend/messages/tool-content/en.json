@@ -1077,6 +1077,35 @@
     "metaTitle": "Sharing equally and remainders — The Lids, free K-2 tool",
     "metaDescription": "Put lids on a table of counters: every lid hides the same number and the remainder stays in plain sight. A free whiteboard tool for sharing equally in K-2."
   },
+  "unit-handle": {
+    "slug": "measure-with-a-changing-unit-length-k2",
+    "name": "The Unit Handle",
+    "tagline": "Two tapes measure one object. Stretch the unit on one of them and its number climbs — while the object, and the other tape, have not moved at all.",
+    "about": [
+      "An object lies across the top of the bench: a crayon, a fork, a stick of celery, a ladder. Beneath it run two tapes, each built of identical tiles laid end to end from the object's left edge, each with a number at its far end. On the first tile of each tape there is a grip. Drag it and that tile — the unit — grows or shrinks under your finger, the whole tape re-lays itself, and the number climbs or falls with it. The other tape does not move.",
+      "Measuring the same thing twice with two different-sized units, and saying how the two measurements relate to the size of the unit, is a standard K-2 expectation and a genuinely hard one. The number a child reads is not a property of the object; it belongs to the object and the unit together, and the unit is the part that stays invisible. There is no efficacy study for this routine and none is claimed — what the tool offers is a way to make the unit the visible, movable thing.",
+      "Then comes the moment the whole tool exists for: the unit shrinks and the number gets bigger, while the object lies exactly where it was. Plenty of children conclude first that the object must have grown, because the number did. With both tapes on screen at once — one held still, one stretching in front of the class — the question asks itself: what actually changed? A cupboard full of fixed unit sets can never stage this, because no unit set stretches.",
+      "There is nothing to read: an object, some tiles and two numerals, so children who are not yet reading take part on the same terms. It runs in the browser on a whiteboard or projector with no login and nothing to install. When a unit does not fit a whole number of times, the leftover is drawn dashed and is not counted. Neither measurement is ever marked right or wrong, and the tool never says which unit is better. The whole object shelf and printing are part of the Teacher plan."
+    ],
+    "howToUse": [
+      "Put an object on the bench and let the class look at it before anything is measured.",
+      "Start with both tapes on the same unit so everyone sees the two numbers agree.",
+      "Drag one grip until that unit is clearly smaller, and stop the moment the number changes.",
+      "Ask the only question that matters: what happened to the number — and what happened to the object?",
+      "Use \"Make it come out even\" when a leftover appears and the class wants a whole count.",
+      "Load another object and run the same round again, letting a child drag this time."
+    ],
+    "classroomIdeas": [
+      "Predict first: before you drag, every child writes down whether the number will go up or down.",
+      "Two children, two tapes — each picks a unit, each reads a number, and the class explains the difference.",
+      "Work backwards: name a target number and let a child stretch the unit until the tape shows exactly that.",
+      "Deliberately choose a unit that does not fit, and talk about the dashed piece that is not counted.",
+      "Record every measurement on the board as a pair — the number and the size of the tile beside it. A number alone is incomplete.",
+      "Only once the class can explain it, put a real ruler beside the bench and ask why everyone agreed on one unit."
+    ],
+    "metaTitle": "The Unit Handle — measure with a changing unit, K-2",
+    "metaDescription": "Two tapes, one object: stretch the unit and the number changes while the object stays put. A free whiteboard tool for measuring with different units in K-2."
+  },
   "labels": {
     "about": "About this tool",
     "howToUse": "How to use it in class",

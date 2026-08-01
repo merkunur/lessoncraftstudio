@@ -1076,6 +1076,35 @@
     "metaTitle": "Dela lika och rest – digitalt verktyg åk 1–2 | Locken",
     "metaDescription": "Lägg ut lock på bordet – under varje lock ligger lika många brickor. Klassen gissar, resten syns, locken lyfts. Gratis verktyg för dela lika i åk 1–2."
   },
+  "unit-handle": {
+    "slug": "mata-langd-med-olika-enheter-lagstadiet",
+    "name": "Enhetsremsan",
+    "tagline": "Klassen mäter samma föremål med två remsor av olika stora bitar, drar i enheten så den växer eller krymper, och ser talet ändras medan föremålet ligger kvar precis där det låg.",
+    "about": [
+      "Överst på bänken ligger ett föremål – en krita, en gaffel, en selleristjälk, en stege. Under det ligger två remsor. Varje remsa är byggd av likadana bitar som lagts kant i kant från föremålets vänstra kant, och på den första bitens högerkant sitter ett grepp. Drar du i greppet växer eller krymper biten under fingret, hela remsan läggs om direkt, och talet vid remsans slut klättrar uppåt eller nedåt. Den andra remsan rör sig inte. Föremålet rör sig aldrig.",
+      "I Lgr22 ligger det här i det centrala innehållet för årskurs 1–3: mätning av längd, jämförelse och uppskattning, och att mäta med olika enheter. Det är svårare än det låter. Ett barn som räknar bitar håller inte alltid fast vid att bitarna måste vara lika stora och ligga kant i kant utan glapp. Att talet hänger ihop med enhetens storlek, inte bara med föremålet, är ytterligare ett steg. Verktyget är en apparat att undervisa vid – ingen utlovad effekt.",
+      "Det är där det tar emot. Enheten krymper, remsan läggs om, och talet klättrar – fyra blir sex, sex blir nio – medan föremålet ligger blickstilla på bänken. Frågan ställer sig själv: hur kan det bli mer av något som inte har blivit längre? Klassen brukar dela sig här, och det är precis den diskussionen du är ute efter. Enheten är inte något föremålet har – den är något ni valt, och när den ändras är det talet som ändras, inte saken.",
+      "Det finns inget att läsa och inget att logga in för. Öppna sidan på projektorn eller smartboarden, dra i en enhet och börja prata – barnen kan komma fram och dra själva. Går enheten inte jämnt upp ritas den sista biten streckad och räknas inte, så resten syns utan att smyga in i talet. Ingen av de två mätningarna märks någonsin som rätt eller fel, och verktyget säger aldrig vilken enhet som är bäst. Hela föremålshyllan och utskrifterna ingår i Lärarpaketet."
+    ],
+    "howToUse": [
+      "Projicera bänken och låt klassen först gissa hur många bitar som får plats längs föremålet.",
+      "Dra i greppet på den första biten tills remsan täcker föremålet, och läs talet högt tillsammans.",
+      "Låt ett barn krympa enheten på den andra remsan och fråga vad som händer med talet.",
+      "Sätt båda remsorna till samma enhet igen och låt klassen se att talen då möts.",
+      "Använd knappen så det går jämnt upp när ni vill ha en mätning utan bit över, och prata om varför just den enheten passade.",
+      "Byt föremål och gör om samma runda – kort och ofta, som en rutin."
+    ],
+    "classroomIdeas": [
+      "Gissa först, mät sedan: skriv upp klassens gissning på tavlan innan ni drar remsan på plats.",
+      "Två barn, två remsor – låt dem välja varsin enhet och förklara för varandra varför talen skiljer sig.",
+      "Vänd på uppgiften: bestäm ett tal, till exempel fem, och låt klassen dra enheten tills remsan visar just det.",
+      "Ta en runda med bit över och fråga vad man gör med den streckade biten och varför den inte räknas med.",
+      "Gör samma sak i verkligheten – klipp pappersremsor i två olika längder och mät samma bok med båda.",
+      "Avsluta med frågan om talet kan bli hur stort som helst, och låt dem dra enheten så liten de kan."
+    ],
+    "metaTitle": "Enhetsremsan – mäta längd med olika enheter, åk 1–3",
+    "metaDescription": "Mät samma föremål med två remsor och olika stora enheter. Dra i enheten, se talet ändras medan föremålet står still. Gratis att använda i klassrummet, åk 1–3."
+  },
   "labels": {
     "about": "Om det här verktyget",
     "howToUse": "Så använder du det i klassen",

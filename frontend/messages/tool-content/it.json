@@ -1076,6 +1076,35 @@
     "metaTitle": "Dividere in parti uguali e il resto | I coperchi primaria",
     "metaDescription": "Gratis sulla LIM, classe prima e seconda: sotto ogni coperchio lo stesso numero di gettoni. La classe divide in parti uguali e scopre che cosa avanza."
   },
+  "unit-handle": {
+    "slug": "misurare-lunghezze-unita-arbitrarie",
+    "name": "L'unità elastica",
+    "tagline": "Due strisce misurano lo stesso oggetto sul tavolo: rimpicciolite l'unità di una striscia e il suo numero sale, mentre l'oggetto e l'altra striscia restano fermi dove sono.",
+    "about": [
+      "Sullo schermo c'è un tavolo con un oggetto vero appoggiato di traverso: un pastello, una forchetta, un gambo di sedano, una scala. Sotto l'oggetto corrono due strisce fatte di piastrelle tutte uguali, posate una dopo l'altra a partire dal bordo sinistro, e in fondo a ciascuna striscia c'è un numero. Sulla prima piastrella di ogni striscia c'è una presa: la trascinate e quella piastrella cresce o si rimpicciolisce, l'intera striscia si ridispone sotto il dito e il numero sale o scende. L'altra striscia resta ferma.",
+      "Le Indicazioni nazionali chiedono di misurare con unità arbitrarie prima di arrivare alle unità convenzionali, e in prima e in seconda si lavora proprio lì: si sceglie qualcosa, lo si riporta lungo l'oggetto senza buchi e senza sovrapposizioni, si conta. È più difficile di quanto sembri, perché il numero che esce non appartiene all'oggetto: appartiene alla coppia oggetto-unità. Questo strumento mette quella coppia sotto gli occhi della classe; non promette risultati misurati e non sostituisce il materiale vero.",
+      "Il momento è questo: due strisce misurano lo stesso identico oggetto e danno due numeri diversi. Rimpicciolite l'unità di una striscia e il suo numero sale, mentre l'oggetto è rimasto immobile sotto gli occhi di tutti. Per un bambino di sei o sette anni «più piccolo» e «di più» stanno da parti opposte, e qui stanno insieme: più piccola è l'unità, più volte ci sta. La frase che si sente in classe è «ma allora l'oggetto si è allungato!»: non è distrazione, è esattamente la difficoltà, e qui si vede.",
+      "Sull'apparato non c'è niente da leggere: si apre nel browser, funziona alla LIM e sul tablet, non chiede registrazione e anche un bambino che non legge ancora può condurre tutto il giro. Nessuna delle due misure viene segnata, premiata o corretta: lo strumento non dà verdetti, non mette punteggi, non misura il tempo e non dice quale unità convenga usare — il confronto lo fa la classe. Il piano Insegnante aggiunge lo scaffale completo degli oggetti e la stampa del tavolo."
+    ],
+    "howToUse": [
+      "Parti con le due strisce sulla stessa unità e fai leggere i due numeri prima di toccare qualsiasi cosa.",
+      "Chiama un bambino alla LIM e digli di trascinare la presa della prima piastrella finché l'unità non diventa nettamente più piccola.",
+      "Ferma tutto lì e chiedi che cosa è cambiato e che cosa no, prima di dire una parola tu.",
+      "Se resta un pezzo fuori, fallo notare: quell'unità non ci sta un numero intero di volte, e con «Togli l'avanzo» ne trovi una che ci sta.",
+      "Con «Stessa unità» rimetti le due strisce sulla stessa unità e rifai tutto il giro con un altro oggetto.",
+      "Chiudi chiedendo di spiegare a parole perché lo stesso oggetto può valere due numeri diversi."
+    ],
+    "classroomIdeas": [
+      "Classe prima: tieni lo stesso oggetto per tutta la settimana e cambia solo l'unità, finché i bambini dicono da soli «tre di questi» e «sei di questi più piccoli».",
+      "Classe prima e seconda: prima di trascinare fai prevedere ad alta voce se il numero salirà o scenderà, poi trascina lentissimo e lascia che se ne accorgano loro.",
+      "Classe seconda: fai rifare la scena sul quaderno ritagliando una strisciolina di carta e riportandola lungo la matita del compagno, prima con un ritaglio lungo e poi con uno corto.",
+      "Fai scrivere alla lavagna le due frasi complete, con l'unità disegnata accanto al numero: da solo, il numero non dice ancora niente.",
+      "Quando la classe è convinta che l'oggetto sia stato allungato, non rispondere: rimetti le due strisce sulla stessa unità e lascia che i due numeri tornino uguali davanti a tutti.",
+      "Routine da cinque minuti: un oggetto nuovo al giorno e sempre la stessa domanda — quante volte ci sta, e che cosa succede se l'unità diventa più piccola?"
+    ],
+    "metaTitle": "Misurare con unità arbitrarie alla LIM: l'unità elastica",
+    "metaDescription": "Due strisce misurano lo stesso oggetto con unità diverse: rimpicciolite l'unità e il numero sale, mentre l'oggetto non si muove. Classe prima e seconda."
+  },
   "labels": {
     "about": "Informazioni su questo strumento",
     "howToUse": "Come usarlo in classe",

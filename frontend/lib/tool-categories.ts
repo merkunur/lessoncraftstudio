@@ -70,6 +70,7 @@ export const TOOL_CATEGORY: Record<string, ToolCategory> = {
   // "Numbers & Counting", silently.
   'draw-bag': 'measurement',
   'lids': 'number',
+  'unit-handle': 'measurement',
 
   // Reading & phonics — sounds, letters, words, sentences
   'sound-boxes': 'literacy',

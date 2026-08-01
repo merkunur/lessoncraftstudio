@@ -15,9 +15,10 @@ Working record: `[[project_premium_tools_v4_catalog]]` · `[[project_arrow_strip
 > re-design it.** Read the entry for the next tool below, run the four-surface fence, then build
 > to the recipe at the end of this file.
 > **STATE: `#36 The Number Sieve` · `#37 The Arrow Strip` · `#38 The Draw Bag` ·
-> `#39 The Lids` — ALL LIVE. **WAVE 1 IS CLOSED.** `#40 The Unit Handle` (B3) LIVE → **WAVE 2 IS OPEN; NEXT = `B4 Unrolling Tape`.**
-> Constants for the next build: header ordinal **#41** · `PREV = 'unit-handle'` ·
-> `TOOL_WRAPPER_VERSION` **7.53 → 7.54** · `TOOL_KEYS` position **44**.
+> `#39 The Lids` — ALL LIVE. **WAVE 1 IS CLOSED.** `#40 The Unit Handle` (B3) and
+> `#41 All the Way Round` (B4) LIVE → **NEXT = `A5 Comparison Tape`.**
+> Constants for the next build: header ordinal **#42** · `PREV = 'unroll-tape'` ·
+> `TOOL_WRAPPER_VERSION` **7.54 → 7.55** · `TOOL_KEYS` position **45**.
 
 ---
 
@@ -368,16 +369,42 @@ algorithm) · mutate **38/38 killed, 0 harness faults** · local-test 36 asserti
 drags · smoke 208 × 11 · locale-layout 66 renders · liveness × 3 entitlement states ·
 **live-verify 100 assertions driven on production**.
 
-### B4 · The Unrolling Tape
-A flexible tape lays itself along a curved outline; one tap and it **peels off and lies down
-straight** beside a fixed scale, with the object's straight height as a second bar. **THE
-INVENTION — the unrolling.** A curved length becoming a straight one is the one abstraction in
-early measurement with no static representation. You can do it with real string, which is exactly
-why it never gets done twice. **Gate:** the analytic arc-length integral equals the **rendered**
-straight bar's summed segment length within 0.00px; unchanged under all 360 integer rotations.
-*The only tool in the catalog that adds a **new measurable quantity**. Nothing in the repo has any
-curve machinery at all.*
-⚠ **Risk:** outline authoring is per-object hand work — the moat is real but so is the cost.
+### B4 · The Unrolling Tape — ✅ **BUILT + LIVE as `#41 unroll-tape` ("All the Way Round", 2026-08-01)**
+A flexible strand lies along the boundary of a flat curved shape; drag its tip and it **slides off
+and lies down straight** beside a scale. **THE INVENTION — the unrolling.** A curved length
+becoming a straight one is the one abstraction in early measurement with no static representation.
+You can do it with real string, which is exactly why it never gets done twice.
+
+**AS SHIPPED, vs the spec above:**
+- **The scale is ruled in the SHAPE’S OWN WIDTH** (operator ruling), so the reading is
+  `around ÷ across` and is size-invariant BY CONSTRUCTION. A circle reads **3.14 at every size**
+  — and so does a **Reuleaux triangle**, which is visibly not a circle (Barbier’s theorem,
+  measured to 1.5e-8 constant width). That pairing is the strongest thing the apparatus does.
+- **It is a SLIDE along one fixed guide, not a lift.** The strand occupies guide-arclength
+  `[L·t, L·t+L]`, so its total is L at every frame BY CONSTRUCTION — measured 2.5e-15 across all
+  12 shapes × 65 frames. The exact physical lift is the **involute**, whose free end sweeps to
+  ≈6.3r and straight out of frame.
+- **“Around or tall” is a RIGGED COIN** — `P ≥ 2·diameter` for every closed curve, so around always
+  wins. The binary became a **plantable flag**, frozen by refusal at the first movement, never
+  marked and never scored.
+- **NO ART.** There is no outline/contour/silhouette for ANY object in this repo, so every
+  boundary is analytic. That **dissolves the entry’s flagged authoring cost** and kills a
+  modelling lie: a tape round a cup measures its cross-section, not its silhouette.
+
+**⚠ THE ENTRY’S GATE SPEC DID NOT SURVIVE CONTACT — twice.** “within 0.00px” is arithmetically
+impossible (chord ≤ arc is a theorem — an inscribed polyline is STRICTLY shorter), so three errors
+are reported separately and E1 is a two-sided BAND. And “unchanged under all 360 integer
+rotations” is true of the LENGTH and FALSE of the RATIO (an ellipse’s varies 130%, a pebble’s
+151%) — so orientation is fixed per shape and there is **no rotation control**.
+
+**Fence — NOT CLEAN, and SUBTRACTED.** `mending-fences-core.js` owns 3.MD.D.8 perimeter but
+RECTILINEALLY (boundaryEdges over a polyomino; its “roll of fence” is a text pill printing a
+number). → **this tool NEVER WRAPS A POLYGON.** Curved length was virgin: zero `getPointAtLength`
+in the repo, no tool sums polyline segments for display, no curve-straightening anywhere.
+
+**Gates as run:** verify 188 · mutate **42/42, 0 harness faults** · local-test 51 · smoke 122 × 11 ·
+locale-layout 396 checks / 66 renders · liveness 27/27 × 3 states · **live-verify 117 on
+production** · 0 protected-core lines.
 
 ### B5 · The Reshape
 A shape on a grid; draw one straight cut and drag or turn either piece. **THE INVENTION:** the
@@ -603,8 +630,9 @@ One tool per plan-mode session, registration inside the build commit — the pro
   *Why these four:* A1 has the strongest gate story on the platform and the largest machine-growable
   repertoire; B1 and C1 are the two clearest cases of the European slot shape and both are wordless
   by construction rather than by translation effort; A2 carries the largest proven demand.
-- **Wave 2 — the measurement spine (4).** ~~`B3 Unit Handle`~~ ✅ **LIVE as #40** · **`B4 Unrolling
-  Tape` ← NEXT** · `A5 Comparison Tape` · `B7 Cold Line`.
+- **Wave 2 — the measurement spine (4).** ~~`B3 Unit Handle`~~ ✅ **LIVE as #40** ·
+  ~~`B4 Unrolling Tape`~~ ✅ **LIVE as #41 ("All the Way Round")** · **`A5 Comparison
+  Tape` ← NEXT** · `B7 Cold Line`.
 - **Wave 3 — space and structure (4).** `B2 Build Plan` · `B5 Reshape` · `B6 Hinge` · `A3 Counting
   Tray`.
 - **Wave 4 — number depth (3).** `A4 Carry Wheels` · `A6 Grouping Dial` · `A7 Hundred Field`.

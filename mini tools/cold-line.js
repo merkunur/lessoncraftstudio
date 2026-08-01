@@ -14,8 +14,29 @@
    an object in 11 locales), `tower`, `line` (#1 owns the head term in
    all eleven), `tape` (#40), `strand` (#41), `bar`/`beam`,
    `plank`/`offcut`/`bracket` (#42) are each another tool's identity.
-   `scale`, `column` and `cold` were free. A colliding noun is a
-   collision even when the geometry differs.
+   `scale` and `column` were free. A colliding noun is a collision even
+   when the geometry differs.
+
+   ⚠⚠ AND THE DISPLAY NAME IS NOT "THE COLD LINE", THOUGH THE CATALOG
+   AND THIS FILE'S KEY BOTH SAY B7 / `cold-line`. Three native panels
+   independently refused it, for two reasons this header ORIGINALLY GOT
+   WRONG IN BOTH DIRECTIONS:
+     · `line` is on the TAKEN list eight lines above — `number-line`
+       owns the head term in all eleven locales. #41's title defect,
+       repeating in the file that records it.
+     · and an earlier version of this very paragraph claimed `cold` was
+       FREE. It is not: `types/g3/G3-345-read-thermometer.js:6` is
+       TITLED **"Hot or Cold?"** — the printable this tool is fenced
+       against, named in the TAKEN block twenty lines BELOW. I then told
+       the operator the opposite (that `cold` was never banned, since
+       `calendar-wall`'s enum carries no hot/cold type) — true about the
+       enum, irrelevant to the collision, and asserted without checking
+       the printable I was fencing against.
+   ⭐ THE LESSON, WHICH COST TWO WRONG STATEMENTS: a noun census must be
+   run against the SURFACE THAT OWNS THE WORD, not the surface that
+   happens to be top of mind. The display name is now **Upright and
+   Flat** — named for the tip, which is the invention. The key stays
+   `cold-line` so the catalog stays traceable.
 
    THE ROUTINE:
      "Set the marks at minus five and three. How far is that?"

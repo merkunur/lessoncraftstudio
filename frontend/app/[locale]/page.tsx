@@ -4,23 +4,29 @@ import { getTranslations } from 'next-intl/server';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { buildOrganizationSchema, buildWebSiteSchema } from '@/lib/seo/organization-schema';
-import HeroV4 from '@/components/homepage-v4/HeroV4';
-import TryItBandV4 from '@/components/homepage-v4/TryItBandV4';
-import PillarMakersV4 from '@/components/homepage-v4/PillarMakersV4';
-import MoatLanguagesV4 from '@/components/homepage-v4/MoatLanguagesV4';
-import ActivitiesMoatV4 from '@/components/homepage-v4/ActivitiesMoatV4';
-import FreeAndTeacherV4 from '@/components/homepage-v4/FreeAndTeacherV4';
-import EmbedShareV4 from '@/components/homepage-v4/EmbedShareV4';
+import OpeningV6 from '@/components/homepage-v6/OpeningV6';
+import TeachMomentV6 from '@/components/homepage-v6/TeachMomentV6';
+import PracticeMomentV6 from '@/components/homepage-v6/PracticeMomentV6';
+import MakeMomentV6 from '@/components/homepage-v6/MakeMomentV6';
+import BothWaysV6 from '@/components/homepage-v6/BothWaysV6';
+import ShareMomentV6 from '@/components/homepage-v6/ShareMomentV6';
+import KeepMomentV6 from '@/components/homepage-v6/KeepMomentV6';
+import TeacherMomentV6 from '@/components/homepage-v6/TeacherMomentV6';
+import CloseV6 from '@/components/homepage-v6/CloseV6';
+import ToolVignette from '@/components/homepage-v6/ToolVignette';
 import BrowseByTopicSSR from '@/components/homepage-v3/BrowseByTopicSSR';
-import SignupV4 from '@/components/homepage-v4/SignupV4';
-import './preview/homepage-v3/homepage-v3.css';
-import './preview/homepage-v4/homepage-v4.css';
+import { getTypedThumbs } from '@/lib/showcase-decks';
+import '@/components/homepage-v6/homepage-v6.css';
 
-// Promoted from the homepage-v3 prototype on 2026-05-24. Live design now
-// uses the 9-section homepage-v3 stack (Hero → 5 pillars → tier transition
-// → embed/share → signup). homepage-v2 components remain on disk for
-// rollback safety and continued use by the worksheet-makers landing
-// (consumer of homepage.fourCardGrid.apps namespace).
+// Promoted 2026-08-01: homepage v6 "The Lesson Line" — one continuous
+// teaching narrative (a number line runs the page; tools/activities/
+// worksheets/makers/sharing are moments along it, not sections), working
+// pure-CSS apparatus vignettes as connective tissue, counts only in
+// captions, multilingual demoted to a quiet chip row. The v6 stack was
+// approved on /[locale]/preview/homepage-v6 (kept as the visual-diff
+// safety net, same pattern as the v3/v4 promotions). homepage-v2/-v3/-v4
+// components remain on disk for rollback + shared consumers
+// (BrowseByTopicSSR + FeaturedDeckTileV3 live in homepage-v3/).
 
 // Direction A typography pairing per CLAUDE.md §A.13.47 (locked).
 // Baloo 2 + Nunito; latin-ext covers all 11 site locales.
@@ -49,15 +55,13 @@ const BASE_URL = 'https://www.lessoncraftstudio.com';
 // SEO cleanup commission. Generated reproducibly by
 // scripts/og-images/generate-homepage-og.js (Direction A palette: cream
 // #FBF3E4 / teal #146B5E title / coral #F2784B accents). Locale-independent;
-// served by Next.js from frontend/public/. Previous v2 reference pointed at
-// /de/decks/picture-path/og-image.png — a German-locale-pathed deck
-// thumbnail that leaked the wrong context onto all 11 locales' og:image.
+// served by Next.js from frontend/public/.
 const OG_IMAGE_PATH = '/og-homepage.png';
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
   const locale = params.locale || 'en';
-  // homepage.meta namespace reused: keys are brand-level (not v2-design-
-  // specific) and already localized in all 11 locales. v3 design swap
+  // homepage.meta namespace reused: keys are brand-level (not design-
+  // specific) and already localized in all 11 locales. The v6 design swap
   // doesn't change brand positioning.
   const t = await getTranslations({ locale, namespace: 'homepage.meta' });
 
@@ -70,8 +74,8 @@ export async function generateMetadata({ params }: { params: { locale: string } 
 
   return {
     // Brand suffix `· LessonCraftStudio` is applied by the root layout's
-    // `title.template` (added Phase 1 of SEO cleanup 2026-05-24). The
-    // `homepage.meta.title` per locale is the descriptive part only.
+    // `title.template`. The `homepage.meta.title` per locale is the
+    // descriptive part only.
     title: t('title'),
     description: t('description'),
     alternates: {
@@ -109,8 +113,6 @@ export async function generateMetadata({ params }: { params: { locale: string } 
 // sitewide module at `@/lib/seo/organization-schema` (see §17.8 + Phase 4
 // of the SEO remediation arc). Every page that needs to identify the
 // publisher references the same `@id` rather than duplicating properties.
-// SearchAction + sameAs omitted (no operator-confirmed search endpoint or
-// social profiles — TODO(operator) is tracked in organization-schema.ts).
 function buildSchemas(locale: string, _title: string, description: string) {
   return [
     buildOrganizationSchema(description),
@@ -118,11 +120,27 @@ function buildSchemas(locale: string, _title: string, description: string) {
   ];
 }
 
+const FALLBACK_TRAVELER =
+  'https://www.lessoncraftstudio.com/en/decks/addition-find-addend-animals/thumbnail.png';
+
 export default async function HomePage({ params }: { params: { locale: string } }) {
   const locale = params.locale || 'en';
   const t = await getTranslations({ locale, namespace: 'homepage.meta' });
+  const t6 = await getTranslations({ locale, namespace: 'homepageV6' });
 
   const schemas = buildSchemas(locale, t('ogTitle'), t('description'));
+
+  // The traveler artifact: ONE worksheet in the visitor's language that
+  // reappears at Make (born), Print (its paper twin) and Share (in 25
+  // hands). EN keeps the hand-picked deck; DB failure falls back to it too.
+  let travelerThumb = FALLBACK_TRAVELER;
+  if (locale !== 'en') {
+    try {
+      travelerThumb = (await getTypedThumbs(locale, ['addition']))[0] ?? FALLBACK_TRAVELER;
+    } catch {
+      /* keep fallback */
+    }
+  }
 
   return (
     <>
@@ -135,32 +153,46 @@ export default async function HomePage({ params }: { params: { locale: string } 
         />
       ))}
 
-      {/* Clean light ground for the professional redesign (2026-07-11).
-          Scoped to this page; unmounts on navigation. */}
+      {/* Clean light ground; scoped to this page, unmounts on navigation. */}
       <style>{`
         body { background: #FDFBF6 !important; color: #14322D; }
         body::before { display: none; }
       `}</style>
 
-      <main className={`hv3 hv5 ${baloo2.variable} ${nunito.variable} font-lcsBody text-[#14322D] min-h-screen`}>
-        {/* 9-section maker-first stack (2026-07-11 redesign). Order:
-            hero -> try-it -> makers -> language moat -> activities ->
-            free/Teacher -> share -> browse (crawl-bait) -> close. */}
-        <HeroV4 locale={locale} />
-        <TryItBandV4 locale={locale} />
-        <PillarMakersV4 locale={locale} />
-        <MoatLanguagesV4 locale={locale} />
-        <ActivitiesMoatV4 locale={locale} />
-        <FreeAndTeacherV4 locale={locale} />
-        <EmbedShareV4 locale={locale} />
+      {/* div, not main: LocaleLayoutClient already wraps children in <main>
+          (the v4 page nested a second <main> — fixed at the v6 promotion). */}
+      <div className={`hv6 ${baloo2.variable} ${nunito.variable} font-lcsBody text-[#14322D] min-h-screen`}>
+        <OpeningV6 locale={locale} />
+
+        {/* THE THREAD — one element, one long gradient, one line. Sections
+            inside cannot band: the ground belongs to the thread, not to them. */}
+        <div className="hv6-thread hv6-rise">
+          <TeachMomentV6 locale={locale} />
+          <ToolVignette variant="balance" caption={t6('teach.penBalance')} />
+          <PracticeMomentV6 locale={locale} />
+          <ToolVignette variant="choral" caption={t6('practice.penChoral')} />
+          <MakeMomentV6 locale={locale} travelerThumb={travelerThumb} />
+          <ToolVignette variant="letter-tiles" caption={t6('make.penTiles')} />
+          <BothWaysV6 locale={locale} travelerThumb={travelerThumb} />
+          <ShareMomentV6 locale={locale} travelerThumb={travelerThumb} />
+          <ToolVignette variant="clock" caption={t6('share.penClock')} />
+          <KeepMomentV6 locale={locale} />
+          <TeacherMomentV6 locale={locale} />
+        </div>
+
+        <CloseV6 locale={locale} />
+
+        {/* The Class Index — the number line's arrowhead lands here. The
+            crawl-bait mesh (Do NOT remove — primary crawlable links),
+            restyled as pinned index cards + the 47-tool group. */}
         <BrowseByTopicSSR
           locale={locale}
           maxThemesPerGroup={40}
           includeGradeGroup
           includeLanguageGroup
+          variant="hv6"
         />
-        <SignupV4 locale={locale} />
-      </main>
+      </div>
     </>
   );
 }

@@ -355,6 +355,54 @@
       return pool[Math.floor(pick * pool.length)];
     },
 
+    /* ⭐⭐ THE HINT DISPATCH IS MODEL CODE, NOT RENDER CODE.
+       Four native panels found `hintTurn` DEAD — declared once,
+       selected never — in a tool whose header advertises a reachability
+       gate, and whose smoke test contained a workaround calling the
+       string directly with a comment excusing the dispatch. I wrote the
+       excuse instead of reading the dispatch. A GATE YOU HELP PAST IS
+       NOT A GATE.
+       `hintPlan` was worse in a quieter way: it needed flat AND
+       ambiguous, and flat-at-zero is determined, so it reached FOUR
+       buildings out of 1,953,125 — while the tool opens on a staircase,
+       so the first hint anyone ever saw was `hintSame`, giving away the
+       whole payoff before a square had been touched.
+       ⚠ And the first repair was still untestable: the dispatch lived
+       inline in _paint(), so the Node gate had to REIMPLEMENT it, and a
+       gate that reimplements the thing it checks is testing a copy —
+       three mutations of the real dispatch sailed straight through.
+       As a pure function of (state, flags) it is enumerable by the gate
+       that actually matters.
+
+       Order: the turn speaks first because it just happened; then the
+       determined case, because inviting someone to find another
+       building when none exists is a lie; then the invitation to edit,
+       for anyone who has not yet touched a square; then the payoff. */
+    hintKey: function (st, justTurned, touched) {
+      var s = this._st(st), i, any = false;
+      for (i = 0; i < s.h.length; i++) if (s.h[i] > 0) { any = true; break; }
+      /* ⚠ A1 — WIRING hintTurn MADE IT LIE. It claimed "what faced you
+         now faces sideways" on EVERY turn, and THREE OF THE FIVE FREE
+         SETTINGS are turn-invariant: the teacher presses the chip in
+         front of the class, nothing moves, and the tool narrates motion.
+         Fixing a dead string had created a false one. The header keeps
+         the turn enabled on those 125 buildings precisely because a turn
+         that does nothing IS the invariance idea — so that idea now has
+         a string of its own instead of being narrated wrongly. */
+      if (justTurned) {
+        return this.rot(s).h.join() === s.h.join() ? 'hintTurnSame' : 'hintTurn';
+      }
+      /* ⚠ A2 — THE EMPTY BOARD IS "DETERMINED", AND SAYING SO IS ABSURD.
+         isAmbiguous([0×9]) is correctly false — no other building has
+         those two profiles — so the tool made its proudest claim over a
+         BLANK GRID, reachable by nine taps of ArrowDown. The predicate
+         is right; the dispatch needed to notice there is nothing there. */
+      if (!any) return 'hintEmpty';
+      if (!this.isAmbiguous(s)) return 'hintDetermined';
+      if (!touched) return 'hintPlan';
+      return 'hintSame';
+    },
+
     /* ---- entitlement + repertoire ---------------------------------- */
     STORE_KEY: 'lcs:build-plan:v1',
     premium: false,
@@ -377,11 +425,34 @@
     },
 
     strings: {
+      /* ⚠⚠ FOUR DEFECTS HERE WERE FOUND BY NATIVE PANELS, NOT BY ANY
+         GATE, AND EVERY ONE WAS REPRODUCED BEFORE IT WAS FIXED:
+         · "WRITE a number in each square" — there is no input, no
+           contenteditable and no prompt anywhere in this file. It
+           commanded a gesture the model refuses, in the first string
+           anyone reads. (#41's French-panel defect, verbatim.)
+         · "see what CHANGES" — the law this file's own header DELETES
+           as false. 125 buildings are turn-invariant and free setting
+           #1 is one of them ON PURPOSE, so the copy promised change on
+           the building chosen for not changing.
+         · sceneLabel put BOTH profiles "below the blueprint". Measured:
+           the blueprint ends at x 504, the side profile starts at 640,
+           under the BUILDING. Since this tool identifies the profiles
+           BY POSITION ALONE, that sentence was the only channel
+           carrying it to a screen-reader user — so it deleted the one
+           thing they needed.
+         · both strings said "cubes", eleven lines after this file
+           declares that nothing but the blueprint gets a noun. The
+           Portuguese panel had to DROP the clause rather than smuggle
+           in a fifth owned word — the English was forcing real
+           divergence downstream. */
       title: { en: "The Blueprint" },
-      instruction: { en: "Write a number in each square of the blueprint — that is how many cubes tall it is. The building follows. Turn it, and see what changes." },
-      sceneLabel: { en: "A blueprint of nine squares, each with a number in it, and beside it the building those numbers make, drawn in cubes. Below the blueprint, the same building seen from the front and seen from the side." },
-      hintPlan: { en: "Change a number in the blueprint and watch that part of the building rise or fall." },
-      hintTurn: { en: "Turn it a quarter turn. The building is the same one — but the front becomes the side." },
+      instruction: { en: "Every square of the blueprint holds a number: that is how tall the building stands there. Tap a square to raise it, drag up and down, or use the arrow keys. Then give it a quarter turn and see what happens." },
+      sceneLabel: { en: "A blueprint of nine squares, each with a number in it, and beside it the building those numbers make. Below the blueprint, that same building seen from the front; below the building, the same one seen from the side." },
+      hintPlan: { en: "Change a number in the blueprint and watch that part of the building rise or fall. The building and the blueprint are one thing, written twice." },
+      hintTurn: { en: "It is the same building — but what faced you now faces sideways, and what was at the side has come round to the front." },
+      hintTurnSame: { en: "Turn it as often as you like — this one looks the same from every quarter. That is worth a moment on its own." },
+      hintEmpty: { en: "Nothing built yet. Tap any square of the blueprint and the building starts there." },
       hintSame: { en: "Another building can look exactly like this from the front and from the side. Ask the class to picture one before you show it." },
       hintDetermined: { en: "This one is pinned down: no other building looks like this from both directions." },
       /* ⚠ "…, {v} cubes tall" READ AS "1 CUBES TALL" AT HEIGHT ONE.
@@ -391,16 +462,36 @@
          FIXED noun that does not inflect with the number removes the
          problem in every language at once, which is why the aria
          strings say "height {v}" and not "{v} cubes". */
-      cellAria: { en: "blueprint square, row {r} of 3, place {c} of 3, height {v}. Drag up or down, or use the arrow keys." },
-      colAria: { en: "the building, row {r} of 3, place {c} of 3, height {v}. Drag up or down, or use the arrow keys." },
+      /* ⚠ the aria labels named DRAG and ARROWS but not TAP — the
+         whiteboard gesture, the one a teacher actually uses in front of
+         a class. Naming two of three gestures to a screen-reader user
+         is not a style question.
+         ⚠ "place {c}" was chosen to dodge "column", but `place` is the
+         place-value word, in a grid full of numerals; three panels
+         refused to calque it.
+         ⚠ and colAria called each of NINE parts "the building" — a
+         listener sweeping the isometric side heard nine objects each
+         announcing itself as the whole. It is "in the building". */
+      cellAria: { en: "blueprint square, row {r} of 3, position {c} of 3, height {v}. Tap to raise it by one, drag up or down, or use the arrow keys." },
+      colAria: { en: "in the building, row {r} of 3, position {c} of 3, height {v}. Tap to raise it by one, drag up or down, or use the arrow keys." },
       frontAria: { en: "the same building seen from the front" },
       sideAria: { en: "the same building seen from the side" },
-      turnBtn: { en: "Turn a quarter" },
-      sameBtn: { en: "Another one like this" },
-      nextBtn: { en: "Another blueprint" },
+      /* ⚠ "Turn a quarter" is not idiomatic; and sameBtn/nextBtn read
+         as near-synonyms while doing opposite things — one keeps the
+         two directions and changes the building, the other changes
+         everything. */
+      turnBtn: { en: "Quarter turn" },
+      sameBtn: { en: "Another that looks the same" },
+      nextBtn: { en: "A different blueprint" },
       printBtn: { en: "Print the blueprints" },
       gateTitle: { en: "More blueprints" },
-      gateBody: { en: "Eleven more, ordered so each one surprises after the last, and the sheet to print: empty blueprints with the squares ruled and no numbers, to fill in by hand." },
+      /* ⚠ A4 — this claimed the paid eleven are "ordered so each one
+         surprises after the last", while build-plan-sets.json's own note
+         says the opposite: "The paid eleven are depth, not the
+         argument." One of the two was wrong and it was this one. The
+         sheet's real, countable asset — six blank blueprints — was
+         being thrown away in favour of a claim I could not support. */
+      gateBody: { en: "Eleven more buildings, including the ones a class rarely stumbles on: the ones no other building can imitate, and the ones with many twins. Plus the sheet to print — six empty blueprints, squares ruled and no numbers, to fill in by hand." },
       gateCta: { en: "See the Teacher plan" }
     },
 
@@ -413,6 +504,8 @@
       if (ent && ent.tier) this.premium = ent.tier !== 'free';
       this.st = this.newState();
       this._idx = -1;
+      this._justTurned = false;
+      this._touched = false;
       this._book = this.FALLBACK_SETS;
       this._fetchEntitlement();
       this._loadBook();
@@ -433,6 +526,8 @@
     reset: function () {
       this.st = this.newState();
       this._idx = -1;
+      this._justTurned = false;
+      this._touched = false;
       if (this._wrap) this._paint();
     },
 
@@ -529,11 +624,13 @@
 
       var foot = api.el('div', 'bpl-foot');
       this._chipTurn = this._chip(foot, '', function () {
-        self.st = self.rot(self.st); self._paint();
+        self.st = self.rot(self.st);
+        self._justTurned = true;
+        self._paint();
       });
       this._chipSame = this._chip(foot, '', function () {
         var o = self.another(self.st, Math.random());
-        if (o) { self.st = o; self._paint(); }
+        if (o) { self.st = o; self._justTurned = false; self._touched = true; self._paint(); }
       });
       this._chipNext = this._chip(foot, '', function () { self._next(); });
       this._chipPrint = this._chip(foot, 'bpl-lock', function () {
@@ -548,6 +645,13 @@
 
       if (!this._wired) { this._wireDrags(); this._wired = true; }
       api.stage.appendChild(wrap);
+    },
+
+    /* every height edit, from either end and by any gesture, lands
+       here — one place, so the two hint flags cannot drift apart */
+    _edited: function () {
+      this._justTurned = false;
+      this._touched = true;
     },
 
     _chip: function (foot, cls, fn) {
@@ -595,7 +699,7 @@
         var r = Math.floor(drag.i / self.N), c = drag.i % self.N;
         if (v !== self.at(self.st, r, c)) {
           var n = self.setHeight(self.st, r, c, v);
-          if (n) { self.st = n; drag.moved = true; self._paint(); }
+          if (n) { self.st = n; drag.moved = true; self._edited(); self._paint(); }
         }
         ev.preventDefault();
       };
@@ -612,7 +716,7 @@
           var i = Number(btn.getAttribute('data-i'));
           var r = Math.floor(i / self.N), c = i % self.N;
           var n = self.bump(self.st, r, c, 1);
-          if (n) { self.st = n; self._paint(); }
+          if (n) { self.st = n; self._edited(); self._paint(); }
         });
         btn.addEventListener('keydown', function (ev) {
           var k = ev.key, d = 0;
@@ -622,7 +726,7 @@
           ev.preventDefault();
           var i = Number(btn.getAttribute('data-i'));
           var n = self.bump(self.st, Math.floor(i / self.N), i % self.N, d);
-          if (n) { self.st = n; self._paint(); }
+          if (n) { self.st = n; self._edited(); self._paint(); }
         });
       };
       var j;
@@ -693,10 +797,22 @@
       if (!list.length) return;
       /* ⚠ start at -1 so the FIRST press serves sets[0]; #43 shipped a
          _next() that skipped its own first setting. */
+      /* ⚠⚠ A3 — THE FIRST PRESS SHOWED A FREE TEACHER THE PAYWALL.
+         _idx starts at -1, so press one computes (-1+1) % len = 0, and
+         the gate below fired on "_idx === 0". It was written to fire on
+         a WRAP — having been all the way round the free set — and index
+         0 is both the wrap AND the first press. A teacher's very first
+         click on "a different blueprint" was answered with a sales
+         card. The Finnish teacher's verdict: "I would not press it a
+         second time in front of a class."
+         Fixed by remembering whether we have actually been round. */
+      var wrapped = (this._idx === list.length - 1);
       this._idx = ((typeof this._idx === 'number' ? this._idx : -1) + 1) % list.length;
       this.st = this._st({ h: list[this._idx].h });
+      this._justTurned = false;
+      this._touched = false;
       this._paint();
-      if (!this.premium && this._idx === 0) this._showGate();
+      if (!this.premium && wrapped) this._showGate();
     },
 
     /* =================================================================
@@ -763,7 +879,23 @@
       /* front under the building's lower-LEFT face, side under its
          lower-RIGHT — position is what says which is which */
       drawView(this._vFront, this.front(s), this.FX, this.VBASE, 'front');
-      drawView(this._vSide, this.side(s), this.SX, this.VBASE, 'side');
+      /* ⭐⭐ REVERSED ROW ORDER, AND THAT IS THE DIFFERENCE BETWEEN
+         TRUE AND FALSE. On screen the building's side face runs row 0
+         -> row 2 from RIGHT to LEFT (measured: x 917.5, 846.5, 775.5),
+         because a step back in y travels down-LEFT in this projection.
+         Drawing side() left-to-right therefore drew the MIRROR of the
+         face it claims to be a shadow of: for [0,0,4, 0,0,0, 1,0,0] the
+         panel showed 401 where the eye sees 104.
+         This tool's OWN verified law states it — front(rot(h)) ===
+         REVERSE(side(h)) — and the renderer ignored its own model.
+         ⚠ EVERY GATE PASSED. local-test compared the profile against
+         cube heights counted in the SAME index order, so both sides of
+         the comparison carried the same bug and agreed perfectly. The
+         projections were "measured off the render" and still wrong. A
+         native panel reading the model found it.
+         MEASURING THE RENDER IS NOT ENOUGH IF THE ORACLE SHARES THE
+         CONVENTION. */
+      drawView(this._vSide, this.side(s).slice().reverse(), this.SX, this.VBASE, 'side');
       this._vFront.setAttribute('aria-label', api.t('frontAria'));
       this._vSide.setAttribute('aria-label', api.t('sideAria'));
 
@@ -799,16 +931,8 @@
       var amb = this.isAmbiguous(s);
       this._chipSame.disabled = !amb;
 
-      /* ---- the hint ------------------------------------------------
-         ⚠ IN-VIEW BEFORE EQUALITY. #43 shipped a hint that fired with
-         zero handles on screen because the dispatch tested equality
-         first. Here the DETERMINED case is tested before the invitation
-         to look for another, or the tool invites something impossible. */
-      var flat = true;
-      for (i = 1; i < n * n; i++) if (s.h[i] !== s.h[0]) { flat = false; break; }
-      this._hint.textContent = !amb ? api.t('hintDetermined')
-        : flat ? api.t('hintPlan')
-          : api.t('hintSame');
+      /* the dispatch is MODEL code — see hintKey() */
+      this._hint.textContent = api.t(this.hintKey(s, this._justTurned, this._touched));
 
       /* keep the two-node gate line honest: the wrap always carries the
          entitlement class so CSS cannot disagree with the model */

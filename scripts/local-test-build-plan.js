@@ -185,7 +185,13 @@ const FULL = [4, 4, 4, 4, 4, 4, 4, 4, 4];
       });
       /* the oracle, computed here from the DRAWN column heights */
       const wantFront = [0, 1, 2].map((c) => Math.max(m.col[c], m.col[3 + c], m.col[6 + c]));
-      const wantSide = [0, 1, 2].map((r) => Math.max(m.col[r * 3], m.col[r * 3 + 1], m.col[r * 3 + 2]));
+      /* ⭐⭐ REVERSED, because the side face runs right-to-left on
+         screen. The first version of this oracle used the same index
+         order as the renderer, so both carried the identical mirror bug
+         and agreed with each other perfectly. Measuring the render is
+         not enough when the oracle shares the convention — this now
+         derives the order from the PROJECTION, which is what decides it. */
+      const wantSide = [0, 1, 2].map((r) => Math.max(m.col[r * 3], m.col[r * 3 + 1], m.col[r * 3 + 2])).reverse();
       const total = h.reduce((a, b) => a + b, 0);
       if (m.nCubes !== total) bad++;
       if (m.col.join() !== h.join()) bad++;
@@ -194,6 +200,49 @@ const FULL = [4, 4, 4, 4, 4, 4, 4, 4, 4];
       if (total === 0 && m.nCubes === 0) vacuous++;
       checked++;
     }
+    /* ⭐⭐ THE PROFILE ORDER IS TIED TO THE SCREEN, NOT TO AN INDEX.
+       The mirror defect above was invisible to every comparison that
+       used the same index convention on both sides. This one asks a
+       different question entirely: does the bar for a given row sit on
+       the same side of the panel as that row's face sits on the
+       building? It is answered in PIXELS, so no shared convention can
+       satisfy it by accident. */
+    {
+      await setState(p, [0, 0, 4, 0, 0, 0, 1, 0, 0]);
+      await wait(90);
+      const m = await p.evaluate(() => {
+        const cx = (e) => { const b = e.getBoundingClientRect(); return b.left + b.width / 2; };
+        /* the screen x of each ROW's face on the building: take the
+           topmost drawn cube of the tallest column in that row */
+        const rowX = {};
+        for (const e of document.querySelectorAll('.bpl-f-top[data-cube]')) {
+          const col = Number(e.getAttribute('data-col')), r = Math.floor(col / 3);
+          const x = cx(e);
+          if (rowX[r] === undefined || x > rowX[r]) rowX[r] = x;
+        }
+        /* the screen x of each side-profile bar, and its height */
+        const barX = {}, barH = {};
+        for (const e of document.querySelectorAll('.bpl-vc[data-view="side"]')) {
+          const j = Number(e.getAttribute('data-col'));
+          barX[j] = cx(e); barH[j] = (barH[j] || 0) + 1;
+        }
+        return { rowX: rowX, barX: barX, barH: barH };
+      });
+      const rows = Object.keys(m.rowX).map(Number).sort((a, b) => a - b);
+      is(rows.length >= 2, `NON-VACUITY: ${rows.length} rows have a drawn face to compare against`);
+      /* rows run RIGHT to LEFT on the building; so must the bars */
+      const bldgDescending = rows.every((r, i) => i === 0 || m.rowX[r] < m.rowX[rows[i - 1]]);
+      is(bldgDescending, 'the building\'s rows run right-to-left on screen (the projection decides this, not the code)');
+      const bars = Object.keys(m.barX).map(Number).sort((a, b) => a - b);
+      const tallestBar = bars.reduce((a, b) => (m.barH[b] > m.barH[a] ? b : a), bars[0]);
+      const tallestRow = rows.reduce((a, b) => (m.rowX[b] !== undefined && a !== undefined ? a : b), rows[0]);
+      /* for this state row 0 is the 4-high one; its face is the
+         RIGHTMOST on the building, so its bar must be the RIGHTMOST */
+      const rightmostBar = bars.reduce((a, b) => (m.barX[b] > m.barX[a] ? b : a), bars[0]);
+      is(tallestBar === rightmostBar,
+        `⭐⭐ the tall row's bar sits on the SAME SIDE as its face on the building — bar ${tallestBar} is the rightmost (${rightmostBar}); a mirrored panel fails here`);
+    }
+
     is(checked === CASES.length, `NON-VACUITY: ${checked} states rendered and measured`);
     is(vacuous === 1, 'the empty building is one of them, and it really draws nothing');
     is(bad === 0, `⭐⭐ every rendered profile matches the rendered cubes, and the cubes match the numerals: ${bad} faults`);

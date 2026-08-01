@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>The Blueprint — LessonCraft Studio</title>
+  <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=18">
+</head>
+<body>
+  <!-- The shell mounts the whole tool into this element. -->
+  <div id="lcs-root"></div>
+
+  <!-- TOOL #44 — THE BLUEPRINT. Nine numerals on a ruled grid and the
+       building those numerals make, drawn in cubes, edited from either
+       end. It loads NO ART and NO AUDIO: nine squares, some numerals
+       and a stack of polygons are the whole stage, so nothing here can
+       404 into silence or into a blank frame. -->
+  <script src="/mini-tools/lcs-shell.js?v=4"></script>
+  <script src="/mini-tools/build-plan.js?v=1"></script>
+  <script>
+    // URL params the shell understands:
+    //   ?lang=de  ?lang=fi  (any of: en de fr it es pt nl sv da no fi)
+    //   ?embed=1        — trim chrome for iframe embedding
+    //   ?embed=compact  — also drop the title, for tightly-cropped iframes
+    LCS.mount(BuildPlan, { mount: '#lcs-root' });
+  </script>
+</body>
+</html>

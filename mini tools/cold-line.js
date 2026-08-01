@@ -141,23 +141,24 @@
        condition, or ask what the reading is.
        --------------------------------------------------------------- */
     strings: {
-      title: { en: "The Cold Line" },
-      instruction: { en: "Set the two marks anywhere on the scale, above or below zero. Slide the scale to reach further, and tip the whole thing over to see what it really is." },
-      sceneLabel: { en: "A tall column with a numbered scale beside it and two marks on it. Zero sits on the scale wherever the scale has been slid to. One control lays the whole instrument down flat." },
-      hintSet: { en: "Drag either mark up or down the scale." },
-      hintSlide: { en: "Drag the scale itself to reach numbers further up or further down." },
-      hintTip: { en: "Now lay it down flat. Nothing about it changes — same scale, same marks, same distance." },
-      hintSpan: { en: "Say out loud how far apart the marks are before you move them." },
+      title: { en: "Upright and Flat" },
+      instruction: { en: "Put the two marks on the scale, above or below zero. Drag the scale itself to reach further along it, and when you are ready, lay the whole thing down flat." },
+      sceneLabel: { en: "A tall column with a numbered scale beside it and two marks on the scale. The first mark fills the column as far as its own number; the second one does not. Between them stands a number: how far apart they are. One control lays the whole instrument down flat." },
+      zeroOff: { en: "Zero is off the scale at the moment." },
+      hintSet: { en: "Both marks are on the same number, so there is no distance between them. Drag one of them along the scale." },
+      hintSlide: { en: "One of the marks is off the scale now. Drag the scale itself until it comes back into view." },
+      hintTip: { en: "There it is, lying flat. The same scale, the same marks, the same distance between them." },
+      hintSpan: { en: "The number between the marks is how far apart they are. Now lay the whole thing down flat and watch what happens to it." },
       tipBtn: { en: "Lay it down" },
       standBtn: { en: "Stand it up" },
-      zeroBtn: { en: "Find zero" },
-      nextBtn: { en: "Another setting" },
+      zeroBtn: { en: "Zero to the middle" },
+      nextBtn: { en: "Another place" },
       printBtn: { en: "Print the sheet" },
-      markAAria: { en: "the first mark. Drag it along the scale." },
-      markBAria: { en: "the second mark. Drag it along the scale." },
-      scaleAria: { en: "the scale. Drag it to reach further up or further down." },
-      gateTitle: { en: "More settings" },
-      gateBody: { en: "Eleven more settings, ordered so each one surprises after the one before, and the sheet to print for working on paper." },
+      markAAria: { en: "the first mark. It fills the column as far as its own number. Drag it along the scale." },
+      markBAria: { en: "the second mark. It leaves the column alone. Drag it along the scale." },
+      scaleAria: { en: "the scale. Drag it to reach further along; a tap brings zero back to the middle." },
+      gateTitle: { en: "More places" },
+      gateBody: { en: "Eleven more places on the scale, ordered so each one surprises after the one before, and the sheet to print for working on paper." },
       gateCta: { en: "See the Teacher plan" }
     },
 
@@ -405,8 +406,9 @@
       this._wrap = wrap;
 
       var bench = api.el('div', 'cld-bench');
+      this._bench = bench;
       bench.setAttribute('role', 'img');
-      bench.setAttribute('aria-label', api.t('sceneLabel'));
+
       var svg = this._svgEl('svg', {
         viewBox: '0 0 ' + this.W + ' ' + this.H,
         'class': 'cld-svg', preserveAspectRatio: 'xMidYMid meet'
@@ -571,7 +573,7 @@
           if (n) { self.st = n; self._paint(); }
         }, function () {
           var s = self._st(self.st);
-          var n = self.setMark(self.st, which, s[which] >= self.DMAX ? self.DMIN : s[which] + 1);
+          var n = self.setMark(self.st, which, s[which] >= self.DMAX ? self.DMAX - 1 : s[which] + 1);
           if (n) { self.st = n; self._paint(); }
         });
       };
@@ -663,6 +665,9 @@
         if (!vis) return;
         g.setAttribute('transform', 'translate(' + (ax - self.TUBE_W / 2 - 6 - (k === 'a' ? 0 : 96)) + ' ' + self.yFor(s, val) + ')');
       });
+
+      this._bench.setAttribute('aria-label', api.t('sceneLabel')
+        + (this.inView(s, 0) ? '' : ' ' + api.t('zeroOff')));
 
       /* the span — operator ruling 3. It is the SUBJECT of the routine
          ("is that a bigger jump, or the same one?"), and showing it is

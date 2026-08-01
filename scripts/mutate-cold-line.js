@@ -112,10 +112,10 @@ const M = [
 
   /* ---- the refusals --------------------------------------------------- */
   ['a HYPHEN replaces the minus sign', "t.textContent = (v < 0 ? '−' : '') + Math.abs(v);", "t.textContent = String(v);"],
-  ['a degree sign enters an authored string', 'title: { en: "The Cold Line" }', 'title: { en: "The Cold Line °" }'],
-  ['a digit enters an authored string', 'zeroBtn: { en: "Find zero" }', 'zeroBtn: { en: "Find zero 0" }'],
+  ['a degree sign enters an authored string', 'title: { en: "Upright and Flat" }', 'title: { en: "Upright and Flat °" }'],
+  ['a digit enters an authored string', 'zeroBtn: { en: "Zero to the middle" }', 'zeroBtn: { en: "Find zero 0" }'],
   ['the tool starts ASKING', 'tipBtn: { en: "Lay it down" }', 'tipBtn: { en: "How cold is it?" }'],
-  ['weather vocabulary enters a string', 'nextBtn: { en: "Another setting" }', 'nextBtn: { en: "Another snow setting" }'],
+  ['weather vocabulary enters a string', 'nextBtn: { en: "Another place" }', 'nextBtn: { en: "Another snow setting" }'],
   ['the tool declares tasks', "    id: 'cold-line',", "    id: 'cold-line',\n    tasks: [],"],
   ['a verdict field enters the source', "    STORE_KEY: 'lcs:cold-line:v1',", "    correct: 1,\n    STORE_KEY: 'lcs:cold-line:v1',"],
 

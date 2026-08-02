@@ -90,6 +90,12 @@ function writeAtomic(file, data) {
 }
 
 function* walk(root, locales) {
+  /* ⚠ DEDUPE BY REAL PATH. Each published deck directory has BOTH a versioned
+     `<slug>-vN/` and a `<slug>` SYMLINK pointing at it (§15.5 atomic swap), so a
+     naive walk yields every deck.html twice. Harmless for correctness — the
+     second visit reports `already-deduped` — but it DOUBLED the dry-run's
+     reported saving, which is how it was caught. */
+  const seen = new Set();
   for (const loc of fs.readdirSync(root)) {
     if (loc.startsWith('.')) continue;
     if (locales && !locales.includes(loc)) continue;
@@ -98,7 +104,12 @@ function* walk(root, locales) {
     for (const slug of fs.readdirSync(d)) {
       if (slug.startsWith('.')) continue;
       const f = path.join(d, slug, 'deck.html');
-      if (fs.existsSync(f)) yield f;
+      if (!fs.existsSync(f)) continue;
+      let real;
+      try { real = fs.realpathSync(f); } catch { continue; }
+      if (seen.has(real)) continue;
+      seen.add(real);
+      yield real;
     }
   }
 }

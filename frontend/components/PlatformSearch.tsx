@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useCallback } from "react";
 import { useRouter, usePathname } from "next/navigation";
 import { Search, X } from "lucide-react";
 
@@ -176,36 +176,59 @@ export function PlatformSearch() {
   const currentLocale = pathname.split("/")[1] || "en";
   const t = CHROME[currentLocale] || CHROME.en;
   const langPrefix = LANG_ARIA_PREFIX[currentLocale] || "Language";
+/* ONE request per page, however many instances mount. Navigation renders this
+   component twice (desktop + mobile); without this they raced and fetched the
+   same 398KB payload twice. The promise is cached, not the data, so concurrent
+   callers join the in-flight request instead of starting a second one. */
+let searchIndexPromise: Promise<SearchEntry[]> | null = null;
+function fetchSearchIndex(): Promise<SearchEntry[]> {
+  if (!searchIndexPromise) {
+    searchIndexPromise = fetch(`/api/search-index`)
+      .then((res) => {
+        if (!res.ok) throw new Error(`search-index ${res.status}`);
+        return res.json();
+      })
+      .then((data) => (data.entries || []) as SearchEntry[])
+      .catch((err) => {
+        searchIndexPromise = null; // let a later focus retry
+        throw err;
+      });
+  }
+  return searchIndexPromise;
+}
+
 
   const [query, setQuery] = useState("");
   const [isOpen, setIsOpen] = useState(false);
   const [activeIdx, setActiveIdx] = useState(0);
-  // Global index across all 11 locales. Fetched once per session; the
-  // payload is ~88 entries (~18KB JSON) CDN-cached for 1h, so a single
-  // fetch covers every locale switch the user might do later.
+  /* Global index across all 11 locales, loaded ON FIRST INTERACTION.
+     ⚠ This used to fetch on mount, and the comment here claimed the payload
+     was "~88 entries (~18KB JSON)". Measured 2026-08-02: 1,630 entries and
+     398KB — 19x the entries, 22x the bytes. The index had grown for months
+     and nobody re-measured the claim. Worse, Navigation.tsx mounts this
+     component TWICE (desktop + mobile), so each page load pulled it twice:
+     796KB on the wire, before the visitor typed a single character, on every
+     page of the site. On a 1.6 Mbps link that competed directly with the HTML
+     document for the pipe.
+
+     Two fixes: the module-level promise below means both instances share ONE
+     request, and loadIndex() is now called from onFocus rather than a mount
+     effect, so a visitor who never uses search pays nothing. */
   const [index, setIndex] = useState<SearchEntry[]>([]);
 
   const containerRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  // Fetch the global index once on mount.
-  useEffect(() => {
-    let cancelled = false;
-    (async () => {
-      try {
-        const res = await fetch(`/api/search-index`);
-        if (!res.ok) return;
-        const data = await res.json();
-        if (cancelled) return;
-        setIndex(data.entries || []);
-      } catch (err) {
+  // Load on demand, shared across every mounted instance.
+  const loadIndex = useCallback(() => {
+    let live = true;
+    fetchSearchIndex()
+      .then((entries) => { if (live) setIndex(entries); })
+      .catch((err) => {
         // eslint-disable-next-line no-console
         console.warn("[PlatformSearch] index load failed:", err);
-      }
-    })();
-    return () => {
-      cancelled = true;
-    };
+      });
+    return () => { live = false; };
   }, []);
 
   // Click-outside + Esc.
@@ -274,6 +297,11 @@ export function PlatformSearch() {
       ref={containerRef}
       className="relative w-full max-w-md"
       role="search"
+      /* Warm the index on hover so a desktop click lands on an in-flight
+         request rather than starting one. Cheap: the shared promise means
+         hovering both instances still costs exactly one fetch, and a visitor
+         who never approaches the box still pays nothing. */
+      onPointerEnter={loadIndex}
     >
       <div className="relative">
         <Search
@@ -290,7 +318,7 @@ export function PlatformSearch() {
           aria-autocomplete="list"
           placeholder={t.placeholder}
           value={query}
-          onFocus={() => setIsOpen(true)}
+          onFocus={() => { loadIndex(); setIsOpen(true); }}
           onChange={(e) => {
             setQuery(e.target.value);
             if (!isOpen) setIsOpen(true);

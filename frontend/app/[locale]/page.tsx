@@ -7,15 +7,19 @@ import { buildOrganizationSchema, buildWebSiteSchema } from '@/lib/seo/organizat
 import GrandHall from '@/components/homepage-v10/GrandHall';
 import {
   InstrumentHall,
+  Playroom,
   PrintRoom,
   Studio,
+  Dispatch,
   MembersRoom,
   Exit,
   type RoomStrings,
   type InstrumentCard,
+  type AlcoveCard,
 } from '@/components/homepage-v10/Rooms';
 import BrowseByTopicSSR from '@/components/homepage-v3/BrowseByTopicSSR';
 import { MANIPULATIVES } from '@/lib/manipulatives';
+import { resolveActivityById } from '@/lib/activities';
 import { SUBSCRIPTION_PRODUCT } from '@/config/lemonsqueezy-product-config';
 import { selectShowcaseDecks, fallbackShowcase, type ShowcaseDeck } from '@/lib/showcase-decks';
 // BOTH stylesheets: v10 reuses the twelve instrument machines and the design
@@ -51,8 +55,12 @@ import '@/components/homepage-v10/homepage-v10.css';
 
 // Direction A typography pairing per CLAUDE.md §A.13.47 (locked).
 // Baloo 2 + Nunito; latin-ext covers all 11 site locales.
+// Measured, not guessed: only Baloo 600/700 and Nunito 400/600/700 render any
+// text on this page, so the other four files were dead weight. Homepage-scoped
+// — Fraunces/Inter/Poppins live in the root layout and are used by the shared
+// nav and footer, so they are untouched.
 const baloo2 = Baloo_2({
-  weight: ['400', '500', '600', '700', '800'],
+  weight: ['600', '700'],
   subsets: ['latin', 'latin-ext'],
   variable: '--font-baloo-2',
   display: 'swap',
@@ -60,7 +68,7 @@ const baloo2 = Baloo_2({
 });
 
 const nunito = Nunito({
-  weight: ['400', '500', '600', '700'],
+  weight: ['400', '600', '700'],
   subsets: ['latin', 'latin-ext'],
   variable: '--font-nunito',
   display: 'swap',
@@ -147,6 +155,17 @@ const INSTRUMENT_KEYS = ['rekenrek', 'number-balance', 'build-plan', 'fraction-k
 // lands a visitor on a paywall.
 const TOUCHABLE = 'rekenrek';
 
+/* Room II's four exhibits. Chosen from the 54 activities complete in ALL
+   ELEVEN locales, not from the 204 — the visually obvious picks exist only in
+   en/de, which would have left seven languages with a broken room. Four
+   distinct shapes across four strands. */
+const ALCOVES: Array<{ id: string; kind: 'ten-frame' | 'array' | 'shape' | 'length' }> = [
+  { id: 'ten-frame.teen-numbers.make-n', kind: 'ten-frame' },
+  { id: 'array.build-array.2-oa-c-4', kind: 'array' },
+  { id: 'choice-board.shape-id.k-g-a-2', kind: 'shape' },
+  { id: 'choice-board.compare-length.k-md-2', kind: 'length' },
+];
+
 function localized(map: Record<string, string> | undefined, locale: string) {
   return (map && (map[locale] || map.en)) || '';
 }
@@ -176,15 +195,23 @@ export default async function HomePage({ params }: { params: { locale: string } 
     ctaTools: tv('hero.ctaTools'),
     ctaWorksheets: tv('hero.ctaWorksheets'),
     hallLabel: tv('hero.fanLabel'),
+    countsLine: tv('hero.countsLine'),
   };
+
+  // Embedding is described natively x11 on the pricing page already.
+  const tEmbed = await getTranslations({ locale, namespace: 'pricingPage' });
 
   const rooms: RoomStrings = {
     instrumentsH2: tv('teach.heading'),
     instrumentsBody: tv('teach.body'),
     instrumentsCta: tv('teach.seeAll'),
 
-    printH2: tv('practice.heading'),
-    printBody: tv('practice.body'),
+    playH2: tv('practice.heading'),
+    playBody: tv('practice.body'),
+    playCta: tv('practice.browseActivities'),
+
+    printH2: tv('paper.heading'),
+    printBody: tv('paper.body'),
     printCta: tv('practice.browseWorksheets'),
     activitiesCta: tv('practice.browseActivities'),
 
@@ -213,11 +240,44 @@ export default async function HomePage({ params }: { params: { locale: string } 
     ],
     teacherCta: tv('teacher.teacherCta'),
 
+    shareH2: tv('share.heading'),
+    shareBody: tv('share.body'),
+    shareQrAlt: tv('share.qrAlt'),
+    shareChips: [tv('share.chip1'), tv('share.chip2'), tv('share.chip3'), tv('share.chip4')],
+    planTag: tv('planTag'),
+    embedLine: tEmbed('free.item5'),
+
     closeH2: `${tv('close.line1')} ${tv('close.line2')}`,
     closeBody: tv('close.body'),
     closeCtaPrimary: tv('close.ctaPrimary'),
     closeCtaSecondary: tv('close.ctaSecondary'),
   };
+
+  /* Room II's exhibits, resolved per locale. Titles and slugs are native in
+     all eleven languages already; the grade band comes from the shared
+     seo.educational_level namespace, which is likewise native x11. A row that
+     fails to resolve is DROPPED rather than rendered half-blank. */
+  const tg = await getTranslations({ locale, namespace: 'seo.educational_level' });
+  const GRADE_KEY: Record<string, string> = { K: 'kindergarten', '1': 'grade_1', '2': 'grade_2', '3': 'grade_3' };
+  const alcoves: AlcoveCard[] = (
+    await Promise.all(
+      ALCOVES.map(async (a) => {
+        const row = await resolveActivityById(a.id);
+        if (!row) return null;
+        const title = row.page_title?.[locale] || row.page_title?.en;
+        const slug = row.slug?.[locale] || row.slug?.en;
+        if (!title || !slug) return null;
+        const gk = GRADE_KEY[String(row.alignment?.grade ?? '')];
+        return {
+          id: a.id,
+          kind: a.kind,
+          title,
+          slug,
+          grade: gk ? tg(gk) : '',
+        } as AlcoveCard;
+      }),
+    )
+  ).filter(Boolean) as AlcoveCard[];
 
   const instruments: InstrumentCard[] = INSTRUMENT_KEYS.map((key) => {
     const m = MANIPULATIVES.find((x) => x.id === key);
@@ -258,8 +318,10 @@ export default async function HomePage({ params }: { params: { locale: string } 
       <div className={`hv6 hv10 ${baloo2.variable} ${nunito.variable} font-lcsBody min-h-screen`}>
         <GrandHall locale={locale} decks={decks.slice(0, 6)} strings={hero} />
         <InstrumentHall locale={locale} strings={rooms} instruments={instruments} live={live} />
+        <Playroom locale={locale} strings={rooms} activities={alcoves} />
         <PrintRoom locale={locale} decks={decks.slice(6)} strings={rooms} />
         <Studio locale={locale} strings={rooms} />
+        <Dispatch locale={locale} strings={rooms} deck={decks[3]} />
         <MembersRoom locale={locale} strings={rooms} />
         <Exit locale={locale} strings={rooms} />
 

@@ -12,7 +12,7 @@ import { buildDeckRichAlt } from '@/lib/deck-seo';
 import { landingSlugForDeck, canonicalDeckAssets } from '@/lib/seo/landing-content';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
 import { targetLangName, targetLangSlug } from '@/lib/target-language';
-import { resolveAxisName } from '@/lib/category-nav-data';
+import { resolveAxisName } from '@/lib/category-nav-taxonomy';
 import { fetchCrossLanguageDecks, fetchCrossLanguageFacets, type CrossLangTarget } from '@/lib/cross-language-decks';
 import type { TopicDeckSummary } from '@/lib/topic-decks';
 import DeckGridClient, { type TopicDeckCardData } from '../topic/[slug]/DeckGridClient';

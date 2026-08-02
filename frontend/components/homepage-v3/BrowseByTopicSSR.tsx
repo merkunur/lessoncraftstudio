@@ -1,7 +1,10 @@
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import { listNonEmptyAxisKeys, countDecksForSubjectLevel } from '@/lib/topic-decks';
-import { resolveAxisSlug, resolveAxisName, LABELS } from '@/lib/category-nav-data';
+import { LABELS } from '@/lib/category-nav-data';
+// Server Component: the taxonomy resolvers live in the server-only module so
+// the 189KB JSON never reaches a client bundle. See category-nav-taxonomy.ts.
+import { resolveAxisSlug, resolveAxisName } from '@/lib/category-nav-taxonomy';
 import { listSubjectKeys, getSubjectSlugStrict, getSubjectName, getAxisSlug, getAxisName } from '@/lib/taxonomy';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import { NATIVE_LOCALE_NAMES } from '@/components/homepage-v4/v4-strings';

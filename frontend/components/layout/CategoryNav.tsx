@@ -8,6 +8,8 @@ import { ChevronDown } from 'lucide-react';
 import {
   buildCategories,
   type CategoryKey,
+  type ToolLabel,
+  type AxisLabelMap,
 } from '@/lib/category-nav-data';
 
 // Header dropdown nav per homepage-restructure commission (2026-05-17 strategic
@@ -44,6 +46,8 @@ interface CategoryNavProps {
   // tool-content JSON is far too large to import into a client component);
   // without it every Manipulatives item falls back to the /tools index.
   toolSlugs?: Record<string, string>;
+  toolLabels?: ToolLabel[];
+  axisLabels?: AxisLabelMap;
   makerSlugs?: Record<string, string>;
 }
 
@@ -53,6 +57,8 @@ export function CategoryNav({
   availableThemes = [],
   availableTargets = [],
   toolSlugs = {},
+  toolLabels = [],
+  axisLabels = {},
   makerSlugs = {},
 }: CategoryNavProps) {
   const t = useTranslations('nav.categories');
@@ -88,6 +94,8 @@ export function CategoryNav({
     availableTargets,
     toolSlugs,
     makerSlugs,
+    toolLabels,
+    axisLabels,
     t,
   });
 

@@ -11,6 +11,8 @@ import { fetchCrossLanguageTargets } from '@/lib/cross-language-decks';
 import { targetLangSlug, targetLangName } from '@/lib/target-language';
 import { getToolSlugMap } from '@/lib/seo/tool-content';
 import { getMakerSlugMap } from '@/lib/seo/maker-content';
+import { MANIPULATIVES } from '@/lib/manipulatives';
+import { buildAxisLabels } from '@/lib/category-nav-taxonomy';
 
 // Generate static params for all locales - enables static generation
 export function generateStaticParams() {
@@ -125,6 +127,19 @@ export default async function LocaleLayout({
     // Content files unreachable: buildCategories falls back to the fragment links.
   }
 
+  /* The tool catalogue and the axis taxonomy, resolved HERE for this locale
+     only. Both used to be imported directly by `lib/category-nav-data.ts`,
+     which three client components consume — so 554KB of manipulatives and
+     189KB of taxonomy were compiled into `app/[locale]/layout-*.js`, a 727KB
+     chunk loading on every route in every language. The client needs about
+     3KB of it: `id` + `title` in one locale, and ~21 axis name/slug pairs.
+     Same reasoning as toolSlugs/makerSlugs directly above. */
+  const toolLabels = MANIPULATIVES.map((m) => ({
+    id: m.id,
+    title: m.title[locale] ?? m.title.en,
+  }));
+  const axisLabels = buildAxisLabels(locale);
+
   return (
     <NextIntlClientProvider locale={locale} messages={clientMessages}>
       <LocaleLayoutClient
@@ -136,6 +151,8 @@ export default async function LocaleLayout({
         availableTargets={availableTargets}
         toolSlugs={toolSlugs}
         makerSlugs={makerSlugs}
+        toolLabels={toolLabels}
+        axisLabels={axisLabels}
       >
         {children}
       </LocaleLayoutClient>

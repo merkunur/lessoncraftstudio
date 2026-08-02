@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { PRICING_PUBLIC } from '@/config/subscription-launch';
 import { FooterCategoryDropdowns } from './FooterCategoryDropdowns';
+import type { AxisLabelMap } from '@/lib/category-nav-data';
 
 // 3-row compact footer per the v5 activity-page redesign:
 //   Row 1: FooterCategoryDropdowns — 3 compact dropdown buttons
@@ -28,11 +29,14 @@ import { FooterCategoryDropdowns } from './FooterCategoryDropdowns';
 interface FooterProps {
   availableExerciseTypes?: string[];
   availableThemes?: string[];
+  /** Server-resolved axis name+slug map; see category-nav-taxonomy.ts. */
+  axisLabels?: AxisLabelMap;
 }
 
 export function Footer({
   availableExerciseTypes = [],
   availableThemes = [],
+  axisLabels = {},
 }: FooterProps = {}) {
   const pathname = usePathname();
   const locale = pathname.split('/')[1] || 'en';
@@ -50,6 +54,7 @@ export function Footer({
           locale={locale}
           availableExerciseTypes={availableExerciseTypes}
           availableThemes={availableThemes}
+          axisLabels={axisLabels}
         />
 
         {/* Row 2: utility links, single horizontal row, centered. */}

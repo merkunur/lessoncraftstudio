@@ -4,27 +4,50 @@ import { getTranslations } from 'next-intl/server';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { buildOrganizationSchema, buildWebSiteSchema } from '@/lib/seo/organization-schema';
-import OpeningV6 from '@/components/homepage-v6/OpeningV6';
-import TeachMomentV6 from '@/components/homepage-v6/TeachMomentV6';
-import PracticeMomentV6 from '@/components/homepage-v6/PracticeMomentV6';
-import MakeMomentV6 from '@/components/homepage-v6/MakeMomentV6';
-import ShareMomentV6 from '@/components/homepage-v6/ShareMomentV6';
-import KeepMomentV6 from '@/components/homepage-v6/KeepMomentV6';
-import TeacherMomentV6 from '@/components/homepage-v6/TeacherMomentV6';
-import CloseV6 from '@/components/homepage-v6/CloseV6';
+import GrandHall from '@/components/homepage-v10/GrandHall';
+import {
+  InstrumentHall,
+  PrintRoom,
+  Studio,
+  MembersRoom,
+  Exit,
+  type RoomStrings,
+  type InstrumentCard,
+} from '@/components/homepage-v10/Rooms';
 import BrowseByTopicSSR from '@/components/homepage-v3/BrowseByTopicSSR';
-import { getTypedThumbs, selectShowcaseDecks, fallbackShowcase, type ShowcaseDeck } from '@/lib/showcase-decks';
+import { MANIPULATIVES } from '@/lib/manipulatives';
+import { SUBSCRIPTION_PRODUCT } from '@/config/lemonsqueezy-product-config';
+import { selectShowcaseDecks, fallbackShowcase, type ShowcaseDeck } from '@/lib/showcase-decks';
+// BOTH stylesheets: v10 reuses the twelve instrument machines and the design
+// tokens from homepage-v6/ rather than copying them, which is why the root
+// div below keeps the `hv6` class (token scope + focus ring) alongside hv10.
 import '@/components/homepage-v6/homepage-v6.css';
+import '@/components/homepage-v10/homepage-v10.css';
 
-// Promoted 2026-08-01: homepage v6 "The Lesson Line" — one continuous
-// teaching narrative (a number line runs the page; tools/activities/
-// worksheets/makers/sharing are moments along it, not sections), working
-// pure-CSS apparatus vignettes as connective tissue, counts only in
-// captions, multilingual demoted to a quiet chip row. The v6 stack was
-// approved on /[locale]/preview/homepage-v6 (kept as the visual-diff
-// safety net, same pattern as the v3/v4 promotions). homepage-v2/-v3/-v4
-// components remain on disk for rollback + shared consumers
-// (BrowseByTopicSSR + FeaturedDeckTileV3 live in homepage-v3/).
+// Promoted 2026-08-02: homepage v10 "THE GALLERY OF LESSONS".
+//
+// The gallery is DRAWN; the art is REAL. The architecture — cornice, wall,
+// panelled dado, oak floor in one-point perspective, museum pedestals — is
+// flat illustration built in CSS. Everything hung on a wall or standing on a
+// pedestal is real product: published deck thumbnails, real apparatus
+// renders, and the pure-CSS instruments from homepage-v6/, running.
+//
+// The hero is ONE composition at every viewport from 320 to 2560 — a poster
+// that scales, not a per-device rearrangement — enforced by the dedicated
+// gate at scripts/audit-hero-identity.js (poison-tested: clean <=4.7,
+// broken 94.6). Past it the building continues through five rooms wearing
+// the same fabric, so scrolling reads as walking.
+//
+// i18n: nothing here is machine-translated and nothing new was authored.
+// Prose comes from the `homepageV6` namespace (already native x11 and
+// already tier-truthful), instrument names from MANIPULATIVES (native per
+// tool), and the room numbers are Roman numerals — language-neutral by
+// construction.
+//
+// Approved on /[locale]/preview/homepage-v10, which stays as the visual-diff
+// safety net (same pattern as the v3/v4/v6 promotions). The v6 components
+// remain on disk for rollback; BrowseByTopicSSR + the twelve instruments are
+// shared consumers and must not be deleted.
 
 // Direction A typography pairing per CLAUDE.md §A.13.47 (locked).
 // Baloo 2 + Nunito; latin-ext covers all 11 site locales.
@@ -118,58 +141,98 @@ function buildSchemas(locale: string, _title: string, description: string) {
   ];
 }
 
-const FALLBACK_TRAVELER =
-  'https://www.lessoncraftstudio.com/en/decks/addition-find-addend-animals/thumbnail.png';
+// Four instruments whose apparatus renders read well as objects on pedestals.
+const INSTRUMENT_KEYS = ['rekenrek', 'number-balance', 'build-plan', 'fraction-kitchen'];
+// The piece you may touch. A genuinely free tool, so the signature never
+// lands a visitor on a paywall.
+const TOUCHABLE = 'rekenrek';
+
+function localized(map: Record<string, string> | undefined, locale: string) {
+  return (map && (map[locale] || map.en)) || '';
+}
 
 export default async function HomePage({ params }: { params: { locale: string } }) {
   const locale = params.locale || 'en';
   const t = await getTranslations({ locale, namespace: 'homepage.meta' });
+  const tv = await getTranslations({ locale, namespace: 'homepageV6' });
 
   const schemas = buildSchemas(locale, t('ogTitle'), t('description'));
 
-  // The traveler artifact: ONE worksheet in the visitor's language that
-  // reappears at Make, Print and Share. EN keeps the hand-picked deck;
-  // DB failure falls back to it too.
-  let travelerThumb = FALLBACK_TRAVELER;
-  if (locale !== 'en') {
-    try {
-      travelerThumb = (await getTypedThumbs(locale, ['addition']))[0] ?? FALLBACK_TRAVELER;
-    } catch {
-      /* keep fallback */
-    }
-  }
-
-  // ONE showcase fetch feeds the whole page: fold fan (5), the wall
-  // (featured + 12), the keep-stack (3, reused) and the close peeks (2,
-  // reused). DB failure → empty slices; every consumer renders honestly.
-  let fanDecks: ShowcaseDeck[] = [];
-  let wallFeatured: ShowcaseDeck | null = null;
-  let wallThumbs: ShowcaseDeck[] = [];
-  let stackDecks: ShowcaseDeck[] = [];
-  let keepDecks: ShowcaseDeck[] = [];
-  let peekDecks: ShowcaseDeck[] = [];
+  // ONE showcase fetch feeds the whole building: the hall's salon hang (6)
+  // and the print room's wall (the rest). DB failure -> the curated EN
+  // fallback set; a real worksheet in the wrong language beats an empty wall.
+  let decks: ShowcaseDeck[] = [];
   try {
     let sel = await selectShowcaseDecks(locale, 18);
-    // DB empty/unreachable -> the curated EN fallback set (a real worksheet
-    // in the wrong language beats an empty fold).
     if (!sel.featured && sel.thumbs.length === 0) sel = fallbackShowcase(18);
-    const thumbs = sel.thumbs;
-    wallFeatured = sel.featured;
-    fanDecks = thumbs.slice(0, 5);
-    wallThumbs = thumbs.slice(5, 17);
-    stackDecks = thumbs.slice(1, 4);
-    keepDecks = thumbs.slice(10, 13);
-    peekDecks = [thumbs[6], thumbs[8]].filter(Boolean) as ShowcaseDeck[];
+    decks = sel.thumbs;
   } catch {
-    ({ featured: wallFeatured, thumbs: wallThumbs } = (() => {
-      const fb = fallbackShowcase(18);
-      fanDecks = fb.thumbs.slice(0, 5);
-      stackDecks = fb.thumbs.slice(1, 4);
-      keepDecks = fb.thumbs.slice(10, 13);
-      peekDecks = [fb.thumbs[6], fb.thumbs[8]].filter(Boolean) as ShowcaseDeck[];
-      return { featured: fb.featured, thumbs: fb.thumbs.slice(5, 17) };
-    })());
+    decks = fallbackShowcase(18).thumbs;
   }
+
+  const hero = {
+    h1: tv('hero.h1'),
+    sub: tv('hero.sub'),
+    ctaTools: tv('hero.ctaTools'),
+    ctaWorksheets: tv('hero.ctaWorksheets'),
+    hallLabel: tv('hero.fanLabel'),
+  };
+
+  const rooms: RoomStrings = {
+    instrumentsH2: tv('teach.heading'),
+    instrumentsBody: tv('teach.body'),
+    instrumentsCta: tv('teach.seeAll'),
+
+    printH2: tv('practice.heading'),
+    printBody: tv('practice.body'),
+    printCta: tv('practice.browseWorksheets'),
+    activitiesCta: tv('practice.browseActivities'),
+
+    studioH2: tv('make.heading'),
+    studioBody: tv('make.body'),
+    studioMakerAlt: tv('make.makerAlt'),
+    studioPlay: tv('make.forkPlay'),
+    studioPrint: tv('make.forkPrint'),
+    studioCta: tv('make.cta'),
+
+    plansH2: tv('teacher.heading'),
+    plansBody: tv('teacher.body'),
+    freeTitle: tv('teacher.freeTitle'),
+    freePrice: tv('teacher.freeTag'),
+    // Price interpolated from the product constant, never typed: marketing
+    // copy here is a claim about code behaviour.
+    teacherPrice: tv('teacher.teacherPrice', { price: SUBSCRIPTION_PRODUCT.priceUsd }),
+    freeItems: [tv('teacher.free1'), tv('teacher.free2'), tv('teacher.free3'), tv('teacher.free4')],
+    freeCta: tv('teacher.freeCta'),
+    teacherTitle: tv('teacher.teacherTitle'),
+    teacherItems: [
+      tv('teacher.teacher1'),
+      tv('teacher.teacher2'),
+      tv('teacher.teacher3'),
+      tv('teacher.teacher4'),
+    ],
+    teacherCta: tv('teacher.teacherCta'),
+
+    closeH2: `${tv('close.line1')} ${tv('close.line2')}`,
+    closeBody: tv('close.body'),
+    closeCtaPrimary: tv('close.ctaPrimary'),
+    closeCtaSecondary: tv('close.ctaSecondary'),
+  };
+
+  const instruments: InstrumentCard[] = INSTRUMENT_KEYS.map((key) => {
+    const m = MANIPULATIVES.find((x) => x.id === key);
+    return { key, name: localized(m?.title, locale), note: localized(m?.tagline, locale) };
+  }).filter((i) => i.name);
+
+  const touch = MANIPULATIVES.find((x) => x.id === TOUCHABLE);
+  const live = {
+    src: `/mini-tools/${TOUCHABLE}.html?lang=${locale}&embed=compact`,
+    name: localized(touch?.title, locale),
+    previewUrl: `/mini-tools/tool-previews/${TOUCHABLE}.webp`,
+    ctaLabel: tv('live.cta'),
+    note: tv('live.note'),
+    liveTag: tv('teach.liveTag'),
+  };
 
   return (
     <>
@@ -182,28 +245,27 @@ export default async function HomePage({ params }: { params: { locale: string } 
         />
       ))}
 
-      {/* Daylight ground; scoped to this page, unmounts on navigation. */}
+      {/* The body stays LIGHT. The gallery paints its own walls via
+          .hv10-field and .hv10-room; setting the body to a wall colour made
+          the category nav unreadable, because CategoryNav is a 4%-opacity
+          tint with dark text that relies on what sits behind it. */}
       <style>{`
         body { background: #FDFBF6 !important; color: #14322D; }
         body::before { display: none; }
       `}</style>
 
       {/* div, not main: LocaleLayoutClient already wraps children in <main>. */}
-      <div className={`hv6 ${baloo2.variable} ${nunito.variable} font-lcsBody min-h-screen`}>
-        {/* OPEN HOUSE — one continuous morning paper covered in the
-            product's own pages and working tools. */}
-        <div className="hv7-ground">
-          <OpeningV6 locale={locale} travelerThumb={travelerThumb} fanDecks={fanDecks} />
-          <TeachMomentV6 locale={locale} />
-          <PracticeMomentV6 locale={locale} featured={wallFeatured} thumbs={wallThumbs} />
-          <MakeMomentV6 locale={locale} travelerThumb={travelerThumb} />
-          <ShareMomentV6 locale={locale} travelerThumb={travelerThumb} />
-          <KeepMomentV6 locale={locale} keepDecks={keepDecks} />
-          <TeacherMomentV6 locale={locale} stackDecks={stackDecks} />
-          <CloseV6 locale={locale} peekDecks={peekDecks} />
+      <div className={`hv6 hv10 ${baloo2.variable} ${nunito.variable} font-lcsBody min-h-screen`}>
+        <GrandHall locale={locale} decks={decks.slice(0, 6)} strings={hero} />
+        <InstrumentHall locale={locale} strings={rooms} instruments={instruments} live={live} />
+        <PrintRoom locale={locale} decks={decks.slice(6)} strings={rooms} />
+        <Studio locale={locale} strings={rooms} />
+        <MembersRoom locale={locale} strings={rooms} />
+        <Exit locale={locale} strings={rooms} />
 
-          {/* The Class Index — the crawl-bait mesh (Do NOT remove — primary
-              crawlable links) as warm cream cards on the paper. */}
+        {/* The catalogue at the back of the building — the crawl-bait mesh
+            (Do NOT remove — primary crawlable links). */}
+        <div className="hv10-catalogue">
           <BrowseByTopicSSR
             locale={locale}
             maxThemesPerGroup={40}

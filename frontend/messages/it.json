@@ -4330,7 +4330,7 @@
       "ctaTools": "Apri uno strumento didattico",
       "ctaWorksheets": "Sfoglia le schede",
       "microLine": "Gratis per iniziare · senza login · niente da installare",
-      "countsLine": "Migliaia di schede da stampare · {tools} strumenti didattici · oltre 200 attività · 11 lingue",
+      "countsLine": "Un intero catalogo di schede da stampare · strumenti didattici dal vivo · attività pronte da giocare · tutto nella tua lingua",
       "fanLabel": "Schede d'esempio dal catalogo, nella tua lingua"
     },
     "ticks": {
@@ -4342,9 +4342,9 @@
     },
     "teach": {
       "heading": "Comincia dove comincia ogni lezione: davanti alla classe",
-      "body": "{count} strumenti da proiettare alla LIM e con cui fare lezione. È lo strumento a correggere: la bilancia pende, e nessuno deve dire «sbagliato».",
-      "caption": "{count} strumenti · prova gratis, senza login · niente timer, niente punteggi, niente gare",
-      "seeAll": "Vedi tutti i {count} strumenti",
+      "body": "Strumenti da proiettare alla LIM e con cui fare lezione. È lo strumento a correggere: la bilancia pende, e nessuno deve dire «sbagliato».",
+      "caption": "Uno strumento per ogni nucleo tematico · prova gratis, senza login · niente timer, niente punteggi, niente gare",
+      "seeAll": "Vedi tutti gli strumenti",
       "liveTag": "Dal vivo",
       "penBalance": "pende la bilancia, e nessuno dice «sbagliato»"
     },
@@ -4355,7 +4355,7 @@
     },
     "practice": {
       "heading": "Poi metti l'idea nelle mani di ogni bambino",
-      "body": "Oltre duecento attività brevi, e ogni scheda si gioca direttamente nel browser, agganciata all'obiettivo che stai trattando questa settimana. La pagina si corregge da sola, in silenzio: tu giri tra i banchi invece di stare sulle soluzioni.",
+      "body": "Le attività brevi si giocano direttamente nel browser — e ogni scheda del catalogo si gioca allo stesso modo, agganciata all'obiettivo che stai trattando questa settimana. La pagina si corregge da sola, in silenzio: tu giri tra i banchi invece di stare sulle soluzioni.",
       "caption": "Allineate al curricolo che insegni davvero.",
       "browseActivities": "Prova un'attività",
       "browseWorksheets": "Vedi tutte le schede",
@@ -4367,7 +4367,7 @@
     "make": {
       "heading": "Falla su misura per la tua classe",
       "body": "Scegli l'esercizio, l'intervallo numerico, il tema, le immagini — perfino le tue foto. Da una sola creazione escono una scheda interattiva che si autocorregge e un PDF pronto da stampare con le soluzioni.",
-      "caption": "{count} generatori · una libreria di 3.000 immagini · le tue foto sono benvenute",
+      "caption": "Un generatore per ogni tipo di esercizio · una ricca libreria di immagini · le tue foto sono benvenute",
       "forkLabel": "Una creazione, due formati",
       "forkPlay": "Si gioca nel browser",
       "forkPrint": "Si stampa con le soluzioni",
@@ -4398,9 +4398,9 @@
     },
     "keep": {
       "heading": "Prepara una lezione, conserva un anno",
-      "body": "Con il piano Insegnante salvi quello che crei e lo raccogli per unità — al nuovo anno scolastico è lì che ti aspetta. Allineato al tuo curricolo, in 11 lingue, con la grammatica giusta.",
-      "chipCurricula": "Allineato a 10 curricoli nazionali",
-      "chipLanguages": "Funziona in 11 lingue",
+      "body": "Con il piano Insegnante salvi quello che crei e lo raccogli per unità — al nuovo anno scolastico è lì che ti aspetta. Allineato al tuo curricolo, nella tua lingua, con la grammatica giusta.",
+      "chipCurricula": "Allineato alle Indicazioni nazionali",
+      "chipLanguages": "Funziona nella tua lingua",
       "chipNoData": "Nessun dato raccolto sugli alunni",
       "chipNoAds": "Niente pubblicità sulle pagine degli alunni"
     },

@@ -2798,7 +2798,7 @@
       "ctaTools": "Avaa opetustyökalu",
       "ctaWorksheets": "Selaa tehtäväarkkeja",
       "microLine": "Aloita ilmaiseksi · ei kirjautumista · ei mitään asennettavaa",
-      "countsLine": "Tuhansia tulostettavia tehtäväarkkeja · {tools} opetustyökalua · 200+ tehtävää · 11 kieltä",
+      "countsLine": "Kokonainen kirjasto tulostettavia tehtäväarkkeja · opetustyökalut luokan eteen · heti pelattavat tehtävät · kaikki omalla kielelläsi",
       "fanLabel": "Näytteitä kirjaston tehtäväarkeista, omalla kielelläsi"
     },
     "ticks": {
@@ -2810,9 +2810,9 @@
     },
     "teach": {
       "heading": "Aloita siitä, mistä jokainen oppitunti alkaa: luokan edestä",
-      "body": "{count} työkalua, jotka heijastat taululle ja joiden äärestä opetat. Väline hoitaa korjaamisen: vaaka kallistuu, eikä kenenkään tarvitse sanoa väärin.",
-      "caption": "{count} työkalua · kokeile ilmaiseksi, ilman kirjautumista · ei ajastimia, ei pisteitä, ei suoritusputkia",
-      "seeAll": "Katso kaikki {count} työkalua",
+      "body": "Opetustyökaluja, jotka heijastat taululle ja joiden äärestä opetat. Väline hoitaa korjaamisen: vaaka kallistuu, eikä kenenkään tarvitse sanoa väärin.",
+      "caption": "Työkaluja jokaiseen sisältöalueeseen · kokeile ilmaiseksi, ilman kirjautumista · ei ajastimia, ei pisteitä, ei suoritusputkia",
+      "seeAll": "Katso kaikki työkalut",
       "liveTag": "Live",
       "penBalance": "vaaka kallistuu – kenenkään ei tarvitse sanoa väärin"
     },
@@ -2823,7 +2823,7 @@
     },
     "practice": {
       "heading": "Sitten sama idea jokaisen lapsen käsiin",
-      "body": "Yli 200 lyhyttä tehtävää ja jokainen tehtäväarkki toimivat suoraan selaimessa, sidottuina juuri siihen OPS:n tavoitteeseen, jota tällä viikolla opetat. Sivu tarkistaa itsensä hiljaa, joten sinä kierrät luokkaa etkä vastauslistaa.",
+      "body": "Lyhyet tehtävät toimivat suoraan selaimessa – ja jokainen kirjaston tehtäväarkki pelataan samalla tavalla, sidottuna juuri siihen OPS:n tavoitteeseen, jota tällä viikolla opetat. Sivu tarkistaa itsensä hiljaa, joten sinä kierrät luokkaa etkä vastauslistaa.",
       "caption": "Linjassa sen opetussuunnitelman kanssa, jota oikeasti opetat.",
       "browseActivities": "Kokeile tehtävää",
       "browseWorksheets": "Selaa kaikkia tehtäväarkkeja",
@@ -2835,7 +2835,7 @@
     "make": {
       "heading": "Tee siitä täsmälleen luokkasi näköinen",
       "body": "Valitse harjoitus, lukualue, teema ja kuvat – vaikka omat valokuvasi. Yhdellä teolla saat interaktiivisen, itsekorjaavan tehtäväarkin sekä tulostusvalmiin PDF:n vastauksineen.",
-      "caption": "{count} generaattoria · 3 000 kuvan kirjasto · myös omat valokuvasi",
+      "caption": "Generaattori jokaiseen tehtävätyyppiin · runsas kuvakirjasto · myös omat valokuvasi",
       "forkLabel": "Yksi teko, kaksi tulosta",
       "forkPlay": "Toimii selaimessa",
       "forkPrint": "Tulostuu vastauksineen",
@@ -2866,9 +2866,9 @@
     },
     "keep": {
       "heading": "Suunnittele oppitunti, säilytä koko vuosi",
-      "body": "Opettajatilauksella tallennat tekemäsi ja kokoat sen jaksoittain – kaikki odottaa valmiina, kun uusi lukuvuosi alkaa. Linjassa opetussuunnitelmasi kanssa, 11 kielellä ja kielioppi kohdallaan.",
-      "chipCurricula": "Linjassa 10 kansallisen opetussuunnitelman kanssa",
-      "chipLanguages": "Toimii 11 kielellä",
+      "body": "Opettajatilauksella tallennat tekemäsi ja kokoat sen jaksoittain – kaikki odottaa valmiina, kun uusi lukuvuosi alkaa. Linjassa opetussuunnitelmasi kanssa, omalla kielelläsi ja kielioppi kohdallaan.",
+      "chipCurricula": "Linjassa OPS:n kanssa",
+      "chipLanguages": "Toimii omalla kielelläsi",
       "chipNoData": "Oppilastietoja ei kerätä",
       "chipNoAds": "Ei mainoksia oppilaiden sivuilla"
     },

@@ -4339,7 +4339,7 @@
       "ctaTools": "Open a teaching tool",
       "ctaWorksheets": "Browse the worksheets",
       "microLine": "Free to start · no login · nothing to install",
-      "countsLine": "Thousands of printable worksheets · {tools} teaching tools · 200+ activities · 11 languages",
+      "countsLine": "A full library of printable worksheets · live teaching tools · ready-to-play activities · all in your language",
       "fanLabel": "Sample worksheets from the library, in your language"
     },
     "ticks": {
@@ -4351,9 +4351,9 @@
     },
     "teach": {
       "heading": "Start where every lesson starts: at the front of the room",
-      "body": "{count} classroom instruments you project and teach from. The apparatus does the correcting: the beam tips, so nobody has to say wrong.",
-      "caption": "{count} instruments · free to try, no login · no timers, no scores, no streaks",
-      "seeAll": "See all {count} tools",
+      "body": "Classroom instruments you project and teach from. The apparatus does the correcting: the beam tips, so nobody has to say wrong.",
+      "caption": "Instruments for every strand · free to try, no login · no timers, no scores, no streaks",
+      "seeAll": "See all the tools",
       "liveTag": "Live",
       "penBalance": "the beam settles level — nobody had to say wrong"
     },
@@ -4364,7 +4364,7 @@
     },
     "practice": {
       "heading": "Then hand the idea to every child",
-      "body": "Two hundred–plus short activities play right in the browser — and every worksheet in the library plays the same way, pinned to the curriculum you're teaching this week. The page checks itself quietly, so you walk the room instead of the answer key.",
+      "body": "Short activities play right in the browser — and every worksheet in the library plays the same way, pinned to the curriculum you're teaching this week. The page checks itself quietly, so you walk the room instead of the answer key.",
       "caption": "Pinned to the curriculum you actually teach.",
       "browseActivities": "Try an activity",
       "browseWorksheets": "Browse all worksheets",
@@ -4376,7 +4376,7 @@
     "make": {
       "heading": "Make it exactly right for your class",
       "body": "Pick the exercise, the number range, the theme, the artwork — even your own photos. One build gives you an interactive worksheet that checks itself, and a print-ready PDF with an answer key.",
-      "caption": "{count} makers · a 3,000-image library · your photos welcome",
+      "caption": "A maker for every exercise type · a rich picture library · your photos welcome",
       "forkLabel": "One build, two outputs",
       "forkPlay": "Plays in the browser",
       "forkPrint": "Prints with answer key",
@@ -4407,9 +4407,9 @@
     },
     "keep": {
       "heading": "Plan a lesson, keep a year",
-      "body": "With the Teacher plan, save what you build and collect it by unit — it's waiting when the new school year starts. Aligned to your curriculum, in 11 languages, with the grammar right.",
-      "chipCurricula": "Aligned to 10 national curricula",
-      "chipLanguages": "Works in 11 languages",
+      "body": "With the Teacher plan, save what you build and collect it by unit — it's waiting when the new school year starts. Aligned to your curriculum, in your language, with the grammar right.",
+      "chipCurricula": "Aligned to your national curriculum",
+      "chipLanguages": "Works in your language",
       "chipNoData": "No student data collected",
       "chipNoAds": "No ads on student pages"
     },

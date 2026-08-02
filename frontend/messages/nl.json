@@ -2809,7 +2809,7 @@
       "ctaTools": "Open een hulpmiddel",
       "ctaWorksheets": "Bekijk de werkbladen",
       "microLine": "Gratis om te beginnen · zonder login · niets te installeren",
-      "countsLine": "Duizenden printbare werkbladen · {tools} hulpmiddelen · 200+ activiteiten · 11 talen",
+      "countsLine": "Een volle bibliotheek printbare werkbladen · live hulpmiddelen voor in de klas · kant-en-klare activiteiten · alles in jouw taal",
       "fanLabel": "Voorbeeldwerkbladen uit de bibliotheek, in jouw taal"
     },
     "ticks": {
@@ -2821,9 +2821,9 @@
     },
     "teach": {
       "heading": "Begin waar elke les begint: voor de klas",
-      "body": "{count} hulpmiddelen die je projecteert en waarmee je vanaf het bord lesgeeft. Het materiaal doet het nakijken: de balans slaat door, dus niemand hoeft 'fout' te zeggen.",
-      "caption": "{count} hulpmiddelen · gratis te proberen, zonder login · geen timers, geen scores, geen competitie",
-      "seeAll": "Bekijk alle {count} hulpmiddelen",
+      "body": "Hulpmiddelen die je projecteert en waarmee je vanaf het bord lesgeeft. Het materiaal doet het nakijken: de balans slaat door, dus niemand hoeft 'fout' te zeggen.",
+      "caption": "Hulpmiddelen voor elk leergebied · gratis te proberen, zonder login · geen timers, geen scores, geen competitie",
+      "seeAll": "Bekijk alle hulpmiddelen",
       "liveTag": "Live",
       "penBalance": "de balans slaat door — niemand zegt fout"
     },
@@ -2834,7 +2834,7 @@
     },
     "practice": {
       "heading": "Geef het daarna elk kind in handen",
-      "body": "Ruim tweehonderd korte activiteiten en elk werkblad spelen gewoon in de browser, gekoppeld aan het kerndoel waar je deze week aan werkt. De pagina kijkt zichzelf stilletjes na, dus jij loopt door de klas in plaats van het antwoordblad langs.",
+      "body": "Korte activiteiten spelen gewoon in de browser — en elk werkblad in de bibliotheek speelt net zo, gekoppeld aan het kerndoel waar je deze week aan werkt. De pagina kijkt zichzelf stilletjes na, dus jij loopt door de klas in plaats van het antwoordblad langs.",
       "caption": "Afgestemd op de kerndoelen waar jij echt mee werkt.",
       "browseActivities": "Probeer een activiteit",
       "browseWorksheets": "Bekijk alle werkbladen",
@@ -2846,7 +2846,7 @@
     "make": {
       "heading": "Maak het precies passend voor jouw groep",
       "body": "Kies de oefening, het getalbereik, het thema, de afbeeldingen — of upload je eigen foto's. Eén keer maken geeft je een interactief werkblad dat zichzelf nakijkt én een printklare PDF met antwoordblad.",
-      "caption": "{count} makers · een bibliotheek van 3.000 afbeeldingen · je eigen foto's zijn welkom",
+      "caption": "Een maker voor elk oefentype · een rijke beeldbibliotheek · je eigen foto's zijn welkom",
       "forkLabel": "Eén keer maken, twee resultaten",
       "forkPlay": "Speelt in de browser",
       "forkPrint": "Print met antwoordblad",
@@ -2877,9 +2877,9 @@
     },
     "keep": {
       "heading": "Plan één les, bewaar een heel jaar",
-      "body": "Met het Leerkracht-abonnement bewaar je wat je maakt en verzamel je het per blok — het staat klaar als het nieuwe schooljaar begint. Afgestemd op jouw curriculum, in 11 talen, met de grammatica op orde.",
-      "chipCurricula": "Afgestemd op 10 nationale curricula",
-      "chipLanguages": "Werkt in 11 talen",
+      "body": "Met het Leerkracht-abonnement bewaar je wat je maakt en verzamel je het per blok — het staat klaar als het nieuwe schooljaar begint. Afgestemd op de kerndoelen, in jouw taal, met de grammatica op orde.",
+      "chipCurricula": "Afgestemd op de kerndoelen",
+      "chipLanguages": "Werkt in jouw taal",
       "chipNoData": "Geen leerlinggegevens verzameld",
       "chipNoAds": "Geen advertenties op leerlingpagina's"
     },

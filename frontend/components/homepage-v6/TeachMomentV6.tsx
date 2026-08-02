@@ -8,7 +8,7 @@
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import { MANIPULATIVES } from '@/lib/manipulatives';
-import { getToolSlugMap, TOOL_KEYS, TOOL_MINI_URL, type ToolKey } from '@/lib/seo/tool-content';
+import { getToolSlugMap, TOOL_MINI_URL, type ToolKey } from '@/lib/seo/tool-content';
 import LiveToolEmbedV6 from './LiveToolEmbedV6';
 import ToolVignette, { type VignetteVariant } from './ToolVignette';
 import SeamInstrument from './SeamInstrument';
@@ -59,7 +59,6 @@ export default async function TeachMomentV6({ locale }: Props) {
   const byId = new Map(MANIPULATIVES.map((m) => [m.id, m]));
   const liveTool = byId.get(LIVE_TOOL);
   const liveName = liveTool?.title[locale] ?? liveTool?.title.en ?? 'Rekenrek';
-  const toolCount = TOOL_KEYS.length;
 
   const toolHref = (key: string) =>
     toolSlugs[key] ? `/${locale}/tools/${toolSlugs[key]}` : `/${locale}/tools`;
@@ -73,12 +72,12 @@ export default async function TeachMomentV6({ locale }: Props) {
               {t('heading')}
             </h2>
             <p className="mt-4 font-lcsBody text-lg text-[#3d574f] leading-relaxed">
-              {t('body', { count: toolCount })}
+              {t('body')}
             </p>
-            <p className="mt-4 font-lcsBody text-sm text-[#5a6b64]">{t('caption', { count: toolCount })}</p>
+            <p className="mt-4 font-lcsBody text-sm text-[#5a6b64]">{t('caption')}</p>
             <div className="mt-6">
               <Link href={`/${locale}/tools`} className="hv6-cta hv6-cta-ghost text-base px-6 py-3">
-                {t('seeAll', { count: toolCount })}
+                {t('seeAll')}
                 <svg className="ml-2 w-4 h-4" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                   <path d="M5 10h10M11 5l5 5-5 5" />
                 </svg>

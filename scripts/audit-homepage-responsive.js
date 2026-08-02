@@ -32,7 +32,7 @@ const args = Object.fromEntries(
 const BASE = args.base || 'http://localhost:3000';
 const LOCALES = String(args.locales || 'en,es').split(',').filter(Boolean);
 const OUT = args.out || path.join(__dirname, '..', '.scratch', 'responsive-shots');
-const WIDTHS = [320, 360, 412, 568, 640, 768, 834, 1024, 1152, 1280, 1366, 1600, 1920];
+const WIDTHS = [320, 360, 412, 568, 640, 768, 834, 1024, 1152, 1280, 1366, 1600, 1920, 2560];
 const EDGE_TOLERANCE = 2;
 
 async function auditOne(browser, locale, width) {
@@ -79,7 +79,7 @@ async function auditOne(browser, locale, width) {
       // v8 Open House: these containers bleed past the right edge BY DESIGN
       // and are clipped by .hv7-ground { overflow-x: clip } / the fold's own
       // clip. Check (a) hscroll still guards real overflow.
-      if (el.closest('.hv7-fan, .hv7-overlap-x, .hv7-peek-l, .hv7-peek-r, .hv7-keepstack')) continue;
+      if (el.closest('.hv7-fan, .hv9-fold-fan, .hv7-overlap-x, .hv7-keepstack')) continue;
       // sr-only subtrees are visually 1px-clipped by construction (nav
       // crawl-bait lists); child rects still report layout positions.
       if (el.closest('.sr-only, [aria-hidden="true"]')) continue;
@@ -116,7 +116,26 @@ async function auditOne(browser, locale, width) {
     // (d4) animation census: a stagger bug that multiplies animations
     // shows up as an explosion here.
     const census = document.getAnimations ? document.getAnimations().length : -1;
-    return { vw, overflowX, offenders, sculpture, beetle, census };
+    // (d5) the mobile's drop-thread must never touch the fan worksheets
+    let drop = 'n/a';
+    const dr = document.querySelector('.hv9-fold-stage .hv6-mob-drop');
+    if (dr && getComputedStyle(dr).display !== 'none') {
+      const dRect = dr.getBoundingClientRect();
+      const hit = [...document.querySelectorAll('.hv9-fold-fan .hv7-sheet')].some((sh) => {
+        const r = sh.getBoundingClientRect();
+        return dRect.bottom > r.top + 2 && dRect.top < r.bottom && dRect.right > r.left && dRect.left < r.right;
+      });
+      drop = hit ? 'TOUCHES FAN' : 'ok';
+    }
+    // (d6) close-band flanking sheets must be fully inside the viewport
+    let closeSheets = 'ok';
+    for (const sh of document.querySelectorAll('#close .hv7-sheet')) {
+      const cs2 = getComputedStyle(sh);
+      if (cs2.display === 'none') continue;
+      const r = sh.getBoundingClientRect();
+      if (r.left < -2 || r.right > vw + 2) { closeSheets = `CUT (${Math.round(r.left)}..${Math.round(r.right)})`; break; }
+    }
+    return { vw, overflowX, offenders, sculpture, beetle, census, drop, closeSheets };
   }, EDGE_TOLERANCE);
 
   const shot = path.join(OUT, `resp-${locale}-${width}.png`);
@@ -128,6 +147,8 @@ async function auditOne(browser, locale, width) {
   if (m.offenders.length) fails.push(`edge-breakout: ${m.offenders.join(' | ')}`);
   if (m.sculpture !== 'ok') fails.push(`sculpture ${m.sculpture}`);
   if (m.beetle !== 'ok' && m.beetle !== 'n/a') fails.push(`beetle ${m.beetle}`);
+  if (m.drop !== 'ok' && m.drop !== 'n/a') fails.push(`drop-thread ${m.drop}`);
+  if (m.closeSheets !== 'ok') fails.push(`close sheets ${m.closeSheets}`);
   if (m.census > 220) fails.push(`animation census ${m.census} > 220 (stagger multiplication?)`);
   const realErrors = consoleErrors.filter((e) => !/favicon/.test(e));
   if (realErrors.length) fails.push(`console errors: ${realErrors.slice(0, 2).join(' ; ')}`);

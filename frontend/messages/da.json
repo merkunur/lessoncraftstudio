@@ -2806,7 +2806,7 @@
       "ctaTools": "Åbn et undervisningsværktøj",
       "ctaWorksheets": "Se arbejdsarkene",
       "microLine": "Gratis at starte · uden login · intet at installere",
-      "countsLine": "Titusindvis af printklare arbejdsark · {tools} undervisningsværktøjer · 200+ aktiviteter · 11 sprog",
+      "countsLine": "Et helt bibliotek af printklare arbejdsark · levende undervisningsværktøjer · spilleklare aktiviteter · alt sammen på dit sprog",
       "fanLabel": "Et udvalg af arbejdsark fra biblioteket, på dit sprog"
     },
     "ticks": {
@@ -2818,9 +2818,9 @@
     },
     "teach": {
       "heading": "Begynd der, hvor hver time begynder: ved tavlen",
-      "body": "{count} tavleværktøjer, du viser for klassen og underviser ud fra. Apparatet retter selv: vægten vipper, så ingen behøver at sige forkert.",
-      "caption": "{count} værktøjer · gratis at prøve, uden login · ingen tidtagning, ingen point, ingen konkurrence",
-      "seeAll": "Se alle {count} værktøjer",
+      "body": "Tavleværktøjer, du viser for klassen og underviser ud fra. Apparatet retter selv: vægten vipper, så ingen behøver at sige forkert.",
+      "caption": "Værktøjer til hvert fagområde · gratis at prøve, uden login · ingen tidtagning, ingen point, ingen konkurrence",
+      "seeAll": "Se alle værktøjerne",
       "liveTag": "Live",
       "penBalance": "vægten vipper — ingen behøver sige forkert"
     },
@@ -2831,7 +2831,7 @@
     },
     "practice": {
       "heading": "Giv så idéen videre til hvert enkelt barn",
-      "body": "Over 200 korte aktiviteter og alle arbejdsark spiller direkte i browseren — knyttet til det mål, du arbejder med i denne uge. Siden retter stille sig selv, så du kan gå rundt i klassen i stedet for at sidde med facitlisten.",
+      "body": "Korte aktiviteter spiller direkte i browseren — og alle arbejdsark i biblioteket spiller på samme måde, knyttet til det mål, du arbejder med i denne uge. Siden retter stille sig selv, så du kan gå rundt i klassen i stedet for at sidde med facitlisten.",
       "caption": "Knyttet til den læreplan, du faktisk underviser efter.",
       "browseActivities": "Prøv en aktivitet",
       "browseWorksheets": "Se alle arbejdsark",
@@ -2843,7 +2843,7 @@
     "make": {
       "heading": "Lav det, så det passer præcis til din klasse",
       "body": "Vælg øvelsen, talområdet, temaet og billederne — eller brug dine egne fotos. Én opbygning giver dig et interaktivt arbejdsark, der retter sig selv, og en printklar PDF med facitliste.",
-      "caption": "{count} generatorer · et bibliotek med 3.000 billeder · dine egne fotos er velkomne",
+      "caption": "En generator til hver øvelsestype · et rigt billedbibliotek · dine egne fotos er velkomne",
       "forkLabel": "Én opbygning, to formater",
       "forkPlay": "Spiller i browseren",
       "forkPrint": "Printes med facitliste",
@@ -2874,9 +2874,9 @@
     },
     "keep": {
       "heading": "Planlæg en time, behold et helt år",
-      "body": "Med Lærerabonnementet gemmer du det, du bygger, og samler det forløb for forløb — det ligger klar, når det nye skoleår begynder. Tilpasset din læreplan, på 11 sprog og med grammatikken på plads.",
-      "chipCurricula": "Tilpasset 10 nationale læreplaner",
-      "chipLanguages": "Virker på 11 sprog",
+      "body": "Med Lærerabonnementet gemmer du det, du bygger, og samler det forløb for forløb — det ligger klar, når det nye skoleår begynder. Tilpasset din læreplan, på dit sprog og med grammatikken på plads.",
+      "chipCurricula": "Tilpasset Fælles Mål",
+      "chipLanguages": "Virker på dit sprog",
       "chipNoData": "Ingen elevdata indsamles",
       "chipNoAds": "Ingen reklamer på elevsider"
     },

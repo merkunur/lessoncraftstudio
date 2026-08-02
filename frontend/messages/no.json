@@ -2813,7 +2813,7 @@
       "ctaTools": "Åpne et undervisningsverktøy",
       "ctaWorksheets": "Se arbeidsarkene",
       "microLine": "Gratis å starte · ingen innlogging · ingenting å installere",
-      "countsLine": "Tusenvis av utskriftsklare arbeidsark · {tools} undervisningsverktøy · over 200 aktiviteter · 11 språk",
+      "countsLine": "Et helt bibliotek med utskriftsklare arbeidsark · undervisningsverktøy for tavla · spilleklare aktiviteter · alt på språket ditt",
       "fanLabel": "Et utvalg arbeidsark fra biblioteket, på språket ditt"
     },
     "ticks": {
@@ -2825,9 +2825,9 @@
     },
     "teach": {
       "heading": "Start der hver time starter: ved tavla",
-      "body": "{count} instrumenter for klasserommet som du viser på storskjerm og underviser fra. Apparatet tar rettingen: vekta vipper, så ingen trenger å si «feil».",
-      "caption": "{count} instrumenter · gratis å prøve, uten innlogging · ingen stoppeklokke, ingen poeng, ingen seiersrekker",
-      "seeAll": "Se alle {count} verktøyene",
+      "body": "Instrumenter for klasserommet som du viser på storskjerm og underviser fra. Apparatet tar rettingen: vekta vipper, så ingen trenger å si «feil».",
+      "caption": "Instrumenter for hvert fagområde · gratis å prøve, uten innlogging · ingen stoppeklokke, ingen poeng, ingen seiersrekker",
+      "seeAll": "Se alle verktøyene",
       "liveTag": "Live",
       "penBalance": "vekta vipper — ingen trenger å si feil"
     },
@@ -2838,7 +2838,7 @@
     },
     "practice": {
       "heading": "Så gir du ideen videre til hvert enkelt barn",
-      "body": "Over 200 korte aktiviteter — og hvert eneste arbeidsark — spilles rett i nettleseren, knyttet til kompetansemålet du jobber med denne uka. Siden retter seg selv i det stille, så du kan gå rundt blant elevene i stedet for å sitte med fasiten.",
+      "body": "Korte aktiviteter spilles rett i nettleseren — og hvert eneste arbeidsark i biblioteket spilles på samme måte, knyttet til kompetansemålet du jobber med denne uka. Siden retter seg selv i det stille, så du kan gå rundt blant elevene i stedet for å sitte med fasiten.",
       "caption": "Forankret i læreplanen du faktisk følger.",
       "browseActivities": "Prøv en aktivitet",
       "browseWorksheets": "Se alle arbeidsark",
@@ -2850,7 +2850,7 @@
     "make": {
       "heading": "Lag det helt riktig for klassen din",
       "body": "Velg oppgaven, tallområdet, temaet, illustrasjonene — til og med dine egne foto. Én bygging gir deg et interaktivt arbeidsark som retter seg selv, og en utskriftsklar PDF med fasit.",
-      "caption": "{count} generatorer · et bibliotek med 3 000 bilder · dine egne foto er velkomne",
+      "caption": "En generator for hver øvelsestype · et rikt bildebibliotek · dine egne foto er velkomne",
       "forkLabel": "Én bygging, to resultater",
       "forkPlay": "Spilles i nettleseren",
       "forkPrint": "Skrives ut med fasit",
@@ -2881,9 +2881,9 @@
     },
     "keep": {
       "heading": "Planlegg en time, behold et helt år",
-      "body": "Med Lærerabonnementet lagrer du det du bygger og samler det etter tema — det venter på deg når det nye skoleåret starter. Forankret i læreplanen din, på 11 språk, med grammatikken på plass.",
-      "chipCurricula": "Tilpasset 10 nasjonale læreplaner",
-      "chipLanguages": "Fungerer på 11 språk",
+      "body": "Med Lærerabonnementet lagrer du det du bygger og samler det etter tema — det venter på deg når det nye skoleåret starter. Forankret i læreplanen din, på språket ditt, med grammatikken på plass.",
+      "chipCurricula": "Forankret i LK20",
+      "chipLanguages": "Fungerer på språket ditt",
       "chipNoData": "Ingen elevdata samles inn",
       "chipNoAds": "Ingen reklame på elevsider"
     },

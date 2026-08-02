@@ -7,6 +7,7 @@
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import type { ShowcaseDeck } from '@/lib/showcase-decks';
+import { MANIPULATIVES } from '@/lib/manipulatives';
 import ToolVignette from './ToolVignette';
 
 interface Props {
@@ -21,6 +22,8 @@ function titleFor(deck: ShowcaseDeck): string {
 
 export default async function CloseV6({ locale, peekDecks = [] }: Props) {
   const t = await getTranslations({ locale, namespace: 'homepageV6.close' });
+  const rek = MANIPULATIVES.find((m) => m.id === 'rekenrek');
+  const rekName = rek?.title[locale] ?? rek?.title.en ?? 'Rekenrek';
 
   const flank = (deck: ShowcaseDeck | undefined, tilt: string) =>
     deck ? (
@@ -42,6 +45,10 @@ export default async function CloseV6({ locale, peekDecks = [] }: Props) {
           <div className="text-center max-w-2xl">
             <div className="hv9-close-rek hidden sm:block" aria-hidden="true">
               <ToolVignette variant="rekenrek" />
+            </div>
+            {/* the signature machine, signed — its own localized name */}
+            <div className="hvg-placard hidden sm:block" aria-hidden="true">
+              {rekName}
             </div>
             <h2 className="font-lcsDisplay font-extrabold leading-[1.02] tracking-tight text-[2.25rem] sm:text-[3rem] md:text-[3.75rem] text-[#14322D]">
               <span className="block">{t('line1')}</span>

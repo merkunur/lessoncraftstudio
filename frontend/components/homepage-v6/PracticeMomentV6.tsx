@@ -76,6 +76,9 @@ export default async function PracticeMomentV6({ locale, featured, thumbs }: Pro
 
   const sheet = (deck: ShowcaseDeck, i: number, row: 'a' | 'b') => {
     const checking = row === 'a' && i === 1;
+    // The two outermost row-A sheets bleed past the viewport edge by
+    // design (collage), so their labels would be cut — text is never cut.
+    const labeled = !(row === 'a' && (i === 0 || i === 5));
     return (
       <a
         key={`${row}-${deck.language}-${deck.slug}`}
@@ -91,6 +94,14 @@ export default async function PracticeMomentV6({ locale, featured, thumbs }: Pro
           loading={row === 'a' ? 'eager' : 'lazy'}
           fetchPriority={row === 'a' ? 'low' : undefined}
         />
+        {/* lean-in label: the work's name appears when you approach —
+            existing localized title, zero new strings */}
+        {labeled && (
+          <span className="hvg-label" aria-hidden="true">
+            <span className="hvg-label-title">{titleFor(deck)}</span>
+            <span className="hvg-label-line">{deck.language}</span>
+          </span>
+        )}
         {checking && selfChecks}
       </a>
     );
@@ -136,7 +147,7 @@ export default async function PracticeMomentV6({ locale, featured, thumbs }: Pro
       </div>
 
       {/* THE WALL — full-bleed, overlapping, abundant. */}
-      <div className="hv7-wall mt-8 md:mt-10 overflow-x-clip">
+      <div className="hv7-wall hvg-wash mt-14 md:mt-16 overflow-x-clip">
         <div className="hidden sm:block">
           <div className="hv7-overlap-x justify-center px-4">
             {rowA.slice(0, 3).map((d, i) => sheet(d, i, 'a'))}
@@ -157,12 +168,12 @@ export default async function PracticeMomentV6({ locale, featured, thumbs }: Pro
             {rowA.slice(3, 6).map((d, i) => sheet(d, i + 3, 'a'))}
           </div>
           <div className="hv7-overlap-x justify-center px-4 -mt-8">
-            {activityCard(ACTIVITIES[0])}
+            {activityCard(ACTIVITIES[0], 'hv7-tilt-c')}
             {rowB.slice(0, 2).map((d, i) => sheet(d, i, 'b'))}
-            {activityCard(ACTIVITIES[1])}
+            {activityCard(ACTIVITIES[1], 'hv7-tilt-a')}
             {rowB.slice(2, 4).map((d, i) => sheet(d, i + 2, 'b'))}
-            {activityCard(ACTIVITIES[2])}
-            {activityCard(ACTIVITIES[3])}
+            {activityCard(ACTIVITIES[2], 'hv7-tilt-d')}
+            {activityCard(ACTIVITIES[3], 'hv7-tilt-b')}
           </div>
         </div>
 

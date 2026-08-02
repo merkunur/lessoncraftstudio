@@ -49,6 +49,9 @@ interface CategoryNavProps {
   toolLabels?: ToolLabel[];
   axisLabels?: AxisLabelMap;
   makerSlugs?: Record<string, string>;
+  /** Server-rendered sr-only crawl mesh per category key. Elements passed as
+   *  props are not hydrated; see the render site. SEO-load-bearing. */
+  meshSlots?: Record<string, React.ReactNode>;
 }
 
 export function CategoryNav({
@@ -60,6 +63,7 @@ export function CategoryNav({
   toolLabels = [],
   axisLabels = {},
   makerSlugs = {},
+  meshSlots,
 }: CategoryNavProps) {
   const t = useTranslations('nav.categories');
   const pathname = usePathname();
@@ -135,16 +139,15 @@ export function CategoryNav({
                     topic mesh ships in raw HTML (the popover below is gated on
                     `isOpen`, renders nothing server-side — §A.13.50). sr-only
                     keeps the visual design unchanged. Do NOT remove. */}
-                <ul className="sr-only">
-                  {d.items.map(item => (
-                    <li key={item.href}>
-                      <Link href={item.href}>{item.label}</Link>
-                    </li>
-                  ))}
-                  <li>
-                    <Link href={d.browseAllHref}>{d.browseAllLabel}</Link>
-                  </li>
-                </ul>
+                {/* The crawl mesh is now rendered on the SERVER and passed in
+                    as an element (see CategoryNavMesh). Elements handed to a
+                    Client Component as props are NOT hydrated, so these ~94
+                    links stopped costing main-thread time on every page while
+                    staying byte-identical in the HTML and in this exact
+                    position. Falls back to nothing only if a caller omits the
+                    slot — the mesh is SEO-load-bearing, so callers must pass
+                    it (app/[locale]/layout.tsx does). */}
+                {meshSlots?.[d.key]}
 
                 {isOpen && (
                   <div

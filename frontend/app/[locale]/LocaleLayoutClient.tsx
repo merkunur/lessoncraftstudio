@@ -7,6 +7,7 @@ import type { ToolLabel, AxisLabelMap } from '@/lib/category-nav-data';
 export function LocaleLayoutClient({
   children,
   footerSlot,
+  meshSlots,
   locale,
   footerAvailableExerciseTypes = [],
   footerAvailableThemes = [],
@@ -21,6 +22,8 @@ export function LocaleLayoutClient({
   children: React.ReactNode;
   /** Server-rendered <Footer/>, passed as an element so React never hydrates it. */
   footerSlot?: React.ReactNode;
+  /** Server-rendered crawl mesh per category; not hydrated. */
+  meshSlots?: Record<string, React.ReactNode>;
   locale: string;
   footerAvailableExerciseTypes?: string[];
   /** Per-locale non-empty theme axis-keys. Threaded to Navigation/CategoryNav
@@ -64,6 +67,7 @@ export function LocaleLayoutClient({
           toolSlugs={toolSlugs}
             toolLabels={toolLabels}
             axisLabels={axisLabels}
+          meshSlots={meshSlots}
           makerSlugs={makerSlugs}
         />
         <main>
@@ -86,6 +90,7 @@ export function LocaleLayoutClient({
         toolSlugs={toolSlugs}
             toolLabels={toolLabels}
             axisLabels={axisLabels}
+          meshSlots={meshSlots}
         makerSlugs={makerSlugs}
       />
       <main className="flex-1">

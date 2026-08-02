@@ -28,6 +28,8 @@ interface NavigationProps {
   /** toolKey → native tool slug for this locale (server-sourced). */
   toolSlugs?: Record<string, string>;
   toolLabels?: ToolLabel[];
+  /** Server-rendered crawl mesh per category; not hydrated. */
+  meshSlots?: Record<string, React.ReactNode>;
   axisLabels?: AxisLabelMap;
   makerSlugs?: Record<string, string>;
 }
@@ -39,6 +41,7 @@ export function Navigation({
   availableTargets = [],
   toolSlugs = {},
   toolLabels = [],
+  meshSlots,
   axisLabels = {},
   makerSlugs = {},
 }: NavigationProps = {}) {
@@ -263,6 +266,7 @@ export function Navigation({
       toolSlugs={toolSlugs}
             toolLabels={toolLabels}
             axisLabels={axisLabels}
+            meshSlots={meshSlots}
       makerSlugs={makerSlugs}
     />
     </>

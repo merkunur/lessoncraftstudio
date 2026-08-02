@@ -89,24 +89,35 @@ export function InstrumentHall({
       <h2 className="hv10-room-h2">{strings.instrumentsH2}</h2>
       <p className="hv10-room-body">{strings.instrumentsBody}</p>
 
-      <div className="hv10-hang hv10-hang--stands">
+      {/* The sculpture bench. Each column is a two-row grid whose first row
+          is a fixed height, so the exhibits share a baseline and the labels
+          share a top BY CONSTRUCTION — the previous version let each caption
+          set its own column's height, which is what made the row ragged.
+          The slab is one element spanning the whole bench. */}
+      {/* ⚠ --bench-n is NOT set inline. An inline custom property beats every
+          media query in the stylesheet, so setting it here pinned the bench to
+          four columns at 320px and the labels overflowed their ~66px columns.
+          The column count is the stylesheet's job. */}
+      <div className="hv10-bench">
         {instruments.map((t) => (
           <div key={t.key} className="hv10-stand">
-            <img
-              className="hv10-stand-art"
-              src={`/mini-tools/tool-previews/${t.key}.webp`}
-              alt=""
-              width={480}
-              height={360}
-              loading="lazy"
-              decoding="async"
-            />
-            <span className="hv10-stand-plaque">
-              {t.name}
-              <span className="hv10-stand-note">{t.note}</span>
-            </span>
+            <div className="hv10-stand-art">
+              <img
+                src={`/mini-tools/tool-previews/${t.key}.webp`}
+                alt=""
+                width={480}
+                height={360}
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            {/* Name only. The tagline is a full sentence and belongs in prose;
+                on a museum label it varied the box height 2.3x and dragged the
+                whole row out of alignment. */}
+            <span className="hv10-stand-plaque">{t.name}</span>
           </div>
         ))}
+        <div className="hv10-bench-slab" aria-hidden="true" />
       </div>
 
       {/* THE SIGNATURE. In a gallery nothing may be touched; here one piece
@@ -189,7 +200,7 @@ export function Studio({ locale, strings }: { locale: string; strings: RoomStrin
       <p className="hv10-room-body">{strings.studioBody}</p>
 
       <div className="hv10-studio">
-        <figure className="hv10-bench">
+        <figure className="hv10-workbench">
           <img
             src={`/homepage/${dir}maker.webp`}
             alt={strings.studioMakerAlt}

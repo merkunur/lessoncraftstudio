@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { ChevronUp } from 'lucide-react';
-import { buildCategories } from '@/lib/category-nav-data';
+import { buildCategories, type AxisLabelMap } from '@/lib/category-nav-data';
 
 // Footer dropdown row — 3 compact dropdown buttons (byLanguage / byTopic /
 // byExerciseType). Panels pop UP from the footer (bottom-full position) so
@@ -41,6 +41,8 @@ const FOOTER_LANGUAGES: Array<{ code: string; label: string }> = [
 
 interface FooterCategoryDropdownsProps {
   locale: string;
+  /** Server-resolved axis name+slug map; see category-nav-taxonomy.ts. */
+  axisLabels?: AxisLabelMap;
   availableExerciseTypes?: string[];
   availableThemes?: string[];
 }
@@ -57,6 +59,7 @@ interface DropdownConfig {
 
 export function FooterCategoryDropdowns({
   locale,
+  axisLabels = {},
   availableExerciseTypes = [],
   availableThemes = [],
 }: FooterCategoryDropdownsProps) {
@@ -92,6 +95,7 @@ export function FooterCategoryDropdowns({
     availableExerciseTypes,
     availableActivities: [],
     availableThemes,
+    axisLabels,
     t,
   });
   const topicsCat = cats.find(c => c.key === 'topics');

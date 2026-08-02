@@ -12,6 +12,7 @@ import { useAuth } from '@/contexts/auth-context';
 import { Menu, X } from 'lucide-react';
 import { CategoryNav } from './CategoryNav';
 import { MobileCategoryAccordion } from './MobileCategoryAccordion';
+import type { ToolLabel, AxisLabelMap } from '@/lib/category-nav-data';
 
 // Minimal educator-aligned navigation per HOMEPAGE-IMPLEMENTATION-PROMPT.md §6.10 + T4 option C.
 // Drops the seller-era Free Tools / Resources dropdowns and the Apps / Pricing links —
@@ -26,6 +27,8 @@ interface NavigationProps {
   availableTargets?: Array<{ iso: string; slug: string; name: string; count: number }>;
   /** toolKey → native tool slug for this locale (server-sourced). */
   toolSlugs?: Record<string, string>;
+  toolLabels?: ToolLabel[];
+  axisLabels?: AxisLabelMap;
   makerSlugs?: Record<string, string>;
 }
 
@@ -35,6 +38,8 @@ export function Navigation({
   availableThemes = [],
   availableTargets = [],
   toolSlugs = {},
+  toolLabels = [],
+  axisLabels = {},
   makerSlugs = {},
 }: NavigationProps = {}) {
   const t = useTranslations('navigation');
@@ -196,6 +201,8 @@ export function Navigation({
             availableThemes={availableThemes}
             availableTargets={availableTargets}
             toolSlugs={toolSlugs}
+            toolLabels={toolLabels}
+            axisLabels={axisLabels}
             makerSlugs={makerSlugs}
             onItemClick={closeDrawer}
           />
@@ -254,6 +261,8 @@ export function Navigation({
       availableThemes={availableThemes}
       availableTargets={availableTargets}
       toolSlugs={toolSlugs}
+            toolLabels={toolLabels}
+            axisLabels={axisLabels}
       makerSlugs={makerSlugs}
     />
     </>

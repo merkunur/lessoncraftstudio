@@ -11,16 +11,28 @@
 // availability filtering against topics-taxonomy.json. CategoryNav's render
 // output is unchanged by this extraction.
 
-import topicsTaxonomy from '@/config/topics-taxonomy.json';
-import { MANIPULATIVES } from '@/lib/manipulatives';
+// ⚠ THIS MODULE IS IMPORTED BY CLIENT COMPONENTS. It must not import
+// `@/lib/manipulatives` (554KB) or `@/config/topics-taxonomy.json` (189KB) —
+// it did until 2026-08-02, and both were therefore compiled into
+// `app/[locale]/layout-*.js`, which loads on EVERY route in EVERY language.
+// That chunk measured 727KB, ~684KB of it these two files, carrying eleven
+// languages of every tool description to read `id` + `title[locale]`.
+// `description` alone was 478KB and is never read on the client.
+//
+// Everything large now arrives as a PROP resolved in a Server Component —
+// the same discipline already applied to `toolSlugs` and `makerSlugs` below.
+// Taxonomy resolution lives in `@/lib/category-nav-taxonomy` (server-only).
 
-interface TaxonomySchema {
-  axes: {
-    'exercise-type': Record<string, { slug: Record<string, string>; name: Record<string, string> }>;
-    'theme': Record<string, { slug: Record<string, string>; name: Record<string, string> }>;
-    'educational-level': Record<string, { slug: Record<string, string>; name: Record<string, string> }>;
-  };
+/** One resolved axis entry for the nav: what to show, and where it points. */
+export interface AxisLabel { name: string; slug: string }
+/** Keyed `<axis>:<key>` — see axisLabelKey(). */
+export type AxisLabelMap = Record<string, AxisLabel>;
+/** The same key can exist on two axes, so the axis is part of the lookup key. */
+export function axisLabelKey(axis: 'exercise-type' | 'theme', key: string): string {
+  return `${axis}:${key}`;
 }
+/** One tool as the nav needs it. ORDER of the array is load-bearing (crawl mesh). */
+export interface ToolLabel { id: string; title: string }
 
 // Operator-curated exercise-type anchor candidates for Worksheets +
 // Interactive dropdowns. Filtered at render time against the locale's
@@ -98,24 +110,14 @@ export const TOPICS_THEME_ANCHOR_CANDIDATES = [
   'colors',
 ] as const;
 
-export function resolveAxisSlug(
-  axisKey: string,
-  locale: string,
-  axis: 'exercise-type' | 'theme' = 'exercise-type'
-): string {
-  const taxonomy = topicsTaxonomy as unknown as TaxonomySchema;
-  const entry = taxonomy.axes[axis]?.[axisKey];
-  return entry?.slug?.[locale] ?? entry?.slug?.en ?? axisKey;
+/* Lookups against the server-resolved map. An absent entry degrades to the
+   bare axis key — exactly what the old taxonomy resolvers did when a key or
+   locale was missing — so an unavailable map never empties a dropdown. */
+function axisSlugFrom(labels: AxisLabelMap, key: string, axis: 'exercise-type' | 'theme'): string {
+  return labels[axisLabelKey(axis, key)]?.slug ?? key;
 }
-
-export function resolveAxisName(
-  axisKey: string,
-  locale: string,
-  axis: 'exercise-type' | 'theme' = 'exercise-type'
-): string {
-  const taxonomy = topicsTaxonomy as unknown as TaxonomySchema;
-  const entry = taxonomy.axes[axis]?.[axisKey];
-  return entry?.name?.[locale] ?? entry?.name?.en ?? axisKey;
+function axisNameFrom(labels: AxisLabelMap, key: string, axis: 'exercise-type' | 'theme'): string {
+  return labels[axisLabelKey(axis, key)]?.name ?? key;
 }
 
 // Localized labels for the Activities / Manipulatives / Topics nav entries
@@ -184,6 +186,22 @@ export interface BuildCategoriesInput {
   toolSlugs?: Record<string, string>;
   /** makerKey -> native slug for this locale. Server-supplied, same reason as toolSlugs. */
   makerSlugs?: Record<string, string>;
+  /**
+   * The tool catalogue as the nav needs it: id + title in THIS locale only.
+   * Server-supplied from `@/lib/manipulatives` for the same reason as
+   * toolSlugs — importing it here shipped 554KB (eleven languages of every
+   * description) into the client bundle of every page.
+   *
+   * ⚠ An ARRAY, not a map: `manipulativesItems` derives the sr-only crawl-mesh
+   * link ORDER from catalogue position, so order is part of the contract.
+   */
+  toolLabels?: ToolLabel[];
+  /**
+   * Axis name+slug for the ~21 keys this nav renders, resolved for THIS locale
+   * by `buildAxisLabels()` in @/lib/category-nav-taxonomy (server-only).
+   * Replaces a 189KB JSON import. Keyed via axisLabelKey().
+   */
+  axisLabels?: AxisLabelMap;
   // Translator for the 'nav.categories' namespace. Accepts a key, returns
   // the localized string. CategoryNav and MobileCategoryAccordion both pass
   // `useTranslations('nav.categories')` directly.
@@ -202,6 +220,8 @@ export function buildCategories({
   availableTargets = [],
   toolSlugs = {},
   makerSlugs = {},
+  toolLabels = [],
+  axisLabels = {},
   t,
 }: BuildCategoriesInput): CategoryDropdown[] {
   const labels = LABELS[locale] || LABELS.en;
@@ -223,12 +243,12 @@ export function buildCategories({
   const browseAllWorksheetsHref = `/${locale}/worksheets/`;
 
   const worksheetsItems: DropdownItem[] = worksheetsKeys.map(key => ({
-    href: `/${locale}/topic/${resolveAxisSlug(key, locale)}/`,
-    label: resolveAxisName(key, locale),
+    href: `/${locale}/topic/${axisSlugFrom(axisLabels, key, 'exercise-type')}/`,
+    label: axisNameFrom(axisLabels, key, 'exercise-type'),
   }));
   const interactiveItems: DropdownItem[] = interactiveKeys.map(key => ({
-    href: `/${locale}/topic/${resolveAxisSlug(key, locale)}/`,
-    label: resolveAxisName(key, locale),
+    href: `/${locale}/topic/${axisSlugFrom(axisLabels, key, 'exercise-type')}/`,
+    label: axisNameFrom(axisLabels, key, 'exercise-type'),
   }));
   // Worksheet-creator items point at the per-maker landing, not a hub fragment.
   // These were `/worksheet-makers/#<key>` anchors; a fragment is not a separate URL,
@@ -242,7 +262,7 @@ export function buildCategories({
   // dropdown degrades to its previous behaviour rather than emptying or 404ing.
   const hasMakerSlugs = Object.keys(makerSlugs).length > 0;
   const appsItems: DropdownItem[] = APPS_ANCHOR_KEYS.map(key => {
-    const label = resolveAxisName(key, locale);
+    const label = axisNameFrom(axisLabels, key, 'exercise-type');
     const slug = hasMakerSlugs ? makerSlugs[key] : undefined;
     return {
       href: slug ? `/${locale}/tools/${slug}` : `/${locale}/worksheet-makers/#${key}`,
@@ -274,8 +294,8 @@ export function buildCategories({
   // Empty map (server data unavailable, or a caller that doesn't render this
   // category) falls back to the index link so the dropdown never empties.
   const hasToolSlugs = Object.keys(toolSlugs).length > 0;
-  const toolItem = (m: (typeof MANIPULATIVES)[number]): DropdownItem[] => {
-    const label = m.title[locale] ?? m.title.en;
+  const toolItem = (m: ToolLabel): DropdownItem[] => {
+    const label = m.title;
     if (!hasToolSlugs) return [{ href: `/${locale}/tools/`, label }];
     const slug = toolSlugs[m.id];
     if (!slug) return [];
@@ -285,13 +305,17 @@ export function buildCategories({
   // mesh needs all 40); MANIPULATIVES_VISIBLE_COUNT caps what the popover
   // shows so Tools matches the 6-10-item shape of every other category
   // instead of unrolling the whole catalogue into a w-64 column.
+  // `toolLabels` preserves catalogue order (see BuildCategoriesInput), so the
+  // anchors-then-rest split below produces the identical link order it always
+  // has. An empty array (server data unavailable) yields no tool items, the
+  // same degrade path as an absent tool from `toolSlugs`.
   const anchorSet = new Set<string>(MANIPULATIVES_ANCHOR_KEYS);
   const manipulativesItems: DropdownItem[] = [
     ...MANIPULATIVES_ANCHOR_KEYS
-      .map(key => MANIPULATIVES.find(m => m.id === key))
-      .filter((m): m is (typeof MANIPULATIVES)[number] => Boolean(m))
+      .map(key => toolLabels.find(m => m.id === key))
+      .filter((m): m is ToolLabel => Boolean(m))
       .flatMap(toolItem),
-    ...MANIPULATIVES.filter(m => !anchorSet.has(m.id)).flatMap(toolItem),
+    ...toolLabels.filter(m => !anchorSet.has(m.id)).flatMap(toolItem),
   ];
 
   const themeAvailSet = new Set(availableThemes);
@@ -300,8 +324,8 @@ export function buildCategories({
     : TOPICS_THEME_ANCHOR_CANDIDATES.filter(k => themeAvailSet.has(k)).slice(0, 6)
   );
   const topicsItems: DropdownItem[] = topicsKeys.map(key => ({
-    href: `/${locale}/topic/${resolveAxisSlug(key, locale, 'theme')}/`,
-    label: resolveAxisName(key, locale, 'theme'),
+    href: `/${locale}/topic/${axisSlugFrom(axisLabels, key, 'theme')}/`,
+    label: axisNameFrom(axisLabels, key, 'theme'),
   }));
 
   // Cross-language "Languages" category — only when this locale has cross-language decks.

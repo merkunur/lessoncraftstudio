@@ -7,6 +7,8 @@ import { ChevronDown } from 'lucide-react';
 import {
   buildCategories,
   type CategoryKey,
+  type ToolLabel,
+  type AxisLabelMap,
 } from '@/lib/category-nav-data';
 
 // Mobile-drawer category accordion.
@@ -31,6 +33,8 @@ interface MobileCategoryAccordionProps {
   availableTargets?: Array<{ iso: string; slug: string; name: string; count: number }>;
   /** toolKey → native tool slug for this locale (server-sourced). */
   toolSlugs?: Record<string, string>;
+  toolLabels?: ToolLabel[];
+  axisLabels?: AxisLabelMap;
   makerSlugs?: Record<string, string>;
   // Called whenever the user taps an item or browse-all link inside the
   // accordion. Parent (Navigation) uses this to close the surrounding
@@ -45,6 +49,8 @@ export function MobileCategoryAccordion({
   availableThemes = [],
   availableTargets = [],
   toolSlugs = {},
+  toolLabels = [],
+  axisLabels = {},
   makerSlugs = {},
   onItemClick,
 }: MobileCategoryAccordionProps) {
@@ -59,6 +65,8 @@ export function MobileCategoryAccordion({
     availableTargets,
     toolSlugs,
     makerSlugs,
+    toolLabels,
+    axisLabels,
     t,
   });
 

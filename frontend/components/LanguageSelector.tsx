@@ -3,7 +3,12 @@
 import { useRouter, usePathname } from 'next/navigation';
 import { useState, useRef, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
-import { locales } from '@/i18n/request';
+// ⚠ `locales` is re-exported by @/i18n/request, but that module's default
+// export is getRequestConfig() from next-intl/SERVER, with dynamic
+// `import('../messages/*.json')` inside. Importing it from a Client Component
+// pulls a server module into the client graph for what is just a string array.
+// @/config/locales is the actual source (2.8KB, already client-side).
+import { SUPPORTED_LOCALES as locales } from '@/config/locales';
 
 const languageNames: Record<string, string> = {
   da: 'Dansk',

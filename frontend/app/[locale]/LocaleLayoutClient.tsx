@@ -3,6 +3,7 @@
 import { usePathname } from 'next/navigation';
 import { Navigation } from '@/components/layout/Navigation';
 import { Footer } from '@/components/layout/Footer';
+import type { ToolLabel, AxisLabelMap } from '@/lib/category-nav-data';
 
 export function LocaleLayoutClient({
   children,
@@ -13,6 +14,8 @@ export function LocaleLayoutClient({
   availableActivities = [],
   availableTargets = [],
   toolSlugs = {},
+  toolLabels = [],
+  axisLabels = {},
   makerSlugs = {}
 }: {
   children: React.ReactNode;
@@ -27,6 +30,8 @@ export function LocaleLayoutClient({
   /** toolKey → native tool slug for this locale; gives every tool in the
    *  Manipulatives dropdown its own href instead of the shared index link. */
   toolSlugs?: Record<string, string>;
+  toolLabels?: ToolLabel[];
+  axisLabels?: AxisLabelMap;
   makerSlugs?: Record<string, string>;
 }) {
   const pathname = usePathname();
@@ -55,6 +60,8 @@ export function LocaleLayoutClient({
           availableThemes={footerAvailableThemes}
           availableTargets={availableTargets}
           toolSlugs={toolSlugs}
+            toolLabels={toolLabels}
+            axisLabels={axisLabels}
           makerSlugs={makerSlugs}
         />
         <main>
@@ -75,6 +82,8 @@ export function LocaleLayoutClient({
         availableThemes={footerAvailableThemes}
         availableTargets={availableTargets}
         toolSlugs={toolSlugs}
+            toolLabels={toolLabels}
+            axisLabels={axisLabels}
         makerSlugs={makerSlugs}
       />
       <main className="flex-1">
@@ -83,6 +92,7 @@ export function LocaleLayoutClient({
       <Footer
         availableExerciseTypes={footerAvailableExerciseTypes}
         availableThemes={footerAvailableThemes}
+        axisLabels={axisLabels}
       />
     </>
   );

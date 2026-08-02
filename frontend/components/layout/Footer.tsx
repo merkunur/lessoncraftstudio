@@ -1,8 +1,17 @@
-'use client';
+/* SERVER COMPONENT (was 'use client' until 2026-08-02).
+   It only needed the client for `usePathname()`, and only to derive the locale
+   — which the layout already knows. Measured on /en/pricing: the footer is 90
+   DOM nodes and 31 links, and React was hydrating all of them on EVERY page to
+   render nothing interactive. The one genuinely interactive part,
+   FooterCategoryDropdowns, stays a Client Component and is the only thing here
+   that now hydrates.
+
+   ⚠ Because a Client Component cannot render a Server Component as a child,
+   this is rendered in app/[locale]/layout.tsx and passed INTO
+   LocaleLayoutClient as the `footerSlot` prop. */
 
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 import { PRICING_PUBLIC } from '@/config/subscription-launch';
 import { FooterCategoryDropdowns } from './FooterCategoryDropdowns';
 import type { AxisLabelMap } from '@/lib/category-nav-data';
@@ -27,23 +36,24 @@ import type { AxisLabelMap } from '@/lib/category-nav-data';
 // no longer needs a manual top margin to push it away from content.
 
 interface FooterProps {
+  /** Supplied by the layout — was previously derived from usePathname(). */
+  locale: string;
   availableExerciseTypes?: string[];
   availableThemes?: string[];
   /** Server-resolved axis name+slug map; see category-nav-taxonomy.ts. */
   axisLabels?: AxisLabelMap;
 }
 
-export function Footer({
+export async function Footer({
+  locale,
   availableExerciseTypes = [],
   availableThemes = [],
   axisLabels = {},
-}: FooterProps = {}) {
-  const pathname = usePathname();
-  const locale = pathname.split('/')[1] || 'en';
-  const t = useTranslations('footer');
+}: FooterProps) {
+  const t = await getTranslations({ locale, namespace: 'footer' });
   // Pricing link is flip-gated (subscription launch 2026-07); reuses the
   // existing navigation.pricing key ×11.
-  const tNav = useTranslations('navigation');
+  const tNav = await getTranslations({ locale, namespace: 'navigation' });
 
   return (
     <footer id="footer" className="bg-cream-50 border-t border-cream-300 py-5 md:py-6 mt-0">

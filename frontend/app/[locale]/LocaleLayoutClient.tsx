@@ -2,11 +2,11 @@
 
 import { usePathname } from 'next/navigation';
 import { Navigation } from '@/components/layout/Navigation';
-import { Footer } from '@/components/layout/Footer';
 import type { ToolLabel, AxisLabelMap } from '@/lib/category-nav-data';
 
 export function LocaleLayoutClient({
   children,
+  footerSlot,
   locale,
   footerAvailableExerciseTypes = [],
   footerAvailableThemes = [],
@@ -19,6 +19,8 @@ export function LocaleLayoutClient({
   makerSlugs = {}
 }: {
   children: React.ReactNode;
+  /** Server-rendered <Footer/>, passed as an element so React never hydrates it. */
+  footerSlot?: React.ReactNode;
   locale: string;
   footerAvailableExerciseTypes?: string[];
   /** Per-locale non-empty theme axis-keys. Threaded to Navigation/CategoryNav
@@ -89,11 +91,7 @@ export function LocaleLayoutClient({
       <main className="flex-1">
         {children}
       </main>
-      <Footer
-        availableExerciseTypes={footerAvailableExerciseTypes}
-        availableThemes={footerAvailableThemes}
-        axisLabels={axisLabels}
-      />
+      {footerSlot}
     </>
   );
 }

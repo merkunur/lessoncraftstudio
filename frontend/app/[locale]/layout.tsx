@@ -169,6 +169,17 @@ export default async function LocaleLayout({
         makerSlugs={makerSlugs}
         toolLabels={toolLabels}
         axisLabels={axisLabels}
+        /* Rendered HERE, on the server, and handed down as an element: a Client
+           Component cannot render a Server Component as a child, but it can
+           render one it receives as a prop — and React never hydrates it. */
+        footerSlot={
+          <Footer
+            locale={locale}
+            availableExerciseTypes={footerAvailableExerciseTypes}
+            availableThemes={footerAvailableThemes}
+            axisLabels={axisLabels}
+          />
+        }
       >
         {children}
       </LocaleLayoutClient>

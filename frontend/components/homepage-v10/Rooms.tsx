@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import LiveToolEmbedV10 from '@/components/homepage-v6/LiveToolEmbedV6';
 import ActivityVignette, { type ActivityVignetteKind } from '@/components/homepage-v10/ActivityVignettes';
 import type { ShowcaseDeck } from '@/lib/showcase-decks';
@@ -107,13 +108,13 @@ export function InstrumentHall({
         {instruments.map((t) => (
           <div key={t.key} className="hv10-stand">
             <div className="hv10-stand-art">
-              <img
+              <Image
                 src={`/mini-tools/tool-previews/${t.key}.webp`}
                 alt=""
                 width={480}
                 height={360}
-                loading="lazy"
-                decoding="async"
+                sizes="(max-width: 900px) 46vw, 250px"
+                quality={78}
               />
             </div>
             {/* Name only. The tagline is a full sentence and belongs in prose;
@@ -231,20 +232,20 @@ export function PrintRoom({
             href={`https://www.lessoncraftstudio.com/${d.language}/decks/${d.slug}/`}
             style={{ ['--tilt' as string]: TILTS[i % TILTS.length] }}
           >
-            <img
+            <Image
               src={d.thumbnailUrl}
               alt={titleFor(d)}
               width={480}
               height={620}
-              loading="lazy"
-              decoding="async"
+              sizes="(max-width: 640px) 42vw, 170px"
+              quality={72}
             />
           </a>
         ))}
       </div>
 
       <div className="hv10-room-ctas">
-        <Link href={`/${locale}/worksheets/`} className="hv10-cta is-primary">
+        <Link href={`/${locale}/worksheets`} className="hv10-cta is-primary">
           {strings.printCta}
         </Link>
         <Link href={`/${locale}/activities`} className="hv10-cta is-ghost">
@@ -268,35 +269,35 @@ export function Studio({ locale, strings }: { locale: string; strings: RoomStrin
 
       <div className="hv10-studio">
         <figure className="hv10-workbench">
-          <img
+          <Image
             src={`/homepage/${dir}maker.webp`}
             alt={strings.studioMakerAlt}
             width={1200}
             height={760}
-            loading="lazy"
-            decoding="async"
+            sizes="(max-width: 900px) 100vw, 700px"
+            quality={76}
           />
         </figure>
         <div className="hv10-outputs">
           <figure className="hv10-output">
-            <img
+            <Image
               src={`/homepage/${dir}interactive-play.webp`}
               alt=""
               width={760}
               height={959}
-              loading="lazy"
-              decoding="async"
+              sizes="(max-width: 900px) 50vw, 340px"
+              quality={76}
             />
             <figcaption>{strings.studioPlay}</figcaption>
           </figure>
           <figure className="hv10-output">
-            <img
+            <Image
               src={`/homepage/${dir}interactive-celebrate.webp`}
               alt=""
               width={900}
               height={577}
-              loading="lazy"
-              decoding="async"
+              sizes="(max-width: 900px) 50vw, 340px"
+              quality={76}
             />
             <figcaption>{strings.studioPrint}</figcaption>
           </figure>
@@ -304,7 +305,7 @@ export function Studio({ locale, strings }: { locale: string; strings: RoomStrin
       </div>
 
       <div className="hv10-room-ctas">
-        <Link href={`/${locale}/worksheet-creators`} className="hv10-cta is-primary">
+        <Link href={`/${locale}/worksheet-makers`} className="hv10-cta is-primary">
           {strings.studioCta}
         </Link>
       </div>
@@ -381,12 +382,16 @@ export function Dispatch({
       <div className="hv10-dispatch">
         <div className="hv10-dispatch-sheet">
           {deck ? (
-            <img src={deck.thumbnailUrl} alt="" width={480} height={620} loading="lazy" decoding="async" />
+            <Image src={deck.thumbnailUrl} alt="" width={480} height={620} sizes="180px" quality={72} />
           ) : null}
         </div>
         <div className="hv10-dispatch-arc" aria-hidden="true" />
         <div className="hv10-dispatch-code">
           <span className="hv10-dispatch-card">
+            {/* Deliberately a plain <img>, NOT next/image. A QR code is read by
+                a camera and depends on hard black/white edges; lossy WebP at a
+                smaller size risks making it unscannable. It is 3KB — there is
+                nothing to win and a real thing to lose. */}
             <img src="/homepage/qr.png" alt={strings.shareQrAlt} width={360} height={360} loading="lazy" decoding="async" />
           </span>
           <span className="hv10-dispatch-class" aria-hidden="true">
@@ -412,7 +417,7 @@ export function Dispatch({
       <div className="hv10-embed">
         <span className="hv10-embed-window" aria-hidden="true">
           <span className="hv10-embed-bar"><i /><i /><i /></span>
-          {deck ? <img src={deck.thumbnailUrl} alt="" width={480} height={620} loading="lazy" decoding="async" /> : null}
+          {deck ? <Image src={deck.thumbnailUrl} alt="" width={480} height={620} sizes="160px" quality={72} /> : null}
         </span>
         <span className="hv10-embed-text">
           {strings.embedLine}
@@ -436,7 +441,7 @@ export function Exit({ locale, strings }: { locale: string; strings: RoomStrings
           <Link href={`/${locale}/tools`} className="hv10-cta is-primary">
             {strings.closeCtaPrimary}
           </Link>
-          <Link href={`/${locale}/worksheets/`} className="hv10-cta is-ghost">
+          <Link href={`/${locale}/worksheets`} className="hv10-cta is-ghost">
             {strings.closeCtaSecondary}
           </Link>
         </div>

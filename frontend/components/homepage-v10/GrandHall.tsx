@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import ToolVignette from '@/components/homepage-v6/ToolVignette';
 import WeighBench from '@/components/homepage-v10/WeighBench';
 import OpenNumberLine from '@/components/homepage-v10/OpenNumberLine';
@@ -128,14 +129,16 @@ export default function GrandHall({ locale, decks, strings }: Props) {
               }
             >
               {deck ? (
-                <img
+                <Image
                   src={deck.thumbnailUrl}
                   alt=""
                   width={480}
                   height={620}
-                  loading="eager"
-                  fetchPriority="low"
-                  decoding="async"
+                  /* The frames never render wider than ~216px even at 2560,
+                     so a full-size 480x620 PNG was ~130KB of waste each. */
+                  sizes="(max-width: 640px) 26vw, 220px"
+                  priority={i < 2}
+                  quality={72}
                 />
               ) : (
                 <div className="hv10-frame-art" />
@@ -211,7 +214,7 @@ export default function GrandHall({ locale, decks, strings }: Props) {
           <Link href={`/${locale}/tools`} className="hv10-cta is-primary">
             {strings.ctaTools}
           </Link>
-          <Link href={`/${locale}/worksheets/`} className="hv10-cta is-ghost">
+          <Link href={`/${locale}/worksheets`} className="hv10-cta is-ghost">
             {strings.ctaWorksheets}
           </Link>
         </div>

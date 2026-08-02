@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import { unstable_cache } from 'next/cache';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { locales } from '@/i18n/request';
@@ -13,11 +14,35 @@ import { getToolSlugMap } from '@/lib/seo/tool-content';
 import { getMakerSlugMap } from '@/lib/seo/maker-content';
 import { MANIPULATIVES } from '@/lib/manipulatives';
 import { buildAxisLabels } from '@/lib/category-nav-taxonomy';
+import { ACTIVITIES_NAV_COUNT } from '@/lib/category-nav-data';
 
 // Generate static params for all locales - enables static generation
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
+
+/* ── Cached layout data ──────────────────────────────────────────────────
+   Every page on the site renders this layout, and these four queries ran
+   uncached on each one. They are keyed only by locale and only change when
+   decks are published, so an hour of ISR staleness is the right trade.
+   Tagged so a future publish hook can revalidate them explicitly. */
+const cachedAxisKeys = (locale: string) =>
+  unstable_cache(
+    async () => ({
+      exerciseTypes: await listNonEmptyAxisKeys('exercise-type', locale),
+      themes: await listNonEmptyAxisKeys('theme', locale),
+      levels: await listNonEmptyAxisKeys('educational-level', locale),
+    }),
+    ['layout-axis-keys', locale],
+    { revalidate: 3600, tags: ['catalog'] },
+  )();
+
+const cachedCrossLanguageTargets = (locale: string) =>
+  unstable_cache(
+    () => fetchCrossLanguageTargets(locale),
+    ['layout-xlang-targets', locale],
+    { revalidate: 3600, tags: ['catalog'] },
+  )();
 
 export default async function LocaleLayout({
   children,
@@ -81,9 +106,14 @@ export default async function LocaleLayout({
   let footerAvailableThemes: string[] = [];
   let footerAvailableLevels: string[] = [];
   try {
-    footerAvailableExerciseTypes = await listNonEmptyAxisKeys('exercise-type', locale);
-    footerAvailableThemes = await listNonEmptyAxisKeys('theme', locale);
-    footerAvailableLevels = await listNonEmptyAxisKeys('educational-level', locale);
+    // Cached: these three ran as uncached DB round-trips on EVERY render of
+    // every page. Their inputs are a locale and an axis name, and the answer
+    // only changes when decks are published — an hour of staleness in a footer
+    // link list costs nothing, four DB hits per request cost every page.
+    const axisKeys = await cachedAxisKeys(locale);
+    footerAvailableExerciseTypes = axisKeys.exerciseTypes;
+    footerAvailableThemes = axisKeys.themes;
+    footerAvailableLevels = axisKeys.levels;
   } catch {
     // DB unavailable (local dev / startup): fall back to empty arrays. Footer
     // will render nothing for axis-bound columns; language column still works.
@@ -101,6 +131,11 @@ export default async function LocaleLayout({
       if (slug && title) {
         availableActivities.push({ id: row.id, slug, title, code: row.alignment.code });
       }
+      // ⚠ STOP AT WHAT THE NAV RENDERS. The dropdown slices to
+      // ACTIVITIES_NAV_COUNT, but this array is serialised into the RSC flight
+      // data of EVERY page first — all 194 rows, ~21KB per document, to render
+      // ten links. Trimming here instead of at the consumer is the whole saving.
+      if (availableActivities.length >= ACTIVITIES_NAV_COUNT) break;
     }
   } catch {
     // Manifest unreachable: dropdown renders empty + Browse-all link still works.
@@ -109,7 +144,7 @@ export default async function LocaleLayout({
   // Cross-language ("Languages") category targets for this locale (≥1 deck each).
   let availableTargets: Array<{ iso: string; slug: string; name: string; count: number }> = [];
   try {
-    const targets = await fetchCrossLanguageTargets(locale);
+    const targets = await cachedCrossLanguageTargets(locale);
     availableTargets = targets.map((tg) => ({ iso: tg.iso, slug: targetLangSlug(tg.iso, locale), name: targetLangName(tg.iso, locale), count: tg.count }));
   } catch {
     // DB unavailable: Languages category simply won't render.

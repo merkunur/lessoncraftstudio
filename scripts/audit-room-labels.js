@@ -170,6 +170,16 @@ const TOL = 1.5;
             if (spill > tol) problems.push(`label "${text}" spills ${spill.toFixed(1)}px out of its column`);
           }
         }
+        // 5b. CLIPPED EXHIBITS. A niche with overflow:hidden hides its own
+        //     defect: an exhibit wider than its box is simply cut, and every
+        //     rect-based check still passes because the box is the right size.
+        //     Compare scroll extent against client extent to see it.
+        arts.forEach((a, i) => {
+          const ox = a.scrollWidth - a.clientWidth;
+          const oy = a.scrollHeight - a.clientHeight;
+          if (ox > 2 || oy > 2) problems.push(`exhibit ${i} is CLIPPED by its frame (${ox}x${oy}px hidden)`);
+        });
+
         // 6. The touchable exhibit must read as an exhibit, not a slab.
         const touch = document.querySelector('.hv10-touch');
         if (touch) {

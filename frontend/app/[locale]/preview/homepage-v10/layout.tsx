@@ -17,7 +17,7 @@ import '@/components/homepage-v10/homepage-v10.css';
    Direction A typography pairing — locked at CLAUDE.md §A.13.47. */
 
 const baloo2 = Baloo_2({
-  weight: ['400', '500', '600', '700', '800'],
+  weight: ['600', '700'],
   subsets: ['latin', 'latin-ext'],
   variable: '--font-baloo-2',
   display: 'swap',
@@ -25,7 +25,7 @@ const baloo2 = Baloo_2({
 });
 
 const nunito = Nunito({
-  weight: ['400', '500', '600', '700'],
+  weight: ['400', '600', '700'],
   subsets: ['latin', 'latin-ext'],
   variable: '--font-nunito',
   display: 'swap',

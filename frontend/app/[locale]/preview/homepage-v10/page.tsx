@@ -24,15 +24,19 @@ import { getTranslations } from 'next-intl/server';
 import GrandHall from '@/components/homepage-v10/GrandHall';
 import {
   InstrumentHall,
+  Playroom,
   PrintRoom,
   Studio,
+  Dispatch,
   MembersRoom,
   Exit,
   type RoomStrings,
   type InstrumentCard,
+  type AlcoveCard,
 } from '@/components/homepage-v10/Rooms';
 import BrowseByTopicSSR from '@/components/homepage-v3/BrowseByTopicSSR';
 import { MANIPULATIVES } from '@/lib/manipulatives';
+import { resolveActivityById } from '@/lib/activities';
 import { SUBSCRIPTION_PRODUCT } from '@/config/lemonsqueezy-product-config';
 import { selectShowcaseDecks, fallbackShowcase, type ShowcaseDeck } from '@/lib/showcase-decks';
 
@@ -45,6 +49,17 @@ const INSTRUMENT_KEYS = ['rekenrek', 'number-balance', 'build-plan', 'fraction-k
 /* The piece you may touch. Kept to a tool that is genuinely free to use, so
    the signature never lands a visitor on a paywall. */
 const TOUCHABLE = 'rekenrek';
+
+/* Room II's four exhibits. Chosen from the 54 activities complete in ALL
+   ELEVEN locales, not from the 204 — the visually obvious picks exist only in
+   en/de, which would have left seven languages with a broken room. Four
+   distinct shapes across four strands. */
+const ALCOVES: Array<{ id: string; kind: 'ten-frame' | 'array' | 'shape' | 'length' }> = [
+  { id: 'ten-frame.teen-numbers.make-n', kind: 'ten-frame' },
+  { id: 'array.build-array.2-oa-c-4', kind: 'array' },
+  { id: 'choice-board.shape-id.k-g-a-2', kind: 'shape' },
+  { id: 'choice-board.compare-length.k-md-2', kind: 'length' },
+];
 
 function localized(map: Record<string, string> | undefined, locale: string) {
   return (map && (map[locale] || map.en)) || '';
@@ -71,15 +86,23 @@ export default async function HomepageV10Preview({ params }: { params: { locale:
     ctaTools: t('hero.ctaTools'),
     ctaWorksheets: t('hero.ctaWorksheets'),
     hallLabel: t('hero.fanLabel'),
+    countsLine: t('hero.countsLine'),
   };
+
+  // Embedding is described natively x11 on the pricing page already.
+  const tEmbed = await getTranslations({ locale, namespace: 'pricingPage' });
 
   const rooms: RoomStrings = {
     instrumentsH2: t('teach.heading'),
     instrumentsBody: t('teach.body'),
     instrumentsCta: t('teach.seeAll'),
 
-    printH2: t('practice.heading'),
-    printBody: t('practice.body'),
+    playH2: t('practice.heading'),
+    playBody: t('practice.body'),
+    playCta: t('practice.browseActivities'),
+
+    printH2: t('paper.heading'),
+    printBody: t('paper.body'),
     printCta: t('practice.browseWorksheets'),
     activitiesCta: t('practice.browseActivities'),
 
@@ -106,11 +129,44 @@ export default async function HomepageV10Preview({ params }: { params: { locale:
     ],
     teacherCta: t('teacher.teacherCta'),
 
+    shareH2: t('share.heading'),
+    shareBody: t('share.body'),
+    shareQrAlt: t('share.qrAlt'),
+    shareChips: [t('share.chip1'), t('share.chip2'), t('share.chip3'), t('share.chip4')],
+    planTag: t('planTag'),
+    embedLine: tEmbed('free.item5'),
+
     closeH2: `${t('close.line1')} ${t('close.line2')}`,
     closeBody: t('close.body'),
     closeCtaPrimary: t('close.ctaPrimary'),
     closeCtaSecondary: t('close.ctaSecondary'),
   };
+
+  /* Room II's exhibits, resolved per locale. Titles and slugs are native in
+     all eleven languages already; the grade band comes from the shared
+     seo.educational_level namespace, which is likewise native x11. A row that
+     fails to resolve is DROPPED rather than rendered half-blank. */
+  const tg = await getTranslations({ locale, namespace: 'seo.educational_level' });
+  const GRADE_KEY: Record<string, string> = { K: 'kindergarten', '1': 'grade_1', '2': 'grade_2', '3': 'grade_3' };
+  const alcoves: AlcoveCard[] = (
+    await Promise.all(
+      ALCOVES.map(async (a) => {
+        const row = await resolveActivityById(a.id);
+        if (!row) return null;
+        const title = row.page_title?.[locale] || row.page_title?.en;
+        const slug = row.slug?.[locale] || row.slug?.en;
+        if (!title || !slug) return null;
+        const gk = GRADE_KEY[String(row.alignment?.grade ?? '')];
+        return {
+          id: a.id,
+          kind: a.kind,
+          title,
+          slug,
+          grade: gk ? tg(gk) : '',
+        } as AlcoveCard;
+      }),
+    )
+  ).filter(Boolean) as AlcoveCard[];
 
   const instruments: InstrumentCard[] = INSTRUMENT_KEYS.map((key) => {
     const m = MANIPULATIVES.find((x) => x.id === key);
@@ -131,8 +187,10 @@ export default async function HomepageV10Preview({ params }: { params: { locale:
     <div className="hv10-page">
       <GrandHall locale={locale} decks={decks.slice(0, 6)} strings={hero} />
       <InstrumentHall locale={locale} strings={rooms} instruments={instruments} live={live} />
+      <Playroom locale={locale} strings={rooms} activities={alcoves} />
       <PrintRoom locale={locale} decks={decks.slice(6)} strings={rooms} />
       <Studio locale={locale} strings={rooms} />
+      <Dispatch locale={locale} strings={rooms} deck={decks[3]} />
       <MembersRoom locale={locale} strings={rooms} />
       <Exit locale={locale} strings={rooms} />
       {/* The catalogue at the back of the building — the crawl-bait link

@@ -1313,3 +1313,521 @@
   .hv10-weigh-beam, .hv10-weigh-pan { animation: none; transform: rotate(0deg); }
   .hv10-weigh-cube { animation: none; opacity: 1; transform: scale(1); }
 }
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   ROOM II — THE PLAYROOM: activities in lit alcoves
+
+   Room I is a sculpture bench; repeating that here would make the two rooms
+   read as one. Activities are things that happen on a lit screen, so each sits
+   in an arched niche cut into the wall and glowing from within.
+
+   The exhibits are hand-authored CSS, not the 204 preview webps: those are
+   STATIC, which fails "animated, in action", and four more raster files would
+   add weight to a page whose images are already its heaviest asset. These
+   cost zero bytes.
+
+   Everything inside a vignette is sized in `em` against one font-size on the
+   art box, so a single knob scales the whole exhibit.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.hv10-room.is-ochre {
+  --room-wall: #9A6B2E;
+  --room-wall-lit: #B07F3C;
+  --room-wall-deep: #7E5522;
+}
+
+.hv10-alcoves {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(var(--alcove-n, 4), minmax(0, 1fr));
+  gap: 0 clamp(10px, 1.6vw, 26px);
+  margin-top: clamp(28px, 3.4vw, 52px);
+}
+@media (max-width: 900px) { .hv10-alcoves { --alcove-n: 2; row-gap: clamp(24px, 4vw, 40px); } }
+@media (max-width: 460px) { .hv10-alcoves { --alcove-n: 1; } }
+
+/* One niche. Two rows, the first a FIXED height — the same guarantee the
+   sculpture bench uses, so exhibits share a baseline and labels share a top
+   by construction rather than by tuning. */
+.hv10-alcove {
+  /* Taller than wide-ish: at 120px against a 232px box the niche read as a
+     rounded-top rectangle with the exhibit floating in empty cream. */
+  --alcove-h: clamp(158px, 17.5vw, 212px);
+  position: relative;
+  display: grid;
+  grid-template-rows: var(--alcove-h) auto;
+  justify-items: center;
+  text-decoration: none;
+  color: inherit;
+  min-width: 0;
+}
+/* the niche itself: an arch cut into the wall, lit from inside */
+.hv10-alcove-art {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 198px;
+  height: var(--alcove-h);
+  /* A shallow segmental arch. A tall round top on a pale panel against a dark
+     wall reads as a headstone — the same trap that killed the scale figures
+     in the hero. */
+  border-radius: 42% 42% 7% 7% / 21% 21% 4% 4%;
+  background:
+    radial-gradient(78% 62% at 50% 26%, #FFFFFF 0%, var(--g10-cream) 46%, #EFE2C7 100%);
+  box-shadow:
+    inset 0 0.7em 1.4em rgba(74, 46, 12, 0.26),
+    inset 0 0 0 0.14em rgba(255, 253, 246, 0.5),
+    0 0.5em 1.2em rgba(40, 22, 6, 0.3);
+  font-size: clamp(11.5px, 1.45vw, 17px);  /* the one knob every vignette scales from */
+  overflow: hidden;
+  transition: transform 200ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.hv10-alcove:hover .hv10-alcove-art { transform: translateY(-4px); }
+/* The sill the niche sits on. On the ALCOVE, not on the art box: the art box
+   clips its overflow (so an oversized exhibit can never spill), and the sill
+   deliberately sits outside that box — put on the art box it was silently
+   clipped away and never rendered at all. The gate caught it as a uniform
+   6x9px hidden on every niche. */
+.hv10-alcove::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  width: min(100%, 210px);
+  margin-left: min(-50%, -105px);
+  top: var(--alcove-h);
+  margin-top: -0.3em;
+  height: 8px;
+  border-radius: 2px;
+  background: linear-gradient(180deg, #FFFDF8 0%, var(--g10-stone-edge) 62%, #A9946F 100%);
+  box-shadow: 0 5px 12px rgba(40, 22, 6, 0.34);
+}
+
+.hv10-alcove-plaque {
+  align-self: start;
+  width: 100%;
+  max-width: 214px;
+  min-height: 3.4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  margin-top: clamp(20px, 2.2vw, 32px);
+  padding: 7px 10px;
+  border-radius: 3px;
+  background: rgba(253, 251, 246, 0.95);
+  color: #3A2B14;
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-size: clamp(11px, 0.9vw, 13.5px);
+  font-weight: 700;
+  line-height: 1.28;
+  text-align: center;
+  text-wrap: balance;
+  box-shadow: 0 3px 8px rgba(18, 9, 2, 0.26);
+}
+.hv10-alcove-grade {
+  font-weight: 400;
+  font-size: 0.86em;
+  color: #6A5A3C;
+}
+
+/* ── The four activities, in action ──────────────────────────────────────
+   Periods 11 / 15 / 19 / 23s — pairwise coprime, and none of them shares a
+   period with the hero's 9 / 12 / 13 / 17, so nothing on the page falls into
+   a pulse. Every keyframe is transform/opacity only and moves for well under
+   35% of its cycle. */
+
+/* 1 — TEEN NUMBERS: two ten-frames, the first full, the second filling to
+       four. Eleven to nineteen is "ten and some more", and that is exactly
+       what two frames say. */
+/* Stacked, not side by side: two frames abreast measured 13em, which
+   overflowed the 198px niche and was silently CLIPPED by its overflow:hidden.
+   Stacking is also how a double ten frame is actually drawn. */
+.hv10-act-tenframe { display: flex; flex-direction: column; gap: 0.5em; align-items: center; }
+.hv10-act-frame {
+  display: grid;
+  grid-template-columns: repeat(5, 1.05em);
+  grid-auto-rows: 1.05em;
+  gap: 0.12em;
+  padding: 0.16em;
+  border: 0.16em solid var(--g10-wall, #23604E);
+  border-radius: 0.25em;
+  background: #FFFDF8;
+}
+.hv10-act-dot {
+  border-radius: 50%;
+  background: radial-gradient(circle at 34% 30%, #f9a583 0%, var(--g10-coral) 48%, var(--g10-coral-deep) 100%);
+  opacity: 0;
+  transform: scale(0.4);
+  animation: hv10ActPop 11s ease-out infinite;
+  animation-delay: calc(var(--i, 0) * 200ms);
+}
+.hv10-act-dot.is-empty { animation: none; opacity: 0; background: none; }
+
+/* 2 — BUILD AN ARRAY: a rectangle of tiles fills row by row while the
+       repeated-addition strip writes itself underneath. */
+.hv10-act-array { display: flex; flex-direction: column; align-items: center; gap: 0.6em; }
+.hv10-act-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1.15em);
+  grid-auto-rows: 1.15em;
+  gap: 0.16em;
+}
+.hv10-act-tile {
+  border-radius: 0.18em;
+  background: linear-gradient(180deg, #2b8a79 0%, var(--g10-wall, #23604E) 100%);
+  opacity: 0;
+  transform: scale(0.5);
+  animation: hv10ActTile 15s cubic-bezier(0.34, 1.3, 0.5, 1) infinite;
+  animation-delay: calc(var(--r, 0) * 640ms);
+}
+.hv10-act-sum { display: flex; gap: 0.3em; align-items: center; }
+.hv10-act-sum span {
+  width: 1.15em;
+  height: 0.3em;
+  border-radius: 0.15em;
+  background: var(--g10-coral);
+  opacity: 0;
+  animation: hv10ActTile 15s ease-out infinite;
+  animation-delay: calc(var(--r, 0) * 640ms + 260ms);
+}
+
+/* 3 — IDENTIFY THE SHAPE: three shapes, and the one being named lights. */
+.hv10-act-shapes { display: flex; gap: 0.75em; align-items: center; }
+.hv10-act-shape {
+  position: relative;
+  width: 2.1em;
+  height: 2.1em;
+  background: var(--g10-wall, #23604E);
+}
+.hv10-act-shape.is-circle { border-radius: 50%; }
+.hv10-act-shape.is-square { border-radius: 0.2em; }
+.hv10-act-shape.is-tri {
+  background: none;
+  width: 0;
+  height: 0;
+  border-left: 1.05em solid transparent;
+  border-right: 1.05em solid transparent;
+  border-bottom: 1.9em solid var(--g10-wall, #23604E);
+}
+/* the ring that names the answer — a separate node, so no element carries
+   two animations */
+.hv10-act-ring {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 3em;
+  height: 3em;
+  margin: -1.5em 0 0 -1.5em;
+  border: 0.2em solid var(--g10-coral);
+  border-radius: 50%;
+  opacity: 0;
+  transform: scale(0.6);
+  animation: hv10ActRing 19s cubic-bezier(0.34, 1.4, 0.5, 1) infinite;
+}
+
+/* 4 — COMPARING LENGTH: the same thing at two sizes, and the longer one gets
+       the mark. No counting — that is the point of the activity. */
+.hv10-act-length { display: flex; flex-direction: column; gap: 0.75em; }
+.hv10-act-bar {
+  position: relative;
+  height: 0.85em;
+  border-radius: 0.45em;
+  background: linear-gradient(180deg, #2b8a79 0%, var(--g10-wall, #23604E) 100%);
+  transform-origin: 0 50%;
+}
+.hv10-act-bar.is-long { width: 7.4em; }
+.hv10-act-bar.is-short { width: 4.2em; background: linear-gradient(180deg, var(--g10-coral) 0%, var(--g10-coral-deep) 100%); }
+.hv10-act-tick {
+  position: absolute;
+  right: -1.5em;
+  top: 50%;
+  width: 1em;
+  height: 0.5em;
+  margin-top: -0.34em;
+  border-left: 0.18em solid var(--g10-coral);
+  border-bottom: 0.18em solid var(--g10-coral);
+  transform: rotate(-45deg) scale(0.5);
+  opacity: 0;
+  animation: hv10ActTick 23s cubic-bezier(0.34, 1.4, 0.5, 1) infinite;
+}
+
+@keyframes hv10ActPop {
+  0%, 9% { opacity: 0; transform: scale(0.4); }
+  15%, 86% { opacity: 1; transform: scale(1); }
+  92%, 100% { opacity: 0; transform: scale(0.4); }
+}
+@keyframes hv10ActTile {
+  0%, 8% { opacity: 0; transform: scale(0.5); }
+  14%, 87% { opacity: 1; transform: scale(1); }
+  93%, 100% { opacity: 0; transform: scale(0.5); }
+}
+@keyframes hv10ActRing {
+  0%, 22% { opacity: 0; transform: scale(0.6); }
+  28%, 84% { opacity: 1; transform: scale(1); }
+  90%, 100% { opacity: 0; transform: scale(0.6); }
+}
+@keyframes hv10ActTick {
+  0%, 24% { opacity: 0; transform: rotate(-45deg) scale(0.5); }
+  30%, 86% { opacity: 1; transform: rotate(-45deg) scale(1); }
+  92%, 100% { opacity: 0; transform: rotate(-45deg) scale(0.5); }
+}
+
+/* Composed poses: each activity rests at the moment it is ABOUT — the frames
+   full at fourteen, the array complete, the shape named, the longer bar
+   marked. Never blank. */
+@media (prefers-reduced-motion: reduce) {
+  .hv10-act-dot { animation: none; opacity: 1; transform: scale(1); }
+  .hv10-act-dot.is-empty { opacity: 0; }
+  .hv10-act-tile, .hv10-act-sum span { animation: none; opacity: 1; transform: scale(1); }
+  .hv10-act-ring { animation: none; opacity: 1; transform: scale(1); }
+  .hv10-act-tick { animation: none; opacity: 1; transform: rotate(-45deg) scale(1); }
+}
+
+/* The pillar line under the hero sub — the four things this place holds,
+   activities among them. Quieter than the sub; it is an inventory, not a
+   sentence. */
+.hv10-pillars {
+  margin: 0.7em auto 0;
+  max-width: 62ch;
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-size: clamp(12.5px, 0.95vw, 15px);
+  line-height: 1.5;
+  color: rgba(253, 251, 246, 0.72);
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   ROOM V — THE DISPATCH: the work leaves the building
+
+   Sharing was missing from the page entirely. A teacher turns any tool,
+   interactive worksheet or activity into ONE LINK and ONE QR CODE, and the
+   class opens it with no accounts and nothing installed.
+
+   ⚠ TIER TRUTH: minting a durable share link is subscriber-gated —
+   /api/activities/share, /api/play-links and /api/worksheets/hosted all call
+   requireActiveSubscriber. So this room carries the "Teacher plan" tag. The
+   QR itself is real (/api/qr, host-restricted to our own URLs) and the image
+   used here is the product's own qr.png, not a drawn stand-in.
+
+   One dominant motion: the line draws from the sheet, the code lands, the
+   class receives it. 14s — the room's animations only ever share a viewport
+   with each other, which is the scope the coprime rule is about.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.hv10-dispatch {
+  display: grid;
+  gap: clamp(18px, 2.4vw, 34px);
+  grid-template-columns: 1fr;
+  align-items: center;
+  margin-top: clamp(28px, 3.4vw, 48px);
+}
+@media (min-width: 860px) {
+  .hv10-dispatch {
+    grid-template-columns: minmax(0, auto) clamp(84px, 11vw, 150px) minmax(0, auto);
+    justify-content: start;   /* aligns with the heading, not floating centred */
+    gap: clamp(14px, 2vw, 30px);
+  }
+}
+
+/* the piece being sent — a real published worksheet */
+.hv10-dispatch-sheet {
+  justify-self: center;
+  width: min(100%, 178px);
+  aspect-ratio: 3 / 4;
+  padding: 0.5rem;
+  border-radius: 3px;
+  background: linear-gradient(150deg, var(--g10-frame-wood-lit) 0%, var(--g10-frame-wood) 54%, #4E3721 100%);
+  box-shadow: 0 14px 26px rgba(18, 9, 2, 0.4);
+  rotate: -1.6deg;
+}
+.hv10-dispatch-sheet img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  background: var(--g10-cream);
+  box-shadow: 0 0 0 3px #F7F1E4;
+}
+
+/* the line the work travels along */
+/* ⚠ A definite width, not a percentage. This sits in an `auto` grid column,
+   so `min(100%, 168px)` resolved against a zero-width track and the arc
+   collapsed to a 2px sliver — present, animating, and meaningless. Same class
+   of bug as the percentage height that had no containing block. */
+.hv10-dispatch-arc {
+  position: relative;
+  justify-self: center;
+  width: clamp(84px, 11vw, 150px);
+  height: clamp(44px, 5vw, 66px);
+}
+.hv10-dispatch-arc::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 100%;
+  border: 0.2rem solid var(--g10-coral);
+  border-bottom: 0;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  transform-origin: 0 100%;
+  animation: hv10SendArc 14s cubic-bezier(0.34, 1.2, 0.5, 1) infinite;
+}
+/* No travelling dot: moving one along a curved path needs offset-path, and
+   the version I first wrote translated by `calc(100% * 0)` — it went nowhere.
+   The line drawing itself already carries the motion. */
+
+/* where it lands: the real product QR */
+.hv10-dispatch-code {
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+}
+.hv10-dispatch-card {
+  padding: 0.7rem;
+  border-radius: 10px;
+  background: #FFFDF8;
+  box-shadow: 0 14px 28px rgba(18, 9, 2, 0.36);
+  opacity: 0;
+  transform: scale(0.82);
+  animation: hv10SendLand 14s cubic-bezier(0.34, 1.4, 0.5, 1) infinite;
+}
+.hv10-dispatch-card img { display: block; width: clamp(76px, 9vw, 108px); height: auto; }
+/* the class receiving it */
+.hv10-dispatch-class { display: flex; gap: 0.4rem; }
+.hv10-dispatch-class span {
+  width: 0.85rem;
+  height: 1.15rem;
+  border-radius: 3px;
+  background: rgba(253, 251, 246, 0.9);
+  box-shadow: inset 0 0 0 1.5px rgba(20, 50, 45, 0.3);
+  opacity: 0;
+  transform: translateY(0.4rem);
+  animation: hv10SendKid 14s ease-out infinite;
+  animation-delay: calc(var(--i, 0) * 180ms);
+}
+.hv10-room.is-light .hv10-dispatch-class span { background: #2F4A40; box-shadow: none; }
+
+.hv10-dispatch-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: clamp(22px, 2.6vw, 36px);
+}
+.hv10-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 7px 14px;
+  border-radius: 999px;
+  background: rgba(253, 251, 246, 0.14);
+  box-shadow: inset 0 0 0 1.5px rgba(253, 251, 246, 0.4);
+  color: var(--g10-light);
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-size: clamp(12px, 0.92vw, 14.5px);
+  font-weight: 700;
+}
+.hv10-plan-tag {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 14px;
+  padding: 6px 13px;
+  border-radius: 999px;
+  background: var(--g10-coral);
+  color: #2A1206;
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-size: clamp(11px, 0.85vw, 13px);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+@keyframes hv10SendArc {
+  0%, 8% { transform: scaleX(0); opacity: 0; }
+  14% { opacity: 1; }
+  30%, 86% { transform: scaleX(1); opacity: 1; }
+  93%, 100% { transform: scaleX(0); opacity: 0; }
+}
+@keyframes hv10SendLand {
+  0%, 30% { opacity: 0; transform: scale(0.82); }
+  38%, 86% { opacity: 1; transform: scale(1); }
+  93%, 100% { opacity: 0; transform: scale(0.82); }
+}
+@keyframes hv10SendKid {
+  0%, 40% { opacity: 0; transform: translateY(0.4rem); }
+  48%, 86% { opacity: 1; transform: translateY(0); }
+  93%, 100% { opacity: 0; transform: translateY(0.4rem); }
+}
+
+/* Composed pose: the code has landed and the class has it. */
+@media (prefers-reduced-motion: reduce) {
+  .hv10-dispatch-arc::before { animation: none; transform: scaleX(1); opacity: 1; }
+  .hv10-dispatch-card { animation: none; opacity: 1; transform: scale(1); }
+  .hv10-dispatch-class span { animation: none; opacity: 1; transform: translateY(0); }
+}
+
+/* The second way out of the building: an embed on the school's own site.
+   Kept visually distinct from the QR route because the TIERS differ — share
+   links are subscriber-gated, embedding is free and anonymous (it is the
+   acquisition flywheel: embedded decks carry links back). Saying so plainly
+   is the difference between marketing and a false claim. */
+.hv10-embed {
+  display: flex;
+  align-items: center;
+  gap: clamp(12px, 1.6vw, 22px);
+  flex-wrap: wrap;
+  margin-top: clamp(22px, 2.6vw, 34px);
+  padding: clamp(12px, 1.4vw, 18px);
+  border-radius: 10px;
+  background: rgba(253, 251, 246, 0.1);
+  box-shadow: inset 0 0 0 1.5px rgba(253, 251, 246, 0.26);
+}
+/* a browser window, drawn — the school site the worksheet lands in */
+.hv10-embed-window {
+  flex: none;
+  width: clamp(112px, 13vw, 156px);
+  border-radius: 6px;
+  overflow: hidden;
+  background: #FFFDF8;
+  box-shadow: 0 10px 20px rgba(18, 9, 2, 0.34);
+}
+.hv10-embed-bar {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  padding: 5px 7px;
+  background: #E7DCC8;
+}
+.hv10-embed-bar i {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: rgba(20, 50, 45, 0.28);
+}
+.hv10-embed-window img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  object-position: top center;
+}
+.hv10-embed-text {
+  flex: 1 1 14rem;
+  min-width: 0;
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-size: clamp(13px, 1.02vw, 16px);
+  line-height: 1.5;
+  color: rgba(253, 251, 246, 0.92);
+}
+.hv10-embed-free {
+  display: inline-flex;
+  margin-top: 8px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  background: rgba(253, 251, 246, 0.92);
+  color: #2C4A3F;
+  font-size: clamp(11px, 0.85vw, 13px);
+  font-weight: 700;
+}

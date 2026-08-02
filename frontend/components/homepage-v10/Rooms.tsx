@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import LiveToolEmbedV10 from '@/components/homepage-v6/LiveToolEmbedV6';
+import ActivityVignette, { type ActivityVignetteKind } from '@/components/homepage-v10/ActivityVignettes';
 import type { ShowcaseDeck } from '@/lib/showcase-decks';
 
 /* ───────────────────────────────────────────────────────────────────────────
@@ -15,7 +16,7 @@ import type { ShowcaseDeck } from '@/lib/showcase-decks';
    worksheet and every pedestal carries an actual apparatus render.
    ─────────────────────────────────────────────────────────────────────── */
 
-type Wall = 'green' | 'terracotta' | 'light';
+type Wall = 'green' | 'terracotta' | 'light' | 'ochre';
 
 const WALLS: Record<Wall, React.CSSProperties> = {
   green: {},
@@ -25,6 +26,7 @@ const WALLS: Record<Wall, React.CSSProperties> = {
     ['--room-wall-deep' as string]: '#733526',
   },
   light: {},
+  ochre: {},
 };
 
 function Room({
@@ -41,7 +43,10 @@ function Room({
   return (
     <section
       id={id}
-      className={`hv10-room${wall === 'light' ? ' is-light' : ''}${floor ? '' : ' no-floor'}`}
+      className={
+        `hv10-room${wall === 'light' ? ' is-light' : ''}` +
+        `${wall === 'ochre' ? ' is-ochre' : ''}${floor ? '' : ' no-floor'}`
+      }
       style={WALLS[wall]}
     >
       <div className="hv10-room-cornice" aria-hidden="true" data-bleed />
@@ -137,7 +142,69 @@ export function InstrumentHall({
   );
 }
 
-/* ── ROOM II — The Print Room ──────────────────────────────────────────────
+/* ── ROOM II — The Playroom ───────────────────────────────────────────────
+   The activities: 204 curriculum-aligned things a child does, which until now
+   had no room of their own on this page.
+
+   Lit alcoves rather than another bench — Room I is a bench, and repeating it
+   would make the two rooms read as one. Each exhibit is animated CSS, because
+   the 204 preview images are static and four more raster files would add
+   weight to the page's heaviest asset class.
+
+   ⚠ The four were chosen from the 54 activities complete in ALL ELEVEN
+   locales, not from the 204. The obvious picks — Pip's Stacking Fence, Bo's
+   Berry Pantry — exist only in en/de, so seven languages would have shown a
+   broken room. Titles and slugs below are native per locale; nothing here is
+   translated. */
+export type AlcoveCard = {
+  id: string;
+  kind: ActivityVignetteKind;
+  title: string;
+  slug: string;
+  grade: string;
+};
+
+export function Playroom({
+  locale,
+  strings,
+  activities,
+}: {
+  locale: string;
+  strings: RoomStrings;
+  activities: AlcoveCard[];
+}) {
+  return (
+    <Room id="activities" wall="ochre">
+      <p className="hv10-room-label" aria-hidden="true">II</p>
+      <h2 className="hv10-room-h2">{strings.playH2}</h2>
+      <p className="hv10-room-body">{strings.playBody}</p>
+
+      {/* --alcove-n is NOT set inline: an inline custom property beats every
+          media query, which already cost us a broken bench at 320px once. */}
+      <div className="hv10-alcoves">
+        {activities.map((a) => (
+          <a key={a.id} className="hv10-alcove" href={`/${locale}/activities/${a.slug}`}>
+            <span className="hv10-alcove-art">
+              <ActivityVignette kind={a.kind} />
+            </span>
+            <span className="hv10-alcove-plaque">
+              {a.title}
+              <span className="hv10-alcove-grade">{a.grade}</span>
+            </span>
+          </a>
+        ))}
+      </div>
+
+      <div className="hv10-room-ctas">
+        <Link href={`/${locale}/activities`} className="hv10-cta is-primary">
+          {strings.playCta}
+        </Link>
+      </div>
+    </Room>
+  );
+}
+
+/* ── ROOM III — The Print Room ──────────────────────────────────────────────
    The library, hung salon-style. This is the room where density is safe:
    unlike the hall, it can reflow, so it holds as many works as the width
    allows. */
@@ -152,7 +219,7 @@ export function PrintRoom({
 }) {
   return (
     <Room id="printroom" wall="green" floor={false}>
-      <p className="hv10-room-label" aria-hidden="true">II</p>
+      <p className="hv10-room-label" aria-hidden="true">III</p>
       <h2 className="hv10-room-h2">{strings.printH2}</h2>
       <p className="hv10-room-body">{strings.printBody}</p>
 
@@ -195,7 +262,7 @@ export function Studio({ locale, strings }: { locale: string; strings: RoomStrin
   const dir = locale === 'en' ? '' : `${locale}/`;
   return (
     <Room id="studio" wall="light">
-      <p className="hv10-room-label" aria-hidden="true">III</p>
+      <p className="hv10-room-label" aria-hidden="true">IV</p>
       <h2 className="hv10-room-h2">{strings.studioH2}</h2>
       <p className="hv10-room-body">{strings.studioBody}</p>
 
@@ -253,7 +320,7 @@ export function Studio({ locale, strings }: { locale: string; strings: RoomStrin
 export function MembersRoom({ locale, strings }: { locale: string; strings: RoomStrings }) {
   return (
     <Room id="plans" wall="green" floor={false}>
-      <p className="hv10-room-label" aria-hidden="true">IV</p>
+      <p className="hv10-room-label" aria-hidden="true">VI</p>
       <h2 className="hv10-room-h2">{strings.plansH2}</h2>
       <p className="hv10-room-body">{strings.plansBody}</p>
 
@@ -287,6 +354,76 @@ export function MembersRoom({ locale, strings }: { locale: string; strings: Room
   );
 }
 
+/* ── ROOM V — The Dispatch ────────────────────────────────────────────────
+   How the work reaches the class: one link, one QR code, no student accounts.
+   This was missing from the page entirely.
+
+   ⚠ TIER TRUTH: minting a durable share link is subscriber-gated — every one
+   of /api/activities/share, /api/play-links and /api/worksheets/hosted calls
+   requireActiveSubscriber — so the room carries the Teacher-plan tag rather
+   than implying it is free. The QR image is the product's own qr.png; the
+   generator behind it (/api/qr) is real and restricted to our own URLs. */
+export function Dispatch({
+  locale,
+  strings,
+  deck,
+}: {
+  locale: string;
+  strings: RoomStrings;
+  deck?: ShowcaseDeck;
+}) {
+  return (
+    <Room id="share" wall="terracotta">
+      <p className="hv10-room-label" aria-hidden="true">V</p>
+      <h2 className="hv10-room-h2">{strings.shareH2}</h2>
+      <p className="hv10-room-body">{strings.shareBody}</p>
+
+      <div className="hv10-dispatch">
+        <div className="hv10-dispatch-sheet">
+          {deck ? (
+            <img src={deck.thumbnailUrl} alt="" width={480} height={620} loading="lazy" decoding="async" />
+          ) : null}
+        </div>
+        <div className="hv10-dispatch-arc" aria-hidden="true" />
+        <div className="hv10-dispatch-code">
+          <span className="hv10-dispatch-card">
+            <img src="/homepage/qr.png" alt={strings.shareQrAlt} width={360} height={360} loading="lazy" decoding="async" />
+          </span>
+          <span className="hv10-dispatch-class" aria-hidden="true">
+            {[0, 1, 2, 3].map((i) => (
+              <span key={i} style={{ ['--i' as string]: i }} />
+            ))}
+          </span>
+        </div>
+      </div>
+
+      <div className="hv10-dispatch-chips">
+        {strings.shareChips.map((c) => (
+          <span key={c} className="hv10-chip">{c}</span>
+        ))}
+      </div>
+      <div>
+        <span className="hv10-plan-tag">{strings.planTag}</span>
+      </div>
+
+      {/* The other way out, and it is FREE — embedding is anonymous-accessible
+          and is the platform's acquisition flywheel, so it must not sit under
+          the Teacher tag above. */}
+      <div className="hv10-embed">
+        <span className="hv10-embed-window" aria-hidden="true">
+          <span className="hv10-embed-bar"><i /><i /><i /></span>
+          {deck ? <img src={deck.thumbnailUrl} alt="" width={480} height={620} loading="lazy" decoding="async" /> : null}
+        </span>
+        <span className="hv10-embed-text">
+          {strings.embedLine}
+          <br />
+          <span className="hv10-embed-free">{strings.freeTitle}</span>
+        </span>
+      </div>
+    </Room>
+  );
+}
+
 /* ── THE EXIT ──────────────────────────────────────────────────────────────
    The close, and the catalogue at the back of the building. */
 export function Exit({ locale, strings }: { locale: string; strings: RoomStrings }) {
@@ -312,6 +449,9 @@ export type RoomStrings = {
   instrumentsH2: string;
   instrumentsBody: string;
   instrumentsCta: string;
+  playH2: string;
+  playBody: string;
+  playCta: string;
   printH2: string;
   printBody: string;
   printCta: string;
@@ -332,6 +472,12 @@ export type RoomStrings = {
   teacherTitle: string;
   teacherItems: string[];
   teacherCta: string;
+  shareH2: string;
+  shareBody: string;
+  shareQrAlt: string;
+  shareChips: string[];
+  planTag: string;
+  embedLine: string;
   closeH2: string;
   closeBody: string;
   closeCtaPrimary: string;

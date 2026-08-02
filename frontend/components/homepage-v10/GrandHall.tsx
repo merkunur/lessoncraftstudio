@@ -89,6 +89,7 @@ type Props = {
     ctaTools: string;
     ctaWorksheets: string;
     hallLabel: string;
+    countsLine: string;
   };
 };
 
@@ -200,6 +201,12 @@ export default function GrandHall({ locale, decks, strings }: Props) {
           as long as any of the eleven languages needs. */}
       <div className="hv10-below">
         <p className="hv10-sub">{strings.sub}</p>
+        {/* The pillar line names the ACTIVITIES — "ready-to-play activities" /
+            "Aktivitäten zum Losspielen" / "heti pelattavat tehtävät". It was
+            already authored natively in all eleven languages and already
+            de-numbered under the no-counts law, so activities are named in the
+            hero in every language without a word being translated. */}
+        <p className="hv10-pillars">{strings.countsLine}</p>
         <div className="hv10-ctas">
           <Link href={`/${locale}/tools`} className="hv10-cta is-primary">
             {strings.ctaTools}

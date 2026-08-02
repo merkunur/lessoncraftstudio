@@ -13,6 +13,7 @@ import { getToolSlugMap } from '@/lib/seo/tool-content';
 import { getMakerSlugMap } from '@/lib/seo/maker-content';
 import { MANIPULATIVES } from '@/lib/manipulatives';
 import { buildAxisLabels } from '@/lib/category-nav-taxonomy';
+import { buildCategoryMeshSlots } from '@/components/layout/CategoryNavMesh';
 import { ACTIVITIES_NAV_COUNT } from '@/lib/category-nav-data';
 
 // Generate static params for all locales - enables static generation
@@ -156,6 +157,22 @@ export default async function LocaleLayout({
   }));
   const axisLabels = buildAxisLabels(locale);
 
+  /* The header nav's sr-only crawl mesh, built on the SERVER. It was 94 links
+     inside a Client Component, hydrated on every page of the site to render
+     something entirely static. Passed down as elements, which React does not
+     hydrate. */
+  const meshSlots = await buildCategoryMeshSlots({
+    locale,
+    availableExerciseTypes: footerAvailableExerciseTypes,
+    availableActivities,
+    availableThemes: footerAvailableThemes,
+    availableTargets,
+    toolSlugs,
+    toolLabels,
+    axisLabels,
+    makerSlugs,
+  });
+
   return (
     <NextIntlClientProvider locale={locale} messages={clientMessages}>
       <LocaleLayoutClient
@@ -169,6 +186,7 @@ export default async function LocaleLayout({
         makerSlugs={makerSlugs}
         toolLabels={toolLabels}
         axisLabels={axisLabels}
+        meshSlots={meshSlots}
         /* Rendered HERE, on the server, and handed down as an element: a Client
            Component cannot render a Server Component as a child, but it can
            render one it receives as a prop — and React never hydrates it. */

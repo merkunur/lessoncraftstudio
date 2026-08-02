@@ -4895,7 +4895,7 @@ async function downloadPDF(canvasToExport, filename, opts) {
 
         // New Download Listeners
         downloadInteractiveHtmlBtn.addEventListener('click', () => downloadInteractiveHtml(wsCanvas, 'grid_match_interactive.html', { loadingMode: 'inline' }));
-        window.__lcsWorksheetHost = { getHtml: function () { return downloadInteractiveHtml(worksheetCanvas, '', { returnString: true }); } }; // save-flow bridge (2026-07-12)
+        window.__lcsWorksheetHost = { getHtml: function () { return downloadInteractiveHtml(wsCanvas, '', { returnString: true }); } }; // save-flow bridge — ⚠ this app's canvas is `wsCanvas`, NOT `worksheetCanvas`. The 2026-07-12 bridge was pasted with a hardcoded `worksheetCanvas` into all 29 apps; grid-match is the one app that names it differently, so Save threw `ReferenceError: worksheetCanvas is not defined` (fixed 2026-08-03).
         exportToCatalogBtn.addEventListener('click', handleExportToCatalog);
         (function () {
             function sepOpts(cropRect, returnPackage) {

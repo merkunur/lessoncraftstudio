@@ -36,6 +36,29 @@ export default async function LocaleLayout({
   // Explicitly pass locale to ensure correct messages are loaded
   const messages = await getMessages({ locale });
 
+  /* ── Client payload trim ──────────────────────────────────────────────
+     NextIntlClientProvider serialises whatever it is given into the RSC
+     flight data inside EVERY page's HTML. Handing it the whole message set
+     put 298KB of JSON into every route — measured: the homepage's HTML was
+     577KB and contained `topicProse` and `topicFaq`, neither of which it
+     renders. On a 1.6 Mbps link that is ~2.9s before anything else happens.
+
+     These three are consumed ONLY by server components via getTranslations,
+     which reads from the request and not from this provider — so topic pages
+     keep their prose. Verified before removing them: every useTranslations()
+     call in the codebase names a literal namespace (no root consumers), and
+     nothing uses useMessages/useFormatter to walk the object dynamically.
+
+     ⚠ If a CLIENT component ever needs one of these, delete it from this list
+     or it will throw MISSING_MESSAGE at runtime. `topicPage` is deliberately
+     NOT here — client components do use it. */
+  const SERVER_ONLY_NAMESPACES = ['topicProse', 'topicFaq', 'topicMeta'];
+  const clientMessages = Object.fromEntries(
+    Object.entries(messages as Record<string, unknown>).filter(
+      ([ns]) => !SERVER_ONLY_NAMESPACES.includes(ns),
+    ),
+  );
+
   // Footer content-gating per §16.6.1 substrate-honesty discipline. Fetch the
   // set of axis-keys with ≥1 published deck in this locale and pass through to
   // Footer as a Set; Footer filters its hardcoded FOOTER_EXERCISE_TYPES /
@@ -103,7 +126,7 @@ export default async function LocaleLayout({
   }
 
   return (
-    <NextIntlClientProvider locale={locale} messages={messages}>
+    <NextIntlClientProvider locale={locale} messages={clientMessages}>
       <LocaleLayoutClient
         locale={locale}
         footerAvailableExerciseTypes={footerAvailableExerciseTypes}

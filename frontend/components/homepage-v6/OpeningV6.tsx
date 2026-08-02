@@ -6,7 +6,6 @@
 
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
-import { TOOL_KEYS } from '@/lib/seo/tool-content';
 import type { ShowcaseDeck } from '@/lib/showcase-decks';
 import ClassroomMobile from './ClassroomMobile';
 
@@ -47,9 +46,7 @@ export default async function OpeningV6({ locale, travelerThumb, fanDecks }: Pro
                 {t('ctaWorksheets')}
               </Link>
             </div>
-            <p className="hv7-countline mt-6">
-              {t('countsLine', { tools: TOOL_KEYS.length })}
-            </p>
+            <p className="hv7-countline mt-6">{t('countsLine')}</p>
             <p className="mt-3 font-lcsBody text-sm text-[#47564f]">{t('microLine')}</p>
           </div>
 

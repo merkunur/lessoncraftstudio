@@ -4315,7 +4315,7 @@
       "ctaTools": "Abra uma ferramenta de ensino",
       "ctaWorksheets": "Conheça as fichas",
       "microLine": "Grátis para começar · sem login · nada para instalar",
-      "countsLine": "Milhares de fichas para imprimir · {tools} ferramentas de ensino · mais de 200 atividades · 11 idiomas",
+      "countsLine": "Uma biblioteca completa de fichas para imprimir · ferramentas de ensino ao vivo · atividades prontas para jogar · tudo no seu idioma",
       "fanLabel": "Exemplos de fichas da biblioteca, no seu idioma"
     },
     "ticks": {
@@ -4327,9 +4327,9 @@
     },
     "teach": {
       "heading": "Comece onde toda aula começa: na frente da turma",
-      "body": "{count} instrumentos de sala para projetar e ensinar a partir deles. É o material que corrige: a balança pende, e ninguém precisa dizer que errou.",
-      "caption": "{count} instrumentos · grátis para experimentar, sem login · sem cronômetro, sem pontuação, sem ranking",
-      "seeAll": "Ver as {count} ferramentas",
+      "body": "Instrumentos de sala para projetar e ensinar a partir deles. É o material que corrige: a balança pende, e ninguém precisa dizer que errou.",
+      "caption": "Instrumentos para cada eixo do currículo · grátis para experimentar, sem login · sem cronômetro, sem pontuação, sem ranking",
+      "seeAll": "Ver todas as ferramentas",
       "liveTag": "Ao vivo",
       "penBalance": "a balança pende — ninguém precisa dizer errou"
     },
@@ -4340,7 +4340,7 @@
     },
     "practice": {
       "heading": "Depois, entregue a ideia a cada criança",
-      "body": "Mais de duzentas atividades curtas e todas as fichas funcionam direto no navegador, alinhadas à habilidade que você está ensinando nesta semana. A página se corrige sozinha, em silêncio — e você circula pela sala em vez de ficar no gabarito.",
+      "body": "Atividades curtas funcionam direto no navegador — e toda ficha da biblioteca joga do mesmo jeito, alinhada à habilidade que você está ensinando nesta semana. A página se corrige sozinha, em silêncio, e você circula pela sala em vez de ficar no gabarito.",
       "caption": "Alinhado ao currículo que você ensina de verdade.",
       "browseActivities": "Experimente uma atividade",
       "browseWorksheets": "Ver todas as fichas",
@@ -4352,7 +4352,7 @@
     "make": {
       "heading": "Faça sob medida para a sua turma",
       "body": "Escolha o exercício, a faixa numérica, o tema, as imagens — até as suas próprias fotos. Uma única criação gera uma ficha interativa que se corrige sozinha e um PDF pronto para imprimir com gabarito.",
-      "caption": "{count} geradores · biblioteca de 3.000 imagens · suas fotos são bem-vindas",
+      "caption": "Um gerador para cada tipo de exercício · uma rica biblioteca de imagens · suas fotos são bem-vindas",
       "forkLabel": "Uma criação, dois formatos",
       "forkPlay": "Funciona no navegador",
       "forkPrint": "Imprime com gabarito",
@@ -4383,9 +4383,9 @@
     },
     "keep": {
       "heading": "Planeje uma aula, guarde o ano inteiro",
-      "body": "Com o plano Professor, salve o que você cria e organize por unidade — está tudo à sua espera quando o novo ano letivo começar. Alinhado ao seu currículo, em 11 idiomas, com a gramática certa.",
-      "chipCurricula": "Alinhado a 10 currículos nacionais",
-      "chipLanguages": "Funciona em 11 idiomas",
+      "body": "Com o plano Professor, salve o que você cria e organize por unidade — está tudo à sua espera quando o novo ano letivo começar. Alinhado ao seu currículo, no seu idioma, com a gramática certa.",
+      "chipCurricula": "Alinhado à BNCC",
+      "chipLanguages": "Funciona no seu idioma",
       "chipNoData": "Nenhum dado de aluno coletado",
       "chipNoAds": "Sem anúncios nas páginas dos alunos"
     },

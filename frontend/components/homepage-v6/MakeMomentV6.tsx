@@ -5,7 +5,6 @@
 
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
-import { MAKER_COUNT } from '@/lib/seo/maker-content';
 import ToolVignette from './ToolVignette';
 import SeamInstrument from './SeamInstrument';
 
@@ -41,9 +40,9 @@ export default async function MakeMomentV6({ locale, travelerThumb }: Props) {
             {t('heading')}
           </h2>
           <p className="mt-4 font-lcsBody text-lg text-[#3d574f] leading-relaxed">
-            {t('body', { count: MAKER_COUNT })}
+            {t('body')}
           </p>
-          <p className="mt-2 font-lcsBody text-sm text-[#5a6b64]">{t('caption', { count: MAKER_COUNT })}</p>
+          <p className="mt-2 font-lcsBody text-sm text-[#5a6b64]">{t('caption')}</p>
         </div>
 
         <div className="mt-8 grid grid-cols-1 lg:grid-cols-[1.5fr_1fr] gap-8 lg:gap-10 items-start">

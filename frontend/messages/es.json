@@ -4328,7 +4328,7 @@
       "ctaTools": "Abre una herramienta de enseñanza",
       "ctaWorksheets": "Ver las hojas de trabajo",
       "microLine": "Empieza gratis · sin registro · nada que instalar",
-      "countsLine": "Miles de hojas de trabajo imprimibles · {tools} herramientas de enseñanza · Más de 200 actividades · 11 idiomas",
+      "countsLine": "Una biblioteca completa de hojas de trabajo imprimibles · herramientas para enseñar en vivo · actividades listas para jugar · todo en tu idioma",
       "fanLabel": "Muestras de hojas de trabajo de la biblioteca, en tu idioma"
     },
     "ticks": {
@@ -4340,9 +4340,9 @@
     },
     "teach": {
       "heading": "Empieza donde empieza toda lección: al frente del salón",
-      "body": "{count} instrumentos de aula para proyectar y enseñar desde ahí. El aparato se encarga de corregir: la balanza se inclina, y nadie tiene que decir que está mal.",
-      "caption": "{count} instrumentos · pruébalos gratis, sin registro · sin cronómetros, sin puntajes, sin rachas",
-      "seeAll": "Ver las {count} herramientas",
+      "body": "Instrumentos de aula para proyectar y enseñar desde ahí. El aparato se encarga de corregir: la balanza se inclina, y nadie tiene que decir que está mal.",
+      "caption": "Instrumentos para cada eje del plan de estudios · pruébalos gratis, sin registro · sin cronómetros, sin puntajes, sin rachas",
+      "seeAll": "Ver todas las herramientas",
       "liveTag": "En vivo",
       "penBalance": "la balanza se inclina; nadie tiene que decir «mal»"
     },
@@ -4353,7 +4353,7 @@
     },
     "practice": {
       "heading": "Luego pon la idea en manos de cada niño",
-      "body": "Más de 200 actividades cortas y todas las hojas de trabajo se juegan directo en el navegador, ancladas al contenido que enseñas esta semana. La página se revisa sola, en silencio, para que tú recorras el salón y no la hoja de respuestas.",
+      "body": "Las actividades cortas se juegan directo en el navegador — y toda hoja de trabajo de la biblioteca se juega igual, anclada al contenido que enseñas esta semana. La página se revisa sola, en silencio, para que tú recorras el salón y no la hoja de respuestas.",
       "caption": "Ancladas al plan de estudios que de verdad enseñas.",
       "browseActivities": "Prueba una actividad",
       "browseWorksheets": "Ver todas las hojas de trabajo",
@@ -4365,7 +4365,7 @@
     "make": {
       "heading": "Hazla exactamente a la medida de tu grupo",
       "body": "Elige el ejercicio, el rango numérico, el tema, las imágenes — incluso tus propias fotos. Una sola creación te da una hoja de trabajo interactiva que se revisa sola y un PDF listo para imprimir con su hoja de respuestas.",
-      "caption": "{count} creadores · una biblioteca de 3,000 imágenes · tus fotos son bienvenidas",
+      "caption": "Un creador para cada tipo de ejercicio · una rica biblioteca de imágenes · tus fotos son bienvenidas",
       "forkLabel": "Una creación, dos resultados",
       "forkPlay": "Se juega en el navegador",
       "forkPrint": "Se imprime con hoja de respuestas",
@@ -4396,9 +4396,9 @@
     },
     "keep": {
       "heading": "Planea una clase, conserva el año entero",
-      "body": "Con el plan Docente, guarda lo que creas y organízalo por unidad — te estará esperando cuando empiece el nuevo ciclo escolar. Alineado a tu plan de estudios, en 11 idiomas, con la gramática correcta.",
-      "chipCurricula": "Alineado a 10 planes de estudio nacionales",
-      "chipLanguages": "Funciona en 11 idiomas",
+      "body": "Con el plan Docente, guarda lo que creas y organízalo por unidad — te estará esperando cuando empiece el nuevo ciclo escolar. Alineado a tu plan de estudios, en tu idioma, con la gramática correcta.",
+      "chipCurricula": "Alineado a tu plan de estudios nacional",
+      "chipLanguages": "Funciona en tu idioma",
       "chipNoData": "No se recopilan datos de los alumnos",
       "chipNoAds": "Sin anuncios en las páginas de los alumnos"
     },

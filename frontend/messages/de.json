@@ -4130,7 +4130,7 @@
       "ctaTools": "Ein Unterrichts-Tool öffnen",
       "ctaWorksheets": "Arbeitsblätter durchstöbern",
       "microLine": "Kostenlos starten · ohne Login · ohne Installation",
-      "countsLine": "Tausende Arbeitsblätter zum Ausdrucken · {tools} Unterrichts-Tools · über 200 Aktivitäten · 11 Sprachen",
+      "countsLine": "Eine ganze Bibliothek Arbeitsblätter zum Ausdrucken · Tools für den Unterricht · Aktivitäten zum Losspielen · alles in deiner Sprache",
       "fanLabel": "Beispiel-Arbeitsblätter aus der Bibliothek — in deiner Sprache"
     },
     "ticks": {
@@ -4142,9 +4142,9 @@
     },
     "teach": {
       "heading": "Fang da an, wo jede Stunde beginnt: vorn an der Tafel",
-      "body": "{count} Unterrichts-Tools zum Projizieren — du unterrichtest direkt daran. Das Material übernimmt das Korrigieren: Der Balken kippt, und niemand muss „falsch“ sagen.",
-      "caption": "{count} Tools · kostenlos ausprobieren, ohne Login · kein Zeitdruck, keine Punkte, keine Ranglisten",
-      "seeAll": "Alle {count} Tools ansehen",
+      "body": "Unterrichts-Tools zum Projizieren — du unterrichtest direkt daran. Das Material übernimmt das Korrigieren: Der Balken kippt, und niemand muss „falsch“ sagen.",
+      "caption": "Tools für jeden Lernbereich · kostenlos ausprobieren, ohne Login · kein Zeitdruck, keine Punkte, keine Ranglisten",
+      "seeAll": "Alle Tools ansehen",
       "liveTag": "Live",
       "penBalance": "der Balken kippt — keiner muss „falsch“ sagen"
     },
@@ -4155,7 +4155,7 @@
     },
     "practice": {
       "heading": "Dann gib die Idee in jede Kinderhand",
-      "body": "Über 200 kurze Lernaktivitäten und jedes Arbeitsblatt laufen direkt im Browser — passend zu dem Lehrplan-Thema, das du diese Woche unterrichtest. Die Seite korrigiert leise mit, und du gehst durch die Reihen statt durchs Lösungsblatt.",
+      "body": "Kurze Aktivitäten laufen direkt im Browser — und jedes Arbeitsblatt der Bibliothek spielt sich genauso, passend zu dem Lehrplan-Thema, das du diese Woche unterrichtest. Die Seite korrigiert leise mit, und du gehst durch die Reihen statt durchs Lösungsblatt.",
       "caption": "Ausgerichtet am Lehrplan, nach dem du wirklich unterrichtest.",
       "browseActivities": "Eine Aktivität ausprobieren",
       "browseWorksheets": "Alle Arbeitsblätter ansehen",
@@ -4167,7 +4167,7 @@
     "make": {
       "heading": "Bau es dir genau passend für deine Klasse",
       "body": "Wähl die Aufgabe, den Zahlenraum, das Thema, die Bilder — sogar eigene Fotos. Einmal erstellt, und du hast ein interaktives Arbeitsblatt, das sich selbst korrigiert, und ein druckfertiges PDF mit Lösungsblatt.",
-      "caption": "{count} Generatoren · 3.000 Bilder in der Bibliothek · eigene Fotos willkommen",
+      "caption": "Ein Generator für jeden Aufgabentyp · eine große Bildbibliothek · eigene Fotos willkommen",
       "forkLabel": "Einmal erstellen, zwei Ergebnisse",
       "forkPlay": "Läuft im Browser",
       "forkPrint": "Druckt mit Lösungsblatt",
@@ -4198,9 +4198,9 @@
     },
     "keep": {
       "heading": "Plan eine Stunde, behalte ein Schuljahr",
-      "body": "Mit dem Lehrkraft-Abo speicherst du, was du baust, und sammelst es nach Einheiten — zum neuen Schuljahr wartet es schon auf dich. Ausgerichtet an deinem Lehrplan, in 11 Sprachen — und die Grammatik stimmt.",
-      "chipCurricula": "An 10 nationalen Lehrplänen ausgerichtet",
-      "chipLanguages": "Funktioniert in 11 Sprachen",
+      "body": "Mit dem Lehrkraft-Abo speicherst du, was du baust, und sammelst es nach Einheiten — zum neuen Schuljahr wartet es schon auf dich. Ausgerichtet an deinem Lehrplan, in deiner Sprache — und die Grammatik stimmt.",
+      "chipCurricula": "An deinem Lehrplan ausgerichtet",
+      "chipLanguages": "Funktioniert in deiner Sprache",
       "chipNoData": "Keine Schülerdaten erhoben",
       "chipNoAds": "Keine Werbung auf Kinderseiten"
     },

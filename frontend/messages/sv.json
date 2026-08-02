@@ -2809,7 +2809,7 @@
       "ctaTools": "Öppna ett verktyg",
       "ctaWorksheets": "Se arbetsbladen",
       "microLine": "Gratis att börja · ingen inloggning · inget att installera",
-      "countsLine": "Tusentals utskrivbara arbetsblad · {tools} klassrumsverktyg · 200+ aktiviteter · 11 språk",
+      "countsLine": "Ett helt bibliotek med utskrivbara arbetsblad · verktyg att undervisa från · aktiviteter redo att spela · allt på ditt språk",
       "fanLabel": "Exempel på arbetsblad ur biblioteket, på ditt språk"
     },
     "ticks": {
@@ -2821,9 +2821,9 @@
     },
     "teach": {
       "heading": "Börja där varje lektion börjar: framme vid tavlan",
-      "body": "{count} klassrumsverktyg att visa på tavlan och undervisa från. Materialet sköter rättandet: vågen tippar, så ingen behöver säga fel.",
-      "caption": "{count} verktyg · gratis att prova, utan inloggning · ingen tidtagning, inga poäng, inga tävlingsmoment",
-      "seeAll": "Se alla {count} verktyg",
+      "body": "Klassrumsverktyg att visa på tavlan och undervisa från. Materialet sköter rättandet: vågen tippar, så ingen behöver säga fel.",
+      "caption": "Verktyg för varje kunskapsområde · gratis att prova, utan inloggning · ingen tidtagning, inga poäng, inga tävlingsmoment",
+      "seeAll": "Se alla verktyg",
       "liveTag": "Live",
       "penBalance": "vågen tippar — ingen behöver säga fel"
     },
@@ -2834,7 +2834,7 @@
     },
     "practice": {
       "heading": "Lämna sedan över idén till varje barn",
-      "body": "Över 200 korta aktiviteter — och varje arbetsblad — spelas direkt i webbläsaren, kopplade till det moment i läroplanen du undervisar om just den här veckan. Sidan rättar sig själv i det tysta, så du går runt i klassrummet i stället för att stå med facit.",
+      "body": "Korta aktiviteter spelas direkt i webbläsaren — och varje arbetsblad i biblioteket spelas på samma sätt, kopplat till det moment i läroplanen du undervisar om just den här veckan. Sidan rättar sig själv i det tysta, så du går runt i klassrummet i stället för att stå med facit.",
       "caption": "Kopplat till den läroplan du faktiskt undervisar efter.",
       "browseActivities": "Prova en aktivitet",
       "browseWorksheets": "Se alla arbetsblad",
@@ -2846,7 +2846,7 @@
     "make": {
       "heading": "Gör det precis rätt för din klass",
       "body": "Välj övning, talområde, tema och bilder — eller ladda upp egna foton. Ett bygge ger dig ett interaktivt arbetsblad som rättar sig självt och en utskriftsklar PDF med facit.",
-      "caption": "{count} generatorer · ett bibliotek med 3 000 bilder · egna foton välkomna",
+      "caption": "En generator för varje övningstyp · ett rikt bildbibliotek · egna foton välkomna",
       "forkLabel": "Ett bygge, två resultat",
       "forkPlay": "Spelas i webbläsaren",
       "forkPrint": "Skrivs ut med facit",
@@ -2877,9 +2877,9 @@
     },
     "keep": {
       "heading": "Planera en lektion, behåll ett helt läsår",
-      "body": "Med Lärarplanen sparar du det du bygger och samlar det per arbetsområde — det väntar på dig när det nya läsåret börjar. Anpassat efter din läroplan, på 11 språk, med grammatiken på plats.",
-      "chipCurricula": "Anpassat efter 10 nationella läroplaner",
-      "chipLanguages": "Fungerar på 11 språk",
+      "body": "Med Lärarplanen sparar du det du bygger och samlar det per arbetsområde — det väntar på dig när det nya läsåret börjar. Anpassat efter läroplanen, på ditt språk, med grammatiken på plats.",
+      "chipCurricula": "Anpassat efter Lgr22",
+      "chipLanguages": "Fungerar på ditt språk",
       "chipNoData": "Inga elevdata samlas in",
       "chipNoAds": "Inga annonser på elevsidor"
     },

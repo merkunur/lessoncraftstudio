@@ -2829,7 +2829,7 @@
       "ctaTools": "Ouvrir un outil de classe",
       "ctaWorksheets": "Parcourir les fiches",
       "microLine": "Gratuit pour commencer · sans connexion · rien à installer",
-      "countsLine": "Des milliers de fiches à imprimer · {tools} outils de classe · plus de 200 activités · 11 langues",
+      "countsLine": "Toute une bibliothèque de fiches à imprimer · des outils de classe à projeter · des activités prêtes à jouer · le tout dans votre langue",
       "fanLabel": "Quelques fiches de la bibliothèque, en exemple et dans votre langue"
     },
     "ticks": {
@@ -2841,9 +2841,9 @@
     },
     "teach": {
       "heading": "Commencez là où toute leçon commence : au tableau",
-      "body": "{count} outils de classe à projeter, pour enseigner face aux élèves. C'est le matériel qui corrige : la balance penche, et personne n'a à dire « faux ».",
-      "caption": "{count} outils · à essayer gratuitement, sans connexion · ni chrono, ni score, ni classement",
-      "seeAll": "Voir les {count} outils",
+      "body": "Des outils de classe à projeter, pour enseigner face aux élèves. C'est le matériel qui corrige : la balance penche, et personne n'a à dire « faux ».",
+      "caption": "Des outils pour chaque domaine du programme · à essayer gratuitement, sans connexion · ni chrono, ni score, ni classement",
+      "seeAll": "Voir tous les outils",
       "liveTag": "En direct",
       "penBalance": "la balance penche — personne n'a à dire « faux »"
     },
@@ -2854,7 +2854,7 @@
     },
     "practice": {
       "heading": "Puis mettez l'idée entre les mains de chaque élève",
-      "body": "Plus de 200 activités courtes — et toutes les fiches — se jouent directement dans le navigateur, reliées au point du programme que vous travaillez cette semaine. La page se corrige discrètement : vous circulez entre les rangs au lieu de surveiller le corrigé.",
+      "body": "Des activités courtes se jouent directement dans le navigateur — et chaque fiche de la bibliothèque se joue de la même façon, reliée au point du programme que vous travaillez cette semaine. La page se corrige discrètement : vous circulez entre les rangs au lieu de surveiller le corrigé.",
       "caption": "Alignées sur les programmes que vous suivez vraiment.",
       "browseActivities": "Essayer une activité",
       "browseWorksheets": "Voir toutes les fiches",
@@ -2866,7 +2866,7 @@
     "make": {
       "heading": "Créez la fiche sur mesure pour votre classe",
       "body": "Choisissez l'exercice, la plage de nombres, le thème, les illustrations — jusqu'à vos propres photos. Une seule création donne une fiche interactive qui se corrige toute seule, et un PDF prêt à imprimer avec son corrigé.",
-      "caption": "{count} générateurs · une bibliothèque de 3 000 images · vos photos bienvenues",
+      "caption": "Un générateur pour chaque type d'exercice · une riche bibliothèque d'images · vos photos bienvenues",
       "forkLabel": "Une création, deux formats",
       "forkPlay": "Se joue dans le navigateur",
       "forkPrint": "S'imprime avec son corrigé",
@@ -2897,9 +2897,9 @@
     },
     "keep": {
       "heading": "Préparez une leçon, gardez l'année entière",
-      "body": "Avec l'abonnement Enseignant, enregistrez ce que vous créez et classez-le par séquence — tout vous attend à la rentrée. Aligné sur vos programmes, en 11 langues, avec une grammaire irréprochable.",
-      "chipCurricula": "Aligné sur 10 programmes nationaux",
-      "chipLanguages": "Disponible en 11 langues",
+      "body": "Avec l'abonnement Enseignant, enregistrez ce que vous créez et classez-le par séquence — tout vous attend à la rentrée. Aligné sur vos programmes, dans votre langue, avec une grammaire irréprochable.",
+      "chipCurricula": "Aligné sur les programmes officiels",
+      "chipLanguages": "Disponible dans votre langue",
       "chipNoData": "Aucune donnée élève collectée",
       "chipNoAds": "Aucune publicité sur les pages élèves"
     },

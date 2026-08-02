@@ -262,8 +262,11 @@
   padding: 6px;
   border-radius: 10px;
   box-shadow: var(--e2);
-  display: block;
 }
+/* Zero-specificity default display so Tailwind utilities (hidden,
+   xl:block) can win the tie — the .hv7-chalkpanel position trap, learned
+   thrice. */
+:where(.hv7-sheet) { display: block; }
 .hv7-sheet img { display: block; width: 100%; height: auto; border-radius: 6px; }
 
 /* Tilts apply only ≥640px — full-width phone cards NEVER tilt. */
@@ -306,16 +309,21 @@
 .hv7-keepstack > :nth-child(3) { left: 24px; top: 120px; }
 @media (max-width: 1023px) { .hv7-keepstack { display: none; } }
 
-/* Close-band edge peeks. */
-.hv7-peek-l, .hv7-peek-r {
-  position: absolute;
-  width: 300px;
-  top: 50%;
-  transform: translateY(-50%) rotate(-3deg);
+/* Close-band flanking sheets are IN FLOW (CloseV6) — they can never be
+   viewport-cut at any width. The old absolute .hv7-peek-* rig is gone. */
+
+/* The close's working instrument: the signature rekenrek counting 3,
+   then 7, above the last headline. Container-query containment; hidden
+   on phones (the fold's mini rekenrek already covers them). */
+.hv9-close-rek {
+  width: min(380px, 100%);
+  margin: 0 auto 28px;
+  background: #fff;
+  border: 1px solid rgba(20, 50, 45, 0.07);
+  border-radius: 16px;
+  box-shadow: var(--e2);
+  padding: 6px 14px;
 }
-.hv7-peek-l { left: -150px; }
-.hv7-peek-r { right: -150px; transform: translateY(-50%) rotate(3deg); }
-@media (max-width: 1023px) { .hv7-peek-l, .hv7-peek-r { display: none; } }
 
 /* ═══ THE CHALK PANEL — the one bounded dark object on the lit wall,
    holding the compact Calder mobile. ═══ */
@@ -501,19 +509,23 @@
   animation: hv6SheetTwist 23s var(--sway-ease) -11s infinite;
 }
 .hv6-mob-obj.is-sheet img { display: block; width: 100%; height: auto; border-radius: 3px; }
-/* The drop DISSOLVES: 200px fade to nothing below the sheet — the eye
-   completes the line down into the page. */
+/* The fold shows NO drop-thread: the worksheet fan sits beneath the
+   sheet, and a thread running onto a worksheet reads as breakage
+   (operator ruling). The rule stays for other contexts; the fold and the
+   phone both hide it. */
+.hv9-fold-stage .hv6-mob-drop { display: none; }
+
 .hv6-mob-drop {
   position: absolute;
   top: 100%;
   left: 50%;
   width: 2px;
   margin-left: -1px;
-  height: 200px;
+  height: 96px;
   background: linear-gradient(180deg,
-    rgba(90, 80, 60, 0.45) 0%,
-    rgba(90, 80, 60, 0.2) 55%,
-    rgba(90, 80, 60, 0) 100%);
+    rgba(90, 80, 60, 0.4) 0%,
+    rgba(90, 80, 60, 0.12) 60%,
+    rgba(90, 80, 60, 0) 90%);
 }
 .hv6-mob-tag {
   position: absolute;

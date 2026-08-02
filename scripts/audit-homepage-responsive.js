@@ -30,7 +30,15 @@ const args = Object.fromEntries(
   }),
 );
 const BASE = args.base || 'http://localhost:3000';
+// --path was documented but never read (the goto hardcoded `/${locale}`), so the
+// gate could not be pointed at a preview route. `{locale}` is substituted per run;
+// a bare path with no placeholder is used as-is.
+const PATH_TEMPLATE = args.path || '/{locale}';
 const LOCALES = String(args.locales || 'en,es').split(',').filter(Boolean);
+const urlFor = (locale) =>
+  BASE + (PATH_TEMPLATE.includes('{locale}')
+    ? PATH_TEMPLATE.replace(/\{locale\}/g, locale)
+    : PATH_TEMPLATE);
 const OUT = args.out || path.join(__dirname, '..', '.scratch', 'responsive-shots');
 const WIDTHS = [320, 360, 412, 568, 640, 768, 834, 1024, 1152, 1280, 1366, 1600, 1920, 2560];
 const EDGE_TOLERANCE = 2;
@@ -48,7 +56,7 @@ async function auditOne(browser, locale, width) {
   });
   page.on('response', (r) => { if (r.status() >= 400 && !/favicon/.test(r.url())) consoleErrors.push(`${r.status()} ${r.url()}`); });
   await page.setViewport({ width, height: 950 });
-  await page.goto(`${BASE}/${locale}`, { waitUntil: 'networkidle2', timeout: 120000 });
+  await page.goto(urlFor(locale), { waitUntil: 'networkidle2', timeout: 120000 });
   // scroll through for lazy content, back to top
   await page.evaluate(async () => {
     await new Promise((res) => {
@@ -73,9 +81,12 @@ async function auditOne(browser, locale, width) {
       if (cs.display === 'none' || cs.visibility === 'hidden') continue;
       const r = el.getBoundingClientRect();
       if (r.width === 0 || r.height === 0) continue;
-      // elements inside overflow-clipped ancestors can't actually break out;
-      // approximate: skip anything inside the masthead (overflow-x: clip)
-      if (el.closest('.hv6-masthead') && r.right > vw + tol) continue;
+      // Semantic bleed hook. Prefer this over class names: the list below has
+      // rotted with every redesign (`.hv6-masthead` had ZERO references in
+      // frontend/ when this was written — verified, then removed). Anything
+      // that bleeds past the viewport BY DESIGN marks itself with data-bleed
+      // and is clipped by an ancestor's overflow-x: clip.
+      if (el.closest('[data-bleed]')) continue;
       // v8 Open House: these containers bleed past the right edge BY DESIGN
       // and are clipped by .hv7-ground { overflow-x: clip } / the fold's own
       // clip. Check (a) hscroll still guards real overflow.
@@ -89,12 +100,17 @@ async function auditOne(browser, locale, width) {
         );
       }
     }
-    // Two .hv6-mob instances exist (desktop fold + phone fold); exactly one
-    // is display:none at any width. The sculpture is ok if ANY is visible.
-    const mobs = [...document.querySelectorAll('.hv6-mob')];
+    // (c) The hero's signature apparatus must be present and substantial at
+    // every width. v6/v9 render the Calder mobile `.hv6-mob` (two instances —
+    // desktop fold + phone fold — exactly one visible at a time). v10 renders
+    // the gallery poster `.hv10-stage` (one instance at every width, by
+    // design: it is ONE composition, not a per-device rearrangement).
+    // Either satisfies this; ALL instances are checked, since measuring only
+    // the first once matched a display:none desktop twin on phone widths.
+    const heroes = [...document.querySelectorAll('.hv6-mob, .hv10-stage')];
     let sculpture = 'MISSING';
-    if (mobs.length) {
-      const anyVisible = mobs.some((el) => {
+    if (heroes.length) {
+      const anyVisible = heroes.some((el) => {
         const r = el.getBoundingClientRect();
         return r.width > 100 && r.height > 100;
       });
@@ -161,14 +177,15 @@ async function auditReducedMotion(browser, locale) {
   const page = await browser.newPage();
   await page.emulateMediaFeatures([{ name: 'prefers-reduced-motion', value: 'reduce' }]);
   await page.setViewport({ width: 1280, height: 950 });
-  await page.goto(`${BASE}/${locale}`, { waitUntil: 'networkidle2', timeout: 120000 });
+  await page.goto(urlFor(locale), { waitUntil: 'networkidle2', timeout: 120000 });
   await new Promise((r) => setTimeout(r, 1200));
   const m = await page.evaluate(() => {
     const running = document.getAnimations
       ? document.getAnimations().filter((a) => a.constructor.name === 'CSSAnimation' && a.playState === 'running').length
       : -1;
-    const mobs = [...document.querySelectorAll('.hv6-mob')];
-    const sculpture = mobs.some((el) => {
+    // Same dual selector as the main pass — see the note there.
+    const heroes = [...document.querySelectorAll('.hv6-mob, .hv10-stage')];
+    const sculpture = heroes.some((el) => {
       const r = el.getBoundingClientRect();
       return r.width > 100 && r.height > 100;
     });

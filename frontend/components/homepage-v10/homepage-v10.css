@@ -1,0 +1,1026 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   HOMEPAGE v10 — "THE GALLERY OF LESSONS"
+
+   The gallery is DRAWN. The art is REAL.
+
+   The architecture (walls, skylight, arch, plinths, frames, floor, figures)
+   is flat cartoon illustration built here in CSS. Everything hanging on the
+   walls or standing on the plinths is real product: published deck
+   thumbnails, real apparatus renders, and the twelve pure-CSS instruments
+   from homepage-v6/, running.
+
+   ── THE POSTER LAW ────────────────────────────────────────────────────────
+   The hero is ONE composition at every viewport from 320 to 2560. It is a
+   poster: fixed aspect ratio, every coordinate expressed in `cqw` (1cqw = 1%
+   of the poster's own width, BOTH axes, so the picture is rigid). The wall
+   colour bleeds full-width behind it, so wide screens show more wall — never
+   a letterbox.
+
+   Two deliberate exceptions, both stated rather than hidden:
+     1. The H1 has a one-sided legibility floor: `max(28px, Ncqw)`. It is
+        `max()`, NOT `clamp()` — no upper cap, so above the crossover width
+        the composition is mathematically identical. Only below ~373px does
+        the headline deviate (by ~17% at 320px) to stay readable.
+     2. Nothing containing real text ever sits inside a `transform: scale()`
+        subtree — that keeps the H1 LCP-eligible, selectable, in the a11y
+        tree, and crisp.
+
+   ── THE FOLD RULE (binding constraint, measured) ──────────────────────────
+   At 1366×768 the real fold is ~578px while the poster is ~911px tall. So:
+   the H1 must terminate within the top 55% of the poster and the primary CTA
+   within the top 62%. Instruments sit by y≈46 so they are in the fold too —
+   directive 3 is only satisfied if the tools are actually SEEN working.
+
+   ── INSTRUMENT SCALING ────────────────────────────────────────────────────
+   The four hero instruments (clock, planks, lids, rekenrek) were chosen
+   because their keyframes are rotation/scale/opacity only — ZERO pixel
+   offsets — so they can be resized by scoped `cqw` overrides with no
+   transform wrapper and no exotic CSS. rekenrek needs no override for its
+   travel at all: `--push` is already derived from its own container.
+   Machines WITH px keyframes (draw-bag, letter-tiles, balance, sieve) must
+   instead use a `transform: scale()` wrapper, because an ancestor scale
+   multiplies their px offsets AND their reduced-motion composed poses
+   correctly for free.
+
+   ── MOTION LAWS (inherited, non-negotiable) ───────────────────────────────
+   transform/opacity only · no keyframe moves >35% of its cycle (≥65% rest —
+   the concurrency budget lever) · coprime periods 7–23s + negative phases ·
+   one dominant motion per viewport · readable text/price surfaces never
+   animate · reduced-motion resolves to COMPOSED POSES, never blank · never
+   two animations on one node · animation census stays under 220.
+
+   ── SPECIFICITY ───────────────────────────────────────────────────────────
+   Any layout-critical property on a shared single-class goes through
+   `:where()` (zero specificity) so Tailwind utilities still win. This trap
+   has bitten this codebase three times.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ── Tokens ──────────────────────────────────────────────────────────────
+   Every wall colour is an existing brand token. The brand already had a
+   gallery palette; it had simply never been used at full strength. */
+.hv10 {
+  /* Warmer and lighter than the first pass, which read cold and muddy: a lit
+     gallery green rather than a chalkboard. The cream architecture below is
+     what actually warms the room — the first version had NO mouldings at all,
+     which is why a single flat field of green felt cheap. */
+  --g10-wall: #23604E;
+  --g10-wall-lit: #2C7360;    /* wall catching the clerestory light */
+  --g10-wall-deep: #1A4C3E;   /* wall in the corners */
+  --g10-trim: #F3EAD8;        /* cornice, pilasters, wainscot — cream stone */
+  --g10-trim-shade: #DCCFB6;
+  --g10-trim-deep: #C0B096;
+  /* Oak, desaturated: at full chroma the floor was the loudest thing on the
+     page and pulled the eye off the work. */
+  --g10-floor: #B79A72;
+  --g10-floor-lit: #CDB491;
+  --g10-floor-deep: #967954;
+  --g10-stone: #F6F1E6;       /* plinths — white museum pedestals */
+  --g10-stone-top: #FFFDF8;
+  --g10-stone-edge: #D8CDB8;
+  --g10-light: #FDFBF6;
+  --g10-cream: #FBF3E4;
+  --g10-coral: #F2784B;
+  --g10-coral-deep: #D9633A;
+  --g10-ink: #14322D;
+  --g10-frame-wood: #6B4A2F;  /* walnut moulding */
+  --g10-frame-wood-lit: #8A6440;
+
+  --g10-stage-max: 1600px;
+  --g10-ratio: 3 / 2;
+
+  /* Frame system — one drawn system everywhere in the building. */
+  --g10-mat: #FFFFFF;
+  --g10-frame-edge: rgba(20, 50, 45, 0.22);
+}
+
+/* ── The field: full-bleed wall the poster hangs in ───────────────────── */
+.hv10-field {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  overflow-x: clip;             /* the containment guarantee */
+  background:
+    /* light falling from the clerestory, left-biased so the room has a
+       direction — a symmetrical wash reads as a flat fill */
+    radial-gradient(120% 70% at 38% 0%, rgba(255, 246, 214, 0.22) 0%, rgba(255, 246, 214, 0) 62%),
+    linear-gradient(180deg, var(--g10-wall-lit) 0%, var(--g10-wall) 40%, var(--g10-wall-deep) 100%);
+}
+
+/* ── The poster ──────────────────────────────────────────────────────────
+   container-type: inline-size contains only the inline axis, so
+   aspect-ratio still derives the block size from the width. */
+.hv10-stage {
+  position: relative;
+  /* The poster is sized to FIT THE FOLD, not to fill the width.
+     Measured: the site nav is ~122px (72px bar + ~50px category row); with
+     breathing that is ~190px of chrome. A width-filling 3:2 poster is 911px
+     tall at 1366 against a ~590px usable fold — so the floor, the plinths
+     and the working instruments all landed below the fold, which fails the
+     one directive that matters most: the tools must be SEEN working.
+     Height-constrained on desktop, width-constrained on phones. The picture
+     is identical either way — only its size changes. */
+  --g10-fold: calc(100svh - 190px);
+  width: min(100%, var(--g10-stage-max), max(300px, calc(var(--g10-fold) * 3 / 2)));
+  aspect-ratio: var(--g10-ratio);
+  container-type: inline-size;
+  container-name: poster;
+  /* NOT `overflow: clip` — the floor and the skirting deliberately bleed past
+     the poster to the screen edges, so a wide viewport shows MORE ROOM rather
+     than a picture pasted on a wall. Containment is the field's job. */
+  isolation: isolate;
+}
+
+/* Every child is placed in poster units. --x/--y/--w are plain numbers set
+   inline from the composition table, which keeps the composition data and
+   not markup. y is in cqw too (not cqh) so the picture stays rigid. */
+:where(.hv10-slot) {
+  position: absolute;
+  left: calc(var(--x) * 1cqw);
+  top: calc(var(--y) * 1cqw);
+  width: calc(var(--w) * 1cqw);
+}
+
+/* ═══ ARCHITECTURE ═══════════════════════════════════════════════════════ */
+
+/* ── Skylight ────────────────────────────────────────────────────────────
+   A band of daylight along the ceiling with a soft spill down the wall.
+   This is the page's one light source and it never moves. */
+/* ── Ceiling + cornice ──────────────────────────────────────────────────
+   The first pass put a pale trapezoid at the top meant to read as a
+   skylight; it read as a torn paper edge. A gallery is capped by a moulded
+   cornice, and drawing the profile as gradient stops is how a section is
+   drawn. Bleeds, because it is the room's ceiling, not the picture's. */
+.hv10-cornice {
+  position: absolute;
+  left: -50vw;
+  right: -50vw;
+  top: 0;
+  height: 7.4cqw;
+  pointer-events: none;
+  background: linear-gradient(
+    180deg,
+    #17453A 0%, #17453A 22%,                       /* ceiling in shadow */
+    var(--g10-trim-deep) 22%, var(--g10-trim) 26%, /* top fillet */
+    var(--g10-trim) 40%,
+    var(--g10-trim-shade) 40%, var(--g10-trim-shade) 46%,  /* fascia shadow */
+    #FFFDF8 46%, #FFFDF8 58%,                      /* the lit face */
+    var(--g10-trim) 58%, var(--g10-trim) 74%,
+    var(--g10-trim-deep) 74%, var(--g10-trim-deep) 79%,    /* bed mould */
+    rgba(10, 42, 34, 0.34) 79%,
+    rgba(10, 42, 34, 0) 100%                       /* cast onto the wall */
+  );
+}
+/* ── Pilasters — CUT ─────────────────────────────────────────────────────
+   Shallow cream piers were meant to give the wall structure. At the contrast
+   needed to be visible at all they read as two random vertical seams — as
+   RENDERING ARTEFACTS, not architecture — and at any lower contrast they
+   were invisible. The cornice and dado already establish the room. Second
+   accessory removed; recorded rather than silently dropped. */
+
+/* ── The wall + skirting + floor horizon ─────────────────────────────────
+   The floor line is the through-line of the whole building: it sits at the
+   same poster height in every room, so scrolling reads as walking. */
+/* A thin shadow line where wall meets floor. A thick dark band reads as a
+   black bar across the picture. */
+/* ── The dado: chair rail + panelled wainscot ────────────────────────────
+   A gallery wall meets the floor through joinery, not a shadow. The first
+   pass had none of this, which is a large part of why one flat field of
+   colour read as cheap. The whole profile is drawn as gradient stops — that
+   IS how a moulding section is drawn. */
+.hv10-dado {
+  position: absolute;
+  left: -50vw;
+  right: -50vw;
+  top: calc((var(--g10-horizon, 48) - 6) * 1cqw);
+  height: 6cqw;
+  /* Muted warm stone, deliberately DARKER than the plinths. At full cream it
+     was the brightest band on the page — it read as a radiator, and the white
+     pedestals in front of it disappeared. The plinths must be the brightest
+     objects in the room; the joinery sits behind them. */
+  background:
+    /* panel divisions — wide, so they read as panels rather than fence posts */
+    repeating-linear-gradient(
+      90deg,
+      transparent 0 19cqw,
+      rgba(120, 100, 68, 0.28) 19cqw 19.2cqw,
+      rgba(255, 250, 236, 0.3) 19.2cqw 19.4cqw,
+      transparent 19.4cqw 38cqw
+    ),
+    linear-gradient(
+      180deg,
+      rgba(8, 40, 32, 0.26) 0%,
+      rgba(8, 40, 32, 0.05) 5%,
+      #E4D7BC 5%,
+      #E4D7BC 16%,
+      #CBBB9B 16%,
+      #CBBB9B 21%,
+      #F0E6D0 21%,
+      #DCCFB2 30%,
+      #D5C7A8 30%,
+      #C6B694 90%,
+      #AD9C79 100%
+    );
+}
+
+/* ── The floor: oak boards in TRUE one-point perspective ─────────────────
+   The defect in both earlier passes was that the floor had no perspective,
+   so it read as a flat tan slab. Board joints must CONVERGE on a vanishing
+   point, and a repeating-conic-gradient centred on that point is exactly a
+   fan of converging lines — and it bleeds with the element, so it survives
+   to the screen edges at any width. */
+.hv10-floor {
+  position: absolute;
+  left: -50vw;
+  right: -50vw;
+  top: calc(var(--g10-horizon, 48) * 1cqw);
+  bottom: 0;
+  background:
+    /* board joints, radiating from the vanishing point at the horizon */
+    repeating-conic-gradient(
+      at 50% 0%,
+      rgba(94, 62, 26, 0.34) 0deg 0.16deg,
+      transparent 0.16deg 2.9deg
+    ),
+    /* cross joints: spacing widens toward the viewer, which is what sells
+       depth more than the converging lines do */
+    linear-gradient(
+      180deg,
+      rgba(94, 62, 26, 0.3) 0 0.14cqw, transparent 0.14cqw 1.2cqw,
+      rgba(94, 62, 26, 0.26) 1.2cqw 1.34cqw, transparent 1.34cqw 3cqw,
+      rgba(94, 62, 26, 0.22) 3cqw 3.16cqw, transparent 3.16cqw 5.6cqw,
+      rgba(94, 62, 26, 0.2) 5.6cqw 5.78cqw, transparent 5.78cqw 9.4cqw,
+      rgba(94, 62, 26, 0.18) 9.4cqw 9.6cqw, transparent 9.6cqw 14.6cqw,
+      rgba(94, 62, 26, 0.16) 14.6cqw 14.82cqw, transparent 14.82cqw 100%
+    ),
+    /* light pooling out from the foot of the wall */
+    radial-gradient(70% 90% at 42% 0%, rgba(255, 244, 214, 0.5) 0%, rgba(255, 244, 214, 0) 70%),
+    linear-gradient(180deg, var(--g10-floor-lit) 0%, var(--g10-floor) 42%, var(--g10-floor-deep) 100%);
+}
+/* The shadow the wall casts onto the floor — what actually joins the two
+   planes. Without it the floor looks pasted below the wall. */
+.hv10-floor::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 2.4cqw;
+  background: linear-gradient(180deg, rgba(40, 22, 6, 0.34) 0%, rgba(40, 22, 6, 0) 100%);
+}
+
+/* ── The arch — a room threshold, not hero furniture ─────────────────────
+   Used BETWEEN rooms. The hero wall is solid; the doorway comes next. */
+.hv10-arch {
+  position: absolute;
+  border-radius: 50% 50% 2% 2% / 62% 62% 2% 2%;
+  background:
+    linear-gradient(180deg, rgba(253, 251, 246, 0.90) 0%, var(--g10-cream) 46%, #EFE2C8 100%);
+  box-shadow:
+    inset 0 0.9cqw 2.4cqw rgba(20, 50, 45, 0.24),
+    0 0 0 0.42cqw rgba(253, 251, 246, 0.22);
+}
+
+/* ═══ THE FRAME SYSTEM ═══════════════════════════════════════════════════
+   One drawn system: same mat, same corner, same shadow, everywhere in the
+   building. Portrait 3:4 — the natural shape of a printed worksheet, and
+   the shape deck thumbnails already render at (480×620). */
+:where(.hv10-frame) {
+  position: absolute;
+  left: calc(var(--x) * 1cqw);
+  top: calc(var(--y) * 1cqw);
+  width: calc(var(--w) * 1cqw);
+  aspect-ratio: 3 / 4;
+  rotate: var(--tilt, 0deg);
+  /* Walnut moulding with a cream mat inside — a drawn frame, not a bare
+     white rectangle. (Gold and wide frames are on the standing refuse-list;
+     walnut is warm without being gilt.) */
+  background: linear-gradient(150deg, var(--g10-frame-wood-lit) 0%, var(--g10-frame-wood) 54%, #4E3721 100%);
+  padding: 0.72cqw;
+  border-radius: 0.16cqw;
+  box-shadow:
+    inset 0 0 0 0.14cqw rgba(255, 240, 214, 0.28),
+    0 1.3cqw 2.6cqw rgba(24, 12, 2, 0.42),
+    0 0.26cqw 0.6cqw rgba(24, 12, 2, 0.3);
+}
+/* the mat: a cream border between moulding and work */
+.hv10-frame > img,
+.hv10-frame > .hv10-frame-art {
+  box-shadow: 0 0 0 0.34cqw #F7F1E4, 0 0 0 0.42cqw rgba(80, 55, 30, 0.35);
+}
+.hv10-frame img,
+.hv10-frame .hv10-frame-art {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.14cqw;
+  object-fit: cover;
+  /* Apparatus renders carry a caption band baked in at the bottom; framed
+     art must not carry body text, so the frame crops it off. */
+  object-position: top center;
+  background: var(--g10-cream);
+}
+/* the glazing: one soft sheen across the glass, static */
+.hv10-frame::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 0.34cqw;
+  background: linear-gradient(
+    124deg,
+    rgba(255, 255, 255, 0.22) 0%,
+    rgba(255, 255, 255, 0.05) 26%,
+    rgba(255, 255, 255, 0) 46%
+  );
+  pointer-events: none;
+}
+
+/* ═══ PLINTHS ════════════════════════════════════════════════════════════ */
+:where(.hv10-plinth) {
+  position: absolute;
+  left: calc(var(--x) * 1cqw);
+  top: calc(var(--y) * 1cqw);
+  width: calc(var(--w) * 1cqw);
+  height: calc(var(--h) * 1cqw);
+}
+/* Body — DARK, in the wall's own family, so it reads unmistakably as a solid
+   plinth. Pale cream plinths on a pale floor read as blank sheets of paper
+   standing upright, which is the last thing this page can afford. Tapered
+   slightly wider at the base, the way a plinth actually sits. */
+.hv10-plinth::before {
+  content: '';
+  position: absolute;
+  inset: 0.9cqw 0 0 0;
+  /* White museum pedestal, modelled: lit left face, turning shade to the
+     right, and a slight ambient bounce from the floor at its foot. Dark
+     trapezoids read as classroom furniture, not plinths. */
+  background:
+    linear-gradient(180deg, rgba(150, 120, 70, 0) 74%, rgba(150, 120, 70, 0.22) 100%),
+    linear-gradient(96deg, #FFFDF8 0%, var(--g10-stone) 46%, #E4D9C4 78%, #CDBEA2 100%);
+  clip-path: polygon(2.5% 0, 97.5% 0, 100% 100%, 0 100%);
+  box-shadow: inset 0 0.14cqw 0 rgba(255, 255, 255, 0.9);
+}
+/* Top face — the lit surface the instrument stands on. This is the only pale
+   part, and it is a thin edge rather than a slab. */
+/* The top slab, seen slightly from above: a bright face with a shaded front
+   edge. This is the plane the instrument stands on. */
+.hv10-plinth::after {
+  content: '';
+  position: absolute;
+  left: -0.55cqw;
+  right: -0.55cqw;
+  top: 0;
+  height: 1.5cqw;
+  border-radius: 0.18cqw;
+  background: linear-gradient(
+    180deg,
+    #FFFFFF 0%, var(--g10-stone-top) 46%,
+    var(--g10-stone-edge) 62%, #BCAE94 100%
+  );
+  box-shadow: 0 0.4cqw 1cqw rgba(40, 22, 6, 0.26);
+}
+/* Contact shadow — what actually seats an object on the ground. */
+.hv10-plinth-shadow {
+  position: absolute;
+  left: calc(var(--x) * 1cqw - 1.1cqw);
+  top: calc((var(--y) + var(--h)) * 1cqw - 0.7cqw);
+  width: calc(var(--w) * 1cqw + 2.2cqw);
+  height: 1.7cqw;
+  border-radius: 50%;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(58, 44, 18, 0.4) 0%, rgba(58, 44, 18, 0) 100%);
+}
+
+/* The instrument stands ON the plinth top.
+   Anchored by its BOTTOM edge (--b = poster height in cqw minus the plinth's
+   y), not by a top offset computed from an estimated instrument height —
+   estimating left the planks floating detached above their plinth. The
+   poster is 3:2, so its height is exactly 66.667cqw.
+   This wrapper carries NO animation and no opacity: nothing a reduced-motion
+   rule could ever match. */
+:where(.hv10-piece) {
+  position: absolute;
+  left: calc(var(--x) * 1cqw);
+  bottom: calc(var(--b) * 1cqw);
+  width: calc(var(--w) * 1cqw);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+/* ── Plaques — one label system for the whole building ───────────────── */
+:where(.hv10-plaque) {
+  position: absolute;
+  left: calc(var(--x) * 1cqw);
+  top: calc(var(--y) * 1cqw);
+  width: calc(var(--w) * 1cqw);
+  padding: 0.42cqw 0.62cqw;
+  border-radius: 0.28cqw;
+  background: rgba(253, 251, 246, 0.92);
+  color: var(--g10-ink);
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-size: max(9px, 1.18cqw);
+  line-height: 1.28;
+  letter-spacing: 0.01em;
+  text-align: center;
+  box-shadow: 0 0.3cqw 0.7cqw rgba(6, 30, 26, 0.26);
+}
+
+/* ═══ THE FIGURES — CUT ══════════════════════════════════════════════════
+   Two flat silhouettes were meant to give the hall human scale. Built and
+   measured, they read as TOMBSTONES: a dark rounded-top slab standing on a
+   pale floor is a gravestone, not a visitor, and no amount of radius tuning
+   moved it far from that. The framed wall and the working plinths already
+   say "gallery" without them, so this is the one accessory removed before
+   leaving the house. Recorded rather than silently dropped. */
+
+/* ═══ THE TYPE LAYER ═════════════════════════════════════════════════════
+   Real DOM text, never inside a scaled subtree: LCP-eligible, selectable,
+   in the a11y tree, crisp at every width. */
+.hv10-type {
+  position: absolute;
+  left: calc(var(--x) * 1cqw);
+  top: calc(var(--y) * 1cqw);
+  width: calc(var(--w) * 1cqw);
+  text-align: center;
+  z-index: 4;
+}
+.hv10-h1 {
+  margin: 0;
+  font-family: var(--font-baloo-2), system-ui, sans-serif;
+  font-weight: 700;                 /* bold, not extrabold — 800 is too bubbly */
+  /* max(), not clamp(): a one-sided floor. No upper cap, so the composition
+     is identical from the crossover width all the way up. */
+  font-size: max(27px, 7.1cqw);
+  line-height: 1.04;
+  letter-spacing: -0.012em;
+  color: var(--g10-light);
+  text-wrap: balance;
+  text-shadow: 0 0.22cqw 1.1cqw rgba(4, 26, 22, 0.42);
+}
+/* The sub sits on the wall BELOW the poster, so it is sized in viewport
+   units, not poster units — it must be free to be as long as any of the
+   eleven languages needs without pushing anything through the floor. */
+.hv10-below {
+  width: 100%;
+  max-width: 780px;
+  margin: 0 auto;
+  padding: clamp(18px, 2.2vw, 32px) 16px clamp(26px, 3.4vw, 46px);
+  text-align: center;
+}
+.hv10-sub {
+  margin: 0 auto;
+  max-width: 60ch;
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-size: clamp(14px, 1.15vw, 18px);
+  line-height: 1.55;
+  color: rgba(253, 251, 246, 0.9);
+}
+
+/* ── CTAs ───────────────────────────────────────────────────────────────
+   These live on the wall BELOW the poster, not inside it. Inside, their
+   height could not scale with the picture: at 412px the sub ran to five
+   lines and pushed both buttons out through the floor, with the second one
+   clipped by the poster edge. Out here they are always real size, always
+   above the 44px tap floor, and the room still reads as one space because
+   the wall is continuous behind them. */
+.hv10-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  padding: clamp(16px, 1.8vw, 24px) 0 0;
+}
+:where(.hv10-cta) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 12px clamp(18px, 2vw, 30px);
+  border-radius: 999px;
+  font-family: var(--font-baloo-2), system-ui, sans-serif;
+  font-weight: 600;
+  font-size: clamp(15px, 1.15vw, 19px);
+  text-decoration: none;
+  transition: transform 160ms cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 160ms;
+}
+.hv10-cta.is-primary {
+  background: var(--g10-coral);
+  color: #2A1206;
+  box-shadow: 0 6px 18px rgba(4, 26, 22, 0.42);
+}
+.hv10-cta.is-ghost {
+  background: rgba(253, 251, 246, 0.10);
+  color: var(--g10-light);
+  box-shadow: inset 0 0 0 2px rgba(253, 251, 246, 0.52);
+}
+.hv10-cta:hover { transform: translateY(-2px); }
+
+/* ═══ INSTRUMENT RESIZING ════════════════════════════════════════════════
+   Scoped cqw overrides for the four hero instruments. These four were
+   chosen precisely because their keyframes carry NO pixel offsets —
+   rotations, scaleX and opacity only — so resizing them cannot desynchronise
+   their animation or their reduced-motion composed pose.
+   Everything not listed here is inherited from homepage-v6.css. */
+
+/* — clock — native 132px → 11cqw, so every length × 0.083333.
+     Rotations only; the tick's inline rotate is untouched, we only move
+     its transform-origin. — */
+.hv10-stage .hv6-clock {
+  width: 14cqw;
+  height: 14cqw;
+  margin: 0;
+  border-width: 0.636cqw;
+  box-shadow: inset 0 0 0 0.212cqw rgba(20, 107, 94, 0.08), 0 0.424cqw 1.061cqw rgba(20, 30, 28, 0.18);
+}
+.hv10-stage .hv6-clock-tick {
+  top: 0.424cqw;
+  width: 0.318cqw;
+  height: 0.955cqw;
+  margin-left: -0.159cqw;
+  border-radius: 0.212cqw;
+  transform-origin: 50% 5.939cqw;
+}
+.hv10-stage .hv6-clock-hand { border-radius: 0.318cqw; }
+.hv10-stage .hv6-clock-hand.is-hour { width: 0.636cqw; height: 3.182cqw; margin-left: -0.318cqw; }
+.hv10-stage .hv6-clock-hand.is-min { width: 0.424cqw; height: 4.667cqw; margin-left: -0.212cqw; }
+.hv10-stage .hv6-clock-dot { width: 1.273cqw; height: 1.273cqw; margin: -0.636cqw 0 0 -0.636cqw; }
+
+/* — rekenrek — native intrinsic 327px (10×27 + 9×5 + 2×6) → 13cqw,
+     so every length × 0.039755.
+
+     ⚠ THE PUSH BUG: the shipped rule is
+         --push: calc(-1 * clamp(0px, 100cqw - 333px, 92px))
+     which reads the rail's OWN container. At 13cqw the rail is ~178px, so
+     `178 - 333` is negative, the clamp floors at 0px, and THE BEADS WOULD
+     NOT MOVE AT ALL — a silent, animation-shaped no-op that no gate would
+     catch. Restated as a fraction of the rail's own width (92/327 = 28%),
+     which is proportionally identical at every size and keeps the travel
+     derived from its own container, exactly as the containment law
+     requires. — */
+/* ⚠ `.hv6-rek` DECLARES ITS OWN `container-type: inline-size` (homepage-v6.css
+   :637), so `cqw` on any DESCENDANT resolves against the rekenrek — not the
+   poster. Sizing the beads in poster-cqw rendered them at 1.7px instead of
+   10.5px: an instrument that was present, animating, and effectively
+   invisible. Nothing in the DOM census or the responsive gate could see it;
+   only looking at the render did.
+
+   So the rekenrek's OWN width is in poster units, and everything inside it is
+   a percentage of the rekenrek (native intrinsic 327px = 10×27 bead + 9×5 gap
+   + 2×6 padding). That also makes it self-scaling: change the one width and
+   the whole instrument follows. */
+/* The rekenrek's OWN box resolves against the stage (an element is a
+   container for its descendants, never for itself) — so these stay in
+   poster units. */
+/* ⚠ THE RAIL MUST BE WIDER THAN ITS BEADS, or the push has nowhere to go.
+   Sized so the ten beads exactly filled the rail, the row occupied 100% of
+   it — so when row 2 pushed its four beads left, they ran off the edge and
+   `overflow: clip` SLICED the leftmost bead in half. Row 1 pushes only three
+   and survived, which is why the defect showed on one rail and not the
+   other. The instrument is a counting frame: a bead cut in half is a wrong
+   answer, not a cosmetic flaw.
+   The beads now occupy 70% of the rail, leaving 27.3% of slack against a
+   24% push. Bead size in POSTER terms is unchanged — the rail grew from 16
+   to 22 units to hold the slack, and 6% of 22 is the same 1.32 units. */
+.hv10-stage .hv6-rek {
+  width: 21cqw;
+  gap: 1.283cqw;      /* 6.108% of the rail, in poster units */
+  padding: 0.493cqw 0.296cqw;
+  border-radius: 0.691cqw;
+}
+/* Everything BELOW this line is inside the rekenrek, so 1cqw = 1% of the
+   rekenrek's own width. Derived from the native geometry with bead = 6.343%:
+   every native length × (6.343 / 27). */
+.hv10-stage .hv6-rek-rail { height: 7.048cqw; gap: 1.175cqw; }
+.hv10-stage .hv6-rek-rail::before {
+  left: -1.409cqw;
+  right: -1.409cqw;
+  height: 1.175cqw;
+  margin-top: -0.587cqw;
+  border-radius: 0.705cqw;
+}
+.hv10-stage .hv6-rek-bead { width: 6.343cqw; height: 6.343cqw; }
+/* Travel as a fraction of the rail's OWN width — proportionally identical at
+   every size, still derived from its own container as the containment law
+   requires, and strictly inside the slack: beads occupy 74% of the 97.2%
+   available, leaving 23.2% against a 21% push. The margin is deliberate and
+   small — it closes the empty track without letting a bead touch the clip. */
+.hv10-stage .hv6-rek-bead.is-push { --push: -21cqw; }
+
+/* — planks — native 170px → 12cqw, so every length × 0.070588.
+     scaleX + rotateY only. The chevron is ::before/::after on a single
+     span (there are no child elements), so the bars are overridden there. — */
+.hv10-stage .hv9-planks { width: 15cqw; gap: 1.235cqw; }
+.hv10-stage .hv9-plank { height: 1.235cqw; border-radius: 0.618cqw; }
+.hv10-stage .hv9-plank-mark {
+  width: 1.941cqw;
+  height: 1.941cqw;
+  margin: 0.176cqw 0 0 0.529cqw;
+}
+.hv10-stage .hv9-plank-mark::before,
+.hv10-stage .hv9-plank-mark::after {
+  left: 0.353cqw;
+  width: 1.235cqw;
+  height: 0.353cqw;
+  border-radius: 0.176cqw;
+}
+.hv10-stage .hv9-plank-mark::before { top: 0.441cqw; }
+.hv10-stage .hv9-plank-mark::after { bottom: 0.441cqw; }
+
+/* — lids — native 150×110 → 11cqw wide, so every length × 0.073333.
+     rotateX + opacity only. `perspective` must scale with the box or the
+     3D flip reads wrong at small sizes; transform-origin is a percentage
+     and needs no override. — */
+.hv10-stage .hv9-lids { width: 14cqw; height: 10.267cqw; perspective: 65.333cqw; }
+.hv10-stage .hv9-lids-table { bottom: 1.68cqw; height: 0.747cqw; border-radius: 0.373cqw; }
+.hv10-stage .hv9-lid-counter { bottom: 2.613cqw; width: 1.493cqw; height: 1.493cqw; }
+.hv10-stage .hv9-lid-counter.is-c1 { left: 3.547cqw; }
+.hv10-stage .hv9-lid-counter.is-c2 { left: 5.787cqw; }
+.hv10-stage .hv9-lid-counter.is-c3 { left: 8.027cqw; }
+.hv10-stage .hv9-lid {
+  left: 2.427cqw;
+  bottom: 2.24cqw;
+  width: 8.587cqw;
+  height: 5.6cqw;
+  border-radius: 50% 50% 0.747cqw 0.747cqw / 60% 60% 0.747cqw 0.747cqw;
+  box-shadow: inset 0 0.187cqw 0 rgba(255, 255, 255, 0.35), 0 0.28cqw 0.747cqw rgba(20, 50, 45, 0.2);
+}
+.hv10-stage .hv9-lid::after {
+  top: 0.747cqw;
+  width: 1.307cqw;
+  height: 0.747cqw;
+  margin-left: -0.653cqw;
+  border-radius: 0.373cqw;
+}
+
+/* ═══ REDUCED MOTION ═════════════════════════════════════════════════════
+   The reused instruments already carry composed poses in homepage-v6.css
+   (:1805-1842) and those poses are correct at any size because they are
+   rotation/scale-only. v10 adds no keyframes of its own, so there is
+   nothing further to freeze — but the hover lift is disabled. */
+@media (prefers-reduced-motion: reduce) {
+  .hv10-cta { transition: none; }
+  .hv10-cta:hover { transform: none; }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   THE ROOMS
+
+   Beyond the hall the building continues. Each room is a full-bleed band
+   wearing the same fabric — cornice above, panelled dado and floor below —
+   so scrolling reads as walking from room to room rather than down a stack
+   of sections. Wall colour alternates the way a real gallery's rooms do.
+
+   Rooms do NOT need the poster's fixed-aspect treatment: only the hero must
+   be device-identical. So these are sized in rem/vw and are free to reflow,
+   which keeps long German and Finnish strings out of trouble.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.hv10-room {
+  --room-wall: #23604E;
+  --room-wall-lit: #2C7360;
+  --room-wall-deep: #1A4C3E;
+  --room-floor-h: clamp(84px, 11vw, 168px);
+  --room-dado-h: clamp(30px, 3.6vw, 54px);
+  position: relative;
+  overflow-x: clip;
+  padding: clamp(56px, 6vw, 104px) 0 calc(var(--room-floor-h) + var(--room-dado-h));
+  background:
+    radial-gradient(120% 60% at 38% 0%, rgba(255, 246, 214, 0.16) 0%, rgba(255, 246, 214, 0) 60%),
+    linear-gradient(180deg, var(--room-wall-lit) 0%, var(--room-wall) 34%, var(--room-wall-deep) 100%);
+  color: var(--g10-light);
+}
+/* A lighter room: cream walls take dark type, so the whole scheme inverts. */
+.hv10-room.is-light {
+  --room-wall: #F0E5CE;
+  --room-wall-lit: #FAF3E3;
+  --room-wall-deep: #E0D2B6;
+  color: var(--g10-ink);
+}
+
+.hv10-room-cornice {
+  position: absolute;
+  left: -50vw;
+  right: -50vw;
+  top: 0;
+  height: clamp(16px, 1.9vw, 30px);
+  pointer-events: none;
+  background: linear-gradient(
+    180deg,
+    var(--g10-trim-deep) 0%, var(--g10-trim) 14%,
+    var(--g10-trim) 38%,
+    var(--g10-trim-shade) 38%, var(--g10-trim-shade) 48%,
+    #FFFDF8 48%, #FFFDF8 66%,
+    var(--g10-trim) 66%, var(--g10-trim) 80%,
+    rgba(10, 42, 34, 0.3) 80%, rgba(10, 42, 34, 0) 100%
+  );
+}
+.hv10-room-dado {
+  position: absolute;
+  left: -50vw;
+  right: -50vw;
+  bottom: var(--room-floor-h);
+  height: var(--room-dado-h);
+  pointer-events: none;
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent 0 15vw,
+      rgba(120, 100, 68, 0.26) 15vw calc(15vw + 2px),
+      rgba(255, 250, 236, 0.28) calc(15vw + 2px) calc(15vw + 4px),
+      transparent calc(15vw + 4px) 30vw
+    ),
+    linear-gradient(
+      180deg,
+      rgba(8, 40, 32, 0.24) 0%, rgba(8, 40, 32, 0.05) 6%,
+      #E4D7BC 6%, #E4D7BC 18%,
+      #CBBB9B 18%, #CBBB9B 24%,
+      #F0E6D0 24%, #DCCFB2 34%,
+      #D5C7A8 34%, #C6B694 90%, #AD9C79 100%
+    );
+}
+/* Same oak, same vanishing point, same construction as the hall's floor. */
+.hv10-room-floor {
+  position: absolute;
+  left: -50vw;
+  right: -50vw;
+  bottom: 0;
+  height: var(--room-floor-h);
+  pointer-events: none;
+  background:
+    repeating-conic-gradient(at 50% 0%, rgba(94, 62, 26, 0.32) 0deg 0.16deg, transparent 0.16deg 2.9deg),
+    radial-gradient(70% 90% at 42% 0%, rgba(255, 244, 214, 0.42) 0%, rgba(255, 244, 214, 0) 70%),
+    linear-gradient(180deg, var(--g10-floor-lit) 0%, var(--g10-floor) 42%, var(--g10-floor-deep) 100%);
+}
+.hv10-room-floor::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 26%;
+  background: linear-gradient(180deg, rgba(40, 22, 6, 0.32) 0%, rgba(40, 22, 6, 0) 100%);
+}
+
+.hv10-room-inner {
+  position: relative;
+  z-index: 2;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 clamp(16px, 3vw, 32px);
+}
+
+/* ── Room type ───────────────────────────────────────────────────────────
+   A wall label, then the room's own title. The label is the plaque system
+   from the hall, reused rather than reinvented. */
+.hv10-room-label {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 3px;
+  background: rgba(253, 251, 246, 0.92);
+  color: #3A2B14;
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-size: clamp(11px, 0.85vw, 13px);
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+.hv10-room.is-light .hv10-room-label {
+  background: #3E5B4F;
+  color: #FBF3E4;
+}
+.hv10-room-h2 {
+  margin: 16px 0 0;
+  font-family: var(--font-baloo-2), system-ui, sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.6rem, 3.4vw, 2.9rem);
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+.hv10-room-body {
+  margin: 12px 0 0;
+  max-width: 56ch;
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-size: clamp(14px, 1.15vw, 17px);
+  line-height: 1.6;
+  color: rgba(253, 251, 246, 0.86);
+}
+.hv10-room.is-light .hv10-room-body { color: #46504A; }
+
+/* ── Works hung in a room ────────────────────────────────────────────────
+   Same walnut-and-mat frame system as the hall, in a reflowing grid. */
+.hv10-hang {
+  display: grid;
+  gap: clamp(14px, 1.8vw, 26px);
+  grid-template-columns: repeat(auto-fit, minmax(clamp(112px, 14vw, 168px), 1fr));
+  margin-top: clamp(26px, 3vw, 44px);
+}
+.hv10-work {
+  position: relative;
+  display: block;
+  aspect-ratio: 3 / 4;
+  padding: clamp(5px, 0.6vw, 9px);
+  border-radius: 2px;
+  background: linear-gradient(150deg, var(--g10-frame-wood-lit) 0%, var(--g10-frame-wood) 54%, #4E3721 100%);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 240, 214, 0.26),
+    0 14px 26px rgba(18, 9, 2, 0.36),
+    0 3px 7px rgba(18, 9, 2, 0.28);
+  rotate: var(--tilt, 0deg);
+  transition: transform 200ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.hv10-work:hover { transform: translateY(-5px); }
+.hv10-work img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  background: var(--g10-cream);
+  box-shadow: 0 0 0 3px #F7F1E4, 0 0 0 4px rgba(80, 55, 30, 0.34);
+}
+
+/* ── Objects standing on the room's floor ────────────────────────────────
+   A pedestal wide enough for a real apparatus render, with the same modelled
+   top slab as the hall's plinths. */
+.hv10-stand {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.hv10-stand-art {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 250px;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  object-position: bottom center;
+  filter: drop-shadow(0 10px 16px rgba(18, 9, 2, 0.34));
+}
+.hv10-stand-plaque {
+  margin-top: 12px;
+  padding: 6px 12px;
+  border-radius: 3px;
+  background: rgba(253, 251, 246, 0.94);
+  color: #3A2B14;
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-size: clamp(11px, 0.9vw, 13.5px);
+  font-weight: 700;
+  line-height: 1.35;
+  box-shadow: 0 3px 8px rgba(18, 9, 2, 0.26);
+}
+.hv10-stand-note {
+  display: block;
+  font-weight: 400;
+  color: #6A5A3C;
+}
+
+.hv10-room-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: clamp(26px, 3vw, 40px);
+}
+
+/* Pedestals want more room than framed works — the apparatus renders are
+   landscape 4:3, not portrait. */
+.hv10-hang--stands {
+  grid-template-columns: repeat(auto-fit, minmax(clamp(150px, 20vw, 236px), 1fr));
+  align-items: end;
+}
+/* The pedestal each instrument stands on: same modelled slab as the hall. */
+.hv10-stand::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 46px;
+  width: min(100%, 250px);
+  height: 12px;
+  transform: translateX(-50%);
+  border-radius: 3px;
+  background: linear-gradient(180deg, #FFFFFF 0%, var(--g10-stone-top) 44%, var(--g10-stone-edge) 62%, #BCAE94 100%);
+  box-shadow: 0 7px 16px rgba(40, 22, 6, 0.3);
+}
+
+/* ── The Studio ──────────────────────────────────────────────────────────
+   A workbench with its two finished outputs beside it. */
+.hv10-studio {
+  display: grid;
+  gap: clamp(16px, 2.2vw, 30px);
+  grid-template-columns: 1fr;
+  margin-top: clamp(26px, 3vw, 44px);
+}
+@media (min-width: 900px) {
+  .hv10-studio { grid-template-columns: 1.55fr 1fr; align-items: start; }
+}
+.hv10-bench,
+.hv10-output {
+  margin: 0;
+  border-radius: 6px;
+  background: #FFFFFF;
+  padding: clamp(6px, 0.7vw, 10px);
+  box-shadow: 0 16px 30px rgba(40, 22, 6, 0.2), 0 3px 8px rgba(40, 22, 6, 0.14);
+}
+.hv10-bench img,
+.hv10-output img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 3px;
+}
+.hv10-outputs { display: grid; gap: clamp(12px, 1.6vw, 22px); }
+.hv10-output figcaption {
+  padding: 8px 4px 2px;
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-size: clamp(12px, 0.95vw, 14px);
+  font-weight: 700;
+  color: #46504A;
+  text-align: center;
+}
+
+/* ── The Members' Room ───────────────────────────────────────────────────
+   Price and quota surfaces never animate. */
+.hv10-plans {
+  display: grid;
+  gap: clamp(14px, 2vw, 26px);
+  grid-template-columns: 1fr;
+  margin-top: clamp(26px, 3vw, 44px);
+  max-width: 880px;
+}
+@media (min-width: 760px) { .hv10-plans { grid-template-columns: 1fr 1fr; } }
+.hv10-plan {
+  padding: clamp(20px, 2.4vw, 32px);
+  border-radius: 10px;
+  background: rgba(253, 251, 246, 0.95);
+  color: var(--g10-ink);
+  box-shadow: 0 16px 30px rgba(6, 30, 26, 0.26);
+}
+.hv10-plan.is-teacher {
+  background: #FFFFFF;
+  box-shadow: 0 20px 40px rgba(6, 30, 26, 0.34), inset 0 5px 0 var(--g10-coral);
+}
+.hv10-plan h3 {
+  margin: 0;
+  font-family: var(--font-baloo-2), system-ui, sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.1rem, 1.6vw, 1.4rem);
+}
+.hv10-plan-price {
+  margin: 6px 0 14px;
+  font-family: var(--font-baloo-2), system-ui, sans-serif;
+  font-weight: 700;
+  font-size: clamp(1.5rem, 2.6vw, 2.2rem);
+  color: #14322D;
+}
+.hv10-plan-price span {
+  font-size: 0.44em;
+  font-weight: 600;
+  color: #5D6B64;
+}
+.hv10-plan ul {
+  margin: 0 0 20px;
+  padding: 0;
+  list-style: none;
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-size: clamp(13.5px, 1.05vw, 15.5px);
+  line-height: 1.5;
+  color: #3D574F;
+}
+.hv10-plan li { position: relative; padding: 5px 0 5px 22px; }
+.hv10-plan li::before {
+  content: '';
+  position: absolute;
+  left: 2px;
+  top: 12px;
+  width: 9px;
+  height: 5px;
+  border-left: 2.5px solid var(--g10-coral);
+  border-bottom: 2.5px solid var(--g10-coral);
+  transform: rotate(-45deg);
+}
+.hv10-plan .hv10-cta.is-ghost {
+  color: #14322D;
+  box-shadow: inset 0 0 0 2px rgba(20, 50, 45, 0.36);
+  background: transparent;
+}
+
+/* ── The Exit ────────────────────────────────────────────────────────────── */
+.hv10-exit { max-width: 720px; }
+.hv10-exit .hv10-room-h2 { font-size: clamp(1.8rem, 4vw, 3.2rem); }
+
+/* The catalogue at the back of the building: the crawl-bait link mesh, on
+   the same cream stone as the lighter rooms. */
+.hv10-catalogue {
+  position: relative;
+  background: linear-gradient(180deg, #F6EFDD 0%, #EDE3CB 100%);
+  color: var(--g10-ink);
+  padding-top: clamp(30px, 3.6vw, 52px);
+}
+.hv10-catalogue .hv10-room-cornice { top: 0; }
+
+/* A room with no floor showing must not still RESERVE floor height, or the
+   dado floats with an empty band of wall beneath it. */
+.hv10-room.no-floor { --room-floor-h: 0px; }
+.hv10-room.no-floor .hv10-room-dado { bottom: 0; }

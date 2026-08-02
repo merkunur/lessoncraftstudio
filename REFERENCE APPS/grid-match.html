@@ -4268,7 +4268,14 @@
         function renderStandaloneHTML(bundle) {
             var css = INTERACTIVE_CSS_LINES.join('\n');
             var runtime = INTERACTIVE_RUNTIME_LINES.join('\n');
-            var bundleJSON = JSON.stringify(bundle);
+            /* The backdrop is ALREADY in this document as <img id="lcs-worksheet-img">.
+           Serialising it into DECK_BUNDLE as well duplicated it byte-for-byte —
+           MEASURED at 232,815 of 550,932 chars, 42% of every deck.html — purely so
+           the celebration modal could show a mini-thumb. Base64 is ~93% of a deck,
+           so gzip recovers none of it. Emit the field blank and rehydrate it from
+           the DOM immediately after the literal (see the emission below): every
+           reader of DECK_BUNDLE.worksheetImage keeps working unchanged. */
+        var bundleJSON = JSON.stringify(bundle, function (k, v) { return k === 'worksheetImage' ? '' : v; });
             var lang = (bundle.contentLanguage || 'en').slice(0, 2);
             var title = bundle.title || 'Grid Match';
             var seo = bundle.seoMeta || {};
@@ -4360,7 +4367,7 @@
             }
             parts.push('<div class="lcs-celebration" id="lcs-celebration" role="dialog" aria-modal="true" aria-label="You did it!"></div>');
             parts.push('<div class="lcs-sr" id="lcs-live" role="status" aria-live="polite"></div>');
-            parts.push('<script>var DECK_BUNDLE = ' + bundleJSON + ';<\/script>');
+            parts.push('<script>var DECK_BUNDLE = ' + bundleJSON + ';/*lcsRehydrateBackdrop*/try{var _lcsWi=document.getElementById("lcs-worksheet-img");if(_lcsWi&&_lcsWi.src)DECK_BUNDLE.worksheetImage=_lcsWi.src;}catch(e){}<\/script>');
             parts.push('<script>' + runtime + '<\/script>');
             parts.push((window.LCSCatalogExport && LCSCatalogExport.buildResponsiveFitSnippet) ? LCSCatalogExport.buildResponsiveFitSnippet() : '');
             parts.push('</body>');

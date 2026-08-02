@@ -261,13 +261,26 @@
   background: #fff;
   padding: 6px;
   border-radius: 10px;
-  box-shadow: var(--e2);
+  /* museum glazing: hairline frame ring + picture-light glint on the top
+     edge (the down-shadows already imply the overhead source). */
+  box-shadow:
+    0 0 0 1px rgba(20, 50, 45, 0.09),
+    inset 0 1px 0 rgba(255, 252, 244, 0.7),
+    var(--e2);
 }
 /* Zero-specificity default display so Tailwind utilities (hidden,
    xl:block) can win the tie — the .hv7-chalkpanel position trap, learned
    thrice. */
 :where(.hv7-sheet) { display: block; }
-.hv7-sheet img { display: block; width: 100%; height: auto; border-radius: 6px; }
+.hv7-sheet img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  /* the mat-window cut line */
+  outline: 1px solid rgba(20, 50, 45, 0.08);
+  outline-offset: -1px;
+}
 
 /* Tilts apply only ≥640px — full-width phone cards NEVER tilt. */
 .hv7-tilt-a, .hv7-tilt-b, .hv7-tilt-c, .hv7-tilt-d { --tilt: 0deg; }
@@ -1140,6 +1153,7 @@
   place-items: center;
   overflow: clip;
   background:
+    radial-gradient(70% 65% at 50% 8%, rgba(255, 252, 244, 0.9) 0%, rgba(255, 255, 255, 0) 62%),
     radial-gradient(120% 100% at 50% 0%, rgba(220, 227, 211, 0.35) 0%, transparent 70%),
     #FDFBF6;
   border-bottom: 1px solid rgba(20, 50, 45, 0.06);
@@ -1670,6 +1684,118 @@
   box-shadow: var(--e1);
 }
 
+/* ===================================================================
+   THE GALLERY LAYER (v9.2 "The Quiet Vernissage") - finish, not
+   furniture: glazing on the mats, one washed wall, lean-in labels, one
+   signed machine. Everything static or hover-opacity; zero keyframes;
+   zero new i18n (labels carry existing localized titles only).
+   Refused forever: rails, plinths, red dots, gold frames, room labels,
+   tombstone lines, darkened rooms, serif label type.
+   =================================================================== */
+
+/* positioning default at zero specificity (the :where() law) */
+:where(.hv7-sheet) { position: relative; }
+
+/* glass sheen - catches light when the visitor leans in */
+.hv7-sheet::after {
+  content: '';
+  position: absolute;
+  inset: 6px;
+  border-radius: 6px;
+  pointer-events: none;
+  opacity: 0;
+  background: linear-gradient(115deg,
+    rgba(255, 255, 255, 0) 40%,
+    rgba(255, 255, 255, 0.3) 50%,
+    rgba(255, 255, 255, 0) 60%);
+  transition: opacity 0.3s ease;
+}
+@media (hover: hover) { .hv7-sheet:hover::after { opacity: 1; } }
+
+/* lean-in label: a level slip inside the mat, bottom-left, revealed on
+   approach - the counter-rotation against the work's tilt is the joke */
+.hvg-label {
+  position: absolute;
+  left: 12px;
+  bottom: 10px;
+  z-index: 2;
+  max-width: calc(100% - 24px);
+  pointer-events: none;
+  background: #fff;
+  border: 1px solid rgba(20, 50, 45, 0.1);
+  border-radius: 4px;
+  box-shadow: var(--e1);
+  padding: 6px 10px 7px;
+  text-align: left;
+  opacity: 0;
+  transform: rotate(calc(-1 * var(--tilt, 0deg))) translateY(4px);
+  transition: opacity 0.12s ease, transform 0.12s ease;
+}
+@media (hover: hover) {
+  .hv7-sheet:hover .hvg-label,
+  .hv7-sheet:focus-visible .hvg-label {
+    opacity: 1;
+    transform: rotate(calc(-1 * var(--tilt, 0deg))) translateY(0);
+  }
+}
+:where(.hvg-label) { display: none; }
+@media (min-width: 640px) { :where(.hvg-label) { display: block; } }
+.hvg-label-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 0.75rem;
+  line-height: 1.35;
+  color: var(--hv6-ink);
+}
+.hvg-label-line {
+  display: block;
+  margin-top: 2px;
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-weight: 800;
+  font-size: 0.625rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(20, 107, 94, 0.85);
+}
+
+/* the one static placard: the signature machine, signed (close band) */
+.hvg-placard {
+  pointer-events: none;
+  background: #fff;
+  border: 1px solid rgba(20, 50, 45, 0.1);
+  border-radius: 4px;
+  box-shadow: var(--e1);
+  padding: 6px 12px 7px;
+  margin: -14px auto 26px;
+  width: fit-content;
+  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 0.75rem;
+  color: var(--hv6-ink);
+}
+
+/* one washed wall - light placed on the hang, out-of-frame fixtures */
+.hvg-wash { position: relative; }
+.hvg-wash::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -70px;
+  height: 380px;
+  z-index: -1;
+  pointer-events: none;
+  background: radial-gradient(1200px 360px at 50% 0,
+    rgba(255, 250, 238, 0.85) 0%,
+    rgba(255, 250, 238, 0) 68%);
+}
+
 /* ═══ FOCUS + REDUCED MOTION ═══ */
 .hv6 :where(a, button, input, [role='menuitem']):focus-visible {
   outline: none;
@@ -1707,6 +1833,7 @@
   .hv9-twist { animation: none; transform: rotateY(0deg); }
   .hv9-arrow-draw { animation: none; clip-path: none; }
   .hv9-qrtag { animation: none; transform: rotate(-8deg); }
+  .hv7-sheet::after, .hvg-label { transition-duration: 0s; }
   .hv6-card:hover, .hv6-tool-card:hover, .hv7-lift:hover { transform: rotate(var(--tilt, 0deg)); }
   .hv6-cta:hover, .hv6-cta:active { transform: none; }
   .hv6 [class*='hover:-translate']:hover,

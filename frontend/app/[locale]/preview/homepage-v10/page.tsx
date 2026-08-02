@@ -187,8 +187,8 @@ export default async function HomepageV10Preview({ params }: { params: { locale:
     <div className="hv10-page">
       <GrandHall locale={locale} decks={decks.slice(0, 6)} strings={hero} />
       <InstrumentHall locale={locale} strings={rooms} instruments={instruments} live={live} />
-      <Playroom locale={locale} strings={rooms} activities={alcoves} />
       <PrintRoom locale={locale} decks={decks.slice(6)} strings={rooms} />
+      <Playroom locale={locale} strings={rooms} activities={alcoves} />
       <Studio locale={locale} strings={rooms} />
       <Dispatch locale={locale} strings={rooms} deck={decks[3]} />
       <MembersRoom locale={locale} strings={rooms} />

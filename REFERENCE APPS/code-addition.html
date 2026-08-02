@@ -5606,9 +5606,16 @@ async function downloadPDF(canvasInstance, baseFileName, opts) {
         
         downloadInteractiveHtmlBtn.addEventListener("click", () => {
             downloadInteractiveHtml(worksheetCanvas, 'code-addition_interactive.html', { loadingMode: 'inline' });
-        window.__lcsWorksheetHost = { getHtml: function () { return downloadInteractiveHtml(worksheetCanvas, '', { returnString: true }); } }; // save-flow bridge (2026-07-12)
             downloadDropdownContent.style.display = 'none';
         });
+        // ⚠ REGISTERED AT LOAD, NOT INSIDE THE CLICK HANDLER. The 2026-07-12 bridge
+        // was pasted INSIDE the addEventListener callback above, so
+        // window.__lcsWorksheetHost only came into existence AFTER the user had
+        // already clicked this app's own download button. worksheet-host.js found no
+        // getHtml and reported 'Saving failed — please try again.' with no detail.
+        // code-addition was the only app with the bridge inside a callback
+        // (brace-matched across all 29). Fixed 2026-08-03.
+        window.__lcsWorksheetHost = { getHtml: function () { return downloadInteractiveHtml(worksheetCanvas, '', { returnString: true }); } }; // save-flow bridge (2026-07-12)
         downloadPdfBtn.addEventListener("click", () => {
             downloadPDF(worksheetCanvas, 'worksheet');
             downloadDropdownContent.style.display = 'none';

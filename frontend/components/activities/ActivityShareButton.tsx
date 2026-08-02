@@ -14,7 +14,12 @@ import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { useAuth } from '@/contexts/auth-context';
 import { isLcsSubscriptionActive } from '@/lib/subscription-helpers';
-import ActivityShareModal, { type ActivityShare } from './ActivityShareModal';
+import dynamic from 'next/dynamic';
+import { type ActivityShare } from './ActivityShareModal';
+/* The modal + its QR rendering shipped in the activity page's client bundle for
+   a button most visitors never press. Loaded on demand instead. ssr:false is
+   correct here — it can only ever appear after a click. */
+const ActivityShareModal = dynamic(() => import('./ActivityShareModal'), { ssr: false });
 
 export default function ActivityShareButton({
   activityId,

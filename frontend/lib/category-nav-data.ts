@@ -85,6 +85,16 @@ export const MANIPULATIVES_ANCHOR_KEYS = [
   'class-timer',
 ] as const;
 
+/**
+ * How many activity links the nav dropdown renders.
+ *
+ * ⚠ Exported so `app/[locale]/layout.tsx` can trim BEFORE serialising. It used to
+ * pass all 194 locale-visible activities and this slice threw 184 of them away —
+ * but the full array had already been written into the RSC flight data of EVERY
+ * page on the site (~21KB). Keep the two in step: this constant is the contract.
+ */
+export const ACTIVITIES_NAV_COUNT = 10;
+
 /** How many tools the visible Tools popover shows (see CategoryDropdown.visibleCount). */
 export const MANIPULATIVES_VISIBLE_COUNT = MANIPULATIVES_ANCHOR_KEYS.length;
 
@@ -273,7 +283,7 @@ export function buildCategories({
   // Surface a broader sitewide set of activity links (was 6) — the full
   // crawlable index lives on /[locale]/activities, but a wider dropdown gives
   // more activities a persistent, every-page internal link.
-  const activitiesItems: DropdownItem[] = availableActivities.slice(0, 10).map(a => ({
+  const activitiesItems: DropdownItem[] = availableActivities.slice(0, ACTIVITIES_NAV_COUNT).map(a => ({
     href: `/${locale}/activities/${a.slug}/`,
     label: a.title,
   }));

@@ -836,6 +836,14 @@ h1{font-family:'Fraunces',serif;font-weight:700;font-size:1.875rem;line-height:1
 .play-card h2{font-family:'Fraunces',serif;font-weight:700;font-size:1.125rem;color:var(--teal);display:flex;align-items:center;gap:.5rem;margin:0 .25rem .75rem}
 .play-card h2 .dot{width:.625rem;height:.625rem;border-radius:9999px;background:#2FA56A}
 .play-card iframe{width:100%;border-radius:1rem;border:1px solid var(--cream-300);background:#FBF6EE;aspect-ratio:800/1000;min-height:480px;display:block}
+/* Click-to-play poster. Measured: the landing document is 28KB and already shows
+   this exact thumbnail in the hero, yet it auto-loaded the entire deck.html
+   (300-760KB) underneath — +560KB and +318ms of blocking per visit, across ~30,000
+   pages. The poster occupies the IDENTICAL box to the iframe (same aspect-ratio,
+   min-height, radius, border) so swapping it in shifts nothing. */
+.play-poster{width:100%;border-radius:1rem;border:1px solid var(--cream-300);background:#FBF6EE;aspect-ratio:800/1000;min-height:480px;display:block;position:relative;padding:0;cursor:pointer;overflow:hidden}
+.play-poster img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain}
+.play-poster:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
 .embed-section{margin-bottom:3rem;max-width:48rem}
 .embed-panel{margin-top:.75rem}
 .embed-panel textarea{width:100%;font-size:.75rem;font-family:ui-monospace,monospace;background:#FBF6EE;border:1px solid var(--cream-300);border-radius:.75rem;padding:.75rem;color:var(--ink-700);resize:vertical;line-height:1.6}
@@ -1246,7 +1254,7 @@ ${problemsHtml}
     <section class="play-section">
       <div class="play-card">
         <h2><span class="dot"></span>${esc(ui.tryInteractive)}</h2>
-        <iframe src="${esc(a.deckDir)}" title="${esc(ui.playAria(l.h1))}" loading="lazy"></iframe>
+        <button type="button" class="play-poster" data-deck="${esc(a.deckDir)}" data-title="${esc(ui.playAria(l.h1))}" aria-label="${esc(ui.playAria(l.h1))}"><img src="${esc(wwwImg(a.thumbnail))}" alt="${esc(ui.previewAlt(l.h1))}" loading="lazy"/><span class="playbtn" aria-hidden="true">${playSvg}</span></button>
       </div>
     </section>
 
@@ -1281,6 +1289,15 @@ ${makerHtml}
       c=document.getElementById('lcs-embed-copy'),x=document.getElementById('lcs-embed-code');
   if(t&&p){t.addEventListener('click',function(){var open=p.hasAttribute('hidden');if(open){p.removeAttribute('hidden');}else{p.setAttribute('hidden','');}t.setAttribute('aria-expanded',open?'true':'false');});}
   if(x){x.addEventListener('focus',function(){x.select();});}
+  /* Load the deck only when asked. Keyboard reaches it because it is a real
+     <button>; the swapped-in iframe keeps the identical box so nothing moves. */
+  var pp=document.querySelector('.play-poster');
+  if(pp){pp.addEventListener('click',function(){
+    var f=document.createElement('iframe');
+    f.src=pp.getAttribute('data-deck');f.title=pp.getAttribute('data-title');
+    f.setAttribute('allow','fullscreen');
+    pp.parentNode.replaceChild(f,pp);f.focus();
+  });}
   if(c&&x){c.addEventListener('click',function(){
     var done=function(){c.textContent=c.getAttribute('data-copied');setTimeout(function(){c.textContent=c.getAttribute('data-copy');},2000);};
     if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(x.value).then(done,function(){x.select();});}

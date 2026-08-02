@@ -55,10 +55,14 @@ import '@/components/homepage-v10/homepage-v10.css';
 
 // Direction A typography pairing per CLAUDE.md §A.13.47 (locked).
 // Baloo 2 + Nunito; latin-ext covers all 11 site locales.
-// Measured, not guessed: only Baloo 600/700 and Nunito 400/600/700 render any
-// text on this page, so the other four files were dead weight. Homepage-scoped
-// — Fraunces/Inter/Poppins live in the root layout and are used by the shared
-// nav and footer, so they are untouched.
+// Only Baloo 600/700 and Nunito 400/600/700 render any text here, so the
+// weight lists are trimmed to those.
+// ⚠ MEASURED AFTERWARDS: this saves NOTHING. Both families are VARIABLE fonts,
+// so next/font ships one file per subset covering the whole weight range —
+// production went 11 files/280KB before to 11 files/280KB after. I believed a
+// dev-server reading of "4 files" and was wrong. Kept because it is accurate
+// and harmless, but it is not a performance win; the real one was Poppins
+// (see app/layout.tsx).
 const baloo2 = Baloo_2({
   weight: ['600', '700'],
   subsets: ['latin', 'latin-ext'],

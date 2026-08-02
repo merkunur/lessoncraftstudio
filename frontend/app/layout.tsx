@@ -17,12 +17,17 @@ const inter = Inter({
   preload: true,
 });
 
+// preload:false — MEASURED: Poppins renders no text on the homepage (nor
+// anywhere else; nothing uses `font-poppins`), yet preload:true forced its
+// files down on every page load. Dropping the hint means the browser fetches
+// it only if something actually uses it. Cannot break rendering — it changes
+// a fetch hint, not a font stack.
 const poppins = Poppins({
   weight: ['400', '500', '600', '700'],
   subsets: ['latin'],
   variable: '--font-poppins',
   display: 'swap',
-  preload: true,
+  preload: false,
 });
 
 // Fraunces — editorial-scholarly serif display face for the homepage rebuild.

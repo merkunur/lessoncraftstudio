@@ -54,7 +54,17 @@ export default async function LocaleLayout({
      ⚠ If a CLIENT component ever needs one of these, delete it from this list
      or it will throw MISSING_MESSAGE at runtime. `topicPage` is deliberately
      NOT here — client components do use it. */
-  const SERVER_ONLY_NAMESPACES = ['topicProse', 'topicFaq', 'topicMeta'];
+  const SERVER_ONLY_NAMESPACES = [
+    // The original three: 209KB of topic prose/FAQ/meta.
+    'topicProse', 'topicFaq', 'topicMeta',
+    // A second measured pass (scripts-side audit: 37 client files, 16 namespaces
+    // actually requested, ZERO dynamic useTranslations calls). These ten are
+    // page-scoped content read only by SERVER components via getTranslations —
+    // another 44KB off every route. Sub-2KB namespaces were deliberately LEFT
+    // IN: the risk per byte is not worth it.
+    'homepageV4', 'faq', 'homepageV6', 'privacy', 'about',
+    'license', 'terms', 'billing', 'aboutPage', 'worksheetsPage',
+  ];
   const clientMessages = Object.fromEntries(
     Object.entries(messages as Record<string, unknown>).filter(
       ([ns]) => !SERVER_ONLY_NAMESPACES.includes(ns),

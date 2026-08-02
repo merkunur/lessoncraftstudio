@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import ToolVignette from '@/components/homepage-v6/ToolVignette';
+import WeighBench from '@/components/homepage-v10/WeighBench';
+import OpenNumberLine from '@/components/homepage-v10/OpenNumberLine';
 import type { ShowcaseDeck } from '@/lib/showcase-decks';
 
 /* ───────────────────────────────────────────────────────────────────────────
@@ -66,11 +68,16 @@ const FRAMES = [
    the whole lower band went heavy. */
 const PLINTH_Y = 53;
 const PLINTH_H = 9;
+/* planks and lids were replaced here: at ~110px the planks read as two
+   coloured bars and a chevron, and the lids as an orange blob — neither says
+   "teaching instrument" to anyone who has not met the tool. The clock and the
+   rekenrek work because they are recognisable objects, so the two
+   replacements are chosen the same way: a balance and a weighing scale. */
 const PLINTHS = [
   { id: 'clock', x: 4, w: 15, pieceW: 14 },
   { id: 'rekenrek', x: 21, w: 22, pieceW: 21 },
-  { id: 'planks', x: 60, w: 16, pieceW: 15 },
-  { id: 'lids', x: 81, w: 15, pieceW: 14 },
+  { id: 'onl', x: 59, w: 16, pieceW: 15 },
+  { id: 'weigh', x: 80, w: 16, pieceW: 15 },
 ] as const;
 
 type Props = {
@@ -165,7 +172,13 @@ export default function GrandHall({ locale, decks, strings }: Props) {
                   } as React.CSSProperties
                 }
               >
-                <ToolVignette variant={p.id} />
+                {p.id === 'weigh' ? (
+                  <WeighBench />
+                ) : p.id === 'onl' ? (
+                  <OpenNumberLine />
+                ) : (
+                  <ToolVignette variant={p.id} />
+                )}
               </div>
             </div>
           );

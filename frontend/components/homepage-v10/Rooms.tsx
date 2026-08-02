@@ -143,7 +143,7 @@ export function InstrumentHall({
   );
 }
 
-/* ── ROOM II — The Playroom ───────────────────────────────────────────────
+/* ── ROOM III — The Playroom ───────────────────────────────────────────────
    The activities: 204 curriculum-aligned things a child does, which until now
    had no room of their own on this page.
 
@@ -176,7 +176,7 @@ export function Playroom({
 }) {
   return (
     <Room id="activities" wall="ochre">
-      <p className="hv10-room-label" aria-hidden="true">II</p>
+      <p className="hv10-room-label" aria-hidden="true">III</p>
       <h2 className="hv10-room-h2">{strings.playH2}</h2>
       <p className="hv10-room-body">{strings.playBody}</p>
 
@@ -205,7 +205,7 @@ export function Playroom({
   );
 }
 
-/* ── ROOM III — The Print Room ──────────────────────────────────────────────
+/* ── ROOM II — The Print Room ──────────────────────────────────────────────
    The library, hung salon-style. This is the room where density is safe:
    unlike the hall, it can reflow, so it holds as many works as the width
    allows. */
@@ -220,7 +220,7 @@ export function PrintRoom({
 }) {
   return (
     <Room id="printroom" wall="green" floor={false}>
-      <p className="hv10-room-label" aria-hidden="true">III</p>
+      <p className="hv10-room-label" aria-hidden="true">II</p>
       <h2 className="hv10-room-h2">{strings.printH2}</h2>
       <p className="hv10-room-body">{strings.printBody}</p>
 
@@ -256,7 +256,7 @@ export function PrintRoom({
   );
 }
 
-/* ── ROOM III — The Studio ─────────────────────────────────────────────────
+/* ── ROOM IV — The Studio ─────────────────────────────────────────────────
    Where the work is made. The maker screenshot is committed art at
    /homepage/maker.webp, with per-locale re-renders alongside it. */
 export function Studio({ locale, strings }: { locale: string; strings: RoomStrings }) {
@@ -313,7 +313,7 @@ export function Studio({ locale, strings }: { locale: string; strings: RoomStrin
   );
 }
 
-/* ── ROOM IV — The Members' Room ───────────────────────────────────────────
+/* ── ROOM VI — The Members' Room ───────────────────────────────────────────
    ⚠ TIER TRUTH. These claims are about code behaviour, so they come from
    frontend/lib/quota.ts (PLAYS_PER_DAY = 10, DOWNLOADS_PER_MONTH = 3,
    anonymous downloads = 0) and the price from SUBSCRIPTION_PRODUCT. Never

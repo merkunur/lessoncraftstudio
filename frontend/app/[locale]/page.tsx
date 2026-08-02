@@ -39,8 +39,11 @@ import '@/components/homepage-v10/homepage-v10.css';
 // The hero is ONE composition at every viewport from 320 to 2560 — a poster
 // that scales, not a per-device rearrangement — enforced by the dedicated
 // gate at scripts/audit-hero-identity.js (poison-tested: clean <=4.7,
-// broken 94.6). Past it the building continues through five rooms wearing
-// the same fabric, so scrolling reads as walking.
+// broken 94.6). Past it the building continues through six numbered rooms
+// (I-VI) plus an unnumbered exit, all wearing the same fabric, so scrolling
+// reads as walking. ⚠ The numerals are HARDCODED per room component in
+// Rooms.tsx, not derived from position — reordering rooms here means
+// editing those literals too, or the gallery renders I, III, II.
 //
 // i18n: nothing here is machine-translated and nothing new was authored.
 // Prose comes from the `homepageV6` namespace (already native x11 and
@@ -322,8 +325,8 @@ export default async function HomePage({ params }: { params: { locale: string } 
       <div className={`hv6 hv10 ${baloo2.variable} ${nunito.variable} font-lcsBody min-h-screen`}>
         <GrandHall locale={locale} decks={decks.slice(0, 6)} strings={hero} />
         <InstrumentHall locale={locale} strings={rooms} instruments={instruments} live={live} />
-        <Playroom locale={locale} strings={rooms} activities={alcoves} />
         <PrintRoom locale={locale} decks={decks.slice(6)} strings={rooms} />
+        <Playroom locale={locale} strings={rooms} activities={alcoves} />
         <Studio locale={locale} strings={rooms} />
         <Dispatch locale={locale} strings={rooms} deck={decks[3]} />
         <MembersRoom locale={locale} strings={rooms} />

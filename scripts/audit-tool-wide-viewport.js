@@ -312,7 +312,27 @@ const PROBE = (pfx) => {
     if (!canScrollTo(e)) lowestUnreachable = Math.max(lowestUnreachable, r.bottom);
   });
 
+  /* ⭐⭐ A `preserveAspectRatio="none"` SVG STRETCHES, AND ITS NUMERALS
+     STRETCH WITH IT. ruler draws its ticks into a 1000x100 viewBox with
+     stretching ON, and the layout keeps the box at exactly wrap x wrap/10 so
+     scaleX equals scaleY and the printed numbers are not distorted — an
+     invariant that is invisible in the CSS and that a tier raising the width
+     alone would silently break. This is the #43 letterboxing lesson wearing
+     the opposite hat: such an SVG CANNOT letterbox, so it distorts instead.
+     Reported as a ratio per cell; the assert side compares it against the
+     1366 control rather than against a threshold I invented. */
+  let anis = null;
+  (scope || document).querySelectorAll('svg[preserveAspectRatio="none"]').forEach((s) => {
+    const vb = s.viewBox && s.viewBox.baseVal;
+    const r = s.getBoundingClientRect();
+    if (!vb || !vb.width || !vb.height || !r.width || !r.height) return;
+    const sx = r.width / vb.width, sy = r.height / vb.height;
+    const a = Math.max(sx, sy) / Math.min(sx, sy);
+    if (anis === null || a > anis) anis = +a.toFixed(3);
+  });
+
   return {
+    anisotropy: anis,
     vw: vw, vh: vh,
     cardW: app ? app.offsetWidth : 0,          /* LAYOUT box — transform-independent */
     cardH: app ? app.offsetHeight : 0,
@@ -577,6 +597,16 @@ function staticRisks(key) {
         r.key + ' CONTROL: card at 1366 is ' + a.cardW + 'px, baseline says ' + b.cells['1366'].cardW + 'px');
       say(a.apparatusW === b.cells['1366'].apparatusW,
         r.key + ' CONTROL: apparatus at 1366 is ' + a.apparatusW + 'px, baseline says ' + b.cells['1366'].apparatusW + 'px');
+    }
+
+    /* 1b — a stretched SVG must not be MORE distorted than it is at 1366.
+       Not a threshold: the question is whether the TIER introduced skew, and
+       a tool that ships distorted at 1366 is a different (pre-existing)
+       problem. Only meaningful when both cells measured one. */
+    if (a.anisotropy !== null && d.anisotropy !== null) {
+      say(d.anisotropy <= a.anisotropy + 0.01,
+        r.key + ' STRETCH at 2560: a preserveAspectRatio="none" SVG is ' + d.anisotropy +
+        'x anisotropic, against ' + a.anisotropy + 'x at 1366 — the tier is distorting its numerals');
     }
 
     /* 2 — non-vacuity before anything is claimed about size */

@@ -100,6 +100,7 @@ var Ruler = {
   /* ---- state + setup ---- */
   init: function (api) {
     this.api = api;
+    document.body.classList.add('rl-wide');
     this.start = 0;
     this.end = 5;
     this._lastShape = null;
@@ -415,7 +416,55 @@ var Ruler = {
   + '.rl-handle::before{content:"";position:absolute;inset:-12px;border-radius:50%;}'
   + '.rl-handle:active{cursor:grabbing;}'
   + '.rl-handle.dragging{transition:none;cursor:grabbing;}'
-  + '.rl-handle svg{width:80%;height:80%;display:block;}';
+  + '.rl-handle svg{width:80%;height:80%;display:block;}'
+
+  /* =====================================================================
+     Wide board (§23 — the apparatus a teacher teaches FROM).
+     ---------------------------------------------------------------------
+     Every size in this tool is a clamp pinned at its ceiling on a big
+     screen: 18vmin computes to 259px and clamps back to 180, 3.6vmin to 52
+     and clamps to 32. The ruler drew 900px on a 2560 board.
+
+     ⚠⚠ THE ONE INVARIANT THAT IS NOT OBVIOUS FROM THE NUMBERS: the tick SVG
+     is `preserveAspectRatio="none"` over a 1000x100 viewBox, so it STRETCHES
+     to whatever box it is given — and its tick strokes and its printed
+     numerals stretch with it. Today the box is `wrap` wide by `rl-area/2`
+     tall, and 900/1000 = 0.9 while 180/2/100 = 0.9: the scale is UNIFORM by
+     construction, which is the only reason the numerals are not distorted.
+     So `rl-area` MUST stay exactly wrap/5 at every tier. Raising the width
+     alone would squash every label — the #43 letterboxing lesson wearing the
+     opposite hat, since here the SVG cannot letterbox and distorts instead.
+     local-test asserts scaleX == scaleY so this cannot come back silently.
+
+     The bar, the handle and the handle's vertical offset are px inside a
+     percentage-positioned area, so they are kept at their existing ratios of
+     the wrap (0.0311 / 0.0356 / 0.0200) rather than left at phone size.
+     `.rl-label` is in viewBox units and already scales — not ramped.
+     ===================================================================== */
+  + '@media (min-width:1367px) and (min-height:880px){'
+  +   'body.rl-wide .rl-wrap{width:min(1150px,100%);}'
+  +   'body.rl-wide .rl-area{height:230px;}'
+  +   'body.rl-wide .rl-bar{height:36px;}'
+  +   'body.rl-wide .rl-handle{width:41px;height:41px;top:calc(50% + 23px);}'
+  +   'body.rl-wide .rl-readout-num{font-size:42px;}'
+  +   'body.rl-wide .rl-readout-label{font-size:17px;}'
+  + '}'
+  + '@media (min-width:1800px) and (min-height:1080px){'
+  +   'body.rl-wide .rl-wrap{width:min(1500px,100%);}'
+  +   'body.rl-wide .rl-area{height:300px;}'
+  +   'body.rl-wide .rl-bar{height:47px;}'
+  +   'body.rl-wide .rl-handle{width:53px;height:53px;top:calc(50% + 30px);}'
+  +   'body.rl-wide .rl-readout-num{font-size:52px;}'
+  +   'body.rl-wide .rl-readout-label{font-size:20px;}'
+  + '}'
+  + '@media (min-width:2400px) and (min-height:1150px){'
+  +   'body.rl-wide .rl-wrap{width:min(1700px,100%);}'
+  +   'body.rl-wide .rl-area{height:340px;}'
+  +   'body.rl-wide .rl-bar{height:53px;}'
+  +   'body.rl-wide .rl-handle{width:61px;height:61px;top:calc(50% + 34px);}'
+  +   'body.rl-wide .rl-readout-num{font-size:60px;}'
+  +   'body.rl-wide .rl-readout-label{font-size:22px;}'
+  + '}';
   var tag = document.createElement('style'); tag.textContent = css;
   document.head.appendChild(tag);
 }());

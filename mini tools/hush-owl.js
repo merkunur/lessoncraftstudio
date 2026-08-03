@@ -1193,6 +1193,34 @@ var HushOwl = {
   +   '.hsh-scene[data-state=awake] .hsh-smoke1,.hsh-scene[data-state=awake] .hsh-smoke2{animation:none;}'
   +   '.hsh-eye-open,.hsh-eye-closed,.hsh-lid,.hsh-wing-l,.hsh-wing-r{transition-duration:.3s;}'
   +   '#hshPerch{transform:none !important;}'
+  + '}'
+
+  /* ---- wide board (§23 the apparatus a teacher teaches FROM) ----
+     ⚠⚠ THE SCENE IS `preserveAspectRatio="xMidYMid slice"` OVER A 1600x900
+     viewBox, so it COVERS its box and CROPS whatever does not fit. The stage
+     is `width:100%` with a height clamp, which means the naive fix — raise the
+     card and leave `height:clamp(230px,52vh,600px)` — would have widened the
+     box to 1704 against a 600px height, an aspect of 2.84 against the scene's
+     1.78, and simply sliced the top and bottom off the owl. Bigger box, LESS
+     owl.
+     So above 1367 the stage is pinned to the scene's own 16:9 and its width is
+     derived from the height budget (`Kvh * 16/9`), which keeps it uncropped
+     and as large as the fold allows at every tier floor. `height:auto` because
+     aspect-ratio supplies it. */
+  + '@media (min-width:1367px) and (min-height:880px){'
+  +   'body.hsh-wide .lcs-app{max-width:min(1400px,96vw);}'
+  +   'body.hsh-wide .hsh-stage{aspect-ratio:16/9;height:auto;width:min(100%,calc(54vh * 1.7778));}'
+  +   'body.hsh-wide .hsh-chip{min-height:52px;font-size:17px;}'
+  + '}'
+  + '@media (min-width:1800px) and (min-height:1080px){'
+  +   'body.hsh-wide .lcs-app{max-width:min(1600px,96vw);}'
+  +   'body.hsh-wide .hsh-stage{width:min(100%,calc(56vh * 1.7778));}'
+  +   'body.hsh-wide .hsh-chip{min-height:56px;font-size:19px;}'
+  + '}'
+  + '@media (min-width:2400px) and (min-height:1150px){'
+  +   'body.hsh-wide .lcs-app{max-width:min(1752px,96vw);}'
+  +   'body.hsh-wide .hsh-stage{width:min(100%,calc(58vh * 1.7778));}'
+  +   'body.hsh-wide .hsh-chip{min-height:60px;font-size:21px;}'
   + '}';
   var tag = document.createElement('style'); tag.textContent = css;
   document.head.appendChild(tag);

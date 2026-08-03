@@ -2220,7 +2220,7 @@
     "loading": "Loading…",
     "errorGeneric": "Something went wrong. Please try again.",
     "collections": {
-      "heading": "Your collections",
+      "heading": "Mina samlingar",
       "viewAll": "View all ({count})",
       "cardDeckCount": "{count, plural, =0 {No decks} =1 {1 deck} other {# decks}}",
       "empty": {
@@ -2263,12 +2263,57 @@
       "linkLabel": "Länk till arbetsbladet",
       "openWorksheet": "Öppna arbetsbladet",
       "downloadQr": "Ladda ner QR",
-      "shareNote": "Eleverna skannar QR-koden eller öppnar länken — utan konto eller app. Länken fungerar på alla enheter."
+      "shareNote": "Eleverna skannar QR-koden eller öppnar länken — utan konto eller app. Länken fungerar på alla enheter.",
+      "close": "Stäng"
+    },
+    "sharedActivities": {
+      "title": "Mina delade aktiviteter",
+      "empty": "Aktiviteter du delar med din klass visas här.",
+      "views": "{count} visningar",
+      "share": "Dela",
+      "rename": "Byt namn",
+      "renamePrompt": "Nytt namn",
+      "delete": "Ta bort",
+      "deleteConfirm": "Ta bort den här delade aktiviteten? Länken slutar då fungera."
     },
     "favorites": {
       "title": "Mina favoriter",
-      "remove": "Ta bort från favoriter"
-    }
+      "remove": "Ta bort från favoriter",
+      "empty": {
+        "title": "Inga favoriter än",
+        "body": "Tryck på hjärtat på ett arbetsblad för att spara det här."
+      }
+    },
+    "tabs": {
+      "overview": "Översikt",
+      "worksheets": "Arbetsblad",
+      "activities": "Aktiviteter",
+      "collections": "Samlingar",
+      "favorites": "Favoriter",
+      "ariaLabel": "Avsnitt i arbetsytan"
+    },
+    "list": {
+      "showing": "Visar {from}–{to} av {total}",
+      "searchLabel": "Sök",
+      "searchPlaceholder": "Sök på namn…",
+      "clearSearch": "Rensa sökningen",
+      "sortViews": "Mest visade",
+      "seeAll": "Visa alla ({count})",
+      "noMatchTitle": "Inga träffar",
+      "noMatchBody": "Prova ett annat ord eller rensa sökningen."
+    },
+    "dialog": {
+      "cancel": "Avbryt",
+      "deleteTitle": "Ta bort?",
+      "deleteConfirm": "Ta bort",
+      "renameTitle": "Byt namn",
+      "nameLabel": "Namn",
+      "save": "Spara",
+      "saving": "Sparar…",
+      "errorRequired": "Ange ett namn.",
+      "errorGeneric": "Det gick inte att spara. Försök igen."
+    },
+    "quotaLabel": "{count} av {max} använda"
   },
   "homepageV3": {
     "hero": {

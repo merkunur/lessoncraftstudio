@@ -3412,12 +3412,57 @@
       "linkLabel": "Enlace de la ficha",
       "openWorksheet": "Abrir ficha",
       "downloadQr": "Descargar QR",
-      "shareNote": "Los estudiantes escanean el código QR o abren el enlace — sin cuenta ni app. El enlace funciona en cualquier dispositivo."
+      "shareNote": "Los estudiantes escanean el código QR o abren el enlace — sin cuenta ni app. El enlace funciona en cualquier dispositivo.",
+      "close": "Cerrar"
+    },
+    "sharedActivities": {
+      "title": "Mis actividades compartidas",
+      "empty": "Las actividades que compartas con tu clase aparecerán aquí.",
+      "views": "{count} visitas",
+      "share": "Compartir",
+      "rename": "Renombrar",
+      "renamePrompt": "Nuevo nombre",
+      "delete": "Eliminar",
+      "deleteConfirm": "¿Eliminar esta actividad compartida? Su enlace dejará de funcionar."
     },
     "favorites": {
       "title": "Mis favoritos",
-      "remove": "Quitar de favoritos"
-    }
+      "remove": "Quitar de favoritos",
+      "empty": {
+        "title": "Aún no hay favoritos",
+        "body": "Toca el corazón de cualquier ficha para guardarla aquí."
+      }
+    },
+    "tabs": {
+      "overview": "Resumen",
+      "worksheets": "Fichas",
+      "activities": "Actividades",
+      "collections": "Colecciones",
+      "favorites": "Favoritos",
+      "ariaLabel": "Secciones del espacio de trabajo"
+    },
+    "list": {
+      "showing": "Mostrando {from}–{to} de {total}",
+      "searchLabel": "Buscar",
+      "searchPlaceholder": "Buscar por nombre…",
+      "clearSearch": "Borrar búsqueda",
+      "sortViews": "Más vistas",
+      "seeAll": "Ver todo ({count})",
+      "noMatchTitle": "Sin resultados",
+      "noMatchBody": "Prueba otra palabra o borra la búsqueda."
+    },
+    "dialog": {
+      "cancel": "Cancelar",
+      "deleteTitle": "¿Eliminar?",
+      "deleteConfirm": "Eliminar",
+      "renameTitle": "Cambiar nombre",
+      "nameLabel": "Nombre",
+      "save": "Guardar",
+      "saving": "Guardando…",
+      "errorRequired": "Introduce un nombre.",
+      "errorGeneric": "No se pudo guardar. Inténtalo de nuevo."
+    },
+    "quotaLabel": "{count} de {max} usados"
   },
   "bulk": {
     "toggleSelect": "Seleccionar",

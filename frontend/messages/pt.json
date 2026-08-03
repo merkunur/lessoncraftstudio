@@ -3726,7 +3726,7 @@
     "loading": "Loading…",
     "errorGeneric": "Something went wrong. Please try again.",
     "collections": {
-      "heading": "Your collections",
+      "heading": "Minhas coleções",
       "viewAll": "View all ({count})",
       "cardDeckCount": "{count, plural, =0 {No decks} =1 {1 deck} other {# decks}}",
       "empty": {
@@ -3754,14 +3754,14 @@
       }
     },
     "hosted": {
-      "title": "Minhas atividades interativas",
-      "empty": "As atividades que você salvar nos geradores aparecerão aqui.",
+      "title": "Minhas fichas interativas",
+      "empty": "As fichas que você salvar nos geradores aparecerão aqui.",
       "copy": "Copiar link",
       "copied": "Copiado!",
       "rename": "Renomear",
       "renamePrompt": "Novo nome",
       "delete": "Excluir",
-      "deleteConfirm": "Excluir esta atividade? O link dela deixará de funcionar.",
+      "deleteConfirm": "Excluir esta ficha? O link dela deixará de funcionar.",
       "views": "{count} visualizações",
       "share": "Compartilhar",
       "shareIntro": "Compartilhe esta atividade com sua turma.",
@@ -3769,12 +3769,57 @@
       "linkLabel": "Link da atividade",
       "openWorksheet": "Abrir atividade",
       "downloadQr": "Baixar QR",
-      "shareNote": "Os alunos escaneiam o código QR ou abrem o link — sem conta nem app. O link funciona em qualquer dispositivo."
+      "shareNote": "Os alunos escaneiam o código QR ou abrem o link — sem conta nem app. O link funciona em qualquer dispositivo.",
+      "close": "Fechar"
+    },
+    "sharedActivities": {
+      "title": "Minhas atividades compartilhadas",
+      "empty": "As atividades que você compartilhar com a turma aparecerão aqui.",
+      "views": "{count} visualizações",
+      "share": "Compartilhar",
+      "rename": "Renomear",
+      "renamePrompt": "Novo nome",
+      "delete": "Excluir",
+      "deleteConfirm": "Excluir esta atividade compartilhada? O link dela deixará de funcionar."
     },
     "favorites": {
       "title": "Meus favoritos",
-      "remove": "Remover dos favoritos"
-    }
+      "remove": "Remover dos favoritos",
+      "empty": {
+        "title": "Ainda sem favoritos",
+        "body": "Toque no coração de qualquer ficha para guardá-la aqui."
+      }
+    },
+    "tabs": {
+      "overview": "Visão geral",
+      "worksheets": "Fichas",
+      "activities": "Atividades",
+      "collections": "Coleções",
+      "favorites": "Favoritos",
+      "ariaLabel": "Seções do espaço de trabalho"
+    },
+    "list": {
+      "showing": "Mostrando {from}–{to} de {total}",
+      "searchLabel": "Buscar",
+      "searchPlaceholder": "Buscar por nome…",
+      "clearSearch": "Limpar busca",
+      "sortViews": "Mais vistas",
+      "seeAll": "Ver tudo ({count})",
+      "noMatchTitle": "Nenhum resultado",
+      "noMatchBody": "Tente outra palavra ou limpe a busca."
+    },
+    "dialog": {
+      "cancel": "Cancelar",
+      "deleteTitle": "Excluir?",
+      "deleteConfirm": "Excluir",
+      "renameTitle": "Renomear",
+      "nameLabel": "Nome",
+      "save": "Salvar",
+      "saving": "Salvando…",
+      "errorRequired": "Digite um nome.",
+      "errorGeneric": "Não foi possível salvar. Tente novamente."
+    },
+    "quotaLabel": "{count} de {max} usados"
   },
   "homepageV3": {
     "hero": {

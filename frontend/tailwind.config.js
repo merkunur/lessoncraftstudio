@@ -66,6 +66,21 @@ module.exports = {
           600: '#5F7D5C',
           700: '#496045',
         },
+        // Leaf: green action accent for collection/share affordances.
+        // Aliases sage 600/700 exactly — introduces no new hue.
+        //
+        // This token was USED in 28 places across 10 files but never defined,
+        // so every one of them was a no-op class. Two were outright broken,
+        // not merely colorless:
+        //   - BulkSelectToolbar.tsx:52  `bg-leaf-600 … text-cream-50` button
+        //     → near-white label on no background (invisible control)
+        //   - DeckCardCheckbox.tsx:30   selected state `bg-leaf-600 …`
+        //     → a checked checkbox showed no checked state
+        // Defining the token repairs all 28 call sites without touching one.
+        leaf: {
+          600: '#5F7D5C',
+          700: '#496045',
+        },
         // Direction A (activity-page) palette — locked at CLAUDE.md §A.13.47.
         // Adopted by the homepage-v3 prototype as the canonical brand surface.
         // Additive — does NOT replace cream/terracotta/sage/ink which the live

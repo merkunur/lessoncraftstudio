@@ -2240,7 +2240,7 @@
     "loading": "Loading…",
     "errorGeneric": "Something went wrong. Please try again.",
     "collections": {
-      "heading": "Your collections",
+      "heading": "Mes collections",
       "viewAll": "View all ({count})",
       "cardDeckCount": "{count, plural, =0 {No decks} =1 {1 deck} other {# decks}}",
       "empty": {
@@ -2283,12 +2283,57 @@
       "linkLabel": "Lien de la fiche",
       "openWorksheet": "Ouvrir la fiche",
       "downloadQr": "Télécharger le QR",
-      "shareNote": "Les élèves scannent le QR code ou ouvrent le lien — sans compte ni application. Le lien fonctionne sur tout appareil."
+      "shareNote": "Les élèves scannent le QR code ou ouvrent le lien — sans compte ni application. Le lien fonctionne sur tout appareil.",
+      "close": "Fermer"
+    },
+    "sharedActivities": {
+      "title": "Mes activités partagées",
+      "empty": "Les activités partagées avec votre classe apparaissent ici.",
+      "views": "{count} vues",
+      "share": "Partager",
+      "rename": "Renommer",
+      "renamePrompt": "Nouveau nom",
+      "delete": "Supprimer",
+      "deleteConfirm": "Supprimer cette activité partagée ? Son lien cessera de fonctionner."
     },
     "favorites": {
       "title": "Mes favoris",
-      "remove": "Retirer des favoris"
-    }
+      "remove": "Retirer des favoris",
+      "empty": {
+        "title": "Aucun favori pour le moment",
+        "body": "Touchez le cœur d'une fiche pour la retrouver ici."
+      }
+    },
+    "tabs": {
+      "overview": "Vue d'ensemble",
+      "worksheets": "Fiches",
+      "activities": "Activités",
+      "collections": "Collections",
+      "favorites": "Favoris",
+      "ariaLabel": "Sections de l'espace de travail"
+    },
+    "list": {
+      "showing": "Affichage de {from}–{to} sur {total}",
+      "searchLabel": "Rechercher",
+      "searchPlaceholder": "Rechercher par nom…",
+      "clearSearch": "Effacer la recherche",
+      "sortViews": "Les plus vues",
+      "seeAll": "Tout voir ({count})",
+      "noMatchTitle": "Aucun résultat",
+      "noMatchBody": "Essayez un autre mot ou effacez la recherche."
+    },
+    "dialog": {
+      "cancel": "Annuler",
+      "deleteTitle": "Supprimer ?",
+      "deleteConfirm": "Supprimer",
+      "renameTitle": "Renommer",
+      "nameLabel": "Nom",
+      "save": "Enregistrer",
+      "saving": "Enregistrement…",
+      "errorRequired": "Veuillez saisir un nom.",
+      "errorGeneric": "Impossible d'enregistrer. Veuillez réessayer."
+    },
+    "quotaLabel": "{count} sur {max} utilisés"
   },
   "homepageV3": {
     "hero": {

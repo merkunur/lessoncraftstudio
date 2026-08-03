@@ -2224,7 +2224,7 @@
     "loading": "Loading…",
     "errorGeneric": "Something went wrong. Please try again.",
     "collections": {
-      "heading": "Your collections",
+      "heading": "Mine samlinger",
       "viewAll": "View all ({count})",
       "cardDeckCount": "{count, plural, =0 {No decks} =1 {1 deck} other {# decks}}",
       "empty": {
@@ -2267,12 +2267,57 @@
       "linkLabel": "Lenke til arbeidsarket",
       "openWorksheet": "Åpne arbeidsarket",
       "downloadQr": "Last ned QR",
-      "shareNote": "Elevene skanner QR-koden eller åpner lenken — uten konto eller app. Lenken fungerer på alle enheter."
+      "shareNote": "Elevene skanner QR-koden eller åpner lenken — uten konto eller app. Lenken fungerer på alle enheter.",
+      "close": "Lukk"
+    },
+    "sharedActivities": {
+      "title": "Mine delte aktiviteter",
+      "empty": "Aktiviteter du deler med klassen vises her.",
+      "views": "{count} visninger",
+      "share": "Del",
+      "rename": "Gi nytt navn",
+      "renamePrompt": "Nytt navn",
+      "delete": "Slett",
+      "deleteConfirm": "Slette denne delte aktiviteten? Lenken slutter å virke."
     },
     "favorites": {
       "title": "Mine favoritter",
-      "remove": "Fjern fra favoritter"
-    }
+      "remove": "Fjern fra favoritter",
+      "empty": {
+        "title": "Ingen favoritter ennå",
+        "body": "Trykk på hjertet på et arbeidsark for å lagre det her."
+      }
+    },
+    "tabs": {
+      "overview": "Oversikt",
+      "worksheets": "Arbeidsark",
+      "activities": "Aktiviteter",
+      "collections": "Samlinger",
+      "favorites": "Favoritter",
+      "ariaLabel": "Deler av arbeidsområdet"
+    },
+    "list": {
+      "showing": "Viser {from}–{to} av {total}",
+      "searchLabel": "Søk",
+      "searchPlaceholder": "Søk etter navn…",
+      "clearSearch": "Tøm søket",
+      "sortViews": "Mest viste",
+      "seeAll": "Se alle ({count})",
+      "noMatchTitle": "Ingen treff",
+      "noMatchBody": "Prøv et annet ord, eller tøm søket."
+    },
+    "dialog": {
+      "cancel": "Avbryt",
+      "deleteTitle": "Slette?",
+      "deleteConfirm": "Slett",
+      "renameTitle": "Gi nytt navn",
+      "nameLabel": "Navn",
+      "save": "Lagre",
+      "saving": "Lagrer…",
+      "errorRequired": "Skriv inn et navn.",
+      "errorGeneric": "Kunne ikke lagres. Prøv igjen."
+    },
+    "quotaLabel": "{count} av {max} brukt"
   },
   "homepageV3": {
     "hero": {

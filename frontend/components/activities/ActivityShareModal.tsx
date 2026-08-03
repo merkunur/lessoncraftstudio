@@ -2,9 +2,10 @@
 
 /**
  * Shared "share this activity with your class" modal — a QR + copy-link card.
- * Used by both ActivityShareButton (on the activity page) and
- * SharedActivitiesWidget (in the workspace) so the surface is identical
- * everywhere. Copy reads the `activityShare` namespace.
+ * Used by ActivityShareButton (on the activity page) and by both workspace
+ * sections (shared activities + hosted worksheets) so the surface is identical
+ * everywhere. Copy reads the `activityShare` namespace unless the caller passes
+ * `labels` (see ActivityShareLabels).
  */
 import { useEffect, useState } from 'react';
 import { createPortal } from 'react-dom';
@@ -16,19 +17,51 @@ export interface ActivityShare {
   qrUrl: string;
 }
 
+/**
+ * Optional caller-supplied copy. The workspace's hosted-worksheet surface is
+ * this same modal with a different namespace (`workspace.hosted.*`) and one
+ * different verb ("Open worksheet" vs "Open activity"), so rather than keeping
+ * a second 74-line copy of this component there, that caller passes its own
+ * strings. Omitted → the `activityShare` namespace is read exactly as before,
+ * so the public activity page is unaffected.
+ */
+export interface ActivityShareLabels {
+  intro: string;
+  qrAlt: string;
+  linkLabel: string;
+  copy: string;
+  copied: string;
+  open: string;
+  downloadQr: string;
+  note: string;
+  close: string;
+}
+
 export default function ActivityShareModal({
   share,
   onClose,
   workspaceHref,
+  labels,
 }: {
   share: ActivityShare;
   onClose: () => void;
   /** When set (activity-page caller), the modal shows a "Saved to your
    *  workspace" pointer link. Omitted by the workspace widget (redundant there). */
   workspaceHref?: string;
+  labels?: ActivityShareLabels;
 }) {
   const t = useTranslations('activityShare');
   const [copied, setCopied] = useState(false);
+
+  const intro = labels?.intro ?? t('modalIntro');
+  const qrAlt = labels?.qrAlt ?? t('qrAlt');
+  const linkLabel = labels?.linkLabel ?? t('linkLabel');
+  const copyLabel = labels?.copy ?? t('copy');
+  const copiedLabel = labels?.copied ?? t('copied');
+  const openLabel = labels?.open ?? t('openActivity');
+  const downloadQrLabel = labels?.downloadQr ?? t('downloadQr');
+  const noteLabel = labels?.note ?? t('shareNote');
+  const closeLabel = labels?.close ?? t('close');
 
   // Lock background scroll + close on Escape while the modal is open
   // (mirrors FeaturedDeckTileV3).
@@ -63,11 +96,11 @@ export default function ActivityShareModal({
         <h3 id="activity-share-title" className="font-display text-xl font-semibold text-ink-900 mb-1">
           {share.title}
         </h3>
-        <p className="text-sm text-ink-500 mb-5">{t('modalIntro')}</p>
+        <p className="text-sm text-ink-500 mb-5">{intro}</p>
 
         <img
           src={share.qrUrl}
-          alt={t('qrAlt')}
+          alt={qrAlt}
           width={220}
           height={220}
           className="mx-auto rounded-xl border border-cream-300 bg-white p-2"
@@ -79,7 +112,7 @@ export default function ActivityShareModal({
             value={share.url}
             onFocus={(e) => e.currentTarget.select()}
             className="min-w-0 flex-1 bg-transparent px-2 text-sm text-ink-700 outline-none"
-            aria-label={t('linkLabel')}
+            aria-label={linkLabel}
           />
           <button
             type="button"
@@ -88,7 +121,7 @@ export default function ActivityShareModal({
             }}
             className="shrink-0 rounded-md bg-teal-700 px-3 py-1.5 text-sm font-semibold text-white hover:bg-teal-800 transition"
           >
-            {copied ? t('copied') : t('copy')}
+            {copied ? copiedLabel : copyLabel}
           </button>
         </div>
 
@@ -99,7 +132,7 @@ export default function ActivityShareModal({
             rel="noopener noreferrer"
             className="rounded-full border border-teal-700 px-4 py-1.5 text-sm font-semibold text-teal-800 hover:bg-teal-700 hover:text-white transition"
           >
-            {t('openActivity')}
+            {openLabel}
           </a>
           <a
             href={share.qrUrl}
@@ -107,11 +140,11 @@ export default function ActivityShareModal({
             rel="noopener noreferrer"
             className="rounded-full border border-teal-700 px-4 py-1.5 text-sm font-semibold text-teal-800 hover:bg-teal-700 hover:text-white transition"
           >
-            {t('downloadQr')}
+            {downloadQrLabel}
           </a>
         </div>
 
-        <p className="mt-5 text-xs text-ink-500">{t('shareNote')}</p>
+        <p className="mt-5 text-xs text-ink-500">{noteLabel}</p>
         {workspaceHref && (
           <p className="mt-3 text-xs text-ink-500">
             <a href={workspaceHref} className="text-teal-700 font-semibold hover:underline">
@@ -124,7 +157,7 @@ export default function ActivityShareModal({
           onClick={onClose}
           className="mt-4 text-sm text-ink-500 hover:text-ink-800 underline"
         >
-          {t('close')}
+          {closeLabel}
         </button>
       </div>
     </div>,

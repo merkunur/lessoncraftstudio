@@ -3541,12 +3541,57 @@
       "linkLabel": "Arbeitsblatt-Link",
       "openWorksheet": "Arbeitsblatt öffnen",
       "downloadQr": "QR herunterladen",
-      "shareNote": "Schüler scannen den QR-Code oder öffnen den Link — ohne Konto oder App. Der Link funktioniert auf jedem Gerät."
+      "shareNote": "Schüler scannen den QR-Code oder öffnen den Link — ohne Konto oder App. Der Link funktioniert auf jedem Gerät.",
+      "close": "Schließen"
+    },
+    "sharedActivities": {
+      "title": "Von mir geteilte Aktivitäten",
+      "empty": "Hier erscheinen Aktivitäten, die du mit deiner Klasse teilst.",
+      "views": "{count} Aufrufe",
+      "share": "Teilen",
+      "rename": "Umbenennen",
+      "renamePrompt": "Neuer Name",
+      "delete": "Löschen",
+      "deleteConfirm": "Diese geteilte Aktivität löschen? Der Link funktioniert dann nicht mehr."
     },
     "favorites": {
       "title": "Meine Favoriten",
-      "remove": "Aus Favoriten entfernen"
-    }
+      "remove": "Aus Favoriten entfernen",
+      "empty": {
+        "title": "Noch keine Favoriten",
+        "body": "Tippe bei einem Arbeitsblatt auf das Herz, um es hier zu sammeln."
+      }
+    },
+    "tabs": {
+      "overview": "Übersicht",
+      "worksheets": "Arbeitsblätter",
+      "activities": "Aktivitäten",
+      "collections": "Sammlungen",
+      "favorites": "Favoriten",
+      "ariaLabel": "Bereiche des Arbeitsbereichs"
+    },
+    "list": {
+      "showing": "Zeige {from}–{to} von {total}",
+      "searchLabel": "Suchen",
+      "searchPlaceholder": "Nach Namen suchen…",
+      "clearSearch": "Suche zurücksetzen",
+      "sortViews": "Meist aufgerufen",
+      "seeAll": "Alle ansehen ({count})",
+      "noMatchTitle": "Keine Treffer",
+      "noMatchBody": "Versuche ein anderes Wort oder setze die Suche zurück."
+    },
+    "dialog": {
+      "cancel": "Abbrechen",
+      "deleteTitle": "Wirklich löschen?",
+      "deleteConfirm": "Löschen",
+      "renameTitle": "Umbenennen",
+      "nameLabel": "Name",
+      "save": "Speichern",
+      "saving": "Wird gespeichert…",
+      "errorRequired": "Bitte gib einen Namen ein.",
+      "errorGeneric": "Konnte nicht gespeichert werden. Bitte versuche es erneut."
+    },
+    "quotaLabel": "{count} von {max} genutzt"
   },
   "bulk": {
     "toggleSelect": "Auswählen",

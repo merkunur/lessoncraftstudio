@@ -355,6 +355,65 @@ async function dragTrayToBoard(page, g, bx, by) {
   }
 
   /* ---------- E. console errors ---------- */
+  /* ---------- D2. the TILE grows on a wide board, and the board keeps its rows ----
+     ⭐⭐ THE APPARATUS IS EMPTY AT REST, which is why an earlier content-scale
+     probe could not see this tool at all: `.ltl-board` is inked and full-width,
+     so every box measure looked healthy while the letters stayed 84px. Place
+     real tiles through the tool's own `_dropNew` and measure THOSE.
+     Two assertions, and the second is the one with teeth: the tile must be
+     strictly bigger than at 1366, AND the board must still hold at least as
+     many rows — raising the tile alone costs a row silently, and a board that
+     fits fewer words is a worse instrument no overflow check would flag. */
+  console.log('\nD2. tile growth on a wide board');
+  {
+    const cells = [{ width: 1366, height: 900 }, { width: 1920, height: 1080 },
+      { width: 2400, height: 1150 }, { width: 2560, height: 1440 }];
+    let base = null;
+    for (const vp of cells) {
+      await page.setViewport(vp);
+      await page.goto(BASE + '?lang=de', { waitUntil: 'networkidle0' });
+      await page.waitForSelector('.ltl-board');
+      /* ⚠ THE BOARD IS RESTORED FROM STORAGE, so tiles accumulate across
+         cells — the counts came out 6, 10, 14, 18 and the non-vacuity check
+         is the only reason that was visible instead of quietly averaging a
+         growing pile. Start each cell from an empty board. */
+      await page.evaluate(() => { LetterTiles.boardTiles = []; LetterTiles.render(); });
+      await page.waitForSelector('.ltl-board');
+      const m = await page.evaluate(() => {
+        const b = document.querySelector('.ltl-board').getBoundingClientRect();
+        /* drop four tiles across the board through the tool's own path */
+        ['m', 'a', 't', 's'].forEach((g, i) => {
+          LetterTiles._dropNew(g, b.left + 60 + i * 120, b.top + 40);
+        });
+        const tiles = [...document.querySelectorAll('.ltl-tile')];
+        if (!tiles.length) return null;
+        const hs = tiles.map((t) => t.getBoundingClientRect().height).sort((x, y) => x - y);
+        return {
+          n: tiles.length,
+          tile: hs[Math.floor(hs.length / 2)],       /* median, not mean */
+          rows: LetterTiles._rowCount,
+          boardH: b.height,
+          escapes: tiles.some((t) => {
+            const r = t.getBoundingClientRect();
+            return r.right > b.right + 0.5 || r.bottom > b.bottom + 0.5;
+          })
+        };
+      });
+      if (!m || m.n !== 4) { FAIL(`tiles @${vp.width}: expected 4 on the board, got ${m ? m.n : 'none'} — measurement void`); continue; }
+      if (vp.width === 1366) { base = m; OK(`1366 baseline: tile ${Math.round(m.tile)}px, ${m.rows} rows`); continue; }
+      /* ⚠ A 0.5px EPSILON WAS NOT ENOUGH. On the un-fixed build the tile is a
+         constant 84 CSS px, but the rendered box wobbles sub-pixel with the
+         layout, so "94 -> 94" scraped past and the poison fired at only one of
+         three cells. The margin is not invented: the smallest tier step raises
+         the ceiling 84 -> 100, i.e. +19%, while the noise is under 1%. */
+      if (m.tile <= base.tile * 1.05) FAIL(`tiles @${vp.width}: still ${Math.round(m.tile)}px against ${Math.round(base.tile)}px at 1366 — the board grew and the letters did not`);
+      else if (m.rows < base.rows) FAIL(`tiles @${vp.width}: board dropped to ${m.rows} rows from ${base.rows} — a bigger tile cost a row`);
+      else if (m.escapes) FAIL(`tiles @${vp.width}: a tile escapes the board`);
+      else OK(`@${vp.width}: tile ${Math.round(base.tile)} -> ${Math.round(m.tile)}px, ${m.rows} rows (was ${base.rows}), nothing escapes`);
+    }
+    await page.setViewport({ width: 1024, height: 768 });
+  }
+
   console.log('\nE. console errors');
   const realErrors = consoleErrors.filter(e => !/404|Failed to load resource|net::ERR/i.test(e));
   if (realErrors.length) FAIL('console errors: ' + realErrors.slice(0, 5).join(' | '));

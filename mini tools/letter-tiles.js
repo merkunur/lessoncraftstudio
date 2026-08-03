@@ -415,11 +415,26 @@ var LetterTiles = {
     var b = this._boardEl;
     if (!b) return;
     var h = b.clientHeight || 320;
-    var tile = Math.max(44, Math.min(84, Math.round(window.innerWidth * 0.085)));
+    /* ⭐ THE 84px CEILING IS A JS CONSTANT, so no CSS tier can reach it: at
+       2560 the width term computes 218px and clamps straight back to 84. The
+       ceiling now comes from --ltl-tilemax, declared in CSS where it keys on
+       width AND height together (a JS width test cannot see the height
+       condition, and this board's row count is a HEIGHT budget). The 0.085
+       width term still binds below the ceiling, so the cap raises a limit
+       rather than setting a size. */
+    var tmax = parseFloat(getComputedStyle(document.body).getPropertyValue('--ltl-tilemax'));
+    if (!(tmax >= 84)) tmax = 84;
+    var tile = Math.max(44, Math.min(tmax, Math.round(window.innerWidth * 0.085)));
     this._tileH = tile;
     this._rowPitch = tile + 18;
     this._rowCount = Math.max(2, Math.floor(h / this._rowPitch));
     b.style.setProperty('--ltl-row', this._rowPitch + 'px');
+    /* ⚠ THIS VARIABLE IS BOARD-SCOPED ON PURPOSE. `.ltl-tray` declares its
+       OWN `--ltl-tile: clamp(44px,6vmin,56px)`, so the tray tiles are a
+       deliberately smaller, separate scale — publishing this value on the
+       body to "share" it is dead code, which is how I first tried to fix the
+       tray and why the gate kept reporting it unchanged. The tray is ramped
+       in CSS, at its own declaration, in the tier block. */
     b.style.setProperty('--ltl-tile', tile + 'px');
   },
 
@@ -1705,6 +1720,36 @@ var LetterTiles = {
   +   '.ltl-tile,.ltl-traytile{transform:none !important;}'
   +   '.ltl-tile.ltl-settle,.ltl-badge,.ltl-wiggle{animation:none;}'
   +   '.ltl-traytile:hover{transform:none;}'
+  + '}'
+
+  /* ---- wide board (§23 the apparatus a teacher teaches FROM) ----
+     The tile ceiling was the 84px constant at :418 — see the note above the
+     clip fix, which said this needed "a commit that measures the result on a
+     board with tiles actually placed". This is it. --ltl-tilemax raises the
+     ceiling; the existing `innerWidth * 0.085` term still decides the size
+     below it.
+     ⚠ THE BOARD HEIGHT HAS TO COME WITH IT. Row count is
+     `floor(boardHeight / (tile + 18))`, so raising the tile alone SILENTLY
+     COSTS A ROW — the board would hold fewer words than before, which is a
+     worse instrument, and no FILL or overflow check would notice. Each tier
+     raises the board enough to keep at least the rows it had.
+     ⚠ These sit AFTER the `@media (max-height:1100px)` clip fix, which they
+     overlap at 1080-1100; source order is what makes them win, so they must
+     stay last. The clip fix itself is untouched. */
+  + '@media (min-width:1367px) and (min-height:880px){'
+  +   'body.ltl-wide{--ltl-tilemax:92;}'
+  +   'body.ltl-wide .lcs-app{max-width:min(1192px,96vw);}'
+  +   'body.ltl-wide .ltl-board{height:clamp(300px,38vh,520px);}'
+  + '}'
+  + '@media (min-width:1800px) and (min-height:1080px){'
+  +   'body.ltl-wide{--ltl-tilemax:116;}'
+  +   'body.ltl-wide .lcs-app{max-width:min(1560px,96vw);}'
+  +   'body.ltl-wide .ltl-board{height:clamp(300px,44vh,660px);}'
+  + '}'
+  + '@media (min-width:2400px) and (min-height:1150px){'
+  +   'body.ltl-wide{--ltl-tilemax:132;}'
+  +   'body.ltl-wide .lcs-app{max-width:min(1752px,96vw);}'
+  +   'body.ltl-wide .ltl-board{height:clamp(300px,48vh,780px);}'
   + '}';
   var tag = document.createElement('style'); tag.textContent = css;
   document.head.appendChild(tag);

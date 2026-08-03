@@ -1027,6 +1027,78 @@ function injectSortingHoopsCSS() {
     /* the shell sets html,body{overflow:hidden} — past the fold on a phone
        is UNREACHABLE, not merely off-screen (letter-studio precedent) */
     + '@media (max-width:700px){body.hp-wide{overflow-y:auto;overflow-x:hidden;height:auto;min-height:100%;}}'
+    /* =====================================================================
+       WIDE VIEWPORTS — GEOMETRY, and the two-branch shape number-balance
+       taught. CARD-MAXED: the shell already gives an 1800px card at 2560 and
+       the instrument was 27.3% of the screen. The chain-walk names FOUR
+       binders across TWO branches:
+         apparatus   .hp-mat   700  <== width:min(100%,700px)
+                     .hp-rings 260  <== height:clamp(200px,32vw,260px)
+         supply      .hp-tray  700  <== width:min(100%,700px)
+                     .hp-tile   52  <== min-width/min-height
+       Ramping only the repeated unit would have widened the tile row and
+       left the HOOPS — the thing the tool is named for — at 700x260, which
+       is exactly the defect number-balance shipped and I caught in its
+       render. The single-branch walker would have led me there again.
+       ⚠ `.hp-rings` is a HEIGHT and its `32vw` term is pinned at the 260px
+       ceiling from 813px of viewport up, so the ceiling is what moves. The
+       hoops are ellipses in a non-scaling-stroke SVG, so they follow the
+       box in both axes for free — the ring geometry needs nothing.
+       ⚠⚠ AND THE GLYPH INSIDE THE TILE, WHICH THE HOLLOW-WIDENING
+       ASSERTION CANNOT SEE. `.hp-block` is a fixed 38px and `.hp-pic` a
+       fixed 40px, so ramping the tile alone took the shape from 33% of
+       its tile to 20% — a bigger box around the same small shape, which
+       is the rekenrek defect one level DEEPER. The assertion compares
+       the most-REPEATED unit (`.hp-tile`), and that genuinely grew, so
+       it passed. The 2560 render is what showed it. The glyph, the
+       picture and the word now ramp with the tile at roughly the 0.73
+       ratio the base sizes use.
+       ⚠ THE CAPTIONS CARRY COUNTS, so they are NUMERALS to the shared
+       gate's 22px floor at 2560 — my first ramp took `.hp-cap` only to
+       19px and TYPE failed. A caption is not chrome when it holds the
+       number the child is reading off the mat.
+       ⚠ TIER A's RINGS ARE 320, NOT THE 340 THE HEIGHT BUDGET ALLOWS.
+       At 340 the Tier-A floor measured 860 of 880 — and identically in
+       de, it, fi, nl AND sv, because the mat's height is geometry, not
+       text. That stability is exactly what makes 20px the wrong margin
+       to keep: `.hp-cap` IS text, at 17px with line-height 1.2, so a
+       two-line caption in one of the six locales I did not measure adds
+       ~21px and the floor is gone. 320 buys that line back. A margin
+       that survives every locale you tested is not a margin that
+       survives the ones you did not.
+       ⚠ `min-width`/`min-height` on the tile are RAISED, never replaced;
+       52px stays the floor at every width these rules do not reach.
+       ===================================================================== */
+    + '@media (min-width:1367px) and (min-height:880px){'
+    +   'body.hp-wide .hp-mat,body.hp-wide .hp-tray{width:min(100%,900px);}'
+    +   'body.hp-wide .hp-rings{height:clamp(200px,32vw,320px);}'
+    +   'body.hp-wide .hp-tile{min-width:64px;min-height:64px;}'
+    +   'body.hp-wide .hp-block{width:47px;height:47px;}'
+    +   'body.hp-wide .hp-pic{width:49px;height:49px;}'
+    +   'body.hp-wide .hp-word{font-size:15px;}'
+    +   'body.hp-wide .hp-cap{font-size:18px;}'
+    +   'body.hp-wide .hp-outlabel{font-size:16px;}'
+    + '}'
+    + '@media (min-width:1800px) and (min-height:1080px){'
+    +   'body.hp-wide .hp-mat,body.hp-wide .hp-tray{width:min(100%,1120px);}'
+    +   'body.hp-wide .hp-rings{height:clamp(200px,32vw,420px);}'
+    +   'body.hp-wide .hp-tile{min-width:72px;min-height:72px;}'
+    +   'body.hp-wide .hp-block{width:53px;height:53px;}'
+    +   'body.hp-wide .hp-pic{width:55px;height:55px;}'
+    +   'body.hp-wide .hp-word{font-size:16px;}'
+    +   'body.hp-wide .hp-cap{font-size:20px;}'
+    +   'body.hp-wide .hp-outlabel{font-size:18px;}'
+    + '}'
+    + '@media (min-width:2400px) and (min-height:1150px){'
+    +   'body.hp-wide .hp-mat,body.hp-wide .hp-tray{width:min(100%,1320px);}'
+    +   'body.hp-wide .hp-rings{height:clamp(200px,32vw,470px);}'
+    +   'body.hp-wide .hp-tile{min-width:80px;min-height:80px;}'
+    +   'body.hp-wide .hp-block{width:58px;height:58px;}'
+    +   'body.hp-wide .hp-pic{width:61px;height:61px;}'
+    +   'body.hp-wide .hp-word{font-size:17px;}'
+    +   'body.hp-wide .hp-cap{font-size:23px;}'
+    +   'body.hp-wide .hp-outlabel{font-size:20px;}'
+    + '}'
     + '@media (prefers-reduced-motion:reduce){.hp-tile.hp-released{animation:none;}}'
     + '@media print{'
     +   '.hp-bar,.hp-mat,.hp-tray,.hp-picker,.hp-foot,.hp-gate{display:none !important;}'

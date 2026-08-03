@@ -509,9 +509,12 @@ var MoneyMat = {
     img.src = this._imgUrl(itemKey);
     img.alt = this._noun(itemKey);
     img.draggable = false;
-    img.style.width = pl.width + 'px';
-    img.style.left = pl.left + 'px';
-    img.style.bottom = pl.bottom + 'px';
+    /* every placement number is linear in the trim scale, so one --mm-sc
+       multiplier grows the item and keeps it seated on the counter edge.
+       CSS-side (not a build-time constant) so entering fullscreen re-lays it. */
+    img.style.width = 'calc(' + pl.width + 'px * var(--mm-sc,1))';
+    img.style.left = 'calc(' + pl.left + 'px * var(--mm-sc,1))';
+    img.style.bottom = 'calc(' + pl.bottom + 'px * var(--mm-sc,1))';
     anchor.appendChild(img);
     scene.appendChild(anchor);
     /* price tag */
@@ -579,11 +582,15 @@ var MoneyMat = {
     b.type = 'button';
     b.setAttribute('aria-label', den.label);
     b.dataset.v = den.v;
+    /* the diameter is the pedagogy (a 2€ IS bigger than a 1c), so every coin
+       carries its own px size — but multiplied by --mm-cs so the whole set
+       grows together on a wide board without disturbing one ratio. */
+    var dsz = 'width:calc(' + den.d + 'px * var(--mm-cs,1));height:calc(' + den.d + 'px * var(--mm-cs,1))';
     var inner = den.fam === 'bi-sg'
-      ? '<span class="mm-disc fam-gold" style="width:' + den.d + 'px;height:' + den.d + 'px"><span class="mm-disc-in fam-silver">' + den.label + '</span></span>'
+      ? '<span class="mm-disc fam-gold" style="' + dsz + '"><span class="mm-disc-in fam-silver">' + den.label + '</span></span>'
       : den.fam === 'bi-gs'
-        ? '<span class="mm-disc fam-silver" style="width:' + den.d + 'px;height:' + den.d + 'px"><span class="mm-disc-in fam-gold">' + den.label + '</span></span>'
-        : '<span class="mm-disc fam-' + den.fam + '" style="width:' + den.d + 'px;height:' + den.d + 'px">' + den.label + '</span>';
+        ? '<span class="mm-disc fam-silver" style="' + dsz + '"><span class="mm-disc-in fam-gold">' + den.label + '</span></span>'
+        : '<span class="mm-disc fam-' + den.fam + '" style="' + dsz + '">' + den.label + '</span>';
     b.innerHTML = inner;
     return b;
   },
@@ -930,28 +937,31 @@ var MoneyMat = {
   + '.mm-wrap{display:flex;flex-direction:column;align-items:center;gap:clamp(5px,1vmin,10px);width:100%;}'
 
   /* scene: awning band, wall, counter band, keeper, item, tag */
-  + '.mm-scene{position:relative;width:min(680px,94vw);height:190px;border-radius:20px 20px 0 0;overflow:hidden;'
+  + '.mm-scene{position:relative;width:min(var(--mm-w,680px),94vw);height:calc(190px * var(--mm-sc,1));'
+  +   'border-radius:20px 20px 0 0;overflow:hidden;'
   +   'background:linear-gradient(180deg,#FDF9F0 0%,#FBF3E4 100%);border:2px solid #E7DCC8;border-bottom:none;}'
-  + '.mm-awning{position:absolute;top:0;left:0;right:0;height:34px;display:flex;}'
+  + '.mm-awning{position:absolute;top:0;left:0;right:0;height:calc(34px * var(--mm-sc,1));display:flex;}'
   + '.mm-awning span{flex:1;border-radius:0 0 14px 14px;}'
   + '.mm-awning span:nth-child(odd){background:#F2784B;}'
   + '.mm-awning span:nth-child(even){background:#F2C879;}'
-  + '.mm-counter{position:absolute;left:0;right:0;bottom:0;height:44px;'
+  + '.mm-counter{position:absolute;left:0;right:0;bottom:0;height:calc(44px * var(--mm-sc,1));'
   +   'background:linear-gradient(180deg,#C99B62,#B9855C);border-top:3px solid #A9814F;}'
-  + '.mm-keeper{position:absolute;right:6%;bottom:38px;}'
+  + '.mm-keeper{position:absolute;right:6%;bottom:calc(38px * var(--mm-sc,1));}'
+  + '.mm-keeper svg{width:calc(110px * var(--mm-sc,1));height:calc(138px * var(--mm-sc,1));}'
   + '.mm-eye{animation:mmBlink 5.2s infinite;}'
   + '@keyframes mmBlink{0%,94%,100%{transform:scaleY(1);}96%,98%{transform:scaleY(0.1);}}'
   + '.mm-keeper .mm-eye{transform-box:fill-box;transform-origin:center;}'
-  + '.mm-item-anchor{position:absolute;left:26%;bottom:44px;width:0;height:0;}'
+  + '.mm-item-anchor{position:absolute;left:26%;bottom:calc(44px * var(--mm-sc,1));width:0;height:0;}'
   + '.mm-item{position:absolute;user-select:none;-webkit-user-drag:none;pointer-events:none;}'
-  + '.mm-tag{position:absolute;left:calc(26% + 66px);bottom:104px;display:flex;flex-direction:column;align-items:center;}'
-  + '.mm-tag-string{width:2px;height:16px;background:#8B6F47;}'
+  + '.mm-tag{position:absolute;left:calc(26% + 66px * var(--mm-sc,1));bottom:calc(104px * var(--mm-sc,1));'
+  +   'display:flex;flex-direction:column;align-items:center;}'
+  + '.mm-tag-string{width:2px;height:calc(16px * var(--mm-sc,1));background:#8B6F47;}'
   + '.mm-tag-body{background:#FDF0DC;border:2px solid #F2C879;border-radius:10px;padding:5px 12px;'
-  +   'font-family:var(--lcs-font-display);font-weight:800;font-size:17px;color:#5A4630;transform:rotate(-3deg);'
+  +   'font-family:var(--lcs-font-display);font-weight:800;font-size:calc(17px * var(--mm-tsc,1));color:#5A4630;transform:rotate(-3deg);'
   +   'box-shadow:0 3px 8px rgba(20,30,28,.12);}'
 
   /* mat + total */
-  + '.mm-matzone{width:min(680px,94vw);background:#FBF3E4;border:2px solid #E7DCC8;border-top:none;'
+  + '.mm-matzone{width:min(var(--mm-w,680px),94vw);background:#FBF3E4;border:2px solid #E7DCC8;border-top:none;'
   +   'border-radius:0 0 20px 20px;padding:8px 12px 12px;display:flex;flex-direction:column;gap:6px;}'
   + '.mm-totalrow{display:flex;align-items:center;justify-content:center;gap:8px;}'
   + '.mm-total{min-width:110px;text-align:center;background:var(--lcs-surface);border:2px solid var(--lcs-structure);'
@@ -966,28 +976,28 @@ var MoneyMat = {
   + '.mm-coinbtn,.mm-notebtn{min-width:46px;min-height:46px;padding:2px;border:none;background:none;cursor:pointer;'
   +   'display:inline-flex;align-items:center;justify-content:center;}'
   + '.mm-disc{display:inline-flex;align-items:center;justify-content:center;border-radius:50%;'
-  +   'font-family:var(--lcs-font-display);font-weight:800;font-size:11px;color:#4A3B2A;'
+  +   'font-family:var(--lcs-font-display);font-weight:800;font-size:calc(11px * var(--mm-cts,1));color:#4A3B2A;'
   +   'box-shadow:inset 0 0 0 2.5px rgba(90,70,48,.35), 0 2px 4px rgba(20,30,28,.18);}'
-  + '.mm-disc.mini{width:30px;height:30px;font-size:9px;}'
+  + '.mm-disc.mini{width:calc(30px * var(--mm-cs,1));height:calc(30px * var(--mm-cs,1));font-size:calc(9px * var(--mm-cts,1));}'
   + '.fam-copper{background:radial-gradient(circle at 35% 30%,#D89A6E,#B06A42 78%);color:#5A3620;}'
   + '.fam-silver{background:radial-gradient(circle at 35% 30%,#DCDCE2,#A8A8B2 78%);color:#4A4A55;}'
   + '.fam-gold{background:radial-gradient(circle at 35% 30%,#E8C070,#BE9440 78%);color:#5A4620;}'
   + '.mm-disc-in{display:inline-flex;align-items:center;justify-content:center;border-radius:50%;width:68%;height:68%;'
-  +   'font-size:10px;box-shadow:inset 0 0 0 1.5px rgba(90,70,48,.3);}'
-  + '.mm-note{display:inline-flex;align-items:center;justify-content:center;position:relative;width:64px;height:36px;'
+  +   'font-size:calc(10px * var(--mm-cts,1));box-shadow:inset 0 0 0 1.5px rgba(90,70,48,.3);}'
+  + '.mm-note{display:inline-flex;align-items:center;justify-content:center;position:relative;width:calc(64px * var(--mm-cs,1));height:calc(36px * var(--mm-cs,1));'
   +   'border-radius:6px;border:2px solid rgba(90,70,48,.35);font-family:var(--lcs-font-display);font-weight:800;'
-  +   'font-size:12px;color:#3A3A45;box-shadow:0 2px 4px rgba(20,30,28,.15);}'
-  + '.mm-note.mini{width:46px;height:26px;font-size:10px;}'
-  + '.mm-note i{position:absolute;top:1px;left:5px;font-style:normal;font-size:8px;opacity:.75;}'
+  +   'font-size:calc(12px * var(--mm-cts,1));color:#3A3A45;box-shadow:0 2px 4px rgba(20,30,28,.15);}'
+  + '.mm-note.mini{width:calc(46px * var(--mm-cs,1));height:calc(26px * var(--mm-cs,1));font-size:calc(10px * var(--mm-cts,1));}'
+  + '.mm-note i{position:absolute;top:1px;left:5px;font-style:normal;font-size:calc(8px * var(--mm-cts,1));opacity:.75;}'
   + '.mm-note b{font-weight:800;}'
 
   /* purse */
   + '.mm-purse{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:2px;'
-  +   'width:min(680px,94vw);min-height:56px;background:var(--lcs-surface);border:1.5px dashed rgba(20,107,94,.3);'
+  +   'width:min(var(--mm-w,680px),94vw);min-height:56px;background:var(--lcs-surface);border:1.5px dashed rgba(20,107,94,.3);'
   +   'border-radius:16px;padding:4px 8px;}'
 
   /* phases */
-  + '.mm-phasehost{display:flex;flex-direction:column;align-items:center;gap:6px;width:min(680px,94vw);}'
+  + '.mm-phasehost{display:flex;flex-direction:column;align-items:center;gap:6px;width:min(var(--mm-w,680px),94vw);}'
   + '.mm-invite{display:flex;align-items:center;justify-content:center;gap:8px;flex-wrap:wrap;'
   +   'background:#FDF0DC;border:1.5px dashed #F2C879;border-radius:14px;padding:7px 12px;'
   +   'font-family:var(--lcs-font-display);font-weight:700;font-size:14px;color:#8A6320;}'
@@ -1011,7 +1021,7 @@ var MoneyMat = {
   +   'background:#FDF0DC;border:1.5px solid #F2C879;border-radius:14px;'
   +   'font-size:13.5px;font-family:var(--lcs-font-body);color:var(--lcs-ink);text-align:center;}'
   + '.mm-gate a{color:#C9502A;font-weight:800;text-decoration:underline;}'
-  + '.mm-stalls{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;max-width:min(680px,94vw);}'
+  + '.mm-stalls{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;max-width:min(var(--mm-w,680px),94vw);}'
   + '.mm-dock{display:flex;flex-direction:column;align-items:center;gap:6px;width:100%;padding-bottom:4px;}'
   + '.mm-chiprow{display:flex;align-items:center;justify-content:center;gap:7px;flex-wrap:wrap;}'
   + '.mm-chip{display:inline-flex;align-items:center;gap:6px;min-height:46px;font-family:var(--lcs-font-display);'
@@ -1032,11 +1042,67 @@ var MoneyMat = {
 
   /* phone */
   + '@media (max-width:480px){'
-  +   '.mm-scene{height:158px;}'
+  +   '.mm-scene{height:calc(158px * var(--mm-sc,1));}'
   +   '.mm-keeper svg{width:84px;height:105px;}'
   +   '.mm-item-anchor{left:22%;}'
   +   '.mm-tag{left:calc(22% + 52px);bottom:96px;}'
   +   '.mm-total{font-size:18px;}'
+  + '}'
+
+  /* ---- wide board (§23 the apparatus a teacher teaches FROM) ----
+     One --mm-w drives the five stacked panels (scene / matzone / purse /
+     phasehost / stalls) because they are one column and must stay flush.
+     --mm-sc scales the SCENE geometry (all of it linear in one trim factor),
+     --mm-cs the coin+note set (ratios between denominations preserved
+     exactly — that ratio IS the pedagogy), --mm-tsc the read-out type.
+     Vertical cost: the scene is 190·sc and the rest is roughly flat, so a
+     tier's sc ceiling is (tierHeight − ~560 chrome+mat+purse+dock)/190. */
+  /* ⭐⭐ THE SHOP CARD HAS A NATURAL WIDTH; THE COIN TRAY TAKES THE REST.
+     The first version of this tier just raised --mm-w to 1680 and every
+     measured assertion passed — FILL 65.6%, no overflow, type over floor.
+     Reading the 2560 render showed why that was hollow: the scene holds
+     exactly three things (awning, one item, the keeper) at FIXED percent
+     positions, so a 1680px band is a barn with a carrot in it. Widening a
+     box that has no content to put in it is the rekenrek bead defect in
+     another dress. So above 1367 the column becomes two: the shop card
+     (scene glued to matzone, one drawn object) keeps a width its content can
+     actually fill, and the purse moves beside it as a till tray. Phase
+     panels and the dock still span the full board.
+     ⚠ row-gap MUST be 0 — matzone carries `border-top:none` because it is
+     the bottom half of the scene's card; any gap opens a seam. */
+  + '@media (min-width:1367px) and (min-height:880px){'
+  +   'body.mm-wide .lcs-app{max-width:min(1192px,96vw);}'
+  +   'body.mm-wide{--mm-w:700px;--mm-sc:1.55;--mm-cs:1.34;--mm-cts:1.5;--mm-tsc:1.2;}'
+  +   'body.mm-wide .mm-wrap{display:grid;grid-template-columns:var(--mm-w) auto;justify-content:center;'
+  +     'row-gap:0;column-gap:26px;align-items:start;justify-items:center;}'
+  +   'body.mm-wide .mm-scene{grid-column:1;grid-row:1;}'
+  +   'body.mm-wide .mm-matzone{grid-column:1;grid-row:2;}'
+  /* ⚠ a FLEX-WRAP tray beside the shop wrapped 7+1 at 2560 — the odd coin
+     alone on a second row reads as a mistake, not as a tray. Two fixed
+     columns give 8→4×2, 5→3 rows, 4→2×2 in every currency the tool ships. */
+  +   'body.mm-wide .mm-purse{grid-column:2;grid-row:1 / span 2;align-self:center;'
+  +     'width:auto;max-width:none;padding:14px 16px;display:grid;'
+  +     'grid-template-columns:repeat(2,auto);justify-content:center;place-items:center;}'
+  +   'body.mm-wide .mm-phasehost{grid-column:1 / -1;grid-row:3;width:100%;max-width:none;margin-top:10px;}'
+  +   'body.mm-wide .mm-dock{grid-column:1 / -1;grid-row:4;margin-top:8px;}'
+  +   'body.mm-wide .mm-total{font-size:26px;}'
+  +   'body.mm-wide .mm-mat{min-height:150px;gap:7px;}'
+  + '}'
+  + '@media (min-width:1800px) and (min-height:1080px){'
+  +   'body.mm-wide .lcs-app{max-width:min(1560px,96vw);}'
+  +   'body.mm-wide{--mm-w:960px;--mm-sc:1.9;--mm-cs:1.62;--mm-cts:1.9;--mm-tsc:1.35;}'
+  +   'body.mm-wide .mm-wrap{column-gap:32px;}'
+  +   'body.mm-wide .mm-total{font-size:30px;}'
+  +   'body.mm-wide .mm-mat{min-height:190px;gap:9px;}'
+  +   'body.mm-wide .mm-purse{gap:12px;padding:16px;}'
+  + '}'
+  + '@media (min-width:2400px) and (min-height:1150px){'
+  +   'body.mm-wide .lcs-app{max-width:min(1752px,96vw);}'
+  +   'body.mm-wide{--mm-w:1120px;--mm-sc:2.1;--mm-cs:1.9;--mm-cts:2.25;--mm-tsc:1.5;}'
+  +   'body.mm-wide .mm-wrap{column-gap:36px;}'
+  +   'body.mm-wide .mm-total{font-size:34px;}'
+  +   'body.mm-wide .mm-mat{min-height:225px;gap:12px;}'
+  +   'body.mm-wide .mm-purse{gap:14px;padding:18px;}'
   + '}'
 
   /* reduced motion */

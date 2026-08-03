@@ -47,6 +47,11 @@ const val = (f) => (argv.find((a) => a.indexOf('--' + f + '=') === 0) || '').spl
 const KEY = val('tool');
 const LOCALES = (val('locales') || 'de,it,fi').split(',');
 const STATE = val('state') || '';
+const SET = (val('set') || '').split(',').filter(Boolean).map((s) => {
+  const i = s.indexOf(':');
+  if (i < 0) { console.error('--set expects key:value, got `' + s + '`'); process.exit(1); }
+  return [s.slice(0, i), s.slice(i + 1)];
+});
 const CHAIN = process.argv.indexOf('--chain') > -1;
 if (!KEY) { console.error('usage: node scripts/probe-tool-tiers.js --tool=<key> [--cap=1240:1367:880,1740:1800:1150] [--locales=de,it,fi] [--state=gate]'); process.exit(1); }
 
@@ -301,7 +306,7 @@ const WALK = (pfx) => {
   console.log('  loc  viewport     card        appar  card%  screen%  lowest/vh   verdict');
   console.log('  ---  -----------  ----------  -----  -----  -------  ----------  -------');
   const b = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox'] });
-  let bad = 0, rows = 0;
+  let bad = 0, rows = 0, hardFail = 0;
   for (const loc of LOCALES) {
     for (const cell of CELLS) {
       const p = await b.newPage();
@@ -318,6 +323,30 @@ const WALK = (pfx) => {
               'body.' + pf + '-wide .lcs-app{max-width:min(' + c.px + 'px,96vw) !important;}}').join('');
             document.head.appendChild(st);
           }, CAPS, pfx);
+          await wait(400);
+        }
+        /* ⭐ --set=key:value[,key:value] — reach a NON-DEFAULT configuration.
+           Almost every tier so far was sized against whatever the tool renders
+           on load, and the configurations that actually break are the other
+           ones: place-value-lab's third column, ten-frame's double frame,
+           number-sieve's twelve rows. "Sweep every configuration, not just the
+           default" needs an instrument, or it stays a slogan.
+           ⚠ Values are coerced: `2` -> number, `true`/`false` -> boolean.
+           ⚠ THROWS INTO THE PAGE if the tool or the key is not found, rather
+           than silently measuring the default — a probe that quietly measures
+           the wrong thing is worse than one that fails. */
+        if (SET.length) {
+          await p.evaluate((pairs) => {
+            const t = Object.keys(window).map((k) => window[k])
+              .find((v) => v && typeof v === 'object' && v.api && v.api.settings && typeof v.render === 'function');
+            if (!t) throw new Error('--set: no mounted tool with api.settings found');
+            pairs.forEach(([k, raw]) => {
+              if (!(k in t.api.settings)) throw new Error('--set: unknown setting `' + k + '`');
+              t.api.settings[k] = raw === 'true' ? true : raw === 'false' ? false
+                : (/^-?\d+(\.\d+)?$/.test(raw) ? Number(raw) : raw);
+            });
+            if (typeof t.onSettings === 'function') t.onSettings(); else t.render();
+          }, SET);
           await wait(400);
         }
         /* the paid panel is the longest chrome most tools have */
@@ -341,13 +370,26 @@ const WALK = (pfx) => {
           String(m.unreachable + '/' + m.vh).padStart(10) + '  ' +
           (cut ? 'CUT ' + (m.unreachable - m.vh) + 'px' : 'fits'));
       } catch (e) {
-        console.log('  ' + loc + '   ' + String(cell.w + 'x' + cell.h).padEnd(11) + '  BOOT FAIL — ' + String(e).slice(0, 50));
-        bad++;
+        /* ⚠ AND SAY WHY, IN FULL. A truncated `pptr:eva…` told me nothing
+           when a --set poison fired, and the run still printed a tidy
+           "6 CUT OFF" summary — a fabricated verdict over zero measurements.
+           A cell that could not be measured is a HARD failure of the run. */
+        console.log('  ' + loc + '   ' + String(cell.w + 'x' + cell.h).padEnd(11) + '  BOOT FAIL');
+        console.log('        ' + String(e && e.message ? e.message : e).replace(/\s+/g, ' ').slice(0, 220));
+        bad++; hardFail++;
       }
       await p.close();
     }
   }
   await b.close();
+  /* ⚠ a summary must describe the run that actually happened. When a --set
+     poison fired, every cell threw and the run still printed a tidy
+     "6 CUT OFF" — a fabricated verdict over zero measurements. */
+  if (hardFail) {
+    console.log('\n  ' + rows + ' cells measured, ' + hardFail +
+      ' FAILED TO BOOT — this run proves nothing until that is fixed.');
+    process.exit(1);
+  }
   console.log('\n  ' + rows + ' cells measured; ' + (bad ? bad + ' CUT OFF — back the cap off and re-run' : 'every cell fits'));
   process.exit(bad ? 1 : 0);
 })();

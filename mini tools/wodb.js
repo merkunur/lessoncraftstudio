@@ -1275,6 +1275,34 @@ var Wodb = {
   +   '.wdb-cell[aria-pressed="true"]{transform:none;}'
   +   '.wdb-cell.speaking .wdb-ear,.wdb-ear.speaking{animation:none;}'
   +   '.wdb-grid.stagger .wdb-cell .wdb-reason{transition-delay:0ms;}'
+  + '}'
+
+  /* ---- wide board (§23 the apparatus a teacher teaches FROM) ----
+     The grid is `aspect-ratio:1/1` inside a flex stage, so it grows until
+     EITHER the card width or the stage height stops it — raising the card cap
+     alone genuinely scales the four cells, because everything inside them is
+     a percentage. The one thing that is NOT is the numeral: its clamp caps at
+     158px and 19vmin computes 274 at 1440, so it sits pinned and would have
+     stayed the same size in a cell half the screen wide. All three length
+     variants are ramped — a two- or three-digit number carries its own clamp
+     and would otherwise fall behind the single digits. */
+  + '@media (min-width:1367px) and (min-height:880px){'
+  +   'body.wdb-wide .lcs-app{max-width:min(1192px,96vw);}'
+  +   'body.wdb-wide .wdb-num{font-size:clamp(64px,19vmin,196px);}'
+  +   'body.wdb-wide .wdb-num.two{font-size:clamp(52px,16vmin,156px);}'
+  +   'body.wdb-wide .wdb-num.three{font-size:clamp(44px,12vmin,122px);}'
+  + '}'
+  + '@media (min-width:1800px) and (min-height:1080px){'
+  +   'body.wdb-wide .lcs-app{max-width:min(1560px,96vw);}'
+  +   'body.wdb-wide .wdb-num{font-size:clamp(64px,19vmin,244px);}'
+  +   'body.wdb-wide .wdb-num.two{font-size:clamp(52px,16vmin,194px);}'
+  +   'body.wdb-wide .wdb-num.three{font-size:clamp(44px,12vmin,152px);}'
+  + '}'
+  + '@media (min-width:2400px) and (min-height:1150px){'
+  +   'body.wdb-wide .lcs-app{max-width:min(1752px,96vw);}'
+  +   'body.wdb-wide .wdb-num{font-size:clamp(64px,19vmin,280px);}'
+  +   'body.wdb-wide .wdb-num.two{font-size:clamp(52px,16vmin,222px);}'
+  +   'body.wdb-wide .wdb-num.three{font-size:clamp(44px,12vmin,174px);}'
   + '}';
   var tag = document.createElement('style'); tag.textContent = css;
   document.head.appendChild(tag);

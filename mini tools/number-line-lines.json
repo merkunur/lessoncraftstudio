@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "freeCount": 5,
+  "note": "Four integers per record and nothing else: max = the far end of the line, s = where the rabbit starts, h = one hop's length (negative hops go left). LOCALE-NEUTRAL BY CONSTRUCTION - there is no authored text anywhere in this file, so it is identical in all eleven locales and needs no native panel. Build constraint, enforced by scripts/verify-number-line.js: floor((max - s) / abs(h)) >= 2, because a one-hop record makes the equality claim vacuous - a single arc cannot be the same length as anything. The first freeCount records are the FREE tier and are ALSO inlined as FALLBACK_LINES in the tool, so a 404 on this file degrades to the free tier rather than to nothing. Ordered so each record surprises after the one before. NOTE back-from-hundred is -30 and not -20 on purpose: with -20 BOTH backward records divided their line exactly, so hintWall - the string carrying the whole leftover-space thesis - was unreachable in the direction children find hardest. A native panel found that by reading the ledger against the dispatch, and verify- now asserts it.",
+  "lines": [
+    { "id": "fives-fit",         "max": 20,   "s": 0,    "h": 5 },
+    { "id": "threes-gap",        "max": 20,   "s": 0,    "h": 3 },
+    { "id": "twos-many",         "max": 20,   "s": 0,    "h": 2 },
+    { "id": "back-from-twenty",  "max": 20,   "s": 20,   "h": -5 },
+    { "id": "tens-hundred",      "max": 100,  "s": 0,    "h": 10 },
+
+    { "id": "fives-hundred",     "max": 100,  "s": 0,    "h": 5 },
+    { "id": "start-off-zero",    "max": 20,   "s": 3,    "h": 4 },
+    { "id": "sevens-gap",        "max": 100,  "s": 0,    "h": 7 },
+    { "id": "hundreds-thousand", "max": 1000, "s": 0,    "h": 100 },
+    { "id": "back-from-hundred", "max": 100,  "s": 100,  "h": -30 },
+    { "id": "quarters-thousand", "max": 1000, "s": 0,    "h": 250 }
+  ]
+}

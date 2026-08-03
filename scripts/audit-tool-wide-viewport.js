@@ -323,6 +323,13 @@ const PROBE = (pfx) => {
      1366 control rather than against a threshold I invented. */
   let anis = null;
   (scope || document).querySelectorAll('svg[preserveAspectRatio="none"]').forEach((s) => {
+    /* ⚠ ONLY WHERE THERE IS TYPE TO DISTORT. Stretching is what this mode is
+       FOR: story-line's washing-line rope is a 940x64 bezier that is supposed
+       to get longer without getting thicker, and it is already anisotropic at
+       narrow widths by design. The defect this guards is a squashed NUMERAL,
+       so the question is whether the SVG contains glyphs — not whether it
+       stretches. Narrowing what is measured, never the threshold. */
+    if (!s.querySelector('text')) return;
     const vb = s.viewBox && s.viewBox.baseVal;
     const r = s.getBoundingClientRect();
     if (!vb || !vb.width || !vb.height || !r.width || !r.height) return;

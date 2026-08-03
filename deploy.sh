@@ -248,6 +248,15 @@ node /opt/lessoncraftstudio/scripts/preflight-tool-registration.js || { echo "ER
 echo "🔎 Activity route + thumbnail check..."
 node /opt/lessoncraftstudio/scripts/preflight-activity-routes.js || { echo "ERROR: an activity would 404 or ship with no card thumbnail — see CLAUDE.md §21.5"; exit 1; }
 
+# Guard: image-library WebP mirrors must be uniform per directory. A HALF-mirrored
+# directory lets a worksheet bake its palette art from a variant and crop its reveal
+# art from the raw file; the two disagree and a child sees puzzle pieces change
+# picture on drop. That shipped on 2026-08-02 (animals theme, Grid Match). Nothing
+# errors when it happens — the apps fall back silently — so only this check sees it.
+echo "🔎 Image-library variant-mirror uniformity..."
+( cd /opt/lessoncraftstudio/frontend && node /opt/lessoncraftstudio/scripts/audit-theme-webp-coverage.js ) \
+  || { echo "ERROR: an image directory is half-mirrored — see CLAUDE.md §A.7.2"; exit 1; }
+
 # ============================================
 # PAYMENT-SYSTEM PROTECTION (pre-build FAIL)
 # ============================================

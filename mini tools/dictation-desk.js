@@ -834,6 +834,34 @@ function injectDictationDeskCSS() {
     +     'page-break-inside:avoid;break-inside:avoid;}'
     +   '.dd-printnum{font-size:11pt;color:#000;min-width:8mm;}'
     +   '.dd-printrule{flex:1;border-bottom:1pt solid #444;height:8mm;}'
+    + '}'
+
+    /* ---- wide board (§23 the apparatus a teacher teaches FROM) ----
+       The desk caps at 640px and the letter cells at
+       `min-width:clamp(52px,7vw,96px)` / `font-size:clamp(34px,5vw,60px)`. At
+       2560 the vw terms compute 179 and 128, so every flat CEILING bound and
+       the whole desk sat at its design size inside a 1752 card. Desk, cell box
+       and letter type move together — a wider desk alone would have spread the
+       same small letters, the hollow-widening failure in its text form.
+       ⚠ The vw middle terms are raised with the ceilings, or the ceilings are
+       unreachable — the class-graph trap. */
+    + '@media (min-width:1367px) and (min-height:880px){'
+    +   'body.dd-wide .dd-desk{width:min(100%,900px);}'
+    +   'body.dd-wide .dd-cell{min-width:clamp(52px,8vw,132px);min-height:clamp(62px,9vw,154px);font-size:clamp(34px,6vw,82px);}'
+    +   'body.dd-wide .dd-btn{min-height:52px;font-size:17px;}'
+    +   'body.dd-wide .dd-meta{font-size:18px;}'
+    + '}'
+    + '@media (min-width:1800px) and (min-height:1080px){'
+    +   'body.dd-wide .dd-desk{width:min(100%,1180px);}'
+    +   'body.dd-wide .dd-cell{min-width:clamp(52px,9vw,168px);min-height:clamp(62px,10vw,196px);font-size:clamp(34px,7vw,106px);}'
+    +   'body.dd-wide .dd-btn{min-height:56px;font-size:19px;}'
+    +   'body.dd-wide .dd-meta{font-size:20px;}'
+    + '}'
+    + '@media (min-width:2400px) and (min-height:1150px){'
+    +   'body.dd-wide .dd-desk{width:min(100%,1400px);}'
+    +   'body.dd-wide .dd-cell{min-width:clamp(52px,9vw,190px);min-height:clamp(62px,10vw,222px);font-size:clamp(34px,7vw,120px);}'
+    +   'body.dd-wide .dd-btn{min-height:60px;font-size:21px;}'
+    +   'body.dd-wide .dd-meta{font-size:22px;}'
     + '}';
   document.head.appendChild(st);
 }

@@ -2121,6 +2121,31 @@ var Rekenrek = {
   + '}'
 
   /* reduced motion */
+  /* =====================================================================
+     ⚠⚠ NO CARD TIER HERE, AND THAT IS THE MEASURED ANSWER, NOT AN OMISSION.
+     rekenrek looks card-bound — the board fills 96% of a card its own
+     self-widen rule pins at 1080 — so I wrote it the same 1240/1560/1740
+     ladder its siblings got, and EVERY GATE PASSED: FILL 40.3% -> 66.1%,
+     116 assertions green, no cut-off in German or Italian, control unmoved.
+
+     THEN I READ THE RENDER. The beads sat in the right third of a very long
+     empty rail. Measured:
+         1366   card 1080  board 1037  bead 64px  beads span 640   62% full
+         1920   card 1560  board 1512  bead 64px  beads span 640   42% full
+         2560   card 1740  board 1692  bead 64px  beads span 640   38% full
+     THE BEAD IS 64px AT EVERY WIDTH. Only the empty rail grew, 397px to
+     1052px, so the card raise took bead-fill from 62% to 38% and made the
+     instrument WORSE while the FILL floor recorded a success. The floor
+     measures the apparatus BOX, and a box that grows while its repeated
+     children stay fixed is the draw-bag lesson in a new dress: the card
+     grew and the instrument did not.
+
+     ⚠ THE BEAD DIAMETER IS SET IN JS — `--rkr-d` from the geometry object
+     at :1239 — so no CSS tier can reach it. Making this tool genuinely
+     bigger means changing its geometry code, which is real work and not
+     something to slip into a commit about card widths. Filed, not faked:
+     a wider empty rail is not a wider rekenrek.
+     ===================================================================== */
   + '@media (prefers-reduced-motion: reduce){'
   +   '.rkr-rod.settle .rkr-bead{transition:transform .12s linear;}'
   +   '.rkr-bead.rkr-wobble,.rkr-readout.rkr-pop{animation:none;}'

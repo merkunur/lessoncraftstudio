@@ -1,0 +1,3546 @@
+{
+  "opts": {
+    "baseUrl": "https://www.lessoncraftstudio.com",
+    "locales": [
+      "it"
+    ],
+    "axes": [
+      "exercise-type",
+      "theme",
+      "educational-level"
+    ],
+    "outDir": "C:\\Users\\rkgen\\lessoncraftstudio\\docs\\audit-results",
+    "concurrency": 10,
+    "sample": null,
+    "includeIntersections": false,
+    "timeoutMs": 15000
+  },
+  "byLocale": {
+    "it": {
+      "locale": "it",
+      "total": 134,
+      "pass": 83,
+      "fail": 51,
+      "byAxis": {
+        "exercise-type": {
+          "total": 29,
+          "pass": 29
+        },
+        "theme": {
+          "total": 100,
+          "pass": 50
+        },
+        "educational-level": {
+          "total": 5,
+          "pass": 4
+        }
+      },
+      "defectCounts": {
+        "PAGE_HTTP_404": 51
+      },
+      "fallbackCount": 0,
+      "tooShortCount": 0,
+      "tooLongCount": 0,
+      "nonUniqueCount": 0,
+      "missingCount": 0,
+      "sampleFailures": [
+        {
+          "url": "https://www.lessoncraftstudio.com/it/topic/animali-bn/",
+          "axisKey": "animals_bw",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/it/topic/animali-bn-2/",
+          "axisKey": "animals_bw_2",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/it/topic/animali-bn-3/",
+          "axisKey": "animals_bw_3",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/it/topic/animali-bn-4/",
+          "axisKey": "animals_bw_4",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/it/topic/animali-bn-5/",
+          "axisKey": "animals_bw_5",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        }
+      ]
+    }
+  },
+  "perPage": [
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/addizione/",
+      "locale": "it",
+      "axis": "exercise-type",
+      "axisKey": "addition",
+      "slug": "addizione",
+      "status": 200,
+      "descriptionLength": 132,
+      "descriptionPreview": "Schede di addizione per la scuola dell&#x27;infanzia: somme con immagini per contare fino a 10, da usare al circle time o ai tavoli.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 132
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "e7abb69dfbf7a16b9a8677200c22f685d7b411e2"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/sudoku-illustrato/",
+      "locale": "it",
+      "axis": "exercise-type",
+      "axisKey": "sudoku",
+      "slug": "sudoku-illustrato",
+      "status": 200,
+      "descriptionLength": 139,
+      "descriptionPreview": "Sudoku illustrato 4x4 per bambini: completa la griglia senza ripetere le immagini in riga e colonna. Logica per l&#x27;infanzia e la prima.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 139
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "1f4cb3537316651238a524f4effb517f6398d7e8"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/crittogramma/",
+      "locale": "it",
+      "axis": "exercise-type",
+      "axisKey": "cryptogram",
+      "slug": "crittogramma",
+      "status": 200,
+      "descriptionLength": 131,
+      "descriptionPreview": "Crittogramma per bambini: sostituisci i simboli con le lettere e svela la parola segreta. Enigma di lettura per la prima e seconda.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 131
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "11f76877b5b14c4b379ad6f3e0967f5991efcba6"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/percorso-illustrato/",
+      "locale": "it",
+      "axis": "exercise-type",
+      "axisKey": "picture-path",
+      "slug": "percorso-illustrato",
+      "status": 200,
+      "descriptionLength": 132,
+      "descriptionPreview": "Percorso illustrato: traccia la strada cella per cella evitando gli ostacoli per arrivare alla meta. Gioco di orientamento spaziale.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 132
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "8ef4980b0eaa5f261125e059f47f22435ebe36d2"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/sottrazione/",
+      "locale": "it",
+      "axis": "exercise-type",
+      "axisKey": "subtraction",
+      "slug": "sottrazione",
+      "status": 200,
+      "descriptionLength": 126,
+      "descriptionPreview": "Schede di sottrazione con immagini da barrare per togliere e contare ciò che resta. Calcolo entro il 10 per la prima primaria.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 126
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "8b78f7fcde6a45a61a23d876fcf788a0adf4981e"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/addizione-codificata/",
+      "locale": "it",
+      "axis": "exercise-type",
+      "axisKey": "code-addition",
+      "slug": "addizione-codificata",
+      "status": 200,
+      "descriptionLength": 126,
+      "descriptionPreview": "Addizione codificata: i bambini risolvono le somme e scoprono le lettere nascoste. Esercizio di calcolo e abbinamento insieme.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 126
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "e81f9a70007f915865e72e999b58cae3c64a046d"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/piu-o-meno/",
+      "locale": "it",
+      "axis": "exercise-type",
+      "axisKey": "more-less",
+      "slug": "piu-o-meno",
+      "status": 200,
+      "descriptionLength": 131,
+      "descriptionPreview": "Più o meno: i bambini confrontano due gruppi di oggetti e toccano il simbolo giusto. Primi confronti di quantità all&#x27;infanzia.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 131
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "1df3339e915207045aa5bcf318938e1c27e30a3d"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/puzzle-matematico/",
+      "locale": "it",
+      "axis": "exercise-type",
+      "axisKey": "math-puzzle",
+      "slug": "puzzle-matematico",
+      "status": 200,
+      "descriptionLength": 127,
+      "descriptionPreview": "Puzzle matematici per la prima primaria: incastra i pezzi e completa le operazioni. Gioco di calcolo da fare online o su carta.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 127
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "96a3f0617515f7b0b4caa41fcb449335ea863ddc"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/scheda-di-matematica/",
+      "locale": "it",
+      "axis": "exercise-type",
+      "axisKey": "math-worksheet",
+      "slug": "scheda-di-matematica",
+      "status": 200,
+      "descriptionLength": 125,
+      "descriptionPreview": "Schede di matematica con esercizi di calcolo misti per la scuola primaria. Da stampare per i compiti o le attività ai tavoli.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 125
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "0eaab238280451eee78f388d819db91dfb277c41"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/grande-piccolo/",
+      "locale": "it",
+      "axis": "exercise-type",
+      "axisKey": "big-small",
+      "slug": "grande-piccolo",
+      "status": 200,
+      "descriptionLength": 137,
+      "descriptionPreview": "Grande o piccolo: i bambini confrontano due immagini e scelgono la più grande. Attività di osservazione per i piccoli dell&#x27;infanzia.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 137
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "84f64d0d3f98a44a9d7c0249cacde20aa704a1dc"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/conteggio-grafico/",
+      "locale": "it",
+      "axis": "exercise-type",
+      "axisKey": "chart-count",
+      "slug": "conteggio-grafico",
+      "status": 200,
+      "descriptionLength": 126,
+      "descriptionPreview": "Conta gli oggetti e colora le colonne dell&#x27;istogramma. Una prima introduzione ai grafici per i bambini di prima primaria.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 126
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "400f1dc112fded3826a243b793405c387ff42ec2"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/treno-dei-modelli/",
+      "locale": "it",
+      "axis": "exercise-type",
+      "axisKey": "pattern-train",
+      "slug": "treno-dei-modelli",
+      "status": 200,
+      "descriptionLength": 143,
+      "descriptionPreview": "Il treno dei modelli: completa la sequenza di immagini trascinando il vagone giusto. Logica delle successioni per la scuola dell&#x27;infanzia.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 143
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "7595b37004240d0d1e2af62d8f847ecb50bdc676"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/scheda-di-modelli/",
+      "locale": "it",
+      "axis": "exercise-type",
+      "axisKey": "pattern-worksheet",
+      "slug": "scheda-di-modelli",
+      "status": 200,
+      "descriptionLength": 136,
+      "descriptionPreview": "Schede di modelli da completare: i bambini continuano la sequenza scegliendo l&#x27;immagine che manca. Esercizio di logica da stampare.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 136
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "95ca04cbaeb12df81454bed376158fb21f7e4cb7"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/bingo/",
+      "locale": "it",
+      "axis": "exercise-type",
+      "axisKey": "bingo",
+      "slug": "bingo",
+      "status": 200,
+      "descriptionLength": 128,
+      "descriptionPreview": "Bingo illustrato per riconoscere lettere, numeri e parole. Tabelloni da stampare per tutta la classe o gioco interattivo online.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 128
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "de963fbef67f1781a99da6353f17dc5bf16ce517"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/abbinamento-griglia/",
+      "locale": "it",
+      "axis": "exercise-type",
+      "axisKey": "grid-match",
+      "slug": "abbinamento-griglia",
+      "status": 200,
+      "descriptionLength": 135,
+      "descriptionPreview": "Abbinamento a griglia: trascina ogni tessera nella casella giusta seguendo la riga e la colonna. Esercizio logico-visivo per i piccoli.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 135
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "142c3c33eff314d1bca238a8030114225873a7e4"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/abbinamento/",
+      "locale": "it",
+      "axis": "exercise-type",
+      "axisKey": "matching",
+      "slug": "abbinamento",
+      "status": 200,
+      "descriptionLength": 129,
+      "descriptionPreview": "Abbina ogni immagine al suo corrispondente con una linea. Attività di accoppiamento per riconoscere coppie e relazioni in classe.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 129
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "2b24f23852d10ec21a6282e071a800710b4cd1cf"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/ordina-immagini/",
+      "locale": "it",
+      "axis": "exercise-type",
+      "axisKey": "picture-sort",
+      "slug": "ordina-immagini",
+      "status": 200,
+      "descriptionLength": 130,
+      "descriptionPreview": "Ordina le immagini trascinandole nei contenitori giusti per categoria. Attività di classificazione per l&#x27;infanzia e la prima.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 130
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "3ddd4630f516a509fefdc7e024ec8ae6858fed85"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/abbina-le-ombre/",
+      "locale": "it",
+      "axis": "exercise-type",
+      "axisKey": "shadow-match",
+      "slug": "abbina-le-ombre",
+      "status": 200,
+      "descriptionLength": 135,
+      "descriptionPreview": "Abbina ogni figura alla sua ombra collegandole con una linea. Gioco di percezione visiva e attenzione per la scuola dell&#x27;infanzia.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 135
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "e9502613c56cdb72a997e0adeb3cb1f8d228aff7"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/treno-dell-alfabeto/",
+      "locale": "it",
+      "axis": "exercise-type",
+      "axisKey": "alphabet-train",
+      "slug": "treno-dell-alfabeto",
+      "status": 200,
+      "descriptionLength": 134,
+      "descriptionPreview": "Il treno dell&#x27;alfabeto aiuta i bambini a ordinare le lettere dalla A alla Z trascinando i vagoni. Gioco online e PDF da stampare.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 134
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "3537690caa7ed22a79e3ad55bfa21060bc729dda"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/preposizioni/",
+      "locale": "it",
+      "axis": "exercise-type",
+      "axisKey": "prepositions",
+      "slug": "preposizioni",
+      "status": 200,
+      "descriptionLength": 135,
+      "descriptionPreview": "Preposizioni illustrate: sopra, sotto, dentro e fuori. I bambini scelgono dove si trova l&#x27;oggetto. Lessico spaziale per i piccoli.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 135
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "5959e630c6f37e9cd0105d135778b0aba869b957"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/indovina-la-parola/",
+      "locale": "it",
+      "axis": "exercise-type",
+      "axisKey": "word-guess",
+      "slug": "indovina-la-parola",
+      "status": 200,
+      "descriptionLength": 130,
+      "descriptionPreview": "Indovina la parola lettera per lettera a partire dall&#x27;immagine indizio. Esercizio di lettura e scrittura per i primi lettori.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 130
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "3781476f02450b2132c75a5dcc8b9e05bc804d5b"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/anagrammi/",
+      "locale": "it",
+      "axis": "exercise-type",
+      "axisKey": "word-scramble",
+      "slug": "anagrammi",
+      "status": 200,
+      "descriptionLength": 128,
+      "descriptionPreview": "Anagrammi per bambini: rimetti in ordine le lettere mescolate e ricostruisci la parola. Gioco di lettura per la prima e seconda.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 128
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d3348d2a10d89400b397f11ea6fc4f6674225639"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/cerca-parole/",
+      "locale": "it",
+      "axis": "exercise-type",
+      "axisKey": "wordsearch",
+      "slug": "cerca-parole",
+      "status": 200,
+      "descriptionLength": 140,
+      "descriptionPreview": "Cerca parole nella griglia di lettere trascinando il dito sulle parole nascoste. Esercizio di lettura per la primaria, online o da stampare.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 140
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "f731173c7f94fa5de9c0bd1c4b898750741f6ae1"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/cruciverba/",
+      "locale": "it",
+      "axis": "exercise-type",
+      "axisKey": "crossword",
+      "slug": "cruciverba",
+      "status": 200,
+      "descriptionLength": 136,
+      "descriptionPreview": "Cruciverba illustrati per i piccoli lettori: gli indizi sono immagini, le risposte parole da scrivere lettera per lettera nella griglia.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 136
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "0d9ec664e6c6c5ae5a11fe5100bd03f1f861528d"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/trova-e-conta/",
+      "locale": "it",
+      "axis": "exercise-type",
+      "axisKey": "find-and-count",
+      "slug": "trova-e-conta",
+      "status": 200,
+      "descriptionLength": 132,
+      "descriptionPreview": "Trova e conta gli oggetti nascosti nella scena e segna quanti ne vedi. Attività di attenzione visiva per l&#x27;infanzia e la prima.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 132
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "f646bb9cec104ebdebd3c0ad210817a59e3df8c9"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/trova-gli-oggetti/",
+      "locale": "it",
+      "axis": "exercise-type",
+      "axisKey": "find-objects",
+      "slug": "trova-gli-oggetti",
+      "status": 200,
+      "descriptionLength": 123,
+      "descriptionPreview": "Trova gli oggetti nella scena affollata toccandoli uno a uno. Gioco di osservazione ideale per il potenziamento e i tavoli.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 123
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "72747e471af753479c14fdff5a36e451c63642af"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/caccia-al-tesoro/",
+      "locale": "it",
+      "axis": "exercise-type",
+      "axisKey": "treasure-hunt",
+      "slug": "caccia-al-tesoro",
+      "status": 200,
+      "descriptionLength": 125,
+      "descriptionPreview": "Caccia al tesoro su griglia: segui le indicazioni e traccia il percorso fino allo scrigno. Gioco di direzioni e orientamento.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 125
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b0c909566fa4fe870ceb27863f0c08a1510d2f73"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/pezzi-mancanti/",
+      "locale": "it",
+      "axis": "exercise-type",
+      "axisKey": "missing-pieces",
+      "slug": "pezzi-mancanti",
+      "status": 200,
+      "descriptionLength": 128,
+      "descriptionPreview": "Pezzi mancanti: trova la parte che completa ogni immagine e trascinala al posto giusto. Gioco di osservazione per i più piccoli.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 128
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "1763d9d2c049a80470f9a74d75583bbb74b76268"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/l-intruso/",
+      "locale": "it",
+      "axis": "exercise-type",
+      "axisKey": "odd-one-out",
+      "slug": "l-intruso",
+      "status": 200,
+      "descriptionLength": 131,
+      "descriptionPreview": "L&#x27;intruso: tra quattro immagini i bambini scelgono quella diversa. Esercizio di categorizzazione e ragionamento per i piccoli.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 131
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "ff8a561db84ba64b70aa0f56e4f65c0dedda7a9f"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/4-luglio/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "4th_of_july",
+      "slug": "4-luglio",
+      "status": 200,
+      "descriptionLength": 137,
+      "descriptionPreview": "Schede a tema 4 luglio, la festa dell&#x27;indipendenza americana: bandiere, fuochi e stelle per attività di cultura e lessico in classe.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 137
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "da0feeb632e07adb16b5bf73369e97a901c39b19"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/accessori/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "accessories",
+      "slug": "accessori",
+      "status": 200,
+      "descriptionLength": 135,
+      "descriptionPreview": "Esercizi a tema accessori: borse, cappelli, occhiali e orologi. Immagini colorate per imparare il lessico quotidiano all&#x27;infanzia.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 135
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "22fde77b5b3231bad5947aa9e2c27d402d420d11"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/attivita/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "activities",
+      "slug": "attivita",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Attività di tutti i giorni illustrate: correre, dormire, leggere e mangiare. Verbi e azioni per il lessico dei bambini dell&#x27;infanzia.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "f9a0d3a251d03be92ff53909f236f4c40a005595"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/animali/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "animals",
+      "slug": "animali",
+      "status": 200,
+      "descriptionLength": 129,
+      "descriptionPreview": "Esercizi a tema animali con immagini colorate di cane, gatto, leone e mucca. Perfetti per il circle time e l&#x27;angolo lettura.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 129
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "818c4859703ca246b521553bf65dc54c0eef3ebd"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/in-giro-per-casa/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "around_the_house",
+      "slug": "in-giro-per-casa",
+      "status": 200,
+      "descriptionLength": 131,
+      "descriptionPreview": "In giro per casa: oggetti delle varie stanze in immagini colorate. Lessico domestico per i bambini della scuola dell&#x27;infanzia.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 131
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "5a47f979abd4400e2565e19cc3c66a8aceba3637"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/al-supermercato/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "at_the_supermarket",
+      "slug": "al-supermercato",
+      "status": 200,
+      "descriptionLength": 123,
+      "descriptionPreview": "Al supermercato: carrello, cassa, frutta e verdura in immagini colorate. Lessico della spesa per giochi di ruolo in classe.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 123
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "8d0bdb852bd931ad48ccb9059f98384bb1bc8a8c"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/panetteria/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "bakery",
+      "slug": "panetteria",
+      "status": 200,
+      "descriptionLength": 131,
+      "descriptionPreview": "A tema panetteria: pane, croissant, torte e biscotti in immagini colorate. Lessico goloso per attività ai tavoli e giochi di ruolo.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 131
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "25c0ddd75e2d78d9c54769b49aee454f6d01098d"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/spiaggia/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "beach",
+      "slug": "spiaggia",
+      "status": 200,
+      "descriptionLength": 127,
+      "descriptionPreview": "Esercizi a tema spiaggia con secchiello, paletta, conchiglie e ombrellone. Immagini colorate per il lessico estivo dei piccoli.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 127
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b93344a2bcaa56319a33ea6c9e74193c1537ae01"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/uccelli/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "birds",
+      "slug": "uccelli",
+      "status": 200,
+      "descriptionLength": 127,
+      "descriptionPreview": "Esercizi a tema uccelli con immagini colorate di passero, gufo, anatra e pappagallo. Lessico naturalistico per l&#x27;infanzia.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 127
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "4ee661378b5f3101a8083fbf462751de23422d55"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/uccelli-2/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "birds_2",
+      "slug": "uccelli-2",
+      "status": 200,
+      "descriptionLength": 132,
+      "descriptionPreview": "Selezione aggiuntiva di immagini di uccelli a colori: nuovi soggetti per ampliare le schede di lessico e osservazione naturalistica.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 132
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "456c32af18be1ff85d9c648b538f71a3eb0e0e15"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/parti-del-corpo/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "body_parts",
+      "slug": "parti-del-corpo",
+      "status": 200,
+      "descriptionLength": 139,
+      "descriptionPreview": "Parti del corpo illustrate: testa, mani, piedi e occhi. Lessico di base in immagini colorate per i bambini della scuola dell&#x27;infanzia.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 139
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "59dde39341725770dee63f27d924e9711577375c"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/colazione/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "breakfast",
+      "slug": "colazione",
+      "status": 200,
+      "descriptionLength": 125,
+      "descriptionPreview": "A tema colazione: latte, pane, uova e succo in immagini colorate. Lessico dei pasti per giochi di ruolo e attività ai tavoli.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 125
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "7fde128fd0c213c914705e73c6e96a7828cbe419"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/campeggio/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "camping",
+      "slug": "campeggio",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Esercizi a tema campeggio con tenda, zaino, falò e torcia. Immagini colorate per il lessico dell&#x27;avventura all&#x27;aria aperta.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d5ea8c497606978b3af4716dd7cbe677de077c64"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/natale/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "christmas",
+      "slug": "natale",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Esercizi a tema Natale con albero, regali, Babbo Natale e renne. Immagini colorate per decorare l&#x27;aula e il circle time festivo.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "f247d8602ae7e2ac6f44ede36e7676b93a1fce3e"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/aula/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "classroom",
+      "slug": "aula",
+      "status": 200,
+      "descriptionLength": 127,
+      "descriptionPreview": "A tema aula: banchi, lavagna, matite e zaini in immagini colorate. Lessico scolastico per i primi giorni di scuola dei piccoli.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 127
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "7f509f14ec0e638490c26f7c98d7e649b0bc5695"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/abbigliamento/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "clothing",
+      "slug": "abbigliamento",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Esercizi a tema abbigliamento con maglie, pantaloni, scarpe e cappelli in immagini colorate. Lessico dei vestiti per l&#x27;infanzia.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "f196e3c2f2042c7bfa9cf3b0665e75ec15e91203"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/colori/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "colors",
+      "slug": "colori",
+      "status": 200,
+      "descriptionLength": 135,
+      "descriptionPreview": "A tema colori: oggetti di ogni tinta in immagini vivaci. Riconoscere e nominare i colori con i bambini della scuola dell&#x27;infanzia.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 135
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "eab64fc1d97759370f74ebef9519ad0e3dd48f0d"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/dolci-e-dolciumi/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "desserts_and_sweets",
+      "slug": "dolci-e-dolciumi",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "A tema dolci e dolciumi: gelati, torte, caramelle e cioccolato in immagini colorate. Lessico goloso per giochi di ruolo all&#x27;infanzia.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "a368b26353ebe5472cc21c401a3ecb2afc6ab9a4"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/dinosauri/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "dinosaurs",
+      "slug": "dinosauri",
+      "status": 200,
+      "descriptionLength": 127,
+      "descriptionPreview": "Esercizi a tema dinosauri con T-rex, triceratopo e stegosauro in immagini colorate. Lessico preistorico amatissimo dai piccoli.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 127
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "4a36c6ed5af677fb3b63d4df833dc0439a646aca"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/pasqua/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "easter",
+      "slug": "pasqua",
+      "status": 200,
+      "descriptionLength": 137,
+      "descriptionPreview": "A tema Pasqua: coniglietti, uova decorate e pulcini in immagini colorate. Attività primaverili per decorare l&#x27;aula e il circle time.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 137
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "29ce52e1f2e28849620f199adcbee5b5f650737c"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/emozioni/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "emotions",
+      "slug": "emozioni",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Esercizi a tema emozioni con volti felici, tristi, arrabbiati e sorpresi. Immagini colorate per parlare di sentimenti al circle time.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "3dcb1b10a7cac0a1b680d12b64f50458bfbe91f0"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/animali-della-fattoria/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "farm_animals",
+      "slug": "animali-della-fattoria",
+      "status": 200,
+      "descriptionLength": 131,
+      "descriptionPreview": "A tema animali della fattoria: mucca, maiale, gallina e pecora in immagini colorate. Lessico rurale per il circle time dei piccoli.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 131
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "22059cf5cb1b333b0cb00b69e9116e6f93e120d0"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/fiori/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "flowers",
+      "slug": "fiori",
+      "status": 200,
+      "descriptionLength": 130,
+      "descriptionPreview": "Esercizi a tema fiori con rose, tulipani, margherite e girasoli in immagini colorate. Lessico della primavera per l&#x27;infanzia.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 130
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "a32ca6bf03109317171ba084aea3c476e046f0f6"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/creature-della-foresta/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "forest_creatures",
+      "slug": "creature-della-foresta",
+      "status": 200,
+      "descriptionLength": 130,
+      "descriptionPreview": "A tema creature della foresta: volpe, cervo, scoiattolo e riccio in immagini colorate. Lessico del bosco per l&#x27;angolo natura.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 130
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "cac55d54ac6351c0be815585cb7a3cc1824aac0b"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/frutta/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "fruits",
+      "slug": "frutta",
+      "status": 200,
+      "descriptionLength": 136,
+      "descriptionPreview": "Esercizi a tema frutta con mela, banana, fragola e uva in immagini colorate. Lessico sano per i bambini della scuola dell&#x27;infanzia.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 136
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "a0aac24295912c2f940a6d2bede037af65d6b4e4"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/mobili/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "furniture",
+      "slug": "mobili",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "A tema mobili: tavolo, sedia, letto e armadio in immagini colorate. Lessico della casa per i bambini della scuola dell&#x27;infanzia.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "5cbdd3986a893103692d106ab694d46507d23de4"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/ospedale/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "hospital",
+      "slug": "ospedale",
+      "status": 200,
+      "descriptionLength": 139,
+      "descriptionPreview": "A tema ospedale: medico, infermiera, ambulanza e medicine in immagini colorate. Lessico della salute per giochi di ruolo all&#x27;infanzia.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 139
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "385f1197f5f64b642c8a231c3a16f718d37b34a7"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/insetti-e-scarafaggi/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "insects_and_bugs",
+      "slug": "insetti-e-scarafaggi",
+      "status": 200,
+      "descriptionLength": 132,
+      "descriptionPreview": "A tema insetti: farfalla, ape, coccinella e formica in immagini colorate. Lessico del giardino per l&#x27;angolo natura dei piccoli.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 132
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b34e25eefbc0a6524181afebd5dc37b113e4b98d"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/utensili-da-cucina/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "kitchen_tools",
+      "slug": "utensili-da-cucina",
+      "status": 200,
+      "descriptionLength": 123,
+      "descriptionPreview": "A tema utensili da cucina: mestolo, coltello, pentola e frusta in immagini colorate. Lessico per giochi di ruolo ai tavoli.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 123
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "db1d967ca4c9ee72997a10d7cb48cfa590a2eb34"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/varie/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "miscellaneous",
+      "slug": "varie",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Oggetti vari di tutti i giorni in immagini colorate: una raccolta mista per ampliare il lessico quotidiano dei piccoli dell&#x27;infanzia.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "1f100c77312f13de51b9e1b77ff2d8ce92a3c4f5"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/musica/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "music",
+      "slug": "musica",
+      "status": 200,
+      "descriptionLength": 131,
+      "descriptionPreview": "Esercizi a tema musica con chitarra, tamburo, pianoforte e tromba in immagini colorate. Lessico degli strumenti per il circle time.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 131
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "177bb6e00f5da6baea05eb4eba177a5c467da08d"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/professioni/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "occupations",
+      "slug": "professioni",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "A tema professioni: medico, pompiere, cuoco e insegnante in immagini colorate. Lessico dei mestieri per giochi di ruolo all&#x27;infanzia.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "fbfec5290c32171e74b52450e5509b54e002892e"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/vita-oceanica/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "ocean_life",
+      "slug": "vita-oceanica",
+      "status": 200,
+      "descriptionLength": 135,
+      "descriptionPreview": "A tema vita oceanica: pesci, balene, polpi e stelle marine in immagini colorate. Lessico del mare per l&#x27;angolo natura dei piccoli.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 135
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d5e4ceccf9c1ded24d51982c92df31aeb9406bb2"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/animali-domestici/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "pets",
+      "slug": "animali-domestici",
+      "status": 200,
+      "descriptionLength": 132,
+      "descriptionPreview": "Esercizi a tema animali domestici con cane, gatto, coniglio e pesce rosso in immagini colorate. Lessico di casa per l&#x27;infanzia.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 132
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "6ac0761538b5397d81b01eea0175a361dafcb798"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/ufficio-postale/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "post_office",
+      "slug": "ufficio-postale",
+      "status": 200,
+      "descriptionLength": 123,
+      "descriptionPreview": "A tema ufficio postale: lettere, francobolli, pacchi e postino in immagini colorate. Lessico per giochi di ruolo in classe.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 123
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "76482c0bdab6d15fb6ef6758507ca1a0c24d7990"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/rettili-e-anfibi/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "reptiles_and_amphibians",
+      "slug": "rettili-e-anfibi",
+      "status": 200,
+      "descriptionLength": 134,
+      "descriptionPreview": "A tema rettili e anfibi: serpente, tartaruga, rana e lucertola in immagini colorate. Lessico naturalistico per l&#x27;angolo scoperta.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 134
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "32d66a312f932a5aae1ef0c845c50bbd0791acfc"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/forme/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "shapes",
+      "slug": "forme",
+      "status": 200,
+      "descriptionLength": 135,
+      "descriptionPreview": "Esercizi a tema forme: cerchio, quadrato, triangolo e stella in immagini colorate. Riconoscere le figure geometriche all&#x27;infanzia.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 135
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "60d69ff2972f22ec5200e93b96d7336e0c03730e"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/spazio/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "space",
+      "slug": "spazio",
+      "status": 200,
+      "descriptionLength": 145,
+      "descriptionPreview": "A tema spazio: razzi, pianeti, stelle e astronauti in immagini colorate. Lessico dell&#x27;universo per i piccoli esploratori dell&#x27;infanzia.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 145
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b0e1739b298b54590ceb45e676800fe715e583d4"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/primavera/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "spring",
+      "slug": "primavera",
+      "status": 200,
+      "descriptionLength": 126,
+      "descriptionPreview": "Esercizi a tema primavera con fiori, farfalle, pioggia e germogli in immagini colorate. Lessico stagionale per il circle time.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 126
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "cb06c1f2d66102480c35ea7edd971e713cd77985"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/estate/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "summer",
+      "slug": "estate",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "A tema estate: sole, gelati, mare e occhiali in immagini colorate. Lessico stagionale per le attività di fine anno all&#x27;infanzia.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "c17fcf194747d938826d4a5b6f2a267a765f372d"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/giorno-del-ringraziamento/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "thanksgivinng",
+      "slug": "giorno-del-ringraziamento",
+      "status": 200,
+      "descriptionLength": 128,
+      "descriptionPreview": "Schede a tema Giorno del Ringraziamento, la festa americana del raccolto: tacchino, zucche e cornucopia per attività di cultura.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 128
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "7349b99c9fde0e9d0f3d35e8465516dd6b96a015"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/cose-che-volano/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "things_that_fly",
+      "slug": "cose-che-volano",
+      "status": 200,
+      "descriptionLength": 136,
+      "descriptionPreview": "A tema cose che volano: aerei, uccelli, aquiloni e mongolfiere in immagini colorate. Lessico del cielo per i piccoli dell&#x27;infanzia.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 136
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "787081a99be2f0ab9333260503b9013a93ecd181"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/attrezzi/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "tools",
+      "slug": "attrezzi",
+      "status": 200,
+      "descriptionLength": 134,
+      "descriptionPreview": "Esercizi a tema attrezzi con martello, chiave, sega e cacciavite in immagini colorate. Lessico del lavoro manuale per l&#x27;infanzia.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 134
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "e84540e0dd37cb3676366c8d52737e1e72cd424e"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/giocattoli/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "toys",
+      "slug": "giocattoli",
+      "status": 200,
+      "descriptionLength": 141,
+      "descriptionPreview": "Esercizi a tema giocattoli con palla, bambola, macchinina e orsetto in immagini colorate. Lessico del gioco per i piccoli dell&#x27;infanzia.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 141
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "a8527bd64c93f475f83b8649de4c0d9c2514cd7a"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/alberi/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "tree",
+      "slug": "alberi",
+      "status": 200,
+      "descriptionLength": 139,
+      "descriptionPreview": "Esercizi a tema alberi con querce, pini, foglie e radici in immagini colorate. Lessico della natura per l&#x27;angolo scoperta dei piccoli.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 139
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "0c25387761eacb5bcc62a115581fda90274dfd03"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/verdure/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "vegetables",
+      "slug": "verdure",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "A tema verdure: carota, pomodoro, broccolo e patata in immagini colorate. Lessico sano per i bambini della scuola dell&#x27;infanzia.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d27ba13db6a86a238676cb366d4b1c8c18b0d0a2"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/veicoli/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "vehicles",
+      "slug": "veicoli",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Esercizi a tema veicoli con auto, camion, treno e aereo in immagini colorate. Lessico dei trasporti per i piccoli dell&#x27;infanzia.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "cb3dd9a90367071d0f547936d833125d24e04805"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/meteo/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "weather",
+      "slug": "meteo",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Esercizi a tema meteo con sole, pioggia, neve e arcobaleno in immagini colorate. Lessico del tempo per il calendario del circle time.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "cfbcf496b6a2c80eb0f9a1dee5a21172b396cbe4"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/inverno/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "winter",
+      "slug": "inverno",
+      "status": 200,
+      "descriptionLength": 136,
+      "descriptionPreview": "A tema inverno: neve, pupazzi, sciarpe e fiocchi in immagini colorate. Lessico stagionale per le attività delle feste all&#x27;infanzia.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 136
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "528ce90729d4a34dca7d6790e885041ab24f6de7"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/animali-dello-zoo/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "zoo_animals",
+      "slug": "animali-dello-zoo",
+      "status": 200,
+      "descriptionLength": 130,
+      "descriptionPreview": "A tema animali dello zoo: leone, elefante, giraffa e scimmia in immagini colorate. Lessico esotico per il circle time dei piccoli.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 130
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "685874063d8b2391c041c5f86fd7c38da49297b2"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/animali-bn/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "animals_bw",
+      "slug": "animali-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/animali-bn-2/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "animals_bw_2",
+      "slug": "animali-bn-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/animali-bn-3/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "animals_bw_3",
+      "slug": "animali-bn-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/animali-bn-4/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "animals_bw_4",
+      "slug": "animali-bn-4",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/animali-bn-5/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "animals_bw_5",
+      "slug": "animali-bn-5",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/abbigliamento-bn/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "apparel_bw",
+      "slug": "abbigliamento-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/spiaggia-bn/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "beach_bw",
+      "slug": "spiaggia-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/spiaggia-bn-2/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "beach_bw_2",
+      "slug": "spiaggia-bn-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/uccelli-b-n/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "birds_bw",
+      "slug": "uccelli-b-n",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/uccelli-b-n-2/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "birds_bw_2",
+      "slug": "uccelli-b-n-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/natale-b-n/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "christmas_bw",
+      "slug": "natale-b-n",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/natale-b-n-2/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "christmas_bw_2",
+      "slug": "natale-b-n-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/aula-b-n/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "classroom_bw",
+      "slug": "aula-b-n",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/aula-2-b-n/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "classroom_bw_2",
+      "slug": "aula-2-b-n",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/dolce-b-n/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "dessert_bw",
+      "slug": "dolce-b-n",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/pasqua-bn/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "easter_bw",
+      "slug": "pasqua-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/pasqua-bn-2/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "easter_bw_2",
+      "slug": "pasqua-bn-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/istruzione-bn/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "education_bw",
+      "slug": "istruzione-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/volti-bn/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "faces_bw",
+      "slug": "volti-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/animali-della-fattoria-bn/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "farm_animals_bw",
+      "slug": "animali-della-fattoria-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/fattoria-bn/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "farm_bw",
+      "slug": "fattoria-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/cibo-bn/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "food_bw",
+      "slug": "cibo-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/cibo-bn-2/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "food_bw_2",
+      "slug": "cibo-bn-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/cibo-bn-3/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "food_bw_3",
+      "slug": "cibo-bn-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/frutta-bn/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "fruits_bw",
+      "slug": "frutta-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/mobili-bn/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "furniture_bw",
+      "slug": "mobili-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/casa-e-natura-bn/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "home_and_nature_bw",
+      "slug": "casa-e-natura-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/casa-bn/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "home_bw",
+      "slug": "casa-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/casa-bn-2/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "home_bw_2",
+      "slug": "casa-bn-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/household-bw/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "household_bw",
+      "slug": "household-bw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/cucina-bn/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "kitchen_bw",
+      "slug": "cucina-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/natura-bn/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "nature_bw",
+      "slug": "natura-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/oggetti-bn/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "objects_bw",
+      "slug": "oggetti-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/vita-marina-bn/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "sea_life_bw",
+      "slug": "vita-marina-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/vita-marina-bn-2/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "sea_life_bw_2",
+      "slug": "vita-marina-bn-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/spazio-bn/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "space_bw",
+      "slug": "spazio-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/sport-bn/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "sports_bw",
+      "slug": "sport-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/sport-bn-2/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "sports_bw_2",
+      "slug": "sport-bn-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/attrezzi-bn/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "tools_bw",
+      "slug": "attrezzi-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/giocattoli-bn/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "toys_bw",
+      "slug": "giocattoli-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/giocattoli-bn-2/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "toys_bw_2",
+      "slug": "giocattoli-bn-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/viaggi-e-vacanze-bn/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "travel_and_holiday_bw",
+      "slug": "viaggi-e-vacanze-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/san-valentino-bn/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "valentine_bw",
+      "slug": "san-valentino-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/san-valentino-bn-2/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "valentine_bw_2",
+      "slug": "san-valentino-bn-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/verdure-bn/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "vegetables_bw",
+      "slug": "verdure-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/verdure-bn-2/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "vegetables_bw_2",
+      "slug": "verdure-bn-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/veicoli-bn/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "vehicles_bw",
+      "slug": "veicoli-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/veicoli-bn-2/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "vehicles_bw_2",
+      "slug": "veicoli-bn-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/veicoli-bn-3/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "vehicles_bw_3",
+      "slug": "veicoli-bn-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/animali-dello-zoo-bn/",
+      "locale": "it",
+      "axis": "theme",
+      "axisKey": "zoo_animals_bw",
+      "slug": "animali-dello-zoo-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/scuola-dell-infanzia-3-5-anni/",
+      "locale": "it",
+      "axis": "educational-level",
+      "axisKey": "preschool",
+      "slug": "scuola-dell-infanzia-3-5-anni",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Attività per la scuola dell&#x27;infanzia (3-5 anni): giochi semplici di conteggio, colori e forme da fare online o stampare per i tavoli.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "966f884dbf8115a7f3527d25e60b177d52c7bb55"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/scuola-dell-infanzia-5-7-anni/",
+      "locale": "it",
+      "axis": "educational-level",
+      "axisKey": "kindergarten",
+      "slug": "scuola-dell-infanzia-5-7-anni",
+      "status": 200,
+      "descriptionLength": 141,
+      "descriptionPreview": "Esercizi per la scuola dell&#x27;infanzia (5-7 anni): primi numeri, lettere e abbinamenti per preparare i bambini al passaggio alla primaria.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 141
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "20257ec0ee15c300b532e5cdf783d29d6f162a96"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/scuola-primaria-classe-prima/",
+      "locale": "it",
+      "axis": "educational-level",
+      "axisKey": "grade-1",
+      "slug": "scuola-primaria-classe-prima",
+      "status": 200,
+      "descriptionLength": 124,
+      "descriptionPreview": "Schede e giochi per la classe prima della primaria: addizioni, lettura e logica per consolidare le prime competenze di base.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 124
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d091780b663cd4ceed2945296730c0a1c53ea1fa"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/scuola-primaria-classe-seconda/",
+      "locale": "it",
+      "axis": "educational-level",
+      "axisKey": "grade-2",
+      "slug": "scuola-primaria-classe-seconda",
+      "status": 200,
+      "descriptionLength": 125,
+      "descriptionPreview": "Attività per la classe seconda della primaria: calcolo, parole ed enigmi per il potenziamento e i compiti a casa dei bambini.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 125
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=it)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "65e7bf16a21df109c6e787050f254fc87de0c890"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/it/topic/scuola-primaria-classe-terza/",
+      "locale": "it",
+      "axis": "educational-level",
+      "axisKey": "grade-3",
+      "slug": "scuola-primaria-classe-terza",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    }
+  ]
+}

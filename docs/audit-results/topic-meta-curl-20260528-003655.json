@@ -1,0 +1,3007 @@
+{
+  "opts": {
+    "baseUrl": "https://www.lessoncraftstudio.com",
+    "locales": [
+      "nl"
+    ],
+    "axes": [
+      "exercise-type",
+      "theme",
+      "educational-level"
+    ],
+    "outDir": "C:\\Users\\rkgen\\lessoncraftstudio\\docs\\audit-results",
+    "concurrency": 10,
+    "sample": null,
+    "includeIntersections": false,
+    "timeoutMs": 15000
+  },
+  "byLocale": {
+    "nl": {
+      "locale": "nl",
+      "total": 134,
+      "pass": 34,
+      "fail": 100,
+      "byAxis": {
+        "exercise-type": {
+          "total": 29,
+          "pass": 29
+        },
+        "theme": {
+          "total": 100,
+          "pass": 1
+        },
+        "educational-level": {
+          "total": 5,
+          "pass": 4
+        }
+      },
+      "defectCounts": {
+        "PAGE_HTTP_404": 100
+      },
+      "fallbackCount": 0,
+      "tooShortCount": 0,
+      "tooLongCount": 0,
+      "nonUniqueCount": 0,
+      "missingCount": 0,
+      "sampleFailures": [
+        {
+          "url": "https://www.lessoncraftstudio.com/nl/topic/4-juli/",
+          "axisKey": "4th_of_july",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/nl/topic/accessoires/",
+          "axisKey": "accessories",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/nl/topic/activiteiten/",
+          "axisKey": "activities",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/nl/topic/rond-het-huis/",
+          "axisKey": "around_the_house",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/nl/topic/in-de-supermarkt/",
+          "axisKey": "at_the_supermarket",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        }
+      ]
+    }
+  },
+  "perPage": [
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/optellen/",
+      "locale": "nl",
+      "axis": "exercise-type",
+      "axisKey": "addition",
+      "slug": "optellen",
+      "status": 200,
+      "descriptionLength": 126,
+      "descriptionPreview": "Optellen oefenen voor groep 1, 2 en 3: van plaatjes-sommen tot werkbladen tot 10 en tot 20, aansluitend bij de SLO kerndoelen.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 126
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "244dc2540098d62f067291f564dcd353ec3edc18"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/foto-sudoku/",
+      "locale": "nl",
+      "axis": "exercise-type",
+      "axisKey": "sudoku",
+      "slug": "foto-sudoku",
+      "status": 200,
+      "descriptionLength": 125,
+      "descriptionPreview": "Foto-sudoku voor de basisschool: 4x4 puzzels met plaatjes in plaats van cijfers, leuk voor logisch denken in groep 1, 2 en 3.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 125
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "4d4cfb357cc54e59117bba8b6904019bed4174da"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/cryptogram/",
+      "locale": "nl",
+      "axis": "exercise-type",
+      "axisKey": "cryptogram",
+      "slug": "cryptogram",
+      "status": 200,
+      "descriptionLength": 129,
+      "descriptionPreview": "Cryptogrammen voor groep 3, 4 en 5: leerlingen ontcijferen woorden via letter-symboolcodes en oefenen spelling en logisch denken.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 129
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "c9b654fc230573ad56cb36c5be5e76f2afb8e889"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/beeldpad/",
+      "locale": "nl",
+      "axis": "exercise-type",
+      "axisKey": "picture-path",
+      "slug": "beeldpad",
+      "status": 200,
+      "descriptionLength": 129,
+      "descriptionPreview": "Beeldpad-werkbladen: leerlingen volgen een route door afbeeldingen en oefenen ruimtelijk inzicht en concentratie in groep 1 en 2.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 129
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b6e823a49f4e9025296452ce9e6531a3b4fa27b7"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/aftrekken/",
+      "locale": "nl",
+      "axis": "exercise-type",
+      "axisKey": "subtraction",
+      "slug": "aftrekken",
+      "status": 200,
+      "descriptionLength": 124,
+      "descriptionPreview": "Aftrekken oefenen voor groep 2 en 3: van plaatjes-sommen tot werkbladen tot 10 en tot 20, aansluitend bij de SLO kerndoelen.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 124
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "85ce89887092b53f703c2266b5860c87f105d7c7"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/code-optellen/",
+      "locale": "nl",
+      "axis": "exercise-type",
+      "axisKey": "code-addition",
+      "slug": "code-optellen",
+      "status": 200,
+      "descriptionLength": 129,
+      "descriptionPreview": "Code-optellen voor de basisschool: leerlingen kraken letter-cijfercodes en versterken hun rekenvaardigheid op een speelse manier.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 129
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d65407d2818dad486eb589713838b46d0a268c3f"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/meer-minder/",
+      "locale": "nl",
+      "axis": "exercise-type",
+      "axisKey": "more-less",
+      "slug": "meer-minder",
+      "status": 200,
+      "descriptionLength": 120,
+      "descriptionPreview": "Meer of minder vergelijken: werkbladen waarmee kleuters en kinderen uit groep 3 hoeveelheden leren beoordelen en tellen.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 120
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "0e744885886834a2c0d1e2d53b661d6e5783b327"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/rekenpuzzel/",
+      "locale": "nl",
+      "axis": "exercise-type",
+      "axisKey": "math-puzzle",
+      "slug": "rekenpuzzel",
+      "status": 200,
+      "descriptionLength": 127,
+      "descriptionPreview": "Rekenpuzzels voor groep 2 en 3: leerlingen lossen sommen op in puzzelvorm en versterken rekenvaardigheid op een speelse manier.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 127
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d56f989fd6caadd9103c05d37aa1757ee5ff432b"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/rekenwerkblad/",
+      "locale": "nl",
+      "axis": "exercise-type",
+      "axisKey": "math-worksheet",
+      "slug": "rekenwerkblad",
+      "status": 200,
+      "descriptionLength": 123,
+      "descriptionPreview": "Rekenwerkbladen voor de basisschool: optellen, aftrekken en getalherkenning aansluitend bij de SLO kerndoelen voor rekenen.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 123
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "ecfdc4271bd70ebb143d473d44355842994157af"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/groot-klein/",
+      "locale": "nl",
+      "axis": "exercise-type",
+      "axisKey": "big-small",
+      "slug": "groot-klein",
+      "status": 200,
+      "descriptionLength": 129,
+      "descriptionPreview": "Spellen rond het vergelijken van groot en klein voor peuters die ruimtelijke begrippen leren via duidelijke concrete voorbeelden.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 129
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "5078f6764b6bfacdb498a3f37b8023e8fca477ec"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/grafiek-tellen/",
+      "locale": "nl",
+      "axis": "exercise-type",
+      "axisKey": "chart-count",
+      "slug": "grafiek-tellen",
+      "status": 200,
+      "descriptionLength": 129,
+      "descriptionPreview": "Tellen met staafdiagrammen voor groep 3: een eerste kennismaking met grafieken, ideaal voor klaslokaal-onderzoekjes en data-werk.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 129
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "44e7d83b4d65aeaf6e3ccd5f10240e20aa404e7f"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/patroontrein/",
+      "locale": "nl",
+      "axis": "exercise-type",
+      "axisKey": "pattern-train",
+      "slug": "patroontrein",
+      "status": 200,
+      "descriptionLength": 121,
+      "descriptionPreview": "Patroontrein-oefeningen: leerlingen vervolgen patroonreeksen en versterken logisch denken voor peuterklas en kleuterklas.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 121
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "f06d14318fb295b23bea28035afa3c819f30cd39"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/patroon-werkblad/",
+      "locale": "nl",
+      "axis": "exercise-type",
+      "axisKey": "pattern-worksheet",
+      "slug": "patroon-werkblad",
+      "status": 200,
+      "descriptionLength": 125,
+      "descriptionPreview": "Patroonwerkbladen voor de basisschool: kleur-, vorm- en beeldpatronen voortzetten om reken- en logica-vaardigheid te oefenen.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 125
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "79b0fe58ffb0ee7f84d8d85c098e142eb3f46545"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/bingo/",
+      "locale": "nl",
+      "axis": "exercise-type",
+      "axisKey": "bingo",
+      "slug": "bingo",
+      "status": 200,
+      "descriptionLength": 123,
+      "descriptionPreview": "Bingo-werkbladen voor de hele klas: leerkrachten printen kaarten en spelen woordenschat- of rekenbingo met groep 1, 2 en 3.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 123
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "a5044b78824de9c3983ab1f1509af8193d744ec3"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/rooster-koppelen/",
+      "locale": "nl",
+      "axis": "exercise-type",
+      "axisKey": "grid-match",
+      "slug": "rooster-koppelen",
+      "status": 200,
+      "descriptionLength": 132,
+      "descriptionPreview": "Rooster koppelen: leerlingen verbinden afbeeldingen in een raster om visuele en logische vaardigheden te oefenen, voor de onderbouw.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 132
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b38052229471919c66644f331088f20967fe0fde"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/koppelen/",
+      "locale": "nl",
+      "axis": "exercise-type",
+      "axisKey": "matching",
+      "slug": "koppelen",
+      "status": 200,
+      "descriptionLength": 128,
+      "descriptionPreview": "Koppeloefeningen voor de basisschool: leerlingen verbinden plaatje-plaatje of plaatje-woord paren en oefenen visuele waarneming.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 128
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "0b8185f0cc9d59eb308f3c5c9c100720062c7f42"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/beelden-sorteren/",
+      "locale": "nl",
+      "axis": "exercise-type",
+      "axisKey": "picture-sort",
+      "slug": "beelden-sorteren",
+      "status": 200,
+      "descriptionLength": 127,
+      "descriptionPreview": "Beelden sorteren in categorieën: leerlingen ordenen plaatjes per groep en oefenen classificeren voor peuterklas en kleuterklas.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 127
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "f691bd52ff04443d86e47468e57d20065038f353"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/schaduw-koppelen/",
+      "locale": "nl",
+      "axis": "exercise-type",
+      "axisKey": "shadow-match",
+      "slug": "schaduw-koppelen",
+      "status": 200,
+      "descriptionLength": 122,
+      "descriptionPreview": "Schaduw koppelen: leerlingen verbinden elk plaatje met zijn juiste silhouet en oefenen visuele waarneming in de onderbouw.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 122
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "ded4f68ec4203e7fc8ad1350633d36d78fbeace8"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/alfabettrein/",
+      "locale": "nl",
+      "axis": "exercise-type",
+      "axisKey": "alphabet-train",
+      "slug": "alfabettrein",
+      "status": 200,
+      "descriptionLength": 124,
+      "descriptionPreview": "Alfabettrein-oefeningen om letters op volgorde te zetten: spelend leren van het ABC voor peuterklas, kleuterklas en groep 3.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 124
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "8f0cc42ec74847df6265a33eaf7abd624312b61c"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/voorzetsels/",
+      "locale": "nl",
+      "axis": "exercise-type",
+      "axisKey": "prepositions",
+      "slug": "voorzetsels",
+      "status": 200,
+      "descriptionLength": 157,
+      "descriptionPreview": "Voorzetsel-werkbladen: leerlingen oefenen &#x27;op&#x27;, &#x27;onder&#x27; en &#x27;naast&#x27; aan de hand van plaatjes om ruimtelijke taal te ontwikkelen.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 157
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "269a921e9d25773521f3e3491286c9d1a4d0e5ee"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/woord-raden/",
+      "locale": "nl",
+      "axis": "exercise-type",
+      "axisKey": "word-guess",
+      "slug": "woord-raden",
+      "status": 200,
+      "descriptionLength": 122,
+      "descriptionPreview": "Woord raden voor de basisschool: leerlingen vullen letters in om woorden te ontdekken en oefenen spelling en woordenschat.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 122
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "50385f37289df71483a9b5551a95b417af6301f5"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/woordpuzzel/",
+      "locale": "nl",
+      "axis": "exercise-type",
+      "axisKey": "word-scramble",
+      "slug": "woordpuzzel",
+      "status": 200,
+      "descriptionLength": 120,
+      "descriptionPreview": "Woordpuzzels waarbij leerlingen door elkaar gehusselde letters tot het juiste woord schikken, leuk voor groep 3, 4 en 5.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 120
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "665e800d1edbcb7d81e799c97e80a065ae537deb"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/woordzoeker/",
+      "locale": "nl",
+      "axis": "exercise-type",
+      "axisKey": "wordsearch",
+      "slug": "woordzoeker",
+      "status": 200,
+      "descriptionLength": 122,
+      "descriptionPreview": "Woordzoekers voor de basisschool: leerlingen sporen verstopte woorden op in een letterraster en oefenen spelling en focus.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 122
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "146d771471ab4ee6ce638a0871c5913c872d0986"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/kruiswoordraadsel/",
+      "locale": "nl",
+      "axis": "exercise-type",
+      "axisKey": "crossword",
+      "slug": "kruiswoordraadsel",
+      "status": 200,
+      "descriptionLength": 126,
+      "descriptionPreview": "Kruiswoordraadsels voor de basisschool met plaatjes en korte aanwijzingen: woordenschat oefenen op een leuke, spelende manier.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 126
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "f940c9596b2916d2971ff61c2381feb0a2d9852b"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/zoek-en-tel/",
+      "locale": "nl",
+      "axis": "exercise-type",
+      "axisKey": "find-and-count",
+      "slug": "zoek-en-tel",
+      "status": 200,
+      "descriptionLength": 128,
+      "descriptionPreview": "Zoek-en-tel werkbladen voor de basisschool: leerlingen vinden objecten in een drukke scène en tellen ze, leuk voor groep 1 en 2.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 128
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "24ca11308b2b62da5dcabb504c419318c4c115a9"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/objecten-zoeken/",
+      "locale": "nl",
+      "axis": "exercise-type",
+      "axisKey": "find-objects",
+      "slug": "objecten-zoeken",
+      "status": 200,
+      "descriptionLength": 126,
+      "descriptionPreview": "Objecten zoeken in drukke zoekplaten: speurwerkbladen waarmee kleuters en kinderen uit groep 3 hun visuele waarneming oefenen.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 126
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "834e81966e794cfb6d9d1b1f943308636411e4a6"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/schatzoektocht/",
+      "locale": "nl",
+      "axis": "exercise-type",
+      "axisKey": "treasure-hunt",
+      "slug": "schatzoektocht",
+      "status": 200,
+      "descriptionLength": 123,
+      "descriptionPreview": "Schatzoektocht-werkbladen: leerlingen volgen aanwijzingen door een rooster om de schat te vinden, leuk voor logisch denken.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 123
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "822d0483255ce50f87a4f271282635a6e6de3620"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/ontbrekende-stukken/",
+      "locale": "nl",
+      "axis": "exercise-type",
+      "axisKey": "missing-pieces",
+      "slug": "ontbrekende-stukken",
+      "status": 200,
+      "descriptionLength": 123,
+      "descriptionPreview": "Ontbrekende stukken werkbladen: leerlingen vinden welk puzzelstuk er ontbreekt en oefenen visuele logica voor de onderbouw.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 123
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "4e7d7aae5bc2cce9961b27034156459804faf527"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/welke-hoort-niet-thuis/",
+      "locale": "nl",
+      "axis": "exercise-type",
+      "axisKey": "odd-one-out",
+      "slug": "welke-hoort-niet-thuis",
+      "status": 200,
+      "descriptionLength": 130,
+      "descriptionPreview": "Welke hoort er niet thuis: leerlingen kiezen het afwijkende plaatje en oefenen categoriseren en logisch denken in groep 1, 2 en 3.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 130
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "7cbda5e206d7fe31a3178221975a35972a6079f0"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/4-juli/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "4th_of_july",
+      "slug": "4-juli",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/accessoires/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "accessories",
+      "slug": "accessoires",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/activiteiten/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "activities",
+      "slug": "activiteiten",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/dieren/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "animals",
+      "slug": "dieren",
+      "status": 200,
+      "descriptionLength": 128,
+      "descriptionPreview": "Dierenwerkbladen voor de basisschool met kleurrijke afbeeldingen: tel-, sorteer-, koppel- en woordoefeningen vol bekende dieren.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 128
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "c7cd5c5b3ec2c699122117b57679b527157a956d"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/rond-het-huis/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "around_the_house",
+      "slug": "rond-het-huis",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/in-de-supermarkt/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "at_the_supermarket",
+      "slug": "in-de-supermarkt",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/bakkerij/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "bakery",
+      "slug": "bakkerij",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/strand/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "beach",
+      "slug": "strand",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/vogels/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "birds",
+      "slug": "vogels",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/vogels-2/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "birds_2",
+      "slug": "vogels-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/lichaamsdelen/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "body_parts",
+      "slug": "lichaamsdelen",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/ontbijt/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "breakfast",
+      "slug": "ontbijt",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/kamperen/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "camping",
+      "slug": "kamperen",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/kerstmis/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "christmas",
+      "slug": "kerstmis",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/klaslokaal/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "classroom",
+      "slug": "klaslokaal",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/kleding/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "clothing",
+      "slug": "kleding",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/kleuren/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "colors",
+      "slug": "kleuren",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/desserts-en-snoep/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "desserts_and_sweets",
+      "slug": "desserts-en-snoep",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/dinosaurussen/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "dinosaurs",
+      "slug": "dinosaurussen",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/pasen/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "easter",
+      "slug": "pasen",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/emoties/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "emotions",
+      "slug": "emoties",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/boerderijdieren/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "farm_animals",
+      "slug": "boerderijdieren",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/bloemen/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "flowers",
+      "slug": "bloemen",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/boswezens/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "forest_creatures",
+      "slug": "boswezens",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/fruit/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "fruits",
+      "slug": "fruit",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/meubels/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "furniture",
+      "slug": "meubels",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/ziekenhuis/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "hospital",
+      "slug": "ziekenhuis",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/insecten-en-beestjes/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "insects_and_bugs",
+      "slug": "insecten-en-beestjes",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/keukengerei/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "kitchen_tools",
+      "slug": "keukengerei",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/diversen/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "miscellaneous",
+      "slug": "diversen",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/muziek/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "music",
+      "slug": "muziek",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/beroepen/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "occupations",
+      "slug": "beroepen",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/oceaanleven/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "ocean_life",
+      "slug": "oceaanleven",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/huisdieren/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "pets",
+      "slug": "huisdieren",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/postkantoor/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "post_office",
+      "slug": "postkantoor",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/reptielen-en-amfibieen/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "reptiles_and_amphibians",
+      "slug": "reptielen-en-amfibieen",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/vormen/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "shapes",
+      "slug": "vormen",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/ruimte/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "space",
+      "slug": "ruimte",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/lente/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "spring",
+      "slug": "lente",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/zomer/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "summer",
+      "slug": "zomer",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/thanksgiving/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "thanksgivinng",
+      "slug": "thanksgiving",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/dingen-die-vliegen/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "things_that_fly",
+      "slug": "dingen-die-vliegen",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/gereedschap/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "tools",
+      "slug": "gereedschap",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/speelgoed/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "toys",
+      "slug": "speelgoed",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/bomen/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "tree",
+      "slug": "bomen",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/groenten/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "vegetables",
+      "slug": "groenten",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/voertuigen/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "vehicles",
+      "slug": "voertuigen",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/weer/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "weather",
+      "slug": "weer",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/winter/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "winter",
+      "slug": "winter",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/dierentuindieren/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "zoo_animals",
+      "slug": "dierentuindieren",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/dieren-zw/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "animals_bw",
+      "slug": "dieren-zw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/dieren-zw-2/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "animals_bw_2",
+      "slug": "dieren-zw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/dieren-zw-3/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "animals_bw_3",
+      "slug": "dieren-zw-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/dieren-zw-4/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "animals_bw_4",
+      "slug": "dieren-zw-4",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/dieren-zw-5/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "animals_bw_5",
+      "slug": "dieren-zw-5",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/kleding-zw/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "apparel_bw",
+      "slug": "kleding-zw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/strand-zw/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "beach_bw",
+      "slug": "strand-zw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/strand-zw-2/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "beach_bw_2",
+      "slug": "strand-zw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/vogels-z-w/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "birds_bw",
+      "slug": "vogels-z-w",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/vogels-z-w-2/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "birds_bw_2",
+      "slug": "vogels-z-w-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/kerstmis-z-w/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "christmas_bw",
+      "slug": "kerstmis-z-w",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/kerstmis-z-w-2/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "christmas_bw_2",
+      "slug": "kerstmis-z-w-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/klaslokaal-z-w/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "classroom_bw",
+      "slug": "klaslokaal-z-w",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/klaslokaal-2-z-w/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "classroom_bw_2",
+      "slug": "klaslokaal-2-z-w",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/nagerecht-z-w/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "dessert_bw",
+      "slug": "nagerecht-z-w",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/pasen-zw/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "easter_bw",
+      "slug": "pasen-zw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/pasen-zw-2/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "easter_bw_2",
+      "slug": "pasen-zw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/onderwijs-zw/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "education_bw",
+      "slug": "onderwijs-zw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/gezichten-zw/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "faces_bw",
+      "slug": "gezichten-zw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/boerderijdieren-zw/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "farm_animals_bw",
+      "slug": "boerderijdieren-zw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/boerderij-zw/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "farm_bw",
+      "slug": "boerderij-zw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/voedsel-zw/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "food_bw",
+      "slug": "voedsel-zw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/voedsel-zw-2/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "food_bw_2",
+      "slug": "voedsel-zw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/voedsel-zw-3/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "food_bw_3",
+      "slug": "voedsel-zw-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/fruit-zw/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "fruits_bw",
+      "slug": "fruit-zw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/meubels-zw/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "furniture_bw",
+      "slug": "meubels-zw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/huis-en-natuur-zw/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "home_and_nature_bw",
+      "slug": "huis-en-natuur-zw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/huis-zw/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "home_bw",
+      "slug": "huis-zw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/huis-zw-2/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "home_bw_2",
+      "slug": "huis-zw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/huishouden-zw/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "household_bw",
+      "slug": "huishouden-zw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/keuken-zw/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "kitchen_bw",
+      "slug": "keuken-zw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/natuur-zw/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "nature_bw",
+      "slug": "natuur-zw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/objecten-zw/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "objects_bw",
+      "slug": "objecten-zw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/zeeleven-zw/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "sea_life_bw",
+      "slug": "zeeleven-zw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/zeeleven-zw-2/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "sea_life_bw_2",
+      "slug": "zeeleven-zw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/ruimte-zw/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "space_bw",
+      "slug": "ruimte-zw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/sport-zw/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "sports_bw",
+      "slug": "sport-zw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/sport-zw-2/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "sports_bw_2",
+      "slug": "sport-zw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/gereedschap-zw/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "tools_bw",
+      "slug": "gereedschap-zw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/speelgoed-zw/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "toys_bw",
+      "slug": "speelgoed-zw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/speelgoed-zw-2/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "toys_bw_2",
+      "slug": "speelgoed-zw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/reizen-en-vakantie-zw/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "travel_and_holiday_bw",
+      "slug": "reizen-en-vakantie-zw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/valentijnsdag-zw/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "valentine_bw",
+      "slug": "valentijnsdag-zw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/valentijnsdag-zw-2/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "valentine_bw_2",
+      "slug": "valentijnsdag-zw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/groenten-zw/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "vegetables_bw",
+      "slug": "groenten-zw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/groenten-zw-2/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "vegetables_bw_2",
+      "slug": "groenten-zw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/voertuigen-zw/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "vehicles_bw",
+      "slug": "voertuigen-zw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/voertuigen-zw-2/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "vehicles_bw_2",
+      "slug": "voertuigen-zw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/voertuigen-zw-3/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "vehicles_bw_3",
+      "slug": "voertuigen-zw-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/dierentuindieren-zw/",
+      "locale": "nl",
+      "axis": "theme",
+      "axisKey": "zoo_animals_bw",
+      "slug": "dierentuindieren-zw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/peuterklas/",
+      "locale": "nl",
+      "axis": "educational-level",
+      "axisKey": "preschool",
+      "slug": "peuterklas",
+      "status": 200,
+      "descriptionLength": 123,
+      "descriptionPreview": "Werkbladen voor de peuterklas (3-5 jaar): kleur-, vorm- en eerste telopdrachten passend bij ontwikkeling van jonge peuters.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 123
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "1dee1f630e4ca777a6ec7062f6f82abdaa6f0109"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/kleuterklas/",
+      "locale": "nl",
+      "axis": "educational-level",
+      "axisKey": "kindergarten",
+      "slug": "kleuterklas",
+      "status": 200,
+      "descriptionLength": 128,
+      "descriptionPreview": "Werkbladen voor de kleuterklas (5-7 jaar): tel-, letter- en koppeloefeningen die aansluiten bij de SLO kerndoelen voor kleuters.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 128
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "77b3820afb659e01b69e9bc9804980deefecedf4"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/groep-3/",
+      "locale": "nl",
+      "axis": "educational-level",
+      "axisKey": "grade-1",
+      "slug": "groep-3",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Werkbladen voor groep 3 (6-8 jaar): lees-, schrijf- en rekenoefeningen die aansluiten bij de SLO kerndoelen voor het eerste leerjaar.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "3a952efd30fad781ee43f26a291342c1cb068182"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/groep-4/",
+      "locale": "nl",
+      "axis": "educational-level",
+      "axisKey": "grade-2",
+      "slug": "groep-4",
+      "status": 200,
+      "descriptionLength": 129,
+      "descriptionPreview": "Werkbladen voor groep 4 (7-9 jaar): rekenen tot 100, leesoefeningen en woordenschat passend bij de kerndoelen van de basisschool.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 129
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=nl)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "16b53e7bdd4cacf577fbf66468362265679ec72e"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/nl/topic/groep-5/",
+      "locale": "nl",
+      "axis": "educational-level",
+      "axisKey": "grade-3",
+      "slug": "groep-5",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    }
+  ]
+}

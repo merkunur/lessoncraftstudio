@@ -1,0 +1,450 @@
+[
+  {
+    "id": "ten-frame.count-to-20.make-n.fruits",
+    "engine": "ten-frame",
+    "locale": "en",
+    "slug": "count-to-20-with-fruits",
+    "width": 360,
+    "pass": true,
+    "fails": [],
+    "warns": [
+      "tapTarget=28px"
+    ],
+    "empty": {
+      "vw": 296,
+      "vh": 641,
+      "docScrollW": 296,
+      "docScrollH": 641,
+      "docClientH": 641,
+      "appH": 640,
+      "horizontalOverflow": false,
+      "verticalClip": false,
+      "overflowers": [],
+      "offscreen": [],
+      "overlaps": [],
+      "minTap": 28
+    },
+    "filled": {
+      "vw": 296,
+      "vh": 641,
+      "docScrollW": 296,
+      "docScrollH": 641,
+      "docClientH": 641,
+      "appH": 656,
+      "horizontalOverflow": false,
+      "verticalClip": false,
+      "overflowers": [],
+      "offscreen": [],
+      "overlaps": [],
+      "minTap": 28
+    }
+  },
+  {
+    "id": "ten-frame.count-to-20.make-n.fruits",
+    "engine": "ten-frame",
+    "locale": "en",
+    "slug": "count-to-20-with-fruits",
+    "width": 390,
+    "pass": true,
+    "fails": [],
+    "warns": [
+      "tapTarget=28px"
+    ],
+    "empty": {
+      "vw": 326,
+      "vh": 641,
+      "docScrollW": 326,
+      "docScrollH": 641,
+      "docClientH": 641,
+      "appH": 640,
+      "horizontalOverflow": false,
+      "verticalClip": false,
+      "overflowers": [],
+      "offscreen": [],
+      "overlaps": [],
+      "minTap": 28
+    },
+    "filled": {
+      "vw": 326,
+      "vh": 641,
+      "docScrollW": 326,
+      "docScrollH": 641,
+      "docClientH": 641,
+      "appH": 656,
+      "horizontalOverflow": false,
+      "verticalClip": false,
+      "overflowers": [],
+      "offscreen": [],
+      "overlaps": [],
+      "minTap": 28
+    }
+  },
+  {
+    "id": "ten-frame.how-many.0-10.animals",
+    "engine": "ten-frame",
+    "locale": "en",
+    "slug": "how-many-animals-0-to-10",
+    "width": 360,
+    "pass": false,
+    "fails": [
+      "boxOverlap(.lcs-activity-key 10px)"
+    ],
+    "warns": [
+      "tapTarget=34px"
+    ],
+    "empty": {
+      "vw": 296,
+      "vh": 616,
+      "docScrollW": 296,
+      "docScrollH": 616,
+      "docClientH": 616,
+      "appH": 615,
+      "horizontalOverflow": false,
+      "verticalClip": false,
+      "overflowers": [],
+      "offscreen": [],
+      "overlaps": [
+        {
+          "sel": ".lcs-activity-key",
+          "px": 10
+        }
+      ],
+      "minTap": 34
+    },
+    "filled": {
+      "vw": 296,
+      "vh": 616,
+      "docScrollW": 296,
+      "docScrollH": 616,
+      "docClientH": 616,
+      "appH": 677,
+      "horizontalOverflow": false,
+      "verticalClip": false,
+      "overflowers": [],
+      "offscreen": [],
+      "overlaps": [
+        {
+          "sel": ".lcs-activity-key",
+          "px": 10
+        }
+      ],
+      "minTap": 34
+    }
+  },
+  {
+    "id": "ten-frame.how-many.0-10.animals",
+    "engine": "ten-frame",
+    "locale": "en",
+    "slug": "how-many-animals-0-to-10",
+    "width": 390,
+    "pass": false,
+    "fails": [
+      "boxOverlap(.lcs-activity-key 6px)"
+    ],
+    "warns": [
+      "tapTarget=34px"
+    ],
+    "empty": {
+      "vw": 326,
+      "vh": 614,
+      "docScrollW": 326,
+      "docScrollH": 614,
+      "docClientH": 614,
+      "appH": 615,
+      "horizontalOverflow": false,
+      "verticalClip": false,
+      "overflowers": [],
+      "offscreen": [],
+      "overlaps": [
+        {
+          "sel": ".lcs-activity-key",
+          "px": 6
+        }
+      ],
+      "minTap": 34
+    },
+    "filled": {
+      "vw": 326,
+      "vh": 614,
+      "docScrollW": 326,
+      "docScrollH": 614,
+      "docClientH": 614,
+      "appH": 676,
+      "horizontalOverflow": false,
+      "verticalClip": false,
+      "overflowers": [],
+      "offscreen": [],
+      "overlaps": [
+        {
+          "sel": ".lcs-activity-key",
+          "px": 6
+        }
+      ],
+      "minTap": 34
+    }
+  },
+  {
+    "id": "ten-frame.write-numeral.0-20.fruits",
+    "engine": "ten-frame",
+    "locale": "en",
+    "slug": "write-the-number-0-to-20-with-fruits",
+    "width": 360,
+    "pass": false,
+    "fails": [
+      "boxOverlap(.lcs-activity-key 10px)"
+    ],
+    "warns": [
+      "tapTarget=28px"
+    ],
+    "empty": {
+      "vw": 296,
+      "vh": 705,
+      "docScrollW": 296,
+      "docScrollH": 705,
+      "docClientH": 705,
+      "appH": 704,
+      "horizontalOverflow": false,
+      "verticalClip": false,
+      "overflowers": [],
+      "offscreen": [],
+      "overlaps": [
+        {
+          "sel": ".lcs-activity-key",
+          "px": 10
+        }
+      ],
+      "minTap": 28
+    },
+    "filled": {
+      "vw": 296,
+      "vh": 705,
+      "docScrollW": 296,
+      "docScrollH": 705,
+      "docClientH": 705,
+      "appH": 765,
+      "horizontalOverflow": false,
+      "verticalClip": false,
+      "overflowers": [],
+      "offscreen": [],
+      "overlaps": [
+        {
+          "sel": ".lcs-activity-key",
+          "px": 10
+        }
+      ],
+      "minTap": 28
+    }
+  },
+  {
+    "id": "ten-frame.write-numeral.0-20.fruits",
+    "engine": "ten-frame",
+    "locale": "en",
+    "slug": "write-the-number-0-to-20-with-fruits",
+    "width": 390,
+    "pass": false,
+    "fails": [
+      "boxOverlap(.lcs-activity-key 6px)"
+    ],
+    "warns": [
+      "tapTarget=28px"
+    ],
+    "empty": {
+      "vw": 326,
+      "vh": 704,
+      "docScrollW": 326,
+      "docScrollH": 704,
+      "docClientH": 704,
+      "appH": 704,
+      "horizontalOverflow": false,
+      "verticalClip": false,
+      "overflowers": [],
+      "offscreen": [],
+      "overlaps": [
+        {
+          "sel": ".lcs-activity-key",
+          "px": 6
+        }
+      ],
+      "minTap": 28
+    },
+    "filled": {
+      "vw": 326,
+      "vh": 704,
+      "docScrollW": 326,
+      "docScrollH": 704,
+      "docClientH": 704,
+      "appH": 765,
+      "horizontalOverflow": false,
+      "verticalClip": false,
+      "overflowers": [],
+      "offscreen": [],
+      "overlaps": [
+        {
+          "sel": ".lcs-activity-key",
+          "px": 6
+        }
+      ],
+      "minTap": 28
+    }
+  },
+  {
+    "id": "ten-frame.teen-numbers.make-n",
+    "engine": "ten-frame",
+    "locale": "en",
+    "slug": "teen-numbers-11-to-19",
+    "width": 360,
+    "pass": true,
+    "fails": [],
+    "warns": [
+      "tapTarget=28px"
+    ],
+    "empty": {
+      "vw": 296,
+      "vh": 641,
+      "docScrollW": 296,
+      "docScrollH": 641,
+      "docClientH": 641,
+      "appH": 640,
+      "horizontalOverflow": false,
+      "verticalClip": false,
+      "overflowers": [],
+      "offscreen": [],
+      "overlaps": [],
+      "minTap": 28
+    },
+    "filled": {
+      "vw": 296,
+      "vh": 641,
+      "docScrollW": 296,
+      "docScrollH": 641,
+      "docClientH": 641,
+      "appH": 656,
+      "horizontalOverflow": false,
+      "verticalClip": false,
+      "overflowers": [],
+      "offscreen": [],
+      "overlaps": [],
+      "minTap": 28
+    }
+  },
+  {
+    "id": "ten-frame.teen-numbers.make-n",
+    "engine": "ten-frame",
+    "locale": "en",
+    "slug": "teen-numbers-11-to-19",
+    "width": 390,
+    "pass": true,
+    "fails": [],
+    "warns": [
+      "tapTarget=28px"
+    ],
+    "empty": {
+      "vw": 326,
+      "vh": 639,
+      "docScrollW": 326,
+      "docScrollH": 639,
+      "docClientH": 639,
+      "appH": 639,
+      "horizontalOverflow": false,
+      "verticalClip": false,
+      "overflowers": [],
+      "offscreen": [],
+      "overlaps": [],
+      "minTap": 28
+    },
+    "filled": {
+      "vw": 326,
+      "vh": 639,
+      "docScrollW": 326,
+      "docScrollH": 639,
+      "docClientH": 639,
+      "appH": 655,
+      "horizontalOverflow": false,
+      "verticalClip": false,
+      "overflowers": [],
+      "offscreen": [],
+      "overlaps": [],
+      "minTap": 28
+    }
+  },
+  {
+    "id": "ten-frame.count-to-10.make-n.animals",
+    "engine": "ten-frame",
+    "locale": "en",
+    "slug": "count-to-10-with-animals",
+    "width": 360,
+    "pass": true,
+    "fails": [],
+    "warns": [
+      "tapTarget=34px"
+    ],
+    "empty": {
+      "vw": 296,
+      "vh": 420,
+      "docScrollW": 296,
+      "docScrollH": 420,
+      "docClientH": 420,
+      "appH": 513,
+      "horizontalOverflow": false,
+      "verticalClip": false,
+      "overflowers": [],
+      "offscreen": [],
+      "overlaps": [],
+      "minTap": 34
+    },
+    "filled": {
+      "vw": 296,
+      "vh": 535,
+      "docScrollW": 296,
+      "docScrollH": 535,
+      "docClientH": 535,
+      "appH": 536,
+      "horizontalOverflow": false,
+      "verticalClip": false,
+      "overflowers": [],
+      "offscreen": [],
+      "overlaps": [],
+      "minTap": 34
+    }
+  },
+  {
+    "id": "ten-frame.count-to-10.make-n.animals",
+    "engine": "ten-frame",
+    "locale": "en",
+    "slug": "count-to-10-with-animals",
+    "width": 390,
+    "pass": true,
+    "fails": [],
+    "warns": [
+      "tapTarget=34px"
+    ],
+    "empty": {
+      "vw": 326,
+      "vh": 538,
+      "docScrollW": 326,
+      "docScrollH": 538,
+      "docClientH": 538,
+      "appH": 536,
+      "horizontalOverflow": false,
+      "verticalClip": false,
+      "overflowers": [],
+      "offscreen": [],
+      "overlaps": [],
+      "minTap": 34
+    },
+    "filled": {
+      "vw": 326,
+      "vh": 538,
+      "docScrollW": 326,
+      "docScrollH": 538,
+      "docClientH": 538,
+      "appH": 536,
+      "horizontalOverflow": false,
+      "verticalClip": false,
+      "overflowers": [],
+      "offscreen": [],
+      "overlaps": [],
+      "minTap": 34
+    }
+  }
+]

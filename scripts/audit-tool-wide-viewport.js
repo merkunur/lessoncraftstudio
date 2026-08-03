@@ -320,6 +320,30 @@ const PROBE = (pfx) => {
     aspect: aspect, aspectEl: aspectEl,
     bodyEscapes: escapes,
     lowest: Math.round(lowest),
+    /* ⭐⭐ THE MOST-REPEATED INKED CHILD, so the gate can ask whether the
+       CONTENTS grew and not merely the box. rekenrek passed FILL at 66.1%
+       with a bead that is 64px at 1366 and 64px at 2560 — the card grew, the
+       empty rail grew, the instrument did not, and every assertion here said
+       success. A class shared by >=3 inked children is the instrument's unit;
+       its MEDIAN width is the number that has to move. */
+    unit: (() => {
+      if (!scope) return null;
+      const tally = {};
+      scope.querySelectorAll('*').forEach((e) => {
+        const c = String(e.className && e.className.baseVal !== undefined ? e.className.baseVal : e.className || '');
+        if (!c || CHROME.test(c) || !draws(e)) return;
+        const r = e.getBoundingClientRect();
+        if (r.width < 8 || r.height < 8) return;
+        c.split(/\s+/).filter(Boolean).forEach((cl) => {
+          (tally[cl] = tally[cl] || []).push(r.width);
+        });
+      });
+      const best = Object.keys(tally).filter((k) => tally[k].length >= 3)
+        .sort((a, b) => tally[b].length - tally[a].length)[0];
+      if (!best) return null;
+      const ws = tally[best].slice().sort((x, y) => x - y);
+      return { cls: best, n: ws.length, med: Math.round(ws[Math.floor(ws.length / 2)]) };
+    })(),
     lowestUnreachable: Math.round(lowestUnreachable),
     scrollRescued: Math.round(lowest) > Math.round(lowestUnreachable),
     fits: lowestUnreachable <= vh + 0.5
@@ -606,6 +630,21 @@ function staticRisks(key) {
         return squareish ? { pct: c.apparatusVPct, axis: 'height' }
                          : { pct: c.apparatusPct, axis: 'width' };
       };
+      /* ⭐⭐ THE CONTENTS MUST GROW, NOT JUST THE BOX. This is the assertion
+         rekenrek needed and did not have: it passed FILL at 66.1% while its
+         bead stayed 64px and its empty rail grew by 655px, so the card raise
+         made the instrument WORSE and the gate called it a success. If the
+         same repeated unit is present at 1366 and at 2560 and has not grown,
+         the widening is hollow. Compared only when BOTH cells found the same
+         class — a tool whose unit appears with use (letter-tiles has no tiles
+         at rest) reports nothing rather than a false pass. */
+      const u1 = a.unit, u2 = d.unit;
+      if (u1 && u2 && u1.cls === u2.cls) {
+        say(u2.med > u1.med + 2,
+          r.key + ' HOLLOW WIDENING: the card grew but `.' + u2.cls + '` is ' +
+          u1.med + 'px at 1366 and ' + u2.med + 'px at 2560 — the box grew, the instrument did not');
+      }
+
       const f19 = dominates(n), f25 = dominates(d);
       say(f19.pct >= 45, r.key + ' FILL at 1920: ' + f19.pct + '% of ' + f19.axis + ' (want >=45%)');
       say(f25.pct >= 50, r.key + ' FILL at 2560: ' + f25.pct + '% of ' + f25.axis + ' (want >=50%)');

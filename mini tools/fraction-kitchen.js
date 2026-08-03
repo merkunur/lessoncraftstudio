@@ -1272,6 +1272,26 @@ var FractionKitchen = {
   +   '.frk-foodbox{width:min(380px,74vw);height:min(380px,74vw);}}'
 
   /* reduced motion */
+    /* =====================================================================
+       WIDE VIEWPORTS — this tool is CARD-bound, not instrument-bound.
+       Apparatus 1037px inside a 1080px card = 96%. 40.3% -> 66.1% at 2560.
+       Its own `body.frk-wide .lcs-app{max-width:...}` is what holds it: a
+       self-widen rule at (0,1,1) DELIBERATELY out-specifies the shell's
+       generic `.lcs-app` tier (0,1,0), which is what kept the eighteen
+       legacy self-wideners untouched when the shell tiers shipped. That
+       protection is now the ceiling, so the cap is raised here, per tool.
+       MEASURED with probe-tool-tiers.js at every tier FLOOR in Italian
+       BEFORE it was written — every cell fits, and 1366 is untouched.
+       ===================================================================== */
+    + '@media (min-width:1367px) and (min-height:880px){'
+    +   'body.frk-wide .lcs-app{max-width:min(1240px,96vw);}'
+    + '}'
+    + '@media (min-width:1800px) and (min-height:1080px){'
+    +   'body.frk-wide .lcs-app{max-width:min(1560px,96vw);}'
+    + '}'
+    + '@media (min-width:2400px) and (min-height:1150px){'
+    +   'body.frk-wide .lcs-app{max-width:min(1740px,96vw);}'
+    + '}'
   + '@media (prefers-reduced-motion: reduce){'
   +   '.frk-piece{transition:none;}'
   +   '.frk-uneq{transition:none;}'

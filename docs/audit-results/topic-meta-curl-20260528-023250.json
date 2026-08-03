@@ -1,0 +1,3007 @@
+{
+  "opts": {
+    "baseUrl": "https://www.lessoncraftstudio.com",
+    "locales": [
+      "fi"
+    ],
+    "axes": [
+      "exercise-type",
+      "theme",
+      "educational-level"
+    ],
+    "outDir": "C:\\Users\\rkgen\\lessoncraftstudio\\docs\\audit-results",
+    "concurrency": 10,
+    "sample": null,
+    "includeIntersections": false,
+    "timeoutMs": 15000
+  },
+  "byLocale": {
+    "fi": {
+      "locale": "fi",
+      "total": 134,
+      "pass": 34,
+      "fail": 100,
+      "byAxis": {
+        "exercise-type": {
+          "total": 29,
+          "pass": 29
+        },
+        "theme": {
+          "total": 100,
+          "pass": 1
+        },
+        "educational-level": {
+          "total": 5,
+          "pass": 4
+        }
+      },
+      "defectCounts": {
+        "PAGE_HTTP_404": 100
+      },
+      "fallbackCount": 0,
+      "tooShortCount": 0,
+      "tooLongCount": 0,
+      "nonUniqueCount": 0,
+      "missingCount": 0,
+      "sampleFailures": [
+        {
+          "url": "https://www.lessoncraftstudio.com/fi/topic/heinakuun-4/",
+          "axisKey": "4th_of_july",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/fi/topic/asusteet/",
+          "axisKey": "accessories",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/fi/topic/aktiviteetit/",
+          "axisKey": "activities",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/fi/topic/kodin-ymparilla/",
+          "axisKey": "around_the_house",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/fi/topic/ruokakaupassa/",
+          "axisKey": "at_the_supermarket",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        }
+      ]
+    }
+  },
+  "perPage": [
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/yhteenlasku/",
+      "locale": "fi",
+      "axis": "exercise-type",
+      "axisKey": "addition",
+      "slug": "yhteenlasku",
+      "status": 200,
+      "descriptionLength": 144,
+      "descriptionPreview": "Yhteenlaskutehtäviä 1.-2. luokkalaisille: lukualue 1-20, kuvalaskut ja sanalliset tehtävät. Interaktiivinen verkkopeli sekä tulostettavat PDF:t.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 144
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "5aec16a9ed8ba978c9d7ff4cb5a09e2dcf6f0b87"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/kuvasudoku/",
+      "locale": "fi",
+      "axis": "exercise-type",
+      "axisKey": "sudoku",
+      "slug": "kuvasudoku",
+      "status": 200,
+      "descriptionLength": 142,
+      "descriptionPreview": "Kuvasudoku esiopetukseen ja 1. luokalle: 4x4 -ruudukko kuvilla numeroiden sijaan. Loogista päättelyä ennen lukutaitoa, 11 kielellä saatavilla.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 142
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "4977c9c31afd8123007ef16e54d6b733ce8e173d"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/kryptogrammi/",
+      "locale": "fi",
+      "axis": "exercise-type",
+      "axisKey": "cryptogram",
+      "slug": "kryptogrammi",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Kryptogrammi 1.-3. luokalle: lapsi purkaa salaisen viestin sijoittamalla kirjaimia kuvasymbolien tilalle. Lukutaitoa ja päättelyä yhdessä.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "a5a9736a67124f0e3c5b311c635fcb380b6b12a2"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/kuvapolku/",
+      "locale": "fi",
+      "axis": "exercise-type",
+      "axisKey": "picture-path",
+      "slug": "kuvapolku",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Kuvapolku K-3-luokkaan: lapsi piirtää reitin alusta loppuun ruudukossa kuva-aiheisia esteitä väistäen. Hahmottamista ja päättelyä yhdessä.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "3601b5398353bf5a21b628dd98a5d35e06d15b1f"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/vahennyslasku/",
+      "locale": "fi",
+      "axis": "exercise-type",
+      "axisKey": "subtraction",
+      "slug": "vahennyslasku",
+      "status": 200,
+      "descriptionLength": 145,
+      "descriptionPreview": "Vähennyslasku 1.-2. luokalle: lukualue 1-20, kuvavähennykset ja sanalliset tehtävät. Interaktiivinen verkkopeli sekä tulostettavat PDF-tiedostot.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 145
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b3ccbbd54c39a7b443ec651d369bfd1d6a8a480d"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/koodattu-yhteenlasku/",
+      "locale": "fi",
+      "axis": "exercise-type",
+      "axisKey": "code-addition",
+      "slug": "koodattu-yhteenlasku",
+      "status": 200,
+      "descriptionLength": 146,
+      "descriptionPreview": "Koodattu yhteenlasku 1.-2. luokalle: lapsi laskee summia, paljastaa kirjainkoodin ja muodostaa salasanan. Yhteenlasku ja sanat samassa tehtävässä.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 146
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "f032dae63066e0c2b877ad5fbe2cfe01fe448ef5"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/enemman-vahemman/",
+      "locale": "fi",
+      "axis": "exercise-type",
+      "axisKey": "more-less",
+      "slug": "enemman-vahemman",
+      "status": 200,
+      "descriptionLength": 136,
+      "descriptionPreview": "Enemmän vai vähemmän -tehtävä esiopetukseen: lapsi vertailee kahta lukumäärää ja valitsee suuremman. Lukukäsitteen harjoittelua kuvilla.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 136
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "ba0dc14a2a5a4a1835d348d1d0e67c969e1151e9"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/matematiikkapulma/",
+      "locale": "fi",
+      "axis": "exercise-type",
+      "axisKey": "math-puzzle",
+      "slug": "matematiikkapulma",
+      "status": 200,
+      "descriptionLength": 141,
+      "descriptionPreview": "Matematiikkapulma 1.-3. luokalle: lapsi raahaa lukupaloja oikeille paikoille ratkaisten yhteen- ja vähennyslaskuja. Pulmamuotoinen oppiminen.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 141
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "17273df97a10e1bb2d18a4ef3f8f044af1247647"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/matematiikkatehtava/",
+      "locale": "fi",
+      "axis": "exercise-type",
+      "axisKey": "math-worksheet",
+      "slug": "matematiikkatehtava",
+      "status": 200,
+      "descriptionLength": 147,
+      "descriptionPreview": "Matematiikkatehtävä 1.-3. luokalle: yhteen-, vähennys-, kerto- ja jakolaskut samalla pohjalla. Tulostettavat PDF:t sekä interaktiivinen verkkopeli.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 147
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b34d15c91602d3c058255d5d7b655e81c611b1e2"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/iso-pieni/",
+      "locale": "fi",
+      "axis": "exercise-type",
+      "axisKey": "big-small",
+      "slug": "iso-pieni",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Iso vai pieni -tehtävä esiopetukseen: lapsi vertailee kahta esinettä ja valitsee oikean. Kokoonmääreiden harjoittelu kuvilla, 11 kielellä.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "729bf5daad08dad2c745d625429d5dd80bf8b6a1"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/laske-kaaviossa/",
+      "locale": "fi",
+      "axis": "exercise-type",
+      "axisKey": "chart-count",
+      "slug": "laske-kaaviossa",
+      "status": 200,
+      "descriptionLength": 144,
+      "descriptionPreview": "Laske kaaviossa: lapset täyttävät pylväskaavion ruutuja laskemansa määrän mukaan. Tilastollista ajattelua K-3-luokille, interaktiivinen tehtävä.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 144
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "7752c0c979060336e19746efe6ca7b9c6bd74347"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/kuviojuna/",
+      "locale": "fi",
+      "axis": "exercise-type",
+      "axisKey": "pattern-train",
+      "slug": "kuviojuna",
+      "status": 200,
+      "descriptionLength": 142,
+      "descriptionPreview": "Kuviojuna esiopetukseen ja 1. luokalle: lapsi täydentää toistuvan kuvion vetämällä oikean kuvan vaunuun. Loogista ajattelua interaktiivisesti.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 142
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "3667ac0999a8ea737deee18d9acbfe90622335b7"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/kuviotehtava/",
+      "locale": "fi",
+      "axis": "exercise-type",
+      "axisKey": "pattern-worksheet",
+      "slug": "kuviotehtava",
+      "status": 200,
+      "descriptionLength": 146,
+      "descriptionPreview": "Kuviotehtävä K-3-luokkaan: lapsi tunnistaa ja jatkaa toistuvaa kuviojonoa kuvilla. Loogista ajattelua tulostettavana ja interaktiivisena versiona.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 146
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "dab16bb4cf95889b068fc78190ebacba485ca55d"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/bingo/",
+      "locale": "fi",
+      "axis": "exercise-type",
+      "axisKey": "bingo",
+      "slug": "bingo",
+      "status": 200,
+      "descriptionLength": 135,
+      "descriptionPreview": "Bingo-peli K-3-luokkaan: opettaja nimeää sanan, lapsi etsii kuvan kortistaan. Toimii kirjaimille, numeroille ja sanastolle 11 kielellä.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 135
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "0f7594400759160b531a6d5b328ca1523da4861c"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/ruudukkoyhdistys/",
+      "locale": "fi",
+      "axis": "exercise-type",
+      "axisKey": "grid-match",
+      "slug": "ruudukkoyhdistys",
+      "status": 200,
+      "descriptionLength": 145,
+      "descriptionPreview": "Ruudukkoyhdistys K-3-luokkaan: lapsi raahaa palat ruudukon oikeille paikoille kuva- tai sanavihjeen mukaan. Loogista päättelyä interaktiivisesti.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 145
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "46ea704995498909f596b40a4ccdb66b04f38682"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/yhdistaminen/",
+      "locale": "fi",
+      "axis": "exercise-type",
+      "axisKey": "matching",
+      "slug": "yhdistaminen",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Yhdistämistehtävä K-3-luokkaan: lapsi vetää viivan vastinparien välille. Sopii sanaston, varjojen ja parikuvien harjoitteluun 11 kielellä.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b5a475232c4df7ff93e3a5678a4e177b68f130ea"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/lajittele-kuvat/",
+      "locale": "fi",
+      "axis": "exercise-type",
+      "axisKey": "picture-sort",
+      "slug": "lajittele-kuvat",
+      "status": 200,
+      "descriptionLength": 145,
+      "descriptionPreview": "Lajittele kuvat -tehtävä K-3-luokkaan: lapsi raahaa kuvat oikeisiin koreihin kategoriaan perustuen. Luokittelua ja sanaston harjoittelua yhdessä.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 145
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "4bcf58a21880d97d3b5e3263b6420de9824a3c37"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/yhdista-varjot/",
+      "locale": "fi",
+      "axis": "exercise-type",
+      "axisKey": "shadow-match",
+      "slug": "yhdista-varjot",
+      "status": 200,
+      "descriptionLength": 140,
+      "descriptionPreview": "Yhdistä varjot K-3-luokkaan: lapsi vetää viivan kuvan ja sen oikean varjon välille. Hahmottamista ja muotojen tunnistusta interaktiivisesti.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 140
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "1b19e4ae22bfd2f462646e0bf160f8116c8f5c88"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/aakkosjuna/",
+      "locale": "fi",
+      "axis": "exercise-type",
+      "axisKey": "alphabet-train",
+      "slug": "aakkosjuna",
+      "status": 200,
+      "descriptionLength": 148,
+      "descriptionPreview": "Aakkosjuna-tehtävä esiopetukseen ja 1. luokalle: lapsi raahaa kirjaimia oikeaan järjestykseen vaunuihin. Aakkoset 11 kielellä, sopii kirjainjaksoon.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 148
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d9784f0013f2414980c3f8228e2575b44c3d4e78"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/prepositiot/",
+      "locale": "fi",
+      "axis": "exercise-type",
+      "axisKey": "prepositions",
+      "slug": "prepositiot",
+      "status": 200,
+      "descriptionLength": 149,
+      "descriptionPreview": "Prepositiot K-3-luokkaan: lapsi tunnistaa esineen sijainnin kuvasta ja valitsee oikean preposition. Spatiaalisten suhteiden harjoittelua 11 kielellä.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 149
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "794cfe87ff0c3cd101a7c4defe96abb33f01bbe4"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/arvaa-sana/",
+      "locale": "fi",
+      "axis": "exercise-type",
+      "axisKey": "word-guess",
+      "slug": "arvaa-sana",
+      "status": 200,
+      "descriptionLength": 147,
+      "descriptionPreview": "Arvaa sana K-3-luokkaan: lapsi tunnistaa kuvan ja kirjoittaa kirjaimet oikeisiin ruutuihin. Lukutaidon harjoittelua interaktiivisesti, 11 kielellä.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 147
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "042e828ab148041352d86eea443c532ab33c2eeb"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/kirjainsekoitus/",
+      "locale": "fi",
+      "axis": "exercise-type",
+      "axisKey": "word-scramble",
+      "slug": "kirjainsekoitus",
+      "status": 200,
+      "descriptionLength": 144,
+      "descriptionPreview": "Kirjainsekoitus 1.-3. luokalle: lapsi järjestää sekoitetut kirjaimet oikeaan järjestykseen kuvavihjeen avulla. Lukutaidon vahvistamista yhdessä.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 144
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "c5ea608bc8901bac264366bf810dba864549f431"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/sanahaku/",
+      "locale": "fi",
+      "axis": "exercise-type",
+      "axisKey": "wordsearch",
+      "slug": "sanahaku",
+      "status": 200,
+      "descriptionLength": 146,
+      "descriptionPreview": "Sanahaku 1.-3. luokalle: lapsi etsii ja merkitsee kuvavihjeitä vastaavat sanat kirjainruudukosta. Lukutaidon harjoittelua, 11 kielellä saatavilla.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 146
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "4b52831ba0532a57b9179c42c4996a02e32b2988"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/ristikko/",
+      "locale": "fi",
+      "axis": "exercise-type",
+      "axisKey": "crossword",
+      "slug": "ristikko",
+      "status": 200,
+      "descriptionLength": 135,
+      "descriptionPreview": "Ristikko-tehtävä 1.-2. luokalle: lapsi täyttää sanat kuvavihjeiden mukaan ruudukkoon. Lukutaidon ja sanaston harjoittelua, 11 kielellä.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 135
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "02d6d866c15b3ff31eebe4161d062b785c9b9eef"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/etsi-ja-laske/",
+      "locale": "fi",
+      "axis": "exercise-type",
+      "axisKey": "find-and-count",
+      "slug": "etsi-ja-laske",
+      "status": 200,
+      "descriptionLength": 147,
+      "descriptionPreview": "Etsi ja laske -tehtävä esiopetukseen: lapsi tunnistaa kuvasta esineet ja merkitsee löytöjensä määrän. Lukukäsitteen harjoittelua interaktiivisesti.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 147
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "2016e58b3f986af18b38b3660eed247a5b5c07fa"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/etsi-esineet/",
+      "locale": "fi",
+      "axis": "exercise-type",
+      "axisKey": "find-objects",
+      "slug": "etsi-esineet",
+      "status": 200,
+      "descriptionLength": 137,
+      "descriptionPreview": "Etsi esineet K-3-luokkaan: lapsi etsii ja merkitsee kohteet vilkkaasta kuvasta. Tarkkaavuutta ja sanaston tunnistusta yhdessä tehtävässä.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 137
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "1af369d48a473fbcc191d16fc9f5596f9b1f8061"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/aarteenetsinta/",
+      "locale": "fi",
+      "axis": "exercise-type",
+      "axisKey": "treasure-hunt",
+      "slug": "aarteenetsinta",
+      "status": 200,
+      "descriptionLength": 145,
+      "descriptionPreview": "Aarteenetsintä K-3-luokkaan: lapsi seuraa suuntaohjeita ruudukossa löytääkseen piilotetun aarteen. Päättelyä ja suuntataitoja yhdessä tehtävässä.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 145
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "668156d54ffa541d4a526a542282ed4ffa6e16c9"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/puuttuvat-palat/",
+      "locale": "fi",
+      "axis": "exercise-type",
+      "axisKey": "missing-pieces",
+      "slug": "puuttuvat-palat",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Puuttuvat palat K-3-luokkaan: lapsi raahaa oikeat palat tyhjiin koloihin kuvassa. Hahmottamista ja muotojen tunnistusta interaktiivisesti.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "fc7cd966dcacec58b5b2cf15eb1641fa24224417"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/mika-ei-kuulu/",
+      "locale": "fi",
+      "axis": "exercise-type",
+      "axisKey": "odd-one-out",
+      "slug": "mika-ei-kuulu",
+      "status": 200,
+      "descriptionLength": 136,
+      "descriptionPreview": "Mikä ei kuulu joukkoon -tehtävä K-3-luokkaan: lapsi tunnistaa neljästä kuvasta sen, joka eroaa muista. Luokittelua ja päättelyä yhdessä.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 136
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "ea4d413160dd623cb27b29d47b583d78cad58d7c"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/heinakuun-4/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "4th_of_july",
+      "slug": "heinakuun-4",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/asusteet/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "accessories",
+      "slug": "asusteet",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/aktiviteetit/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "activities",
+      "slug": "aktiviteetit",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/elaimet/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "animals",
+      "slug": "elaimet",
+      "status": 200,
+      "descriptionLength": 146,
+      "descriptionPreview": "Eläinaiheisia K-3-tehtäviä: koira, kissa, lehmä, leijona. Värikkäät kuvat sanavaraston laajentamiseen ja aamupiirin keskusteluihin esiopetuksessa.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 146
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "e50a58327bafedab12fef75863450a8104c76e79"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/kodin-ymparilla/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "around_the_house",
+      "slug": "kodin-ymparilla",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/ruokakaupassa/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "at_the_supermarket",
+      "slug": "ruokakaupassa",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/leipomo/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "bakery",
+      "slug": "leipomo",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/ranta/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "beach",
+      "slug": "ranta",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/linnut/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "birds",
+      "slug": "linnut",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/linnut-2/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "birds_2",
+      "slug": "linnut-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/ruumiinosat/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "body_parts",
+      "slug": "ruumiinosat",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/aamiainen/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "breakfast",
+      "slug": "aamiainen",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/leirielama/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "camping",
+      "slug": "leirielama",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/joulu/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "christmas",
+      "slug": "joulu",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/luokkahuone/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "classroom",
+      "slug": "luokkahuone",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/vaatteet/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "clothing",
+      "slug": "vaatteet",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/varit/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "colors",
+      "slug": "varit",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/jalkiruoat-ja-makeiset/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "desserts_and_sweets",
+      "slug": "jalkiruoat-ja-makeiset",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/dinosaurukset/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "dinosaurs",
+      "slug": "dinosaurukset",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/paasiainen/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "easter",
+      "slug": "paasiainen",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/tunteet/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "emotions",
+      "slug": "tunteet",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/maatilan-elaimet/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "farm_animals",
+      "slug": "maatilan-elaimet",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/kukat/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "flowers",
+      "slug": "kukat",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/metsan-elaimet/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "forest_creatures",
+      "slug": "metsan-elaimet",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/hedelmat/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "fruits",
+      "slug": "hedelmat",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/huonekalut/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "furniture",
+      "slug": "huonekalut",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/sairaala/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "hospital",
+      "slug": "sairaala",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/hyonteiset-ja-otokat/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "insects_and_bugs",
+      "slug": "hyonteiset-ja-otokat",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/keittiovalineet/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "kitchen_tools",
+      "slug": "keittiovalineet",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/sekalaista/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "miscellaneous",
+      "slug": "sekalaista",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/musiikki/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "music",
+      "slug": "musiikki",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/ammatit/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "occupations",
+      "slug": "ammatit",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/merielama/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "ocean_life",
+      "slug": "merielama",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/lemmikit/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "pets",
+      "slug": "lemmikit",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/postitoimisto/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "post_office",
+      "slug": "postitoimisto",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/matelijat-ja-sammakkoelaimet/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "reptiles_and_amphibians",
+      "slug": "matelijat-ja-sammakkoelaimet",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/muodot/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "shapes",
+      "slug": "muodot",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/avaruus/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "space",
+      "slug": "avaruus",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/kevat/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "spring",
+      "slug": "kevat",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/kesa/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "summer",
+      "slug": "kesa",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/kiitospaiva/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "thanksgivinng",
+      "slug": "kiitospaiva",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/lentavat-asiat/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "things_that_fly",
+      "slug": "lentavat-asiat",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/tyokalut/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "tools",
+      "slug": "tyokalut",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/lelut/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "toys",
+      "slug": "lelut",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/puut/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "tree",
+      "slug": "puut",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/vihannekset/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "vegetables",
+      "slug": "vihannekset",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/ajoneuvot/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "vehicles",
+      "slug": "ajoneuvot",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/saa/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "weather",
+      "slug": "saa",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/talvi/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "winter",
+      "slug": "talvi",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/elaintarhan-elaimet/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "zoo_animals",
+      "slug": "elaintarhan-elaimet",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/elaimet-mv/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "animals_bw",
+      "slug": "elaimet-mv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/elaimet-mv-2/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "animals_bw_2",
+      "slug": "elaimet-mv-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/elaimet-mv-3/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "animals_bw_3",
+      "slug": "elaimet-mv-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/elaimet-mv-4/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "animals_bw_4",
+      "slug": "elaimet-mv-4",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/elaimet-mv-5/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "animals_bw_5",
+      "slug": "elaimet-mv-5",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/vaatteet-mv/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "apparel_bw",
+      "slug": "vaatteet-mv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/ranta-mv/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "beach_bw",
+      "slug": "ranta-mv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/ranta-mv-2/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "beach_bw_2",
+      "slug": "ranta-mv-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/linnut-m-v/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "birds_bw",
+      "slug": "linnut-m-v",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/linnut-m-v-2/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "birds_bw_2",
+      "slug": "linnut-m-v-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/joulu-m-v/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "christmas_bw",
+      "slug": "joulu-m-v",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/joulu-m-v-2/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "christmas_bw_2",
+      "slug": "joulu-m-v-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/luokkahuone-m-v/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "classroom_bw",
+      "slug": "luokkahuone-m-v",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/luokkahuone-2-m-v/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "classroom_bw_2",
+      "slug": "luokkahuone-2-m-v",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/jalkiruoka-m-v/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "dessert_bw",
+      "slug": "jalkiruoka-m-v",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/paasiainen-mv/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "easter_bw",
+      "slug": "paasiainen-mv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/paasiainen-mv-2/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "easter_bw_2",
+      "slug": "paasiainen-mv-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/koulutus-mv/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "education_bw",
+      "slug": "koulutus-mv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/kasvot-mv/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "faces_bw",
+      "slug": "kasvot-mv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/maatilan-elaimet-mv/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "farm_animals_bw",
+      "slug": "maatilan-elaimet-mv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/maatila-mv/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "farm_bw",
+      "slug": "maatila-mv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/ruoka-mv/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "food_bw",
+      "slug": "ruoka-mv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/ruoka-mv-2/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "food_bw_2",
+      "slug": "ruoka-mv-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/ruoka-mv-3/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "food_bw_3",
+      "slug": "ruoka-mv-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/hedelmat-mv/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "fruits_bw",
+      "slug": "hedelmat-mv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/huonekalut-mv/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "furniture_bw",
+      "slug": "huonekalut-mv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/koti-ja-luonto-mv/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "home_and_nature_bw",
+      "slug": "koti-ja-luonto-mv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/koti-mv/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "home_bw",
+      "slug": "koti-mv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/koti-mv-2/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "home_bw_2",
+      "slug": "koti-mv-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/kotitalous-mv/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "household_bw",
+      "slug": "kotitalous-mv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/keittio-mv/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "kitchen_bw",
+      "slug": "keittio-mv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/luonto-mv/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "nature_bw",
+      "slug": "luonto-mv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/esineet-mv/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "objects_bw",
+      "slug": "esineet-mv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/merielama-mv/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "sea_life_bw",
+      "slug": "merielama-mv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/merielama-mv-2/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "sea_life_bw_2",
+      "slug": "merielama-mv-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/avaruus-mv/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "space_bw",
+      "slug": "avaruus-mv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/urheilu-mv/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "sports_bw",
+      "slug": "urheilu-mv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/urheilu-mv-2/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "sports_bw_2",
+      "slug": "urheilu-mv-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/tyokalut-mv/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "tools_bw",
+      "slug": "tyokalut-mv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/lelut-mv/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "toys_bw",
+      "slug": "lelut-mv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/lelut-mv-2/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "toys_bw_2",
+      "slug": "lelut-mv-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/matkailu-ja-loma-mv/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "travel_and_holiday_bw",
+      "slug": "matkailu-ja-loma-mv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/ystavanpaiva-mv/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "valentine_bw",
+      "slug": "ystavanpaiva-mv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/ystavanpaiva-mv-2/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "valentine_bw_2",
+      "slug": "ystavanpaiva-mv-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/vihannekset-mv/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "vegetables_bw",
+      "slug": "vihannekset-mv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/vihannekset-mv-2/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "vegetables_bw_2",
+      "slug": "vihannekset-mv-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/ajoneuvot-mv/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "vehicles_bw",
+      "slug": "ajoneuvot-mv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/ajoneuvot-mv-2/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "vehicles_bw_2",
+      "slug": "ajoneuvot-mv-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/ajoneuvot-mv-3/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "vehicles_bw_3",
+      "slug": "ajoneuvot-mv-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/elaintarhan-elaimet-mv/",
+      "locale": "fi",
+      "axis": "theme",
+      "axisKey": "zoo_animals_bw",
+      "slug": "elaintarhan-elaimet-mv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/varhaiskasvatus/",
+      "locale": "fi",
+      "axis": "educational-level",
+      "axisKey": "preschool",
+      "slug": "varhaiskasvatus",
+      "status": 200,
+      "descriptionLength": 153,
+      "descriptionPreview": "Varhaiskasvatuksen tehtäviä 3-5-vuotiaille: värejä, muotoja, kokoja ja ensimmäisiä lukuja. Värikkäitä kuvia ja pelejä varhaiskasvatussuunnitelman mukaan.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 153
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "3007b7a2e1d9cf68f5c53e451ba707b7b30959ab"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/esiopetus/",
+      "locale": "fi",
+      "axis": "educational-level",
+      "axisKey": "kindergarten",
+      "slug": "esiopetus",
+      "status": 200,
+      "descriptionLength": 149,
+      "descriptionPreview": "Esiopetuksen tehtäviä 5-7-vuotiaille: lukukäsite 1-20, kirjain-äännevastaavuus, muodot ja sanasto Opetushallituksen esiopetuksen tavoitteiden mukaan.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 149
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b048735618f3b961e9b03a31b884d4a8b671eb9c"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/1-luokka/",
+      "locale": "fi",
+      "axis": "educational-level",
+      "axisKey": "grade-1",
+      "slug": "1-luokka",
+      "status": 200,
+      "descriptionLength": 143,
+      "descriptionPreview": "1. luokan tehtäviä 6-8-vuotiaille: alkavaa lukutaitoa, yhteen- ja vähennyslaskua sekä sanastoa OPS 2014 -alkuopetuksen tavoitteiden mukaisesti.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 143
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "89323dfcef1a9079992194f1a736df5544df0304"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/2-luokka/",
+      "locale": "fi",
+      "axis": "educational-level",
+      "axisKey": "grade-2",
+      "slug": "2-luokka",
+      "status": 200,
+      "descriptionLength": 136,
+      "descriptionPreview": "2. luokan harjoituksia 7-9-vuotiaille: kymmenylityksiä, luetun ymmärtämistä ja sanaston laajennusta OPS 2014:n alkuopetuksen mukaisesti.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 136
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fi)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "32ec4972ff4374a955a1848f62c37e4d101e9f38"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fi/topic/3-luokka/",
+      "locale": "fi",
+      "axis": "educational-level",
+      "axisKey": "grade-3",
+      "slug": "3-luokka",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+=== §4.B genericness + structural lints ===
+  -> all 2631 pages pass lint (≥200 words, no banned phrases, theme-noun in P1)
+
+=== §4.C similarity — per-(type,mode) WITHIN-CLASS clusters (whole-page RAW) ===
+  addition/find-addend (n=39): max 0.713 mean 0.327 #FAIL>=0.80=0 #WARN>=0.65=55 | P1-raw mean 0.142 | maxPair optellen-zoek-de-optelterm-dieren-1b23 ~ optellen-zoek-de-optelterm-boswezens-99d7
+  addition/image-image (n=38): max 0.681 mean 0.323 #FAIL>=0.80=0 #WARN>=0.65=3 | P1-raw mean 0.127 | maxPair optellen-beeld-beeld-dieren ~ optellen-beeld-beeld-boswezens-bf5f
+  addition/image-number (n=40): max 0.660 mean 0.331 #FAIL>=0.80=0 #WARN>=0.65=7 | P1-raw mean 0.132 | maxPair optellen-beeld-getal-desserts-en-snoep-35d3 ~ optellen-beeld-getal-ziekenhuis-a361
+  addition/mixed (n=41): max 0.701 mean 0.334 #FAIL>=0.80=0 #WARN>=0.65=82 | P1-raw mean 0.152 | maxPair optellen-gemengd-boerderijdieren-6a92 ~ optellen-gemengd-dierentuindieren-8180
+  alphabet-train/letter-hint (n=42): max 0.626 mean 0.327 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.118 | maxPair alfabettrein-letterhint-4-juli-2f2a ~ alfabettrein-letterhint-lichaamsdelen-b94a
+  alphabet-train/null (n=38): max 0.594 mean 0.287 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.103 | maxPair alfabettrein-accessoires-8436 ~ alfabettrein-ontbijt-e079
+  big-small/findBig (n=36): max 0.603 mean 0.353 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.187 | maxPair groot-klein-vind-de-grote-vormen-018c ~ groot-klein-vind-de-grote-dierentuindieren-8ea2
+  big-small/orderAsc (n=40): max 0.585 mean 0.360 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.205 | maxPair groot-klein-oplopende-volgorde-huisdieren-b94a ~ groot-klein-oplopende-volgorde-speelgoed-ae96
+  bingo/null (n=38): max 0.620 mean 0.353 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.194 | maxPair bingo-dieren ~ bingo-huisdieren-d1bd
+  chart-count/null (n=41): max 0.337 mean 0.113 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.101 | maxPair grafiek-tellen-meubels-fbd2 ~ grafiek-tellen-gereedschap-80c2
+  code-addition/null (n=48): max 0.601 mean 0.307 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.106 | maxPair code-optellen-huisdieren-2ea7 ~ code-optellen-dierentuindieren-70ef
+  crossword/null (n=45): max 0.588 mean 0.248 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.112 | maxPair kruiswoordraadsel-ontbijt-38af ~ kruiswoordraadsel-keukengerei-e10a
+  crossword/null/t:en (n=46): max 0.548 mean 0.264 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.116 | maxPair engels-kruiswoordraadsel-ontbijt-1ddc ~ engels-kruiswoordraadsel-keukengerei-4631
+  find-and-count/hidden-object (n=45): max 0.611 mean 0.298 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.119 | maxPair zoek-en-tel-verborgen-objecten-dieren-9b8e ~ zoek-en-tel-verborgen-objecten-boerderijdieren-6f68
+  find-and-count/letter-spotting (n=44): max 0.613 mean 0.311 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.125 | maxPair zoek-en-tel-letters-zoeken-dieren ~ zoek-en-tel-letters-zoeken-boerderijdieren-1130
+  find-objects/find-odd (n=48): max 0.633 mean 0.333 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.167 | maxPair objecten-zoeken-vind-de-andere-huisdieren-83a2 ~ objecten-zoeken-vind-de-andere-dierentuindieren-b060
+  find-objects/i-spy (n=47): max 0.661 mean 0.319 #FAIL>=0.80=0 #WARN>=0.65=1 | P1-raw mean 0.142 | maxPair objecten-zoeken-ik-zie-ik-zie-huisdieren-0071 ~ objecten-zoeken-ik-zie-ik-zie-dierentuindieren-42d6
+  grid-match/null (n=45): max 0.590 mean 0.298 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.110 | maxPair rooster-koppelen-dieren ~ rooster-koppelen-boerderijdieren-708d
+  matching/letter (n=45): max 0.616 mean 0.262 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.109 | maxPair koppelen-letter-klaslokaal-349d ~ koppelen-letter-dingen-die-vliegen-1c96
+  matching/name (n=45): max 0.607 mean 0.260 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.109 | maxPair koppelen-namen-strand-d533 ~ koppelen-namen-gereedschap-403a
+  matching/name/t:en (n=47): max 0.608 mean 0.280 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.123 | maxPair engels-koppelen-namen-rond-het-huis-d756 ~ engels-koppelen-namen-weer-ef44
+  math-puzzle/addition (n=40): max 0.574 mean 0.287 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.122 | maxPair rekenpuzzel-optellen-rond-het-huis-cb72 ~ rekenpuzzel-optellen-gereedschap-573a
+  math-puzzle/mixed (n=41): max 0.567 mean 0.288 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.123 | maxPair rekenpuzzel-gemengd-vogels-eb2b ~ rekenpuzzel-gemengd-dinosaurussen-d29f
+  math-puzzle/subtraction (n=41): max 0.571 mean 0.292 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.136 | maxPair rekenpuzzel-aftrekken-fruit-aa55 ~ rekenpuzzel-aftrekken-oceaanleven-bddc
+  missing-pieces/one-missing (n=46): max 0.622 mean 0.312 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.127 | maxPair ontbrekende-stukken-1-ontbrekend-stukje-dieren ~ ontbrekende-stukken-1-ontbrekend-stukje-voertuigen-faf7
+  missing-pieces/two-missing (n=47): max 0.612 mean 0.309 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.131 | maxPair ontbrekende-stukken-2-ontbrekende-stukjes-oceaanleven-dde6 ~ ontbrekende-stukken-2-ontbrekende-stukjes-dierentuindieren-b12b
+  more-less/check-cross (n=39): max 0.693 mean 0.363 #FAIL>=0.80=0 #WARN>=0.65=3 | P1-raw mean 0.222 | maxPair meer-minder-aankruisen-en-doorstrepen-fruit-124f ~ meer-minder-aankruisen-en-doorstrepen-thanksgiving-e818
+  more-less/image-image (n=41): max 0.627 mean 0.356 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.201 | maxPair meer-minder-beeld-beeld-boerderijdieren-2d60 ~ meer-minder-beeld-beeld-dierentuindieren-c6d5
+  more-less/image-number (n=40): max 0.625 mean 0.353 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.200 | maxPair meer-minder-beeld-getal-bloemen-2b08 ~ meer-minder-beeld-getal-oceaanleven-63ab
+  odd-one-out/cross-theme (n=3): max 0.349 mean 0.314 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.144 | maxPair welke-hoort-niet-thuis-themaoverstijgend-dieren-bc32 ~ welke-hoort-niet-thuis-themaoverstijgend-bomen-e9d4
+  odd-one-out/same-theme (n=47): max 0.619 mean 0.336 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.169 | maxPair welke-hoort-niet-thuis-zelfde-thema-keukengerei-7b67 ~ welke-hoort-niet-thuis-zelfde-thema-voertuigen-57cb
+  pattern-train/aab (n=48): max 0.641 mean 0.352 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.179 | maxPair patroontrein-aab-huisdieren-0591 ~ patroontrein-aab-dierentuindieren-7907
+  pattern-train/aabb (n=48): max 0.631 mean 0.312 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.102 | maxPair patroontrein-aabb-meubels-808a ~ patroontrein-aabb-gereedschap-bdbf
+  pattern-train/abb (n=48): max 0.631 mean 0.310 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.100 | maxPair patroontrein-abb-oceaanleven-290f ~ patroontrein-abb-winter-7b40
+  pattern-train/abc (n=48): max 0.627 mean 0.355 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.172 | maxPair patroontrein-abc-huisdieren-e022 ~ patroontrein-abc-dierentuindieren-0d4c
+  pattern-train/null (n=48): max 0.631 mean 0.362 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.197 | maxPair patroontrein-huisdieren-b72d ~ patroontrein-dierentuindieren-0d26
+  pattern-worksheet/null (n=48): max 0.622 mean 0.349 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.185 | maxPair patroon-werkblad-rond-het-huis-0d80 ~ patroon-werkblad-kleuren-d9f1
+  picture-path/choose-path (n=47): max 0.622 mean 0.334 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.162 | maxPair beeldpad-kies-het-juiste-pad-dieren-2665 ~ beeldpad-kies-het-juiste-pad-groenten-d836
+  picture-path/classic-maze (n=36): max 0.594 mean 0.346 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.179 | maxPair beeldpad-klassiek-doolhof-pasen-8e6d ~ beeldpad-klassiek-doolhof-gereedschap-25e6
+  picture-sort/null (n=139): max 0.589 mean 0.255 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.063 | maxPair beelden-sorteren-accessories-vs-pets-c82c ~ beelden-sorteren-accessories-vs-zoo-animals-6de2
+  prepositions/fillin (n=47): max 0.615 mean 0.278 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.106 | maxPair voorzetsels-invullen-boswezens-adce ~ voorzetsels-invullen-dierentuindieren-423e
+  prepositions/multiplechoice (n=46): max 0.612 mean 0.274 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.102 | maxPair voorzetsels-meerkeuze-boswezens-625b ~ voorzetsels-meerkeuze-dierentuindieren-9b7c
+  shadow-match/find-shadow (n=45): max 0.629 mean 0.306 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.122 | maxPair schaduw-koppelen-koppel-de-schaduw-dieren ~ schaduw-koppelen-koppel-de-schaduw-boerderijdieren-90ed
+  shadow-match/make-whole (n=47): max 0.656 mean 0.319 #FAIL>=0.80=0 #WARN>=0.65=1 | P1-raw mean 0.138 | maxPair schaduw-koppelen-maak-het-heel-huisdieren-08a4 ~ schaduw-koppelen-maak-het-heel-dierentuindieren-ed65
+  subtraction/cross-out (n=40): max 0.648 mean 0.321 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.125 | maxPair aftrekken-doorstrepen-muziek-029a ~ aftrekken-doorstrepen-thanksgiving-748b
+  subtraction/find-subtrahend (n=39): max 0.708 mean 0.338 #FAIL>=0.80=0 #WARN>=0.65=64 | P1-raw mean 0.160 | maxPair aftrekken-zoek-de-aftrekker-dieren-4cc5 ~ aftrekken-zoek-de-aftrekker-boswezens-9f53
+  subtraction/image-number (n=40): max 0.662 mean 0.327 #FAIL>=0.80=0 #WARN>=0.65=7 | P1-raw mean 0.134 | maxPair aftrekken-beeld-getal-ontbijt-d766 ~ aftrekken-beeld-getal-boerderijdieren-3f22
+  subtraction/mixed (n=40): max 0.683 mean 0.334 #FAIL>=0.80=0 #WARN>=0.65=75 | P1-raw mean 0.150 | maxPair aftrekken-gemengd-ontbijt-8834 ~ aftrekken-gemengd-muziek-dbb3
+  sudoku/easy (n=47): max 0.650 mean 0.313 #FAIL>=0.80=0 #WARN>=0.65=1 | P1-raw mean 0.138 | maxPair foto-sudoku-makkelijk-huisdieren-b07d ~ foto-sudoku-makkelijk-dierentuindieren-ddc2
+  sudoku/medium (n=47): max 0.608 mean 0.317 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.152 | maxPair foto-sudoku-gemiddeld-boswezens-91ea ~ foto-sudoku-gemiddeld-dierentuindieren-f1d0
+  treasure-hunt/cardinal-arrows (n=48): max 0.628 mean 0.333 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.166 | maxPair schatzoektocht-op-neer-links-rechts-oceaanleven-3519 ~ schatzoektocht-op-neer-links-rechts-winter-d2fa
+  treasure-hunt/compass (n=48): max 0.630 mean 0.342 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.168 | maxPair schatzoektocht-windrichtingen-oceaanleven-9af3 ~ schatzoektocht-windrichtingen-winter-1942
+  word-guess/easy (n=47): max 0.601 mean 0.254 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.122 | maxPair woord-raden-makkelijk-huisdieren-878f ~ woord-raden-makkelijk-dierentuindieren-161d
+  word-guess/normal (n=46): max 0.587 mean 0.253 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.120 | maxPair woord-raden-normaal-huisdieren-af7e ~ woord-raden-normaal-dierentuindieren-2aa9
+  word-scramble/easy (n=47): max 0.606 mean 0.269 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.116 | maxPair woordpuzzel-makkelijk-huisdieren-4ce1 ~ woordpuzzel-makkelijk-dierentuindieren-83ad
+  word-scramble/normal (n=46): max 0.608 mean 0.266 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.108 | maxPair woordpuzzel-normaal-boswezens-fbed ~ woordpuzzel-normaal-dierentuindieren-c308
+  wordsearch/null (n=48): max 0.614 mean 0.280 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.116 | maxPair woordzoeker-huisdieren-d5e3 ~ woordzoeker-dierentuindieren-55bf
+  wordsearch/null/t:en (n=48): max 0.591 mean 0.274 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.124 | maxPair engels-woordzoeker-rond-het-huis-a362 ~ engels-woordzoeker-voertuigen-43dc
+
+=== cross-class + within: ALL 2631 landings, whole-page RAW ===
+  ALL-PAIRS: {"max":"0.755","mean":"0.063","pairs":3459765,"over80":0,"over65":410,"over85":0,"maxPair":"patroontrein-aab-in-de-supermarkt-8b78 ~ patroontrein-abc-in-de-supermarkt-2487"}
+
+=== full distribution: TOP-10 raw whole-page pairs (within+cross) ===
+  1. 0.755  patroontrein-aab-in-de-supermarkt-8b78 ~ patroontrein-abc-in-de-supermarkt-2487  (pattern-train/aab vs pattern-train/abc)
+  2. 0.748  patroontrein-aab-activiteiten-b0d2 ~ patroontrein-abc-activiteiten-77c2  (pattern-train/aab vs pattern-train/abc)
+  3. 0.737  optellen-gemengd-in-de-supermarkt-01e9 ~ aftrekken-gemengd-in-de-supermarkt-3bf9  (addition/mixed vs subtraction/mixed)
+  4. 0.736  optellen-beeld-getal-keukengerei-b278 ~ aftrekken-beeld-getal-keukengerei-fe9f  (addition/image-number vs subtraction/image-number)
+  5. 0.731  patroontrein-aab-kerstmis-90bf ~ patroontrein-abc-kerstmis-d4c8  (pattern-train/aab vs pattern-train/abc)
+  6. 0.730  optellen-beeld-getal-klaslokaal-08a9 ~ aftrekken-beeld-getal-klaslokaal-8435  (addition/image-number vs subtraction/image-number)
+  7. 0.730  patroontrein-aab-muziek-032d ~ patroontrein-abc-muziek-69f2  (pattern-train/aab vs pattern-train/abc)
+  8. 0.730  patroontrein-aab-voertuigen-13d9 ~ patroontrein-abc-voertuigen-2bae  (pattern-train/aab vs pattern-train/abc)
+  9. 0.729  patroontrein-aab-speelgoed-5aa1 ~ patroontrein-abc-speelgoed-c7d8  (pattern-train/aab vs pattern-train/abc)
+  10. 0.728  optellen-gemengd-kleding-2bda ~ aftrekken-gemengd-kleding-2117  (addition/mixed vs subtraction/mixed)
+
+=== cross-class template-collision probe (slot-normalized whole-page, DIFFERENT (type,mode) only) ===
+  max cross-class slot-normalized Jaccard: 0.759  [optellen-gemengd-in-de-supermarkt-01e9 ~ aftrekken-gemengd-in-de-supermarkt-3bf9 (addition/mixed vs subtraction/mixed)]
+
+=== §4.E title + meta distinctness ===
+  [P] shared first-50-char title prefixes: 41 groups covering 327 of 2631 pages -> FAIL
+        42 pages share "alfabetische volgorde met plaatjes voor kleuters –…"  e.g. alfabettrein-letterhint-4-juli-2f2a, alfabettrein-letterhint-accessoires-bf65, alfabettrein-letterhint-activiteiten-8861
+        40 pages share "werkbladen optellen tot 10 met plaatjes en getalle…"  e.g. optellen-beeld-getal-accessoires-b3e3, optellen-beeld-getal-dieren-cc01, optellen-beeld-getal-rond-het-huis-cba4
+        40 pages share "werkbladen aftrekken tot 10 met plaatjes en getall…"  e.g. aftrekken-beeld-getal-accessoires-7bd9, aftrekken-beeld-getal-dieren-e5f5, aftrekken-beeld-getal-rond-het-huis-4e11
+        40 pages share "werkbladen meer of minder met plaatjes en getallen…"  e.g. meer-minder-beeld-getal-accessoires-9b30, meer-minder-beeld-getal-dieren-467d, meer-minder-beeld-getal-rond-het-huis-b99b
+        39 pages share "werkbladen optellen tot 10 met ontbrekend getal –…"  e.g. optellen-zoek-de-optelterm-accessoires-4006, optellen-zoek-de-optelterm-dieren-1b23, optellen-zoek-de-optelterm-rond-het-huis-32cc
+      WARN 141 pages have no title (route falls back to h1)
+      WARN 141 pages have no metaDescription (route falls back to first sentence of p1 — which is UNIQUE, so this is healthier than a templated one)
+      WARN 1492 metaDescriptions outside the 120-170 band expected by the §21.2 preband step
+  addition/find-addend (n=39): TITLE mean 0.477 max 0.583 #FAIL=0 | META mean 0.679 max 0.750 #FAIL=0
+  addition/image-image (n=38): TITLE mean 0.435 max 0.545 #FAIL=0 | META mean 0.666 max 0.737 #FAIL=0
+  addition/image-number (n=40): TITLE mean 0.516 max 0.615 #FAIL=0 | META mean 0.694 max 0.762 #FAIL=0
+  alphabet-train/letter-hint (n=42): TITLE mean 0.384 max 0.400 #FAIL=0 | META mean 0.765 max 0.778 #FAIL=0
+  alphabet-train/null (n=38): TITLE mean 0.135 max 0.143 #FAIL=0 | META mean 0.761 max 0.778 #FAIL=0
+  bingo/null (n=38): TITLE mean 0.135 max 0.143 #FAIL=0 | META mean 0.713 max 0.733 #FAIL=0
+  chart-count/null (n=41): TITLE mean 0.133 max 0.286 #FAIL=0 | META mean 0.686 max 0.714 #FAIL=0
+  code-addition/null (n=48): TITLE mean 0.135 max 0.286 #FAIL=0 | META mean 0.710 max 0.733 #FAIL=0
+  crossword/null (n=45): TITLE mean 0.319 max 0.444 #FAIL=0 | META mean 0.699 max 0.762 #FAIL=0
+  find-and-count/letter-spotting (n=44): TITLE mean 0.318 max 0.333 #FAIL=0 | META mean 0.650 max 0.667 #FAIL=0
+  find-objects/i-spy (n=47): TITLE mean 0.385 max 0.500 #FAIL=0 | META mean 0.651 max 0.722 #FAIL=0
+  matching/letter (n=45): TITLE mean 0.134 max 0.286 #FAIL=0 | META mean 0.779 max 0.800 #FAIL=703
+  matching/name (n=45): TITLE mean 0.236 max 0.375 #FAIL=0 | META mean 0.710 max 0.773 #FAIL=0
+  math-puzzle/addition (n=40): TITLE mean 0.379 max 0.500 #FAIL=0 | META mean 0.708 max 0.773 #FAIL=0
+  math-puzzle/mixed (n=41): TITLE mean 0.254 max 0.444 #FAIL=0 | META mean 0.658 max 0.762 #FAIL=0
+  math-puzzle/subtraction (n=41): TITLE mean 0.320 max 0.500 #FAIL=0 | META mean 0.672 max 0.773 #FAIL=0
+  more-less/check-cross (n=39): TITLE mean 0.432 max 0.545 #FAIL=0 | META mean 0.679 max 0.750 #FAIL=0
+  more-less/image-image (n=41): TITLE mean 0.433 max 0.545 #FAIL=0 | META mean 0.680 max 0.750 #FAIL=0
+  more-less/image-number (n=40): TITLE mean 0.516 max 0.615 #FAIL=0 | META mean 0.708 max 0.773 #FAIL=0
+  odd-one-out/cross-theme (n=3): TITLE mean 0.333 max 0.333 #FAIL=0 | META mean 0.684 max 0.684 #FAIL=0
+  odd-one-out/same-theme (n=47): TITLE mean 0.316 max 0.444 #FAIL=0 | META mean 0.665 max 0.737 #FAIL=0
+  picture-path/choose-path (n=47): TITLE mean 0.438 max 0.545 #FAIL=0 | META mean 0.669 max 0.737 #FAIL=0
+  picture-path/classic-maze (n=36): TITLE mean 0.323 max 0.333 #FAIL=0 | META mean 0.656 max 0.667 #FAIL=0
+  subtraction/cross-out (n=40): TITLE mean 0.432 max 0.545 #FAIL=0 | META mean 0.694 max 0.762 #FAIL=0
+  subtraction/find-subtrahend (n=39): TITLE mean 0.480 max 0.583 #FAIL=0 | META mean 0.710 max 0.773 #FAIL=0
+  subtraction/image-number (n=40): TITLE mean 0.516 max 0.615 #FAIL=0 | META mean 0.720 max 0.783 #FAIL=0
+  subtraction/mixed (n=40): TITLE mean 0.314 max 0.444 #FAIL=0 | META mean 0.663 max 0.737 #FAIL=0
+  sudoku/medium (n=47): TITLE mean 0.239 max 0.375 #FAIL=0 | META mean 0.651 max 0.722 #FAIL=0
+  word-guess/easy (n=47): TITLE mean 0.382 max 0.500 #FAIL=0 | META mean 0.711 max 0.773 #FAIL=0
+  word-guess/normal (n=46): TITLE mean 0.381 max 0.500 #FAIL=0 | META mean 0.710 max 0.773 #FAIL=0
+  word-scramble/easy (n=47): TITLE mean 0.317 max 0.444 #FAIL=0 | META mean 0.666 max 0.737 #FAIL=0
+  word-scramble/normal (n=46): TITLE mean 0.317 max 0.444 #FAIL=0 | META mean 0.666 max 0.737 #FAIL=0
+  wordsearch/null (n=48): TITLE mean 0.135 max 0.286 #FAIL=0 | META mean 0.690 max 0.714 #FAIL=0
+  [T] worst within-class TITLE max: 0.615  [optellen-beeld-getal-vogels-2909 ~ optellen-beeld-getal-vogels-2-7199]  -> PASS
+  [M] worst within-class META  max: 0.800  [koppelen-letter-accessoires-eb51 ~ koppelen-letter-activiteiten-efc5]  -> FAIL
+
+=== VERDICT vs LOCKED thresholds (2026-06-06 calibration) ===
+  [1] cannibalization = WHOLE-PAGE RAW: FAIL>=0.80 / WARN 0.65-0.80 / PASS<0.65 (within+cross)
+      worst within-class max: 0.713  [optellen-zoek-de-optelterm-dieren-1b23 ~ optellen-zoek-de-optelterm-boswezens-99d7]  -> PASS
+      all-pairs max:          0.755 #FAIL(>=0.80)=0 #WARN(>=0.65)=410  -> PASS
+  [2] cluster-density (whole-page-raw mean) alarm>0.75 (per cluster): OK
+  [3] cross-class slot-norm template-collision FAIL>=0.90: max=0.759  -> PASS
+  [4] P1-raw cluster-mean WARN>0.70 (per cluster): ok
+  [5] title/meta distinctness (§4.E): shared-50-char-prefix groups=41, worst TITLE 0.615, worst META 0.800  -> FAIL
+      (per-paragraph 0.85 FAIL + within-class slot-norm = RETIRED per ruling — they misfire on the intended template/variant design)

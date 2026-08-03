@@ -1,0 +1,4812 @@
+{
+ "locale": "fi",
+ "batch": "01",
+ "of": 7,
+ "genderLegend": "(no grammatical gender)",
+ "count": 210,
+ "range": [
+  "accordion",
+  "cauliflower"
+ ],
+ "rows": [
+  {
+   "key": "accordion",
+   "themes": [
+    "music"
+   ],
+   "en": [
+    "Accordion",
+    "Accordions"
+   ],
+   "cur": {
+    "s": "Haitari",
+    "p": "Haitarit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "acorn",
+   "themes": [
+    "miscellaneous",
+    "thanksgivinng"
+   ],
+   "en": [
+    "Acorn",
+    "Acorns"
+   ],
+   "cur": {
+    "s": "Tammenterho",
+    "p": "Tammenterhot",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "actor",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Actor",
+    "Actors"
+   ],
+   "cur": {
+    "s": "Näyttelijä",
+    "p": "Näyttelijät",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "air-conditioning",
+   "themes": [
+    "home"
+   ],
+   "en": [
+    "Air Conditioning",
+    "Air Conditioning"
+   ],
+   "cur": {
+    "s": "Ilmastointi",
+    "p": "Ilmastointi",
+    "g": null
+   },
+   "type": "noun-concept",
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "airplane",
+   "themes": [
+    "things_that_fly",
+    "toys",
+    "travel_and_holiday",
+    "vehicles"
+   ],
+   "en": [
+    "Airplane",
+    "Airplanes"
+   ],
+   "cur": {
+    "s": "Lentokone",
+    "p": "Lentokoneet",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "alarm-clock",
+   "themes": [
+    "around_the_house",
+    "home",
+    "household"
+   ],
+   "en": [
+    "Alarm Clock",
+    "Alarm Clocks"
+   ],
+   "cur": {
+    "s": "Herätyskello",
+    "p": "Herätyskellot",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "alligator",
+   "themes": [
+    "animals",
+    "faces",
+    "reptiles_and_amphibians",
+    "zoo_animals"
+   ],
+   "en": [
+    "Alligator",
+    "Alligators"
+   ],
+   "cur": {
+    "s": "Alligaattori",
+    "p": "Alligaattorit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "allosaurus",
+   "themes": [
+    "dinosaurs"
+   ],
+   "en": [
+    "Allosaurus",
+    "Allosauruses"
+   ],
+   "cur": {
+    "s": "Allosaurus",
+    "p": "Allosaurukset",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "alpaca",
+   "themes": [
+    "farm_animals"
+   ],
+   "en": [
+    "Alpaca",
+    "Alpacas"
+   ],
+   "cur": {
+    "s": "Alpakka",
+    "p": "Alpakat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "ambulance",
+   "themes": [
+    "hospital",
+    "vehicles"
+   ],
+   "en": [
+    "Ambulance",
+    "Ambulances"
+   ],
+   "cur": {
+    "s": "Ambulanssi",
+    "p": "Ambulanssit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "analog-clock",
+   "themes": [
+    "classroom"
+   ],
+   "en": [
+    "Analog Clock",
+    "Analog Clocks"
+   ],
+   "cur": {
+    "s": "Analoginen kello",
+    "p": "Analogiset kellot",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "anchor",
+   "themes": [
+    "beach"
+   ],
+   "en": [
+    "Anchor",
+    "Anchors"
+   ],
+   "cur": {
+    "s": "Ankkuri",
+    "p": "Ankkurit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "angel",
+   "themes": [
+    "christmas",
+    "easter",
+    "valentine"
+   ],
+   "en": [
+    "Angel",
+    "Angels"
+   ],
+   "cur": {
+    "s": "Enkeli",
+    "p": "Enkelit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "angelfish",
+   "themes": [
+    "ocean_life"
+   ],
+   "en": [
+    "Angelfish",
+    "Angelfish"
+   ],
+   "cur": {
+    "s": "Enkelikala",
+    "p": "Enkelikalat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "angry",
+   "themes": [
+    "emotions"
+   ],
+   "en": [
+    "Angry",
+    "Angry"
+   ],
+   "cur": {
+    "s": "Vihainen",
+    "p": "Vihainen",
+    "g": null
+   },
+   "type": "adjective",
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "ankle",
+   "themes": [
+    "body_parts"
+   ],
+   "en": [
+    "Ankle",
+    "Ankles"
+   ],
+   "cur": {
+    "s": "Nilkka",
+    "p": "Nilkat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "ankylosaurus",
+   "themes": [
+    "dinosaurs"
+   ],
+   "en": [
+    "Ankylosaurus",
+    "Ankylosauruses"
+   ],
+   "cur": {
+    "s": "Ankylosaurus",
+    "p": "Ankylosaurukset",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "ant",
+   "themes": [
+    "forest_creatures",
+    "insects_and_bugs"
+   ],
+   "en": [
+    "Ant",
+    "Ants"
+   ],
+   "cur": {
+    "s": "Muurahainen",
+    "p": "Muurahaiset",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "antelope",
+   "themes": [
+    "animals",
+    "farm_animals",
+    "zoo_animals"
+   ],
+   "en": [
+    "Antelope",
+    "Antelopes"
+   ],
+   "cur": {
+    "s": "Antilooppi",
+    "p": "Antilooppeja",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "apatosaurus",
+   "themes": [
+    "dinosaurs"
+   ],
+   "en": [
+    "Apatosaurus",
+    "Apatosauruses"
+   ],
+   "cur": {
+    "s": "Apatosaurus",
+    "p": "Apatosaurukset",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "apple",
+   "themes": [
+    "at_the_supermarket",
+    "breakfast",
+    "fruits",
+    "thanksgivinng"
+   ],
+   "en": [
+    "Apple",
+    "Apples"
+   ],
+   "cur": {
+    "s": "Omena",
+    "p": "Omenat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "apple-pie",
+   "themes": [
+    "desserts_and_sweets"
+   ],
+   "en": [
+    "Apple Pie",
+    "Apple Pies"
+   ],
+   "cur": {
+    "s": "Omenapiirakka",
+    "p": "Omenapiirakat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "apple-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Apple Tree",
+    "Apple Trees"
+   ],
+   "cur": {
+    "s": "Omenapuu",
+    "p": "Omenapuut",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "apricot",
+   "themes": [
+    "fruits"
+   ],
+   "en": [
+    "Apricot",
+    "Apricots"
+   ],
+   "cur": {
+    "s": "Aprikoosi",
+    "p": "Aprikoosit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "apron",
+   "themes": [
+    "accessories",
+    "clothing",
+    "kitchen_tools"
+   ],
+   "en": [
+    "Apron",
+    "Aprons"
+   ],
+   "cur": {
+    "s": "Esiliina",
+    "p": "Esiliinat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "architect",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Architect",
+    "Architects"
+   ],
+   "cur": {
+    "s": "Arkkitehti",
+    "p": "Arkkitehtit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "argentinosaurus",
+   "themes": [
+    "dinosaurs"
+   ],
+   "en": [
+    "Argentinosaurus",
+    "Argentinosauruses"
+   ],
+   "cur": {
+    "s": "Argentinosaurus",
+    "p": "Argentinosaurukset",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "arm",
+   "themes": [
+    "body_parts"
+   ],
+   "en": [
+    "Arm",
+    "Arms"
+   ],
+   "cur": {
+    "s": "Käsivarsi",
+    "p": "Käsivarret",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "armadillo",
+   "themes": [
+    "zoo_animals"
+   ],
+   "en": [
+    "Armadillo",
+    "Armadillos"
+   ],
+   "cur": {
+    "s": "Vyötiäinen",
+    "p": "Vyötiäiset",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "armchair",
+   "themes": [
+    "around_the_house",
+    "furniture",
+    "home"
+   ],
+   "en": [
+    "Armchair",
+    "Armchairs"
+   ],
+   "cur": {
+    "s": "Nojatuoli",
+    "p": "Nojatuolit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "artist",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Artist",
+    "Artists"
+   ],
+   "cur": {
+    "s": "Taiteilija",
+    "p": "Taiteilijat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "ash-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Ash Tree",
+    "Ash Trees"
+   ],
+   "cur": {
+    "s": "Saarni",
+    "p": "Saarnit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "asparagus",
+   "themes": [
+    "vegetables"
+   ],
+   "en": [
+    "Asparagus",
+    "Asparagus"
+   ],
+   "cur": {
+    "s": "Parsa",
+    "p": "Parsat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "aspen-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Aspen Tree",
+    "Aspen Trees"
+   ],
+   "cur": {
+    "s": "Haapa",
+    "p": "Haapat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "aster",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Aster",
+    "Asters"
+   ],
+   "cur": {
+    "s": "Asteri",
+    "p": "Asterit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "asteroid",
+   "themes": [
+    "space"
+   ],
+   "en": [
+    "Asteroid",
+    "Asteroids"
+   ],
+   "cur": {
+    "s": "Asteroidi",
+    "p": "Asteroidit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "astronaut",
+   "themes": [
+    "occupations",
+    "space"
+   ],
+   "en": [
+    "Astronaut",
+    "Astronauts"
+   ],
+   "cur": {
+    "s": "Astronautti",
+    "p": "Astronautit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "athlete",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Athlete",
+    "Athletes"
+   ],
+   "cur": {
+    "s": "Urheilija",
+    "p": "Urheilijat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "author",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Author",
+    "Authors"
+   ],
+   "cur": {
+    "s": "Kirjailija",
+    "p": "Kirjailijat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "autumn",
+   "themes": [
+    "miscellaneous",
+    "thanksgivinng"
+   ],
+   "en": [
+    "Autumn",
+    "Autumn"
+   ],
+   "cur": {
+    "s": "Syksy",
+    "p": "Syksy",
+    "g": null
+   },
+   "type": "noun-concept",
+   "countable": false,
+   "classification": {
+    "category": "abstract",
+    "hasGender": true,
+    "hasPlural": false
+   },
+   "ART_DEFECT": true
+  },
+  {
+   "key": "avocado",
+   "themes": [
+    "fruits"
+   ],
+   "en": [
+    "Avocado",
+    "Avocados"
+   ],
+   "cur": {
+    "s": "Avokado",
+    "p": "Avokadot",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "axe",
+   "themes": [
+    "tools"
+   ],
+   "en": [
+    "Axe",
+    "Axes"
+   ],
+   "cur": {
+    "s": "Kirves",
+    "p": "Kirveet",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "azalea",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Azalea",
+    "Azaleas"
+   ],
+   "cur": {
+    "s": "Atsalea",
+    "p": "Atsaleat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "baby",
+   "themes": [
+    "toys"
+   ],
+   "en": [
+    "Baby",
+    "Babies"
+   ],
+   "cur": {
+    "s": "Vauva",
+    "p": "Vauvat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "baby's-onesie",
+   "themes": [],
+   "en": [
+    "Baby's Onesie",
+    "Baby's Onesies"
+   ],
+   "cur": {
+    "s": "Vauvan body",
+    "p": "Vauvan bodyt",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "baby-bottle",
+   "themes": [],
+   "en": [
+    "Baby Bottle",
+    "Baby Bottles"
+   ],
+   "cur": {
+    "s": "Tuttipullo",
+    "p": "Tuttipullot",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "baby-carriage",
+   "themes": [
+    "vehicles"
+   ],
+   "en": [
+    "Baby Carriage",
+    "Baby Carriages"
+   ],
+   "cur": {
+    "s": "Lastenvaunut",
+    "p": "Lastenvaunut",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "baby-girl",
+   "themes": [
+    "toys"
+   ],
+   "en": [
+    "Baby Girl",
+    "Baby Girls"
+   ],
+   "cur": {
+    "s": "Tyttövauva",
+    "p": "Tyttövauvat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "baby-overall",
+   "themes": [
+    "apparel"
+   ],
+   "en": [
+    "Baby Overall",
+    "Baby Overalls"
+   ],
+   "cur": {
+    "s": "Vauvan haalari",
+    "p": "Vauvan haalarit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "backpack",
+   "themes": [
+    "accessories",
+    "camping",
+    "classroom",
+    "education",
+    "travel_and_holiday"
+   ],
+   "en": [
+    "Backpack",
+    "Backpacks"
+   ],
+   "cur": {
+    "s": "Reppu",
+    "p": "Reput",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bacon",
+   "themes": [
+    "at_the_supermarket",
+    "breakfast"
+   ],
+   "en": [
+    "Bacon",
+    "Bacon"
+   ],
+   "cur": {
+    "s": "Pekoni",
+    "p": "Pekoni",
+    "g": null
+   },
+   "type": "noun",
+   "countable": false,
+   "classification": {
+    "category": "mass",
+    "hasGender": true,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "badge",
+   "themes": [
+    "accessories"
+   ],
+   "en": [
+    "Badge",
+    "Badges"
+   ],
+   "cur": {
+    "s": "Merkki",
+    "p": "Merkit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "badger",
+   "themes": [
+    "forest_creatures"
+   ],
+   "en": [
+    "Badger",
+    "Badgers"
+   ],
+   "cur": {
+    "s": "Mäyrä",
+    "p": "Mäyrät",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "badminton",
+   "themes": [
+    "sports"
+   ],
+   "en": [
+    "Badminton",
+    "Badminton"
+   ],
+   "cur": {
+    "s": "Sulkapallo",
+    "p": "Sulkapallo",
+    "g": null
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "ART_DEFECT": true
+  },
+  {
+   "key": "bag",
+   "themes": [
+    "at_the_supermarket",
+    "beach"
+   ],
+   "en": [
+    "Bag",
+    "Bags"
+   ],
+   "cur": {
+    "s": "Kassi",
+    "p": "Kassit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bagel",
+   "themes": [
+    "at_the_supermarket",
+    "bakery",
+    "breakfast"
+   ],
+   "en": [
+    "Bagel",
+    "Bagels"
+   ],
+   "cur": {
+    "s": "Bageli",
+    "p": "Bagelit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "baguette",
+   "themes": [
+    "bakery"
+   ],
+   "en": [
+    "Baguette",
+    "Baguettes"
+   ],
+   "cur": {
+    "s": "Patonki",
+    "p": "Patongit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "baker",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Baker",
+    "Bakers"
+   ],
+   "cur": {
+    "s": "Leipuri",
+    "p": "Leipurit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "baking",
+   "themes": [
+    "activities"
+   ],
+   "en": [
+    "Baking",
+    "Baking"
+   ],
+   "cur": {
+    "s": "Leipominen",
+    "p": "Leipominen",
+    "g": null
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "classification": {
+    "category": "activity",
+    "hasGender": false,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "baking-sheet",
+   "themes": [
+    "kitchen_tools"
+   ],
+   "en": [
+    "Baking Sheet",
+    "Baking Sheets"
+   ],
+   "cur": {
+    "s": "Uunipelti",
+    "p": "Uunipellit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "ball",
+   "themes": [
+    "toys"
+   ],
+   "en": [
+    "Ball",
+    "Balls"
+   ],
+   "cur": {
+    "s": "Pallo",
+    "p": "Pallot",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "ballerina",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Ballerina",
+    "Ballerinas"
+   ],
+   "cur": {
+    "s": "Ballerina",
+    "p": "Ballerinat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "balloon",
+   "themes": [
+    "4th_of_july",
+    "easter",
+    "things_that_fly",
+    "toys",
+    "valentine"
+   ],
+   "en": [
+    "Balloon",
+    "Balloons"
+   ],
+   "cur": {
+    "s": "Ilmapallo",
+    "p": "Ilmapallot",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "banana",
+   "themes": [
+    "at_the_supermarket",
+    "breakfast",
+    "fruits"
+   ],
+   "en": [
+    "Banana",
+    "Bananas"
+   ],
+   "cur": {
+    "s": "Banaani",
+    "p": "Banaanit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "banana-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Banana Tree",
+    "Banana Trees"
+   ],
+   "cur": {
+    "s": "Banaanipuu",
+    "p": "Banaanipuut",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bandage",
+   "themes": [
+    "hospital"
+   ],
+   "en": [
+    "Bandage",
+    "Bandages"
+   ],
+   "cur": {
+    "s": "Side",
+    "p": "Siteet",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "banyan-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Banyan Tree",
+    "Banyan Trees"
+   ],
+   "cur": {
+    "s": "Baniaanipuu",
+    "p": "Baniaanipuut",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "baobab-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Baobab Tree",
+    "Baobab Trees"
+   ],
+   "cur": {
+    "s": "Apinanleipäpuu",
+    "p": "Apinanleipäpuut",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "barbecue",
+   "themes": [
+    "summer"
+   ],
+   "en": [
+    "Barbecue",
+    "Barbecues"
+   ],
+   "cur": {
+    "s": "Grilli",
+    "p": "Grillit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "barber",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Barber",
+    "Barbers"
+   ],
+   "cur": {
+    "s": "Parturi",
+    "p": "Parturit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "barn",
+   "themes": [
+    "farm"
+   ],
+   "en": [
+    "Barn",
+    "Barns"
+   ],
+   "cur": {
+    "s": "Lato",
+    "p": "Ladot",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "barrette",
+   "themes": [
+    "accessories"
+   ],
+   "en": [
+    "Barrette",
+    "Barrettes"
+   ],
+   "cur": {
+    "s": "Hiussolki",
+    "p": "Hiussolkit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "baseball",
+   "themes": [
+    "4th_of_july",
+    "activities",
+    "sports"
+   ],
+   "en": [
+    "Baseball",
+    "Baseball"
+   ],
+   "cur": {
+    "s": "Pesapallo",
+    "p": "Pesapallo",
+    "g": null
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "ART_DEFECT": true
+  },
+  {
+   "key": "basket",
+   "themes": [
+    "at_the_supermarket",
+    "easter"
+   ],
+   "en": [
+    "Basket",
+    "Baskets"
+   ],
+   "cur": {
+    "s": "Kori",
+    "p": "Korit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "basketball",
+   "themes": [
+    "activities",
+    "sports"
+   ],
+   "en": [
+    "Basketball",
+    "Basketball"
+   ],
+   "cur": {
+    "s": "Koripallo",
+    "p": "Koripallo",
+    "g": null
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bat",
+   "themes": [
+    "animals",
+    "forest_creatures",
+    "things_that_fly",
+    "zoo_animals"
+   ],
+   "en": [
+    "Bat",
+    "Bats"
+   ],
+   "cur": {
+    "s": "Lepakko",
+    "p": "Lepakot",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bathing-suit",
+   "themes": [
+    "beach"
+   ],
+   "en": [
+    "Bathing Suit",
+    "Bathing Suits"
+   ],
+   "cur": {
+    "s": "Uimapuku",
+    "p": "Uimapukut",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bathtub",
+   "themes": [
+    "around_the_house",
+    "home",
+    "household"
+   ],
+   "en": [
+    "Bathtub",
+    "Bathtubs"
+   ],
+   "cur": {
+    "s": "Kylpyamme",
+    "p": "Kylpyammeet",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "beach",
+   "themes": [
+    "summer"
+   ],
+   "en": [
+    "Beach",
+    "Beaches"
+   ],
+   "cur": {
+    "s": "Ranta",
+    "p": "Rannat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "beach-bag",
+   "themes": [
+    "beach"
+   ],
+   "en": [
+    "Beach Bag",
+    "Beach Bags"
+   ],
+   "cur": {
+    "s": "Rantalaukku",
+    "p": "Rantalaukut",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "beach-ball",
+   "themes": [
+    "beach",
+    "sports",
+    "summer"
+   ],
+   "en": [
+    "Beach Ball",
+    "Beach Balls"
+   ],
+   "cur": {
+    "s": "Rantapallo",
+    "p": "Rantapallot",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "beach-umbrella",
+   "themes": [
+    "beach"
+   ],
+   "en": [
+    "Beach Umbrella",
+    "Beach Umbrellas"
+   ],
+   "cur": {
+    "s": "Aurinkovarjo",
+    "p": "Aurinkovarjot",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "beanie",
+   "themes": [
+    "accessories",
+    "clothing"
+   ],
+   "en": [
+    "Beanie",
+    "Beanies"
+   ],
+   "cur": {
+    "s": "Pipo",
+    "p": "Pipot",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bear",
+   "themes": [
+    "animals",
+    "camping",
+    "faces",
+    "forest_creatures",
+    "zoo_animals"
+   ],
+   "en": [
+    "Bear",
+    "Bears"
+   ],
+   "cur": {
+    "s": "Karhu",
+    "p": "Karhut",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "beaver",
+   "themes": [
+    "animals",
+    "forest_creatures"
+   ],
+   "en": [
+    "Beaver",
+    "Beavers"
+   ],
+   "cur": {
+    "s": "Majava",
+    "p": "Majavat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bed",
+   "themes": [
+    "around_the_house",
+    "furniture",
+    "home",
+    "hospital",
+    "household"
+   ],
+   "en": [
+    "Bed",
+    "Beds"
+   ],
+   "cur": {
+    "s": "Sänky",
+    "p": "Sängyt",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bee",
+   "themes": [
+    "animals",
+    "farm_animals",
+    "forest_creatures",
+    "insects_and_bugs",
+    "spring",
+    "things_that_fly"
+   ],
+   "en": [
+    "Bee",
+    "Bees"
+   ],
+   "cur": {
+    "s": "Mehiläinen",
+    "p": "Mehiläiset",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "beech-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Beech Tree",
+    "Beech Trees"
+   ],
+   "cur": {
+    "s": "Pyökki",
+    "p": "Pyökit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "beetle",
+   "themes": [
+    "things_that_fly"
+   ],
+   "en": [
+    "Beetle",
+    "Beetles"
+   ],
+   "cur": {
+    "s": "Kovakuoriainen",
+    "p": "Kovakuoriaiset",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "beetroot",
+   "themes": [
+    "vegetables"
+   ],
+   "en": [
+    "Beetroot",
+    "Beetroots"
+   ],
+   "cur": {
+    "s": "Punajuuri",
+    "p": "Punajuurit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "begonia",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Begonia",
+    "Begonias"
+   ],
+   "cur": {
+    "s": "Begonia",
+    "p": "Begoniat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "beige",
+   "themes": [
+    "colors"
+   ],
+   "en": [
+    "Beige",
+    "Beige"
+   ],
+   "cur": {
+    "s": "Beesi",
+    "p": "Beesi",
+    "g": null
+   },
+   "type": "adjective",
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "bell",
+   "themes": [
+    "christmas",
+    "classroom",
+    "easter"
+   ],
+   "en": [
+    "Bell",
+    "Bells"
+   ],
+   "cur": {
+    "s": "Kello",
+    "p": "Kellot",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bell-pepper",
+   "themes": [
+    "vegetables"
+   ],
+   "en": [
+    "Bell Pepper",
+    "Bell Peppers"
+   ],
+   "cur": {
+    "s": "Paprika",
+    "p": "Paprikat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "belt",
+   "themes": [
+    "accessories",
+    "clothing"
+   ],
+   "en": [
+    "Belt",
+    "Belts"
+   ],
+   "cur": {
+    "s": "Vyö",
+    "p": "Vyöt",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bench",
+   "themes": [
+    "furniture"
+   ],
+   "en": [
+    "Bench",
+    "Benches"
+   ],
+   "cur": {
+    "s": "Penkki",
+    "p": "Penkit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bible",
+   "themes": [
+    "easter"
+   ],
+   "en": [
+    "Bible",
+    "Bibles"
+   ],
+   "cur": {
+    "s": "Raamattu",
+    "p": "Raamatut",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bicycle",
+   "themes": [
+    "sports",
+    "spring",
+    "toys",
+    "vehicles"
+   ],
+   "en": [
+    "Bicycle",
+    "Bicycles"
+   ],
+   "cur": {
+    "s": "Polkupyörä",
+    "p": "Polkupyörät",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "biking",
+   "themes": [
+    "activities"
+   ],
+   "en": [
+    "Biking",
+    "Biking"
+   ],
+   "cur": {
+    "s": "Pyöräily",
+    "p": "Pyöräily",
+    "g": null
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "classification": {
+    "category": "activity",
+    "hasGender": false,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "binder",
+   "themes": [
+    "classroom"
+   ],
+   "en": [
+    "Binder",
+    "Binders"
+   ],
+   "cur": {
+    "s": "Kansio",
+    "p": "Kansiot",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "binoculars",
+   "themes": [
+    "camping",
+    "objects",
+    "travel_and_holiday"
+   ],
+   "en": [
+    "Binoculars",
+    "Binoculars"
+   ],
+   "cur": {
+    "s": "Kiikari",
+    "p": "Kiikarit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "birch-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Birch Tree",
+    "Birch Trees"
+   ],
+   "cur": {
+    "s": "Koivu",
+    "p": "Koivut",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bird",
+   "themes": [
+    "animals",
+    "birds",
+    "easter",
+    "nature",
+    "spring",
+    "things_that_fly"
+   ],
+   "en": [
+    "Bird",
+    "Birds"
+   ],
+   "cur": {
+    "s": "Lintu",
+    "p": "Linnut",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "birdhouse",
+   "themes": [
+    "spring"
+   ],
+   "en": [
+    "Birdhouse",
+    "Birdhouses"
+   ],
+   "cur": {
+    "s": "Linnunpönttö",
+    "p": "Linnunpöntöt",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "biscuit",
+   "themes": [
+    "breakfast",
+    "dessert"
+   ],
+   "en": [
+    "Biscuit",
+    "Biscuits"
+   ],
+   "cur": {
+    "s": "Keksi",
+    "p": "Keksit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bison",
+   "themes": [
+    "animals",
+    "zoo_animals"
+   ],
+   "en": [
+    "Bison",
+    "Bison"
+   ],
+   "cur": {
+    "s": "Biisoni",
+    "p": "Bisonit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "black",
+   "themes": [
+    "colors"
+   ],
+   "en": [
+    "Black",
+    "Black"
+   ],
+   "cur": {
+    "s": "Musta",
+    "p": "Musta",
+    "g": null
+   },
+   "type": "adjective",
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "blackberry",
+   "themes": [
+    "fruits"
+   ],
+   "en": [
+    "Blackberry",
+    "Blackberries"
+   ],
+   "cur": {
+    "s": "Karhunvatukka",
+    "p": "Karhunvatukat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "blanket",
+   "themes": [
+    "objects"
+   ],
+   "en": [
+    "Blanket",
+    "Blankets"
+   ],
+   "cur": {
+    "s": "Peitto",
+    "p": "Peitot",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "blender",
+   "themes": [
+    "around_the_house",
+    "home",
+    "household",
+    "kitchen",
+    "kitchen_tools"
+   ],
+   "en": [
+    "Blender",
+    "Blenders"
+   ],
+   "cur": {
+    "s": "Tehosekoitin",
+    "p": "Tehosekoitimet",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "blocks",
+   "themes": [
+    "toys"
+   ],
+   "en": [
+    "Blocks",
+    "Blocks"
+   ],
+   "cur": {
+    "s": "Palikat",
+    "p": "Palikat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "blouse",
+   "themes": [
+    "clothing"
+   ],
+   "en": [
+    "Blouse",
+    "Blouses"
+   ],
+   "cur": {
+    "s": "Pusero",
+    "p": "Puserot",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "blue",
+   "themes": [
+    "colors"
+   ],
+   "en": [
+    "Blue",
+    "Blue"
+   ],
+   "cur": {
+    "s": "Sininen",
+    "p": "Sininen",
+    "g": null
+   },
+   "type": "adjective",
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "blue-jay",
+   "themes": [
+    "birds_2",
+    "forest_creatures",
+    "things_that_fly"
+   ],
+   "en": [
+    "Blue Jay",
+    "Blue Jays"
+   ],
+   "cur": {
+    "s": "Sinitöyhtönärhi",
+    "p": "Sinitöyhtönärhit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bluebell",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Bluebell",
+    "Bluebells"
+   ],
+   "cur": {
+    "s": "Sinililja",
+    "p": "Sinililjat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "blueberry",
+   "themes": [
+    "at_the_supermarket",
+    "breakfast",
+    "fruits"
+   ],
+   "en": [
+    "Blueberry",
+    "Blueberries"
+   ],
+   "cur": {
+    "s": "Mustikka",
+    "p": "Mustikat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "boat",
+   "themes": [
+    "beach",
+    "toys",
+    "vehicles"
+   ],
+   "en": [
+    "Boat",
+    "Boats"
+   ],
+   "cur": {
+    "s": "Vene",
+    "p": "Veneet",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "boiled-egg",
+   "themes": [
+    "breakfast"
+   ],
+   "en": [
+    "Boiled Egg",
+    "Boiled Eggs"
+   ],
+   "cur": {
+    "s": "Keitetty muna",
+    "p": "Keitetyt munat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bolt",
+   "themes": [
+    "tools"
+   ],
+   "en": [
+    "Bolt",
+    "Bolts"
+   ],
+   "cur": {
+    "s": "Pultti",
+    "p": "Pultit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bone",
+   "themes": [
+    "objects"
+   ],
+   "en": [
+    "Bone",
+    "Bones"
+   ],
+   "cur": {
+    "s": "Luu",
+    "p": "Luut",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bonfire",
+   "themes": [
+    "miscellaneous"
+   ],
+   "en": [
+    "Bonfire",
+    "Bonfires"
+   ],
+   "cur": {
+    "s": "Nuotio",
+    "p": "Nuotiot",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "book",
+   "themes": [
+    "classroom",
+    "education"
+   ],
+   "en": [
+    "Book",
+    "Books"
+   ],
+   "cur": {
+    "s": "Kirja",
+    "p": "Kirjat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bookcase",
+   "themes": [
+    "furniture"
+   ],
+   "en": [
+    "Bookcase",
+    "Bookcases"
+   ],
+   "cur": {
+    "s": "Kirjahylly",
+    "p": "Kirjahyllyt",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bookshelf",
+   "themes": [
+    "around_the_house",
+    "classroom",
+    "household"
+   ],
+   "en": [
+    "Bookshelf",
+    "Bookshelves"
+   ],
+   "cur": {
+    "s": "Kirjahylly",
+    "p": "Kirjahyllyt",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "boombox",
+   "themes": [
+    "home_and_nature"
+   ],
+   "en": [
+    "Boombox",
+    "Boomboxes"
+   ],
+   "cur": {
+    "s": "Mankka",
+    "p": "Mankat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "boots",
+   "themes": [
+    "apparel",
+    "camping",
+    "clothing",
+    "winter"
+   ],
+   "en": [
+    "Boots",
+    "Boots"
+   ],
+   "cur": {
+    "s": "Saappaat",
+    "p": "Saappaat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "bored",
+   "themes": [
+    "emotions"
+   ],
+   "en": [
+    "Bored",
+    "Bored"
+   ],
+   "cur": {
+    "s": "Tylsistynyt",
+    "p": "Tylsistynyt",
+    "g": null
+   },
+   "type": "adjective",
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "bottle",
+   "themes": [
+    "household",
+    "kitchen",
+    "kitchen_tools",
+    "objects"
+   ],
+   "en": [
+    "Bottle",
+    "Bottles"
+   ],
+   "cur": {
+    "s": "Pullo",
+    "p": "Pullot",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bow",
+   "themes": [
+    "christmas"
+   ],
+   "en": [
+    "Bow",
+    "Bows"
+   ],
+   "cur": {
+    "s": "Rusetti",
+    "p": "Rusetit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bow-tie",
+   "themes": [
+    "accessories",
+    "clothing"
+   ],
+   "en": [
+    "Bow Tie",
+    "Bow Ties"
+   ],
+   "cur": {
+    "s": "Rusetti",
+    "p": "Rusetit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bowl",
+   "themes": [
+    "around_the_house",
+    "furniture",
+    "home_and_nature",
+    "household",
+    "kitchen",
+    "kitchen_tools"
+   ],
+   "en": [
+    "Bowl",
+    "Bowls"
+   ],
+   "cur": {
+    "s": "Kulho",
+    "p": "Kulhot",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bowling",
+   "themes": [
+    "sports"
+   ],
+   "en": [
+    "Bowling",
+    "Bowling"
+   ],
+   "cur": {
+    "s": "Keilailu",
+    "p": "Keilailu",
+    "g": null
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "ART_DEFECT": true
+  },
+  {
+   "key": "bowling-ball",
+   "themes": [
+    "sports"
+   ],
+   "en": [
+    "Bowling Ball",
+    "Bowling Balls"
+   ],
+   "cur": {
+    "s": "Keilapallo",
+    "p": "Keilapallot",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bowling-pin",
+   "themes": [
+    "sports"
+   ],
+   "en": [
+    "Bowling Pin",
+    "Bowling Pins"
+   ],
+   "cur": {
+    "s": "Keilakartiö",
+    "p": "Keilakartiöt",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "box",
+   "themes": [
+    "education"
+   ],
+   "en": [
+    "Box",
+    "Boxes"
+   ],
+   "cur": {
+    "s": "Laatikko",
+    "p": "Laatikot",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "boxing",
+   "themes": [
+    "sports"
+   ],
+   "en": [
+    "Boxing",
+    "Boxing"
+   ],
+   "cur": {
+    "s": "Nyrkkeily",
+    "p": "Nyrkkeily",
+    "g": null
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "ART_DEFECT": true
+  },
+  {
+   "key": "boxing-glove",
+   "themes": [
+    "sports"
+   ],
+   "en": [
+    "Boxing Glove",
+    "Boxing Gloves"
+   ],
+   "cur": {
+    "s": "Nyrkkeilyhanska",
+    "p": "Nyrkkeilyhanskat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "boy",
+   "themes": [
+    "faces"
+   ],
+   "en": [
+    "Boy",
+    "Boys"
+   ],
+   "cur": {
+    "s": "Poika",
+    "p": "Pojat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bracelet",
+   "themes": [
+    "accessories",
+    "hospital"
+   ],
+   "en": [
+    "Bracelet",
+    "Bracelets"
+   ],
+   "cur": {
+    "s": "Rannerengas",
+    "p": "Rannerengaat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "brachiosaurus",
+   "themes": [
+    "dinosaurs"
+   ],
+   "en": [
+    "Brachiosaurus",
+    "Brachiosauruses"
+   ],
+   "cur": {
+    "s": "Brachiosaurus",
+    "p": "Brachiosaurukset",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "brain",
+   "themes": [
+    "body_parts"
+   ],
+   "en": [
+    "Brain",
+    "Brains"
+   ],
+   "cur": {
+    "s": "Aivot",
+    "p": "Aivot",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "branch",
+   "themes": [
+    "easter"
+   ],
+   "en": [
+    "Branch",
+    "Branches"
+   ],
+   "cur": {
+    "s": "Oksa",
+    "p": "Oksat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bread",
+   "themes": [
+    "at_the_supermarket",
+    "easter",
+    "food",
+    "thanksgivinng"
+   ],
+   "en": [
+    "Bread",
+    "Bread"
+   ],
+   "cur": {
+    "s": "Leipä",
+    "p": "Leipät",
+    "g": null
+   },
+   "type": "noun",
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "briefcase",
+   "themes": [
+    "classroom"
+   ],
+   "en": [
+    "Briefcase",
+    "Briefcases"
+   ],
+   "cur": {
+    "s": "Salkku",
+    "p": "Salkut",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "broccoli",
+   "themes": [
+    "at_the_supermarket",
+    "vegetables"
+   ],
+   "en": [
+    "Broccoli",
+    "Broccoli"
+   ],
+   "cur": {
+    "s": "Parsakaali",
+    "p": "Parsakaalit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "brontosaurus",
+   "themes": [
+    "dinosaurs"
+   ],
+   "en": [
+    "Brontosaurus",
+    "Brontosauruses"
+   ],
+   "cur": {
+    "s": "Brontosaurus",
+    "p": "Brontosaurukset",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "broom",
+   "themes": [
+    "around_the_house",
+    "home",
+    "household"
+   ],
+   "en": [
+    "Broom",
+    "Brooms"
+   ],
+   "cur": {
+    "s": "Luuta",
+    "p": "Luudat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "brother",
+   "themes": [],
+   "en": [
+    "Brother",
+    "Brothers"
+   ],
+   "cur": {
+    "s": "Veli",
+    "p": "Veljet",
+    "g": null
+   },
+   "type": null,
+   "countable": null,
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "brown",
+   "themes": [
+    "colors"
+   ],
+   "en": [
+    "Brown",
+    "Brown"
+   ],
+   "cur": {
+    "s": "Ruskea",
+    "p": "Ruskea",
+    "g": null
+   },
+   "type": "adjective",
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "brownie",
+   "themes": [
+    "bakery",
+    "desserts_and_sweets"
+   ],
+   "en": [
+    "Brownie",
+    "Brownies"
+   ],
+   "cur": {
+    "s": "Brownie",
+    "p": "Browniet",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "brush",
+   "themes": [
+    "around_the_house"
+   ],
+   "en": [
+    "Brush",
+    "Brushes"
+   ],
+   "cur": {
+    "s": "Harja",
+    "p": "Harjat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bucket",
+   "themes": [
+    "beach",
+    "home",
+    "household",
+    "objects",
+    "summer",
+    "toys"
+   ],
+   "en": [
+    "Bucket",
+    "Buckets"
+   ],
+   "cur": {
+    "s": "Ämpäri",
+    "p": "Ämpärit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bud",
+   "themes": [
+    "spring"
+   ],
+   "en": [
+    "Bud",
+    "Buds"
+   ],
+   "cur": {
+    "s": "Silmu",
+    "p": "Silmut",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bull",
+   "themes": [
+    "animals",
+    "farm_animals"
+   ],
+   "en": [
+    "Bull",
+    "Bulls"
+   ],
+   "cur": {
+    "s": "Härkä",
+    "p": "Härät",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bulldozer",
+   "themes": [
+    "vehicles"
+   ],
+   "en": [
+    "Bulldozer",
+    "Bulldozers"
+   ],
+   "cur": {
+    "s": "Puskutraktori",
+    "p": "Puskutraktorit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bun",
+   "themes": [
+    "bakery"
+   ],
+   "en": [
+    "Bun",
+    "Buns"
+   ],
+   "cur": {
+    "s": "Sämpylä",
+    "p": "Sämpylät",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bunny",
+   "themes": [
+    "easter",
+    "spring"
+   ],
+   "en": [
+    "Bunny",
+    "Bunnies"
+   ],
+   "cur": {
+    "s": "Pupu",
+    "p": "Puput",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "burrito",
+   "themes": [
+    "food"
+   ],
+   "en": [
+    "Burrito",
+    "Burritos"
+   ],
+   "cur": {
+    "s": "Burrito",
+    "p": "Burritot",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bus",
+   "themes": [
+    "travel_and_holiday",
+    "vehicles"
+   ],
+   "en": [
+    "Bus",
+    "Buses"
+   ],
+   "cur": {
+    "s": "Bussi",
+    "p": "Bussit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bus-driver",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Bus Driver",
+    "Bus Drivers"
+   ],
+   "cur": {
+    "s": "Linja-autonkuljettaja",
+    "p": "Linja-autonkuljettajat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "butter",
+   "themes": [
+    "at_the_supermarket",
+    "breakfast"
+   ],
+   "en": [
+    "Butter",
+    "Butter"
+   ],
+   "cur": {
+    "s": "Voi",
+    "p": "Voi",
+    "g": null
+   },
+   "type": "noun",
+   "countable": false,
+   "classification": {
+    "category": "mass",
+    "hasGender": true,
+    "hasPlural": false
+   },
+   "ART_DEFECT": true
+  },
+  {
+   "key": "butter-knife",
+   "themes": [
+    "kitchen_tools"
+   ],
+   "en": [
+    "Butter Knife",
+    "Butter Knives"
+   ],
+   "cur": {
+    "s": "Voiveitsi",
+    "p": "Voiveitset",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "buttercup",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Buttercup",
+    "Buttercups"
+   ],
+   "cur": {
+    "s": "Leinikki",
+    "p": "Leinikit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "butterfly",
+   "themes": [
+    "easter",
+    "forest_creatures",
+    "insects_and_bugs",
+    "nature",
+    "spring",
+    "summer",
+    "things_that_fly"
+   ],
+   "en": [
+    "Butterfly",
+    "Butterflies"
+   ],
+   "cur": {
+    "s": "Perhonen",
+    "p": "Perhoset",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cabana",
+   "themes": [
+    "beach"
+   ],
+   "en": [
+    "Cabana",
+    "Cabanas"
+   ],
+   "cur": {
+    "s": "Rantamaja",
+    "p": "Rantamajat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cabbage",
+   "themes": [
+    "vegetables"
+   ],
+   "en": [
+    "Cabbage",
+    "Cabbages"
+   ],
+   "cur": {
+    "s": "Kaali",
+    "p": "Kaalit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cabin",
+   "themes": [
+    "camping",
+    "travel_and_holiday",
+    "winter"
+   ],
+   "en": [
+    "Cabin",
+    "Cabins"
+   ],
+   "cur": {
+    "s": "Mökki",
+    "p": "Mökit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cabinet",
+   "themes": [
+    "around_the_house",
+    "classroom",
+    "furniture",
+    "household"
+   ],
+   "en": [
+    "Cabinet",
+    "Cabinets"
+   ],
+   "cur": {
+    "s": "Kaappi",
+    "p": "Kaapit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cable-car",
+   "themes": [
+    "travel_and_holiday"
+   ],
+   "en": [
+    "Cable Car",
+    "Cable Cars"
+   ],
+   "cur": {
+    "s": "Köysirata",
+    "p": "Köysiradat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cactus",
+   "themes": [
+    "home",
+    "nature",
+    "toys"
+   ],
+   "en": [
+    "Cactus",
+    "Cacti"
+   ],
+   "cur": {
+    "s": "Kaktus",
+    "p": "Kaktukset",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cake",
+   "themes": [
+    "4th_of_july",
+    "at_the_supermarket",
+    "bakery",
+    "dessert",
+    "desserts_and_sweets",
+    "easter",
+    "food",
+    "valentine"
+   ],
+   "en": [
+    "Cake",
+    "Cakes"
+   ],
+   "cur": {
+    "s": "Kakku",
+    "p": "Kakut",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cake-pan",
+   "themes": [
+    "kitchen_tools"
+   ],
+   "en": [
+    "Cake Pan",
+    "Cake Pans"
+   ],
+   "cur": {
+    "s": "Kakkuvuoka",
+    "p": "Kakkuvuoat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "calculator",
+   "themes": [
+    "classroom",
+    "education"
+   ],
+   "en": [
+    "Calculator",
+    "Calculators"
+   ],
+   "cur": {
+    "s": "Laskin",
+    "p": "Laskimet",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "calendar",
+   "themes": [
+    "classroom",
+    "home",
+    "valentine"
+   ],
+   "en": [
+    "Calendar",
+    "Calendars"
+   ],
+   "cur": {
+    "s": "Kalenteri",
+    "p": "Kalenterit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "calf",
+   "themes": [
+    "farm_animals"
+   ],
+   "en": [
+    "Calf",
+    "Calves"
+   ],
+   "cur": {
+    "s": "Vasikka",
+    "p": "Vasikat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "camel",
+   "themes": [
+    "animals",
+    "farm_animals",
+    "zoo_animals"
+   ],
+   "en": [
+    "Camel",
+    "Camels"
+   ],
+   "cur": {
+    "s": "Kameli",
+    "p": "Kamelit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "camera",
+   "themes": [
+    "beach",
+    "household"
+   ],
+   "en": [
+    "Camera",
+    "Cameras"
+   ],
+   "cur": {
+    "s": "Kamera",
+    "p": "Kamerat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "camp",
+   "themes": [
+    "travel_and_holiday"
+   ],
+   "en": [
+    "Camp",
+    "Camps"
+   ],
+   "cur": {
+    "s": "Leiri",
+    "p": "Leirit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "camper",
+   "themes": [
+    "camping",
+    "travel_and_holiday",
+    "vehicles"
+   ],
+   "en": [
+    "Camper",
+    "Campers"
+   ],
+   "cur": {
+    "s": "Matkailuauto",
+    "p": "Matkailuautot",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "campfire",
+   "themes": [
+    "camping",
+    "nature",
+    "summer",
+    "travel_and_holiday"
+   ],
+   "en": [
+    "Campfire",
+    "Campfires"
+   ],
+   "cur": {
+    "s": "Nuotio",
+    "p": "Nuotiot",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "camping",
+   "themes": [
+    "activities"
+   ],
+   "en": [
+    "Camping",
+    "Camping"
+   ],
+   "cur": {
+    "s": "Telttailu",
+    "p": "Telttailu",
+    "g": null
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "ART_DEFECT": true
+  },
+  {
+   "key": "camping-chair",
+   "themes": [
+    "camping"
+   ],
+   "en": [
+    "Camping Chair",
+    "Camping Chairs"
+   ],
+   "cur": {
+    "s": "Retkituoli",
+    "p": "Retkituolit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "can",
+   "themes": [
+    "at_the_supermarket"
+   ],
+   "en": [
+    "Can",
+    "Cans"
+   ],
+   "cur": {
+    "s": "Tölkki",
+    "p": "Tölkit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "canary",
+   "themes": [
+    "birds_2"
+   ],
+   "en": [
+    "Canary",
+    "Canaries"
+   ],
+   "cur": {
+    "s": "Kanarialintu",
+    "p": "Kanarialinnut",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "candle",
+   "themes": [
+    "christmas",
+    "easter",
+    "valentine"
+   ],
+   "en": [
+    "Candle",
+    "Candles"
+   ],
+   "cur": {
+    "s": "Kynttilä",
+    "p": "Kynttilät",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "candy",
+   "themes": [
+    "at_the_supermarket",
+    "christmas",
+    "dessert",
+    "easter",
+    "valentine"
+   ],
+   "en": [
+    "Candy",
+    "Candies"
+   ],
+   "cur": {
+    "s": "Karkki",
+    "p": "Karkit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "candy-cane",
+   "themes": [
+    "christmas",
+    "desserts_and_sweets"
+   ],
+   "en": [
+    "Candy Cane",
+    "Candy Canes"
+   ],
+   "cur": {
+    "s": "Karamellitanko",
+    "p": "Karamellitangot",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "canoe",
+   "themes": [
+    "camping",
+    "vehicles"
+   ],
+   "en": [
+    "Canoe",
+    "Canoes"
+   ],
+   "cur": {
+    "s": "Kanootti",
+    "p": "Kanootit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cap",
+   "themes": [
+    "accessories",
+    "apparel",
+    "clothing",
+    "sports",
+    "summer"
+   ],
+   "en": [
+    "Cap",
+    "Caps"
+   ],
+   "cur": {
+    "s": "Lippis",
+    "p": "Lippikset",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cape",
+   "themes": [
+    "accessories"
+   ],
+   "en": [
+    "Cape",
+    "Capes"
+   ],
+   "cur": {
+    "s": "Viitta",
+    "p": "Viitat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "capricious",
+   "themes": [
+    "emotions"
+   ],
+   "en": [
+    "Capricious",
+    "Capricious"
+   ],
+   "cur": {
+    "s": "Oikukas",
+    "p": "Oikukas",
+    "g": null
+   },
+   "type": "adjective",
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "capybara",
+   "themes": [
+    "animals"
+   ],
+   "en": [
+    "Capybara",
+    "Capybaras"
+   ],
+   "cur": {
+    "s": "Kapybara",
+    "p": "Kapybarat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "car",
+   "themes": [
+    "toys",
+    "travel_and_holiday",
+    "vehicles"
+   ],
+   "en": [
+    "Car",
+    "Cars"
+   ],
+   "cur": {
+    "s": "Auto",
+    "p": "Autot",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "card",
+   "themes": [
+    "valentine"
+   ],
+   "en": [
+    "Card",
+    "Cards"
+   ],
+   "cur": {
+    "s": "Kortti",
+    "p": "Kortit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cardigan",
+   "themes": [
+    "clothing"
+   ],
+   "en": [
+    "Cardigan",
+    "Cardigans"
+   ],
+   "cur": {
+    "s": "Neuletakki",
+    "p": "Neuletakit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cardinal",
+   "themes": [
+    "birds_2",
+    "forest_creatures"
+   ],
+   "en": [
+    "Cardinal",
+    "Cardinals"
+   ],
+   "cur": {
+    "s": "Punakardinaali",
+    "p": "Punakardinaalit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cards",
+   "themes": [
+    "toys"
+   ],
+   "en": [
+    "Cards",
+    "Cards"
+   ],
+   "cur": {
+    "s": "Kortit",
+    "p": "Kortit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "carnation",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Carnation",
+    "Carnations"
+   ],
+   "cur": {
+    "s": "Neilikka",
+    "p": "Neilikat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "carnotaurus",
+   "themes": [
+    "dinosaurs"
+   ],
+   "en": [
+    "Carnotaurus",
+    "Carnotauruses"
+   ],
+   "cur": {
+    "s": "Carnotaurus",
+    "p": "Carnotaurukset",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "carpenter",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Carpenter",
+    "Carpenters"
+   ],
+   "cur": {
+    "s": "Puuseppä",
+    "p": "Puusepät",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "carpet",
+   "themes": [
+    "around_the_house"
+   ],
+   "en": [
+    "Carpet",
+    "Carpets"
+   ],
+   "cur": {
+    "s": "Matto",
+    "p": "Matot",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "carriage",
+   "themes": [
+    "vehicles"
+   ],
+   "en": [
+    "Carriage",
+    "Carriages"
+   ],
+   "cur": {
+    "s": "Vaunut",
+    "p": "Vaunut",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "carrot",
+   "themes": [
+    "at_the_supermarket",
+    "easter",
+    "vegetables"
+   ],
+   "en": [
+    "Carrot",
+    "Carrots"
+   ],
+   "cur": {
+    "s": "Porkkana",
+    "p": "Porkkanat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cart",
+   "themes": [
+    "at_the_supermarket"
+   ],
+   "en": [
+    "Cart",
+    "Carts"
+   ],
+   "cur": {
+    "s": "Ostoskärry",
+    "p": "Ostoskärryt",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cash-register",
+   "themes": [
+    "at_the_supermarket"
+   ],
+   "en": [
+    "Cash Register",
+    "Cash Registers"
+   ],
+   "cur": {
+    "s": "Kassakone",
+    "p": "Kassakoneet",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cashier",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Cashier",
+    "Cashiers"
+   ],
+   "cur": {
+    "s": "Kassatyöntekijä",
+    "p": "Kassatyöntekijät",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cast",
+   "themes": [
+    "hospital"
+   ],
+   "en": [
+    "Cast",
+    "Casts"
+   ],
+   "cur": {
+    "s": "Kipsi",
+    "p": "Kipsit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cat",
+   "themes": [
+    "animals",
+    "faces",
+    "farm",
+    "farm_animals",
+    "pets"
+   ],
+   "en": [
+    "Cat",
+    "Cats"
+   ],
+   "cur": {
+    "s": "Kissa",
+    "p": "Kissat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "caterpillar",
+   "themes": [
+    "forest_creatures",
+    "insects_and_bugs",
+    "spring"
+   ],
+   "en": [
+    "Caterpillar",
+    "Caterpillars"
+   ],
+   "cur": {
+    "s": "Toukka",
+    "p": "Toukat",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cauliflower",
+   "themes": [
+    "vegetables"
+   ],
+   "en": [
+    "Cauliflower",
+    "Cauliflowers"
+   ],
+   "cur": {
+    "s": "Kukkakaali",
+    "p": "Kukkakaalit",
+    "g": null
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  }
+ ]
+}

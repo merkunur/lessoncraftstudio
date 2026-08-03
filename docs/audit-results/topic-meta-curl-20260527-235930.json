@@ -1,0 +1,3546 @@
+{
+  "opts": {
+    "baseUrl": "https://www.lessoncraftstudio.com",
+    "locales": [
+      "de"
+    ],
+    "axes": [
+      "exercise-type",
+      "theme",
+      "educational-level"
+    ],
+    "outDir": "C:\\Users\\rkgen\\lessoncraftstudio\\docs\\audit-results",
+    "concurrency": 10,
+    "sample": null,
+    "includeIntersections": false,
+    "timeoutMs": 15000
+  },
+  "byLocale": {
+    "de": {
+      "locale": "de",
+      "total": 134,
+      "pass": 83,
+      "fail": 51,
+      "byAxis": {
+        "exercise-type": {
+          "total": 29,
+          "pass": 29
+        },
+        "theme": {
+          "total": 100,
+          "pass": 50
+        },
+        "educational-level": {
+          "total": 5,
+          "pass": 4
+        }
+      },
+      "defectCounts": {
+        "PAGE_HTTP_404": 51
+      },
+      "fallbackCount": 0,
+      "tooShortCount": 0,
+      "tooLongCount": 0,
+      "nonUniqueCount": 0,
+      "missingCount": 0,
+      "sampleFailures": [
+        {
+          "url": "https://www.lessoncraftstudio.com/de/topic/tiere-sw/",
+          "axisKey": "animals_bw",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/de/topic/tiere-sw-2/",
+          "axisKey": "animals_bw_2",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/de/topic/tiere-sw-3/",
+          "axisKey": "animals_bw_3",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/de/topic/tiere-sw-4/",
+          "axisKey": "animals_bw_4",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/de/topic/tiere-sw-5/",
+          "axisKey": "animals_bw_5",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        }
+      ]
+    }
+  },
+  "perPage": [
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/addition/",
+      "locale": "de",
+      "axis": "exercise-type",
+      "axisKey": "addition",
+      "slug": "addition",
+      "status": 200,
+      "descriptionLength": 135,
+      "descriptionPreview": "Additionsaufgaben für K-3 im Zahlenraum bis 20: druckbare PDFs und interaktives Online-Spielen, abgestimmt auf Vorschule und 1. Klasse.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 135
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "f9119cbe44f8c2fe779d96315658cbb4fb63f001"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/bilder-sudoku/",
+      "locale": "de",
+      "axis": "exercise-type",
+      "axisKey": "sudoku",
+      "slug": "bilder-sudoku",
+      "status": 200,
+      "descriptionLength": 127,
+      "descriptionPreview": "Bilder-Sudoku für K-3: 4×4-Raster mit Tieren oder Objekten statt Zahlen lösen. Logik-Rätsel für Stationenarbeit und Förderzeit.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 127
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "6693756fff8969f594c29ac8af533d85f8f061b6"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/kryptogramm/",
+      "locale": "de",
+      "axis": "exercise-type",
+      "axisKey": "cryptogram",
+      "slug": "kryptogramm",
+      "status": 200,
+      "descriptionLength": 124,
+      "descriptionPreview": "Kryptogramm für K-3: Bilder Buchstaben zuordnen und versteckte Wörter knacken. Lesespiel für Förderzeit und Stationenarbeit.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 124
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "1e57642ea94994e899329a807e297e02f263bc60"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/bildpfad/",
+      "locale": "de",
+      "axis": "exercise-type",
+      "axisKey": "picture-path",
+      "slug": "bildpfad",
+      "status": 200,
+      "descriptionLength": 137,
+      "descriptionPreview": "Bildpfad-Labyrinthe für K-3: den richtigen Weg durch das Gitter ziehen, indem nur die Bewegungen oben, unten, links, rechts erlaubt sind.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 137
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "8ec968a704288d0d939b7aaae237d9e67a0bd09f"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/subtraktion/",
+      "locale": "de",
+      "axis": "exercise-type",
+      "axisKey": "subtraction",
+      "slug": "subtraktion",
+      "status": 200,
+      "descriptionLength": 126,
+      "descriptionPreview": "Subtraktion für K-3 im Zahlenraum bis 20: druckbare Arbeitsblätter und interaktive Online-Übungen für Vorschule und 1. Klasse.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 126
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "7a4c15ac4ba9247d573944e094a0601526cdbb9f"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/code-addition/",
+      "locale": "de",
+      "axis": "exercise-type",
+      "axisKey": "code-addition",
+      "slug": "code-addition",
+      "status": 200,
+      "descriptionLength": 129,
+      "descriptionPreview": "Code-Addition für 1.-3. Klasse: Rechenergebnisse Buchstaben zuordnen und Lösungswörter knacken. Druckbar und im Browser spielbar.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 129
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "e0b745bfcc45984cb72f924bcd9c3e3f6091f78b"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/mehr-weniger/",
+      "locale": "de",
+      "axis": "exercise-type",
+      "axisKey": "more-less",
+      "slug": "mehr-weniger",
+      "status": 200,
+      "descriptionLength": 130,
+      "descriptionPreview": "Mehr-oder-Weniger-Aufgaben: Mengen vergleichen und richtig entscheiden. Vorübung zum Zahlbegriff für Kindergarten und Schulanfang.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 130
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "c31e1b1546e8c0e31c7bd44bee951030f4521a22"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/mathe-raetsel/",
+      "locale": "de",
+      "axis": "exercise-type",
+      "axisKey": "math-puzzle",
+      "slug": "mathe-raetsel",
+      "status": 200,
+      "descriptionLength": 132,
+      "descriptionPreview": "Mathe-Rätsel zum Knobeln: Rechenwege, Zahlenreihen und Logikaufgaben für die Grundschule. Lehrplanbezogen und kostenlos zum Drucken.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 132
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "495d31fb7756b6c2574c756308643016eb9b8b05"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/mathe-arbeitsblatt/",
+      "locale": "de",
+      "axis": "exercise-type",
+      "axisKey": "math-worksheet",
+      "slug": "mathe-arbeitsblatt",
+      "status": 200,
+      "descriptionLength": 123,
+      "descriptionPreview": "Mathe-Arbeitsblätter für K-3: gemischte Übungen zu Plus, Minus und Mengen. Druckbar in PDF-Form, geeignet für Hausaufgaben.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 123
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "9364be1b173e92c7a2adbb36ef192b651dc0a8a3"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/gross-klein/",
+      "locale": "de",
+      "axis": "exercise-type",
+      "axisKey": "big-small",
+      "slug": "gross-klein",
+      "status": 200,
+      "descriptionLength": 126,
+      "descriptionPreview": "Groß oder klein für Vorschulkinder: Größenvergleiche spielerisch üben mit klaren Bildpaaren. Druckbar und im Browser spielbar.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 126
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "74b5f6111274b7f80edae289ad2860924d169fb4"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/tabelle-zaehlen/",
+      "locale": "de",
+      "axis": "exercise-type",
+      "axisKey": "chart-count",
+      "slug": "tabelle-zaehlen",
+      "status": 200,
+      "descriptionLength": 125,
+      "descriptionPreview": "Tabellen-Zählen für K-3: Daten in einfachen Diagrammen erfassen. Erste Schritte in Statistik, druckbar und online interaktiv.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 125
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "e53f71a751749410bd03cedf60350a79d82fa2d1"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/muster-zug/",
+      "locale": "de",
+      "axis": "exercise-type",
+      "axisKey": "pattern-train",
+      "slug": "muster-zug",
+      "status": 200,
+      "descriptionLength": 125,
+      "descriptionPreview": "Musterzug für K-3: Bildreihen fortsetzen und Regelmäßigkeiten erkennen. Logik-Training für Vorschule und 1. Klasse, druckbar.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 125
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d8d32c12ae42a72748440d754fa85de78ba9aa49"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/muster-arbeitsblatt/",
+      "locale": "de",
+      "axis": "exercise-type",
+      "axisKey": "pattern-worksheet",
+      "slug": "muster-arbeitsblatt",
+      "status": 200,
+      "descriptionLength": 132,
+      "descriptionPreview": "Muster-Arbeitsblätter für K-3: Reihenfolgen erkennen und ergänzen. Erste Schritte ins logische Denken, druckbar und online spielbar.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 132
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "4d2ae9262587f65ef2919e46863d43ec00ed6e3c"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/bingo/",
+      "locale": "de",
+      "axis": "exercise-type",
+      "axisKey": "bingo",
+      "slug": "bingo",
+      "status": 200,
+      "descriptionLength": 140,
+      "descriptionPreview": "Bingo-Vorlagen für K-3 mit Bildern statt Zahlen: Wortschatzspiel für Klassenzimmer, in 11 Sprachen erhältlich, druckbar und online spielbar.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 140
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "2c20e6b1f8966587704f25872f0b85a60bed0c7e"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/gitter-zuordnung/",
+      "locale": "de",
+      "axis": "exercise-type",
+      "axisKey": "grid-match",
+      "slug": "gitter-zuordnung",
+      "status": 200,
+      "descriptionLength": 125,
+      "descriptionPreview": "Gitter-Zuordnung für K-3: Bildpaare in einem Raster verbinden. Trainiert räumliches Denken, druckbar und im Browser spielbar.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 125
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "a45046acc4bcbc89b7e3e6a933d763ab5237576b"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/zuordnung/",
+      "locale": "de",
+      "axis": "exercise-type",
+      "axisKey": "matching",
+      "slug": "zuordnung",
+      "status": 200,
+      "descriptionLength": 129,
+      "descriptionPreview": "Bildzuordnung für K-3: zusammengehörige Paare durch Linien verbinden. Trainiert visuelle Wahrnehmung und Konzentration, druckbar.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 129
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d158493af11f0c44fd9bda525a948550785d99e0"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/bildersortierung/",
+      "locale": "de",
+      "axis": "exercise-type",
+      "axisKey": "picture-sort",
+      "slug": "bildersortierung",
+      "status": 200,
+      "descriptionLength": 124,
+      "descriptionPreview": "Bildersortierung für K-3: Objekte in passende Kategorien einordnen. Klassifikations-Übung, druckbar und im Browser spielbar.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 124
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d2e97d1ab65c7b8995f205bbb32dda9b0d289814"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/schatten-zuordnen/",
+      "locale": "de",
+      "axis": "exercise-type",
+      "axisKey": "shadow-match",
+      "slug": "schatten-zuordnen",
+      "status": 200,
+      "descriptionLength": 128,
+      "descriptionPreview": "Schatten-Zuordnung für K-3: Objekte ihrem passenden Schatten zuordnen. Visuelle Wahrnehmung trainieren, druckbar und interaktiv.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 128
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "014db272f42661bdb3471478e65ed712bffa9366"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/buchstabenzug/",
+      "locale": "de",
+      "axis": "exercise-type",
+      "axisKey": "alphabet-train",
+      "slug": "buchstabenzug",
+      "status": 200,
+      "descriptionLength": 125,
+      "descriptionPreview": "Buchstabenzug für K-3: Reihenfolge des Alphabets üben mit Bildkarten. Druckbar und online spielbar, in 11 Sprachen verfügbar.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 125
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "72dcad9431368e4aeb0d5fe75f12ec817bc92811"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/praepositionen/",
+      "locale": "de",
+      "axis": "exercise-type",
+      "axisKey": "prepositions",
+      "slug": "praepositionen",
+      "status": 200,
+      "descriptionLength": 126,
+      "descriptionPreview": "Präpositionen für K-3: in, auf, unter, neben, hinter. Bildbasierte Übungen zum Verstehen räumlicher Lagebeziehungen, druckbar.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 126
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "3a9f0a7f4ed5b0663f464e909fac446f45e10dbf"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/wort-raten/",
+      "locale": "de",
+      "axis": "exercise-type",
+      "axisKey": "word-guess",
+      "slug": "wort-raten",
+      "status": 200,
+      "descriptionLength": 127,
+      "descriptionPreview": "Wort raten für K-3: aus Bildhinweis das versteckte Wort Buchstabe für Buchstabe finden. Lesespiel für Förderzeit und Stationen.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 127
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "5c2a6f14a705899a916f8f843fc5cd45bf77fdaa"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/buchstabensalat/",
+      "locale": "de",
+      "axis": "exercise-type",
+      "axisKey": "word-scramble",
+      "slug": "buchstabensalat",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Buchstabensalat für K-3: gemischte Buchstaben in das richtige Wort umordnen. Lesefertigkeit trainieren, druckbar und online spielbar.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "6a36fd864cd2766d84005ba7dde767015d4e3a31"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/wortsuche/",
+      "locale": "de",
+      "axis": "exercise-type",
+      "axisKey": "wordsearch",
+      "slug": "wortsuche",
+      "status": 200,
+      "descriptionLength": 126,
+      "descriptionPreview": "Wortsuche für K-3: versteckte Wörter im Buchstabengitter finden und markieren. Lesetraining, druckbar und im Browser spielbar.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 126
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "0013438a137b61afe0eb8cbc2969419072e44826"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/kreuzwortraetsel/",
+      "locale": "de",
+      "axis": "exercise-type",
+      "axisKey": "crossword",
+      "slug": "kreuzwortraetsel",
+      "status": 200,
+      "descriptionLength": 124,
+      "descriptionPreview": "Bilder-Kreuzworträtsel für K-3: Wörter aus Bildhinweisen erraten. Lesefertigkeit trainieren, druckbar und online interaktiv.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 124
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "568221bb1d65ef85838a6452cd84de935a3d1089"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/suchen-und-zaehlen/",
+      "locale": "de",
+      "axis": "exercise-type",
+      "axisKey": "find-and-count",
+      "slug": "suchen-und-zaehlen",
+      "status": 200,
+      "descriptionLength": 124,
+      "descriptionPreview": "Suchen und Zählen für K-3: Objekte im Bild finden und korrekt zählen. Erste Mengenerfassung, druckbar und online interaktiv.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 124
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "da254caf7eef442e60edaf9a60b296292af39060"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/objekte-finden/",
+      "locale": "de",
+      "axis": "exercise-type",
+      "axisKey": "find-objects",
+      "slug": "objekte-finden",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Wimmelbild-Suche für K-3: versteckte Objekte entdecken und markieren. Förderung der Aufmerksamkeit, druckbar und im Browser spielbar.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "cca3a505de681ed1017cbd86e62f16cfc40d8b4a"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/schatzsuche/",
+      "locale": "de",
+      "axis": "exercise-type",
+      "axisKey": "treasure-hunt",
+      "slug": "schatzsuche",
+      "status": 200,
+      "descriptionLength": 127,
+      "descriptionPreview": "Schatzsuche für K-3: durch ein 5×5-Gitter zum Schatz navigieren. Richtungsanweisungen folgen, druckbar und im Browser spielbar.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 127
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "00d43e8cab9af1fab08aeeefced6d92ea4ba6adb"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/was-fehlt/",
+      "locale": "de",
+      "axis": "exercise-type",
+      "axisKey": "missing-pieces",
+      "slug": "was-fehlt",
+      "status": 200,
+      "descriptionLength": 126,
+      "descriptionPreview": "Was fehlt für K-3: fehlende Puzzleteile finden und richtig einsetzen. Trainiert Formerkennung, druckbar und online interaktiv.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 126
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "7df2a07dff99859edb44420b4165b2ae7ac4b2f2"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/was-passt-nicht/",
+      "locale": "de",
+      "axis": "exercise-type",
+      "axisKey": "odd-one-out",
+      "slug": "was-passt-nicht",
+      "status": 200,
+      "descriptionLength": 126,
+      "descriptionPreview": "Was passt nicht für K-3: ein Bild aus vier identifizieren, das aus der Reihe fällt. Trainiert logisches Denken und Kategorien.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 126
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "f965bcc792cf97f2ea421f20a7a6bedd88244e6f"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/4-juli/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "4th_of_july",
+      "slug": "4-juli",
+      "status": 200,
+      "descriptionLength": 131,
+      "descriptionPreview": "Arbeitsblätter zum 4. Juli für K-3: Sterne, Flaggen, Feuerwerk. Druckbare PDFs und Online-Spiele rund um den US-Unabhängigkeitstag.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 131
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "37a7755132fcc9277d83f8a02f04a1c5c7284722"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/accessoires/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "accessories",
+      "slug": "accessoires",
+      "status": 200,
+      "descriptionLength": 129,
+      "descriptionPreview": "K-3-Wortschatz rund um Accessoires: Hut, Brille, Tasche, Schal. Bunte Bildkarten und Übungen für Vorschule und Anfangsunterricht.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 129
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "5c309b9a8ee32178027ee0b6121c34012d609df4"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/aktivitaten/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "activities",
+      "slug": "aktivitaten",
+      "status": 200,
+      "descriptionLength": 124,
+      "descriptionPreview": "Alltagsaktivitäten für K-3: lesen, malen, spielen, kochen. Wortschatz-Übungen mit klaren Illustrationen für den Morgenkreis.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 124
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "cec4528bb128b04037efe3e383ce4e02f7b71832"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/tiere/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "animals",
+      "slug": "tiere",
+      "status": 200,
+      "descriptionLength": 127,
+      "descriptionPreview": "Tiere für K-3: Hund, Katze, Pferd, Elefant. Bunte Bildkarten und interaktive Online-Spiele zum Vokabular-Aufbau in 11 Sprachen.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 127
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "4433541fc8672ef0dc604dc6046661e6c2c3d1e5"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/rund-ums-haus/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "around_the_house",
+      "slug": "rund-ums-haus",
+      "status": 200,
+      "descriptionLength": 134,
+      "descriptionPreview": "Rund-ums-Haus-Vokabular: Räume, Möbel und Alltagsgegenstände entdecken. Sachunterricht und Erstsprache für Kindergarten und 1. Klasse.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 134
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "14b3fcc121dd737eeb258de1c32bda702854087e"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/im-supermarkt/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "at_the_supermarket",
+      "slug": "im-supermarkt",
+      "status": 200,
+      "descriptionLength": 136,
+      "descriptionPreview": "Supermarkt-Thema mit Lebensmitteln, Regalen und Einkaufswagen. Wortschatz für DaF/DaZ und Rollenspiele im Klassenzimmer der Grundschule.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 136
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "fcd022469ae70e7fe7182d24f6a02c140351c079"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/backerei/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "bakery",
+      "slug": "backerei",
+      "status": 200,
+      "descriptionLength": 131,
+      "descriptionPreview": "Bäckerei-Wortschatz: Brot, Brötchen, Kuchen und Brezel benennen. Berufekunde und Sachunterricht für Vorschul- und Grundschulkinder.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 131
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d688e9a5003d985f3b7faccf2b3e6c1f2c6ac36f"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/strand/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "beach",
+      "slug": "strand",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Strandmotive in Farbe: Sandburg, Muschel, Eimer und Sonnenschirm für Sommerprojekte und Klassenraumdekoration in leuchtenden Bildern.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b18dadcf2db4f30d1a8303ea2b484543ea072024"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/vogel/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "birds",
+      "slug": "vogel",
+      "status": 200,
+      "descriptionLength": 131,
+      "descriptionPreview": "Vogel-Arbeitsblätter in Farbe: heimische Arten benennen, zählen und einordnen. Bildmaterial für den Sachunterricht der Grundschule.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 131
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "2488483ea065911b8e3caabc5f8a9accad090cc2"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/vogel-2/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "birds_2",
+      "slug": "vogel-2",
+      "status": 200,
+      "descriptionLength": 124,
+      "descriptionPreview": "Zusätzliche Vogel-Illustrationen für K-3: erweitert das erste Vogel-Set um seltenere Arten für vertiefende Wortschatzarbeit.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 124
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "01049c1079885d9168bef60fb013f0444a76411b"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/korperteile/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "body_parts",
+      "slug": "korperteile",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Körperteile lernen und beschriften: Kopf, Hand, Fuß, Auge und mehr. Sachunterricht und Sprachförderung für Vorschule und Grundschule.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "6b730df611972ad017d273e13e1622d7d188b661"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/fruhstuck/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "breakfast",
+      "slug": "fruhstuck",
+      "status": 200,
+      "descriptionLength": 121,
+      "descriptionPreview": "Frühstücks-Wortschatz: Brot, Marmelade, Müsli, Saft. Bildkarten für Morgenkreis-Gespräche und Alltagsrituale in der Kita.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 121
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "52a1bc708244773d88ebdd0c748e5d18a9912c60"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/camping/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "camping",
+      "slug": "camping",
+      "status": 200,
+      "descriptionLength": 122,
+      "descriptionPreview": "Camping-Wortschatz für K-3: Zelt, Schlafsack, Lagerfeuer, Rucksack. Bildkarten für Sommerprojekte und Erlebniserzählungen.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 122
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "25ce32b734ed2a61b7802e6bd814c461d6b542c4"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/weihnachten/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "christmas",
+      "slug": "weihnachten",
+      "status": 200,
+      "descriptionLength": 127,
+      "descriptionPreview": "Weihnachts-Arbeitsblätter für K-3: Tannenbaum, Stern, Geschenk, Nikolaus. Farbige Motive für die Adventszeit und Bastelstunden.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 127
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "106f1c838d6c2f9827de7b85f3405810997bb0f5"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/klassenzimmer/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "classroom",
+      "slug": "klassenzimmer",
+      "status": 200,
+      "descriptionLength": 127,
+      "descriptionPreview": "Klassenzimmer-Wortschatz: Tafel, Stift, Heft, Schere. Farbige Bildkarten zum Schuljahresanfang, ideal für die erste Schulwoche.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 127
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "c945127f0083a2ab1168990570517a3a66bdd453"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/kleidung/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "clothing",
+      "slug": "kleidung",
+      "status": 200,
+      "descriptionLength": 124,
+      "descriptionPreview": "Kleidungs-Wortschatz für K-3: Jacke, Hose, T-Shirt, Mütze. Farbige Bildkarten für Jahreszeiten-Themen und Anziehgeschichten.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 124
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "ddc6cc41c3f6ec7f907957b0fe2124c2f5930c10"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/farben/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "colors",
+      "slug": "farben",
+      "status": 200,
+      "descriptionLength": 125,
+      "descriptionPreview": "Farben für Vorschulkinder: Rot, Blau, Gelb, Grün. Erste Wortschatzarbeit mit klaren Bildbeispielen, in 11 Sprachen verfügbar.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 125
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "be37e24843f978c5c10f1d8568adc77a6795b467"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/desserts-und-sussigkeiten/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "desserts_and_sweets",
+      "slug": "desserts-und-sussigkeiten",
+      "status": 200,
+      "descriptionLength": 135,
+      "descriptionPreview": "Desserts und Süßigkeiten für K-3: Schokolade, Bonbon, Torte, Eis. Farbige Bildkarten für Geschmackssinn-Stunden und Ernährungsprojekte.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 135
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "62feb995b7c7be6239273379c922d02806432d51"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/dinosaurier/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "dinosaurs",
+      "slug": "dinosaurier",
+      "status": 200,
+      "descriptionLength": 122,
+      "descriptionPreview": "Dinosaurier für K-3: T-Rex, Triceratops, Stegosaurus, Brachiosaurus. Farbige Bildkarten für die beliebte Dino-Themenwoche.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 122
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "5f409544242aa908ff41d9a14efb2f84f9f9fa0d"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/ostern/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "easter",
+      "slug": "ostern",
+      "status": 200,
+      "descriptionLength": 127,
+      "descriptionPreview": "Oster-Wortschatz für K-3: Hase, Ei, Korb, Küken. Farbige Bildkarten für die Vorosterzeit, ideal für Bastelaktionen im Frühling.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 127
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "454282ba249a2ed34cc041704ceb4fc0b332835e"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/emotionen/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "emotions",
+      "slug": "emotionen",
+      "status": 200,
+      "descriptionLength": 141,
+      "descriptionPreview": "Gefühle-Arbeitsblätter: fröhlich, traurig, wütend, ängstlich erkennen und benennen. Sozial-emotionales Lernen für Vorschule und Kindergarten.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 141
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "027985f0ca2e35b3c9bc78ce78ab69b6a69918d8"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/bauernhoftiere/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "farm_animals",
+      "slug": "bauernhoftiere",
+      "status": 200,
+      "descriptionLength": 125,
+      "descriptionPreview": "Bauernhoftiere für K-3: Kuh, Schwein, Schaf, Huhn. Farbige Bildkarten für Bauernhof-Themenwoche und Wandertage zum Reiterhof.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 125
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "3f03acbb5a1a0b72a6756963a84f11e911e8ca24"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/blumen/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "flowers",
+      "slug": "blumen",
+      "status": 200,
+      "descriptionLength": 142,
+      "descriptionPreview": "Blumen-Arbeitsblätter in Farbe: Tulpe, Rose, Sonnenblume, Gänseblümchen benennen und sortieren. Frühlings- und Sommerprojekte der Grundschule.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 142
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "2b4a5b8bfd14da37a993cc1d20792a500b0372ab"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/waldtiere/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "forest_creatures",
+      "slug": "waldtiere",
+      "status": 200,
+      "descriptionLength": 120,
+      "descriptionPreview": "Waldtiere für K-3: Reh, Eichhörnchen, Fuchs, Igel. Farbige Bildkarten für Herbstprojekte und Waldtage im Sachunterricht.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 120
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "fac3d423efc295a2ebd477b1e94e793544269d3e"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/fruchte/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "fruits",
+      "slug": "fruchte",
+      "status": 200,
+      "descriptionLength": 124,
+      "descriptionPreview": "Früchte für K-3: Apfel, Banane, Erdbeere, Birne. Farbige Bildkarten für Gesunde-Ernährung-Wochen und erste Wortschatzarbeit.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 124
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b9502849bbc3d3312fe34b3d116b9d2c0b26be47"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/mobel/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "furniture",
+      "slug": "mobel",
+      "status": 200,
+      "descriptionLength": 128,
+      "descriptionPreview": "Möbel für K-3: Tisch, Stuhl, Schrank, Sofa. Farbige Bildkarten für Wohnungs-Themen und Beschreibungsübungen im Sprachunterricht.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 128
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "5c653d9c9b6bb7e675d532edcc22be9a855af292"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/krankenhaus/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "hospital",
+      "slug": "krankenhaus",
+      "status": 200,
+      "descriptionLength": 132,
+      "descriptionPreview": "Krankenhaus-Wortschatz: Arzt, Pflegerin, Spritze, Verband und Bett. Berufekunde und Sachgespräche zu Gesundheit für die Grundschule.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 132
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "03536320fc6ff0b87d7303a3410ff3ae05822f29"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/insekten-und-kafer/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "insects_and_bugs",
+      "slug": "insekten-und-kafer",
+      "status": 200,
+      "descriptionLength": 129,
+      "descriptionPreview": "Insekten und Käfer für K-3: Marienkäfer, Biene, Schmetterling, Ameise. Farbige Bildkarten für Sommerprojekte und Naturentdeckung.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 129
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "c3f0768287a9ba70c58c752da551f1ac69ee7e12"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/kuchenwerkzeuge/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "kitchen_tools",
+      "slug": "kuchenwerkzeuge",
+      "status": 200,
+      "descriptionLength": 120,
+      "descriptionPreview": "Küchenwerkzeuge für K-3: Löffel, Messer, Pfanne, Schneebesen. Farbige Bildkarten für Koch-Projekte und Alltagsvokabular.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 120
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "4cda5c465dcdcce0d0975d5e2f2ceddb4723e2ed"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/verschiedenes/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "miscellaneous",
+      "slug": "verschiedenes",
+      "status": 200,
+      "descriptionLength": 129,
+      "descriptionPreview": "Gemischter Wortschatz: thematisch nicht zugeordnete Bilder als praktische Sammlung für freie Wortschatzarbeit und Spontanübungen.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 129
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "95b25abd74ce2448c26e10240c5c43a69524d921"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/musik/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "music",
+      "slug": "musik",
+      "status": 200,
+      "descriptionLength": 127,
+      "descriptionPreview": "Musik-Wortschatz für K-3: Gitarre, Trommel, Klavier, Flöte. Bildkarten für die Musikstunde und Klanggeschichten im Morgenkreis.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 127
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "4bb696686a3d66d7d357038d1d1fd2e35a660199"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/berufe/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "occupations",
+      "slug": "berufe",
+      "status": 200,
+      "descriptionLength": 121,
+      "descriptionPreview": "Berufe für K-3: Feuerwehrmann, Bäcker, Ärztin, Lehrer. Bildkarten für Berufe-Wochen und Was-möchtest-du-werden-Gespräche.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 121
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "164a7bd72f2e42bc02c4f577466d0cf4045a90f9"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/meeresleben/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "ocean_life",
+      "slug": "meeresleben",
+      "status": 200,
+      "descriptionLength": 122,
+      "descriptionPreview": "Meeresleben für K-3: Fisch, Delfin, Hai, Krake. Farbige Bildkarten für Aquarienbesuche und Ozean-Themen im Sachunterricht.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 122
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "437759e55b1d7c12456bd9b9001785ac84827cae"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/haustiere/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "pets",
+      "slug": "haustiere",
+      "status": 200,
+      "descriptionLength": 123,
+      "descriptionPreview": "Haustiere für K-3: Hund, Katze, Hamster, Kaninchen. Farbige Bildkarten für Mein-Lieblingstier-Gespräche und Sachunterricht.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 123
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "9a4ac7be514520a8ad15dd096f66afe722314943"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/postamt/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "post_office",
+      "slug": "postamt",
+      "status": 200,
+      "descriptionLength": 120,
+      "descriptionPreview": "Post-Wortschatz für K-3: Brief, Paket, Briefmarke, Briefträger. Bildkarten für Berufe-Stunden und einfache Rollenspiele.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 120
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "4b2d571b8412b2c8d0e71c2511334d91965854b8"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/reptilien-und-amphibien/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "reptiles_and_amphibians",
+      "slug": "reptilien-und-amphibien",
+      "status": 200,
+      "descriptionLength": 125,
+      "descriptionPreview": "Reptilien und Amphibien für K-3: Schlange, Schildkröte, Frosch, Eidechse. Bildkarten für Zoo-Vorbereitung und Sachunterricht.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 125
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d0b03eb1304fd3ff850a6f99c2c7ff157326a108"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/formen/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "shapes",
+      "slug": "formen",
+      "status": 200,
+      "descriptionLength": 126,
+      "descriptionPreview": "Formen für Vorschulkinder: Kreis, Quadrat, Dreieck, Rechteck. Erste Geometrie spielerisch entdecken, in 11 Sprachen verfügbar.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 126
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "e986fdd0c66f86651ff7af29b1ab75a9f1521a9b"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/weltraum/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "space",
+      "slug": "weltraum",
+      "status": 200,
+      "descriptionLength": 122,
+      "descriptionPreview": "Weltraum-Wortschatz für K-3: Planet, Rakete, Astronaut, Stern. Farbige Bildkarten für Weltall-Projekte und Forscherwochen.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 122
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "ce97e17c26cb7b58b1fa351af2deddffad75b5fb"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/fruhling/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "spring",
+      "slug": "fruhling",
+      "status": 200,
+      "descriptionLength": 137,
+      "descriptionPreview": "Frühlings-Arbeitsblätter in Farbe: Blumen, Schmetterlinge, Vögel und Sonnenschein. Jahreszeitenprojekte für Kindergarten und Grundschule.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 137
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "0934f2dd12ecbe33f6ad8fece5bd966d0c6b9e33"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/sommer/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "summer",
+      "slug": "sommer",
+      "status": 200,
+      "descriptionLength": 123,
+      "descriptionPreview": "Sommer für K-3: Sonne, Eis, Strand, Wassermelone. Farbige Bildkarten für die Jahreszeit Juni bis August und Ferienprojekte.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 123
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "cfe13ce5d48d3afb14ed87f1efcc63084285a876"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/erntedankfest/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "thanksgivinng",
+      "slug": "erntedankfest",
+      "status": 200,
+      "descriptionLength": 141,
+      "descriptionPreview": "Thanksgiving-Material für internationale Schulen und bilinguale Programme: Truthahn, Kürbis und Erntesymbole für den November-Sachunterricht.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 141
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "dc5a1d1761e640c53ab917c2d6f37bc1fb4d257b"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/dinge-die-fliegen/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "things_that_fly",
+      "slug": "dinge-die-fliegen",
+      "status": 200,
+      "descriptionLength": 123,
+      "descriptionPreview": "Dinge die fliegen für K-3: Vogel, Flugzeug, Schmetterling, Drachen. Bildkarten für Wind- und Flug-Themen im Sachunterricht.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 123
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b50fd97899f2f792cb92e2437243d4258862f0a3"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/werkzeuge/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "tools",
+      "slug": "werkzeuge",
+      "status": 200,
+      "descriptionLength": 127,
+      "descriptionPreview": "Werkzeuge für K-3: Hammer, Säge, Schraubenzieher, Zange. Farbige Bildkarten für Handwerks-Stunden und Bastel-Projekte mit Holz.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 127
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "c418fb47316aa4e0ec849d71f2fcd0475f04a1d9"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/spielzeug/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "toys",
+      "slug": "spielzeug",
+      "status": 200,
+      "descriptionLength": 120,
+      "descriptionPreview": "Spielzeug für K-3: Ball, Puppe, Bauklotz, Auto. Farbige Bildkarten für Mein-Lieblingsspielzeug-Gespräche im Morgenkreis.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 120
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "c401b1d9743e331ddf70711710e824873c293087"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/baume/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "tree",
+      "slug": "baume",
+      "status": 200,
+      "descriptionLength": 125,
+      "descriptionPreview": "Bäume für K-3: Eiche, Tanne, Birke, Kastanie. Farbige Bildkarten für Waldtage, Jahreszeiten-Beobachtung und Baum-Steckbriefe.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 125
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "37983c3a8d64ab3f3eadccea157e1af7fe599d22"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/gemuse/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "vegetables",
+      "slug": "gemuse",
+      "status": 200,
+      "descriptionLength": 123,
+      "descriptionPreview": "Gemüse für K-3: Karotte, Tomate, Gurke, Brokkoli. Farbige Bildkarten für Gesunde-Ernährung-Wochen und Schulgarten-Projekte.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 123
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "3174df7d2b4a75ee3b0419f445dcf86cf312565f"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/fahrzeuge/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "vehicles",
+      "slug": "fahrzeuge",
+      "status": 200,
+      "descriptionLength": 129,
+      "descriptionPreview": "Fahrzeuge in Farbe: Auto, Bus, Lastwagen, Zug und Flugzeug benennen. Wortschatz für Kindergarten und 1. Klasse zum Thema Verkehr.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 129
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "7988d6e0d002f0f46a274faf116dac8cc9077ef5"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/wetter/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "weather",
+      "slug": "wetter",
+      "status": 200,
+      "descriptionLength": 130,
+      "descriptionPreview": "Wetter für K-3: Sonne, Wolke, Regen, Schnee. Farbige Bildkarten für tägliche Wetter-Beobachtung im Morgenkreis und Sachunterricht.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 130
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "f185f7f639ba6c0748b690a80ba7601768f45ded"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/winter/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "winter",
+      "slug": "winter",
+      "status": 200,
+      "descriptionLength": 134,
+      "descriptionPreview": "Winter-Material in Farbe: Schneemann, Schlitten, Schneeflocke und Tannenbaum. Jahreszeitenprojekte für Kindergarten und Eingangsstufe.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 134
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "501c170fe473996b076d85382532c0503c4c5373"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/zootiere/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "zoo_animals",
+      "slug": "zootiere",
+      "status": 200,
+      "descriptionLength": 125,
+      "descriptionPreview": "Zootiere für K-3: Löwe, Giraffe, Affe, Zebra. Farbige Bildkarten für Zoobesuche und exotische-Tiere-Wochen im Sachunterricht.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 125
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "ba7a8af332cea9fc36a75ef79b3eb237788c3c2a"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/tiere-sw/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "animals_bw",
+      "slug": "tiere-sw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/tiere-sw-2/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "animals_bw_2",
+      "slug": "tiere-sw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/tiere-sw-3/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "animals_bw_3",
+      "slug": "tiere-sw-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/tiere-sw-4/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "animals_bw_4",
+      "slug": "tiere-sw-4",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/tiere-sw-5/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "animals_bw_5",
+      "slug": "tiere-sw-5",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/kleidung-sw/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "apparel_bw",
+      "slug": "kleidung-sw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/strand-sw/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "beach_bw",
+      "slug": "strand-sw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/strand-sw-2/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "beach_bw_2",
+      "slug": "strand-sw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/vogel-sw/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "birds_bw",
+      "slug": "vogel-sw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/vogel-sw-2/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "birds_bw_2",
+      "slug": "vogel-sw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/weihnachten-s-w/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "christmas_bw",
+      "slug": "weihnachten-s-w",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/weihnachten-s-w-2/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "christmas_bw_2",
+      "slug": "weihnachten-s-w-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/klassenzimmer-s-w/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "classroom_bw",
+      "slug": "klassenzimmer-s-w",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/klassenzimmer-2-s-w/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "classroom_bw_2",
+      "slug": "klassenzimmer-2-s-w",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/nachtisch-s-w/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "dessert_bw",
+      "slug": "nachtisch-s-w",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/ostern-sw/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "easter_bw",
+      "slug": "ostern-sw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/ostern-sw-2/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "easter_bw_2",
+      "slug": "ostern-sw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/bildung-sw/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "education_bw",
+      "slug": "bildung-sw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/gesichter-sw/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "faces_bw",
+      "slug": "gesichter-sw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/bauernhoftiere-sw/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "farm_animals_bw",
+      "slug": "bauernhoftiere-sw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/bauernhof-sw/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "farm_bw",
+      "slug": "bauernhof-sw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/essen-sw/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "food_bw",
+      "slug": "essen-sw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/essen-sw-2/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "food_bw_2",
+      "slug": "essen-sw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/essen-sw-3/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "food_bw_3",
+      "slug": "essen-sw-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/fruchte-sw/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "fruits_bw",
+      "slug": "fruchte-sw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/mobel-sw/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "furniture_bw",
+      "slug": "mobel-sw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/haus-und-natur-sw/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "home_and_nature_bw",
+      "slug": "haus-und-natur-sw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/zuhause-sw/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "home_bw",
+      "slug": "zuhause-sw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/zuhause-sw-2/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "home_bw_2",
+      "slug": "zuhause-sw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/haushalt-sw/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "household_bw",
+      "slug": "haushalt-sw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/kuche-sw/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "kitchen_bw",
+      "slug": "kuche-sw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/natur-sw/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "nature_bw",
+      "slug": "natur-sw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/objekte-sw/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "objects_bw",
+      "slug": "objekte-sw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/meeresleben-sw/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "sea_life_bw",
+      "slug": "meeresleben-sw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/meeresleben-sw-2/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "sea_life_bw_2",
+      "slug": "meeresleben-sw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/weltraum-sw/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "space_bw",
+      "slug": "weltraum-sw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/sport-sw/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "sports_bw",
+      "slug": "sport-sw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/sport-sw-2/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "sports_bw_2",
+      "slug": "sport-sw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/werkzeuge-sw/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "tools_bw",
+      "slug": "werkzeuge-sw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/spielzeug-sw/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "toys_bw",
+      "slug": "spielzeug-sw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/spielzeug-sw-2/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "toys_bw_2",
+      "slug": "spielzeug-sw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/reisen-und-urlaub-sw/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "travel_and_holiday_bw",
+      "slug": "reisen-und-urlaub-sw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/valentinstag-sw/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "valentine_bw",
+      "slug": "valentinstag-sw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/valentinstag-sw-2/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "valentine_bw_2",
+      "slug": "valentinstag-sw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/gemuse-sw/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "vegetables_bw",
+      "slug": "gemuse-sw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/gemuse-sw-2/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "vegetables_bw_2",
+      "slug": "gemuse-sw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/fahrzeuge-sw/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "vehicles_bw",
+      "slug": "fahrzeuge-sw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/fahrzeuge-sw-2/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "vehicles_bw_2",
+      "slug": "fahrzeuge-sw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/fahrzeuge-sw-3/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "vehicles_bw_3",
+      "slug": "fahrzeuge-sw-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/zootiere-sw/",
+      "locale": "de",
+      "axis": "theme",
+      "axisKey": "zoo_animals_bw",
+      "slug": "zootiere-sw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/vorschule/",
+      "locale": "de",
+      "axis": "educational-level",
+      "axisKey": "preschool",
+      "slug": "vorschule",
+      "status": 200,
+      "descriptionLength": 124,
+      "descriptionPreview": "Vorschul-Materialien (3-5 Jahre): erste Buchstaben, Zahlen, Farben, Formen. Druckbare PDFs und Online-Spiele in 11 Sprachen.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 124
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "4c4d71c961f133b15d1196a2732a1f4c457cc40e"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/kindergarten/",
+      "locale": "de",
+      "axis": "educational-level",
+      "axisKey": "kindergarten",
+      "slug": "kindergarten",
+      "status": 200,
+      "descriptionLength": 130,
+      "descriptionPreview": "Kindergarten-Materialien (5-7 Jahre): Buchstaben, Zahlen, Wortschatz. Druckbare PDFs und interaktive Online-Spiele in 11 Sprachen.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 130
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "9d45ba2f52351569252c4aaa1c0b2a1db40df9dc"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/1-klasse/",
+      "locale": "de",
+      "axis": "educational-level",
+      "axisKey": "grade-1",
+      "slug": "1-klasse",
+      "status": 200,
+      "descriptionLength": 122,
+      "descriptionPreview": "Arbeitsblätter für die 1. Klasse: Lesen, Schreiben, Rechnen bis 20. Druckbare PDFs und interaktive Übungen in 11 Sprachen.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 122
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "f0317219c3ba26bd9850e1edeb88b79c239f50e7"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/2-klasse/",
+      "locale": "de",
+      "axis": "educational-level",
+      "axisKey": "grade-2",
+      "slug": "2-klasse",
+      "status": 200,
+      "descriptionLength": 128,
+      "descriptionPreview": "Arbeitsblätter für die 2. Klasse: Zahlenraum bis 100, Lesen, Schreiben. Druckbare Materialien und Online-Übungen für den Alltag.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 128
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=de)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "86e4d643f8cc42fa8e9fdd05d06a5b1847645e67"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/de/topic/3-klasse/",
+      "locale": "de",
+      "axis": "educational-level",
+      "axisKey": "grade-3",
+      "slug": "3-klasse",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    }
+  ]
+}

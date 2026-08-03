@@ -1,0 +1,125 @@
+=== §4.B genericness + structural lints ===
+  -> all 2175 pages pass lint (≥200 words, no banned phrases, theme-noun in P1)
+
+=== §4.C similarity — per-(type,mode) WITHIN-CLASS clusters (whole-page RAW) ===
+  addition/image-image (n=38): max 0.592 mean 0.290 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.099 | maxPair addition-bild-bild-kleidung-446e ~ addition-bild-bild-mobel-6864
+  addition/image-number (n=41): max 0.610 mean 0.292 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.097 | maxPair addition-bild-zahl-klassenzimmer-c60b ~ addition-bild-zahl-fruchte-d6fa
+  addition/mixed (n=38): max 0.569 mean 0.319 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.101 | maxPair addition-gemischt-musik-1d9c ~ addition-gemischt-dinge-die-fliegen-bfa5
+  alphabet-train/letter-hint (n=41): max 0.510 mean 0.263 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.113 | maxPair buchstabenzug-buchstaben-hilfe-haustiere-272c ~ buchstabenzug-buchstaben-hilfe-spielzeug-b336
+  alphabet-train/null (n=36): max 0.586 mean 0.281 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.115 | maxPair buchstabenzug-haustiere-f77b ~ buchstabenzug-gemuse-2ddf
+  big-small/findBig (n=36): max 0.613 mean 0.312 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.112 | maxPair gross-klein-grosses-finden-mobel-4ef2 ~ gross-klein-grosses-finden-weltraum-0574
+  big-small/orderAsc (n=41): max 0.598 mean 0.306 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.116 | maxPair gross-klein-aufsteigend-ordnen-tiere-9e4e ~ gross-klein-aufsteigend-ordnen-bauernhoftiere-3718
+  bingo/null (n=38): max 0.534 mean 0.287 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.110 | maxPair bingo-backerei-ad6a ~ bingo-kleidung-1924
+  code-addition/null (n=48): max 0.606 mean 0.313 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.105 | maxPair code-addition-klassenzimmer-bd2b ~ code-addition-blumen-c711
+  code-addition/secret-word (n=47): max 0.630 mean 0.336 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.125 | maxPair code-addition-geheimwort-klassenzimmer-40d4 ~ code-addition-geheimwort-meeresleben-b8d6
+  crossword/null (n=45): max 0.581 mean 0.274 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.104 | maxPair kreuzwortraetsel-aktivitaten-3099 ~ kreuzwortraetsel-fahrzeuge-b033
+  crossword/null/t:en (n=46): max 0.518 mean 0.245 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.106 | maxPair englisch-kreuzwortraetsel-fruhstuck-42c7 ~ englisch-kreuzwortraetsel-kuchenwerkzeuge-1264
+  find-and-count/letter-spotting (n=33): max 0.559 mean 0.284 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.103 | maxPair suchen-und-zaehlen-buchstaben-suchen-aktivitaten-51d6 ~ suchen-und-zaehlen-buchstaben-suchen-fruhstuck-04c8
+  find-objects/find-odd (n=46): max 0.580 mean 0.308 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.098 | maxPair objekte-finden-anders-finden-im-supermarkt-8bbd ~ objekte-finden-anders-finden-berufe-58f4
+  grid-match/null (n=47): max 0.569 mean 0.275 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.102 | maxPair gitter-zuordnung-meeresleben-18aa ~ gitter-zuordnung-winter-af35
+  matching/letter (n=44): max 0.571 mean 0.298 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.120 | maxPair zuordnung-buchstaben-accessoires-e173 ~ zuordnung-buchstaben-desserts-und-sussigkeiten-d966
+  matching/name/t:en (n=47): max 0.581 mean 0.267 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.115 | maxPair englisch-zuordnung-namen-rund-ums-haus-1b74 ~ englisch-zuordnung-namen-wetter-6872
+  math-puzzle/addition (n=40): max 0.532 mean 0.261 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.112 | maxPair mathe-raetsel-addition-accessoires-176c ~ mathe-raetsel-addition-musik-ee2a
+  math-puzzle/mixed (n=40): max 0.540 mean 0.283 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.125 | maxPair mathe-raetsel-gemischt-backerei-d899 ~ mathe-raetsel-gemischt-desserts-und-sussigkeiten-308e
+  math-puzzle/subtraction (n=41): max 0.531 mean 0.266 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.113 | maxPair mathe-raetsel-subtraktion-accessoires-bdaf ~ mathe-raetsel-subtraktion-verschiedenes-cd8d
+  math-worksheet/three-symbols-add-sub (n=49): max 0.634 mean 0.313 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.109 | maxPair mathe-arbeitsblatt-blumen ~ mathe-arbeitsblatt-sommer
+  missing-pieces/one-missing (n=47): max 0.620 mean 0.296 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.104 | maxPair was-fehlt-1-fehlendes-teil-aktivitaten-52f1 ~ was-fehlt-1-fehlendes-teil-insekten-und-kafer-7d0b
+  missing-pieces/two-missing (n=46): max 0.642 mean 0.309 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.108 | maxPair was-fehlt-2-fehlende-teile-klassenzimmer-1b2b ~ was-fehlt-2-fehlende-teile-meeresleben-c307
+  more-less/image-image (n=40): max 0.550 mean 0.306 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.125 | maxPair mehr-weniger-bild-bild-berufe-f4b7 ~ mehr-weniger-bild-bild-dinge-die-fliegen-a120
+  odd-one-out/same-theme (n=46): max 0.603 mean 0.324 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.108 | maxPair was-passt-nicht-gleiches-thema-im-supermarkt-d7b8 ~ was-passt-nicht-gleiches-thema-wetter-c622
+  pattern-train/aab (n=48): max 0.498 mean 0.279 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.110 | maxPair muster-zug-aab-strand-b0d0 ~ muster-zug-aab-farben-365a
+  pattern-train/aabb (n=46): max 0.546 mean 0.284 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.108 | maxPair muster-zug-aabb-klassenzimmer-0b1b ~ muster-zug-aabb-krankenhaus-82a1
+  pattern-train/abb (n=48): max 0.514 mean 0.281 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.108 | maxPair muster-zug-abb-meeresleben-e73c ~ muster-zug-abb-wetter-951f
+  pattern-train/abc (n=48): max 0.517 mean 0.288 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.110 | maxPair muster-zug-abc-im-supermarkt-2f1e ~ muster-zug-abc-fruhstuck-5e90
+  pattern-train/null (n=48): max 0.501 mean 0.271 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.099 | maxPair muster-zug-accessoires-43c3 ~ muster-zug-desserts-und-sussigkeiten-a902
+  pattern-worksheet/null (n=45): max 0.590 mean 0.304 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.105 | maxPair muster-arbeitsblatt-fruhling-8e24 ~ muster-arbeitsblatt-fahrzeuge-d425
+  picture-path/choose-path (n=47): max 0.540 mean 0.280 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.103 | maxPair bildpfad-den-richtigen-weg-wahlen-accessoires-d1b5 ~ bildpfad-den-richtigen-weg-wahlen-desserts-und-sussigkeiten-315b
+  picture-sort/null (n=39): max 0.573 mean 0.313 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.104 | maxPair bildersortierung-bakery-vs-dinosaurs-6236 ~ bildersortierung-bakery-vs-music-bb11
+  prepositions/fillin (n=48): max 0.626 mean 0.308 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.118 | maxPair praepositionen-luckentext-im-supermarkt-e298 ~ praepositionen-luckentext-bauernhoftiere-dac8
+  prepositions/multiplechoice (n=46): max 0.628 mean 0.337 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.153 | maxPair praepositionen-multiple-choice-fruchte-64f3 ~ praepositionen-multiple-choice-postamt-8be9
+  shadow-match/find-shadow (n=45): max 0.610 mean 0.333 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.101 | maxPair schatten-zuordnen-schatten-zuordnen-dinosaurier-60f4 ~ schatten-zuordnen-schatten-zuordnen-gemuse-105b
+  shadow-match/make-whole (n=47): max 0.604 mean 0.334 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.117 | maxPair schatten-zuordnen-ganz-machen-dinosaurier-b787 ~ schatten-zuordnen-ganz-machen-spielzeug-99f4
+  subtraction/cross-out (n=39): max 0.490 mean 0.239 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.096 | maxPair subtraktion-durchstreichen-formen-7cac ~ subtraktion-durchstreichen-zootiere-fa91
+  subtraction/find-subtrahend (n=39): max 0.479 mean 0.244 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.104 | maxPair subtraktion-subtrahend-finden-dinosaurier-c19a ~ subtraktion-subtrahend-finden-formen-0814
+  subtraction/image-number (n=40): max 0.513 mean 0.255 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.111 | maxPair subtraktion-bild-zahl-kuchenwerkzeuge-c4d7 ~ subtraktion-bild-zahl-zootiere-30c2
+  subtraction/mixed (n=40): max 0.493 mean 0.254 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.111 | maxPair subtraktion-gemischt-fruchte-7770 ~ subtraktion-gemischt-haustiere-589d
+  sudoku/easy (n=47): max 0.610 mean 0.324 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.093 | maxPair bilder-sudoku-leicht-desserts-und-sussigkeiten-f762 ~ bilder-sudoku-leicht-spielzeug-1ae2
+  sudoku/medium (n=47): max 0.640 mean 0.330 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.097 | maxPair bilder-sudoku-mittel-postamt-298f ~ bilder-sudoku-mittel-spielzeug-26f9
+  treasure-hunt/cardinal-arrows (n=48): max 0.672 mean 0.323 #FAIL>=0.80=0 #WARN>=0.65=1 | P1-raw mean 0.126 | maxPair schatzsuche-4-juli ~ schatzsuche-werkzeuge
+  word-guess/easy (n=47): max 0.623 mean 0.284 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.109 | maxPair wort-raten-leicht-strand-fcf5 ~ wort-raten-leicht-dinge-die-fliegen-2e5e
+  word-guess/normal (n=47): max 0.624 mean 0.301 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.128 | maxPair wort-raten-normal-im-supermarkt-880e ~ wort-raten-normal-wetter-7cc5
+  word-scramble/easy (n=48): max 0.568 mean 0.299 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.111 | maxPair buchstabensalat-waldtiere ~ buchstabensalat-meeresleben
+  wordsearch/null (n=48): max 0.567 mean 0.320 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.120 | maxPair wortsuche-4-juli ~ wortsuche-farben
+  wordsearch/null/t:en (n=48): max 0.542 mean 0.261 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.111 | maxPair englisch-wortsuche-fruchte-f319 ~ englisch-wortsuche-haustiere-0587
+
+=== cross-class + within: ALL 2175 landings, whole-page RAW ===
+  ALL-PAIRS: {"max":"0.672","mean":"0.025","pairs":2364225,"over80":0,"over65":1,"over85":0,"maxPair":"schatzsuche-4-juli ~ schatzsuche-werkzeuge"}
+
+=== full distribution: TOP-10 raw whole-page pairs (within+cross) ===
+  1. 0.672  schatzsuche-4-juli ~ schatzsuche-werkzeuge  (treasure-hunt/cardinal-arrows)
+  2. 0.650  schatzsuche-vogel ~ schatzsuche-fruchte  (treasure-hunt/cardinal-arrows)
+  3. 0.647  schatzsuche-kuchenwerkzeuge ~ schatzsuche-fahrzeuge  (treasure-hunt/cardinal-arrows)
+  4. 0.646  schatzsuche-farben ~ schatzsuche-fruchte  (treasure-hunt/cardinal-arrows)
+  5. 0.645  schatzsuche-4-juli ~ schatzsuche-vogel  (treasure-hunt/cardinal-arrows)
+  6. 0.642  was-fehlt-2-fehlende-teile-klassenzimmer-1b2b ~ was-fehlt-2-fehlende-teile-meeresleben-c307  (missing-pieces/two-missing)
+  7. 0.640  bilder-sudoku-mittel-postamt-298f ~ bilder-sudoku-mittel-spielzeug-26f9  (sudoku/medium)
+  8. 0.639  schatzsuche-blumen ~ schatzsuche-erntedankfest  (treasure-hunt/cardinal-arrows)
+  9. 0.639  bilder-sudoku-mittel-fruhstuck-cb72 ~ bilder-sudoku-mittel-insekten-und-kafer-5f37  (sudoku/medium)
+  10. 0.637  schatzsuche-backerei ~ schatzsuche-winter  (treasure-hunt/cardinal-arrows)
+
+=== cross-class template-collision probe (slot-normalized whole-page, DIFFERENT (type,mode) only) ===
+  max cross-class slot-normalized Jaccard: 0.585  [gross-klein-grosses-finden-im-supermarkt-eefb ~ gross-klein-aufsteigend-ordnen-im-supermarkt-2fdb (big-small/findBig vs big-small/orderAsc)]
+
+=== §4.E title + meta distinctness ===
+  [P] shared first-50-char title prefixes: 0 groups covering 0 of 2175 pages -> PASS
+  addition/image-image (n=38): TITLE mean 0.753 max 0.800 #FAIL=528 | META mean 0.109 max 0.438 #FAIL=0
+  addition/image-number (n=41): TITLE mean 0.654 max 0.833 #FAIL=91 | META mean 0.161 max 0.438 #FAIL=0
+  addition/mixed (n=38): TITLE mean 0.715 max 0.750 #FAIL=0 | META mean 0.155 max 0.400 #FAIL=0
+  alphabet-train/letter-hint (n=41): TITLE mean 0.683 max 0.714 #FAIL=0 | META mean 0.094 max 0.407 #FAIL=0
+  alphabet-train/null (n=36): TITLE mean 0.659 max 0.714 #FAIL=0 | META mean 0.024 max 0.464 #FAIL=0
+  big-small/findBig (n=36): TITLE mean 0.678 max 0.800 #FAIL=378 | META mean 0.122 max 0.370 #FAIL=0
+  big-small/orderAsc (n=41): TITLE mean 0.653 max 0.800 #FAIL=435 | META mean 0.127 max 0.321 #FAIL=0
+  bingo/null (n=38): TITLE mean 0.663 max 0.714 #FAIL=0 | META mean 0.034 max 0.533 #FAIL=0
+  code-addition/null (n=48): TITLE mean 0.713 max 0.750 #FAIL=0 | META mean 0.058 max 0.438 #FAIL=0
+  code-addition/secret-word (n=47): TITLE mean 0.686 max 0.778 #FAIL=0 | META mean 0.084 max 0.419 #FAIL=0
+  find-objects/find-odd (n=46): TITLE mean 0.692 max 0.750 #FAIL=0 | META mean 0.077 max 0.370 #FAIL=0
+  matching/letter (n=44): TITLE mean 0.678 max 0.714 #FAIL=0 | META mean 0.026 max 0.400 #FAIL=0
+  math-puzzle/addition (n=40): TITLE mean 0.736 max 0.778 #FAIL=0 | META mean 0.176 max 0.424 #FAIL=0
+  math-puzzle/mixed (n=40): TITLE mean 0.483 max 0.800 #FAIL=312 | META mean 0.082 max 0.438 #FAIL=0
+  math-worksheet/three-symbols-add-sub (n=49): TITLE mean 0.740 max 0.778 #FAIL=0 | META mean 0.188 max 0.786 #FAIL=0
+  missing-pieces/one-missing (n=47): TITLE mean 0.687 max 0.750 #FAIL=0 | META mean 0.082 max 0.467 #FAIL=0
+  missing-pieces/two-missing (n=46): TITLE mean 0.718 max 0.778 #FAIL=0 | META mean 0.114 max 0.448 #FAIL=0
+  more-less/image-image (n=40): TITLE mean 0.697 max 0.778 #FAIL=0 | META mean 0.116 max 0.469 #FAIL=0
+  odd-one-out/same-theme (n=46): TITLE mean 0.679 max 0.800 #FAIL=630 | META mean 0.141 max 0.485 #FAIL=0
+  pattern-train/aab (n=48): TITLE mean 0.677 max 0.750 #FAIL=0 | META mean 0.102 max 0.448 #FAIL=0
+  pattern-train/aabb (n=46): TITLE mean 0.662 max 0.750 #FAIL=0 | META mean 0.091 max 0.448 #FAIL=0
+  pattern-train/abb (n=48): TITLE mean 0.677 max 0.750 #FAIL=0 | META mean 0.104 max 0.452 #FAIL=0
+  pattern-train/abc (n=48): TITLE mean 0.677 max 0.750 #FAIL=0 | META mean 0.090 max 0.467 #FAIL=0
+  pattern-worksheet/null (n=45): TITLE mean 0.678 max 0.750 #FAIL=0 | META mean 0.085 max 0.360 #FAIL=0
+  prepositions/fillin (n=48): TITLE mean 0.651 max 0.750 #FAIL=0 | META mean 0.057 max 0.367 #FAIL=0
+  prepositions/multiplechoice (n=46): TITLE mean 0.658 max 0.714 #FAIL=0 | META mean 0.061 max 0.414 #FAIL=0
+  subtraction/cross-out (n=39): TITLE mean 0.588 max 0.800 #FAIL=153 | META mean 0.111 max 0.387 #FAIL=0
+  subtraction/find-subtrahend (n=39): TITLE mean 0.759 max 0.800 #FAIL=496 | META mean 0.250 max 0.400 #FAIL=0
+  subtraction/image-number (n=40): TITLE mean 0.736 max 0.778 #FAIL=0 | META mean 0.164 max 0.455 #FAIL=0
+  subtraction/mixed (n=40): TITLE mean 0.709 max 0.778 #FAIL=0 | META mean 0.088 max 0.419 #FAIL=0
+  sudoku/easy (n=47): TITLE mean 0.680 max 0.714 #FAIL=0 | META mean 0.048 max 0.385 #FAIL=0
+  word-guess/easy (n=47): TITLE mean 0.712 max 0.750 #FAIL=0 | META mean 0.049 max 0.400 #FAIL=0
+  word-guess/normal (n=47): TITLE mean 0.712 max 0.750 #FAIL=0 | META mean 0.062 max 0.419 #FAIL=0
+  word-scramble/easy (n=48): TITLE mean 0.657 max 0.714 #FAIL=0 | META mean 0.087 max 0.778 #FAIL=0
+  wordsearch/null (n=48): TITLE mean 0.621 max 0.667 #FAIL=0 | META mean 0.065 max 0.818 #FAIL=3
+  [T] worst within-class TITLE max: 0.833  [addition-bild-zahl-tiere-716a ~ addition-bild-zahl-strand-08e7]  -> FAIL
+  [M] worst within-class META  max: 0.818  [wortsuche-backerei ~ wortsuche-klassenzimmer]  -> FAIL
+  [D] exact-duplicate TITLES: 0 group(s) -> PASS
+  [D] exact-duplicate METAS : 0 group(s) -> PASS
+  [i] token-subset title pairs (reported, not failed): 34  e.g. addition-bild-zahl-vogel-3c06 ⊂ addition-bild-zahl-vogel-2-684f
+
+=== VERDICT vs LOCKED thresholds (2026-06-06 calibration) ===
+  [1] cannibalization = WHOLE-PAGE RAW: FAIL>=0.80 / WARN 0.65-0.80 / PASS<0.65 (within+cross)
+      worst within-class max: 0.672  [schatzsuche-4-juli ~ schatzsuche-werkzeuge]  -> PASS
+      all-pairs max:          0.672 #FAIL(>=0.80)=0 #WARN(>=0.65)=1  -> PASS
+  [2] cluster-density (whole-page-raw mean) alarm>0.75 (per cluster): OK
+  [3] cross-class slot-norm template-collision FAIL>=0.90: max=0.585  -> PASS
+  [4] P1-raw cluster-mean WARN>0.70 (per cluster): ok
+  [5] title/meta distinctness (§4.E, STRUCTURAL): dup-titles=0, dup-metas=0, shared-50-char-prefix groups=0  -> PASS
+      (reported only, NOT thresholded on short strings: worst TITLE 0.833, worst META 0.818, subset pairs 34)
+      (per-paragraph 0.85 FAIL + within-class slot-norm = RETIRED per ruling — they misfire on the intended template/variant design)

@@ -1,76 +1,76 @@
 [
  {
-  "key": "unroll-tape",
-  "pfx": "urt",
-  "benchEl": "urt-bench",
-  "benchW": 660,
-  "aspect": 0.3439,
-  "chrome": 391,
-  "caps": [
-   {
-    "t": "A",
-    "cap": 1320,
-    "ceil": 1421
-   },
-   {
-    "t": "B",
-    "cap": 1640,
-    "ceil": 1770
-   },
-   {
-    "t": "C",
-    "cap": 2040,
-    "ceil": 2206
-   }
-  ]
- },
- {
-  "key": "comparison-planks",
-  "pfx": "cmp",
-  "benchEl": "cmp-bench",
-  "benchW": 660,
-  "aspect": 0.4439,
-  "chrome": 466,
-  "caps": [
-   {
-    "t": "A",
-    "cap": 860,
-    "ceil": 932
-   },
-   {
-    "t": "B",
-    "cap": 1100,
-    "ceil": 1202
-   },
-   {
-    "t": "C",
-    "cap": 1420,
-    "ceil": 1540
-   }
-  ]
- },
- {
-  "key": "lids",
-  "pfx": "lid",
-  "benchEl": "lid-table",
-  "benchW": 680,
-  "aspect": 0.62,
-  "chrome": 440,
+  "key": "wodb",
+  "pfx": "wdb",
+  "benchEl": "wdb-cell",
+  "benchW": 740,
+  "aspect": 1.1068,
+  "chrome": 181,
   "caps": [
    {
     "t": "A",
     "cap": null,
-    "ceil": 709
+    "ceil": 631
    },
    {
     "t": "B",
-    "cap": 820,
-    "ceil": 903
+    "cap": null,
+    "ceil": 740
    },
    {
     "t": "C",
-    "cap": 1060,
-    "ceil": 1145
+    "cap": 800,
+    "ceil": 875
+   }
+  ]
+ },
+ {
+  "key": "rekenrek",
+  "pfx": "rkr",
+  "benchEl": "rkr-board",
+  "benchW": 1032,
+  "aspect": 0.4128,
+  "chrome": 25,
+  "caps": [
+   {
+    "t": "A",
+    "cap": 1920,
+    "ceil": 2071
+   },
+   {
+    "t": "B",
+    "cap": 2180,
+    "ceil": 2361
+   },
+   {
+    "t": "C",
+    "cap": 2520,
+    "ceil": 2725
+   }
+  ]
+ },
+ {
+  "key": "fraction-kitchen",
+  "pfx": "frk",
+  "benchEl": "frk-counter",
+  "benchW": 1032,
+  "aspect": 0.6405,
+  "chrome": 339,
+  "caps": [
+   {
+    "t": "A",
+    "cap": null,
+    "ceil": 844
+   },
+   {
+    "t": "B",
+    "cap": null,
+    "ceil": 1032
+   },
+   {
+    "t": "C",
+    "cap": 1160,
+    "ceil": 1266
    }
   ]
  }

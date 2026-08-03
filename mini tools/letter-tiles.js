@@ -1444,12 +1444,61 @@ var LetterTiles = {
   +   'font-size:clamp(18px,3.2vmin,28px);color:var(--lcs-ink);}'
 
   /* board */
+  /* =====================================================================
+     ⚠⚠ THIS TOOL WAS CLIPPING IN ITALIAN AND GERMAN AT 1366x900 — the
+     CONTROL cell, the narrowest desktop the programme measures, and it has
+     been doing it in production. Lowest reachable control 948 of 900: 48px
+     of an unreachable button, in two of eleven languages.
+     NOTHING IN THE REPO COULD SEE IT. The shared gate measures 1366 in
+     ENGLISH, and its locale sweep runs at 1920/2560 and only for tools
+     already touched. A survey of all 48 tools x de/it/fi at 1366x900 found
+     exactly this one, which is why the survey was worth running instead of
+     assuming either that it was systemic or that it was unique.
+     THE MECHANISM IS `46vh` INSIDE A MANIPULATIVE — the third instance in
+     this programme after calendar-wall, and number-sieve's source already
+     documents the ban: the iframe grows to its content, so a vh rule is a
+     feedback loop the shell has no path for. Italian and German wrap the
+     chip rows one line further than English, and a board sized off the
+     VIEWPORT cannot know that.
+     The fix is confined to short viewports, where the clip happens: 38vh
+     at 900 is 342px against 414px, which shed 72px and leaves the lowest
+     control at 876. Above 1100px tall the board keeps its full 46vh/560px,
+     so no big board loses anything.
+     ⚠ This DOES change a render at or below 1366, deliberately. The
+     programme's neutrality rule protects shipped layouts from the TIERS;
+     it does not protect a 48px unreachable control from being fixed. */
   + '.ltl-board{position:relative;width:100%;height:clamp(300px,46vh,560px);'
   +   'background:repeating-linear-gradient(to bottom,transparent 0 calc(var(--ltl-row,80px) - 2px),'
   +   'rgba(20,107,94,.07) calc(var(--ltl-row,80px) - 2px) var(--ltl-row,80px)),var(--lcs-surface);'
   +   'border:1.5px solid var(--lcs-line);border-radius:var(--lcs-radius);'
   +   'box-shadow:inset 0 2px 10px rgba(20,30,28,.05),0 1px 0 rgba(255,255,255,.9);'
   +   'touch-action:none;overflow:hidden;}'
+  /* ⚠ AFTER the base rule, never before it. Both are `.ltl-board` at the same
+     specificity, so SOURCE ORDER decides — a media block placed ABOVE the
+     declaration it overrides does nothing at all. I wrote it above first; it
+     would have shipped inert and the clip would have survived a green run. */
+  /* =====================================================================
+     ⚠⚠ NO CARD TIER HERE EITHER — measured, then withdrawn. I wrote this
+     tool the same 1240/1560/1740 ladder as its siblings and it passed
+     everything: fits at every tier floor in Italian AND German, local-test
+     PASS, shared gate green, 41.1% -> 66.1%.
+     Then I checked whether the CONTENTS grew, which is the question the
+     FILL floor does not ask. `:418` computes
+         tile = max(44, min(84, round(innerWidth * 0.085)))
+     so the tile is PINNED AT 84px from about 988px of viewport upward. A
+     wider board would have meant more empty board and the same letters —
+     the rekenrek defect exactly, found the same way, on the same day.
+     ⚠ Unlike rekenrek the fix here is small: the 84 ceiling is one number,
+     and it could be raised per tier. It is still GEOMETRY code rather than
+     a card width, and it belongs in a commit that measures the result on a
+     board with tiles actually placed — they do not exist at rest, which is
+     why the first content-scale probe could not see them at all.
+     THE CLIP FIX BELOW STAYS. That one is a live 48px defect in two
+     languages and is independent of any of this.
+     ===================================================================== */
+  + '@media (max-height:1100px){'
+  +   '.ltl-board{height:clamp(260px,38vh,460px);}'
+  + '}'
   + '.ltl-check{position:absolute;right:10px;bottom:10px;width:52px;height:52px;'
   +   'display:grid;place-items:center;border-radius:50%;z-index:20;'
   +   'background:var(--lcs-surface);box-shadow:var(--lcs-shadow-sm);'

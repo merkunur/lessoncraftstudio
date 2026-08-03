@@ -1,0 +1,142 @@
+=== §4.B genericness + structural lints ===
+  -> all 2977 pages pass lint (≥200 words, no banned phrases, theme-noun in P1)
+
+=== §4.C similarity — per-(type,mode) WITHIN-CLASS clusters (whole-page RAW) ===
+  addition/find-addend (n=41): max 0.621 mean 0.313 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.141 | maxPair adicao-encontre-o-termo-acessorios-6b9a ~ adicao-encontre-o-termo-animais-do-zoologico-6ba9
+  addition/image-image (n=41): max 0.627 mean 0.318 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.141 | maxPair adicao-imagem-imagem-hospital-dc77 ~ adicao-imagem-imagem-correios-11a9
+  addition/image-number (n=41): max 0.618 mean 0.313 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.150 | maxPair adicao-imagem-numero-acessorios-2d5a ~ adicao-imagem-numero-animais-do-zoologico-b315
+  addition/mixed (n=40): max 0.648 mean 0.318 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.148 | maxPair adicao-misto-animais-9d4c ~ adicao-misto-flores-a646
+  alphabet-train/letter-hint (n=32): max 0.636 mean 0.304 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.143 | maxPair trem-do-alfabeto-dica-de-letra-flores-a518 ~ trem-do-alfabeto-dica-de-letra-inverno-9e55
+  alphabet-train/null (n=29): max 0.578 mean 0.250 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.132 | maxPair trem-do-alfabeto-acessorios-7204 ~ trem-do-alfabeto-utensilios-de-cozinha-37d3
+  big-small/findBig (n=42): max 0.622 mean 0.210 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.123 | maxPair grande-pequeno-encontre-o-grande-acessorios-5729 ~ grande-pequeno-encontre-o-grande-pascoa-2caf
+  big-small/orderAsc (n=42): max 0.601 mean 0.213 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.126 | maxPair grande-pequeno-ordem-crescente-passaros-2-6c3c ~ grande-pequeno-ordem-crescente-repteis-e-anfibios-9a28
+  bingo/null (n=38): max 0.662 mean 0.265 #FAIL>=0.80=0 #WARN>=0.65=2 | P1-raw mean 0.130 | maxPair bingo-vida-marinha-a00a ~ bingo-vegetais-5db5
+  chart-count/null (n=39): max 0.735 mean 0.117 #FAIL>=0.80=0 #WARN>=0.65=45 | P1-raw mean 0.085 | maxPair contagem-em-grafico-acessorios ~ contagem-em-grafico-vegetais
+  code-addition/null (n=49): max 0.642 mean 0.248 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.134 | maxPair adicao-com-codigo-diversos-cc48 ~ adicao-com-codigo-vegetais-fc50
+  code-addition/secret-word (n=48): max 0.642 mean 0.274 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.153 | maxPair adicao-com-codigo-palavra-secreta-flores-d308 ~ adicao-com-codigo-palavra-secreta-profissoes-b97d
+  crossword/null (n=46): max 0.596 mean 0.244 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.135 | maxPair palavras-cruzadas-3069 ~ palavras-cruzadas-1169
+  crossword/null/t:en (n=46): max 0.518 mean 0.249 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.129 | maxPair ingles-palavras-cruzadas-animais-fd83 ~ ingles-palavras-cruzadas-utensilios-de-cozinha-458c
+  crossword/null/t:es (n=41): max 0.507 mean 0.248 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.122 | maxPair espanhol-palavras-cruzadas-pascoa-8f87 ~ espanhol-palavras-cruzadas-inverno-7b97
+  find-and-count/hidden-object (n=42): max 0.633 mean 0.257 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.136 | maxPair encontre-e-conte-objetos-escondidos-acessorios-a321 ~ encontre-e-conte-objetos-escondidos-musica-c5d4
+  find-and-count/letter-spotting (n=43): max 0.650 mean 0.320 #FAIL>=0.80=0 #WARN>=0.65=1 | P1-raw mean 0.215 | maxPair encontre-e-conte-procurar-letras-atividades-c3ae ~ encontre-e-conte-procurar-letras-animais-da-fazenda-23d0
+  find-objects/find-odd (n=48): max 0.596 mean 0.302 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.132 | maxPair encontre-os-objetos-encontre-o-diferente-pascoa-1d9a ~ encontre-os-objetos-encontre-o-diferente-repteis-e-anfibios-1c3e
+  find-objects/i-spy (n=47): max 0.621 mean 0.297 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.130 | maxPair encontre-os-objetos-vejo-vejo-dinossauros-4d6b ~ encontre-os-objetos-vejo-vejo-repteis-e-anfibios-46bf
+  grid-match/null (n=48): max 0.674 mean 0.226 #FAIL>=0.80=0 #WARN>=0.65=13 | P1-raw mean 0.154 | maxPair pareamento-em-grade-acessorios-bb8f ~ pareamento-em-grade-dinossauros-ba09
+  matching/letter (n=45): max 0.591 mean 0.249 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.137 | maxPair pareamento-letra-espaco-6910 ~ pareamento-letra-veiculos-ae5c
+  matching/name (n=47): max 0.593 mean 0.255 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.142 | maxPair pareamento-nomes-2bc8 ~ pareamento-nomes-24fb
+  matching/name/t:en (n=46): max 0.552 mean 0.272 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.134 | maxPair ingles-pareamento-nomes-pascoa-2ba5 ~ ingles-pareamento-nomes-formas-0c34
+  matching/name/t:es (n=45): max 0.559 mean 0.270 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.130 | maxPair espanhol-pareamento-nomes-natal-e40f ~ espanhol-pareamento-nomes-vida-marinha-1590
+  math-puzzle/addition (n=41): max 0.653 mean 0.222 #FAIL>=0.80=0 #WARN>=0.65=1 | P1-raw mean 0.140 | maxPair quebra-cabeca-matematico-soma-acessorios-bc54 ~ quebra-cabeca-matematico-soma-animais-do-zoologico-dec7
+  math-puzzle/mixed (n=41): max 0.658 mean 0.241 #FAIL>=0.80=0 #WARN>=0.65=2 | P1-raw mean 0.153 | maxPair quebra-cabeca-matematico-misto-acessorios-1d37 ~ quebra-cabeca-matematico-misto-diversos-b066
+  math-puzzle/subtraction (n=41): max 0.648 mean 0.226 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.148 | maxPair quebra-cabeca-matematico-subtracao-acessorios-4e35 ~ quebra-cabeca-matematico-subtracao-animais-do-zoologico-c212
+  math-worksheet/four-symbols-add-sub (n=49): max 0.627 mean 0.306 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.144 | maxPair atividade-de-matematica-4-simbolos-soma-sub-diversos-ba63 ~ atividade-de-matematica-4-simbolos-soma-sub-vegetais-91a0
+  math-worksheet/three-symbols-add-sub (n=49): max 0.633 mean 0.303 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.138 | maxPair atividade-de-matematica-3-simbolos-soma-sub-acessorios-3271 ~ atividade-de-matematica-3-simbolos-soma-sub-sobremesas-e-doces-e259
+  math-worksheet/two-symbols-add-sub (n=49): max 0.624 mean 0.297 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.126 | maxPair atividade-de-matematica-2-simbolos-soma-sub-passaros-2-4ada ~ atividade-de-matematica-2-simbolos-soma-sub-sobremesas-e-doces-8c7c
+  missing-pieces/one-missing (n=47): max 0.631 mean 0.204 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.124 | maxPair pecas-faltantes-1-peca-faltando-acessorios-b5c9 ~ pecas-faltantes-1-peca-faltando-brinquedos-fcbd
+  missing-pieces/two-missing (n=47): max 0.657 mean 0.228 #FAIL>=0.80=0 #WARN>=0.65=2 | P1-raw mean 0.149 | maxPair pecas-faltantes-2-pecas-faltando-hospital-6b1b ~ pecas-faltantes-2-pecas-faltando-correios-f868
+  more-less/check-cross (n=41): max 0.631 mean 0.300 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.144 | maxPair mais-ou-menos-marque-e-risque-grupos-acessorios-69be ~ mais-ou-menos-marque-e-risque-grupos-animais-da-fazenda-7aca
+  more-less/image-image (n=40): max 0.660 mean 0.278 #FAIL>=0.80=0 #WARN>=0.65=3 | P1-raw mean 0.141 | maxPair mais-ou-menos-imagem-imagem-acessorios-6f0b ~ mais-ou-menos-imagem-imagem-flores-7c94
+  more-less/image-number (n=41): max 0.607 mean 0.320 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.157 | maxPair mais-ou-menos-imagem-numero-hospital-14d1 ~ mais-ou-menos-imagem-numero-correios-aaf9
+  odd-one-out/cross-theme (n=4): max 0.246 mean 0.213 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.066 | maxPair qual-e-diferente-multi-tema-animais-1a45 ~ qual-e-diferente-multi-tema-arvores-75fd
+  odd-one-out/same-theme (n=49): max 0.641 mean 0.253 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.147 | maxPair qual-e-diferente-mesmo-tema-sobremesas-e-doces-7095 ~ qual-e-diferente-mesmo-tema-animais-de-estimacao-4506
+  pattern-train/aab (n=49): max 0.643 mean 0.248 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.153 | maxPair trem-de-padroes-aab-passaros-2-474d ~ trem-de-padroes-aab-sobremesas-e-doces-af14
+  pattern-train/aabb (n=49): max 0.643 mean 0.257 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.163 | maxPair trem-de-padroes-aabb-acessorios-7127 ~ trem-de-padroes-aabb-passaros-2-2bc8
+  pattern-train/abb (n=49): max 0.631 mean 0.245 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.156 | maxPair trem-de-padroes-abb-emocoes-3955 ~ trem-de-padroes-abb-arvores-7497
+  pattern-train/abc (n=49): max 0.641 mean 0.258 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.170 | maxPair trem-de-padroes-abc-acessorios-5cea ~ trem-de-padroes-abc-sobremesas-e-doces-f370
+  pattern-train/null (n=49): max 0.631 mean 0.245 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.153 | maxPair trem-de-padroes-passaros-2-0727 ~ trem-de-padroes-moveis-d7a6
+  pattern-worksheet/null (n=48): max 0.617 mean 0.236 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.150 | maxPair atividade-de-padroes-acessorios-1de0 ~ atividade-de-padroes-passaros-2-34c9
+  picture-path/choose-path (n=49): max 0.616 mean 0.225 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.131 | maxPair caminho-ilustrado-escolha-o-caminho-certo-passaros-2-e463 ~ caminho-ilustrado-escolha-o-caminho-certo-sobremesas-e-doces-1fc4
+  picture-path/classic-maze (n=40): max 0.610 mean 0.278 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.147 | maxPair caminho-ilustrado-labirinto-classico-acessorios-af1b ~ caminho-ilustrado-labirinto-classico-musica-4e40
+  picture-sort/null (n=122): max 0.624 mean 0.234 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.092 | maxPair ordenar-imagens-accessories-vs-activities-b089 ~ ordenar-imagens-accessories-vs-space-01eb
+  prepositions/fillin (n=49): max 0.639 mean 0.329 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.175 | maxPair preposicoes-complete-hospital-764b ~ preposicoes-complete-ferramentas-b7af
+  prepositions/multiplechoice (n=49): max 0.647 mean 0.303 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.146 | maxPair preposicoes-multipla-escolha-cafe-da-manha-79f0 ~ preposicoes-multipla-escolha-pascoa-baec
+  shadow-match/find-shadow (n=45): max 0.619 mean 0.206 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.121 | maxPair pareamento-de-sombras-combine-a-sombra-moveis-e7bd ~ pareamento-de-sombras-combine-a-sombra-animais-de-estimacao-e7bd
+  shadow-match/make-whole (n=47): max 0.617 mean 0.210 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.128 | maxPair pareamento-de-sombras-complete-acessorios-5d83 ~ pareamento-de-sombras-complete-passaros-2-5d83
+  subtraction/cross-out (n=41): max 0.612 mean 0.271 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.123 | maxPair subtracao-riscar-passaros-2-fe37 ~ subtracao-riscar-utensilios-de-cozinha-6199
+  subtraction/find-subtrahend (n=39): max 0.674 mean 0.297 #FAIL>=0.80=0 #WARN>=0.65=4 | P1-raw mean 0.156 | maxPair subtracao-encontre-o-subtraendo-acessorios-77bc ~ subtracao-encontre-o-subtraendo-flores-8c48
+  subtraction/image-number (n=41): max 0.680 mean 0.319 #FAIL>=0.80=0 #WARN>=0.65=1 | P1-raw mean 0.184 | maxPair subtracao-imagem-numero-acessorios-5327 ~ subtracao-imagem-numero-animais-do-zoologico-b924
+  subtraction/mixed (n=41): max 0.668 mean 0.324 #FAIL>=0.80=0 #WARN>=0.65=3 | P1-raw mean 0.197 | maxPair subtracao-misto-acessorios-06d5 ~ subtracao-misto-animais-do-zoologico-4109
+  sudoku/easy (n=42): max 0.645 mean 0.267 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.133 | maxPair sudoku-ilustrado-facil-f596 ~ sudoku-ilustrado-facil-8356
+  sudoku/hard (n=38): max 0.678 mean 0.269 #FAIL>=0.80=0 #WARN>=0.65=7 | P1-raw mean 0.135 | maxPair sudoku-ilustrado-dificil-a118 ~ sudoku-ilustrado-dificil-845e
+  sudoku/medium (n=42): max 0.656 mean 0.274 #FAIL>=0.80=0 #WARN>=0.65=3 | P1-raw mean 0.131 | maxPair sudoku-ilustrado-medio-e704 ~ sudoku-ilustrado-medio-902b
+  treasure-hunt/cardinal-arrows (n=45): max 0.630 mean 0.255 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.152 | maxPair caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-fa8c ~ caca-ao-tesouro-cima-baixo-esq-dir-4-de-julho-e81d
+  treasure-hunt/compass (n=43): max 0.601 mean 0.251 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.145 | maxPair caca-ao-tesouro-pontos-cardeais-4-de-julho-1fc1 ~ caca-ao-tesouro-pontos-cardeais-4-de-julho-37c4
+  word-guess/easy (n=47): max 0.583 mean 0.301 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.148 | maxPair adivinhe-a-palavra-facil-sobremesas-e-doces-de6c ~ adivinhe-a-palavra-facil-repteis-e-anfibios-9d11
+  word-guess/normal (n=45): max 0.578 mean 0.300 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.144 | maxPair adivinhe-a-palavra-normal-natal-7e54 ~ adivinhe-a-palavra-normal-flores-2b6e
+  word-scramble/easy (n=45): max 0.581 mean 0.296 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.133 | maxPair letras-embaralhadas-facil-roupas-059f ~ letras-embaralhadas-facil-frutas-ef82
+  word-scramble/normal (n=46): max 0.578 mean 0.295 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.134 | maxPair letras-embaralhadas-normal-partes-do-corpo-cba1 ~ letras-embaralhadas-normal-vegetais-045f
+  wordsearch/null (n=49): max 0.622 mean 0.301 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.141 | maxPair caca-palavras-moveis-879f ~ caca-palavras-animais-de-estimacao-96fe
+  wordsearch/null/t:en (n=47): max 0.541 mean 0.257 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.134 | maxPair ingles-caca-palavras-praia-d741 ~ ingles-caca-palavras-animais-do-zoologico-ecd1
+  wordsearch/null/t:es (n=46): max 0.541 mean 0.255 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.130 | maxPair espanhol-caca-palavras-utensilios-de-cozinha-693a ~ espanhol-caca-palavras-espaco-c64e
+
+=== cross-class + within: ALL 2977 landings, whole-page RAW ===
+  ALL-PAIRS: {"max":"0.735","mean":"0.025","pairs":4429776,"over80":0,"over65":188,"over85":0,"maxPair":"contagem-em-grafico-acessorios ~ contagem-em-grafico-vegetais"}
+
+=== full distribution: TOP-10 raw whole-page pairs (within+cross) ===
+  1. 0.735  contagem-em-grafico-acessorios ~ contagem-em-grafico-vegetais  (chart-count/null)
+  2. 0.734  contagem-em-grafico-roupas ~ contagem-em-grafico-vegetais  (chart-count/null)
+  3. 0.729  contagem-em-grafico-profissoes ~ contagem-em-grafico-vegetais  (chart-count/null)
+  4. 0.728  ingles-caca-palavras-primavera-6038 ~ espanhol-caca-palavras-atividades-b19e  (wordsearch/null/t:en vs wordsearch/null/t:es)
+  5. 0.727  ingles-caca-palavras-ferramentas-c0c4 ~ espanhol-caca-palavras-padaria-c0df  (wordsearch/null/t:en vs wordsearch/null/t:es)
+  6. 0.725  contagem-em-grafico-animais-da-fazenda ~ contagem-em-grafico-formas  (chart-count/null)
+  7. 0.724  ingles-caca-palavras-pascoa-904e ~ espanhol-caca-palavras-brinquedos-57dc  (wordsearch/null/t:en vs wordsearch/null/t:es)
+  8. 0.724  ingles-caca-palavras-passaros-0545 ~ espanhol-caca-palavras-vida-marinha-50b2  (wordsearch/null/t:en vs wordsearch/null/t:es)
+  9. 0.723  ingles-caca-palavras-moveis-0f1c ~ espanhol-caca-palavras-animais-do-zoologico-2573  (wordsearch/null/t:en vs wordsearch/null/t:es)
+  10. 0.723  contagem-em-grafico-passaros-2 ~ contagem-em-grafico-criaturas-da-floresta  (chart-count/null)
+
+=== cross-class template-collision probe (slot-normalized whole-page, DIFFERENT (type,mode) only) ===
+  max cross-class slot-normalized Jaccard: 0.800  [ingles-caca-palavras-moveis-0f1c ~ espanhol-caca-palavras-animais-do-zoologico-2573 (wordsearch/null/t:en vs wordsearch/null/t:es)]
+
+=== §4.E title + meta distinctness ===
+  [P] shared first-50-char title prefixes: 28 groups covering 762 of 2977 pages -> FAIL
+       123 pages share "atividades de subtração para o 1º ano sem reserva…"  e.g. subtracao-riscar-acessorios-8745, subtracao-riscar-animais, subtracao-riscar-pela-casa-0745
+        82 pages share "atividades de adição para o 1º ano sem reserva com…"  e.g. adicao-imagem-imagem-acessorios-43bd, adicao-imagem-imagem-animais, adicao-imagem-imagem-pela-casa-0bd6
+        69 pages share "quebra-cabeça matemático para o 1º ano com adições…"  e.g. quebra-cabeca-matematico-soma-acessorios-bc54, quebra-cabeca-matematico-soma-animais-86cd, quebra-cabeca-matematico-soma-pela-casa-b068
+        49 pages share "atividades de cálculo para o 1º ano com duas image…"  e.g. atividade-de-matematica-2-simbolos-soma-sub-acessorios-5fdc, atividade-de-matematica-2-simbolos-soma-sub-atividades-055e, atividade-de-matematica-2-simbolos-soma-sub-animais-2be1
+        47 pages share "complete a palavra para o 1º ano com palavras fáce…"  e.g. adivinhe-a-palavra-facil-acessorios-280e, adivinhe-a-palavra-facil-atividades-6476, adivinhe-a-palavra-facil-animais-aaf6
+      WARN 271 pages have no title (route falls back to h1)
+      WARN 271 pages have no metaDescription (route falls back to first sentence of p1 — which is UNIQUE, so this is healthier than a templated one)
+      WARN 1348 metaDescriptions outside the 120-170 band expected by the §21.2 preband step
+  addition/find-addend (n=41): TITLE mean 0.600 max 0.706 #FAIL=0 | META mean 0.740 max 0.815 #FAIL=1
+  addition/image-image (n=41): TITLE mean 0.577 max 0.688 #FAIL=0 | META mean 0.731 max 0.808 #FAIL=1
+  addition/image-number (n=41): TITLE mean 0.620 max 0.722 #FAIL=0 | META mean 0.672 max 0.821 #FAIL=1
+  addition/mixed (n=40): TITLE mean 0.524 max 0.643 #FAIL=0 | META mean 0.711 max 0.792 #FAIL=0
+  alphabet-train/letter-hint (n=32): TITLE mean 0.418 max 0.500 #FAIL=0 | META mean 0.820 max 0.846 #FAIL=454
+  chart-count/null (n=39): TITLE mean 0.452 max 0.583 #FAIL=0 | META mean 0.699 max 0.783 #FAIL=0
+  code-addition/secret-word (n=48): TITLE mean 0.502 max 0.625 #FAIL=0 | META mean 0.685 max 0.769 #FAIL=0
+  crossword/null (n=46): TITLE mean 0.409 max 0.500 #FAIL=0 | META mean 0.673 max 0.727 #FAIL=0
+  matching/name (n=47): TITLE mean 0.454 max 0.583 #FAIL=0 | META mean 0.674 max 0.762 #FAIL=0
+  math-puzzle/addition (n=41): TITLE mean 0.522 max 0.643 #FAIL=0 | META mean 0.720 max 0.800 #FAIL=1
+  math-puzzle/mixed (n=41): TITLE mean 0.473 max 0.688 #FAIL=0 | META mean 0.578 max 0.815 #FAIL=1
+  math-puzzle/subtraction (n=41): TITLE mean 0.398 max 0.643 #FAIL=0 | META mean 0.633 max 0.800 #FAIL=1
+  math-worksheet/three-symbols-add-sub (n=49): TITLE mean 0.482 max 0.667 #FAIL=0 | META mean 0.670 max 0.800 #FAIL=1
+  math-worksheet/two-symbols-add-sub (n=49): TITLE mean 0.556 max 0.667 #FAIL=0 | META mean 0.725 max 0.800 #FAIL=1
+  missing-pieces/two-missing (n=47): TITLE mean 0.492 max 0.615 #FAIL=0 | META mean 0.659 max 0.750 #FAIL=0
+  more-less/check-cross (n=41): TITLE mean 0.451 max 0.583 #FAIL=0 | META mean 0.671 max 0.762 #FAIL=0
+  more-less/image-image (n=40): TITLE mean 0.409 max 0.545 #FAIL=0 | META mean 0.658 max 0.750 #FAIL=0
+  more-less/image-number (n=41): TITLE mean 0.407 max 0.545 #FAIL=0 | META mean 0.656 max 0.750 #FAIL=0
+  odd-one-out/cross-theme (n=4): TITLE mean 0.455 max 0.455 #FAIL=0 | META mean 0.684 max 0.684 #FAIL=0
+  prepositions/fillin (n=49): TITLE mean 0.456 max 0.583 #FAIL=0 | META mean 0.660 max 0.750 #FAIL=0
+  subtraction/cross-out (n=41): TITLE mean 0.577 max 0.688 #FAIL=0 | META mean 0.720 max 0.800 #FAIL=1
+  subtraction/find-subtrahend (n=39): TITLE mean 0.604 max 0.706 #FAIL=0 | META mean 0.734 max 0.808 #FAIL=1
+  subtraction/image-number (n=41): TITLE mean 0.620 max 0.722 #FAIL=0 | META mean 0.672 max 0.815 #FAIL=1
+  subtraction/mixed (n=41): TITLE mean 0.522 max 0.643 #FAIL=0 | META mean 0.698 max 0.783 #FAIL=0
+  treasure-hunt/cardinal-arrows (n=45): TITLE mean 0.412 max 0.500 #FAIL=0 | META mean 0.661 max 0.714 #FAIL=0
+  treasure-hunt/compass (n=43): TITLE mean 0.412 max 0.455 #FAIL=0 | META mean 0.660 max 0.700 #FAIL=0
+  word-guess/easy (n=47): TITLE mean 0.554 max 0.667 #FAIL=0 | META mean 0.712 max 0.792 #FAIL=0
+  word-guess/normal (n=45): TITLE mean 0.452 max 0.583 #FAIL=0 | META mean 0.672 max 0.762 #FAIL=0
+  word-scramble/easy (n=45): TITLE mean 0.552 max 0.667 #FAIL=0 | META mean 0.732 max 0.808 #FAIL=1
+  word-scramble/normal (n=46): TITLE mean 0.453 max 0.583 #FAIL=0 | META mean 0.700 max 0.783 #FAIL=0
+  wordsearch/null (n=49): TITLE mean 0.412 max 0.545 #FAIL=0 | META mean 0.675 max 0.762 #FAIL=0
+  [T] worst within-class TITLE max: 0.722  [adicao-imagem-numero-passaros-33a7 ~ adicao-imagem-numero-passaros-2-3ff7]  -> PASS
+  [M] worst within-class META  max: 0.846  [trem-do-alfabeto-dica-de-letra-animais-1868 ~ trem-do-alfabeto-dica-de-letra-animais-do-zoologico-7290]  -> FAIL
+
+=== VERDICT vs LOCKED thresholds (2026-06-06 calibration) ===
+  [1] cannibalization = WHOLE-PAGE RAW: FAIL>=0.80 / WARN 0.65-0.80 / PASS<0.65 (within+cross)
+      worst within-class max: 0.735  [contagem-em-grafico-acessorios ~ contagem-em-grafico-vegetais]  -> PASS
+      all-pairs max:          0.735 #FAIL(>=0.80)=0 #WARN(>=0.65)=188  -> PASS
+  [2] cluster-density (whole-page-raw mean) alarm>0.75 (per cluster): OK
+  [3] cross-class slot-norm template-collision FAIL>=0.90: max=0.800  -> PASS
+  [4] P1-raw cluster-mean WARN>0.70 (per cluster): ok
+  [5] title/meta distinctness (§4.E): shared-50-char-prefix groups=28, worst TITLE 0.722, worst META 0.846  -> FAIL
+      (per-paragraph 0.85 FAIL + within-class slot-norm = RETIRED per ruling — they misfire on the intended template/variant design)

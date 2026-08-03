@@ -1,0 +1,3007 @@
+{
+  "opts": {
+    "baseUrl": "https://www.lessoncraftstudio.com",
+    "locales": [
+      "fr"
+    ],
+    "axes": [
+      "exercise-type",
+      "theme",
+      "educational-level"
+    ],
+    "outDir": "C:\\Users\\rkgen\\lessoncraftstudio\\docs\\audit-results",
+    "concurrency": 10,
+    "sample": null,
+    "includeIntersections": false,
+    "timeoutMs": 15000
+  },
+  "byLocale": {
+    "fr": {
+      "locale": "fr",
+      "total": 134,
+      "pass": 34,
+      "fail": 100,
+      "byAxis": {
+        "exercise-type": {
+          "total": 29,
+          "pass": 29
+        },
+        "theme": {
+          "total": 100,
+          "pass": 1
+        },
+        "educational-level": {
+          "total": 5,
+          "pass": 4
+        }
+      },
+      "defectCounts": {
+        "PAGE_HTTP_404": 100
+      },
+      "fallbackCount": 0,
+      "tooShortCount": 0,
+      "tooLongCount": 0,
+      "nonUniqueCount": 0,
+      "missingCount": 0,
+      "sampleFailures": [
+        {
+          "url": "https://www.lessoncraftstudio.com/fr/topic/4-juillet/",
+          "axisKey": "4th_of_july",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/fr/topic/accessoires/",
+          "axisKey": "accessories",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/fr/topic/activites/",
+          "axisKey": "activities",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/fr/topic/autour-de-la-maison/",
+          "axisKey": "around_the_house",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/fr/topic/au-supermarche/",
+          "axisKey": "at_the_supermarket",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        }
+      ]
+    }
+  },
+  "perPage": [
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/addition/",
+      "locale": "fr",
+      "axis": "exercise-type",
+      "axisKey": "addition",
+      "slug": "addition",
+      "status": 200,
+      "descriptionLength": 136,
+      "descriptionPreview": "Addition worksheets for kindergarten and grade 1: visual counting and single-digit sums. Play interactively in browser or print the PDF.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 136
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "5cc0f1f4ead3b015326e633d77d21987c9862636"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/sudoku-illustre/",
+      "locale": "fr",
+      "axis": "exercise-type",
+      "axisKey": "sudoku",
+      "slug": "sudoku-illustre",
+      "status": 200,
+      "descriptionLength": 141,
+      "descriptionPreview": "Picture sudoku worksheets for K-3: 4x4 grids that use animal and object images instead of numbers. Logical deduction at an early-years level.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 141
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "ae428e7c1f3fe39d094cfcaa1e61d5c0ad0a53fc"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/cryptogramme/",
+      "locale": "fr",
+      "axis": "exercise-type",
+      "axisKey": "cryptogram",
+      "slug": "cryptogramme",
+      "status": 200,
+      "descriptionLength": 145,
+      "descriptionPreview": "Cryptogram puzzles for grade 1 through grade 3: crack the symbol-to-letter cipher to reveal each hidden word. Picture clues guide young decoders.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 145
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "8e15785f4134cc5d4a439800f8e202fae9c05221"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/parcours-illustre/",
+      "locale": "fr",
+      "axis": "exercise-type",
+      "axisKey": "picture-path",
+      "slug": "parcours-illustre",
+      "status": 200,
+      "descriptionLength": 148,
+      "descriptionPreview": "Picture path maze worksheets for K-3: drag through the grid using up, down, left, and right moves only to reach the goal. Spatial planning practice.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 148
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "a954707f9b12428417f36e185e75ec92b3ecdd2d"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/soustraction/",
+      "locale": "fr",
+      "axis": "exercise-type",
+      "axisKey": "subtraction",
+      "slug": "soustraction",
+      "status": 200,
+      "descriptionLength": 135,
+      "descriptionPreview": "Subtraction worksheets for kindergarten and grade 1: cross out the pictures to see take-away in action before the minus symbol appears.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 135
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b558d2077d796b4a77ec5f98271837ec32141cdf"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/addition-codee/",
+      "locale": "fr",
+      "axis": "exercise-type",
+      "axisKey": "code-addition",
+      "slug": "addition-codee",
+      "status": 200,
+      "descriptionLength": 139,
+      "descriptionPreview": "Code addition worksheets for grade 1 and grade 2: decode the letter cipher, then add the matched numbers. Reading and math in one activity.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 139
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "78f75c22e1daeadcc015f78d1e3d6b05a110e6d6"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/plus-ou-moins/",
+      "locale": "fr",
+      "axis": "exercise-type",
+      "axisKey": "more-less",
+      "slug": "plus-ou-moins",
+      "status": 200,
+      "descriptionLength": 145,
+      "descriptionPreview": "More or less worksheets for pre-K and kindergarten: compare two groups by counting pictures before the greater-than and less-than symbols arrive.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 145
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b7113ea239277819f11b7814afaae3aa22c5ee25"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/puzzle-mathematique/",
+      "locale": "fr",
+      "axis": "exercise-type",
+      "axisKey": "math-puzzle",
+      "slug": "puzzle-mathematique",
+      "status": 200,
+      "descriptionLength": 142,
+      "descriptionPreview": "Math puzzle worksheets for kindergarten and grade 1: drag the missing piece into each visual equation. A playful path into algebraic thinking.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 142
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "02dea87e8da1cc3d45c9f8cd2cf9c6810819f526"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/fiche-de-mathematiques/",
+      "locale": "fr",
+      "axis": "exercise-type",
+      "axisKey": "math-worksheet",
+      "slug": "fiche-de-mathematiques",
+      "status": 200,
+      "descriptionLength": 141,
+      "descriptionPreview": "Mixed-operation math worksheets for grade 1 and grade 2: addition, subtraction, and fill-in algebra on a single practice page. Print or play.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 141
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "8a3b7acc314813638c51b511bb0ac54e4fe35849"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/grand-petit/",
+      "locale": "fr",
+      "axis": "exercise-type",
+      "axisKey": "big-small",
+      "slug": "grand-petit",
+      "status": 200,
+      "descriptionLength": 131,
+      "descriptionPreview": "Biggest and smallest worksheets for ages 3-5: tap the larger or smaller item in each group. Picture-based, so no reading is needed.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 131
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "dad8cd23e4faf04960884b9a16c8d75f0abc4c1f"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/comptage-graphique/",
+      "locale": "fr",
+      "axis": "exercise-type",
+      "axisKey": "chart-count",
+      "slug": "comptage-graphique",
+      "status": 200,
+      "descriptionLength": 141,
+      "descriptionPreview": "Bar chart and tally worksheets for kindergarten through grade 2: count the pictures, fill in the chart columns. First steps in data literacy.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 141
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "2ec944ce56c422fce965fde32cc78245300e0a1e"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/train-de-modeles/",
+      "locale": "fr",
+      "axis": "exercise-type",
+      "axisKey": "pattern-train",
+      "slug": "train-de-modeles",
+      "status": 200,
+      "descriptionLength": 143,
+      "descriptionPreview": "Pattern train worksheets for preschool and pre-K: drag picture cards onto each wagon to finish the AB or ABC sequence. Pre-algebra in disguise.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 143
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "c6d02599acc1c4aaa2596cee45eaec28aafbb574"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/fiche-de-modeles/",
+      "locale": "fr",
+      "axis": "exercise-type",
+      "axisKey": "pattern-worksheet",
+      "slug": "fiche-de-modeles",
+      "status": 200,
+      "descriptionLength": 142,
+      "descriptionPreview": "Pattern worksheets for kindergarten and grade 1: fill the blank in ABAB and ABCABC picture sequences. Print for centers or play interactively.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 142
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "263c7058e0d3a6b18d8e387f24ecc4c489779d03"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/loto/",
+      "locale": "fr",
+      "axis": "exercise-type",
+      "axisKey": "bingo",
+      "slug": "loto",
+      "status": 200,
+      "descriptionLength": 146,
+      "descriptionPreview": "Classroom bingo cards for kindergarten and grade 1: picture, letter, and number variants for whole-class review. Print sets or call rounds online.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 146
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "e7ff130faa09cfd1a92aebd1342ddbbd52db05dc"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/appariement-en-grille/",
+      "locale": "fr",
+      "axis": "exercise-type",
+      "axisKey": "grid-match",
+      "slug": "appariement-en-grille",
+      "status": 200,
+      "descriptionLength": 145,
+      "descriptionPreview": "Grid match puzzles for kindergarten and grade 1: drag each picture piece into the correct grid cell to rebuild the full image. Spatial reasoning.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 145
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b2a7d5bb53e21fe6439058512d68848278dcd404"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/appariement/",
+      "locale": "fr",
+      "axis": "exercise-type",
+      "axisKey": "matching",
+      "slug": "appariement",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Matching worksheets for preschool and pre-K: tap the picture on the left, then tap its pair on the right to draw the connecting line.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "cd35fca092bcda8c42dfde27c9a22f47cb441084"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/trier-les-images/",
+      "locale": "fr",
+      "axis": "exercise-type",
+      "axisKey": "picture-sort",
+      "slug": "trier-les-images",
+      "status": 200,
+      "descriptionLength": 143,
+      "descriptionPreview": "Picture sort worksheets for kindergarten and grade 1: drag each image into the bin where it belongs. Classification by attribute, made visible.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 143
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d81ac5b764c861d7179eb1453eb7732f881edfc4"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/apparier-les-ombres/",
+      "locale": "fr",
+      "axis": "exercise-type",
+      "axisKey": "shadow-match",
+      "slug": "apparier-les-ombres",
+      "status": 200,
+      "descriptionLength": 139,
+      "descriptionPreview": "Shadow match worksheets for preschool and kindergarten: pair each colorful picture with its black silhouette. Trains visual discrimination.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 139
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "599cf6da1da9497ccc29b926437aafd1d16af687"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/train-de-l-alphabet/",
+      "locale": "fr",
+      "axis": "exercise-type",
+      "axisKey": "alphabet-train",
+      "slug": "train-de-l-alphabet",
+      "status": 200,
+      "descriptionLength": 142,
+      "descriptionPreview": "Alphabet train worksheets for preschool and pre-K: drag letter cards onto wagons to put A-Z in order. Available in 11 languages and printable.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 142
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "0e61eb21460b3441081713f5e6789ed37db29b74"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/prepositions/",
+      "locale": "fr",
+      "axis": "exercise-type",
+      "axisKey": "prepositions",
+      "slug": "prepositions",
+      "status": 200,
+      "descriptionLength": 150,
+      "descriptionPreview": "Prepositions worksheets for pre-K and kindergarten: choose the picture that shows in, on, under, behind, or next to. Spatial language in 11 languages.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 150
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d8d3151358e6ec63a7c7ada4b80df81198a5923e"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/devine-le-mot/",
+      "locale": "fr",
+      "axis": "exercise-type",
+      "axisKey": "word-guess",
+      "slug": "devine-le-mot",
+      "status": 200,
+      "descriptionLength": 151,
+      "descriptionPreview": "Word guess worksheets for kindergarten and grade 1: fill the hangman-style letter blanks using the picture clue. Letter-sound decoding for new readers.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 151
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "c15f54699120ce2543be7305fe512982cd226c56"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/lettres-melangees/",
+      "locale": "fr",
+      "axis": "exercise-type",
+      "axisKey": "word-scramble",
+      "slug": "lettres-melangees",
+      "status": 200,
+      "descriptionLength": 148,
+      "descriptionPreview": "Word scramble worksheets for kindergarten and grade 1: rearrange the letters to spell what the picture shows. Strengthens phonics and letter recall.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 148
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "9955df1db39f79ab216f72c5e735b31484bfabd1"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/mots-meles/",
+      "locale": "fr",
+      "axis": "exercise-type",
+      "axisKey": "wordsearch",
+      "slug": "mots-meles",
+      "status": 200,
+      "descriptionLength": 143,
+      "descriptionPreview": "Word search worksheets for K-3: drag across the letter grid to find each hidden word. Picture clues help emerging readers spot targets quickly.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 143
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d77810327902db0a84c2f3a0f63c7ff7c0c2e4f7"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/mots-croises/",
+      "locale": "fr",
+      "axis": "exercise-type",
+      "axisKey": "crossword",
+      "slug": "mots-croises",
+      "status": 200,
+      "descriptionLength": 139,
+      "descriptionPreview": "Picture crossword worksheets for K-3: image clues replace text prompts so emerging readers can spell across and down. Play online or print.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 139
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "e36d3a5112bcb93beb546093bede078d71b3ff57"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/trouve-et-compte/",
+      "locale": "fr",
+      "axis": "exercise-type",
+      "axisKey": "find-and-count",
+      "slug": "trouve-et-compte",
+      "status": 200,
+      "descriptionLength": 137,
+      "descriptionPreview": "Find-and-count worksheets for kindergarten and grade 1: spot every item in a busy scene, tap to mark, then record the total per category.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 137
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "047161b7174e9011b97b8bc01f9ae7de0b4767eb"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/trouve-les-objets/",
+      "locale": "fr",
+      "axis": "exercise-type",
+      "axisKey": "find-objects",
+      "slug": "trouve-les-objets",
+      "status": 200,
+      "descriptionLength": 130,
+      "descriptionPreview": "I-Spy and find-the-object scenes for ages 4-7: hunt for items hidden among busy details, training visual discrimination and focus.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 130
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "7b9047dfa94c60959fb7b6fc143483c563151967"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/chasse-au-tresor/",
+      "locale": "fr",
+      "axis": "exercise-type",
+      "axisKey": "treasure-hunt",
+      "slug": "chasse-au-tresor",
+      "status": 200,
+      "descriptionLength": 149,
+      "descriptionPreview": "Treasure hunt worksheets for grade 1 and grade 2: read direction clues like two east, one north to navigate from start to the hidden treasure square.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 149
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "26918ce1f8a0d9c931aa7b00d65b71280abc1e28"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/pieces-manquantes/",
+      "locale": "fr",
+      "axis": "exercise-type",
+      "axisKey": "missing-pieces",
+      "slug": "pieces-manquantes",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Missing pieces puzzles for preschool and kindergarten: drag each shape into the matching cutout. Part-whole reasoning for early childhood.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "dd285959bf4c1274ad46295ad03de8b521da6735"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/l-intrus/",
+      "locale": "fr",
+      "axis": "exercise-type",
+      "axisKey": "odd-one-out",
+      "slug": "l-intrus",
+      "status": 200,
+      "descriptionLength": 140,
+      "descriptionPreview": "Odd-one-out worksheets for kindergarten and grade 1: tap the picture that does not belong in each set. Practice classification by attribute.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 140
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "de3772804de488ffacef0a1132b5f247a0ae7017"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/4-juillet/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "4th_of_july",
+      "slug": "4-juillet",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/accessoires/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "accessories",
+      "slug": "accessoires",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/activites/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "activities",
+      "slug": "activites",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/animaux/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "animals",
+      "slug": "animaux",
+      "status": 200,
+      "descriptionLength": 146,
+      "descriptionPreview": "Animals worksheets supporting K-3 vocabulary growth, habitat classification, and living-things reasoning through richly illustrated activity sets.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 146
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "50aad555db4c24e6660f74daf3b3252035985632"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/autour-de-la-maison/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "around_the_house",
+      "slug": "autour-de-la-maison",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/au-supermarche/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "at_the_supermarket",
+      "slug": "au-supermarche",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/boulangerie/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "bakery",
+      "slug": "boulangerie",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/plage/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "beach",
+      "slug": "plage",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/oiseaux/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "birds",
+      "slug": "oiseaux",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/oiseaux-2/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "birds_2",
+      "slug": "oiseaux-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/parties-du-corps/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "body_parts",
+      "slug": "parties-du-corps",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/petit-dejeuner/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "breakfast",
+      "slug": "petit-dejeuner",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/camping/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "camping",
+      "slug": "camping",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/noel/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "christmas",
+      "slug": "noel",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/salle-de-classe/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "classroom",
+      "slug": "salle-de-classe",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/vetements/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "clothing",
+      "slug": "vetements",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/couleurs/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "colors",
+      "slug": "couleurs",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/desserts-et-sucreries/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "desserts_and_sweets",
+      "slug": "desserts-et-sucreries",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/dinosaures/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "dinosaurs",
+      "slug": "dinosaures",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/paques/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "easter",
+      "slug": "paques",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/emotions/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "emotions",
+      "slug": "emotions",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/animaux-de-la-ferme/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "farm_animals",
+      "slug": "animaux-de-la-ferme",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/fleurs/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "flowers",
+      "slug": "fleurs",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/creatures-de-la-foret/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "forest_creatures",
+      "slug": "creatures-de-la-foret",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/fruits/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "fruits",
+      "slug": "fruits",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/meubles/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "furniture",
+      "slug": "meubles",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/hopital/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "hospital",
+      "slug": "hopital",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/insectes-et-bestioles/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "insects_and_bugs",
+      "slug": "insectes-et-bestioles",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/ustensiles-de-cuisine/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "kitchen_tools",
+      "slug": "ustensiles-de-cuisine",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/divers/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "miscellaneous",
+      "slug": "divers",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/musique/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "music",
+      "slug": "musique",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/metiers/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "occupations",
+      "slug": "metiers",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/vie-oceanique/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "ocean_life",
+      "slug": "vie-oceanique",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/animaux-de-compagnie/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "pets",
+      "slug": "animaux-de-compagnie",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/bureau-de-poste/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "post_office",
+      "slug": "bureau-de-poste",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/reptiles-et-amphibiens/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "reptiles_and_amphibians",
+      "slug": "reptiles-et-amphibiens",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/formes/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "shapes",
+      "slug": "formes",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/espace/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "space",
+      "slug": "espace",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/printemps/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "spring",
+      "slug": "printemps",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/ete/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "summer",
+      "slug": "ete",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/action-de-grace/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "thanksgivinng",
+      "slug": "action-de-grace",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/choses-qui-volent/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "things_that_fly",
+      "slug": "choses-qui-volent",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/outils/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "tools",
+      "slug": "outils",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/jouets/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "toys",
+      "slug": "jouets",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/arbres/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "tree",
+      "slug": "arbres",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/legumes/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "vegetables",
+      "slug": "legumes",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/vehicules/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "vehicles",
+      "slug": "vehicules",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/meteo/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "weather",
+      "slug": "meteo",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/hiver/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "winter",
+      "slug": "hiver",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/animaux-du-zoo/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "zoo_animals",
+      "slug": "animaux-du-zoo",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/animaux-nb/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "animals_bw",
+      "slug": "animaux-nb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/animaux-nb-2/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "animals_bw_2",
+      "slug": "animaux-nb-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/animaux-nb-3/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "animals_bw_3",
+      "slug": "animaux-nb-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/animaux-nb-4/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "animals_bw_4",
+      "slug": "animaux-nb-4",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/animaux-nb-5/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "animals_bw_5",
+      "slug": "animaux-nb-5",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/vetements-nb/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "apparel_bw",
+      "slug": "vetements-nb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/plage-nb/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "beach_bw",
+      "slug": "plage-nb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/plage-nb-2/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "beach_bw_2",
+      "slug": "plage-nb-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/oiseaux-n-b/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "birds_bw",
+      "slug": "oiseaux-n-b",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/oiseaux-n-b-2/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "birds_bw_2",
+      "slug": "oiseaux-n-b-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/noel-n-b/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "christmas_bw",
+      "slug": "noel-n-b",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/noel-n-b-2/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "christmas_bw_2",
+      "slug": "noel-n-b-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/salle-de-classe-n-b/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "classroom_bw",
+      "slug": "salle-de-classe-n-b",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/salle-de-classe-2-n-b/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "classroom_bw_2",
+      "slug": "salle-de-classe-2-n-b",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/dessert-n-b/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "dessert_bw",
+      "slug": "dessert-n-b",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/paques-nb/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "easter_bw",
+      "slug": "paques-nb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/paques-nb-2/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "easter_bw_2",
+      "slug": "paques-nb-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/education-nb/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "education_bw",
+      "slug": "education-nb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/visages-nb/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "faces_bw",
+      "slug": "visages-nb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/animaux-de-la-ferme-nb/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "farm_animals_bw",
+      "slug": "animaux-de-la-ferme-nb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/ferme-nb/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "farm_bw",
+      "slug": "ferme-nb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/nourriture-nb/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "food_bw",
+      "slug": "nourriture-nb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/nourriture-nb-2/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "food_bw_2",
+      "slug": "nourriture-nb-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/nourriture-nb-3/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "food_bw_3",
+      "slug": "nourriture-nb-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/fruits-nb/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "fruits_bw",
+      "slug": "fruits-nb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/meubles-nb/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "furniture_bw",
+      "slug": "meubles-nb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/maison-et-nature-nb/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "home_and_nature_bw",
+      "slug": "maison-et-nature-nb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/maison-nb/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "home_bw",
+      "slug": "maison-nb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/maison-nb-2/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "home_bw_2",
+      "slug": "maison-nb-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/menage-nb/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "household_bw",
+      "slug": "menage-nb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/cuisine-nb/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "kitchen_bw",
+      "slug": "cuisine-nb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/nature-nb/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "nature_bw",
+      "slug": "nature-nb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/objets-nb/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "objects_bw",
+      "slug": "objets-nb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/vie-marine-nb/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "sea_life_bw",
+      "slug": "vie-marine-nb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/vie-marine-nb-2/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "sea_life_bw_2",
+      "slug": "vie-marine-nb-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/espace-nb/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "space_bw",
+      "slug": "espace-nb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/sports-nb/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "sports_bw",
+      "slug": "sports-nb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/sports-nb-2/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "sports_bw_2",
+      "slug": "sports-nb-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/outils-nb/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "tools_bw",
+      "slug": "outils-nb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/jouets-nb/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "toys_bw",
+      "slug": "jouets-nb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/jouets-nb-2/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "toys_bw_2",
+      "slug": "jouets-nb-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/voyages-et-vacances-nb/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "travel_and_holiday_bw",
+      "slug": "voyages-et-vacances-nb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/saint-valentin-nb/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "valentine_bw",
+      "slug": "saint-valentin-nb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/saint-valentin-nb-2/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "valentine_bw_2",
+      "slug": "saint-valentin-nb-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/legumes-nb/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "vegetables_bw",
+      "slug": "legumes-nb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/legumes-nb-2/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "vegetables_bw_2",
+      "slug": "legumes-nb-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/vehicules-nb/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "vehicles_bw",
+      "slug": "vehicules-nb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/vehicules-nb-2/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "vehicles_bw_2",
+      "slug": "vehicules-nb-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/vehicules-nb-3/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "vehicles_bw_3",
+      "slug": "vehicules-nb-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/animaux-du-zoo-nb/",
+      "locale": "fr",
+      "axis": "theme",
+      "axisKey": "zoo_animals_bw",
+      "slug": "animaux-du-zoo-nb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/ecole-maternelle-petite-moyenne-section-3-5-ans/",
+      "locale": "fr",
+      "axis": "educational-level",
+      "axisKey": "preschool",
+      "slug": "ecole-maternelle-petite-moyenne-section-3-5-ans",
+      "status": 200,
+      "descriptionLength": 150,
+      "descriptionPreview": "Preschool worksheets for ages 3-5: vocabulary picture matching, color and shape recognition, simple sorting. Free for Pre-K, child care, and TK rooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 150
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "5eb7c2589d9af747016e764d7c1cc762ccc1a9f7"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/ecole-maternelle-grande-section-5-7-ans/",
+      "locale": "fr",
+      "axis": "educational-level",
+      "axisKey": "kindergarten",
+      "slug": "ecole-maternelle-grande-section-5-7-ans",
+      "status": 200,
+      "descriptionLength": 151,
+      "descriptionPreview": "Kindergarten worksheets for letter-sound matching, counting to 20, sight words, and single-digit addition. Great for morning work and literacy centers.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 151
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "99e46234e2ecbbc57eb462642bf5ed52c8493ece"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/cp-cours-preparatoire/",
+      "locale": "fr",
+      "axis": "educational-level",
+      "axisKey": "grade-1",
+      "slug": "cp-cours-preparatoire",
+      "status": 200,
+      "descriptionLength": 149,
+      "descriptionPreview": "Grade 1 worksheets for CVC decoding, place value, addition within 20, and picture-clue reading. CCSS-aligned activities playable online or printable.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 149
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "36b9664e3abcc95157c1928d48de0fc027d7049a"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/ce1-cours-elementaire-1/",
+      "locale": "fr",
+      "axis": "educational-level",
+      "axisKey": "grade-2",
+      "slug": "ce1-cours-elementaire-1",
+      "status": 200,
+      "descriptionLength": 156,
+      "descriptionPreview": "Grade 2 worksheets covering regrouping math, multi-syllable reading, bar charts, and skip counting. Resources for classroom teachers and homeschool parents.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 156
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=fr)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "c512093ce8de27777a1ac102df03bd9cdd242d47"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/fr/topic/ce2-cours-elementaire-2/",
+      "locale": "fr",
+      "axis": "educational-level",
+      "axisKey": "grade-3",
+      "slug": "ce2-cours-elementaire-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    }
+  ]
+}

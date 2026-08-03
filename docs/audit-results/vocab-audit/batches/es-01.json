@@ -1,0 +1,4812 @@
+{
+ "locale": "es",
+ "batch": "01",
+ "of": 7,
+ "genderLegend": "m=masculino (el) · f=femenino (la)",
+ "count": 210,
+ "range": [
+  "accordion",
+  "cauliflower"
+ ],
+ "rows": [
+  {
+   "key": "accordion",
+   "themes": [
+    "music"
+   ],
+   "en": [
+    "Accordion",
+    "Accordions"
+   ],
+   "cur": {
+    "s": "Acordeón",
+    "p": "Acordeones",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "acorn",
+   "themes": [
+    "miscellaneous",
+    "thanksgivinng"
+   ],
+   "en": [
+    "Acorn",
+    "Acorns"
+   ],
+   "cur": {
+    "s": "Bellota",
+    "p": "Bellotas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "actor",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Actor",
+    "Actors"
+   ],
+   "cur": {
+    "s": "Actor",
+    "p": "Actores",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "air-conditioning",
+   "themes": [
+    "home"
+   ],
+   "en": [
+    "Air Conditioning",
+    "Air Conditioning"
+   ],
+   "cur": {
+    "s": "Aire acondicionado",
+    "p": "Aire acondicionado",
+    "g": "m"
+   },
+   "type": "noun-concept",
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "airplane",
+   "themes": [
+    "things_that_fly",
+    "toys",
+    "travel_and_holiday",
+    "vehicles"
+   ],
+   "en": [
+    "Airplane",
+    "Airplanes"
+   ],
+   "cur": {
+    "s": "Avión",
+    "p": "Aviones",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "alarm-clock",
+   "themes": [
+    "around_the_house",
+    "home",
+    "household"
+   ],
+   "en": [
+    "Alarm Clock",
+    "Alarm Clocks"
+   ],
+   "cur": {
+    "s": "Despertador",
+    "p": "Despertadores",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "alligator",
+   "themes": [
+    "animals",
+    "faces",
+    "reptiles_and_amphibians",
+    "zoo_animals"
+   ],
+   "en": [
+    "Alligator",
+    "Alligators"
+   ],
+   "cur": {
+    "s": "Caimán",
+    "p": "Caimanes",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "allosaurus",
+   "themes": [
+    "dinosaurs"
+   ],
+   "en": [
+    "Allosaurus",
+    "Allosauruses"
+   ],
+   "cur": {
+    "s": "Alosaurio",
+    "p": "Alosaurios",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "alpaca",
+   "themes": [
+    "farm_animals"
+   ],
+   "en": [
+    "Alpaca",
+    "Alpacas"
+   ],
+   "cur": {
+    "s": "Alpaca",
+    "p": "Alpacas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "ambulance",
+   "themes": [
+    "hospital",
+    "vehicles"
+   ],
+   "en": [
+    "Ambulance",
+    "Ambulances"
+   ],
+   "cur": {
+    "s": "Ambulancia",
+    "p": "Ambulancias",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "analog-clock",
+   "themes": [
+    "classroom"
+   ],
+   "en": [
+    "Analog Clock",
+    "Analog Clocks"
+   ],
+   "cur": {
+    "s": "Reloj analógico",
+    "p": "Relojes analógicos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "anchor",
+   "themes": [
+    "beach"
+   ],
+   "en": [
+    "Anchor",
+    "Anchors"
+   ],
+   "cur": {
+    "s": "Ancla",
+    "p": "Anclas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "angel",
+   "themes": [
+    "christmas",
+    "easter",
+    "valentine"
+   ],
+   "en": [
+    "Angel",
+    "Angels"
+   ],
+   "cur": {
+    "s": "Ángel",
+    "p": "Ángeles",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "angelfish",
+   "themes": [
+    "ocean_life"
+   ],
+   "en": [
+    "Angelfish",
+    "Angelfish"
+   ],
+   "cur": {
+    "s": "Pez ángel",
+    "p": "Peces ángeles",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "angry",
+   "themes": [
+    "emotions"
+   ],
+   "en": [
+    "Angry",
+    "Angry"
+   ],
+   "cur": {
+    "s": "Enojado",
+    "p": "Enojado",
+    "g": null
+   },
+   "type": "adjective",
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "ankle",
+   "themes": [
+    "body_parts"
+   ],
+   "en": [
+    "Ankle",
+    "Ankles"
+   ],
+   "cur": {
+    "s": "Tobillo",
+    "p": "Tobillos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "ankylosaurus",
+   "themes": [
+    "dinosaurs"
+   ],
+   "en": [
+    "Ankylosaurus",
+    "Ankylosauruses"
+   ],
+   "cur": {
+    "s": "Anquilosaurio",
+    "p": "Anquilosaurios",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "ant",
+   "themes": [
+    "forest_creatures",
+    "insects_and_bugs"
+   ],
+   "en": [
+    "Ant",
+    "Ants"
+   ],
+   "cur": {
+    "s": "Hormiga",
+    "p": "Hormigas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "antelope",
+   "themes": [
+    "animals",
+    "farm_animals",
+    "zoo_animals"
+   ],
+   "en": [
+    "Antelope",
+    "Antelopes"
+   ],
+   "cur": {
+    "s": "Antílope",
+    "p": "Antílopes",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "apatosaurus",
+   "themes": [
+    "dinosaurs"
+   ],
+   "en": [
+    "Apatosaurus",
+    "Apatosauruses"
+   ],
+   "cur": {
+    "s": "Apatosaurio",
+    "p": "Apatosaurios",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "apple",
+   "themes": [
+    "at_the_supermarket",
+    "breakfast",
+    "fruits",
+    "thanksgivinng"
+   ],
+   "en": [
+    "Apple",
+    "Apples"
+   ],
+   "cur": {
+    "s": "Manzana",
+    "p": "Manzanas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "apple-pie",
+   "themes": [
+    "desserts_and_sweets"
+   ],
+   "en": [
+    "Apple Pie",
+    "Apple Pies"
+   ],
+   "cur": {
+    "s": "Pay de manzana",
+    "p": "Payes de manzana",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "apple-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Apple Tree",
+    "Apple Trees"
+   ],
+   "cur": {
+    "s": "Manzano",
+    "p": "Manzanos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "apricot",
+   "themes": [
+    "fruits"
+   ],
+   "en": [
+    "Apricot",
+    "Apricots"
+   ],
+   "cur": {
+    "s": "Chabacano",
+    "p": "Chabacanos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "apron",
+   "themes": [
+    "accessories",
+    "clothing",
+    "kitchen_tools"
+   ],
+   "en": [
+    "Apron",
+    "Aprons"
+   ],
+   "cur": {
+    "s": "Delantal",
+    "p": "Delantales",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "architect",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Architect",
+    "Architects"
+   ],
+   "cur": {
+    "s": "Arquitecto",
+    "p": "Arquitectos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "argentinosaurus",
+   "themes": [
+    "dinosaurs"
+   ],
+   "en": [
+    "Argentinosaurus",
+    "Argentinosauruses"
+   ],
+   "cur": {
+    "s": "Argentinosaurio",
+    "p": "Argentinosaurios",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "arm",
+   "themes": [
+    "body_parts"
+   ],
+   "en": [
+    "Arm",
+    "Arms"
+   ],
+   "cur": {
+    "s": "Brazo",
+    "p": "Brazos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "armadillo",
+   "themes": [
+    "zoo_animals"
+   ],
+   "en": [
+    "Armadillo",
+    "Armadillos"
+   ],
+   "cur": {
+    "s": "Armadillo",
+    "p": "Armadillos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "armchair",
+   "themes": [
+    "around_the_house",
+    "furniture",
+    "home"
+   ],
+   "en": [
+    "Armchair",
+    "Armchairs"
+   ],
+   "cur": {
+    "s": "Sillón",
+    "p": "Sillones",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "artist",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Artist",
+    "Artists"
+   ],
+   "cur": {
+    "s": "Artista",
+    "p": "Artistas",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "ash-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Ash Tree",
+    "Ash Trees"
+   ],
+   "cur": {
+    "s": "Fresno",
+    "p": "Fresnos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "asparagus",
+   "themes": [
+    "vegetables"
+   ],
+   "en": [
+    "Asparagus",
+    "Asparagus"
+   ],
+   "cur": {
+    "s": "Espárrago",
+    "p": "Espárragos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "aspen-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Aspen Tree",
+    "Aspen Trees"
+   ],
+   "cur": {
+    "s": "Álamo temblón",
+    "p": "Álamos temblones",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "aster",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Aster",
+    "Asters"
+   ],
+   "cur": {
+    "s": "Áster",
+    "p": "Ásteres",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "asteroid",
+   "themes": [
+    "space"
+   ],
+   "en": [
+    "Asteroid",
+    "Asteroids"
+   ],
+   "cur": {
+    "s": "Asteroide",
+    "p": "Asteroides",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "astronaut",
+   "themes": [
+    "occupations",
+    "space"
+   ],
+   "en": [
+    "Astronaut",
+    "Astronauts"
+   ],
+   "cur": {
+    "s": "Astronauta",
+    "p": "Astronautas",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "athlete",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Athlete",
+    "Athletes"
+   ],
+   "cur": {
+    "s": "Atleta",
+    "p": "Atletas",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "author",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Author",
+    "Authors"
+   ],
+   "cur": {
+    "s": "Autor",
+    "p": "Autores",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "autumn",
+   "themes": [
+    "miscellaneous",
+    "thanksgivinng"
+   ],
+   "en": [
+    "Autumn",
+    "Autumn"
+   ],
+   "cur": {
+    "s": "Otoño",
+    "p": "Otoño",
+    "g": "m"
+   },
+   "type": "noun-concept",
+   "countable": false,
+   "classification": {
+    "category": "abstract",
+    "hasGender": true,
+    "hasPlural": false
+   },
+   "ART_DEFECT": true
+  },
+  {
+   "key": "avocado",
+   "themes": [
+    "fruits"
+   ],
+   "en": [
+    "Avocado",
+    "Avocados"
+   ],
+   "cur": {
+    "s": "Aguacate",
+    "p": "Aguacates",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "axe",
+   "themes": [
+    "tools"
+   ],
+   "en": [
+    "Axe",
+    "Axes"
+   ],
+   "cur": {
+    "s": "Hacha",
+    "p": "Hachas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "azalea",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Azalea",
+    "Azaleas"
+   ],
+   "cur": {
+    "s": "Azalea",
+    "p": "Azaleas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "baby",
+   "themes": [
+    "toys"
+   ],
+   "en": [
+    "Baby",
+    "Babies"
+   ],
+   "cur": {
+    "s": "Bebé",
+    "p": "Bebés",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "baby's-onesie",
+   "themes": [],
+   "en": [
+    "Baby's Onesie",
+    "Baby's Onesies"
+   ],
+   "cur": {
+    "s": "Mameluco de bebé",
+    "p": "Mamelucos de bebé",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "baby-bottle",
+   "themes": [],
+   "en": [
+    "Baby Bottle",
+    "Baby Bottles"
+   ],
+   "cur": {
+    "s": "Biberón",
+    "p": "Biberones",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "baby-carriage",
+   "themes": [
+    "vehicles"
+   ],
+   "en": [
+    "Baby Carriage",
+    "Baby Carriages"
+   ],
+   "cur": {
+    "s": "Carriola",
+    "p": "Carriolas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "baby-girl",
+   "themes": [
+    "toys"
+   ],
+   "en": [
+    "Baby Girl",
+    "Baby Girls"
+   ],
+   "cur": {
+    "s": "Bebé niña",
+    "p": "Bebés niñas",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "baby-overall",
+   "themes": [
+    "apparel"
+   ],
+   "en": [
+    "Baby Overall",
+    "Baby Overalls"
+   ],
+   "cur": {
+    "s": "Overol de bebé",
+    "p": "Overoles de bebé",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "backpack",
+   "themes": [
+    "accessories",
+    "camping",
+    "classroom",
+    "education",
+    "travel_and_holiday"
+   ],
+   "en": [
+    "Backpack",
+    "Backpacks"
+   ],
+   "cur": {
+    "s": "Mochila",
+    "p": "Mochilas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bacon",
+   "themes": [
+    "at_the_supermarket",
+    "breakfast"
+   ],
+   "en": [
+    "Bacon",
+    "Bacon"
+   ],
+   "cur": {
+    "s": "Tocino",
+    "p": "Tocino",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": false,
+   "classification": {
+    "category": "mass",
+    "hasGender": true,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "badge",
+   "themes": [
+    "accessories"
+   ],
+   "en": [
+    "Badge",
+    "Badges"
+   ],
+   "cur": {
+    "s": "Insignia",
+    "p": "Insignias",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "badger",
+   "themes": [
+    "forest_creatures"
+   ],
+   "en": [
+    "Badger",
+    "Badgers"
+   ],
+   "cur": {
+    "s": "Tejón",
+    "p": "Tejones",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "badminton",
+   "themes": [
+    "sports"
+   ],
+   "en": [
+    "Badminton",
+    "Badminton"
+   ],
+   "cur": {
+    "s": "Bádminton",
+    "p": "Bádminton",
+    "g": "m"
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "ART_DEFECT": true
+  },
+  {
+   "key": "bag",
+   "themes": [
+    "at_the_supermarket",
+    "beach"
+   ],
+   "en": [
+    "Bag",
+    "Bags"
+   ],
+   "cur": {
+    "s": "Bolsa",
+    "p": "Bolsas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bagel",
+   "themes": [
+    "at_the_supermarket",
+    "bakery",
+    "breakfast"
+   ],
+   "en": [
+    "Bagel",
+    "Bagels"
+   ],
+   "cur": {
+    "s": "Bagel",
+    "p": "Bagels",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "baguette",
+   "themes": [
+    "bakery"
+   ],
+   "en": [
+    "Baguette",
+    "Baguettes"
+   ],
+   "cur": {
+    "s": "Baguette",
+    "p": "Baguettes",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "baker",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Baker",
+    "Bakers"
+   ],
+   "cur": {
+    "s": "Panadero",
+    "p": "Panaderos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "baking",
+   "themes": [
+    "activities"
+   ],
+   "en": [
+    "Baking",
+    "Baking"
+   ],
+   "cur": {
+    "s": "Hornear",
+    "p": "Hornear",
+    "g": null
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "classification": {
+    "category": "activity",
+    "hasGender": false,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "baking-sheet",
+   "themes": [
+    "kitchen_tools"
+   ],
+   "en": [
+    "Baking Sheet",
+    "Baking Sheets"
+   ],
+   "cur": {
+    "s": "Bandeja para hornear",
+    "p": "Bandejas para hornear",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "ball",
+   "themes": [
+    "toys"
+   ],
+   "en": [
+    "Ball",
+    "Balls"
+   ],
+   "cur": {
+    "s": "Pelota",
+    "p": "Pelotas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "ballerina",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Ballerina",
+    "Ballerinas"
+   ],
+   "cur": {
+    "s": "Bailarina",
+    "p": "Bailarinas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "balloon",
+   "themes": [
+    "4th_of_july",
+    "easter",
+    "things_that_fly",
+    "toys",
+    "valentine"
+   ],
+   "en": [
+    "Balloon",
+    "Balloons"
+   ],
+   "cur": {
+    "s": "Globo",
+    "p": "Globos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "banana",
+   "themes": [
+    "at_the_supermarket",
+    "breakfast",
+    "fruits"
+   ],
+   "en": [
+    "Banana",
+    "Bananas"
+   ],
+   "cur": {
+    "s": "Plátano",
+    "p": "Plátanos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "banana-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Banana Tree",
+    "Banana Trees"
+   ],
+   "cur": {
+    "s": "Plátano",
+    "p": "Plátanos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bandage",
+   "themes": [
+    "hospital"
+   ],
+   "en": [
+    "Bandage",
+    "Bandages"
+   ],
+   "cur": {
+    "s": "Vendaje",
+    "p": "Vendajes",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "banyan-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Banyan Tree",
+    "Banyan Trees"
+   ],
+   "cur": {
+    "s": "Higuera de Bengala",
+    "p": "Higueras de Bengala",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "baobab-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Baobab Tree",
+    "Baobab Trees"
+   ],
+   "cur": {
+    "s": "Baobab",
+    "p": "Baobabes",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "barbecue",
+   "themes": [
+    "summer"
+   ],
+   "en": [
+    "Barbecue",
+    "Barbecues"
+   ],
+   "cur": {
+    "s": "Parrilla",
+    "p": "Parrillas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "barber",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Barber",
+    "Barbers"
+   ],
+   "cur": {
+    "s": "Barbero",
+    "p": "Barberos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "barn",
+   "themes": [
+    "farm"
+   ],
+   "en": [
+    "Barn",
+    "Barns"
+   ],
+   "cur": {
+    "s": "Granero",
+    "p": "Graneros",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "barrette",
+   "themes": [
+    "accessories"
+   ],
+   "en": [
+    "Barrette",
+    "Barrettes"
+   ],
+   "cur": {
+    "s": "Pasador",
+    "p": "Pasadores",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "baseball",
+   "themes": [
+    "4th_of_july",
+    "activities",
+    "sports"
+   ],
+   "en": [
+    "Baseball",
+    "Baseball"
+   ],
+   "cur": {
+    "s": "Béisbol",
+    "p": "Béisbol",
+    "g": "m"
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "ART_DEFECT": true
+  },
+  {
+   "key": "basket",
+   "themes": [
+    "at_the_supermarket",
+    "easter"
+   ],
+   "en": [
+    "Basket",
+    "Baskets"
+   ],
+   "cur": {
+    "s": "Canasta",
+    "p": "Canastas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "basketball",
+   "themes": [
+    "activities",
+    "sports"
+   ],
+   "en": [
+    "Basketball",
+    "Basketball"
+   ],
+   "cur": {
+    "s": "Básquetbol",
+    "p": "Básquetbol",
+    "g": "m"
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bat",
+   "themes": [
+    "animals",
+    "forest_creatures",
+    "things_that_fly",
+    "zoo_animals"
+   ],
+   "en": [
+    "Bat",
+    "Bats"
+   ],
+   "cur": {
+    "s": "Murciélago",
+    "p": "Murciélagos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bathing-suit",
+   "themes": [
+    "beach"
+   ],
+   "en": [
+    "Bathing Suit",
+    "Bathing Suits"
+   ],
+   "cur": {
+    "s": "Traje de baño",
+    "p": "Trajes de baño",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bathtub",
+   "themes": [
+    "around_the_house",
+    "home",
+    "household"
+   ],
+   "en": [
+    "Bathtub",
+    "Bathtubs"
+   ],
+   "cur": {
+    "s": "Bañera",
+    "p": "Bañeras",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "beach",
+   "themes": [
+    "summer"
+   ],
+   "en": [
+    "Beach",
+    "Beaches"
+   ],
+   "cur": {
+    "s": "Playa",
+    "p": "Playas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "beach-bag",
+   "themes": [
+    "beach"
+   ],
+   "en": [
+    "Beach Bag",
+    "Beach Bags"
+   ],
+   "cur": {
+    "s": "Bolsa de playa",
+    "p": "Bolsas de playa",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "beach-ball",
+   "themes": [
+    "beach",
+    "sports",
+    "summer"
+   ],
+   "en": [
+    "Beach Ball",
+    "Beach Balls"
+   ],
+   "cur": {
+    "s": "Pelota de playa",
+    "p": "Pelotas de playa",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "beach-umbrella",
+   "themes": [
+    "beach"
+   ],
+   "en": [
+    "Beach Umbrella",
+    "Beach Umbrellas"
+   ],
+   "cur": {
+    "s": "Sombrilla de playa",
+    "p": "Sombrillas de playa",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "beanie",
+   "themes": [
+    "accessories",
+    "clothing"
+   ],
+   "en": [
+    "Beanie",
+    "Beanies"
+   ],
+   "cur": {
+    "s": "Gorro",
+    "p": "Gorros",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bear",
+   "themes": [
+    "animals",
+    "camping",
+    "faces",
+    "forest_creatures",
+    "zoo_animals"
+   ],
+   "en": [
+    "Bear",
+    "Bears"
+   ],
+   "cur": {
+    "s": "Oso",
+    "p": "Osos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "beaver",
+   "themes": [
+    "animals",
+    "forest_creatures"
+   ],
+   "en": [
+    "Beaver",
+    "Beavers"
+   ],
+   "cur": {
+    "s": "Castor",
+    "p": "Castores",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bed",
+   "themes": [
+    "around_the_house",
+    "furniture",
+    "home",
+    "hospital",
+    "household"
+   ],
+   "en": [
+    "Bed",
+    "Beds"
+   ],
+   "cur": {
+    "s": "Cama",
+    "p": "Camas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bee",
+   "themes": [
+    "animals",
+    "farm_animals",
+    "forest_creatures",
+    "insects_and_bugs",
+    "spring",
+    "things_that_fly"
+   ],
+   "en": [
+    "Bee",
+    "Bees"
+   ],
+   "cur": {
+    "s": "Abeja",
+    "p": "Abejas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "beech-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Beech Tree",
+    "Beech Trees"
+   ],
+   "cur": {
+    "s": "Haya",
+    "p": "Hayas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "beetle",
+   "themes": [
+    "things_that_fly"
+   ],
+   "en": [
+    "Beetle",
+    "Beetles"
+   ],
+   "cur": {
+    "s": "Escarabajo",
+    "p": "Escarabajos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "beetroot",
+   "themes": [
+    "vegetables"
+   ],
+   "en": [
+    "Beetroot",
+    "Beetroots"
+   ],
+   "cur": {
+    "s": "Betabel",
+    "p": "Betabeles",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "begonia",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Begonia",
+    "Begonias"
+   ],
+   "cur": {
+    "s": "Begonia",
+    "p": "Begonias",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "beige",
+   "themes": [
+    "colors"
+   ],
+   "en": [
+    "Beige",
+    "Beige"
+   ],
+   "cur": {
+    "s": "Beige",
+    "p": "Beige",
+    "g": null
+   },
+   "type": "adjective",
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "bell",
+   "themes": [
+    "christmas",
+    "classroom",
+    "easter"
+   ],
+   "en": [
+    "Bell",
+    "Bells"
+   ],
+   "cur": {
+    "s": "Campana",
+    "p": "Campanas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bell-pepper",
+   "themes": [
+    "vegetables"
+   ],
+   "en": [
+    "Bell Pepper",
+    "Bell Peppers"
+   ],
+   "cur": {
+    "s": "Pimiento",
+    "p": "Pimientos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "belt",
+   "themes": [
+    "accessories",
+    "clothing"
+   ],
+   "en": [
+    "Belt",
+    "Belts"
+   ],
+   "cur": {
+    "s": "Cinturón",
+    "p": "Cinturones",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bench",
+   "themes": [
+    "furniture"
+   ],
+   "en": [
+    "Bench",
+    "Benches"
+   ],
+   "cur": {
+    "s": "Banca",
+    "p": "Bancas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bible",
+   "themes": [
+    "easter"
+   ],
+   "en": [
+    "Bible",
+    "Bibles"
+   ],
+   "cur": {
+    "s": "Biblia",
+    "p": "Biblias",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bicycle",
+   "themes": [
+    "sports",
+    "spring",
+    "toys",
+    "vehicles"
+   ],
+   "en": [
+    "Bicycle",
+    "Bicycles"
+   ],
+   "cur": {
+    "s": "Bicicleta",
+    "p": "Bicicletas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "biking",
+   "themes": [
+    "activities"
+   ],
+   "en": [
+    "Biking",
+    "Biking"
+   ],
+   "cur": {
+    "s": "Ciclismo",
+    "p": "Ciclismo",
+    "g": null
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "classification": {
+    "category": "activity",
+    "hasGender": false,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "binder",
+   "themes": [
+    "classroom"
+   ],
+   "en": [
+    "Binder",
+    "Binders"
+   ],
+   "cur": {
+    "s": "Carpeta",
+    "p": "Carpetas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "binoculars",
+   "themes": [
+    "camping",
+    "objects",
+    "travel_and_holiday"
+   ],
+   "en": [
+    "Binoculars",
+    "Binoculars"
+   ],
+   "cur": {
+    "s": "Binoculares",
+    "p": "Binoculares",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "birch-tree",
+   "themes": [
+    "tree"
+   ],
+   "en": [
+    "Birch Tree",
+    "Birch Trees"
+   ],
+   "cur": {
+    "s": "Abedul",
+    "p": "Abedules",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bird",
+   "themes": [
+    "animals",
+    "birds",
+    "easter",
+    "nature",
+    "spring",
+    "things_that_fly"
+   ],
+   "en": [
+    "Bird",
+    "Birds"
+   ],
+   "cur": {
+    "s": "Pájaro",
+    "p": "Pájaros",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "birdhouse",
+   "themes": [
+    "spring"
+   ],
+   "en": [
+    "Birdhouse",
+    "Birdhouses"
+   ],
+   "cur": {
+    "s": "Casa para pájaros",
+    "p": "Casas para pájaros",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "biscuit",
+   "themes": [
+    "breakfast",
+    "dessert"
+   ],
+   "en": [
+    "Biscuit",
+    "Biscuits"
+   ],
+   "cur": {
+    "s": "Galleta",
+    "p": "Galletas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bison",
+   "themes": [
+    "animals",
+    "zoo_animals"
+   ],
+   "en": [
+    "Bison",
+    "Bison"
+   ],
+   "cur": {
+    "s": "Bisonte",
+    "p": "Bisontes",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "black",
+   "themes": [
+    "colors"
+   ],
+   "en": [
+    "Black",
+    "Black"
+   ],
+   "cur": {
+    "s": "Negro",
+    "p": "Negro",
+    "g": null
+   },
+   "type": "adjective",
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "blackberry",
+   "themes": [
+    "fruits"
+   ],
+   "en": [
+    "Blackberry",
+    "Blackberries"
+   ],
+   "cur": {
+    "s": "Zarzamora",
+    "p": "Zarzamoras",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "blanket",
+   "themes": [
+    "objects"
+   ],
+   "en": [
+    "Blanket",
+    "Blankets"
+   ],
+   "cur": {
+    "s": "Cobija",
+    "p": "Cobijas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "blender",
+   "themes": [
+    "around_the_house",
+    "home",
+    "household",
+    "kitchen",
+    "kitchen_tools"
+   ],
+   "en": [
+    "Blender",
+    "Blenders"
+   ],
+   "cur": {
+    "s": "Licuadora",
+    "p": "Licuadoras",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "blocks",
+   "themes": [
+    "toys"
+   ],
+   "en": [
+    "Blocks",
+    "Blocks"
+   ],
+   "cur": {
+    "s": "Bloques",
+    "p": "Bloques",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "blouse",
+   "themes": [
+    "clothing"
+   ],
+   "en": [
+    "Blouse",
+    "Blouses"
+   ],
+   "cur": {
+    "s": "Blusa",
+    "p": "Blusas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "blue",
+   "themes": [
+    "colors"
+   ],
+   "en": [
+    "Blue",
+    "Blue"
+   ],
+   "cur": {
+    "s": "Azul",
+    "p": "Azul",
+    "g": null
+   },
+   "type": "adjective",
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "blue-jay",
+   "themes": [
+    "birds_2",
+    "forest_creatures",
+    "things_that_fly"
+   ],
+   "en": [
+    "Blue Jay",
+    "Blue Jays"
+   ],
+   "cur": {
+    "s": "Arrendajo azul",
+    "p": "Arrendajos azules",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bluebell",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Bluebell",
+    "Bluebells"
+   ],
+   "cur": {
+    "s": "Campanilla",
+    "p": "Campanillas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "blueberry",
+   "themes": [
+    "at_the_supermarket",
+    "breakfast",
+    "fruits"
+   ],
+   "en": [
+    "Blueberry",
+    "Blueberries"
+   ],
+   "cur": {
+    "s": "Arándano",
+    "p": "Arándanos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "boat",
+   "themes": [
+    "beach",
+    "toys",
+    "vehicles"
+   ],
+   "en": [
+    "Boat",
+    "Boats"
+   ],
+   "cur": {
+    "s": "Bote",
+    "p": "Botes",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "boiled-egg",
+   "themes": [
+    "breakfast"
+   ],
+   "en": [
+    "Boiled Egg",
+    "Boiled Eggs"
+   ],
+   "cur": {
+    "s": "Huevo cocido",
+    "p": "Huevos cocidos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bolt",
+   "themes": [
+    "tools"
+   ],
+   "en": [
+    "Bolt",
+    "Bolts"
+   ],
+   "cur": {
+    "s": "Tornillo",
+    "p": "Tornillos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bone",
+   "themes": [
+    "objects"
+   ],
+   "en": [
+    "Bone",
+    "Bones"
+   ],
+   "cur": {
+    "s": "Hueso",
+    "p": "Huesos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bonfire",
+   "themes": [
+    "miscellaneous"
+   ],
+   "en": [
+    "Bonfire",
+    "Bonfires"
+   ],
+   "cur": {
+    "s": "Fogata",
+    "p": "Fogatas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "book",
+   "themes": [
+    "classroom",
+    "education"
+   ],
+   "en": [
+    "Book",
+    "Books"
+   ],
+   "cur": {
+    "s": "Libro",
+    "p": "Libros",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bookcase",
+   "themes": [
+    "furniture"
+   ],
+   "en": [
+    "Bookcase",
+    "Bookcases"
+   ],
+   "cur": {
+    "s": "Librero",
+    "p": "Libreros",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bookshelf",
+   "themes": [
+    "around_the_house",
+    "classroom",
+    "household"
+   ],
+   "en": [
+    "Bookshelf",
+    "Bookshelves"
+   ],
+   "cur": {
+    "s": "Estante",
+    "p": "Estantes",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "boombox",
+   "themes": [
+    "home_and_nature"
+   ],
+   "en": [
+    "Boombox",
+    "Boomboxes"
+   ],
+   "cur": {
+    "s": "Radiograbadora",
+    "p": "Radiograbadoras",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "boots",
+   "themes": [
+    "apparel",
+    "camping",
+    "clothing",
+    "winter"
+   ],
+   "en": [
+    "Boots",
+    "Boots"
+   ],
+   "cur": {
+    "s": "Botas",
+    "p": "Botas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "bored",
+   "themes": [
+    "emotions"
+   ],
+   "en": [
+    "Bored",
+    "Bored"
+   ],
+   "cur": {
+    "s": "Aburrido",
+    "p": "Aburrido",
+    "g": null
+   },
+   "type": "adjective",
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "bottle",
+   "themes": [
+    "household",
+    "kitchen",
+    "kitchen_tools",
+    "objects"
+   ],
+   "en": [
+    "Bottle",
+    "Bottles"
+   ],
+   "cur": {
+    "s": "Botella",
+    "p": "Botellas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bow",
+   "themes": [
+    "christmas"
+   ],
+   "en": [
+    "Bow",
+    "Bows"
+   ],
+   "cur": {
+    "s": "Moño",
+    "p": "Moños",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bow-tie",
+   "themes": [
+    "accessories",
+    "clothing"
+   ],
+   "en": [
+    "Bow Tie",
+    "Bow Ties"
+   ],
+   "cur": {
+    "s": "Corbata de moño",
+    "p": "Corbatas de moño",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bowl",
+   "themes": [
+    "around_the_house",
+    "furniture",
+    "home_and_nature",
+    "household",
+    "kitchen",
+    "kitchen_tools"
+   ],
+   "en": [
+    "Bowl",
+    "Bowls"
+   ],
+   "cur": {
+    "s": "Tazón",
+    "p": "Tazones",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bowling",
+   "themes": [
+    "sports"
+   ],
+   "en": [
+    "Bowling",
+    "Bowling"
+   ],
+   "cur": {
+    "s": "Boliche",
+    "p": "Boliche",
+    "g": "m"
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "ART_DEFECT": true
+  },
+  {
+   "key": "bowling-ball",
+   "themes": [
+    "sports"
+   ],
+   "en": [
+    "Bowling Ball",
+    "Bowling Balls"
+   ],
+   "cur": {
+    "s": "Bola de boliche",
+    "p": "Bolas de boliche",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bowling-pin",
+   "themes": [
+    "sports"
+   ],
+   "en": [
+    "Bowling Pin",
+    "Bowling Pins"
+   ],
+   "cur": {
+    "s": "Pino de boliche",
+    "p": "Pinos de boliche",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "box",
+   "themes": [
+    "education"
+   ],
+   "en": [
+    "Box",
+    "Boxes"
+   ],
+   "cur": {
+    "s": "Caja",
+    "p": "Cajas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "boxing",
+   "themes": [
+    "sports"
+   ],
+   "en": [
+    "Boxing",
+    "Boxing"
+   ],
+   "cur": {
+    "s": "Boxeo",
+    "p": "Boxeo",
+    "g": "m"
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "ART_DEFECT": true
+  },
+  {
+   "key": "boxing-glove",
+   "themes": [
+    "sports"
+   ],
+   "en": [
+    "Boxing Glove",
+    "Boxing Gloves"
+   ],
+   "cur": {
+    "s": "Guante de boxeo",
+    "p": "Guantes de boxeo",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "boy",
+   "themes": [
+    "faces"
+   ],
+   "en": [
+    "Boy",
+    "Boys"
+   ],
+   "cur": {
+    "s": "Niño",
+    "p": "Niños",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bracelet",
+   "themes": [
+    "accessories",
+    "hospital"
+   ],
+   "en": [
+    "Bracelet",
+    "Bracelets"
+   ],
+   "cur": {
+    "s": "Pulsera",
+    "p": "Pulseras",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "brachiosaurus",
+   "themes": [
+    "dinosaurs"
+   ],
+   "en": [
+    "Brachiosaurus",
+    "Brachiosauruses"
+   ],
+   "cur": {
+    "s": "Braquiosaurio",
+    "p": "Braquiosaurios",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "brain",
+   "themes": [
+    "body_parts"
+   ],
+   "en": [
+    "Brain",
+    "Brains"
+   ],
+   "cur": {
+    "s": "Cerebro",
+    "p": "Cerebros",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "branch",
+   "themes": [
+    "easter"
+   ],
+   "en": [
+    "Branch",
+    "Branches"
+   ],
+   "cur": {
+    "s": "Rama",
+    "p": "Ramas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bread",
+   "themes": [
+    "at_the_supermarket",
+    "easter",
+    "food",
+    "thanksgivinng"
+   ],
+   "en": [
+    "Bread",
+    "Bread"
+   ],
+   "cur": {
+    "s": "Pan",
+    "p": "Panes",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "briefcase",
+   "themes": [
+    "classroom"
+   ],
+   "en": [
+    "Briefcase",
+    "Briefcases"
+   ],
+   "cur": {
+    "s": "Maletín",
+    "p": "Maletines",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "broccoli",
+   "themes": [
+    "at_the_supermarket",
+    "vegetables"
+   ],
+   "en": [
+    "Broccoli",
+    "Broccoli"
+   ],
+   "cur": {
+    "s": "Brócoli",
+    "p": "Brócolis",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "brontosaurus",
+   "themes": [
+    "dinosaurs"
+   ],
+   "en": [
+    "Brontosaurus",
+    "Brontosauruses"
+   ],
+   "cur": {
+    "s": "Brontosaurio",
+    "p": "Brontosaurios",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "broom",
+   "themes": [
+    "around_the_house",
+    "home",
+    "household"
+   ],
+   "en": [
+    "Broom",
+    "Brooms"
+   ],
+   "cur": {
+    "s": "Escoba",
+    "p": "Escobas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "brother",
+   "themes": [],
+   "en": [
+    "Brother",
+    "Brothers"
+   ],
+   "cur": {
+    "s": "Hermano",
+    "p": "Hermanos",
+    "g": "m"
+   },
+   "type": null,
+   "countable": null,
+   "noImage": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "brown",
+   "themes": [
+    "colors"
+   ],
+   "en": [
+    "Brown",
+    "Brown"
+   ],
+   "cur": {
+    "s": "Café",
+    "p": "Café",
+    "g": null
+   },
+   "type": "adjective",
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "brownie",
+   "themes": [
+    "bakery",
+    "desserts_and_sweets"
+   ],
+   "en": [
+    "Brownie",
+    "Brownies"
+   ],
+   "cur": {
+    "s": "Brownie",
+    "p": "Brownies",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "brush",
+   "themes": [
+    "around_the_house"
+   ],
+   "en": [
+    "Brush",
+    "Brushes"
+   ],
+   "cur": {
+    "s": "Cepillo",
+    "p": "Cepillos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bucket",
+   "themes": [
+    "beach",
+    "home",
+    "household",
+    "objects",
+    "summer",
+    "toys"
+   ],
+   "en": [
+    "Bucket",
+    "Buckets"
+   ],
+   "cur": {
+    "s": "Cubeta",
+    "p": "Cubetas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bud",
+   "themes": [
+    "spring"
+   ],
+   "en": [
+    "Bud",
+    "Buds"
+   ],
+   "cur": {
+    "s": "Brote",
+    "p": "Brotes",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bull",
+   "themes": [
+    "animals",
+    "farm_animals"
+   ],
+   "en": [
+    "Bull",
+    "Bulls"
+   ],
+   "cur": {
+    "s": "Toro",
+    "p": "Toros",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bulldozer",
+   "themes": [
+    "vehicles"
+   ],
+   "en": [
+    "Bulldozer",
+    "Bulldozers"
+   ],
+   "cur": {
+    "s": "Bulldozer",
+    "p": "Bulldozers",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bun",
+   "themes": [
+    "bakery"
+   ],
+   "en": [
+    "Bun",
+    "Buns"
+   ],
+   "cur": {
+    "s": "Bollo",
+    "p": "Bollos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bunny",
+   "themes": [
+    "easter",
+    "spring"
+   ],
+   "en": [
+    "Bunny",
+    "Bunnies"
+   ],
+   "cur": {
+    "s": "Conejito",
+    "p": "Conejitos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "burrito",
+   "themes": [
+    "food"
+   ],
+   "en": [
+    "Burrito",
+    "Burritos"
+   ],
+   "cur": {
+    "s": "Burrito",
+    "p": "Burritos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bus",
+   "themes": [
+    "travel_and_holiday",
+    "vehicles"
+   ],
+   "en": [
+    "Bus",
+    "Buses"
+   ],
+   "cur": {
+    "s": "Autobús",
+    "p": "Autobuses",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "bus-driver",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Bus Driver",
+    "Bus Drivers"
+   ],
+   "cur": {
+    "s": "Chofer de autobús",
+    "p": "Choferes de autobús",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "butter",
+   "themes": [
+    "at_the_supermarket",
+    "breakfast"
+   ],
+   "en": [
+    "Butter",
+    "Butter"
+   ],
+   "cur": {
+    "s": "Mantequilla",
+    "p": "Mantequillas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": false,
+   "classification": {
+    "category": "mass",
+    "hasGender": true,
+    "hasPlural": false
+   },
+   "ART_DEFECT": true
+  },
+  {
+   "key": "butter-knife",
+   "themes": [
+    "kitchen_tools"
+   ],
+   "en": [
+    "Butter Knife",
+    "Butter Knives"
+   ],
+   "cur": {
+    "s": "Cuchillo para mantequilla",
+    "p": "Cuchillos para mantequilla",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "buttercup",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Buttercup",
+    "Buttercups"
+   ],
+   "cur": {
+    "s": "Ranúnculo",
+    "p": "Ranúnculos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "butterfly",
+   "themes": [
+    "easter",
+    "forest_creatures",
+    "insects_and_bugs",
+    "nature",
+    "spring",
+    "summer",
+    "things_that_fly"
+   ],
+   "en": [
+    "Butterfly",
+    "Butterflies"
+   ],
+   "cur": {
+    "s": "Mariposa",
+    "p": "Mariposas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cabana",
+   "themes": [
+    "beach"
+   ],
+   "en": [
+    "Cabana",
+    "Cabanas"
+   ],
+   "cur": {
+    "s": "Cabaña",
+    "p": "Cabañas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cabbage",
+   "themes": [
+    "vegetables"
+   ],
+   "en": [
+    "Cabbage",
+    "Cabbages"
+   ],
+   "cur": {
+    "s": "Col",
+    "p": "Coles",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cabin",
+   "themes": [
+    "camping",
+    "travel_and_holiday",
+    "winter"
+   ],
+   "en": [
+    "Cabin",
+    "Cabins"
+   ],
+   "cur": {
+    "s": "Cabaña",
+    "p": "Cabañas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cabinet",
+   "themes": [
+    "around_the_house",
+    "classroom",
+    "furniture",
+    "household"
+   ],
+   "en": [
+    "Cabinet",
+    "Cabinets"
+   ],
+   "cur": {
+    "s": "Gabinete",
+    "p": "Gabinetes",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cable-car",
+   "themes": [
+    "travel_and_holiday"
+   ],
+   "en": [
+    "Cable Car",
+    "Cable Cars"
+   ],
+   "cur": {
+    "s": "Teleférico",
+    "p": "Teleféricos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cactus",
+   "themes": [
+    "home",
+    "nature",
+    "toys"
+   ],
+   "en": [
+    "Cactus",
+    "Cacti"
+   ],
+   "cur": {
+    "s": "Cactus",
+    "p": "Cactus",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cake",
+   "themes": [
+    "4th_of_july",
+    "at_the_supermarket",
+    "bakery",
+    "dessert",
+    "desserts_and_sweets",
+    "easter",
+    "food",
+    "valentine"
+   ],
+   "en": [
+    "Cake",
+    "Cakes"
+   ],
+   "cur": {
+    "s": "Pastel",
+    "p": "Pasteles",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cake-pan",
+   "themes": [
+    "kitchen_tools"
+   ],
+   "en": [
+    "Cake Pan",
+    "Cake Pans"
+   ],
+   "cur": {
+    "s": "Molde para pastel",
+    "p": "Moldes para pastel",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "calculator",
+   "themes": [
+    "classroom",
+    "education"
+   ],
+   "en": [
+    "Calculator",
+    "Calculators"
+   ],
+   "cur": {
+    "s": "Calculadora",
+    "p": "Calculadoras",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "calendar",
+   "themes": [
+    "classroom",
+    "home",
+    "valentine"
+   ],
+   "en": [
+    "Calendar",
+    "Calendars"
+   ],
+   "cur": {
+    "s": "Calendario",
+    "p": "Calendarios",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "calf",
+   "themes": [
+    "farm_animals"
+   ],
+   "en": [
+    "Calf",
+    "Calves"
+   ],
+   "cur": {
+    "s": "Becerro",
+    "p": "Becerros",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "camel",
+   "themes": [
+    "animals",
+    "farm_animals",
+    "zoo_animals"
+   ],
+   "en": [
+    "Camel",
+    "Camels"
+   ],
+   "cur": {
+    "s": "Camello",
+    "p": "Camellos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "camera",
+   "themes": [
+    "beach",
+    "household"
+   ],
+   "en": [
+    "Camera",
+    "Cameras"
+   ],
+   "cur": {
+    "s": "Cámara",
+    "p": "Cámaras",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "camp",
+   "themes": [
+    "travel_and_holiday"
+   ],
+   "en": [
+    "Camp",
+    "Camps"
+   ],
+   "cur": {
+    "s": "Campamento",
+    "p": "Campamentos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "camper",
+   "themes": [
+    "camping",
+    "travel_and_holiday",
+    "vehicles"
+   ],
+   "en": [
+    "Camper",
+    "Campers"
+   ],
+   "cur": {
+    "s": "Casa rodante",
+    "p": "Casas rodantes",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "campfire",
+   "themes": [
+    "camping",
+    "nature",
+    "summer",
+    "travel_and_holiday"
+   ],
+   "en": [
+    "Campfire",
+    "Campfires"
+   ],
+   "cur": {
+    "s": "Fogata",
+    "p": "Fogatas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "camping",
+   "themes": [
+    "activities"
+   ],
+   "en": [
+    "Camping",
+    "Camping"
+   ],
+   "cur": {
+    "s": "Acampar",
+    "p": "Acampar",
+    "g": "m"
+   },
+   "type": "verb-gerund",
+   "countable": false,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   },
+   "ART_DEFECT": true
+  },
+  {
+   "key": "camping-chair",
+   "themes": [
+    "camping"
+   ],
+   "en": [
+    "Camping Chair",
+    "Camping Chairs"
+   ],
+   "cur": {
+    "s": "Silla de camping",
+    "p": "Sillas de camping",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "can",
+   "themes": [
+    "at_the_supermarket"
+   ],
+   "en": [
+    "Can",
+    "Cans"
+   ],
+   "cur": {
+    "s": "Lata",
+    "p": "Latas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "canary",
+   "themes": [
+    "birds_2"
+   ],
+   "en": [
+    "Canary",
+    "Canaries"
+   ],
+   "cur": {
+    "s": "Canario",
+    "p": "Canarios",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "candle",
+   "themes": [
+    "christmas",
+    "easter",
+    "valentine"
+   ],
+   "en": [
+    "Candle",
+    "Candles"
+   ],
+   "cur": {
+    "s": "Vela",
+    "p": "Velas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "candy",
+   "themes": [
+    "at_the_supermarket",
+    "christmas",
+    "dessert",
+    "easter",
+    "valentine"
+   ],
+   "en": [
+    "Candy",
+    "Candies"
+   ],
+   "cur": {
+    "s": "Dulce",
+    "p": "Dulces",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "candy-cane",
+   "themes": [
+    "christmas",
+    "desserts_and_sweets"
+   ],
+   "en": [
+    "Candy Cane",
+    "Candy Canes"
+   ],
+   "cur": {
+    "s": "Bastón de caramelo",
+    "p": "Bastones de caramelo",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "canoe",
+   "themes": [
+    "camping",
+    "vehicles"
+   ],
+   "en": [
+    "Canoe",
+    "Canoes"
+   ],
+   "cur": {
+    "s": "Canoa",
+    "p": "Canoas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cap",
+   "themes": [
+    "accessories",
+    "apparel",
+    "clothing",
+    "sports",
+    "summer"
+   ],
+   "en": [
+    "Cap",
+    "Caps"
+   ],
+   "cur": {
+    "s": "Gorra",
+    "p": "Gorras",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cape",
+   "themes": [
+    "accessories"
+   ],
+   "en": [
+    "Cape",
+    "Capes"
+   ],
+   "cur": {
+    "s": "Capa",
+    "p": "Capas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "capricious",
+   "themes": [
+    "emotions"
+   ],
+   "en": [
+    "Capricious",
+    "Capricious"
+   ],
+   "cur": {
+    "s": "Caprichoso",
+    "p": "Caprichoso",
+    "g": null
+   },
+   "type": "adjective",
+   "countable": false,
+   "classification": {
+    "category": "adjective",
+    "hasGender": false,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "capybara",
+   "themes": [
+    "animals"
+   ],
+   "en": [
+    "Capybara",
+    "Capybaras"
+   ],
+   "cur": {
+    "s": "Capibara",
+    "p": "Capibaras",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "car",
+   "themes": [
+    "toys",
+    "travel_and_holiday",
+    "vehicles"
+   ],
+   "en": [
+    "Car",
+    "Cars"
+   ],
+   "cur": {
+    "s": "Carro",
+    "p": "Carros",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "card",
+   "themes": [
+    "valentine"
+   ],
+   "en": [
+    "Card",
+    "Cards"
+   ],
+   "cur": {
+    "s": "Tarjeta",
+    "p": "Tarjetas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cardigan",
+   "themes": [
+    "clothing"
+   ],
+   "en": [
+    "Cardigan",
+    "Cardigans"
+   ],
+   "cur": {
+    "s": "Cárdigan",
+    "p": "Cárdiganes",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cardinal",
+   "themes": [
+    "birds_2",
+    "forest_creatures"
+   ],
+   "en": [
+    "Cardinal",
+    "Cardinals"
+   ],
+   "cur": {
+    "s": "Cardenal",
+    "p": "Cardenales",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cards",
+   "themes": [
+    "toys"
+   ],
+   "en": [
+    "Cards",
+    "Cards"
+   ],
+   "cur": {
+    "s": "Cartas",
+    "p": "Cartas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "plural-picture",
+    "hasGender": true,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "carnation",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Carnation",
+    "Carnations"
+   ],
+   "cur": {
+    "s": "Clavel",
+    "p": "Claveles",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "carnotaurus",
+   "themes": [
+    "dinosaurs"
+   ],
+   "en": [
+    "Carnotaurus",
+    "Carnotauruses"
+   ],
+   "cur": {
+    "s": "Carnotauro",
+    "p": "Carnotauros",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "carpenter",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Carpenter",
+    "Carpenters"
+   ],
+   "cur": {
+    "s": "Carpintero",
+    "p": "Carpinteros",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "carpet",
+   "themes": [
+    "around_the_house"
+   ],
+   "en": [
+    "Carpet",
+    "Carpets"
+   ],
+   "cur": {
+    "s": "Alfombra",
+    "p": "Alfombras",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "carriage",
+   "themes": [
+    "vehicles"
+   ],
+   "en": [
+    "Carriage",
+    "Carriages"
+   ],
+   "cur": {
+    "s": "Carruaje",
+    "p": "Carruajes",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "carrot",
+   "themes": [
+    "at_the_supermarket",
+    "easter",
+    "vegetables"
+   ],
+   "en": [
+    "Carrot",
+    "Carrots"
+   ],
+   "cur": {
+    "s": "Zanahoria",
+    "p": "Zanahorias",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cart",
+   "themes": [
+    "at_the_supermarket"
+   ],
+   "en": [
+    "Cart",
+    "Carts"
+   ],
+   "cur": {
+    "s": "Carrito",
+    "p": "Carritos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cash-register",
+   "themes": [
+    "at_the_supermarket"
+   ],
+   "en": [
+    "Cash Register",
+    "Cash Registers"
+   ],
+   "cur": {
+    "s": "Caja registradora",
+    "p": "Cajas registradoras",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cashier",
+   "themes": [
+    "occupations"
+   ],
+   "en": [
+    "Cashier",
+    "Cashiers"
+   ],
+   "cur": {
+    "s": "Cajero",
+    "p": "Cajeros",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cast",
+   "themes": [
+    "hospital"
+   ],
+   "en": [
+    "Cast",
+    "Casts"
+   ],
+   "cur": {
+    "s": "Yeso",
+    "p": "Yesos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cat",
+   "themes": [
+    "animals",
+    "faces",
+    "farm",
+    "farm_animals",
+    "pets"
+   ],
+   "en": [
+    "Cat",
+    "Cats"
+   ],
+   "cur": {
+    "s": "Gato",
+    "p": "Gatos",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "caterpillar",
+   "themes": [
+    "forest_creatures",
+    "insects_and_bugs",
+    "spring"
+   ],
+   "en": [
+    "Caterpillar",
+    "Caterpillars"
+   ],
+   "cur": {
+    "s": "Oruga",
+    "p": "Orugas",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "cauliflower",
+   "themes": [
+    "vegetables"
+   ],
+   "en": [
+    "Cauliflower",
+    "Cauliflowers"
+   ],
+   "cur": {
+    "s": "Coliflor",
+    "p": "Coliflores",
+    "g": "f"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  }
+ ]
+}

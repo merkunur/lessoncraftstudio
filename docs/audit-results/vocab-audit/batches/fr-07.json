@@ -1,0 +1,80 @@
+{
+ "locale": "fr",
+ "batch": "07",
+ "of": 7,
+ "genderLegend": "m=masculin (le) · f=féminin (la)",
+ "count": 3,
+ "range": [
+  "yogurt",
+  "zinnia"
+ ],
+ "rows": [
+  {
+   "key": "yogurt",
+   "themes": [],
+   "en": [
+    "Yogurt",
+    "Yogurt"
+   ],
+   "cur": {
+    "s": "Yaourt",
+    "p": "Yaourt",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": false,
+   "noImage": true,
+   "classification": {
+    "category": "mass",
+    "hasGender": true,
+    "hasPlural": false
+   }
+  },
+  {
+   "key": "zebra",
+   "themes": [
+    "animals",
+    "faces",
+    "zoo_animals"
+   ],
+   "en": [
+    "Zebra",
+    "Zebras"
+   ],
+   "cur": {
+    "s": "Zèbre",
+    "p": "Zèbres",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  },
+  {
+   "key": "zinnia",
+   "themes": [
+    "flowers"
+   ],
+   "en": [
+    "Zinnia",
+    "Zinnias"
+   ],
+   "cur": {
+    "s": "Zinnia",
+    "p": "Zinnias",
+    "g": "m"
+   },
+   "type": "noun",
+   "countable": true,
+   "classification": {
+    "category": "countable-thing",
+    "hasGender": true,
+    "hasPlural": true
+   }
+  }
+ ]
+}

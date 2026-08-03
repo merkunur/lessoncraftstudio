@@ -1,0 +1,3546 @@
+{
+  "opts": {
+    "baseUrl": "https://www.lessoncraftstudio.com",
+    "locales": [
+      "es"
+    ],
+    "axes": [
+      "exercise-type",
+      "theme",
+      "educational-level"
+    ],
+    "outDir": "C:\\Users\\rkgen\\lessoncraftstudio\\docs\\audit-results",
+    "concurrency": 10,
+    "sample": null,
+    "includeIntersections": false,
+    "timeoutMs": 15000
+  },
+  "byLocale": {
+    "es": {
+      "locale": "es",
+      "total": 134,
+      "pass": 83,
+      "fail": 51,
+      "byAxis": {
+        "exercise-type": {
+          "total": 29,
+          "pass": 29
+        },
+        "theme": {
+          "total": 100,
+          "pass": 50
+        },
+        "educational-level": {
+          "total": 5,
+          "pass": 4
+        }
+      },
+      "defectCounts": {
+        "PAGE_HTTP_404": 51
+      },
+      "fallbackCount": 0,
+      "tooShortCount": 0,
+      "tooLongCount": 0,
+      "nonUniqueCount": 0,
+      "missingCount": 0,
+      "sampleFailures": [
+        {
+          "url": "https://www.lessoncraftstudio.com/es/topic/animales-bn/",
+          "axisKey": "animals_bw",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/es/topic/animales-bn-2/",
+          "axisKey": "animals_bw_2",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/es/topic/animales-bn-3/",
+          "axisKey": "animals_bw_3",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/es/topic/animales-bn-4/",
+          "axisKey": "animals_bw_4",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/es/topic/animales-bn-5/",
+          "axisKey": "animals_bw_5",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        }
+      ]
+    }
+  },
+  "perPage": [
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/suma/",
+      "locale": "es",
+      "axis": "exercise-type",
+      "axisKey": "addition",
+      "slug": "suma",
+      "status": 200,
+      "descriptionLength": 151,
+      "descriptionPreview": "Fichas de suma gratis para grado 1 y 2 alineadas con LOMLOE: práctica de sumas hasta 10 y hasta 20 con apoyo visual e imágenes para resolver problemas.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 151
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "5821911617394073cfcd5eb296738180c2b20976"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/sudoku-de-imagenes/",
+      "locale": "es",
+      "axis": "exercise-type",
+      "axisKey": "sudoku",
+      "slug": "sudoku-de-imagenes",
+      "status": 200,
+      "descriptionLength": 148,
+      "descriptionPreview": "Sudoku de imágenes para preescolar: cuadrículas 4×4 con dibujos donde cada fila y columna tiene la imagen una sola vez, lógica temprana sin números.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 148
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "fa5918e9dbfd91ea273dd0ae7a2c8ceee6f41dc0"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/criptograma/",
+      "locale": "es",
+      "axis": "exercise-type",
+      "axisKey": "cryptogram",
+      "slug": "criptograma",
+      "status": 200,
+      "descriptionLength": 150,
+      "descriptionPreview": "Criptogramas para primaria: fichas donde cada letra es un símbolo que los niños decodifican para descubrir palabras, ideal para vocabulario y lectura.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 150
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "c4851f349e24a9f002c8e83c1090033f71ae1980"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/sendero-de-imagenes/",
+      "locale": "es",
+      "axis": "exercise-type",
+      "axisKey": "picture-path",
+      "slug": "sendero-de-imagenes",
+      "status": 200,
+      "descriptionLength": 148,
+      "descriptionPreview": "Fichas del sendero de imágenes: los niños trazan un camino conectando casillas para resolver laberintos visuales y desarrollar orientación espacial.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 148
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "4b1822d1264cf185b7990d7ae70723cf22bdb2fa"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/resta/",
+      "locale": "es",
+      "axis": "exercise-type",
+      "axisKey": "subtraction",
+      "slug": "resta",
+      "status": 200,
+      "descriptionLength": 136,
+      "descriptionPreview": "Fichas de resta gratis para grado 1 y 2: restas hasta 10 y hasta 20 con apoyo visual e imágenes, alineadas con planes de estudio LOMLOE.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 136
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "80c8ff2bc76b4ef715d8c9af25c733dc282f1164"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/suma-codificada/",
+      "locale": "es",
+      "axis": "exercise-type",
+      "axisKey": "code-addition",
+      "slug": "suma-codificada",
+      "status": 200,
+      "descriptionLength": 149,
+      "descriptionPreview": "Fichas de suma codificada para grado 1 y 2: cada número equivale a una imagen para resolver sumas decodificando símbolos, con apoyo visual atractivo.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 149
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b6f6009ae82c602d0be8a001747a553036a55d18"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/mas-o-menos/",
+      "locale": "es",
+      "axis": "exercise-type",
+      "axisKey": "more-less",
+      "slug": "mas-o-menos",
+      "status": 200,
+      "descriptionLength": 146,
+      "descriptionPreview": "Fichas de más o menos para grado 1: comparación de cantidades hasta 10 y hasta 20 con apoyo visual, alineadas con bloques numéricos del currículo.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 146
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "f63adef5b3a8810f296e399c25ba195a26b19691"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/rompecabezas-matematico/",
+      "locale": "es",
+      "axis": "exercise-type",
+      "axisKey": "math-puzzle",
+      "slug": "rompecabezas-matematico",
+      "status": 200,
+      "descriptionLength": 142,
+      "descriptionPreview": "Rompecabezas matemático para grado 1 y 2: los niños arrastran piezas con números o sumas para completar la imagen, mezclando lógica y cálculo.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 142
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "f2ce845561f016fa82ced531c27e386a50e5899f"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/ficha-matematica/",
+      "locale": "es",
+      "axis": "exercise-type",
+      "axisKey": "math-worksheet",
+      "slug": "ficha-matematica",
+      "status": 200,
+      "descriptionLength": 147,
+      "descriptionPreview": "Ficha matemática gratis para primaria: operaciones combinadas, lectura de números y resolución de problemas alineados con planes de estudio LOMLOE.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 147
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "8cf395e15954a8c447ac3005d1cc6fe6da65bfa4"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/grande-pequeno/",
+      "locale": "es",
+      "axis": "exercise-type",
+      "axisKey": "big-small",
+      "slug": "grande-pequeno",
+      "status": 200,
+      "descriptionLength": 149,
+      "descriptionPreview": "Fichas de grande o pequeño para preescolar: comparación de tamaños con imágenes claras antes de introducir medidas numéricas con niños de 3 a 5 años.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 149
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "43dd841583df42537ad9f11293799ea544679fc6"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/contar-en-grafico/",
+      "locale": "es",
+      "axis": "exercise-type",
+      "axisKey": "chart-count",
+      "slug": "contar-en-grafico",
+      "status": 200,
+      "descriptionLength": 149,
+      "descriptionPreview": "Fichas para contar en gráfico para jardín infantil: los niños cuentan objetos y rellenan columnas para introducir gráficos de barras de forma visual.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 149
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "85446ed5031128009fcb7f339d5e853428febd40"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/tren-de-patrones/",
+      "locale": "es",
+      "axis": "exercise-type",
+      "axisKey": "pattern-train",
+      "slug": "tren-de-patrones",
+      "status": 200,
+      "descriptionLength": 131,
+      "descriptionPreview": "Fichas del tren de patrones para jardín infantil: completar secuencias ABAB y AABB arrastrando imágenes al vagón correcto del tren.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 131
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "3fd8d2c16f1e32ddb416abc036b1ad1bca938a6b"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/ficha-de-patrones/",
+      "locale": "es",
+      "axis": "exercise-type",
+      "axisKey": "pattern-worksheet",
+      "slug": "ficha-de-patrones",
+      "status": 200,
+      "descriptionLength": 148,
+      "descriptionPreview": "Ficha de patrones para preescolar: secuencias con formas, colores e imágenes para entrenar reconocimiento de patrones y pensamiento lógico temprano.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 148
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "ef1a7aa8c99145220cc188e5e911ac708c0d19ff"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/bingo/",
+      "locale": "es",
+      "axis": "exercise-type",
+      "axisKey": "bingo",
+      "slug": "bingo",
+      "status": 200,
+      "descriptionLength": 147,
+      "descriptionPreview": "Bingo de imágenes K-3 listo para imprimir o jugar en línea: reconocimiento rápido vocabulario-imagen con tarjetas en 11 idiomas para todo el grupo.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 147
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b68a3462b8c8d4836ab95dc615eae7cf02b4c5c4"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/empareja-en-cuadricula/",
+      "locale": "es",
+      "axis": "exercise-type",
+      "axisKey": "grid-match",
+      "slug": "empareja-en-cuadricula",
+      "status": 200,
+      "descriptionLength": 148,
+      "descriptionPreview": "Fichas de emparejar en cuadrícula para preescolar: los niños arrastran imágenes a su pareja correcta en una cuadrícula para entrenar memoria visual.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 148
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b3f5de4de48a052f21e0c1ffc1192ae4f9a38de7"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/emparejar/",
+      "locale": "es",
+      "axis": "exercise-type",
+      "axisKey": "matching",
+      "slug": "emparejar",
+      "status": 200,
+      "descriptionLength": 145,
+      "descriptionPreview": "Fichas de emparejar para preescolar: los niños unen pares relacionados — animal con cría, objeto con uso — para entrenar razonamiento asociativo.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 145
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "342a7355fad380503d97e1691ff02948978aacd7"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/clasificar-imagenes/",
+      "locale": "es",
+      "axis": "exercise-type",
+      "axisKey": "picture-sort",
+      "slug": "clasificar-imagenes",
+      "status": 200,
+      "descriptionLength": 154,
+      "descriptionPreview": "Fichas para clasificar imágenes en preescolar: los niños arrastran objetos a la categoría correcta — comida, ropa, animales — entrenando taxonomía visual.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 154
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "c59e26b8b8d028c5ab9901f75d32d6b88ff813d0"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/empareja-sombras/",
+      "locale": "es",
+      "axis": "exercise-type",
+      "axisKey": "shadow-match",
+      "slug": "empareja-sombras",
+      "status": 200,
+      "descriptionLength": 150,
+      "descriptionPreview": "Fichas de emparejar sombras para preescolar: los niños conectan cada objeto con su silueta para entrenar percepción visual y discriminación de formas.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 150
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "9c968edcc105e153611ed89703059164cbe01d91"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/tren-del-abecedario/",
+      "locale": "es",
+      "axis": "exercise-type",
+      "axisKey": "alphabet-train",
+      "slug": "tren-del-abecedario",
+      "status": 200,
+      "descriptionLength": 162,
+      "descriptionPreview": "Fichas del tren del abecedario para reconocer letras mayúsculas y minúsculas en preescolar: secuencias del abecedario y vocabulario inicial con dibujos coloridos.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 162
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "5df881bdba623d30bce46781327682d648f0dff5"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/preposiciones/",
+      "locale": "es",
+      "axis": "exercise-type",
+      "axisKey": "prepositions",
+      "slug": "preposiciones",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Fichas de preposiciones en español: encima, debajo, dentro y al lado con escenas a color para enseñar relaciones espaciales en preescolar.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "1bbca0f949ca8188d37f3944e34b8a8de187f4e6"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/adivina-la-palabra/",
+      "locale": "es",
+      "axis": "exercise-type",
+      "axisKey": "word-guess",
+      "slug": "adivina-la-palabra",
+      "status": 200,
+      "descriptionLength": 145,
+      "descriptionPreview": "Fichas de adivina la palabra para grado 1 a grado 3: los niños descubren letras una a una para formar la palabra correcta, reforzando ortografía.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 145
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "eb3390eae022554d7344e04ad63cb8d63675be40"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/letras-revueltas/",
+      "locale": "es",
+      "axis": "exercise-type",
+      "axisKey": "word-scramble",
+      "slug": "letras-revueltas",
+      "status": 200,
+      "descriptionLength": 145,
+      "descriptionPreview": "Fichas de letras revueltas para primaria: los niños ordenan las letras desordenadas para reconstruir la palabra correcta, entrenando vocabulario.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 145
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "7b2ed423d59c497096af66500abb30c8c7bf5806"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/sopa-de-letras/",
+      "locale": "es",
+      "axis": "exercise-type",
+      "axisKey": "wordsearch",
+      "slug": "sopa-de-letras",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Sopas de letras en español para grado 1 a grado 3: fichas temáticas donde los niños buscan palabras horizontales, verticales y diagonales.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "8bcc564ecab2a8f1569a5c752cfb58ae86e694e1"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/crucigrama/",
+      "locale": "es",
+      "axis": "exercise-type",
+      "axisKey": "crossword",
+      "slug": "crucigrama",
+      "status": 200,
+      "descriptionLength": 152,
+      "descriptionPreview": "Crucigramas en español para grado 1 a grado 3: fichas con pistas visuales para escribir palabras y reforzar ortografía de vocabulario temático infantil.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 152
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "a4d5bd035d384ed1071f32d31c91b866c0258ae9"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/busca-y-cuenta/",
+      "locale": "es",
+      "axis": "exercise-type",
+      "axisKey": "find-and-count",
+      "slug": "busca-y-cuenta",
+      "status": 200,
+      "descriptionLength": 147,
+      "descriptionPreview": "Fichas de busca y cuenta para preescolar: los niños localizan objetos repetidos en una escena y escriben cuántos hay, reforzando atención y conteo.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 147
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "36db5c4c58d2732a18b9e92c99d2479137ab1406"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/encuentra-los-objetos/",
+      "locale": "es",
+      "axis": "exercise-type",
+      "axisKey": "find-objects",
+      "slug": "encuentra-los-objetos",
+      "status": 200,
+      "descriptionLength": 143,
+      "descriptionPreview": "Fichas de encuentra los objetos para jardín infantil: escenas ricas donde los niños tocan elementos escondidos para entrenar percepción visual.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 143
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "6d72e9c1a660c2f9ac9f6803a7344e451851a2a5"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/busqueda-del-tesoro/",
+      "locale": "es",
+      "axis": "exercise-type",
+      "axisKey": "treasure-hunt",
+      "slug": "busqueda-del-tesoro",
+      "status": 200,
+      "descriptionLength": 145,
+      "descriptionPreview": "Fichas de búsqueda del tesoro para grado 1: los niños siguen pistas direccionales — norte, sur, este, oeste — para encontrar el tesoro escondido.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 145
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "3bb8718884c0c145675b3ad5991cf4127467c157"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/piezas-faltantes/",
+      "locale": "es",
+      "axis": "exercise-type",
+      "axisKey": "missing-pieces",
+      "slug": "piezas-faltantes",
+      "status": 200,
+      "descriptionLength": 144,
+      "descriptionPreview": "Fichas de piezas faltantes para jardín infantil: los niños arrastran la pieza correcta al hueco para completar imágenes, entrenando observación.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 144
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "dfa667a9a09848e32695cacb8f3a800e8dc210bc"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/el-intruso/",
+      "locale": "es",
+      "axis": "exercise-type",
+      "axisKey": "odd-one-out",
+      "slug": "el-intruso",
+      "status": 200,
+      "descriptionLength": 147,
+      "descriptionPreview": "Fichas del intruso para preescolar: los niños identifican el elemento que no pertenece a un grupo, reforzando pensamiento crítico y categorización.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 147
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "c7cd10b97449043439fd955163b8eabb144991ef"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/4-de-julio/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "4th_of_july",
+      "slug": "4-de-julio",
+      "status": 200,
+      "descriptionLength": 164,
+      "descriptionPreview": "Fichas del 4 de Julio gratis para enseñar la fiesta estadounidense en aulas bilingües: actividades temáticas con banderas, fuegos artificiales y vocabulario cívico.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 164
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d9933c252ede2ca8a4d9540fc5bab36616955268"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/accesorios/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "accessories",
+      "slug": "accesorios",
+      "status": 200,
+      "descriptionLength": 167,
+      "descriptionPreview": "Vocabulario de accesorios en español para preescolar y primaria: fichas gratis con relojes, gafas, bolsos y bufandas para ejercicios de clasificación y emparejamiento.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 167
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "adf910a4e8f35cb100cdf258cb3d69e8b8264420"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/actividades/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "activities",
+      "slug": "actividades",
+      "status": 200,
+      "descriptionLength": 158,
+      "descriptionPreview": "Fichas de actividades cotidianas para enseñar verbos de acción a niños de 3 a 8 años: emparejamiento, vocabulario y conteo con escenas vibrantes a todo color.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 158
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "ca25546896072e1b3cfee186df015afd786164b3"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/animales/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "animals",
+      "slug": "animales",
+      "status": 200,
+      "descriptionLength": 166,
+      "descriptionPreview": "Fichas de animales gratis para preescolar y jardín infantil: vocabulario, conteo, clasificación y emparejamiento con ilustraciones a color de mamíferos, aves y peces.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 166
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "e713d1ae00d834fdd42c69ae3a15791b07b88ae8"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/alrededor-de-la-casa/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "around_the_house",
+      "slug": "alrededor-de-la-casa",
+      "status": 200,
+      "descriptionLength": 154,
+      "descriptionPreview": "Vocabulario del hogar en español: fichas a color con objetos de la casa por habitaciones, pensadas para juegos de búsqueda y categorización en preescolar.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 154
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "65975c25ec4440611b5b69127f03959bc50c48ba"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/en-el-supermercado/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "at_the_supermarket",
+      "slug": "en-el-supermercado",
+      "status": 200,
+      "descriptionLength": 150,
+      "descriptionPreview": "Fichas del supermercado para jardín infantil y grado 1: vocabulario de alimentos, conteo de productos y juego simbólico de hacer la compra en español.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 150
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "550ab8347cc0a39ff87876e13b9b27c0165bf443"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/panaderia/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "bakery",
+      "slug": "panaderia",
+      "status": 200,
+      "descriptionLength": 149,
+      "descriptionPreview": "Vocabulario de panadería en español: fichas a color con panes, bizcochos y croissants para trabajar léxico de alimentos y categorización en infantil.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 149
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "c57adcad34e7be4089669e2672bd580c705aa3f0"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/playa/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "beach",
+      "slug": "playa",
+      "status": 200,
+      "descriptionLength": 157,
+      "descriptionPreview": "Fichas de la playa gratis para verano: vocabulario marino, conteo de conchas y olas, y emparejamiento con ilustraciones vibrantes para actividades estivales.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 157
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "dfb0960953da5fa5c5452e9ad9d072a4825d410c"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/aves/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "birds",
+      "slug": "aves",
+      "status": 200,
+      "descriptionLength": 157,
+      "descriptionPreview": "Vocabulario de aves en español: fichas a color con pájaros comunes y exóticos para clasificar, contar y emparejar en clases de ciencias naturales infantiles.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 157
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "55f82eb1d9d60540ddbdb3ec2b657ac58cf9ee06"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/aves-2/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "birds_2",
+      "slug": "aves-2",
+      "status": 200,
+      "descriptionLength": 166,
+      "descriptionPreview": "Aves 2: ilustraciones adicionales de pájaros para ampliar el banco visual del aula con especies menos vistas, útil cuando se agotan las imágenes de la colección base.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 166
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "6e8b268674c7230bd6adeee50e64fd1648f5570f"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/partes-del-cuerpo/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "body_parts",
+      "slug": "partes-del-cuerpo",
+      "status": 200,
+      "descriptionLength": 155,
+      "descriptionPreview": "Vocabulario de partes del cuerpo para preescolar: fichas en español con ojos, manos y pies, ideales para canciones, emparejamiento y conocimiento corporal.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 155
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d4a09397d26b9dfa0d22a15b8f2bba0fbaddb571"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/desayuno/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "breakfast",
+      "slug": "desayuno",
+      "status": 200,
+      "descriptionLength": 150,
+      "descriptionPreview": "Fichas del desayuno en español: vocabulario de leche, pan, fruta y cereales con imágenes a color para conversación, clasificación y rutinas matinales.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 150
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "5eeb50ac751a61aac2e95dffd66ee24c6069087f"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/campamento/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "camping",
+      "slug": "campamento",
+      "status": 200,
+      "descriptionLength": 159,
+      "descriptionPreview": "Vocabulario de campamento en español: fichas a color con tiendas, mochilas y fogatas para jardín infantil, perfectas para unidades de naturaleza al aire libre.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 159
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "335665a7f7169216ebc3e488384ac2963f002769"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/navidad/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "christmas",
+      "slug": "navidad",
+      "status": 200,
+      "descriptionLength": 153,
+      "descriptionPreview": "Fichas de Navidad gratis para diciembre: árboles, regalos y vocabulario festivo con ilustraciones vibrantes para decorar el aula y trabajar la temporada.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 153
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d80b4ff4d922beb26f098f757ecc349757047c0c"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/salon-de-clases/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "classroom",
+      "slug": "salon-de-clases",
+      "status": 200,
+      "descriptionLength": 146,
+      "descriptionPreview": "Vocabulario del salón de clases en español: fichas a color con lápiz, mochila, pizarra y mesa para los primeros días de jardín infantil y grado 1.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 146
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "ca67834369daac405f64ee322f4c2e848950d794"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/ropa/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "clothing",
+      "slug": "ropa",
+      "status": 200,
+      "descriptionLength": 148,
+      "descriptionPreview": "Vocabulario de ropa en español: fichas a color con camisas, pantalones y zapatos para clasificar por estación, color y prenda en educación infantil.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 148
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "9b16df207a0e167a10322778baaa22010d9845da"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/colores/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "colors",
+      "slug": "colores",
+      "status": 200,
+      "descriptionLength": 146,
+      "descriptionPreview": "Fichas de colores en español para preescolar: rojo, azul, amarillo y verde con objetos del entorno para emparejar tonos y nombrar matices básicos.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 146
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "f101a9a65e5f975a7dcbf47b46a506f4e29a6be0"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/postres-y-dulces/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "desserts_and_sweets",
+      "slug": "postres-y-dulces",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Postres y dulces en español: fichas a color con helados, pasteles y caramelos para vocabulario, conteo y juegos de pastelería en infantil.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "92e3404f73978753a45827eb7ab3141c138914ec"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/dinosaurios/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "dinosaurs",
+      "slug": "dinosaurios",
+      "status": 200,
+      "descriptionLength": 153,
+      "descriptionPreview": "Fichas de dinosaurios para grado 1: vocabulario, conteo y clasificación con ilustraciones vibrantes de T-rex, triceratops y otras especies prehistóricas.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 153
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "82ebd5604344eeb9fe16df98285f60d67a75bf4e"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/pascua/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "easter",
+      "slug": "pascua",
+      "status": 200,
+      "descriptionLength": 151,
+      "descriptionPreview": "Pascua: fichas a color con conejos, huevos y cestas para actividades de primavera, vocabulario de la temporada y juegos de búsqueda en jardín infantil.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 151
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "5b0e77171fd752c30b4569c35f84f5ed6ac8d283"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/emociones/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "emotions",
+      "slug": "emociones",
+      "status": 200,
+      "descriptionLength": 150,
+      "descriptionPreview": "Fichas de emociones en español: caras de alegría, tristeza, enojo y sorpresa para trabajar inteligencia emocional con niños de 3 a 7 años en infantil.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 150
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "54b50e24f49338760a965b02e8793241832a0903"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/animales-de-granja/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "farm_animals",
+      "slug": "animales-de-granja",
+      "status": 200,
+      "descriptionLength": 153,
+      "descriptionPreview": "Animales de granja en español: fichas a color con vaca, oveja, cerdo y gallina para vocabulario, sonidos y clasificación en preescolar y jardín infantil.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 153
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "2b64d2de06d51bf004d76dfcf8653a1ce4561b5d"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/flores/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "flowers",
+      "slug": "flores",
+      "status": 200,
+      "descriptionLength": 149,
+      "descriptionPreview": "Vocabulario de flores en español: fichas a color con rosas, tulipanes y margaritas para clasificar por color, contar pétalos y trabajar la primavera.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 149
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "dac66a012fbe0b0d78c8084cb98a6498da2ecda3"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/criaturas-del-bosque/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "forest_creatures",
+      "slug": "criaturas-del-bosque",
+      "status": 200,
+      "descriptionLength": 148,
+      "descriptionPreview": "Criaturas del bosque en español: fichas a color con zorros, lechuzas y ardillas para unidades de naturaleza, vocabulario y clasificación de hábitat.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 148
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "763abc5620a8826f1a0c4f8cdae3d172e4c2439d"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/frutas/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "fruits",
+      "slug": "frutas",
+      "status": 200,
+      "descriptionLength": 148,
+      "descriptionPreview": "Fichas de frutas gratis para preescolar: manzana, plátano, uva y pera con imágenes vibrantes para clasificar por color, contar y nombrar en español.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 148
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "ce3f717e2f8fda9f2cb80bcff16c2788bc252e35"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/muebles/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "furniture",
+      "slug": "muebles",
+      "status": 200,
+      "descriptionLength": 148,
+      "descriptionPreview": "Vocabulario de muebles en español: fichas a color con mesa, silla, cama y armario para enseñar habitaciones de la casa en jardín infantil y grado 1.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 148
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "62cedaf5b29a19634f0f3d5f0baf926011d0fba7"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/hospital/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "hospital",
+      "slug": "hospital",
+      "status": 200,
+      "descriptionLength": 145,
+      "descriptionPreview": "Vocabulario de hospital en español: fichas a color con médico, enfermera y ambulancia para juego simbólico y unidades sobre profesiones de salud.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 145
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "78e2413c9aa971e909435b826950112e7d0d72b1"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/insectos-y-bichos/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "insects_and_bugs",
+      "slug": "insectos-y-bichos",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Insectos y bichos en español: fichas a color con abejas, mariposas y hormigas para unidades de primavera, conteo de patas y clasificación.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "a83765a4176da6ad73aa30ec48b07c9f8de533bc"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/utensilios-de-cocina/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "kitchen_tools",
+      "slug": "utensilios-de-cocina",
+      "status": 200,
+      "descriptionLength": 144,
+      "descriptionPreview": "Utensilios de cocina en español: fichas a color con cuchara, tenedor y sartén para vocabulario práctico de la casa en jardín infantil y grado 1.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 144
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "0492f906549d3b1fd4d2a34d51f3a89c0e9a94de"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/miscelaneo/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "miscellaneous",
+      "slug": "miscelaneo",
+      "status": 200,
+      "descriptionLength": 160,
+      "descriptionPreview": "Misceláneo: colección mixta de objetos cotidianos sueltos que no encajan en una sola categoría temática, útil como catch-all para fichas de vocabulario variado.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 160
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "fe51678262aca0f0c98569bee0d214d62ae62ca2"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/musica/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "music",
+      "slug": "musica",
+      "status": 200,
+      "descriptionLength": 141,
+      "descriptionPreview": "Vocabulario de música en español: fichas a color con instrumentos como guitarra, tambor y piano para clases de expresión musical en infantil.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 141
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "fdcea33bc7851c9e2ef8d964d690e4d0e7de0837"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/ocupaciones/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "occupations",
+      "slug": "ocupaciones",
+      "status": 200,
+      "descriptionLength": 140,
+      "descriptionPreview": "Vocabulario de ocupaciones en español: fichas a color con bombero, panadero, doctor y maestra para hablar de profesiones en jardín infantil.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 140
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "f34d000d7e3e919eb98994d24edc26687e589c61"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/vida-marina/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "ocean_life",
+      "slug": "vida-marina",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Vida marina en español: fichas a color con peces, pulpos y tortugas para unidades del océano, conteo y clasificación por hábitat acuático.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "8cc073d9abec2cdfd8c46d78a153f526b3900ad0"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/mascotas/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "pets",
+      "slug": "mascotas",
+      "status": 200,
+      "descriptionLength": 145,
+      "descriptionPreview": "Vocabulario de mascotas en español: fichas a color con perro, gato, conejo y pez para conversación, clasificación y cuidados básicos en infantil.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 145
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "2966389e637c044ba888886e6c0e1b6230487a10"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/oficina-de-correos/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "post_office",
+      "slug": "oficina-de-correos",
+      "status": 200,
+      "descriptionLength": 136,
+      "descriptionPreview": "Vocabulario de oficina de correos en español: fichas a color con cartas, sobres y sellos para juego simbólico y unidades de profesiones.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 136
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b9e5cb9edc9cbe2628b339c9ff3d67fd0b9b77bb"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/reptiles-y-anfibios/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "reptiles_and_amphibians",
+      "slug": "reptiles-y-anfibios",
+      "status": 200,
+      "descriptionLength": 144,
+      "descriptionPreview": "Reptiles y anfibios en español: fichas a color con serpientes, ranas y tortugas para unidades de ciencias naturales y clasificación de animales.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 144
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "2c498e68c6d2884ec59f66a94583462fd693a680"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/formas/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "shapes",
+      "slug": "formas",
+      "status": 200,
+      "descriptionLength": 142,
+      "descriptionPreview": "Fichas de formas en español: círculo, cuadrado, triángulo y rectángulo con objetos del entorno para reconocer figuras geométricas en infantil.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 142
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "3ef8db8771a9439402a60312f2d620471f2e1478"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/espacio/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "space",
+      "slug": "espacio",
+      "status": 200,
+      "descriptionLength": 148,
+      "descriptionPreview": "Vocabulario del espacio en español: fichas a color con planetas, cohetes y astronautas para unidades de ciencias sobre el sistema solar en primaria.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 148
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "3e91f8b9e4879d40c70a1bf14c66d2856e104b99"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/primavera/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "spring",
+      "slug": "primavera",
+      "status": 200,
+      "descriptionLength": 148,
+      "descriptionPreview": "Vocabulario de primavera en español: fichas a color con flores, mariposas y lluvia para unidades estacionales y juegos de observación al aire libre.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 148
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "ff0786b63b4f1139cbeab428a5bbb2e88a212c5d"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/verano/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "summer",
+      "slug": "verano",
+      "status": 200,
+      "descriptionLength": 146,
+      "descriptionPreview": "Vocabulario de verano en español: fichas a color con sol, helado y piscina para últimas semanas de clase y proyectos estivales en jardín infantil.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 146
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "0ac32e9d84240716af296ac8adbc2729411e509f"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/dia-de-accion-de-gracias/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "thanksgivinng",
+      "slug": "dia-de-accion-de-gracias",
+      "status": 200,
+      "descriptionLength": 150,
+      "descriptionPreview": "Día de Acción de Gracias: fichas a color con pavos, calabazas y maíz para enseñar esta festividad estadounidense en aulas bilingües e internacionales.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 150
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "0a4dcb83d5cd9bac62f049d8ef24fd3116b01f54"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/cosas-que-vuelan/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "things_that_fly",
+      "slug": "cosas-que-vuelan",
+      "status": 200,
+      "descriptionLength": 146,
+      "descriptionPreview": "Cosas que vuelan: fichas a color con aviones, helicópteros, pájaros y mariposas para clasificación y vocabulario de objetos voladores en infantil.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 146
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "c1bc734004255ac64552fb1c6c9c1923b7d7b81b"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/herramientas/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "tools",
+      "slug": "herramientas",
+      "status": 200,
+      "descriptionLength": 147,
+      "descriptionPreview": "Vocabulario de herramientas en español: fichas a color con martillo, destornillador y sierra para vocabulario técnico y juego simbólico de oficios.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 147
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "aa3e3f6dedfa99a7d9614093c0239760d1160ce6"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/juguetes/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "toys",
+      "slug": "juguetes",
+      "status": 200,
+      "descriptionLength": 149,
+      "descriptionPreview": "Vocabulario de juguetes en español: fichas a color con pelota, muñeca, coche y tren para los primeros días de jardín infantil y vocabulario familiar.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 149
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "236d22b44b5a2515473fedb544476edecd3cdaf8"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/arboles/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "tree",
+      "slug": "arboles",
+      "status": 200,
+      "descriptionLength": 143,
+      "descriptionPreview": "Árboles: fichas a color con robles, pinos y palmeras para unidades de naturaleza, vocabulario botánico y proyectos sobre el ciclo de las hojas.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 143
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "93126d854bbb108ac73613a9ef955ae78e0e1b5d"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/verduras/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "vegetables",
+      "slug": "verduras",
+      "status": 200,
+      "descriptionLength": 145,
+      "descriptionPreview": "Vocabulario de verduras en español: fichas a color con zanahoria, tomate, lechuga y pimiento para nutrición y clasificación de alimentos en aula.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 145
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "6b63b439bcc10770de575b93f213c3532a25ea6f"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/vehiculos/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "vehicles",
+      "slug": "vehiculos",
+      "status": 200,
+      "descriptionLength": 141,
+      "descriptionPreview": "Vocabulario de vehículos en español: fichas a color con coche, camión, autobús y barco para clasificar por medio de transporte en preescolar.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 141
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "bfde2876fba6c7106f5a32231c91fef059904e79"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/clima/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "weather",
+      "slug": "clima",
+      "status": 200,
+      "descriptionLength": 146,
+      "descriptionPreview": "Vocabulario del clima en español: fichas a color con sol, lluvia, nieve y nubes para rutinas diarias del tiempo en jardín infantil y primer grado.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 146
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b6983d4a97e29131d53f2379d33fef182b70f7ef"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/invierno/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "winter",
+      "slug": "invierno",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Vocabulario de invierno en español: fichas a color con nieve, abrigos y bufandas para unidades estacionales y vocabulario de ropa de frío.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "6bc64b220c6d7583cef7ece0c9ff00b2dd0aaff1"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/animales-del-zoologico/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "zoo_animals",
+      "slug": "animales-del-zoologico",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Animales del zoológico en español: fichas a color con león, jirafa, elefante y mono para unidades de animales salvajes en jardín infantil.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "e64374dd6ab77c1a115ae811bde4dfcfde4afa4f"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/animales-bn/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "animals_bw",
+      "slug": "animales-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/animales-bn-2/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "animals_bw_2",
+      "slug": "animales-bn-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/animales-bn-3/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "animals_bw_3",
+      "slug": "animales-bn-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/animales-bn-4/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "animals_bw_4",
+      "slug": "animales-bn-4",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/animales-bn-5/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "animals_bw_5",
+      "slug": "animales-bn-5",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/ropa-bn/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "apparel_bw",
+      "slug": "ropa-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/playa-bn/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "beach_bw",
+      "slug": "playa-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/playa-bn-2/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "beach_bw_2",
+      "slug": "playa-bn-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/aves-byn/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "birds_bw",
+      "slug": "aves-byn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/aves-byn-2/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "birds_bw_2",
+      "slug": "aves-byn-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/navidad-b-n/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "christmas_bw",
+      "slug": "navidad-b-n",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/navidad-b-n-2/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "christmas_bw_2",
+      "slug": "navidad-b-n-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/salon-de-clases-b-n/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "classroom_bw",
+      "slug": "salon-de-clases-b-n",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/salon-de-clases-2-b-n/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "classroom_bw_2",
+      "slug": "salon-de-clases-2-b-n",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/postre-b-n/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "dessert_bw",
+      "slug": "postre-b-n",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/pascua-bn/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "easter_bw",
+      "slug": "pascua-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/pascua-bn-2/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "easter_bw_2",
+      "slug": "pascua-bn-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/educacion-bn/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "education_bw",
+      "slug": "educacion-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/caras-bn/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "faces_bw",
+      "slug": "caras-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/animales-de-granja-bn/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "farm_animals_bw",
+      "slug": "animales-de-granja-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/granja-bn/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "farm_bw",
+      "slug": "granja-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/comida-bn/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "food_bw",
+      "slug": "comida-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/comida-bn-2/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "food_bw_2",
+      "slug": "comida-bn-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/comida-bn-3/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "food_bw_3",
+      "slug": "comida-bn-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/frutas-bn/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "fruits_bw",
+      "slug": "frutas-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/muebles-bn/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "furniture_bw",
+      "slug": "muebles-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/hogar-y-naturaleza-bn/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "home_and_nature_bw",
+      "slug": "hogar-y-naturaleza-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/hogar-bn/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "home_bw",
+      "slug": "hogar-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/hogar-bn-2/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "home_bw_2",
+      "slug": "hogar-bn-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/household-bw/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "household_bw",
+      "slug": "household-bw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/cocina-bn/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "kitchen_bw",
+      "slug": "cocina-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/naturaleza-bn/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "nature_bw",
+      "slug": "naturaleza-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/objetos-bn/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "objects_bw",
+      "slug": "objetos-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/vida-marina-bn/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "sea_life_bw",
+      "slug": "vida-marina-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/vida-marina-bn-2/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "sea_life_bw_2",
+      "slug": "vida-marina-bn-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/espacio-bn/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "space_bw",
+      "slug": "espacio-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/deportes-bn/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "sports_bw",
+      "slug": "deportes-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/deportes-bn-2/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "sports_bw_2",
+      "slug": "deportes-bn-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/herramientas-bn/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "tools_bw",
+      "slug": "herramientas-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/juguetes-bn/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "toys_bw",
+      "slug": "juguetes-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/juguetes-bn-2/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "toys_bw_2",
+      "slug": "juguetes-bn-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/viajes-y-vacaciones-bn/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "travel_and_holiday_bw",
+      "slug": "viajes-y-vacaciones-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/san-valentin-bn/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "valentine_bw",
+      "slug": "san-valentin-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/san-valentin-bn-2/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "valentine_bw_2",
+      "slug": "san-valentin-bn-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/verduras-bn/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "vegetables_bw",
+      "slug": "verduras-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/verduras-bn-2/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "vegetables_bw_2",
+      "slug": "verduras-bn-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/vehiculos-bn/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "vehicles_bw",
+      "slug": "vehiculos-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/vehiculos-bn-2/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "vehicles_bw_2",
+      "slug": "vehiculos-bn-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/vehiculos-bn-3/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "vehicles_bw_3",
+      "slug": "vehiculos-bn-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/animales-del-zoologico-bn/",
+      "locale": "es",
+      "axis": "theme",
+      "axisKey": "zoo_animals_bw",
+      "slug": "animales-del-zoologico-bn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/preescolar/",
+      "locale": "es",
+      "axis": "educational-level",
+      "axisKey": "preschool",
+      "slug": "preescolar",
+      "status": 200,
+      "descriptionLength": 148,
+      "descriptionPreview": "Fichas de preescolar gratis para niños de 3 a 5 años: reconocimiento de formas, colores, números hasta 10 y vocabulario básico de la vida cotidiana.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 148
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "400ee92c04b2f0b95497954b0d28760518697022"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/jardin-infantil/",
+      "locale": "es",
+      "axis": "educational-level",
+      "axisKey": "kindergarten",
+      "slug": "jardin-infantil",
+      "status": 200,
+      "descriptionLength": 147,
+      "descriptionPreview": "Fichas de jardín infantil gratis para niños de 5 a 7 años: reconocimiento de letras, conteo hasta 20 y vocabulario alineado con educación infantil.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 147
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "8937f151b9605a1cee1c5be5f1745c107f0a5dc5"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/grado-1/",
+      "locale": "es",
+      "axis": "educational-level",
+      "axisKey": "grade-1",
+      "slug": "grado-1",
+      "status": 200,
+      "descriptionLength": 153,
+      "descriptionPreview": "Fichas de grado 1 gratis alineadas con LOMLOE: actividades de matemáticas, lectura y vocabulario para niños de 6 a 8 años en el primer ciclo de primaria.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 153
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "962e3017ef6ed7fe7f069218a9b24839cde9599e"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/grado-2/",
+      "locale": "es",
+      "axis": "educational-level",
+      "axisKey": "grade-2",
+      "slug": "grado-2",
+      "status": 200,
+      "descriptionLength": 147,
+      "descriptionPreview": "Fichas de grado 2 alineadas con el currículo de primaria: sumas, restas, lectura y vocabulario para niños de 7 a 9 años con apoyo visual abundante.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 147
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=es)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "99c907281ece22bee56f3d823784d5927d8fd926"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/es/topic/grado-3/",
+      "locale": "es",
+      "axis": "educational-level",
+      "axisKey": "grade-3",
+      "slug": "grado-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    }
+  ]
+}

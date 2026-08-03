@@ -1,0 +1,164 @@
+[
+  {
+    "case": "evenodd-de",
+    "w": 280,
+    "font": "14px",
+    "tileH": "76/76",
+    "texts": "Gerade(r134/span118/L1) Ungerade(r222/span215/L1)",
+    "overflow": false,
+    "anyClip": false
+  },
+  {
+    "case": "evenodd-de",
+    "w": 375,
+    "font": "16.875px",
+    "tileH": "76/76",
+    "texts": "Gerade(r182/span170/L1) Ungerade(r270/span275/L1)",
+    "overflow": false,
+    "anyClip": true
+  },
+  {
+    "case": "evenodd-de",
+    "w": 430,
+    "font": "19.35px",
+    "tileH": "76/76",
+    "texts": "Gerade(r209/span203/L1) Ungerade(r297/span313/L1)",
+    "overflow": false,
+    "anyClip": true
+  },
+  {
+    "case": "evenodd-de",
+    "w": 768,
+    "font": "84.48px",
+    "tileH": "220/220",
+    "texts": "Gerade(r375/span437/L1) Ungerade(r613/span768/L1)",
+    "overflow": true,
+    "anyClip": true
+  },
+  {
+    "case": "evenodd-de",
+    "w": 1024,
+    "font": "88px",
+    "tileH": "220/220",
+    "texts": "Gerade(r503/span580/L1) Ungerade(r741/span914/L1)",
+    "overflow": true,
+    "anyClip": true
+  },
+  {
+    "case": "evenodd-de",
+    "w": 1920,
+    "font": "88px",
+    "tileH": "220/220",
+    "texts": "Gerade(r951/span1028/L1) Ungerade(r1189/span1362/L1)",
+    "overflow": true,
+    "anyClip": true
+  },
+  {
+    "case": "evenodd-fi",
+    "w": 280,
+    "font": "14px",
+    "tileH": "76/76",
+    "texts": "Parillinen(r134/span125/L1) Pariton(r222/span206/L1)",
+    "overflow": false,
+    "anyClip": false
+  },
+  {
+    "case": "evenodd-fi",
+    "w": 375,
+    "font": "16.875px",
+    "tileH": "76/76",
+    "texts": "Parillinen(r182/span185/L1) Pariton(r270/span258/L1)",
+    "overflow": false,
+    "anyClip": true
+  },
+  {
+    "case": "evenodd-fi",
+    "w": 430,
+    "font": "19.35px",
+    "tileH": "76/76",
+    "texts": "Parillinen(r209/span222/L1) Pariton(r297/span292/L1)",
+    "overflow": false,
+    "anyClip": true
+  },
+  {
+    "case": "evenodd-fi",
+    "w": 768,
+    "font": "84.48px",
+    "tileH": "220/220",
+    "texts": "Parillinen(r375/span519/L1) Pariton(r613/span680/L1)",
+    "overflow": false,
+    "anyClip": true
+  },
+  {
+    "case": "evenodd-fi",
+    "w": 1024,
+    "font": "88px",
+    "tileH": "220/220",
+    "texts": "Parillinen(r503/span665/L1) Pariton(r741/span822/L1)",
+    "overflow": true,
+    "anyClip": true
+  },
+  {
+    "case": "evenodd-fi",
+    "w": 1920,
+    "font": "88px",
+    "tileH": "220/220",
+    "texts": "Parillinen(r951/span1113/L1) Pariton(r1189/span1270/L1)",
+    "overflow": false,
+    "anyClip": true
+  },
+  {
+    "case": "flatsolid-nl",
+    "w": 280,
+    "font": "14px",
+    "tileH": "76/76",
+    "texts": "Plat(r134/span108/L1) Lichaam(r222/span209/L1)",
+    "overflow": false,
+    "anyClip": false
+  },
+  {
+    "case": "flatsolid-nl",
+    "w": 375,
+    "font": "16.875px",
+    "tileH": "76/76",
+    "texts": "Plat(r182/span158/L1) Lichaam(r270/span264/L1)",
+    "overflow": false,
+    "anyClip": false
+  },
+  {
+    "case": "flatsolid-nl",
+    "w": 430,
+    "font": "19.35px",
+    "tileH": "76/76",
+    "texts": "Plat(r209/span187/L1) Lichaam(r297/span301/L1)",
+    "overflow": false,
+    "anyClip": true
+  },
+  {
+    "case": "flatsolid-nl",
+    "w": 768,
+    "font": "84.48px",
+    "tileH": "220/220",
+    "texts": "Plat(r375/span337/L1) Lichaam(r613/span716/L1)",
+    "overflow": true,
+    "anyClip": true
+  },
+  {
+    "case": "flatsolid-nl",
+    "w": 1024,
+    "font": "88px",
+    "tileH": "220/220",
+    "texts": "Plat(r503/span468/L1) Lichaam(r741/span860/L1)",
+    "overflow": true,
+    "anyClip": true
+  },
+  {
+    "case": "flatsolid-nl",
+    "w": 1920,
+    "font": "88px",
+    "tileH": "220/220",
+    "texts": "Plat(r951/span916/L1) Lichaam(r1189/span1308/L1)",
+    "overflow": false,
+    "anyClip": true
+  }
+]

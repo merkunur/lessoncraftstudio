@@ -1,0 +1,70 @@
+[
+  {
+    "case": "evenodd-de",
+    "w": 430,
+    "clip": true,
+    "fonts": "Gerade·16.47px·H76·L1·ok  Ungerade·16.47px·H76·L1·CLIP"
+  },
+  {
+    "case": "evenodd-de",
+    "w": 768,
+    "clip": false,
+    "fonts": "Gerade·54px·H197·L1·ok  Ungerade·54px·H227·L2·ok"
+  },
+  {
+    "case": "evenodd-de",
+    "w": 1024,
+    "clip": false,
+    "fonts": "Gerade·64px·H220·L2·ok  Ungerade·64px·H220·L2·ok"
+  },
+  {
+    "case": "evenodd-de",
+    "w": 1920,
+    "clip": false,
+    "fonts": "Gerade·64px·H220·L2·ok  Ungerade·64px·H220·L2·ok"
+  },
+  {
+    "w": 430,
+    "clip": false,
+    "fonts": "Parillinen·16.47px·H76·L1·ok  Pariton·16.47px·H76·L1·ok"
+  },
+  {
+    "w": 768,
+    "clip": false,
+    "fonts": "Parillinen·54px·H227·L2·ok  Pariton·54px·H200·L1·ok"
+  },
+  {
+    "w": 1024,
+    "clip": false,
+    "fonts": "Parillinen·64px·H220·L2·ok  Pariton·64px·H220·L2·ok"
+  },
+  {
+    "w": 1920,
+    "clip": false,
+    "fonts": "Parillinen·64px·H220·L2·ok  Pariton·64px·H220·L2·ok"
+  },
+  {
+    "case": "flatsolid-nl",
+    "w": 430,
+    "clip": false,
+    "fonts": "Plat·16.47px·H76·L1·ok  Lichaam·16.47px·H76·L1·ok"
+  },
+  {
+    "case": "flatsolid-nl",
+    "w": 768,
+    "clip": false,
+    "fonts": "Plat·54px·H120·L1·ok  Lichaam·54px·H223·L1·ok"
+  },
+  {
+    "case": "flatsolid-nl",
+    "w": 1024,
+    "clip": false,
+    "fonts": "Plat·64px·H220·L1·ok  Lichaam·64px·H220·L3·ok"
+  },
+  {
+    "case": "flatsolid-nl",
+    "w": 1920,
+    "clip": false,
+    "fonts": "Plat·64px·H220·L1·ok  Lichaam·64px·H220·L3·ok"
+  }
+]

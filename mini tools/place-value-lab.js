@@ -2204,7 +2204,7 @@ var PlaceValueLab = {
   +   'body.pvl-wide .lcs-header{flex-direction:column;align-items:flex-start;gap:8px;}'
   + '}'
   + '.pvl-wrap{display:flex;flex-direction:column;align-items:center;gap:clamp(8px,1.4vmin,14px);width:100%;}'
-  + '.pvl-grid{display:grid;grid-template-columns:repeat(var(--pvl-p,2),minmax(0,300px));gap:clamp(10px,2vw,20px);justify-content:center;width:100%;}'
+  + '.pvl-grid{display:grid;grid-template-columns:repeat(var(--pvl-p,2),minmax(0,calc(var(--pvl-u,44px) * 6.818)));gap:clamp(10px,2vw,20px);justify-content:center;width:100%;}'
 
   /* prompt strip */
   + '.pvl-prompt{font-family:var(--lcs-font-display);font-weight:700;color:var(--lcs-structure);'
@@ -2260,13 +2260,13 @@ var PlaceValueLab = {
 
   /* the mat */
   + '.pvl-col{background:#FFFEFB;border-radius:22px;box-shadow:var(--lcs-shadow);display:flex;'
-  +   'flex-direction:column;align-items:center;gap:8px;padding:12px 12px 14px;min-height:300px;}'
+  +   'flex-direction:column;align-items:center;gap:8px;padding:12px 12px 14px;min-height:calc(var(--pvl-u,44px) * 6.818);}'
   + '.pvl-col--tens{background:linear-gradient(rgba(20,107,94,.06),rgba(20,107,94,.06)),#FFFEFB;}'
   + '.pvl-col--hundreds{background:linear-gradient(rgba(242,200,121,.1),rgba(242,200,121,.1)),#FFFEFB;}'
   + '.pvl-collbl{font-family:var(--lcs-font-body);font-weight:800;font-size:15px;letter-spacing:.06em;'
   +   'text-transform:uppercase;color:var(--lcs-ink-soft);}'
-  + '.pvl-add{width:56px;height:48px;border-radius:16px;border:none;cursor:pointer;'
-  +   'font-family:var(--lcs-font-display);font-weight:700;font-size:30px;line-height:1;color:#fff;'
+  + '.pvl-add{width:calc(var(--pvl-u,44px) * 1.273);height:calc(var(--pvl-u,44px) * 1.091);border-radius:16px;border:none;cursor:pointer;'
+  +   'font-family:var(--lcs-font-display);font-weight:700;font-size:calc(var(--pvl-u,44px) * .682);line-height:1;color:#fff;'
   +   'background:#F2784B;box-shadow:0 3px 0 0 #C9502A;transition:transform .1s var(--lcs-ease);}'
   + '.pvl-add.pvl-hue-tens{background:#146B5E;box-shadow:0 3px 0 0 #0E4A41;}'
   + '.pvl-add.pvl-hue-hundreds{background:#F2C879;color:#6B4E12;box-shadow:0 3px 0 0 #B98A2E;}'
@@ -2274,10 +2274,10 @@ var PlaceValueLab = {
   /* left-aligned wrap so a 7th rod reads "6 and one more", not a stray */
   + '.pvl-tray{flex:1;width:100%;display:flex;flex-wrap:wrap;gap:6px;align-content:flex-start;'
   +   'justify-content:flex-start;padding:8px 8px 8px 16px;border-radius:14px;}'
-  + '.pvl-tray--ones{display:grid;grid-template-columns:repeat(5,44px);grid-auto-rows:44px;gap:8px;'
+  + '.pvl-tray--ones{display:grid;grid-template-columns:repeat(5,var(--pvl-u,44px));grid-auto-rows:var(--pvl-u,44px);gap:calc(var(--pvl-u,44px) * .182);'
   +   'justify-content:center;align-content:flex-start;}'
   + '.pvl-tray--ones.offer{outline:3px dashed #F2C879;outline-offset:4px;border-radius:14px;}'
-  + '.pvl-slot{width:44px;height:44px;border-radius:10px;border:2px dotted rgba(20,30,28,.14);}'
+  + '.pvl-slot{width:var(--pvl-u,44px);height:var(--pvl-u,44px);border-radius:10px;border:2px dotted rgba(20,30,28,.14);}'
   + '.pvl-slot.extra{border-color:rgba(242,200,121,.7);}'
   + '.pvl-block{border:none;background:none;padding:0;cursor:pointer;transition:transform .1s var(--lcs-ease);}'
   + '.pvl-block:active{transform:scale(.94);}'
@@ -2285,15 +2285,15 @@ var PlaceValueLab = {
   + '.pvl-block.marked:after{content:"✕";position:absolute;inset:0;margin:auto;width:26px;height:26px;'
   +   'display:grid;place-items:center;color:#8A5A3A;font-weight:800;font-size:18px;'
   +   'background:rgba(255,254,251,.92);border-radius:50%;box-shadow:0 1px 3px rgba(20,30,28,.18);}'
-  + '.pvl-cube{width:44px;height:44px;display:block;}'
+  + '.pvl-cube{width:var(--pvl-u,44px);height:var(--pvl-u,44px);display:block;}'
   + '.pvl-cube svg{width:100%;height:100%;display:block;}'
   + '.pvl-slot .pvl-cube{margin:-2px;}'
   /* rods NEVER wrap — they compress in one row (7 tens must not spawn
      a second 190px row and push the dock under the fold) */
   + '.pvl-tray--tens{flex-wrap:nowrap;}'
-  + '.pvl-rod{width:34px;flex:0 1 34px;min-width:15px;height:190px;display:block;}'
+  + '.pvl-rod{width:calc(var(--pvl-u,44px) * .773);flex:0 1 calc(var(--pvl-u,44px) * .773);min-width:15px;height:calc(var(--pvl-u,44px) * 4.318);display:block;}'
   + '.pvl-rod svg{width:100%;height:100%;display:block;}'
-  + '.pvl-flat{width:120px;height:120px;display:block;}'
+  + '.pvl-flat{width:calc(var(--pvl-u,44px) * 2.727);height:calc(var(--pvl-u,44px) * 2.727);display:block;}'
   + '.pvl-flat svg{width:100%;height:100%;display:block;}'
   + '.pvl-incoming{visibility:hidden;}'
   + '.pvl-ctx{min-height:44px;display:flex;align-items:center;justify-content:center;}'
@@ -2390,6 +2390,55 @@ var PlaceValueLab = {
   +   '.pvl-speak.decomp{position:static;}'
   +   '.pvl-speak:active{transform:translateY(2px);}'
   + '}'
+  /* ---- wide board (§23 the apparatus a teacher teaches FROM) ----
+     Every piece of this apparatus is a multiple of ONE unit — the ones cube
+     is 44px, a rod is 34x190, a flat is 120x120, a column is 300 wide and
+     300 tall, the add button 56x48. They are all expressed as ratios of
+     --pvl-u above, so a tier is one number and no ratio can drift: a rod
+     stays exactly ten cubes tall and a flat exactly ten rods wide, which is
+     the entire point of the instrument. Ramping them one by one would let
+     that relationship rot silently, and NOTHING in the gate suite measures
+     "is a flat still ten rods" — the pieces are drawn art, not a computed
+     model.
+     ⚠ The column labels, place-value chips and dock sit outside the block
+     geometry and are ramped separately; leaving them turns a big apparatus
+     into a big apparatus with phone-sized controls. */
+  + '@media (min-width:1367px) and (min-height:880px){'
+  +   'body.pvl-wide .lcs-app{max-width:min(1192px,97vw);}'
+  +   'body.pvl-wide .pvl-wrap{--pvl-u:min(56px,calc((1192px - 76px - (var(--pvl-p,2) - 1) * 20px) / var(--pvl-p,2) / 6.818));}'
+  +   'body.pvl-wide .pvl-collbl{font-size:18px;}'
+  +   'body.pvl-wide .pvl-ctxbtn{font-size:18px;}'
+/* ⚠ .pvl-speak is position:absolute;right:56px inside a full-width row,
+     so widening the board did not move it CLOSER to the number word — it
+     pinned it to the right edge of a 1704px row, ~600px away from the
+     thing it speaks. The tool already has a correct layout for this: the
+     phone rule puts the two buttons back in the flow, next to the word.
+     Use it here too, and size them off the unit like everything else. */
+  +   'body.pvl-wide .pvl-speak{position:static;transform:none;'
+  +     'width:calc(var(--pvl-u,44px) * 1.09);height:calc(var(--pvl-u,44px) * 1.09);}'
+  +   'body.pvl-wide .pvl-speak:active{transform:translateY(2px);}'
+  +   'body.pvl-wide .pvl-speak svg{width:60%;height:60%;}'
+  +   'body.pvl-wide .pvl-wordrow{gap:16px;}'
+  /* ⚠ putting the buttons back in the flow pushed the number word off the
+     centre line, and the word sitting directly under the digit cards IS the
+     teaching point (24 = two tens and four ones). A mirror spacer the exact
+     width of the two buttons and their gaps restores the centring with no
+     DOM change: 2 x (u x 1.09) + two 16px gaps. */
+  +   'body.pvl-wide .pvl-wordrow::before{content:"";flex:0 0 calc(var(--pvl-u,44px) * 2.18 + 32px);}'
+  + '}'
+  + '@media (min-width:1800px) and (min-height:1080px){'
+  +   'body.pvl-wide .lcs-app{max-width:min(1560px,97vw);}'
+  +   'body.pvl-wide .pvl-wrap{--pvl-u:min(70px,calc((1560px - 76px - (var(--pvl-p,2) - 1) * 20px) / var(--pvl-p,2) / 6.818));}'
+  +   'body.pvl-wide .pvl-collbl{font-size:21px;}'
+  +   'body.pvl-wide .pvl-ctxbtn{font-size:20px;}'
+  + '}'
+  + '@media (min-width:2400px) and (min-height:1150px){'
+  +   'body.pvl-wide .lcs-app{max-width:min(1752px,97vw);}'
+  +   'body.pvl-wide .pvl-wrap{--pvl-u:min(94px,calc((1752px - 76px - (var(--pvl-p,2) - 1) * 20px) / var(--pvl-p,2) / 6.818));}'
+  +   'body.pvl-wide .pvl-collbl{font-size:23px;}'
+  +   'body.pvl-wide .pvl-ctxbtn{font-size:22px;}'
+  + '}'
+
   /* reduced motion */
   + '@media (prefers-reduced-motion: reduce){'
   +   '.pvl-ctxbtn.make,.pvl-ctxbtn.break.glow{animation:none;box-shadow:0 3px 0 0 #B98A2E,0 0 0 4px rgba(242,200,121,.4);}'

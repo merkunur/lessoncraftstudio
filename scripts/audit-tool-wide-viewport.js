@@ -782,10 +782,21 @@ function staticRisks(key) {
            three-word sentence. Filling half a 2560 board would mean type so
            large the sentence wraps, which is a worse instrument. The measure
            that says whether a class can read it is the rendered TYPE. */
-        'asking-bench': { minFont: 34, sel: '.abn-card', why: 'the apparatus is a sentence; extent is its length, not a box' }
+        'asking-bench': { minFont: 34, sel: '.abn-card', why: 'the apparatus is a sentence; extent is its length, not a box' },
+        /* ⚠ NO APPARATUS AT REST. Until a roster is loaded this tool shows an
+           empty roster strip, so FILL measures the chips in an EMPTY state and
+           reports 11.7% — a number about the empty page, not the instrument.
+           The jar exists only once there are students; it is measured in the
+           POPULATED state by local-test-name-sticks.js section W, which asserts
+           strict growth (234 -> 410/460/520px) and no cut-off. `checkedElsewhere`
+           skips the FILL floor entirely rather than replacing it with a measure
+           this page cannot take. */
+        'name-sticks': { checkedElsewhere: 'local-test-name-sticks.js section W (jar growth, populated roster)' }
       };
       const ex = FILL_EXEMPT[r.key];
-      if (ex && ex.minFont) {
+      if (ex && ex.checkedElsewhere) {
+        console.log('  note ' + r.key + ' FILL checked elsewhere — ' + ex.checkedElsewhere);
+      } else if (ex && ex.minFont) {
         /* non-vacuity first: an exemption that could not measure its own
            element must FAIL, never pass in place of the floor it replaces. */
         say(d.exemptF !== null && d.exemptF >= ex.minFont,

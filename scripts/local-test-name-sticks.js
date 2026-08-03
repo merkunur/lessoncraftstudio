@@ -426,6 +426,53 @@ async function forcePremiumWithClass(page, names) {
   if (realErrors.length) FAIL(`console: ${realErrors.slice(0, 4).join(' | ')}`);
   else OK('console clean');
 
+  /* ---------- W. the JAR grows on a wide board ----------
+     ⭐⭐ THIS TOOL HAS NO APPARATUS AT REST. Until a roster is loaded the page
+     shows an empty roster strip, so the shared wide gate's FILL measure sees
+     only small chips and reports 11.7% — a number about the EMPTY state, not
+     about the instrument. The jar (and the drawn name that comes out of it)
+     exist only once there are students, which is why FILL is exempted there
+     and measured HERE instead.
+     Strictly larger than at 1366, and nothing past the fold. */
+  console.log('\nW. jar growth on a wide board');
+  {
+    let base = null;
+    for (const vp of [{ width: 1366, height: 900 }, { width: 1920, height: 1080 },
+      { width: 2400, height: 1150 }, { width: 2560, height: 1440 }]) {
+      await page.setViewport(vp);
+      await page.goto(BASE + '?lang=de', { waitUntil: 'networkidle0' });
+      await page.evaluate(() => {
+        NameSticks._session.students = ['Anna', 'Bruno', 'Clara', 'David', 'Emma', 'Finn', 'Greta', 'Hugo']
+          .map((n, i) => ({ id: 's' + i, name: n }));
+        NameSticks.render();
+      });
+      await new Promise((r) => setTimeout(r, 300));
+      const m = await page.evaluate(() => {
+        const jar = document.querySelector('.nsk-jar');
+        if (!jar) return null;
+        let low = 0;
+        document.querySelectorAll('button').forEach((e) => {
+          const r = e.getBoundingClientRect(); if (r.width) low = Math.max(low, r.bottom);
+        });
+        const r = jar.getBoundingClientRect();
+        return { w: r.width, h: r.height, low: low, vh: window.innerHeight };
+      });
+      /* non-vacuity: no jar means the measurement is void, not passing */
+      if (!m) { FAIL(`jar @${vp.width}: no .nsk-jar rendered after loading a roster — measurement void`); continue; }
+      if (vp.width === 1366) { base = m; OK(`1366 baseline: jar ${Math.round(m.w)}px`); continue; }
+      /* ⚠ 1.5x, AND THE NUMBER IS MEASURED, NOT PICKED. A 1.05 margin did not
+         discriminate: the un-tiered build ALREADY grows 234 -> 300px, because
+         `clamp(200px,30vmin,300px)` reaches its own 300 ceiling on a tall
+         board — 28%. The tiers raise that ceiling to at least 390, giving
+         75% / 97% / 122%. 1.5x sits between the two with wide margin on both
+         sides. Poison-tested: 3/3 failures against HEAD, 3/3 passes here. */
+      if (m.w <= base.w * 1.5) FAIL(`jar @${vp.width}: ${Math.round(m.w)}px against ${Math.round(base.w)}px at 1366 — the board grew and the jar barely did`);
+      else if (m.low > m.vh + 0.5) FAIL(`jar @${vp.width}: controls run ${Math.round(m.low - m.vh)}px past the fold`);
+      else OK(`@${vp.width}: jar ${Math.round(base.w)} -> ${Math.round(m.w)}px, fits`);
+    }
+    await page.setViewport({ width: 1024, height: 768 });
+  }
+
   await browser.close();
   server.close();
   console.log('\n' + (fails.length ? `FAIL — ${fails.length} failure(s)` : 'PASS — name-sticks DoD green'));

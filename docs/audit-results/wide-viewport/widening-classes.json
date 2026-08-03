@@ -1,0 +1,58 @@
+{
+ "CARD-RAISE": [
+  "calendar-wall",
+  "wodb"
+ ],
+ "GEOMETRY": [
+  "blending-board",
+  "class-timer",
+  "letter-tiles",
+  "measurement-bench",
+  "money-mat",
+  "number-talk-easel",
+  "place-value-lab",
+  "rekenrek",
+  "sound-boxes",
+  "story-line"
+ ],
+ "NO-UNIT": [
+  "asking-bench",
+  "build-plan",
+  "center-board",
+  "fraction-kitchen",
+  "heart-words",
+  "hush-owl",
+  "learning-clock",
+  "letter-studio",
+  "name-sticks",
+  "reading-easel",
+  "ruler"
+ ],
+ "SKIP": [
+  "arrow-strip",
+  "choral-counting",
+  "class-graph",
+  "cold-line",
+  "comparison-planks",
+  "dictation-desk",
+  "draw-bag",
+  "estimation-jar",
+  "feelings-check-in",
+  "folding-sheet",
+  "home-language-bridge",
+  "lids",
+  "number-balance",
+  "number-line",
+  "number-sieve",
+  "open-number-line",
+  "our-day",
+  "part-whole-frame",
+  "pattern-bench",
+  "picture-word-wall",
+  "sorting-hoops",
+  "syllable-splitter",
+  "ten-frame",
+  "unit-handle",
+  "unroll-tape"
+ ]
+}

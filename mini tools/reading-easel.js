@@ -843,6 +843,27 @@ function injectReadingEaselCSS() {
     +   '.rde-word{font-size:clamp(21px,6.4vmin,56px);}}'
     + '@media print{.rde-bar,.rde-hint,.rde-editor,.rde-foot,.rde-gate,.rde-voicemiss{display:none!important;}'
     +   '.rde-linebox{border:none;background:none;}}'
+    /* ---- wide board (§23 the apparatus a teacher teaches FROM) ----
+       The apparatus is TEXT: `.rde-linebox` caps at 760px and the word type at
+       `clamp(24px, 6.4vmin, 56px)` — 6.4vmin is 92px at 1440, so the 56px
+       CEILING bound and a shared-reading line a class reads together stayed at
+       its design size inside a 1752 card. Box and type move together; a wider
+       box alone would only have put more air between the same small words. */
+    + '@media (min-width:1367px) and (min-height:880px){'
+    +   'body.rde-wide .rde-linebox{width:min(100%,1060px);}'
+    +   'body.rde-wide .rde-word{font-size:clamp(24px,6.4vmin,74px);}'
+    +   'body.rde-wide .rde-chip{min-height:52px;font-size:17px;}'
+    + '}'
+    + '@media (min-width:1800px) and (min-height:1080px){'
+    +   'body.rde-wide .rde-linebox{width:min(100%,1360px);}'
+    +   'body.rde-wide .rde-word{font-size:clamp(24px,6.4vmin,92px);}'
+    +   'body.rde-wide .rde-chip{min-height:56px;font-size:19px;}'
+    + '}'
+    + '@media (min-width:2400px) and (min-height:1150px){'
+    +   'body.rde-wide .rde-linebox{width:min(100%,1560px);}'
+    +   'body.rde-wide .rde-word{font-size:clamp(24px,6.4vmin,106px);}'
+    +   'body.rde-wide .rde-chip{min-height:60px;font-size:21px;}'
+    + '}'
     + '@media (prefers-reduced-motion:reduce){.rde-word{transition:none;}}';
   document.head.appendChild(st);
 }

@@ -1417,6 +1417,46 @@ function injectOpenNumberLineCSS() {
     +   'color:#146B5E;font:600 14px/1 Nunito,system-ui,sans-serif;text-decoration:underline;}'
     + '@media (max-width:560px){body.onl-wide{overflow-y:auto;}}'
     + '@media (max-width:480px){body.onl-wide .lcs-header{flex-direction:column;align-items:flex-start;gap:8px;}}'
+    /* ---- wide board (§23 the apparatus a teacher teaches FROM) ----
+       ⭐ THIS IS THE ONE-CAP SHAPE. The line lives in a viewBox SVG with
+       `width:100%;height:auto`, so raising `.onl-sheet`'s max-width scales the
+       axis, the landing marks and every number with it. `.onl-num`,
+       `.onl-note` and `.onl-mark` are in viewBox UNITS and must NOT be ramped
+       — they already scale, and ramping them too is the double-scale failure
+       recorded from batch 2.
+       ⚠ Nothing may go BETWEEN .onl-sheet and .onl-svg: the drag marker is an
+       HTML overlay whose containing block must be exactly the SVG box, and
+       6px of padding there was once enough to land a drag a whole friendly
+       step short. Only the cap changes here.
+       Hand-ramped, because they are fixed-px HTML beside a scaling SVG: the
+       marker disc (the 44px hit area grows with it) and the control row. */
+    + '@media (min-width:1367px) and (min-height:880px){'
+    +   'body.onl-wide .onl-sheet{max-width:1100px;}'
+    +   'body.onl-wide .onl-marker{width:56px;height:56px;}'
+    +   'body.onl-wide .onl-marker::after{width:34px;height:34px;}'
+    +   'body.onl-wide .onl-go,body.onl-wide .onl-linkbtn{min-height:52px;padding:0 24px;font-size:18px;}'
+  +   'body.onl-wide .onl-step{min-width:54px;min-height:54px;font-size:24px;}'
+  +   'body.onl-wide .onl-startlbl{font-size:19px;}'
+  +   'body.onl-wide .onl-startval{font-size:32px;}'
+    + '}'
+    + '@media (min-width:1800px) and (min-height:1080px){'
+    +   'body.onl-wide .onl-sheet{max-width:1470px;}'
+    +   'body.onl-wide .onl-marker{width:64px;height:64px;}'
+    +   'body.onl-wide .onl-marker::after{width:40px;height:40px;}'
+    +   'body.onl-wide .onl-go,body.onl-wide .onl-linkbtn{min-height:56px;padding:0 26px;font-size:20px;}'
+  +   'body.onl-wide .onl-step{min-width:60px;min-height:60px;font-size:27px;}'
+  +   'body.onl-wide .onl-startlbl{font-size:21px;}'
+  +   'body.onl-wide .onl-startval{font-size:38px;}'
+    + '}'
+    + '@media (min-width:2400px) and (min-height:1150px){'
+    +   'body.onl-wide .onl-sheet{max-width:1700px;}'
+    +   'body.onl-wide .onl-marker{width:72px;height:72px;}'
+    +   'body.onl-wide .onl-marker::after{width:46px;height:46px;}'
+    +   'body.onl-wide .onl-go,body.onl-wide .onl-linkbtn{min-height:60px;padding:0 30px;font-size:22px;}'
+  +   'body.onl-wide .onl-step{min-width:66px;min-height:66px;font-size:30px;}'
+  +   'body.onl-wide .onl-startlbl{font-size:23px;}'
+  +   'body.onl-wide .onl-startval{font-size:44px;}'
+    + '}'
     + '@media (prefers-reduced-motion:reduce){.onl-dim{transition:none;}}'
     + '@media print{'
     +   '.onl-controls,.onl-scrim,.onl-head{display:none !important;}'

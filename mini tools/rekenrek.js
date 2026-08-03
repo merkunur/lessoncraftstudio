@@ -1223,13 +1223,58 @@ var Rekenrek = {
   },
 
   _geom: function () {
-    var d = this.BEAD_D[this.session.rackCount] || 52;
+    var rc = this.session.rackCount;
+    var base = this.BEAD_D[rc] || 52;
+    /* rod pitch has always been a fixed multiple of the bead — keep the SAME
+       ratio when the bead grows, or the flex `gap: pitch - d` goes negative
+       and the rods overlap. At the unscaled diameter this reproduces
+       ROD_PITCH exactly (64x1.3125=84, 52x1.3077=68, 40x1.3=52, 34x1.3529=46),
+       so nothing moves below the tiers. */
+    var ratio = (this.ROD_PITCH[rc] || 60) / base;
     var w = this._board ? this._board.clientWidth : 800;
     /* fit: 10 beads + ≥4 diameters travel must fit the rod span */
     var span = w - 56;                    /* board padding + breathing */
     var maxD = Math.floor(span / 14.5);   /* 10 beads + 4.5 travel */
-    d = Math.min(d, Math.max(24, maxD));
-    return { d: d, span: span, inset: 2 };
+    /* ⭐⭐ THE BEAD CEILING WAS A JS CONSTANT, AND THAT IS WHY THE FIRST
+       ATTEMPT AT THIS TOOL WAS WITHDRAWN. Raising the card alone grew the
+       BOARD and left the beads at 64px — bead fill fell from 62% to 38% and
+       every measured assertion still passed. The diameter is what the child
+       actually looks at, so the ceiling now comes from --rkr-dmax, declared
+       in CSS where it can key on width AND height together.
+       ⚠ The width rule above still binds: at 2560 `span/14.5` allows ~113px,
+       so the bead grows until the rod runs out of travel and no further. The
+       cap raises a ceiling; it does not set a size. */
+    var cap = parseFloat(getComputedStyle(document.body).getPropertyValue('--rkr-dmax'));
+    if (!(cap > 0)) cap = 1;
+    var d = Math.min(base * cap, Math.max(24, maxD));
+    /* ⚠ AND A TALL RACK IS BOUND BY HEIGHT, NOT WIDTH. Ten rods at a 113px
+       bead would stand 1500px — taller than the 1150 board this tier's floor
+       assumes. Measure the room actually left under the board rather than
+       assuming it. Applied ONLY when the cap is raised, so the layout at or
+       below 1366 is byte-identical to before. */
+    if (cap > 1 && this._board && this._wrap) {
+      var br = this._board.getBoundingClientRect();
+      var below = this._wrap.getBoundingClientRect().bottom - br.bottom;
+      /* ⚠ COUNT RODS, NOT RACKS, AND USE THE REAL STACK FORMULA. The board is
+         a flex column with `gap: pitch - d`, so N rods stand
+         d + (N-1)·pitch — NOT N·pitch. And a rack is two rods up to two
+         racks and one thereafter (_rowsFor). The first version got both wrong
+         and a ten-rod board overran the fold by 4-6px at 1920 and 2400. */
+      var nRods = rc * this._rowsFor();
+      /* ⚠ AND THE BOARD'S OWN CHROME MUST NOT BE DERIVED FROM THE STACK IT IS
+         SIZING. Deducing it as `board.height - stack` is self-referential —
+         during a re-layout the height and the --rkr-d it is compared against
+         belong to different frames, and the estimate collapsed a ten-rod board
+         to a 32px bead at 1920, SMALLER than the 34px it has at 1366. Padding
+         and border are stable and exact; read them. */
+      var cs = getComputedStyle(this._board);
+      var boardChrome = (parseFloat(cs.paddingTop) || 0) + (parseFloat(cs.paddingBottom) || 0)
+        + (parseFloat(cs.borderTopWidth) || 0) + (parseFloat(cs.borderBottomWidth) || 0);
+      var availH = window.innerHeight - br.top - below - boardChrome - 28;
+      var denom = 1 + (nRods - 1) * ratio;
+      if (availH > 60) d = Math.min(d, Math.max(24, Math.floor(availH / denom)));
+    }
+    return { d: d, pitch: Math.round(d * ratio), span: span, inset: 2 };
   },
 
   _layoutAll: function () {
@@ -1237,7 +1282,7 @@ var Rekenrek = {
     if (!this._rods) return;
     var g = this._geom();
     this._board.style.setProperty('--rkr-d', g.d + 'px');
-    this._board.style.setProperty('--rkr-pitch', (this.ROD_PITCH[this.session.rackCount] || 60) + 'px');
+    this._board.style.setProperty('--rkr-pitch', g.pitch + 'px');
     this._rods.forEach(function (entry) { self._layoutRod(entry, 0, null); });
   },
 
@@ -2140,12 +2185,37 @@ var Rekenrek = {
      children stay fixed is the draw-bag lesson in a new dress: the card
      grew and the instrument did not.
 
-     ⚠ THE BEAD DIAMETER IS SET IN JS — `--rkr-d` from the geometry object
-     at :1239 — so no CSS tier can reach it. Making this tool genuinely
-     bigger means changing its geometry code, which is real work and not
-     something to slip into a commit about card widths. Filed, not faked:
-     a wider empty rail is not a wider rekenrek.
+     ⚠ THE BEAD DIAMETER IS SET IN JS — `--rkr-d` from the geometry object —
+     so no CSS tier could reach it. That work is now DONE: `_geom()` reads a
+     --rkr-dmax ceiling from CSS, so the tiers below raise the ceiling and the
+     tool's own `span/14.5` rule (10 beads plus travel) decides the actual
+     size. A tall rack is bound by the measured room under the board instead,
+     because ten rods at a 113px bead would stand 1500px. The rod pitch keeps
+     its fixed ratio to the bead so the flex `gap: pitch - d` can never go
+     negative. Below 1367 the cap is 1 and the height clamp is skipped, so the
+     layout is byte-identical to the one measured above.
      ===================================================================== */
+  + '@media (min-width:1367px) and (min-height:880px){'
+  +   'body.rkr-wide{--rkr-dmax:1.55;}'
+  +   'body.rkr-wide .lcs-app{max-width:min(1192px,96vw);}'
+  +   'body.rkr-wide .rkr-ctrlchip{font-size:17px;min-height:56px;padding:12px 22px;}'
+  +   'body.rkr-wide .rkr-chip{font-size:16px;min-height:52px;padding:10px 18px;}'
+  +   'body.rkr-wide .rkr-show{font-size:22px;min-height:62px;min-width:150px;}'
+  + '}'
+  + '@media (min-width:1800px) and (min-height:1080px){'
+  +   'body.rkr-wide{--rkr-dmax:1.95;}'
+  +   'body.rkr-wide .lcs-app{max-width:min(1560px,96vw);}'
+  +   'body.rkr-wide .rkr-ctrlchip{font-size:19px;min-height:60px;padding:13px 24px;}'
+  +   'body.rkr-wide .rkr-chip{font-size:18px;min-height:56px;padding:11px 20px;}'
+  +   'body.rkr-wide .rkr-show{font-size:25px;min-height:68px;min-width:170px;}'
+  + '}'
+  + '@media (min-width:2400px) and (min-height:1150px){'
+  +   'body.rkr-wide{--rkr-dmax:2.3;}'
+  +   'body.rkr-wide .lcs-app{max-width:min(1752px,96vw);}'
+  +   'body.rkr-wide .rkr-ctrlchip{font-size:21px;min-height:64px;padding:14px 26px;}'
+  +   'body.rkr-wide .rkr-chip{font-size:20px;min-height:60px;padding:12px 22px;}'
+  +   'body.rkr-wide .rkr-show{font-size:28px;min-height:74px;min-width:190px;}'
+  + '}'
   + '@media (prefers-reduced-motion: reduce){'
   +   '.rkr-rod.settle .rkr-bead{transition:transform .12s linear;}'
   +   '.rkr-bead.rkr-wobble,.rkr-readout.rkr-pop{animation:none;}'

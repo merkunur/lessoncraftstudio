@@ -487,6 +487,67 @@ async function gapOf(page) {
     else OK(`${lang}: "${title}"`);
   }
 
+  /* ---------- H2. the bead grows on a wide board, at EVERY rack count ----
+     ⭐⭐ THIS IS THE CHECK THAT GOT THE FIRST ATTEMPT AT THIS TOOL WITHDRAWN.
+     Raising the card grew the BOARD and left the bead at 64px: bead fill fell
+     62% -> 38%, the instrument got worse, and every measured assertion still
+     passed because they all measure the apparatus BOX. The bead is what the
+     child looks at, so measure the BEAD.
+     Three things are asserted per cell, and the last two are why the height
+     clamp exists at all: the bead is never SMALLER than it is at 1366, no two
+     rods overlap (the flex `gap: pitch - d` must not go negative), and the
+     apparatus does not run past the fold — a ten-rod board at an unclamped
+     113px bead would stand 1500px. */
+  console.log('\nH2. bead growth on a wide board');
+  await page.goto(BASE + '?lang=de', { waitUntil: 'networkidle0' });
+  const RACKS = [1, 2, 5, 10];
+  for (const racks of RACKS) {
+    const base = {};
+    for (const vp of [{ width: 1366, height: 900 }, { width: 1920, height: 1080 },
+      { width: 2400, height: 1150 }, { width: 2560, height: 1440 }]) {
+      await page.setViewport(vp);
+      await page.evaluate((n) => { Rekenrek.premium = true; Rekenrek._setRackCount(n); }, racks);
+      await new Promise((r) => setTimeout(r, 260));
+      const m = await page.evaluate(() => {
+        const rods = [...document.querySelectorAll('.rkr-rod')];
+        const beads = [...document.querySelectorAll('.rkr-bead')];
+        const wrap = document.querySelector('.rkr-wrap');
+        if (!rods.length || !beads.length || !wrap) return null;
+        let overlap = 0;
+        for (let i = 1; i < rods.length; i++) {
+          const a = rods[i - 1].getBoundingClientRect(), c = rods[i].getBoundingClientRect();
+          if (c.top < a.bottom - 0.5) overlap++;
+        }
+        return {
+          rods: rods.length, beads: beads.length, overlap,
+          bead: beads[0].getBoundingClientRect().width,
+          rod: rods[0].getBoundingClientRect().width,
+          bottom: wrap.getBoundingClientRect().bottom, vh: window.innerHeight
+        };
+      });
+      /* rows-per-rack is TWO up to two racks and ONE thereafter — the tool's
+         own _rowsFor rule. Non-vacuity before any claim about size. */
+      const expRods = racks * (racks > 2 ? 1 : 2);
+      if (!m || m.rods !== expRods || m.beads !== expRods * 10) {
+        FAIL(`${racks} rack(s) @${vp.width}: expected ${expRods} rods / ${expRods * 10} beads, got ` +
+          (m ? `${m.rods}/${m.beads}` : 'nothing') + ' — measurement void');
+        continue;
+      }
+      if (vp.width === 1366) { base.bead = m.bead; continue; }
+      const fill = Math.round(m.bead * 10 / m.rod * 100);
+      /* ⚠⚠ STRICTLY LARGER, NOT "not smaller". The first version of this
+         assertion said `bead >= bead@1366` and PASSED on the un-fixed build,
+         where the bead is a frozen 64px at every width — the precise defect it
+         was written to catch. Poison-tested against HEAD before this line was
+         trusted: it now fails 12/12 there and passes 12/12 here. */
+      if (m.bead <= base.bead + 0.5) FAIL(`${racks} rack(s) @${vp.width}: bead is still ${Math.round(m.bead)}px, the same as at 1366 — the board grew and the instrument did not`);
+      else if (m.overlap) FAIL(`${racks} rack(s) @${vp.width}: ${m.overlap} rod(s) overlap — pitch went below the bead`);
+      else if (m.bottom > m.vh + 0.5) FAIL(`${racks} rack(s) @${vp.width}: apparatus runs ${Math.round(m.bottom - m.vh)}px past the fold`);
+      else OK(`${racks} rack(s) @${vp.width}: bead ${Math.round(base.bead)} -> ${Math.round(m.bead)}px, ${fill}% of the rod, fits`);
+    }
+  }
+  await page.setViewport({ width: 1024, height: 768 });
+
   /* ---------- I. console ---------- */
   console.log('\nI. console');
   const realErrors = consoleErrors.filter(e => !/favicon|404|Failed to load resource/.test(e));

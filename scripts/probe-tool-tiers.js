@@ -186,6 +186,39 @@ const WALK = (pfx) => {
   const best = Object.keys(tally).filter((k) => tally[k].length >= 3)
     .sort((a, b) => tally[b].length - tally[a].length)[0];
   if (!best) return { unit: null, rows: [] };
+  /* ⭐⭐ TWO BRANCHES, NOT ONE. The walk starts from the most-REPEATED unit,
+     and number-balance proved that is not always the branch that matters: I
+     raised its tray and tile, read the render, and the BEAM AND PANS — the
+     instrument the tool is named for — were still ~420px beside a 1320px
+     tray, because `.nbal-stage` sits on a sibling branch with its own
+     `width:min(100%,700px)`. Growing the supply and leaving the apparatus is
+     the hollow-widening defect one level sideways, and the HOLLOW-WIDENING
+     assertion passed it because the tile genuinely grew.
+     So the widest inked box is walked too, and both chains are reported. */
+  const widest = (() => {
+    let el = null, w = 0;
+    scope.querySelectorAll('*').forEach((e) => {
+      const c = String(e.className && e.className.baseVal !== undefined ? e.className.baseVal : e.className || '');
+      if (!c || CHROME.test(c) || !draws(e)) return;
+      const r = e.getBoundingClientRect();
+      if (r.height > 8 && r.width > w) { w = r.width; el = e; }
+    });
+    return el;
+  })();
+  const walkFrom = (start) => {
+    let n = start, out = [];
+    while (n && n !== document.body) {
+      const cs = getComputedStyle(n);
+      out.push({
+        cls: String(n.className && n.className.baseVal !== undefined ? n.className.baseVal : n.className || n.tagName).slice(0, 30),
+        w: Math.round(n.getBoundingClientRect().width), maxW: cs.maxWidth, width: cs.width
+      });
+      n = n.parentElement;
+    }
+    return out;
+  };
+  const wideRows = widest && widest !== tally[best][0] ? walkFrom(widest) : null;
+
   let n = tally[best][0], rows = [];
   while (n && n !== document.body) {
     const cs = getComputedStyle(n);
@@ -196,7 +229,7 @@ const WALK = (pfx) => {
     });
     n = n.parentElement;
   }
-  return { unit: best, rows: rows };
+  return { unit: best, rows: rows, wideRows: wideRows, wideCls: widest ? String(widest.className || '').slice(0, 30) : null };
 };
 
 (async () => {
@@ -211,10 +244,39 @@ const WALK = (pfx) => {
     const w = await p0.evaluate(WALK, pfx);
     console.log('\n' + KEY + ' — the cap chain at 2560x1440, unit `.' + (w && w.unit) + '`');
     console.log('  element                          width   max-width     css width');
-    (w ? w.rows : []).forEach((r) => {
-      const capped = r.maxW !== 'none' && Math.abs(parseFloat(r.maxW) - r.w) < 2;
+    /* ⚠⚠ FLAG ANY ANCESTOR NARROWER THAN ITS PARENT, not just a `max-width`.
+       The first version tested max-width only and reported number-balance as
+       having NO cap anywhere — while `.nbal-tray` is `width:min(100%,700px)`,
+       which binds exactly as hard. The same blind spot missed part-whole-
+       frame's `.pwf-sheet`, also `width:min(100%,620px)`; I found that one by
+       eye and got lucky. Narrower-than-my-parent is the property-agnostic
+       test and it catches max-width, width, flex-basis and a grid track
+       alike — the question is which box stops growing, not which declaration
+       stopped it. The declaration is still printed, so the fix is obvious. */
+    const show = (rows, label) => {
+      if (!rows || !rows.length) return;
+      console.log('  ' + label);
+      rows.forEach((r, i) => {
+        const parent = rows[i + 1];
+        const binds = parent && r.w < parent.w - 2;
+        const why = r.maxW !== 'none' ? 'max-width:' + r.maxW
+          : (r.width && r.width !== 'auto' ? 'width:' + r.width : 'content');
+        console.log('  .' + r.cls.padEnd(31) + String(r.w).padStart(5) + '   ' +
+          String(r.maxW).padEnd(12) + '  ' + String(r.width).padEnd(12) +
+          (binds ? '  <== BINDS (' + why + ')' : ''));
+      });
+    };
+    show(w ? w.wideRows : null, 'WIDEST inked branch — `.' + (w && w.wideCls) + '`');
+    const rows = w ? w.rows : [];
+    console.log('  REPEATED-unit branch — `.' + (w && w.unit) + '`');
+    rows.forEach((r, i) => {
+      const parent = rows[i + 1];
+      const binds = parent && r.w < parent.w - 2;
+      const why = r.maxW !== 'none' ? 'max-width:' + r.maxW
+        : (r.width && r.width !== 'auto' ? 'width:' + r.width : 'content');
       console.log('  .' + r.cls.padEnd(31) + String(r.w).padStart(5) + '   ' +
-        String(r.maxW).padEnd(12) + '  ' + String(r.width).padEnd(12) + (capped ? '  <== CAPS IT' : ''));
+        String(r.maxW).padEnd(12) + '  ' + String(r.width).padEnd(12) +
+        (binds ? '  <== BINDS (' + why + ')' : ''));
     });
     await b0.close();
     process.exit(0);

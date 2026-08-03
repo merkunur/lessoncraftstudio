@@ -918,6 +918,49 @@ function injectPartWholeFrameCSS() {
        only way the bottom of this tool exists on a phone at all. */
     + '@media (max-width:560px){body.pwf-wide{overflow-y:auto;overflow-x:hidden;height:auto;min-height:100%;}}'
 
+    /* =====================================================================
+       WIDE VIEWPORTS — and this one is a GEOMETRY tool, not a card tool.
+       The catalog classifier put it in CARD-MAXED: the shell already gives
+       it an 1800px card at 2560 and the instrument is still 24.2% of the
+       screen, because `.pwf-sheet` caps itself at 620px and the counter is
+       a FIXED 22px. A 22px dot inside an 1800px card is the widest
+       instrument/card mismatch in the catalog. Raising the CARD would have
+       done nothing at all here — the sheet, not the card, is the ceiling.
+
+       ⚠ THE DOT AND THE SHEET MOVE TOGETHER, ALWAYS. The comment above
+       records why: the tray width is DERIVED from the dot size so the two
+       can never drift apart. Ramping the sheet alone would widen the tray
+       around unchanged counters — the rekenrek defect, which passed every
+       gate this same afternoon by growing a box around a 64px bead.
+       ⚠⚠ AND `.pwf-col` HAS TO MOVE WITH IT. I raised the SHEET first and
+       measured 620px -> 629px: the dot ramp had worked (`--pwf-dot` read
+       46px and the dot rendered 46px) while the WIDTH had not moved at
+       all, because the sheet's PARENT carries its own `max-width:620px`.
+       A cap on the thing you are ramping is not the only cap in the
+       chain; walk it. The chain here is sheet 620 <- col 620 <- main
+       1752 <- stage 1800 <- card 1800.
+       ⚠ AND THE PER-ROW SIZES KEEP THEIR RATIO. 22/19/16 for 2/3/4 rows is
+       a deliberate ladder — more rows, smaller counters, same sheet — so
+       each tier scales all three rather than flattening them.
+       ===================================================================== */
+    + '@media (min-width:1367px) and (min-height:880px){'
+    +   'body.pwf-wide .pwf-col{max-width:900px;}'
+    +   'body.pwf-wide .pwf-sheet{width:min(100%,900px);--pwf-dot:32px;--pwf-gap:9px;--pwf-pad:14px;}'
+    +   'body.pwf-wide .pwf-sheet[data-rows="3"]{--pwf-dot:28px;}'
+    +   'body.pwf-wide .pwf-sheet[data-rows="4"]{--pwf-dot:24px;}'
+    + '}'
+    + '@media (min-width:1800px) and (min-height:1080px){'
+    +   'body.pwf-wide .pwf-col{max-width:1100px;}'
+    +   'body.pwf-wide .pwf-sheet{width:min(100%,1100px);--pwf-dot:40px;--pwf-gap:11px;--pwf-pad:17px;}'
+    +   'body.pwf-wide .pwf-sheet[data-rows="3"]{--pwf-dot:34px;}'
+    +   'body.pwf-wide .pwf-sheet[data-rows="4"]{--pwf-dot:29px;}'
+    + '}'
+    + '@media (min-width:2400px) and (min-height:1150px){'
+    +   'body.pwf-wide .pwf-col{max-width:1300px;}'
+    +   'body.pwf-wide .pwf-sheet{width:min(100%,1300px);--pwf-dot:46px;--pwf-gap:13px;--pwf-pad:20px;}'
+    +   'body.pwf-wide .pwf-sheet[data-rows="3"]{--pwf-dot:40px;}'
+    +   'body.pwf-wide .pwf-sheet[data-rows="4"]{--pwf-dot:34px;}'
+    + '}'
     + '@media (prefers-reduced-motion:reduce){.pwf-dot,.pwf-ghost{transition:none !important;}}'
 
     /* PRINT — re-tone EVERY ink, not just the headline one. The screen

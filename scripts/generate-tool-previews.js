@@ -148,6 +148,19 @@ const SEEDS = {
   ],
   // empty 10-frame → 6 counters
   'ten-frame': [{ sel: '.tf-cell', nth: [0, 1, 2, 3, 4, 5] }],
+  // ⭐ AT REST THIS TOOL IS A BARE RULED LINE — indistinguishable on a
+  // card from the ruler, the cold line and the open number line, and
+  // showing none of what it now does. The card has to carry the ARCS,
+  // because a row of identical domes IS the tool's whole claim. So run
+  // it all the way: chip 1 is "All the way" (reached BY INDEX, never by
+  // English text), which hops 0→5→10→15→20 and leaves four congruent
+  // arcs with the rabbit standing on the far end.
+  // ⚠ the wait covers the chained flight — each hop is animated at
+  // 420ms and the chain steps 60ms behind the landing, so four hops need
+  // ~2s before the board is settled and worth photographing.
+  'number-line': [
+    { sel: '.nl-foot .nl-chip', nth: 1, wait: 2400 },
+  ],
   // "Nothing moves yet" → build a rail, then RUN it so a trail is drawn.
   // The run button is .arw-foot .arw-chip[0] (per scripts/local-test-arrow-strip.js).
   'arrow-strip': [

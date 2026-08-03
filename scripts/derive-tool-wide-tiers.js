@@ -88,6 +88,33 @@ const PROBE = (pfx) => {
   const scope = wrap || stage;
   if (!app || !scope) return null;
 
+  /* ⭐⭐ UNION EXTENT, NOT THE WIDEST SINGLE ELEMENT — and the two instruments
+     in this programme were DISAGREEING about what the apparatus even is. The
+     assert gate takes the union of every inked non-chrome box (fixed during
+     draw-bag, whose record grid is many columns and no single wide element);
+     this script still took the single widest one. On wodb the gate reports
+     `wdb-grid` and this reported `wdb-cell` — ONE CELL of a four-cell grid,
+     aspect 1.000, and a Tier-C ceiling of 460px derived from it. Caps written
+     off that would have been wrong, and I nearly wrote seven of them.
+     Two instruments that disagree about the subject cannot both be measuring
+     it. `best` is kept for the ELEMENT NAME in the report — knowing which box
+     the ink came from is what caught this — but the WIDTH and the ASPECT now
+     come from the union.
+
+     ⚠⚠ AND THE UNION TRADES ONE BIAS FOR ANOTHER, so read the chrome column
+     with suspicion. `chrome = cardH - apparatusH`, and when the union
+     swallows nearly the whole card the chrome collapses toward zero:
+     rekenrek went from 244 to 25 on this change. An under-counted chrome
+     derives an OVER-GENEROUS cap, and an over-generous cap CLIPS — the worst
+     outcome available, as calendar-wall's 231px demonstrated.
+     ⚠ SO THESE NUMBERS ARE A STARTING POINT, NOT A SHIPPED VALUE, and that
+     is not a formality: on every tool fanned out so far — arrow-strip, lids,
+     number-sieve, unit-handle — the derived ceiling was CORRECTED by direct
+     measurement at the tier floors before anything shipped (arrow-strip's
+     first set was 4px too big at 2400x1150 and the probe said so). The
+     binding loop is: raise the cap, measure the card bottom at EVERY tier
+     FLOOR in de/it/fi, back off until it fits, then read the render. */
+  let lo = Infinity, hi = -Infinity, top = Infinity, bot = -Infinity;
   let best = null, bw = 0;
   scope.querySelectorAll('*').forEach((e) => {
     const c = String(e.className && e.className.baseVal !== undefined ? e.className.baseVal : e.className || '');
@@ -106,9 +133,18 @@ const PROBE = (pfx) => {
     if (rr.height > ar2.height + 1 || rr.width > ar2.width + 1) return;
     const r = e.getBoundingClientRect();
     if (r.width > bw && r.height > 4) { bw = r.width; best = e; }
+    if (r.width && r.height > 4) {
+      if (r.left < lo) lo = r.left;
+      if (r.right > hi) hi = r.right;
+      if (r.top < top) top = r.top;
+      if (r.bottom > bot) bot = r.bottom;
+    }
   });
   if (!best) return null;
-  const br = best.getBoundingClientRect();
+  const single = best.getBoundingClientRect();
+  const br = (hi > lo && bot > top)
+    ? { width: hi - lo, height: bot - top }
+    : single;
   const ar = getComputedStyle(best).aspectRatio;
   return {
     cardH: Math.round(app.getBoundingClientRect().height),

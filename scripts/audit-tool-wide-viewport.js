@@ -55,6 +55,23 @@ const ONLY = val('--tool');
 const LOCALE_SWEEP = ['de', 'it', 'fi'];
 const fannedOut = (key) => /@media \(min-width:1367px\)/.test(
   fs.readFileSync(path.join(ROOT, key + '.js'), 'utf8'));
+/* ⚠ A TOOL CAN BE WORKED ON FOR WIDE VIEWPORTS WITHOUT GAINING A WIDTH TIER.
+   calendar-wall's fix is a HEIGHT ladder — it was clipping, not small — so the
+   `min-width:1367px` marker would have left it out of the locale sweep, and the
+   one tool in the catalog with a proven cut-off would have been the one tool
+   never rendered in German. The FILL floor still keys on `fannedOut`, because
+   width is what FILL is about; the locale sweep keys on this. */
+const touchedForWide = (key) => {
+  const src = fs.readFileSync(path.join(ROOT, key + '.js'), 'utf8');
+  return /@media \(min-width:1367px\)/.test(src)
+    /* ⚠ 1080 and up, i.e. taller than the 880/1000 floors the width tiers
+       already use. Poison-tested in both directions before it was trusted:
+       the first version was `1(0[89]|[1-9])\d\d` — one digit too long, so it
+       matched 1200 and 1400 and MISSED 1080, the very value it was written
+       for. A narrowed regex is not a measurement until it has been run
+       against the values it must accept AND the ones it must reject. */
+    || /@media \(min-height:1(?:0[89]|[1-9]\d)\dpx\)/.test(src);
+};
 
 const CELLS = [
   { w: 1366, h: 900, control: true },
@@ -378,7 +395,7 @@ function staticRisks(key) {
        ⚠ Only tools that have been FANNED OUT are swept. An un-fanned tool
        renders at 720px in every language and there is nothing new to learn;
        sweeping all 48 would cost 1,584 renders to re-measure the untouched. */
-    if (fannedOut(key)) {
+    if (touchedForWide(key)) {
       for (const loc of LOCALE_SWEEP) {
         for (const cell of CELLS.filter((c) => c.w >= 1920)) {
           const p = await browser.newPage();
@@ -538,24 +555,7 @@ function staticRisks(key) {
        program's OWN tier floor, which no pre-existing tool carries. */
     const done = /min-width\s*:\s*1367px/.test(
       fs.readFileSync(path.join(ROOT, r.key + '.js'), 'utf8'));
-    if (done) {
-      /* ⭐⭐ FILL ASKS THE AXIS THE APPARATUS IS ACTUALLY BOUND BY. The 45/50%
-         floors were derived from the baseline median of a WIDTH share, and
-         that is the right question for a bench, a tape or a strip. It is the
-         WRONG question for a 1:1 apparatus: arrow-strip's mat is square by
-         design, so on a 2560x1440 screen the largest honest mat is ~814px —
-         31.8% of the width and 56.5% of the height. Failing it would mean
-         either lowering a floor (forbidden) or distorting a square (worse).
-         So a tool whose apparatus is TALLER than it is wide, or nearly so, is
-         judged on its height share against the same numbers. Nothing is
-         relaxed: both floors keep their values, and a wide tool still has to
-         meet the width one — `dominates` picks the binding axis, it does not
-         take the better of two tries at the same axis. */
-      const dominates = (c, floor) => {
-        const squareish = c.apparatusH > 0 && c.apparatusH >= c.apparatusW * 0.92;
-        return squareish ? { pct: c.apparatusVPct, axis: 'height' }
-                         : { pct: c.apparatusPct, axis: 'width' };
-      };
+    if (touchedForWide(r.key)) {
       /* ⭐⭐ THE LOCALE CELLS CARRY THE SAME FIT AND CONTAINMENT ASSERTIONS.
          For the 35 tools with no 11-locale gate of their own this is the only
          non-English check that will ever run at a wide viewport, so it has to
@@ -576,6 +576,25 @@ function staticRisks(key) {
         }
       }
 
+    }
+    if (done) {
+      /* ⭐⭐ FILL ASKS THE AXIS THE APPARATUS IS ACTUALLY BOUND BY. The 45/50%
+         floors were derived from the baseline median of a WIDTH share, and
+         that is the right question for a bench, a tape or a strip. It is the
+         WRONG question for a 1:1 apparatus: arrow-strip's mat is square by
+         design, so on a 2560x1440 screen the largest honest mat is ~814px —
+         31.8% of the width and 56.5% of the height. Failing it would mean
+         either lowering a floor (forbidden) or distorting a square (worse).
+         So a tool whose apparatus is TALLER than it is wide, or nearly so, is
+         judged on its height share against the same numbers. Nothing is
+         relaxed: both floors keep their values, and a wide tool still has to
+         meet the width one — `dominates` picks the binding axis, it does not
+         take the better of two tries at the same axis. */
+      const dominates = (c, floor) => {
+        const squareish = c.apparatusH > 0 && c.apparatusH >= c.apparatusW * 0.92;
+        return squareish ? { pct: c.apparatusVPct, axis: 'height' }
+                         : { pct: c.apparatusPct, axis: 'width' };
+      };
       const f19 = dominates(n), f25 = dominates(d);
       say(f19.pct >= 45, r.key + ' FILL at 1920: ' + f19.pct + '% of ' + f19.axis + ' (want >=45%)');
       say(f25.pct >= 50, r.key + ' FILL at 2560: ' + f25.pct + '% of ' + f25.axis + ' (want >=50%)');

@@ -1659,6 +1659,52 @@ var CalendarWall = {
   +   '.cwl-dockchip{min-height:46px;padding:6px 14px;}'
   + '}'
 
+  /* =====================================================================
+     ⭐⭐ THE HEIGHT LADDER — this tool was CLIPPING, not merely small, and it
+     is the only real cut-off the wide-viewport gate found in the catalog.
+     MEASURED (German, six-row month):
+         1024x900   cell  64  card  983x860  -> fits
+         1400x880   cell  64  card 1100x834  -> fits
+         1920x1080  cell 103  card 1100x1311 -> CUT 231px
+         2400x1150  cell 104  card 1100x1333 -> CUT 183px
+         2560x1440  cell 104  card 1100x1342 -> fits
+     The cell is `clamp(38px, min(9.5vmin,10.5vh), 104px)`, so above the
+     narrow breakpoint it more than doubles, and six rows of that overflow a
+     1080px board by 231px with NOTHING able to scroll to the dock chip
+     underneath (`.cwl-wide` is overflow-y:hidden; there is no scrollable
+     ancestor anywhere in the chain — measured, not assumed).
+
+     ⚠ THE `vh` TERM IS THE MECHANISM, and number-sieve's own source already
+     calls vh FORBIDDEN inside a manipulative: the iframe grows to its
+     content, so a vh rule is a feedback loop the shell has no path for. The
+     ladder below is explicit heights, no vh arithmetic, derived from the
+     measurements above — shed (card - vh) across six rows:
+         >=1080  cell 60  ->  1311 - 6x43 = 1053 of 1080   (27 spare)
+         >=1200  cell 76  ->  1333 - 6x28 = 1165 of 1200   (35 spare)
+         >=1400  cell 104 ->            1342 of 1400   (58 spare)
+     Below 1080 nothing changes: the narrow rules already hold it at 64 and
+     it already fits.
+
+     ⚠ THE TOOL GETS SMALLER AT 1920x1080, from a 103px cell to 60px, and
+     that is the honest trade — 103 does not fit, and a calendar whose dock
+     chip cannot be reached is worse than one drawn smaller. It grows back on
+     a taller board, which is where the room actually is. This is the
+     opposite direction from every other tool in this programme, and it is
+     the same rule: fit the room you have, measured.
+     ===================================================================== */
+  + '@media (min-height:1080px){'
+  +   '.cwl-cell{height:60px;}'
+  +   '.cwl-cellnum{font-size:26px;}'
+  + '}'
+  + '@media (min-height:1200px){'
+  +   '.cwl-cell{height:76px;}'
+  +   '.cwl-cellnum{font-size:30px;}'
+  + '}'
+  + '@media (min-height:1400px){'
+  +   '.cwl-cell{height:104px;}'
+  +   '.cwl-cellnum{font-size:34px;}'
+  + '}'
+
   /* reduced motion */
   + '@media (prefers-reduced-motion: reduce){'
   +   '.cwl-cell.today{transform:none;}'

@@ -3062,7 +3062,12 @@
                         const crop = cropData[i];
                         const tileImg = await new Promise(resolve => {
                              LCSImageRef.loadCanvasImage(imgObj.src, img => {
-                                img.set({ cropX: crop.cropX, cropY: crop.cropY, width: cropWidth, height: cropHeight });
+                                // loadCanvasImage may return the @3x lossless variant (1536px)
+                                // instead of imgObj (800px), and the crop coords above were
+                                // computed in imgObj's pixel space. Rescale into whatever it
+                                // actually returned. k === 1 when no variant exists.
+                                const k = (img.width && imgObj.naturalWidth) ? img.width / imgObj.naturalWidth : 1;
+                                img.set({ cropX: crop.cropX * k, cropY: crop.cropY * k, width: cropWidth * k, height: cropHeight * k });
                                 img.scaleToWidth(cellW);
                                 img.set({ left: relCell.x, top: relCell.y, selectable: false, evented: false });
                                 resolve(img);
@@ -3158,7 +3163,14 @@
 
                     const tileImg = await new Promise(cb => {
                         LCSImageRef.loadCanvasImage(imgObj.src, img => {
-                            img.set({ cropX: crop.cropX, cropY: crop.cropY, width: cropWidth, height: cropHeight });
+                            // Same rescale as the revealed-cell path: this helper may hand back
+                            // the @3x variant (1536px) while crop.cropX/cropWidth were computed
+                            // against imgObj (800px). Applying them unscaled crops ~17% of the
+                            // picture, which is why palette tiles showed a hugely zoomed detail
+                            // that then "changed" into the correct piece on drop (the reveal is
+                            // drawn from imgObj and was always right). k === 1 without a variant.
+                            const k = (img.width && imgObj.naturalWidth) ? img.width / imgObj.naturalWidth : 1;
+                            img.set({ cropX: crop.cropX * k, cropY: crop.cropY * k, width: cropWidth * k, height: cropHeight * k });
                             // Scale proportionally to fit the item's width
                             img.scaleToWidth(itemW);
                             cb(img);

@@ -1063,6 +1063,70 @@ function injectSyllableSplitterCSS() {
     + '}'
     + 'body.ss-wide{overflow-y:auto}'
 
+    /* =====================================================================
+       WIDE VIEWPORTS — a THIRD shape: this card is content-sized, so TYPE is
+       the lever, not a cap. `.ss-card` is `width:fit-content` and the
+       chain-walk measured it at 300px with `max-width:100%` — nothing is
+       capping it. What holds the instrument down is the word's own clamp,
+       `clamp(24px,7vw,42px)`, pinned at its 42px ceiling from 600px of
+       viewport up. At 16.3% of a 2560 screen this was the smallest
+       instrument in the catalog; the card follows the type for free.
+       ⚠ Three shapes now, and reading which one a tool has is the whole
+       first step: pattern-bench needed ONE cap (contents already relative),
+       sorting-hoops needed twelve (contents fixed), and this needs none —
+       only bigger letters.
+
+
+
+       ⚠ THE CARD'S PICTURE RAMPS TOO. The type ramp alone left `.ss-pic` at
+       its `min(180px,42vw)` — 180px on a 2560 board — so the card grew only
+       as far as the word did and the cat stayed a thumbnail above it. Same
+       lesson as sorting-hoops' glyph and rekenrek's bead, in the one shape
+       where I had told myself type was the ONLY lever: a content-sized box
+       still has fixed-size contents of its own. The `42vw` term is left
+       alone so narrow screens are untouched; only the px ceiling moves.
+       ⚠ `.ss-mode` IS RAMPED TOO, and the reason is worth recording because
+       it looks like gate-appeasement and is not. The HOLLOW-WIDENING
+       assertion picks the most-REPEATED inked child, and on this tool that
+       is the mode chip rather than the word — the chip does not match the
+       chrome name-list (`-chip|-foot|-hint|-gate|-bar|...`), so a control
+       that had no need to grow was being read as the instrument. The fix is
+       NOT to widen the chrome ban, which would blind the assertion on other
+       tools; a 14px chip on a 2560 board is genuinely small, every other
+       tool in this programme ramps its chips, and the K-2 44px floor is
+       raised rather than replaced. The tool is better and the assertion is
+       satisfied honestly.
+       ⚠⚠ NOT SCOPED ON `body.ss-wide`, DELIBERATELY. That class is styled
+       at `body.ss-wide{overflow-y:auto}` — outside any media query — and is
+       NEVER ADDED anywhere in this file, while sorting-hoops, pattern-bench
+       and number-balance all add theirs in init. The rule is dead. Adding
+       the class to get a scope would silently switch body scrolling on, and
+       the shell deliberately keeps it hidden; that is a behaviour change I
+       have not measured and it would land at the 1366 CONTROL cell too.
+       The media query alone is scope enough here. The dead rule is left
+       exactly as it is and recorded rather than quietly activated.
+       ===================================================================== */
+    + '@media (min-width:1367px) and (min-height:880px){'
+    +   '.ss-wordrow{font-size:56px;}'
+    +   '.ss-piece{font-size:32px;min-height:62px;}'
+    +   '.ss-mode{font-size:16px;min-height:50px;padding:12px 18px;}'
+    +   '.ss-pic{width:min(260px,42vw);}'
+    +   '.ss-tilepic{width:60px;}'
+    + '}'
+    + '@media (min-width:1800px) and (min-height:1080px){'
+    +   '.ss-wordrow{font-size:72px;}'
+    +   '.ss-piece{font-size:38px;min-height:70px;}'
+    +   '.ss-mode{font-size:18px;min-height:56px;padding:14px 22px;}'
+    +   '.ss-pic{width:min(330px,42vw);}'
+    +   '.ss-tilepic{width:72px;}'
+    + '}'
+    + '@media (min-width:2400px) and (min-height:1150px){'
+    +   '.ss-wordrow{font-size:88px;}'
+    +   '.ss-piece{font-size:44px;min-height:78px;}'
+    +   '.ss-mode{font-size:20px;min-height:60px;padding:16px 26px;}'
+    +   '.ss-pic{width:min(400px,42vw);}'
+    +   '.ss-tilepic{width:84px;}'
+    + '}'
     + '@media (prefers-reduced-motion:reduce){'
     + '.ss-arc{animation:none;stroke-dashoffset:0}'
     + '.ss-drum.ss-hit{animation:none}'

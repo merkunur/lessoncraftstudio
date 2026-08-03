@@ -426,8 +426,17 @@ function staticRisks(key) {
        whether the SHELL tier fired, only whether the TOOL grew — and the
        two are exactly the distinction this program turns on. The first
        run after the shell change was unreadable for want of it. */
-    console.log('tool                 pfx   aspect        card@1366  card@2560  appar@1366  appar@2560   %2560  num@2560  ctl  risks');
-    console.log('-------------------- ----- ------------- ---------- ---------- ----------- ----------- ------ --------- ---- ------------------');
+    /* ⭐⭐ apparatusEl AND card-share ARE COLUMNS NOW, and %2560 alone is not a
+       queue. The finder counts an element only if it DRAWS or carries an author
+       max-width, so a TRANSPARENT layout container is skipped and the number
+       falls back to the widest INKED thing — often a button. name-sticks reads
+       11.7%; measured, its `.nsk-strip` is 992px inside a 1040px card, i.e. 95%
+       of the card it was given. Ordering batch 3 off the screen share alone
+       would have sent me to enlarge an instrument that already fills its card,
+       when the real fix is that tool's own self-widen cap. `el` says WHAT was
+       measured and `card%` says whether the tool or the CARD is the binder. */
+    console.log('tool                 pfx   aspect        card@1366  card@2560  appar@1366  appar@2560   %2560  card%  el                num@2560  ctl  risks');
+    console.log('-------------------- ----- ------------- ---------- ---------- ----------- ----------- ------ ------ ----------------- --------- ---- ------------------');
     for (const r of rows) {
       const a = r.cells[1366], d = r.cells[2560];
       if (!a || !d) { console.log(r.key.padEnd(20) + '  BOOT FAIL  ' + (r.boot || '')); continue; }
@@ -446,6 +455,8 @@ function staticRisks(key) {
         String(a.apparatusW + 'px').padStart(11) + ' ' +
         String(d.apparatusW + 'px').padStart(11) + ' ' +
         String(d.apparatusPct + '%').padStart(6) + ' ' +
+        String(d.cardW ? Math.round(d.apparatusW / d.cardW * 100) + '%' : '-').padStart(6) + ' ' +
+        String(d.apparatusEl || '?').slice(0, 17).padEnd(17) + ' ' +
         String(d.minNum === null ? '-' : d.minNum + 'px').padStart(9) + ' ' +
         String(d.minCtl === null ? '-' : Math.round(d.minCtl)).padStart(4) + '  ' +
         r.risks.join(',')

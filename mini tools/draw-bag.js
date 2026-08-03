@@ -1411,6 +1411,31 @@ function injectDrawBagCSS() {
     + '  body.drb-wide .drb-shelf{min-height:96px;}'
     + '  body.drb-wide .drb-chip,body.drb-wide .drb-hint{font-size:19px;}'
     + '  body.drb-wide .drb-gate{font-size:18px;}'
+    + '}'
+    /* =====================================================================
+       ⭐⭐ THE PRINT SHEET. Third of the three tools found calling
+       window.print() with no `@media print` block — it printed the whole web
+       page: nav, chips, footer, the tool at screen size. The chip says PRINT
+       THE RECORD, and the record is the thing worth keeping — every draw the
+       class made, in order, which is the whole point of a bag you draw from
+       WITH replacement.
+       ⚠ THE BAG, THE SHELVES AND THE PREDICTION GO. They are the apparatus,
+       not the record, and a printed bag cannot be drawn from.
+       ⚠ `.drb-recs` is capped (520 on screen, 1240 at Tier C) so the rows
+       keep a readable line length beside the bag. On paper there is no bag,
+       so the cap is released — and it has to be released with !important,
+       because the wide tier three lines above is more specific than a bare
+       class and would otherwise win inside the print block too. */
+    + '@media print{'
+    +   '*{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}'
+    +   '.lcs-header,.drb-hint,.drb-bar,.drb-foot,.drb-gate,.drb-chip,'
+    +   '.drb-bag,.drb-guess,.drb-fill,.drb-shelf{display:none !important;}'
+    +   '.drb-wrap{gap:0;}'
+    +   '.drb-main{flex-direction:column !important;gap:0 !important;}'
+    +   '.drb-recs{max-width:none !important;width:100%;}'
+    +   '.drb-rec{border-color:#333 !important;background:#fff !important;break-inside:avoid;}'
+    +   '.drb-cell,.drb-piece{border-color:#333 !important;}'
+    +   '@page{margin:14mm;}'
     + '}';
   var st = document.createElement('style');
   st.id = 'drb-style';

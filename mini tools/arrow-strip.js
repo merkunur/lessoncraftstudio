@@ -962,6 +962,37 @@ function injectArrowStripCSS() {
     +   'body.arw-wide .arw-hint{font-size:20px;}'
     +   'body.arw-wide .arw-gate{font-size:19px;}'
     + '}'
+    /* =====================================================================
+       ⭐⭐ THE PRINT SHEET. This tool shipped a "Print the mat" chip calling
+       window.print() with NO `@media print` BLOCK AT ALL, so it printed the
+       whole web page — nav, chips, footer, the tool at screen size. That is
+       the defect #40 and #41 were retrofitted for; nobody looked here because
+       the print gate's roster was a hand-written list of five tools and this
+       was not on it. The chip says PRINT THE MAT, so the sheet is the mat:
+       a blank grid at page width with the beetle on its start square.
+       ⚠ THE TRAIL IS HIDDEN. It is the answer. A printed mat is for planning
+       a route with a pencil, not for handing one out already solved.
+       ⚠ The rail goes too — the cards are the on-screen instrument, and a
+       row of buttons on paper is furniture, not a worksheet.
+       ⚠ `--arw-cell` is re-derived in mm so the square holds at page width
+       whatever the grid size is; leaving the px cell would print a mat sized
+       for whatever screen happened to be in front of the teacher. */
+    + '@media print{'
+    +   '*{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}'
+    /* ⚠ `.arw-bar` TOO. Hiding `.arw-foot` and `.arw-sizes` left two chips
+       standing — "See it their way" and "The mat book" live in a THIRD
+       row. The gate caught it ("the button row is gone" FAILED); I had
+       hidden the rows I remembered rather than the rows that exist. */
+    +   '.lcs-header,.arw-hint,.arw-foot,.arw-gate,.arw-sizes,.arw-bar,'
+    +   '.arw-railcol,.arw-trails{display:none !important;}'
+    +   '.arw-wrap{gap:0;}'
+    +   '.arw-main{flex-direction:column !important;gap:0 !important;}'
+    +   '.arw-scroll{width:100% !important;overflow:visible !important;justify-content:center;}'
+    +   '.arw-mat{--arw-cell:calc((170mm - (var(--arw-cols,6) - 1) * 2px) / var(--arw-cols,6)) !important;'
+    +     'width:170mm !important;max-width:100%;break-inside:avoid;}'
+    +   '.arw-cell{border-color:#333 !important;background:#fff !important;}'
+    +   '@page{margin:14mm;}'
+    + '}'
     + '@media (prefers-reduced-motion:reduce){'
     +   '.arw-frame,.arw-beetle{transition:none;}'
     + '}';

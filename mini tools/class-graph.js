@@ -907,6 +907,35 @@ function injectClassGraphCSS() {
     + '@media (prefers-reduced-motion:reduce){'
     +   '.cgr-stamp,.cgr-bar{transition-duration:.12s;transition-delay:0s;}'
     +   '.cgr-pop{animation:none;}}'
+    /* ---- wide board (§23 the apparatus a teacher teaches FROM) ----
+       The pictograph's UNIT is the whole instrument: --cgr-unit is one stamp
+       row, the bar heights are multiples of it, and the board's ruling lines
+       are drawn from it, so raising the board width alone would have widened
+       an empty frame around the same small stamps. Both move together here.
+       ⚠ The three density classes (default / dense / vdense) each carry their
+       own clamp and each must be ramped, or a class that switches at 12+ rows
+       silently drops back to phone-sized stamps on a 2560 board. */
+    + '@media (min-width:1367px) and (min-height:880px){'
+    +   'body.cgr-wide .lcs-app{max-width:min(1192px,96vw);}'
+    +   'body.cgr-wide .cgr-board{width:min(100%,1120px);--cgr-unit:clamp(26px,5.6vmin,56px);}'
+    +   'body.cgr-wide .cgr-board.cgr-dense{--cgr-unit:clamp(19px,4vmin,38px);}'
+    +   'body.cgr-wide .cgr-board.cgr-vdense{--cgr-unit:clamp(15px,3vmin,28px);}'
+    +   'body.cgr-wide .cgr-chip{min-height:52px;padding:10px 18px;font-size:17px;}'
+    + '}'
+    + '@media (min-width:1800px) and (min-height:1080px){'
+    +   'body.cgr-wide .lcs-app{max-width:min(1560px,96vw);}'
+    +   'body.cgr-wide .cgr-board{width:min(100%,1460px);--cgr-unit:clamp(26px,6.4vmin,68px);}'
+    +   'body.cgr-wide .cgr-board.cgr-dense{--cgr-unit:clamp(19px,4.6vmin,46px);}'
+    +   'body.cgr-wide .cgr-board.cgr-vdense{--cgr-unit:clamp(15px,3.4vmin,34px);}'
+    +   'body.cgr-wide .cgr-chip{min-height:56px;padding:11px 20px;font-size:19px;}'
+    + '}'
+    + '@media (min-width:2400px) and (min-height:1150px){'
+    +   'body.cgr-wide .lcs-app{max-width:min(1752px,96vw);}'
+    +   'body.cgr-wide .cgr-board{width:min(100%,1660px);--cgr-unit:clamp(26px,7vmin,78px);}'
+    +   'body.cgr-wide .cgr-board.cgr-dense{--cgr-unit:clamp(19px,5vmin,52px);}'
+    +   'body.cgr-wide .cgr-board.cgr-vdense{--cgr-unit:clamp(15px,3.8vmin,38px);}'
+    +   'body.cgr-wide .cgr-chip{min-height:60px;padding:12px 22px;font-size:21px;}'
+    + '}'
     + '@media print{.cgr-toolbar,.cgr-voterow,.cgr-editor,.cgr-foot,.cgr-gate,.cgr-hint{display:none!important;}'
     +   '.cgr-board{border-bottom:2px solid #333;}}';
   document.head.appendChild(st);

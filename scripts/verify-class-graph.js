@@ -332,8 +332,18 @@ if (!/prefers-reduced-motion/.test(SRC)) err('C13 no prefers-reduced-motion guar
     err('C13 reduced motion DELETES the transformation — it must compress it (the morph is the lesson)');
   }
 }());
-const lcsSel = (SRC.match(/\.lcs-[a-z-]+/g) || []).filter((s) => s !== '.lcs-header');
-if (lcsSel.length) err(`C13 restyles shell internals: ${Array.from(new Set(lcsSel)).join(', ')}`);
+/* ⚠ THE BODY-SCOPED CARD CAP IS A SANCTIONED HOOK, NOT A SHELL RESTYLE.
+   lcs-shell.css:99-106 states the specificity is the design: its own card
+   tiers are `.lcs-app` (0,1,0) precisely so that `body.<ns>-wide .lcs-app`
+   (0,1,1) BEATS them and the 18 tools that widen themselves keep their own
+   designed cap. Banning it outright banned the extension point the shell
+   documents. What this check is FOR is an UNSCOPED reach into shell
+   internals, so that is what it now tests: strip the body-scoped form first,
+   then ban whatever is left. Poison-tested in both directions — a bare
+   `.lcs-app{...}` and a `.lcs-stage` both still fire. */
+const SRC_UNSCOPED = SRC.replace(/body\.cgr-wide\s+\.lcs-app/g, '');
+const lcsSel = (SRC_UNSCOPED.match(/\.lcs-[a-z-]+/g) || []).filter((s) => s !== '.lcs-header');
+if (lcsSel.length) err(`C13 restyles shell internals unscoped: ${Array.from(new Set(lcsSel)).join(', ')}`);
 if (!/body\.cgr-wide/.test(SRC)) err('C13 no body.cgr-wide scope');
 (function () {
   const v = /\.cgr-vote\{[^}]*\}/.exec(SRC);

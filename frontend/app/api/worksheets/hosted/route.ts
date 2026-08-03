@@ -7,22 +7,15 @@ import {
   checkHostedQuota,
   generateHostedLinkId,
   getHostedQuotaUsage,
+  hostedUrls,
   looksLikeStandaloneWorksheet,
+  personalizeHostedWorksheet,
   removeHostedHtml,
   stripCatalogChrome,
   writeHostedHtml,
 } from '@/lib/hosted-worksheets/core';
 
 export const dynamic = 'force-dynamic';
-
-const CANONICAL_HOST = 'https://www.lessoncraftstudio.com';
-
-function hostedUrls(linkId: string) {
-  return {
-    url: `${CANONICAL_HOST}/play/w/${linkId}`,
-    qrUrl: `${CANONICAL_HOST}/play/w/${linkId}/qr.png`,
-  };
-}
 
 /**
  * GET /api/worksheets/hosted — the teacher's hosted-worksheet list + quota.
@@ -89,6 +82,19 @@ export async function POST(request: NextRequest) {
   // worksheets" showreel (its __SUGGESTION__ placeholders are publish-only).
   html = stripCatalogChrome(html);
 
+  // ⚠ Mint the linkId HERE, not inline in create() below. Personalization needs
+  // the play URL, and substituting it CHANGES the byte length that the quota
+  // check and the persisted htmlBytes are computed from. Doing it after create()
+  // would leave htmlBytes permanently short by (len(url) - 19) x occurrences.
+  // generateHostedLinkId is a pure 12-char generator — no DB round-trip, no
+  // uniqueness check — so hoisting it is free.
+  const linkId = generateHostedLinkId();
+  html = personalizeHostedWorksheet(html, {
+    playUrl: hostedUrls(linkId).url,
+    title,
+    locale,
+  });
+
   const htmlBytes = Buffer.byteLength(html, 'utf8');
   const quotaError = await checkHostedQuota(gate.userId, htmlBytes, 1);
   if (quotaError) {
@@ -97,7 +103,7 @@ export async function POST(request: NextRequest) {
 
   const row = await prisma.hostedWorksheet.create({
     data: {
-      linkId: generateHostedLinkId(),
+      linkId,
       teacherId: gate.userId,
       appId,
       title,

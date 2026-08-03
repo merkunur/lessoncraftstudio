@@ -1132,6 +1132,27 @@ function injectChoralCSS() {
     +   '.cc-swatch{width:30px;height:30px;}'
     + '}'
     + '@media (min-width:900px){.cc-next{min-width:170px;height:64px;font-size:25px;}}'
+    /* ---- wide board (§23 the apparatus a teacher teaches FROM) ----
+       ONE variable carries the whole grid: `--cc-cell:48px` sizes every cell
+       and the numeral inside it is `calc(var(--cc-cell) * .55)`. Wrap cap and
+       cell move together — a wider wrap alone would have spread 48px cells
+       across the board. A counting grid the class reads together is exactly
+       the instrument that should be biggest. */
+    + '@media (min-width:1367px) and (min-height:880px){'
+    +   'body.cc-wide .cc-wrap{max-width:1160px;width:100%;}'
+    +   'body.cc-wide .cc-grid{--cc-cell:62px;gap:6px;}'
+    +   'body.cc-wide .cc-step-val{font-size:24px;}'
+    + '}'
+    + '@media (min-width:1800px) and (min-height:1080px){'
+    +   'body.cc-wide .cc-wrap{max-width:1480px;width:100%;}'
+    +   'body.cc-wide .cc-grid{--cc-cell:80px;gap:8px;}'
+    +   'body.cc-wide .cc-step-val{font-size:27px;}'
+    + '}'
+    + '@media (min-width:2400px) and (min-height:1150px){'
+    +   'body.cc-wide .cc-wrap{max-width:1680px;width:100%;}'
+    +   'body.cc-wide .cc-grid{--cc-cell:92px;gap:9px;}'
+    +   'body.cc-wide .cc-step-val{font-size:30px;}'
+    + '}'
     + '@media (prefers-reduced-motion:reduce){.cc-cell.cc-pop{animation:none;}.cc-q{animation:none;}}';
   document.head.appendChild(st);
 }

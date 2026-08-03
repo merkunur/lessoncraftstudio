@@ -280,6 +280,7 @@ var FeelingsCheckIn = {
   init: function (api) {
     var self = this;
     this.api = api;
+    document.body.classList.add('fci-wide');
     injectFeelingsCheckInCSS();
 
     this.mode = 'anon';
@@ -947,6 +948,32 @@ function injectFeelingsCheckInCSS() {
     + '@media print{'
     + '.fci-modes,.fci-go,.fci-scrim,.fci-siblings,.fci-helprow{display:none !important;}'
     + '.fci-card{box-shadow:none;border:1.5pt solid #666;page-break-inside:avoid;break-inside:avoid;}'
+    + '}'
+
+    /* ---- wide board (§23 the apparatus a teacher teaches FROM) ----
+       Two 680px caps — the check-in card and the weather strip — and the
+       feeling faces inside them are percentage-sized, so raising the caps
+       carries the artwork with them.
+       ⚠ THE GATE PANEL KEEPS ITS OWN 420px CAP ON PURPOSE. It is a paragraph
+       of prose, and a wider measure is harder to read, not easier — widening
+       every capped box in a file by reflex is how a tier makes text worse. */
+    + '@media (min-width:1367px) and (min-height:880px){'
+    +   'body.fci-wide .fci-card,body.fci-wide .fci-weather{max-width:880px;}'
+    +   'body.fci-wide .fci-feel{min-width:150px;padding:22px 16px;}'
+    +   'body.fci-wide .fci-face{width:clamp(56px,13vw,124px);}'
+    +   'body.fci-wide .fci-feel span:last-child{font-size:20px;}'
+    + '}'
+    + '@media (min-width:1800px) and (min-height:1080px){'
+    +   'body.fci-wide .fci-card,body.fci-wide .fci-weather{max-width:1120px;}'
+    +   'body.fci-wide .fci-feel{min-width:186px;padding:22px 16px;}'
+    +   'body.fci-wide .fci-face{width:clamp(56px,13vw,156px);}'
+    +   'body.fci-wide .fci-feel span:last-child{font-size:23px;}'
+    + '}'
+    + '@media (min-width:2400px) and (min-height:1150px){'
+    +   'body.fci-wide .fci-card,body.fci-wide .fci-weather{max-width:1280px;}'
+    +   'body.fci-wide .fci-feel{min-width:210px;padding:22px 16px;}'
+    +   'body.fci-wide .fci-face{width:clamp(56px,13vw,176px);}'
+    +   'body.fci-wide .fci-feel span:last-child{font-size:25px;}'
     + '}';
   document.head.appendChild(st);
 }

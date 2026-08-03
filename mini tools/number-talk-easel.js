@@ -934,7 +934,16 @@ var NumberTalkEasel = {
   _drawDots: function (art, item) {
     var rng = this._rng(item.seed);
     var q = item.qty;
-    var size = q <= 6 ? 64 : 52;
+    /* ⭐ AN INLINE-STYLE SIZE, so a CSS tier cannot reach it: `_dotEl` writes
+       `style.width = sizePx + 'px'` and an inline style beats any rule. My
+       first attempt at this tool ramped `.nte-dot` in CSS and was DEAD CODE —
+       the gate reported the dot at 64px on both a 1366 and a 2560 board and
+       was right. The scale comes from CSS so the tiers can key it on width
+       AND height; the two sizes keep their ratio (a 7+ dot arrangement stays
+       proportionally smaller, which is what keeps it subitisable). */
+    var _ds = parseFloat(getComputedStyle(document.body).getPropertyValue('--nte-dotscale'));
+    if (!(_ds > 0)) _ds = 1;
+    var size = Math.round((q <= 6 ? 64 : 52) * _ds);
     var positions = [];
     if (item.repr === 'circular') {
       for (var i = 0; i < q; i++) {
@@ -1506,6 +1515,38 @@ var NumberTalkEasel = {
 (function injectCSS() {
   var css = ''
   + 'body.nte-wide .lcs-app{max-width:min(1080px,96vw);}'
+
+  /* ---- wide board (§23 the apparatus a teacher teaches FROM) ----
+     The easel is a flat `width:min(720px,100%)` and the pad hangs off it at
+     `aspect-ratio:3/2`, so ONE number carries the drawing surface — but the
+     DOTS do not follow it. They are absolutely positioned at percentages with
+     a FIXED 64px diameter, so a bigger pad would have held the same small
+     dots in the same arrangement: a subitising board whose dots got relatively
+     SMALLER. The dot keeps its ratio to the easel (64/720 = 0.0889).
+     ⚠ The pad's own `max-height:clamp(280px,46vh,460px)` has to rise too or
+     it caps the pad before the easel width does — 3:2 means a 1360px easel
+     wants a 907px pad. */
+  + '@media (min-width:1367px) and (min-height:880px){'
+  +   'body.nte-wide .lcs-app{max-width:min(1192px,96vw);}'
+  +   'body.nte-wide .nte-easel{width:min(900px,100%);}'
+  +   'body.nte-wide .nte-pad{max-height:clamp(280px,46vh,600px);}'
+  +   'body.nte-wide{--nte-dotscale:1.25;}'
+  +   'body.nte-wide .nte-chip{font-size:17px;min-height:52px;}'
+  + '}'
+  + '@media (min-width:1800px) and (min-height:1080px){'
+  +   'body.nte-wide .lcs-app{max-width:min(1560px,96vw);}'
+  +   'body.nte-wide .nte-easel{width:min(1180px,100%);}'
+  +   'body.nte-wide .nte-pad{max-height:clamp(280px,48vh,700px);}'
+  +   'body.nte-wide{--nte-dotscale:1.64;}'
+  +   'body.nte-wide .nte-chip{font-size:19px;min-height:56px;}'
+  + '}'
+  + '@media (min-width:2400px) and (min-height:1150px){'
+  +   'body.nte-wide .lcs-app{max-width:min(1752px,96vw);}'
+  +   'body.nte-wide .nte-easel{width:min(1360px,100%);}'
+  +   'body.nte-wide .nte-pad{max-height:clamp(280px,50vh,820px);}'
+  +   'body.nte-wide{--nte-dotscale:1.89;}'
+  +   'body.nte-wide .nte-chip{font-size:21px;min-height:60px;}'
+  + '}'
   + 'body.nte-wide .lcs-title{overflow-wrap:break-word;word-break:normal;hyphens:auto;}'
   + '@media (max-width:480px){'
   +   'body.nte-wide .lcs-header{flex-direction:column;align-items:flex-start;gap:8px;}'

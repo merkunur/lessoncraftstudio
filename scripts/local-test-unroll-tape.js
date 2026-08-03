@@ -23,7 +23,11 @@ const ROOT = path.join(__dirname, '..', 'mini tools');
 const OUT = path.join(__dirname, '..', '.scratch', 'urt');
 const SHOT = process.argv.indexOf('--shot') >= 0;
 const PORT = 5533;
-const WIDTHS = [320, 360, 412, 768, 1024, 1366];
+/* 1400x880 is the EXACT Tier-A floor -- the widest bench this tool draws
+   against the shortest viewport that draws it, and therefore the tightest
+   cell in the sweep. 1366 stays as the CONTROL: nothing may move there. */
+const WIDTHS = [320, 360, 412, 768, 1024, 1366, 1400, 1920, 2560];
+const heightFor = (W) => (W >= 2400 ? 1440 : W >= 1800 ? 1080 : W >= 1400 ? 880 : W < 500 ? 740 : 900);
 
 if (SHOT) fs.mkdirSync(OUT, { recursive: true });
 
@@ -52,7 +56,7 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
     const errs = [];
     page.on('pageerror', (e) => errs.push(String(e)));
     page.on('console', (m) => { if (m.type() === 'error' && !/404|net::ERR/.test(m.text())) errs.push(m.text()); });
-    await page.setViewport({ width: W, height: W < 500 ? 740 : 900 });
+    await page.setViewport({ width: W, height: heightFor(W) });
     await page.goto(`http://127.0.0.1:${PORT}/unroll-tape.html?lang=en&embed=1`, { waitUntil: 'domcontentloaded' });
     await page.waitForSelector('.urt-bench', { timeout: 9000 });
     await wait(600);

@@ -1,5 +1,5 @@
 /* =====================================================================
-   audit-unroll-tape-locale-layout.js — 11 locales × 6 viewports
+   audit-unroll-tape-locale-layout.js — 11 locales × 9 viewports
    ---------------------------------------------------------------------
    Run:  node scripts/audit-unroll-tape-locale-layout.js [--shot]
 
@@ -27,7 +27,11 @@ const OUT = path.join(__dirname, '..', '.scratch', 'urt', 'locale');
 const SHOT = process.argv.indexOf('--shot') >= 0;
 const PORT = 5535;
 const LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
-const WIDTHS = [320, 360, 412, 768, 1024, 1366];
+/* 1400x880 is the EXACT Tier-A floor -- the widest bench this tool draws
+   against the shortest viewport that draws it, and therefore the tightest
+   cell in the sweep. 1366 stays as the CONTROL: nothing may move there. */
+const WIDTHS = [320, 360, 412, 768, 1024, 1366, 1400, 1920, 2560];
+const heightFor = (W) => (W >= 2400 ? 1440 : W >= 1800 ? 1080 : W >= 1400 ? 880 : W < 500 ? 740 : 900);
 
 if (SHOT) fs.mkdirSync(OUT, { recursive: true });
 
@@ -51,7 +55,7 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
   for (const loc of LOCALES) {
     const page = await browser.newPage();
     for (const W of WIDTHS) {
-      await page.setViewport({ width: W, height: W < 500 ? 740 : 900 });
+      await page.setViewport({ width: W, height: heightFor(W) });
       await page.goto(`http://127.0.0.1:${PORT}/unroll-tape.html?lang=${loc}&embed=1`, { waitUntil: 'domcontentloaded' });
       await page.waitForSelector('.urt-bench', { timeout: 9000 });
       await wait(260);

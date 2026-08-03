@@ -3,26 +3,25 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>The Folding Sheet — LessonCraft Studio</title>
+  <title>The Asking Bench — LessonCraft Studio</title>
   <link rel="stylesheet" href="/mini-tools/lcs-shell.css?v=19">
 </head>
 <body>
   <!-- The shell mounts the whole tool into this element. -->
   <div id="lcs-root"></div>
 
-  <!-- Shell, then this tool. Absolute /mini-tools/ paths so embeds and
-       cross-context loads resolve identically. No core import and NO data
-       file: the sheet is a drawn grid, the crease is one CSS matrix, and
-       every reflection is an exact integer index map — so there is no
-       corpus to load and nothing that can 404. -->
+  <!-- Shell, then this tool. No core. The AUTHORED GRAMMAR for the page's
+       language is a sibling JSON fetched at /mini-tools/ (the
+       blending-board.js:186 precedent) — so the deploy cp MUST include
+       *.json, or the tool falls back to English grammar in every locale. -->
   <script src="/mini-tools/lcs-shell.js?v=5"></script>
-  <script src="/mini-tools/folding-sheet.js?v=1"></script>
+  <script src="/mini-tools/asking-bench.js?v=1"></script>
   <script>
     // URL params the shell understands:
     //   ?lang=de  ?lang=fi  (any of: en de fr it es pt nl sv da no fi)
     //   ?embed=1        — trim chrome for iframe embedding
     //   ?embed=compact  — also drop the title, for tightly-cropped iframes
-    LCS.mount(FoldingSheet, { mount: '#lcs-root' });
+    LCS.mount(AskingBench, { mount: '#lcs-root' });
   </script>
 </body>
 </html>

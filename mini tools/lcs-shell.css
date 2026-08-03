@@ -84,6 +84,51 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
   .lcs-app { border-radius: 24px; }
 }
 
+/* =====================================================================
+   WIDE-VIEWPORT CARD TIERS
+   [2026-08-03, operator-authorized protected-core change.]
+   ---------------------------------------------------------------------
+   §23 calls these instruments "the apparatus a teacher stands at the
+   front and teaches FROM". MEASURED across all 48 tools at 1366 -> 2560:
+   the apparatus grew in ZERO of them, median share of a 2560 screen
+   26.3%. Line 72's 720px was unconditional for manipulatives — activities
+   got `max(720px, 60vw)` at line ~505 and the comment there scopes
+   manipulatives out by name.
+   Baseline: docs/audit-results/wide-viewport/baseline.json
+
+   ⭐ THE SPECIFICITY IS THE DESIGN, NOT AN ACCIDENT. `.lcs-app` here is
+   (0,1,0) — identical to line 72 — and wins ONLY because it is later in
+   the file. That is deliberate, because it means:
+     · `body.<ns>-wide .lcs-app`  (0,1,1)  BEATS this  -> the 18 tools
+       that already widen themselves keep their own DESIGNED cap
+       (hush-owl 1280, place-value-lab 1120, ... ) untouched;
+     · `.lcs-app.activity`        (0,2,0)  BEATS this  -> all ~204
+       activities are unaffected and keep `max(720px, 60vw)`.
+   ⚠ DO NOT "TIGHTEN" THIS TO `.lcs-app:not(.activity)`. That is (0,2,0)
+   and would silently clobber all 18 self-widening tools — replacing a
+   designed 1280 with whatever number is written here.
+
+   ⚠ THE min-height FLOORS ARE LOAD-BEARING, NOT DECORATION. cold-line.js
+   :933-949 records what they prevent: a bench allowed to grow pushed the
+   tool to 942px and was silently clipped by `.lcs-app{overflow:hidden}`,
+   and "It failed in es, pt, it and nl only... English fit, so a
+   single-locale check would have called this clean." The baseline shows
+   three tools ALREADY over 900px tall at 1366 (build-plan 942,
+   letter-tiles 1002, our-day 917); widening must not add to that list.
+
+   ⚠ AND THE FLOOR IS 1367, ONE PIXEL ABOVE EVERY EXISTING GATE. Thirteen
+   gate files carry WIDTHS=[320,360,412,768,1024,1366]. Nothing at or
+   below 1366 may move, so ~200 shipped assertions stay byte-identical.
+   audit-tool-wide-viewport.js re-measures 1366 on every run and
+   poison-tests that claim rather than trusting it.
+   ===================================================================== */
+@media (min-width: 1367px) and (min-height: 880px) {
+  .lcs-app { max-width: min(1240px, 92vw); }
+}
+@media (min-width: 1800px) and (min-height: 1150px) {
+  .lcs-app { max-width: min(1800px, 92vw); }
+}
+
 /* ----- Header: tool title + one-line instruction -------------------- */
 .lcs-header {
   display: flex; align-items: center; gap: var(--lcs-gap);

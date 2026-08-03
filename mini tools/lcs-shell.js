@@ -523,8 +523,43 @@
       soundBtn.setAttribute('aria-pressed', String(on));
       if (on) Audio.pop(660);
     }, Audio.isOn());
+    /* ⚠⚠ THE FULLSCREEN TARGET IS THE ROOT, NOT THE CARD.
+       [2026-08-03, operator-authorized protected-core change.]
+
+       This one line was the whole "fullscreen makes it SMALLER" defect.
+       `app.requestFullscreen()` hands `.lcs-app` — the element carrying
+       `max-width:720px` on line 72 of lcs-shell.css — to the Fullscreen
+       API's UA stylesheet, whose rule is
+
+           :not(:root):fullscreen { max-width:none !important;
+                                    width:100% !important; ... }
+
+       UA-!important outranks author-!important, so it DELETES the card
+       cap. The card goes edge-to-edge while the px caps the tools put on
+       the card's DESCENDANTS survive untouched — and those are what
+       actually govern how big the instrument draws.
+       MEASURED, 48 tools, 1366 -> 2560: the apparatus grew in ZERO of
+       them. Median share of a 2560 screen 26.3%; number-line 23.4% with
+       ~980px of dead cream each side. Fullscreen looked worse than
+       windowed because the frame grew and the instrument did not.
+
+       `documentElement` IS `:root`, which that UA rule explicitly
+       excludes, so none of the overrides fire. Fullscreen becomes exactly
+       "this document at a screen-sized viewport": every author cap, every
+       media query and every unit behaves as in a maximised window, and
+       the per-tool wide tiers fire naturally. lcs-shell.css:54 already
+       paints `html` cream, so there is no black ::backdrop either.
+
+       It also repairs two latent bugs, both measured in the baseline:
+         · the 18 tools that self-widen stopped losing their DESIGNED cap
+           (hush-owl's 1280 was becoming 2560);
+         · the 11 tools that append a drag ghost or scrim to document.body
+           had it painted UNDER the top-layer card, i.e. invisible while
+           dragging, for as long as fullscreen has existed.
+       Baseline: docs/audit-results/wide-viewport/baseline.json */
     makeCtrl('expand', 'fullscreen', function () {
-      if (!document.fullscreenElement) (app.requestFullscreen ? app.requestFullscreen() : 0);
+      var fsTarget = document.documentElement || app;
+      if (!document.fullscreenElement) (fsTarget.requestFullscreen ? fsTarget.requestFullscreen() : 0);
       else document.exitFullscreen();
     });
     makeCtrl('reset', 'reset', function () {

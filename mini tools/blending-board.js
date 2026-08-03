@@ -1067,6 +1067,40 @@ var BlendingBoard = {
 (function injectCSS() {
   var css = ''
   + 'body.bbd-wide .lcs-app{max-width:min(1000px,96vw);}'
+
+  /* ---- wide board (§23 the apparatus a teacher teaches FROM) ----
+     Same shape as sound-boxes: the column is
+     `min(clamp(96px,18vmin,200px), (row - gaps)/n)`, so on a big board the
+     200px CEILING binds (18vmin is 259px at 1440) and the letter columns sat
+     at their design size. Card, column ceiling, the letter FACE and the
+     chevron controls all move; the face is what a class actually reads, and
+     its own clamp caps at 104px.
+     ⚠ Every `vmin` middle term rises with its ceiling or the ceiling is
+     unreachable — the class-graph trap. */
+  + '@media (min-width:1367px) and (min-height:880px){'
+  +   'body.bbd-wide .lcs-app{max-width:min(1192px,96vw);}'
+  +   'body.bbd-wide .bbd-colgroup{width:min(clamp(96px,20vmin,262px),calc((100% - (var(--bbd-n,3) - 1)*var(--bbd-gap))/var(--bbd-n,3)));}'
+  +   'body.bbd-wide .bbd-face{font-size:clamp(40px,13vmin,138px);}'
+  +   'body.bbd-wide .bbd-face.multi{font-size:clamp(30px,10vmin,100px);}'
+  +   'body.bbd-wide .bbd-chev{width:clamp(40px,8vmin,72px);height:clamp(40px,8vmin,72px);}'
+  +   'body.bbd-wide .bbd-pill{font-size:22px;}'
+  + '}'
+  + '@media (min-width:1800px) and (min-height:1080px){'
+  +   'body.bbd-wide .lcs-app{max-width:min(1560px,96vw);}'
+  +   'body.bbd-wide .bbd-colgroup{width:min(clamp(96px,24vmin,340px),calc((100% - (var(--bbd-n,3) - 1)*var(--bbd-gap))/var(--bbd-n,3)));}'
+  +   'body.bbd-wide .bbd-face{font-size:clamp(40px,16vmin,178px);}'
+  +   'body.bbd-wide .bbd-face.multi{font-size:clamp(30px,12vmin,128px);}'
+  +   'body.bbd-wide .bbd-chev{width:clamp(40px,9vmin,84px);height:clamp(40px,9vmin,84px);}'
+  +   'body.bbd-wide .bbd-pill{font-size:25px;}'
+  + '}'
+  + '@media (min-width:2400px) and (min-height:1150px){'
+  +   'body.bbd-wide .lcs-app{max-width:min(1752px,96vw);}'
+  +   'body.bbd-wide .bbd-colgroup{width:min(clamp(96px,28vmin,400px),calc((100% - (var(--bbd-n,3) - 1)*var(--bbd-gap))/var(--bbd-n,3)));}'
+  +   'body.bbd-wide .bbd-face{font-size:clamp(40px,18vmin,210px);}'
+  +   'body.bbd-wide .bbd-face.multi{font-size:clamp(30px,14vmin,152px);}'
+  +   'body.bbd-wide .bbd-chev{width:clamp(40px,10vmin,94px);height:clamp(40px,10vmin,94px);}'
+  +   'body.bbd-wide .bbd-pill{font-size:28px;}'
+  + '}'
   + '.bbd-wrap{display:flex;flex-direction:column;align-items:center;'
   +   'gap:clamp(10px,2.2vmin,20px);width:100%;'
   +   '--bbd-c-ink:#146B5E;--bbd-c-well:#E2F0EC;--bbd-c-edge:rgba(20,107,94,.45);'

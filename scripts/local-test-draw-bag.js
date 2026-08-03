@@ -300,13 +300,20 @@ const drawAll = async (page, n) => {
         [360, 20], [412, 40],
         [768, 20], [768, 40],
         [1024, 10], [1024, 40],
-        [1366, 40]
+        [1366, 40],
+        /* ⚠ THE TIER CELLS. draw-bag SHIPPED its three wide tiers with a sweep
+           that stopped at 1366, so nothing in its own suite ever rendered them
+           — a tier nobody measures is a tier nobody has verified. Each is its
+           tier's floor at the fullest record, which is where the grid is
+           tallest and the cap most likely to push past the fold. */
+        [1400, 40], [1920, 40], [2560, 40], [2560, 10]
       ];
       let worstCtrl = 999, worstCell = 999, worstFont = 999, sweepErrs = 0, checked = 0;
       for (const [w, n] of CELLS) {
         for (const skin of skins) {
           const page = await newPage(browser, { premium: true });
-          const h = w >= 768 ? 900 : 780;
+          const h = w >= 2400 ? 1440 : w >= 1800 ? 1080 : w >= 1400 ? 880 : w >= 768 ? 900 : 780;
+          const vpH = h;
           await open(page, 'en', w, h);
           /* every configuration, not just the default one */
           await page.evaluate((len, sk) => {
@@ -408,7 +415,12 @@ const drawAll = async (page, n) => {
           if (m.outside) is(false, 'L7 ' + tag + ': ' + m.outside + ' block(s) outside THE CARD');
           if (m.clipped) is(false, 'L7 ' + tag + ': ' + m.clipped + ' label(s) clipped by their own box');
           if (m.doc > 0) is(false, 'L7 ' + tag + ': the page overflows sideways by ' + m.doc + 'px');
-          if (w >= 768 && m.bottom > 900) is(false, 'L7 ' + tag + ': does not FIT — the foot ends at ' + Math.round(m.bottom) + 'px');
+        /* ⚠ THIS WAS A HARDCODED 900. Third time in this batch: a per-tool
+           gate whose sweep is widened past 900 keeps comparing against a
+           literal, so a tool that fits its board perfectly reports CUT OFF.
+           Measure the REAL viewport; below the wide cells it IS 900, so no
+           existing cell moves. */
+          if (w >= 768 && m.bottom > vpH) is(false, 'L7 ' + tag + ': does not FIT — the foot ends at ' + Math.round(m.bottom) + 'px of ' + vpH + 'px');
           /* ⚠ BELOW 768 THE STANDARD IS *PROVEN REACHABLE*, NOT FITS —
              the recorded arrow-strip defect is a sweep that asserted
              FITS at >=768 and checked nothing at all below it, so a

@@ -72,6 +72,71 @@ const only = (process.argv.find((a) => a.indexOf('--tool=') === 0) || '').split(
    run, not a per-deploy one. */
 const CONTRACT_ONLY = process.argv.includes('--contract-only');
 
+/* =====================================================================
+   ⭐⭐ THE ROSTER IS NOW DERIVED, AND IT WAS WRONG.
+   The comment above says "every tool that offers a Print chip must appear
+   here" and five did. TWENTY-FIVE tools call `window.print()`. Worse, the
+   filter accepted `--tool=arrow-strip`, matched nothing, and printed
+   "PASS — 0 checks: every Print chip produces a sheet" — a gate reporting
+   success for a tool it had not looked at, which is the exact shape this
+   file's own header warns about for #40 and #41.
+
+   Scanning the source instead of trusting the list found THREE tools that
+   call window.print() with NO `@media print` BLOCK AT ALL — they print the
+   whole web page, nav and buttons and footer, at screen size. That is the
+   #40/#41 defect, still live, in three more places:
+       arrow-strip · draw-bag · lids
+   All three are in the wide-viewport batch and each gets its sheet with
+   its own tool; they are baselined here so the gate fails on a NEW one,
+   and THE LIST MAY ONLY SHRINK.
+
+   A further twenty tools DO have a print block but no browser probe entry
+   in TOOLS, so their sheets have never been driven. That is recorded, not
+   silently passed.
+   ===================================================================== */
+const NO_SHEET_YET = new Set(['arrow-strip', 'draw-bag', 'lids']);
+
+function printChipTools() {
+  return fs.readdirSync(ROOT).filter((f) => /\.js$/.test(f)).map((f) => f.slice(0, -3))
+    .filter((k) => /window\.print\s*\(/.test(fs.readFileSync(path.join(ROOT, k + '.js'), 'utf8')));
+}
+function hasPrintBlock(k) {
+  return /@media print/.test(fs.readFileSync(path.join(ROOT, k + '.js'), 'utf8'));
+}
+
+(function auditRoster() {
+  const all = printChipTools();
+  const naked = all.filter((k) => !hasPrintBlock(k));
+  const fresh = naked.filter((k) => !NO_SHEET_YET.has(k));
+  const stale = [...NO_SHEET_YET].filter((k) => !naked.includes(k));
+  const unprobed = all.filter((k) => hasPrintBlock(k) && !TOOLS.some((t) => t.key === k));
+
+  console.log('  roster: ' + all.length + ' tools call window.print(); ' +
+    TOOLS.length + ' have a browser probe; ' + naked.length + ' have NO print block; ' +
+    unprobed.length + ' have a block but no probe');
+  if (unprobed.length) console.log('    no probe yet: ' + unprobed.join(', '));
+
+  if (fresh.length) {
+    console.error('  FAIL a NEW tool calls window.print() with no @media print block: ' + fresh.join(', '));
+    console.error('       it would print the whole web page — nav, buttons, footer, at screen size');
+    process.exit(1);
+  }
+  if (stale.length) {
+    console.error('  FAIL these are baselined as sheet-less but now HAVE a print block: ' + stale.join(', '));
+    console.error('       delete them from NO_SHEET_YET — the ratchet may only shrink');
+    process.exit(1);
+  }
+})();
+
+/* ⚠ AND AN UNMATCHED --tool= IS AN ERROR, NOT A PASS. */
+if (only && !TOOLS.some((t) => t.key === only)) {
+  console.error('  FAIL --tool=' + only + ' has no browser probe in TOOLS, so this run would ' +
+    'measure nothing and report success. ' +
+    (NO_SHEET_YET.has(only) ? 'It is baselined as having no print sheet at all.'
+      : 'Add an entry with its sheet selector.'));
+  process.exit(1);
+}
+
 const srv = http.createServer((rq, rs) => {
   const f = rq.url.split('?')[0].replace('/mini-tools/', '');
   const fp = path.join(ROOT, f);

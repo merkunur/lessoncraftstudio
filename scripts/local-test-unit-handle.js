@@ -421,7 +421,12 @@ async function dragHandle(page, which, toFrac) {
         if (m.doc > 0) is(false, 'L9 ' + tag + ': the page overflows sideways by ' + m.doc + 'px');
         if (m.overlap) { overlaps += m.overlap; is(false, 'L9 ' + tag + ': ' + m.overlap + ' tile(s) overlap their neighbour'); }
         if (m.benchH < 60) is(false, 'L9 ' + tag + ': the object zone is only ' + Math.round(m.benchH) + 'px tall');
-        if (w >= 768 && m.bottom > 900) is(false, 'L9 ' + tag + ': does not FIT — the foot ends at ' + Math.round(m.bottom) + 'px');
+        /* ⚠ THIS WAS A HARDCODED 900. Third time in this batch: a per-tool
+           gate whose sweep is widened past 900 keeps comparing against a
+           literal, so a tool that fits its board perfectly reports CUT OFF.
+           Measure the REAL viewport; below the wide cells it IS 900, so no
+           existing cell moves. */
+        if (w >= 768 && m.bottom > h) is(false, 'L9 ' + tag + ': does not FIT — the foot ends at ' + Math.round(m.bottom) + 'px of ' + h + 'px');
         /* below 768 the standard is PROVEN REACHABLE, not FITS — the
            shell grows the iframe to the card's own height */
         if (w < 768 && m.bottom > m.cardBottom + 1) {

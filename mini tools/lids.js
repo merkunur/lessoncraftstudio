@@ -638,6 +638,8 @@ var Lids = {
   init: function (api) {
     this.api = api;
     injectLidsCSS();
+    /* the wide-viewport switch, and the one-line rollback */
+    document.body.classList.add('lid-wide');
     this._store = this._loadStore();
     var ent = this._store.ent;
     if (ent && ent.tier) this.premium = ent.tier !== 'free';
@@ -1163,6 +1165,73 @@ function injectLidsCSS() {
     + '@media (min-width:760px){'
     +   '.lid-table{max-width:680px;}'
     +   '.lid-strip{max-width:680px;}'
+    + '}'
+    /* =====================================================================
+       WIDE VIEWPORTS — the per-tool tiers, and the tool that gets the LEAST.
+
+       ⚠ THIS TOOL IS ALREADY AT ITS HEIGHT LIMIT AND ITS OWN COMMENT SAYS
+       SO: the locale audit caught ITALIAN at 903px against a 900px budget
+       with the gate showing, and the `gap:8` and hint savings that bought
+       that headroom are already spent. So the derivation was run in three
+       locales — de, it and fi — rather than German alone, because German is
+       NOT the worst here. Measured chrome (card height minus table):
+         1366x900   de 420   it 472   fi 420   <- narrow card, chrome wraps
+         1400x880   de 375   it 375   fi 396
+         1800x1000  de 388   it 388   fi 409   <- the worst WIDE cell
+       The tiers only apply above 1367, so 409 is the number that governs
+       them; 420 is used, plus the ~12-20px the type ramp itself adds.
+         A  (880-432)/0.62 = 722, but a 700px table plus the ramp lands at
+            874 of 880 — six pixels. TIER A GETS NO TABLE GROWTH AT ALL,
+            only bigger type: 680 x 0.62 + 432 = 854 of 880 (26 spare).
+            This is the derivation table's `-` for lids, confirmed by hand.
+         B  (1000-440)/0.62 = 903 -> 840 -> 840 x 0.62 + 440 = 961 of 1000
+         C  (1150-450)/0.62 = 1129 -> 1040 -> 1040 x .62 + 450 = 1095 of 1150
+       Width is never the constraint (840 <= 1192, 1040 <= 1752), which is
+       what an 0.62 aspect on a 16:9 screen guarantees.
+
+       ⚠ `.lid-mark` and `.lid-chip` KEEP min-height/min-width 44px — the
+       ramp only ever raises them. `.lid-strip` tracks the table, or the
+       marks would sit under a table twice their row's width.
+       ===================================================================== */
+    + '@media (min-width:1367px) and (min-height:880px){'
+    +   'body.lid-wide .lid-chip{font-size:17px;}'
+    +   'body.lid-wide .lid-mark{font-size:18px;}'
+    +   'body.lid-wide .lid-hint{font-size:17px;}'
+    +   'body.lid-wide .lid-gate{font-size:16px;}'
+    + '}'
+    + '@media (min-width:1800px) and (min-height:1000px){'
+    +   'body.lid-wide .lid-table,body.lid-wide .lid-strip{max-width:840px;}'
+    +   'body.lid-wide .lid-chip{font-size:18px;}'
+    +   'body.lid-wide .lid-mark{font-size:20px;}'
+    +   'body.lid-wide .lid-hint{font-size:18px;}'
+    +   'body.lid-wide .lid-gate{font-size:17px;}'
+    + '}'
+    /* ⚠ AND TWO MORE STEPS, BECAUSE THE FIRST THREE WERE SIZED FOR THEIR OWN
+       FLOORS AND THE FILL GATE WAS RIGHT TO SAY SO: 43.8% at 1920 and 40.6% at
+       2560, against floors of 45 and 50. A 0.62 aspect makes this tool
+       height-bound, so a cap derived at a 1000px floor leaves a real 1080px
+       board — and a real 1440px one — running a table sized for a shorter
+       screen. The ladder is now monotone in HEIGHT, each step derived at its
+       own floor, later rules larger so the cascade picks the tallest that
+       applies:
+         h>=1080  (1080-440)/0.62 = 1032 -> 1000 -> 1060 of 1080   (20 spare)
+         h>=1400  (1400-450)/0.62 = 1532 -> 1480 -> 1368 of 1440   (72 spare)
+       Card usable is never binding (1000 <= 1192, 1480 <= 1752). FILL becomes
+       52.1% at 1920 and 57.8% at 2560. Lowering the floor was the other,
+       forbidden answer. */
+    + '@media (min-width:1800px) and (min-height:1080px){'
+    +   'body.lid-wide .lid-table,body.lid-wide .lid-strip{max-width:1000px;}'
+    + '}'
+    + '@media (min-width:2400px) and (min-height:1150px){'
+    +   'body.lid-wide .lid-table,body.lid-wide .lid-strip{max-width:1080px;}'
+    +   'body.lid-wide .lid-chip{font-size:19px;}'
+    +   'body.lid-wide .lid-mark{font-size:22px;}'
+    +   'body.lid-wide .lid-hint{font-size:19px;}'
+    +   'body.lid-wide .lid-gate{font-size:18px;}'
+    + '}'
+    + '@media (min-width:2400px) and (min-height:1400px){'
+    +   'body.lid-wide .lid-table,body.lid-wide .lid-strip{max-width:1480px;}'
+    +   'body.lid-wide .lid-mark{font-size:24px;}'
     + '}'
     + '@media (prefers-reduced-motion:reduce){'
     +   '.lid-lid{transition:none;}'

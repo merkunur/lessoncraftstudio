@@ -522,7 +522,10 @@ const addLids = async (page, k) => {
     /* ---- L8 ⭐ THE SWEEP -------------------------------------------- */
     {
       const CASES = [];
-      for (const w of [320, 360, 412, 768, 1024, 1366]) {
+      /* the tier floors: this tool gets NO table growth at Tier A (its own
+         height budget forbids it) and 840/1040 above, so the wide cells are
+         where the type ramp and the bigger table have to prove they fit. */
+      for (const w of [320, 360, 412, 768, 1024, 1366, 1400, 1800, 2400, 2560]) {
         for (const k of [1, 2, 3, 4]) {
           for (const lifted of [false, true]) CASES.push([w, k, lifted]);
         }
@@ -530,7 +533,7 @@ const addLids = async (page, k) => {
       let worstCtrl = 999, worstCell = 999, worstCellWide = 999, worstFont = 999, sweepErrs = 0, checked = 0, overlaps = 0;
       for (const [w, k, lifted] of CASES) {
         const page = await newPage(browser, { premium: true });
-        const h = w >= 768 ? 900 : 780;
+        const h = w >= 2560 ? 1440 : w >= 2400 ? 1150 : w >= 1800 ? 1000 : w >= 1400 ? 880 : w >= 768 ? 900 : 780;
         await open(page, 'en', w, h);
         /* every configuration, not just the default one — and BOTH
            states, because the lifted table grows a reveal block */
@@ -628,7 +631,8 @@ const addLids = async (page, k) => {
         if (m.clipped) is(false, 'L8 ' + tag + ': ' + m.clipped + ' label(s) clipped by their own box');
         if (m.doc > 0) is(false, 'L8 ' + tag + ': the page overflows sideways by ' + m.doc + 'px');
         if (m.tableH < 180) is(false, 'L8 ' + tag + ': the table is only ' + Math.round(m.tableH) + 'px tall — the lids have nowhere to go');
-        if (w >= 768 && m.bottom > 900) is(false, 'L8 ' + tag + ': does not FIT — the foot ends at ' + Math.round(m.bottom) + 'px');
+        /* the REAL viewport, not a literal 900 — the batch's recurring trap */
+        if (w >= 768 && m.bottom > h) is(false, 'L8 ' + tag + ': does not FIT — the foot ends at ' + Math.round(m.bottom) + 'px of ' + h + 'px');
         /* ⚠ BELOW 768 THE STANDARD IS *PROVEN REACHABLE*, NOT FITS, AND
            REACHABLE IS NOT MEASURED BY SCROLLING. lcs-shell.css sets
            `html,body{height:100%;overflow:hidden}` deliberately; in

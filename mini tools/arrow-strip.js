@@ -121,6 +121,7 @@ var ArrowStrip = {
      --------------------------------------------------------------- */
   strings: {
     title:        { en: "The Arrow Strip", de: "Der Käferplan", fr: "La piste qui attend", es: "El carril del escarabajo", pt: "Trilho das setas", it: "Il binario delle frecce", nl: "De Pijlenbaan", sv: "Kommandorälsen", da: "Pilesporet", no: "Pilbanen", fi: "Kuoriaisrata" },
+    instruction:  { en: "Say where it will stop. Then run it.", de: "Sagt vorher, auf welchem Feld der Käfer stehen bleibt. Dann schickt ihn los.", fr: "Dites où elle va s’arrêter. Puis lancez la piste.", es: "Digan en qué casilla va a parar. Luego ejecuten.", pt: "Digam em que casa ele vai parar. Depois rodem.", it: "Dite dove si fermerà. Poi eseguite.", nl: "Zeg waar hij stopt. Laat hem dan lopen.", sv: "Säg var skalbaggen stannar. Kör sedan.", da: "Sig, hvor billen ender. Kør så sporet.", no: "Si hvor den stopper. Kjør den så.", fi: "Sanotaan ääneen, mihin ruutuun kuoriainen päätyy. Vasta sitten ajetaan." },
     buildHint:    { en: "Put cards in the rail. Nothing moves yet.", de: "Legt die Karten in die Bahn. Noch bewegt sich nichts.", fr: "Posez les cartes sur la piste. Rien ne bouge encore.", es: "Pongan tarjetas en el carril. Todavía no se mueve nada.", pt: "Coloquem as cartas no trilho. Nada se mexe ainda.", it: "Mettete le carte nel binario. Per ora non si muove niente.", nl: "Leg kaarten in de baan. Er beweegt nog niets.", sv: "Lägg korten på rälsen. Ingenting rör sig än.", da: "Læg kortene i sporet. Ingenting flytter sig endnu.", no: "Legg kort i banen. Ingenting rører seg ennå.", fi: "Asetetaan kortit radalle. Mikään ei vielä liiku." },
     predictHint:  { en: "Say where it will stop. Then run it.", de: "Sagt vorher, auf welchem Feld der Käfer stehen bleibt. Dann schickt ihn los.", fr: "Dites où elle va s’arrêter. Puis lancez la piste.", es: "Digan en qué casilla va a parar. Luego ejecuten.", pt: "Digam em que casa ele vai parar. Depois rodem.", it: "Dite dove si fermerà. Poi eseguite.", nl: "Zeg waar hij stopt. Laat hem dan lopen.", sv: "Säg var skalbaggen stannar. Kör sedan.", da: "Sig, hvor billen ender. Kør så sporet.", no: "Si hvor den stopper. Kjør den så.", fi: "Sanotaan ääneen, mihin ruutuun kuoriainen päätyy. Vasta sitten ajetaan." },
     againHint:    { en: "Change one card and run it again.", de: "Ändert eine einzige Karte und schickt ihn noch einmal los.", fr: "Changez une seule carte, puis relancez.", es: "Cambien una sola tarjeta y ejecuten otra vez.", pt: "Troquem uma carta só e rodem de novo.", it: "Cambiate una carta sola ed eseguite di nuovo.", nl: "Verander één kaart en laat hem opnieuw lopen.", sv: "Byt ett enda kort och kör igen.", da: "Byt ét kort ud og kør igen.", no: "Bytt ett kort, og kjør igjen.", fi: "Vaihdetaan yksi kortti ja ajetaan uudelleen. Vanha jälki jää näkyviin." },
@@ -412,6 +413,8 @@ var ArrowStrip = {
   init: function (api) {
     this.api = api;
     injectArrowStripCSS();
+    /* the wide-viewport switch, and the one-line rollback */
+    document.body.classList.add('arw-wide');
     this._store = this._loadStore();
     var ent = this._store.ent;
     if (ent && ent.tier) this.premium = ent.tier !== 'free';
@@ -568,6 +571,13 @@ var ArrowStrip = {
        so setting it on the frame sized every mat for six columns and
        only looked right because six is the default. */
     box.style.setProperty('--arw-cols', String(s.n));
+    /* ⭐ THE CELL CEILING BELONGS TO THE GRID SIZE, NOT ONLY THE TIER. The
+       mat is SQUARE and its side is cols x cell, so one ceiling for all
+       three decks (n = 4, 6, 8) sizes every mat as if it were the densest:
+       measured at 2560x1440 the 6x6 mat came out 788px against a height
+       budget of 1138, a quarter smaller than the room allows, for no
+       reason at all. Same shape as number-sieve's per-FIELD caps. */
+    box.classList.add('arw-n' + s.n);
     box.appendChild(frame);
     if (s.eye === 'beetle') box.appendChild(beetle);
 
@@ -822,6 +832,135 @@ function injectArrowStripCSS() {
     +   '.arw-scroll{width:auto;}'
     +   '.arw-mat{--arw-cell:clamp(34px,5.2vmin,46px);}'
     +   '.arw-railcol{width:auto;flex:0 0 auto;max-width:260px;}'
+    + '}'
+    /* =====================================================================
+       WIDE VIEWPORTS — the per-tool tiers.
+
+       ⚠⚠ THE CLAMP IS LIVE, NOT PINNED, AND A CEILING-ONLY BUMP DOES
+       NOTHING. Row mode sets `clamp(34px,5.2vmin,46px)`; at 1367x880 the
+       middle term computes 5.2 x 8.8 = 45.76px — 0.24px under its own
+       ceiling. Raising 46 to 70 and stopping would change the render by a
+       quarter of a pixel at Tier A while working at the wider tiers: the
+       worst possible failure shape, because it looks fixed on the monitor
+       you happen to be at. The WHOLE clamp is replaced, middle term first.
+       ⚠ AND 9vmin WAS NOT GENEROUS ENOUGH — I wrote it believing it was,
+       and the measurement said otherwise: at 2560x1440 vmin is the 1440
+       HEIGHT, so 9vmin computes 129.6px and the 176px Tier-D ceiling for
+       a 6x6 mat never bound. The mat came out 788px, exactly as it had
+       before the tier existed. A middle term is only 'generous' relative
+       to the ceiling it sits under, and vmin on a 16:9 screen tracks the
+       SHORT side. 40vmin is past every ceiling here, so above 1367 the
+       derived cap is what binds and the 34px floor is still the floor.
+       A cap you derived and then let a vmin term overrule is not a cap.
+
+       ⚠ THE 46px ROW-MODE CEILING WAS DERIVED FROM A 720px CARD. Its own
+       comment does the arithmetic: `382 + 20 + 260 = 662 inside the card`.
+       That premise is void — the card is 1240 and 1800 now — so this is
+       the tier that gives the ceiling back, exactly as on draw-bag.
+
+       MEASURED (probe, German, 6- and 8-column mats at five viewports):
+       the mat renders 382x382 at 8 cols and the card bottom lands at 684,
+       so chrome = 684 - 382 = 302px. The mat is SQUARE, so its side is the
+       lesser of the two budgets:
+         height = tierMinHeight - 302
+         width  = cardUsable - 20 (gap) - railcol
+         cell   = (side - (cols-1) x 2) / cols, worst case cols = 8
+           A  h 880-302 = 578 | w 1192-320 = 872  -> side 578 -> cell 70
+           B  h 1050-302 = 748 | w 1192-360 = 832 -> side 748 -> cell 88
+           C  h 1150-302 = 848 | w 1752-400 = 1352 -> side 848 -> cell 100
+       Every tier is HEIGHT-bound, which is what a 1:1 aspect guarantees:
+       on this tool every pixel of width is also a pixel of height.
+
+       ⚠ THE BREAKPOINTS MATCH THE SHELL'S CARD LADDER, NOT A TIDY 880/
+       1000/1150. The shell widens the card at 1367/880 -> 1240 and at
+       1800/1150 -> 1800. A tier keyed at 1800/1000 fires in the gap where
+       the card has NOT grown — that is how number-sieve drew a 1351px
+       field inside a 1240px card with every gate green. Tier B here is
+       therefore keyed 1800/1050 and sized against the 1240 card; only
+       Tier C, at the shell's own 1800/1150, may spend the 1800 one.
+
+       ⚠ `.arw-beetle` IS `calc(var(--arw-cell)*.72)` and the trail/ghost
+       stroke widths are in mat user units — all three scale with the cell
+       already and must NOT be ramped again. Only `.arw-card`, `.arw-slot`,
+       the hint and the gate are hand-ramped, because none of them scales.
+       ⚠ `.arw-slot` and `.arw-card` keep min-height/min-width 44px; the
+       ramp only ever raises them.
+       ⚠ AND VERIFY THE MAT AGAINST THE CARD, NEVER VIA scrollWidth: this
+       tool's own comment records that `.arw-scroll{overflow-x:auto}`
+       silently absorbed a mat overflow and every measured gate passed it.
+       The shared gate's new ESCAPES-ITS-CARD assertion is that check.
+       ===================================================================== */
+    + '@media (min-width:1367px) and (min-height:880px){'
+    +   'body.arw-wide .arw-n4{--arw-cell:clamp(34px,40vmin,134px);}'
+    +   'body.arw-wide .arw-n6{--arw-cell:clamp(34px,40vmin,90px);}'
+    +   'body.arw-wide .arw-n8{--arw-cell:clamp(34px,40vmin,66px);}'
+    +   'body.arw-wide .arw-railcol{max-width:300px;}'
+    +   'body.arw-wide .arw-card{width:72px;height:72px;font-size:40px;}'
+    +   'body.arw-wide .arw-slot{width:52px;height:52px;font-size:30px;}'
+    +   'body.arw-wide .arw-rail{min-height:64px;}'
+    +   'body.arw-wide .arw-hint{font-size:17px;}'
+    +   'body.arw-wide .arw-gate{font-size:16px;}'
+    + '}'
+    + '@media (min-width:1800px) and (min-height:1050px){'
+    +   'body.arw-wide .arw-n4{--arw-cell:clamp(34px,40vmin,174px);}'
+    +   'body.arw-wide .arw-n6{--arw-cell:clamp(34px,40vmin,116px);}'
+    +   'body.arw-wide .arw-n8{--arw-cell:clamp(34px,40vmin,86px);}'
+    +   'body.arw-wide .arw-railcol{max-width:340px;}'
+    +   'body.arw-wide .arw-card{width:84px;height:84px;font-size:46px;}'
+    +   'body.arw-wide .arw-slot{width:58px;height:58px;font-size:34px;}'
+    +   'body.arw-wide .arw-rail{min-height:70px;}'
+    +   'body.arw-wide .arw-hint{font-size:18px;}'
+    +   'body.arw-wide .arw-gate{font-size:17px;}'
+    + '}'
+    + '@media (min-width:1800px) and (min-height:1150px){'
+    +   'body.arw-wide .arw-n4{--arw-cell:clamp(34px,40vmin,198px);}'
+    +   'body.arw-wide .arw-n6{--arw-cell:clamp(34px,40vmin,132px);}'
+    +   'body.arw-wide .arw-n8{--arw-cell:clamp(34px,40vmin,98px);}'
+    +   'body.arw-wide .arw-railcol{max-width:380px;}'
+    +   'body.arw-wide .arw-card{width:96px;height:96px;font-size:52px;}'
+    +   'body.arw-wide .arw-slot{width:64px;height:64px;font-size:38px;}'
+    +   'body.arw-wide .arw-rail{min-height:76px;}'
+    +   'body.arw-wide .arw-hint{font-size:19px;}'
+    +   'body.arw-wide .arw-gate{font-size:18px;}'
+    + '}'
+    /* ⭐ A FOURTH TIER, AND ONLY THIS TOOL HAS ONE. Because the mat is 1:1,
+       every pixel of width is a pixel of height, so arrow-strip is the one
+       instrument in the catalog whose size is set by the SHORT side of the
+       screen. Tier C is sized for its own 1150px floor and therefore leaves
+       a genuine 1440px board — the operator's — running a 100px cell when
+       there is height for 130:
+         side budget h 1440-302 = 1138, and cell = (side - (n-1)x2)/n:
+           n=4 -> 282 -> 262    n=6 -> 188 -> 176    n=8 -> 140 -> 132
+         worst case n=8: mat 1070 | 1070 + 302 = 1372 of 1440  (68 spare)
+         width 1070 + 20 + 420 = 1510 of a 1752 usable card
+       Without this tier the composite reaches 39.5% of a 2560 screen and the
+       FILL floor is right to say that is too small. Lowering the floor would
+       have been the other, forbidden answer.
+
+       ⚠ AND ONE CEILING PER TIER WAS STILL WRONG: at 130 the 6x6 mat measured
+       788px against a 1138px budget, a quarter smaller than the room allows,
+       because the ceiling was sized for the 8x8 deck. Every tier now carries
+       a ceiling per grid size, derived the same way at its own floor:
+       ⚠ AND THE FIRST SET OF NUMBERS WAS 4px TOO BIG, MEASURED: at 2400x1150
+       with an 8x8 mat the card stood 1154 against a 1150 floor. Chrome here
+       is 308px, not the 302 the first probe read at a different viewport, and
+       every ceiling had been derived from the 302. Re-derived against 308
+       with a ~5% margin — side = tierMinHeight - 308, cell = (side-(n-1)x2)/n:
+           A (side 572)   n4 134  n6  90  n8  66
+           B (side 742)   n4 174  n6 116  n8  86
+           C (side 842)   n4 198  n6 132  n8  98
+           D (side 1092)  n4 258  n6 172  n8 128
+       Worst case D/n8: mat 1038, card 1346 of 1400 (54 spare).             */
+    + '@media (min-width:2400px) and (min-height:1400px){'
+    +   'body.arw-wide .arw-n4{--arw-cell:clamp(34px,40vmin,258px);}'
+    +   'body.arw-wide .arw-n6{--arw-cell:clamp(34px,40vmin,172px);}'
+    +   'body.arw-wide .arw-n8{--arw-cell:clamp(34px,40vmin,128px);}'
+    +   'body.arw-wide .arw-railcol{max-width:420px;}'
+    +   'body.arw-wide .arw-card{width:108px;height:108px;font-size:58px;}'
+    +   'body.arw-wide .arw-slot{width:70px;height:70px;font-size:42px;}'
+    +   'body.arw-wide .arw-rail{min-height:82px;}'
+    +   'body.arw-wide .arw-hint{font-size:20px;}'
+    +   'body.arw-wide .arw-gate{font-size:19px;}'
     + '}'
     + '@media (prefers-reduced-motion:reduce){'
     +   '.arw-frame,.arw-beetle{transition:none;}'

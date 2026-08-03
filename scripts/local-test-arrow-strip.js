@@ -278,9 +278,18 @@ const trailPts = (page, cls) => page.evaluate((c) => {
        the 6x6 and so could not see that the mat was sized for six columns
        whatever n was — it happened to be right for the default. */
     console.log('\nL8 the sweep — all three mat sizes at every viewport');
-    for (const [w, n] of [[320, 4], [320, 6], [320, 8], [360, 6], [412, 8], [768, 8], [1024, 4], [1024, 8], [1366, 8]]) {
+    /* ⚠ THE WIDE CELLS CARRY THEIR OWN HEIGHT. This mat is 1:1, so its cap is
+       set by the SHORT side of the screen; testing 1400 at the 900px height
+       used above would test a tier that does not apply. Each wide entry is
+       its tier's exact FLOOR, at all three mat sizes, because the per-grid
+       ceilings differ and an 8x8 at the floor is the tightest cell there is. */
+    for (const [w, n, hh] of [[320, 4], [320, 6], [320, 8], [360, 6], [412, 8], [768, 8], [1024, 4], [1024, 8], [1366, 8],
+      [1400, 4, 880], [1400, 6, 880], [1400, 8, 880],
+      [1800, 6, 1050], [1800, 8, 1050],
+      [2400, 6, 1150], [2400, 8, 1150],
+      [2560, 4, 1440], [2560, 6, 1440], [2560, 8, 1440]]) {
       const page = await newPage(browser);
-      await open(page, 'en', w, 900);
+      await open(page, 'en', w, hh || 900);
       await page.evaluate((size) => {
         const b = Array.from(document.querySelectorAll('.arw-sizes .arw-chip'));
         const hit = b.find((e) => e.textContent.indexOf(String(size)) === 0);
@@ -331,7 +340,12 @@ const trailPts = (page, cls) => page.evaluate((c) => {
       if (w >= 768) is(m.matW <= m.scrollW + 1, `L8 @${w} n=${n} the whole mat is visible without scrolling sideways (${m.matW.toFixed(0)} of ${m.scrollW})`);
       is(m.docOverflow <= 0, `L8 @${w} n=${n} the page does not scroll sideways`);
       is(m.minFont >= 14, `L8 @${w} n=${n} every text-bearing node is >=14px (${m.minFont})`);
-      if (w >= 768) is(m.bottom <= 900, `L8 @${w} n=${n} FITS — the last control's bottom is ${m.bottom.toFixed(0)} of 900`);
+      /* ⚠ THIS WAS A HARDCODED 900 while the sweep above now opens each wide
+         cell at its tier's real height. A tool fitting a 1440px board
+         reported CUT OFF five times. Measure against the viewport the cell
+         actually used; below 1400 that IS 900, so no narrow cell moves. */
+      const vpH = hh || 900;
+      if (w >= 768) is(m.bottom <= vpH, `L8 @${w} n=${n} FITS — the last control's bottom is ${m.bottom.toFixed(0)} of ${vpH}`);
       is(page._errs.length === 0, `L8 @${w} n=${n} zero console errors${page._errs.length ? ' — ' + page._errs[0] : ''}`);
       if (SHOT && ((w === 360 && n === 6) || (w === 768 && n === 8) || (w === 1024 && n === 8))) await page.screenshot({ path: path.join(SHOT_DIR, `arrow-strip-${w}-n${n}.png`), fullPage: true });
       await page.close();

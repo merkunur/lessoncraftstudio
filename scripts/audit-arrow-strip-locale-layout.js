@@ -20,7 +20,10 @@ const ROOT = path.join(__dirname, '..');
 const MINI = path.join(ROOT, 'mini tools');
 const PORT = 5506;
 const LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
-const WIDTHS = [320, 360, 412, 768, 1024, 1366];
+/* the tier FLOORS, paired with the height that makes each tier apply -- on a
+   1:1 apparatus a width alone names no tier at all. 1366 stays the CONTROL. */
+const WIDTHS = [320, 360, 412, 768, 1024, 1366, 1400, 1800, 2400, 2560];
+const heightFor = (w) => (w >= 2560 ? 1440 : w >= 2400 ? 1150 : w >= 1800 ? 1050 : w >= 1400 ? 880 : 900);
 
 const MIME = { '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.html': 'text/html' };
 const serve = () => http.createServer((req, res) => {
@@ -50,7 +53,7 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
       page.on('request', (r) => (r.url().includes('/api/auth/me')
         ? r.respond({ status: 200, contentType: 'application/json', body: JSON.stringify({ user: { subscriptionTier: 'free' }, subscription: null }) })
         : r.continue()));
-      await page.setViewport({ width: w, height: 900 });
+      await page.setViewport({ width: w, height: heightFor(w) });
       await page.goto(`http://127.0.0.1:${PORT}/arrow-strip.html?lang=${loc}&embed=1`, { waitUntil: 'domcontentloaded' });
       await page.waitForSelector('.arw-card', { timeout: 9000 });
       /* the largest mat and a filled rail — the densest state there is */
@@ -87,7 +90,8 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
       if (m.matOut) bad.push(`@${w} the mat is outside the card`);
       if (m.clipped) bad.push(`@${w} ${m.clipped} label(s) clipped by their own box`);
       if (m.doc > 0) bad.push(`@${w} page overflows sideways by ${m.doc}px`);
-      if (w >= 768 && m.bottom > 900) bad.push(`@${w} does not FIT (bottom ${m.bottom.toFixed(0)})`);
+      /* the REAL viewport, not a hardcoded 900 — see local-test's note */
+      if (w >= 768 && m.bottom > heightFor(w)) bad.push(`@${w} does not FIT (bottom ${m.bottom.toFixed(0)} of ${heightFor(w)})`);
       await page.close();
     }
     is(bad.length === 0, `${loc}: ${bad.join('; ')}`);

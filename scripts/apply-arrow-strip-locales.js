@@ -27,7 +27,17 @@ const CONTENT = path.join(__dirname, '_arrow-strip-content.js');
 const LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
 const DRY = process.argv.indexOf('--dry-run') > -1;
 
-const KEYS = ['title', 'buildHint', 'predictHint', 'againHint', 'runBtn', 'clearBtn', 'eyeBtn',
+/* ⚠ `instruction` IS NOT OPTIONAL — lcs-shell.js:449 reads it for the line
+   under the title AND for the aria label, and prints the raw KEY when it is
+   absent. This tool shipped without one, so every arrow-strip page in every
+   language rendered the literal word "instruction". The panels' own
+   `predictHint` is used: it is already native in eleven languages and it
+   names the routine rather than the opening move, so it does not duplicate
+   the first-paint hint. Flagged for a sentence of its own at the next panel
+   pass. Adding it HERE rather than in the generated block is the point --
+   the first repair went into `mini tools/arrow-strip.js` and this script
+   erased it on the next run, exactly as its own header warns. */
+const KEYS = ['title', 'instruction', 'buildHint', 'predictHint', 'againHint', 'runBtn', 'clearBtn', 'eyeBtn',
   'eyeOffBtn', 'matLabel', 'matBook', 'printBtn', 'gateLine', 'unlock', 'cardFwd', 'cardBack',
   'cardTurnL', 'cardTurnR', 'railSlotAria', 'bodyAria'];
 

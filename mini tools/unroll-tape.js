@@ -635,6 +635,8 @@
     init: function (api) {
       this.api = api;
       injectUnrollTapeCSS();
+      /* the wide-viewport switch, and the one-line rollback */
+      document.body.classList.add('urt-wide');
       this._store = this._loadStore();
       var ent = this._store.ent;
       if (ent && ent.tier) this.premium = ent.tier !== 'free';
@@ -983,9 +985,22 @@
       + '.urt-outline{fill:rgba(20,107,94,.10);stroke:rgba(20,107,94,.55);stroke-width:2.5;}'
       + '.urt-rule{stroke:rgba(20,107,94,.55);stroke-width:2.5;}'
       + '.urt-tick{stroke:rgba(20,107,94,.45);stroke-width:2;}'
-      + '.urt-num{fill:#0F4A40;font:700 22px Baloo 2,Nunito,sans-serif;text-anchor:middle;}'
+      /* ⚠⚠ LONGHAND, NOT THE `font:` SHORTHAND. These two rules used to read
+         `font:700 22px Baloo 2,...`, and an UNQUOTED `Baloo 2` inside a
+         shorthand is invalid — a font-family identifier may not begin with a
+         digit, so the family list is invalid and the WHOLE declaration is
+         dropped: size, weight and family together. MEASURED in a browser:
+         computed 16px/400/Times, against the 22px/700 the rule asks for. The
+         numerals on this instrument have been ~27% small and un-bold since it
+         shipped, and nothing could see it because the SVG still SCALED them
+         correctly (15px at 1366, 38px at 2560) — only the base was wrong.
+         The wide-viewport gate found it; build-plan.js:936 had already written
+         the warning down. Longhand cannot fail this way. */
+      + '.urt-num{fill:#0F4A40;font-weight:700;font-size:22px;'
+      + 'font-family:"Baloo 2",Nunito,sans-serif;text-anchor:middle;}'
       + '.urt-jaw{stroke:#0F4A40;stroke-width:2;}'
-      + '.urt-jawnum{fill:#0F4A40;font:800 20px Baloo 2,Nunito,sans-serif;text-anchor:middle;}'
+      + '.urt-jawnum{fill:#0F4A40;font-weight:800;font-size:20px;'
+      + 'font-family:"Baloo 2",Nunito,sans-serif;text-anchor:middle;}'
       /* the tall bar is a RING, the strand is a FILL — differ in KIND, not
          hue, so no palette ever delivers a verdict */
       + '.urt-tall{fill:none;stroke:#146B5E;stroke-width:9;stroke-linecap:round;}'
@@ -1016,6 +1031,59 @@
       + '.urt-gate{width:100%;max-width:660px;border-radius:16px;border:2px dashed #C8613A;'
       + 'background:#FFF6EE;padding:14px 16px;text-align:center;font-family:Nunito,sans-serif;color:#7A3B21;}'
       + '.urt-gate a{color:#C8613A;font-weight:700;}'
+      /* =====================================================================
+         WIDE VIEWPORTS — the per-tool tiers. THE CLEANEST TOOL IN THE BATCH:
+         all four caps already sit at 660, the numerals are SVG text inside a
+         1000x340 viewBox (so they scale with the bench for free), and there
+         is NO existing width media query for these rules to out-rank.
+
+         MEASURED (derive-tool-wide-tiers.js, German, gate showing): chrome
+         391px, aspect 0.344 (= the 340/1000 viewBox, confirming the
+         measurement rather than assuming it). benchCap = min((tierMinHeight
+         - 391) / 0.344, cardUsableWidth):
+           A  min(1320, 1192) -> 1180   ->  391 + 406 =  797 of  880   (83 spare)
+           B  min(1640, 1608) -> 1560   ->  391 + 537 =  928 of 1000   (72 spare)
+           C  min(2040, 1752) -> 1740   ->  391 + 599 =  990 of 1150  (160 spare)
+
+         ⚠ `.urt-num` AND `.urt-jawnum` ARE NOT RAMPED. They are SVG text in
+         the viewBox and already grow with the bench; ramping them too is the
+         double-ramp that has to be undone later. Only the HTML chrome —
+         hint, chips, gate — is ramped, because it does not scale at all.
+         ⚠ `.urt-handle` STAYS 44px. Its own comment records why it is an
+         HTML button rather than an SVG circle: a radius in model units
+         rendered 29px and broke the K-2 canvas floor. Scaling it here would
+         re-introduce a size that varies with the bench, which is the exact
+         thing that fix removed. The DOT inside it is decorative and does
+         grow, so the affordance stays visible across a classroom.
+         ⚠ `.urt-chip` carries `font:600 clamp(.9rem,3.2vw,1.02rem)/1.1 ...`
+         — the 3.2vw term is PINNED at its 1.02rem ceiling from 510px up, so
+         it is dead at every width these tiers cover and a plain font-size
+         override is correct here.
+         ===================================================================== */
+      + '@media (min-width:1367px) and (min-height:880px){'
+      + '  body.urt-wide .urt-bench,body.urt-wide .urt-foot,'
+      + '  body.urt-wide .urt-hint,body.urt-wide .urt-gate{max-width:1180px;}'
+      + '  body.urt-wide .urt-hint{font-size:17px;}'
+      + '  body.urt-wide .urt-chip{font-size:17px;}'
+      + '  body.urt-wide .urt-gate{font-size:16px;}'
+      + '  body.urt-wide .urt-dot{width:22px;height:22px;}'
+      + '}'
+      + '@media (min-width:1800px) and (min-height:1000px){'
+      + '  body.urt-wide .urt-bench,body.urt-wide .urt-foot,'
+      + '  body.urt-wide .urt-hint,body.urt-wide .urt-gate{max-width:1560px;}'
+      + '  body.urt-wide .urt-hint{font-size:18px;}'
+      + '  body.urt-wide .urt-chip{font-size:18px;}'
+      + '  body.urt-wide .urt-gate{font-size:17px;}'
+      + '  body.urt-wide .urt-dot{width:24px;height:24px;}'
+      + '}'
+      + '@media (min-width:2400px) and (min-height:1150px){'
+      + '  body.urt-wide .urt-bench,body.urt-wide .urt-foot,'
+      + '  body.urt-wide .urt-hint,body.urt-wide .urt-gate{max-width:1740px;}'
+      + '  body.urt-wide .urt-hint{font-size:19px;}'
+      + '  body.urt-wide .urt-chip{font-size:19px;}'
+      + '  body.urt-wide .urt-gate{font-size:18px;}'
+      + '  body.urt-wide .urt-dot{width:26px;height:26px;}'
+      + '}'
       + '@media print{'
       + '  *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}'
       + '  .lcs-header,.urt-hint,.urt-foot,.urt-gate,.urt-handle{display:none !important;}'

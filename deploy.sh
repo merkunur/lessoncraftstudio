@@ -248,6 +248,16 @@ node /opt/lessoncraftstudio/scripts/preflight-tool-registration.js || { echo "ER
 echo "🔎 Activity route + thumbnail check..."
 node /opt/lessoncraftstudio/scripts/preflight-activity-routes.js || { echo "ERROR: an activity would 404 or ship with no card thumbnail — see CLAUDE.md §21.5"; exit 1; }
 
+# Guard: a `font:` shorthand with an UNQUOTED family whose identifier starts with a
+# digit — `Baloo 2` — is INVALID CSS, and an invalid component invalidates the WHOLE
+# shorthand: the size and the weight go down with the family. Measured in a browser:
+# `font:700 22px Baloo 2,...` computes to 16px/400/Times. It is invisible three ways
+# (nothing errors, the family still looks right under an inherited Baloo, and SVG text
+# still SCALES correctly off the wrong base), which is how 37 of them accumulated and
+# how unroll-tape shipped 27%-small numerals. Ratcheted: the baseline may only shrink.
+echo "🔎 Dropped font-shorthand check..."
+node /opt/lessoncraftstudio/scripts/audit-font-shorthand.js || { echo "ERROR: a \`font:\` shorthand with an unquoted family is dropped whole — write it longhand, family QUOTED"; exit 1; }
+
 # Guard: image-library WebP mirrors must be uniform per directory. A HALF-mirrored
 # directory lets a worksheet bake its palette art from a variant and crop its reveal
 # art from the raw file; the two disagree and a child sees puzzle pieces change

@@ -188,9 +188,29 @@ const PROBE = (pfx) => {
   (scope || document).querySelectorAll('*').forEach((e) => {
     const c = String(e.className && e.className.baseVal !== undefined ? e.className.baseVal : e.className || '');
     if (CHROME.test(c) || (e.closest && e.closest('[class*="-foot"],[class*="-bar"],[class*="-gate"],[class*="-hint"]'))) return;
+    /* ⚠⚠ A <style> AND A <script> ARE LEAF NODES WHOSE textContent IS FULL OF
+       DIGITS, and their computed font-size is the inherited 16px. They were
+       being scored as the smallest numeral on the page — so this check could
+       report a 16px "numeral" for a tool with NO numerals at all, and did:
+       unroll-tape's first FAIL named 16px while its numerals rendered 38.
+       (The FAIL was still right, for a different reason — an invalid `font:`
+       shorthand — which is exactly how a vacuous measurement survives: it
+       agreed with a real defect once.) Nothing that renders no box is type. */
+    if (/^(STYLE|SCRIPT|TITLE|META|LINK|HEAD|DEFS|TEMPLATE)$/.test(e.tagName)) return;
     if (e.children.length === 0 && /\d/.test((e.textContent || '').trim())) {
-      const fsz = parseFloat(getComputedStyle(e).fontSize);
-      if (fsz && fsz < minNum) { minNum = fsz; minNumEl = c || e.tagName; }
+      const box = e.getBoundingClientRect();
+      if (box.height <= 1 || box.width <= 1) return;
+      const cs = getComputedStyle(e);
+      if (cs.visibility === 'hidden' || cs.display === 'none' || parseFloat(cs.opacity) === 0) return;
+      /* ⚠⚠ AND FOR SVG TEXT, COMPUTED font-size IS IN USER UNITS, NOT PIXELS.
+         `.urt-num` computes 16px and RENDERS 38px on a 1740px bench, because
+         the viewBox scales it — so measuring the computed value asks the
+         wrong question of every SVG numeral in the catalog, and asks it in
+         the units of a coordinate system the child cannot see. The rendered
+         box height is the size a teacher across a room actually gets. */
+      const svgText = e.namespaceURI === 'http://www.w3.org/2000/svg';
+      const fsz = svgText ? box.height : parseFloat(cs.fontSize);
+      if (fsz && fsz < minNum) { minNum = fsz; minNumEl = (c || e.tagName) + (svgText ? ' (svg, rendered)' : ''); }
     }
   });
   document.querySelectorAll('button,[role="slider"],input,select').forEach((e) => {

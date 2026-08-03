@@ -256,10 +256,35 @@ const PROBE = (pfx) => {
   }
 
   /* lowest control bottom — the FITS measure */
-  let lowest = 0;
+  /* ⭐⭐ A CONTROL BELOW THE FOLD IS ONLY CUT OFF IF NOTHING CAN SCROLL IT
+     INTO VIEW. This measured absolute viewport position and nothing else, so
+     it FAILED our-day — whose lowest control sits in `.od-palette`, an
+     `overflow-y:auto` list with scrollHeight 1821 against clientHeight 778.
+     The palette scrolls; the control is reachable; the tool is correct and
+     the gate was condemning it. That is the same blind spot arrow-strip's
+     own header records from the other direction — `.arw-scroll{overflow-x
+     :auto}` silently ABSORBING an overflow the gate should have caught — and
+     the answer is the same in both: ask about the scroll container, do not
+     ignore it. calendar-wall, measured the same way, has no scrollable
+     ancestor at all and 231px genuinely unreachable, so it still fails.
+     ⚠ `lowestUnreachable` is what FITS is built on; `lowest` is kept because
+     it is what the message quotes, and a diagnosis that cannot say how far
+     past the fold something sits is a diagnosis nobody can act on. */
+  const canScrollTo = (e) => {
+    let n = e.parentElement;
+    while (n && n !== document.documentElement) {
+      const cs = getComputedStyle(n);
+      if (/(auto|scroll)/.test(cs.overflowY) && n.scrollHeight > n.clientHeight + 2) return true;
+      n = n.parentElement;
+    }
+    return false;
+  };
+  let lowest = 0, lowestUnreachable = 0;
   document.querySelectorAll('button,[role="slider"]').forEach((e) => {
     const r = e.getBoundingClientRect();
-    if (r.width) lowest = Math.max(lowest, r.bottom);
+    if (!r.width) return;
+    lowest = Math.max(lowest, r.bottom);
+    if (!canScrollTo(e)) lowestUnreachable = Math.max(lowestUnreachable, r.bottom);
   });
 
   return {
@@ -278,7 +303,9 @@ const PROBE = (pfx) => {
     aspect: aspect, aspectEl: aspectEl,
     bodyEscapes: escapes,
     lowest: Math.round(lowest),
-    fits: lowest <= vh + 0.5
+    lowestUnreachable: Math.round(lowestUnreachable),
+    scrollRescued: Math.round(lowest) > Math.round(lowestUnreachable),
+    fits: lowestUnreachable <= vh + 0.5
   };
 };
 

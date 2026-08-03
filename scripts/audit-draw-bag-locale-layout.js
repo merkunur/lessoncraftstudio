@@ -22,7 +22,10 @@ const MINI = path.join(ROOT, 'mini tools');
 const PUBLIC = path.join(ROOT, 'frontend', 'public');
 const PORT = 5512;
 const LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
-const WIDTHS = [320, 360, 412, 768, 1024, 1366];
+/* the tier floors are in the sweep because a tier nobody measures is a tier
+   nobody has verified -- draw-bag's shipped with none of these. */
+const WIDTHS = [320, 360, 412, 768, 1024, 1366, 1400, 1920, 2560];
+const heightFor = (w) => (w >= 2400 ? 1440 : w >= 1800 ? 1080 : w >= 1400 ? 880 : w >= 768 ? 900 : 780);
 
 const MIME = { '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.html': 'text/html', '.webp': 'image/webp' };
 const serve = () => http.createServer((req, res) => {
@@ -57,7 +60,7 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
         try { localStorage.clear(); localStorage.setItem('accessToken', 'harness'); } catch (_) {}
         window.print = function () {};
       });
-      await page.setViewport({ width: w, height: w >= 768 ? 900 : 780 });
+      await page.setViewport({ width: w, height: heightFor(w) });
       await page.goto(`http://127.0.0.1:${PORT}/draw-bag.html?lang=${loc}&embed=1`, { waitUntil: 'domcontentloaded' });
       await page.waitForSelector('.drb-bag', { timeout: 9000 });
       await wait(280);
@@ -119,7 +122,8 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
       if (m.outside) bad.push(w + ': ' + m.outside + ' block(s) outside the card');
       if (m.clipped.length) bad.push(w + ': clipped "' + m.clipped[0] + '"');
       if (m.doc > 0) bad.push(w + ': overflows sideways ' + m.doc + 'px');
-      if (w >= 768 && m.bottom > 900) bad.push(w + ': does not FIT (' + Math.round(m.bottom) + 'px)');
+      /* the REAL viewport, not a literal 900 */
+      if (w >= 768 && m.bottom > heightFor(w)) bad.push(w + ': does not FIT (' + Math.round(m.bottom) + 'px of ' + heightFor(w) + ')');
       cells++;
       await page.close();
     }

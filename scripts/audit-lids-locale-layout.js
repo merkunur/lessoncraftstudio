@@ -26,7 +26,10 @@ const ROOT = path.join(__dirname, '..');
 const MINI = path.join(ROOT, 'mini tools');
 const PORT = 5522;
 const LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
-const WIDTHS = [320, 360, 412, 768, 1024, 1366];
+/* the tier floors are in the sweep because a tier nobody measures is a tier
+   nobody has verified -- draw-bag's shipped with none of these. */
+const WIDTHS = [320, 360, 412, 768, 1024, 1366, 1400, 1920, 2560];
+const heightFor = (w) => (w >= 2400 ? 1440 : w >= 1800 ? 1080 : w >= 1400 ? 880 : w >= 768 ? 900 : 780);
 
 const MIME = { '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.html': 'text/html' };
 const serve = () => http.createServer((req, res) => {
@@ -66,7 +69,7 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
 
   for (const loc of LOCALES) {
     for (const w of WIDTHS) {
-      await page.setViewport({ width: w, height: w >= 768 ? 900 : 780 });
+      await page.setViewport({ width: w, height: heightFor(w) });
       await page.goto(`http://127.0.0.1:${PORT}/lids.html?lang=${loc}&embed=1`, { waitUntil: 'domcontentloaded' });
       await page.waitForSelector('.lid-wrap', { timeout: 9000 });
       await wait(260);
@@ -117,7 +120,8 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
       if (m.clipped.length) bad(tag + ': clipped label(s) — "' + m.clipped.join('", "') + '"');
       if (m.outside.length) bad(tag + ': outside THE CARD — ' + m.outside.join(', '));
       if (m.doc > 0) bad(tag + ': the page overflows sideways by ' + m.doc + 'px');
-      if (w >= 768 && m.bottom > 900) bad(tag + ': does not FIT — the foot ends at ' + Math.round(m.bottom) + 'px');
+      /* the REAL viewport, not a literal 900 */
+      if (w >= 768 && m.bottom > heightFor(w)) bad(tag + ': does not FIT — the foot ends at ' + Math.round(m.bottom) + 'px of ' + heightFor(w) + 'px');
       if (w < 768 && m.bottom > m.cardBottom + 1) bad(tag + ': the foot ends past the card the iframe is grown to');
       if (m.widest && (!longest[loc] || m.widest.w > longest[loc].w)) longest[loc] = m.widest;
       checked++;

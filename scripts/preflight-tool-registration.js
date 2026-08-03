@@ -165,6 +165,55 @@ const CHECKS = [
       !fs.existsSync(path.join(ROOT, 'mini tools', k + '.html')))
   },
   {
+    id: 'shell-strings',
+    what: "a `title` and an `instruction` in mini tools/<key>.js, in all 11 locales",
+    why: 'the SHELL prints the raw key as the subtitle AND in the aria label',
+    /* ⚠⚠ THIS SHIPPED. `lcs-shell.js:449` does
+         var _toolInstruction = i18n.t(tool.strings, 'instruction');
+       and feeds it BOTH the line under the title and the aria label. When the
+       key is absent `t` returns the key, so arrow-strip rendered the literal
+       word "instruction" on every one of its pages in every language, and a
+       screen reader read "Interaktive Der Kaeferplan-Aufgabe. instruction".
+       Nothing errored. No gate looked. I found it by reading a 2560px render
+       for an unrelated reason, which is not a process.
+       ⚠ A tool may DELEGATE its strings to a core (`strings: FooCore.strings`),
+       which is why this resolves the delegation instead of grepping the tool
+       file — ten-frame does exactly that and a naive scan condemns it. */
+    run: (S) => S.keys.filter((k) => {
+      const f = path.join(ROOT, 'mini tools', k + '.js');
+      if (!fs.existsSync(f)) return false;            /* the apparatus check owns that */
+      let src = fs.readFileSync(f, 'utf8');
+      const deleg = /strings:\s*([A-Za-z_$][\w$]*)\.strings/.exec(src);
+      if (deleg) {
+        const core = path.join(ROOT, 'mini tools', deleg[1]
+          .replace(/([a-z0-9])([A-Z])/g, '$1-$2').toLowerCase() + '.js');
+        if (fs.existsSync(core)) src += String.fromCharCode(10) + fs.readFileSync(core, 'utf8');
+        else return false;                            /* cannot resolve: do not guess */
+      }
+      for (const key of ['title', 'instruction']) {
+        /* ⚠ BUILD THE SOURCE FROM DOUBLED BACKSLASHES. Written as '\s' inside a
+           JS string literal it degrades to a bare 's', so the pattern became
+           `titles*:s*{...}` and matched nothing — which condemned all 47 tools
+           at once AND satisfied the poison for the wrong reason. A poison that
+           passes because the check is universally true has proved nothing. */
+        const m = new RegExp('(?:^|[\\s{,])' + key + '\\s*:\\s*\\{([^}]*)\\}').exec(src);
+        if (!m) return true;
+        for (const loc of LOCALES) {
+          /* ⚠ CONSULT THE SAME RATCHET THE OTHER LOCALE CHECKS USE. This found
+             a SECOND real gap on its first honest run — heart-words declares
+             ten locales and no `fi`, on both title and instruction — and
+             `KNOWN_GAPS` already carries `heart-words:fi` for its missing fi
+             landing copy. Same tool, same locale, another surface: it belongs
+             to the existing baseline entry, not to a new one. The list may
+             still only shrink. */
+          if (KNOWN_GAPS.has(k + ':' + loc)) continue;
+          if (!new RegExp('(?:^|[\\s{,])' + loc + '\\s*:').test(m[1])) return true;
+        }
+      }
+      return false;
+    })
+  },
+  {
     id: 'preview',
     what: 'frontend/public/mini-tools/tool-previews/<key>.webp',
     why: 'the hub card falls back to a generic "plus over minus" glyph instead of the apparatus',
@@ -229,6 +278,12 @@ const S = loadState();
       c.fi[VICTIM] = Object.assign({}, c.fi[VICTIM], { classroomIdeas: [] });
       return Object.assign({}, S, { content: c });
     },
+    /* ⚠ POISON IT WITH A TOOL THAT EXISTS AND HAS NO STRINGS, not with a
+       missing file — a missing file is the `apparatus` check's condition,
+       and poisoning one check with another's violation is how a hollow
+       check certifies itself. `lcs-shell` is a real file in the same
+       directory that legitimately declares neither title nor instruction. */
+    'shell-strings': () => Object.assign({}, S, { keys: S.keys.concat(['lcs-shell']) }),
     apparatus: () => Object.assign({}, S, { keys: S.keys.concat(['__no_such_tool__']) }),
     preview: () => {
       const p = new Set(S.previews);

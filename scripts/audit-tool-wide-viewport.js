@@ -203,7 +203,16 @@ const PROBE = (pfx, exemptSel) => {
      2560 screen. Measuring left-most to right-most inked apparatus edge
      answers the question actually being asked — how much of the board does
      the instrument occupy — for both shapes. */
-  const CHROME = /-(chip|foot|hint|gate|bar|controls|lock|wrap|scroll)\b/;
+  /* ⚠ A BARE STATE CLASS IS CHROME TOO, AND THE HYPHEN PREFIX MISSED IT.
+     number-talk-easel marks gated controls with a standalone `locked` class
+     (`nte-pen locked`, `nte-clearbtn locked`), and since the pattern required
+     a leading hyphen the HOLLOW check picked `.locked` as the tool's repeated
+     unit — reporting that the instrument had not grown when what had not
+     grown was a row of lock badges. Anchored on start-or-whitespace so
+     `unlocked-thing` does NOT match. Poison-tested against the real unit
+     classes of every tool fanned out so far (sbx-box, wdb-cell, ltl-tile,
+     rkr-bead, pvl-slot, nte-dot, mm-disc, tf-cell): none matches. */
+  const CHROME = /(?:-(?:chip|foot|hint|gate|bar|controls|lock|wrap|scroll)|(?:^|\s)(?:locked|disabled))\b/;
   let lo = Infinity, hi = -Infinity;
   if (scope) {
     scope.querySelectorAll('*').forEach((e) => {

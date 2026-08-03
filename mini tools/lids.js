@@ -1233,6 +1233,27 @@ function injectLidsCSS() {
     +   'body.lid-wide .lid-table,body.lid-wide .lid-strip{max-width:1480px;}'
     +   'body.lid-wide .lid-mark{font-size:24px;}'
     + '}'
+    /* =====================================================================
+       ⭐⭐ THE PRINT SHEET. Same story as arrow-strip: a "Print the table"
+       chip calling window.print() with no `@media print` block, so it printed
+       the entire web page. The chip names the TABLE, so the sheet is the
+       table at page width with its counters and lids exactly as they stand,
+       and the number strip underneath for marking a guess with a pencil.
+       ⚠ THE STRIP STAYS, the foot chips go. `.lid-mark` is the answer
+       surface a child writes on; `.lid-chip` is a button. On paper the first
+       is a worksheet and the second is a picture of a button.
+       ⚠ The table keeps its 1000/620 aspect — it is what puts each counter
+       where it belongs — so only the max-width is released. */
+    + '@media print{'
+    +   '*{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}'
+    +   '.lcs-header,.lid-hint,.lid-bar,.lid-foot,.lid-gate,.lid-chip{display:none !important;}'
+    +   '.lid-wrap{gap:6mm;}'
+    +   '.lid-table{max-width:none !important;width:100%;border-color:#333 !important;'
+    +     'background:#fff !important;break-inside:avoid;}'
+    +   '.lid-strip{max-width:none !important;width:100%;border-color:#333 !important;}'
+    +   '.lid-mark{border-color:#333 !important;background:#fff !important;color:#000 !important;}'
+    +   '@page{margin:14mm;}'
+    + '}'
     + '@media (prefers-reduced-motion:reduce){'
     +   '.lid-lid{transition:none;}'
     + '}';

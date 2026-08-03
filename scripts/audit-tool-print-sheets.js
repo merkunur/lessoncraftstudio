@@ -58,7 +58,22 @@ const TOOLS = [
   { key: 'unroll-tape', p: 'urt', apparatus: '.urt-bench' },
   { key: 'comparison-planks', p: 'cmp', apparatus: '.cmp-sheet' },
   { key: 'cold-line', p: 'cld', apparatus: '.cld-sheet' },
-  { key: 'number-line', p: 'nl', apparatus: '.nl-sheet' }
+  { key: 'number-line', p: 'nl', apparatus: '.nl-sheet' },
+  /* the three found printing the whole web page, now with sheets */
+  { key: 'arrow-strip', p: 'arw', apparatus: '.arw-mat' },
+  { key: 'lids', p: 'lid', apparatus: '.lid-table' },
+  /* ⚠ draw-bag is DELIBERATELY NOT PROBED HERE, and saying so is the point.
+     Its sheet is the RECORD, and a record does not exist until a class has
+     filled the bag, committed a prediction on the shelves and opened it —
+     `.drb-recs` is not even in the DOM at rest. I wrote a prime that clicked
+     the plausible chips; it produced nothing, because "Open the bag" stays
+     disabled until the bag has contents. Rather than certify a sheet I have
+     not driven, draw-bag sits with the other seventeen tools that ship a
+     print block the browser half has never exercised — the derived roster
+     above REPORTS that list every run, so the gap is named, not hidden.
+     Its `@media print` block IS verified by the static half (chip => block).
+     A prime that reconstructs a full session is the work this deserves; it
+     is not the work of a wide-viewport commit. */
 ];
 
 const only = (process.argv.find((a) => a.indexOf('--tool=') === 0) || '').split('=')[1];
@@ -94,14 +109,25 @@ const CONTRACT_ONLY = process.argv.includes('--contract-only');
    in TOOLS, so their sheets have never been driven. That is recorded, not
    silently passed.
    ===================================================================== */
-const NO_SHEET_YET = new Set(['arrow-strip', 'draw-bag', 'lids']);
+/* ⭐ EMPTIED 2026-08-03 — all three now ship a sheet and a browser probe.
+   The ratchet may only shrink; it is kept so the class stays named. */
+const NO_SHEET_YET = new Set([]);
 
 function printChipTools() {
   return fs.readdirSync(ROOT).filter((f) => /\.js$/.test(f)).map((f) => f.slice(0, -3))
     .filter((k) => /window\.print\s*\(/.test(fs.readFileSync(path.join(ROOT, k + '.js'), 'utf8')));
 }
 function hasPrintBlock(k) {
-  return /@media print/.test(fs.readFileSync(path.join(ROOT, k + '.js'), 'utf8'));
+  /* ⚠⚠ MATCH THE EMISSION, NOT THE PROSE. The first version tested
+     /@media print/ against the whole file — and every one of these tools now
+     carries a COMMENT explaining why it has a print block, so the gate was
+     reading its own documentation as evidence. Proved by poison: I deleted
+     lids' entire print block and the roster still reported "0 have NO print
+     block" and PASSED. The CSS is emitted as a quoted string in a
+     concatenation, so requiring the quote AND the opening brace is what
+     distinguishes a rule from a sentence about a rule. */
+  const src = fs.readFileSync(path.join(ROOT, k + '.js'), 'utf8');
+  return /['"`]@media print\s*\{/.test(src);
 }
 
 (function auditRoster() {
@@ -183,6 +209,10 @@ const is = (c, m) => { if (c) { PASS++; console.log('  ok   ' + m); } else { FAI
        of a container with no children and zero height. It was the exact
        vacuity trap it had been written to catch, in the gate written to
        catch it. Force the entitled state first, then assert CONTENT. */
+    if (t.prime) {
+      await page.evaluate('(' + t.prime.toString() + ')(' + JSON.stringify(t.p) + ')');
+      await new Promise((r) => setTimeout(r, 400));
+    }
     await page.evaluate((p) => {
       const inst = Object.keys(window).map((k) => window[k])
         .find((v) => v && typeof v === 'object' && v.id && v.STORE_KEY && ('premium' in v));

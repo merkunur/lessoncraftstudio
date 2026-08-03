@@ -551,6 +551,24 @@ function injectSayItBoardCSS() {
 
     /* PRINT — the take-home card. Re-tone every ink, not just the
        headline one (the recorded letter-studio defect). */
+    /* ---- wide board (§23 the apparatus a teacher teaches FROM) ----
+       `.hlb-board` is `repeat(auto-fit, minmax(150px,1fr))` inside a 900px
+       cap, so raising the cap genuinely adds columns of readable cards rather
+       than stretching a few — the center-board shape. The card's min-height
+       and its type move with it, or a wider board would hold the same small
+       cards. */
+    + '@media (min-width:1367px) and (min-height:880px){'
+    +   'body.hlb-wide .hlb-board{width:min(100%,1150px);grid-template-columns:repeat(auto-fit,minmax(190px,1fr));}'
+    +   'body.hlb-wide .hlb-card{min-height:168px;padding:18px 13px;font-size:18px;}'
+    + '}'
+    + '@media (min-width:1800px) and (min-height:1080px){'
+    +   'body.hlb-wide .hlb-board{width:min(100%,1460px);grid-template-columns:repeat(auto-fit,minmax(230px,1fr));}'
+    +   'body.hlb-wide .hlb-card{min-height:200px;padding:22px 16px;font-size:20px;}'
+    + '}'
+    + '@media (min-width:2400px) and (min-height:1150px){'
+    +   'body.hlb-wide .hlb-board{width:min(100%,1660px);grid-template-columns:repeat(auto-fit,minmax(260px,1fr));}'
+    +   'body.hlb-wide .hlb-card{min-height:224px;padding:24px 18px;font-size:22px;}'
+    + '}'
     + '@media print{'
     +   '.hlb-langbar,.hlb-chooser,.hlb-board,.hlb-foot,.hlb-gate{display:none !important;}'
     +   '.hlb-printsheet{display:block !important;padding:10mm;}'
@@ -558,6 +576,7 @@ function injectSayItBoardCSS() {
     +   '.hlb-printrow{display:flex;gap:8mm;margin-bottom:5mm;page-break-inside:avoid;break-inside:avoid;'
     +     'border-bottom:.5pt solid #999;padding-bottom:2mm;}'
     +   '.hlb-printcell{flex:1;font-size:12pt;color:#000;}'
+
     + '}';
   document.head.appendChild(st);
 }

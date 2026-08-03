@@ -81,7 +81,8 @@ const touchedForWide = (key) => {
    probe knows what to measure at every cell.
    ⚠ A ratchet: entries may leave, never arrive to make a build pass. */
 const FILL_EXEMPT_SEL = {
-  'estimation-jar': '.ej-jar'
+  'estimation-jar': '.ej-jar',
+  'asking-bench': '.abn-card'
 };
 const CELLS = [
   { w: 1366, h: 900, control: true },
@@ -360,14 +361,15 @@ const PROBE = (pfx, exemptSel) => {
   /* the FILL exemption's own instrument: the width of the ONE element that
      actually is the apparatus, for tools whose apparatus is a single object
      inside a frame. Null when not asked for or not present. */
-  let exemptW = null;
+  let exemptW = null, exemptF = null;
   if (exemptSel) {
     const e = document.querySelector(exemptSel);
     if (e) { const r = e.getBoundingClientRect(); if (r.width) exemptW = Math.round(r.width); }
+    if (e) { const f = parseFloat(getComputedStyle(e).fontSize); if (f) exemptF = Math.round(f); }
   }
 
   return {
-    exemptW: exemptW,
+    exemptW: exemptW, exemptF: exemptF,
     anisotropy: anis,
     vw: vw, vh: vh,
     cardW: app ? app.offsetWidth : 0,          /* LAYOUT box — transform-independent */
@@ -774,10 +776,22 @@ function staticRisks(key) {
            at 2560 the jar renders 510px against 190px before the tiers, and
            the card frames it at 1240px (48.4% of the screen). Satisfying a
            50%-of-width floor here would mean a 1280px JAR. */
-        'estimation-jar': { minEl: 460, sel: '.ej-jar', why: 'the apparatus is a single jar inside a frame' }
+        'estimation-jar': { minEl: 460, sel: '.ej-jar', why: 'the apparatus is a single jar inside a frame' },
+        /* the apparatus is a SENTENCE laid on a grid, so its extent is the
+           sentence's length: `.abn-grid` hugs its content at 520px for a
+           three-word sentence. Filling half a 2560 board would mean type so
+           large the sentence wraps, which is a worse instrument. The measure
+           that says whether a class can read it is the rendered TYPE. */
+        'asking-bench': { minFont: 34, sel: '.abn-card', why: 'the apparatus is a sentence; extent is its length, not a box' }
       };
       const ex = FILL_EXEMPT[r.key];
-      if (ex && ex.minEl) {
+      if (ex && ex.minFont) {
+        /* non-vacuity first: an exemption that could not measure its own
+           element must FAIL, never pass in place of the floor it replaces. */
+        say(d.exemptF !== null && d.exemptF >= ex.minFont,
+          r.key + ' TYPE-INSTEAD-OF-FILL at 2560: `' + ex.sel + '` renders ' +
+          (d.exemptF === null ? 'UNMEASURED' : d.exemptF + 'px') + ', want >=' + ex.minFont + 'px (' + ex.why + ')');
+      } else if (ex && ex.minEl) {
         /* non-vacuity first: an exemption that could not measure its own
            element must FAIL, not quietly pass in place of the FILL floor. */
         say(d.exemptW !== null && d.exemptW >= ex.minEl,

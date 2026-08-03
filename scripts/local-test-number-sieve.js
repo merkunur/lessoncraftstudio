@@ -305,7 +305,11 @@ const turnNext = (p) => p.evaluate(() => {
 
     /* ---------- L5 THE SWEEP ---------- */
     {
-      const VIEWPORTS = [[320, 640], [360, 740], [412, 820], [768, 1000], [1024, 900], [1366, 900]];
+      const VIEWPORTS = [[320, 640], [360, 740], [412, 820], [768, 1000], [1024, 900], [1366, 900],
+  /* the three tier FLOORS -- the widest board each tier draws against the
+     SHORTEST viewport that draws it, which is where a cap fails if it is
+     going to. Plus the two real classroom boards. */
+  [1400, 880], [1800, 1000], [1920, 1080], [2400, 1150], [2560, 1440]];
       const MIN_TAP = 44, MIN_CELL = 34;
       for (const [w, h] of VIEWPORTS) {
         const page = await newPage(browser, { premium: false });

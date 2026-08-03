@@ -435,6 +435,23 @@ function staticRisks(key) {
     say(d.fits, r.key + ' CUT OFF at 2560: lowest control at ' + d.lowest + ' of ' + d.vh);
     say(n.fits, r.key + ' CUT OFF at 1920: lowest control at ' + n.lowest + ' of ' + n.vh);
 
+    /* 3b ⭐⭐ THE APPARATUS MUST FIT ITS OWN CARD, AND NOTHING HERE ASKED.
+       Every check above is vertical (does it reach past the fold) or a
+       floor (is it big enough). None of them could see a tool drawing
+       WIDER than the card it sits in — which is exactly what number-sieve
+       did at 1920x1080: a 1351px field inside a 1240px card, 8/8 green.
+       It escaped because the two ladders are keyed differently: the shell
+       widens the card at 1367/880 and 1800/1150, and a per-tool tier at
+       1800/1000 fires in the gap between them. A width-bound cap keyed on
+       a height tier is a cap keyed on the wrong thing, and this is the
+       assertion that says so. Tolerance 2px for sub-pixel layout. */
+    [[1366, a], [1920, n], [2560, d]].forEach(([px, c]) => {
+      if (!c || !c.cardW || !c.apparatusW) return;
+      say(c.apparatusW <= c.cardW + 2,
+        r.key + ' ESCAPES ITS CARD at ' + px + ': apparatus ' + c.apparatusW +
+        'px in a ' + c.cardW + 'px card (over by ' + (c.apparatusW - c.cardW) + 'px)');
+    });
+
     /* 4 — FILL. Floors derived from the baseline: today's median share of
        a 2560 screen is 26.3%, so 45%/50% is roughly a doubling and is the
        program's target, not an aspiration read off a screenshot. Tools

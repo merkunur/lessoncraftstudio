@@ -18,13 +18,36 @@
    This renders each tool in PRINT MEDIA and asserts what reaches paper:
    the chrome is gone, the apparatus is there, and nothing interactive
    survives (a sheet has no grips).
+
+   ⭐ SURFACE 2 (2026-08-03) — THE THIRD MEMBER OF THE SAME FAMILY, and
+   the one this gate's original shape was structurally blind to. #40 and
+   #41 REACHED window.print() and printed the wrong thing. The hosted
+   worksheet at /play/w/<linkId> reached window.print() and printed
+   NOTHING: the route served it under `Content-Security-Policy: sandbox
+   allow-scripts allow-popups`, and the HTML spec's sandboxed-modals flag
+   makes window.print() a silent no-op unless `allow-modals` is present.
+   The button's listener fired; the browser discarded the call.
+
+   ⚠ AND THIS GATE COULD NOT HAVE SEEN IT — line ~88 STUBS window.print
+   out ("headless print would hang"), so it never exercises the call at
+   all, and it never renders a sandboxed document. A gate that stubs the
+   thing under test is measuring its own stub.
+
+   The surface-2 section below is SELF-POISONING: it loads the same
+   document twice, once under each header, and requires OPPOSITE
+   outcomes. If the poison side ever stops producing the block, the run
+   FAILS rather than greens.
    ===================================================================== */
 
 'use strict';
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
-const puppeteer = require('puppeteer');
+/* ⚠ REQUIRED LAZILY. --contract-only runs inside deploy.sh on Hetzner,
+   where puppeteer's node_modules exists but NO Chromium does (measured
+   2026-08-03: no system binary, no ~/.cache/puppeteer, no bundled
+   download). A top-level require is survivable there, but launching is
+   not — see CONTRACT_ONLY below. */
 
 const ROOT = path.join(__dirname, '..', 'mini tools');
 const PORT = 5540;
@@ -39,6 +62,15 @@ const TOOLS = [
 
 const only = (process.argv.find((a) => a.indexOf('--tool=') === 0) || '').split('=')[1];
 
+/* ⭐ --contract-only: the STATIC half, no browser. This is what deploy.sh
+   runs, because Hetzner has no Chromium — a browser gate wired into the
+   deploy would abort every deploy rather than guard anything. What can
+   actually REGRESS is the CSP token list in route.ts, and that is a
+   filesystem fact. The browser probes below prove the MECHANISM (that
+   the token is what makes print work at all); they are a dev/operator
+   run, not a per-deploy one. */
+const CONTRACT_ONLY = process.argv.includes('--contract-only');
+
 const srv = http.createServer((rq, rs) => {
   const f = rq.url.split('?')[0].replace('/mini-tools/', '');
   const fp = path.join(ROOT, f);
@@ -46,15 +78,20 @@ const srv = http.createServer((rq, rs) => {
   const t = f.endsWith('.js') ? 'application/javascript' : f.endsWith('.json') ? 'application/json'
     : f.endsWith('.css') ? 'text/css' : 'text/html';
   rs.writeHead(200, { 'Content-Type': t }); rs.end(fs.readFileSync(fp));
-}).listen(PORT);
+});
+/* ⚠ do not bind a port during a deploy — contract-only serves nothing */
+if (!CONTRACT_ONLY) srv.listen(PORT);
 
 let PASS = 0, FAIL = 0;
 const is = (c, m) => { if (c) { PASS++; console.log('  ok   ' + m); } else { FAIL++; console.error('  FAIL ' + m); } };
 
 (async () => {
-  const browser = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox'] });
+  const browser = CONTRACT_ONLY
+    ? null
+    : await require('puppeteer').launch({ headless: 'new', args: ['--no-sandbox'] });
 
   for (const t of TOOLS) {
+    if (CONTRACT_ONLY) break;
     if (only && only !== t.key) continue;
     console.log('\n[' + t.key + ']');
     const src = fs.readFileSync(path.join(ROOT, t.key + '.js'), 'utf8');
@@ -175,9 +212,142 @@ const is = (c, m) => { if (c) { PASS++; console.log('  ok   ' + m); } else { FAI
     await page.close();
   }
 
-  await browser.close();
+  /* ===================================================================
+     SURFACE 2 — the hosted worksheet's CSP sandbox
+     =================================================================== */
+  if (!only || only === 'hosted-worksheet') {
+    console.log('\n[hosted-worksheet CSP]');
+
+    /* ⭐ READ THE FAN-OUT OFF ITS SoT, AND REFUSE TO RUN IF IT PARSES
+       IMPLAUSIBLY FEW. The apps that may be hosted are declared once, in
+       core.ts; hardcoding 29 here would rot silently the day one is
+       added. Refusing below 29 is the non-vacuity rule applied to a
+       LIST — the #42 lesson, where a completeness check that listed a
+       subset of the required fields CERTIFIED an incomplete entry. */
+    const coreSrc = fs.readFileSync(
+      path.join(__dirname, '..', 'frontend', 'lib', 'hosted-worksheets', 'core.ts'), 'utf8');
+    const setBlock = (coreSrc.match(/HOSTABLE_APP_IDS\s*=\s*new Set\(\[([\s\S]*?)\]\)/) || [])[1];
+    const hostable = setBlock ? (setBlock.match(/'[a-z0-9-]+'/g) || []).map((s) => s.slice(1, -1)) : [];
+    is(hostable.length >= 29, `SoT: core.ts declares ${hostable.length} hostable apps (refuse below 29)`);
+    if (hostable.length < 29) throw new Error('HOSTABLE_APP_IDS parsed implausibly few — gate would be vacuous');
+
+    /* ⭐ EXTRACT THE REAL HANDLER, NEVER REIMPLEMENT IT. #44's lesson: a
+       gate that rewrites the thing it checks is testing a copy, and three
+       mutations of the real dispatch sailed through. This pulls the
+       literal line out of the shipped apps and requires it in ALL of
+       them — so the fixture is the product's own code, and the check
+       doubles as a fan-out completeness assertion. */
+    const HANDLER = 'document.getElementById("lcs-cel-print").addEventListener("click",function(){window.print()});';
+    const missing = hostable.filter((a) => {
+      const p = path.join(__dirname, '..', 'REFERENCE APPS', a + '.html');
+      return !fs.existsSync(p) || fs.readFileSync(p, 'utf8').indexOf(HANDLER) === -1;
+    });
+    is(missing.length === 0, missing.length
+      ? `⭐ ${missing.length} hostable app(s) lack the print handler: ${missing.join(', ')}`
+      : `all ${hostable.length} hostable apps carry the verbatim print handler`);
+
+    /* THE CONTRACT — this is the assertion that flips with the fix. The
+       header variants below are LITERALS, so the poison side exists no
+       matter what the repo says; this reads what we actually ship. */
+    const routeSrc = fs.readFileSync(
+      path.join(__dirname, '..', 'frontend', 'app', 'play', 'w', '[linkId]', 'route.ts'), 'utf8');
+    const cspLits = routeSrc.match(/'Content-Security-Policy':\s*'([^']*)'/g) || [];
+    is(cspLits.length === 1, `route.ts declares exactly one CSP literal (found ${cspLits.length})`);
+    const shipped = ((cspLits[0] || '').match(/'Content-Security-Policy':\s*'([^']*)'/) || [])[1] || '';
+    is(/\ballow-modals\b/.test(shipped), `⭐ shipped CSP grants allow-modals — else Print is a silent no-op  [${shipped}]`);
+    is(!/\ballow-same-origin\b/.test(shipped), 'shipped CSP still WITHHOLDS allow-same-origin — the opaque origin holds');
+
+    const POISON = 'sandbox allow-scripts allow-popups';
+    const FIXED = 'sandbox allow-scripts allow-popups allow-modals';
+    const DOC =
+      '<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>t</title></head><body>' +
+      '<div class="lcs-celebration"><div class="lcs-celebration__cta">' +
+      '<button type="button" id="lcs-do-another">Do Another</button>' +
+      '<button type="button" id="lcs-cel-print">Print my worksheet</button>' +
+      '</div></div><script>window.__printCalls=0;(function(){var n=window.print;' +
+      'window.print=function(){window.__printCalls++;try{n.call(window)}catch(e){}}})();' +
+      HANDLER + '<\/script></body></html>';
+
+    if (CONTRACT_ONLY) {
+      console.log('  note  --contract-only: browser probes skipped (no Chromium on the deploy host)');
+    } else {
+
+    const srv2 = http.createServer((rq, rs) => {
+      rs.writeHead(200, {
+        'Content-Type': 'text/html; charset=utf-8',
+        'Content-Security-Policy': rq.url.indexOf('/fixed') === 0 ? FIXED : POISON,
+      });
+      rs.end(DOC);
+    }).listen(PORT + 1);
+
+    const probe = async (route) => {
+      const page = await browser.newPage();
+      const logs = [];
+      /* ⚠ THE BLINK SECURITY MESSAGE ARRIVES VIA Log.entryAdded, NOT
+         Runtime.consoleAPICalled — page.on('console') never sees it. */
+      const cdp = await page.createCDPSession();
+      await cdp.send('Log.enable');
+      cdp.on('Log.entryAdded', (e) => logs.push(String(e.entry && e.entry.text || '')));
+      page.on('console', (m) => logs.push(m.text()));
+      /* attach BEFORE navigating: an unhandled dialog blocks the page */
+      let dialogs = 0;
+      page.on('dialog', async (d) => { dialogs++; await d.dismiss().catch(() => { }); });
+
+      await page.goto(`http://127.0.0.1:${PORT + 1}${route}`, { waitUntil: 'domcontentloaded' });
+
+      /* ⚠ DO NOT AWAIT THE CLICK. If native print ever blocks the
+         renderer, an awaited evaluate never resolves and the run reads
+         as a hang — which the harness would score as SURVIVED. Fire it
+         detached, then poll. */
+      page.evaluate(() => { setTimeout(() => document.getElementById('lcs-cel-print').click(), 0); })
+        .catch(() => { });
+      await new Promise((r) => setTimeout(r, 1200));
+
+      let printCalls = -1, alive = false;
+      try {
+        printCalls = await page.evaluate(() => window.__printCalls);
+        alive = true;
+      } catch { /* renderer wedged */ }
+
+      /* wording-independent corroboration of the SAME single flag */
+      let confirmRet = null;
+      if (alive) {
+        try { confirmRet = await page.evaluate(() => window.confirm('probe')); } catch { }
+      }
+      await page.close().catch(() => { });
+      return { logs, printCalls, alive, dialogs, confirmRet };
+    };
+
+    const bad = await probe('/poison');
+    const good = await probe('/fixed');
+    const blocked = (r) => r.logs.some((t) => /ignored call to 'print\(\)'/i.test(t));
+
+    is(bad.alive && good.alive, 'both renderers stayed responsive through the print call');
+    is(bad.printCalls >= 1 && good.printCalls >= 1,
+      `the real handler ran on both sides (${bad.printCalls}/${good.printCalls}) — the button is wired`);
+
+    /* ⭐ THE POISON HALF. This must FAIL on the unfixed header, or the
+       green half proves nothing. */
+    is(blocked(bad), 'POISON: unfixed header ⇒ the browser reports it ignored print()');
+    is(!blocked(good), '⭐ FIXED: allow-modals ⇒ print() is no longer ignored');
+    is(bad.dialogs === 0 && bad.confirmRet === false,
+      'POISON: modals flag set — confirm() returns false and raises no dialog');
+    is(good.dialogs >= 1, '⭐ FIXED: modals flag clear — confirm() actually raises a dialog');
+
+    if (blocked(bad)) {
+      const m = bad.logs.find((t) => /ignored call to 'print\(\)'/i.test(t)) || '';
+      console.log(/allow-modals/i.test(m)
+        ? '  note  the block names allow-modals — diagnosis confirmed verbatim'
+        : '  note  ⚠ block message no longer names allow-modals (Chromium reworded): ' + m);
+    }
+
+    srv2.close();
+    }
+  }
+
+  if (browser) await browser.close();
   srv.close();
   console.log('');
   if (FAIL) { console.error(`FAIL — ${FAIL} of ${PASS + FAIL} checks`); process.exit(1); }
-  console.log(`PASS — ${PASS} checks: every Print chip produces a sheet`);
+  console.log(`PASS — ${PASS} checks: every Print chip produces a sheet${CONTRACT_ONLY ? ' (contract-only)' : ''}`);
 })();

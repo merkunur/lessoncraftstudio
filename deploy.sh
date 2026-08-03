@@ -257,6 +257,17 @@ echo "🔎 Image-library variant-mirror uniformity..."
 ( cd /opt/lessoncraftstudio/frontend && node /opt/lessoncraftstudio/scripts/audit-theme-webp-coverage.js ) \
   || { echo "ERROR: an image directory is half-mirrored — see CLAUDE.md §A.7.2"; exit 1; }
 
+# Guard: the hosted-worksheet CSP must keep granting allow-modals. Saved worksheets
+# are served sandboxed so teacher HTML gets an opaque origin and can never read the
+# site's auth token — but the HTML spec's sandboxed-modals flag ALSO silences
+# window.print(), so without that one token the celebration's "Print my worksheet"
+# fires its listener and the browser discards the call. It shipped that way and read
+# as a dead button. --contract-only because Hetzner has no Chromium (measured); the
+# browser half of this gate is a dev run.
+echo "🔎 Hosted-worksheet print CSP contract..."
+node /opt/lessoncraftstudio/scripts/audit-tool-print-sheets.js --contract-only \
+  || { echo "ERROR: hosted worksheets would ship with Print dead — see CLAUDE.md §7 / play/w route"; exit 1; }
+
 # ============================================
 # PAYMENT-SYSTEM PROTECTION (pre-build FAIL)
 # ============================================

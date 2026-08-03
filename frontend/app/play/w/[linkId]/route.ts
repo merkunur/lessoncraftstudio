@@ -14,6 +14,21 @@ export const dynamic = 'force-dynamic';
  *  - Content-Security-Policy: sandbox     (opaque origin — teacher-supplied HTML
  *    can never touch the site origin's localStorage auth token; deck runtimes'
  *    localStorage use is try/catch-guarded, verified 2026-07-11)
+ *
+ * The sandbox token list is load-bearing in BOTH directions — every keyword is
+ * here for a named reason, and the absent one is the whole security property:
+ *  - allow-scripts  the deck runtime is inline JS
+ *  - allow-popups   the in-deck share affordance opens external targets
+ *  - allow-modals   the celebration's "Print my worksheet" calls window.print(),
+ *                   which the HTML spec's sandboxed-modals flag silently ignores
+ *                   (alongside alert/confirm/prompt/beforeunload) unless this
+ *                   token is present. Without it the button fires its listener
+ *                   and the browser discards the call — it reads as dead. This
+ *                   clears ONLY the modals flag; it does not concede the origin.
+ *  - NOT allow-same-origin — the opaque origin comes from this keyword's ABSENCE.
+ *                   Never add it: that is what keeps teacher HTML away from the
+ *                   site origin's auth token.
+ * Gated by scripts/audit-tool-print-sheets.js (hosted-worksheet CSP surface).
  * Teacher lapsed beyond grace → kid-safe "paused" page (no payment language on
  * the child-facing line); renewal revives instantly (recomputed per request).
  */
@@ -99,7 +114,7 @@ export async function GET(
     status: 200,
     headers: {
       ...BASE_HEADERS,
-      'Content-Security-Policy': 'sandbox allow-scripts allow-popups',
+      'Content-Security-Policy': 'sandbox allow-scripts allow-popups allow-modals',
     },
   });
 }

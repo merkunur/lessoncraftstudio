@@ -732,6 +732,67 @@ function injectNumberBalanceCSS() {
     + '@media (max-width:700px){body.nbal-wide{overflow-y:auto;overflow-x:hidden;height:auto;min-height:100%;}}'
     /* the beam is physics, so it is NOT an animation to be switched off —
        but nothing else here moves */
+    /* =====================================================================
+       WIDE VIEWPORTS — GEOMETRY, and TWO caps, not one.
+       The classifier put this in CARD-MAXED: the shell already gives it an
+       1800px card at 2560 and the instrument is still 27.3% of the screen,
+       so raising the card does nothing. The chain-walk names both binders:
+           .nbal-tile   44 px   <== width:44px      (min-width, content-sized)
+           .nbal-tray  700 px   <== width:min(100%,700px)
+           .nbal-wrap 1752 px
+           .lcs-app   1800 px   <== max-width:1800px
+       ⚠⚠ THE TRAY CAP IS A `width:min(100%,700px)`, NOT A max-width, and my
+       chain-walker's first version only tested max-width — it reported this
+       tool as having NO cap anywhere and I said so out loud. Ramping the
+       tile alone would then have measured ~unchanged, exactly as
+       part-whole-frame's first attempt did. `width:min(100%,Npx)` is the
+       house pattern here and it binds every bit as hard.
+
+       So both move together, per tier. The tile is content-sized around a
+       numeral, so its font goes with it or a 64px box holds 19px type:
+           A  tray  900  tile min 56  font 24   slot min-h 66
+           B  tray 1120  tile min 64  font 27   slot min-h 76
+           C  tray 1320  tile min 72  font 30   slot min-h 84
+
+       ⚠⚠ AND THE BALANCE ITSELF IS ON A SECOND BRANCH THE CHAIN-WALK NEVER
+       SAW. I shipped tray + tile, read the render, and the beam and pans —
+       the instrument this tool is NAMED for — were still ~420px beside a
+       1320px tray. `.nbal-stage` carries its own `width:min(100%,700px)`.
+       The walker starts from the most-REPEATED unit, so it walked the tray
+       branch and stopped; a tool with a supply row and a separate apparatus
+       stage has two chains and the widest one is not always the repeated
+       one. Growing the supply and leaving the apparatus is the hollow-
+       widening defect one level sideways, and the HOLLOW-WIDENING assertion
+       passed it because the tile genuinely grew.
+       The stage keeps its 700/268 aspect, so raising it costs height:
+           A  stage  900 -> 344 tall -> card ~845 of  880
+           B  stage 1120 -> 429 tall -> card ~954 of 1080
+           C  stage 1320 -> 505 tall -> card ~1038 of 1150
+       ⚠ `min-width`/`min-height` are RAISED, never replaced — 44px is the
+       K-2 tap floor and every tier here is above it, so the floor still
+       holds at every width including the ones these rules never touch.
+       ===================================================================== */
+    + '@media (min-width:1367px) and (min-height:880px){'
+    +   'body.nbal-wide .nbal-tray{width:min(100%,900px);}'
+    +   'body.nbal-wide .nbal-stage{width:min(100%,900px);}'
+    +   'body.nbal-wide .nbal-tile{min-width:56px;min-height:56px;font-size:24px;}'
+    +   'body.nbal-wide .nbal-slot{min-height:66px;}'
+    +   'body.nbal-wide .nbal-slot-tray{min-height:70px;}'
+    + '}'
+    + '@media (min-width:1800px) and (min-height:1080px){'
+    +   'body.nbal-wide .nbal-tray{width:min(100%,1120px);}'
+    +   'body.nbal-wide .nbal-stage{width:min(100%,1120px);}'
+    +   'body.nbal-wide .nbal-tile{min-width:64px;min-height:64px;font-size:27px;}'
+    +   'body.nbal-wide .nbal-slot{min-height:76px;}'
+    +   'body.nbal-wide .nbal-slot-tray{min-height:80px;}'
+    + '}'
+    + '@media (min-width:2400px) and (min-height:1150px){'
+    +   'body.nbal-wide .nbal-tray{width:min(100%,1320px);}'
+    +   'body.nbal-wide .nbal-stage{width:min(100%,1320px);}'
+    +   'body.nbal-wide .nbal-tile{min-width:72px;min-height:72px;font-size:30px;}'
+    +   'body.nbal-wide .nbal-slot{min-height:84px;}'
+    +   'body.nbal-wide .nbal-slot-tray{min-height:88px;}'
+    + '}'
     + '@media (prefers-reduced-motion:reduce){.nbal-tile{transition:none !important;}}'
     + '@media print{'
     +   '.nbal-bar,.nbal-tray,.nbal-foot,.nbal-gate{display:none !important;}'

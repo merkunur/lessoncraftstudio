@@ -523,6 +523,8 @@
     init: function (api) {
       this.api = api;
       injectComparisonPlanksCSS();
+      /* the wide-viewport switch, and the one-line rollback */
+      document.body.classList.add('cmp-wide');
       this._store = this._loadStore();
       var ent = this._store.ent;
       if (ent && ent.tier) this.premium = ent.tier !== 'free';
@@ -825,7 +827,17 @@
 
       var pct = function (el, x, y, clamp) {
         var L = (x / ComparisonPlanks.W * 100) + '%';
-        el.style.left = clamp ? ('clamp(16px, ' + L + ', calc(100% - 16px))') : L;
+        /* ⚠ THE 16px INSET IS NOW A VARIABLE, and that is what lets the wide
+           tiers ramp this numeral at all. The guard keeps a numeral from
+           hanging off the bench, and because `.cmp-num` is centred with
+           translate(-50%,-50%) the inset must be at least HALF the numeral's
+           width -- a two-digit numeral at 30px is ~33px wide, so 16px was
+           already exactly at the line and any ramp past it would clip. An
+           inline style beats every stylesheet rule, so the tiers cannot
+           override the literal; they CAN set the variable. Default 16px
+           keeps every render at or below 1366 byte-identical. */
+        var INSET = 'var(--cmp-numinset, 16px)';
+        el.style.left = clamp ? ('clamp(' + INSET + ', ' + L + ', calc(100% - ' + INSET + '))') : L;
         el.style.top = (y / ComparisonPlanks.H * 100) + '%';
       };
       pct(this._numA, this.X0 + K * s.a, this.A_Y - 46, true);
@@ -959,6 +971,64 @@
       + '.cmp-sheet-svg{width:100%;height:auto;break-inside:avoid;}'
       + '.cmp-p-plank{fill:none;stroke:#000;stroke-width:2.5;}'
       + '.cmp-p-rule{stroke:#000;stroke-width:1.5;stroke-dasharray:5 4;}'
+      /* =====================================================================
+         WIDE VIEWPORTS — the per-tool tiers.
+
+         MEASURED (derive-tool-wide-tiers.js, German, gate showing): chrome
+         466px, aspect 0.444. This tool has the HEAVIEST chrome in the batch
+         and the steepest bench, so it is the one place the vertical budget --
+         not the card -- sets every cap. benchCap = (tierMinHeight - 466)/0.444,
+         then a round number under it, then a little more under that because
+         the type ramp below is chrome the derivation could not have measured:
+           A  ceiling  932 ->  840  ->  466 + 373 =  839 of  880   (41 spare)
+           B  ceiling 1203 -> 1080  ->  466 + 480 =  946 of 1000   (54 spare)
+           C  ceiling 1540 -> 1400  ->  466 + 622 = 1088 of 1150   (62 spare)
+         Card usable (1192/1608/1752) is never the binding constraint here.
+
+         ⚠ THE GATE IS THE DEFAULT FIRST PAINT FOR A SIGNED-OUT CLASS
+         (`_maybeGate`), so the gate-showing chrome IS the common case on this
+         tool, not an edge case, and every budget above is the gate-open one.
+         ⚠ `.cmp-num` IS AN HTML OVERLAY, not SVG text -- it does NOT scale
+         with the bench. Its clamp(19px,4.6vw,30px) has been PINNED at 30px
+         since a 653px viewport, so on a 1400px bench it is the same 30px it
+         was on a phone. This is the highest-value ramp in the batch, and it
+         is only reachable because the inline edge guard now reads
+         `--cmp-numinset` (see `pct()` above).
+         ⚠ `.cmp-handle` STAYS 44px -- the control floor. Only the visible
+         grip inside it grows.
+         ⚠ CHROME CAPS ARE ALREADY PRESENT at 660 (hint, foot, gate), unlike
+         most of this batch; these tiers RAISE them rather than invent them.
+         ===================================================================== */
+      + '@media (min-width:1367px) and (min-height:880px){'
+      + '  body.cmp-wide .cmp-bench,body.cmp-wide .cmp-hint,'
+      + '  body.cmp-wide .cmp-foot,body.cmp-wide .cmp-gate{max-width:840px;}'
+      + '  body.cmp-wide{--cmp-numinset:20px;}'
+      + '  body.cmp-wide .cmp-num{font-size:34px;}'
+      + '  body.cmp-wide .cmp-hint{font-size:17px;}'
+      + '  body.cmp-wide .cmp-chip{font-size:17px;}'
+      + '  body.cmp-wide .cmp-gate{font-size:16px;}'
+      + '  body.cmp-wide .cmp-grip{width:22px;height:22px;}'
+      + '}'
+      + '@media (min-width:1800px) and (min-height:1000px){'
+      + '  body.cmp-wide .cmp-bench,body.cmp-wide .cmp-hint,'
+      + '  body.cmp-wide .cmp-foot,body.cmp-wide .cmp-gate{max-width:1080px;}'
+      + '  body.cmp-wide{--cmp-numinset:23px;}'
+      + '  body.cmp-wide .cmp-num{font-size:38px;}'
+      + '  body.cmp-wide .cmp-hint{font-size:18px;}'
+      + '  body.cmp-wide .cmp-chip{font-size:18px;}'
+      + '  body.cmp-wide .cmp-gate{font-size:17px;}'
+      + '  body.cmp-wide .cmp-grip{width:24px;height:24px;}'
+      + '}'
+      + '@media (min-width:2400px) and (min-height:1150px){'
+      + '  body.cmp-wide .cmp-bench,body.cmp-wide .cmp-hint,'
+      + '  body.cmp-wide .cmp-foot,body.cmp-wide .cmp-gate{max-width:1400px;}'
+      + '  body.cmp-wide{--cmp-numinset:26px;}'
+      + '  body.cmp-wide .cmp-num{font-size:42px;}'
+      + '  body.cmp-wide .cmp-hint{font-size:19px;}'
+      + '  body.cmp-wide .cmp-chip{font-size:19px;}'
+      + '  body.cmp-wide .cmp-gate{font-size:18px;}'
+      + '  body.cmp-wide .cmp-grip{width:26px;height:26px;}'
+      + '}'
       + '@media print{'
       + '  *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}'
       + '  .lcs-header,.lcs-hint,.cmp-hint,.cmp-foot,.cmp-gate,.cmp-bench,.cmp-handle{display:none !important;}'

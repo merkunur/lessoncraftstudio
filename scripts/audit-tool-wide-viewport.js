@@ -147,23 +147,50 @@ const PROBE = (pfx) => {
     if (parseFloat(cs.borderTopWidth) > 0 || parseFloat(cs.borderLeftWidth) > 0) return true;
     return false;
   };
+  /* ⚠⚠ THE APPARATUS IS THE UNION EXTENT, NOT THE WIDEST SINGLE ELEMENT.
+     "Widest inked descendant" is right for a single-bench tool and WRONG
+     for a multi-column one: draw-bag lays three shelves side by side and a
+     bag beside a record grid, so the widest single element is one shelf.
+     It reported 31.6% for an instrument that genuinely spanned 1500px of a
+     2560 screen. Measuring left-most to right-most inked apparatus edge
+     answers the question actually being asked — how much of the board does
+     the instrument occupy — for both shapes. */
+  const CHROME = /-(chip|foot|hint|gate|bar|controls|lock|wrap|scroll)\b/;
+  let lo = Infinity, hi = -Infinity;
   if (scope) {
     scope.querySelectorAll('*').forEach((e) => {
       const c = String(e.className && e.className.baseVal !== undefined ? e.className.baseVal : e.className || '');
-      if (/-(chip|foot|hint|gate|bar|controls|lock)\b/.test(c)) return;
-      if (!draws(e)) return;
+      if (CHROME.test(c)) return;
       const r = e.getBoundingClientRect();
-      if (r.width > app_w && r.height > 4) { app_w = r.width; app_el = c.split(' ')[0] || e.tagName; }
+      if (!r.width) return;
+      /* An element counts as apparatus if it DRAWS, or if the tool
+         deliberately SIZED it with an author max-width — an empty record
+         grid is still the instrument's footprint, and measuring only inked
+         children makes a fill-with-use tool read as tiny at rest. */
+      const sized = getComputedStyle(e).maxWidth !== 'none';
+      if (!draws(e) && !sized) return;
+      if (draws(e) && r.height <= 4) return;
+      if (r.left < lo) lo = r.left;
+      if (r.right > hi) hi = r.right;
+      if (r.width > app_w) { app_w = r.width; app_el = c.split(' ')[0] || e.tagName; }
     });
   }
+  const unionW = (hi > lo) ? (hi - lo) : app_w;
+  if (unionW > app_w) { app_w = unionW; app_el = app_el + '+union'; }
 
   /* smallest rendered numeral inside the apparatus, and smallest control */
   let minNum = Infinity, minNumEl = '';
   let minCtl = Infinity, minCtlEl = '';
+  /* ⚠ THE NUMERAL FLOOR IS ABOUT THE APPARATUS, NOT THE CHROME. Scanning
+     everything made the smallest "numeral" a foot chip reading "Draw 5",
+     so a tool whose instrument numerals were correctly ramped still failed.
+     Chrome type has its own (lower) floor and is excluded here. */
   (scope || document).querySelectorAll('*').forEach((e) => {
+    const c = String(e.className && e.className.baseVal !== undefined ? e.className.baseVal : e.className || '');
+    if (CHROME.test(c) || (e.closest && e.closest('[class*="-foot"],[class*="-bar"],[class*="-gate"],[class*="-hint"]'))) return;
     if (e.children.length === 0 && /\d/.test((e.textContent || '').trim())) {
       const fsz = parseFloat(getComputedStyle(e).fontSize);
-      if (fsz && fsz < minNum) { minNum = fsz; minNumEl = String(e.className || e.tagName); }
+      if (fsz && fsz < minNum) { minNum = fsz; minNumEl = c || e.tagName; }
     }
   });
   document.querySelectorAll('button,[role="slider"],input,select').forEach((e) => {
@@ -254,6 +281,17 @@ function staticRisks(key) {
         await p.goto(`http://127.0.0.1:${PORT}/${key}.html?lang=en`, { waitUntil: 'domcontentloaded', timeout: 20000 });
         await p.waitForSelector('.lcs-app', { timeout: 12000 });
         await wait(420);
+        /* ⚠⚠ NO GENERIC "POPULATE" CLICK. I tried pressing the first foot
+           chip twice, reasoning that tools which fill with use (draw-bag's
+           record grid is empty until a draw is taken) under-report at rest.
+           It made FILL WORSE — 49.8% became 13.2% — because a generic click
+           is not a populate: it drove the tool into whatever state its first
+           chip happens to lead to. Forty-eight tools' chip semantics cannot
+           be reasoned about generically, and a harness that puts the subject
+           in an arbitrary state is measuring nothing in particular.
+           The under-reporting is solved in PROBE instead, by counting the
+           apparatus CONTAINER the tool deliberately sized, whether or not it
+           currently holds anything. */
         cells[cell.w] = await p.evaluate(PROBE, pfx);
         cells[cell.w].errs = errs.length;
       } catch (e) {

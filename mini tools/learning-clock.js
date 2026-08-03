@@ -1836,6 +1836,47 @@ var LearningClock = {
   + '@media (prefers-reduced-motion: reduce){'
   +   '.lck-card.glow{animation:none;box-shadow:var(--lcs-shadow),0 0 0 4px rgba(242,200,121,.5);}'
   +   '.lck-arc{transition:none!important;}'
+  + '}'
+
+  /* ---- wide board (§23 the apparatus a teacher teaches FROM) ----
+     The clock is a 200x200 viewBox at `width:min(52vh, 66vw, 460px)`, so on a
+     2560x1440 board 52vh is 749 and 66vw is 1690 — the flat 460px CEILING is
+     what binds, and the whole face sat at its design size.
+     ⭐ THE `vh` TERM IS THE HEIGHT GUARD AND IS KEPT DELIBERATELY. The face is
+     square, so its height IS its width, and `52vh` is already exactly the
+     bound a square apparatus needs — raising the flat ceiling alone lets the
+     vh term keep the clock inside the fold at every tier floor without a
+     separate height-keyed step. It is nudged up per tier so a taller board
+     gets more, but it never stops being the binding term at the floors
+     (58vh at the 1150 floor is 667; at 1440 it is 835).
+     The digital read-out and the chips are hand-ramped: they are chrome
+     beside the face and would otherwise stay at phone size. */
+  + '@media (min-width:1367px) and (min-height:880px){'
+  +   'body.lck-wide .lcs-app{max-width:min(1192px,97vw);}'
+  +   'body.lck-wide .lck-svg{width:min(54vh,66vw,600px);}'
+  +   'body.lck-wide .lck-d1{font-size:clamp(28px,3.6vmin,54px);}'
+  +   'body.lck-wide .lck-d2{font-size:clamp(15px,2vmin,27px);}'
+  +   'body.lck-wide .lck-chip{font-size:17px;min-height:52px;}'
+  +   'body.lck-wide .lck-why{font-size:17px;}'
+  +   'body.lck-wide .lck-devariant{font-size:16px;}'
+  + '}'
+  + '@media (min-width:1800px) and (min-height:1080px){'
+  +   'body.lck-wide .lcs-app{max-width:min(1560px,97vw);}'
+  +   'body.lck-wide .lck-svg{width:min(56vh,66vw,760px);}'
+  +   'body.lck-wide .lck-d1{font-size:clamp(28px,3.6vmin,64px);}'
+  +   'body.lck-wide .lck-d2{font-size:clamp(15px,2vmin,32px);}'
+  +   'body.lck-wide .lck-chip{font-size:19px;min-height:56px;}'
+  +   'body.lck-wide .lck-why{font-size:19px;}'
+  +   'body.lck-wide .lck-devariant{font-size:18px;}'
+  + '}'
+  + '@media (min-width:2400px) and (min-height:1150px){'
+  +   'body.lck-wide .lcs-app{max-width:min(1752px,97vw);}'
+  +   'body.lck-wide .lck-svg{width:min(58vh,66vw,900px);}'
+  +   'body.lck-wide .lck-d1{font-size:clamp(28px,3.6vmin,72px);}'
+  +   'body.lck-wide .lck-d2{font-size:clamp(15px,2vmin,36px);}'
+  +   'body.lck-wide .lck-chip{font-size:21px;min-height:60px;}'
+  +   'body.lck-wide .lck-why{font-size:21px;}'
+  +   'body.lck-wide .lck-devariant{font-size:20px;}'
   + '}';
   var tag = document.createElement('style'); tag.textContent = css;
   document.head.appendChild(tag);

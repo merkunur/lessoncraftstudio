@@ -15,6 +15,13 @@
      CARD-RAISE   the unit grows when the card does -> a cap is the whole fix
      GEOMETRY     the unit is pinned -> a cap makes it worse; the size comes
                   from JS or a clamp ceiling and that is where the work is
+     CARD-MAXED   the card is ALREADY at the shell's full 1800 and cannot be
+                  raised further. ⚠ THIS IS NOT "NOTHING TO DO". I first
+                  labelled it SKIP, which reads as done — and 25 of 48 tools
+                  landed in it, including `part-whole-frame` whose dot is
+                  22px inside an 1800px card and `number-balance` whose tile
+                  is 44px. A card-maxed tool with a low FILL is a GEOMETRY
+                  tool; the label just says the card is not the lever.
      NO-UNIT      no repeated child at rest (it appears with use) -> cannot be
                   classified from the opening frame; say so, do not guess
 
@@ -105,7 +112,7 @@ const MEASURE = (pfx) => {
 (async () => {
   const keys = ONLY ? ONLY.split(',') : roster();
   const b = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox'] });
-  const out = { 'CARD-RAISE': [], GEOMETRY: [], 'NO-UNIT': [], SKIP: [] };
+  const out = { 'CARD-RAISE': [], GEOMETRY: [], 'NO-UNIT': [], 'CARD-MAXED': [] };
   console.log('tool                 pfx    card->card   unit               med->med   verdict');
   console.log('-------------------- -----  -----------  -----------------  ---------  -------');
   for (const key of keys) {
@@ -133,10 +140,10 @@ const MEASURE = (pfx) => {
     };
     const base = await shot(null);
     const wide = await shot(1740);
-    if (!base || !wide) { out.SKIP.push(key); console.log(key.padEnd(20) + '  BOOT FAIL'); continue; }
+    if (!base || !wide) { out['CARD-MAXED'].push(key); console.log(key.padEnd(20) + '  BOOT FAIL'); continue; }
     let verdict;
     if (!base.unit || !wide.unit || base.unit !== wide.unit) verdict = 'NO-UNIT';
-    else if (wide.card <= base.card + 2) verdict = 'SKIP';          /* already at the cap */
+    else if (wide.card <= base.card + 2) verdict = 'CARD-MAXED';   /* the shell already gave it 1800 */
     else verdict = (wide.med > base.med + 2) ? 'CARD-RAISE' : 'GEOMETRY';
     out[verdict].push(key);
     console.log(key.padEnd(20) + ' ' + String(pfx || '?').padEnd(6) + ' ' +

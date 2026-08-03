@@ -27,7 +27,11 @@ const PORT = 5511;
 const SHOT = process.argv.indexOf('--shot') > -1;
 const SHOT_DIR = path.join(ROOT, 'docs', 'audit-results', 'number-sieve', 'qa');
 const LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
-const VIEWPORTS = [[320, 640], [360, 740], [412, 820], [768, 1000], [1024, 900], [1366, 900]];
+const VIEWPORTS = [[320, 640], [360, 740], [412, 820], [768, 1000], [1024, 900], [1366, 900],
+  /* the three tier FLOORS -- the widest board each tier draws against the
+     SHORTEST viewport that draws it, which is where a cap fails if it is
+     going to. Plus the two real classroom boards. */
+  [1400, 880], [1800, 1000], [1920, 1080], [2400, 1150], [2560, 1440]];
 
 const MIME = { '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.html': 'text/html' };
 const serve = () => http.createServer((req, res) => {

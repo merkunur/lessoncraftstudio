@@ -784,6 +784,15 @@ var NumberSieve = {
     var scroll = api.el('div', 'nsv-scroll');
     var grid = api.el('div', 'nsv-field');
     grid.style.setProperty('--nsv-cols', String(this.COLS[this.st.field] || 10));
+    /* ⭐ THE CELL CEILING IS A PROPERTY OF THE FIELD, NOT OF THE VIEWPORT.
+       All three fields are ten columns wide, so width says nothing about
+       them; what differs is ROWS -- 1-20 is two, 1-100 is ten, 1-120 is
+       twelve. MEASURED at 12 rows: a 46px cell already stands 878px of an
+       880px viewport, so the densest board has NO room at Tier A at all,
+       while the two-row board has room for a cell twice the size. One cap
+       per tier would either crop the twelve-row field or waste the
+       two-row one. The tiers key on this class. */
+    grid.classList.add('nsv-f' + this.st.field);
     var live = {}, alive = this.survivors(this.st), i;
     for (i = 0; i < alive.length; i++) live[alive[i]] = 1;
     var nums = this.allNumbers(this.st.field);
@@ -1148,6 +1157,102 @@ function injectNumberSieveCSS() {
     + '.nsv-anchor{fill:#146B5E;}'
     + '.nsv-anchor-o{fill:none;stroke:#146B5E;stroke-width:2;}'
     + '.nsv-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;}'
+    /* =====================================================================
+       WIDE VIEWPORTS — the per-tool, PER-FIELD tiers.
+
+       ⚠ `body.nsv-wide` ALREADY EXISTS and already carries two NARROW
+       queries (560 and 480, just below). The class is REUSED, never
+       repurposed: these rules are additive and sit above 1367.
+
+       MEASURED, on the DENSEST board (1-120, twelve rows, German), by
+       driving the field and the cell directly and reading the card:
+           1400x880   cell 46 -> card  878 of  880     (46 is the ceiling)
+           1400x880   cell 56 -> card  998            CUT OFF
+           1920x1080  cell 56 -> card 1011 of 1080
+           1920x1080  cell 66 -> card 1131            CUT OFF
+           2560x1440  cell 66 -> card 1131 of 1440
+       Chrome is 289-313px depending on how the header wraps. Budgets take
+       the tier's MINIMUM height, not the screen that happens to be in front
+       of me, and the worst chrome for that tier:
+           rows x cell + (rows-1)x3 + 4 + chrome  <=  tierMinHeight
+         12 rows  A (880-300-37)/12 = 45.2 -> KEEP 46, no Tier A at all
+                  B (1000-310-37)/12 = 54.4 -> 54
+                  C (1150-310-37)/12 = 66.9 -> 66
+         10 rows  A (880-300-31)/10 = 54.9 -> 54
+                  B (1000-310-31)/10 = 65.9 -> 64
+                  C (1150-310-31)/10 = 80.9 -> 78
+          2 rows  WIDTH binds, not height (the deck sits underneath, not
+                  beside, below 100). 10 x cell + 31 <= cardUsable:
+                  A (1192-31)/10 = 116 -> 104   B -> 132   C -> 148
+
+       ⚠ THE 46px CEILING WAS A DOCUMENTED HEIGHT DECISION and it is still
+       correct at Tier A — the twelve-row board genuinely has no room on an
+       880px screen. It gets a bigger cell only where the measurement says
+       there is height for it. Nothing here touches the 34px floor or the
+       6.4vmin middle term; only the ceiling moves.
+       ⚠⚠ AND THE MIDDLE TERM HAD TO MOVE TOO, OR EVERY CEILING ABOVE IS
+       INERT. The clamp is `clamp(34px, 6.4vmin, ceiling)`, and 6.4vmin is
+       LIVE, not pinned: at an 880px-tall viewport it computes 56px, so a
+       104px ceiling for the two-row field changed exactly nothing — measured
+       46 -> 56, not 104. 6.4 is the TWELVE-ROW coefficient (12 x 6.4 = 77% of
+       vmin); the other two fields need their own, scaled by rows: 7.6vmin for
+       ten rows, 16vmin for two. With those, the CEILING binds at every tier,
+       which is the whole point of having measured one. This is the trap the
+       batch plan flagged for arrow-strip -- a ceiling-only bump does nothing
+       while a live middle term is in front of it -- arriving here first.
+       ⚠ ONE PRE-EXISTING DEFECT SURFACED BY THIS MEASUREMENT AND LEFT
+       ALONE, deliberately: at 1366x900 IN GERMAN with the 1-120 board the
+       card stands 902px and its bottom 2px of PADDING is clipped. It is
+       below 1367 so none of these rules touch it; it was measured on the
+       committed build before this change and reproduces there; the lowest
+       CONTROL sits at 858, so nothing interactive is lost. (My first
+       comparison said the overflow was mine — because I measured the old
+       build in ENGLISH against the new one in German. Like for like, it is
+       not.) Fixing it means moving a shipped layout below the tier boundary
+       for two pixels of padding; recorded instead.
+       ⚠ `.nsv-cell` FONT IS `calc(var(--nsv-cell)*.46)` and `.nsv-d3` is
+       `*.42`, so the numerals ramp WITH the cell and must NOT be ramped
+       again — that is the double-ramp. The DECK CARD is the opposite case:
+       72x86 fixed px with fixed 26/20/14px SVG text, so it is ramped by hand.
+       ===================================================================== */
+    + '@media (min-width:1367px) and (min-height:880px){'
+    +   'body.nsv-wide .nsv-f20{--nsv-cell:clamp(34px,16vmin,104px);}'
+    +   'body.nsv-wide .nsv-f100{--nsv-cell:clamp(34px,7.6vmin,54px);}'
+    +   'body.nsv-wide .nsv-card{width:88px;height:104px;}'
+    +   'body.nsv-wide .nsv-ord{font-size:31px;}'
+    +   'body.nsv-wide .nsv-cnum{font-size:24px;}'
+    +   'body.nsv-wide .nsv-cnum-s{font-size:17px;}'
+    + '}'
+    + '@media (min-width:1800px) and (min-height:1000px){'
+    +   'body.nsv-wide .nsv-f100{--nsv-cell:clamp(34px,7.6vmin,64px);}'
+    +   'body.nsv-wide .nsv-f120{--nsv-cell:clamp(34px,6.4vmin,54px);}'
+    +   'body.nsv-wide .nsv-card{width:100px;height:118px;}'
+    +   'body.nsv-wide .nsv-ord{font-size:35px;}'
+    +   'body.nsv-wide .nsv-cnum{font-size:27px;}'
+    +   'body.nsv-wide .nsv-cnum-s{font-size:19px;}'
+    + '}'
+    + '@media (min-width:2400px) and (min-height:1150px){'
+    +   'body.nsv-wide .nsv-f100{--nsv-cell:clamp(34px,7.6vmin,78px);}'
+    +   'body.nsv-wide .nsv-f120{--nsv-cell:clamp(34px,6.4vmin,66px);}'
+    +   'body.nsv-wide .nsv-card{width:112px;height:132px;}'
+    +   'body.nsv-wide .nsv-ord{font-size:39px;}'
+    +   'body.nsv-wide .nsv-cnum{font-size:30px;}'
+    +   'body.nsv-wide .nsv-cnum-s{font-size:21px;}'
+    + '}'
+    /* ⚠⚠ THE TWO-ROW BOARD IS WIDTH-BOUND, SO ITS CEILING MUST KEY ON THE
+       CARD'S OWN BREAKPOINTS, NOT ON THIS TOOL'S HEIGHT TIERS. I shipped it
+       in the height tiers first and it OVERFLOWED: at 1920x1080 the field
+       measured 1351px inside a 1240px card. The shell widens the card at
+       1367/880 -> 1240 and at 1800/1150 -> 1800, and 1080 is below that
+       second minimum — so my 1800/1000 tier fired while the card had not
+       grown. A width-bound cap keyed on a height tier is a cap keyed on the
+       wrong thing. The other two fields are HEIGHT-bound and correctly keep
+       the height tiers above.
+         card 1240 (usable 1192): (1192 - 31)/10 = 116 -> 104
+         card 1800 (usable 1752): (1752 - 31)/10 = 172 -> 148              */
+    + '@media (min-width:1800px) and (min-height:1150px){'
+    +   'body.nsv-wide .nsv-f20{--nsv-cell:clamp(34px,16vmin,148px);}'
+    + '}'
     + '@media (max-width:560px){body.nsv-wide{overflow-y:auto;}}'
     + '@media (max-width:480px){body.nsv-wide .lcs-header{flex-direction:column;align-items:flex-start;gap:8px;}}'
     /* reduced motion COMPRESSES, it does not delete: the going-dark is the lesson */

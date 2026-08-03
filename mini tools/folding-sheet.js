@@ -843,6 +843,43 @@ function injectFoldingSheetCSS() {
        need a steady one. (class-graph + rekenrek.js:2124,
        degrade-rather-than-delete.) */
     + '@media (prefers-reduced-motion:reduce){.fsh-flap{transition-duration:.12s;}}'
+    /* ---- wide board (§23 the apparatus a teacher teaches FROM) ----
+       The sheet is a square of N x N cells sized by --fsh-cell, so ONE number
+       carries it: the grid, the fold guides and the painted squares all follow.
+       ⚠ ITS CEILING IS THE HEIGHT, NOT THE WIDTH — `aspect-ratio:1/1` means
+       every pixel of width is a pixel of height, the arrow-strip case. The
+       tiers are therefore sized against the tier's own MINIMUM height, and the
+       `10.4vmin` middle term is raised with the ceiling or the ceiling never
+       engages (10.4vmin is 90px at 1440, so a raised ceiling alone would have
+       been dead). The 34px cell FLOOR is untouched — it is a canvas floor, not
+       a control floor, and the two are measured separately. */
+    /* ⚠ TIER A RAISES THE CARD AND NOTHING ELSE, ON PURPOSE. The grid is a
+       FIXED 8x8 (N:149) and `aspect-ratio:1/1`, so sheet height is 8 x cell
+       and the chrome around it measures ~420px — at the tier-A floor of 880
+       that leaves 450px, i.e. a 56px cell, BELOW the 58px the tool already
+       has. There is no room at 880 tall; raising the cell here cut nine cells
+       across de/it/fi. Even the chip ramp costs height, so it starts at B. */
+    + '@media (min-width:1367px) and (min-height:880px){'
+    +   'body.fsh-wide .lcs-app{max-width:min(1192px,96vw);}'
+    + '}'
+    + '@media (min-width:1800px) and (min-height:1080px){'
+    +   'body.fsh-wide .lcs-app{max-width:min(1560px,96vw);}'
+    +   'body.fsh-wide .fsh-sheet{--fsh-cell:clamp(34px,11.5vmin,78px);}'
+    +   'body.fsh-wide .fsh-chip{min-height:52px;padding:10px 18px;font-size:17px;}'
+    + '}'
+    + '@media (min-width:2400px) and (min-height:1150px){'
+    +   'body.fsh-wide .lcs-app{max-width:min(1752px,96vw);}'
+    +   'body.fsh-wide .fsh-sheet{--fsh-cell:clamp(34px,12vmin,84px);}'
+    +   'body.fsh-wide .fsh-chip{min-height:56px;padding:11px 20px;font-size:19px;}'
+    + '}'
+    /* ⚠ A FOURTH STEP KEYED ONLY ON HEIGHT, because the cap here is a HEIGHT
+       budget: sheet = 8 x cell + ~420px of chrome. At the tier-C floor of 1150
+       that allows an 84px cell, while a 1440-tall board has room for 118 —
+       and lowering C to fit its own floor would have left every tall board at
+       two thirds of what it can show. The same shape measurement-bench needed. */
+    + '@media (min-width:2400px) and (min-height:1300px){'
+    +   'body.fsh-wide .fsh-sheet{--fsh-cell:clamp(34px,12vmin,118px);}'
+    + '}'
     + '@media print{.fsh-toolbar,.fsh-palette,.fsh-foot,.fsh-gate,.fsh-gaps{display:none!important;}'
     +   '.fsh-sheet{border-color:#333;}}';
   document.head.appendChild(st);

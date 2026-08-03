@@ -684,8 +684,15 @@ var OurDay = {
       host.appendChild(strip);
       return host;
     }
-    /* projector fit: card height clamps 56-96 by count (phone scrolls) */
-    var cardH = Math.max(56, Math.min(96, Math.floor(560 / n)));
+    /* projector fit: card height clamps 56-96 by count (phone scrolls)
+       ⭐ BOTH NUMBERS ARE A JS CEILING — the 96px per-card cap and the 560px
+       total strip budget — so no CSS tier can reach them and a wider board
+       would have shown the same small cards. --od-cardscale raises both
+       together from CSS, where it keys on width AND height; the `560/n` term
+       still decides, so a 7-card day stays denser than a 4-card one. */
+    var _ok = parseFloat(getComputedStyle(document.body).getPropertyValue('--od-cardscale'));
+    if (!(_ok > 0)) _ok = 1;
+    var cardH = Math.max(56, Math.min(Math.round(96 * _ok), Math.floor(560 * _ok / n)));
     strip.style.setProperty('--od-cardh', cardH + 'px');
 
     for (var i = 0; i < n; i++) strip.appendChild(this._cardEl(i, cardH));
@@ -1187,6 +1194,49 @@ function injectOurDayCSS() {
     +   '.od-cardname{font-size:16pt;color:#000;}'
     +   '.od-timechip{border-color:#999;background:#fff;color:#000;}'
     +   '.od-card::after{content:"________________";color:#bbb;font-size:10pt;margin-left:auto;padding-right:6px;}'
-    + '}';
+    + '}'
+
+    /* ⚠ THESE MUST SIT OUTSIDE `@media print`. The first version anchored
+       on `+ '}';` — which was the PRINT block's closing brace, not the end
+       of the stylesheet — so the whole tier block was nested inside
+       @media print and applied only on paper. Nothing errored; the tools
+       simply did not change, and the computed `--od-cardscale` came back
+       EMPTY at 2560. Anchor an inserted rule on the block it must affect,
+       not on the first plausible match. */
+    /* ---- wide board (§23 the apparatus a teacher teaches FROM) ----
+       Three caps, and only one of them is CSS: the wrap at 980, the palette at
+       340, and the card-height budget in JS above. All three move together —
+       raising the wrap alone would have stretched a column of 72px cards.
+       ⚠ The card-name type is `clamp(16px, cardh*.34, 30px)`: it already
+       follows the card height, but its own 30px CEILING would have capped it
+       the moment the cards grew past 88px. Raised, not re-derived. */
+    + '@media (min-width:1367px) and (min-height:880px){'
+    +   'body.od-wide{--od-cardscale:1.25;}'
+    +   'body.od-wide .od-wrap{max-width:1192px;width:100%;}'
+    +   'body.od-wide .od-palette{max-width:420px;}'
+    +   'body.od-wide .od-pal-card{font-size:15px;min-height:48px;}'
+    +   'body.od-wide .od-pal-card .od-ic{width:44px;height:44px;}'
+    +   'body.od-wide .od-cardname{font-size:clamp(16px,calc(var(--od-cardh,72px)*.34),38px);}'
+    + '}'
+    + '@media (min-width:1800px) and (min-height:1080px){'
+    +   'body.od-wide{--od-cardscale:1.45;}'
+    +   'body.od-wide .od-wrap{max-width:1460px;width:100%;}'
+    +   'body.od-wide .od-palette{max-width:500px;}'
+    +   'body.od-wide .od-pal-card{font-size:17px;min-height:52px;}'
+    +   'body.od-wide .od-pal-card .od-ic{width:54px;height:54px;}'
+    +   'body.od-wide .od-cardname{font-size:clamp(16px,calc(var(--od-cardh,72px)*.34),46px);}'
+    + '}'
+    + '@media (min-width:2400px) and (min-height:1150px){'
+    +   'body.od-wide{--od-cardscale:1.55;}'
+    +   'body.od-wide .od-wrap{max-width:1660px;width:100%;}'
+    +   'body.od-wide .od-palette{max-width:560px;}'
+    +   'body.od-wide .od-pal-card{font-size:19px;min-height:56px;}'
+    +   'body.od-wide .od-pal-card .od-ic{width:64px;height:64px;}'
+    +   'body.od-wide .od-cardname{font-size:clamp(16px,calc(var(--od-cardh,72px)*.34),52px);}'
+    + '}'
+    /* the strip is a HEIGHT budget, so a taller board can afford a lot more */
+    + '@media (min-width:2400px) and (min-height:1300px){'
+    +   'body.od-wide{--od-cardscale:1.9;}'
+    ;
   document.head.appendChild(st);
 }

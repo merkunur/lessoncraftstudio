@@ -393,6 +393,39 @@ function serve() {
   else OK(`304: three places, "dreihundert · ${h304.chip} · vier"`);
   await page.screenshot({ path: path.join(OUT, 'hundreds-304-1024x768.png') });
 
+  /* ---------- M2. three places on a WIDE board ----------
+     ⚠ EVERY OTHER CHECK IN THIS FILE RENDERS THE DEFAULT TWO PLACES, and the
+     wide tiers were sized against that. A third column is the case that can
+     overflow: --pvl-u is deliberately a min() of the tier value and a share
+     of the card divided by --pvl-p, so three places take a SMALLER unit and
+     still fit. Nothing else in the suite would notice if that min() broke —
+     "sweep every configuration, not just the default". */
+  for (const vp of [{ width: 1400, height: 880 }, { width: 1920, height: 1080 },
+    { width: 2400, height: 1150 }, { width: 2560, height: 1440 }]) {
+    await page.setViewport(vp);
+    await new Promise((r) => setTimeout(r, 250));
+    const m = await page.evaluate(() => {
+      const cols = [...document.querySelectorAll('.pvl-col')];
+      const card = document.querySelector('.lcs-app').getBoundingClientRect();
+      let lo = Infinity, hi = -Infinity, spill = 0;
+      cols.forEach((c) => {
+        const r = c.getBoundingClientRect();
+        lo = Math.min(lo, r.left); hi = Math.max(hi, r.right);
+        c.querySelectorAll('.pvl-cube,.pvl-rod,.pvl-flat,.pvl-slot,.pvl-add').forEach((e) => {
+          const b = e.getBoundingClientRect();
+          if (b.width && (b.left < r.left - 0.5 || b.right > r.right + 0.5)) spill++;
+        });
+      });
+      return { n: cols.length, lo, hi, cardL: card.left, cardR: card.right, spill };
+    });
+    /* non-vacuity before any claim about the layout */
+    if (m.n !== 3) { FAIL(`3-place @${vp.width}: ${m.n} columns rendered — measurement void`); continue; }
+    if (m.lo < m.cardL - 0.5 || m.hi > m.cardR + 0.5) FAIL(`3-place @${vp.width}: columns escape the card`);
+    else if (m.spill) FAIL(`3-place @${vp.width}: ${m.spill} block(s) spill out of their column`);
+    else OK(`3-place @${vp.width}x${vp.height}: ${Math.round(m.hi - m.lo)}px of a ${Math.round(m.cardR - m.cardL)}px card, nothing spills`);
+  }
+  await page.setViewport({ width: 1024, height: 768 });
+
   /* ---------- close ---------- */
   const realErrs = pageErrs.filter((e) => !/404|Failed to load/.test(e));
   if (realErrs.length) FAIL('page errors: ' + realErrs.slice(0, 3).join(' | '));

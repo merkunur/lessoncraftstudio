@@ -169,7 +169,15 @@ const PROBE = (pfx) => {
      or a real border. */
   const draws = (e) => {
     const t = e.tagName;
-    if (t === 'svg' || t === 'CANVAS' || t === 'IMG' || t === 'VIDEO') return true;
+    /* ⚠⚠ AN EMPTY SVG OVERLAY IS NOT INK, AND COUNTING IT INFLATES THE
+       APPARATUS BY WHATEVER THE OVERLAY SPANS. place-value-lab draws its
+       carry/borrow arcs into a `position:absolute;inset:0` SVG that is EMPTY
+       at rest — arcs are appended only while an animation runs. Counting it
+       measured the apparatus at 1704px when the blocks spanned 1110px, so
+       FILL reported 66.6% for a board that was really at 43.4%. Require at
+       least one child element: a real drawing has geometry in it. */
+    if (t === 'svg') return e.childElementCount > 0;
+    if (t === 'CANVAS' || t === 'IMG' || t === 'VIDEO') return true;
     const cs = getComputedStyle(e);
     const bg = cs.backgroundColor;
     if (bg && bg !== 'transparent' && !/rgba\(0,\s*0,\s*0,\s*0\)/.test(bg)) return true;

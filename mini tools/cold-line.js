@@ -894,6 +894,7 @@
 
     init: function (api) {
       this.api = api;
+      document.body.classList.add('cld-wide');
       injectColdLineCSS();
       this._store = this._loadStore();
       var ent = this._store.ent;
@@ -1012,6 +1013,44 @@
       + '.cld-sheet-svg{width:100%;height:auto;break-inside:avoid;}'
       + '.cld-p-tube{fill:none;stroke:#000;stroke-width:3;}'
       + '.cld-p-tick{stroke:#000;stroke-width:2;}'
+
+      /* ---- wide board (§23 the apparatus a teacher teaches FROM) ----
+         ⚠⚠ THE ONLY SAFE LEVER HERE IS max-width, and the note above
+         `.cld-bench` says why in detail: capping the HEIGHT of an
+         `aspect-ratio:1/1` box gives a RECTANGLE, the SVG letterboxes, and
+         every HTML handle drifts off the mark it controls — two circles per
+         mark, on a tool whose whole subject is two marks. `toScreen` maps
+         (x,y) -> (W-y,x), an isometry only on a square. So: raise the width
+         cap and nothing else, and let the square follow.
+         The bench is square, so its height IS its width — these values are
+         the tier's own MINIMUM height minus the ~410px of chrome around it,
+         which is what the probe measures at each floor. A fourth step keyed
+         only on height, because a 1440-tall board can afford far more than
+         tier C's 1150 floor. */
+      + '@media (min-width:1367px) and (min-height:880px){'
+      + '  body.cld-wide .cld-bench{max-width:640px;}'
+      + '  body.cld-wide .cld-hint,body.cld-wide .cld-foot{max-width:760px;}'
+      + '  body.cld-wide .cld-handle{width:56px;height:56px;margin:-28px 0 0 -28px;}'
+      + '  body.cld-wide .cld-grip{width:23px;height:23px;}'
+      + '  body.cld-wide .cld-h-s .cld-grip{width:18px;height:38px;border-radius:19px;}'
+      + '}'
+      + '@media (min-width:1800px) and (min-height:1080px){'
+      + '  body.cld-wide .cld-bench{max-width:800px;}'
+      + '  body.cld-wide .cld-hint,body.cld-wide .cld-foot{max-width:920px;}'
+      + '  body.cld-wide .cld-handle{width:64px;height:64px;margin:-32px 0 0 -32px;}'
+      + '  body.cld-wide .cld-grip{width:27px;height:27px;}'
+      + '  body.cld-wide .cld-h-s .cld-grip{width:21px;height:44px;border-radius:22px;}'
+      + '}'
+      + '@media (min-width:2400px) and (min-height:1150px){'
+      + '  body.cld-wide .cld-bench{max-width:860px;}'
+      + '  body.cld-wide .cld-hint,body.cld-wide .cld-foot{max-width:1000px;}'
+      + '  body.cld-wide .cld-handle{width:70px;height:70px;margin:-35px 0 0 -35px;}'
+      + '  body.cld-wide .cld-grip{width:29px;height:29px;}'
+      + '  body.cld-wide .cld-h-s .cld-grip{width:23px;height:48px;border-radius:24px;}'
+      + '}'
+      + '@media (min-width:2400px) and (min-height:1300px){'
+      + '  body.cld-wide .cld-bench{max-width:1000px;}'
+      + '}'
 
       + '@media print{'
       /* ⚠ browsers STRIP background colours when printing by default —

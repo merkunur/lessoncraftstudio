@@ -39,7 +39,7 @@ const ROOT = path.join(__dirname, '..', 'mini tools');
 const OUT = path.join(__dirname, '..', 'docs', 'audit-results', 'number-line', 'qa');
 const SHOT = process.argv.indexOf('--shot') >= 0;
 const PORT = 5576;
-const WIDTHS = [320, 360, 412, 768, 1024, 1366];
+const WIDTHS = [320, 360, 412, 768, 1024, 1366, 1920, 2560];
 
 const T = require(path.join(ROOT, 'number-line.js'));   /* the model, in Node */
 

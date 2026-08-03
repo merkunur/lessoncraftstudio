@@ -26,7 +26,7 @@ const t=f.endsWith('.js')?'application/javascript':f.endsWith('.json')?'applicat
 rs.writeHead(200,{'Content-Type':t});rs.end(fs.readFileSync(fp));}).listen(PORT);
 const wait=ms=>new Promise(r=>setTimeout(r,ms));
 const LOC=['en','de','fr','it','es','pt','nl','sv','da','no','fi'];
-const W=[320,360,412,768,1024,1366];
+const W=[320,360,412,768,1024,1366,1920,2560];
 (async()=>{
 let fails=0,cells=0;
 for(const loc of LOC){
@@ -36,7 +36,7 @@ for(const loc of LOC){
   for(const w of W){
     const p=await b.newPage();const errs=[];
     p.on('pageerror',e=>errs.push(String(e)));
-    await p.setViewport({width:w,height:900});
+    await p.setViewport({width:w,height:w>=2400?1440:(w>=1800?1080:900)});
     await p.goto(`http://127.0.0.1:${PORT}/number-line.html?lang=${loc}&embed=1`,{waitUntil:'domcontentloaded'});
     await p.waitForSelector('.nl-wrap');await wait(250);
     // drive into the LONGEST state: gate open + wall hint + all numerals
@@ -78,6 +78,6 @@ for(const loc of LOC){
   console.log((worst?'FAIL ':'ok   ')+loc+(worst?'   '+worst:''));
   await b.close();
 }
-console.log('\n'+(fails?'FAIL':'PASS')+'  '+(cells-fails)+'/'+cells+' cells clean (11 locales x 6 widths, gate open, wall state)');
+console.log('\n'+(fails?'FAIL':'PASS')+'  '+(cells-fails)+'/'+cells+' cells clean ('+LOC.length+' locales x '+W.length+' widths, gate open, wall state)');
 process.exit(fails?1:0);
 })();

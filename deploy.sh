@@ -649,6 +649,21 @@ echo "💳 Payment webhook canary (signed activation + tier-bridge + bad-sig rej
   [ $? -ne 0 ] && echo "   !!! PAYMENT CANARY FAILED — live purchases may NOT be activating. Investigate the webhook/secret NOW."
 ) || true
 
+# Post-flip WARN-only: every SERVABLE saved worksheet must be free of the publish-only
+# __PLACEHOLDER__ tokens. Those leaked for the life of the feature — into the browser tab
+# title, the screen-reader alt/aria text, the og: unfurl, and the share panel's clipboard —
+# because publish-cli substitution never ran on the save path. WARN not FAIL, and post-flip
+# for the same reason as the payment canary: it needs the DB, and a DB-dependent gate that
+# can abort a deploy is exactly how the webp check took every deploy down on 2026-08-03.
+echo ""
+echo "🔎 Hosted-worksheet placeholder residue..."
+( set +e
+  cd /opt/lessoncraftstudio/frontend
+  set -a; . ./.env.production 2>/dev/null; set +a
+  node ../scripts/ops/backfill-hosted-placeholders.js --verify
+  [ $? -ne 0 ] && echo "   !!! SAVED WORKSHEETS LEAK PLACEHOLDER TOKENS — run scripts/ops/backfill-hosted-placeholders.js --apply"
+) || true
+
 echo ""
 echo "📡 Submitting recrawl signals (IndexNow → Bing/Yandex)..."
 # NOTE: Google RETIRED its sitemap-ping endpoint in 2023 — the old

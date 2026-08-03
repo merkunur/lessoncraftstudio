@@ -980,6 +980,37 @@ var ClassTimer = {
 (function injectCSS() {
   var css = ''
   + 'body.ctm-wide .lcs-app{max-width:min(980px,96vw);}'
+
+  /* ---- wide board (§23 the apparatus a teacher teaches FROM) ----
+     The metaphor art is `width:min(46vh, 72vw, 420px)`: at 2560x1440 46vh is
+     662 and 72vw is 1843, so the flat 420px CEILING bound and the timer sat
+     at its design size. The vh term is kept as the HEIGHT guard (the art is
+     tall, and a clock a class watches must stay inside the fold), nudged up
+     per tier while the flat cap rises past it. */
+  + '@media (min-width:1367px) and (min-height:880px){'
+  +   'body.ctm-wide .lcs-app{max-width:min(1192px,96vw);}'
+  +   'body.ctm-wide .ctm-met{width:min(48vh,72vw,560px);}'
+  +   'body.ctm-wide .ctm-met-jar,body.ctm-wide .ctm-met-candle,body.ctm-wide .ctm-met-balloon{width:min(42vh,62vw,440px);}'
+  +   'body.ctm-wide .ctm-chip{min-width:56px;min-height:56px;font-size:17px;}'
+  + '}'
+  + '@media (min-width:1800px) and (min-height:1080px){'
+  +   'body.ctm-wide .lcs-app{max-width:min(1560px,96vw);}'
+  +   'body.ctm-wide .ctm-met{width:min(52vh,72vw,700px);}'
+  +   'body.ctm-wide .ctm-met-jar,body.ctm-wide .ctm-met-candle,body.ctm-wide .ctm-met-balloon{width:min(46vh,62vw,560px);}'
+  +   'body.ctm-wide .ctm-chip{min-width:62px;min-height:62px;font-size:19px;}'
+  + '}'
+  + '@media (min-width:2400px) and (min-height:1150px){'
+  +   'body.ctm-wide .lcs-app{max-width:min(1752px,96vw);}'
+  +   'body.ctm-wide .ctm-met{width:min(52vh,72vw,820px);}'
+  +   'body.ctm-wide .ctm-met-jar,body.ctm-wide .ctm-met-candle,body.ctm-wide .ctm-met-balloon{width:min(46vh,62vw,660px);}'
+  +   'body.ctm-wide .ctm-chip{min-width:68px;min-height:68px;font-size:21px;}'
+  + '}'
+  /* the art is a HEIGHT budget, so a 1440-tall board can afford more than
+     tier C's 1150 floor allows — measured chrome here is ~518px. */
+  + '@media (min-width:2400px) and (min-height:1300px){'
+  +   'body.ctm-wide .ctm-met{width:min(54vh,72vw,820px);}'
+  +   'body.ctm-wide .ctm-met-jar,body.ctm-wide .ctm-met-candle,body.ctm-wide .ctm-met-balloon{width:min(48vh,62vw,660px);}'
+  + '}'
   + '@media (max-width:480px){'
   +   'body.ctm-wide .lcs-header{flex-direction:column;align-items:flex-start;gap:8px;}'
   + '}'

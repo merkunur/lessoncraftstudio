@@ -1,0 +1,2655 @@
+{
+  "opts": {
+    "baseUrl": "https://www.lessoncraftstudio.com",
+    "locales": [
+      "no"
+    ],
+    "axes": [
+      "exercise-type",
+      "theme",
+      "educational-level"
+    ],
+    "outDir": "C:\\Users\\rkgen\\lessoncraftstudio\\docs\\audit-results",
+    "concurrency": 10,
+    "sample": null,
+    "includeIntersections": false,
+    "timeoutMs": 15000
+  },
+  "byLocale": {
+    "no": {
+      "locale": "no",
+      "total": 134,
+      "pass": 2,
+      "fail": 132,
+      "byAxis": {
+        "exercise-type": {
+          "total": 29,
+          "pass": 1
+        },
+        "theme": {
+          "total": 100,
+          "pass": 0
+        },
+        "educational-level": {
+          "total": 5,
+          "pass": 1
+        }
+      },
+      "defectCounts": {
+        "PAGE_HTTP_404": 132
+      },
+      "fallbackCount": 0,
+      "tooShortCount": 0,
+      "tooLongCount": 0,
+      "nonUniqueCount": 0,
+      "missingCount": 0,
+      "sampleFailures": [
+        {
+          "url": "https://www.lessoncraftstudio.com/no/topic/addisjon/",
+          "axisKey": "addition",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/no/topic/bildesudoku/",
+          "axisKey": "sudoku",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/no/topic/kryptogram/",
+          "axisKey": "cryptogram",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/no/topic/bildevei/",
+          "axisKey": "picture-path",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/no/topic/subtraksjon/",
+          "axisKey": "subtraction",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        }
+      ]
+    }
+  },
+  "perPage": [
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/addisjon/",
+      "locale": "no",
+      "axis": "exercise-type",
+      "axisKey": "addition",
+      "slug": "addisjon",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/bildesudoku/",
+      "locale": "no",
+      "axis": "exercise-type",
+      "axisKey": "sudoku",
+      "slug": "bildesudoku",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/kryptogram/",
+      "locale": "no",
+      "axis": "exercise-type",
+      "axisKey": "cryptogram",
+      "slug": "kryptogram",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/bildevei/",
+      "locale": "no",
+      "axis": "exercise-type",
+      "axisKey": "picture-path",
+      "slug": "bildevei",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/subtraksjon/",
+      "locale": "no",
+      "axis": "exercise-type",
+      "axisKey": "subtraction",
+      "slug": "subtraksjon",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/kodeaddisjon/",
+      "locale": "no",
+      "axis": "exercise-type",
+      "axisKey": "code-addition",
+      "slug": "kodeaddisjon",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/mer-mindre/",
+      "locale": "no",
+      "axis": "exercise-type",
+      "axisKey": "more-less",
+      "slug": "mer-mindre",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/mattepuslespill/",
+      "locale": "no",
+      "axis": "exercise-type",
+      "axisKey": "math-puzzle",
+      "slug": "mattepuslespill",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/matteark/",
+      "locale": "no",
+      "axis": "exercise-type",
+      "axisKey": "math-worksheet",
+      "slug": "matteark",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/stor-liten/",
+      "locale": "no",
+      "axis": "exercise-type",
+      "axisKey": "big-small",
+      "slug": "stor-liten",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/tell-i-diagram/",
+      "locale": "no",
+      "axis": "exercise-type",
+      "axisKey": "chart-count",
+      "slug": "tell-i-diagram",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/monstertoget/",
+      "locale": "no",
+      "axis": "exercise-type",
+      "axisKey": "pattern-train",
+      "slug": "monstertoget",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/monsterark/",
+      "locale": "no",
+      "axis": "exercise-type",
+      "axisKey": "pattern-worksheet",
+      "slug": "monsterark",
+      "status": 200,
+      "descriptionLength": 142,
+      "descriptionPreview": "Pattern worksheets for kindergarten and grade 1: fill the blank in ABAB and ABCABC picture sequences. Print for centers or play interactively.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 142
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=no)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "263c7058e0d3a6b18d8e387f24ecc4c489779d03"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/bingo/",
+      "locale": "no",
+      "axis": "exercise-type",
+      "axisKey": "bingo",
+      "slug": "bingo",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/rutenettmatch/",
+      "locale": "no",
+      "axis": "exercise-type",
+      "axisKey": "grid-match",
+      "slug": "rutenettmatch",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/matching/",
+      "locale": "no",
+      "axis": "exercise-type",
+      "axisKey": "matching",
+      "slug": "matching",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/sorter-bilder/",
+      "locale": "no",
+      "axis": "exercise-type",
+      "axisKey": "picture-sort",
+      "slug": "sorter-bilder",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/match-skygger/",
+      "locale": "no",
+      "axis": "exercise-type",
+      "axisKey": "shadow-match",
+      "slug": "match-skygger",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/alfabettoget/",
+      "locale": "no",
+      "axis": "exercise-type",
+      "axisKey": "alphabet-train",
+      "slug": "alfabettoget",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/preposisjoner/",
+      "locale": "no",
+      "axis": "exercise-type",
+      "axisKey": "prepositions",
+      "slug": "preposisjoner",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/gjett-ordet/",
+      "locale": "no",
+      "axis": "exercise-type",
+      "axisKey": "word-guess",
+      "slug": "gjett-ordet",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/bokstavspill/",
+      "locale": "no",
+      "axis": "exercise-type",
+      "axisKey": "word-scramble",
+      "slug": "bokstavspill",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/ordleting/",
+      "locale": "no",
+      "axis": "exercise-type",
+      "axisKey": "wordsearch",
+      "slug": "ordleting",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/kryssord/",
+      "locale": "no",
+      "axis": "exercise-type",
+      "axisKey": "crossword",
+      "slug": "kryssord",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/finn-og-tell/",
+      "locale": "no",
+      "axis": "exercise-type",
+      "axisKey": "find-and-count",
+      "slug": "finn-og-tell",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/finn-objektene/",
+      "locale": "no",
+      "axis": "exercise-type",
+      "axisKey": "find-objects",
+      "slug": "finn-objektene",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/skattejakt/",
+      "locale": "no",
+      "axis": "exercise-type",
+      "axisKey": "treasure-hunt",
+      "slug": "skattejakt",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/manglende-brikker/",
+      "locale": "no",
+      "axis": "exercise-type",
+      "axisKey": "missing-pieces",
+      "slug": "manglende-brikker",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/hvilken-passer-ikke/",
+      "locale": "no",
+      "axis": "exercise-type",
+      "axisKey": "odd-one-out",
+      "slug": "hvilken-passer-ikke",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/4-juli/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "4th_of_july",
+      "slug": "4-juli",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/tilbehor/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "accessories",
+      "slug": "tilbehor",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/aktiviteter/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "activities",
+      "slug": "aktiviteter",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/dyr/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "animals",
+      "slug": "dyr",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/rundt-i-huset/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "around_the_house",
+      "slug": "rundt-i-huset",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/i-supermarkedet/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "at_the_supermarket",
+      "slug": "i-supermarkedet",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/bakeri/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "bakery",
+      "slug": "bakeri",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/strand/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "beach",
+      "slug": "strand",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/fugler/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "birds",
+      "slug": "fugler",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/fugler-2/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "birds_2",
+      "slug": "fugler-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/kroppsdeler/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "body_parts",
+      "slug": "kroppsdeler",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/frokost/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "breakfast",
+      "slug": "frokost",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/camping/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "camping",
+      "slug": "camping",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/jul/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "christmas",
+      "slug": "jul",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/klasserom/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "classroom",
+      "slug": "klasserom",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/klaer/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "clothing",
+      "slug": "klaer",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/farger/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "colors",
+      "slug": "farger",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/desserter-og-godteri/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "desserts_and_sweets",
+      "slug": "desserter-og-godteri",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/dinosaurer/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "dinosaurs",
+      "slug": "dinosaurer",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/paske/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "easter",
+      "slug": "paske",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/folelser/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "emotions",
+      "slug": "folelser",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/gardsdyr/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "farm_animals",
+      "slug": "gardsdyr",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/blomster/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "flowers",
+      "slug": "blomster",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/skogsdyr/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "forest_creatures",
+      "slug": "skogsdyr",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/frukter/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "fruits",
+      "slug": "frukter",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/mobler/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "furniture",
+      "slug": "mobler",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/sykehus/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "hospital",
+      "slug": "sykehus",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/insekter-og-kryp/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "insects_and_bugs",
+      "slug": "insekter-og-kryp",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/kjokkenredskaper/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "kitchen_tools",
+      "slug": "kjokkenredskaper",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/diverse/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "miscellaneous",
+      "slug": "diverse",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/musikk/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "music",
+      "slug": "musikk",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/yrker/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "occupations",
+      "slug": "yrker",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/havliv/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "ocean_life",
+      "slug": "havliv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/kjaeledyr/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "pets",
+      "slug": "kjaeledyr",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/postkontor/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "post_office",
+      "slug": "postkontor",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/reptiler-og-amfibier/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "reptiles_and_amphibians",
+      "slug": "reptiler-og-amfibier",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/former/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "shapes",
+      "slug": "former",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/verdensrommet/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "space",
+      "slug": "verdensrommet",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/var/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "spring",
+      "slug": "var",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/sommer/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "summer",
+      "slug": "sommer",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/thanksgiving/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "thanksgivinng",
+      "slug": "thanksgiving",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/ting-som-flyr/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "things_that_fly",
+      "slug": "ting-som-flyr",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/verktoy/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "tools",
+      "slug": "verktoy",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/leker/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "toys",
+      "slug": "leker",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/traer/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "tree",
+      "slug": "traer",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/gronnsaker/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "vegetables",
+      "slug": "gronnsaker",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/kjoretoy/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "vehicles",
+      "slug": "kjoretoy",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/vaer/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "weather",
+      "slug": "vaer",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/vinter/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "winter",
+      "slug": "vinter",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/dyrehagedyr/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "zoo_animals",
+      "slug": "dyrehagedyr",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/dyr-sh/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "animals_bw",
+      "slug": "dyr-sh",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/dyr-sh-2/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "animals_bw_2",
+      "slug": "dyr-sh-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/dyr-sh-3/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "animals_bw_3",
+      "slug": "dyr-sh-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/dyr-sh-4/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "animals_bw_4",
+      "slug": "dyr-sh-4",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/dyr-sh-5/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "animals_bw_5",
+      "slug": "dyr-sh-5",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/klaer-sh/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "apparel_bw",
+      "slug": "klaer-sh",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/strand-sh/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "beach_bw",
+      "slug": "strand-sh",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/strand-sh-2/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "beach_bw_2",
+      "slug": "strand-sh-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/fugler-s-h/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "birds_bw",
+      "slug": "fugler-s-h",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/fugler-s-h-2/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "birds_bw_2",
+      "slug": "fugler-s-h-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/jul-s-h/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "christmas_bw",
+      "slug": "jul-s-h",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/jul-s-h-2/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "christmas_bw_2",
+      "slug": "jul-s-h-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/klasserom-s-h/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "classroom_bw",
+      "slug": "klasserom-s-h",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/klasserom-2-s-h/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "classroom_bw_2",
+      "slug": "klasserom-2-s-h",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/dessert-s-h/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "dessert_bw",
+      "slug": "dessert-s-h",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/paske-sh/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "easter_bw",
+      "slug": "paske-sh",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/paske-sh-2/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "easter_bw_2",
+      "slug": "paske-sh-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/utdanning-sh/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "education_bw",
+      "slug": "utdanning-sh",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/ansikter-sh/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "faces_bw",
+      "slug": "ansikter-sh",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/gardsdyr-sh/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "farm_animals_bw",
+      "slug": "gardsdyr-sh",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/gard-sh/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "farm_bw",
+      "slug": "gard-sh",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/mat-sh/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "food_bw",
+      "slug": "mat-sh",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/mat-sh-2/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "food_bw_2",
+      "slug": "mat-sh-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/mat-sh-3/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "food_bw_3",
+      "slug": "mat-sh-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/frukter-sh/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "fruits_bw",
+      "slug": "frukter-sh",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/mobler-sh/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "furniture_bw",
+      "slug": "mobler-sh",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/hjem-og-natur-sh/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "home_and_nature_bw",
+      "slug": "hjem-og-natur-sh",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/hjem-sh/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "home_bw",
+      "slug": "hjem-sh",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/hjem-sh-2/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "home_bw_2",
+      "slug": "hjem-sh-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/husholdning-sh/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "household_bw",
+      "slug": "husholdning-sh",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/kjokken-sh/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "kitchen_bw",
+      "slug": "kjokken-sh",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/natur-sh/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "nature_bw",
+      "slug": "natur-sh",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/objekter-sh/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "objects_bw",
+      "slug": "objekter-sh",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/havliv-sh/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "sea_life_bw",
+      "slug": "havliv-sh",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/havliv-sh-2/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "sea_life_bw_2",
+      "slug": "havliv-sh-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/verdensrommet-sh/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "space_bw",
+      "slug": "verdensrommet-sh",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/sport-sh/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "sports_bw",
+      "slug": "sport-sh",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/sport-sh-2/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "sports_bw_2",
+      "slug": "sport-sh-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/verktoy-sh/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "tools_bw",
+      "slug": "verktoy-sh",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/leker-sh/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "toys_bw",
+      "slug": "leker-sh",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/leker-sh-2/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "toys_bw_2",
+      "slug": "leker-sh-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/reiser-og-ferie-sh/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "travel_and_holiday_bw",
+      "slug": "reiser-og-ferie-sh",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/valentinsdag-sh/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "valentine_bw",
+      "slug": "valentinsdag-sh",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/valentinsdag-sh-2/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "valentine_bw_2",
+      "slug": "valentinsdag-sh-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/gronnsaker-sh/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "vegetables_bw",
+      "slug": "gronnsaker-sh",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/gronnsaker-sh-2/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "vegetables_bw_2",
+      "slug": "gronnsaker-sh-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/kjoretoy-sh/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "vehicles_bw",
+      "slug": "kjoretoy-sh",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/kjoretoy-sh-2/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "vehicles_bw_2",
+      "slug": "kjoretoy-sh-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/kjoretoy-sh-3/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "vehicles_bw_3",
+      "slug": "kjoretoy-sh-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/dyrehagedyr-sh/",
+      "locale": "no",
+      "axis": "theme",
+      "axisKey": "zoo_animals_bw",
+      "slug": "dyrehagedyr-sh",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/barnehage-3-5-ar/",
+      "locale": "no",
+      "axis": "educational-level",
+      "axisKey": "preschool",
+      "slug": "barnehage-3-5-ar",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/barnehage-5-7-ar/",
+      "locale": "no",
+      "axis": "educational-level",
+      "axisKey": "kindergarten",
+      "slug": "barnehage-5-7-ar",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/1-trinn/",
+      "locale": "no",
+      "axis": "educational-level",
+      "axisKey": "grade-1",
+      "slug": "1-trinn",
+      "status": 200,
+      "descriptionLength": 149,
+      "descriptionPreview": "Grade 1 worksheets for CVC decoding, place value, addition within 20, and picture-clue reading. CCSS-aligned activities playable online or printable.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 149
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=no)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "36b9664e3abcc95157c1928d48de0fc027d7049a"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/2-trinn/",
+      "locale": "no",
+      "axis": "educational-level",
+      "axisKey": "grade-2",
+      "slug": "2-trinn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/no/topic/3-trinn/",
+      "locale": "no",
+      "axis": "educational-level",
+      "axisKey": "grade-3",
+      "slug": "3-trinn",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    }
+  ]
+}

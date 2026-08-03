@@ -1,0 +1,3647 @@
+{
+  "opts": {
+    "baseUrl": "https://www.lessoncraftstudio.com",
+    "locales": [
+      "en"
+    ],
+    "axes": [
+      "exercise-type",
+      "theme",
+      "educational-level"
+    ],
+    "outDir": "C:\\Users\\rkgen\\lessoncraftstudio\\docs\\audit-results",
+    "concurrency": 10,
+    "sample": null,
+    "includeIntersections": false,
+    "timeoutMs": 15000
+  },
+  "byLocale": {
+    "en": {
+      "locale": "en",
+      "total": 135,
+      "pass": 98,
+      "fail": 37,
+      "byAxis": {
+        "exercise-type": {
+          "total": 30,
+          "pass": 29
+        },
+        "theme": {
+          "total": 100,
+          "pass": 66
+        },
+        "educational-level": {
+          "total": 5,
+          "pass": 3
+        }
+      },
+      "defectCounts": {
+        "PAGE_HTTP_404": 36,
+        "META_DESCRIPTION_LENGTH_TOO_SHORT": 1
+      },
+      "fallbackCount": 0,
+      "tooShortCount": 1,
+      "tooLongCount": 0,
+      "nonUniqueCount": 0,
+      "missingCount": 0,
+      "sampleFailures": [
+        {
+          "url": "https://www.lessoncraftstudio.com/en/topic/picture-path/",
+          "axisKey": "picture-path",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/en/topic/animals-bw/",
+          "axisKey": "animals_bw",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/en/topic/animals-bw-2/",
+          "axisKey": "animals_bw_2",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/en/topic/animals-bw-3/",
+          "axisKey": "animals_bw_3",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/en/topic/animals-bw-4/",
+          "axisKey": "animals_bw_4",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        }
+      ]
+    }
+  },
+  "perPage": [
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/addition/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "addition",
+      "slug": "addition",
+      "status": 200,
+      "descriptionLength": 136,
+      "descriptionPreview": "Addition worksheets for kindergarten and grade 1: visual counting and single-digit sums. Play interactively in browser or print the PDF.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 136
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "5cc0f1f4ead3b015326e633d77d21987c9862636"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/picture-sudoku/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "sudoku",
+      "slug": "picture-sudoku",
+      "status": 200,
+      "descriptionLength": 141,
+      "descriptionPreview": "Picture sudoku worksheets for K-3: 4x4 grids that use animal and object images instead of numbers. Logical deduction at an early-years level.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 141
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "ae428e7c1f3fe39d094cfcaa1e61d5c0ad0a53fc"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/cryptogram/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "cryptogram",
+      "slug": "cryptogram",
+      "status": 200,
+      "descriptionLength": 145,
+      "descriptionPreview": "Cryptogram puzzles for grade 1 through grade 3: crack the symbol-to-letter cipher to reveal each hidden word. Picture clues guide young decoders.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 145
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "8e15785f4134cc5d4a439800f8e202fae9c05221"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/picture-path/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "picture-path",
+      "slug": "picture-path",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/picture-trail/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "picture-trail",
+      "slug": "picture-trail",
+      "status": 200,
+      "descriptionLength": 145,
+      "descriptionPreview": "Picture trail puzzles for grade 1 and grade 2: trace the path through the grid, collecting picture clues until you reach the treasure at the end.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 145
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "0d8a40d970d69ea39fbd19139cf735a6bc1fcfd1"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/subtraction/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "subtraction",
+      "slug": "subtraction",
+      "status": 200,
+      "descriptionLength": 135,
+      "descriptionPreview": "Subtraction worksheets for kindergarten and grade 1: cross out the pictures to see take-away in action before the minus symbol appears.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 135
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b558d2077d796b4a77ec5f98271837ec32141cdf"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/code-addition/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "code-addition",
+      "slug": "code-addition",
+      "status": 200,
+      "descriptionLength": 139,
+      "descriptionPreview": "Code addition worksheets for grade 1 and grade 2: decode the letter cipher, then add the matched numbers. Reading and math in one activity.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 139
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "78f75c22e1daeadcc015f78d1e3d6b05a110e6d6"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/more-less/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "more-less",
+      "slug": "more-less",
+      "status": 200,
+      "descriptionLength": 145,
+      "descriptionPreview": "More or less worksheets for pre-K and kindergarten: compare two groups by counting pictures before the greater-than and less-than symbols arrive.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 145
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b7113ea239277819f11b7814afaae3aa22c5ee25"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/math-puzzle/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "math-puzzle",
+      "slug": "math-puzzle",
+      "status": 200,
+      "descriptionLength": 142,
+      "descriptionPreview": "Math puzzle worksheets for kindergarten and grade 1: drag the missing piece into each visual equation. A playful path into algebraic thinking.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 142
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "02dea87e8da1cc3d45c9f8cd2cf9c6810819f526"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/math-worksheet/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "math-worksheet",
+      "slug": "math-worksheet",
+      "status": 200,
+      "descriptionLength": 141,
+      "descriptionPreview": "Mixed-operation math worksheets for grade 1 and grade 2: addition, subtraction, and fill-in algebra on a single practice page. Print or play.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 141
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "8a3b7acc314813638c51b511bb0ac54e4fe35849"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/big-small/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "big-small",
+      "slug": "big-small",
+      "status": 200,
+      "descriptionLength": 131,
+      "descriptionPreview": "Biggest and smallest worksheets for ages 3-5: tap the larger or smaller item in each group. Picture-based, so no reading is needed.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 131
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "dad8cd23e4faf04960884b9a16c8d75f0abc4c1f"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/chart-count/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "chart-count",
+      "slug": "chart-count",
+      "status": 200,
+      "descriptionLength": 141,
+      "descriptionPreview": "Bar chart and tally worksheets for kindergarten through grade 2: count the pictures, fill in the chart columns. First steps in data literacy.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 141
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "2ec944ce56c422fce965fde32cc78245300e0a1e"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/pattern-train/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "pattern-train",
+      "slug": "pattern-train",
+      "status": 200,
+      "descriptionLength": 143,
+      "descriptionPreview": "Pattern train worksheets for preschool and pre-K: drag picture cards onto each wagon to finish the AB or ABC sequence. Pre-algebra in disguise.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 143
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "c6d02599acc1c4aaa2596cee45eaec28aafbb574"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/pattern-worksheet/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "pattern-worksheet",
+      "slug": "pattern-worksheet",
+      "status": 200,
+      "descriptionLength": 142,
+      "descriptionPreview": "Pattern worksheets for kindergarten and grade 1: fill the blank in ABAB and ABCABC picture sequences. Print for centers or play interactively.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 142
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "263c7058e0d3a6b18d8e387f24ecc4c489779d03"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/bingo/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "bingo",
+      "slug": "bingo",
+      "status": 200,
+      "descriptionLength": 146,
+      "descriptionPreview": "Classroom bingo cards for kindergarten and grade 1: picture, letter, and number variants for whole-class review. Print sets or call rounds online.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 146
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "e7ff130faa09cfd1a92aebd1342ddbbd52db05dc"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/grid-match/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "grid-match",
+      "slug": "grid-match",
+      "status": 200,
+      "descriptionLength": 145,
+      "descriptionPreview": "Grid match puzzles for kindergarten and grade 1: drag each picture piece into the correct grid cell to rebuild the full image. Spatial reasoning.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 145
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b2a7d5bb53e21fe6439058512d68848278dcd404"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/matching/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "matching",
+      "slug": "matching",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Matching worksheets for preschool and pre-K: tap the picture on the left, then tap its pair on the right to draw the connecting line.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "cd35fca092bcda8c42dfde27c9a22f47cb441084"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/picture-sort/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "picture-sort",
+      "slug": "picture-sort",
+      "status": 200,
+      "descriptionLength": 143,
+      "descriptionPreview": "Picture sort worksheets for kindergarten and grade 1: drag each image into the bin where it belongs. Classification by attribute, made visible.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 143
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d81ac5b764c861d7179eb1453eb7732f881edfc4"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/shadow-match/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "shadow-match",
+      "slug": "shadow-match",
+      "status": 200,
+      "descriptionLength": 139,
+      "descriptionPreview": "Shadow match worksheets for preschool and kindergarten: pair each colorful picture with its black silhouette. Trains visual discrimination.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 139
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "599cf6da1da9497ccc29b926437aafd1d16af687"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/alphabet-train/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "alphabet-train",
+      "slug": "alphabet-train",
+      "status": 200,
+      "descriptionLength": 142,
+      "descriptionPreview": "Alphabet train worksheets for preschool and pre-K: drag letter cards onto wagons to put A-Z in order. Available in 11 languages and printable.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 142
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "0e61eb21460b3441081713f5e6789ed37db29b74"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/prepositions/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "prepositions",
+      "slug": "prepositions",
+      "status": 200,
+      "descriptionLength": 150,
+      "descriptionPreview": "Prepositions worksheets for pre-K and kindergarten: choose the picture that shows in, on, under, behind, or next to. Spatial language in 11 languages.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 150
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d8d3151358e6ec63a7c7ada4b80df81198a5923e"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/word-guess/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "word-guess",
+      "slug": "word-guess",
+      "status": 200,
+      "descriptionLength": 151,
+      "descriptionPreview": "Word guess worksheets for kindergarten and grade 1: fill the hangman-style letter blanks using the picture clue. Letter-sound decoding for new readers.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 151
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "c15f54699120ce2543be7305fe512982cd226c56"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/word-scramble/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "word-scramble",
+      "slug": "word-scramble",
+      "status": 200,
+      "descriptionLength": 148,
+      "descriptionPreview": "Word scramble worksheets for kindergarten and grade 1: rearrange the letters to spell what the picture shows. Strengthens phonics and letter recall.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 148
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "9955df1db39f79ab216f72c5e735b31484bfabd1"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/wordsearch/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "wordsearch",
+      "slug": "wordsearch",
+      "status": 200,
+      "descriptionLength": 143,
+      "descriptionPreview": "Word search worksheets for K-3: drag across the letter grid to find each hidden word. Picture clues help emerging readers spot targets quickly.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 143
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d77810327902db0a84c2f3a0f63c7ff7c0c2e4f7"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/crossword/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "crossword",
+      "slug": "crossword",
+      "status": 200,
+      "descriptionLength": 139,
+      "descriptionPreview": "Picture crossword worksheets for K-3: image clues replace text prompts so emerging readers can spell across and down. Play online or print.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 139
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "e36d3a5112bcb93beb546093bede078d71b3ff57"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/find-and-count/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "find-and-count",
+      "slug": "find-and-count",
+      "status": 200,
+      "descriptionLength": 137,
+      "descriptionPreview": "Find-and-count worksheets for kindergarten and grade 1: spot every item in a busy scene, tap to mark, then record the total per category.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 137
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "047161b7174e9011b97b8bc01f9ae7de0b4767eb"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/find-objects/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "find-objects",
+      "slug": "find-objects",
+      "status": 200,
+      "descriptionLength": 130,
+      "descriptionPreview": "I-Spy and find-the-object scenes for ages 4-7: hunt for items hidden among busy details, training visual discrimination and focus.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 130
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "7b9047dfa94c60959fb7b6fc143483c563151967"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/treasure-hunt/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "treasure-hunt",
+      "slug": "treasure-hunt",
+      "status": 200,
+      "descriptionLength": 149,
+      "descriptionPreview": "Treasure hunt worksheets for grade 1 and grade 2: read direction clues like two east, one north to navigate from start to the hidden treasure square.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 149
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "26918ce1f8a0d9c931aa7b00d65b71280abc1e28"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/missing-pieces/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "missing-pieces",
+      "slug": "missing-pieces",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Missing pieces puzzles for preschool and kindergarten: drag each shape into the matching cutout. Part-whole reasoning for early childhood.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "dd285959bf4c1274ad46295ad03de8b521da6735"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/odd-one-out/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "odd-one-out",
+      "slug": "odd-one-out",
+      "status": 200,
+      "descriptionLength": 140,
+      "descriptionPreview": "Odd-one-out worksheets for kindergarten and grade 1: tap the picture that does not belong in each set. Practice classification by attribute.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 140
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "de3772804de488ffacef0a1132b5f247a0ae7017"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/4th-of-july/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "4th_of_july",
+      "slug": "4th-of-july",
+      "status": 200,
+      "descriptionLength": 136,
+      "descriptionPreview": "Free 4th of July worksheets for K-3: count fireworks, match flags, color parade floats. Print for July classroom packets or play online.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 136
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "1a476cf964f784ba586aec30a177c3b0577708d6"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/accessories/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "accessories",
+      "slug": "accessories",
+      "status": 200,
+      "descriptionLength": 130,
+      "descriptionPreview": "Free K-3 accessories picture worksheets: name belts, bags, hats, and scarves across 11 languages. Online play plus printable PDFs.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 130
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "fba8061c3e9f6d3e1e5c9fdd212e93963943f3a8"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/activities/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "activities",
+      "slug": "activities",
+      "status": 200,
+      "descriptionLength": 128,
+      "descriptionPreview": "Hobby and activity worksheets for ages 3-7: spot the swimmer, sort the dancer, tap the painter. Print or play, no signup needed.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 128
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "3471934863793a347112ceaadb999781459e7559"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/animals/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "animals",
+      "slug": "animals",
+      "status": 200,
+      "descriptionLength": 146,
+      "descriptionPreview": "Animals worksheets supporting K-3 vocabulary growth, habitat classification, and living-things reasoning through richly illustrated activity sets.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 146
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "50aad555db4c24e6660f74daf3b3252035985632"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/around-the-house/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "around_the_house",
+      "slug": "around-the-house",
+      "status": 200,
+      "descriptionLength": 130,
+      "descriptionPreview": "Around-the-house picture worksheets for K-3: lamp, sofa, broom, mirror. Free interactive play plus printable PDFs in 11 languages.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 130
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "46bcbe1d61a99bc915423f1beb917e1369a2170f"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/at-the-supermarket/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "at_the_supermarket",
+      "slug": "at-the-supermarket",
+      "status": 200,
+      "descriptionLength": 140,
+      "descriptionPreview": "Supermarket-themed worksheets for ages 4-7: shopping cart, cashier, produce aisle. Great for community-helpers week or pretend-play centers.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 140
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "1db80397d82ccef6a22db2fc5f1539f65662b640"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/bakery/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "bakery",
+      "slug": "bakery",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Bakery picture worksheets for K-3: bread, croissants, cupcakes, ovens. Color visuals for vocabulary games or food-unit anchor charts.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "a1b8e565e4d390721b9c9a9d76b0b0cf02d75c3e"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/beach/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "beach",
+      "slug": "beach",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Beach worksheets for kindergarten and grade 1: count seashells, match buckets, name the umbrella. Free online play or printable PDFs.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "352dea3cc9c3f748ccf87147970cddac9542ad62"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/birds/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "birds",
+      "slug": "birds",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Bird picture worksheets for preschool and kindergarten: robins, owls, parrots, ducks. Online play plus printable PDFs across 11 languages.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "4271543eb4cab11f4d6824c8bb1259f626434c10"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/birds-2/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "birds_2",
+      "slug": "birds-2",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Additional bird illustrations across counting, sorting, and matching worksheets — extend any K-3 bird unit with this extra color set.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "c9032766704812206f47f0696abe3053750b61be"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/body-parts/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "body_parts",
+      "slug": "body-parts",
+      "status": 200,
+      "descriptionLength": 130,
+      "descriptionPreview": "Body parts worksheets for ages 3-6: head, shoulders, knees, toes. Label, match, and color across 11 languages. No signup required.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 130
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d46e76b3c94ee5701d6e390f9ca36c711df4aee0"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/breakfast/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "breakfast",
+      "slug": "breakfast",
+      "status": 200,
+      "descriptionLength": 136,
+      "descriptionPreview": "Breakfast picture worksheets for K-3: pancakes, cereal, eggs, toast. Color visuals for food-vocabulary games or morning-meeting prompts.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 136
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "195101507033ab67b941c87e5a31630e4b5a3fe9"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/camping/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "camping",
+      "slug": "camping",
+      "status": 200,
+      "descriptionLength": 135,
+      "descriptionPreview": "Camping worksheets for kindergarten and grade 1: tents, lanterns, marshmallows, sleeping bags. Free interactive play or printable PDFs.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 135
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "dddaf52a4ff23b66422d115c4dd40e24f9b4af08"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/christmas/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "christmas",
+      "slug": "christmas",
+      "status": 200,
+      "descriptionLength": 144,
+      "descriptionPreview": "Christmas worksheets for K-3: count ornaments, sort presents, match stockings. Color-rich activities for December stations and homework folders.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 144
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "0257143ec22e9ce2656d183442a6ade79fcae278"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/classroom/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "classroom",
+      "slug": "classroom",
+      "status": 200,
+      "descriptionLength": 140,
+      "descriptionPreview": "Classroom picture worksheets for K-3: desks, books, crayons, glue sticks. Use on back-to-school nights or in first-week orientation packets.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 140
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d9ec9c1b54b826f0ded65691d7c9f628afcadb6f"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/clothing/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "clothing",
+      "slug": "clothing",
+      "status": 200,
+      "descriptionLength": 129,
+      "descriptionPreview": "Clothing worksheets for ages 3-6: shirt, dress, hat, socks. Match, name, and sort across 11 languages with free interactive play.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 129
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "1f81da5e411afd58e77beee36812e7767555913e"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/colors/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "colors",
+      "slug": "colors",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Color-recognition worksheets for preschool and kindergarten: sort red, blue, green, and yellow with interactive online play or printables.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "e763bd9fffca502b4607705d0a3a9a037cac601e"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/desserts-and-sweets/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "desserts_and_sweets",
+      "slug": "desserts-and-sweets",
+      "status": 200,
+      "descriptionLength": 136,
+      "descriptionPreview": "Desserts and sweets worksheets for K-3: cupcakes, lollipops, candy bars in color. Great for celebration days and treat-vocabulary games.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 136
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "7e04faf0076bc01059a4671af51d192d4fea9078"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/dinosaurs/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "dinosaurs",
+      "slug": "dinosaurs",
+      "status": 200,
+      "descriptionLength": 143,
+      "descriptionPreview": "Dinosaur worksheets for kindergarten and grade 1: T-rex, brachiosaurus, triceratops. Spot, count, and name in 11 languages, free online or PDF.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 143
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "adcfd990e87033db4309e26dd0118b679eec4004"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/easter/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "easter",
+      "slug": "easter",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Easter worksheets for K-3: count eggs, match bunnies, sort baskets. Spring color visuals for April stations and seasonal homework folders.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "bc0ec84e6d555a66ae66d80bb694d1b958e05707"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/emotions/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "emotions",
+      "slug": "emotions",
+      "status": 200,
+      "descriptionLength": 132,
+      "descriptionPreview": "Emotions worksheets for preschool through grade 2: happy, sad, angry, surprised. Use at morning meeting or in SEL check-in routines.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 132
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "ee04affc1abdb7db7b38c940447f901105168270"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/farm-animals/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "farm_animals",
+      "slug": "farm-animals",
+      "status": 200,
+      "descriptionLength": 137,
+      "descriptionPreview": "Farm animal worksheets for ages 3-7: cow, pig, sheep, chicken. Color visuals for barnyard units, with interactive play or printable PDFs.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 137
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "bc0ce6710ccf34ee7282064001ea92254d100195"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/flowers/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "flowers",
+      "slug": "flowers",
+      "status": 200,
+      "descriptionLength": 124,
+      "descriptionPreview": "Flower picture worksheets for K-3: rose, tulip, daisy, sunflower. Color visuals for spring units and plant-vocabulary games.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 124
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "0e1aeaa64db2fcb75c5e8ce3e44cb664d3276832"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/forest-creatures/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "forest_creatures",
+      "slug": "forest-creatures",
+      "status": 200,
+      "descriptionLength": 135,
+      "descriptionPreview": "Forest creature worksheets for ages 3-7: deer, foxes, squirrels, raccoons. Color visuals for woodland units or fall-themed circle time.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 135
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "e99edcddaa7335ab893bdee672f3b5a85008e5fb"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/fruits/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "fruits",
+      "slug": "fruits",
+      "status": 200,
+      "descriptionLength": 131,
+      "descriptionPreview": "Fruit picture worksheets for K-3: apple, banana, orange, grapes. Match, count, and name in 11 languages with free interactive play.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 131
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "92d883d062f4208cc1615ea736f00f546a484be7"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/furniture/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "furniture",
+      "slug": "furniture",
+      "status": 200,
+      "descriptionLength": 129,
+      "descriptionPreview": "Furniture worksheets for kindergarten and grade 1: bed, chair, table, lamp. Free online play plus printable PDFs in 11 languages.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 129
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "aaa850f9cfaa245cf46e8274ad6b132fc6115fdd"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/hospital/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "hospital",
+      "slug": "hospital",
+      "status": 200,
+      "descriptionLength": 128,
+      "descriptionPreview": "Hospital picture worksheets for K-3: doctor, nurse, stethoscope, ambulance. Use for community-helpers week or doctor-visit prep.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 128
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "1ded801f7fc0fe4f1b1e9aaed7ae0e9f9918fe77"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/insects-and-bugs/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "insects_and_bugs",
+      "slug": "insects-and-bugs",
+      "status": 200,
+      "descriptionLength": 126,
+      "descriptionPreview": "Insect and bug worksheets for kindergarten and grade 1: ants, bees, butterflies, ladybugs. Free online play or printable PDFs.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 126
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "1f697779bf8f01be2a9c51431c3ca096fea980a9"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/kitchen-tools/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "kitchen_tools",
+      "slug": "kitchen-tools",
+      "status": 200,
+      "descriptionLength": 126,
+      "descriptionPreview": "Kitchen tools picture worksheets for K-3: whisk, spatula, ladle, rolling pin. Color visuals for cooking units in 11 languages.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 126
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "1321981e0c19164eb8cbb97dc2622a6a1261b47a"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/miscellaneous/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "miscellaneous",
+      "slug": "miscellaneous",
+      "status": 200,
+      "descriptionLength": 137,
+      "descriptionPreview": "Mixed everyday-object worksheets for K-3: keys, clocks, umbrellas, lamps. Free interactive play or printables for vocabulary review days.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 137
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "12cbd29750fe9eb09445cef305a98911577655d5"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/music/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "music",
+      "slug": "music",
+      "status": 200,
+      "descriptionLength": 125,
+      "descriptionPreview": "Music worksheets for ages 3-7: drum, piano, guitar, trumpet. Match instruments, name sounds, and play online in 11 languages.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 125
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "3231d379734a98efdeb030c798b753578078906b"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/occupations/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "occupations",
+      "slug": "occupations",
+      "status": 200,
+      "descriptionLength": 136,
+      "descriptionPreview": "Occupations worksheets for K-3: firefighter, baker, mail carrier, teacher. Color visuals for community-helpers week and career-day prep.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 136
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "cc57f307e970da7c090e1ce05a61106dc91d6142"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/ocean-life/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "ocean_life",
+      "slug": "ocean-life",
+      "status": 200,
+      "descriptionLength": 132,
+      "descriptionPreview": "Ocean life worksheets for ages 3-7: dolphins, octopus, jellyfish, sharks. Free interactive play plus printable PDFs in 11 languages.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 132
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "f23618da64dd2fe31060e4874c5417e8f86d725c"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/pets/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "pets",
+      "slug": "pets",
+      "status": 200,
+      "descriptionLength": 125,
+      "descriptionPreview": "Pet picture worksheets for kindergarten and grade 1: dog, cat, hamster, goldfish. Match, count, and name across 11 languages.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 125
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "c9c1ab4987838a8d00e6cfaf5500babc55b27312"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/post-office/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "post_office",
+      "slug": "post-office",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Post office worksheets for K-3: letters, stamps, mail carriers, packages. Use for community-helpers week or mailbox literacy centers.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "56dad88cd152d35e83b139f8d044e7fece1a58f9"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/reptiles-and-amphibians/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "reptiles_and_amphibians",
+      "slug": "reptiles-and-amphibians",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Reptile and amphibian worksheets for K-3: snakes, lizards, frogs, turtles. Color visuals for life-cycle units or pond-and-desert habitats.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "a194a9f558265bfa887224e68d874e45842cf48c"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/shapes/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "shapes",
+      "slug": "shapes",
+      "status": 200,
+      "descriptionLength": 131,
+      "descriptionPreview": "Shape worksheets for preschool through grade 1: circle, square, triangle, rectangle. Tap, match, and trace online or print at home.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 131
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "9257a2be00d392f0f43f0071dfe6fd936ac35c41"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/space/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "space",
+      "slug": "space",
+      "status": 200,
+      "descriptionLength": 125,
+      "descriptionPreview": "Space worksheets for K-3: planets, rockets, astronauts, stars. Free color visuals for solar-system units across 11 languages.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 125
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "6d53f96898e9ba49bd45f3e15638cf34da60d654"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/spring/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "spring",
+      "slug": "spring",
+      "status": 200,
+      "descriptionLength": 130,
+      "descriptionPreview": "Spring worksheets for K-3: tulips, ladybugs, rain boots, baby chicks. Seasonal color visuals for March and April morning meetings.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 130
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "9d77e42171a1b3899b5eb22b5d114cd44da47ec1"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/summer/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "summer",
+      "slug": "summer",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Summer worksheets for K-3: ice cream, sandals, pools, sunshine. Color visuals for end-of-year packets and June-July homework folders.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "2a3560f1f84d1f5fe3d66afcb47d795b4480eb47"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/thanksgiving/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "thanksgivinng",
+      "slug": "thanksgiving",
+      "status": 200,
+      "descriptionLength": 135,
+      "descriptionPreview": "Thanksgiving worksheets for K-3: turkeys, pumpkins, pies, cornucopia. Free color visuals for November stations and gratitude-week prep.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 135
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "0acde4f94f70f2d2629918df11e4b3268834c11b"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/things-that-fly/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "things_that_fly",
+      "slug": "things-that-fly",
+      "status": 200,
+      "descriptionLength": 128,
+      "descriptionPreview": "Things-that-fly worksheets for K-3: airplanes, helicopters, kites, birds. Sort and name across 11 languages, free online or PDF.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 128
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "c2b166e1ee5d6399c7b7b63c4e01cf5fb2b30e53"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/tools/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "tools",
+      "slug": "tools",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Tool picture worksheets for K-3: hammer, saw, wrench, screwdriver. Color visuals for construction units and builder-vocabulary games.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "8f0f07f0b5a049591408f190f297086b50852ec1"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/toys/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "toys",
+      "slug": "toys",
+      "status": 200,
+      "descriptionLength": 134,
+      "descriptionPreview": "Toy picture worksheets for ages 3-7: blocks, dolls, balls, puzzles. Spot, count, and match in 11 languages with free interactive play.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 134
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "bc392a102a784185d5a1aabd3608cfe1d70a7308"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/trees/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "tree",
+      "slug": "trees",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Tree worksheets for ages 3-7: oak, pine, palm, apple tree. Color visuals for plant units, earth week, or outdoor-classroom field journals.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "a194499246267f6a4f2c6a883db0d20c5a003e4e"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/vegetables/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "vegetables",
+      "slug": "vegetables",
+      "status": 200,
+      "descriptionLength": 126,
+      "descriptionPreview": "Vegetable worksheets for K-3: carrots, broccoli, peppers, corn. Match, name, and sort across 11 languages, free online or PDF.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 126
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d5cd24f774b0e6c7ebb0edbf15cff9438abe1b16"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/vehicles/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "vehicles",
+      "slug": "vehicles",
+      "status": 200,
+      "descriptionLength": 124,
+      "descriptionPreview": "Vehicle worksheets for kindergarten and grade 1: cars, trucks, buses, motorbikes. Free interactive play plus printable PDFs.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 124
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "cf4ee0d2239525d817b8bc8477b8504f609c9d7f"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/weather/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "weather",
+      "slug": "weather",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Weather worksheets for K-3: sunny, rainy, snowy, windy. Color visuals for daily calendar routines and weather-chart morning meetings.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "a8a7a50009cf818976a413fe608f1c043e59f549"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/winter/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "winter",
+      "slug": "winter",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Winter worksheets for K-3: snowflakes, mittens, hot cocoa, snowmen. Seasonal color visuals for January and February homework folders.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "a484777b3c2d2147dc87584e694e7f9dfede4520"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/zoo-animals/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "zoo_animals",
+      "slug": "zoo-animals",
+      "status": 200,
+      "descriptionLength": 137,
+      "descriptionPreview": "Zoo animal worksheets for ages 3-7: giraffes, zebras, monkeys, tigers. Color visuals for zoo field trips or wild-animal vocabulary games.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 137
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d3b0d28f861325d92fa0a3c6a8147fedfdc55597"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/animals-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "animals_bw",
+      "slug": "animals-bw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/animals-bw-2/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "animals_bw_2",
+      "slug": "animals-bw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/animals-bw-3/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "animals_bw_3",
+      "slug": "animals-bw-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/animals-bw-4/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "animals_bw_4",
+      "slug": "animals-bw-4",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/animals-bw-5/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "animals_bw_5",
+      "slug": "animals-bw-5",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/apparel-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "apparel_bw",
+      "slug": "apparel-bw",
+      "status": 200,
+      "descriptionLength": 147,
+      "descriptionPreview": "Apparel coloring sheets for ages 3-7: shirts, pants, shoes, and jackets in clean line-art. Print for getting-dressed units or color-as-you-go work.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 147
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "8c8ff09fc2260b81b1274b97f1622c54f3ccbdf8"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/beach-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "beach_bw",
+      "slug": "beach-bw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/beach-bw-2/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "beach_bw_2",
+      "slug": "beach-bw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/birds-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "birds_bw",
+      "slug": "birds-bw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/birds-bw-2/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "birds_bw_2",
+      "slug": "birds-bw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/christmas-b-w/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "christmas_bw",
+      "slug": "christmas-b-w",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/christmas-b-w-2/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "christmas_bw_2",
+      "slug": "christmas-b-w-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/classroom-b-w/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "classroom_bw",
+      "slug": "classroom-b-w",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/classroom-2-b-w/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "classroom_bw_2",
+      "slug": "classroom-2-b-w",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/dessert-b-w/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "dessert_bw",
+      "slug": "dessert-b-w",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/easter-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "easter_bw",
+      "slug": "easter-bw",
+      "status": 200,
+      "descriptionLength": 132,
+      "descriptionPreview": "Easter coloring sheets for ages 3-7: bunnies, eggs, chicks, baskets in line-art. Ink-saving printable sets for spring break packets.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 132
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "680acb37e1f12d513ab2395258ef3e4cf9546639"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/easter-bw-2/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "easter_bw_2",
+      "slug": "easter-bw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/education-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "education_bw",
+      "slug": "education-bw",
+      "status": 200,
+      "descriptionLength": 141,
+      "descriptionPreview": "Education-themed coloring sheets in line-art: notebooks, chalkboards, globes, abacuses. Print for first-week orientations or scavenger hunts.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 141
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b49ec196065edc98ac4b9ebf0fa8ba79ebe679ed"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/faces-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "faces_bw",
+      "slug": "faces-bw",
+      "status": 200,
+      "descriptionLength": 132,
+      "descriptionPreview": "Faces coloring sheets in line-art for K-3: expressions and features for self-portrait projects or feelings-vocabulary literacy work.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 132
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "da17f2a38c03815ad7c4bf5f94484654eebf4faa"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/farm-animals-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "farm_animals_bw",
+      "slug": "farm-animals-bw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/farm-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "farm_bw",
+      "slug": "farm-bw",
+      "status": 200,
+      "descriptionLength": 137,
+      "descriptionPreview": "Farm scene coloring sheets for ages 3-7: barn, tractor, silo, fence line-art. Use for whole-scene labeling or rural-life vocabulary work.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 137
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "dcc1ac0cc35fb48f2b3c0b590b64daeb80a97eda"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/food-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "food_bw",
+      "slug": "food-bw",
+      "status": 200,
+      "descriptionLength": 142,
+      "descriptionPreview": "Food coloring sheets in line-art for K-3: fruits, snacks, meals to color and label. Print for healthy-eating centers or lunch-vocabulary work.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 142
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "2eaaccf558cc1fdb3a7e4a37e48282e2889ad3a3"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/food-bw-2/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "food_bw_2",
+      "slug": "food-bw-2",
+      "status": 200,
+      "descriptionLength": 135,
+      "descriptionPreview": "Additional food coloring pack for kindergarten and grade 1: more line-art meals and snacks so your food unit stays fresh past week one.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 135
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "2256e93f41a6e4e7aaeeb776191ed56a0814f9af"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/food-bw-3/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "food_bw_3",
+      "slug": "food-bw-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/fruits-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "fruits_bw",
+      "slug": "fruits-bw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/furniture-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "furniture_bw",
+      "slug": "furniture-bw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/home-and-nature-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "home_and_nature_bw",
+      "slug": "home-and-nature-bw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/home-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "home_bw",
+      "slug": "home-bw",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Home interior coloring sheets for ages 3-7: kitchen, bathroom, bedroom, living room scenes in line-art. Print for room-vocabulary centers.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "3eadf2842c760e84f4fd1702c397a7bba5543431"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/home-bw-2/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "home_bw_2",
+      "slug": "home-bw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/household-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "household_bw",
+      "slug": "household-bw",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Household items coloring sheets in line-art: vacuum, iron, microwave, blender. Print for appliance-vocabulary work or chore-chart centers.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "35afa9b922e61ec15f4768af2f62fc00aa1ac6ee"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/kitchen-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "kitchen_bw",
+      "slug": "kitchen-bw",
+      "status": 200,
+      "descriptionLength": 139,
+      "descriptionPreview": "Kitchen scene coloring sheets for K-3: stove, sink, pots, dishes in line-art. Print for cooking-vocabulary centers or chef-week activities.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 139
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "238255d43f781c26148f60856d9e1d9b87c081cb"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/nature-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "nature_bw",
+      "slug": "nature-bw",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Nature coloring sheets in line-art for K-3: trees, leaves, rocks, clouds. Print for outdoor-classroom journals or earth-week packets.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "6425c16f8ae79082de12b9d48b05017c3e35fe75"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/objects-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "objects_bw",
+      "slug": "objects-bw",
+      "status": 200,
+      "descriptionLength": 137,
+      "descriptionPreview": "Everyday object coloring sheets for ages 3-7: scissors, cup, book, ball in line-art. Print for noun-vocabulary centers or word-wall work.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 137
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "140a01d61440d692740f653a66353aeed18cac6d"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/sea-life-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "sea_life_bw",
+      "slug": "sea-life-bw",
+      "status": 200,
+      "descriptionLength": 132,
+      "descriptionPreview": "Sea life coloring sheets in line-art for K-3: whales, crabs, seahorses, starfish. Print for ocean units or aquarium-trip follow-ups.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 132
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d64e2c9596e6c54e70f20f7ad00444f285c58fcb"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/sea-life-bw-2/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "sea_life_bw_2",
+      "slug": "sea-life-bw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/space-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "space_bw",
+      "slug": "space-bw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/sports-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "sports_bw",
+      "slug": "sports-bw",
+      "status": 200,
+      "descriptionLength": 134,
+      "descriptionPreview": "Sports coloring sheets in line-art for K-3: soccer, basketball, baseball, tennis. Print for PE-week centers or recess-vocabulary work.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 134
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "518829d7f7aa9f2f6ca9ceaa325955b06f2aa3a3"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/sports-bw-2/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "sports_bw_2",
+      "slug": "sports-bw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/tools-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "tools_bw",
+      "slug": "tools-bw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/toys-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "toys_bw",
+      "slug": "toys-bw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/toys-bw-2/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "toys_bw_2",
+      "slug": "toys-bw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/travel-and-holiday-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "travel_and_holiday_bw",
+      "slug": "travel-and-holiday-bw",
+      "status": 200,
+      "descriptionLength": 132,
+      "descriptionPreview": "Travel and holiday coloring sheets in line-art for K-3: suitcases, maps, beach gear, festive icons for vacation-vocabulary stations.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 132
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "1cf7145040433dc6f3d07a41786b5daf349643cc"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/valentine-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "valentine_bw",
+      "slug": "valentine-bw",
+      "status": 200,
+      "descriptionLength": 140,
+      "descriptionPreview": "Valentine&#x27;s Day coloring sheets in line-art for K-3: hearts, cards, roses to color. Print for February centers and class-party packets.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 140
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "db3c15c53cfbe1a5304dc6ff36538f8b60a61a49"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/valentine-bw-2/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "valentine_bw_2",
+      "slug": "valentine-bw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/vegetables-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "vegetables_bw",
+      "slug": "vegetables-bw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/vegetables-bw-2/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "vegetables_bw_2",
+      "slug": "vegetables-bw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/vehicles-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "vehicles_bw",
+      "slug": "vehicles-bw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/vehicles-bw-2/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "vehicles_bw_2",
+      "slug": "vehicles-bw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/vehicles-bw-3/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "vehicles_bw_3",
+      "slug": "vehicles-bw-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/zoo-animals-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "zoo_animals_bw",
+      "slug": "zoo-animals-bw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/preschool/",
+      "locale": "en",
+      "axis": "educational-level",
+      "axisKey": "preschool",
+      "slug": "preschool",
+      "status": 200,
+      "descriptionLength": 152,
+      "descriptionPreview": "Preschool worksheets meet children at the developmental moment when pencil grip is becoming reliable and the brain is ready for purposeful pre-academic…",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 152
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "7b6928b732e84baafad109e0553a6732bb69ebc3"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/kindergarten/",
+      "locale": "en",
+      "axis": "educational-level",
+      "axisKey": "kindergarten",
+      "slug": "kindergarten",
+      "status": 200,
+      "descriptionLength": 106,
+      "descriptionPreview": "Kindergarten worksheets are tuned to the year when pre-academic curiosity hardens into academic readiness.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 106,
+          "value": "Kindergarten worksheets are tuned to the year when pre-academic curiosity hardens into academic readiness."
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "bab23b3a2200fc1441a1f99d51536f4596ee35d9"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/grade-1/",
+      "locale": "en",
+      "axis": "educational-level",
+      "axisKey": "grade-1",
+      "slug": "grade-1",
+      "status": 200,
+      "descriptionLength": 131,
+      "descriptionPreview": "Grade-1 worksheets meet the moment when children consolidate the foundations laid in kindergarten into fluent independent practice.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 131
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "077704e9dcda07e903aff429334159f6b1ec5e25"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/grade-2/",
+      "locale": "en",
+      "axis": "educational-level",
+      "axisKey": "grade-2",
+      "slug": "grade-2",
+      "status": 200,
+      "descriptionLength": 131,
+      "descriptionPreview": "Grade-2 worksheets meet children who are now reading independently, writing in sentences, and ready for multi-step problem-solving.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 131
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "148a0b1f4998981b100eb486f436cc49bf40b74f"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/grade-3/",
+      "locale": "en",
+      "axis": "educational-level",
+      "axisKey": "grade-3",
+      "slug": "grade-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    }
+  ]
+}

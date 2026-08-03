@@ -1,0 +1,110 @@
+=== §4.B genericness + structural lints ===
+  -> all 2735 pages pass lint (≥200 words, no banned phrases, theme-noun in P1)
+
+=== §4.C similarity — per-(type,mode) WITHIN-CLASS clusters (whole-page RAW) ===
+  addition/find-addend (n=41): max 0.634 mean 0.287 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.110 | maxPair yhteenlasku-etsi-yhteenlaskettava-maatilan-elaimet-6abf ~ yhteenlasku-etsi-yhteenlaskettava-elaintarhan-elaimet-fd79
+  addition/image-image (n=41): max 0.668 mean 0.294 #FAIL>=0.80=0 #WARN>=0.65=1 | P1-raw mean 0.119 | maxPair yhteenlasku-kuva-kuva-maatilan-elaimet-b4d0 ~ yhteenlasku-kuva-kuva-elaintarhan-elaimet-f322
+  addition/image-number (n=41): max 0.638 mean 0.295 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.119 | maxPair yhteenlasku-kuva-numero-maatilan-elaimet-5c6a ~ yhteenlasku-kuva-numero-elaintarhan-elaimet-a0a0
+  addition/mixed (n=39): max 0.644 mean 0.298 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.111 | maxPair yhteenlasku-sekoitettu-maatilan-elaimet-1327 ~ yhteenlasku-sekoitettu-elaintarhan-elaimet-b72f
+  alphabet-train/letter-hint (n=33): max 0.640 mean 0.307 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.159 | maxPair aakkosjuna-kirjainvihje-keittiovalineet-e135 ~ aakkosjuna-kirjainvihje-puut-7f83
+  alphabet-train/null (n=29): max 0.646 mean 0.251 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.145 | maxPair aakkosjuna-asusteet-3ec9 ~ aakkosjuna-kesa-7b57
+  big-small/findBig (n=36): max 0.583 mean 0.240 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.139 | maxPair iso-pieni-etsi-iso-jalkiruoat-ja-makeiset-d88d ~ iso-pieni-etsi-iso-sairaala-726b
+  big-small/orderAsc (n=41): max 0.582 mean 0.245 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.141 | maxPair iso-pieni-nouseva-jarjestys-elaimet-c5ff ~ iso-pieni-nouseva-jarjestys-maatilan-elaimet-0ed7
+  bingo/null (n=40): max 0.596 mean 0.219 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.132 | maxPair bingo-elaimet ~ bingo-maatilan-elaimet-0c70
+  chart-count/null (n=40): max 0.532 mean 0.084 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.088 | maxPair laske-kaaviossa-aamiainen-2ff7 ~ laske-kaaviossa-avaruus-5576
+  code-addition/null (n=49): max 0.665 mean 0.296 #FAIL>=0.80=0 #WARN>=0.65=3 | P1-raw mean 0.132 | maxPair koodattu-yhteenlasku-kukat-7719 ~ koodattu-yhteenlasku-kevat-e6df
+  code-addition/secret-word (n=47): max 0.679 mean 0.315 #FAIL>=0.80=0 #WARN>=0.65=8 | P1-raw mean 0.153 | maxPair koodattu-yhteenlasku-salasana-metsan-elaimet-1fa6 ~ koodattu-yhteenlasku-salasana-elaintarhan-elaimet-df6b
+  crossword/null (n=43): max 0.701 mean 0.266 #FAIL>=0.80=0 #WARN>=0.65=6 | P1-raw mean 0.173 | maxPair ristikko-aamiainen-e546 ~ ristikko-talvi-6d49
+  crossword/null/t:en (n=46): max 0.505 mean 0.237 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.105 | maxPair englanti-ristikko-aamiainen-ab1b ~ englanti-ristikko-keittiovalineet-0f06
+  find-and-count/hidden-object (n=46): max 0.671 mean 0.244 #FAIL>=0.80=0 #WARN>=0.65=2 | P1-raw mean 0.124 | maxPair etsi-ja-laske-piilotetut-esineet-luokkahuone-03d9 ~ etsi-ja-laske-piilotetut-esineet-talvi-94fb
+  find-and-count/letter-spotting (n=45): max 0.688 mean 0.284 #FAIL>=0.80=0 #WARN>=0.65=1 | P1-raw mean 0.164 | maxPair etsi-ja-laske-etsi-kirjaimia-elaimet ~ etsi-ja-laske-etsi-kirjaimia-maatilan-elaimet-eb86
+  find-objects/find-odd (n=47): max 0.580 mean 0.236 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.151 | maxPair etsi-esineet-etsi-erilainen-aktiviteetit-0dd6 ~ etsi-esineet-etsi-erilainen-paasiainen-f220
+  find-objects/i-spy (n=46): max 0.580 mean 0.227 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.135 | maxPair etsi-esineet-naen-naen-elaimet-6bda ~ etsi-esineet-naen-naen-maatilan-elaimet-0884
+  grid-match/null (n=46): max 0.686 mean 0.238 #FAIL>=0.80=0 #WARN>=0.65=5 | P1-raw mean 0.139 | maxPair ruudukkoyhdistys-ruumiinosat-f8d5 ~ ruudukkoyhdistys-vihannekset-c1d2
+  matching/letter (n=41): max 0.569 mean 0.224 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.114 | maxPair yhdistaminen-kirjain-linnut-2-5a23 ~ yhdistaminen-kirjain-talvi-3a36
+  matching/name (n=45): max 0.592 mean 0.234 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.119 | maxPair yhdistaminen-nimet-metsan-elaimet-4da8 ~ yhdistaminen-nimet-elaintarhan-elaimet-97ed
+  matching/name/t:en (n=47): max 0.578 mean 0.249 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.114 | maxPair englanti-yhdistaminen-nimet-kodin-ymparilla-a86d ~ englanti-yhdistaminen-nimet-saa-5171
+  math-puzzle/addition (n=40): max 0.716 mean 0.306 #FAIL>=0.80=0 #WARN>=0.65=75 | P1-raw mean 0.118 | maxPair matematiikkapulma-yhteenlasku-hedelmat-48bd ~ matematiikkapulma-yhteenlasku-lemmikit-2f35
+  math-puzzle/mixed (n=40): max 0.684 mean 0.304 #FAIL>=0.80=0 #WARN>=0.65=53 | P1-raw mean 0.122 | maxPair matematiikkapulma-sekoitettu-aamiainen-2f60 ~ matematiikkapulma-sekoitettu-musiikki-3e03
+  math-puzzle/subtraction (n=40): max 0.694 mean 0.313 #FAIL>=0.80=0 #WARN>=0.65=55 | P1-raw mean 0.130 | maxPair matematiikkapulma-vahennyslasku-hedelmat-3aba ~ matematiikkapulma-vahennyslasku-lemmikit-8794
+  math-worksheet/three-symbols-add-sub (n=47): max 0.599 mean 0.268 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.111 | maxPair matematiikkatehtava-3-symbolia-yht-vahen-hedelmat-928f ~ matematiikkatehtava-3-symbolia-yht-vahen-lentavat-asiat-bffc
+  math-worksheet/two-symbols-add-sub (n=48): max 0.608 mean 0.265 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.110 | maxPair matematiikkatehtava-2-symbolia-yht-vahen-asusteet-e48d ~ matematiikkatehtava-2-symbolia-yht-vahen-huonekalut-5205
+  missing-pieces/one-missing (n=46): max 0.614 mean 0.222 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.134 | maxPair puuttuvat-palat-1-puuttuva-pala-metsan-elaimet-7009 ~ puuttuvat-palat-1-puuttuva-pala-elaintarhan-elaimet-f46d
+  missing-pieces/two-missing (n=43): max 0.636 mean 0.244 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.146 | maxPair puuttuvat-palat-2-puuttuvaa-palaa-leirielama-a45f ~ puuttuvat-palat-2-puuttuvaa-palaa-elaintarhan-elaimet-38aa
+  more-less/check-cross (n=39): max 0.631 mean 0.313 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.164 | maxPair enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-leipomo-d429 ~ enemman-vahemman-merkitse-ja-yliviivaa-ryhmat-vihannekset-3263
+  more-less/image-image (n=40): max 0.670 mean 0.285 #FAIL>=0.80=0 #WARN>=0.65=4 | P1-raw mean 0.150 | maxPair enemman-vahemman-kuva-kuva-asusteet-a67f ~ enemman-vahemman-kuva-kuva-musiikki-4157
+  more-less/image-number (n=39): max 0.618 mean 0.313 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.149 | maxPair enemman-vahemman-kuva-numero-linnut-2-a333 ~ enemman-vahemman-kuva-numero-musiikki-4041
+  odd-one-out/same-theme (n=48): max 0.636 mean 0.235 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.123 | maxPair mika-ei-kuulu-sama-aihe-hedelmat-23a1 ~ mika-ei-kuulu-sama-aihe-lentavat-asiat-60ac
+  pattern-train/aab (n=48): max 0.667 mean 0.270 #FAIL>=0.80=0 #WARN>=0.65=3 | P1-raw mean 0.147 | maxPair kuviojuna-aab-leipomo-4b00 ~ kuviojuna-aab-kukat-9d76
+  pattern-train/aabb (n=48): max 0.651 mean 0.277 #FAIL>=0.80=0 #WARN>=0.65=1 | P1-raw mean 0.155 | maxPair kuviojuna-aabb-kevat-cca0 ~ kuviojuna-aabb-ajoneuvot-cd9e
+  pattern-train/abb (n=48): max 0.651 mean 0.265 #FAIL>=0.80=0 #WARN>=0.65=1 | P1-raw mean 0.148 | maxPair kuviojuna-abb-linnut-2-40bb ~ kuviojuna-abb-tyokalut-7fa8
+  pattern-train/abc (n=48): max 0.654 mean 0.274 #FAIL>=0.80=0 #WARN>=0.65=1 | P1-raw mean 0.160 | maxPair kuviojuna-abc-kevat-6bed ~ kuviojuna-abc-ajoneuvot-9f62
+  pattern-train/null (n=48): max 0.648 mean 0.265 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.141 | maxPair kuviojuna-linnut-2-3889 ~ kuviojuna-huonekalut-60f8
+  pattern-worksheet/null (n=47): max 0.696 mean 0.247 #FAIL>=0.80=0 #WARN>=0.65=5 | P1-raw mean 0.144 | maxPair kuviotehtava-aamiainen-7e05 ~ kuviotehtava-puut-9f70
+  picture-path/choose-path (n=48): max 0.601 mean 0.224 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.127 | maxPair kuvapolku-valitse-oikea-polku-metsan-elaimet-8629 ~ kuvapolku-valitse-oikea-polku-merielama-560c
+  picture-path/classic-maze (n=37): max 0.622 mean 0.252 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.132 | maxPair kuvapolku-perinteinen-sokkelo-sairaala-94d5 ~ kuvapolku-perinteinen-sokkelo-talvi-dcac
+  picture-sort/null (n=125): max 0.642 mean 0.291 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.134 | maxPair lajittele-kuvat-at-the-supermarket-vs-dinosaurs-843e ~ lajittele-kuvat-vegetables-vs-dinosaurs-e4dc
+  prepositions/fillin (n=49): max 0.598 mean 0.240 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.114 | maxPair prepositiot-tayta-asusteet-13b0 ~ prepositiot-tayta-elaintarhan-elaimet-4c89
+  prepositions/multiplechoice (n=46): max 0.581 mean 0.251 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.124 | maxPair prepositiot-monivalinta-linnut-2-6b06 ~ prepositiot-monivalinta-matelijat-ja-sammakkoelaimet-5ffd
+  shadow-match/find-shadow (n=44): max 0.626 mean 0.227 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.138 | maxPair yhdista-varjot-yhdista-varjo-aamiainen-07c5 ~ yhdista-varjot-yhdista-varjo-saa-7adc
+  shadow-match/make-whole (n=47): max 0.602 mean 0.223 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.134 | maxPair yhdista-varjot-tee-kokonaiseksi-aktiviteetit-9faf ~ yhdista-varjot-tee-kokonaiseksi-puut-b809
+  subtraction/cross-out (n=41): max 0.654 mean 0.257 #FAIL>=0.80=0 #WARN>=0.65=1 | P1-raw mean 0.110 | maxPair vahennyslasku-yliviivaa-maatilan-elaimet-6f2a ~ vahennyslasku-yliviivaa-elaintarhan-elaimet-68f3
+  subtraction/find-subtrahend (n=40): max 0.646 mean 0.293 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.139 | maxPair vahennyslasku-etsi-vahentaja-asusteet-b05d ~ vahennyslasku-etsi-vahentaja-maatilan-elaimet-59ad
+  subtraction/image-number (n=40): max 0.642 mean 0.303 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.154 | maxPair vahennyslasku-kuva-numero-maatilan-elaimet-9459 ~ vahennyslasku-kuva-numero-avaruus-71bf
+  subtraction/mixed (n=40): max 0.639 mean 0.295 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.156 | maxPair vahennyslasku-sekoitettu-kukat-aa79 ~ vahennyslasku-sekoitettu-lentavat-asiat-b34e
+  sudoku/easy (n=48): max 0.639 mean 0.236 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.122 | maxPair kuvasudoku-helppo-linnut-2-0345 ~ kuvasudoku-helppo-huonekalut-83de
+  sudoku/medium (n=48): max 0.630 mean 0.248 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.118 | maxPair kuvasudoku-keskitaso-tunteet-3cbe ~ kuvasudoku-keskitaso-avaruus-2b23
+  treasure-hunt/cardinal-arrows (n=47): max 0.641 mean 0.245 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.135 | maxPair aarteenetsinta-ylos-alas-vasen-oikea-ruokakaupassa-b24e ~ aarteenetsinta-ylos-alas-vasen-oikea-saa-9018
+  treasure-hunt/compass (n=47): max 0.615 mean 0.240 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.131 | maxPair aarteenetsinta-ilmansuunnat-kukat-c095 ~ aarteenetsinta-ilmansuunnat-kesa-ddb3
+  word-guess/easy (n=47): max 0.568 mean 0.296 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.137 | maxPair arvaa-sana-helppo-asusteet-3c66 ~ arvaa-sana-helppo-sairaala-6b27
+  word-guess/normal (n=46): max 0.554 mean 0.293 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.135 | maxPair arvaa-sana-normaali-luokkahuone-1fe1 ~ arvaa-sana-normaali-talvi-5892
+  word-scramble/easy (n=46): max 0.599 mean 0.316 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.143 | maxPair kirjainsekoitus-helppo-asusteet-b5a5 ~ kirjainsekoitus-helppo-paasiainen-9a27
+  word-scramble/normal (n=46): max 0.597 mean 0.304 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.132 | maxPair kirjainsekoitus-normaali-elaimet-826f ~ kirjainsekoitus-normaali-maatilan-elaimet-ec31
+  wordsearch/null (n=47): max 0.703 mean 0.256 #FAIL>=0.80=0 #WARN>=0.65=5 | P1-raw mean 0.155 | maxPair sanahaku-aamiainen-67fd ~ sanahaku-puut-aee6
+  wordsearch/null/t:en (n=48): max 0.550 mean 0.255 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.114 | maxPair englanti-sanahaku-kodin-ymparilla-4696 ~ englanti-sanahaku-maatilan-elaimet-d2b8
+
+=== cross-class + within: ALL 2735 landings, whole-page RAW ===
+  ALL-PAIRS: {"max":"0.716","mean":"0.027","pairs":3738745,"over80":0,"over65":255,"over85":0,"maxPair":"matematiikkapulma-yhteenlasku-hedelmat-48bd ~ matematiikkapulma-yhteenlasku-lemmikit-2f35"}
+
+=== full distribution: TOP-10 raw whole-page pairs (within+cross) ===
+  1. 0.716  matematiikkapulma-yhteenlasku-hedelmat-48bd ~ matematiikkapulma-yhteenlasku-lemmikit-2f35  (math-puzzle/addition)
+  2. 0.707  matematiikkapulma-yhteenlasku-avaruus-1586 ~ matematiikkapulma-yhteenlasku-elaintarhan-elaimet-a87a  (math-puzzle/addition)
+  3. 0.703  sanahaku-aamiainen-67fd ~ sanahaku-puut-aee6  (wordsearch/null)
+  4. 0.701  ristikko-aamiainen-e546 ~ ristikko-talvi-6d49  (crossword/null)
+  5. 0.699  kirjainsekoitus-helppo-avaruus-8160 ~ kirjainsekoitus-normaali-avaruus-72c9  (word-scramble/easy vs word-scramble/normal)
+  6. 0.697  kirjainsekoitus-helppo-aamiainen-6cfb ~ kirjainsekoitus-normaali-aamiainen-87d7  (word-scramble/easy vs word-scramble/normal)
+  7. 0.696  sanahaku-asusteet-8c8a ~ sanahaku-hyonteiset-ja-otokat-eecf  (wordsearch/null)
+  8. 0.696  kuviotehtava-aamiainen-7e05 ~ kuviotehtava-puut-9f70  (pattern-worksheet/null)
+  9. 0.695  matematiikkapulma-yhteenlasku-postitoimisto-975d ~ matematiikkapulma-yhteenlasku-puut-3266  (math-puzzle/addition)
+  10. 0.694  matematiikkapulma-vahennyslasku-hedelmat-3aba ~ matematiikkapulma-vahennyslasku-lemmikit-8794  (math-puzzle/subtraction)
+
+=== cross-class template-collision probe (slot-normalized whole-page, DIFFERENT (type,mode) only) ===
+  max cross-class slot-normalized Jaccard: 0.699  [kirjainsekoitus-helppo-avaruus-8160 ~ kirjainsekoitus-normaali-avaruus-72c9 (word-scramble/easy vs word-scramble/normal)]
+
+=== §4.E title + meta distinctness ===
+  [P] shared first-50-char title prefixes: 22 groups covering 292 of 2735 pages -> FAIL
+        41 pages share "yhteenlaskutehtäviä 0–10 ilman kymmenylitystä kuva…"  e.g. yhteenlasku-kuva-kuva-asusteet-4dbb, yhteenlasku-kuva-kuva-elaimet, yhteenlasku-kuva-kuva-kodin-ymparilla-3efa
+        41 pages share "yhteenlaskutehtäviä 0–10 ilman kymmenylitystä kuvi…"  e.g. yhteenlasku-kuva-numero-asusteet-3ffc, yhteenlasku-kuva-numero-elaimet-af53, yhteenlasku-kuva-numero-kodin-ymparilla-cacf
+        41 pages share "vähennyslaskutehtäviä 0–10 ilman kymmenylitystä yl…"  e.g. vahennyslasku-yliviivaa-asusteet-bf9c, vahennyslasku-yliviivaa-elaimet, vahennyslasku-yliviivaa-kodin-ymparilla-24c9
+        40 pages share "vähennyslaskutehtäviä 0–10 ilman kymmenylitystä ku…"  e.g. vahennyslasku-kuva-numero-asusteet-2e49, vahennyslasku-kuva-numero-elaimet-6f73, vahennyslasku-kuva-numero-kodin-ymparilla-2e64
+        40 pages share "vähennyslaskutehtäviä 0–10 ilman kymmenylitystä se…"  e.g. vahennyslasku-sekoitettu-asusteet-a6e2, vahennyslasku-sekoitettu-elaimet-4af1, vahennyslasku-sekoitettu-kodin-ymparilla-1edc
+      WARN 1832 metaDescriptions outside the 120-170 band expected by the §21.2 preband step
+  addition/image-number (n=41): TITLE mean 0.518 max 0.615 #FAIL=0 | META mean 0.666 max 0.737 #FAIL=0
+  more-less/image-number (n=39): TITLE mean 0.316 max 0.625 #FAIL=0 | META mean 0.627 max 0.813 #FAIL=1
+  subtraction/image-number (n=40): TITLE mean 0.519 max 0.615 #FAIL=0 | META mean 0.655 max 0.737 #FAIL=0
+  [T] worst within-class TITLE max: 0.625  [enemman-vahemman-kuva-numero-linnut-989f ~ enemman-vahemman-kuva-numero-linnut-2-a333]  -> PASS
+  [M] worst within-class META  max: 0.813  [enemman-vahemman-kuva-numero-linnut-989f ~ enemman-vahemman-kuva-numero-linnut-2-a333]  -> FAIL
+  [D] exact-duplicate TITLES: 0 group(s) -> PASS
+  [D] exact-duplicate METAS : 0 group(s) -> PASS
+  [i] token-subset title pairs (reported, not failed): 210  e.g. yhteenlasku-etsi-yhteenlaskettava-elaimet-7870 ⊂ yhteenlasku-etsi-yhteenlaskettava-maatilan-elaimet-6abf
+
+=== VERDICT vs LOCKED thresholds (2026-06-06 calibration) ===
+  [1] cannibalization = WHOLE-PAGE RAW: FAIL>=0.80 / WARN 0.65-0.80 / PASS<0.65 (within+cross)
+      worst within-class max: 0.716  [matematiikkapulma-yhteenlasku-hedelmat-48bd ~ matematiikkapulma-yhteenlasku-lemmikit-2f35]  -> PASS
+      all-pairs max:          0.716 #FAIL(>=0.80)=0 #WARN(>=0.65)=255  -> PASS
+  [2] cluster-density (whole-page-raw mean) alarm>0.75 (per cluster): OK
+  [3] cross-class slot-norm template-collision FAIL>=0.90: max=0.699  -> PASS
+  [4] P1-raw cluster-mean WARN>0.70 (per cluster): ok
+  [5] title/meta distinctness (§4.E, STRUCTURAL): dup-titles=0, dup-metas=0, shared-50-char-prefix groups=22  -> FAIL
+      (reported only, NOT thresholded on short strings: worst TITLE 0.625, worst META 0.813, subset pairs 210)
+      (per-paragraph 0.85 FAIL + within-class slot-norm = RETIRED per ruling — they misfire on the intended template/variant design)

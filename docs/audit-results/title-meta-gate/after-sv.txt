@@ -1,0 +1,149 @@
+=== §4.B genericness + structural lints ===
+  -> all 2680 pages pass lint (≥200 words, no banned phrases, theme-noun in P1)
+
+=== §4.C similarity — per-(type,mode) WITHIN-CLASS clusters (whole-page RAW) ===
+  addition/find-addend (n=40): max 0.532 mean 0.285 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.154 | maxPair addition-hitta-termen-bondgardsdjur-0f3f ~ addition-hitta-termen-thanksgiving-df2f
+  addition/image-image (n=40): max 0.555 mean 0.266 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.123 | maxPair addition-bild-bild-former-6eb5 ~ addition-bild-bild-fordon-ec0d
+  addition/image-number (n=40): max 0.561 mean 0.293 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.157 | maxPair addition-bild-nummer-koksredskap-7eee ~ addition-bild-nummer-djurparksdjur-4dd4
+  addition/mixed (n=40): max 0.549 mean 0.279 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.147 | maxPair addition-blandat-husdjur-ab7f ~ addition-blandat-leksaker-0706
+  alphabet-train/letter-hint (n=39): max 0.662 mean 0.336 #FAIL>=0.80=0 #WARN>=0.65=2 | P1-raw mean 0.127 | maxPair alfabetstaget-bokstavsledtrad-djur-fcd7 ~ alfabetstaget-bokstavsledtrad-skogsdjur-936c
+  alphabet-train/null (n=34): max 0.604 mean 0.288 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.121 | maxPair alfabetstaget-i-snabbkopet-c935 ~ alfabetstaget-pask-ba52
+  big-small/findBig (n=37): max 0.635 mean 0.307 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.156 | maxPair stor-liten-hitta-den-stora-tillbehor-a1c7 ~ stor-liten-hitta-den-stora-pask-cee9
+  big-small/orderAsc (n=41): max 0.626 mean 0.316 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.173 | maxPair stor-liten-stigande-ordning-djur-fb10 ~ stor-liten-stigande-ordning-bondgardsdjur-e5fc
+  bingo/null (n=39): max 0.606 mean 0.285 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.145 | maxPair bingo-strand-dda3 ~ bingo-djurparksdjur-96c8
+  chart-count/null (n=41): max 0.799 mean 0.270 #FAIL>=0.80=0 #WARN>=0.65=190 | P1-raw mean 0.207 | maxPair rakna-i-diagram-bageri-4532 ~ rakna-i-diagram-rymden-39e3
+  code-addition/null (n=48): max 0.627 mean 0.294 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.140 | maxPair kodaddition-tillbehor-15a8 ~ kodaddition-postkontor-3709
+  code-addition/secret-word (n=46): max 0.598 mean 0.314 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.148 | maxPair kodaddition-hemligt-ord-skogsdjur-e40f ~ kodaddition-hemligt-ord-djurparksdjur-1ffb
+  crossword/null (n=45): max 0.649 mean 0.294 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.159 | maxPair korsord-skogsdjur-e097 ~ korsord-husdjur-22e9
+  crossword/null/t:en (n=47): max 0.544 mean 0.252 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.124 | maxPair engelska-korsord-koksredskap-6611 ~ engelska-korsord-fordon-c336
+  find-and-count/hidden-object (n=45): max 0.605 mean 0.276 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.150 | maxPair hitta-och-rakna-gomda-foremal-djur-8877 ~ hitta-och-rakna-gomda-foremal-bondgardsdjur-90f5
+  find-and-count/letter-spotting (n=43): max 0.599 mean 0.277 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.149 | maxPair hitta-och-rakna-hitta-bokstaver-djur ~ hitta-och-rakna-hitta-bokstaver-bondgardsdjur-afd1
+  find-objects/find-odd (n=47): max 0.606 mean 0.278 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.145 | maxPair hitta-foremalen-hitta-den-udda-faglar-f304 ~ hitta-foremalen-hitta-den-udda-djurparksdjur-9532
+  find-objects/i-spy (n=47): max 0.596 mean 0.258 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.123 | maxPair hitta-foremalen-jag-ser-jag-ser-blommor-38ea ~ hitta-foremalen-jag-ser-jag-ser-sommar-caef
+  grid-match/null (n=48): max 0.637 mean 0.274 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.127 | maxPair rutmatchning-blommor-f48c ~ rutmatchning-var-83f5
+  matching/letter (n=44): max 0.615 mean 0.273 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.130 | maxPair matchning-bokstav-klassrum-fff2 ~ matchning-bokstav-postkontor-8aaf
+  matching/name (n=47): max 0.614 mean 0.275 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.135 | maxPair matchning-namn-klassrum-3f18 ~ matchning-namn-havsliv-5c5f
+  matching/name/t:en (n=47): max 0.608 mean 0.278 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.133 | maxPair engelska-matchning-namn-reptiler-och-groddjur-4ff6 ~ engelska-matchning-namn-leksaker-cb74
+  math-puzzle/addition (n=41): max 0.576 mean 0.260 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.124 | maxPair mattepussel-addition-camping-a0ee ~ mattepussel-addition-thanksgiving-3eeb
+  math-puzzle/mixed (n=40): max 0.591 mean 0.270 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.143 | maxPair mattepussel-blandat-husdjur-5da3 ~ mattepussel-blandat-leksaker-2243
+  math-puzzle/subtraction (n=40): max 0.568 mean 0.266 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.132 | maxPair mattepussel-subtraktion-bondgardsdjur-3cf2 ~ mattepussel-subtraktion-thanksgiving-6233
+  missing-pieces/one-missing (n=47): max 0.657 mean 0.270 #FAIL>=0.80=0 #WARN>=0.65=4 | P1-raw mean 0.121 | maxPair saknade-bitar-1-saknad-bit-koksredskap-45a2 ~ saknade-bitar-1-saknad-bit-gronsaker-9e37
+  missing-pieces/two-missing (n=46): max 0.632 mean 0.269 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.124 | maxPair saknade-bitar-2-saknade-bitar-tillbehor-2c3f ~ saknade-bitar-2-saknade-bitar-sjukhus-e04f
+  more-less/check-cross (n=39): max 0.593 mean 0.314 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.148 | maxPair mer-mindre-bocka-och-stryk-grupper-dinosaurier-6108 ~ mer-mindre-bocka-och-stryk-grupper-insekter-och-kryp-37b9
+  more-less/image-image (n=39): max 0.606 mean 0.332 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.167 | maxPair mer-mindre-bild-bild-camping-62ce ~ mer-mindre-bild-bild-blommor-9a55
+  more-less/image-number (n=39): max 0.593 mean 0.322 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.174 | maxPair mer-mindre-bild-nummer-blommor-2f5c ~ mer-mindre-bild-nummer-verktyg-a82e
+  odd-one-out/cross-theme (n=2): max 0.222 mean 0.222 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.038 | maxPair vilken-passar-inte-tvartema-djur-78ef ~ vilken-passar-inte-tvartema-bageri-d297
+  odd-one-out/same-theme (n=47): max 0.615 mean 0.285 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.154 | maxPair vilken-passar-inte-samma-tema-djur ~ vilken-passar-inte-samma-tema-pask-e8dc
+  pattern-train/aab (n=48): max 0.623 mean 0.288 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.118 | maxPair monstertaget-aab-i-snabbkopet-563e ~ monstertaget-aab-bondgardsdjur-6df2
+  pattern-train/aabb (n=48): max 0.608 mean 0.289 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.126 | maxPair monstertaget-aabb-i-snabbkopet-98b5 ~ monstertaget-aabb-bondgardsdjur-5db8
+  pattern-train/abb (n=48): max 0.617 mean 0.285 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.122 | maxPair monstertaget-abb-i-snabbkopet-e5c8 ~ monstertaget-abb-bondgardsdjur-eddf
+  pattern-train/abc (n=48): max 0.621 mean 0.291 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.129 | maxPair monstertaget-abc-i-snabbkopet-a415 ~ monstertaget-abc-bondgardsdjur-c71f
+  pattern-train/null (n=48): max 0.622 mean 0.284 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.121 | maxPair monstertaget-i-snabbkopet-7446 ~ monstertaget-var-6882
+  pattern-worksheet/null (n=48): max 0.660 mean 0.344 #FAIL>=0.80=0 #WARN>=0.65=2 | P1-raw mean 0.138 | maxPair monsterblad-djur-145b ~ monsterblad-pask-f4ff
+  picture-path/choose-path (n=48): max 0.625 mean 0.268 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.141 | maxPair bildvag-valj-ratt-vag-i-snabbkopet-1e88 ~ bildvag-valj-ratt-vag-bondgardsdjur-b9a4
+  picture-path/classic-maze (n=34): max 0.624 mean 0.276 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.136 | maxPair bildvag-klassisk-labyrint-pask-8642 ~ bildvag-klassisk-labyrint-trad-3eb1
+  picture-sort/null (n=151): max 0.609 mean 0.280 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.084 | maxPair sortera-bilder-animals-vs-flowers-4c83 ~ sortera-bilder-fruits-vs-flowers-91e0
+  prepositions/fillin (n=47): max 0.633 mean 0.287 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.148 | maxPair prepositioner-fyll-i-faglar-2-6c5a ~ prepositioner-fyll-i-sjukhus-93c1
+  prepositions/multiplechoice (n=44): max 0.636 mean 0.293 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.159 | maxPair prepositioner-flerval-djur-dbb7 ~ prepositioner-flerval-pask-19cb
+  shadow-match/find-shadow (n=44): max 0.611 mean 0.256 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.117 | maxPair matcha-skuggor-para-skuggan-klassrum-3ca2 ~ matcha-skuggor-para-skuggan-postkontor-7926
+  shadow-match/make-whole (n=47): max 0.635 mean 0.270 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.132 | maxPair matcha-skuggor-gor-hel-husdjur-f69e ~ matcha-skuggor-gor-hel-djurparksdjur-3837
+  subtraction/cross-out (n=38): max 0.552 mean 0.266 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.117 | maxPair subtraktion-stryk-over-tillbehor-8ef5 ~ subtraktion-stryk-over-blommor-2356
+  subtraction/find-subtrahend (n=40): max 0.534 mean 0.275 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.125 | maxPair subtraktion-hitta-subtrahenden-tillbehor-f6f6 ~ subtraktion-hitta-subtrahenden-thanksgiving-5c52
+  subtraction/image-number (n=39): max 0.589 mean 0.285 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.133 | maxPair subtraktion-bild-nummer-blommor-2486 ~ subtraktion-bild-nummer-verktyg-c791
+  subtraction/mixed (n=40): max 0.557 mean 0.284 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.144 | maxPair subtraktion-blandat-husdjur-f281 ~ subtraktion-blandat-leksaker-4dbf
+  sudoku/easy (n=48): max 0.611 mean 0.275 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.143 | maxPair bildsudoku-latt-insekter-och-kryp-815b ~ bildsudoku-latt-trad-6746
+  sudoku/medium (n=48): max 0.594 mean 0.270 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.132 | maxPair bildsudoku-medel-tillbehor-8ae0 ~ bildsudoku-medel-mobler-9405
+  treasure-hunt/cardinal-arrows (n=48): max 0.630 mean 0.270 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.139 | maxPair skattjakt-upp-ner-vanster-hoger-havsliv-6e27 ~ skattjakt-upp-ner-vanster-hoger-vinter-f1ab
+  treasure-hunt/compass (n=48): max 0.632 mean 0.279 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.152 | maxPair skattjakt-vaderstreck-efterratter-och-godis-670f ~ skattjakt-vaderstreck-postkontor-4903
+  word-guess/easy (n=47): max 0.610 mean 0.280 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.143 | maxPair gissa-ordet-latt-pask-c9c3 ~ gissa-ordet-latt-former-8d81
+  word-guess/normal (n=47): max 0.617 mean 0.283 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.150 | maxPair gissa-ordet-normal-former-64a8 ~ gissa-ordet-normal-trad-1454
+  word-scramble/easy (n=47): max 0.619 mean 0.271 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.143 | maxPair bokstavspussel-latt-tillbehor-22ab ~ bokstavspussel-latt-sjukhus-fc76
+  word-scramble/normal (n=46): max 0.611 mean 0.270 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.142 | maxPair bokstavspussel-normal-kroppsdelar-1e48 ~ bokstavspussel-normal-gronsaker-eb35
+  wordsearch/null (n=47): max 0.643 mean 0.322 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.145 | maxPair ordleta-faglar-2-177f ~ ordleta-sjukhus-cf7b
+  wordsearch/null/t:en (n=48): max 0.601 mean 0.282 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.137 | maxPair engelska-ordleta-runt-huset-913f ~ engelska-ordleta-bondgardsdjur-8248
+
+=== cross-class + within: ALL 2680 landings, whole-page RAW ===
+  ALL-PAIRS: {"max":"0.799","mean":"0.045","pairs":3589860,"over80":0,"over65":268,"over85":0,"maxPair":"rakna-i-diagram-bageri-4532 ~ rakna-i-diagram-rymden-39e3"}
+
+=== full distribution: TOP-10 raw whole-page pairs (within+cross) ===
+  1. 0.799  rakna-i-diagram-bageri-4532 ~ rakna-i-diagram-rymden-39e3  (chart-count/null)
+  2. 0.797  rakna-i-diagram-bageri-4532 ~ rakna-i-diagram-husdjur-8990  (chart-count/null)
+  3. 0.797  rakna-i-diagram-husdjur-8990 ~ rakna-i-diagram-rymden-39e3  (chart-count/null)
+  4. 0.797  rakna-i-diagram-klassrum-dc2d ~ rakna-i-diagram-dinosaurier-43ad  (chart-count/null)
+  5. 0.794  rakna-i-diagram-skogsdjur-0ff2 ~ rakna-i-diagram-insekter-och-kryp-25d3  (chart-count/null)
+  6. 0.793  rakna-i-diagram-klassrum-dc2d ~ rakna-i-diagram-skogsdjur-0ff2  (chart-count/null)
+  7. 0.793  rakna-i-diagram-bageri-4532 ~ rakna-i-diagram-frukost-2f6f  (chart-count/null)
+  8. 0.793  rakna-i-diagram-frukost-2f6f ~ rakna-i-diagram-rymden-39e3  (chart-count/null)
+  9. 0.792  rakna-i-diagram-frukter-0f34 ~ rakna-i-diagram-husdjur-8990  (chart-count/null)
+  10. 0.792  rakna-i-diagram-husdjur-8990 ~ rakna-i-diagram-leksaker-025e  (chart-count/null)
+
+=== cross-class template-collision probe (slot-normalized whole-page, DIFFERENT (type,mode) only) ===
+  max cross-class slot-normalized Jaccard: 0.788  [gissa-ordet-latt-insekter-och-kryp-f0c7 ~ gissa-ordet-normal-insekter-och-kryp-2117 (word-guess/easy vs word-guess/normal)]
+
+=== §4.E title + meta distinctness ===
+  [P] shared first-50-char title prefixes: 0 groups covering 0 of 2680 pages -> PASS
+  addition/find-addend (n=40): TITLE mean 0.796 max 0.846 #FAIL=528 | META mean 0.187 max 0.818 #FAIL=3
+  addition/image-image (n=40): TITLE mean 0.763 max 0.800 #FAIL=528 | META mean 0.119 max 0.800 #FAIL=6
+  addition/image-number (n=40): TITLE mean 0.793 max 0.857 #FAIL=627 | META mean 0.209 max 0.800 #FAIL=3
+  addition/mixed (n=40): TITLE mean 0.739 max 0.778 #FAIL=0 | META mean 0.102 max 0.778 #FAIL=0
+  alphabet-train/letter-hint (n=39): TITLE mean 0.688 max 0.714 #FAIL=0 | META mean 0.094 max 0.615 #FAIL=0
+  big-small/findBig (n=37): TITLE mean 0.662 max 0.800 #FAIL=351 | META mean 0.091 max 0.625 #FAIL=0
+  big-small/orderAsc (n=41): TITLE mean 0.661 max 0.714 #FAIL=0 | META mean 0.089 max 0.625 #FAIL=0
+  bingo/null (n=39): TITLE mean 0.635 max 0.667 #FAIL=0 | META mean 0.098 max 0.862 #FAIL=26
+  chart-count/null (n=41): TITLE mean 0.671 max 0.714 #FAIL=0 | META mean 0.070 max 0.389 #FAIL=0
+  code-addition/null (n=48): TITLE mean 0.715 max 0.750 #FAIL=0 | META mean 0.057 max 0.606 #FAIL=0
+  code-addition/secret-word (n=46): TITLE mean 0.793 max 0.818 #FAIL=780 | META mean 0.165 max 0.625 #FAIL=0
+  crossword/null (n=45): TITLE mean 0.682 max 0.714 #FAIL=0 | META mean 0.069 max 0.862 #FAIL=18
+  find-and-count/hidden-object (n=45): TITLE mean 0.682 max 0.714 #FAIL=0 | META mean 0.073 max 0.800 #FAIL=3
+  find-and-count/letter-spotting (n=43): TITLE mean 0.748 max 0.778 #FAIL=0 | META mean 0.113 max 0.793 #FAIL=0
+  find-objects/find-odd (n=47): TITLE mean 0.731 max 0.800 #FAIL=820 | META mean 0.088 max 0.727 #FAIL=0
+  find-objects/i-spy (n=47): TITLE mean 0.731 max 0.800 #FAIL=820 | META mean 0.088 max 0.793 #FAIL=0
+  grid-match/null (n=48): TITLE mean 0.628 max 0.667 #FAIL=0 | META mean 0.072 max 0.846 #FAIL=19
+  matching/letter (n=44): TITLE mean 0.641 max 0.818 #FAIL=300 | META mean 0.106 max 0.613 #FAIL=0
+  matching/name (n=47): TITLE mean 0.769 max 0.818 #FAIL=780 | META mean 0.104 max 0.647 #FAIL=0
+  math-puzzle/addition (n=41): TITLE mean 0.764 max 0.800 #FAIL=561 | META mean 0.111 max 0.793 #FAIL=0
+  math-puzzle/subtraction (n=40): TITLE mean 0.499 max 0.800 #FAIL=298 | META mean 0.079 max 0.786 #FAIL=0
+  missing-pieces/one-missing (n=47): TITLE mean 0.719 max 0.846 #FAIL=524 | META mean 0.189 max 0.806 #FAIL=4
+  missing-pieces/two-missing (n=46): TITLE mean 0.768 max 0.800 #FAIL=741 | META mean 0.179 max 0.813 #FAIL=4
+  more-less/check-cross (n=39): TITLE mean 0.789 max 0.818 #FAIL=528 | META mean 0.179 max 0.786 #FAIL=0
+  more-less/image-image (n=39): TITLE mean 0.732 max 0.800 #FAIL=528 | META mean 0.080 max 0.613 #FAIL=0
+  more-less/image-number (n=39): TITLE mean 0.789 max 0.818 #FAIL=528 | META mean 0.172 max 0.786 #FAIL=0
+  odd-one-out/cross-theme (n=2): TITLE mean 0.750 max 0.750 #FAIL=0 | META mean 0.048 max 0.048 #FAIL=0
+  odd-one-out/same-theme (n=47): TITLE mean 0.750 max 0.778 #FAIL=0 | META mean 0.120 max 0.760 #FAIL=0
+  pattern-train/aab (n=48): TITLE mean 0.715 max 0.750 #FAIL=0 | META mean 0.097 max 0.793 #FAIL=0
+  pattern-train/aabb (n=48): TITLE mean 0.715 max 0.750 #FAIL=0 | META mean 0.107 max 0.778 #FAIL=0
+  pattern-train/abb (n=48): TITLE mean 0.715 max 0.750 #FAIL=0 | META mean 0.099 max 0.793 #FAIL=0
+  pattern-train/abc (n=48): TITLE mean 0.715 max 0.750 #FAIL=0 | META mean 0.100 max 0.793 #FAIL=0
+  pattern-train/null (n=48): TITLE mean 0.715 max 0.750 #FAIL=0 | META mean 0.104 max 0.800 #FAIL=6
+  picture-path/choose-path (n=48): TITLE mean 0.712 max 0.778 #FAIL=0 | META mean 0.121 max 0.793 #FAIL=0
+  picture-path/classic-maze (n=34): TITLE mean 0.689 max 0.750 #FAIL=0 | META mean 0.093 max 0.778 #FAIL=0
+  prepositions/fillin (n=47): TITLE mean 0.714 max 0.750 #FAIL=0 | META mean 0.073 max 0.793 #FAIL=0
+  shadow-match/find-shadow (n=44): TITLE mean 0.695 max 0.778 #FAIL=0 | META mean 0.092 max 0.778 #FAIL=0
+  shadow-match/make-whole (n=47): TITLE mean 0.722 max 0.778 #FAIL=0 | META mean 0.094 max 0.793 #FAIL=0
+  subtraction/cross-out (n=38): TITLE mean 0.765 max 0.800 #FAIL=496 | META mean 0.114 max 0.800 #FAIL=4
+  subtraction/find-subtrahend (n=40): TITLE mean 0.701 max 0.846 #FAIL=312 | META mean 0.177 max 0.813 #FAIL=2
+  subtraction/image-number (n=39): TITLE mean 0.758 max 0.857 #FAIL=467 | META mean 0.196 max 0.806 #FAIL=3
+  subtraction/mixed (n=40): TITLE mean 0.739 max 0.778 #FAIL=0 | META mean 0.094 max 0.786 #FAIL=0
+  treasure-hunt/cardinal-arrows (n=48): TITLE mean 0.753 max 0.818 #FAIL=820 | META mean 0.179 max 0.806 #FAIL=1
+  treasure-hunt/compass (n=48): TITLE mean 0.715 max 0.750 #FAIL=0 | META mean 0.110 max 0.769 #FAIL=0
+  word-guess/easy (n=47): TITLE mean 0.714 max 0.750 #FAIL=0 | META mean 0.087 max 0.625 #FAIL=0
+  word-guess/normal (n=47): TITLE mean 0.714 max 0.750 #FAIL=0 | META mean 0.088 max 0.636 #FAIL=0
+  word-scramble/easy (n=47): TITLE mean 0.677 max 0.714 #FAIL=0 | META mean 0.056 max 0.760 #FAIL=0
+  word-scramble/normal (n=46): TITLE mean 0.682 max 0.714 #FAIL=0 | META mean 0.054 max 0.786 #FAIL=0
+  wordsearch/null (n=47): TITLE mean 0.627 max 0.667 #FAIL=0 | META mean 0.073 max 0.810 #FAIL=1
+  [T] worst within-class TITLE max: 0.857  [addition-bild-nummer-tillbehor-35b0 ~ addition-bild-nummer-djur-7cd1]  -> FAIL
+  [M] worst within-class META  max: 0.862  [bingo-jul-b306 ~ bingo-former-4f7c]  -> FAIL
+  [D] exact-duplicate TITLES: 0 group(s) -> PASS
+  [D] exact-duplicate METAS : 0 group(s) -> PASS
+  [i] token-subset title pairs (reported, not failed): 49  e.g. addition-hitta-termen-faglar-6367 ⊂ addition-hitta-termen-faglar-2-dee0
+
+=== VERDICT vs LOCKED thresholds (2026-06-06 calibration) ===
+  [1] cannibalization = WHOLE-PAGE RAW: FAIL>=0.80 / WARN 0.65-0.80 / PASS<0.65 (within+cross)
+      worst within-class max: 0.799  [rakna-i-diagram-bageri-4532 ~ rakna-i-diagram-rymden-39e3]  -> PASS
+      all-pairs max:          0.799 #FAIL(>=0.80)=0 #WARN(>=0.65)=268  -> PASS
+  [2] cluster-density (whole-page-raw mean) alarm>0.75 (per cluster): OK
+  [3] cross-class slot-norm template-collision FAIL>=0.90: max=0.788  -> PASS
+  [4] P1-raw cluster-mean WARN>0.70 (per cluster): ok
+  [5] title/meta distinctness (§4.E, STRUCTURAL): dup-titles=0, dup-metas=0, shared-50-char-prefix groups=0  -> PASS
+      (reported only, NOT thresholded on short strings: worst TITLE 0.857, worst META 0.862, subset pairs 49)
+      (per-paragraph 0.85 FAIL + within-class slot-norm = RETIRED per ruling — they misfire on the intended template/variant design)

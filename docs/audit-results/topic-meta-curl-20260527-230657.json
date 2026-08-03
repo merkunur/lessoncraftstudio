@@ -1,0 +1,4118 @@
+{
+  "opts": {
+    "baseUrl": "https://www.lessoncraftstudio.com",
+    "locales": [
+      "en"
+    ],
+    "axes": [
+      "exercise-type",
+      "theme",
+      "educational-level"
+    ],
+    "outDir": "C:\\Users\\rkgen\\lessoncraftstudio\\docs\\audit-results",
+    "concurrency": 10,
+    "sample": null,
+    "includeIntersections": false,
+    "timeoutMs": 15000
+  },
+  "byLocale": {
+    "en": {
+      "locale": "en",
+      "total": 135,
+      "pass": 32,
+      "fail": 103,
+      "byAxis": {
+        "exercise-type": {
+          "total": 30,
+          "pass": 29
+        },
+        "theme": {
+          "total": 100,
+          "pass": 0
+        },
+        "educational-level": {
+          "total": 5,
+          "pass": 3
+        }
+      },
+      "defectCounts": {
+        "PAGE_HTTP_404": 36,
+        "META_DESCRIPTION_LENGTH_TOO_SHORT": 67,
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED": 65
+      },
+      "fallbackCount": 65,
+      "tooShortCount": 67,
+      "tooLongCount": 0,
+      "nonUniqueCount": 0,
+      "missingCount": 0,
+      "sampleFailures": [
+        {
+          "url": "https://www.lessoncraftstudio.com/en/topic/picture-path/",
+          "axisKey": "picture-path",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/en/topic/4th-of-july/",
+          "axisKey": "4th_of_july",
+          "defects": [
+            "META_DESCRIPTION_LENGTH_TOO_SHORT",
+            "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+          ],
+          "length": 102,
+          "preview": "Free 4th of July worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/en/topic/accessories/",
+          "axisKey": "accessories",
+          "defects": [
+            "META_DESCRIPTION_LENGTH_TOO_SHORT",
+            "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+          ],
+          "length": 102,
+          "preview": "Free Accessories worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/en/topic/activities/",
+          "axisKey": "activities",
+          "defects": [
+            "META_DESCRIPTION_LENGTH_TOO_SHORT",
+            "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+          ],
+          "length": 101,
+          "preview": "Free Activities worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/en/topic/animals/",
+          "axisKey": "animals",
+          "defects": [
+            "META_DESCRIPTION_LENGTH_TOO_SHORT"
+          ],
+          "length": 118,
+          "preview": "Animal-themed worksheets give early-childhood teachers a vocabulary foundation that travels across the K-3 curriculum."
+        }
+      ]
+    }
+  },
+  "perPage": [
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/addition/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "addition",
+      "slug": "addition",
+      "status": 200,
+      "descriptionLength": 136,
+      "descriptionPreview": "Addition worksheets for kindergarten and grade 1: visual counting and single-digit sums. Play interactively in browser or print the PDF.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 136
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "5cc0f1f4ead3b015326e633d77d21987c9862636"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/picture-sudoku/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "sudoku",
+      "slug": "picture-sudoku",
+      "status": 200,
+      "descriptionLength": 141,
+      "descriptionPreview": "Picture sudoku worksheets for K-3: 4x4 grids that use animal and object images instead of numbers. Logical deduction at an early-years level.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 141
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "ae428e7c1f3fe39d094cfcaa1e61d5c0ad0a53fc"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/cryptogram/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "cryptogram",
+      "slug": "cryptogram",
+      "status": 200,
+      "descriptionLength": 145,
+      "descriptionPreview": "Cryptogram puzzles for grade 1 through grade 3: crack the symbol-to-letter cipher to reveal each hidden word. Picture clues guide young decoders.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 145
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "8e15785f4134cc5d4a439800f8e202fae9c05221"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/picture-path/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "picture-path",
+      "slug": "picture-path",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/picture-trail/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "picture-trail",
+      "slug": "picture-trail",
+      "status": 200,
+      "descriptionLength": 145,
+      "descriptionPreview": "Picture trail puzzles for grade 1 and grade 2: trace the path through the grid, collecting picture clues until you reach the treasure at the end.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 145
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "0d8a40d970d69ea39fbd19139cf735a6bc1fcfd1"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/subtraction/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "subtraction",
+      "slug": "subtraction",
+      "status": 200,
+      "descriptionLength": 135,
+      "descriptionPreview": "Subtraction worksheets for kindergarten and grade 1: cross out the pictures to see take-away in action before the minus symbol appears.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 135
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b558d2077d796b4a77ec5f98271837ec32141cdf"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/code-addition/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "code-addition",
+      "slug": "code-addition",
+      "status": 200,
+      "descriptionLength": 139,
+      "descriptionPreview": "Code addition worksheets for grade 1 and grade 2: decode the letter cipher, then add the matched numbers. Reading and math in one activity.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 139
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "78f75c22e1daeadcc015f78d1e3d6b05a110e6d6"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/more-less/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "more-less",
+      "slug": "more-less",
+      "status": 200,
+      "descriptionLength": 145,
+      "descriptionPreview": "More or less worksheets for pre-K and kindergarten: compare two groups by counting pictures before the greater-than and less-than symbols arrive.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 145
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b7113ea239277819f11b7814afaae3aa22c5ee25"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/math-puzzle/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "math-puzzle",
+      "slug": "math-puzzle",
+      "status": 200,
+      "descriptionLength": 142,
+      "descriptionPreview": "Math puzzle worksheets for kindergarten and grade 1: drag the missing piece into each visual equation. A playful path into algebraic thinking.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 142
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "02dea87e8da1cc3d45c9f8cd2cf9c6810819f526"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/math-worksheet/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "math-worksheet",
+      "slug": "math-worksheet",
+      "status": 200,
+      "descriptionLength": 141,
+      "descriptionPreview": "Mixed-operation math worksheets for grade 1 and grade 2: addition, subtraction, and fill-in algebra on a single practice page. Print or play.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 141
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "8a3b7acc314813638c51b511bb0ac54e4fe35849"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/big-small/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "big-small",
+      "slug": "big-small",
+      "status": 200,
+      "descriptionLength": 131,
+      "descriptionPreview": "Biggest and smallest worksheets for ages 3-5: tap the larger or smaller item in each group. Picture-based, so no reading is needed.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 131
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "dad8cd23e4faf04960884b9a16c8d75f0abc4c1f"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/chart-count/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "chart-count",
+      "slug": "chart-count",
+      "status": 200,
+      "descriptionLength": 141,
+      "descriptionPreview": "Bar chart and tally worksheets for kindergarten through grade 2: count the pictures, fill in the chart columns. First steps in data literacy.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 141
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "2ec944ce56c422fce965fde32cc78245300e0a1e"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/pattern-train/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "pattern-train",
+      "slug": "pattern-train",
+      "status": 200,
+      "descriptionLength": 143,
+      "descriptionPreview": "Pattern train worksheets for preschool and pre-K: drag picture cards onto each wagon to finish the AB or ABC sequence. Pre-algebra in disguise.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 143
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "c6d02599acc1c4aaa2596cee45eaec28aafbb574"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/pattern-worksheet/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "pattern-worksheet",
+      "slug": "pattern-worksheet",
+      "status": 200,
+      "descriptionLength": 142,
+      "descriptionPreview": "Pattern worksheets for kindergarten and grade 1: fill the blank in ABAB and ABCABC picture sequences. Print for centers or play interactively.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 142
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "263c7058e0d3a6b18d8e387f24ecc4c489779d03"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/bingo/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "bingo",
+      "slug": "bingo",
+      "status": 200,
+      "descriptionLength": 146,
+      "descriptionPreview": "Classroom bingo cards for kindergarten and grade 1: picture, letter, and number variants for whole-class review. Print sets or call rounds online.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 146
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "e7ff130faa09cfd1a92aebd1342ddbbd52db05dc"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/grid-match/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "grid-match",
+      "slug": "grid-match",
+      "status": 200,
+      "descriptionLength": 145,
+      "descriptionPreview": "Grid match puzzles for kindergarten and grade 1: drag each picture piece into the correct grid cell to rebuild the full image. Spatial reasoning.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 145
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b2a7d5bb53e21fe6439058512d68848278dcd404"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/matching/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "matching",
+      "slug": "matching",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Matching worksheets for preschool and pre-K: tap the picture on the left, then tap its pair on the right to draw the connecting line.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "cd35fca092bcda8c42dfde27c9a22f47cb441084"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/picture-sort/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "picture-sort",
+      "slug": "picture-sort",
+      "status": 200,
+      "descriptionLength": 143,
+      "descriptionPreview": "Picture sort worksheets for kindergarten and grade 1: drag each image into the bin where it belongs. Classification by attribute, made visible.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 143
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d81ac5b764c861d7179eb1453eb7732f881edfc4"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/shadow-match/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "shadow-match",
+      "slug": "shadow-match",
+      "status": 200,
+      "descriptionLength": 139,
+      "descriptionPreview": "Shadow match worksheets for preschool and kindergarten: pair each colorful picture with its black silhouette. Trains visual discrimination.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 139
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "599cf6da1da9497ccc29b926437aafd1d16af687"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/alphabet-train/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "alphabet-train",
+      "slug": "alphabet-train",
+      "status": 200,
+      "descriptionLength": 142,
+      "descriptionPreview": "Alphabet train worksheets for preschool and pre-K: drag letter cards onto wagons to put A-Z in order. Available in 11 languages and printable.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 142
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "0e61eb21460b3441081713f5e6789ed37db29b74"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/prepositions/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "prepositions",
+      "slug": "prepositions",
+      "status": 200,
+      "descriptionLength": 150,
+      "descriptionPreview": "Prepositions worksheets for pre-K and kindergarten: choose the picture that shows in, on, under, behind, or next to. Spatial language in 11 languages.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 150
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d8d3151358e6ec63a7c7ada4b80df81198a5923e"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/word-guess/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "word-guess",
+      "slug": "word-guess",
+      "status": 200,
+      "descriptionLength": 151,
+      "descriptionPreview": "Word guess worksheets for kindergarten and grade 1: fill the hangman-style letter blanks using the picture clue. Letter-sound decoding for new readers.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 151
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "c15f54699120ce2543be7305fe512982cd226c56"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/word-scramble/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "word-scramble",
+      "slug": "word-scramble",
+      "status": 200,
+      "descriptionLength": 148,
+      "descriptionPreview": "Word scramble worksheets for kindergarten and grade 1: rearrange the letters to spell what the picture shows. Strengthens phonics and letter recall.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 148
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "9955df1db39f79ab216f72c5e735b31484bfabd1"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/wordsearch/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "wordsearch",
+      "slug": "wordsearch",
+      "status": 200,
+      "descriptionLength": 143,
+      "descriptionPreview": "Word search worksheets for K-3: drag across the letter grid to find each hidden word. Picture clues help emerging readers spot targets quickly.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 143
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d77810327902db0a84c2f3a0f63c7ff7c0c2e4f7"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/crossword/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "crossword",
+      "slug": "crossword",
+      "status": 200,
+      "descriptionLength": 139,
+      "descriptionPreview": "Picture crossword worksheets for K-3: image clues replace text prompts so emerging readers can spell across and down. Play online or print.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 139
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "e36d3a5112bcb93beb546093bede078d71b3ff57"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/find-and-count/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "find-and-count",
+      "slug": "find-and-count",
+      "status": 200,
+      "descriptionLength": 137,
+      "descriptionPreview": "Find-and-count worksheets for kindergarten and grade 1: spot every item in a busy scene, tap to mark, then record the total per category.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 137
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "047161b7174e9011b97b8bc01f9ae7de0b4767eb"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/find-objects/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "find-objects",
+      "slug": "find-objects",
+      "status": 200,
+      "descriptionLength": 130,
+      "descriptionPreview": "I-Spy and find-the-object scenes for ages 4-7: hunt for items hidden among busy details, training visual discrimination and focus.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 130
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "7b9047dfa94c60959fb7b6fc143483c563151967"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/treasure-hunt/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "treasure-hunt",
+      "slug": "treasure-hunt",
+      "status": 200,
+      "descriptionLength": 149,
+      "descriptionPreview": "Treasure hunt worksheets for grade 1 and grade 2: read direction clues like two east, one north to navigate from start to the hidden treasure square.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 149
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "26918ce1f8a0d9c931aa7b00d65b71280abc1e28"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/missing-pieces/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "missing-pieces",
+      "slug": "missing-pieces",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Missing pieces puzzles for preschool and kindergarten: drag each shape into the matching cutout. Part-whole reasoning for early childhood.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "dd285959bf4c1274ad46295ad03de8b521da6735"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/odd-one-out/",
+      "locale": "en",
+      "axis": "exercise-type",
+      "axisKey": "odd-one-out",
+      "slug": "odd-one-out",
+      "status": 200,
+      "descriptionLength": 140,
+      "descriptionPreview": "Odd-one-out worksheets for kindergarten and grade 1: tap the picture that does not belong in each set. Practice classification by attribute.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 140
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "de3772804de488ffacef0a1132b5f247a0ae7017"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/4th-of-july/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "4th_of_july",
+      "slug": "4th-of-july",
+      "status": 200,
+      "descriptionLength": 102,
+      "descriptionPreview": "Free 4th of July worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 102,
+          "value": "Free 4th of July worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free 4th of July worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "a9de81ef0850d1b0291d108f8081cf85725fb834"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/accessories/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "accessories",
+      "slug": "accessories",
+      "status": 200,
+      "descriptionLength": 102,
+      "descriptionPreview": "Free Accessories worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 102,
+          "value": "Free Accessories worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Accessories worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "83c64df7e055e2a1afa99cd5638344d022cad04b"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/activities/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "activities",
+      "slug": "activities",
+      "status": 200,
+      "descriptionLength": 101,
+      "descriptionPreview": "Free Activities worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 101,
+          "value": "Free Activities worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Activities worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "977ec5d3259a0a9b7a1a4dd9e879c9a182cddba5"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/animals/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "animals",
+      "slug": "animals",
+      "status": 200,
+      "descriptionLength": 118,
+      "descriptionPreview": "Animal-themed worksheets give early-childhood teachers a vocabulary foundation that travels across the K-3 curriculum.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 118,
+          "value": "Animal-themed worksheets give early-childhood teachers a vocabulary foundation that travels across the K-3 curriculum."
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "717d74585f2b03e104ea41a0122e14ee2fa868a2"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/around-the-house/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "around_the_house",
+      "slug": "around-the-house",
+      "status": 200,
+      "descriptionLength": 107,
+      "descriptionPreview": "Free Around the House worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 107,
+          "value": "Free Around the House worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Around the House worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b426f0d0605b2007ae0898a840807b944ebcc7ef"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/at-the-supermarket/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "at_the_supermarket",
+      "slug": "at-the-supermarket",
+      "status": 200,
+      "descriptionLength": 109,
+      "descriptionPreview": "Free At the Supermarket worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 109,
+          "value": "Free At the Supermarket worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free At the Supermarket worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "88a5d02aa0ea2732a5e0fad14f7162b1e72aa469"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/bakery/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "bakery",
+      "slug": "bakery",
+      "status": 200,
+      "descriptionLength": 97,
+      "descriptionPreview": "Free Bakery worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 97,
+          "value": "Free Bakery worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Bakery worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "0393944635ea541fc2c98c4f5b53e6becaba935f"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/beach/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "beach",
+      "slug": "beach",
+      "status": 200,
+      "descriptionLength": 96,
+      "descriptionPreview": "Free Beach worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 96,
+          "value": "Free Beach worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Beach worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "6a0268d56c59f0b1ff581821a6f6cfc4341ca444"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/birds/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "birds",
+      "slug": "birds",
+      "status": 200,
+      "descriptionLength": 96,
+      "descriptionPreview": "Free Birds worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 96,
+          "value": "Free Birds worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Birds worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "e3a38a26434fd6f45eb6326560c4e0318c66b900"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/birds-2/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "birds_2",
+      "slug": "birds-2",
+      "status": 200,
+      "descriptionLength": 98,
+      "descriptionPreview": "Free Birds 2 worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 98,
+          "value": "Free Birds 2 worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Birds 2 worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "311c16336fd10c65eaddc62b13dd84f369a41bab"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/body-parts/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "body_parts",
+      "slug": "body-parts",
+      "status": 200,
+      "descriptionLength": 101,
+      "descriptionPreview": "Free Body Parts worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 101,
+          "value": "Free Body Parts worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Body Parts worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "e62dcdf14c1d44d7f342f1ffd422438736d9445c"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/breakfast/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "breakfast",
+      "slug": "breakfast",
+      "status": 200,
+      "descriptionLength": 100,
+      "descriptionPreview": "Free Breakfast worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 100,
+          "value": "Free Breakfast worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Breakfast worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "0b8e14db04b5784cb9aee4b0b3939d892bd2eebc"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/camping/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "camping",
+      "slug": "camping",
+      "status": 200,
+      "descriptionLength": 98,
+      "descriptionPreview": "Free Camping worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 98,
+          "value": "Free Camping worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Camping worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "f3510ffd133527270c8de2e743a561478ee2073e"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/christmas/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "christmas",
+      "slug": "christmas",
+      "status": 200,
+      "descriptionLength": 100,
+      "descriptionPreview": "Free Christmas worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 100,
+          "value": "Free Christmas worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Christmas worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "f1123e36f94d8e03897eda591f9fb14981a77a65"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/classroom/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "classroom",
+      "slug": "classroom",
+      "status": 200,
+      "descriptionLength": 100,
+      "descriptionPreview": "Free Classroom worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 100,
+          "value": "Free Classroom worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Classroom worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "0bcf16914025cdf53f145372e8bce09b3962bfe5"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/clothing/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "clothing",
+      "slug": "clothing",
+      "status": 200,
+      "descriptionLength": 99,
+      "descriptionPreview": "Free Clothing worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 99,
+          "value": "Free Clothing worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Clothing worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "5aadf35f1a432f49d210eab12aa554a030f6333a"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/colors/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "colors",
+      "slug": "colors",
+      "status": 200,
+      "descriptionLength": 97,
+      "descriptionPreview": "Free Colors worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 97,
+          "value": "Free Colors worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Colors worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "9579b5a5f24429a8d4e374df2be787d7e69eb962"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/desserts-and-sweets/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "desserts_and_sweets",
+      "slug": "desserts-and-sweets",
+      "status": 200,
+      "descriptionLength": 110,
+      "descriptionPreview": "Free Desserts and Sweets worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 110,
+          "value": "Free Desserts and Sweets worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Desserts and Sweets worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b4fa560b0d86aa0f5c1e270c6af13fb2a199570a"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/dinosaurs/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "dinosaurs",
+      "slug": "dinosaurs",
+      "status": 200,
+      "descriptionLength": 100,
+      "descriptionPreview": "Free Dinosaurs worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 100,
+          "value": "Free Dinosaurs worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Dinosaurs worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "24663ba2fd5447cc71f0d9fc6bd99d2ee5eb4df7"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/easter/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "easter",
+      "slug": "easter",
+      "status": 200,
+      "descriptionLength": 97,
+      "descriptionPreview": "Free Easter worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 97,
+          "value": "Free Easter worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Easter worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "4241704d36f83c4a101315f228fa1010050537ca"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/emotions/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "emotions",
+      "slug": "emotions",
+      "status": 200,
+      "descriptionLength": 99,
+      "descriptionPreview": "Free Emotions worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 99,
+          "value": "Free Emotions worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Emotions worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "33c9fe92a22b9572cf5cfd507af36d52b0ab32f3"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/farm-animals/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "farm_animals",
+      "slug": "farm-animals",
+      "status": 200,
+      "descriptionLength": 103,
+      "descriptionPreview": "Free Farm Animals worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 103,
+          "value": "Free Farm Animals worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Farm Animals worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "0418ed2fa50987d25e4fe5e31b2181168fb6f0ce"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/flowers/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "flowers",
+      "slug": "flowers",
+      "status": 200,
+      "descriptionLength": 98,
+      "descriptionPreview": "Free Flowers worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 98,
+          "value": "Free Flowers worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Flowers worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "89cfa5b9102e77e102342227002d59361c334933"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/forest-creatures/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "forest_creatures",
+      "slug": "forest-creatures",
+      "status": 200,
+      "descriptionLength": 107,
+      "descriptionPreview": "Free Forest Creatures worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 107,
+          "value": "Free Forest Creatures worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Forest Creatures worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "4f11b084721e01b40f4f766fe3780175579a7f9c"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/fruits/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "fruits",
+      "slug": "fruits",
+      "status": 200,
+      "descriptionLength": 97,
+      "descriptionPreview": "Free Fruits worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 97,
+          "value": "Free Fruits worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Fruits worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "6e0de21bfa60b09a2b7c16ad6c7f3c924f94a05d"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/furniture/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "furniture",
+      "slug": "furniture",
+      "status": 200,
+      "descriptionLength": 100,
+      "descriptionPreview": "Free Furniture worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 100,
+          "value": "Free Furniture worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Furniture worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "5fa9b440fe47b8258710b7e6602faa6d2206da0f"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/hospital/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "hospital",
+      "slug": "hospital",
+      "status": 200,
+      "descriptionLength": 99,
+      "descriptionPreview": "Free Hospital worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 99,
+          "value": "Free Hospital worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Hospital worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "6d426a34d5d06538f098317c31f148df5e0e0844"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/insects-and-bugs/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "insects_and_bugs",
+      "slug": "insects-and-bugs",
+      "status": 200,
+      "descriptionLength": 107,
+      "descriptionPreview": "Free Insects and Bugs worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 107,
+          "value": "Free Insects and Bugs worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Insects and Bugs worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b291d7a0f67dee6dd990da5a3bac9566796d7523"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/kitchen-tools/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "kitchen_tools",
+      "slug": "kitchen-tools",
+      "status": 200,
+      "descriptionLength": 104,
+      "descriptionPreview": "Free Kitchen Tools worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 104,
+          "value": "Free Kitchen Tools worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Kitchen Tools worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "9c355f6c8fecf85a8bf3abc372dd350ac3fea0b6"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/miscellaneous/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "miscellaneous",
+      "slug": "miscellaneous",
+      "status": 200,
+      "descriptionLength": 104,
+      "descriptionPreview": "Free Miscellaneous worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 104,
+          "value": "Free Miscellaneous worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Miscellaneous worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "121883343ddbfac30e46dc4f266042840f302226"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/music/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "music",
+      "slug": "music",
+      "status": 200,
+      "descriptionLength": 96,
+      "descriptionPreview": "Free Music worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 96,
+          "value": "Free Music worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Music worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "e19e427e3baf26dd98e62cec6da5ae78cdea7b63"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/occupations/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "occupations",
+      "slug": "occupations",
+      "status": 200,
+      "descriptionLength": 102,
+      "descriptionPreview": "Free Occupations worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 102,
+          "value": "Free Occupations worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Occupations worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "ef4a06157659592fb673da2bcf8be14abcd026ee"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/ocean-life/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "ocean_life",
+      "slug": "ocean-life",
+      "status": 200,
+      "descriptionLength": 101,
+      "descriptionPreview": "Free Ocean Life worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 101,
+          "value": "Free Ocean Life worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Ocean Life worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "359b11f1396ece1f7fcd5a2412057af9dc9cc353"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/pets/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "pets",
+      "slug": "pets",
+      "status": 200,
+      "descriptionLength": 95,
+      "descriptionPreview": "Free Pets worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 95,
+          "value": "Free Pets worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Pets worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "8ca2944fc7226634b705c45356c16b60131588e5"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/post-office/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "post_office",
+      "slug": "post-office",
+      "status": 200,
+      "descriptionLength": 102,
+      "descriptionPreview": "Free Post Office worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 102,
+          "value": "Free Post Office worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Post Office worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "107bd789631a87d4f5fa376e7d5745834677a37f"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/reptiles-and-amphibians/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "reptiles_and_amphibians",
+      "slug": "reptiles-and-amphibians",
+      "status": 200,
+      "descriptionLength": 114,
+      "descriptionPreview": "Free Reptiles and Amphibians worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 114,
+          "value": "Free Reptiles and Amphibians worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Reptiles and Amphibians worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "ccd8a4f3ac45b555117141de0c0d274c95180145"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/shapes/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "shapes",
+      "slug": "shapes",
+      "status": 200,
+      "descriptionLength": 97,
+      "descriptionPreview": "Free Shapes worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 97,
+          "value": "Free Shapes worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Shapes worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "3feb8f8b36481c255867ce0c1438ae2cf08181e5"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/space/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "space",
+      "slug": "space",
+      "status": 200,
+      "descriptionLength": 96,
+      "descriptionPreview": "Free Space worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 96,
+          "value": "Free Space worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Space worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "2294e1896a0cad86648881f0dd336793dceba306"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/spring/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "spring",
+      "slug": "spring",
+      "status": 200,
+      "descriptionLength": 97,
+      "descriptionPreview": "Free Spring worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 97,
+          "value": "Free Spring worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Spring worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "8817471cce72847701a204a04b6ca1bb3f58ada6"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/summer/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "summer",
+      "slug": "summer",
+      "status": 200,
+      "descriptionLength": 97,
+      "descriptionPreview": "Free Summer worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 97,
+          "value": "Free Summer worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Summer worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "73721d37b40b5f23338b54aac5c6d17f0b82e482"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/thanksgiving/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "thanksgivinng",
+      "slug": "thanksgiving",
+      "status": 200,
+      "descriptionLength": 103,
+      "descriptionPreview": "Free Thanksgiving worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 103,
+          "value": "Free Thanksgiving worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Thanksgiving worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "02f0b6405cafd2e9b2d2847922bddebc400cb833"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/things-that-fly/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "things_that_fly",
+      "slug": "things-that-fly",
+      "status": 200,
+      "descriptionLength": 106,
+      "descriptionPreview": "Free Things That Fly worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 106,
+          "value": "Free Things That Fly worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Things That Fly worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "819b58708a81a58ad77c673be4a93c7d90d0ec7a"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/tools/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "tools",
+      "slug": "tools",
+      "status": 200,
+      "descriptionLength": 96,
+      "descriptionPreview": "Free Tools worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 96,
+          "value": "Free Tools worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Tools worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "54b7ce3cfc319cef62b1ed0d1b41ea5ffd4b60b6"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/toys/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "toys",
+      "slug": "toys",
+      "status": 200,
+      "descriptionLength": 95,
+      "descriptionPreview": "Free Toys worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 95,
+          "value": "Free Toys worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Toys worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "99b91d4b0a85bdc84ccbebf8aea7e7ab38ed11e6"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/trees/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "tree",
+      "slug": "trees",
+      "status": 200,
+      "descriptionLength": 96,
+      "descriptionPreview": "Free Trees worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 96,
+          "value": "Free Trees worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Trees worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d3aca7d525f5b98aa67341e7bfcdfe256dc39ff3"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/vegetables/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "vegetables",
+      "slug": "vegetables",
+      "status": 200,
+      "descriptionLength": 101,
+      "descriptionPreview": "Free Vegetables worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 101,
+          "value": "Free Vegetables worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Vegetables worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "02ec52042c2dee34d9075cf92edbf1583208d018"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/vehicles/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "vehicles",
+      "slug": "vehicles",
+      "status": 200,
+      "descriptionLength": 99,
+      "descriptionPreview": "Free Vehicles worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 99,
+          "value": "Free Vehicles worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Vehicles worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "a405979cd5e814342e52b0a3881d41fb3aa0164b"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/weather/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "weather",
+      "slug": "weather",
+      "status": 200,
+      "descriptionLength": 98,
+      "descriptionPreview": "Free Weather worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 98,
+          "value": "Free Weather worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Weather worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "4ff3a65a42844aafd7e88bf521c90344fa340458"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/winter/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "winter",
+      "slug": "winter",
+      "status": 200,
+      "descriptionLength": 97,
+      "descriptionPreview": "Free Winter worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 97,
+          "value": "Free Winter worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Winter worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "11cf7ed7f5db42f5d7a71c62d6cb3d709b8d17f3"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/zoo-animals/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "zoo_animals",
+      "slug": "zoo-animals",
+      "status": 200,
+      "descriptionLength": 102,
+      "descriptionPreview": "Free Zoo Animals worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 102,
+          "value": "Free Zoo Animals worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Zoo Animals worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "bb4c4d5c6d19b939ac1de8f369f016b0eb1fa5a2"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/animals-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "animals_bw",
+      "slug": "animals-bw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/animals-bw-2/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "animals_bw_2",
+      "slug": "animals-bw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/animals-bw-3/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "animals_bw_3",
+      "slug": "animals-bw-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/animals-bw-4/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "animals_bw_4",
+      "slug": "animals-bw-4",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/animals-bw-5/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "animals_bw_5",
+      "slug": "animals-bw-5",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/apparel-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "apparel_bw",
+      "slug": "apparel-bw",
+      "status": 200,
+      "descriptionLength": 101,
+      "descriptionPreview": "Free Apparel BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 101,
+          "value": "Free Apparel BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Apparel BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "70b872bdbde9b7ce23020eceb4ab3c6ba3c35a08"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/beach-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "beach_bw",
+      "slug": "beach-bw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/beach-bw-2/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "beach_bw_2",
+      "slug": "beach-bw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/birds-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "birds_bw",
+      "slug": "birds-bw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/birds-bw-2/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "birds_bw_2",
+      "slug": "birds-bw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/christmas-b-w/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "christmas_bw",
+      "slug": "christmas-b-w",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/christmas-b-w-2/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "christmas_bw_2",
+      "slug": "christmas-b-w-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/classroom-b-w/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "classroom_bw",
+      "slug": "classroom-b-w",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/classroom-2-b-w/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "classroom_bw_2",
+      "slug": "classroom-2-b-w",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/dessert-b-w/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "dessert_bw",
+      "slug": "dessert-b-w",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/easter-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "easter_bw",
+      "slug": "easter-bw",
+      "status": 200,
+      "descriptionLength": 100,
+      "descriptionPreview": "Free Easter BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 100,
+          "value": "Free Easter BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Easter BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "7380ae13381b364d3b42500a67444ca2d224683a"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/easter-bw-2/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "easter_bw_2",
+      "slug": "easter-bw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/education-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "education_bw",
+      "slug": "education-bw",
+      "status": 200,
+      "descriptionLength": 103,
+      "descriptionPreview": "Free Education BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 103,
+          "value": "Free Education BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Education BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "e36c120d0806748c10989e2564e1158679fbf730"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/faces-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "faces_bw",
+      "slug": "faces-bw",
+      "status": 200,
+      "descriptionLength": 99,
+      "descriptionPreview": "Free Faces BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 99,
+          "value": "Free Faces BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Faces BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "cf1eef3036614804461f75ba44bf7008eb1dcf5b"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/farm-animals-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "farm_animals_bw",
+      "slug": "farm-animals-bw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/farm-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "farm_bw",
+      "slug": "farm-bw",
+      "status": 200,
+      "descriptionLength": 98,
+      "descriptionPreview": "Free Farm BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 98,
+          "value": "Free Farm BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Farm BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "3151b2e7122018185cd9da75f9c87619cd79128f"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/food-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "food_bw",
+      "slug": "food-bw",
+      "status": 200,
+      "descriptionLength": 98,
+      "descriptionPreview": "Free Food BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 98,
+          "value": "Free Food BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Food BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "c13f0cad3894e4110a5fffb16544fe529a11814c"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/food-bw-2/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "food_bw_2",
+      "slug": "food-bw-2",
+      "status": 200,
+      "descriptionLength": 100,
+      "descriptionPreview": "Free Food BW 2 worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 100,
+          "value": "Free Food BW 2 worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Food BW 2 worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "1c9332b9458763cf5a9a06d5642e4234f3b23274"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/food-bw-3/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "food_bw_3",
+      "slug": "food-bw-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/fruits-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "fruits_bw",
+      "slug": "fruits-bw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/furniture-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "furniture_bw",
+      "slug": "furniture-bw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/home-and-nature-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "home_and_nature_bw",
+      "slug": "home-and-nature-bw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/home-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "home_bw",
+      "slug": "home-bw",
+      "status": 200,
+      "descriptionLength": 98,
+      "descriptionPreview": "Free Home BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 98,
+          "value": "Free Home BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Home BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "7cb66106ad63bd3b8689dec2a02cecc514f9da53"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/home-bw-2/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "home_bw_2",
+      "slug": "home-bw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/household-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "household_bw",
+      "slug": "household-bw",
+      "status": 200,
+      "descriptionLength": 103,
+      "descriptionPreview": "Free Household BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 103,
+          "value": "Free Household BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Household BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "3fcd43578e7d7fe77021ec47fa65092d253f4fa8"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/kitchen-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "kitchen_bw",
+      "slug": "kitchen-bw",
+      "status": 200,
+      "descriptionLength": 101,
+      "descriptionPreview": "Free Kitchen BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 101,
+          "value": "Free Kitchen BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Kitchen BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "860d56973ccb52c4d8f2fe2007dfedef8bb93f72"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/nature-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "nature_bw",
+      "slug": "nature-bw",
+      "status": 200,
+      "descriptionLength": 100,
+      "descriptionPreview": "Free Nature BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 100,
+          "value": "Free Nature BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Nature BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "977d9841e23c68988f31592fd446be2e60f332bc"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/objects-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "objects_bw",
+      "slug": "objects-bw",
+      "status": 200,
+      "descriptionLength": 101,
+      "descriptionPreview": "Free Objects BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 101,
+          "value": "Free Objects BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Objects BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "46a6b00b65a341598d573044d0999b0e55379fcb"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/sea-life-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "sea_life_bw",
+      "slug": "sea-life-bw",
+      "status": 200,
+      "descriptionLength": 102,
+      "descriptionPreview": "Free Sea Life BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 102,
+          "value": "Free Sea Life BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Sea Life BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "29f41c1295b7f3858a4d3d9753888fc4b67219dc"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/sea-life-bw-2/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "sea_life_bw_2",
+      "slug": "sea-life-bw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/space-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "space_bw",
+      "slug": "space-bw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/sports-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "sports_bw",
+      "slug": "sports-bw",
+      "status": 200,
+      "descriptionLength": 100,
+      "descriptionPreview": "Free Sports BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 100,
+          "value": "Free Sports BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Sports BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "267ef19b7e7b0d749d3c0baa7043764e072e9880"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/sports-bw-2/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "sports_bw_2",
+      "slug": "sports-bw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/tools-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "tools_bw",
+      "slug": "tools-bw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/toys-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "toys_bw",
+      "slug": "toys-bw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/toys-bw-2/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "toys_bw_2",
+      "slug": "toys-bw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/travel-and-holiday-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "travel_and_holiday_bw",
+      "slug": "travel-and-holiday-bw",
+      "status": 200,
+      "descriptionLength": 112,
+      "descriptionPreview": "Free Travel and Holiday BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 112,
+          "value": "Free Travel and Holiday BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Travel and Holiday BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "199da997891115c02748936016da2d8fda635246"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/valentine-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "valentine_bw",
+      "slug": "valentine-bw",
+      "status": 200,
+      "descriptionLength": 103,
+      "descriptionPreview": "Free Valentine BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 103,
+          "value": "Free Valentine BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "fallbackTemplate": {
+          "pass": false,
+          "category": "CANNIBALIZED_FALLBACK_DETECTED",
+          "value": "Free Valentine BW worksheets and printable PDFs. Interactive activities for early-childhood classrooms."
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "81fdcb5c1efaa818b4d83dc8ac69f86c8709e9a5"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT",
+        "META_DESCRIPTION_FALLBACK_TEMPLATE_DETECTED"
+      ],
+      "defectCount": 2,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/valentine-bw-2/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "valentine_bw_2",
+      "slug": "valentine-bw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/vegetables-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "vegetables_bw",
+      "slug": "vegetables-bw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/vegetables-bw-2/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "vegetables_bw_2",
+      "slug": "vegetables-bw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/vehicles-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "vehicles_bw",
+      "slug": "vehicles-bw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/vehicles-bw-2/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "vehicles_bw_2",
+      "slug": "vehicles-bw-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/vehicles-bw-3/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "vehicles_bw_3",
+      "slug": "vehicles-bw-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/zoo-animals-bw/",
+      "locale": "en",
+      "axis": "theme",
+      "axisKey": "zoo_animals_bw",
+      "slug": "zoo-animals-bw",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/preschool/",
+      "locale": "en",
+      "axis": "educational-level",
+      "axisKey": "preschool",
+      "slug": "preschool",
+      "status": 200,
+      "descriptionLength": 152,
+      "descriptionPreview": "Preschool worksheets meet children at the developmental moment when pencil grip is becoming reliable and the brain is ready for purposeful pre-academic…",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 152
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "7b6928b732e84baafad109e0553a6732bb69ebc3"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/kindergarten/",
+      "locale": "en",
+      "axis": "educational-level",
+      "axisKey": "kindergarten",
+      "slug": "kindergarten",
+      "status": 200,
+      "descriptionLength": 106,
+      "descriptionPreview": "Kindergarten worksheets are tuned to the year when pre-academic curiosity hardens into academic readiness.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": false,
+          "category": "TOO_SHORT",
+          "length": 106,
+          "value": "Kindergarten worksheets are tuned to the year when pre-academic curiosity hardens into academic readiness."
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "bab23b3a2200fc1441a1f99d51536f4596ee35d9"
+        }
+      },
+      "defectClasses": [
+        "META_DESCRIPTION_LENGTH_TOO_SHORT"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/grade-1/",
+      "locale": "en",
+      "axis": "educational-level",
+      "axisKey": "grade-1",
+      "slug": "grade-1",
+      "status": 200,
+      "descriptionLength": 131,
+      "descriptionPreview": "Grade-1 worksheets meet the moment when children consolidate the foundations laid in kindergarten into fluent independent practice.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 131
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "077704e9dcda07e903aff429334159f6b1ec5e25"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/grade-2/",
+      "locale": "en",
+      "axis": "educational-level",
+      "axisKey": "grade-2",
+      "slug": "grade-2",
+      "status": 200,
+      "descriptionLength": 131,
+      "descriptionPreview": "Grade-2 worksheets meet children who are now reading independently, writing in sentences, and ready for multi-step problem-solving.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 131
+        },
+        "fallbackTemplate": {
+          "pass": true
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "148a0b1f4998981b100eb486f436cc49bf40b74f"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/en/topic/grade-3/",
+      "locale": "en",
+      "axis": "educational-level",
+      "axisKey": "grade-3",
+      "slug": "grade-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    }
+  ]
+}

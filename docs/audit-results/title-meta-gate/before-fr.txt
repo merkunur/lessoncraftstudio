@@ -1,0 +1,121 @@
+=== §4.B genericness + structural lints ===
+  -> all 2701 pages pass lint (≥200 words, no banned phrases, theme-noun in P1)
+
+=== §4.C similarity — per-(type,mode) WITHIN-CLASS clusters (whole-page RAW) ===
+  addition/find-addend (n=40): max 0.623 mean 0.308 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.125 | maxPair addition-trouve-le-terme-ustensiles-de-cuisine-9c2d ~ addition-trouve-le-terme-espace-0aaf
+  addition/image-image (n=40): max 0.625 mean 0.318 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.130 | maxPair addition-image-image-noel-555e ~ addition-image-image-vie-oceanique-553e
+  addition/image-number (n=40): max 0.611 mean 0.311 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.128 | maxPair addition-image-nombre-accessoires-0855 ~ addition-image-nombre-animaux-de-la-ferme-9cfa
+  addition/mixed (n=40): max 0.638 mean 0.304 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.133 | maxPair addition-mixte-animaux-a961 ~ addition-mixte-fleurs-984f
+  alphabet-train/letter-hint (n=31): max 0.619 mean 0.345 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.117 | maxPair train-de-l-alphabet-indice-de-lettre-couleurs-1795 ~ train-de-l-alphabet-indice-de-lettre-vehicules-5b8a
+  alphabet-train/null (n=29): max 0.597 mean 0.311 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.108 | maxPair train-de-l-alphabet-autour-de-la-maison-438d ~ train-de-l-alphabet-hiver-eea9
+  big-small/findBig (n=41): max 0.714 mean 0.295 #FAIL>=0.80=0 #WARN>=0.65=31 | P1-raw mean 0.110 | maxPair grand-petit-trouve-le-grand-insectes-et-bestioles-c400 ~ grand-petit-trouve-le-grand-formes-606d
+  bingo/null (n=37): max 0.633 mean 0.304 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.108 | maxPair loto-animaux ~ loto-creatures-de-la-foret-b569
+  chart-count/null (n=41): max 0.355 mean 0.119 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.082 | maxPair comptage-graphique-dinosaures-6875 ~ comptage-graphique-vehicules-d0ef
+  code-addition/null (n=48): max 0.679 mean 0.318 #FAIL>=0.80=0 #WARN>=0.65=8 | P1-raw mean 0.150 | maxPair addition-codee-animaux-de-la-ferme-a5f3 ~ addition-codee-printemps-8a4b
+  code-addition/secret-word (n=46): max 0.720 mean 0.351 #FAIL>=0.80=0 #WARN>=0.65=53 | P1-raw mean 0.199 | maxPair addition-codee-mot-secret-au-supermarche-eb96 ~ addition-codee-mot-secret-hiver-63cf
+  crossword/null (n=43): max 0.699 mean 0.336 #FAIL>=0.80=0 #WARN>=0.65=23 | P1-raw mean 0.139 | maxPair mots-croises-action-de-grace-82e0 ~ mots-croises-animaux-du-zoo-72fb
+  crossword/null/t:en (n=46): max 0.543 mean 0.263 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.116 | maxPair anglais-mots-croises-camping-c0ca ~ anglais-mots-croises-musique-f60c
+  find-and-count/hidden-object (n=43): max 0.649 mean 0.257 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.132 | maxPair trouve-et-compte-objets-caches-fleurs-fe22 ~ trouve-et-compte-objets-caches-choses-qui-volent-e08a
+  find-and-count/letter-spotting (n=42): max 0.665 mean 0.303 #FAIL>=0.80=0 #WARN>=0.65=9 | P1-raw mean 0.191 | maxPair trouve-et-compte-cherche-les-lettres-petit-dejeuner-3585 ~ trouve-et-compte-cherche-les-lettres-animaux-du-zoo-f6bc
+  find-objects/find-odd (n=48): max 0.614 mean 0.303 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.131 | maxPair trouve-les-objets-trouve-l-intrus-insectes-et-bestioles-a489 ~ trouve-les-objets-trouve-l-intrus-arbres-d057
+  find-objects/i-spy (n=47): max 0.622 mean 0.294 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.122 | maxPair trouve-les-objets-je-vois-je-vois-activites-b6cd ~ trouve-les-objets-je-vois-je-vois-paques-2eae
+  grid-match/null (n=47): max 0.668 mean 0.262 #FAIL>=0.80=0 #WARN>=0.65=2 | P1-raw mean 0.110 | maxPair appariement-en-grille-au-supermarche-99f2 ~ appariement-en-grille-meteo-cbd8
+  matching/letter (n=44): max 0.757 mean 0.327 #FAIL>=0.80=0 #WARN>=0.65=96 | P1-raw mean 0.143 | maxPair appariement-lettre-autour-de-la-maison-5e48 ~ appariement-lettre-animaux-du-zoo-7cf5
+  matching/name (n=44): max 0.723 mean 0.334 #FAIL>=0.80=0 #WARN>=0.65=88 | P1-raw mean 0.147 | maxPair appariement-noms-plage-9976 ~ appariement-noms-bureau-de-poste-dbc7
+  matching/name/t:en (n=47): max 0.615 mean 0.291 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.136 | maxPair anglais-appariement-noms-reptiles-et-amphibiens-92d2 ~ anglais-appariement-noms-jouets-be13
+  math-puzzle/addition (n=41): max 0.691 mean 0.355 #FAIL>=0.80=0 #WARN>=0.65=65 | P1-raw mean 0.149 | maxPair puzzle-mathematique-addition-divers-4c05 ~ puzzle-mathematique-addition-animaux-du-zoo-520c
+  math-puzzle/mixed (n=40): max 0.728 mean 0.368 #FAIL>=0.80=0 #WARN>=0.65=61 | P1-raw mean 0.166 | maxPair puzzle-mathematique-mixte-accessoires-0a3d ~ puzzle-mathematique-mixte-animaux-de-la-ferme-e8ce
+  math-puzzle/subtraction (n=40): max 0.710 mean 0.358 #FAIL>=0.80=0 #WARN>=0.65=60 | P1-raw mean 0.151 | maxPair puzzle-mathematique-soustraction-oiseaux-f9ca ~ puzzle-mathematique-soustraction-ustensiles-de-cuisine-a316
+  math-worksheet/three-symbols-add-sub (n=48): max 0.634 mean 0.290 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.132 | maxPair fiche-de-mathematiques-3-symboles-add-sous-creatures-de-la-foret-f349 ~ fiche-de-mathematiques-3-symboles-add-sous-action-de-grace-baf1
+  math-worksheet/two-symbols-add-sub (n=49): max 0.619 mean 0.289 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.123 | maxPair fiche-de-mathematiques-2-symboles-add-sous-fleurs-7cc1 ~ fiche-de-mathematiques-2-symboles-add-sous-printemps-4b4e
+  missing-pieces/one-missing (n=46): max 0.678 mean 0.329 #FAIL>=0.80=0 #WARN>=0.65=15 | P1-raw mean 0.117 | maxPair pieces-manquantes-1-piece-manquante-hopital-bb74 ~ pieces-manquantes-1-piece-manquante-reptiles-et-amphibiens-28cb
+  missing-pieces/two-missing (n=46): max 0.662 mean 0.321 #FAIL>=0.80=0 #WARN>=0.65=5 | P1-raw mean 0.116 | maxPair pieces-manquantes-2-pieces-manquantes-autour-de-la-maison-979d ~ pieces-manquantes-2-pieces-manquantes-meteo-92ad
+  more-less/check-cross (n=40): max 0.653 mean 0.296 #FAIL>=0.80=0 #WARN>=0.65=1 | P1-raw mean 0.133 | maxPair plus-ou-moins-coche-et-barre-les-groupes-accessoires-cf69 ~ plus-ou-moins-coche-et-barre-les-groupes-animaux-de-la-ferme-0cc9
+  more-less/image-image (n=39): max 0.661 mean 0.296 #FAIL>=0.80=0 #WARN>=0.65=1 | P1-raw mean 0.132 | maxPair plus-ou-moins-image-image-espace-1b6b ~ plus-ou-moins-image-image-animaux-du-zoo-6e1d
+  more-less/image-number (n=40): max 0.632 mean 0.302 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.124 | maxPair plus-ou-moins-image-nombre-oiseaux-2-f0ba ~ plus-ou-moins-image-nombre-ustensiles-de-cuisine-e0f4
+  odd-one-out/same-theme (n=48): max 0.605 mean 0.279 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.146 | maxPair l-intrus-meme-theme-action-de-grace-5837 ~ l-intrus-meme-theme-hiver-8294
+  pattern-train/aab (n=48): max 0.635 mean 0.300 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.121 | maxPair train-de-modeles-aab-accessoires-0de6 ~ train-de-modeles-aab-oiseaux-2-c2c6
+  pattern-train/aabb (n=46): max 0.633 mean 0.303 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.124 | maxPair train-de-modeles-aabb-oiseaux-2-2f25 ~ train-de-modeles-aabb-dinosaures-8637
+  pattern-train/abb (n=47): max 0.645 mean 0.298 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.123 | maxPair train-de-modeles-abb-accessoires-c667 ~ train-de-modeles-abb-jouets-b1fd
+  pattern-train/abc (n=48): max 0.642 mean 0.297 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.122 | maxPair train-de-modeles-abc-parties-du-corps-acb7 ~ train-de-modeles-abc-jouets-0d6e
+  pattern-train/null (n=47): max 0.663 mean 0.297 #FAIL>=0.80=0 #WARN>=0.65=6 | P1-raw mean 0.124 | maxPair train-de-modeles-metiers-3755 ~ train-de-modeles-meteo-f987
+  pattern-worksheet/null (n=47): max 0.688 mean 0.328 #FAIL>=0.80=0 #WARN>=0.65=17 | P1-raw mean 0.122 | maxPair fiche-de-modeles-plage-24ec ~ fiche-de-modeles-choses-qui-volent-e351
+  picture-path/choose-path (n=48): max 0.693 mean 0.316 #FAIL>=0.80=0 #WARN>=0.65=60 | P1-raw mean 0.137 | maxPair parcours-illustre-choisis-le-bon-chemin-noel-c6d9 ~ parcours-illustre-choisis-le-bon-chemin-vehicules-1b1f
+  picture-path/classic-maze (n=37): max 0.671 mean 0.308 #FAIL>=0.80=0 #WARN>=0.65=22 | P1-raw mean 0.125 | maxPair parcours-illustre-labyrinthe-classique-ustensiles-de-cuisine-755c ~ parcours-illustre-labyrinthe-classique-hiver-24aa
+  picture-sort/null (n=138): max 0.725 mean 0.254 #FAIL>=0.80=0 #WARN>=0.65=1 | P1-raw mean 0.094 | maxPair trier-les-images-accessories-vs-animals-7b97 ~ trier-les-images-accessories-vs-forest-creatures-1680
+  prepositions/fillin (n=47): max 0.668 mean 0.302 #FAIL>=0.80=0 #WARN>=0.65=1 | P1-raw mean 0.120 | maxPair prepositions-a-completer-couleurs-c801 ~ prepositions-a-completer-fruits-3fe1
+  prepositions/multiplechoice (n=43): max 0.637 mean 0.294 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.114 | maxPair prepositions-choix-multiple-autour-de-la-maison-4f8b ~ prepositions-choix-multiple-outils-f2ba
+  shadow-match/find-shadow (n=45): max 0.681 mean 0.285 #FAIL>=0.80=0 #WARN>=0.65=13 | P1-raw mean 0.113 | maxPair apparier-les-ombres-associe-l-ombre-creatures-de-la-foret-4c8f ~ apparier-les-ombres-associe-l-ombre-animaux-du-zoo-098b
+  shadow-match/make-whole (n=47): max 0.688 mean 0.290 #FAIL>=0.80=0 #WARN>=0.65=8 | P1-raw mean 0.120 | maxPair apparier-les-ombres-complete-au-supermarche-0e0d ~ apparier-les-ombres-complete-meteo-0e94
+  subtraction/cross-out (n=40): max 0.652 mean 0.304 #FAIL>=0.80=0 #WARN>=0.65=2 | P1-raw mean 0.114 | maxPair soustraction-barrer-oiseaux-2-c805 ~ soustraction-barrer-ustensiles-de-cuisine-ac97
+  subtraction/find-subtrahend (n=40): max 0.649 mean 0.317 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.122 | maxPair soustraction-trouve-le-soustracteur-ustensiles-de-cuisine-aefc ~ soustraction-trouve-le-soustracteur-espace-7c0e
+  subtraction/image-number (n=40): max 0.646 mean 0.302 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.113 | maxPair soustraction-image-nombre-paques-70e1 ~ soustraction-image-nombre-ustensiles-de-cuisine-38ed
+  subtraction/mixed (n=39): max 0.652 mean 0.300 #FAIL>=0.80=0 #WARN>=0.65=1 | P1-raw mean 0.131 | maxPair soustraction-mixte-au-supermarche-e4f0 ~ soustraction-mixte-arbres-8702
+  sudoku/easy (n=48): max 0.652 mean 0.302 #FAIL>=0.80=0 #WARN>=0.65=1 | P1-raw mean 0.134 | maxPair sudoku-illustre-facile-animaux-9534 ~ sudoku-illustre-facile-insectes-et-bestioles-a0d7
+  sudoku/medium (n=48): max 0.680 mean 0.297 #FAIL>=0.80=0 #WARN>=0.65=9 | P1-raw mean 0.121 | maxPair sudoku-illustre-moyen-boulangerie-bf66 ~ sudoku-illustre-moyen-meteo-9773
+  treasure-hunt/cardinal-arrows (n=48): max 0.723 mean 0.371 #FAIL>=0.80=0 #WARN>=0.65=109 | P1-raw mean 0.160 | maxPair chasse-au-tresor-haut-bas-gauche-droite-vie-oceanique-472c ~ chasse-au-tresor-haut-bas-gauche-droite-hiver-a02c
+  treasure-hunt/compass (n=45): max 0.725 mean 0.382 #FAIL>=0.80=0 #WARN>=0.65=100 | P1-raw mean 0.166 | maxPair chasse-au-tresor-points-cardinaux-metiers-4143 ~ chasse-au-tresor-points-cardinaux-hiver-c5b7
+  word-guess/easy (n=46): max 0.583 mean 0.315 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.147 | maxPair devine-le-mot-facile-boulangerie-762f ~ devine-le-mot-facile-creatures-de-la-foret-cc23
+  word-guess/normal (n=47): max 0.582 mean 0.320 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.154 | maxPair devine-le-mot-normal-animaux-5498 ~ devine-le-mot-normal-animaux-du-zoo-f2bc
+  word-scramble/easy (n=46): max 0.522 mean 0.278 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.127 | maxPair lettres-melangees-facile-fleurs-0299 ~ lettres-melangees-facile-reptiles-et-amphibiens-69c0
+  word-scramble/normal (n=47): max 0.526 mean 0.280 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.137 | maxPair lettres-melangees-normal-choses-qui-volent-13f8 ~ lettres-melangees-normal-meteo-8c4d
+  wordsearch/null (n=47): max 0.689 mean 0.327 #FAIL>=0.80=0 #WARN>=0.65=17 | P1-raw mean 0.134 | maxPair mots-meles-boulangerie-3419 ~ mots-meles-hiver-076a
+  wordsearch/null/t:en (n=48): max 0.597 mean 0.293 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.140 | maxPair anglais-mots-meles-hopital-d078 ~ anglais-mots-meles-reptiles-et-amphibiens-5e67
+
+=== cross-class + within: ALL 2701 landings, whole-page RAW ===
+  ALL-PAIRS: {"max":"0.757","mean":"0.021","pairs":3646350,"over80":0,"over65":889,"over85":0,"maxPair":"appariement-lettre-autour-de-la-maison-5e48 ~ appariement-lettre-animaux-du-zoo-7cf5"}
+
+=== full distribution: TOP-10 raw whole-page pairs (within+cross) ===
+  1. 0.757  appariement-lettre-autour-de-la-maison-5e48 ~ appariement-lettre-animaux-du-zoo-7cf5  (matching/letter)
+  2. 0.749  appariement-lettre-animaux-d80c ~ appariement-lettre-emotions-93e4  (matching/letter)
+  3. 0.745  appariement-lettre-oiseaux-2-589c ~ appariement-lettre-insectes-et-bestioles-f6d4  (matching/letter)
+  4. 0.731  appariement-lettre-boulangerie-faad ~ appariement-lettre-fruits-1634  (matching/letter)
+  5. 0.728  puzzle-mathematique-mixte-accessoires-0a3d ~ puzzle-mathematique-mixte-animaux-de-la-ferme-e8ce  (math-puzzle/mixed)
+  6. 0.725  trier-les-images-accessories-vs-animals-7b97 ~ trier-les-images-accessories-vs-forest-creatures-1680  (picture-sort/null)
+  7. 0.725  chasse-au-tresor-points-cardinaux-metiers-4143 ~ chasse-au-tresor-points-cardinaux-hiver-c5b7  (treasure-hunt/compass)
+  8. 0.724  chasse-au-tresor-points-cardinaux-animaux-281e ~ chasse-au-tresor-points-cardinaux-meteo-b45d  (treasure-hunt/compass)
+  9. 0.723  appariement-noms-plage-9976 ~ appariement-noms-bureau-de-poste-dbc7  (matching/name)
+  10. 0.723  appariement-noms-meubles-b9a5 ~ appariement-noms-bureau-de-poste-dbc7  (matching/name)
+
+=== cross-class template-collision probe (slot-normalized whole-page, DIFFERENT (type,mode) only) ===
+  max cross-class slot-normalized Jaccard: 0.729  [parcours-illustre-choisis-le-bon-chemin-noel-c6d9 ~ parcours-illustre-labyrinthe-classique-desserts-et-sucreries-6df3 (picture-path/choose-path vs picture-path/classic-maze)]
+
+=== §4.E title + meta distinctness ===
+  [P] shared first-50-char title prefixes: 14 groups covering 169 of 2701 pages -> FAIL
+        40 pages share "fiches de soustraction cp sans retenue avec images…"  e.g. soustraction-image-nombre-accessoires-b945, soustraction-image-nombre-animaux-33c8, soustraction-image-nombre-autour-de-la-maison-96cd
+        39 pages share "fiches d'addition cp sans retenue avec images et n…"  e.g. addition-image-nombre-accessoires-0855, addition-image-nombre-autour-de-la-maison-5d10, addition-image-nombre-au-supermarche-db1e
+        38 pages share "fiches de soustraction cp sans retenue à barrer –…"  e.g. soustraction-barrer-accessoires-3669, soustraction-barrer-animaux, soustraction-barrer-autour-de-la-maison-d3c3
+        29 pages share "ordre alphabétique en images pour la maternelle –…"  e.g. train-de-l-alphabet-indice-de-lettre-accessoires-6d18, train-de-l-alphabet-indice-de-lettre-activites-9f0a, train-de-l-alphabet-indice-de-lettre-autour-de-la-maison-6c0c
+         4 pages share "comparer les quantités avec images et nombres – an…"  e.g. plus-ou-moins-image-nombre-animaux-bd6d, plus-ou-moins-image-nombre-animaux-de-la-ferme-a9d8, plus-ou-moins-image-nombre-animaux-de-compagnie-c908
+      WARN 126 pages have no title (route falls back to h1)
+      WARN 126 pages have no metaDescription (route falls back to first sentence of p1 — which is UNIQUE, so this is healthier than a templated one)
+      WARN 1096 metaDescriptions outside the 120-170 band expected by the §21.2 preband step
+  addition/find-addend (n=40): TITLE mean 0.445 max 0.583 #FAIL=0 | META mean 0.680 max 0.773 #FAIL=0
+  addition/image-number (n=40): TITLE mean 0.547 max 0.688 #FAIL=0 | META mean 0.688 max 0.808 #FAIL=1
+  addition/mixed (n=40): TITLE mean 0.445 max 0.583 #FAIL=0 | META mean 0.680 max 0.773 #FAIL=0
+  alphabet-train/letter-hint (n=31): TITLE mean 0.361 max 0.455 #FAIL=0 | META mean 0.690 max 0.818 #FAIL=171
+  matching/name (n=44): TITLE mean 0.386 max 0.545 #FAIL=0 | META mean 0.681 max 0.792 #FAIL=0
+  math-puzzle/mixed (n=40): TITLE mean 0.291 max 0.667 #FAIL=0 | META mean 0.631 max 0.850 #FAIL=1
+  math-worksheet/three-symbols-add-sub (n=48): TITLE mean 0.286 max 0.700 #FAIL=0 | META mean 0.582 max 0.850 #FAIL=1
+  more-less/image-image (n=39): TITLE mean 0.424 max 0.583 #FAIL=0 | META mean 0.670 max 0.792 #FAIL=0
+  more-less/image-number (n=40): TITLE mean 0.516 max 0.643 #FAIL=0 | META mean 0.726 max 0.808 #FAIL=1
+  subtraction/find-subtrahend (n=40): TITLE mean 0.445 max 0.583 #FAIL=0 | META mean 0.680 max 0.773 #FAIL=0
+  subtraction/image-number (n=40): TITLE mean 0.571 max 0.688 #FAIL=0 | META mean 0.634 max 0.808 #FAIL=1
+  subtraction/mixed (n=39): TITLE mean 0.444 max 0.583 #FAIL=0 | META mean 0.679 max 0.773 #FAIL=0
+  treasure-hunt/compass (n=45): TITLE mean 0.451 max 0.583 #FAIL=0 | META mean 0.656 max 0.750 #FAIL=0
+  word-guess/easy (n=46): TITLE mean 0.437 max 0.583 #FAIL=0 | META mean 0.670 max 0.783 #FAIL=0
+  word-guess/normal (n=47): TITLE mean 0.436 max 0.583 #FAIL=0 | META mean 0.669 max 0.783 #FAIL=0
+  word-scramble/easy (n=46): TITLE mean 0.465 max 0.615 #FAIL=0 | META mean 0.690 max 0.800 #FAIL=1
+  word-scramble/normal (n=47): TITLE mean 0.472 max 0.615 #FAIL=0 | META mean 0.692 max 0.800 #FAIL=1
+  [T] worst within-class TITLE max: 0.700  [fiche-de-mathematiques-3-symboles-add-sous-oiseaux-53f1 ~ fiche-de-mathematiques-3-symboles-add-sous-oiseaux-2-5d48]  -> PASS
+  [M] worst within-class META  max: 0.850  [puzzle-mathematique-mixte-oiseaux-81a2 ~ puzzle-mathematique-mixte-oiseaux-2-3a5d]  -> FAIL
+
+=== VERDICT vs LOCKED thresholds (2026-06-06 calibration) ===
+  [1] cannibalization = WHOLE-PAGE RAW: FAIL>=0.80 / WARN 0.65-0.80 / PASS<0.65 (within+cross)
+      worst within-class max: 0.757  [appariement-lettre-autour-de-la-maison-5e48 ~ appariement-lettre-animaux-du-zoo-7cf5]  -> PASS
+      all-pairs max:          0.757 #FAIL(>=0.80)=0 #WARN(>=0.65)=889  -> PASS
+  [2] cluster-density (whole-page-raw mean) alarm>0.75 (per cluster): OK
+  [3] cross-class slot-norm template-collision FAIL>=0.90: max=0.729  -> PASS
+  [4] P1-raw cluster-mean WARN>0.70 (per cluster): ok
+  [5] title/meta distinctness (§4.E): shared-50-char-prefix groups=14, worst TITLE 0.700, worst META 0.850  -> FAIL
+      (per-paragraph 0.85 FAIL + within-class slot-norm = RETIRED per ruling — they misfire on the intended template/variant design)

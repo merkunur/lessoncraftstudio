@@ -1,0 +1,110 @@
+[
+  {
+    "case": "evenodd-de",
+    "w": 280,
+    "clip": true,
+    "fonts": "no-frame"
+  },
+  {
+    "case": "evenodd-de",
+    "w": 375,
+    "clip": true,
+    "fonts": "no-frame"
+  },
+  {
+    "case": "evenodd-de",
+    "w": 430,
+    "clip": true,
+    "fonts": "no-frame"
+  },
+  {
+    "case": "evenodd-de",
+    "w": 768,
+    "clip": true,
+    "fonts": "no-frame"
+  },
+  {
+    "case": "evenodd-de",
+    "w": 1024,
+    "clip": true,
+    "fonts": "no-frame"
+  },
+  {
+    "case": "evenodd-de",
+    "w": 1920,
+    "clip": true,
+    "fonts": "no-frame"
+  },
+  {
+    "case": "evenodd-fi",
+    "w": 280,
+    "clip": true,
+    "fonts": "Parillinen·14px·H76·L1·ok  Pariton·14px·H76·L1·ok"
+  },
+  {
+    "case": "evenodd-fi",
+    "w": 375,
+    "clip": false,
+    "fonts": "Parillinen·14px·H76·L1·ok  Pariton·14px·H76·L1·ok"
+  },
+  {
+    "case": "evenodd-fi",
+    "w": 430,
+    "clip": false,
+    "fonts": "Parillinen·16.47px·H76·L1·ok  Pariton·16.47px·H76·L1·ok"
+  },
+  {
+    "case": "evenodd-fi",
+    "w": 768,
+    "clip": false,
+    "fonts": "Parillinen·54px·H249·L1·ok  Pariton·54px·H200·L1·ok"
+  },
+  {
+    "case": "evenodd-fi",
+    "w": 1024,
+    "clip": true,
+    "fonts": "Parillinen·88px·H220·L1·CLIP  Pariton·88px·H220·L1·CLIP"
+  },
+  {
+    "case": "evenodd-fi",
+    "w": 1920,
+    "clip": true,
+    "fonts": "Parillinen·88px·H220·L1·CLIP  Pariton·88px·H220·L1·CLIP"
+  },
+  {
+    "case": "flatsolid-nl",
+    "w": 280,
+    "clip": true,
+    "fonts": "Plat·14px·H76·L1·ok  Lichaam·14px·H76·L1·ok"
+  },
+  {
+    "case": "flatsolid-nl",
+    "w": 375,
+    "clip": false,
+    "fonts": "Plat·14px·H76·L1·ok  Lichaam·14px·H76·L1·ok"
+  },
+  {
+    "case": "flatsolid-nl",
+    "w": 430,
+    "clip": false,
+    "fonts": "Plat·16.47px·H76·L1·ok  Lichaam·16.47px·H76·L2·ok"
+  },
+  {
+    "case": "flatsolid-nl",
+    "w": 768,
+    "clip": false,
+    "fonts": "Plat·54px·H120·L1·ok  Lichaam·54px·H223·L1·ok"
+  },
+  {
+    "case": "flatsolid-nl",
+    "w": 1024,
+    "clip": true,
+    "fonts": "Plat·88px·H220·L1·ok  Lichaam·88px·H220·L2·CLIP"
+  },
+  {
+    "case": "flatsolid-nl",
+    "w": 1920,
+    "clip": true,
+    "fonts": "Plat·88px·H220·L1·ok  Lichaam·88px·H220·L2·CLIP"
+  }
+]

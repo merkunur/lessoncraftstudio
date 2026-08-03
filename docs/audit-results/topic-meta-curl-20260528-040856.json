@@ -1,0 +1,3546 @@
+{
+  "opts": {
+    "baseUrl": "https://www.lessoncraftstudio.com",
+    "locales": [
+      "pt"
+    ],
+    "axes": [
+      "exercise-type",
+      "theme",
+      "educational-level"
+    ],
+    "outDir": "C:\\Users\\rkgen\\lessoncraftstudio\\docs\\audit-results",
+    "concurrency": 10,
+    "sample": null,
+    "includeIntersections": false,
+    "timeoutMs": 15000
+  },
+  "byLocale": {
+    "pt": {
+      "locale": "pt",
+      "total": 134,
+      "pass": 83,
+      "fail": 51,
+      "byAxis": {
+        "exercise-type": {
+          "total": 29,
+          "pass": 29
+        },
+        "theme": {
+          "total": 100,
+          "pass": 50
+        },
+        "educational-level": {
+          "total": 5,
+          "pass": 4
+        }
+      },
+      "defectCounts": {
+        "PAGE_HTTP_404": 51
+      },
+      "fallbackCount": 0,
+      "tooShortCount": 0,
+      "tooLongCount": 0,
+      "nonUniqueCount": 0,
+      "missingCount": 0,
+      "sampleFailures": [
+        {
+          "url": "https://www.lessoncraftstudio.com/pt/topic/animais-pb/",
+          "axisKey": "animals_bw",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/pt/topic/animais-pb-2/",
+          "axisKey": "animals_bw_2",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/pt/topic/animais-pb-3/",
+          "axisKey": "animals_bw_3",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/pt/topic/animais-pb-4/",
+          "axisKey": "animals_bw_4",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/pt/topic/animais-pb-5/",
+          "axisKey": "animals_bw_5",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        }
+      ]
+    }
+  },
+  "perPage": [
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/adicao/",
+      "locale": "pt",
+      "axis": "exercise-type",
+      "axisKey": "addition",
+      "slug": "adicao",
+      "status": 200,
+      "descriptionLength": 136,
+      "descriptionPreview": "Addition worksheets for kindergarten and grade 1: visual counting and single-digit sums. Play interactively in browser or print the PDF.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 136
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "5cc0f1f4ead3b015326e633d77d21987c9862636"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/sudoku-ilustrado/",
+      "locale": "pt",
+      "axis": "exercise-type",
+      "axisKey": "sudoku",
+      "slug": "sudoku-ilustrado",
+      "status": 200,
+      "descriptionLength": 141,
+      "descriptionPreview": "Picture sudoku worksheets for K-3: 4x4 grids that use animal and object images instead of numbers. Logical deduction at an early-years level.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 141
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "ae428e7c1f3fe39d094cfcaa1e61d5c0ad0a53fc"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/criptograma/",
+      "locale": "pt",
+      "axis": "exercise-type",
+      "axisKey": "cryptogram",
+      "slug": "criptograma",
+      "status": 200,
+      "descriptionLength": 145,
+      "descriptionPreview": "Cryptogram puzzles for grade 1 through grade 3: crack the symbol-to-letter cipher to reveal each hidden word. Picture clues guide young decoders.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 145
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "8e15785f4134cc5d4a439800f8e202fae9c05221"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/caminho-ilustrado/",
+      "locale": "pt",
+      "axis": "exercise-type",
+      "axisKey": "picture-path",
+      "slug": "caminho-ilustrado",
+      "status": 200,
+      "descriptionLength": 148,
+      "descriptionPreview": "Picture path maze worksheets for K-3: drag through the grid using up, down, left, and right moves only to reach the goal. Spatial planning practice.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 148
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "a954707f9b12428417f36e185e75ec92b3ecdd2d"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/subtracao/",
+      "locale": "pt",
+      "axis": "exercise-type",
+      "axisKey": "subtraction",
+      "slug": "subtracao",
+      "status": 200,
+      "descriptionLength": 135,
+      "descriptionPreview": "Subtraction worksheets for kindergarten and grade 1: cross out the pictures to see take-away in action before the minus symbol appears.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 135
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b558d2077d796b4a77ec5f98271837ec32141cdf"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/adicao-com-codigo/",
+      "locale": "pt",
+      "axis": "exercise-type",
+      "axisKey": "code-addition",
+      "slug": "adicao-com-codigo",
+      "status": 200,
+      "descriptionLength": 139,
+      "descriptionPreview": "Code addition worksheets for grade 1 and grade 2: decode the letter cipher, then add the matched numbers. Reading and math in one activity.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 139
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "78f75c22e1daeadcc015f78d1e3d6b05a110e6d6"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/mais-ou-menos/",
+      "locale": "pt",
+      "axis": "exercise-type",
+      "axisKey": "more-less",
+      "slug": "mais-ou-menos",
+      "status": 200,
+      "descriptionLength": 145,
+      "descriptionPreview": "More or less worksheets for pre-K and kindergarten: compare two groups by counting pictures before the greater-than and less-than symbols arrive.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 145
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b7113ea239277819f11b7814afaae3aa22c5ee25"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/quebra-cabeca-matematico/",
+      "locale": "pt",
+      "axis": "exercise-type",
+      "axisKey": "math-puzzle",
+      "slug": "quebra-cabeca-matematico",
+      "status": 200,
+      "descriptionLength": 142,
+      "descriptionPreview": "Math puzzle worksheets for kindergarten and grade 1: drag the missing piece into each visual equation. A playful path into algebraic thinking.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 142
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "02dea87e8da1cc3d45c9f8cd2cf9c6810819f526"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/atividade-de-matematica/",
+      "locale": "pt",
+      "axis": "exercise-type",
+      "axisKey": "math-worksheet",
+      "slug": "atividade-de-matematica",
+      "status": 200,
+      "descriptionLength": 141,
+      "descriptionPreview": "Mixed-operation math worksheets for grade 1 and grade 2: addition, subtraction, and fill-in algebra on a single practice page. Print or play.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 141
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "8a3b7acc314813638c51b511bb0ac54e4fe35849"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/grande-pequeno/",
+      "locale": "pt",
+      "axis": "exercise-type",
+      "axisKey": "big-small",
+      "slug": "grande-pequeno",
+      "status": 200,
+      "descriptionLength": 131,
+      "descriptionPreview": "Biggest and smallest worksheets for ages 3-5: tap the larger or smaller item in each group. Picture-based, so no reading is needed.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 131
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "dad8cd23e4faf04960884b9a16c8d75f0abc4c1f"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/contagem-em-grafico/",
+      "locale": "pt",
+      "axis": "exercise-type",
+      "axisKey": "chart-count",
+      "slug": "contagem-em-grafico",
+      "status": 200,
+      "descriptionLength": 141,
+      "descriptionPreview": "Bar chart and tally worksheets for kindergarten through grade 2: count the pictures, fill in the chart columns. First steps in data literacy.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 141
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "2ec944ce56c422fce965fde32cc78245300e0a1e"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/trem-de-padroes/",
+      "locale": "pt",
+      "axis": "exercise-type",
+      "axisKey": "pattern-train",
+      "slug": "trem-de-padroes",
+      "status": 200,
+      "descriptionLength": 143,
+      "descriptionPreview": "Pattern train worksheets for preschool and pre-K: drag picture cards onto each wagon to finish the AB or ABC sequence. Pre-algebra in disguise.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 143
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "c6d02599acc1c4aaa2596cee45eaec28aafbb574"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/atividade-de-padroes/",
+      "locale": "pt",
+      "axis": "exercise-type",
+      "axisKey": "pattern-worksheet",
+      "slug": "atividade-de-padroes",
+      "status": 200,
+      "descriptionLength": 142,
+      "descriptionPreview": "Pattern worksheets for kindergarten and grade 1: fill the blank in ABAB and ABCABC picture sequences. Print for centers or play interactively.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 142
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "263c7058e0d3a6b18d8e387f24ecc4c489779d03"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/bingo/",
+      "locale": "pt",
+      "axis": "exercise-type",
+      "axisKey": "bingo",
+      "slug": "bingo",
+      "status": 200,
+      "descriptionLength": 146,
+      "descriptionPreview": "Classroom bingo cards for kindergarten and grade 1: picture, letter, and number variants for whole-class review. Print sets or call rounds online.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 146
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "e7ff130faa09cfd1a92aebd1342ddbbd52db05dc"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/pareamento-em-grade/",
+      "locale": "pt",
+      "axis": "exercise-type",
+      "axisKey": "grid-match",
+      "slug": "pareamento-em-grade",
+      "status": 200,
+      "descriptionLength": 145,
+      "descriptionPreview": "Grid match puzzles for kindergarten and grade 1: drag each picture piece into the correct grid cell to rebuild the full image. Spatial reasoning.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 145
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b2a7d5bb53e21fe6439058512d68848278dcd404"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/pareamento/",
+      "locale": "pt",
+      "axis": "exercise-type",
+      "axisKey": "matching",
+      "slug": "pareamento",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Matching worksheets for preschool and pre-K: tap the picture on the left, then tap its pair on the right to draw the connecting line.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "cd35fca092bcda8c42dfde27c9a22f47cb441084"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/ordenar-imagens/",
+      "locale": "pt",
+      "axis": "exercise-type",
+      "axisKey": "picture-sort",
+      "slug": "ordenar-imagens",
+      "status": 200,
+      "descriptionLength": 143,
+      "descriptionPreview": "Picture sort worksheets for kindergarten and grade 1: drag each image into the bin where it belongs. Classification by attribute, made visible.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 143
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d81ac5b764c861d7179eb1453eb7732f881edfc4"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/pareamento-de-sombras/",
+      "locale": "pt",
+      "axis": "exercise-type",
+      "axisKey": "shadow-match",
+      "slug": "pareamento-de-sombras",
+      "status": 200,
+      "descriptionLength": 139,
+      "descriptionPreview": "Shadow match worksheets for preschool and kindergarten: pair each colorful picture with its black silhouette. Trains visual discrimination.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 139
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "599cf6da1da9497ccc29b926437aafd1d16af687"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/trem-do-alfabeto/",
+      "locale": "pt",
+      "axis": "exercise-type",
+      "axisKey": "alphabet-train",
+      "slug": "trem-do-alfabeto",
+      "status": 200,
+      "descriptionLength": 142,
+      "descriptionPreview": "Alphabet train worksheets for preschool and pre-K: drag letter cards onto wagons to put A-Z in order. Available in 11 languages and printable.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 142
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "0e61eb21460b3441081713f5e6789ed37db29b74"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/preposicoes/",
+      "locale": "pt",
+      "axis": "exercise-type",
+      "axisKey": "prepositions",
+      "slug": "preposicoes",
+      "status": 200,
+      "descriptionLength": 150,
+      "descriptionPreview": "Prepositions worksheets for pre-K and kindergarten: choose the picture that shows in, on, under, behind, or next to. Spatial language in 11 languages.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 150
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d8d3151358e6ec63a7c7ada4b80df81198a5923e"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/adivinhe-a-palavra/",
+      "locale": "pt",
+      "axis": "exercise-type",
+      "axisKey": "word-guess",
+      "slug": "adivinhe-a-palavra",
+      "status": 200,
+      "descriptionLength": 151,
+      "descriptionPreview": "Word guess worksheets for kindergarten and grade 1: fill the hangman-style letter blanks using the picture clue. Letter-sound decoding for new readers.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 151
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "c15f54699120ce2543be7305fe512982cd226c56"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/letras-embaralhadas/",
+      "locale": "pt",
+      "axis": "exercise-type",
+      "axisKey": "word-scramble",
+      "slug": "letras-embaralhadas",
+      "status": 200,
+      "descriptionLength": 148,
+      "descriptionPreview": "Word scramble worksheets for kindergarten and grade 1: rearrange the letters to spell what the picture shows. Strengthens phonics and letter recall.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 148
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "9955df1db39f79ab216f72c5e735b31484bfabd1"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/caca-palavras/",
+      "locale": "pt",
+      "axis": "exercise-type",
+      "axisKey": "wordsearch",
+      "slug": "caca-palavras",
+      "status": 200,
+      "descriptionLength": 143,
+      "descriptionPreview": "Word search worksheets for K-3: drag across the letter grid to find each hidden word. Picture clues help emerging readers spot targets quickly.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 143
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d77810327902db0a84c2f3a0f63c7ff7c0c2e4f7"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/palavras-cruzadas/",
+      "locale": "pt",
+      "axis": "exercise-type",
+      "axisKey": "crossword",
+      "slug": "palavras-cruzadas",
+      "status": 200,
+      "descriptionLength": 139,
+      "descriptionPreview": "Picture crossword worksheets for K-3: image clues replace text prompts so emerging readers can spell across and down. Play online or print.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 139
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "e36d3a5112bcb93beb546093bede078d71b3ff57"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/encontre-e-conte/",
+      "locale": "pt",
+      "axis": "exercise-type",
+      "axisKey": "find-and-count",
+      "slug": "encontre-e-conte",
+      "status": 200,
+      "descriptionLength": 137,
+      "descriptionPreview": "Find-and-count worksheets for kindergarten and grade 1: spot every item in a busy scene, tap to mark, then record the total per category.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 137
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "047161b7174e9011b97b8bc01f9ae7de0b4767eb"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/encontre-os-objetos/",
+      "locale": "pt",
+      "axis": "exercise-type",
+      "axisKey": "find-objects",
+      "slug": "encontre-os-objetos",
+      "status": 200,
+      "descriptionLength": 130,
+      "descriptionPreview": "I-Spy and find-the-object scenes for ages 4-7: hunt for items hidden among busy details, training visual discrimination and focus.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 130
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "7b9047dfa94c60959fb7b6fc143483c563151967"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/caca-ao-tesouro/",
+      "locale": "pt",
+      "axis": "exercise-type",
+      "axisKey": "treasure-hunt",
+      "slug": "caca-ao-tesouro",
+      "status": 200,
+      "descriptionLength": 149,
+      "descriptionPreview": "Treasure hunt worksheets for grade 1 and grade 2: read direction clues like two east, one north to navigate from start to the hidden treasure square.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 149
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "26918ce1f8a0d9c931aa7b00d65b71280abc1e28"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/pecas-faltantes/",
+      "locale": "pt",
+      "axis": "exercise-type",
+      "axisKey": "missing-pieces",
+      "slug": "pecas-faltantes",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Missing pieces puzzles for preschool and kindergarten: drag each shape into the matching cutout. Part-whole reasoning for early childhood.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "dd285959bf4c1274ad46295ad03de8b521da6735"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/qual-e-diferente/",
+      "locale": "pt",
+      "axis": "exercise-type",
+      "axisKey": "odd-one-out",
+      "slug": "qual-e-diferente",
+      "status": 200,
+      "descriptionLength": 140,
+      "descriptionPreview": "Odd-one-out worksheets for kindergarten and grade 1: tap the picture that does not belong in each set. Practice classification by attribute.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 140
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "de3772804de488ffacef0a1132b5f247a0ae7017"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/4-de-julho/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "4th_of_july",
+      "slug": "4-de-julho",
+      "status": 200,
+      "descriptionLength": 136,
+      "descriptionPreview": "Free 4th of July worksheets for K-3: count fireworks, match flags, color parade floats. Print for July classroom packets or play online.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 136
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "1a476cf964f784ba586aec30a177c3b0577708d6"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/acessorios/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "accessories",
+      "slug": "acessorios",
+      "status": 200,
+      "descriptionLength": 130,
+      "descriptionPreview": "Free K-3 accessories picture worksheets: name belts, bags, hats, and scarves across 11 languages. Online play plus printable PDFs.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 130
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "fba8061c3e9f6d3e1e5c9fdd212e93963943f3a8"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/atividades/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "activities",
+      "slug": "atividades",
+      "status": 200,
+      "descriptionLength": 128,
+      "descriptionPreview": "Hobby and activity worksheets for ages 3-7: spot the swimmer, sort the dancer, tap the painter. Print or play, no signup needed.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 128
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "3471934863793a347112ceaadb999781459e7559"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/animais/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "animals",
+      "slug": "animais",
+      "status": 200,
+      "descriptionLength": 146,
+      "descriptionPreview": "Animals worksheets supporting K-3 vocabulary growth, habitat classification, and living-things reasoning through richly illustrated activity sets.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 146
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "50aad555db4c24e6660f74daf3b3252035985632"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/pela-casa/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "around_the_house",
+      "slug": "pela-casa",
+      "status": 200,
+      "descriptionLength": 130,
+      "descriptionPreview": "Around-the-house picture worksheets for K-3: lamp, sofa, broom, mirror. Free interactive play plus printable PDFs in 11 languages.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 130
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "46bcbe1d61a99bc915423f1beb917e1369a2170f"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/no-supermercado/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "at_the_supermarket",
+      "slug": "no-supermercado",
+      "status": 200,
+      "descriptionLength": 140,
+      "descriptionPreview": "Supermarket-themed worksheets for ages 4-7: shopping cart, cashier, produce aisle. Great for community-helpers week or pretend-play centers.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 140
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "1db80397d82ccef6a22db2fc5f1539f65662b640"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/padaria/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "bakery",
+      "slug": "padaria",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Bakery picture worksheets for K-3: bread, croissants, cupcakes, ovens. Color visuals for vocabulary games or food-unit anchor charts.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "a1b8e565e4d390721b9c9a9d76b0b0cf02d75c3e"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/praia/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "beach",
+      "slug": "praia",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Beach worksheets for kindergarten and grade 1: count seashells, match buckets, name the umbrella. Free online play or printable PDFs.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "352dea3cc9c3f748ccf87147970cddac9542ad62"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/passaros/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "birds",
+      "slug": "passaros",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Bird picture worksheets for preschool and kindergarten: robins, owls, parrots, ducks. Online play plus printable PDFs across 11 languages.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "4271543eb4cab11f4d6824c8bb1259f626434c10"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/passaros-2/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "birds_2",
+      "slug": "passaros-2",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Additional bird illustrations across counting, sorting, and matching worksheets — extend any K-3 bird unit with this extra color set.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "c9032766704812206f47f0696abe3053750b61be"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/partes-do-corpo/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "body_parts",
+      "slug": "partes-do-corpo",
+      "status": 200,
+      "descriptionLength": 130,
+      "descriptionPreview": "Body parts worksheets for ages 3-6: head, shoulders, knees, toes. Label, match, and color across 11 languages. No signup required.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 130
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d46e76b3c94ee5701d6e390f9ca36c711df4aee0"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/cafe-da-manha/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "breakfast",
+      "slug": "cafe-da-manha",
+      "status": 200,
+      "descriptionLength": 136,
+      "descriptionPreview": "Breakfast picture worksheets for K-3: pancakes, cereal, eggs, toast. Color visuals for food-vocabulary games or morning-meeting prompts.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 136
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "195101507033ab67b941c87e5a31630e4b5a3fe9"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/acampamento/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "camping",
+      "slug": "acampamento",
+      "status": 200,
+      "descriptionLength": 135,
+      "descriptionPreview": "Camping worksheets for kindergarten and grade 1: tents, lanterns, marshmallows, sleeping bags. Free interactive play or printable PDFs.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 135
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "dddaf52a4ff23b66422d115c4dd40e24f9b4af08"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/natal/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "christmas",
+      "slug": "natal",
+      "status": 200,
+      "descriptionLength": 144,
+      "descriptionPreview": "Christmas worksheets for K-3: count ornaments, sort presents, match stockings. Color-rich activities for December stations and homework folders.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 144
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "0257143ec22e9ce2656d183442a6ade79fcae278"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/sala-de-aula/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "classroom",
+      "slug": "sala-de-aula",
+      "status": 200,
+      "descriptionLength": 140,
+      "descriptionPreview": "Classroom picture worksheets for K-3: desks, books, crayons, glue sticks. Use on back-to-school nights or in first-week orientation packets.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 140
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d9ec9c1b54b826f0ded65691d7c9f628afcadb6f"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/roupas/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "clothing",
+      "slug": "roupas",
+      "status": 200,
+      "descriptionLength": 129,
+      "descriptionPreview": "Clothing worksheets for ages 3-6: shirt, dress, hat, socks. Match, name, and sort across 11 languages with free interactive play.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 129
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "1f81da5e411afd58e77beee36812e7767555913e"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/cores/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "colors",
+      "slug": "cores",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Color-recognition worksheets for preschool and kindergarten: sort red, blue, green, and yellow with interactive online play or printables.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "e763bd9fffca502b4607705d0a3a9a037cac601e"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/sobremesas-e-doces/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "desserts_and_sweets",
+      "slug": "sobremesas-e-doces",
+      "status": 200,
+      "descriptionLength": 136,
+      "descriptionPreview": "Desserts and sweets worksheets for K-3: cupcakes, lollipops, candy bars in color. Great for celebration days and treat-vocabulary games.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 136
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "7e04faf0076bc01059a4671af51d192d4fea9078"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/dinossauros/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "dinosaurs",
+      "slug": "dinossauros",
+      "status": 200,
+      "descriptionLength": 143,
+      "descriptionPreview": "Dinosaur worksheets for kindergarten and grade 1: T-rex, brachiosaurus, triceratops. Spot, count, and name in 11 languages, free online or PDF.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 143
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "adcfd990e87033db4309e26dd0118b679eec4004"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/pascoa/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "easter",
+      "slug": "pascoa",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Easter worksheets for K-3: count eggs, match bunnies, sort baskets. Spring color visuals for April stations and seasonal homework folders.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "bc0ec84e6d555a66ae66d80bb694d1b958e05707"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/emocoes/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "emotions",
+      "slug": "emocoes",
+      "status": 200,
+      "descriptionLength": 132,
+      "descriptionPreview": "Emotions worksheets for preschool through grade 2: happy, sad, angry, surprised. Use at morning meeting or in SEL check-in routines.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 132
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "ee04affc1abdb7db7b38c940447f901105168270"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/animais-da-fazenda/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "farm_animals",
+      "slug": "animais-da-fazenda",
+      "status": 200,
+      "descriptionLength": 137,
+      "descriptionPreview": "Farm animal worksheets for ages 3-7: cow, pig, sheep, chicken. Color visuals for barnyard units, with interactive play or printable PDFs.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 137
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "bc0ce6710ccf34ee7282064001ea92254d100195"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/flores/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "flowers",
+      "slug": "flores",
+      "status": 200,
+      "descriptionLength": 124,
+      "descriptionPreview": "Flower picture worksheets for K-3: rose, tulip, daisy, sunflower. Color visuals for spring units and plant-vocabulary games.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 124
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "0e1aeaa64db2fcb75c5e8ce3e44cb664d3276832"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/criaturas-da-floresta/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "forest_creatures",
+      "slug": "criaturas-da-floresta",
+      "status": 200,
+      "descriptionLength": 135,
+      "descriptionPreview": "Forest creature worksheets for ages 3-7: deer, foxes, squirrels, raccoons. Color visuals for woodland units or fall-themed circle time.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 135
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "e99edcddaa7335ab893bdee672f3b5a85008e5fb"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/frutas/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "fruits",
+      "slug": "frutas",
+      "status": 200,
+      "descriptionLength": 131,
+      "descriptionPreview": "Fruit picture worksheets for K-3: apple, banana, orange, grapes. Match, count, and name in 11 languages with free interactive play.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 131
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "92d883d062f4208cc1615ea736f00f546a484be7"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/moveis/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "furniture",
+      "slug": "moveis",
+      "status": 200,
+      "descriptionLength": 129,
+      "descriptionPreview": "Furniture worksheets for kindergarten and grade 1: bed, chair, table, lamp. Free online play plus printable PDFs in 11 languages.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 129
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "aaa850f9cfaa245cf46e8274ad6b132fc6115fdd"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/hospital/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "hospital",
+      "slug": "hospital",
+      "status": 200,
+      "descriptionLength": 128,
+      "descriptionPreview": "Hospital picture worksheets for K-3: doctor, nurse, stethoscope, ambulance. Use for community-helpers week or doctor-visit prep.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 128
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "1ded801f7fc0fe4f1b1e9aaed7ae0e9f9918fe77"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/insetos-e-bichos/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "insects_and_bugs",
+      "slug": "insetos-e-bichos",
+      "status": 200,
+      "descriptionLength": 126,
+      "descriptionPreview": "Insect and bug worksheets for kindergarten and grade 1: ants, bees, butterflies, ladybugs. Free online play or printable PDFs.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 126
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "1f697779bf8f01be2a9c51431c3ca096fea980a9"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/utensilios-de-cozinha/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "kitchen_tools",
+      "slug": "utensilios-de-cozinha",
+      "status": 200,
+      "descriptionLength": 126,
+      "descriptionPreview": "Kitchen tools picture worksheets for K-3: whisk, spatula, ladle, rolling pin. Color visuals for cooking units in 11 languages.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 126
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "1321981e0c19164eb8cbb97dc2622a6a1261b47a"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/diversos/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "miscellaneous",
+      "slug": "diversos",
+      "status": 200,
+      "descriptionLength": 137,
+      "descriptionPreview": "Mixed everyday-object worksheets for K-3: keys, clocks, umbrellas, lamps. Free interactive play or printables for vocabulary review days.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 137
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "12cbd29750fe9eb09445cef305a98911577655d5"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/musica/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "music",
+      "slug": "musica",
+      "status": 200,
+      "descriptionLength": 125,
+      "descriptionPreview": "Music worksheets for ages 3-7: drum, piano, guitar, trumpet. Match instruments, name sounds, and play online in 11 languages.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 125
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "3231d379734a98efdeb030c798b753578078906b"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/profissoes/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "occupations",
+      "slug": "profissoes",
+      "status": 200,
+      "descriptionLength": 136,
+      "descriptionPreview": "Occupations worksheets for K-3: firefighter, baker, mail carrier, teacher. Color visuals for community-helpers week and career-day prep.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 136
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "cc57f307e970da7c090e1ce05a61106dc91d6142"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/vida-marinha/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "ocean_life",
+      "slug": "vida-marinha",
+      "status": 200,
+      "descriptionLength": 132,
+      "descriptionPreview": "Ocean life worksheets for ages 3-7: dolphins, octopus, jellyfish, sharks. Free interactive play plus printable PDFs in 11 languages.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 132
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "f23618da64dd2fe31060e4874c5417e8f86d725c"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/animais-de-estimacao/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "pets",
+      "slug": "animais-de-estimacao",
+      "status": 200,
+      "descriptionLength": 125,
+      "descriptionPreview": "Pet picture worksheets for kindergarten and grade 1: dog, cat, hamster, goldfish. Match, count, and name across 11 languages.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 125
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "c9c1ab4987838a8d00e6cfaf5500babc55b27312"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/correios/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "post_office",
+      "slug": "correios",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Post office worksheets for K-3: letters, stamps, mail carriers, packages. Use for community-helpers week or mailbox literacy centers.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "56dad88cd152d35e83b139f8d044e7fece1a58f9"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/repteis-e-anfibios/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "reptiles_and_amphibians",
+      "slug": "repteis-e-anfibios",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Reptile and amphibian worksheets for K-3: snakes, lizards, frogs, turtles. Color visuals for life-cycle units or pond-and-desert habitats.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "a194a9f558265bfa887224e68d874e45842cf48c"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/formas/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "shapes",
+      "slug": "formas",
+      "status": 200,
+      "descriptionLength": 131,
+      "descriptionPreview": "Shape worksheets for preschool through grade 1: circle, square, triangle, rectangle. Tap, match, and trace online or print at home.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 131
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "9257a2be00d392f0f43f0071dfe6fd936ac35c41"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/espaco/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "space",
+      "slug": "espaco",
+      "status": 200,
+      "descriptionLength": 125,
+      "descriptionPreview": "Space worksheets for K-3: planets, rockets, astronauts, stars. Free color visuals for solar-system units across 11 languages.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 125
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "6d53f96898e9ba49bd45f3e15638cf34da60d654"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/primavera/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "spring",
+      "slug": "primavera",
+      "status": 200,
+      "descriptionLength": 130,
+      "descriptionPreview": "Spring worksheets for K-3: tulips, ladybugs, rain boots, baby chicks. Seasonal color visuals for March and April morning meetings.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 130
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "9d77e42171a1b3899b5eb22b5d114cd44da47ec1"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/verao/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "summer",
+      "slug": "verao",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Summer worksheets for K-3: ice cream, sandals, pools, sunshine. Color visuals for end-of-year packets and June-July homework folders.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "2a3560f1f84d1f5fe3d66afcb47d795b4480eb47"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/dia-de-acao-de-gracas/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "thanksgivinng",
+      "slug": "dia-de-acao-de-gracas",
+      "status": 200,
+      "descriptionLength": 135,
+      "descriptionPreview": "Thanksgiving worksheets for K-3: turkeys, pumpkins, pies, cornucopia. Free color visuals for November stations and gratitude-week prep.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 135
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "0acde4f94f70f2d2629918df11e4b3268834c11b"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/coisas-que-voam/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "things_that_fly",
+      "slug": "coisas-que-voam",
+      "status": 200,
+      "descriptionLength": 128,
+      "descriptionPreview": "Things-that-fly worksheets for K-3: airplanes, helicopters, kites, birds. Sort and name across 11 languages, free online or PDF.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 128
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "c2b166e1ee5d6399c7b7b63c4e01cf5fb2b30e53"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/ferramentas/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "tools",
+      "slug": "ferramentas",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Tool picture worksheets for K-3: hammer, saw, wrench, screwdriver. Color visuals for construction units and builder-vocabulary games.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "8f0f07f0b5a049591408f190f297086b50852ec1"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/brinquedos/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "toys",
+      "slug": "brinquedos",
+      "status": 200,
+      "descriptionLength": 134,
+      "descriptionPreview": "Toy picture worksheets for ages 3-7: blocks, dolls, balls, puzzles. Spot, count, and match in 11 languages with free interactive play.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 134
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "bc392a102a784185d5a1aabd3608cfe1d70a7308"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/arvores/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "tree",
+      "slug": "arvores",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Tree worksheets for ages 3-7: oak, pine, palm, apple tree. Color visuals for plant units, earth week, or outdoor-classroom field journals.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "a194499246267f6a4f2c6a883db0d20c5a003e4e"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/vegetais/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "vegetables",
+      "slug": "vegetais",
+      "status": 200,
+      "descriptionLength": 126,
+      "descriptionPreview": "Vegetable worksheets for K-3: carrots, broccoli, peppers, corn. Match, name, and sort across 11 languages, free online or PDF.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 126
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d5cd24f774b0e6c7ebb0edbf15cff9438abe1b16"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/veiculos/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "vehicles",
+      "slug": "veiculos",
+      "status": 200,
+      "descriptionLength": 124,
+      "descriptionPreview": "Vehicle worksheets for kindergarten and grade 1: cars, trucks, buses, motorbikes. Free interactive play plus printable PDFs.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 124
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "cf4ee0d2239525d817b8bc8477b8504f609c9d7f"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/clima/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "weather",
+      "slug": "clima",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Weather worksheets for K-3: sunny, rainy, snowy, windy. Color visuals for daily calendar routines and weather-chart morning meetings.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "a8a7a50009cf818976a413fe608f1c043e59f549"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/inverno/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "winter",
+      "slug": "inverno",
+      "status": 200,
+      "descriptionLength": 133,
+      "descriptionPreview": "Winter worksheets for K-3: snowflakes, mittens, hot cocoa, snowmen. Seasonal color visuals for January and February homework folders.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 133
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "a484777b3c2d2147dc87584e694e7f9dfede4520"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/animais-do-zoologico/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "zoo_animals",
+      "slug": "animais-do-zoologico",
+      "status": 200,
+      "descriptionLength": 137,
+      "descriptionPreview": "Zoo animal worksheets for ages 3-7: giraffes, zebras, monkeys, tigers. Color visuals for zoo field trips or wild-animal vocabulary games.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 137
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d3b0d28f861325d92fa0a3c6a8147fedfdc55597"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/animais-pb/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "animals_bw",
+      "slug": "animais-pb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/animais-pb-2/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "animals_bw_2",
+      "slug": "animais-pb-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/animais-pb-3/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "animals_bw_3",
+      "slug": "animais-pb-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/animais-pb-4/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "animals_bw_4",
+      "slug": "animais-pb-4",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/animais-pb-5/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "animals_bw_5",
+      "slug": "animais-pb-5",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/vestuario-pb/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "apparel_bw",
+      "slug": "vestuario-pb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/praia-pb/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "beach_bw",
+      "slug": "praia-pb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/praia-pb-2/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "beach_bw_2",
+      "slug": "praia-pb-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/passaros-p-b/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "birds_bw",
+      "slug": "passaros-p-b",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/passaros-p-b-2/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "birds_bw_2",
+      "slug": "passaros-p-b-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/natal-p-b/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "christmas_bw",
+      "slug": "natal-p-b",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/natal-p-b-2/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "christmas_bw_2",
+      "slug": "natal-p-b-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/sala-de-aula-p-b/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "classroom_bw",
+      "slug": "sala-de-aula-p-b",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/sala-de-aula-2-p-b/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "classroom_bw_2",
+      "slug": "sala-de-aula-2-p-b",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/sobremesa-p-b/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "dessert_bw",
+      "slug": "sobremesa-p-b",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/pascoa-pb/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "easter_bw",
+      "slug": "pascoa-pb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/pascoa-pb-2/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "easter_bw_2",
+      "slug": "pascoa-pb-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/educacao-pb/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "education_bw",
+      "slug": "educacao-pb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/rostos-pb/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "faces_bw",
+      "slug": "rostos-pb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/animais-da-fazenda-pb/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "farm_animals_bw",
+      "slug": "animais-da-fazenda-pb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/fazenda-pb/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "farm_bw",
+      "slug": "fazenda-pb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/comida-pb/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "food_bw",
+      "slug": "comida-pb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/comida-pb-2/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "food_bw_2",
+      "slug": "comida-pb-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/comida-pb-3/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "food_bw_3",
+      "slug": "comida-pb-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/frutas-pb/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "fruits_bw",
+      "slug": "frutas-pb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/moveis-pb/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "furniture_bw",
+      "slug": "moveis-pb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/casa-e-natureza-pb/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "home_and_nature_bw",
+      "slug": "casa-e-natureza-pb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/casa-pb/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "home_bw",
+      "slug": "casa-pb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/casa-pb-2/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "home_bw_2",
+      "slug": "casa-pb-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/domestico-pb/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "household_bw",
+      "slug": "domestico-pb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/cozinha-pb/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "kitchen_bw",
+      "slug": "cozinha-pb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/natureza-pb/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "nature_bw",
+      "slug": "natureza-pb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/objetos-pb/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "objects_bw",
+      "slug": "objetos-pb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/vida-marinha-pb/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "sea_life_bw",
+      "slug": "vida-marinha-pb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/vida-marinha-pb-2/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "sea_life_bw_2",
+      "slug": "vida-marinha-pb-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/espaco-pb/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "space_bw",
+      "slug": "espaco-pb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/esportes-pb/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "sports_bw",
+      "slug": "esportes-pb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/esportes-pb-2/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "sports_bw_2",
+      "slug": "esportes-pb-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/ferramentas-pb/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "tools_bw",
+      "slug": "ferramentas-pb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/brinquedos-pb/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "toys_bw",
+      "slug": "brinquedos-pb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/brinquedos-pb-2/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "toys_bw_2",
+      "slug": "brinquedos-pb-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/viagens-e-ferias-pb/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "travel_and_holiday_bw",
+      "slug": "viagens-e-ferias-pb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/dia-dos-namorados-pb/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "valentine_bw",
+      "slug": "dia-dos-namorados-pb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/dia-dos-namorados-pb-2/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "valentine_bw_2",
+      "slug": "dia-dos-namorados-pb-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/vegetais-pb/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "vegetables_bw",
+      "slug": "vegetais-pb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/vegetais-pb-2/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "vegetables_bw_2",
+      "slug": "vegetais-pb-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/veiculos-pb/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "vehicles_bw",
+      "slug": "veiculos-pb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/veiculos-pb-2/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "vehicles_bw_2",
+      "slug": "veiculos-pb-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/veiculos-pb-3/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "vehicles_bw_3",
+      "slug": "veiculos-pb-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/animais-do-zoologico-pb/",
+      "locale": "pt",
+      "axis": "theme",
+      "axisKey": "zoo_animals_bw",
+      "slug": "animais-do-zoologico-pb",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/educacao-infantil-creche-3-5-anos/",
+      "locale": "pt",
+      "axis": "educational-level",
+      "axisKey": "preschool",
+      "slug": "educacao-infantil-creche-3-5-anos",
+      "status": 200,
+      "descriptionLength": 150,
+      "descriptionPreview": "Preschool worksheets for ages 3-5: vocabulary picture matching, color and shape recognition, simple sorting. Free for Pre-K, child care, and TK rooms.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 150
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "5eb7c2589d9af747016e764d7c1cc762ccc1a9f7"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/educacao-infantil-pre-escola-5-7-anos/",
+      "locale": "pt",
+      "axis": "educational-level",
+      "axisKey": "kindergarten",
+      "slug": "educacao-infantil-pre-escola-5-7-anos",
+      "status": 200,
+      "descriptionLength": 151,
+      "descriptionPreview": "Kindergarten worksheets for letter-sound matching, counting to 20, sight words, and single-digit addition. Great for morning work and literacy centers.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 151
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "99e46234e2ecbbc57eb462642bf5ed52c8493ece"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/1-ano-fundamental/",
+      "locale": "pt",
+      "axis": "educational-level",
+      "axisKey": "grade-1",
+      "slug": "1-ano-fundamental",
+      "status": 200,
+      "descriptionLength": 149,
+      "descriptionPreview": "Grade 1 worksheets for CVC decoding, place value, addition within 20, and picture-clue reading. CCSS-aligned activities playable online or printable.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 149
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "36b9664e3abcc95157c1928d48de0fc027d7049a"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/2-ano-fundamental/",
+      "locale": "pt",
+      "axis": "educational-level",
+      "axisKey": "grade-2",
+      "slug": "2-ano-fundamental",
+      "status": 200,
+      "descriptionLength": 156,
+      "descriptionPreview": "Grade 2 worksheets covering regrouping math, multi-syllable reading, bar charts, and skip counting. Resources for classroom teachers and homeschool parents.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 156
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=pt)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "c512093ce8de27777a1ac102df03bd9cdd242d47"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/pt/topic/3-ano-fundamental/",
+      "locale": "pt",
+      "axis": "educational-level",
+      "axisKey": "grade-3",
+      "slug": "3-ano-fundamental",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    }
+  ]
+}

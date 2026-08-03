@@ -1,0 +1,548 @@
+=== §4.B genericness + structural lints ===
+  FAIL tren-de-patrones-abc-4-de-julio-fe63: WORDCOUNT 189<200
+  FAIL tren-de-patrones-abc-accesorios-fe63: WORDCOUNT 181<200
+  FAIL tren-de-patrones-abc-actividades-fe63: WORDCOUNT 147<200
+  FAIL tren-de-patrones-abc-alrededor-de-la-casa-fe63: WORDCOUNT 174<200
+  FAIL tren-de-patrones-abc-animales-de-granja-fe63: WORDCOUNT 184<200
+  FAIL tren-de-patrones-abc-animales-del-zoologico-fe63: WORDCOUNT 188<200
+  FAIL tren-de-patrones-abc-animales-fe63: WORDCOUNT 166<200
+  FAIL tren-de-patrones-abc-arboles-fe63: WORDCOUNT 167<200
+  FAIL tren-de-patrones-abc-aves-2-fe63: WORDCOUNT 162<200
+  FAIL tren-de-patrones-abc-aves-fe63: WORDCOUNT 181<200
+  FAIL tren-de-patrones-abc-campamento-fe63: WORDCOUNT 181<200
+  FAIL tren-de-patrones-abc-clima-fe63: WORDCOUNT 170<200
+  FAIL tren-de-patrones-abc-colores-fe63: WORDCOUNT 167<200
+  FAIL tren-de-patrones-abc-cosas-que-vuelan-fe63: WORDCOUNT 195<200
+  FAIL tren-de-patrones-abc-criaturas-del-bosque-fe63: WORDCOUNT 168<200
+  FAIL tren-de-patrones-abc-desayuno-fe63: WORDCOUNT 168<200
+  FAIL tren-de-patrones-abc-dia-de-accion-de-gracias-fe63: WORDCOUNT 186<200
+  FAIL tren-de-patrones-abc-dinosaurios-fe63: WORDCOUNT 161<200
+  FAIL tren-de-patrones-abc-emociones-fe63: WORDCOUNT 158<200
+  FAIL tren-de-patrones-abc-en-el-supermercado-fe63: WORDCOUNT 180<200
+  FAIL tren-de-patrones-abc-espacio-fe63: WORDCOUNT 168<200
+  FAIL tren-de-patrones-abc-flores-fe63: WORDCOUNT 176<200
+  FAIL tren-de-patrones-abc-formas-fe63: WORDCOUNT 162<200
+  FAIL tren-de-patrones-abc-frutas-fe63: WORDCOUNT 156<200
+  FAIL tren-de-patrones-abc-herramientas-fe63: WORDCOUNT 182<200
+  FAIL tren-de-patrones-abc-hospital-fe63: WORDCOUNT 193<200
+  FAIL tren-de-patrones-abc-insectos-y-bichos-fe63: WORDCOUNT 161<200
+  FAIL tren-de-patrones-abc-invierno-fe63: WORDCOUNT 158<200
+  FAIL tren-de-patrones-abc-juguetes-fe63: WORDCOUNT 172<200
+  FAIL tren-de-patrones-abc-mascotas-fe63: WORDCOUNT 181<200
+  FAIL tren-de-patrones-abc-miscelaneo-fe63: WORDCOUNT 181<200
+  FAIL tren-de-patrones-abc-muebles-fe63: WORDCOUNT 168<200
+  FAIL tren-de-patrones-abc-musica-fe63: WORDCOUNT 166<200
+  FAIL tren-de-patrones-abc-navidad-fe63: WORDCOUNT 172<200
+  FAIL tren-de-patrones-abc-ocupaciones-fe63: WORDCOUNT 169<200
+  FAIL tren-de-patrones-abc-oficina-de-correos-fe63: WORDCOUNT 170<200
+  FAIL tren-de-patrones-abc-panaderia-fe63: WORDCOUNT 184<200
+  FAIL tren-de-patrones-abc-partes-del-cuerpo-fe63: WORDCOUNT 180<200
+  FAIL tren-de-patrones-abc-pascua-fe63: WORDCOUNT 153<200
+  FAIL tren-de-patrones-abc-playa-fe63: WORDCOUNT 174<200
+  FAIL tren-de-patrones-abc-postres-y-dulces-fe63: WORDCOUNT 192<200
+  FAIL tren-de-patrones-abc-primavera-fe63: WORDCOUNT 165<200
+  FAIL tren-de-patrones-abc-reptiles-y-anfibios-fe63: WORDCOUNT 162<200
+  FAIL tren-de-patrones-abc-ropa-fe63: WORDCOUNT 170<200
+  FAIL tren-de-patrones-abc-salon-de-clases-fe63: WORDCOUNT 184<200
+  FAIL tren-de-patrones-abc-utensilios-de-cocina-fe63: WORDCOUNT 191<200
+  FAIL tren-de-patrones-abc-vehiculos-fe63: WORDCOUNT 171<200
+  FAIL tren-de-patrones-abc-verano-fe63: WORDCOUNT 163<200
+  FAIL tren-de-patrones-abc-verduras-fe63: WORDCOUNT 169<200
+  FAIL tren-de-patrones-abc-vida-marina-fe63: WORDCOUNT 199<200
+  FAIL tren-de-patrones-aabb-4-de-julio-fe63: WORDCOUNT 189<200
+  FAIL tren-de-patrones-aabb-accesorios-fe63: WORDCOUNT 179<200
+  FAIL tren-de-patrones-aabb-actividades-fe63: WORDCOUNT 161<200
+  FAIL tren-de-patrones-aabb-alrededor-de-la-casa-fe63: WORDCOUNT 173<200
+  FAIL tren-de-patrones-aabb-animales-de-granja-fe63: WORDCOUNT 181<200
+  FAIL tren-de-patrones-aabb-animales-del-zoologico-fe63: WORDCOUNT 189<200
+  FAIL tren-de-patrones-aabb-animales-fe63: WORDCOUNT 164<200
+  FAIL tren-de-patrones-aabb-arboles-fe63: WORDCOUNT 175<200
+  FAIL tren-de-patrones-aabb-aves-2-fe63: WORDCOUNT 180<200
+  FAIL tren-de-patrones-aabb-aves-fe63: WORDCOUNT 190<200
+  FAIL tren-de-patrones-aabb-campamento-fe63: WORDCOUNT 167<200
+  FAIL tren-de-patrones-aabb-clima-fe63: WORDCOUNT 184<200
+  FAIL tren-de-patrones-aabb-colores-fe63: WORDCOUNT 172<200
+  FAIL tren-de-patrones-aabb-cosas-que-vuelan-fe63: WORDCOUNT 186<200
+  FAIL tren-de-patrones-aabb-desayuno-fe63: WORDCOUNT 169<200
+  FAIL tren-de-patrones-aabb-dia-de-accion-de-gracias-fe63: WORDCOUNT 191<200
+  FAIL tren-de-patrones-aabb-dinosaurios-fe63: WORDCOUNT 175<200
+  FAIL tren-de-patrones-aabb-emociones-fe63: WORDCOUNT 168<200
+  FAIL tren-de-patrones-aabb-en-el-supermercado-fe63: WORDCOUNT 164<200
+  FAIL tren-de-patrones-aabb-espacio-fe63: WORDCOUNT 174<200
+  FAIL tren-de-patrones-aabb-flores-fe63: WORDCOUNT 178<200
+  FAIL tren-de-patrones-aabb-formas-fe63: WORDCOUNT 189<200
+  FAIL tren-de-patrones-aabb-frutas-fe63: WORDCOUNT 168<200
+  FAIL tren-de-patrones-aabb-herramientas-fe63: WORDCOUNT 158<200
+  FAIL tren-de-patrones-aabb-hospital-fe63: WORDCOUNT 177<200
+  FAIL tren-de-patrones-aabb-insectos-y-bichos-fe63: WORDCOUNT 188<200
+  FAIL tren-de-patrones-aabb-invierno-fe63: WORDCOUNT 179<200
+  FAIL tren-de-patrones-aabb-juguetes-fe63: WORDCOUNT 191<200
+  FAIL tren-de-patrones-aabb-mascotas-fe63: WORDCOUNT 169<200
+  FAIL tren-de-patrones-aabb-miscelaneo-fe63: WORDCOUNT 185<200
+  FAIL tren-de-patrones-aabb-muebles-fe63: WORDCOUNT 174<200
+  FAIL tren-de-patrones-aabb-musica-fe63: WORDCOUNT 184<200
+  FAIL tren-de-patrones-aabb-navidad-fe63: WORDCOUNT 165<200
+  FAIL tren-de-patrones-aabb-ocupaciones-fe63: WORDCOUNT 180<200
+  FAIL tren-de-patrones-aabb-panaderia-fe63: WORDCOUNT 182<200
+  FAIL tren-de-patrones-aabb-partes-del-cuerpo-fe63: WORDCOUNT 177<200
+  FAIL tren-de-patrones-aabb-pascua-fe63: WORDCOUNT 176<200
+  FAIL tren-de-patrones-aabb-playa-fe63: WORDCOUNT 151<200
+  FAIL tren-de-patrones-aabb-postres-y-dulces-fe63: WORDCOUNT 178<200
+  FAIL tren-de-patrones-aabb-primavera-fe63: WORDCOUNT 185<200
+  FAIL tren-de-patrones-aabb-reptiles-y-anfibios-fe63: WORDCOUNT 195<200
+  FAIL tren-de-patrones-aabb-ropa-fe63: WORDCOUNT 175<200
+  FAIL tren-de-patrones-aabb-salon-de-clases-fe63: WORDCOUNT 175<200
+  FAIL tren-de-patrones-aabb-utensilios-de-cocina-fe63: WORDCOUNT 174<200
+  FAIL tren-de-patrones-aabb-verano-fe63: WORDCOUNT 197<200
+  FAIL tren-de-patrones-aabb-verduras-fe63: WORDCOUNT 161<200
+  FAIL tren-de-patrones-aabb-vida-marina-fe63: WORDCOUNT 179<200
+  FAIL tren-de-patrones-abb-4-de-julio-fe63: WORDCOUNT 199<200
+  FAIL tren-de-patrones-abb-accesorios-fe63: WORDCOUNT 181<200
+  FAIL tren-de-patrones-abb-actividades-fe63: WORDCOUNT 150<200
+  FAIL tren-de-patrones-abb-alrededor-de-la-casa-fe63: WORDCOUNT 164<200
+  FAIL tren-de-patrones-abb-animales-de-granja-fe63: WORDCOUNT 184<200
+  FAIL tren-de-patrones-abb-animales-del-zoologico-fe63: WORDCOUNT 178<200
+  FAIL tren-de-patrones-abb-animales-fe63: WORDCOUNT 164<200
+  FAIL tren-de-patrones-abb-arboles-fe63: WORDCOUNT 170<200
+  FAIL tren-de-patrones-abb-aves-2-fe63: WORDCOUNT 174<200
+  FAIL tren-de-patrones-abb-aves-fe63: WORDCOUNT 180<200
+  FAIL tren-de-patrones-abb-campamento-fe63: WORDCOUNT 183<200
+  FAIL tren-de-patrones-abb-clima-fe63: WORDCOUNT 175<200
+  FAIL tren-de-patrones-abb-colores-fe63: WORDCOUNT 167<200
+  FAIL tren-de-patrones-abb-cosas-que-vuelan-fe63: WORDCOUNT 177<200
+  FAIL tren-de-patrones-abb-criaturas-del-bosque-fe63: WORDCOUNT 176<200
+  FAIL tren-de-patrones-abb-desayuno-fe63: WORDCOUNT 162<200
+  FAIL tren-de-patrones-abb-dia-de-accion-de-gracias-fe63: WORDCOUNT 191<200
+  FAIL tren-de-patrones-abb-dinosaurios-fe63: WORDCOUNT 164<200
+  FAIL tren-de-patrones-abb-emociones-fe63: WORDCOUNT 154<200
+  FAIL tren-de-patrones-abb-en-el-supermercado-fe63: WORDCOUNT 181<200
+  FAIL tren-de-patrones-abb-espacio-fe63: WORDCOUNT 166<200
+  FAIL tren-de-patrones-abb-flores-fe63: WORDCOUNT 179<200
+  FAIL tren-de-patrones-abb-formas-fe63: WORDCOUNT 171<200
+  FAIL tren-de-patrones-abb-frutas-fe63: WORDCOUNT 155<200
+  FAIL tren-de-patrones-abb-herramientas-fe63: WORDCOUNT 176<200
+  FAIL tren-de-patrones-abb-hospital-fe63: WORDCOUNT 199<200
+  FAIL tren-de-patrones-abb-insectos-y-bichos-fe63: WORDCOUNT 162<200
+  FAIL tren-de-patrones-abb-invierno-fe63: WORDCOUNT 173<200
+  FAIL tren-de-patrones-abb-juguetes-fe63: WORDCOUNT 169<200
+  FAIL tren-de-patrones-abb-mascotas-fe63: WORDCOUNT 183<200
+  FAIL tren-de-patrones-abb-miscelaneo-fe63: WORDCOUNT 164<200
+  FAIL tren-de-patrones-abb-muebles-fe63: WORDCOUNT 174<200
+  FAIL tren-de-patrones-abb-musica-fe63: WORDCOUNT 163<200
+  FAIL tren-de-patrones-abb-navidad-fe63: WORDCOUNT 172<200
+  FAIL tren-de-patrones-abb-ocupaciones-fe63: WORDCOUNT 175<200
+  FAIL tren-de-patrones-abb-oficina-de-correos-fe63: WORDCOUNT 183<200
+  FAIL tren-de-patrones-abb-panaderia-fe63: WORDCOUNT 188<200
+  FAIL tren-de-patrones-abb-partes-del-cuerpo-fe63: WORDCOUNT 179<200
+  FAIL tren-de-patrones-abb-pascua-fe63: WORDCOUNT 152<200
+  FAIL tren-de-patrones-abb-playa-fe63: WORDCOUNT 173<200
+  FAIL tren-de-patrones-abb-postres-y-dulces-fe63: WORDCOUNT 190<200
+  FAIL tren-de-patrones-abb-primavera-fe63: WORDCOUNT 172<200
+  FAIL tren-de-patrones-abb-reptiles-y-anfibios-fe63: WORDCOUNT 162<200
+  FAIL tren-de-patrones-abb-ropa-fe63: WORDCOUNT 164<200
+  FAIL tren-de-patrones-abb-salon-de-clases-fe63: WORDCOUNT 182<200
+  FAIL tren-de-patrones-abb-utensilios-de-cocina-fe63: WORDCOUNT 175<200
+  FAIL tren-de-patrones-abb-vehiculos-fe63: WORDCOUNT 170<200
+  FAIL tren-de-patrones-abb-verano-fe63: WORDCOUNT 161<200
+  FAIL tren-de-patrones-abb-verduras-fe63: WORDCOUNT 165<200
+  FAIL tren-de-patrones-aab-4-de-julio-fe63: WORDCOUNT 187<200
+  FAIL tren-de-patrones-aab-accesorios-fe63: WORDCOUNT 191<200
+  FAIL tren-de-patrones-aab-actividades-fe63: WORDCOUNT 167<200
+  FAIL tren-de-patrones-aab-alrededor-de-la-casa-fe63: WORDCOUNT 186<200
+  FAIL tren-de-patrones-aab-animales-de-granja-fe63: WORDCOUNT 186<200
+  FAIL tren-de-patrones-aab-animales-del-zoologico-fe63: WORDCOUNT 189<200
+  FAIL tren-de-patrones-aab-animales-fe63: WORDCOUNT 173<200
+  FAIL tren-de-patrones-aab-arboles-fe63: WORDCOUNT 185<200
+  FAIL tren-de-patrones-aab-aves-2-fe63: WORDCOUNT 175<200
+  FAIL tren-de-patrones-aab-aves-fe63: WORDCOUNT 182<200
+  FAIL tren-de-patrones-aab-campamento-fe63: WORDCOUNT 172<200
+  FAIL tren-de-patrones-aab-clima-fe63: WORDCOUNT 194<200
+  FAIL tren-de-patrones-aab-colores-fe63: WORDCOUNT 181<200
+  FAIL tren-de-patrones-aab-desayuno-fe63: WORDCOUNT 160<200
+  FAIL tren-de-patrones-aab-dia-de-accion-de-gracias-fe63: WORDCOUNT 197<200
+  FAIL tren-de-patrones-aab-dinosaurios-fe63: WORDCOUNT 184<200
+  FAIL tren-de-patrones-aab-emociones-fe63: WORDCOUNT 182<200
+  FAIL tren-de-patrones-aab-en-el-supermercado-fe63: WORDCOUNT 171<200
+  FAIL tren-de-patrones-aab-flores-fe63: WORDCOUNT 182<200
+  FAIL tren-de-patrones-aab-formas-fe63: WORDCOUNT 186<200
+  FAIL tren-de-patrones-aab-frutas-fe63: WORDCOUNT 189<200
+  FAIL tren-de-patrones-aab-herramientas-fe63: WORDCOUNT 170<200
+  FAIL tren-de-patrones-aab-hospital-fe63: WORDCOUNT 174<200
+  FAIL tren-de-patrones-aab-insectos-y-bichos-fe63: WORDCOUNT 186<200
+  FAIL tren-de-patrones-aab-invierno-fe63: WORDCOUNT 190<200
+  FAIL tren-de-patrones-aab-juguetes-fe63: WORDCOUNT 162<200
+  FAIL tren-de-patrones-aab-mascotas-fe63: WORDCOUNT 172<200
+  FAIL tren-de-patrones-aab-muebles-fe63: WORDCOUNT 180<200
+  FAIL tren-de-patrones-aab-musica-fe63: WORDCOUNT 188<200
+  FAIL tren-de-patrones-aab-navidad-fe63: WORDCOUNT 187<200
+  FAIL tren-de-patrones-aab-ocupaciones-fe63: WORDCOUNT 184<200
+  FAIL tren-de-patrones-aab-oficina-de-correos-fe63: WORDCOUNT 174<200
+  FAIL tren-de-patrones-aab-panaderia-fe63: WORDCOUNT 192<200
+  FAIL tren-de-patrones-aab-partes-del-cuerpo-fe63: WORDCOUNT 177<200
+  FAIL tren-de-patrones-aab-pascua-fe63: WORDCOUNT 181<200
+  FAIL tren-de-patrones-aab-primavera-fe63: WORDCOUNT 166<200
+  FAIL tren-de-patrones-aab-reptiles-y-anfibios-fe63: WORDCOUNT 174<200
+  FAIL tren-de-patrones-aab-salon-de-clases-fe63: WORDCOUNT 197<200
+  FAIL tren-de-patrones-aab-utensilios-de-cocina-fe63: WORDCOUNT 184<200
+  FAIL tren-de-patrones-aab-vehiculos-fe63: WORDCOUNT 195<200
+  FAIL tren-de-patrones-aab-verano-fe63: WORDCOUNT 188<200
+  FAIL tren-de-patrones-aab-verduras-fe63: WORDCOUNT 176<200
+  FAIL tren-de-patrones-aab-vida-marina-fe63: WORDCOUNT 186<200
+  FAIL tren-de-patrones: WORDCOUNT 180<200
+  FAIL tren-de-patrones-4-de-julio-fe63: WORDCOUNT 179<200
+  FAIL tren-de-patrones-accesorios-fe63: WORDCOUNT 172<200
+  FAIL tren-de-patrones-actividades-fe63: WORDCOUNT 165<200
+  FAIL tren-de-patrones-alrededor-de-la-casa-fe63: WORDCOUNT 175<200
+  FAIL tren-de-patrones-animales-de-granja-fe63: WORDCOUNT 185<200
+  FAIL tren-de-patrones-animales-del-zoologico-fe63: WORDCOUNT 171<200
+  FAIL tren-de-patrones-animales-fe63: WORDCOUNT 173<200
+  FAIL tren-de-patrones-arboles-fe63: WORDCOUNT 172<200
+  FAIL tren-de-patrones-aves-2-fe63: WORDCOUNT 171<200
+  FAIL tren-de-patrones-aves-fe63: WORDCOUNT 174<200
+  FAIL tren-de-patrones-campamento-fe63: WORDCOUNT 171<200
+  FAIL tren-de-patrones-clima-fe63: WORDCOUNT 185<200
+  FAIL tren-de-patrones-colores-fe63: WORDCOUNT 169<200
+  FAIL tren-de-patrones-cosas-que-vuelan-fe63: WORDCOUNT 167<200
+  FAIL tren-de-patrones-criaturas-del-bosque-fe63: WORDCOUNT 182<200
+  FAIL tren-de-patrones-desayuno-fe63: WORDCOUNT 177<200
+  FAIL tren-de-patrones-dia-de-accion-de-gracias-fe63: WORDCOUNT 193<200
+  FAIL tren-de-patrones-dinosaurios-fe63: WORDCOUNT 163<200
+  FAIL tren-de-patrones-emociones-fe63: WORDCOUNT 158<200
+  FAIL tren-de-patrones-en-el-supermercado-fe63: WORDCOUNT 180<200
+  FAIL tren-de-patrones-espacio-fe63: WORDCOUNT 171<200
+  FAIL tren-de-patrones-flores-fe63: WORDCOUNT 163<200
+  FAIL tren-de-patrones-formas-fe63: WORDCOUNT 162<200
+  FAIL tren-de-patrones-frutas-fe63: WORDCOUNT 170<200
+  FAIL tren-de-patrones-herramientas-fe63: WORDCOUNT 175<200
+  FAIL tren-de-patrones-hospital-fe63: WORDCOUNT 160<200
+  FAIL tren-de-patrones-insectos-y-bichos-fe63: WORDCOUNT 172<200
+  FAIL tren-de-patrones-invierno-fe63: WORDCOUNT 189<200
+  FAIL tren-de-patrones-juguetes-fe63: WORDCOUNT 173<200
+  FAIL tren-de-patrones-mascotas-fe63: WORDCOUNT 169<200
+  FAIL tren-de-patrones-miscelaneo-fe63: WORDCOUNT 169<200
+  FAIL tren-de-patrones-muebles-fe63: WORDCOUNT 173<200
+  FAIL tren-de-patrones-musica-fe63: WORDCOUNT 175<200
+  FAIL tren-de-patrones-navidad-fe63: WORDCOUNT 166<200
+  FAIL tren-de-patrones-ocupaciones-fe63: WORDCOUNT 168<200
+  FAIL tren-de-patrones-oficina-de-correos-fe63: WORDCOUNT 177<200
+  FAIL tren-de-patrones-panaderia-fe63: WORDCOUNT 173<200
+  FAIL tren-de-patrones-partes-del-cuerpo-fe63: WORDCOUNT 171<200
+  FAIL tren-de-patrones-pascua-fe63: WORDCOUNT 161<200
+  FAIL tren-de-patrones-playa-fe63: WORDCOUNT 185<200
+  FAIL tren-de-patrones-primavera-fe63: WORDCOUNT 168<200
+  FAIL tren-de-patrones-reptiles-y-anfibios-fe63: WORDCOUNT 175<200
+  FAIL tren-de-patrones-ropa-fe63: WORDCOUNT 162<200
+  FAIL tren-de-patrones-salon-de-clases-fe63: WORDCOUNT 178<200
+  FAIL tren-de-patrones-utensilios-de-cocina-fe63: WORDCOUNT 189<200
+  FAIL tren-de-patrones-vehiculos-fe63: WORDCOUNT 169<200
+  FAIL tren-de-patrones-verano-fe63: WORDCOUNT 163<200
+  FAIL tren-de-patrones-verduras-fe63: WORDCOUNT 178<200
+  FAIL tren-de-patrones-vida-marina-fe63: WORDCOUNT 172<200
+  FAIL suma-buscar-sumando-animales-del-zoologico-fd60: NO theme-noun in P1
+  FAIL suma-buscar-sumando-ocupaciones-5f9c: NO theme-noun in P1
+  FAIL suma-buscar-sumando-vida-marina-dbcd: NO theme-noun in P1
+  FAIL suma-mixto-en-el-supermercado-87ff: NO theme-noun in P1
+  FAIL suma-mixto-navidad-043b: NO theme-noun in P1
+  FAIL suma-imagen-imagen-alrededor-de-la-casa-7129: NO theme-noun in P1
+  FAIL suma-imagen-imagen-animales-de-granja-2d13: NO theme-noun in P1
+  FAIL suma-imagen-imagen-animales-del-zoologico-6dc3: NO theme-noun in P1
+  FAIL suma-imagen-imagen-aves-7400: NO theme-noun in P1
+  FAIL suma-imagen-imagen-campamento-0fb8: NO theme-noun in P1
+  FAIL suma-imagen-imagen-criaturas-del-bosque-7663: NO theme-noun in P1
+  FAIL suma-imagen-imagen-musica-67a6: NO theme-noun in P1
+  FAIL suma-imagen-imagen-navidad-e97e: NO theme-noun in P1
+  FAIL suma-imagen-imagen-postres-y-dulces-c11c: NO theme-noun in P1
+  FAIL suma-imagen-imagen-ropa-c05e: NO theme-noun in P1
+  FAIL suma-imagen-imagen-salon-de-clases-3e9c: NO theme-noun in P1
+  FAIL suma-imagen-imagen-utensilios-de-cocina-5f74: NO theme-noun in P1
+  FAIL suma-imagen-numero-animales-a9ea: NO theme-noun in P1
+  FAIL suma-imagen-numero-animales-de-granja-0aa2: NO theme-noun in P1
+  FAIL suma-imagen-numero-arboles-b4c8: NO theme-noun in P1
+  FAIL suma-imagen-numero-aves-2-7954: NO theme-noun in P1
+  FAIL suma-imagen-numero-aves-e13e: NO theme-noun in P1
+  FAIL suma-imagen-numero-colores-a0cf: NO theme-noun in P1
+  FAIL suma-imagen-numero-cosas-que-vuelan-de11: NO theme-noun in P1
+  FAIL suma-imagen-numero-criaturas-del-bosque-b93e: NO theme-noun in P1
+  FAIL suma-imagen-numero-dia-de-accion-de-gracias-9583: NO theme-noun in P1
+  FAIL suma-imagen-numero-dinosaurios-fab1: NO theme-noun in P1
+  FAIL suma-imagen-numero-emociones-8174: NO theme-noun in P1
+  FAIL suma-imagen-numero-espacio-1495: NO theme-noun in P1
+  FAIL suma-imagen-numero-invierno-abcf: NO theme-noun in P1
+  FAIL suma-imagen-numero-juguetes-c21d: NO theme-noun in P1
+  FAIL suma-imagen-numero-miscelaneo-bb02: NO theme-noun in P1
+  FAIL suma-imagen-numero-musica-f62d: NO theme-noun in P1
+  FAIL suma-imagen-numero-oficina-de-correos-66a3: NO theme-noun in P1
+  FAIL suma-imagen-numero-panaderia-26fb: NO theme-noun in P1
+  FAIL suma-imagen-numero-partes-del-cuerpo-c2d6: NO theme-noun in P1
+  FAIL suma-imagen-numero-playa-e77a: NO theme-noun in P1
+  FAIL suma-imagen-numero-postres-y-dulces-c116: NO theme-noun in P1
+  FAIL suma-imagen-numero-salon-de-clases-b46d: NO theme-noun in P1
+  FAIL suma-imagen-numero-utensilios-de-cocina-4022: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-4-de-julio-a64a: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-accesorios-78ba: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-actividades-b2c3: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-animales-del-zoologico-a1d1: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-arboles-74a1: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-aves-2-4b76: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-aves-8d67: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-clima-3d7c: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-cosas-que-vuelan-ae51: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-criaturas-del-bosque-dfa9: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-dia-de-accion-de-gracias-c78e: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-dinosaurios-103a: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-emociones-5000: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-en-el-supermercado-bb36: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-flores-b57d: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-frutas-b8ca: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-herramientas-bc6b: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-hospital-5473: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-insectos-y-bichos-59ce: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-invierno-f8f3: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-juguetes-856a: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-miscelaneo-ac2b: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-muebles-017c: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-musica-f405: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-navidad-97ba: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-ocupaciones-ed0b: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-oficina-de-correos-65d7: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-panaderia-7073: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-partes-del-cuerpo-373e: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-primavera-7859: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-ropa-18e7: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-salon-de-clases-60d5: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-verano-189a: NO theme-noun in P1
+  FAIL resta-buscar-sustraendo-verduras-34c0: NO theme-noun in P1
+  FAIL resta-tachar-accesorios-a38e: NO theme-noun in P1
+  FAIL resta-tachar-actividades-204d: NO theme-noun in P1
+  FAIL resta-tachar-animales-dec7: NO theme-noun in P1
+  FAIL resta-tachar-campamento-c259: NO theme-noun in P1
+  FAIL resta-tachar-clima-27ad: NO theme-noun in P1
+  FAIL resta-tachar-colores-d02c: NO theme-noun in P1
+  FAIL resta-tachar-cosas-que-vuelan-98b3: NO theme-noun in P1
+  FAIL resta-tachar-criaturas-del-bosque-37b0: NO theme-noun in P1
+  FAIL resta-tachar-criaturas-del-bosque-8cd4: NO theme-noun in P1
+  FAIL resta-tachar-desayuno-923a: NO theme-noun in P1
+  FAIL resta-tachar-dia-de-accion-de-gracias-c0f5: NO theme-noun in P1
+  FAIL resta-tachar-dinosaurios-d619: NO theme-noun in P1
+  FAIL resta-tachar-emociones-7c11: NO theme-noun in P1
+  FAIL resta-tachar-en-el-supermercado-4ba9: NO theme-noun in P1
+  FAIL resta-tachar-espacio-cb27: NO theme-noun in P1
+  FAIL resta-tachar-flores-ca69: NO theme-noun in P1
+  FAIL resta-tachar-formas-c087: NO theme-noun in P1
+  FAIL resta-tachar-frutas-0c7c: NO theme-noun in P1
+  FAIL resta-tachar-herramientas-1813: NO theme-noun in P1
+  FAIL resta-tachar-invierno-716d: NO theme-noun in P1
+  FAIL resta-tachar-juguetes-009e: NO theme-noun in P1
+  FAIL resta-tachar-mascotas-9ceb: NO theme-noun in P1
+  FAIL resta-tachar-miscelaneo-f89a: NO theme-noun in P1
+  FAIL resta-tachar-muebles-a6d4: NO theme-noun in P1
+  FAIL resta-tachar-musica-2adb: NO theme-noun in P1
+  FAIL resta-tachar-navidad-413a: NO theme-noun in P1
+  FAIL resta-tachar-ocupaciones-dbf0: NO theme-noun in P1
+  FAIL resta-tachar-oficina-de-correos-273b: NO theme-noun in P1
+  FAIL resta-tachar-partes-del-cuerpo-afc9: NO theme-noun in P1
+  FAIL resta-tachar-postres-y-dulces-103d: NO theme-noun in P1
+  FAIL resta-tachar-ropa-e18b: NO theme-noun in P1
+  FAIL resta-tachar-salon-de-clases-b09e: NO theme-noun in P1
+  FAIL resta-tachar-utensilios-de-cocina-d874: NO theme-noun in P1
+  FAIL resta-tachar-vehiculos-ecbf: NO theme-noun in P1
+  FAIL resta-tachar-verano-0739: NO theme-noun in P1
+  FAIL resta-tachar-vida-marina-9916: NO theme-noun in P1
+  FAIL resta-imagen-numero-4-de-julio-38f3: NO theme-noun in P1
+  FAIL resta-imagen-numero-accesorios-49b1: NO theme-noun in P1
+  FAIL resta-imagen-numero-actividades-42eb: NO theme-noun in P1
+  FAIL resta-imagen-numero-animales-de-granja-e3a6: NO theme-noun in P1
+  FAIL resta-imagen-numero-animales-del-zoologico-97a2: NO theme-noun in P1
+  FAIL resta-imagen-numero-arboles-6a58: NO theme-noun in P1
+  FAIL resta-imagen-numero-aves-1cd9: NO theme-noun in P1
+  FAIL resta-imagen-numero-aves-2-d1e3: NO theme-noun in P1
+  FAIL resta-imagen-numero-campamento-3400: NO theme-noun in P1
+  FAIL resta-imagen-numero-clima-d6ff: NO theme-noun in P1
+  FAIL resta-imagen-numero-colores-e187: NO theme-noun in P1
+  FAIL resta-imagen-numero-cosas-que-vuelan-fcb3: NO theme-noun in P1
+  FAIL resta-imagen-numero-criaturas-del-bosque-2a43: NO theme-noun in P1
+  FAIL resta-imagen-numero-desayuno-ae2b: NO theme-noun in P1
+  FAIL resta-imagen-numero-dia-de-accion-de-gracias-d5a1: NO theme-noun in P1
+  FAIL resta-imagen-numero-dinosaurios-f3dd: NO theme-noun in P1
+  FAIL resta-imagen-numero-emociones-3497: NO theme-noun in P1
+  FAIL resta-imagen-numero-en-el-supermercado-4c52: NO theme-noun in P1
+  FAIL resta-imagen-numero-espacio-f2b5: NO theme-noun in P1
+  FAIL resta-imagen-numero-flores-d5a1: NO theme-noun in P1
+  FAIL resta-imagen-numero-formas-cb18: NO theme-noun in P1
+  FAIL resta-imagen-numero-frutas-e27b: NO theme-noun in P1
+  FAIL resta-imagen-numero-insectos-y-bichos-309f: NO theme-noun in P1
+  FAIL resta-imagen-numero-invierno-f7d3: NO theme-noun in P1
+  FAIL resta-imagen-numero-miscelaneo-227b: NO theme-noun in P1
+  FAIL resta-imagen-numero-muebles-8ad2: NO theme-noun in P1
+  FAIL resta-imagen-numero-navidad-d479: NO theme-noun in P1
+  FAIL resta-imagen-numero-ocupaciones-03d3: NO theme-noun in P1
+  FAIL resta-imagen-numero-oficina-de-correos-abba: NO theme-noun in P1
+  FAIL resta-imagen-numero-panaderia-561e: NO theme-noun in P1
+  FAIL resta-imagen-numero-partes-del-cuerpo-7aa7: NO theme-noun in P1
+  FAIL resta-imagen-numero-pascua-0e7c: NO theme-noun in P1
+  FAIL resta-imagen-numero-postres-y-dulces-70aa: NO theme-noun in P1
+  FAIL resta-imagen-numero-ropa-41b2: NO theme-noun in P1
+  FAIL resta-imagen-numero-salon-de-clases-6796: NO theme-noun in P1
+  FAIL resta-imagen-numero-utensilios-de-cocina-3d30: NO theme-noun in P1
+  FAIL resta-imagen-numero-verduras-f0b0: NO theme-noun in P1
+  FAIL resta-mixto-4-de-julio-7aac: NO theme-noun in P1
+  FAIL resta-mixto-accesorios-e60e: NO theme-noun in P1
+  FAIL resta-mixto-actividades-980c: NO theme-noun in P1
+  FAIL resta-mixto-alrededor-de-la-casa-b987: NO theme-noun in P1
+  FAIL resta-mixto-animales-de-granja-6899: NO theme-noun in P1
+  FAIL resta-mixto-animales-del-zoologico-4ce4: NO theme-noun in P1
+  FAIL resta-mixto-arboles-edb9: NO theme-noun in P1
+  FAIL resta-mixto-aves-2-b317: NO theme-noun in P1
+  FAIL resta-mixto-aves-f010: NO theme-noun in P1
+  FAIL resta-mixto-campamento-d5a2: NO theme-noun in P1
+  FAIL resta-mixto-clima-2da2: NO theme-noun in P1
+  FAIL resta-mixto-colores-c01b: NO theme-noun in P1
+  FAIL resta-mixto-cosas-que-vuelan-b8f4: NO theme-noun in P1
+  FAIL resta-mixto-criaturas-del-bosque-4aee: NO theme-noun in P1
+  FAIL resta-mixto-desayuno-971a: NO theme-noun in P1
+  FAIL resta-mixto-dia-de-accion-de-gracias-ff3b: NO theme-noun in P1
+  FAIL resta-mixto-dinosaurios-fef4: NO theme-noun in P1
+  FAIL resta-mixto-en-el-supermercado-a6a5: NO theme-noun in P1
+  FAIL resta-mixto-espacio-856c: NO theme-noun in P1
+  FAIL resta-mixto-flores-64e3: NO theme-noun in P1
+  FAIL resta-mixto-formas-ff4b: NO theme-noun in P1
+  FAIL resta-mixto-herramientas-e491: NO theme-noun in P1
+  FAIL resta-mixto-hospital-eff1: NO theme-noun in P1
+  FAIL resta-mixto-insectos-y-bichos-c70f: NO theme-noun in P1
+  FAIL resta-mixto-mascotas-8b22: NO theme-noun in P1
+  FAIL resta-mixto-miscelaneo-6523: NO theme-noun in P1
+  FAIL resta-mixto-navidad-bdf1: NO theme-noun in P1
+  FAIL resta-mixto-frutas-7ac7: NO theme-noun in P1
+  FAIL resta-mixto-juguetes-6888: NO theme-noun in P1
+  FAIL resta-mixto-muebles-91d1: NO theme-noun in P1
+  FAIL resta-mixto-panaderia-f206: NO theme-noun in P1
+  FAIL resta-mixto-partes-del-cuerpo-0c18: NO theme-noun in P1
+  FAIL resta-mixto-pascua-974a: NO theme-noun in P1
+  FAIL resta-mixto-playa-0bfd: NO theme-noun in P1
+  FAIL resta-mixto-postres-y-dulces-8952: NO theme-noun in P1
+  FAIL resta-mixto-reptiles-y-anfibios-36cc: NO theme-noun in P1
+  FAIL resta-mixto-ropa-9a09: NO theme-noun in P1
+  FAIL resta-mixto-salon-de-clases-2869: NO theme-noun in P1
+  FAIL resta-mixto-utensilios-de-cocina-77a6: NO theme-noun in P1
+  FAIL resta-mixto-vehiculos-4173: NO theme-noun in P1
+  FAIL resta-mixto-verano-c837: NO theme-noun in P1
+  FAIL resta-mixto-verduras-0baf: NO theme-noun in P1
+  FAIL resta-mixto-vida-marina-1507: NO theme-noun in P1
+  FAIL rompecabezas-matematico-mixto-animales-de-granja-37d7: NO theme-noun in P1
+  FAIL rompecabezas-matematico-mixto-en-el-supermercado-b374: NO theme-noun in P1
+  -> 431 lint fails
+
+=== §4.C similarity — per-(type,mode) WITHIN-CLASS clusters (whole-page RAW) ===
+  addition/find-addend (n=50): max 0.547 mean 0.073 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.079 | maxPair suma-buscar-sumando-animales-0178 ~ suma-buscar-sumando-verano-271f
+  addition/image-image (n=48): max 0.444 mean 0.084 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.091 | maxPair suma-imagen-imagen-panaderia-af64 ~ suma-imagen-imagen-vida-marina-09cf
+  addition/image-number (n=50): max 0.498 mean 0.097 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.109 | maxPair suma-imagen-numero-insectos-y-bichos-c16e ~ suma-imagen-numero-vida-marina-b680
+  addition/mixed (n=50): max 0.594 mean 0.104 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.082 | maxPair suma-mixto-animales-834f ~ suma-mixto-utensilios-de-cocina-e84a
+  alphabet-train/letter-hint (n=35): max 0.626 mean 0.327 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.150 | maxPair tren-del-abecedario-pista-de-letra-navidad-2bfd ~ tren-del-abecedario-pista-de-letra-verano-76ea
+  alphabet-train/null (n=30): max 0.605 mean 0.325 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.131 | maxPair tren-del-abecedario-playa-fe63 ~ tren-del-abecedario-espacio-fe63
+  big-small/findBig (n=49): max 0.655 mean 0.346 #FAIL>=0.80=0 #WARN>=0.65=2 | P1-raw mean 0.160 | maxPair grande-pequeno-encontrar-el-grande-espacio-9e5f ~ grande-pequeno-encontrar-el-grande-verduras-1738
+  big-small/orderAsc (n=50): max 0.645 mean 0.349 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.172 | maxPair grande-pequeno-orden-ascendente-verano-3e08 ~ grande-pequeno-orden-ascendente-clima-4691
+  bingo/null (n=39): max 0.612 mean 0.340 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.135 | maxPair bingo-panaderia-3c41 ~ bingo-ropa-1a48
+  chart-count/null (n=43): max 0.755 mean 0.272 #FAIL>=0.80=0 #WARN>=0.65=200 | P1-raw mean 0.172 | maxPair contar-en-grafico-espacio ~ contar-en-grafico-verduras
+  crossword/null (n=46): max 0.643 mean 0.314 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.123 | maxPair crucigrama-e1b5 ~ crucigrama-49fd
+  crossword/null/t:en (n=47): max 0.534 mean 0.256 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.130 | maxPair ingles-crucigrama-en-el-supermercado-7ef9 ~ ingles-crucigrama-ocupaciones-951c
+  crossword/null/t:pt (n=44): max 0.534 mean 0.257 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.130 | maxPair portugues-crucigrama-postres-y-dulces-eb38 ~ portugues-crucigrama-verduras-7171
+  find-objects/find-odd (n=48): max 0.660 mean 0.352 #FAIL>=0.80=0 #WARN>=0.65=3 | P1-raw mean 0.111 | maxPair encuentra-los-objetos-encontrar-el-diferente-panaderia-1247 ~ encuentra-los-objetos-encontrar-el-diferente-clima-8b26
+  grid-match/null (n=47): max 0.622 mean 0.332 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.131 | maxPair empareja-en-cuadricula-hospital-98be ~ empareja-en-cuadricula-herramientas-98be
+  matching/letter (n=48): max 0.674 mean 0.358 #FAIL>=0.80=0 #WARN>=0.65=7 | P1-raw mean 0.153 | maxPair emparejar-letras-panaderia-0f3c ~ emparejar-letras-verano-0743
+  matching/name (n=46): max 0.655 mean 0.353 #FAIL>=0.80=0 #WARN>=0.65=2 | P1-raw mean 0.156 | maxPair emparejar-nombres-animales-de-granja-e984 ~ emparejar-nombres-miscelaneo-7259
+  matching/name/t:en (n=48): max 0.578 mean 0.283 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.137 | maxPair ingles-emparejar-nombres-panaderia-8007 ~ ingles-emparejar-nombres-invierno-22dd
+  matching/name/t:pt (n=47): max 0.593 mean 0.285 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.138 | maxPair portugues-emparejar-nombres-aves-9105 ~ portugues-emparejar-nombres-colores-ce75
+  math-puzzle/mixed (n=142): max 0.723 mean 0.104 #FAIL>=0.80=0 #WARN>=0.65=1 | P1-raw mean 0.136 | maxPair rompecabezas-matematico-mixto-animales-36bd ~ rompecabezas-matematico-mixto-alrededor-de-la-casa-7906
+  math-worksheet/three-symbols-add-sub (n=50): max 0.641 mean 0.306 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.120 | maxPair ficha-matematica-3-simbolos-suma-resta-en-el-supermercado-17bb ~ ficha-matematica-3-simbolos-suma-resta-navidad-66db
+  missing-pieces/null (n=48): max 0.631 mean 0.323 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.116 | maxPair piezas-faltantes-flores-1c93 ~ piezas-faltantes-verano-2043
+  more-less/image-image (n=50): max 0.631 mean 0.346 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.158 | maxPair mas-o-menos-imagen-imagen-espacio-3fc6 ~ mas-o-menos-imagen-imagen-verduras-29c4
+  odd-one-out/null (n=49): max 0.673 mean 0.350 #FAIL>=0.80=0 #WARN>=0.65=4 | P1-raw mean 0.128 | maxPair el-intruso-animales-43af ~ el-intruso-arboles-c52f
+  pattern-train/aab (n=47): max 0.498 mean 0.164 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.098 | maxPair tren-de-patrones-aab-animales-de-granja-fe63 ~ tren-de-patrones-aab-dinosaurios-fe63
+  pattern-train/aabb (n=49): max 0.526 mean 0.171 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.095 | maxPair tren-de-patrones-aabb-colores-fe63 ~ tren-de-patrones-aabb-navidad-fe63
+  pattern-train/abb (n=50): max 0.502 mean 0.170 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.098 | maxPair tren-de-patrones-abb-colores-fe63 ~ tren-de-patrones-abb-verduras-fe63
+  pattern-train/abc (n=50): max 0.539 mean 0.173 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.097 | maxPair tren-de-patrones-abc-colores-fe63 ~ tren-de-patrones-abc-musica-fe63
+  pattern-train/null (n=50): max 0.496 mean 0.166 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.097 | maxPair tren-de-patrones-clima-fe63 ~ tren-de-patrones-frutas-fe63
+  pattern-worksheet/null (n=49): max 0.647 mean 0.347 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.132 | maxPair ficha-de-patrones-musica-2f9e ~ ficha-de-patrones-vehiculos-7522
+  picture-path/null (n=48): max 0.607 mean 0.320 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.140 | maxPair sendero-de-imagenes-frutas-98be ~ sendero-de-imagenes-herramientas-98be
+  picture-sort/null (n=34): max 0.636 mean 0.341 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.110 | maxPair clasificar-imagenes-animals-vs-body-parts-6ea8 ~ clasificar-imagenes-animals-vs-emotions-306e
+  prepositions/fillin (n=50): max 0.681 mean 0.326 #FAIL>=0.80=0 #WARN>=0.65=8 | P1-raw mean 0.136 | maxPair preposiciones-completar-insectos-y-bichos-6cd4 ~ preposiciones-completar-reptiles-y-anfibios-59b2
+  prepositions/multiplechoice (n=47): max 0.646 mean 0.323 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.138 | maxPair preposiciones-opcion-multiple-4-de-julio-7d8f ~ preposiciones-opcion-multiple-frutas-454c
+  shadow-match/find-shadow (n=48): max 0.645 mean 0.354 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.112 | maxPair empareja-sombras-emparejar-la-sombra-actividades-98be ~ empareja-sombras-emparejar-la-sombra-arboles-98be
+  subtraction/cross-out (n=45): max 0.170 mean 0.091 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.101 | maxPair resta-tachar-aves-e2e3 ~ resta-tachar-muebles-a6d4
+  subtraction/find-subtrahend (n=46): max 0.510 mean 0.088 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.087 | maxPair resta-buscar-sustraendo-animales-a477 ~ resta-buscar-sustraendo-espacio-225c
+  subtraction/image-number (n=47): max 0.594 mean 0.089 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.106 | maxPair resta-imagen-numero-animales-808f ~ resta-imagen-numero-juguetes-89a2
+  subtraction/mixed (n=49): max 0.290 mean 0.092 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.087 | maxPair resta-mixto-accesorios-e60e ~ resta-mixto-primavera-1d35
+  sudoku/null (n=49): max 0.632 mean 0.323 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.126 | maxPair sudoku-de-imagenes-vida-marina-a4cc ~ sudoku-de-imagenes-invierno-8539
+  treasure-hunt/cardinal-arrows (n=46): max 0.639 mean 0.326 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.135 | maxPair busqueda-del-tesoro-en-el-supermercado ~ busqueda-del-tesoro-ropa
+  word-guess/normal (n=46): max 0.644 mean 0.339 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.137 | maxPair adivina-la-palabra-normal-campamento-4188 ~ adivina-la-palabra-normal-musica-021c
+  word-scramble/normal (n=47): max 0.648 mean 0.326 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.133 | maxPair letras-revueltas-normal-actividades-1ac2 ~ letras-revueltas-normal-pascua-f663
+  wordsearch/null (n=47): max 0.661 mean 0.344 #FAIL>=0.80=0 #WARN>=0.65=3 | P1-raw mean 0.151 | maxPair sopa-de-letras-ocupaciones-4338 ~ sopa-de-letras-clima-7263
+  wordsearch/null/t:en (n=46): max 0.537 mean 0.264 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.139 | maxPair ingles-sopa-de-letras-animales-a8dd ~ ingles-sopa-de-letras-clima-1980
+  wordsearch/null/t:pt (n=48): max 0.535 mean 0.263 #FAIL>=0.80=0 #WARN>=0.65=0 | P1-raw mean 0.138 | maxPair portugues-sopa-de-letras-4-de-julio-b11b ~ portugues-sopa-de-letras-colores-2bcd
+
+=== cross-class + within: ALL 2263 landings, whole-page RAW ===
+  ALL-PAIRS: {"max":"0.782","mean":"0.074","pairs":2559453,"over80":0,"over65":344,"over85":0,"maxPair":"ingles-sopa-de-letras-desayuno-d208 ~ portugues-sopa-de-letras-flores-926b"}
+
+=== full distribution: TOP-10 raw whole-page pairs (within+cross) ===
+  1. 0.782  ingles-sopa-de-letras-desayuno-d208 ~ portugues-sopa-de-letras-flores-926b  (wordsearch/null/t:en vs wordsearch/null/t:pt)
+  2. 0.774  ingles-sopa-de-letras-dia-de-accion-de-gracias-c342 ~ portugues-sopa-de-letras-invierno-d0d9  (wordsearch/null/t:en vs wordsearch/null/t:pt)
+  3. 0.774  ingles-sopa-de-letras-animales-de-granja-197f ~ portugues-sopa-de-letras-vida-marina-21d3  (wordsearch/null/t:en vs wordsearch/null/t:pt)
+  4. 0.770  ingles-sopa-de-letras-ocupaciones-68ef ~ portugues-sopa-de-letras-cosas-que-vuelan-89a6  (wordsearch/null/t:en vs wordsearch/null/t:pt)
+  5. 0.769  ingles-crucigrama-desayuno-7949 ~ portugues-crucigrama-frutas-a929  (crossword/null/t:en vs crossword/null/t:pt)
+  6. 0.767  ingles-sopa-de-letras-emociones-925e ~ portugues-sopa-de-letras-ocupaciones-b3ef  (wordsearch/null/t:en vs wordsearch/null/t:pt)
+  7. 0.767  ingles-sopa-de-letras-oficina-de-correos-2e0d ~ portugues-sopa-de-letras-arboles-25ac  (wordsearch/null/t:en vs wordsearch/null/t:pt)
+  8. 0.765  ingles-sopa-de-letras-formas-b5a7 ~ portugues-sopa-de-letras-verduras-c2dd  (wordsearch/null/t:en vs wordsearch/null/t:pt)
+  9. 0.765  ingles-emparejar-nombres-musica-c2b5 ~ portugues-emparejar-nombres-cosas-que-vuelan-450b  (matching/name/t:en vs matching/name/t:pt)
+  10. 0.765  ingles-sopa-de-letras-frutas-eb05 ~ portugues-sopa-de-letras-reptiles-y-anfibios-085f  (wordsearch/null/t:en vs wordsearch/null/t:pt)
+
+=== cross-class template-collision probe (slot-normalized whole-page, DIFFERENT (type,mode) only) ===
+  max cross-class slot-normalized Jaccard: 0.848  [ingles-sopa-de-letras-cosas-que-vuelan-f867 ~ portugues-sopa-de-letras-animales-del-zoologico-d8eb (wordsearch/null/t:en vs wordsearch/null/t:pt)]
+
+=== §4.E title + meta distinctness ===
+  [P] shared first-50-char title prefixes: 0 groups covering 0 of 2263 pages -> PASS
+  addition/find-addend (n=50): TITLE mean 0.595 max 0.818 #FAIL=45 | META mean 0.132 max 0.387 #FAIL=0
+  addition/image-image (n=48): TITLE mean 0.617 max 0.800 #FAIL=496 | META mean 0.119 max 0.786 #FAIL=0
+  addition/image-number (n=50): TITLE mean 0.660 max 0.833 #FAIL=6 | META mean 0.172 max 0.375 #FAIL=0
+  addition/mixed (n=50): TITLE mean 0.686 max 0.778 #FAIL=0 | META mean 0.154 max 0.385 #FAIL=0
+  alphabet-train/letter-hint (n=35): TITLE mean 0.636 max 0.800 #FAIL=300 | META mean 0.328 max 0.444 #FAIL=0
+  big-small/findBig (n=49): TITLE mean 0.635 max 0.818 #FAIL=496 | META mean 0.178 max 0.667 #FAIL=0
+  big-small/orderAsc (n=50): TITLE mean 0.604 max 0.800 #FAIL=528 | META mean 0.162 max 0.636 #FAIL=0
+  bingo/null (n=39): TITLE mean 0.505 max 0.600 #FAIL=0 | META mean 0.080 max 0.833 #FAIL=10
+  find-objects/find-odd (n=48): TITLE mean 0.654 max 0.750 #FAIL=0 | META mean 0.173 max 0.667 #FAIL=0
+  matching/letter (n=48): TITLE mean 0.682 max 0.778 #FAIL=0 | META mean 0.137 max 0.778 #FAIL=0
+  matching/name (n=46): TITLE mean 0.592 max 0.818 #FAIL=276 | META mean 0.114 max 0.786 #FAIL=0
+  math-puzzle/mixed (n=142): TITLE mean 0.320 max 0.800 #FAIL=92 | META mean 0.237 max 0.722 #FAIL=0
+  math-worksheet/three-symbols-add-sub (n=50): TITLE mean 0.474 max 0.800 #FAIL=286 | META mean 0.135 max 0.767 #FAIL=0
+  more-less/image-image (n=50): TITLE mean 0.677 max 0.778 #FAIL=0 | META mean 0.167 max 0.714 #FAIL=0
+  odd-one-out/null (n=49): TITLE mean 0.637 max 0.750 #FAIL=0 | META mean 0.069 max 0.857 #FAIL=10
+  pattern-train/aab (n=47): TITLE mean 0.665 max 0.778 #FAIL=0 | META mean 0.135 max 0.548 #FAIL=0
+  pattern-train/aabb (n=49): TITLE mean 0.670 max 0.778 #FAIL=0 | META mean 0.141 max 0.517 #FAIL=0
+  pattern-train/abb (n=50): TITLE mean 0.667 max 0.778 #FAIL=0 | META mean 0.138 max 0.548 #FAIL=0
+  pattern-train/abc (n=50): TITLE mean 0.667 max 0.778 #FAIL=0 | META mean 0.115 max 0.515 #FAIL=0
+  pattern-train/null (n=50): TITLE mean 0.622 max 0.833 #FAIL=33 | META mean 0.094 max 0.563 #FAIL=0
+  subtraction/cross-out (n=45): TITLE mean 0.685 max 0.800 #FAIL=496 | META mean 0.113 max 0.793 #FAIL=0
+  subtraction/find-subtrahend (n=46): TITLE mean 0.658 max 0.750 #FAIL=0 | META mean 0.178 max 0.630 #FAIL=0
+  subtraction/image-number (n=47): TITLE mean 0.678 max 0.833 #FAIL=1 | META mean 0.175 max 0.594 #FAIL=0
+  subtraction/mixed (n=49): TITLE mean 0.680 max 0.778 #FAIL=0 | META mean 0.126 max 0.778 #FAIL=0
+  treasure-hunt/cardinal-arrows (n=46): TITLE mean 0.585 max 0.818 #FAIL=210 | META mean 0.182 max 0.786 #FAIL=0
+  word-guess/normal (n=46): TITLE mean 0.663 max 0.778 #FAIL=0 | META mean 0.118 max 0.786 #FAIL=0
+  word-scramble/normal (n=47): TITLE mean 0.597 max 0.800 #FAIL=435 | META mean 0.139 max 0.800 #FAIL=3
+  wordsearch/null (n=47): TITLE mean 0.658 max 0.750 #FAIL=0 | META mean 0.096 max 0.793 #FAIL=0
+  wordsearch/null/t:en (n=46): TITLE mean 0.434 max 0.500 #FAIL=0 | META mean 0.068 max 0.813 #FAIL=6
+  wordsearch/null/t:pt (n=48): TITLE mean 0.433 max 0.500 #FAIL=0 | META mean 0.068 max 0.806 #FAIL=1
+  [T] worst within-class TITLE max: 0.833  [suma-imagen-numero-aves-e13e ~ suma-imagen-numero-clima-abfd]  -> FAIL
+  [M] worst within-class META  max: 0.857  [el-intruso-playa-8b55 ~ el-intruso-clima-8322]  -> FAIL
+  [D] exact-duplicate TITLES: 0 group(s) -> PASS
+  [D] exact-duplicate METAS : 0 group(s) -> PASS
+  [i] token-subset title pairs (reported, not failed): 188  e.g. suma-buscar-sumando-animales-0178 ⊂ suma-buscar-sumando-animales-de-granja-c37f
+
+=== VERDICT vs LOCKED thresholds (2026-06-06 calibration) ===
+  [1] cannibalization = WHOLE-PAGE RAW: FAIL>=0.80 / WARN 0.65-0.80 / PASS<0.65 (within+cross)
+      worst within-class max: 0.755  [contar-en-grafico-espacio ~ contar-en-grafico-verduras]  -> PASS
+      all-pairs max:          0.782 #FAIL(>=0.80)=0 #WARN(>=0.65)=344  -> PASS
+  [2] cluster-density (whole-page-raw mean) alarm>0.75 (per cluster): OK
+  [3] cross-class slot-norm template-collision FAIL>=0.90: max=0.848  -> PASS
+  [4] P1-raw cluster-mean WARN>0.70 (per cluster): ok
+  [5] title/meta distinctness (§4.E, STRUCTURAL): dup-titles=0, dup-metas=0, shared-50-char-prefix groups=0  -> PASS
+      (reported only, NOT thresholded on short strings: worst TITLE 0.833, worst META 0.857, subset pairs 188)
+      (per-paragraph 0.85 FAIL + within-class slot-norm = RETIRED per ruling — they misfire on the intended template/variant design)

@@ -1,0 +1,245 @@
+{
+ "locale": "de",
+ "part": "v2",
+ "reviewed": 29,
+ "summary": {
+  "CONFIRM": 27,
+  "REJECT": 2,
+  "AMEND": 0,
+  "ESCALATE": 0
+ },
+ "rows": [
+  {
+   "key": "baby-girl",
+   "field": "singular",
+   "proposed": "Baby Mädchen → Baby-Mädchen",
+   "verdict": "CONFIRM",
+   "reason": "The stored 'Baby Mädchen' carries a Deppenleerzeichen (space in a compound), which is simply wrong for German and is read aloud to children. Space→hyphen is a legitimate minimal same-word orthographic fix: Duden permits the Bindestrich in compounds with a foreign first element (Baby-). The whole lemma is non-idiomatic (a native would say 'Mädchen'; the art is a walking toddler), but the proposal correctly HOLDS that as a separate operator lemma question and only removes the orthographic defect. gender n (das Mädchen) is correct; the -chen diminutive gives a true zero plural.",
+   "source": "https://www.duden.de/sprachwissen/rechtschreibregeln/bindestrich"
+  },
+  {
+   "key": "blocks",
+   "field": "singular",
+   "proposed": "Bauklotz → Bauklötze",
+   "verdict": "CONFIRM",
+   "reason": "Image = FIVE blocks (plural-picture); per RULE 3 the displayed label must be the plural, and the sibling locales already obey it (fr Blocs/Blocs, es Bloques/Bloques, nl Blokken/Blokken). Duden: 'der Bauklotz; Plural: Bauklötze, umgangssprachlich: Bauklötzer' — Bauklötze is the standard form and the umlaut is one the builder cannot produce. Result becomes [Bauklötze, Bauklötze], consistent. This reverses the image-blind de-02 fix (which set the singular without seeing five blocks); the reversal is correct per RULE 3 + the picture.",
+   "source": "https://www.duden.de/rechtschreibung/Bauklotz"
+  },
+  {
+   "key": "diplodocus",
+   "field": "singular",
+   "proposed": "Diplodocus → Diplodokus",
+   "verdict": "CONFIRM",
+   "reason": "Duden's German headword is the germanised 'der Diplodokus' (with -k-), not the Latin genus spelling. DUDEN WINS, and the singular must travel with the k-plural to avoid an orthographic mongrel. Verified live: 'Substantiv, maskulin … der Diplodokus; Genitiv: des Diplodokus, Plural: die Diplodoken'. Image = long-necked sauropod, matches the key.",
+   "source": "https://www.duden.de/rechtschreibung/Diplodokus"
+  },
+  {
+   "key": "french-fries",
+   "field": "singular",
+   "proposed": "Pommes Frites → Pommes frites",
+   "verdict": "CONFIRM",
+   "reason": "Duden's headword is 'Pommes frites' with LOWERCASE 'frites' (French adjective, not a German noun), classed as Pluralwort ('nur im Plural'). Stored 'Pommes Frites' (capital F) is a misspelling. Fix makes both fields [Pommes frites, Pommes frites], matching the plural-picture convention (carton of many fries). Verified the Wortart line reads 'Pluralwort / nur im Plural'.",
+   "source": "https://www.duden.de/rechtschreibung/Pommes_frites"
+  },
+  {
+   "key": "jelly-beans",
+   "field": "singular",
+   "proposed": "Geleebohne → Geleebohnen",
+   "verdict": "CONFIRM",
+   "reason": "Image = heap of ~13 jelly beans (plural-picture); the label must be the plural. die Bohne → die Bohnen is trivially correct, so the compound is Geleebohnen. Result [Geleebohnen, Geleebohnen] matches every sibling plural-picture row (peas Erbsen/Erbsen, pretzels Brezeln/Brezeln). Pure form correction of the same lemma, not a lemma change.",
+   "source": "https://www.duden.de/rechtschreibung/Bohne"
+  },
+  {
+   "key": "pickup-truck",
+   "field": "singular",
+   "proposed": "Pickup → Pick-up",
+   "verdict": "CONFIRM",
+   "reason": "Duden's Rechtschreibung is hyphenated: 'der Pick-up' ('kleinerer Lieferwagen mit Pritsche') — exactly a pickup truck. Verified live: 'Substantiv, maskulin … der Pick-up; Genitiv: des Pick-ups, Plural: die Pick-ups'. Stored 'Pickup' is common running German but not Duden orthography, and Duden is THE authority for spelling. No art (noImage), so only the spelling is ruled on — which is what the proposal does.",
+   "source": "https://www.duden.de/rechtschreibung/Pick_up"
+  },
+  {
+   "key": "potato-chips",
+   "field": "singular",
+   "proposed": "Kartoffelchip → Kartoffelchips",
+   "verdict": "CONFIRM",
+   "reason": "Image = bag of crisps showing several chips (plural-picture); the displayed/spoken label (field 1) must be the plural. Duden: 'der Kartoffelchip; Plural: die Kartoffelchips (meist im Plural)'. Making field 1 = Kartoffelchips is correct and matches fr Chips/Chips, es Papas fritas/Papas fritas, it Patatine/Patatine. (NB the sibling PLURAL correction on this key is a separate matter — see below.)",
+   "source": "https://www.duden.de/rechtschreibung/Kartoffelchip"
+  },
+  {
+   "key": "slippers",
+   "field": "singular",
+   "proposed": "Hausschuh → Hausschuhe",
+   "verdict": "CONFIRM",
+   "reason": "Image = a PAIR of slippers (genuine two-object pair, plural-picture). Duden: 'der Hausschuh; Plural: die Hausschuhe'. Field 1 must carry the plural label, as every sibling does (shoes Schuhe/Schuhe, sneakers Turnschuhe/Turnschuhe, snow-boots Schneestiefel/Schneestiefel). Result [Hausschuhe, Hausschuhe]. Same-word form correction, not a lemma change.",
+   "source": "https://www.duden.de/rechtschreibung/Hausschuh"
+  },
+  {
+   "key": "baby-girl",
+   "field": "plural",
+   "proposed": "Baby Mädchen → Baby-Mädchen",
+   "verdict": "CONFIRM",
+   "reason": "Same space→hyphen orthographic fix. The plural itself is a correct zero plural: das Mädchen → die Mädchen (-chen diminutive), so only the spacing was at fault. Consistent with the singular ruling.",
+   "source": "https://www.duden.de/rechtschreibung/Maedchen"
+  },
+  {
+   "key": "basketball",
+   "field": "plural",
+   "proposed": "Basketball → Basketbälle",
+   "verdict": "CONFIRM",
+   "reason": "Stored plural is a zero echo of the singular. Verified live: 'der Basketball; Genitiv: des Basketball[e]s, Plural: die Basketbälle'. Duden's 'ohne Plural; meist ohne Artikel' belongs to the SPORT reading; the image is unambiguously the BALL (no ART_DEFECT flag; classification countable-thing/hasPlural:true), which takes the umlaut plural Basketbälle. Sibling beach-ball already carries its umlaut plural (Wasserbälle), confirming this one was unauthored.",
+   "source": "https://www.duden.de/rechtschreibung/Basketball"
+  },
+  {
+   "key": "beetroot",
+   "field": "plural",
+   "proposed": "Rote Bete → Rote Beten",
+   "verdict": "CONFIRM",
+   "reason": "Stored plural merely echoes the singular. The head noun inflects — verified live: 'die Bete, Beete … die Bete; Genitiv: der Bete, Plural: die Beten', with the example 'Rote Bete'. So the phrase pluralises to Rote Beten. Image is one countable root and classification says hasPlural:true. In everyday speech Rote Bete is often handled as a mass noun, so the plural is uncommon — an honest register caveat for the operator — but DUDEN WINS and 'Rote Beten' is the attested form; leaving an unattested zero echo would be worse.",
+   "source": "https://www.duden.de/rechtschreibung/Bete"
+  },
+  {
+   "key": "bowling",
+   "field": "plural",
+   "proposed": "Bowling → Bowlings",
+   "verdict": "CONFIRM",
+   "reason": "Duden states it outright — verified live: 'das Bowling; Genitiv: des Bowlings, Plural: die Bowlings'. Both Bedeutungen are the SPORT sense (amerikanische Art des Kegelspiels / englisches Kugelspiel), so the attested plural sits on exactly the sense the key names — this is NOT the lettuce case. The stored zero echo is not a form Duden gives. 'die Bowlings' is rare in child speech (a content preference, not a form question), but the form Duden attests is Bowlings; the sibling 'camping' has NO Duden plural, an asymmetry Duden itself sets per word.",
+   "source": "https://www.duden.de/rechtschreibung/Bowling"
+  },
+  {
+   "key": "capybara",
+   "field": "plural",
+   "proposed": "Capybaras → Capybara",
+   "verdict": "REJECT",
+   "reason": "The stored 'Capybaras' is deleted here in favour of a zero plural on the strength of ONE tertiary source, with no Duden entry to force it — precisely the move the brief warns against (the lego lesson). Duden 404s. de.wiktionary gives a zero plural 'die Capybara' and neuter (das Capybara) — but wiktionary declension tables routinely list a SINGLE variant, and its silence on -s is not evidence -s is wrong. And 'Capybaras' is impeccable German: the regular, productive plural for a neuter vowel-final animal loan, exactly like das Sofa→Sofas and by direct analogy der/das Panda→Pandas, Koala→Koalas, Gorilla→Gorillas — plus it is the form a 3–7-year-old actually says. Swapping a correct, common, child-appropriate -s plural for a stiff Latinate zero form makes the data WORSE, not better, and no authority compels it. Keep 'Capybaras'. (The stored neuter gender, which wiktionary confirms, is not under proposal and is correct.)",
+   "source": "https://de.wiktionary.org/wiki/Capybara"
+  },
+  {
+   "key": "cauliflower",
+   "field": "plural",
+   "proposed": "Blumenkohl → Blumenkohle",
+   "verdict": "CONFIRM",
+   "reason": "Stored plural is a zero echo. Verified live: 'der Blumenkohl; Genitiv: des Blumenkohls, Blumenkohles, Plural: die Blumenkohle' — no 'ohne Plural' marker. This is the _countable:false trap the brief flags for Spargel/Käse/Brokkoli: the head noun der Kohl is 'ohne Plural', yet the compound Blumenkohl has an attested plural, so the two cannot be reasoned from one another. Blumenkohle is the Duden form.",
+   "source": "https://www.duden.de/rechtschreibung/Blumenkohl"
+  },
+  {
+   "key": "coral",
+   "field": "plural",
+   "proposed": "Koralle → Korallen",
+   "verdict": "CONFIRM",
+   "reason": "Stored plural repeats the singular. Verified live: 'die Koralle; Genitiv: der Koralle, Plural: die Korallen'. Judged against the KEY (coral = the organism, as the ocean-life art shows; ART_DEFECT on the colour swatch is operator-ruled out), it is an ordinary countable feminine noun. Pure form correction.",
+   "source": "https://www.duden.de/rechtschreibung/Koralle"
+  },
+  {
+   "key": "dimetrodon",
+   "field": "plural",
+   "proposed": "Dimetrodone → Dimetrodonten",
+   "verdict": "CONFIRM",
+   "reason": "'Dimetrodone' is the builder's naive -e default. Verified live: 'das Dimetrodon; Genitiv: des Dimetrodons, Plural: die Dimetrodonten' — the Greek -odṓn (Zahn) stem takes -odonten, exactly like Mastodon→Mastodonten. Not a -saurus name, so no -saurier rule reaches it; the discrimination is correct.",
+   "source": "https://www.duden.de/rechtschreibung/Dimetrodon"
+  },
+  {
+   "key": "diplodocus",
+   "field": "plural",
+   "proposed": "Diplodocen → Diplodoken",
+   "verdict": "CONFIRM",
+   "reason": "Verified live: 'der Diplodokus; Genitiv: des Diplodokus, Plural: die Diplodoken'. Stored 'Diplodocen' is not a Duden form (wrong stem spelling). Diplodoken travels with the corrected singular Diplodokus.",
+   "source": "https://www.duden.de/rechtschreibung/Diplodokus"
+  },
+  {
+   "key": "durian",
+   "field": "plural",
+   "proposed": "Duriane → Durians",
+   "verdict": "CONFIRM",
+   "reason": "'Duriane' is the builder's naive -e default. Verified live: 'die Durian; Genitiv: der Durian, Plural: die Durians' — a loan, fetched not reasoned from a class rule. Durians is the Duden plural.",
+   "source": "https://www.duden.de/rechtschreibung/Durian"
+  },
+  {
+   "key": "iguanodon",
+   "field": "plural",
+   "proposed": "Iguanodone → Iguanodons",
+   "verdict": "CONFIRM",
+   "reason": "'Iguanodone' is invented (builder -e default). Verified live: 'das Iguanodon; Genitiv: des Iguanodons, Plural: die Iguanodons oder Iguanodonten' — Iguanodons is Duden's first-listed variant and the child-friendlier one. Greek -odon (tooth), so it patterns with Mastodon, not -saurus; correctly no -saurier rule.",
+   "source": "https://www.duden.de/rechtschreibung/Iguanodon"
+  },
+  {
+   "key": "leek",
+   "field": "plural",
+   "proposed": "Lauch → Lauche",
+   "verdict": "CONFIRM",
+   "reason": "Stored plural is a zero echo. Verified live: 'der Lauch; Genitiv: des Lauches, Lauchs, Plural: die Lauche' — NO 'ohne Plural' marker anywhere, and hasPlural:true. This is NOT the lettuce case (Salat carries an explicit 'ohne Plural' sense; Lauch carries none). 'die Lauche' reads botanical/varietal and a child counting the vegetable might say 'Lauchstangen' — an honest register note — but DUDEN WINS and Lauche is the attested form.",
+   "source": "https://www.duden.de/rechtschreibung/Lauch"
+  },
+  {
+   "key": "lotus",
+   "field": "plural",
+   "proposed": "Lotusblüten → Lotus",
+   "verdict": "CONFIRM",
+   "reason": "Internal contradiction fixed: stored 'Lotusblüten' is the plural of a DIFFERENT lemma (die Lotusblüte), not of the stored singular 'Lotus'. Verified live: 'der Lotus; Genitiv: des Lotus, Plural: die Lotus' — a zero plural. Image = a single lotus flower (Duden Bedeutung 2, Lotos). Pure form fix on the same word.",
+   "source": "https://www.duden.de/rechtschreibung/Lotus"
+  },
+  {
+   "key": "medicine",
+   "field": "plural",
+   "proposed": "Medizin → Medizinen",
+   "verdict": "CONFIRM",
+   "reason": "The inverse of the lettuce case — the DEPICTED sense is the one that takes the plural. Verified live: 'die Medizin; Genitiv: der Medizin, Plural: die Medizinen'. The 'ohne Plural' marker sits ONLY on Bedeutung 1 (Medizin = Heilkunde/science); Bedeutung 2 is '[flüssiges] Medikament', and the picture is a medicine bottle with tablets — exactly the countable sense. Stored zero echo asserts no plural, which is wrong here.",
+   "source": "https://www.duden.de/rechtschreibung/Medizin"
+  },
+  {
+   "key": "pepper",
+   "field": "plural",
+   "proposed": "Pfeffer → Paprikas",
+   "verdict": "CONFIRM",
+   "reason": "The plural field held a DIFFERENT WORD — 'Pfeffer' (black pepper, the spice) — an EN-homonym collapse ('pepper' = both Paprika and Pfeffer). Image = one red BELL PEPPER, so the field must inflect Paprika. Verified live (Paprika_Gemuese): 'der Paprika; Genitiv: des Paprikas, Plural: die Paprikas, Paprika' (and under the feminine reading 'die Paprikas, Paprika'). Paprikas is attested under both gender readings, is unambiguously plural, and matches the stored m gender. Opening the picture resolves the prior de-08 HOLD in one second.",
+   "source": "https://www.duden.de/rechtschreibung/Paprika_Gemuese"
+  },
+  {
+   "key": "pickup-truck",
+   "field": "plural",
+   "proposed": "Pickups → Pick-ups",
+   "verdict": "CONFIRM",
+   "reason": "Verified live: 'der Pick-up; Plural: die Pick-ups'. The -s pattern was already right; only the Duden hyphen was missing. Consistent with the singular fix.",
+   "source": "https://www.duden.de/rechtschreibung/Pick_up"
+  },
+  {
+   "key": "potato-chips",
+   "field": "plural",
+   "proposed": "Kartoffelchips → Kartoffelchip",
+   "verdict": "REJECT",
+   "reason": "This puts the SINGULAR into the plural field and breaks the plural-picture convention. Every sibling plural-picture key stores the plural label in BOTH fields (peas Erbsen/Erbsen, pretzels Brezeln/Brezeln, and cross-locale fr Chips/Chips, es Papas fritas/Papas fritas, it Patatine/Patatine). Once the singular fix makes field 1 = Kartoffelchips, leaving field 2 at its stored 'Kartoffelchips' yields the correct, consistent [Kartoffelchips, Kartoffelchips]. Changing field 2 to 'Kartoffelchip' makes this the ONLY plural-picture row with a singular in the plural slot — and it contradicts the proposal's OWN stated goal ('would simply mirror the corrected singular'; the corrected singular is Kartoffelchips, not Kartoffelchip). Do not apply this change; field 2 = Kartoffelchips is already correct (Duden: 'Plural: die Kartoffelchips').",
+   "source": "https://www.duden.de/rechtschreibung/Kartoffelchip"
+  },
+  {
+   "key": "science",
+   "field": "plural",
+   "proposed": "Wissenschaft → Wissenschaften",
+   "verdict": "CONFIRM",
+   "reason": "The builder left '-schaft' unchanged (its documented gap). Verified live: 'die Wissenschaft; Genitiv: der Wissenschaft, Plural: die Wissenschaften' — NO 'ohne Plural' marker, and 'exakte Wissenschaften' / 'die Akademie der Wissenschaften' are Duden's own examples under Bedeutung 1. Judged against the KEY (science = Wissenschaft; the microscope art is operator-flagged ART_DEFECT), the discipline sense takes the plural. Stored zero echo is not a plural. Note nl chose NO_PLURAL for the school-activity referent, but for German Duden gives a clean, unmarked plural — DUDEN WINS.",
+   "source": "https://www.duden.de/rechtschreibung/Wissenschaft"
+  },
+  {
+   "key": "dimetrodon",
+   "field": "gender",
+   "proposed": "m → n",
+   "verdict": "CONFIRM",
+   "reason": "Verified live: 'Substantiv, Neutrum' — das Dimetrodon. Stored 'm' is the generic dinosaurs-are-masculine assumption; Duden contradicts it.",
+   "source": "https://www.duden.de/rechtschreibung/Dimetrodon"
+  },
+  {
+   "key": "durian",
+   "field": "gender",
+   "proposed": "m → f",
+   "verdict": "CONFIRM",
+   "reason": "Verified live: 'Substantiv, feminin' — die Durian, not *der Durian.",
+   "source": "https://www.duden.de/rechtschreibung/Durian"
+  },
+  {
+   "key": "iguanodon",
+   "field": "gender",
+   "proposed": "m → n",
+   "verdict": "CONFIRM",
+   "reason": "Verified live: 'Substantiv, Neutrum' — das Iguanodon. Stored 'm' likely copied from the -saurus siblings, which ARE maskulin; das Iguanodon is not.",
+   "source": "https://www.duden.de/rechtschreibung/Iguanodon"
+  }
+ ]
+}

@@ -1,0 +1,3007 @@
+{
+  "opts": {
+    "baseUrl": "https://www.lessoncraftstudio.com",
+    "locales": [
+      "sv"
+    ],
+    "axes": [
+      "exercise-type",
+      "theme",
+      "educational-level"
+    ],
+    "outDir": "C:\\Users\\rkgen\\lessoncraftstudio\\docs\\audit-results",
+    "concurrency": 10,
+    "sample": null,
+    "includeIntersections": false,
+    "timeoutMs": 15000
+  },
+  "byLocale": {
+    "sv": {
+      "locale": "sv",
+      "total": 134,
+      "pass": 34,
+      "fail": 100,
+      "byAxis": {
+        "exercise-type": {
+          "total": 29,
+          "pass": 29
+        },
+        "theme": {
+          "total": 100,
+          "pass": 1
+        },
+        "educational-level": {
+          "total": 5,
+          "pass": 4
+        }
+      },
+      "defectCounts": {
+        "PAGE_HTTP_404": 100
+      },
+      "fallbackCount": 0,
+      "tooShortCount": 0,
+      "tooLongCount": 0,
+      "nonUniqueCount": 0,
+      "missingCount": 0,
+      "sampleFailures": [
+        {
+          "url": "https://www.lessoncraftstudio.com/sv/topic/4-juli/",
+          "axisKey": "4th_of_july",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/sv/topic/tillbehor/",
+          "axisKey": "accessories",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/sv/topic/aktiviteter/",
+          "axisKey": "activities",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/sv/topic/runt-huset/",
+          "axisKey": "around_the_house",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        },
+        {
+          "url": "https://www.lessoncraftstudio.com/sv/topic/i-snabbkopet/",
+          "axisKey": "at_the_supermarket",
+          "defects": [
+            "PAGE_HTTP_404"
+          ]
+        }
+      ]
+    }
+  },
+  "perPage": [
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/addition/",
+      "locale": "sv",
+      "axis": "exercise-type",
+      "axisKey": "addition",
+      "slug": "addition",
+      "status": 200,
+      "descriptionLength": 151,
+      "descriptionPreview": "Additionsövningar bygger talförståelse och fact fluency för förskoleklass till årskurs 2 med visuella stöd och progression upp till tvåsiffriga summor.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 151
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "3d32ceb79ac029d39dd3be62e686f83acd9f0aae"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/bildsudoku/",
+      "locale": "sv",
+      "axis": "exercise-type",
+      "axisKey": "sudoku",
+      "slug": "bildsudoku",
+      "status": 200,
+      "descriptionLength": 147,
+      "descriptionPreview": "Bildsudoku tränar logiskt tänkande, mönsterigenkänning och deduktiv resonemang hos förskoleklass till årskurs 2 genom 4×4-rutnät med bildmatchning.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 147
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "149b686166324a0d376a07ff81e99edfd8962a5a"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/kryptogram/",
+      "locale": "sv",
+      "axis": "exercise-type",
+      "axisKey": "cryptogram",
+      "slug": "kryptogram",
+      "status": 200,
+      "descriptionLength": 150,
+      "descriptionPreview": "Kryptogramövningar bygger avkodning, logiskt tänkande och bokstavsigenkänning för årskurs 1-3 genom kodlösning som stärker läsning och problemlösning.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 150
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "1117150e6215f195e37d3fa994dbd74dee893b75"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/bildvag/",
+      "locale": "sv",
+      "axis": "exercise-type",
+      "axisKey": "picture-path",
+      "slug": "bildvag",
+      "status": 200,
+      "descriptionLength": 147,
+      "descriptionPreview": "Bildvägövningar tränar rumslig orientering, visuell skanning och vägval hos förskolebarn för geometrisk och spatial-kognitiv förmåga med stationer.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 147
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "cf7cd156fe3e4d89fa11166158e368a60aaf021c"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/subtraktion/",
+      "locale": "sv",
+      "axis": "exercise-type",
+      "axisKey": "subtraction",
+      "slug": "subtraktion",
+      "status": 200,
+      "descriptionLength": 147,
+      "descriptionPreview": "Subtraktionsövningar utvecklar talförståelse, fact fluency och bortakts-koncept hos förskoleklass till årskurs 2 med visuella stöd för progression.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 147
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "3c0eeaa905883903d9f94afed8ca8a2c75239dd3"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/kodaddition/",
+      "locale": "sv",
+      "axis": "exercise-type",
+      "axisKey": "code-addition",
+      "slug": "kodaddition",
+      "status": 200,
+      "descriptionLength": 141,
+      "descriptionPreview": "Kodadditionsövningar tränar avkodning, talförståelse och fact fluency hos årskurs 1-3 genom bokstav-tal-koppling som bygger logiskt tänkande.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 141
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "a0ad6bfe62d8983b8dff95f458105077bc6fd68a"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/mer-mindre/",
+      "locale": "sv",
+      "axis": "exercise-type",
+      "axisKey": "more-less",
+      "slug": "mer-mindre",
+      "status": 200,
+      "descriptionLength": 143,
+      "descriptionPreview": "Mer-eller-mindre-övningar utvecklar mängdjämförelse, talförståelse och kvantitetsbegrepp hos förskolebarn som grund för matematisk progression.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 143
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "358bcb978a2e892756daf25cf0c7df8282b3b03f"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/mattepussel/",
+      "locale": "sv",
+      "axis": "exercise-type",
+      "axisKey": "math-puzzle",
+      "slug": "mattepussel",
+      "status": 200,
+      "descriptionLength": 144,
+      "descriptionPreview": "Mattepussel utvecklar visuell algebra, problemlösning och logiskt tänkande hos årskurs 1-3 genom dragövningar som stärker matematisk resonemang.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 144
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "146384f11c66c58ebf3f7e5725d8297ffba29ff1"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/matteblad/",
+      "locale": "sv",
+      "axis": "exercise-type",
+      "axisKey": "math-worksheet",
+      "slug": "matteblad",
+      "status": 200,
+      "descriptionLength": 146,
+      "descriptionPreview": "Matteblad för årskurs 1-3 bygger fact fluency, talförståelse och symbolisk algebra genom flerslotsövningar för progression i matematisk färdighet.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 146
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "6573b8b71e02951508b3f47b750ad7840df87196"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/stor-liten/",
+      "locale": "sv",
+      "axis": "exercise-type",
+      "axisKey": "big-small",
+      "slug": "stor-liten",
+      "status": 200,
+      "descriptionLength": 149,
+      "descriptionPreview": "Stor-eller-liten-övningar utvecklar storleksjämförelse, visuell diskriminering och kvantitetsbegrepp hos förskolebarn för matematisk grundförståelse.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 149
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "619f97e0cd92a3096eae0e9a95cba21f51fb64bc"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/rakna-i-diagram/",
+      "locale": "sv",
+      "axis": "exercise-type",
+      "axisKey": "chart-count",
+      "slug": "rakna-i-diagram",
+      "status": 200,
+      "descriptionLength": 149,
+      "descriptionPreview": "Diagramövningar utvecklar dataläsning, ett-till-ett-korrespondens och tidig statistikförståelse för förskoleklass till årskurs 2 genom stapeldiagram.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 149
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b6168793431ee7e3b0dafb2ab63bdc98203bef9a"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/monstertaget/",
+      "locale": "sv",
+      "axis": "exercise-type",
+      "axisKey": "pattern-train",
+      "slug": "monstertaget",
+      "status": 200,
+      "descriptionLength": 138,
+      "descriptionPreview": "Mönstertåget tränar mönsterigenkänning, sekvenseringsförmåga och visuell-spatial förmåga hos förskolebarn för matematisk och logisk grund.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 138
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "6107a9d40330f87d1841877c1ae668f510fb4fad"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/monsterblad/",
+      "locale": "sv",
+      "axis": "exercise-type",
+      "axisKey": "pattern-worksheet",
+      "slug": "monsterblad",
+      "status": 200,
+      "descriptionLength": 148,
+      "descriptionPreview": "Mönsterblad utvecklar mönsterigenkänning, sekvenslogik och visuell-algebraisk förmåga hos förskoleklass till årskurs 2 genom strukturerade övningar.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 148
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "0e01ff45f174b029a39e1be1ed17f519681d2af5"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/bingo/",
+      "locale": "sv",
+      "axis": "exercise-type",
+      "axisKey": "bingo",
+      "slug": "bingo",
+      "status": 200,
+      "descriptionLength": 144,
+      "descriptionPreview": "Bingo-övningar tränar ord-bildmatchning, snabb visuell igenkänning och lyssnarfärdigheter hos förskolebarn genom roligt strukturerat spelformat.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 144
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "ad85dc631928a22371c7530901a154ae28268a15"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/rutmatchning/",
+      "locale": "sv",
+      "axis": "exercise-type",
+      "axisKey": "grid-match",
+      "slug": "rutmatchning",
+      "status": 200,
+      "descriptionLength": 146,
+      "descriptionPreview": "Rutmatchningsövningar tränar visuell-spatial förmåga, mönsterigenkänning och logiskt tänkande hos förskoleklass till årskurs 2 genom dragövningar.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 146
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "64500ad55e2a5db633e61d7a0f4d79aa0c2bd482"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/matchning/",
+      "locale": "sv",
+      "axis": "exercise-type",
+      "axisKey": "matching",
+      "slug": "matchning",
+      "status": 200,
+      "descriptionLength": 152,
+      "descriptionPreview": "Matchningsövningar tränar ett-till-ett-korrespondens, visuell diskriminering och kategoriseringsförmåga hos förskolebarn för matematisk grundförståelse.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 152
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b67b747589a4a91f8fa89e73b21af46acf475310"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/sortera-bilder/",
+      "locale": "sv",
+      "axis": "exercise-type",
+      "axisKey": "picture-sort",
+      "slug": "sortera-bilder",
+      "status": 200,
+      "descriptionLength": 151,
+      "descriptionPreview": "Sortera-bilder-övningar utvecklar kategorisering, klassificering och logiskt tänkande hos förskolebarn genom dragsorteringar för analytiskt resonemang.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 151
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "0de8257a46785fa2b4072e09ee923d8b84c6499a"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/matcha-skuggor/",
+      "locale": "sv",
+      "axis": "exercise-type",
+      "axisKey": "shadow-match",
+      "slug": "matcha-skuggor",
+      "status": 200,
+      "descriptionLength": 145,
+      "descriptionPreview": "Matcha-skuggor-övningar tränar visuell diskriminering, formigenkänning och perceptuell förmåga hos förskolebarn för stark visuell grundkapacitet.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 145
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "cfeb01f34d525c97751368700cba431edd1dc7ba"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/alfabetstaget/",
+      "locale": "sv",
+      "axis": "exercise-type",
+      "axisKey": "alphabet-train",
+      "slug": "alfabetstaget",
+      "status": 200,
+      "descriptionLength": 141,
+      "descriptionPreview": "Alfabetståget tränar bokstavsordning, alfabetisk sekvens och bokstav-ljudkorrespondens för förskolebarn som bygger förberedande läskunskaper.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 141
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "8b3dc74fc55e786d54390f4b561dfb815c92f722"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/prepositioner/",
+      "locale": "sv",
+      "axis": "exercise-type",
+      "axisKey": "prepositions",
+      "slug": "prepositioner",
+      "status": 200,
+      "descriptionLength": 141,
+      "descriptionPreview": "Prepositionsövningar tränar rumslig orientering, lägeord och språklig precision hos förskolebarn genom igenkänning av i, på, under och bakom.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 141
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "b9892a2379f12eb697c017346b64f7b6d9d8f1e8"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/gissa-ordet/",
+      "locale": "sv",
+      "axis": "exercise-type",
+      "axisKey": "word-guess",
+      "slug": "gissa-ordet",
+      "status": 200,
+      "descriptionLength": 142,
+      "descriptionPreview": "Gissa-ordet-övningar tränar bokstavsigenkänning, stavning och ordförrådsbygge hos förskoleklass till årskurs 2 genom enskilda bokstavsplatser.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 142
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "1ba1c5ddcadb3c3487c1b389f721918840f80f42"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/bokstavspussel/",
+      "locale": "sv",
+      "axis": "exercise-type",
+      "axisKey": "word-scramble",
+      "slug": "bokstavspussel",
+      "status": 200,
+      "descriptionLength": 145,
+      "descriptionPreview": "Bokstavspusselövningar utvecklar stavning, bokstavsordning och ordförrådsbygge hos årskurs 1-3 genom omkastade bokstäver för avkodningsfärdighet.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 145
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "e2a013c9514bb65770d7a5049c07a9e34d57b214"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/ordleta/",
+      "locale": "sv",
+      "axis": "exercise-type",
+      "axisKey": "wordsearch",
+      "slug": "ordleta",
+      "status": 200,
+      "descriptionLength": 144,
+      "descriptionPreview": "Ordleta-övningar bygger visuell skanning, bokstavsigenkänning och ordförrådskonsolidering hos förskoleklass till årskurs 2 genom rutnätssökning.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 144
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "be4a88790190dacb68cdcc0c4cabbe4009aed810"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/korsord/",
+      "locale": "sv",
+      "axis": "exercise-type",
+      "axisKey": "crossword",
+      "slug": "korsord",
+      "status": 200,
+      "descriptionLength": 149,
+      "descriptionPreview": "Korsordsövningar tränar bokstavsigenkänning, stavning och ordförrådsbygge för årskurs 1-3 genom 2D-rutnätsformat som utvecklar avkodningsfärdigheter.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 149
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "1e6dd0f1ebb9756714312438b0d830bc199c3d34"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/hitta-och-rakna/",
+      "locale": "sv",
+      "axis": "exercise-type",
+      "axisKey": "find-and-count",
+      "slug": "hitta-och-rakna",
+      "status": 200,
+      "descriptionLength": 150,
+      "descriptionPreview": "Hitta-och-räkna-övningar tränar visuell skanning, ett-till-ett-korrespondens och räkneprecision hos förskoleklass till årskurs 2 genom sökaktiviteter.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 150
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "ea410592cb73a106c81b50993d740a77d6553211"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/hitta-foremalen/",
+      "locale": "sv",
+      "axis": "exercise-type",
+      "axisKey": "find-objects",
+      "slug": "hitta-foremalen",
+      "status": 200,
+      "descriptionLength": 147,
+      "descriptionPreview": "Hitta-föremålen-övningar bygger visuell uppmärksamhet, koncentration och kategoriseringsförmåga hos 3-7 åringar genom strukturerade söksituationer.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 147
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "3777df9fbdaa9cb3f315c3ce84fd2c54fe8d5a5d"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/skattjakt/",
+      "locale": "sv",
+      "axis": "exercise-type",
+      "axisKey": "treasure-hunt",
+      "slug": "skattjakt",
+      "status": 200,
+      "descriptionLength": 144,
+      "descriptionPreview": "Skattjaktsövningar tränar rumslig orientering, sekvenslogik och problemlösning hos förskolebarn genom 5×5-rutnät för geometrisk färdighetsbygge.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 144
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "3b3c272a4b5d8abc587f931673a845a0db0e4ae9"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/saknade-bitar/",
+      "locale": "sv",
+      "axis": "exercise-type",
+      "axisKey": "missing-pieces",
+      "slug": "saknade-bitar",
+      "status": 200,
+      "descriptionLength": 147,
+      "descriptionPreview": "Saknade-bitar-övningar tränar visuell-spatial förmåga, formigenkänning och pusselkomplettering hos förskolebarn för kognitivt problemlösningsbygge.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 147
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "fe191b143481838d38633a7b3728e8322dc2abf4"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/vilken-passar-inte/",
+      "locale": "sv",
+      "axis": "exercise-type",
+      "axisKey": "odd-one-out",
+      "slug": "vilken-passar-inte",
+      "status": 200,
+      "descriptionLength": 145,
+      "descriptionPreview": "Vilken-passar-inte-övningar tränar visuell diskriminering, kategoriseringslogik och analytiskt tänkande hos förskolebarn för kritiskt resonemang.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 145
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "347f0cd49c5cd351afb24917ae47ab7ff9f27b85"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/4-juli/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "4th_of_july",
+      "slug": "4-juli",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/tillbehor/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "accessories",
+      "slug": "tillbehor",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/aktiviteter/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "activities",
+      "slug": "aktiviteter",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/djur/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "animals",
+      "slug": "djur",
+      "status": 200,
+      "descriptionLength": 148,
+      "descriptionPreview": "Djurtemat utvecklar grundläggande ordförråd, klassificering och habitatkunskap för 3-7 åringar genom igenkänning av däggdjur, fåglar och vattendjur.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 148
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "7cb36bb4b1aa6f969e9c821085537fafe48007c4"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/runt-huset/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "around_the_house",
+      "slug": "runt-huset",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/i-snabbkopet/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "at_the_supermarket",
+      "slug": "i-snabbkopet",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/bageri/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "bakery",
+      "slug": "bageri",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/strand/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "beach",
+      "slug": "strand",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/faglar/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "birds",
+      "slug": "faglar",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/faglar-2/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "birds_2",
+      "slug": "faglar-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/kroppsdelar/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "body_parts",
+      "slug": "kroppsdelar",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/frukost/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "breakfast",
+      "slug": "frukost",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/camping/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "camping",
+      "slug": "camping",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/jul/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "christmas",
+      "slug": "jul",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/klassrum/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "classroom",
+      "slug": "klassrum",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/klader/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "clothing",
+      "slug": "klader",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/farger/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "colors",
+      "slug": "farger",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/efterratter-och-godis/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "desserts_and_sweets",
+      "slug": "efterratter-och-godis",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/dinosaurier/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "dinosaurs",
+      "slug": "dinosaurier",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/pask/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "easter",
+      "slug": "pask",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/kanslor/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "emotions",
+      "slug": "kanslor",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/bondgardsdjur/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "farm_animals",
+      "slug": "bondgardsdjur",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/blommor/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "flowers",
+      "slug": "blommor",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/skogsdjur/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "forest_creatures",
+      "slug": "skogsdjur",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/frukter/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "fruits",
+      "slug": "frukter",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/mobler/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "furniture",
+      "slug": "mobler",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/sjukhus/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "hospital",
+      "slug": "sjukhus",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/insekter-och-kryp/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "insects_and_bugs",
+      "slug": "insekter-och-kryp",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/koksredskap/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "kitchen_tools",
+      "slug": "koksredskap",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/blandat/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "miscellaneous",
+      "slug": "blandat",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/musik/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "music",
+      "slug": "musik",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/yrken/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "occupations",
+      "slug": "yrken",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/havsliv/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "ocean_life",
+      "slug": "havsliv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/husdjur/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "pets",
+      "slug": "husdjur",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/postkontor/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "post_office",
+      "slug": "postkontor",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/reptiler-och-groddjur/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "reptiles_and_amphibians",
+      "slug": "reptiler-och-groddjur",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/former/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "shapes",
+      "slug": "former",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/rymden/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "space",
+      "slug": "rymden",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/var/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "spring",
+      "slug": "var",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/sommar/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "summer",
+      "slug": "sommar",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/thanksgiving/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "thanksgivinng",
+      "slug": "thanksgiving",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/saker-som-flyger/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "things_that_fly",
+      "slug": "saker-som-flyger",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/verktyg/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "tools",
+      "slug": "verktyg",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/leksaker/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "toys",
+      "slug": "leksaker",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/trad/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "tree",
+      "slug": "trad",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/gronsaker/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "vegetables",
+      "slug": "gronsaker",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/fordon/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "vehicles",
+      "slug": "fordon",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/vader/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "weather",
+      "slug": "vader",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/vinter/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "winter",
+      "slug": "vinter",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/djurparksdjur/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "zoo_animals",
+      "slug": "djurparksdjur",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/djur-sv/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "animals_bw",
+      "slug": "djur-sv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/djur-sv-2/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "animals_bw_2",
+      "slug": "djur-sv-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/djur-sv-3/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "animals_bw_3",
+      "slug": "djur-sv-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/djur-sv-4/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "animals_bw_4",
+      "slug": "djur-sv-4",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/djur-sv-5/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "animals_bw_5",
+      "slug": "djur-sv-5",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/klader-sv/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "apparel_bw",
+      "slug": "klader-sv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/strand-sv/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "beach_bw",
+      "slug": "strand-sv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/strand-sv-2/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "beach_bw_2",
+      "slug": "strand-sv-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/faglar-s-v/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "birds_bw",
+      "slug": "faglar-s-v",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/faglar-s-v-2/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "birds_bw_2",
+      "slug": "faglar-s-v-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/jul-s-v/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "christmas_bw",
+      "slug": "jul-s-v",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/jul-s-v-2/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "christmas_bw_2",
+      "slug": "jul-s-v-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/klassrum-s-v/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "classroom_bw",
+      "slug": "klassrum-s-v",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/klassrum-2-s-v/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "classroom_bw_2",
+      "slug": "klassrum-2-s-v",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/efterratt-s-v/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "dessert_bw",
+      "slug": "efterratt-s-v",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/pask-sv/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "easter_bw",
+      "slug": "pask-sv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/pask-sv-2/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "easter_bw_2",
+      "slug": "pask-sv-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/utbildning-sv/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "education_bw",
+      "slug": "utbildning-sv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/ansikten-sv/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "faces_bw",
+      "slug": "ansikten-sv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/bondgardsdjur-sv/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "farm_animals_bw",
+      "slug": "bondgardsdjur-sv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/bondgard-sv/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "farm_bw",
+      "slug": "bondgard-sv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/mat-sv/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "food_bw",
+      "slug": "mat-sv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/mat-sv-2/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "food_bw_2",
+      "slug": "mat-sv-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/mat-sv-3/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "food_bw_3",
+      "slug": "mat-sv-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/frukter-sv/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "fruits_bw",
+      "slug": "frukter-sv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/mobler-sv/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "furniture_bw",
+      "slug": "mobler-sv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/hem-och-natur-sv/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "home_and_nature_bw",
+      "slug": "hem-och-natur-sv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/hem-sv/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "home_bw",
+      "slug": "hem-sv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/hem-sv-2/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "home_bw_2",
+      "slug": "hem-sv-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/hushall-sv/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "household_bw",
+      "slug": "hushall-sv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/kok-sv/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "kitchen_bw",
+      "slug": "kok-sv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/natur-sv/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "nature_bw",
+      "slug": "natur-sv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/objekt-sv/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "objects_bw",
+      "slug": "objekt-sv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/havsliv-sv/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "sea_life_bw",
+      "slug": "havsliv-sv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/havsliv-sv-2/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "sea_life_bw_2",
+      "slug": "havsliv-sv-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/rymden-sv/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "space_bw",
+      "slug": "rymden-sv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/sport-sv/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "sports_bw",
+      "slug": "sport-sv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/sport-sv-2/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "sports_bw_2",
+      "slug": "sport-sv-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/verktyg-sv/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "tools_bw",
+      "slug": "verktyg-sv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/leksaker-sv/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "toys_bw",
+      "slug": "leksaker-sv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/leksaker-sv-2/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "toys_bw_2",
+      "slug": "leksaker-sv-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/resor-och-semester-sv/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "travel_and_holiday_bw",
+      "slug": "resor-och-semester-sv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/alla-hjartans-dag-sv/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "valentine_bw",
+      "slug": "alla-hjartans-dag-sv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/alla-hjartans-dag-sv-2/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "valentine_bw_2",
+      "slug": "alla-hjartans-dag-sv-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/gronsaker-sv/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "vegetables_bw",
+      "slug": "gronsaker-sv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/gronsaker-sv-2/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "vegetables_bw_2",
+      "slug": "gronsaker-sv-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/fordon-sv/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "vehicles_bw",
+      "slug": "fordon-sv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/fordon-sv-2/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "vehicles_bw_2",
+      "slug": "fordon-sv-2",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/fordon-sv-3/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "vehicles_bw_3",
+      "slug": "fordon-sv-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/djurparksdjur-sv/",
+      "locale": "sv",
+      "axis": "theme",
+      "axisKey": "zoo_animals_bw",
+      "slug": "djurparksdjur-sv",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/forskola/",
+      "locale": "sv",
+      "axis": "educational-level",
+      "axisKey": "preschool",
+      "slug": "forskola",
+      "status": 200,
+      "descriptionLength": 145,
+      "descriptionPreview": "Förskoleövningar (3-5 år) enligt Lpfö 18 utvecklar förakademiska färdigheter, ordförrådstillväxt, för-avkodning och finmotorik för läsande start.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 145
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "09650f108acf8ef78dbebae5ae36d7ca5c6fece5"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/forskoleklass/",
+      "locale": "sv",
+      "axis": "educational-level",
+      "axisKey": "kindergarten",
+      "slug": "forskoleklass",
+      "status": 200,
+      "descriptionLength": 149,
+      "descriptionPreview": "Förskoleklassövningar (5-7 år) enligt Skolverkets riktlinjer bygger bokstav-ljudkorrespondens, räkning till 20 och börjande CVC-läsning för lässtart.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 149
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "40affd28a9eb96a101b4aa9806a6447adefcf538"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/arskurs-1/",
+      "locale": "sv",
+      "axis": "educational-level",
+      "axisKey": "grade-1",
+      "slug": "arskurs-1",
+      "status": 200,
+      "descriptionLength": 149,
+      "descriptionPreview": "Övningar för årskurs 1 (6-8 år) enligt Lgr22 utvecklar CVC-avkodning, räkning upp till 100, positionsvärde och meningsläsning för lässtart i klassen.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 149
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "d671e9e278f211e49065472037ecfa2e2a8c4c1d"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/arskurs-2/",
+      "locale": "sv",
+      "axis": "educational-level",
+      "axisKey": "grade-2",
+      "slug": "arskurs-2",
+      "status": 200,
+      "descriptionLength": 145,
+      "descriptionPreview": "Övningar för årskurs 2 (7-9 år) enligt Lgr22 bygger tvåsiffrig räkning med tiotalsövergångar, flerstavig läsning och utbyggd meningskonstruktion.",
+      "checks": {
+        "metaDescriptionPresent": {
+          "pass": true
+        },
+        "length": {
+          "pass": true,
+          "length": 145
+        },
+        "fallbackTemplate": {
+          "pass": true,
+          "skip": "no per-locale pattern (locale=sv)"
+        },
+        "uniqueness": {
+          "pass": true,
+          "hash": "3484eaffb94c09e12830244656eb5a64b30b6c43"
+        }
+      },
+      "defectClasses": [],
+      "defectCount": 0,
+      "passAll": true
+    },
+    {
+      "url": "https://www.lessoncraftstudio.com/sv/topic/arskurs-3/",
+      "locale": "sv",
+      "axis": "educational-level",
+      "axisKey": "grade-3",
+      "slug": "arskurs-3",
+      "status": 404,
+      "checks": {
+        "fetch": {
+          "pass": false,
+          "category": "HTTP_404"
+        }
+      },
+      "defectClasses": [
+        "PAGE_HTTP_404"
+      ],
+      "defectCount": 1,
+      "passAll": false
+    }
+  ]
+}

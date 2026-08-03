@@ -1352,6 +1352,26 @@ if (typeof document !== 'undefined') (function injectCSS() {
   +   '.pww-heroimg.i1{--pww-to:translate(-64px,6px) rotate(-4deg) scale(.62);transform:translate(-64px,6px) rotate(-4deg) scale(.62);}'
   +   '.pww-heroimg.i2{--pww-to:translate(64px,10px) rotate(5deg) scale(.62);transform:translate(64px,10px) rotate(5deg) scale(.62);}'
   + '}'
+    /* =====================================================================
+       WIDE VIEWPORTS — this tool is CARD-bound, not instrument-bound.
+       Apparatus 1077px inside a 1120px card = 96%. 41.9% -> 66.1% at 2560.
+       Its own `body.pww-wide .lcs-app{max-width:...}` is what holds it: a
+       self-widen rule at (0,1,1) DELIBERATELY out-specifies the shell's
+       generic `.lcs-app` tier (0,1,0), which is what kept the eighteen
+       legacy self-wideners untouched when the shell tiers shipped. That
+       protection is now the ceiling, so the cap is raised here, per tool.
+       MEASURED with probe-tool-tiers.js at every tier FLOOR in Italian
+       BEFORE it was written — every cell fits, and 1366 is untouched.
+       ===================================================================== */
+    + '@media (min-width:1367px) and (min-height:880px){'
+    +   'body.pww-wide .lcs-app{max-width:min(1240px,96vw);}'
+    + '}'
+    + '@media (min-width:1800px) and (min-height:1080px){'
+    +   'body.pww-wide .lcs-app{max-width:min(1560px,96vw);}'
+    + '}'
+    + '@media (min-width:2400px) and (min-height:1150px){'
+    +   'body.pww-wide .lcs-app{max-width:min(1740px,96vw);}'
+    + '}'
   + '@media (prefers-reduced-motion: reduce){'
   +   '.pww-drawer{animation:none;}'
   +   '.pww-card{transition:none;}'

@@ -28,7 +28,33 @@
  */
 const fs = require('fs');
 const path = require('path');
-const { PrismaClient } = require('@prisma/client');
+
+/* ⚠ RESOLVE PRISMA BY ABSOLUTE PATH, NOT BY BARE SPECIFIER. @prisma/client is
+   installed ONLY in frontend/node_modules (measured on Hetzner 2026-08-03: absent
+   at the repo root). Node resolves a bare specifier from the SCRIPT's directory,
+   not the cwd — so this file, living at scripts/, walks
+   /opt/lessoncraftstudio/node_modules -> /opt/node_modules -> /node_modules and
+   never sees it. deploy.sh's `( cd frontend && node /abs/path/script.js )` could
+   therefore never work: cwd does not participate in module resolution.
+
+   The crash then read as a CONTENT failure, because deploy.sh's `||` prints
+   "an image directory is half-mirrored" for any non-zero exit — a gate that
+   cannot run is indistinguishable from a gate that found something.
+
+   Same pattern as scripts/publish-cli/db.js, which solved this first. */
+const prismaClientPath = path.resolve(__dirname, '..', 'frontend', 'node_modules', '@prisma', 'client');
+let PrismaClient;
+try {
+  ({ PrismaClient } = require(prismaClientPath));
+} catch (e) {
+  try {
+    ({ PrismaClient } = require('@prisma/client'));
+  } catch {
+    console.error('audit-theme-webp-coverage: Prisma client not found at ' + prismaClientPath +
+      ' nor on the default resolution path. Run `npm install` in frontend/ first. ' + e.message);
+    process.exit(1);
+  }
+}
 
 const args = new Set(process.argv.slice(2));
 const LIST = args.has('--list');

@@ -32,7 +32,14 @@ const ROOT = path.join(__dirname, '..', 'mini tools');
 const OUT = path.join(__dirname, '..', '.scratch', 'cmp');
 const SHOT = process.argv.indexOf('--shot') >= 0;
 const PORT = 5536;
-const WIDTHS = [320, 360, 412, 768, 1024, 1366];
+/* 1400x880 is the EXACT Tier-A floor -- the widest bench this tool draws
+   against the shortest viewport that draws it, and therefore the tightest
+   cell in the sweep. It matters most HERE: this tool has the heaviest
+   chrome in the batch (466px measured, gate open, German), so its Tier-A
+   budget is 839 of 880 and there is no room for a guess.
+   1366 stays as the CONTROL: nothing may move there. */
+const WIDTHS = [320, 360, 412, 768, 1024, 1366, 1400, 1920, 2560];
+const heightFor = (W) => (W >= 2400 ? 1440 : W >= 1800 ? 1080 : W >= 1400 ? 880 : W < 500 ? 740 : 900);
 
 if (SHOT) fs.mkdirSync(OUT, { recursive: true });
 
@@ -61,7 +68,7 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
     const errs = [];
     page.on('pageerror', (e) => errs.push(String(e)));
     page.on('console', (m) => { if (m.type() === 'error' && !/404|net::ERR/.test(m.text())) errs.push(m.text()); });
-    await page.setViewport({ width: W, height: W < 500 ? 740 : 900, deviceScaleFactor: dpr });
+    await page.setViewport({ width: W, height: heightFor(W), deviceScaleFactor: dpr });
     await page.goto(`http://127.0.0.1:${PORT}/comparison-planks.html?lang=en&embed=1`, { waitUntil: 'domcontentloaded' });
     await page.waitForSelector('.cmp-bench', { timeout: 9000 });
     await wait(450);
@@ -355,7 +362,7 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
     const p6 = await browser.newPage();
     const PAIRS = [[1, 1], [16, 16], [1, 16], [16, 1], [16, 8], [2, 15]];
     for (const W of [320, 1366]) {
-      await p6.setViewport({ width: W, height: W < 500 ? 740 : 900 });
+      await p6.setViewport({ width: W, height: heightFor(W) });
       await p6.goto(`http://127.0.0.1:${PORT}/comparison-planks.html?lang=en&embed=1`, { waitUntil: 'domcontentloaded' });
       await p6.waitForSelector('.cmp-bench', { timeout: 9000 });
       await wait(350);

@@ -47,6 +47,7 @@ const val = (f) => (argv.find((a) => a.indexOf('--' + f + '=') === 0) || '').spl
 const KEY = val('tool');
 const LOCALES = (val('locales') || 'de,it,fi').split(',');
 const STATE = val('state') || '';
+const CHAIN = process.argv.indexOf('--chain') > -1;
 if (!KEY) { console.error('usage: node scripts/probe-tool-tiers.js --tool=<key> [--cap=1240:1367:880,1740:1800:1150] [--locales=de,it,fi] [--state=gate]'); process.exit(1); }
 
 /* --cap=<px>:<minWidth>:<minHeight>,... — a candidate ladder, applied in the page.
@@ -153,8 +154,71 @@ const PROBE = (pfx) => {
   };
 };
 
+/* ⭐⭐ --chain: EVERY CAP BETWEEN THE INSTRUMENT AND THE CARD.
+   part-whole-frame cost a full write-measure cycle to this. I raised
+   `.pwf-sheet` from 620 to 1300 and measured 620 -> 629: the dot ramp had
+   worked (`--pwf-dot` read 46px and the dot rendered 46px) while the width had
+   not moved at all, because the sheet's PARENT `.pwf-col` carries its own
+   `max-width:620px`. A cap on the thing you are ramping is not the only cap in
+   the chain. With ~35 geometry tools to go, walking it is the first step, not
+   a debugging afterthought. */
+const WALK = (pfx) => {
+  const draws = (e) => {
+    const t = e.tagName;
+    if (t === 'svg' || t === 'CANVAS' || t === 'IMG') return true;
+    const cs = getComputedStyle(e), bg = cs.backgroundColor;
+    if (bg && bg.replace(/\s/g, '') !== 'rgba(0,0,0,0)' && bg !== 'transparent') return true;
+    if (cs.backgroundImage && cs.backgroundImage !== 'none') return true;
+    if (parseFloat(cs.borderTopWidth) > 0) return true;
+    return false;
+  };
+  const CHROME = /-(chip|foot|hint|gate|bar|controls|lock|scrim|overlay|modal|backdrop|veil)/;
+  const scope = (pfx && document.querySelector('.' + pfx + '-wrap')) || document.querySelector('.lcs-stage');
+  if (!scope) return null;
+  const tally = {};
+  scope.querySelectorAll('*').forEach((e) => {
+    const c = String(e.className && e.className.baseVal !== undefined ? e.className.baseVal : e.className || '');
+    if (!c || CHROME.test(c) || !draws(e)) return;
+    const r = e.getBoundingClientRect();
+    if (r.width < 8 || r.height < 8) return;
+    c.split(/\s+/).filter(Boolean).forEach((cl) => { (tally[cl] = tally[cl] || []).push(e); });
+  });
+  const best = Object.keys(tally).filter((k) => tally[k].length >= 3)
+    .sort((a, b) => tally[b].length - tally[a].length)[0];
+  if (!best) return { unit: null, rows: [] };
+  let n = tally[best][0], rows = [];
+  while (n && n !== document.body) {
+    const cs = getComputedStyle(n);
+    rows.push({
+      cls: String(n.className && n.className.baseVal !== undefined ? n.className.baseVal : n.className || n.tagName).slice(0, 30),
+      w: Math.round(n.getBoundingClientRect().width),
+      maxW: cs.maxWidth, width: cs.width
+    });
+    n = n.parentElement;
+  }
+  return { unit: best, rows: rows };
+};
+
 (async () => {
   const pfx = prefixOf(KEY);
+  if (CHAIN) {
+    const b0 = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox'] });
+    const p0 = await b0.newPage();
+    await p0.setViewport({ width: 2560, height: 1440 });
+    await p0.goto(`http://127.0.0.1:${PORT}/${KEY}.html?lang=de`, { waitUntil: 'domcontentloaded' });
+    await p0.waitForSelector('.lcs-app', { timeout: 12000 });
+    await wait(600);
+    const w = await p0.evaluate(WALK, pfx);
+    console.log('\n' + KEY + ' — the cap chain at 2560x1440, unit `.' + (w && w.unit) + '`');
+    console.log('  element                          width   max-width     css width');
+    (w ? w.rows : []).forEach((r) => {
+      const capped = r.maxW !== 'none' && Math.abs(parseFloat(r.maxW) - r.w) < 2;
+      console.log('  .' + r.cls.padEnd(31) + String(r.w).padStart(5) + '   ' +
+        String(r.maxW).padEnd(12) + '  ' + String(r.width).padEnd(12) + (capped ? '  <== CAPS IT' : ''));
+    });
+    await b0.close();
+    process.exit(0);
+  }
   console.log('\n' + KEY + '   prefix .' + pfx + '-' + (CAPS.length ? '   candidate caps: ' + CAPS.map((c) => c.px + 'px above ' + c.w + 'x' + c.h).join(', ') : '   (as shipped)'));
   console.log('  loc  viewport     card        appar  card%  screen%  lowest/vh   verdict');
   console.log('  ---  -----------  ----------  -----  -----  -------  ----------  -------');

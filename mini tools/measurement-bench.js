@@ -493,7 +493,21 @@ var MeasurementBench = {
   _fitStage: function () {
     if (!this._stageEl || !this._stageOuter) return;
     var avail = this._stageOuter.clientWidth || 660;
-    var s = Math.min(1, avail / 660);
+    /* ⭐ THE HARD `Math.min(1, …)` WAS THE WHOLE DEFECT AT WIDE VIEWPORTS.
+       The bench is a fixed 660x430 stage that this routine scales to fit, so
+       it could shrink to a phone and never grow past its design size — on a
+       2560 board it drew a 660px instrument in the middle of the screen. The
+       ceiling now comes from --mb-maxscale, which the tier block raises and
+       which is chosen so 430·cap plus the tabs and dock still fit the tier's
+       MINIMUM height (that is what the probe measures at each tier floor).
+       ⚠ Read it from CSS, not from a width test in JS: the tiers key on
+       width AND height together, and a JS width test cannot see the height
+       condition, so a wide-and-short board would scale past its own budget.
+       The negative-margin collapse below generalises to s>1 unchanged — the
+       sign simply flips and it makes room instead of taking it back. */
+    var cap = parseFloat(getComputedStyle(document.body).getPropertyValue('--mb-maxscale'));
+    if (!(cap > 0)) cap = 1;
+    var s = Math.min(cap, avail / 660);
     this._scale = s;
     this._stageEl.style.transform = 'scale(' + s + ')';
     /* transform doesn't shrink the LAYOUT box — collapse it with negative
@@ -1412,6 +1426,66 @@ var MeasurementBench = {
   +   '.mb-tabs{gap:6px;}'
   +   '.mb-tab{padding:8px 12px;font-size:13.5px;min-height:46px;}'
   +   '.mb-est-q{font-size:13px;}'
+  + '}'
+
+  /* ---- wide board (§23 the apparatus a teacher teaches FROM) ----
+     Every instrument on this bench lives inside ONE fixed 660x430 stage that
+     _fitStage scales, so the tier body is two numbers: how wide the stage's
+     container may be, and how far --mb-maxscale lets the scale go. The cap is
+     set by HEIGHT, not width — 430·cap plus tabs plus dock has to fit the
+     tier's own minimum height, and the probe measures exactly that floor.
+     The tabs are scaled by hand because they sit OUTSIDE the stage and do not
+     ride the transform; leaving them would grow the instrument and keep the
+     controls at phone size. */
+  + '@media (min-width:1367px) and (min-height:880px){'
+  +   'body.mb-wide{--mb-maxscale:1.3;}'
+  +   'body.mb-wide .lcs-app{max-width:min(1192px,96vw);}'
+  +   'body.mb-wide .mb-stage-outer{max-width:900px;}'
+  +   'body.mb-wide .mb-tab{min-height:54px;padding:12px 22px;font-size:17px;}'
+  +   'body.mb-wide .mb-tab svg{width:22px;height:22px;}'
+  +   'body.mb-wide .mb-estbar{max-width:900px;min-height:58px;}'
+  +   'body.mb-wide .mb-est-q{font-size:18px;}'
+  +   'body.mb-wide .mb-est-val{font-size:26px;min-width:40px;}'
+  +   'body.mb-wide .mb-est-btn{width:50px;height:50px;font-size:24px;}'
+  +   'body.mb-wide .mb-est-pin{font-size:16px;min-height:50px;padding:10px 18px;}'
+  +   'body.mb-wide .mb-chip{min-height:52px;font-size:16px;padding:10px 18px;}'
+  + '}'
+  + '@media (min-width:1800px) and (min-height:1080px){'
+  +   'body.mb-wide{--mb-maxscale:1.7;}'
+  +   'body.mb-wide .lcs-app{max-width:min(1560px,96vw);}'
+  +   'body.mb-wide .mb-stage-outer{max-width:1200px;}'
+  +   'body.mb-wide .mb-tab{min-height:60px;padding:14px 26px;font-size:19px;}'
+  +   'body.mb-wide .mb-tab svg{width:25px;height:25px;}'
+  +   'body.mb-wide .mb-estbar{max-width:1200px;min-height:64px;}'
+  +   'body.mb-wide .mb-est-q{font-size:20px;}'
+  +   'body.mb-wide .mb-est-val{font-size:30px;min-width:46px;}'
+  +   'body.mb-wide .mb-est-btn{width:54px;height:54px;font-size:26px;}'
+  +   'body.mb-wide .mb-est-pin{font-size:17px;min-height:54px;}'
+  +   'body.mb-wide .mb-chip{min-height:56px;font-size:17px;padding:11px 20px;}'
+  + '}'
+  + '@media (min-width:2400px) and (min-height:1150px){'
+  +   'body.mb-wide{--mb-maxscale:1.84;}'
+  +   'body.mb-wide .lcs-app{max-width:min(1752px,96vw);}'
+  +   'body.mb-wide .mb-stage-outer{max-width:1340px;}'
+  +   'body.mb-wide .mb-tab{min-height:64px;padding:15px 30px;font-size:21px;}'
+  +   'body.mb-wide .mb-tab svg{width:27px;height:27px;}'
+  +   'body.mb-wide .mb-estbar{max-width:1340px;}'
+  +   'body.mb-wide .mb-est-q{font-size:22px;}'
+  +   'body.mb-wide .mb-est-val{font-size:34px;min-width:52px;}'
+  +   'body.mb-wide .mb-est-btn{width:58px;height:58px;font-size:28px;}'
+  +   'body.mb-wide .mb-est-pin{font-size:18px;min-height:56px;}'
+  +   'body.mb-wide .mb-chip{min-height:58px;font-size:18px;padding:12px 22px;}'
+  + '}'
+  /* ⚠ A FOURTH STEP, KEYED ONLY ON HEIGHT, BECAUSE THE CAP IS HEIGHT-BOUND.
+     The stage is a fixed 660x430, so its scale is set by vertical budget and
+     its width follows. At 2400x1150 — tier C's own FLOOR — a cap of 1.95 cut
+     the dock by 3px, while the same cap on a 1440-tall board had 280px to
+     spare. Lowering the number to fit the floor would have left every tall
+     board at 49% of its width, so the answer is a step, not a smaller cap:
+     1.9 where the board is short, 2.2 where there is height to pay for it. */
+  + '@media (min-width:2400px) and (min-height:1300px){'
+  +   'body.mb-wide{--mb-maxscale:2.2;}'
+  +   'body.mb-wide .mb-stage-outer{max-width:1520px;}'
   + '}'
 
   /* reduced motion */

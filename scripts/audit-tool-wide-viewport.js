@@ -504,6 +504,23 @@ function staticRisks(key) {
     console.log('  smallest numeral at 2560, median   ' +
       (() => { const n = ok.map((r) => r.cells[2560].minNum).filter((x) => x != null).sort((a, b) => a - b); return n.length ? n[Math.floor(n.length / 2)] + 'px' : '-'; })());
 
+    /* ⚠⚠ A FILTERED RUN MUST NEVER WRITE THE BASELINE, AND THIS ONE DID.
+       `--measure --tool=measurement-bench` overwrote the 48-tool reference
+       with ONE entry — silently, reporting success — and the baseline is the
+       only thing the assert mode's CONTROL cell compares against, so every
+       other tool's neutrality proof would have been gone. The filter exists
+       for reading one tool's numbers; writing is a whole-catalogue act.
+       Same family as the non-vacuity rule: prove the collection is the one
+       you meant before you do anything irreversible with it. */
+    if (ONLY) {
+      console.log('\n  baseline NOT written — this was a filtered run (' + ONLY + ').');
+      console.log('  Re-run `--measure` with no --tool to rewrite the 48-tool reference.');
+      process.exit(0);
+    }
+    if (rows.length < 40) {
+      console.error('\n  REFUSING to write a baseline of ' + rows.length + ' tools — expected the whole catalogue.');
+      process.exit(1);
+    }
     fs.writeFileSync(path.join(__dirname, '..', 'docs', 'audit-results', 'wide-viewport', 'baseline.json'),
       JSON.stringify(rows, null, 1));
     /* ⚠ report the path actually written — a log naming a different file
@@ -673,7 +690,12 @@ function staticRisks(key) {
         say(f19.pct >= 45, r.key + ' FILL at 1920: ' + f19.pct + '% of ' + f19.axis + ' (want >=45%)');
         say(f25.pct >= 50, r.key + ' FILL at 2560: ' + f25.pct + '% of ' + f25.axis + ' (want >=50%)');
       }
-      say(d.minNum === null || d.minNum >= 22, r.key + ' TYPE at 2560: smallest numeral ' + d.minNum + 'px (want >=22px)');
+      /* ⚠ NAME THE OWNER. `minNumEl` was already measured and thrown away, so
+         every TYPE failure sent me back to the DOM to find out WHICH numeral
+         was small. A failure that does not say where is a failure that costs
+         a round trip on every tool in the fan-out. */
+      say(d.minNum === null || d.minNum >= 22, r.key + ' TYPE at 2560: smallest numeral ' +
+        d.minNum + 'px on `' + (d.minNumEl || '?') + '` (want >=22px)');
     } else {
       console.log('  todo ' + r.key.padEnd(20) + ' not fanned out yet — ' + d.apparatusPct + '% at 2560');
     }

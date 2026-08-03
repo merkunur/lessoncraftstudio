@@ -1378,6 +1378,12 @@
     init: function (api) {
       this.api = api;
       injectNumberLineCSS();
+      /* ⭐ THE WIDE-VIEWPORT SWITCH. Every declaration it enables sits in a
+         media query whose floor is above every gate width, so this line is
+         inert at 320-1366 and the whole existing suite is untouched.
+         It is also the ROLLBACK: delete it and the tool returns to its
+         720/600 layout live, with no other change. */
+      document.body.classList.add('nl-wide');
       this._store = this._loadStore();
       var ent = this._store.ent;
       if (ent && ent.tier) this.premium = ent.tier !== 'free';
@@ -1547,6 +1553,79 @@
       + '.nl-p-tick{stroke:#000;stroke-width:2;}'
       + '.nl-p-arc{fill:none;stroke:#000;stroke-width:3;stroke-linecap:round;}'
       + '.nl-p-num{fill:#000;font-family:"Baloo 2",Nunito,sans-serif;font-weight:800;font-size:30px;}'
+
+      /* =====================================================================
+         WIDE-VIEWPORT TIERS — derived, not chosen.
+         ---------------------------------------------------------------------
+         MEASURED at 1440x900 in German, in the LONGEST state the locale
+         audit drives (gate panel open + the wall hint + every numeral):
+           header 88 · bar 44 · rails 40+44 · hint 44 · foot 44 · gate 132
+           · stage padding 43 · card padding 22 · six 8px gaps
+           = CHROME 533px, with the bench (aspect 5/2) the only flexible part.
+         So  benchCap = (tierMinHeight - 533) / 0.4  and the tiers take a
+         round number BELOW that ceiling:
+           Tier A @  880 tall -> ceiling  867 ->  840  (533 +  336 =  869, 11px spare)
+           Tier B @ 1000 tall -> ceiling 1167 -> 1120  (533 +  448 =  981, 19px spare)
+           Tier C @ 1150 tall -> ceiling 1542 -> 1400  (533 +  560 = 1093, 57px spare)
+         ⚠ TIER B EXISTS BECAUSE OF THE 1920x1080 PROJECTOR, and it was
+         added only after the gate FAILED at 43.8% against a 45% floor.
+         Two tiers keyed 1367/880 and 1800/1150 left a 1920x1080 screen —
+         the commonest board in a classroom — stuck on Tier A's cautious
+         840, because 1080 is short of 1150. The tiers are keyed on WIDTH
+         AND HEIGHT TOGETHER precisely so the cap tracks the room actually
+         available, rather than assuming a 16:9 desktop.
+         ⚠ THIS IS THE cold-line 942px INCIDENT'S ANTIDOTE. That bench was
+         allowed to grow until the tool stood 942px tall and was silently
+         clipped by .lcs-app{overflow:hidden} — "It failed in es, pt, it and
+         nl only... English fit, so a single-locale check would have called
+         this clean." Hence a measured German chrome, a min-height on every
+         tier, and an 11-locale sweep at the new widths.
+         ⚠ EVERY RULE IS ABOVE 1367px, ONE PIXEL CLEAR OF THE HIGHEST GATE
+         CELL (1366). Nothing at or below that moves, which is the property
+         the whole program rests on.
+         ⚠ AND THE TYPE RAMPS WITH THE BENCH. Widening alone leaves the
+         numerals at their 15px desk size on a projector — a bigger line
+         nobody at the back can read. The numerals, the caliper figure and
+         the arc label all step up, and the rabbit with them.
+         ===================================================================== */
+      + '@media (min-width:1367px) and (min-height:880px){'
+      + '  body.nl-wide .nl-bench,body.nl-wide .nl-stage,body.nl-wide .nl-rail'
+      + '  {max-width:840px;}'
+      + '  body.nl-wide .nl-hint,body.nl-wide .nl-foot,body.nl-wide .nl-gate{max-width:840px;}'
+      + '  body.nl-wide .nl-num{font-size:18px;}'
+      + '  body.nl-wide .nl-caliper-num{font-size:18px;}'
+      + '  body.nl-wide .nl-arclab{font-size:24px;}'
+      + '  body.nl-wide .nl-bunny{width:66px;height:58px;}'
+      + '  body.nl-wide .nl-range{font-size:19px;min-width:60px;}'
+      + '  body.nl-wide .nl-chip{font-size:17px;}'
+      + '  body.nl-wide .nl-hint{font-size:17px;}'
+      + '}'
+      /* Tier B — the 1920x1080 projector */
+      + '@media (min-width:1800px) and (min-height:1000px){'
+      + '  body.nl-wide .nl-bench,body.nl-wide .nl-stage,body.nl-wide .nl-rail'
+      + '  {max-width:1120px;}'
+      + '  body.nl-wide .nl-hint,body.nl-wide .nl-foot,body.nl-wide .nl-gate{max-width:1120px;}'
+      + '  body.nl-wide .nl-num{font-size:21px;}'
+      + '  body.nl-wide .nl-caliper-num{font-size:21px;}'
+      + '  body.nl-wide .nl-arclab{font-size:28px;}'
+      + '  body.nl-wide .nl-bunny{width:80px;height:70px;}'
+      + '  body.nl-wide .nl-range{font-size:21px;min-width:66px;}'
+      + '  body.nl-wide .nl-chip{font-size:18px;}'
+      + '  body.nl-wide .nl-hint{font-size:18px;}'
+      + '}'
+      /* Tier C — a large desk monitor or a 4K board */
+      + '@media (min-width:2400px) and (min-height:1150px){'
+      + '  body.nl-wide .nl-bench,body.nl-wide .nl-stage,body.nl-wide .nl-rail'
+      + '  {max-width:1400px;}'
+      + '  body.nl-wide .nl-hint,body.nl-wide .nl-foot,body.nl-wide .nl-gate{max-width:1400px;}'
+      + '  body.nl-wide .nl-num{font-size:24px;}'
+      + '  body.nl-wide .nl-caliper-num{font-size:24px;}'
+      + '  body.nl-wide .nl-arclab{font-size:32px;}'
+      + '  body.nl-wide .nl-bunny{width:92px;height:81px;}'
+      + '  body.nl-wide .nl-range{font-size:23px;min-width:70px;}'
+      + '  body.nl-wide .nl-chip{font-size:19px;}'
+      + '  body.nl-wide .nl-hint{font-size:19px;}'
+      + '}'
 
       + '@media print{'
       /* ⚠ browsers strip background colours when printing by default. */

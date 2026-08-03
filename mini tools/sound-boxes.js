@@ -1307,6 +1307,39 @@ var SoundBoxes = {
   var css = ''
   /* projector width */
   + 'body.sbx-wide .lcs-app{max-width:min(1000px,96vw);}'
+
+  /* ---- wide board (§23 the apparatus a teacher teaches FROM) ----
+     The box is `min(clamp(56px,15vmin,176px), (row - gaps)/n)` — a per-box
+     ceiling AND a share of the row, whichever is smaller. On a 2560x1440
+     board 15vmin is 216px, so the 176px CEILING is what binds and the boxes
+     sat at their design size inside a card that could have been 75% wider.
+     Both terms move: the card (so the row share stops binding first at
+     4- and 5-box words) and the ceiling.
+     ⚠ The `15vmin` middle term rises with the ceiling too, or the ceiling is
+     unreachable — the class-graph trap. And the phone override at the bottom
+     of this file carries its OWN copy of this expression; it is scoped to
+     max-width and is deliberately left alone. */
+  + '@media (min-width:1367px) and (min-height:880px){'
+  +   'body.sbx-wide .lcs-app{max-width:min(1192px,96vw);}'
+  +   'body.sbx-wide .sbx-box{width:min(clamp(56px,20vmin,268px),calc((100% - (var(--sbx-n,3) - 1)*clamp(8px,2vmin,20px))/var(--sbx-n,3)));}'
+  +   'body.sbx-wide .sbx-chip{width:clamp(48px,9vmin,104px);height:clamp(48px,9vmin,104px);}'
+  +   'body.sbx-wide .sbx-pill{font-size:22px;}'
+  +   'body.sbx-wide .sbx-picture{width:clamp(96px,20vmin,250px);height:clamp(96px,20vmin,250px);}'
+  + '}'
+  + '@media (min-width:1800px) and (min-height:1080px){'
+  +   'body.sbx-wide .lcs-app{max-width:min(1560px,96vw);}'
+  +   'body.sbx-wide .sbx-box{width:min(clamp(56px,24vmin,360px),calc((100% - (var(--sbx-n,3) - 1)*clamp(8px,2vmin,20px))/var(--sbx-n,3)));}'
+  +   'body.sbx-wide .sbx-chip{width:clamp(48px,9vmin,126px);height:clamp(48px,9vmin,126px);}'
+  +   'body.sbx-wide .sbx-pill{font-size:25px;}'
+  +   'body.sbx-wide .sbx-picture{width:clamp(96px,22vmin,300px);height:clamp(96px,22vmin,300px);}'
+  + '}'
+  + '@media (min-width:2400px) and (min-height:1150px){'
+  +   'body.sbx-wide .lcs-app{max-width:min(1752px,96vw);}'
+  +   'body.sbx-wide .sbx-box{width:min(clamp(56px,30vmin,470px),calc((100% - (var(--sbx-n,3) - 1)*clamp(8px,2vmin,20px))/var(--sbx-n,3)));}'
+  +   'body.sbx-wide .sbx-chip{width:clamp(48px,9vmin,142px);height:clamp(48px,9vmin,142px);}'
+  +   'body.sbx-wide .sbx-pill{font-size:28px;}'
+  +   'body.sbx-wide .sbx-picture{width:clamp(96px,24vmin,340px);height:clamp(96px,24vmin,340px);}'
+  + '}'
   + '.sbx-wrap{display:flex;flex-direction:column;align-items:center;'
   +   'gap:clamp(12px,2.4vmin,22px);width:100%;}'
   + '.sbx-loading{padding:48px 0;color:var(--lcs-ink-soft);'

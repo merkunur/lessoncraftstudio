@@ -907,6 +907,7 @@ function injectLetterStudioCSS() {
     + '.ls-lead{font:600 clamp(15px,3.4vw,19px)/1.4 Nunito,system-ui,sans-serif;color:#146B5E;text-align:center;margin:0;}'
 
     + '.ls-sheet{width:min(420px,86vw);aspect-ratio:100/110;background:#FFFEFB;border:2px solid #146B5E1f;'
+
     + 'border-radius:16px;overflow:hidden;}'
     + '.ls-svg{width:100%;height:100%;display:block;touch-action:none;cursor:crosshair;}'
     + '.ls-band{fill:rgba(242,120,75,.07);}'
@@ -970,6 +971,35 @@ function injectLetterStudioCSS() {
     + '.ls-rule-mid{stroke:rgba(0,0,0,.32);}'
     + '.ls-rule-strong{stroke:rgba(0,0,0,.55);}'
     + '.ls-band{fill:rgba(0,0,0,.045);}'
+    + '}'
+
+    /* ---- wide board (§23 the apparatus a teacher teaches FROM) ----
+       The tracing sheet is `width:min(420px, 86vw)` with `aspect-ratio:100/110`
+       — so 86vw is 2202px at 2560 and the flat 420px CEILING is what bound. A
+       letter a class watches being formed drew at postcard size.
+       ⚠ ASPECT-LOCKED, so the cap is a HEIGHT budget in disguise: 110/100 of
+       the width. A vh term is added as the guard (the shape learning-clock and
+       hush-owl both need), so the sheet can never outgrow the fold at a tier
+       floor no matter which flat cap applies.
+       The guide and ink strokes are in viewBox units and scale for free —
+       ramping them too would double-scale, the recorded batch-2 failure. */
+    /* ⚠ AND `.ls-card` — THE PANEL THE SHEET SITS IN — HAS ITS OWN 620px CAP.
+       Raising only the sheet made it BURST OUT of that panel: the letter-set
+       chips above and the Demonstrate/Restart controls below ended up behind
+       the sheet's edges. The shared gate's escapes-its-card assertion measures
+       `.lcs-app`, not an inner container, so it passed — I saw it in the 2560
+       render. Raise every box in the chain, not just the innermost one. */
+    + '@media (min-width:1367px) and (min-height:880px){'
+    +   'body.ls-wide .ls-card{max-width:720px;}'
+    +   'body.ls-wide .ls-sheet{width:min(560px,86vw,calc(58vh * 0.909));}'
+    + '}'
+    + '@media (min-width:1800px) and (min-height:1080px){'
+    +   'body.ls-wide .ls-card{max-width:900px;}'
+    +   'body.ls-wide .ls-sheet{width:min(720px,86vw,calc(62vh * 0.909));}'
+    + '}'
+    + '@media (min-width:2400px) and (min-height:1150px){'
+    +   'body.ls-wide .ls-card{max-width:1040px;}'
+    +   'body.ls-wide .ls-sheet{width:min(860px,86vw,calc(64vh * 0.909));}'
     + '}';
   document.head.appendChild(st);
 }

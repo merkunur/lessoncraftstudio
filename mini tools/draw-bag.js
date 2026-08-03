@@ -593,6 +593,9 @@ var DrawBag = {
   init: function (api) {
     this.api = api;
     injectDrawBagCSS();
+    /* ⭐ THE WIDE-VIEWPORT SWITCH, and the one-line rollback. Everything it
+       enables lives above 1367px, so it is inert at every gate width. */
+    document.body.classList.add('drb-wide');
     this._store = this._loadStore();
     var ent = this._store.ent;
     if (ent && ent.tier) this.premium = ent.tier !== 'free';
@@ -1316,6 +1319,98 @@ function injectDrawBagCSS() {
     /* the bag is the apparatus and the only thing the class taps — at
        desktop it was smaller than the chips beside it */
     +   '.drb-bag{width:148px;height:148px;}'
+    + '}'
+
+    /* =====================================================================
+       WIDE-VIEWPORT TIERS — derived, not chosen.
+       ---------------------------------------------------------------------
+       MEASURED (scripts/derive-tool-wide-tiers.js, German, gate showing):
+       chrome 534px, and this tool's apparatus has NO aspect-ratio at all.
+       ⭐ ITS VERTICAL COST IS NEGATIVE. `.drb-rec` is
+       `repeat(auto-fill, var(--drb-cell))`, so a wider record produces MORE
+       columns and FEWER rows: widening makes draw-bag SHORTER. The vertical
+       ceilings come out at 1972 / 2656 / 3511, i.e. the height budget is not
+       the constraint here at any tier — the CARD is.
+       So shippedCap = min(verticalCeiling, cardUsableWidth), and the card
+       usable width is what binds: A 1192 · B ~1608 · C 1752.
+       Layout check, since `.drb-main` is a ROW of [bag | records] at >=760:
+         A  bag 180 + gap 20 + recs 800  = 1000 of 1192  ✓
+         B  bag 220 + gap 20 + recs 1100 = 1340 of 1608  ✓
+         C  bag 250 + gap 20 + recs 1240 = 1510 of 1752  ✓
+
+       ⚠⚠ THE WHOLE CLAMP IS REPLACED, NEVER JUST ITS CEILING.
+       `--drb-cell:clamp(34px,7.4vmin,40px)` sits at 65px of vmin at the
+       Tier-A floor, so it is PINNED at 40 — but a sibling in this batch
+       (arrow-strip) has a clamp whose middle term is LIVE 0.24px under its
+       ceiling, where a ceiling-only bump does nothing at Tier A and
+       silently works at B and C. Replacing the whole declaration is the
+       only form that cannot fail that way, so it is the form used
+       everywhere in this program.
+
+       ⚠ THE 40px CEILING'S OWN JUSTIFICATION IS NOW VOID, and it says so:
+       the comment above reads "the card is capped at 720px, so with the bag
+       beside it the record gets ~530px and its cells drop to a 40px
+       ceiling." The card is no longer 720. This tier is that ceiling being
+       given back, not an arbitrary increase.
+
+       ⚠⚠ THE GUESS ROW IS DELIBERATELY THE NARROWEST THING HERE, and
+       that is a judgement the gates cannot make. Widening it to the card
+       (1500 at Tier C) passed every assertion and looked WRONG: the three
+       shelves go side by side, two of them are EMPTY until the class
+       commits, so a 1500px row is ~490px of nothing, twice. This tool's own
+       header predicted it -- "two of them are empty until the class
+       commits ... every measured gate passed that ... because SPARSE is not
+       something a floor can see" -- and widening reproduced exactly that,
+       larger. Found by reading the 2560 render, not by a gate.
+       So width is spent where it PAYS (the record fills with draws and
+       gains columns; the reveal tray fills; the bag is the tapped object)
+       and withheld where it COSTS (the guess shelves).
+
+       ⚠ CHROME CAPS ARE INVENTED HERE, NOT RAISED. `.drb-bar`, `.drb-foot`,
+       `.drb-hint` and `.drb-gate` are uncapped `width:100%` and would each
+       stretch the full 1800px card, leaving a 1500px hint line over a
+       1240px apparatus.
+       ⚠ AND `.drb-gpiece` / `.drb-shelfempty` / `.drb-step` KEEP their 44px
+       MINIMUMS as floors — the sizes below only ever raise them.
+       ===================================================================== */
+    + '@media (min-width:1367px) and (min-height:880px){'
+    + '  body.drb-wide .drb-guess{max-width:820px;}'
+    + '  body.drb-wide .drb-opened{max-width:900px;}'
+    + '  body.drb-wide .drb-recs{max-width:800px;}'
+    + '  body.drb-wide .drb-bar,body.drb-wide .drb-foot,body.drb-wide .drb-hint{max-width:1000px;}'
+    + '  body.drb-wide .drb-rec{--drb-cell:52px;}'
+    + '  body.drb-wide .drb-bag{width:180px;height:180px;}'
+    + '  body.drb-wide .drb-ocell{width:38px;height:38px;}'
+    + '  body.drb-wide .drb-gpiece{width:56px;height:56px;}'
+    + '  body.drb-wide .drb-shelf{min-height:72px;}'
+    + '  body.drb-wide .drb-chip,body.drb-wide .drb-hint{font-size:17px;}'
+    + '  body.drb-wide .drb-gate{font-size:16px;}'
+    + '}'
+    + '@media (min-width:1800px) and (min-height:1000px){'
+    + '  body.drb-wide .drb-guess{max-width:940px;}'
+    + '  body.drb-wide .drb-opened{max-width:1150px;}'
+    + '  body.drb-wide .drb-recs{max-width:1100px;}'
+    + '  body.drb-wide .drb-bar,body.drb-wide .drb-foot,body.drb-wide .drb-hint{max-width:1340px;}'
+    + '  body.drb-wide .drb-rec{--drb-cell:60px;}'
+    + '  body.drb-wide .drb-bag{width:220px;height:220px;}'
+    + '  body.drb-wide .drb-ocell{width:44px;height:44px;}'
+    + '  body.drb-wide .drb-gpiece{width:64px;height:64px;}'
+    + '  body.drb-wide .drb-shelf{min-height:84px;}'
+    + '  body.drb-wide .drb-chip,body.drb-wide .drb-hint{font-size:18px;}'
+    + '  body.drb-wide .drb-gate{font-size:17px;}'
+    + '}'
+    + '@media (min-width:2400px) and (min-height:1150px){'
+    + '  body.drb-wide .drb-guess{max-width:1040px;}'
+    + '  body.drb-wide .drb-opened{max-width:1300px;}'
+    + '  body.drb-wide .drb-recs{max-width:1240px;}'
+    + '  body.drb-wide .drb-bar,body.drb-wide .drb-foot,body.drb-wide .drb-hint{max-width:1510px;}'
+    + '  body.drb-wide .drb-rec{--drb-cell:68px;}'
+    + '  body.drb-wide .drb-bag{width:250px;height:250px;}'
+    + '  body.drb-wide .drb-ocell{width:50px;height:50px;}'
+    + '  body.drb-wide .drb-gpiece{width:72px;height:72px;}'
+    + '  body.drb-wide .drb-shelf{min-height:96px;}'
+    + '  body.drb-wide .drb-chip,body.drb-wide .drb-hint{font-size:19px;}'
+    + '  body.drb-wide .drb-gate{font-size:18px;}'
     + '}';
   var st = document.createElement('style');
   st.id = 'drb-style';

@@ -34,27 +34,50 @@ const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const W = (s) => new RegExp('(?<!\\p{L})' + s + '(?!\\p{L})', 'iu');
 
 /* ---- the bans, poison-tested in BOTH directions, before anything ----- */
+/* ⚠⚠ EVERY BAN IS SCOPED TO THE LOCALES IT APPLIES TO. The first version
+   applied all three to all eleven and FAILED SWEDISH ON PRODUCTION for a
+   Danish/Norwegian rule: Swedish `ett hopp` is neuter, so its definite
+   plural `hoppen` means "the hops" and is exactly right. That is the
+   sixth ban-too-wide defect of this build and the second to condemn a
+   native panel's correct prose. `locales: null` means all. */
 const BANS = [
-  { name: 'verdict vocabulary', re: new RegExp(
+  { name: 'verdict vocabulary', locales: null, re: new RegExp(
     ['correct', 'wrong', 'well done', 'score', 'richtig', 'falsch',
-      'oikein', 'väärin', 'rätt', 'riktig', 'forkert']
+      'oikein', 'väärin', 'riktig', 'forkert']
       .map((s) => '(?<!\\p{L})' + s + '(?!\\p{L})').join('|'), 'iu'),
-    fire: ['Well done!', 'Das ist richtig!', 'Oikein!'],
-    pass: ['Jeder Sprung ist gleich lang', 'Det gick jämnt ut', 'Point de départ du lapin'] },
-  /* ⚠⚠ the mare — `en hoppe` is a mare, so these read "the mare(s)" */
-  { name: 'da/no: hoppen/hoppene is THE MARE', re: /(?<!\p{L})hoppene?(?!\p{L})/iu,
-    fire: ['forsvinner hoppene', 'Se på hoppen'],
-    pass: ['Træk i hoppet', 'Dra i hoppet', 'hvert hop er lige langt'] },
+    fire: [['en', 'Well done!'], ['de', 'Das ist richtig!'], ['fi', 'Oikein!']],
+    pass: [['de', 'Jeder Sprung ist gleich lang'], ['sv', 'Det gick jämnt ut'],
+      ['fr', 'Point de départ du lapin'], ['sv', 'Alla bågar är lika breda']] },
+  /* ⚠⚠ THE MARE. `en hoppe` is a mare.
+       da — def sg `hoppen` collides; `hoppene` does NOT (the mare's
+            plural is `hopperne`), so it is the correct plural of `hop`.
+       no — def sg `hoppen` AND def pl `hoppene` both collide.
+       sv — NEITHER. `hoppen` is the correct definite plural. */
+  { name: 'da: hoppen is THE MARE', locales: ['da'], re: /(?<!\p{L})hoppen(?!\p{L})/iu,
+    fire: [['da', 'Se på hoppen']],
+    pass: [['da', 'Træk i hoppet'], ['da', 'Alle hoppene er lige lange']] },
+  { name: 'no: hoppen/hoppene is THE MARE', locales: ['no'], re: /(?<!\p{L})hoppene?(?!\p{L})/iu,
+    fire: [['no', 'forsvinner hoppene'], ['no', 'Se på hoppen']],
+    pass: [['no', 'Dra i hoppet'], ['no', 'hvert hopp er like langt']] },
   /* ⚠ hyppy is open-number-line's shipped Finnish TITLE */
-  { name: 'fi: hyppy is a sibling’s name', re: /(?<!\p{L})hyppy\p{L}*/iu,
-    fire: ['Paina Hyppy', 'jokainen hyppy'],
-    pass: ['Vedä loikkaa', 'Jokainen loikka on yhtä pitkä'] }
+  { name: 'fi: hyppy is a sibling’s name', locales: ['fi'], re: /(?<!\p{L})hyppy\p{L}*/iu,
+    fire: [['fi', 'Paina Hyppy'], ['fi', 'jokainen hyppy']],
+    pass: [['fi', 'Vedä loikkaa'], ['fi', 'Jokainen loikka on yhtä pitkä']] }
 ];
+const bansFor = (loc) => BANS.filter((b) => !b.locales || b.locales.indexOf(loc) >= 0);
 {
   let pf = 0;
   for (const b of BANS) {
-    for (const s of b.fire) if (!b.re.test(s)) { pf++; console.error('POISON: "' + b.name + '" did not fire on "' + s + '"'); }
-    for (const s of b.pass) if (b.re.test(s)) { pf++; console.error('POISON: "' + b.name + '" wrongly fired on "' + s + '"'); }
+    for (const [loc, x] of b.fire) {
+      if (bansFor(loc).indexOf(b) < 0) { pf++; console.error('POISON: "' + b.name + '" is not even in scope for ' + loc); continue; }
+      if (!b.re.test(x)) { pf++; console.error('POISON: "' + b.name + '" did not fire on "' + x + '"'); }
+    }
+    /* ⚠ a MUST_PASS is only meaningful when the ban is IN SCOPE for that
+       locale — otherwise it passes vacuously and proves nothing. */
+    for (const [loc, x] of b.pass) {
+      if (bansFor(loc).indexOf(b) < 0) continue;
+      if (b.re.test(x)) { pf++; console.error('POISON: "' + b.name + '" wrongly fired on ' + loc + ' "' + x + '"'); }
+    }
   }
   if (pf) { console.error('\nFATAL: the bans are not trustworthy. Nothing checked.'); process.exit(1); }
   console.log('ok   ' + BANS.length + ' bans poison-tested in both directions\n');
@@ -114,7 +137,7 @@ const BANS = [
       if (m.arcs !== 4) bad.push('drew ' + m.arcs + ' arcs, want 4');
       if (m.dw > 1.2 || m.dh > 1.2) bad.push('arcs not congruent (' + m.dw + 'w/' + m.dh + 'h px)');
       if (Math.abs(m.feet) > 2) bad.push('the rabbit is off the line by ' + m.feet + 'px');
-      for (const bn of BANS) if (bn.re.test(m.prose)) bad.push(bn.name);
+      for (const bn of bansFor(loc)) if (bn.re.test(m.prose)) bad.push(bn.name);
       /* the head term must survive — this is the one build that must not rename */
       const want = T.strings.title[loc];
       if (m.prose.indexOf(want) < 0 && m.title.indexOf(want) < 0) bad.push('title "' + want + '" not on the page');

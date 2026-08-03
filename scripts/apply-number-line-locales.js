@@ -37,12 +37,30 @@ const err = (m) => { bad++; console.error('  REFUSE  ' + m); };
 /* ---- the bans, as (name, regex, mustFire, mustPass) ------------------ */
 const W = (s) => new RegExp('(?<!\\p{L})' + s + '(?!\\p{L})', 'iu');
 const BANS = [
+  /* ⚠⚠ THE MARE, SPLIT PER LANGUAGE BECAUSE THE GRAMMAR IS NOT THE SAME.
+     `en hoppe` is a mare.
+       da — def sg `hoppen` collides. `hoppene` does NOT: the mare's
+            plural is `hopperne`, so `hoppene` is the ordinary plural of
+            neuter `hop` and is correct Danish.
+       no — def sg `hoppen` AND def pl `hoppene` both collide.
+       sv — NEITHER, and Swedish is deliberately out of scope: `ett hopp`
+            is neuter, so `hoppen` is its definite plural, "the hops".
+            An unscoped version of this ban failed correct Swedish on
+            production. */
   {
-    name: 'da/no: "hoppen"/"hoppene" is THE MARE',
-    locales: ['da', 'no'],
+    name: 'da: "hoppen" is THE MARE',
+    locales: ['da'],
+    re: /(?<!\p{L})hoppen(?!\p{L})/iu,
+    mustFire: ['Se på hoppen'],
+    mustPass: ['Hvert hop er lige langt', 'Det gik lige op', 'Træk i hoppet',
+      'Alle hoppene er lige lange']
+  },
+  {
+    name: 'no: "hoppen"/"hoppene" is THE MARE',
+    locales: ['no'],
     re: /(?<!\p{L})hoppene?(?!\p{L})/iu,
-    mustFire: ['Se på hoppen', 'Alle hoppene er like lange'],
-    mustPass: ['Hvert hopp er lige langt', 'Det gik lige op', 'hoppet', 'Træk i hoppet']
+    mustFire: ['Se på hoppen', 'forsvinner hoppene som allerede er tegnet'],
+    mustPass: ['Hvert hopp er like langt', 'Det gikk akkurat opp', 'Dra i hoppet']
   },
   {
     name: 'fi: "hyppy" is a sibling\'s shipped title',

@@ -419,16 +419,22 @@ head('V8  content ban');
     es: ['correcto', 'incorrecto', 'puntos'],
     pt: ['correto', 'errado', 'pontos'],
     nl: ['goed zo', 'fout', 'punten'],
+    /* ⚠⚠ SWEDISH IS NOT SUBJECT TO THE MARE BAN, and getting that wrong
+       condemned a CORRECT locale on production. Swedish `ett hopp` is
+       neuter: def sg `hoppet`, DEF PL `hoppen` — "the hops", which is
+       exactly what the trail-wipe clause says and exactly right. */
     sv: ['rätt', 'poäng'],
-    /* ⚠⚠ THE MARE, AND IT LIVES IN BOTH FILES ON PURPOSE. `en hoppe` is
-       A MARE, so `hoppen`/`hoppene` read as "the mare"/"the mares" — and
-       in bokmål the plural collides with "the hops" exactly. The Nordic
-       panel engineered it out of their strings; I then walked into it
-       myself writing the trail-wipe clause afterwards, and `apply-`
-       caught me. It is repeated here because a rule that lives in one
-       file gets half-fixed: `apply-` guards what is WRITTEN, `verify-`
+    /* ⚠⚠ THE MARE, SCOPED PER LANGUAGE BECAUSE THE GRAMMAR DIFFERS.
+       `en hoppe` is A MARE.
+         da — mare def sg `hoppen` COLLIDES; but the mare's def pl is
+              `hopperne`, so `hoppene` is the plain neuter plural of
+              `hop` and is CORRECT Danish. Ban only `hoppen`.
+         no — mare def sg `hoppen` AND def pl `hoppene` both collide
+              with "the hop(s)". Ban both.
+       It lives in both this file and `apply-` on purpose: a rule in one
+       file gets half-fixed. `apply-` guards what is WRITTEN, `verify-`
        guards what is SHIPPED, and `mutate-` only ever runs `verify-`. */
-    da: ['rigtigt', 'forkert', 'point', 'points', 'hoppen', 'hoppene'],
+    da: ['rigtigt', 'forkert', 'point', 'points', 'hoppen'],
     no: ['riktig', 'feil', 'poeng', 'hoppen', 'hoppene'],
     /* ⚠ `hyppy*` is `open-number-line`'s shipped Finnish TITLE
        (`Piirrä hypyt`) — a sibling's name, not a verdict, but banned all
@@ -465,6 +471,12 @@ head('V8  content ban');
     /* ⚠ the NEUTER singular must survive — only the definite is a mare */
     ['no', 'Dra i hoppet for å bestemme hvor langt ett hopp er.'],
     ['da', 'Træk i hoppet, hvert hop er lige langt.'],
+    /* ⚠⚠ and these two are the ban-too-wide cases, on the record:
+       Swedish `hoppen` is the correct definite plural of `ett hopp`, and
+       Danish `hoppene` is the correct plural of `hop` (the mare's plural
+       is `hopperne`). Both were condemned by an unscoped ban. */
+    ['sv', 'När du flyttar det försvinner hoppen som redan är ritade.'],
+    ['da', 'Alle hoppene er lige lange.'],
     ['fi', 'Vedä loikkaa ja päätä, kuinka pitkä loikka on.']
   ];
   let pf = 0;

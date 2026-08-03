@@ -1692,6 +1692,24 @@ var CalendarWall = {
      opposite direction from every other tool in this programme, and it is
      the same rule: fit the room you have, measured.
      ===================================================================== */
+  /* ---- wide board: the WIDTH half of the ladder ----
+     The height ladder below already answers the CLIPPING defect this tool was
+     fixed for. What it never had was a width tier: the card caps at 1100, so
+     the seven-column month grid drew 1052px wide on a 2560 board.
+     ⚠ BOUNDED, NOT MAXIMAL. A calendar cell wants to look squarish, and the
+     cell HEIGHT is a height budget that tops out at 104px — so a 1752 card
+     would give 243x104 cells, an aspect of 2.3:1 that reads as a spreadsheet
+     rather than a calendar. Capped at 1550 so the widest cell stays about 2:1
+     against the tallest row the height ladder can afford. */
+  + '@media (min-width:1367px) and (min-height:880px){'
+  +   'body.cwl-wide .lcs-app{max-width:min(1192px,96vw);}'
+  + '}'
+  + '@media (min-width:1800px) and (min-height:1080px){'
+  +   'body.cwl-wide .lcs-app{max-width:min(1400px,96vw);}'
+  + '}'
+  + '@media (min-width:2400px) and (min-height:1150px){'
+  +   'body.cwl-wide .lcs-app{max-width:min(1550px,96vw);}'
+  + '}'
   + '@media (min-height:1080px){'
   +   '.cwl-cell{height:60px;}'
   +   '.cwl-cellnum{font-size:26px;}'

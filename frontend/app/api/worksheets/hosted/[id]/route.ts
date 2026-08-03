@@ -3,7 +3,9 @@ import { prisma } from '@/lib/prisma';
 import { requireActiveSubscriber } from '@/lib/subscriber-api-gate';
 import {
   checkHostedQuota,
+  hostedUrls,
   looksLikeStandaloneWorksheet,
+  personalizeHostedWorksheet,
   removeHostedHtml,
   stripCatalogChrome,
   writeHostedHtml,
@@ -57,7 +59,14 @@ export async function PATCH(
     if (!looksLikeStandaloneWorksheet(body.html)) {
       return NextResponse.json({ error: 'invalid_worksheet_html' }, { status: 400 });
     }
-    const cleaned = stripCatalogChrome(body.html);
+    // Same treatment as the POST path — a re-save must not reintroduce the
+    // publish-only placeholder tokens. row.linkId is already in scope, and
+    // bytes are measured after, so no reordering is needed here.
+    const cleaned = personalizeHostedWorksheet(stripCatalogChrome(body.html), {
+      playUrl: hostedUrls(row.linkId).url,
+      title: data.title || row.title,
+      locale: row.locale,
+    });
     const htmlBytes = Buffer.byteLength(cleaned, 'utf8');
     // Re-save replaces this worksheet's bytes: quota-check the delta only.
     const quotaError = await checkHostedQuota(gate.userId, htmlBytes - row.htmlBytes, 0);

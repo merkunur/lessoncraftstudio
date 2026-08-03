@@ -10,6 +10,18 @@ import crypto from 'crypto';
 import fs from 'fs';
 import path from 'path';
 import { prisma } from '@/lib/prisma';
+import { ogLocaleMap } from '@/lib/schema-generator';
+import { applyHostedPersonalization } from './personalize';
+
+/** www form per §A.10 — the apex 301 breaks the deck's postMessage URL match. */
+export const CANONICAL_HOST = 'https://www.lessoncraftstudio.com';
+
+export function hostedUrls(linkId: string) {
+  return {
+    url: `${CANONICAL_HOST}/play/w/${linkId}`,
+    qrUrl: `${CANONICAL_HOST}/play/w/${linkId}/qr.png`,
+  };
+}
 
 export const HOSTED_LIMITS = {
   MAX_WORKSHEETS_PER_TEACHER: 300,
@@ -119,29 +131,24 @@ export function looksLikeStandaloneWorksheet(html: string): boolean {
 }
 
 /**
- * Strip catalog-only chrome from a teacher-saved worksheet. The generator's
- * standalone HTML embeds the catalog "more worksheets" showreel
- * (`<section class="lcs-deckend-suggestions">`) whose `__SUGGESTION_*__`
- * placeholders are only filled by the publish pipeline — on a user-saved
- * worksheet they render as raw `___SUGGESTION_N___` cards (operator report
- * 2026-07-12). A hosted worksheet is a clean, single, student-facing sheet,
- * so we remove that section (and the post-publish "Want more?" topic-link
- * aside, if a bundle ever carries it). Idempotent; safe on already-clean HTML.
+ * Strip catalog-only chrome from a teacher-saved worksheet, and fill in the
+ * placeholder tokens that only publish-cli would otherwise resolve.
+ *
+ * The transforms themselves are pure and live in ./personalize (no Prisma
+ * import), so a plain tsc+node gate can drive them against real deck bytes.
+ * This module owns the one lookup that needs a SoT: locale -> og:locale via
+ * `ogLocaleMap` in @/lib/schema-generator — NOT a fourth hand-copy of that
+ * table (substitute.js already warns it duplicates it twice over).
  */
-export function stripCatalogChrome(html: string): string {
-  let out = html
-    // Belt: remove any STATIC suggestions markup.
-    .replace(/<section class="lcs-deckend-suggestions"[\s\S]*?<\/section>/gi, '')
-    .replace(/<aside class="lcs-end-deck"[\s\S]*?<\/aside>/gi, '')
-    .replace(/<aside class="lcs-deckend-suggestions"[\s\S]*?<\/aside>/gi, '');
-  // Suspenders: the deck runtime BUILDS the suggestions showreel from the
-  // bundle at play-time (it is not static HTML), so a marker-guarded style
-  // that force-hides the container is the reliable strip for a hosted sheet.
-  if (out.indexOf('lcs-hosted-hide') === -1) {
-    const style =
-      '<style id="lcs-hosted-hide">.lcs-deckend-suggestions,.lcs-deckend,.lcs-end-deck{display:none!important}</style>';
-    if (/<\/head>/i.test(out)) out = out.replace(/<\/head>/i, style + '</head>');
-    else out = style + out;
-  }
-  return out;
+export { findPlaceholderResidue, stripCatalogChrome } from './personalize';
+
+export function personalizeHostedWorksheet(
+  html: string,
+  { playUrl, title, locale }: { playUrl: string; title: string; locale: string }
+): string {
+  return applyHostedPersonalization(html, {
+    playUrl,
+    title,
+    ogLocale: ogLocaleMap[locale] || locale,
+  });
 }

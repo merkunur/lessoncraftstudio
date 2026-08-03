@@ -645,9 +645,34 @@ function staticRisks(key) {
           u1.med + 'px at 1366 and ' + u2.med + 'px at 2560 — the box grew, the instrument did not');
       }
 
+      /* ⭐⭐ A CONTENT-SIZED TEXT DISPLAY CANNOT SATISFY AN EXTENT FLOOR, and
+         the honest answer is a NAMED exception with its measurement, not a
+         weaker rule for everybody. syllable-splitter's apparatus IS a word:
+         `.ss-card` is width:fit-content with nothing capping it, so its
+         extent is the word's length. Measured at 88px type, "Katze" renders
+         226px and "kissa" 206px; a 13-letter compound would reach ~590px.
+         Filling 50% of a 2560 screen would need roughly 300-500px type,
+         which is not a word display any more — it is one letter per screen.
+         So the floor is replaced HERE by the measure that actually says
+         whether a class at the back can read it: the RENDERED TYPE SIZE.
+         ⚠ This is a ratchet, like NO_SHEET_YET and KNOWN_GAPS elsewhere in
+         the repo: an explicit list with a reason each, not a loosened
+         predicate. Adding an entry needs the same measurement this one has. */
+      const FILL_EXEMPT = {
+        'syllable-splitter': { minType: 64, why: 'the apparatus is one word; extent is the word length, not a box' }
+      };
+      const ex = FILL_EXEMPT[r.key];
+      if (ex) {
+        say(d.minNum === null || d.minNum >= ex.minType,
+          r.key + ' TYPE-INSTEAD-OF-FILL at 2560: largest instrument type is ' +
+          (d.minNum === null ? 'unmeasured' : d.minNum + 'px') + ', want >=' + ex.minType + 'px (' + ex.why + ')');
+      }
+
       const f19 = dominates(n), f25 = dominates(d);
-      say(f19.pct >= 45, r.key + ' FILL at 1920: ' + f19.pct + '% of ' + f19.axis + ' (want >=45%)');
-      say(f25.pct >= 50, r.key + ' FILL at 2560: ' + f25.pct + '% of ' + f25.axis + ' (want >=50%)');
+      if (!ex) {
+        say(f19.pct >= 45, r.key + ' FILL at 1920: ' + f19.pct + '% of ' + f19.axis + ' (want >=45%)');
+        say(f25.pct >= 50, r.key + ' FILL at 2560: ' + f25.pct + '% of ' + f25.axis + ' (want >=50%)');
+      }
       say(d.minNum === null || d.minNum >= 22, r.key + ' TYPE at 2560: smallest numeral ' + d.minNum + 'px (want >=22px)');
     } else {
       console.log('  todo ' + r.key.padEnd(20) + ' not fanned out yet — ' + d.apparatusPct + '% at 2560');

@@ -24,8 +24,9 @@ const fs = require('fs');
 const path = require('path');
 const loadPersonalize = require('../lib/load-hosted-personalize');
 
-const APPLY = process.argv.includes('--apply');
-const DRY = !APPLY;
+const VERIFY = process.argv.includes('--verify');
+const APPLY = !VERIFY && process.argv.includes('--apply');
+const DRY = !APPLY && !VERIFY;
 
 const DIR = process.env.HOSTED_WORKSHEETS_DIR || '/var/www/lcs-media/hosted-worksheets';
 const CANONICAL_HOST = 'https://www.lessoncraftstudio.com';
@@ -55,7 +56,60 @@ function loadPrisma() {
     select: { id: true, linkId: true, title: true, locale: true, htmlBytes: true },
   });
 
-  console.log((DRY ? '[DRY RUN] ' : '[APPLY] ') + rows.length + ' live hosted worksheet(s)\n');
+  console.log((VERIFY ? '[VERIFY] ' : DRY ? '[DRY RUN] ' : '[APPLY] ') +
+    rows.length + ' live hosted worksheet(s)\n');
+
+  /**
+   * --verify: assert every SERVABLE worksheet is clean. This is the DB-aware
+   * check, and it is the one worth gating on.
+   *
+   * ⚠ A plain directory scan measures the WRONG SET. /var/www/lcs-media/
+   * hosted-worksheets holds orphan files with no DB row (rollback leftovers,
+   * hard-deleted rows). The serving route resolves linkId -> row -> <id>.html,
+   * so an orphan is unreachable — dead bytes, not a user-facing leak. Failing
+   * on them would make this gate un-passable for a reason nobody can act on.
+   */
+  if (VERIFY) {
+    // Non-vacuity: zero live rows must not read as "all clean".
+    if (rows.length === 0) {
+      console.error('FAIL no live hosted worksheets — nothing was measured');
+      await prisma.$disconnect();
+      process.exit(1);
+    }
+    let dirty = 0, gone = 0;
+    for (const row of rows) {
+      const file = path.join(DIR, row.id + '.html');
+      if (!fs.existsSync(file)) {
+        console.error('  FAIL ' + row.linkId + ' — live row with NO file on disk');
+        gone++;
+        continue;
+      }
+      const residue = P.findPlaceholderResidue(fs.readFileSync(file, 'utf8'));
+      if (residue.length) {
+        console.error('  FAIL ' + row.linkId + ' leaks: ' + residue.join(' '));
+        dirty++;
+      } else {
+        console.log('  ok   ' + row.linkId);
+      }
+    }
+    const orphans = fs.existsSync(DIR)
+      ? fs.readdirSync(DIR).filter((f) => f.endsWith('.html'))
+          .filter((f) => !rows.some((r) => r.id + '.html' === f))
+      : [];
+    if (orphans.length) {
+      console.log('\n  note  ' + orphans.length + ' orphan file(s) with no live DB row — ' +
+        'unreachable by the serving route; see scripts/ops/cleanup-hosted-worksheets.js');
+    }
+    console.log('');
+    if (dirty || gone) {
+      console.error('FAIL — ' + dirty + ' leaking, ' + gone + ' missing of ' + rows.length + ' servable');
+      await prisma.$disconnect();
+      process.exit(1);
+    }
+    console.log('PASS — all ' + rows.length + ' servable worksheets are placeholder-free');
+    await prisma.$disconnect();
+    process.exit(0);
+  }
 
   let changed = 0, clean = 0, missing = 0, failed = 0;
 

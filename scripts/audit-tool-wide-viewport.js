@@ -693,8 +693,27 @@ function staticRisks(key) {
          the widening is hollow. Compared only when BOTH cells found the same
          class — a tool whose unit appears with use (letter-tiles has no tiles
          at rest) reports nothing rather than a false pass. */
+      /* ⚠ AND THE UNIT IT PICKS CAN BE THE WRONG THING WHEN THE INSTRUMENT IS
+         EMPTY AT REST. A ratchet, like KNOWN_GAPS elsewhere: an explicit list
+         with a measurement and a named replacement check, never a loosened
+         predicate. It may only shrink. */
+      const HOLLOW_ELSEWHERE = {
+        'letter-tiles': {
+          unit: 'ltl-traytile',
+          why: 'the board is EMPTY at rest, so the only repeated class here is the 28-letter ' +
+               'PALETTE, not the instrument. The palette is flex-wrap: measured, raising its ' +
+               'tile 56->70px tips it into another row and costs 108px of height in German, ' +
+               'cutting the tier-A floor — a cliff, not a ramp. The board tile IS ramped ' +
+               '(84->92/116/132) and is measured with real tiles placed through the tool\'s own ' +
+               '_dropNew by local-test-letter-tiles.js section D2, which fails 3/3 on the ' +
+               'un-ramped build.'
+        }
+      };
       const u1 = a.unit, u2 = d.unit;
-      if (u1 && u2 && u1.cls === u2.cls) {
+      const he = HOLLOW_ELSEWHERE[r.key];
+      if (he && u2 && u2.cls === he.unit) {
+        console.log('  note ' + r.key + ' HOLLOW checked elsewhere — `.' + he.unit + '` is a palette, not the instrument');
+      } else if (u1 && u2 && u1.cls === u2.cls) {
         say(u2.med > u1.med + 2,
           r.key + ' HOLLOW WIDENING: the card grew but `.' + u2.cls + '` is ' +
           u1.med + 'px at 1366 and ' + u2.med + 'px at 2560 — the box grew, the instrument did not');

@@ -216,6 +216,12 @@ var EstimationJar = {
   init: function (api) {
     var self = this;
     this.api = api;
+    /* ⚠ `body.ej-wide{overflow-y:auto}` has been in this stylesheet all along
+       with NOTHING ever adding the class — a dead rule, found while fanning
+       the tool out for wide boards. The class is the tool's own page scope
+       and the tier block below needs it, so add it here and the overflow rule
+       starts working too. */
+    document.body.classList.add('ej-wide');
     injectEstimationJarCSS();
 
     this.data = null;
@@ -928,6 +934,37 @@ function injectEstimationJarCSS() {
     + '.ej-settile{width:64px;height:64px}'
     + '}'
     + 'body.ej-wide{overflow-y:auto}'
+
+    /* ---- wide board (§23 the apparatus a teacher teaches FROM) ----
+       The card caps at 640px, and the jar inside it at `min(190px,44vw)` —
+       44vw is 1126px at 2560, so the jar is pinned at its 190px ceiling and a
+       wider card would only have added margin around the same small jar.
+       Card and jar move together; the ten-frame proof grid and the readout
+       type follow, since they are the parts a class reads from the back. */
+    + '@media (min-width:1367px) and (min-height:880px){'
+    +   'body.ej-wide .lcs-app{max-width:min(1192px,96vw);}'
+    +   'body.ej-wide .ej-card{max-width:860px;}'
+    +   'body.ej-wide .ej-jar{width:min(320px,44vw);}'
+    +   'body.ej-wide .ej-jar.ej-jarsmall{width:min(176px,28vw);}'
+    +   'body.ej-wide .ej-tfcell{width:clamp(15px,2.6vmin,36px);}'
+    +   'body.ej-wide .ej-stagebtn{font-size:17px;}'
+    + '}'
+    + '@media (min-width:1800px) and (min-height:1080px){'
+    +   'body.ej-wide .lcs-app{max-width:min(1560px,96vw);}'
+    +   'body.ej-wide .ej-card{max-width:1080px;}'
+    +   'body.ej-wide .ej-jar{width:min(430px,44vw);}'
+    +   'body.ej-wide .ej-jar.ej-jarsmall{width:min(228px,28vw);}'
+    +   'body.ej-wide .ej-tfcell{width:clamp(15px,2.6vmin,46px);}'
+    +   'body.ej-wide .ej-stagebtn{font-size:19px;}'
+    + '}'
+    + '@media (min-width:2400px) and (min-height:1150px){'
+    +   'body.ej-wide .lcs-app{max-width:min(1752px,96vw);}'
+    +   'body.ej-wide .ej-card{max-width:1240px;}'
+    +   'body.ej-wide .ej-jar{width:min(510px,44vw);}'
+    +   'body.ej-wide .ej-jar.ej-jarsmall{width:min(264px,28vw);}'
+    +   'body.ej-wide .ej-tfcell{width:clamp(15px,2.6vmin,54px);}'
+    +   'body.ej-wide .ej-stagebtn{font-size:21px;}'
+    + '}'
 
     + '@media (prefers-reduced-motion:reduce){'
     + '.ej-dot.ej-pending{animation:none}'

@@ -73,6 +73,16 @@ const touchedForWide = (key) => {
     || /@media \(min-height:1(?:0[89]|[1-9]\d)\dpx\)/.test(src);
 };
 
+/* ⭐ THE FILL EXEMPTION'S SELECTOR MAP. A tool whose apparatus is ONE object
+   inside a frame cannot satisfy a width-share floor by growing the object —
+   estimation-jar would need a 1280px JAR. The honest replacement is the same
+   shape as syllable-splitter's: a NAMED entry carrying the measurement that
+   actually says whether a class at the back can use it. Declared here so the
+   probe knows what to measure at every cell.
+   ⚠ A ratchet: entries may leave, never arrive to make a build pass. */
+const FILL_EXEMPT_SEL = {
+  'estimation-jar': '.ej-jar'
+};
 const CELLS = [
   { w: 1366, h: 900, control: true },
   { w: 1440, h: 900 },
@@ -135,7 +145,7 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
    The in-page probe. Returns raw geometry only — no verdicts, so the
    same function serves both modes and the thresholds live in ONE place.
    ===================================================================== */
-const PROBE = (pfx) => {
+const PROBE = (pfx, exemptSel) => {
   const q = (s) => document.querySelector(s);
   const app = q('.lcs-app');
   const stage = q('.lcs-stage');
@@ -338,7 +348,17 @@ const PROBE = (pfx) => {
     if (anis === null || a > anis) anis = +a.toFixed(3);
   });
 
+  /* the FILL exemption's own instrument: the width of the ONE element that
+     actually is the apparatus, for tools whose apparatus is a single object
+     inside a frame. Null when not asked for or not present. */
+  let exemptW = null;
+  if (exemptSel) {
+    const e = document.querySelector(exemptSel);
+    if (e) { const r = e.getBoundingClientRect(); if (r.width) exemptW = Math.round(r.width); }
+  }
+
   return {
+    exemptW: exemptW,
     anisotropy: anis,
     vw: vw, vh: vh,
     cardW: app ? app.offsetWidth : 0,          /* LAYOUT box — transform-independent */
@@ -432,7 +452,7 @@ function staticRisks(key) {
            The under-reporting is solved in PROBE instead, by counting the
            apparatus CONTAINER the tool deliberately sized, whether or not it
            currently holds anything. */
-        cells[cell.w] = await p.evaluate(PROBE, pfx);
+        cells[cell.w] = await p.evaluate(PROBE, pfx, FILL_EXEMPT_SEL[key] || null);
         cells[cell.w].errs = errs.length;
       } catch (e) {
         boot = String(e).slice(0, 70);
@@ -464,7 +484,7 @@ function staticRisks(key) {
               { waitUntil: 'domcontentloaded', timeout: 20000 });
             await p.waitForSelector('.lcs-app', { timeout: 12000 });
             await wait(380);
-            const m = await p.evaluate(PROBE, pfx);
+            const m = await p.evaluate(PROBE, pfx, FILL_EXEMPT_SEL[key] || null);
             cells[loc + '@' + cell.w] = m;
           } catch (e) { cells[loc + '@' + cell.w] = null; }
           await p.close();
@@ -740,10 +760,21 @@ function staticRisks(key) {
          the repo: an explicit list with a reason each, not a loosened
          predicate. Adding an entry needs the same measurement this one has. */
       const FILL_EXEMPT = {
-        'syllable-splitter': { minType: 64, why: 'the apparatus is one word; extent is the word length, not a box' }
+        'syllable-splitter': { minType: 64, why: 'the apparatus is one word; extent is the word length, not a box' },
+        /* the jar is the apparatus; the card is a frame around it. Measured:
+           at 2560 the jar renders 510px against 190px before the tiers, and
+           the card frames it at 1240px (48.4% of the screen). Satisfying a
+           50%-of-width floor here would mean a 1280px JAR. */
+        'estimation-jar': { minEl: 460, sel: '.ej-jar', why: 'the apparatus is a single jar inside a frame' }
       };
       const ex = FILL_EXEMPT[r.key];
-      if (ex) {
+      if (ex && ex.minEl) {
+        /* non-vacuity first: an exemption that could not measure its own
+           element must FAIL, not quietly pass in place of the FILL floor. */
+        say(d.exemptW !== null && d.exemptW >= ex.minEl,
+          r.key + ' SIZE-INSTEAD-OF-FILL at 2560: `' + ex.sel + '` is ' +
+          (d.exemptW === null ? 'UNMEASURED' : d.exemptW + 'px') + ', want >=' + ex.minEl + 'px (' + ex.why + ')');
+      } else if (ex) {
         say(d.minNum === null || d.minNum >= ex.minType,
           r.key + ' TYPE-INSTEAD-OF-FILL at 2560: largest instrument type is ' +
           (d.minNum === null ? 'unmeasured' : d.minNum + 'px') + ', want >=' + ex.minType + 'px (' + ex.why + ')');

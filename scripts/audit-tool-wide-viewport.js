@@ -50,6 +50,12 @@ const POISON = has('--poison');
 const ONLY = val('--tool');
 
 /* the cells. 1366 is the CONTROL and is always included. */
+/* de = Germanic compounds, it = Romance clause length, fi = agglutination.
+   English is the SHORTEST chrome in the set and proves the least. */
+const LOCALE_SWEEP = ['de', 'it', 'fi'];
+const fannedOut = (key) => /@media \(min-width:1367px\)/.test(
+  fs.readFileSync(path.join(ROOT, key + '.js'), 'utf8'));
+
 const CELLS = [
   { w: 1366, h: 900, control: true },
   { w: 1440, h: 900 },
@@ -125,6 +131,13 @@ const PROBE = (pfx) => {
      rows (chip/foot/hint/gate/bar) are excluded by name because they are
      text and are allowed to be narrow. */
   let app_w = 0, app_el = '';
+  /* ⭐ THE VERTICAL EXTENT, because a SQUARE apparatus on a 16:9 screen can
+     never satisfy a width-share floor: at 2560x1440 the tallest square that
+     fits under the chrome is ~840px, which is 33% of the WIDTH and 58% of
+     the HEIGHT. The instrument is as big as the room allows and the floor
+     says it is too small. Recording both extents is what lets the floor ask
+     the right question instead of being lowered. */
+  let app_top = Infinity, app_bot = -Infinity;
   /* ⚠ FALL BACK TO THE STAGE'S OWN SUBTREE rather than reporting 0. A
      tool whose root is not `<pfx>-wrap` still has an apparatus; measuring
      it as zero would put a fake number in the table the thresholds are
@@ -172,6 +185,8 @@ const PROBE = (pfx) => {
       if (draws(e) && r.height <= 4) return;
       if (r.left < lo) lo = r.left;
       if (r.right > hi) hi = r.right;
+      if (r.top < app_top) app_top = r.top;
+      if (r.bottom > app_bot) app_bot = r.bottom;
       if (r.width > app_w) { app_w = r.width; app_el = c.split(' ')[0] || e.tagName; }
     });
   }
@@ -255,7 +270,9 @@ const PROBE = (pfx) => {
     stageW: stage ? stage.getBoundingClientRect().width : 0,
     wrapFound: !!wrap,
     apparatusW: Math.round(app_w), apparatusEl: app_el,
+    apparatusH: (app_bot > app_top) ? Math.round(app_bot - app_top) : 0,
     apparatusPct: vw ? +(app_w / vw * 100).toFixed(1) : 0,
+    apparatusVPct: (vh && app_bot > app_top) ? +((app_bot - app_top) / vh * 100).toFixed(1) : 0,
     minNum: minNum === Infinity ? null : +minNum.toFixed(1), minNumEl: minNumEl,
     minCtl: minCtl === Infinity ? null : +minCtl.toFixed(1), minCtlEl: minCtlEl,
     aspect: aspect, aspectEl: aspectEl,
@@ -319,6 +336,37 @@ function staticRisks(key) {
         cells[cell.w] = null;
       }
       await p.close();
+    }
+
+    /* ⭐⭐ THE LOCALE SWEEP, and it is not optional cover. Only 13 of 48 tools
+       have an 11-locale layout gate of their own, so for the other 35 THIS is
+       the only thing that will ever look at a non-English render at a wide
+       viewport. English is the SHORTEST chrome in the set; a cap derived and
+       verified in English alone is a cap verified in the easiest case.
+       ⚠ AND NOT GERMAN ALONE EITHER. lids' own comment records its near-miss
+       as ITALIAN at 903 of a 900 budget, and measuring its chrome in three
+       locales showed de 388 / it 472 / fi 409 — German was not the worst.
+       de + it + fi is the long-chrome set: Germanic compounds, Romance
+       clause length, Finnish agglutination.
+       ⚠ Only tools that have been FANNED OUT are swept. An un-fanned tool
+       renders at 720px in every language and there is nothing new to learn;
+       sweeping all 48 would cost 1,584 renders to re-measure the untouched. */
+    if (fannedOut(key)) {
+      for (const loc of LOCALE_SWEEP) {
+        for (const cell of CELLS.filter((c) => c.w >= 1920)) {
+          const p = await browser.newPage();
+          try {
+            await p.setViewport({ width: cell.w, height: cell.h });
+            await p.goto(`http://127.0.0.1:${PORT}/${key}.html?lang=${loc}`,
+              { waitUntil: 'domcontentloaded', timeout: 20000 });
+            await p.waitForSelector('.lcs-app', { timeout: 12000 });
+            await wait(380);
+            const m = await p.evaluate(PROBE, pfx);
+            cells[loc + '@' + cell.w] = m;
+          } catch (e) { cells[loc + '@' + cell.w] = null; }
+          await p.close();
+        }
+      }
     }
 
     rows.push({ key, pfx, risks, cells, boot });
@@ -464,8 +512,46 @@ function staticRisks(key) {
     const done = /min-width\s*:\s*1367px/.test(
       fs.readFileSync(path.join(ROOT, r.key + '.js'), 'utf8'));
     if (done) {
-      say(n.apparatusPct >= 45, r.key + ' FILL at 1920: ' + n.apparatusPct + '% (want >=45%)');
-      say(d.apparatusPct >= 50, r.key + ' FILL at 2560: ' + d.apparatusPct + '% (want >=50%)');
+      /* ⭐⭐ FILL ASKS THE AXIS THE APPARATUS IS ACTUALLY BOUND BY. The 45/50%
+         floors were derived from the baseline median of a WIDTH share, and
+         that is the right question for a bench, a tape or a strip. It is the
+         WRONG question for a 1:1 apparatus: arrow-strip's mat is square by
+         design, so on a 2560x1440 screen the largest honest mat is ~814px —
+         31.8% of the width and 56.5% of the height. Failing it would mean
+         either lowering a floor (forbidden) or distorting a square (worse).
+         So a tool whose apparatus is TALLER than it is wide, or nearly so, is
+         judged on its height share against the same numbers. Nothing is
+         relaxed: both floors keep their values, and a wide tool still has to
+         meet the width one — `dominates` picks the binding axis, it does not
+         take the better of two tries at the same axis. */
+      const dominates = (c, floor) => {
+        const squareish = c.apparatusH > 0 && c.apparatusH >= c.apparatusW * 0.92;
+        return squareish ? { pct: c.apparatusVPct, axis: 'height' }
+                         : { pct: c.apparatusPct, axis: 'width' };
+      };
+      /* ⭐⭐ THE LOCALE CELLS CARRY THE SAME FIT AND CONTAINMENT ASSERTIONS.
+         For the 35 tools with no 11-locale gate of their own this is the only
+         non-English check that will ever run at a wide viewport, so it has to
+         assert, not merely record. Non-vacuity first: a locale cell that did
+         not boot must FAIL, or a tool that crashes in Finnish would pass by
+         producing nothing to measure — the hollow-check shape this file has
+         already been bitten by twice. */
+      for (const loc of LOCALE_SWEEP) {
+        for (const px of [1920, 2560]) {
+          const c = r.cells[loc + '@' + px];
+          say(!!c && c.apparatusW > 0,
+            r.key + ' LOCALE ' + loc + '@' + px + ': did not boot or measured no apparatus');
+          if (!c || !c.apparatusW) continue;
+          say(c.fits, r.key + ' LOCALE ' + loc + '@' + px + ' CUT OFF: lowest control at ' +
+            c.lowest + ' of ' + c.vh);
+          say(c.apparatusW <= c.cardW + 2, r.key + ' LOCALE ' + loc + '@' + px +
+            ' ESCAPES ITS CARD: apparatus ' + c.apparatusW + 'px in a ' + c.cardW + 'px card');
+        }
+      }
+
+      const f19 = dominates(n), f25 = dominates(d);
+      say(f19.pct >= 45, r.key + ' FILL at 1920: ' + f19.pct + '% of ' + f19.axis + ' (want >=45%)');
+      say(f25.pct >= 50, r.key + ' FILL at 2560: ' + f25.pct + '% of ' + f25.axis + ' (want >=50%)');
       say(d.minNum === null || d.minNum >= 22, r.key + ' TYPE at 2560: smallest numeral ' + d.minNum + 'px (want >=22px)');
     } else {
       console.log('  todo ' + r.key.padEnd(20) + ' not fanned out yet — ' + d.apparatusPct + '% at 2560');

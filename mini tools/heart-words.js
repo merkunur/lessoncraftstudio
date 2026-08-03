@@ -257,6 +257,7 @@ var HeartWords = {
   init: function (api) {
     var self = this;
     this.api = api;
+    document.body.classList.add('hw-wide');
     injectHeartWordsCSS();
 
     this.bank = null;
@@ -1265,6 +1266,45 @@ function injectHeartWordsCSS() {
     + '.hw-printheart::after{content:"\\2661";position:absolute;top:-1mm;right:-1mm;font-size:9pt}'
     + '.hw-printtail{font:700 16pt/1 serif;color:#888;margin-left:1.5mm}'
     + '.hw-printsent{font:400 11pt/1.4 serif;color:#222}'
-    + '}';
+    + '}'
+
+    /* ⚠ OUTSIDE `@media print` — SECOND TIME THIS TRAP HAS FIRED. In this
+       codebase `+ '}';` is almost always the PRINT block's closing brace, not
+       the end of the stylesheet, so anchoring an insertion on it nests the
+       whole tier inside @media print: it applies on paper, nothing errors, and
+       the measured card simply never changes (560px at both 1366 and 2560
+       here). Anchor on the block the rule must affect. */
+    /* ---- wide board (§23 the apparatus a teacher teaches FROM) ----
+       A heart-word card: the letter BOXES are the instrument and their glyphs
+       are `clamp(20px, 5.6vw, 34px)` — 5.6vw is 143px at 2560, so both flat
+       CEILINGS bound and the card sat at 560px. Stage, box and glyph move
+       together; the picture and the sentence follow.
+       ⚠ `.hw-boxrow` is `flex-wrap:nowrap` — the boxes must stay on ONE line
+       because the word is read left to right, so the box size is bounded by
+       the stage width divided by the longest word. The stage cap is what
+       keeps that true; the boxes are `flex:0 1 auto` and shrink into it. */
+    + '@media (min-width:1367px) and (min-height:880px){'
+    +   'body.hw-wide .hw-cardstage{max-width:760px}'
+    +   'body.hw-wide .hw-box{min-height:76px}'
+    +   'body.hw-wide .hw-box .hw-glyph{font-size:clamp(20px,5.6vw,46px)}'
+    +   'body.hw-wide .hw-box.hw-wide-glyph .hw-glyph{font-size:clamp(16px,4.2vw,35px)}'
+    +   'body.hw-wide .hw-pic{width:min(260px,44vw)}'
+    + '}'
+    + '@media (min-width:1800px) and (min-height:1080px){'
+    +   'body.hw-wide .hw-cardstage{max-width:960px}'
+    +   'body.hw-wide .hw-box{min-height:96px}'
+    +   'body.hw-wide .hw-box .hw-glyph{font-size:clamp(20px,5.6vw,58px)}'
+    +   'body.hw-wide .hw-box.hw-wide-glyph .hw-glyph{font-size:clamp(16px,4.2vw,44px)}'
+    +   'body.hw-wide .hw-pic{width:min(330px,44vw)}'
+    + '}'
+    + '@media (min-width:2400px) and (min-height:1150px){'
+    +   'body.hw-wide .hw-cardstage{max-width:1300px}'
+    +   'body.hw-wide .hw-box{min-height:110px}'
+    +   'body.hw-wide .hw-box .hw-glyph{font-size:clamp(20px,5.6vw,66px)}'
+    +   'body.hw-wide .hw-box.hw-wide-glyph .hw-glyph{font-size:clamp(16px,4.2vw,50px)}'
+    +   'body.hw-wide .hw-pic{width:min(380px,44vw)}'
+    + '}'
+    ;
+
   document.head.appendChild(st);
 }

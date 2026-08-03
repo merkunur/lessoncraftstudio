@@ -1108,6 +1108,31 @@ var NameSticks = {
 (function injectCSS() {
   var css = ''
   + 'body.nsk-wide .lcs-app{max-width:min(1040px,96vw);}'
+  /* ---- wide board (§23 the apparatus a teacher teaches FROM) ----
+     The drawn name is the whole point: `clamp(30px, 7vmin, 72px)` computes
+     101px at 1440 and clamps back to 72. The jar the sticks come out of is
+     `clamp(200px, 30vmin, 300px)` and pinned the same way. Card, name, jar
+     and the picked-stick tray all move together.
+     ⚠ The `vmin` middle terms rise with the ceilings or the ceilings are
+     unreachable — the class-graph trap. */
+  + '@media (min-width:1367px) and (min-height:880px){'
+  +   'body.nsk-wide .lcs-app{max-width:min(1192px,96vw);}'
+  +   'body.nsk-wide .nsk-bigname{font-size:clamp(30px,9vmin,102px);}'
+  +   'body.nsk-wide .nsk-jar{width:clamp(200px,34vmin,390px);height:clamp(190px,32vmin,364px);}'
+  +   'body.nsk-wide .nsk-tray{max-width:470px;}'
+  + '}'
+  + '@media (min-width:1800px) and (min-height:1080px){'
+  +   'body.nsk-wide .lcs-app{max-width:min(1560px,96vw);}'
+  +   'body.nsk-wide .nsk-bigname{font-size:clamp(30px,11vmin,138px);}'
+  +   'body.nsk-wide .nsk-jar{width:clamp(200px,38vmin,470px);height:clamp(190px,36vmin,440px);}'
+  +   'body.nsk-wide .nsk-tray{max-width:600px;}'
+  + '}'
+  + '@media (min-width:2400px) and (min-height:1150px){'
+  +   'body.nsk-wide .lcs-app{max-width:min(1752px,96vw);}'
+  +   'body.nsk-wide .nsk-bigname{font-size:clamp(30px,12vmin,160px);}'
+  +   'body.nsk-wide .nsk-jar{width:clamp(200px,40vmin,520px);height:clamp(190px,38vmin,486px);}'
+  +   'body.nsk-wide .nsk-tray{max-width:690px;}'
+  + '}'
   + '@media (max-width:480px){'
   +   'body.nsk-wide .lcs-header{flex-direction:column;align-items:flex-start;gap:8px;}'
   + '}'

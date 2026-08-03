@@ -602,6 +602,34 @@ function injectPatternBenchCSS() {
     /* the shell sets html,body{overflow:hidden} — past the fold on a phone
        is UNREACHABLE, not merely off-screen (letter-studio precedent) */
     + '@media (max-width:700px){body.ptn-wide{overflow-y:auto;overflow-x:hidden;height:auto;min-height:100%;}}'
+    /* =====================================================================
+       WIDE VIEWPORTS — ONE cap, and this tool earns that by construction.
+       CARD-MAXED: the shell already gives an 1800px card and the instrument
+       was 28.1% of the screen. The chain-walk finds a single real binder —
+       `.ptn-track{width:min(100%,720px)}` — because everything below it is
+       already relative: the strip is
+           grid-template-columns: repeat(var(--ptn-n,12), minmax(44px,1fr))
+       so the cells are 1fr and SHARE the track, `.ptn-cell` is
+       aspect-ratio:1 so its height follows its width, and `.ptn-glyph` and
+       `.ptn-pic` are width:100%/height:100% so the artwork fills the cell.
+       Raise the track and the whole ladder follows.
+       ⚠ THAT IS THE EXCEPTION, NOT THE RULE, in this batch. sorting-hoops
+       needed the glyph inside its tile ramped by hand because `.hp-block`
+       was a fixed 38px; here the equivalent element is already 100%. The
+       difference is whether the tool sized its contents RELATIVE or FIXED,
+       and it is worth reading before assuming either.
+       ⚠ `minmax(44px,1fr)` keeps the 44px K-2 tap floor as the grid's own
+       minimum at every width, untouched by any of this.
+       ===================================================================== */
+    + '@media (min-width:1367px) and (min-height:880px){'
+    +   'body.ptn-wide .ptn-track{width:min(100%,900px);}'
+    + '}'
+    + '@media (min-width:1800px) and (min-height:1080px){'
+    +   'body.ptn-wide .ptn-track{width:min(100%,1120px);}'
+    + '}'
+    + '@media (min-width:2400px) and (min-height:1150px){'
+    +   'body.ptn-wide .ptn-track{width:min(100%,1320px);}'
+    + '}'
     + '@media (prefers-reduced-motion:reduce){.ptn-cell.ptn-lit{box-shadow:none;}}'
     + '@media print{'
     +   '.ptn-bar,.ptn-foot,.ptn-gate,.ptn-hint,.ptn-lens{display:none !important;}'

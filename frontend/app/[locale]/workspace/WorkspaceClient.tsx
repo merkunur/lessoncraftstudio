@@ -1,156 +1,69 @@
 'use client';
 
-import { useEffect, useState, useCallback } from 'react';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { useAuth } from '@/contexts/auth-context';
 import { isLcsSubscriptionActive } from '@/lib/subscription-helpers';
 import { PRICING_PUBLIC } from '@/config/subscription-launch';
-import CollectionsWidget, { CollectionSummary } from './CollectionsWidget';
-import RecentActivityWidget, { Activity } from './RecentActivityWidget';
-import HostedWorksheetsWidget from './HostedWorksheetsWidget';
-import SharedActivitiesWidget from './SharedActivitiesWidget';
-import FavoritesWidget from './FavoritesWidget';
+import WorkspaceShell from './WorkspaceShell';
 
-interface WorkspacePayload {
-  collections: CollectionSummary[];
-  totalCollections: number;
-  recentActivity: Activity[];
-}
-
+/**
+ * Gates ONLY. Everything past the gates lives in WorkspaceShell.
+ *
+ * The split exists because React hooks cannot be called conditionally: if the
+ * data hook sat in this component it would run for signed-out and non-subscribed
+ * visitors too, firing five requests that all 401/403 before a gate could
+ * render. Keeping the gates in a parent means the fetch layer is never mounted
+ * for a user who isn't entitled to it.
+ *
+ * The <main> element, the Direction A ground, the container and the fonts all
+ * live in page.tsx — next/font cannot be called from a 'use client' file.
+ */
 export default function WorkspaceClient({ locale }: { locale: string }) {
   const t = useTranslations('workspace');
   const { user, loading: authLoading } = useAuth();
 
-  const [payload, setPayload] = useState<WorkspacePayload | null>(null);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
-
-  const fetchWorkspace = useCallback(async () => {
-    setLoading(true);
-    setError(null);
-    try {
-      const token = localStorage.getItem('accessToken');
-      const res = await fetch('/api/workspace', {
-        headers: { Authorization: `Bearer ${token ?? ''}` },
-      });
-      if (!res.ok) throw new Error(String(res.status));
-      const data: WorkspacePayload = await res.json();
-      setPayload(data);
-    } catch {
-      setError(t('errorGeneric'));
-    } finally {
-      setLoading(false);
-    }
-  }, [t]);
-
-  useEffect(() => {
-    if (!user) return;
-    fetchWorkspace();
-  }, [user, fetchWorkspace]);
-
   if (authLoading) {
-    return (
-      <main className="container mx-auto px-4 max-w-5xl py-12">
-        <p className="text-ink-500">{t('loading')}</p>
-      </main>
-    );
+    return <p className="font-lcsBody text-sm text-lcs-teal/60">{t('loading')}</p>;
   }
 
   if (!user) {
     return (
-      <main className="container mx-auto px-4 max-w-3xl py-16">
-        <h1 className="font-display text-3xl font-semibold text-ink-900 mb-4">
+      <div className="max-w-2xl py-4">
+        <h1 className="mb-3 font-lcsDisplay text-3xl font-extrabold text-lcs-teal">
           {t('gate.signInPromptTitle')}
         </h1>
-        <p className="text-ink-700 mb-8">{t('gate.signInPromptBody')}</p>
+        <span aria-hidden="true" className="mb-4 block h-1.5 w-16 rounded-full bg-lcs-coral" />
+        <p className="mb-7 font-lcsBody text-lcs-teal/80">{t('gate.signInPromptBody')}</p>
         <Link
           href={`/${locale}/auth/signin`}
-          className="inline-flex items-center px-6 py-3 rounded-md bg-terracotta-400 text-cream-50 font-semibold hover:bg-terracotta-500 transition"
+          className="inline-flex min-h-[44px] items-center rounded-2xl bg-lcs-coral px-6 py-3 font-lcsDisplay font-semibold text-lcs-cream transition-colors hover:bg-lcs-coral-deep"
         >
           {t('gate.signInCta')}
         </Link>
-      </main>
+      </div>
     );
   }
 
   if (!isLcsSubscriptionActive(user)) {
     return (
-      <main className="container mx-auto px-4 max-w-3xl py-16">
-        <h1 className="font-display text-3xl font-semibold text-ink-900 mb-4">
+      <div className="max-w-2xl py-4">
+        <h1 className="mb-3 font-lcsDisplay text-3xl font-extrabold text-lcs-teal">
           {t('gate.subscriberTitle')}
         </h1>
-        <p className="text-ink-700 mb-8">{t('gate.subscriberBody')}</p>
+        <span aria-hidden="true" className="mb-4 block h-1.5 w-16 rounded-full bg-lcs-coral" />
+        <p className="mb-7 font-lcsBody text-lcs-teal/80">{t('gate.subscriberBody')}</p>
         {PRICING_PUBLIC && (
           <Link
             href={`/${locale}/pricing`}
-            className="inline-flex items-center px-6 py-3 rounded-md bg-terracotta-400 text-cream-50 font-semibold hover:bg-terracotta-500 transition"
+            className="inline-flex min-h-[44px] items-center rounded-2xl bg-lcs-coral px-6 py-3 font-lcsDisplay font-semibold text-lcs-cream transition-colors hover:bg-lcs-coral-deep"
           >
             {t('gate.subscriberCta')}
           </Link>
         )}
-      </main>
+      </div>
     );
   }
 
-  return (
-    <main className="container mx-auto px-4 max-w-5xl py-12">
-      {/* Header — always renders per Q-n III hybrid empty-state framing. */}
-      <header className="mb-10">
-        <h1 className="font-display text-3xl md:text-4xl font-semibold text-ink-900 mb-2">
-          {t('header.title')}
-        </h1>
-        <p className="text-ink-700">{t('header.welcomeLine')}</p>
-      </header>
-
-      {/* Billing strip — real LS subscribers only (admin bypass has no LS row). */}
-      {user.subscription?.lsSubscriptionId && user.subscription?.status === 'active' && (
-        <section className="mb-10 rounded-lg border border-cream-300 bg-cream-50 px-6 py-4 flex flex-wrap items-center justify-between gap-3">
-          <p className="text-ink-700">
-            {t('billing.line')}
-            {user.subscription?.currentPeriodEnd && (
-              <span className="text-ink-500">
-                {' '}· {t('billing.renewsOn')}{' '}
-                {new Date(user.subscription.currentPeriodEnd).toLocaleDateString(locale)}
-              </span>
-            )}
-          </p>
-          <a
-            href="https://lessoncraftstudio-com.lemonsqueezy.com/billing"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-terracotta-500 font-semibold hover:underline"
-          >
-            {t('billing.manage')}
-          </a>
-        </section>
-      )}
-
-      {error && <p className="text-terracotta-500 mb-4">{error}</p>}
-
-      {loading && payload === null && <p className="text-ink-500">{t('loading')}</p>}
-
-      {payload !== null && (
-        <div className="space-y-12">
-          <HostedWorksheetsWidget />
-
-          <SharedActivitiesWidget locale={locale} />
-
-          <CollectionsWidget
-            locale={locale}
-            collections={payload.collections}
-            totalCount={payload.totalCollections}
-            onChanged={fetchWorkspace}
-          />
-
-          <FavoritesWidget />
-
-          <RecentActivityWidget
-            locale={locale}
-            activities={payload.recentActivity}
-          />
-        </div>
-      )}
-    </main>
-  );
+  return <WorkspaceShell locale={locale} user={user} />;
 }

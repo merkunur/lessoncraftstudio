@@ -1890,12 +1890,57 @@
       "linkLabel": "Werkbladlink",
       "openWorksheet": "Werkblad openen",
       "downloadQr": "QR downloaden",
-      "shareNote": "Leerlingen scannen de QR-code of openen de link — zonder account of app. De link werkt op elk apparaat."
+      "shareNote": "Leerlingen scannen de QR-code of openen de link — zonder account of app. De link werkt op elk apparaat.",
+      "close": "Sluiten"
+    },
+    "sharedActivities": {
+      "title": "Mijn gedeelde activiteiten",
+      "empty": "Activiteiten die je met je klas deelt verschijnen hier.",
+      "views": "{count} weergaven",
+      "share": "Delen",
+      "rename": "Hernoemen",
+      "renamePrompt": "Nieuwe naam",
+      "delete": "Verwijderen",
+      "deleteConfirm": "Deze gedeelde activiteit verwijderen? De link werkt dan niet meer."
     },
     "favorites": {
       "title": "Mijn favorieten",
-      "remove": "Uit favorieten verwijderen"
-    }
+      "remove": "Uit favorieten verwijderen",
+      "empty": {
+        "title": "Nog geen favorieten",
+        "body": "Tik op het hartje bij een werkblad om het hier te bewaren."
+      }
+    },
+    "tabs": {
+      "overview": "Overzicht",
+      "worksheets": "Werkbladen",
+      "activities": "Activiteiten",
+      "collections": "Verzamelingen",
+      "favorites": "Favorieten",
+      "ariaLabel": "Secties van de werkruimte"
+    },
+    "list": {
+      "showing": "{from}–{to} van {total} weergegeven",
+      "searchLabel": "Zoeken",
+      "searchPlaceholder": "Zoeken op naam…",
+      "clearSearch": "Zoekopdracht wissen",
+      "sortViews": "Meest bekeken",
+      "seeAll": "Alles bekijken ({count})",
+      "noMatchTitle": "Geen resultaten",
+      "noMatchBody": "Probeer een ander woord of wis de zoekopdracht."
+    },
+    "dialog": {
+      "cancel": "Annuleren",
+      "deleteTitle": "Verwijderen?",
+      "deleteConfirm": "Verwijderen",
+      "renameTitle": "Naam wijzigen",
+      "nameLabel": "Naam",
+      "save": "Opslaan",
+      "saving": "Bezig met opslaan…",
+      "errorRequired": "Voer een naam in.",
+      "errorGeneric": "Opslaan is mislukt. Probeer het opnieuw."
+    },
+    "quotaLabel": "{count} van {max} gebruikt"
   },
   "bulk": {
     "toggleSelect": "Selecteren",

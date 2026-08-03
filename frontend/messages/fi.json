@@ -2209,7 +2209,7 @@
     "loading": "Loading…",
     "errorGeneric": "Something went wrong. Please try again.",
     "collections": {
-      "heading": "Your collections",
+      "heading": "Omat kokoelmat",
       "viewAll": "View all ({count})",
       "cardDeckCount": "{count, plural, =0 {No decks} =1 {1 deck} other {# decks}}",
       "empty": {
@@ -2252,12 +2252,57 @@
       "linkLabel": "Tehtävän linkki",
       "openWorksheet": "Avaa tehtävä",
       "downloadQr": "Lataa QR",
-      "shareNote": "Oppilaat skannaavat QR-koodin tai avaavat linkin — ilman tiliä tai sovellusta. Linkki toimii kaikilla laitteilla."
+      "shareNote": "Oppilaat skannaavat QR-koodin tai avaavat linkin — ilman tiliä tai sovellusta. Linkki toimii kaikilla laitteilla.",
+      "close": "Sulje"
+    },
+    "sharedActivities": {
+      "title": "Jakamani tehtävät",
+      "empty": "Luokan kanssa jakamasi tehtävät näkyvät täällä.",
+      "views": "{count} katselua",
+      "share": "Jaa",
+      "rename": "Nimeä uudelleen",
+      "renamePrompt": "Uusi nimi",
+      "delete": "Poista",
+      "deleteConfirm": "Poistetaanko tämä jaettu tehtävä? Sen linkki lakkaa toimimasta."
     },
     "favorites": {
       "title": "Omat suosikit",
-      "remove": "Poista suosikeista"
-    }
+      "remove": "Poista suosikeista",
+      "empty": {
+        "title": "Ei vielä suosikkeja",
+        "body": "Napauta tehtävän sydäntä, niin se tallentuu tänne."
+      }
+    },
+    "tabs": {
+      "overview": "Yleiskatsaus",
+      "worksheets": "Tehtävät",
+      "activities": "Aktiviteetit",
+      "collections": "Kokoelmat",
+      "favorites": "Suosikit",
+      "ariaLabel": "Työtilan osiot"
+    },
+    "list": {
+      "showing": "Näytetään {from}–{to} / {total}",
+      "searchLabel": "Hae",
+      "searchPlaceholder": "Hae nimellä…",
+      "clearSearch": "Tyhjennä haku",
+      "sortViews": "Katsotuimmat",
+      "seeAll": "Näytä kaikki ({count})",
+      "noMatchTitle": "Ei osumia",
+      "noMatchBody": "Kokeile toista sanaa tai tyhjennä haku."
+    },
+    "dialog": {
+      "cancel": "Peruuta",
+      "deleteTitle": "Poistetaanko?",
+      "deleteConfirm": "Poista",
+      "renameTitle": "Nimeä uudelleen",
+      "nameLabel": "Nimi",
+      "save": "Tallenna",
+      "saving": "Tallennetaan…",
+      "errorRequired": "Anna nimi.",
+      "errorGeneric": "Tallennus epäonnistui. Yritä uudelleen."
+    },
+    "quotaLabel": "{count}/{max} käytetty"
   },
   "homepageV3": {
     "hero": {

@@ -3737,7 +3737,8 @@
       "linkLabel": "Worksheet link",
       "openWorksheet": "Open worksheet",
       "downloadQr": "Download QR",
-      "shareNote": "Students scan the QR code or open the link — no account or app needed. The link works on any device."
+      "shareNote": "Students scan the QR code or open the link — no account or app needed. The link works on any device.",
+      "close": "Close"
     },
     "sharedActivities": {
       "title": "Activities I've shared",
@@ -3751,8 +3752,42 @@
     },
     "favorites": {
       "title": "My favorites",
-      "remove": "Remove from favorites"
-    }
+      "remove": "Remove from favorites",
+      "empty": {
+        "title": "No favorites yet",
+        "body": "Tap the heart on any worksheet to keep it here."
+      }
+    },
+    "tabs": {
+      "overview": "Overview",
+      "worksheets": "Worksheets",
+      "activities": "Activities",
+      "collections": "Collections",
+      "favorites": "Favorites",
+      "ariaLabel": "Workspace sections"
+    },
+    "list": {
+      "showing": "Showing {from}–{to} of {total}",
+      "searchLabel": "Search",
+      "searchPlaceholder": "Search by name…",
+      "clearSearch": "Clear search",
+      "sortViews": "Most viewed",
+      "seeAll": "See all ({count})",
+      "noMatchTitle": "Nothing matches that search",
+      "noMatchBody": "Try a different word, or clear the search."
+    },
+    "dialog": {
+      "cancel": "Cancel",
+      "deleteTitle": "Delete this?",
+      "deleteConfirm": "Delete",
+      "renameTitle": "Rename",
+      "nameLabel": "Name",
+      "save": "Save",
+      "saving": "Saving…",
+      "errorRequired": "Please enter a name.",
+      "errorGeneric": "Couldn't save that. Please try again."
+    },
+    "quotaLabel": "{count} of {max} used"
   },
   "bulk": {
     "toggleSelect": "Select",

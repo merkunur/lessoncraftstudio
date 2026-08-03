@@ -39,7 +39,13 @@ const ROOT = path.join(__dirname, '..', 'mini tools');
 const OUT = path.join(__dirname, '..', 'docs', 'audit-results', 'number-line', 'qa');
 const SHOT = process.argv.indexOf('--shot') >= 0;
 const PORT = 5576;
-const WIDTHS = [320, 360, 412, 768, 1024, 1366, 1920, 2560];
+/* ⚠ 1400x880 IS THE EXACT TIER-A FLOOR and it is tested on purpose.
+   The derivation says chrome 532 + 0.4*840 = 868 of 880, i.e. 12px of
+   spare. That is the tightest cell in the whole program, so it is
+   measured rather than trusted -- the other wide cells run at 900+ tall
+   where the margin is comfortable and would not catch a regression. */
+const WIDTHS = [320, 360, 412, 768, 1024, 1366, 1400, 1920, 2560];
+const HEIGHT_FOR = (w) => (w === 1400 ? 880 : 900);
 
 const T = require(path.join(ROOT, 'number-line.js'));   /* the model, in Node */
 
@@ -93,7 +99,7 @@ async function open(b, W, opts) {
   p.on('console', (m) => { if (m.type() === 'error' && !/404|net::ERR|auth\/me/.test(m.text())) errs.push(m.text()); });
   await p.evaluateOnNewDocument(RECORDER);
   if (opts && opts.poisonKey) await p.evaluateOnNewDocument((k) => { window.__poisonKey = k; }, opts.poisonKey);
-  await p.setViewport({ width: W, height: 900 });
+  await p.setViewport({ width: W, height: HEIGHT_FOR(W) });
   await p.goto(`http://127.0.0.1:${PORT}/number-line.html?lang=${(opts && opts.lang) || 'en'}&embed=1`,
     { waitUntil: 'domcontentloaded' });
   await p.waitForSelector('.nl-wrap', { timeout: 9000 });
@@ -386,9 +392,17 @@ async function dragGrip(p, sel, toValue) {
     is(m.tiny.length === 0, 'L7 ' + W + 'px TEXT floor 14px' + (m.tiny.length ? ' — ' + m.tiny.slice(0, 3).join(',') : ''));
     is(m.smallCtl.length === 0, 'L7 ' + W + 'px CONTROL floor 44px' + (m.smallCtl.length ? ' — ' + m.smallCtl.slice(0, 3).join(',') : ''));
     /* ⚠ FITS is checked at DESKTOP too, not only on a phone — the whole
-       reason §A.13.62 exists is that cut-off shipped at 768 while the
-       phone was verified clean. */
-    is(m.lowest <= 900 + 0.5, 'L7 ' + W + 'px FITS — lowest control at ' + m.lowest.toFixed(0) + 'px of 900');
+       reason A.13.62 exists is that cut-off shipped at 768 while the
+       phone was verified clean.
+       ⚠⚠ AGAINST THE REAL VIEWPORT, AND AGAINST THE CARD'S BOTTOM. The
+       first version compared a hardcoded 900 and measured only the lowest
+       BUTTON, so the 1400x880 tier-A floor cell -- the tightest in the
+       whole program, 12px of spare -- was being checked against the wrong
+       number AND against the wrong element. A control can sit well above
+       a card that is itself overflowing. */
+    const vh = HEIGHT_FOR(W);
+    is(m.lowest <= vh + 0.5, 'L7 ' + W + 'px FITS (lowest control) ' + m.lowest.toFixed(0) + ' of ' + vh);
+    is(m.cardBottom <= vh + 0.5, 'L7 ' + W + 'px FITS (card bottom) ' + m.cardBottom.toFixed(0) + ' of ' + vh);
     is(p.__errs.length === 0, 'L7 ' + W + 'px clean console' + (p.__errs.length ? ' — ' + p.__errs[0] : ''));
 
     if (SHOT && [360, 768, 1024].indexOf(W) >= 0) {

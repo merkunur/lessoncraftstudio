@@ -1310,6 +1310,46 @@ var CenterBoard = {
   +   'body.cbd-wide *{visibility:hidden;}'
   +   'body.cbd-wide .cbd-qrcard,body.cbd-wide .cbd-qrcard *{visibility:visible;}'
   +   'body.cbd-wide .cbd-qrcard{position:fixed;left:50%;top:40mm;transform:translateX(-50%);box-shadow:none;}'
+  + '}'
+
+  /* ---- wide board (§23 the apparatus a teacher teaches FROM) ----
+     The station grid is `repeat(auto-fit, minmax(250px,1fr))`, so it is one of
+     the few tools where raising the CARD genuinely does the work on its own —
+     a wider board fits more stations at a readable width instead of stretching
+     three of them. The n2/n3 variants keep their own explicit tracks and are
+     raised with it, or a 2- or 3-station board would stay pinned at 340/320px
+     while the auto-fit case grew past it.
+     `.cbd-station`'s min-height is a `vh` clamp and already follows the board;
+     the chips and the station type are hand-ramped because they do not. */
+  + '@media (min-width:1367px) and (min-height:880px){'
+  +   'body.cbd-wide .lcs-app{max-width:min(1192px,97vw);}'
+  +   'body.cbd-wide .cbd-grid{grid-template-columns:repeat(auto-fit,minmax(290px,1fr));}'
+  +   'body.cbd-wide .cbd-grid.cbd-n2{grid-template-columns:repeat(2,minmax(290px,1fr));}'
+  +   'body.cbd-wide .cbd-roundlbl{font-size:22px;}'
+  +   'body.cbd-wide .cbd-rdot{width:46px;height:46px;font-size:22px;}'
+  +   'body.cbd-wide .cbd-stname{font-size:22px;}'
+  +   'body.cbd-wide .cbd-grid.cbd-n3{grid-template-columns:repeat(3,minmax(270px,1fr));}'
+  +   'body.cbd-wide .cbd-chip{font-size:17px;min-height:52px;}'
+  + '}'
+  + '@media (min-width:1800px) and (min-height:1080px){'
+  +   'body.cbd-wide .lcs-app{max-width:min(1560px,97vw);}'
+  +   'body.cbd-wide .cbd-grid{grid-template-columns:repeat(auto-fit,minmax(330px,1fr));}'
+  +   'body.cbd-wide .cbd-grid.cbd-n2{grid-template-columns:repeat(2,minmax(330px,1fr));}'
+  +   'body.cbd-wide .cbd-roundlbl{font-size:25px;}'
+  +   'body.cbd-wide .cbd-rdot{width:52px;height:52px;font-size:25px;}'
+  +   'body.cbd-wide .cbd-stname{font-size:25px;}'
+  +   'body.cbd-wide .cbd-grid.cbd-n3{grid-template-columns:repeat(3,minmax(310px,1fr));}'
+  +   'body.cbd-wide .cbd-chip{font-size:19px;min-height:56px;}'
+  + '}'
+  + '@media (min-width:2400px) and (min-height:1150px){'
+  +   'body.cbd-wide .lcs-app{max-width:min(1752px,97vw);}'
+  +   'body.cbd-wide .cbd-grid{grid-template-columns:repeat(auto-fit,minmax(360px,1fr));}'
+  +   'body.cbd-wide .cbd-grid.cbd-n2{grid-template-columns:repeat(2,minmax(360px,1fr));}'
+  +   'body.cbd-wide .cbd-roundlbl{font-size:28px;}'
+  +   'body.cbd-wide .cbd-rdot{width:58px;height:58px;font-size:28px;}'
+  +   'body.cbd-wide .cbd-stname{font-size:28px;}'
+  +   'body.cbd-wide .cbd-grid.cbd-n3{grid-template-columns:repeat(3,minmax(340px,1fr));}'
+  +   'body.cbd-wide .cbd-chip{font-size:21px;min-height:60px;}'
   + '}';
   var tag = document.createElement('style'); tag.textContent = css;
   document.head.appendChild(tag);

@@ -26,7 +26,11 @@ const ROOT = path.join(__dirname, '..');
 const MINI = path.join(ROOT, 'mini tools');
 const PORT = 5532;
 const LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
-const WIDTHS = [320, 360, 412, 768, 1024, 1366];
+/* 1400x880 is the EXACT Tier-A floor and therefore the tightest cell in the
+   sweep -- the widest bench this tool ever draws against the shortest
+   viewport that draws it. 1366 stays as the CONTROL: nothing may move there. */
+const WIDTHS = [320, 360, 412, 768, 1024, 1366, 1400, 1920, 2560];
+const heightFor = (w) => (w >= 2400 ? 1440 : w >= 1800 ? 1080 : w >= 1400 ? 880 : w >= 768 ? 900 : 780);
 
 const MIME = { '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.html': 'text/html' };
 const serve = () => http.createServer((req, res) => {
@@ -66,7 +70,7 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
 
   for (const loc of LOCALES) {
     for (const w of WIDTHS) {
-      await page.setViewport({ width: w, height: w >= 768 ? 900 : 780 });
+      await page.setViewport({ width: w, height: heightFor(w) });
       await page.goto(`http://127.0.0.1:${PORT}/unit-handle.html?lang=${loc}&embed=1`, { waitUntil: 'domcontentloaded' });
       await page.waitForSelector('.unh-wrap', { timeout: 9000 });
       await wait(260);
@@ -116,7 +120,11 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
       if (m.clipped.length) bad(tag + ': clipped label(s) — "' + m.clipped.join('", "') + '"');
       if (m.outside.length) bad(tag + ': outside THE CARD — ' + m.outside.join(', '));
       if (m.doc > 0) bad(tag + ': the page overflows sideways by ' + m.doc + 'px');
-      if (w >= 768 && m.bottom > 900) bad(tag + ': does not FIT — the foot ends at ' + Math.round(m.bottom) + 'px');
+      /* ⚠ THIS WAS A HARDCODED 900 and the sweep now runs to 1440 tall, so a
+         tool that fits its viewport perfectly reported as cut off in 11
+         locales at once. Measure against the REAL viewport. Below 1400 the
+         height IS 900, so nothing about the control cells changes. */
+      if (w >= 768 && m.bottom > heightFor(w)) bad(tag + ': does not FIT — the foot ends at ' + Math.round(m.bottom) + 'px of ' + heightFor(w) + 'px');
       if (w < 768 && m.bottom > m.cardBottom + 1) bad(tag + ': the foot ends past the card the iframe is grown to');
       if (m.widest && (!longest[loc] || m.widest.w > longest[loc].w)) longest[loc] = m.widest;
       checked++;
@@ -129,7 +137,7 @@ const wait = (ms) => new Promise((r) => setTimeout(r, ms));
   await browser.close();
   server.close();
   console.log('');
-  console.log('  ' + checked + ' renders (11 locales x 6 widths); smallest control ' + worstCtrl.toFixed(1) + 'px, smallest text ' + worstFont + 'px');
+  console.log('  ' + checked + ' renders (' + LOCALES.length + ' locales x ' + WIDTHS.length + ' widths); smallest control ' + worstCtrl.toFixed(1) + 'px, smallest text ' + worstFont + 'px');
   if (FAIL) { console.error('FAIL — ' + FAIL + ' defect(s)'); process.exit(1); }
   console.log('PASS — no locale breaks the layout at any width');
 })();

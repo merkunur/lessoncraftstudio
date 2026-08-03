@@ -147,8 +147,20 @@ var UnitHandle = {
      less than half the bench and the smallest would afford a count of
      four — no range, and no drama. 16/9 maps them EXACTLY onto
      320/480/640/800 (every one an integer), so the ratios between
-     objects are untouched — a key is still shorter than a kayak — and
-     the longest object reaches the end of the bench.
+     objects are untouched — a key is still shorter than a kayak.
+
+     ⚠⚠ AND THE LAST CLAUSE OF THAT SENTENCE USED TO READ "and the
+     longest object reaches the end of the bench". MEASURED, IT DOES NOT.
+     `unit-handle-objects.json` carries `w` 180/270/360 and NO 450, so the
+     shelf's three length classes scale to 320/480/640 and the 800 class
+     is theoretical. Objects are centred, so the widest object on the
+     shelf leaves ~18% of the bench empty on each side and the shortest
+     leaves ~31%. That is HONEST — a crayon IS a third of a ladder on a
+     shared scale, and seeing that is half of what the tool is for — but
+     it is not what the comment said, and at a 1700px bench the reserve
+     is ~600px of cream. Recorded rather than "fixed": narrowing W would
+     enlarge every object, and adding a 450 object is a shelf decision,
+     not a layout one. Do not derive a bench cap from the 800 figure.
 
      ⚠ AND THE UNIT BAND IS SET BY LEGIBILITY, NOT BY THE CATALOG. The
      catalog's gate spec says "every unit size 1…1000 … 499,500 pairs".
@@ -453,6 +465,8 @@ var UnitHandle = {
   init: function (api) {
     this.api = api;
     injectUnitHandleCSS();
+    /* the wide-viewport switch, and the one-line rollback */
+    document.body.classList.add('unh-wide');
     this._store = this._loadStore();
     var ent = this._store.ent;
     if (ent && ent.tier) this.premium = ent.tier !== 'free';
@@ -564,7 +578,13 @@ var UnitHandle = {
   _buildTape: function (which, n, row) {
     var api = this.api, self = this, s = this.st;
     var tape = api.el('div', 'unh-tape unh-tape-' + which);
-    tape.style.top = (row * 56) + 'px';
+    /* ⚠ THE ROW PITCH IS A CSS VARIABLE, NOT A CONSTANT, because an inline
+       style beats every stylesheet rule and this one used to be a literal
+       56. The tape stack is a FIXED pixel height by design (so a grip is
+       always a real tap target on a narrow screen), but at a 1160px bench
+       two 48px tapes are a 24:1 ribbon. The wide tiers grow the pitch and
+       the tape height together; CSS could not have reached this line. */
+    tape.style.top = 'calc(var(--unh-row, 56px) * ' + row + ')';
     tape.setAttribute('role', 'group');
     tape.setAttribute('aria-label', api.t('tapeAria').replace('{i}', String(n)));
 
@@ -840,6 +860,66 @@ function injectUnitHandleCSS() {
     +   'gap:8px;font-family:Nunito,sans-serif;font-size:14px;color:#C2562F;text-align:center;}'
     + '.unh-gate a{color:#C2562F;min-height:44px;display:inline-flex;align-items:center;}'
     + '@media (min-width:760px){.unh-bench{max-width:680px;}}'
+
+    /* =====================================================================
+       WIDE-VIEWPORT TIERS — derived, not chosen.
+       ---------------------------------------------------------------------
+       MEASURED (derive-tool-wide-tiers.js, German, gate showing): chrome
+       337px. This bench is NOT a constant ratio — it is
+       `objzone (width x 0.26)` plus a FIXED tape stack — so the derivation's
+       single measured ratio (0.4294) OVERSTATES its height as it widens,
+       which makes the derived ceilings conservative. Budget written out
+       against the real two-part geometry, including the grown tape stack:
+         A  337 + 1160x0.26 + 148 = 787 of  880   (93 spare)
+         B  337 + 1480x0.26 + 176 = 898 of 1000  (102 spare)
+         C  337 + 1700x0.26 + 198 = 977 of 1150  (173 spare)
+       Bench cap = min(verticalCeiling, cardUsable): A min(1264,1192)=1160,
+       B min(1543,1608)=1480, C min(1893,1752)=1700.
+
+       ⚠ THE TAPE STACK GROWS WITH THE BENCH, via `--unh-row`. Left at 56/48
+       the two tapes are a 24:1 ribbon at 1160px — technically correct, and
+       not an instrument anyone can read across a room. The pitch is a
+       variable because `_buildTape` writes `top` INLINE and inline beats
+       every rule; see the comment there.
+       ⚠ `.unh-grip` STAYS 44px. It is the deliberate control floor
+       straddling a 13px tile edge and it is the one thing here that must
+       not scale.
+       ⚠ CHROME CAPS ARE INVENTED, NOT RAISED — `.unh-hint`, `.unh-foot` and
+       `.unh-gate` carry no max-width at all and would each span the full
+       1800px card.
+       ⚠ `.unh-count` is a FIXED 22px HTML overlay, not SVG text, so it does
+       NOT self-scale with the bench and must be ramped by hand.
+       ===================================================================== */
+    + '@media (min-width:1367px) and (min-height:880px){'
+    + '  body.unh-wide .unh-bench,body.unh-wide .unh-hint,'
+    + '  body.unh-wide .unh-foot,body.unh-wide .unh-gate{max-width:1160px;}'
+    + '  body.unh-wide{--unh-row:74px;}'
+    + '  body.unh-wide .unh-tapes{height:148px;}'
+    + '  body.unh-wide .unh-tape{height:64px;}'
+    + '  body.unh-wide .unh-count{font-size:30px;}'
+    + '  body.unh-wide .unh-hint,body.unh-wide .unh-chip{font-size:17px;}'
+    + '  body.unh-wide .unh-gate{font-size:16px;}'
+    + '}'
+    + '@media (min-width:1800px) and (min-height:1000px){'
+    + '  body.unh-wide .unh-bench,body.unh-wide .unh-hint,'
+    + '  body.unh-wide .unh-foot,body.unh-wide .unh-gate{max-width:1480px;}'
+    + '  body.unh-wide{--unh-row:88px;}'
+    + '  body.unh-wide .unh-tapes{height:176px;}'
+    + '  body.unh-wide .unh-tape{height:76px;}'
+    + '  body.unh-wide .unh-count{font-size:36px;}'
+    + '  body.unh-wide .unh-hint,body.unh-wide .unh-chip{font-size:18px;}'
+    + '  body.unh-wide .unh-gate{font-size:17px;}'
+    + '}'
+    + '@media (min-width:2400px) and (min-height:1150px){'
+    + '  body.unh-wide .unh-bench,body.unh-wide .unh-hint,'
+    + '  body.unh-wide .unh-foot,body.unh-wide .unh-gate{max-width:1700px;}'
+    + '  body.unh-wide{--unh-row:100px;}'
+    + '  body.unh-wide .unh-tapes{height:198px;}'
+    + '  body.unh-wide .unh-tape{height:86px;}'
+    + '  body.unh-wide .unh-count{font-size:42px;}'
+    + '  body.unh-wide .unh-hint,body.unh-wide .unh-chip{font-size:19px;}'
+    + '  body.unh-wide .unh-gate{font-size:18px;}'
+    + '}'
     + '@media print{'
       + '  *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}'
       + '  .lcs-header,.unh-hint,.unh-foot,.unh-gate,.unh-grip{display:none !important;}'

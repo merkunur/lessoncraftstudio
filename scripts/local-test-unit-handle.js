@@ -326,7 +326,7 @@ async function dragHandle(page, which, toFrac) {
     /* ---- L9 ⭐ THE SWEEP -------------------------------------------- */
     {
       const CASES = [];
-      for (const w of [320, 360, 412, 768, 1024, 1366]) {
+      for (const w of [320, 360, 412, 768, 1024, 1366, 1400, 1920, 2560]) {
         for (const objStep of [0, 3, 5]) {
           for (const frac of [0.45, 0.15]) CASES.push([w, objStep, frac]);
         }
@@ -334,7 +334,7 @@ async function dragHandle(page, which, toFrac) {
       let worstCtrl = 999, worstTile = 999, worstTileWide = 999, worstFont = 999, sweepErrs = 0, checked = 0, overlaps = 0;
       for (const [w, objStep, frac] of CASES) {
         const page = await newPage(browser, { premium: true });
-        const h = w >= 768 ? 900 : 780;
+        const h = w >= 2400 ? 1440 : w >= 1800 ? 1080 : w >= 1400 ? 880 : w >= 768 ? 900 : 780;
         await open(page, 'en', w, h);
         for (let i = 0; i < objStep; i++) { await foot(page, 'Another object'); await wait(90); }
         /* drive BOTH tapes to their extremes, not just the default */
@@ -375,17 +375,32 @@ async function dragHandle(page, which, toFrac) {
               if (ts[i].getBoundingClientRect().left < ts[i - 1].getBoundingClientRect().right - 0.6) ov++;
             }
           }
+          /* ⭐ THE TAPE STACK IS INSIDE ITS OWN CONTAINER — and NOTHING ELSE
+             HERE CAN SEE IT. `.unh-tapes` is a FIXED height with both tapes
+             absolutely positioned by `--unh-row`, so if the pitch and the
+             container height ever disagree the second tape renders OUTSIDE
+             the box, overlapping the foot or vanishing under it — and the
+             CARD HEIGHT DOES NOT CHANGE, so every FIT, containment and
+             overlap assertion on this platform stays green. Found by a
+             poison that correctly refused to fire: `--unh-row:420px` at Tier
+             C passed the whole 11-locale layout gate. Three tiers now set
+             both numbers, which is three chances to set one of them. */
+          const box = document.querySelector('.unh-tapes').getBoundingClientRect();
+          const tapesOut = Array.from(document.querySelectorAll('.unh-tape'))
+            .filter((e) => { const r = e.getBoundingClientRect(); return r.bottom > box.bottom + 1 || r.top < box.top - 1; }).length;
+
           const f = document.querySelector('.unh-foot').getBoundingClientRect();
           const bench = document.querySelector('.unh-objzone').getBoundingClientRect();
           return {
             ctrl, tile, overlap: ov, minFont: fonts.length ? Math.min(...fonts) : 99,
-            outside, clipped, benchH: bench.height,
+            outside, clipped, benchH: bench.height, tapesOut,
             doc: document.documentElement.scrollWidth - document.documentElement.clientWidth,
             bottom: f.bottom, cardBottom: cr.bottom
           };
         });
 
         const tag = w + 'px/obj+' + objStep + '/' + frac;
+        if (m.tapesOut) is(false, 'L9 ' + tag + ': ' + m.tapesOut + ' tape(s) render OUTSIDE .unh-tapes — the pitch and the container height disagree');
         for (const k of Object.keys(m.ctrl)) {
           if (m.ctrl[k] === null) continue;
           if (m.ctrl[k] < 43.5) is(false, 'L9 ' + tag + ': control ".unh-' + k + '" is ' + m.ctrl[k].toFixed(1) + 'px, under the 44px control floor');
@@ -419,7 +434,10 @@ async function dragHandle(page, which, toFrac) {
         checked++;
         await page.close();
       }
-      is(true, 'L9 ⭐ the sweep: ' + checked + ' configurations (6 widths x 3 objects x 2 unit extremes, both tapes driven)');
+      /* the width count is DERIVED, not written out -- the literal said "6
+         widths" while the loop ran 9, which is exactly the shape of label
+         that makes a widened sweep look like it never widened. */
+      is(true, 'L9 ⭐ the sweep: ' + checked + ' configurations (' + (CASES.length / 6) + ' widths x 3 objects x 2 unit extremes, both tapes driven)');
       is(worstCtrl >= 43.5, 'L9 smallest control across the whole sweep: ' + worstCtrl.toFixed(1) + 'px (floor 44)');
       is(worstTileWide >= 33.5, 'L9 smallest whole tile at 768px and above: ' + worstTileWide.toFixed(1) + 'px (floor 34)');
       is(worstTile >= 12, 'L9 smallest whole tile anywhere, phones included: ' + worstTile.toFixed(1) + 'px (floor 12)');
@@ -439,7 +457,9 @@ async function dragHandle(page, which, toFrac) {
           '.unh-tile{width:20px !important;}' +
           '.unh-chip{min-height:20px !important;min-width:20px !important;padding:0 !important;}' +
           '.unh-hint{font-size:9px !important;}' +
-          '.unh-objzone{height:40px !important;} .unh-bench{position:relative !important;left:900px !important;}';
+          '.unh-objzone{height:40px !important;} .unh-bench{position:relative !important;left:900px !important;}' +
+          /* the tape pitch pushed past its own fixed-height container */
+          '.unh-tapes{--unh-row:420px !important;}';
         document.head.appendChild(st);
         const card = document.querySelector('.lcs-app').getBoundingClientRect();
         const minOf = (sel) => {
@@ -457,13 +477,19 @@ async function dragHandle(page, which, toFrac) {
           minFont: fonts.length ? Math.min(...fonts) : 99,
           benchH: document.querySelector('.unh-objzone').getBoundingClientRect().height,
           outside: Array.from(document.querySelectorAll('.unh-hint,.unh-bench,.unh-foot'))
-            .filter((e) => { const r = e.getBoundingClientRect(); return r.right > card.right + 1 || r.left < card.left - 1; }).length
+            .filter((e) => { const r = e.getBoundingClientRect(); return r.right > card.right + 1 || r.left < card.left - 1; }).length,
+          tapesOut: (function () {
+            const box = document.querySelector('.unh-tapes').getBoundingClientRect();
+            return Array.from(document.querySelectorAll('.unh-tape'))
+              .filter((e) => { const r = e.getBoundingClientRect(); return r.bottom > box.bottom + 1 || r.top < box.top - 1; }).length;
+          })()
         };
       });
       is(bad.chip !== null && bad.chip < 43.5, 'L10 POISON: the control floor catches a 20px chip (measured ' + (bad.chip === null ? 'nothing' : bad.chip.toFixed(1) + 'px') + ')');
       is(bad.tile !== null && bad.tile < 33.5, 'L10 POISON: the canvas floor catches a 20px tile, SEPARATELY (measured ' + (bad.tile === null ? 'nothing' : bad.tile.toFixed(1) + 'px') + ')');
       is(bad.minFont < 14, 'L10 POISON: the legibility floor catches 9px text');
       is(bad.outside > 0, 'L10 POISON: containment-against-THE-CARD catches a block pushed off the right edge');
+      is(bad.tapesOut > 0, 'L10 POISON: the tape-stack containment catches a pitch past its container (' + bad.tapesOut + ' outside) — the state that passed the ENTIRE 11-locale layout gate');
       is(bad.benchH < 60, 'L10 POISON: the not-tiny floor catches a collapsed bench (' + Math.round(bad.benchH) + 'px)');
       await page.close();
     }

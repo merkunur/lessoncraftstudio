@@ -25,7 +25,7 @@ export const dynamic = 'force-dynamic';
 // Keep in step with app/[locale]/activities/[slug]/page.tsx ACTIVITY_WRAPPER_VERSION
 // (cache-buster on the mini-tool wrapper; harmless to the wrapper, which reads
 // only activity/lang/embed).
-const ACTIVITY_WRAPPER_VERSION = '9.231';
+const ACTIVITY_WRAPPER_VERSION = '9.232';
 
 const BASE_HEADERS: Record<string, string> = {
   'Content-Type': 'text/html; charset=utf-8',

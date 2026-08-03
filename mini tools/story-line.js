@@ -355,7 +355,13 @@ var StoryLine = {
     if (!line) return;
     var n = this.slots.length;
     var W = line.clientWidth || 940;
-    var maxW = { 3: 190, 4: 168, 5: 148 }[n] || 168;
+    /* ⭐ A JS CEILING, so no CSS tier can reach it: widening `.stl-line` alone
+       gives a longer rope carrying the SAME small cards — the rekenrek defect.
+       --stl-cardmax scales the table per tier; the `(W - gaps)/n` term below
+       still binds first, so this raises a limit rather than setting a size. */
+    var cmax = parseFloat(getComputedStyle(document.body).getPropertyValue('--stl-cardmax'));
+    if (!(cmax >= 1)) cmax = 1;
+    var maxW = Math.round(({ 3: 190, 4: 168, 5: 148 }[n] || 168) * cmax);
     var gap = { 3: 24, 4: 20, 5: 16 }[n] || 20;
     var slotW = Math.min(maxW, Math.floor((W - (n - 1) * gap - 24) / n));
     if (slotW < 90) gap = 6;
@@ -820,6 +826,32 @@ var StoryLine = {
 (function injectCSS() {
   var css = ''
   + 'body.stl-wide .lcs-app{max-width:min(1080px,96vw);}'
+
+  /* ---- wide board (§23 the apparatus a teacher teaches FROM) ----
+     Two ceilings, and only one of them is CSS. `.stl-line` caps at 940px, and
+     the card width caps in JS at {3:190, 4:168, 5:148}. Raising the line alone
+     would have hung the same small cards on a longer rope.
+     ⚠ The rope is a `preserveAspectRatio="none"` 940x64 bezier and is MEANT to
+     stretch — a longer washing line with the same sag. Its `_ropeY` sag maths
+     returns viewBox units used directly as px, which is only valid while the
+     rope's rendered height stays 64; so the height is deliberately NOT ramped.
+     (The shared gate's stretch guard only inspects SVGs containing text, for
+     exactly this reason.) */
+  + '@media (min-width:1367px) and (min-height:880px){'
+  +   'body.stl-wide{--stl-cardmax:1.2;}'
+  +   'body.stl-wide .lcs-app{max-width:min(1192px,96vw);}'
+  +   'body.stl-wide .stl-line{max-width:1120px;}'
+  + '}'
+  + '@media (min-width:1800px) and (min-height:1080px){'
+  +   'body.stl-wide{--stl-cardmax:1.62;}'
+  +   'body.stl-wide .lcs-app{max-width:min(1560px,96vw);}'
+  +   'body.stl-wide .stl-line{max-width:1460px;}'
+  + '}'
+  + '@media (min-width:2400px) and (min-height:1150px){'
+  +   'body.stl-wide{--stl-cardmax:1.85;}'
+  +   'body.stl-wide .lcs-app{max-width:min(1752px,96vw);}'
+  +   'body.stl-wide .stl-line{max-width:1660px;}'
+  + '}'
   + 'body.stl-wide #lcs-root{height:100%;min-height:0;}'
   + '@media (max-width:560px){body.stl-wide{overflow-y:auto;}body.stl-wide #lcs-root{height:auto;}}'
   + '@media (max-width:480px){body.stl-wide .lcs-header{flex-direction:column;align-items:flex-start;gap:8px;}}'
@@ -849,7 +881,14 @@ var StoryLine = {
   +   'border-radius:14px;cursor:grab;padding:0;overflow:hidden;'
   +   'box-shadow:0 1px 3px rgba(20,30,28,.08),0 6px 16px rgba(20,30,28,.09);}'
   + '.stl-card.on-line{width:100%;height:100%;}'
-  + '.stl-card.in-tray{width:116px;height:148px;flex:none;transform:rotate(var(--stl-jit,0deg));}'
+  /* ⚠ THE TRAY CARD AND THE SLOT MUST SCALE TOGETHER. The slot width is
+     JS (`maxW * --stl-cardmax`); the tray card is CSS. Ramping only the
+     slot left the child dragging a 116px card into a 351px slot at 2560 —
+     visible immediately in the render, invisible to every measurement.
+     One variable drives both, so they cannot drift again; at the default
+     1 this is byte-identical to the shipped 116x148. */
+  + '.stl-card.in-tray{width:calc(116px * var(--stl-cardmax,1));'
+  +   'height:calc(148px * var(--stl-cardmax,1));flex:none;transform:rotate(var(--stl-jit,0deg));}'
   + '.stl-card.dragging{opacity:.35;}'
   + '.stl-card.speaking{box-shadow:0 1px 3px rgba(20,30,28,.08),0 6px 16px rgba(20,30,28,.09),'
   +   '0 0 0 3px var(--lcs-structure),0 0 22px 6px rgba(242,120,75,.28);}'

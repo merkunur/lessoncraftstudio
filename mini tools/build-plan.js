@@ -450,6 +450,7 @@
     /* ---- lifecycle -------------------------------------------------- */
     init: function (api) {
       this.api = api;
+      document.body.classList.add('bpl-wide');
       injectBuildPlanCSS();
       this._store = this._loadStore();
       var ent = this._store.ent;
@@ -1005,6 +1006,50 @@
       + '.bpl-sheet{display:none;}'
       + '.bpl-sheet-svg{width:46%;margin:2%;}'
       + '.bpl-p-cell{fill:none;stroke:#000;stroke-width:3;}'
+
+      /* ---- wide board (§23 the apparatus a teacher teaches FROM) ----
+         ⚠⚠ WIDTH CAP ONLY. Same construction as cold-line, and the same
+         reason: `.bpl-bench` is `aspect-ratio:1/1` and capping its HEIGHT
+         gives a rectangle whose SVG letterboxes while the HTML handles stay
+         positioned against the wider box. Raise max-width; the square follows.
+         Unlike cold-line the handles here are already PERCENTAGES of the bench
+         (14%/13% with matching negative margins), so they scale for free — no
+         handle ramp, and adding one would double-scale them.
+         The bench is square, so height = width; each value is the tier's own
+         MINIMUM height less the measured chrome, with a fourth height-keyed
+         step so a 1440-tall board is not held at tier C's 1150 floor. */
+      /* ⚠⚠ AND THE HINT HAS TO BE PINNED TO ITS OWN ROW — via max-width,
+         NOT via flex. Once the bench was wide enough to leave 762px beside
+         it, the hint flowed UP next to the apparatus and floated at
+         mid-height instead of captioning it (measured at 2560: hint
+         x1501..2121 against a bench ending at 1420).
+         `flex:0 0 100%` did NOT fix it, and the computed style confirmed the
+         rule was applying (basis 100%, shrink 0) while the element still
+         rendered 620px on the same line: a flex item's HYPOTHETICAL MAIN
+         SIZE is the flex base size CLAMPED BY min/max-width, and line
+         breaking uses the hypothetical size — so `max-width:620px` decided
+         the wrap before flex-basis ever got a say. Raising the cap past the
+         leftover space is what actually breaks the line, and it makes the
+         caption readable at board size besides.
+         Scoped to the tiers; 1366 already wraps and stays byte-identical. */
+      + '@media (min-width:1367px) and (min-height:880px){'
+      + '  body.bpl-wide .bpl-hint{max-width:760px;font-size:18px;}'
+      + '  body.bpl-wide .bpl-bench{max-width:576px;}'
+      + '  body.bpl-wide .bpl-foot,body.bpl-wide .bpl-gate{max-width:760px;}'
+      + '}'
+      + '@media (min-width:1800px) and (min-height:1080px){'
+      + '  body.bpl-wide .bpl-bench{max-width:780px;}'
+      + '  body.bpl-wide .bpl-foot,body.bpl-wide .bpl-gate{max-width:920px;}'
+      + '  body.bpl-wide .bpl-hint{max-width:900px;font-size:20px;}'
+      + '}'
+      + '@media (min-width:2400px) and (min-height:1150px){'
+      + '  body.bpl-wide .bpl-bench{max-width:840px;}'
+      + '  body.bpl-wide .bpl-foot,body.bpl-wide .bpl-gate{max-width:1000px;}'
+      + '  body.bpl-wide .bpl-hint{max-width:1040px;font-size:22px;}'
+      + '}'
+      + '@media (min-width:2400px) and (min-height:1300px){'
+      + '  body.bpl-wide .bpl-bench{max-width:980px;}'
+      + '}'
 
       + '@media print{'
       + '*{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}'

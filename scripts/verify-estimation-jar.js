@@ -93,19 +93,53 @@ const VERDICT = {
 
 /* THE RANKING BAN — this tool's signature risk. An estimation jar is
    normally won; every locale's "closest / winner" vocabulary is refused. */
+
+/* Unicode word boundary:  is ASCII-only and cannot see the edge of
+   lähimpänä, nærmest or nächsten. */
+function w(body) { return new RegExp('(?<!\\p{L})(?:' + body + ')(?!\\p{L})', 'iu'); }
+
 const RANKING = {
-  en: /\b(closest|nearest|winner|wins|won|best guess|champion)\b/i,
-  de: /\b(am nächsten|nächstdran|gewinner|gewinnt|sieger|beste schätzung)\b/i,
-  fr: /\b(le plus proche|la plus proche|gagnant|gagne|vainqueur|meilleure)\b/i,
-  it: /\b(più vicino|più vicina|vincitore|vince|migliore)\b/i,
-  es: /\b(más cerca|más cercano|ganador|gana|mejor)\b/i,
-  pt: /\b(mais perto|mais próximo|vencedor|ganha|melhor palpite)\b/i,
-  nl: /\b(dichtstbij|het dichtst|winnaar|wint|beste gok)\b/i,
-  sv: /\b(närmast|vinnare|vinner|bästa gissning)\b/i,
-  da: /\b(tættest|nærmest|vinder|bedste gæt)\b/i,
-  no: /\b(nærmest|vinner|beste gjett)\b/i,
-  fi: /\b(lähimpänä|lähin|voittaja|voittaa|paras arvaus)\b/i
+  /* ⚠ WIDENED after three native panels showed the bans were too narrow
+     for their OWN morphology — the recorded "a ban tested on English
+     alone is tested in the one language where it happens to work" trap.
+     German: richtig missed richtige/richtigen and gewinner missed
+     Gewinnerin. Portuguese banned "melhor palpite" while the tool ALSO
+     ships "estimativa" throughout, so "melhor estimativa" sailed through.
+     Italian banned migliore but not meglio, vince but not vincono.
+     ⚠ And  is ASCII-only, so it cannot see a boundary beside lähimpänä
+     or nærmest: these use Unicode lookarounds instead. */
+  en: w('closest|nearest|winner|wins|won|best guess|champion'),
+  de: w('am n(ä|ae)chsten|am dichtesten|n(ä|ae)chstdran|gewinn\\w*|sieger\\w*|beste sch(ä|ae)tzung'),
+  fr: w('le plus proche|la plus proche|gagnant\\w*|gagne|vainqueur|meilleure?'),
+  it: w('pi(ù|u) vicin\\w*|vincitor\\w*|vinc(e|ono)|miglior\\w*|meglio'),
+  es: w('m(á|a)s cerca\\w*|ganador\\w*|gana|mejor'),
+  pt: w('mais pert\\w*|mais pr(ó|o)xim\\w*|vencedor\\w*|ganha|melhor'),
+  nl: w('dichtstbij\\w*|het dichtst|winnaar\\w*|wint|beste gok'),
+  sv: w('n(ä|a)rmast\\w*|vinnare|vinner|b(ä|a)sta gissning'),
+  da: w('t(æ|ae)ttest\\w*|n(æ|ae)rmest\\w*|vinder\\w*|bedste g(æ|ae)t'),
+  no: w('n(æ|ae)rmest\\w*|vinner\\w*|beste gjett'),
+  fi: w('l(ä|a)himp(ä|a)n(ä|a)|l(ä|a)hin|voittaj\\w*|voitta\\w*|paras arva\\w*')
 };
+/* ⚠ POISON, BOTH DIRECTIONS, BEFORE THE BANS JUDGE ANY REAL COPY. A ban
+   that is too wide teaches a native panel to word around it instead of
+   reporting it — that is how a correct German "Zufallsbeutel" nearly
+   failed a build. */
+function poisonRanking() {
+  const mustFire = [['en','who was closest?'],['de','die Gewinnerin steht fest'],['de','am dichtesten dran'],
+    ['it','chi ha fatto meglio'],['it','vincono i piu vicini'],['pt','a melhor estimativa'],
+    ['fi','kuka oli lahimpana'],['no','hvem var naermest'],['da','det bedste gaet']];
+  const mustPass = [['de','Schätzt, wie viele es sind'],['de','Eine gute Schätzung reicht'],
+    ['it','Guardate quante stime erano lì intorno'],['pt','Todo palpite tem lugar na linha'],
+    ['fi','Jokainen arvio kuuluu viivalle'],['no','Alle overslag hører hjemme på tallinja'],
+    ['es','Cada idea tiene su lugar en la línea'],['fr','Chaque estimation a sa place sur la ligne']];
+  for (const [loc, txt] of mustFire) {
+    if (RANKING[loc] && !RANKING[loc].test(txt)) err(`RANKING poison: the ${loc} ban MISSED "${txt}"`);
+  }
+  for (const [loc, txt] of mustPass) {
+    if (RANKING[loc] && RANKING[loc].test(txt)) err(`RANKING poison: the ${loc} ban CONDEMNED correct copy "${txt}"`);
+  }
+}
+
 const SCORE_RE = /\b(score|scores|timer|streak|poäng|poeng|punkte|punteggio|puntuación|pontuação|pisteet|niveau|level|badge|reward)\b/i;
 
 let ERRORS = 0, WARNS = 0;
@@ -371,6 +405,8 @@ function checkPacking(tool, data) {
     if (!p) { err(`P1 set ${s.id} has no pack constants — run scripts/measure-jar-sprites.js --write`); continue; }
     if (!(p.r70 > 0.12 && p.r70 < 0.5)) err(`P1 ${s.id} r70=${p.r70} outside the plausible band`);
     if (!(p.cy > 0.2 && p.cy < 0.8)) err(`P1 ${s.id} cy=${p.cy} outside the plausible band`);
+    if (p.cx == null) err(`P1 ${s.id} has no cx — re-run scripts/measure-jar-sprites.js --write`);
+    else if (!(p.cx > 0.25 && p.cx < 0.75)) err(`P1 ${s.id} cx=${p.cx} outside the plausible band`);
     if (p.rotMax !== 22 && p.rotMax !== 40) err(`P1 ${s.id} rotMax=${p.rotMax} is neither the asymmetric 22 nor the symmetric 40`);
   }
   /* the whole point of per-set constants: the spread must be REAL, or a
@@ -424,6 +460,8 @@ function checkPacking(tool, data) {
         err(`P1b ${s.id} declares r70 ${s.pack.r70} but its sprite measures ${m.r70}`);
       if (Math.abs(m.cy - s.pack.cy) > 0.012)
         err(`P1b ${s.id} declares cy ${s.pack.cy} but its sprite measures ${m.cy}`);
+      if (s.pack.cx != null && Math.abs(m.cx - s.pack.cx) > 0.012)
+        err(`P1b ${s.id} declares cx ${s.pack.cx} but its sprite measures ${m.cx}`);
       if (m.rotMax !== s.pack.rotMax)
         err(`P1b ${s.id} declares rotMax ${s.pack.rotMax} but the sprite's symmetry implies ${m.rotMax}`);
     }
@@ -628,6 +666,10 @@ function checkPacking(tool, data) {
 
 /* ---------------- run ---------------- */
 console.log(`verify-estimation-jar — locales: ${LOCALES.join(',')}`);
+/* ⚠ the bans prove themselves BEFORE they judge any real copy — this
+   call was missing on the first attempt, so the poison was a dead
+   function: defined, never run, reporting nothing. */
+poisonRanking();
 let vocab = null;
 try { vocab = loadImageVocabulary(); } catch (e) { warn('IMAGE_VOCABULARY unavailable: ' + e.message); }
 

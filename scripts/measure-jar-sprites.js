@@ -172,7 +172,7 @@ async function main() {
   if (write) {
     for (const s of cfg.sets) {
       const r = rows.find(x => x.id === s.id);
-      if (r) s.pack = { r70: r.r70, cy: r.cy, rotMax: r.rotMax };
+      if (r) s.pack = { r70: r.r70, cx: r.cx, cy: r.cy, rotMax: r.rotMax };
     }
     fs.writeFileSync(SETS, JSON.stringify(cfg, null, 2) + '\n');
     console.log('\nwrote pack constants into ' + SETS);

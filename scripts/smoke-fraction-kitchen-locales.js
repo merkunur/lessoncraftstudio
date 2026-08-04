@@ -25,6 +25,7 @@ vm.runInContext(fs.readFileSync(path.join(MINI, 'fraction-kitchen.js'), 'utf8'),
 const S = sandbox.FractionKitchen.strings;
 
 let fail = 0;
+let guideCount = null;
 (async () => {
   const server = http.createServer((req, res) => {
     const p = decodeURIComponent(req.url.split('?')[0]);
@@ -62,7 +63,17 @@ let fail = 0;
     if (!m.body.includes(S.instruction[L])) problems.push('instruction missing');
     if (!m.body.includes(S.chipBar[L])) problems.push('chocolate chip not localized');
     if (!m.body.includes(S.shareChip[L])) problems.push('share chip not localized');
-    if (m.guides < 2) problems.push(`${m.guides} guides`);
+    /* ⚠ THIS FLOOR USED TO BE `< 2`, AND IT ENCODED THE DEFECT. Halves drew
+       one true diameter PLUS one decoy, so 2 was the count of a CONTAMINATED
+       pattern; once the decoy went, a correct tool started failing here. The
+       floor is not simply lowered to 1 — that would pass a tool drawing a
+       single line for sixths. This gate is about LOCALE, so it asserts what a
+       locale can actually break: the pattern is drawn, and it is the SAME
+       pattern in every language. Exact per-partition counts stay in local-test
+       (halves 1, fourths 2, decoys 0), where the geometry belongs. */
+    if (m.guides < 1) problems.push(`${m.guides} guides`);
+    if (guideCount === null) guideCount = m.guides;
+    else if (m.guides !== guideCount) problems.push(`${m.guides} guides against ${guideCount} in the first locale — the language changed the geometry`);
     if (!m.pizza) problems.push('no pizza svg');
     if (m.chips < 8) problems.push(`${m.chips} chips`);
     if (L !== 'en' && S.instruction[L] !== S.instruction.en && m.body.includes(S.instruction.en)) problems.push('en instruction leak');

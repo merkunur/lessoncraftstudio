@@ -212,7 +212,13 @@ function serve() {
 
   /* ============================ A: viewports ============================ */
   console.log('A. viewport sweep');
-  for (const [w, h] of [[320, 568], [360, 740], [412, 915], [768, 1024], [1024, 768], [1366, 768]]) {
+  /* ⚠ THE SWEEP USED TO STOP AT 1366, AND THE OPERATOR IS ON ~2000.
+     Everything below 1366 was green while share mode at 1920 rendered a
+     660x210 board — a plank, aspect 3.14, with a 184px pizza adrift in
+     it. A viewport class the gate never visits is a viewport class that
+     ships broken. Tall windows are in the sweep too: the defect needed
+     BOTH a wide and a tall viewport to show. */
+  for (const [w, h] of [[320, 568], [360, 740], [412, 915], [768, 1024], [1024, 768], [1366, 768], [1920, 1900], [2560, 1440]]) {
     const page = await newPage({ w, h });
     await page.goto(BASE);
     await ready(page);
@@ -236,6 +242,35 @@ function serve() {
     if (w >= 768) ok(`${w}x${h} NO-SCROLL`, m.vOver <= 2, `${m.vOver}px`);
     ok(`${w}x${h} tap targets ≥44`, m.tiny.length === 0, m.tiny.join('; '));
     ok(`${w}x${h} board clear of dock`, !m.overlap);
+    /* ⭐ THE ASSERTION THAT WOULD HAVE CAUGHT IT. The board took its WIDTH
+       from the viewport tier and its HEIGHT from a fixed px/vh, so the two
+       moved independently and the aspect ran from 1.10 to 3.14 — a plank,
+       not a cutting board. Everything derives from one driver now, so the
+       proportion is constant; this pins it. Measured in BOTH modes,
+       because share is where it went worst. */
+    for (const mode of ['cut', 'share']) {
+      const a = await page.evaluate((mode) => {
+        const T = FractionKitchen;
+        if (mode === 'share') {
+          T.n = 2; T.committed = [0]; T.sliced = true;
+          T.mode = 'share'; T.friends = 2; T.placed = []; T.plateOf = [];
+        } else { T.mode = 'cut'; T._resetCut(true); }
+        T.render();
+        const b = document.querySelector('.frk-board').getBoundingClientRect();
+        const f = document.querySelector('.frk-foodbox').getBoundingClientRect();
+        const card = document.querySelector('.lcs-app').getBoundingClientRect();
+        let out = 0;
+        document.querySelectorAll('.frk-wrap *').forEach((e) => {
+          const r = e.getBoundingClientRect();
+          if (!r.width || !r.height || e.ownerSVGElement) return;
+          if (r.right > card.right + 0.5 || r.left < card.left - 0.5 || r.bottom > card.bottom + 0.5) out++;
+        });
+        return { ar: b.width / b.height, fill: f.width / b.width, escaping: out };
+      }, mode);
+      ok(`${w}x${h} ${mode}: the board keeps its proportion`, a.ar > 1.15 && a.ar < 1.45, `aspect ${a.ar.toFixed(2)}`);
+      ok(`${w}x${h} ${mode}: the food fills the board sensibly`, a.fill > 0.45 && a.fill < 0.80, `${(a.fill * 100).toFixed(0)}%`);
+      ok(`${w}x${h} ${mode}: nothing escapes the card`, a.escaping === 0, `${a.escaping} element(s)`);
+    }
     await page.screenshot({ path: path.join(QA, `A-${w}x${h}.png`) });
     ok(`${w}x${h} no js errors`, page._errs.length === 0, page._errs[0]);
     await page.close();

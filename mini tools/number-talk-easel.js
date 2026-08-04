@@ -60,7 +60,7 @@ var NumberTalkEasel = {
     reprDice: {en:'Dice',de:'Würfelbild',fr:'Constellations',it:'Dado',es:'Dados',pt:'Dados',nl:'Dobbelsteen',sv:'Tärningsbild',da:'Terning',no:'Terning',fi:'Noppa'},
     reprCircular: {en:'Circle',de:'Kreisbild',fr:'En cercle',it:'Cerchio',es:'Círculo',pt:'Círculo',nl:'Cirkel',sv:'Cirkel',da:'Cirkel',no:'Sirkel',fi:'Ympyrä'},
     reprTenframe: {en:'Ten frame',de:'Zehnerfeld',fr:'Boîte de dix',it:'Tabella del dieci',es:'Marco de diez',pt:'Quadro de dez',nl:'Tienraam',sv:'Tioram',da:'Tierramme',no:'Tierramme',fi:'Kymmenruudukko'},
-    reprDouble: {en:'Double frame',de:'Zwanzigerfeld',fr:'Double boîte',it:'Doppia tabella',es:'Marco doble',pt:'Quadro duplo',nl:'Dubbel tienraam',sv:'Dubbel tioram',da:'Dobbelt tierramme',no:'Dobbel tierramme',fi:'Kaksoiskymmenruudukko'},
+    reprDouble: {en:'Double frame',de:'Doppeltes Zehnerfeld',fr:'Double boîte',it:'Doppia tabella',es:'Marco doble',pt:'Quadro duplo',nl:'Dubbel tienraam',sv:'Dubbel tioram',da:'Dobbelt tierramme',no:'Dobbel tierramme',fi:'Kaksoiskymmenruudukko'},
     reprRekenrek: {en:'Bead rack',de:'Rechenrahmen',fr:'Boulier',it:'Abaco',es:'Ábaco',pt:'Ábaco',nl:'Rekenrek',sv:'Kulram',da:'Kugleramme',no:'Kuleramme',fi:'Helmitaulu'},
     reprObjects: {en:'Pictures',de:'Bilder',fr:'Images',it:'Oggetti',es:'Objetos',pt:'Figuras',nl:'Plaatjes',sv:'Bilder',da:'Billeder',no:'Bilder',fi:'Kuvat'},
     range15:      {en:'1–5',de:'1–5',fr:'1–5',it:'1–5',es:'1–5',pt:'1–5',nl:'1–5',sv:'1–5',da:'1–5',no:'1–5',fi:'1–5'},

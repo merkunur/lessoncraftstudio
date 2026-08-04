@@ -62,6 +62,9 @@ const TOOLS = [
   /* the three found printing the whole web page, now with sheets */
   { key: 'arrow-strip', p: 'arw', apparatus: '.arw-mat' },
   { key: 'lids', p: 'lid', apparatus: '.lid-table' },
+  /* prints a DEDICATED sheet (the build-plan pattern), so the
+     apparatus that reaches paper is .pvl-sheet, not the on-screen mat */
+  { key: 'place-value-lab', p: 'pvl', apparatus: '.pvl-sheet', chrome: '.pvl-dock' },
   /* ⚠ draw-bag is DELIBERATELY NOT PROBED HERE, and saying so is the point.
      Its sheet is the RECORD, and a record does not exist until a class has
      filled the bag, committed a prediction on the shelves and opened it —
@@ -299,10 +302,15 @@ const is = (c, m) => { if (c) { PASS++; console.log('  ok   ' + m); } else { FAI
 
     await page.emulateMediaType('screen');
     await new Promise((r) => setTimeout(r, 150));
-    const back = await page.evaluate((p) => {
-      const e = document.querySelector('.' + p + '-foot');
+    /* ⚠ the chrome selector comes from the ROSTER, defaulting to the
+       <prefix>-foot convention the first eight tools happen to share.
+       Hardcoding it made this check unable to pass for any tool whose
+       dock is called something else — place-value-lab's is .pvl-dock —
+       which reads as a print defect and is a gate defect. */
+    const back = await page.evaluate((sel) => {
+      const e = document.querySelector(sel);
       return !!e && getComputedStyle(e).display !== 'none';
-    }, t.p);
+    }, t.chrome || ('.' + t.p + '-foot'));
     is(back, 'and the chrome returns on screen — the print rules are scoped to print');
 
     await page.close();

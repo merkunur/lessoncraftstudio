@@ -36,7 +36,12 @@ const MIME = { '.js': 'text/javascript', '.css': 'text/css', '.json': 'applicati
    drive, with the reason. The list may only SHRINK. */
 const EXEMPT = {
   title: 'consumed by the shell header, not by the tool',
-  instruction: 'consumed by the shell header, not by the tool',
+  /* ⚠ RESTORED after I removed it on ONE observation. The shell reads
+     this during mount, and the recorder installs on a poll, so whether
+     it is caught is a RACE — one green run is not evidence that an
+     exemption is unnecessary. Shrink the ratchet on a reason, never on
+     a single sighting. */
+  instruction: 'consumed by the shell header at mount, before the tool renders',
   unlock: 'rendered only inside the inline paywall line, which needs a signed-out fetch',
   gateSub: 'paywall copy — reachable only with premium false AND a click on the locked chip',
   gateSaves: 'paywall copy — same path as gateSub',
@@ -197,7 +202,12 @@ function serve() {
   for (const k of dead) FAIL(`"${k}" is authored in 11 locales and never asked for`);
   /* the ratchet: an exemption that turns out to be reachable must be
      removed, or the list rots into a place defects hide */
-  for (const k of exemptButAsked) console.log(`  · exemption no longer needed: "${k}" was reached — remove it`);
+  /* ⚠ ADVISORY, NOT AN INSTRUCTION. Some keys are read by the shell at
+     mount, which races the recorder's install, so a key can appear here
+     on one run and fail on the next. Remove an exemption only when the
+     REASON stops being true, never on a single green sighting — I did
+     exactly that with `instruction` and broke the gate one run later. */
+  for (const k of exemptButAsked) console.log(`  · exemption possibly stale: "${k}" was reached this run — re-read its reason before removing`);
   if (!dead.length) console.log('  ✓ every authored key is reached by a real state');
 
   console.log(`${fails ? 'FAIL' : 'PASS'}  strings  (${fails} failures)`);

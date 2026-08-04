@@ -71,7 +71,7 @@ function serve() {
       T.premium = true; T.band = 2; T.mode = 'change';
       T.price = 45; T.chg = { tender: 100 }; T.tray = [25, 25, 5];
       T.phase = 'changeDone';
-      T.render(); T._buildSheet();
+      T.render();
     });
     await new Promise((r) => setTimeout(r, 250));
 
@@ -84,7 +84,7 @@ function serve() {
        under print media, with no chip involved. */
     const leak = await page.evaluate(async () => {
       const T = MoneyMat;
-      T.premium = false; T.render(); T._buildSheet();
+      T.premium = false; T.render();
       return null;
     });
     await page.emulateMediaType('print');
@@ -96,7 +96,7 @@ function serve() {
     ok('⭐ a FREE user pressing Ctrl+P gets no paid sheet',
       freePrint.display === 'none' && freePrint.h === 0, JSON.stringify(freePrint));
     await page.emulateMediaType('screen');
-    await page.evaluate(() => { MoneyMat.premium = true; MoneyMat.render(); MoneyMat._buildSheet(); });
+    await page.evaluate(() => { MoneyMat.premium = true; MoneyMat.render(); });
     await new Promise((r) => setTimeout(r, 200));
 
     await page.emulateMediaType('print');

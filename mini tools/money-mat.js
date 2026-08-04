@@ -868,6 +868,10 @@ var MoneyMat = {
        reveals it, so nothing here can leak into the stage */
     this._sheetEl = api.el('div', 'mm-sheet');
     wrap.appendChild(this._sheetEl);
+    /* ⚠ BUILD IT. It was created and never populated, so Ctrl+P printed a
+       blank page — and the probe passed because the PROBE called _buildSheet
+       itself. A gate you help past is not a gate. */
+    this._buildSheet();
   },
 
   /* ⭐ THE KEEPER — a half-figure the counter genuinely occludes.

@@ -647,6 +647,67 @@ for (const food of Object.keys(T.FREE_TASKS)) {
   });
 }
 
+/* =====================================================================
+   §9 — NO FIXED PRONOUN AGAINST A VARIABLE-GENDER SLOT.
+   `{big}` is filled from `_bigName`, which returns one of FOUR different
+   nouns across the six EQUIV tasks. In five locales those four do NOT
+   share a gender, so a hard-coded object pronoun is wrong for some of
+   them — and no reviewer looking at one string can see it, because the
+   noun that will arrive is data, not text. Measured before it was gated:
+
+     fr  une moitié | un tiers  | un quart     | un entier      VARIES
+     es  una mitad  | un tercio | un cuarto    | un entero      VARIES
+     it  una metà   | un terzo  | un quarto    | un intero      VARIES
+     de  eine Hälfte| ein Drittel| ein Viertel | ein Ganzes     VARIES
+     nl  een helft (de) | een derde (het) | …                   VARIES
+     sv/da/no  en halva | en tredjedel | en fjärdedel | en hel  UNIFORM
+     pt/fi     carry no pronoun at all
+
+   ⚠ SCOPE IS THE FIVE, NOT ALL ELEVEN. Swedish, Danish and Norwegian ship
+   `den` and are CORRECT — every value is common gender, so the pronoun can
+   never disagree. Banning it there would fail correct strings, which is the
+   ban-too-wide trap this house keeps paying for. Finnish `sen` is likewise
+   fine: Finnish has no grammatical gender.
+   ⚠ AND \b IS ASCII-ONLY, so the boundary is written with lookarounds.
+   ===================================================================== */
+/* ⚠⚠ THE FIRST VERSION OF THIS GATE BANNED THE PRONOUN TOKENS, AND IT
+   CONDEMNED THE NATIVE FIXES ON ITS FIRST RUN. French `remplissent LE
+   plateau` and Italian `tutto LO spazio` are definite ARTICLES; the
+   defect was the same token as a proclitic PRONOUN. A regex cannot tell
+   those apart, so loosening the pattern would only have moved the hole.
+   What is measured changes instead: the five affected strings are FROZEN
+   against the forms their native panels approved. Any future edit to
+   them fails here and has to go back to a panel — which is the real
+   requirement, because whether a pronoun agrees is a fact about the
+   language, not about the characters. */
+{
+  const APPROVED = {
+    fr: '{a} {small} remplissent le plateau exactement. {a} {small} font {big}.',
+    es: '{a} {small} caben exactamente. {a} {small} hacen {big}.',
+    it: '{a} {small} riempiono tutto lo spazio, senza avanzi. {a} {small} fanno {big}.',
+    de: '{a} {small} füllen das Tablett genau aus. {a} {small} sind genauso viel wie {big}.',
+    nl: '{a} {small} vullen de bakplaat precies. {a} {small} zijn samen {big}.'
+  };
+  /* the exact forms that SHIPPED BROKEN, so the gate names the regression
+     rather than merely reporting a difference */
+  const BROKEN = {
+    fr: 'le remplissent', es: 'la llenan', it: 'lo riempiono',
+    de: 'füllen es genau', nl: 'vullen het precies'
+  };
+  let looked = 0;
+  Object.keys(APPROVED).forEach((loc) => {
+    const v = S.equivDone && S.equivDone[loc];
+    if (!v) { errors.push(`§9 ${loc}.equivDone is missing`); return; }
+    looked++;
+    if (v.indexOf(BROKEN[loc]) >= 0) {
+      errors.push(`§9 ${loc}.equivDone is back to the shipped defect "${BROKEN[loc]}" — a fixed pronoun against {big}, whose gender VARIES across the six EQUIV tasks`);
+    } else if (v !== APPROVED[loc]) {
+      errors.push(`§9 ${loc}.equivDone has changed from the form its native panel approved. Gender agreement against {big} is not machine-checkable, so this needs a native review, not an edit: "${v}"`);
+    }
+  });
+  if (looked !== 5) errors.push(`§9 inspected ${looked} strings, expected 5 — the scan is broken, not the tool`);
+}
+
 if (errors.length) {
   console.log(`FAIL — ${errors.length} error(s):`);
   errors.slice(0, 40).forEach((e) => console.log('  ✗ ' + e));
@@ -660,3 +721,4 @@ console.log(`  ✓ FRAC tables ${DENS.length}×3×${LOCALES.length} complete + d
 console.log(`  ✓ ${Object.keys(S).length} strings complete; verdict + notation bans hold`);
 console.log('  ✓ 6 equivalence tasks cross-multiply exactly; 8 stories well-formed (2 discussion)');
 console.log('  ✓ every t()/fmt() key the tool asks for exists (no raw-key leak)');
+console.log('  ✓ no fixed pronoun stands against the variable-gender {big} slot');

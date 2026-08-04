@@ -47,7 +47,7 @@ var FractionKitchen = {
     shareEmpty:     {en:'{p} pieces, {f} friends — someone’s plate is empty!',de:'{p} Stücke, {f} Freunde — ein Teller ist leer!',fr:'{p} parts, {f} amis — une assiette est vide !',it:'{p} parti, {f} amici — un piatto resta vuoto!',es:'{p} partes, {f} amigos — ¡un plato quedó vacío!',pt:'{p} pedaços, {f} amigos — um prato ficou vazio!',nl:'{p} stukken, {f} vrienden — één bord is leeg!',sv:'{p} bitar, {f} vänner — någons tallrik är tom!',da:'{p} stykker, {f} venner — én tallerken er tom!',no:'{p} biter, {f} venner — noen har tom tallerken!',fi:'{p} palaa, {f} ystävää — jonkun lautanen on tyhjä!'},
     pieceName:      {en:'{fs}',de:'{fs}',fr:'{fs}',it:'{fs}',es:'{fs}',pt:'{fs}',nl:'{fs}',sv:'{fs}',da:'{fs}',no:'{fs}',fi:'{fs}'},
     equivPrompt:    {en:'Can {a} {small} fill {big}?',de:'Können {a} {small} {big} genau ausfüllen?',fr:'Est-ce que {a} {small} remplissent {big} ?',it:'{a} {small} possono riempire {big}?',es:'¿Pueden {a} {small} llenar {big}?',pt:'Será que {a} {small} enchem {big}?',nl:'Kunnen {a} {small} samen {big} vullen?',sv:'Kan {a} {small} fylla {big}?',da:'Kan {a} {small} fylde {big}?',no:'Kan {a} {small} fylle {big}?',fi:'Voiko {a} {small} täyttää saman tilan kuin {big}?'},
-    equivDone:      {en:'{a} {small} fill it exactly. {a} {small} make {big}.',de:'{a} {small} füllen es genau aus. {a} {small} sind genauso viel wie {big}.',fr:'{a} {small} le remplissent exactement. {a} {small} font {big}.',it:'{a} {small} lo riempiono esattamente. {a} {small} fanno {big}.',es:'{a} {small} la llenan exactamente. {a} {small} hacen {big}.',pt:'{a} {small} enchem certinho. {a} {small} formam {big}.',nl:'{a} {small} vullen het precies. {a} {small} zijn samen {big}.',sv:'{a} {small} fyller den exakt. {a} {small} blir {big}.',da:'{a} {small} fylder den helt præcist. {a} {small} giver {big}.',no:'{a} {small} fyller den helt nøyaktig. {a} {small} blir {big}.',fi:'{a} {small} täyttää sen tarkalleen. {a} {small} on yhtä paljon kuin {big}.'},
+    equivDone:      {en:'{a} {small} fill it exactly. {a} {small} make {big}.',de:'{a} {small} füllen das Tablett genau aus. {a} {small} sind genauso viel wie {big}.',fr:'{a} {small} remplissent le plateau exactement. {a} {small} font {big}.',it:'{a} {small} riempiono tutto lo spazio, senza avanzi. {a} {small} fanno {big}.',es:'{a} {small} caben exactamente. {a} {small} hacen {big}.',pt:'{a} {small} enchem certinho. {a} {small} formam {big}.',nl:'{a} {small} vullen de bakplaat precies. {a} {small} zijn samen {big}.',sv:'{a} {small} fyller den exakt. {a} {small} blir {big}.',da:'{a} {small} fylder den helt præcist. {a} {small} giver {big}.',no:'{a} {small} fyller den helt nøyaktig. {a} {small} blir {big}.',fi:'{a} {small} täyttää sen tarkalleen. {a} {small} on yhtä paljon kuin {big}.'},
     pieceCount:     {en:'{a} {small}',de:'{a} {small}',fr:'{a} {small}',it:'{a} {small}',es:'{a} {small}',pt:'{a} {small}',nl:'{a} {small}',sv:'{a} {small}',da:'{a} {small}',no:'{a} {small}',fi:'{a} {small}'},
     wholeDone:      {en:'{a} {small} make {big}.',de:'{a} {small} sind genauso viel wie {big}.',fr:'{a} {small} font {big}.',it:'{a} {small} fanno {big}.',es:'{a} {small} hacen {big}.',pt:'{a} {small} formam {big}.',nl:'{a} {small} zijn samen {big}.',sv:'{a} {small} blir {big}.',da:'{a} {small} giver {big}.',no:'{a} {small} blir {big}.',fi:'{a} {small} on yhtä paljon kuin {big}.'},
     foodPizza:      {en:'the pizza',de:'die Pizza',fr:'la pizza',it:'la pizza',es:'la pizza',pt:'a pizza',nl:'de pizza',sv:'pizzan',da:'pizzaen',no:'pizzaen',fi:'pizza'},
@@ -406,8 +406,18 @@ var FractionKitchen = {
        reader could find, and one did. The `[.!?]` condition is dropped
        too: `pieceName` is a bare `{fs}` with no terminal punctuation and
        was the one ribbon line never capitalised. */
+    /* ⚠ AND NOT WHEN A DIGIT REACHES THE FRONT. `equivDone` opens on {a},
+       which resolves to a NUMBER, so "first letter" was the fraction word
+       three characters in: every locale spoke and showed "2 Fourths fill
+       it exactly" / "2 Kwarten vullen…". The sentence already begins — with
+       the numeral — so there is nothing to capitalise. Same hole as the
+       Spanish '¡{fp}!' case one layer deeper: the guard asked what the
+       TEMPLATE starts with and then acted on the RENDERED string. */
     if (/^[^\p{L}]*\{/u.test(this.api.t(key))) {
-      s = s.replace(/\p{L}/u, function (c) { return c.toUpperCase(); });
+      var _i = s.search(/\p{L}/u);
+      if (_i >= 0 && !/\d/.test(s.slice(0, _i))) {
+        s = s.slice(0, _i) + s.charAt(_i).toUpperCase() + s.slice(_i + 1);
+      }
     }
     return s;
   },

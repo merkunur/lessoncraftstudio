@@ -571,6 +571,55 @@ function checkPacking(tool, data) {
   const dlFree = tool.resolveDeepLink({ set: setId, count: String(big) }, false);
   if (dlFree && dlFree.count > tool.freeMax()) err('P12 a free visitor was handed a premium-size count');
 
+  /* --- P14 ⚠ THE SAVED RITUAL MUST NOT BE ABLE TO CARRY A TREND.
+     "We're getting closer week by week" is an accuracy gradient in slow
+     motion, and it is the single most likely thing to be added to this
+     feature next. The record is therefore checked for what it CANNOT
+     hold — no accuracy, no distance, no rank, no name, no order — and
+     the check enumerates the keys rather than trusting the shape. */
+  const rec = tool.makeRecord('2026-08-05', setId, caps[0], 12, [5, 12, 12, 20]);
+  const allowed = ['d', 'set', 'cap', 'n', 'cols'];
+  for (const k in rec) {
+    if (allowed.indexOf(k) === -1) err(`P14 the weekly record carries an unexpected field "${k}"`);
+  }
+  for (const k of allowed) if (!(k in rec)) err(`P14 the weekly record is missing "${k}"`);
+  if (JSON.stringify(rec).match(/accura|score|rank|closest|near|diff|delta|trend|name|child/i))
+    err('P14 the weekly record serialises a banned concept: ' + JSON.stringify(rec).slice(0, 120));
+  /* the cloud SHAPE is kept (that is the referent), the individual
+     guesses are NOT — a stored guess list is a stored order */
+  if (!Array.isArray(rec.cols) || !rec.cols.length) err('P14 the record kept no shape at all');
+  if (rec.cols.some(c => !Array.isArray(c) || c.length !== 2)) err('P14 a column is not a [value,count] pair');
+  const kept = rec.cols.reduce((a, c) => a + c[1], 0);
+  if (kept !== 4) err(`P14 the record kept ${kept} of 4 guesses in its shape`);
+  if (JSON.stringify(rec.cols) !== JSON.stringify(rec.cols.slice().sort((a, b) => a[0] - b[0])))
+    err('P14 the columns are not in value order — arrival order must not survive');
+  if (tool.HISTORY_MAX > 20) err(`P14 the history keeps ${tool.HISTORY_MAX} weeks — a long enough series IS a trend`);
+
+  /* --- P15 ⚠ A RANGE'S WIDTH IS A DISTANCE, and range mode is the one
+     feature in this tool that could smuggle one in. The only question a
+     range may be asked is whether it HELD the answer — a sign. There
+     must be no width, no margin, no "narrowest that still caught it",
+     which is a winner wearing a lab coat. */
+  const rs = [{ lo: 5, hi: 40 }, { lo: 11, hi: 13 }, { lo: 30, hi: 60 }];
+  if (!tool.rangeHolds({ lo: 5, hi: 40 }, 12)) err('P15 a range that contains the answer did not hold it');
+  if (!tool.rangeHolds({ lo: 12, hi: 12 }, 12)) err('P15 a degenerate range on the answer did not hold it');
+  if (tool.rangeHolds({ lo: 30, hi: 60 }, 12)) err('P15 a range that misses the answer held it');
+  if (!tool.rangeHolds({ lo: 40, hi: 5 }, 12)) err('P15 a reversed range was not normalised');
+  const rt = tool.rangeTally(rs, 12);
+  if (rt.held !== 2 || rt.total !== 3) err(`P15 rangeTally = ${JSON.stringify(rt)}, expected {held:2,total:3}`);
+  for (const k in rt) {
+    if (['held', 'total'].indexOf(k) === -1) err(`P15 rangeTally leaks "${k}" — only a count of a sign class may exist`);
+    if (typeof rt[k] !== 'number') err('P15 rangeTally returned a non-number');
+  }
+  /* the tally must be blind to WIDTH: two sets that hold the answer the
+     same number of times must be indistinguishable, however wide */
+  const tight = tool.rangeTally([{ lo: 11, hi: 13 }], 12);
+  const loose = tool.rangeTally([{ lo: 0, hi: 200 }], 12);
+  if (JSON.stringify(tight) !== JSON.stringify(loose))
+    err('P15 a tight range and a loose one tally differently — that is a width, i.e. a distance');
+  if (typeof tool.rangeWidth === 'function' || typeof tool.narrowest === 'function')
+    err('P15 the tool exposes a range-width/narrowest function — NO ACCURACY GRADIENT');
+
   /* --- P13 the display bins, the data does not */
   for (const [max, want] of [[30, 1], [60, 2], [200, 10]]) {
     if (tool.binWidthFor(max) !== want) err(`P13 binWidthFor(${max}) = ${tool.binWidthFor(max)}, expected ${want}`);

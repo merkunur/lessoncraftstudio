@@ -157,6 +157,36 @@ const M = [
     'if (c !== null && c > tierMax) c = tierMax;',
     'if (false) c = tierMax;'],
 
+  /* ---- the saved weekly ritual ---- */
+  ['⭐⭐ P14 the weekly record starts carrying an accuracy, which is a trend',
+    'return { d: stamp, set: setId, cap: capacity, n: count, cols: cols };',
+    'return { d: stamp, set: setId, cap: capacity, n: count, cols: cols, accuracy: cols.length };'],
+
+  ['⭐ P14b the record keeps the raw guesses, so arrival order survives',
+    'cols.sort(function (a, b) { return a[0] - b[0]; });',
+    'cols = (guesses || []).map(function (g, i) { return [g, i]; });'],
+
+  ['⭐ P14c the history grows long enough to BE a series',
+    'HISTORY_MAX: 12,',
+    'HISTORY_MAX: 52,'],
+
+  /* ---- range mode: the width is the risk ---- */
+  ['⭐⭐ P15 the range tally starts rewarding a NARROW range (a distance)',
+    'for (i = 0; i < (ranges || []).length; i++) if (this.rangeHolds(ranges[i], actual)) held++;',
+    'for (i = 0; i < (ranges || []).length; i++) if (this.rangeHolds(ranges[i], actual) && (ranges[i].hi - ranges[i].lo) < 20) held++;'],
+
+  ['⭐ P15b a range-width function appears on the tool',
+    '  rangeHolds: function (r, actual) {',
+    '  rangeWidth: function (r) { return r.hi - r.lo; },\n  rangeHolds: function (r, actual) {'],
+
+  ['⭐ P15c a reversed range stops being normalised',
+    'return actual >= Math.min(r.lo, r.hi) && actual <= Math.max(r.lo, r.hi);',
+    'return actual >= r.lo && actual <= r.hi;'],
+
+  ['⭐ P15d the tally leaks a width alongside the count',
+    'return { held: held, total: (ranges || []).length };',
+    'return { held: held, total: (ranges || []).length, avgWidth: 1 };'],
+
   /* ---- the display bin ---- */
   ['⭐ P13 the plot stops binning, so a 200-jar draws 201 columns',
     'if (max <= 30) return 1;',

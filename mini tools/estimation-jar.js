@@ -95,6 +95,11 @@ var EstimationJar = {
        tools' "Lehrer-Paket"). That is a catalog decision with an
        eleven-locale grammar tail, not one to take unilaterally inside
        one tool. Surfaced, not quietly changed. */
+    setRange:     {en:'Give a range, not a number',de:'Einen Bereich angeben statt einer Zahl',fr:'Donner une fourchette, pas un nombre',it:'Dai un intervallo, non un numero',es:'Dar un intervalo, no un número',pt:'Dar um intervalo, não um número',nl:'Een bereik geven, geen getal',sv:'Ge ett intervall, inte ett tal',da:'Giv et interval, ikke et tal',no:'Gi et intervall, ikke et tall',fi:'Anna väli, älä lukua'},
+    rangeHint:    {en:'Tap a number that is too small, then one that is too big.',de:'Tippt eine Zahl an, die zu klein ist, und dann eine, die zu groß ist.',fr:'Touchez un nombre trop petit, puis un nombre trop grand.',it:'Toccate un numero troppo piccolo, poi uno troppo grande.',es:'Toquen un número que sea muy pequeño y luego uno que sea muy grande.',pt:'Toquem num número pequeno demais e depois num grande demais.',nl:'Tik op een getal dat te klein is en daarna op een dat te groot is.',sv:'Tryck på ett tal som är för litet och sedan ett som är för stort.',da:'Tryk på et tal, der er for lille, og så et, der er for stort.',no:'Trykk på et tall som er for lite, og så ett som er for stort.',fi:'Napauttakaa lukua, joka on liian pieni, ja sitten lukua, joka on liian suuri.'},
+    clueTen:      {en:'Show us ten',de:'Zeig uns zehn',fr:'Montre-nous dix',it:'Mostraci dieci',es:'Muéstranos diez',pt:'Mostre-nos dez',nl:'Laat ons tien zien',sv:'Visa oss tio',da:'Vis os ti',no:'Vis oss ti',fi:'Näytä meille kymmenen'},
+    histTitle:    {en:'Jars we have met',de:'Unsere bisherigen Gläser',fr:'Les bocaux déjà vus',it:'I barattoli che abbiamo visto',es:'Los frascos que ya conocemos',pt:'Os vidros que já vimos',nl:'Potten die we al kennen',sv:'Burkar vi har mött',da:'Glas vi har mødt',no:'Glass vi har møtt',fi:'Purkit, jotka olemme nähneet'},
+    histAria:     {en:'A jar of {n}, from {d}. Tap to fill this one again.',de:'Ein Glas mit {n}, vom {d}. Zum erneuten Füllen antippen.',fr:'Un bocal de {n}, du {d}. Touchez pour le remplir à nouveau.',it:'Un barattolo da {n}, del {d}. Tocca per riempirlo di nuovo.',es:'Un frasco de {n}, del {d}. Toca para llenarlo otra vez.',pt:'Um vidro de {n}, de {d}. Toque para enchê-lo de novo.',nl:'Een pot van {n}, van {d}. Tik om deze opnieuw te vullen.',sv:'En burk med {n}, från {d}. Tryck för att fylla den igen.',da:'Et glas med {n}, fra {d}. Tryk for at fylde det igen.',no:'Et glass med {n}, fra {d}. Trykk for å fylle det igjen.',fi:'Purkki, jossa oli {n}, päivältä {d}. Napauta täyttääksesi sen uudelleen.'},
     printChip:    {en:'Print the record',de:'Protokoll drucken',fr:'Imprimer le relevé',it:'Stampa il resoconto',es:'Imprimir el registro',pt:'Imprimir o registo',nl:'Het verslag afdrukken',sv:'Skriv ut resultatet',da:'Udskriv opgørelsen',no:'Skriv ut oversikten',fi:'Tulosta kooste'},
     gatePrint:    {en:'The printable record is part of Premium — the jar and the counting are always free.',de:'Das Protokoll zum Ausdrucken gehört zu Premium – das Glas und das Abzählen bleiben immer kostenlos.',fr:'Le relevé imprimable fait partie de Premium : le bocal et le comptage restent gratuits.',it:'Il resoconto da stampare fa parte di Premium: il barattolo e il conteggio restano gratuiti.',es:'El registro imprimible es parte de Premium: el frasco y el conteo siempre son gratis.',pt:'O registo para imprimir é do Premium — o vidro e a contagem são sempre grátis.',nl:'Het afdrukbare verslag hoort bij Premium — de pot en het tellen blijven altijd gratis.',sv:'Det utskrivbara resultatet ingår i Premium – burken och räknandet är alltid gratis.',da:'Den udskrivbare opgørelse hører til Premium — glasset og optællingen er altid gratis.',no:'Den utskrivbare oversikten hører til Premium – glasset og opptellingen er alltid gratis.',fi:'Tulostettava kooste kuuluu Premiumiin – purkki ja laskeminen ovat aina ilmaisia.'},
     p1Head:       {en:'Our jar this week',de:'Unser Glas diese Woche',fr:'Notre bocal cette semaine',it:'Il nostro barattolo questa settimana',es:'Nuestro frasco de esta semana',pt:'O nosso vidro desta semana',nl:'Onze pot deze week',sv:'Vår burk den här veckan',da:'Vores glas i denne uge',no:'Glasset vårt denne uka',fi:'Tämän viikon purkkimme'},
@@ -142,10 +147,11 @@ var EstimationJar = {
      ship with. It is never gated — the referent is the mathematics, not
      the depth. `ones` defaults OFF, where the count-by-ones threshold
      (20) applies; a K teacher with a jar of 28 turns it on. */
-  defaults: { voice: true, season: true, bench: true, ones: false },
+  defaults: { voice: true, season: true, bench: true, ones: false, range: false },
   settings: [
     { key: 'bench', type: 'toggle', labelKey: 'setBench' },
     { key: 'ones', type: 'toggle', labelKey: 'setOnes' },
+    { key: 'range', type: 'toggle', labelKey: 'setRange' },
     { key: 'voice', type: 'toggle', labelKey: 'setVoice' },
     { key: 'season', type: 'toggle', labelKey: 'setSeason' }
   ],
@@ -649,6 +655,8 @@ var EstimationJar = {
     this.count = 23;          /* never rendered before the reveal */
     this.guesses = [];        /* anonymous values only — no names, no order meaning */
     this.pending = null;
+    this.pendLo = null;
+    this.pendHi = null;
     this.premiumKnown = false;
     this._deepPending = this._readParams();
     this._timers = [];
@@ -686,7 +694,7 @@ var EstimationJar = {
   },
   _saveStore: function () {
     var s = this._store || {};
-    s.v = 1; s.lastSet = this.setId;
+    s.v = 2; s.lastSet = this.setId; s.lastCap = this.capacityId;
     try { localStorage.setItem(this.STORE_KEY, JSON.stringify(s)); } catch (_) {}
   },
 
@@ -747,6 +755,7 @@ var EstimationJar = {
       var open = this.setsFor();
       var last = this._store.lastSet;
       this.setId = (last && this.setById(last)) ? last : (open.length ? open[0].id : null);
+      if (this._store.lastCap && this.capacityById(this._store.lastCap)) this.capacityId = this._store.lastCap;
     }
     /* ⚠ LOCKING A CONTROL IS NOT ENOUGH — reset the state it produced.
        A subscriber who set a 200-jar and then lapsed must not still be
@@ -1162,13 +1171,60 @@ var EstimationJar = {
     this._qid = q;
     this.guesses = [];
     this.pending = null;
+    this.pendLo = null;
+    this.pendHi = null;
   },
   liveGuesses: function () {
-    var q = this.questionId(), out = [], i;
+    var q = this.questionId(), out = [], i, g;
     for (i = 0; i < this.guesses.length; i++) {
-      if (this.guesses[i] && this.guesses[i].q === q) out.push(this.guesses[i].v);
+      g = this.guesses[i];
+      if (g && g.q === q && typeof g.v === 'number') out.push(g.v);
     }
     return out;
+  },
+
+  /* =================================================================
+     RANGE MODE — "a number I know is too low, and one I know is too
+     high". It is the strongest move in this routine and it is OFF by
+     default, because it costs a second tap per child.
+
+     Why it is worth having: a range is ALWAYS answerable, so no child
+     is stuck; it makes the reasoning visible; and it removes the
+     lottery feeling structurally, because a range either contains the
+     truth or it does not — which is a SIGN, not a distance.
+
+     ⚠ THE DOCTRINE-A GUARD, and it is the whole risk of this feature:
+     A RANGE'S WIDTH IS A DISTANCE. It must never be displayed,
+     compared, ranked or sorted, and "the narrowest range that still
+     caught it" is a winner wearing a lab coat. Bars are drawn
+     identically, in a shuffled order, and nothing is ever measured
+     across them.
+     ================================================================= */
+  liveRanges: function () {
+    var q = this.questionId(), out = [], i, g;
+    for (i = 0; i < this.guesses.length; i++) {
+      g = this.guesses[i];
+      if (g && g.q === q && typeof g.lo === 'number' && typeof g.hi === 'number') {
+        out.push({ lo: Math.min(g.lo, g.hi), hi: Math.max(g.lo, g.hi) });
+      }
+    }
+    return out;
+  },
+
+  /* The only thing a range is ever asked: did it hold the answer?
+     A SIGN, exactly as compare() is — no width, no margin, no rank. */
+  rangeHolds: function (r, actual) {
+    if (!r || typeof r.lo !== 'number' || typeof r.hi !== 'number') return false;
+    return actual >= Math.min(r.lo, r.hi) && actual <= Math.max(r.lo, r.hi);
+  },
+
+  /* How many of us caught it — a count of a sign class, like spread().
+     ⚠ Deliberately returns only `held` and `total`: no width, no
+     average, nothing that could be differenced across children. */
+  rangeTally: function (ranges, actual) {
+    var held = 0, i;
+    for (i = 0; i < (ranges || []).length; i++) if (this.rangeHolds(ranges[i], actual)) held++;
+    return { held: held, total: (ranges || []).length };
   },
 
   /* Build the three-layer jar box. `n` is what actually goes in the
@@ -1472,6 +1528,11 @@ var EstimationJar = {
     var hint = api.el('p', 'ej-hint'); hint.textContent = api.t('secretHint');
     box.appendChild(hint);
 
+    /* the wall of past jars — before the class arrives, never while
+       they are choosing (see _buildHistory: anchoring) */
+    var hist = this._buildHistory();
+    if (hist) box.appendChild(hist);
+
     var go = api.el('button', 'ej-go'); go.type = 'button';
     go.textContent = api.t('stageGuess');
     go.addEventListener('click', function () { self.stage = 'guess'; self.pending = null; self._saveStore(); self.render(); });
@@ -1588,7 +1649,7 @@ var EstimationJar = {
     minus.setAttribute('aria-label', api.t('nudgeDown'));
     minus.addEventListener('click', function () { self._nudge(-1); });
     var pill = api.el('span', 'ej-pendpill');
-    pill.textContent = this.pending === null ? '–' : String(this.pending);
+    pill.textContent = this._pendText();
     var plus = api.el('button', 'ej-stepbtn'); plus.type = 'button'; plus.textContent = '+';
     plus.setAttribute('aria-label', api.t('nudgeUp'));
     plus.addEventListener('click', function () { self._nudge(1); });
@@ -1597,18 +1658,34 @@ var EstimationJar = {
 
     var add = api.el('button', 'ej-go'); add.type = 'button';
     add.textContent = api.t('addGuess');
-    add.disabled = this.pending === null;
+    add.disabled = !this._pendReady();
     add.addEventListener('click', function () { self._commit(); });
     box.appendChild(add);
 
-    if (this.liveGuesses().length) {
+    if (this.liveGuesses().length || this.liveRanges().length) {
       var undo = api.el('button', 'ej-linkbtn'); undo.type = 'button';
       undo.textContent = api.t('undoGuess');
       undo.addEventListener('click', function () { self.guesses.pop(); self.render(); });
       box.appendChild(undo);
     }
 
-    var note = api.el('p', 'ej-hint'); note.textContent = api.t('guessesIn');
+    /* THE ONE CLUE: pour out a ten. When the benchmark is switched off
+       the teacher can produce it mid-routine, which is Wyborney's move
+       — commit first, then get the unit, then think again. It needs no
+       new apparatus and, crucially, no authored language in eleven
+       locales: it just turns the dish on. */
+    if (!api.settings.bench) {
+      var clue = api.el('button', 'ej-chip'); clue.type = 'button';
+      clue.textContent = api.t('clueTen');
+      clue.addEventListener('click', function () {
+        api.settings.bench = true;
+        self.render();
+      });
+      box.appendChild(clue);
+    }
+
+    var note = api.el('p', 'ej-hint');
+    note.textContent = api.settings.range ? api.t('rangeHint') : api.t('guessesIn');
     box.appendChild(note);
 
     var priv = api.el('p', 'ej-privacy'); priv.textContent = api.t('privacyLine');
@@ -1616,19 +1693,51 @@ var EstimationJar = {
     return box;
   },
 
+  _pendText: function () {
+    if (this.api.settings.range) {
+      if (this.pendLo === null) return '–';
+      /* the two ends, never their difference — the width is a distance */
+      return this.pendHi === null ? (this.pendLo + ' –') : (Math.min(this.pendLo, this.pendHi) + ' – ' + Math.max(this.pendLo, this.pendHi));
+    }
+    return this.pending === null ? '–' : String(this.pending);
+  },
+  _pendReady: function () {
+    return this.api.settings.range
+      ? (this.pendLo !== null && this.pendHi !== null)
+      : (this.pending !== null);
+  },
+  _paintPend: function () {
+    if (!this._wrap) return;
+    var p = this._wrap.querySelector('.ej-pendpill');
+    if (p) p.textContent = this._pendText();
+    var add = this._wrap.querySelector('.ej-go');
+    if (add) add.disabled = !this._pendReady();
+  },
+
   _nudge: function (d) {
-    if (this.pending === null) return;
-    this.pending = Math.max(0, Math.min(this.ceiling(), this.pending + d));
-    var p = this._wrap && this._wrap.querySelector('.ej-pendpill');
-    if (p) p.textContent = String(this.pending);
+    var cap = this.ceiling();
+    if (this.api.settings.range) {
+      /* nudge whichever end is being set */
+      if (this.pendHi !== null) this.pendHi = Math.max(0, Math.min(cap, this.pendHi + d));
+      else if (this.pendLo !== null) this.pendLo = Math.max(0, Math.min(cap, this.pendLo + d));
+      else return;
+    } else {
+      if (this.pending === null) return;
+      this.pending = Math.max(0, Math.min(cap, this.pending + d));
+    }
+    this._paintPend();
     this._paintDots();
   },
 
   _commit: function () {
-    if (this.pending === null) return;
+    if (!this._pendReady()) return;
     /* a guess carries the question it answers — see questionId() */
-    this.guesses.push({ v: this.pending, q: this.questionId() });
-    this.pending = null;
+    if (this.api.settings.range) {
+      this.guesses.push({ lo: Math.min(this.pendLo, this.pendHi), hi: Math.max(this.pendLo, this.pendHi), q: this.questionId() });
+    } else {
+      this.guesses.push({ v: this.pending, q: this.questionId() });
+    }
+    this.pending = null; this.pendLo = null; this.pendHi = null;
     try { this.api.sound(660); } catch (_) {}
     this.render();
   },
@@ -1690,11 +1799,18 @@ var EstimationJar = {
       var w = r.width - padL - padR;
       if (w <= 0) return;
       var pct = Math.max(0, Math.min(1, (e.clientX - r.left - padL) / w));
-      self.pending = Math.round(pct * max);
-      var p = self._wrap.querySelector('.ej-pendpill');
-      if (p) p.textContent = String(self.pending);
-      var add = self._wrap.querySelector('.ej-go');
-      if (add) add.disabled = false;
+      var v = Math.round(pct * max);
+      if (self.api.settings.range) {
+        /* first tap sets the low end, second the high, a third starts
+           over — no drag, because a drag on a projector is a fight */
+        if (self.pendLo === null || self.pendHi !== null) { self.pendLo = v; self.pendHi = null; }
+        else self.pendHi = v;
+        self.pending = null;
+      } else {
+        self.pending = v;
+        self.pendLo = self.pendHi = null;
+      }
+      self._paintPend();
       self._paintDots();
     });
 
@@ -1752,6 +1868,30 @@ var EstimationJar = {
       }
     }
 
+    /* THE RANGE BARS. Drawn identically, in a SHUFFLED order, stacked
+       from the axis up like the dots. Nothing is measured across them:
+       no width, no sort, no highlight for the ones that caught it. The
+       overlap is the interesting object — where the bars pile up is a
+       genuine class consensus, and it is read by eye, not computed. */
+    var ranges = this.liveRanges();
+    if (ranges.length) {
+      var ord = ranges.slice();
+      for (i = ord.length - 1; i > 0; i--) {
+        var j2 = Math.floor(Math.random() * (i + 1));
+        var tmp2 = ord[i]; ord[i] = ord[j2]; ord[j2] = tmp2;
+      }
+      var bh = 9, gap = 2;
+      for (i = 0; i < ord.length; i++) {
+        var bar = api.el('span', 'ej-range');
+        var lo = Math.max(0, Math.min(max, ord[i].lo));
+        var hi = Math.max(0, Math.min(max, ord[i].hi));
+        bar.style.left = ((lo / max) * 100) + '%';
+        bar.style.width = (((hi - lo) / max) * 100) + '%';
+        bar.style.top = (AXIS - bh - (i % 8) * (bh + gap)) + 'px';
+        el.appendChild(bar);
+      }
+    }
+
     /* ⚠ THE PENDING MARKER IS A CARET ON THE AXIS, NOT A DOT IN THE
        STACK. A bobbing dot sitting in the plot broadcast the current
        child's choice to the whole room in real time, which is precisely
@@ -1762,6 +1902,21 @@ var EstimationJar = {
       d = api.el('span', 'ej-dot ej-pending');
       d.style.left = ((this.pending / max) * 100) + '%';
       el.appendChild(d);
+    }
+    if (this.stage === 'guess' && this.pendLo !== null) {
+      var pl = api.el('span', 'ej-dot ej-pending');
+      pl.style.left = ((this.pendLo / max) * 100) + '%';
+      el.appendChild(pl);
+      if (this.pendHi !== null) {
+        var ph = api.el('span', 'ej-dot ej-pending');
+        ph.style.left = ((this.pendHi / max) * 100) + '%';
+        el.appendChild(ph);
+        var pb = api.el('span', 'ej-range ej-rangepend');
+        pb.style.left = ((Math.min(this.pendLo, this.pendHi) / max) * 100) + '%';
+        pb.style.width = ((Math.abs(this.pendHi - this.pendLo) / max) * 100) + '%';
+        pb.style.top = (AXIS - 9) + 'px';
+        el.appendChild(pb);
+      }
     }
 
     /* ⚠ THE TRUTH IS A RULE, NOT A PILL. Coral is this system's single
@@ -1804,6 +1959,8 @@ var EstimationJar = {
     this.stage = 'fill';
     this.guesses = [];
     this.pending = null;
+    this.pendLo = null;
+    this.pendHi = null;
     this._revealShown = 0;
     this._qid = null;
     this.render();
@@ -1840,6 +1997,7 @@ var EstimationJar = {
       }
       self.api.announce(aria);
       self._speakLine(self.api.t('neighbourhood'));
+      self._remember();
       var el = self._wrap && self._wrap.querySelector('.ej-closing');
       if (el) { el.textContent = line + ' ' + self.api.t('neighbourhood'); el.classList.add('ej-show'); }
     });
@@ -1889,6 +2047,9 @@ var EstimationJar = {
 
     var close = api.el('p', 'ej-closing');
     box.appendChild(close);
+
+    var hist2 = this._buildHistory();
+    if (hist2) box.appendChild(hist2);
 
     var again = api.el('button', 'ej-go'); again.type = 'button';
     again.textContent = api.t('again');
@@ -1946,6 +2107,129 @@ var EstimationJar = {
         }
       }
     }
+  },
+
+  /* =================================================================
+     THE SAVED WEEKLY RITUAL — "keep the ritual saved week to week",
+     the fourth thing the landing copy sells. It is a REFERENT LIBRARY,
+     which is the only reason to build it: a class that has met the jar
+     of forty three times has a forty to think with, and that is the
+     mechanism benchmark estimation actually runs on.
+
+     ⚠ WHAT IT MUST NEVER STORE. No child, no name, no order, no
+     accuracy, and — the one a product manager will propose first — NO
+     TREND ACROSS WEEKS. "We're getting closer" is an accuracy gradient
+     in slow motion and doctrine A forbids it. The record holds a date,
+     an object, a jar size, a count and the SHAPE of the cloud. Nothing
+     that could be differenced.
+
+     ⚠ AND IT IS HIDDEN DURING THE GUESS STAGE. Last week's number on
+     screen while a child is choosing is an anchor, and anchoring is the
+     one way this feature could make estimates worse. It shows before
+     the fill and after the reveal, where the comparison is
+     picture-to-picture and legitimate.
+     ================================================================= */
+  HISTORY_MAX: 12,
+
+  history: function () {
+    var h = (this._store && this._store.history) || [];
+    return h.slice(0, this.HISTORY_MAX);
+  },
+
+  /* Pure, so the gate can prove what it refuses to keep. */
+  makeRecord: function (stamp, setId, capacity, count, guesses) {
+    var bw = this.binWidthFor(capacity), bins = {}, i, key, cols = [];
+    for (i = 0; i < (guesses || []).length; i++) {
+      key = Math.round(guesses[i] / bw) * bw;
+      bins[key] = (bins[key] || 0) + 1;
+    }
+    for (key in bins) if (Object.prototype.hasOwnProperty.call(bins, key)) {
+      cols.push([Number(key), bins[key]]);
+    }
+    cols.sort(function (a, b) { return a[0] - b[0]; });
+    return { d: stamp, set: setId, cap: capacity, n: count, cols: cols };
+  },
+
+  _remember: function () {
+    if (!this.premium) return;
+    var stamp;
+    try { stamp = new Date().toISOString().slice(0, 10); } catch (_) { stamp = ''; }
+    var rec = this.makeRecord(stamp, this.setId, this.capacityOf(), this.count, this.liveGuesses());
+    this._store = this._store || {};
+    var h = this._store.history || [];
+    /* one jar per day — re-running the same jar replaces rather than
+       stacks, so a teacher demonstrating twice does not fake a history */
+    h = h.filter(function (r) { return !(r.d === rec.d && r.set === rec.set && r.n === rec.n); });
+    h.unshift(rec);
+    this._store.history = h.slice(0, this.HISTORY_MAX);
+    this._saveStore();
+  },
+
+  _buildHistory: function () {
+    var self = this, api = this.api;
+    var h = this.history();
+    if (!this.premium || !h.length) return null;
+    var box = api.el('div', 'ej-hist');
+    var lbl = api.el('div', 'ej-seclbl'); lbl.textContent = api.t('histTitle');
+    box.appendChild(lbl);
+    var strip = api.el('div', 'ej-histrow');
+    for (var i = 0; i < h.length; i++) {
+      (function (r) {
+        var card = api.el('button', 'ej-histcard');
+        card.type = 'button';
+        var set = self.setById(r.set);
+        var pic = api.el('img', 'ej-histpic');
+        if (set) {
+          pic.src = self._imgUrl(set, '1x');
+          pic.alt = '';
+          pic.draggable = false;
+          pic.onerror = function () { this.style.visibility = 'hidden'; };
+        }
+        card.appendChild(pic);
+        var n = api.el('span', 'ej-histn'); n.textContent = String(r.n);
+        card.appendChild(n);
+        /* the SHAPE of that week's cloud, as a sparkline of the same
+           columns the plot drew — never a score, never a distance */
+        card.appendChild(self._histSpark(r));
+        card.setAttribute('aria-label', self.fmt('histAria', { n: r.n, d: r.d }));
+        card.addEventListener('click', function () {
+          /* re-running a past jar is the routine's real repeat: same
+             filling, same jar size, a NEW secret count */
+          if (set) self.setId = r.set;
+          var cap = null, all = self.capacities(), q;
+          for (q = 0; q < all.length; q++) if (all[q].cap === r.cap) cap = all[q];
+          if (cap && (cap.free || self.premium)) self.capacityId = cap.id;
+          self.stage = 'fill';
+          self._newJar();
+        });
+        strip.appendChild(card);
+      }(h[i]));
+    }
+    box.appendChild(strip);
+    return box;
+  },
+
+  _histSpark: function (r) {
+    var api = this.api;
+    var wrap = api.el('span', 'ej-histspark');
+    if (!r.cols || !r.cols.length) return wrap;
+    var max = r.cap || 30, tallest = 1, i;
+    for (i = 0; i < r.cols.length; i++) if (r.cols[i][1] > tallest) tallest = r.cols[i][1];
+    var s = ['<svg viewBox="0 0 100 22" preserveAspectRatio="none" aria-hidden="true">'];
+    s.push('<line x1="0" y1="21" x2="100" y2="21" stroke="#146B5E" stroke-opacity=".35" stroke-width="1" vector-effect="non-scaling-stroke"/>');
+    for (i = 0; i < r.cols.length; i++) {
+      var x = (r.cols[i][0] / max) * 100;
+      var hh = 3 + (r.cols[i][1] / tallest) * 16;
+      s.push('<line x1="' + x.toFixed(1) + '" y1="21" x2="' + x.toFixed(1) + '" y2="' + (21 - hh).toFixed(1)
+        + '" stroke="#8C8378" stroke-width="2.5" vector-effect="non-scaling-stroke"/>');
+    }
+    /* the true count as a tick, so the shape has a reference — a mark,
+       never a comparison */
+    s.push('<line x1="' + ((r.n / max) * 100).toFixed(1) + '" y1="0" x2="' + ((r.n / max) * 100).toFixed(1)
+      + '" y2="21" stroke="#146B5E" stroke-width="1.5" vector-effect="non-scaling-stroke"/>');
+    s.push('</svg>');
+    wrap.innerHTML = s.join('');
+    return wrap;
   },
 
   /* =================================================================
@@ -2323,6 +2607,10 @@ function injectEstimationJarCSS() {
     + '.ej-dot.ej-pending{background:transparent;border:3px solid #146B5E;width:15px;height:15px;'
     + 'top:104px;animation:ej-bob .5s ease-in-out infinite alternate}'
     + '@keyframes ej-bob{to{transform:translate(-50%,-4px)}}'
+    /* range bars: identical, translucent, never measured against each
+       other. Teal because they are the class thinking, not an action. */
+    + '.ej-range{position:absolute;height:9px;border-radius:5px;background:#146B5E;opacity:.22;min-width:4px}'
+    + '.ej-range.ej-rangepend{background:none;border:2px solid #146B5E;opacity:.9;height:9px;box-sizing:border-box}'
     + '.ej-truthrule{position:absolute;left:0;top:4px;height:98px;width:2px;background:#146B5E;'
     + 'opacity:.85;transform:translateX(-50%);transform-origin:top;animation:ej-rule .38s ease}'
     + '@keyframes ej-rule{from{transform:translateX(-50%) scaleY(0)}}'
@@ -2399,6 +2687,8 @@ function injectEstimationJarCSS() {
     +   'body.ej-wide .ej-dot{width:16px;height:16px;}'
     +   'body.ej-wide .ej-ticklbl{font-size:17px;}'
     +   'body.ej-wide .ej-benchnum{font-size:32px;}'
+    +   'body.ej-wide .ej-histcard{width:96px;}'
+    +   'body.ej-wide .ej-histn{font-size:21px;}'
     + '}'
     + '@media (min-width:1800px) and (min-height:1080px){'
     +   'body.ej-wide .lcs-app{max-width:min(1560px,96vw);}'
@@ -2416,6 +2706,8 @@ function injectEstimationJarCSS() {
     +   'body.ej-wide .ej-dots{height:190px;}'
     +   'body.ej-wide .ej-ticklbl{font-size:20px;}'
     +   'body.ej-wide .ej-benchnum{font-size:40px;}'
+    +   'body.ej-wide .ej-histcard{width:118px;}'
+    +   'body.ej-wide .ej-histn{font-size:26px;}'
     + '}'
     + '@media (min-width:2400px) and (min-height:1150px){'
     +   'body.ej-wide .lcs-app{max-width:min(1752px,96vw);}'
@@ -2434,6 +2726,8 @@ function injectEstimationJarCSS() {
     +   'body.ej-wide .ej-ticklbl{font-size:24px;}'
     +   'body.ej-wide .ej-tally{font-size:76px;}'
     +   'body.ej-wide .ej-benchnum{font-size:46px;}'
+    +   'body.ej-wide .ej-histcard{width:138px;}'
+    +   'body.ej-wide .ej-histn{font-size:30px;}'
     + '}'
 
     + '@media (prefers-reduced-motion:reduce){'
@@ -2444,6 +2738,15 @@ function injectEstimationJarCSS() {
     + '}'
 
     /* the sheet, hidden on screen and revealed only in print media */
+    /* the wall of past jars — a referent library, not a scoreboard */
+    + '.ej-hist{display:flex;flex-direction:column;align-items:center;gap:6px;width:100%}'
+    + '.ej-histrow{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;max-width:100%}'
+    + '.ej-histcard{display:flex;flex-direction:column;align-items:center;gap:2px;width:76px;min-height:76px;'
+    + 'padding:6px 4px;background:#FFF9EE;border:2px solid #146B5E22;border-radius:12px;cursor:pointer}'
+    + '.ej-histpic{width:26px;height:26px;object-fit:contain;user-select:none;-webkit-user-drag:none}'
+    + '.ej-histn{font:700 17px/1 "Baloo 2",Nunito,system-ui,sans-serif;color:#3A3226}'
+    + '.ej-histspark{display:block;width:100%;height:18px}'
+    + '.ej-histspark svg{width:100%;height:18px;display:block;overflow:visible}'
     + '.ej-sheet{display:none}'
     + '.ej-foot{display:flex;justify-content:center;gap:8px;width:100%}'
     + '.ej-chip{font:600 14px/1 Nunito,system-ui,sans-serif;color:#146B5E;background:#FFF9EE;'
@@ -2459,7 +2762,7 @@ function injectEstimationJarCSS() {
     + 'body.ej-paid .lcs-header,body.ej-paid .ej-wrap{display:none !important}'
     + 'body.ej-paid .ej-sheet{display:block !important;background:#fff !important}'
     + '.ej-stages,.ej-go,.ej-linkbtn,.ej-scrim,.ej-siblings,.ej-stepbtn,.ej-chip,.ej-foot,'
-    + '.ej-hint,.ej-privacy,.ej-pill,.ej-caprow,.ej-tally{display:none !important}'
+    + '.ej-hint,.ej-privacy,.ej-pill,.ej-caprow,.ej-tally,.ej-hist{display:none !important}'
     + 'html,body,.lcs-app,.lcs-stage{background:#fff !important;box-shadow:none !important;'
     + 'max-width:none !important;max-height:none !important;height:auto !important}'
     + '@page{margin:14mm}'

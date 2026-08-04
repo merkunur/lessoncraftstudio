@@ -653,6 +653,45 @@ function serve() {
     ok('⭐ the purse options are coin faces with units, not "5+"',
       opts.length >= 2 && opts.every((l) => /\d/.test(l) && !/\+/.test(l)), JSON.stringify(opts));
 
+    /* ⭐ THE COARSENER, ASSERTED ON ITS CONSEQUENCE. NOK has no 2-krone
+       piece, so 9 kr costs FIVE coins and Norwegian children were asked for
+       more pieces in the FREE band than any euro child. The check is not
+       "the toggle flips" — it is that the prices the generator emits
+       actually land on fives and cost fewer coins. */
+    const coarse = await page.evaluate(async () => {
+      const r = await fetch('/money-mat.html?lang=no').then((x) => x.text()).catch(() => null);
+      return !!r;
+    });
+    ok('the tool is reachable for the no locale', coarse !== false);
+    {
+      const np = await newPage({});
+      await np.goto(BASE + '?lang=no');
+      await ready(np);
+      const m = await np.evaluate(() => {
+        const T = MoneyMat; T.band = 1; T.mode = 'shop'; T.itemIdx = 0;
+        const fewest = (p, v) => { const s = v.slice().sort((a, b) => b - a); let n = 0, r = p;
+          for (let i = 0; i < s.length && r > 0; i++) { while (s[i] <= r) { r -= s[i]; n++; } } return r === 0 ? n : null; };
+        const vals = T.curView().coins.map((d) => d.v);
+        const run = (on) => { T.api.settings.coarseGrain = on;
+          const rr = T.priceRange(1, 0, 'nok', T.minCoin());
+          let w = 0, n = 0; const prices = [];
+          for (let p = rr.lo; p <= rr.hi; p += rr.grain) { const f = fewest(p, vals); if (f === null) continue; n++; prices.push(p); w = Math.max(w, f); }
+          return { grain: rr.grain, n, worst: w, prices };
+        };
+        const off = run(false), on = run(true);
+        T.api.settings.coarseGrain = false;
+        return { off, on, offered: T.coarseGrainApplies(1), rowShown: T.settings.some((f) => f.key === 'coarseGrain') };
+      });
+      ok('⭐ the coarsener is offered in Norwegian', m.offered && m.rowShown, JSON.stringify({ o: m.offered, r: m.rowShown }));
+      ok('⭐ it actually coarsens — every price lands on a five',
+        m.on.grain === 5 && m.on.prices.every((p) => p % 5 === 0), JSON.stringify(m.on));
+      ok('⭐ and it costs the child fewer coins (5 → 2 at worst)',
+        m.on.worst < m.off.worst && m.on.worst <= 2, JSON.stringify({ off: m.off.worst, on: m.on.worst }));
+      ok('the fine rung is NOT regressed by the wider ceiling', m.off.worst <= 5, String(m.off.worst));
+      ok('and it still leaves a real choice of price', m.on.n >= 3, String(m.on.n));
+      await np.close();
+    }
+
     ok('E2 no js errors', page._errs.length === 0, page._errs[0]);
     await page.close();
   }

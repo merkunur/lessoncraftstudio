@@ -114,6 +114,15 @@ var MoneyMat = {
        owned noun (bod / koju) because "Skriv ut matta" and "Tulosta matto"
        are ALREADY SHIPPED by two siblings. */
     printBtn:     {en:'Print the paper stall',de:'Kopiervorlagen',fr:'Imprimer le matériel',it:'Stampa e ritaglia',es:'Imprimir recortables',pt:'Imprimir a feirinha',nl:'Kopieerbladen printen',sv:'Skriv ut underlagen',da:'Print kopiarkene',no:'Skriv ut papirboden',fi:'Tulosta kojun paperit'},
+    /* ⚠ LOCALE-SCOPED BY CONSTRUCTION — offered only where coarseGrainApplies
+       is true, which is whole krona alone. Authored in exactly en/sv/da/no
+       and asserted ABSENT elsewhere by verify, so it cannot silently grow
+       into eight locales that would never render it.
+       ⚠ NOT built on "round": open-number-line's setSnap already ships
+       nombres ronds / numeri tondi / decenas exactas, meaning TENS. And not
+       on femma/femmer/femmere alone in sv/da — those are the FIVE-KRONA
+       COIN, which would read as "prices in five-krona coins", false at 15. */
+    setCoarseGrain: {en:'Prices in fives',sv:'Priser fem och fem',da:'Priser fem og fem',no:'Prisene går i femmere'},
     setSpeak:     {en:'Speak the money words',de:'Geldbeträge vorlesen',fr:'Dire les montants à voix haute',it:'Leggi gli importi ad alta voce',es:'Decir las cantidades en voz alta',pt:'Falar os valores em voz alta',nl:'De bedragen hardop voorlezen',sv:'Läs upp beloppen',da:'Sig beløbene højt',no:'Les opp beløpene',fi:'Lue summat ääneen'}
   },
 
@@ -199,7 +208,7 @@ var MoneyMat = {
      AND dropped the grain, for nl/fi/pt only the ceiling moved (their
      minCoin of 5 pinned it), and for sv/da/no likewise. */
   BANDS: {
-    1: { maxCents: 100, maxKr: 10, grainCents: 5 },
+    1: { maxCents: 100, maxKr: 15, grainCents: 5 },
     2: { maxCents: 500, maxKr: 50, grainCents: 5 },
     3: { maxCents: 2000, maxKr: 100, grainCents: 10 }
   },
@@ -248,7 +257,7 @@ var MoneyMat = {
     train: {en:'the train',de:'der Zug',fr:'le train',it:'il treno',es:'el tren',pt:'o trem',nl:'de trein',sv:'tåget',da:'toget',no:'toget',fi:'juna'}
   },
 
-  defaults: { enCurrency: 'usd', speakNames: true, fineGrain: false, coinsFrom: 0 },
+  defaults: { enCurrency: 'usd', speakNames: true, fineGrain: false, coarseGrain: false, coinsFrom: 0 },
   settings: [
     { key: 'enCurrency', type: 'choice', labelKey: 'setCurrency', options: [
       { value: 'usd', labelKey: 'curUSD' }, { value: 'gbp', labelKey: 'curGBP' }
@@ -265,6 +274,7 @@ var MoneyMat = {
        doctrine forbids. */
     { key: 'coinsFrom', type: 'choice', labelKey: 'setCoinsFrom', options: [] },
     { key: 'fineGrain', type: 'toggle', labelKey: 'setFineGrain' },
+    { key: 'coarseGrain', type: 'toggle', labelKey: 'setCoarseGrain' },
     { key: 'speakNames', type: 'toggle', labelKey: 'setSpeak' }
   ],
 
@@ -313,6 +323,38 @@ var MoneyMat = {
      coinsFrom, measured: `10` in sv/da/no leaves band 1 with exactly ONE
      generable price (10 kr, paid with one coin) — a choice with one outcome.
      `5` is inert in pt/nl/fi, whose floor is already 5. */
+  /* ⭐ THE COARSENER — the inverse of fineGrain, and it exists because of
+     Norwegian coinage. NOK has 1, 5, 10, 20 and NO 2-krone piece, so 9 kr
+     costs FIVE coins (5+1+1+1+1). Measured across the free band: NOK
+     averages 2.6 coins and peaks at 5, while sv/da — which both have a
+     2 kr — average 1.8 and peak at 3, and the euro band averages 2.3.
+     Norwegian children were being asked for more pieces in the FREE band
+     than any euro child.
+     ⚠ NEITHER LEVER ALONE FIXES IT, measured. Grain 5 under the old 10 kr
+     ceiling leaves TWO prices, so the control could not be offered at all.
+     Widening the ceiling alone makes NOK WORSE — at 20 kr the fine rung
+     peaks at 6 coins (19 kr), a regression on today's 5.
+     maxKr 15 is the only ceiling that regresses NOTHING: the fine rung
+     keeps NOK's worst at 5 and sv/da's at 3 exactly as today, gains 50%
+     more prices (10 → 15), and leaves the coarsener precisely its
+     three-price minimum — 5, 10, 15, at a worst case of TWO coins.
+     Offered only where it leaves at least three prices. */
+  coarseGrainStep: function () { return 5; },
+  coarseGrainApplies: function (band) {
+    var c = this.cur(), b = this.BANDS[band || this.band || 1];
+    /* ⚠ WHOLE KRONA ONLY, and the native panel is why. Every cent currency
+       ALREADY steps in fives — BANDS grainCents is 5 at bands 1 and 2 — so
+       a coarsener there would either duplicate `fineGrain: false` under a
+       second name, or mean something other than fives and make its own
+       label a lie. The measured problem is Norwegian coinage, the fix is
+       fives, and fives is true in exactly these three currencies.
+       It is also why the two grain rows never share a drawer: fineGrain is
+       suppressed for whole krona, coarseGrain is offered nowhere else. */
+    if ((c.minorPerMajor || 1) !== 1) return false;
+    var g = Math.max(this.coarseGrainStep(), this.minCoin(), c.coins[0].v);
+    if (g <= Math.max(1, c.coins[0].v, this.minCoin())) return false;
+    return Math.floor(b.maxKr / g) >= 3;          /* still a real choice of price */
+  },
   fineGrainApplies: function (band) {
     var c = this.cur();
     if ((c.minorPerMajor || 1) === 1) return false;
@@ -468,6 +510,7 @@ var MoneyMat = {
        appeared — and meanwhile the free purse's 1c/2c were decorative,
        since no band-1 price ever needed them. */
     var fine = !!(this.api && this.api.settings && this.api.settings.fineGrain) && this.fineGrainApplies(band);
+    var coarse = !!(this.api && this.api.settings && this.api.settings.coarseGrain) && this.coarseGrainApplies(band);
     /* ⚠ whole-krona keeps a 1-unit grain — 47 kr is an ordinary K-2 price in
        a currency with no sub-unit, unlike 13,79 € — but it must STILL
        respect minCoin, which it did not: with the purse restricted to 5s and
@@ -477,6 +520,7 @@ var MoneyMat = {
     var grain = c.minorPerMajor === 1
       ? Math.max(1, minCoin)
       : Math.max(fine ? minCoin : b.grainCents, minCoin);
+    if (coarse) grain = Math.max(grain, this.coarseGrainStep());
     var lo, hi;
     /* tier 0 = the whole band, which is what a teacher-set price ranges over */
     if (!tier) { lo = grain; hi = max; }
@@ -602,6 +646,7 @@ var MoneyMat = {
     return this.settings.filter(function (f) {
       if (f.enOnly && self.api.lang !== 'en') return false;
       if (f.key === 'fineGrain') return self.fineGrainApplies();
+      if (f.key === 'coarseGrain') return self.coarseGrainApplies();
       if (f.key === 'coinsFrom') return self.coinsFromApplies(5) || self.coinsFromApplies(10);
       return true;
     }).map(function (f) {
@@ -659,9 +704,10 @@ var MoneyMat = {
        never land on an unpayable amount. */
     /* language-free teacher controls, live before their drawer rows exist */
     if (params.get('fine') === '1' && this.fineGrainApplies()) api.settings.fineGrain = true;
+    if (params.get('coarse') === '1' && this.coarseGrainApplies()) api.settings.coarseGrain = true;
     var wantCoins = parseInt(params.get('coins'), 10);
     if ((wantCoins === 5 || wantCoins === 10) && this.coinsFromApplies(wantCoins)) api.settings.coinsFrom = wantCoins;
-    if (params.get('fine') === '1' || wantCoins) {
+    if (params.get('fine') === '1' || params.get('coarse') === '1' || wantCoins) {
       this.price = this.pickPrice(this.band, this.ITEMS[this.itemIdx].tier, this.curKey(), this.mode);
     }
     var wantPrice = parseInt(params.get('price'), 10);

@@ -542,14 +542,33 @@ for (const k of ['usd', 'gbp']) {
 }
 
 /* ================= 6. STRINGS + NOUNS ============================ */
+/* ⭐ LOCALE-SCOPED STRINGS — an AUDITABLE LIST with a reason each, never a
+   loosened rule. A string here must be authored in EXACTLY these locales
+   and be ABSENT from every other, so the exemption cannot silently grow
+   into locales that would never render it, and a genuine gap in a scoped
+   locale still fails. */
+const LOCALE_SCOPED = {
+  /* offered only where coarseGrainApplies() is true, which is whole krona
+     alone — every cent currency already steps in fives, so the control
+     would be a duplicate there and "fives" would not describe it */
+  setCoarseGrain: ['en', 'sv', 'da', 'no']
+};
 const S = T.strings;
 for (const key of Object.keys(S)) {
   const en = S[key].en;
   if (!en) { E(`strings.${key}: missing en`); continue; }
   const ph = (en.match(/\{\w+\}/g) || []);
+  const scope = LOCALE_SCOPED[key];
+  if (scope) {
+    for (const L of ALL) {
+      const has = !!(S[key][L] && S[key][L].trim());
+      if (scope.includes(L) && !has) E(`strings.${key}.${L}: empty, but ${key} is scoped to [${scope}]`);
+      if (!scope.includes(L) && has) E(`strings.${key}.${L}: present, but ${key} is scoped to [${scope}] — the exemption may not grow`);
+    }
+  }
   for (const L of LOCALES) {
     const v = S[key][L];
-    if (!v || !v.trim()) { E(`strings.${key}.${L}: empty`); continue; }
+    if (!v || !v.trim()) { if (scope && !scope.includes(L)) continue; E(`strings.${key}.${L}: empty`); continue; }
     for (const p of ph) if (!v.includes(p)) E(`strings.${key}.${L}: drops placeholder ${p}`);
     /* ⚠ es and fi carry TWO patterns each (a whole-word set plus a stem),
        so this must not call .test on the entry directly */

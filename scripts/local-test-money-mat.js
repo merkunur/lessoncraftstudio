@@ -497,6 +497,69 @@ function serve() {
     await page.close();
   }
 
+  /* ================== E2: the teacher can choose the price ============== */
+  console.log('E2. teacher-set price + the band axes');
+  {
+    const page = await newPage({});
+    await page.goto(BASE + '?price=35');
+    await ready(page);
+    let st = await page.evaluate(() => ({ price: MoneyMat.price, tag: document.querySelector('.mm-tag-body').textContent.trim() }));
+    ok('⭐ ?price= lands on the requested amount', st.price === 35 && /35/.test(st.tag), JSON.stringify(st));
+
+    /* a deep link can never land on an unpayable amount */
+    await page.goto(BASE + '?price=37');
+    await ready(page);
+    st = await page.evaluate(() => ({ price: MoneyMat.price, steps: MoneyMat.priceSteps() }));
+    ok('an off-grid ?price= snaps onto the legal set', st.price % st.steps.grain === 0 && st.price >= st.steps.lo && st.price <= st.steps.hi, JSON.stringify(st));
+
+    /* the tag opens a stepper and the stepper MOVES THE PRICE */
+    await page.goto(BASE + '?price=35');
+    await ready(page);
+    ok('the price tag is a control', await clickSel(page, '.mm-tag-body'));
+    st = await page.evaluate(() => ({ pad: !!document.querySelector('.mm-pricepad'), steps: document.querySelectorAll('.mm-step').length }));
+    ok('tapping the tag opens the stepper', st.pad && st.steps === 2, JSON.stringify(st));
+    const before = await page.evaluate(() => MoneyMat.price);
+    await page.evaluate(() => { [...document.querySelectorAll('.mm-step')].pop().click(); });
+    await sleep(250);
+    const after = await page.evaluate(() => ({ price: MoneyMat.price, tag: document.querySelector('.mm-tag-body').textContent.trim() }));
+    ok('⭐ the stepper CHANGES THE PRICE and the tag agrees',
+      after.price === before + 5 && after.tag.replace(/\D+/g, '') === String(after.price),
+      JSON.stringify({ before, after }));
+
+    /* ⭐ THE CONSEQUENCE CHECK THE SHARED LIVENESS GATE CANNOT MAKE.
+       audit-tool-control-liveness asks "did the DOM change?", and a chip
+       that highlights ITSELF changes the DOM — which is how a numeral strip
+       once scored 84/84 while having no effect at all. So the band control
+       is asserted on its CONSEQUENCE: set it, then read the range the price
+       generator actually emits. */
+    const bands = await page.evaluate(() => {
+      MoneyMat.premium = true;
+      const out = {};
+      for (const b of [1, 2, 3]) {
+        MoneyMat.band = b;
+        const seen = [];
+        for (let i = 0; i < 400; i++) seen.push(MoneyMat.pickPrice(b, 2, MoneyMat.curKey(), 'shop'));
+        out[b] = { max: Math.max(...seen), grain: MoneyMat.priceRange(b, 2, MoneyMat.curKey(), 0).grain };
+      }
+      return out;
+    });
+    ok('⭐ each band emits a genuinely different price range',
+      bands[1].max < bands[2].max && bands[2].max < bands[3].max,
+      JSON.stringify(bands));
+    ok('⭐ the grain RISES with the ceiling (no 13,79 € in band 3)',
+      bands[1].grain <= bands[2].grain && bands[2].grain <= bands[3].grain && bands[3].grain >= 10,
+      JSON.stringify(bands));
+
+    /* the band chips do not appear where they would lie */
+    await page.evaluate(() => { MoneyMat.premium = true; MoneyMat.mode = 'change'; MoneyMat._newPrice(); MoneyMat.render(); });
+    await sleep(200);
+    const inChange = await page.evaluate(() => [...document.querySelectorAll('.mm-chip')].map((c) => c.textContent.trim()));
+    ok('⭐ the band chips are absent in change mode, where they do nothing',
+      !inChange.some((t) => /prices/i.test(t)), JSON.stringify(inChange));
+    ok('E2 no js errors', page._errs.length === 0, page._errs[0]);
+    await page.close();
+  }
+
   /* ============================ F: free vs premium ====================== */
   console.log('F. free vs premium');
   {

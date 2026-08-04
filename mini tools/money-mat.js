@@ -749,6 +749,18 @@ var MoneyMat = {
        ⚠ The pill used to be HIDDEN for the whole of change mode, taking the
        speaker chip with it: the one on-demand spoken readout, gone from the
        one flow that most needed it, in the six locales that have no voice. */
+    /* ⭐ THE SCENE DESCRIBES ITSELF. The stall was a decorative div with an
+       alt-tagged image inside it and nothing tying the item to its price —
+       and pricePrompt, the sentence that states the task, was authored in
+       eleven locales and spoken on exactly ONE path. It is the scene's
+       accessible name now, so the task is stated on arrival rather than only
+       when the "another item" chip happens to be pressed. */
+    scene.setAttribute('role', 'img');
+    scene.setAttribute('aria-label', this._cap(this.fmt('pricePrompt', {
+      noun: this._noun(itemKey), price: this.formatLike(this.price)
+    })));
+    img.alt = '';                        /* the scene's label covers it now */
+
     var matZone = api.el('div', 'mm-matzone');
     var totalRow = api.el('div', 'mm-totalrow' + (this.phase === 'changePick' ? ' mm-hidden' : ''));
     var pill = api.el('div', 'mm-total');
@@ -788,6 +800,8 @@ var MoneyMat = {
     this._railEl = api.el('div', 'mm-rail');
     matZone.appendChild(this._railEl);
     var mat = api.el('div', 'mm-mat');
+    mat.setAttribute('role', 'group');
+    mat.setAttribute('aria-label', this.formatLike(this.trayTotal()));
     this._matEl = mat;
     matZone.appendChild(mat);
     wrap.appendChild(matZone);
@@ -1057,10 +1071,16 @@ var MoneyMat = {
       if (!den) return;
       var b = den.fam ? self._coinBtn(den, 'on-mat') : self._noteBtn(den);
       b.classList.add('on-mat');
+      b.setAttribute('aria-label', den.label + ' → ' + self.formatLike(self.trayTotal() - v));
       b.addEventListener('click', function () { self._removeCoin(i); });
       self._matEl.appendChild(b);
     });
     if (this._totalEl) this._totalEl.textContent = this.formatLike(this.trayTotal());
+    if (this._matEl) this._matEl.setAttribute('aria-label', this.formatLike(this.trayTotal()));
+    /* ⚠ announce SEPARATELY from _speak: _speak is gated on a setting and on
+       a voice existing, and the running total must reach assistive tech in
+       all eleven locales regardless of either. */
+    if (this.api && this.api.announce) this.api.announce(this.formatLike(this.trayTotal()));
   },
   /* ================== THE RAIL — pure geometry ======================
      ⭐ Shop mode is a COLLECTION on a mat (cardinality); change mode is a
@@ -1661,3 +1681,12 @@ var MoneyMat = {
   var tag = document.createElement('style'); tag.textContent = css;
   document.head.appendChild(tag);
 }());
+
+/* ⚠ `var MoneyMat` at classic-script scope already creates window.MoneyMat,
+   which is what money-mat.html and the gates use today — so this is
+   insurance, not a repair: it survives a future IIFE wrap, and module.exports
+   is what lets a Node gate require() the pure engine instead of eval'ing the
+   file. The shared print-sheet gate discovers a tool by looking for a
+   window-reachable object with id + STORE_KEY + a writable `premium`. */
+if (typeof window !== 'undefined') window.MoneyMat = MoneyMat;
+if (typeof module !== 'undefined' && module.exports) module.exports = MoneyMat;

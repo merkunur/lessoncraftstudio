@@ -1011,12 +1011,22 @@ var MoneyMat = {
      the digit RUN, wherever it sits, which handles all six shapes. Splitting
      them is what lets the digits be large without the mark bursting the
      disc, and the digits are the thing a child reads across a room. */
+  /* ⚠ THE FACE IS ONE CHILD, not two or three. Emitting <b> and <i> as
+     siblings of the disc made them separate FLEX ITEMS, and the only way to
+     keep their shared text baseline was align-items:baseline — which aligns
+     the group to the START of the cross axis and jammed every value against
+     the top of its coin (measured: 0px above, 34-79px below). Wrapping them
+     in one inline box gets both properties at once: <b> and <i> sit on the
+     natural text baseline INSIDE .mm-face, which is the right relationship
+     for "25" + "¢", and .mm-face is a single item the circle can centre. */
   _face: function (label) {
     var m = String(label).match(/^(\D*)(\d+)(\D*)$/);
-    if (!m) return '<b>' + label + '</b>';
-    return (m[1] ? '<i>' + m[1].replace(/ /g, '&nbsp;') + '</i>' : '')
-      + '<b>' + m[2] + '</b>'
-      + (m[3] ? '<i>' + m[3].replace(/ /g, '&nbsp;') + '</i>' : '');
+    var inner = m
+      ? (m[1] ? '<i>' + m[1].replace(/ /g, '&nbsp;') + '</i>' : '')
+        + '<b>' + m[2] + '</b>'
+        + (m[3] ? '<i>' + m[3].replace(/ /g, '&nbsp;') + '</i>' : '')
+      : '<b>' + label + '</b>';
+    return '<span class="mm-face">' + inner + '</span>';
   },
   _coinBtn: function (den, cls) {
     var api = this.api;
@@ -1714,10 +1724,11 @@ var MoneyMat = {
      the ratio — which is the one thing in this tool that must not move. */
   + '.mm-disc{--mm-D:calc(var(--mm-d,34) * 1px * var(--mm-dz,1) * var(--mm-cs,1) * var(--mm-mini,1));'
   +   'width:var(--mm-D);height:var(--mm-D);'
-  +   'display:inline-flex;align-items:baseline;justify-content:center;border-radius:50%;'
+  +   'display:inline-flex;align-items:center;justify-content:center;border-radius:50%;'
   +   'font-family:var(--lcs-font-display);font-weight:800;font-size:calc(var(--mm-D) * var(--mm-df,.30));color:#4A3B2A;'
   +   'line-height:1;letter-spacing:-.01em;'
   +   'box-shadow:inset 0 0 0 2.5px rgba(90,70,48,.35), 0 2px 4px rgba(20,30,28,.18);}'
+  + '.mm-face{display:block;line-height:1;white-space:nowrap;}'
   + '.mm-disc b{font-weight:800;font-size:1em;}'
   + '.mm-disc i{font-style:normal;font-weight:800;font-size:.66em;opacity:.85;}'
   + '.mm-disc.mini{--mm-mini:.86;}'
@@ -1726,10 +1737,10 @@ var MoneyMat = {
   + '.fam-gold{background:radial-gradient(circle at 35% 30%,#E8C070,#BE9440 78%);color:#5A4620;}'
   /* the bimetallic centre is sized in %, so it tracks the true diameter
      automatically and can never disagree with it */
-  + '.mm-disc-in{display:inline-flex;align-items:baseline;justify-content:center;border-radius:50%;width:70%;height:70%;'
+  + '.mm-disc-in{display:inline-flex;align-items:center;justify-content:center;border-radius:50%;width:70%;height:70%;'
   +   'font-size:inherit;box-shadow:inset 0 0 0 1.5px rgba(90,70,48,.3);}'
   + '.mm-note{--mm-N:calc(64px * var(--mm-dz,1) * var(--mm-cs,1) * var(--mm-mini,1));'
-  +   'display:inline-flex;align-items:baseline;justify-content:center;position:relative;'
+  +   'display:inline-flex;align-items:center;justify-content:center;position:relative;'
   +   'width:var(--mm-N);height:calc(var(--mm-N) * .5625);'
   +   'background-color:var(--mm-tint,#CBD5CC);'
   +   'border-radius:6px;border:2px solid rgba(90,70,48,.35);font-family:var(--lcs-font-display);font-weight:800;'
@@ -1823,8 +1834,7 @@ var MoneyMat = {
      in every phone screenshot, which is exactly why it survived. */
   + '.mm-purse:empty{border-color:transparent;background:none;}'
   + '@media (min-width:900px){.mm-purse{gap:10px;padding:8px 10px;}'
-  +   '.mm-purse .mm-disc{transform:scale(1.22);}'
-  +   '.mm-purse .mm-note{transform:scale(1.15);}}'
+  +   '}'
 
   /* phone */
   + '@media (max-width:480px){'

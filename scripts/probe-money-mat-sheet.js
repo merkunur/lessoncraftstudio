@@ -78,6 +78,27 @@ function serve() {
     const onScreen = await page.evaluate(() => getComputedStyle(document.querySelector('.mm-sheet')).display);
     ok('the sheet is hidden on screen', onScreen === 'none', onScreen);
 
+    /* ⭐⭐ GATING THE CHIP IS NOT GATING THE FEATURE. Ctrl+P bypasses every
+       button on the page, so a paid sheet revealed by an unconditional
+       @media print block is not gated at all. Asserted from the FREE state,
+       under print media, with no chip involved. */
+    const leak = await page.evaluate(async () => {
+      const T = MoneyMat;
+      T.premium = false; T.render(); T._buildSheet();
+      return null;
+    });
+    await page.emulateMediaType('print');
+    await new Promise((r) => setTimeout(r, 200));
+    const freePrint = await page.evaluate(() => {
+      const s = document.querySelector('.mm-sheet');
+      return { display: getComputedStyle(s).display, h: s.getBoundingClientRect().height };
+    });
+    ok('⭐ a FREE user pressing Ctrl+P gets no paid sheet',
+      freePrint.display === 'none' && freePrint.h === 0, JSON.stringify(freePrint));
+    await page.emulateMediaType('screen');
+    await page.evaluate(() => { MoneyMat.premium = true; MoneyMat.render(); MoneyMat._buildSheet(); });
+    await new Promise((r) => setTimeout(r, 200));
+
     await page.emulateMediaType('print');
     await new Promise((r) => setTimeout(r, 250));
 

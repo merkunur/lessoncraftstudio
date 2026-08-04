@@ -241,6 +241,14 @@ var MoneyMat = {
     { key: 'speakNames', type: 'toggle', labelKey: 'setSpeak' }
   ],
 
+  /* ⭐ THE FREE/PAID BOUNDARY AS ONE NAMED LITERAL. It used to be scattered
+     across `this.premium && this.band > 1` conditions, so there was nothing
+     a mutation harness could flip and the entitlement rule could not be
+     gated at all — every tool in the v4 cohort declares one of these.
+     ⚠ There is no FALLBACK_* book here on purpose: money-mat fetches no
+     repertoire, so an offline entitlement failure already degrades to the
+     free tier (premium defaults to false) rather than to nothing. */
+  FREE_BANDS: 1,
   STORE_KEY: 'lcs:money-mat:v1',
   ENT_TRUST_DAYS: 14,
 
@@ -260,7 +268,45 @@ var MoneyMat = {
   minCoin: function () {
     var veto = this.COIN_MIN[(this.api && this.api.lang) || 'en'] || 0;
     var chosen = (this.api && this.api.settings && this.api.settings.coinsFrom) || 0;
+    if (chosen && !this.coinsFromApplies(chosen)) chosen = 0;
     return Math.max(veto, chosen);
+  },
+  /* ⭐⭐ A CONTROL IS ONLY OFFERED WHERE IT HAS A CONSEQUENCE.
+     The native panel read the engine, not the copy, and caught both of these
+     in controls I had just added — the §23.6 defect the shared liveness gate
+     is structurally blind to, because a toggle that flips its own
+     aria-checked has "acted".
+
+     fineGrain, measured: DEAD in sv/da/no at every band (whole krona has no
+     finer step than one krona, and the branch never consulted the flag), and
+     DEAD in nl/fi/pt at bands 1 and 2 — their smallest coin IS 5, so
+     max(5,5) === max(5,5). That is six of eleven locales handed a switch
+     that provably does nothing, and for pt/nl/fi it is dead in the FREE tier.
+
+     coinsFrom, measured: `10` in sv/da/no leaves band 1 with exactly ONE
+     generable price (10 kr, paid with one coin) — a choice with one outcome.
+     `5` is inert in pt/nl/fi, whose floor is already 5. */
+  fineGrainApplies: function (band) {
+    var c = this.cur();
+    if ((c.minorPerMajor || 1) === 1) return false;
+    var b = this.BANDS[band || this.band || 1];
+    /* ⚠ against the EFFECTIVE smallest coin — the currency's own floor, not
+       just the teacher's restriction. BRL's smallest coin is 5 centavos, so
+       comparing against minCoin() alone reported pt's toggle live in bands
+       1 and 2 when the panel had already proven it dead there. */
+    return b.grainCents > Math.max(c.coins[0].v, this.minCoin());
+  },
+  coinsFromApplies: function (v) {
+    if (!v) return true;
+    var c = this.cur();
+    var veto = this.COIN_MIN[(this.api && this.api.lang) || 'en'] || 0;
+    if (v <= veto) return false;                       /* the locale already vetoes it */
+    if (!c.coins.some(function (d) { return d.v >= v; })) return false;
+    /* and it must leave the child a genuine choice of price */
+    var b = this.BANDS[this.band || 1];
+    var max = (c.minorPerMajor || 1) === 1 ? b.maxKr : b.maxCents;
+    var grain = Math.max((c.minorPerMajor || 1) === 1 ? 1 : b.grainCents, v);
+    return Math.floor(max / grain) >= 3;
   },
   curView: function () {
     var c = this.cur();
@@ -394,7 +440,7 @@ var MoneyMat = {
        at the same moment the ceiling jumped five-fold and banknotes
        appeared — and meanwhile the free purse's 1c/2c were decorative,
        since no band-1 price ever needed them. */
-    var fine = !!(this.api && this.api.settings && this.api.settings.fineGrain);
+    var fine = !!(this.api && this.api.settings && this.api.settings.fineGrain) && this.fineGrainApplies(band);
     /* ⚠ whole-krona keeps a 1-unit grain — 47 kr is an ordinary K-2 price in
        a currency with no sub-unit, unlike 13,79 € — but it must STILL
        respect minCoin, which it did not: with the purse restricted to 5s and
@@ -538,7 +584,7 @@ var MoneyMat = {
     if (wantBand >= 1 && wantBand <= 3) this.band = wantBand;
     /* free resolves band 1 only; the tautology this replaces reduced to the
        same thing by a longer road */
-    if (!this.premium) this.band = 1;
+    if (!this.premium) this.band = Math.min(this.band, this.FREE_BANDS);
 
     this.price = this.pickPrice(this.band, this.ITEMS[this.itemIdx].tier, this.curKey(), this.mode);
     /* ⭐ ?price= is what makes a lesson PLANNABLE — the link goes into a
@@ -546,9 +592,9 @@ var MoneyMat = {
        teacher chose. Snapped onto the band's legal set, so a deep link can
        never land on an unpayable amount. */
     /* language-free teacher controls, live before their drawer rows exist */
-    if (params.get('fine') === '1') api.settings.fineGrain = true;
+    if (params.get('fine') === '1' && this.fineGrainApplies()) api.settings.fineGrain = true;
     var wantCoins = parseInt(params.get('coins'), 10);
-    if (wantCoins === 5 || wantCoins === 10) api.settings.coinsFrom = wantCoins;
+    if ((wantCoins === 5 || wantCoins === 10) && this.coinsFromApplies(wantCoins)) api.settings.coinsFrom = wantCoins;
     if (params.get('fine') === '1' || wantCoins) {
       this.price = this.pickPrice(this.band, this.ITEMS[this.itemIdx].tier, this.curKey(), this.mode);
     }
@@ -694,7 +740,7 @@ var MoneyMat = {
     var api = this.api, self = this;
     api.stage.innerHTML = '';
     document.body.classList.add('mm-wide');
-    var wrap = api.el('div', 'mm-wrap');
+    var wrap = api.el('div', 'mm-wrap' + (this.premium ? ' mm-paid' : ''));
     api.stage.appendChild(wrap);
     this._wrap = wrap;
 
@@ -986,7 +1032,7 @@ var MoneyMat = {
       b.addEventListener('click', function () { self._placeCoin(den.v); });
       host.appendChild(b);
     });
-    if (this.premium && this.band > 1) {
+    if (this.premium && this.band > this.FREE_BANDS) {
       c.notes.forEach(function (den) {
         var b = self._noteBtn(den);
         b.addEventListener('click', function () { self._placeCoin(den.v); });
@@ -1351,7 +1397,7 @@ var MoneyMat = {
        DOM and scores as alive. */
     if (this.mode !== 'change') {
       [1, 2, 3].forEach(function (b) {
-        var locked = b > 1 && !self.premium;
+        var locked = b > self.FREE_BANDS && !self.premium;
         var chip = api.el('button', 'mm-chip' + (self.band === b ? ' active' : '') + (locked ? ' locked' : ''));
         chip.type = 'button';
         chip.innerHTML = api.t('bandChip' + b) + (locked ? lock : '');
@@ -1765,7 +1811,12 @@ var MoneyMat = {
   + '@media print{'
   +   '*{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}'
   +   '.lcs-header,.lcs-bar,.mm-scene,.mm-matzone,.mm-purse,.mm-phasehost,.mm-dock,.mm-gate{display:none !important;}'
-  +   '.mm-sheet{display:block !important;}'
+  +   '.mm-wrap.mm-paid .mm-sheet{display:block !important;}'
+  /* ⚠⚠ GATING THE CHIP IS NOT GATING THE FEATURE. Ctrl+P bypasses every
+     button on the page, so the reveal is scoped to an entitlement class the
+     MODEL writes — the recorded fraction-kitchen defect, caught here by a
+     native panel reading the CSS rather than the copy. */
+  +   '.mm-wrap:not(.mm-paid) .mm-sheet{display:none !important;}'
   +   '.mm-page{break-after:page;padding:0;}'
   +   '.mm-page:last-child{break-after:auto;}'
   +   '.mm-cutgrid{display:flex;flex-wrap:wrap;gap:6mm;align-items:center;}'

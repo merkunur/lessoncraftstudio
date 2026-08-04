@@ -20,11 +20,33 @@
    (comma decimals); price tags read minor-form under 1 major ("45 c"),
    major-form above ("2,30 €"), whole-krona always "7 kr".
 
+   CHANGE MODE — the child BUILDS the change; the keeper narrates.
+   Pick something to pay with, and the tender STAYS on the counter beside
+   the price for the whole count (it used to vanish the instant it was
+   tapped, so the child was asked to count up to a target that was not
+   there). Each coin tapped lands on the mat and draws a hop on the rail
+   whose LENGTH is its value, and the keeper says the move the CHILD just
+   made. The change is named at the END, as a numeral in the total pill —
+   never up front, which would turn a missing-addend into copy-the-number,
+   and never omitted, which is what the tool used to do: it ended by
+   announcing the TENDER, so a teacher paying 45c with $1 was told "that
+   makes 1 dollar" while holding 55c. The numeral, not a sentence, does
+   the saying — TTS is reliable in only five of the eleven locales and the
+   number the child came for must not depend on hearing.
+
+   THE MAT IS THE CHILD'S MONEY IN BOTH DIRECTIONS — what they put down
+   when paying, what comes back when getting change. The purse is a pouch
+   and the mat is a recessed tray, so the two halves of the only action in
+   the tool are two visibly different objects.
+
    NO-SHAME: no timers/scores/verdict colors; tap a mat coin to take it
    back (full reversibility); the another-way invitation is dismissible
    and simply persists until the multiset differs — never a scolding;
-   in change mode every offered choice is valid (no wrong tap exists);
-   the keeper's face NEVER reacts to the child (fixed smile, idle blink).
+   NO WRONG TAP CAN EXIST — not because it is forgiven but because it is
+   not offered: in change mode the purse shows only coins that still fit
+   the gap. Overpaying in shop mode runs past the notch as a HATCH, a
+   second kind and never a second hue, because a colour would be a verdict.
+   The keeper's face NEVER reacts to the child (fixed smile, idle blink).
 
    Items are alpha-trim-seated on the counter (the standing rule); item
    noun phrases are hand-authored per-locale literals. Pure engines
@@ -52,14 +74,12 @@ var MoneyMat = {
     changeStart:  {en:'That’s {price} — you paid {tender}. Here comes your change:',de:'Das macht {price} — du hast {tender} gegeben. Hier kommt dein Rückgeld:',fr:'Ça fait {price} — tu as donné {tender}. Voici ta monnaie :',it:'Fa {price} — hai dato {tender}. Ecco il tuo resto:',es:'Son {price} — pagaste con {tender}. Aquí tienes tu vuelta:',pt:'Deu {price} — você pagou com {tender}. Aqui vai o seu troco:',nl:'Dat is dan {price} — je betaalt met {tender}. Hier komt je wisselgeld:',sv:'Det blir {price} — du gav {tender}. Här kommer växeln:',da:'Det bliver {price} — du gav {tender}. Her kommer dine byttepenge:',no:'Det blir {price} — du betalte med {tender}. Her er pengene du skal ha igjen:',fi:'Se tekee {price} — sinulta tuli {tender}. Tässä vaihtorahasi:'},
     countOn:      {en:'…and {step} makes {run}.',de:'…und {step} macht {run}.',fr:'…et {step}, ça fait {run}.',it:'…e {step} fa {run}.',es:'…y {step} son {run}.',pt:'…e {step} dá {run}.',nl:'…en {step} erbij is {run}.',sv:'…och {step} blir {run}.',da:'…og {step} giver {run}.',no:'…og {step} — det blir {run}.',fi:'…ja {step} — yhteensä {run}.'},
     countDone:    {en:'…and that makes {tender}. All done!',de:'…und das macht {tender}. Fertig!',fr:'…et ça fait {tender}. Et voilà !',it:'…e così fa {tender}. Ecco fatto!',es:'…y así llegamos a {tender}. ¡Listo!',pt:'…e isso completa {tender}. Pronto!',nl:'…en dat is samen {tender}. Alsjeblieft!',sv:'…och det blir {tender}. Så där!',da:'…og det giver {tender}. Sådan!',no:'…og da har vi {tender}. Vær så god!',fi:'…ja niin on koossa {tender}. Valmista tuli!'},
-    takeCoin:     {en:'Take your coin!',de:'Nimm deine Münze!',fr:'Prends ta pièce !',it:'Prendi la tua moneta!',es:'¡Toma tu moneda!',pt:'Pegue sua moeda!',nl:'Pak je munt maar!',sv:'Varsågod — ta myntet!',da:'Tag din mønt!',no:'Ta mynten din!',fi:'Ota kolikkosi!'},
     speakTotal:   {en:'Say the total out loud',de:'Den Betrag vorlesen',fr:'Dire le total à voix haute',it:'Ascolta il totale',es:'Decir el total en voz alta',pt:'Falar o total em voz alta',nl:'Het bedrag hardop horen',sv:'Läs upp summan',da:'Sig beløbet højt',no:'Les opp summen',fi:'Lue summa ääneen'},
     matEmpty:     {en:'The mat is empty.',de:'Die Matte ist leer.',fr:'Le tapis est vide.',it:'Il tappeto è vuoto.',es:'El tapete está vacío.',pt:'O tapete está vazio.',nl:'De mat is leeg.',sv:'Mattan är tom.',da:'Måtten er tom.',no:'Matta er tom.',fi:'Matto on tyhjä.'},
     saveStall:    {en:'Save this stall',de:'Diesen Stand speichern',fr:'Enregistrer cet étal',it:'Salva questo banco',es:'Guardar este puesto',pt:'Salvar esta banca',nl:'Dit kraampje opslaan',sv:'Spara torgståndet',da:'Gem denne bod',no:'Lagre denne boden',fi:'Tallenna tämä koju'},
     savedList:    {en:'Saved stalls',de:'Gespeicherte Stände',fr:'Étals enregistrés',it:'Banchi salvati',es:'Puestos guardados',pt:'Bancas salvas',nl:'Opgeslagen kraampjes',sv:'Sparade torgstånd',da:'Gemte boder',no:'Lagrede boder',fi:'Tallennetut kojut'},
     gateBands:    {en:'Bigger prices, banknotes, getting change, and saved stalls are part of Premium. The small-price stall with every coin — and “make it another way” — is always free.',de:'Größere Preise, Geldscheine, Rückgeld und gespeicherte Stände gehören zu Premium. Der Stand mit kleinen Preisen und allen Münzen — samt „auch anders legen“ — bleibt immer kostenlos.',fr:'Les prix plus grands, les billets, la monnaie rendue et les étals enregistrés font partie de Premium. L’étal des petits prix avec toutes les pièces — et « d’une autre façon » — reste toujours gratuit.',it:'I prezzi più grandi, le banconote, il resto e i banchi salvati fanno parte di Premium. Il banco dei prezzi piccoli con tutte le monete — e «in un altro modo» — resta sempre gratuito.',es:'Los precios más grandes, los billetes, recibir la vuelta y los puestos guardados forman parte de Premium. El puesto de precios pequeños con todas las monedas — y el «de otra manera» — es gratis para siempre.',pt:'Preços maiores, cédulas, troco e bancas salvas fazem parte do Premium. A banca de preços pequenos com todas as moedas — e o “de outro jeito” — é sempre gratuita.',nl:'Grotere prijzen, briefgeld, wisselgeld en opgeslagen kraampjes horen bij Premium. Het kraampje met kleine prijzen en alle munten — én “op een andere manier” — blijft altijd gratis.',sv:'Högre priser, sedlar, växel och sparade torgstånd ingår i Premium. Torgståndet med låga priser och alla mynt — och ”på ett annat sätt” — är alltid gratis.',da:'Større priser, sedler, byttepenge og gemte boder er en del af Premium. Boden med små priser og alle mønter — og “på en anden måde” — er altid gratis.',no:'Større priser, sedler, vekslepenger og lagrede boder er en del av Premium. Boden med små priser og alle myntene — og «på en annen måte» — er alltid gratis.',fi:'Isommat hinnat, setelit, vaihtorahat ja tallennetut kojut kuuluvat Premiumiin. Pienten hintojen koju kolikoineen — ja ”toisella tavalla” — on aina ilmainen.'},
     unlock:       {en:'Unlock everything',de:'Alles freischalten',fr:'Tout débloquer',it:'Sblocca tutto',es:'Desbloquear todo',pt:'Desbloquear tudo',nl:'Alles ontgrendelen',sv:'Lås upp allt',da:'Lås alt op',no:'Lås opp alt',fi:'Avaa kaikki'},
-    loading:      {en:'Opening the stall…',de:'Der Stand wird aufgebaut…',fr:'On installe l’étal…',it:'Apriamo il banco…',es:'Abriendo el puesto…',pt:'Abrindo a banca…',nl:'Het kraampje gaat open…',sv:'Torgståndet öppnar…',da:'Boden åbner…',no:'Boden åpner…',fi:'Koju aukeaa…'},
     setCurrency:  {en:'Currency',de:'Währung',fr:'Devise',it:'Valuta',es:'Moneda',pt:'Moeda',nl:'Munteenheid',sv:'Valuta',da:'Valuta',no:'Valuta',fi:'Valuutta'},
     curUSD:       {en:'Dollars (USD)',de:'Dollar (USD)',fr:'Dollars (USD)',it:'Dollari (USD)',es:'Dólares (USD)',pt:'Dólares (USD)',nl:'Dollars (USD)',sv:'Dollar (USD)',da:'Dollar (USD)',no:'Dollar (USD)',fi:'Dollarit (USD)'},
     curGBP:       {en:'Pounds (GBP)',de:'Pfund (GBP)',fr:'Livres (GBP)',it:'Sterline (GBP)',es:'Libras (GBP)',pt:'Libras (GBP)',nl:'Ponden (GBP)',sv:'Pund (GBP)',da:'Pund (GBP)',no:'Pund (GBP)',fi:'Punnat (GBP)'},
@@ -550,10 +570,17 @@ var MoneyMat = {
     scene.appendChild(tag);
     wrap.appendChild(scene);
 
-    /* ------- mat + total ------- */
+    /* ------- mat + total -------
+       ⭐ THE MAT IS THE CHILD'S MONEY, IN BOTH DIRECTIONS. Paying, it holds
+       what they put down; getting change, it holds what comes back. Same
+       object, same meaning, so the total pill above it needs no relabelling
+       to become the answer to "how much did I get back?" — which is the
+       question the tool used to end without answering.
+       ⚠ The pill used to be HIDDEN for the whole of change mode, taking the
+       speaker chip with it: the one on-demand spoken readout, gone from the
+       one flow that most needed it, in the six locales that have no voice. */
     var matZone = api.el('div', 'mm-matzone');
-    var inChange = this.phase === 'changePick' || this.phase === 'changeCount';
-    var totalRow = api.el('div', 'mm-totalrow' + (inChange ? ' mm-hidden' : ''));
+    var totalRow = api.el('div', 'mm-totalrow' + (this.phase === 'changePick' ? ' mm-hidden' : ''));
     var pill = api.el('div', 'mm-total');
     pill.textContent = this.formatLike(this.trayTotal());
     this._totalEl = pill;
@@ -567,6 +594,8 @@ var MoneyMat = {
     });
     totalRow.append(pill, spk);
     matZone.appendChild(totalRow);
+    this._railEl = api.el('div', 'mm-rail');
+    matZone.appendChild(this._railEl);
     var mat = api.el('div', 'mm-mat');
     this._matEl = mat;
     matZone.appendChild(mat);
@@ -682,8 +711,24 @@ var MoneyMat = {
       });
       return;
     }
-    if (this.phase === 'changeCount' || this.phase === 'bothWays') return;
+    if (this.phase === 'bothWays' || this.phase === 'changeDone') return;
     var c = this.curView();
+    if (this.phase === 'changeCount') {
+      /* ⭐ NO WRONG TAP CAN EXIST — not because a wrong tap is forgiven, but
+         because it is not offered. The purse shows only coins that still fit
+         in the gap, which is the same mechanism tendersFor already uses to
+         guarantee every tender is valid. Remove the wrong option; never
+         punish it. Nothing here is ever marked, because there is no wrong
+         state to mark. */
+      var gap = this.changeGap();
+      c.coins.forEach(function (den) {
+        if (den.v > gap) return;
+        var b = self._coinBtn(den);
+        b.addEventListener('click', function () { self._placeCoin(den.v); });
+        host.appendChild(b);
+      });
+      return;
+    }
     c.coins.forEach(function (den) {
       var b = self._coinBtn(den);
       b.addEventListener('click', function () { self._placeCoin(den.v); });
@@ -697,9 +742,15 @@ var MoneyMat = {
       });
     }
   },
+  /* how much of the change is still owed */
+  changeGap: function () {
+    if (!this.chg) return 0;
+    return (this.chg.tender - this.price) - this.trayTotal();
+  },
 
   _placeCoin: function (v) {
-    if (this.phase === 'bothWays' || this.phase === 'changePick' || this.phase === 'changeCount') return;
+    if (this.phase === 'bothWays' || this.phase === 'changePick' || this.phase === 'changeDone') return;
+    if (this.phase === 'changeCount' && v > this.changeGap()) return;
     this.tray.push(v);
     var den = this._denOf(v);
     this._sfxClink(den ? (den.d || 40) : 40);
@@ -707,7 +758,7 @@ var MoneyMat = {
     this._checkPaid();
   },
   _removeCoin: function (idx) {
-    if (this.phase === 'bothWays') return;
+    if (this.phase === 'bothWays' || this.phase === 'changeDone') return;
     var v = this.tray.splice(idx, 1)[0];
     var den = this._denOf(v);
     this._sfxClink(den ? (den.d || 40) : 40, true);
@@ -727,8 +778,35 @@ var MoneyMat = {
        non-matching total.) */
     this._checkPaid();
   },
+  /* ⭐ THE COUNT IS THE CHILD'S, AND THE CHANGE IS NAMED AT THE END.
+     The keeper narrates the move the CHILD just made — "…and 25 cents makes
+     75 cents" — which is the correct counting-on utterance and is already
+     authored in all eleven locales, so not one string changes shape here.
+     The change amount itself is spoken by the NUMERAL in the total pill
+     above the mat, not by a sentence: TTS is reliable in only five of the
+     eleven locales, and the number the child came for must not depend on
+     hearing. Naming it up front would have handed over the answer and turned
+     a missing-addend into copy-the-number; never naming it is what the tool
+     used to do, ending without answering its own question. */
+  _checkChange: function () {
+    if (!this.chg) return;
+    var last = this.tray.length ? this.tray[this.tray.length - 1] : 0;
+    var run = this.price + this.trayTotal();
+    if (this.changeGap() <= 0) {
+      this._sfxTick(true);
+      this._speak(this.fmt('countDone', { tender: this.spokenAmount(this.chg.tender) }));
+      this._sfxCelebrate();
+      this.phase = 'changeDone';
+    } else if (last) {
+      this._sfxTick(false);
+      this._speak(this.fmt('countOn', { step: this.spokenAmount(last), run: this.spokenAmount(run) }));
+    }
+    this._paintPhase();
+    this._paintPurse();
+  },
   _paintTray: function () {
     var self = this;
+    this._paintRail();
     if (!this._matEl) return;
     this._matEl.innerHTML = '';
     this.tray.forEach(function (v, i) {
@@ -741,8 +819,68 @@ var MoneyMat = {
     });
     if (this._totalEl) this._totalEl.textContent = this.formatLike(this.trayTotal());
   },
+  /* ================== THE RAIL — pure geometry ======================
+     ⭐ Shop mode is a COLLECTION on a mat (cardinality); change mode is a
+     JOURNEY on a line (missing addend). Same tap, two different
+     mathematical objects — and if change mode showed a collection too, the
+     two modes would collapse into each other. So the rail is load-bearing,
+     not decoration.
+       shop:   domain 0 → price, filled by the tray
+       change: domain price → tender, filled coin by coin, each one a hop
+               whose LENGTH is its value. Taking 5c where 25c would do costs
+               five cramped hops instead of one, and the child SEES five.
+               That is the material pushing back — no verdict, no colour.
+     Overshoot is drawn in a second KIND (a hatch), never a second hue: a
+     colour here would be a verdict, and this tool does not deliver verdicts.
+     Returns a pure descriptor so the geometry can be gated without a DOM. */
+  railModel: function () {
+    var inChange = (this.phase === 'changeCount' || this.phase === 'changeDone') && this.chg;
+    var from = inChange ? this.price : 0;
+    var to = inChange ? this.chg.tender : this.price;
+    var span = Math.max(1, to - from);
+    var hops = [];
+    var run = from;
+    if (inChange) {
+      for (var i = 0; i < this.tray.length; i++) {
+        hops.push({ v: this.tray[i], from: run, to: run + this.tray[i], pct: (this.tray[i] / span) * 100 });
+        run += this.tray[i];
+      }
+    } else {
+      run = from + Math.min(this.trayTotal(), span);
+    }
+    var over = inChange ? 0 : Math.max(0, this.trayTotal() - this.price);
+    return {
+      from: from, to: to, span: span, run: run, hops: hops, over: over,
+      fillPct: Math.max(0, Math.min(100, ((run - from) / span) * 100)),
+      overPct: Math.min(100, (over / span) * 100),
+      done: run >= to
+    };
+  },
+  _paintRail: function () {
+    if (!this._railEl) return;
+    var r = this.railModel();
+    var el = this._railEl;
+    /* the rail is a picture of the numerals beside it — screen readers get
+       the numerals, so the drawing itself is decorative */
+    el.setAttribute('aria-hidden', 'true');
+    var html = '<span class="mm-rail-track">';
+    if (r.hops.length) {
+      for (var i = 0; i < r.hops.length; i++) {
+        html += '<span class="mm-hop" style="width:' + r.hops[i].pct.toFixed(4) + '%"></span>';
+      }
+    } else if (r.fillPct > 0) {
+      html += '<span class="mm-hop solo" style="width:' + r.fillPct.toFixed(4) + '%"></span>';
+    }
+    if (r.overPct > 0) html += '<span class="mm-over" style="width:' + r.overPct.toFixed(4) + '%"></span>';
+    html += '</span>';
+    html += '<span class="mm-rail-ends"><span>' + this.formatLike(r.from) + '</span><span>' + this.formatLike(r.to) + '</span></span>';
+    el.innerHTML = html;
+    el.classList.toggle('mm-rail-change', this.phase === 'changeCount');
+  },
+
   _checkPaid: function () {
     var self = this;
+    if (this.phase === 'changeCount') { this._checkChange(); return; }
     if (this.trayTotal() !== this.price) { this._paintPhase(); return; }
     if (this.phase === 'paying') {
       this._sfxCelebrate();
@@ -819,62 +957,37 @@ var MoneyMat = {
       pick.textContent = api.t('pickTender');
       host.appendChild(pick);
     }
-    if (this.phase === 'changeCount' && this.chg) {
-      var strip = api.el('div', 'mm-countstrip');
-      strip.textContent = this._chgStripText();
-      host.appendChild(strip);
-      if (this.chg.idx < this.chg.coins.length) {
-        var offer = api.el('div', 'mm-offer');
-        var lbl = api.el('span', 'mm-offer-lbl');
-        lbl.textContent = api.t('takeCoin');
-        var den = this._denOf(this.chg.coins[this.chg.idx]);
-        var b = den.fam ? this._coinBtn(den) : this._noteBtn(den);
-        b.addEventListener('click', function () { self._acceptChange(); });
-        offer.append(lbl, b);
-        host.appendChild(offer);
-      } else {
-        var takenBox = api.el('div', 'mm-way');
-        this.chg.coins.forEach(function (v) {
-          var den = self._denOf(v);
-          takenBox.innerHTML += self._discHTML(den);
-        });
-        host.appendChild(takenBox);
-      }
+    if ((this.phase === 'changeCount' || this.phase === 'changeDone') && this.chg) {
+      /* ⭐ THE TENDER STAYS ON SCREEN, AS ONE WHOLE OBJECT.
+         It used to VANISH the instant it was tapped — _paintPurse returned
+         without painting and :empty removed the box — so the child was asked
+         to count up to a target that was not there. Nothing on screen said
+         "I gave a dollar; the bread cost 45c". Now the counter holds the
+         price beside the coin that paid it, for the whole count. */
+      var deck = api.el('div', 'mm-deck');
+      var gave = api.el('div', 'mm-gave');
+      var gden = this._denOf(this.chg.tender);
+      gave.innerHTML = gden ? (gden.fam ? this._discHTML(gden) : this._discHTML(gden)) : '';
+      var paidTag = api.el('span', 'mm-deck-price');
+      paidTag.textContent = this.formatLike(this.price);
+      deck.append(paidTag, gave);
+      host.appendChild(deck);
     }
-  },
-  _chgStripText: function () {
-    if (!this.chg) return '';
-    var taken = this.chg.coins.slice(0, this.chg.idx);
-    var run = this.price;
-    var parts = [this.formatLike(this.price)];
-    for (var i = 0; i < taken.length; i++) { run += taken[i]; parts.push(this.formatLike(run)); }
-    return parts.join(' → ');
   },
   _pickTender: function (den) {
-    var change = den.v - this.price;
-    var coins = this.greedyChange(change, this.curView().coins.map(function (d) { return d.v; }));
-    if (!coins) return;
-    this.chg = { tender: den.v, coins: coins, idx: 0, run: this.price };
+    /* the child builds the change; the keeper no longer computes it up front */
+    if (den.v <= this.price) return;
+    this.chg = { tender: den.v };
+    this.tray = [];
     this.phase = 'changeCount';
     this._speak(this.fmt('changeStart', { price: this.spokenAmount(this.price), tender: this.spokenAmount(den.v) }));
-    this._paintPhase();
-    this._paintPurse();
+    this.render();
   },
-  _acceptChange: function () {
-    if (!this.chg || this.chg.idx >= this.chg.coins.length) return;
-    var v = this.chg.coins[this.chg.idx];
-    this.chg.idx++;
-    this.chg.run += v;
-    var last = this.chg.idx >= this.chg.coins.length;
-    this._sfxTick(last);
-    if (last) {
-      this._speak(this.fmt('countDone', { tender: this.spokenAmount(this.chg.tender) }));
-      this._sfxCelebrate();
-    } else {
-      this._speak(this.fmt('countOn', { step: this.spokenAmount(v), run: this.spokenAmount(this.chg.run) }));
-    }
-    this._paintPhase();
-  },
+  /* _acceptChange is GONE. It was a control with exactly one valid option
+     and no branch — the child tapped "take" up to six times while the keeper
+     read out a script it had computed before the routine began. Nothing was
+     counted ON by the child, which is why the mode performed rather than
+     taught. The count is now built by _placeCoin like any other coin. */
 
   /* ============================ dock =============================== */
 
@@ -1058,8 +1171,17 @@ var MoneyMat = {
   +   'font-size:21px;color:var(--lcs-structure);}'
   + '.mm-speak{width:46px;height:46px;border-radius:50%;border:1.5px solid var(--lcs-line);background:var(--lcs-surface);'
   +   'color:var(--lcs-structure);cursor:pointer;display:inline-flex;align-items:center;justify-content:center;}'
-  + '.mm-mat{min-height:104px;background:#F6E8CF;border:2.5px dashed rgba(20,107,94,.28);border-radius:16px;'
-  +   'display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:4px;padding:8px;}'
+  /* ⭐ THE MAT IS A RECESSED TRAY; THE PURSE IS A POUCH.
+     They used to be the same dashed rounded box, so nothing on screen
+     distinguished "coins I can take" from "coins I have put down" — the two
+     halves of the only action the tool has. The mat is now sunk into the
+     counter (inner shadow, no dash, a darker well) and its coins cast a
+     shadow onto it; the purse sits proud with a lip over its contents and
+     its coins are bedded INTO it. Two objects, two readings, no words. */
+  + '.mm-mat{min-height:104px;background:#F0DFC0;border:none;border-radius:14px;'
+  +   'box-shadow:inset 0 3px 7px rgba(90,70,48,.28), inset 0 -1px 0 rgba(255,255,255,.5);'
+  +   'display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:6px;padding:10px;}'
+  + '.mm-mat .mm-disc{box-shadow:inset 0 0 0 2.5px rgba(90,70,48,.35), 0 3px 5px rgba(20,30,28,.28);}'
 
   /* coins + notes */
   + '.mm-coinbtn,.mm-notebtn{min-width:46px;min-height:46px;padding:2px;border:none;background:none;cursor:pointer;'
@@ -1099,9 +1221,15 @@ var MoneyMat = {
   + '.mm-note u{position:absolute;top:2px;left:6px;text-decoration:none;font-size:.5em;opacity:.7;}'
 
   /* purse */
-  + '.mm-purse{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:2px;'
-  +   'width:min(var(--mm-w,680px),94vw);min-height:56px;background:var(--lcs-surface);border:1.5px dashed rgba(20,107,94,.3);'
-  +   'border-radius:16px;padding:4px 8px;}'
+  + '.mm-purse{position:relative;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:6px;'
+  +   'width:min(var(--mm-w,680px),94vw);min-height:56px;background:#F7EEDC;border:none;'
+  +   'border-radius:10px 10px 20px 20px;padding:12px 10px 8px;'
+  +   'box-shadow:0 2px 0 rgba(90,70,48,.18), 0 6px 14px -6px rgba(20,30,28,.28);}'
+  /* the pouch lip, drawn over the coins so they read as sitting INSIDE it */
+  + '.mm-purse::before{content:"";position:absolute;left:0;right:0;top:0;height:9px;'
+  +   'background-color:#E4D2B2;border-radius:10px 10px 0 0;'
+  +   'box-shadow:inset 0 -2px 3px rgba(90,70,48,.22);}'
+  + '.mm-purse .mm-disc{box-shadow:inset 0 0 0 2.5px rgba(90,70,48,.35), inset 0 3px 5px rgba(90,70,48,.22);}'
 
   /* phases */
   + '.mm-phasehost{display:flex;flex-direction:column;align-items:center;gap:6px;width:min(var(--mm-w,680px),94vw);}'
@@ -1122,13 +1250,33 @@ var MoneyMat = {
   + '.mm-bothprice{font-family:var(--lcs-font-display);font-weight:800;'
   +   'font-size:calc(17px * var(--mm-tsc,1));color:#146B5E;white-space:nowrap;}'
   + '.mm-bothcap{font-family:var(--lcs-font-display);font-weight:700;font-size:calc(14px * var(--mm-tsc,1));color:#5A4630;text-align:center;}'
-  + '.mm-changeline{font-family:var(--lcs-font-display);font-weight:700;font-size:14.5px;color:var(--lcs-ink);text-align:center;}'
-  + '.mm-countstrip{font-family:var(--lcs-font-display);font-weight:800;font-size:15px;color:#146B5E;'
-  +   'background:var(--lcs-surface);border:1.5px solid var(--lcs-line);border-radius:var(--lcs-radius-pill);'
-  +   'padding:6px 14px;max-width:100%;overflow-x:auto;white-space:nowrap;}'
-  + '.mm-offer{display:flex;align-items:center;gap:10px;background:var(--lcs-surface);border:1.5px dashed rgba(20,107,94,.35);'
-  +   'border-radius:16px;padding:6px 14px;}'
-  + '.mm-offer-lbl{font-family:var(--lcs-font-display);font-weight:700;font-size:13.5px;color:var(--lcs-ink-soft);}'
+  + '.mm-changeline{font-family:var(--lcs-font-display);font-weight:700;font-size:calc(14.5px * var(--mm-tsc,1));color:var(--lcs-ink);text-align:center;}'
+
+  /* ⭐ THE RAIL — a JOURNEY, where the mat is a COLLECTION.
+     Each hop is its own segment with a hard divider, so five 5c hops read as
+     five cramped steps and one 25c hop reads as one stride. That difference
+     IS the pushback: fewest-coins gets discovered rather than demonstrated.
+     Overshoot is a HATCH — a second kind, never a second hue, because a
+     colour here would be a verdict and this tool does not deliver verdicts. */
+  + '.mm-rail{display:flex;flex-direction:column;gap:3px;padding:0 2px;}'
+  + '.mm-rail-track{display:flex;align-items:stretch;height:calc(16px * var(--mm-tsc,1));'
+  +   'background:#EFE3CB;border:1.5px solid rgba(90,70,48,.25);border-radius:var(--lcs-radius-pill);overflow:hidden;}'
+  + '.mm-hop{background-color:#146B5E;box-shadow:inset -1.5px 0 0 rgba(253,249,240,.85);'
+  +   'transition:width .18s var(--lcs-ease);}'
+  + '.mm-hop.solo{box-shadow:none;}'
+  + '.mm-hop:last-child{box-shadow:none;}'
+  + '.mm-over{background-image:repeating-linear-gradient(135deg,#146B5E 0 5px,#EFE3CB 5px 10px);'
+  +   'box-shadow:inset 1.5px 0 0 rgba(253,249,240,.9);}'
+  + '.mm-rail-ends{display:flex;justify-content:space-between;font-family:var(--lcs-font-display);'
+  +   'font-weight:800;font-size:calc(13px * var(--mm-tsc,1));color:#5A4630;opacity:.85;}'
+
+  /* the counter deck: the price, and beside it the money that paid it */
+  + '.mm-deck{display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;'
+  +   'background:var(--lcs-surface);border:1.5px solid var(--lcs-line);border-radius:16px;padding:8px 16px;}'
+  + '.mm-deck-price{font-family:var(--lcs-font-display);font-weight:800;'
+  +   'font-size:calc(19px * var(--mm-tsc,1));color:#5A4630;}'
+  + '.mm-gave{display:flex;align-items:center;gap:6px;}'
+  + '.mm-gave::before{content:"";width:calc(22px * var(--mm-tsc,1));height:2px;background:rgba(90,70,48,.35);border-radius:2px;}'
 
   /* gate + stalls + dock */
   + '.mm-gate{display:flex;flex-direction:column;gap:5px;padding:10px 14px;max-width:560px;margin:2px auto;'

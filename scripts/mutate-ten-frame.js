@@ -90,7 +90,7 @@ const M = [
   ['ghostList and occupiedList are the same list', 'for (i = 0; i < cap; i++) if (gm & (1 << i)) out.push(i);', 'for (i = 0; i < cap; i++) if (s.m & (1 << i)) out.push(i);'],
 
   /* ---- [V4] derived, never stored -------------------------------------- */
-  ['⭐ the ghost gets a slot of its own to corrupt', "newState: function () { return { g: 'ten', m: 0, split: null }; },", "newState: function () { return { g: 'ten', m: 0, split: null, ghost: 0 }; },"],
+  ['⭐ the ghost gets a slot of its own to corrupt', "newState: function () { return { g: 'ten', m: 0 }; },", "newState: function () { return { g: 'ten', m: 0, ghost: 0 }; },"],
 
   /* ---- [V5] T2, the tidy ----------------------------------------------- */
   ['⭐ Tidy does nothing at all', 's.m = this.canonicalMask(s.g, this.count(s));\n      return s;', 'return s;'],
@@ -131,7 +131,18 @@ const M = [
      gate now ASSERTS the equivalence (V8), so a future reader cannot
      mistake one of them for load-bearing on its own. */
   ['place silently overwrites an occupied cell', 'if (s.m & (1 << i)) return null;                  /* occupied: refuse */', 'if (false) return null;'],
-  ['lift adds a counter instead of removing one', 's.m = s.m & ~(1 << i);', 's.m = s.m | (1 << i);'],
+  /* ⚠ ANCHORED ON THE WHOLE FUNCTION. `s.m = s.m & ~(1 << i);` now
+     appears TWICE — in lift() and in the scattered branch of tap() —
+     and a first-occurrence replace silently mutated tap instead, which
+     the gate did not see. A needle that matches the wrong function
+     tests the wrong thing. */
+  ['lift adds a counter instead of removing one',
+    'if (!(s.m & (1 << i))) return null;\n      s.m = s.m & ~(1 << i);',
+    'if (!(s.m & (1 << i))) return null;\n      s.m = s.m | (1 << i);'],
+  ['⭐ tap on a scattered board adds instead of removing', '        else s.m = s.m & ~(1 << i);', '        else s.m = s.m | (1 << i);'],
+  ['⭐ tap treats a scattered board as a fill level',
+    'if (s.m === ((1 << this.count(s)) - 1)) s.m = s.m & ((1 << i) - 1);\n        else s.m = s.m & ~(1 << i);',
+    's.m = s.m & ((1 << i) - 1);'],
   ['move duplicates the counter it carries', 's.m = (s.m & ~(1 << a)) | (1 << b);', 's.m = s.m | (1 << b);'],
   ['move accepts an occupied destination', 'if (s.m & (1 << b)) return null;                  /* destination taken */', 'if (false) return null;'],
   ['fillRest fills all but one', 's.m = this.fullMask(s.g);', 's.m = this.fullMask(s.g) >> 1;'],
@@ -141,7 +152,6 @@ const M = [
   ['an unknown field passes straight through', "g = (st && typeof st === 'object' && typeof st.g === 'string' && GEOM[st.g]) ? st.g : d.g;", "g = (st && typeof st === 'object' && typeof st.g === 'string') ? st.g : d.g;"],
   ['a mask keeps bits the field cannot hold', 'm = m & ((1 << cap) - 1);', 'm = m;'],
   ['a negative mask survives', 'if (m < 0) m = 0;', 'if (m < 0) m = m;'],
-  ['the split escapes its range', 'if (split < 1 || split >= cap) split = null;', 'if (split < 1) split = null;'],
 
   /* ---- [V9] changing the field ------------------------------------------- */
   ['⭐ shrinking the field shifts every counter instead of keeping it', 's.m = s.m & ((1 << this.capOf(g)) - 1);', 's.m = (s.m >> 1) & ((1 << this.capOf(g)) - 1);'],

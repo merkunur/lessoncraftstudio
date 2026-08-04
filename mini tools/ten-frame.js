@@ -20,8 +20,18 @@
    `rail` are #37 in every non-EN locale; `line` is #1 in all eleven;
    `tape` #40, `strand` #41, `plank` #42, `column`/`scale` #43,
    `ladder` measurement-bench, `bag` #38, `lid` #39. `frame`, `cell`,
-   `counter` and `tray` were free — and `frame` is this tool's own head
+   `frame` and `cell` were free, and `frame` is this tool's own head
    term already, in all eleven.
+   ⚠ CORRECTION, from the Spanish and Italian panels: this census also
+   claimed `counter` and `tray`. NEITHER IS FREE. part-whole-frame
+   carries "carry one counter across" as its sole affordance, and
+   `tray` is fraction-kitchen's named PAID station; in Italian both
+   `gettone` and `vassoio` were taken three ways over. English keeps
+   them because no sibling owns them as a TITLE, but every locale had
+   to find its own noun and several did — es `la reserva`, fr `la
+   barquette` (not `plateau`, which number-balance owns as the pan),
+   it `la vaschetta`. A census that is WRONG is worse than none,
+   because it was handed to ten panels as ground truth.
 
    ⚠⚠ WHY THIS BUILD EXISTS. Two independent reasons, both measured.
 
@@ -227,7 +237,9 @@
      panel, and hypotheses do not ship. */
   var GEOMETRY_BY_LOCALE = {
     'default': { single: 'ten', twenty: 'twentypair' },
-    de:        { single: 'ten', twenty: 'twentyfield' }
+    de:        { single: 'ten', twenty: 'twentyfield' },
+    nl:        { single: 'ten', twenty: 'twentyfield' },
+    it:        { single: 'ten', twenty: 'twentyfield' }
   };
   function geometryFor(loc) {
     return GEOMETRY_BY_LOCALE[loc] || GEOMETRY_BY_LOCALE['default'];
@@ -250,53 +262,52 @@
        --------------------------------------------------------------- */
     strings: {
       title: {en:'Ten Frame',de:'Zehnerfeld',fr:'Cadre de dix',it:'Tabella del dieci',es:'Marco de diez',pt:'Quadro de dez',nl:'Tienraam',sv:'Tioram',da:'Tierramme',no:'Tierramme',fi:'Kymmenruudukko'},
-      instruction: {en:'Put counters in the frame — and look at how much room is left.',de:'Lege Plättchen ins Feld — und schau, wie viel Platz noch frei ist.',fr:'Place des jetons dans le cadre — et regarde la place qui reste.',it:'Metti i gettoni nella tabella — e guarda quanto posto resta.',es:'Pon fichas en el marco — y mira cuánto sitio queda.',pt:'Coloque fichas no quadro — e veja quanto espaço sobra.',nl:'Leg fiches in het raam — en kijk hoeveel plaats er nog vrij is.',sv:'Lägg brickor i ramen — och titta hur mycket plats som är kvar.',da:'Læg brikker i rammen — og se, hvor meget plads der er tilbage.',no:'Legg brikker i rammen — og se hvor mye plass som er igjen.',fi:'Aseta nappuloita ruudukkoon — ja katso, paljonko tilaa on jäljellä.'},
+      instruction: {en:'Put counters in the frame — and look at how much room is left.',de:'Lege Plättchen ins Feld — und schau, wie viel Platz noch frei ist.',fr:'Place des jetons dans le cadre — et regarde la place qui reste.',it:'Metti i dischetti nella tabella — e guarda quanto posto resta libero.',es:'Pon fichas en el marco y mira cuánto espacio queda.',pt:'Coloque fichas no quadro — e veja quanto espaço ainda sobra.',nl:'Leg fiches in het raam — en kijk hoeveel plaats er nog vrij is.',sv:'Lägg brickor i ramen — och se hur mycket plats som är kvar.',da:'Læg brikker i rammen — og se, hvor meget plads der er tilbage.',no:'Legg brikker i rammen — og se hvor mye plass som er igjen.',fi:'Aseta nappuloita ruudukkoon — ja katso, paljonko tilaa on vielä jäljellä.'},
 
       /* the five field chips. ⚠ EACH IS A WHOLE AUTHORED PHRASE, never
          a label glued to a number — `part-whole-frame.js:449-451`
          records that construction breaking Finnish case-marking, found
          by three ensembles. */
       fieldFive: {en:'Frame of five',de:'Fünferfeld',fr:'Cadre de cinq',it:'Tabella del cinque',es:'Marco de cinco',pt:'Quadro de cinco',nl:'Vijfraam',sv:'Femram',da:'Femramme',no:'Femramme',fi:'Viiden ruudukko'},
-      fieldTen: {en:'Frame of ten',de:'Zehnerfeld',fr:'Cadre de dix',it:'Tabella del dieci',es:'Marco de diez',pt:'Quadro de dez',nl:'Tienraam',sv:'Tioram',da:'Tierramme',no:'Tierramme',fi:'Kymmenen ruudukko'},
-      fieldTenRow: {en:'Ten in a row',de:'Zehnerstreifen',fr:'Dix en ligne',it:'Dieci in fila',es:'Diez en fila',pt:'Dez em fila',nl:'Tien op een rij',sv:'Tio på rad',da:'Ti på række',no:'Ti på rad',fi:'Kymmenen rivissä'},
-      fieldTwentyField: {en:'Field of twenty',de:'Zwanzigerfeld',fr:'Cadre de vingt',it:'Tabella del venti',es:'Marco de veinte',pt:'Quadro de vinte',nl:'Twintigveld',sv:'Tjugofält',da:'Tyvefelt',no:'Tjuefelt',fi:'Kahdenkymmenen kenttä'},
-      fieldTwentyPair: {en:'Two frames of ten',de:'Zwei Zehnerfelder',fr:'Deux cadres de dix',it:'Due tabelle del dieci',es:'Dos marcos de diez',pt:'Dois quadros de dez',nl:'Twee tienramen',sv:'Två tioramar',da:'To tierrammer',no:'To tierrammer',fi:'Kaksi kymmenruudukkoa'},
+      fieldTen: {en:'Frame of ten',de:'Zehnerfeld',fr:'Cadre de dix',it:'Tabella del dieci',es:'Marco de diez',pt:'Quadro de dez',nl:'Tienraam',sv:'Tioram',da:'Tierramme',no:'Tierramme',fi:'Kymmenruudukko'},
+      fieldTenRow: {en:'Ten in a row',de:'Zehn in einer Reihe',fr:'Dix à la file',it:'Dieci in fila',es:'Diez en fila',pt:'Dez em fila',nl:'Tien op een rij',sv:'Tio på rad',da:'Ti på række',no:'Ti på rad',fi:'Kymmenen rivissä'},
+      fieldTwentyField: {en:'Frame of twenty',de:'Zwanzigerfeld',fr:'Cadre de vingt',it:'Tabella del venti',es:'Marco de veinte',pt:'Quadro de vinte',nl:'Twintigveld',sv:'Tjugo i en ram',da:'Tyverramme',no:'Tjuefelt',fi:'Kahdenkymmenen ruudukko'},
+      fieldTwentyPair: {en:'Two frames of ten',de:'Zwei Zehnerfelder',fr:'Deux cadres de dix',it:'Due tabelle del dieci',es:'Dos marcos de diez',pt:'Dois quadros de dez',nl:'Dubbel tienraam',sv:'Två tioramar',da:'To tierrammer',no:'Dobbel tierramme',fi:'Kaksi kymmenruudukkoa'},
 
       /* the stage controls */
-      tidyBtn: {en:'Tidy',de:'Ordnen',fr:'Ranger',it:'Riordina',es:'Ordenar',pt:'Arrumar',nl:'Ordenen',sv:'Ordna',da:'Ordn',no:'Ordne',fi:'Järjestä'},
-      fillBtn: {en:'Fill the rest',de:'Rest auffüllen',fr:'Compléter',it:'Completa',es:'Completar',pt:'Completar',nl:'Aanvullen',sv:'Fyll resten',da:'Fyld resten',no:'Fyll resten',fi:'Täytä loput'},
-      keepsBtn: {en:'Keeps',de:'Merkfelder',fr:'Mes cadres',it:'I miei quadri',es:'Mis marcos',pt:'Meus quadros',nl:'Bewaarde ramen',sv:'Sparade ramar',da:'Gemte rammer',no:'Lagrede rammer',fi:'Talteen'},
-      routinesBtn: {en:'Routines',de:'Übungsfolgen',fr:'Séries',it:'Percorsi',es:'Secuencias',pt:'Sequências',nl:'Reeksen',sv:'Serier',da:'Serier',no:'Serier',fi:'Sarjat'},
+      tidyBtn: {en:'Tidy',de:'Ordnen',fr:'Aligner',it:'Allinea',es:'Ordenar',pt:'Alinhar',nl:'Netjes leggen',sv:'Ordna',da:'Ordn',no:'Still opp',fi:'Järjestä'},
+      fillBtn: {en:'Fill the rest',de:'Rest auffüllen',fr:'Compléter',it:'Riempi tutto',es:'Llenar lo que falta',pt:'Encher tudo',nl:'Vol maken',sv:'Fyll resten',da:'Fyld resten',no:'Fyll opp',fi:'Täytä loput'},
+      keepsBtn: {en:'Keeps',de:'Meine Felder',fr:'Mes cadres',it:'Le mie tabelle',es:'Mis marcos',pt:'Meus quadros',nl:'Bewaarde ramen',sv:'Mina ramar',da:'Mine rammer',no:'Mine rammer',fi:'Talteen'},
       printBtn: {en:'Print',de:'Drucken',fr:'Imprimer',it:'Stampa',es:'Imprimir',pt:'Imprimir',nl:'Afdrukken',sv:'Skriv ut',da:'Print',no:'Skriv ut',fi:'Tulosta'},
 
       /* the drawer */
-      counterLabel: {en:'Counters',de:'Plättchen',fr:'Jetons',it:'Gettoni',es:'Fichas',pt:'Fichas',nl:'Fiches',sv:'Brickor',da:'Brikker',no:'Brikker',fi:'Nappulat'},
+      counterLabel: {en:'Counters',de:'Plättchen',fr:'Jetons',it:'Dischetti',es:'Color de las fichas',pt:'Cor das fichas',nl:'Fiches',sv:'Brickor',da:'Brikker',no:'Brikkefarge',fi:'Nappulat'},
       showNumber: {en:'Show the number',de:'Zahl anzeigen',fr:'Afficher le nombre',it:'Mostra il numero',es:'Mostrar el número',pt:'Mostrar o número',nl:'Getal tonen',sv:'Visa talet',da:'Vis tallet',no:'Vis tallet',fi:'Näytä luku'},
-      uprightLabel: {en:'Stand it upright',de:'Hochkant stellen',fr:'Mettre debout',it:'Metti in verticale',es:'Poner de pie',pt:'Pôr em pé',nl:'Rechtop zetten',sv:'Ställ på höjden',da:'Stil på højkant',no:'Sett på høykant',fi:'Pystyasentoon'},
-      orderLabel: {en:'Filling order',de:'Reihenfolge',fr:'Ordre de remplissage',it:'Ordine di riempimento',es:'Orden de llenado',pt:'Ordem de preenchimento',nl:'Volgorde van vullen',sv:'Ordning',da:'Rækkefølge',no:'Rekkefølge',fi:'Täyttöjärjestys'},
+      uprightLabel: {en:'Stand it upright',de:'Hochkant stellen',fr:'Poser à la verticale',it:'Mettila in verticale',es:'Poner el marco vertical',pt:'Colocar em pé',nl:'Rechtop zetten',sv:'Ställ på högkant',da:'Stil på højkant',no:'Sett på høykant',fi:'Pystyasentoon'},
+      orderLabel: {en:'Filling order',de:'Reihenfolge beim Legen',fr:'Ordre de remplissage',it:'Ordine di riempimento',es:'Orden de llenado',pt:'Ordem de preenchimento',nl:'Volgorde van vullen',sv:'Så fylls ramen',da:'Rækkefølge',no:'Rekkefølge',fi:'Täyttöjärjestys'},
       orderRows: {en:'Row by row',de:'Reihe für Reihe',fr:'Ligne par ligne',it:'Riga per riga',es:'Fila por fila',pt:'Linha por linha',nl:'Rij voor rij',sv:'Rad för rad',da:'Række for række',no:'Rad for rad',fi:'Rivi riviltä'},
-      orderPairs: {en:'In pairs',de:'Paarweise',fr:'Par paires',it:'A coppie',es:'Por parejas',pt:'Aos pares',nl:'Per twee',sv:'Parvis',da:'Parvis',no:'Parvis',fi:'Pareittain'},
+      orderPairs: {en:'In pairs',de:'Paarweise',fr:'Deux par deux',it:'A due a due',es:'De dos en dos',pt:'Aos pares',nl:'Twee tegelijk',sv:'Parvis',da:'Parvis',no:'To og to',fi:'Pareittain'},
 
       /* screen-reader names. ⚠ `filledAt` is a WHOLE per-locale
          template with {n} in it — never `ordinal + ", " + word`. */
       frameAria: {en:'The frame',de:'Das Feld',fr:'Le cadre',it:'La tabella',es:'El marco',pt:'O quadro',nl:'Het raam',sv:'Ramen',da:'Rammen',no:'Rammen',fi:'Ruudukko'},
-      filledAt: {en:'{n}, a counter',de:'{n}, ein Plättchen',fr:'{n}, un jeton',it:'{n}, un gettone',es:'{n}, una ficha',pt:'{n}, uma ficha',nl:'{n}, een fiche',sv:'{n}, en bricka',da:'{n}, en brik',no:'{n}, en brikke',fi:'{n}, nappula'},
-      trayAria: {en:'The tray — {n} counters left',de:'Die Schale — noch {n} Plättchen',fr:'Le plateau — il reste {n} jetons',it:'Il vassoio — restano {n} gettoni',es:'La bandeja — quedan {n} fichas',pt:'A bandeja — restam {n} fichas',nl:'Het bakje — nog {n} fiches',sv:'Facket — {n} brickor kvar',da:'Bakken — {n} brikker tilbage',no:'Skålen — {n} brikker igjen',fi:'Alusta — {n} nappulaa jäljellä'},
-      trayEmptyAria: {en:'The tray — empty',de:'Die Schale — leer',fr:'Le plateau — vide',it:'Il vassoio — vuoto',es:'La bandeja — vacía',pt:'A bandeja — vazia',nl:'Het bakje — leeg',sv:'Facket — tomt',da:'Bakken — tom',no:'Skålen — tom',fi:'Alusta — tyhjä'},
-      numeralAria: {en:'In the frame: {n}',de:'Im Feld: {n}',fr:'Dans le cadre : {n}',it:'Nella tabella: {n}',es:'En el marco: {n}',pt:'No quadro: {n}',nl:'In het raam: {n}',sv:'I ramen: {n}',da:'I rammen: {n}',no:'I rammen: {n}',fi:'Ruudukossa: {n}'},
+      filledAt: {en:'{n}, a counter',de:'{n}, ein Plättchen',fr:'{n}, un jeton',it:'{n}, un dischetto',es:'{n}, una ficha',pt:'{n}, uma ficha',nl:'{n}, een fiche',sv:'{n}, en bricka',da:'{n}, en brik',no:'{n}, en brikke',fi:'{n}, nappula'},
+      trayAriaOne: {en:'The tray — one counter left',de:'Die Schale — noch ein Plättchen',fr:'La barquette — il reste un jeton',it:'La vaschetta — ancora uno da mettere',es:'La reserva — queda una ficha',pt:'A cestinha — resta uma ficha',nl:'Het bakje — nog één over',sv:'Asken — en bricka kvar',da:'Bakken — én tilbage',no:'Esken — én igjen',fi:'Rasia — yksi nappula jäljellä'},
+      trayAria: {en:'The tray — {n} counters left',de:'Die Schale — noch {n} Plättchen',fr:'La barquette — il reste {n} jetons',it:'La vaschetta — {n} ancora da mettere',es:'La reserva — quedan {n} fichas',pt:'A cestinha — restam {n} fichas',nl:'Het bakje — nog {n} over',sv:'Asken — {n} brickor kvar',da:'Bakken — {n} tilbage',no:'Esken — {n} igjen',fi:'Rasia — {n} nappulaa jäljellä'},
+      trayEmptyAria: {en:'The tray — empty',de:'Die Schale — leer',fr:'La barquette — vide',it:'La vaschetta — vuota',es:'La reserva — vacía',pt:'A cestinha — vazia',nl:'Het bakje — leeg',sv:'Asken — tom',da:'Bakken — tom',no:'Esken — tom',fi:'Rasia — tyhjä'},
+      numeralAria: {en:'In the frame: {n}',de:'Im Feld: {n}',fr:'Dans le cadre : {n}',it:'Nella tabella: {n}',es:'En el marco: {n}',pt:'No quadro: {n}',nl:'In het raam: {n}',sv:'I ramen: {n}',da:'Antal brikker: {n}',no:'I rammen: {n}',fi:'Ruudukossa: {n}'},
 
       /* board-level announcements. ⚠ `saidTidied` MUST state the
          invariant — the whole point of Tidy is that the number did not
          change, and a screen-reader user has no other way to learn it. */
-      saidBoard: {en:'{n} of {cap}',de:'{n} von {cap}',fr:'{n} sur {cap}',it:'{n} su {cap}',es:'{n} de {cap}',pt:'{n} de {cap}',nl:'{n} van {cap}',sv:'{n} av {cap}',da:'{n} af {cap}',no:'{n} av {cap}',fi:'{n} / {cap}'},
-      saidRoom: {en:'{n} of {cap}, room for {left} more',de:'{n} von {cap}, noch Platz für {left}',fr:'{n} sur {cap}, encore de la place pour {left}',it:'{n} su {cap}, resta posto per {left}',es:'{n} de {cap}, queda sitio para {left}',pt:'{n} de {cap}, ainda cabe {left}',nl:'{n} van {cap}, nog plaats voor {left}',sv:'{n} av {cap}, plats för {left} till',da:'{n} af {cap}, plads til {left} mere',no:'{n} av {cap}, plass til {left} til',fi:'{n} / {cap}, tilaa vielä {left}'},
-      saidTidied: {en:'Still {n} of {cap}, tidied',de:'Immer noch {n} von {cap}, geordnet',fr:'Toujours {n} sur {cap}, rangé',it:'Sempre {n} su {cap}, riordinata',es:'Siguen {n} de {cap}, ordenado',pt:'Continuam {n} de {cap}, arrumado',nl:'Nog steeds {n} van {cap}, geordend',sv:'Fortfarande {n} av {cap}, ordnat',da:'Stadig {n} af {cap}, ordnet',no:'Fortsatt {n} av {cap}, ordnet',fi:'Yhä {n} / {cap}, järjestetty'},
-      saidFull: {en:'Full, {cap} of {cap}',de:'Voll, {cap} von {cap}',fr:'Plein, {cap} sur {cap}',it:'Piena, {cap} su {cap}',es:'Lleno, {cap} de {cap}',pt:'Cheio, {cap} de {cap}',nl:'Vol, {cap} van {cap}',sv:'Full, {cap} av {cap}',da:'Fuld, {cap} af {cap}',no:'Full, {cap} av {cap}',fi:'Täynnä, {cap} / {cap}'},
-      saidField: {en:'{field}. {n} of {cap}.',de:'{field}. {n} von {cap}.',fr:'{field}. {n} sur {cap}.',it:'{field}. {n} su {cap}.',es:'{field}. {n} de {cap}.',pt:'{field}. {n} de {cap}.',nl:'{field}. {n} van {cap}.',sv:'{field}. {n} av {cap}.',da:'{field}. {n} af {cap}.',no:'{field}. {n} av {cap}.',fi:'{field}. {n} / {cap}.'},
+      saidRoom: {en:'{n} of {cap}, room for {left} more',de:'{n} von {cap}, noch Platz für {left}',fr:'{n} sur {cap} — encore de la place pour {left}',it:'{n} su {cap}, resta posto per {left}',es:'{n} de {cap}, queda espacio para {left} más',pt:'{n} de {cap} — ainda há espaço para {left}',nl:'{n} van {cap}, nog plaats voor {left}',sv:'{n} av {cap}, plats för {left} till',da:'{n} af {cap}, plads til {left} mere',no:'{n} av {cap}, plass til {left} til',fi:'Nappuloita: {n}, ruutuja: {cap}. Vielä {left} mahtuu.'},
+      saidTidied: {en:'Still {n} of {cap}, tidied',de:'Immer noch {n} von {cap}, geordnet',fr:'Toujours {n} sur {cap} — les jetons sont alignés, le nombre n’a pas changé',it:'Ancora {n} su {cap}, allineati',es:'Sigue habiendo {n} de {cap}; el marco quedó ordenado.',pt:'Ainda {n} de {cap} — mudou o lugar, não a quantidade',nl:'Nog steeds {n} van {cap}, netjes gelegd',sv:'Fortfarande {n} av {cap} — nu i ordning',da:'Stadig {n} af {cap} — kun ordnet',no:'Fortsatt {n} av {cap}, stilt opp',fi:'Nappuloita edelleen: {n}, ruutuja: {cap}. Vain järjestys muuttui.'},
+      saidFull: {en:'Full, {cap} of {cap}',de:'Voll, {cap} von {cap}',fr:'C’est plein — {cap} sur {cap}',it:'Al completo, {cap} su {cap}',es:'Ya no queda espacio: {cap} de {cap}.',pt:'Cheio — {cap} de {cap}',nl:'Vol, {cap} van {cap}',sv:'Nu är det fullt — {cap} av {cap}',da:'Helt fyldt — {cap} af {cap}',no:'Full, {cap} av {cap}',fi:'Täynnä. Nappuloita: {cap}, ruutuja: {cap}.'},
+      saidField: {en:'{field}. {n} of {cap}.',de:'{field}. {n} von {cap}.',fr:'{field}. {n} sur {cap}.',it:'{field}. {n} su {cap}.',es:'{field}. {n} de {cap}.',pt:'{field}. {n} de {cap}.',nl:'{field}. {n} van {cap}.',sv:'{field}. {n} av {cap}.',da:'{field}. {n} af {cap}.',no:'{field}. {n} av {cap}.',fi:'{field}. Nappuloita: {n}, ruutuja: {cap}.'},
 
       /* the paid gate — THREE NODES, never a concatenation */
-      gateTitle: {en:'More frames',de:'Mehr Felder',fr:'Encore des cadres',it:'Altre tabelle',es:'Más marcos',pt:'Mais quadros',nl:'Meer ramen',sv:'Fler ramar',da:'Flere rammer',no:'Flere rammer',fi:'Lisää ruudukoita'},
-      gateBody: {en:'A library of set-up frames — the same number arranged five ways, the partners to ten, pairs to compare, and the teens on both fields. Keep your own frames, and print the one on screen.',de:'Eine Sammlung fertiger Felder — dieselbe Zahl in fünf Anordnungen, die Partner zur Zehn, Paare zum Vergleichen und die Zahlen von elf bis neunzehn auf beiden Feldern. Eigene Felder merken und das Feld auf dem Bildschirm ausdrucken.',fr:'Une bibliothèque de cadres tout prêts — le même nombre disposé de cinq façons, les compléments à dix, des paires à comparer et les nombres de onze à dix-neuf sur les deux cadres. Gardez vos propres cadres et imprimez celui qui est à l’écran.',it:'Una raccolta di tabelle già pronte — lo stesso numero disposto in cinque modi, i compagni del dieci, coppie da confrontare e i numeri da undici a diciannove su entrambe le tabelle. Tieni le tue tabelle e stampa quella sullo schermo.',es:'Una colección de marcos ya preparados — el mismo número colocado de cinco maneras, los amigos del diez, parejas para comparar y los números del once al diecinueve en los dos marcos. Guarda tus propios marcos e imprime el de la pantalla.',pt:'Uma coleção de quadros já prontos — o mesmo número disposto de cinco maneiras, os amigos do dez, pares para comparar e os números de onze a dezenove nos dois quadros. Guarde os seus quadros e imprima o que está no ecrã.',nl:'Een verzameling klaargezette ramen — hetzelfde getal op vijf manieren, de vriendjes van tien, paren om te vergelijken en de getallen elf tot negentien op allebei de velden. Bewaar je eigen ramen en druk af wat op het scherm staat.',sv:'Ett bibliotek med färdiga ramar — samma tal lagt på fem sätt, tiokamraterna, par att jämföra och talen elva till nitton på båda fälten. Spara dina egna ramar och skriv ut den som står på skärmen.',da:'Et bibliotek med færdige rammer — det samme tal lagt på fem måder, tiervennerne, par til at sammenligne og tallene elleve til nitten på begge felter. Gem dine egne rammer, og print den, der står på skærmen.',no:'Et bibliotek med ferdige rammer — det samme tallet lagt på fem måter, tiervennene, par å sammenligne og tallene elleve til nitten på begge feltene. Ta vare på dine egne rammer, og skriv ut den som står på skjermen.',fi:'Kokoelma valmiita ruudukoita — sama luku viidellä tavalla aseteltuna, kympin kaverit, vertailtavia pareja ja luvut yhdestätoista yhdeksääntoista kummallakin kentällä. Ota omat ruudukkosi talteen ja tulosta se, joka on ruudulla.'},
+      gateTitle: {en:'More frames',de:'Mehr Felder',fr:'Des cadres tout prêts',it:'Altre tabelle',es:'Más marcos',pt:'Quadros prontos',nl:'Meer ramen',sv:'Fler ramar',da:'Færdige rammer',no:'Ferdige rammer',fi:'Lisää ruudukoita'},
+      gateBody: {en:'A library of set-up frames — the same number arranged five ways, the partners to ten, pairs to compare, and the teens on both fields. Keep the frames you build and come back to them.',de:'Eine Sammlung fertiger Felder — dieselbe Zahl in fünf Anordnungen, die Zehnerfreunde, Paare zum Vergleichen und die Zahlen im Zwanzigerraum auf beiden Feldern. Eigene Felder merken und später wieder hervorholen.',fr:'Une bibliothèque de cadres déjà garnis — le même nombre disposé de cinq façons, les compléments à dix, des paires à comparer et les nombres de onze à dix-neuf sur les deux cadres de vingt. Gardez vos propres cadres et imprimez-les.',it:'Una raccolta di tabelle già pronte — lo stesso numero disposto in cinque modi, gli amici del dieci, coppie da confrontare e i numeri da undici a diciannove su tutte e due le tabelle. Tieni da parte le tabelle che costruisci e ritrovale quando ti servono.',es:'Una colección de marcos ya armados: el mismo número acomodado de cinco maneras, los amigos del diez, parejas de marcos para comparar y los números del once al diecinueve en los dos marcos de veinte. Guarda tus propios marcos.',pt:'Vários quadros já prontos — o mesmo número em cinco arranjos diferentes, os amigos do dez, pares para comparar e os números de onze a dezenove nos dois quadros. Guarde os quadros que você montar e volte a eles quando quiser.',nl:'Een bibliotheek met klaargezette ramen — hetzelfde getal op vijf manieren gelegd, de vrienden van tien, paren om te vergelijken en de getallen elf tot en met negentien op allebei de manieren om twintig te leggen. Bewaar je eigen ramen en druk af wat op het scherm staat.',sv:'Ett bibliotek med färdiga ramar — samma tal lagt på fem sätt, tiokamraterna, par att jämföra och talen elva till nitton både i en ram och i två. Och dina egna ramar sparade — kvar till nästa lektion.',da:'Et bibliotek med færdige rammer — det samme tal lagt på fem måder, tiervennerne, par til at sammenligne, og tallene fra elleve til nitten både på én tyverramme og på to tierrammer. Gem de rammer, du bygger, og find dem frem igen.',no:'En hel hylle med oppsett du kan hente fram: det samme tallet lagt på fem måter, tivennene, par å sammenligne og tallene fra elleve til nitten på begge feltene. Du kan også ta vare på dine egne rammer.',fi:'Kokoelma valmiita ruudukoita: sama luku viidellä tavalla aseteltuna, kymppikaverit, vertailtavia pareja sekä luvut yhdestätoista yhdeksääntoista kummassakin kahdenkymmenen ruudukossa. Ota rakentamasi ruudukot talteen ja palaa niihin myöhemmin.'},
       gateCta: {en:'See the Teacher plan',de:'Lehrer-Paket ansehen',fr:'Voir l’offre Enseignant',it:'Vedi il piano Insegnante',es:'Ver el plan Docente',pt:'Ver o plano Professor',nl:'Bekijk het Leerkracht-pakket',sv:'Se Lärarpaketet',da:'Se Lærerabonnementet',no:'Se Lærerabonnementet',fi:'Katso Opettaja-tilaus'}
     },
 
@@ -325,13 +336,19 @@
     /* =====================================================================
        THE MODEL
 
-       State is FOUR fields and nothing else:
+       State is TWO fields and nothing else:
          g      the geometry key
-         m      a BITMASK of occupied ordinals   (cap <= 20, so a Number)
-         split  the two-colour partition point, or null
-         (upright and order live in api.settings — they are the
-          teacher's, not the board's, and a saved board carries them
-          separately)
+         m      a BITMASK of occupied ordinals   (cap <= 20)
+       (`upright` and `order` live in api.settings — they are the
+        teacher's, not the board's)
+       ⚠ AN EARLIER DRAFT CARRIED A THIRD FIELD, `split`, for a
+       teacher-set two-colour partition. The Norwegian panel found
+       it was coerced, cleared and NEVER written or read, while this
+       header described the feature as shipped. That is precisely
+       the defect the whole rebuild exists to correct — a
+       description of something that is not there — so the claim and
+       the dead field both went. A reserved-for-later field is how
+       the last one started.
 
        ⭐ NOTHING DERIVED IS STORED. There is no `count`, no `empty`, no
        `ghost` and no `tray` field, so there is no second copy of the
@@ -358,14 +375,14 @@
       return cap ? ((1 << cap) - 1) : 0;
     },
 
-    newState: function () { return { g: 'ten', m: 0, split: null }; },
+    newState: function () { return { g: 'ten', m: 0 }; },
 
     /* ⚠ TOTALITY. `st || newState()` is not total — it catches null and
        0 and hands a string straight through to a bit operation (#39).
        Every field is coerced or replaced; this function can be handed
        anything at all and returns a legal state. */
     _st: function (st) {
-      var d = this.newState(), g, m, split, cap;
+      var d = this.newState(), g, m, cap;
       g = (st && typeof st === 'object' && typeof st.g === 'string' && GEOM[st.g]) ? st.g : d.g;
       cap = this.capOf(g);
       m = (st && typeof st === 'object') ? st.m : d.m;
@@ -373,13 +390,7 @@
       m = Math.floor(m);
       if (m < 0) m = 0;
       m = m & ((1 << cap) - 1);
-      split = (st && typeof st === 'object') ? st.split : null;
-      if (typeof split !== 'number' || !isFinite(split)) split = null;
-      else {
-        split = Math.round(split);
-        if (split < 1 || split >= cap) split = null;
-      }
-      return { g: g, m: m, split: split };
+      return { g: g, m: m };
     },
 
     /* ---- the derived readings. None of these is ever stored. ---- */
@@ -459,7 +470,6 @@
       if (g === s.g) return null;                 /* a no-op is a refusal */
       s.m = s.m & ((1 << this.capOf(g)) - 1);
       s.g = g;
-      if (s.split != null && s.split >= this.capOf(g)) s.split = null;
       return s;
     },
 
@@ -474,7 +484,16 @@
       var s = this._st(st), cap = this.capOf(s.g);
       if (typeof i !== 'number' || !isFinite(i) || i !== Math.round(i)) return null;
       if (i < 0 || i >= cap) return null;
-      if (s.m & (1 << i)) s.m = s.m & ((1 << i) - 1);   /* filled: clear from here on */
+      if (s.m & (1 << i)) {
+        /* ⭐ ON A CANONICAL BOARD this is the shipped fill-level move
+           and T4 pins it. On a SCATTERED board there is no "from here
+           on" — the counters are a set, so tapping one takes one. The
+           Italian panel found this by reading the model: tapping one of
+           three scattered counters deleted two, wrecking exactly the
+           arrangement the Tidy routine exists to collapse. */
+        if (s.m === ((1 << this.count(s)) - 1)) s.m = s.m & ((1 << i) - 1);
+        else s.m = s.m & ~(1 << i);
+      }
       else s.m = s.m | ((1 << (i + 1)) - 1);            /* empty: fill up to here */
       return s;
     },
@@ -597,7 +616,7 @@
     },
 
     reset: function () {
-      this.st = this._st({ g: this.st ? this.st.g : 'ten', m: 0, split: null });
+      this.st = this._st({ g: this.st ? this.st.g : 'ten', m: 0 });
       this._focusOrd = 0;
       this.render();
     },
@@ -1021,9 +1040,15 @@
         this._trayEl.innerHTML = trayDiscs(left, color);
         this._trayEl.dataset.left = String(left);
         this._trayEl.disabled = left <= 0;
-        this._trayEl.setAttribute('aria-label', left > 0
-          ? api.t('trayAria').replace('{n}', String(left))
-          : api.t('trayEmptyAria'));
+        /* ⚠ THREE FORMS, NOT TWO. The first build branched only on
+           empty-or-not, so the tray said "1 counters left" in every
+           locale — and one-left is the last beat of the routine this
+           tool is built around. Four native panels found it
+           independently, by reading the CALL SITE rather than the copy. */
+        this._trayEl.setAttribute('aria-label',
+          left <= 0 ? api.t('trayEmptyAria')
+            : left === 1 ? api.t('trayAriaOne')
+              : api.t('trayAria').replace(/\{n\}/g, String(left)));
       }
       if (this._numEl) {
         this._numEl.textContent = String(n);
@@ -1043,12 +1068,20 @@
       var n = this.count(s), cap = this.capOf(s.g), left = this.trayCount(s);
       if (!this._mounted) return;
       var msg;
+      /* ⚠ THE STATE DECIDES, NOT THE BUTTON. "Full" used to be
+         reachable only from the Fill chip, so a frame filled by hand
+         announced as an ordinary count and the endpoint of the routine
+         was never spoken. */
       if (key === 'tidied') msg = api.t('saidTidied');
-      else if (key === 'full') msg = api.t('saidFull');
+      else if (left <= 0 && n === cap) msg = api.t('saidFull');
       else if (key === 'field') msg = api.t('saidField').replace('{field}', this._fieldName(s.g));
-      else if (left > 0) msg = api.t('saidRoom');
-      else msg = api.t('saidBoard');
-      msg = msg.replace('{n}', String(n)).replace(/\{cap\}/g, String(cap)).replace('{left}', String(left));
+      else msg = api.t('saidRoom');
+      /* ⚠ ALL THREE GLOBAL. Two of them were first-occurrence only,
+         so a locale naming the number twice would have leaked a raw
+         "{n}" to a screen reader. */
+      msg = msg.replace(/\{n\}/g, String(n))
+               .replace(/\{cap\}/g, String(cap))
+               .replace(/\{left\}/g, String(left));
       this._pendingSay = msg;
       if (this._sayTimer) clearTimeout(this._sayTimer);
       var self = this;
@@ -1069,15 +1102,17 @@
       /* the field chips — a radiogroup whose members are DRAWINGS of the
          fields they choose. The label is the accessible name only. */
       var group = api.el('div', 'tnf-fieldgroup');
-      group.setAttribute('role', 'radiogroup');
-      group.setAttribute('aria-label', api.t('frameAria'));
+      /* ⚠ NO GROUP LABEL. It used to carry `frameAria`, which already
+         names the GRID — one accessible name on two different controls,
+         found by the German panel reading the code. Each chip is named
+         by its own field, so the group needs no name of its own. */
+      group.setAttribute('role', 'group');
       var fields = this._fields();
       for (var i = 0; i < fields.length; i++) {
         (function (f, idx) {
           var b = api.el('button', 'tnf-chip tnf-fieldchip');
           b.type = 'button';
-          b.setAttribute('role', 'radio');
-          b.setAttribute('aria-checked', String(f.g === s.g));
+          b.setAttribute('aria-pressed', String(f.g === s.g));
           b.setAttribute('aria-label', api.t(f.labelKey));
           b.title = api.t(f.labelKey);
           b.innerHTML = fieldGlyph(f.g);
@@ -1289,10 +1324,13 @@
       }
       var api = this.api, self = this, st = this._loadStore();
       var panel = api.el('div', 'tnf-keepspanel');
+      panel.setAttribute('role', 'group');
+      panel.setAttribute('aria-label', api.t('keepsBtn'));
       var add = api.el('button', 'tnf-chip');
       add.type = 'button';
       add.textContent = '+';
-      add.setAttribute('aria-label', api.t('keepsBtn'));
+      /* the "+" sits inside a group already named Keeps; giving it the
+         same name again is the duplicate-name defect in miniature */
       add.addEventListener('click', function () {
         var s = self._st(self.st);
         st.keeps.unshift({ g: s.g, m: s.m });
@@ -1306,9 +1344,9 @@
           var b = api.el('button', 'tnf-chip tnf-keepitem');
           b.type = 'button';
           b.innerHTML = fieldGlyph(k.g);
-          b.setAttribute('aria-label', api.t('keepsBtn'));
+          b.setAttribute('aria-label', self._fieldName(k.g));
           b.addEventListener('click', function () {
-            self.st = self._st({ g: k.g, m: k.m, split: null });
+            self.st = self._st({ g: k.g, m: k.m });
             self.render();
           });
           panel.appendChild(b);
@@ -1662,13 +1700,13 @@
          generic `.tnf-chip:disabled{opacity:.45}` would make the field
          you are on the faintest thing on the bar. It is the SELECTED
          one; it gets full ink. */
-      + '.tnf-fieldchip[aria-checked="true"]{background-color:var(--tnf-ink);border-color:var(--tnf-ink);}'
+      + '.tnf-fieldchip[aria-pressed="true"]{background-color:var(--tnf-ink);border-color:var(--tnf-ink);}'
       + '.tnf-fieldchip[data-current]{opacity:1;cursor:default;}'
       + '.tnf-glyph{width:56px;height:auto;max-height:30px;display:block;}'
       + '.tnf-glyph rect{fill:rgba(14,81,71,.42);}'
       + '.tnf-glyph rect.tnf-glyphbrk{fill:var(--tnf-ink);}'
-      + '.tnf-fieldchip[aria-checked="true"] .tnf-glyph rect{fill:rgba(255,255,255,.55);}'
-      + '.tnf-fieldchip[aria-checked="true"] .tnf-glyph rect.tnf-glyphbrk{fill:#FFFFFF;}'
+      + '.tnf-fieldchip[aria-pressed="true"] .tnf-glyph rect{fill:rgba(255,255,255,.55);}'
+      + '.tnf-fieldchip[aria-pressed="true"] .tnf-glyph rect.tnf-glyphbrk{fill:#FFFFFF;}'
 
       /* ---- the reflows, container queries, no media query ---- */
       /* the numeral moves to the right flank once there is room */

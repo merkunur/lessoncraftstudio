@@ -1,0 +1,90 @@
+{
+ "title": "Marco de diez",
+ "instruction": "Pon fichas en el marco y mira cuánto espacio queda.",
+ "fieldFive": "Marco de cinco",
+ "fieldTen": "Marco de diez",
+ "fieldTenRow": "Diez en fila",
+ "fieldTwentyField": "Marco de veinte",
+ "fieldTwentyPair": "Dos marcos de diez",
+ "tidyBtn": "Ordenar",
+ "fillBtn": "Llenar lo que falta",
+ "keepsBtn": "Mis marcos",
+ "printBtn": "Imprimir",
+ "counterLabel": "Color de las fichas",
+ "showNumber": "Mostrar el número",
+ "uprightLabel": "Poner el marco vertical",
+ "orderLabel": "Orden de llenado",
+ "orderRows": "Fila por fila",
+ "orderPairs": "De dos en dos",
+ "frameAria": "El marco",
+ "filledAt": "{n}, una ficha",
+ "trayAriaOne": "La reserva — queda una ficha",
+ "trayAria": "La reserva — quedan {n} fichas",
+ "trayEmptyAria": "La reserva — vacía",
+ "numeralAria": "En el marco: {n}",
+ "saidBoard": "{n} de {cap}",
+ "saidRoom": "{n} de {cap}, queda espacio para {left} más",
+ "saidTidied": "Sigue habiendo {n} de {cap}; el marco quedó ordenado.",
+ "saidFull": "Ya no queda espacio: {cap} de {cap}.",
+ "saidField": "{field}. {n} de {cap}.",
+ "gateTitle": "Más marcos",
+ "gateBody": "Una colección de marcos ya armados: el mismo número acomodado de cinco maneras, los amigos del diez, parejas de marcos para comparar y los números del once al diecinueve en los dos marcos de veinte. Guarda tus propios marcos.",
+ "gateCta": "Ver el plan Docente",
+
+ "_notes": [
+  "PANEL: native linguist (MX) + primaria K-3 maths teacher (SEP/NEM) + B2C education-marketing writer. Register: tú, Mexican. Vosotros screen: 0 occurrences authored.",
+
+  "=== DEFECTS IN THE ENGLISH SOURCE / THE CODE (cited) ===",
+
+  "DEFECT 1 — THE PAID GATE SELLS A FREE FEATURE. gateBody ends '...and print the one on screen.' Print is NOT locked: ten-frame.js:1154-1161 states 'PRINT IS NOT LOCKED... Operator-ruled', and the chip at :1162-1169 is a plain button with no entitlement check — no `premium` test, no lock glyph, unlike the Keeps chip at :1177-1185 which is the ONLY path that opens this gate (`keeps.addEventListener` -> `_showGate`). So the single sentence a signed-out teacher reads when she taps Keeps promises her, as part of a paid plan, the one thing she already has for free. This is the recorded tier-truth failure (MEMORY 'TIER TRUTH BEFORE MARKETING COPY'), and it is worse here than a generic overclaim: a teacher who buys for the printable and discovers it was free is the exact churn case. The ES gateBody DROPS the print clause. RECOMMEND the EN (and the other nine locales) drop it too — this is not a Spanish ruling, it is a source repair.",
+
+  "DEFECT 2 — RESOLVED IN THE TOOL, AND THE FIX ARRIVED HALF-APPLIED. `trayAriaOne` now exists (ten-frame.js:295) and the dispatch at :1050-1052 is a clean three-way empty/one/many, so the n=1 bug below is fixed. But the hand-seeded singular says es:'La reserva — queda una ficha' while the untouched draft still says es:'La bandeja — quedan {n} fichas' and es:'La bandeja — vacía' — so as it stands the tool RENAMES ONE OF ITS THREE NAMED PARTS BY QUANTITY: a reserva when one counter is left, a bandeja when two are, and a bandeja again when none is. All three keys here carry 'la reserva'. Note also that trayAria's replace is GLOBAL (/\\{n\\}/g) unlike _say's, so it is the one string where a repeated {n} would be safe — not used. Original report follows.",
+  "DEFECT 2 (as originally reported) — trayAria IS UNGRAMMATICAL AT n=1, IN ENGLISH AND IN THE es DRAFT. The template is 'The tray — {n} counters left' and the call site (ten-frame.js:1024-1026) guards only left<=0, so left===1 renders 'The tray — 1 counters left' / 'La bandeja — quedan 1 fichas'. left===1 is not an edge case here, it is the last beat of the tool's own named routine ('How many more?' answered with one). Fixed on the ES side by a count-agnostic construction: 'La reserva — fichas que quedan: {n}' reads correctly for 1 and for 20. EN needs the same treatment.",
+
+  "DEFECT 3 — THE HEADER'S NOUN CENSUS IS WRONG ON HALF ITS CLAIMS. ten-frame.js:22-24 says 'frame, cell, counter and tray were free'. Measured against the shipped catalogue: `counter` is NOT free — part-whole-frame.js ships en:'Carry one counter across...'; `tray` is NOT free — fraction-kitchen.js ships en:'Fill the tray' AND makes the tray a NAMED PAID STATION ('The tray station — proving that two fourths fill one half exactly — is part of Premium'), and letter-tiles.js ships en:'{g} back in the tray.'. Only `frame` and `cell` survive. The census is the input to every one of the eleven panels, so a wrong census propagates eleven times.",
+
+  "DEFECT 4 — THE BRIEF AND THE ARTEFACT DISAGREED, AND THE ARTEFACT MOVED WHILE WE READ IT. The commission says '31 English strings' and included `routinesBtn`; ten-frame.js and _source-en.json were both edited mid-session (mtime 04:08) and `routinesBtn` is now absent from BOTH — grep -c routines ten-frame.js = 0. Authored against the CURRENT 30-key artefact, verified key-for-key (comm on the live strings block vs the JSON = empty both directions). Flagging because the removal is correct but silent: had we written from the brief we would have shipped a 31st key that no `t()` call can ever reach — the recorded dead-string class (#39 hintMark, #44 hintTurn).",
+
+  "DEFECT 5 — counterLabel DOES NOT SAY WHAT IT LABELS. `counterLabel` is the label of the COLOUR picker (settings[0]: {key:'color', type:'color', labelKey:'counterLabel'}), so EN renders the noun 'Counters' over a row of four swatches. The tool's own eight activities already solved this: ten-frame-core.js ships es:'Color de fichas', and sound-boxes.js ships es:'Color de la ficha'. ES uses 'Color de las fichas' (article added — the bare form is telegraphic in Spanish). EN should be 'Counter colour'.",
+
+  "DEFECT 6 — 'Field of twenty' IS A GERMAN CALQUE IN THE ENGLISH. No English-speaking teacher says it; the English name for the two-pane field is 'double ten frame' (which is fieldTwentyPair), and the single 2x10 block has no English name — the header's own geometry argument (:92-104) is what forces the coinage. Not a Spanish problem: ES resolves it cleanly inside its own locked family (Marco de cinco / de diez / de veinte + Dos marcos de diez), so the five chips read as one system. Recorded so the EN is not mistaken for a term of art.",
+
+  "=== ALBUR / AMBIGUITY SCREEN (Mexican) ===",
+  "marcador — NOT USED. Correctly pre-rejected: in MX it is the SCOREBOARD, on a tool whose first refusal is that it never scores. (It is also the word for a felt-tip pen, so it would have collided with letter-studio's territory.)",
+  "ficha — CLEAN and KEPT. 'Es una ficha' (a shady character) exists as slang but is fixed to a singular predicative frame; 'las fichas' in a maths lesson is the standard SEP manipulative ('fichas de colores', 'fichas bicolor') and is already this tool's own family word — ten-frame-core.js ships es:'Color de fichas' and es:'Toca el marco para añadir o quitar fichas'. Changing it would desync the tool from its own eight activities.",
+  "marco — CLEAN. No albur. Note a pre-existing SPANISH-SIDE title collision that EN does not have: part-whole-frame.js ships es title 'El marco de las partes' while ours is the locked 'Marco de diez' (EN: 'Number Bonds Board' vs 'Ten Frame' — no collision at all). Not fixable here (both are shipped, ours is an indexed slug), but the two nearest number tools now both lead on 'marco' in Spanish. Recorded for whoever next opens part-whole-frame.",
+  "llenar — CLEAN. No albur in 'llenar lo que falta'.",
+  "bandeja / charola — see the tray ruling below; rejected on collision, not on albur.",
+  "de dos en dos, quedó ordenado, reserva, espacio — all screened clean.",
+
+  "=== RULING 1: THE TRAY IS 'LA RESERVA'. EVERY NATURAL MEXICAN TRAY NOUN IS ALREADY OWNED. ===",
+  "Screened the whole 47-tool catalogue for each candidate before choosing, per the #41 rule (choose against the SHIPPED LEXICON, not against English):",
+  "  bandeja — TAKEN TWICE, and once by a PAID part: fraction-kitchen.js es:'Llenar la bandeja' + es:'La bandeja ... es parte de Premium'; letter-tiles.js es:'{g} de vuelta a la bandeja.' Using it would name our FREE holder with the exact noun another tool sells.",
+  "  charola — TAKEN: money-core.js es:'...poner el cambio correcto en la charola'. This was the best pure-Mexican candidate and it is gone.",
+  "  bote — TAKEN: measurement-bench.js es:'el bote' (a capacity vessel).",
+  "  canasta / cesta — TAKEN: fraction-kitchen.js. canasto rejected as the same lemma.",
+  "  vaso / vasito — vaso TAKEN five times (measurement-bench, name-sticks, three activities); vasito rejected as the same lemma.",
+  "  caja / cajita — REFUSED on meaning, not availability: sound-boxes.js ships es:'Pon una ficha en una caja por cada sonido', where a caja IS A CELL. Our frame is made of cells. Naming our tray 'cajita' beside a grid of cells is the one collision that could actually confuse a child.",
+  "  montón — REFUSED: it means an UNORDERED heap, and the tray holds exactly cap-count in a bounded row. The bound is the tool's whole thesis (header :62-69); a heap denies it.",
+  "  FREE and screened: reserva, apartado, cubeta, platón, cajita, canasto, vasito.",
+  "  CHOSEN 'la reserva' — unclaimed anywhere in the catalogue, no shared lemma with any taken noun, albur-clean, feminine (so 'vacía' agrees), and semantically exact: it names the bounded stock that RUNS OUT, which is precisely the invention the header describes ('THE COUNTERS RUN OUT, so over-filling is UNREPRESENTABLE'). Rejected 'el apartado' (reads as a numbered section of a document) and 'la cubeta' (a bucket is unbounded — same objection as montón).",
+
+  "=== RULING 2: orderPairs IS 'De dos en dos', NOT 'Por parejas'. ===",
+  "'Por parejas' in a Mexican primaria classroom means PAIRING THE CHILDREN ('trabajar por parejas', 'formen parejas') — it is the standard instruction for group work. On a setting that governs the FILLING ORDER OF CELLS it would read as a classroom-organisation instruction that the tool cannot carry out. 'De dos en dos' is the phrase a teacher actually uses for this pattern and it describes the code exactly: posOf() at :543 pairs the two rows of a column ('order === pairs && d.rows === 2'). Also note gateBody legitimately keeps 'parejas de marcos' — there the noun is disambiguated by its complement, which the bare setting label is not.",
+
+  "=== RULING 3: 'Ordenar' for Tidy — because 'Acomodar' belongs to the nearest sibling. ===",
+  "'Acomodar' is what a Mexican teacher says first, and it is the better verb. It is TAKEN by rekenrek.js es:'Acomodar las cuentas' — the closest sibling in the catalogue (the other counting manipulative), so a teacher moving between the two would meet the same button word for two different operations. 'Ordenar' is free as a control label (only syllable-splitter.js uses 'Ordena las sílabas', a literacy tool, different family) and is fully natural. The verb 'acomodado' is kept in gateBody prose, where it is not a control and cannot be confused with rekenrek's button.",
+
+  "OTHER RULINGS:",
+  "fillBtn 'Llenar lo que falta', rejecting the draft 'Completar'. 'Completar' is (a) vague — it does not say what is completed — and (b) verdict-adjacent: in school Spanish 'completa' is the stem of a thousand exercise instructions with a right answer, and refusal #1 is that this tool never asks. 'Lo que falta' also carries the thesis in three words: what is missing is a THING, and the button empties the reserve into it.",
+  "routinesBtn 'Rutinas' — AUTHORED BUT NOW MOOT (see DEFECT 4; the key was removed mid-session). Recording the ruling in case it returns: reject 'Series' despite the sibling convention (rekenrek 'Series de cuentas', number-talk-easel 'Series de imágenes') because those are disambiguated by their complement, and a BARE 'Series' on a NUMBER tool reads as 'series numéricas' — counting sequences, which is a different thing a primaria teacher actively teaches. 'Rutinas' is unambiguous and is already house register (calendar-wall es:'La rutina de la mañana...', number-talk-easel es:'la rutina del destello').",
+  "instruction / saidRoom use 'espacio', not the draft's 'sitio'. 'Cuánto sitio queda' is peninsular; a Mexican teacher says 'espacio' or 'lugar'. 'Espacio' also survives the number-agreement problem that 'caben/cabe' would create.",
+  "saidTidied 'Sigue habiendo {n} de {cap}; el marco quedó ordenado.' — the key's whole job is to state that the number did NOT change (comment at :288-290: a screen-reader user has no other way to learn it). 'Sigue habiendo' is impersonal and therefore invariable, so it is correct at n=1 where the draft's 'Siguen {n}' breaks ('Siguen 1 de 10'). 'Quedó ordenado' is Mexican and reports the state without praising it.",
+  "saidFull 'Ya no queda espacio: {cap} de {cap}.' — rejects 'Lleno' on an AGREEMENT bug the EN cannot see: the subject is 'el marco' in four fields but 'dos marcos' in fieldTwentyPair, so any predicative adjective is wrong in one of the five states. The chosen phrase is invariable, is the exact mirror of saidRoom ('queda espacio para {left} más' / 'ya no queda espacio'), and states a fact rather than a verdict — 'Lleno' on its own edges toward completion-praise.",
+  "uprightLabel 'Poner el marco vertical', rejecting 'Poner de pie' — that personifies the apparatus (one stands a PERSON or a bottle up), and the header is explicit that the frame is material, not a character.",
+  "gateBody 'los amigos del diez' KEPT. It is genuine Mexican primaria register and it is what the teacher says in front of the children, which is what makes the gate recognisable to her. Considered and rejected: 'los complementos a diez' (correct but formal — it is the term for a planning document, not for a class), 'las parejas que forman diez' (accurate but long, and it re-uses 'parejas' three words from 'parejas de marcos'). Also note the promise is honest against refusal #17: it offers the COMPLEMENT PAIRS shown, never the make-ten strategy.",
+  "gateBody 'en los dos marcos de veinte' is deliberately MORE precise than the EN 'on both fields' — in Spanish 'los dos campos' would be opaque, whereas the two twenty-fields already have names in this locale's own chip set.",
+  "gateCta is 'Ver el plan Docente' VERBATIM, matching dictation-desk.js, home-language-bridge.js and part-whole-frame.js. The plan name is product lexicon, not a translation choice; it is not re-worded here.",
+  "MECHANICAL CHECKS: 30/30 keys present, key-for-key against the live strings block. Placeholders — {n} appears AT MOST ONCE per string (load-bearing: _say at :1051 uses a non-global .replace('{n}',...), so a second {n} would render raw), {cap} repeats only in saidFull where the code replaces it globally, {left} once, {field} once. No apostrophes anywhere (the applier writes single-quoted JS on one physical line per key). No invisible characters; the only non-ASCII are Spanish accents/ñ and the em dash U+2014, which shipped ES siblings already use. No verdict or score words. No string demands an answer. Title unchanged."
+ ]
+}

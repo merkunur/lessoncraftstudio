@@ -1,0 +1,70 @@
+{
+  "title": "Zehnerfeld",
+  "instruction": "Lege Plättchen ins Feld — und schau, wie viel Platz noch frei ist.",
+  "fieldFive": "Fünferfeld",
+  "fieldTen": "Zehnerfeld",
+  "fieldTenRow": "Zehn in einer Reihe",
+  "fieldTwentyField": "Zwanzigerfeld",
+  "fieldTwentyPair": "Zwei Zehnerfelder",
+  "tidyBtn": "Ordnen",
+  "fillBtn": "Rest auffüllen",
+  "keepsBtn": "Meine Felder",
+  "routinesBtn": "Übungsfolgen",
+  "printBtn": "Drucken",
+  "counterLabel": "Plättchen",
+  "showNumber": "Zahl anzeigen",
+  "uprightLabel": "Hochkant stellen",
+  "orderLabel": "Reihenfolge beim Legen",
+  "orderRows": "Reihe für Reihe",
+  "orderPairs": "Paarweise",
+  "frameAria": "Das Feld",
+  "filledAt": "{n}, ein Plättchen",
+  "trayAriaOne": "Die Schale — noch ein Plättchen",
+  "trayAria": "Die Schale — noch {n} Plättchen",
+  "trayEmptyAria": "Die Schale — leer",
+  "numeralAria": "Im Feld: {n}",
+  "saidBoard": "{n} von {cap}",
+  "saidRoom": "{n} von {cap}, noch Platz für {left}",
+  "saidTidied": "Immer noch {n} von {cap}, geordnet",
+  "saidFull": "Voll, {cap} von {cap}",
+  "saidField": "{field}. {n} von {cap}.",
+  "gateTitle": "Mehr Felder",
+  "gateBody": "Eine Sammlung fertiger Felder — dieselbe Zahl in fünf Anordnungen, die Zehnerfreunde, Paare zum Vergleichen und die Zahlen im Zwanzigerraum auf beiden Feldern. Eigene Felder merken und später wieder hervorholen.",
+  "gateCta": "Lehrer-Paket ansehen",
+
+  "_notes": [
+    "GEOMETRY — CONFIRMED. The Zwanzigerfeld is ONE 2x10 block with a structural break between columns 5 and 6 (Kraft der Fünf). GEOM.twentyfield {cols:10, rows:2, brk:[5]} and GEOMETRY_BY_LOCALE.de.twenty='twentyfield' are both correct for the German market. Two 2x5 frames side by side is the American double ten-frame and is correctly offered here under a different name (fieldTwentyPair).",
+
+    "DEFECT (other tool, German lexicon) — number-talk-easel.js:63 ships de reprDouble = 'Zwanzigerfeld', but its _drawFrame (:993-1016) builds TWO separate .nte-tf elements of ten cells each when frames===2. That is the American double ten-frame wearing the German material's name. The correct German for that arrangement is 'Zwei Zehnerfelder' or 'Doppel-Zehnerfeld' — which is exactly what THIS tool's fieldTwentyPair says. As shipped, one German word names two different geometries in two live tools. Verified by reading the drawing code, not the label.",
+
+    "DEFECT (EN source) — gateBody sells a FREE feature inside the paywall. It ends '...and print the one on screen', but Print is deliberately NOT locked (ten-frame.js:1154-1169: the chip has no entitlement check at all, operator-ruled 'never gate the first affordance'). A paid gate that advertises something the signed-out teacher already has is worse than a thin gate. The German gateBody drops the print clause and keeps only what the plan actually adds: the library of prepared fields, and Keeps. The EN, and the other nine locales, carry the same false claim.",
+
+    "DEFECT (EN source) — a FOURTH named part. The header states the tool has three nouns: THE FRAME, THE COUNTER, THE TRAY, 'and nothing else in this tool gets a noun.' But fieldTwentyField is 'Field of twenty' while its four siblings all say 'Frame', and the chip group's own accessible name is 'The frame'. This is the #41 'bench was a fourth named part in a three-part tool' defect verbatim. Suggested EN: 'One frame of twenty'. German is unaffected — Feld is the German head noun in all five chips (Fünferfeld / Zehnerfeld / Zwanzigerfeld), which is why the defect is invisible from this side.",
+
+    "DEFECT (code) — DEAD STRING. routinesBtn is authored in all eleven locales and referenced ZERO times in ten-frame.js (title is also zero, but title is consumed by the shell — routinesBtn is not, and no Routines control is built in _buildBar, which builds only the field chips, Ordnen, Rest auffüllen, Drucken and Keeps). This is the #39 hintMark / #44 hintTurn defect, in a build whose header advertises a reachability discipline. We supply a German value so the key set stays complete, but it should be either wired up or deleted. If it goes live, re-rule the wording — 'Übungsfolgen' is a safe placeholder, not a considered ruling.",
+
+    "DEFECT (code, a11y) — ONE NAME ON TWO CONTROLS, twice. (a) frameAria is set on BOTH the counter grid (:663) and the field-chooser radiogroup (:1073), so a screen-reader user meets 'Das Feld' twice as two unrelated controls. (b) Worse: keepsBtn is the accessible name of the Keeps chip (:1179), the '+' add button (:1295) AND every saved board (:1309) — a teacher with twelve Keeps hears thirteen controls all called 'Meine Felder'. The string set has no key for either, so the panel cannot fix this from JSON; it needs new keys (e.g. fieldChooserAria, keepAddAria, keepItemAria — the last wanting {field} and a count).",
+
+    "COUNTER NOUN — 'Plättchen', NOT 'Wendeplättchen'. Wendeplättchen names the two-coloured FLIP counter, and refusal #6 is 'NO FLIPPABLE BICOLOUR COUNTER' — the word would advertise an affordance the tool structurally refuses. It is also already owned: lids.js:142 ships de counterAria 'ein Wendeplättchen'. Plain 'Plättchen' is the platform-wide German convention (part-whole-frame:89, number-bond-core:54, sound-boxes:37, number-sieve:117, number-balance:123) and is exactly right for a single-colour disc.",
+
+    "COLLISION FIXED — fieldTenRow was 'Zehnerstreifen'. Streifen is #40 unit-handle's German head noun for its tape (tapeAria 'Streifen {i}' :123, handleAria :124, countAria :125, hintCompare :110) and is also used by tildy-activity and our-day. Per §23.3 the overlap is subtracted, not negotiated. 'Zehnerreihe' was then REJECTED for a second reason a Grundschule teacher hears immediately: die Zweierreihe / die Fünferreihe / die Zehnerreihe are the skip-counting and times-table sequences in Klasse 2 — the label would read as 10, 20, 30. Chose the whole authored phrase 'Zehn in einer Reihe', which the code comment at :255-258 already prefers over a label glued to a number.",
+
+    "KEEPS — 'Merkfelder' rejected as a coinage no teacher says. Four locales already chose 'my frames' (fr Mes cadres, it I miei quadri, es Mis marcos, pt Meus quadros); German is the odd one out. 'Meine Felder' is warm, unambiguous, and reuses the tool's own head noun rather than inventing a compound.",
+
+    "TIDY — 'Ordnen' confirmed and kept. 'Sortieren' rejected: sorting is classification by category, a different mathematical verb owned by other surfaces, and nothing here is being sorted. 'Aufräumen' rejected: it is the domestic put-the-toys-away word and implies the counters LEAVE, which is the opposite of what snap() does (count-preserving). 'Ordnen' is the neutral arrange-in-order verb and pairs cleanly with saidTidied '..., geordnet'.",
+
+    "COMPLEMENT — 'die Zehnerfreunde' is the term a Grundschule teacher actually says, and it replaces the calque 'die Partner zur Zehn'. Note the trap it avoids: the obvious-looking German word here is 'Zehnerübergang', which is the make-ten STRATEGY — refusal #17 and a fence the header records as having five owners. For the 11-19 clause we therefore say 'die Zahlen im Zwanzigerraum' (the standard German range noun, which asserts nothing about crossing) rather than anything built on Übergang. 'Verliebte Zahlen' rejected: it is a Klasse-1 worksheet coinage tied to the Zahlenhaus, and Zahlenhaus is explicitly refused here (#7). 'Zehnerfreunde' already appears platform-side at number-bond-activities.json:72,85 — consistent, not colliding, since that is activity landing copy and this is a tool gate.",
+
+    "ORDER LABEL — 'Reihenfolge' alone was vague (order of what?). 'Reihenfolge beim Legen' is what a teacher says and matches EN 'Filling order'. 'Füllreihenfolge' rejected as an unspoken compound.",
+
+    "REGISTER — du, child-directed, kept for instruction. Census of the shipped German manipulatives: du/ihr in rekenrek (:41), part-whole-frame (:89), place-value-lab (:26), sound-boxes (:37), number-sieve (:117), lids (:121), number-talk-easel (:38); Sie in number-line only. The apparatus is touched by children at the board, so du. The gate stays personless (infinitive 'Eigene Felder merken'), because its addressee is the teacher and du to a teacher in paid copy is a register slip.",
+
+    "INSTRUCTION — the alternative 'schau, wie viele noch in der Schale liegen' (pointing at the tray) was REJECTED in favour of 'wie viel Platz noch frei ist' (pointing at the ghost). The header's own analysis is the reason: on paper ink and white are equally present, but on a screen the empty cells read as background, so the ghost is the half that needs the words. The tray can be seen without being named; the empty room cannot.",
+
+    "SOFT OVERLAP, accepted — number-sieve.js:113 uses bare 'aufs Feld' in German for its 1-100 grid. frameAria stays 'Das Feld' because it must be geometry-neutral (it labels the five-frame too) and Feld is the locked German head term here. The two are never on screen together.",
+
+    "gateCta matches number-line.js verbatim ('Lehrer-Paket ansehen'), so the plan name stays one product noun across the German catalogue.",
+
+    "Checked: no verdict or score word in any string; no string asks a question that has an answer; no soft hyphen or zero-width character; placeholders present in exactly the eight keys that require them and in no others; saidTidied still states the invariant ('Immer noch {n} von {cap}')."
+  ]
+}

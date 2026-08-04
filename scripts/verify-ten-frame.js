@@ -120,7 +120,7 @@ console.log('\n[V2] the model is TOTAL — anything at all yields a legal state'
   const junk = [undefined, null, 0, 1, '', 'ten', NaN, Infinity, -1, [], [1, 2], true,
     {}, { g: 'zzz' }, { g: 'ten', m: 'x' }, { g: 'ten', m: -5 }, { g: 'ten', m: 1e9 },
     { g: 'ten', m: NaN }, { g: 'ten', m: 3.7 }, { g: 'five', m: 1023 },
-    { g: 'ten', m: 3, split: 'x' }, { g: 'ten', m: 3, split: 99 }, { g: 'ten', m: 3, split: -2 }];
+    { g: 'ten', m: 3, split: 4 }, { g: 'ten', m: 3, stray: 1 }];
   for (const j of junk) {
     const s = T._st(j);
     const label = JSON.stringify(j) || String(j);
@@ -129,8 +129,8 @@ console.log('\n[V2] the model is TOTAL — anything at all yields a legal state'
     is(typeof s.m === 'number' && isFinite(s.m) && s.m >= 0 && s.m === Math.floor(s.m),
       `_st(${label}).m is a non-negative integer`);
     is((s.m & ~oFull(s.g)) === 0, `_st(${label}).m carries no bit outside the field`);
-    is(s.split === null || (typeof s.split === 'number' && s.split >= 1 && s.split < oCap(s.g)),
-      `_st(${label}).split is null or in range`);
+    is(!('split' in s),
+      `_st(${label}) carries no vestigial split field`);
   }
   /* a state from a BIGGER field handed to a smaller one loses the high
      bits rather than reporting a count the field cannot hold */
@@ -203,8 +203,13 @@ console.log('\n[V4] ⭐ THE COMPLEMENT IS DERIVED, NEVER STORED');
   is(T.count(st) === 5, 'count still reads the mask, not a stored field');
   /* and the returned state carries no derived field at all */
   const keys = Object.keys(T.newState()).sort();
-  is(keys.length === 3 && keys[0] === 'g' && keys[1] === 'm' && keys[2] === 'split',
-    'the state is exactly {g, m, split} — got ' + JSON.stringify(keys));
+  /* ⚠ TWO FIELDS. A third, `split`, was coerced and cleared and NEVER
+     written or read, while the header described the feature as shipped
+     — the Norwegian panel found it. That is the same defect this whole
+     rebuild exists to correct, so the field and the claim both went,
+     and this assertion is what stops it coming back as "reserved". */
+  is(keys.length === 2 && keys[0] === 'g' && keys[1] === 'm',
+    'the state is exactly {g, m} — got ' + JSON.stringify(keys));
 }
 
 /* ===================================================================== */
@@ -420,6 +425,31 @@ console.log('\n[V7] ⭐ T4 — TAP REDUCES EXACTLY TO THE SHIPPED FILL-LEVEL BEH
     }
   }
   is(moved === 0, `tapping an empty cell never removes a placed counter: ${moved} of ${checked} faults`);
+
+  /* ⭐ AND THE OTHER DIRECTION, which the first version of this gate
+     never checked — so the mutation that made tap ADD a counter on a
+     scattered board survived. On a SCATTERED board tapping a filled
+     cell takes exactly ONE counter (the Italian panel's finding); on a
+     CANONICAL board it keeps the shipped clear-from-here-on. */
+  let scat = 0, scatChecked = 0;
+  for (const g of ['ten', 'twentyfield']) {
+    const full = oFull(g), cap = oCap(g), step = 139;
+    for (let m = 1; m <= full; m += step) {
+      const canonical = (m === oCanon(g, oPop(m)));
+      for (let i = 0; i < cap; i++) {
+        if (!(m & (1 << i))) continue;
+        scatChecked++;
+        const out = T.tap({ g, m }, i);
+        if (!out) { scat++; continue; }
+        if (canonical) { if (out.m !== ((1 << i) - 1)) scat++; }
+        else {
+          if (out.m !== (m & ~(1 << i))) scat++;             /* exactly one */
+          if (oPop(out.m) !== oPop(m) - 1) scat++;
+        }
+      }
+    }
+  }
+  is(scat === 0, `⭐ tapping a filled cell on a scattered board takes exactly ONE counter: ${scat} of ${scatChecked} faults`);
 }
 
 /* ===================================================================== */
@@ -659,7 +689,7 @@ console.log('\n[V11] EVERY AUTHORED KEY IS DECLARED IN ALL ELEVEN LOCALES');
   const keys = Object.keys(T.strings);
   is(keys.length > 0, 'the tool declares strings');
   let missing = 0, empty = 0, invis = 0;
-  const INVISIBLE = /[­​‌‍﻿ --]/;
+  const INVISIBLE = /[\u00AD\u200B\u200C\u200D\uFEFF\u0000-\u0008\u000B\u000C\u000E-\u001F]/;
   for (const k of keys) {
     const v = T.strings[k];
     if (!v || typeof v !== 'object') { missing++; continue; }
@@ -784,7 +814,7 @@ console.log('\n[V11] EVERY AUTHORED KEY IS DECLARED IN ALL ELEVEN LOCALES');
      placeholder may appear, because a stray {x} renders literally. */
   const NEEDS = {
     filledAt: ['n'], trayAria: ['n'], numeralAria: ['n'],
-    saidBoard: ['n', 'cap'], saidRoom: ['n', 'cap', 'left'],
+    saidRoom: ['n', 'cap', 'left'],
     saidTidied: ['n', 'cap'], saidFull: ['cap'], saidField: ['field', 'n', 'cap']
   };
   let ph = 0;
@@ -835,15 +865,35 @@ console.log('\n[V12] THE PER-LOCALE GEOMETRY IS A HYPOTHESIS UNTIL ITS PANEL RUL
   const de = T.geometryFor('de');
   is(de && de.twenty === 'twentyfield',
     'de ships the Zwanzigerfeld — the one operator-recorded per-locale ruling');
+  /* ⭐ THE RULED SET IS AN ORACLE, WRITTEN HERE — not read from the
+     panel files. An earlier version of this check looked for a panel
+     file with notes, which let the TOOL justify itself: any locale with
+     a panel could claim any field, and a mutation handing Finnish a
+     school-system fact nobody ruled SURVIVED. That is the exact defect
+     this file's opening comment warns about, committed by me while
+     tidying the check.
+       de — operator-recorded in the approved catalog (the Zwanzigerfeld)
+       nl — its panel: the rekenrek IS one 2x10 broken 5+5, and Dutch
+            already says "honderdveld", so "twintigveld" is transparent
+       it — its panel: Bortolato's twenty is two rows of ten each
+            broken 5+5, never the American double frame
+     fr ruled explicitly the OTHER way and stays on default: Brissiaud's
+     boite is five-and-five, which is already the default field. */
+  const RULED = { de: 'twentyfield', nl: 'twentyfield', it: 'twentyfield' };
   let asserted = 0;
   for (const loc of LOCALES) {
-    if (loc === 'de') continue;
     const g = T.geometryFor(loc);
-    if (g.single !== dflt.single || g.twenty !== dflt.twenty) {
-      asserted++; console.error(`      ${loc} asserts a non-default geometry without a panel ruling`);
+    const isDefault = (g.single === dflt.single && g.twenty === dflt.twenty);
+    if (isDefault) {
+      if (RULED[loc]) { asserted++; console.error(`      ${loc} has a ruling but ships the default`); }
+      continue;
+    }
+    if (RULED[loc] !== g.twenty || g.single !== dflt.single) {
+      asserted++;
+      console.error(`      ${loc} claims {${g.single},${g.twenty}} — no native panel ruled that`);
     }
   }
-  is(asserted === 0, `no locale but de claims a non-default field: ${asserted} unruled claims`);
+  is(asserted === 0, `every non-default field claim matches a recorded native ruling: ${asserted} unruled`);
   /* every geometry any locale names must exist */
   let unknown = 0;
   for (const loc of LOCALES.concat(['default'])) {

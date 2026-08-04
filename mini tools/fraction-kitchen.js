@@ -47,7 +47,14 @@ var FractionKitchen = {
     shareDone:    {en:'Everyone got a fair share. Time to eat!',de:'Alle haben gleich viel bekommen. Guten Appetit!',fr:'Tout le monde a une part juste. Bon appétit !',it:'Una parte uguale per ognuno. Buon appetito!',es:'Todos tienen una parte justa. ¡A comer!',pt:'Todo mundo ganhou uma parte justa. Hora de comer!',nl:'Iedereen heeft een eerlijk stuk. Smakelijk!',sv:'Alla fick en rättvis del. Nu äter vi!',da:'Alle fik en fair del. Velbekomme!',no:'Alle fikk en rettferdig del. Nå spiser vi!',fi:'Jokainen sai reilun osuuden. Hyvää ruokahalua!'},
     shareLeftover:{en:'Everyone has one piece — and one piece is left over. Hmm!',de:'Jeder hat ein Stück — und ein Stück ist übrig. Hmm!',fr:'Tout le monde a une part — et il en reste une. Hmm !',it:'Tutti hanno una parte — e ne avanza una. Mmm!',es:'Todos tienen una parte — y sobra una. ¡Vaya!',pt:'Todo mundo tem um pedaço — e sobrou um. E agora?',nl:'Iedereen heeft een stuk — en er is één stuk over. Hmm!',sv:'Alla har en bit — och en bit blir över. Hmm!',da:'Alle har et stykke — og der er ét stykke tilovers. Hmm!',no:'Alle har en bit — og en bit er til overs. Hmm!',fi:'Jokaisella on pala — ja yksi pala jää yli. Hmm!'},
     shareEmpty:   {en:'{p} pieces, {f} friends — someone’s plate is empty!',de:'{p} Stücke, {f} Freunde — ein Teller ist leer!',fr:'{p} parts, {f} amis — une assiette est vide !',it:'{p} parti, {f} amici — un piatto resta vuoto!',es:'{p} partes, {f} amigos — ¡un plato quedó vacío!',pt:'{p} pedaços, {f} amigos — um prato ficou vazio!',nl:'{p} stukken, {f} vrienden — één bord is leeg!',sv:'{p} bitar, {f} vänner — någons tallrik är tom!',da:'{p} stykker, {f} venner — én tallerken er tom!',no:'{p} biter, {f} venner — noen har tom tallerken!',fi:'{p} palaa, {f} ystävää — jonkun lautanen on tyhjä!'},
-    pieceName:    {en:'one {fs}',de:'{fs}',fr:'{fs}',it:'{fs}',es:'{fs}',pt:'{fs}',nl:'{fs}',sv:'{fs}',da:'{fs}',no:'{fs}',fi:'{fs}'},
+    /* ⚠ BARE {fs} IN EVERY LOCALE, ENGLISH INCLUDED. The `s` form already
+       carries its own article ("one half" / "eine Hälfte" / "un quart"),
+       so a template that adds one produces "one one half". English shipped
+       exactly that: its template was 'one {fs}' while all ten siblings
+       were bare. The native ensembles caught this doubling in the equiv
+       template and fixed it across eleven locales — and missed it here,
+       in the one locale none of them was asked to read. */
+    pieceName:    {en:'{fs}',de:'{fs}',fr:'{fs}',it:'{fs}',es:'{fs}',pt:'{fs}',nl:'{fs}',sv:'{fs}',da:'{fs}',no:'{fs}',fi:'{fs}'},
     equivPrompt:  {en:'Can {a} {small} fill {big}?',de:'Können {a} {small} {big} genau ausfüllen?',fr:'Est-ce que {a} {small} remplissent {big} ?',it:'{a} {small} possono riempire {big}?',es:'¿Pueden {a} {small} llenar {big}?',pt:'Será que {a} {small} enchem {big}?',nl:'Kunnen {a} {small} samen {big} vullen?',sv:'Kan {a} {small} fylla {big}?',da:'Kan {a} {small} fylde {big}?',no:'Kan {a} {small} fylle {big}?',fi:'Voiko {a} {small} täyttää saman tilan kuin {big}?'},
     equivDone:    {en:'{a} {small} fill it exactly. {a} {small} make {big}.',de:'{a} {small} füllen es genau aus. {a} {small} sind genauso viel wie {big}.',fr:'{a} {small} le remplissent exactement. {a} {small} font {big}.',it:'{a} {small} lo riempiono esattamente. {a} {small} fanno {big}.',es:'{a} {small} la llenan exactamente. {a} {small} hacen {big}.',pt:'{a} {small} enchem certinho. {a} {small} formam {big}.',nl:'{a} {small} vullen het precies. {a} {small} zijn samen {big}.',sv:'{a} {small} fyller den exakt. {a} {small} blir {big}.',da:'{a} {small} fylder den helt præcist. {a} {small} giver {big}.',no:'{a} {small} fyller den helt nøyaktig. {a} {small} blir {big}.',fi:'{a} {small} täyttää sen tarkalleen. {a} {small} on yhtä paljon kuin {big}.'},
     equivTooBig:  {en:'That piece is too big for the space left. Try a smaller one.',de:'Dieses Stück ist zu groß für den Platz, der noch frei ist. Probier ein kleineres.',fr:'Cette part est trop grande pour la place qui reste. Essaie une plus petite.',it:'Questa parte è troppo grande per lo spazio rimasto. Provane una più piccola.',es:'Esa parte es demasiado grande para el espacio que queda. Prueba una más chica.',pt:'Esse pedaço é grande demais para o espaço que sobrou. Tente um menor.',nl:'Dat stuk is te groot voor de ruimte die over is. Probeer een kleiner stuk.',sv:'Den biten är för stor för utrymmet som är kvar. Prova en mindre bit.',da:'Det stykke er for stort til den plads, der er tilbage. Prøv et mindre.',no:'Den biten er for stor for plassen som er igjen. Prøv en mindre.',fi:'Se pala on liian iso jäljellä olevaan tilaan. Kokeile pienempää.'},
@@ -259,6 +266,7 @@ var FractionKitchen = {
     this.committed = [];         /* committed correct-line indices */
     this.sliced = false;
     this.placed = [];            /* plate idx -> piece idx */
+    this._sel = null;            /* tap-to-select: the piece awaiting a plate */
     this.wobbleSpoken = {};      /* food -> true (≤1 kind line per food) */
     this.equivTask = null;
     this.equivFilled = 0;
@@ -335,7 +343,15 @@ var FractionKitchen = {
   _bigName: function (task) { return task.big === 1 ? this.api.t('fracWhole') : this.frac(task.big, 's'); },
   fmt: function (key, args) {
     var s = this.api.t(key);
-    return s.replace(/\{(\w+)\}/g, function (m, k) { return (args && k in args) ? String(args[k]) : m; });
+    s = s.replace(/\{(\w+)\}/g, function (m, k) { return (args && k in args) ? String(args[k]) : m; });
+    /* A template that OPENS on a slot inherits the slot's case. `cutDone`
+       is "{fp}! {n} equal parts." and the fraction plurals are bare nouns,
+       so nine of eleven locales spoke — and, once the word ribbon lands,
+       will SHOW — a sentence starting lowercase. German is unaffected
+       only because it capitalises nouns anyway. Sentence-initial capital
+       is universal across all eleven scripts here. */
+    if (/^\{/.test(this.api.t(key)) && /[.!?]/.test(s)) s = s.charAt(0).toUpperCase() + s.slice(1);
+    return s;
   },
   frac: function (den, form) { return this._loc(this.FRAC[den][form]); },
   _speak: function (text) {
@@ -426,18 +442,37 @@ var FractionKitchen = {
     zone.innerHTML = '<div class="frk-counter"></div>';
     var board = api.el('div', 'frk-board');
     board.innerHTML = '<div class="frk-hole"></div>';
+    /* THREE layers, and the split is load-bearing:
+         .frk-foodbox   the classList target (guides-on / exploded / unequal)
+         .frk-foodsvg   the ONLY innerHTML target — so a repaint cannot
+                        destroy the pointer targets mid-gesture
+         .frk-hitlayer  real <button>s, because a bare SVG shape is not
+                        focusable, cannot hold a 44px floor, and is
+                        invisible to audit-tool-control-liveness */
     var foodBox = api.el('div', 'frk-foodbox');
-    foodBox.innerHTML = this._foodSVG();
+    var foodSvg = api.el('div', 'frk-foodsvg');
+    foodSvg.innerHTML = this._foodSVG();
+    var hits = api.el('div', 'frk-hitlayer');
+    foodBox.append(foodSvg, hits);
     board.appendChild(foodBox);
     zone.appendChild(board);
     this._foodBoxEl = foodBox;
+    this._foodSvgEl = foodSvg;
+    this._hitsEl = hits;
     var rest = api.el('div', 'frk-knife-rest');
-    rest.innerHTML = this._knifeSVG();
+    rest.innerHTML = '<button type="button" class="frk-knife-btn"></button>';
+    this._knifeBtn = rest.querySelector('.frk-knife-btn');
+    this._knifeBtn.innerHTML = this._knifeSVG();
+    this._knifeBtn.setAttribute('aria-label', this.fmt('cutPrompt', {
+      food: this._loc(this.strings['food' + this.food.charAt(0).toUpperCase() + this.food.slice(1)]),
+      n: this.n, fp: this.frac(this.n, 'p')
+    }));
     zone.appendChild(rest);
     this._knifeEl = rest.querySelector('.frk-knife');
     wrap.appendChild(zone);
+    this._paintHits();
     this._wireKnife();
-    this._wireGuides();
+    this._wireBoard();
 
     /* plates / trays */
     if (this.mode === 'share') wrap.appendChild(this._platesRow());
@@ -454,8 +489,6 @@ var FractionKitchen = {
       /* guides: correct + distractors styled IDENTICALLY (no telegraphing) */
       var addGuide = function (seg, kind, idx, committed) {
         s += '<line class="frk-guide' + (committed ? ' cutline' : '') + '" data-kind="' + kind + '" data-idx="' + idx + '"' +
-          ' x1="' + seg.x1 + '" y1="' + seg.y1 + '" x2="' + seg.x2 + '" y2="' + seg.y2 + '"/>';
-        s += '<line class="frk-hit" data-kind="' + kind + '" data-idx="' + idx + '"' +
           ' x1="' + seg.x1 + '" y1="' + seg.y1 + '" x2="' + seg.x2 + '" y2="' + seg.y2 + '"/>';
       };
       var self = this;
@@ -494,106 +527,280 @@ var FractionKitchen = {
       '</svg>';
   },
 
+  /* ===================== the hit overlay ============================
+     Percentage positioning over the food is EXACT only while
+     .frk-foodbox is square — viewBox units then map isotropically to
+     px in both axes. verify-fraction-kitchen §8d asserts it, because a
+     one-sided clamp would skew every target silently. */
+
+  _paintHits: function () {
+    var self = this, hits = this._hitsEl;
+    if (!hits) return;
+    hits.innerHTML = '';
+    if (this.sliced) {
+      this.pieces(this.food, this.n).forEach(function (p, i) {
+        var b = self._pieceBtn(p, i);
+        hits.appendChild(b);
+        self._wirePiece(b);
+      });
+      return;
+    }
+    var cuts = this.cuts(this.food, this.n);
+    var list = [];
+    cuts.correct.forEach(function (seg, i) { if (self.committed.indexOf(i) < 0) list.push({ seg: seg, kind: 'c', idx: i }); });
+    cuts.distractors.forEach(function (seg, i) { list.push({ seg: seg, kind: 'd', idx: i }); });
+    /* ⚠ DOM order must not reveal which one is the decoy. The visual
+       lock (pixel-identical strokes) is worthless if tab order sorts
+       correct-then-distractor, which is exactly what emission order
+       does. Shuffle deterministically per (food,n) so a gate can
+       reproduce it and a child cannot learn it. */
+    this._shuffleStable(list, this.food + ':' + this.n);
+    list.forEach(function (c) { hits.appendChild(self._cutBtn(c.seg, c.kind, c.idx)); });
+  },
+
+  /* deterministic order-only shuffle — same board, same order, all session */
+  _shuffleStable: function (arr, seedStr) {
+    var h = 2166136261;
+    for (var k = 0; k < seedStr.length; k++) { h ^= seedStr.charCodeAt(k); h = (h * 16777619) >>> 0; }
+    for (var i = arr.length - 1; i > 0; i--) {
+      h = (h * 1664525 + 1013904223) >>> 0;
+      var j = h % (i + 1);
+      var t = arr[i]; arr[i] = arr[j]; arr[j] = t;
+    }
+    return arr;
+  },
+
+  _cutBtn: function (seg, kind, idx) {
+    var b = this.api.el('button', 'frk-cutbtn');
+    b.type = 'button';
+    b.dataset.kind = kind; b.dataset.idx = idx;
+    /* ⚠ IDENTICAL for correct and distractor. A label that distinguished
+       them would telegraph to a screen reader precisely what the
+       pixel-identical stroke refuses to telegraph to the eye. */
+    b.setAttribute('aria-label', this.frac(this.n, 'p'));
+    var dx = seg.x2 - seg.x1, dy = seg.y2 - seg.y1;
+    var len = Math.hypot(dx, dy);
+    b.style.left = ((seg.x1 + seg.x2) / 2) + '%';
+    b.style.top = ((seg.y1 + seg.y2) / 2) + '%';
+    b.style.width = len + '%';
+    b.style.transform = 'translate(-50%,-50%) rotate(' + (Math.atan2(dy, dx) * 180 / Math.PI).toFixed(2) + 'deg)';
+    return b;
+  },
+
+  /* a piece target is a disc on the piece's CENTROID, not its bbox —
+     wedge bboxes overlap heavily and would make the neighbour grabbable */
+  _pieceBtn: function (p, i) {
+    var b = this.api.el('button', 'frk-piecebtn');
+    b.type = 'button';
+    b.dataset.piece = i;
+    b.setAttribute('aria-label', this.fmt('pieceName', { fs: this.frac(this.n, 's') }));
+    var d = this._pieceGap(this.food, this.n);
+    b.style.left = p.cx + '%'; b.style.top = p.cy + '%';
+    b.style.width = d + '%'; b.style.height = d + '%';
+    var vx = (p.cx - this.GEO.CX), vy = (p.cy - this.GEO.CY);
+    var len = Math.hypot(vx, vy) || 1;
+    b.style.setProperty('--ex', (vx / len * 2.5).toFixed(2) + 'px');
+    b.style.setProperty('--ey', (vy / len * 2.5).toFixed(2) + 'px');
+    if (this.placed.indexOf(i) >= 0) b.classList.add('onplate');
+    if (this._sel === i) { b.classList.add('selected'); b.setAttribute('aria-pressed', 'true'); }
+    else if (this.mode === 'share') b.setAttribute('aria-pressed', 'false');
+    return b;
+  },
+  /* diameter, in viewBox units, that provably cannot reach a neighbour */
+  _pieceGap: function (food, n) {
+    var ps = this.pieces(food, n), min = Infinity;
+    for (var i = 0; i < ps.length; i++) {
+      for (var j = i + 1; j < ps.length; j++) {
+        min = Math.min(min, Math.hypot(ps[i].cx - ps[j].cx, ps[i].cy - ps[j].cy));
+      }
+    }
+    if (!isFinite(min)) min = 40;
+    return Math.max(12, Math.min(30, min * 0.92));
+  },
+
+  /* ===================== the drag primitive =========================
+     The house "#40 pattern", file-local. LCS.drag.linear is x-only,
+     element-bound and re-reads the rect every move — three separate
+     disqualifications, and comparison-planks / cold-line / unit-handle
+     each record why they could not use it either.
+
+     ⚠ Moves go on WINDOW, not the element. Every surface here re-renders
+     during or after its gesture, and removing a captured element from
+     the document releases pointer capture with it. Hence no
+     setPointerCapture anywhere.
+     ⚠ The rect is snapshotted ONCE, in pointerdown. Re-reading it after a
+     repaint is what made unit-handle's grip follow the finger for one
+     frame and then stick. */
+  _grab: function (btn, opts) {
+    var self = this;
+    btn.style.touchAction = 'none';
+    var drag = null, suppressClick = false;
+    var move = function (e) {
+      if (!drag) return;
+      if (!drag.moved) {
+        var slop = opts.slop == null ? 8 : opts.slop;
+        if (Math.hypot(e.clientX - drag.x0, e.clientY - drag.y0) < slop) return;
+        drag.moved = true;
+        if (opts.onFirstMove) opts.onFirstMove(drag, e);
+      }
+      if (opts.onMove) opts.onMove(drag, e);
+      e.preventDefault();
+    };
+    var up = function (e) {
+      if (!drag) return;
+      var d = drag; drag = null;
+      window.removeEventListener('pointermove', move);
+      window.removeEventListener('pointerup', up);
+      window.removeEventListener('pointercancel', up);
+      suppressClick = d.moved;
+      if (opts.onEnd) opts.onEnd(d, e);
+    };
+    btn.addEventListener('dragstart', function (e) { e.preventDefault(); });
+    btn.addEventListener('pointerdown', function (e) {
+      if (!e.isPrimary) return;
+      if (e.button != null && e.button !== 0 && e.pointerType === 'mouse') return;
+      if (opts.enabled && !opts.enabled()) return;
+      e.preventDefault();
+      /* preventDefault suppresses the focus that pointerdown would have
+         given us, and a control nobody can focus is a control nobody can
+         reach by keyboard */
+      try { btn.focus({ preventScroll: true }); } catch (_) { try { btn.focus(); } catch (__) {} }
+      var ref = opts.ref && opts.ref();
+      var rect = ref ? ref.getBoundingClientRect() : null;
+      drag = { rect: rect, x0: e.clientX, y0: e.clientY, moved: false };
+      if (opts.onStart) opts.onStart(drag, e);
+      window.addEventListener('pointermove', move, { passive: false });
+      window.addEventListener('pointerup', up);
+      window.addEventListener('pointercancel', up);
+    });
+    /* a drag that MOVED suppresses the click it would otherwise fire;
+       a drag that did not is a tap, and taps are how touch and keyboard
+       both reach this control */
+    btn.addEventListener('click', function (e) {
+      e.preventDefault();
+      if (suppressClick) { suppressClick = false; return; }
+      if (opts.onTap) opts.onTap(e);
+    });
+  },
+
   /* ======================== the knife engine ======================== */
 
   _wireKnife: function () {
-    var self = this, knife = this._knifeEl;
-    if (!knife || this.sliced) { if (knife && this.sliced) knife.style.opacity = '0.45'; return; }
-    knife.style.touchAction = 'none';
-    var drag = null;
-    knife.addEventListener('pointerdown', function (e) {
-      if (!e.isPrimary || self._busy || self.sliced) return;
-      try { knife.setPointerCapture(e.pointerId); } catch (_) {}
-      drag = { engaged: null, progress: 0 };
-      self._foodBoxEl.classList.add('guides-on');
-      knife.classList.add('lifted');
-      self._moveKnife(e);
-    });
-    knife.addEventListener('pointermove', function (e) {
-      if (!drag) return;
-      self._moveKnife(e);
-      var pt = self._toFood(e.clientX, e.clientY);
-      if (!pt) { self._disengage(drag); return; }
-      var hit = self._nearestGuide(pt, drag.engaged);
-      if (!hit) { self._disengage(drag); return; }
-      if (drag.engaged !== hit.el) {
-        self._disengage(drag);
-        drag.engaged = hit.el; drag.seg = hit.seg; drag.progress = 0; drag.fromStart = null;
-        hit.el.classList.add('engaged');
-      }
-      /* progress along the segment (monotonic max from the entry end) */
-      var t = self._projT(pt, drag.seg);
-      if (drag.fromStart == null) drag.fromStart = t < 0.5;
-      var prog = drag.fromStart ? t : 1 - t;
-      drag.progress = Math.max(drag.progress, Math.min(1, prog));
-      self._paintScore(drag);
-      if (drag.progress >= 0.8) {
-        var el = drag.engaged;
-        var kind = el.dataset.kind, idx = Number(el.dataset.idx);
-        try { knife.releasePointerCapture(e.pointerId); } catch (_) {}
-        self._endKnife(drag); drag = null;
-        self._commit(kind, idx);
+    var self = this, btn = this._knifeBtn;
+    if (!btn) return;
+    if (this.sliced) { btn.classList.add('done'); return; }
+    this._grab(btn, {
+      slop: 0,
+      ref: function () { return self._foodSvgEl; },
+      enabled: function () { return !self._busy && !self.sliced; },
+      onStart: function (d, e) {
+        d.cut = { key: null, seg: null, progress: 0, fromStart: null };
+        self._foodBoxEl.classList.add('guides-on');
+        btn.classList.add('lifted');
+        self._moveKnife(e);
+      },
+      onMove: function (d, e) { self._knifeMove(d, e); },
+      onEnd: function (d) { self._endKnife(d.cut); },
+      /* tap / Enter / Space: pick the knife up and hand the keyboard the
+         first candidate. A drag-only control is dead to a keyboard, dead
+         to assistive tech, and dead to the liveness gate. */
+      onTap: function () {
+        if (self._busy || self.sliced) return;
+        self._foodBoxEl.classList.add('guides-on');
+        var first = self._hitsEl && self._hitsEl.querySelector('.frk-cutbtn');
+        if (first) { try { first.focus(); } catch (_) {} }
       }
     });
-    var up = function () {
-      if (!drag) return;
-      self._endKnife(drag); drag = null;
-    };
-    knife.addEventListener('pointerup', up);
-    knife.addEventListener('pointercancel', up);
   },
-  /* tap-to-cut fallback (accessibility + the core's proven verb) */
-  _wireGuides: function () {
+
+  /* one continuous stroke cuts the WHOLE cross: committing no longer
+     tears the gesture down, because nothing under the finger is replaced */
+  _knifeMove: function (d, e) {
+    if (this._busy || this.sliced) return;
+    this._moveKnife(e);
+    var c = d.cut;
+    var pt = this._toFood(e.clientX, e.clientY, d.rect);
+    if (!pt) { this._disengage(c); return; }
+    var hit = this._nearestGuide(pt, c.key);
+    if (!hit) { this._disengage(c); return; }
+    if (c.key !== hit.key) {
+      this._disengage(c);
+      c.key = hit.key; c.kind = hit.kind; c.idx = hit.idx; c.seg = hit.seg;
+      c.progress = 0; c.fromStart = null;
+      var g = this._guideFor(hit.kind, hit.idx);
+      if (g) g.classList.add('engaged');
+    }
+    /* progress along the segment (monotonic max from the entry end) */
+    var t = this._projT(pt, c.seg);
+    if (c.fromStart == null) c.fromStart = t < 0.5;
+    var prog = c.fromStart ? t : 1 - t;
+    c.progress = Math.max(c.progress, Math.min(1, prog));
+    this._paintScore(c);
+    if (c.progress >= 0.8) {
+      var kind = c.kind, idx = c.idx;
+      this._disengage(c);
+      this._commit(kind, idx);
+      if (this.sliced || this._busy) this._endKnife(c);
+    }
+  },
+
+  /* the board's tap + keyboard path. DELEGATED and bound ONCE — the
+     overlay's children are replaced whenever the hit set changes, and a
+     per-element listener would have to be re-attached every time (which
+     is how _wireKnife came to be called from three places and leak a
+     handler quadruple per cut). */
+  _wireBoard: function () {
     var self = this;
-    if (this.sliced) { this._wirePieces(); return; }
-    (this._foodBoxEl.querySelectorAll('.frk-hit') || []).forEach(function (el) {
-      el.addEventListener('click', function () {
-        if (self._busy) return;
-        self._commit(el.dataset.kind, Number(el.dataset.idx));
-      });
+    this._hitsEl.addEventListener('click', function (e) {
+      var b = e.target.closest && e.target.closest('.frk-cutbtn');
+      if (!b || self._busy || self.sliced) return;
+      self._commit(b.dataset.kind, Number(b.dataset.idx));
     });
   },
+
   _moveKnife: function (e) {
-    var z = this._knifeEl.parentNode.parentNode.getBoundingClientRect();
-    this._knifeEl.style.position = 'fixed';
-    this._knifeEl.style.left = (e.clientX - 24) + 'px';
-    this._knifeEl.style.top = (e.clientY - 24) + 'px';
-  },
-  _endKnife: function (drag) {
-    this._disengage(drag);
-    this._foodBoxEl.classList.remove('guides-on');
     var k = this._knifeEl;
-    k.classList.remove('lifted');
-    k.style.position = ''; k.style.left = ''; k.style.top = '';
+    if (!k) return;
+    k.style.position = 'fixed';
+    k.style.left = (e.clientX - 46) + 'px';
+    k.style.top = (e.clientY - 30) + 'px';
   },
-  _disengage: function (drag) {
-    if (drag && drag.engaged) drag.engaged.classList.remove('engaged');
-    if (drag) { drag.engaged = null; drag.progress = 0; drag.fromStart = null; }
-    var sc = this._foodBoxEl.querySelector('.frk-score');
+  _endKnife: function (cut) {
+    this._disengage(cut);
+    this._foodBoxEl.classList.remove('guides-on');
+    var b = this._knifeBtn, k = this._knifeEl;
+    if (b) b.classList.remove('lifted');
+    if (k) { k.style.position = ''; k.style.left = ''; k.style.top = ''; }
+  },
+  _disengage: function (cut) {
+    (this._foodSvgEl.querySelectorAll('.frk-guide.engaged') || []).forEach(function (g) { g.classList.remove('engaged'); });
+    if (cut) { cut.key = null; cut.seg = null; cut.progress = 0; cut.fromStart = null; }
+    var sc = this._foodSvgEl.querySelector('.frk-score');
     if (sc) { sc.style.visibility = 'hidden'; sc.setAttribute('x1', -20); sc.setAttribute('y1', -20); sc.setAttribute('x2', -20); sc.setAttribute('y2', -20); }
   },
-  _toFood: function (cx, cy) {
-    var svg = this._foodBoxEl.querySelector('.frk-food');
-    if (!svg) return null;
-    var r = svg.getBoundingClientRect();
+  /* rect is the ONE snapshot taken at pointerdown — never re-measured */
+  _toFood: function (cx, cy, rect) {
+    var r = rect || (this._foodSvgEl && this._foodSvgEl.getBoundingClientRect());
+    if (!r || !r.width) return null;
     if (cx < r.left - 40 || cx > r.right + 40 || cy < r.top - 40 || cy > r.bottom + 40) return null;
-    return { x: (cx - r.left) / r.width * 100, y: (cy - r.top) / r.height * 100, scale: r.width / 100 };
+    return { x: (cx - r.left) / r.width * 100, y: (cy - r.top) / r.height * 100 };
   },
-  _nearestGuide: function (pt, current) {
+  /* reads the MODEL, not the DOM — so a repaint cannot change the answer */
+  _nearestGuide: function (pt, currentKey) {
     var corridor = 9;   /* viewBox units ≈ 26px at S≈3 */
-    var best = null, bestD = corridor + (current ? 3 : 0);
-    var self = this;
-    (this._foodBoxEl.querySelectorAll('.frk-hit') || []).forEach(function (el) {
-      if (el.dataset.kind === 'c' && self.committed.indexOf(Number(el.dataset.idx)) >= 0) return;
-      var seg = { x1: +el.getAttribute('x1'), y1: +el.getAttribute('y1'), x2: +el.getAttribute('x2'), y2: +el.getAttribute('y2') };
+    var best = null, bestD = corridor + (currentKey ? 3 : 0);
+    var self = this, cuts = this.cuts(this.food, this.n);
+    var consider = function (seg, kind, idx) {
+      if (kind === 'c' && self.committed.indexOf(idx) >= 0) return;
       var d = self._distToSeg(pt, seg);
-      if (d < bestD) { bestD = d; best = { el: self._guideFor(el), seg: seg }; }
-    });
+      if (d < bestD) { bestD = d; best = { key: kind + idx, kind: kind, idx: idx, seg: seg }; }
+    };
+    cuts.correct.forEach(function (s, i) { consider(s, 'c', i); });
+    cuts.distractors.forEach(function (s, i) { consider(s, 'd', i); });
     return best;
   },
-  _guideFor: function (hitEl) {
-    var sel = '.frk-guide[data-kind="' + hitEl.dataset.kind + '"][data-idx="' + hitEl.dataset.idx + '"]';
-    return this._foodBoxEl.querySelector(sel) || hitEl;
+  _guideFor: function (kind, idx) {
+    return this._foodSvgEl.querySelector('.frk-guide[data-kind="' + kind + '"][data-idx="' + idx + '"]');
   },
   _distToSeg: function (p, s) {
     var dx = s.x2 - s.x1, dy = s.y2 - s.y1;
@@ -605,7 +812,7 @@ var FractionKitchen = {
     return Math.max(0, Math.min(1, ((p.x - s.x1) * dx + (p.y - s.y1) * dy) / (dx * dx + dy * dy)));
   },
   _paintScore: function (drag) {
-    var sc = this._foodBoxEl.querySelector('.frk-score');
+    var sc = this._foodSvgEl.querySelector('.frk-score');
     if (!sc || !drag.seg) return;
     var s = drag.seg, t = drag.progress;
     var fx = drag.fromStart ? s.x1 : s.x2, fy = drag.fromStart ? s.y1 : s.y2;
@@ -624,17 +831,18 @@ var FractionKitchen = {
       this.committed.push(idx);
       this._sfxSlice();
       var total = this.cuts(this.food, this.n).correct.length;
-      /* re-render guides (committed line becomes solid) */
-      this._foodBoxEl.innerHTML = this._foodSVG();
-      this._wireGuides();
-      this._wireKnife();
+      /* SURGICAL. The old code rebuilt the whole food here and re-wired
+         the knife, which (a) destroyed the node the gesture was running
+         on, so a cross needed two separate press-drag-releases, and (b)
+         stacked another handler quadruple on the knife every cut. One
+         class and one removed button is the entire visual delta. */
+      this._markCut(idx);
       if (this.committed.length === total) {
         this.sliced = true;
-        this._foodBoxEl.innerHTML = this._foodSVG();
-        this._wirePieces();
+        this._paintFood();            /* full rebuild — the gesture is over by definition */
         requestAnimationFrame(function () { self._foodBoxEl.classList.add('exploded'); });
         this._speak(this.fmt('cutDone', { n: this.n, fp: this.frac(this.n, 'p') }));
-        if (this._knifeEl) this._knifeEl.style.opacity = '0.45';
+        if (this._knifeBtn) this._knifeBtn.classList.add('done');
         this._refreshDock();
       }
       return;
@@ -646,7 +854,8 @@ var FractionKitchen = {
     var box = this._foodBoxEl;
     box.classList.add('unequal');
     /* split visual: clip the body along the distractor into 2 unequal groups */
-    box.innerHTML = this._unequalSVG(seg);
+    this._foodSvgEl.innerHTML = this._unequalSVG(seg);
+    this._hitsEl.style.visibility = 'hidden';
     var say = !this.wobbleSpoken[this.food];
     if (say) {
       this.wobbleSpoken[this.food] = true;
@@ -656,11 +865,22 @@ var FractionKitchen = {
     setTimeout(function () { box.classList.remove('seesaw'); box.classList.add('healing'); }, 920);
     setTimeout(function () {
       box.classList.remove('unequal', 'healing');
-      box.innerHTML = self._foodSVG();
-      self._wireGuides();
-      self._wireKnife();
+      self._paintFood();
+      self._hitsEl.style.visibility = '';
       self._busy = false;
     }, 1640);
+  },
+  /* the whole visual delta of a non-final cut */
+  _markCut: function (idx) {
+    var g = this._guideFor('c', idx);
+    if (g) { g.classList.add('cutline'); g.classList.remove('engaged'); }
+    var b = this._hitsEl && this._hitsEl.querySelector('.frk-cutbtn[data-kind="c"][data-idx="' + idx + '"]');
+    if (b) b.remove();
+  },
+  /* a FULL repaint — only ever called when no gesture is in flight */
+  _paintFood: function () {
+    this._foodSvgEl.innerHTML = this._foodSVG();
+    this._paintHits();
   },
   _unequalSVG: function (seg) {
     /* two half-plane clips along the distractor segment's infinite line */
@@ -692,54 +912,85 @@ var FractionKitchen = {
 
   /* ========================= pieces + share ========================= */
 
-  _wirePieces: function () {
-    var self = this;
-    (this._foodBoxEl.querySelectorAll('.frk-piece') || []).forEach(function (g) {
-      g.style.touchAction = 'none';
-      var start = null, fly = null, moved = false;
-      g.addEventListener('pointerdown', function (e) {
-        /* SHARE ONLY. The tray station draws its pieces from its own
-           supply row (_traysRow → _wireSupply), never from the board —
-           the board's food and the task's food are independent (the
-           task may be a bar while the board is a pizza), so a board
-           piece has no meaning in the tray. This branch used to admit
-           'equiv' and call a _dropOnTray() that was never written. */
-        if (!e.isPrimary || self.mode !== 'share') {
-          if (e.isPrimary && self.api.settings.speakNames) self._speak(self.fmt('pieceName', { fs: self.frac(self.n, 's') }));
-          return;
-        }
-        if (self.placed.indexOf(Number(g.dataset.piece)) >= 0) return;
-        start = { x: e.clientX, y: e.clientY };
-        moved = false;
-        try { g.setPointerCapture(e.pointerId); } catch (_) {}
-      });
-      g.addEventListener('pointermove', function (e) {
-        if (!start) return;
-        if (!moved && Math.hypot(e.clientX - start.x, e.clientY - start.y) < 10) return;
-        if (!moved) {
-          moved = true;
-          fly = self._makePieceFly(Number(g.dataset.piece));
-          document.body.appendChild(fly);
-          g.classList.add('dragging');
-          if (self.api.settings.speakNames && self.mode === 'share') self._speak(self.fmt('pieceName', { fs: self.frac(self.n, 's') }));
-        }
-        fly.style.left = (e.clientX - 45) + 'px';
-        fly.style.top = (e.clientY - 45) + 'px';
-        self._hotTarget(e.clientX, e.clientY);
-      });
-      var up = function (e) {
-        if (!start) return;
-        var wasMoved = moved;
-        start = null;
-        if (fly) { fly.remove(); fly = null; }
-        g.classList.remove('dragging');
+  /* SHARE ONLY — the tray station draws from its own supply row, and the
+     task's food is independent of the board's, so a board piece has no
+     meaning in the tray. This branch used to admit 'equiv' and call a
+     _dropOnTray() that was never written. */
+  _wirePiece: function (btn) {
+    var self = this, i = Number(btn.dataset.piece);
+    this._grab(btn, {
+      ref: function () { return self._wrap; },
+      slop: 10,
+      enabled: function () { return self.mode === 'share' && self.placed.indexOf(i) < 0; },
+      onStart: function (d) { d.targets = self._targets(); },
+      onFirstMove: function (d) {
+        d.fly = self._makePieceFly(i);
+        document.body.appendChild(d.fly);
+        btn.classList.add('dragging');
+        if (self.api.settings.speakNames) self._speak(self.fmt('pieceName', { fs: self.frac(self.n, 's') }));
+      },
+      onMove: function (d, e) {
+        if (!d.fly) return;
+        d.fly.style.left = (e.clientX - 45) + 'px';
+        d.fly.style.top = (e.clientY - 45) + 'px';
+        self._hotTarget(e.clientX, e.clientY, d.targets);
+      },
+      onEnd: function (d, e) {
+        if (d.fly) { d.fly.remove(); d.fly = null; }
+        btn.classList.remove('dragging');
         self._clearHot();
-        if (!wasMoved) return;
-        self._dropOnPlate(Number(g.dataset.piece), e.clientX, e.clientY);
-      };
-      g.addEventListener('pointerup', up);
-      g.addEventListener('pointercancel', up);
+        if (!d.moved) return;                     /* a tap — the click handler owns it */
+        self._dropOnPlate(i, e.clientX, e.clientY, d.targets);
+      },
+      onTap: function () { self._tapPiece(i); }
     });
+  },
+  /* tap-to-select, then tap a plate. The touch and keyboard path — a
+     drag is never the only way to move a piece. */
+  _tapPiece: function (i) {
+    if (this.mode !== 'share') {
+      if (this.api.settings.speakNames) this._speak(this.fmt('pieceName', { fs: this.frac(this.n, 's') }));
+      return;
+    }
+    if (this.placed.indexOf(i) >= 0) return;
+    this._sel = (this._sel === i) ? null : i;
+    this._paintSel();
+    if (this._sel === i) this._speak(this.fmt('pieceName', { fs: this.frac(this.n, 's') }));
+  },
+  _paintSel: function () {
+    var self = this;
+    (this._hitsEl.querySelectorAll('.frk-piecebtn') || []).forEach(function (b) {
+      var on = Number(b.dataset.piece) === self._sel;
+      b.classList.toggle('selected', on);
+      if (self.mode === 'share') b.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
+  },
+  /* a plate is never a dead control: with a selection it takes that
+     piece, without one it takes the first piece still on the board */
+  _tapPlate: function (plateEl) {
+    if (this.mode !== 'share') return;
+    var idx = this._sel;
+    if (idx == null) {
+      var ps = this.pieces(this.food, this.n);
+      for (var k = 0; k < ps.length; k++) if (this.placed.indexOf(k) < 0) { idx = k; break; }
+    }
+    if (idx == null) return;
+    var r = plateEl.getBoundingClientRect();
+    this._sel = null;
+    this._dropOnPlate(idx, r.left + r.width / 2, r.top + r.height / 2,
+      [{ el: plateEl, l: r.left, t: r.top, r: r.right, b: r.bottom }]);
+    this._paintSel();
+  },
+  /* target rects, snapshotted ONCE at drag start — re-measuring every
+     move is what made the old code re-layout on each pointermove */
+  _targets: function () {
+    var sel = this.mode === 'share' ? '.frk-plate' : '.frk-tray.fill';
+    var out = [];
+    (this._wrap.querySelectorAll(sel) || []).forEach(function (el) {
+      var r = el.getBoundingClientRect();
+      out.push({ el: el, l: r.left, t: r.top, r: r.right, b: r.bottom });
+    });
+    return out;
   },
   _makePieceFly: function (pieceIdx) {
     var p = this.pieces(this.food, this.n)[pieceIdx];
@@ -751,12 +1002,14 @@ var FractionKitchen = {
       '<path d="' + p.d + '" fill="none" stroke="' + this._edgeTint[this.food] + '" stroke-width="1.6"/></svg>';
     return fly;
   },
-  _hotTarget: function (x, y) {
+  _inTarget: function (t, x, y) {
+    return x >= t.l - 16 && x <= t.r + 16 && y >= t.t - 24 && y <= t.b + 24;
+  },
+  _hotTarget: function (x, y, targets) {
     this._clearHot();
-    var els = this.mode === 'share' ? this._wrap.querySelectorAll('.frk-plate') : this._wrap.querySelectorAll('.frk-tray.fill');
-    for (var i = 0; i < els.length; i++) {
-      var r = els[i].getBoundingClientRect();
-      if (x >= r.left - 16 && x <= r.right + 16 && y >= r.top - 24 && y <= r.bottom + 24) { els[i].classList.add('hot'); return; }
+    targets = targets || this._targets();
+    for (var i = 0; i < targets.length; i++) {
+      if (this._inTarget(targets[i], x, y)) { targets[i].el.classList.add('hot'); return; }
     }
   },
   _clearHot: function () {
@@ -776,29 +1029,35 @@ var FractionKitchen = {
         '<circle cx="16" cy="24" r="2" fill="#2A2A35"/><circle cx="28" cy="24" r="2" fill="#2A2A35"/>' +
         '<path d="M16.5 30 q5.5 4.5 11 0" stroke="#7A4E2E" stroke-width="2.4" fill="none" stroke-linecap="round"/>' +
         '</svg>';
-      var plate = api.el('div', 'frk-plate');
+      var plate = api.el('button', 'frk-plate');
+      plate.type = 'button';
       plate.dataset.plate = i;
+      plate.setAttribute('aria-label', api.t('friendsLbl') + ' ' + (i + 1));
+      plate.addEventListener('click', function () { self._tapPlate(this); });
       cell.appendChild(plate);
       row.appendChild(cell);
     }
     this._platesEl = row;
     return row;
   },
-  _dropOnPlate: function (pieceIdx, x, y) {
+  _dropOnPlate: function (pieceIdx, x, y, targets) {
     var self = this;
-    var plates = this._platesEl.querySelectorAll('.frk-plate');
-    for (var i = 0; i < plates.length; i++) {
-      var r = plates[i].getBoundingClientRect();
-      if (x >= r.left - 16 && x <= r.right + 16 && y >= r.top - 24 && y <= r.bottom + 24) {
-        if (plates[i].querySelector('svg')) return;   /* one slice per plate — extra slides back (render no-op) */
+    targets = targets || this._targets();
+    for (var k = 0; k < targets.length; k++) {
+      if (this._inTarget(targets[k], x, y)) {
+        var plate = targets[k].el, i = Number(plate.dataset.plate);
+        if (plate.querySelector('svg')) return;   /* one slice per plate — extra slides back (render no-op) */
         var p = this.pieces(this.food, this.n)[pieceIdx];
-        plates[i].innerHTML = '<svg viewBox="' + this._bboxAttr(this.food, this.n, pieceIdx) + '" class="frk-plateslice">' +
+        plate.innerHTML = '<svg viewBox="' + this._bboxAttr(this.food, this.n, pieceIdx) + '" class="frk-plateslice">' +
           '<clipPath id="frkpl' + i + '"><path d="' + p.d + '"/></clipPath>' +
           '<g clip-path="url(#frkpl' + i + ')">' + this._bodySVG(this.food) + '</g></svg>';
         this.placed.push(pieceIdx);
-        var pieceEl = this._foodBoxEl.querySelector('.frk-piece[data-piece="' + pieceIdx + '"]');
+        if (this._sel === pieceIdx) { this._sel = null; this._paintSel(); }
+        var pieceEl = this._hitsEl.querySelector('.frk-piecebtn[data-piece="' + pieceIdx + '"]');
         if (pieceEl) pieceEl.classList.add('onplate');
-        var face = plates[i].parentNode.querySelector('.frk-face');
+        var pieceGfx = this._foodSvgEl.querySelector('.frk-piece[data-piece="' + pieceIdx + '"]');
+        if (pieceGfx) pieceGfx.classList.add('onplate');
+        var face = plate.parentNode.querySelector('.frk-face');
         if (face) { face.classList.add('bounce'); setTimeout(function () { face.classList.remove('bounce'); }, 300); }
         this._sfxPlate();
         this._checkShare();
@@ -904,74 +1163,81 @@ var FractionKitchen = {
     for (var i = 0; i < count; i++) {
       var spIdx = slots[i % slots.length];
       var sp = smallPieces[spIdx];
-      var chip = api.el('div', 'frk-supplypiece');
+      var chip = api.el('button', 'frk-supplypiece');
+      chip.type = 'button';
       chip.dataset.slot = i;
-      chip.innerHTML = '<svg viewBox="' + this._bboxAttr(task.food, task.small, spIdx) + '"><clipPath id="frksup' + i + '"><path d="' + sp.d + '"/></clipPath>' +
+      chip.setAttribute('aria-label', this.frac(task.small, 's'));
+      chip.innerHTML = '<svg viewBox="' + this._bboxAttr(task.food, task.small, spIdx) + '" aria-hidden="true"><clipPath id="frksup' + i + '"><path d="' + sp.d + '"/></clipPath>' +
         '<g clip-path="url(#frksup' + i + ')">' + this._bodySVG(task.food) + '</g>' +
         '<path d="' + sp.d + '" fill="none" stroke="' + this._edgeTint[task.food] + '" stroke-width="1.6"/></svg>';
-      this._wireSupply(chip, i, sp);
+      this._wireSupply(chip);
       supply.appendChild(chip);
     }
+    fill.setAttribute('aria-label', this._bigName(task));
+    fill.addEventListener('click', function () { self._fillNext(); });
     row.append(ref, fill, supply);
     this._fillEl = fill;
     return row;
   },
-  _wireSupply: function (chip, idx, piece) {
+  _wireSupply: function (chip) {
     var self = this;
-    chip.style.touchAction = 'none';
-    var start = null, moved = false;
-    chip.addEventListener('pointerdown', function (e) {
-      if (!e.isPrimary || chip.classList.contains('used')) return;
-      start = { x: e.clientX, y: e.clientY };
-      moved = false;
-      try { chip.setPointerCapture(e.pointerId); } catch (_) {}
-    });
-    chip.addEventListener('pointermove', function (e) {
-      if (!start) return;
-      if (!moved && Math.hypot(e.clientX - start.x, e.clientY - start.y) < 10) return;
-      moved = true;
-      chip.style.transform = 'translate(' + (e.clientX - start.x) + 'px,' + (e.clientY - start.y) + 'px) scale(1.06)';
-      chip.classList.add('dragging');
-      self._hotTarget(e.clientX, e.clientY);
-    });
-    var up = function (e) {
-      if (!start) return;
-      var wasMoved = moved;
-      start = null;
-      chip.classList.remove('dragging');
-      self._clearHot();
-      if (!wasMoved) { chip.style.transform = ''; return; }
-      var r = self._fillEl.getBoundingClientRect();
-      var inTray = e.clientX >= r.left - 16 && e.clientX <= r.right + 16 && e.clientY >= r.top - 24 && e.clientY <= r.bottom + 24;
-      var task = self.equivTask;
-      if (inTray && self.equivFilled < task.count) {
-        /* snap into the next tiling slot of the reference piece */
-        var sp = self.pieces(task.food, task.small)[self._slotIdx[self.equivFilled]];
-        var g = self._fillEl.querySelector('.frk-fills');
-        g.innerHTML += '<clipPath id="frkfill' + self.equivFilled + '"><path d="' + sp.d + '"/></clipPath>' +
-          '<g clip-path="url(#frkfill' + self.equivFilled + ')">' + self._bodySVG(task.food) + '</g>' +
-          '<path d="' + sp.d + '" fill="none" stroke="' + self._edgeTint[task.food] + '" stroke-width="1.2"/>';
-        chip.classList.add('used');
+    this._grab(chip, {
+      slop: 10,
+      ref: function () { return self._wrap; },
+      enabled: function () { return !chip.classList.contains('used'); },
+      onStart: function (d) { d.targets = self._targets(); },
+      onFirstMove: function (d) { chip.classList.add('dragging'); },
+      onMove: function (d, e) {
+        chip.style.transform = 'translate(' + (e.clientX - d.x0) + 'px,' + (e.clientY - d.y0) + 'px) scale(1.06)';
+        self._hotTarget(e.clientX, e.clientY, d.targets);
+      },
+      onEnd: function (d, e) {
+        chip.classList.remove('dragging');
         chip.style.transform = '';
-        self.equivFilled++;
-        self._sfxPlate();
-        if (self.equivFilled === task.count) {
-          self._fillEl.classList.add('fit');
-          self._sfxFit();
-          self._speak(self.fmt('equivDone', { a: task.count, small: self.frac(task.small, 'c'), big: self._bigName(task) }));
-        }
-      } else {
-        /* too big / tray full → glide back silently (3rd consecutive → info line) */
-        chip.style.transform = '';
-        if (inTray) {
-          self.equivMisses++;
-          self._sfxWobble();
-          if (self.equivMisses >= 3) { self.equivMisses = 0; self._speak(self.api.t('equivTooBig')); }
-        }
-      }
-    };
-    chip.addEventListener('pointerup', up);
-    chip.addEventListener('pointercancel', up);
+        self._clearHot();
+        if (!d.moved) return;                     /* a tap — the click handler owns it */
+        if (d.targets.some(function (t) { return self._inTarget(t, e.clientX, e.clientY); })) self._fillFrom(chip);
+        /* dropped anywhere else: it simply glides back, and says nothing */
+      },
+      /* tap / Enter / Space on a chip sends it to the tray — the drag is
+         never the only way in */
+      onTap: function () { self._fillFrom(chip); }
+    });
+  },
+  /* the single arbiter: every route into the tray funnels through here,
+     so there is one code path to prove rather than two that can drift */
+  _fillFrom: function (chip) {
+    var task = this.equivTask;
+    if (!task || !chip || chip.classList.contains('used')) return;
+    if (this.equivFilled >= task.count) { this._missTray(); return; }
+    var sp = this.pieces(task.food, task.small)[this._slotIdx[this.equivFilled]];
+    var g = this._fillEl.querySelector('.frk-fills');
+    /* insertAdjacentHTML, not `innerHTML +=` — the latter re-parses and
+       re-creates every piece already placed, restarting their transitions */
+    g.insertAdjacentHTML('beforeend',
+      '<clipPath id="frkfill' + this.equivFilled + '"><path d="' + sp.d + '"/></clipPath>' +
+      '<g clip-path="url(#frkfill' + this.equivFilled + ')">' + this._bodySVG(task.food) + '</g>' +
+      '<path d="' + sp.d + '" fill="none" stroke="' + this._edgeTint[task.food] + '" stroke-width="1.2"/>');
+    chip.classList.add('used');
+    this.equivFilled++;
+    this._sfxPlate();
+    if (this.equivFilled === task.count) {
+      this._fillEl.classList.add('fit');
+      this._sfxFit();
+      this._speak(this.fmt('equivDone', { a: task.count, small: this.frac(task.small, 'c'), big: this._bigName(task) }));
+    }
+  },
+  /* clicking the tray itself takes the next unused chip */
+  _fillNext: function () {
+    var chip = this._fillEl && this._fillEl.parentNode &&
+      this._fillEl.parentNode.querySelector('.frk-supplypiece:not(.used)');
+    if (chip) this._fillFrom(chip);
+  },
+  /* tray already full → glide back silently (3rd consecutive → info line) */
+  _missTray: function () {
+    this.equivMisses++;
+    this._sfxWobble();
+    if (this.equivMisses >= 3) { this.equivMisses = 0; this._speak(this.api.t('equivTooBig')); }
   },
 
   /* ============================ dock ================================ */
@@ -1088,6 +1354,7 @@ var FractionKitchen = {
     this.committed = [];
     this.sliced = false;
     this.placed = [];
+    this._sel = null;
     if (!keepMode && this.mode === 'equiv') this.mode = 'cut';
     this.render();
   },
@@ -1159,8 +1426,24 @@ var FractionKitchen = {
   +   'background-image:repeating-linear-gradient(180deg,transparent 0 44px,rgba(139,111,71,.14) 44px 47px);'
   +   'box-shadow:0 8px 20px rgba(20,30,28,.14);}'
   + '.frk-hole{position:absolute;top:12px;right:14px;width:18px;height:18px;border-radius:50%;background:#A8763E;}'
-  + '.frk-foodbox{width:min(300px,74vw);height:min(300px,74vw);max-height:100%;}'
+  + '.frk-foodbox{position:relative;width:min(300px,74vw);height:min(300px,74vw);max-height:100%;}'
+  + '.frk-foodsvg{position:absolute;inset:0;}'
   + '.frk-food{display:block;width:100%;height:100%;overflow:visible;}'
+
+  /* the hit overlay — real buttons, positioned in the foodbox's own
+     percentage space. Exact because the box is square (verify §8d). */
+  + '.frk-hitlayer{position:absolute;inset:0;pointer-events:none;}'
+  + '.frk-cutbtn,.frk-piecebtn{position:absolute;pointer-events:auto;padding:0;margin:0;border:0;'
+  +   'background:transparent;font:inherit;color:inherit;touch-action:none;cursor:pointer;'
+  +   'appearance:none;-webkit-appearance:none;}'
+  + '.frk-cutbtn{height:max(44px,13%);border-radius:22px;}'
+  + '.frk-piecebtn{transform:translate(-50%,-50%);border-radius:50%;'
+  +   'min-width:34px;min-height:34px;cursor:grab;}'
+  + '.frk-foodbox.exploded .frk-piecebtn{transform:translate(-50%,-50%) translate(var(--ex),var(--ey));}'
+  + '.frk-cutbtn:focus-visible,.frk-piecebtn:focus-visible{outline:3px solid var(--lcs-focus,#146B5E);outline-offset:2px;}'
+  + '.frk-piecebtn.dragging{opacity:.4;}'
+  + '.frk-piecebtn.onplate{pointer-events:none;}'
+  + '.frk-piecebtn.selected{box-shadow:0 0 0 3px #F2C879, 0 0 0 6px rgba(242,200,121,.35);}'
 
   /* guides — correct and distractor styled IDENTICALLY (no telegraphing) */
   + '.frk-guide{stroke:#146B5E;stroke-width:3;stroke-dasharray:4 5;opacity:0;stroke-linecap:round;'
@@ -1168,14 +1451,12 @@ var FractionKitchen = {
   + '.frk-foodbox.guides-on .frk-guide{opacity:.34;}'
   + '.frk-guide.engaged{opacity:.72;}'
   + '.frk-guide.cutline{opacity:1;stroke-dasharray:none;stroke-width:3.6;}'
-  + '.frk-hit{stroke:transparent;stroke-width:12;fill:none;cursor:pointer;pointer-events:stroke;}'
   + '.frk-score{stroke:#146B5E;stroke-width:3.6;stroke-linecap:round;vector-effect:non-scaling-stroke;visibility:hidden;}'
 
-  /* pieces */
-  + '.frk-piece{transform:translate(0,0);transition:transform .26s cubic-bezier(.34,1.56,.64,1);cursor:grab;}'
+  /* pieces — DECORATIVE only; the overlay button is the pointer target */
+  + '.frk-piece{transform:translate(0,0);transition:transform .26s cubic-bezier(.34,1.56,.64,1);pointer-events:none;}'
   + '.frk-foodbox.exploded .frk-piece{transform:translate(var(--ex),var(--ey));}'
-  + '.frk-piece.dragging{opacity:.35;}'
-  + '.frk-piece.onplate{opacity:.18;pointer-events:none;}'
+  + '.frk-piece.onplate{opacity:.18;}'
   + '.frk-fly{position:fixed;z-index:1000;pointer-events:none;'
   +   'filter:drop-shadow(0 10px 16px rgba(20,30,28,.25));}'
 
@@ -1192,9 +1473,18 @@ var FractionKitchen = {
   + '.frk-knife-rest{position:absolute;right:max(8px,calc(50% - 320px));top:50%;transform:translateY(-50%);'
   +   'width:88px;height:140px;background:#FDF6E8;border:1.5px solid #E7DCC8;border-radius:14px;'
   +   'display:flex;align-items:center;justify-content:center;}'
-  + '.frk-knife{width:120px;height:38px;transform:rotate(-20deg);cursor:grab;touch-action:none;'
-  +   'filter:drop-shadow(0 3px 5px rgba(20,30,28,.18));transition:opacity .3s;}'
-  + '.frk-knife.lifted{transform:rotate(0deg) scale(1.06);z-index:100;cursor:grabbing;}'
+  + '.frk-knife-btn{padding:0;margin:0;border:0;background:transparent;font:inherit;color:inherit;'
+  +   'touch-action:none;cursor:grab;appearance:none;-webkit-appearance:none;line-height:0;'
+  +   'min-width:44px;min-height:44px;display:flex;align-items:center;justify-content:center;}'
+  + '.frk-knife-btn:focus-visible{outline:3px solid var(--lcs-focus,#146B5E);outline-offset:3px;border-radius:12px;}'
+  + '.frk-knife-btn.lifted{cursor:grabbing;}'
+  /* after the last cut the knife is PUT DOWN, not greyed out — a faded
+     control reads as broken rather than as finished */
+  + '.frk-knife-btn.done{cursor:default;}'
+  + '.frk-knife-btn.done .frk-knife{transform:rotate(-6deg);}'
+  + '.frk-knife{width:120px;height:38px;transform:rotate(-20deg);pointer-events:none;'
+  +   'filter:drop-shadow(0 3px 5px rgba(20,30,28,.18));transition:transform .14s var(--lcs-ease);}'
+  + '.frk-knife-btn.lifted .frk-knife{transform:rotate(0deg) scale(1.06);z-index:100;}'
 
   /* plates */
   + '.frk-plates{flex-shrink:0;display:flex;justify-content:center;align-items:flex-end;gap:28px;'
@@ -1206,6 +1496,11 @@ var FractionKitchen = {
   + '.frk-face circle[fill="#2A2A35"]{transform-box:fill-box;transform-origin:center;}'
   + '.frk-face.blink circle[fill="#2A2A35"]{animation:frkBlink 1.2s ease-in-out;}'
   + '@keyframes frkBlink{45%,55%{transform:scaleY(.1);}}'
+  /* plates and supply chips are real <button>s now — reset the UA styling */
+  + '.frk-plate,.frk-supplypiece,.frk-tray.fill{font:inherit;color:inherit;padding:0;'
+  +   'appearance:none;-webkit-appearance:none;cursor:pointer;}'
+  + '.frk-plate:focus-visible,.frk-supplypiece:focus-visible,.frk-tray.fill:focus-visible{'
+  +   'outline:3px solid var(--lcs-focus,#146B5E);outline-offset:3px;}'
   + '.frk-plate{width:108px;height:108px;border-radius:50%;background:#FFFFFF;'
   +   'border:1.5px solid #C9D8D3;box-shadow:var(--lcs-shadow-sm);display:grid;place-items:center;position:relative;}'
   + '.frk-plate::before{content:"";position:absolute;inset:12%;border-radius:50%;border:2px solid #E2F0EC;}'
@@ -1228,7 +1523,8 @@ var FractionKitchen = {
   +   'font-family:var(--lcs-font-display);font-weight:700;font-size:12.5px;color:#2B2622;white-space:nowrap;}'
   + '.frk-supply{display:flex;gap:10px;align-items:center;justify-content:center;flex-wrap:wrap;max-width:260px;'
   +   'background:#FBF6EE;border:1.5px dashed rgba(20,107,94,.18);border-radius:16px;padding:10px 12px;}'
-  + '.frk-supplypiece{width:84px;height:84px;cursor:grab;}'
+  + '.frk-supplypiece{width:84px;height:84px;cursor:grab;background:transparent;border:0;'
+  +   'touch-action:none;}'
   + '.frk-supplypiece svg{width:100%;height:100%;overflow:visible;}'
   + '.frk-supplypiece.dragging{z-index:100;position:relative;}'
   + '.frk-supplypiece.used{opacity:.2;pointer-events:none;}'

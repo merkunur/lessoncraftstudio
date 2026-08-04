@@ -392,12 +392,22 @@ for (const food of Object.keys(T.FREE_TASKS)) {
       E(`8b DRAG CONTRACT: the pointerdown handler at line ${SRC.slice(0, m.index).split('\n').length} never calls preventDefault() — on touch the browser pans and cancels the drag`);
     }
   }
-  if (downs < 2) E(`8b NON-VACUITY: only ${downs} pointerdown handlers found (expected ≥2)`);
+  if (!downs) E('8b NON-VACUITY: no pointerdown handler found at all — the scan is broken');
+  /* ⚠ the floor is NOT a handler count. Three drag surfaces funnelling
+     through ONE shared primitive is the goal, not a smell — an earlier
+     version of this check demanded ≥2 handlers and so condemned exactly
+     the architecture it exists to encourage. What must be non-vacuous is
+     that every surface goes through the contract: count the CALL SITES. */
+  const grabs = (SRC.match(/this\._grab\s*\(/g) || []).length;
+  if (grabs < 3) E(`8b NON-VACUITY: _grab() is used by only ${grabs} surfaces (knife, pieces and supply chips must all go through it)`);
 
   /* touch-action:none is INERT on a non-root SVG element. Setting it on
-     one is the defect, not the fix — the target must be an HTML node. */
-  if (/\.frk-piece[^{]*\{[^}]*touch-action/.test(SRC) || /\bg\.style\.touchAction/.test(SRC)) {
-    E('8b DRAG CONTRACT: touch-action is being set on an SVG <g> (.frk-piece) — it is inert there; the pointer target must be an HTML element');
+     one is the defect, not the fix — the target must be an HTML node.
+     ⚠ `.frk-piece` must NOT match `.frk-piecebtn`, which is an HTML
+     button where touch-action is correct and required. The first version
+     of this check had no boundary and condemned the repair. */
+  if (/\.frk-piece(?![\w-])[^{]*\{[^}]*touch-action/.test(SRC) || /\bg\.style\.touchAction/.test(SRC)) {
+    E('8b DRAG CONTRACT: touch-action is being set on the SVG <g> .frk-piece — it is inert there; the pointer target must be an HTML element');
   }
 }
 

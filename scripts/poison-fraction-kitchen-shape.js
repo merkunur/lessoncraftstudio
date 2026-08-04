@@ -85,33 +85,52 @@ CASES.push({
 
 /* ---- 8b drag contract -------------------------------------------- */
 CASES.push({
-  name: '8b MUST_PASS — window-bound moves + preventDefault + no SVG touch-action',
-  marker: 'DRAG CONTRACT',
-  expect: false,
-  build: (s) => {
-    /* rewire all three surfaces to the house contract, minimally */
-    let out = s;
-    out = out.replace(/(\w+)\.addEventListener\('(pointermove|pointerup|pointercancel)'/g, "window.addEventListener('$2'");
-    out = out.replace(/addEventListener\('pointerdown', function \((\w+)\) \{/g,
-      "addEventListener('pointerdown', function ($1) { $1.preventDefault();");
-    out = sub(out, "      g.style.touchAction = 'none';", '      /* moved to the HTML overlay */', '8b pass touch-action');
-    return out;
-  }
-});
-CASES.push({
-  name: '8b MUST_FIRE — one pointerdown loses preventDefault',
+  name: '8b MUST_FIRE — the drag primitive loses preventDefault',
   marker: 'never calls preventDefault',
   expect: true,
+  build: (s) => sub(s,
+    '      if (opts.enabled && !opts.enabled()) return;\n      e.preventDefault();',
+    '      if (opts.enabled && !opts.enabled()) return;', '8b no-preventDefault')
+});
+CASES.push({
+  name: '8b MUST_FIRE — pointermove rebound to the element',
+  marker: 'must be bound to window',
+  expect: true,
+  build: (s) => sub(s,
+    "      window.addEventListener('pointermove', move, { passive: false });",
+    "      btn.addEventListener('pointermove', move, { passive: false });", '8b element-bound')
+});
+CASES.push({
+  name: '8b MUST_FIRE — touch-action back on the SVG <g>',
+  marker: 'inert there',
+  expect: true,
+  build: (s) => sub(s,
+    "  + '.frk-piece{transform:translate(0,0);",
+    "  + '.frk-piece{touch-action:none;transform:translate(0,0);", '8b svg touch-action')
+});
+CASES.push({
+  /* ⚠ the ban must NOT match .frk-piecebtn, which is an HTML button where
+     touch-action is correct. The first version had no boundary and
+     condemned the repair — the Zufallsbeutel trap, in my own gate. */
+  name: '8b MUST_PASS — .frk-piecebtn may keep touch-action (it is HTML)',
+  marker: 'inert there',
+  expect: false,
+  build: (s) => sub(s,
+    "  + '.frk-cutbtn,.frk-piecebtn{position:absolute;",
+    "  + '.frk-piecebtn{touch-action:none;}'\n  + '.frk-cutbtn,.frk-piecebtn{position:absolute;", '8b piecebtn ok')
+});
+CASES.push({
+  /* violates ONLY the coverage condition: the renamed helper is defined,
+     so 8a stays silent and cannot be what fires */
+  name: '8b MUST_FIRE — one surface bypasses the shared drag contract',
+  marker: '_grab() is used by only',
+  expect: true,
   build: (s) => {
-    let out = s;
-    out = out.replace(/(\w+)\.addEventListener\('(pointermove|pointerup|pointercancel)'/g, "window.addEventListener('$2'");
-    out = out.replace(/addEventListener\('pointerdown', function \((\w+)\) \{/g,
-      "addEventListener('pointerdown', function ($1) { $1.preventDefault();");
-    out = sub(out, "      g.style.touchAction = 'none';", '      /* moved */', '8b fire base');
-    /* now remove it from exactly one handler again */
-    const i = out.indexOf("addEventListener('pointerdown', function (e) { e.preventDefault();");
-    if (i < 0) throw new Error('HARNESS FAULT: could not re-open a pointerdown handler');
-    return out.slice(0, i) + out.slice(i).replace(" e.preventDefault();", '');
+    let out = sub(s, '    this._grab(chip, {', '    this._grab2(chip, {', '8b bypass call');
+    /* ⚠ the stub must NOT delegate to _grab — an earlier version did, which
+       put the call site straight back and made the poison test nothing */
+    return sub(out, '  _grab: function (btn, opts) {',
+      '  _grab2: function (btn, opts) { return null; },\n  _grab: function (btn, opts) {', '8b bypass def');
   }
 });
 
@@ -143,24 +162,27 @@ CASES.push({
   name: '8d MUST_FIRE — a one-sided clamp skews the hit overlay',
   marker: 'SQUARE INVARIANT',
   expect: true,
-  build: (s) => sub(s, ".frk-foodbox{width:min(300px,74vw);height:min(300px,74vw);max-height:100%;}",
+  build: (s) => sub(s, ".frk-foodbox{position:relative;width:min(300px,74vw);height:min(300px,74vw);max-height:100%;}",
     ".frk-foodbox{width:min(300px,74vw);height:min(240px,60vw);max-height:100%;}", '8d fire')
 });
 CASES.push({
   name: '8d MUST_PASS — unequal width/height is fine WITH an explicit aspect-ratio:1',
   marker: 'SQUARE INVARIANT',
   expect: false,
-  build: (s) => sub(s, ".frk-foodbox{width:min(300px,74vw);height:min(300px,74vw);max-height:100%;}",
+  build: (s) => sub(s, ".frk-foodbox{position:relative;width:min(300px,74vw);height:min(300px,74vw);max-height:100%;}",
     ".frk-foodbox{width:auto;height:min(100%,300px);aspect-ratio:1;}", '8d pass')
 });
 
 /* ---- run ---------------------------------------------------------- */
 console.log('poison-fraction-kitchen-shape — §8 in both directions\n');
 
-/* baseline: the checks that pass today must keep passing on the real file */
+/* baseline: NOTHING in §8 may fire on the real file. A gate that is stuck
+   on is exactly as useless as one that is stuck off. */
 const base = runVerify(ORIGINAL);
-ok('baseline — 8c does not fire on the shipped art', !/8c/.test(base), base.split('\n').filter((l) => /8c/.test(l))[0]);
-ok('baseline — 8d does not fire on the shipped CSS', !/8d/.test(base), base.split('\n').filter((l) => /8d/.test(l))[0]);
+for (const sec of ['8a', '8b', '8c', '8d']) {
+  ok(`baseline — ${sec} is silent on the shipped file`, !new RegExp(sec).test(base),
+    base.split('\n').filter((l) => new RegExp(sec).test(l))[0]);
+}
 
 for (const c of CASES) {
   let out;

@@ -607,6 +607,46 @@ for (const food of Object.keys(T.FREE_TASKS)) {
 }
 
 /* =================== report ======================================== */
+/* =====================================================================
+   §8 — EVERY KEY THE TOOL ASKS FOR MUST EXIST.
+   The mirror of the dead-string check. That one catches a string that is
+   AUTHORED BUT NEVER REACHED; this catches one that is REACHED BUT NEVER
+   AUTHORED — and `lcs-shell.js` i18n.t returns the RAW KEY on a miss, so
+   the failure mode is the literal text "p2Note" printed on a worksheet in
+   all eleven locales, silently, with no error anywhere.
+
+   That is exactly what happened: the print sheet's page-2 builder called
+   `head(p2, 'p2Head', 'p2Note')` and `p2Note` existed nowhere. Three
+   native panels found it by READING MY CODE; no gate could see it,
+   because nothing in the suite had ever compared call sites against the
+   strings block. Verify counted the strings and checked their contents —
+   it never asked whether the set was the set the tool needs.
+   ===================================================================== */
+{
+  const src = fs.readFileSync(TOOL_PATH, 'utf8');
+  /* api.t('x') / self.api.t('x') / this.fmt('x') / self.fmt('x') / t('x') */
+  const asked = new Set();
+  const re = /(?:\.t|fmt|api\.t)\(\s*'([A-Za-z][\w]*)'/g;
+  let m;
+  while ((m = re.exec(src))) asked.add(m[1]);
+  /* head(host,'a','b') passes two KEYS positionally — a call shape the
+     regex above cannot see, and the one the defect hid in. */
+  const re2 = /head\(\s*\w+\s*,\s*'([\w]+)'\s*,\s*'([\w]+)'\s*\)/g;
+  while ((m = re2.exec(src))) { asked.add(m[1]); asked.add(m[2]); }
+
+  if (asked.size < 10) {
+    errors.push(`§8 parsed only ${asked.size} t()/fmt() call sites — implausible; the scan is broken, not the tool`);
+  }
+  const have = new Set(Object.keys(S));
+  /* chrome keys are the shell's, not this tool's */
+  const SHELL = new Set(['close', 'loading', 'unlock']);
+  [...asked].sort().forEach((k) => {
+    if (!have.has(k) && !SHELL.has(k)) {
+      errors.push(`§8 the tool asks for t('${k}') and no such key exists — i18n.t returns the RAW KEY, so "${k}" prints as literal text in all 11 locales`);
+    }
+  });
+}
+
 if (errors.length) {
   console.log(`FAIL — ${errors.length} error(s):`);
   errors.slice(0, 40).forEach((e) => console.log('  ✗ ' + e));
@@ -619,3 +659,4 @@ console.log('  ✓ art clearance: every decoration ≥ r+3 from every candidate 
 console.log(`  ✓ FRAC tables ${DENS.length}×3×${LOCALES.length} complete + distinct + notation-free`);
 console.log(`  ✓ ${Object.keys(S).length} strings complete; verdict + notation bans hold`);
 console.log('  ✓ 6 equivalence tasks cross-multiply exactly; 8 stories well-formed (2 discussion)');
+console.log('  ✓ every t()/fmt() key the tool asks for exists (no raw-key leak)');

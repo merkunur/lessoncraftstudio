@@ -1,7 +1,7 @@
 /* =====================================================================
    _fraction-kitchen-strings.js — the SoT for TOOL #16's UI strings
    ---------------------------------------------------------------------
-   32 keys x 11 locales. Applied by apply-fraction-kitchen-locales.js.
+   48 keys x 11 locales. Applied by apply-fraction-kitchen-locales.js.
    WARN NEVER hand-edit the strings block in mini tools/fraction-kitchen.js.
 
    Extracted from the live tool 2026-08-04, which is the first time this
@@ -45,7 +45,21 @@ module.exports = {
     "gateEquiv": "The tray station — proving that two fourths fill one half exactly — is part of Premium.",
     "unlock": "Unlock everything",
     "setSpeak": "Speak the fraction names",
-    "loading": "Setting the table…"
+    "loading": "Setting the table…",
+    "printChip": "Print the pages",
+    "gatePrint": "The printable pages — drawing the cuts, cutting them out and laying them on — are part of Premium.",
+    "p1Head": "Draw the lines",
+    "p1Note": "Read the word under each shape. Draw lines to make that many equal parts.",
+    "p2Head": "How we shared",
+    "p2Note": "Fill in one row each time the class shares something. Write it in words.",
+    "p2ColFood": "What we shared",
+    "p2ColFriends": "How many friends",
+    "p2ColEach": "What each friend got",
+    "p3Head": "Cut out the pieces",
+    "p3Note": "Cut out every piece along its line. The pieces with the same letter belong together — and that letter is on the big shape too.",
+    "p4Head": "Lay the pieces on the shapes",
+    "p4Note": "Find the shape with the same letter. Lay the small pieces on the big shape. Do they fill it exactly?",
+    "teacherCard": "Page three is the one to cut out; page four is the one to lay the pieces on, and the letter says which shape each set belongs to. When the small pieces fill the big shape exactly, the class has shown it with their hands — before anyone writes a fraction down."
   },
   de: {
     "title": "Die Bruch-Küche",
@@ -81,7 +95,21 @@ module.exports = {
     "gateEquiv": "Die Tablett-Station — der Beweis, dass zwei Viertel genau eine Hälfte füllen — gehört zu Premium.",
     "unlock": "Alles freischalten",
     "setSpeak": "Bruchnamen vorsprechen",
-    "loading": "Der Tisch wird gedeckt…"
+    "loading": "Der Tisch wird gedeckt…",
+    "printChip": "Vorlagen drucken",
+    "gatePrint": "Die Vorlagen zum Ausdrucken — vier Seiten zum Einzeichnen, Ausschneiden und Auflegen — gehören zu Premium.",
+    "p1Head": "Schnitte einzeichnen",
+    "p1Note": "Zeichne in jede Form Linien ein — so, dass gleich große Teile entstehen.",
+    "p2Head": "So haben wir geteilt",
+    "p2Note": "Immer wenn ihr etwas geteilt habt, füllt ihr eine Zeile aus — und schreibt alles in Worten.",
+    "p2ColFood": "Was wir geteilt haben",
+    "p2ColFriends": "Wie viele Freunde",
+    "p2ColEach": "Was jeder bekommen hat",
+    "p3Head": "Schneide die Teile aus",
+    "p3Note": "Schneide an jeder Linie entlang. Auf jedem Teil steht ein Buchstabe — lege zusammen, was denselben Buchstaben hat. Den findest du auch auf der großen Form.",
+    "p4Head": "Leg die Teile darauf",
+    "p4Note": "Leg die kleinen Teile auf die große Form. Bedecken sie die Form genau?",
+    "teacherCard": "Die Teile auf Seite drei werden ausgeschnitten, Seite vier ist die Unterlage. Wenn die kleinen Teile die große Form genau bedecken, hat die Klasse es mit den Händen gezeigt — noch bevor jemand etwas aufschreibt."
   },
   fr: {
     "title": "La cuisine des fractions",
@@ -117,7 +145,21 @@ module.exports = {
     "gateEquiv": "Le plateau — la preuve que deux quarts remplissent exactement une moitié — fait partie de Premium.",
     "unlock": "Tout débloquer",
     "setSpeak": "Dire les noms des fractions",
-    "loading": "On met la table…"
+    "loading": "On met la table…",
+    "printChip": "Imprimer les fiches",
+    "gatePrint": "Les fiches à imprimer — tracer les coupes, découper et recouvrir — font partie de Premium.",
+    "p1Head": "Trace les traits de coupe",
+    "p1Note": "Trace des traits pour partager chaque figure en parts égales.",
+    "p2Head": "Nos partages",
+    "p2Note": "À chaque partage, on remplit une ligne. Ici, on écrit en toutes lettres.",
+    "p2ColFood": "Ce qu’on a partagé",
+    "p2ColFriends": "Combien d’amis",
+    "p2ColEach": "La part de chacun",
+    "p3Head": "Découpe les parts",
+    "p3Note": "Découpe le long de chaque trait. Range ensemble les parts qui portent la même lettre.",
+    "p4Head": "Pose les parts par-dessus",
+    "p4Note": "Pose les petites parts sur la grande. Est-ce qu’elles la recouvrent exactement ?",
+    "teacherCard": "La page trois se découpe ; la page quatre sert de support. Quand les petites parts recouvrent exactement la grande, les élèves ont fait la preuve avec leurs mains, avant d’écrire quoi que ce soit."
   },
   it: {
     "title": "La cucina delle frazioni",
@@ -153,7 +195,21 @@ module.exports = {
     "gateEquiv": "Il vassoio — la prova che due quarti riempiono esattamente una metà — fa parte di Premium.",
     "unlock": "Sblocca tutto",
     "setSpeak": "Pronuncia i nomi delle frazioni",
-    "loading": "Apparecchiamo la tavola…"
+    "loading": "Apparecchiamo la tavola…",
+    "printChip": "Stampa le pagine",
+    "gatePrint": "Le pagine da stampare — disegnare i tagli, ritagliare i pezzi e appoggiarli sopra — fanno parte di Premium.",
+    "p1Head": "Disegna dove tagliare",
+    "p1Note": "Disegna le linee che dividono ogni figura in parti uguali.",
+    "p2Head": "Come abbiamo diviso",
+    "p2Note": "Ogni volta che dividiamo qualcosa, riempiamo una riga — scriviamo tutto a parole.",
+    "p2ColFood": "Che cosa abbiamo diviso",
+    "p2ColFriends": "Quanti amici",
+    "p2ColEach": "Che cosa ha avuto ognuno",
+    "p3Head": "Ritaglia questi pezzi",
+    "p3Note": "Ritaglia lungo tutte le linee e tieni insieme i pezzi che portano la stessa lettera: sono un gruppo solo.",
+    "p4Head": "Appoggia i pezzi sopra",
+    "p4Note": "Appoggia i pezzi piccoli sopra la figura grande. La coprono esattamente?",
+    "teacherCard": "Dalla terza pagina si ritagliano i pezzi; sulla quarta si appoggiano. Quando i pezzi piccoli coprono esattamente la figura grande, i bambini lo hanno mostrato con le mani, prima ancora di scriverlo."
   },
   es: {
     "title": "La cocina de fracciones",
@@ -189,7 +245,21 @@ module.exports = {
     "gateEquiv": "La bandeja — la prueba de que dos cuartos llenan exactamente una mitad — es parte de Premium.",
     "unlock": "Desbloquear todo",
     "setSpeak": "Decir los nombres de las fracciones",
-    "loading": "Poniendo la mesa…"
+    "loading": "Poniendo la mesa…",
+    "printChip": "Imprimir las páginas",
+    "gatePrint": "Las páginas para imprimir — dibujar los cortes, recortar las partes y comprobar con las manos — son parte de Premium.",
+    "p1Head": "Dibuja los cortes",
+    "p1Note": "Dibuja las líneas para que cada figura quede en partes iguales. Aquí solo se dibuja — todavía no se corta.",
+    "p2Head": "Nuestro cuadro de repartos",
+    "p2Note": "Llenen una fila cada vez que compartan algo. Escriban todo con palabras, sin números.",
+    "p2ColFood": "Lo que compartimos",
+    "p2ColFriends": "Cuántos amigos",
+    "p2ColEach": "Lo que le tocó a cada uno",
+    "p3Head": "Recorta estas partes",
+    "p3Note": "Recorta por todas las líneas y guarda juntas las partes que tienen la misma letra. Busca esa letra en la figura grande.",
+    "p4Head": "Pon las partes encima",
+    "p4Note": "Coloca las partes pequeñas encima de la figura grande. ¿La cubren exactamente?",
+    "teacherCard": "La página tres es la que se recorta; la página cuatro es donde se acomodan las partes encima. Cuando las partes pequeñas cubren exactamente la figura grande, la clase ya lo mostró con las manos, antes de escribir nada."
   },
   pt: {
     "title": "A cozinha das frações",
@@ -225,7 +295,21 @@ module.exports = {
     "gateEquiv": "O tabuleiro — a prova de que dois quartos enchem exatamente uma metade — faz parte do Premium.",
     "unlock": "Desbloquear tudo",
     "setSpeak": "Falar os nomes das frações",
-    "loading": "Arrumando a mesa…"
+    "loading": "Arrumando a mesa…",
+    "printChip": "Imprimir as folhas",
+    "gatePrint": "As folhas para imprimir — desenhar os cortes, recortar os pedaços e conferir com as próprias mãos — fazem parte do Premium.",
+    "p1Head": "Desenhe os cortes",
+    "p1Note": "Desenhe as linhas que dividem cada figura em partes iguais. Nesta folha, ninguém corta nada.",
+    "p2Head": "Nossa tabela de partes iguais",
+    "p2Note": "Preencha uma linha da tabela cada vez que a turma dividir alguma coisa.",
+    "p2ColFood": "O que a gente dividiu",
+    "p2ColFriends": "Quantos amigos",
+    "p2ColEach": "O que cada amigo ganhou",
+    "p3Head": "Recorte os pedaços",
+    "p3Note": "Recorte todos os pedaços seguindo as linhas. Guarde juntinhos os pedaços que têm a mesma letra — a letra mostra em qual figura grande eles vão.",
+    "p4Head": "Coloque os pedaços por cima",
+    "p4Note": "Coloque os pedaços pequenos por cima da figura grande. Será que eles cobrem certinho?",
+    "teacherCard": "A terceira folha é para recortar; a quarta é onde os pedaços vão por cima. Quando os pedaços pequenos cobrem a figura grande certinho, a turma provou com as próprias mãos — antes de alguém escrever uma fração."
   },
   nl: {
     "title": "De breukenkeuken",
@@ -261,7 +345,21 @@ module.exports = {
     "gateEquiv": "De bakplaat — het bewijs dat twee kwarten precies één helft vullen — hoort bij Premium.",
     "unlock": "Alles ontgrendelen",
     "setSpeak": "Breuknamen hardop uitspreken",
-    "loading": "De tafel wordt gedekt…"
+    "loading": "De tafel wordt gedekt…",
+    "printChip": "Bladen afdrukken",
+    "gatePrint": "Afdrukken — de vier bladen om te tekenen, te knippen en op elkaar te leggen — hoort bij Premium.",
+    "p1Head": "Teken de lijnen",
+    "p1Note": "Teken lijnen en verdeel elke vorm in gelijke stukken.",
+    "p2Head": "Zo hebben we gedeeld",
+    "p2Note": "Vul één rij in elke keer dat we iets delen. Schrijf het in woorden.",
+    "p2ColFood": "Wat we deelden",
+    "p2ColFriends": "Hoeveel vrienden",
+    "p2ColEach": "Wat iedereen kreeg",
+    "p3Head": "Knip de stukjes uit",
+    "p3Note": "Knip langs elke lijn. Houd de stukjes met dezelfde letter bij elkaar.",
+    "p4Head": "Leg de stukjes erop",
+    "p4Note": "Leg de kleine stukjes op de grote vorm. Bedekken ze die precies?",
+    "teacherCard": "Blad drie knip je uit, blad vier is waar je de stukjes op legt. Als de kleine stukjes de grote vorm precies bedekken, hebben de kinderen het met hun handen laten zien — nog voordat er iets is opgeschreven."
   },
   sv: {
     "title": "Bråkköket",
@@ -297,7 +395,21 @@ module.exports = {
     "gateEquiv": "Brickan — beviset på att två fjärdedelar fyller exakt en halva — ingår i Premium.",
     "unlock": "Lås upp allt",
     "setSpeak": "Läs upp bråkens namn",
-    "loading": "Bordet dukas…"
+    "loading": "Bordet dukas…",
+    "printChip": "Skriv ut häftet",
+    "gatePrint": "Häftet — att rita, klippa och lägga ovanpå — ingår i Premium.",
+    "p1Head": "Rita snitten",
+    "p1Note": "Rita streck som delar varje figur i lika stora delar.",
+    "p2Head": "Så här delade vi",
+    "p2Note": "Fyll i en rad varje gång ni delar något. Skriv med ord.",
+    "p2ColFood": "Vad vi delade på",
+    "p2ColFriends": "Hur många vänner",
+    "p2ColEach": "Vad var och en fick",
+    "p3Head": "Klipp ut bitarna",
+    "p3Note": "Klipp längs alla streck. Lägg bitarna med samma bokstav i en egen hög.",
+    "p4Head": "Lägg bitarna ovanpå",
+    "p4Note": "Lägg de små bitarna ovanpå den stora figuren. Täcker de den exakt?",
+    "teacherCard": "Sidan tre klipper ni ut. Sidan fyra lägger ni bitarna på. När de små bitarna täcker den stora figuren exakt har klassen visat det med händerna — innan någon skriver ner det."
   },
   da: {
     "title": "Brøkkøkkenet",
@@ -333,7 +445,21 @@ module.exports = {
     "gateEquiv": "Bakken — beviset på, at to fjerdedele fylder præcis en halvdel — er en del af Premium.",
     "unlock": "Lås alt op",
     "setSpeak": "Sig brøkernes navne",
-    "loading": "Bordet dækkes…"
+    "loading": "Bordet dækkes…",
+    "printChip": "Print arkene",
+    "gatePrint": "Arkene til print — at tegne, klippe og lægge oven på — er en del af Premium.",
+    "p1Head": "Tegn streger",
+    "p1Note": "Tegn streger, så hver figur bliver delt i lige store dele.",
+    "p2Head": "Sådan delte vi",
+    "p2Note": "Udfyld en række, hver gang I har delt noget — og skriv det med ord.",
+    "p2ColFood": "Det, vi delte",
+    "p2ColFriends": "Hvor mange venner",
+    "p2ColEach": "Hvad hver ven fik",
+    "p3Head": "Klip stykkerne ud",
+    "p3Note": "Klip langs alle stregerne, og hold stykkerne med samme bogstav samlet. De hører til figuren med samme bogstav på side fire.",
+    "p4Head": "Læg dem ovenpå",
+    "p4Note": "Læg de små stykker oven på den store figur. Dækker de den helt præcist?",
+    "teacherCard": "Side tre klipper I ud. Side fire lægger I stykkerne oven på. Når de små stykker dækker den store figur helt, har klassen vist det med hænderne, før nogen skriver en brøk ned."
   },
   no: {
     "title": "Brøkkjøkkenet",
@@ -369,7 +495,21 @@ module.exports = {
     "gateEquiv": "Brettet — beviset på at to firedeler fyller nøyaktig en halvdel — er en del av Premium.",
     "unlock": "Lås opp alt",
     "setSpeak": "Les brøknavnene høyt",
-    "loading": "Bordet dekkes…"
+    "loading": "Bordet dekkes…",
+    "printChip": "Skriv ut kopiarkene",
+    "gatePrint": "Kopiarkene er en del av Premium.",
+    "p1Head": "Tegn hvor vi skjærer",
+    "p1Note": "Tegn streker som deler hver figur i like store biter. Ordet under figuren sier hvor mange.",
+    "p2Head": "Slik delte vi",
+    "p2Note": "Fyll ut én rad hver gang dere har delt noe. Skriv med ord.",
+    "p2ColFood": "Hva vi delte",
+    "p2ColFriends": "Hvor mange venner",
+    "p2ColEach": "Hva hver og en fikk",
+    "p3Head": "Klipp ut bitene",
+    "p3Note": "Klipp langs alle strekene. Bitene med samme bokstav hører sammen — hold dem i én bunke.",
+    "p4Head": "Legg bitene oppå",
+    "p4Note": "Finn figuren med samme bokstav. Legg de små bitene oppå den store. Dekker de den helt nøyaktig?",
+    "teacherCard": "Bitene på det tredje arket klippes ut, og det fjerde arket viser hva de skal legges oppå — bokstaven forteller hvilken figur som hører til. Når de små bitene dekker den store helt nøyaktig, har klassen vist det med hendene, lenge før noen skriver noe ned."
   },
   fi: {
     "title": "Murtolukukeittiö",
@@ -405,6 +545,20 @@ module.exports = {
     "gateEquiv": "Tarjotinpiste — todiste siitä, että kaksi neljäsosaa täyttää tarkalleen yhden puolikkaan — kuuluu Premiumiin.",
     "unlock": "Avaa kaikki",
     "setSpeak": "Lue murtolukujen nimet ääneen",
-    "loading": "Katetaan pöytää…"
+    "loading": "Katetaan pöytää…",
+    "printChip": "Tulosta monisteet",
+    "gatePrint": "Monisteiden tulostaminen kuuluu Premiumiin.",
+    "p1Head": "Piirrä leikkausviivat",
+    "p1Note": "Piirrä viivat, jotka jakavat jokaisen kuvion yhtä suuriin osiin.",
+    "p2Head": "Näin me jaoimme",
+    "p2Note": "Täytetään yksi rivi aina, kun jaamme jotakin. Kirjoitetaan sanoilla — vain ystävien määrä merkitään numerolla.",
+    "p2ColFood": "Mitä jaoimme",
+    "p2ColFriends": "Montako ystävää",
+    "p2ColEach": "Mitä jokainen sai",
+    "p3Head": "Leikkaa palat irti",
+    "p3Note": "Leikkaa jokaista viivaa pitkin. Jokaisessa palassa on kirjain — pidä saman kirjaimen palat yhdessä.",
+    "p4Head": "Aseta palat kuvion päälle",
+    "p4Note": "Aseta pienet palat ison kuvion päälle. Peittävätkö ne sen tarkalleen?",
+    "teacherCard": "Kolmannelta sivulta leikataan palat, ja ne asetetaan neljännen sivun kuvioiden päälle. Kun pienet palat peittävät ison kuvion tarkalleen, luokka on osoittanut asian omin käsin ennen kuin kukaan kirjoittaa sitä muistiin."
   }
 };

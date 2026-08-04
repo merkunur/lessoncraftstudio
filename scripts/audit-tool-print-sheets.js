@@ -65,6 +65,18 @@ const TOOLS = [
   /* prints a DEDICATED sheet (the build-plan pattern), so the
      apparatus that reaches paper is .pvl-sheet, not the on-screen mat */
   { key: 'place-value-lab', p: 'pvl', apparatus: '.pvl-sheet', chrome: '.pvl-dock' },
+  /* fraction-kitchen prints a DEDICATED four-page sheet. ⚠ Its sheet is
+     ENTITLEMENT-GATED in the DOM, not merely in the chip — a free visitor
+     pressing Ctrl+P used to get all four paid pages — so the prime must
+     force `premium` AND rebuild, or the probe measures an absent sheet and
+     the whole check is vacuous. */
+  {
+    key: 'fraction-kitchen', p: 'frk', apparatus: '.frk-sheet', chrome: '.frk-dock',
+    prime: function (p) {
+      var T = window.FractionKitchen;
+      if (T) { T.premium = true; T.render(); T._ensureSheet(); }
+    }
+  },
   /* ⚠ draw-bag is DELIBERATELY NOT PROBED HERE, and saying so is the point.
      Its sheet is the RECORD, and a record does not exist until a class has
      filled the bag, committed a prediction on the shelves and opened it —

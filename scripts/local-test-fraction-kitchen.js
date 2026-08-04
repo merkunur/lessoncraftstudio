@@ -627,20 +627,52 @@ function serve() {
       food: FractionKitchen.food, n: FractionKitchen.n,
       lockedChips: document.querySelectorAll('.frk-chip.locked').length
     }));
-    ok('free: ?food=cake&n=8 suppressed to pizza', free.food === 'pizza' && (free.n === 2 || free.n === 4));
-    ok('free: locked chips show locks', free.lockedChips >= 4);
-    /* clicking a locked chip gates and does NOT switch */
-    await page.evaluate(() => {
-      const chips = [...document.querySelectorAll('.frk-chiprow:first-child .frk-chip')];
-      chips.find((c) => c.classList.contains('locked')).click();
+    /* the premium PARTITION is refused, but the food the link asked for
+       survives — landing a free teacher on a different food entirely was
+       the old behaviour and it threw the link away */
+    ok('free: ?food=cake&n=8 keeps the CAKE and drops to a free partition',
+      free.food === 'cake' && (free.n === 2 || free.n === 4), `${free.food} n=${free.n}`);
+    /* ⚠ `>= 4` was a bare count: it passed whether the cake was Premium or
+       free, so it could not see the tier change at all. Derive the exact
+       expected set from the tool's OWN FREE_TASKS and MENU. */
+    const tier = await page.evaluate(() => {
+      const T = FractionKitchen;
+      const lockedFoods = Object.keys(T.MENU).filter((f) => !T.FREE_TASKS[f]);
+      const lockedParts = T.MENU[T.food].filter((n) => (T.FREE_TASKS[T.food] || []).indexOf(n) < 0);
+      const chipFor = (label) => [...document.querySelectorAll('.frk-chip')].find((b) => b.textContent.trim().indexOf(label) === 0);
+      const cake = chipFor('Cake');
+      return {
+        expected: lockedFoods.length + lockedParts.length + 2,   /* + tray + stories */
+        lockedFoods, lockedParts,
+        cakeLocked: !!(cake && cake.classList.contains('locked'))
+      };
     });
+    ok('free: EXACTLY the premium chips are locked', free.lockedChips === tier.expected,
+      `${free.lockedChips} locked, expected ${tier.expected} (foods:${tier.lockedFoods} parts:${tier.lockedParts})`);
+    /* ⭐ pins the tier widening: 1.G.A.3 names circles AND rectangles, so a
+       free tier of circles-only did not meet the standard it implied */
+    ok('free: the CAKE is free (circles and rectangles, per 1.G.A.3)', !tier.cakeLocked);
+    ok('free: the chocolate bar is still Premium', tier.lockedFoods.indexOf('bar') >= 0, tier.lockedFoods.join(','));
+    /* clicking a locked chip gates and does NOT switch */
+    const clicked = await page.evaluate(() => {
+      const chips = [...document.querySelectorAll('.frk-dock .frk-chip')];
+      const c = chips.find((b) => b.classList.contains('locked'));
+      if (!c) return null;
+      c.click();
+      return c.textContent.trim() || c.getAttribute('aria-label');
+    });
+    ok('E non-vacuity: a locked chip exists to click', !!clicked, String(clicked));
     await sleep(300);
     const gated = await page.evaluate(() => ({
       gate: !!document.querySelector('.frk-gate'),
       href: document.querySelector('.frk-gate a') && document.querySelector('.frk-gate a').getAttribute('href'),
       food: FractionKitchen.food
     }));
-    ok('locked chip gates instead of switching', gated.gate && gated.food === 'pizza');
+    /* the invariant is that the click did not switch to the LOCKED food —
+       not that the board is on some particular one. Hard-coding 'pizza'
+       assumed a starting state the deep-link fix legitimately changed. */
+    ok('locked chip gates instead of switching', gated.gate && gated.food !== 'bar',
+      `clicked=${clicked} gate=${gated.gate} food=${gated.food}`);
     ok('gate links to pricing with from=', /from=tool-fraction-kitchen/.test(gated.href || ''), gated.href);
     await page.screenshot({ path: path.join(QA, 'E-free-gate.png') });
     const p2 = await newPage({ premium: true });

@@ -69,8 +69,22 @@ let fail = 0;
     if (!m.body.includes(S.anotherItem[L])) problems.push('anotherItem chip not localized');
     if (m.coins !== EXPECT_COINS[L]) problems.push(`${m.coins} purse coins (want ${EXPECT_COINS[L]})`);
     if (!m.tag) problems.push('no price tag');
+    /* ⭐ ONE NOTATION PER ROUND — the assertion that replaced "the total
+       carries the currency symbol". It does not, in a minor-form round:
+       against a 45c price the total reads "0 c", deliberately, because the
+       two numbers a child must compare have to name the same countable
+       unit. Demanding the symbol here was demanding the very mismatch the
+       tool was fixed to remove. What must hold is that the tag and the
+       total agree, which is stronger and currency-independent. */
+    const majorForm = /[.,]\d\d(\D|$)/;
+    if (!m.total) problems.push('no running total');
+    else if (majorForm.test(m.tag) !== majorForm.test(m.total)) {
+      problems.push(`tag and total disagree on notation (tag "${m.tag.trim()}", total "${m.total.trim()}")`);
+    }
+    /* and the tag must still name the currency somewhere in the round */
     const sym = { en: '$', de: '€', fr: '€', it: '€', es: '€', nl: '€', fi: '€', pt: 'R$', sv: 'kr', da: 'kr', no: 'kr' }[L];
-    if (!m.total.includes(sym)) problems.push(`total lacks ${sym} ("${m.total}")`);
+    const mark = { en: '¢', de: 'c', fr: 'c', it: 'c', es: 'c', nl: 'ct', fi: 'c', pt: 'c', sv: 'kr', da: 'kr', no: 'kr' }[L];
+    if (!m.tag.includes(sym) && !m.tag.includes(mark)) problems.push(`price tag names no unit ("${m.tag}")`);
     if (L !== 'en' && S.instruction[L] !== S.instruction.en && m.body.includes(S.instruction.en)) problems.push('en instruction leak');
     if (problems.length) { fail++; console.log(`  ✗ ${L}: ${problems.join('; ')}`); }
     else console.log(`  ✓ ${L}`);

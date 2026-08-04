@@ -148,8 +148,8 @@ const M = [
     "{ id:'st-left3', food:'pizza', n:4, friends:3, discussion:true,",
     "{ id:'st-left3', food:'pizza', n:4, friends:3, discussion:false,"],
   ['the free tier quietly widens past the menu',
-    'FREE_TASKS: { pizza: [2, 4] },',
-    'FREE_TASKS: { pizza: [2, 4, 5] },'],
+    'FREE_TASKS: { pizza: [2, 4], cake: [2, 4] },',
+    'FREE_TASKS: { pizza: [2, 4, 5], cake: [2, 4] },'],
 
   /* ---- the FRAC tables: §3 ----------------------------------------- */
   ['two denominators share a plural, so thirds and sixths sound alike',
@@ -161,9 +161,10 @@ const M = [
   enNeedle('cutDone', 'You made 1/2 of it!', 'fraction notation enters a child-facing string'),
   enNeedle('equivPrompt', 'A Common Core aligned task.', 'Common Core is named in the tool strings'),
   enNeedle('shareDone', '', 'a string is emptied in English'),
-  ['pieceName gets its doubled article back — the shipped EN defect',
-    "pieceName:    {en:'{fs}'",
-    "pieceName:    {en:'one {fs}'"]
+  /* ⚠ SELF-ANCHORED. The literal form of this needle died the moment
+     apply-…-locales re-padded the whole block — exactly the failure the
+     header warns about, on the very run that introduced the applier. */
+  enNeedle('pieceName', 'one {fs}', 'pieceName gets its doubled article back — the shipped EN defect')
 ];
 
 /* ---- run ---------------------------------------------------------- */

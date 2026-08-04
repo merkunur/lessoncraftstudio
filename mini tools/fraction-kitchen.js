@@ -35,50 +35,40 @@ var FractionKitchen = {
   id: 'fraction-kitchen',
 
   strings: {
-    title:        {en:'Fraction Kitchen',de:'Die Bruch-Küche',fr:'La cuisine des fractions',it:'La cucina delle frazioni',es:'La cocina de fracciones',pt:'A cozinha das frações',nl:'De breukenkeuken',sv:'Bråkköket',da:'Brøkkøkkenet',no:'Brøkkjøkkenet',fi:'Murtolukukeittiö'},
-    instruction:  {en:'Pick a food, pick the pieces, and cut along a line — equal parts taste best!',de:'Wähle ein Essen, wähle die Teile und schneide an einer Linie entlang — gleich große Teile schmecken am besten!',fr:'Choisis un aliment, choisis les parts et coupe le long d’une ligne — les parts égales sont les meilleures !',it:'Scegli un cibo, scegli le parti e taglia lungo una linea — le parti uguali sono le più buone!',es:'Elige una comida, elige las partes y corta por una línea — ¡las partes iguales saben mejor!',pt:'Escolha uma comida, escolha as partes e corte seguindo uma linha — partes iguais são as mais gostosas!',nl:'Kies iets lekkers, kies de stukken en snijd langs een lijn — gelijke stukken smaken het lekkerst!',sv:'Välj något gott, välj delarna och skär längs en linje — lika stora bitar smakar bäst!',da:'Vælg mad, vælg stykkerne og skær langs en linje — lige store stykker smager bedst!',no:'Velg mat, velg hvor mange biter og skjær langs en linje — like store biter smaker best!',fi:'Valitse ruoka, valitse palat ja leikkaa viivaa pitkin — yhtä suuret palat maistuvat parhaalta!'},
-    /* the 10 utterance templates — {n} count, {fp} plural, {fs} singular,
-       {fc} counted form, {food} localized food name, {f} friends, {p} pieces,
-       {a} amount, {small}/{big} frac forms */
-    cutPrompt:    {en:'Let’s cut {food} into {n} equal parts — {fp}.',de:'Wir schneiden {food} in {n} gleich große Teile — {fp}.',fr:'Coupons {food} en {n} parts égales — des {fp}.',it:'Tagliamo {food} in {n} parti uguali — {fp}.',es:'Vamos a cortar {food} en {n} partes iguales — {fp}.',pt:'Vamos cortar {food} em {n} partes iguais — {fp}.',nl:'We snijden {food} in {n} gelijke stukken — {fp}.',sv:'Vi skär {food} i {n} lika stora delar — {fp}.',da:'Vi skærer {food} i {n} lige store dele — {fp}.',no:'Vi skjærer {food} i {n} like store deler — {fp}.',fi:'Leikataan {food} {n} yhtä suureen osaan — {fp}.'},
-    cutDone:      {en:'{fp}! {n} equal parts.',de:'{fp}! {n} gleich große Teile.',fr:'Des {fp} ! {n} parts égales.',it:'{fp}! {n} parti uguali.',es:'¡{fp}! {n} partes iguales.',pt:'{fp}! {n} partes iguais.',nl:'{fp}! {n} gelijke stukken.',sv:'{fp}! {n} lika stora delar.',da:'{fp}! {n} lige store dele.',no:'{fp}! {n} like store deler.',fi:'{fp}! {n} yhtä suurta osaa.'},
-    wobbleLine:   {en:'Hmm — those pieces aren’t the same size. Let’s find the cut that makes equal pieces.',de:'Hmm — diese Teile sind nicht gleich groß. Lass uns den Schnitt finden, der gleich große Teile macht.',fr:'Hmm — ces parts n’ont pas la même taille. Cherchons la coupe qui fait des parts égales.',it:'Mmm — queste parti non sono della stessa grandezza. Cerchiamo insieme il taglio che fa parti uguali.',es:'Mmm — esas partes no son del mismo tamaño. Busquemos el corte que haga partes iguales.',pt:'Hum… esses pedaços não ficaram do mesmo tamanho. Vamos procurar o corte que faz partes iguais.',nl:'Hmm — die stukken zijn niet even groot. Laten we de snee zoeken die gelijke stukken maakt.',sv:'Hmm — de där bitarna är inte lika stora. Vi letar efter snittet som ger lika stora delar.',da:'Hmm — stykkerne er ikke lige store. Lad os finde det snit, der giver lige store stykker.',no:'Hmm — de bitene er ikke like store. La oss finne snittet som gir like store deler.',fi:'Hmm — nuo palat eivät ole yhtä suuria. Etsitään viiva, joka tekee yhtä suuret palat.'},
-    sharePrompt:  {en:'{f} friends want to share {food}. Give everyone a fair share.',de:'{f} Freunde wollen sich {food} teilen. Verteile die Stücke gerecht.',fr:'{f} amis veulent partager {food}. Donne à chacun une part juste.',it:'{f} amici vogliono dividersi {food}. Dai a ognuno una parte uguale.',es:'{f} amigos quieren compartir {food}. Dale a cada uno una parte justa.',pt:'{f} amigos querem dividir {food}. Dê a cada um uma parte justa.',nl:'{f} vrienden willen {food} delen. Geef iedereen een eerlijk stuk.',sv:'{f} vänner vill dela på {food}. Ge alla en rättvis del.',da:'{f} venner vil dele {food}. Giv alle en fair del.',no:'{f} venner vil dele {food}. Gi alle en rettferdig del.',fi:'Pöydässä on {food}, ja {f} ystävää haluaa jakaa sen. Anna jokaiselle reilu osuus.'},
-    shareDone:    {en:'Everyone got a fair share. Time to eat!',de:'Alle haben gleich viel bekommen. Guten Appetit!',fr:'Tout le monde a une part juste. Bon appétit !',it:'Una parte uguale per ognuno. Buon appetito!',es:'Todos tienen una parte justa. ¡A comer!',pt:'Todo mundo ganhou uma parte justa. Hora de comer!',nl:'Iedereen heeft een eerlijk stuk. Smakelijk!',sv:'Alla fick en rättvis del. Nu äter vi!',da:'Alle fik en fair del. Velbekomme!',no:'Alle fikk en rettferdig del. Nå spiser vi!',fi:'Jokainen sai reilun osuuden. Hyvää ruokahalua!'},
-    shareLeftover:{en:'Everyone has one piece — and one piece is left over. Hmm!',de:'Jeder hat ein Stück — und ein Stück ist übrig. Hmm!',fr:'Tout le monde a une part — et il en reste une. Hmm !',it:'Tutti hanno una parte — e ne avanza una. Mmm!',es:'Todos tienen una parte — y sobra una. ¡Vaya!',pt:'Todo mundo tem um pedaço — e sobrou um. E agora?',nl:'Iedereen heeft een stuk — en er is één stuk over. Hmm!',sv:'Alla har en bit — och en bit blir över. Hmm!',da:'Alle har et stykke — og der er ét stykke tilovers. Hmm!',no:'Alle har en bit — og en bit er til overs. Hmm!',fi:'Jokaisella on pala — ja yksi pala jää yli. Hmm!'},
-    shareEmpty:   {en:'{p} pieces, {f} friends — someone’s plate is empty!',de:'{p} Stücke, {f} Freunde — ein Teller ist leer!',fr:'{p} parts, {f} amis — une assiette est vide !',it:'{p} parti, {f} amici — un piatto resta vuoto!',es:'{p} partes, {f} amigos — ¡un plato quedó vacío!',pt:'{p} pedaços, {f} amigos — um prato ficou vazio!',nl:'{p} stukken, {f} vrienden — één bord is leeg!',sv:'{p} bitar, {f} vänner — någons tallrik är tom!',da:'{p} stykker, {f} venner — én tallerken er tom!',no:'{p} biter, {f} venner — noen har tom tallerken!',fi:'{p} palaa, {f} ystävää — jonkun lautanen on tyhjä!'},
-    /* ⚠ BARE {fs} IN EVERY LOCALE, ENGLISH INCLUDED. The `s` form already
-       carries its own article ("one half" / "eine Hälfte" / "un quart"),
-       so a template that adds one produces "one one half". English shipped
-       exactly that: its template was 'one {fs}' while all ten siblings
-       were bare. The native ensembles caught this doubling in the equiv
-       template and fixed it across eleven locales — and missed it here,
-       in the one locale none of them was asked to read. */
-    pieceName:    {en:'{fs}',de:'{fs}',fr:'{fs}',it:'{fs}',es:'{fs}',pt:'{fs}',nl:'{fs}',sv:'{fs}',da:'{fs}',no:'{fs}',fi:'{fs}'},
-    equivPrompt:  {en:'Can {a} {small} fill {big}?',de:'Können {a} {small} {big} genau ausfüllen?',fr:'Est-ce que {a} {small} remplissent {big} ?',it:'{a} {small} possono riempire {big}?',es:'¿Pueden {a} {small} llenar {big}?',pt:'Será que {a} {small} enchem {big}?',nl:'Kunnen {a} {small} samen {big} vullen?',sv:'Kan {a} {small} fylla {big}?',da:'Kan {a} {small} fylde {big}?',no:'Kan {a} {small} fylle {big}?',fi:'Voiko {a} {small} täyttää saman tilan kuin {big}?'},
-    equivDone:    {en:'{a} {small} fill it exactly. {a} {small} make {big}.',de:'{a} {small} füllen es genau aus. {a} {small} sind genauso viel wie {big}.',fr:'{a} {small} le remplissent exactement. {a} {small} font {big}.',it:'{a} {small} lo riempiono esattamente. {a} {small} fanno {big}.',es:'{a} {small} la llenan exactamente. {a} {small} hacen {big}.',pt:'{a} {small} enchem certinho. {a} {small} formam {big}.',nl:'{a} {small} vullen het precies. {a} {small} zijn samen {big}.',sv:'{a} {small} fyller den exakt. {a} {small} blir {big}.',da:'{a} {small} fylder den helt præcist. {a} {small} giver {big}.',no:'{a} {small} fyller den helt nøyaktig. {a} {small} blir {big}.',fi:'{a} {small} täyttää sen tarkalleen. {a} {small} on yhtä paljon kuin {big}.'},
-    equivTooBig:  {en:'That piece is too big for the space left. Try a smaller one.',de:'Dieses Stück ist zu groß für den Platz, der noch frei ist. Probier ein kleineres.',fr:'Cette part est trop grande pour la place qui reste. Essaie une plus petite.',it:'Questa parte è troppo grande per lo spazio rimasto. Provane una più piccola.',es:'Esa parte es demasiado grande para el espacio que queda. Prueba una más chica.',pt:'Esse pedaço é grande demais para o espaço que sobrou. Tente um menor.',nl:'Dat stuk is te groot voor de ruimte die over is. Probeer een kleiner stuk.',sv:'Den biten är för stor för utrymmet som är kvar. Prova en mindre bit.',da:'Det stykke er for stort til den plads, der er tilbage. Prøv et mindre.',no:'Den biten er for stor for plassen som er igjen. Prøv en mindre.',fi:'Se pala on liian iso jäljellä olevaan tilaan. Kokeile pienempää.'},
-    /* foods + ui */
-    foodPizza:    {en:'the pizza',de:'die Pizza',fr:'la pizza',it:'la pizza',es:'la pizza',pt:'a pizza',nl:'de pizza',sv:'pizzan',da:'pizzaen',no:'pizzaen',fi:'pizza'},
-    foodBar:      {en:'the chocolate bar',de:'die Schokolade',fr:'la tablette de chocolat',it:'la tavoletta di cioccolato',es:'el chocolate',pt:'a barra de chocolate',nl:'de reep chocola',sv:'chokladkakan',da:'chokoladen',no:'sjokoladen',fi:'suklaalevy'},
-    foodCake:     {en:'the cake',de:'den Kuchen',fr:'le gâteau',it:'la torta',es:'el pastel',pt:'o bolo',nl:'de taart',sv:'kakan',da:'kagen',no:'kaken',fi:'kakku'},
-    chipPizza:    {en:'Pizza',de:'Pizza',fr:'Pizza',it:'Pizza',es:'Pizza',pt:'Pizza',nl:'Pizza',sv:'Pizza',da:'Pizza',no:'Pizza',fi:'Pizza'},
-    chipBar:      {en:'Chocolate',de:'Schokolade',fr:'Chocolat',it:'Cioccolato',es:'Chocolate',pt:'Chocolate',nl:'Chocola',sv:'Choklad',da:'Chokolade',no:'Sjokolade',fi:'Suklaa'},
-    chipCake:     {en:'Cake',de:'Kuchen',fr:'Gâteau',it:'Torta',es:'Pastel',pt:'Bolo',nl:'Taart',sv:'Kaka',da:'Kage',no:'Kake',fi:'Kakku'},
-    shareChip:    {en:'Share it',de:'Teilen',fr:'Partager',it:'Dividi',es:'Compartir',pt:'Dividir',nl:'Delen',sv:'Dela',da:'Del den',no:'Del ut',fi:'Jaa'},
-    friendsLbl:   {en:'Friends',de:'Freunde',fr:'Amis',it:'Amici',es:'Amigos',pt:'Amigos',nl:'Vrienden',sv:'Vänner',da:'Venner',no:'Venner',fi:'Ystävät'},
-    equivChip:    {en:'Fill the tray',de:'Das Tablett füllen',fr:'Remplir le plateau',it:'Riempi il vassoio',es:'Llenar la bandeja',pt:'Encher o tabuleiro',nl:'De bakplaat vullen',sv:'Fyll brickan',da:'Fyld bakken',no:'Fyll brettet',fi:'Täytä tarjotin'},
-    cutAgain:     {en:'Cut again',de:'Neu schneiden',fr:'Recouper',it:'Taglia di nuovo',es:'Cortar de nuevo',pt:'Cortar de novo',nl:'Opnieuw snijden',sv:'Skär igen',da:'Skær igen',no:'Skjær igjen',fi:'Leikkaa uudelleen'},
-    startAgain:   {en:'Start again',de:'Noch einmal',fr:'Recommencer',it:'Ricomincia',es:'Empezar de nuevo',pt:'Começar de novo',nl:'Opnieuw beginnen',sv:'Börja om',da:'Begynd forfra',no:'Begynn på nytt',fi:'Aloita alusta'},
-    fracWhole:    {en:'one whole',de:'ein Ganzes',fr:'un entier',it:'un intero',es:'un entero',pt:'um inteiro',nl:'een hele',sv:'en hel',da:'en hel',no:'en hel',fi:'yksi kokonainen'},
-    stories:      {en:'Stories',de:'Geschichten',fr:'Histoires',it:'Storie',es:'Cuentos',pt:'Histórias',nl:'Verhalen',sv:'Berättelser',da:'Historier',no:'Fortellinger',fi:'Tarinat'},
-    close:        {en:'Close',de:'Schließen',fr:'Fermer',it:'Chiudi',es:'Cerrar',pt:'Fechar',nl:'Sluiten',sv:'Stäng',da:'Luk',no:'Lukk',fi:'Sulje'},
-    /* gates */
-    gateMenu:     {en:'The chocolate bar, the cake, thirds, sixths and eighths are part of Premium. The pizza with halves and fourths — cutting and sharing — is always free.',de:'Schokolade, Kuchen, Drittel, Sechstel und Achtel gehören zu Premium. Die Pizza mit Hälften und Vierteln — Schneiden und Teilen — bleibt immer kostenlos.',fr:'Le chocolat, le gâteau, les tiers, les sixièmes et les huitièmes font partie de Premium. La pizza en moitiés et en quarts — couper et partager — reste gratuite.',it:'Il cioccolato, la torta, i terzi, i sesti e gli ottavi fanno parte di Premium. La pizza in metà e in quarti — tagliare e dividere — resta sempre gratuita.',es:'El chocolate, el pastel, los tercios, los sextos y los octavos son parte de Premium. La pizza en mitades y cuartos — cortar y compartir — siempre es gratis.',pt:'O chocolate, o bolo, os terços, os sextos e os oitavos fazem parte do Premium. A pizza em metades e quartos — cortar e dividir — é sempre gratuita.',nl:'De chocola, de taart, derden, zesden en achtsten horen bij Premium. De pizza in helften en kwarten — snijden en delen — blijft altijd gratis.',sv:'Chokladkakan och kakan samt tredjedelar, sjättedelar och åttondelar ingår i Premium. Pizzan i halvor och fjärdedelar — att skära och dela — är alltid gratis.',da:'Chokoladen, kagen, tredjedele, sjettedele og ottendedele er en del af Premium. Pizzaen i halvdele og fjerdedele — at skære og dele — er altid gratis.',no:'Sjokoladen, kaken, tredeler, sjettedeler og åttedeler hører til Premium. Pizzaen med halvdeler og firedeler — å skjære og dele ut — er alltid gratis.',fi:'Suklaa, kakku, kolmasosat, kuudesosat ja kahdeksasosat kuuluvat Premiumiin. Pizza puolikkaina ja neljäsosina — leikkaaminen ja jakaminen — on aina ilmainen.'},
-    gateEquiv:    {en:'The tray station — proving that two fourths fill one half exactly — is part of Premium.',de:'Die Tablett-Station — der Beweis, dass zwei Viertel genau eine Hälfte füllen — gehört zu Premium.',fr:'Le plateau — la preuve que deux quarts remplissent exactement une moitié — fait partie de Premium.',it:'Il vassoio — la prova che due quarti riempiono esattamente una metà — fa parte di Premium.',es:'La bandeja — la prueba de que dos cuartos llenan exactamente una mitad — es parte de Premium.',pt:'O tabuleiro — a prova de que dois quartos enchem exatamente uma metade — faz parte do Premium.',nl:'De bakplaat — het bewijs dat twee kwarten precies één helft vullen — hoort bij Premium.',sv:'Brickan — beviset på att två fjärdedelar fyller exakt en halva — ingår i Premium.',da:'Bakken — beviset på, at to fjerdedele fylder præcis en halvdel — er en del af Premium.',no:'Brettet — beviset på at to firedeler fyller nøyaktig en halvdel — hører til Premium.',fi:'Tarjotinpiste — todiste siitä, että kaksi neljäsosaa täyttää tarkalleen yhden puolikkaan — kuuluu Premiumiin.'},
-    unlock:       {en:'Unlock everything',de:'Alles freischalten',fr:'Tout débloquer',it:'Sblocca tutto',es:'Desbloquear todo',pt:'Desbloquear tudo',nl:'Alles ontgrendelen',sv:'Lås upp allt',da:'Lås alt op',no:'Lås opp alt',fi:'Avaa kaikki'},
-    setSpeak:     {en:'Speak the fraction names',de:'Bruchnamen vorsprechen',fr:'Dire les noms des fractions',it:'Pronuncia i nomi delle frazioni',es:'Decir los nombres de las fracciones',pt:'Falar os nomes das frações',nl:'Breuknamen hardop uitspreken',sv:'Läs upp bråkens namn',da:'Sig brøkernes navne',no:'Les brøknavnene høyt',fi:'Lue murtolukujen nimet ääneen'},
-    loading:      {en:'Setting the table…',de:'Der Tisch wird gedeckt…',fr:'On met la table…',it:'Apparecchiamo la tavola…',es:'Poniendo la mesa…',pt:'Arrumando a mesa…',nl:'De tafel wordt gedekt…',sv:'Bordet dukas…',da:'Bordet dækkes…',no:'Bordet dekkes…',fi:'Katetaan pöytää…'}
+    title:          {en:'Fraction Kitchen',de:'Die Bruch-Küche',fr:'La cuisine des fractions',it:'La cucina delle frazioni',es:'La cocina de fracciones',pt:'A cozinha das frações',nl:'De breukenkeuken',sv:'Bråkköket',da:'Brøkkøkkenet',no:'Brøkkjøkkenet',fi:'Murtolukukeittiö'},
+    instruction:    {en:'Pick a food, pick the pieces, and cut along a line — equal parts taste best!',de:'Wähle ein Essen, wähle die Teile und schneide an einer Linie entlang — gleich große Teile schmecken am besten!',fr:'Choisis un aliment, choisis les parts et coupe le long d’une ligne — les parts égales sont les meilleures !',it:'Scegli un cibo, scegli le parti e taglia lungo una linea — le parti uguali sono le più buone!',es:'Elige una comida, elige las partes y corta por una línea — ¡las partes iguales saben mejor!',pt:'Escolha uma comida, escolha as partes e corte seguindo uma linha — partes iguais são as mais gostosas!',nl:'Kies iets lekkers, kies de stukken en snijd langs een lijn — gelijke stukken smaken het lekkerst!',sv:'Välj något gott, välj delarna och skär längs en linje — lika stora bitar smakar bäst!',da:'Vælg mad, vælg stykkerne og skær langs en linje — lige store stykker smager bedst!',no:'Velg mat, velg hvor mange biter og skjær langs en linje — like store biter smaker best!',fi:'Valitse ruoka, valitse palat ja leikkaa viivaa pitkin — yhtä suuret palat maistuvat parhaalta!'},
+    cutPrompt:      {en:'Let’s cut {food} into {n} equal parts — {fp}.',de:'Wir schneiden {food} in {n} gleich große Teile — {fp}.',fr:'Coupons {food} en {n} parts égales — des {fp}.',it:'Tagliamo {food} in {n} parti uguali — {fp}.',es:'Vamos a cortar {food} en {n} partes iguales — {fp}.',pt:'Vamos cortar {food} em {n} partes iguais — {fp}.',nl:'We snijden {food} in {n} gelijke stukken — {fp}.',sv:'Vi skär {food} i {n} lika stora delar — {fp}.',da:'Vi skærer {food} i {n} lige store dele — {fp}.',no:'Vi skjærer {food} i {n} like store deler — {fp}.',fi:'Leikataan {food} {n} yhtä suureen osaan — {fp}.'},
+    cutDone:        {en:'{fp}! {n} equal parts.',de:'{fp}! {n} gleich große Teile.',fr:'Des {fp} ! {n} parts égales.',it:'{fp}! {n} parti uguali.',es:'¡{fp}! {n} partes iguales.',pt:'{fp}! {n} partes iguais.',nl:'{fp}! {n} gelijke stukken.',sv:'{fp}! {n} lika stora delar.',da:'{fp}! {n} lige store dele.',no:'{fp}! {n} like store deler.',fi:'{fp}! {n} yhtä suurta osaa.'},
+    wobbleLine:     {en:'Hmm — those pieces aren’t the same size. Let’s find the cut that makes equal pieces.',de:'Hmm — diese Teile sind nicht gleich groß. Lass uns den Schnitt finden, der gleich große Teile macht.',fr:'Hmm — ces parts n’ont pas la même taille. Cherchons la coupe qui fait des parts égales.',it:'Mmm — queste parti non sono della stessa grandezza. Cerchiamo insieme il taglio che fa parti uguali.',es:'Mmm — esas partes no son del mismo tamaño. Busquemos el corte que haga partes iguales.',pt:'Hum… esses pedaços não ficaram do mesmo tamanho. Vamos procurar o corte que faz partes iguais.',nl:'Hmm — die stukken zijn niet even groot. Laten we de snee zoeken die gelijke stukken maakt.',sv:'Hmm — de där bitarna är inte lika stora. Vi letar efter snittet som ger lika stora delar.',da:'Hmm — stykkerne er ikke lige store. Lad os finde det snit, der giver lige store stykker.',no:'Hmm — de bitene er ikke like store. La oss finne snittet som gir like store deler.',fi:'Hmm — nuo palat eivät ole yhtä suuria. Etsitään viiva, joka tekee yhtä suuret palat.'},
+    sharePrompt:    {en:'{f} friends want to share {food}. Give everyone a fair share.',de:'{f} Freunde wollen sich {food} teilen. Verteile die Stücke gerecht.',fr:'{f} amis veulent partager {food}. Donne à chacun une part juste.',it:'{f} amici vogliono dividersi {food}. Dai a ognuno una parte uguale.',es:'{f} amigos quieren compartir {food}. Dale a cada uno una parte justa.',pt:'{f} amigos querem dividir {food}. Dê a cada um uma parte justa.',nl:'{f} vrienden willen {food} delen. Geef iedereen een eerlijk stuk.',sv:'{f} vänner vill dela på {food}. Ge alla en rättvis del.',da:'{f} venner vil dele {food}. Giv alle en fair del.',no:'{f} venner vil dele {food}. Gi alle en rettferdig del.',fi:'Pöydässä on {food}, ja {f} ystävää haluaa jakaa sen. Anna jokaiselle reilu osuus.'},
+    shareDone:      {en:'Everyone got a fair share. Time to eat!',de:'Alle haben gleich viel bekommen. Guten Appetit!',fr:'Tout le monde a une part juste. Bon appétit !',it:'Una parte uguale per ognuno. Buon appetito!',es:'Todos tienen una parte justa. ¡A comer!',pt:'Todo mundo ganhou uma parte justa. Hora de comer!',nl:'Iedereen heeft een eerlijk stuk. Smakelijk!',sv:'Alla fick en rättvis del. Nu äter vi!',da:'Alle fik en fair del. Velbekomme!',no:'Alle fikk en rettferdig del. Nå spiser vi!',fi:'Jokainen sai reilun osuuden. Hyvää ruokahalua!'},
+    shareLeftoverN: {en:'Everyone has their share — and {a} {small} are left over. Hmm!',de:'Alle haben gleich viel bekommen — und {a} {small} bleiben übrig. Hmm!',fr:'Tout le monde a sa part — et il reste {a} {small}. Hmm !',it:'Ognuno ha la sua parte — e avanzano {a} {small}. E adesso?',es:'Todos tienen su parte — y sobran {a} {small}. ¿Y ahora?',pt:'Todo mundo tem a sua parte — e sobraram {a} {small}. E agora?',nl:'Iedereen heeft een eerlijk deel — en er blijven {a} {small} over. Hmm!',sv:'Alla har fått sin del — och {a} {small} blir över. Hmm!',da:'Alle har fået deres del — og der er {a} {small} til overs. Hmm!',no:'Alle har fått sin del — og {a} {small} er til overs. Hmm!',fi:'Jokaisella on oma osuutensa — ja pöytään jäi vielä {a} {small}. Hmm!'},
+    shareLeftover:  {en:'Everyone has one piece — and one piece is left over. Hmm!',de:'Jeder hat ein Stück — und ein Stück ist übrig. Hmm!',fr:'Tout le monde a une part — et il en reste une. Hmm !',it:'Tutti hanno una parte — e ne avanza una. Mmm!',es:'Todos tienen una parte — y sobra una. ¡Vaya!',pt:'Todo mundo tem um pedaço — e sobrou um. E agora?',nl:'Iedereen heeft een stuk — en er is één stuk over. Hmm!',sv:'Alla har en bit — och en bit blir över. Hmm!',da:'Alle har et stykke — og der er ét stykke til overs. Hmm!',no:'Alle har en bit — og en bit er til overs. Hmm!',fi:'Jokaisella on pala — ja yksi pala jää yli. Hmm!'},
+    shareEmpty:     {en:'{p} pieces, {f} friends — someone’s plate is empty!',de:'{p} Stücke, {f} Freunde — ein Teller ist leer!',fr:'{p} parts, {f} amis — une assiette est vide !',it:'{p} parti, {f} amici — un piatto resta vuoto!',es:'{p} partes, {f} amigos — ¡un plato quedó vacío!',pt:'{p} pedaços, {f} amigos — um prato ficou vazio!',nl:'{p} stukken, {f} vrienden — één bord is leeg!',sv:'{p} bitar, {f} vänner — någons tallrik är tom!',da:'{p} stykker, {f} venner — én tallerken er tom!',no:'{p} biter, {f} venner — noen har tom tallerken!',fi:'{p} palaa, {f} ystävää — jonkun lautanen on tyhjä!'},
+    pieceName:      {en:'{fs}',de:'{fs}',fr:'{fs}',it:'{fs}',es:'{fs}',pt:'{fs}',nl:'{fs}',sv:'{fs}',da:'{fs}',no:'{fs}',fi:'{fs}'},
+    equivPrompt:    {en:'Can {a} {small} fill {big}?',de:'Können {a} {small} {big} genau ausfüllen?',fr:'Est-ce que {a} {small} remplissent {big} ?',it:'{a} {small} possono riempire {big}?',es:'¿Pueden {a} {small} llenar {big}?',pt:'Será que {a} {small} enchem {big}?',nl:'Kunnen {a} {small} samen {big} vullen?',sv:'Kan {a} {small} fylla {big}?',da:'Kan {a} {small} fylde {big}?',no:'Kan {a} {small} fylle {big}?',fi:'Voiko {a} {small} täyttää saman tilan kuin {big}?'},
+    equivDone:      {en:'{a} {small} fill it exactly. {a} {small} make {big}.',de:'{a} {small} füllen es genau aus. {a} {small} sind genauso viel wie {big}.',fr:'{a} {small} le remplissent exactement. {a} {small} font {big}.',it:'{a} {small} lo riempiono esattamente. {a} {small} fanno {big}.',es:'{a} {small} la llenan exactamente. {a} {small} hacen {big}.',pt:'{a} {small} enchem certinho. {a} {small} formam {big}.',nl:'{a} {small} vullen het precies. {a} {small} zijn samen {big}.',sv:'{a} {small} fyller den exakt. {a} {small} blir {big}.',da:'{a} {small} fylder den helt præcist. {a} {small} giver {big}.',no:'{a} {small} fyller den helt nøyaktig. {a} {small} blir {big}.',fi:'{a} {small} täyttää sen tarkalleen. {a} {small} on yhtä paljon kuin {big}.'},
+    pieceCount:     {en:'{a} {small}',de:'{a} {small}',fr:'{a} {small}',it:'{a} {small}',es:'{a} {small}',pt:'{a} {small}',nl:'{a} {small}',sv:'{a} {small}',da:'{a} {small}',no:'{a} {small}',fi:'{a} {small}'},
+    wholeDone:      {en:'{a} {small} make {big}.',de:'{a} {small} sind genauso viel wie {big}.',fr:'{a} {small} font {big}.',it:'{a} {small} fanno {big}.',es:'{a} {small} hacen {big}.',pt:'{a} {small} formam {big}.',nl:'{a} {small} zijn samen {big}.',sv:'{a} {small} blir {big}.',da:'{a} {small} giver {big}.',no:'{a} {small} blir {big}.',fi:'{a} {small} on yhtä paljon kuin {big}.'},
+    foodPizza:      {en:'the pizza',de:'die Pizza',fr:'la pizza',it:'la pizza',es:'la pizza',pt:'a pizza',nl:'de pizza',sv:'pizzan',da:'pizzaen',no:'pizzaen',fi:'pizza'},
+    foodBar:        {en:'the chocolate bar',de:'die Schokolade',fr:'la tablette de chocolat',it:'la tavoletta di cioccolato',es:'el chocolate',pt:'a barra de chocolate',nl:'de reep chocola',sv:'chokladkakan',da:'chokoladen',no:'sjokoladen',fi:'suklaalevy'},
+    foodCake:       {en:'the cake',de:'den Kuchen',fr:'le gâteau',it:'la torta',es:'el pastel',pt:'o bolo',nl:'de taart',sv:'kakan',da:'kagen',no:'kaken',fi:'kakku'},
+    chipPizza:      {en:'Pizza',de:'Pizza',fr:'Pizza',it:'Pizza',es:'Pizza',pt:'Pizza',nl:'Pizza',sv:'Pizza',da:'Pizza',no:'Pizza',fi:'Pizza'},
+    chipBar:        {en:'Chocolate',de:'Schokolade',fr:'Chocolat',it:'Cioccolato',es:'Chocolate',pt:'Chocolate',nl:'Chocola',sv:'Choklad',da:'Chokolade',no:'Sjokolade',fi:'Suklaa'},
+    chipCake:       {en:'Cake',de:'Kuchen',fr:'Gâteau',it:'Torta',es:'Pastel',pt:'Bolo',nl:'Taart',sv:'Kaka',da:'Kage',no:'Kake',fi:'Kakku'},
+    shareChip:      {en:'Share it',de:'Teilen',fr:'Partager',it:'Dividi',es:'Compartir',pt:'Dividir',nl:'Delen',sv:'Dela',da:'Del den',no:'Del ut',fi:'Jaa'},
+    friendsLbl:     {en:'Friends',de:'Freunde',fr:'Amis',it:'Amici',es:'Amigos',pt:'Amigos',nl:'Vrienden',sv:'Vänner',da:'Venner',no:'Venner',fi:'Ystävät'},
+    equivChip:      {en:'Fill the tray',de:'Das Tablett füllen',fr:'Remplir le plateau',it:'Riempi il vassoio',es:'Llenar la bandeja',pt:'Encher o tabuleiro',nl:'De bakplaat vullen',sv:'Fyll brickan',da:'Fyld bakken',no:'Fyll brettet',fi:'Täytä tarjotin'},
+    cutAgain:       {en:'Cut again',de:'Neu schneiden',fr:'Recouper',it:'Taglia di nuovo',es:'Cortar de nuevo',pt:'Cortar de novo',nl:'Opnieuw snijden',sv:'Skär igen',da:'Skær igen',no:'Skjær igjen',fi:'Leikkaa uudelleen'},
+    startAgain:     {en:'Start again',de:'Noch einmal',fr:'Recommencer',it:'Ricomincia',es:'Empezar de nuevo',pt:'Começar de novo',nl:'Opnieuw beginnen',sv:'Börja om',da:'Begynd forfra',no:'Begynn på nytt',fi:'Aloita alusta'},
+    fracWhole:      {en:'one whole',de:'ein Ganzes',fr:'un entier',it:'un intero',es:'un entero',pt:'um inteiro',nl:'een hele',sv:'en hel',da:'en hel',no:'en hel',fi:'yksi kokonainen'},
+    stories:        {en:'Stories',de:'Geschichten',fr:'Histoires',it:'Storie',es:'Cuentos',pt:'Histórias',nl:'Verhalen',sv:'Berättelser',da:'Historier',no:'Fortellinger',fi:'Tarinat'},
+    close:          {en:'Close',de:'Schließen',fr:'Fermer',it:'Chiudi',es:'Cerrar',pt:'Fechar',nl:'Sluiten',sv:'Stäng',da:'Luk',no:'Lukk',fi:'Sulje'},
+    gateMenu:       {en:'The chocolate bar, thirds, sixths and eighths are part of Premium. The pizza and the cake, in halves and fourths — cutting and sharing — are always free.',de:'Die Schokolade sowie Drittel, Sechstel und Achtel gehören zu Premium. Die Pizza und der Kuchen in Hälften und Vierteln — Schneiden und Teilen — bleiben immer kostenlos.',fr:'La tablette de chocolat, les tiers, les sixièmes et les huitièmes font partie de Premium. La pizza et le gâteau en moitiés et en quarts — couper et partager — restent toujours gratuits.',it:'Il cioccolato, i terzi, i sesti e gli ottavi fanno parte di Premium. La pizza e la torta in metà e in quarti — tagliare e dividere — restano sempre gratuite.',es:'El chocolate, los tercios, los sextos y los octavos forman parte de Premium. La pizza y el pastel en mitades y cuartos — cortar y compartir — siempre son gratis.',pt:'A barra de chocolate, os terços, os sextos e os oitavos fazem parte do Premium. A pizza e o bolo em metades e quartos — cortar e dividir — são sempre gratuitos.',nl:'De reep chocola, derden, zesden en achtsten horen bij Premium. De pizza en de taart in helften en kwarten — snijden en delen — blijven altijd gratis.',sv:'Chokladen, tredjedelar, sjättedelar och åttondelar ingår i Premium. Pizzan och kakan i halvor och fjärdedelar — att skära och dela — är alltid gratis.',da:'Chokoladen, tredjedele, sjettedele og ottendedele er en del af Premium. Pizzaen og kagen i halvdele og fjerdedele — at skære og dele — er altid gratis.',no:'Sjokoladen, tredeler, sjettedeler og åttedeler er en del av Premium. Pizzaen og kaken i halvdeler og firedeler — å skjære og dele ut — er alltid gratis.',fi:'Suklaalevy sekä kolmasosat, kuudesosat ja kahdeksasosat kuuluvat Premiumiin. Pizza ja kakku puolikkaina ja neljäsosina — leikkaaminen ja jakaminen — ovat aina ilmaisia.'},
+    gateEquiv:      {en:'The tray station — proving that two fourths fill one half exactly — is part of Premium.',de:'Die Tablett-Station — der Beweis, dass zwei Viertel genau eine Hälfte füllen — gehört zu Premium.',fr:'Le plateau — la preuve que deux quarts remplissent exactement une moitié — fait partie de Premium.',it:'Il vassoio — la prova che due quarti riempiono esattamente una metà — fa parte di Premium.',es:'La bandeja — la prueba de que dos cuartos llenan exactamente una mitad — es parte de Premium.',pt:'O tabuleiro — a prova de que dois quartos enchem exatamente uma metade — faz parte do Premium.',nl:'De bakplaat — het bewijs dat twee kwarten precies één helft vullen — hoort bij Premium.',sv:'Brickan — beviset på att två fjärdedelar fyller exakt en halva — ingår i Premium.',da:'Bakken — beviset på, at to fjerdedele fylder præcis en halvdel — er en del af Premium.',no:'Brettet — beviset på at to firedeler fyller nøyaktig en halvdel — er en del av Premium.',fi:'Tarjotinpiste — todiste siitä, että kaksi neljäsosaa täyttää tarkalleen yhden puolikkaan — kuuluu Premiumiin.'},
+    unlock:         {en:'Unlock everything',de:'Alles freischalten',fr:'Tout débloquer',it:'Sblocca tutto',es:'Desbloquear todo',pt:'Desbloquear tudo',nl:'Alles ontgrendelen',sv:'Lås upp allt',da:'Lås alt op',no:'Lås opp alt',fi:'Avaa kaikki'},
+    setSpeak:       {en:'Speak the fraction names',de:'Bruchnamen vorsprechen',fr:'Dire les noms des fractions',it:'Pronuncia i nomi delle frazioni',es:'Decir los nombres de las fracciones',pt:'Falar os nomes das frações',nl:'Breuknamen hardop uitspreken',sv:'Läs upp bråkens namn',da:'Sig brøkernes navne',no:'Les brøknavnene høyt',fi:'Lue murtolukujen nimet ääneen'},
+    loading:        {en:'Setting the table…',de:'Der Tisch wird gedeckt…',fr:'On met la table…',it:'Apparecchiamo la tavola…',es:'Poniendo la mesa…',pt:'Arrumando a mesa…',nl:'De tafel wordt gedekt…',sv:'Bordet dukas…',da:'Bordet dækkes…',no:'Bordet dekkes…',fi:'Katetaan pöytää…'}
   },
 
   /* per-locale per-denominator fraction forms: s = singular ("one half" /
@@ -127,7 +117,7 @@ var FractionKitchen = {
       closing:{en:'Six equal pieces — the baking can begin!',de:'Sechs gleich große Stücke — jetzt kann das Backen losgehen!',fr:'Six parts égales — la pâtisserie peut commencer !',it:'Sei pezzi uguali — ora si può cominciare a cucinare!',es:'Seis partes iguales — ¡a hornear se ha dicho!',pt:'Seis pedaços iguais — agora a receita pode começar!',nl:'Zes gelijke stukken — het bakken kan beginnen!',sv:'Sex lika stora bitar — nu kan bakningen börja!',da:'Seks lige store stykker — så kan bagningen begynde!',no:'Seks like store biter — nå kan bakingen begynne!',fi:'Kuusi yhtä suurta palaa — leipominen voi alkaa!'} },
     { id:'st-left3', food:'pizza', n:4, friends:3, discussion:true,
       story:{en:'Three friends find a pizza already cut into fourths. Hmm — what now?',de:'Drei Freunde finden eine Pizza, die schon in Viertel geschnitten ist. Hmm — was nun?',fr:'Trois amis trouvent une pizza déjà coupée en quarts. Hmm — et maintenant ?',it:'Tre amici trovano una pizza già tagliata in quarti. Mmm — e adesso?',es:'Tres amigos encuentran una pizza ya cortada en cuartos. Mmm — ¿y ahora?',pt:'Três amigos encontraram uma pizza já cortada em quartos. São três amigos e quatro pedaços!',nl:'Drie vrienden vinden een pizza die al in kwarten is gesneden. Hmm — wat nu?',sv:'Tre kompisar hittar en pizza som redan är skuren i fjärdedelar. Hmm — hur blir det nu?',da:'Tre venner finder en pizza, der allerede er skåret i fjerdedele. Hmm — hvad nu?',no:'Tre venner finner en pizza som allerede er delt i firedeler. Hmm — hva nå?',fi:'Kolme ystävää löytää pizzan, joka on jo leikattu neljäsosiin. Hmm — mitä nyt?'},
-      closing:{en:'What should they do with the piece that is left?',de:'Was sollen sie mit dem Stück machen, das übrig bleibt?',fr:'Que vont-ils faire de la part qui reste ?',it:'Che cosa possono fare con la parte che avanza?',es:'¿Qué pueden hacer con la parte que sobra?',pt:'O que dá para fazer com o pedaço que sobrou?',nl:'Wat zouden ze kunnen doen met het stuk dat overblijft?',sv:'Vad ska de göra med biten som blir över?',da:'Hvad skal de gøre med det stykke, der er tilovers?',no:'Hva skal de gjøre med biten som er til overs?',fi:'Mitä ystävät voisivat tehdä palalle, joka jää yli?'} },
+      closing:{en:'What should they do with the piece that is left?',de:'Was sollen sie mit dem Stück machen, das übrig bleibt?',fr:'Que vont-ils faire de la part qui reste ?',it:'Che cosa possono fare con la parte che avanza?',es:'¿Qué pueden hacer con la parte que sobra?',pt:'O que dá para fazer com o pedaço que sobrou?',nl:'Wat zouden ze kunnen doen met het stuk dat overblijft?',sv:'Vad ska de göra med biten som blir över?',da:'Hvad skal de gøre med det stykke, der er til overs?',no:'Hva skal de gjøre med biten som er til overs?',fi:'Mitä ystävät voisivat tehdä palalle, joka jää yli?'} },
     { id:'st-short3', food:'pizza', n:2, friends:3, discussion:true,
       story:{en:'The pizza came cut in halves — but three friends came to dinner!',de:'Die Pizza kommt in Hälften geschnitten an — aber drei Freunde sitzen am Tisch!',fr:'La pizza est arrivée coupée en moitiés — mais trois amis sont venus dîner !',it:'La pizza è arrivata tagliata a metà — ma a cena sono venuti tre amici!',es:'La pizza llegó cortada en mitades — ¡pero a cenar vinieron tres amigos!',pt:'A pizza chegou cortada em metades — mas três amigos vieram para o jantar!',nl:'De pizza komt in helften uit de doos — maar er komen drie vrienden eten!',sv:'Pizzan kom skuren i halvor — men tre kompisar kom på middag!',da:'Pizzaen kom skåret i halvdele — men der kom tre venner til aftensmad!',no:'Pizzaen kom ferdig delt i halvdeler — men det kom tre venner til middag!',fi:'Pizza oli valmiiksi leikattu puolikkaiksi — mutta illalliselle tulikin kolme ystävää!'},
       closing:{en:'How could they cut it so everyone gets a fair share?',de:'Wie könnten sie die Pizza schneiden, damit jeder gleich viel bekommt?',fr:'Comment la couper pour que chacun ait une part juste ?',it:'Come potrebbero tagliarla perché ognuno abbia una parte uguale?',es:'¿Cómo podrían cortarla para que a cada uno le toque una parte justa?',pt:'Como dá para cortar a pizza de um jeito que todo mundo ganhe uma parte justa?',nl:'Hoe zouden ze de pizza kunnen snijden zodat iedereen een eerlijk stuk krijgt?',sv:'Hur skulle de kunna skära den så att alla får en rättvis del?',da:'Hvordan kunne de skære den, så alle får en fair del?',no:'Hvordan kan de dele den slik at alle får like mye?',fi:'Miten pizzan voisi leikata niin, että jokainen saa reilun osuuden?'} }
@@ -154,7 +144,14 @@ var FractionKitchen = {
      its mould already scores the thirds line, so it is the one scaffolded
      thirds in the tool and the right first non-halving cut. */
   MENU: { pizza: [2, 4, 3, 6], bar: [2, 3, 6], cake: [2, 4, 3, 8] },
-  FREE_TASKS: { pizza: [2, 4] },
+  /* ⭐ CIRCLES *AND* RECTANGLES. 1.G.A.3 names both, and the free tier
+     was circles only — and halving only, which is precisely the route
+     into the halving misconception (a child who only ever halves comes
+     to believe partitioning IS halving). The cake at 2 and 4 is already
+     built, already gate-proven equal-area, and costs nothing but the
+     paywall prose. Thirds, sixths, eighths, the chocolate bar, the tray
+     and the stories remain Premium. */
+  FREE_TASKS: { pizza: [2, 4], cake: [2, 4] },
 
   _diam: function (deg) {
     var G = this.GEO, a = deg * Math.PI / 180;
@@ -322,12 +319,21 @@ var FractionKitchen = {
     if (this.premium) return this.MENU[food] && this.MENU[food].indexOf(n) >= 0;
     return !!(this.FREE_TASKS[food] && this.FREE_TASKS[food].indexOf(n) >= 0);
   },
+  /* A deep link lands as close to what it asked for as the tier allows.
+     It used to abandon the FOOD whenever the requested partition was
+     premium — a free teacher following a link to cake-eighths arrived at
+     PIZZA-halves. Now they arrive at cake-halves: same food, nearest free
+     partition. The gate stays structural — no link can reach a premium
+     (food, n) pair. */
   _applyDeepLink: function () {
-    if (this._wantFood && this.MENU[this._wantFood] && this._allowed(this._wantFood, this._wantN || this.MENU[this._wantFood][0])) {
+    var free = function (f) { return (this.MENU[f] || []).filter(this._allowed.bind(this, f)); }.bind(this);
+    if (this._wantFood && this.MENU[this._wantFood] && free(this._wantFood).length) {
       this.food = this._wantFood;
-      if (this._wantN && this._allowed(this._wantFood, this._wantN)) this.n = this._wantN;
-      else this.n = this.MENU[this.food].filter(this._allowed.bind(this, this.food))[0] || 2;
-    } else if (!this._allowed(this.food, this.n)) { this.food = 'pizza'; this.n = 2; }
+      this.n = (this._wantN && this._allowed(this.food, this._wantN)) ? this._wantN : free(this.food)[0];
+    } else if (!this._allowed(this.food, this.n)) {
+      this.food = 'pizza';
+      this.n = free('pizza')[0] || 2;
+    }
   },
 
   _loadStore: function () {
@@ -379,7 +385,16 @@ var FractionKitchen = {
        will SHOW — a sentence starting lowercase. German is unaffected
        only because it capitalises nouns anyway. Sentence-initial capital
        is universal across all eleven scripts here. */
-    if (/^\{/.test(this.api.t(key)) && /[.!?]/.test(s)) s = s.charAt(0).toUpperCase() + s.slice(1);
+    /* ⚠ capitalise the first LETTER, wherever it is — not the first
+       character, and not only when the template opens on a brace. Testing
+       `/^\{/` missed Spanish `'¡{fp}! …'`, which opens on punctuation, so
+       Spanish alone spoke and showed "¡mitades!". A hole only a Spanish
+       reader could find, and one did. The `[.!?]` condition is dropped
+       too: `pieceName` is a bare `{fs}` with no terminal punctuation and
+       was the one ribbon line never capitalised. */
+    if (/^[^\p{L}]*\{/u.test(this.api.t(key))) {
+      s = s.replace(/\p{L}/u, function (c) { return c.toUpperCase(); });
+    }
     return s;
   },
   frac: function (den, form) { return this._loc(this.FRAC[den][form]); },
@@ -1488,7 +1503,7 @@ var FractionKitchen = {
            follows a numeral, in every locale — so "2 " + c is correct
            by construction and needs no new string in any language. */
         this._speak(kOn > 1
-          ? kOn + ' ' + this.frac(this.n, 'c')
+          ? this.fmt('pieceCount', { a: kOn, small: this.frac(this.n, 'c') })
           : this.fmt('pieceName', { fs: this.frac(this.n, 's') }));
         if (this._sel === pieceIdx) { this._sel = null; this._paintSel(); }
         var pieceEl = this._hitsEl.querySelector('.frk-piecebtn[data-piece="' + pieceIdx + '"]');
@@ -1520,9 +1535,12 @@ var FractionKitchen = {
              which is the most ordinary thing a FREE user will do. It said
              "one" when two, three or four were left, in eleven locales.
              Saying nothing is a discussion moment too; the tool already
-             observes-then-waits. Parameterising it properly needs counted
-             forms in eleven languages — a locale pass, not a code fix. */
+             observes-then-waits. It is now spoken only when it is TRUE,
+             and shareLeftoverN carries every other count — using FRAC's
+             counted form, which is what follows a numeral in every
+             language. English drafted here; rebuilt by the native panels. */
           if (leftover === 1) self._speak(self.api.t('shareLeftover'));
+          else self._speak(self.fmt('shareLeftoverN', { a: leftover, small: self.frac(self.n, 'c') }));
         } else if (self.friends > total) {
           self._speak(self.fmt('shareEmpty', { p: total, f: self.friends }));
         } else {
@@ -1683,11 +1701,19 @@ var FractionKitchen = {
       this._fillEl.parentNode.querySelector('.frk-supplypiece:not(.used)');
     if (chip) this._fillFrom(chip);
   },
-  /* tray already full → glide back silently (3rd consecutive → info line) */
+  /* ⚠ THE TRAY IS FULL — AND THAT IS THE ONLY STATE THAT REACHES HERE.
+     _fillFrom calls this solely when `equivFilled >= task.count`, so the
+     old `equivTooBig` line was false on both of its clauses: there is no
+     "space left" for a piece to be too big for, and every supply chip is
+     the same denominator (`task.count + 1` copies of `task.small`), so
+     "try a smaller one" ordered an action the apparatus cannot offer — a
+     child who obeyed it would hunt for a piece that does not exist.
+     Three native panels read the call site and found it independently.
+     A string that describes an impossible state is deleted, not reworded;
+     the piece glides back, the sound plays, and the tool says nothing. */
   _missTray: function () {
     this.equivMisses++;
     this._sfxWobble();
-    if (this.equivMisses >= 3) { this.equivMisses = 0; this._speak(this.api.t('equivTooBig')); }
   },
 
   /* ============================ dock ================================ */
@@ -1750,7 +1776,16 @@ var FractionKitchen = {
     r2.appendChild(share);
     if (this.mode === 'share') {
       [2, 3, 4, 6].forEach(function (f) {
-        var locked = !self.premium && (f === 3 || f === 6);
+        /* ⭐ NOT GATED. All ten native panels found, independently, that
+           `gateMenu` says "cutting and sharing — are always free" and that
+           this chip's lock opened THAT VERY STRING: the tool refused a
+           share while claiming sharing was free, at the exact instant a
+           parent was deciding. The copy was not the defect; the tier was.
+           Freeing the friend counts sells nothing away — the foods and the
+           finer partitions are still Premium — and it hands the free tier
+           the leftover and empty-plate discussions, which are the best
+           teaching moments in the whole tool. */
+        var locked = false;
         var chip = api.el('button', 'frk-chip small' + (self.friends === f ? ' active' : '') + (locked ? ' locked' : ''));
         chip.type = 'button';
         chip.textContent = String(f);
@@ -1803,7 +1838,7 @@ var FractionKitchen = {
         whole.classList.toggle('active', self.whole);
         if (self.whole) {
           self._sfxFit();
-          self._speak(self.fmt('equivDone', {
+          self._speak(self.fmt('wholeDone', {
             a: self.n, small: self.frac(self.n, 'c'), big: api.t('fracWhole')
           }));
         }

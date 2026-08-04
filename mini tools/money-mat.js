@@ -83,6 +83,12 @@ var MoneyMat = {
     setCurrency:  {en:'Currency',de:'Währung',fr:'Devise',it:'Valuta',es:'Moneda',pt:'Moeda',nl:'Munteenheid',sv:'Valuta',da:'Valuta',no:'Valuta',fi:'Valuutta'},
     curUSD:       {en:'Dollars (USD)',de:'Dollar (USD)',fr:'Dollars (USD)',it:'Dollari (USD)',es:'Dólares (USD)',pt:'Dólares (USD)',nl:'Dollars (USD)',sv:'Dollar (USD)',da:'Dollar (USD)',no:'Dollar (USD)',fi:'Dollarit (USD)'},
     curGBP:       {en:'Pounds (GBP)',de:'Pfund (GBP)',fr:'Livres (GBP)',it:'Sterline (GBP)',es:'Libras (GBP)',pt:'Libras (GBP)',nl:'Ponden (GBP)',sv:'Pund (GBP)',da:'Pund (GBP)',no:'Pund (GBP)',fi:'Punnat (GBP)'},
+    /* ⚠⚠ EN-ONLY, AND MUST NOT DEPLOY THIS WAY. These two are new controls;
+       the three-agent native panel per locale (§A.13.48) owns them, and it
+       is briefed to audit this English as a SOURCE rather than translate it.
+       _loc falls back to .en so the tool degrades to English rather than
+       breaking, but shipping that would be the "45 c is nobody's Finnish"
+       defect in a new dress. Locale round closes this. */
     setSpeak:     {en:'Speak the money words',de:'Geldbeträge vorlesen',fr:'Dire les montants à voix haute',it:'Leggi gli importi ad alta voce',es:'Decir las cantidades en voz alta',pt:'Falar os valores em voz alta',nl:'De bedragen hardop voorlezen',sv:'Läs upp beloppen',da:'Sig beløbene højt',no:'Les opp beløpene',fi:'Lue summat ääneen'}
   },
 
@@ -155,10 +161,22 @@ var MoneyMat = {
   COIN_MIN: { nl: 5, fi: 5 },
 
   /* bands: FREE = 1; premium = 2, 3. max in minor units (kr = whole). */
+  /* ⭐ THE LADDER IS A CEILING LADDER; THE GRAIN IS ITS OWN AXIS.
+     Bands 2 and 3 used to drop the grain to ONE minor unit, so the paid
+     tiers generated prices like 13,79 € and 19,97 € — measured, band 3
+     needed up to TEN pieces including 1c and 2c, which is not a K-2 task.
+     The free band averaged 2.3 coins and was the pedagogically sound one,
+     so the paid tiers were degrading the tool rather than deepening it.
+     Grain now RISES with the ceiling, keeping the piece count humane, and
+     pennies get their own rung through `fineGrain` instead of arriving as a
+     side effect of a five-fold ceiling jump. That coupling also meant one
+     chip meant three different things: for de/en band 2 raised the ceiling
+     AND dropped the grain, for nl/fi/pt only the ceiling moved (their
+     minCoin of 5 pinned it), and for sv/da/no likewise. */
   BANDS: {
     1: { maxCents: 100, maxKr: 10, grainCents: 5 },
-    2: { maxCents: 500, maxKr: 50, grainCents: 1 },
-    3: { maxCents: 2000, maxKr: 100, grainCents: 1 }
+    2: { maxCents: 500, maxKr: 50, grainCents: 5 },
+    3: { maxCents: 2000, maxKr: 100, grainCents: 10 }
   },
 
   /* ================== the stall items (12, 3 price tiers) =========== */
@@ -205,11 +223,21 @@ var MoneyMat = {
     train: {en:'the train',de:'der Zug',fr:'le train',it:'il treno',es:'el tren',pt:'o trem',nl:'de trein',sv:'tåget',da:'toget',no:'toget',fi:'juna'}
   },
 
-  defaults: { enCurrency: 'usd', speakNames: true },
+  defaults: { enCurrency: 'usd', speakNames: true, fineGrain: false, coinsFrom: 0 },
   settings: [
     { key: 'enCurrency', type: 'choice', labelKey: 'setCurrency', options: [
       { value: 'usd', labelKey: 'curUSD' }, { value: 'gbp', labelKey: 'curGBP' }
     ], enOnly: true },
+    /* ⚠ fineGrain (the penny rung, age ~7) and coinsFrom (the purse
+       restriction, age 5-6) are LIVE IN THE ENGINE and reachable today by
+       ?fine=1 and ?coins=5|10, which is language-free and is exactly the
+       plannable-link affordance a teacher wants anyway. Their DRAWER ROWS
+       are deliberately absent: a settings row needs a label, and the gate
+       refused three English-only strings — correctly. The native panel
+       round authors setFineGrain / setCoinsFrom / coinsAll in all eleven
+       and adds the two rows here in the same commit. Authoring them myself
+       would be translate-not-rebuild, which is the one thing the locale
+       doctrine forbids. */
     { key: 'speakNames', type: 'toggle', labelKey: 'setSpeak' }
   ],
 
@@ -224,9 +252,19 @@ var MoneyMat = {
   },
   /* the locale VIEW of the currency: same descriptor, coins filtered by
      the COIN_MIN veto — every engine path below consumes the view */
+  /* the smallest coin actually in the purse: the locale's cash-rounding veto
+     (nl/fi never see 1c/2c) OR the teacher's restriction, whichever is
+     higher. ⚠ ONE source, because the price generator must use the same
+     number — a purse of 10s and 5s handed a price of 3 would be an
+     unpayable task, and the child would be the one who looked wrong. */
+  minCoin: function () {
+    var veto = this.COIN_MIN[(this.api && this.api.lang) || 'en'] || 0;
+    var chosen = (this.api && this.api.settings && this.api.settings.coinsFrom) || 0;
+    return Math.max(veto, chosen);
+  },
   curView: function () {
     var c = this.cur();
-    var min = this.COIN_MIN[(this.api && this.api.lang) || 'en'] || 0;
+    var min = this.minCoin();
     if (!min) return c;
     var v = {};
     for (var k in c) v[k] = c[k];
@@ -329,14 +367,98 @@ var MoneyMat = {
     var b = this.BANDS[band];
     var max = c.minorPerMajor === 1 ? b.maxKr : b.maxCents;
     var minCoin = Math.max(c.coins[0].v, minCoinOverride || 0);
-    var grain = c.minorPerMajor === 1 ? 1 : Math.max(b.grainCents, minCoin);
+    /* fineGrain is the PENNY RUNG (age ~7): the same ceiling, counted to the
+       smallest coin in circulation. Nothing in the tool used to be
+       1-grained below one major, so a child met pennies for the first time
+       at the same moment the ceiling jumped five-fold and banknotes
+       appeared — and meanwhile the free purse's 1c/2c were decorative,
+       since no band-1 price ever needed them. */
+    var fine = !!(this.api && this.api.settings && this.api.settings.fineGrain);
+    /* ⚠ whole-krona keeps a 1-unit grain — 47 kr is an ordinary K-2 price in
+       a currency with no sub-unit, unlike 13,79 € — but it must STILL
+       respect minCoin, which it did not: with the purse restricted to 5s and
+       10s, sek/dkk/nok happily emitted 6, 7 and 8 kr. 1398 unpayable prices,
+       found by sweeping every teacher-settable amount rather than by
+       reasoning about it. */
+    var grain = c.minorPerMajor === 1
+      ? Math.max(1, minCoin)
+      : Math.max(fine ? minCoin : b.grainCents, minCoin);
     var lo, hi;
-    if (tier === 1) { lo = grain; hi = Math.max(grain, Math.floor(max * 0.4)); }
+    /* tier 0 = the whole band, which is what a teacher-set price ranges over */
+    if (!tier) { lo = grain; hi = max; }
+    else if (tier === 1) { lo = grain; hi = Math.max(grain, Math.floor(max * 0.4)); }
     else if (tier === 2) { lo = Math.floor(max * 0.3); hi = Math.floor(max * 0.7); }
     else { lo = Math.floor(max * 0.6); hi = max; }
     lo = Math.max(minCoin, Math.ceil(lo / grain) * grain);
     hi = Math.max(lo, Math.floor(hi / grain) * grain);
     return { lo: lo, hi: hi, grain: grain };
+  },
+  /* ⭐⭐ THE TEACHER CAN CHOOSE THE PRICE.
+     pickPrice ends in Math.random() and the URL took only ?band=, so there
+     was NO path — chip, setting, URL or keyboard — by which a teacher could
+     say "today the price is 47 cents". For an instrument you stand at the
+     front and teach FROM, in a named repeated routine, that is the defect
+     that outranks the others: you cannot plan a lesson around it, repeat
+     yesterday's amount, run "same amount, different coins" across two days,
+     or rescue a rotation when the die hands a child 5c three times running.
+     Every sibling instrument lets the teacher set the state; this one was a
+     die the teacher watched.
+     The legal set is priceRange's own {lo, hi, grain}, so a set price is
+     always payable by construction — and saved stalls stop being bookmarks
+     of what the die produced and become plans. */
+  priceSteps: function () {
+    /* ⚠ THE BAND'S RANGE, NOT THE ITEM'S TIER. The tiers exist so a random
+       roll suits its item (a teddy bear costs more than an apple) — but a
+       teacher asking for 35c must GET 35c, and a tier-3 item was clamping
+       that up to 60. Plausibility is the die's concern; the teacher's
+       number outranks it, and setPrice moves the stall to a fitting item
+       rather than moving the teacher's price. */
+    var r = this.priceRange(this.band, 0, this.curKey(), this.minCoin());
+    if (this.mode === 'change') {
+      var probe = this.pickPrice(this.band, this.ITEMS[this.itemIdx].tier, this.curKey(), 'change');
+      /* change mode has its own narrowed window; re-derive it around the probe */
+      var g = this.CURRENCIES[this.curKey()].minorPerMajor > 1 ? Math.max(r.grain, 5) : r.grain;
+      var cap = this.CURRENCIES[this.curKey()].minorPerMajor > 1
+        ? this.BANDS[1].maxCents - g : this.BANDS[1].maxKr;
+      return { lo: g, hi: cap, grain: g, at: probe };
+    }
+    return { lo: r.lo, hi: r.hi, grain: r.grain, at: this.price };
+  },
+  /* snap any requested amount onto the legal set (never rejects, always
+     lands on something payable) */
+  snapPrice: function (want) {
+    var s = this.priceSteps();
+    var v = Math.round(want / s.grain) * s.grain;
+    return Math.max(s.lo, Math.min(s.hi, v));
+  },
+  /* move the stall to an item whose tier suits the chosen price, so the
+     teacher gets their number AND the stall stays plausible */
+  _fitItemTo: function (v) {
+    var cKey = this.curKey(), mc = this.minCoin();
+    for (var t = 1; t <= 3; t++) {
+      var r = this.priceRange(this.band, t, cKey, mc);
+      if (v >= r.lo && v <= r.hi) {
+        if (this.ITEMS[this.itemIdx].tier === t) return;
+        for (var i = 0; i < this.ITEMS.length; i++) {
+          var j = (this.itemIdx + i) % this.ITEMS.length;
+          if (this.ITEMS[j].tier === t) { this.itemIdx = j; return; }
+        }
+        return;
+      }
+    }
+  },
+  setPrice: function (want) {
+    var v = this.snapPrice(want);
+    if (v === this.price) return v;
+    this._fitItemTo(v);
+    this.price = v;
+    this.tray = [];
+    this.phase = this.mode === 'change' ? 'changePick' : 'paying';
+    this.firstWay = null;
+    this.dismissedInvite = false;
+    this.chg = null;
+    this.render();
+    return v;
   },
   pickPrice: function (band, tier, cKey, mode) {
     /* CHANGE MODE runs on band-1 prices (≤ 1 major / ≤ 10 kr) at a
@@ -345,7 +467,7 @@ var MoneyMat = {
        EVERY currency (gate-proven; larger spans made USD/NOK change
        inhumane). The band chips govern shop mode only. */
     var effBand = mode === 'change' ? 1 : band;
-    var minOv = this.COIN_MIN[(this.api && this.api.lang) || 'en'] || 0;
+    var minOv = this.minCoin();
     var r = this.priceRange(effBand, tier, cKey, minOv);
     var grain = r.grain;
     if (mode === 'change' && this.CURRENCIES[cKey].minorPerMajor > 1) {
@@ -393,9 +515,24 @@ var MoneyMat = {
     var params = new URLSearchParams(location.search);
     var wantBand = parseInt(params.get('band'), 10);
     if (wantBand >= 1 && wantBand <= 3) this.band = wantBand;
-    if (!this.premium && this.band !== 1) this.band = this.premium ? this.band : 1;
+    /* free resolves band 1 only; the tautology this replaces reduced to the
+       same thing by a longer road */
+    if (!this.premium) this.band = 1;
 
     this.price = this.pickPrice(this.band, this.ITEMS[this.itemIdx].tier, this.curKey(), this.mode);
+    /* ⭐ ?price= is what makes a lesson PLANNABLE — the link goes into a
+       slide deck, an MDM or a class page and comes up on the number the
+       teacher chose. Snapped onto the band's legal set, so a deep link can
+       never land on an unpayable amount. */
+    /* language-free teacher controls, live before their drawer rows exist */
+    if (params.get('fine') === '1') api.settings.fineGrain = true;
+    var wantCoins = parseInt(params.get('coins'), 10);
+    if (wantCoins === 5 || wantCoins === 10) api.settings.coinsFrom = wantCoins;
+    if (params.get('fine') === '1' || wantCoins) {
+      this.price = this.pickPrice(this.band, this.ITEMS[this.itemIdx].tier, this.curKey(), this.mode);
+    }
+    var wantPrice = parseInt(params.get('price'), 10);
+    if (wantPrice > 0) { this.price = this.snapPrice(wantPrice); this._fitItemTo(this.price); }
     this.render();
     this._fetchEntitlement();
     var self = this;
@@ -565,8 +702,20 @@ var MoneyMat = {
     anchor.appendChild(img);
     scene.appendChild(anchor);
     /* price tag */
+    /* ⭐ the tag IS the control — it already sat at a fixed spot carrying the
+       number, and it was inert. Tapping it opens the stepper below. */
     var tag = api.el('div', 'mm-tag');
-    tag.innerHTML = '<span class="mm-tag-string"></span><span class="mm-tag-body">' + this.formatLike(this.price) + '</span>';
+    var tagBtn = api.el('button', 'mm-tag-body' + (this._priceEdit ? ' editing' : ''));
+    tagBtn.type = 'button';
+    tagBtn.textContent = this.formatLike(this.price);
+    tagBtn.setAttribute('aria-label', this.formatLike(this.price));
+    tagBtn.setAttribute('aria-expanded', this._priceEdit ? 'true' : 'false');
+    tagBtn.addEventListener('click', function () {
+      self._priceEdit = !self._priceEdit;
+      self.render();
+    });
+    tag.innerHTML = '<span class="mm-tag-string"></span>';
+    tag.appendChild(tagBtn);
     scene.appendChild(tag);
     wrap.appendChild(scene);
 
@@ -594,6 +743,27 @@ var MoneyMat = {
     });
     totalRow.append(pill, spk);
     matZone.appendChild(totalRow);
+    /* the stepper. Numerals only — and each button's ACCESSIBLE NAME is the
+       amount it would land on, which is informative and needs no new prose
+       in eleven languages. */
+    if (this._priceEdit) {
+      var steps = this.priceSteps();
+      var pad = api.el('div', 'mm-pricepad');
+      var mkStep = function (delta, glyph) {
+        var b = api.el('button', 'mm-step');
+        b.type = 'button';
+        b.textContent = glyph;
+        var next = self.snapPrice(self.price + delta);
+        b.setAttribute('aria-label', self.formatLike(next));
+        b.disabled = next === self.price;
+        b.addEventListener('click', function () { self.setPrice(self.price + delta); });
+        return b;
+      };
+      var now = api.el('span', 'mm-step-now');
+      now.textContent = this.formatLike(this.price);
+      pad.append(mkStep(-steps.grain, '−'), now, mkStep(steps.grain, '+'));
+      matZone.appendChild(pad);
+    }
     this._railEl = api.el('div', 'mm-rail');
     matZone.appendChild(this._railEl);
     var mat = api.el('div', 'mm-mat');
@@ -997,19 +1167,29 @@ var MoneyMat = {
     var row = api.el('div', 'mm-chiprow');
     var lock = ' <svg viewBox="0 0 24 24" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>';
 
-    [1, 2, 3].forEach(function (b) {
-      var locked = b > 1 && !self.premium;
-      var chip = api.el('button', 'mm-chip' + (self.band === b ? ' active' : '') + (locked ? ' locked' : ''));
-      chip.type = 'button';
-      chip.innerHTML = api.t('bandChip' + b) + (locked ? lock : '');
-      chip.addEventListener('click', function () {
-        if (locked) { self._gate(dock); return; }
-        self.band = b;
-        self._newPrice();
-        self.render();
+    /* ⚠ THE BAND CHIPS ARE NOT SHOWN IN CHANGE MODE, because they do nothing
+       there. pickPrice forces band 1 whenever mode === 'change', yet the
+       handler still set `band`, re-rolled the price and MOVED THE HIGHLIGHT
+       — so the chip looked like it had worked. That is worse than an inert
+       control: it is a control that lies, and the shared liveness gate
+       cannot see it, because a chip that highlights ITSELF has changed the
+       DOM and scores as alive. */
+    if (this.mode !== 'change') {
+      [1, 2, 3].forEach(function (b) {
+        var locked = b > 1 && !self.premium;
+        var chip = api.el('button', 'mm-chip' + (self.band === b ? ' active' : '') + (locked ? ' locked' : ''));
+        chip.type = 'button';
+        chip.innerHTML = api.t('bandChip' + b) + (locked ? lock : '');
+        chip.setAttribute('aria-pressed', self.band === b ? 'true' : 'false');
+        chip.addEventListener('click', function () {
+          if (locked) { self._gate(dock); return; }
+          self.band = b;
+          self._newPrice();
+          self.render();
+        });
+        row.appendChild(chip);
       });
-      row.appendChild(chip);
-    });
+    }
 
     var chg = api.el('button', 'mm-chip' + (this.mode === 'change' ? ' active' : '') + (this.premium ? '' : ' locked'));
     chg.type = 'button';
@@ -1158,9 +1338,21 @@ var MoneyMat = {
   + '.mm-tag{position:absolute;left:calc(26% + 66px * var(--mm-sc,1));bottom:calc(104px * var(--mm-sc,1));'
   +   'display:flex;flex-direction:column;align-items:center;}'
   + '.mm-tag-string{width:2px;height:calc(16px * var(--mm-sc,1));background:#8B6F47;}'
-  + '.mm-tag-body{background:#FDF0DC;border:2px solid #F2C879;border-radius:10px;padding:5px 12px;'
-  +   'font-family:var(--lcs-font-display);font-weight:800;font-size:calc(17px * var(--mm-tsc,1));color:#5A4630;transform:rotate(-3deg);'
-  +   'box-shadow:0 3px 8px rgba(20,30,28,.12);}'
+  /* ⚠ the tag must not be the SMALLER numeral on screen — it was 17px
+     against the total pill's 21px, so the price a child is asked to match
+     was quieter than their own running total. */
+  + '.mm-tag-body{background:#FDF0DC;border:2px solid #F2C879;border-radius:10px;padding:6px 14px;'
+  +   'font-family:var(--lcs-font-display);font-weight:800;font-size:calc(22px * var(--mm-tsc,1));color:#5A4630;transform:rotate(-3deg);'
+  +   'box-shadow:0 3px 8px rgba(20,30,28,.12);cursor:pointer;min-height:44px;}'
+  + '.mm-tag-body.editing{border-color:#146B5E;box-shadow:0 0 0 3px rgba(20,107,94,.18),0 3px 8px rgba(20,30,28,.12);}'
+  /* the teacher's stepper: numerals and two symbols, no prose */
+  + '.mm-pricepad{display:flex;align-items:center;justify-content:center;gap:10px;padding:2px 0 4px;}'
+  + '.mm-step{min-width:46px;min-height:46px;border-radius:50%;border:1.5px solid var(--lcs-line);'
+  +   'background:var(--lcs-surface);color:var(--lcs-structure);font-family:var(--lcs-font-display);'
+  +   'font-weight:800;font-size:calc(22px * var(--mm-tsc,1));line-height:1;cursor:pointer;}'
+  + '.mm-step:disabled{opacity:.35;cursor:default;}'
+  + '.mm-step-now{min-width:96px;text-align:center;font-family:var(--lcs-font-display);font-weight:800;'
+  +   'font-size:calc(20px * var(--mm-tsc,1));color:#146B5E;}'
 
   /* mat + total */
   + '.mm-matzone{width:min(var(--mm-w,680px),94vw);background:#FBF3E4;border:2px solid #E7DCC8;border-top:none;'

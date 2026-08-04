@@ -43,10 +43,17 @@ function ok(name, cond, extra) {
 }
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+/* FRK_TOOL_DIR overlays a doctored copy of a single file over the real
+   mini-tools tree, so a poison run can prove an assertion FAILS on the
+   defect it claims to catch. Anything not present there is served
+   normally — the overlay is one file, not a whole tree. */
+const OVERLAY = process.env.FRK_TOOL_DIR || null;
 function serve() {
   return http.createServer((req, res) => {
     const p = decodeURIComponent(req.url.split('?')[0]);
-    const file = p.startsWith('/mini-tools/') ? path.join(MINI, p.slice('/mini-tools/'.length)) : path.join(MINI, p.replace(/^\//, ''));
+    const rel = p.startsWith('/mini-tools/') ? p.slice('/mini-tools/'.length) : p.replace(/^\//, '');
+    let file = path.join(MINI, rel);
+    if (OVERLAY && fs.existsSync(path.join(OVERLAY, rel))) file = path.join(OVERLAY, rel);
     fs.readFile(file, (err, buf) => {
       if (err) { res.statusCode = 404; res.end(); return; }
       res.setHeader('Content-Type', MIME[path.extname(file)] || 'application/octet-stream');
@@ -107,7 +114,7 @@ function serve() {
     return page.evaluate((kind, idx) => {
       const svg = document.querySelector('.frk-food');
       const r = svg.getBoundingClientRect();
-      const el = document.querySelector(`.frk-hit[data-kind="${kind}"][data-idx="${idx}"]`);
+      const el = document.querySelector(`.frk-guide[data-kind="${kind}"][data-idx="${idx}"]`);
       const to = (x, y) => ({ x: r.left + x / 100 * r.width, y: r.top + y / 100 * r.height });
       return { a: to(+el.getAttribute('x1'), +el.getAttribute('y1')), b: to(+el.getAttribute('x2'), +el.getAttribute('y2')) };
     }, kind, idx);
@@ -275,6 +282,73 @@ function serve() {
     await page.close();
   }
 
+  /* ==================== B2: one stroke, one handler =====================
+     Two properties of the OLD knife that no gate could see, because both
+     are invisible to an outcome check:
+
+       · _commit rebuilt the food and re-wired the knife on every cut, so
+         the node the gesture was running on was destroyed under the
+         finger. Cutting a cross needed TWO press-drag-releases.
+       · that re-wire never replaced the knife element, so each cut stacked
+         another pointerdown/move/up/cancel quadruple on the same node.
+         By the fourth cut of a cake, five drag state machines ran per
+         pointermove. That is why the knife got heavier as you cut. */
+  console.log('B2. one continuous stroke; no stacked handlers');
+  {
+    const page = await newPage({});
+    await page.goto(BASE);
+    await ready(page);
+    await page.evaluate(() => { FractionKitchen.n = 4; FractionKitchen._resetCut(true); });
+    await sleep(250);
+    const k = await centerOf(page, '.frk-knife');
+    const g0 = await guidePts(page, 'c', 0);
+    const g1 = await guidePts(page, 'c', 1);
+    ok('B2 non-vacuity: fourths gives two correct guides', !!g0 && !!g1 && !!k);
+    /* ONE press. Both lines. ONE release. */
+    await page.mouse.move(k.x, k.y);
+    await page.mouse.down();
+    await page.mouse.move(g0.a.x, g0.a.y, { steps: 4 });
+    for (let i = 1; i <= 10; i++) await page.mouse.move(g0.a.x + (g0.b.x - g0.a.x) * i / 10, g0.a.y + (g0.b.y - g0.a.y) * i / 10);
+    await page.mouse.move(g1.a.x, g1.a.y, { steps: 4 });
+    for (let i = 1; i <= 10; i++) await page.mouse.move(g1.a.x + (g1.b.x - g1.a.x) * i / 10, g1.a.y + (g1.b.y - g1.a.y) * i / 10);
+    await page.mouse.up();
+    await sleep(400);
+    const st = await page.evaluate(() => ({ committed: FractionKitchen.committed.length, sliced: FractionKitchen.sliced }));
+    ok('B2 ONE stroke cuts the whole cross', st.sliced && st.committed === 2, `committed=${st.committed} sliced=${st.sliced}`);
+
+    /* handler count, measured: one gesture must drive _moveKnife once per
+       pointermove — not once per cut already made */
+    const page2 = await newPage({});
+    await page2.goto(BASE);
+    await ready(page2);
+    await page2.evaluate(() => { FractionKitchen.n = 4; FractionKitchen._resetCut(true); });
+    await sleep(250);
+    const a0 = await guidePts(page2, 'c', 0);
+    const kk = await centerOf(page2, '.frk-knife');
+    await page2.mouse.move(kk.x, kk.y);
+    await page2.mouse.down();
+    await page2.mouse.move(a0.a.x, a0.a.y, { steps: 4 });
+    for (let i = 1; i <= 10; i++) await page2.mouse.move(a0.a.x + (a0.b.x - a0.a.x) * i / 10, a0.a.y + (a0.b.y - a0.a.y) * i / 10);
+    await page2.mouse.up();
+    await sleep(250);
+    /* now instrument, and run a SECOND gesture of a known length */
+    await page2.evaluate(() => {
+      window.__mk = 0;
+      const real = FractionKitchen._moveKnife.bind(FractionKitchen);
+      FractionKitchen._moveKnife = function (e) { window.__mk++; return real(e); };
+    });
+    const kk2 = await centerOf(page2, '.frk-knife');
+    await page2.mouse.move(kk2.x, kk2.y);
+    await page2.mouse.down();
+    for (let i = 1; i <= 6; i++) await page2.mouse.move(kk2.x + i * 3, kk2.y + i * 3);
+    await page2.mouse.up();
+    const mk = await page2.evaluate(() => window.__mk);
+    /* 1 from onStart + 6 moves = 7. A single leaked quadruple would double it. */
+    ok('B2 one handler per gesture after a cut (no stacking)', mk <= 9, `_moveKnife ran ${mk}× for 6 pointermoves (expected ~7)`);
+    ok('B2 no js errors', page._errs.length === 0 && page2._errs.length === 0, page._errs[0] || page2._errs[0]);
+    await page.close(); await page2.close();
+  }
+
   /* ============================ C: share ================================ */
   console.log('C. share — plates, fair share, discussion moments');
   {
@@ -290,19 +364,19 @@ function serve() {
     await sleep(300);
     const plates = await page.evaluate(() => document.querySelectorAll('.frk-plate').length);
     ok('2 plates with faces appear', plates === 2);
-    await dragCenter(page, '.frk-piece[data-piece="0"]', '.frk-plate[data-plate="0"]');
+    await dragCenter(page, '.frk-piecebtn[data-piece="0"]', '.frk-plate[data-plate="0"]');
     let sh = await page.evaluate(() => ({
       placed: FractionKitchen.placed.length,
       onPlate: !!document.querySelector('.frk-plate[data-plate="0"] svg')
     }));
     ok('slice fly-drags onto a plate', sh.placed === 1 && sh.onPlate);
     /* second slice onto the SAME plate slides back */
-    await dragCenter(page, '.frk-piece[data-piece="1"]', '.frk-plate[data-plate="0"]');
+    await dragCenter(page, '.frk-piecebtn[data-piece="1"]', '.frk-plate[data-plate="0"]');
     sh = await page.evaluate(() => ({ placed: FractionKitchen.placed.length, svgs: document.querySelectorAll('.frk-plate[data-plate="0"] svg').length }));
     ok('second slice on the same plate slides back', sh.placed === 1 && sh.svgs === 1);
     /* complete the share */
     await page.evaluate(() => { window.__spoken = []; });
-    await dragCenter(page, '.frk-piece[data-piece="1"]', '.frk-plate[data-plate="1"]');
+    await dragCenter(page, '.frk-piecebtn[data-piece="1"]', '.frk-plate[data-plate="1"]');
     await sleep(700);
     const done = await page.evaluate(() => window.__spoken.join(' | '));
     ok('fair-share completion line speaks', /fair share/i.test(done), done);
@@ -321,7 +395,7 @@ function serve() {
     });
     await sleep(300);
     await p2.evaluate(() => { window.__spoken = []; });
-    for (let i = 0; i < 3; i++) await dragCenter(p2, `.frk-piece[data-piece="${i}"]`, `.frk-plate[data-plate="${i}"]`);
+    for (let i = 0; i < 3; i++) await dragCenter(p2, `.frk-piecebtn[data-piece="${i}"]`, `.frk-plate[data-plate="${i}"]`);
     await sleep(800);
     const leftover = await p2.evaluate(() => window.__spoken.join(' | '));
     ok('leftover speaks the observation line', /left over/i.test(leftover), leftover);
@@ -523,7 +597,7 @@ function serve() {
   }
 
   /* ============================ H: keyboard ============================= */
-  console.log('H. keyboard reachability');
+  console.log('H. keyboard + tap parity (the APPARATUS, not just the chrome)');
   {
     const page = await newPage({});
     await page.goto(BASE);
@@ -536,7 +610,77 @@ function serve() {
     ok('chips are focusable buttons', reached);
     const allButtons = await page.evaluate(() => [...document.querySelectorAll('.frk-chip')].every((b) => b.tagName === 'BUTTON'));
     ok('every chip is a real <button>', allButtons);
+
+    /* the old H checked only the dock. The apparatus itself — the knife,
+       the cut lines, the pieces, the plates — was pointer-drag only, so
+       "keyboard reachability" certified the chrome and called it done. */
+    const shape = await page.evaluate(() => ({
+      cutBtns: document.querySelectorAll('.frk-cutbtn').length,
+      allBtn: [...document.querySelectorAll('.frk-cutbtn')].every((b) => b.tagName === 'BUTTON'),
+      knifeBtn: !!document.querySelector('button.frk-knife-btn'),
+      /* the no-telegraph lock, extended to the accessibility tree */
+      labels: [...new Set([...document.querySelectorAll('.frk-cutbtn')].map((b) => b.getAttribute('aria-label')))]
+    }));
+    ok('H non-vacuity: the cut targets exist and are real buttons', shape.cutBtns >= 2 && shape.allBtn, `n=${shape.cutBtns}`);
+    ok('H the knife is a real <button>', shape.knifeBtn);
+    ok('H every cut target carries the SAME aria-label (no telegraphing to a screen reader)',
+      shape.labels.length === 1 && !!shape.labels[0], JSON.stringify(shape.labels));
+
+    /* the overlay's percentage maths is exact only on a square box */
+    const box = await page.evaluate(() => {
+      const r = document.querySelector('.frk-foodbox').getBoundingClientRect();
+      return { w: r.width, h: r.height };
+    });
+    ok('H the foodbox renders SQUARE (the hit overlay depends on it)',
+      Math.abs(box.w - box.h) <= 1, `${box.w.toFixed(1)}×${box.h.toFixed(1)}`);
+
+    /* knife → Enter → focus lands on a cut target → Enter → it cuts */
+    await page.evaluate(() => document.querySelector('.frk-knife-btn').focus());
+    await page.keyboard.press('Enter');
+    await sleep(150);
+    const armed = await page.evaluate(() => ({
+      on: document.querySelector('.frk-foodbox').classList.contains('guides-on'),
+      focused: document.activeElement && document.activeElement.classList.contains('frk-cutbtn')
+    }));
+    ok('H Enter on the knife arms the board and focuses a cut target', armed.on && armed.focused,
+      `guides-on=${armed.on} focused=${armed.focused}`);
+    await page.keyboard.press('Enter');
+    await sleep(300);
+    const cut = await page.evaluate(() => ({ committed: FractionKitchen.committed.length, sliced: FractionKitchen.sliced }));
+    ok('H Enter on a cut target cuts', cut.committed >= 1 || cut.sliced, `committed=${cut.committed}`);
     ok('H no js errors', page._errs.length === 0, page._errs[0]);
+    await page.close();
+  }
+  {
+    /* tap-to-select, then tap a plate — the touch path that needs no drag */
+    const page = await newPage({});
+    await page.goto(BASE);
+    await ready(page);
+    await page.evaluate(() => {
+      const T = FractionKitchen;
+      T.food = 'pizza'; T.n = 2; T.committed = [0]; T.sliced = true;
+      T.mode = 'share'; T.friends = 2; T.placed = [];
+      T.render();
+    });
+    await sleep(250);
+    await page.click('.frk-piecebtn[data-piece="0"]');
+    await sleep(150);
+    const sel = await page.evaluate(() => ({
+      sel: FractionKitchen._sel,
+      pressed: document.querySelector('.frk-piecebtn[data-piece="0"]').getAttribute('aria-pressed')
+    }));
+    ok('H tapping a piece SELECTS it (and says so in aria-pressed)', sel.sel === 0 && sel.pressed === 'true',
+      `sel=${sel.sel} aria-pressed=${sel.pressed}`);
+    await page.click('.frk-plate[data-plate="0"]');
+    await sleep(300);
+    const placed = await page.evaluate(() => FractionKitchen.placed.length);
+    ok('H tapping a plate PLACES the selected piece — no drag needed', placed === 1, `placed=${placed}`);
+    /* a plate with nothing selected still acts: it takes the next piece */
+    await page.click('.frk-plate[data-plate="1"]');
+    await sleep(300);
+    const placed2 = await page.evaluate(() => FractionKitchen.placed.length);
+    ok('H a plate is never a dead control (takes the next piece unprompted)', placed2 === 2, `placed=${placed2}`);
+    ok('H tap-path no js errors', page._errs.length === 0, page._errs[0]);
     await page.close();
   }
 

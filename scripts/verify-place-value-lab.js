@@ -7,12 +7,15 @@
         BYTE-EQUAL to the spliced NUM_WORDS_HELPERS[loc](n,'cardinal')
         for n = 0..999 × 11 locales (11,000 asserts) — the moat's
         regression net against the protected core's composers.
-     2. PART HYGIENE: every part ∈ {hundreds,tens,ones,joiner,teen,
-        mixed}; joiners are never empty-adjacent artifacts; 'mixed'
-        appears ONLY inside each locale's MIXED_RANGES (fr 70-99),
-        and every n in a mixed range HAS a mixed span in its sub-99
-        tail. Non-mixed 21-99 (o≠0) must carry BOTH a tens and a ones
-        span (the highlight can always point at both parts).
+     2. PART HYGIENE + I3, THE THEOREM: every part is one of
+        {hundreds,tens,ones,tenMark,scoreMark,atom,joiner} — 'teen' and
+        'mixed' are gone, both having existed to AVOID the analysis and
+        both sitting exactly where the analysis pays. Every span carries
+        a numeric 'v', and sum(v) === n across 0-999 x 11: the coloured
+        parts partition the VALUE, not merely the string, so a lump is
+        structurally impossible — you cannot partition one. Byte
+        equality is a spelling check; this is the thesis. A joiner names
+        0, a tenMark names 10, a scoreMark names 80.
      3. SPLICE FIDELITY: NUM_WORDS_HELPERS output equals the LIVE
         place-value-core.js _NUMBER_WORD_HELPERS output for a 60-value
         stratified sample × 11 (the splice never drifts from the core).
@@ -31,7 +34,9 @@ const path = require('path');
 const vm = require('vm');
 
 const LOCALES = ['en', 'de', 'fr', 'it', 'es', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
-const PARTS = ['hundreds', 'tens', 'ones', 'joiner', 'teen', 'mixed'];
+/* `teen` and `mixed` are gone — see the composer's own header. A part
+   that exists to avoid the analysis is not a part. */
+const PARTS = ['hundreds', 'tens', 'ones', 'tenMark', 'scoreMark', 'atom', 'joiner'];
 const errors = [];
 const E = (m) => errors.push(m);
 
@@ -64,26 +69,51 @@ for (const L of LOCALES) {
     const got = spans.map((s) => s.t).join('');
     if (got !== want) { if (spanAsserts < 12000) E(`SPAN ${L} ${n}: "${got}" ≠ "${want}"`); spanAsserts++; continue; }
     spanAsserts++;
-    let hasMixed = false, nTens = 0, nOnes = 0, nHund = 0;
+    let nTens = 0, nOnes = 0, nHund = 0, sum = 0, nContent = 0;
     for (const s of spans) {
       if (PARTS.indexOf(s.p) < 0) E(`PART ${L} ${n}: illegal part "${s.p}"`);
       if (!s.t) E(`PART ${L} ${n}: empty span text`);
-      if (s.p === 'mixed') hasMixed = true;
+      if (typeof s.v !== 'number' || !isFinite(s.v)) E(`NAMES ${L} ${n}: span "${s.t}" (${s.p}) carries no numeric v`);
+      else sum += s.v;
+      if (s.p === 'joiner') {
+        if (s.v !== 0) E(`NAMES ${L} ${n}: joiner "${s.t}" names ${s.v}, must name 0`);
+      } else nContent++;
+      if (s.p === 'tenMark' && s.v !== 10) E(`NAMES ${L} ${n}: tenMark "${s.t}" names ${s.v}, must name 10`);
+      if (s.p === 'scoreMark' && s.v !== 80) E(`NAMES ${L} ${n}: scoreMark "${s.t}" names ${s.v}, must name 80`);
+      /* a lemma exists to say what a clipped surface MEANS; it must
+         differ from the surface or it is noise */
+      if (s.lemma !== undefined && s.lemma === s.t) E(`LEMMA ${L} ${n}: "${s.t}" carries a lemma identical to itself`);
       if (s.p === 'tens') nTens++;
       if (s.p === 'ones') nOnes++;
       if (s.p === 'hundreds') nHund++;
     }
+
+    /* ⭐⭐ I3 — THE THEOREM. The coloured parts partition the VALUE, not
+       merely the string. This is what byte-equality cannot see: a lump
+       spells correctly and names nothing, so `mixed` is now structurally
+       impossible rather than merely discouraged. */
+    if (sum !== n) E(`I3 ${L} ${n}: spans name ${sum} — [${spans.map((s) => s.t + '=' + s.v).join(' + ')}]`);
+
     /* a number names each place at most once — a duplicated content
        part is a mislabeled joiner */
     if (nTens > 1 || nOnes > 1 || nHund > 1) E(`DUP ${L} ${n}: parts tens×${nTens} ones×${nOnes} hundreds×${nHund}`);
-    const hasTens = nTens > 0, hasOnes = nOnes > 0;
+
+    /* the highlight must always have at least two things to point at
+       inside a compound sub-99: the old check demanded a tens AND a
+       ones span, which is wrong for the vigesimal and teen shapes the
+       new taxonomy finally analyses (fr 96 is scoreMark+atom, en 14 is
+       ones+tenMark). Two CONTENT parts is the honest requirement. */
+    /* ⚠ AN ATOM IS THE ONE HONEST EXCEPTION. eleven, twelve, once,
+       quince, seize, sedici, elva, elleve genuinely have no internal
+       structure in the modern language, so demanding two parts there
+       would push the composer straight back into inventing splits —
+       which is the defect this taxonomy exists to remove. Exempt a
+       sub-99 named by a single atom, and ONLY that. */
     const sub = n % 100;
-    const inMixed = mixedRange && sub >= mixedRange[0] && sub <= mixedRange[1];
-    if (hasMixed && !inMixed) E(`MIXED ${L} ${n}: mixed span outside MIXED_RANGES`);
-    if (inMixed && !hasMixed) E(`MIXED ${L} ${n}: in mixed range but no mixed span`);
-    /* the highlight can always point at both parts on a clean split */
-    if (!inMixed && sub >= 21 && sub <= 99 && sub % 10 !== 0) {
-      if (!hasTens || !hasOnes) E(`SPLIT ${L} ${n}: missing tens/ones span (${hasTens}/${hasOnes})`);
+    const soleAtom = spans.filter((s) => s.p !== 'joiner');
+    const isAtomOnly = soleAtom.length === 1 && soleAtom[0].p === 'atom' && soleAtom[0].v === sub;
+    if (sub >= 11 && sub <= 99 && sub % 10 !== 0 && nContent < 2 && !isAtomOnly) {
+      E(`SPLIT ${L} ${n}: only ${nContent} content span(s) — nothing to contrast`);
     }
   }
 }

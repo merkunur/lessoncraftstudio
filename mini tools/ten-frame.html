@@ -10,15 +10,21 @@
   <!-- The shell mounts the whole tool into this element. -->
   <div id="lcs-root"></div>
 
-  <!-- Shell first, then the shared ten-frame core, then this tool's wrapper,
-       then boot. Absolute /mini-tools/ paths so embeds + cross-context
-       loads resolve identically. -->
+  <!-- TOOL #1b — THE TEN FRAME. A frame, counters and a tray; the
+       unfilled cells are drawn as material, not left as background.
+       ⚠⚠ IT NO LONGER LOADS ten-frame-core.js. That file is shared
+       byte-for-byte with ten-frame-activity.js, which powers EIGHT
+       shipped activities, and its `.tf-` selectors and `_cssInjected`
+       singleton are global. Consuming it would have put those eight at
+       risk for no gain — the same argument, and the same bar, as
+       part-whole-frame.js:103-108 refusing number-bond-core.js.
+       `ten-frame-activity.html` loads the core from its own wrapper and
+       is untouched. This page loads exactly one ten-frame script. -->
   <script src="/mini-tools/lcs-shell.js?v=5"></script>
-  <script src="/mini-tools/ten-frame-core.js?v=2"></script>
-  <script src="/mini-tools/ten-frame.js?v=2"></script>
+  <script src="/mini-tools/ten-frame.js?v=3"></script>
   <script>
     // URL params the shell understands:
-    //   ?lang=sv  ?lang=fi  (any of: en de fr it es pt nl sv da no fi)
+    //   ?lang=de  ?lang=fi  (any of: en de fr it es pt nl sv da no fi)
     //   ?embed=1        — trim chrome for iframe embedding
     //   ?embed=compact  — also drop the title, for tightly-cropped iframes
     LCS.mount(TenFrame, { mount: '#lcs-root' });

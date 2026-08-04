@@ -238,6 +238,32 @@ const SEEDS = {
     { sel: '.lid-mark', nth: 9 },
     { sel: '.lid-foot .lid-chip', nth: 2 },
   ],
+  /* ⭐ 147, and every part of that is a decision.
+     The card had NO seed at all, so it was captured from whatever
+     localStorage happened to hold — the pose was a leftover, not a
+     choice.
+     THREE places, because hundreds are free now and the whole apparatus
+     is the offer; a two-place card would advertise a tool that no
+     longer exists.
+     FOUR tens and SEVEN ones, because both leave GHOST SLOTS showing —
+     six more makes a hundred, three more makes a ten — so the bundling
+     thesis is on the card twice without a word of copy. Seven is also
+     the canonical ten-frame picture: a full five and two more.
+     ⚠ Reached BY INDEX, never by English text (nth 0/1/2 is the place
+     order the mat renders). And the wait clears the arrival pulse while
+     staying under the 1200ms settle-speech debounce. */
+  'place-value-lab': [
+    { sel: '.pvl-add', nth: [1, 1] },
+    { sel: '.pvl-add', nth: [2, 2, 2], wait: 900 },
+  ],
+};
+
+/* per-tool viewport override; every tool without an entry keeps 720x640 */
+const VIEWPORT = {
+  /* a three-place base-ten board is 52 units wide and stacks below its
+     container breakpoint, which turns a landscape instrument into a
+     portrait strip with half the frame empty */
+  'place-value-lab': { width: 1180, height: 760 },
 };
 
 async function runSeed(page, key) {
@@ -292,7 +318,16 @@ async function runSeed(page, key) {
 
   for (const key of keys) {
     const page = await browser.newPage();
-    await page.setViewport({ width: 720, height: 640, deviceScaleFactor: 2 });
+    /* ⭐ PER-TOOL VIEWPORT, default unchanged for every existing card.
+       720px is narrower than some instruments' side-by-side breakpoint,
+       so they stack — and a stacked board is not what the tool IS. The
+       first place-value-lab card came out 698x1153 (aspect 1.65), which
+       --fit=auto top-cropped to a BLANK rectangle with the word "TENS"
+       peeking in at the bottom edge, and the generator reported "ok".
+       That is the recorded #44 trap: measure the card, do not trust the
+       exit code. */
+    const VP = VIEWPORT[key] || { width: 720, height: 640 };
+    await page.setViewport({ width: VP.width, height: VP.height, deviceScaleFactor: 2 });
     const url = `${BASE}/mini-tools/${key}.html?lang=en&embed=compact`;
     try {
       await page.goto(url, { waitUntil: 'networkidle2', timeout: 45000 });

@@ -87,13 +87,24 @@ function serve() {
         if (r.width && (r.height < 39 || r.width < 39)) small.push(el.className.split(' ')[0] + ':' + Math.round(Math.min(r.height, r.width)));
       });
       const last = [...document.querySelectorAll('.pvl-wrap > *')].pop();
-      return { overflow, small, mat: !!document.querySelector('.pvl-mat'), word: (document.querySelector('.pvl-word') || {}).textContent, bottom: last ? last.getBoundingClientRect().bottom : 0, vh: window.innerHeight };
+      const T = window.PlaceValueLab;
+      const wordEl = document.querySelector('.pvl-word');
+      const shown = wordEl ? wordEl.textContent : '';
+      const want = T ? T.NUM_WORDS_HELPERS[T.api.lang](T.engineValue(T.st), 'cardinal') : null;
+      return { overflow, small, mat: !!document.querySelector('.pvl-mat'), word: shown, wordAgrees: shown === want, bottom: last ? last.getBoundingClientRect().bottom : 0, vh: window.innerHeight };
     });
     const tag = `${vp.w}x${vp.h}`;
     let bad = false;
     if (m.overflow > 1) { FAIL(`${tag}: overflow ${m.overflow}px`); bad = true; }
     if (m.small.length) { FAIL(`${tag}: small taps ${m.small.slice(0, 3)}`); bad = true; }
-    if (!m.mat || m.word !== 'twenty-four') { FAIL(`${tag}: mat/word wrong ("${m.word}")`); bad = true; }
+    /* ⚠ was `word === 'twenty-four'`, hardcoding the opening pose — so
+       changing the demo pose to 124 (hundreds are free now, and the
+       opening frame should show the whole apparatus) failed this seven
+       times over while nothing was wrong. The sweep is asking "did the
+       mat and the word render", so ask THAT: the word must be non-empty
+       and must equal the tool's own composer output for what is on the
+       mat. Pose-independent, and it now checks more than it used to. */
+    if (!m.mat || !m.word || !m.wordAgrees) { FAIL(`${tag}: mat/word wrong ("${m.word}", agrees=${m.wordAgrees})`); bad = true; }
     if (vp.fits && m.bottom > m.vh + 1) { FAIL(`${tag}: ${Math.round(m.bottom)} > ${m.vh} (FITS)`); bad = true; }
     if (!vp.fits) {
       const reach = await page.evaluate(() => {
@@ -107,7 +118,7 @@ function serve() {
       if (vp.w === 360) await page.screenshot({ path: path.join(OUT, 'sweep-360-bottom.png') });
       await page.evaluate(() => { document.body.scrollTop = 0; });
     }
-    if (!bad) OK(`${tag}: fits/reachable, word "twenty-four"`);
+    if (!bad) OK(`${tag}: fits/reachable, word "${m.word}" agrees with the mat`);
     if (vp.w === 360) await page.screenshot({ path: path.join(OUT, 'sweep-360.png'), fullPage: true });
     if (vp.w === 768 && vp.h === 1000) await page.screenshot({ path: path.join(OUT, 'sweep-768.png'), fullPage: true });
   }
@@ -179,6 +190,11 @@ function serve() {
   console.log('\nC. invited snap lifecycle');
   await page.goto(BASE + '?lang=de', { waitUntil: 'networkidle0' });
   const inv = await page.evaluate(() => {
+    /* ⚠ this section is about the TENS/ONES bundling lifecycle, so start
+       it from a clean two-place mat instead of inheriting whatever the
+       opening pose happens to be. It used to read the demo pose's
+       hundred as part of its answer and reported the TRUE 30 as 130. */
+    PlaceValueLab.st.h = 0; PlaceValueLab.render();
     for (let i = 0; i < 6; i++) document.querySelector('.pvl-col--ones .pvl-add').click();
     return {
       o: PlaceValueLab.st.o, t: PlaceValueLab.st.t,
@@ -225,7 +241,7 @@ function serve() {
   /* ---------- E. break preconditions + pop ---------- */
   console.log('\nE. break-a-ten');
   const brk = await page.evaluate(() => {
-    PlaceValueLab.st.t = 2; PlaceValueLab.st.o = 4; PlaceValueLab.st._decomposed = false;
+    PlaceValueLab.st.h = 0; PlaceValueLab.st.t = 2; PlaceValueLab.st.o = 4; PlaceValueLab.st._decomposed = false;
     PlaceValueLab.render();
     const btn = document.querySelector('.pvl-ctxbtn.break');
     if (!btn) return { err: 'no break button in build mode with t≥1' };

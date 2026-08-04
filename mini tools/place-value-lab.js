@@ -1342,8 +1342,12 @@ var PlaceValueLab = {
     for (var k in saved) if (Object.prototype.hasOwnProperty.call(api.settings, k)) api.settings[k] = saved[k];
 
     this.st = this.engineNew({ bundle: api.settings.bundle, maxPlaces: this._maxPlaces() });
-    /* the demo pose: 24 — the inversion number */
-    this.st.t = 2; this.st.o = 4;
+    /* the demo pose: 124. It was 24, chosen because it is the inversion
+       number — and it still is inside 124. But hundreds are free now, so
+       the opening frame should show the whole apparatus rather than two
+       thirds of it, and einhundertvierundzwanzig is where the German
+       inversion actually gets hard. */
+    this.st.h = 1; this.st.t = 2; this.st.o = 4;
 
     this._fetchEntitlement();
   },
@@ -2523,7 +2527,7 @@ var PlaceValueLab = {
   reset: function () {
     this.mode = 'build';
     this.st = this.engineNew({ bundle: this.api.settings.bundle, maxPlaces: this._maxPlaces() });
-    this.st.t = 2; this.st.o = 4;
+    this.st.h = 1; this.st.t = 2; this.st.o = 4;
     this.sub = { a: null, b: null, phase: 'idle', removedT: 0, removedO: 0 };
     this._marked = null;
     if (this._panelEl) this._closePanel();

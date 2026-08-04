@@ -24,6 +24,48 @@
   ],
   "sets": [
     {
+      "id": "cherries",
+      "noun": "cherry",
+      "imageDir": "fruits",
+      "imageFile": "cherry",
+      "season": null,
+      "free": true,
+      "pack": {
+        "r70": 0.334,
+        "cx": 0.484,
+        "cy": 0.574,
+        "rotMax": 22
+      }
+    },
+    {
+      "id": "stars",
+      "noun": "star",
+      "imageDir": "shapes",
+      "imageFile": "star",
+      "season": null,
+      "free": true,
+      "pack": {
+        "r70": 0.289,
+        "cx": 0.494,
+        "cy": 0.545,
+        "rotMax": 40
+      }
+    },
+    {
+      "id": "lollipops",
+      "noun": "lollipop",
+      "imageDir": "desserts and sweets",
+      "imageFile": "lollipop",
+      "season": null,
+      "free": true,
+      "pack": {
+        "r70": 0.231,
+        "cx": 0.493,
+        "cy": 0.325,
+        "rotMax": 22
+      }
+    },
+    {
       "id": "badges",
       "noun": "badge",
       "imageDir": "accessories",
@@ -430,20 +472,6 @@
       }
     },
     {
-      "id": "lollipops",
-      "noun": "lollipop",
-      "imageDir": "desserts and sweets",
-      "imageFile": "lollipop",
-      "season": null,
-      "free": true,
-      "pack": {
-        "r70": 0.231,
-        "cx": 0.493,
-        "cy": 0.325,
-        "rotMax": 22
-      }
-    },
-    {
       "id": "macarons",
       "noun": "macaron",
       "imageDir": "desserts and sweets",
@@ -805,20 +833,6 @@
         "cx": 0.502,
         "cy": 0.505,
         "rotMax": 40
-      }
-    },
-    {
-      "id": "cherries",
-      "noun": "cherry",
-      "imageDir": "fruits",
-      "imageFile": "cherry",
-      "season": null,
-      "free": true,
-      "pack": {
-        "r70": 0.334,
-        "cx": 0.484,
-        "cy": 0.574,
-        "rotMax": 22
       }
     },
     {
@@ -1393,20 +1407,6 @@
         "cx": 0.494,
         "cy": 0.508,
         "rotMax": 22
-      }
-    },
-    {
-      "id": "stars",
-      "noun": "star",
-      "imageDir": "shapes",
-      "imageFile": "star",
-      "season": null,
-      "free": true,
-      "pack": {
-        "r70": 0.289,
-        "cx": 0.494,
-        "cy": 0.545,
-        "rotMax": 40
       }
     },
     {

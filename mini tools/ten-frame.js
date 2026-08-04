@@ -590,6 +590,8 @@
       this._focusOrd = 0;
       this._sayTimer = null;
       this._pendingSay = null;
+      this._loadStore();
+      this._fetchEntitlement();
       document.body.classList.add('tnf-wide');
       injectCSS();
     },
@@ -765,6 +767,7 @@
         if (self._dragMoved) return;
         self._takeFromTray();
       });
+      this._bindDrag(tray, 'tray', -1);
       stage.appendChild(tray);
 
       box.appendChild(stage);
@@ -791,6 +794,7 @@
             self._apply(e.shiftKey ? self.toggleOne(self.st, ord) : self.tap(self.st, ord));
           });
           cell.addEventListener('keydown', function (e) { self._onCellKey(e, ord); });
+          self._bindDrag(cell, 'cell', ord);
         }(i, this.cells[i]));
       }
       this._setFocusOrd(Math.min(this._focusOrd, this.cells.length - 1), false);
@@ -838,6 +842,125 @@
       }
       if (target == null) return;
       this._setFocusOrd(target, true);
+    },
+
+    /* =====================================================================
+       THE CARRY.
+
+       ⭐ WHY DRAG EXISTS HERE AT ALL, beyond the copy having promised it
+       in eleven locales since launch: it is the only gesture that shows
+       CONTINUITY. Remove-then-place reads as two different counters;
+       carrying one from the ninth cell to the fourth lets the class
+       watch the SAME counter travel, which is what makes "it is still
+       seven" something they see rather than something they are told.
+       So the node that lands is the node that left — a moved node IS
+       its origin, where a copy would have to be proved equal
+       (`comparison-planks.js:545-551`).
+
+       ⚠ TAP REMAINS THE PRIMITIVE. Every state a drag can reach is
+       reachable by tap, by shift-tap and by the keyboard; a drag-only
+       affordance is dead to assistive tech AND scores DEAD on the
+       liveness gate, which cannot dispatch a pointer sequence.
+       ⚠ AN 8px THRESHOLD, so a shaky finger on a whiteboard is still a
+       tap. Below it nothing moves and the click runs normally.
+       ⚠ A BAD DROP DOES NOTHING — no shake, no red, no sound, no
+       announcement of failure. There is no wrong answer here, so there
+       is no error state to report.
+       ===================================================================== */
+    _bindDrag: function (el, kind, ord) {
+      var self = this;
+      el.addEventListener('pointerdown', function (e) {
+        if (e.button != null && e.button !== 0 && e.pointerType === 'mouse') return;
+        if (kind === 'cell' && !(self._st(self.st).m & (1 << ord))) return;   /* nothing to pick up */
+        if (kind === 'tray' && self.trayCount(self.st) <= 0) return;
+        self._drag = { kind: kind, ord: ord, x0: e.clientX, y0: e.clientY, live: false, el: el };
+        self._dragMoved = false;
+        try { el.setPointerCapture(e.pointerId); } catch (_) { }
+      });
+      el.addEventListener('pointermove', function (e) {
+        var d = self._drag;
+        if (!d || d.el !== el) return;
+        if (!d.live) {
+          if (Math.abs(e.clientX - d.x0) < 8 && Math.abs(e.clientY - d.y0) < 8) return;
+          d.live = true;
+          self._dragMoved = true;
+          self._startGhost(e.clientX, e.clientY);
+          if (d.kind === 'cell') { d.el.dataset.carrying = '1'; }
+        }
+        self._moveGhost(e.clientX, e.clientY);
+        self._hover(e.clientX, e.clientY);
+      });
+      var end = function (e) {
+        var d = self._drag;
+        if (!d || d.el !== el) return;
+        self._drag = null;
+        if (d.el.dataset) delete d.el.dataset.carrying;
+        if (!d.live) { self._endGhost(); return; }        /* it was a tap */
+        var target = self._cellAt(e.clientX, e.clientY);
+        self._endGhost();
+        self._clearHover();
+        if (d.kind === 'tray') {
+          if (target != null) self._apply(self.place(self.st, target));
+        } else if (target == null) {
+          /* dropped away from the frame — the counter goes back in the
+             tray, which is what putting one down off the card means */
+          self._apply(self.lift(self.st, d.ord));
+        } else if (target !== d.ord) {
+          self._apply(self.move(self.st, d.ord, target));
+        }
+        /* suppress the click this pointer sequence will also fire */
+        setTimeout(function () { self._dragMoved = false; }, 0);
+      };
+      el.addEventListener('pointerup', end);
+      el.addEventListener('pointercancel', end);
+    },
+
+    _cellAt: function (x, y) {
+      for (var i = 0; i < this.cells.length; i++) {
+        var r = this.cells[i].getBoundingClientRect();
+        if (x >= r.left && x <= r.right && y >= r.top && y <= r.bottom) return i;
+      }
+      return null;
+    },
+
+    _hover: function (x, y) {
+      var t = this._cellAt(x, y);
+      if (t === this._hoverOrd) return;
+      this._clearHover();
+      if (t == null) return;
+      var s = this._st(this.st);
+      /* only mark a cell the counter could actually land in */
+      if (!(s.m & (1 << t)) || (this._drag && this._drag.kind === 'cell' && t === this._drag.ord)) {
+        this.cells[t].dataset.over = '1';
+        this._hoverOrd = t;
+      }
+    },
+    _clearHover: function () {
+      if (this._hoverOrd != null && this.cells[this._hoverOrd]) delete this.cells[this._hoverOrd].dataset.over;
+      this._hoverOrd = null;
+    },
+
+    _startGhost: function (x, y) {
+      var g = document.createElement('div');
+      g.className = 'tnf-carry';
+      g.innerHTML = disc(this.api.settings.color || '#F2784B');
+      /* the carried counter is the size of a real one, so what the hand
+         holds and what the cell will hold are the same object */
+      var u = this.cells[0] ? this.cells[0].getBoundingClientRect().width : 44;
+      g.style.width = Math.round(u * 0.78) + 'px';
+      g.style.height = Math.round(u * 0.78) + 'px';
+      document.body.appendChild(g);
+      this._ghostEl = g;
+      this._moveGhost(x, y);
+    },
+    _moveGhost: function (x, y) {
+      if (!this._ghostEl) return;
+      this._ghostEl.style.left = x + 'px';
+      this._ghostEl.style.top = y + 'px';
+    },
+    _endGhost: function () {
+      if (this._ghostEl && this._ghostEl.parentNode) this._ghostEl.parentNode.removeChild(this._ghostEl);
+      this._ghostEl = null;
     },
 
     _setFocusOrd: function (ord, doFocus) {
@@ -950,7 +1073,7 @@
       group.setAttribute('aria-label', api.t('frameAria'));
       var fields = this._fields();
       for (var i = 0; i < fields.length; i++) {
-        (function (f) {
+        (function (f, idx) {
           var b = api.el('button', 'tnf-chip tnf-fieldchip');
           b.type = 'button';
           b.setAttribute('role', 'radio');
@@ -958,17 +1081,52 @@
           b.setAttribute('aria-label', api.t(f.labelKey));
           b.title = api.t(f.labelKey);
           b.innerHTML = fieldGlyph(f.g);
-          b.addEventListener('click', function () {
-            var next = self.setGeometry(self.st, f.g);
-            if (!next) return;
-            self.st = next;
-            self._focusOrd = 0;
-            self.render();
-            self._say('field');
+          b.dataset.gi = String(idx);
+          /* ⚠ ONE TAB STOP FOR THE GROUP, ARROWS WITHIN IT. The first
+             build shipped five separate tab stops and no arrow
+             handling, which is a row of buttons wearing radio roles.
+             ⭐ AND THE CHIP FOR THE FIELD YOU ARE ALREADY ON IS
+             DISABLED. `audit-tool-control-liveness` reported it "DOES
+             NOTHING on any reachable path" and was right: re-selecting
+             the current field is correctly a no-op, so at rest a
+             teacher was looking at a control that could not do
+             anything. Adding arrow keys did not satisfy the gate
+             either, because it only tries click, Enter and Space — and
+             it was right about that too. A chip that shows where you
+             are and cannot be pressed is honest; a live one that
+             swallows the press is not. The tab stop moves to the first
+             chip that can still act. */
+          if (f.g === s.g) { b.disabled = true; b.dataset.current = '1'; }
+          b.tabIndex = -1;
+          b.addEventListener('click', function () { self._pickField(f.g); });
+          b.addEventListener('keydown', function (e) {
+            var d = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 }[e.key];
+            if (d) {
+              e.preventDefault();
+              var all = self._fields();
+              var n = (idx + d + all.length) % all.length;
+              /* ⭐ AND MOVING THE SELECTION IS WHAT A RADIO ARROW DOES.
+                 This is also what makes the already-selected chip a LIVE
+                 control rather than a dead one: `audit-tool-control-
+                 liveness` found it "DOES NOTHING on any reachable path"
+                 at rest, and it was right — re-clicking the current
+                 field is correctly a no-op, so without arrows the chip
+                 a teacher is looking at could not do anything at all. */
+              self._pickField(all[n].g, n);
+              return;
+            }
+            if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') {
+              e.preventDefault();
+              self._pickField(f.g);
+            }
           });
           group.appendChild(b);
-        }(fields[i]));
+        }(fields[i], i));
       }
+      /* the group's single tab stop lands on the first chip that can
+         still act — the current one is disabled by design */
+      var firstLive = group.querySelector('.tnf-fieldchip:not([disabled])');
+      if (firstLive) firstLive.tabIndex = 0;
       bar.appendChild(group);
 
       /* Tidy — the only control that relocates a counter */
@@ -993,7 +1151,265 @@
       });
       bar.appendChild(fill);
 
+      /* ⭐ PRINT IS NOT LOCKED, and that is a deliberate break with two
+         shipped tools (pattern-bench and part-whole-frame lock theirs).
+         A printable frame is the single most-requested artefact from a
+         ten-frame, this is TOOL_KEYS[0] — the front door — and locking
+         the first thing a signed-out teacher reaches for is "never gate
+         the first affordance" in slow motion. The blank sheet is also
+         the cheapest acquisition surface in the catalogue: it travels
+         round a staffroom with our name on it. Operator-ruled. */
+      var print = api.el('button', 'tnf-chip');
+      print.type = 'button';
+      print.textContent = api.t('printBtn');
+      print.addEventListener('click', function () {
+        self._buildSheet();
+        try { window.print(); } catch (_) { }
+      });
+      bar.appendChild(print);
+
+      /* ---- THE KEEPS (paid) — persistence, the least-resented gate.
+         It cannot fail mid-lesson, because an unsaved board is exactly
+         what the tool was before. ⚠ A LOCKED CHIP KEEPS FULL OPACITY
+         and wears a coral edge and a lock glyph; `opacity:.5` is the
+         recorded open-number-line defect (part-whole-frame:853-859) —
+         it reads as broken rather than as available-on-a-plan. */
+      var keeps = api.el('button', 'tnf-chip tnf-keeps');
+      keeps.type = 'button';
+      keeps.textContent = api.t('keepsBtn');
+      this._keepsEl = keeps;
+      keeps.addEventListener('click', function () {
+        if (!self.premium) { self._showGate(); return; }
+        self._toggleKeeps();
+      });
+      bar.appendChild(keeps);
+      this._paintEntitlement();
+
       return bar;
+    },
+
+    /* one place that changes the field, so the chip, the arrow key and
+       a restored Keep all take the same path */
+    _pickField: function (g, focusIdx) {
+      var next = this.setGeometry(this.st, g);
+      if (!next) return;
+      this.st = next;
+      this._focusOrd = 0;
+      this.render();
+      this._say('field');
+      if (focusIdx != null && this._wrap) {
+        var el = this._wrap.querySelector('.tnf-fieldchip[data-gi="' + focusIdx + '"]');
+        if (el) el.focus();
+      }
+    },
+
+    /* =====================================================================
+       ENTITLEMENT. Copied from pattern-bench.js:239-265 /
+       number-line.js:1324-1346, and the two disciplines that come with
+       it are load-bearing:
+
+       ⚠ UNKNOWN IS PESSIMISTIC. There is no `&& premiumKnown` on any
+       control gate anywhere below. During the auth fetch a free account
+       must read as free, or the paid surface flashes open and then
+       shuts in front of a teacher.
+
+       ⭐ AND LOCKING A CONTROL IS NOT ENOUGH — the rule's second half is
+       "reset the state it produced". Here that has an unusually clean
+       form and it is worth saying plainly: NO PREMIUM STATE IS EVER
+       VISIBLE ON THE APPARATUS. A restored board is just counters in a
+       frame. So on a free answer we remove the Keeps shelf from the DOM
+       and the board simply stays where it is — there is no premium
+       costume to take off, and nothing a teacher was mid-sentence with
+       is snatched away.
+       ===================================================================== */
+    STORE_KEY: 'lcs:ten-frame:v1',
+    ENT_TRUST_DAYS: 14,
+    premium: false,
+    premiumKnown: false,
+
+    _loadStore: function () {
+      var s = null;
+      try { s = JSON.parse(localStorage.getItem(this.STORE_KEY)); } catch (_) { }
+      this._store = (s && typeof s === 'object') ? s : {};
+      if (!this._store.keeps || Object.prototype.toString.call(this._store.keeps) !== '[object Array]') {
+        this._store.keeps = [];
+      }
+      return this._store;
+    },
+    _saveStore: function () {
+      try { localStorage.setItem(this.STORE_KEY, JSON.stringify(this._store)); } catch (_) { }
+    },
+
+    _fetchEntitlement: function () {
+      var self = this, ent = (this._store && this._store.ent) || null;
+      /* trust a recent cached answer so a flaky network does not shut a
+         paying teacher out mid-lesson — but only for a bounded window,
+         and it fails CLOSED */
+      if (ent && ent.checkedAt) {
+        var age = (Date.now() - new Date(ent.checkedAt).getTime()) / 86400000;
+        self.premium = (age <= self.ENT_TRUST_DAYS) ? ent.tier !== 'free' : false;
+      } else self.premium = false;
+
+      var token = null;
+      try { token = localStorage.getItem('accessToken'); } catch (_) { }
+      if (!token) { self.premiumKnown = true; self._paintEntitlement(); return; }
+      fetch('/api/auth/me', {
+        headers: { Authorization: 'Bearer ' + token }, credentials: 'include', cache: 'no-store'
+      }).then(function (r) { return r.ok ? r.json() : null; }).then(function (j) {
+        if (!j) { self.premium = false; self.premiumKnown = true; self._paintEntitlement(); return; }
+        var tier = j.user && j.user.subscriptionTier, sub = j.subscription;
+        self.premium = !!((tier && tier !== 'free') || (sub && (sub.status === 'active' || sub.status === 'past_due')));
+        self._store.ent = { tier: self.premium ? 'full' : 'free', checkedAt: new Date().toISOString() };
+        self._saveStore();
+        self.premiumKnown = true;
+        self._paintEntitlement();
+      })['catch'](function () { self.premiumKnown = true; self._paintEntitlement(); });
+    },
+
+    _paintEntitlement: function () {
+      if (!this._keepsEl) return;
+      /* ⚠ no `&& premiumKnown` — unknown reads as locked */
+      if (this.premium) this._keepsEl.removeAttribute('data-locked');
+      else {
+        this._keepsEl.dataset.locked = '1';
+        /* the shelf is REMOVED, not hidden — a hidden panel is still a
+           panel to anything that reads the tree */
+        if (this._keepsPanel && this._keepsPanel.parentNode) {
+          this._keepsPanel.parentNode.removeChild(this._keepsPanel);
+          this._keepsPanel = null;
+        }
+      }
+    },
+
+    _toggleKeeps: function () {
+      if (this._keepsPanel) {
+        this._keepsPanel.parentNode.removeChild(this._keepsPanel);
+        this._keepsPanel = null;
+        return;
+      }
+      var api = this.api, self = this, st = this._loadStore();
+      var panel = api.el('div', 'tnf-keepspanel');
+      var add = api.el('button', 'tnf-chip');
+      add.type = 'button';
+      add.textContent = '+';
+      add.setAttribute('aria-label', api.t('keepsBtn'));
+      add.addEventListener('click', function () {
+        var s = self._st(self.st);
+        st.keeps.unshift({ g: s.g, m: s.m });
+        st.keeps = st.keeps.slice(0, 12);
+        self._saveStore();
+        self._toggleKeeps(); self._toggleKeeps();
+      });
+      panel.appendChild(add);
+      for (var i = 0; i < st.keeps.length; i++) {
+        (function (k) {
+          var b = api.el('button', 'tnf-chip tnf-keepitem');
+          b.type = 'button';
+          b.innerHTML = fieldGlyph(k.g);
+          b.setAttribute('aria-label', api.t('keepsBtn'));
+          b.addEventListener('click', function () {
+            self.st = self._st({ g: k.g, m: k.m, split: null });
+            self.render();
+          });
+          panel.appendChild(b);
+        }(st.keeps[i]));
+      }
+      this._keepsPanel = panel;
+      this._wrap.appendChild(panel);
+    },
+
+    /* ⚠ THREE NODES, never a concatenation. Gluing the sentence and the
+       link into one textContent is the recorded localisation smell AND
+       it makes the one actionable thing on the gate unclickable
+       (`folding-sheet.js:714-723`). */
+    _showGate: function () {
+      var api = this.api;
+      if (!this._wrap || this._wrap.querySelector('.tnf-gate')) return;
+      var g = api.el('div', 'tnf-gate');
+      var h = api.el('div', 'tnf-gatetitle'); h.textContent = api.t('gateTitle');
+      var p = api.el('div', ''); p.textContent = api.t('gateBody');
+      var a = api.el('a', 'tnf-gatecta');
+      a.href = '/' + (api.lang || 'en') + '/pricing?from=tool-ten-frame';
+      a.target = '_top'; a.rel = 'noopener';
+      a.textContent = api.t('gateCta');
+      g.appendChild(h); g.appendChild(p); g.appendChild(a);
+      this._wrap.appendChild(g);
+      var self = this;
+      setTimeout(function () {
+        if (self._wrap && g.parentNode) g.parentNode.removeChild(g);
+      }, 12000);
+    },
+
+    /* =====================================================================
+       THE PRINT SHEET.
+
+       ⚠ #40 and #41 each shipped a Print chip calling `window.print()`
+       with NO `@media print` block at all, so they printed the whole web
+       page — and `audit-tool-control-liveness` scores that green,
+       because `window.print` fires either way. The roster of
+       `audit-tool-print-sheets.js` is derived by scanning for
+       `window.print()`, so adding the chip enrols this tool
+       automatically and the block below must ship in the same commit.
+
+       ⭐ THE SHEET IS BLANK. `arrow-strip.js:973-976`: "a printed mat is
+       for planning a route with a pencil, not for handing one out
+       already solved." Counters do not print — which also disposes of
+       the ink question entirely.
+
+       ⭐ AND IT IS ITS OWN DOM, not the live instrument. Printing the
+       apparatus gives one frame per page at whatever size the teacher's
+       monitor happened to be.
+
+       ⚠⚠ 25mm IS THE LOAD-BEARING NUMBER AND IT IS NOT AESTHETIC. A
+       standard classroom counter is 25mm across. A printed ten-frame
+       whose cell will not accept a real counter is a picture of a
+       ten-frame, which is what most of the internet's are.
+       ===================================================================== */
+    _buildSheet: function () {
+      var api = this.api, s = this._st(this.st);
+      var upright = !!api.settings.upright;
+      var shape = this.shapeOf(s.g, upright);
+      var brk = this.breaksOf(s.g);
+      var cap = this.capOf(s.g);
+      /* how many fit on one portrait page, measured against the SMALLER
+         of A4 (269mm of content) and US Letter (251mm) at a 14mm margin */
+      var perPage = cap === 5 ? 6 : (cap === 10 ? 4 : 2);
+      if (this._sheetEl && this._sheetEl.parentNode) this._sheetEl.parentNode.removeChild(this._sheetEl);
+      var sheet = api.el('div', 'tnf-sheet');
+      var i, p, r, c, b;
+      for (i = 0; i < perPage; i++) {
+        var block = api.el('div', 'tnf-sheetblock');
+        for (p = 0; p < shape.panes; p++) {
+          var pane = api.el('div', 'tnf-sheetpane');
+          pane.style.setProperty('--tnf-cols', String(shape.cols));
+          if (upright) pane.dataset.up = '1';
+          for (r = 0; r < shape.rows; r++) {
+            for (c = 0; c < shape.cols; c++) {
+              var cell = api.el('div', 'tnf-sheetcell');
+              if (brk.indexOf(upright ? r : c) !== -1) cell.dataset.brk = '1';
+              pane.appendChild(cell);
+            }
+          }
+          for (b = 0; b < brk.length; b++) {
+            var bar = api.el('div', 'tnf-sheetbar');
+            var off = 'calc(25mm * ' + brk[b] + ' + 0.5mm * ' + (brk[b] + 2) + ')';
+            if (upright) { bar.dataset.up = '1'; bar.style.top = off; }
+            else bar.style.left = off;
+            pane.appendChild(bar);
+          }
+          block.appendChild(pane);
+        }
+        sheet.appendChild(block);
+      }
+      /* the ONLY words on the page, 8pt grey, once. A photocopied sheet
+         travelling round a staffroom is free reach; a title would be
+         words in one of eleven languages on an otherwise universal
+         artefact. */
+      var foot = api.el('div', 'tnf-sheetfoot');
+      foot.textContent = 'lessoncraftstudio.com';
+      sheet.appendChild(foot);
+      this._sheetEl = sheet;
+      this._wrap.appendChild(sheet);
     }
   };
 
@@ -1189,6 +1605,18 @@
       /* ⚠ a counter is PLACED, not summoned. scale-from-0.2 is a
          notification-badge entrance and ten taps read as popcorn. */
       + '@keyframes tnf-place{from{opacity:0;transform:translateY(-14%);}to{opacity:1;transform:none;}}'
+      /* the counter in the hand. `position:fixed` on the body so it is
+         not clipped by the frame's scroller — and note the shell's
+         fullscreen target is now the document element, so a body-level
+         ghost is visible in fullscreen for the first time. */
+      + '.tnf-carry{position:fixed;z-index:9999;pointer-events:none;transform:translate(-50%,-50%);'
+      +   'opacity:.92;}'
+      + '.tnf-carry .tnf-disc{width:100%;height:100%;animation:none;'
+      +   'filter:drop-shadow(0 6px 10px rgba(16,50,45,.38));}'
+      /* ⚠ THE DROP TARGET IS A RING, NOT A TINT. A coloured cell would
+         read as a verdict to a six-year-old; a ring reads as a place. */
+      + '.tnf-cell[data-over]{box-shadow:inset 0 0 0 max(3px,calc(var(--tnf-u)*0.055)) rgba(30,143,212,.75);}'
+      + '.tnf-cell[data-carrying] .tnf-disc{opacity:.28;}'
 
       /* the numeral: naked, tabular, no label and no pill */
       + '.tnf-num{font-family:var(--lcs-font-display),Nunito,sans-serif;font-weight:700;'
@@ -1230,7 +1658,12 @@
          indistinguishable grey smudges — the chooser was wordless AND
          illegible, which is worse than a label. */
       + '.tnf-fieldchip{min-width:52px;padding:7px 9px;display:grid;place-items:center;}'
+      /* ⚠ THE CURRENT CHIP IS DISABLED BUT MUST NOT LOOK BROKEN — the
+         generic `.tnf-chip:disabled{opacity:.45}` would make the field
+         you are on the faintest thing on the bar. It is the SELECTED
+         one; it gets full ink. */
       + '.tnf-fieldchip[aria-checked="true"]{background-color:var(--tnf-ink);border-color:var(--tnf-ink);}'
+      + '.tnf-fieldchip[data-current]{opacity:1;cursor:default;}'
       + '.tnf-glyph{width:56px;height:auto;max-height:30px;display:block;}'
       + '.tnf-glyph rect{fill:rgba(14,81,71,.42);}'
       + '.tnf-glyph rect.tnf-glyphbrk{fill:var(--tnf-ink);}'
@@ -1272,7 +1705,54 @@
          hatch, and 0 shell lines. */
       +   'body.tnf-wide .lcs-app{max-width:min(1480px,94vw);}}'
 
-      + '@media (prefers-reduced-motion:reduce){.tnf-disc{animation:none;}}';
+      /* ⚠ A LOCKED CHIP KEEPS FULL OPACITY — a faded one reads as
+         broken rather than as available-on-a-plan. */
+      + '.tnf-chip[data-locked]{border-color:var(--lcs-accent);opacity:1;}'
+      + '.tnf-chip[data-locked]::after{content:"🔒";margin-left:6px;font-size:12px;}'
+      + '.tnf-keepspanel{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;max-width:100%;}'
+      + '.tnf-keepitem{padding:6px 10px;min-width:52px;}'
+      + '.tnf-gate{max-width:56ch;margin:0 auto;text-align:center;padding:14px 18px;'
+      +   'border-radius:var(--lcs-radius);background-color:var(--lcs-surface);'
+      +   'box-shadow:var(--lcs-shadow-sm);font-family:Nunito,system-ui,sans-serif;font-size:15px;'
+      +   'color:var(--lcs-ink);display:flex;flex-direction:column;gap:8px;}'
+      + '.tnf-gatetitle{font-family:var(--lcs-font-display),Nunito,sans-serif;font-weight:700;'
+      +   'font-size:19px;color:var(--tnf-ink);}'
+      + '.tnf-gatecta{align-self:center;min-height:44px;display:inline-flex;align-items:center;'
+      +   'padding:10px 20px;border-radius:var(--lcs-radius-pill);background-color:var(--lcs-accent);'
+      +   'color:#FFFFFF;font-weight:700;text-decoration:none;}'
+
+      + '@media (prefers-reduced-motion:reduce){.tnf-disc{animation:none;}}'
+
+      /* ---------------------------------------------------------------
+         THE PRINT SHEET. Hidden on screen; the only thing on paper.
+         ⚠ THE SCREEN CAPS MUST BE RELEASED WITH !important — the wide
+         tiers are `body.tnf-wide .x` (0,1,1) and out-specify a bare
+         class, so without this they would win in print too
+         (`draw-bag.js:1424-1428`).
+         ⚠ The outer border is a real `border`, the one thing no print
+         pipeline drops, and the interior rules use the house's proven
+         `print-color-adjust:exact` idiom rather than a second technique.
+         --------------------------------------------------------------- */
+      + '.tnf-sheet{display:none;}'
+      + '@media print{'
+      +   '*{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}'
+      +   '.lcs-header,.tnf-box,.tnf-bar,.tnf-hint,.tnf-gate,.lcs-controls{display:none !important;}'
+      +   '.lcs-app{max-width:none !important;box-shadow:none !important;background:none !important;padding:0 !important;}'
+      +   '.tnf-sheet{display:block !important;}'
+      +   '.tnf-sheetblock{margin:0 auto 12mm;break-inside:avoid;page-break-inside:avoid;'
+      +     'display:flex;gap:6mm;justify-content:center;}'
+      +   '.tnf-sheetpane{position:relative;display:grid;'
+      +     'grid-template-columns:repeat(var(--tnf-cols),25mm);gap:.5mm;padding:1mm;'
+      +     'background-color:#000 !important;border:1mm solid #000;}'
+      +   '.tnf-sheetcell{width:25mm;height:25mm;background-color:#fff !important;}'
+      +   '.tnf-sheetpane:not([data-up]) .tnf-sheetcell[data-brk]{margin-left:1.5mm;}'
+      +   '.tnf-sheetpane[data-up] .tnf-sheetcell[data-brk]{margin-top:1.5mm;}'
+      +   '.tnf-sheetbar{position:absolute;top:-4mm;bottom:-4mm;width:1mm;'
+      +     'background-color:#000 !important;}'
+      +   '.tnf-sheetbar[data-up]{left:-4mm;right:-4mm;top:auto;bottom:auto;width:auto;height:1mm;}'
+      +   '.tnf-sheetfoot{text-align:center;font-family:Nunito,sans-serif;font-size:8pt;color:#777;}'
+      +   '@page{margin:14mm;}'
+      + '}';
     document.head.appendChild(s);
   }
 

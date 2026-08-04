@@ -461,6 +461,75 @@ function serve() {
     await page.close(); await p2.close();
   }
 
+  /* ================= C2: the FAIR SHARE, not one slice ==================
+     One line used to cap this tool at unit fractions — a plate could hold
+     exactly one piece, so no child could ever be given three fourths, and
+     six pieces among three friends had to leave three over instead of
+     giving each of them two sixths. */
+  console.log('C2. non-unit shares');
+  {
+    const page = await newPage({ premium: true });
+    await page.goto(BASE);
+    await ready(page);
+    await spy(page);
+    await page.evaluate(() => {
+      const T = FractionKitchen;
+      T.food = 'pizza'; T.n = 6; T.committed = [0, 1, 2]; T.sliced = true;
+      T.mode = 'share'; T.friends = 3; T.placed = []; T.plateOf = [];
+      T.render();
+    });
+    await sleep(300);
+    const share = await page.evaluate(() => FractionKitchen._share());
+    ok('C2 six pieces among three friends is a share of TWO', share === 2, `share=${share}`);
+    await page.evaluate(() => { window.__spoken = []; });
+    for (const i of [0, 1]) await dragCenter(page, `.frk-piecebtn[data-piece="${i}"]`, '.frk-plate[data-plate="0"]');
+    const st = await page.evaluate(() => ({
+      onPlate0: document.querySelectorAll('.frk-plate[data-plate="0"] .frk-plateslice').length,
+      placed: FractionKitchen.placed.length,
+      spoken: window.__spoken.join(' | ')
+    }));
+    ok('C2 one plate holds TWO slices', st.onPlate0 === 2 && st.placed === 2, `slices=${st.onPlate0} placed=${st.placed}`);
+    /* the counted form is what follows a numeral in every locale, so this
+       needs no new string in any language */
+    ok('C2 the share is NAMED as a non-unit fraction', /2\s+sixths/i.test(st.spoken), st.spoken);
+    /* and a third slice on that plate is refused — the share is the share */
+    await dragCenter(page, '.frk-piecebtn[data-piece="2"]', '.frk-plate[data-plate="0"]');
+    const after = await page.evaluate(() => document.querySelectorAll('.frk-plate[data-plate="0"] .frk-plateslice').length);
+    ok('C2 a plate never takes more than its share', after === 2, `slices=${after}`);
+    ok('C2 no js errors', page._errs.length === 0, page._errs[0]);
+    await page.close();
+  }
+  /* ============ C3: re-forming the whole (1.G.A.3 / 2.G.A.3) =========== */
+  console.log('C3. put it back together');
+  {
+    const page = await newPage({});
+    await page.goto(BASE);
+    await ready(page);
+    await spy(page);
+    await page.evaluate(() => {
+      const T = FractionKitchen;
+      T.food = 'pizza'; T.n = 4; T.committed = [0, 1]; T.sliced = true; T.render();
+      T._foodBoxEl.classList.add('exploded');
+    });
+    await sleep(250);
+    const chip = await page.evaluate(() => {
+      const c = [...document.querySelectorAll('.frk-chip')].filter((b) => /whole/i.test(b.textContent));
+      if (!c.length) return null;
+      c[0].click();
+      return true;
+    });
+    ok('C3 non-vacuity: a "one whole" chip exists once the food is cut', chip === true);
+    await sleep(300);
+    const st = await page.evaluate(() => ({
+      exploded: document.querySelector('.frk-foodbox').classList.contains('exploded'),
+      spoken: window.__spoken.join(' | ')
+    }));
+    ok('C3 the pieces come back together', !st.exploded);
+    ok('C3 it says four fourths make one whole', /fourths.*one whole/i.test(st.spoken), st.spoken);
+    ok('C3 no js errors', page._errs.length === 0, page._errs[0]);
+    await page.close();
+  }
+
   /* ============================ D: equivalence tray ===================== */
   console.log('D. equivalence tray (premium)');
   {

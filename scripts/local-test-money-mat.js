@@ -597,7 +597,15 @@ function serve() {
     await page.goto(BASE);
     await ready(page);
     await spy(page);
-    const faceBefore = await page.evaluate(() => document.querySelector('.mm-keeper').innerHTML);
+    /* ⚠ THE FACE, not the whole figure. The locked rule is that the keeper's
+       FACE never reacts to the child; the hands are a stage direction and
+       are SUPPOSED to follow the transaction (idle / receiving / giving).
+       Measuring the whole keeper conflated the two and would have forced
+       the hands to be dead to keep the gate green. Narrowed here — and paid
+       for below with a strictly stronger assertion the old one could not
+       make: that the pose carries no VALENCE, i.e. it is identical for an
+       exact payment and a wrong one. */
+    const faceBefore = await page.evaluate(() => document.querySelector('.mm-face').outerHTML);
     await page.evaluate(() => { const T = MoneyMat; T.price = 45; T.tray = []; T.phase = 'paying'; T.render(); });
     await clickCoin(page, 25);   /* under-pay */
     await clickCoin(page, 25);   /* over-pay  */
@@ -614,9 +622,32 @@ function serve() {
         const s = getComputedStyle(el);
         [s.color, s.backgroundColor, s.borderColor].forEach((col) => { if (isBad(col)) badColors.push(el.className + ':' + col); });
       });
-      return { badColors: badColors.slice(0, 3), glyphs: /[✗✘❌]/.test(document.body.textContent), face: document.querySelector('.mm-keeper').innerHTML };
+      return { badColors: badColors.slice(0, 3), glyphs: /[✗✘❌]/.test(document.body.textContent), face: document.querySelector('.mm-face').outerHTML };
     });
     ok('keeper face NEVER changes with child actions', audit.face === faceBefore);
+
+    /* ⭐ THE POSE CARRIES NO VALENCE. A hand opening to receive must look the
+       same whether the child has paid EXACTLY or is nowhere near — otherwise
+       the hands become the verdict the face is forbidden to give. */
+    const poses = await page.evaluate(() => {
+      const T = MoneyMat;
+      const snap = () => document.querySelector('.mm-hands').innerHTML;
+      const out = {};
+      T.price = 45; T.tray = []; T.phase = 'paying'; T.firstWay = null; T.render();
+      out.empty = snap();
+      T.tray = [25]; T.phase = 'paying'; T._paintTray();      /* under */
+      out.under = snap();
+      T.tray = [25, 10, 10]; T.phase = 'paying'; T._paintTray();  /* EXACT */
+      out.exact = snap();
+      T.tray = [25, 25, 25]; T.phase = 'paying'; T._paintTray();  /* over */
+      out.over = snap();
+      return out;
+    });
+    ok('⭐ the keeper\'s hands are identical for an exact payment and a wrong one',
+      poses.under === poses.exact && poses.exact === poses.over,
+      JSON.stringify({ under: poses.under.slice(0, 40), exact: poses.exact.slice(0, 40) }));
+    ok('the hands do respond to the transaction (empty mat differs from a paying one)',
+      poses.empty !== poses.exact);
     ok('no alarm-red / verdict-green anywhere', audit.badColors.length === 0, audit.badColors.join('; '));
     ok('no ✗ glyphs', !audit.glyphs);
     /* over/under-pay is SILENT (no speech until exact) */

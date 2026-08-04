@@ -702,14 +702,14 @@ var MoneyMat = {
     var scene = api.el('div', 'mm-scene');
     scene.innerHTML =
       '<div class="mm-awning">' + '<span></span><span></span><span></span><span></span><span></span><span></span>' + '</div>' +
-      '<div class="mm-keeper">' + this._keeperSVG() + '</div>' +
+      '<div class="mm-keeper">' + this._keeperSVG(this._keeperPose()) + '</div>' +
       '<div class="mm-counter"></div>';
     /* item seated on the counter edge (alpha-trim, the standing rule) */
     var itemKey = this.ITEMS[this.itemIdx].k;
     var anchor = api.el('div', 'mm-item-anchor');
     var phone = false;
     try { phone = window.matchMedia('(max-width: 480px)').matches; } catch (_) {}
-    var pl = this._itemPlacement(itemKey, phone ? 72 : 120, phone ? 96 : 150);
+    var pl = this._itemPlacement(itemKey, phone ? 66 : 104, phone ? 96 : 150);
     var img = api.el('img', 'mm-item');
     img.src = this._imgUrl(itemKey);
     img.alt = this._noun(itemKey);
@@ -806,21 +806,64 @@ var MoneyMat = {
     wrap.appendChild(this._dock());
   },
 
-  _keeperSVG: function () {
-    /* a simple warm keeper: fixed gentle smile, idle blink ONLY — the
-       face NEVER reacts to child actions (no-shame audit item) */
-    return '<svg viewBox="0 0 120 150" width="110" height="138" aria-hidden="true">' +
-      /* shoulders + torso FIRST so the head sits connected on them */
-      '<path d="M24 150 L30 104 Q38 82 60 82 Q82 82 90 104 L96 150 Z" fill="#146B5E"/>' +
-      '<rect x="42" y="104" width="36" height="46" rx="6" fill="#FBF3E4" opacity="0.9"/>' +
-      '<path d="M42 108 h36" stroke="#E7DCC8" stroke-width="2"/>' +
-      '<rect x="53" y="66" width="14" height="16" rx="5" fill="#D89A6E"/>' +
-      '<circle cx="60" cy="46" r="26" fill="#E0A878"/>' +
-      '<path d="M34 42 Q60 12 86 42 Q80 24 60 22 Q40 24 34 42 Z" fill="#5A4630"/>' +
-      '<circle class="mm-eye" cx="50" cy="46" r="3" fill="#2A2A35"/>' +
-      '<circle class="mm-eye" cx="70" cy="46" r="3" fill="#2A2A35"/>' +
-      '<path d="M50 57 q10 7 20 0" stroke="#8A5A3A" stroke-width="2.6" fill="none" stroke-linecap="round"/>' +
+  /* ⭐ THE KEEPER — a half-figure the counter genuinely occludes.
+     The old one was a head and torso with no arms and no hands, clipped by
+     the counter band: viewBox 120x150 gave a 42-wide head against a 92
+     shoulder span — 72% head, a bobblehead — and only 6px of it grazed the
+     counter, hence the guillotined bust. Now 168x128 with the counter plane
+     at y=104: the head is 46% of the shoulders and the torso runs to y=128,
+     so 24 units tuck BEHIND the counter instead of being cut by it.
+
+     ⭐⭐ THE NO-SHAME LOCK IS NOW STRUCTURAL, NOT PROMISED. The face is one
+     immutable <g> — every feature in it, blink included — and the ONLY
+     thing that ever changes is a sibling <g> of hands. A hand opening to
+     receive is a stage direction with no valence: it is identical whether
+     the child paid in one coin or in eleven, and there is no code path by
+     which a child's action can reach the face at all.
+     `pose` ∈ idle | receiving | giving. */
+  _keeperSVG: function (pose) {
+    var SKIN = '#E0A878', SHADE = '#D08F63', HAIR = '#5A4630', SHIRT = '#146B5E';
+    var hands = pose === 'giving'
+      /* the near hand reaches out over the counter edge, offering */
+      ? '<path d="M104 92 q16 -6 27 4 q4 4 -1 7 q-10 6 -22 2 Z" fill="' + SKIN + '"/>'
+        + '<circle cx="131" cy="96" r="7" fill="' + SKIN + '"/>'
+      : pose === 'receiving'
+        /* open, palm up, slightly cupped */
+        ? '<path d="M40 96 q-14 -2 -20 8 q-2 5 4 6 q12 1 19 -6 Z" fill="' + SKIN + '"/>'
+          + '<path d="M20 104 q10 8 22 6" stroke="' + SHADE + '" stroke-width="2" fill="none" stroke-linecap="round"/>'
+        /* both palms flat on the counter */
+        : '<rect x="26" y="96" width="26" height="9" rx="4.5" fill="' + SKIN + '"/>'
+          + '<rect x="116" y="96" width="26" height="9" rx="4.5" fill="' + SKIN + '"/>';
+    return '<svg viewBox="0 0 168 128" width="168" height="128" aria-hidden="true">' +
+      /* torso runs PAST the counter plane (y=104) so the counter occludes it */
+      '<path d="M38 128 L44 76 Q52 58 84 58 Q116 58 124 76 L130 128 Z" fill="' + SHIRT + '"/>' +
+      '<rect x="66" y="76" width="36" height="52" rx="7" fill="#FBF3E4" opacity="0.92"/>' +
+      '<path d="M66 82 h36" stroke="#E7DCC8" stroke-width="2"/>' +
+      /* arms, which the old figure simply did not have */
+      '<path d="M46 78 q-14 8 -18 22" stroke="' + SHIRT + '" stroke-width="13" fill="none" stroke-linecap="round"/>' +
+      '<path d="M122 78 q14 8 18 22" stroke="' + SHIRT + '" stroke-width="13" fill="none" stroke-linecap="round"/>' +
+      '<g class="mm-hands">' + hands + '</g>' +
+      '<rect x="76" y="44" width="16" height="18" rx="6" fill="' + SHADE + '"/>' +
+      /* ---- THE FACE: one immutable group. Nothing below reacts, ever. ---- */
+      '<g class="mm-face">' +
+        '<circle cx="63" cy="30" r="4.5" fill="' + SKIN + '"/><circle cx="105" cy="30" r="4.5" fill="' + SKIN + '"/>' +
+        '<circle cx="84" cy="28" r="21" fill="' + SKIN + '"/>' +
+        '<path d="M63 25 Q84 -1 105 25 Q99 9 84 8 Q69 9 63 25 Z" fill="' + HAIR + '"/>' +
+        '<path d="M75 21 q3 -2 6 -0.5 M87 20.5 q3 -1.5 6 0.5" stroke="' + HAIR + '" stroke-width="1.6" fill="none" stroke-linecap="round" opacity=".75"/>' +
+        '<circle cx="76" cy="28" r="2.6" fill="#2A2A35" class="mm-eye"/>' +
+        '<circle cx="92" cy="28" r="2.6" fill="#2A2A35" class="mm-eye"/>' +
+        '<circle cx="76.9" cy="27.1" r=".8" fill="#FFF"/><circle cx="92.9" cy="27.1" r=".8" fill="#FFF"/>' +
+        '<circle cx="69" cy="34" r="3.4" fill="#E38A6E" opacity=".24"/>' +
+        '<circle cx="99" cy="34" r="3.4" fill="#E38A6E" opacity=".24"/>' +
+        '<path d="M77 36 q7 5 14 0" stroke="#8A5A3A" stroke-width="2.4" fill="none" stroke-linecap="round"/>' +
+      '</g>' +
       '</svg>';
+  },
+  /* the pose is a function of the TRANSACTION, never of correctness */
+  _keeperPose: function () {
+    if (this.phase === 'changeCount' || this.phase === 'changeDone') return 'giving';
+    if (this.trayTotal() > 0) return 'receiving';
+    return 'idle';
   },
 
   /* ⭐ THE FACE: digits big, unit mark small. The label shapes differ by
@@ -995,9 +1038,18 @@ var MoneyMat = {
     this._paintPhase();
     this._paintPurse();
   },
+  /* the hands follow the transaction between full renders. ⚠ ONLY the hands
+     — _keeperSVG rebuilds the whole figure, but the face group inside it is
+     byte-identical for every pose, so no child action can reach it. */
+  _paintKeeper: function () {
+    if (!this._wrap) return;
+    var k = this._wrap.querySelector('.mm-keeper');
+    if (k) k.innerHTML = this._keeperSVG(this._keeperPose());
+  },
   _paintTray: function () {
     var self = this;
     this._paintRail();
+    this._paintKeeper();
     if (!this._matEl) return;
     this._matEl.innerHTML = '';
     this.tray.forEach(function (v, i) {
@@ -1343,14 +1395,30 @@ var MoneyMat = {
   + '.mm-scene{position:relative;width:min(var(--mm-w,680px),94vw);height:calc(190px * var(--mm-sc,1));'
   +   'border-radius:20px 20px 0 0;overflow:hidden;'
   +   'background:linear-gradient(180deg,#FDF9F0 0%,#FBF3E4 100%);border:2px solid #E7DCC8;border-bottom:none;}'
-  + '.mm-awning{position:absolute;top:0;left:0;right:0;height:calc(34px * var(--mm-sc,1));display:flex;}'
-  + '.mm-awning span{flex:1;border-radius:0 0 14px 14px;}'
-  + '.mm-awning span:nth-child(odd){background:#F2784B;}'
-  + '.mm-awning span:nth-child(even){background:#F2C879;}'
+  /* the awning: a scalloped canopy with a valance shadow under it, rather
+     than six flat rectangles that read as a colour bar */
+  + '.mm-awning{position:absolute;top:0;left:0;right:0;height:calc(34px * var(--mm-sc,1));display:flex;'
+  +   'filter:drop-shadow(0 3px 5px rgba(90,70,48,.22));}'
+  + '.mm-awning span{flex:1;border-radius:0 0 60% 60% / 0 0 26px 26px;}'
+  + '.mm-awning span:nth-child(odd){background-color:#F2784B;}'
+  + '.mm-awning span:nth-child(even){background-color:#F2C879;}'
+  /* the rail the canopy hangs from — and what the tag's string hangs from */
+  + '.mm-awning::before{content:"";position:absolute;left:0;right:0;top:0;height:5px;'
+  +   'background-color:#B9855C;border-radius:2px;}'
+  /* the counter gains a lip and a thickness, so goods SIT on it instead of
+     floating above a flat band — and it casts a shadow back onto the wall */
   + '.mm-counter{position:absolute;left:0;right:0;bottom:0;height:calc(44px * var(--mm-sc,1));'
-  +   'background:linear-gradient(180deg,#C99B62,#B9855C);border-top:3px solid #A9814F;}'
-  + '.mm-keeper{position:absolute;right:6%;bottom:calc(38px * var(--mm-sc,1));}'
-  + '.mm-keeper svg{width:calc(110px * var(--mm-sc,1));height:calc(138px * var(--mm-sc,1));}'
+  +   'background:linear-gradient(180deg,#D2A66C 0 6%,#C99B62 6% 62%,#B9855C 62% 100%);'
+  +   'border-top:3px solid #A9814F;box-shadow:0 -6px 10px -6px rgba(90,70,48,.45);}'
+  /* the front edge, which is what gives it depth */
+  + '.mm-counter::after{content:"";position:absolute;left:0;right:0;bottom:0;height:calc(9px * var(--mm-sc,1));'
+  +   'background-color:#A9784E;box-shadow:inset 0 2px 3px rgba(60,40,24,.3);}'
+  /* a contact shadow under the goods, so the item is ON the counter */
+  + '.mm-item-anchor::after{content:"";position:absolute;left:50%;bottom:0;transform:translate(-50%,40%);'
+  +   'width:calc(96px * var(--mm-sc,1));height:calc(11px * var(--mm-sc,1));border-radius:50%;'
+  +   'background-color:rgba(90,70,48,.26);filter:blur(4px);}'
+  + '.mm-keeper{position:absolute;right:5%;bottom:calc(20px * var(--mm-sc,1));}'
+  + '.mm-keeper svg{width:calc(168px * var(--mm-sc,1));height:calc(128px * var(--mm-sc,1));display:block;}'
   + '.mm-eye{animation:mmBlink 5.2s infinite;}'
   + '@keyframes mmBlink{0%,94%,100%{transform:scaleY(1);}96%,98%{transform:scaleY(0.1);}}'
   + '.mm-keeper .mm-eye{transform-box:fill-box;transform-origin:center;}'
@@ -1523,7 +1591,7 @@ var MoneyMat = {
   /* phone */
   + '@media (max-width:480px){'
   +   '.mm-scene{height:calc(158px * var(--mm-sc,1));}'
-  +   '.mm-keeper svg{width:84px;height:105px;}'
+  +   '.mm-keeper svg{width:118px;height:90px;}'
   +   '.mm-item-anchor{left:22%;}'
   +   '.mm-tag{left:calc(22% + 52px);bottom:96px;}'
   +   '.mm-total{font-size:18px;}'

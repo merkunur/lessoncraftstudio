@@ -239,18 +239,21 @@ for (const key of Object.keys(S)) {
    and look for an immediately repeated word. ================== */
 {
   const jobs = [
-    ['cutPrompt', (L) => ({ food: 'X', n: 4, fp: T.FRAC[4].p[L] })],
+    ['cutPrompt', (L) => ({ food: S.foodPizza[L], n: 4, fp: T.FRAC[4].p[L] })],
+    ['cutPrompt/bar', (L) => ({ food: S.foodBar[L], n: 4, fp: T.FRAC[4].p[L] })],
+    ['cutPrompt/cake', (L) => ({ food: S.foodCake[L], n: 4, fp: T.FRAC[4].p[L] })],
     ['cutDone', (L) => ({ n: 4, fp: T.FRAC[4].p[L] })],
     ['pieceName', (L) => ({ fs: T.FRAC[4].s[L] })],
-    ['sharePrompt', () => ({ f: 3, food: 'X' })],
+    ['sharePrompt', (L) => ({ f: 3, food: S.foodCake[L] })],
     ['equivPrompt', (L) => ({ a: 2, small: T.FRAC[4].c[L], big: T.FRAC[2].s[L] })],
     ['equivDone', (L) => ({ a: 2, small: T.FRAC[4].c[L], big: T.FRAC[2].s[L] })]
   ];
   let rendered = 0;
   for (const [key, args] of jobs) {
-    if (!S[key]) { E(`4b: no such string "${key}"`); continue; }
+    const base = key.split('/')[0];
+    if (!S[base]) { E(`4b: no such string "${base}"`); continue; }
     for (const L of LOCALES) {
-      const tpl = S[key][L];
+      const tpl = S[base][L];
       if (!tpl) continue;
       const out = tpl.replace(/\{(\w+)\}/g, (m, k) => {
         const a = args(L);
@@ -261,7 +264,7 @@ for (const key of Object.keys(S)) {
       if (dbl) E(`4b DOUBLING: strings.${key}.${L} renders "${out}" — "${dbl[1]} ${dbl[1]}" (the template adds an article the FRAC form already carries)`);
     }
   }
-  if (rendered < 40) E(`4b NON-VACUITY: only ${rendered} template renders checked (expected ≥40)`);
+  if (rendered < 80) E(`4b NON-VACUITY: only ${rendered} template renders checked (expected ≥80)`);
 }
 
 /* =================== 5. equivalence cross-multiply ================= */

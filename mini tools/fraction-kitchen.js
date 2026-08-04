@@ -40,10 +40,10 @@ var FractionKitchen = {
     /* the 10 utterance templates — {n} count, {fp} plural, {fs} singular,
        {fc} counted form, {food} localized food name, {f} friends, {p} pieces,
        {a} amount, {small}/{big} frac forms */
-    cutPrompt:    {en:'Let’s cut the {food} into {n} equal parts — {fp}.',de:'Wir schneiden {food} in {n} gleich große Teile — {fp}.',fr:'Coupons {food} en {n} parts égales — des {fp}.',it:'Tagliamo {food} in {n} parti uguali — {fp}.',es:'Vamos a cortar {food} en {n} partes iguales — {fp}.',pt:'Vamos cortar {food} em {n} partes iguais — {fp}.',nl:'We snijden {food} in {n} gelijke stukken — {fp}.',sv:'Vi skär {food} i {n} lika stora delar — {fp}.',da:'Vi skærer {food} i {n} lige store dele — {fp}.',no:'Vi skjærer {food} i {n} like store deler — {fp}.',fi:'Leikataan {food} {n} yhtä suureen osaan — {fp}.'},
+    cutPrompt:    {en:'Let’s cut {food} into {n} equal parts — {fp}.',de:'Wir schneiden {food} in {n} gleich große Teile — {fp}.',fr:'Coupons {food} en {n} parts égales — des {fp}.',it:'Tagliamo {food} in {n} parti uguali — {fp}.',es:'Vamos a cortar {food} en {n} partes iguales — {fp}.',pt:'Vamos cortar {food} em {n} partes iguais — {fp}.',nl:'We snijden {food} in {n} gelijke stukken — {fp}.',sv:'Vi skär {food} i {n} lika stora delar — {fp}.',da:'Vi skærer {food} i {n} lige store dele — {fp}.',no:'Vi skjærer {food} i {n} like store deler — {fp}.',fi:'Leikataan {food} {n} yhtä suureen osaan — {fp}.'},
     cutDone:      {en:'{fp}! {n} equal parts.',de:'{fp}! {n} gleich große Teile.',fr:'Des {fp} ! {n} parts égales.',it:'{fp}! {n} parti uguali.',es:'¡{fp}! {n} partes iguales.',pt:'{fp}! {n} partes iguais.',nl:'{fp}! {n} gelijke stukken.',sv:'{fp}! {n} lika stora delar.',da:'{fp}! {n} lige store dele.',no:'{fp}! {n} like store deler.',fi:'{fp}! {n} yhtä suurta osaa.'},
     wobbleLine:   {en:'Hmm — those pieces aren’t the same size. Let’s find the cut that makes equal pieces.',de:'Hmm — diese Teile sind nicht gleich groß. Lass uns den Schnitt finden, der gleich große Teile macht.',fr:'Hmm — ces parts n’ont pas la même taille. Cherchons la coupe qui fait des parts égales.',it:'Mmm — queste parti non sono della stessa grandezza. Cerchiamo insieme il taglio che fa parti uguali.',es:'Mmm — esas partes no son del mismo tamaño. Busquemos el corte que haga partes iguales.',pt:'Hum… esses pedaços não ficaram do mesmo tamanho. Vamos procurar o corte que faz partes iguais.',nl:'Hmm — die stukken zijn niet even groot. Laten we de snee zoeken die gelijke stukken maakt.',sv:'Hmm — de där bitarna är inte lika stora. Vi letar efter snittet som ger lika stora delar.',da:'Hmm — stykkerne er ikke lige store. Lad os finde det snit, der giver lige store stykker.',no:'Hmm — de bitene er ikke like store. La oss finne snittet som gir like store deler.',fi:'Hmm — nuo palat eivät ole yhtä suuria. Etsitään viiva, joka tekee yhtä suuret palat.'},
-    sharePrompt:  {en:'{f} friends want to share the {food}. Give everyone a fair share.',de:'{f} Freunde wollen sich {food} teilen. Verteile die Stücke gerecht.',fr:'{f} amis veulent partager {food}. Donne à chacun une part juste.',it:'{f} amici vogliono dividersi {food}. Dai a ognuno una parte uguale.',es:'{f} amigos quieren compartir {food}. Dale a cada uno una parte justa.',pt:'{f} amigos querem dividir {food}. Dê a cada um uma parte justa.',nl:'{f} vrienden willen {food} delen. Geef iedereen een eerlijk stuk.',sv:'{f} vänner vill dela på {food}. Ge alla en rättvis del.',da:'{f} venner vil dele {food}. Giv alle en fair del.',no:'{f} venner vil dele {food}. Gi alle en rettferdig del.',fi:'Pöydässä on {food}, ja {f} ystävää haluaa jakaa sen. Anna jokaiselle reilu osuus.'},
+    sharePrompt:  {en:'{f} friends want to share {food}. Give everyone a fair share.',de:'{f} Freunde wollen sich {food} teilen. Verteile die Stücke gerecht.',fr:'{f} amis veulent partager {food}. Donne à chacun une part juste.',it:'{f} amici vogliono dividersi {food}. Dai a ognuno una parte uguale.',es:'{f} amigos quieren compartir {food}. Dale a cada uno una parte justa.',pt:'{f} amigos querem dividir {food}. Dê a cada um uma parte justa.',nl:'{f} vrienden willen {food} delen. Geef iedereen een eerlijk stuk.',sv:'{f} vänner vill dela på {food}. Ge alla en rättvis del.',da:'{f} venner vil dele {food}. Giv alle en fair del.',no:'{f} venner vil dele {food}. Gi alle en rettferdig del.',fi:'Pöydässä on {food}, ja {f} ystävää haluaa jakaa sen. Anna jokaiselle reilu osuus.'},
     shareDone:    {en:'Everyone got a fair share. Time to eat!',de:'Alle haben gleich viel bekommen. Guten Appetit!',fr:'Tout le monde a une part juste. Bon appétit !',it:'Una parte uguale per ognuno. Buon appetito!',es:'Todos tienen una parte justa. ¡A comer!',pt:'Todo mundo ganhou uma parte justa. Hora de comer!',nl:'Iedereen heeft een eerlijk stuk. Smakelijk!',sv:'Alla fick en rättvis del. Nu äter vi!',da:'Alle fik en fair del. Velbekomme!',no:'Alle fikk en rettferdig del. Nå spiser vi!',fi:'Jokainen sai reilun osuuden. Hyvää ruokahalua!'},
     shareLeftover:{en:'Everyone has one piece — and one piece is left over. Hmm!',de:'Jeder hat ein Stück — und ein Stück ist übrig. Hmm!',fr:'Tout le monde a une part — et il en reste une. Hmm !',it:'Tutti hanno una parte — e ne avanza una. Mmm!',es:'Todos tienen una parte — y sobra una. ¡Vaya!',pt:'Todo mundo tem um pedaço — e sobrou um. E agora?',nl:'Iedereen heeft een stuk — en er is één stuk over. Hmm!',sv:'Alla har en bit — och en bit blir över. Hmm!',da:'Alle har et stykke — og der er ét stykke tilovers. Hmm!',no:'Alle har en bit — og en bit er til overs. Hmm!',fi:'Jokaisella on pala — ja yksi pala jää yli. Hmm!'},
     shareEmpty:   {en:'{p} pieces, {f} friends — someone’s plate is empty!',de:'{p} Stücke, {f} Freunde — ein Teller ist leer!',fr:'{p} parts, {f} amis — une assiette est vide !',it:'{p} parti, {f} amici — un piatto resta vuoto!',es:'{p} partes, {f} amigos — ¡un plato quedó vacío!',pt:'{p} pedaços, {f} amigos — um prato ficou vazio!',nl:'{p} stukken, {f} vrienden — één bord is leeg!',sv:'{p} bitar, {f} vänner — någons tallrik är tom!',da:'{p} stykker, {f} venner — én tallerken er tom!',no:'{p} biter, {f} venner — noen har tom tallerken!',fi:'{p} palaa, {f} ystävää — jonkun lautanen on tyhjä!'},
@@ -1680,6 +1680,7 @@ var FractionKitchen = {
         var ns = self.MENU[f[0]].filter(function (n) { return self._allowed(f[0], n); });
         if (ns.indexOf(self.n) < 0) self.n = ns[0];
         self._resetCut();
+        self._sayPrompt();
       });
       r1.appendChild(chip);
     });
@@ -1761,10 +1762,17 @@ var FractionKitchen = {
     var again = api.el('button', 'frk-chip');
     again.type = 'button';
     again.textContent = api.t(this.sliced ? 'cutAgain' : 'startAgain');
-    again.addEventListener('click', function () { self._resetCut(true); });
+    again.addEventListener('click', function () { self._resetCut(true); self._sayPrompt(); });
     r2.appendChild(again);
     dock.appendChild(r2);
     return dock;
+  },
+  /* what the board is asking for right now, in words */
+  _sayPrompt: function () {
+    this._speak(this.fmt('cutPrompt', {
+      food: this._loc(this.strings['food' + this.food.charAt(0).toUpperCase() + this.food.slice(1)]),
+      n: this.n, fp: this.frac(this.n, 'p')
+    }));
   },
   _resetCut: function (keepMode) {
     this.committed = [];
@@ -1841,6 +1849,7 @@ var FractionKitchen = {
     this.story = null;
     this.equivTask = null;
     this._resetCut(true);
+    this._sayPrompt();
   },
   paint: function () {}
 };

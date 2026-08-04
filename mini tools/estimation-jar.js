@@ -76,6 +76,10 @@ var EstimationJar = {
     revealHint:   {en:'They come out in tens, and we count together.',de:'Immer zehn auf einmal – und wir zählen alle laut mit.',fr:'On les sort dix par dix, et on compte ensemble.',it:'Escono dieci alla volta e contiamo insieme.',es:'Salen de diez en diez y contamos juntos.',pt:'Saem de dez em dez e contamos juntos.',nl:'Ze komen er met tien tegelijk uit, en we tellen samen mee.',sv:'De kommer ut tio i taget och vi räknar tillsammans.',da:'De kommer ud ti ad gangen, og vi tæller højt undervejs.',no:'De kommer ut ti og ti, og vi teller sammen.',fi:'Ne tulevat ulos kymmenittäin, ja lasketaan ne ääneen.'},
     theJarHeld:   {en:'The jar held {n}.',de:'Im Glas waren {n}.',fr:'Le bocal en contenait {n}.',it:'Nel barattolo ce n’erano {n}.',es:'En el frasco había {n}.',pt:'O vidro tinha {n}.',nl:'Er zaten er {n} in.',sv:'I burken fanns det {n}.',da:'I glasset var der {n}.',no:'I glasset var det {n}.',fi:'Purkissa oli {n}.'},
     neighbourhood:{en:'Look how many of us landed in the neighborhood.',de:'Schaut mal, wie viele von uns schon ganz nah dran waren.',fr:'Regardez comme nous étions nombreux dans les parages !',it:'Guardate quante delle nostre stime erano lì intorno.',es:'Miren cuántas de nuestras ideas quedaron por esa zona.',pt:'Vejam quantos de nós ficamos aqui em volta.',nl:'Kijk eens hoeveel van ons er in de buurt zaten.',sv:'Titta så många av oss som var nära.',da:'Se, hvor mange af os der var lige i nærheden.',no:'Se så mange av oss som var i nærheten!',fi:'Katsokaa, kuinka moni meistä oli samoilla main.'},
+    /* Screen-reader only — the dot plot is a picture, and this is its
+       equivalent. A partition by sign, never a distance or a rank. */
+    spreadAria:   {en:'On the line: {below} below, {same} the same, {above} above.',de:'Auf der Linie: {below} darunter, {same} genau so, {above} darüber.',fr:'Sur la ligne : {below} en dessous, {same} pareil, {above} au-dessus.',it:'Sulla linea: {below} sotto, {same} uguali, {above} sopra.',es:'En la línea: {below} por debajo, {same} igual, {above} por encima.',pt:'Na linha: {below} abaixo, {same} igual, {above} acima.',nl:'Op de lijn: {below} eronder, {same} precies, {above} erboven.',sv:'På linjen: {below} under, {same} lika, {above} över.',da:'På linjen: {below} under, {same} lige på, {above} over.',no:'På tallinja: {below} under, {same} likt, {above} over.',fi:'Viivalla: {below} alle, {same} sama, {above} yli.'},
+    holdBack:     {en:'Press and hold to change the jar',de:'Zum Ändern des Glases gedrückt halten',fr:'Maintenir appuyé pour changer le bocal',it:'Tieni premuto per cambiare il barattolo',es:'Mantén pulsado para cambiar el frasco',pt:'Segure para mudar o vidro',nl:'Houd ingedrukt om de pot te wijzigen',sv:'Håll inne för att ändra burken',da:'Hold nede for at ændre glasset',no:'Hold inne for å endre glasset',fi:'Pidä pohjassa muuttaaksesi purkkia'},
     again:        {en:'A new jar',de:'Ein neues Glas',fr:'Un nouveau bocal',it:'Un nuovo barattolo',es:'Un frasco nuevo',pt:'Um vidro novo',nl:'Opnieuw vullen',sv:'En ny burk',da:'Et nyt glas',no:'Et nytt glass',fi:'Uusi purkki'},
 
     /* sets + premium */
@@ -164,6 +168,25 @@ var EstimationJar = {
      an object field. */
   compare: function (guess, actual) {
     return actual === guess ? 'same' : (actual > guess ? 'more' : 'fewer');
+  },
+
+  /* `compare` was DEAD CODE — declared, gate-tested, and never once
+     called in the render path. It is live here, and deliberately at the
+     one surface where it is needed rather than merely possible: the dot
+     plot is a picture, so a screen-reader user gets nothing from it. A
+     partition by SIGN is exactly what doctrine A permits — three counts,
+     no distance, no rank, no nearest, nothing about any one child — and
+     it is strictly more honest than the "neighborhood" the closing line
+     gestures at, which nothing in this tool is allowed to measure. */
+  spread: function (guesses, actual) {
+    var out = { below: 0, same: 0, above: 0 }, i, s;
+    for (i = 0; i < (guesses || []).length; i++) {
+      s = this.compare(guesses[i], actual);
+      if (s === 'same') out.same++;
+      else if (s === 'more') out.below++;   /* the jar held more, so the guess was under */
+      else out.above++;
+    }
+    return out;
   },
 
   /* DOCTRINE B — the truth is unreachable until the jar has been tipped
@@ -794,13 +817,50 @@ var EstimationJar = {
       var b = api.el('button', 'ej-stagebtn' + (self.stage === m[0] ? ' ej-on' : ''));
       b.type = 'button';
       b.textContent = api.t(m[1]);
-      b.addEventListener('click', function () {
+      var go = function () {
         /* moving back from reveal starts a fresh jar — the truth never
            travels backwards into an estimating stage */
         if (m[0] !== 'reveal' && self.stage === 'reveal') { self._newJar(); return; }
         if (m[0] === 'reveal') { self._reveal(); return; }
         self.stage = m[0]; self.render();
-      });
+      };
+      /* ⚠ THE SECRET WAS ONE TAP AWAY FROM THE CLASS. The stage strip is
+         always live and the fill face renders the count as a 34px
+         numeral, so any child could tap "Fill the jar" and read the
+         answer off the board — defeating at the interaction layer the
+         thing revealedCount() throws to protect at the model layer.
+         Going BACK to the fill face now needs a deliberate press-and-
+         hold, which is the only teacher-gesture convention this catalog
+         has (number-talk-easel's hold-to-peek). Forward is still a tap;
+         only the door to the secret is heavy. */
+      if (m[0] === 'fill') {
+        var held = null, fired = false;
+        b.setAttribute('title', api.t('holdBack'));
+        b.addEventListener('pointerdown', function () {
+          if (self.stage === 'fill') return;
+          fired = false;
+          b.classList.add('ej-holding');
+          held = setTimeout(function () { fired = true; b.classList.remove('ej-holding'); go(); }, 550);
+        });
+        ['pointerup', 'pointerleave', 'pointercancel'].forEach(function (ev) {
+          b.addEventListener(ev, function () { clearTimeout(held); b.classList.remove('ej-holding'); });
+        });
+        b.addEventListener('click', function () {
+          if (self.stage === 'fill') return;
+          if (fired) { fired = false; return; }
+          /* a tap says what it wants and refuses; it does not open */
+          self.api.announce(api.t('holdBack'));
+          b.classList.add('ej-nudge');
+          setTimeout(function () { b.classList.remove('ej-nudge'); }, 420);
+        });
+        /* keyboard: a deliberate, reachable equivalent of the hold */
+        b.addEventListener('keydown', function (e) {
+          if (self.stage === 'fill') return;
+          if (e.key === 'Enter' && e.shiftKey) { go(); e.preventDefault(); }
+        });
+      } else {
+        b.addEventListener('click', go);
+      }
       strip.appendChild(b);
     });
     wrap.appendChild(strip);
@@ -1172,10 +1232,16 @@ var EstimationJar = {
     art.style.aspectRatio = dishW + '/96';
 
     var back = api.el('div', 'ej-layer');
+    /* ⚠ The rim belongs BEHIND the contents. Drawn in the front layer it
+       cut a line straight across the front row of cherries, which reads
+       as a plate slicing through them rather than a dish holding them.
+       Only the cast shadow stays in front. */
     back.innerHTML = '<svg viewBox="0 0 ' + dishW + ' 96" aria-hidden="true">'
       + '<path d="M' + (cx - 0.44 * dishW) + ' 52 C' + (cx - 0.44 * dishW) + ' 76 '
       + (cx - 0.25 * dishW) + ' 86 ' + cx + ' 86 C' + (cx + 0.25 * dishW) + ' 86 '
-      + (cx + 0.44 * dishW) + ' 76 ' + (cx + 0.44 * dishW) + ' 52 Z" fill="#146B5E" fill-opacity="0.045"/>'
+      + (cx + 0.44 * dishW) + ' 76 ' + (cx + 0.44 * dishW) + ' 52 Z" fill="#146B5E" fill-opacity="0.05"/>'
+      + '<ellipse cx="' + cx + '" cy="52" rx="' + (0.44 * dishW) + '" ry="9" fill="none" '
+      + 'stroke="#146B5E" stroke-opacity="0.38" stroke-width="3" vector-effect="non-scaling-stroke"/>'
       + '</svg>';
     art.appendChild(back);
 
@@ -1186,8 +1252,10 @@ var EstimationJar = {
     var front = api.el('div', 'ej-layer');
     front.innerHTML = '<svg viewBox="0 0 ' + dishW + ' 96" role="img" aria-label="'
       + this._esc(this.fmt('benchAria', { n: 10 })) + '">'
-      + '<ellipse cx="' + cx + '" cy="52" rx="' + (0.44 * dishW) + '" ry="9" fill="none" '
-      + 'stroke="#146B5E" stroke-opacity="0.38" stroke-width="3" vector-effect="non-scaling-stroke"/>'
+      + '<path d="M' + (cx - 0.44 * dishW) + ' 60 C' + (cx - 0.40 * dishW) + ' 80 '
+      + (cx - 0.25 * dishW) + ' 86 ' + cx + ' 86 C' + (cx + 0.25 * dishW) + ' 86 '
+      + (cx + 0.40 * dishW) + ' 80 ' + (cx + 0.44 * dishW) + ' 60" fill="none" stroke="#146B5E" '
+      + 'stroke-opacity="0.30" stroke-width="3" vector-effect="non-scaling-stroke"/>'
       + '<ellipse cx="' + cx + '" cy="89" rx="' + (0.34 * dishW) + '" ry="4" fill="#146B5E" opacity="0.10"/>'
       + '</svg>';
     art.appendChild(front);
@@ -1553,24 +1621,44 @@ var EstimationJar = {
      NO inset, so a dot at left:(v/max*100)% sits exactly on its tick.
      (The free number-line tool insets its ticks by 18/1000 but positions
      its marker in container %, which drifts ~1.8% — do not copy that.) ---- */
+  /* The display bin. The DATA is always stored exact — binning is a
+     rendering choice, and it buys anonymity as well as legibility: a
+     lone dot at an extreme value is self-identifying to the child who
+     said it, and at K-2 anonymity wins the tie. */
+  binWidthFor: function (max) {
+    if (max <= 30) return 1;
+    if (max <= 60) return 2;
+    if (max <= 120) return 5;
+    return 10;
+  },
+
   _buildLine: function (withTruth) {
     var self = this, api = this.api;
     var max = this.ceiling();
     var wrap = api.el('div', 'ej-linewrap');
 
     var step = max <= 30 ? 5 : (max <= 60 ? 10 : (max <= 120 ? 20 : 25));
-    var svg = ['<svg class="ej-line" viewBox="0 0 1000 80" preserveAspectRatio="none" aria-hidden="true">',
-      '<line class="ej-axis" x1="0" y1="44" x2="1000" y2="44"/>'];
+    /* ⚠ THE TICK LABELS USED TO LIVE INSIDE THIS SVG, which carries
+       preserveAspectRatio="none" — so a 1000-unit box drawn at 600px
+       squashed every glyph to 0.6x and the declared `font: 600 22px`
+       meant nothing, because it was in stretched user units. They are
+       HTML spans now. (That also retires the second `.ej-lbl` rule; the
+       class was declared twice for two different elements, and the later
+       `font:` shorthand silently won for both.) */
+    var svg = ['<svg class="ej-line" viewBox="0 0 1000 150" preserveAspectRatio="none" aria-hidden="true">',
+      '<line class="ej-axis" x1="0" y1="96" x2="1000" y2="96" vector-effect="non-scaling-stroke"/>'];
+    var ticks = [];
     for (var i = 0; i <= max; i += step) {
       var x = (i / max) * 1000;
       var bench = (i === 0 || i === max || (max > 60 && i % (step * 2) === 0));
-      svg.push('<line class="ej-tick' + (bench ? ' ej-bench' : '') + '" x1="' + x + '" y1="' + (bench ? 22 : 30) + '" x2="' + x + '" y2="58"/>');
-      svg.push('<text class="ej-lbl" x="' + Math.max(14, Math.min(986, x)) + '" y="76" text-anchor="middle">' + i + '</text>');
+      svg.push('<line class="ej-tick' + (bench ? ' ej-bench' : '') + '" x1="' + x + '" y1="'
+        + (bench ? 84 : 90) + '" x2="' + x + '" y2="112" vector-effect="non-scaling-stroke"/>');
+      ticks.push('<span class="ej-ticklbl" style="left:' + ((i / max) * 100) + '%">' + i + '</span>');
     }
     svg.push('</svg>');
 
     var track = api.el('div', 'ej-track');
-    track.innerHTML = svg.join('');
+    track.innerHTML = svg.join('') + '<div class="ej-ticks">' + ticks.join('') + '</div>';
     this._trackEl = track;
 
     track.addEventListener('click', function (e) {
@@ -1609,19 +1697,70 @@ var EstimationJar = {
     el.innerHTML = '';
     var i, d;
     var live = this.liveGuesses();
-    /* committed guesses — anonymous, identical, unordered */
+
+    /* ⚠ v1 placed dot i at `top = 14 + (i % 3) * 13` — a three-row cycle
+       keyed to ARRIVAL ORDER, not to value. So it was not a dot plot at
+       all (the copy sells one by name), the distribution was unreadable,
+       the fourth guess at a value landed exactly on the first, and the
+       vertical position encoded the very order the copy promises is
+       absent. In a room where children come up one at a time, that is a
+       name tag on an anonymous record.
+
+       A real dot plot: stacked by VALUE, growing UPWARD away from the
+       tick labels, one dot per guess, none ever dropped. */
+    var bw = this.binWidthFor(max);
+    var bins = {}, key;
     for (i = 0; i < live.length; i++) {
-      d = api.el('span', 'ej-dot');
-      d.style.left = ((live[i] / max) * 100) + '%';
-      d.style.top = (14 + (i % 3) * 13) + 'px';
-      el.appendChild(d);
+      key = Math.round(live[i] / bw) * bw;
+      (bins[key] = bins[key] || []).push(live[i]);
     }
+
+    /* the dots rest just clear of the axis, not across the tick marks */
+    var AXIS = 92, BAND = 86;
+    for (key in bins) {
+      if (!Object.prototype.hasOwnProperty.call(bins, key)) continue;
+      var col = bins[key], n = col.length;
+      var base = 13;
+      var pitch = base * 0.82;
+      /* compress rather than badge or drop: a "+7" chip would introduce
+         a number that is not an estimate and reads as a score, and
+         capping would make a child's guess silently vanish. Past about
+         thirty in one bin the column becomes a solid bar, which is
+         honest and instantly readable — loads of us said twelve. */
+      if (n > 1) pitch = Math.max(base * 0.34, Math.min(pitch, (BAND - base) / (n - 1)));
+      for (i = 0; i < n; i++) {
+        d = api.el('span', 'ej-dot');
+        d.style.left = ((Number(key) / max) * 100) + '%';
+        d.style.top = (AXIS - base - i * pitch) + 'px';
+        el.appendChild(d);
+      }
+    }
+
+    /* ⚠ THE PENDING MARKER IS A CARET ON THE AXIS, NOT A DOT IN THE
+       STACK. A bobbing dot sitting in the plot broadcast the current
+       child's choice to the whole room in real time, which is precisely
+       what "nobody on the spot" is supposed to prevent. The caret shows
+       the child where they are pointing; committing FILLS a dot into the
+       column, and from that moment it is indistinguishable. */
     if (this.pending !== null && this.stage === 'guess') {
       d = api.el('span', 'ej-dot ej-pending');
       d.style.left = ((this.pending / max) * 100) + '%';
       el.appendChild(d);
     }
+
+    /* ⚠ THE TRUTH IS A RULE, NOT A PILL. Coral is this system's single
+       ACTION colour, so a coral pill among plain dots reads as "click
+       me" or, worse, as "the right answer" — a trophy. A vertical teal
+       line is a reading aid: it passes THROUGH the dots without hiding
+       any, so the room can see how many sit either side, which is what
+       makes the closing line legible on screen.
+       ⚠ Nothing may tint, scale, ring or otherwise mark a dot by its
+       proximity to this line. That is a distance gradient, it is the
+       tempting move here, and it is banned. */
     if (this._showTruth && this.stage === 'reveal') {
+      var rule = api.el('span', 'ej-truthrule');
+      rule.style.left = ((this.count / max) * 100) + '%';
+      el.appendChild(rule);
       var t = api.el('span', 'ej-truth');
       t.style.left = ((this.count / max) * 100) + '%';
       t.textContent = String(this.count);
@@ -1671,7 +1810,12 @@ var EstimationJar = {
     this._after(t + 320, function () {
       self._paintDots();
       var line = self.fmt('theJarHeld', { n: self.count });
-      self.api.announce(line + ' ' + self.api.t('neighbourhood'));
+      var sp = self.spread(self.liveGuesses(), self.count);
+      var aria = line + ' ' + self.api.t('neighbourhood');
+      if (sp.below + sp.same + sp.above > 0) {
+        aria += ' ' + self.fmt('spreadAria', { below: sp.below, same: sp.same, above: sp.above });
+      }
+      self.api.announce(aria);
       self._speakLine(self.api.t('neighbourhood'));
       var el = self._wrap && self._wrap.querySelector('.ej-closing');
       if (el) { el.textContent = line + ' ' + self.api.t('neighbourhood'); el.classList.add('ej-show'); }
@@ -1911,6 +2055,10 @@ function injectEstimationJarCSS() {
     + '.ej-stagebtn{font:600 14px/1 Nunito,system-ui,sans-serif;color:#146B5E;background:#FFFDF7;border:2px solid #146B5E22;'
     + 'border-radius:999px;padding:10px 15px;min-height:44px;cursor:pointer}'
     + '.ej-stagebtn.ej-on{background:#146B5E;color:#FFFDF7;border-color:#146B5E}'
+    /* the hold-to-go-back gesture, shown rather than described */
+    + '.ej-stagebtn.ej-holding{background:#FFF3DC;border-color:#F2784B;transition:background .5s linear}'
+    + '.ej-stagebtn.ej-nudge{animation:ej-shake .4s ease}'
+    + '@keyframes ej-shake{25%{transform:translateX(-3px)}75%{transform:translateX(3px)}}'
 
     + '.ej-card{position:relative;width:100%;max-width:640px;margin-inline:auto;background:#FFFDF7;'
     + 'border:2px solid #146B5E22;border-radius:22px;padding:18px 16px 16px;'
@@ -1979,22 +2127,39 @@ function injectEstimationJarCSS() {
        alignment is preserved by construction rather than by arithmetic.
        (This is why the free number-line tool drifts: it insets its ticks
        inside the viewBox but positions its marker in container %.) */
-    + '.ej-linewrap{--ej-in:24px;width:100%;max-width:600px;padding:6px 4px 2px}'
-    + '.ej-track{position:relative;box-sizing:border-box;width:100%;height:96px;'
+    + '.ej-linewrap{--ej-in:24px;width:100%;max-width:640px;padding:6px 4px 2px}'
+    /* 96px was a three-row cycle's worth of room. A real dot plot needs a
+       band to stack in: 90px of dots above the axis, 54px of axis and
+       labels below it. */
+    + '.ej-track{position:relative;box-sizing:border-box;width:100%;height:150px;'
     + 'padding-inline:var(--ej-in);cursor:pointer}'
-    + '.ej-line{width:100%;height:80px;display:block;overflow:visible}'
+    + '.ej-line{width:100%;height:150px;display:block;overflow:visible}'
     + '.ej-axis{stroke:#146B5E;stroke-width:3}'
     + '.ej-tick{stroke:#146B5E66;stroke-width:2}'
     + '.ej-tick.ej-bench{stroke:#146B5E;stroke-width:3}'
-    + '.ej-lbl{font:600 22px Nunito,system-ui,sans-serif;fill:#7A6A55}'
-    + '.ej-dots{position:absolute;left:var(--ej-in);top:0;right:var(--ej-in);height:96px;pointer-events:none}'
-    + '.ej-dot{position:absolute;width:13px;height:13px;border-radius:50%;background:#9CC3E5;'
+    + '.ej-ticks{position:absolute;left:var(--ej-in);right:var(--ej-in);top:0;bottom:0;pointer-events:none}'
+    + '.ej-ticklbl{position:absolute;top:116px;transform:translateX(-50%);'
+    + 'font:600 clamp(12px,2.6vw,15px)/1 Nunito,system-ui,sans-serif;color:#7A6A55;white-space:nowrap}'
+    + '.ej-dots{position:absolute;left:var(--ej-in);top:0;right:var(--ej-in);height:150px;pointer-events:none}'
+    /* "a plain grey dot" is what the published copy promises, so grey it
+       is — a warm grey between the house muted and faint tones, so it
+       reads grey rather than brown on cream, and dark enough to be seen
+       from the back of a room (the house `faint` vanishes there). */
+    + '.ej-dot{position:absolute;width:13px;height:13px;border-radius:50%;background:#8C8378;'
     + 'border:2px solid #FFFDF7;transform:translate(-50%,0);top:14px}'
-    + '.ej-dot.ej-pending{background:#F2C94C;width:17px;height:17px;top:8px;animation:ej-bob .5s ease-in-out infinite alternate}'
+    /* hollow, same footprint: an outline is the universal not-yet
+       signal, and because the footprint is identical, committing is a
+       FILL rather than a change of object */
+    + '.ej-dot.ej-pending{background:transparent;border:3px solid #146B5E;width:15px;height:15px;'
+    + 'top:104px;animation:ej-bob .5s ease-in-out infinite alternate}'
     + '@keyframes ej-bob{to{transform:translate(-50%,-4px)}}'
-    + '.ej-truth{position:absolute;top:52px;transform:translate(-50%,0);background:#F2784B;color:#FFFDF7;'
-    + 'font:700 14px/1 Nunito,system-ui,sans-serif;padding:5px 9px;border-radius:999px;animation:ej-drop .4s ease}'
-    + '@keyframes ej-drop{from{opacity:0;transform:translate(-50%,-14px)}}'
+    + '.ej-truthrule{position:absolute;left:0;top:4px;height:98px;width:2px;background:#146B5E;'
+    + 'opacity:.85;transform:translateX(-50%);transform-origin:top;animation:ej-rule .38s ease}'
+    + '@keyframes ej-rule{from{transform:translateX(-50%) scaleY(0)}}'
+    + '.ej-truth{position:absolute;top:112px;transform:translate(-50%,0);background:#FFFDF7;color:#146B5E;'
+    + 'border:2px solid #146B5E;font:700 14px/1 "Baloo 2",Nunito,system-ui,sans-serif;padding:4px 9px;'
+    + 'border-radius:999px;animation:ej-drop .4s ease .16s backwards}'
+    + '@keyframes ej-drop{from{opacity:0;transform:translate(-50%,-8px)}}'
 
     /* ten-frames */
     + '.ej-frames{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;min-height:60px;width:100%}'

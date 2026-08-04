@@ -97,10 +97,21 @@ const SHOTS = WIDE
       await page.screenshot({ path: path.join(OUT, name) });
       written.push(name);
 
-      /* the guess face, where the jar sits beside the line */
+      /* the guess face, with a real class's worth of dots on the plot —
+         an empty plot proves nothing about a plot */
       await page.evaluate(() => {
         const T = window.EstimationJar;
-        if (T) { T.stage = 'guess'; T.render(); }
+        if (!T) return;
+        T.stage = 'guess';
+        const q = T.questionId();
+        const cap = T.ceiling();
+        /* a plausible distribution: clustered low, a couple of outliers */
+        const vals = [4, 8, 9, 11, 12, 12, 12, 13, 14, 15, 15, 16, 18, 20, 22, 24, 25, 28]
+          .map(v => Math.min(cap, Math.round(v * cap / 30)));
+        T.guesses = vals.map(v => ({ v, q }));
+        T._qid = q;
+        T.pending = Math.round(cap * 0.62);
+        T.render();
       });
       await new Promise(r => setTimeout(r, 700));
       const name2 = `guess-${w}${cap ? '-' + cap : ''}${count ? '-n' + count : ''}.png`;

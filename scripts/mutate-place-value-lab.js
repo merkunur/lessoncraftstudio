@@ -110,16 +110,37 @@ const M = [
     'engineValue: function (st) { return st.h * 100 + st.t * 10 + st.o; },',
     'engineValue: function (st) { return st.h * 100 + st.t * 9 + st.o; },'],
 
-  /* ---- the subtract grader — the break is load-bearing ---------------- */
-  ['the grader stops requiring the break',
-    'return this.engineValue(st) === a - b && st._decomposed === true && st.o <= 9 && st.t <= 9;',
-    'return this.engineValue(st) === a - b && st.o <= 9 && st.t <= 9;'],
-  ['the grader accepts a non-canonical mat',
-    'return this.engineValue(st) === a - b && st._decomposed === true && st.o <= 9 && st.t <= 9;',
-    'return this.engineValue(st) === a - b && st._decomposed === true;'],
+  /* ---- the subtract grader: it must judge the METHOD --------------- */
+  ['the grader stops caring whether a regroup was needed',
+    'if (st._decomposed !== needed) return false;', ''],
+  ['the grader demands a break on EVERY problem again',
+    'if (st._decomposed !== needed) return false;', 'if (st._decomposed !== true) return false;'],
+  ['⭐ the removal record goes unread again — the grade is a value and a flag',
+    'if ((rec.removedT * 10 + rec.removedO) !== b) return false;', ''],
+  ['the removal record is compared to the wrong number',
+    'if ((rec.removedT * 10 + rec.removedO) !== b) return false;',
+    'if ((rec.removedT * 10 + rec.removedO) !== a) return false;'],
+  ['the grader stops requiring a tidy mat',
+    'if (st.o > 9 || st.t > 9) return false;', ''],
+  ['the grader accepts a wrong difference',
+    'if (this.engineValue(st) !== a - b) return false;', ''],
+  ['⭐ the borrow test reads the wrong digits',
+    'var needed = (b % 10) > (a % 10);', 'var needed = (a % 10) > (b % 10);'],
   ['canonical stops noticing a full tens column',
     'engineCanonical: function (st) { return st.o <= 9 && st.t <= 9; },',
     'engineCanonical: function (st) { return st.o <= 9; },'],
+  ['⭐ every subtraction problem forces a borrow again — the decision is taken away',
+    'var bo = 1 + Math.floor(Math.random() * 8);           /* 1-8, free */',
+    'var bo = ao + 1 + Math.floor(Math.random() * (9 - ao));'],
+  /* ⚠ re-anchored: this needle used to span the line BELOW it too, and
+     went blind the moment a comment was inserted between them. Anchor on
+     the smallest unique piece of CODE. */
+  ['the blocks to remove are pre-marked again — the thinking is handed over',
+    'this._marked = null;\n    /* ⚠ the subRemove note',
+    'this._marked = { tens: bt, ones: bo };\n    /* ⚠ the subRemove note'],
+  ['⚠ adding is allowed in the subtract lab again',
+    "if (this.mode !== 'sub') {\n      var add = api.el('button', 'pvl-add pvl-hue-' + pl);",
+    "if (true) {\n      var add = api.el('button', 'pvl-add pvl-hue-' + pl);"],
 
   /* ---- I3 · the theorem: the spans must partition the VALUE ----------- */
   ['⭐ a German ones span names nothing — a lump wearing a part name',
@@ -171,6 +192,18 @@ const M = [
   enNeedle('colTens', '', 'an English column label goes empty'),
 ];
 
+/* the mutations a DOM-free gate cannot see — routed to local-test.
+   ⚠ Every name here MUST exist in M, or the routing is a no-op that
+   silently sends a DOM mutation to the blind gate again. */
+const DOM_MUTATIONS = new Set([
+  '⭐ every subtraction problem forces a borrow again — the decision is taken away',
+  'the blocks to remove are pre-marked again — the thinking is handed over',
+  '⚠ adding is allowed in the subtract lab again',
+]);
+for (const n of DOM_MUTATIONS) {
+  if (!M.some((m) => m[0] === n)) throw new Error(`DOM_MUTATIONS names "${n}", which is not in M — the routing would be a no-op`);
+}
+
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'pvl-mut-'));
 for (const f of CARRY) fs.copyFileSync(path.join(TOOLS, f), path.join(tmp, f));
 
@@ -183,10 +216,18 @@ for (const [name, from, to] of M) {
   if (mutated === SRC) { harness.push(`${name} — INERT (the patch changed nothing)`); continue; }
   fs.writeFileSync(path.join(tmp, 'place-value-lab.js'), mutated, 'utf8');
   let died = false, why = '';
+  /* ⭐ ROUTE TO THE GATE THAT CAN SEE IT. Three of these mutations live
+     in _nextSub and _buildCol — whether a problem forces a borrow,
+     whether the blocks arrive pre-marked, whether the add buttons render
+     in the subtract lab. A DOM-free gate is structurally blind to all
+     three, so they SURVIVED, and the honest fix is to run them against
+     the browser gate rather than to drop them from the list and report
+     a clean sweep. */
+  const gate = DOM_MUTATIONS.has(name) ? 'local-test-place-value-lab.js' : 'verify-place-value-lab.js';
   try {
-    execFileSync(process.execPath, [path.join(__dirname, 'verify-place-value-lab.js')], {
+    execFileSync(process.execPath, [path.join(__dirname, gate)], {
       env: Object.assign({}, process.env, { PVL_TOOL_DIR: tmp }),
-      timeout: TIMEOUT, stdio: 'pipe'
+      timeout: gate === 'verify-place-value-lab.js' ? TIMEOUT : 180000, stdio: 'pipe'
     });
   } catch (e) {
     died = true;

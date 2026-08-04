@@ -27,7 +27,8 @@ const fs = require('fs');
 const path = require('path');
 const puppeteer = require('puppeteer');
 const REPO = path.join(__dirname, '..');
-const MINI = path.join(REPO, 'mini tools');
+/* env indirection so mutate- can point this gate at a mutated COPY */
+const MINI = process.env.PVL_TOOL_DIR || path.join(REPO, 'mini tools');
 const OUT = path.join(REPO, 'docs', 'audit-results', 'place-value-lab', 'qa');
 fs.mkdirSync(OUT, { recursive: true });
 const MIME = { '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.html': 'text/html' };
@@ -483,6 +484,42 @@ function serve() {
   else if (!/\d/.test(kp.typed)) FAIL(`keypad: typing two digits produced "${kp.typed}"`);
   else if (/\d/.test(kp.after)) FAIL(`keypad: Clear left "${kp.after}" on the display`);
   else OK(`keypad: typed "${kp.typed}" → Clear emptied it (${kp.n} digit keys)`);
+
+  /* ---------- O. the Subtract lab actually asks a question ------------
+     Three fixes the pure gate structurally cannot see, because they live
+     in _nextSub and _buildCol rather than in the model. */
+  console.log('\nO. Subtract lab: the decision, the marks, the verbs');
+  await page.setViewport({ width: 1024, height: 900 });
+  await page.goto(BASE + '?lang=en', { waitUntil: 'networkidle0' });
+  const subLab = await page.evaluate(() => {
+    const T = window.PlaceValueLab;
+    T.premium = true; T._userGestured = true; T._setMode('sub');
+    /* roll a lot of problems and look at the SPREAD */
+    let needs = 0, doesnt = 0, marked = 0;
+    for (let i = 0; i < 300; i++) {
+      T._nextSub();
+      if (T._subBorrowNeeded()) needs++; else doesnt++;
+      if (T._marked) marked++;
+    }
+    T._nextSub();
+    return {
+      needs, doesnt, marked,
+      adds: document.querySelectorAll('.pvl-add').length,
+      addsInBuild: (T._setMode('build'), document.querySelectorAll('.pvl-add').length),
+    };
+  });
+  /* ⭐ the decision must EXIST. Every problem used to force a borrow, so
+     "do I need to regroup?" — which is the whole of 2.NBT.B.7 — was
+     answered before the child arrived. A 300-roll sample with fewer than
+     50 of either kind is not a decision, it is a formality. */
+  if (subLab.needs < 50 || subLab.doesnt < 50) FAIL(`sub: ${subLab.needs} need a borrow, ${subLab.doesnt} do not — the child never gets to decide`);
+  else OK(`sub: ${subLab.needs} of 300 need a regroup, ${subLab.doesnt} do not — the question is real`);
+  if (subLab.marked) FAIL(`sub: ${subLab.marked} of 300 problems pre-marked the blocks to remove`);
+  else OK('sub: nothing is pre-marked — working out what to take away is the task');
+  if (subLab.adds) FAIL(`sub: ${subLab.adds} add button(s) render in the subtract lab — a child can add their way to the answer`);
+  else OK('sub: no add buttons — the only verbs are remove and regroup');
+  if (!subLab.addsInBuild) FAIL('build mode lost its add buttons');
+  else OK(`build: ${subLab.addsInBuild} add buttons return`);
 
   /* ---------- close ---------- */
   const realErrs = pageErrs.filter((e) => !/404|Failed to load/.test(e));

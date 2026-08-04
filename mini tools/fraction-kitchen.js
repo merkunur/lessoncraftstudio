@@ -698,7 +698,13 @@ var FractionKitchen = {
       g.style.touchAction = 'none';
       var start = null, fly = null, moved = false;
       g.addEventListener('pointerdown', function (e) {
-        if (!e.isPrimary || self.mode !== 'share' && self.mode !== 'equiv') {
+        /* SHARE ONLY. The tray station draws its pieces from its own
+           supply row (_traysRow → _wireSupply), never from the board —
+           the board's food and the task's food are independent (the
+           task may be a bar while the board is a pizza), so a board
+           piece has no meaning in the tray. This branch used to admit
+           'equiv' and call a _dropOnTray() that was never written. */
+        if (!e.isPrimary || self.mode !== 'share') {
           if (e.isPrimary && self.api.settings.speakNames) self._speak(self.fmt('pieceName', { fs: self.frac(self.n, 's') }));
           return;
         }
@@ -729,8 +735,7 @@ var FractionKitchen = {
         g.classList.remove('dragging');
         self._clearHot();
         if (!wasMoved) return;
-        if (self.mode === 'share') self._dropOnPlate(Number(g.dataset.piece), e.clientX, e.clientY);
-        else self._dropOnTray(Number(g.dataset.piece), e.clientX, e.clientY);
+        self._dropOnPlate(Number(g.dataset.piece), e.clientX, e.clientY);
       };
       g.addEventListener('pointerup', up);
       g.addEventListener('pointercancel', up);

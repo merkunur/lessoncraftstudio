@@ -87,6 +87,9 @@ var EstimationJar = {
 
     /* settings */
     setVoice:     {en:'Count aloud',de:'Laut mitzählen',fr:'Compter à voix haute',it:'Conta ad alta voce',es:'Contar en voz alta',pt:'Contar em voz alta',nl:'Hardop meetellen',sv:'Räkna högt',da:'Tæl højt',no:'Tell høyt',fi:'Laske ääneen'},
+    setBench:     {en:'Show ten to compare',de:'Zehn zum Vergleichen zeigen',fr:'Montrer dix pour comparer',it:'Mostra dieci per confrontare',es:'Mostrar diez para comparar',pt:'Mostrar dez para comparar',nl:'Tien laten zien om te vergelijken',sv:'Visa tio att jämföra med',da:'Vis ti at sammenligne med',no:'Vis ti å sammenligne med',fi:'Näytä kymmenen vertailuksi'},
+    setOnes:      {en:'Always count by ones',de:'Immer in Einerschritten zählen',fr:'Toujours compter un par un',it:'Conta sempre uno a uno',es:'Contar siempre de uno en uno',pt:'Contar sempre de um em um',nl:'Altijd één voor één tellen',sv:'Räkna alltid ett i taget',da:'Tæl altid én ad gangen',no:'Tell alltid én om gangen',fi:'Laske aina yksi kerrallaan'},
+    benchAria:    {en:'A dish holding {n} of them, to compare with',de:'Eine Schale mit {n} davon zum Vergleichen',fr:'Une coupelle contenant {n} d’entre eux, pour comparer',it:'Una ciotola con {n} di questi, per confrontare',es:'Un plato con {n} de ellos, para comparar',pt:'Um prato com {n} deles, para comparar',nl:'Een schaaltje met {n} ervan, om mee te vergelijken',sv:'En skål med {n} av dem att jämföra med',da:'En skål med {n} af dem at sammenligne med',no:'En skål med {n} av dem å sammenligne med',fi:'Kulho, jossa on {n} niistä vertailua varten'},
     setSeason:    {en:'Suggest by season',de:'Nach Jahreszeit vorschlagen',fr:'Proposer selon la saison',it:'Proponi per stagione',es:'Sugerir por temporada',pt:'Sugerir por estação',nl:'Voorstellen per seizoen',sv:'Föreslå efter årstid',da:'Foreslå efter årstid',no:'Foreslå etter årstid',fi:'Ehdota vuodenajan mukaan'},
 
     /* Morning Circle suite footer — opened by this tool (the fifth) */
@@ -116,8 +119,15 @@ var EstimationJar = {
     ]
   },
 
-  defaults: { voice: true, season: true },
+  /* `bench` defaults ON: the published classroom idea calls benchmarking
+     "the real estimation skill", and a default is what most teachers
+     ship with. It is never gated — the referent is the mathematics, not
+     the depth. `ones` defaults OFF, where the count-by-ones threshold
+     (20) applies; a K teacher with a jar of 28 turns it on. */
+  defaults: { voice: true, season: true, bench: true, ones: false },
   settings: [
+    { key: 'bench', type: 'toggle', labelKey: 'setBench' },
+    { key: 'ones', type: 'toggle', labelKey: 'setOnes' },
     { key: 'voice', type: 'toggle', labelKey: 'setVoice' },
     { key: 'season', type: 'toggle', labelKey: 'setSeason' }
   ],
@@ -490,6 +500,39 @@ var EstimationJar = {
     return out;
   },
 
+  /* =================================================================
+     THE REVEAL, AS BEATS.
+
+     v1 spoke `runningTotals` — for the default jar of twelve that was
+     "ten … twelve", which skips the exact move the tool exists to teach
+     and does not instantiate K.CC.B.5 at all. The count has to COUNT ON
+     through the leftovers: "…thirty, thirty-one, thirty-two."
+
+     And below about twenty, tens are the wrong reveal outright: a
+     Kindergarten class counting a jar of seventeen should watch it go in
+     one at a time, which is where a ten comes FROM. Twenty is the
+     boundary because it is the K ceiling in K.CC.B.5 and the top of the
+     "ten and some ones" band in 1.NBT.B.2.
+
+     Each beat says how many objects land and what the room says when
+     they do — so the same list drives the frames, the spoken number and
+     the rendered tally, and they cannot drift apart.
+     ================================================================= */
+  ONES_MAX: 20,
+  revealBeats: function (n, alwaysOnes) {
+    var N = Math.max(0, Math.floor(n || 0));
+    var out = [], t = 0, i;
+    if (!N) return out;
+    if (alwaysOnes || N <= this.ONES_MAX) {
+      for (i = 0; i < N; i++) { t += 1; out.push({ add: 1, total: t }); }
+      return out;
+    }
+    var tens = Math.floor(N / 10), rem = N - tens * 10;
+    for (i = 0; i < tens; i++) { t += 10; out.push({ add: 10, total: t }); }
+    for (i = 0; i < rem; i++) { t += 1; out.push({ add: 1, total: t }); }
+    return out;
+  },
+
   /* month -> seasonal keys, nearest first (seasonal-hub.ts:351-359) */
   seasonsByProximity: function (month) {
     var self = this, keys = [];
@@ -685,13 +728,45 @@ var EstimationJar = {
      the board shows 21, the room hears einundzwanzig.
      ================================================================= */
 
+  /* ⚠ TTS is reliable in about five of eleven locales here — LCSAudio
+     never calls getVoices() and silently substitutes a missing voice, so
+     Finnish gets read with German phonology or nothing at all. The guard
+     below is deliberately PERMISSIVE (an empty voice list means "not
+     loaded yet", so let TTS try) and it is the choral-counting shape.
+
+     The ordering is the load-bearing part: `announce` fires BEFORE the
+     guard and before the setting check, so the screen reader gets the
+     count even when the voice is refused or muted. Sound may confirm;
+     it may never carry. The rendered tally is what actually carries. */
+  _voiceOk: function () {
+    if (this._voiceState != null) return this._voiceState;
+    var ok = true;
+    try {
+      if (!window.speechSynthesis) ok = false;
+      else {
+        var voices = window.speechSynthesis.getVoices() || [];
+        if (voices.length > 0) {
+          var want = ({ no: 'nb', pt: 'pt' }[this.api.lang] || this.api.lang).toLowerCase();
+          ok = voices.some(function (v) { return (v.lang || '').toLowerCase().indexOf(want) === 0; });
+          if (!ok && this.api.lang === 'no') {
+            ok = voices.some(function (v) { return (v.lang || '').toLowerCase().indexOf('no') === 0; });
+          }
+        }
+      }
+    } catch (_) { ok = true; }
+    this._voiceState = ok;
+    return ok;
+  },
   _speakNum: function (n) {
+    this.api.announce(String(n));
     if (!this.api.settings.voice) return;
+    if (!this._voiceOk()) return;
     var rate = (n >= 100 && this.RATE_SLOW[this.api.lang]) ? 0.85 : 0.92;
     try { LCSAudio.speak({ type: 'number', text: String(n), lang: this.api.lang, rate: rate }); } catch (_) {}
   },
   _speakLine: function (text) {
     if (!this.api.settings.voice) return;
+    if (!this._voiceOk()) return;
     try { LCSAudio.speak({ type: 'ui', text: text, lang: this.api.lang, rate: 0.95 }); } catch (_) {}
   },
 
@@ -1045,10 +1120,175 @@ var EstimationJar = {
 
     box.appendChild(inner);
     this._jarEls = this._jarEls || [];
-    this._jarEls.push({ canvas: cv, n: n });
+    this._jarEls.push({ canvas: cv, n: n, drain: !!opts.drain });
     /* paint after layout so clientWidth is real */
     this._after(0, function () { self._paintPile(cv, self.packPile(n, self.capacityOf(), self.setId), set); });
     return box;
+  },
+
+  /* =================================================================
+     THE BENCHMARK — "this is ten".
+
+     The landing copy names benchmarking as "the real estimation skill"
+     and the shipped tool provided no referent of any kind, which is the
+     one thing that separates estimating from guessing: without a unit
+     there is nothing to iterate, so a child's answer is a lottery
+     ticket and the reveal confirms nothing.
+
+     THREE REJECTIONS, and they matter more than the choice:
+       a small JAR — two glasses invite "which one has more", a
+         comparison this tool does not make, and it duplicates the hero;
+       a TEN-FRAME — it is this tool's own REVEAL apparatus, so spending
+         it up front spends the drama; and a ten-frame ORGANISES ten
+         into something countable, when the benchmark's whole job is to
+         give ten a visual MASS to judge a pile against;
+       LOOSE on a shelf — no containment, so it reads as scattered and
+         competes with the pile.
+     A shallow open dish, on the same ground line, at the same object
+     size. And the ten are held up BESIDE the jar, not taken out of it —
+     which is what the published classroom idea actually describes, and
+     it keeps "how many are in the jar" a question with one answer.
+     ================================================================= */
+  _buildBench: function () {
+    var self = this, api = this.api;
+    var set = this.setById(this.setId);
+    if (!set) return null;
+    var R = this.packRadius(this.capacityOf());
+    /* five across, two deep, at the same overlap the jar uses — a dish
+       laid out looser than the pile would misrepresent the very unit it
+       exists to define, and it also ran the phone layout past the fold */
+    var dishW = Math.round(9.4 * R + 18);
+    var cx = dishW / 2;
+    var uid = (++this._uid || (this._uid = 1));
+
+    var box = api.el('div', 'ej-bench');
+    var art = api.el('div', 'ej-benchart');
+    /* ⚠ THE DISH MUST SHARE THE JAR'S px-PER-UNIT, or the referent is
+       not a referent. The first version let the dish size itself from
+       the flex layout and its cherries came out two-thirds the size of
+       the jar's — which is worse than no benchmark, because it invites
+       exactly the wrong comparison. Width is therefore MEASURED off the
+       jar after layout (_sizeBench), not guessed in CSS. */
+    art.style.aspectRatio = dishW + '/96';
+
+    var back = api.el('div', 'ej-layer');
+    back.innerHTML = '<svg viewBox="0 0 ' + dishW + ' 96" aria-hidden="true">'
+      + '<path d="M' + (cx - 0.44 * dishW) + ' 52 C' + (cx - 0.44 * dishW) + ' 76 '
+      + (cx - 0.25 * dishW) + ' 86 ' + cx + ' 86 C' + (cx + 0.25 * dishW) + ' 86 '
+      + (cx + 0.44 * dishW) + ' 76 ' + (cx + 0.44 * dishW) + ' 52 Z" fill="#146B5E" fill-opacity="0.045"/>'
+      + '</svg>';
+    art.appendChild(back);
+
+    var cv = api.el('canvas', 'ej-benchpile');
+    cv.setAttribute('aria-hidden', 'true');
+    art.appendChild(cv);
+
+    var front = api.el('div', 'ej-layer');
+    front.innerHTML = '<svg viewBox="0 0 ' + dishW + ' 96" role="img" aria-label="'
+      + this._esc(this.fmt('benchAria', { n: 10 })) + '">'
+      + '<ellipse cx="' + cx + '" cy="52" rx="' + (0.44 * dishW) + '" ry="9" fill="none" '
+      + 'stroke="#146B5E" stroke-opacity="0.38" stroke-width="3" vector-effect="non-scaling-stroke"/>'
+      + '<ellipse cx="' + cx + '" cy="89" rx="' + (0.34 * dishW) + '" ry="4" fill="#146B5E" opacity="0.10"/>'
+      + '</svg>';
+    art.appendChild(front);
+    box.appendChild(art);
+
+    /* the numeral, and NOTHING else — no word, in any language */
+    var num = api.el('div', 'ej-benchnum');
+    num.textContent = '10';
+    box.appendChild(num);
+
+    this._benchEl = { canvas: cv, dishW: dishW, art: art, set: set, R: R };
+    this._after(0, function () { self._sizeBench(); });
+    return box;
+  },
+
+  /* One ground line, one scale. The dish is sized from the jar it stands
+     beside so an object in the dish is the same size as an object in the
+     glass — the only thing that makes ten a usable unit. */
+  _sizeBench: function () {
+    var b = this._benchEl;
+    if (!b || !b.art || !b.art.parentNode) return;
+    var row = b.art.closest ? b.art.closest('.ej-stagerow') : null;
+    var jar = row && row.querySelector('.ej-jar');
+    var jarW = jar ? jar.clientWidth : 0;
+    if (!jarW) return;
+    var w = Math.round(jarW * b.dishW / 200);
+    /* never let the dish crowd the jar out of a narrow card */
+    var room = row.clientWidth || w;
+    if (w > room * 0.46 && room > jarW + 40) w = Math.round(room * 0.46);
+    b.art.style.width = w + 'px';
+    this._paintBench(b.canvas, b.dishW, b.set, b.R);
+  },
+
+  /* The same objects at the same size, laid in the dish by the same
+     jitter/rotation/depth rules — a referent that did not match the
+     pile's own drawing would not be a referent. */
+  _paintBench: function (canvas, dishW, set, R) {
+    var self = this;
+    if (!canvas) return;
+    var box = canvas.parentNode;
+    var cssW = (box && box.clientWidth) || 0;
+    if (!cssW) return;
+    var cssH = cssW * 96 / dishW;
+    var dpr = Math.min(window.devicePixelRatio || 1, 2);
+    var g;
+    try { g = canvas.getContext('2d'); } catch (_) { g = null; }
+    if (!g) return;
+    canvas.style.width = cssW + 'px';
+    canvas.style.height = cssH + 'px';
+    canvas.width = Math.round(cssW * dpr);
+    canvas.height = Math.round(cssH * dpr);
+    var s = cssW / dishW;
+    g.setTransform(dpr * s, 0, 0, dpr * s, 0, 0);
+    g.clearRect(0, 0, dishW, 96);
+
+    var rnd = this.mulberry32(this.seedFor('bench|' + set.id, 10));
+    var spots = [], i, cx = dishW / 2;
+    for (i = 0; i < 10; i++) {
+      var rowI = i < 5 ? 0 : 1;
+      var col = i % 5;
+      spots.push({
+        x: cx + (col - 2) * R * 1.55 + (rnd() * 2 - 1) * R * 0.18,
+        y: 76 - rowI * R * 0.80 + (rnd() * 2 - 1) * R * 0.10,
+        rotN: rnd() * 2 - 1,
+        depth: rowI ? 0.8 : 0.2,
+        scale: 0.93 + rnd() * 0.14
+      });
+    }
+    spots.sort(function (a, b) { return b.depth - a.depth; });
+
+    this._loadSprite(set, function (img) {
+      var pack = set.pack || { r70: 0.33, cy: 0.5, rotMax: 22 };
+      var baseS = R / (pack.r70 || 0.33);
+      var needPx = Math.max(16, Math.min(512, Math.pow(2, Math.ceil(Math.log(baseS * s * dpr * 1.15) / Math.LN2))));
+      var rotK = (pack.rotMax || 22) * Math.PI / 180;
+      for (var q = 0; q < spots.length; q++) {
+        var o = spots[q];
+        var sp = self._spriteFor(set.id, img, needPx, o.depth > 0.5 ? 1 : 0);
+        if (!sp) continue;
+        var S = baseS * o.scale;
+        g.save();
+        g.translate(o.x, o.y);
+        g.rotate(o.rotN * rotK);
+        g.drawImage(sp, -S * 0.5, -S * (pack.cy == null ? 0.5 : pack.cy), S, S);
+        g.restore();
+      }
+    });
+  },
+
+  /* Jar and dish stand on ONE ground line — side by side where there is
+     room, stacked on a phone, where the vertical budget is the scarce
+     one and the jar has to stay big enough to show real objects. */
+  _buildJarRow: function (n, opts) {
+    var api = this.api;
+    var row = api.el('div', 'ej-stagerow');
+    row.appendChild(this._buildJar(n, opts));
+    if (this.api.settings.bench) {
+      var b = this._buildBench();
+      if (b) row.appendChild(b);
+    }
+    return row;
   },
 
   /* A resize repaints; it must NEVER re-pack. A pile that reshuffles
@@ -1060,8 +1300,24 @@ var EstimationJar = {
     this._resizeBound = true;
     window.addEventListener('resize', function () {
       clearTimeout(self._rsTimer);
-      self._rsTimer = setTimeout(function () { self._repaintJars(); }, 120);
+      self._rsTimer = setTimeout(function () { self._repaintJars(); self._sizeBench(); }, 120);
     });
+  },
+
+  /* The jar empties from the TOP, and it falls out of the packing rather
+     than needing any code of its own: packPile(k) is the first k slots
+     of the same lattice, filled bottom-up, so the objects that remain
+     are exactly the ones underneath the ones that flew. */
+  _drainJar: function () {
+    if (!this._jarEls || !this._jarEls.length) return;
+    var left = Math.max(0, this.count - (this._revealShown || 0));
+    var set = this.setById(this.setId);
+    for (var i = 0; i < this._jarEls.length; i++) {
+      var j = this._jarEls[i];
+      if (!j.drain || !j.canvas || !j.canvas.parentNode) continue;
+      j.n = left;
+      this._paintPile(j.canvas, this.packPile(left, this.capacityOf(), this.setId), set);
+    }
   },
 
   _repaintJars: function () {
@@ -1080,7 +1336,7 @@ var EstimationJar = {
     var box = api.el('div', 'ej-card');
 
     var set = this.setById(this.setId);
-    box.appendChild(this._buildJar(this.count));
+    box.appendChild(this._buildJarRow(this.count, {}));
 
     var pick = api.el('button', 'ej-pill');
     pick.type = 'button';
@@ -1239,7 +1495,7 @@ var EstimationJar = {
     var self = this, api = this.api;
     var box = api.el('div', 'ej-card');
 
-    box.appendChild(this._buildJar(this.count, { small: true }));
+    box.appendChild(this._buildJarRow(this.count, { small: true }));
 
     box.appendChild(this._buildLine(false));
 
@@ -1377,7 +1633,7 @@ var EstimationJar = {
   _reveal: function () {
     if (this.stage === 'reveal') return;
     this.stage = 'reveal';
-    this._revealStep = 0;
+    this._revealShown = 0;
     this.render();
     this._runCount();
   },
@@ -1386,25 +1642,33 @@ var EstimationJar = {
     this.stage = 'fill';
     this.guesses = [];
     this.pending = null;
-    this._revealStep = 0;
+    this._revealShown = 0;
+    this._qid = null;
     this.render();
   },
 
   _runCount: function () {
     var self = this;
-    var totals = this.runningTotals(this.count);
+    var beats = this.revealBeats(this.count, this.api.settings.ones);
     var reduced = false;
     try { reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches; } catch (_) {}
-    var stepMs = reduced ? 350 : 700;
-    totals.forEach(function (t, i) {
-      self._after(i * stepMs, function () {
-        self._revealStep = i + 1;
+    /* reduced motion COMPRESSES, it does not delete — the counting IS
+       the lesson. A ten needs longer than a one: a room says "thirty"
+       together more slowly than it says "twenty-nine". */
+    var tenMs = reduced ? 420 : 820;
+    var oneMs = reduced ? 240 : 480;
+    var t = 0;
+    beats.forEach(function (b) {
+      t += (b.add === 10 ? tenMs : oneMs);
+      self._after(t, function () {
+        self._revealShown = (self._revealShown || 0) + b.add;
         self._paintFrames();
-        self._speakNum(t);
-        self.api.announce(String(t));
+        self._drainJar();
+        self._paintTally(b.total);
+        self._speakNum(b.total);
       });
     });
-    this._after(totals.length * stepMs + 240, function () {
+    this._after(t + 320, function () {
       self._paintDots();
       var line = self.fmt('theJarHeld', { n: self.count });
       self.api.announce(line + ' ' + self.api.t('neighbourhood'));
@@ -1414,9 +1678,40 @@ var EstimationJar = {
     });
   },
 
+  /* ⚠ THE COUNT MUST BE LEGIBLE WITH THE SOUND OFF.
+     v1 delivered the running total through exactly two channels —
+     LCSAudio.speak and api.announce — and NEITHER IS VISIBLE. Our own
+     TTS never calls getVoices() and silently substitutes a missing
+     voice, so it is reliable in about five of eleven locales: the
+     majority of classrooms watched ten-frames appear in silence with no
+     number anywhere on the screen, in a tool whose entire ritual is
+     counting aloud together. The tally is the fix, and it is also
+     better teaching — the class reads the numeral while it chants. */
+  _paintTally: function (total) {
+    var el = this._wrap && this._wrap.querySelector('.ej-tally');
+    if (!el) return;
+    el.textContent = String(total);
+    el.classList.add('ej-tick');
+    var self = this;
+    this._after(220, function () { if (el) el.classList.remove('ej-tick'); });
+  },
+
   _buildReveal: function () {
     var self = this, api = this.api;
     var box = api.el('div', 'ej-card');
+
+    /* THE JAR STAYS ON THE REVEAL FACE and visibly drains. v1 built the
+       frames and the line only, so the objects arrived from nowhere and
+       the empty glass — the proof that the jar has been accounted for —
+       never appeared. The drain is free: the pile is redrawn with the
+       objects that have already flown removed. */
+    var left = Math.max(0, this.count - (this._revealShown || 0));
+    box.appendChild(this._buildJar(left, { small: true, drain: true }));
+
+    var tally = api.el('div', 'ej-tally');
+    tally.setAttribute('aria-live', 'polite');
+    tally.textContent = this._revealShown ? String(Math.min(this.count, this._revealShown)) : '';
+    box.appendChild(tally);
 
     var frames = api.el('div', 'ej-frames');
     this._framesEl = frames;
@@ -1435,26 +1730,54 @@ var EstimationJar = {
     return box;
   },
 
-  /* ten-frames, the calendar-wall span recipe — cheap enough to tile 20 */
+  /* Ten-frames, the calendar-wall span recipe — cheap enough to tile 20.
+     Post-reveal these stay <img>: the pile is canvas because the count
+     must be unreachable from the DOM while the class is estimating, and
+     once the jar is tipped out the count is public by design.
+
+     ⚠ APPEND ONLY. v1 did `innerHTML = ''` and rebuilt groups 0..shown
+     on EVERY step, so every previously-shown cell became a fresh node
+     and replayed its pop animation — at group 14 that is 140 cells
+     re-popping every beat. Cells are now created once and filled in
+     place, which also means the ones can tick in one at a time. */
   _paintFrames: function () {
     var api = this.api, el = this._framesEl;
     if (!el) return;
-    el.innerHTML = '';
     var set = this.setById(this.setId);
-    var groups = this.groupsOfTen(this.count);
-    var shown = this._revealStep || 0;
-    for (var g = 0; g < groups.length && g < shown; g++) {
+    var shown = Math.max(0, Math.min(this.count, this._revealShown || 0));
+    var framesNeeded = Math.ceil(shown / 10);
+    var i, g;
+
+    /* grow the grid to the number of frames the count has reached */
+    var have = el.childNodes.length;
+    for (g = have; g < framesNeeded; g++) {
       var f = api.el('div', 'ej-tf');
-      for (var i = 0; i < 10; i++) {
-        var c = api.el('span', 'ej-tfcell' + (i < groups[g] ? ' ej-filled' : ''));
-        if (i < groups[g] && set) {
-          var im = api.el('img', 'ej-tfpic');
-          im.src = this._imgUrl(set); im.alt = ''; im.draggable = false;
-          c.appendChild(im);
-        }
-        f.appendChild(c);
-      }
+      for (i = 0; i < 10; i++) f.appendChild(api.el('span', 'ej-tfcell'));
       el.appendChild(f);
+    }
+
+    /* fill exactly `shown` cells, in order, once each */
+    for (g = 0; g < el.childNodes.length; g++) {
+      var frame = el.childNodes[g];
+      for (i = 0; i < 10; i++) {
+        var idx = g * 10 + i;
+        var cell = frame.childNodes[i];
+        if (!cell) continue;
+        var want = idx < shown;
+        var has = cell.className.indexOf('ej-filled') >= 0;
+        if (want && !has) {
+          cell.className = 'ej-tfcell ej-filled';
+          if (set) {
+            var im = api.el('img', 'ej-tfpic');
+            im.src = this._imgUrl(set); im.alt = ''; im.draggable = false;
+            im.onerror = function () { this.style.visibility = 'hidden'; };
+            cell.appendChild(im);
+          }
+        } else if (!want && has) {
+          cell.className = 'ej-tfcell';
+          cell.innerHTML = '';
+        }
+      }
     }
   },
 
@@ -1598,12 +1921,25 @@ function injectEstimationJarCSS() {
        illustration is still an object rather than a coloured speck. At
        82vw the same worst case is ~20px. The phone is a setup surface,
        but it still has to show real things. */
-    + '.ej-jar{width:min(300px,82vw);flex:0 0 auto}'
-    + '.ej-jar.ej-jarsmall{width:min(190px,52vw)}'
+    + '.ej-jar{width:min(300px,72vw);flex:0 0 auto}'
+    + '.ej-jar.ej-jarsmall{width:min(190px,46vw)}'
     + '.ej-jarbox{position:relative;width:100%;aspect-ratio:200/260}'
     + '.ej-layer{position:absolute;inset:0;pointer-events:none}'
     + '.ej-layer svg,.ej-glassback,.ej-glassfront{width:100%;height:100%;display:block}'
     + '.ej-pile{position:absolute;inset:0;width:100%;height:100%;display:block}'
+    /* jar + dish stand on ONE ground line; on a phone the dish drops
+       below, because the vertical budget is the scarce one there and the
+       jar must stay wide enough to show real objects */
+    + '.ej-stagerow{display:flex;align-items:flex-end;justify-content:center;gap:14px;width:100%;flex-wrap:wrap}'
+    + '.ej-bench{display:flex;flex-direction:column;align-items:center;gap:2px;flex:0 0 auto}'
+    + '.ej-benchart{position:relative;width:120px}'
+    + '.ej-benchpile{position:absolute;inset:0;width:100%;height:100%;display:block}'
+    + '.ej-benchnum{font:700 clamp(20px,4.4vw,26px)/1 "Baloo 2",Nunito,system-ui,sans-serif;color:#146B5E}'
+    /* the rendered running total — the channel that makes the count
+       legible with the sound off, in the six locales that get silence */
+    + '.ej-tally{font:700 clamp(34px,9vw,54px)/1 "Baloo 2",Nunito,system-ui,sans-serif;color:#146B5E;'
+    + 'min-height:1.05em;text-align:center;transition:transform .18s ease}'
+    + '.ej-tally.ej-tick{transform:scale(1.12)}'
     + '.ej-setpic{width:52px;height:auto;flex:0 0 auto;user-select:none;-webkit-user-drag:none}'
     /* the jar-size chooser — silhouettes, never words */
     + '.ej-caprow{display:flex;align-items:flex-end;gap:10px;justify-content:center}'

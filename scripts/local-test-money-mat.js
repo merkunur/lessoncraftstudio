@@ -133,7 +133,11 @@ function serve() {
 
   /* ============================ A: viewports ============================ */
   console.log('A. viewport sweep');
-  for (const [w, h] of [[320, 568], [360, 740], [412, 915], [768, 1024], [1024, 768], [1366, 768]]) {
+  /* ⚠ THE WIDE TIERS ARE IN THE SWEEP NOW. It stopped at 1366, and
+     audit-tool-wide-viewport covers 1440-2560 for FILL and TYPE but knows
+     nothing about collisions — the gap between the two gates is exactly
+     where a 12px coin overlap shipped to production. */
+  for (const [w, h] of [[320, 568], [360, 740], [412, 915], [768, 1024], [1024, 768], [1366, 768], [1440, 900], [1920, 1080], [2560, 1440]]) {
     const page = await newPage({ w, h });
     await page.goto(BASE);
     await ready(page);
@@ -154,11 +158,65 @@ function serve() {
       const discs = [...document.querySelectorAll('.mm-disc')];
       const numerals = discs.map((d) => parseFloat(getComputedStyle(d.querySelector('b') || d).fontSize));
       const cells = discs.map((d) => d.getBoundingClientRect().width);
+      /* ⭐⭐ NOTHING MAY DRAW OUTSIDE THE SPACE RESERVED FOR IT. This is the
+         general form of the defect that shipped: a `transform:scale(1.22)`
+         on the purse coins, which the LAYOUT cannot see, so the button and
+         the grid track reserved the unscaled width while the disc drew 22%
+         bigger. It catches transforms, negative margins and absolute
+         positioning alike — and it fires at 1024, a whole tier before the
+         resulting collision becomes visible. */
+      const burst = [];
+      document.querySelectorAll('.mm-coinbtn, .mm-notebtn').forEach((b) => {
+        const face = b.querySelector('.mm-disc, .mm-note');
+        if (!face) return;
+        const br = b.getBoundingClientRect(), fr = face.getBoundingClientRect();
+        const over = Math.max(fr.width - br.width, fr.height - br.height);
+        if (over > 0.5) burst.push((face.textContent || '').trim() + ' +' + over.toFixed(0) + 'px');
+      });
+
+      /* ⭐ NO TWO RENDERED COINS COLLIDE — the recorded #42 check this tool
+         did not have. Every gate here measured ONE box against a floor;
+         none asked whether two drawn things intersect. Per container, so a
+         cross-container false positive is impossible. */
+      const collide = [];
+      for (const sel of ['.mm-purse', '.mm-mat', '.mm-bothways', '.mm-deck']) {
+        const host = document.querySelector(sel);
+        if (!host) continue;
+        const rs = [...host.querySelectorAll('.mm-disc, .mm-note')].map((e) => e.getBoundingClientRect());
+        for (let i = 0; i < rs.length; i++) {
+          for (let j = i + 1; j < rs.length; j++) {
+            const a = rs[i], b2 = rs[j];
+            const ox = Math.min(a.right, b2.right) - Math.max(a.left, b2.left);
+            const oy = Math.min(a.bottom, b2.bottom) - Math.max(a.top, b2.top);
+            if (ox > 1 && oy > 1) collide.push(`${sel} ${Math.min(ox, oy).toFixed(0)}px`);
+          }
+        }
+      }
+
+      /* ⭐ THE VALUE IS CENTRED IN ITS COIN — measured on the rendered boxes,
+         not on the CSS declaration, so a property that merely LOOKS right
+         cannot satisfy it. align-items:baseline put every value 0px from
+         the top and 34-79px from the bottom. */
+      const offCentre = [];
+      for (const d of discs) {
+        const f = d.querySelector('.mm-face');
+        /* ⚠ a missing face is a FAILURE, not a skip. Poisoned against the
+           deployed build this loop found no .mm-face at all and passed on
+           an empty set — the separate non-vacuity count caught it, but a
+           check should not depend on its neighbour to avoid being hollow. */
+        if (!f) { offCentre.push((d.textContent || '?').trim() + ' HAS NO FACE'); continue; }
+        const dr = d.getBoundingClientRect(), fr = f.getBoundingClientRect();
+        const skew = Math.abs((fr.top - dr.top) - (dr.bottom - fr.bottom));
+        if (skew > 2) offCentre.push((f.textContent || '').trim() + ' ' + skew.toFixed(0) + 'px');
+      }
+
       return {
         hOver: doc.scrollWidth - doc.clientWidth, vOver: doc.scrollHeight - doc.clientHeight, tiny,
         nDiscs: discs.length,
         minNum: numerals.length ? Math.min(...numerals) : 0,
-        minCell: cells.length ? Math.min(...cells) : 0
+        minCell: cells.length ? Math.min(...cells) : 0,
+        burst: burst.slice(0, 4), collide: [...new Set(collide)].slice(0, 4), offCentre: offCentre.slice(0, 4),
+        nFaces: document.querySelectorAll('.mm-face').length
       };
     });
     ok(`${w}x${h} no h-overflow`, m.hOver <= 1, `${m.hOver}px`);
@@ -169,6 +227,12 @@ function serve() {
     ok(`${w}x${h} the purse is not empty (${m.nDiscs} coins)`, m.nDiscs >= 4, String(m.nDiscs));
     ok(`${w}x${h} CANVAS floor — smallest coin ≥34px`, m.minCell >= 34, `${m.minCell.toFixed(1)}px`);
     ok(`${w}x${h} NUMERAL floor — smallest coin value ≥14px`, m.minNum >= 14, `${m.minNum.toFixed(1)}px`);
+    /* non-vacuity before the three geometry checks — they are all loops over
+       collections, and a loop over nothing passes */
+    ok(`${w}x${h} every coin carries a face`, m.nFaces >= m.nDiscs && m.nDiscs > 0, `${m.nFaces} faces / ${m.nDiscs} discs`);
+    ok(`${w}x${h} ⭐⭐ nothing draws outside the space reserved for it`, m.burst.length === 0, m.burst.join('; '));
+    ok(`${w}x${h} ⭐ no two rendered coins collide`, m.collide.length === 0, m.collide.join('; '));
+    ok(`${w}x${h} ⭐ the value is centred in its coin`, m.offCentre.length === 0, m.offCentre.join('; '));
     await page.screenshot({ path: path.join(QA, `A-${w}x${h}.png`) });
     ok(`${w}x${h} no js errors`, page._errs.length === 0, page._errs[0]);
     await page.close();

@@ -55,6 +55,12 @@ var PlaceValueLab = {
     subNudge:     {en:'Not enough loose ones — break a ten!',de:'Nicht genug lose Einer — tausche einen Zehner!',fr:'Pas assez d’unités — casse une dizaine !',it:'Non bastano le unità — cambia una decina!',es:'No alcanzan las unidades sueltas — ¡desarma una decena!',pt:'Faltam unidades soltas — troque uma dezena!',nl:'Niet genoeg losse blokjes — wissel een tiental in!',sv:'De lösa entalen räcker inte — växla ett tiotal!',da:'Ikke nok løse enere — veksl en tier!',no:'Ikke nok løse enere — veksle en tier!',fi:'Ykköset eivät riitä — vaihda kymppi!'},
     subDone:      {en:'{a} − {b} = {c}. You broke a ten to do it!',de:'{a} − {b} = {c}. Dafür hast du einen Zehner getauscht!',fr:'{a} − {b} = {c}. Tu as cassé une dizaine pour y arriver !',it:'{a} − {b} = {c}. Hai cambiato una decina per riuscirci!',es:'{a} − {b} = {c}. ¡Desarmaste una decena para lograrlo!',pt:'{a} − {b} = {c}. Você trocou uma dezena para conseguir!',nl:'{a} − {b} = {c}. Daarvoor heb je een tiental ingewisseld!',sv:'{a} − {b} = {c}. Du växlade ett tiotal för att klara det!',da:'{a} − {b} = {c}. Du vekslede en tier for at klare det!',no:'{a} − {b} = {c}. Du vekslet en tier for å klare det!',fi:'{a} − {b} = {c}. Vaihdoit kympin ykkösiksi!'},
     subRemove:    {en:'Tap the marked blocks to take them away.',de:'Tippe die markierten Blöcke an, um sie wegzunehmen.',fr:'Appuie sur les blocs marqués pour les enlever.',it:'Tocca i blocchi segnati per toglierli.',es:'Toca los bloques marcados para quitarlos.',pt:'Toque nos blocos marcados para tirá-los.',nl:'Tik op de gemarkeerde blokjes om ze weg te halen.',sv:'Tryck på de markerade blocken för att ta bort dem.',da:'Tryk på de markerede klodser for at fjerne dem.',no:'Trykk på de markerte klossene for å fjerne dem.',fi:'Napauta merkittyjä palikoita poistaaksesi ne.'},
+    /* ⭐ REUSED VERBATIM from number-line.js — the closest sibling
+       manipulative, already native-panel-approved in eleven locales.
+       A bare verb also carries no noun to collide with any tool's named
+       parts, which is the trap an invented "print the mat" would walk
+       straight into in ten languages at once. */
+    printBtn:     {en:'Print',de:'Drucken',fr:'Imprimer',it:'Stampa',es:'Imprimir',pt:'Imprimir',nl:'Print',sv:'Skriv ut',da:'Print',no:'Skriv ut',fi:'Tulosta'},
     keypadBtn:    {en:'Type a number',de:'Zahl eintippen',fr:'Taper un nombre',it:'Scrivi un numero',es:'Escribir un número',pt:'Digitar um número',nl:'Getal typen',sv:'Skriv ett tal',da:'Skriv et tal',no:'Skriv et tall',fi:'Kirjoita luku'},
     keypadDone:   {en:'Build it',de:'Bauen',fr:'Construire',it:'Costruisci',es:'Construir',pt:'Montar',nl:'Bouwen',sv:'Bygg',da:'Byg',no:'Bygg',fi:'Rakenna'},
     keypadClear:  {en:'Clear',de:'Löschen',fr:'Effacer',it:'Cancella',es:'Borrar',pt:'Apagar',nl:'Wissen',sv:'Rensa',da:'Ryd',no:'Tøm',fi:'Tyhjennä'},
@@ -1554,6 +1560,8 @@ var PlaceValueLab = {
 
     /* ---- the dock ---- */
     wrap.appendChild(this._buildDock());
+    /* the print sheet lives in the DOM and is hidden on screen */
+    wrap.appendChild(this._buildSheet());
 
     stage.appendChild(wrap);
     this._paintBlocks();
@@ -2311,6 +2319,122 @@ var PlaceValueLab = {
     if (this._scrimEl) { this._scrimEl.remove(); this._scrimEl = null; }
   },
 
+  /* =====================================================================
+     THE PRINT SHEET — three pages, and the third is the point.
+
+     The tool shipped with NO print at all: no chip, no @media print, so
+     it was not even on the roster of audit-tool-print-sheets.js. A v4
+     instrument sells "free apparatus, paid depth AND RECORD", and there
+     was nothing here that could leave the room.
+
+     Built as REAL DOM (the build-plan pattern), display:none on screen,
+     rather than printing the web page — the defect #40 and #41 both
+     shipped, where a Print chip called window.print() with no print
+     block at all.
+
+     ⚠ ZERO FILLS, and deliberately NO print-color-adjust:exact. The
+     sheet carries no colour, so it prints identically on any school
+     printer and costs almost no ink — and in black and white the three
+     places are still told apart, by LINE PATTERN: plain, ten seams, ten
+     by ten. The redrawn material survives a photocopier losslessly;
+     the old art did not, because #F2C879 and #F2784B both reduce to the
+     same pale grey.
+
+     ⭐ PAGE 3 IS THE ONE THAT EARNS THE CHIP. It prints cut-out blocks
+     at a size where a child can cut a rod into ten squares with
+     scissors and lay them on a flat — which makes the tool's central
+     claim physically checkable, the one thing the screen cannot do at
+     true scale (a true flat at a 34px cube is 340px square, and no
+     column holds two of those). The compromise the geometry has to
+     make, the paper does not.
+     ===================================================================== */
+  _buildSheet: function () {
+    var api = this.api, self = this;
+    var sheet = api.el('div', 'pvl-sheet');
+    var colKeys = { hundreds: 'colHundreds', tens: 'colTens', ones: 'colOnes' };
+
+    function page(cls) { var p = api.el('div', 'pvl-page ' + cls); sheet.appendChild(p); return p; }
+    function label(host, txt) { var l = api.el('div', 'pvl-plabel'); l.textContent = txt; host.appendChild(l); return l; }
+
+    /* ---- page 1: the mat, for pinning up and laying real blocks on -- */
+    var p1 = page('pvl-page--mat');
+    var mat = api.el('div', 'pvl-pmat');
+    this._places().forEach(function (pl) {
+      var col = api.el('div', 'pvl-pcol pvl-pcol--' + pl);
+      label(col, api.t(colKeys[pl]));
+      var bay = api.el('div', 'pvl-pbay pvl-pbay--' + pl);
+      var n = pl === 'hundreds' ? 9 : pl === 'tens' ? 10 : 10;
+      for (var i = 0; i < n; i++) bay.appendChild(api.el('div', 'pvl-pcell pvl-pcell--' + pl));
+      col.appendChild(bay);
+      mat.appendChild(col);
+    });
+    p1.appendChild(mat);
+
+    /* ---- page 2: the record strip — what the class built ------------ */
+    var p2 = page('pvl-page--record');
+    for (var r = 0; r < 5; r++) {
+      var row = api.el('div', 'pvl-prow');
+      var boxes = api.el('div', 'pvl-pboxes');
+      this._places().forEach(function (pl) {
+        var b = api.el('div', 'pvl-pbox');
+        var t = api.el('span', 'pvl-pboxlbl');
+        t.textContent = api.t({ hundreds: 'slotH', tens: 'slotT', ones: 'slotO' }[pl]);
+        b.appendChild(t);
+        boxes.appendChild(b);
+      });
+      row.appendChild(boxes);
+      row.appendChild(api.el('div', 'pvl-prule'));
+      p2.appendChild(row);
+    }
+
+    /* ---- page 3: cut-outs, drawn on the SAME geometry as the screen -- */
+    var p3 = page('pvl-page--cut');
+    var cuts = api.el('div', 'pvl-pcuts');
+    var i2;
+    var flats = api.el('div', 'pvl-pcutrow');
+    for (i2 = 0; i2 < 2; i2++) flats.appendChild(self._cutFlat());
+    cuts.appendChild(flats);
+    var rods = api.el('div', 'pvl-pcutrow');
+    for (i2 = 0; i2 < 6; i2++) rods.appendChild(self._cutRod());
+    cuts.appendChild(rods);
+    var cubes = api.el('div', 'pvl-pcutrow pvl-pcutrow--cubes');
+    for (i2 = 0; i2 < 20; i2++) cubes.appendChild(self._cutCube());
+    cuts.appendChild(cubes);
+    p3.appendChild(cuts);
+
+    return sheet;
+  },
+  /* the cut-outs reuse the screen's own viewBoxes, so a printed rod is
+     ten printed cubes by construction and not by a second drawing that
+     could drift from the first */
+  _cutCube: function () {
+    var d = this.api.el('div', 'pvl-pcube');
+    d.innerHTML = '<svg viewBox="0 0 10 10" aria-hidden="true"><rect x="0.4" y="0.4" width="9.2" height="9.2" rx="1.9" fill="none" stroke="#333" stroke-width="1.6" vector-effect="non-scaling-stroke"/></svg>';
+    return d;
+  },
+  _cutRod: function () {
+    var seams = '';
+    for (var i = 1; i < 10; i++) seams += '<line x1="0.4" x2="9.6" y1="' + (i * 10) + '" y2="' + (i * 10) + '"/>';
+    var d = this.api.el('div', 'pvl-prod');
+    d.innerHTML = '<svg viewBox="0 0 10 100" aria-hidden="true">'
+      + '<g stroke="#333" stroke-width="1" vector-effect="non-scaling-stroke">' + seams + '</g>'
+      + '<rect x="0.4" y="0.4" width="9.2" height="99.2" rx="1.9" fill="none" stroke="#333" stroke-width="1.6" vector-effect="non-scaling-stroke"/></svg>';
+    return d;
+  },
+  _cutFlat: function () {
+    var rods = '', hair = '';
+    for (var i = 1; i < 10; i++) {
+      rods += '<line x1="' + (i * 10) + '" x2="' + (i * 10) + '" y1="0.4" y2="99.6"/>';
+      hair += '<line y1="' + (i * 10) + '" y2="' + (i * 10) + '" x1="0.4" x2="99.6"/>';
+    }
+    var d = this.api.el('div', 'pvl-pflat');
+    d.innerHTML = '<svg viewBox="0 0 100 100" aria-hidden="true">'
+      + '<g stroke="#999" stroke-width="0.6" vector-effect="non-scaling-stroke">' + hair + '</g>'
+      + '<g stroke="#333" stroke-width="1" vector-effect="non-scaling-stroke">' + rods + '</g>'
+      + '<rect x="0.4" y="0.4" width="99.2" height="99.2" rx="1.9" fill="none" stroke="#333" stroke-width="1.6" vector-effect="non-scaling-stroke"/></svg>';
+    return d;
+  },
+
   _buildDock: function () {
     var api = this.api, self = this;
     var dock = api.el('div', 'pvl-dock');
@@ -2333,6 +2457,11 @@ var PlaceValueLab = {
     kp.textContent = '⌨ ' + api.t('keypadBtn');
     kp.addEventListener('click', function () { self._openKeypad(); });
     tools.appendChild(kp);
+    var pr = api.el('button', 'pvl-chip');
+    pr.type = 'button';
+    pr.textContent = api.t('printBtn');
+    pr.addEventListener('click', function () { window.print(); });
+    tools.appendChild(pr);
     var om = api.el('button', 'pvl-chip manage' + (this.premium ? '' : ' locked'));
     om.type = 'button';
     om.textContent = api.t('ourMats');
@@ -2773,6 +2902,52 @@ var PlaceValueLab = {
   +   'body.pvl-wide .pvl-board{--pvl-umax:44px;--pvl-hbudget:calc(100vh - 400px);}'
   +   'body.pvl-wide .pvl-collbl{font-size:23px;}'
   +   'body.pvl-wide .pvl-ctxbtn{font-size:22px;}'
+  + '}'
+
+  /* ===================== the print sheet ============================
+     Hidden on screen, three pages on paper. No fills, no colour, and
+     deliberately no print-color-adjust — the sheet is line art, so it
+     prints the same on any school printer. */
+  + '.pvl-sheet{display:none;}'
+  + '@media print{'
+  +   '.lcs-header,.lcs-bar,.pvl-top,.pvl-mat,.pvl-dock,.pvl-ctxrow,.pvl-gate,'
+  +   '.pvl-prompt,.pvl-promptbox,.pvl-scrim,.pvl-panel{display:none !important;}'
+  +   '.pvl-sheet{display:block !important;background:#fff !important;}'
+  +   'html,body,.lcs-app,.lcs-stage{background:#fff !important;box-shadow:none !important;}'
+  +   '.pvl-wrap,.pvl-board{display:block !important;gap:0 !important;}'
+  +   '.pvl-page{break-after:page;break-inside:avoid;padding:0;}'
+  +   '.pvl-page:last-child{break-after:auto;}'
+  +   '@page{margin:14mm;}'
+  /* page 1 — the mat, at a size a teacher lays real blocks on */
+  +   '.pvl-pmat{display:flex;align-items:flex-start;justify-content:center;gap:6mm;}'
+  +   '.pvl-pcol{border:0.5mm solid #333;border-radius:3mm;padding:3mm;}'
+  +   '.pvl-plabel{font-family:var(--lcs-font-body);font-weight:800;font-size:11pt;'
+  +     'text-transform:uppercase;letter-spacing:.05em;color:#000;text-align:center;margin-bottom:2.5mm;}'
+  +   '.pvl-pbay{display:grid;gap:1mm;justify-content:center;}'
+  +   '.pvl-pbay--hundreds{grid-template-columns:repeat(3,26mm);grid-auto-rows:26mm;}'
+  /* ⚠ TEN ACROSS, not five. The first draft wrapped the bank into 5x2,
+     which prints a shape that is not a hundred and quietly loses the
+     one thing the tens bay is for: ten rods side by side occupy exactly
+     one flat, so a full bank IS a hundred — on paper as on screen. */
+  +   '.pvl-pbay--tens{grid-template-columns:repeat(10,2.6mm);grid-auto-rows:26mm;gap:0;}'
+  +   '.pvl-pbay--ones{grid-template-columns:repeat(5,2.6mm);grid-auto-rows:2.6mm;gap:0;}'
+  +   '.pvl-pcell{border:0.35mm dashed #666;box-sizing:border-box;}'
+  /* page 2 — the record strip: digits, the word, and the blocks drawn */
+  +   '.pvl-prow{display:flex;align-items:center;gap:5mm;padding:6mm 0;border-bottom:0.3mm solid #bbb;}'
+  +   '.pvl-pboxes{display:flex;gap:0;}'
+  +   '.pvl-pbox{width:16mm;height:20mm;border:0.5mm solid #333;position:relative;box-sizing:border-box;}'
+  +   '.pvl-pbox + .pvl-pbox{border-left:0.25mm solid #333;}'
+  +   '.pvl-pboxlbl{position:absolute;top:1mm;left:0;right:0;text-align:center;'
+  +     'font-family:var(--lcs-font-body);font-weight:800;font-size:8pt;color:#666;}'
+  +   '.pvl-prule{flex:1;border-bottom:0.4mm solid #333;height:14mm;}'
+  /* page 3 — the cut-outs. A printed rod IS ten printed cubes. */
+  +   '.pvl-pcuts{display:flex;flex-direction:column;gap:5mm;}'
+  +   '.pvl-pcutrow{display:flex;flex-wrap:wrap;gap:3mm;align-items:flex-end;}'
+  +   '.pvl-pcutrow--cubes{gap:2mm;}'
+  +   '.pvl-pflat{width:52mm;height:52mm;}'
+  +   '.pvl-prod{width:5.2mm;height:52mm;}'
+  +   '.pvl-pcube{width:5.2mm;height:5.2mm;}'
+  +   '.pvl-pflat svg,.pvl-prod svg,.pvl-pcube svg{width:100%;height:100%;display:block;}'
   + '}'
 
   /* reduced motion */

@@ -259,8 +259,29 @@ function checkTool(tool, src, data) {
   if (!/getElementById\(\s*['"]ej-style['"]\s*\)/.test(src)) err('T6 CSS injector not idempotent on #ej-style');
   if (!/@media print/.test(src)) err('T6 no @media print block');
   if (!/prefers-reduced-motion/.test(src)) err('T6 no reduced-motion block');
-  const lcsSel = (src.match(/['"][^'"]*\.lcs-[a-z-]+[^'"]*['"]/g) || []).filter(s => !/ej-wide/.test(s));
+  /* ⚠ THE BAN WAS TOO NARROW AND IT REJECTED CORRECT CODE — the same
+     trap in a third dress. A tool may not style the shared shell, and
+     that rule stands; but `audit-tool-print-sheets.js` REQUIRES the
+     shell header to be gone in print media (`!seen.shellHeader`) and
+     the house print reset clears the shell's background
+     (fraction-kitchen.js:2556). Both are `.lcs-` selectors that this
+     tool must write.
+
+     So the exemption is an AUDITABLE LIST with a citation each, not a
+     loosened pattern. Anything outside it still fails. */
+  const LCS_EXEMPT = [
+    { re: /ej-wide/, why: 'the wide-board tier — the specificity arrangement at lcs-shell.css:112-127' },
+    { re: /^'body\.ej-paid \.lcs-header/, why: 'audit-tool-print-sheets.js requires !seen.shellHeader in print media' },
+    { re: /^'html,body,\.lcs-app,\.lcs-stage\{background:#fff/, why: 'the house print reset, fraction-kitchen.js:2556' }
+  ];
+  const lcsSel = (src.match(/['"][^'"]*\.lcs-[a-z-]+[^'"]*['"]/g) || [])
+    .filter(s => !LCS_EXEMPT.some(e => e.re.test(s)));
   if (lcsSel.length) err(`T6 tool writes protected .lcs- selectors: ${lcsSel.slice(0, 3).join(' ')}`);
+  /* poison, BOTH directions — a ban nobody has seen fail is not a ban */
+  if (LCS_EXEMPT.some(e => e.re.test("'.lcs-stage .ej-card{color:red}'")))
+    err('T6 the exemption list is too wide — it would pass an arbitrary shell override');
+  if (!LCS_EXEMPT.some(e => e.re.test("'body.ej-wide .lcs-app{max-width:1192px}'")))
+    err('T6 the exemption list is too narrow — it would reject the sanctioned wide tier');
 
   /* T12 — the estimate array must never leave the device */
   const fetchBodies = src.match(/fetch\([^)]*\{[^}]*body\s*:[^}]*\}/g) || [];

@@ -87,6 +87,20 @@ var EstimationJar = {
     setsClose:    {en:'Close',de:'Schließen',fr:'Fermer',it:'Chiudi',es:'Cerrar',pt:'Fechar',nl:'Sluiten',sv:'Stäng',da:'Luk',no:'Lukk',fi:'Sulje'},
     lockedSet:    {en:'Premium filling',de:'Premium-Füllung',fr:'Contenu Premium',it:'Contenuto Premium',es:'Contenido Premium',pt:'Só no Premium',nl:'Premium-vulling',sv:'Premiuminnehåll',da:'Premium-fyld',no:'Premium-innhold',fi:'Premium-täyte'},
     gatePremium:  {en:'The seasonal fillings and jars past {n} are part of Premium — the starter jar is always free.',de:'Die saisonalen Füllungen und Mengen über {n} gehören zu Premium – das Startglas bleibt immer kostenlos.',fr:'Les contenus de saison et les bocaux de plus de {n} objets font partie de Premium : le bocal de départ reste gratuit.',it:'I contenuti stagionali e i barattoli oltre {n} fanno parte di Premium: il barattolo iniziale resta gratuito.',es:'Las colecciones de temporada y los frascos con más de {n} son parte de Premium: el frasco inicial siempre es gratis.',pt:'As opções sazonais e os vidros acima de {n} são do Premium — o vidro inicial é sempre grátis.',nl:'De seizoensvullingen en aantallen boven {n} horen bij Premium — de startvulling blijft altijd gratis.',sv:'Säsongens innehåll och burkar över {n} ingår i Premium – startburken är alltid gratis.',da:'Sæsonfyld og glas med over {n} ting hører til Premium – startglasset er altid gratis.',no:'Sesonginnholdet og glass over {n} hører til Premium – startglasset er alltid gratis.',fi:'Kausitäytteet ja yli {n} esineen purkit kuuluvat Premiumiin – aloituspurkki on aina ilmainen.'},
+    /* ⚠ The paid-plan name stays "Premium" here so this tool speaks with
+       ONE voice — a single paywall naming two plans is a recorded
+       defect. Catalog-wide the name is genuinely split (21 tools say
+       "the Teacher plan", 24 say "Premium") and the pricing page itself
+       says neither exactly (en "Teacher", de "Lehrkraft" against the
+       tools' "Lehrer-Paket"). That is a catalog decision with an
+       eleven-locale grammar tail, not one to take unilaterally inside
+       one tool. Surfaced, not quietly changed. */
+    printChip:    {en:'Print the record',de:'Protokoll drucken',fr:'Imprimer le relevé',it:'Stampa il resoconto',es:'Imprimir el registro',pt:'Imprimir o registo',nl:'Het verslag afdrukken',sv:'Skriv ut resultatet',da:'Udskriv opgørelsen',no:'Skriv ut oversikten',fi:'Tulosta kooste'},
+    gatePrint:    {en:'The printable record is part of Premium — the jar and the counting are always free.',de:'Das Protokoll zum Ausdrucken gehört zu Premium – das Glas und das Abzählen bleiben immer kostenlos.',fr:'Le relevé imprimable fait partie de Premium : le bocal et le comptage restent gratuits.',it:'Il resoconto da stampare fa parte di Premium: il barattolo e il conteggio restano gratuiti.',es:'El registro imprimible es parte de Premium: el frasco y el conteo siempre son gratis.',pt:'O registo para imprimir é do Premium — o vidro e a contagem são sempre grátis.',nl:'Het afdrukbare verslag hoort bij Premium — de pot en het tellen blijven altijd gratis.',sv:'Det utskrivbara resultatet ingår i Premium – burken och räknandet är alltid gratis.',da:'Den udskrivbare opgørelse hører til Premium — glasset og optællingen er altid gratis.',no:'Den utskrivbare oversikten hører til Premium – glasset og opptellingen er alltid gratis.',fi:'Tulostettava kooste kuuluu Premiumiin – purkki ja laskeminen ovat aina ilmaisia.'},
+    p1Head:       {en:'Our jar this week',de:'Unser Glas diese Woche',fr:'Notre bocal cette semaine',it:'Il nostro barattolo questa settimana',es:'Nuestro frasco de esta semana',pt:'O nosso vidro desta semana',nl:'Onze pot deze week',sv:'Vår burk den här veckan',da:'Vores glas i denne uge',no:'Glasset vårt denne uka',fi:'Tämän viikon purkkimme'},
+    p1Note:       {en:'Put this on the wall. Next week the class has a real ten, and a real forty, to think with.',de:'Hängt das an die Wand. Nächste Woche hat die Klasse eine echte Zehn und eine echte Vierzig im Kopf.',fr:'Affichez-le au mur. La semaine prochaine, la classe aura un vrai dix et un vrai quarante en tête.',it:'Appendetelo al muro. La settimana prossima la classe avrà un dieci vero e un quaranta vero a cui pensare.',es:'Cuélguenlo en la pared. La próxima semana la clase tendrá un diez real y un cuarenta real para pensar.',pt:'Pendurem na parede. Na próxima semana a turma terá um dez de verdade e um quarenta de verdade para pensar.',nl:'Hang dit aan de muur. Volgende week heeft de klas een echte tien en een echte veertig om mee te denken.',sv:'Sätt upp det på väggen. Nästa vecka har klassen en riktig tia och en riktig fyrtia att tänka med.',da:'Hæng det op på væggen. Næste uge har klassen en rigtig ti og en rigtig fyrre at tænke med.',no:'Heng det på veggen. Neste uke har klassen en ekte ti og en ekte førti å tenke med.',fi:'Ripustakaa se seinälle. Ensi viikolla luokalla on oikea kymmenen ja oikea neljäkymmentä mielessään.'},
+    p2Head:       {en:'Next week',de:'Nächste Woche',fr:'La semaine prochaine',it:'La settimana prossima',es:'La próxima semana',pt:'Na próxima semana',nl:'Volgende week',sv:'Nästa vecka',da:'Næste uge',no:'Neste uke',fi:'Ensi viikolla'},
+    p2Note:       {en:'Draw what is in the jar, mark every guess on the line, then colour in the tens as you count them out.',de:'Malt, was im Glas ist, markiert jede Schätzung auf der Linie und malt beim Abzählen die Zehner aus.',fr:'Dessinez ce qu’il y a dans le bocal, marquez chaque estimation sur la ligne, puis coloriez les dizaines en comptant.',it:'Disegnate cosa c’è nel barattolo, segnate ogni stima sulla linea, poi colorate le decine mentre contate.',es:'Dibujen lo que hay en el frasco, marquen cada idea en la línea y coloreen las decenas al contarlas.',pt:'Desenhem o que há no vidro, marquem cada palpite na linha e pintem as dezenas enquanto contam.',nl:'Teken wat er in de pot zit, zet elke schatting op de lijn en kleur de tientallen in terwijl je telt.',sv:'Rita vad som finns i burken, sätt varje gissning på linjen och färglägg tiotalen medan ni räknar.',da:'Tegn hvad der er i glasset, sæt hvert bud på linjen, og farvelæg tierne, mens I tæller op.',no:'Tegn hva som er i glasset, sett hvert overslag på tallinja, og fargelegg tierne mens dere teller.',fi:'Piirtäkää mitä purkissa on, merkitkää jokainen arvio viivalle ja värittäkää kymmenet laskiessanne.'},
     unlock:       {en:'See Premium',de:'Premium ansehen',fr:'Découvrir Premium',it:'Scopri Premium',es:'Ver Premium',pt:'Ver o Premium',nl:'Bekijk Premium',sv:'Se Premium',da:'Se Premium',no:'Se Premium',fi:'Tutustu Premiumiin'},
 
     /* settings */
@@ -869,7 +883,9 @@ var EstimationJar = {
     else if (this.stage === 'guess') wrap.appendChild(this._buildGuess());
     else wrap.appendChild(this._buildReveal());
 
+    wrap.appendChild(this._buildFoot());
     wrap.appendChild(this._buildSiblings());
+    this._after(0, function () { self._ensureSheet(api.stage); });
     if (this.panelOpen) wrap.appendChild(this._buildPanel());
     if (this.gateOpen) wrap.appendChild(this._buildGate());
     api.stage.appendChild(wrap);
@@ -1479,7 +1495,7 @@ var EstimationJar = {
            paywall copy promised "jars past 30", so the tool advertised
            a paid affordance with no control behind it. */
         if (delta > 0 && !self.premium && self.count >= self.ceiling()) {
-          self.gateOpen = true; self.render();
+          self.gateKey = 'capacity'; self.gateOpen = true; self.render();
         }
         return false;
       }
@@ -1544,7 +1560,7 @@ var EstimationJar = {
         b.setAttribute('aria-label', self.fmt('capAria', { n: c.cap }));
         b.setAttribute('aria-pressed', c.id === self.capacityId ? 'true' : 'false');
         b.addEventListener('click', function () {
-          if (locked) { self.gateOpen = true; self.render(); return; }
+          if (locked) { self.gateKey = 'capacity'; self.gateOpen = true; self.render(); return; }
           if (self.capacityId === c.id) return;
           self.capacityId = c.id;
           if (self.count > self.ceiling()) self.count = self.ceiling();
@@ -1933,6 +1949,134 @@ var EstimationJar = {
   },
 
   /* =================================================================
+     THE PRINT SHEET — "a printable jar for the wall", which the landing
+     page has sold since launch and which did not exist. There was an
+     @media print block hiding chrome and no control anywhere to reach
+     it: the inverse of the usual defect.
+
+     IT IS THE RECORD, NOT A PICTURE OF THE JAR. A photo of this week's
+     jar is worth nothing on Monday; a wall of "the jar held 37, and
+     here is the shape of what we thought" is a REFERENT LIBRARY, which
+     is the mechanism benchmark estimation actually runs on. Page two is
+     next week's blank, so the wall keeps growing.
+
+     ⚠ GATE THE FEATURE, NOT THE CHIP. fraction-kitchen shipped its
+     sheet into the DOM for everyone and scoped nothing, so a free
+     visitor pressing Ctrl+P — or File > Print, which no chip guards —
+     got every paid page. Two locks: the subtree is ABSENT unless
+     entitled, and every print rule is scoped `body.ej-paid`.
+     ================================================================= */
+  _ensureSheet: function (host) {
+    host = host || (this._wrap && this._wrap.parentNode);
+    if (!host) return;
+    var old = host.querySelector ? host.querySelector('.ej-sheet') : null;
+    if (old) old.parentNode.removeChild(old);
+    if (!this.premium) { document.body.classList.remove('ej-paid'); return; }
+    host.appendChild(this._buildSheet());
+    document.body.classList.add('ej-paid');
+  },
+
+  _buildSheet: function () {
+    var api = this.api, self = this;
+    var sheet = api.el('div', 'ej-sheet');
+    var page = function (cls) { var p = api.el('div', 'ej-page ' + cls); sheet.appendChild(p); return p; };
+    var head = function (host, h, note) {
+      var a = api.el('div', 'ej-phead'); a.textContent = api.t(h); host.appendChild(a);
+      var b = api.el('div', 'ej-pnote'); b.textContent = api.t(note); host.appendChild(b);
+    };
+
+    /* ---- page 1: this week's record ---- */
+    var p1 = page('ej-p1');
+    head(p1, 'p1Head', 'p1Note');
+
+    var told = api.el('div', 'ej-pbig');
+    told.textContent = this.stage === 'reveal'
+      ? this.fmt('theJarHeld', { n: this.count })
+      : this.fmt('theJarHeld', { n: '—' });
+    p1.appendChild(told);
+
+    /* the tens, as outlines — ink is expensive and a printed ten-frame
+       is a thing a child fills IN */
+    var groups = this.groupsOfTen(this.stage === 'reveal' ? this.count : 0);
+    var frames = api.el('div', 'ej-pframes');
+    for (var g = 0; g < Math.max(groups.length, 4); g++) {
+      var f = api.el('div', 'ej-ptf');
+      for (var i = 0; i < 10; i++) {
+        var c = api.el('span', 'ej-ptfcell');
+        if (groups[g] != null && i < groups[g]) c.className += ' ej-pon';
+        f.appendChild(c);
+      }
+      frames.appendChild(f);
+    }
+    p1.appendChild(frames);
+
+    /* the class's plot, redrawn in ink — the SAME bins the screen used,
+       so the paper cannot disagree with the board */
+    p1.appendChild(this._sheetPlot(this.liveGuesses(), this.stage === 'reveal' ? this.count : null));
+
+    /* ---- page 2: next week's blank ---- */
+    var p2 = page('ej-p2');
+    head(p2, 'p2Head', 'p2Note');
+    var jarBox = api.el('div', 'ej-pjar');
+    jarBox.innerHTML = '<svg viewBox="0 0 200 260" aria-hidden="true">'
+      + '<path d="' + this.JAR_BODY + '" fill="none" stroke="#111" stroke-width="1.6" '
+      + 'vector-effect="non-scaling-stroke"/>'
+      + '<path d="M31 88 C58 94 142 94 169 88" fill="none" stroke="#111" stroke-opacity="0.45" '
+      + 'stroke-width="1" vector-effect="non-scaling-stroke"/></svg>';
+    p2.appendChild(jarBox);
+    p2.appendChild(this._sheetPlot([], null));
+    var blanks = api.el('div', 'ej-pframes');
+    for (var q = 0; q < 4; q++) {
+      var bf = api.el('div', 'ej-ptf');
+      for (var k = 0; k < 10; k++) bf.appendChild(api.el('span', 'ej-ptfcell'));
+      blanks.appendChild(bf);
+    }
+    p2.appendChild(blanks);
+    return sheet;
+  },
+
+  _sheetPlot: function (values, truth) {
+    var api = this.api;
+    var max = this.ceiling();
+    var step = max <= 30 ? 5 : (max <= 60 ? 10 : (max <= 120 ? 20 : 25));
+    var bw = this.binWidthFor(max);
+    var bins = {}, i, key;
+    for (i = 0; i < values.length; i++) {
+      key = Math.round(values[i] / bw) * bw;
+      bins[key] = (bins[key] || 0) + 1;
+    }
+    var s = ['<svg viewBox="0 0 1000 210" preserveAspectRatio="none" aria-hidden="true">'];
+    s.push('<line x1="0" y1="150" x2="1000" y2="150" stroke="#111" stroke-width="1.4" vector-effect="non-scaling-stroke"/>');
+    for (i = 0; i <= max; i += step) {
+      var x = (i / max) * 1000;
+      s.push('<line x1="' + x + '" y1="144" x2="' + x + '" y2="160" stroke="#111" stroke-width="1.2" vector-effect="non-scaling-stroke"/>');
+    }
+    for (key in bins) {
+      if (!Object.prototype.hasOwnProperty.call(bins, key)) continue;
+      var px = (Number(key) / max) * 1000;
+      for (i = 0; i < bins[key]; i++) {
+        s.push('<circle cx="' + px.toFixed(1) + '" cy="' + (140 - i * 15) + '" r="5.5" fill="none" '
+          + 'stroke="#111" stroke-width="1.2" vector-effect="non-scaling-stroke"/>');
+      }
+    }
+    if (truth != null) {
+      var tx = (truth / max) * 1000;
+      s.push('<line x1="' + tx + '" y1="10" x2="' + tx + '" y2="150" stroke="#111" stroke-width="1.6" '
+        + 'stroke-dasharray="6 4" vector-effect="non-scaling-stroke"/>');
+    }
+    s.push('</svg>');
+    var box = api.el('div', 'ej-pplot');
+    box.innerHTML = s.join('');
+    /* the numerals ride outside the stretched SVG, as on screen */
+    var lbl = api.el('div', 'ej-pticks');
+    var html = '';
+    for (i = 0; i <= max; i += step) html += '<span style="left:' + ((i / max) * 100) + '%">' + i + '</span>';
+    lbl.innerHTML = html;
+    box.appendChild(lbl);
+    return box;
+  },
+
+  /* =================================================================
      PANEL / GATE / SIBLINGS
      ================================================================= */
 
@@ -1984,7 +2128,7 @@ var EstimationJar = {
       if (lockedN > 0) {
         var row = api.el('button', 'ej-lockedrow'); row.type = 'button';
         row.textContent = api.t('lockedSet') + ' · +' + lockedN;
-        row.addEventListener('click', function () { self.gateOpen = true; self.panelOpen = false; self.render(); });
+        row.addEventListener('click', function () { self.gateKey = 'sets'; self.gateOpen = true; self.panelOpen = false; self.render(); });
         panel.appendChild(row);
       }
     }
@@ -1999,7 +2143,11 @@ var EstimationJar = {
     scrim.addEventListener('click', function (e) { if (e.target === scrim) { self.gateOpen = false; self.render(); } });
     var g = api.el('div', 'ej-gate');
     var p = api.el('p', 'ej-gate-line');
-    p.textContent = this.fmt('gatePremium', { n: this.freeMax() });
+    /* the gate says what was actually asked for — a paywall that answers
+       a question nobody asked is the same defect as a control that does */
+    p.textContent = this.gateKey === 'print'
+      ? api.t('gatePrint')
+      : this.fmt('gatePremium', { n: this.freeMax() });
     g.appendChild(p);
     var a = api.el('a', 'ej-gate-cta');
     a.href = '/' + api.lang + '/pricing?from=tool-estimation-jar';
@@ -2012,6 +2160,21 @@ var EstimationJar = {
     g.appendChild(c);
     scrim.appendChild(g);
     return scrim;
+  },
+
+  _buildFoot: function () {
+    var self = this, api = this.api;
+    var foot = api.el('div', 'ej-foot');
+    var pr = api.el('button', 'ej-chip' + (this.premium ? '' : ' ej-locked'));
+    pr.type = 'button';
+    pr.textContent = api.t('printChip');
+    pr.addEventListener('click', function () {
+      if (!self.premium) { self.gateKey = 'print'; self.gateOpen = true; self.render(); return; }
+      self._ensureSheet(api.stage);
+      window.print();
+    });
+    foot.appendChild(pr);
+    return foot;
   },
 
   /* The Morning Circle suite footer. Calendar Wall deliberately deferred
@@ -2249,9 +2412,44 @@ function injectEstimationJarCSS() {
     + '.ej-closing{transition:none}'
     + '}'
 
+    /* the sheet, hidden on screen and revealed only in print media */
+    + '.ej-sheet{display:none}'
+    + '.ej-foot{display:flex;justify-content:center;gap:8px;width:100%}'
+    + '.ej-chip{font:600 14px/1 Nunito,system-ui,sans-serif;color:#146B5E;background:#FFF9EE;'
+    + 'border:2px solid #146B5E33;border-radius:999px;padding:10px 16px;min-height:44px;cursor:pointer}'
+    + '.ej-chip.ej-locked{border-color:#F2784B;color:#C2562F}'
+
     + '@media print{'
-    + '.ej-stages,.ej-go,.ej-linkbtn,.ej-scrim,.ej-siblings,.ej-stepbtn{display:none !important}'
-    + '.ej-card{box-shadow:none;border:1.5pt solid #666;page-break-inside:avoid;break-inside:avoid}'
+    /* ⚠ TWO LOCKS. Gating the CHIP is not gating the FEATURE: a free
+       visitor pressing Ctrl+P, or File > Print, never touches a chip.
+       The subtree is absent unless entitled AND every rule below is
+       scoped to body.ej-paid, so an unentitled Ctrl+P prints nothing
+       of the sheet. */
+    + 'body.ej-paid .lcs-header,body.ej-paid .ej-wrap{display:none !important}'
+    + 'body.ej-paid .ej-sheet{display:block !important;background:#fff !important}'
+    + '.ej-stages,.ej-go,.ej-linkbtn,.ej-scrim,.ej-siblings,.ej-stepbtn,.ej-chip,.ej-foot,'
+    + '.ej-hint,.ej-privacy,.ej-pill,.ej-caprow,.ej-tally{display:none !important}'
+    + 'html,body,.lcs-app,.lcs-stage{background:#fff !important;box-shadow:none !important;'
+    + 'max-width:none !important;max-height:none !important;height:auto !important}'
+    + '@page{margin:14mm}'
+    + '.ej-sheet,.ej-sheet *{color:#000 !important}'
+    + '.ej-page{break-after:page;break-inside:avoid;page-break-inside:avoid}'
+    + '.ej-page:last-child{break-after:auto}'
+    + '.ej-phead{font:700 20pt/1.2 "Baloo 2",Nunito,serif;margin:0 0 2mm}'
+    + '.ej-pnote{font:400 10pt/1.35 Nunito,sans-serif;margin:0 0 6mm}'
+    + '.ej-pbig{font:700 30pt/1.1 "Baloo 2",Nunito,serif;margin:0 0 6mm}'
+    + '.ej-pframes{display:flex;flex-wrap:wrap;gap:4mm;margin:0 0 8mm}'
+    + '.ej-ptf{display:grid;grid-template-columns:repeat(5,1fr);gap:0.6mm;padding:0.8mm;'
+    + 'border:0.5pt solid #000}'
+    + '.ej-ptfcell{width:9mm;height:9mm;border:0.4pt solid #000;display:block}'
+    + '.ej-ptfcell.ej-pon{background:#000 !important;-webkit-print-color-adjust:exact;print-color-adjust:exact}'
+    + '.ej-pplot{position:relative;width:100%;margin:0 0 8mm}'
+    + '.ej-pplot svg{width:100%;height:46mm;display:block;overflow:visible}'
+    + '.ej-pticks{position:relative;height:6mm}'
+    + '.ej-pticks span{position:absolute;transform:translateX(-50%);font:400 9pt Nunito,sans-serif}'
+    + '.ej-pjar{width:62mm;margin:0 0 6mm}'
+    + '.ej-pjar svg{width:100%;height:auto;display:block}'
+    + '.ej-card{box-shadow:none;border:none;page-break-inside:avoid;break-inside:avoid}'
     + '}';
   document.head.appendChild(st);
 }

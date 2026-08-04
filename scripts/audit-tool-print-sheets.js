@@ -77,6 +77,26 @@ const TOOLS = [
       if (T) { T.premium = true; T.render(); T._ensureSheet(); }
     }
   },
+  /* estimation-jar's sheet is the RECORD of a completed ritual, so the
+     prime has to run one: without a reveal, page 1 prints an em-dash
+     where the count goes and an empty plot — which is a legitimate state
+     (next week's blank) but not the one worth probing. Drive it to a
+     finished reveal first, then force the tier and rebuild. */
+  {
+    key: 'estimation-jar', p: 'ej', apparatus: '.ej-sheet', chrome: '.ej-foot',
+    prime: function (p) {
+      var T = window.EstimationJar;
+      if (!T) return;
+      T.premium = true;
+      T.stage = 'reveal';
+      T._revealShown = T.count;
+      var q = T.questionId();
+      T.guesses = [8, 11, 12, 12, 15, 19, 24].map(function (v) { return { v: v, q: q }; });
+      T._qid = q;
+      T.render();
+      T._ensureSheet();
+    }
+  },
   /* ⚠ draw-bag is DELIBERATELY NOT PROBED HERE, and saying so is the point.
      Its sheet is the RECORD, and a record does not exist until a class has
      filled the bag, committed a prediction on the shelves and opened it —

@@ -343,6 +343,20 @@ const WIDTH_PROBE = function (vw) {
     ok('locked row opens the gate', g.open);
     ok('gate links to pricing with the tool source', /\/en\/pricing\?from=tool-estimation-jar/.test(g.href || ''), g.href);
     ok('gate escapes the iframe', g.t === '_top');
+
+    /* ⚠ GATING THE CHIP IS NOT GATING THE FEATURE. A free visitor never
+       touches the Print chip when they press Ctrl+P or use File > Print,
+       so the sheet must be ABSENT from the DOM and the print rules must
+       be scoped to a class only an entitled visitor carries. Both, not
+       either — that is the recorded fraction-kitchen defect. */
+    const leak = await p.evaluate(() => ({
+      sheet: !!document.querySelector('.ej-sheet'),
+      paid: document.body.classList.contains('ej-paid'),
+      chip: !!document.querySelector('.ej-chip')
+    }));
+    ok('a free visitor still SEES the print chip (the promise is legible)', leak.chip);
+    ok('but has NO print sheet in the DOM — Ctrl+P leaks nothing', !leak.sheet);
+    ok('and carries no ej-paid class, so the print rules cannot fire', !leak.paid);
     await p.close();
   }
 

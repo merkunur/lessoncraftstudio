@@ -437,20 +437,116 @@ for (const food of Object.keys(T.FREE_TASKS)) {
    viewBox units map isotropically to px ONLY while it is square. A
    one-sided clamp would skew every hit target silently. */
 {
-  let m, blocks = 0;
+  let m, blocks = 0, sized = 0;
   const boxRe = /\.frk-foodbox\s*\{([^}]*)\}/g;
   while ((m = boxRe.exec(SRC))) {
     blocks++;
     const decl = m[1];
-    if (/aspect-ratio\s*:\s*1\b/.test(decl)) continue;
+    if (/aspect-ratio\s*:\s*1\b/.test(decl)) { sized++; continue; }
     const w = (decl.match(/(?:^|;)\s*width\s*:\s*([^;]+)/) || [])[1];
     const h = (decl.match(/(?:^|;)\s*height\s*:\s*([^;]+)/) || [])[1];
-    if (!w || !h) continue;
+    if (!w && !h) continue;
+    /* ⚠ a rule that sets ONE axis is the defect this section exists to
+       catch, and an earlier version skipped exactly those (`if (!w || !h)
+       continue`) — it could only ever see a mismatch it was already
+       looking at. */
+    if (!w || !h) {
+      E(`8d SQUARE INVARIANT: .frk-foodbox rule #${blocks} sets ${w ? 'width' : 'height'} alone — the other axis keeps its old value and the box goes oblong`);
+      continue;
+    }
+    sized++;
     if (w.trim() !== h.trim()) {
       E(`8d SQUARE INVARIANT: .frk-foodbox rule #${blocks} has width:${w.trim()} but height:${h.trim()} — the hit overlay's percentage maths needs a square box (or an explicit aspect-ratio:1)`);
     }
   }
-  if (blocks < 2) E(`8d NON-VACUITY: only ${blocks} .frk-foodbox rules parsed (expected ≥2 — base + breakpoints)`);
+  /* the floor is what the invariant NEEDS — one rule that sizes both axes
+     — not a count of breakpoints, which moved into a custom property */
+  if (!sized) E(`8d NON-VACUITY: no .frk-foodbox rule sizes both axes (${blocks} rules parsed)`);
+}
+
+/* =================== 9. THE FREEHAND MODEL ========================
+   The decoy guides are no longer drawn, but cuts().distractors is kept
+   BECAUSE it is the ideal fixture set: hand-authored segments already
+   proven (§1) to split the food measurably unequally. So they are what
+   the runtime area maths gets measured against.
+
+   ⚠ The oracle is CLOSED-FORM and written here, not read off the tool.
+   An earlier version asserted only that the designed demos "measure
+   unequal", and it condemned two correct ones: the pizza thirds decoy is
+   a RADIUS and the sixths decoy a DIAMETER, so as standalone lines they
+   split the circle into equal halves. They are unequal as members of a
+   PARTITION (what §1 measures by swapping), not as single cuts — and a
+   seesaw sitting level on them is the honest outcome.
+   ================================================================== */
+{
+  const G2 = T.GEO;
+  /* minor circular segment cut off by a chord at distance d from centre */
+  const capShare = (d) => {
+    const R = G2.R;
+    if (d >= R) return 0;
+    return (R * R * Math.acos(d / R) - d * Math.sqrt(R * R - d * d)) / (Math.PI * R * R);
+  };
+  const measure = (food, a, b) => {
+    T.food = food;
+    const ar = T._splitAreas(a, b);
+    const total = ar[0] + ar[1];
+    return { small: Math.min(...ar) / total, ratio: Math.max(...ar) / Math.max(1, Math.min(...ar)) };
+  };
+  let checked = 0;
+  /* pizza: vertical chords at a known offset from the centre */
+  for (const off of [0, 6, 14, 22, 30]) {
+    const x = G2.CX - off;
+    const got = measure('pizza', { x: x, y: 0 }, { x: x, y: 100 }).small;
+    const want = capShare(off);
+    checked++;
+    if (Math.abs(got - want) > 0.012) {
+      E(`9: pizza chord at offset ${off} — _splitAreas says ${(100 * got).toFixed(1)}%, closed form says ${(100 * want).toFixed(1)}%`);
+    }
+  }
+  /* a diameter at ANY angle must measure exactly half */
+  for (const deg of [0, 30, 45, 75]) {
+    const r = deg * Math.PI / 180;
+    const a = { x: G2.CX - 60 * Math.cos(r), y: G2.CY - 60 * Math.sin(r) };
+    const b = { x: G2.CX + 60 * Math.cos(r), y: G2.CY + 60 * Math.sin(r) };
+    const m = measure('pizza', a, b);
+    checked++;
+    if (m.ratio > 1.06) E(`9: a pizza diameter at ${deg}° measures UNEQUAL (ratio ${m.ratio.toFixed(3)}) — the beat would seesaw over equal halves`);
+  }
+  /* rect foods: the share is just the fraction of the width */
+  for (const food of ['bar', 'cake']) {
+    for (const x of [50, 42, 34, 22]) {
+      const got = measure(food, { x: x, y: 0 }, { x: x, y: 100 }).small;
+      const w = G2.RR - G2.RX;
+      const want = Math.min(x - G2.RX, G2.RR - x) / w;
+      checked++;
+      if (Math.abs(got - want) > 0.012) {
+        E(`9: ${food} vertical cut at x=${x} — _splitAreas says ${(100 * got).toFixed(1)}%, geometry says ${(100 * want).toFixed(1)}%`);
+      }
+    }
+  }
+  /* the floor, both directions: it must refuse a corner clip and accept
+     a genuine lopsided attempt */
+  for (const food of Object.keys(T.MENU)) {
+    /* ⚠ assert the floor the TOOL uses, not one the gate re-derives.
+       An earlier version computed it here and only checked the geometry
+       against itself, so the tool could have shipped any floor at all and
+       this section would still have passed. */
+    const floor = T._cutFloor(food);
+    const want = 1 / (Math.max(...T.MENU[food]) + 1);
+    if (Math.abs(floor - want) > 1e-9) {
+      E(`9: ${food} — the tool's free-cut floor is ${floor.toFixed(4)}, not the derived ${want.toFixed(4)} (one piece finer than this food's finest partition)`);
+    }
+    const clipX = food === 'pizza' ? G2.CX + G2.R * 0.80 : G2.RR - 4;
+    const clip = measure(food, { x: clipX, y: 0 }, { x: clipX, y: 100 });
+    if (clip.small >= floor) E(`9: ${food} — a corner clip (${(100 * clip.small).toFixed(1)}%) clears the floor ${(100 * floor).toFixed(1)}%; travel between two guides would cut the food`);
+    const lopX = food === 'pizza' ? G2.CX - 18 : G2.RX + (G2.RR - G2.RX) * 0.28;
+    const lop = measure(food, { x: lopX, y: 0 }, { x: lopX, y: 100 });
+    if (lop.small < floor) E(`9: ${food} — a genuine lopsided attempt (${(100 * lop.small).toFixed(1)}%) is refused by the floor ${(100 * floor).toFixed(1)}%; the teachable cut would do nothing`);
+    if (lop.ratio <= 1.06) E(`9: ${food} — a lopsided cut measures EQUAL (ratio ${lop.ratio.toFixed(3)})`);
+    checked += 2;
+  }
+  if (checked < 18) E(`9 NON-VACUITY: only ${checked} freehand measurements taken (expected ≥18)`);
+  T.food = 'pizza';
 }
 
 /* =================== report ======================================== */

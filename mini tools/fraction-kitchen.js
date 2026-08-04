@@ -143,8 +143,17 @@ var FractionKitchen = {
 
   /* ======================= geometry (copied + extended) ============= */
   GEO: { CX: 50, CY: 50, R: 40, RX: 8, RY: 28, RR: 92, RB: 72 },
-  /* menu: food → allowed n (order = chip order). Free = pizza 2/4. */
-  MENU: { pizza: [2, 3, 4, 6], bar: [2, 3, 6], cake: [2, 3, 4, 8] },
+  /* menu: food → allowed n (order = chip order). Free = pizza 2/4.
+     ⚠ ORDER IS DIFFICULTY, not arithmetic. Halving is a repeatable action
+     a child can perform; odd partitions require anticipating a fraction of
+     a turn with no landmark, and circle-thirds is the hardest common case
+     in the whole tool. The pizza used to offer 2,3,4,6 — presenting that
+     hardest case SECOND, before fourths. 2 → 4 → 3 → 6 is the order the
+     partitioning research actually supports, and it puts the two free
+     pizza chips adjacent as a side effect. The bar keeps thirds early:
+     its mould already scores the thirds line, so it is the one scaffolded
+     thirds in the tool and the right first non-halving cut. */
+  MENU: { pizza: [2, 4, 3, 6], bar: [2, 3, 6], cake: [2, 4, 3, 8] },
   FREE_TASKS: { pizza: [2, 4] },
 
   _diam: function (deg) {
@@ -354,7 +363,11 @@ var FractionKitchen = {
     return s;
   },
   frac: function (den, form) { return this._loc(this.FRAC[den][form]); },
+  /* ONE place writes the ribbon, so all thirteen channels light up at
+     once and none can be forgotten */
   _speak: function (text) {
+    this._lastSaid = text;
+    if (this._ribbonEl) this._ribbonEl.textContent = text;
     if (!this.api.settings.speakNames) { this.api.announce(text); return; }
     try { LCSAudio.speak({ type: 'ui', text: text, lang: this.api.lang, rate: 0.92 }); } catch (_) {}
     this.api.announce(text);
@@ -434,12 +447,34 @@ var FractionKitchen = {
     document.body.classList.add('frk-wide');
 
     var wrap = api.el('div', 'frk-wrap');
+    /* the mode drives PROMINENCE declaratively — the board is the subject
+       only while cutting; in share the plates lead, in the tray station
+       the board is not the subject at all and is not drawn */
+    wrap.dataset.mode = this.mode;
     stage.appendChild(wrap);
     this._wrap = wrap;
+    this._foodBoxEl = this._foodSvgEl = this._hitsEl = this._knifeBtn = this._knifeEl = null;
+
+    if (this.mode === 'equiv') {
+      /* the tray draws from its own supply row; a whole uncut pizza
+         holding 55% of the screen here was scenery that crowded the
+         station out of view. Keep the counter so the room is still a
+         kitchen, and give the height to the trays. */
+      wrap.appendChild(this._traysRow());
+      wrap.appendChild(this._ribbon());
+      wrap.appendChild(this._dock());
+      return;
+    }
 
     /* board zone */
     var zone = api.el('div', 'frk-boardzone');
     zone.innerHTML = '<div class="frk-counter"></div>';
+    /* board + knife rest sit in a FLEX ROW. The rest used to be absolutely
+       positioned inside the zone and, at ≤560px, re-anchored bottom-right
+       — directly on top of the board, clipping the food. Nothing is
+       absolutely positioned over the board now, at any width, so that
+       cannot recur by construction. */
+    var row = api.el('div', 'frk-counterrow');
     var board = api.el('div', 'frk-board');
     board.innerHTML = '<div class="frk-hole"></div>';
     /* THREE layers, and the split is load-bearing:
@@ -455,7 +490,7 @@ var FractionKitchen = {
     var hits = api.el('div', 'frk-hitlayer');
     foodBox.append(foodSvg, hits);
     board.appendChild(foodBox);
-    zone.appendChild(board);
+    row.appendChild(board);
     this._foodBoxEl = foodBox;
     this._foodSvgEl = foodSvg;
     this._hitsEl = hits;
@@ -467,18 +502,50 @@ var FractionKitchen = {
       food: this._loc(this.strings['food' + this.food.charAt(0).toUpperCase() + this.food.slice(1)]),
       n: this.n, fp: this.frac(this.n, 'p')
     }));
-    zone.appendChild(rest);
+    row.appendChild(rest);
+    zone.appendChild(row);
     this._knifeEl = rest.querySelector('.frk-knife');
     wrap.appendChild(zone);
     this._paintHits();
     this._wireKnife();
     this._wireBoard();
 
-    /* plates / trays */
     if (this.mode === 'share') wrap.appendChild(this._platesRow());
-    if (this.mode === 'equiv') wrap.appendChild(this._traysRow());
 
+    wrap.appendChild(this._ribbon());
     wrap.appendChild(this._dock());
+  },
+
+  /* ====================== the word ribbon ==========================
+     Every one of this tool's thirteen utterance channels went to
+     LCSAudio.speak plus api.announce — and api.announce writes into
+     .lcs-sr-only, which lcs-shell.css defines as width:1px;
+     clip:rect(0 0 0 0). So the fraction name, the cut prompt, the
+     unequal observation, the leftover observation and all eight
+     premium stories were audio-or-screen-reader ONLY.
+
+     This tool's whole thesis is MEANING BEFORE NOTATION — the WORD is
+     the representation, and there is deliberately no ½ anywhere. Muted
+     on a classroom projector, or in the six locales where LCSAudio has
+     no reliable voice, it therefore showed no representation of a
+     fraction at all. It failed the house acceptance test verbatim: the
+     tool must be legible with the sound off.
+
+     Zero new strings — all eleven locales were already authored. They
+     just had nowhere visible to land. The apparatus itself still carries
+     no words; this is chrome, below the board. */
+  _ribbon: function () {
+    var api = this.api;
+    var r = api.el('div', 'frk-ribbon');
+    var pill = api.el('span', 'frk-nowlbl');
+    /* the standing partition label — what the class reads aloud together */
+    pill.textContent = this.frac(this.n, 'p');
+    var line = api.el('span', 'frk-said');
+    line.setAttribute('aria-hidden', 'true');   /* api.announce already speaks it politely */
+    line.textContent = this._lastSaid || '';
+    r.append(pill, line);
+    this._ribbonEl = line;
+    return r;
   },
 
   _foodSVG: function () {
@@ -486,14 +553,23 @@ var FractionKitchen = {
     var s = '<svg class="frk-food" viewBox="0 0 100 100" aria-hidden="true">';
     if (!this.sliced) {
       s += '<g class="frk-body">' + this._bodySVG(this.food) + '</g>';
-      /* guides: correct + distractors styled IDENTICALLY (no telegraphing) */
-      var addGuide = function (seg, kind, idx, committed) {
-        s += '<line class="frk-guide' + (committed ? ' cutline' : '') + '" data-kind="' + kind + '" data-idx="' + idx + '"' +
-          ' x1="' + seg.x1 + '" y1="' + seg.y1 + '" x2="' + seg.x2 + '" y2="' + seg.y2 + '"/>';
-      };
+      /* ONLY the equal-parts figure. The decoy line that used to be drawn
+         here — pixel-identical, one per board — is gone: thirds drew FOUR
+         radii (60/60/120/120, which is not thirds and is not anything) and
+         fourths drew a clean cross plus a stray chord. At this age a
+         partition is recognised as a whole-figure gestalt, so the first
+         answer to "what does thirds look like?" was the contaminated one.
+         The decoy is not replaced by nothing: the whole food is cuttable,
+         and an off-pattern stroke runs the same beat from the child's own
+         line (_freeCut). cuts().distractors survives as gate fixtures —
+         proven-unequal segments are exactly the known-bad input the
+         area maths needs — but is never drawn and never magnetic. */
       var self = this;
-      cuts.correct.forEach(function (seg, i) { addGuide(seg, 'c', i, self.committed.indexOf(i) >= 0); });
-      cuts.distractors.forEach(function (seg, i) { addGuide(seg, 'd', i, false); });
+      cuts.correct.forEach(function (seg, i) {
+        s += '<line class="frk-guide' + (self.committed.indexOf(i) >= 0 ? ' cutline' : '') +
+          '" data-kind="c" data-idx="' + i + '"' +
+          ' x1="' + seg.x1 + '" y1="' + seg.y1 + '" x2="' + seg.x2 + '" y2="' + seg.y2 + '"/>';
+      });
       s += '<line class="frk-score" x1="-20" y1="-20" x2="-20" y2="-20"/>';
     } else {
       /* sliced: pieces as clipped copies, exploded along centroid vectors */
@@ -506,10 +582,15 @@ var FractionKitchen = {
         var len = Math.hypot(dx, dy) || 1;
         var ex = (dx / len * 2.5).toFixed(2), ey = (dy / len * 2.5).toFixed(2);
         var placedIdx = this.placed.indexOf(i);
+        /* A shared piece is GONE, not ghosted. The old .18 opacity read as
+           broken; a board-coloured socket reads as an empty space where a
+           slice used to be — and the child watches the food get smaller as
+           it is shared, which is the lesson, drawn. */
         s += '<g class="frk-piece' + (placedIdx >= 0 ? ' onplate' : '') + '" data-piece="' + i + '" style="--ex:' + ex + 'px;--ey:' + ey + 'px">' +
+          '<path class="frk-socket" d="' + p.d + '"/>' +
           '<clipPath id="frkp' + i + '"><path d="' + p.d + '"/></clipPath>' +
-          '<g clip-path="url(#frkp' + i + ')">' + body + '</g>' +
-          '<path d="' + p.d + '" fill="none" stroke="' + edge + '" stroke-width="1.6"/>' +
+          '<g class="frk-pbody" clip-path="url(#frkp' + i + ')">' + body + '</g>' +
+          '<path class="frk-pedge" d="' + p.d + '" fill="none" stroke="' + edge + '" stroke-width="1.6"/>' +
           '</g>';
       }, this);
     }
@@ -546,28 +627,10 @@ var FractionKitchen = {
       return;
     }
     var cuts = this.cuts(this.food, this.n);
-    var list = [];
-    cuts.correct.forEach(function (seg, i) { if (self.committed.indexOf(i) < 0) list.push({ seg: seg, kind: 'c', idx: i }); });
-    cuts.distractors.forEach(function (seg, i) { list.push({ seg: seg, kind: 'd', idx: i }); });
-    /* ⚠ DOM order must not reveal which one is the decoy. The visual
-       lock (pixel-identical strokes) is worthless if tab order sorts
-       correct-then-distractor, which is exactly what emission order
-       does. Shuffle deterministically per (food,n) so a gate can
-       reproduce it and a child cannot learn it. */
-    this._shuffleStable(list, this.food + ':' + this.n);
-    list.forEach(function (c) { hits.appendChild(self._cutBtn(c.seg, c.kind, c.idx)); });
-  },
-
-  /* deterministic order-only shuffle — same board, same order, all session */
-  _shuffleStable: function (arr, seedStr) {
-    var h = 2166136261;
-    for (var k = 0; k < seedStr.length; k++) { h ^= seedStr.charCodeAt(k); h = (h * 16777619) >>> 0; }
-    for (var i = arr.length - 1; i > 0; i--) {
-      h = (h * 1664525 + 1013904223) >>> 0;
-      var j = h % (i + 1);
-      var t = arr[i]; arr[i] = arr[j]; arr[j] = t;
-    }
-    return arr;
+    cuts.correct.forEach(function (seg, i) {
+      if (self.committed.indexOf(i) >= 0) return;
+      hits.appendChild(self._cutBtn(seg, 'c', i));
+    });
   },
 
   _cutBtn: function (seg, kind, idx) {
@@ -720,9 +783,28 @@ var FractionKitchen = {
     this._moveKnife(e);
     var c = d.cut;
     var pt = this._toFood(e.clientX, e.clientY, d.rect);
-    if (!pt) { this._disengage(c); return; }
-    var hit = this._nearestGuide(pt, c.key);
-    if (!hit) { this._disengage(c); return; }
+    if (!pt) { this._disengage(c); c.anchor = null; return; }
+    /* ONE anchor per stroke: the first point that landed on the food.
+       ⚠ It must NOT be reset when the stroke passes a guide. It was, and
+       that broke freehand outright — every diameter of the pizza crosses
+       the vertical guide at the centre, so a diagonal stroke was captured
+       mid-travel, released, and re-anchored, and never accumulated enough
+       length on either side to cut. The child got nothing at all. */
+    if (!this._onFood(pt)) { this._disengage(c); c.anchor = null; return; }
+    if (!c.anchor) { c.anchor = { x: pt.x, y: pt.y }; c.path = 0; c.prev = { x: pt.x, y: pt.y }; return; }
+    /* ⚠ A CUT IS STRAIGHT. Path length is tracked against straight-line
+       distance because carrying the knife ACROSS the food to reach a line
+       is not a cut — it is an approach, and it used to fire one. When the
+       stroke bends past 1.3, re-anchor here so a fresh straight stroke can
+       begin without the child having to lift the knife and start again. */
+    c.path += Math.hypot(pt.x - c.prev.x, pt.y - c.prev.y);
+    c.prev = { x: pt.x, y: pt.y };
+    var adx = pt.x - c.anchor.x, ady = pt.y - c.anchor.y;
+    var travel = Math.hypot(adx, ady);
+    if (travel > 8 && c.path > travel * 1.3) { c.anchor = { x: pt.x, y: pt.y }; c.path = 0; return; }
+    var ux = travel > 3 ? adx / travel : null, uy = travel > 3 ? ady / travel : null;
+    var hit = ux === null ? null : this._nearestGuide(pt, c.key, ux, uy);
+    if (!hit) { this._freeMove(c, pt, travel, ux, uy); return; }
     if (c.key !== hit.key) {
       this._disengage(c);
       c.key = hit.key; c.kind = hit.kind; c.idx = hit.idx; c.seg = hit.seg;
@@ -737,9 +819,9 @@ var FractionKitchen = {
     c.progress = Math.max(c.progress, Math.min(1, prog));
     this._paintScore(c);
     if (c.progress >= 0.8) {
-      var kind = c.kind, idx = c.idx;
+      var idx = c.idx;
       this._disengage(c);
-      this._commit(kind, idx);
+      this._commit(idx);
       if (this.sliced || this._busy) this._endKnife(c);
     }
   },
@@ -754,7 +836,7 @@ var FractionKitchen = {
     this._hitsEl.addEventListener('click', function (e) {
       var b = e.target.closest && e.target.closest('.frk-cutbtn');
       if (!b || self._busy || self.sliced) return;
-      self._commit(b.dataset.kind, Number(b.dataset.idx));
+      self._commit(Number(b.dataset.idx));
     });
   },
 
@@ -785,19 +867,172 @@ var FractionKitchen = {
     if (cx < r.left - 40 || cx > r.right + 40 || cy < r.top - 40 || cy > r.bottom + 40) return null;
     return { x: (cx - r.left) / r.width * 100, y: (cy - r.top) / r.height * 100 };
   },
-  /* reads the MODEL, not the DOM — so a repaint cannot change the answer */
-  _nearestGuide: function (pt, currentKey) {
-    var corridor = 9;   /* viewBox units ≈ 26px at S≈3 */
+  /* reads the MODEL, not the DOM — so a repaint cannot change the answer.
+     CORRECT guides only: a line that is not drawn must not be magnetic.
+
+     ⚠ A guide captures a stroke only when the stroke is FOLLOWING it —
+     within the corridor AND roughly parallel. Proximity alone is not
+     enough: every cut through the middle of the food crosses every other
+     guide there, so a corridor without a direction test hijacks each one. */
+  _nearestGuide: function (pt, currentKey, ux, uy) {
+    var corridor = 9;   /* viewBox units ≈ 26px at S≈3 — a real knife forgives a near miss */
     var best = null, bestD = corridor + (currentKey ? 3 : 0);
-    var self = this, cuts = this.cuts(this.food, this.n);
-    var consider = function (seg, kind, idx) {
-      if (kind === 'c' && self.committed.indexOf(idx) >= 0) return;
+    var self = this;
+    this.cuts(this.food, this.n).correct.forEach(function (seg, i) {
+      if (self.committed.indexOf(i) >= 0) return;
+      if (ux != null) {
+        var gx = seg.x2 - seg.x1, gy = seg.y2 - seg.y1;
+        var gl = Math.hypot(gx, gy) || 1;
+        if (Math.abs((gx / gl) * ux + (gy / gl) * uy) < 0.85) return;   /* crossing, not following */
+      }
       var d = self._distToSeg(pt, seg);
-      if (d < bestD) { bestD = d; best = { key: kind + idx, kind: kind, idx: idx, seg: seg }; }
-    };
-    cuts.correct.forEach(function (s, i) { consider(s, 'c', i); });
-    cuts.distractors.forEach(function (s, i) { consider(s, 'd', i); });
+      if (d < bestD) { bestD = d; best = { key: 'c' + i, kind: 'c', idx: i, seg: seg }; }
+    });
     return best;
+  },
+
+  /* ===================== freehand cutting ===========================
+     The whole food is cuttable, not just the marked lines. A stroke that
+     misses every guide corridor still cuts — and what happens next is
+     decided by MEASURING the two pieces, not by whether the child found
+     a line somebody planted.
+
+     That measurement is what makes the seesaw honest. Unequal pieces
+     tip; equal ones sit level. The tool stops asserting and starts
+     showing, which is the same move the tray station already makes when
+     it proves equivalence by tiling. */
+  _onFood: function (p) {
+    var G = this.GEO;
+    if (this.food === 'pizza') return Math.hypot(p.x - G.CX, p.y - G.CY) <= G.R;
+    return p.x >= G.RX && p.x <= G.RR && p.y >= G.RY && p.y <= G.RB;
+  },
+  /* length of the food's chord along direction (ux,uy) through point p */
+  _chordThrough: function (p, ux, uy) {
+    var G = this.GEO;
+    if (this.food === 'pizza') {
+      var cx = G.CX - p.x, cy = G.CY - p.y;
+      var proj = cx * ux + cy * uy;
+      var d2 = (cx * cx + cy * cy) - proj * proj;
+      if (d2 >= G.R * G.R) return 0;
+      return 2 * Math.sqrt(G.R * G.R - d2);
+    }
+    /* Liang–Barsky against the slab */
+    var t0 = -Infinity, t1 = Infinity;
+    var seg = [[-ux, p.x - G.RX], [ux, G.RR - p.x], [-uy, p.y - G.RY], [uy, G.RB - p.y]];
+    for (var i = 0; i < 4; i++) {
+      var pp = seg[i][0], qq = seg[i][1];
+      if (pp === 0) { if (qq < 0) return 0; continue; }
+      var r = qq / pp;
+      if (pp < 0) { if (r > t1) return 0; if (r > t0) t0 = r; }
+      else { if (r < t0) return 0; if (r < t1) t1 = r; }
+    }
+    return Math.max(0, t1 - t0);
+  },
+  _freeMove: function (c, pt, travel, ux, uy) {
+    this._disengage(c);
+    if (travel < 6 || ux == null) return;
+    var chord = this._chordThrough(c.anchor, ux, uy);
+    if (chord <= 0) return;
+    this._paintScoreAB(c.anchor, pt);
+    if (travel >= chord * 0.8 && c.path <= travel * 1.15) {
+      var a = c.anchor;
+      c.anchor = null;
+      this._freeCut(a, { x: pt.x, y: pt.y });
+    }
+  },
+  /* point-sampled areas either side of the infinite line through a→b */
+  _splitAreas: function (a, b) {
+    var G = this.GEO, STEP = 0.8;
+    var dx = b.x - a.x, dy = b.y - a.y;
+    var lo = 0, hi = 0;
+    var x0, x1, y0, y1;
+    if (this.food === 'pizza') { x0 = G.CX - G.R; x1 = G.CX + G.R; y0 = G.CY - G.R; y1 = G.CY + G.R; }
+    else { x0 = G.RX; x1 = G.RR; y0 = G.RY; y1 = G.RB; }
+    for (var x = x0; x <= x1; x += STEP) {
+      for (var y = y0; y <= y1; y += STEP) {
+        if (!this._onFood({ x: x, y: y })) continue;
+        if (dx * (y - a.y) - dy * (x - a.x) >= 0) lo++; else hi++;
+      }
+    }
+    return [lo, hi];
+  },
+  /* the smallest share a free cut may leave and still count as a cut —
+     one piece of a partition finer than any this food offers. A named
+     method so the gate can assert the VALUE the tool uses, not merely
+     re-derive the same number and check the geometry against itself. */
+  _cutFloor: function (food) { return 1 / (Math.max.apply(null, this.MENU[food]) + 1); },
+  /* is the stroke a→b the same LINE as segment g? (near it, and parallel) */
+  _sameLine: function (a, b, g) {
+    var dx = b.x - a.x, dy = b.y - a.y, l = Math.hypot(dx, dy) || 1;
+    var gx = g.x2 - g.x1, gy = g.y2 - g.y1, gl = Math.hypot(gx, gy) || 1;
+    if (Math.abs((dx / l) * (gx / gl) + (dy / l) * (gy / gl)) < 0.95) return false;
+    var mx = (g.x1 + g.x2) / 2, my = (g.y1 + g.y2) / 2;
+    return Math.abs((mx - a.x) * (dy / l) - (my - a.y) * (dx / l)) < 6;
+  },
+  _freeCut: function (a, b) {
+    var self = this;
+    if (this._busy || this.sliced) return;
+    /* ⚠ A STROKE THAT LIES ON A GUIDE IS THAT GUIDE'S CUT, not a free one.
+       Without this, continuing past a commit re-cut the very line just
+       cut: the stroke carried on down the vertical, found no guide there
+       any more (it was committed), and fired the unequal beat — which
+       set _busy and made the second line of a cross unreachable in the
+       same stroke. Re-cutting a line you already cut does nothing, which
+       is also what a knife does. */
+    var segs = this.cuts(this.food, this.n).correct;
+    for (var i = 0; i < segs.length; i++) {
+      if (!this._sameLine(a, b, segs[i])) continue;
+      this._disengage(null);
+      if (this.committed.indexOf(i) < 0) this._commit(i);
+      return;
+    }
+    var ar = this._splitAreas(a, b);
+    var total = ar[0] + ar[1], small = Math.min(ar[0], ar[1]);
+    /* ⚠ A CORNER CLIP IS NOT A CUT, and "80% of its own chord" does not
+       say so: a stroke near the rim crosses a very short chord, so 26
+       units of travel satisfied it and sliced a crumb off the edge. That
+       fired on the approach to a guide, and again on the travel BETWEEN
+       two guides during a single cross-cutting stroke.
+
+       The floor is DERIVED: the smaller side must be at least as big as
+       one piece of a partition FINER than any this food offers. Below
+       that, the stroke cannot have been an attempt to partition this
+       food at all — it clipped a corner in passing. (Pizza: 1/7. Cake:
+       1/9. The designed unequal demos sit at 19-33%, so they clear it
+       comfortably; the transition artefact measured 9%.) */
+    if (!total || small / total < this._cutFloor(this.food)) { this._disengage(null); return; }
+    var ratio = Math.max(ar[0], ar[1]) / Math.max(1, small);
+    this._beat({ x1: a.x, y1: a.y, x2: b.x, y2: b.y }, ratio > 1.06);
+  },
+  /* the beat: physics, never a verdict. `unequal` decides whether the
+     pieces seesaw and whether the kind line is worth saying at all — an
+     off-guide cut that happens to halve the food EARNED a level board,
+     and saying "those are not the same size" over it would be a lie. */
+  _beat: function (seg, unequal) {
+    var self = this;
+    this._busy = true;
+    var box = this._foodBoxEl;
+    box.classList.add('unequal');
+    this._foodSvgEl.innerHTML = this._unequalSVG(seg);
+    this._hitsEl.style.visibility = 'hidden';
+    if (unequal) {
+      this._sfxWobble();
+      if (!this.wobbleSpoken[this.food]) {
+        this.wobbleSpoken[this.food] = true;
+        setTimeout(function () { self._speak(self.api.t('wobbleLine')); }, 450);
+      }
+      setTimeout(function () { box.classList.add('seesaw'); }, 220);
+      setTimeout(function () { box.classList.remove('seesaw'); box.classList.add('healing'); }, 920);
+    } else {
+      this._sfxPlate();
+      setTimeout(function () { box.classList.add('healing'); }, 920);
+    }
+    setTimeout(function () {
+      box.classList.remove('unequal', 'healing');
+      self._paintFood();
+      self._hitsEl.style.visibility = '';
+      self._busy = false;
+    }, 1640);
   },
   _guideFor: function (kind, idx) {
     return this._foodSvgEl.querySelector('.frk-guide[data-kind="' + kind + '"][data-idx="' + idx + '"]');
@@ -822,53 +1057,40 @@ var FractionKitchen = {
     sc.setAttribute('x2', tx); sc.setAttribute('y2', ty);
     sc.style.visibility = 'visible';
   },
+  /* the freehand score: the child's own line, drawn as they travel */
+  _paintScoreAB: function (a, b) {
+    var sc = this._foodSvgEl.querySelector('.frk-score');
+    if (!sc) return;
+    sc.setAttribute('x1', a.x); sc.setAttribute('y1', a.y);
+    sc.setAttribute('x2', b.x); sc.setAttribute('y2', b.y);
+    sc.style.visibility = 'visible';
+  },
 
-  _commit: function (kind, idx) {
+  /* only correct guides commit. The old `kind` fork carried a distractor
+     branch that nothing can now reach: decoys are neither drawn nor
+     magnetic, and the beat they used to trigger lives in _beat(), where
+     _freeCut calls it with the child's own line. */
+  _commit: function (idx) {
     var self = this;
     if (this._busy || this.sliced) return;
-    if (kind === 'c') {
-      if (this.committed.indexOf(idx) >= 0) return;
-      this.committed.push(idx);
-      this._sfxSlice();
-      var total = this.cuts(this.food, this.n).correct.length;
+    if (this.committed.indexOf(idx) >= 0) return;
+    this.committed.push(idx);
+    this._sfxSlice();
+    var total = this.cuts(this.food, this.n).correct.length;
       /* SURGICAL. The old code rebuilt the whole food here and re-wired
          the knife, which (a) destroyed the node the gesture was running
          on, so a cross needed two separate press-drag-releases, and (b)
          stacked another handler quadruple on the knife every cut. One
          class and one removed button is the entire visual delta. */
-      this._markCut(idx);
-      if (this.committed.length === total) {
-        this.sliced = true;
-        this._paintFood();            /* full rebuild — the gesture is over by definition */
-        requestAnimationFrame(function () { self._foodBoxEl.classList.add('exploded'); });
-        this._speak(this.fmt('cutDone', { n: this.n, fp: this.frac(this.n, 'p') }));
-        if (this._knifeBtn) this._knifeBtn.classList.add('done');
-        this._refreshDock();
-      }
-      return;
+    this._markCut(idx);
+    if (this.committed.length === total) {
+      this.sliced = true;
+      this._paintFood();            /* full rebuild — the gesture is over by definition */
+      requestAnimationFrame(function () { self._foodBoxEl.classList.add('exploded'); });
+      this._speak(this.fmt('cutDone', { n: this.n, fp: this.frac(this.n, 'p') }));
+      if (this._knifeBtn) this._knifeBtn.classList.add('done');
+      this._refreshDock();
     }
-    /* DISTRACTOR: the unequal-beat — physics, never a verdict */
-    this._busy = true;
-    this._sfxWobble();
-    var seg = this.cuts(this.food, this.n).distractors[idx];
-    var box = this._foodBoxEl;
-    box.classList.add('unequal');
-    /* split visual: clip the body along the distractor into 2 unequal groups */
-    this._foodSvgEl.innerHTML = this._unequalSVG(seg);
-    this._hitsEl.style.visibility = 'hidden';
-    var say = !this.wobbleSpoken[this.food];
-    if (say) {
-      this.wobbleSpoken[this.food] = true;
-      setTimeout(function () { self._speak(self.api.t('wobbleLine')); }, 450);
-    }
-    setTimeout(function () { box.classList.add('seesaw'); }, 220);
-    setTimeout(function () { box.classList.remove('seesaw'); box.classList.add('healing'); }, 920);
-    setTimeout(function () {
-      box.classList.remove('unequal', 'healing');
-      self._paintFood();
-      self._hitsEl.style.visibility = '';
-      self._busy = false;
-    }, 1640);
   },
   /* the whole visual delta of a non-final cut */
   _markCut: function (idx) {
@@ -1073,8 +1295,16 @@ var FractionKitchen = {
       var leftover = total - this.friends;
       setTimeout(function () {
         if (leftover > 0) {
-          /* a DISCUSSION moment: observe, then WAIT */
-          self._speak(self.api.t('shareLeftover'));
+          /* ⚠ shareLeftover is the ONE share string with no placeholders:
+             "…and ONE piece is left over." It is true for leftover === 1,
+             which is the story it was written for — and false everywhere
+             else, including pizza-fourths shared between two friends,
+             which is the most ordinary thing a FREE user will do. It said
+             "one" when two, three or four were left, in eleven locales.
+             Saying nothing is a discussion moment too; the tool already
+             observes-then-waits. Parameterising it properly needs counted
+             forms in eleven languages — a locale pass, not a code fix. */
+          if (leftover === 1) self._speak(self.api.t('shareLeftover'));
         } else if (leftover < 0) {
           self._speak(self.fmt('shareEmpty', { p: total, f: self.friends }));
         } else {
@@ -1086,9 +1316,10 @@ var FractionKitchen = {
           }, 1400);
         }
       }, 350);
-    } else if (this.friends > total && filled === total) {
-      setTimeout(function () { self._speak(self.fmt('shareEmpty', { p: total, f: self.friends })); }, 350);
     }
+    /* (the old `else if (friends > total && filled === total)` branch was
+       unreachable: when friends > total, Math.min(friends,total) IS total,
+       so the first branch already covers it.) */
   },
 
   /* ========================= equivalence tray ======================= */
@@ -1416,17 +1647,41 @@ var FractionKitchen = {
   + '@media (max-width:480px){body.frk-wide .lcs-header{flex-direction:column;align-items:flex-start;gap:8px;}}'
   + '.frk-wrap{display:flex;flex-direction:column;align-items:center;gap:clamp(6px,1.2vmin,12px);width:100%;height:100%;min-height:0;}'
 
-  /* board zone + backdrop */
-  + '.frk-boardzone{position:relative;flex:1 1 auto;min-height:300px;width:100%;display:flex;'
+  /* board zone + backdrop.
+     ⚠ min-height:0 is load-bearing. Without it the zone could not shrink
+     below its content, so in share/equiv the board overflowed the band and
+     crossed the counter — visible in the committed 1024×768 QA renders. */
+  + '.frk-boardzone{position:relative;flex:1 1 auto;min-height:0;width:100%;display:flex;'
   +   'align-items:center;justify-content:center;}'
+  + '.frk-wrap[data-mode="share"] .frk-boardzone{flex:0 0 auto;}'
+  + '.frk-counterrow{display:flex;align-items:center;justify-content:center;'
+  +   'gap:clamp(6px,1.6vmin,18px);height:100%;min-height:0;width:100%;}'
   + '.frk-counter{position:absolute;bottom:0;left:0;right:0;height:26px;pointer-events:none;'
   +   'background:linear-gradient(180deg,#EFE2CB,#E7DCC8);border-top:1px solid #DCCFB4;border-radius:0 0 24px 24px;}'
-  + '.frk-board{position:relative;width:min(460px,86vw);height:min(340px,52vh);background:#C99B62;'
+  /* in each mode the SUBJECT takes the slack, so no band of dead space is
+     left below the dock */
+  + '.frk-wrap[data-mode="equiv"] .frk-trays{flex:1 1 auto;align-content:center;}'
+  + '.frk-wrap[data-mode="share"] .frk-plates{flex:1 1 auto;align-content:center;}'
+  /* the board derives its height from the band and is capped, so it can
+     neither overflow it nor leave a slab of dead space above it */
+  + '.frk-wrap{--frk-bh:min(420px,62vh);}'
+  + '.frk-wrap[data-mode="share"]{--frk-bh:min(210px,28vh);}'
+  + '.frk-board{position:relative;width:min(460px,86vw);height:var(--frk-bh);max-height:100%;background:#C99B62;'
   +   'border:3px solid #A9814F;border-radius:26px;display:flex;align-items:center;justify-content:center;'
   +   'background-image:repeating-linear-gradient(180deg,transparent 0 44px,rgba(139,111,71,.14) 44px 47px);'
   +   'box-shadow:0 8px 20px rgba(20,30,28,.14);}'
   + '.frk-hole{position:absolute;top:12px;right:14px;width:18px;height:18px;border-radius:50%;background:#A8763E;}'
-  + '.frk-foodbox{position:relative;width:min(300px,74vw);height:min(300px,74vw);max-height:100%;}'
+  /* ⚠ SQUARE — and now STRUCTURALLY so: one custom property drives both
+     axes, so the two can no longer drift apart in a later edit. The hit
+     overlay is positioned in this box's percentage space, and viewBox
+     units map isotropically to px only while it is square (verify §8d
+     statically, local-test H on the rendered box).
+     Bounded by BOTH viewport axes AND the board's own height, or a mode
+     that shrinks the board leaves the food hanging over its edges —
+     which is exactly what share mode did. */
+  + '.frk-wrap{--frk-fbmax:300px;}'
+  + '.frk-foodbox{position:relative;width:var(--frk-fb);height:var(--frk-fb);}'
+  + '.frk-wrap{--frk-fb:min(var(--frk-fbmax),74vw,46vh,calc(var(--frk-bh) - 26px));}'
   + '.frk-foodsvg{position:absolute;inset:0;}'
   + '.frk-food{display:block;width:100%;height:100%;overflow:visible;}'
 
@@ -1456,7 +1711,11 @@ var FractionKitchen = {
   /* pieces — DECORATIVE only; the overlay button is the pointer target */
   + '.frk-piece{transform:translate(0,0);transition:transform .26s cubic-bezier(.34,1.56,.64,1);pointer-events:none;}'
   + '.frk-foodbox.exploded .frk-piece{transform:translate(var(--ex),var(--ey));}'
-  + '.frk-piece.onplate{opacity:.18;}'
+  /* a shared slice is GONE, leaving a board-coloured socket — the old
+     opacity:.18 ghost read as broken rather than as backgrounded */
+  + '.frk-socket{fill:#BC8F58;display:none;}'
+  + '.frk-piece.onplate .frk-socket{display:block;}'
+  + '.frk-piece.onplate .frk-pbody,.frk-piece.onplate .frk-pedge{display:none;}'
   + '.frk-fly{position:fixed;z-index:1000;pointer-events:none;'
   +   'filter:drop-shadow(0 10px 16px rgba(20,30,28,.25));}'
 
@@ -1469,8 +1728,10 @@ var FractionKitchen = {
   + '@keyframes frkSaw{0%,100%{rotate:0deg;}50%{rotate:-1.5deg;}}'
   + '.frk-foodbox.healing .frk-uneq{transform:translate(0,0);transition:transform .32s var(--lcs-ease);}'
 
-  /* knife */
-  + '.frk-knife-rest{position:absolute;right:max(8px,calc(50% - 320px));top:50%;transform:translateY(-50%);'
+  /* knife — a flex sibling of the board, NEVER absolutely positioned over
+     it. The old rule anchored it bottom-right inside the zone and at
+     ≤560px put it straight on top of the food. */
+  + '.frk-knife-rest{position:static;flex:0 0 auto;'
   +   'width:88px;height:140px;background:#FDF6E8;border:1.5px solid #E7DCC8;border-radius:14px;'
   +   'display:flex;align-items:center;justify-content:center;}'
   + '.frk-knife-btn{padding:0;margin:0;border:0;background:transparent;font:inherit;color:inherit;'
@@ -1529,6 +1790,16 @@ var FractionKitchen = {
   + '.frk-supplypiece.dragging{z-index:100;position:relative;}'
   + '.frk-supplypiece.used{opacity:.2;pointer-events:none;}'
 
+  /* the word ribbon — the tool's ONLY visible representation of a
+     fraction, and the reason it now works with the sound off */
+  + '.frk-ribbon{flex-shrink:0;display:flex;align-items:center;justify-content:center;gap:10px;'
+  +   'flex-wrap:wrap;width:100%;min-height:38px;padding:2px 8px;text-align:center;}'
+  + '.frk-nowlbl{flex:0 0 auto;background:#FDF0DC;border:1.5px solid #F2C879;border-radius:999px;'
+  +   'padding:3px 12px;font-family:var(--lcs-font-display);font-weight:800;font-size:15px;'
+  +   'color:#2B2622;white-space:nowrap;}'
+  + '.frk-said{font-family:var(--lcs-font-body);font-size:15px;line-height:1.28;color:var(--lcs-ink);'
+  +   'max-width:60ch;}'
+
   /* dock */
   + '.frk-dock{flex-shrink:0;display:flex;flex-direction:column;align-items:center;gap:8px;width:100%;}'
   + '.frk-chiprow{display:flex;align-items:center;justify-content:center;gap:8px;flex-wrap:wrap;}'
@@ -1548,9 +1819,14 @@ var FractionKitchen = {
   + '.frk-gate a{color:#C9502A;font-weight:800;text-decoration:underline;}'
 
   /* phone */
+  /* PHONE: the knife rests ABOVE the board, thumb-reachable and never
+     over the food. column-reverse because the board is still the subject
+     and belongs lower, nearer the dock. */
   + '@media (max-width:560px){'
-  +   '.frk-board{height:min(320px,80vw);}'
-  +   '.frk-knife-rest{right:6px;bottom:-6px;top:auto;transform:none;width:70px;height:104px;}'
+  +   '.frk-counterrow{flex-direction:column-reverse;gap:6px;}'
+  +   '.frk-knife-rest{width:104px;height:56px;}'
+  +   '.frk-wrap{--frk-bh:min(300px,42vh);}'
+  +   '.frk-wrap[data-mode="share"]{--frk-bh:min(180px,24vh);}'
   +   '.frk-knife{width:92px;height:30px;}'
   +   '.frk-plates{gap:14px;min-height:120px;}'
   +   '.frk-plate{width:84px;height:84px;}'
@@ -1558,19 +1834,21 @@ var FractionKitchen = {
   +   '.frk-tray{width:120px;height:120px;}'
   +   '.frk-supplypiece{width:66px;height:66px;}'
   +   '.frk-chiprow{gap:6px;}'
+  +   '.frk-ribbon{min-height:34px;}'
+  +   '.frk-nowlbl,.frk-said{font-size:14px;}'
   + '}'
   + '@media (max-width:360px){'
-  +   '.frk-boardzone{min-height:0;}'
-  +   '.frk-board{height:min(230px,72vw);width:min(340px,94vw);}'
-  +   '.frk-foodbox{width:min(200px,60vw);height:min(200px,60vw);}'
-  +   '.frk-knife-rest{width:60px;height:88px;}'
+  +   '.frk-board{width:min(340px,94vw);}'
+  +   '.frk-wrap{--frk-bh:min(250px,36vh);}'
+  +   '.frk-wrap{--frk-fbmax:200px;}'
+  +   '.frk-knife-rest{width:88px;height:48px;}'
   +   '.frk-knife{width:78px;height:26px;}'
   +   '.frk-wrap{gap:4px;}'
   +   '.frk-chip{padding:8px 10px;font-size:13.5px;}'
   + '}'
   + '@media (max-height:960px) and (min-width:768px){.frk-wrap{gap:5px;}.frk-plates{min-height:132px;}}'
-  + '@media (min-height:900px) and (min-width:600px){.frk-board{height:min(430px,50vh);}'
-  +   '.frk-foodbox{width:min(380px,74vw);height:min(380px,74vw);}}'
+  + '@media (min-height:900px) and (min-width:600px){.frk-wrap{--frk-bh:min(470px,50vh);}'
+  +   '.frk-wrap{--frk-fbmax:380px;}}'
 
   /* reduced motion */
     /* =====================================================================
@@ -1586,12 +1864,18 @@ var FractionKitchen = {
        ===================================================================== */
     + '@media (min-width:1367px) and (min-height:880px){'
     +   'body.frk-wide .lcs-app{max-width:min(1240px,96vw);}'
+    +   '.frk-board{width:min(560px,86vw);}'
+    +   '.frk-wrap{--frk-fbmax:420px;}'
     + '}'
     + '@media (min-width:1800px) and (min-height:1080px){'
     +   'body.frk-wide .lcs-app{max-width:min(1560px,96vw);}'
+    +   '.frk-board{width:min(660px,86vw);}'
+    +   '.frk-wrap{--frk-fbmax:500px;}'
     + '}'
     + '@media (min-width:2400px) and (min-height:1150px){'
     +   'body.frk-wide .lcs-app{max-width:min(1740px,96vw);}'
+    +   '.frk-board{width:min(760px,86vw);}'
+    +   '.frk-wrap{--frk-fbmax:570px;}'
     + '}'
   + '@media (prefers-reduced-motion: reduce){'
   +   '.frk-piece{transition:none;}'

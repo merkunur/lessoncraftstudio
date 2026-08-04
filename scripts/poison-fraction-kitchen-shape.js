@@ -157,20 +157,59 @@ CASES.push({
     "s += '<circle cx=\"50\" cy=\"50\" r=\"33.5\" fill=\"#CB5F3C\"/>';", '8c tomato')
 });
 
+CASES.push({
+  /* the hole 8d used to skip: one axis alone leaves the other at its old
+     value and the box goes oblong */
+  name: '8d MUST_FIRE — a rule that sizes only ONE axis',
+  marker: 'alone',
+  expect: true,
+  build: (s) => sub(s, "  +   '.frk-wrap{--frk-fbmax:200px;}'",
+    "  +   '.frk-foodbox{width:180px;}'", '8d one-axis')
+});
+
+/* ---- 9 the freehand area model ----------------------------------- */
+CASES.push({
+  name: '9 MUST_FIRE — the area split is measured on the wrong side',
+  marker: 'closed form says',
+  expect: true,
+  build: (s) => sub(s,
+    '        if (dx * (y - a.y) - dy * (x - a.x) >= 0) lo++; else hi++;',
+    /* a DOT product, not a cross product: splits along the wrong axis.
+       (v1 shifted the cross product by 4, which is ~0.03 geometric units
+       and vanished under the tolerance — a poison too weak to poison.) */
+    '        if (dx * (x - a.x) + dy * (y - a.y) >= 0) lo++; else hi++;', '9 split')
+});
+CASES.push({
+  name: '9 MUST_FIRE — the tool lowers its free-cut floor',
+  marker: "free-cut floor is",
+  expect: true,
+  build: (s) => sub(s,
+    '  _cutFloor: function (food) { return 1 / (Math.max.apply(null, this.MENU[food]) + 1); },',
+    '  _cutFloor: function (food) { return 0.01; },', '9 floor')
+});
+CASES.push({
+  name: '9 MUST_FIRE — the food mask leaks, so a diameter stops measuring equal',
+  marker: 'measures UNEQUAL',
+  expect: true,
+  build: (s) => sub(s,
+    "    if (this.food === 'pizza') return Math.hypot(p.x - G.CX, p.y - G.CY) <= G.R;",
+    "    if (this.food === 'pizza') return Math.hypot(p.x - G.CX, p.y - G.CY) <= G.R && p.x < 62;", '9 mask')
+});
+
 /* ---- 8d square foodbox ------------------------------------------- */
 CASES.push({
   name: '8d MUST_FIRE — a one-sided clamp skews the hit overlay',
   marker: 'SQUARE INVARIANT',
   expect: true,
-  build: (s) => sub(s, ".frk-foodbox{position:relative;width:min(300px,74vw);height:min(300px,74vw);max-height:100%;}",
-    ".frk-foodbox{width:min(300px,74vw);height:min(240px,60vw);max-height:100%;}", '8d fire')
+  build: (s) => sub(s, ".frk-foodbox{position:relative;width:var(--frk-fb);height:var(--frk-fb);}",
+    ".frk-foodbox{position:relative;width:var(--frk-fb);height:calc(var(--frk-fb) * 0.8);}", '8d fire')
 });
 CASES.push({
   name: '8d MUST_PASS — unequal width/height is fine WITH an explicit aspect-ratio:1',
   marker: 'SQUARE INVARIANT',
   expect: false,
-  build: (s) => sub(s, ".frk-foodbox{position:relative;width:min(300px,74vw);height:min(300px,74vw);max-height:100%;}",
-    ".frk-foodbox{width:auto;height:min(100%,300px);aspect-ratio:1;}", '8d pass')
+  build: (s) => sub(s, ".frk-foodbox{position:relative;width:var(--frk-fb);height:var(--frk-fb);}",
+    ".frk-foodbox{position:relative;width:auto;height:var(--frk-fb);aspect-ratio:1;}", '8d pass')
 });
 
 /* ---- run ---------------------------------------------------------- */
@@ -179,8 +218,8 @@ console.log('poison-fraction-kitchen-shape — §8 in both directions\n');
 /* baseline: NOTHING in §8 may fire on the real file. A gate that is stuck
    on is exactly as useless as one that is stuck off. */
 const base = runVerify(ORIGINAL);
-for (const sec of ['8a', '8b', '8c', '8d']) {
-  ok(`baseline — ${sec} is silent on the shipped file`, !new RegExp(sec).test(base),
+for (const sec of ['8a', '8b', '8c', '8d', '9:']) {
+  ok(`baseline — §${sec} is silent on the shipped file`, !new RegExp(sec).test(base),
     base.split('\n').filter((l) => new RegExp(sec).test(l))[0]);
 }
 

@@ -137,6 +137,26 @@ function serve() {
     await page.mouse.up();
     await sleep(200);
   }
+  /* drag the knife from food-point a to food-point b, ignoring guides */
+  async function freeCut(page, a, b) {
+    const pts = await page.evaluate((a, b) => {
+      const r = document.querySelector('.frk-food').getBoundingClientRect();
+      const to = (p) => ({ x: r.left + p.x / 100 * r.width, y: r.top + p.y / 100 * r.height });
+      return { a: to(a), b: to(b) };
+    }, a, b);
+    const k = await page.evaluate(() => {
+      const r = document.querySelector('.frk-knife').getBoundingClientRect();
+      return { x: r.left + r.width / 2, y: r.top + r.height / 2 };
+    });
+    await page.mouse.move(k.x, k.y);
+    await page.mouse.down();
+    await page.mouse.move(pts.a.x, pts.a.y, { steps: 4 });
+    for (let i = 1; i <= 14; i++) {
+      await page.mouse.move(pts.a.x + (pts.b.x - pts.a.x) * i / 14, pts.a.y + (pts.b.y - pts.a.y) * i / 14);
+    }
+    await page.mouse.up();
+    await sleep(200);
+  }
   async function dragCenter(page, fromSel, toSel) {
     const from = await page.evaluate((s) => { const r = document.querySelector(s).getBoundingClientRect(); return { x: r.left + r.width / 2, y: r.top + r.height / 2 }; }, fromSel);
     const to = await page.evaluate((s) => { const r = document.querySelector(s).getBoundingClientRect(); return { x: r.left + r.width / 2, y: r.top + r.height / 2 }; }, toSel);
@@ -245,17 +265,19 @@ function serve() {
     ok('2 pieces render exploded', st.pieces === 2 && st.exploded);
     ok('cutDone speaks the fraction word', /halves/i.test(st.spoken), st.spoken);
     await page.screenshot({ path: path.join(QA, 'B-halves-cut.png') });
-    /* reset via Cut again, then the DISTRACTOR unequal-beat */
+    /* reset, then a FREEHAND cut nowhere near a guide.
+       The decoy line is gone; the whole food is cuttable instead, and the
+       beat now runs from the child's own stroke. */
     await page.evaluate(() => { window.__spoken = []; });
     await page.click('.frk-dock .frk-chiprow:nth-child(2) .frk-chip:last-child');
     await sleep(300);
-    await knifeCut(page, 'd', 0, 1);
+    await freeCut(page, { x: 32, y: 8 }, { x: 32, y: 92 });   /* ~22/78 — a real, lopsided attempt */   /* a lopsided vertical chord */
     await sleep(500);
     const beat = await page.evaluate(() => ({
       unequal: document.querySelector('.frk-foodbox').classList.contains('unequal'),
       groups: document.querySelectorAll('.frk-uneq').length
     }));
-    ok('distractor → unequal-beat shows 2 separated groups', beat.unequal && beat.groups === 2);
+    ok('a freehand off-pattern cut runs the beat from the child’s own line', beat.unequal && beat.groups === 2);
     await page.screenshot({ path: path.join(QA, 'B-unequal-beat.png') });
     await sleep(1600);
     const healed = await page.evaluate(() => ({
@@ -264,14 +286,34 @@ function serve() {
       committed: FractionKitchen.committed.length,
       spoke: window.__spoken.some((s) => /same size/i.test(s))
     }));
-    ok('beat heals; guides return unmarked; nothing committed', !healed.unequal && healed.guides === 2 && healed.committed === 0);
+    ok('beat heals; guides return unmarked; nothing committed', !healed.unequal && healed.guides === 1 && healed.committed === 0);
     ok('kind voice line spoke once', healed.spoke);
-    /* second distractor cut: silent (≤1 per food) */
+    /* second unequal cut: silent (≤1 per food) */
     await page.evaluate(() => { window.__spoken = []; });
-    await knifeCut(page, 'd', 0, 1);
+    await freeCut(page, { x: 32, y: 8 }, { x: 32, y: 92 });   /* ~22/78 — a real, lopsided attempt */
     await sleep(2000);
     const second = await page.evaluate(() => window.__spoken.some((s) => /same size/i.test(s)));
-    ok('second distractor is silent (≤1 voice line per food)', !second);
+    ok('second unequal cut is silent (≤1 voice line per food)', !second);
+    /* ⭐ the seesaw is a BALANCE, not a verdict: an off-guide cut that
+       happens to halve the food must NOT be told its pieces differ */
+    await sleep(200);
+    await page.evaluate(() => { window.__spoken = []; window.__seesaw = 0;
+      const box = document.querySelector('.frk-foodbox');
+      new MutationObserver(() => { if (box.classList.contains('seesaw')) window.__seesaw++; })
+        .observe(box, { attributes: true, attributeFilter: ['class'] }); });
+    await freeCut(page, { x: 12, y: 12 }, { x: 88, y: 88 });   /* a DIAMETER at 45° — equal halves */
+    await sleep(700);
+    const level = await page.evaluate(() => ({
+      seesaw: window.__seesaw,
+      /* NON-VACUITY: seesaw===0 is worthless unless the beat actually RAN.
+         A cut that never happened also never seesaws. */
+      ran: document.querySelectorAll('.frk-uneq').length,
+      spoke: window.__spoken.some((s) => /same size/i.test(s))
+    }));
+    ok('an equal freehand cut still CUTS (non-vacuity for the level check)', level.ran === 2, `groups=${level.ran}`);
+    ok('an equal freehand cut sits LEVEL — no seesaw, no “not the same size”',
+      level.seesaw === 0 && !level.spoke, `seesaw=${level.seesaw} spoke=${level.spoke}`);
+    await sleep(1600);
     /* tap-to-cut fallback */
     const g = await guidePts(page, 'c', 0);
     await page.mouse.click((g.a.x + g.b.x) / 2, (g.a.y + g.b.y) / 2);
@@ -543,8 +585,11 @@ function serve() {
         return s.stroke + '|' + s.strokeDasharray + '|' + s.strokeWidth;
       };
       const c = document.querySelector('.frk-guide[data-kind="c"]');
-      const d = document.querySelector('.frk-guide[data-kind="d"]');
-      const identical = c && d && cs(c) === cs(d);
+      /* the decoy is no longer DRAWN at all — the overlay shows only the
+         true equal-parts figure, and the beat is reached by cutting
+         freehand instead. So the invariant flipped: there must be none. */
+      const decoys = document.querySelectorAll('.frk-guide[data-kind="d"]').length;
+      const guides = document.querySelectorAll('.frk-guide').length;
       /* red / verdict-green sweep over rendered UI colors */
       const badColors = [];
       const isBad = (col) => {
@@ -562,9 +607,10 @@ function serve() {
         });
       });
       const glyphs = /[✗✘❌]/.test(document.body.textContent);
-      return { identical, badColors: badColors.slice(0, 3), glyphs };
+      return { decoys, guides, hasC: !!c, badColors: badColors.slice(0, 3), glyphs };
     });
-    ok('distractor guide styled IDENTICALLY to correct guide', audit.identical);
+    ok('F non-vacuity: the true guides ARE drawn', audit.hasC && audit.guides >= 1, `guides=${audit.guides}`);
+    ok('no decoy line is drawn among the guides', audit.decoys === 0, `decoys=${audit.decoys}`);
     ok('no alarm-red / verdict-green anywhere', audit.badColors.length === 0, audit.badColors.join('; '));
     ok('no ✗ glyphs', !audit.glyphs);
     /* strings sweep: no timer/score words leak into the DOM */
@@ -581,12 +627,12 @@ function serve() {
     await page.goto(BASE);
     await ready(page);
     await spy(page);
-    await knifeCut(page, 'd', 0, 1);
+    await freeCut(page, { x: 32, y: 8 }, { x: 32, y: 92 });   /* ~22/78 — a real, lopsided attempt */
     await sleep(500);
     const held = await page.evaluate(() => document.querySelector('.frk-foodbox').classList.contains('unequal'));
     ok('reduced motion still shows the unequal hold', held);
     await sleep(1500);
-    const healed = await page.evaluate(() => !document.querySelector('.frk-foodbox').classList.contains('unequal') && document.querySelectorAll('.frk-guide').length === 2);
+    const healed = await page.evaluate(() => !document.querySelector('.frk-foodbox').classList.contains('unequal') && document.querySelectorAll('.frk-guide').length === 1);
     ok('reduced motion heals without animation', healed);
     await knifeCut(page, 'c', 0, 1);
     await sleep(300);
@@ -621,7 +667,11 @@ function serve() {
       /* the no-telegraph lock, extended to the accessibility tree */
       labels: [...new Set([...document.querySelectorAll('.frk-cutbtn')].map((b) => b.getAttribute('aria-label')))]
     }));
-    ok('H non-vacuity: the cut targets exist and are real buttons', shape.cutBtns >= 2 && shape.allBtn, `n=${shape.cutBtns}`);
+    /* the floor is DERIVED from the model, not invented: one button per
+       uncommitted correct cut of the current (food, n) */
+    const want = await page.evaluate(() => FractionKitchen.cuts(FractionKitchen.food, FractionKitchen.n).correct.length);
+    ok('H non-vacuity: one real button per correct cut', shape.cutBtns === want && shape.allBtn && want >= 1,
+      `buttons=${shape.cutBtns} expected=${want}`);
     ok('H the knife is a real <button>', shape.knifeBtn);
     ok('H every cut target carries the SAME aria-label (no telegraphing to a screen reader)',
       shape.labels.length === 1 && !!shape.labels[0], JSON.stringify(shape.labels));

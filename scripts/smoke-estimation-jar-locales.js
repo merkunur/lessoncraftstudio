@@ -86,7 +86,12 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
     await sleep(150);
     const guessText = await page.evaluate(() => document.body.innerText);
     await page.evaluate(() => document.querySelectorAll('.ej-stagebtn')[2].click());
-    await sleep(2300);
+    /* ⚠ Wait for the reveal to SETTLE, not for a fixed sleep. The count is
+       beat-driven now — a ten takes longer to say than a one — so a fixed
+       window reported eleven locales as "no closing line" when the tool
+       was simply still counting. */
+    await page.waitForFunction(() => !!document.querySelector('.ej-truth'), { timeout: 40000 });
+    await sleep(500);
 
     const r = await page.evaluate(() => ({
       text: document.body.innerText,

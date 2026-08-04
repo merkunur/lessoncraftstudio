@@ -136,8 +136,8 @@ const M = [
     'if (Math.abs(guesses[i] - actual) <= 2) out.same++;'],
 
   ['⭐ T9b a rank function appears on the tool',
-    '  spread: function (guesses, actual) {',
-    '  rank: function (g, a) { return Math.abs(g - a); },\n  spread: function (guesses, actual) {'],
+    '  spread: function (guesses, actual, ranges) {',
+    '  rank: function (g, a) { return Math.abs(g - a); },\n  spread: function (guesses, actual, ranges) {'],
 
   /* ---- the suggested count ---- */
   ['⭐ P11 the suggested count stops rejecting decades',
@@ -159,8 +159,8 @@ const M = [
 
   /* ---- the saved weekly ritual ---- */
   ['⭐⭐ P14 the weekly record starts carrying an accuracy, which is a trend',
-    'return { d: stamp, set: setId, cap: capacity, n: count, cols: cols };',
-    'return { d: stamp, set: setId, cap: capacity, n: count, cols: cols, accuracy: cols.length };'],
+    'var rec = { d: stamp, set: setId, cap: capacity, n: count, cols: cols };',
+    'var rec = { d: stamp, set: setId, cap: capacity, n: count, cols: cols, accuracy: cols.length };'],
 
   ['⭐ P14b the record keeps the raw guesses, so arrival order survives',
     'cols.sort(function (a, b) { return a[0] - b[0]; });',
@@ -171,9 +171,16 @@ const M = [
     'HISTORY_MAX: 52,'],
 
   /* ---- range mode: the width is the risk ---- */
-  ['⭐⭐ P15 the range tally starts rewarding a NARROW range (a distance)',
-    'for (i = 0; i < (ranges || []).length; i++) if (this.rangeHolds(ranges[i], actual)) held++;',
-    'for (i = 0; i < (ranges || []).length; i++) if (this.rangeHolds(ranges[i], actual) && (ranges[i].hi - ranges[i].lo) < 20) held++;'],
+  /* ⚠ RE-ANCHORED. These two used to aim at `rangeTally`, which was
+     removed as dead code once `spread()` took the ranges. The invariant
+     is unchanged; it now sits on the path a class actually meets. */
+  ['⭐⭐ P15 the sign partition starts rewarding a NARROW range (a distance)',
+    'if (this.rangeHolds(r, actual)) out.same++;',
+    'if (this.rangeHolds(r, actual) && (r.hi - r.lo) < 20) out.same++;'],
+
+  ['⭐⭐ P15e ranges are dropped from the record surfaces again (the paid sheet prints blank)',
+    'for (i = 0; i < (ranges || []).length; i++) {\n      var r = ranges[i];',
+    'for (i = 0; i < 0; i++) {\n      var r = ranges[i];'],
 
   ['⭐ P15b a range-width function appears on the tool',
     '  rangeHolds: function (r, actual) {',
@@ -183,9 +190,9 @@ const M = [
     'return actual >= Math.min(r.lo, r.hi) && actual <= Math.max(r.lo, r.hi);',
     'return actual >= r.lo && actual <= r.hi;'],
 
-  ['⭐ P15d the tally leaks a width alongside the count',
-    'return { held: held, total: (ranges || []).length };',
-    'return { held: held, total: (ranges || []).length, avgWidth: 1 };'],
+  ['⭐ P15d the partition leaks a width alongside the sign counts',
+    'var out = { below: 0, same: 0, above: 0 }, i, s;',
+    'var out = { below: 0, same: 0, above: 0, avgWidth: 1 }, i, s;'],
 
   /* ---- the display bin ---- */
   ['⭐ P13 the plot stops binning, so a 200-jar draws 201 columns',

@@ -170,7 +170,7 @@ for (const k of ['usd', 'gbp']) if (!T.CURRENCIES[k]) E(`en toggle currency ${k}
    and no strategy with the tool's DP. Then both answers are compared, so a
    disagreement in EITHER direction is an error — the gate now also catches
    a `composable` that wrongly says no.
-   (§3 below was always honest by contrast: it calls greedyChange and then
+   (§3 below was always honest by contrast: it calls fewestChange and then
    verifies the sum, the length and the ordering itself. That is the model.) */
 function exhibitCoins(amount, coinVals) {
   if (amount === 0) return [];
@@ -229,6 +229,146 @@ for (const cKey of Object.keys(T.CURRENCIES)) {
   T.api = undefined;
 }
 
+/* ================= 2b. THE PROPERTIES THE MUTATION HARNESS EXPOSED ===
+   Every assertion here exists because a specific mutation SURVIVED the
+   gate. Written from the artefact, not from the narrative. */
+{
+  /* composable must be able to say NO. Without this the always-true stub is
+     an equivalent mutant on a correct tool — every shipped price really is
+     payable, so nothing distinguishes it. 3 from {5,10} is unpayable by
+     construction and needs no knowledge of the tool. */
+  if (T.composable(3, [5, 10]) !== false) E('composable(3, [5,10]) must be false — a stub that always says yes is undetectable without this');
+  if (T.composable(15, [5, 10]) !== true) E('composable(15, [5,10]) must be true');
+  if (T.composable(0, [5]) !== true) E('composable(0) must be true');
+
+  for (const cKey of Object.keys(T.CURRENCIES)) {
+    const c = T.CURRENCIES[cKey];
+    const per = c.minorPerMajor || 1;
+    const smallest = c.coins[0].v;
+    T.api = { lang: 'en', settings: { enCurrency: cKey }, t: (k) => k };
+    let prevGrain = 0;
+    for (const band of [1, 2, 3]) {
+      const b = T.BANDS[band];
+      const cap = per === 1 ? b.maxKr : b.maxCents;
+      const r = T.priceRange(band, 0, cKey, smallest);
+
+      /* the ceiling must stay inside its band — `hi` escaping by one grain
+         changes what the chip promises */
+      if (r.hi > cap) E(`${cKey} b${band}: price ceiling ${r.hi} escapes the band cap ${cap}`);
+      if (r.lo < smallest) E(`${cKey} b${band}: price floor ${r.lo} is below the smallest coin ${smallest}`);
+      if (r.lo % r.grain !== 0) E(`${cKey} b${band}: floor ${r.lo} is not on the grain ${r.grain}`);
+
+      /* ⭐ THE GRAIN RISES WITH THE CEILING. Bands 2 and 3 used to drop to a
+         one-minor grain, so the PAID tiers emitted 13,79 € needing ten
+         pieces while the free tier averaged 2.3 — the paid tiers were
+         degrading the tool rather than deepening it. */
+      if (per > 1 && r.grain < prevGrain) E(`${cKey} b${band}: grain ${r.grain} FELL from ${prevGrain} as the ceiling rose`);
+      prevGrain = r.grain;
+
+      /* ⭐ A MEASURED RATCHET, NOT A NUMBER I LIKED. My first version put a
+         flat 7/8 ceiling here — drafted from the euro measurement — and it
+         condemned a CORRECT tool, because USD has no 50c coin and no $2
+         note and is genuinely the worst set the tool ships. These are the
+         values actually measured after the grain restructure (the figure
+         before it is in brackets); the table MAY ONLY SHRINK. */
+      let worst = 0, worstP = 0;
+      for (let p = r.lo; p <= r.hi; p += r.grain) {
+        const wit = exhibitCoins(p, c.coins.concat(band > 1 ? c.notes : []).map((d) => d.v));
+        if (wit && wit.length > worst) { worst = wit.length; worstP = p; }
+      }
+      const RATCHET = {              /* band1, band2, band3   (was, at grain 1) */
+        eur: [4, 6, 7],              /* (6, 8, 10) */
+        usd: [5, 9, 11],             /* (9, 13, 15) — no 50c coin, no $2 note */
+        gbp: [4, 6, 7],              /* (6, 8, 10) */
+        brl: [4, 6, 8],              /* unchanged — minCoin already pinned the grain */
+        sek: [3, 5, 6], dkk: [3, 5, 6], nok: [5, 7, 8]   /* no sub-unit to coarsen */
+      };
+      const ceiling = (RATCHET[cKey] || [99, 99, 99])[band - 1];
+      if (worst > ceiling) E(`${cKey} b${band}: ${worstP} needs ${worst} pieces, above the recorded ${ceiling}`);
+    }
+
+    /* a set price must land ON the legal set — snapPrice is the teacher's
+       only guarantee that a chosen number is payable */
+    T.band = 1; T.mode = 'shop'; T.itemIdx = 0; T.price = T.priceRange(1, 0, cKey, smallest).lo;
+    const steps = T.priceSteps();
+    for (const probe of [steps.lo - 999, steps.lo + Math.floor(steps.grain / 2) + 1, steps.hi + 999]) {
+      const snapped = T.snapPrice(probe);
+      if (snapped % steps.grain !== 0) E(`${cKey}: snapPrice(${probe}) → ${snapped}, off the grain ${steps.grain}`);
+      if (snapped < steps.lo || snapped > steps.hi) E(`${cKey}: snapPrice(${probe}) → ${snapped}, outside [${steps.lo}, ${steps.hi}]`);
+    }
+
+    /* changeGap is what makes "no wrong tap can exist" true — the purse is
+       filtered by it, so an inverted sign would offer coins that overshoot */
+    T.mode = 'change'; T.price = 45 % Math.max(1, cap0(c)); T.price = Math.max(steps.lo, Math.min(steps.hi, T.price || steps.lo));
+    T.chg = { tender: T.price + 10 * (per === 1 ? 1 : 5) };
+    T.tray = [];
+    const gap0 = T.changeGap();
+    if (gap0 !== T.chg.tender - T.price) E(`${cKey}: changeGap on an empty mat is ${gap0}, want ${T.chg.tender - T.price}`);
+    T.tray = [gap0];
+    if (T.changeGap() !== 0) E(`${cKey}: changeGap did not close when the change was complete`);
+    T.tray = []; T.chg = null; T.mode = 'shop';
+  }
+  T.api = undefined;
+  function cap0(c) { return (c.minorPerMajor || 1) === 1 ? T.BANDS[1].maxKr : T.BANDS[1].maxCents; }
+}
+
+/* ================= 2d. CHANGE IS EXACT AND NEVER A DEAD END ========
+   fewestChange used to be GREEDY, which is fewest-coins only on a CANONICAL
+   set — and the tool stopped shipping only canonical sets the moment a
+   teacher could restrict the purse. ?coins=10 makes the USD set [10, 25],
+   where greedy fails on 30 (takes the 25, strands 5, never sees 10+10+10).
+   tendersFor then dropped every tender it could not make change for, and at
+   8 measured (price, purse) pairs it dropped ALL of them, leaving the child
+   at an empty purse with no way forward. */
+{
+  /* minimality, against an independent BFS — which finds the shortest
+     multiset by construction, so it is a genuine oracle for "fewest" */
+  const SETS = [[10, 25], [1, 5, 10, 25], [5, 10, 20, 50, 100, 200], [1, 3, 4], [5, 10]];
+  for (const set of SETS) {
+    for (let n = 0; n <= 120; n++) {
+      const mine = T.fewestChange(n, set);
+      const bfs = exhibitCoins(n, set);
+      if (!!mine !== !!bfs) E(`fewestChange(${n}, [${set}]) says ${!!mine}, an independent search says ${!!bfs}`);
+      if (mine && bfs) {
+        if (mine.reduce((a, b) => a + b, 0) !== n) E(`fewestChange(${n}, [${set}]) does not sum to ${n}`);
+        if (mine.length > bfs.length) E(`fewestChange(${n}, [${set}]) used ${mine.length} coins; ${bfs.length} suffice — it is not fewest`);
+        for (let i = 1; i < mine.length; i++) if (mine[i] < mine[i - 1]) E(`fewestChange(${n}, [${set}]) is not ascending`);
+      }
+    }
+  }
+  /* [1,3,4] is the textbook non-canonical set: greedy gives 4+1+1 for 6,
+     the answer is 3+3. If this passes, the DP is genuinely exact. */
+  const six = T.fewestChange(6, [1, 3, 4]);
+  if (!six || six.length !== 2) E(`fewestChange(6, [1,3,4]) → ${JSON.stringify(six)}; the exact answer is [3,3]`);
+
+  /* NO DEAD ENDS: every change-mode price must offer at least one tender,
+     at every purse restriction a teacher can set */
+  for (const [lang, cur] of [['en', 'usd'], ['en', 'gbp'], ['de', 'eur'], ['nl', 'eur'], ['pt', 'brl'], ['sv', 'sek'], ['da', 'dkk'], ['no', 'nok']]) {
+    for (const coinsFrom of [0, 5, 10]) {
+      T.api = { lang, settings: { enCurrency: cur, coinsFrom }, t: (k) => k };
+      T.band = 1; T.mode = 'change'; T.itemIdx = 0;
+      const view = T.curView();
+      const s = T.priceSteps();
+      for (let p = s.lo; p <= s.hi; p += s.grain) {
+        if (!T.tendersFor(p, view).length) E(`${lang}/${cur} coins>=${coinsFrom}: price ${p} has NO tender — the child would be stuck at an empty purse`);
+      }
+      T.mode = 'shop';
+    }
+  }
+  T.api = undefined;
+}
+
+/* ================= 2c. THE DESIGN LAW ==============================
+   §23: these are free-play instruments. A `tasks` array turns one into a
+   graded activity, which is a different product with a different fence. */
+{
+  if ('tasks' in T) E('the tool declares `tasks` — a v4 instrument is free-play, not an activity');
+  if ('nextTask' in T) E('the tool declares `nextTask` — a v4 instrument is free-play, not an activity');
+  for (const k of ['score', 'streak', 'timer', 'correct', 'wrong']) {
+    if (k in T) E(`the tool declares \`${k}\` — the no-competition lock forbids it`);
+  }
+}
+
 /* ================= 3. CHANGE (over the CHANGE-MODE price set:
    BAND 1 ONLY at friendly 5-minor grain, exactly per pickPrice) ==== */
 for (const cKey of Object.keys(T.CURRENCIES)) {
@@ -245,7 +385,7 @@ for (const cKey of Object.keys(T.CURRENCIES)) {
         if (!tenders.length) { E(`${cKey} b${band}: price ${p} has NO valid tender`); continue; }
         for (const den of tenders) {
           if (den.v <= p) E(`${cKey}: tender ${den.v} does not exceed price ${p}`);
-          const coins = T.greedyChange(den.v - p, coinVals);
+          const coins = T.fewestChange(den.v - p, coinVals);
           if (!coins) { E(`${cKey}: change ${den.v - p} not composable`); continue; }
           const sum = coins.reduce((a, b) => a + b, 0);
           if (sum !== den.v - p) E(`${cKey}: change for price ${p} tender ${den.v} sums ${sum} ≠ ${den.v - p}`);
@@ -275,7 +415,7 @@ for (const cKey of Object.keys(T.CURRENCIES)) {
     const tenders = T.tendersFor(p2, viewC);
     if (!tenders.length) E(`eur@min5: change price ${p2} has NO valid tender`);
     for (const den of tenders) {
-      const coins = T.greedyChange(den.v - p2, viewCoins);
+      const coins = T.fewestChange(den.v - p2, viewCoins);
       if (!coins || coins.reduce((a, b) => a + b, 0) !== den.v - p2) E(`eur@min5: change broken at price ${p2} tender ${den.v}`);
       if (coins.length > 6) E(`eur@min5: change too long at price ${p2} tender ${den.v}`);
     }
@@ -364,9 +504,36 @@ for (const L of LOCALES) {
   if (!uw) { E(`UNITW missing for (${cKey}, ${L})`); continue; }
   if (!uw.majS || !uw.majP) E(`UNITW (${cKey}, ${L}): major unit words missing`);
   if (T.CURRENCIES[cKey].minorPerMajor > 1 && (!uw.minS || !uw.minP)) E(`UNITW (${cKey}, ${L}): minor unit words missing`);
+  /* ⚠ EVERY placeholder the form NEEDS must be present. The old check only
+     looked for leftovers AFTER rendering, so a template that had lost
+     "{min} {minUnit}" rendered cleanly and silently dropped half the
+     amount — "2 Euro 30" became "2 Euro". */
+  const NEED = { both: ['{maj}', '{majUnit}', '{min}'], majOnly: ['{maj}', '{majUnit}'], minOnly: ['{min}'] };
   for (const form of ['both', 'majOnly', 'minOnly']) {
     const t = T.SPOKEN[form][L];
-    if (!t) E(`SPOKEN.${form}.${L}: empty`);
+    if (!t) { E(`SPOKEN.${form}.${L}: empty`); continue; }
+    for (const ph of NEED[form]) {
+      if (t.indexOf(ph) === -1) E(`SPOKEN.${form}.${L} ("${t}") is missing ${ph} — part of the amount would go unspoken`);
+    }
+  }
+
+  /* ⭐ SINGULAR vs PLURAL, asserted on the RENDERED string. The choice used
+     to be unchecked, so inverting it read "1 euros" / "2 euro" in every
+     locale that inflects. */
+  {
+    const c = T.CURRENCIES[cKey], per = c.minorPerMajor || 1;
+    T.api = { lang: L, settings: { enCurrency: cKey }, t: (k) => k };
+    const one = T.spokenAmount(per), two = T.spokenAmount(per * 2);
+    if (uw.majS !== uw.majP) {
+      if (one.indexOf(uw.majS) === -1) E(`spokenAmount(1 major) in ${L} says "${one}" — wants the SINGULAR "${uw.majS}"`);
+      if (two.indexOf(uw.majP) === -1) E(`spokenAmount(2 major) in ${L} says "${two}" — wants the PLURAL "${uw.majP}"`);
+    }
+    if (per > 1 && uw.minS && uw.minP && uw.minS !== uw.minP) {
+      const m1 = T.spokenAmount(1), m2 = T.spokenAmount(2);
+      if (m1.indexOf(uw.minS) === -1) E(`spokenAmount(1 minor) in ${L} says "${m1}" — wants the SINGULAR "${uw.minS}"`);
+      if (m2.indexOf(uw.minP) === -1) E(`spokenAmount(2 minor) in ${L} says "${m2}" — wants the PLURAL "${uw.minP}"`);
+    }
+    T.api = undefined;
   }
 }
 for (const k of ['usd', 'gbp']) {

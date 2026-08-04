@@ -335,15 +335,36 @@ var MoneyMat = {
     }
     return dp[amount];
   },
-  /* PURE: shopkeeper change — greedy fewest-coins (canonical sets),
-     presented ASCENDING for the counting-on ritual. */
-  greedyChange: function (change, coinValues) {
-    var vals = coinValues.slice().sort(function (a, b) { return b - a; });
-    var out = [], rem = change;
-    for (var i = 0; i < vals.length && rem > 0; i++) {
-      while (vals[i] <= rem) { out.push(vals[i]); rem -= vals[i]; }
+  /* PURE: shopkeeper change — EXACT fewest-coins, presented ASCENDING for
+     the counting-on ritual.
+     ⚠ This was greedy, which is only fewest-coins on a CANONICAL set — and
+     the tool stopped shipping only canonical sets the moment a teacher
+     could restrict the purse. With ?coins=10 the USD set becomes [10, 25]
+     and greedy fails on 30: it takes the 25 and strands a remainder of 5,
+     never seeing 10+10+10. tendersFor then filtered out every tender it
+     could not make change for, and at 8 measured (price, purse) pairs in
+     usd and brl it filtered out ALL of them — leaving the child at an empty
+     purse with no way forward. A dead end, reachable, and produced by an
+     algorithm that was correct only for the coin sets we happened to have.
+     The DP is exact for any set at negligible cost (change ≤ 2000, ≤ 8
+     denominations) and keeps the same contract. */
+  fewestChange: function (change, coinValues) {
+    if (change === 0) return [];
+    if (change < 0) return null;
+    var vals = coinValues.slice().sort(function (a, b) { return a - b; });
+    var len = new Array(change + 1), via = new Array(change + 1);
+    len[0] = 0;
+    for (var a = 1; a <= change; a++) {
+      for (var i = 0; i < vals.length; i++) {
+        var v = vals[i];
+        if (v > a) break;
+        if (len[a - v] === undefined) continue;
+        if (len[a] === undefined || len[a - v] + 1 < len[a]) { len[a] = len[a - v] + 1; via[a] = v; }
+      }
     }
-    if (rem !== 0) return null;
+    if (len[change] === undefined) return null;
+    var out = [], cur = change;
+    while (cur > 0) { out.push(via[cur]); cur -= via[cur]; }
     return out.sort(function (a, b) { return a - b; });
   },
   /* PURE: valid tenders for a price — the smallest denominations
@@ -356,7 +377,7 @@ var MoneyMat = {
       .sort(function (a, b) { return a.v - b.v; })
       .filter(function (d) {
         if (d.v <= price) return false;
-        var chg = self.greedyChange(d.v - price, coinVals);
+        var chg = self.fewestChange(d.v - price, coinVals);
         return chg !== null && chg.length <= 6;
       });
     return all.slice(0, 3);

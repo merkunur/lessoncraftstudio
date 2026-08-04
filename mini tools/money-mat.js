@@ -603,21 +603,38 @@ var MoneyMat = {
       '</svg>';
   },
 
+  /* ⭐ THE FACE: digits big, unit mark small. The label shapes differ by
+     currency — "25¢" / "£2" / "R$ 1" / "10 kr" / "1c" — so the split is on
+     the digit RUN, wherever it sits, which handles all six shapes. Splitting
+     them is what lets the digits be large without the mark bursting the
+     disc, and the digits are the thing a child reads across a room. */
+  _face: function (label) {
+    var m = String(label).match(/^(\D*)(\d+)(\D*)$/);
+    if (!m) return '<b>' + label + '</b>';
+    return (m[1] ? '<i>' + m[1].replace(/ /g, '&nbsp;') + '</i>' : '')
+      + '<b>' + m[2] + '</b>'
+      + (m[3] ? '<i>' + m[3].replace(/ /g, '&nbsp;') + '</i>' : '');
+  },
   _coinBtn: function (den, cls) {
     var api = this.api;
     var b = api.el('button', 'mm-coinbtn ' + (cls || ''));
     b.type = 'button';
     b.setAttribute('aria-label', den.label);
     b.dataset.v = den.v;
-    /* the diameter is the pedagogy (a 2€ IS bigger than a 1c), so every coin
-       carries its own px size — but multiplied by --mm-cs so the whole set
-       grows together on a wide board without disturbing one ratio. */
-    var dsz = 'width:calc(' + den.d + 'px * var(--mm-cs,1));height:calc(' + den.d + 'px * var(--mm-cs,1))';
+    /* ⭐ The diameter is the pedagogy (a 2 € IS bigger than a 1c), so the coin
+       publishes its own raw diameter as --mm-d and CSS derives the width, the
+       height AND the type size from that one number. Before, the numeral was
+       a flat 11px on every coin, so its visual weight was INVERSELY related
+       to value — the quarter and the dime carried the same glyph. Deriving it
+       means the ratio between denominations is expressed once, and the type
+       can never disagree with the disc it sits in. */
+    var v = 'style="--mm-d:' + den.d + '"';
+    var face = this._face(den.label);
     var inner = den.fam === 'bi-sg'
-      ? '<span class="mm-disc fam-gold" style="' + dsz + '"><span class="mm-disc-in fam-silver">' + den.label + '</span></span>'
+      ? '<span class="mm-disc fam-gold" ' + v + '><span class="mm-disc-in fam-silver">' + face + '</span></span>'
       : den.fam === 'bi-gs'
-        ? '<span class="mm-disc fam-silver" style="' + dsz + '"><span class="mm-disc-in fam-gold">' + den.label + '</span></span>'
-        : '<span class="mm-disc fam-' + den.fam + '" style="' + dsz + '">' + den.label + '</span>';
+        ? '<span class="mm-disc fam-silver" ' + v + '><span class="mm-disc-in fam-gold">' + face + '</span></span>'
+        : '<span class="mm-disc fam-' + den.fam + '" ' + v + '>' + face + '</span>';
     b.innerHTML = inner;
     return b;
   },
@@ -626,8 +643,23 @@ var MoneyMat = {
     b.type = 'button';
     b.setAttribute('aria-label', den.label);
     b.dataset.v = den.v;
-    b.innerHTML = '<span class="mm-note" style="background:' + den.tint + '"><i>' + den.label + '</i><b>' + den.label + '</b></span>';
+    b.innerHTML = '<span class="mm-note" style="--mm-tint:' + den.tint + '"><u>' + den.label + '</u>' + this._face(den.label) + '</span>';
     return b;
+  },
+  /* ⭐ A STATIC COIN — used by the two-ways panel and the change tray.
+     It carries --mm-d like every other coin, because the panel that shows
+     "different coins, SAME value" was drawing every coin at a flat 30px and
+     therefore saying the opposite of what it teaches. Scale lives in
+     --mm-mini on the container, never in a per-coin override. */
+  _discHTML: function (den) {
+    if (!den) return '';
+    if (!den.fam) {
+      /* --mm-tint, never an inline `background:` shorthand (house ban) — the
+         shorthand also resets background-image, which blocks any note art. */
+      return '<span class="mm-note mini" style="--mm-tint:' + den.tint + '">' + this._face(den.label) + '</span>';
+    }
+    var fam = den.fam === 'bi-sg' ? 'gold' : den.fam === 'bi-gs' ? 'silver' : den.fam;
+    return '<span class="mm-disc mini fam-' + fam + '" style="--mm-d:' + den.d + '">' + this._face(den.label) + '</span>';
   },
   _denOf: function (v) {
     var c = this.cur();
@@ -761,19 +793,23 @@ var MoneyMat = {
     }
     if (this.phase === 'bothWays' && this.firstWay) {
       var panel = api.el('div', 'mm-bothways');
+      /* ⭐ THE PAYOFF, AT TRUE DIAMETERS AND LEFT-ALIGNED.
+         Two rows stacked, with the price on a rule BETWEEN them, so it reads
+         25+10+10 ═ 45 ¢ ═ 25+10+5+5. Centring the rows hid the thing worth
+         seeing — that one way uses FOUR coins and the other three — and the
+         old 26px "=" glyph is redundant once the price sits on the rule. */
       var mk = function (way) {
         var box = api.el('div', 'mm-way');
         way.slice().sort(function (a, b) { return b - a; }).forEach(function (v) {
-          var den = self._denOf(v);
-          if (den) box.innerHTML += den.fam
-            ? '<span class="mm-disc mini fam-' + (den.fam === 'bi-sg' ? 'gold' : den.fam === 'bi-gs' ? 'silver' : den.fam) + '">' + den.label + '</span>'
-            : '<span class="mm-note mini" style="background:' + den.tint + '"><b>' + den.label + '</b></span>';
+          box.innerHTML += self._discHTML(self._denOf(v));
         });
         return box;
       };
-      var eq = api.el('span', 'mm-eqsign');
-      eq.textContent = '=';
-      panel.append(mk(this.firstWay), eq, mk(this.tray));
+      var rule = api.el('div', 'mm-bothrule');
+      var pricePill = api.el('span', 'mm-bothprice');
+      pricePill.textContent = this.formatLike(this.price);
+      rule.appendChild(pricePill);
+      panel.append(mk(this.firstWay), rule, mk(this.tray));
       var cap = api.el('div', 'mm-bothcap');
       cap.textContent = this.fmt('bothWays', { price: this.formatLike(this.price) });
       host.append(panel, cap);
@@ -800,7 +836,7 @@ var MoneyMat = {
         var takenBox = api.el('div', 'mm-way');
         this.chg.coins.forEach(function (v) {
           var den = self._denOf(v);
-          if (den) takenBox.innerHTML += '<span class="mm-disc mini fam-' + (den.fam === 'bi-sg' ? 'gold' : den.fam === 'bi-gs' ? 'silver' : (den.fam || 'gold')) + '">' + den.label + '</span>';
+          takenBox.innerHTML += self._discHTML(den);
         });
         host.appendChild(takenBox);
       }
@@ -970,7 +1006,24 @@ var MoneyMat = {
   var css = ''
   + 'body.mm-wide .lcs-app{max-width:min(1040px,96vw);}'
   + '@media (max-width:560px){body.mm-wide{overflow-y:auto;}body.mm-wide #lcs-root{height:auto;}}'
-  + '.mm-wrap{display:flex;flex-direction:column;align-items:center;gap:clamp(5px,1vmin,10px);width:100%;}'
+  /* --mm-dz: the catalogue-wide coin legibility multiplier. MEASURED, not
+     chosen — see scripts/probe-money-mat-coinface.js, which sweeps every
+     currency at every viewport and reports the smallest rendered digit and
+     any label that bursts its disc. The shipped value is the smallest one
+     that clears the 14px numeral floor everywhere without overflow.
+     ⚠ Raise the SET, never a single coin: clamping one denomination up to
+     the floor would destroy the true relative diameters. */
+  /* MEASURED (probe-money-mat-coinface.js, full 8-currency × 8-viewport sweep):
+       dz 1.00 / df .30  → smallest digit  9.0px   — the shipped defect
+       dz 1.62 / df .30  → 14.6px, 0 bursts, purse ONE row at 768-1366
+       dz 1.85 / df .30  → 16.6px but the 8-coin purses WRAP at 1024
+       dz 1.62 / df .38  → 18.5px, 0 bursts, purse unchanged   ← shipped
+     ⭐ The second lever is the right one: --mm-df is type as a fraction of
+     the disc, so raising it buys legibility WITHOUT widening the purse.
+     Chasing the same numeral through --mm-dz cost a second row on the
+     desktop viewport, where local-test asserts no scrolling. */
+  + '.mm-wrap{--mm-dz:1.62;--mm-df:.38;'
+  +   'display:flex;flex-direction:column;align-items:center;gap:clamp(5px,1vmin,10px);width:100%;}'
 
   /* scene: awning band, wall, counter band, keeper, item, tag */
   + '.mm-scene{position:relative;width:min(var(--mm-w,680px),94vw);height:calc(190px * var(--mm-sc,1));'
@@ -1011,21 +1064,39 @@ var MoneyMat = {
   /* coins + notes */
   + '.mm-coinbtn,.mm-notebtn{min-width:46px;min-height:46px;padding:2px;border:none;background:none;cursor:pointer;'
   +   'display:inline-flex;align-items:center;justify-content:center;}'
-  + '.mm-disc{display:inline-flex;align-items:center;justify-content:center;border-radius:50%;'
-  +   'font-family:var(--lcs-font-display);font-weight:800;font-size:calc(11px * var(--mm-cts,1));color:#4A3B2A;'
+  /* ⭐ EVERY COIN DIMENSION DERIVES FROM ONE NUMBER, --mm-d.
+     --mm-D is the coin's RENDERED diameter: its true relative size, times
+     --mm-dz (the catalogue-wide legibility multiplier), times --mm-cs (the
+     wide-tier growth), times --mm-mini (1 on a live coin, smaller on a
+     static one). Type is a fraction of --mm-D, so a 25¢ can never carry the
+     same glyph as a 10¢ again, and no per-coin clamp can creep in and break
+     the ratio — which is the one thing in this tool that must not move. */
+  + '.mm-disc{--mm-D:calc(var(--mm-d,34) * 1px * var(--mm-dz,1) * var(--mm-cs,1) * var(--mm-mini,1));'
+  +   'width:var(--mm-D);height:var(--mm-D);'
+  +   'display:inline-flex;align-items:baseline;justify-content:center;border-radius:50%;'
+  +   'font-family:var(--lcs-font-display);font-weight:800;font-size:calc(var(--mm-D) * var(--mm-df,.30));color:#4A3B2A;'
+  +   'line-height:1;letter-spacing:-.01em;'
   +   'box-shadow:inset 0 0 0 2.5px rgba(90,70,48,.35), 0 2px 4px rgba(20,30,28,.18);}'
-  + '.mm-disc.mini{width:calc(30px * var(--mm-cs,1));height:calc(30px * var(--mm-cs,1));font-size:calc(9px * var(--mm-cts,1));}'
+  + '.mm-disc b{font-weight:800;font-size:1em;}'
+  + '.mm-disc i{font-style:normal;font-weight:800;font-size:.66em;opacity:.85;}'
+  + '.mm-disc.mini{--mm-mini:.86;}'
   + '.fam-copper{background:radial-gradient(circle at 35% 30%,#D89A6E,#B06A42 78%);color:#5A3620;}'
   + '.fam-silver{background:radial-gradient(circle at 35% 30%,#DCDCE2,#A8A8B2 78%);color:#4A4A55;}'
   + '.fam-gold{background:radial-gradient(circle at 35% 30%,#E8C070,#BE9440 78%);color:#5A4620;}'
-  + '.mm-disc-in{display:inline-flex;align-items:center;justify-content:center;border-radius:50%;width:68%;height:68%;'
-  +   'font-size:calc(10px * var(--mm-cts,1));box-shadow:inset 0 0 0 1.5px rgba(90,70,48,.3);}'
-  + '.mm-note{display:inline-flex;align-items:center;justify-content:center;position:relative;width:calc(64px * var(--mm-cs,1));height:calc(36px * var(--mm-cs,1));'
+  /* the bimetallic centre is sized in %, so it tracks the true diameter
+     automatically and can never disagree with it */
+  + '.mm-disc-in{display:inline-flex;align-items:baseline;justify-content:center;border-radius:50%;width:70%;height:70%;'
+  +   'font-size:inherit;box-shadow:inset 0 0 0 1.5px rgba(90,70,48,.3);}'
+  + '.mm-note{--mm-N:calc(64px * var(--mm-dz,1) * var(--mm-cs,1) * var(--mm-mini,1));'
+  +   'display:inline-flex;align-items:baseline;justify-content:center;position:relative;'
+  +   'width:var(--mm-N);height:calc(var(--mm-N) * .5625);'
+  +   'background-color:var(--mm-tint,#CBD5CC);'
   +   'border-radius:6px;border:2px solid rgba(90,70,48,.35);font-family:var(--lcs-font-display);font-weight:800;'
-  +   'font-size:calc(12px * var(--mm-cts,1));color:#3A3A45;box-shadow:0 2px 4px rgba(20,30,28,.15);}'
-  + '.mm-note.mini{width:calc(46px * var(--mm-cs,1));height:calc(26px * var(--mm-cs,1));font-size:calc(10px * var(--mm-cts,1));}'
-  + '.mm-note i{position:absolute;top:1px;left:5px;font-style:normal;font-size:calc(8px * var(--mm-cts,1));opacity:.75;}'
-  + '.mm-note b{font-weight:800;}'
+  +   'font-size:calc(var(--mm-N) * .26);line-height:1;color:#3A3A45;box-shadow:0 2px 4px rgba(20,30,28,.15);}'
+  + '.mm-note.mini{--mm-mini:.78;}'
+  + '.mm-note b{font-weight:800;font-size:1em;}'
+  + '.mm-note i{font-style:normal;font-weight:800;font-size:.66em;opacity:.85;}'
+  + '.mm-note u{position:absolute;top:2px;left:6px;text-decoration:none;font-size:.5em;opacity:.7;}'
 
   /* purse */
   + '.mm-purse{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:2px;'
@@ -1037,13 +1108,20 @@ var MoneyMat = {
   + '.mm-invite{display:flex;align-items:center;justify-content:center;gap:8px;flex-wrap:wrap;'
   +   'background:#FDF0DC;border:1.5px dashed #F2C879;border-radius:14px;padding:7px 12px;'
   +   'font-family:var(--lcs-font-display);font-weight:700;font-size:14px;color:#8A6320;}'
-  + '.mm-bothways{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;'
-  +   'background:#FDF0DC;border:1.5px solid #F2C879;border-radius:16px;padding:10px 14px;'
+  /* ⭐ THE PAYOFF. Stacked rows, LEFT-aligned, with the price on a rule
+     between them. Centring the rows hid the very thing worth seeing — that
+     one way uses four coins and the other three — and the coins now carry
+     their true diameters, so the panel finally agrees with what it teaches. */
+  + '.mm-bothways{display:flex;flex-direction:column;align-items:stretch;gap:6px;'
+  +   'background:#FDF0DC;border:1.5px solid #F2C879;border-radius:16px;padding:12px 16px;'
   +   'box-shadow:0 0 24px rgba(242,200,121,.5);animation:mmShimmer 1.4s var(--lcs-ease);}'
   + '@keyframes mmShimmer{0%{box-shadow:0 0 0 rgba(242,200,121,0);}55%{box-shadow:0 0 34px rgba(242,200,121,.85);}}'
-  + '.mm-way{display:flex;align-items:center;gap:3px;flex-wrap:wrap;max-width:260px;justify-content:center;}'
-  + '.mm-eqsign{font-family:var(--lcs-font-display);font-weight:800;font-size:26px;color:#146B5E;}'
-  + '.mm-bothcap{font-family:var(--lcs-font-display);font-weight:700;font-size:14px;color:#5A4630;}'
+  + '.mm-way{display:flex;align-items:center;gap:5px;flex-wrap:wrap;justify-content:flex-start;}'
+  + '.mm-bothrule{display:flex;align-items:center;gap:8px;}'
+  + '.mm-bothrule::before,.mm-bothrule::after{content:"";flex:1;height:2px;background:rgba(20,107,94,.35);border-radius:2px;}'
+  + '.mm-bothprice{font-family:var(--lcs-font-display);font-weight:800;'
+  +   'font-size:calc(17px * var(--mm-tsc,1));color:#146B5E;white-space:nowrap;}'
+  + '.mm-bothcap{font-family:var(--lcs-font-display);font-weight:700;font-size:calc(14px * var(--mm-tsc,1));color:#5A4630;text-align:center;}'
   + '.mm-changeline{font-family:var(--lcs-font-display);font-weight:700;font-size:14.5px;color:var(--lcs-ink);text-align:center;}'
   + '.mm-countstrip{font-family:var(--lcs-font-display);font-weight:800;font-size:15px;color:#146B5E;'
   +   'background:var(--lcs-surface);border:1.5px solid var(--lcs-line);border-radius:var(--lcs-radius-pill);'
@@ -1071,7 +1149,12 @@ var MoneyMat = {
   + '.mm-chip.small.primary{background:#FDF0DC;border-color:#F2C879;color:#C9502A;font-size:16px;min-width:44px;}'
 
   + '.mm-hidden{display:none;}'
-  + '.mm-purse:empty{display:none;}'
+  /* ⚠ NO `:empty{display:none}` HERE. _paintPurse empties its host during
+     BOTH changeCount and bothWays, and above 1367 the purse is its own grid
+     column — so collapsing it made the whole board lurch sideways at the two
+     most important moments in the tool. Reserve the space instead. Invisible
+     in every phone screenshot, which is exactly why it survived. */
+  + '.mm-purse:empty{border-color:transparent;background:none;}'
   + '@media (min-width:900px){.mm-purse{gap:10px;padding:8px 10px;}'
   +   '.mm-purse .mm-disc{transform:scale(1.22);}'
   +   '.mm-purse .mm-note{transform:scale(1.15);}}'
@@ -1108,7 +1191,7 @@ var MoneyMat = {
      the bottom half of the scene's card; any gap opens a seam. */
   + '@media (min-width:1367px) and (min-height:880px){'
   +   'body.mm-wide .lcs-app{max-width:min(1192px,96vw);}'
-  +   'body.mm-wide{--mm-w:700px;--mm-sc:1.55;--mm-cs:1.34;--mm-cts:1.5;--mm-tsc:1.2;}'
+  +   'body.mm-wide{--mm-w:700px;--mm-sc:1.55;--mm-cs:1.34;--mm-tsc:1.2;}'
   +   'body.mm-wide .mm-wrap{display:grid;grid-template-columns:var(--mm-w) auto;justify-content:center;'
   +     'row-gap:0;column-gap:26px;align-items:start;justify-items:center;}'
   +   'body.mm-wide .mm-scene{grid-column:1;grid-row:1;}'
@@ -1126,7 +1209,7 @@ var MoneyMat = {
   + '}'
   + '@media (min-width:1800px) and (min-height:1080px){'
   +   'body.mm-wide .lcs-app{max-width:min(1560px,96vw);}'
-  +   'body.mm-wide{--mm-w:960px;--mm-sc:1.9;--mm-cs:1.62;--mm-cts:1.9;--mm-tsc:1.35;}'
+  +   'body.mm-wide{--mm-w:960px;--mm-sc:1.9;--mm-cs:1.62;--mm-tsc:1.35;}'
   +   'body.mm-wide .mm-wrap{column-gap:32px;}'
   +   'body.mm-wide .mm-total{font-size:30px;}'
   +   'body.mm-wide .mm-mat{min-height:190px;gap:9px;}'
@@ -1134,7 +1217,7 @@ var MoneyMat = {
   + '}'
   + '@media (min-width:2400px) and (min-height:1150px){'
   +   'body.mm-wide .lcs-app{max-width:min(1752px,96vw);}'
-  +   'body.mm-wide{--mm-w:1120px;--mm-sc:2.1;--mm-cs:1.9;--mm-cts:2.25;--mm-tsc:1.5;}'
+  +   'body.mm-wide{--mm-w:1120px;--mm-sc:2.1;--mm-cs:1.9;--mm-tsc:1.5;}'
   +   'body.mm-wide .mm-wrap{column-gap:36px;}'
   +   'body.mm-wide .mm-total{font-size:34px;}'
   +   'body.mm-wide .mm-mat{min-height:225px;gap:12px;}'

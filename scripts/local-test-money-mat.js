@@ -146,11 +146,29 @@ function serve() {
         if (r.width === 0 || cs.pointerEvents === 'none' || parseFloat(cs.opacity) < 0.05) return;
         if (r.width < 44 || r.height < 44) tiny.push(`${(b.textContent || b.className).trim().slice(0, 16)} ${Math.round(r.width)}x${Math.round(r.height)}`);
       });
-      return { hOver: doc.scrollWidth - doc.clientWidth, vOver: doc.scrollHeight - doc.clientHeight, tiny };
+      /* ⚠ THREE FLOORS, MEASURED AND NAMED SEPARATELY. An or-shaped
+         assertion has hidden a missing floor twice in this programme, and
+         the numeral floor is the one that was missing here — the repo's
+         only one lived at 2560, which is how an 11px coin value shipped to
+         every phone, tablet and laptop. */
+      const discs = [...document.querySelectorAll('.mm-disc')];
+      const numerals = discs.map((d) => parseFloat(getComputedStyle(d.querySelector('b') || d).fontSize));
+      const cells = discs.map((d) => d.getBoundingClientRect().width);
+      return {
+        hOver: doc.scrollWidth - doc.clientWidth, vOver: doc.scrollHeight - doc.clientHeight, tiny,
+        nDiscs: discs.length,
+        minNum: numerals.length ? Math.min(...numerals) : 0,
+        minCell: cells.length ? Math.min(...cells) : 0
+      };
     });
     ok(`${w}x${h} no h-overflow`, m.hOver <= 1, `${m.hOver}px`);
     if (w >= 768) ok(`${w}x${h} NO-SCROLL`, m.vOver <= 2, `${m.vOver}px`);
-    ok(`${w}x${h} tap targets ≥44`, m.tiny.length === 0, m.tiny.join('; '));
+    ok(`${w}x${h} CONTROL floor — every button ≥44px`, m.tiny.length === 0, m.tiny.join('; '));
+    /* non-vacuity first: a floor over an empty NodeList passes on a tool
+       with no coins at all */
+    ok(`${w}x${h} the purse is not empty (${m.nDiscs} coins)`, m.nDiscs >= 4, String(m.nDiscs));
+    ok(`${w}x${h} CANVAS floor — smallest coin ≥34px`, m.minCell >= 34, `${m.minCell.toFixed(1)}px`);
+    ok(`${w}x${h} NUMERAL floor — smallest coin value ≥14px`, m.minNum >= 14, `${m.minNum.toFixed(1)}px`);
     await page.screenshot({ path: path.join(QA, `A-${w}x${h}.png`) });
     ok(`${w}x${h} no js errors`, page._errs.length === 0, page._errs[0]);
     await page.close();
@@ -208,6 +226,40 @@ function serve() {
     st = await page.evaluate(() => ({ phase: MoneyMat.phase, both: !!document.querySelector('.mm-bothways'), ways: document.querySelectorAll('.mm-bothways .mm-way').length }));
     ok('differing multiset completes both-ways side by side', st.phase === 'bothWays' && st.both && st.ways === 2, JSON.stringify(st));
     await page.screenshot({ path: path.join(QA, 'B-bothways.png') });
+
+    /* ⭐⭐ THE PAYOFF MUST KEEP TRUE DIAMETERS. This panel exists to say
+       "different coins, SAME value" — and it used to draw every coin at a
+       flat 30px, saying the exact opposite at the one moment it mattered.
+       The check is a RATIO between two denominations rendered side by side,
+       compared against the ratio the currency table declares, so it cannot
+       be satisfied by any per-coin clamp. */
+    const diam = await page.evaluate(() => {
+      const out = {};
+      document.querySelectorAll('.mm-bothways .mm-disc').forEach((d) => {
+        const v = d.textContent.replace(/\D+/g, '');
+        out[v] = Math.max(out[v] || 0, d.getBoundingClientRect().width);
+      });
+      return out;
+    });
+    const declared = await page.evaluate(() => {
+      const c = MoneyMat.cur(); const m = {};
+      c.coins.forEach((d) => { m[String(d.v).replace(/\D+/g, '')] = d.d; });
+      return m;
+    });
+    const seen = Object.keys(diam).filter((k) => declared[k]);
+    ok('the payoff panel shows ≥2 distinct denominations', seen.length >= 2, JSON.stringify(diam));
+    if (seen.length >= 2) {
+      const worst = seen.reduce((acc, k) => {
+        const other = seen.find((j) => j !== k);
+        const want = declared[k] / declared[other];
+        const got = diam[k] / diam[other];
+        const err = Math.abs(got - want) / want;
+        return err > acc.err ? { err, k, other, want, got } : acc;
+      }, { err: 0 });
+      ok('⭐ true relative diameters survive into the payoff panel',
+        worst.err < 0.05,
+        `${worst.k}:${worst.other} declared ${worst.want && worst.want.toFixed(3)} rendered ${worst.got && worst.got.toFixed(3)}`);
+    }
 
     /* ⭐ REACHING THE PRICE BY REMOVAL — no coverage existed for this, which
        is why it shipped broken. Overpay to 50 against 45, then lift the 5

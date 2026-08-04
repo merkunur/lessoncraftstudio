@@ -688,6 +688,35 @@ function serve() {
     });
     ok('purse coins are focusable buttons', kb.focusable);
     ok('all interactive elements are real <button>s', kb.allButtons);
+
+    /* ⭐ A PURSE COIN ADDS AND A MAT COIN REMOVES, AND THEY CARRIED THE SAME
+       NAME. A screen-reader user could not tell which pile they were in.
+       The distinction is now the amount each tap LANDS ON — a numeral, so it
+       needs no new prose in eleven languages. */
+    const a11y = await page.evaluate(() => {
+      const T = MoneyMat;
+      T.price = 45; T.tray = [25]; T.phase = 'paying'; T.render();
+      const purse = document.querySelector('.mm-purse .mm-coinbtn[data-v="25"]');
+      const onMat = document.querySelector('.mm-mat .mm-coinbtn[data-v="25"]');
+      const scene = document.querySelector('.mm-scene');
+      const mat = document.querySelector('.mm-mat');
+      return {
+        purseLabel: purse && purse.getAttribute('aria-label'),
+        matLabel: onMat && onMat.getAttribute('aria-label'),
+        sceneRole: scene && scene.getAttribute('role'),
+        sceneLabel: scene && scene.getAttribute('aria-label'),
+        matRole: mat && mat.getAttribute('role'),
+        matGroupLabel: mat && mat.getAttribute('aria-label'),
+        imgAlt: document.querySelector('.mm-item') && document.querySelector('.mm-item').getAttribute('alt')
+      };
+    });
+    ok('⭐ a coin in the purse and the same coin on the mat are named differently',
+      a11y.purseLabel && a11y.matLabel && a11y.purseLabel !== a11y.matLabel, JSON.stringify(a11y));
+    ok('the stall states the task as its accessible name',
+      a11y.sceneRole === 'img' && /45/.test(a11y.sceneLabel || '') && (a11y.sceneLabel || '').length > 12, String(a11y.sceneLabel));
+    ok('the item image does not repeat the scene label', a11y.imgAlt === '');
+    ok('the mat is a named group carrying its total',
+      a11y.matRole === 'group' && /25/.test(a11y.matGroupLabel || ''), JSON.stringify(a11y));
     ok('I no js errors', page._errs.length === 0, page._errs[0]);
     await page.close();
   }

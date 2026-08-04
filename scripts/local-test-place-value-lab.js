@@ -439,6 +439,35 @@ function serve() {
   }
   await page.setViewport({ width: 1024, height: 768 });
 
+  /* ---------- N. the keypad's Clear, which no shared gate can reach ----
+     ⭐ audit-tool-control-liveness reports "Clear DOES NOTHING" — and it
+     is right about what it saw. At --depth=2 the only path it has to
+     that button is "open the keypad", so it presses Clear on an EMPTY
+     display, where doing nothing is the correct behaviour. Reaching it
+     with something to clear needs depth 3, which is combinatorial for
+     19 controls. So the assertion lives here instead of the control
+     being excused: type, check it took, clear, check it went. */
+  console.log('\nN. keypad Clear (unreachable at liveness depth 2)');
+  await page.goto(BASE + '?lang=en', { waitUntil: 'networkidle0' });
+  const kp = await page.evaluate(() => {
+    PlaceValueLab._openKeypad();
+    const digits = [...document.querySelectorAll('.pvl-kpgrid .pvl-chip')];
+    const disp = () => (document.querySelector('.pvl-kpdisp') || {}).textContent || '';
+    digits[4].click(); digits[7].click();           /* type two digits */
+    const typed = disp();
+    const clear = [...document.querySelectorAll('.pvl-kprow .pvl-chip')]
+      .find((c) => c.textContent === 'Clear');
+    const found = !!clear;
+    if (clear) clear.click();
+    const after = disp();
+    PlaceValueLab._closePanel();
+    return { typed, after, found, n: digits.length };
+  });
+  if (!kp.found) FAIL('keypad: no Clear button found');
+  else if (!/\d/.test(kp.typed)) FAIL(`keypad: typing two digits produced "${kp.typed}"`);
+  else if (/\d/.test(kp.after)) FAIL(`keypad: Clear left "${kp.after}" on the display`);
+  else OK(`keypad: typed "${kp.typed}" → Clear emptied it (${kp.n} digit keys)`);
+
   /* ---------- close ---------- */
   const realErrs = pageErrs.filter((e) => !/404|Failed to load/.test(e));
   if (realErrs.length) FAIL('page errors: ' + realErrs.slice(0, 3).join(' | '));

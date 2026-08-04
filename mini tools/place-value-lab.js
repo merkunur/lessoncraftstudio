@@ -2306,11 +2306,30 @@ var PlaceValueLab = {
     });
     this._mountPanel(scrim, panel);
   },
+  /* ⭐ MOUNT INSIDE THE CARD, not on <body>. Both panels are
+     position:fixed, so where they sit in the tree does not move them —
+     but it decides whether anything can SEE them. The shared liveness
+     gate snapshots `.lcs-app`, so a panel appended to <body> is
+     invisible to it, and "Type a number" and "Our numbers" scored DEAD
+     in every entitlement state while working perfectly.
+
+     The diagnosis is in the gate's own output: "Our numbers" PASSED for
+     anon and free — where it renders the paywall line inside the card —
+     and FAILED for premium, where it opens the panel. Same control, same
+     click, opposite verdicts, decided entirely by which side of
+     `.lcs-app` the result landed on.
+
+     ⚠ position:fixed resolves against the viewport unless an ancestor
+     establishes a containing block (transform / filter / contain), which
+     `.lcs-app` does not — it is position:relative + overflow:hidden, and
+     neither of those captures a fixed descendant. Verified by measuring
+     the rendered panel rect before and after. */
   _mountPanel: function (scrim, panel) {
     var self = this;
     scrim.addEventListener('click', function () { self._closePanel(); });
-    document.body.appendChild(scrim);
-    document.body.appendChild(panel);
+    var host = document.querySelector('.lcs-app') || document.body;
+    host.appendChild(scrim);
+    host.appendChild(panel);
     this._panelEl = panel;
     this._scrimEl = scrim;
   },
@@ -2442,6 +2461,9 @@ var PlaceValueLab = {
     [['build', 'modeBuild', true], ['show', 'modeShow', true], ['sub', 'modeSub', this.premium]].forEach(function (m) {
       var chip = api.el('button', 'pvl-chip' + (self.mode === m[0] ? ' active' : '') + (m[2] ? '' : ' locked'));
       chip.type = 'button';
+      /* the active mode was signalled by a CSS class alone, so a screen
+         reader could not tell which of the three was current */
+      chip.setAttribute('aria-pressed', self.mode === m[0] ? 'true' : 'false');
       chip.textContent = api.t(m[1]);
       if (!m[2]) chip.innerHTML += ' <svg viewBox="0 0 24 24" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>';
       chip.addEventListener('click', function () {

@@ -28,6 +28,10 @@ const POSES = {
   full: { h: 9, t: 9, o: 9, lang: 'en' },
   /* the zero placeholder */
   zero: { h: 3, t: 0, o: 4, lang: 'de' },
+  /* the taxonomy, where it earns its keep */
+  teen: { h: 0, t: 1, o: 4, lang: 'en' },      /* four|teen — the 4 said FIRST */
+  vigesimal: { h: 0, t: 9, o: 6, lang: 'fr' }, /* quatre-vingt|seize = 80 + 16 */
+  soixante: { h: 0, t: 7, o: 1, lang: 'fr' },  /* soixante et onze = 60 + 11 */
 };
 
 function serve() {

@@ -67,7 +67,6 @@ var PlaceValueLab = {
     speakWordAria:{en:'Say the number',de:'Zahl ansagen',fr:'Dire le nombre',it:'Di’ il numero',es:'Decir el número',pt:'Falar o número',nl:'Zeg het getal',sv:'Säg talet',da:'Sig tallet',no:'Si tallet',fi:'Sano luku'},
     speakDecompAria:{en:'Say it as tens and ones',de:'Als Zehner und Einer ansagen',fr:'Dire en dizaines et unités',it:'Dillo in decine e unità',es:'Decirlo en decenas y unidades',pt:'Falar em dezenas e unidades',nl:'Zeg het in tientallen en eenheden',sv:'Säg det i tiotal och ental',da:'Sig det i tiere og enere',no:'Si det i tiere og enere',fi:'Sano luku kymmeninä ja ykkösinä'},
     tapDigitAria: {en:'Which part of the word says this digit?',de:'Welcher Teil des Wortes sagt diese Ziffer?',fr:'Quelle partie du mot dit ce chiffre ?',it:'Quale parte della parola dice questa cifra?',es:'¿Qué parte de la palabra dice esta cifra?',pt:'Que parte da palavra fala este algarismo?',nl:'Welk deel van het woord zegt dit cijfer?',sv:'Vilken del av ordet säger den här siffran?',da:'Hvilken del af ordet siger dette ciffer?',no:'Hvilken del av ordet sier dette sifferet?',fi:'Mikä osa sanasta sanoo tämän numeron?'},
-    mixedNote:    {en:'A special number word!',de:'Ein besonderes Zahlwort!',fr:'Un nombre un peu spécial !',it:'Una parola speciale!',es:'¡Una palabra especial!',pt:'Uma palavra especial!',nl:'Een bijzonder telwoord!',sv:'Ett speciellt räkneord!',da:'Et særligt talord!',no:'Et spesielt tallord!',fi:'Erityinen lukusana!'},
     noTensChip:   {en:'no tens',de:'keine Zehner',fr:'pas de dizaine',it:'zero decine',es:'sin decenas',pt:'sem dezenas',nl:'geen tientallen',sv:'inga tiotal',da:'ingen tiere',no:'ingen tiere',fi:'ei kymmeniä'},
     gateSub:      {en:'The Subtract lab — where borrowing becomes real — is part of the full toolkit.',de:'Das Abzieh-Labor — wo der Zehnerübergang begreifbar wird — gehört zum vollen Werkzeugkasten.',fr:'Le labo de soustraction — où l’emprunt devient réel — fait partie de la boîte complète.',it:'Il laboratorio delle sottrazioni — dove il cambio si vede davvero — fa parte del kit completo.',es:'El laboratorio de restas — donde pedir prestado se vuelve real — es parte del kit completo.',pt:'O laboratório de subtração — onde o “pedir emprestado” vira algo concreto — faz parte do kit completo.',nl:'Het aftreklab — waar inwisselen echt wordt — hoort bij de volledige gereedschapskist.',sv:'Subtraktionslabbet — där växling blir på riktigt — ingår i hela verktygslådan.',da:'Minus-værkstedet — hvor veksling bliver håndgribelig — er en del af den fulde værktøjskasse.',no:'Minus-verkstedet — der veksling blir ekte — er en del av den fulle verktøykassen.',fi:'Vähennyspaja — jossa vaihtaminen tulee todeksi — kuuluu koko työkalupakkiin.'},
     gateSaves:    {en:'Saving your class’s own numbers is a full-toolkit treat.',de:'Die eigenen Zahlen deiner Klasse zu speichern gehört zum vollen Werkzeugkasten.',fr:'Enregistrer les nombres de ta classe fait partie de la boîte complète.',it:'Salvare i numeri della tua classe fa parte del kit completo.',es:'Guardar los números de tu clase es parte del kit completo.',pt:'Salvar os números da sua turma faz parte do kit completo.',nl:'De eigen getallen van je klas bewaren hoort bij de volledige kist.',sv:'Att spara klassens egna tal ingår i hela verktygslådan.',da:'At gemme klassens egne tal er en del af den fulde kasse.',no:'Å lagre klassens egne tall er en del av den fulle kassen.',fi:'Oman luokan lukujen tallentaminen kuuluu koko työkalupakkiin.'},
@@ -81,27 +80,63 @@ var PlaceValueLab = {
   },
 
   /* ---------------- the span-tagged word composer (THE MOAT) --------
-     PV_WORD_SPANS[loc](n) → [{t:text, p:part}], parts:
-     hundreds|tens|ones|joiner|teen|mixed. Gate-verified: the span
-     texts concatenate BYTE-EQUAL to NUM_WORDS_HELPERS[loc](n,'cardinal')
-     for 0-999 (scripts/verify-place-value-lab.js). One line per locale;
-     the /*__SP_xx__* / markers let the fan-out whole-line replace.
-     MIXED_RANGES: locales where a clean tens/ones split does not exist
-     in the surface form (fr vigesimal 70-99 only) — gate-asserted. */
-  MIXED_RANGES: { fr: [70, 99] },
+     PV_WORD_SPANS[loc](n) -> [{t:text, p:part, v:value, lemma?}].
+
+     ⭐⭐ EVERY SPAN NAMES A VALUE, AND THEY MUST SUM TO n.
+     That one numeric field is what turns the moat from a spelling
+     check into a theorem. Byte-equality only proves the letters
+     concatenate; `sum(v) === n` proves the coloured parts are a
+     partition OF THE NUMBER — German vier(4) + zwanzig(20) = 24 with
+     the ones span FIRST, English four(4) + teen(10) = 14 in the same
+     order and for the same reason, French soixante(60) + onze(11) =
+     71. Gate: I3 in scripts/verify-place-value-lab.js, 0-999 x 11.
+
+     PARTS. `teen` and `mixed` are GONE — both existed to avoid the
+     analysis, and both sat exactly where the analysis pays:
+       hundreds/tens/ones  the places themselves
+       tenMark   a bound ten-marker morpheme: -teen, -zehn, -tien,
+                 -ton, -ten, dieci-, dez-, toista. Names 10.
+                 ⭐ English "fourteen" says the 4 FIRST, exactly like
+                 "vierundzwanzig" — the classic 14/41 reversal IS this
+                 tool's own thesis, in the range K-1 actually lives
+                 in, and the old `teen` blob hid it.
+       scoreMark the French base-20 unit `quatre-vingt`. Names 80.
+       atom      genuinely unanalysable in the modern language:
+                 eleven, twelve, elf, once..quince, onze..seize,
+                 undici..sedici, elva, elleve. An atom tag is honest
+                 HERE and was a cop-out everywhere else.
+       joiner    und, et, y, e, og, -. Names 0.
+
+     `lemma` carries the citation form wherever the surface is a
+     clipped or bound variant (thir- for three, sech- for sechs,
+     dós for dos), so the screen can show what is written while the
+     tool can say what it means, and nothing presents a fragment as
+     a standalone word.
+     ⚠ The Spanish and Italian fragments and the Danish halvtreds
+     reading are flagged for the native panels as SOURCE TO AUDIT.
+
+     MIXED_RANGES is now EMPTY and stays declared: French 70-99 used
+     to be one opaque `mixed` lump with an apology string beside it,
+     but 71 = soixante(60) + et + onze(11) is exactly what a CP
+     teacher writes on the board — the tens word names 60 while the
+     number is 70, and that mismatch IS the lesson. The sum invariant
+     makes a lump structurally impossible: you cannot partition it.
+     One line per locale; the /*__SP_xx__* / markers let the fan-out
+     whole-line replace. */
+  MIXED_RANGES: {},
 
   PV_WORD_SPANS: {
-    /*__SP_en__*/ en: function (n) { var L=['zero','one','two','three','four','five','six','seven','eight','nine','ten','eleven','twelve','thirteen','fourteen','fifteen','sixteen','seventeen','eighteen','nineteen'],T=['','','twenty','thirty','forty','fifty','sixty','seventy','eighty','ninety'];function s99(m){if(m<10)return[{t:L[m],p:'ones'}];if(m<20)return[{t:L[m],p:'teen'}];var t=Math.floor(m/10),o=m%10;if(o===0)return[{t:T[t],p:'tens'}];return[{t:T[t],p:'tens'},{t:'-',p:'joiner'},{t:L[o],p:'ones'}];}if(n<100)return s99(n);var h=Math.floor(n/100),r=n%100,out=[{t:L[h]+' hundred',p:'hundreds'}];if(r===0)return out;return out.concat([{t:' ',p:'joiner'}],s99(r)); },
-    /*__SP_de__*/ de: function (n) { var C=['null','eins','zwei','drei','vier','fünf','sechs','sieben','acht','neun'],A=['null','ein','zwei','drei','vier','fünf','sechs','sieben','acht','neun'],E=['zehn','elf','zwölf','dreizehn','vierzehn','fünfzehn','sechzehn','siebzehn','achtzehn','neunzehn'],T=['','','zwanzig','dreißig','vierzig','fünfzig','sechzig','siebzig','achtzig','neunzig'];if(n<100){if(n<10)return[{t:C[n],p:'ones'}];if(n<20)return[{t:E[n-10],p:'teen'}];var t=Math.floor(n/10),o=n%10;if(o===0)return[{t:T[t],p:'tens'}];return[{t:A[o],p:'ones'},{t:'und',p:'joiner'},{t:T[t],p:'tens'}];}var h=Math.floor(n/100),r=n%100,out=[{t:A[h]+'hundert',p:'hundreds'}];if(r===0)return out;if(r<10)return out.concat([{t:C[r],p:'ones'}]);if(r<20)return out.concat([{t:E[r-10],p:'teen'}]);var t2=Math.floor(r/10),o2=r%10;if(o2===0)return out.concat([{t:T[t2],p:'tens'}]);return out.concat([{t:A[o2],p:'ones'},{t:'und',p:'joiner'},{t:T[t2],p:'tens'}]); },
-    /*__SP_es__*/ es: function (n) { var L=['cero','uno','dos','tres','cuatro','cinco','seis','siete','ocho','nueve','diez','once','doce','trece','catorce','quince','dieciséis','diecisiete','dieciocho','diecinueve','veinte','veintiuno','veintidós','veintitrés','veinticuatro','veinticinco','veintiséis','veintisiete','veintiocho','veintinueve'],T=['','','veinte','treinta','cuarenta','cincuenta','sesenta','setenta','ochenta','noventa'];function s99(m){if(m<10)return[{t:L[m],p:'ones'}];if(m<20)return[{t:L[m],p:'teen'}];if(m===20)return[{t:'veinte',p:'tens'}];if(m<30)return[{t:'veinti',p:'tens'},{t:L[m].slice(6),p:'ones'}];var t=Math.floor(m/10),o=m%10;if(o===0)return[{t:T[t],p:'tens'}];return[{t:T[t],p:'tens'},{t:' y ',p:'joiner'},{t:L[o],p:'ones'}];}if(n<100)return s99(n);if(n===100)return[{t:'cien',p:'hundreds'}];var H=['','ciento','doscientos','trescientos','cuatrocientos','quinientos','seiscientos','setecientos','ochocientos','novecientos'],h=Math.floor(n/100),r=n%100,out=[{t:H[h],p:'hundreds'}];if(r===0)return out;return out.concat([{t:' ',p:'joiner'}],s99(r)); },
-    /*__SP_it__*/ it: function (n) { var L=['zero','uno','due','tre','quattro','cinque','sei','sette','otto','nove','dieci','undici','dodici','tredici','quattordici','quindici','sedici','diciassette','diciotto','diciannove'],T=['','','venti','trenta','quaranta','cinquanta','sessanta','settanta','ottanta','novanta'],O=['','uno','due','tré','quattro','cinque','sei','sette','otto','nove'];function s99(m){if(m<10)return[{t:L[m],p:'ones'}];if(m<20)return[{t:L[m],p:'teen'}];var t=Math.floor(m/10),o=m%10;if(o===0)return[{t:T[t],p:'tens'}];var ts=T[t];if(o===1||o===8)ts=ts.slice(0,-1);return[{t:ts,p:'tens'},{t:O[o],p:'ones'}];}if(n<100)return s99(n);var M=['','','due','tre','quattro','cinque','sei','sette','otto','nove'],h=Math.floor(n/100),r=n%100,hw=(h===1)?'cento':M[h]+'cento';if(r===0)return[{t:hw,p:'hundreds'}];var tail=s99(r),f=tail[0].t.charAt(0);if(f==='o'||f==='u')hw=hw.slice(0,-1);return[{t:hw,p:'hundreds'}].concat(tail); },
-    /*__SP_fr__*/ fr: function (n) { var L=['zéro','un','deux','trois','quatre','cinq','six','sept','huit','neuf','dix','onze','douze','treize','quatorze','quinze','seize','dix-sept','dix-huit','dix-neuf'],T=['','','vingt','trente','quarante','cinquante','soixante'];function w99(m){if(m<20)return L[m];var t=Math.floor(m/10),o=m%10;if(t>=2&&t<=6){if(o===0)return T[t];if(o===1)return T[t]+' et un';return T[t]+'-'+L[o];}if(t===7){if(o===0)return 'soixante-dix';if(o===1)return 'soixante et onze';return 'soixante-'+L[10+o];}if(t===8){if(o===0)return 'quatre-vingts';return 'quatre-vingt-'+L[o];}if(o===0)return 'quatre-vingt-dix';return 'quatre-vingt-'+L[10+o];}function s99(m){if(m<10)return[{t:L[m],p:'ones'}];if(m<20)return[{t:L[m],p:'teen'}];if(m>=70)return[{t:w99(m),p:'mixed'}];var t=Math.floor(m/10),o=m%10;if(o===0)return[{t:T[t],p:'tens'}];if(o===1)return[{t:T[t],p:'tens'},{t:' et ',p:'joiner'},{t:'un',p:'ones'}];return[{t:T[t],p:'tens'},{t:'-',p:'joiner'},{t:L[o],p:'ones'}];}if(n<100)return s99(n);var M=['','','deux','trois','quatre','cinq','six','sept','huit','neuf'],h=Math.floor(n/100),r=n%100,hw;if(h===1)hw='cent';else hw=M[h]+' cent'+(r===0?'s':'');var out=[{t:hw,p:'hundreds'}];if(r===0)return out;return out.concat([{t:' ',p:'joiner'}],s99(r)); },
-    /*__SP_pt__*/ pt: function (n) { var L=['zero','um','dois','três','quatro','cinco','seis','sete','oito','nove','dez','onze','doze','treze','quatorze','quinze','dezesseis','dezessete','dezoito','dezenove'],T=['','','vinte','trinta','quarenta','cinquenta','sessenta','setenta','oitenta','noventa'];function s99(m){if(m<10)return[{t:L[m],p:'ones'}];if(m<20)return[{t:L[m],p:'teen'}];var t=Math.floor(m/10),o=m%10;if(o===0)return[{t:T[t],p:'tens'}];return[{t:T[t],p:'tens'},{t:' e ',p:'joiner'},{t:L[o],p:'ones'}];}if(n<100)return s99(n);if(n===100)return[{t:'cem',p:'hundreds'}];var H=['','cento','duzentos','trezentos','quatrocentos','quinhentos','seiscentos','setecentos','oitocentos','novecentos'],h=Math.floor(n/100),r=n%100,out=[{t:H[h],p:'hundreds'}];if(r===0)return out;return out.concat([{t:' e ',p:'joiner'}],s99(r)); },
-    /*__SP_nl__*/ nl: function (n) { var L=['nul','een','twee','drie','vier','vijf','zes','zeven','acht','negen','tien','elf','twaalf','dertien','veertien','vijftien','zestien','zeventien','achttien','negentien'],T=['','','twintig','dertig','veertig','vijftig','zestig','zeventig','tachtig','negentig'],O=['','een','twee','drie','vier','vijf','zes','zeven','acht','negen'];function s99(m){if(m<10)return[{t:L[m],p:'ones'}];if(m<20)return[{t:L[m],p:'teen'}];var t=Math.floor(m/10),o=m%10;if(o===0)return[{t:T[t],p:'tens'}];var j=(o===2||o===3)?'ën':'en';return[{t:O[o],p:'ones'},{t:j,p:'joiner'},{t:T[t],p:'tens'}];}if(n<100)return s99(n);var h=Math.floor(n/100),r=n%100,hw=(h===1)?'honderd':O[h]+'honderd',out=[{t:hw,p:'hundreds'}];if(r===0)return out;return out.concat(s99(r)); },
-    /*__SP_sv__*/ sv: function (n) { var L=['noll','ett','två','tre','fyra','fem','sex','sju','åtta','nio','tio','elva','tolv','tretton','fjorton','femton','sexton','sjutton','arton','nitton'],T=['','','tjugo','trettio','fyrtio','femtio','sextio','sjuttio','åttio','nittio'],O=['','ett','två','tre','fyra','fem','sex','sju','åtta','nio'];function s99(m){if(m<10)return[{t:L[m],p:'ones'}];if(m<20)return[{t:L[m],p:'teen'}];var t=Math.floor(m/10),o=m%10;if(o===0)return[{t:T[t],p:'tens'}];return[{t:T[t],p:'tens'},{t:L[o],p:'ones'}];}if(n<100)return s99(n);var h=Math.floor(n/100),r=n%100,hw=(h===1)?'hundra':O[h]+'hundra',out=[{t:hw,p:'hundreds'}];if(r===0)return out;return out.concat(s99(r)); },
-    /*__SP_da__*/ da: function (n) { var L=['nul','en','to','tre','fire','fem','seks','syv','otte','ni','ti','elleve','tolv','tretten','fjorten','femten','seksten','sytten','atten','nitten'],T=['','','tyve','tredive','fyrre','halvtreds','tres','halvfjerds','firs','halvfems'],O=['','en','to','tre','fire','fem','seks','syv','otte','ni'];function s99(m){if(m<10)return[{t:L[m],p:'ones'}];if(m<20)return[{t:L[m],p:'teen'}];var t=Math.floor(m/10),o=m%10;if(o===0)return[{t:T[t],p:'tens'}];return[{t:L[o],p:'ones'},{t:'og',p:'joiner'},{t:T[t],p:'tens'}];}if(n<100)return s99(n);var h=Math.floor(n/100),r=n%100,hw=(h===1)?'hundrede':O[h]+'hundrede',out=[{t:hw,p:'hundreds'}];if(r===0)return out;return out.concat([{t:' og ',p:'joiner'}],s99(r)); },
-    /*__SP_no__*/ no: function (n) { var L=['null','én','to','tre','fire','fem','seks','sju','åtte','ni','ti','elleve','tolv','tretten','fjorten','femten','seksten','sytten','atten','nitten'],T=['','','tjue','tretti','førti','femti','seksti','sytti','åtti','nitti'],O=['','én','to','tre','fire','fem','seks','sju','åtte','ni'];function s99(m){if(m<10)return[{t:L[m],p:'ones'}];if(m<20)return[{t:L[m],p:'teen'}];var t=Math.floor(m/10),o=m%10;if(o===0)return[{t:T[t],p:'tens'}];return[{t:T[t],p:'tens'},{t:L[o],p:'ones'}];}if(n<100)return s99(n);var h=Math.floor(n/100),r=n%100,hw=(h===1)?'hundre':O[h]+'hundre',out=[{t:hw,p:'hundreds'}];if(r===0)return out;return out.concat([{t:'og',p:'joiner'}],s99(r)); },
-    /*__SP_fi__*/ fi: function (n) { var L=['nolla','yksi','kaksi','kolme','neljä','viisi','kuusi','seitsemän','kahdeksan','yhdeksän','kymmenen','yksitoista','kaksitoista','kolmetoista','neljätoista','viisitoista','kuusitoista','seitsemäntoista','kahdeksantoista','yhdeksäntoista'],T=['','','kaksikymmentä','kolmekymmentä','neljäkymmentä','viisikymmentä','kuusikymmentä','seitsemänkymmentä','kahdeksankymmentä','yhdeksänkymmentä'],O=['','yksi','kaksi','kolme','neljä','viisi','kuusi','seitsemän','kahdeksan','yhdeksän'];function s99(m){if(m<10)return[{t:L[m],p:'ones'}];if(m<20)return[{t:L[m],p:'teen'}];var t=Math.floor(m/10),o=m%10;if(o===0)return[{t:T[t],p:'tens'}];return[{t:T[t],p:'tens'},{t:L[o],p:'ones'}];}if(n<100)return s99(n);var h=Math.floor(n/100),r=n%100,hw=(h===1)?'sata':O[h]+'sataa',out=[{t:hw,p:'hundreds'}];if(r===0)return out;return out.concat(s99(r)); }
+    /*__SP_en__*/ en: function (n) { var L=['zero','one','two','three','four','five','six','seven','eight','nine','ten','eleven','twelve','thirteen','fourteen','fifteen','sixteen','seventeen','eighteen','nineteen'],T=['','','twenty','thirty','forty','fifty','sixty','seventy','eighty','ninety'],ST=['','','','thir','four','fif','six','seven','eigh','nine'];function s99(m){if(m<10)return[{t:L[m],p:'ones',v:m}];if(m===10)return[{t:'ten',p:'tens',v:10}];if(m<13)return[{t:L[m],p:'atom',v:m}];if(m<20){var u=m-10,sp={t:ST[u],p:'ones',v:u};if(ST[u]!==L[u])sp.lemma=L[u];return[sp,{t:'teen',p:'tenMark',v:10}];}var t=Math.floor(m/10),o=m%10;if(o===0)return[{t:T[t],p:'tens',v:t*10}];return[{t:T[t],p:'tens',v:t*10},{t:'-',p:'joiner',v:0},{t:L[o],p:'ones',v:o}];}if(n<100)return s99(n);var h=Math.floor(n/100),r=n%100,out=[{t:L[h]+' hundred',p:'hundreds',v:h*100}];if(r===0)return out;return out.concat([{t:' ',p:'joiner',v:0}],s99(r)); },
+    /*__SP_de__*/ de: function (n) { var C=['null','eins','zwei','drei','vier','fünf','sechs','sieben','acht','neun'],A=['null','ein','zwei','drei','vier','fünf','sechs','sieben','acht','neun'],E=['zehn','elf','zwölf','dreizehn','vierzehn','fünfzehn','sechzehn','siebzehn','achtzehn','neunzehn'],ST=['','','','drei','vier','fünf','sech','sieb','acht','neun'],T=['','','zwanzig','dreißig','vierzig','fünfzig','sechzig','siebzig','achtzig','neunzig'];function s99(m){if(m<10)return[{t:C[m],p:'ones',v:m}];if(m===10)return[{t:'zehn',p:'tens',v:10}];if(m<13)return[{t:E[m-10],p:'atom',v:m}];if(m<20){var u=m-10,sp={t:ST[u],p:'ones',v:u};if(ST[u]!==C[u])sp.lemma=C[u];return[sp,{t:'zehn',p:'tenMark',v:10}];}var t=Math.floor(m/10),o=m%10;if(o===0)return[{t:T[t],p:'tens',v:t*10}];var os={t:A[o],p:'ones',v:o};if(A[o]!==C[o])os.lemma=C[o];return[os,{t:'und',p:'joiner',v:0},{t:T[t],p:'tens',v:t*10}];}if(n<100)return s99(n);var h=Math.floor(n/100),r=n%100,out=[{t:A[h]+'hundert',p:'hundreds',v:h*100}];if(r===0)return out;return out.concat(s99(r)); },
+    /*__SP_es__*/ es: function (n) { var L=['cero','uno','dos','tres','cuatro','cinco','seis','siete','ocho','nueve','diez','once','doce','trece','catorce','quince','dieciséis','diecisiete','dieciocho','diecinueve','veinte','veintiuno','veintidós','veintitrés','veinticuatro','veinticinco','veintiséis','veintisiete','veintiocho','veintinueve'],T=['','','veinte','treinta','cuarenta','cincuenta','sesenta','setenta','ochenta','noventa'];function tail(txt,u){var o={t:txt,p:'ones',v:u};if(txt!==L[u])o.lemma=L[u];return o;}function s99(m){if(m<10)return[{t:L[m],p:'ones',v:m}];if(m===10)return[{t:'diez',p:'tens',v:10}];if(m<16)return[{t:L[m],p:'atom',v:m}];if(m<20)return[{t:'dieci',p:'tenMark',v:10},tail(L[m].slice(5),m-10)];if(m===20)return[{t:'veinte',p:'tens',v:20}];if(m<30)return[{t:'veinti',p:'tens',v:20},tail(L[m].slice(6),m-20)];var t=Math.floor(m/10),o=m%10;if(o===0)return[{t:T[t],p:'tens',v:t*10}];return[{t:T[t],p:'tens',v:t*10},{t:' y ',p:'joiner',v:0},{t:L[o],p:'ones',v:o}];}if(n<100)return s99(n);if(n===100)return[{t:'cien',p:'hundreds',v:100}];var H=['','ciento','doscientos','trescientos','cuatrocientos','quinientos','seiscientos','setecientos','ochocientos','novecientos'],h=Math.floor(n/100),r=n%100,out=[{t:H[h],p:'hundreds',v:h*100}];if(r===0)return out;return out.concat([{t:' ',p:'joiner',v:0}],s99(r)); },
+    /*__SP_it__*/ it: function (n) { var L=['zero','uno','due','tre','quattro','cinque','sei','sette','otto','nove','dieci','undici','dodici','tredici','quattordici','quindici','sedici','diciassette','diciotto','diciannove'],T=['','','venti','trenta','quaranta','cinquanta','sessanta','settanta','ottanta','novanta'],O=['','uno','due','tré','quattro','cinque','sei','sette','otto','nove'];function s99(m){if(m<10)return[{t:L[m],p:'ones',v:m}];if(m===10)return[{t:'dieci',p:'tens',v:10}];if(m<17)return[{t:L[m],p:'atom',v:m}];if(m<20){var rest=L[m].slice(4),u=m-10,sp={t:rest,p:'ones',v:u};if(rest!==L[u])sp.lemma=L[u];return[{t:'dici',p:'tenMark',v:10},sp];}var t=Math.floor(m/10),o=m%10;if(o===0)return[{t:T[t],p:'tens',v:t*10}];var ts=T[t],el=(o===1||o===8);if(el)ts=ts.slice(0,-1);var os={t:O[o],p:'ones',v:o};if(O[o]!==L[o])os.lemma=L[o];var tsp={t:ts,p:'tens',v:t*10};if(el)tsp.lemma=T[t];return[tsp,os];}if(n<100)return s99(n);var M=['','','due','tre','quattro','cinque','sei','sette','otto','nove'],h=Math.floor(n/100),r=n%100,hw=(h===1)?'cento':M[h]+'cento';if(r===0)return[{t:hw,p:'hundreds',v:h*100}];var tl=s99(r),f=tl[0].t.charAt(0),hs={t:hw,p:'hundreds',v:h*100};if(f==='o'||f==='u'){hs.t=hw.slice(0,-1);hs.lemma=hw;}return[hs].concat(tl); },
+    /*__SP_fr__*/ fr: function (n) { var L=['zéro','un','deux','trois','quatre','cinq','six','sept','huit','neuf','dix','onze','douze','treize','quatorze','quinze','seize','dix-sept','dix-huit','dix-neuf'],T=['','','vingt','trente','quarante','cinquante','soixante'];function s99(m){if(m<10)return[{t:L[m],p:'ones',v:m}];if(m===10)return[{t:'dix',p:'tens',v:10}];if(m<17)return[{t:L[m],p:'atom',v:m}];if(m<20)return[{t:'dix',p:'tenMark',v:10},{t:'-',p:'joiner',v:0},{t:L[m-10],p:'ones',v:m-10}];var t=Math.floor(m/10),o=m%10;if(t>=2&&t<=6){if(o===0)return[{t:T[t],p:'tens',v:t*10}];if(o===1)return[{t:T[t],p:'tens',v:t*10},{t:' et ',p:'joiner',v:0},{t:'un',p:'ones',v:1}];return[{t:T[t],p:'tens',v:t*10},{t:'-',p:'joiner',v:0},{t:L[o],p:'ones',v:o}];}if(t===7){if(o===0)return[{t:'soixante',p:'tens',v:60},{t:'-',p:'joiner',v:0},{t:'dix',p:'tenMark',v:10}];if(o===1)return[{t:'soixante',p:'tens',v:60},{t:' et ',p:'joiner',v:0},{t:'onze',p:'atom',v:11}];return[{t:'soixante',p:'tens',v:60},{t:'-',p:'joiner',v:0},{t:L[10+o],p:'atom',v:10+o}];}if(t===8){if(o===0)return[{t:'quatre-vingts',p:'scoreMark',v:80}];return[{t:'quatre-vingt',p:'scoreMark',v:80},{t:'-',p:'joiner',v:0},{t:L[o],p:'ones',v:o}];}if(o===0)return[{t:'quatre-vingt',p:'scoreMark',v:80},{t:'-',p:'joiner',v:0},{t:'dix',p:'tenMark',v:10}];return[{t:'quatre-vingt',p:'scoreMark',v:80},{t:'-',p:'joiner',v:0},{t:L[10+o],p:'atom',v:10+o}];}if(n<100)return s99(n);var M=['','','deux','trois','quatre','cinq','six','sept','huit','neuf'],h=Math.floor(n/100),r=n%100,hw;if(h===1)hw='cent';else hw=M[h]+' cent'+(r===0?'s':'');var out=[{t:hw,p:'hundreds',v:h*100}];if(r===0)return out;return out.concat([{t:' ',p:'joiner',v:0}],s99(r)); },
+    /*__SP_pt__*/ pt: function (n) { var L=['zero','um','dois','três','quatro','cinco','seis','sete','oito','nove','dez','onze','doze','treze','quatorze','quinze','dezesseis','dezessete','dezoito','dezenove'],T=['','','vinte','trinta','quarenta','cinquenta','sessenta','setenta','oitenta','noventa'];function s99(m){if(m<10)return[{t:L[m],p:'ones',v:m}];if(m===10)return[{t:'dez',p:'tens',v:10}];if(m<16)return[{t:L[m],p:'atom',v:m}];if(m<20){var rest=L[m].slice(3),u=m-10,sp={t:rest,p:'ones',v:u};if(rest!==L[u])sp.lemma=L[u];return[{t:'dez',p:'tenMark',v:10},sp];}var t=Math.floor(m/10),o=m%10;if(o===0)return[{t:T[t],p:'tens',v:t*10}];return[{t:T[t],p:'tens',v:t*10},{t:' e ',p:'joiner',v:0},{t:L[o],p:'ones',v:o}];}if(n<100)return s99(n);if(n===100)return[{t:'cem',p:'hundreds',v:100}];var H=['','cento','duzentos','trezentos','quatrocentos','quinhentos','seiscentos','setecentos','oitocentos','novecentos'],h=Math.floor(n/100),r=n%100,out=[{t:H[h],p:'hundreds',v:h*100}];if(r===0)return out;return out.concat([{t:' e ',p:'joiner',v:0}],s99(r)); },
+    /*__SP_nl__*/ nl: function (n) { var L=['nul','een','twee','drie','vier','vijf','zes','zeven','acht','negen','tien','elf','twaalf','dertien','veertien','vijftien','zestien','zeventien','achttien','negentien'],T=['','','twintig','dertig','veertig','vijftig','zestig','zeventig','tachtig','negentig'],O=['','een','twee','drie','vier','vijf','zes','zeven','acht','negen'],ST=['','','','der','veer','vijf','zes','zeven','acht','negen'];function s99(m){if(m<10)return[{t:L[m],p:'ones',v:m}];if(m===10)return[{t:'tien',p:'tens',v:10}];if(m<13)return[{t:L[m],p:'atom',v:m}];if(m<20){var u=m-10,sp={t:ST[u],p:'ones',v:u};if(ST[u]!==L[u])sp.lemma=L[u];return[sp,{t:'tien',p:'tenMark',v:10}];}var t=Math.floor(m/10),o=m%10;if(o===0)return[{t:T[t],p:'tens',v:t*10}];var j=(o===2||o===3)?'ën':'en';return[{t:O[o],p:'ones',v:o},{t:j,p:'joiner',v:0},{t:T[t],p:'tens',v:t*10}];}if(n<100)return s99(n);var h=Math.floor(n/100),r=n%100,hw=(h===1)?'honderd':O[h]+'honderd',out=[{t:hw,p:'hundreds',v:h*100}];if(r===0)return out;return out.concat(s99(r)); },
+    /*__SP_sv__*/ sv: function (n) { var L=['noll','ett','två','tre','fyra','fem','sex','sju','åtta','nio','tio','elva','tolv','tretton','fjorton','femton','sexton','sjutton','arton','nitton'],T=['','','tjugo','trettio','fyrtio','femtio','sextio','sjuttio','åttio','nittio'],O=['','ett','två','tre','fyra','fem','sex','sju','åtta','nio'],ST=['','','','tret','fjor','fem','sex','sjut','ar','nit'];function s99(m){if(m<10)return[{t:L[m],p:'ones',v:m}];if(m===10)return[{t:'tio',p:'tens',v:10}];if(m<13)return[{t:L[m],p:'atom',v:m}];if(m<20){var u=m-10,sp={t:ST[u],p:'ones',v:u};if(ST[u]!==L[u])sp.lemma=L[u];return[sp,{t:'ton',p:'tenMark',v:10}];}var t=Math.floor(m/10),o=m%10;if(o===0)return[{t:T[t],p:'tens',v:t*10}];return[{t:T[t],p:'tens',v:t*10},{t:L[o],p:'ones',v:o}];}if(n<100)return s99(n);var h=Math.floor(n/100),r=n%100,hw=(h===1)?'hundra':O[h]+'hundra',out=[{t:hw,p:'hundreds',v:h*100}];if(r===0)return out;return out.concat(s99(r)); },
+    /*__SP_da__*/ da: function (n) { var L=['nul','en','to','tre','fire','fem','seks','syv','otte','ni','ti','elleve','tolv','tretten','fjorten','femten','seksten','sytten','atten','nitten'],T=['','','tyve','tredive','fyrre','halvtreds','tres','halvfjerds','firs','halvfems'],ST=['','','','tret','fjor','fem','seks','syt','at','nit'];function s99(m){if(m<10)return[{t:L[m],p:'ones',v:m}];if(m===10)return[{t:'ti',p:'tens',v:10}];if(m<13)return[{t:L[m],p:'atom',v:m}];if(m<20){var u=m-10,sp={t:ST[u],p:'ones',v:u};if(ST[u]!==L[u])sp.lemma=L[u];return[sp,{t:'ten',p:'tenMark',v:10}];}var t=Math.floor(m/10),o=m%10;if(o===0)return[{t:T[t],p:'tens',v:t*10}];return[{t:L[o],p:'ones',v:o},{t:'og',p:'joiner',v:0},{t:T[t],p:'tens',v:t*10}];}if(n<100)return s99(n);var h=Math.floor(n/100),r=n%100,hw=(h===1)?'hundrede':L[h]+'hundrede',out=[{t:hw,p:'hundreds',v:h*100}];if(r===0)return out;return out.concat([{t:' og ',p:'joiner',v:0}],s99(r)); },
+    /*__SP_no__*/ no: function (n) { var L=['null','én','to','tre','fire','fem','seks','sju','åtte','ni','ti','elleve','tolv','tretten','fjorten','femten','seksten','sytten','atten','nitten'],T=['','','tjue','tretti','førti','femti','seksti','sytti','åtti','nitti'],O=['','én','to','tre','fire','fem','seks','sju','åtte','ni'],ST=['','','','tret','fjor','fem','seks','syt','at','nit'];function s99(m){if(m<10)return[{t:L[m],p:'ones',v:m}];if(m===10)return[{t:'ti',p:'tens',v:10}];if(m<13)return[{t:L[m],p:'atom',v:m}];if(m<20){var u=m-10,sp={t:ST[u],p:'ones',v:u};if(ST[u]!==L[u])sp.lemma=L[u];return[sp,{t:'ten',p:'tenMark',v:10}];}var t=Math.floor(m/10),o=m%10;if(o===0)return[{t:T[t],p:'tens',v:t*10}];return[{t:T[t],p:'tens',v:t*10},{t:L[o],p:'ones',v:o}];}if(n<100)return s99(n);var h=Math.floor(n/100),r=n%100,hw=(h===1)?'hundre':O[h]+'hundre',out=[{t:hw,p:'hundreds',v:h*100}];if(r===0)return out;return out.concat([{t:'og',p:'joiner',v:0}],s99(r)); },
+    /*__SP_fi__*/ fi: function (n) { var L=['nolla','yksi','kaksi','kolme','neljä','viisi','kuusi','seitsemän','kahdeksan','yhdeksän','kymmenen','yksitoista','kaksitoista','kolmetoista','neljätoista','viisitoista','kuusitoista','seitsemäntoista','kahdeksantoista','yhdeksäntoista'],T=['','','kaksikymmentä','kolmekymmentä','neljäkymmentä','viisikymmentä','kuusikymmentä','seitsemänkymmentä','kahdeksankymmentä','yhdeksänkymmentä'],O=['','yksi','kaksi','kolme','neljä','viisi','kuusi','seitsemän','kahdeksan','yhdeksän'];function s99(m){if(m<10)return[{t:L[m],p:'ones',v:m}];if(m===10)return[{t:'kymmenen',p:'tens',v:10}];if(m<20){var u=m-10;return[{t:L[u],p:'ones',v:u},{t:'toista',p:'tenMark',v:10}];}var t=Math.floor(m/10),o=m%10;if(o===0)return[{t:T[t],p:'tens',v:t*10}];return[{t:T[t],p:'tens',v:t*10},{t:L[o],p:'ones',v:o}];}if(n<100)return s99(n);var h=Math.floor(n/100),r=n%100,hw=(h===1)?'sata':O[h]+'sataa',out=[{t:hw,p:'hundreds',v:h*100}];if(r===0)return out;return out.concat(s99(r)); }
   },
 
     /* ==== BYTE-FAITHFUL SPLICE from place-value-core.js _NUMBER_WORD_HELPERS (0-999 x11) ==== */
@@ -1710,12 +1745,6 @@ var PlaceValueLab = {
         host.appendChild(ph);
       }
     });
-    /* the fr mixed treatment */
-    if (this._spanEls.mixed && hi) {
-      var note = api.el('span', 'pvl-mixednote');
-      note.textContent = api.t('mixedNote');
-      host.appendChild(note);
-    }
   },
 
   /* ============================ verbs ============================= */
@@ -1911,7 +1940,7 @@ var PlaceValueLab = {
   },
   _pulseChanged: function (pl) {
     var dg = this._digitEls && this._digitEls[pl];
-    var sp = this._spanEls && (this._spanEls[pl] || this._spanEls.teen || this._spanEls.mixed);
+    var sp = this._spanEls && (this._spanEls[pl] || this._spanEls.atom || this._spanEls.tenMark || this._spanEls.scoreMark);
     [dg, sp].forEach(function (el) {
       if (el && el.animate) el.animate([{ transform: 'scale(1)' }, { transform: 'scale(1.14)' }, { transform: 'scale(1)' }], { duration: 320, easing: 'ease-out' });
     });
@@ -1954,7 +1983,7 @@ var PlaceValueLab = {
     for (var i = 0; i < kids.length; i++) {
       var cls = kids[i].className.match(/pvl-part-(\w+)/);
       var p = cls && cls[1];
-      if (p && !seen[p] && (p === 'hundreds' || p === 'tens' || p === 'ones' || p === 'teen' || p === 'mixed')) { seen[p] = true; order.push({ p: p, el: kids[i] }); }
+      if (p && !seen[p] && (p === 'hundreds' || p === 'tens' || p === 'ones' || p === 'tenMark' || p === 'scoreMark' || p === 'atom')) { seen[p] = true; order.push({ p: p, el: kids[i] }); }
     }
     var reduced = this._reducedMotion();
     var step = reduced ? 300 : 620;
@@ -2000,7 +2029,7 @@ var PlaceValueLab = {
     this._userGestured = true;
     var st = this.st;
     if (!this.engineCanonical(st)) return;
-    var chip = this._spanEls && (this._spanEls[pl] || this._spanEls.teen || this._spanEls.mixed);
+    var chip = this._spanEls && (this._spanEls[pl] || this._spanEls.atom || this._spanEls.tenMark || this._spanEls.scoreMark);
     if (chip && chip.animate) chip.animate([{ filter: 'brightness(1)' }, { filter: 'brightness(0.78)' }, { filter: 'brightness(1)' }], { duration: 450 });
     var col = this._trays[pl];
     if (col && col.parentNode && col.parentNode.animate) col.parentNode.animate([{ opacity: 1 }, { opacity: 0.55 }, { opacity: 1 }], { duration: 450 });
@@ -2483,14 +2512,24 @@ var PlaceValueLab = {
   + '.pvl-span.pvl-part-ones{color:#C9502A;background:rgba(242,120,75,.12);}'
   + '.pvl-span.pvl-part-tens{color:#146B5E;background:rgba(20,107,94,.12);}'
   + '.pvl-span.pvl-part-hundreds{color:#B98A2E;background:rgba(242,200,121,.2);}'
-  + '.pvl-span.pvl-part-teen{color:var(--lcs-ink);background:rgba(20,30,28,.06);}'
-  + '.pvl-span.pvl-part-mixed{color:var(--lcs-ink);background:rgba(20,30,28,.06);}'
+  /* ⭐ A TEN-MARKER IS A TEN, SO IT WEARS THE TENS COLOUR. This is the
+     whole gain from retiring `teen`: "four|teen" now shows a coral 4
+     beside a teal ten, in that order — the same picture as German
+     "vier|und|zwanzig", in the range a five-year-old actually lives in.
+     Under-dotted to say it is a bound form rather than a word a child
+     can lift out and say on its own. */
+  + '.pvl-span.pvl-part-tenMark{color:#146B5E;background:rgba(20,107,94,.12);'
+  +   'border-bottom:2px dotted rgba(20,107,94,.55);}'
+  /* the French base-20 unit: eighty, said as four-twenties */
+  + '.pvl-span.pvl-part-scoreMark{color:#146B5E;background:rgba(20,107,94,.12);'
+  +   'border-bottom:2px double rgba(20,107,94,.55);}'
+  /* genuinely unanalysable — eleven, once, seize. Neutral on purpose:
+     colouring it would claim a structure it does not have. */
+  + '.pvl-span.pvl-part-atom{color:var(--lcs-ink);background:rgba(20,30,28,.06);}'
   + '.pvl-span.pvl-part-joiner{color:#4A4A44;background:transparent;font-weight:600;}'
   + '.pvl-span.pvl-part-none{color:#75756D;background:rgba(20,30,28,.06);font-family:var(--lcs-font-body);'
   +   'font-weight:700;font-size:14px;align-self:center;padding:3px 9px;border-radius:999px;margin:0 5px;}'
   + '.pvl-span.plain{color:var(--lcs-ink)!important;background:transparent!important;}'
-  + '.pvl-mixednote{font-family:var(--lcs-font-body);font-weight:700;font-size:12.5px;color:#B98A2E;'
-  +   'background:#FDF0DC;border-radius:999px;padding:3px 10px;align-self:center;margin-inline-start:6px;}'
   + '.pvl-invite{font-family:var(--lcs-font-display);font-weight:700;font-size:clamp(19px,2.6vmin,27px);color:#B98A2E;}'
   + '.pvl-speak{width:44px;height:44px;flex:none;display:grid;place-items:center;border-radius:50%;'
   +   'background:#F2784B;color:#fff;border:none;cursor:pointer;box-shadow:0 3px 0 0 #C9502A;'
@@ -2501,6 +2540,10 @@ var PlaceValueLab = {
   + '.pvl-arc-ones{stroke:#C9502A;}'
   + '.pvl-arc-tens{stroke:#146B5E;}'
   + '.pvl-arc-hundreds{stroke:#B98A2E;}'
+  /* a ten-marker and a score-marker are tens-magnitude, so their
+     arcs travel in the tens colour; an atom is neutral. */
+  + '.pvl-arc-tenMark,.pvl-arc-scoreMark{stroke:#146B5E;}'
+  + '.pvl-arc-atom{stroke:#4A4A44;}'
 
   /* the mat */
   + '.pvl-col{background:#FFFEFB;border-radius:22px;box-shadow:var(--lcs-shadow);display:flex;'

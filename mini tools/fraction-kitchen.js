@@ -583,6 +583,10 @@ var FractionKitchen = {
     var stage = api.stage;
     stage.innerHTML = '';
     document.body.classList.add('frk-wide');
+    /* the mode has to reach the BODY, not just the wrap: the card sizes
+       itself from --frk-fb and a custom property cannot travel upward */
+    document.body.classList.remove('frk-m-share', 'frk-m-equiv');
+    if (this.mode !== 'cut') document.body.classList.add('frk-m-' + this.mode);
 
     var wrap = api.el('div', 'frk-wrap');
     /* the mode drives PROMINENCE declaratively — the board is the subject
@@ -1450,6 +1454,11 @@ var FractionKitchen = {
   _platesRow: function () {
     var api = this.api, self = this;
     var row = api.el('div', 'frk-plates');
+    /* The plate size knew the food size but not how many plates had to fit
+       beside it, so six friends wrapped to a second row and pushed the chips
+       past the fold at 768 — in all eleven locales, which is what marks it
+       as layout rather than language. */
+    row.style.setProperty('--frk-pn', String(this.friends));
     for (var i = 0; i < this.friends; i++) {
       var cell = api.el('div', 'frk-platecell');
       cell.innerHTML = this._friendSVG(i);
@@ -1945,34 +1954,89 @@ var FractionKitchen = {
 /* per-tool styling: STAGE ONLY + the sanctioned body class */
 (function injectCSS() {
   var css = ''
+  + 'body.frk-wide{--frk-fbmax:300px;--frk-fbfull:min(var(--frk-fbmax),55vw,52vh);--frk-fb:var(--frk-fbfull);}'
+  /* The chrome rides the SAME driver as the board, so the tool grows as one
+     thing. A 1350px board under 14px chips is not a big tool, it is a tool
+     with its controls left behind. The lower clamp is 14.5px — the shipped
+     size — and at the 1366 control cell fb=300 puts the expression at 8.4px,
+     so the clamp holds it there and that cell measures byte-for-byte as
+     before. Growth only ever comes from the upper end. */
+  + 'body.frk-wide{--frk-ui:clamp(14.5px,calc(var(--frk-fbfull) * 0.028),21px);}'
+  /* Once the food is being SHARED the plates are the subject and the board is
+     the place it came from, so the board yields the stage. At 0.72 on a wide
+     screen it stayed a 970px expanse holding one ghost outline while the two
+     plates it is about sat at 210px underneath it — F6's complaint exactly,
+     which the earlier fix only ever addressed at 1366. */
+  + 'body.frk-wide.frk-m-share,body.frk-wide.frk-m-equiv{--frk-fb:calc(var(--frk-fbfull) * 0.55);}'
+  /* the card follows the CONTENT, not the viewport tier */
+  /* ⚠ WITH A FLOOR. Following the content alone squeezed the card to 529px
+     in share mode, where the eleven dock chips then wrapped from two rows
+     into four — a 208px dock that pushed the tool 31px past the bottom of
+     an overflow:hidden card. The apparatus may shrink; the CHROME has a
+     width it needs regardless. */
+  /* ⚠ THE CARD LADDER IS NOT MINE TO DERIVE. These four widths were
+     probe-measured at every tier floor in Italian by the wide-viewport
+     programme, and `audit-tool-wide-viewport.js` holds 1366 as a CONTROL
+     cell that must equal its baseline EXACTLY. I replaced them with a cap
+     computed off the food size while fixing the board aspect, which shrank
+     the card 1080 -> 931 at 1366 and dropped FILL at 2560 below its floor.
+     The aspect fix belongs to the BOARD; the card ladder stays measured. */
   + 'body.frk-wide .lcs-app{max-width:min(1080px,96vw);}'
-  + 'body.frk-wide #lcs-root{height:100%;min-height:0;}'
+  + 'body.frk-wide #lcs-root{height:100%;min-height:0;display:flex;align-items:center;justify-content:center;}'
+  /* and the card stops stretching to a very tall window — a tool floating
+     in an acre of empty card reads as broken, not as spacious */
+  /* ⚠ the cap must carry the FIXED chrome, not just scale with the food:
+     a pure multiple of --frk-fb undershoots in share mode, where the food
+     shrinks but the ribbon and the two dock rows do not — 13 elements
+     escaped an overflow:hidden card at 1366, silently. */
+  /* Card height = the board (1.18 x food) + the chrome, and the chrome was
+     MEASURED at 414px (1366) / 490px (1080+), not guessed. My first cap said
+     `fb * 2.2 + 430`, which allots the board nearly double its real height —
+     that surplus is precisely the empty band above and below the food at a
+     tall viewport. 560px leaves room for the chip rows to wrap. */
+  /* ⭐ THE CARD HEIGHT IS NOT A FORMULA. I wrote two — `fb*2.2+430`, which
+     over-allotted and produced the empty bands, then `fb*1.18+560`, which
+     counted only CUT-mode chrome and so let share mode (plates, faces and a
+     second chip row) overlap the header and clip its own controls. Both were
+     me predicting a height the browser already knows. `height:auto` inside a
+     centring root makes the card exactly its contents, in every mode, with no
+     term to keep in step. */
+  + 'body.frk-wide .lcs-app{height:auto;max-height:100%;}'
   + '@media (max-width:560px){body.frk-wide{overflow-y:auto;}body.frk-wide #lcs-root{height:auto;}}'
   + '@media (max-width:480px){body.frk-wide .lcs-header{flex-direction:column;align-items:flex-start;gap:8px;}}'
-  + '.frk-wrap{display:flex;flex-direction:column;align-items:center;gap:clamp(6px,1.2vmin,12px);width:100%;height:100%;min-height:0;}'
+  + '.frk-wrap{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:clamp(6px,1.2vmin,12px);width:100%;height:100%;min-height:0;}'
 
   /* board zone + backdrop.
      ⚠ min-height:0 is load-bearing. Without it the zone could not shrink
      below its content, so in share/equiv the board overflowed the band and
      crossed the counter — visible in the committed 1024×768 QA renders. */
-  + '.frk-boardzone{position:relative;flex:1 1 auto;min-height:0;width:100%;display:flex;'
+  + '.frk-boardzone{position:relative;flex:0 0 auto;min-height:0;width:100%;display:flex;'
   /* the board SITS ON the counter rather than floating above it —
      flex-end plus the counter's own height as padding */
   +   'align-items:flex-end;justify-content:center;padding-bottom:32px;}'
-  + '.frk-wrap[data-mode="share"] .frk-boardzone{flex:0 0 auto;}'
+  + '.frk-boardzone{flex:0 0 auto;}'
   + '.frk-counterrow{display:flex;align-items:flex-end;justify-content:center;'
   +   'gap:clamp(6px,1.6vmin,18px);height:100%;min-height:0;width:100%;}'
   + '.frk-counter{position:absolute;bottom:0;left:0;right:0;height:32px;pointer-events:none;'
   +   'background:linear-gradient(180deg,#EFE2CB,#E7DCC8);border-top:1px solid #DCCFB4;border-radius:0 0 24px 24px;}'
   /* in each mode the SUBJECT takes the slack, so no band of dead space is
      left below the dock */
-  + '.frk-wrap[data-mode="equiv"] .frk-trays{flex:1 1 auto;align-content:center;}'
-  + '.frk-wrap[data-mode="share"] .frk-plates{flex:1 1 auto;align-content:center;}'
+  
+  
   /* the board derives its height from the band and is capped, so it can
      neither overflow it nor leave a slab of dead space above it */
-  + '.frk-wrap{--frk-bh:min(420px,62vh);}'
-  + '.frk-wrap[data-mode="share"]{--frk-bh:min(210px,28vh);}'
-  + '.frk-board{position:relative;width:min(460px,calc(100% - 150px));height:var(--frk-bh);max-height:100%;background:#DEC195;'
+  /* ⚠ ONE DRIVER. The board used to take its WIDTH from the viewport tier
+     and its HEIGHT from a fixed px/vh, so the two moved independently and
+     the aspect swung from 1.10 to 3.14 — measured. At 1920 in share mode
+     it was 660x210: a plank, with a 184px pizza floating in the middle of
+     it. Everything now derives from the food size, so the board's
+     proportion is CONSTANT by construction and cannot letterboard again.
+     Share and tray shrink the food PROPORTIONALLY rather than setting
+     their own max, or the wide tiers could never raise them (an
+     attribute selector out-specifies the plain class in the media
+     query). */
+  + '.frk-board{position:relative;width:min(calc(var(--frk-fb) * 1.5),calc(100% - 150px));'
+  +   'height:calc(var(--frk-fb) * 1.18);max-height:100%;background:#DEC195;'
   +   'border:2.5px solid #C0A074;border-radius:23px;display:flex;align-items:center;justify-content:center;'
   +   'box-shadow:0 2px 0 #C0A074, 0 12px 20px rgba(58,46,34,.15);}'
   /* three hand-placed grain lines, not a 44px repeating band sitting
@@ -1995,9 +2059,8 @@ var FractionKitchen = {
      Bounded by BOTH viewport axes AND the board's own height, or a mode
      that shrinks the board leaves the food hanging over its edges —
      which is exactly what share mode did. */
-  + '.frk-wrap{--frk-fbmax:300px;}'
   + '.frk-foodbox{position:relative;width:var(--frk-fb);height:var(--frk-fb);}'
-  + '.frk-wrap{--frk-fb:min(var(--frk-fbmax),74vw,46vh,calc(var(--frk-bh) - 26px));}'
+
   + '.frk-foodsvg{position:absolute;inset:0;}'
   + '.frk-food{display:block;width:100%;height:100%;overflow:visible;}'
 
@@ -2064,10 +2127,12 @@ var FractionKitchen = {
   + '.frk-knife-btn.lifted .frk-knife{transform:rotate(0deg) scale(1.06);z-index:100;}'
 
   /* plates */
-  + '.frk-plates{flex-shrink:0;display:flex;justify-content:center;align-items:flex-end;gap:28px;'
-  +   'flex-wrap:wrap;min-height:150px;width:100%;padding:4px 0 10px;}'
+  + '.frk-plates{flex-shrink:0;display:flex;justify-content:center;align-items:flex-end;container-type:inline-size;'
+  +   '--frk-gap:clamp(14px,calc(var(--frk-fb) * 0.10),46px);gap:var(--frk-gap);'
+  +   'flex-wrap:wrap;width:100%;padding:4px 0 10px;}'
   + '.frk-platecell{display:flex;flex-direction:column;align-items:center;}'
-  + '.frk-face{width:62px;height:62px;margin-bottom:-16px;position:relative;z-index:0;}'
+  + '.frk-face{width:clamp(48px,calc(var(--frk-fb) * 0.34),190px);height:clamp(48px,calc(var(--frk-fb) * 0.34),190px);'
+  +   'margin-bottom:calc(clamp(48px,calc(var(--frk-fb) * 0.34),126px) * -0.26);position:relative;z-index:0;}'
   + '.frk-face.bounce{animation:frkBounce .25s cubic-bezier(.34,1.56,.64,1);}'
   + '@keyframes frkBounce{50%{transform:scale(1.08);}}'
   + '.frk-face circle[fill="#2A2A35"]{transform-box:fill-box;transform-origin:center;}'
@@ -2078,7 +2143,8 @@ var FractionKitchen = {
   +   'appearance:none;-webkit-appearance:none;cursor:pointer;}'
   + '.frk-plate:focus-visible,.frk-supplypiece:focus-visible,.frk-tray.fill:focus-visible{'
   +   'outline:3px solid var(--lcs-focus,#146B5E);outline-offset:3px;}'
-  + '.frk-plate{width:108px;height:108px;border-radius:50%;background:#FFFFFF;'
+  + '.frk-plate{--frk-pw:clamp(84px,min(calc(var(--frk-fb) * 0.60),calc((100cqw - (var(--frk-pn,2) - 1) * var(--frk-gap,20px) - 4px) / var(--frk-pn,2))),330px);width:var(--frk-pw);height:var(--frk-pw);'
+  +   'border-radius:50%;background:#FFFFFF;'
   +   'border:1.5px solid #C9D8D3;box-shadow:var(--lcs-shadow-sm);position:relative;'
   +   'display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:1px;padding:9%;}'
   + '.frk-plate::before{content:"";position:absolute;inset:12%;border-radius:50%;border:2px solid #E2F0EC;}'
@@ -2087,9 +2153,11 @@ var FractionKitchen = {
   +   'filter:drop-shadow(0 2px 2px rgba(58,46,34,.20));}'
 
   /* equivalence trays */
-  + '.frk-trays{flex-shrink:0;display:flex;justify-content:center;align-items:center;gap:24px;'
-  +   'flex-wrap:wrap;min-height:170px;width:100%;padding:4px 0 10px;}'
-  + '.frk-tray{width:148px;height:148px;border-radius:16px;background:#FBF6EE;'
+  + '.frk-trays{flex-shrink:0;display:flex;justify-content:center;align-items:center;'
+  +   'gap:clamp(14px,calc(var(--frk-fb) * 0.09),40px);'
+  +   'flex-wrap:wrap;width:100%;padding:4px 0 10px;}'
+  + '.frk-tray{width:clamp(120px,calc(var(--frk-fb) * 0.80),420px);height:clamp(120px,calc(var(--frk-fb) * 0.80),420px);'
+  +   'border-radius:16px;background:#FBF6EE;'
   +   'border:2px dashed rgba(20,107,94,.3);display:grid;place-items:center;position:relative;}'
   + '.frk-tray svg{width:86%;height:86%;}'
   + '.frk-tray.fill .frk-outline{fill:none;stroke:#146B5E;stroke-width:1.8;stroke-dasharray:4 4;opacity:.4;}'
@@ -2100,9 +2168,11 @@ var FractionKitchen = {
   + '.frk-traylbl{position:absolute;bottom:-4px;left:50%;transform:translateX(-50%);'
   +   'background:#FDF0DC;border:1.5px solid #F2C879;border-radius:999px;padding:2px 10px;'
   +   'font-family:var(--lcs-font-display);font-weight:700;font-size:14px;color:#2B2622;white-space:nowrap;}'
-  + '.frk-supply{display:flex;gap:10px;align-items:center;justify-content:center;flex-wrap:wrap;max-width:260px;'
+  + '.frk-supply{display:flex;gap:10px;align-items:center;justify-content:center;flex-wrap:wrap;'
+  +   'max-width:clamp(260px,calc(var(--frk-fb) * 1.5),560px);'
   +   'background:#FBF6EE;border:1.5px dashed rgba(20,107,94,.18);border-radius:16px;padding:10px 12px;}'
-  + '.frk-supplypiece{width:84px;height:84px;cursor:grab;background:transparent;border:0;'
+  + '.frk-supplypiece{width:clamp(66px,calc(var(--frk-fb) * 0.46),160px);height:clamp(66px,calc(var(--frk-fb) * 0.46),160px);'
+  +   'cursor:grab;background:transparent;border:0;'
   +   'touch-action:none;}'
   + '.frk-supplypiece svg{width:100%;height:100%;overflow:visible;}'
   + '.frk-supplypiece.dragging{z-index:100;position:relative;}'
@@ -2115,14 +2185,14 @@ var FractionKitchen = {
   + '.frk-nowlbl{flex:0 0 auto;background:#FDF0DC;border:1.5px solid #F2C879;border-radius:999px;'
   +   'padding:3px 12px;font-family:var(--lcs-font-display);font-weight:800;font-size:15px;'
   +   'color:#2B2622;white-space:nowrap;}'
-  + '.frk-said{font-family:var(--lcs-font-body);font-size:15px;line-height:1.28;color:var(--lcs-ink);'
+  + '.frk-said{font-family:var(--lcs-font-body);font-size:calc(var(--frk-ui,14.5px) + 0.5px);line-height:1.28;color:var(--lcs-ink);'
   +   'max-width:60ch;}'
 
   /* dock */
   + '.frk-dock{flex-shrink:0;display:flex;flex-direction:column;align-items:center;gap:8px;width:100%;}'
   + '.frk-chiprow{display:flex;align-items:center;justify-content:center;gap:8px;flex-wrap:wrap;}'
   + '.frk-chip{display:inline-flex;align-items:center;gap:6px;min-height:46px;font-family:var(--lcs-font-display);'
-  +   'font-weight:700;font-size:14.5px;color:var(--lcs-structure);background:var(--lcs-surface);'
+  +   'font-weight:700;font-size:var(--frk-ui,14.5px);color:var(--lcs-structure);background:var(--lcs-surface);'
   +   'border:1.5px solid var(--lcs-line);border-radius:var(--lcs-radius-pill);padding:8px 14px;cursor:pointer;'
   +   'transition:transform .1s var(--lcs-ease);}'
   + '.frk-chip:active{transform:scale(.96);}'
@@ -2142,37 +2212,29 @@ var FractionKitchen = {
      and belongs lower, nearer the dock. */
   + '@media (max-width:560px){'
   +   '.frk-counterrow{flex-direction:column-reverse;gap:6px;}'
-  +   '.frk-board{width:min(460px,100%);}'
+  /* ⚠ the knife sits BELOW the board here, so the board must stop
+     reserving 150px of width for it — that reservation collapsed the
+     board to 125px at 320 and the food filled 97% of it */
+  +   '.frk-board{width:min(calc(var(--frk-fb) * 1.5),100%);}'
   /* the handle lug hangs 34px off the board and gets clipped once the
      board is near the card edge — it is decoration, so it goes */
   +   '.frk-board::before,.frk-hole{display:none;}'
   +   '.frk-chip{font-size:14px;padding:7px 10px;}'
   +   '.frk-chip.small{padding:7px 9px;}'
   +   '.frk-knife-rest{width:104px;height:56px;}'
-  +   '.frk-wrap{--frk-bh:min(300px,42vh);}'
-  +   '.frk-wrap[data-mode="share"]{--frk-bh:min(180px,24vh);}'
   +   '.frk-knife{width:92px;height:30px;}'
-  +   '.frk-plates{gap:14px;min-height:120px;}'
-  +   '.frk-plate{width:84px;height:84px;}'
-  +   '.frk-face{width:48px;height:48px;margin-bottom:-12px;}'
-  +   '.frk-tray{width:120px;height:120px;}'
-  +   '.frk-supplypiece{width:66px;height:66px;}'
   +   '.frk-chiprow{gap:6px;}'
   +   '.frk-ribbon{min-height:34px;}'
   +   '.frk-nowlbl,.frk-said{font-size:14px;}'
   + '}'
   + '@media (max-width:360px){'
-  +   '.frk-board{width:min(460px,100%);}'
-  +   '.frk-wrap{--frk-bh:min(250px,36vh);}'
-  +   '.frk-wrap{--frk-fbmax:200px;}'
+  +   'body.frk-wide{--frk-fbmax:200px;}'
   +   '.frk-knife-rest{width:88px;height:48px;}'
   +   '.frk-knife{width:78px;height:26px;}'
   +   '.frk-wrap{gap:4px;}'
   +   '.frk-chip{padding:8px 9px;font-size:14px;}'
   + '}'
-  + '@media (max-height:960px) and (min-width:768px){.frk-wrap{gap:5px;}.frk-plates{min-height:132px;}}'
-  + '@media (min-height:900px) and (min-width:600px){.frk-wrap{--frk-bh:min(470px,50vh);}'
-  +   '.frk-wrap{--frk-fbmax:380px;}}'
+    + '@media (min-height:900px) and (min-width:600px){body.frk-wide{--frk-fbmax:380px;}}'
 
   /* reduced motion */
     /* =====================================================================
@@ -2187,19 +2249,16 @@ var FractionKitchen = {
        BEFORE it was written — every cell fits, and 1366 is untouched.
        ===================================================================== */
     + '@media (min-width:1367px) and (min-height:880px){'
+    +   'body.frk-wide{--frk-fbmax:420px;--frk-fbfull:min(690px,calc((100vh - 500px) / 1.18),55vw);}'
     +   'body.frk-wide .lcs-app{max-width:min(1240px,96vw);}'
-    +   '.frk-board{width:min(560px,calc(100% - 160px));}'
-    +   '.frk-wrap{--frk-fbmax:420px;}'
     + '}'
     + '@media (min-width:1800px) and (min-height:1080px){'
+    +   'body.frk-wide{--frk-fbmax:500px;--frk-fbfull:min(900px,calc((100vh - 500px) / 1.18),55vw);}'
     +   'body.frk-wide .lcs-app{max-width:min(1560px,96vw);}'
-    +   '.frk-board{width:min(660px,calc(100% - 170px));}'
-    +   '.frk-wrap{--frk-fbmax:500px;}'
     + '}'
     + '@media (min-width:2400px) and (min-height:1150px){'
+    +   'body.frk-wide{--frk-fbmax:570px;--frk-fbfull:min(1020px,calc((100vh - 500px) / 1.18),55vw);}'
     +   'body.frk-wide .lcs-app{max-width:min(1740px,96vw);}'
-    +   '.frk-board{width:min(760px,calc(100% - 180px));}'
-    +   '.frk-wrap{--frk-fbmax:570px;}'
     + '}'
   + '@media (prefers-reduced-motion: reduce){'
   +   '.frk-piece{transition:none;}'

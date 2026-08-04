@@ -423,9 +423,20 @@ function serve() {
     const done = await page.evaluate(() => window.__spoken.join(' | '));
     ok('fair-share completion line speaks', /fair share/i.test(done), done);
     await page.screenshot({ path: path.join(QA, 'C-share-complete.png') });
-    /* faces never frown: the face path is the same smile before/after */
-    const smile = await page.evaluate(() => document.querySelectorAll('.frk-face path[d*="q5.5 4.5 11 0"]').length);
-    ok('faces keep the same warm smile', smile === 2);
+    /* Faces never react to performance. Read the mouth off the ARTEFACT
+       rather than matching a literal path (the previous version pinned
+       the exact `d` string and went stale the moment the art changed):
+       every friend wears the SAME curve, and it opens downward in SVG
+       coordinates, which is a smile. */
+    const mouths = await page.evaluate(() => {
+      const out = [];
+      document.querySelectorAll('.frk-face path[stroke="#B4573C"]').forEach((p) => out.push(p.getAttribute('d')));
+      return out;
+    });
+    const q = (mouths[0] || '').match(/q\s*[-\d.]+\s+([-\d.]+)/);
+    ok('C non-vacuity: every friend has a mouth', mouths.length === 2, `found ${mouths.length}`);
+    ok('faces keep the same warm smile', mouths.length === 2 && new Set(mouths).size === 1 && q && parseFloat(q[1]) > 0,
+      JSON.stringify(mouths[0]));
     /* leftover discussion moment (premium: 3 friends, fourths) */
     const p2 = await newPage({ premium: true });
     await p2.goto(BASE);

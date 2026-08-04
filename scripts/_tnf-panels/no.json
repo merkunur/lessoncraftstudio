@@ -1,0 +1,104 @@
+{
+  "title": "Tierramme",
+  "instruction": "Legg brikker i rammen — og se hvor mye plass som er igjen.",
+  "fieldFive": "Femramme",
+  "fieldTen": "Tierramme",
+  "fieldTenRow": "Ti på rad",
+  "fieldTwentyField": "Tjuefelt",
+  "fieldTwentyPair": "Dobbel tierramme",
+  "tidyBtn": "Still opp",
+  "fillBtn": "Fyll opp",
+  "keepsBtn": "Mine rammer",
+  "routinesBtn": "Opplegg",
+  "printBtn": "Skriv ut",
+  "counterLabel": "Brikkefarge",
+  "showNumber": "Vis tallet",
+  "uprightLabel": "Sett på høykant",
+  "orderLabel": "Rekkefølge",
+  "orderRows": "Rad for rad",
+  "orderPairs": "To og to",
+  "frameAria": "Rammen",
+  "filledAt": "{n}, en brikke",
+  "trayAriaOne": "Esken — én igjen",
+  "trayAria": "Esken — {n} igjen",
+  "trayEmptyAria": "Esken — tom",
+  "numeralAria": "I rammen: {n}",
+  "saidBoard": "{n} av {cap}",
+  "saidRoom": "{n} av {cap}, plass til {left} til",
+  "saidTidied": "Fortsatt {n} av {cap}, stilt opp",
+  "saidFull": "Full, {cap} av {cap}",
+  "saidField": "{field}. {n} av {cap}.",
+  "gateTitle": "Ferdige rammer",
+  "gateBody": "En hel hylle med oppsett du kan hente fram: det samme tallet lagt på fem måter, tivennene, par å sammenligne og tallene fra elleve til nitten på begge feltene. Du kan også ta vare på dine egne rammer.",
+  "gateCta": "Se Lærerabonnementet",
+
+  "_notes": [
+    "PANEL: native bokmål linguist + 1.-2. trinn matematikklærer + native B2C education-marketing writer. Bokmål only, no nynorsk forms anywhere. Rebuilt against the Norwegian classroom, then screened against the shipped Norwegian of all 47 tools; the English was read as a SOURCE TO AUDIT, not as a target.",
+
+    "=== DEFECTS IN THE ENGLISH / THE CODE (report, do not silently absorb) ===",
+
+    "DEFECT (code) — routinesBtn IS A DEAD STRING. Declared at ten-frame.js:269 in all eleven locales and referenced ZERO times in the file. _buildBar (:1065-1189) builds the field radiogroup, Tidy, Fill the rest, Print and Keeps, and nothing else; there is no Routines control and the shell does not consume this key (it consumes title and instruction). This is exactly the #39 hintMark / #44 hintTurn class, in a build whose own header advertises a reachability discipline — and it is the SECOND panel to find it (see de.json). We supply a Norwegian value so the key set stays complete, but the key should be wired or deleted. If it is ever wired, re-rule the wording: see the Opplegg note below.",
+
+    "DEFECT (English, all 11 locales) — THE PAID GATE SELLS AN AFFORDANCE THAT IS DELIBERATELY FREE. gateBody ends '...and print the one on screen', but ten-frame.js:1154-1161 is an operator ruling that PRINT IS NOT LOCKED ('never gate the first affordance'), and the Print chip at :1162-1169 carries no entitlement guard at all — it calls _buildSheet() and window.print() for everyone. So the gate a signed-out teacher meets advertises, as a reason to pay, the one thing she just used for nothing. WE HAVE DROPPED THAT CLAUSE FROM THE NORWEGIAN; the English and the other ten should lose it too. What remains in our gateBody is true: the set-up frames and the Keeps shelf are the paid part.",
+
+    "DEFECT (code, a11y) — keepsBtn WEARS THREE DIFFERENT JOBS UNDER ONE ACCESSIBLE NAME. It labels the shelf chip (:1179), it is the aria-label of the ADD button inside the panel (:1295), and it is the aria-label of EVERY saved frame (:1309). A screen-reader user therefore hears the same words for 'open the shelf', 'save this board' and each stored board, with no way to tell them apart. This is the #42 finding verbatim (one element wearing two jobs under one label). It needs two more keys — a save/add name and an item name carrying the field — and no wording we can choose for keepsBtn makes all three readings correct. Our 'Mine rammer' is right for the shelf chip and wrong on the '+' button, which is the least bad of the three available compromises.",
+
+    "DEFECT (model) — st.split IS VESTIGIAL. It is coerced in _st (:376) and cleared on a shrinking field in setGeometry (:462), but NOTHING in the file writes it and nothing in render() or _paint() reads it. The header (:134-138) states that the child-side tint is refused while 'a teacher-set STATIC split stays, because the platform's own printable primitive already ships two-colour a/b counters'. That affordance does not exist in the shipped code — only its state slot does. Either build it or drop the field; a state field with no producer and no consumer is the thing the file's own 'nothing derived is stored' discipline exists to prevent.",
+
+    "DEFECT (English) — trayAria BREAKS AT n=1. 'The tray — {n} counters left' reads '1 counters left', and every locale that keeps the noun inherits it; a literal Norwegian rendering gives '1 brikker igjen'. The tray reaches exactly one counter whenever one cell is empty, which is the single most common state in the whole routine ('how many more?'). WE FIXED IT BY DROPPING THE NOUN: 'Esken — {n} igjen' is correct at 1 and at 19, and the word brikke is still carried by filledAt and by counterLabel, so a screen-reader user is not left without it. Recommend the same move in EN ('The tray — {n} left'), or a plural-aware template.",
+
+    "DEFECT (Norwegian, shipped) — gateTitle 'Flere rammer' COLLIDES WORD-FOR-WORD WITH ANOTHER TOOL'S PAID GATE. rekenrek.js ships no: 'Flere rammer — opp til 100-veggen — er en del av Premium.' Two instruments on the same platform would open their pay-walls with the same three Norwegian words, and both are frame-shaped counting apparatus, so a teacher cannot tell from the heading which tool is asking. Rebuilt as 'Ferdige rammer' — which is also the more honest heading, because what is behind the gate is not MORE frames (the five fields are all free) but frames ALREADY SET UP.",
+
+    "DEFECT (platform, not fixable from this file) — THE PAID PLAN HAS THREE NORWEGIAN NAMES IN THE SHIPPED CATALOGUE. 'Lærerabonnementet' (this tool, the corrected term), 'Lærerpakken' (part-whole-frame.js, 'Se Lærerpakken' and three body strings — the banned 'pakke', which promises a one-off bundle for a recurring subscription), and bare 'Premium' (rekenrek, number-talk-easel, choral-counting, name-sticks, wodb, fraction-kitchen, calendar-wall...). §23.5 asks each panel to normalise against the shipped tools; we cannot, because the shipped tools disagree with each other. We have obeyed the instruction for THIS file. Recommend one sweep: 'Lærerabonnementet' everywhere, and 'Lærerpakken' retired.",
+
+    "NOTE (English) — 'Field of twenty' and 'Two frames of ten' are the only two chips whose English names do not say what distinguishes them, which is that one is a single 2x10 block with a five-break and the other is two separate 2x5 frames. Norwegian can carry the distinction in the names themselves; see the field-chip ruling.",
+
+    "=== THE THREE JUDGEMENT CALLS THE COMMISSION ASKED ===",
+
+    "RULING 1 — THE COMPLEMENT IS 'tivennene', NOT 'tiervennene'. The shipped Norwegian gateBody had 'tiervennene', which is the Danish line 'tiervennerne' with one syllable removed — the translate tell, in the one string where the register matters most. The form a Norwegian 1.-2. trinn teacher and the Norwegian textbook series use is TIVENNER (to tall som til sammen blir ti); 'tivennene' is its definite plural. 'Tiervenner' is attested in some Norwegian material and would not be WRONG, but it is the minority form here and it is precisely the form a Danish source would produce, so it cannot be the one we ship. Note the platform is already internally split on the -er- linking morpheme and correctly so: 'tierramme' is lexicalised with it (tier = the ten as a unit), 'tivenner' is not.",
+
+    "RULING 2 — THE COUNTERS ARE 'brikker', AND THE DRAWER LABEL IS 'Brikkefarge'. 'Brikke' is the settled Norwegian for a counting token both in the classroom and across this platform: part-whole-frame ('Flytt en brikke'), open-number-line ('Hold på brikken'), sound-boxes ('Legg en brikke'), choice-board-core and word-builder-core all ship it. 'Tellebrikker' is the catalogue word on the box the school orders; 'brikker' is what the teacher says to the class, and the class is the audience. For counterLabel we did NOT ship the bare noun: the setting is a colour swatch row, and ten-frame-core.js — the eight shipped activities of THIS tool — already ships no: 'Brikkefarge', as does sound-boxes. Matching our own activities is worth more than matching the English 'Counters'.",
+
+    "RULING 3 — THE TIDY VERB IS 'Still opp' ('stilt opp' in saidTidied). It names exactly what a Norwegian eye sees happen: scattered counters line up. Rejected: 'Ordne' (the shipped value — grammatical, but it is the fourth link in an identical de/nl/sv/da/no chain, i.e. translated, and it is abstract where the action is physical); 'Rydd opp' (rydde is CLEAR AWAY — a child watching that button would expect the counters to disappear, and this operation removes none); 'Rett opp' (REJECTED HARD — 'rett' is the Norwegian word for CORRECT, so on a tool that is gated never to deliver a verdict, the tidy button would read as 'correct it'); 'Legg på plass' (implies each counter has one right place and the others are misplaced — same verdict smell, softer). 'Still opp' shares its verb with rekenrek's 'Still kulene' but not its object or its phrase, and the two tools are never on screen together.",
+
+    "=== NOUN SCREEN: DEFINITE AND PLURAL, AND WHAT WAS VETOED ===",
+
+    "ramme (m) — rammen / rammer / rammene. Clean in every form. Unavoidable and correct: 'tierramme' is the Norwegian head term for this instrument and is already shipped by number-talk-easel ('Tierramme', 'Dobbel tierramme'), calendar-wall ('Tierramme + tall') and ten-frame-core. It also sits inside rekenrek's own name ('Kuleramme') — that overlap cannot be engineered away, because both objects genuinely ARE frames in Norwegian, and the qualifier (tier- / kule-) carries the whole distinction.",
+
+    "brikke (m) — brikken / brikker / brikkene. Clean. No unfortunate homograph.",
+
+    "THE TRAY IS 'esken', AND 'skålen' WAS VETOED. The shipped 'Skålen' is a rendering of the German 'Die Schale' and it lands on top of measurement-bench, which ships 'den brede skålen' and 'Legg kuber på vektskålen' — a balance PAN, i.e. another container of small objects on another maths instrument. 'Eske' is free across all 47 tools, is the actual thing a Norwegian teacher keeps brikker in, and is unmistakably something you reach into. Screened: eske / esken / esker / eskene, no homograph, no compound trap. Also vetoed: 'brettet' (fraction-kitchen owns 'Fyll brettet' and 'Brettet — beviset...', and 'nettbrett' = tablet is shipped by center-board and our-day); 'boksen' (sound-boxes moves brikker into 'bokser'); 'KURVEN' — vetoed on a mathematics defect, because 'kurven' is also the definite of 'kurve', THE CURVE/THE GRAPH, and naming a container 'the curve' on a number instrument is the class of error the panels exist to catch.",
+
+    "'Tierrekke' WAS VETOED FOR fieldTenRow ON A MATHEMATICS DEFECT. It looks like the tidy one-word compound that would pair with Femramme / Tierramme / Tjuefelt — but 'tierrekka' in Norwegian maths means THE SEQUENCE OF TENS (10, 20, 30...), i.e. counting by tens, which is a different idea from a strip of ten cells and one this tool does not teach. 'Ti på rad' stays. It echoes the game 'tre på rad', and that echo helps rather than hurts: it is the spatial reading, in a row, which is exactly the field.",
+
+    "fieldTwentyPair IS 'Dobbel tierramme', NOT 'To tierrammer'. 'Dobbel tierramme' is the established Norwegian name for the American double ten-frame AND it is already shipped by number-talk-easel (no: 'Dobbel tierramme'), so this is read-from-the-lexicon rather than re-authoring. It also buys the distinction the English chips lack: 'Dobbel tierramme' (two 2x5 frames) against 'Tjuefelt' (one 2x10 block with the five-break) tells a Norwegian teacher which geometry she is choosing before she looks at the glyph.",
+
+    "'Tjuefelt' keeps the bokmål numeral tjue (not the conservative, Danish-shaped 'tyve' — Danish ships 'Tyvefelt', and the two must not converge). 'Tjuerfelt' with the -er- linker was considered and dropped: 'tjuer-' is not lexicalised in Norwegian the way 'tier-' is, and the chip has to be read at a glance from the back of a classroom.",
+
+    "'pil-' AND 'Matteboka' SCREEN: neither appears. No string here uses pil/pile (arrow, and also WILLOW — the recorded bokmål trap), and no string uses bok/boka, so 'Matteboka' cannot be summoned. We also avoided 'rute/rutenett' entirely for the cells: wodb owns 'rutenett', and choral-counting, cvc-builder-core and word-builder-core all use 'ruten' for a cell of something else.",
+
+    "=== THE REMAINING STRINGS ===",
+
+    "gateTitle / gateBody / gateCta are three nodes and read as three nodes; nothing is glued. 'En hel hylle med oppsett' avoids 'bibliotek' (rekenrek ships 'Seriebiblioteket' in its own paid gate) and 'samling' (wodb ships 'Hele samlingen' in its own paid gate) — this is the third tool in a row to want that noun, and the third one to have to give it up. 'Hylle' is free and matches what the code actually calls the thing (the Keeps shelf). 'Oppsett' is the Norwegian word for a prepared classroom set-up and is unclaimed.",
+
+    "routinesBtn = 'Opplegg', chosen as a placeholder for a key that is currently unreachable. Bare 'Serier' — the shipped value — is what rekenrek and number-talk-easel already qualify ('Kuleserier', 'Bildeserier', 'Mine serier'), so an unqualified third one would be the vaguest label on the platform. 'Opplegg' is what a Norwegian teacher calls a ready-made routine. THIS IS NOT A CONSIDERED RULING, because we could not see the control: if the key is ever wired, send the panel the built control and we will rule properly.",
+
+    "fillBtn = 'Fyll opp', not the shipped 'Fyll resten'. 'Fyll opp' is the Norwegian for topping something up to full and is one word shorter on a chip; 'Fyll resten' is the English 'Fill the rest' with Norwegian words. No collision (fraction-kitchen's 'Fyll brettet' takes an object).",
+
+    "orderPairs = 'To og to', not 'Parvis'. 'Parvis' is correct and is also character-identical to the shipped Danish, which is the tell. 'To og to' is what is said in a Norwegian classroom and it describes the filling order concretely.",
+
+    "keepsBtn = 'Mine rammer' — the house pattern already shipped as 'Mine serier' (rekenrek) and 'Mine rutenett' (wodb). Shorter than 'Lagrede rammer' on a chip bar that already carries four. See the a11y defect above: this word is also forced onto the '+' button and onto each saved board, where it is wrong, and no single word fixes that.",
+
+    "saidTidied = 'Fortsatt {n} av {cap}, stilt opp'. 'Fortsatt' does the whole job the commission named: it states, before anything else, that the number did NOT change. A screen-reader user has no other route to the invariant that IS the Tidy operation.",
+
+    "saidRoom = '{n} av {cap}, plass til {left} til'. The doubled 'til' is idiomatic, not a slip ('det er plass til to til'), and it is agreement-safe at every value including 1, because no noun follows the number.",
+
+    "NO VERDICT, NO DEMAND, NO QUESTION: no riktig / feil / bra / flott / poeng / svar anywhere, no question mark, and no imperative that expects an answer. 'Full' is a state of the frame, not a judgement of the child. No invisible characters; the only non-ASCII are Norwegian letters and the em dash used as a spoken pause.",
+
+    "⚠ THE SOURCE FILE CHANGED UNDER THIS PANEL, MID-RUN, AND IT CORROBORATES THE DEAD-STRING FINDING. When we read _source-en.json it carried 31 keys including routinesBtn (line 12); by the time we validated our output it carried 30, routinesBtn removed. The eight panel files on disk are now split 4/4 on it — de, fr, pt and this file carry a value, da, es, it and nl do not. WE KEPT OURS DELIBERATELY, because it is the asymmetric-risk choice: ten-frame.js:269 still declares routinesBtn for all eleven locales, so if the applier does its documented surgical per-key line swap and finds no Norwegian value, the shipped 'Serier' survives un-reviewed — and 'Serier' is the value we rejected above for colliding with rekenrek's and number-talk-easel's qualified series labels. If the key is deleted from ten-frame.js as it should be, our extra value is inert and costs nothing. Whoever applies these eight files should decide the key set ONCE, for all eleven, rather than inheriting a 4/4 split from the order the panels happened to run in.",
+
+    "trayAriaOne = 'Esken — én igjen', added after the n=1 defect we reported was fixed with a third form. Parallel to the other two by construction: Esken — tom / Esken — én igjen / Esken — {n} igjen, one container noun and one shape across all three, so a screen-reader user hears the same tray however full it is. 'én' carries the acute accent: it is the NUMERAL one (brikke is common gender), not the article 'en', and the accent is what tells them apart in written bokmål. We did NOT restore the noun in the singular even though it is now agreement-safe, because that would have forced a matching change to trayAria and we were asked to leave it. Recorded so a later pass can make both say 'brikke' together if it wants the noun back. ⚠ The hand-seeded Norwegian singular said 'Skålen — én brikke igjen' — the tray noun this panel VETOED (measurement-bench owns skål as the balance pan). A seed that renames a tool's own named part relative to the panel that named it is the same class as the English-source defects above: the one string nobody reviews.",
+
+    "PLACEHOLDER CHECK: filledAt {n}; trayAria {n}; numeralAria {n}; saidBoard {n}{cap}; saidTidied {n}{cap}; saidRoom {n}{cap}{left}; saidFull {cap} twice; saidField {field}{n}{cap}. All present, all spelled exactly. NOTE FOR ANY FUTURE PANEL: _say (:1051) replaces {cap} globally but {n} and {left} only ONCE each, so a locale that repeats {n} in one template will ship a raw brace. Ours repeats none."
+  ]
+}

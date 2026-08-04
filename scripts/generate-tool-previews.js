@@ -147,7 +147,14 @@ const SEEDS = {
     { sel: '.cmp-foot .cmp-chip', nth: 0, wait: 600 },
   ],
   // empty 10-frame → 6 counters
-  'ten-frame': [{ sel: '.tf-cell', nth: [0, 1, 2, 3, 4, 5] }],
+  /* ⭐ SEVEN, and the tray does the rest. Seven is the canonical
+     ten-frame picture — a full five and two more — it is odd so it
+     reads as a quantity rather than a symmetry, and it is the only
+     count that makes the five-break visibly do work. The three
+     counters LEFT IN THE TRAY are the tool's whole thesis, so the card
+     carries it without a word. (The old seed filled six cells of the
+     old apparatus and its selector no longer exists.) */
+  'ten-frame': [{ sel: '.tnf-cell', nth: [6] }],
   // ⭐ AT REST THIS TOOL IS A BARE RULED LINE — indistinguishable on a
   // card from the ruler, the cold line and the open number line, and
   // showing none of what it now does. The card has to carry the ARCS,

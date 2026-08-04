@@ -1,0 +1,69 @@
+{
+  "title": "Tienraam",
+  "instruction": "Leg fiches in het raam — en kijk hoeveel plaats er nog vrij is.",
+  "fieldFive": "Vijfraam",
+  "fieldTen": "Tienraam",
+  "fieldTenRow": "Tien op een rij",
+  "fieldTwentyField": "Twintigveld",
+  "fieldTwentyPair": "Dubbel tienraam",
+  "tidyBtn": "Netjes leggen",
+  "fillBtn": "Vol maken",
+  "keepsBtn": "Bewaarde ramen",
+  "printBtn": "Afdrukken",
+  "counterLabel": "Fiches",
+  "showNumber": "Getal tonen",
+  "uprightLabel": "Rechtop zetten",
+  "orderLabel": "Volgorde van vullen",
+  "orderRows": "Rij voor rij",
+  "orderPairs": "Twee tegelijk",
+  "frameAria": "Het raam",
+  "filledAt": "{n}, een fiche",
+  "trayAriaOne": "Het bakje — nog één over",
+  "trayAria": "Het bakje — nog {n} over",
+  "trayEmptyAria": "Het bakje — leeg",
+  "numeralAria": "In het raam: {n}",
+  "saidBoard": "{n} van {cap}",
+  "saidRoom": "{n} van {cap}, nog plaats voor {left}",
+  "saidTidied": "Nog steeds {n} van {cap}, netjes gelegd",
+  "saidFull": "Vol, {cap} van {cap}",
+  "saidField": "{field}. {n} van {cap}.",
+  "gateTitle": "Meer ramen",
+  "gateBody": "Een bibliotheek met klaargezette ramen — hetzelfde getal op vijf manieren gelegd, de vrienden van tien, paren om te vergelijken en de getallen elf tot en met negentien op allebei de manieren om twintig te leggen. Bewaar je eigen ramen en druk af wat op het scherm staat.",
+  "gateCta": "Bekijk het Leerkracht-pakket",
+
+  "_notes": [
+    "KEY COUNT — THE ARTEFACT, NOT THE BRIEF. The brief asked for 31 keys; `_source-en.json` declares 30 and `ten-frame.js` no longer declares or consumes `routinesBtn` (line 268 is keepsBtn, 269 printBtn; `api.t('routinesBtn')` appears nowhere). We shipped the artefact's 30. If `routinesBtn` is meant to return, it needs re-declaring in the tool first — authoring a locale string for a key the tool never asks for is the A15 dead-string defect the house rule forbids.",
+
+    "CODE DEFECT 1 — THREE DIFFERENT CONTROLS SHARE ONE aria-label. `keepsBtn` is used as the accessible name of the drawer toggle (ten-frame.js:1178), of the '+' button that SAVES the current board (:1294), and of EVERY saved-board chip that RECALLS one (:1308). To a screen-reader user the Keeps panel is a row of identical buttons all called 'Bewaarde ramen': the one that writes and the ones that read are indistinguishable, and none of them says what it does or which board it holds. This is the recorded #42 defect (one element wearing two jobs under one aria-label) in triplicate. It cannot be fixed from the string set — it needs a save label and a per-item recall template carrying {field} and {n} — so we report and hold rather than overload an existing key.",
+
+    "CODE/EN DEFECT 2 — trayAria HAS NO SINGULAR. `_render` gates only on `left > 0` (:1025), so left === 1 reaches the plural template in all eleven locales: EN reads 'The tray — 1 counters left'. The nl seed inherited it exactly ('nog 1 fiches'). We removed the noun from the Dutch — 'Het bakje — nog {n} over' — which is idiomatic at 1 and at 19 and needs no branch. EN still needs its own fix (drop the noun, or add a singular key). Note this string is read most often precisely at left = 1, the last counter before full.",
+
+    "CODE OBSERVATION 3 — THE SAME STATE IS ANNOUNCED TWO WAYS. 'full' is only ever passed by the Fill button (:1151). A board a child fills by hand reaches left === 0 through the `else` at :1049-1050 and announces saidBoard ('20 van 20') rather than saidFull ('Vol, 20 van 20'). The empty tray is the thesis's endpoint, and a screen-reader user reaches it more often by hand than by button. Not fixable from strings; worth one branch on left === 0.",
+
+    "EN SOURCE — 'Ten in a row' vs the geometry. The chip names a 1x10 field whose whole point is the five-break drawn at column 5, and 'in a row' says only that it is a row. Every other chip names the capacity and the shape; this one names the shape twice. Dutch has the same weakness and we kept it ('Tien op een rij') because it is what a Dutch teacher actually says, but flagging it: if EN ever renames, nl follows.",
+
+    "REJECTED — 'verzameling' (the nl seed's opening word in gateBody: 'Een verzameling klaargezette ramen'). In Dutch this is the MATHEMATICAL SET, and it sits one tool away from Sorteerhoepels, which draws Venn regions and teaches exactly that concept. The brief records a sibling panel already rejecting it; the seed shipped it anyway. Replaced with 'bibliotheek', which number-talk-easel already ships in nl ('reeksenbibliotheek') for the same paid-library idea.",
+
+    "REJECTED — 'Aanvullen' for fillBtn (the nl seed's choice), on two independent grounds. (a) 'aanvullen tot tien' IS the make-ten strategy in Dutch, which is refusal #17 — the button would name the one strategy the tool exists not to teach. (b) It is already shipped, verbatim, as another tool's title: number-bond-core.js:59 titleAdd nl = 'Aanvullen tot tien om op te tellen'. Shipped 'Vol maken': concrete, describes the visible event (the tray empties), free across all 47 tools.",
+
+    "REJECTED — 'Ordenen' for tidyBtn (the nl seed's choice). In Dutch rekentaal 'ordenen' means ordering by SIZE — 'getallen ordenen' is what you do on a getallenlijn, which is a shipped sibling (number-line, nl 'Getallenlijn'). Our Tidy does not order anything by size; it collapses a scattered set to canonical while the number does not change. Shipped 'Netjes leggen' — the phrase a groep 3 teacher actually uses, concrete, and it lets saidTidied close the loop on the same verb ('netjes gelegd'). Also considered and dropped: 'Schikken' (correct but stiff for K), 'Opruimen' (means putting away — it would read as clearing the board), 'Op een rij leggen' (false on a 2-row field).",
+
+    "SIBLING COLLISION FIXED — fieldTwentyPair. The seed said 'Twee tienramen'; number-talk-easel already ships nl 'Dubbel tienraam' for the identical configuration (and 'Tienraam' for ours). One object must not have two Dutch names on one platform, so we align to the shipped one. This also reads better beside 'Twintigveld' — 'dubbel' vs 'veld' is a difference in kind, where 'twee tienramen' vs 'twintigveld' invites the child to count frames instead of seeing one field.",
+
+    "ACCEPTED RESIDUE, DOCUMENTED — 'het raam' is also the ordinary Dutch word for a WINDOW, and 'telraam'/'rekenraam' are Dutch for an ABACUS, which is the shipped rekenrek one tool away. So the bare noun is doubly loaded. We keep it anyway and here is why every alternative is worse: the title is locked to 'Tienraam' and the -raam family (Vijfraam, Tienraam, dubbel tienraam) must agree with it; 'rekenraam' is a synonym for the abacus and would collide with rekenrek head-on, in a pair of words separated by one syllable when spoken to a class; 'rooster' is array-core's grid; and naming the frame after its cells ('de vakjes') would add a FOURTH part-noun to a tool the header restricts to three, which is the exact #41 defect. In every string the word appears in, the frame is on screen and the fiches are named beside it, so the reading is fixed by context — except in frameAria, where it is not, and that is the residue we are accepting.",
+
+    "GENDER — every noun introduced is het-gendered and checked: HET raam (plural ramen), HET bakje (diminutive, so het by rule), HET getal, HET twintigveld, HET vijfraam. The one Dutch noun with contested gender is 'fiche' (de fiche as a playing token in general NL, het fiche as an index card, both attested), so we never give it a definite article: 'een fiche' and plural 'fiches' only. That is also what part-whole-frame ships ('Schuif één fiche naar de andere kant'), so the material keeps one name across the two tools that use it — the counter is shared house material, not a claimed part-noun, and consistency beats novelty here.",
+
+    "RULING ASKED — 'vriendjes van tien' in gateBody. Shipped 'de vrienden van tien', without the diminutive. Two reasons. The gate is read by the TEACHER, not the child, and the -jes form is the register you use facing six-year-olds; teacher-facing Dutch copy elsewhere in the toolkit does not use it. And the obvious alternative, 'splitsingen van tien', is unavailable: 'Splitsen' is literally the Dutch TITLE of part-whole-frame, so the whole splits-vocabulary belongs to that tool and naming it here would sell its content on our gate. 'Tiencombinaties' was considered — accurate, but it is method-jargon and colder than the rest of the paragraph.",
+
+    "RULING ASKED — THE VERB FOR MAKING A SCATTERED SET LINE UP. 'Netjes leggen' (button) and 'netjes gelegd' (announcement). Dutch has no single verb for 'canonicalise' that a child owns; the classroom phrase is 'leg ze eens netjes'. 'Ordenen' is taken by size-ordering (above), 'sorteren' is Sorteerhoepels, 'schikken' is adult. saidTidied then states the invariant the button exists to demonstrate: 'Nog steeds {n} van {cap}, netjes gelegd' — 'nog steeds' is doing the whole job for the screen-reader user, who cannot see that nothing left the frame.",
+
+    "RECOMMENDATION FOR THE OPERATOR — THE nl TWENTY SHOULD BE `twentyfield`, NOT `twentypair`. This is a claim about the Dutch school system, so it is offered as a ruling for GEOMETRY_BY_LOCALE and not applied here. The dominant NL twenty-manipulative is the rekenrek, and it is a sibling tool shipping under its untranslated Dutch name: two rods of ten beads, each rod five red then five white. That is one 2x10 field with a break between the fifth and sixth column — `twentyfield` exactly, and `twentypair` (two separate 2x5 frames) is the American double ten-frame, which is not the picture a Dutch child has been taught to read. The field vocabulary corroborates it: Dutch already says 'honderdveld' for the hundred square, so 'twintigveld' is transparent to any groep 3/4 teacher, where a coined 'twintigraam' would not be. Recommend nl: { single: 'ten', twenty: 'twentyfield' }; keep 'Dubbel tienraam' as the chip beside it, since NL methods do also draw the double frame.",
+
+    "orderPairs — shipped 'Twee tegelijk', not the seed's 'Per twee'. posOf puts pairs order down the COLUMNS (r = k % 2), so each step lays the top and bottom cell of one column: two counters at a time. 'Twee tegelijk' describes that event; 'per twee' describes a grouping and would leave a teacher expecting pairs side by side.",
+
+    "printBtn — shipped bare 'Afdrukken' against the house pattern, which names the object ('Bouwplaten afdrukken', 'Lijn afdrukken'). The stage bar already carries 'Netjes leggen' and 'Bewaarde ramen'; 'Raam afdrukken' pushes it wider for no gain, and the print target is whatever is on screen, which the gate sentence already says. Flagging the deviation rather than hiding it.",
+
+    "CHECKED — no verdict, score, praise or progress word in any string (no goed zo, knap, fout, punten, klaar); nothing asks for an answer (no antwoord, no typ, no vraag, no question mark); 'Vol' is a state of the frame, not a judgement of the child. Placeholders intact: {n} in filledAt/trayAria/numeralAria, {n}+{cap} in saidBoard/saidTidied, {n}+{cap}+{left} in saidRoom, {cap} twice in saidFull, {field}+{n}+{cap} in saidField. gateCta carries 'Leerkracht-pakket' verbatim, matching the 20 tools that already ship it. No non-breaking spaces, no soft hyphens, no directional marks; the only non-ASCII character is the em dash, which is the house separator."
+  ]
+}

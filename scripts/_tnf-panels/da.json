@@ -1,0 +1,83 @@
+{
+  "title": "Tierramme",
+  "instruction": "Læg brikker i rammen — og se, hvor meget plads der er tilbage.",
+  "fieldFive": "Femramme",
+  "fieldTen": "Tierramme",
+  "fieldTenRow": "Ti på række",
+  "fieldTwentyField": "Tyverramme",
+  "fieldTwentyPair": "To tierrammer",
+  "tidyBtn": "Ordn",
+  "fillBtn": "Fyld resten",
+  "keepsBtn": "Mine rammer",
+  "printBtn": "Print",
+  "counterLabel": "Brikker",
+  "showNumber": "Vis tallet",
+  "uprightLabel": "Stil på højkant",
+  "orderLabel": "Rækkefølge",
+  "orderRows": "Række for række",
+  "orderPairs": "Parvis",
+  "frameAria": "Rammen",
+  "filledAt": "{n}, en brik",
+  "trayAriaOne": "Bakken — én tilbage",
+  "trayAria": "Bakken — {n} tilbage",
+  "trayEmptyAria": "Bakken — tom",
+  "numeralAria": "Antal brikker: {n}",
+  "saidBoard": "{n} af {cap}",
+  "saidRoom": "{n} af {cap}, plads til {left} mere",
+  "saidTidied": "Stadig {n} af {cap} — kun ordnet",
+  "saidFull": "Helt fyldt — {cap} af {cap}",
+  "saidField": "{field}. {n} af {cap}.",
+  "gateTitle": "Færdige rammer",
+  "gateBody": "Et bibliotek med færdige rammer — det samme tal lagt på fem måder, tiervennerne, par til at sammenligne, og tallene fra elleve til nitten både på én tyverramme og på to tierrammer. Gem de rammer, du bygger, og find dem frem igen.",
+  "gateCta": "Se Lærerabonnementet",
+
+  "_notes": [
+    "PANEL: native linguist + 1.-2. klasse matematiklærer + dansk B2C-uddannelsesmarketing. Rebuilt against the Danish product lexicon of the shipped siblings, not against the English.",
+
+    "== THE BRIEF SAID 31 KEYS; THE ARTEFACT HAS 30. _source-en.json changed while this panel was reading it: routinesBtn was removed, fieldTwentyField went from 'Field of twenty' to 'Frame of twenty', and gateBody's closing print clause became 'Keep the frames you build and come back to them.' This file is built against the artefact as it now stands (30 keys), not against the brief's count. Two of those three edits changed our Danish — see the tyverramme and gateBody rulings below.",
+
+    "== DEFECT 1 (DANISH, shipped) — 'Tyvefelt' reads as THIEF FIELD. This is the requested banan-class trap and it was live. Danish 'tyve' is both 'twenty' AND the plural of 'tyv' = thief, and as a COMPOUND FIRST ELEMENT 'tyve-' means thief essentially without exception (tyvebande, tyvekoster, tyveri, tyvetogt). The numeral compound takes the -er form, exactly as the locked title does: en tier -> tierramme, en tyver -> tyverramme. The -er form is the DEFECT FIX and it holds either way; 'ramme' rather than 'felt' is then the harmonisation with the source's new 'Frame of twenty' and with the locked head term. Bonus: 'Tyverramme' vs 'To tierrammer' now states the pedagogical contrast in the two labels themselves — ONE frame of twenty against TWO frames of ten — which 'Tyverfelt' vs 'To tierrammer' did not, because felt-vs-ramme is an arbitrary distinction in Danish where it is a real one in German.",
+
+    "== DEFECT 2 (SIBLING COLLISION, shipped) — gateTitle 'Flere rammer' is VERBATIM the opening of rekenrek's paid gate. rekenrek.js:85 ships gateRacks = 'Flere rammer — op til 100-væggen — er en del af Premium.' and rekenrek.js:43 ships racksLabel = 'Rammer' for its rods. Two different paid gates, the same headline, two different objects (kuglerammens rammer vs tierrammer). RULING: 'Færdige rammer' — no verbatim collision, and it states the actual offer (ready-made, set-up frames) rather than a quantity. gateBody already carried 'færdige rammer', so the two nodes now agree.",
+
+    "== DEFECT 3 (CODE, a11y) — frameAria is the accessible name of TWO different controls: ten-frame.js:663 sets it on the role=grid field of cells, and ten-frame.js:1073 sets it on the role=radiogroup of field chips. A Danish screen-reader user tabbing the stage hears 'Rammen' twice — once for a grid of counters, once for a set of radio buttons that CHANGE the frame. No string can fix this: it is one key. Needs a separate fieldGroupAria key (e.g. 'Vælg felt'). This is the #42 'one element wearing two jobs under one aria-label' class, inverted. Secondary: 'Rammen' is singular definite, so it is also wrong on 'To tierrammer' — a field-independent name would fix both.",
+
+    "== DEFECT 4 (EN SOURCE + ALL 11 LOCALES) — trayAria has no singular. EN 'The tray — {n} counters left' renders '1 counters left'; the code at ten-frame.js:1025 branches only on left>0 vs empty, so no n=1 form exists anywhere. In Danish this is NOT an edge case: n=1 is the tool's signature state ('one more to make ten'), so a screen-reader user would hear the ungrammatical '1 brikker tilbage' during the routine the tool exists for. Danish has no numeral+noun form valid at both 1 and 3, so I ship the noun-free 'Bakken — {n} tilbage', correct at every n. The counter noun is not lost to the user: counterLabel ('Brikker') and filledAt ('{n}, en brik') both carry it. Recommend the same check for de/nl/sv/no/fi, which all ship the same flaw.",
+
+    "== DEFECT 4, RESOLVED IN THE TOOL — trayAriaOne was added after this panel first read the source, so the tray now has three forms (empty / one / many) and the n=1 ungrammaticality is fixed at the right layer. DANISH SINGULAR: 'Bakken — én tilbage'. Three things were checked. (a) SAME HEAD NOUN, so the tray is not renamed by quantity: all three forms open on 'Bakken'. This hazard is real and visible in the shipped drafts of two other locales — fr moves barquette -> plateau and es moves reserva -> bandeja between the singular and the plural, which renames one of the tool's three named parts depending on how many counters are in it. Danish does not, and must not. (b) SAME REGISTER: the plural I shipped is noun-free, so the singular is too; a noun-carrying singular against a noun-free plural would be the same inconsistency in a smaller dress. (c) 'én' NOT 'en' — the acute is load-bearing, not decoration: it marks the stressed NUMERAL, and without it 'Bakken — en tilbage' reads as the indefinite article. Common gender, not neuter 'ét', because the elided noun is brik (en brik). NO PLACEHOLDER: ten-frame.js:1051 calls api.t('trayAriaOne') with no .replace(), so a {n} here would render as literal braces to a screen-reader user; the EN source likewise has none.",
+
+    "== RECOMMENDATION, NOT APPLIED (it would touch a key I was told to leave alone) — my noun-free 'Bakken — {n} tilbage' was a WORKAROUND for the missing singular, and that defect is now fixed. With three forms available, Danish can carry the counter noun grammatically in both: trayAriaOne 'Bakken — én brik tilbage' and trayAria 'Bakken — {n} brikker tilbage'. That is strictly more informative for a screen-reader user, who otherwise learns what is in the tray only from counterLabel and filledAt. Both forms are correct; the pair must move together or not at all, so this is the coordinator's call. The same applies to sv/no, whose drafts already carry the noun in both.",
+
+    "== DEFECT 5 (EN SOURCE, grammatical hazard exported to the inflecting locales) — saidFull 'Full, {cap} of {cap}' is a bare predicative adjective whose implied subject is whichever field is active, and the fields do not agree with one another: four are singular common gender (rammen) but 'To tierrammer' is plural, which in Danish would want 'fulde'. One string cannot cover both. RULING: 'Helt fyldt — {cap} af {cap}'. The past participle 'fyldt' is invariant across gender and number in predicative position, 'helt' is an adverb, and the phrase is a state description, never a verdict or a celebration. de/nl/sv/no should each check this — the same trap exists in every one of them, and it was neuter rather than plural in our own draft until the source renamed the twenty-field.",
+
+    "== DEFECT 6 (same class, numeralAria) — 'I rammen: {n}' is singular definite, but 'To tierrammer' is two of them. RULING: 'Antal brikker: {n}' — field-independent, gender-free, number-free, and it names exactly what the numeral shows. It reads as a readout, never as a question.",
+
+    "== JUDGEMENT CALL 1 — 'tiervenner' is CONFIRMED, and it is the right register. It is the established Danish 0.-2. klasse term for the pairs that make ten (the direct counterpart of sv tiokamrater and no tiervenner) and it is what a Danish teacher writes on the board. Rejected: 'vennepar til ti' (invented), 'tikammerater' (a Swedish calque; 'kammerat' is not the Danish collocation), 'partallene' (means EVEN numbers — a hard false friend that would have shipped a different concept into the paid gate).",
+
+    "== JUDGEMENT CALL 2 — the counters are 'brikker'. Confirmed twice: it is the word a 1.-klasse teacher uses for flat round counting pieces, and part-whole-frame.js:89 already ships 'Flyt en brik' for the same physical object. Keeping it is CONSISTENCY, not collision — the same object must not carry two names across two tools a teacher uses in one lesson. It stays cleanly distinct from rekenrek, whose material is 'kugler' on 'stænger'. Rejected: 'tællebrikker' (correct but heavy on a drawer label), 'chips' (English), 'knapper' (buttons — collides with the UI itself), 'plader'/'mønter' (wrong object).",
+
+    "== JUDGEMENT CALL 3 — the verb for making a scattered set line up: 'Ordn'. Four rejections, two of them traps: (a) 'Ret op' REJECTED — 'at rette' is THE Danish school verb for marking and correcting pupil work (læreren retter opgaverne), so 'Ret op' on a maths button reads as a verdict, which every string here is forbidden to carry; (b) 'Sæt/Læg på plads' REJECTED — rekenrek.js:44 already ships 'Kuglerne på plads' as its RESET, so a teacher who knows the rekenrek would read the identical idiom here as 'clear the board', and Tidy is precisely the operation that does NOT change what is there; (c) 'Ryd op' REJECTED — in Danish this implies putting things AWAY, i.e. removal; (d) 'Saml sammen' REJECTED — too close to 'lægge sammen', which means ADD. 'Ordn' is the correct bare imperative (ordne -> ordn, as in 'ordn dit værelse'), carries no verdict and no removal sense, and ties to saidTidied's 'ordnet' so a screen-reader user hears the button's own verb come back. Terse, but every Dane parses it instantly.",
+
+    "== HOUSE-PATTERN ALIGNMENT — the user's own saved collection is 'Mine ...' in both siblings (rekenrek.js:63 'Mine serier', number-talk-easel.js:77 'Mine serier'), so keepsBtn becomes 'Mine rammer' rather than the passive 'Gemte rammer'. gateBody's verb 'Gem' matches rekenrek.js:79 'Gem serien'. (Had routinesBtn survived, it would have needed a QUALIFIED compound — both siblings ship 'Kugleserier' and 'Billedserier' precisely so the three libraries stay distinct, and a bare 'Serier' would have been the only unqualified one of three. Noted here in case the key returns.)",
+
+    "== gateBody REBUILT for the source's new ending. The print clause is gone from EN, so the Danish no longer sells printing either; it now closes on 'Gem de rammer, du bygger, og find dem frem igen' — 'find frem igen' is the natural Danish for coming back to something you put away, and it is warmer than a bare 'gem'. The teens clause was also re-cut to name both chips exactly as they are labelled ('både på én tyverramme og på to tierrammer'), replacing a loose 'på begge felter' that no longer matched any chip.",
+
+    "== DEFINITE/PLURAL SCREEN, every noun chosen ==",
+    "ramme -> rammen / rammer / rammerne. Clean. No homograph.",
+    "tierramme -> tierrammen / tierrammer / tierrammerne. Clean. LOCKED, not touched.",
+    "femramme -> femrammen / femrammer. Clean. ('femmerramme' by strict analogy to tier-/tyver- rejected: triple r, and 'fem-' carries no ambiguity needing the -er form.)",
+    "tyverramme -> tyverrammen / tyverrammer. Clean, and this is the form that removes the tyve=thief reading; see Defect 1.",
+    "brik -> brikken / brikker / brikkerne. Clean. 'en brik i spillet' is a harmless idiom, not a misreading.",
+    "bakke -> bakken / bakker / bakkerne. SCREENED AND KEPT. 'bakke' is also hill, also to reverse a car, and 'Bakken' is the Copenhagen funfair — but beside a frame of counters, on an element visibly holding brikker, no Dane parses it any other way. It is the accurate word for a flat open holder (skål = bowl, æske = box are both the wrong shape) and no sibling tool has taken it. Note trayEmptyAria correctly reads 'tom', not 'tomt' — bakken is common gender.",
+    "række -> rækken / rækker. Shared deliberately by fieldTenRow / orderRows / orderLabel, which are all genuinely about rows. Not used for Tidy, so nothing leaks between the stage and the drawer.",
+
+    "== CONSTRAINT CHECKS ==",
+    "title: untouched, 'Tierramme'. It is also number-talk-easel.js:62's own name for this representation, so the two tools agree on the head term.",
+    "gateCta: contains 'Lærerabonnementet', matching number-line.js:219. Neither 'Lærerplanen' (= the curriculum, a free public document) nor 'pakke' (= a one-off bundle, not recurring access) appears anywhere in this file. OUT-OF-SCOPE NOTE FOR THE OPERATOR: rekenrek.js:84-88 still sells itself as 'Premium' and 'Lås ... op', so the Danish paid-tier lexicon is not yet uniform across the toolkit.",
+    "No verdict or score word anywhere: no rigtigt, forkert, godt klaret, flot, point, super, korrekt. (rekenrek.js:69 does ship 'flot klaret!' — its own scope, but it is why this file was swept for the class explicitly.)",
+    "No string demands an answer: no svar, no 'skriv tallet', no question mark in any of the 30 values. instruction uses 'se, hvor meget plads der er tilbage' — an invitation to LOOK, which is the tool's thesis, not a question with an answer.",
+    "Placeholders verified present and unaltered: filledAt/trayAria/numeralAria {n}; saidBoard/saidTidied {n}+{cap}; saidRoom {n}+{cap}+{left}; saidFull {cap} twice (the code replaces {cap} globally but {n} and {left} only once — checked at ten-frame.js:1051, so no string here may repeat {n} or {left}); saidField {field}+{n}+{cap}.",
+    "saidTidied states the invariant explicitly: 'Stadig ... — kun ordnet'. 'Stadig' carries that the number is unchanged; 'kun' carries that ONLY the arrangement changed. A screen-reader user has no other route to that fact, which is the whole point of Tidy.",
+    "Punctuation is house style: em dash U+2014 with spaces, as in every sibling. Danish comma rules observed before subordinate clauses ('se, hvor meget...', 'Gem de rammer, du bygger, ...'). No soft hyphen, no non-breaking space, no zero-width character — the file was digested codepoint by codepoint after writing, not merely eyeballed."
+  ]
+}

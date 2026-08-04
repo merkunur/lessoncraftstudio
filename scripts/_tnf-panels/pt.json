@@ -1,0 +1,90 @@
+{
+ "title": "Quadro de dez",
+ "instruction": "Coloque fichas no quadro — e veja quanto espaço ainda sobra.",
+ "fieldFive": "Quadro de cinco",
+ "fieldTen": "Quadro de dez",
+ "fieldTenRow": "Dez em fila",
+ "fieldTwentyField": "Quadro de vinte",
+ "fieldTwentyPair": "Dois quadros de dez",
+ "tidyBtn": "Alinhar",
+ "fillBtn": "Encher tudo",
+ "keepsBtn": "Meus quadros",
+ "printBtn": "Imprimir",
+ "counterLabel": "Cor das fichas",
+ "showNumber": "Mostrar o número",
+ "uprightLabel": "Colocar em pé",
+ "orderLabel": "Ordem de preenchimento",
+ "orderRows": "Linha por linha",
+ "orderPairs": "Aos pares",
+ "frameAria": "O quadro",
+ "filledAt": "{n}, uma ficha",
+ "trayAriaOne": "A cestinha — resta uma ficha",
+ "trayAria": "A cestinha — restam {n} fichas",
+ "trayEmptyAria": "A cestinha — vazia",
+ "numeralAria": "No quadro: {n}",
+ "saidBoard": "{n} de {cap}",
+ "saidRoom": "{n} de {cap} — ainda há espaço para {left}",
+ "saidTidied": "Ainda {n} de {cap} — mudou o lugar, não a quantidade",
+ "saidFull": "Cheio — {cap} de {cap}",
+ "saidField": "{field}. {n} de {cap}.",
+ "gateTitle": "Quadros prontos",
+ "gateBody": "Vários quadros já prontos — o mesmo número em cinco arranjos diferentes, os amigos do dez, pares para comparar e os números de onze a dezenove nos dois quadros. Guarde os quadros que você montar e volte a eles quando quiser.",
+ "gateCta": "Ver o plano Professor",
+
+ "_notes": [
+  "PAINEL: linguista (PB), professora de anos iniciais (1º-2º ano, rede pública), redatora B2C de educação. Registro: português BRASILEIRO canônico (§6). Imperativo em 'você', que é o registro já instalado nos irmãos ('Deslize as contas', 'Leve uma ficha', 'Toque nas moedas').",
+
+  "=== CONTAGEM DE CHAVES: 31, MAS NÃO AS 31 QUE O PEDIDO IMAGINAVA ===",
+  "`_source-en.json` MUDOU DUAS VEZES DURANTE ESTA SESSÃO — três md5 diferentes em poucos minutos (a pasta mostra os onze painéis a entregar em paralelo). Estado final medido: 31 chaves. A chave `routinesBtn`, que o pedido pressupunha, NÃO EXISTE mais — e `grep -n routinesBtn` devolve zero ocorrências em `ten-frame.js`, em qualquer outro `mini tools/*.js` e em `lcs-shell.js`, porque `_buildBar()` (linhas ~1065-1189) monta chips de campo + Alinhar + Encher + Imprimir + Meus quadros e nunca um botão de rotinas: era string morta do tipo `hintMark` do #39, e já foi removida. A 31ª chave AGORA é `trayAriaOne`, que apareceu na fonte enquanto escrevíamos — ou seja, outro painel encontrou o mesmo defeito de plural que relatamos abaixo e o operador criou a forma singular. Entregamos as 31 chaves atuais, na ordem exata da fonte. LIÇÃO PARA QUEM CONSOLIDAR: com onze painéis a escrever contra o mesmo arquivo, reconfira a fonte no momento de aplicar, não no momento de encomendar.",
+
+  "=== NOTA DE MÉTODO, E É UMA CONFISSÃO ===",
+  "As duas primeiras leituras que fiz (de `_source-en.json` e de `ten-frame.js`) devolveram uma versão ANTERIOR dos arquivos — com `routinesBtn` presente, com `fieldTwentyField` = 'Field of twenty' e com um `gateBody` que terminava em '…and print the one on screen'. Cheguei a redigir dois defeitos em cima disso. A contagem de chaves não bateu, remedi com `cat -n` + `md5sum` + grep, e o disco desmentiu a leitura. Os dois defeitos foram RETIRADOS abaixo. Fica registrado porque é a regra da casa em ação: verifique a medição antes de reportar o defeito — inclusive contra a sua própria leitura anterior.",
+
+  "=== DEFEITOS CONFIRMADOS NO ARQUIVO ATUAL ===",
+
+  "DEFEITO 1 (FONTE EN — AGRAMATICAL NUM ESTADO ALCANÇÁVEL; JÁ ACOLHIDO NA FONTE). `trayAria` = 'The tray — {n} counters left' quebra em {n}=1: 'The tray — 1 counters left'. O estado é trivial de alcançar (nove fichas num quadro de dez). O plural cru foi herdado por quase todas as línguas embarcadas: pt 'restam 1 fichas', es 'quedan 1 fichas', fr 'il reste 1 jetons', it 'restano 1 gettoni', nl 'nog 1 fiches', sv '1 brickor kvar', da/no '1 brikker'. Só de e fi escapam por acaso morfológico. NÃO é problema de tradução: nasceu no inglês e foi replicado onze vezes. A fonte ganhou `trayAriaOne` durante esta sessão, o que resolve — fornecemos as duas formas em PB natural ('resta uma ficha' / 'restam {n} fichas') em vez do rótulo com dois-pontos que tínhamos usado como contorno.",
+
+  "DEFEITO 1b (CÓDIGO — A CHAVE NOVA NASCE MORTA SE NINGUÉM TOCAR NO `_paint`). Aviso a quem implementar: em `ten-frame.js` linhas ~1024-1026 o `_paint()` ainda faz apenas `left > 0 ? t('trayAria') : t('trayEmptyAria')`. Sem um ramo `left === 1 ? t('trayAriaOne')`, a chave `trayAriaOne` fica autorada em onze línguas e inalcançável — exatamente a armadilha A15 (§23.6) que acabou de matar `routinesBtn`. A chave só vale se o ramo entrar junto.",
+
+  "DEFEITO 2 (STRINGS pt EMBARCADAS — TRÊS ERROS DE CONCORDÂNCIA COM PLACEHOLDER). Verificados no ten-frame.js atual: (a) `saidRoom` 'ainda cabe {left}' — errado a partir de {left}=2, pedia 'cabem'; (b) `saidTidied` 'Continuam {n} de {cap}' — errado em {n}=1, pedia 'Continua'; e o particípio 'arrumado' (masc.) não concorda com 'fichas' (fem.); (c) `trayAria` 'restam {n} fichas' — errado em {n}=1. Nenhuma string nova nossa faz verbo concordar com {n}, {cap} ou {left}: usamos 'ainda HÁ espaço para {left}' ('há' não flexiona por número), rótulo com dois-pontos, e 'mudou o lugar' (sujeito singular fixo). Lidas em voz alta com 1, 2 e 7.",
+
+  "DEFEITO 3 (STRINGS pt EMBARCADAS — VAZAMENTO DE PORTUGUÊS EUROPEU NUMA STRING DE VENDA). O `gateBody` pt embarcado diz 'imprima o que está no ECRÃ' e 'Guarde OS SEUS quadros'. 'Ecrã' não existe no Brasil (é 'tela'), e o artigo antes do possessivo é uso europeu. A plataforma declara pt = brasileiro canônico (§6). Está no corpo do portão pago, isto é, no texto que o professor lê no momento de decidir pagar.",
+
+  "DEFEITO 4 (STRINGS pt EMBARCADAS — ALEGAÇÃO PAGA FALSA, AINDA VIVA NAS DEZ LÍNGUAS). O mesmo `gateBody` pt vende 'imprima o que está no ecrã' DENTRO do portão pago, mas `_buildBar()` linha 1155 registra, por decisão do operador, que IMPRIMIR NÃO É BLOQUEADO ('PRINT IS NOT LOCKED… never gate the first affordance'). Isto é: o portão anuncia como benefício do plano Professor uma coisa que já é gratuita para todos — viola a regra permanente 'TIER TRUTH BEFORE MARKETING COPY'. ATENÇÃO AO ESCOPO: o `_source-en.json` ATUAL já foi corrigido (termina em 'Keep the frames you build and come back to them.'), mas as onze strings dentro de ten-frame.js ainda são as antigas — logo o defeito continua vivo em pt e presumivelmente nas outras nove línguas até que cada painel entregue. Nosso pt segue a fonte nova e não menciona impressão.",
+
+  "DEFEITO 5 (CENSO DE SUBSTANTIVOS FOI FEITO SÓ EM INGLÊS). O cabeçalho (linhas 17-24) conclui que 'frame, cell, counter e tray estavam livres'. Em português nenhum dos dois principais está: (a) FRAME → 'quadro' é o substantivo mais disputado da plataforma em pt — é o TÍTULO de um irmão (`part-whole-frame` = 'O quadro das partes') e ainda aparece em center-board, feelings-check-in ('o quadro das emoções'), letter-tiles, choral-counting, home-language-bridge; (b) TRAY → 'bandeja' é peça nomeada de `letter-tiles` ('{g} de volta à bandeja') e é o vaso do `money-core` inteiro ('sua bandeja', 'na bandeja', quatro strings). Um censo feito na língua-fonte não prevê qual palavra a língua de chegada vai precisar. Ver rulings 1 e 2.",
+
+  "NOTA MENOR (FONTE EN). O `gateBody` diz '…the teens on both FIELDS' enquanto todo o resto da ferramenta diz 'frame'. É um segundo substantivo para a mesma peça, em prosa de venda. Some em pt (ambos viram 'quadro'), mas em EN vale uniformizar para 'frames'.",
+
+  "RETIRADO — 'Field of twenty' seria um decalque de Zwanzigerfeld e uma quarta peça nomeada. FALSO: a fonte atual diz 'Frame of twenty'. O defeito veio da minha leitura desatualizada.",
+  "RETIRADO — `routinesBtn` como string morta autorada em onze línguas. Parcialmente falso: a chave JÁ NÃO EXISTE na fonte nem no arquivo. O diagnóstico (não é alcançável por nenhum caminho) continua correto, mas o conserto já foi feito.",
+
+  "=== RULINGS ===",
+
+  "RULING 1 — 'quadro' fica, e assumimos a homonímia. Em PB 'quadro' é antes de tudo o QUADRO DA SALA (quadro-branco, quadro-negro) — é exatamente por isso que o irmão vetou o verbo 'apagar' ('apagar o quadro' = limpar a lousa). Não há como trocar: `title` é slug indexado e termo-cabeça, travado. Então: (a) 'quadro' é o ÚNICO nome da peça, sem inventar um quarto substantivo — 'moldura', 'grelha' e 'tabuleiro' foram recusados por serem a quarta peça nomeada do #41; (b) NENHUMA string usa verbo de lousa ('apagar', 'limpar', 'escrever no quadro'); (c) nos chips o substantivo vem sempre qualificado ('Quadro de cinco/dez/vinte'), que é a forma em que o leitor brasileiro lê 'ten frame' e não 'lousa'. Só `frameAria` fica com 'O quadro' nu, e aceitamos: quem usa leitor de tela está dentro da ferramenta cujo título acabou de dizer 'Quadro de dez'.",
+
+  "RULING 2 — a bandeja virou A CESTINHA. 'Bandeja' é a palavra óbvia e por isso mesmo já estava tomada (letter-tiles + money-core, defeito 5) — o caso recorrente do §23.6. Varredura do léxico pt embarcado: 'pote' TOMADO (estimation-jar 'o pote alto', draw-bag 'De volta ao pote', 'Pote novo'), 'caixa' TOMADO (letter-tiles 'Caixas de letras', blending-board 'Caixa de sons'), 'tabuleiro' TOMADO (fraction-kitchen 'Encher o tabuleiro', 'O tabuleiro'), 'prato' TOMADO (number-balance 'Coloque cubinhos no prato'), 'tigela' TOMADO (estimation-jar 'a tigela larga'). Livres: 'cestinha' (0), 'vasilha' (0), 'estojo' (0). Escolhemos 'a cestinha': é o objeto real da sala de anos iniciais brasileira ('cestinha de materiais'), a criança conhece, é limitada (você enfia a mão e as fichas ACABAM — que é a tese da ferramenta) e é calorosa. RISCO TRIADO E LIBERADO: na gíria esportiva brasileira 'o cestinha' é o maior pontuador do jogo — mas ali é MASCULINO; com artigo feminino ('a cestinha') a leitura de placar não se abre, e a ferramenta não tem pontuação nenhuma. REJEITADOS: 'vasilha' (registro doméstico/adulto), 'cesto' (grande demais), 'porta-fichas' (composto artificial).",
+
+  "RULING 3 — 'Arrumar' VETADO; o verbo é ALINHAR. Dois motivos independentes. (a) COLISÃO: 'arrum-' já é de outros cinco arquivos e num deles é uma ROTINA DE SALA NOMEADA — class-timer diz 'Falta um minuto — hora de arrumar!' e our-day tem 'Arrumar a mochila' (mais center-board 'Arrumando os cantinhos…', wodb 'a arrumação', fraction-kitchen 'Arrumando a mesa…'). Em pt 'Arrumar' já significa 'hora de guardar as coisas'. (b) VEREDITO DISFARÇADO, que é o mais grave: em PB 'arrumar' também é CONSERTAR ('arrumar a bicicleta', 'arrumar o problema'). Um botão 'Arrumar' diz à criança que o espalhado dela estava ERRADO e vai ser consertado — o oposto exato da tese, cuja pergunta é 'ainda são sete?'. A recusa nº 1 do cabeçalho é 'NEVER ASKS / no right or wrong', e 'Arrumar' entrega um veredito por baixo do pano. 'Alinhar' (0 ocorrências na plataforma) é puramente geométrico: as fichas entram em fila, ninguém foi corrigido. REJEITADOS: 'Organizar' (mais fraco, ainda sugere desordem-como-problema), 'Enfileirar' (bom PB, mas a conotação é enfileirar CRIANÇAS), 'Ordenar' (é a palavra do espanhol e sugere ordem crescente de valor).",
+
+  "RULING 4 — 'Completar' VETADO; o botão é 'Encher tudo'. Em português escolar brasileiro 'Complete' é a fórmula da FOLHA DE EXERCÍCIO ('Complete as lacunas', 'Complete a sequência') — é a voz que PEDE RESPOSTA, e esta ferramenta nunca pede. 'Encher' é o verbo físico (você enche o quadro com o que sobrou na cestinha) e casa com `saidFull` ('Cheio'). 'Encher o quadro' seria mais explícito, mas a barra já carrega cinco desenhos de campo + Alinhar + Imprimir + Meus quadros; 'Encher tudo' é curto e inequívoco. Não colide com fraction-kitchen ('Encher o tabuleiro' — outro objeto).",
+
+  "RULING 5 — `gateTitle` deixou de ser 'Mais quadros'. O chip que ABRE o portão diz 'Meus quadros'; o portão que ele abre dizia 'Mais quadros'. 'Meus' e 'Mais' diferem por uma letra, aparecem na mesma interação e a um metro de distância num projetor viram a mesma palavra. Trocamos por 'Quadros prontos', que além de não confundir já diz o que há lá dentro e concorda com o corpo ('quadros já prontos').",
+
+  "RULING 6 — o complemento chama-se AMIGOS DO DEZ. Existe termo brasileiro real e consolidado nos anos iniciais: 'os amigos do 10' (também 'amiguinhos do dez'; 'parceiros do dez' em material mais novo). Mantido por ser o que a professora reconhece de imediato. Descartados 'compostos do dez' e 'pares que formam dez' — corretos e frios, e o corpo do portão é texto de venda para professor, não descritor BNCC.",
+
+  "RULING 7 — as fichas são FICHAS, e aqui a partilha é CORRETA. 'Ficha' é a palavra brasileira para o marcador redondo de matemática ('fichas coloridas') e já é partilhada por part-whole-frame ('Leve uma ficha'), name-sticks ('Cor da ficha') e pattern-bench ('Forma das fichas'). Ao contrário de 'quadro' e 'bandeja', esta partilha não é defeito: o contador é literalmente o MESMO objeto físico em todas as ferramentas, e dar-lhe onze nomes seria pior. 'Marcador' está vetado por irmão; 'contador' seria falso amigo (em PB é o profissional ou o medidor); 'tampinha' é o material improvisado, não o oficial.",
+
+  "RULING 8 — `counterLabel` virou 'Cor das fichas', não 'Fichas'. A chave só é usada como `labelKey` do campo de COR (settings[0], linhas ~312-316); rotular um seletor de cor com o substantivo nu é o que o inglês faz, mas os dois irmãos que já embarcam o mesmo campo em pt dizem 'Cor das fichas' / 'Cor da ficha'. Precedência de leitura-do-léxico (§10.4).",
+
+  "RULING 9 — `saidTidied` diz o invariante com todas as letras: 'Ainda {n} de {cap} — mudou o lugar, não a quantidade'. É a única via pela qual quem usa leitor de tela descobre que Alinhar não mexeu no número, então preferimos ser explícitos a ser elegantes. Descartados 'agora alinhadas' (particípio feminino que exige mais de uma ficha e quebra em {n}=1) e 'as mesmas {n}' (mesmo problema).",
+
+  "RULING 10 — GEOMETRIA DO VINTE: pt CONFIRMA o `default` (`twentypair`, dois quadros de dez), não o Zwanzigerfeld. O Brasil não tem tradição de campo 2x10 com corte no cinco: o material brasileiro de anos iniciais (o quadro de dez do PNAIC e derivados, cadernos de Nova Escola) apresenta o vinte como DOIS quadros de dez. O 'Quadro de vinte' permanece como quinto chip, alcançável para quem quiser, mas não deve abrir por padrão em pt. Este é o ruling de sistema escolar que o cabeçalho (linhas 221-231) pede a cada painel — pt não é hipótese, é 'default' confirmado. Nada a mudar em `GEOMETRY_BY_LOCALE`.",
+
+  "RULING 11 — 'Dez em fila', não 'Dez em linha'. 'Linha' já está ocupada dentro da própria ferramenta como a LINHA do quadro ('Linha por linha', em `orderRows`); usar 'linha' também no nome do campo faria a mesma palavra significar duas coisas na mesma barra. 'Fila' é PB natural e fica só com o campo. ('Reta' nem foi cogitada — é do #1 number-line nas onze línguas.)",
+
+  "RULING 12 — `uprightLabel` 'Colocar em pé', não 'Pôr em pé'. 'Pôr' como rótulo soa europeu; o brasileiro diz 'colocar'. Mantém o padrão de frase inteira dos outros rótulos da gaveta ('Mostrar o número').",
+
+  "RULING 13 — o que NÃO entrou: nenhuma palavra de veredito ou pontuação (certo, errado, muito bem, parabéns, ponto, acertou), nenhuma pergunta com resposta, nenhum pedido de resposta ('escreva o número', 'quantos faltam?'), nenhum sinal de =/</>, nenhuma menção a tempo. `instruction` é observação ('veja quanto espaço ainda sobra'), não tarefa. Evitámos 'coleção' (vetado por irmão) — ficou 'Vários quadros já prontos'. `gateCta` mantém literalmente 'Ver o plano Professor', que é o valor já padronizado nas ferramentas irmãs. Sem caracteres invisíveis: só ASCII, acentos latinos e o travessão (—), convenção da casa; o português, ao contrário do francês, não pede espaço insecável."
+ ]
+}

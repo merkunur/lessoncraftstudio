@@ -71,8 +71,8 @@ var EstimationJar = {
     nudgeDown10:  {en:'Ten fewer',de:'Zehn weniger',fr:'Dix de moins',it:'Dieci in meno',es:'Diez menos',pt:'Dez a menos',nl:'Tien minder',sv:'Tio färre',da:'Ti færre',no:'Ti færre',fi:'Kymmenen vähemmän'},
     nudgeUp10:    {en:'Ten more',de:'Zehn mehr',fr:'Dix de plus',it:'Dieci in più',es:'Diez más',pt:'Dez a mais',nl:'Tien meer',sv:'Tio fler',da:'Ti flere',no:'Ti flere',fi:'Kymmenen enemmän'},
     surprise:     {en:'Pick a number for me',de:'Eine Zahl für mich aussuchen',fr:'Choisir un nombre à ma place',it:'Scegli un numero per me',es:'Número sorpresa',pt:'Escolha um número para mim',nl:'Kies een getal voor mij',sv:'Välj ett tal åt mig',da:'Vælg et tal for mig',no:'Velg et tall for meg',fi:'Valitse luku puolestani'},
-    capAria:      {en:'Jar that holds up to {n}',de:'Glas mit Platz für bis zu {n}',fr:'Bocal pouvant contenir jusqu’à {n} objets',it:'Barattolo che contiene fino a {n}',es:'Frasco donde caben hasta {n}',pt:'Vidro que leva até {n}',nl:'Pot voor maximaal {n}',sv:'Burk som rymmer upp till {n}',da:'Glas der kan rumme op til {n}',no:'Glass som rommer opptil {n}',fi:'Purkki, johon mahtuu enintään {n}'},
-    capLabel:     {en:'Jar size',de:'Glasgröße',fr:'Combien le bocal peut-il contenir ?',it:'Quanto è grande il barattolo?',es:'¿De qué tamaño es el frasco?',pt:'Qual o tamanho do vidro?',nl:'Hoe groot is de pot?',sv:'Hur stor är burken?',da:'Hvor stort er glasset?',no:'Hvor stort er glasset?',fi:'Kuinka iso purkki on?'},
+    capAria:      {en:'Jar that holds up to {n}',de:'Glas mit Platz für bis zu {n}',fr:'Bocal pouvant contenir jusqu’à {n} objets',it:'Barattolo che contiene fino a {n}',es:'Frasco donde caben hasta {n}',pt:'Vidro que leva até {n}',nl:'Ruimte voor maximaal {n}',sv:'Burk som rymmer upp till {n}',da:'Glas der kan rumme op til {n}',no:'Glass som rommer opptil {n}',fi:'Purkki, johon mahtuu enintään {n}'},
+    capLabel:     {en:'How many fit in the jar',de:'Glasgröße',fr:'Combien le bocal peut-il contenir ?',it:'Quanto è grande il barattolo?',es:'¿De qué tamaño es el frasco?',pt:'Qual o tamanho do vidro?',nl:'Hoeveel er maximaal in kunnen',sv:'Burkens storlek',da:'Glassets størrelse',no:'Glassets størrelse',fi:'Purkin koko'},
     guessesIn:    {en:'Every guess belongs on the line.',de:'Jede Schätzung gehört auf die Linie.',fr:'Chaque estimation a sa place sur la ligne.',it:'Ogni stima ha il suo posto sulla linea.',es:'Cada idea tiene su lugar en la línea.',pt:'Todo palpite tem lugar na linha.',nl:'Elke schatting hoort op de lijn.',sv:'Varje tanke får plats på linjen.',da:'Alle bud hører til på linjen.',no:'Alle overslag hører hjemme på tallinja.',fi:'Jokainen arvio kuuluu viivalle.'},
 
     /* reveal face */
@@ -82,8 +82,8 @@ var EstimationJar = {
     neighbourhood:{en:'Look how many of us landed in the neighborhood.',de:'Schaut mal, wie viele von uns schon ganz nah dran waren.',fr:'Regardez comme nous étions nombreux dans les parages !',it:'Guardate quante delle nostre stime erano lì intorno.',es:'Miren cuántas de nuestras ideas quedaron por esa zona.',pt:'Vejam quantos de nós ficamos aqui em volta.',nl:'Kijk eens hoeveel van ons er in de buurt zaten.',sv:'Titta så många av oss som var nära.',da:'Se, hvor mange af os der var lige i nærheden.',no:'Se så mange av oss som var i nærheten!',fi:'Katsokaa, kuinka moni meistä oli samoilla main.'},
     /* Screen-reader only — the dot plot is a picture, and this is its
        equivalent. A partition by sign, never a distance or a rank. */
-    spreadAria:   {en:'On the line: {below} below, {same} the same, {above} above.',de:'Auf der Linie: {below} darunter, {same} genau darauf, {above} darüber.',fr:'Sur la ligne : {below} en dessous, {same} juste dessus, {above} au-dessus.',it:'Sulla linea: {below} sotto, {same} uguali, {above} sopra.',es:'En la línea: {below} por debajo, {same} en el mismo número, {above} por encima.',pt:'Na linha: {below} abaixo, {same} igual, {above} acima.',nl:'Op de lijn: {below} eronder, {same} precies, {above} erboven.',sv:'På linjen: {below} under, {same} lika, {above} över.',da:'På linjen: {below} under, {same} lige på, {above} over.',no:'På tallinja: {below} under, {same} likt, {above} over.',fi:'Viivalla: {below} alle, {same} sama, {above} yli.'},
-    holdBack:     {en:'Press and hold — or Shift + Enter — to change the jar',de:'Zum Ändern des Glases gedrückt halten',fr:'Maintenez appuyé pour changer le bocal',it:'Tieni premuto per cambiare il barattolo',es:'Mantén presionado para cambiar el frasco',pt:'Segure para mudar o vidro',nl:'Houd ingedrukt om de pot te wijzigen',sv:'Håll inne för att ändra burken',da:'Hold nede for at ændre glasset',no:'Hold inne for å endre glasset',fi:'Pidä pohjassa muuttaaksesi purkkia'},
+    spreadAria:   {en:'On the line: {below} below, {same} the same, {above} above.',de:'Auf der Linie: {below} darunter, {same} genau darauf, {above} darüber.',fr:'Sur la ligne : {below} en dessous, {same} juste dessus, {above} au-dessus.',it:'Sulla linea: {below} sotto il numero del barattolo, {same} uguali, {above} sopra.',es:'En la línea: {below} por debajo, {same} en el mismo número, {above} por encima.',pt:'Na linha: {below} abaixo do número do vidro, {same} iguais, {above} acima.',nl:'Op de lijn: {below} eronder, {same} er precies op, {above} erboven.',sv:'På linjen: {below} under, {same} på samma tal, {above} över.',da:'På linjen: {below} under, {same} på samme tal, {above} over.',no:'På tallinja: {below} under, {same} på samme tall, {above} over.',fi:'Viivalla: {below} arvioi alle, {same} sanoi saman luvun, {above} arvioi yli.'},
+    holdBack:     {en:'Press and hold — or Shift + Enter — to go back to filling',de:'Zum Ändern des Glases gedrückt halten',fr:'Maintenez appuyé pour changer le bocal',it:'Tieni premuto per cambiare il barattolo',es:'Mantén presionado para cambiar el frasco',pt:'Toque e segure para mudar o vidro',nl:'Houd ingedrukt — of Shift + Enter — om terug te gaan naar het vullen',sv:'Håll inne – eller Skift + Enter – för att ändra burken',da:'Hold nede — eller Skift + Enter — for at ændre glasset',no:'Hold inne – eller Skift + Enter – for å endre glasset',fi:'Pidä pohjassa tai paina Vaihto + Enter, niin voit muuttaa purkkia'},
     again:        {en:'A new jar',de:'Ein neues Glas',fr:'Un nouveau bocal',it:'Un nuovo barattolo',es:'Un frasco nuevo',pt:'Um vidro novo',nl:'Opnieuw vullen',sv:'En ny burk',da:'Et nyt glas',no:'Et nytt glass',fi:'Uusi purkki'},
 
     /* sets + premium */
@@ -99,26 +99,26 @@ var EstimationJar = {
        tools' "Lehrer-Paket"). That is a catalog decision with an
        eleven-locale grammar tail, not one to take unilaterally inside
        one tool. Surfaced, not quietly changed. */
-    setRange:     {en:'Give a range, not a number',de:'Statt einer Zahl einen Bereich angeben',fr:'Encadrer au lieu de donner un nombre',it:'Dai un intervallo, non un numero',es:'Dar un intervalo, no un número',pt:'Dar um intervalo, não um número',nl:'Een bereik geven, geen getal',sv:'Ge ett intervall, inte ett tal',da:'Giv et interval, ikke et tal',no:'Gi et intervall, ikke et tall',fi:'Anna väli, älä lukua'},
-    rangeHint:    {en:'Tap a number that is too small, then one that is too big.',de:'Tippt eine Zahl an, die zu klein ist, und dann eine, die zu groß ist.',fr:'Touchez un nombre trop petit, puis un nombre trop grand.',it:'Toccate un numero troppo piccolo, poi uno troppo grande.',es:'Toquen un número demasiado pequeño y luego uno demasiado grande.',pt:'Toquem num número pequeno demais e depois num grande demais.',nl:'Tik op een getal dat te klein is en daarna op een dat te groot is.',sv:'Tryck på ett tal som är för litet och sedan ett som är för stort.',da:'Tryk på et tal, der er for lille, og så et, der er for stort.',no:'Trykk på et tall som er for lite, og så ett som er for stort.',fi:'Napauttakaa lukua, joka on liian pieni, ja sitten lukua, joka on liian suuri.'},
-    clueTen:      {en:'Show us ten',de:'Zehn zeigen',fr:'Montrez-nous dix',it:'Mostraci dieci',es:'Muéstranos diez',pt:'Mostre-nos dez',nl:'Laat ons tien zien',sv:'Visa oss tio',da:'Vis os ti',no:'Vis oss ti',fi:'Näytä meille kymmenen'},
+    setRange:     {en:'Give a range, not a number',de:'Statt einer Zahl einen Bereich angeben',fr:'Encadrer au lieu de donner un nombre',it:'Chiedi un intervallo, non un numero',es:'Dar un intervalo, no un número',pt:'Pedir um intervalo, não um número',nl:'Een bereik geven in plaats van een getal',sv:'Ge ett intervall, inte ett tal',da:'Giv et interval, ikke et tal',no:'Gi et intervall, ikke et tall',fi:'Anna lukuväli, älä yhtä lukua'},
+    rangeHint:    {en:'Tap a number that is too small, then one that is too big.',de:'Tippt eine Zahl an, die zu klein ist, und dann eine, die zu groß ist.',fr:'Touchez un nombre trop petit, puis un nombre trop grand.',it:'Toccate un numero troppo piccolo, poi uno troppo grande.',es:'Toquen un número demasiado pequeño y luego uno demasiado grande.',pt:'Toquem num número pequeno demais e depois num grande demais.',nl:'Tik op een getal dat te klein is en dan op eentje dat te groot is.',sv:'Tryck på ett tal som är för litet och sedan ett som är för stort.',da:'Tryk på et tal, der er for lille, og så et, der er for stort.',no:'Trykk på et tall som er for lite, og så ett som er for stort.',fi:'Napauttakaa lukua, joka on liian pieni, ja sitten lukua, joka on liian suuri.'},
+    clueTen:      {en:'Show us ten',de:'Zehn zeigen',fr:'Montrez-nous dix',it:'Mostraci dieci',es:'Muéstranos diez',pt:'Mostre dez',nl:'Laat ons tien zien',sv:'Visa oss tio',da:'Vis os ti',no:'Vis oss ti',fi:'Näytä meille kymmenen'},
     jarAria:      {en:'A jar of things to count',de:'Ein Glas voller Dinge zum Abzählen',fr:'Un bocal rempli de choses à compter',it:'Un barattolo pieno di cose da contare',es:'Un frasco lleno de cosas para contar',pt:'Um vidro cheio de coisas para contar',nl:'Vol met dingen om te tellen',sv:'En burk full av saker att räkna',da:'Et glas fuldt af ting, man kan tælle',no:'Et glass fullt av ting å telle',fi:'Purkillinen laskettavia esineitä'},
     histAriaNoDate:{en:'A jar of {n}. Tap to repeat this jar with a new number.',de:'Ein Glas mit {n}. Antippen für dasselbe Glas mit einer neuen Zahl.',fr:'Un bocal de {n}. Touchez pour refaire ce bocal avec un nouveau nombre.',it:'Un barattolo da {n}. Tocca per rifare questo barattolo con un nuovo numero.',es:'Un frasco de {n}. Toca para repetir este frasco con un número nuevo.',pt:'Um vidro de {n}. Toque para repetir este vidro com um número novo.',nl:'Een pot met {n}. Tik om dit opnieuw te doen met een nieuw getal.',sv:'En burk med {n}. Tryck för att göra om den med ett nytt tal.',da:'Et glas med {n}. Tryk for at gentage det med et nyt tal.',no:'Et glass med {n}. Trykk for å gjenta det med et nytt tall.',fi:'Purkki, jossa oli {n}. Napauta toistaaksesi sen uudella luvulla.'},
-    histTitle:    {en:'Jars we have met',de:'Unsere bisherigen Gläser',fr:'Les bocaux déjà vus',it:'I barattoli che abbiamo visto',es:'Los frascos que ya conocemos',pt:'Os vidros que já vimos',nl:'Potten die we al kennen',sv:'Burkar vi har mött',da:'Glas vi har mødt',no:'Glass vi har møtt',fi:'Purkit, jotka olemme nähneet'},
-    histAria:     {en:'A jar of {n}, from {d}. Tap to repeat this jar with a new number.',de:'Ein Glas mit {n}, vom {d}. Antippen: gleiche Füllung, gleiches Glas, neue Zahl.',fr:'Un bocal de {n}, du {d}. Touchez pour préparer un nouveau bocal comme celui-ci.',it:'Un barattolo da {n}, del {d}. Tocca per riempirlo di nuovo.',es:'Un frasco de {n}, del {d}. Toca para repetir este frasco con un número nuevo.',pt:'Um vidro de {n}, de {d}. Toque para enchê-lo de novo.',nl:'Een pot van {n}, van {d}. Tik om deze opnieuw te vullen.',sv:'En burk med {n}, från {d}. Tryck för att fylla den igen.',da:'Et glas med {n}, fra {d}. Tryk for at fylde det igen.',no:'Et glass med {n}, fra {d}. Trykk for å fylle det igjen.',fi:'Purkki, jossa oli {n}, päivältä {d}. Napauta täyttääksesi sen uudelleen.'},
-    printChip:    {en:'Print the record',de:'Wandblatt drucken',fr:'Imprimer l’affiche',it:'Stampa il resoconto',es:'Imprimir el cartel',pt:'Imprimir o registo',nl:'Het verslag afdrukken',sv:'Skriv ut resultatet',da:'Udskriv opgørelsen',no:'Skriv ut oversikten',fi:'Tulosta kooste'},
-    gatePrint:    {en:'The printable record is part of Premium — the jar and the counting are always free.',de:'Das Wandblatt zum Ausdrucken gehört zu Premium – das Glas und das Abzählen bleiben immer kostenlos.',fr:'L’affiche à imprimer fait partie de Premium : le bocal et le comptage restent gratuits.',it:'Il resoconto da stampare fa parte di Premium: il barattolo e il conteggio restano gratuiti.',es:'El cartel para la pared es parte de Premium: el frasco y el conteo siempre son gratis.',pt:'O registo para imprimir é do Premium — o vidro e a contagem são sempre grátis.',nl:'Het afdrukbare verslag hoort bij Premium — de pot en het tellen blijven altijd gratis.',sv:'Det utskrivbara resultatet ingår i Premium – burken och räknandet är alltid gratis.',da:'Den udskrivbare opgørelse hører til Premium — glasset og optællingen er altid gratis.',no:'Den utskrivbare oversikten hører til Premium – glasset og opptellingen er alltid gratis.',fi:'Tulostettava kooste kuuluu Premiumiin – purkki ja laskeminen ovat aina ilmaisia.'},
-    p1Head:       {en:'Our jar this week',de:'Unser Glas diese Woche',fr:'Notre bocal cette semaine',it:'Il nostro barattolo questa settimana',es:'Nuestro frasco de esta semana',pt:'O nosso vidro desta semana',nl:'Onze pot deze week',sv:'Vår burk den här veckan',da:'Vores glas i denne uge',no:'Glasset vårt denne uka',fi:'Tämän viikon purkkimme'},
-    p1Note:       {en:'Put this on the wall. Next week the class has a real ten, and this week’s real number, to think with.',de:'Hängen Sie das Blatt an die Wand. Nächste Woche hat die Klasse eine echte Zehn und die echte Zahl dieser Woche im Kopf.',fr:'À afficher au mur : la semaine prochaine, la classe aura en tête un vrai dix et un bocal qu’elle a vraiment compté.',it:'Appendetelo al muro. La settimana prossima la classe avrà un dieci vero e un quaranta vero a cui pensare.',es:'Cuélgalo en la pared. La próxima semana la clase ya tendrá un diez de verdad y el número de esta semana para comparar.',pt:'Pendurem na parede. Na próxima semana a turma terá um dez de verdade e um quarenta de verdade para pensar.',nl:'Hang dit aan de muur. Volgende week heeft de klas een echte tien en een echte veertig om mee te denken.',sv:'Sätt upp det på väggen. Nästa vecka har klassen en riktig tia och en riktig fyrtia att tänka med.',da:'Hæng det op på væggen. Næste uge har klassen en rigtig ti og en rigtig fyrre at tænke med.',no:'Heng det på veggen. Neste uke har klassen en ekte ti og en ekte førti å tenke med.',fi:'Ripustakaa se seinälle. Ensi viikolla luokalla on oikea kymmenen ja oikea neljäkymmentä mielessään.'},
+    histTitle:    {en:'Jars we have met',de:'Unsere bisherigen Gläser',fr:'Les bocaux déjà vus',it:'I barattoli che abbiamo visto',es:'Los frascos que ya conocemos',pt:'Os vidros que já vimos',nl:'Wat we al geteld hebben',sv:'Burkar vi har haft',da:'Glas vi har haft',no:'Glass vi har hatt',fi:'Aiemmat purkkimme'},
+    histAria:     {en:'A jar of {n}, from {d}. Tap to repeat this jar with a new number.',de:'Ein Glas mit {n}, vom {d}. Antippen: gleiche Füllung, gleiches Glas, neue Zahl.',fr:'Un bocal de {n}, du {d}. Touchez pour préparer un nouveau bocal comme celui-ci.',it:'Un barattolo da {n}, del {d}. Tocca per preparare un nuovo barattolo con lo stesso contenuto.',es:'Un frasco de {n}, del {d}. Toca para repetir este frasco con un número nuevo.',pt:'Um vidro de {n}, de {d}. Toque para preparar um vidro novo com o mesmo conteúdo.',nl:'Er zaten er {n} in, op {d}. Tik om dit nog eens te doen met een nieuw getal.',sv:'En burk med {n}, från {d}. Tryck för att göra om samma burk med ett nytt tal.',da:'Et glas med {n}, fra {d}. Tryk for at fylde det samme glas igen med et nyt tal.',no:'Et glass med {n}, fra {d}. Trykk for å fylle det samme glasset igjen med et nytt tall.',fi:'Purkki, jossa oli {n}, päivältä {d}. Napauta, niin saat saman purkin uudelleen uudella luvulla.'},
+    printChip:    {en:'Print the record',de:'Wandblatt drucken',fr:'Imprimer l’affiche',it:'Stampa il resoconto',es:'Imprimir el cartel',pt:'Imprimir o registro',nl:'Poster afdrukken',sv:'Skriv ut affischen',da:'Udskriv plakaten',no:'Skriv ut plakaten',fi:'Tulosta juliste'},
+    gatePrint:    {en:'The printable record is part of Premium — the jar and the counting are always free.',de:'Das Wandblatt zum Ausdrucken gehört zu Premium – das Glas und das Abzählen bleiben immer kostenlos.',fr:'L’affiche à imprimer fait partie de Premium : le bocal et le comptage restent gratuits.',it:'Il resoconto da stampare fa parte di Premium: il barattolo e il conteggio restano gratuiti.',es:'El cartel para la pared es parte de Premium: el frasco y el conteo siempre son gratis.',pt:'O registro para imprimir é do Premium — o vidro e a contagem são sempre grátis.',nl:'De poster om op te hangen hoort bij Premium — schatten en tellen blijven altijd gratis.',sv:'Den utskrivbara affischen ingår i Premium – burken och räknandet är alltid gratis.',da:'Plakaten til udskrift hører til Premium — glasset og optællingen er altid gratis.',no:'Plakaten til utskrift hører til Premium – glasset og opptellingen er alltid gratis.',fi:'Tulostettava juliste kuuluu Premiumiin – purkki ja laskeminen ovat aina ilmaisia.'},
+    p1Head:       {en:'Our jar this week',de:'Unser Glas diese Woche',fr:'Notre bocal cette semaine',it:'Il nostro barattolo questa settimana',es:'Nuestro frasco de esta semana',pt:'Nosso vidro desta semana',nl:'Hoeveel het er deze week waren',sv:'Vår burk den här veckan',da:'Vores glas i denne uge',no:'Glasset vårt denne uka',fi:'Tämän viikon purkkimme'},
+    p1Note:       {en:'Put this on the wall. Next week the class has a real ten, and this week’s real number, to think with.',de:'Hängen Sie das Blatt an die Wand. Nächste Woche hat die Klasse eine echte Zehn und die echte Zahl dieser Woche im Kopf.',fr:'À afficher au mur : la semaine prochaine, la classe aura en tête un vrai dix et un bocal qu’elle a vraiment compté.',it:'Appendetelo al muro: la settimana prossima la classe avrà un dieci vero e il numero vero di questa settimana su cui ragionare.',es:'Cuélgalo en la pared. La próxima semana la clase ya tendrá un diez de verdad y el número de esta semana para comparar.',pt:'Pendurem na parede: na próxima semana a turma vai ter um dez de verdade e o número desta semana para pensar.',nl:'Hang dit op in de klas. Volgende week hebben de kinderen een echte tien en het echte getal van deze week om mee te denken.',sv:'Sätt upp affischen på väggen. Nästa vecka har klassen en riktig tia och veckans riktiga tal att tänka med.',da:'Hæng plakaten op på væggen. Næste uge har klassen en rigtig tier og ugens rigtige tal at tænke med.',no:'Heng plakaten på veggen. Neste uke har klassen en ekte tier og ukas ekte tall å tenke med.',fi:'Ripusta juliste seinälle. Ensi viikolla luokalla on mielessään aito kymmenen ja tämän viikon todellinen lukumäärä.'},
     p2Head:       {en:'Next week',de:'Nächste Woche',fr:'La semaine prochaine',it:'La settimana prossima',es:'La próxima semana',pt:'Na próxima semana',nl:'Volgende week',sv:'Nästa vecka',da:'Næste uge',no:'Neste uke',fi:'Ensi viikolla'},
-    p2Note:       {en:'Draw what is in the jar, mark every guess on the line, then color in the tens as you count them out.',de:'Zeichnet, was im Glas ist, markiert jede Schätzung auf der Linie und malt beim Abzählen die Zehner aus.',fr:'Dessinez ce qu’il y a dans le bocal, marquez chaque estimation sur la ligne, puis coloriez les dizaines en les comptant.',it:'Disegnate cosa c’è nel barattolo, segnate ogni stima sulla linea, poi colorate le decine mentre contate.',es:'Dibujen lo que hay en el frasco, marquen cada idea en la línea y coloreen las decenas al contarlas.',pt:'Desenhem o que há no vidro, marquem cada palpite na linha e pintem as dezenas enquanto contam.',nl:'Teken wat er in de pot zit, zet elke schatting op de lijn en kleur de tientallen in terwijl je telt.',sv:'Rita vad som finns i burken, sätt varje gissning på linjen och färglägg tiotalen medan ni räknar.',da:'Tegn hvad der er i glasset, sæt hvert bud på linjen, og farvelæg tierne, mens I tæller op.',no:'Tegn hva som er i glasset, sett hvert overslag på tallinja, og fargelegg tierne mens dere teller.',fi:'Piirtäkää mitä purkissa on, merkitkää jokainen arvio viivalle ja värittäkää kymmenet laskiessanne.'},
+    p2Note:       {en:'Draw what is in the jar, mark every guess on the line, then color in the tens as you count them out.',de:'Zeichnet, was im Glas ist, markiert jede Schätzung auf der Linie und malt beim Abzählen die Zehner aus.',fr:'Dessinez ce qu’il y a dans le bocal, marquez chaque estimation sur la ligne, puis coloriez les dizaines en les comptant.',it:'Disegnate che cosa c’è nel barattolo, segnate ogni stima sulla linea, poi colorate le decine mentre contate.',es:'Dibujen lo que hay en el frasco, marquen cada idea en la línea y coloreen las decenas al contarlas.',pt:'Desenhem o que tem no vidro, marquem cada palpite na linha e pintem as dezenas enquanto contam.',nl:'Teken wat erin zit, zet elke schatting op de lijn en kleur de tientallen in terwijl je ze uittelt.',sv:'Rita vad som finns i burken, sätt varje gissning på linjen och färglägg tiotalen medan ni räknar.',da:'Tegn hvad der er i glasset, sæt hvert bud på linjen, og farvelæg tierne, mens I tæller op.',no:'Tegn hva som er i glasset, sett hvert overslag på tallinja, og fargelegg tierne mens dere teller.',fi:'Piirtäkää mitä purkissa on, merkitkää jokainen arvio viivalle ja värittäkää kymmenet laskiessanne.'},
     unlock:       {en:'See Premium',de:'Premium ansehen',fr:'Découvrir Premium',it:'Scopri Premium',es:'Ver Premium',pt:'Ver o Premium',nl:'Bekijk Premium',sv:'Se Premium',da:'Se Premium',no:'Se Premium',fi:'Tutustu Premiumiin'},
 
     /* settings */
     setVoice:     {en:'Count aloud',de:'Laut mitzählen',fr:'Compter à voix haute',it:'Conta ad alta voce',es:'Contar en voz alta',pt:'Contar em voz alta',nl:'Hardop meetellen',sv:'Räkna högt',da:'Tæl højt',no:'Tell høyt',fi:'Laske ääneen'},
     setBench:     {en:'Show ten to compare',de:'Zehn zum Vergleichen zeigen',fr:'Montrer dix pour comparer',it:'Mostra dieci per confrontare',es:'Mostrar diez para comparar',pt:'Mostrar dez para comparar',nl:'Tien laten zien om te vergelijken',sv:'Visa tio att jämföra med',da:'Vis ti at sammenligne med',no:'Vis ti å sammenligne med',fi:'Näytä kymmenen vertailuksi'},
     setOnes:      {en:'Always count by ones',de:'Immer in Einerschritten zählen',fr:'Toujours compter un par un',it:'Conta sempre uno a uno',es:'Contar siempre de uno en uno',pt:'Contar sempre de um em um',nl:'Altijd één voor één tellen',sv:'Räkna alltid ett i taget',da:'Tæl altid én ad gangen',no:'Tell alltid én om gangen',fi:'Laske aina yksi kerrallaan'},
-    benchAria:    {en:'A dish holding {n} of the same things that are in the jar, to compare with',de:'Ein Schälchen mit {n} davon zum Vergleichen',fr:'Une coupelle avec {n} objets, les mêmes que dans le bocal, pour comparer',it:'Una ciotola con {n} di questi, per confrontare',es:'Un platito con {n} iguales, para comparar',pt:'Um prato com {n} deles, para comparar',nl:'Een schaaltje met {n} ervan, om mee te vergelijken',sv:'En skål med {n} av dem att jämföra med',da:'En skål med {n} af dem at sammenligne med',no:'En skål med {n} av dem å sammenligne med',fi:'Kulho, jossa on {n} niistä vertailua varten'},
+    benchAria:    {en:'A dish holding {n} of the same things that are in the jar, to compare with',de:'Ein Schälchen mit {n} davon zum Vergleichen',fr:'Une coupelle avec {n} objets, les mêmes que dans le bocal, pour comparer',it:'Un piattino con {n} degli stessi oggetti del barattolo, per confrontare',es:'Un platito con {n} iguales, para comparar',pt:'Um pratinho com {n} objetos iguais aos do vidro, para comparar',nl:'Een schoteltje met {n} van dezelfde dingen die we tellen, om mee te vergelijken',sv:'Ett fat med {n} av samma saker som finns i burken, att jämföra med',da:'Et fad med {n} af de samme ting, som er i glasset, at sammenligne med',no:'Et fat med {n} av de samme tingene som er i glasset, til å sammenligne med',fi:'Vati, jossa on {n} samanlaista esinettä kuin purkissa, vertailua varten'},
     setSeason:    {en:'Suggest by season',de:'Nach Jahreszeit vorschlagen',fr:'Proposer selon la saison',it:'Proponi per stagione',es:'Sugerir por temporada',pt:'Sugerir por estação',nl:'Voorstellen per seizoen',sv:'Föreslå efter årstid',da:'Foreslå efter årstid',no:'Foreslå etter årstid',fi:'Ehdota vuodenajan mukaan'},
 
     /* Morning Circle suite footer — opened by this tool (the fifth) */
@@ -204,12 +204,23 @@ var EstimationJar = {
      no distance, no rank, no nearest, nothing about any one child — and
      it is strictly more honest than the "neighborhood" the closing line
      gestures at, which nothing in this tool is allowed to measure. */
-  spread: function (guesses, actual) {
+  spread: function (guesses, actual, ranges) {
     var out = { below: 0, same: 0, above: 0 }, i, s;
     for (i = 0; i < (guesses || []).length; i++) {
       s = this.compare(guesses[i], actual);
       if (s === 'same') out.same++;
       else if (s === 'more') out.below++;   /* the jar held more, so the guess was under */
+      else out.above++;
+    }
+    /* ⚠ RANGES WERE INVISIBLE HERE. In range mode a screen-reader user
+       heard a partition that silently excluded every estimate the class
+       had made. A range's relation to the answer is a SIGN too — it is
+       entirely below it, it holds it, or it is entirely above — so it
+       joins the same three counts with no new prose and no distance. */
+    for (i = 0; i < (ranges || []).length; i++) {
+      var r = ranges[i];
+      if (this.rangeHolds(r, actual)) out.same++;
+      else if (Math.max(r.lo, r.hi) < actual) out.below++;
       else out.above++;
     }
     return out;
@@ -864,7 +875,7 @@ var EstimationJar = {
          only the door to the secret is heavy. */
       if (m[0] === 'fill') {
         var held = null, fired = false;
-        b.setAttribute('title', api.t('holdBack'));
+        if (self.stage !== 'fill') b.setAttribute('title', api.t('holdBack'));
         /* the keyboard equivalent of the hold — announced by the string
            AND declared here, so assistive tech can surface it directly */
         b.setAttribute('aria-keyshortcuts', 'Shift+Enter');
@@ -1227,14 +1238,12 @@ var EstimationJar = {
     return actual >= Math.min(r.lo, r.hi) && actual <= Math.max(r.lo, r.hi);
   },
 
-  /* How many of us caught it — a count of a sign class, like spread().
-     ⚠ Deliberately returns only `held` and `total`: no width, no
-     average, nothing that could be differenced across children. */
-  rangeTally: function (ranges, actual) {
-    var held = 0, i;
-    for (i = 0; i < (ranges || []).length; i++) if (this.rangeHolds(ranges[i], actual)) held++;
-    return { held: held, total: (ranges || []).length };
-  },
+  /* ⚠ `rangeTally` USED TO LIVE HERE AND WAS NEVER CALLED — the exact
+     dead-code defect this file's own header brags about having fixed in
+     `compare()`, repeated one feature later, and caught by a native
+     panel reading the CALL SITES rather than the copy. It is gone:
+     `spread()` takes the ranges now, so the sign partition is ONE
+     function on ONE live path instead of two, one of which nobody ran. */
 
   /* Build the three-layer jar box. `n` is what actually goes in the
      glass; the reveal passes a shrinking n as the jar drains. */
@@ -2020,7 +2029,7 @@ var EstimationJar = {
     this._after(t + 320, function () {
       self._paintDots();
       var line = self.fmt('theJarHeld', { n: self.count });
-      var sp = self.spread(self.liveGuesses(), self.count);
+      var sp = self.spread(self.liveGuesses(), self.count, self.liveRanges());
       var aria = line + ' ' + self.api.t('neighbourhood');
       if (sp.below + sp.same + sp.above > 0) {
         aria += ' ' + self.fmt('spreadAria', { below: sp.below, same: sp.same, above: sp.above });
@@ -2167,7 +2176,7 @@ var EstimationJar = {
   },
 
   /* Pure, so the gate can prove what it refuses to keep. */
-  makeRecord: function (stamp, setId, capacity, count, guesses) {
+  makeRecord: function (stamp, setId, capacity, count, guesses, ranges) {
     var bw = this.binWidthFor(capacity), bins = {}, i, key, cols = [];
     for (i = 0; i < (guesses || []).length; i++) {
       key = Math.round(guesses[i] / bw) * bw;
@@ -2177,14 +2186,24 @@ var EstimationJar = {
       cols.push([Number(key), bins[key]]);
     }
     cols.sort(function (a, b) { return a[0] - b[0]; });
-    return { d: stamp, set: setId, cap: capacity, n: count, cols: cols };
+    /* ⚠ A RANGE WEEK USED TO SAVE AN EMPTY SHAPE. Ranges are kept as
+       [lo,hi] pairs in value order — still no width is ever computed
+       from them; they are drawn, never measured. */
+    var bars = [], j;
+    for (j = 0; j < (ranges || []).length; j++) {
+      bars.push([Math.min(ranges[j].lo, ranges[j].hi), Math.max(ranges[j].lo, ranges[j].hi)]);
+    }
+    bars.sort(function (a, b) { return a[0] - b[0] || a[1] - b[1]; });
+    var rec = { d: stamp, set: setId, cap: capacity, n: count, cols: cols };
+    if (bars.length) rec.bars = bars;
+    return rec;
   },
 
   _remember: function () {
     if (!this.premium) return;
     var stamp;
     try { stamp = new Date().toISOString().slice(0, 10); } catch (_) { stamp = ''; }
-    var rec = this.makeRecord(stamp, this.setId, this.capacityOf(), this.count, this.liveGuesses());
+    var rec = this.makeRecord(stamp, this.setId, this.capacityOf(), this.count, this.liveGuesses(), this.liveRanges());
     this._store = this._store || {};
     var h = this._store.history || [];
     /* one jar per day — re-running the same jar replaces rather than
@@ -2342,7 +2361,7 @@ var EstimationJar = {
 
     /* the class's plot, redrawn in ink — the SAME bins the screen used,
        so the paper cannot disagree with the board */
-    p1.appendChild(this._sheetPlot(this.liveGuesses(), this.stage === 'reveal' ? this.count : null));
+    p1.appendChild(this._sheetPlot(this.liveGuesses(), this.stage === 'reveal' ? this.count : null, this.liveRanges()));
 
     /* ---- page 2: next week's blank ---- */
     var p2 = page('ej-p2');
@@ -2365,7 +2384,7 @@ var EstimationJar = {
     return sheet;
   },
 
-  _sheetPlot: function (values, truth) {
+  _sheetPlot: function (values, truth, ranges) {
     var api = this.api;
     var max = this.ceiling();
     var step = max <= 30 ? 5 : (max <= 60 ? 10 : (max <= 120 ? 20 : 25));
@@ -2388,6 +2407,15 @@ var EstimationJar = {
         s.push('<circle cx="' + px.toFixed(1) + '" cy="' + (140 - i * 15) + '" r="5.5" fill="none" '
           + 'stroke="#111" stroke-width="1.2" vector-effect="non-scaling-stroke"/>');
       }
+    }
+    /* ⚠ THE PAID SHEET PRINTED NOTHING IN RANGE MODE while gatePrint
+       sells "the printable record". Bars, drawn identically, unmeasured. */
+    for (i = 0; i < (ranges || []).length; i++) {
+      var bl = (Math.min(ranges[i].lo, ranges[i].hi) / max) * 1000;
+      var bh2 = (Math.max(ranges[i].lo, ranges[i].hi) / max) * 1000;
+      var by = 132 - (i % 8) * 15;
+      s.push('<line x1="' + bl.toFixed(1) + '" y1="' + by + '" x2="' + bh2.toFixed(1) + '" y2="' + by
+        + '" stroke="#111" stroke-width="3" stroke-linecap="round" vector-effect="non-scaling-stroke"/>');
     }
     if (truth != null) {
       var tx = (truth / max) * 1000;

@@ -78,17 +78,28 @@ const UNIVERSAL_SEASONS = ['christmas', 'easter', 'winter', 'spring', 'summer'];
 const EN_ONLY_SEASONS = ['4th_of_july', 'thanksgivinng'];
 
 const VERDICT = {
-  en: /\b(correct|incorrect|wrong|oops|try again|fail)\b/i,
-  de: /\b(richtig|falsch|fehler)\b/i,
-  fr: /\b(correct|correcte|faux|fausse|erreur)\b/i,
-  it: /\b(giusto|sbagliato|errore)\b/i,
-  es: /\b(correcto|incorrecto|error)\b/i,
-  pt: /\b(correto|errado|erro)\b/i,
-  nl: /\b(goed antwoord|fout|foutje)\b/i,
-  sv: /\b(rätt svar|fel|felaktig)\b/i,
-  da: /\b(rigtigt svar|forkert|fejl)\b/i,
-  no: /\b(riktig svar|feil)\b/i,
-  fi: /\b(oikein|väärin|virhe)\b/i
+  /* ⚠ Uses w() for the same reason RANKING does: a lone  is ASCII-only,
+     so a banned word beginning with ä/ö/å/æ/ø would be a regex that can
+     never match — the recorded yhteensä trap, sitting armed.
+     ⚠ AND THE NORDIC BODIES MUST NOT BE WIDENED NAIVELY. sv `rätt` and
+     da/no `rigtig`/`riktig` are also INTENSIFIERS (rätt många, riktig
+     mange), and this tool's own shipped Swedish landing copy says
+     "hamnade i rätt trakt" — a bare ban would condemn live correct copy.
+     fi `oikea` is also RIGHT-HAND, legitimate on a number line. So: ban
+     the collocation, plus a whole-string anchor for the bare exclamation.
+     Bodies measured by the sv/da/no/fi panels against all 220 shipped
+     strings in this tool. */
+  en: w('correct|incorrect|wrong|oops|try again|fail'),
+  de: w('richtig\\p{L}*|falsch\\p{L}*|fehler\\p{L}*'),
+  fr: w('correcte?|faux|fausse|erreur\\p{L}*'),
+  it: w('giusto|sbagliat\\p{L}*|errore'),
+  es: w('correcto|incorrecto|error'),
+  pt: w('correto|errado|erro'),
+  nl: w('goed antwoord|fout\\p{L}*'),
+  sv: w('^r(ä|ae)tt[!.]?$|r(ä|ae)tt(a)? svar|helt r(ä|ae)tt|r(ä|ae)tt gissat|korrekt\\p{L}*|fel|felaktig\\p{L}*|felet'),
+  da: w('^rigtigt?[!.]?$|rigtig\\p{L}* svar|helt rigtigt|korrekt\\p{L}*|forkert\\p{L}*|fejl\\p{L}*'),
+  no: w('^riktig[!.]?$|riktig\\p{L}* svar|helt riktig\\p{L}*|korrekt\\p{L}*|feil\\p{L}*'),
+  fi: w('oikein|oikea\\p{L}* vastaus|oikeat vastaukset|v(ä|a)(ä|a)r\\p{L}*|virhe\\p{L}*')
 };
 
 /* THE RANKING BAN — this tool's signature risk. An estimation jar is
@@ -109,16 +120,16 @@ const RANKING = {
      ⚠ And  is ASCII-only, so it cannot see a boundary beside lähimpänä
      or nærmest: these use Unicode lookarounds instead. */
   en: w('closest|nearest|winner|wins|won|best guess|champion'),
-  de: w('am n(ä|ae)chsten|am dichtesten|n(ä|ae)chstdran|gewinn\\w*|sieger\\w*|beste sch(ä|ae)tzung'),
-  fr: w('le plus proche|la plus proche|gagnant\\w*|gagne|vainqueur|meilleure?'),
-  it: w('pi(ù|u) vicin\\w*|vincitor\\w*|vinc(e|ono)|miglior\\w*|meglio'),
-  es: w('m(á|a)s cerca\\w*|ganador\\w*|gana|mejor'),
-  pt: w('mais pert\\w*|mais pr(ó|o)xim\\w*|vencedor\\w*|ganha|melhor'),
-  nl: w('dichtstbij\\w*|het dichtst|winnaar\\w*|wint|beste gok'),
-  sv: w('n(ä|a)rmast\\w*|vinnare|vinner|b(ä|a)sta gissning'),
-  da: w('t(æ|ae)ttest\\w*|n(æ|ae)rmest\\w*|vinder\\w*|bedste g(æ|ae)t'),
-  no: w('n(æ|ae)rmest\\w*|vinner\\w*|beste gjett'),
-  fi: w('l(ä|a)himp(ä|a)n(ä|a)|l(ä|a)hin|voittaj\\w*|voitta\\w*|paras arva\\w*')
+  de: w('am n(ä|ae)chsten|am dichtesten|n(ä|ae)chstdran|gewinn\\p{L}*|sieger\\p{L}*|beste sch(ä|ae)tzung'),
+  fr: w('le plus proche|la plus proche|gagnant\\p{L}*|gagne|vainqueur|meilleure?'),
+  it: w('pi(ù|u) vicin\\p{L}*|vincitor\\p{L}*|vinc(e|ono)|miglior\\p{L}*|meglio'),
+  es: w('m(á|a)s cerca\\p{L}*|ganador\\p{L}*|gana|mejor'),
+  pt: w('mais pert\\p{L}*|mais pr(ó|o)xim\\p{L}*|vencedor\\p{L}*|ganha|melhor'),
+  nl: w('dichtstbij\\p{L}*|het dichtst|winnaar\\p{L}*|wint|beste gok'),
+  sv: w('n(ä|a)rmast\\p{L}*|kom n(ä|a)rmare|vinnare\\p{L}*|vinner|vann|segrar\\p{L}*|b(ä|a)sta (gissning|tanke|bud|f(ö|o)rslag)\\p{L}*'),
+  da: w('t(æ|ae)ttest\\p{L}*|n(æ|ae)rmest\\p{L}*|vinder\\p{L}*|vandt|sejr\\p{L}*|bedste (bud|g(æ|ae)t|g(æ|ae)tteri)\\p{L}*'),
+  no: w('n(æ|ae)rmest\\p{L}*|vinner\\p{L}*|vant|seier\\p{L}*|beste (overslag|gjett|tipp)\\p{L}*'),
+  fi: w('l(ä|a)himp(ä|a)n(ä|a)\\p{L}*|l(ä|a)hin|l(ä|a)himm(ä|a)\\p{L}*|l(ä|a)hemp(ä|a)n(ä|a)\\p{L}*|voitt\\p{L}*|paras (arvio|arvaus|veikkaus)\\p{L}*')
 };
 /* ⚠ POISON, BOTH DIRECTIONS, BEFORE THE BANS JUDGE ANY REAL COPY. A ban
    that is too wide teaches a native panel to word around it instead of
@@ -127,11 +138,14 @@ const RANKING = {
 function poisonRanking() {
   const mustFire = [['en','who was closest?'],['de','die Gewinnerin steht fest'],['de','am dichtesten dran'],
     ['it','chi ha fatto meglio'],['it','vincono i piu vicini'],['pt','a melhor estimativa'],
-    ['fi','kuka oli lahimpana'],['no','hvem var naermest'],['da','det bedste gaet']];
+    ['fi','kuka oli lahimpana'],['no','hvem var naermest'],['da','det bedste bud'],
+    ['sv','vem kom narmast'],['fi','paras arvio'],['no','det beste overslaget']];
   const mustPass = [['de','Schätzt, wie viele es sind'],['de','Eine gute Schätzung reicht'],
     ['it','Guardate quante stime erano lì intorno'],['pt','Todo palpite tem lugar na linha'],
     ['fi','Jokainen arvio kuuluu viivalle'],['no','Alle overslag hører hjemme på tallinja'],
-    ['es','Cada idea tiene su lugar en la línea'],['fr','Chaque estimation a sa place sur la ligne']];
+    ['es','Cada idea tiene su lugar en la línea'],['fr','Chaque estimation a sa place sur la ligne'],
+    ['sv','Det blev rätt många'],['sv','hamnade i rätt trakt'],['da','rigtig mange bud'],
+    ['no','riktig mange overslag'],['fi','siirry oikealle']];
   for (const [loc, txt] of mustFire) {
     if (RANKING[loc] && !RANKING[loc].test(txt)) err(`RANKING poison: the ${loc} ban MISSED "${txt}"`);
   }
@@ -643,18 +657,31 @@ function checkPacking(tool, data) {
   if (!tool.rangeHolds({ lo: 12, hi: 12 }, 12)) err('P15 a degenerate range on the answer did not hold it');
   if (tool.rangeHolds({ lo: 30, hi: 60 }, 12)) err('P15 a range that misses the answer held it');
   if (!tool.rangeHolds({ lo: 40, hi: 5 }, 12)) err('P15 a reversed range was not normalised');
-  const rt = tool.rangeTally(rs, 12);
-  if (rt.held !== 2 || rt.total !== 3) err(`P15 rangeTally = ${JSON.stringify(rt)}, expected {held:2,total:3}`);
+  /* ⚠ THIS USED TO GATE `rangeTally`, WHICH NOTHING CALLED — a gate
+     asserting things about a function on no live path, in a file whose
+     own subject is dead code. `spread()` carries the ranges now, so the
+     assertions moved onto the surface a class actually meets: a range is
+     entirely below the answer, holds it, or is entirely above. */
+  if (typeof tool.rangeTally === 'function')
+    err('P15 rangeTally is back — the sign partition must be ONE function on ONE live path');
+  const rt = tool.spread([], 12, rs);
+  if (rt.same !== 2) err(`P15 spread() counted ${rt.same} ranges as holding 12, expected 2`);
+  if (rt.below !== 0 || rt.above !== 1) err(`P15 spread() range signs wrong: ${JSON.stringify(rt)}`);
   for (const k in rt) {
-    if (['held', 'total'].indexOf(k) === -1) err(`P15 rangeTally leaks "${k}" — only a count of a sign class may exist`);
-    if (typeof rt[k] !== 'number') err('P15 rangeTally returned a non-number');
+    if (['below', 'same', 'above'].indexOf(k) === -1) err(`P15 spread() leaks "${k}" — only sign classes may exist`);
+    if (typeof rt[k] !== 'number') err('P15 spread() returned a non-number');
   }
-  /* the tally must be blind to WIDTH: two sets that hold the answer the
-     same number of times must be indistinguishable, however wide */
-  const tight = tool.rangeTally([{ lo: 11, hi: 13 }], 12);
-  const loose = tool.rangeTally([{ lo: 0, hi: 200 }], 12);
+  /* ⚠ blind to WIDTH: a tight range and a loose one that both hold the
+     answer must be indistinguishable, or the width is a distance */
+  const tight = tool.spread([], 12, [{ lo: 11, hi: 13 }]);
+  const loose = tool.spread([], 12, [{ lo: 0, hi: 200 }]);
   if (JSON.stringify(tight) !== JSON.stringify(loose))
-    err('P15 a tight range and a loose one tally differently — that is a width, i.e. a distance');
+    err('P15 a tight range and a loose one count differently — that is a width, i.e. a distance');
+  /* points and ranges land in the SAME partition, so a class that
+     switches mode is not silently dropped from its own record */
+  const mixed = tool.spread([5, 12, 30], 12, [{ lo: 10, hi: 14 }]);
+  if (mixed.below + mixed.same + mixed.above !== 4)
+    err(`P15 spread() lost an estimate when points and ranges were mixed: ${JSON.stringify(mixed)}`);
   if (typeof tool.rangeWidth === 'function' || typeof tool.narrowest === 'function')
     err('P15 the tool exposes a range-width/narrowest function — NO ACCURACY GRADIENT');
 
